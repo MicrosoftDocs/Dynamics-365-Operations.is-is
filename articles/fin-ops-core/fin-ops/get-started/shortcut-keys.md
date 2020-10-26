@@ -3,7 +3,7 @@ title: Flýtilyklar
 description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761622"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962521"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -32,6 +32,8 @@ Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
+
+Sumar flýtileiðirnar á þessari síðu eru *lyklastrengir*, sem þýðir að þær krefjast tveggja samfelldra setta af lyklasamsetningum (aðskilin með kommu) sem þarf að ýta á hvort í sínu lagi til að kveikja á nauðsynlegri aðgerð. Til dæmis, með flýtileiðinni „Alt+M,A" þarf notandinn fyrst að ýta á „Alt+M“, sleppa lyklunum og síðan smella á „A“. 
 
 ## <a name="finding-a-shortcut"></a>Að finna flýtilykil
 
@@ -193,7 +195,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara á efni aðalsíðu (með bendilinn í annarri rúðu)                    | Alt+M,M                    |
 | Fara í upplýsingakassa (sem kann að fela í sér að opna hann)                       | Alt+M,B eða Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Sérstilltar flýtileiðir
+## <a name="personalization-shortcuts"></a>[Sérstilltar](personalize-user-experience.md) flýtileiðir 
 
 | Til að gera þetta                                                                                                             | Styðjið á                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Færa upp/niður um síðu í uppflettingu                                                                                       | Síða upp / Síða niður              |
 | Flytja efst/neðst í uppflettingu                                                                                    | Heima / Ljúka                       |
 
+## <a name="task-recordershortcuts"></a>[ Verkskráning](../../dev-itpro/user-interface/task-recorder.md)flýtivísanir 
+
+| Til að gera þetta                                                                    | Ýta á                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Stöðva upptöku (meðan á upptöku stendur)                                          | Alt+R,S                    |
+| Kveikja/slökkva á sýnileika verkskráningarglugganum (við skráningu)             | Alt+R,T                    |
+| Kveikja/slökkva á brautarstillingu (meðan verkleiðbeining er spiluð)                                | Alt+R,L                    |
+| Fara í fyrra skref (meðan verkleiðbeining er spiluð)                          | Alt+R,P                    |
+| Fara í næsta skref (við spilun verkleiðbeininga)                              | Alt+R,N                    |
+| Kveikja/slökkva á áherslum á milli síðunnar og hreyfimyndar í sprettiglugga kvaðningar (meðan verkleiðbeining er spiluð) | Alt+R,F               |
+| Víkka út/draga saman hreyfimynd í sprettiglugga kvaðningar (meðan verkleiðbeining er spiluð)              | Alt+R,C                    |
+| Sýna meiri/minni upplýsingar í sprettigluggi með hreyfimynd (meðan verkleiðbeining er spiluð) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

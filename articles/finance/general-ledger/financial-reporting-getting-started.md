@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835111"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967259"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
@@ -149,7 +149,12 @@ Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
 * Slökkvið á sprettigluggavörninni í vafranum.
 * Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.6.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
-* Ef verið er að nota Chrom vafrann, verður að setja upp ClickOnce-viðauka til að sækja biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu. Ef ekki er hægt að skrá sig inn með Chrome skal reyna að fylgja uppsetningarskrefunum sem lýst er í Vandamáli 1 með því að nota Internet Explorer eða Edge. 
+* Ef verið er að nota Microsoft Edge með Chrome-vafranum, verður að setja upp ClickOnce-viðauka til að sækja biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu. 
+     1. Opna nýjan vafraglugga í Microsoft Edge.
+     2. Sláið inn **edge://flags** og veljið **Færa inn**.
+     3. Leitið að valkostinn **ClickOnce stuðningur** eða notið þennan beina tengil: **edge://flags/#edge-click-once**.
+     4. Stilla valkostinn fellivalmynd á **Virkt**.
+     5. Veljið **Endurræsa vafra**.
 
 Vandamál 2: Notanda hefur ekki verið úthlutað nauðsynlegum heimildum til að nota Financial Reporting. 
 

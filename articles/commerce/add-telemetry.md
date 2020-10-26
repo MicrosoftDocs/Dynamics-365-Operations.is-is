@@ -3,7 +3,7 @@ title: Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjar
 description: Þetta efnisatriði lýsir því hvernig hægt er að bæta skriftarkóða biðlara við síður svæðisins til að styðja söfnun fjarmælinga biðlara.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761250"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901497"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
 
@@ -64,6 +64,9 @@ Til að búa til endurnýtanlegt brot fyrir ytri skriftarkóða í svæðasmíð
 1. Í eiginleikaglugganum til hægri, undir **Uppruni forskriftar**, bætirðu við ytri eða tengdri slóð fyrir ytri uppruna forskriftar. Stilltu síðan aðra valkosti eins og þú þarft.
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.
 1. Velja **Birta**.
+
+> [!NOTE]
+> Ef öryggisregla fyrir efni (CSP) er virkjuð fyrir svæðið þitt, skaltu ganga úr skugga um að öllum ytri vefslóðum sé bætt við CSP-leiðbeininguna **script-src** í svæðishönnuð Commerce. Frekari upplýsingar er að finna í [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Bæta við broti sem inniheldur skriftarkóða í sniðmát
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652180"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970704"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -233,6 +233,9 @@ Ef vinnuliður vöruhúss samanstendur af línum sem jafngilda heilu bretti og e
 ![Valmyndaratriði fartækis þar sem valkosturinn „Meðhöndla eftir númeraplötu" er stilltur á „Já“](media/Handle-by-LP-menu-item.png)
 
 Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu sem nær yfir mörg bretti, er betra að vera með aðskilinn vinnulið fyrir mismunandi númeraplötur. Til að nota þessa aðferð skal bæta reitnum **Númeraplötukenni ráðstafaðrar pöntunar** sem vinnuhausaskil á síðunni **Vinnusniðmát**.
+
+> [!NOTE]
+> Fyrir stofnferli á vinnu ráðstafaðrar pöntunar, verður gildinu „birgðavíddir ráðstafaðrar pöntunar“ úthlutað á vinnulínur tiltektar og ekki verið mögulegt að skoða gildið á númeraplötunni með beinum hætti. Aðeins *Notandastýrt* ferli er stutt þegar valmyndaratriði fartækis er sett upp.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Dæmi: Setja upp og vinna úr frátekt á númeraplötu ráðstafaðrar pöntunar
 

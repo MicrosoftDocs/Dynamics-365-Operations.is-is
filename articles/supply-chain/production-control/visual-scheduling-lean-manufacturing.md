@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826407"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958742"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Sjónræn röðun fyrir lean-framleiðslu
 
@@ -61,7 +61,7 @@ Síðan **Kanban-áætlunarborð** inniheldur sjö aðalatriði, eins og sýnt e
 
 ### <a name="view-the-time-scale"></a>Skoða tímamælikvarðann
 
-Borðinu er skipt upp í tímabil sem hvort um sig er sýnt sem hnútur (4). Tímabilshnútar koma fram á lóðrétta ásnum og lárétti aðgangurinn sýnir tímakvarða (7) sem sýnir lengd tímabilsins. Tímabil er með lengd einn dagur eða ein vika. Lengdin er ákvörðuð út frá skilgreiningu vinnureitsins sem valið er til fyrir Kanban tímabilið raða frítt um borð (2). Fyrir hvern hnút tímabils gefur Kanban-áætlunarborð til kynna hversu mikið kanban raðaðar vinnslur eru hleðslu tímabilsins. Einnig er vísbending um hámarks gegnumstreymi fyrir tímabilið. Ef áætlað gegnumstreymi fer fram úr hámarks gegnumstreymi, telst tímabilið vera ofhlaðið og rautt viðvörunarmerki birtist. Vinnsla áætlaða kanban birtist á tímabili sem er með áætlaða upphafs- og lokatíma (5). Lengd vinnslu jafngildir tíma verkþáttar. Vinnslur Kanban birtast sem skörun á tímabili ef verkþáttatímar þeirra fara fram úr framleiðslutíma á einingu vinnureitsins.
+Borðinu er skipt upp í tímabil sem hvort um sig er sýnt sem hnútur (4). Tímabilshnútarnir eru skráðir á lóðrétta ásinn og lárétti ásinn táknar tímakvarða (7) sem sýnir lengd tímabilsins. Tímabil er með lengd einn dagur eða ein vika. Lengdin er ákvörðuð út frá skilgreiningu vinnureitsins sem valið er til fyrir Kanban tímabilið raða frítt um borð (2). Fyrir hvern hnút tímabils gefur Kanban-áætlunarborð til kynna hversu mikið kanban raðaðar vinnslur eru hleðslu tímabilsins. Einnig er vísbending um hámarks gegnumstreymi fyrir tímabilið. Ef áætlað gegnumstreymi fer fram úr hámarks gegnumstreymi, telst tímabilið vera ofhlaðið og rautt viðvörunarmerki birtist. Vinnsla áætlaða kanban birtist á tímabili sem er með áætlaða upphafs- og lokatíma (5). Lengd vinnslu jafngildir tíma verkþáttar. Kanban-vinnslur skarast á tímabili ef aðgerðartími þeirra fer yfir verktíma vinnuflokksins.
 
 ### <a name="view-job-status"></a>Skoða vinnslustöðuna
 
