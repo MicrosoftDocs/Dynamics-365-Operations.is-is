@@ -13,29 +13,29 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32bc2ac5815c2739147664f1e1df2528178db51e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213401"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986504"
 ---
-# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="6dde5-103">Bæta útreikningi við afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="6dde5-103">Add a calculation to a product configuration model</span></span>
+# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="13226-103">Bæta útreikningi við afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="13226-103">Add a calculation to a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6dde5-104">Þessi verklýsing sýnir hvernig á að bæta nýjan útreikning við afbrigðalíkani afurðar.</span><span class="sxs-lookup"><span data-stu-id="6dde5-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="6dde5-105">Hún sýnir hvernig hægt er að stofna röksegð með notkun "Ef" virknitákn til að setja hæð hátalara til 10 fyrir hvítum hátalara og 15 fyrir allar aðrar frágang húss.</span><span class="sxs-lookup"><span data-stu-id="6dde5-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="6dde5-106">Ferlið notar hágæða hátalaraíhlut fyrir USMF sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="6dde5-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="13226-104">Þessi verklýsing sýnir hvernig á að bæta nýjan útreikning við afbrigðalíkani afurðar.</span><span class="sxs-lookup"><span data-stu-id="13226-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="13226-105">Hún sýnir hvernig hægt er að stofna röksegð með notkun "Ef" virknitákn til að setja hæð hátalara til 10 fyrir hvítum hátalara og 15 fyrir allar aðrar frágang húss.</span><span class="sxs-lookup"><span data-stu-id="13226-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="13226-106">Ferlið notar hágæða hátalaraíhlut fyrir USMF sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="13226-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="add-a-calculation"></a><span data-ttu-id="6dde5-107">Bæta við útreikningum</span><span class="sxs-lookup"><span data-stu-id="6dde5-107">Add a calculation</span></span>
+## <a name="add-a-calculation"></a><span data-ttu-id="13226-107">Bæta við útreikningum</span><span class="sxs-lookup"><span data-stu-id="13226-107">Add a calculation</span></span>
 
-## <a name="create-calculation-expression"></a><span data-ttu-id="6dde5-108">Stofna segð útreiknings</span><span class="sxs-lookup"><span data-stu-id="6dde5-108">Create calculation expression</span></span>
-1. <span data-ttu-id="6dde5-109">Smella á Breyta segð.</span><span class="sxs-lookup"><span data-stu-id="6dde5-109">Click Edit expression.</span></span>
-2. <span data-ttu-id="6dde5-110">Færið inn í svæðið ConstraintBody ‚If[CabinetFinish == „white", 10, 15]'.</span><span class="sxs-lookup"><span data-stu-id="6dde5-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
-3. <span data-ttu-id="6dde5-111">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="6dde5-111">Click Validate.</span></span>
-4. <span data-ttu-id="6dde5-112">Smellið á „Loka“.</span><span class="sxs-lookup"><span data-stu-id="6dde5-112">Click Close.</span></span>
-5. <span data-ttu-id="6dde5-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6dde5-113">Click OK.</span></span>
+## <a name="create-calculation-expression"></a><span data-ttu-id="13226-108">Stofna segð útreiknings</span><span class="sxs-lookup"><span data-stu-id="13226-108">Create calculation expression</span></span>
+1. <span data-ttu-id="13226-109">Smella á Breyta segð.</span><span class="sxs-lookup"><span data-stu-id="13226-109">Click Edit expression.</span></span>
+2. <span data-ttu-id="13226-110">Færið inn í svæðið ConstraintBody ‚If[CabinetFinish == „white", 10, 15]'.</span><span class="sxs-lookup"><span data-stu-id="13226-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
+3. <span data-ttu-id="13226-111">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="13226-111">Click Validate.</span></span>
+4. <span data-ttu-id="13226-112">Smellið á „Loka“.</span><span class="sxs-lookup"><span data-stu-id="13226-112">Click Close.</span></span>
+5. <span data-ttu-id="13226-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="13226-113">Click OK.</span></span>
 

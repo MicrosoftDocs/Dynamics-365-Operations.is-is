@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe3b56526ec62da18b142cb943d0ef4240e18cee
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08384bd5241c934b2f56ab2b482f5d06f24f0926
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202492"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985840"
 ---
-# <a name="delete-a-return-order"></a><span data-ttu-id="d48e6-103">Eyðing skilapöntunar</span><span class="sxs-lookup"><span data-stu-id="d48e6-103">Delete a return order</span></span> 
+# <a name="delete-a-return-order"></a><span data-ttu-id="2af66-103">Eyðing skilapöntunar</span><span class="sxs-lookup"><span data-stu-id="2af66-103">Delete a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d48e6-104">Notaðu **Eyða skilapöntun** skjámyndina til að eyða mörgum skilapöntunum.</span><span class="sxs-lookup"><span data-stu-id="d48e6-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
+<span data-ttu-id="2af66-104">Notaðu **Eyða skilapöntun** skjámyndina til að eyða mörgum skilapöntunum.</span><span class="sxs-lookup"><span data-stu-id="2af66-104">Use the **Delete return order** form to delete multiple return orders.</span></span>
 
-1.  <span data-ttu-id="d48e6-105">Smelltu á **Sala og markaðssetning** \> **Reglubundið** \> **Hreinsa** \> **Eyða skilapöntunum**.</span><span class="sxs-lookup"><span data-stu-id="d48e6-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
+1.  <span data-ttu-id="2af66-105">Smelltu á **Sala og markaðssetning** \> **Reglubundið** \> **Hreinsa** \> **Eyða skilapöntunum**.</span><span class="sxs-lookup"><span data-stu-id="2af66-105">Click **Sales and marketing** \> **Periodic** \> **Clean up** \> **Delete return orders**.</span></span>
 
-2.  <span data-ttu-id="d48e6-106">Smelltu á **Velja** til að opna **Uppfærsla á sölu** skjámyndina.</span><span class="sxs-lookup"><span data-stu-id="d48e6-106">Click **Select** to open the **Sales update** form.</span></span>
+2.  <span data-ttu-id="2af66-106">Smelltu á **Velja** til að opna **Uppfærsla á sölu** skjámyndina.</span><span class="sxs-lookup"><span data-stu-id="2af66-106">Click **Select** to open the **Sales update** form.</span></span>
 
-3.  <span data-ttu-id="d48e6-107">Tilgreindu viðmiðin, og smelltu svo á **Í lagi** til að fara aftur í **Eyða skilapöntun** skjámyndina.</span><span class="sxs-lookup"><span data-stu-id="d48e6-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="d48e6-108">Skilapantanir sem hafa verið stofnaðar í lögaðilanum birtast, byggt á tilteknu skilyrðunum.</span><span class="sxs-lookup"><span data-stu-id="d48e6-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
+3.  <span data-ttu-id="2af66-107">Tilgreindu viðmiðin, og smelltu svo á **Í lagi** til að fara aftur í **Eyða skilapöntun** skjámyndina.</span><span class="sxs-lookup"><span data-stu-id="2af66-107">Specify the criteria, and then click **OK** to return to the **Delete return order** form.</span></span> <span data-ttu-id="2af66-108">Skilapantanir sem hafa verið stofnaðar í lögaðilanum birtast, byggt á tilteknu skilyrðunum.</span><span class="sxs-lookup"><span data-stu-id="2af66-108">Return orders that have been created in the legal entity are displayed, based on the specified criteria.</span></span>
 
-4.  <span data-ttu-id="d48e6-109">Veljið línu skilapöntunarinnar sem á að eyða og smella svo á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="d48e6-109">Select the return order line to delete, and then click **OK**.</span></span>
+4.  <span data-ttu-id="2af66-109">Veljið línu skilapöntunarinnar sem á að eyða og smella svo á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="2af66-109">Select the return order line to delete, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="d48e6-110">Smellt á **Já** til að eyða skilapöntunum.</span><span class="sxs-lookup"><span data-stu-id="d48e6-110">Click **Yes** to delete the return orders.</span></span>
+5.  <span data-ttu-id="2af66-110">Smellt á **Já** til að eyða skilapöntunum.</span><span class="sxs-lookup"><span data-stu-id="2af66-110">Click **Yes** to delete the return orders.</span></span>
 
 
 
