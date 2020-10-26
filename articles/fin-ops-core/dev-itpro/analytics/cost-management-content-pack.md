@@ -16,15 +16,15 @@ ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: b4e12abceeef59d05fa21cb030b8aa738842cafb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759257"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982798"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -193,7 +193,7 @@ Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 | Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Nettó breyting                         | Nettóbreyting = SUM(\[AMOUNT\]) |
 | Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[QTY\]) |
-| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0, 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
 | Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[Lokastaða\] + \[Upphafsstaða\]) / 2) |
 | Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[Hlutfall birgðaveltu eftir upphæð\] |
 | Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
