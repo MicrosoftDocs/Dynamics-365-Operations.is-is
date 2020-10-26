@@ -3,7 +3,7 @@ title: Eiginleikastjórnunaryfirlit
 description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499620"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967335"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -179,3 +179,24 @@ Tilraunaútgáfur eiginleika eru rauntímaskipting milli kveikt/slökkt sem Micr
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Eru eiginleikar einhvern tímann teknir úr umferð án þess að viðskiptavinurinn viti um það? 
 Já, ef eiginleikinn hefur áhrif á virkni umhverfis sem þjónar engum tilgangi er hægt að virkja hann að sjálfgefnu.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Hvernig er hægt að athuga virkjun eiginleika í kóða?
+Nota skal aðferðina **isFeatureEnabled** í klasanum **FeatureStateProvider**, láta hana fá tilvik af klasa eiginleikans. Dæmi: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Hvernig er hægt að athuga virkjun eiginleika í lýsigögnum?
+Eiginleikann **FeatureClass** er hægt að nota til að gefa til kynna að einhver lýsigögn tengist eiginleika. Nota ætti klasaheitið fyrir eiginleikann, svo sem **BatchContentionPreventionFeature**. Þetta lýsigögn eru aðeins sýnileg í þessum eiginleika. Eiginleikinn **FeatureClass** er tiltækur í valmyndum, valmyndaratriðum, fasttextagildum og töflu-/yfirlitsreitum.
+
+### <a name="what-is-a-feature-class"></a>Hvað er eiginleikaklasi?
+Eiginleikar í eiginleikastjórnun eru skilgreindir sem *eiginleikaklasar*. Klasaeiginleiki **innleiðir IFeatureMetadata** og notar eigind eiginleikaklasans til að gera grein fyrir sér á vinnusvæði eiginleikastjórnunar. Til eru fjölmörg dæmi um eiginleikaklasa sem eru í boði sem hægt er að athuga fyrir virkjun í kóða með því að nota **FeatureStateProvider** API í lýsigögnum með eiginleikanum **FeatureClass**. Dæmi: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Hvað er IFeatureLifecycle sem innleitt er af sumum eiginleikaklösum?
+IFeatureLifecycle er innri starfsemi Microsoft til að tilgreina stig stuðningstíma eiginleikans. Eiginleikar geta verið:
+- PrivatePreview - Þarfnast forútgáfu til að vera sýnilegt.
+- PublicPreview - Sýnt að sjálfgefnu en með viðvörun um að eiginleikinn sé í forútgáfu.
+- Útgefið - Útgefið að fullu.
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269982"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961611"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Vista, forskoða og birta síðu
 
@@ -38,9 +38,9 @@ Til að vista síðu verður þú að láta skrá hana út og opna í síðuritl
 
 ## <a name="preview-a-page"></a>Forskoða síðu
 
-Höfundatólið býður upp á tvenns konar forskoðunaraðgerðir: „það sem þú sérð er það sem þú færð“ (WYSIWYG) forsýnisrúða í ritlinum og sérstakan forsýningarglugga.
+Höfundarverkfærið býður upp á tvenns konar forskoðunareiginleika: sýnilegan vefsmið, sem er „þú færð það sem þú sérð“ forskoðunarsvæði í síðuritlinum og aðskilinn forskoðunarglugga.
 
-Þegar þú notar ritstjórann birtist „það sem þú sérð það sem þú færð“ (WYSIWYG) forsýning í miðju glugganum. Þessi forskoðun er sjálfkrafa uppfærð þegar þú vistar síðuna. Þú getur einnig uppfært það handvirkt með því að velja **Endurnýja** á skipanastikunni. Forskoðun WYSIWYG gerir síðuna eins og notendur síðunnar munu sjá hana, en höfundarhjálparar eru gefnir ofan á hana.
+Þegar þú notar ritstjórann birtist „það sem þú sérð það sem þú færð“ (WYSIWYG) forsýning í miðju glugganum. Þessi forskoðun er sjálfkrafa uppfærð þegar þú vistar síðuna. Þú getur einnig uppfært það handvirkt með því að velja **Endurnýja** á skipanastikunni. Forskoðunin breytir síðunni á þann hátt sem notandi svæðisins sér hana, en hjálparþættir höfundar eru sýndir efst uppi.
 
 Þegar þú hefur lokið við að breyta síðunni gætirðu viljað forskoða hana til að sjá hvað viðskiptavinir munu sjá. Veldu til að forskoða síðu **Forskoðun** á skipanastikunni. Forskoðun birtist í sérstökum vafraglugga. Síðan í forsýningarglugganum er gerð eins og notandi síðunnar mun sjá hana. Þú getur breytt stærð gluggans til að ganga úr skugga um að móttækilegir einingar séu réttar gefnar í öllum skjágáttum.
 

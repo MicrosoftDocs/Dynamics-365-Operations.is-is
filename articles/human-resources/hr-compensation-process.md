@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f7be778857380d40a73d068e2b0b4fc7d1d1f6
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009413"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958718"
 ---
 # <a name="process-compensation"></a>Launaútreikningur
 
@@ -44,7 +44,7 @@ Smelltu á hnappinn **Bæta við** í flipanum **Áætlanir** til að bæta laun
 
 Vistaðu færsluna og smelltu svo á hnappinn **Bæta við** í flipanum **Aðgerðir** til að bæta fastlaunaaðgerðum við valda áætlun. Notaðu valkostinn **Virkja ráðleggingu** til að slá inn upphæð sem er önnur en útreiknuð leiðbeinandi hækkun fyrir aðgerðina. Viljir þú að aðgerð sé reiknuð út eftir niðurstöðu síðustu aðgerðar til að tengja saman margar launaaðgerðir, skaltu merkja við valkostinn **Nota síðustu niðurstöður**, aðgerðar fastra launa eru launareglur sem hægt er að gefa lýsandi nöfn. Ef um er að ræða launaþrep eða greiningaráætlanir getur þú aðeins bætt við aðgerðum fastra launa sem eru af eftirfarandi gerðum:
 
-| Fast launafyrirkomulag | Virkni                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Aðgerðir fastra launa | Virkni                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Eigið fé                        | Í launaleiðréttingaraðgerðum er launataxti starfsmanns frá og með lokadagsetningu ferlis borinn saman við lægsta viðmiðunarpunktinn fyrir það stig sem gefið er upp fyrir starf starfsmanns. Ef launataxti starfsmanns er lægri en lágmarks viðmiðunarpunkturinn er nauðsynleg hækkun til að ná starfsmanninum upp í lágmarkspunkt mengisins reiknuð út.                                                                                |
 | Verðleiki                         | Verðleikaaðgerðir reikna út hækkun út frá launataxta starfsmanns frá og með lokadagsetningu ferlis og þeirri prósentuhækkun sem er að finna í áætlun fastrar aukningar fyrir deild, verkalýðsfélag og staðsetningu starfsmannsins.                                                                                                                                                                                         |

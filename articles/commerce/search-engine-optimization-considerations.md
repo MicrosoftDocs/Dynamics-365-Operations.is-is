@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002804"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961587"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
 
@@ -47,7 +47,7 @@ Til að hámarka flokkun leitarvéla notar flutningsramma báðar upplýsingar f
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Stillingar á síðu SEO fyrir innri forsýningu, takmarkaða markhóp og alla markhópa
 
-Vegna þess að Dynamics 365 Commerce styður „það sem þú sérð er það sem þú færð“ (WYSIWYG) staðfestar forsýningar geta höfundar undirbúið síðnaefni sitt án þess að þurfa að hafa áhyggjur af því að upplýsingarnar verði sýnilegar gestum á vefnum. Ef birta verður síðu en útsetning hennar verður að vera takmörkuð ætti hún að hafa lýsimerkið **NOINDEX**, svo að það verði ekki skráð af leitarvélum. Þegar síðan er tilbúin fyrir alla markhópa ættu öll grunnlýsigögn SEO að vera til staðar til að hámarka skilvirkni flokkunar leitarvéla. Að auki ætti að fjarlægja lýsimerkið **NOLIMIT**.
+Vegna þess að Dynamics 365 Commerce styður „það sem þú sérð er það sem þú færð“ sannvottaðar forskoðanir í sjónrænum vefsmið, höfundar geta undirbúið efni síðunnar þeirra án þess að þurfa að hafa áhyggjur af því að upplýsingarnar verða sýnilegar gestum svæðisins. Ef birta verður síðu en útsetning hennar verður að vera takmörkuð ætti hún að hafa lýsimerkið **NOINDEX**, svo að það verði ekki skráð af leitarvélum. Þegar síðan er tilbúin fyrir alla markhópa ættu öll grunnlýsigögn SEO að vera til staðar til að hámarka skilvirkni flokkunar leitarvéla. Að auki ætti að fjarlægja lýsimerkið **NOLIMIT**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

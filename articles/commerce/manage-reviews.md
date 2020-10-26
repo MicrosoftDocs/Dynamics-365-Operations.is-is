@@ -1,9 +1,9 @@
 ---
 title: Stjórna einkunnum og umsögnum
-description: Þetta efni útskýrir hvernig á að stjórna einkunnagjöf og umsögnum með því að nota Microsoft Dynamics 365 Commerce einkunnir og umsagnir stjórnunar tól.
+description: Þetta efnisatriði útskýrir hvernig á að stjórna einkunnum og umsögnum í Microsoft Dynamics 365 Commerce vefsmið.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027243"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974007"
 ---
 # <a name="manage-ratings-and-reviews"></a>Stjórna einkunnum og umsögnum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að stjórna einkunnagjöf og umsögnum með því að nota Microsoft Dynamics 365 Commerce einkunnir og umsagnir stjórnunar tól.
+Þetta efnisatriði útskýrir hvernig á að stjórna einkunnum og umsögnum í Microsoft Dynamics 365 Commerce vefsmið.
 
 ## <a name="overview"></a>Yfirlit
 
-Dynamics 365 Commerce notar Microsoft Azure Cognitive Services til að miðla sjálfkrafa endurskoðun texta með því að ritstýra blótsyrði. Að auki geta stjórnendur notað einkunnagjafartólið og skoðað stjórnunartólið fyrir eftirfarandi handvirk verk:
+Dynamics 365 Commerce notar Microsoft Azure Cognitive Services til að miðla sjálfkrafa endurskoðun texta með því að ritstýra blótsyrði. Auk þess geta stjórnendur notað Dynamics 365 Commerce-vefsmið til að innleiða eftirfarandi handvirk verk:
 
 - Breyta umsögnum með því að svara þeim eða fjarlægja þær.
 - Eyða umsögnum viðskiptavinarins að beiðni viðskiptavinarins.
 - Flyttu inn einkunnir og umsagnir fyrir allar vörur í Microsoft Power BI-sniðmáti, svo að hægt sé að greina þróun á einkunnum og umsögnum.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Fara í eiginleika einkunnagjafar og stjórnunar
-
-Fylgdu þessum skrefum til að fá aðgang að einkunnagjöf og yfirfara stjórnunaraðgerðir í stjórnunartólinu fyrir rafræn viðskipti.
-
-1. Skráðu þig inn í [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
-1. Opnaðu verkefnið sem inniheldur umhverfið þar sem þú vilt frumstilla rafræn viðskipti.
-1. Í hlutanum **Umhverfi**, veldu umhverfið.
-1. Undir **Eiginleikar umhverfis** velurðu **Stjórna Retail**.
-1. Á **rafræn viðskipti** flipinn undir **Krækjur**, veldu **tól til að stjórna netverslun**.
-
 ## <a name="read-a-review"></a>Lesa umsögn 
+
+Til að lesa umsögn í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Breyting**.
 1. Notaðu leitarreitinn efst til hægri á síðunni til að sía umsagnir sem eru sýndar með afurðakenni, vöruheiti eða umsagnartexta.
@@ -62,7 +54,7 @@ Viðbótarsíur gera þér kleift að takmarka umsagnir eftir tímabili, einkunn
 
 Stundum lýsa viðskiptavinir sem keyptu vöru ánægju sinni eða óánægju, eða skilja ekki hvernig þeir nota vöruna. Sem stjórnandi geturðu sent svar við gagnrýni. Þetta svar birtist ásamt umsögninni á síðunni. 
 
-Fylgdu þessum skrefum til að svara umsögn.
+Til að svara umsögn í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Breyting**.
 1. Finndu og veldu umsögnina sem krefst svara.
@@ -76,20 +68,20 @@ Fylgdu þessum skrefum til að svara umsögn.
 
 Stundum er viðskiptaleg réttlæting fyrir því að stjórnendur fjarlægi umsagnir viðskiptavina. 
 
-Til að fjarlægja umsögn fylgirðu þessum skrefum.
+Til að fjarlægja umsögn í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Breyting**.
 1. Finndu og veldu umsögnina sem þarf að fjarlægja.
-1. Veldu eiginleikagluggann til hægri, veldu ástæðu fjarlægingar og síðan **Fjarlægja**.
+1. Á eiginleikasvæðinu til hægri skal velja ástæðu fjarlægingar undir **Umsögn um fjarlægingu** og velja síðan **Fjarlægja**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Eyða umsögnum viðskiptavinarins að beiðni viðskiptavinarins 
 
 Stundum vilja viðskiptavinir að einkunna- og umsagnagögnum þeirra verði varanlega eytt af vefsíðu netverslunar. Stjórnandi sem fær beiðni um flutning frá viðskiptavini getur fjarlægt gögn viðskiptavinarins með því að nota endurskoðunaraðgerðina. Til að finna og eyða gögnum viðskiptavinar þarf stjórnandinn netfangið sem viðskiptavinurinn notaði til að skrá sig inn og veita umsagnir. 
 
-Fylgdu þessum skrefum til að finna og eyða gögnum viðskiptavina.
+Til að finna og eyða gögnum viðskiptavinar í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Eyða**.
-1. Í reitnum **Leita að notendum með netfangi** slærðu inn netfang viðskiptavinarins og velur síðan **Leita**.
+1. Í glugganum **Leita að notendum eftir netfangi** skal færa inn netfang viðskiptavinar og velja síðan **Leita**.
 1. Ef viðskiptavinurinn hefur einhverjar umsagnaraðgerðir (til dæmis, endurskoða innsendingar, atkvæði um hjálpsemi umsagna annars viðskiptavinar eða athugasemdir um umsögn annars viðskiptavinar) eru niðurstöðurnar sýndar. Fyrir hvern lið er hnappurinn **Eyða**.
 1. Fyrir hvert atriði sem þarf að eyða velurðu **Eyða**. Þegar þú færð kvaðningu um staðfestingu skaltu velja **Já**. 
     
@@ -101,23 +93,23 @@ Fylgdu þessum skrefum til að finna og eyða gögnum viðskiptavina.
 
 ## <a name="download-ratings-and-reviews-data"></a>Sækja einkunna- og umsagnagögn
 
-Stjórnendatól einkunna og umsagna gerir stjórnendum kleift að flytja inn einkunna- og umsagnagögn í magni, svo að þau geti greint leitni. Power BI-sniðmát sem inniheldur grunnmælingar er fáanlegt. Stjórnendur geta notað þetta snið til að tengja magninnflutt gögn og skoða stjórnborð. Þeir þurfa ekki að búa til sérsniðið mælaborð. Stjórnendur geta sérsniðið Power BI-sniðmát til að mæta tilteknum þörfum sínum. 
+Vefsmiður Commerce leyfir ritstjórum að flytja inn gögn einkunna og umsagna í magni, þannig að hægt sé að greina mynstur. Power BI-sniðmát sem inniheldur grunnmælingar er fáanlegt. Stjórnendur geta notað þetta snið til að tengja magninnflutt gögn og skoða stjórnborð. Þeir þurfa ekki að búa til sérsniðið mælaborð. Stjórnendur geta sérsniðið Power BI-sniðmát til að mæta tilteknum þörfum sínum. 
 
-Fylgdu þessum skrefum til að hlaða niður einkunnagjöf og umsögnum.
+Til að sækja gögn einkunna og umsagna í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Skýrslugerð**.
-1. Veldu **Sækja umsagnargögn** til að sækja einkunna- og umsagnargögn í magni með kommuaðskildu gildum (CSV) sniði.
+1. Veljið **Sækja umsagnargögn** til að sækja gögn einkunna og umsagna í magni í gildum aðskildum með kommu (CSV-sniði).
 
 ## <a name="view-ratings-and-reviews-trends"></a>Skoða einkunnir og umsagnaleitni
 
 Stjórnendur geta hlaðið niður Power BI-sniðinu svo að þeir geti skoðað leitni í stjórnborði.
 
-Til að skoða einkunna- og umsagnaleitni skaltu fylgja þessum skrefum.
+Til að skoða mynstur einkunna og umsagna í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Heim \> Umsagnir \> Skýrslugerð**.
 1. Veldu **PowerBI sniðmát** til að hlaða niður sniðmátinu.
 
-    ![Sæki Power BI sniðmátið](media/rnr-moderation-reports.png) 
+    ![Sækja Power BI-sniðmátið](media/rnr-moderation-reports.png) 
 
 1. Opnaðu sniðmátið sem hlaðið var niður með því að nota Power BI forritð. Lokaðu glugganum **Aðgangur að vefefni** sem birtist og lokaðu síðan villunni "Endurnýja" sem birtist.
 1. Farðu í **Heim**, veldu **Breyta fyrirspurnum** og veldu síðan **Stillingar gagnagjafa**.

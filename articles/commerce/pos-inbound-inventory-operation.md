@@ -3,7 +3,7 @@ title: Innleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710310"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971498"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
 
@@ -133,6 +133,18 @@ Skjárinn **Móttekið núna** veitir markvissa leið fyrir notendur að sjá hv
 Villuleitir eiga sér stað í móttökuferli skjalalínanna. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að fá meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða upphæðin sem er móttekin fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir innkaupapöntunarlínuna, fær notandinn villu og er ekki leyft að taka á móti umframmagni.
 
 Ofmóttaka er ekki leyfð fyrir flutningspöntunargögn. Notendur munu alltaf fá villur ef þeir reyna að móttaka meira en var sent fyrir flutningspöntunarlínuna.
+
+### <a name="close-purchase-order-lines"></a>Loka innkaupapöntunarlínum
+
+Hægt er að loka eftirstandandi magni í innkaupapöntun á innleið í móttökuferlinu ef farmsendandi hefur staðfest að hann geti ekki sent allt magnið sem beðið var um. Til að gera það þarf að skilgreina fyrirtækið til að leyfa vanafhendingu innkaupapantana. Þar að auki verður að skilgreina vikmarkaprósentu vanafhendingar fyrir innkaupapöntunarlínuna.
+
+Til að skilgreina fyrirtækið þannig að það leyfi vanafhendingu innkaupapantana í höfuðstöðvum Commerce skal farið í **Innkaup og aðföng** > **Uppsetning** > **Færibreytur innkaupa og aðfanga**. Í flipanum **Afhending** skal kveikja á færibreytunni **Samþykkja vanafhendingu**. Keyrið síðan dreifingaráætlunarverkið **1070** (**Skilgreining rásar**) til að samstilla breytingar á stillingum við rásir.
+
+Vikmarkaprósenta vanafhendingar fyrir flutningspöntunarlínu getur verið fyrirframskilgreind á afurðum sem hluti af skilgreiningum afurða í Commerce Headquarters. Að öðrum kosti er hægt að stilla eða skrifa yfir hana í tiltekinni flutningspöntun í gegnum Commerce Headquarters.
+
+Eftir að fyrirtæki lýkur skilgreiningum á vanafhendingu innkaupapöntunar, sjá notendur sölustaðar nýja valkostinn **Loka eftirstandandi magni** í glugganum **Upplýsingar** þegar innkaupapöntunarlína á innleið er valin í aðgerðinni **Birgðir á innleið**. Ef notandinn lokar eftirstandandi magni, framkvæmir sölustaðurinn villuleit til að staðfesta hvort magnið sem var lokað er innan vikmarkaprósentu vanafhendingar sem er skilgreind í innkaupapöntunarlínunni. Ef farið er yfir vikmörk vanafhendingar birtast villuboð og notandinn mun ekki geta lokað eftirstandandi magni fyrr en áður sent magn ásamt magninu **Móttekur núna** uppfyllir eða fer yfir lágmarkið sem þarf að taka á móti samkvæmt vikmarkaprósentu vanafhendingar. 
+
+Með kveikt á valkostinum **Loka eftirstandandi magni** fyrir innkaupapöntunarlínu, þegar notandinn lýkur móttöku með því að nota aðgerðina**Ljúka við móttöku**, er lokunarbeiðni einnig send til Commerce Headquarters og hætt verður við allt magn sem ekki hefur verið móttekið fyrir þessa pöntunarlínu. Á þeim tímapunkti er litið á línuna sem móttekna að fullu. 
 
 ### <a name="receiving-location-controlled-items"></a>Móttaka á staðstýrðir vörum
 
