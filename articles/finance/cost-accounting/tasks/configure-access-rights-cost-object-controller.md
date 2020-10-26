@@ -12,60 +12,60 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a931980add70ddc003d8a7c1a78f451bacbf57d4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: a4b50782c7a1b69b6953c65d6df155f003028333
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144497"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976308"
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="ef88f-103">Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="ef88f-103">Configure access rights for a cost object controller</span></span>
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="6a157-103">Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="6a157-103">Configure access rights for a cost object controller</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ef88f-104">Nota þetta ferli til að skilgreina aðgangsréttindi eftirlitsmanns kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="ef88f-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="ef88f-105">Þessi skráning notar USP2-sýnigagnafyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="ef88f-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="6a157-104">Nota þetta ferli til að skilgreina aðgangsréttindi eftirlitsmanns kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="6a157-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="6a157-105">Þessi skráning notar USP2-sýnigagnafyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="6a157-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="ef88f-106">Úthluta hlutverkinu Eftirlitsmaður kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="ef88f-106">Assign the cost object controller role</span></span>
-1. <span data-ttu-id="ef88f-107">Farið í Kerfisstjórnun > Notendur > Notendur.</span><span class="sxs-lookup"><span data-stu-id="ef88f-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="ef88f-108">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="ef88f-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ef88f-109">Til dæmis, sía á svæðið Notendanafn með gildinu „Alicia“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
-3. <span data-ttu-id="ef88f-110">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="ef88f-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ef88f-111">Smellt er á Úthluta hlutverkum.</span><span class="sxs-lookup"><span data-stu-id="ef88f-111">Click Assign roles.</span></span>
-5. <span data-ttu-id="ef88f-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ef88f-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="ef88f-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-113">Click OK.</span></span>
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="6a157-106">Úthluta hlutverkinu Eftirlitsmaður kostnaðarhlutar</span><span class="sxs-lookup"><span data-stu-id="6a157-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="6a157-107">Farið í Kerfisstjórnun > Notendur > Notendur.</span><span class="sxs-lookup"><span data-stu-id="6a157-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="6a157-108">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="6a157-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="6a157-109">Til dæmis, sía á svæðið Notendanafn með gildinu „Alicia“.</span><span class="sxs-lookup"><span data-stu-id="6a157-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="6a157-110">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="6a157-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="6a157-111">Smellt er á Úthluta hlutverkum.</span><span class="sxs-lookup"><span data-stu-id="6a157-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="6a157-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6a157-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="6a157-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6a157-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a><span data-ttu-id="ef88f-114">Virkja öryggisatriði aðgangslista</span><span class="sxs-lookup"><span data-stu-id="ef88f-114">Enable access list security</span></span>
-1. <span data-ttu-id="ef88f-115">Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.</span><span class="sxs-lookup"><span data-stu-id="ef88f-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="ef88f-116">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ef88f-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="ef88f-117">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="ef88f-117">Select Organization.</span></span>  
-3. <span data-ttu-id="ef88f-118">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-118">Click Edit.</span></span>
-4. <span data-ttu-id="ef88f-119">Veljið Já í svæðinu Stigveldi aðgangslista</span><span class="sxs-lookup"><span data-stu-id="ef88f-119">Select Yes in the Access list hierarchy field.</span></span>
-5. <span data-ttu-id="ef88f-120">Smella á Skoða stigveldi</span><span class="sxs-lookup"><span data-stu-id="ef88f-120">Click View hierarchy.</span></span>
+## <a name="enable-access-list-security"></a><span data-ttu-id="6a157-114">Virkja öryggisatriði aðgangslista</span><span class="sxs-lookup"><span data-stu-id="6a157-114">Enable access list security</span></span>
+1. <span data-ttu-id="6a157-115">Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.</span><span class="sxs-lookup"><span data-stu-id="6a157-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="6a157-116">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6a157-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6a157-117">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="6a157-117">Select Organization.</span></span>  
+3. <span data-ttu-id="6a157-118">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="6a157-118">Click Edit.</span></span>
+4. <span data-ttu-id="6a157-119">Veljið Já í svæðinu Stigveldi aðgangslista</span><span class="sxs-lookup"><span data-stu-id="6a157-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="6a157-120">Smella á Skoða stigveldi</span><span class="sxs-lookup"><span data-stu-id="6a157-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a><span data-ttu-id="ef88f-121">Úthluta Aðgangsréttindum til notanda</span><span class="sxs-lookup"><span data-stu-id="ef88f-121">Assign access rights to user</span></span>
-1. <span data-ttu-id="ef88f-122">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-122">Click New.</span></span>
-2. <span data-ttu-id="ef88f-123">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="ef88f-123">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="ef88f-124">Í reitinn Kenni notanda skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="ef88f-124">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="ef88f-125">Velja Stjórn.</span><span class="sxs-lookup"><span data-stu-id="ef88f-125">Select Admin.</span></span>  
-4. <span data-ttu-id="ef88f-126">Í trénu skal velja „Fyrirtæki\CEO\CFO\FIM“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
-5. <span data-ttu-id="ef88f-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-127">Click New.</span></span>
-6. <span data-ttu-id="ef88f-128">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="ef88f-128">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="ef88f-129">Í reitinn Kenni notanda skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="ef88f-129">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="ef88f-130">Velja Alicia.</span><span class="sxs-lookup"><span data-stu-id="ef88f-130">Select Alicia.</span></span>  
-8. <span data-ttu-id="ef88f-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-131">Click Save.</span></span>
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="6a157-121">Úthluta Aðgangsréttindum til notanda</span><span class="sxs-lookup"><span data-stu-id="6a157-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="6a157-122">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6a157-122">Click New.</span></span>
+2. <span data-ttu-id="6a157-123">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="6a157-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="6a157-124">Í reitinn Kenni notanda skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="6a157-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="6a157-125">Velja Stjórn.</span><span class="sxs-lookup"><span data-stu-id="6a157-125">Select Admin.</span></span>  
+4. <span data-ttu-id="6a157-126">Í trénu skal velja „Fyrirtæki\CEO\CFO\FIM“.</span><span class="sxs-lookup"><span data-stu-id="6a157-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="6a157-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6a157-127">Click New.</span></span>
+6. <span data-ttu-id="6a157-128">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="6a157-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="6a157-129">Í reitinn Kenni notanda skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="6a157-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="6a157-130">Velja Alicia.</span><span class="sxs-lookup"><span data-stu-id="6a157-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="6a157-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6a157-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="ef88f-132">Virkja Aðgangsréttindi í kostnaðarbókhaldi</span><span class="sxs-lookup"><span data-stu-id="ef88f-132">Enable access rights in Cost accounting</span></span>
-1. <span data-ttu-id="ef88f-133">Fara í kostnaðarbókhald > Uppsetning > Færibreytur.</span><span class="sxs-lookup"><span data-stu-id="ef88f-133">Go to Cost accounting > Setup > Parameters.</span></span>
-2. <span data-ttu-id="ef88f-134">Smellið á flipann „Almennt“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-134">Click the General tab.</span></span>
-3. <span data-ttu-id="ef88f-135">Velja Já í reitnum Virkja skoðunaraðgang fyrir víddarstök kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="ef88f-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
-4. <span data-ttu-id="ef88f-136">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-136">Click Save.</span></span>
-5. <span data-ttu-id="ef88f-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ef88f-137">Close the page.</span></span>
-6. <span data-ttu-id="ef88f-138">Fara í kostnaðarbókhald > Uppsetning > kostnaðarstýring vinnusvæði skilgreining.</span><span class="sxs-lookup"><span data-stu-id="ef88f-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-7. <span data-ttu-id="ef88f-139">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-139">Click Edit.</span></span>
-8. <span data-ttu-id="ef88f-140">Veljið Já í svæðinu Útgefið.</span><span class="sxs-lookup"><span data-stu-id="ef88f-140">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="ef88f-141">Ef þú velur Já, getur notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslur í Vinnusvæði kostnaðarstýringar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, afgreiðslustarfsmaður endurskoðanda kostnaðar, og eftirlitsmaður kostnaðarhluta.</span><span class="sxs-lookup"><span data-stu-id="ef88f-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="ef88f-142">Ef þú velur Nei, getur aðeins notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslurnar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, og afgreiðslustarfsmaður endurskoðanda kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="ef88f-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
-9. <span data-ttu-id="ef88f-143">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef88f-143">Click Save.</span></span>
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="6a157-132">Virkja Aðgangsréttindi í kostnaðarbókhaldi</span><span class="sxs-lookup"><span data-stu-id="6a157-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="6a157-133">Fara í kostnaðarbókhald > Uppsetning > Færibreytur.</span><span class="sxs-lookup"><span data-stu-id="6a157-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="6a157-134">Smellið á flipann „Almennt“.</span><span class="sxs-lookup"><span data-stu-id="6a157-134">Click the General tab.</span></span>
+3. <span data-ttu-id="6a157-135">Velja Já í reitnum Virkja skoðunaraðgang fyrir víddarstök kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="6a157-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="6a157-136">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6a157-136">Click Save.</span></span>
+5. <span data-ttu-id="6a157-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6a157-137">Close the page.</span></span>
+6. <span data-ttu-id="6a157-138">Fara í kostnaðarbókhald > Uppsetning > kostnaðarstýring vinnusvæði skilgreining.</span><span class="sxs-lookup"><span data-stu-id="6a157-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="6a157-139">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="6a157-139">Click Edit.</span></span>
+8. <span data-ttu-id="6a157-140">Veljið Já í svæðinu Útgefið.</span><span class="sxs-lookup"><span data-stu-id="6a157-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="6a157-141">Ef þú velur Já, getur notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslur í Vinnusvæði kostnaðarstýringar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, afgreiðslustarfsmaður endurskoðanda kostnaðar, og eftirlitsmaður kostnaðarhluta.</span><span class="sxs-lookup"><span data-stu-id="6a157-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="6a157-142">Ef þú velur Nei, getur aðeins notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslurnar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, og afgreiðslustarfsmaður endurskoðanda kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="6a157-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="6a157-143">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6a157-143">Click Save.</span></span>
 

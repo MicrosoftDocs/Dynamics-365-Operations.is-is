@@ -13,57 +13,57 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ec8fed2094025ef31114a229c35bee1cd1033b
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: ad95752ce40faaa84747dac9bfbf2887f7a5af42
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759329"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976212"
 ---
-# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="9b712-103">Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu</span><span class="sxs-lookup"><span data-stu-id="9b712-103">Create and assign a cost allocation policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="fe490-103">Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu</span><span class="sxs-lookup"><span data-stu-id="fe490-103">Create and assign a cost allocation policy to a cost control unit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9b712-104">Nota þetta ferli til að stofna og úthluta stefnu kostnaðarúthlutunar og samsvarandir reglum til kostnaðarstýringareiningar.</span><span class="sxs-lookup"><span data-stu-id="9b712-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="9b712-105">Þessi skráning notar USP2-sýnigagnafyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="9b712-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="fe490-104">Nota þetta ferli til að stofna og úthluta stefnu kostnaðarúthlutunar og samsvarandir reglum til kostnaðarstýringareiningar.</span><span class="sxs-lookup"><span data-stu-id="fe490-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="fe490-105">Þessi skráning notar USP2-sýnigagnafyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="fe490-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="9b712-106">Stofna Stefnu</span><span class="sxs-lookup"><span data-stu-id="9b712-106">Create a policy</span></span>
-1. <span data-ttu-id="9b712-107">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðarúthlutun.</span><span class="sxs-lookup"><span data-stu-id="9b712-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
-2. <span data-ttu-id="9b712-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9b712-108">Click New.</span></span>
-3. <span data-ttu-id="9b712-109">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="9b712-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="9b712-110">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9b712-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="9b712-111">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="9b712-111">Select Organization.</span></span>  
-5. <span data-ttu-id="9b712-112">Sláið inn eða veljið gildi í reitnum Tölfræðileg vídd.</span><span class="sxs-lookup"><span data-stu-id="9b712-112">In the Statistical dimension field, enter or select a value.</span></span>
-6. <span data-ttu-id="9b712-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9b712-113">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="fe490-106">Stofna Stefnu</span><span class="sxs-lookup"><span data-stu-id="fe490-106">Create a policy</span></span>
+1. <span data-ttu-id="fe490-107">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðarúthlutun.</span><span class="sxs-lookup"><span data-stu-id="fe490-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
+2. <span data-ttu-id="fe490-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fe490-108">Click New.</span></span>
+3. <span data-ttu-id="fe490-109">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="fe490-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="fe490-110">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="fe490-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="fe490-111">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="fe490-111">Select Organization.</span></span>  
+5. <span data-ttu-id="fe490-112">Sláið inn eða veljið gildi í reitnum Tölfræðileg vídd.</span><span class="sxs-lookup"><span data-stu-id="fe490-112">In the Statistical dimension field, enter or select a value.</span></span>
+6. <span data-ttu-id="fe490-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fe490-113">Click Save.</span></span>
 
-## <a name="create-allocation-rules"></a><span data-ttu-id="9b712-114">Stofna úthlutunarreglur</span><span class="sxs-lookup"><span data-stu-id="9b712-114">Create allocation rules</span></span>
-1. <span data-ttu-id="9b712-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9b712-115">Click New.</span></span>
-2. <span data-ttu-id="9b712-116">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9b712-116">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="9b712-117">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9b712-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-4. <span data-ttu-id="9b712-118">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="9b712-118">In the Cost behavior field, select 'Total'.</span></span>
-5. <span data-ttu-id="9b712-119">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="9b712-119">In the Allocation base field, enter or select a value.</span></span>
-6. <span data-ttu-id="9b712-120">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="9b712-120">Click New.</span></span>
-7. <span data-ttu-id="9b712-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9b712-121">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="9b712-122">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9b712-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-9. <span data-ttu-id="9b712-123">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="9b712-123">In the Cost behavior field, select 'Total'.</span></span>
-10. <span data-ttu-id="9b712-124">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="9b712-124">In the Allocation base field, enter or select a value.</span></span>
-11. <span data-ttu-id="9b712-125">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="9b712-125">Click New.</span></span>
-12. <span data-ttu-id="9b712-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9b712-126">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="9b712-127">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="9b712-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-14. <span data-ttu-id="9b712-128">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="9b712-128">In the Cost behavior field, select 'Total'.</span></span>
-15. <span data-ttu-id="9b712-129">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="9b712-129">In the Allocation base field, enter or select a value.</span></span>
-    * <span data-ttu-id="9b712-130">Halda áfram þar til þú hefur stofnað allar reglurnar.</span><span class="sxs-lookup"><span data-stu-id="9b712-130">Continue until you've created all the rules.</span></span>  
-16. <span data-ttu-id="9b712-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9b712-131">Click Save.</span></span>
+## <a name="create-allocation-rules"></a><span data-ttu-id="fe490-114">Stofna úthlutunarreglur</span><span class="sxs-lookup"><span data-stu-id="fe490-114">Create allocation rules</span></span>
+1. <span data-ttu-id="fe490-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fe490-115">Click New.</span></span>
+2. <span data-ttu-id="fe490-116">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fe490-116">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="fe490-117">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="fe490-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+4. <span data-ttu-id="fe490-118">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="fe490-118">In the Cost behavior field, select 'Total'.</span></span>
+5. <span data-ttu-id="fe490-119">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="fe490-119">In the Allocation base field, enter or select a value.</span></span>
+6. <span data-ttu-id="fe490-120">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="fe490-120">Click New.</span></span>
+7. <span data-ttu-id="fe490-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fe490-121">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="fe490-122">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="fe490-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+9. <span data-ttu-id="fe490-123">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="fe490-123">In the Cost behavior field, select 'Total'.</span></span>
+10. <span data-ttu-id="fe490-124">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="fe490-124">In the Allocation base field, enter or select a value.</span></span>
+11. <span data-ttu-id="fe490-125">Smellið á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="fe490-125">Click New.</span></span>
+12. <span data-ttu-id="fe490-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fe490-126">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="fe490-127">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="fe490-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+14. <span data-ttu-id="fe490-128">Veljið „Samtals“ í svæðinu Kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="fe490-128">In the Cost behavior field, select 'Total'.</span></span>
+15. <span data-ttu-id="fe490-129">Sláið inn eða veldu gildi í Úthlutunargrunnur reitnum.</span><span class="sxs-lookup"><span data-stu-id="fe490-129">In the Allocation base field, enter or select a value.</span></span>
+    * <span data-ttu-id="fe490-130">Halda áfram þar til þú hefur stofnað allar reglurnar.</span><span class="sxs-lookup"><span data-stu-id="fe490-130">Continue until you've created all the rules.</span></span>  
+16. <span data-ttu-id="fe490-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fe490-131">Click Save.</span></span>
 
-## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="9b712-132">Úthluta stefnunni til kostnaðarstýringareiningar</span><span class="sxs-lookup"><span data-stu-id="9b712-132">Assign the policy to a cost control unit</span></span>
-1. <span data-ttu-id="9b712-133">Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.</span><span class="sxs-lookup"><span data-stu-id="9b712-133">Click Policy assignments for cost control unit.</span></span>
-2. <span data-ttu-id="9b712-134">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="9b712-134">Click New.</span></span>
-3. <span data-ttu-id="9b712-135">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9b712-135">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="9b712-136">Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="9b712-136">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="9b712-137">Reglurnar stjórnast af dagsetningum.</span><span class="sxs-lookup"><span data-stu-id="9b712-137">The rules are date-effective.</span></span> <span data-ttu-id="9b712-138">Notandi eða kerfið getur látið reglurnar renna út ef nýrri útgáfa er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="9b712-138">A user or the system can expire the rules if a newer version is created.</span></span>  
-5. <span data-ttu-id="9b712-139">Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="9b712-139">In the Cost control unit field, enter or select a value.</span></span>
-6. <span data-ttu-id="9b712-140">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="9b712-140">Click Save.</span></span>
+## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="fe490-132">Úthluta stefnunni til kostnaðarstýringareiningar</span><span class="sxs-lookup"><span data-stu-id="fe490-132">Assign the policy to a cost control unit</span></span>
+1. <span data-ttu-id="fe490-133">Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.</span><span class="sxs-lookup"><span data-stu-id="fe490-133">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="fe490-134">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fe490-134">Click New.</span></span>
+3. <span data-ttu-id="fe490-135">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fe490-135">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="fe490-136">Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="fe490-136">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="fe490-137">Reglurnar stjórnast af dagsetningum.</span><span class="sxs-lookup"><span data-stu-id="fe490-137">The rules are date-effective.</span></span> <span data-ttu-id="fe490-138">Notandi eða kerfið getur látið reglurnar renna út ef nýrri útgáfa er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="fe490-138">A user or the system can expire the rules if a newer version is created.</span></span>  
+5. <span data-ttu-id="fe490-139">Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="fe490-139">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="fe490-140">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fe490-140">Click Save.</span></span>
 

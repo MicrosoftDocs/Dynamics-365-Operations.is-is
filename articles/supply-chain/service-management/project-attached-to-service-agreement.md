@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5fc7e88451c4d9a915743babb8ec8f96f002e91
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c0a1ebd51830766332929792ddc0256ab15f5b2
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211814"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975801"
 ---
-# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="3b802-103">Verk tengt þjónustusamningi</span><span class="sxs-lookup"><span data-stu-id="3b802-103">Project attached to service agreement</span></span> 
+# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="50fc7-103">Verk tengt þjónustusamningi</span><span class="sxs-lookup"><span data-stu-id="50fc7-103">Project attached to service agreement</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="3b802-104">Þú getur tengt þjónustusamninga við verk af öllum gerðum nema af gerðinni **Tímaverk**.</span><span class="sxs-lookup"><span data-stu-id="3b802-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
+<span data-ttu-id="50fc7-104">Þú getur tengt þjónustusamninga við verk af öllum gerðum nema af gerðinni **Tímaverk**.</span><span class="sxs-lookup"><span data-stu-id="50fc7-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
 
-<span data-ttu-id="3b802-105">Þú skráir og bókar allar færslur þjónustupantana í gegnum verkið sem þú hengir við þjónustusamninginn.</span><span class="sxs-lookup"><span data-stu-id="3b802-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="3b802-106">Þú tilgreinir færslubækurnar þar sem þessar færslur eru skráðar og bókaðar á tenglinum **Færslubækur** í skjámyndinni **Færibreytur þjónustustjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="3b802-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
+<span data-ttu-id="50fc7-105">Þú skráir og bókar allar færslur þjónustupantana í gegnum verkið sem þú hengir við þjónustusamninginn.</span><span class="sxs-lookup"><span data-stu-id="50fc7-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="50fc7-106">Þú tilgreinir færslubækurnar þar sem þessar færslur eru skráðar og bókaðar á tenglinum **Færslubækur** í skjámyndinni **Færibreytur þjónustustjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="50fc7-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
 
   
 
