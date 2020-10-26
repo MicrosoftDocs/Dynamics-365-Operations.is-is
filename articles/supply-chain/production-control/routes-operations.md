@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895378"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989242"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -37,10 +37,10 @@ ms.locfileid: "3895378"
 
 Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Supply Chain Management samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 
--   **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
--   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
--   **Aðgerðavensl** – aðgerðavensl skilgreina aðgerðareiginleika, eins og uppsetningartíma og keyrslutíma, kostnaðartegundir, notkunarfæribreytur og tilfangaþarfir. Aðgerðavenslin virkja að aðgerðareiginleikar rekstraráætlanagerðar eru breytilegir, eftir leið sem aðgerðin er notuð í eða þeim afurðum sem verið er að framleiða.
--   **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
+- **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
+- **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
+- **Aðgerðavensl** – aðgerðavensl skilgreina aðgerðareiginleika, eins og uppsetningartíma og keyrslutíma, kostnaðartegundir, notkunarfæribreytur og tilfangaþarfir. Aðgerðavenslin virkja að aðgerðareiginleikar rekstraráætlanagerðar eru breytilegir, eftir leið sem aðgerðin er notuð í eða þeim afurðum sem verið er að framleiða.
+- **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
 
 ## <a name="routes"></a>Leiðir
 Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Supply Chain Management eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
@@ -60,9 +60,9 @@ Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er h
 [![Leiðanet](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
-> -   Þetta tryggir ekki að margar aðgerðir sem hafa sömu arftakaaðgerð (t.d. aðgerðir 30 og 40 í fyrrgreint sýnidæmi) verði í raun keyrðar samhliða. Framboð og geta tilfanga geta sett hömlur á það hvernig aðgerðum er raðað.
-> -   Ekki er hægt að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina að síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
+> - Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
+> - Þetta tryggir ekki að margar aðgerðir sem hafa sömu arftakaaðgerð (t.d. aðgerðir 30 og 40 í fyrrgreint sýnidæmi) verði í raun keyrðar samhliða. Framboð og geta tilfanga geta sett hömlur á það hvernig aðgerðum er raðað.
+> - Ekki er hægt að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina að síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
 
 ### <a name="parallel-operations"></a>Samhliða aðgerðir
 
@@ -99,12 +99,12 @@ Aðgerðareiginleikar aðgerðar, eins og uppsetningartími og keyrslutími, til
 ## <a name="operation-relations"></a>Aðgerðavensl
 Eftirfarandi eiginleikum rekstraráætlanagerðar aðgerðar er haldið við í aðgerðavenslum:
 
--   Kostnaðartegundir
--   Notkunarfæribreytur
--   Vinnslutímar
--   Magn í vinnslu
--   Tilfangaþörf
--   Athugasemdir og leiðbeiningar
+- Kostnaðartegundir
+- Notkunarfæribreytur
+- Vinnslutímar
+- Magn í vinnslu
+- Tilfangaþörf
+- Athugasemdir og leiðbeiningar
 
 Hægt er að skilgreina mörg aðgerðavensl fyrir sömu aðgerð. Hins vegar eru hver aðgerðavensl sértæk við eina aðgerð og geyma eiginleika sem tengjast leið, losuðum afurðum eða safni útgefinna afurða sem eru tengdar við flokk vöru. Þess vegna er hægt að nota sömu aðgerð í mörgum leiðum sem hafa mismunandi aðgerðareiginleika. Þar að auki er auðveldlega hægt að viðhalda aðalgögnum ef notaðar eru staðlaðar aðgerðir sem hafa sömu aðgerðareiginleika, óháð leið sem er notuð og vöru sem er framleidd. Svið aðgerðavensla er skilgreint í gegnum eiginleikana **Vörukóði**, **Vöruvensl**, **Leið kóða** og **Leið vensl** eins og sýnt er í eftirfarandi töflu.
 
@@ -166,12 +166,13 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 Þess vegna á aðeins að nota aðgerð einu sinni fyrir hverja leið. Ef aðgerðin kemur margsinnis fyrir í sömu leið munu öll tilvik þeirrar aðgerðar hafa sömu aðgerðavensl og ekki er hægt að hafa aðra eiginleika (til dæmis keyrslutíma) fyrir hvert tilvik.
 
 ## <a name="route-versions"></a>Leiðarútgáfur
+
 Útgáfur leiða eru notaðar til að hýsa tilbrigði í framleiðslu á afurðum eða veita meiri stjórn yfir framleiðsluferlinu. Þær skilgreina þá leið sem á að nota þegar tiltekin útgefin afurð eða losuð afurðarafbrigði er framleidd. Hægt er að nota eftirfarandi skorður til að skilgreina hvaða leið er notuð fyrir losaða afurð:
 
--   Vöruvíddir (stærð, litur, stíll eða skilgreining)
--   Framleiðslumagn
--   Framleiðslusvæði
--   Framleiðsludagsetning
+- Vöruvíddir (stærð, litur, stíll eða skilgreining)
+- Framleiðslumagn
+- Framleiðslusvæði
+- Framleiðsludagsetning
 
 Þegar verið er að framleiða vöru á ákveðnu svæði í ákveðnu magni eða á tilteknu tímabili, er hægt að úthluta ákveðinni leiðarútgáfu viðkomandi útgáfu sem sjálfgefinni leiðarútgáfu. Athugið hins vegar að aðeins ein virk leið er leyfð fyrir tiltekna útgefna afurð og tiltekið safn skorður.  
 
@@ -194,6 +195,7 @@ Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja l
 Afurðarbreytingamál fyrir samþykkt og virkjun nýrra eða breyttra leiða og leiðarútgáfa veitir auðvelda leið til að sjá yfirlit yfir skorður leiðarútgáfu. Einnig er hægt að samþykkja og virkja allar leiðir sem tengjast ákveðinni breytingu í einni aðgerð og skjalfesta niðurstöður í breytingarmáli afurðar.
 
 ## <a name="maintaining-routes"></a>Viðhalda leiðum
+
 Eftir viðskiptaþörfum ykkar, gæti verið hægt að minnka það framlag sem er krafist til að viðhalda skilgreiningum á vinnslu.
 
 ### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháðar tilföngum
@@ -224,10 +226,10 @@ Ef þú tilgreinir einnig tilfangaþarfir hvað varðar hæfni og getu og gerir 
 
 Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfangaþörfum fyrir aðgerð, gætu viðeigandi tilföng unnið á mismunandi kerfishraða. Þess vegna er tíminn sem þarf til að vinna úr aðgerð mismunandi. Til að leysa þetta vandamál er hægt að nota svæðið **Formúlu** í aðgerðavenslum til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
 
--   **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
--   **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**.
--   **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
--   **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
+- **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
+- **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**.
+- **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
+- **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
 
 ### <a name="set-up-route-groups"></a>Setja upp leiðarflokka
 
