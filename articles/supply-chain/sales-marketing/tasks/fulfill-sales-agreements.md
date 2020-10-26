@@ -13,80 +13,80 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b489add43bb523a7684115b942395b0d830f3c4a
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 7d3a35c7140b886f931df48e583b1582201b6547
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830210"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982018"
 ---
-# <a name="fulfill-sales-agreements"></a><span data-ttu-id="a312a-103">Uppfylla sölusamninga</span><span class="sxs-lookup"><span data-stu-id="a312a-103">Fulfill sales agreements</span></span>
+# <a name="fulfill-sales-agreements"></a><span data-ttu-id="35db9-103">Uppfylla sölusamninga</span><span class="sxs-lookup"><span data-stu-id="35db9-103">Fulfill sales agreements</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a312a-104">Þessi verklýsing sýnir hvernig uppfylla sölusamning með því að tengja sölupantanir við hana.</span><span class="sxs-lookup"><span data-stu-id="a312a-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="a312a-105">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="a312a-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a312a-106">Áður en þessari handbók er ræst, ganga úr skugga um þú sért með virkan sölusamnings af gerðinni "skuldbinding um gildi afurðar".</span><span class="sxs-lookup"><span data-stu-id="a312a-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="a312a-107">Einnig er hægt að keyra leiðarvísi fyrir verk kallast "Stofna sölusamninga".</span><span class="sxs-lookup"><span data-stu-id="a312a-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
+<span data-ttu-id="35db9-104">Þessi verklýsing sýnir hvernig uppfylla sölusamning með því að tengja sölupantanir við hana.</span><span class="sxs-lookup"><span data-stu-id="35db9-104">This procedure shows you how to fulfill a sales agreement by associating sales orders with it.</span></span> <span data-ttu-id="35db9-105">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="35db9-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="35db9-106">Áður en þessari handbók er ræst, ganga úr skugga um þú sért með virkan sölusamnings af gerðinni "skuldbinding um gildi afurðar".</span><span class="sxs-lookup"><span data-stu-id="35db9-106">Before starting this guide, make sure you have an effective sales agreement of type "Product value commitment".</span></span> <span data-ttu-id="35db9-107">Einnig er hægt að keyra leiðarvísi fyrir verk kallast "Stofna sölusamninga".</span><span class="sxs-lookup"><span data-stu-id="35db9-107">Alternatively, you can run the task guide called "Create sales agreements".</span></span>  
 
 
 
 
-## <a name="release-a-sales-order-from-the-agreement"></a><span data-ttu-id="a312a-108">Losa sölupöntun úr samninginn</span><span class="sxs-lookup"><span data-stu-id="a312a-108">Release a sales order from the agreement</span></span>
-1. <span data-ttu-id="a312a-109">Fara í Sölu og markaðssetningu > Sölusamningar > Sölusamninga.</span><span class="sxs-lookup"><span data-stu-id="a312a-109">Go to Sales and marketing > Sales agreements > Sales agreements.</span></span>
-2. <span data-ttu-id="a312a-110">Opna samning sem á að losa pöntunina gagnvart á listanum.</span><span class="sxs-lookup"><span data-stu-id="a312a-110">In the list, open the agreement against which you want to release the order.</span></span>
-3. <span data-ttu-id="a312a-111">Á Aðgerðasvæðinu skal smellt á sölusamningur.</span><span class="sxs-lookup"><span data-stu-id="a312a-111">On the Action Pane, click Sales agreement.</span></span>
-4. <span data-ttu-id="a312a-112">Smellt er á úttektarpöntun.</span><span class="sxs-lookup"><span data-stu-id="a312a-112">Click Release order.</span></span>
-    * <span data-ttu-id="a312a-113">Eins og texti yfir Stofna úttektarpöntun bendir á, eru upplýsingar sem þarf fyrir sölupöntunarlínur verður mismunandi eftir því hvort samningurinn er byggður á magni eða virði.</span><span class="sxs-lookup"><span data-stu-id="a312a-113">As the text on top of the  Create release order page points out, the details required for the sales order lines will differ depending on whether the agreement is quantity- or value-based.</span></span>  
-    * <span data-ttu-id="a312a-114">Samningurinn í þessari handbók er af gerðinni "skuldbinding um gildi afurðar".</span><span class="sxs-lookup"><span data-stu-id="a312a-114">The agreement in this guide is of type "Product value commitment".</span></span> <span data-ttu-id="a312a-115">Þetta er ástæðan fyrir því að línuhluti þessarar síðu er auður.</span><span class="sxs-lookup"><span data-stu-id="a312a-115">This is why the Lines section of this page is blank.</span></span> <span data-ttu-id="a312a-116">Ef skuldbindingin var byggð á magni myndu upplýsingar línunnar vera afritaðar úr samningnum.</span><span class="sxs-lookup"><span data-stu-id="a312a-116">If the commitment was based on quantity, the line information would be copied from the agreement.</span></span>  
-5. <span data-ttu-id="a312a-117">Smellið á „Stofna“.</span><span class="sxs-lookup"><span data-stu-id="a312a-117">Click Create.</span></span>
-    * <span data-ttu-id="a312a-118">Skilaboðin tilkynnir sölupöntun hefur verið stofnuð.</span><span class="sxs-lookup"><span data-stu-id="a312a-118">The message informs you that a sales order has been created.</span></span> <span data-ttu-id="a312a-119">Þar sem pöntunin inniheldur engar línur þarf að bæta við upplýsingum um pöntunarlínu til að ljúka útgáfuferlinu.</span><span class="sxs-lookup"><span data-stu-id="a312a-119">Since the order does not contain any lines, you must add order line details to complete the release process.</span></span>   
-6. <span data-ttu-id="a312a-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-120">Close the page.</span></span>
-7. <span data-ttu-id="a312a-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-121">Close the page.</span></span>
-8. <span data-ttu-id="a312a-122">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="a312a-122">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-9. <span data-ttu-id="a312a-123">Finna og opna pöntun var stofnuð í kjölfar þess að pöntunina var losa í fyrra verki á listanum.</span><span class="sxs-lookup"><span data-stu-id="a312a-123">In the list, find and open the order that was created as the result of the order release in the previous task.</span></span>
-10. <span data-ttu-id="a312a-124">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="a312a-124">Click Add line.</span></span>
-11. <span data-ttu-id="a312a-125">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a312a-125">In the Item number field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="a312a-126">Í svæðinu vörunúmer, Færa inn eða velja vöru sem er tilgreind í tengdum sölusamningnum.</span><span class="sxs-lookup"><span data-stu-id="a312a-126">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
-13. <span data-ttu-id="a312a-127">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="a312a-127">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="a312a-128">Gangið úr skugga um að færa inn magn sem knýr nettóupphæð undir gildi tengt sölusamning.</span><span class="sxs-lookup"><span data-stu-id="a312a-128">Make sure that you enter a quantity that brings the Net amount under the value of the associated sales agreement.</span></span>  
-    * <span data-ttu-id="a312a-129">Athugið þar sem sölupöntunin er tengd við samning, er umsamin afsláttarprósenta beitt í pöntunarlínuna.</span><span class="sxs-lookup"><span data-stu-id="a312a-129">Notice that because the sales order is linked to the agreement, the negotiated discount percent is applied to the order line.</span></span>  
-14. <span data-ttu-id="a312a-130">Smellið á „Uppfæra línu“.</span><span class="sxs-lookup"><span data-stu-id="a312a-130">Click Update line.</span></span>
-15. <span data-ttu-id="a312a-131">Smellið á „Viðhengi“.</span><span class="sxs-lookup"><span data-stu-id="a312a-131">Click Attached.</span></span>
-    * <span data-ttu-id="a312a-132">Tengdar síða samnings sýnir Kenni og skilmálum samningsins þaðan sem línan er losuð frá.</span><span class="sxs-lookup"><span data-stu-id="a312a-132">The Attached agreement page shows the ID and terms of the agreement from which the line is released.</span></span>  
-16. <span data-ttu-id="a312a-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-133">Close the page.</span></span>
-17. <span data-ttu-id="a312a-134">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-134">On the Action Pane, click General.</span></span>
-18. <span data-ttu-id="a312a-135">Smelltu á tengdur Sölusamningar</span><span class="sxs-lookup"><span data-stu-id="a312a-135">Click Attached sales agreement.</span></span>
-19. <span data-ttu-id="a312a-136">Víkkið út hlutann „Upplýsingar um línu“.</span><span class="sxs-lookup"><span data-stu-id="a312a-136">Expand the Line details section.</span></span>
-20. <span data-ttu-id="a312a-137">Smelltu á uppfyllingarflipann.</span><span class="sxs-lookup"><span data-stu-id="a312a-137">Click the Fulfillment tab.</span></span>
-    * <span data-ttu-id="a312a-138">Uppfyllingarflipi sýnir yfirlit yfir allar sölupöntunarlínur sem eru tengdar við skuldbindingu, og stöðu uppfyllingar þeirra, sem og upphæð eða magn sem enn hefur ekki verið losuð.</span><span class="sxs-lookup"><span data-stu-id="a312a-138">The Fulfillment tab shows a summary of all the sales order lines that are associated with this commitment, and their fulfillment state, as well as the amount or quantity that has not yet been released.</span></span>   
-21. <span data-ttu-id="a312a-139">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-139">Close the page.</span></span>
-22. <span data-ttu-id="a312a-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-140">Close the page.</span></span>
-23. <span data-ttu-id="a312a-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-141">Close the page.</span></span>
+## <a name="release-a-sales-order-from-the-agreement"></a><span data-ttu-id="35db9-108">Losa sölupöntun úr samninginn</span><span class="sxs-lookup"><span data-stu-id="35db9-108">Release a sales order from the agreement</span></span>
+1. <span data-ttu-id="35db9-109">Fara í Sölu og markaðssetningu > Sölusamningar > Sölusamninga.</span><span class="sxs-lookup"><span data-stu-id="35db9-109">Go to Sales and marketing > Sales agreements > Sales agreements.</span></span>
+2. <span data-ttu-id="35db9-110">Opna samning sem á að losa pöntunina gagnvart á listanum.</span><span class="sxs-lookup"><span data-stu-id="35db9-110">In the list, open the agreement against which you want to release the order.</span></span>
+3. <span data-ttu-id="35db9-111">Á Aðgerðasvæðinu skal smellt á sölusamningur.</span><span class="sxs-lookup"><span data-stu-id="35db9-111">On the Action Pane, click Sales agreement.</span></span>
+4. <span data-ttu-id="35db9-112">Smellt er á úttektarpöntun.</span><span class="sxs-lookup"><span data-stu-id="35db9-112">Click Release order.</span></span>
+    * <span data-ttu-id="35db9-113">Eins og texti yfir Stofna úttektarpöntun bendir á, eru upplýsingar sem þarf fyrir sölupöntunarlínur verður mismunandi eftir því hvort samningurinn er byggður á magni eða virði.</span><span class="sxs-lookup"><span data-stu-id="35db9-113">As the text on top of the  Create release order page points out, the details required for the sales order lines will differ depending on whether the agreement is quantity- or value-based.</span></span>  
+    * <span data-ttu-id="35db9-114">Samningurinn í þessari handbók er af gerðinni "skuldbinding um gildi afurðar".</span><span class="sxs-lookup"><span data-stu-id="35db9-114">The agreement in this guide is of type "Product value commitment".</span></span> <span data-ttu-id="35db9-115">Þetta er ástæðan fyrir því að línuhluti þessarar síðu er auður.</span><span class="sxs-lookup"><span data-stu-id="35db9-115">This is why the Lines section of this page is blank.</span></span> <span data-ttu-id="35db9-116">Ef skuldbindingin var byggð á magni myndu upplýsingar línunnar vera afritaðar úr samningnum.</span><span class="sxs-lookup"><span data-stu-id="35db9-116">If the commitment was based on quantity, the line information would be copied from the agreement.</span></span>  
+5. <span data-ttu-id="35db9-117">Smellið á „Stofna“.</span><span class="sxs-lookup"><span data-stu-id="35db9-117">Click Create.</span></span>
+    * <span data-ttu-id="35db9-118">Skilaboðin tilkynnir sölupöntun hefur verið stofnuð.</span><span class="sxs-lookup"><span data-stu-id="35db9-118">The message informs you that a sales order has been created.</span></span> <span data-ttu-id="35db9-119">Þar sem pöntunin inniheldur engar línur þarf að bæta við upplýsingum um pöntunarlínu til að ljúka útgáfuferlinu.</span><span class="sxs-lookup"><span data-stu-id="35db9-119">Since the order does not contain any lines, you must add order line details to complete the release process.</span></span>   
+6. <span data-ttu-id="35db9-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-120">Close the page.</span></span>
+7. <span data-ttu-id="35db9-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-121">Close the page.</span></span>
+8. <span data-ttu-id="35db9-122">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="35db9-122">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+9. <span data-ttu-id="35db9-123">Finna og opna pöntun var stofnuð í kjölfar þess að pöntunina var losa í fyrra verki á listanum.</span><span class="sxs-lookup"><span data-stu-id="35db9-123">In the list, find and open the order that was created as the result of the order release in the previous task.</span></span>
+10. <span data-ttu-id="35db9-124">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="35db9-124">Click Add line.</span></span>
+11. <span data-ttu-id="35db9-125">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="35db9-125">In the Item number field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="35db9-126">Í svæðinu vörunúmer, Færa inn eða velja vöru sem er tilgreind í tengdum sölusamningnum.</span><span class="sxs-lookup"><span data-stu-id="35db9-126">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
+13. <span data-ttu-id="35db9-127">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="35db9-127">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="35db9-128">Gangið úr skugga um að færa inn magn sem knýr nettóupphæð undir gildi tengt sölusamning.</span><span class="sxs-lookup"><span data-stu-id="35db9-128">Make sure that you enter a quantity that brings the Net amount under the value of the associated sales agreement.</span></span>  
+    * <span data-ttu-id="35db9-129">Athugið þar sem sölupöntunin er tengd við samning, er umsamin afsláttarprósenta beitt í pöntunarlínuna.</span><span class="sxs-lookup"><span data-stu-id="35db9-129">Notice that because the sales order is linked to the agreement, the negotiated discount percent is applied to the order line.</span></span>  
+14. <span data-ttu-id="35db9-130">Smellið á „Uppfæra línu“.</span><span class="sxs-lookup"><span data-stu-id="35db9-130">Click Update line.</span></span>
+15. <span data-ttu-id="35db9-131">Smellið á „Viðhengi“.</span><span class="sxs-lookup"><span data-stu-id="35db9-131">Click Attached.</span></span>
+    * <span data-ttu-id="35db9-132">Tengdar síða samnings sýnir Kenni og skilmálum samningsins þaðan sem línan er losuð frá.</span><span class="sxs-lookup"><span data-stu-id="35db9-132">The Attached agreement page shows the ID and terms of the agreement from which the line is released.</span></span>  
+16. <span data-ttu-id="35db9-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-133">Close the page.</span></span>
+17. <span data-ttu-id="35db9-134">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-134">On the Action Pane, click General.</span></span>
+18. <span data-ttu-id="35db9-135">Smelltu á tengdur Sölusamningar</span><span class="sxs-lookup"><span data-stu-id="35db9-135">Click Attached sales agreement.</span></span>
+19. <span data-ttu-id="35db9-136">Víkkið út hlutann „Upplýsingar um línu“.</span><span class="sxs-lookup"><span data-stu-id="35db9-136">Expand the Line details section.</span></span>
+20. <span data-ttu-id="35db9-137">Smelltu á uppfyllingarflipann.</span><span class="sxs-lookup"><span data-stu-id="35db9-137">Click the Fulfillment tab.</span></span>
+    * <span data-ttu-id="35db9-138">Uppfyllingarflipi sýnir yfirlit yfir allar sölupöntunarlínur sem eru tengdar við skuldbindingu, og stöðu uppfyllingar þeirra, sem og upphæð eða magn sem enn hefur ekki verið losuð.</span><span class="sxs-lookup"><span data-stu-id="35db9-138">The Fulfillment tab shows a summary of all the sales order lines that are associated with this commitment, and their fulfillment state, as well as the amount or quantity that has not yet been released.</span></span>   
+21. <span data-ttu-id="35db9-139">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-139">Close the page.</span></span>
+22. <span data-ttu-id="35db9-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-140">Close the page.</span></span>
+23. <span data-ttu-id="35db9-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-141">Close the page.</span></span>
 
-## <a name="apply-sales-agreement-in-the-order-process"></a><span data-ttu-id="a312a-142">Jafna sölusamninga í pöntunarferli</span><span class="sxs-lookup"><span data-stu-id="a312a-142">Apply sales agreement in the order process</span></span>
-1. <span data-ttu-id="a312a-143">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="a312a-143">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="a312a-144">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a312a-144">Click New.</span></span>
-3. <span data-ttu-id="a312a-145">Í reitnum Reikningur viðskiptavina skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a312a-145">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="a312a-146">Finna og velja viðskiptavinar sem tilgreindur er í sölusamningnum á listanum.</span><span class="sxs-lookup"><span data-stu-id="a312a-146">In the list, find and select the customer specified on the sales agreement.</span></span>
-5. <span data-ttu-id="a312a-147">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a312a-147">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="a312a-148">Útvíkka eða draga saman hlutann Almennt.</span><span class="sxs-lookup"><span data-stu-id="a312a-148">Expand the General section.</span></span>
-7. <span data-ttu-id="a312a-149">Í reitnum kenni sölusamningur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a312a-149">In the Sales agreement ID field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="a312a-150">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a312a-150">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="a312a-151">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="a312a-151">Click Yes.</span></span>
-10. <span data-ttu-id="a312a-152">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a312a-152">Click OK.</span></span>
-11. <span data-ttu-id="a312a-153">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="a312a-153">In the list, mark the selected row.</span></span>
-12. <span data-ttu-id="a312a-154">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a312a-154">In the Item number field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="a312a-155">Í svæðinu vörunúmer, Færa inn eða velja vöru sem er tilgreind í tengdum sölusamningnum.</span><span class="sxs-lookup"><span data-stu-id="a312a-155">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
-14. <span data-ttu-id="a312a-156">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a312a-156">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="a312a-157">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="a312a-157">Click Save.</span></span>
-16. <span data-ttu-id="a312a-158">Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-158">On the Action Pane, click Pick and pack.</span></span>
-17. <span data-ttu-id="a312a-159">Smellið á „Bóka fylgiseðil“.</span><span class="sxs-lookup"><span data-stu-id="a312a-159">Click Post packing slip.</span></span>
-18. <span data-ttu-id="a312a-160">Víkkið út færibreytuhlutann.</span><span class="sxs-lookup"><span data-stu-id="a312a-160">Expand the Parameters section.</span></span>
-19. <span data-ttu-id="a312a-161">Velja skal Já í reitnum Bókun.</span><span class="sxs-lookup"><span data-stu-id="a312a-161">Select Yes in the Posting field.</span></span>
-20. <span data-ttu-id="a312a-162">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a312a-162">Click OK.</span></span>
-21. <span data-ttu-id="a312a-163">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a312a-163">Click OK.</span></span>
-22. <span data-ttu-id="a312a-164">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="a312a-164">On the Action Pane, click General.</span></span>
-23. <span data-ttu-id="a312a-165">Smelltu á tengdur Sölusamningar</span><span class="sxs-lookup"><span data-stu-id="a312a-165">Click Attached sales agreement.</span></span>
-24. <span data-ttu-id="a312a-166">Smelltu á uppfyllingarflipann.</span><span class="sxs-lookup"><span data-stu-id="a312a-166">Click the Fulfillment tab.</span></span>
+## <a name="apply-sales-agreement-in-the-order-process"></a><span data-ttu-id="35db9-142">Jafna sölusamninga í pöntunarferli</span><span class="sxs-lookup"><span data-stu-id="35db9-142">Apply sales agreement in the order process</span></span>
+1. <span data-ttu-id="35db9-143">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="35db9-143">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="35db9-144">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="35db9-144">Click New.</span></span>
+3. <span data-ttu-id="35db9-145">Í reitnum Reikningur viðskiptavina skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="35db9-145">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="35db9-146">Finna og velja viðskiptavinar sem tilgreindur er í sölusamningnum á listanum.</span><span class="sxs-lookup"><span data-stu-id="35db9-146">In the list, find and select the customer specified on the sales agreement.</span></span>
+5. <span data-ttu-id="35db9-147">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="35db9-147">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="35db9-148">Útvíkka eða draga saman hlutann Almennt.</span><span class="sxs-lookup"><span data-stu-id="35db9-148">Expand the General section.</span></span>
+7. <span data-ttu-id="35db9-149">Í reitnum kenni sölusamningur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="35db9-149">In the Sales agreement ID field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="35db9-150">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="35db9-150">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="35db9-151">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="35db9-151">Click Yes.</span></span>
+10. <span data-ttu-id="35db9-152">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="35db9-152">Click OK.</span></span>
+11. <span data-ttu-id="35db9-153">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="35db9-153">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="35db9-154">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="35db9-154">In the Item number field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="35db9-155">Í svæðinu vörunúmer, Færa inn eða velja vöru sem er tilgreind í tengdum sölusamningnum.</span><span class="sxs-lookup"><span data-stu-id="35db9-155">In the Item number field, type or select the item that is specified on the associated sales agreement.</span></span>
+14. <span data-ttu-id="35db9-156">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="35db9-156">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="35db9-157">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="35db9-157">Click Save.</span></span>
+16. <span data-ttu-id="35db9-158">Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-158">On the Action Pane, click Pick and pack.</span></span>
+17. <span data-ttu-id="35db9-159">Smellið á „Bóka fylgiseðil“.</span><span class="sxs-lookup"><span data-stu-id="35db9-159">Click Post packing slip.</span></span>
+18. <span data-ttu-id="35db9-160">Víkkið út færibreytuhlutann.</span><span class="sxs-lookup"><span data-stu-id="35db9-160">Expand the Parameters section.</span></span>
+19. <span data-ttu-id="35db9-161">Velja skal Já í reitnum Bókun.</span><span class="sxs-lookup"><span data-stu-id="35db9-161">Select Yes in the Posting field.</span></span>
+20. <span data-ttu-id="35db9-162">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="35db9-162">Click OK.</span></span>
+21. <span data-ttu-id="35db9-163">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="35db9-163">Click OK.</span></span>
+22. <span data-ttu-id="35db9-164">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="35db9-164">On the Action Pane, click General.</span></span>
+23. <span data-ttu-id="35db9-165">Smelltu á tengdur Sölusamningar</span><span class="sxs-lookup"><span data-stu-id="35db9-165">Click Attached sales agreement.</span></span>
+24. <span data-ttu-id="35db9-166">Smelltu á uppfyllingarflipann.</span><span class="sxs-lookup"><span data-stu-id="35db9-166">Click the Fulfillment tab.</span></span>
 
