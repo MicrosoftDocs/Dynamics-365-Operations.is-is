@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270005"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961635"
 ---
 # <a name="modify-an-existing-site-page"></a>Breyta síðu svæðis sem þegar er til
 
@@ -47,7 +47,7 @@ Næsta skref er að gera raunverulegar breytingar. Oft notarðu útlínutré sí
 Hins vegar gæti breyting þín stundum falið í sér viðbót eða fjarlægingu líkana eða brota. Til að bæta við broti eða einingunni skaltu nota útlitsgreinatréð til að finna raufina sem þú vilt bæta einingunni eða brotinu við og veldu síðan úrfellingarhnappinn (**...**) fyrir það hólf. Valmynd birtist sem inniheldur skipanir til að bæta við einingu eða broti. Til að fjarlægja einingu eða brot, finndu og veldu það í útlitsstré síðunnar, veldu úrfellingarhnappinn og veldu síðan skipunina til að eyða einingunni eða brotinu.
 
 > [!TIP]
-> Þú getur líka skoðað og breytt eiginleikum fyrir hverja einingu sem er sýnileg í „það sem þú sérð er það sem þú færð“ (WYSIWYG) með því að velja það beint.
+> Einnig er hægt að skoða og breyta eiginleikum fyrir einingu sem er sýnileg í forskoðun sýnilegs síðuhönnuðar með því að velja hana með beinum hætti.
 
 Eftir að þú ert búinn að gera breytingar þínar og forskoða áhrif þeirra skaltu merkja við síðuna með því að velja **Ljúka við breytingar** á skipanastikunni. 
 

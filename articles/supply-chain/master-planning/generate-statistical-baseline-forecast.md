@@ -16,15 +16,15 @@ ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c56d80dca9bf7753585532dffd57552ce2ee7a3f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203826"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982846"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
@@ -68,7 +68,7 @@ Myndun eftirspurnarspár getur haft nafn og athugasemdir til að aðstoða noten
 Ef spá er ekki mynduð fyrir stórt safn af vörum en, til dæmis, fyrir eina vöru eða einn úthlutunarlykil vöru í einu, þá er hægt, til að ná betri afköstum, að velja gátreitinn **Nota stillingu til að biðja um svör** á flipanum **Aðaláætlanagerð - Uppsetning - Eftirspurnarspá** - **Færibreytur eftirspurnarspár - Azure vélnám**.
 
 > [!NOTE]
-> Hugsanlega flöt spá getur verið vegna sögulegra gagna sem þurfa að vera með lengri sögulegan tímaramma (að lágmarki 3 tímabil til að hægt sé að velja mynstur, eins og 3 ár með mánaðarlegri spá). Til að ná betri árangri geturðu reynt að breyta tímamörkum eða auka tímabilið.
+> Hugsanlega flöt spá getur verið vegna sögulegra gagna sem þurfa að vera með lengri sögulegan tímaramma (að lágmarki 3 tímabil til að hægt sé að velja mynstur, eins og 3 ár með mánaðarlegri spá). Til að fá betri niðurstöður er hægt að prófa að breyta uppskiptingu tímabilsins eða auka tímabilið.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

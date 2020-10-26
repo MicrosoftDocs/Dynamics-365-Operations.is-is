@@ -3,7 +3,7 @@ title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887265"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973477"
 ---
-# <a name="get-started-with-planning-optimization"></a>Byrjaðu með hagræðingu skipulags
+# <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
 [!include [banner](../../includes/banner.md)]
 
-Virkni fínstillingar áætlunar styður ekki eins og er alla þá eiginleika sem eru fáanlegir í áætlunarvélinni sem er innbyggð í Microsoft Dynamics 365 Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort eiginleikasettið sem nú er fáanlegt í fínstillingu skipulagsins uppfylli kröfur þínar. Sjálfgefið er að ekki er kveikt á virkni fínstillingar skipulagningar í Dynamics Lifecycle Services (LCS). Þess vegna hefurðu tækifæri til að gera úttektina áður en kveikt er á henni.
+Eins og hefur [áður verið tilkynnt](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), er á dagskrá að fínstilling skipulagningar takið við af núverandi innbyggðri vél aðaláætlanagerðar.
 
-Að lokum mun fínstilling skipulagningar koma í stað núverandi innbyggðrar áætlunarvélar Supply Chain Management.
+Ef verið er að nota innbyggða vél aðaláætlanagerðar, ætti að huga að flutningi yfir í fínstillingu skipulagningar. Mikilvægt er að hefja flutningsferlið strax vegna þess að aðgerðir þínar kunna að verða fyrir áhrifum þegar úreldingu er framfylgt. Til að koma í veg fyrir vandamál í síðustu stundu þegar úreldingu er framfylgt, mælum við eindregið með því að þú ljúkir við flutninginn fyrir 1. desember 2020. 
+
+Sem stendur styður virknin fyrir fínstillingu skipulagningar ekki alla eiginleika sem eru í boði í vél áætlanagerðar sem er byggð inn í Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort eiginleikasettið sem nú er fáanlegt í fínstillingu skipulagsins uppfylli kröfur þínar. Ekki er kveikt á virkni fyrir fínstillingu skipulagningar að sjálfgefnu sem stendur í Dynamics Lifecycle Services, þannig að þú hefur tækifæri til að meta stöðuna áður en kveikt er á eiginleikanum.
+
+> [!NOTE]
+> Þú þarft að biðja um undantekningu á flutningi yfir í fínstillingu skipulagningar ef ferli aðaláætlanagerðar felur ekki í sér framleiðslu (áætlaðar framleiðslupantanir sem aðaláætlanagerðin býr til) og þú þarft að nota innbyggða vél aðaláætlanagerðar í útgáfu sem er nýrri en 10.0.15. Frá og með útgáfu 10.0.16 verður sýnd villa í umhverfum þegar innbyggð aðaláætlanagerð er keyrð án þess að búa til áætlaðar framleiðslupantanir. Nota ætti fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Eigendur núverandi umhverfa sem keyra innbyggða vél aðaláætlanagerðar án þess að búa til áætlaðar framleiðslupantanir, fá tölvupóst með upplýsingum um undantekningarferlið. Við mælum með því að þú vinnir með samstarfsaðila til að meta og leggja drög að flutningnum yfir í Fínstillingu skipulagningar.
 
 Áður en þú kveikir á fínstillingu skipulags mælum við eindregið með því að þú metir niðurstöður greiningar á fínstillingu skipulagningar. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
 

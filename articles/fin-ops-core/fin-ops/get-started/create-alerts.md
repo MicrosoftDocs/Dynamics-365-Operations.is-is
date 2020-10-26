@@ -3,7 +3,7 @@ title: Viðvörunarreglur stofnaðar
 description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075925"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970680"
 ---
 # <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
@@ -92,3 +92,14 @@ Hægt er að senda viðvaranir að utan með ramma viðskiptatilvika. Þegar þ�
 7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn er notaður í efnislínu fyrirsagnarfyrir tölvupóst sem berst þegar viðvörun er gefin. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu stilla **Senda að utan** á **Já**.
 8. Í reitnum **Skilaboð** skal færa inn valfrjáls skilaboð. Textinn er notaður sem skilaboðin sem er tekið á móti þegar viðvörun er ræst.
 9. Veldu **Í lagi** til að vista stillingarnar og búa til viðvörunarregluna.
+
+## <a name="limitations-and-workarounds"></a>Takmarkanir og hjáleiðir
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Hjáleiðir til að búa til viðvaranir fyrir aukalega gagnagjafa skjámyndar
+Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa skjámynda. Til dæmis, þegar viðvaranir eru búnar til í bókunarregluskjámyndum viðskiptavinar og lánardrottins, eru aðeins reitirnir í hausnum (CustLedger or VendLedger) tiltækir en ekki víddarlyklarnir. Hjáleið þessarar takmörkunar er að nota **SysTableBrowser** til að opna þessa töflu sem aðalgagnagjafa. 
+1. Opnið töfluna í skjámyndinni **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
+

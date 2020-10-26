@@ -3,7 +3,7 @@ title: Yfirlit yfir beiðnir um tilboð
 description: Í þessu efnisatriði er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
 author: mkirknel
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eedf6b08ef9a4b7f164db60433dd16922a8ec807
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895621"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973501"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -34,23 +34,21 @@ Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi
 
 BUT ferlið samanstendur af eftirfarandi verkefnum:
 
-1.  Stofna og senda BUT til eins eða fleiri lánardrottna.
-
-2.  Móttaka og skrá tilboð (BUT-svör).
-
-3.  Flytja samþykkt útboð yfir í innkaupapöntun, innkaupasamningur eða innkaupabeiðni.
+1. Stofna og senda BUT til eins eða fleiri lánardrottna.
+1. Móttaka og skrá tilboð (BUT-svör).
+1. Flytja samþykkt útboð yfir í innkaupapöntun, innkaupasamningur eða innkaupabeiðni.
 
 Eftirfarandi skýringarmynd veitir yfirlit yfir BUT ferlið.
 
 [![RFQ-ferli](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða úr handvirkri færslu. BUT tilfellið er grunnskjalið sem er notað til að gefa út BUT á hvern lánardrottinn.+
+Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða úr handvirkri færslu. BUT tilfellið er grunnskjalið sem er notað til að gefa út BUT á hvern lánardrottin.
 
 Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** (**Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
 Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
 
-Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.+
+Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.
 
 Þegar tilboð berast í tölvupósti er hægt að vinna með þessi tilboð á síðunni **Beiðni um tilboð**.
 
@@ -68,15 +66,10 @@ Stöðunum verður lýst nánar í seinni hlutum þessa efnisatriðis.
 
 Áður en hægt er að stofna BUT-verk, verður að setja upp upplýsingar um BUT á síðunni **færibreytur Innkaupa og uppruna**. Þegar BUT-verk er stofnað er hægt að tilgreina sjálfgefin gildi eru afrituð í BUT. Þú getur tilgreint eftirfarandi sjálfgildi:
 
--   Gerð innkaupa nýrra BUT: **Innkaupapöntun** eða **Innkaupasamningur**
-
--   Mótfærður lokadagur og -tími frá þeim degi sem BUT-verkið er stofnað
-
--   Beiðnagerð sem getur sjálfgefið gefið ákveðna aðferð við stigagjöf BUT-verksins
-
--   Upplýsingar um afhendingu og greiðsluskilmálar
-
--   Reitir sem á að fylgja tilboðinu
+- Gerð innkaupa nýrra BUT: **Innkaupapöntun** eða **Innkaupasamningur**
+- Mótfærður lokadagur og -tími frá þeim degi sem BUT-verkið er stofnað.
+- Beiðnagerð sem getur sjálfgefið gefið ákveðna aðferð við stigagjöf BUT-verksins.
+- Upplýsingar um greiðslu og afhendingarskilmála.
 
 Hægt er að hnekkja þessi gildi fyrir tiltekið BUT-verk.
 
@@ -84,37 +77,25 @@ Einnig ætti að skilgreina ferli breytingar. Hluti af þessari stillingu er að
 
 Velja sniðmát fyrir tilkynningu í tölvupósti sem er sent til lánardrottna í **Færibreytur innkaupa og aðfanga** síðu. Þegar sniðmát er stofnað í **Sniðmát fyrir tölvupóst** getur það innihaldið eftirfarandi endurnýjunartákn:
 
--   %BUT mál%
-
--   %Ástæða fyrir ógildingu tilboðs%
-
--   %Ástæða breytinga%
-
--   %Breytingar gerðar af%
-
--   %Fyrirtæki%
-
--   %BUT mál heiti%
-
--   %Lokadagur Tími%
-
--   % Dagsetning%
+- %BUT mál%
+- %Ástæða fyrir ógildingu tilboðs%
+- %Ástæða breytinga%
+- %Breytingar gerðar af%
+- %Fyrirtæki%
+- %BUT mál heiti%
+- %Lokadagur Tími%
+- % Dagsetning%
 
 % Ástæða skila kauptilboðs % og % Ástæða fyrir breytingum % tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann eða hún lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir % Breytingar gerðar af % og % Fyrirtækis % tákn eru sjálfkrafa tekin úr BUT. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
 Ef á að hætta í BUT eftir að það hefur verið sent, er hægt að gera það frá RFQ-verkinu. Fyrir afturköllun á sniðmáti fyrir tölvupóst er þess krafist að senda tilkynningu afturköllunar til tengiliðs lánardrottins. Sniðmátið verður að vera valið á síðunni **Færibreytur innkaupa og aðfanga**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
 
--   %Ástæða afturköllunar%
-
--   %BUT mál%
-
--   %BUT afturkallað af%
-
--   %Fyrirtæki%
-
--   %BUT mál heiti%
-
--   % Dagsetning%
+- %Ástæða afturköllunar%
+- %BUT mál%
+- %BUT afturkallað af%
+- %Fyrirtæki%
+- %BUT mál heiti%
+- % Dagsetning%
 
 %Ástæða afturköllunar kauptilboðs% tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn í **Afturköllun** leiðsagnarforritinu. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
@@ -130,6 +111,19 @@ Hægt er að skilgreina útlit prentaðra eða vistaðra BUT-skjala á síðunni
 
 Sem innkaupastjóri eða umboðsmaður, getur þú stofnað og viðhaldið beiðnagerðum til falla að innkaupakröfum fyrirtækis þíns. Hverja beiðnagerð má tengja við aðferðir við stigagjöf. Aðgerðir við stigagjöf samanstendur af safni skilyrða sem hægt er að nota þegar tilboðum fá stigagjöf. Setja verður upp beiðnagerðir, stigagjöf og skilyrða á síðunum **gerð Beiðni** og **Stigagjöf**.
 
+## <a name="choose-default-fields-to-include-in-vendor-rfq-reply-forms"></a><a name="default-reply-fields"></a>Velja sjálfgefna reiti sem á að hafa með í eyðublöðum fyrir svar við tilboðsbeiðni
+
+Hægt er að tilgreina tilteknar gerðir af upplýsingum sem þú vilt fá frá lánardrottnum þegar þeir svara (bjóða í) beiðni um tilboð (RFQ). Reitir sem eru merktir sem sjálfgefnir eru teknir með í eyðublaðinu á netinu fyrir samstarf lánardrottna. Til að gera þessar stillingar:
+
+1. Ef það hefur ekki þegar verið gert er hægt að nota síðuna [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja eiginleikann *Velja reiti tilboðsbeiðni sem á að hafa með í eyðublöðum sem innihalda svar lánardrottins við tilboðsbeiðni*.
+1. Farið í **Innkaup og aðföng > Uppsetning > Færibreytur innkaupa og aðfanga**.
+1. Opnið flipann **Beiðni um tilboð**.
+1. Veljið tengil svarreitanna **Sjálfgefin tilboðsbeiðni** undir hausnum **Setja upp sjálfgildi fyrir beiðnir um tilboð**.
+1. Svarglugginn **Sjálfgefnir svarreitir tilboðsbeiðni** opnast.
+1. Hlutinn **Reitir tilboðsbeiðni sem hafðir eru með í eyðublöðum sem innihalda svar lánardrottins við tilboðsbeiðni** inniheldur sleða fyrir hvern reit sem hægt er að nota í eyðublöðum fyrir svar við tilboðsbeiðni. Reitir sem eru stilltir á *Já* í þessum hluta verða teknir með (ásamt gildunum þeirra) í eyðublöðum fyrir svar við tilboðsbeiðni. Stillið sleðann á *Nei* fyrir hvern reit þar sem koma á í veg fyrir að lánardrottnar sjái gögn þegar tilboð er skoðað. Þetta gerir þér kleift að færa inn áætluð eða væntanleg gildi við færslu tilboðsbeiðni til nota innanhúss án þess að lánardrottinn sjái hvað hefur verið fært inn.
+
+Hægt er að hnekkja þessum stillingum fyrir einstök tilvik tilboðsbeiðna eftir þörfum.
+
 ## <a name="creating-and-sending-an-rfq"></a>Stofna og senda inn beiðni um TILBOÐ
 
 BUT-verk er stofnað, lánardrottnar eru valdir sem óskað er að gera kauptilboð fyrir BUT-verkið og síðan er BUT sent til lánardrottna. Hægt er að nota prentstillingum til að beina BUT-skýrslunni og svarblaðsskýrslum á æskilegan áfangastað.
@@ -138,15 +132,13 @@ Hægt er að stofna BUT-verk handvirkt fyrir annaðhvort innkaupagerðina **Innk
 
 Ef BUT-verkið er af gerðinni **Innkaupapöntun** mun eftirfarandi hegðun eiga sér stað sem víkur frá öðrum gerðum af BUT-verkum:
 
--   Þegar BUT-verklínur eru stofnaðar eru birgðafærslur myndaðar með innhreyfingarstöðuna **Innhreyfing tilboðs**.
-
--   Þegar kauptilboð er samþykkt, er innkaupapöntun mynduð.
+- Þegar BUT-verklínur eru stofnaðar eru birgðafærslur myndaðar með innhreyfingarstöðuna **Innhreyfing tilboðs**.
+- Þegar kauptilboð er samþykkt, er innkaupapöntun mynduð.
 
 Ef BUT er af gerðinni **Innkaupasamningur**, á eftirfarandi hegðun sér stað sem víkur frá öðrum BUT-verkum:
 
--   BUT-verk er notað sem samningur um að kaupa ákveðið magn eða virði afurðar yfir tíma. Ef valin er þessi gerð innkaupa þarf að velja dagsetningasvið sem á við innkaupasamninginn og nafn þess einstaklings sem hefur umsjón með innkaupasamningnum.
-
--   Þegar kauptilboð er samþykkt, er innkaupasamningur myndaður.
+- BUT-verk er notað sem samningur um að kaupa ákveðið magn eða virði afurðar yfir tíma. Ef valin er þessi gerð innkaupa þarf að velja dagsetningasvið sem á við innkaupasamninginn og nafn þess einstaklings sem hefur umsjón með innkaupasamningnum.
+- Þegar kauptilboð er samþykkt, er innkaupasamningur myndaður.
 
 Ef BUT-verk er myndað úr innkaupabeiðni er gerðinni **Innkaupabeiðni** sjálfkrafa úthlutað. Ekki er hægt að stofna BUT-verk handvirkt með gerðina **Innkaupabeiðni**.
 
@@ -156,6 +148,7 @@ Hægt er að stofna BUT-verk úr innkaupabeiðni aðeins ef staða innkaupabeið
 
 Hægt er að bæta spurningalista við BUT-verk. Þessi spurningalisti birtist síðan í öllum BUT-svörum eftir að BUT er sent. Það er áskilið verk að ljúka spurningalistanum áður en hægt er að senda tilboðið.
 
+Þó að sjálfgildin séu gefin upp er hægt að breyta stillingunum **Reitir tilboðsbeiðni sem hafðir eru með í eyðublöðum sem innihalda svar lánardrottins við tilboðsbeiðni** fyrir hverja tilboðsbeiðni fyrir sig eftir þörfum. Til að gera það skal stofna eða opna tilvik af tilboðsbeiðni. Síðan, á aðgerðasvæðinu, skal opna flipann **Tilboð** og, úr hlutanum **Svör**, skal velja **Stilla sjálfgildi svars við tilboðsbeiðni**. Svarglugginn **Sjálfgefnir svarreitir tilboðsbeiðni** opnast, sem virkar á sama hátt og þegar sjálfgildin eru stillt fyrir eyðublöð fyrir svar við tilboðsbeiðni lánardrottins, fyrir utan að breytingarnar hér hafa aðeins áhrif á núverandi svar tilboðsbeiðni. Frekari upplýsingar um hvernig á að virkja þessa virkni og hvernig hún virkar er að finna í [Velja sjálfgefna reiti sem á að hafa með í eyðublöðum fyrir svar við tilboðsbeiðni](#default-reply-fields).
 
 Það eru þrjár leiðir til að velja þá lánardrottna til að bæta við BUT-verk:
 
@@ -166,7 +159,6 @@ Hægt er að bæta spurningalista við BUT-verk. Þessi spurningalisti birtist s
 Þegar BUT-málið er tilbúið er smellt á **Senda**. Aðgerðin Senda myndar færslubækur og skýrslur sem verða prentaðar, skjalaðar og sendar í samræmi við prentstillingarnar.
 
 Ef þú stillir **Nota lánardrottin til að endurreikna verð** og **Nota vöruupplýsingar sem eiga við lánardrottna** á **Já** á síðunni **Sendir tilboðsbeiðni** þegar BUT er send til lánardrottins, eru sumar upplýsingar tengdar lánardrottnum sjálfkrafa færðar inn í BUT fyrir þann lánardrottin.
-
 
 ## <a name="amending-an-rfq-case"></a>Breyting á BUT-verki
 
@@ -179,7 +171,6 @@ Ef grunnstilling þín felur í sér minna takmarkandi lagfæringarferli þarf e
 Ef lánardrottnar nota lánardrottna samstarfsviðmótið til að slá inn tilboð verður þú alltaf að nota lagfæringarferlið til að tilkynna lánardrottnum um breytingar á BUT-málinu. Þetta ferli hjálpar til við að koma í veg fyrir aðstæður þar sem lánardrottnar bjóða í úrelt BUT-verk á meðan tilboð þeirra er í vinnslu. Nánari upplýsingar um samstarf lánardrottna er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Ef þú vilt bjóða fleiri lánardrottnum að bjóða, og engar breytingar hafa verið gerðar á BUT-málinu, getur þú notað **Senda** hnappinn. Söluaðilarnir sem þú bættir við munu birtast á síðunni **Senda** og fá tölvupóstboðið.
-
 
 ## <a name="receiving-and-registering-rfq-replies"></a>Móttaka og skrá svör við BUT
 
@@ -208,29 +199,20 @@ Við svar, er hægt að bæta inn ástæðukóða til að útskýra hvers vegna 
 
 Þegar kauptilboð er samþykkt af gerðinni **Innkaupabeiðni** verður innkaupabeiðnilínur uppfærðar með eftirfarandi upplýsingum sem endurspegla upplýsingar um samþykkt tilboð:
 
--   Einingarverð
-
--   Afsláttarprósenta
-
--   Afsláttarupphæð
-
--   Innkaupagjöld
-
--   Línugjöld
-
--   Lánardrottinn
-
--  Ytra númeri
-
--   Ytri lýsing
-
+- Einingarverð
+- Afsláttarprósenta
+- Afsláttarupphæð
+- Innkaupagjöld
+- Línugjöld
+- Lánardrottinn
+- Ytra númeri
+- Ytri lýsing
 
 Eftirfarandi tafla sýnir stöðubreytingar BUT þegar kauptilboð frá lánardrottnum eru samþykkt og hafnað.
 
-<a name="statuses--highest-and-lowest"></a>Stöður - hæsta og lægsta
------------------------------
+## <a name="statuses--highest-and-lowest"></a>Stöður - hæsta og lægsta
 
-Á flipa lánardrottins í BUT-verki er hægt að sjá línurnar með hæstu og lægstu stöðu tiltekins lánardrottins. Þegar lánardrottna er bætt við og engar línur hafa enn verið sendar eru bæði lægstu og hæstu stöður <strong>Stofnaðar.</strong>Þegar BUT er send til lánardrottins með öllum línum verður staða línanna tveggja <strong>Sent</strong>. Ef einhverjar línur í kauptilboði frá lánardrottni eru samþykktar og öðrum er hafnað munu höfnuðu línurnar fá lægstu stöðu sem er <strong>Hafnað</strong> og samþykktu línurnar fá hæstu stöðu sem er <strong>Samþykkt</strong>.
+Á flipa lánardrottins í BUT-verki er hægt að sjá línurnar með hæstu og lægstu stöðu tiltekins lánardrottins. Þegar lánardrottni er bætt við og engar línur hafa enn verið sendar eru bæði lægsta og hæsta staðan <strong>Stofnað.</strong> Þegar beiðni um tilboð er send til lánardrottins með öllum línum verður staða línanna tveggja <strong>Sent</strong>. Ef einhverjar línur í kauptilboði frá lánardrottni eru samþykktar og öðrum er hafnað munu höfnuðu línurnar fá lægstu stöðu sem er <strong>Hafnað</strong> og samþykktu línurnar fá hæstu stöðu sem er <strong>Samþykkt</strong>.
 
 Á BUT-verklínum er hægt að sjá hæstu og lægstu stöður fyrir hverja línu yfir alla lánardrottna. Ef lína hefur verið send á alla lánardrottna í BUT-verki og enginn hefur brugðist við eru bæði lægsta og hæsta staða **Sent.** Þegar að minnsta kosti einn lánardrottin bregst við mun hæsta staðan breytast í **Móttekið**. Ef nýjum lánardrottna er bætt við verkið mun lægsta staða breytast í **Stofnað**
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 62ed33d101f7d7e47b560c417dc05e5aecc83478
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 911c5cc79ae359bbb77d31f366ccfeabf282a33e
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546339"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958694"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Samstilla afurðir með birgðaeiningu úr Supply Chain Management við Field Service
 
@@ -50,7 +50,7 @@ Notaða sniðmátið **Afurðir Field Service með birgðaeiningu (Supply Chain 
 
 - Afurðir
 
-Sniðmátið **Afurðir Field Service með birgðaeiningu (Supply Chain Management til Field Service)** inniheldur eina vörpun sem er ekki innifalin í sniðmátinu **Afurðir Field Service (Supply Chain Management til Field Service)**. Þessi vörpun tryggir að nauðsynleg birgðaeining fyrir samstillingu birgðastöðu sé innifalin.
+Sniðmátið **Field Service Products með birgðaeiningu (Supply Chain Management til Field Service)** inniheldur eina vörpun sem er ekki hluti af sniðmátinu **Field Service Products (Supply Chain Management til Field Service)**. Þessi vörpun tryggir að nauðsynleg birgðaeining fyrir samstillingu birgðastöðu sé innifalin.
 
 ```plaintext
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
