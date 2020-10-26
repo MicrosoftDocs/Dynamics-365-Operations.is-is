@@ -15,59 +15,59 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c5ca3c1e74c642de117c708c039614da9e0ec15
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202860"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978484"
 ---
-# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="acba5-103">Stofna vöruþörf fyrir þjónustupantanir</span><span class="sxs-lookup"><span data-stu-id="acba5-103">Create item requirements for service orders</span></span> 
+# <a name="create-item-requirements-for-service-orders"></a><span data-ttu-id="da794-103">Stofna vöruþörf fyrir þjónustupantanir</span><span class="sxs-lookup"><span data-stu-id="da794-103">Create item requirements for service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="acba5-104">Þú getur búið til þjónustupöntun til að fylgjast með og stjórna þjónustu sem þú veitir viðskiptavinum þínum.</span><span class="sxs-lookup"><span data-stu-id="acba5-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="acba5-105">Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana.</span><span class="sxs-lookup"><span data-stu-id="acba5-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="acba5-106">Hægt er að neyta vörukröfu strax úr birgðum, eða hún getur hafið framleiðslupöntun fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="acba5-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
+<span data-ttu-id="da794-104">Þú getur búið til þjónustupöntun til að fylgjast með og stjórna þjónustu sem þú veitir viðskiptavinum þínum.</span><span class="sxs-lookup"><span data-stu-id="da794-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="da794-105">Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana.</span><span class="sxs-lookup"><span data-stu-id="da794-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="da794-106">Hægt er að neyta vörukröfu strax úr birgðum, eða hún getur hafið framleiðslupöntun fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="da794-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
 
-<span data-ttu-id="acba5-107">Með því að nota vörukröfu í staðinn fyrir vörufærsla, geturðu áætlað afhendingu rétt áður en vara er raunverulega notuð, stofnað innkaupapöntun, haft vöruna með í ramma viðskiptasamkomulags og innifalið vörukröfuna í framleiðsluáætlun.</span><span class="sxs-lookup"><span data-stu-id="acba5-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
+<span data-ttu-id="da794-107">Með því að nota vörukröfu í staðinn fyrir vörufærsla, geturðu áætlað afhendingu rétt áður en vara er raunverulega notuð, stofnað innkaupapöntun, haft vöruna með í ramma viðskiptasamkomulags og innifalið vörukröfuna í framleiðsluáætlun.</span><span class="sxs-lookup"><span data-stu-id="da794-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
 
-<span data-ttu-id="acba5-108">Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni.</span><span class="sxs-lookup"><span data-stu-id="acba5-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="acba5-109">Til að stofna vöruþörf í þjónustupöntun verður að úthluta þjónustupöntunina við verk.</span><span class="sxs-lookup"><span data-stu-id="acba5-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="acba5-110">Eftir að þú hefur búið til vörukröfu fyrir þjónustupöntun getur þú skoðað vörukröfuna í skjámynd **Verkefni** fyrir verkefnið sem er valið.</span><span class="sxs-lookup"><span data-stu-id="acba5-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
+<span data-ttu-id="da794-108">Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni.</span><span class="sxs-lookup"><span data-stu-id="da794-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="da794-109">Til að stofna vöruþörf í þjónustupöntun verður að úthluta þjónustupöntunina við verk.</span><span class="sxs-lookup"><span data-stu-id="da794-109">To create an item requirement on a service order, the service order must be assigned to a project.</span></span> <span data-ttu-id="da794-110">Eftir að þú hefur búið til vörukröfu fyrir þjónustupöntun getur þú skoðað vörukröfuna í skjámynd **Verkefni** fyrir verkefnið sem er valið.</span><span class="sxs-lookup"><span data-stu-id="da794-110">After you create an item requirement for a service order, you can view the item requirement in the **Projects** form for the selected project.</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="acba5-111">Stofna vöruþörf fyrir þjónustupöntun</span><span class="sxs-lookup"><span data-stu-id="acba5-111">Create an item requirement for a service order</span></span>
+## <a name="create-an-item-requirement-for-a-service-order"></a><span data-ttu-id="da794-111">Stofna vöruþörf fyrir þjónustupöntun</span><span class="sxs-lookup"><span data-stu-id="da794-111">Create an item requirement for a service order</span></span>
 
-1.  <span data-ttu-id="acba5-112">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="acba5-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="da794-112">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="da794-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="acba5-113">Valin þjónustupöntunin sem útbúa á vöruþörf fyrir.</span><span class="sxs-lookup"><span data-stu-id="acba5-113">Select the service order that you want to create an item requirement for.</span></span>
+2.  <span data-ttu-id="da794-113">Valin þjónustupöntunin sem útbúa á vöruþörf fyrir.</span><span class="sxs-lookup"><span data-stu-id="da794-113">Select the service order that you want to create an item requirement for.</span></span>
 
-3.  <span data-ttu-id="acba5-114">Á **Aðgerðarúða**, á flipanum **Afgreiða**, skal smella á **Vörukrafa**.</span><span class="sxs-lookup"><span data-stu-id="acba5-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
+3.  <span data-ttu-id="da794-114">Á **Aðgerðarúða**, á flipanum **Afgreiða**, skal smella á **Vörukrafa**.</span><span class="sxs-lookup"><span data-stu-id="da794-114">On the **Action Pane**, on the **Dispatch** tab, click **Item requirement**.</span></span>
 
-4.  <span data-ttu-id="acba5-115">Í **Vörukröfur** skjámynd, sláðu inn upplýsingar um vöruna sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="acba5-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="acba5-116">Fyrir frekari upplýsingar um tiltekna reiti, sjá [Vörukröfur (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="acba5-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span></span>
+4.  <span data-ttu-id="da794-115">Í **Vörukröfur** skjámynd, sláðu inn upplýsingar um vöruna sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="da794-115">In the **Item requirements** form, enter information for the required item.</span></span> <span data-ttu-id="da794-116">Fyrir frekari upplýsingar um tiltekna reiti, sjá [Vörukröfur (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="da794-116">For more information about the specific fields, see [Item requirements (form)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).</span></span>
 
-## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="acba5-117">Stofna vöruþörf fyrir þjónustusamning</span><span class="sxs-lookup"><span data-stu-id="acba5-117">Create an item requirement for a service agreement</span></span>
+## <a name="create-an-item-requirement-for-a-service-agreement"></a><span data-ttu-id="da794-117">Stofna vöruþörf fyrir þjónustusamning</span><span class="sxs-lookup"><span data-stu-id="da794-117">Create an item requirement for a service agreement</span></span>
 
-1.  <span data-ttu-id="acba5-118">Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.</span><span class="sxs-lookup"><span data-stu-id="acba5-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="da794-118">Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.</span><span class="sxs-lookup"><span data-stu-id="da794-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="acba5-119">Opnaðu þjónustusamninginn sem stofna á vörukröfu fyrir.</span><span class="sxs-lookup"><span data-stu-id="acba5-119">Open the service agreement for which you want to create an item requirement.</span></span>
+2.  <span data-ttu-id="da794-119">Opnaðu þjónustusamninginn sem stofna á vörukröfu fyrir.</span><span class="sxs-lookup"><span data-stu-id="da794-119">Open the service agreement for which you want to create an item requirement.</span></span>
 
-3.  <span data-ttu-id="acba5-120">Á **Línur** Flýtiflipanum skaltu smella á **Bæta við** til að búa til nýja línu.</span><span class="sxs-lookup"><span data-stu-id="acba5-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
+3.  <span data-ttu-id="da794-120">Á **Línur** Flýtiflipanum skaltu smella á **Bæta við** til að búa til nýja línu.</span><span class="sxs-lookup"><span data-stu-id="da794-120">On the **Lines** FastTab, click **Add** to create a new line.</span></span>
 
-4.  <span data-ttu-id="acba5-121">Í **Færslugerð** reitnum skaltu velja **Vara**.</span><span class="sxs-lookup"><span data-stu-id="acba5-121">In the **Transaction type** field, select **Item**.</span></span>
+4.  <span data-ttu-id="da794-121">Í **Færslugerð** reitnum skaltu velja **Vara**.</span><span class="sxs-lookup"><span data-stu-id="da794-121">In the **Transaction type** field, select **Item**.</span></span>
 
-5.  <span data-ttu-id="acba5-122">Í **Uppsetning vöru** reitnum, veldu **Vörukrafa**.</span><span class="sxs-lookup"><span data-stu-id="acba5-122">In the **Item setup** field, select **Item requirement**.</span></span>
+5.  <span data-ttu-id="da794-122">Í **Uppsetning vöru** reitnum, veldu **Vörukrafa**.</span><span class="sxs-lookup"><span data-stu-id="da794-122">In the **Item setup** field, select **Item requirement**.</span></span>
 
-6.  <span data-ttu-id="acba5-123">Í **vörunúmer** reitnum, velja vöruna sem þjónustusamningurinn krefst.</span><span class="sxs-lookup"><span data-stu-id="acba5-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
+6.  <span data-ttu-id="da794-123">Í **vörunúmer** reitnum, velja vöruna sem þjónustusamningurinn krefst.</span><span class="sxs-lookup"><span data-stu-id="da794-123">In the **Item number** field, select the item that is required for the service agreement.</span></span>
 
-7.  <span data-ttu-id="acba5-124">Á **Upplýsingar um línu** flýtiflipanum á flipanum **Afurðavídd** í reitnum **Svæði** skaltu velja birgðasvæði fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="acba5-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
+7.  <span data-ttu-id="da794-124">Á **Upplýsingar um línu** flýtiflipanum á flipanum **Afurðavídd** í reitnum **Svæði** skaltu velja birgðasvæði fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="da794-124">On the **Line details** FastTab, on the **Product dimensions** tab, in the **Site** field, select the inventory site for the item.</span></span>
 
-8.  <span data-ttu-id="acba5-125">Til að búa til þjónustupöntun frá samningslínunni skaltu smella á **Línur** Flýtiflipi, **Búa til þjónustupantanir** og sláðu síðan inn viðeigandi upplýsingar í **Búa til þjónustupantanir** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="acba5-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
+8.  <span data-ttu-id="da794-125">Til að búa til þjónustupöntun frá samningslínunni skaltu smella á **Línur** Flýtiflipi, **Búa til þjónustupantanir** og sláðu síðan inn viðeigandi upplýsingar í **Búa til þjónustupantanir** skjámynd.</span><span class="sxs-lookup"><span data-stu-id="da794-125">To create a service order from the agreement line, on the **Lines** FastTab, click **Create service orders**, and then enter the relevant information in the **Create service orders** form.</span></span> 
 
 
-## <a name="see-also"></a><span data-ttu-id="acba5-126">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="acba5-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="da794-126">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="da794-126">See also</span></span>
 
-<span data-ttu-id="acba5-127">[Stofna þjónustupantanir sjálfkrafa](create-service-orders-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="acba5-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
+<span data-ttu-id="da794-127">[Stofna þjónustupantanir sjálfkrafa](create-service-orders-automatically.md).</span><span class="sxs-lookup"><span data-stu-id="da794-127">[Create service orders automatically](create-service-orders-automatically.md).</span></span>
 
   
 

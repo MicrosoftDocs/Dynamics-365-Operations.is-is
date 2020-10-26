@@ -15,100 +15,100 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9979c6180bda406513cc3234c9fa5d9db2b32a75
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 42ca1d4d2d9b45d79cf479833f83e498e3b73540
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202078"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975633"
 ---
-# <a name="register-the-receipt-of-returned-items"></a><span data-ttu-id="42504-103">Skráning móttöku skilaðra vara</span><span class="sxs-lookup"><span data-stu-id="42504-103">Register the receipt of returned items</span></span> 
+# <a name="register-the-receipt-of-returned-items"></a><span data-ttu-id="67819-103">Skráning móttöku skilaðra vara</span><span class="sxs-lookup"><span data-stu-id="67819-103">Register the receipt of returned items</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="42504-104">Það eru tvær aðferðir til að skrá kvittun skilavara.</span><span class="sxs-lookup"><span data-stu-id="42504-104">There are two methods for registering the receipt of returned items.</span></span> <span data-ttu-id="42504-105">Fyrri aðferðin er móttökuferli vöruhúss sem notar skjámyndina **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="42504-105">The first method is a warehouse receiving process that uses the **Arrival overview** form.</span></span> <span data-ttu-id="42504-106">Seinni aðferðin notar skjámyndina **Skráning**.</span><span class="sxs-lookup"><span data-stu-id="42504-106">The second uses the **Registration** form.</span></span>
+<span data-ttu-id="67819-104">Það eru tvær aðferðir til að skrá kvittun skilavara.</span><span class="sxs-lookup"><span data-stu-id="67819-104">There are two methods for registering the receipt of returned items.</span></span> <span data-ttu-id="67819-105">Fyrri aðferðin er móttökuferli vöruhúss sem notar skjámyndina **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="67819-105">The first method is a warehouse receiving process that uses the **Arrival overview** form.</span></span> <span data-ttu-id="67819-106">Seinni aðferðin notar skjámyndina **Skráning**.</span><span class="sxs-lookup"><span data-stu-id="67819-106">The second uses the **Registration** form.</span></span>
 
-## <a name="register-the-receipt-of-returned-items-in-the-arrival-overview-form"></a><span data-ttu-id="42504-107">Skráning móttöku skilaðra vara í skjámyndinni komuyfirlit</span><span class="sxs-lookup"><span data-stu-id="42504-107">Register the receipt of returned items in the Arrival overview form</span></span>
+## <a name="register-the-receipt-of-returned-items-in-the-arrival-overview-form"></a><span data-ttu-id="67819-107">Skráning móttöku skilaðra vara í skjámyndinni komuyfirlit</span><span class="sxs-lookup"><span data-stu-id="67819-107">Register the receipt of returned items in the Arrival overview form</span></span>
 
-<span data-ttu-id="42504-108">Þú getur notað skjámyndina **Komuyfirlit** til að bera kennsl á skilaafhendingu eftir númeri vöruskilaheimildar (RMA-númer).</span><span class="sxs-lookup"><span data-stu-id="42504-108">You can use the **Arrival overview** form to identify a return shipment by its Return Material Authorization (RMA) number.</span></span> <span data-ttu-id="42504-109">Ef heiti færslubókar er skilgreint á flipanum **Uppsetning** og færslubókarlínur sem samsvara línunum sem eru valdar í skjámyndinni **Komuyfirlit** eru til verður nýr færslubókarhaus stofnaður þegar þú smellir á **Upphafskoma**.</span><span class="sxs-lookup"><span data-stu-id="42504-109">If a journal name is defined on the **Setup** tab, and journal lines that correspond to the lines selected on the **Arrival overview** form exist, a new journal header is created when you click **Start arrival**.</span></span>
+<span data-ttu-id="67819-108">Þú getur notað skjámyndina **Komuyfirlit** til að bera kennsl á skilaafhendingu eftir númeri vöruskilaheimildar (RMA-númer).</span><span class="sxs-lookup"><span data-stu-id="67819-108">You can use the **Arrival overview** form to identify a return shipment by its Return Material Authorization (RMA) number.</span></span> <span data-ttu-id="67819-109">Ef heiti færslubókar er skilgreint á flipanum **Uppsetning** og færslubókarlínur sem samsvara línunum sem eru valdar í skjámyndinni **Komuyfirlit** eru til verður nýr færslubókarhaus stofnaður þegar þú smellir á **Upphafskoma**.</span><span class="sxs-lookup"><span data-stu-id="67819-109">If a journal name is defined on the **Setup** tab, and journal lines that correspond to the lines selected on the **Arrival overview** form exist, a new journal header is created when you click **Start arrival**.</span></span>
 
-1.  <span data-ttu-id="42504-110">Smelltu á **Birgðastjórnun** \> **Reglubundið** \> **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="42504-110">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
+1.  <span data-ttu-id="67819-110">Smelltu á **Birgðastjórnun** \> **Reglubundið** \> **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="67819-110">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
 
-2.  <span data-ttu-id="42504-111">Í reitnum **Heiti uppsetningar** skal velja **Skilapöntun** og smella síðan á **Uppfæra**.</span><span class="sxs-lookup"><span data-stu-id="42504-111">In the **Setup name** field, select **Return order**, and then click **Update**.</span></span>
+2.  <span data-ttu-id="67819-111">Í reitnum **Heiti uppsetningar** skal velja **Skilapöntun** og smella síðan á **Uppfæra**.</span><span class="sxs-lookup"><span data-stu-id="67819-111">In the **Setup name** field, select **Return order**, and then click **Update**.</span></span>
     
 
     > [!TIP]
-    > <P><span data-ttu-id="42504-112">Hægt er að nota reitinn <STRONG>Svið</STRONG> til að þrengja leitarniðurstöðurnar.</span><span class="sxs-lookup"><span data-stu-id="42504-112">You can use the <STRONG>Range</STRONG> fields to narrow the search results.</span></span> <span data-ttu-id="42504-113">Þú getur slegið inn eða valið RMA-númerið í reitnum <STRONG>RMA-númer</STRONG> til að fá nákvæma niðurstöðu.</span><span class="sxs-lookup"><span data-stu-id="42504-113">You can type or select the RMA number in the <STRONG>RMA number</STRONG> field for an exact result.</span></span> <span data-ttu-id="42504-114">Til að skilgreina og vista safn af síum sem takmarkar hvaða komur á innleið eru birtar skal smella á flipann <STRONG>Uppsetning</STRONG>. Tiltækar síur eru gerðir, vöruhús og dreifing.</span><span class="sxs-lookup"><span data-stu-id="42504-114">To define and save a set of filters that will restrict which incoming arrivals are displayed, click the <STRONG>Setup</STRONG> tab. The available filters include types, warehouses, and docks.</span></span></P>
+    > <P><span data-ttu-id="67819-112">Hægt er að nota reitinn <STRONG>Svið</STRONG> til að þrengja leitarniðurstöðurnar.</span><span class="sxs-lookup"><span data-stu-id="67819-112">You can use the <STRONG>Range</STRONG> fields to narrow the search results.</span></span> <span data-ttu-id="67819-113">Þú getur slegið inn eða valið RMA-númerið í reitnum <STRONG>RMA-númer</STRONG> til að fá nákvæma niðurstöðu.</span><span class="sxs-lookup"><span data-stu-id="67819-113">You can type or select the RMA number in the <STRONG>RMA number</STRONG> field for an exact result.</span></span> <span data-ttu-id="67819-114">Til að skilgreina og vista safn af síum sem takmarkar hvaða komur á innleið eru birtar skal smella á flipann <STRONG>Uppsetning</STRONG>. Tiltækar síur eru gerðir, vöruhús og dreifing.</span><span class="sxs-lookup"><span data-stu-id="67819-114">To define and save a set of filters that will restrict which incoming arrivals are displayed, click the <STRONG>Setup</STRONG> tab. The available filters include types, warehouses, and docks.</span></span></P>
 
     
 
     > [!WARNING]
-    > <P><span data-ttu-id="42504-115">Skilapöntunum er ekki hægt að blanda saman við aðrar komugerðir í skjámyndinni <STRONG>Komuyfirlit</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="42504-115">Return orders cannot be mixed with other arrival types in the <STRONG>Arrival overview</STRONG> form.</span></span> <span data-ttu-id="42504-116">Þess vegna verður tilvísunin alltaf sölupöntun, en ekkert sölupöntunarauðkenni verður tilgreint í færslubókarhausnum.</span><span class="sxs-lookup"><span data-stu-id="42504-116">Therefore, the reference will always be sales order, but no sales order ID will be specified on the journal header.</span></span></P>
+    > <P><span data-ttu-id="67819-115">Skilapöntunum er ekki hægt að blanda saman við aðrar komugerðir í skjámyndinni <STRONG>Komuyfirlit</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="67819-115">Return orders cannot be mixed with other arrival types in the <STRONG>Arrival overview</STRONG> form.</span></span> <span data-ttu-id="67819-116">Þess vegna verður tilvísunin alltaf sölupöntun, en ekkert sölupöntunarauðkenni verður tilgreint í færslubókarhausnum.</span><span class="sxs-lookup"><span data-stu-id="67819-116">Therefore, the reference will always be sales order, but no sales order ID will be specified on the journal header.</span></span></P>
 
 
 
-3.  <span data-ttu-id="42504-117">Í hnitanetinu **Kvittanir** skaltu finna línuna sem passar við vöruna sem er skilað og vellja síðan gátreitinn í dálkinum **Velja fyrir komu**.</span><span class="sxs-lookup"><span data-stu-id="42504-117">In the **Receipts** grid, locate the line that matches the item being returned, and then select the check box in the **Select for arrival** column.</span></span>
+3.  <span data-ttu-id="67819-117">Í hnitanetinu **Kvittanir** skaltu finna línuna sem passar við vöruna sem er skilað og vellja síðan gátreitinn í dálkinum **Velja fyrir komu**.</span><span class="sxs-lookup"><span data-stu-id="67819-117">In the **Receipts** grid, locate the line that matches the item being returned, and then select the check box in the **Select for arrival** column.</span></span>
 
-4.  <span data-ttu-id="42504-118">Til að útiloka ákveðnar línur frá vöruskilamóttökunni, eins og vörur í upprunalegu pöntuninni sem voru ekki teknar með í skilaafhendingunni, skal hreinsa tengda gátreitinn **Velja fyrir komu** í töflunni **Línur** í neðri hluta skjámyndarinnar.</span><span class="sxs-lookup"><span data-stu-id="42504-118">To exclude certain lines from the return receipt, such as items from the original order that were not included in the return shipment, clear the associated **Select for arrival** check boxes in the **Lines** table in the lower part of the form.</span></span>
+4.  <span data-ttu-id="67819-118">Til að útiloka ákveðnar línur frá vöruskilamóttökunni, eins og vörur í upprunalegu pöntuninni sem voru ekki teknar með í skilaafhendingunni, skal hreinsa tengda gátreitinn **Velja fyrir komu** í töflunni **Línur** í neðri hluta skjámyndarinnar.</span><span class="sxs-lookup"><span data-stu-id="67819-118">To exclude certain lines from the return receipt, such as items from the original order that were not included in the return shipment, clear the associated **Select for arrival** check boxes in the **Lines** table in the lower part of the form.</span></span>
 
-5.  <span data-ttu-id="42504-119">Smelltu á hnappinn **Upphafskoma** til að búa til komubók.</span><span class="sxs-lookup"><span data-stu-id="42504-119">Click the **Start arrival** button to create an arrival journal.</span></span>
+5.  <span data-ttu-id="67819-119">Smelltu á hnappinn **Upphafskoma** til að búa til komubók.</span><span class="sxs-lookup"><span data-stu-id="67819-119">Click the **Start arrival** button to create an arrival journal.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="42504-120">Hægt er að velja margar skilapantanir í einu og hafa þær allar með í einu komuferli.</span><span class="sxs-lookup"><span data-stu-id="42504-120">You can select multiple return orders and include them all in a single arrival process.</span></span> <span data-ttu-id="42504-121">Hver skilapöntunarlína verður afrituð í samsvarandi vörukomubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="42504-121">Each return order line will be copied into a corresponding item arrival journal line.</span></span></P>
+    > <P><span data-ttu-id="67819-120">Hægt er að velja margar skilapantanir í einu og hafa þær allar með í einu komuferli.</span><span class="sxs-lookup"><span data-stu-id="67819-120">You can select multiple return orders and include them all in a single arrival process.</span></span> <span data-ttu-id="67819-121">Hver skilapöntunarlína verður afrituð í samsvarandi vörukomubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="67819-121">Each return order line will be copied into a corresponding item arrival journal line.</span></span></P>
 
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="42504-122">Þú getur einnig handvirkt búið til komubók með skjámyndinni <STRONG>Vörumóttaka</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="42504-122">You can also manually create an arrival journal by using the <STRONG>Item arrival</STRONG> form.</span></span> 
+    > <P><span data-ttu-id="67819-122">Þú getur einnig handvirkt búið til komubók með skjámyndinni <STRONG>Vörumóttaka</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="67819-122">You can also manually create an arrival journal by using the <STRONG>Item arrival</STRONG> form.</span></span> 
 
 
 
-6.  <span data-ttu-id="42504-123">Smelltu á **Birgðastjórnun** \> **Færslubækur** \> **Vörumóttaka** \> **Vörumóttaka**.</span><span class="sxs-lookup"><span data-stu-id="42504-123">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
+6.  <span data-ttu-id="67819-123">Smelltu á **Birgðastjórnun** \> **Færslubækur** \> **Vörumóttaka** \> **Vörumóttaka**.</span><span class="sxs-lookup"><span data-stu-id="67819-123">Click **Inventory management** \> **Journals** \> **Item arrival** \> **Item arrival**.</span></span>
 
-7.  <span data-ttu-id="42504-124">Veldu komubókina sem þú stofnaðir rétt í þessu og smelltu síðan á **Línur** til að opna skjámyndina **Færslubókarlínur, staðsetningar**.</span><span class="sxs-lookup"><span data-stu-id="42504-124">Select the arrival journal that you just created and then click **Lines** to open the **Journal lines, locations** form.</span></span>
+7.  <span data-ttu-id="67819-124">Veldu komubókina sem þú stofnaðir rétt í þessu og smelltu síðan á **Línur** til að opna skjámyndina **Færslubókarlínur, staðsetningar**.</span><span class="sxs-lookup"><span data-stu-id="67819-124">Select the arrival journal that you just created and then click **Lines** to open the **Journal lines, locations** form.</span></span>
 
-8.  <span data-ttu-id="42504-125">Á flipanum **Almennt** skal stilla númerið í reitnum **Magn** ef þess er krafist og síðan úthluta ráðstöfunarkóða í reitnum **Ráðstöfunarkóði**.</span><span class="sxs-lookup"><span data-stu-id="42504-125">On the **General** tab, adjust the number in the **Quantity** field, if it is required, and then assign a disposition code in the **Disposition code** field.</span></span>
+8.  <span data-ttu-id="67819-125">Á flipanum **Almennt** skal stilla númerið í reitnum **Magn** ef þess er krafist og síðan úthluta ráðstöfunarkóða í reitnum **Ráðstöfunarkóði**.</span><span class="sxs-lookup"><span data-stu-id="67819-125">On the **General** tab, adjust the number in the **Quantity** field, if it is required, and then assign a disposition code in the **Disposition code** field.</span></span>
     
-    <span data-ttu-id="42504-126">Að öðrum kosti er hægt að velja gátreitinn **Stjórnun biðgeymslu** til að senda skilavörurnar í skoðunarferli í tengslum við biðgeymslupöntun.</span><span class="sxs-lookup"><span data-stu-id="42504-126">Alternatively, you can select the **Quarantine management** check box to have the returned items sent through an inspection process in the context of a quarantine order.</span></span>
-    
-
-    > [!NOTE]
-    > <P><span data-ttu-id="42504-127">Ef sendar eru endursendu vörurnar í gegnum biðgeymslu, er ekki hægt að tilgreina ráðstöfunarkóða.</span><span class="sxs-lookup"><span data-stu-id="42504-127">If you send the returned items through quarantine, you cannot specify a disposition code.</span></span></P>
-
-
-
-9.  <span data-ttu-id="42504-128">Smellið á hnappinn **Sannprófa**.</span><span class="sxs-lookup"><span data-stu-id="42504-128">Click the **Validate** button.</span></span>
-
-10. <span data-ttu-id="42504-129">Ef engar villur eru í staðfestingarferlinu skaltu smella á **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="42504-129">If there are no errors in the validation process, click **Post**.</span></span>
-
-## <a name="register-the-receipt-of-returned-items-in-the-registration-form"></a><span data-ttu-id="42504-130">Skrá skal móttökuna á skilavörum á skjámyndinni Skráning</span><span class="sxs-lookup"><span data-stu-id="42504-130">Register the receipt of returned items in the Registration form</span></span>
-
-<span data-ttu-id="42504-131">Til viðbótar við að nota skjámyndina **Komuyfirlit** getur þú notað skjámyndina **Skráning** til að skrá komu skilavara.</span><span class="sxs-lookup"><span data-stu-id="42504-131">As an alternative to using the **Arrival overview** form, you can use the **Registration** form to register the arrival of returned items.</span></span>
-
-1.  <span data-ttu-id="42504-132">Smelltu á **Sala og markaðssetning** \> **Almennt** \> **Skilapantanir** \> **Allar skilapantanir**.</span><span class="sxs-lookup"><span data-stu-id="42504-132">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span> <span data-ttu-id="42504-133">Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum.</span><span class="sxs-lookup"><span data-stu-id="42504-133">Create a new return order or open the return order from the list.</span></span> <span data-ttu-id="42504-134">Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna.</span><span class="sxs-lookup"><span data-stu-id="42504-134">On the **Lines** FastTab, select the return order line.</span></span> <span data-ttu-id="42504-135">Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.</span><span class="sxs-lookup"><span data-stu-id="42504-135">Click **Update line**, and then click **Registration**.</span></span>
-
-2.  <span data-ttu-id="42504-136">Úthlutaðu ráðstöfunarkóða í reitnum **Ráðstöfunarkóði** og smelltu síðan á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="42504-136">Assign a disposition code in the **Disposition code** field, and then click **OK**.</span></span>
+    <span data-ttu-id="67819-126">Að öðrum kosti er hægt að velja gátreitinn **Stjórnun biðgeymslu** til að senda skilavörurnar í skoðunarferli í tengslum við biðgeymslupöntun.</span><span class="sxs-lookup"><span data-stu-id="67819-126">Alternatively, you can select the **Quarantine management** check box to have the returned items sent through an inspection process in the context of a quarantine order.</span></span>
     
 
     > [!NOTE]
-    > <P><span data-ttu-id="42504-137">Ekki er hægt að senda vöruna til skoðunar sem biðgeymslupöntun með skjámyndinni <STRONG>Skráning</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="42504-137">It is not possible to send the item for inspection as a quarantine order using the <STRONG>Registration</STRONG> form.</span></span></P>
+    > <P><span data-ttu-id="67819-127">Ef sendar eru endursendu vörurnar í gegnum biðgeymslu, er ekki hægt að tilgreina ráðstöfunarkóða.</span><span class="sxs-lookup"><span data-stu-id="67819-127">If you send the returned items through quarantine, you cannot specify a disposition code.</span></span></P>
 
 
 
-3.  <span data-ttu-id="42504-138">Í hnitanetinu **Færsla** skal velja færsluna sem á að skrá.</span><span class="sxs-lookup"><span data-stu-id="42504-138">In the **Transactions** grid, select the transaction to be registered.</span></span>
+9.  <span data-ttu-id="67819-128">Smellið á hnappinn **Sannprófa**.</span><span class="sxs-lookup"><span data-stu-id="67819-128">Click the **Validate** button.</span></span>
 
-4.  <span data-ttu-id="42504-139">Í hnitanetinu **Skrá núna** skal smella á **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="42504-139">In the **Register now** grid, click **Add**.</span></span> <span data-ttu-id="42504-140">Endurtaktu fyrri tvö skrefin þar til allar skilavörurnar birtast í hnitanetinu **Skrá núna**.</span><span class="sxs-lookup"><span data-stu-id="42504-140">Repeat the previous two steps until all of the returned items appear in the **Register now** grid.</span></span>
+10. <span data-ttu-id="67819-129">Ef engar villur eru í staðfestingarferlinu skaltu smella á **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="67819-129">If there are no errors in the validation process, click **Post**.</span></span>
 
-5.  <span data-ttu-id="42504-141">Smelltu á **Bóka allt**.</span><span class="sxs-lookup"><span data-stu-id="42504-141">Click **Post all**.</span></span>
+## <a name="register-the-receipt-of-returned-items-in-the-registration-form"></a><span data-ttu-id="67819-130">Skrá skal móttökuna á skilavörum á skjámyndinni Skráning</span><span class="sxs-lookup"><span data-stu-id="67819-130">Register the receipt of returned items in the Registration form</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="42504-142">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="42504-142">See also</span></span>
+<span data-ttu-id="67819-131">Til viðbótar við að nota skjámyndina **Komuyfirlit** getur þú notað skjámyndina **Skráning** til að skrá komu skilavara.</span><span class="sxs-lookup"><span data-stu-id="67819-131">As an alternative to using the **Arrival overview** form, you can use the **Registration** form to register the arrival of returned items.</span></span>
 
-<span data-ttu-id="42504-143">[Komuyfirlit (skjámynd)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="42504-143">[Arrival overview (form)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span></span>
+1.  <span data-ttu-id="67819-132">Smelltu á **Sala og markaðssetning** \> **Almennt** \> **Skilapantanir** \> **Allar skilapantanir**.</span><span class="sxs-lookup"><span data-stu-id="67819-132">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span> <span data-ttu-id="67819-133">Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum.</span><span class="sxs-lookup"><span data-stu-id="67819-133">Create a new return order or open the return order from the list.</span></span> <span data-ttu-id="67819-134">Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna.</span><span class="sxs-lookup"><span data-stu-id="67819-134">On the **Lines** FastTab, select the return order line.</span></span> <span data-ttu-id="67819-135">Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.</span><span class="sxs-lookup"><span data-stu-id="67819-135">Click **Update line**, and then click **Registration**.</span></span>
+
+2.  <span data-ttu-id="67819-136">Úthlutaðu ráðstöfunarkóða í reitnum **Ráðstöfunarkóði** og smelltu síðan á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="67819-136">Assign a disposition code in the **Disposition code** field, and then click **OK**.</span></span>
+    
+
+    > [!NOTE]
+    > <P><span data-ttu-id="67819-137">Ekki er hægt að senda vöruna til skoðunar sem biðgeymslupöntun með skjámyndinni <STRONG>Skráning</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="67819-137">It is not possible to send the item for inspection as a quarantine order using the <STRONG>Registration</STRONG> form.</span></span></P>
+
+
+
+3.  <span data-ttu-id="67819-138">Í hnitanetinu **Færsla** skal velja færsluna sem á að skrá.</span><span class="sxs-lookup"><span data-stu-id="67819-138">In the **Transactions** grid, select the transaction to be registered.</span></span>
+
+4.  <span data-ttu-id="67819-139">Í hnitanetinu **Skrá núna** skal smella á **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="67819-139">In the **Register now** grid, click **Add**.</span></span> <span data-ttu-id="67819-140">Endurtaktu fyrri tvö skrefin þar til allar skilavörurnar birtast í hnitanetinu **Skrá núna**.</span><span class="sxs-lookup"><span data-stu-id="67819-140">Repeat the previous two steps until all of the returned items appear in the **Register now** grid.</span></span>
+
+5.  <span data-ttu-id="67819-141">Smelltu á **Bóka allt**.</span><span class="sxs-lookup"><span data-stu-id="67819-141">Click **Post all**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="67819-142">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="67819-142">See also</span></span>
+
+<span data-ttu-id="67819-143">[Komuyfirlit (skjámynd)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="67819-143">[Arrival overview (form)](https://technet.microsoft.com/library/hh227654\(v=ax.60\))</span></span>
 
   
 
