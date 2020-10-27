@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 1e7775e797708668a339b6b02ed822261406c829
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323670"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958794"
 ---
 # <a name="set-up-master-planning"></a>Setja upp aðaláætlanagerð
 
@@ -120,7 +120,7 @@ Vinnsluröðun er nákvæmari röðunaraðferð, þar sem hverri aðgerð er ski
 Fyrir hverja áætlun er hægt að velja hversu langt í framtíðina þarf að reikna út hinar ýmsu þarfir og önnur atriði með aðaláætlunargerðinni. Tímabilið er þekkt sem *tímamörk*. Til að ná sem bestum árangri í aðaláætlanagerð mælum við með að þú stillir hin ýmsu tímamörk til að uppfylla þarfir fyrirtækisins. Fyrir hverja áætlun er hægt að finna tímamörk á flýtiflipanum **Tímamörk í dögum** á síðunni **Aðaláætlanir** (**Aðaláætlanagerð \> Uppsetning \> Áætlun \> Aðaláætlanir**).
 
 > [!NOTE]
-> Tímamörkin gefa til kynna hversu langt fram í framtíðina ýmsar þarfir og önnur atriði eru reiknuð með aðaláætlunargerðinni. Tímamörkin sem voru valin á þessari síðu munu hnekkja tímamörkunum sem eru skilgreind í tryggingarhópnum. Það þýðir að sé tímamarkavalkosturinn stilltur á já og að dagarnir skilgreindir mun það hnekkja tímamörkunum sem eru skilgreind í tryggingarhópnum. Þegar stillt er á Nei verða tímamörkin skilgreind í tryggingarhópnum. Að lokum, ef þú vilt ekki eða þarft að nota valkost (til dæmis, þú vilt ekki nota aðgerðaskeyti) skaltu stilla hann á **Já** og stilla síðan tímamörkin á **0** (núll) daga.
+> Tímamörkin gefa til kynna hversu langt fram í framtíðina ýmsar þarfir og önnur atriði eru reiknuð með aðaláætlunargerðinni. Tímamörkin sem voru valin á þessari síðu munu hnekkja tímamörkunum sem eru skilgreind í tryggingarhópnum. Þetta þýðir að ef valkostur tímamarka er stilltur á já og dagar eru skilgreindir, munu tímamörkin vera hnekkt sem skilgreind eru í þekjuflokknum. Þegar stillt er á Nei verða tímamörkin skilgreind í tryggingarhópnum. Að lokum, ef þú vilt ekki eða þarft að nota valkost (til dæmis, þú vilt ekki nota aðgerðaskeyti) skaltu stilla hann á **Já** og stilla síðan tímamörkin á **0** (núll) daga.
 
 ### <a name="coverage"></a>Þekja
 

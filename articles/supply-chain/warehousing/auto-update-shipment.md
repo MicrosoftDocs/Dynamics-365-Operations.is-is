@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677339"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900987"
 ---
 # <a name="shipment-auto-updates"></a>Sjálfvirkar uppfærslur á sendingu
 
@@ -39,7 +39,7 @@ Sendingarvirkni sjálfvirkrar uppfærslu á bæði við um sölupöntunarlínur 
 
 Sendingarvirkni sjálfvirku uppfærslunnar byggist fyrst og fremst á stöðu sendingar til að ákvarða hvort breyta eigi magni á álagslínu þegar breyting er gerð á sölupöntunarlínu eða millifærslupöntunarlínu. Það treystir einnig fyrst og fremst á stöðu sendingar til að ákvarða hvenær ný álagslína ætti sjálfkrafa að bæta við núverandi álag. Þegar staða sendingar er **Bylgjað** eða hærri, engin sjálfvirk uppfærsla á sér stað.
 
-Einnig er litið á bylgjustöðu fyrir sjálfvirkar uppfærslur. Þegar bylgja sem tengist álagslínunni hefur stöðuna **Biðstaða**, **Í gangi**, **Losað**, **Tekið til**, eða **Sent**, ef notandi reynir að minnka magnið á álagslínu (með magnlækkun í sölupöntunarlínunni eða millifærslupöntunarlínunni), eru eftirfarandi villuboð sýnd: „Ekki er hægt að fjarlægja frátekningar vegna þess að vinna hefur verið stofnuð sem treystir á frátekningar.“ Að auki, þegar bylgjan hefur einn af áður nefndum bylgjustöðum, ef notandi reynir að óbeint auka magn álagslínunnar með því að minnka magnið á sölupöntunarlínunni eða flytja pöntunarlínuna, er magnið á álagslínunni ekki sjálfkrafa aukið. Í þessu tilfelli verður að uppfæra álagslínuna handvirkt.
+Einnig er litið á bylgjustöðu fyrir sjálfvirkar uppfærslur. Þegar bylgja sem tengist álagslínunni hefur stöðuna **Biðstaða**, **Í gangi**, **Losað**, **Tekið til**, eða **Sent**, ef notandi reynir að minnka magnið á álagslínu (með magnlækkun í sölupöntunarlínunni eða millifærslupöntunarlínunni), eru eftirfarandi villuboð sýnd: „Ekki er hægt að fjarlægja frátekningar vegna þess að vinna hefur verið stofnuð sem treystir á frátekningar.“ Þar að auki, þegar bylgjan er með eina af áðurnefndum bylgjustöðum, ef notandi reynir óbeint að auka magn hleðslulínunnar með því að auka magn í sölupöntunarlínunni eða flutningspöntunarlínunni, er magnið í hleðslulínunni ekki sjálfkrafa aukið. Í þessu tilfelli verður að uppfæra álagslínuna handvirkt.
 
 ## <a name="scenarios"></a>Sviðsmyndir
 

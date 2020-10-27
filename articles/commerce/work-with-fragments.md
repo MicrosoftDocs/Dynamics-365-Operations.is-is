@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818351"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961659"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
@@ -61,8 +61,8 @@ Eftirfarandi mynd sýnir hvernig brot er hægt að nota til að miðstýra höfu
 Fylgdu þessum skrefum til að umbreyta áður uppsettri einingu í endurnýtanlegt brot.
 
 1. Opnaðu síðu eða sniðmát sem inniheldur eininguna sem þú vilt breyta í brot.
-1. Á yfirlitssvæðinu vinstra megin eða beint á aðalvinnusvæðinu skal velja fyrri skilgreindu eininguna.
-1. Veljið úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar á annaðhvort yfirlitssvæðinu eða valda tækjastiku einingarinnar á vinnusvæðinu. 
+1. Á yfirlitssvæðinu vinstra megin eða beint á sjónrænum síðuhönnuði skal velja eininguna sem var skilgreind áður.
+1. Veljið úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar á annaðhvort yfirlitssvæðinu eða valda tækjastiku einingarinnar í sjónrænum síðuhönnuði. 
 1. Velja **Samnýta sem síðubrot**. 
 1. Í svargluggann **Vista sem síðubrot** skal færa inn heiti fyrir síðubrotið.
 1. Veldu **Í lagi** til að vista einingastillinguna sem brot sem hægt er að bæta við aðrar síður.
@@ -94,8 +94,8 @@ Eftirfarandi aðferðir lýsa því hvernig á að bæta við, fjarlægja og bre
 
 Til að bæta broti við síðu skaltu fylgja þessum skrefum.
 
-1. Á yfirlitssvæðinu vinstra megin eða beint á aðalvinnusvæðinu skal velja gám eða hólf þar sem bæta á undireiningunum við.
-1. Á yfirlitssvæðinu skal velja úrfellingarmerkið (**...**) við hliðina á heiti gámsins eða hólfsins.  Annars, ef aðalvinnusvæðið er notað, skal velja plúsmerkið (**+**).  
+1. Á yfirlitssvæðinu vinstra megin eða beint á sjónrænum síðuhönnuði skal velja gám eða hólf þar sem bæta á undireiningunum við.
+1. Á yfirlitssvæðinu skal velja úrfellingarmerkið (**...**) við hliðina á heiti gámsins eða hólfsins.  Ef sjónrænn síðuhönnuður er notaður, skal velja plústáknið (**+**).  
 1. Veljið **Bæta við broti**.
 
     ![Skjámynd um hvernig bæta má núverandi broti við rauf eða ílát](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Til að bæta broti við síðu skaltu fylgja þessum skrefum.
 
 Til að fjarlægja brot úr hólfi eða gámi á síðu skaltu fylgja þessum skrefum.
 
-1. Á yfirlitssvæðinu vinstra megin skal velja úrfellingarmerkið (**...**) við hliðina á heiti brotsins sem á að fjarlægja og síðan velja ruslakörfutáknið.  Annars er hægt að velja brotið á vinnusvæðinu og velja ruslakörfutákni í tækjastiku brotsins.
+1. Á yfirlitssvæðinu vinstra megin skal velja úrfellingarmerkið (**...**) við hliðina á heiti brotsins sem á að fjarlægja og síðan velja ruslakörfutáknið.  Annars er hægt að velja brotið í sjónrænum síðuhönnuði og velja ruslakörfutákni í tækjastiku brotsins.
 1. Þegar þú færð kvaðningu um að staðfesta að þú viljir fjarlægja brotið skaltu velja **Í lagi**.
 
 > [!NOTE]

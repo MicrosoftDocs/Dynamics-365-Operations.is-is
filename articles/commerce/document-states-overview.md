@@ -3,7 +3,7 @@ title: Staða skjala og líftíma
 description: Þetta efni fjallar um hinar ýmsu skjalastöður blaðsíðuþátta í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261514"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974031"
 ---
 # <a name="document-states-and-lifecycle"></a>Staða skjala og líftíma
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,9 @@ Eftirfarandi tafla sýnir mögulegar skjalastöður síðueininga í Commerce.
 
 [Orðalisti síðulíkans](page-elements-overview.md)
 
-[Unnið með birta hópa](publish-groups.md)
+[Vinna með birtingarhópa](publish-groups.md)
+
+[Virkja og nota deilingu milli rása](cross-channel-sharing.md)
 
 [Vinna með einingar](work-with-modules.md)
 

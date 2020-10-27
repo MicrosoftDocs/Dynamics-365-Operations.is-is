@@ -3,7 +3,7 @@ title: Samræmisprófun smásölufærslna
 description: Þetta efnisatriði lýsir virkni samræmisprófunar færslna í Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265619"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968773"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
 
@@ -47,12 +47,12 @@ Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi viðskiptaf
 
 - **Viðskiptamannalykill** – Staðfestir að viðskiptamannalykillinn í færslutöflunum sé til staðar í HQ-aðalgögnum viðskiptamanns.
 - **Línufjöldi** – Staðfestir að línufjöldi, samkvæmt haustöflu færslna, sé í samræmi við fjölda lína í sölufærslutöflunum.
-- **Verð er með skatti** – Staðfestir að færibreytan **Verð er með skatti** er í samræmi við allar færslulínur.
-- **Greiðsluupphæð** – Staðfestir að greiðslufærsla samsvari greiðsluupphæð í haus.
-- **Brúttóupphæð** – Staðfestir að brúttóupphæð í hausnum er summa nettóupphæða í línunum ásamt skattupphæðinni.
-- **Nettóupphæð** – Staðfestir að nettóupphæð í hausnum er summa nettóupphæða í línunum.
-- **Vangreiðsla/ofgreiðsla** – Staðfestir að mismunur milli brúttóupphæðar í hausnum og greiðsluupphæðar fer ekki umfram skilgreiningu á hámarki fyrir vangreiðslu/ofgreiðslu.
-- **Afsláttarupphæð** – Staðfestir að samræmi er á afsláttarupphæð í afsláttartöflu og afsláttarupphæð í færslulínutöflum og að afsláttarupphæð í hausnum er summa afsláttarupphæða í línunum.
+- **Verð er með skatti** – Staðfestir að færibreytan **Verð er með skatti** er í samræmi við allar færslulínur og að verðið á sölulínunni er í samræmi við skilgreiningu Verð er með skatti og skattundanþágu.
+- **Greiðsluupphæð** – Staðfestir að greiðslufærsla samsvari greiðsluupphæð í haus og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
+- **Brúttóupphæð** – Staðfestir að brúttóupphæð í hausnum er summa nettóupphæða í línunum ásamt skattupphæðinni og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
+- **Nettóupphæð** – Staðfestir að nettóupphæð í hausnum er summa nettóupphæða í línunum og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
+- **Vangreiðsla/ofgreiðsla** – Staðfestir að mismunur milli brúttóupphæðar í hausnum og greiðsluupphæðar fer ekki umfram skilgreiningu á hámarki fyrir vangreiðslu/ofgreiðslu og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
+- **Afsláttarupphæð** – Staðfestir að samræmi er á afsláttarupphæð í afsláttartöflum og afsláttarupphæð í færslulínutöflum, að afsláttarupphæð í hausnum er summa afsláttarupphæða í línunum og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
 - **Línuafsláttur** – Staðfestir að línuafsláttur í færslulínunni er summa allra línanna í afsláttartöflunni sem eru í samræmi við færslulínuna.
 - **Gjafakortsvara** – Commerce styður ekki skil á gjafakortsvörum. Hins vegar er hægt að leysa út stöðu á gjafakorti í reiðufé. Gjafakortsvara sem er meðhöndluð sem skilalína í stað línu reiðufjárúttektar kemst ekki í gegnum bókunarferli uppgjörs. Staðfestingarferlið fyrir gjafakortsvörur hjálpar til við að tryggja að skilalínur gjafakortsvara í færslutöflunum séu eingöngu línur reiðufjárúttektar fyrir gjafakort.
 - **Neikvætt verð** – Staðfestir að engar færslulínur með neikvæðu verði eru til staðar.
@@ -60,11 +60,12 @@ Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi viðskiptaf
 - **Skattupphæð** – sannprófar að skattafærslur passi við skattupphæðir í línunum.
 - **Raðnúmer** – sannprófar að raðnúmer sé til staðar í færslulínum fyrir vörur sem er stjórnað af raðnúmeri.
 - **Tákn** – sannprófar að tákn fyrir magn og nettóupphæð sé hið sama í öllum færslulínum.
-- **Viðskiptadagur** – sannprófar að fjárhagstímabil fyrir alla viðskiptadaga færslnanna séu opin.
+- **Viðskiptadagur** – Staðfestir að fjárhagstímabil fyrir alla viðskiptadaga færslnanna séu opin.
+- **Gjöld** – Staðfestir að hausinn og upphæð greiðslu í línu sé í samræmi við verð, þ.m.t. skilgreiningu á skatti og skattundanþágu.
 
 ## <a name="set-up-the-consistency-checker"></a>Setja upp samræmisprófun
 
-Skilgreina skal runuvinnsluna „Villuleita í færslum verslunar“ í **Smásala og viðskipti \> Upplýsingatækni smásölu og viðskipta \> Sölustaðarbókun** til að keyra vinnsluna reglulega. Hægt er að skipuleggja runuvinnsluna á grundvelli stigveldis fyrirtækisins, svipað því hvernig ferlin „Reikna uppgjör í runu“ og „Bóka uppgjör í runu“ eru sett upp. Við mælum með að þú stillir runuvinnsluna þannig að hún sé keyrð oft á dag og að loknu hverju P-verki.
+Skilgreina skal runuvinnsluna „Villuleita í færslum verslunar“ í **Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun** til að keyra vinnsluna reglulega. Hægt er að skipuleggja runuvinnsluna á grundvelli stigveldis fyrirtækisins, svipað því hvernig ferlin „Reikna uppgjör í runu“ og „Bóka uppgjör í runu“ eru sett upp. Við mælum með að þú stillir runuvinnsluna þannig að hún sé keyrð oft á dag og að loknu hverju P-verki.
 
 ## <a name="results-of-validation-process"></a>Niðurstöður villuleitar
 

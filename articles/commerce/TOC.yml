@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-forrit í Frakklandi
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Fá aðstoð fyrir Dynamics 365 Commerce
-              href: retail-support.md
+            - name: Fá aðstoð
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Uppfærsla og N-1 stuðningur
               items:
                 - name: Uppfærsla og N-1 stuðningur við Commerce
@@ -92,6 +92,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (janúar 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (nóvember 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (október 2020)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Færa LCS-innleiðingarverk úr innanhússumhverfi í ský
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Innleiða Finance and Operations Commerce-verk
@@ -702,10 +706,12 @@
           items:
             - name: Pantanir viðskiptavinar
               items:
-                - name: Pantanir viðskiptavinar í sölustað (POS)
+                - name: Pantanir viðskiptavinar á sölustað (POS)
                   href: customer-orders-overview.md
                 - name: Blandaðar pantanir viðskiptavinar
                   href: hybrid-customer-orders.md
+                - name: Afturkalla pöntunaraðgerð á sölustað
+                  href: enhancedorderrecall.md
             - name: Sölupantanir
               items:
                 - name: Búa til pöntun fyrir símaver
@@ -778,10 +784,8 @@
               href: fin-recon.md
             - name: Endurbætur á virkni uppgjörsbókunar
               href: statement-posting-eod.md
-            - name: Betri meðhöndlun á runuröktum atriðum
+            - name: Betri meðhöndlun á runuröktum vörum
               href: batch.md
-            - name: Grunnstilla færibreytur í Commerce sem hafa áhrif á uppgjör
-              href: tasks/parameter-configurations-retail-statements.md
             - name: Skilgreina greiðslumátastillingar sem hafa áhrif á smásöluyfirlit
               href: tasks/payment-configurations-retail-statements.md
             - name: Skilgreina og keyra vinnslu til að reikna yfirlit
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Vinna með birtingarhópa
                   href: publish-groups.md
+                - name: Virkja og nota deilingu milli rása
+                  href: cross-channel-sharing.md
                 - name: Sérsníða vefsvæði fyrir vörumerki og bæta við upplýsingum um verslun
                   items:
                     - name: Bæta við lógói
@@ -1048,6 +1054,24 @@
               items:
                 - name: Búa til skýrslur fyrir netrás
                   href: generate-reports.md
+            - name: Tilraunir
+              items:
+                - name: Tilraunir í Dynamics 365 Commerce
+                  href: experimentation-overview.md
+                - name: Auðkenna tilgátu og ákvarða mælieiningar fyrir tilraun
+                  href: experimentation-identify.md
+                - name: Setja upp tilraun
+                  href: experimentation-setup.md
+                - name: Tengja og breyta tilraun
+                  href: experimentation-connect-edit.md
+                - name: Forskoða og birta tilraun
+                  href: experimentation-preview-publish.md
+                - name: Keyra og fylgjast með tilraun
+                  href: experimentation-run-monitor.md
+                - name: Kynna afbrigði og ljúka tilraun
+                  href: experimentation-review-complete.md
+                - name: Yfirfara stöðu tilraunar
+                  href: experimentation-status.md
             - name: Villumeðhöndlun
               items:
                 - name: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
@@ -1076,13 +1100,19 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Setja upp fjármálasamþættingu fyrir Commerce-rás
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Notandaskilgreint vottorðssnið fyrir smásöluverslanir
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brasilía
+              items:
+                - name: Staðfæring Commerce fyrir Brasilíu
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Austur-Evrópa
               items:
-                - name: Almennt
+                - name: Algengt
                   items:
                     - name: Fyrirframgreiðslureikningar fyrir Commerce fyrir Austur-Evrópu
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Stækka þema úr grunnþema
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Bæta sérsniðnum tilföngum við sérsniðinn kóða
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Setja inn forskrift
                   items:
                     - name: Innsetning forskriftar
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript og C#-staðgenglar
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Nota API fyrir Retail Server í ytri forritum
+                  href: dev-itpro/consume-retail-server-api
             - name: Stækkunarhæfni Commerce Runtime (CRT)
               items:
                 - name: Skipulag og skilgreining CRT

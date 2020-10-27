@@ -3,7 +3,7 @@ title: Hafist handa með innbót rafrænna reikninga
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835976"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971473"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Hafist handa með innbót rafrænna reikninga
 
@@ -62,7 +62,7 @@ Hægt er að nota viðbót rafrænnar reikningsfærslu með núverandi leyfi. Ek
 Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að halda eftirfarandi skilyrðum til haga:
 
 - Aðgangur að LCS-reikningnum þínum.
-- LCS-uppsetningarverk sem inniheldur Finance and Supply Chain Management, útgáfu 10.0.12 eða nýrri.
+- LCS-uppsetningarverk sem inniheldur Finance and Supply Chain Management, útgáfu 10.0.13 eða nýrri.
 - Aðgangur að RCS-reikningnum þínum.
 - Kveikja á altækum eiginleika fyrir RCS-reikninginn í gegnum eininguna **Eiginleikastjórnun**. Frekari upplýsingar er að finna í [Regulatory Configuration Services (RCS) – Altækir eiginleikar](rcs-globalization-feature.md)
 - Stofna tilfang lyklageymslu og geymslureikning í Azure. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ Eftirfarandi mynd sýnir fimm helstu skrefin sem verður farið í gegnum í þe
 ## <a name="lcs-setup"></a>LCS-uppsetning
 
 1. Skráðu þig inn á LCS-reikninginn þinn.
-2. Veljið LCS-uppsetningarverkið. Áður en hægt er að velja verkið verður það að vera í gangi.
-3. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
-4. Veljið **Innsending viðskiptaskjals**.
-5. Í svargluggann **Setja upp innbót**, í reitinn **AAD-forritskenni**, skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Gildið er fast.
-6. Í reitinn **AAD-leigjandakenni** skal færa inn auðkenni Azure-áskriftareiknings.
+2. Veljið reitinn **Stjórnun forskoðunareiginleika** og í reitahópnum **Eiginleikar opinnar forútgáfu** skal velja **BusinessDocumentSubmission**.
+3. Merkið við reitinn **Virkja eiginleika forskoðunar**.
+4. Veljið LCS-uppsetningarverkið. Áður en hægt er að velja verkið verður það að vera í gangi.
+5. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+6. Veljið **Innsending viðskiptaskjals**.
+7. Í svargluggann **Setja upp innbót**, í reitinn **AAD-forritskenni**, skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Gildið er fast.
+8. Í reitinn **AAD-leigjandakenni** skal færa inn auðkenni Azure-áskriftareiknings.
 
     ![Setja upp svarglugga innbótar í LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Velja þarf gátreitinn til að samþykkja skilmálana.
-8. Velja **Setja upp**.
+9. Velja þarf gátreitinn til að samþykkja skilmálana.
+10. Velja **Setja upp**.
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -124,7 +126,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
     ![Reitur URI lyklageymslu](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Í flýtiflipanum **Vottorð** skal velja **Bæta við** og færa inn heiti stafrænu vottorðanna og leynilykla lyklageymslunnar. Bæði gildin eru skilgreind í tilfangi lyklageymslunnar í Azure.
+7. Í flýtiflipanum **Vottorð** skal velja **Bæta við** til að færa inn öll heiti stafrænna vottorða og leynilykla lyklageymslu sem þarf til að koma á öruggri tengingu. Í dálkinum **Gerð** er hægt að tilgreina hvort það er vottorð eða leynilykill. Bæði gildin eru skilgreind í tilfangi lyklageymslunnar í Azure.
 
     ![Vottorðum bætt við](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Setja upp RCS-samþættingu með þjóni rafrænnar reikningsfærsluviðbótar
 
-1. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Viðeigandi tenglar**, skal velja tengilinn **Færibreytur rafrænnar skýrslugerðar**.
+1. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Viðeigandi stillingar**, skal velja tengilinn **Færibreytur rafrænnar skýrslugerðar**.
 2. Veljið **Smella hér til að tengjast við Lifecycle Service**. Ef ekki á að tengjast við LCS skal velja **Hætta við**.
-3. Í flipann **Viðbót rafrænnar reikningsfærslu**, í reitinn **URI fyrir endastöð þjónustu**, skal færa inn `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Í flipanum **Rafræn reikningsfærsluþjónusta**, í reitinn **Endastöð URI þjónustu**. skal færa inn gildið samkvæmt tiltækum staðsetningum: `https://businessdocumentsubmission.us.operations365.dynamics.com/` eða `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Í reitnum **Forritskenni** skal staðfesta að hann sýni kennið **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gildið er fast.
 5. Í reitinn **LCS-umhverfiskenni** skal færa inn auðkenni LCS-áskriftarreiknings.
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646160"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971546"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Útleið birgðaaðgerð í POS
 
@@ -164,7 +164,7 @@ Aðgerðin **Endurskoða** sannprófar eftirfarandi atriði í skjali á útlei�
 - **Staðsetning ekki stillt** - staðsetning er ekki tilgreind fyrir staðsetningarstýrða vöru þar sem staðsetning má ekki vera auð.
 - **Eyddar línur** – pöntunin er með línur sem notandi Commerce Headquarters, sem forrit sölustaðar þekkir ekki, hefur eytt.
 
-Ef færibreytan **Virkja sjálfvirka villuleit** er stillt á **Já** í **Færibreytur Commerce** > **Birgðir** > **Birgðir verslunar** er sannprófunin keyrð sjálfkrafa þegar **Ljúka við uppfyllingu** er valið.
+Ef færibreytan **Virkja sjálfvirka villuleit** er stillt á **Já** í **Færibreytur Commerce** > **Birgðir** > **Birgðaaðgerðir verslunar** er sannprófunin keyrð sjálfkrafa þegar **Ljúka við uppfyllingu** er valið.
 
 ### <a name="finish-fulfillment"></a>Ljúka við uppfyllingu
 

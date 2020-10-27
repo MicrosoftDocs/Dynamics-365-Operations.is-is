@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819890"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971446"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -34,6 +34,22 @@ ms.locfileid: "3819890"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.15 á forritum Finance and Operations
+
+> [!NOTE]
+> Útgáfa 10.0.15 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio -viðbót til að nota flýtileiðréttingar
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Bráðabætur lýsigagna eru ekki lengur studdar með uppfærsluþjónustum [One Version](../../fin-ops/get-started/one-version.md) sem kynntar voru í júlí 2018 með útgáfu 8.1. |
+| **Skipt út fyrir aðra eiginleika?**   | Stakar bráðabætur lýsigagna eru ekki í boði fyrir studdar útgáfur. Uppsafnaðar gæðauppfærslur eru notaðar í staðinn. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio viðbætur |
+| **Dreifingarvalkostur**              | Sýndarvélar þróunar |
+| **Staða**                         | Með útgáfu 10.0.15 er viðbótin ekki lengur með í Visual Studio-verkfærum. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.14 á forritum Finance and Operations
 
@@ -50,6 +66,7 @@ ms.locfileid: "3819890"
 | **Afurðasvæði sem haft er áhrif á**         | Kerfisstjórnun |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Frá október 2021 verður þetta fjarlægt.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
 

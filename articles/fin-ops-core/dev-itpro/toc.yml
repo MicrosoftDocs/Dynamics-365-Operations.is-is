@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.15 (janúar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Verkvangsuppfærslur fyrir 10.0.14 (nóvember 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Verkvangsuppfærslur fyrir 10.0.13 (október 2020)
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Almenn úrræðaleit
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Algengar spurningar um tvöföld skrif
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Samþætting við Power Platform
                       items:
                         - name: Skilgreina PTC-aðstæður
@@ -386,6 +390,8 @@
           items:
             - name: Yfirlit
               href: database/dbmovement-operations.md
+            - name: Verkfæri fyrir flutning gagnagrunns
+              href: database/database-movement-toolkit.md
             - name: Stuttir leiðarvísar
               items:
                 - name: Uppfæra gagnagrunn
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 uppfærsla - Uppfærslutékklisti fyrir gagnauppfærslu
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi með DACPAC-ferli
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 uppfærsla - Innanhússumhverfi
