@@ -240,7 +240,9 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Skoða niðurstöður sjálfvirkni reiknings lánardrottins
                   href: accounts-payable/view-automated-vendor-invoice.md
-            - name: Dreifing á fjárhagsupphæð og færslur í undirbók fyrir reikninga lánardrottins
+                - name: Vinnusvæði reikningsfærslu lánardrottins
+                  href: accounts-payable/vendor-invoices-workspace.md
+            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Reikningsjöfnun og samstæðuinnkaupapantanir
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Skoðun færslubókarfærslna
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Prófjöfnuður með skýrslu um færsluupplýsingar
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Skrá bókaðar bókarfærslur
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Endurmat á gjaldmiðli í samstæðufyrirtæki
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Stofna ítarlega fjárhagsfærslu fyrir hið opinbera
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Prófjöfnuður með skýrslu um færsluupplýsingar
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Nota takmarkanir á reiðufjárstýringu
                   href: public-sector/cash-control.md
                 - name: Árslokavinnsla hjá hinu opinbera
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e vottorð
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Staðfesting sérsniðins NF-e vottorðs
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Uppsetning, innflutningur og staðfesting NF-e XML-skjala og DANFE'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Setja upp NF-e-alríkisfæribreytur
@@ -2076,10 +2080,12 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Búa til skýrslugögn vöru- og þjónustuskatts fyrir skattskil
                       href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Virkja magnrunuvinnslu fyrir skýrslur fyrir vöru- og þjónustuskatt
+                    - name: Virkja magnrunuvinnslu fyrir GSTR-skýrslur
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Skattfyrirspurn
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Hreinsa TaxDocumentJSON-töfluna
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Skattkerfi
                   items:
                     - name: Yfirlit skattakerfis
@@ -2651,7 +2657,7 @@
                         - name: Yfirlit yfir birgðaforstillingu
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Setja upp birgðaforstillingu
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Nota birgðaforstillingu í skjölum og fyrirspurnum
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Skýrslugerð

@@ -142,8 +142,10 @@
                           items:
                             - name: Kerfiskröfur fyrir tvöföld skrif
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Studdar atburðarásir fyrir uppsetningu tvöfaldra skrifa
+                            - name: Leiðsögn fyrir uppsetningu tvöfaldra skrifa
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Hvað skal hafa í huga við fyrstu samstillingu
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Endurheimt tímapunkts framleiðslugagnagrunns í sandkassaumhverfi
                   href: database/database-pitr-prod-sandbox.md
+                - name: Virkja tímanlegan gagnagrunnsaðgang
+                  href: database/database-just-in-time-jit-access.md
             - name: Kennsla
               items:
                 - name: Uppfærið fyrir þjálfun
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Frumstilla Commerce Scale Unit (ský)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Flytja rásir á að annað Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Staðsetning gagna fyrir Retail
                   href: deployment/retail-data-residency.md
             - name: Uppsetning á staðnum
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
-            - name: Setja upp tæknilegan stuðning fyrir Finance and Operations
+            - name: Setja upp tæknilegan stuðning fyrir Finance and Operations-forrit
               href: lifecycle-services/support-experience.md
-            - name: Stjórna upplifun stuðnings fyrir Finance and Operations
+            - name: Stjórna upplifun stuðnings fyrir Finance and Operations-forrit
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Kerfisstjórnun
           items:
