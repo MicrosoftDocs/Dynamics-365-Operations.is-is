@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation
+ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8352df2de5daf994895eb7ef40866490a7619652
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830501"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015988"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -124,7 +124,7 @@ Eftirfarandi ferli er dæmi um hvernig hægt er að framkvæma reglulega stundar
 
 1.  Á farsíma, velja valmyndaratriði til að keyra vinnslu reglulegrar stundatalningar.
 2.  Skráið staðsetninguna þar sem á að framkvæma reglulega stundartalningu.
-3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:** Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar**, eða **Lokað** á síðunni **Allt**, eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
+3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:** Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar** , eða **Lokað** á síðunni **Allt** , eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
 4.  Valfrjálst: Endurtaka þrep 3 fyrir þær vörur sem eru eftir á staðsetningunni og staðfesta að það eru engar frekari vörur tiltækar fyrir talningu.
 
 ## <a name="resolve-cycle-counting-differences"></a>Leysa úr mismun á reglulegri talningu.

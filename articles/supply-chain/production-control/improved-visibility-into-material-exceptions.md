@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212619"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016586"
 ---
 # <a name="visibility-into-material-exceptions"></a>Innsýn í efnisundantekningar
 
 [!include [banner](../includes/banner.md)]
 
-Á vinnusvæðinu **Stjórnun á framleiðslugólfi**, gefa þrír reitir betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir:
+Á vinnusvæðinu **Stjórnun á framleiðslugólfi** , gefa þrír reitir betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir:
 
 - Óútgefnar efnislínur sem þarf að athuga
 - Óunnar bylgjur sem þarf að athuga
 - Opin vöruhúsavinna sem þarf að athuga
 
-Fyrir alla þrjá reiti, er hráefnisdagsetning uppskriftarlína (BOM) og formúlulína borinn saman við vinnusvæðisdagsetninguna og einnig við síur fyrir **Framleiðslueining**, **Tilfangaflokkur** og **Tilföng** sem eru stilltar í **Grunnstilla vinnusvæðið mitt** valmynd. Sjálfgefið er að vinnusvæðisdagsetningin sé stillt á núgildandi dagsetningu, en hægt er að leiðrétta það.
+Fyrir alla þrjá reiti, er hráefnisdagsetning uppskriftarlína (BOM) og formúlulína borinn saman við vinnusvæðisdagsetninguna og einnig við síur fyrir **Framleiðslueining** , **Tilfangaflokkur** og **Tilföng** sem eru stilltar í **Grunnstilla vinnusvæðið mitt** valmynd. Sjálfgefið er að vinnusvæðisdagsetningin sé stillt á núgildandi dagsetningu, en hægt er að leiðrétta það.
 
 Óútgefin uppskriftarlína eða formúlulína krefjast athygli ef hráefni dagsetning línunnar er sú sama eða fyrr en vinnusvæðisdagsetningin, og ef það uppfyllir viðmiðin sem eru skilgreind með síum í vinnusvæðinu.
 

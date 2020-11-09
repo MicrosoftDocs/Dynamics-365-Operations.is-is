@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 914400d2e8acff0bfa762708ba421812c31be32b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982090"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018699"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Stofna innkaupapöntun úr sölupöntun
 
@@ -63,7 +63,7 @@ ms.locfileid: "3982090"
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Yfirfara innkaupapantanir stofnaðar úr sölupantana
 1. Á **aðgerðasvæðinu** er smellt á **Almennt**.
 2. Smelltu á **Tengdar pantanir**. Síðan **Tengdar pantanir** inniheldur lista yfir allar pantanir sem voru stofnaðar úr sölupöntun. Í þessu dæmi eru tvær innkaupapantanir búnar til fyrir tveimur mismunandi lánardrottnum í þessari röð. 
-3. Smelltu til að fylgja tenglinum í reitnum **Innkaupapöntun**. Hvert innkaupapöntunarlína er tengd sölupöntunarlína sem leiddi til innkaupanna. Vensl við sölupöntun eru tilgreind á flipanum **Afurð** á flýtiflipanum **Línuupplýsingar**, í reitunum **Tilvísunargerð**, **Tilvísunarnúmer** og **Tilvísunarlota**.  
+3. Smelltu til að fylgja tenglinum í reitnum **Innkaupapöntun**. Hvert innkaupapöntunarlína er tengd sölupöntunarlína sem leiddi til innkaupanna. Vensl við sölupöntun eru tilgreind á flipanum **Afurð** á flýtiflipanum **Línuupplýsingar** , í reitunum **Tilvísunargerð** , **Tilvísunarnúmer** og **Tilvísunarlota**.  
 4. Útvíkkaðu eða dragðu saman hlutann **Línuupplýsingar**.
 5. Smelltu á flipann **Afurð**.
     - **Tilvísunarlota** tryggir að kostnaður úr núgildandi Innkaup eru gjaldfærð á viðhengda sölupöntun.  

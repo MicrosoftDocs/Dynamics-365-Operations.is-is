@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015068"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Bæta frammistöðu röðunarvélar
 
@@ -180,7 +180,7 @@ Helstu skref reiknirits vélarinnar eru:
 
 Stór hluti af (innri) skorðunum í vélinni stjórna vinnutímanum og afkastagetu tilfangs. Í meginatriðum gengur verkið út á að fara yfir hólf vinnutíma fyrir tilfang á uppgefnum punkti í ákveðna átt og finna nógu langt bil þar sem nauðsynleg afkastageta (tími) vinnslu passar inn.
 
-Til að gera þetta þarf vélin að vita vinnutíma tilfangs. Gagnstætt aðalgagnalíkaninu, eru vinnutímarnir *Hlaðið við skoðun*, sem þýðir að þeir eru hlaðnir inn í vélina eftir þörfum. Ástæðan fyrir þessari nálgun er sú að oft eru vinnutímar í Supply Chain Management fyrir dagatal með mjög löngu tímabili og yfirleitt eru mörg dagatöl til staðar þannig að gögnin eru nokkuð stór til að forhlaða.
+Til að gera þetta þarf vélin að vita vinnutíma tilfangs. Gagnstætt aðalgagnalíkaninu, eru vinnutímarnir *Hlaðið við skoðun* , sem þýðir að þeir eru hlaðnir inn í vélina eftir þörfum. Ástæðan fyrir þessari nálgun er sú að oft eru vinnutímar í Supply Chain Management fyrir dagatal með mjög löngu tímabili og yfirleitt eru mörg dagatöl til staðar þannig að gögnin eru nokkuð stór til að forhlaða.
 
 Vélin biður um dagatalsupplýsingar í bútum, með því að virkja X++ klasaaðferðina `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. Beiðnin er fyrir tiltekið dagatalskenni á ákveðnu tímabili. Háð stöðu á skyndiminni þjónsins í Supply Chain Management, gæti hver þessara beiðna endað í mörgum gagnagrunnsköllum, sem taka langan tíma (í samanburði við hreinan reiknitíma). Einnig, ef dagatalið inniheldur mjög vandaðar vinnutímaskilgreiningar með mörgum vinnutímabilum á dag, bætist það við tímann sem hleðslan tekur.
 
@@ -188,7 +188,7 @@ Vélin biður um dagatalsupplýsingar í bútum, með því að virkja X++ klasa
 
 ### <a name="finite-capacity"></a>Takmörkuð geta
 
-Þegar takmörkuð geta er notuð, er vinnutímahólfum úr dagatalinu skipt niður og minnkuð út frá fyrirliggjandi frátekningum afkastagetu. Þessar frátekningar eru einnig sóttar í gegnum sama `WrkCtrSchedulingInteropDataProvider`-klasann og dagatölin, en nota í staðinn aðferðina `getCapacityReservations`. Þegar raðað er við aðaláætlanagerð eru frátekningar fyrir tiltekna aðaláætlunina teknar til greina og ef þær eru virkjaðar á síðunni **Færibreytur aðaláætlanagerðar**, er frátekningar úr staðfestum framleiðslupöntunum einnig hafðar með. Á sama hátt, þegar framleiðslupöntun er áætluð, er einnig valkostur að taka með frátekningar úr fyrirliggjandi áætluðum pöntunum, þó að þetta sé ekki eins algengt og hin leiðin.
+Þegar takmörkuð geta er notuð, er vinnutímahólfum úr dagatalinu skipt niður og minnkuð út frá fyrirliggjandi frátekningum afkastagetu. Þessar frátekningar eru einnig sóttar í gegnum sama `WrkCtrSchedulingInteropDataProvider`-klasann og dagatölin, en nota í staðinn aðferðina `getCapacityReservations`. Þegar raðað er við aðaláætlanagerð eru frátekningar fyrir tiltekna aðaláætlunina teknar til greina og ef þær eru virkjaðar á síðunni **Færibreytur aðaláætlanagerðar** , er frátekningar úr staðfestum framleiðslupöntunum einnig hafðar með. Á sama hátt, þegar framleiðslupöntun er áætluð, er einnig valkostur að taka með frátekningar úr fyrirliggjandi áætluðum pöntunum, þó að þetta sé ekki eins algengt og hin leiðin.
 
 Notkun takmarkaðrar getu veldur því að röðun tekur lengri tíma af ýmsum ástæðum:
 
@@ -238,11 +238,7 @@ Til dæmis, ef vinnutími fyrir tilfangaflokk á einni tiltekinni dagsetningu er
 
 Hleðslan úr vinnsluröðun í öllum tilföngum sem eru í tilfangaflokknum á ákveðnum degi eru tekin til greina þegar tiltæk afkastageta fyrir tilfangaflokkinn á sama deginum er reiknuð. Fyrir hverja dagsetningu er útreikningurinn:
 
-> Tiltæk afkastageta tilfangaflokks =  
-> (afkastageta fyrir tilföng í flokknum út frá dagatalinu) -  
-> (hleðsla vinnsluröðunar á tilföngum í flokknum) -  
-> (hleðsla aðgerðaröðunar á tilföngum í flokknum) -  
-> (hleðsla aðgerðaröðunar á tilfangaflokknum)
+*Tiltæk afkastageta tilfangaflokks = afkastageta fyrir tilföng í flokknum byggt á dagatali &ndash; Vinnsluröðuðu hleðslunni á tilföngum í flokknum &ndash; Operations áætluð hleðsla á tilföngum í flokknum &ndash; Operations áætluð hleðsla á forðaflokknum*
 
 Í flipanum **Tilfangaþarfir** í leiðaraðgerðinni, er hægt að tilgreina tilfangaþörfina með því að nota annaðhvort tiltekið tilfang (í slíku tilfelli verður aðgerðinni raðað með því að nota það tilfang), fyrir tilfangaflokk, fyrir tilfangagerð eða fyrir eina eða fleiri getu, hæfni, námskeið eða vottorð. Þegar allir þessir valmöguleikar eru notaðir er mikill sveigjanleiki fólginn í hönnun leiðar, hún flækir einnig röðun vélarinnar þar sem taka verður afkastagetu getu greina fyrir hvern „eiginleika“ (óhlutbundið heiti sem notað er í vélinni fyrir getu, hæfni o.s.frv.).
 
@@ -252,11 +248,7 @@ Afkastageta tilfangaflokks fyrir getu er samtala afkastagetu allra tilfanga í t
 
 Fyrir hverja dagsetningu er nauðsynlegur útreikningur:
 
-> Tiltæk afkastageta fyrir getu =  
-> (afkastageta fyrir getu) -  
-> (áætlað álag vinnu á tilföngin með tiltekinni getu, innifalið í tilfangaflokknum) -  
-> (áætlað álag aðgerða á tilföngin með tiltekinni getu, innifalið í tilfangaflokknum) -  
-> (áætlað álag aðgerða á sjálfan tilfangaflokkinn sem krefst tiltekinnar getu)
+*Tiltæk afkastageta fyrir getu = afkastageta fyrir getu &ndash; Vinnsluröðuðu álagi á tilföngum með tilgreindum getu, tekin með í tilfangaflokki &ndash; Operations áætluð hleðsla á tilföngum með tilgreindum getu, tekin með í tilfangaflokki &ndash; Operations áætluð hleðsla á forðaflokknum sjálfu sem útheimtir tiltekna getu*
 
 Þetta þýðir að ef álag er á tilteknu tilfangi er álagið talið með í útreikningi á tiltækri afkastagetu tilfangaflokks fyrir hverja getu, því að álagið á tilteknu tilfangi dregur úr framlagi þess til afkastagetu tilfangaflokksins fyrir getu, sama hvort álagið á tilteknu tilfangi er fyrir þessa tilteknu getu. Ef álag er á stigi tilfangaflokksins, er það tekið með í útreikningi á tiltækri afkastagetu tilfangaflokksins fyrir hverja getu eingöngu ef álagið kemur til vegna aðgerðar sem krefst tiltekinnar getu.
 
@@ -313,7 +305,7 @@ Notkun takmarkaðrar afkastagetu krefst þess að vélin hlaði upplýsingum um 
 
 ### <a name="setting-hard-links"></a>Harðir tenglar settir upp
 
-Stöðluð tenglagerð leiðarans er *mjúk*, sem þýðir að bil er leyfilegt á milli lokatíma einnar aðgerðar og upphafs þeirrar næstu. Ef þetta er gert getur það haft óheppileg áhrif, ef efni eða afkastageta er ekki í boði fyrir eina af aðgerðunum í mjög langan tíma, gæti framleiðslan verið aðgerðalaus um nokkurt skeið, sem þýðir mögulega aukningu á verkum í vinnslu. Þetta gerist ekki með hörðum tenglum vegna þess að lok og upphaf verða að passa fullkomlega saman. En ef harðir tenglar eru settir upp gerir það áætlanagerð erfiðara um vik vegna þess að skaranir á vinnutíma og afkastagetu verða að vera reiknaðar út fyrir bæði tilföng aðgerðanna. Ef það eru einnig samhliða aðgerðir til staðar, eykst tími útreiknings til muna. Ef tilföng aðgerðanna tveggja eru með mismunandi dagatöl sem skarast ekki á neinn hátt, er ekki hægt að leysa vandamálið.
+Stöðluð tenglagerð leiðarans er *mjúk* , sem þýðir að bil er leyfilegt á milli lokatíma einnar aðgerðar og upphafs þeirrar næstu. Ef þetta er gert getur það haft óheppileg áhrif, ef efni eða afkastageta er ekki í boði fyrir eina af aðgerðunum í mjög langan tíma, gæti framleiðslan verið aðgerðalaus um nokkurt skeið, sem þýðir mögulega aukningu á verkum í vinnslu. Þetta gerist ekki með hörðum tenglum vegna þess að lok og upphaf verða að passa fullkomlega saman. En ef harðir tenglar eru settir upp gerir það áætlanagerð erfiðara um vik vegna þess að skaranir á vinnutíma og afkastagetu verða að vera reiknaðar út fyrir bæði tilföng aðgerðanna. Ef það eru einnig samhliða aðgerðir til staðar, eykst tími útreiknings til muna. Ef tilföng aðgerðanna tveggja eru með mismunandi dagatöl sem skarast ekki á neinn hátt, er ekki hægt að leysa vandamálið.
 
 Aðeins er mælt með því að nota harða tengla þegar það er algjörlega nauðsynlegt og íhuga vel og vandlega hvort þeir eru nauðsynlegir fyrir hverja aðgerð leiðarinnar.
 

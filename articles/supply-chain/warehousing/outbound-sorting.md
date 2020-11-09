@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e72249e26fb8f291f804cf5f2e4ce98bf88cd5bf
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596240"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017691"
 ---
 # <a name="outbound-sorting"></a>Flokkun á útleið
 
@@ -91,7 +92,7 @@ Pökkunarstöðin er talin staðsetning. Starfsmenn vöruhúss sem skrá sig inn
 ### <a name="set-up-warehouse-management-parameters"></a>Setja upp færibreytur vöruhúsakerfis
 
 1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-1. Í flipanum **Almennt**, í flýtiflipanum **Gerðir staðsetninga**, skal stilla reitinn **Flokkun á gerð staðsetningar** á *SORT*.
+1. Í flipanum **Almennt** , í flýtiflipanum **Gerðir staðsetninga** , skal stilla reitinn **Flokkun á gerð staðsetningar** á *SORT*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 
 ### <a name="set-up-a-location-profile"></a>Setja upp staðsetningarforstillingu
@@ -103,12 +104,12 @@ Pökkunarstöðin er talin staðsetning. Starfsmenn vöruhúss sem skrá sig inn
     - **Kenni staðsetningarforstillingar:** *Röðun*
     - **Heiti:** *Röðun*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Staðsetningarsnið:** *ASRB* (Aisle-Rack-Shelf-Bin)
     - **Gerð staðsetningar:** *SORT*
     - **Nota rakningu númeraplötu:** *Já*
-    - **Heimila blandaðar vörur:** *Já* (Þegar þessi valkostur er settur á *Já*, verður valkosturinn **Heimila blandaðar birgðastöðurunur** sjálfkrafa stilltur á *Já* og er ekki hægt að breyta út af fyrir sig.)
+    - **Heimila blandaðar vörur:** *Já* (Þegar þessi valkostur er settur á *Já* , verður valkosturinn **Heimila blandaðar birgðastöðurunur** sjálfkrafa stilltur á *Já* og er ekki hægt að breyta út af fyrir sig.)
 
 1. Veljið **Vista**.
 
@@ -140,12 +141,12 @@ Fyrir þessa atburðarás stofnarðu flokkunarsniðmát á útleið til að búa
     - **Vöruhús:** *62*
     - **Staðsetning:** *SORT*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Sannprófun röðunar:** *Skönnun stöðu*
     - **Stofna vinnu á lokun stöðu:** *Já*
 
-        Ef þessi valkostur er stilltur á *Já*, þegar staðan er lokuð, verður vinna stofnuð til að færa birgðir á lokasendingarstaðinn. Ef hann er stilltur á *Nei* verða birgðir strax tíndar fyrir pöntunina þegar staðan er lokuð.
+        Ef þessi valkostur er stilltur á *Já* , þegar staðan er lokuð, verður vinna stofnuð til að færa birgðir á lokasendingarstaðinn. Ef hann er stilltur á *Nei* verða birgðir strax tíndar fyrir pöntunina þegar staðan er lokuð.
 
     - **Stöðuverkefni:** *Sjálfvirkt*
 
@@ -153,7 +154,7 @@ Fyrir þessa atburðarás stofnarðu flokkunarsniðmát á útleið til að búa
 
 1. Veldu **Vista** til að bjóða upp á valkostinn **Breyta fyrirspurn** á aðgerðasvæðinu.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
-1. Í fyrirspurnarritlinum, í flipanum **Röðun**, skal bæta við línu sem er með eftirfarandi gildi:
+1. Í fyrirspurnarritlinum, í flipanum **Röðun** , skal bæta við línu sem er með eftirfarandi gildi:
 
     - **Tafla:** *Sendingar*
     - **Afleidd tafla:** *Sendingar*
@@ -208,7 +209,7 @@ Stofnið nýja pökkunarforstillingu sem verður notuð ásamt röðunarvirkninn
     - **Pökkunarregla geymis:** *Raða*
     - **Auðkennisstilling gáms:** *Sjálfvirkt*
     - **Gámagerð:** *Kassi-stór*
-    - **Stofna sjálfvirkt gám þegar gámi er lokað:** Hreinsað (= *Nei*)
+    - **Stofna sjálfvirkt gám þegar gámi er lokað:** Hreinsað (= *Nei* )
 
 1. Veljið **Vista**.
 
@@ -240,7 +241,7 @@ Búa til valmyndaratriði fartækis til að búa til bretti við röðun.
     - **Stilling:** *Óbein*
     - **Nota fyrirliggjandi vinnu:** *Nei*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Verkþáttarkóði:** *Röðun á útleið*
 
@@ -302,7 +303,7 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
     - **Röð:** *1*
     - **Heiti:** *Útskot*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar** :
 
     - **Tegund vinnu:** *Frágangur*
     - **Svæði:** *6*
@@ -324,7 +325,7 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
 
 1. Veljið **Vista**.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn**.
-1. Í fyrirspurnarritlinum, í flipanum **Svið**, skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
+1. Í fyrirspurnarritlinum, í flipanum **Svið** , skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
 1. Veldu **Í lagi** til að vista stillingarnar þínar og loka fyrirspurnarritilinum.
 
 #### <a name="set-up-a-multiple-sku-directive"></a>Setja upp leiðbeiningu fyrir margar birgðahaldseiningar
@@ -337,7 +338,7 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
     - **Röð:** *2*
     - **Heiti:** *Mörg útskot*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar** :
 
     - **Tegund vinnu:** *Frágangur*
     - **Svæði:** *6*
@@ -359,7 +360,7 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
 
 1. Veljið **Vista**.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn**.
-1. Í fyrirspurnarritlinum, í flipanum **Svið**, skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
+1. Í fyrirspurnarritlinum, í flipanum **Svið** , skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
 1. Veldu **Í lagi** til að vista stillingarnar þínar og loka fyrirspurnarritilinum.
 
 ### <a name="set-up-work-templates"></a>Setja upp vinnusniðmát
@@ -396,7 +397,7 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-005*
     - **Vöruhús:** *62*
@@ -406,29 +407,29 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
     Ný sölupöntun opnast.
 
 1. Skiptið yfir í **Hausa** yfirlitið.
-1. Í flýtiflipanum **Afhending**, í hlutanum **Flutningur**, skal stilla eftirfarandi gildi:
+1. Í flýtiflipanum **Afhending** , í hlutanum **Flutningur** , skal stilla eftirfarandi gildi:
 
     - **Farmflytjandi:** *Flugfarmur*
     - **Flutningsþjónusta:** *flug*
 
 1. Skiptið yfir í yfirlitið **Línur**.
-1. Ef nýrri, tómri línu er ekki sjálfkrafa bætt við hnitanetið í flýtiflipanum **Sölupöntunarlínur**, skal velja **Bæta við línu** til að bæta einni við.
+1. Ef nýrri, tómri línu er ekki sjálfkrafa bætt við hnitanetið í flýtiflipanum **Sölupöntunarlínur** , skal velja **Bæta við línu** til að bæta einni við.
 1. Stilltu eftirfarandi gildi á nýju pöntunarlínunni.
 
     - **Vörunúmer:** *A0001*
     - **Magn:** *2*
 
-1. Með nýju pöntunarlínuna enn valda í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Birgðir** fyrir ofan hnitanetið, skal velja **Frátekning**.
+1. Með nýju pöntunarlínuna enn valda í flýtiflipanum **Sölupöntunarlínur** , í valmyndinni **Birgðir** fyrir ofan hnitanetið, skal velja **Frátekning**.
 1. Í síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá fullt magn af völdum línum í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
 1. Þú færð upplýsingaboð sem sýna sendinguna og bylgjuna fyrir þessa pöntun. Skráið niður bylgjuauðkenni og sendingarnúmer.
 
 #### <a name="sales-order-2"></a>Sölupöntun 2
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-006*
     - **Vöruhús:** *62*
@@ -439,20 +440,20 @@ Næst skal búa til valmyndaratriði sem gerir notendum kleift að flytja raða�
     - **Vara:** *A0001*
     - **Magn:** *1*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla reitinn **Flutningsmáti** á *Flowe-STD*.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal stilla reitinn **Flutningsmáti** á *Flowe-STD*.
 1. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Bæta við línu** og síðan stilla eftirfarandi gildi í næstu pöntunarlínu:
 
     - **Vara:** *A0002*
     - **Magn:** *1*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal breyta gildinu í reitnum **Flutningsmáti** í *Air C-Air*.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal breyta gildinu í reitnum **Flutningsmáti** í *Air C-Air*.
 1. Á flýtiflipanum **Sölupöntunarlínur** skal velja fyrstu pöntunarlínuna. Á valmyndinni **Birgðir** fyrir ofan hnitanetið velur þú svo **Frátekning**.
 1. Í síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá fullt magn af völdum línum í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
 1. Á flýtiflipanum **Sölupöntunarlínur** skal velja aðra pöntunarlínuna. Á valmyndinni **Birgðir** fyrir ofan hnitanetið velur þú svo **Frátekning**.
 1. Í síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá fullt magn af völdum línum í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
 1. Þú færð upplýsingaboð sem sýna sendinguna og bylgjuna fyrir þessa pöntun. Takið eftir því að tvö auðkennisnúmer bylgju og tvö auðkennisnúmer sendingar hafa verið búin til, eitt fyrir hvorn flutningsmáta sölupöntunarlínanna.
 
 #### <a name="get-the-work-ids-from-the-work-details"></a>Ná í vinnukenni úr upplýsingum um vinnu
@@ -469,7 +470,7 @@ Ljúkið stofnaðri vinnu með því að nota fartækið til að færa vörurnar
 1. Í valmyndinni **Á útleið** skal velja **Sölutiltekt**.
 1. Í reitinn **Auðkenni** skal slá inn vinnukennið sem búið var til fyrir sölupöntun 1.
 1. Veljið **Í lagi**.
-1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu sem var búin til fyrir sölupöntun 1. Takið eftir því að tiltektarstaðsetningin (*bulk-001*), vara (*A0001*) og magn (*2 stk*) eru sýnd.
+1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu sem var búin til fyrir sölupöntun 1. Takið eftir því að tiltektarstaðsetningin ( *bulk-001* ), vara ( *A0001* ) og magn ( *2 stk* ) eru sýnd.
 1. Veljið **Í lagi**.
 1. Skoðið upplýsingarnar á síðunni **Sölupantanir: Frágangur**. Reiturinn **Loc** á að sýna að tíndar vörur eru að fara á staðsetninguna *Pakka*.
 1. Veljið **Í lagi**.
@@ -480,7 +481,7 @@ Ljúkið stofnaðri vinnu með því að nota fartækið til að færa vörurnar
 
 1. Í reitinn **Auðkenni** skal slá inn vinnukennið sem búið var til fyrir sölupöntun 2, þar sem lína 1 er með vöru *A0001*.
 1. Veljið **Í lagi**.
-1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu. Takið eftir því að tiltektarstaðsetningin (*bulk-001*), vara (*A0001*) og magn (*1 stk*) eru sýnd.
+1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu. Takið eftir því að tiltektarstaðsetningin ( *bulk-001* ), vara ( *A0001* ) og magn ( *1 stk* ) eru sýnd.
 1. Veljið **Í lagi**.
 1. Skoðið upplýsingarnar á síðunni **Sölupantanir: Frágangur**. Reiturinn **Loc** á að sýna að tíndar vörur eru að fara á staðsetninguna *Pakka*.
 1. Veljið **Í lagi**.
@@ -489,7 +490,7 @@ Ljúkið stofnaðri vinnu með því að nota fartækið til að færa vörurnar
 
 1. Í reitinn **Auðkenni** skal slá inn vinnukennið sem búið var til fyrir sölupöntun 2, þar sem lína 2 er með vöru *A0002*.
 1. Veljið **Í lagi**.
-1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu. Takið eftir því að tiltektarstaðsetningin (*bulk-002*), vara (*A0001*) og magn (*1 stk*) eru sýnd.
+1. Á síðuna **Sölupantanir: Tiltekt** skal slá inn marknúmeraplötu. Takið eftir því að tiltektarstaðsetningin ( *bulk-002* ), vara ( *A0001* ) og magn ( *1 stk* ) eru sýnd.
 1. Veljið **Í lagi**.
 1. Skoðið upplýsingarnar á síðunni **Sölupantanir: Frágangur**. Reiturinn **Loc** á að sýna að tíndar vörur eru að fara á staðsetninguna *Pakka*.
 1. Veljið **Í lagi**.
@@ -512,7 +513,7 @@ Ljúkið stofnaðri vinnu með því að nota fartækið til að færa vörurnar
     - **Forstillingarkenni pökkunar:** *Raða*
 
 1. Veldu **Í lagi** til að loka svarglugganum.
-1. Á síðuna **Pakka**, í reitinn **Númeraplata eða sending**, skal slá inn marknúmeraplötuna fyrir sölupöntun 1. Ýtið síðan á **Tab** eða **Enter** á lyklaborðinu til að fara úr reitnum.
+1. Á síðuna **Pakka** , í reitinn **Númeraplata eða sending** , skal slá inn marknúmeraplötuna fyrir sölupöntun 1. Ýtið síðan á **Tab** eða **Enter** á lyklaborðinu til að fara úr reitnum.
 1. Á aðgerðasvæðinu skal velja **Nýr gámur**.
 1. Samþykkið allar sjálfgefnar stillingar og veljið **Í lagi**. Punktið niður gámakennið.
 1. Í flýtiflipanum **Vörupökkun** skal stilla eftirfarandi gildi:
@@ -537,7 +538,7 @@ Ljúkið stofnaðri vinnu með því að nota fartækið til að færa vörurnar
 
 #### <a name="pack-sales-order-2-into-containers"></a>Pakka sölupöntun 2 í gáma
 
-1. Á síðuna **Pakka**, í reitinn **Númeraplata eða sending**, skal slá inn marknúmeraplötuna fyrir línu 1 í sölupöntun 2. Ýtið síðan á **Tab** eða **Enter** á lyklaborðinu til að fara úr reitnum.
+1. Á síðuna **Pakka** , í reitinn **Númeraplata eða sending** , skal slá inn marknúmeraplötuna fyrir línu 1 í sölupöntun 2. Ýtið síðan á **Tab** eða **Enter** á lyklaborðinu til að fara úr reitnum.
 1. Á aðgerðasvæðinu skal velja **Nýr gámur**.
 1. Samþykkið allar sjálfgefnar stillingar og veljið **Í lagi**. Punktið niður gámakennið.
 1. Í flýtiflipanum **Vörupökkun** skal stilla eftirfarandi gildi:
@@ -649,18 +650,18 @@ Ljúka þarf tiltekt flokkaðra birgða. Þegar henni er lokið verða birgðir 
 1. Í valmyndinni **Á útleið** skal velja **Hleðsla frá röðun**.
 1. Sláið inn auðkenni marknúmeraplötu úr fyrsta röðunarstaðnum, *SP01*. Stilltu reitinn **Kenni** á *PLP01*.
 1. Veljið **Í lagi**.
-1. Síðan **Tiltekt í flokkuðum birgðum** sýnir tiltektarvinnuna sem þarf að gera. Veljið úr staðsetningunni *SORT* og marknúmeraplötunni *PLP01*, sem er með margar vörur og magn upp á *3*.
+1. Síðan **Tiltekt í flokkuðum birgðum** sýnir tiltektarvinnuna sem þarf að gera. Veljið úr staðsetningunni *SORT* og marknúmeraplötunni *PLP01* , sem er með margar vörur og magn upp á *3*.
 1. Veljið **Í lagi**.
-1. Síðan **Tiltekt í flokkuðum birgðum** sýnir frágangsvinnuna sem þarf að gera. Gangið frá í staðsetninguna *Útskot* og marknúmeraplötuna *PLP01*, sem er með margar vörur og magn upp á *3*.
+1. Síðan **Tiltekt í flokkuðum birgðum** sýnir frágangsvinnuna sem þarf að gera. Gangið frá í staðsetninguna *Útskot* og marknúmeraplötuna *PLP01* , sem er með margar vörur og magn upp á *3*.
 1. Veljið **Í lagi**.
 
     Vinnu er lokið.
 
 1. Sláið inn kenni marknúmeraplötu úr seinni röðunarstaðnum *SP02*. Stilltu reitinn **Kenni** á *PLP02*.
 1. Veljið **Í lagi**.
-1. Síðan **Tiltekt í flokkuðum birgðum** sýnir tiltektarvinnuna sem þarf að gera. Tínið úr staðsetningunni *SORT* og marknúmeraplötunni *PLP02*, sem er með margar vörur og magn upp á *1*.
+1. Síðan **Tiltekt í flokkuðum birgðum** sýnir tiltektarvinnuna sem þarf að gera. Tínið úr staðsetningunni *SORT* og marknúmeraplötunni *PLP02* , sem er með margar vörur og magn upp á *1*.
 1. Veljið **Í lagi**.
-1. Síðan **Tiltekt í flokkuðum birgðum** sýnir frágangsvinnuna sem þarf að gera. Gangið frá í staðsetninguna *Útskot* og marknúmeraplötuna *PLP02*, sem er með margar vörur og magn upp á *1*.
+1. Síðan **Tiltekt í flokkuðum birgðum** sýnir frágangsvinnuna sem þarf að gera. Gangið frá í staðsetninguna *Útskot* og marknúmeraplötuna *PLP02* , sem er með margar vörur og magn upp á *1*.
 1. Veljið **Í lagi**.
 
     Vinnu er lokið.

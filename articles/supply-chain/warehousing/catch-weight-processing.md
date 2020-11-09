@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
-ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
+ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016263"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -104,7 +104,7 @@ Að auki, þegar atriði er rakið með merkum er til breytan **Aðferð við a�
 
 ### <a name="how-to-capture-catch-weight"></a>Hvernig á að sækja framleiðsluþyngd
 
-**Þegar rakning á merki framleiðsluþyngdar er notað**, verður alltaf að stofna merki fyrir hverja framleiðsluþyngdareiningu sem tekið er á móti, og öll merki verða alltaf að tengjast þyngd.
+**Þegar rakning á merki framleiðsluþyngdar er notað** , verður alltaf að stofna merki fyrir hverja framleiðsluþyngdareiningu sem tekið er á móti, og öll merki verða alltaf að tengjast þyngd.
 
 Til dæmis er **Kassi** framleiðsluþyngdareiningin og þú tekur á móti vörubretti með átta kössum. Í þessu tilfelli verður að búa til átta einkvæm merki fyrir framleiðsluþyngd og tengja verður þyngd við hvert merki. Það fer eftir framleiðsluþyngd afurðar á innleið, annaðhvort er hægt að sækja þyngd fyrir alla átta kassana og svo er meðalþyngd úthlutað á hvern kassa, eða hægt er að sækja þyngd fyrir hvern kassa fyrir sig.
 Þegar þú notar eiginleikann **Nota fyrirliggjandi merki framleiðsluþyngdar þegar framleiðslupantanir eru tilkynntar sem lokið** þar sem ferlið er virkjað í valmyndaratriði í fartæki, verða birgðir uppfærðar miðað við fyrirliggjandi upplýsingar um merki framleiðsluþyngdar. Þar af leiðandi gerir vöruhúsaforritið ekki kvaðningu um að sækja gögn um framleiðsluþyngdarmerkingu sem hluti af framleiðsluskýrslu sem lok aðgerðar.
@@ -209,4 +209,4 @@ Auk þeirra takmarkana sem nú eiga við um afurðir framleiðsluþyngdar, hafa 
 - Bakfærð vinnuvirkni er ekki studd fyrir hluti framleiðsluþyngdar sem eru rakin með númerum.
 
 > [!NOTE]
-> Undanfarandi upplýsingar um merki framleiðsluþyngdar eru aðeins gildar ef afurð framleiðsluþyngdar er með rakningaraðferð merkjavíddar framleiðsluþyngdar sem er rakin að fullu (það er, ef færibreytan **Rakningaraðferð merkjavíddar framleiðsluþyngdar** í meðhöndlunarstefnu hlutar framleiðsluþyngdar er stillt á **Afurðarvíddir, rakningarvíddir og allar geymsluvíddir**). Ef hluti framleiðsluþyngdar er aðeins rakinn með merki að hluta (það er, ef færibreyta **Rakningaraðferð merkjavíddar framleiðsluþyngdar** á meðhöndlunarstefnu vöru framleiðsluþyngdar er stillt á **Afurðavíddir, rakningarvíddir og birgðastaða**), gilda frekari takmarkanir. Vegna þess að skyggni tapast milli merkisins og birgða í þessu tilfelli eru nokkrar viðbótaraðstæður ekki studdar.
+> Undanfarandi upplýsingar um merki framleiðsluþyngdar eru aðeins gildar ef afurð framleiðsluþyngdar er með rakningaraðferð merkjavíddar framleiðsluþyngdar sem er rakin að fullu (það er, ef færibreytan **Rakningaraðferð merkjavíddar framleiðsluþyngdar** í meðhöndlunarstefnu hlutar framleiðsluþyngdar er stillt á **Afurðarvíddir, rakningarvíddir og allar geymsluvíddir** ). Ef hluti framleiðsluþyngdar er aðeins rakinn með merki að hluta (það er, ef færibreyta **Rakningaraðferð merkjavíddar framleiðsluþyngdar** á meðhöndlunarstefnu vöru framleiðsluþyngdar er stillt á **Afurðavíddir, rakningarvíddir og birgðastaða** ), gilda frekari takmarkanir. Vegna þess að skyggni tapast milli merkisins og birgða í þessu tilfelli eru nokkrar viðbótaraðstæður ekki studdar.

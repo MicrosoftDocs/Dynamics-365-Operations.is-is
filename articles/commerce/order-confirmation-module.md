@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661173"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015181"
 ---
 # <a name="order-details-module"></a>Upplýsingaeining pöntunar
 
@@ -38,7 +38,7 @@ Eftir að pöntun hefur verið gerð er hægt að nota staðfestingarhlutann til
 
 | Nafn eiginleika  | Gildi | lýsing |
 |----------------|--------|-------------|
-| Yfirskrift        | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Upplýsingaeining pöntunar getur verið með haus. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
+| Yfirskrift        | Texti og merki fyrirsagnar ( **H1** , **H2** , **H3** , **H4** , **H5** eða **H6** ) | Upplýsingaeining pöntunar getur verið með haus. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
 | Númer tengiliðar | Text | Hægt er að gefa upp tengiliðanúmer fyrir pöntunarskyldar spurningar. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Einingar sem hægt er að nota á pöntunarupplýsingasíðu
@@ -53,21 +53,21 @@ Eftir að pöntun hefur verið gerð er hægt að nota staðfestingarhlutann til
 Til að bæta upplýsingaeiningu pöntunar við nýja síðu og stilla nauðsynlega eiginleika skal fylgja þessum skrefum.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
-1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn heitið **Sniðmát pöntunarupplýsinga** og velja síðan **Í lagi**.
-1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Nýtt sniðmát** , undir **Heiti sniðmáts** , skal slá inn heitið **Sniðmát pöntunarupplýsinga** og velja síðan **Í lagi**.
+1. Í hólfinu **Meginmál** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Upplýsingar um pöntun** og síðan velja **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða sniðmátið. Pöntunarupplýsingaeiningin verður ekki látin af hendi sem hún þarf samhengi við pöntunarstaðfestingarnúmerið.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
 1. Í svarglugganum **Velja sniðmát** skal velja **Sniðmát pöntunarupplýsinga**. Undir **Síðuheiti** skal færa inn **Upplýsingasíða pöntunar** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Upplýsingar um pöntun** og síðan velja **Í lagi**.
 1. Á eiginleikasvæðinu fyrir upplýsingaeiningu pöntunar skal velja **Fyrirsögn** við hliðina á blýantstákninu.
 1. Í reitinn **Fyrirsagnartexti** í svarglugganum **Fyrirsögn** skal slá inn fyrirsagnartextanum **Upplýsingar pöntunar** og velja síðan **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (október 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (ágúst 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Finance and Operations
@@ -1040,11 +1038,13 @@
                       href: add-breadcrumb.md
                     - name: Eining yfirlitsvalmyndar
                       href: nav-menu-module.md
+                    - name: Svæðisvalseining
+                      href: site-selector.md
                 - name: Reglufylgnieiningar
                   items:
                     - name: Eining kökusamþykkis
                       href: cookie-consent-module.md
-            - name: Leit
+            - name: Leita
               items:
                 - name: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
                   href: category-search-page-overview.md
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Ítarlegar upplýsingar um einingu
                   items:
+                    - name: Yfirlit eininga
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Skilgreiningarskrá einingar
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Hlutaskrá sem bregst við einingunni
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Yfirlit yfir gagnvirka þætti
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Herma eftir innskráningarstöðu við staðbundna þróun
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Gera einingar alþjóðlegar með því að nota klasann CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Setja upp Azure-lyklageymslu fyrir örugga lyklastjórnun
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Þróa gagnaaðgerðir
                   items:
                     - name: Yfirlit yfir gagnaaðgerðir
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Biðminnisvalkostir gagnaaðgerða
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Prófa gagnaaðgerðir með gerviskipunum
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Gagnaaðgerðir síðuhleðslu
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Stækka þema til að bæta við einingaviðbótum
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Hnekkja einingasafnshluta í þema
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Stækka þema úr grunnþema
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Bæta sérsniðnum tilföngum við sérsniðinn kóða
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: Uppfærslur á SDK og einingasafni
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Bestu starfsvenjur
+                  items:
+                    - name: Bestu starfsvenjur fyrir þróun Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Retail SDK
               items:
                 - name: Skipulag Retail SDK
@@ -2197,7 +2211,7 @@
                 - name: Retail Typescript og C#-staðgenglar
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Nota API fyrir Retail Server í ytri forritum
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Stækkunarhæfni Commerce Runtime (CRT)
               items:
                 - name: Skipulag og skilgreining CRT

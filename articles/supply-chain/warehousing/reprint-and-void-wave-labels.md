@@ -6,7 +6,7 @@ manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: reprint-and-void-wave-labels
 ms.service: dynamics-ax-applications
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0b831361631aa66712813706eaa4ff3339683868
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016655"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Endurprenta og ógilda bylgjumerki
 
@@ -42,7 +42,7 @@ Endurprentunareiginleiki bylgjumerkja styður eftirfarandi virkni:
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Atburðarás 1: Endurprenta merkimiða úr vefbiðlaranum
 
-Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum. Á aðgerðasvæði hverrar síðu, í flipanum **Sendingar**, í flokknum **Tengdar upplýsingar**, skal velja **Bylgjumerki**.
+Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum. Á aðgerðasvæði hverrar síðu, í flipanum **Sendingar** , í flokknum **Tengdar upplýsingar** , skal velja **Bylgjumerki**.
 
 - Allar sendingar \> Upplýsingar sendingar
 - Allar hleðslur \> Upplýsingar um hleðslu
@@ -54,7 +54,7 @@ Til að endurprenta bylgjumerki úr vefbiðlaranum skal fylgja þessum skrefum.
 
 1. Farðu í **Vöruhúsastjórnun \> Bylgjur á útleið \> Sendingarbylgjur \> Allar bylgjur**.
 1. Veljið bylgjuna til að endurprenta merkimiða úr.
-1. Á aðgerðasvæðinu, í flipanum **Bylgja**, í flokknum **Prenta**, skal velja **Bylgjumerki**.
+1. Á aðgerðasvæðinu, í flipanum **Bylgja** , í flokknum **Prenta** , skal velja **Bylgjumerki**.
 1. Veljið annað eða bæði eftirfarandi skref:
 
     - Til að endurprenta merkimiðann skal velja prentara í reitnum **Heiti prentara**. (Skiljið þennan reit eftir auðan ef aðeins á að uppfæra upplýsingar um bylgjumerki, án þess að endurprenta merkimiðann.)
@@ -118,7 +118,7 @@ Fylgið þessum skrefum til að búa til nýtt safn af valmyndaratriðum til að
     - **Merkimiði kerfisflokkunar:** *Auðkenni sendingar*
     - **Prentstilling:** *Tölusetning*
 
-1. Á aðgerðasvæðinu skal velja **Reitalisti** og síðan nota fellilistana til að velja reitina sem starfskraftar fá að sjá til að auðvelda þeim að bera kennsl á rétta miðarúllu (t.d. *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId*, and *NumberOfLabels*).
+1. Á aðgerðasvæðinu skal velja **Reitalisti** og síðan nota fellilistana til að velja reitina sem starfskraftar fá að sjá til að auðvelda þeim að bera kennsl á rétta miðarúllu (t.d. *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* , and *NumberOfLabels* ).
 1. Lokið síðunni.
 1. Búið til fjórða valmyndaratriðið og stillið eftirfarandi gildi fyrir það:
 
@@ -131,7 +131,7 @@ Fylgið þessum skrefum til að búa til nýtt safn af valmyndaratriðum til að
     - **Merkimiði kerfisflokkunar:** *Auðkenni sendingar*
     - **Prentstilling:** *Síðasta kenni bylgjumerkis sem var í lagi*
 
-1. Á aðgerðasvæðinu skal velja **Reitalisti** og síðan nota fellilistana til að velja reitina sem starfskraftar fá að sjá til að auðvelda þeim að bera kennsl á rétta miðarúllu (t.d. *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId*, and *NumberOfLabels*).
+1. Á aðgerðasvæðinu skal velja **Reitalisti** og síðan nota fellilistana til að velja reitina sem starfskraftar fá að sjá til að auðvelda þeim að bera kennsl á rétta miðarúllu (t.d. *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* , and *NumberOfLabels* ).
 1. Lokið síðunni.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Uppsetning á valmynd fartækis

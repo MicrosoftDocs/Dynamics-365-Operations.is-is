@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971473"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039847"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Hafist handa með innbót rafrænna reikninga
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu. Fyrst leiðir það þig í gegnum grunnstillingarskrefin í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) og Dynamics 365 Finance. Því næst er lýst ferlinu við að senda skjöl inn í gegnum þjónustuna með því að nota Dynamics 365 Finance eða Dynamics 365 Supply Chain Management. Einnig verður fjallað um hvernig á að túlka innsendingarkladdana.
 
@@ -90,7 +89,7 @@ Eftirfarandi mynd sýnir fimm helstu skrefin sem verður farið í gegnum í þe
 4. Veljið LCS-uppsetningarverkið. Áður en hægt er að velja verkið verður það að vera í gangi.
 5. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 6. Veljið **Innsending viðskiptaskjals**.
-7. Í svargluggann **Setja upp innbót**, í reitinn **AAD-forritskenni**, skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Gildið er fast.
+7. Í svargluggann **Setja upp innbót** , í reitinn **AAD-forritskenni** , skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Gildið er fast.
 8. Í reitinn **AAD-leigjandakenni** skal færa inn auðkenni Azure-áskriftareiknings.
 
     ![Setja upp svarglugga innbótar í LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
@@ -109,7 +108,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 ### <a name="set-up-the-key-vault-in-rcs"></a>Setja upp lyklageymslu í RCS
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækir eiginleikar**, undir **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækir eiginleikar** , undir **Umhverfi** , skal velja reitinn **Rafræn reikningsfærsla**.
 3. Veljið **Þjónustuumhverfi**.
 
     ![Þjónustuumhverfi valin](media/e-invoicing-services-get-started-select-service-environments.png)
@@ -134,9 +133,9 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Setja upp RCS-samþættingu með þjóni rafrænnar reikningsfærsluviðbótar
 
-1. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Viðeigandi stillingar**, skal velja tengilinn **Færibreytur rafrænnar skýrslugerðar**.
+1. Á vinnusvæðinu **Altækir eiginleikar** , í hlutanum **Viðeigandi stillingar** , skal velja tengilinn **Færibreytur rafrænnar skýrslugerðar**.
 2. Veljið **Smella hér til að tengjast við Lifecycle Service**. Ef ekki á að tengjast við LCS skal velja **Hætta við**.
-3. Í flipanum **Rafræn reikningsfærsluþjónusta**, í reitinn **Endastöð URI þjónustu**. skal færa inn gildið samkvæmt tiltækum staðsetningum: `https://businessdocumentsubmission.us.operations365.dynamics.com/` eða `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
+3. Í flipanum **Rafræn reikningsfærsluþjónusta** , í reitinn **Endastöð URI þjónustu**. skal færa inn gildið samkvæmt tiltækum staðsetningum: `https://businessdocumentsubmission.us.operations365.dynamics.com/` eða `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Í reitnum **Forritskenni** skal staðfesta að hann sýni kennið **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gildið er fast.
 5. Í reitinn **LCS-umhverfiskenni** skal færa inn auðkenni LCS-áskriftarreiknings.
 
@@ -146,7 +145,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 Hægt er að búa til mismunandi umhverfi fyrir viðbót rafrænnar reikningsfærslu, svo sem þróunar-, prófunar- eða framleiðsluumhverfi.
 
-1. Á vinnusvæðinu **Altækir eiginleikar**, undir **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+1. Á vinnusvæðinu **Altækir eiginleikar** , undir **Umhverfi** , skal velja reitinn **Rafræn reikningsfærsla**.
 2. Veljið **Nýtt** til að búa til umhverfi.
 3. Í reitinn **Reikningur SAS-lyklageymslu** skal færa inn heiti á leynilykli lyklageymslunnar sem var skilgreind í lyklageymslunni í RCS.
 
@@ -197,7 +196,7 @@ Eiginleiki fyrir samþættingu rafræns reiknings er virkjaður með tilraunaút
 ### <a name="set-up-the-service-endpoint-url"></a>Setja upp vefslóð fyrir endastöð þjónustu
 
 1. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
-2. Í flipann **Innsendingarþjónusta**, í reitinn **Vefslóð á endastöð þjónustu**, skal færa inn `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+2. Í flipann **Innsendingarþjónusta** , í reitinn **Vefslóð á endastöð þjónustu** , skal færa inn `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
 3. Í reitinn **Umhverfi** skal færa inn heiti á umhverfi rafrænnar reikningsfærsluviðbótar sem stofnað var í RCS-uppsetningu.
 
 ![Þjónustufæribreytur færðar inn](media/e-invoicing-services-get-started-enter-service-endpoint.png)
@@ -206,7 +205,7 @@ Eiginleiki fyrir samþættingu rafræns reiknings er virkjaður með tilraunaút
 
 Til að gera kleift að safna saman viðskiptagögnum og senda þau til viðbótar rafrænnar reikningsfærslu, þarf fyrst að flytja inn gagnalíkan rafrænnar skýrslugerðar og skilgreiningu á gagnalíkani rafrænnar skýrslugerðar sem tengjast eiginleika rafrænnar reikningsfærslu, sem er breytilegur eftir landi/svæði, sem ætlunin er að nota.
 
-1. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+1. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Veldu **Geymslur**.
 4. Veljið **Altækt tilfang** og síðan **Opna**.
 5. Í svarglugganum **Tengjast við Lifecycle Services** skal velja **Smella hér til að tengjast við Lifecycle Services**.
@@ -218,7 +217,7 @@ Til að gera kleift að safna saman viðskiptagögnum og senda þau til viðbót
 Til að kveikja á lands-/svæðisbundnum eiginleikum rafrænnar reikningsfærslu þannig að þeir vinni með viðbót rafrænnar reikningsfærslu, þarf að kveikja á eiginleikanum í hverjum lögaðila fyrir sig þar sem á að nota hann. Í kjölfarið verður ekki lengur hægt að nota gömlu samþættingu rafrænnar reikningsfærslu og kveikt er á samþættingunni við nýja viðbót rafrænu reikningsfærslunnar.
 
 1. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
-2. Í flipanum **Eiginleikar**, í línunni fyrir eiginleikann sem tengist lands-/svæðisbundnum eiginleika rafrænnar reikningsfærslu, skal velja gátreitinn í dálknum **Virkjað**. Upplýsingar um hvaða eiginleika skal kveikja á er að finna í lands-/svæðisbundna efnisatriðinu „Hafist handa með viðbót rafrænnar reikningsfærslu“.
+2. Í flipanum **Eiginleikar** , í línunni fyrir eiginleikann sem tengist lands-/svæðisbundnum eiginleika rafrænnar reikningsfærslu, skal velja gátreitinn í dálknum **Virkjað**. Upplýsingar um hvaða eiginleika skal kveikja á er að finna í lands-/svæðisbundna efnisatriðinu „Hafist handa með viðbót rafrænnar reikningsfærslu“.
 
 ![Kveikt á eiginleika rafrænnar reikningsfærslu](media/e-invoicing-services-get-started-enable-invoicing-feature.png)
 
@@ -229,10 +228,10 @@ Til að kveikja á lands-/svæðisbundnum eiginleikum rafrænnar reikningsfærsl
 
 Ef innsent reikningsskjal krefst uppfærslu eftir svar við innsendingu til heimildarþjónustu yfirvalda, þarf að flytja inn sérstakt gagnalíkan rafrænnar skýrslugerðar til að virkja stöðu reikningsskjalsins eða einhvern annan viðbótarreit sem á að uppfæra.
 
-1. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**.
+1. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**.
 2. Veldu **Geymslur**.
 3. Veljið **Altækt tilfang** og síðan **Opna**.
-4. Flytjið inn **Líkan svarskilaboða**, **Innflutningssnið svarskilaboða**, **Líkanavörpun svarskilaboða á áfangastað** og **Innflutningssnið innihalds skáar**.
+4. Flytjið inn **Líkan svarskilaboða** , **Innflutningssnið svarskilaboða** , **Líkanavörpun svarskilaboða á áfangastað** og **Innflutningssnið innihalds skáar**.
 5. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
 6. Í flipanum **Rafrænt skjal** skal velja **Bæta við** til að færa inn heiti töflunnar sem tengist lands-/svæðisbundnu reikningsskjali. Upplýsingar um hvaða töfluheiti skulu valin er að finna í lands-/svæðisbundna efnisatriðinu „Hafist handa með viðbót rafrænnar reikningsfærslu“.
 7. Veljið **Svargerðir** til að skilgreina svargerðirnar. Upplýsingar um hvaða töfluheiti skulu valin er að finna í lands-/svæðisbundna efnisatriðinu „Hafist handa með viðbót rafrænnar reikningsfærslu“.
@@ -284,7 +283,7 @@ Hægt er að senda inn viðskiptaskjöl annaðhvort handvirkt eða samkvæmt kr�
 
 ### <a name="filter-query"></a>Síufyrirspurn
 
-1. Í svargluggann **Fyrirspurn**, í flipann **Svið**, skal færa inn síuskilyrði með því að nota reitina **Tafla**, **Afleidd tafla**, **Reitur** og **Skilyrði**.
+1. Í svargluggann **Fyrirspurn** , í flipann **Svið** , skal færa inn síuskilyrði með því að nota reitina **Tafla** , **Afleidd tafla** , **Reitur** og **Skilyrði**.
 2. Veljið **Bæta við** til að bæta við eins mörgum skilyrðum til viðbótar og þörf er á til að velja viðskiptaskjölin.
 
     ![Síuskilyrði innsendingar stillt](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
@@ -312,7 +311,7 @@ Hægt er að senda inn viðskiptaskjöl annaðhvort handvirkt eða samkvæmt kr�
 
 Í stað þess að senda skjöl handvirkt í vinnslu er hægt að gera sendingarferlið sjálfvirkt og keyra það í bakgrunni samkvæmt skilgreindri tíðni á runukeyrslu.
 
-1. Í svarglugganum **Senda inn rafræn skjöl**, í flýtiflipanum **Keyra í bakgrunni**, skal stilla valkostinn **Runuvinnsla** á **Já**.
+1. Í svarglugganum **Senda inn rafræn skjöl** , í flýtiflipanum **Keyra í bakgrunni** , skal stilla valkostinn **Runuvinnsla** á **Já**.
 2. Í flipanum **Endurtekning** skal skilgreina tíðni runuvinnslunnar.
 
 ![Uppsetning innsendingar eftir runu](media/e-invoicing-services-get-started-set-up-submission-batch.png)

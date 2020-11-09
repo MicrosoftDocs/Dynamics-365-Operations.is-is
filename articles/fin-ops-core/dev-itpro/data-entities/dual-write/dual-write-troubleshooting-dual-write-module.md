@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275534"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997375"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Leysa úr vandamálum við einingu fyrir tvöföld skrif í Finance and Operations-forritum
 
@@ -50,7 +49,7 @@ Ef þú getur ekki opnað síðuna **Tvöfalt skrif** með því að velja reiti
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Villa þegar þú opnar tvískipt notendaviðmót
 
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að komast í tvískipt skrif úr vinnusvæðinu **Gagnastjórnun**:
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að komast í tvískipt skrif úr vinnusvæðinu **Gagnastjórnun** :
 
 *login.microsoftonline.com neitaði að tengjast.*
 
@@ -62,7 +61,7 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 Þú gætir lent í eftirfarandi villu þegar þú tengir eða býrð til kort:
 
-*Svörunarstaðakóði bendir ekki til árangurs: 403 (tokenexchange).<br> Auðkenni fundar: \<lotuauðkenni þitt\><br> Auðkenni rótareksturs: \<auðkenni rótarstarfseminnar\>*
+*Stöðukóði svars gefur ekki til kynna að hafi tekist: 403 (tokenexchange).<br> Lotukenni: \<your session id\><br> Kenni rótarvirkni: \<your root activity id\>*
 
 Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Common Data Service-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Sérhver notandi með hlutverk kerfisstjóra í bæði Finance and Operations-forritum og Common Data Service getur tengt umhverfin. Eingöngu notandinn sem setti upp tengingu tvískiptra skrifa getur bætt við nýjum einingavörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
 
@@ -78,7 +77,7 @@ Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu nets
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Villa við að reyna að hefja vörpun eininga
 
-Þú gætir fengið villu eins og eftirfarandi þegar þú reynir að stilla þessa stöðu vörpunar á **Í gangi**:
+Þú gætir fengið villu eins og eftirfarandi þegar þú reynir að stilla þessa stöðu vörpunar á **Í gangi** :
 
 *Ekki tókst að ljúka upphaflegir samstillingu gagna. Villa: tvískipt skrif tókust ekki - skráning viðbótar mistókst: Get ekki búið til lýsigögn fyrir uppflettingu tvískiptra skrifa. Tilvísun í villuhlut ekki stillt á tilvik hlutar.*
 

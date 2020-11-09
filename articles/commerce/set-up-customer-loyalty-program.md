@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613204"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013228"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
@@ -74,11 +74,11 @@ Eftirfarandi tafla lýsir ferla sem þarf að keyra til að senda vildarskilgrei
 | Bóka áunna vildarpunkta í runuvinnslu | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Þetta ferli gildir aðeins ef gátreiturinn **Bóka áunna punkta í runuvinnslu** er valinn á **Samnýttar færibreytur Commerce** síðu, svo hægt er að fá umbun án nettengingar. | Bóka áunna vildarpunkta í runuvinnslu |
 | Uppfæra vildarkortalög            | Keyra þetta ferli til að meta tekjuaðgerðir viðskiptavinar gagnvart vildarlagsreglum fyrir vildarkerfi og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög |
 
-## <a name="loyalty-enhancements"></a>Vildarkerfisviðbætur
+## <a name="loyalty-capabilities"></a>Hleðslugeta
 
-Commerce hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hvert af nýju viðbótunum er lýst hér að neðan.
+- Með því að nota verðflokkana sem tengjast vildarkerfi og vildarlögum getur smásala á einfaldan hátt stofnað sérstakt verð og afslætti fyrir vildarmeðlimi.
 
-- Sem hluti af vildarkerfi í fyrri útgáfum gætu smásalar búið til mismunandi reglur um tekjur og innlausn með vildarlögum til að greina á milli umbunarfyrir viðskiptavini í mismunandi lögum. Söluaðilar geta nú með "tengingar" verið hluti af reglum um tekjur og innlausn þannig að ákveðinn hópur viðskiptavina geti verið hluti af núverandi lögum, en samt verðlaunaður á annan hátt. Þetta kemur í veg fyrir þörfina á að búa til fleiri lög.
+- Sem hluti af vildarkerfi geta smásalar búið til mismunandi reglur um tekjur og innlausn með vildarlögum til að greina á milli umbunarfyrir viðskiptavini í mismunandi lögum. Söluaðilar geta einnig notað „tengingar“ sem hluta af reglum um tekjur og innlausn þannig að ákveðinn hópur viðskiptavina geti verið hluti af núverandi lögum, en samt verðlaunaður á annan hátt. Þetta kemur í veg fyrir þörfina á að búa til fleiri lög.
     
     > [!NOTE]
     > Tekjureglur innan vildarkerfis eru viðbótar. Til dæmis, ef þú býrð til reglu til að umbuna meðlimi í gulllagi 10 stig fyrir hvern Bandaríkjadal og þú stofnar einnig reglu fyrir viðskiptavin með „uppgjafahermannstengsl“til að umbuna 5 stig fyrir hvert Bandaríkjadal, þá er uppgjafahermaður sem er líka meðlimur í gulllagi myndi vinna sér inn 15 stig fyrir 1 Bandaríkjadal, þar sem viðskiptavinurinn uppfyllir skilyrði fyrir báðar línur. Hins vegar, ef viðskiptavinurinn sem er uppgjafahermaður var ekki meðlimur í gulllagi, þá myndi hann vinna sér inn 5 stig fyrir hvern dollar. Til að endurspegla breytingar á rásum skaltu keyra **Vinnslu vildarkerfis** og **1050** (upplýsingar um vildarkerfi) störf.
@@ -89,18 +89,20 @@ Commerce hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
 
     ![Útilokuð tengsl](./media/Excluded-affiliations.png "Útiloka tengsl frá því að vinna sér inn vildarpunkta")
     
-- Smásalar geta búið til vildarkortsnúmer í rásunum. Fyrir uppfærslu október 2018 gætu smásalar notað efnisleg vildarkort eða búið til vildarkort með því að nota einstakar upplýsingar um viðskiptavin eins og símanúmer. Til að virkja sjálfvirka framleiðslu á vildarkortum í verslunum skaltu kveikja á **Búa til vildarkortsnúmer** í virknireglunni sem tengist versluninni. Fyrir netrásir geta smásalar notað IssueLoyaltyCard API til að gefa út vildarkort til viðskiptavina. Smásalar geta annaðhvort veitt vildarkortsnúmer til þessa API, sem verður notaður til að búa til vildarkortið, eða kerfið mun nota vildarkortsnúmeraröðina sem er sett í Commerce. Hins vegar, ef númeraröðin er ekki til staðar, og smásalinn gefur ekki upp vildarkortsnúmer meðan þú hringir í API, þá birtist villa.
+- Sölustaður heimilar sveigjanleika fyrir söluaðila til að nota annaðhvort vildarpunkta eða búa til sérstakt vildarkortsnúmer sjálfkrafa. Til að virkja sjálfvirka framleiðslu á vildarkortum í verslunum skaltu kveikja á **Búa til vildarkortsnúmer** í virknireglunni sem tengist versluninni. Fyrir netrásir geta smásalar notað IssueLoyaltyCard API til að gefa út vildarkort til viðskiptavina. Smásalar geta annaðhvort veitt vildarkortsnúmer til þessa API, sem verður notaður til að búa til vildarkortið, eða kerfið mun nota vildarkortsnúmeraröðina sem er sett í Commerce. Hins vegar, ef númeraröðin er ekki til staðar, og smásalinn gefur ekki upp vildarkortsnúmer meðan þú hringir í API, þá birtist villa.
 
     ![Búa til vildarkort](./media/Generate-loyalty-card.png "Búðu til sjálfkrafa vildarkortanúmer")
 
-- Áunnir og innleystir vildarpunktar eru nú vistaðar fyrir hverja færslu og sölupöntun gegn sölulínunni þannig að sama upphæð geti verið endurgreitt eða tekið til baka þegar um er að ræða heil vöruskil eða vöruskil að hluta. Þar að auki, með því að hafa sýnileika á sölulínu er möguleiki fyrir notendur símavers að svara spurningum viðskiptavina um hversu mörg stig voru áunnin eða innleyst fyrir hverja línu. Áður en þessar breytingar voru gerðar voru vildarpunktar alltaf endurreiknar við vöruskil, sem leiddi til annars upphæð en upphaflega ef ávinnings- eða innlausnarreglur voru breytilegar og notendur símavers höfðu ekki sýnileika á sundurliðun vildarpunkta. Hægt er að skoða vildarpunktana undir **Kortafærslur** eyðublaðinu fyrir hvert vildarkort. Til að virkja þennan eiginleika skal kveikja á skilgreiningunni **Bóka vildarpunkta á hverja sölulínu** undir flipanum **Samnýttar færibreytur Commerce** \> **Almennt**.
+- Áunnir og innleystir vildarpunktar er nú hægt að vista fyrir hverja færslu og sölupöntun gegn sölulínunni þannig að sama upphæð geti verið endurgreitt eða tekið til baka þegar um er að ræða heil vöruskil eða vöruskil að hluta. Þar að auki, með því að hafa sýnileika á sölulínu er möguleiki fyrir notendur símavers að svara spurningum viðskiptavina um hversu mörg stig voru áunnin eða innleyst fyrir hverja línu. Áður en þessar breytingar voru gerðar voru vildarpunktar alltaf endurreiknar við vöruskil, sem leiddi til annars upphæð en upphaflega ef ávinnings- eða innlausnarreglur voru breytilegar og notendur símavers höfðu ekki sýnileika á sundurliðun vildarpunkta. Hægt er að skoða vildarpunktana undir **Kortafærslur** eyðublaðinu fyrir hvert vildarkort. Til að virkja þennan eiginleika skal kveikja á skilgreiningunni **Bóka vildarpunkta á hverja sölulínu** undir flipanum **Samnýttar færibreytur Commerce** \> **Almennt**.
 
     > [!NOTE]
     > Við mælum eindregið með því að kveikja á þessum eiginleika til að tryggja að hægt sé að endurgreiða réttan fjölda punkta eða taka frá viðskiptavininum ef skilað er.
 
-- Smásalar geta nú skilgreint ávinnslutímabilið fyrir hvern vildarpunkt. Ávinnslutímabilið mun skilgreina lengdina frá ávinningsdegi, en eftir það verður vildarpunktarnir tiltæk fyrir viðskiptavini. Punktar sem ekki eru áunnir má skoða í **Punktar sem ekki eru áunnir** dálki á **Vildarkort** síðu. Auk þess geta smásalar skilgreint hámark vildarpunkta á hverju vildarkorti. Þetta svæði er hægt að nota til að draga úr áhrifum svika í vildarkerfi. Þegar hámarksvildarpunktum hafa verið náð, getur notandinn ekki áunnið sér fleiri stig. Smásalinn getur ákveðið að útiloka slík kort þar til þeir hafa rannsakað um hugsanlega svik. Ef smásali ákveður svik, getur smásalinn ekki aðeins lokað vildarkortinu fyrir viðskiptavininn heldur einnig merkt viðskiptavininn sem útilokaðan. Til að gera það skaltu stilla **Útiloka viðskiptavin frá skráningu í vildarkerfi** eiginleikann á **Já** undir **Allir viðskiptavinir** á **Commerce** flýtiflipanum. Útilokaðir viðskiptavinir geta ekki fengið útgefin vildarkort í neinum rásum.
+- Smásalar geta nú skilgreint ávinnslutímabilið fyrir hvern vildarpunkt. Ávinnslutímabilið mun skilgreina lengdina frá ávinningsdegi, en eftir það verður vildarpunktarnir tiltæk fyrir viðskiptavini. Punktar sem ekki eru áunnir má skoða í **Punktar sem ekki eru áunnir** dálki á **Vildarkort** síðu. Þegar viðskiptavinirnir skila einhverjum vörum þar sem vildarpunktar voru fengnir mun kerfið sjálfkrafa draga óunna punkta frá fyrst og síðan draga alla stöðum frá tiltækum punktum. Hins vegar er hægt að stilla á að draga aðeins úr tiltækum punktum í stað þess að losa frá óunnum punktum.
 
-    ![Ávinnsla og hámark vildarpunkta](./media/Vesting-and-maximum-reward-points.png "Skilgreina ávinnslu og hámark vildarpunkta")
+Auk þess geta smásalar skilgreint hámark vildarpunkta á hverju vildarkorti. Þetta svæði er hægt að nota til að draga úr áhrifum svika í vildarkerfi. Þegar hámarksvildarpunktum hafa verið náð, getur notandinn ekki áunnið sér fleiri stig. Smásalinn getur ákveðið að útiloka slík kort þar til þeir hafa rannsakað um hugsanlega svik. Ef smásali ákveður svik, getur smásalinn lokað vildarkortinu fyrir viðskiptavininn og merkt viðskiptavininn sem útilokaðan. Til að gera það skaltu stilla **Útiloka viðskiptavin frá skráningu í vildarkerfi** eiginleikann á **Já** undir **Allir viðskiptavinir** á **Commerce** flýtiflipanum. Útilokaðir viðskiptavinir geta ekki fengið útgefin vildarkort í neinum rásum.
+
+   ![Ávinnsla og hámark vildarpunkta](./media/Vesting-and-maximum-reward-points.png "Skilgreina ávinnslu og hámark vildarpunkta")
 
 - Tengsl er til að veita sérstakt verð og afslætti, en það eru nokkur tengsl sem smásalar vilja ekki að viðskiptavinir þeirra sjái. Til dæmis gæti tengsl sem heitir „viðskiptavinur sem eyðir miklu“ ekki verið vel tekið af sumum viðskiptavinum. Þar að auki eru nokkur tengsl sem ekki ætti að stjórna í versluninni, til dæmis starfsmenn, vegna þess að þú vilt ekki að gjaldkerar ákveði hverjir séu starfsmenn og fá þannig starfsmannabundna afslætti. Smásalar geta nú valið tengsl sem ætti að vera falið í rásum. Tengsl merkt sem **Fela í rásum** er ekki hægt að skoða, bæta við eða fjarlægja á sölustað. Hins vegar verður verðlagning og afsláttur sem tengist tengslunum ennþá beitt á vörurnar.
 

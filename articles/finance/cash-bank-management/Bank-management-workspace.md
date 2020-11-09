@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188488"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097187"
 ---
 # <a name="bank-management-workspace"></a>Vinnusvæði bankakerfis
 
@@ -63,4 +63,4 @@ Síðan **Greiningar** hefur að geyma mikilvæga mælikvarða um bankareikninga
 -   Staða eftir bankareikningi
 -   Staða eftir gjaldmiðlum
 
-Hægt er að skoða bankagreiningu fyrir öll fyrirtæki á vinnusvæðinu **Yfirlit yfir reiðufé - öll fyrirtæki**.
+Hægt er að skoða bankagreiningu fyrir öll fyrirtæki á vinnusvæðinu **Yfirlit yfir reiðufé - öll fyrirtæki**. Frekari upplýsingar má finna á [Yfirlit yfir reiðufé Power BI efni](Cash-Overview-Power-BI-content.md).

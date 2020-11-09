@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172924"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997577"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Ræsiband með algengum spurningum um fyrirtæki
  
@@ -57,11 +56,11 @@ Eftir að hafa losnað lausnina og opnað hana í Visual Studio og endurheimta N
 Sýnishornakóðinn sýnir aðeins eina af mörgum leiðum sem þú gætir flokkað einingaskrár eftir fyrirtækjum. Með því að breyta rökfræðinni í hlutanum **TODO** getur þú búið til sérsniðna flokkun þína. 
  
 ## <a name="what-should-i-expect"></a>Við hverju á ég að búast?
-Sjálfgefið er að sýnishornaforritið gerir þér kleift að leggja fram orðabók yfir varpanir viðskiptaeininga til fyrirtækis. Sérhver eining sem þú ræsir með reitnum **OwningBusinessUnit** er sjálfkrafa stillt á að nota tilgreint fyrirtæki. Sérhver aðili án reitsins **OwningBusinessUnit**, svo sem vara, mun stilla fyrirtækið út frá vörpun með tómt gildi viðskiptaeiningar.
+Sjálfgefið er að sýnishornaforritið gerir þér kleift að leggja fram orðabók yfir varpanir viðskiptaeininga til fyrirtækis. Sérhver eining sem þú ræsir með reitnum **OwningBusinessUnit** er sjálfkrafa stillt á að nota tilgreint fyrirtæki. Sérhver aðili án reitsins **OwningBusinessUnit** , svo sem vara, mun stilla fyrirtækið út frá vörpun með tómt gildi viðskiptaeiningar.
 
 Stjórnborðsforritið býst við einni færibreytu, annaðhvort **–simulate** eða **–apply**. Ef þú notar skipanalínufæribreytuna **–simulate** verða engin gögn uppfærð. Aðeins **simulation_<entityname>.csv** skrár eru búnar til í sama skráasafni og tólið, ein fyrir hverja einingu sem hefði verið uppfærð. Þú getur endurskoðað þessar skrár endurtekið meðan þú vinnur að því að tryggja að kóðinn uppfæri gildi fyrirtækisins eins og búist var við. 
 
-Þegar þú hefur lokið við herma uppfærslurnar skaltu nota færibreytuna **–apply**. Þetta uppfærir allar skrár sem nú eru með rangt fyrirtækisgildi, í lotum með 1000 skrám í einu (sjálfgefið). Kóðinn er einkvæmur eins og kveðið er á um, sem þýðir að þú getur keyrt hann aftur og aðeins rangt úthlutuð fyrirtæki verða uppfærð. Þegar þú keyrir með **–apply**, kóðinn gefur út CSV-skrár af þeim breytingum sem gerðar hafa verið, sem eru nefndar **applied_<entityname>.csv**. 
+Þegar þú hefur lokið við herma uppfærslurnar skaltu nota færibreytuna **–apply**. Þetta uppfærir allar skrár sem nú eru með rangt fyrirtækisgildi, í lotum með 1000 skrám í einu (sjálfgefið). Kóðinn er einkvæmur eins og kveðið er á um, sem þýðir að þú getur keyrt hann aftur og aðeins rangt úthlutuð fyrirtæki verða uppfærð. Þegar þú keyrir með **–apply** , kóðinn gefur út CSV-skrár af þeim breytingum sem gerðar hafa verið, sem eru nefndar **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

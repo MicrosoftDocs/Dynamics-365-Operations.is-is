@@ -1,5 +1,5 @@
 ---
-title: Kynning á eiginleikum í Dynamics 365 Supply Chain Management 10.0.14 (október 2020)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.14 (október 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763574"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038110"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Eiginleikar í forútgáfu Dynamics 365 Supply Chain Management 10.0.14 (nóvember 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.14. (nóvember 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfu 10.0.14. Þessi útgáfa er með byggingarnúmer 10.0.605 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.14. Þessi útgáfa er með byggingarnúmer 10.0.605 og er fáanlegt á eftirfarandi hátt:
 
 - **Fréttatilkynning:** september 2020
 - **Almennt framboð (sjálfsuppfærsla):** Október 2020

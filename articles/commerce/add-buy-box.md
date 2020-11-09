@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022030"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -69,11 +68,11 @@ Magnval er veitt svo að viðskiptavinir geti tilgreint magn varanna sem á að 
 
 ## <a name="buy-box-module-settings"></a>Stillingar kaupkassaeiningar
 
-Hægt er að skilgreina eftirfarandi stillingar fyrir kaupgluggaeiningar á **Stillingar svæðis \> viðbætur**:
+Hægt er að skilgreina eftirfarandi stillingar fyrir kaupgluggaeiningar á **Stillingar svæðis \> viðbætur** :
 
 - **Hámarksmagn körfulínu** - Þessi eiginleiki er notaður til að sýna hámarksfjölda hverrar vöru sem hægt er að bæta við körfuna. Til dæmis gæti smásali ákveðið að aðeins megi selja 10 stykki af hverri afurð í sömu færslunni.
 - **Birgðir** - Frekari upplýsingar um hvernig á að nota birgðastillingar er að finna í [Nota birgðastillingar](inventory-settings.md).
-- **Bæta í körfu** - Þessi eiginleiki er notaður til að sýna hegðun eftir að vöru hefur verið bætt í körfuna. Mögulegu gildin eru **Fara í körfu**, **Ekki fara í körfu** og **Sýna tilkynningar**. Þegar gildið er stillt á **Fara í körfu** er notendum vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Ekki fara í körfu** er notendum ekki vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Sýna tilkynningar** fá notendur staðfestingu og geta haldið áfram að vafra á upplýsingasíðu afurðar. 
+- **Bæta í körfu** - Þessi eiginleiki er notaður til að sýna hegðun eftir að vöru hefur verið bætt í körfuna. Mögulegu gildin eru **Fara í körfu** , **Ekki fara í körfu** og **Sýna tilkynningar**. Þegar gildið er stillt á **Fara í körfu** er notendum vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Ekki fara í körfu** er notendum ekki vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Sýna tilkynningar** fá notendur staðfestingu og geta haldið áfram að vafra á upplýsingasíðu afurðar. 
 
 > [!IMPORTANT]
 > Síðustillingin **Bæta við körfu** eru í boði í Dynamics 365 Commerce útgáfu 10.0.11. Ef verið er að uppfæra úr eldri útgáfu af Dynamics 365 Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar um uppfærslu appsettings.json skrárinnar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
@@ -93,24 +92,24 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
 1. Í svarglugganum **Nýtt brot** skal velja eininguna **Kaupkassi**.
 1. Undir **Heiti brots** skal slá inn heitið **Kaupkassabrot** og síðan velja **Í lagi**.
-1. Í hólfinu **Efnissafn** í kaupgluggaeiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Efnissafn** í kaupgluggaeiningunni skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Efnissafn** og síðan velja **Í lagi**.
-1. Í hólfinu **Verslunarval** í kaupgluggaeiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Verslunarval** í kaupgluggaeiningunni skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Verslunarval** og síðan velja **Í lagi**.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
+1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
-1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn **PDP-sniðmát** og velja síðan **Í lagi**.
-1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Nýtt sniðmát** , undir **Heiti sniðmáts** , skal slá inn **PDP-sniðmát** og velja síðan **Í lagi**.
+1. Í hólfinu **Meginmál** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** á Sjálfgefin síða skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við broti**.
+1. Í hólfinu **Aðalsvæði** á Sjálfgefin síða skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við broti**.
 1. Í svarglugganum **Velja brot** skal velja síðubrotið **Kaupkassabrot** sem var búið til áður og síðan velja **Í lagi**.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
 1. Í svarglugganum **Velja sniðmát** skal velja sniðmátið **PDP-sniðmát**. Undir **Síðuheiti** skal færa inn **PDP-síðu** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við broti**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við broti**.
 1. Í svarglugganum **Velja brot** skal velja síðubrotið **Kaupkassabrot** sem var búið til áður og síðan velja **Í lagi**.
 1. Vistaðu og forskoðaðu síðuna. Bættu færibreytustreng fyrirspurnar **?productid=&lt;product id&gt;** við slóðina á forskoðunarsíðunni. Þannig er vörusamhengið notað til að hlaða og birta forskoðunarsíðuna.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana. Kaupkassi ætti að birtast á upplýsingasíðu afurða.
+1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana. Kaupkassi ætti að birtast á upplýsingasíðu afurða.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 2884c480d20090266f7cffb5e7d0aca58c1174f0
-ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
+ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017027"
 ---
 # <a name="system-directed-work-sequencing"></a>Kerfisstýrð vinnuröðun
 
@@ -46,7 +47,7 @@ Kerfisstýrð vinnuröðun gerir þér kleift að flokka og sía verkbeiðnir se
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Til að vinna í gegnum aðstæðurnar með því að nota gildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu sýnigögnin eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
+Til að vinna í gegnum aðstæðurnar með því að nota gildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu sýnigögnin eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
 
 > [!IMPORTANT]
 > Áður en þú losar pantanir til vöruhússins skaltu ganga úr skugga um að tiltektarstaðsetningar hafi nægar birgðir fyrir öll atriðin á pöntunum.
@@ -129,7 +130,7 @@ Til að vinna í gegnum aðstæðurnar með því að nota gildin sem eru kynnt 
     - **Skilyrði:** *!STIG*
 
         > [!IMPORTANT]
-        > Gættu þess að setja upphrópunarmerki (*!*) fyrir framan *STIG*..
+        > Gættu þess að setja upphrópunarmerki ( *!* ) fyrir framan *STIG*..
 
 1. Veldu **Í lagi** til að vista og loka fyrirspurninni.
 1. Veljið **Vista**.
@@ -168,7 +169,7 @@ Hægt er að taka frá birgðir sjálfkrafa fyrir hverja sölupöntun fyrir sig.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt** til að búa til sölupöntun 1.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - Í hlutanum **Viðskiptavinur** skaltu stilla svæðið **Viðskiptavinalykill** á *US-004*.
     - Í hlutanum **Almennt** stillir þú reitinn **Vöruhús** á *51*.
@@ -182,14 +183,14 @@ Hægt er að taka frá birgðir sjálfkrafa fyrir hverja sölupöntun fyrir sig.
 1. Á valmyndinni **Birgðir** fyrir ofan hnitanetið smellir þú á **Frátekning**.
 1. Í síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá birgðirnar.
 1. Lokaðu síðunni **Frátekning**.
-1. Á aðgerðasvæðinu, á flipanum **Vöruhús**, skal velja **Losa í vöruhús** til að búa til vinnu fyrir vöruhúsið.
+1. Á aðgerðasvæðinu, á flipanum **Vöruhús** , skal velja **Losa í vöruhús** til að búa til vinnu fyrir vöruhúsið.
 
     Þú færð upplýsingaboð sem sýna bylgjuauðkennið og sendingarauðkennin sem voru búin til fyrir sölupöntunina.
 
 #### <a name="sales-order-2"></a>Sölupöntun 2
 
 1. Í aðgerðarúðunni velurðu **Nýtt** til að búa til sölupöntun 2.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-007*
     - **Vöruhús:** *51*
@@ -211,7 +212,7 @@ Hægt er að taka frá birgðir sjálfkrafa fyrir hverja sölupöntun fyrir sig.
 #### <a name="sales-order-3"></a>Sölupöntun 3
 
 1. Í aðgerðarúðunni velurðu **Nýtt** til að búa til sölupöntun 3.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-009*
     - **Vöruhús:** *51*
@@ -233,7 +234,7 @@ Hægt er að taka frá birgðir sjálfkrafa fyrir hverja sölupöntun fyrir sig.
 #### <a name="sales-order-4"></a>Sölupöntun 4
 
 1. Í aðgerðarúðunni velurðu **Nýtt** til að búa til sölupöntun 4.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-010*
     - **Vöruhús:** *51*
@@ -299,7 +300,7 @@ Hafðu í huga að þessi uppsetning fangar alla vinnu sem hafa að minnsta kost
 
 ## <a name="tips"></a>Ábendingar
 
-Fyrirspurnir um kerfisstýrða vinnuröð eru *sameiginlegar*. Mikilvægt er að þú hafir slíkt í huga við tilteknar uppsetningar. Til dæmis viltu að tiltekinn valmyndaratriði vinni aðeins úr vinnu þar sem vinnueiningin er *ea*, og þú tilgreinir þá takmörkun á flipanum **Svið** á fyrirspurninni. Í þessu tilfelli verður starfsmaðurinn mataður á allri vinnu þar sem að minnsta kosti ein vinnulína hefur vinnueininguna stillta á *ea*. Þess vegna gæti þessi vinna einnig falið í sér vinnu þar sem vinnulínur eru með aðrar vinnueiningar en *ea* (eins og *kassa* eða *vörubretti*). Fyrirspurnin útilokar eingöngu vinnu þar sem engin vinnulína hefur vinnueininguna stillt á *ea*.
+Fyrirspurnir um kerfisstýrða vinnuröð eru *sameiginlegar*. Mikilvægt er að þú hafir slíkt í huga við tilteknar uppsetningar. Til dæmis viltu að tiltekinn valmyndaratriði vinni aðeins úr vinnu þar sem vinnueiningin er *ea* , og þú tilgreinir þá takmörkun á flipanum **Svið** á fyrirspurninni. Í þessu tilfelli verður starfsmaðurinn mataður á allri vinnu þar sem að minnsta kosti ein vinnulína hefur vinnueininguna stillta á *ea*. Þess vegna gæti þessi vinna einnig falið í sér vinnu þar sem vinnulínur eru með aðrar vinnueiningar en *ea* (eins og *kassa* eða *vörubretti* ). Fyrirspurnin útilokar eingöngu vinnu þar sem engin vinnulína hefur vinnueininguna stillt á *ea*.
 
 Þess vegna, í dæminu við þessar aðstæður, var vinnuauðkenni *4* einnig fangað af fyrirspurninni. Þegar það var búið var tveimur línum bætt við: ein fyrir 25 ea og önnur fyrir 10 ea. Vinnan birtist notandanum samt sem áður, því að minnsta kosti ein vinnulína hefur minna magn en 20 ea.
 

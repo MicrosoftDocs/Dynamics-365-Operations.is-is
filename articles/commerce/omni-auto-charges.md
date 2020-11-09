@@ -19,22 +19,22 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505612"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107376"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleikum ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
+Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleika ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
 
-Þegar eiginleikinn fyrir ítarlega sjálfvirk gjöld er virkjaður geta pantanir, sem eru stofnaðar í hvaða studdu Commerce-rás sem er (sölustaður (POS), símaver og á netinu), nýtt sér stillingarnar [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sem eru skilgreind í ERP-forritinu fyrir gjöld sem tengjast bæði haus og línustigi.
+Þegar eiginleikinn fyrir ítarlega sjálfvirk gjöld er virkjaður geta pantanir, sem eru stofnaðar í hvaða studdu Commerce rás sem er (sölustaður (POS), símaver og á netinu), nýtt sér stillingarnar [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sem eru skilgreind í ERP-forritinu fyrir gjöld sem tengjast bæði haus og línustigi.
 
-Í útgáfum á undan Retail útgáfu 10.0, eru [stillingar fyrir sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) eingöngu aðgengileg með pöntunum sem eru stofnaðar í rás rafrænna viðskipta og eða símavers. Í útgáfum 10.0 og síðar geta pantanir stofnaðar á sölustaðar nýtt sér stillingar sjálfvirkra gjalda. Þannig er hægt að bæta ýmsum gjöldum við sölufærslur með kerfisbundnum hætti.
+Í útgáfum á undan Retail útgáfu 10.0, eru stillingar fyrir [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) eingöngu aðgengileg með pöntunum sem eru stofnaðar í rás rafrænna viðskipta og eða símavers. Í útgáfum 10.0 og síðar geta pantanir stofnaðar á sölustaðar nýtt sér stillingar sjálfvirkra gjalda. Þannig er hægt að bæta ýmsum gjöldum við sölufærslur með kerfisbundnum hætti.
 
 Þegar notaðar eru útgáfur eldri en útgáfa 10.0 er POS-notandi beðinn um að færa inn sendingargjald handvirkt við stofnun á POS-færslunni „senda allt“ eða „senda valið“. Þótt möguleikinn á ýmsum gjöldum í forritinu er nýttur hvað varðar hvernig gjöldin eru skrifuð á pöntunina, er ekki boðið upp á neinn kerfisbundinn útreikning -- útreikningurinn reiðir sig á innslátt notanda til að ákvarða gildi gjaldanna. Eingöngu er hægt að bæta gjöldunum við sem einni „sendingu“ sem tengist gjaldakóða og ekki er hægt að lagfæra eða breyta honum svo auðveldlega í sölustað eftir að gjöldin eru stofnuð.
 
@@ -42,7 +42,7 @@ Notkun á handvirkri kvaðningu til að bæta sendingargjöldum við er enn í b
 
 Með eiginleika ítarlegra sjálfvirkra gjalda geta POS-notendur haft kerfisbundinn útreikning fyrir öll skilgreind gjöld sem byggjast á töflum fyrir uppsetningu á sjálfvirkum gjöldum. Að auki geta notendur bætt við eða breytt ótakmörkuðum fjölda viðbótargjalda og þóknana fyrir allar sölufærslur sölustaðar í haus eða línustigi (fyrir staðgreiðslu við afhendingu eða pöntun viðskiptavinar).
 
-## <a name="enabling-advanced-auto-charges"></a>Virkjun ítarlegra sjálfvirkra gjalda
+## <a name="enabling-advanced-auto-charges"></a>Virkja ítarleg sjálfvirk gjöld
 
 Á síðunni **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Færibreytur Commerce** skal fara í flipann **Pantanir viðskiptavinar**. Í flýtiflipanum **Gjöld** skal stilla **Nota ítarleg sjálfvirk gjöld** á **Já**.
 
@@ -50,7 +50,7 @@ Með eiginleika ítarlegra sjálfvirkra gjalda geta POS-notendur haft kerfisbund
 
 Þegar ítarleg sjálfvirk gjöld eru virkjuð verða notendur ekki lengur beðnir um að slá inn sendingargjald handvirkt á afgreiðslukassa þegar þeir stofna viðskiptavinapöntunina „senda allt“ eða „senda valið“. Gjaldfærslur vegna pantana sölustaðar eru reiknaðar kerfisbundið og þeim bætt við POS-færslu (ef samsvarandi tafla sjálfvirkra gjalda passar við skilyrði pöntunarinnar sem er stofnuð eða finnst). Notendur geta einnig bætt við eða viðhaldið gjöldum hauss eða línustigs handvirkt í gegnum nýlega viðbættum POS-aðgerðum sem hægt er að bæta við skjáútlit sölustaðar.
 
-Þegar ítarleg sjálfvirk gjöld eru virkjuð eru núverandi **Færibreytur Commerce** fyrir **Sendingargjaldakóða** og **Endurgreiða sendingargjöld** ekki lengur notaðar. Þessar færibreytur eiga aðeins við ef færibreytan **Nota ítarleg sjálfvirk gjöld** er stillt á **Nei**.
+Þegar ítarleg sjálfvirk gjöld eru virkjuð eru núverandi **Commerce færibreytur** fyrir **Sendingargjaldakóða** og **Endurgreiða sendingargjöld** ekki lengur notaðar. Þessar færibreytur eiga aðeins við ef færibreytan **Nota ítarleg sjálfvirk gjöld** er stillt á **Nei**.
 
 Áður en þessi aðgerð er virkjuð skal tryggja að starfsmaður hafi verið prófaður og fengið þjálfun, því að virkjaði eiginleikinn mun breyta flæði viðskiptaferlisins um hvernig sending eða önnur gjöld eru reiknuð út og bætt við sölupantanir sölustaðar. Gakktu úr skugga um að þú hafir skilið áhrif flæðiferlisins á stofnun færslna fyrir sölustað. Fyrir pantanir í símaveri og rafrænum viðskiptum eru áhrifin vegna virkjunar á ítarlegum sjálfvirkum gjöldum í lágmarki. Forrit símavers og rafrænna viðskipta verður áfram með sömu hegðunina og áður sem tengjast töflum sjálfvirkra gjalda til að reikna út viðbótarþóknanir pöntunar. Notendur símaversrásar munu áfram geta breytt handvirkt öllum sjálfvirkum gjöldum sem kerfið reiknar í haus og línustigi, eða bætta handvirkt við viðbótargjöldum í haus eða línustigi.
 
@@ -71,7 +71,7 @@ Mikilvægt er að hafa í huga að einnig sé hægt að bæta við ofangreindum 
 
 ## <a name="use-case-examples"></a>Dæmi um notkunartilfelli
 
-Í þessum hluta eru sýnd dæmi um notkunartilfelli til að auðvelda þér að skilja stillinguna og notkun á sjálfvirkum gjöldum og ýmsum gjöldum í samhengi við pantanir Commerce-rásar. Þessi dæmi sýna hegðun forritsins þegar færibreytan **Nota ítarleg sjálfvirk gjöld** hefur verið virkjuð.
+Í þessum hluta eru sýnd dæmi um notkunartilfelli til að auðvelda þér að skilja stillinguna og notkun á sjálfvirkum gjöldum og ýmsum gjöldum í samhengi við pantanir rásar. Þessi dæmi sýna hegðun forritsins þegar færibreytan **Nota ítarleg sjálfvirk gjöld** hefur verið virkjuð.
 
 ### <a name="auto-charges-header-charges-example"></a>Dæmi um hausgjöld sjálfvirkra gjalda
 
@@ -179,7 +179,7 @@ Sama ferli er hægt að beita í símaverinu með því að nota eiginleikann �
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>Breytingargjöld á sölufærslu sölustaðar
 
-Bæta ætti aðgerðinni (142) **Stjórna gjöldum** við [Skjáútlit sölustaðar](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) svo að notandi geti skoðað og breytt eða hnekkt kerfisreiknuðum eða handstofnuðum gjöldum á haus- eða línustigi. Ef aðgerðinni er ekki bætt við, munu notendur ekki geta leiðrétt gildi fyrir gjöld í POS-færslunni og munu þeir ekki geta skoðað upplýsingar um gjöldin, svo sem gerð gjaldakóða sem bundin er við gjaldið.
+Bæta ætti **Stjórna gjöldum** aðgerðinni (142) við [Skjáútlit sölustaðar](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) svo að notandi geti skoðað og breytt eða hnekkt kerfisreiknuðum eða handstofnuðum gjöldum á haus- eða línustigi. Ef aðgerðinni er ekki bætt við, munu notendur ekki geta leiðrétt gildi fyrir gjöld í POS-færslunni og munu þeir ekki geta skoðað upplýsingar um gjöldin, svo sem gerð gjaldakóða sem bundin er við gjaldið.
 
 Á síðunni **Stjórna gjöldum** í POS getur notandinn skoðað bæði upplýsingar um gjöld á haus- og línustigi. Notandinn getur notað virknina **Breyta** sem er í boði á þessari síðu til að gera breytingar á upphæðinni sem er innheimt á tiltekinni gjaldalínu. Þegar skrifað er handvirkt yfir gjaldalínu verður hún ekki kerfisbundið endurreiknuð nema notandinn hefji aðgerðina **Endurreikna gjöld**.
 

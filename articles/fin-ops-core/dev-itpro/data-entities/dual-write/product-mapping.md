@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835855"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000765"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Þegar vistkerfi fyrirtækja samanstendur af Dynamics 365 forritum, svo sem Finance, Supply Chain Management og Sales, nota fyrirtæki þessi forrit oft til að fá upplýsingar um vöru. Þetta er vegna þess að þessi forrit bjóða upp á öfluga vöruinnviði ásamt háþróuðum verðlagningarhugtökum og nákvæmum birgðagögnum fyrir lagermagn. Fyrirtæki sem nota utanaðkomandi vörukerfisstjórnunarkerfi (PLM) til að afla vörugagna geta sett vörur úr forritum Finance and Operations í rásir í öðrum forritum Dynamics 365. Sameinuð vöruupplifunin færir samþætt vörugagnalíkan inn í Common Data Service, þannig að allir notendur forritsins þ.m.t. notendur Power Platform geta nýtt sér þau ríku vörugögn sem koma úr forritum Finance and Operations.
 
@@ -85,7 +82,7 @@ Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt e
 
 Þar sem varan er táknuð sem SKU er hægt að fanga hugtökin aðgreindar vörur, vörumeistarar og afbrigði afurða í Common Data Service á eftirfarandi hátt:
 
-- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein skrá búin til í einingunni **Afurð**, og ein skrá er búin til í einingunni **msdyn\_sharedproductdetails**. Engin skrá afurðafjölskyldu er búin til.
+- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein skrá búin til í einingunni **Afurð** , og ein skrá er búin til í einingunni **msdyn\_sharedproductdetails**. Engin skrá afurðafjölskyldu er búin til.
 - **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein skrá á hvert afbrigði búin til í afurðatöflunni. Þessi skrá inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í einingunni **msdyn\_sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Common Data Service um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
 - **Einkvæmar afurðir** vísa til allra undirgerðaafurða afurðanna og allra afurðaafbrigðanna. 
 
@@ -93,7 +90,7 @@ Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt e
 
 Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrstu verðskrána með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögaðila þíns þar sem varan er gefin út í forriti Finance and Operations. 
 
-Sjálfgefið er að vörur úr forritum Finance and Operations eru samstilltar við önnur Dynamics 365 forrit með stöðuna **Drög**. Til að samstilla vöruna við stöðuna **Virkt**, svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**. 
+Sjálfgefið er að vörur úr forritum Finance and Operations eru samstilltar við önnur Dynamics 365 forrit með stöðuna **Drög**. Til að samstilla vöruna við stöðuna **Virkt** , svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**. 
 
 Athugaðu að samstilling vara fer fram úr forritum Finance and Operations í Common Data Service. Þetta þýðir að hægt er að breyta reitum afurðaeiningar í Common Data Service, en þegar samstillingu er hrundið af stað (þegar afurðareit er breytt í forriti Finance and Operations) mun þetta skrifa yfir gildin í Common Data Service. 
 
@@ -109,7 +106,7 @@ Athugaðu að samstilling vara fer fram úr forritum Finance and Operations í C
 
 Afurðavíddir eru einkenni sem auðkenna afurðarafbrigði. Fjórar vöruvíddir (Litur, Stærð, Stíll og Stilling) er einnig varpað á Common Data Service til að skilgreina afbrigði afurða. Eftirfarandi mynd sýnir gagnalíkanið fyrir afurðavíddina Litur. Sama líkani er beitt á stærðir, stíl og stillingar. 
 
-![Gagnamódel fyrir afurðir](media/dual-write-product-two.png)
+![Gangalíkan fyrir afurðavíddir](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurð
 
 Mælieiningarnar og umreikningur á þeim eru aðgengilegar í Common Data Service eftir gagnalíkaninu sem sýnt er á myndinni.
 
-![Gagnamódel fyrir afurðir](media/dual-write-product-three.png)
+![Gagnalíkan fyrir mælieiningu](media/dual-write-product-three.png)
 
 Mælieiningin er samþætt á milli forrita Finance and Operations og annarra forrita Dynamics 365. Fyrir hvern einingaflokk í forriti Finance and Operations er einingahópur búinn til í forriti Dynamics 365, sem hefur að geyma einingar sem tilheyra einingaflokknum. Sjálfgefin grunneining er einnig búin til fyrir hvern einingahóp. 
 
@@ -203,7 +200,7 @@ Afurðareglurnar eru reglur sem notaðar eru til að skilgreina afurðir og eigi
 
 Til að auðkenna vörur á milli Dynamics 365 for Finance and Operations og vörur í Common Data Service eru samstillingarlyklarnir notaðir. Fyrir afurðir er **(productnumber)** einkvæmur lykill sem auðkennir afurð í Common Data Service. Hann er samsettur með samtengingu á: **(company, msdyn_productnumber)**. **Fyrirtækið** gefur til kynna lögaðila í Finance and Operations og **msdyn_productnumber** sýnir vörunúmer fyrir tiltekna vöru í Finance and Operations. 
 
-Fyrir notendur Dynamics 365 forrits er afurðin auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
+Fyrir notendur Dynamics 365 forrits er afurðin auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer** ). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
 
 Ef þú byggir forrit á Common Data Service, ættir þú að passa að nota **productnumber** (einkvæmt afurðakenni) sem samþættingarlykill. Ekki nota **msdyn_productnumber** þar sem það er ekki einkvæmt. 
 

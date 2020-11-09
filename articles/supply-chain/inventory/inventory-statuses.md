@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
+ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96ed6d01e22ee2cbc5b3b2be8168fbb43904c89
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 07426eee2a79f21d7e91a82a1832cfdb35fd8683
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017346"
 ---
 # <a name="inventory-statuses"></a>Birgðastöður
 
@@ -42,7 +42,7 @@ Hér eru nokkur dæmi um sem hægt er að nota birgðastöður:
 
 Birgðastaða er ein af víddum í geymsluvíddaflokki. Hægt er að flokkað birgðastöðu sem tiltækt eða ekki tiltækt og hægt er að nota **birgðalæsingu** færibreytu til að læsa vörum sem hafa stöðuna ekki tiltækt í birgðum. Vörur með lokaða stöðu eru taldar raunbirgðir og ekki er hægt að nota þær í framleiðslupöntun, sölupöntun, millifærslupöntun eða útleiðarfærslu.
 
-Hægt er að nota vörur í vöruhúsi með birgðastöðu tiltækt eða ekki tiltækt fyrir vinnu á innleið. Til dæmis stofnaður tiltæka stöðu sem heitir **tilbúinn**, ótiltæka stöðu sem heitir **skemmt** og lokaða stöðu sem heitir **lokað**. Þegar innkaupapöntun er stofnuð fyrir móttekið eða skilavörur, ef einhverjar vörur eru skemmt eða brotið, hægt að breyta birgðastöðu þær vörur **"Skemmt"** í innkaupapöntunarlínunni. Eftir að þessar vörur eru mótteknar staðan er sjálfkrafa stillt á **Læst**. Ef að þú skannar þessar skemmdu vörur með fartæki, getur Supply Chain Management nota staðsetningarleiðbeiningar og vinnusniðmát til að birta upplýsingar um viðeigandi staðsetning eða svið staðsetningar fyrir frágang þessara vara. Fyrir skilavörur er stofnuð **frátekning** fyrir úthreyfingar í skjámyndinni **Birgðafærslur**.
+Hægt er að nota vörur í vöruhúsi með birgðastöðu tiltækt eða ekki tiltækt fyrir vinnu á innleið. Til dæmis stofnaður tiltæka stöðu sem heitir **tilbúinn** , ótiltæka stöðu sem heitir **skemmt** og lokaða stöðu sem heitir **lokað**. Þegar innkaupapöntun er stofnuð fyrir móttekið eða skilavörur, ef einhverjar vörur eru skemmt eða brotið, hægt að breyta birgðastöðu þær vörur **"Skemmt"** í innkaupapöntunarlínunni. Eftir að þessar vörur eru mótteknar staðan er sjálfkrafa stillt á **Læst**. Ef að þú skannar þessar skemmdu vörur með fartæki, getur Supply Chain Management nota staðsetningarleiðbeiningar og vinnusniðmát til að birta upplýsingar um viðeigandi staðsetning eða svið staðsetningar fyrir frágang þessara vara. Fyrir skilavörur er stofnuð **frátekning** fyrir úthreyfingar í skjámyndinni **Birgðafærslur**.
 
 Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef þú ert með vörur með stöðuna **slitin** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
 

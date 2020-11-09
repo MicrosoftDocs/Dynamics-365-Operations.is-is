@@ -3,7 +3,7 @@ title: Greiðslueining
 description: Þetta efnisatriði fjallar um greiðslueininguna og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818327"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055382"
 ---
 # <a name="payment-module"></a>Greiðslueining
 
@@ -41,6 +41,9 @@ Greiðslueiningin leyfir einnig innskráðum viðskiptavinum að vista greiðslu
 Greiðslueiningin nær yfir öll pöntunargjöld sem vildarpunktar eða gjafakort ná ekki þegar yfir. Ef samtala fyrir pöntun er að fullu dekkuð af vildarpunktum eða inneign gjafakorts, verður greiðslueiningin falin, og viðskiptavinurinn mun geta lagt inn pöntunina án hennar.
 
 Adyen-greiðslutengillinn styður einnig öfluga sannvottun viðskiptavinar (SCA). Hluti af greiðsluþjónustutilskipun 2.0 (PSD2.0) Evrópusambandsins krefst þess að kaupendur á netinu verði auðkenndir utan umhverfis netverslunarinnar þegar þeir nota rafrænan greiðslumáta. Meðan á greiðsluferlinu stendur, er viðskiptavinum vísað á bankaþjónustusvæðið þeirra. Eftir sannvottun er þeim beint aftur í greiðsluferli Commerce. Á meðan á þessari framsendingu stendur verða upplýsingar sem viðskiptavinur færði inn í greiðsluferlið (til dæmis sendingaraðsetur, afhendingarvalkostir, upplýsingar um gjafakort og vildarupplýsingar) haldið við. Áður en hægt er að kveikja á þessum eiginleika verður að skilgreina greiðslutengilinn fyrir öfluga sannvottun viðskiptavinar í Commerce Headquarters. Frekari upplýsingar er að finna í [Öflug sannvottun viðskiptavinar með Adyen](adyen_redirect.md).
+
+> [!NOTE]
+> Fyrir Adyen-greiðslutengil er aðeins hægt að nota iframe-einingu í greiðslueiningunni ef bætt er við Adyen URL á heimildalista síðunnar. Til að ljúka þessu skrefi skal bæta við **\*.adyen.com** á **child-src** , **connect-src** , **img-src** , **script-src** og **style-src** við öryggisreglur svæðisins þíns. Frekari upplýsingar er að finna í [Stjórna öryggisreglu fyrir efni](manage-csp.md). 
 
 Eftirfarandi skýringarmynd sýnir dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu.
 

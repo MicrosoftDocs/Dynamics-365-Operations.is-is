@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Stofna innkaupasamning
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Sjálfvirkt úthlutun gjalda
+                  href: procurement/automatic-charges-allocation.md
                 - name: Eftirágreiddur afsláttur lánardrottins
                   href: procurement/vendor-rebates.md
                 - name: 'Villuleita verð, afslætti, samninga og eftirágreiddan afslátt'
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: Framleiðslupantanir tilkynntar sem loknar
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Setja upp og nota viðmót fyrir framkvæmd á framleiðslugólfi
+                      items:
+                        - name: Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
+                          href: production-control/production-floor-execution-use.md
                     - name: Skilgreina verkspjald fyrir tæki
                       href: production-control/config-job-card-device.md
                     - name: Bóka sem tilbúið af verkspjaldi fyrir tæki
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Senda sölupantanir án vöruhúsa
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Sjálfvirkt úthlutun gjalda
+                  href: procurement/automatic-charges-allocation.md
                 - name: Stofna innkaupapöntun úr sölupöntun
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Stofna sölupöntun
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Stofna flutningspantanir úr vöruhúsaforriti
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Vinnsla viðburða í vöruhúsaforriti
-                      href: warehousing/warehouse-app-events.md
                     - name: Staðfesting einingatiltektar
                       href: warehousing/piece-picking-confirmation.md
                     - name: Umbúðaefni og gjöld
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Uppsetning fartækja fyrir vöruhúsavinnu
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Vinnsla viðburða í vöruhúsaforriti
+                      href: warehousing/warehouse-app-events.md
                     - name: Móttaka númeraplötu með vöruhúsaforriti
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun

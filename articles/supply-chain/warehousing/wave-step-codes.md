@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017806"
 ---
 # <a name="wave-step-codes"></a>Kóðar bylgjuskrefs
 
@@ -59,7 +59,7 @@ Meðan á virkjuninni stendur er staðfesting gerð við uppfærslu gagna. Ef up
 
 Eftir að þú hefur leyst alla árekstra sem eru greindir við staðfestingarnar geturðu reynt aftur að virkja eiginleikann.
 
-Þegar eiginleikinn hefur verið virkjaður verður síðan **Bylgjuskrefakóðar** (**Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar**) í boði. Þessi síða sýnir bylgjuskrefakóða sem voru uppfærðir þegar eiginleikinn Kóði bylgjuskrefa í öllu fyrirtækinu var virkjaður.
+Þegar eiginleikinn hefur verið virkjaður verður síðan **Bylgjuskrefakóðar** ( **Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar** ) í boði. Þessi síða sýnir bylgjuskrefakóða sem voru uppfærðir þegar eiginleikinn Kóði bylgjuskrefa í öllu fyrirtækinu var virkjaður.
 
 ### <a name="create-new-wave-step-codes"></a>Stofna nýja bylgjuskrefakóða
 
@@ -85,7 +85,7 @@ Sniðmátin á þessum lista eru notuð þegar þeim er vísað frá bylgjuferli
 
 Eftirfarandi aðferð hjálpar til við að tryggja að endurnýjunarsniðmátið sem þú bjóst til verður beitt fyrir bylgjusniðmát.
 
-1. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar**, og stofnaðu bylgjuskrefakóða fyrir gerðina **Endurnýjun**.
+1. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar** , og stofnaðu bylgjuskrefakóða fyrir gerðina **Endurnýjun**.
 2. Farðu í **Vöruhúsakerfi \> Uppsetning \> Áfylling \> Áfyllingarsniðmát** og stofnaðu áfyllingarsniðmát.
 3. Veldu áfyllingar sniðmátið, veldu bylgjuskrefakóðann sem þú bjóst til fyrir gerðina **Áfylling**.
 4. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjusniðmát** og veldu bylgjusniðmátið sem þú ætlar að nota.

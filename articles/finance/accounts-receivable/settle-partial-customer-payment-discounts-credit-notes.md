@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015008"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum
 
@@ -51,13 +51,11 @@ Viðskiptavinur 4035 er með reikning fyrir 1.000,00 og kreditnótu fyrir 100,00
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-|                              |           |
-|------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
-| Upphæð staðgreiðsluafsláttar         | 1.00     |
-| Nota staðgreiðsluafslátt            | Venjulegt    |
-| Notaður staðgreiðsluafsláttur          | 0,00      |
-| Upphæð staðgreiðsluafsláttar sem á að veita | 1.00     |
+- **Dagsetning staðgreiðsluafsláttar** : 12/07/2015 
+- **Upphæð staðgreiðsluafsláttar** : -1.00     
+- **Nota staðgreiðsluafslátt** : Venjulegt    
+- **Notaður staðgreiðsluafsláttur** : 0.00      
+- **Upphæð staðgreiðsluafsláttar sem á að veita** : -1.00     
 
 Jöfnun verða 100,00 og mun innihalda greiðslu 99.00 og afslætti á 1,00.
 

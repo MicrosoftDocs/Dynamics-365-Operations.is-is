@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6472672f5d618cc6d100298dd35939afa4c0066d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835978"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039870"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Brasilíu 
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Viðbót rafrænnar reikningsfærslu fyrir Brasilíu styður ekki sem stendur allar aðgerðir sem eru í boði í samþættingu fjárhagsskjals sem er innbyggt í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
@@ -57,7 +57,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 ## <a name="import-the-e-invoicing-feature"></a>Flytja inn eiginleika rafrænnar reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn
-2. Á vinnusvæðinu **Altækir eiginleikar**, undir hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækir eiginleikar** , undir hlutanum **Eiginleikar** , skal velja reitinn **Rafræn reikningsfærsla**.
 3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja **Flytja inn** til að flytja inn eiginleika rafrænnar reikningsfærslu fyrir NF-e fjárhagsskjal úr altæku geymslunni.
 
     ![Flytja inn hnappur](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
@@ -68,13 +68,13 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ### <a name="create-a-new-version-of-the-nf-e-fiscal-document-feature"></a>Búa til nýja útgáfu af eiginleika NF-e fjárhagsskjals
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja **Ný**.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja **Ný**.
 
 ![Nýrri útgáfu rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-get-started-BRA-Select-New-e-Invoicing-feature-version.png)
 
 ### <a name="update-the-configuration-version"></a>Uppfæra útgáfu skilgreiningar
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Skilgreiningar**, skal velja **Bæta við** eða **Eyða** til að stjórna útgáfum skilgreininga (skilgreiningar á skráarsniði rafrænnar skýrslugerðar).
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Skilgreiningar** , skal velja **Bæta við** eða **Eyða** til að stjórna útgáfum skilgreininga (skilgreiningar á skráarsniði rafrænnar skýrslugerðar).
 
     ![Stjórnun skilgreininga á eiginleikum rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -99,7 +99,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ### <a name="manage-the-e-invoicing-feature-setups"></a>Stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við** eða **Eyða** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu (þ.e. tilvikum NF-e).
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , skal velja **Bæta við** eða **Eyða** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu (þ.e. tilvikum NF-e).
 
 ![Umsjón með uppsetningum á eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-setup.png)
 
@@ -111,7 +111,7 @@ Til að senda inn afturköllun á NF-e, er uppsetning eiginleikans **Afturköllu
 
 #### <a name="configure-the-submit-feature-setup"></a>Skilgreina uppsetningu á eiginleika innsendingar
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, í dálknum **Uppsetning eiginleika**, skal velja **Senda inn**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , í dálknum **Uppsetning eiginleika** , skal velja **Senda inn**.
 2. Veljið **Breyta**.
 
     ![Breyta uppsetningu á eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
@@ -135,14 +135,14 @@ Til að senda inn afturköllun á NF-e, er uppsetning eiginleikans **Afturköllu
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Setja upp vefslóð fyrir SEFAZ-vefþjónustu 
 
-1. Á síðunni **Uppsetning á útgáfu eiginleika**, í flipanum **Aðgerðir**, í flýtiflipanum **Aðgerðir**, skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **3**).
-2. Í flýtiflipann **Færibreytur**, í reitinn **Færibreyta veffangs**, skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir innsendingu NF-e.
-3. Í flýtiflipanum **Aðgerðir** skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **7**).
-4. Í flýtiflipann **Færibreytur**, í reitinn **Færibreyta veffangs**, skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir innsendingu NF-e.
+1. Á síðunni **Uppsetning á útgáfu eiginleika** , í flipanum **Aðgerðir** , í flýtiflipanum **Aðgerðir** , skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **3** ).
+2. Í flýtiflipann **Færibreytur** , í reitinn **Færibreyta veffangs** , skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir innsendingu NF-e.
+3. Í flýtiflipanum **Aðgerðir** skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **7** ).
+4. Í flýtiflipann **Færibreytur** , í reitinn **Færibreyta veffangs** , skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir innsendingu NF-e.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>Skilgreina uppsetningu á eiginleika afturköllunar
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, í dálknum **Uppsetning eiginleika**, skal velja **Afturköllun**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , í dálknum **Uppsetning eiginleika** , skal velja **Afturköllun**.
 2. Veljið **Breyta**.
 3. Á síðunni **Uppsetning á útgáfu eiginleika** skal velja flipann **Aðgerðir** til að stjórna lista yfir aðgerðir.
 4. Fara yfir aðgerðirnar sem þarf til að biðja um afturköllun á samþykktu NF-e.
@@ -156,12 +156,12 @@ Til að senda inn afturköllun á NF-e, er uppsetning eiginleikans **Afturköllu
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Setja upp vefslóð fyrir SEFAZ-vefþjónustu
 
-1. Á síðunni **Uppsetning á útgáfu eiginleika**, í flipanum **Aðgerðir**, í flýtiflipanum **Aðgerðir**, skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **3**).
-2. Í flýtiflipann **Færibreytur**, í reitinn **Færibreyta veffangs**, skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir afturköllun á samþykktu NF-e.
+1. Á síðunni **Uppsetning á útgáfu eiginleika** , í flipanum **Aðgerðir** , í flýtiflipanum **Aðgerðir** , skal velja **Hringja í SEFAZ-þjónustu í Brasilíu** (aðgerðarkenni **3** ).
+2. Í flýtiflipann **Færibreytur** , í reitinn **Færibreyta veffangs** , skal slá inn vefslóð SEFAZ-vefþjónustunnar fyrir afturköllun á samþykktu NF-e.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>Gera umhverfi rafrænnar reikningsfærslu tiltækt og úthluta útgáfudrög
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Umhverfi**, skal velja **Virkja**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Umhverfi** , skal velja **Virkja**.
 2. Í reitnum **Umhverfi** skal velja umhverfið.
 3. Í reitnum **Gildir frá** skal velja dagsetninguna þegar nýja umhverfið tekur gildi.
 4. Veljið **Virkja**.
@@ -170,12 +170,12 @@ Til að senda inn afturköllun á NF-e, er uppsetning eiginleikans **Afturköllu
 
 ### <a name="change-the-status-to-completed"></a>Breyta stöðu í lokið
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
 2. Velduð **Breyta stöðu \> Ljúka**.
 
 ### <a name="change-the-status-to-publish"></a>Breyta stöðu í birta
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Lokið**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Lokið**.
 2. Veljið **Breyta stöðu \> Birta**.
 
 ![Eiginleiki rafrænnar reikningsfærslu birtur](media/e-Invoicing-services-get-started-BRA-Publish-e-Invoicing-feature.png)
@@ -196,27 +196,27 @@ Við uppsetningu verður farið í gegnum þessi skref:
 ### <a name="import-the-er-data-model-mapping-required-for-nf-e-fiscal-documents"></a>Flytja inn gagnalíkanavörpun rafrænnar skýrslugerðar sem þarf fyrir NF-e fjárhagsskjöl
 
 1. Skráðu þig inn í Finance.
-2. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Veldu **Geymslur**.
 4. Veljið **Altæk tilföng \> Opna**.
 5. Flytja inn skilgreiningar **Fjárhagsskjalavörpunar**.
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-fiscal-documents"></a>Flytja inn skilgreiningar rafrænnar skýrslugerðar og setja upp svargerðir fyrir fjárhagsskjöl
 
-1. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**.
+1. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**.
 2. Veldu **Geymslur**.
 3. Veljið **Altæk tilföng \> Opna**.
-4. Flytjið inn **Innflutningur villukladda NF-e**, **Gagnainnflutningssnið NF-e svars** og **Innflutning svarskilaboða NF-e**.
+4. Flytjið inn **Innflutningur villukladda NF-e** , **Gagnainnflutningssnið NF-e svars** og **Innflutning svarskilaboða NF-e**.
 5. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
 6. Í flipanum **Rafrænt skjal** skal velja **Bæta við**.
 6. Í reitinn **Töfluheiti** skal færa inn **Haus fjárhagsskjals**.
 7. Í reitnum **Samhengi skjals** skal velja **Samhengislíkan viðskiptavinareiknings - Samhengi fjárhagsskjals**.
 8. Veljið **Svargerðir**.
-9. Veljið **Nýtt** og svo, í reitnum **Svargerð**, skal velja **Svar**.
+9. Veljið **Nýtt** og svo, í reitnum **Svargerð** , skal velja **Svar**.
 10. Í reitnum **Staða sendingar** skal velja **Í bið**.
 11. Í reitnum **Líkanavörpun** skal velja **Innflutningssnið svarskilaboða - Líkanavörpun úr svarskilaboðum**.
 12. Veljið **Vista**.
-13. Veljið **Nýtt** og svo, í reitinn **Svargerð**, skal velja **ResponseData**.
+13. Veljið **Nýtt** og svo, í reitinn **Svargerð** , skal velja **ResponseData**.
 14. Í reitnum **Staða sendingar** skal velja **Í bið**.
 15. Í reitinn **Líkanavörpun** skal velja **Gagnainnflutningssnið NF-e svars - Gagnainnflutningur svars**.
 16. Veljið **Vista**.
@@ -231,7 +231,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>Sendið inn NF-e-fjárhagsskjöl fyrir SEFAZ-heimild 
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, ekki er elengur hægt að nota gamla ferlið til að senda inn NF-e fjárhagsskjöl fyrir heimild (**Útflutningur/innflutningur á NF-e-ferli**). Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , ekki er elengur hægt að nota gamla ferlið til að senda inn NF-e fjárhagsskjöl fyrir heimild ( **Útflutningur/innflutningur á NF-e-ferli** ). Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
 
 > [!NOTE]
 > Áður en haldið er áfram skal ganga úr skugga um að til staðar sé eitt eða fleiri fjárhagsskjalalíkan viðskiptavinar 55 sem voru gefin út af fjárhagsstofnun viðskiptavinar. Stefna þessara fjárhagsskjala verður að vera stillt á **Á útleið** og staðan verður að vera **Stofnað**. Frekari upplýsingar er að finna í [Gefa út fjárhagsskjal viðskiptavinar (Brasilía)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
@@ -265,7 +265,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
 
 ### <a name="view-submission-logs-through-the-fiscal-document-page"></a>Skoða innsendingarkladda í gegnum síðu fjárhagsskjala
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, er einnig hægt að skoða innsendingarkladdana í gegnum síðu fjárhagsskjala.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , er einnig hægt að skoða innsendingarkladdana í gegnum síðu fjárhagsskjala.
 
 1. Farið í **Fjárhagur \> Fyrirspurnir og skýrslur \> Fjárhagsskjöl \> Öll fjárhagsskjöl**.
 2. Veljið fjárhagsskjal sem var áður sent inn í gegnum viðbót rafrænnar reikningsfærslu.
@@ -275,7 +275,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
 
 ### <a name="submit-approved-nf-e-fiscal-documents-for-sefaz-cancellation"></a>Senda inn samþykkt NF-e-fjárhagsskjöl fyrir SEFAZ-afturköllun
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, verður ekki lengur hægt að nota gamla ferlið til að afturkalla NF-e fjárhagsskjöl. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , verður ekki lengur hægt að nota gamla ferlið til að afturkalla NF-e fjárhagsskjöl. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
 
 > [!NOTE]
 > Gangið úr skugga um að afturköllun á fjárhagsskjali viðskiptavinar hafi verið keyrð fyrir samþykkt NF-e fjárhagsskjal. Frekari upplýsingar er að finna í [Hætta við fjárhagsskjal viðskiptavinar (Brasilía)](https://docs.microsoft.com/dynamics365/finance/localizations/latam-bra-cancel-customer-fiscal-documents).
@@ -301,7 +301,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
     ![Upplýsingar um innsendingarkladda afturköllunar skoðaðar](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Til að virkja eiginleikann BR-00053 (NF-e Federal) þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleika BR-00053 (NF-e Federal) með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar**, veljið línuna sem inniheldur BR-00053 eiginleikann og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
+Til að virkja eiginleikann BR-00053 (NF-e Federal) þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleika BR-00053 (NF-e Federal) með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar** , veljið línuna sem inniheldur BR-00053 eiginleikann og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178351"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006116"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanlega greiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -48,7 +48,7 @@ Fabrikam selur vörur til viðskiptavinar 4028. Fabrikam býður 1 prósent afsl
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðu fyrir merktar reikningsins.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
@@ -79,7 +79,7 @@ Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þes
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
@@ -95,7 +95,7 @@ Ef viðskiptavinurinn vill jafna nákvæmlega helming reiknings, viðskiptavinar
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
@@ -114,7 +114,7 @@ Arnie Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð �
 ## <a name="payment-for-the-remaining-amount"></a>Greiðsla eftirstandandi upphæðar
 viðskiptavinur 4028 greiðir eftirstandandi upphæð 495.00 á Júlí 8, sem er innan tímabils staðgreiðsluafsláttar. Arnie stofnar greiðslubók á 8 Júlí og merkir færsluna til jöfnunar. hann sér að Upphæðin sem þarf að jafna er 495.00 . Gildið í á **Áætlaður staðgreiðsluafsláttur** er **5,00** því 5,00 afslátturinn var áður tekinn af.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Heildarmerking            | 495,00 |
 | Áætlaður staðgreiðsluafsláttur | 5,00   |
@@ -127,7 +127,7 @@ Upplýsingar um merkta færslan birtist í hnitaneti í á **Jafna opnar færslu
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |

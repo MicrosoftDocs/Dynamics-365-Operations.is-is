@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967311"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006142"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -48,7 +48,7 @@ Fabrikam kaupir vörur frá lánardrottni 3064. Lánardrottinn veitir Fabrikam 1
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|       &nbsp;                 | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |
@@ -72,7 +72,7 @@ Apríl getur stofna greiðslubók fyrir þessa greiðslu með því að opna í 
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |
@@ -88,7 +88,7 @@ Apríl vill jafna nákvæmlega helming reiknings Þessvegna breytir hún gildi �
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |
@@ -107,7 +107,7 @@ Apríl Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð 
 ## <a name="remaining-amount-paid-on-july-8"></a>Eftirstandandi upphæð greiddar Júlí 8
 Apríl greiðir afgang reiknings fyrir lánadrottinn 3064 á Júlí 8, sem er innan tímabils staðgreiðsluafsláttar. Apríl stofnar greiðslubók á 8 Júlí og merkir færsluna til jöfnunar. Hún sér að Upphæðin sem þarf að jafna er 495.00 . Gildið í á **Áætlaður staðgreiðsluafsláttur** er **-5,00** því 5,00 afslátturinn var áður tekinn af.
 
-|                         |        |
+|  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|
 | Heildarmerking            | 495,00 |
 | Áætlaður staðgreiðsluafsláttur | -5,00  |
@@ -120,7 +120,7 @@ Upplýsingar um merkta færslan birtist í hnitaneti í á **Jafna opnar færslu
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+|  &nbsp;                      | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018768"
 ---
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
@@ -73,7 +73,7 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 
 **samþykktarstöðu** svæði er notað þegar Innkaupapöntun fer í gegnum endurskoðunarferli eða verkflæði. Eftirtalin gildi eru tiltæk:
 
--   **Drög**, **í yfirferð**, og **Hafnað** – Þessar stöður eru eingöngu notaðar þegar samþykkis verkflæðis er notaður fyrir Innkaupapöntunina.
+-   **Drög** , **í yfirferð** , og **Hafnað** – Þessar stöður eru eingöngu notaðar þegar samþykkis verkflæðis er notaður fyrir Innkaupapöntunina.
 -   **Samþykkt** – Þessi staða er úthlutað til pantana sem hafa lokið verkflæðissamþykki. Pantanirnar sem eru stofnaðar án samþykkis verkflæðis fá stöðuna **Samþykkt** strax.
 -   **Í ytri yfirferð** – Þessi staða er notuð í aðstæðum þar sem fyrirspurn um innkaup er send til lánadrottna, þannig að lánardrottinn geti staðfesta greiðsluskilmála í Innkaupapöntun. Þessi staða er einnig notuð við vinnslu sem er hafin með **Staðfestingu beiðni** aðgerð. Þetta ferli, lánardrottins beðnir um að staðfesta greiðsluskilmála í Innkaupapöntun með tengingu við kerfið þitt og skrá hvort hún staðfestir eða hafnað pöntunina.
 -   **Staðfesta** – Þessi staða er úthlutað eftir að pöntun hefur verið staðfest. Venjulega er þessi staða síðustu stöðu samþykkis sem úthlutað er pöntun.

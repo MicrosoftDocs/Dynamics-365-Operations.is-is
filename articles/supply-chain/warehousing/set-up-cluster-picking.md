@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
+ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017576"
 ---
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
@@ -58,7 +58,7 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 
 1. Smelltu á **Nýtt** til að stofna nýja forstillingu.
 
-1. Smelltu á **Stofna klasa** og, undir **Klasaröðun**, skal smella á **Nýtt** til að setja upp röðunarforsendur fyrir klasann. Röðunarforsendur að stýra röðinni sem starfsmaðurinn mun framkvæma tiltekt vinnu. Hægt er að bæta við eins mörgum skilyrðum og þarf.
+1. Smelltu á **Stofna klasa** og, undir **Klasaröðun** , skal smella á **Nýtt** til að setja upp röðunarforsendur fyrir klasann. Röðunarforsendur að stýra röðinni sem starfsmaðurinn mun framkvæma tiltekt vinnu. Hægt er að bæta við eins mörgum skilyrðum og þarf.
 
 1. Í reitnum **Númeraröð** skal slá inn númer til að skilgreina röðina sem unnið er úr röðunarforsendum.
 

@@ -3,7 +3,7 @@ title: Auðkenna tilgátu og ákvarða mælieiningar fyrir tilraun
 description: Þetta efnisatriði lýsir því hvernig hægt er að bera kennsl á tilgátuna og árangursmælingar fyrir tilraun sem keyrð verður á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,21 +18,21 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99642861d69b7545f03c6ed2c2650eadeb377534
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930218"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097163"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Auðkenna tilgátu og ákvarða árangursmælingar fyrir tilraun
 Fyrsti áfangi í tilraunaferlinu felur í sér að auðkenna tilgátu tilraunarinnar og ákvarða mælieiningarnar sem fylgst verður með til að meta árangur. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í [uppsetningu og vinnslu á tilraun](experimentation-overview.md) á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum. 
 
 [ ![Tilraunastarfssemi notanda - Auðkenna](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
-Tilgáta er yfirlýsing þar sem þú spáir fyrir um útkomu tilraunarinnar. Margir þættir koma við sögu þegar tilgáta er skilgreind, t.d. rannsóknir á hegðun notanda og gögn vefsvæðis sem safnað hefur verið saman. Með tilgátunni skilgreinir þú þá forsendu eða kenningu sem þú vilt sannprófa með tilrauninni. Dæmi um tilgátu fyrir tilraunina gæti verið að „*mynd af hvítum stuttermabol á heimasíðunni minni mun auka fjölda smella frekar en dökkblá peysa yfir sumarmánuðina vegna þess að fólk vill klæðast einhverju léttu og í ljósum litum yfir sumartímann.*“ Í slíku tilfelli býrðu til afbrigði sem innihalda hvítan stuttermabol og dökkbláa peysu og gefur bæði út á sama tíma.
+Tilgáta er yfirlýsing þar sem þú spáir fyrir um útkomu tilraunarinnar. Margir þættir koma við sögu þegar tilgáta er skilgreind, t.d. rannsóknir á hegðun notanda og gögn vefsvæðis sem safnað hefur verið saman. Með tilgátunni skilgreinir þú þá forsendu eða kenningu sem þú vilt sannprófa með tilrauninni. Dæmi um tilgátu fyrir tilraunina gæti verið að „ *mynd af hvítum stuttermabol á heimasíðunni minni mun auka fjölda smella frekar en dökkblá peysa yfir sumarmánuðina vegna þess að fólk vill klæðast einhverju léttu og í ljósum litum yfir sumartímann.* “ Í slíku tilfelli býrðu til afbrigði sem innihalda hvítan stuttermabol og dökkbláa peysu og gefur bæði út á sama tíma.
 
-Til að sannprófa tilgátu ætti velgengni eða mislukkun tilraunar að vera tengd beint við aðgerðir notanda; til dæmis hvort notandi vefsvæðisins smellir á tengil eða hnapp. Þessar aðgerðir verða að samsvara tilvikum sem þjónusta þriðja aðila sem fylgir tilrauninni eftur verður tilkynnt um. Með tímanum verður hlutfall notenda sem grípa til aðgerðarinnar gefið upp sem mælieining sem hægt er að nota til að búa til skýrslur og gera greiningar. Skoðið efnisatriðið [Tilvik Commerce-íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md) til að skoða öll tiltæk tilvik og eigindir.
+Til að sannprófa tilgátu ætti velgengni eða mislukkun tilraunar að vera tengd beint við aðgerðir notanda; til dæmis hvort notandi vefsvæðisins smellir á tengil eða hnapp. Þessar aðgerðir verða að samsvara tilvikum sem þjónusta þriðja aðila sem fylgir tilrauninni eftur verður tilkynnt um. Með tímanum verður hlutfall notenda sem grípa til aðgerðarinnar gefið upp sem mælieining sem hægt er að nota til að búa til skýrslur og gera greiningar. Til að skoða öll tilvik og eiginleika skal skoða [Tilvik Commerce-íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
 
 ## <a name="previous-step"></a>Fyrra skref
 [Tilraunir í Dynamics 365 Commerce](experimentation-overview.md)

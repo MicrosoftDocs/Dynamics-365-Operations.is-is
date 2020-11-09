@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597459"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017415"
 ---
 # <a name="warehouse-slotting"></a>Hólfaskipting vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
-Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna *Pöntuð*, *Frátekin* eða *Sleppt*. Tilbúna eftirspurn er síðan hægt að nota á staðsetningar sem verða notaðar fyrir tiltekt miðað við magn, einingu, efnislegar víddir, fastar staðsetningar o.s.frv. Þegar áætlunin um hólfaskiptingu er tilbúin er hægt að stofna áfyllingarvinnu til að færa rétt magn birgða í hverja staðsetningu.
+Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna *Pöntuð* , *Frátekin* eða *Sleppt*. Tilbúna eftirspurn er síðan hægt að nota á staðsetningar sem verða notaðar fyrir tiltekt miðað við magn, einingu, efnislegar víddir, fastar staðsetningar o.s.frv. Þegar áætlunin um hólfaskiptingu er tilbúin er hægt að stofna áfyllingarvinnu til að færa rétt magn birgða í hverja staðsetningu.
 
 Þessi eiginleiki aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 
@@ -158,7 +159,7 @@ Fylgdu þessum skrefum fyrir hvert sniðmát sem þú býrð til að bæta við 
 
     - **Leyfa stöðvun:** _já_
 
-        Þegar þessi valkostur er stilltur á *Já*, ef ekki er hægt að skipta einhverri eftirspurn í hólf, verður búin til birgðahreyfing til að taka birgðum úr staðsetningum þar sem engar birgðir eru, en engu var skipt niður í hólf. Sniðmátið er síðan keyrt aftur. Í þetta sinn hunsar það birgðir í staðsetningum. Þessi eiginleiki virkar best þegar svæðið **Úthluta skilyrðum fyrir hólf** er stillt á _Taka mið af magni_.
+        Þegar þessi valkostur er stilltur á *Já* , ef ekki er hægt að skipta einhverri eftirspurn í hólf, verður búin til birgðahreyfing til að taka birgðum úr staðsetningum þar sem engar birgðir eru, en engu var skipt niður í hólf. Sniðmátið er síðan keyrt aftur. Í þetta sinn hunsar það birgðir í staðsetningum. Þessi eiginleiki virkar best þegar svæðið **Úthluta skilyrðum fyrir hólf** er stillt á _Taka mið af magni_.
 
     - **Notkun fastrar staðsetningar:** _Aðeins fastar staðsetningar fyrir afurðina_
 
@@ -247,7 +248,7 @@ Setja þarf upp að minnsta kosti eina staðsetningarleiðbeiningar til að sty�
     - **Tafla:** *Staðir*
     - **Afleidd tafla:** *Staðsetningar*
     - **Reitur::** *Auðkenni svæðis*
-    - **Skilyrði:** *Magn* (Veldu tvöfalt plúsmerki \[**++**\] á svæðinu til að stækka listann, og veldu síðan *Magn*).
+    - **Skilyrði:** *Magn* (Veldu tvöfalt plúsmerki \[**++**\] á svæðinu til að stækka listann, og veldu síðan *Magn* ).
 
 1. Veljið **Í lagi**.
 
@@ -259,7 +260,7 @@ Notaðu innbyggðu sýnigögnin fyrir þessar aðstæður og búðu til skrárna
 
 #### <a name="use-the-usmf-sample-data"></a>Nota USMF-sýnigögn
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
 
 #### <a name="create-demand"></a>Búa til eftirspurn
 

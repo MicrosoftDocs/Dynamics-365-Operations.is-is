@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959576"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058155"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Skilgreina sýndareiningar Common Data Service
 
@@ -115,7 +115,7 @@ Næsta skref er að skilgreina gagnagjafa sýndareiningar í Power Apps-umhverfi
 
 4. Í **heilsulausnarmiðstöð** skal velja táknið **Ítarleg leit** efst til hægri á forritssíðunni.
 
-5. Á síðunni **Ítarleg leit**, í fellilistanum **Leita að**, skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
+5. Á síðunni **Ítarleg leit** , í fellilistanum **Leita að** , skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
 
 6. Veldu **Niðurstöður**.
 
@@ -123,10 +123,10 @@ Næsta skref er að skilgreina gagnagjafa sýndareiningar í Power Apps-umhverfi
 
 8. Færa skal inn nauðsynlegar upplýsingar fyrir skilgreiningu gagnagjafans.
 
-   - **Markvefslóð**: Vefslóð nafnarýmis Human Resources.
-   - **Auðkenni leigjanda**: Azure Active Directory (Azure AD) leigjandakenni.
-   - **AAD-forritskenni**: Forritskennið (biðlarinn) sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **Leynilykill AAD-forrits**: Leynilykill biðlara sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Markvefslóð** : Vefslóð nafnarýmis Human Resources.
+   - **Auðkenni leigjanda** : Azure Active Directory (Azure AD) leigjandakenni.
+   - **AAD-forritskenni** : Forritskennið (biðlarinn) sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Leynilykill AAD-forrits** : Leynilykill biðlara sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
 9. Veljið **Vista og loka**.
 
@@ -149,39 +149,40 @@ Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 
 3. Veljið **Ný** til að búa til aðra færslu forrits:
 
-    - **Auðkenni biðlara**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Heiti**: Dynamics 365 HR Virtual Entity
+    - **Auðkenni biðlara** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Heiti** : Dynamics 365 HR Virtual Entity
     - Í reitinn **Notandakenni** skal velja notandakenni notanda með stjórnandaheimildir í Human Resources og Power Apps-umhverfinu.
 
 ## <a name="generate-virtual-entities"></a>Mynda sýndareiningar
 
 Þegar uppsetningu er lokið er hægt að velja sýndareiningarnar sem á að mynda og virkja í Common Data Service-tilvikinu.
 
-1. Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
+1. Í Human Resources skal opna síðuna **Common Data Service (CDS)-samþætting**.
 
-2. Í listanum **Umhverfi** er valið Power Apps-umhverfi sem tengist tilviki Human Resources.
-
-3. Veljið **Vefslóð umhverfis** í hlutanum **Upplýsingar** á síðunni.
-
-4. Í **heilsulausnarmiðstöð** skal velja táknið **Ítarleg leit** efst til hægri á síðunni.
-
-5. Á síðunni **Ítarleg leit**, í fellilistanum **Leita að**, skal velja **Tiltækar einingar HR**.
-
-6. Nota síuvalkosti til að finna eininguna eða einingarnar sem þú vilt virkja.
-
-7. Velja einingu af listanum.
-
-8. Á einingarsíðunni skal breyta eiginleikanum **Hefur verið búið til** í **Já** fyrir eininguna.
-
-9. Vistið og lokið einingasíðunni.
+2. Veldu flipann **Sýndareiningar**.
 
 > [!NOTE]
-> Hægt er að búa til margar sýndareiningar í einu með því að nota síðuna **Breta mörgum færslum**. Veljið margar færslur á síðunni og veljið **Breyta** á borðanum. Síðan er hægt að breyta eiginleikanum **Hefur verið búið til** fyrir allar valdar færslur.
+> **Virkjar sýndareininguna** verður stillt á **Já** sjálfkrafa þegar allri nauðsynlegri uppsetningu er lokið. Ef skipting er stillt á **Nei** skal fara yfir skrefin í fyrri hlutum þessa skjals til að tryggja að uppsetningu forútgáfu sé lokið.
 
-![Tiltækar HR-einingar](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Velja skal eininguna eða einingarnar sem á að búa til í Common Data Service.
 
-> [!NOTE]
-> Til að einfalda ferlið við að búa til sýndareiningar í framtíðarútgáfum, mun ferlið eiga sér stað á síðu í Human Resources.
+4. Velja **Búa til/uppfæra**.
+
+![Common Data Service Samþætting](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Athuga einingu um myndunarstöðu
+
+Sýndareiningar eru myndaðar í Common Data Service í gegnum ósamstillta bakgrunnsvinnslu. Uppfærslur á ferlinu birtast í aðgerðamiðstöð. Upplýsingar um ferlið, þar á meðal villukladda, birtast á síðunni **Sjálfvirkni ferlis**.
+
+1. Í Human Resources skal opna síðuna **Sjálfvirkni ferlis**.
+
+2. Veljið flipann **Bakgrunnsvinnslur**.
+
+3. Velið **Virtual einingakönnun async Aðgerðar bakgrunnsvinnsla**.
+
+4. Veldu **Skoða síðustu niðurstöður**.
+
+Hlðarsvæði sýnir nýjustu niðurstöður framkvæmdarinnar fyrir ferlið. Hægt er að skoða kladda vinnslunnar, þar á meðal allar villur sem skilað er frá Common Data Service.
 
 ## <a name="see-also"></a>Sjá einnig
 

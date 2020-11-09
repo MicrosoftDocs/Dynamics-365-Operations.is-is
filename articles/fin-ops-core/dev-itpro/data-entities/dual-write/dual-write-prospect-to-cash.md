@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829213"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997401"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -63,9 +62,9 @@ Til dæmis er númeraröðin í Supply Chain Management **1, 2, 3, 4, 5, ...** o
 
 Sölutilboð má stofna í annaðhvort Sales eða Supply Chain Management. Ef þú býrð til tilvitnun í Sales er það samstillt við Supply Chain Management í rauntíma. Eins, ef þú býrð til tilboð í Supply Chain Management er það samstillt við Sales í rauntíma. Athugið eftirfarandi stig:
 
-+ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð**, **Afsláttur**, **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
-+ Reitirnir **Afsláttur %**, **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
-+ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur** , **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð** , **Afsláttur** , **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
++ Reitirnir **Afsláttur %** , **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
++ Reitirnir **Flutningsskilmálar** , **Afhendingarskilmálar** , **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færibreytuna **Flýtistofnun tilboðslínu**. Með því að virkja breytuna aftur geturðu haldið áfram að búa til tilboðslínur með flýtiaðgerðinni.
 1. Farðu í Dynamics 365 Sales forritið.
@@ -111,7 +110,7 @@ Sölureikningar eru búnir til í Supply Chain Management og samstilltir við Sa
 + Reitnum **Reikningsnúmer** er bætt við eininguna **Reikningur** og birtur á síðunni.
 + Hnappurinn **Stofna reikning** á síðunni **Sölupöntun** er falinn vegna þess að reikningar verða búnir til í Supply Chain Management og samstilltir við Sales. Ekki er hægt að breyta síðunni **Reikningur** vegna þess að reikningar verða samstilltir úr Supply Chain Management.
 + **Staða sölupöntunar** breytist sjálfkrafa í **Reikningsfært** þegar tengdur reikningur úr Supply Chain Management hefur verið samstilltur við Sales. Einnig var eiganda sölupöntunar sem reikningurinn var búinn til úr úthlutað sem eiganda reikningsins. Því getur eigandi sölurekningsins skoðað reikninginn.
-+ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Reitirnir **Flutningsskilmálar** , **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 ## <a name="templates"></a>Sniðmát
 

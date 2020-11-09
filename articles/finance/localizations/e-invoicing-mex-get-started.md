@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835974"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039823"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Viðbót rafrænnar reikningsfærslu fyrir Mexíkó styður hugsanlega ekki sem stendur allar aðgerðir sem eru í boði í skjalinu Comprobante Fiscal Digital por Internet (CFDI) og í tengdri samþættingu sem er byggð inn í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
@@ -54,7 +53,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 ## <a name="import-the-e-invoicing-feature"></a>Flytja inn eiginleika rafrænnar reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækir eiginleikar**, undir hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækir eiginleikar** , undir hlutanum **Eiginleikar** , skal velja reitinn **Rafræn reikningsfærsla**.
 3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja **Flytja inn** til að flytja inn eiginleikann **CFDI-reikningar (MX)** úr altæku geymslunni.
 
     > [!NOTE]
@@ -68,13 +67,13 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 Hægt er að búa til nýja útgáfu ef til dæmis þarf að uppfæra vefslóðir. Frekari upplýsingar er að finna í [Rafræn reikningsfærsla CFDI](tasks/mx-00010-e-invoicing-cfdi.md).
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja **Ný**.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja **Ný**.
 
 ![Nýrri útgáfu rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>Uppfæra útgáfu skilgreiningar
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Skilgreiningar**, skal velja **Bæta við** eða **Eyða** til að stjórna útgáfum skilgreininga (skilgreiningar á skráarsniði rafrænnar skýrslugerðar).
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Skilgreiningar** , skal velja **Bæta við** eða **Eyða** til að stjórna útgáfum skilgreininga (skilgreiningar á skráarsniði rafrænnar skýrslugerðar).
 
     ![Stjórnun skilgreininga á eiginleikum rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
@@ -96,7 +95,7 @@ Hægt er að búa til nýja útgáfu ef til dæmis þarf að uppfæra vefslóði
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við**, **Eyða** eða **Breyta** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , skal velja **Bæta við** , **Eyða** eða **Breyta** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu.
 
 ![Umsjón með uppsetningum á eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -106,7 +105,7 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Skilgreina uppsetningu á eiginleika sölureiknings
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, í dálknum **Uppsetning eiginleika**, skal velja **Sölureikningur**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , í dálknum **Uppsetning eiginleika** , skal velja **Sölureikningur**.
 2. Veljið **Breyta** til að skilgreina aðgerðir, gildissviðsreglur og breytur.
 
     ![Uppsetning á eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
@@ -124,15 +123,15 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 
 ### <a name="set-up-the-url-for-mexican-pac-web-services"></a>Setja upp vefslóð fyrir mexíkóska PAC-vefþjónustu 
 
-1. Á síðunni **Uppsetning á útgáfu eiginleika**, í flipanum **Aðgerðir**, í flýtiflipanum **Aðgerðir**, skal velja **Hringja í mexíkóska PAC-þjónustu**.
-2. Í flýtiflipann **Færibreytur**, í reitinn **Veffang**, skal slá inn vefslóð vefþjónustunnar fyrir innsendingu á CFDI-reikningi.
+1. Á síðunni **Uppsetning á útgáfu eiginleika** , í flipanum **Aðgerðir** , í flýtiflipanum **Aðgerðir** , skal velja **Hringja í mexíkóska PAC-þjónustu**.
+2. Í flýtiflipann **Færibreytur** , í reitinn **Veffang** , skal slá inn vefslóð vefþjónustunnar fyrir innsendingu á CFDI-reikningi.
 
 > [!NOTE]
 > Notið sömu skrefin til að uppfæra vefslóðina fyrir aðgerðina **Hringja í mexíkóska PAC-þjónustu** fyrir uppsetninga á eiginleikunum **Hætta við** og **Afturköllunarbeiðni**.
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Úthluta útgáfudrögum á umhverfi rafrænnar reikningsfærslu
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Umhverfi**, skal velja **Virkja**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Umhverfi** , skal velja **Virkja**.
 2. Í reitnum **Umhverfi** skal velja umhverfið.
 3. Í reitnum **Gildir frá** skal velja dagsetninguna þegar nýja umhverfið tekur gildi.
 3. Veljið **Virkja**.
@@ -141,12 +140,12 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 
 ## <a name="change-the-version-status-to-completed"></a>Breyta stöðu útgáfu í Lokið
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
 2. Velduð **Breyta stöðu \> Ljúka**.
 
 ## <a name="change-the-version-status-to-published"></a>Breyta stöðu útgáfu í Birt
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja **Breyta stöðu \> Birta**.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja **Breyta stöðu \> Birta**.
 
 ## <a name="publish-the-e-invoicing-feature"></a>Birta eiginleika rafrænnar reikningsfærslu
 
@@ -165,10 +164,10 @@ Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljú
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Flytja inn gagnalíkan rafrænnar skýrslugerðar, gagnalíkanavörpun rafrænnar skýrslugerðar og skilgreiningar samhengis fyrir CFDI-reikninga
 
 1. Skráðu þig inn í Finance.
-2. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Veldu **Geymslur**.
 4. Veljið **Altæk tilföng \> Opna**.
-5. Flytjið inn **Reikningslíkan**, **Vörpun reikningslíkans**, **CFDI-reikningssnið (MX)**, **Snið afturköllunarbeiðni CFDI-reiknings (MX)** og **Afturköllunarsnið CFDI-reiknings (MX)**.
+5. Flytjið inn **Reikningslíkan** , **Vörpun reikningslíkans** , **CFDI-reikningssnið (MX)** , **Snið afturköllunarbeiðni CFDI-reiknings (MX)** og **Afturköllunarsnið CFDI-reiknings (MX)**.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>Kveikja á eiginleikanum fyrir úrvinnslu CFDI-reikninga
 
@@ -181,10 +180,10 @@ Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljú
 
 #### <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar
 
-1. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**.
+1. Á vinnusvæðinu **Rafræn skýrslugerð** , í hlutanum **Veitendur skilgreininga** , skal velja reitinn **Microsoft**.
 3. Veldu **Geymslur**.
 4. Veljið **Altæk tilföng \> Opna**.
-5. Flytjið inn **Líkan svarskilaboða**, **Innflutningur á villukladda CFDI (MX)**, **Innflutningur á villukladda CFDI (MX)** og **Innflutningur á svarskilaboði CFDI (MX)**.
+5. Flytjið inn **Líkan svarskilaboða** , **Innflutningur á villukladda CFDI (MX)** , **Innflutningur á villukladda CFDI (MX)** og **Innflutningur á svarskilaboði CFDI (MX)**.
 
 #### <a name="set-up-the-response-types"></a>Setja upp svargerðirnar
 
@@ -197,11 +196,11 @@ Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljú
     - Fyrir **Verkreikningur** skal færa inn **Samhengi verkreiknings**.
 
 4. Veljið **Svargerðir** til að skilgreina svargerðirnar sem hægt er að skila úr viðbót rafrænnar reikningsfærslu og hafa með í reikningabók viðskiptavinar eða verkreikningi.
-5. Veljið **Nýtt** og svo, í reitnum **Svargerð**, skal velja **Svar**.
+5. Veljið **Nýtt** og svo, í reitnum **Svargerð** , skal velja **Svar**.
 6. Í reitnum **Staða sendingar** skal velja **Í bið**.
 7. Í reitnum **Líkanavörpun** skal velja **Innflutningssnið svarskilaboða - Líkanavörpun úr svarskilaboðum**.
 8. Veljið **Vista**.
-9. Veljið **Nýtt** og svo, í reitnum **Svargerð**, skal velja **ResponseData**.
+9. Veljið **Nýtt** og svo, í reitnum **Svargerð** , skal velja **ResponseData**.
 10. Í reitnum **Staða sendingar** skal velja **Í bið**.
 11. Í reitinn **Líkanavörpun** skal velja **Gagnainnflutningssnið CFDI-svars (upplýsingar) - Gagnainnflutningur svars**.
 12. Veljið **Vista**.
@@ -216,7 +215,7 @@ Við vinnslu CFDI-reikninga í Finance í gegnum viðbót rafrænnar reikningsf�
 
 ### <a name="submit-cfdi-invoices"></a>Senda inn rafræna CFDI-reikninga
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, verður ekki lengur hægt að nota ferlið **Útflutningur/innflutningur á rafrænum reikningi** (**Viðskiptakröfur \> Reikningar \> Rafrænir reikningar**) til að senda inn CFDI-reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , verður ekki lengur hægt að nota ferlið **Útflutningur/innflutningur á rafrænum reikningi** ( **Viðskiptakröfur \> Reikningar \> Rafrænir reikningar** ) til að senda inn CFDI-reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
 
 > [!NOTE]
 > Áður en nýja ferlið **Senda inn rafræn skjöl** er notað skal ganga úr skugga um að uppsetningunni sem þarf fyrir rafræna mexíkóska reikninga sé lokið. Frekari upplýsingar er að finna í [CFDI-útlitsútgáfu 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
@@ -261,16 +260,16 @@ Upplýsingunum í innsendingarkladdanum er skipt niður á þrjá flýtiflipa:
 
 1. Farið í **Viðskiptakröfur \> Fyrirspurnir og skýrslur \> CFDI (rafrænir reikningar)**.
 2. Veljið CFDI-reikning sem var sendur inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**.
-3. Á aðgerðasvæðinu, í flipanum **Ferill**, skal velja **Kladdi rafræns skjals**.
+3. Á aðgerðasvæðinu, í flipanum **Ferill** , skal velja **Kladdi rafræns skjals**.
 
 ![Innsendingarkladdar skoðaðir í CFDI-reikningum](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Fyrir CFDI-reikninga sem voru sendir inn áður en kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, er hnappurinn **Ferill** í boði. Hnappurinn **Ferill** er ekki tiltækur fyrir CFDI-reikninga sem voru sendir inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**.
+> Fyrir CFDI-reikninga sem voru sendir inn áður en kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , er hnappurinn **Ferill** í boði. Hnappurinn **Ferill** er ekki tiltækur fyrir CFDI-reikninga sem voru sendir inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Senda inn afturköllun CFDI-reikninga
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, verður ekki lengur hægt að nota gamla ferlið til að hætta við CFDI-reikninga. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** , verður ekki lengur hægt að nota gamla ferlið til að hætta við CFDI-reikninga. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
 
 1. Farið í **Viðskiptakröfur \> Fyrirspurnir og skýrslur \> CFDI (rafrænir reikningar)**.
 2. Ef CFDI-reikningurinn er með stöðuna **Samþykktur** skal velja **Aðgerðir \> Hætta við CFDI**.
@@ -293,7 +292,7 @@ Upplýsingunum í innsendingarkladdanum er skipt niður á þrjá flýtiflipa:
     ![Upplýsingar um innsendingarkladda afturköllunar skoðaðar](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Til að virkja eiginleikana MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleikum MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar**, veljið línurnar sem innihalda MX-00010 og MX-00016 eiginleikana og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
+Til að virkja eiginleikana MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleikum MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar** , veljið línurnar sem innihalda MX-00010 og MX-00016 eiginleikana og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

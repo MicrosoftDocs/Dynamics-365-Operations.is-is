@@ -3,7 +3,7 @@ title: Körfutáknseining
 description: Þetta efni fjallar um körfutáknseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661148"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055761"
 ---
 # <a name="cart-icon-module"></a>Körfutáknseining
 
@@ -33,6 +33,9 @@ ms.locfileid: "3661148"
 ## <a name="overview"></a>Yfirlit
 
 Körfutákneiningin táknar körfuna í hauseiningu síðunnar og sýnir fjölda af vörum í körfunni. Körfutáknseiningin birtir einnig yfirlit yfir körfu (einnig þekkt sem smákarfa) þegar músin sveimar yfir körfutákninu. Smákarfan veitir notanda yfirlit yfir hluti í körfunni án þess að þurfa að fara á körfusíðuna. Að auki gerir það notandanum einnig kleift að fara beint á greiðslusíðu ef viðkomandi er ánægður með yfirlitið. Þetta dregur úr fjölda síðnaferða og gerir afgreiðsluna hraðari. 
+
+> [!NOTE]
+> Stuðningur við fyrir körfueiningu er tiltækur í Dynamics 365 Commerce útgáfu 10.0.11.
 
 Eftirfarandi mynd sýnir dæmi um einingu körfutákns sem sýnir smákörfu í Fabrikam-fyrirsögninni.
 

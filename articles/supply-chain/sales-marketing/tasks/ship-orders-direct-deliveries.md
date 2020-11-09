@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98ce5584f869fef57b542e6aa364045554ef0fde
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018515"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
@@ -72,7 +72,7 @@ ms.locfileid: "3984179"
 2. Veljið **Nýtt**.
 3. Færa inn eða veljið gildi í svæðinu **Reikningur viðskiptavinar** og veldu síðan **Í lagi**.
 4. Færðu eða veldu gildi í reitunum **Vörunúmer** og **Svæði**.
-5. Stækkaðu hlutann **Línuupplýsingar**, veldu síðan flipann **Afhending**. Í stað þess að stofna beina afhendingu sem hluta af vinnslu sölupöntunar eins og í fyrra ferli er hægt að velja að afhenda þessu verki til innkaupasérfræðings. Til að taka með sölupöntunarlínu í ferli beinnar afhendingar, verður að merkja línuna til beinnar afhendingar.  
+5. Stækkaðu hlutann **Línuupplýsingar** , veldu síðan flipann **Afhending**. Í stað þess að stofna beina afhendingu sem hluta af vinnslu sölupöntunar eins og í fyrra ferli er hægt að velja að afhenda þessu verki til innkaupasérfræðings. Til að taka með sölupöntunarlínu í ferli beinnar afhendingar, verður að merkja línuna til beinnar afhendingar.  
 6. Velja skal **Já** í svæðinu **Bein afhending**.
     - Ef varan hefur þegar verið sett upp fyrir beina afhendingu sjálfgefið, svæðið verður sjálfkrafa stillt á Já við færslu pöntunarlína. Hægt er að setja upp vöru fyrir beina afhendingu á sniðmát útgefinnar afurðar með valkostinn Bein afhending er stillt á Já og velja sjálfgefið vöruhús Beinnar afhendingar.  
     - Vegna þess að innkaupapöntunin hefur ekki enn verið stofnuð er Bein afhending staðan er stillt til að Afhenda beint.   

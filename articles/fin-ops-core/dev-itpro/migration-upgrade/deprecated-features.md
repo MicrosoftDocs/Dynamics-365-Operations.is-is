@@ -3,7 +3,7 @@ title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úr
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645390"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040123"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -43,7 +43,7 @@ ms.locfileid: "3645390"
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
 
 ### <a name="chinese-voucher-types-without-account-groups-selection"></a>Kínverskar fylgiskjalsgerðir án vals á lyklahópum
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt í aðgerðina með vali á lyklahópum. |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -56,7 +56,7 @@ ms.locfileid: "3645390"
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Windows afskrifar notkun á SHA1, eins og skjalfest er í [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -66,7 +66,7 @@ ms.locfileid: "3645390"
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(strengjaboð)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Windows afskrifar notkun á SHA1, eins og skjalfest er í [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -77,9 +77,9 @@ ms.locfileid: "3645390"
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Við erum að leggja niður aðferðina **setUtcString()**, vegna þess að betri endurnýjunaraðferð er fáanleg. |
+| **Ástæða úreldingar/fjarlægingar** | Við erum að leggja niður aðferðina **setUtcString()** , vegna þess að betri endurnýjunaraðferð er fáanleg. |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Kerfi |
 | **Dreifingarvalkostur**              | Öll |
@@ -87,7 +87,7 @@ ms.locfileid: "3645390"
 
 ### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bannskýrsla (IT) - Tilvísun eiginleika IT-00001
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki krafist lagalega. |
 | **Skipt út fyrir aðra eiginleika?**   | Nr |
@@ -97,7 +97,7 @@ ms.locfileid: "3645390"
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Innlend skattaskýrsla - Tilvísunar eiginleika IT-00003
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki krafist lagalega. |
 | **Skipt út fyrir aðra eiginleika?**   | Nr |
@@ -110,17 +110,20 @@ ms.locfileid: "3645390"
 
 ### <a name="us-payroll-tax-updates"></a>Uppfærslur á launaskatti í Bandaríkjunum
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við erum að hætta við skattauppfærslur vegna bandarískra launatengdra aðgerða vegna lítillar notkunar og aukinnar virkni sem nú er boðið upp á með stefnumótandi samþættingum.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
-| **Afurðasvæði sem haft er áhrif á**         | Laun |
-| **Dreifingarvalkostur**              | Öll |
-| **Staða**                         | Lækkað: Fyrir 1. október 2021, stefnum við að því að bjóða ekki upp á skattauppfærslur til viðskiptavina Bandaríkjamanna. Virkni verður áfram í vörunni, en aukahlutir halda ekki lengur virkni uppfærðri og allir vörugallar verða metnir frá hverju tilviki fyrir sig. Sjá frekari upplýsingar [Skattauppfærslur tekin úr notkun vegna launagreiðslu í Bandaríkjunum í Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+| **Afurðasvæði sem haft er áhrif á**         | Payroll |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Afskrifað: frá 31. júlí 2024 veitum við ekki lengur skattauppfærslur til US viðskiptavina. Virknin verður áfram í vörunni, en aukning uppfærir ekki virkni og allir gallar verða metnir á í hverju tilviki fyrir sig. |
+
+>[!NOTE]
+> Þetta táknar breytingu frá upphaflegri lokadagsetningu 1. október 2021. Sjá frekari upplýsingar [Skattauppfærslur tekin úr notkun vegna launagreiðslu í Bandaríkjunum í Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq).
 
 
 ### <a name="data-management-staging-clean-up"></a>Hreinsun á sviðssetningu gagnastjórnunar
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Uppfyllir ekki grunnkröfurnar sem þarf til að tímasetja reglulega hreinsun. |
 | **Skipt út fyrir aðra eiginleika?**   | Já, verkreinsunaraðgerðinni er bætt við til að uppfylla atburðarásina á heildrænan hátt. |
@@ -132,7 +135,7 @@ ms.locfileid: "3645390"
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Frakkland: Útflutningur FEC-bókhaldsgagna í XML
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út með TXT-sniði, **Frönsk FEC-endurskoðunarskrá** er í boði í gegnum **Fjárhagur** \> **Reglubundin verkefni** \> **Útflutningur gagna**.
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -143,7 +146,7 @@ ms.locfileid: "3645390"
 
 ### <a name="legacy-navigation-bar"></a>Eldri yfirlitsstika
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stilling á haus með öðrum Dynamics- og Office-vörum. Nánari upplýsingar er að finna í [Uppfæra yfirlitsstiku sem er samstillt við Office-hausinn](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 24 var fyrst kynnt til sögunnar endurhönnuð yfirlitsstika sem býður upp á leit. |
@@ -157,7 +160,7 @@ ms.locfileid: "3645390"
 
 ### <a name="legacy-default-action-behavior"></a>Eldri hegðun á sjálfvirkri aðgerð
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eldri hegðun á sjálfvirkum aðgerðum í hnitanetum leiðir til óvænts dálks sem er með sjálfgefinn aðgerðartengil eftir að dálkar hnitanets hafa verið endurraðaðir með sérstillingum. Nýi eiginleikinn fyrir fasta sjálfgefna aðgerð leiðréttir þetta. Frekari upplýsingar er að finna í [Fastar sjálfgefnar aðgerðir í hnitanetum](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Skipt út fyrir aðra eiginleika?**   | Fyrst í verkvangsuppfærslu 21 var eiginleikinn „fastar sjálfgefnar aðgerðir“ kynntur til sögunnar. Hægt er að virkja þennan eiginleika á síðunni **Valkostir afkastagetu biðlara**. |
@@ -167,7 +170,7 @@ ms.locfileid: "3645390"
 
 ### <a name="legacy-is-one-of-filtering-experience"></a>Eldri „er einn af“ síunarupplifun
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Síunarmöguleikinn „er einn af“ var endurhannaður í verkvangsuppfærslu 22 með það í huga að hann yrði eini „er einn af“ síunarmöguleikinn. |
 | **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 22 var fyrst boðið upp á endurbætur á síunarmöguleikanum „er einn af“ á síðunni **Valkostir afkastagetu biðlara**. Frekari upplýsingar er að finna í [Fínstillt „er ein af“ upplifun með síu](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
@@ -178,17 +181,17 @@ ms.locfileid: "3645390"
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Færibreyta til að virkja sölupantanir með marga uppruna fjármögnunar fyrir verksamninga
 Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningurinn er með marga uppruna fjármögnunar virka með stillingunni **Færibreytur verkefnastjórnunar** í **Leyfa sölupantanir fyrir verk með marga uppruna fjármögnunar**. Sjálfgefið er að þessi færibreyta er ekki virk. 
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Virknin verður alltaf virk eftir að færibreytan hefur verið fjarlægð. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Virknin til að styðja verkmiðaðar sölupantanir með marga uppruna fjármögnunar verður alltaf virk.   |
-| **Afurðasvæði sem haft er áhrif á**         |Færibreytan **Leyfa sölupantanir fyrir verk með mörgum fjármögnunaraðilum** verður fjarlægð. Eftirfarandi aðferðum verður breytt þegar færibreytan er fjarlægð: aðferðin **ctrlSalesOrderTable** í klasanum **ProjStatusType**, aðferðin **sannprófa** fyrir reitinn **ProjId** og aðferðin **keyra** í skjámyndinni **SalescreateOrder**. Eftirfarandi aðferðir verða úreltar þegar færibreytan er fjarlægð: **IsSalesOrderAllowedForMultipleFundingSources** í töfluskránni **ProjTable**, aðferðin **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** í töfluskránni **ProjTable**, gagnareiturinn **AllowSalesOrdersForMultipleFundingSources** í skjámyndinni **ProjParameters** og skrárnar **ProjParameterEntity**, einkaaðferðin **IsAssociatedToMultipleFundingSourcesContract** í töfluskránni **ProjTable**. |
+| **Afurðasvæði sem haft er áhrif á**         |Færibreytan **Leyfa sölupantanir fyrir verk með mörgum fjármögnunaraðilum** verður fjarlægð. Eftirfarandi aðferðum verður breytt þegar færibreytan er fjarlægð: aðferðin **ctrlSalesOrderTable** í klasanum **ProjStatusType** , aðferðin **sannprófa** fyrir reitinn **ProjId** og aðferðin **keyra** í skjámyndinni **SalescreateOrder**. Eftirfarandi aðferðir verða úreltar þegar færibreytan er fjarlægð: **IsSalesOrderAllowedForMultipleFundingSources** í töfluskránni **ProjTable** , aðferðin **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** í töfluskránni **ProjTable** , gagnareiturinn **AllowSalesOrdersForMultipleFundingSources** í skjámyndinni **ProjParameters** og skrárnar **ProjParameterEntity** , einkaaðferðin **IsAssociatedToMultipleFundingSourcesContract** í töfluskránni **ProjTable**. |
 | **Dreifingarvalkostur**              | Allir  |
 | **Staða**                         | Úrelding er fyrirhuguð fyrir útgáfulotu í apríl 2020. |
 
 ### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Eldri skýrslur verkflæðis fyrir stöðu rakningar og tilvika
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eldri skýrslur verkflæðis fyrir stöðu rakningar og tilvika verða úreltar vegna þess að ekki er lengur vísað í þær úr flettingunni. Skýrsluheitin eru WorkflowWorkflowInstanceByStatusReport og WorkflowWorkflowTrackingReport. |
 | **Skipt út fyrir aðra eiginleika?**   | Í staðinn er hægt að nota skjámyndina fyrir verkflæðissögu. |
@@ -203,7 +206,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiðing frá innri klösum er úrelt
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
 | **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma.|
@@ -213,7 +216,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Hnekking innri aðferða er úrelt
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
 | **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
@@ -224,7 +227,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 ## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 með verkvangsuppfærslu 24
 
 ### <a name="renaming-released-products"></a>Losuðum afurðum gefið nýtt heiti 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þegar þú notar aðgerðina **Endurnefna aðallykil** til að breyta vörukenni losaðrar vöru eru aðeins beinar tilvísanir framandlykla uppfærðar. Allar aðrar tilvísanir í útgefna vöru, svo sem frá framleiðslupöntunum, geymir gamla vörukennið. Fyrir vikið gætu verið ósamkvæm gögn sem munu á endanum loka fyrir viðskiptaferla. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. |
@@ -238,7 +241,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Stjórntæki fyrir ReportViewer SQL Server Reporting Services
 Viðskiptavinir geta notað aðgerðina **Útflutningur** sem innfellt stjórntæki ReportViewer fyrir SQL Server Reporting Services (SSRS) býður upp á til að sækja skjöl sem forrit Finance and Operations búa til. Þessi HTML-kynning á skýrslunni býður notendum upp á forskoðun á skjalinu án blaðsíðutals.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Forskoðun á HTML-kynningunni án blaðsíðutals er **ekki** í fullu samræmi við raunverulegu skjölin sem Finance and Operations búa til að lokum. Með því að samþykkja að fullu PDF sem staðlað snið fyrir viðskiptaskjöl geta notendur nýtt sér nútímalega skoðun með endurbættum afköstum þegar skýrslur forrits eru búnar til. |
 | **Skipt út fyrir aðra eiginleika?**   | Að halda áfram, PDF skjöl verða sjálfgefið snið fyrir skýrslur sem Finance and Operations búa til.   |
@@ -249,7 +252,7 @@ Viðskiptavinir geta notað aðgerðina **Útflutningur** sem innfellt stjórnt�
 ### <a name="client-kpi-controls"></a>KPI-stýring biðlara
 Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunaraðila og sérsniðið enn frekar af notanda.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Staðbundin biðlarastýring sem er notuð til að skilgreina afkastavísa er með lága upptöku viðskiptavinar og treystir á að þróunaraðili bæti við rekjanlegum mælingum. |
 | **Skipt út fyrir aðra eiginleika?**   | PowerBI.com þjónusta býður upp á heimsklassa tól til að skilgreina og stjórna afkastavísum sem byggist á gögnum frá utanaðkomandi aðilum.  Í væntanlegri útgáfu er áformað að gera þér kleift að fella inn lausnir sem eru hýstar á PowerBI.com í vinnusvæðum forrits.   |
@@ -261,7 +264,7 @@ Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunara�
 
 #### <a name="field-groups-containing-invalid-field-references"></a>Reitahópar sem innihalda ógilda tilvísanareiti
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Mögulegt er fyrir skilgreiningar á lýsigögnum töflu að hafa reitahópa sem innihalda ógilda tilvísanareiti. Ef sett upp getur það leitt til keyrsluvillu í Fjárhagsskýrslugerð og SQL Server Reporting Services (SSRS). Þetta vandamál er sem stendur flokkað sem *viðvörun þýðanda* frekar en *villa* sem þýðir að stofnun virkjanlegs pakka og uppsetning geti haldið áfram án þess að laga vandamálið. Til að leysa þennan vanda þarf að:<br><br>1. Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.<br><br>2. Endurþýða.<br><br>3. Tryggja að tekið sé á öllum viðvörunum og villum. |
 | **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni. |
@@ -277,7 +280,7 @@ Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Runuflutningsreglur fyrir lyklafærslur undirbókar
 Samstillta flutningsstillingin er felld úr gildi í færibreytum fjárhags.  Þessari stillingu er aðeins skipt út fyrir ósamstillta og áætlaða runu, sem þegar er til staðar sem valkostir fyrir flutning. Frekari upplýsingar er að finna á blogginu [Færibreytur fjárhags - Reglur fyrir runuflutning](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við fjarlægjum samstillingarvalkostinn vegna þess að hann hefur áhrif á frammistöðu kerfisins. |
 | **Skipt út fyrir aðra eiginleika?**   | Ósamstillt og áætluð runa eru valkostir til að nota í stað samstilltrar.   |
@@ -288,7 +291,7 @@ Samstillta flutningsstillingin er felld úr gildi í færibreytum fjárhags.  Þ
 ### <a name="electronic-reporting-for-russia"></a>Rafræn skýrslugerð fyrir Rússland
 Eiginleiki til að stilla .txt- og .xml-skráarsnið yfirlýsinga. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir rafræna skýrslugerð. |
 | **Skipt út fyrir aðra eiginleika?**   | Já. |
@@ -299,7 +302,7 @@ Eiginleiki til að stilla .txt- og .xml-skráarsnið yfirlýsinga.
 ### <a name="financial-reports-generator-for-russia"></a>Fjárhagsskýrslugerðarforrit fyrir Rússland
 Verkfæri til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og flytja út gögn í XLS- og DOC-skýrslusniðmát. Virkir hlutar: Flytja út gögn í XLS- og DOC-skýrslusniðmát, fyrirspurnir, föst skilyrði eru fjarlægð. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Fjarlægðum hlutum er skipt út fyrir rafræna skýrslugerð. |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Notandaviðmót fyrir uppsetningu á fjárhagsskýrslum ætti að nota til að setja upp gagnasöfnunarreglur með fjárhagslyklum eða skattskrám. Flytja út gögn í ýmisar skáargerðir, föst skilyrði og fyrirspurnir eins og gagnasöfnunarreglur ættu að vera stilltar í rafrænni skýrslugerð. |
@@ -310,7 +313,7 @@ Verkfæri til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og fl
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Samþætting við ytri þjónustuveitendur við að senda rafræna skýrslugerð í gegnum samskiptarásir fyrir Rússland
 Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frekari sendingar til opinberra veitenda rafrænna skýrslugerða auk þess að flytja inn stöðu til baka.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir stillanlega eiginleika rafrænna skilaboða. |
 | **Skipt út fyrir aðra eiginleika?**   | Já.  |
@@ -322,7 +325,7 @@ Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frek
 ### <a name="profit-tax-register-wizard"></a>Leiðsagnarforrit fyrir skattskrá hagnaðar
 Eiginleiki til að búa til sniðmát fyrir nýjar skattskrár hagnaðar. Þessi eiginleiki býr til X++ hluti fyrir nýjar skrár, sem eru síðan búnar til sem sniðmát þar sem viðeigandi reiknireglum er bætt við.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eiginleiki er ekki samhæfur við stækkunarhæfnislíkan Finance and Operations. |
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert |
@@ -339,7 +342,7 @@ Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu.
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
 Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Frekari upplýsingar eru í [Yfirlit afurðarráðlegginga](../../../commerce/product-recommendations.md).  
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Þó eru áform um að fá þennan eiginleika aftur inn sem vægi við nýja ráðleggingarþjónustu eftir haustið 2018.   |
@@ -350,7 +353,7 @@ Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðn
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Útvíkkun listans yfir aðgerðir Rafrænnar skýrslugerðar
 Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjáningarbyggingu (til að fá frekari upplýsingar, sjá [Útvíkka lista yfir aðgerðir Rafrænnar skýrslugerðar (ER)](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) er ekki studdur lengur. Vegna breytinga á ER API, varð API til að kalla innbyggðar aðgerðir frá ER tjáningarbyggingu innra API og ekki hægt að útvíkka lengur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frumkvæðis innsiglun kóða  |
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert. Í hvert skipti sem þörf er á nýrri innbyggðu aðgerð verður að senda nýtt framlengingarbeiðni til ER rammahópsins.<br><br>Sem tímabundið verk um það leyti sem umbeðin aðgerð er í þróun hjá ER teyminu er hægt að forrita nauðsynlega rökfræði sem aðferð sérsniðins umsóknarflokks. Þessa aðferð er hægt að nálgast í ER-tjáningu sem eiginleika viðbætts ER-gagnasafns af **Umsókn/Flokkur** gerðinni sem vísar til þessa sérsniðna umsóknarflokks.  |
@@ -362,7 +365,7 @@ Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjánin
 
 Þessar tvær skýrslur eru ekki lengur studdar í Finance and Operations. Í staðinn er hægt að nota skýrslu **Aldur birgða** til að bæta notandaupplifunina.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |--------------|-----------------------|
 | **Ástæða afskrifta**       | Afrituð virkni  |
 | **Skipt út fyrir aðra eiginleika?** | Já. Þessar skýrslur hafa verið skipt út fyrir skýrslu **Aldur birgða**.     |
@@ -371,12 +374,12 @@ Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjánin
 | **Staða**                       | Úrelt: Valmyndaratriði þessara tveggja skýrslna hafa verið fjarlægðar í útgáfu 7.3. Kóðann fyrir skýrslurnar er samt sem áður enn að finna í afurðinni. Áætlað er að fjarlægja kóðann í framtíðarútgáfu. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI efnispakkar eru tiltækar á AppSource
-Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
+Efnispakkarnir **Kostnaðarstjórnun** , **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruuppfærslur í Microsoft Power BI. |
-| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun** , **Fjárhagsleg frammistaða** og **Afköst smásölurásar** , sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Afurðasvæði sem haft er áhrif á**         | Kostnaðarstjórnun, Fjármál og Smásala                                                                                               |
 | **Dreifingarvalkostur**              | Einungis ský (Samþætting við PowerBI.com er ekki studd við dreifingu á staðnum.)                                                                                                            |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018.    |
@@ -385,10 +388,10 @@ Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retai
 
 Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna notendaviðmótið sem birtist notendum þegar þeir heimsækja vinnusvæði gagnastjórnunar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við erum að fjárfesta í veitingu nýrrar notendaupplifunar í nýja notendaviðmótinu.             |
-| **Skipt út fyrir aðra eiginleika?**   | Nýja notendaviðmótið, sem kallast *Aukið yfirlit*, kemur í stað gamla notendaviðmótsins.            |
+| **Skipt út fyrir aðra eiginleika?**   | Nýja notendaviðmótið, sem kallast *Aukið yfirlit* , kemur í stað gamla notendaviðmótsins.            |
 | **Afurðasvæði sem haft er áhrif á**         | Vinnusvæði gagnastjórnunar                                                     |
 | **Dreifingarvalkostur**              | Allir                                                                           |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018. |
@@ -397,7 +400,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 
 Þessar skattar hafa verið felldar inn í Vöru- og þjónustuskatt á Indlandi.
 
-|                                             |                                                                         |
+|  &nbsp;                                           |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Þessar skattar hafa verið felldar inn í Vöru- og þjónustuskatt á Indlandi.                          |
 | **Skipt út fyrir aðra eiginleika?**            | Indverskur vöru- og þjónustuskattur                                                              |
@@ -407,7 +410,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 
 ### <a name="file-validation-utility-fvu-for-india"></a>Villuleitarhjálparforrit (FVU) fyrir Indland
 
-|                                             |                                                                         |
+|              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
 | **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
@@ -419,7 +422,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 
 Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 
-|                                             |                                                                         |
+|             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
 | **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
@@ -430,7 +433,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 ### <a name="exportimport-exim-incentive-scheme-for-india"></a>Útflutningur/Innflutningur (EXIM) hvatningarkerfi fyrir Indland
 
 
-|                                             |                                                                         |
+|              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
 | **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
@@ -444,7 +447,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
 Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Frekari upplýsingar eru í [Yfirlit afurðarráðlegginga](../../../commerce/product-recommendations.md).  
 
-|   |  |
+|  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Þó eru áform um að fá þennan eiginleika aftur inn sem vægi við nýja ráðleggingarþjónustu eftir haustið 2018.   |
@@ -459,7 +462,7 @@ Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðn
 
 Umreikningur gjaldmiðils fyrir bókhald og skýrslugjaldmiðla var kynntur þegar evran var kynnt.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmarkaður notkun og viðbót við afrita lögaðila sem virkni í staðinn.      |
 | **Skipt út fyrir aðra eiginleika?**   | Nei, en eiginleikunum „Afrita lögaðila“ og „Skilgreiningar“ var bætt við til að auðvelda flutning til fyrirtækis sem hefur breyttar grunnkröfur. |
@@ -471,7 +474,7 @@ Umreikningur gjaldmiðils fyrir bókhald og skýrslugjaldmiðla var kynntur þeg
 
 Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu. Þessi hluti er ekki lengur studdur í Finance and Operations. Upprunalegt smáforrit sem bætir notandaupplifunina hefur komið í stað virkni WMDP.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni.       |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Eiginleikanum hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina yfirlit yfir forritið Warehousing](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
@@ -483,7 +486,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 
 Jöfnunarregla var notuð til að velja og merkja bankaskjal við handvirka jöfnun skjala í afstemmingarvinnublaðinu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun.                                                                         |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Síunarskilyrði dálka ætti að nota til að finna skjöl fyrir afstemmingu. |
@@ -497,7 +500,7 @@ Jöfnunarregla var notuð til að velja og merkja bankaskjal við handvirka jöf
 
 Consejo Superior Bancario-greiðslusnið voru notuð til að senda greiðsluskrár til bankans fyrir viðskiptavina- og lánardrottnagreiðslur. Innihald þessara sniða var ákvarðað af Asociación Española de Banca. Það tekur á Cuaderno 19, 32, 58, 34.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                  |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 millifærsla fjármuna og snið beingreiðslu fyrir Spán |
@@ -508,7 +511,7 @@ Consejo Superior Bancario-greiðslusnið voru notuð til að senda greiðsluskr�
 
 Greiðslufærslur banka voru prentaðar og myndaðar með útflutningssniði greiðslufærslna (LT) fyrir Litháen. Litháíska markaðinn hóf að nota LITAS, sameinuðum rafræna bankakerfinu, 2005.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Litháen     |
@@ -519,7 +522,7 @@ Greiðslufærslur banka voru prentaðar og myndaðar með útflutningssniði gre
 
 Greiðslusnið BBS Direkte Remittering innihalda útflutning innheimtu fyrir greiðsla viðskiptavinar (beingreiðsla) og innflutning svarskilaboða.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.  |
 | **Skipt út fyrir aðra eiginleika?**   | Greiðslusnið viðskiptavinar AvtaleGiro fyrir noregs má nota til að mynda skilaboð beingreiðslu. Innflutningur svarskilaboða verða innleidd í síðari útgáfum. |
@@ -530,7 +533,7 @@ Greiðslusnið BBS Direkte Remittering innihalda útflutning innheimtu fyrir gre
 
 Þessa verkfæris er notaður þegar bókhaldslyklum á Spáni krefst meiriháttar breytingar. Notendur geta flytja nýja bókhaldslykla í Microsoft Excel eða textasnið og einnig er hægt að flytja inn fjárhagsskýrslur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun                                                  |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
@@ -541,7 +544,7 @@ Greiðslusnið BBS Direkte Remittering innihalda útflutning innheimtu fyrir gre
 
 Eldra belgískt Greiðslusnið fyrir innheimtu (beingreiðsla).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                          |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO 20022 beingreiðslusnið fyrir Belgíu.         |
@@ -552,7 +555,7 @@ Eldra belgískt Greiðslusnið fyrir innheimtu (beingreiðsla).
 
 DTA/EZAG snið eru samþætta í ESR-kerfinu því þeau geta borið áfram tilvísunarnúmer. Þar sem tilvísunarnúmerið er ekki tilskilinn, má nota sniðin til að vinna allar lánardrottnagreiðslur. Þessara sniða eru notaður af fyrirtækjum sem hafa á bankareikning í staðsetningu annars staðar en “Postfinance”.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Sviss   |
@@ -563,7 +566,7 @@ DTA/EZAG snið eru samþætta í ESR-kerfinu því þeau geta borið áfram tilv
 
 EDIFACT-DIRDEB Greiðslusnið innheimtu (beingreiðsla).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                          |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO 20022 beingreiðslusnið fyrir Austurríki.         |
@@ -574,7 +577,7 @@ EDIFACT-DIRDEB Greiðslusnið innheimtu (beingreiðsla).
 
 EDIVAT er úreltum Belgískar staðal fyrir rafræna skattskýrslu sent með öruggum pósti. Dynamics AX 2012 heldur áfram skrifvarið lausn til að virkja aðgang að söguleg gögn.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau eiginleiki eru ekki lengur notaður.                           |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
@@ -585,7 +588,7 @@ EDIVAT er úreltum Belgískar staðal fyrir rafræna skattskýrslu sent með ör
 
 eGiro byggir á alþjóðlegum staðli Sameinuðu þjóðanna EDIFACT CREMUL, (Multiple Credit Advice Message), notaður fyrir sjálfvirka bókun á greiðslum viðskiptavina. Í Dynamics AX er eGiro er innleitt sem innflutningssnið greiðslu viðskiptavinar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
 | **Skipt út fyrir aðra eiginleika?**   | Já, innflutningstilkynning ISO20022 Camt. 054. |
@@ -596,7 +599,7 @@ eGiro byggir á alþjóðlegum staðli Sameinuðu þjóðanna EDIFACT CREMUL, (M
 
 Sönnun um að vörur teknar frá lánardrottni fyrir sölur án kaupa. Vörur sem eru meðhöndlaðar í ytri birgðir hafa ekki áhrif á staðalaðar birgðir, og má selja þær og síðan kaupa sjálfkrafa. Ferlið stofnar raunverulegum birgðahreyfingar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir aðra eiginleika                                    |
 | **Skipt út fyrir aðra eiginleika?**   | Já, kjarnaaðgerðir vörusendingar á Innleið                |
@@ -607,7 +610,7 @@ Sönnun um að vörur teknar frá lánardrottni fyrir sölur án kaupa. Vörur s
 
 Verkfæri er notað til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og flytja út gögn í sniðmát skýrslu XLS og DOC.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun                                                                            |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Forritið verður skipt út af skilgreiningar Rafræna skýrslugerð í framtíðinni. |
@@ -618,7 +621,7 @@ Verkfæri er notað til að setja upp gagnasöfnun fyrir bókhald og skattaskýr
 
 Hægt er að velja innflutningssnið fyrir finnskar greiðslur sem flytur inn greiðslufærslur viðskiptavinar úr ytri skrá frá bankanum.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
 | **Skipt út fyrir aðra eiginleika?**   | Já, innflutningstilkynning ISO20022 Camt. 054. |
@@ -629,7 +632,7 @@ Hægt er að velja innflutningssnið fyrir finnskar greiðslur sem flytur inn gr
 
 Sniðið sem er tiltekið fyrir Finnland er notað til að flytja inn bókhaldsfærslur í fjárhag.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 Camt. 053-innflutningur bankayfirlits með ítarlegri bankaafstemmingu. |
@@ -640,7 +643,7 @@ Sniðið sem er tiltekið fyrir Finnland er notað til að flytja inn bókhaldsf
 
 Isabel er ramma fyrir rafræn bankaviðskipti í Evrópu og de-facto staðall í Belgíu.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Hætt hefur verið samþætting við Isabel-biðlara.   |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Greiðslusnið sem eru ekki lengur notaður er skipt fyrir ISO20022 greiðslusnið millifærsla fjármuna fyrir Belgíu. |
@@ -651,7 +654,7 @@ Isabel er ramma fyrir rafræn bankaviðskipti í Evrópu og de-facto staðall í
 
 Þessir eiginleikar eru notaðir fyrir Breytingar á bókhaldslykill og bókhaldsreglur fyrir Spán Það varpar lyklum til að aðstoða við að umbreyta gamla bókhaldslykilinn í nýja bókhaldslykil og ber saman fyrra fjárhagsárið með nýja fjárhagsárið, jafnvel þó þær voru bókaðar á mismunandi lykilnúmer.
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun                                                  |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
@@ -662,7 +665,7 @@ Isabel er ramma fyrir rafræn bankaviðskipti í Evrópu og de-facto staðall í
 
 Eldri Ítölsk greiðslusnið fyrir millifærsla fjármuna.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                          |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Ítalía         |
@@ -673,7 +676,7 @@ Eldri Ítölsk greiðslusnið fyrir millifærsla fjármuna.
 
 Telehansa og Teleservice-snið notuð til að flytja út greiðslu banka.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Eistland       |
@@ -684,7 +687,7 @@ Telehansa og Teleservice-snið notuð til að flytja út greiðslu banka.
 
 Þegar greiðsluskrár eru myndaðar, geymir í skráasafn sjálfkrafa allar skrár sem eru stofnaðar, jafnvel skrár sem voru áður skrifuð eða lesa.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir aðra eiginleika                                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, Safnvistaðar vinnslur í Rafrænni skýrslugerð                            |
@@ -695,7 +698,7 @@ Telehansa og Teleservice-snið notuð til að flytja út greiðslu banka.
 
 Telehansa og TeleTeenus-snið notuð til að flytja inn greiðslu banka.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                    |
 | **Skipt út fyrir aðra eiginleika?**   | Já, bankainnflutningstilkynning ISO20022 Camt. 054. |
@@ -706,10 +709,10 @@ Telehansa og TeleTeenus-snið notuð til að flytja inn greiðslu banka.
 
 Mannauður, launaupplýsingar
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi aðgerð hefur verið skipt fyrir síðurnar Laun og Mannauður.  |
-| **Skipt út fyrir aðra eiginleika?**   | **Fríðindi**, **Tekjur**, og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Þessi virkni er opnuð með því að nota **Mannauður 1** \> **Laun** skilgreiningarlykillinn. |
+| **Skipt út fyrir aðra eiginleika?**   | **Fríðindi** , **Tekjur** , og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Þessi virkni er opnuð með því að nota **Mannauður 1** \> **Laun** skilgreiningarlykillinn. |
 | **Afurðasvæði sem haft er áhrif á**         | Mannauður, Laun   |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations útgáfu 1611.    |
 
@@ -717,7 +720,7 @@ Mannauður, launaupplýsingar
 
 Frammistöðustjórnun inniheldur markmiðastjórnun og samþættingu við yfirferðir frammistöðu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frammistöðustjórnun var endurhönnuð og blaðsíðufjöldi var minnkað til að einfalda ferlið.                 |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Markmið eru sýnileg stjórnendum gegnum gátt fyrir Sjálfsafgreiðsla stjórnanda og hægt er að breyta og skoða af stjórnanda. |
@@ -728,7 +731,7 @@ Frammistöðustjórnun inniheldur markmiðastjórnun og samþættingu við yfirf
 
 Postgirot og Postgirot Utland greiðslusnið fyrir Svíþjóð
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Svíþjóð        |
@@ -739,7 +742,7 @@ Postgirot og Postgirot Utland greiðslusnið fyrir Svíþjóð
 
 Rafmerki (RFID) er gagnasöfnunartækni sem notar Rafræn tög til að geyma auðkennisgögn og no-line-of-sight requirement reader til að grípa auðkenni gögn.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum.   |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                              |
@@ -750,7 +753,7 @@ Rafmerki (RFID) er gagnasöfnunartækni sem notar Rafræn tög til að geyma au�
 
 Lettneskt löggjöf veitir tilteknar reglur um hvernig sölureikninga skulu númeraðir. Eiginleikinn leyfir þér að úthluta tilteknum númer á sölureikninga, byggt á notanda eða notendaflokk. Síðan er hægt að mynda skýrslu eða xml-skrá. Einnig er hægt að prenta skýrslu um reikningsnúmera sem eru notaðar.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Í opinber tölusetning reikninga þarf ekki lengur að halda við. Skýrslu um notuð reikningsnúmer er ekki lengur þörf. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer       |
@@ -761,7 +764,7 @@ Lettneskt löggjöf veitir tilteknar reglur um hvernig sölureikninga skulu núm
 
 Nöfn stjórnanda og aðalbókari fyrirtækis má tilgreina í upplýsingar um fyrirtækið og notaðar í útprentunum mismunandi staðbundna skýrslu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir aðra eiginleika                                     |
 | **Skipt út fyrir aðra eiginleika?**   | Já, er hægt að nota uppsetningu embættismanna í sama tilgangi.   |
@@ -770,7 +773,7 @@ Nöfn stjórnanda og aðalbókari fyrirtækis má tilgreina í upplýsingar um f
 
 ### <a name="shipping-carrier-interface"></a>Viðmót farmflytjanda
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni   |
 | **Skipt út fyrir aðra eiginleika?**   | Að hluta til skipt út fyrir Flutningsstjórnun |
@@ -781,7 +784,7 @@ Nöfn stjórnanda og aðalbókari fyrirtækis má tilgreina í upplýsingar um f
 
 Greiðslusnið Telepay innihalda útflutning greiðsla lánardrottins (millifærsla fjármuna) og innheimtubréf (beingreiðsla) til viðskiptavina.
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið kreditfærslu og AvtaleGiro-greiðslusnið viðskiptavinar fyrir Noreg, ásamt innflutningi á skilaskrám banka pain.002 og camt.054. |
@@ -792,7 +795,7 @@ Greiðslusnið Telepay innihalda útflutning greiðsla lánardrottins (millifær
 
 Tvö snið fyrir útflutning á greiðslum eru tiltækar fyrir Finnland. LM02 (FI) er notuð fyrir innanlandsgreiðslur og LUM2 (FI) er notað fyrir erlendar greiðslur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                        |
 | **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna fyrir Finnland       |
@@ -801,7 +804,7 @@ Tvö snið fyrir útflutning á greiðslum eru tiltækar fyrir Finnland. LM02 (F
 
 ### <a name="warehouse-management-ii"></a>Vöruhúsakerfi II
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruhúsakerfi II-lausn (WMS II) sem var tiltæk í virkni tvíteknu kerfiseininga **Birgðastjórnunar** sem er í einingunni **Vöruhúsakerfi** sem var gefin út í Dynamics AX 2012 R3.                                                                         |
 | **Skipt út fyrir aðra eiginleika?**   | Einingin **Vöruhúsakerfi** sem var gefin út í AX 2012 R3, Dynamics AX 2012, R3 CU8 og Dynamics AX 2012 R3 CU9 kemur í stað eiginleika vöruhúsakerfis II. Nýja kerfið hefur fleiri ítarlegar aðgerðir og sveigjanlegri vöruhúsakerfisferli en vöruhúsakerfi II. |
@@ -812,7 +815,7 @@ Tvö snið fyrir útflutning á greiðslum eru tiltækar fyrir Finnland. LM02 (F
 
 Mannauður, launaupplýsingar
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun                                                           |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                  |
@@ -823,7 +826,7 @@ Mannauður, launaupplýsingar
 
 Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum verkflæði sem voru tiltæk til að auðvelda skipulag fyrir ferlið við frammistöðustjórnun.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frammistöðustjórnun hefur verið algerlega endurhönnuð í Finance and Operations.     |
 | **Skipt út fyrir aðra eiginleika?**   | Endurhannaður Eiginleiki frammistöðustjórnunar gefur meiri stjórn yfir markmið, mælingar sem notaðar eru til að rekja framvindu, og að hengja við frekari gögn. Markmið má geyma sem sniðmát og síðan endurnotuð. Þessi eiginleiki getur hjálpað við að setja upp viðbótar markmið fyrir starfsmennina fljótlegri hátt. |
@@ -835,7 +838,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Möguleika á að hætta við breytingar á reikningi lánardrottins
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bætt frammistaða.        |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                             |
@@ -846,7 +849,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki tókst að laga uppbyggingu AIF og AxDs að skýjaþjónustu. Upp komu afkastavandamálí tengslum við fjöldainnflutning.                                        |
 | **Skipt út fyrir aðra eiginleika?**   | Þessum eiginleika er skipt út fyrir ramma innflutning/útflutning gagna, sem styður endurtekinn magninnflutning/útflutning gagna. Mælt er með því að raunverulegar töflur sé notað AxBC. |
@@ -857,7 +860,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 Innheimtuforskriftir voru notaðar til að reikna út innheimtuverð fyrir innheimtukóða. Þessar forskriftir þurftu sérsniðna forritun í C Sharp eða Visual Basic forritunarmálinu. Í núverandi útgáfu af Dynamics AX er **forskriftarkóði innheimtukóða** ekki studdur.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stuðningur við sérsniðna C Sharp eða forskriftir Visual Basic var ekki bætt við í Dynamics AX 7.0. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei                                                                                      |
@@ -868,7 +871,7 @@ Innheimtuforskriftir voru notaðar til að reikna út innheimtuverð fyrir innhe
 
 Þegar á skilgreiningarlykill **uppskriftaútgáfur** var gerður óvirkur voru uppskriftarútgáfur falin í öllum skjámyndum og kerfið þvingaði fram 1:1 vensl milli útgefnar afurðir og Uppskrifta. Skilgreiningarlykillinn **Uppskriftaútgáfur** má ekki vera óvirkur í þessari útgáfu af Dynamics AX.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Notkun skilgreiningarlykils til að stjórna uppskriftaútgáfur lagast ekki að skýjaumhverfi. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                                      |
@@ -879,7 +882,7 @@ Innheimtuforskriftir voru notaðar til að reikna út innheimtuverð fyrir innhe
 
 Tiltekin greiðsluhátt fyrir Brasilískt fyrirtæki
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stuðning fyrir greiðsluaðferð Brasilískt Bordero Hefur verið lagðar af úr Brasilískt staðfærslu |
 | **Skipt út fyrir aðra eiginleika?**   | Númer   |
@@ -890,7 +893,7 @@ Tiltekin greiðsluhátt fyrir Brasilískt fyrirtæki
 
 Alríkisskattframtal fyrir ICMS-skatt
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þetta yfirlit á ekki lengur við sum Brasilískt fylki. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Notendur geta notað verkfærið Almennan Rafræna skýrslugerð til að skilgreina uppgjör ef nauðsynlegt við tilteknar aðstæður. |
@@ -901,7 +904,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 
 (SCAN) aðstæður viðbúnaðar er notað til að mynda, flytja út og inn stöðu á Nota Fiscal eletrônica (NF-e) þegar aðstæður Secretaria da Fazenda (SEFAZ) er ekki tiltækt.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Viðbúnaðarháttur er á ekki lengur við í öllum brasilískum fylkjum |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                          |
@@ -912,7 +915,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 
 Þessi fartækjaforrit leyfa notendum að yfirfara lykil viðskiptaviðmið.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.   |
 | **Skipt út fyrir aðra eiginleika?**   | Fylgjast með fjárhagslegri frammistöðu efnispakki fyrir Microsoft Power BI mun innihalda lykil viðskiptaviðmiða sem voru áður tiltæk í Viðskiptagreiningu. |
@@ -923,7 +926,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 
 Uppsetning fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu á afköstum í fyrirtækinu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eldri nálgun á viðskiptagreind (BI), Lítil notkun viðskiptavina og takmörkuðum eiginleikum. |
 | **Skipt út fyrir aðra eiginleika?**   | Ný Lausnir fyrir BI fyrir þessa útgáfu af Dynamics AX                                      |
@@ -932,7 +935,7 @@ Uppsetning fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu �
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Breyta virkni dagsetningu skjals í færslubókarsamþykkt reiknings
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun                                                               |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Hægt er að breyta dagsetningu skjals á bókuðum lánardrottnafærslu. |
@@ -941,7 +944,7 @@ Uppsetning fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu �
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>ClieOp03 greiðslusnið fyrir holland
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Snið gildir ekki lengur í Hollandi, þar sem því hefur verið skipt út fyrir SEPA-virkni. |
 | **Skipt út fyrir aðra eiginleika?**   | SEPA greiðsluútflutningur  |
@@ -952,7 +955,7 @@ Uppsetning fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu �
 
 Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kröfum um fylgiskjöl fyrir vegna samræmis við framtaksverkefni í tengslum við Sarbanes Oxley lög.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Of lítil notkun viðskiptavina. Microsoft SharePoint inniheldur sömu getu sem voru tiltæk í Samræmismiðstöð. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer   |
@@ -963,7 +966,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 Þetta verkfæri var notað til að samþætta lykilgögn úr Microsoft Dynamics CRM í Dynamics ERP forritin.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika. |
 | **Skipt út fyrir aðra eiginleika?**   | Common data service                                      |
@@ -972,7 +975,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Geymslueining og fjölvídd á lager
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Síðan AX 2012 hefur þessi virkni verið skipt út fyrir eiginleikasetti sameinuðum runupöntunum. Þetta eiginleikasett er með samantekið yfirlit á lager. |
@@ -981,7 +984,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="cue-group-metadata"></a>Bunkaflokkar Lýsigagna
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bunkaflokkar voru notaðar til að birta eina eða fleiri bunka í svæði Upplýsingakassa . Takmörkuð geta til að meðtaka hlutina einnig komu upp vandamál hvað varðar afköst, vegna þess að breyting á skrá í yfirskjámyndar orsökuðu að ein fyrirspurnin varð til fyrir bunka í bunkaflokknum. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer      |
@@ -990,7 +993,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="cue-metadata"></a>Bunka Lýsigögn
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bunka lýsigögn hafa verið takmarkað til að telja eða taka saman upplýsingar.    |
 | **Skipt út fyrir aðra eiginleika?**   | Reitar Lýsigögn var kynnt til sögunnar til að veita sveigjanlegri fyrir líkön. Til dæmis, er hægt að breyta gildandi talningar, flettingum og afkastavísar (KPI). Reitar Lýsigögn Talningar er bein útskipting bunka lýsigagna. |
@@ -999,7 +1002,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="danish-check-format"></a>Danskt ávísunarsnið
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stuðningur við danskt snið ávísana hefur verið lagður af og skýrslan hefur verið fjarlægð úr DK staðfærslu. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer    |
@@ -1010,7 +1013,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 Deildaskiptingar gagna veita rökréttan aðskilnað gagna í Dynamics AX gagnagrunninum.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Gögn deildaskiptingar voru kynnt í Dynamics AX 2012 R2 til að virkja einangrun gagna. Í almennum aðstæðum, er Fyrirtæki með dótturfyrirtæki og gögn úr eitt dótturfyrirtæki ætti ekki að vera sýnileg fyrir aðra dótturfyrirtæki, jafnvel þótt bæði dótturfyrirtækjum er stjórnað af sömu tæknideild. Hins vegar var þörf á aukalegar forskriftir og sameiginlegur kostnaður í forritinu til að stofna nýja deildaskiptingar og færa inn í þær gög, og afrita deildaskiptingar gagna. Í skýið, þar sem við höfum aðgang að verkvangur sem þjónusta (PaaS) gagnagrunnsþjónustu (Microsoft Azure SQL Gagnagrunnur), er mikið áhrifaríkara að nota í gagnagrunninn sem einangrunargeymi en að framkvæma einangrunina í forritinu. Óháð því hvort deildaskipting gagna er krafist fyrir dótturfyrirtæki, fyrir marga leigjendur, eða einfaldlega fyrir kvörðun, trúum við því að aðstæður megi meðhöndla betur með mörgum tilvikum af Finance and Operations. |
 | **Skipt út fyrir aðra eiginleika?**   | Viðskiptavinir sem nota deildaskiptingu gagna verða að nota mörg tilvik af Finance and Operations ef aðskilnaður gagnasafnsstiga er mikilvægt mál.    |
@@ -1022,7 +1025,7 @@ Deildaskiptingar gagna veita rökréttan aðskilnað gagna í Dynamics AX gagnag
 
 Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasamnýtingu. Báðir valkostirnir eru ekki lengur studdir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Geymsla samnýttra skráa er ekki lengur studd því umhverfi í skýi geta ekki átt samskipti við staðbundnar samnýttar skrár. Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla. Azure Blob-geymsla jafngildir geymslu í gagnagrunninum, úr því að aðeins er hægt að nálgast skjöl í gegnum Finance and Operations eyðublöð viðskiptavinar. Þessu fylgir sá viðbótarkostur að bjóða upp á geymslu sem hefur ekki neikvæð áhrif á afköst gagnagrunnsins. Blob geymsla er sjálfgefið geymslukerfi fyrir Skjalastjórnum og virkar tafarlaust. |
 | **Skipt út fyrir aðra eiginleika?**   | Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla.   |
@@ -1031,7 +1034,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="delimitation"></a>Afmörkun
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin Notkun á þessari virkni fannst. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                     |
@@ -1040,7 +1043,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="desktop-client"></a>Fjartengingarforrit
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Dynamics AX biðlarinn hefur verið endurhannaður til að auka notkunargetu yfir marga verkvanga og tæki.                      |
 | **Skipt út fyrir aðra eiginleika?**   | Nýr vefbiðlari er byggð á lýsigögnum skjáborðsmyndar og forritunarlíkans sem hefur verið breytt til að veita ríkulegan vefvettvang. |
@@ -1051,7 +1054,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 Í Dynamics AX 2012 R3, getur Retail Modern POS tengst beint í Channel DB á svipaðan hátt og við Enterprise POS. Það var auk staðlaðar samskiptaaðferðar Retail Modern POS sem átti samskipti í gegnum Retail-þjón.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Finance and Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.  |
@@ -1060,7 +1063,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="dutch-swift-mt940"></a>Hollenska SWIFT MT940
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Almenn virkni er nú notaðar í stað staðfært virkni.                    |
 | **Skipt út fyrir aðra eiginleika?**   | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. |
@@ -1071,7 +1074,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 Þessi virkni veitti úttak fyrir eXtensible Business Reporting Language (XBRL) sem er sérstaklega ætlað fyrir Þýska eBilanz-flokkunina.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Of lítil notkun viðskiptavina.  |
 | **Skipt út fyrir aðra eiginleika?**   | Þessum eiginleika hefur ekki verið skipt út fyrir annan eiginleika, en marga sérhæfða XBRL-pakka sem veita ríkulega xbrl-virkni eru tiltækar fyrir Þýsk markaði. |
@@ -1080,7 +1083,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="enterprise-portal-client"></a>Enterprise Portal biðlari
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eins biðlaravettvangur hefur verið stofnað.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nýr vefbiðlari er byggð á lýsigögnum skjáborðsmyndar og forritunarlíkans sem hefur verið breytt til að veita ríkulegan vefvettvang. |
@@ -1089,7 +1092,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="environmental-sustainability"></a>Sjálfbær þróun
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum.  |
 | **Skipt út fyrir aðra eiginleika?**   | Númer              |
@@ -1098,7 +1101,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 ### <a name="form-activex-and-managed-host-controls"></a>Skjámynd ActiveX og stjórntæki hýsils með umsjón
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skjámynd ActiveX og stjórntæki hýsils með umsjón byggjast á afskrifaða fjartengiforritinu. |
 | **Skipt út fyrir aðra eiginleika?**   | Umfangsmikill Rammi fjárhagsáætlunarstýringar styður uppbyggingu nýja stýringar sem er byggt á HTML, CSS og JavaScript og er fyrsta flokks stýring í Microsoft Visual Studio Tooling umhverfinu. |
@@ -1109,7 +1112,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 
 Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en samt er hægt að gera af notanda.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin skjámynd er til staðar til að staðfesta og birta fyrirframkvittunarskrá sem verður til þegar hún er mynduð með því að nota runuvinnslu. |
 | **Skipt út fyrir aðra eiginleika?**   | Enn er hægt að mynda fyrirframkvittanir og notandi hefur stjórn á staðsetningunni þar sem skráin er vistuð.   |
@@ -1118,7 +1121,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Þýska DTAUS útflutningur og greiðslu og innflutningur lyklayfirlits (samtölur og færslur)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Snið gildir ekki lengur í Þýskalandi, þar sem því hefur verið skipt út fyrir virkni sameiginlegs evrópsks greiðslusvæðis (SEPA).                    |
 | **Skipt út fyrir aðra eiginleika?**   | Já, þessum eiginleika hefur verið skipt út af greiðsluútflutningur SEPA og ítarlega virkni fyrir bankaafstemming fyrir innflutning reikningsyfirlita. |
@@ -1127,7 +1130,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Þýska DTAZV-greiðslusniðið í innlendum gjaldmiðli
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Snið gildir ekki lengur í þýskalandi, þar sem því hefur verið skipt út fyrir SEPA-virkni. |
 | **Skipt út fyrir aðra eiginleika?**   | SEPA greiðsluútflutningur    |
@@ -1136,7 +1139,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="german-mt940-import"></a>Flytja inn Þýska MT940
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Almenn virkni er nú notaðar í stað staðfært virkni.                    |
 | **Skipt út fyrir aðra eiginleika?**   | Já, þessum eiginleika hefur verið skipt út af ítarlega virkni fyrir bankaafstemmingu. |
@@ -1145,7 +1148,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="german-xml-eu-sales-list"></a>Þýskur XML ESB-sölulisti
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Xml-snið fyrir þýska skýrslugerð esb-Sölulista er ekki studd lengur. Hægt er að nota aðeins ELMA5 Snið textaskrár til að senda skýrslu esb-Sölulista til þýska skattstjórans. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer         |
@@ -1154,9 +1157,9 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS-skýrslur
 
-Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **Samantekt á prófjöfnuði**, **Ítarlegur prófjöfnuður**, **Bókhaldslykil**, **Endurskoðunarslóð**, **Stöður**, og **stöðulisti**.
+Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **Samantekt á prófjöfnuði** , **Ítarlegur prófjöfnuður** , **Bókhaldslykil** , **Endurskoðunarslóð** , **Stöður** , og **stöðulisti**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skýrslur fyrir Financial Microsoft SQL Server Reporting Services (SSRS) hefur verið skipt út fyrir eiginleika Management Reporter og sjálfgefnar skýrslur. |
 | **Skipt út fyrir aðra eiginleika?**   | Management Reporter (merktur **Fjárhagsskýrslugerð** í núverandi útgáfu af Dynamics AX)    |
@@ -1165,7 +1168,7 @@ Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **
 
 ### <a name="infopart-and-formpart-metadata"></a>InfoPart og FormPart lýsigögn
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | InfoPart og FormPart lýsigögn virkja stofnun upplýsingareita fyrir tvo mismunandi biðlara. |
 | **Skipt út fyrir aðra eiginleika?**   | InfoPart lýsigögn sem var einfaldaður skilgreining skjámyndar, er breytt í Skjámynd með uppfærsluverkfærum. FormPart lýsigögn sem vísaí Skjámynd, er skipt út fyrir beinni tilvísun sem er stofnað af uppfærsluverkfærum. |
@@ -1176,7 +1179,7 @@ Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **
 
 Listi yfir lykla fyrir lögaðilann og tengdar stöðuupplýsingar
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Upplýsingar um Stöðu er tiltæk á í **prófjöfnuð** listasíðu eftir lykils og víddar.  |
 | **Skipt út fyrir aðra eiginleika?**   | **Aðallyklar** inniheldur sömu lista með lyklum sem listasíðu **aðallykils** innihélt . Sýn hnitanets í **aðallykla** sýnir einnig enn minni, yfirlit í hnitaneti . |
@@ -1187,7 +1190,7 @@ Listi yfir lykla fyrir lögaðilann og tengdar stöðuupplýsingar
 
 Þessi eiginleiki gefur notanda kost á að Prenta sjóðstreymisskýrslu sem sýnir færslur og upplýsingar sjóðinnstreymis og útstreymis fyrir tilteknar dagsetningar á völdum bankareikningum.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Hægt er að fá sömu upplýsingar úr fyrirspurn Um bankafærslu. |
 | **Skipt út fyrir aðra eiginleika?**   | Fyrirspurn Um bankafærslu.                                            |
@@ -1198,7 +1201,7 @@ Listi yfir lykla fyrir lögaðilann og tengdar stöðuupplýsingar
 
 Þessi eiginleiki virkjaði myndun Mexíkósk rafræna reikninga með því að nota aðferðina Comprobante Fiscal Digital (CFD), þar sem fyrirtækið skrifar undir reikninginn með því að biðja um viðkomandi heimild frá yfirvalda. Þessi eiginleiki veitir einnig mánaðarleg skýrsla sem inniheldur alla rafræna reikninga sem voru gefnir út á tímabilinu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðferð er ekki lengur gild. Myndun rafrænna reikninga með því að nota aðferðina CFD var afskrifuð af skattyfirvöldum og skipt út fyrir Comprobante Fiscal Digital a través de Internet (CFDI) -aðferð, þar sem undirritun er framvísað til þriðja aðila þjónustuaðila (PAC). Mánaðarleg skýrsla hefur verið fjarlægt og fyrirspurnarvalkostur gerir notendum kleift að spyrjast fyrir um sögulegar færslur. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer    |
@@ -1209,7 +1212,7 @@ Listi yfir lykla fyrir lögaðilann og tengdar stöðuupplýsingar
 
 Dynamics AX 2012 vann úr óinnleysta virðisaukaskattinum (VSK) með því að nota aðgerðir sem eru sérstaklega notaðar fyrir Mexíkó fyrir óinnleystan skatt.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni  |
 | **Skipt út fyrir aðra eiginleika?**   | Já, þessari virkni hefur verið skipt út fyrir virkni staðlaðs skilyrts söluskatts sem Core veitir. |
@@ -1219,7 +1222,7 @@ Dynamics AX 2012 vann úr óinnleysta virðisaukaskattinum (VSK) með því að 
 ### <a name="microsoft-outlook-integration"></a>Samþætting Microsoft Outlook
 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir Microsoft Exchange Server samþættingu. |
 | **Skipt út fyrir aðra eiginleika?**   | Já                                                                            |
@@ -1230,7 +1233,7 @@ Dynamics AX 2012 vann úr óinnleysta virðisaukaskattinum (VSK) með því að 
 
 Færslubók birgða og vöruhúss hafa ekki lengur möguleikann á að merkja færslubók sem einka fyrir valinn notanda. Aðeins ferlið við lokun færslubóka sem einka fyrir notendaflokka og lokunar við breytingar er studd.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin Notkun á þessari virkni fannst. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                     |
@@ -1241,7 +1244,7 @@ Færslubók birgða og vöruhúss hafa ekki lengur möguleikann á að merkja f�
 
 Vörusamsetning (Product builder) var notaður til að setja saman á lifandi hátt vörur úr sölupöntun, innkaupapöntun, framleiðslupöntun, sölutilboð, verktilboð eða vöruþörf. Samkvæmt vörulíkani sem var með líkanabreytum gat notandinn velja gildi til að uppfylla kröfur viðskiptavinar og sækja einkvæmt afurðarafbrigði sem höfðu Uppskrift og leið.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Product builder birti X ++ kóða til að endanotenda og er ekki studdur í þessari útgáfu af Dynamics AX. Það hefur verið fjarlægð til að koma í veg fyrir tvíteknar viðhaldsvinnu á kóðagrunnum sem skarast.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Yfirlit afurðarafbrigða](../../../supply-chain/pim/build-product-configuration-model.md). |
@@ -1251,7 +1254,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 ### <a name="production-floor-app"></a>Forrit framleiðslugólfs
 Þetta er forritið fyrir spjaldtölvur sem keyra Windows 8.1 RT og Windows 8.1 Pro.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Með breytingunni á biðlara á netinu er hægt að skila svipaðri virkni í gegnum biðlara Dynamics AX 7.0 á staðnum. Verkspjaldstækið býður upp á notandaviðmót fyrir framleiðslugólf sem er fínstillt inn á snertieiginleika og skjámynd spjaldtölvu. |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Verkspjaldstækið, sem er staðbundinn hluti Dynamics AX 7.0.                                                                           |
@@ -1263,7 +1266,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 
 Þessi eiginleiki leyfði þér að breyta heiti á einn af þremur staðlaða afurðarvíddum (stærð, lit eða stíl) í nafn sem hentaði betur þínu fyrirtæki. Endurnefning innifalið allar merki þar sem nöfn afurðarvídda voru notuð.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi útgáfu af Dynamics AX styður ekki merkingabreytingar á keyrslutíma. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                            |
@@ -1274,7 +1277,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 
 Í Dynamics AX 2012 R3, gæti Retail-þjónn virkað með HTTP samskiptaaðferðar (ekki-öryggisvörðum). Þetta var til viðbótar við stöðluð samskipti með HTTPS.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vegna nýrra öryggisþarfa, aðeins öryggisvörðum samskipti með TLS 1,2 (eða ofan, sé það til staðar) er nú studd. Sjálfsafgreiðslu uppsetningarforritið mun sjálfkrafa skilgreina tölvunni þessu samskiptaaðferðar. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Aðeins stöðluðum HTTPS samskipti eru studd núna. |
@@ -1283,7 +1286,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 
 ### <a name="role-center-pages"></a>Hlutverkamiðstöðvarsíður
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Síður hlutverkamiðstöðvar voru byggðar á afskrifuðum Enterprise Portal verkvangi, sem hefur verið skipt út fyrir nýtt vefbiðlaravettvang í þessari útgáfu af Dynamics AX. |
 | **Skipt út fyrir aðra eiginleika?**   | Nýtt skjámyndarmynstur Vinnusvæðis veitir notendum hönnun sem er vinnslumiðuð og veitir auðveldan aðgang að almennum verkum innan þessu ferli.                       |
@@ -1292,7 +1295,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 
 ### <a name="sales-tax-jurisdictions"></a>Skattaumdæmi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                           |
@@ -1303,7 +1306,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 
 Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðskiptaferlum þínum til internetsins án stuðnings við upplýsingatækni.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Grunngerð Microsoft Azure sem notað er í Dynamics AX hefur nýja getu sem hægt er að nota í staðinn (til dæmis Azure setur). |
 | **Skipt út fyrir aðra eiginleika?**   | Númer   |
@@ -1312,7 +1315,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 
 ### <a name="ssas-demand-forecasting-strategy"></a>SSAS stefna eftirspurnarspár
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Hönnun á eiginleikanum getur ekki verið studd í nýrri skýjahögun. |
 | **Skipt út fyrir aðra eiginleika?**   | Azure Machine Learning stefna eftirspurnarspár                           |
@@ -1321,7 +1324,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Reikningahópur lánardrottins án bókunarupplýsinga
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun. Aðgerðinni hefur verið skipt út af reikningabók sem hefur virknina verkflæði. |
 | **Skipt út fyrir aðra eiginleika?**   | Verkflæðigeta reikningsbókar.     |
@@ -1333,7 +1336,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 
 Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn sýndarfyrirtæki gerði notendum mögulegt að setja upp töflur sem mátti deila með hóp fyrirtækja. Fyrir lýsingu á aðgerðinni sjá [reikningsskil og sýndarreikningsskil](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Eiginleikinn vinnur með því að flokka töflur í söfn sem tilheyra sýndarfyrirtæki, sem eru hópar af fyrirliggjandi "raunverulegum" fyrirtæki. Fyrirspurnir eru stofnaðar svo að öll fyrirtæki í sýndarfyrirtækinu hafi aðgang að gögnum í töflum tengdra töflusafna.
 
-|   |  | 
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | - Sýndarfyrirtæki verður að vera uppsett áður en gögn eru geymd í töflum. Að bæta sýndarfyrirtæki eftirá við yfir fyrirliggjandi framkvæmd er mjög erfitt.<br><br>- Þar sem hefur verið svo mikið um stöðlun gagna í gildandi útgáfu af Dynamics AX, er orðið mjög erfitt að vita hvað skuli bæta við töflusöfn. Til dæmis er erfitt að vita hvaða töflum eigi að deila. Allar töflur sem vísað er til úr töflum sem eru í sýndarfyrirtæki verður að bæta við. Vegna Stöðlun Tafla verða jafnvel einfalt aðalgögn sem er dreift yfir margar töflur að vera hluti af sýndarfyrirtækinu. Öll mistök sem gerð eru hér munu valda virknivandamálum.<br><br>- Þegar tafla er hluti af sýndarfyrirtæki, tapar það upplýsingar um uppruna gagnanna, og aðeins sýndarfyrirtæki er skráð.   |
 | **Skipt út fyrir aðra eiginleika?** | Altækar töflur er hægt að nota til að gera töflur aðgengilegar frá öllum fyrirtækjum. Það er engin útskipting sem stendur. |   
@@ -1344,7 +1347,7 @@ Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn s
 
 Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþykkt.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Finance and Operations er samhæft við töflur. Spjaldtölvuforrita er ekki lengur þörf.    |
 | **Skipt út fyrir aðra eiginleika?**   | Nei.          |
@@ -1353,7 +1356,7 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 
 ### <a name="workplanner"></a>Vinnuáætlun
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun |
 | **Skipt út fyrir aðra eiginleika?**   | Nei, en **Forstillingarvensl** síðu sem er opnuð á **forstillingarflokks** síðu, styður sömu viðskiptaaðstæður og í hinu úrelta **vinnuáætlun** síðu. |
@@ -1362,7 +1365,7 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 
 ### <a name="x-financial-statements"></a>X++ fjárhagsskýrslur
 
-|                                                 |                                                                                                          |
+| &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Ástæða úreldingar/fjarlægingar</strong> |                         Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                         |
 |  <strong>Skipt út fyrir aðra eiginleika?</strong>  | Management Reporter (merktur <strong>Fjárhagsskýrslugerð</strong> í núverandi útgáfu af Dynamics AX) |

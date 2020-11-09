@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8d030afb568b158e6caf48b0044d595d6ec024f6
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802215"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016172"
 ---
 # <a name="cluster-position-full"></a>Staðsetning klasa er full
 
@@ -43,7 +44,7 @@ Eiginleikinn *Staðsetning klasa er full* býður upp á aðra leið í stað ó
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þetta sýnidæmi sem leiðsögn ef unnið er með þennan eiginleika í framleiðslukerfi. Í því tilfelli verður hinsvegar að skipta út eigin gildum fyrir stillingarnar sem er lýst hér.
 
@@ -93,7 +94,7 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
 1. Í listasvæðinu skal velja færsluna **Stofnun klasatiltektar**.
 1. Veljið **Breyta** á aðgerðasvæðinu.
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Stjórnað af:** *Klasatiltekt*
     - **Mynda númeraplötu:** *Já*
@@ -106,7 +107,7 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
 
     - Lína 1 (oftast til staðar í sýnigögnum):
 
-        - **Work class ID:** *Sales* 
+        - **Auðkenni vinnuklasa:***Sala* 
         - **Gerð verkpöntunar:** *Sölupantanir*
 
     - Lína 2 (líklega ekki til staðar í sýnigögnum):
@@ -130,7 +131,7 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Nýtt** til að búa til sölupöntun 1.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-010*
     - **Vöruhús:** *61*
@@ -141,21 +142,21 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
     - **Vörunúmer:** *T0100*
     - **Magn:** *5*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
 1. Í flýtiflipanum **Sölupöntunarlínur** skal bæta við annarri línu sem er með eftirfarandi stillingum:
 
     - **Vörunúmer:** *L0101*
     - **Magn:** *20*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
 1. Fyrir hverja línu sem bætt var við, skal fylgja þessum skrefum til að taka frá birgðir:
 
     1. Velja skal línur sem á að taka frá.
     2. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Birgðir \> Frátekning**.
-    3. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir.
+    3. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir.
     4. Lokaðu síðunni **Frátekning**.
 
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
 
     Þegar losuninni er lokið birtast upplýsingaboð sem sýna auðkenni bylgju og sendingar sem voru búin til.
 
@@ -163,7 +164,7 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Nýtt** til að búa til sölupöntun 2.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinalykill:** *US-011*
     - **Vöruhús:** *61*
@@ -174,21 +175,21 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
     - **Vörunúmer:** *L0101*
     - **Magn:** *20*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
 1. Í flýtiflipanum **Sölupöntunarlínur** skal bæta við annarri línu sem er með eftirfarandi stillingum:
 
     - **Vörunúmer:** *T0100*
     - **Magn:** *2*
 
-1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
+1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Afhending** , skal stilla reitinn **Staðfest sendingardagsetning** á daginn í dag.
 1. Fyrir hverja línu sem bætt var við, skal fylgja þessum skrefum til að taka frá birgðir:
 
     1. Velja skal línur sem á að taka frá.
     2. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Birgðir \> Frátekning**.
-    3. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir.
+    3. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir.
     4. Lokaðu síðunni **Frátekning**.
 
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
 
     Þegar losuninni er lokið birtast upplýsingaboð sem sýna auðkenni bylgju og sendingar sem voru búin til.
 
@@ -197,11 +198,11 @@ Tilgreina verður hvar vörur eru tíndar og hvar þær eru settar.
 Tvö vinnukenni ættu að hafa verið stofnuð, hvert þeirra með tveimur tiltektarlínum. Fylgið eftirfarandi skrefum til að finna vinnukenni og úthlutanir númeraplötu.
 
 1. Opnaðu **Vöruhúsastjórnun \> Vinna \> Upplýsingar um vinnu**.
-1. Í hnitanetinu **Yfirlit**, skal leita í dálknum **Pöntunarnúmer** að sölupöntununum tveimur sem voru stofnaðar rétt í þessu. Skráið niður vinnuauðkenni hverrar sölupöntunar fyrir sig.
+1. Í hnitanetinu **Yfirlit** , skal leita í dálknum **Pöntunarnúmer** að sölupöntununum tveimur sem voru stofnaðar rétt í þessu. Skráið niður vinnuauðkenni hverrar sölupöntunar fyrir sig.
 1. Veljið línuna fyrir hvora sölupöntun fyrir sig til að sýna tengdar upplýsingar í hnitanetinu **Línur**. Skráið niður staðsetninguna þar sem hvor vara verður tínd úr.
 1. Farið í **Birgðastjórnun \> Fyrirspurnir og skýrslur \> Lagerlisti**.
 1. Í aðgerðasvæðinu skal velja **Víddir** til að opna svargluggann **Birting víddar**.
-1. Gangið úr skugga um að svargluggarnir **Númeraplata**, **Vöruhús** og **Vörunúmer** séu valdir og veljið síðan **Í lagi**.
+1. Gangið úr skugga um að svargluggarnir **Númeraplata** , **Vöruhús** og **Vörunúmer** séu valdir og veljið síðan **Í lagi**.
 1. Í glugganum **Sía** skal stilla eftirfarandi síur:
 
     - **Vörunúmer** – **er eitt af** – *L0101* og *T100*
@@ -236,10 +237,10 @@ Hvenær sem er í eftirfarandi skrefum er hægt að velja flipann **Upplýsingar
 
     Síðan **VERK: Raða: Stofnun klasatiltektar** birtist. Hér raðar þú völdu brettunum tveimur á tiltektarstaðsetningu. Þessi staðsetning gæti verið tankur eða gámur sem er notaður til að aðskilja tíndar birgðar eftir sölupöntun.
 
-1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna (*L0101*) og magn (*20* ea) sem verður raðað í stöðu 1 (fyrir sölupöntun 1).
+1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna ( *L0101* ) og magn ( *20* ea) sem verður raðað í stöðu 1 (fyrir sölupöntun 1).
 1. Stillið reitinn **STAÐA NA** á *1*.
 1. Veljið **Í lagi** (gátmerkistákn).
-1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna (*L0101*) og magn (*20* ea) sem verður raðað í stöðu 2 (fyrir sölupöntun 2).
+1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna ( *L0101* ) og magn ( *20* ea) sem verður raðað í stöðu 2 (fyrir sölupöntun 2).
 1. Stillið reitinn **STAÐA NA** á *2*.
 1. Veljið **Í lagi** (gátmerkistákn).
 
@@ -258,10 +259,10 @@ Hvenær sem er í eftirfarandi skrefum er hægt að velja flipann **Upplýsingar
 1. Veljið **Í lagi** (gátmerkistákn).
 1. Færið inn númeraplötuna sem varan er tínd úr með því að stilla reitinn **NP** á *LPREPL04*.
 1. Veljið **Í lagi** (gátmerkistákn).
-1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna (*T0100*) og magn (*2* ea) sem verður raðað í stöðu 2 (fyrir sölupöntun 2).
+1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna ( *T0100* ) og magn ( *2* ea) sem verður raðað í stöðu 2 (fyrir sölupöntun 2).
 1. Stillið reitinn **STAÐA NA** á *2*.
 1. Veljið **Í lagi** (gátmerkistákn).
-1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna (*T0100*) og magn (*2* ea) sem verður raðað í stöðu 1 (fyrir sölupöntun 1).
+1. Skoðið upplýsingarnar sem eru sýndar fyrir vöruna ( *T0100* ) og magn ( *2* ea) sem verður raðað í stöðu 1 (fyrir sölupöntun 1).
 1. Stillið reitinn **STAÐA NA** á *1*.
 1. Veljið **Í lagi** (gátmerkistákn).
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974862"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013054"
 ---
 # <a name="customer-aging-report"></a>Aldursskýrsla viðskiptavinar 
 
@@ -115,8 +115,9 @@ Skýrslan **Aldursgreining viðskiptavinar** sýnir stöðu sem er á gjalddaga 
 <tr class="even">
 <td><p><strong>Stefna prentunar</strong></p></td>
 <td><p>Veljið hvort eigi að reikna út stöðu og prenta aldursgreiningarskýrslur fyrir gömul tímabil eða komandi tímabil. Dagsetningarnar eru metnar miðað við dagsetninguna sem valin er í reitnum <strong>Staða þann</strong>. Veljið <strong>Afturábak</strong> til að sýna upplýsingar um liðin tímabil. Veljið <strong>Áfram</strong> til að sýna upplýsingar um tímabil í framtíðinni.</p>
-
-**Athugaðu:** Upplýsingarnar sem eru færðar inn í þetta svæði eru eingöngu notaðar ef aldursgreiningarrammi hefur ekki verið valinn.</P>
+<div class="alert">
+  
+<STRONG>Athugaðu:</STRONG> Upplýsingarnar sem eru færðar inn í þetta svæði eru eingöngu notaðar ef aldursgreiningarrammi hefur ekki verið valinn.</P>
 
 
 </div></td>

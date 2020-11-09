@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, VendPackingSlipJournalListPage, VendPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208041"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018860"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Innhreyfingarskjal jafnað við innkaupapantanir
 
@@ -42,7 +42,7 @@ Skráning innhreyfingarskjala á sér oft stað við innhlið í vöruhúsi. Þa
 Afurðir sem eru mótteknar í vöruhús gæti fara í gegnum gæðaskoðun áður en gengið er frá þeim í birgðir. Bæði Gæðapantanir eða biðgeymslupantanir má nota til að framkvæma gæðaeftirlit. Ef gæðapantanir eru notaðar, er hægt að skilgreina ferli til að læsa tímabundið vörur með frátekning meðan þær eru skoðaðar. Ef biðgeymslupantanir eru notaðar, eru afurðir fluttar í annað vöruhús til skoðunar. Vöruhúsið er þekkt sem biðgeymsluvöruhús. Í báðum gæðaskoðunarferlunum, gætu sumar vörur rýrnað, annað hvort þar sem þeir ekki samræmist gæðakröfum eða af því gæðaeftirlit felur í sér eyðileggingarprófun á sýnishorn afurðarinnar.
 
 ## <a name="product-receipt"></a>Innhreyfingarskjal afurðar
-Oftast er aðgerðin **Innhreyfingarskjal afurða** á **Innkaupapantanir** síða notuð til að merkja vörur sem **Móttekið** á Innkaupapöntunina. **Bókun innhreyfingarskjals afurða** síðuna hefur mismunandi valkostir fyrir það magn sem er bókfært sem móttekið. Til dæmis er hægt að stilla **Magn** reitinn á **Pantað magn** eða **Magn sem móttaka á nú**. Einnig, ef komuferli vöruhúss hefur verið notuð, stillirðu þetta svæði oft á **Skráð magn**. Hægt er að breyta magni á hverri pöntunarlínu sem verður merkt sem **Móttekið**, til að gera grein fyrir hvers kyns misræmi svo sem umframafhendingu og undirafhendingu. Við móttöku afurða, verður að tilgreina kennimerki innhreyfingarskjals afurðar, sem yfirleitt er tilvísun í fylgiseðils frá birgi. Þetta kennimerki er krafist í bókhaldi þar sem hún gerir athuganir eða úttektir á fylgiseðlum birgis gagnvart þess sem hefur verið móttökuð mögulegar, og reikningsfærðar birgðir eða kostnaðar.  
+Oftast er aðgerðin **Innhreyfingarskjal afurða** á **Innkaupapantanir** síða notuð til að merkja vörur sem **Móttekið** á Innkaupapöntunina. **Bókun innhreyfingarskjals afurða** síðuna hefur mismunandi valkostir fyrir það magn sem er bókfært sem móttekið. Til dæmis er hægt að stilla **Magn** reitinn á **Pantað magn** eða **Magn sem móttaka á nú**. Einnig, ef komuferli vöruhúss hefur verið notuð, stillirðu þetta svæði oft á **Skráð magn**. Hægt er að breyta magni á hverri pöntunarlínu sem verður merkt sem **Móttekið** , til að gera grein fyrir hvers kyns misræmi svo sem umframafhendingu og undirafhendingu. Við móttöku afurða, verður að tilgreina kennimerki innhreyfingarskjals afurðar, sem yfirleitt er tilvísun í fylgiseðils frá birgi. Þetta kennimerki er krafist í bókhaldi þar sem hún gerir athuganir eða úttektir á fylgiseðlum birgis gagnvart þess sem hefur verið móttökuð mögulegar, og reikningsfærðar birgðir eða kostnaðar.  
 
 Hægt er að stofna innkaupapantanir fyrir afurðir sem ekki eru ætlaðar að vera birgðir en skoðast sem útgjöld. Þessi tegund inniheldur pöntunarlínur þar sem afurðir eru merktar sem **Ekki í birgðum** samkvæmt birgðalíkanaflokki þeirra, og líka línur sem nota innkaupaflokka. Í þessu tilfelli fara vörur hugsanlega ekki í gegnum komuskráningu og móttöku í vöruhúsi. Í staðinn er **Innhreyfingarskjal afurða** aðgerð notuð til að skrá á innhreyfingu beint á Innkaupapöntuninni, og móttöku er grundvölluð á pantaðs magns, ekki skráð magn.  
 

@@ -3,7 +3,7 @@ title: Forskoða og birta tilraun
 description: Þetta efnisatriði lýsir því hvernig á að forskoða og birta tilraun úr Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930221"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097117"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Forskoða og birta tilraun
 
@@ -34,9 +34,11 @@ ms.locfileid: "3930221"
 ## <a name="preview-your-experiment-variations"></a>Skoða afbrigði tilrauna
 Hægt er að skoða afbrigðin og halda áfram að breyta þeim þar til þau líta út eins og til er ætlast.
 
-1. Í vefsmiðnum skal nota fellivalmynd afbrigða fyrir neðan skipanastikuna til að velja efnið sem á að forskoða. 
-1. Veljið **Forskoða** í efstu stikunni. Forskoðun á því hvernig efnið mun líta út þegar það verður birt.
-1. Til að forskoða annað afbrigði skal velja það úr fellilista afbrigða og velja **Forskoða** aftur.
+Til að forskoða tilraunarafbrigðin í Commerce svæðasmíð skal fylgja þessum skrefum.
+
+1. Í fellivalmynd afbrigða fyrir neðan skipanastikuna skal velja efnið sem á að forskoða. 
+1. Á skipanastikunni skal velja **Forskoða**. Forskoðun á því hvernig efnið mun líta út þegar það verður birt.
+1. Til að forskoða annað afbrigði skal velja það úr fellivalmynd afbrigða og velja **Forskoða** aftur.
 
 ## <a name="publish-your-experiment"></a>Birta tilraun
 Ef ekki er notaður birtingarhópur til að tímasetja hvenær tilraunin á að fara á netið og ætlunin er að birta hana strax, skal velja **Birta** í skipanastikunni. Öll afbrigði sem tilheyra tilrauninni verða birt.
@@ -45,7 +47,7 @@ Ef ekki er notaður birtingarhópur til að tímasetja hvenær tilraunin á að 
 > Ef síðan er með óbirta vefslóð þarf fyrst að birta vefslóðina, annars verður hún ekki sýnileg notendum vefsvæðisins. Frekari upplýsingar er að finna í [Vista, forskoða og birta síðu](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Nota birtingarhópa til að tímasetja hvenær tilraunin á að fara á netið
-Hægt er að tímasetja afbrigði til birtingar sem búin eru til í vefsmiðnum með því að nota birtingarhóp. Innan birtingarhóps er hægt að tengja síðu eða brot við tilraunina með því að fara í flipann **Tilraunir** eða **Síður** eða **Brot**. Frekari upplýsingar er að finna í efnisatriðinu [Tengja tilraun og breyta afbrigðum](experimentation-connect-edit.md). Upplýsingar um birtingarhópa er að finna í [Vinna með birtingarhópa](publish-groups.md).
+Hægt er að tímasetja afbrigði til birtingar sem búin eru til í vefsmiðnum með því að nota birtingarhóp. Innan birtingarflokks er hægt að tengja síðu eða brot við tilraunina með því að velja **Tilraunir** í vinstra yfirlitssvæði. Einnig er hægt að gera þetta með því að velja **Síður** eða **Brot** og fylgja leiðbeiningunum í [Tengja tilraun og breyta afbrigðum](experimentation-connect-edit.md). Upplýsingar um birtingarhópa er að finna í [Vinna með birtingarhópa](publish-groups.md).
 
 Þegar birtingarhópar eru notaður með tilraunum, þarf að huga að nokkrum mikilvægum atriðum.
 - Þegar síðu eða broti, sem er með tilraun í gangi, er bætt við birtingarhóp, verður tilraunin fjarlægð af síðunni eða brotinu í birtingarhópnum.

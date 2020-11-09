@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4afa037ce9e446402128e4908a61ed32a30ebd59
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986951"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016356"
 ---
 # <a name="shipment-consolidation-policies"></a>Samstæðureglur sendingar
 
@@ -37,7 +37,7 @@ Samstæðureglur sendingar eru notaðar fyrir eftirfarandi virkni:
 
 Áður en samstæðuregla sendingar var kynnt, er aðgerðin samstæðuaðgerð innt af hendi sem stilling á stigi vöruhúss. Allar pantanir fyrir alla viðskiptavini úr einu vöruhúsi voru meðhöndlaðar eins og þær hefðu sömu samstæðukröfur. Reglur um samstæðu sendinga bæta við stuðningi við aðstæður þar sem mismunandi fyrirtæki hafa ólíkar þarfir fyrir samstæðu sendinga.
 
-Fyrirspurnir eru notaðar til að auðkenna samstæðureglu sendingar sem gildir, og síðan breytanleg Samstæða reita ákvarðar hvernig farmlínur eru flokkaðar á afhendingarstigið. (Þetta mynstur líkist mynstri sem bylgjusniðmátin fylgja.) Að auki hefur valkostinum **sameina við fyrirliggjandi sendingar** verið bætt við hverja reglu. Þegar kveikt er á þessum valkosti mun ferlið *losun í vöruhúsi* finna sendingar fyrir samstæðu með því að leita í fyrirliggjandi sendingum sem voru stofnaðar út frá sömu samstæðureglu. Í þessu tilviki mun kerfið velja fyrirliggjandi sendingu eða farm í stað þess að búa til nýja. Kerfið mun hins vegar aðeins sameina við fyrirliggjandi sendingar sem eru með stöðuna *opið*; sendingar sem tilheyra bylgjuútgáfu með stöðuna *losað* eða hærra verða ekki taldar sem markmið fyrir samstæðu.
+Fyrirspurnir eru notaðar til að auðkenna samstæðureglu sendingar sem gildir, og síðan breytanleg Samstæða reita ákvarðar hvernig farmlínur eru flokkaðar á afhendingarstigið. (Þetta mynstur líkist mynstri sem bylgjusniðmátin fylgja.) Að auki hefur valkostinum **sameina við fyrirliggjandi sendingar** verið bætt við hverja reglu. Þegar kveikt er á þessum valkosti mun ferlið *losun í vöruhúsi* finna sendingar fyrir samstæðu með því að leita í fyrirliggjandi sendingum sem voru stofnaðar út frá sömu samstæðureglu. Í þessu tilviki mun kerfið velja fyrirliggjandi sendingu eða farm í stað þess að búa til nýja. Kerfið mun hins vegar aðeins sameina við fyrirliggjandi sendingar sem eru með stöðuna *opið* ; sendingar sem tilheyra bylgjuútgáfu með stöðuna *losað* eða hærra verða ekki taldar sem markmið fyrir samstæðu.
 
 Þegar samstæðureglur sendingar eru gerðar tiltækar er stillingin **samstæða sendingar við losun í vöruhús** sem var áður tiltæk á uppsetningarsíðu **vöruhúss** hulin. Til að aðstoða við umbreytingu í nýja samstæðueiginleika sendingar er aðgerð á síðu **samstæðureglna sendingar** sem stofnar sjálfgefin regla sem inniheldur sjálfkrafa gömlu stillingarnar fyrir núverandi vöruhús. Eftir að þessi sjálfgefna regla er stofnuð er stillingin **Taka sendingu með í samstæðu við losun í vörugeymslu** á uppsetningarsíðunni **Vöruhús** ekki lengur tekin til greina.
 
@@ -121,7 +121,7 @@ Eftirfarandi tafla sýnir samantekt á því hvernig sendingarsamstæða virkar 
 
 | Án samstæðureglna sendingar | Með samstæðureglum sendingar |
 |---|----|
-| Ekki tiltækt | Sölu- eða flutningsendingar sem eru valdar fyrir samstæðu verða að hafa sömu samstæðureglu og sendingin sem verið er að stofna, eða að öðrum kosti vera úthlutað á opna sendingu (þegar kveikt er á valkostinum **Samstæða með fyrirliggjandi sendingum**). |
+| Ekki tiltækt | Sölu- eða flutningsendingar sem eru valdar fyrir samstæðu verða að hafa sömu samstæðureglu og sendingin sem verið er að stofna, eða að öðrum kosti vera úthlutað á opna sendingu (þegar kveikt er á valkostinum **Samstæða með fyrirliggjandi sendingum** ). |
 | Ferlið *Losa í vöruhús* leitar ekki í fyrirliggjandi sendingum til að finna sendingu fyrir samstæðu. Aðeins sendingar sem eru stofnaðar með núverandi tilviki ferlisins *Losa í vöruhús* eru notaðar til að finna sendingu fyrir samstæðu. | Ef kveikt er á valkostinum **Samstæða með fyrirliggjandi sendingum** fyrir samstæðureglu sem verið er að nota leitar ferlið *Losa í vöruhús* í fyrirliggjandi sendingum sem voru stofnaðar á grundvelli sömu samstæðureglu til að finna sendingu fyrir samstæðu. Þess vegna, ef um er að ræða tvær reglur, verður sending sem verið er að stofna á grundvelli reglu 2 aldrei notuð í samstæðum með sendingu sem var búin til samkvæmt reglu 1. |
 | Ekki tiltækt | Ef listi yfir reiti samstæðureglu er auður eða ef ekki er hægt að finna reglu er ný sending stofnuð fyrir hverja sölupöntunar- eða flutningspöntunarlínu. |
 | Eftirfarandi samstæðureitur skilgreinir einkvæma samsetningu gilda sem notuð er til að sameina sendingar fyrir *flutningslínu*. (Allir aðrir reitir eru hunsaðir.)<ul><li>Pöntunarnúmer (OrderNum)</li></ul> | Eftirfarandi samstæðureitir skilgreina einkvæma samsetningu gilda sem notuð er til að sameina sendingar fyrir *flutningslínu*. (Allir aðrir reitir eru hunsaðir.)<ul><li>Pöntunarnúmer (OrderNum)</li><li>Viðtakandi sendingar (DeliveryName)</li><li>Póstfang (DeliveryPostalAddress)</li><li>ISO-landskóði (CountryRegionISOCode)</li><li>Heimilisfang (Address)</li><li>Svæði (InventSiteId)</li><li>Vöruhús (InventLocationId)</li><li>Farmflytjandi (CarrierCode)</li><li>Flutningsþjónusta (CarrierServiceCode)</li><li>Afhendingarmáti (ModeCode)</li><li>Flutningsaðilaflokkur (CarrierGroupCode)</li><li>Afhendingarskilmálar (DlvTermId)</li></ul>Þessir reitir eru einu reitirnir sem eru í boði og frumstilltir þegar ný sending er stofnuð. |

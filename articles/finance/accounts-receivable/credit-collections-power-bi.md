@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598059"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040054"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón Power BI efni
 
@@ -51,6 +51,9 @@ Eftirfarandi uppsetningu þarf að vera lokið svo að gögn birtist í myndefni
 3. Farðu í **Fjárhag> Uppsetning> Fjárhag** og stilltu **Bókhaldsgjaldmiðil** og **Gerð gengis**.
 4. Skilgreindu gengi milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfismynt. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
 5. Farðu í **Fara í Kerfisstjórnun > Uppsetning > Eining averslun** til að uppfæra **CustCollectionsBIMeasurementsV2** uppsöfnuðu mælingarnar.
+
+>[!NOTE] 
+> Skilgreiningar aldurstímabils verða að vera sett upp í **Færibreytur viðskiptakrafna > Söfn > Sjálfgefin söfn** til að virkja aldursgreiningargögn í Power BI efni.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 
