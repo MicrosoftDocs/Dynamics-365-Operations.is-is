@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
+ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46bbaca86f9113a3e4705e4f2c0f76590e62ec1
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018883"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Yfirlit yfir „Innkaup og aðföng“
 
@@ -35,15 +35,15 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Auðkenna þörf fyrir vöru og þjónustu
 
-Þörf fyrir vöru eða þjónustu gætu komið upp úr *innkaupabeiðnir*, til dæmis þegar starfsmaður krefst afurðar. *Vörulistar* hægt er að setja upp til að leiðbeina um val á tiltækum afurðum til að velja úr, eða beiðnir er hægt að gera fyrir afurðir sem eru°ekki enn tiltækar í vörulista,og innkaupadeild heimilað að hafa í huga hvernig hægt sé að útvega afurðina.  
+Þörf fyrir vöru eða þjónustu gætu komið upp úr *innkaupabeiðnir* , til dæmis þegar starfsmaður krefst afurðar. *Vörulistar* hægt er að setja upp til að leiðbeina um val á tiltækum afurðum til að velja úr, eða beiðnir er hægt að gera fyrir afurðir sem eru°ekki enn tiltækar í vörulista,og innkaupadeild heimilað að hafa í huga hvernig hægt sé að útvega afurðina.  
 
-*Eyðsluþak* til að hafa hemil á útgjöldum í innkaupum, og°*innkaupaverkflæði* bætir við kostinum á að krefjast samþykkis áður en pöntun er gerð. Einnig er hægt að tilgreina úthlutun fjármagns fjárhagsáætlunar, ef þörf krefur.  
+*Eyðsluþak* til að hafa hemil á útgjöldum í innkaupum, og° *innkaupaverkflæði* bætir við kostinum á að krefjast samþykkis áður en pöntun er gerð. Einnig er hægt að tilgreina úthlutun fjármagns fjárhagsáætlunar, ef þörf krefur.  
 
-Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér°*beiðni um tilboð* senda mörgum mögulegum lánardrottnum. Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær. Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.  
+Deild innkaupa auðkennir birgja fyrir afurðir og þjónustu og þetta getur falið í sér° *beiðni um tilboð* senda mörgum mögulegum lánardrottnum. Hægt er að deila upplýsingum um vöru sem beðið er um og mögulegir lánadrottnar geta skoðað þær til að sjá ef þeir geta afhent°afurð sem passar við þær. Lánardrottnar skila tilboðum sínum sem eru síðan endurskoðuð af innkaupadeild áður en valinn er birgir sem óskað er eftir að°kaupa af.  
 
-Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn* til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gáttina **Lánardrottinn**, er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í**Lánardrottins** gáttinni, og þegar°*staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
+Innkaupapantanir innihalda valkost til að senda inn *innkaupafyrirspurn* til lánardrottins sem valkost í stað ítarlegrar beiðni um tilboðsferli. Hægt er að nota innkaupafyrirspurn til að auðvelda skilmála á borð við verð, afslætti og afhendingardagsetningu fyrir pöntunina. Ef lánardrottnar eru settir upp til að nota gáttina **Lánardrottinn** , er fyrirspurnaaðgerðin óvirk. Í staðinn er pöntun samnýtt í **Lánardrottins** gáttinni, og þegar° *staðfesting beiðni* er send getur lánardrottinn staðfest pöntunina beint.  
 
-*Vörulistar lánardrottna* er hægt að nota til að safna upplýsingum um vöruúrval sem lánardrottnar geta útvegað. Lánardrottnar geta birt sína eigin vörulista þannig að það er auðveldara að halda vörulista°uppfærðum. Mögulegt er að tengja°*samþykktur listi lánardrottins* við afurð,°og það getur hjálpað til við val á lánardrottni þegar nýjar innkaupapantanir eru opnaðar, og koma í veg fyrir að nota°lánardrottna sem ekki var ætlunin að nota.
+*Vörulistar lánardrottna* er hægt að nota til að safna upplýsingum um vöruúrval sem lánardrottnar geta útvegað. Lánardrottnar geta birt sína eigin vörulista þannig að það er auðveldara að halda vörulista°uppfærðum. Mögulegt er að tengja° *samþykktur listi lánardrottins* við afurð,°og það getur hjálpað til við val á lánardrottni þegar nýjar innkaupapantanir eru opnaðar, og koma í veg fyrir að nota°lánardrottna sem ekki var ætlunin að nota.
 
 ## <a name="procurement"></a>Innkaup
 
@@ -92,4 +92,4 @@ Reikningsfærðar innkaupapantanir munu skrá skuld í lánardrottnareikning inn
 
 ## <a name="vendor-performance"></a>Afköst lánardrottins
 
-Afköst og endurskoðun innkaupa er studdur gegnum *innkaupa- og viðskiptaskuldaskýrslur*, sem innihalda eyðslugreiningu og frammistöðugreiningu lánardrottins.
+Afköst og endurskoðun innkaupa er studdur gegnum *innkaupa- og viðskiptaskuldaskýrslur* , sem innihalda eyðslugreiningu og frammistöðugreiningu lánardrottins.

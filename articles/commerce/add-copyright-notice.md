@@ -3,7 +3,7 @@ title: Bæta við yfirlýsingu um höfundarrétt
 description: Þetta efni lýsir því hvernig þú bætir við höfundarréttarbréfi á vefsíðu rafrænna viðskipta.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019542"
 ---
 # <a name="add-a-copyright-notice"></a>Bæta við yfirlýsingu um höfundarrétt
 
@@ -41,17 +41,17 @@ ms.locfileid: "3269591"
 
 Fylgdu þessum skrefum til að bæta við höfundarréttartilkynningu neðst á hverri síðu sem notar ákveðið sniðmát.
 
-1. Farðu í **Brot** og veldu síðan **Nýtt síðubrot**.
-1. Í glugganum velurðu eininguna **Síðufótur** og gefur brotinu heiti. Til dæmis, sláðu inn **Footer-Copyright**.
+1. Farðu í **Brot** og veldu síðan **Nýtt**.
+1. Í svarglugganum **Nýtt brot** skal velja eininguna **Síðufótur** og gefa brotinu heiti. Til dæmis, sláðu inn **Footer-Copyright**.
 1. Veljið **Í lagi**.
-1. Í glugganum velurðu úrfellingarhnappinn (**...**) við hliðina á **síðufæti** og velur síðan **Bæta við einingu**.
+1. Í glugganum velurðu úrfellingarhnappinn ( **...** ) við hliðina á **síðufæti** og velur síðan **Bæta við einingu**.
 1. Í valmyndinni velurðu **Síðufótaflokkur** og velur síðan **Í lagi**.
 1. Í glugganum velurðu úrfellingarhnappinn við hliðina á **síðufótaflokki** og velur síðan **Bæta við einingu**.
 1. Í valmyndinni velurðu **Textabálkur** og velur síðan **Í lagi**.
 1. Veldu á leiðsöguskjánum **Textabálkur**.
-1. Í eiginleikarrúðunni til hægri, í reitnum **Málsgrein**, bætirðu höfundarréttarskilaboðunum við. Til dæmis, færðu inn **(C) Fabrikam 2019**.
-1. Veldu **Vista**, veldu **Ljúka við breytingar** og veldu síðan **Birta**.
-1. Opnaðu **Sniðmát**, veldu sniðmátið og veldu síðan **Breyta**.
+1. Í eiginleikarrúðunni til hægri, í reitnum **Málsgrein** , bætirðu höfundarréttarskilaboðunum við. Til dæmis, færðu inn **(C) Fabrikam 2019**.
+1. Veldu **Vista** , veldu **Ljúka við breytingar** og veldu síðan **Birta**.
+1. Opnaðu **Sniðmát** , veldu sniðmátið og veldu síðan **Breyta**.
 1. Undir **Útlínur síðu** stækkarðu **Meginmál** og stækkar síðan **Sjálfgefin síða**.
 1. Veldu úrfellingarhnappinn við hliðina **Síðufótarhólf** og velur síðan **Bæta við broti**.
 1. Veldu brotið sem þú bjóst til áður og veldu síðan **Velja**.

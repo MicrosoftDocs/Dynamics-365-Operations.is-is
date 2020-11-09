@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801459"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012322"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.8. (febrúar 2020)
 
@@ -36,13 +36,14 @@ ms.locfileid: "3801459"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt*, svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt* , svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Viðbótargögn um staðsetningu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [Eignastýring](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Frekari upplýsingar er að finna í [Yfirlit eignastýringar](../asset-management/index.md).
 - [Hætta við vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Frekari upplýsingar er að finna á [Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar](../warehousing/cancel-warehouse-work.md).
 - [Breyta vinnuhópi á vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Frekari upplýsingar er að finna í [Breyta vinnuhópi á vinnu](../warehousing/change-work-pool-on-work.md).
-- [Staðsetning klasa er full](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) -Frekari upplýsingar er að finna í [Staðsetning klasa er full](../warehousing/cluster-position-full.md).
+- [Staðsetning klasa er full](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Frekari upplýsingar er að finna í [Staðsetning klasa er full](../warehousing/cluster-position-full.md).
 - [Staðfesta og flytja](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Frekari upplýsingar er að finna í [Staðfesta og flytja](../warehousing/confirm-and-transfer.md).
 - [Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Frekari upplýsingar er að finna í [Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu](../warehousing/location-directive-inventory-picking-aging.md).
 - [Staðsetningarstaða](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

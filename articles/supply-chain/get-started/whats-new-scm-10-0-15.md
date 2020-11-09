@@ -1,9 +1,9 @@
 ---
-title: Nýjungar í Dynamics 365 Supply Chain Management forútgáfu 10.0.15 (desember 2020)
+title: Forskoðun Dynamics 365 Supply Chain Management 10.0.15 (Janúar 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
 manager: tfehr
-ms.date: 10/09/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7c7ac0e795ec085584be9cfdef65333969255ed6
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989312"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012276"
 ---
-# <a name="whats-new-in-the-dynamics-365-supply-chain-management-preview-of-release-10015-december-2020"></a>Nýjungar í Dynamics 365 Supply Chain Management forútgáfu 10.0.15 (desember 2020)
+# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.15 (Janúar 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.15. Þessi útgáfa er með byggingarnúmer 10.0.644 og er fáanlegt á eftirfarandi hátt:
 
-- **Forútgáfa af útgáfu 10.0.15:** Október 2020
-- **Almennt framboð á útgáfu 10.0.15 (handvirk uppfærsla):** Nóvember 2020
-- **Almennt framboð á útgáfu 10.0.15 (sjálfvirk uppfærsla):** Desember 2020
+- **Forskoðun forútgáfu:** Október 2020
+- **Almennt framboð fyrir útgáfu (sjálfvirk uppfærsla):** November 2020
+- **Almennt framboð losunar (sjálfvirk uppfærsla):** Janúar 2021
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótarskjöl sem eru tiltæk fyrir þennan eiginleika. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. Fylgið tenglunum á útgáfuáætlunina til að sjá útgáfudagsetningar eða farið í [Hvaða er nýtt og á döfinni fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá yfirlit dagsetninga fyrir alla eiginleika sem eru útgefnir og á áætlun fyrir núverandi útgáfutímabil. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
-- Stjórnun kvörðunareiningar í cloud og edge í keyrslu á vinnuálagi framleiðslu og vöruhúss
+- Stjórnun kvörðunareiningar í cloud og edge í keyrslu á vinnuálagi framleiðslu og vöruhúss<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+
 - [Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforritinu](../warehousing/create-transfer-order-from-warehouse-app.md).
+
 - [Sjálfgefnir svarreitir tilboðsbeiðni fyrir tilboð lánardrottins](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir beiðni um tilboð (tilboðsbeiðni)](../procurement/request-quotations.md).
+
 - [Innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+
 - [Leiðarvísar með blönduðum veruleika fyrir framleiðslu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Frekari upplýsingar er að finna í [Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika](../production-control/instruction-guides-in-production-overview.md).
-- [Ný upplifun notanda fyrir framkvæmd á framleiðslugólfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<!-- <br> - For more information, see [How workers use the production floor execution interface](../production-control/production-floor-execution-use.md).-->
+
+- [Ný upplifun notanda fyrir framkvæmd á framleiðslugólfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Frekari upplýsingar er að finna á [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md).
+
 - [Vinna úr viðburðum vöruhúsaforrits](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Frekari upplýsingar er að finna í [Úrvinnsla á tilviki vöruhúsaforrits](../warehousing/warehouse-app-events.md).
+
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -3,7 +3,7 @@ title: Vinna með brot
 description: Þetta efni lýsir því hvers vegna, hvenær og hvernig skuli nota brot í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961659"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019565"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
@@ -58,31 +58,27 @@ Eftirfarandi mynd sýnir hvernig brot er hægt að nota til að miðstýra höfu
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Vistaðu núverandi einingarstillingu sem brot
 
-Fylgdu þessum skrefum til að umbreyta áður uppsettri einingu í endurnýtanlegt brot.
+Til að umbreyta áður stilltri einingu í endurnýtanlegt brot í Commerce síðusmið skal fylgja þessum skrefum.
 
 1. Opnaðu síðu eða sniðmát sem inniheldur eininguna sem þú vilt breyta í brot.
 1. Á yfirlitssvæðinu vinstra megin eða beint á sjónrænum síðuhönnuði skal velja eininguna sem var skilgreind áður.
-1. Veljið úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar á annaðhvort yfirlitssvæðinu eða valda tækjastiku einingarinnar í sjónrænum síðuhönnuði. 
-1. Velja **Samnýta sem síðubrot**. 
-1. Í svargluggann **Vista sem síðubrot** skal færa inn heiti fyrir síðubrotið.
+1. Veljið úrfellingarmerkið ( **...** ) við hliðina á heiti einingarinnar á annaðhvort yfirlitssvæðinu eða valda tækjastiku einingarinnar í sjónrænum síðuhönnuði. 
+1. Veljið **Deila sem broti**. 
+1. Í svargluggann **Vista sem brot** skal færa inn heiti fyrir síðubrotið.
 1. Veldu **Í lagi** til að vista einingastillinguna sem brot sem hægt er að bæta við aðrar síður.
-
-Eftirfarandi mynd sýnir hvernig vista má einingastillingu sem brot.
-
-![Skjámynd um hvernig á að vista einingastillingu sem brot](./media/save-as-fragment.png)
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Stofna nýtt brot
 
-Fylgið eftirfarandi skrefum til að stofna nýtt brot.
+Til að búa til nýtt brot í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Í stýriglugganum vinstra megin velurðu **Brot**.
-1. Veljið **Nýtt síðubrot**. Gluggi birtist sem sýnir allar tiltækar gerðir eininga. Eins og áður var getið er hægt að búa til brot úr hvaða einingartegund sem er.
+1. Veljið **Nýtt**. Svargluggi fyrir **Nýtt brot** birtist sem sýnir allar tiltæku einingargerðirnar. Eins og áður var getið er hægt að búa til brot úr hvaða einingartegund sem er.
 1. Veldu tegund einingar fyrir brotið þitt.
 
-Eftirfarandi mynd sýnir hvar á að búa til nýtt brot.
-
-![Skjámynd um hvar eigi að búa til nýtt brot](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Með því að velja almenna gámaeiningagerð færðu mestan sveigjanleika þegar þú þarft að uppfæra og stilla brotið þitt seinna.
 
@@ -92,30 +88,28 @@ Eftirfarandi aðferðir lýsa því hvernig á að bæta við, fjarlægja og bre
 
 ### <a name="add-a-fragment"></a>Bæta við broti
 
-Til að bæta broti við síðu skaltu fylgja þessum skrefum.
+Til að breyta broti milli rása í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Á yfirlitssvæðinu vinstra megin eða beint á sjónrænum síðuhönnuði skal velja gám eða hólf þar sem bæta á undireiningunum við.
-1. Á yfirlitssvæðinu skal velja úrfellingarmerkið (**...**) við hliðina á heiti gámsins eða hólfsins.  Ef sjónrænn síðuhönnuður er notaður, skal velja plústáknið (**+**).  
+1. Veljið úrfellingarmerkið ( **...** ) við hliðina á heiti gámsins eða hólfsins.  Ef sjónrænn síðuhönnuður er notaður, skal velja plústáknið ( **+** ).  
 1. Veljið **Bæta við broti**.
-
-    ![Skjámynd um hvernig bæta má núverandi broti við rauf eða ílát](./media/add-fragment.png)
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
-    > Ef gámurinn eða hólfið styðja ekki nýjar undireiningar er valkosturinn **Bæta við broti** er ekki í boði.
+    > Ef geymirinn eða hólfið styður ekki nýjar undireiningar er valkosturinn **Bæta broti** ekki tiltækur.
     
-1. Í svarglugganum **Bæta við broti** skal leita að og velja brot til að bæta við. Ef engin tiltæk brot eru tilgreind gætirðu fyrst þurft að búa til brot úr einingagerð sem valinn gámur eða hólf styður.
+1. Í svarglugganum **Velja brot** skal leita að og velja brot til að bæta við. Ef engin tiltæk brot eru tilgreind gætirðu fyrst þurft að búa til brot úr einingagerð sem valinn gámur eða hólf styður.
 1. Veldu brotið sem þú vilt til að bæta því við gám eða hólf á síðunni þinni.
-
-    ![Skjámynd af staðfestingaglugga brotavals](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Einingarnar sem eru leyfðar í gámi eða hólfi eru skilgreindar af sniðmáti síðunnar eða eigin skilgreiningum eininganna.
 
 ### <a name="remove-a-fragment"></a>Fjarlægja brot
 
-Til að fjarlægja brot úr hólfi eða gámi á síðu skaltu fylgja þessum skrefum.
+Til að fjarlægja brot úr hófli eða gámi á síðu í Commerce síðusmíð skal fylgja þessum skrefum.
 
-1. Á yfirlitssvæðinu vinstra megin skal velja úrfellingarmerkið (**...**) við hliðina á heiti brotsins sem á að fjarlægja og síðan velja ruslakörfutáknið.  Annars er hægt að velja brotið í sjónrænum síðuhönnuði og velja ruslakörfutákni í tækjastiku brotsins.
+1. Á yfirlitssvæðinu vinstra megin skal velja úrfellingarmerkið ( **...** ) við hliðina á heiti brotsins sem á að fjarlægja og síðan velja ruslakörfutáknið.  Annars er hægt að velja brotið í sjónrænum síðuhönnuði og velja ruslakörfutákni í tækjastiku brotsins.
 1. Þegar þú færð kvaðningu um að staðfesta að þú viljir fjarlægja brotið skaltu velja **Í lagi**.
 
 > [!NOTE]
@@ -125,7 +119,7 @@ Til að fjarlægja brot úr hólfi eða gámi á síðu skaltu fylgja þessum sk
 
 Til að breyta brotum verður þú að nota brotaritilsviðmótið. Þessi takmörkun er samkvæmt hönnuninni. Hún hjálpar til við að tryggja að höfundar rugla ekki saman ferlinu við að breyta einingunum fyrir ákveðna síðu og því að breyta brotum sem hægt er að deila á margar síður.
 
-Fylgið eftirfarandi skrefum til að breyta broti.
+Til að breyta broti milli rása í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Í stýriglugganum vinstra megin velurðu **Brot**.
 1. Undir **Brot** velurðu brotið sem á að breyta.

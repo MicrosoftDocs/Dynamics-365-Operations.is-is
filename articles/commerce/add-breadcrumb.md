@@ -3,7 +3,7 @@ title: Brauðmylsnueining
 description: Þetta efnisatriði fjallar um brauðmylsnueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817111"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055405"
 ---
 # <a name="breadcrumb-module"></a>Brauðmylsnueining
 
@@ -66,16 +66,16 @@ Brauðmylsnueiningin er háð stillingunni **Birtingargerð brauðmylsnu á uppl
 
 Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nauðsynlega eiginleika skal fylgja þessum skrefum.
 
-1. Farið í **Stillingar svæðis /> Viðbætur** og síðan, fyrir stillinguna **Birtingargerð brauðmylsnu á upplýsingasíðu afurðar**, skal velja **Sýna tegundastigveldi**.
+1. Farið í **Stillingar svæðis /> Viðbætur** og síðan, fyrir stillinguna **Birtingargerð brauðmylsnu á upplýsingasíðu afurðar** , skal velja **Sýna tegundastigveldi**.
 1. Opnið **Sniðmát** og veljið sniðmát upplýsingasíðu afurðar.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
-1. Farið á **Síður**, og Opnið PDP sem notar PDP-sniðmátið. Ef PDP er ekki til staðar skal stofna eitt.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Farið á **Síður** , og Opnið PDP sem notar PDP-sniðmátið. Ef PDP er ekki til staðar skal stofna eitt.
+1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
-1. Á eiginleikasvæði hólfsins **Brauðmylsna**, undir **Rót**, skal velja **Texti tengils**.
-1. Í svarglugganum **Texti tengils** skal slá inn **Heim** og síðan, undir **Viðtökustaður tengils**, skal velja **Bæta við tengli**.
+1. Á eiginleikasvæði hólfsins **Brauðmylsna** , undir **Rót** , skal velja **Texti tengils**.
+1. Í svarglugganum **Texti tengils** skal slá inn **Heim** og síðan, undir **Viðtökustaður tengils** , skal velja **Bæta við tengli**.
 1. Í svarglugganum **Bæta við tengli** skal velja tengil fyrir brauðmylsnurótina og síðan velja **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.
@@ -83,6 +83,10 @@ Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nau�
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit einingasafns](starter-kit-overview.md)
+
+[Eining yfirlitsvalmyndar](nav-menu-module.md)
+
+[Svæðisvalseining](site-selector.md)
 
 [Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
 

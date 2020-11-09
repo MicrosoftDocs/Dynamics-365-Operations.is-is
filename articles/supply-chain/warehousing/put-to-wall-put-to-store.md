@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 10eb32f75ccfe1521af9ebfe1e73ef08ea4238f7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597545"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017829"
 ---
 # <a name="put-to-wall---put-to-store"></a>Setja á vegg - setja í verslun
 
@@ -34,7 +35,7 @@ Verkflæðið fyrir þessa virkni beinir valdri vöru á röðunarstaðsetningu 
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Kveikja á eiginleika flokkunar á útleið
 
-Áður en hægt er að nota virknina *Setja á vegg - setja í verslun*, verður að vera kveikt á eiginleikanum *Flokkun á útleið* í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota virknina *Setja á vegg - setja í verslun* , verður að vera kveikt á eiginleikanum *Flokkun á útleið* í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Flokkun á útleið*
@@ -62,7 +63,7 @@ Hægt er að nota eiginleikann *Flokkun á útleið* saman með eiginleikanum *B
 ### <a name="warehouse-management-parameters"></a>Færibreytur vöruhúsakerfis
 
 1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-1. Í flipanum **Almennt**, í flýtiflipanum **Gerðir staðsetninga**, í reitinn **Flokkun á gerð staðsetningar**, skal færa inn *SORT*.
+1. Í flipanum **Almennt** , í flýtiflipanum **Gerðir staðsetninga** , í reitinn **Flokkun á gerð staðsetningar** , skal færa inn *SORT*.
 1. Veljið **Vista**.
 
 ### <a name="location-profile"></a>Forstillingar staðsetningar
@@ -74,7 +75,7 @@ Hægt er að nota eiginleikann *Flokkun á útleið* saman með eiginleikanum *B
     - **Kenni staðsetningarforstillingar:** *Raða*
     - **Heiti:** *Raða*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Staðsetningarsnið:** *PACK*
     - **Gerð staðsetningar:** *SORT*
@@ -143,7 +144,7 @@ Flokkunarsniðmátið stjórnar því hvort röðunarstaðir eru búnir til, hva
     - **Vöruhús:** *62*
     - **Staðsetning:** *Raða*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Sannprófun röðunar:** *Skönnun stöðu*
 
@@ -155,7 +156,7 @@ Flokkunarsniðmátið stjórnar því hvort röðunarstaðir eru búnir til, hva
 
     - **Stofna vinnu á lokun stöðu:** *Já*
 
-        Ef þessi valkostur er stilltur á *Já*, þegar staðan er lokuð, verður vinna stofnuð til að færa birgðir á lokasendingarstaðinn. Ef hann er stilltur á *Nei* verða birgðir strax tíndar fyrir pöntunina þegar staðan er lokuð.
+        Ef þessi valkostur er stilltur á *Já* , þegar staðan er lokuð, verður vinna stofnuð til að færa birgðir á lokasendingarstaðinn. Ef hann er stilltur á *Nei* verða birgðir strax tíndar fyrir pöntunina þegar staðan er lokuð.
 
     - **Stöðuverkefni:** *Handvirkt*
 
@@ -196,7 +197,7 @@ Flokkunarsniðmátið stjórnar því hvort röðunarstaðir eru búnir til, hva
         Þessi reitur skilgreinir pökkunarforstillinguna sem verður notuð þegar röðunarstaðnum er pakkað í gám.
 
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að tilgreina skilyrðið sem notað er fyrir þetta flokkunarsniðmát.
-1. Í svarglugga fyrirspurnar, í flipanum **Röðun**, skal velja **Ný** til að bæta við línu og síðan stilla eftirfarandi gildi:
+1. Í svarglugga fyrirspurnar, í flipanum **Röðun** , skal velja **Ný** til að bæta við línu og síðan stilla eftirfarandi gildi:
 
     - **Tafla:** *Upplýsingar um hleðslu*
     - **Afleidd tafla:** *Upplýsingar um hleðslu*
@@ -235,7 +236,7 @@ Breytið bylgjusniðmátinu sem notað er fyrir röðun bylgjueftirspurnar.
     - Stilla valkostinn fyrir **Vinna úr bylgju við losun í vörugeymslu** á *Nei*.
     - Stilla valkostinn **Úthluta** á opnar bylgjur á *Já*.
 
-1. Í flýtiflipanum **Aðferðir** skal setja upp aðferðina **röðun**:
+1. Í flýtiflipanum **Aðferðir** skal setja upp aðferðina **röðun** :
 
     1. Í hnitanetinu **Eftirstandandi aðferðir** skal velja **röðun**.
     2. Veljið hægri örvarhnappinn til að færa **röðun** yfir á hnitanetið **Valdar aðferðir**.
@@ -255,7 +256,7 @@ Breytið bylgjusniðmátinu sem notað er fyrir röðun bylgjueftirspurnar.
     - **Stilling:** *Óbein*
     - **Nota fyrirliggjandi vinnu:** *Nei*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
 
     - **Verkþáttarkóði:** *Röðun á útleið*
     - **Nota leiðbeiningar fyrir ferli:** *Já* (sjálfgefið gildi)
@@ -284,7 +285,7 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
     - **Röð:** *1*
     - **Heiti:** *Koma fyrir í útskoti*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar**:
+1. Stilltu eftirfarandi gildi á flýtiflipanum **staðsetningarleiðbeiningar** :
 
     - **Tegund vinnu:** *Frágangur*
     - **Svæði:** *6*
@@ -307,7 +308,7 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
 
 1. Veldu **Vista** til að gera hnappinn **Breyta fyrirspurn** á flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum**.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn**.
-1. Í svarglugga fyrirspurnarritilsins, í flipanum **Svið**, skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
+1. Í svarglugga fyrirspurnarritilsins, í flipanum **Svið** , skal finna línuna þar sem reiturinn **Svæði** er stilltur á *Staðsetning*. Stillið reitinn **Skilyrði** fyrir þessa línu á *Útskot*.
 1. Smellið á **Í lagi** til að staðfesta breytinguna.
 
 ### <a name="work-classes"></a>Vinnuklasar
@@ -342,13 +343,13 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
 1. Í hlutanum **Upplýsingar vinnusniðmáts** býrðu til tvær línur. Veldu **Nýtt** og stilltu síðan eftirfarandi gildi fyrir línu 1:
 
     - **Verkgerð:** *Tiltekt*
-    - **Áskilið:** Valið (= *Já*)
+    - **Áskilið:** Valið (= *Já* )
     - **Auðkenni vinnuklasa:** *Röðun*
 
 1. Veljið aftur **Ný** og stillið síðan eftirfarandi gildi fyrir línu 2:
 
     - **Tegund vinnu:** *Frágangur*
-    - **Áskilið:** Valið (= *Já*)
+    - **Áskilið:** Valið (= *Já* )
     - **Auðkenni vinnuklasa:** *Röðun*
 
 1. Veljið **Vista**.
@@ -367,7 +368,7 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Ný** til að stofna sölupöntun fyrir pöntun 1.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinur:** *US-001*
     - **Vöruhús:** *62*
@@ -390,7 +391,7 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
     1. Veljið **Vista**.
 
 1. Veljið **Ný** til að stofna sölupöntun fyrir pöntun 2.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinur:** *US-004*
     - **Vöruhús:** *62*
@@ -413,7 +414,7 @@ Búa þarf til staðsetningarleiðbeiningar til að leiða áfram vinnuna sem b�
     1. Veljið **Vista**.
 
 1. Veljið **Ný** til að stofna sölupöntun fyrir pöntun 3.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - **Viðskiptavinur:** *US-007*
     - **Vöruhús:** *62*
@@ -434,7 +435,7 @@ Ljúkið við eftirfarandi ferli til að losa hverja sölupöntun fyrir sig í v
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í hnitanetinu skal velja fyrstu sölupöntunina sem var stofnuð.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
 
     Þú færð skilaboð með upplýsingum um bylgjuauðkenni og sendingarkenni sem voru búin til.
 
@@ -448,7 +449,7 @@ Ljúkið við eftirfarandi ferli til að losa hverja sölupöntun fyrir sig í v
 
     Við bylgjuvinnslu mun flokkunaraðferðin nota flokkunarsniðmátið til að úthluta birgðum á röðunarstaði. Þegar bylgjuvinnslu er lokið færðu skilaboð með upplýsingum um að bylgjan hafi verið bókuð vinna hafi verið búin til.
 
-1. Á Aðgerðasvæðinu, í flipanum **Bylgja**, í flokknum **Tengdar upplýsingar**, skal velja **Vinna** til að skoða vinnuna sem var búin til. Skráið niður vinnukennið.
+1. Á Aðgerðasvæðinu, í flipanum **Bylgja** , í flokknum **Tengdar upplýsingar** , skal velja **Vinna** til að skoða vinnuna sem var búin til. Skráið niður vinnukennið.
 1. Fara skal í **Vöruhúsakerfi \> Pökkun og gámun \> Úthlutanir á röðunarstað á útleið**.
 1. Í vinstri dálknum er hægt að skoða röðunarstaði á útleið sem voru búnir til fyrir hverja sendingu.
 1. Í flýtiflipanum **Skilyrði staðsetningarflokkunar** er hægt að skoða auðkenni sendingarinnar fyrir þessa stöðu.
@@ -493,7 +494,7 @@ Nú þegar búið er að koma öllum birgðum fyrir í röðunarstaðsetningunni
 1. Staðfestu færsluna.
 1. Sláið inn vörunúmerið sem á fyrst að raða.
 1. Kerfið ákvarðar fyrsta röðunarstaðinn sem á að sýna. Staðfestið röðunarstaðinn.
-1. Beðið er um að númeraplötu verði úthlutað á röðunarstaðinn. Veljið reitinn **NP**, færið inn númer númeraplötu og staðfestið síðan innsláttinn.
+1. Beðið er um að númeraplötu verði úthlutað á röðunarstaðinn. Veljið reitinn **NP** , færið inn númer númeraplötu og staðfestið síðan innsláttinn.
 
     Röðunarstaðurinn tengist auðkenni sendingar og því þarf að raða tíndum vörum á númeraplötu sem á við þessa tilteknu sendingu á útleið og sölupöntun.
 
@@ -518,7 +519,7 @@ Nú þegar búið er að koma öllum birgðum fyrir í röðunarstaðsetningunni
 1. Ljúkið tiltekt á röðuðum birgðum til að færa birgðirnar yfir á sendingarstaðinn. Þegar birgðir eru tilbúnar skal staðfesta sendingu.
 
 > [!NOTE]
-> Til að unnið verði rétt úr tiltekt raðaðra birgða, ætti valmyndaratriði fartækis, sem er með vinnuklasakenni þar sem reiturinn **Gerð vinnubeiðni** er stilltur á *Tiltekt raðaðra birgða*, að vera notað fyrir flutnings- og hleðsluferlið.
+> Til að unnið verði rétt úr tiltekt raðaðra birgða, ætti valmyndaratriði fartækis, sem er með vinnuklasakenni þar sem reiturinn **Gerð vinnubeiðni** er stilltur á *Tiltekt raðaðra birgða* , að vera notað fyrir flutnings- og hleðsluferlið.
 
 ### <a name="manually-close-a-position-optional"></a>Loka staðsetningu handvirkt (valfrjálst)
 
@@ -529,7 +530,7 @@ Ef loka á röðunarstaðsetningum handvirkt, verður valkosturinn **Loka sjálf
     - Notandinn getur skannað eina vöruna sem er þegar í staðsetningunni og síðan valið **Loka** til að loka henni.
     - Ef notandi skannar gám sem þegar hefur verið raðað á gám, birtast villuboð. Notandinn getur samt haldið áfram að loka staðnum.
 
-- Af Microsoft Dynamics 365 Supply Chain Management síðunni **Úthlutanir á röðunarstaðsetningu á útleið**:
+- Af Microsoft Dynamics 365 Supply Chain Management síðunni **Úthlutanir á röðunarstaðsetningu á útleið** :
 
     - Notandinn getur valið færslu röðunarstaðsetningu á útleið og síðan valið **Loka staðsetningu** á aðgerðasvæðinu.
 

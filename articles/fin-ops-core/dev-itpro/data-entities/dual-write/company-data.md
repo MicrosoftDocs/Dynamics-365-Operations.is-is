@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728414"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997527"
 ---
 # <a name="company-concept-in-common-data-service"></a>Fyrirtækishugtak í Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728414"
 
 Í Finance and Operations er hugtakið a *fyrirtæki* bæði lögleg smíð og viðskiptasmíð. Það er einnig öryggis- og sýnileikamörk fyrir gögn. Notendur vinna alltaf í samhengi við eitt fyrirtæki og flest gögnin eru röndótt af fyrirtækinu.
 
-Common Data Service er ekki með sambærilegt hugtak. Næsta hugtakið er *rekstrareining*, sem er fyrst og fremst öryggis- og sýnileikamörk fyrir notendagögn. Þetta hugtak hefur ekki sömu lagalegu eða viðskiptalegu afleiðingar og hugtakið fyrirtæki.
+Common Data Service er ekki með sambærilegt hugtak. Næsta hugtakið er *rekstrareining* , sem er fyrst og fremst öryggis- og sýnileikamörk fyrir notendagögn. Þetta hugtak hefur ekki sömu lagalegu eða viðskiptalegu afleiðingar og hugtakið fyrirtæki.
 
 Vegna þess að rekstrareining og fyrirtæki eru ekki sambærileg hugtök er ekki mögulegt að þvinga kortlagningu á milli þeirra (1: 1) í þeim tilgangi að samþætta Common Data Service. Hins vegar vegna þess að notendur verða sjálfgefið að geta séð sömu skrár í forritinu og Common Data Service, hefur Microsoft kynnt nýja einingu í Common Data Service sem heitir cdm\_Fyrirtæki. Þessi eining jafngildir fyrirtækinu í forritinu. Til að hjálpa til við að tryggja að sýnileiki gagna sé jafnstór milli forritsins og Common Data Service úr kassanum, mælum við með eftirfarandi uppsetningu fyrir gögn í Common Data Service:
 
@@ -82,7 +81,7 @@ Common Data Service-samþætting færir fyrirtækjajöfnun með því að nota a
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Velja sjálfgefið fyrirtæki í upplýsingahluta fyrirtækis.":::
 
-+ Ef þú hefur **skrifheimild** fyrir **SystemUser** eininguna fyrir stig **Viðskiptaeiningar**, getur þú breytt sjálfgefna fyrirtækinu í hvaða skjámynd sem er með því að velja fyrirtæki úr fellivalmynd **Fyrirtækis**.
++ Ef þú hefur **skrifheimild** fyrir **SystemUser** eininguna fyrir stig **Viðskiptaeiningar** , getur þú breytt sjálfgefna fyrirtækinu í hvaða skjámynd sem er með því að velja fyrirtæki úr fellivalmynd **Fyrirtækis**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Breyta heiti fyrirtækisins á nýjum lykli.":::
 
@@ -93,7 +92,7 @@ Common Data Service-samþætting færir fyrirtækjajöfnun með því að nota a
 + Ef þú sérð um kerfisstillingar eða ert kerfisstjóri og þú vilt fylla út fyrirtækisgögn sjálfkrafa í sérsniðinni skjámynd, geturðu valið [skjámyndatilvik](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Bættu við JavaScript tilvísun á **msdyn_/DefaultCompany.js** og nota eftirfarandi tilvik. Hægt er að nota hvaða tilbúnu skjámynd sem er, t.d. skjámyndina **Lykill**.
 
     + **OnLoad** tilvik fyrir skjámyndina: Stillið reitinn **defaultCompany**.
-    + **OnChange** tilvik fyrir reitinn **Fyrirtæki**: Stillið reitinn **updateDefaultCompany**.
+    + **OnChange** tilvik fyrir reitinn **Fyrirtæki** : Stillið reitinn **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Nota síun sem byggir á samhengi fyrirtækis
 

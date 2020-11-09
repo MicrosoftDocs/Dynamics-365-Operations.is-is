@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSQualityCheckTemplate,WHSWorkClass,WHSWorkTemplateTable.WHSLocDirTable
+ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a4694281f3dd53581c9d8245a0105b37b2b155
-ms.sourcegitcommit: 7dc2ff9461c310324937bea2fc160ff056fefd8a
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016632"
 ---
 # <a name="quality-check"></a>Gæðaskoðun
 
@@ -55,7 +55,7 @@ Einnig er hægt að setja þetta ferli upp þannig að allar skannaðar númerap
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
 
 ### <a name="quality-check-template"></a><a name="quality-template"></a>Sniðmát gæðaskoðunar
 
@@ -121,7 +121,7 @@ Vinnusniðmát gerir það mögulegt að skilgreina vinnsluaðgerðir sem þarf 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnusniðmát**.
 1. Í hausnum skal stilla reitinn **Gerð verkbeiðni** á *Innkaupapantanir*.
 1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Veljið vinnusniðmát sem á að innihalda skref gæðaskoðunar. Í hlutanum **Yfirlit**, í reitnum **Vinnusniðmát**, skal velja *51 Innhreyfing innkaupapöntunar*.
+1. Veljið vinnusniðmát sem á að innihalda skref gæðaskoðunar. Í hlutanum **Yfirlit** , í reitnum **Vinnusniðmát** , skal velja *51 Innhreyfing innkaupapöntunar*.
 1. Athugið að í hlutanum **Upplýsingar vinnusniðmáts** er hnitanetið með tvær línur fyrir: eina fyrir *Tiltekt* og hina fyrir *Frágang*.
 1. Í hlutanum **Upplýsingar vinnusniðmáts** skal velja **Ný** til að bæta línu fyrir gæðastjórnun við hnitanetið. Takið eftir að reiturinn **Línunúmer** fyrir nýju línuna er stilltur á *3*.
 1. Stilltu eftirfarandi gildi á nýju línunni. Samþykkið sjálfgefin gildi fyrir reitina sem eftir eru.
@@ -158,7 +158,7 @@ Næst skal stofna vinnusniðmát fyrir gæðaskoðun.
     - **Lýsing á vinnusniðmáti:** *51 Gæðaskoðun*
 
 1. Á aðgerðasvæðinu skal velja **Vista** til að gera hlutann **Upplýsingar um vinnusniðmát** tiltækan.
-1. Á meðan nýja sniðmátið er enn valið í hlutanum **Yfirlit**, skal velja **Ný** í hlutanum **Upplýsingar um vinnusniðmát** til að bæta línu við hnitanetið þar.
+1. Á meðan nýja sniðmátið er enn valið í hlutanum **Yfirlit** , skal velja **Ný** í hlutanum **Upplýsingar um vinnusniðmát** til að bæta línu við hnitanetið þar.
 1. Í nýju línunni skal stilla eftirfarandi gildi:
 
     - **Verkgerð:** *Tiltekt*
@@ -204,10 +204,10 @@ Staðsetningarleiðbeiningar eru reglur sem hjálpa við auðkenningu tiltektar-
     - **Til magn:** *1000000*
 
 1. Á aðgerðasvæðinu skal velja **Vista** til að vista nýju línuna og gera flýtiflipann **Aðgerðir í staðsetningarleiðbeiningum** tiltækan.
-1. Á meðan nýja línan er enn valin í flýtiflipanum **Línur**, skal velja **Ný** í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** til að bæta línu við hnitanetið þar, þannig að hægt sé að setja upp aðgerð fyrir línuna.
+1. Á meðan nýja línan er enn valin í flýtiflipanum **Línur** , skal velja **Ný** í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** til að bæta línu við hnitanetið þar, þannig að hægt sé að setja upp aðgerð fyrir línuna.
 1. Í nýju línunni skal stilla reitinn **Heiti** á *Gæði*. Samþykkið sjálfgefin gildi fyrir reitina sem eftir eru.
 1. Á aðgerðasvæðinu skal velja **Vista** til að gera hnappinn **Breyta fyrirspurn** í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** tiltækan.
-1. Á meðan línan sem var bætt við er enn valin í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum**, skal velja **Breyta fyrirspurn** til að opna svarglugga þar sem hægt er að breyta fyrirspurninni fyrir aðgerðina.
+1. Á meðan línan sem var bætt við er enn valin í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** , skal velja **Breyta fyrirspurn** til að opna svarglugga þar sem hægt er að breyta fyrirspurninni fyrir aðgerðina.
 1. Í flipanum **Svið** skal velja **Bæta við** til að bæta línu við fyrirspurnina.
 1. Í nýju línunni skal stilla eftirfarandi gildi:
 
@@ -219,7 +219,7 @@ Staðsetningarleiðbeiningar eru reglur sem hjálpa við auðkenningu tiltektar-
     Staðsetning *QMS* er vöruhúsastaðsetning fyrir gæði.
 
 1. Veldu **Í lagi** til að loka svarglugganum.
-1. Nú þarf að breyta röðinni á staðsetningarleiðbeiningum innkaupapöntunar fyrir vöruhús *51*. Vistið nýju staðsetningarleiðbeininguna *51 Til gæðaskoðunar*, uppfærið síðuna, og veljið staðsetningarleiðbeininguna í listanum. Notið síðan hnappana **Færa upp** og **Færa niður** á aðgerðasvæðinu til að ganga frá staðsetningarleiðbeiningunni fyrir vöruhús *51* í eftirfarandi röð. (Áður en valið er **Færa upp** eða **Færa niður** þarf að velja staðsetningarleiðbeiningu í listanum.)
+1. Nú þarf að breyta röðinni á staðsetningarleiðbeiningum innkaupapöntunar fyrir vöruhús *51*. Vistið nýju staðsetningarleiðbeininguna *51 Til gæðaskoðunar* , uppfærið síðuna, og veljið staðsetningarleiðbeininguna í listanum. Notið síðan hnappana **Færa upp** og **Færa niður** á aðgerðasvæðinu til að ganga frá staðsetningarleiðbeiningunni fyrir vöruhús *51* í eftirfarandi röð. (Áður en valið er **Færa upp** eða **Færa niður** þarf að velja staðsetningarleiðbeiningu í listanum.)
 
     1. 51 Til gæðaskoðunar
     2. 51 PO Direct
@@ -282,7 +282,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun**:
+1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun** :
 
     - **Lánardrottnalykill:** *104*
     - **Vöruhús:** *51*
@@ -308,10 +308,10 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 1. Staðfestið innkaupapöntunarnúmerið.
 1. Í reitinn **LINENUM** skal slá inn fjölda innkaupapöntunarlína sem tekið er á móti. Þar sem pöntunin er aðeins með eina línu í þessu sýnidæmi, skal slá inn *1* í reitinn **LINENUM** fyrir hvert móttökuskref.
 1. Staðfestið línunúmerið.
-1. Í reitinn **Magn** skal slá inn magnið sem á að móttaka. Þar sem innkaupapöntunin er fyrir þrjú bretti (*PL*) í þessu sýnidæmi og það eru þrjú móttökuskref, skal slá inn *1* í reitinn **Magn** fyrir hvert móttökuskref.
+1. Í reitinn **Magn** skal slá inn magnið sem á að móttaka. Þar sem innkaupapöntunin er fyrir þrjú bretti ( *PL* ) í þessu sýnidæmi og það eru þrjú móttökuskref, skal slá inn *1* í reitinn **Magn** fyrir hvert móttökuskref.
 1. Staðfestu magnið.
 
-    Síðan **Gæðaskoðun** sem birtist er með enga innsláttarreiti. Hún er aðeins með staðfestingarhnappinn (gátmerki) neðst og valmyndarhnappinn (**≡**) efst. (Valmyndarhnappurinn er stundum kallaður hamborgari eða hamborgarahnappur.) Til að flýta fyrir gæðaskoðunarferlinu, þegar brettið stenst gæðaskoðun, staðfestir notandinn bara síðuna **Gæðaskoðun**.
+    Síðan **Gæðaskoðun** sem birtist er með enga innsláttarreiti. Hún er aðeins með staðfestingarhnappinn (gátmerki) neðst og valmyndarhnappinn ( **≡** ) efst. (Valmyndarhnappurinn er stundum kallaður hamborgari eða hamborgarahnappur.) Til að flýta fyrir gæðaskoðunarferlinu, þegar brettið stenst gæðaskoðun, staðfestir notandinn bara síðuna **Gæðaskoðun**.
 
     ![Gæðaskoðunarsíða](media/quality-check.png "Gæðaskoðunarsíða")
 
@@ -342,7 +342,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
     Síðan **Gæðaskoðun** birtist. Fyrir þessa innhreyfingu verður brettinu hafnað vegna gæða og því komið fyrir á gæðastaðsetningunni *QMS*.
 
-1. Veljið valmyndarhnappinn (**≡**) efst á síðunni og síðan, í valmyndinni, skal velja **Hafna**.
+1. Veljið valmyndarhnappinn ( **≡** ) efst á síðunni og síðan, í valmyndinni, skal velja **Hafna**.
 1. Á síðunni **Verk** sem birtist skal slá inn **QMS** sem staðsetningu *Frágangs* þar sem senda á brettið til að gangast undir frekara eftirlit.
 
     Síðan **Gæði í gæðaskoðun: Frágangur** sem birtist sýnir upplýsingar um frágangsvinnuna:
@@ -394,6 +394,6 @@ Frekari upplýsingar um gæðastjórnun má finna í [Gæðastjórnunaryfirlit](
 
     Á síðunni **Verk** fyrir móttöku innkaupapöntunarlínu birtast skilaboðin „Vinnu lokið“. Reiturinn **LINENUM** er tiltækur þannig að hægt sé að taka á móti næsta bretti.
 
-1. Veljið valmyndarhnappinn (**≡**) efst á síðunni og síðan, í valmyndinni, skal velja **Hætta við** til að fara aftur í valmyndina.
+1. Veljið valmyndarhnappinn ( **≡** ) efst á síðunni og síðan, í valmyndinni, skal velja **Hætta við** til að fara aftur í valmyndina.
 
 Nú má loka fartækjaforritinu.

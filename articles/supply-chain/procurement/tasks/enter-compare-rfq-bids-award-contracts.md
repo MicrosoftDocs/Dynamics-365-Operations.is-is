@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
+ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fbbae2f097f812e1eefd8a095d72aa1c284c757
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207656"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018423"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
@@ -74,7 +74,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 
 ## <a name="compare-the-replies"></a>Bera saman svör
 
-1. Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Bera saman svör**.
+1. Í aðgerðarúðunni, í flipanum **Almennt** , skal velja **Bera saman svör**.
 2. Færið númer inn í svæðið **sæti**.  
     - Þessi síða sýnir kauptilboðin, ásamt upplýsingum fyrir haus og línu, og einnig heildarstigagjöfina á hausstigi. Hægt er að bera saman línurnar með því að raða hnitanetinu þannig samanburðarhæfar línur séu hlið við hlið. Eftirfarandi upplýsingar eru einnig innifaldar:
     - **Magn** - Magnið sem lánardrottinn gaf upp. Þetta magn er hugsanlega ekki sama magnið og er tilgreint í tilboðsbeiðninni.
@@ -91,7 +91,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
     - Ef gátreiturinn **Merkja** er valinn í haus tilboðsins verða allar línurnar einnig merktar. Til að hafna eða samþykkja aðeins nokkrar af línunum í tilboðinu er hægt að merkja aðeins þær línur. Að auki er hægt að samþykkja eitt tilboð lánardrottins fyrir sumar línur tilboðsbeiðni og úthluta síðan öðrum línum tilboðsbeiðni til annars lánardrottins. Hins vegar verður að gera eitt tilboð í einu.  
     - Ef aðrar línur eru til staðar er hægt að samþykkja annaðhvort upprunalegu kauptilboðslínuna eða hina línuna, en ekki báðar.  
 3. Veljið **Hafna**.
-4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða höfnunar**, skal færa inn eða velja ástæðu fyrir höfnun á tilboðinu. Ástæðan er geymd í svarinu.  
+4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða höfnunar** , skal færa inn eða velja ástæðu fyrir höfnun á tilboðinu. Ástæðan er geymd í svarinu.  
 5. Veljið **Í lagi**.
 6. Veljið **Í lagi**.
 
@@ -100,10 +100,10 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 1. Veljið tilboð sem á að samþykkja og smellið síðan á tengilinn í reitnum **Beiðni um tilboð**. Ef þú ert á síðunni **Bera saman svör við beiðnum um tilboð** er undirstrikaða tilboðið með áhersluna það tilboð sem kerfið hefur í huga í samþykktaraðgerðinni. Aðeins er hægt að samþykkja línur úr einu tilboði í einu.  
 2. Í aðgerðarúðunni skal velja **Svara**.
 3. Veljið **Samþykkja**. Ef eingöngu tilteknar línur voru merktar mun samþykktaraðgerðin eingöngu hafa þær línur með. Ef á að samþykkja allar línur í tilboðinu þarf ekki að merkja línurnar.  
-4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða samþykktar**, skal færa inn eða velja ástæðu fyrir samþykkt á tilboðinu. Ástæðan er geymd í kauptilboðinu.  
+4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða samþykktar** , skal færa inn eða velja ástæðu fyrir samþykkt á tilboðinu. Ástæðan er geymd í kauptilboðinu.  
 5. Veljið **Í lagi**.
 6. Veljið **Í lagi**. Þegar valið er **Í lagi** er innkaupapöntun mynduð sem byggist á línunum sem eru hafðar með í samþykkt tilboðsbeiðni. Ef önnur tilboð eru til staðar sem ekki hefur verið unnið úr (samþykkt, hafnað eða skila) biður kerfið notandann um að hafna þeim.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skoða innkaupapöntun sem er búin til
 
-Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.
+Í aðgerðarúðunni, í flipanum **Almennt** , skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.

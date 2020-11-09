@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203412"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018653"
 ---
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -139,11 +140,11 @@ Eftirfarandi tafla sýnir stöðurnar sem lánardrottnabeiðnir geta haft.
 
 Þegar lánardrottnabeiðni er samþykkt, er lánardrottnareikningur búinn til og staðan **Samþykkt** birtist bæði í upphaflegri skráningarbeiðni væntanlegs lánardrottins og lánardrottnabeiðninni.
 
-Áður en þú samþykkir lánadrottnabeiðni, skaltu á síðunni **Nýr lánardrottinn**, á **Almennt** flýtiflipanum velja **Lánardrottnaflokkur** til að velja lánardrottnaflokk.
+Áður en þú samþykkir lánadrottnabeiðni, skaltu á síðunni **Nýr lánardrottinn** , á **Almennt** flýtiflipanum velja **Lánardrottnaflokkur** til að velja lánardrottnaflokk.
 
 Ef væntanlegur lánadrottna notandi ætti að hafa aðgang að Supply Chain Management sem notandi samstarfs lánardrottna sem er fulltrúi lánardrottins, skal stilla samstarf lánardrottna aðgangsheimild á **Já**. Til að slökkva á notandareikningnum sem væntanlegur lánardrottinn notaði til að skrá sig inn, skaltu stilla þessa heimild á **Nei**.
 
-Ef aðgangsheimild að samstarfi lánardrottna er stillt á **Já**, þegar lánardrottnabeiðnin er samþykkt, er beiðni lögð fram um að breyta hlutverki notanda svo að notandinn hafi hlutverkin sem eru skilgreind fyrir **Lánardrottinn** tegund í **Ytri hlutverk**. Ef þetta heimild er stillt á **Nei**, þegar lánardrottnabeiðnin er samþykkt, er beiðni send inn til að gera notandann óvirkan. Í þessu tilviki verður að setja upp verkflæði til að gera notandareiðbeini óvirka.
+Ef aðgangsheimild að samstarfi lánardrottna er stillt á **Já** , þegar lánardrottnabeiðnin er samþykkt, er beiðni lögð fram um að breyta hlutverki notanda svo að notandinn hafi hlutverkin sem eru skilgreind fyrir **Lánardrottinn** tegund í **Ytri hlutverk**. Ef þetta heimild er stillt á **Nei** , þegar lánardrottnabeiðnin er samþykkt, er beiðni send inn til að gera notandann óvirkan. Í þessu tilviki verður að setja upp verkflæði til að gera notandareiðbeini óvirka.
 
 Ef búa á til lánardrottnareikningur þegar lánardrottnabeiðnin er samþykkt, verður númeraröð til að búa til lánardrottna frá lánardrottnabeiðnum að vera stillt á **Sjálfvirkt**.
 

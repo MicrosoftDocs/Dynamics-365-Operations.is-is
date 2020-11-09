@@ -3,7 +3,7 @@ title: Skoða niðurstöður sjálfvirkni reiknings lánardrottins (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að skoða stöðu reikninga lánardrottna sem eru í sjálfvirka verkflæðisferlinu.
 author: abruer
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65e7929e612c8465f26a2f3bc7df6f13620e5b4e
-ms.sourcegitcommit: 3387595e41fb03e98bb437588f6de78794ae383f
+ms.openlocfilehash: ec49a621e24b6373532497b499e8b9d45c9bed14
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022614"
 ---
-# <a name="view-vendor-invoice-automation-results-preview"></a>Skoða niðurstöður sjálfvirkni reiknings lánardrottins (forskoðun)
+# <a name="view-vendor-invoice-automation-results"></a>Skoða niðurstöður sjálfvirkni reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að skoða stöðu reikninga lánardrottna sem eru í sjálfvirka verkflæðisferlinu. Upplýsingum um sjálfvirkniferilinn er haldið við fyrir hvern innfluttan lánardrottnareikning. Það fer eftir viðskiptaferlunum sem voru gerðir sjálfvirkir, hvað síðan **Reikningar frá lánardrottni í bið** sýnir í gildunum **Staða sjálfvirkrar jöfnunar innhreyfingar** og **Staða sjálfvirkrar innsendingar í verkflæði**. Hægt er að skoða upplýsingarnar og gera áætlun um að einbeita sér að reikningunum sem tókust ekki í sjálfvirku skrefi. Eftir að vandamálið hefur verið lagað er hægt að halda áfram með sjálfvirka ferlið fyrir innfluttan reikning.
 

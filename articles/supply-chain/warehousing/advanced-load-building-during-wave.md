@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fb47498cfb3756b0e180fe9e5500255c7312a92
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016333"
 ---
 # <a name="advanced-load-building-during-wave"></a>Ítarleg hleðsluáætlun í bylgju
 
@@ -34,7 +34,7 @@ Við bylgjuvinnslu býr kerfið venjulega til nýjan farm fyrir hverja sendingu 
 Til að nota eiginleikann þarf að setja upp kerfið á eftirfarandi hátt:
 
 - Stofna *Bylgjusniðmát* sem innihalda nýju aðferðina **buildLoads**. Þessi aðferð býður upp á ítarlega hleðsluáætlun bylgju fyrir bylgjur sem nota þessi sniðmát.
-- Setjið upp *sniðmát hleðsluáætlunar*, sem hvert fyrir sig er tengt tilteknu bylgjusniðmáti og aðferð. Sniðmát hleðsluáætlunar stjórna því í hvaða farmur (fyrirliggjandi eða nýjum) hleðslulínum bylgju verður bætt við. Hægt er að tengja saman eða aðskilja sendingar út frá skilyrðum á borð við hleðslusniðmát, búnað og öðrum reitargildum í farmlínunni.
+- Setjið upp *sniðmát hleðsluáætlunar* , sem hvert fyrir sig er tengt tilteknu bylgjusniðmáti og aðferð. Sniðmát hleðsluáætlunar stjórna því í hvaða farmur (fyrirliggjandi eða nýjum) hleðslulínum bylgju verður bætt við. Hægt er að tengja saman eða aðskilja sendingar út frá skilyrðum á borð við hleðslusniðmát, búnað og öðrum reitargildum í farmlínunni.
 - Skilgreinið *blöndunarflokka farma* til að stjórna því hvaða vörur eigi og eigi ekki að sameina í einum farmi. Einnig skal taka fram hvort takmörkunin eigi að skila viðvörun eða villu og hvort meta skuli rúmmálstakmörkun hleðslusniðmátsins.
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Kveikja á ítarlegri hleðsluáætlun bylgju í kerfinu
@@ -53,13 +53,13 @@ Til að nota eiginleikann þarf að setja upp kerfið á eftirfarandi hátt:
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessa sýniútgáfu sem leiðsögn um hvernig skuli nota þennan eiginleika þegar unnið er í framleiðslukerfi. Í slíku tilfelli þarf hinsvegar að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 
 ### <a name="make-sure-that-the-scenario-setup-includes-enough-available-inventory"></a>Gangið úr skugga um að uppsetning aðstæðna feli í sér nægar birgðir
 
-Ef unnið er með sýnigögnin **USMF** þarf fyrst að ganga úr skugga um að kerfið sé sett upp með nægum birgðum á öllum viðeigandi staðsetningum. Fyrir þessa sýniútgáfu er væntingin sú að eftirfarandi birgðir séu tiltækar í vöruhúsi *62*:
+Ef unnið er með sýnigögnin **USMF** þarf fyrst að ganga úr skugga um að kerfið sé sett upp með nægum birgðum á öllum viðeigandi staðsetningum. Fyrir þessa sýniútgáfu er væntingin sú að eftirfarandi birgðir séu tiltækar í vöruhúsi *62* :
 
 - **Atriði A0001:** 10 stykki
 - **Atriði A0002:** 10 stykki
@@ -71,14 +71,14 @@ Bæta verður atriði **M9200** við vöruhúsið. Ljúkið ferlunum í eftirfar
 
 1. Fara í **Vöruhúsakerfi** \> **Uppsetning** \> **Vöruhús** \> **Númeraplötur**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Í nýja línunni, í reitnum **Númeraplata**, skal slá inn *LP6203*.
+1. Í nýja línunni, í reitnum **Númeraplata** , skal slá inn *LP6203*.
 1. Veljið **Vista**.
 
 #### <a name="create-a-standard-cost-for-item-m9200-in-site-6"></a>Búa til staðalkostnað fyrir vöru M9200 á svæði 6
 
 1. Farðu í **Afurðaupplýsingastjórnun** \> **Afurðir** \> **Losaðar afurðir**.
 1. Leitið að **M9200**.
-1. Veljið línu vörunnar og síðan á aðgerðasvæðinu, í flipanum **Stjórnun kostnaðar**, í flokknum **Uppsetning**, skal velja **Vöruverð**.
+1. Veljið línu vörunnar og síðan á aðgerðasvæðinu, í flipanum **Stjórnun kostnaðar** , í flokknum **Uppsetning** , skal velja **Vöruverð**.
 1. Á síðunni **Vöruverð** skal velja flipann **Biðverð**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
 1. Stilltu eftirfarandi gildi á nýju línunni:
@@ -97,7 +97,7 @@ Bæta verður atriði **M9200** við vöruhúsið. Ljúkið ferlunum í eftirfar
 
 1. Farið í **Birgðastjórnun** \> **Færslubókarfærslur** \> **Vörur** \> **Leiðrétting birgða**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Í svarglugganum **Stofna birgðabók**, í flýtiflipanum **Yfirlit**, í reitnum **Vöruhús** skal slá inn *62*. Samþykkið sjálfgefin gildi í öllum hinum reitunum.
+1. Í svarglugganum **Stofna birgðabók** , í flýtiflipanum **Yfirlit** , í reitnum **Vöruhús** skal slá inn *62*. Samþykkið sjálfgefin gildi í öllum hinum reitunum.
 1. Veldu **Í lagi** til að loka svarglugganum.
 1. Síðan **Leiðrétting birgða** opnast. Í flýtiflipanum **Færslubókarlínur** skal velja **Ný** til að bæta við línu.
 1. Stilltu eftirfarandi gildi á nýju línunni. Samþykkið sjálfgefin gildi í öllum hinum reitunum.
@@ -116,7 +116,7 @@ Bæta verður atriði **M9200** við vöruhúsið. Ljúkið ferlunum í eftirfar
 
 ### <a name="regenerate-wave-process-methods"></a>Endurgera vinnsluaðferðir bylgju
 
-Hugsanlega þarf að endurgera vinnsluaðferðir bylgju til að bjóða upp á aðferð hleðsluáætlunar (**buildLoads**).
+Hugsanlega þarf að endurgera vinnsluaðferðir bylgju til að bjóða upp á aðferð hleðsluáætlunar ( **buildLoads** ).
 
 1. Farið í **Vöruhúsakerfi** \> **Uppsetning** \> **Bylgjur** \> **Vinnsluaðferðir bylgju**.
 2. Gangið úr skugga um að **buildLoads** sé til staðar í listanum. Ef það er ekki til staðar skal velja **Endurgera aðferðir** á aðgerðasvæðinu til að bæta því við.
@@ -131,18 +131,18 @@ Til að nýta sér ítarlega hleðsluáætlun bylgju þarf að láta aðferðina
     Ef unnið er með sýnigögnin **USMF** skal velja sniðmátið **Sjálfgefin sending 62**.
 
 1. Á aðgerðasvæðinu skal velja **Breyta** til að færa síðuna yfir í breytingastillingu.
-1. Í flýtiflipanum **Aðferðir**, í hnitanetinu **Aðferðir sem eftir standa**, skal velja aðferðina **buildLoads**.
+1. Í flýtiflipanum **Aðferðir** , í hnitanetinu **Aðferðir sem eftir standa** , skal velja aðferðina **buildLoads**.
 1. Veljið hægri örvarhnappinn til að færa **buildLoads** aðferðina yfir í hnitanetið **Valdar aðferðir**.
-1. Til að úthluta gildi **Stigskóða bylgju** fyrir **buildLoads** aðferðina þarf fyrst að stofna kóða á síðunni **Stigskóðar bylgju**. Hægt er að nota hvaða gildi sem er, en munið að leggja það á minnið því að nota þarf gildið seinna. Fylgið þessum skrefum til að stofna kóða **WSC2112**:
+1. Til að úthluta gildi **Stigskóða bylgju** fyrir **buildLoads** aðferðina þarf fyrst að stofna kóða á síðunni **Stigskóðar bylgju**. Hægt er að nota hvaða gildi sem er, en munið að leggja það á minnið því að nota þarf gildið seinna. Fylgið þessum skrefum til að stofna kóða **WSC2112** :
 
     1. Í línunni fyrir **buildLoads** aðferðina skal hægrismella á niðurörina í reitnum **Stigskóði bylgju** og velja síðan **Skoða upplýsingar**.
-    1. Á síðunni **Stigskóðar bylgju**, á aðgerðasvæðinu, skal velja **Nýr**.
+    1. Á síðunni **Stigskóðar bylgju** , á aðgerðasvæðinu, skal velja **Nýr**.
     1. Í reitinn **Stigskóði bylgju** skal slá inn *WSC2112*.
     1. Í reitinn **Lýsing á bylgjustigi** skal slá inn *WSC2112*.
     1. Í reitnum **Gerð bylgjustigs** skal velja *Hleðsluáætlun*.
 
 1. Veljið **Vista** og lokið skjámyndinni.
-1. Í línunni fyrir **buildLoads** aðferðina, í reitnum **Stigskóði bylgju**, skal velja kóðann sem var stofnaður (**WSC2112**).
+1. Í línunni fyrir **buildLoads** aðferðina, í reitnum **Stigskóði bylgju** , skal velja kóðann sem var stofnaður ( **WSC2112** ).
 1. Í aðgerðarúðunni skal velja **Vista**.
 
 > [!NOTE]
@@ -182,7 +182,7 @@ Blöndunarflokkar farms setja reglur fyrir þær tegundir af vörum sem hægt er
 
 1. Haldið áfram að vinna með reglurnar þangað til öllum skilyrðum og takmörkunum hefur verið bætt við sem þarf að nota fyrir blöndunarflokk farms.
 
-Ef verið er að vinna með sýnigögnin **USMF**, er þessari uppsetningu lokið.
+Ef verið er að vinna með sýnigögnin **USMF** , er þessari uppsetningu lokið.
 
 ### <a name="set-up-load-build-templates"></a>Setja upp sniðmát hleðsluáætlana
 
@@ -201,13 +201,13 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
     | Búnaður | Búnaðurinn til að samsvara við þegar úthlutað er á fyrirliggjandi farma og til að færa inn á nýja farma sem eru búnir til. | Hafa reitinn auðann. |
     | Kenni blöndunarflokks farms | Veljið blöndunarflokk farms sem á að nota ef varan er leyfð í hleðsluna. Blöndunarflokkurinn setur reglur fyrir þær tegundir af vörum sem hægt er að sameina í einum farmi. Velja ætti einn blöndunarflokk af þeim sem voru stofnaðir fyrr í þessari uppsetningu. | *Sjónvarp* |
     | Nota opna farma | Veljið hvort bæta eigi við fyrirliggjandi opnum förmum. Eftirtaldir valkostir eru í boði:<ul><li>**Enginn** – Ekki bæta opnum förmum við fyrirliggjandi farma.</li><li>**Hvern sem er** – Bætið opnum förmum við einhvern fyrirliggjandi farm sem gilda fyrir línuna.</li><li>**Úthlutaður** – Bætið opnum förmum við þann farm sem er úthlutað á bylgjuna.</li></ul> | *Hvaða sem er* |
-    | Stofna hleðslur | Tilgreinið hvort búa eigi til nýja farma ef engir fyrirliggjandi farmar uppfylla skilyrðið. | Valinn (= *Já*) |
-    | Leyfa skiptingu sendingarlínu | Tilgreinið hvort megi skipta einni farmlínu niður á marga farma ef öll línan fer yfir hámarksgetu hleðslusniðmátsins. | Hreinsað (= *Nei*) |
-    | Staðfesta rúmmál | Tilgreinið hvort hleðsluáætlunin eigi að athuga þyngd og rúmmál í hvert skipti sem farmlínu er bætt við, til að tryggja að farið sé eftir rúmmálsmörkum hleðslusniðmátsins. | Hreinsað (= *Nei*) |
+    | Stofna hleðslur | Tilgreinið hvort búa eigi til nýja farma ef engir fyrirliggjandi farmar uppfylla skilyrðið. | Valinn (= *Já* ) |
+    | Leyfa skiptingu sendingarlínu | Tilgreinið hvort megi skipta einni farmlínu niður á marga farma ef öll línan fer yfir hámarksgetu hleðslusniðmátsins. | Hreinsað (= *Nei* ) |
+    | Staðfesta rúmmál | Tilgreinið hvort hleðsluáætlunin eigi að athuga þyngd og rúmmál í hvert skipti sem farmlínu er bætt við, til að tryggja að farið sé eftir rúmmálsmörkum hleðslusniðmátsins. | Hreinsað (= *Nei* ) |
 
 1. Á aðgerðasvæðinu skal velja **Vista** til að bjóða upp á valkostinn **Breyta fyrirspurn**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að opna svarglugga til að breyta fyrirspurninni.
-1. Í svarglugganum, í flipanum **Röðun**, skal velja **Bæta við** til að bæta línu við hnitanetið.
+1. Í svarglugganum, í flipanum **Röðun** , skal velja **Bæta við** til að bæta línu við hnitanetið.
 1. Í nýju línunni skal skilgreina röðunarreglurnar sem á að nota. Til dæmis skal stilla eftirfarandi gildi til að raða leitarniðurstöðum í hækkandi röð eftir pöntunarnúmeri:
 
     - **Tafla:** *Upplýsingar um hleðslu*
@@ -216,7 +216,7 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
     - **Leitarstefna:** *Hækkandi*
 
 1. Veljið **Í lagi** til að vista breytingarnar og loka svarglugganum.
-1. Í flýtiflipanum **Skipta samkvæmt** skal setja reglur til að stýra því hvernig hleðslum er skipt upp. Yfirleitt er skipt í sérstilltum reitum sem hafa verið framlengdir yfir í farmlínuna, t.d. **Leið**, **Leiðsögn** eða **Keyra**. Sem dæmi, til að búa til eina hleðslu á pöntunarnúmer skal velja gátreitinn **Skipta samkvæmt** fyrir línuna sem er með eftirfarandi gildum:
+1. Í flýtiflipanum **Skipta samkvæmt** skal setja reglur til að stýra því hvernig hleðslum er skipt upp. Yfirleitt er skipt í sérstilltum reitum sem hafa verið framlengdir yfir í farmlínuna, t.d. **Leið** , **Leiðsögn** eða **Keyra**. Sem dæmi, til að búa til eina hleðslu á pöntunarnúmer skal velja gátreitinn **Skipta samkvæmt** fyrir línuna sem er með eftirfarandi gildum:
 
     - **Heiti tilvísunartöflu:** *Upplýsingar um hleðslu*
     - **Heiti tilvísunarsvæðis:** *Pöntunarnúmer*
@@ -237,16 +237,16 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
 1. Veljið **Í lagi** til að stofna sölupöntunina og loka svarglugganum.
 1. Nýja sölupöntunin þín opnast. Hún ætti að innihalda nýja, auða línu í hnitanetinu í flýtiflipanum **Sölupöntunarlínur**. Í þessari nýju línu skal stilla reitinn **Vörunúmer** á *A0001* og reitinn **Magn** á *1*.
 1. Á valmyndinni **Birgðir** fyrir ofan hnitanetið smellir þú á **Frátekning**.
-1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota**.
-1. Veljið hnappinn **Loka** (**X**) efst í hægri horni síðunnar til fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**. Kerfið stofnar sendingu og bætir henni við nýjan farm því að enginn fyrirliggjandi farmur inniheldur farmlínur með þessu pöntunarnúmeri.
+1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota**.
+1. Veljið hnappinn **Loka** ( **X** ) efst í hægri horni síðunnar til fara aftur í sölupöntunina.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**. Kerfið stofnar sendingu og bætir henni við nýjan farm því að enginn fyrirliggjandi farmur inniheldur farmlínur með þessu pöntunarnúmeri.
 
     Send verða upplýsandi skilaboð sem gefa upp verkið, bylgjuna og sendinguna sem stofnuð eru fyrir þessa pöntun.
 
-1. Til að staðfesta upplýsingar um hleðsluna, sendinguna og verkið í sölulínunni skal velja línuna og síðan, í valmyndinni **Vöruhús** fyrir ofan hnitanetið, skal velja **Upplýsingar um hleðslu**, **Upplýsingar um sendingu** eða **Upplýsingar um verk**.
-1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur**, skal velja **Bæta við línu** til að bæta við annarri línu.
+1. Til að staðfesta upplýsingar um hleðsluna, sendinguna og verkið í sölulínunni skal velja línuna og síðan, í valmyndinni **Vöruhús** fyrir ofan hnitanetið, skal velja **Upplýsingar um hleðslu** , **Upplýsingar um sendingu** eða **Upplýsingar um verk**.
+1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur** , skal velja **Bæta við línu** til að bæta við annarri línu.
 1. Í nýju línunni skal stilla reitinn **Vörunúmer** á *A0002* og reitinn **Magn** á *1*.
 1. Endurtakið línur 6 til 9 til að taka línuna frá og losa hana í vöruhúsið. Kerfið stofnar **nýja** sendingu fyrir línuna sem bætt var við. Hins vegar, því notuð er ítarleg hleðsluáætlun bylgju, bætir kerfið þessari sendingu og framlínu við fyrirliggjandi bylgju. Ef ekki væri notuð ítarleg hleðsluáætlun bylgju myndi kerfið stofna nýja hleðslu fyrir sendinguna.
-1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur**, skal velja **Bæta við línu** til að bæta við annarri línu.
+1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur** , skal velja **Bæta við línu** til að bæta við annarri línu.
 1. Í nýju línunni skal stilla reitinn **Vörunúmer** á *M9200* og reitinn **Magn** á *1*.
 1. Endurtakið línur 6 til 9 til að taka línuna frá og losa hana í vöruhúsið. Líkt og áður, stofnar kerfið **nýja** sendingu fyrir línuna sem bætt var við. En vegna þess að varan er í vöruflokknum **CarAudio** **nær varan ekki að uppfylla takmarkanirnar sem settar voru upp fyrir blöndunarflokk hleðslunnar**. Þar af leiðandi er henni **bætt við nýja hleðslu**. Ef ekki hefði verið tilgreindur blöndunarflokkur farms í sniðmáti hleðsluáætlunar, hefði þessari sendingu verið bætt við fyrstu hleðsluna.

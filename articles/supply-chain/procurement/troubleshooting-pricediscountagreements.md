@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchRFQTable
+ms.search.form: PurchTable, PurchTablePart, PurchRFQTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b83490acdc58c9ee0ffae9480f69a99477913843
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834375"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018214"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Villuleita verð, afslætti, samninga og eftirágreiddan afslátt
 
@@ -48,7 +48,7 @@ Skilaboðin eru kvaðning um mat á verðsamningi. Ítarlegri lýsingu má finna
 
 Eftirfarandi ferli sýnir eina leið til að endurtaka málið.
 
-1. Á síðunni **Færibreytur innkaupa og aðfanga**, í flipanum **Afhending**, skal ganga úr skugga um valkosturinn **Mynda gjöld á innhreyfingarskjali afurða** sé stilltur á *Já*.
+1. Á síðunni **Færibreytur innkaupa og aðfanga** , í flipanum **Afhending** , skal ganga úr skugga um valkosturinn **Mynda gjöld á innhreyfingarskjali afurða** sé stilltur á *Já*.
 1. Stofna innkaupapöntun sem inniheldur gjöld.
 1. Staðfesta innkaupapöntun.
 1. Takið á móti innkaupapöntuninni.

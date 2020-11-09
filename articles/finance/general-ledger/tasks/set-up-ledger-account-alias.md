@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2098ffed81ab3c18855363f0c3ef43dc1d11a77d
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: e1764f31c98039e9ea6f665dcb04a1cfd23c31dc
+ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138089"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998849"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Setja upp auknefni fjárhagslykla
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig á að stofna auknefni fjárhagslykils sem veitir flýtivísun til að færa inn lykilnúmer. Þetta ferli notar sýnifyrirtækið USMF.
+Þetta ferli sýnir hvernig á að stofna auknefni fjárhagslykils sem veitir flýtivísun til að færa inn lykilnúmer. Þessi aðferð notar sýnigögn fyrirtækisins USMF.
 
 1. Fara í Fjárhagur > Bókhaldslyklar > Lyklar > Auknefni fjárhagslykils.
 2. Smellið á „Nýtt“.

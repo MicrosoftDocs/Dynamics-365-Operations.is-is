@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024661"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107162"
 ---
 # <a name="commerce-home-page"></a>Heimasíða Commerce
-
 
 [!include [banner](includes/banner.md)]
 
@@ -50,7 +49,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Skilgreina forskoðunarumhverfi fyrir Commerce](provisioning-guide.md)
 - [Arkitektúr í Commerce](retail-components.md)
 - [Setja upp rásirnar þínar](channels-overview.md)
-- [Markaðssetja afurðir þínar og þjónustu](set-up-retail-products.md)
+- [Markaðssetning á afurðunum þínum og þjónustu](set-up-retail-products.md)
 - [Hafa umsjón með pöntununum þínum](Order-fulfillment-overview.md)
 - [Vinna með viðskiptavini þína](set-up-customer-loyalty-program.md)
 - [Haltu utan um fjármálin](retail-statements.md)

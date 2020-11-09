@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178241"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006214"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
@@ -41,15 +41,15 @@ Hluti af lok tímabils reikningsskilavenja krefjast stöður fjárhagslykils í 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Undirbúa keyrslu á endurmati á erlendum gjaldmiðli
 eftirfarandi uppsetningar er krafist áður en endurmatsferlið er keyrt.
 
--   Á síðunni **Aðallykill**:
+-   Á síðunni **Aðallykill** :
 -   Fyrir hvern aðallykil sem ætti að vera endurmetið, veljið **endurmat á Erlendum gjaldmiðli**. Ef aðallykli ættu ekki að endurmetinn (eins og Viðskiptakröfur og viðskiptaskuldir ef endurmetin í undirbókum), hreinsa þennan valkost.
--   Ef aðallykils er merkt fyrir endurmat, færa inn **gengisgerð**. Verður nota þessa gerð gengis fyrir endurmat á aðallykilinn. Aðskilin svæði **Fjárhagslegar skýrslugerð gengisgerð**, er tiltækt fyrir fjárhagsskýrslugerð. Tvö svæði eru ekki haldið í samræmi, heimiluð fyrir mismunandi gengisgerðir sem nota á fyrir endurmat og fjárhagsskýrslugerð.
+-   Ef aðallykils er merkt fyrir endurmat, færa inn **gengisgerð**. Verður nota þessa gerð gengis fyrir endurmat á aðallykilinn. Aðskilin svæði **Fjárhagslegar skýrslugerð gengisgerð** , er tiltækt fyrir fjárhagsskýrslugerð. Tvö svæði eru ekki haldið í samræmi, heimiluð fyrir mismunandi gengisgerðir sem nota á fyrir endurmat og fjárhagsskýrslugerð.
 
--   Á síðunni **fjárhagur**:
+-   Á síðunni **fjárhagur** :
 -   Tilgreinið **gengisgerð**. Ef gengisgerð er ekki tilgreind á aðallykilinn, þessa gerð gengis notað við endurmat á erlendum gjaldmiðli.
 -   Tilgreinið innleystan hagnaður, innleyst tap, óinnleystur hagnaður og óinnleyst tap lyklar fyrir endurmat gjaldmiðils. Innleystur hagnaður og innleyst tap lyklar eru notaðir fyrir jafnaðar viðskiptakröfur og viðskiptaskuldir færslur og óinnleystur hagnaður og óinnleyst tap lyklar eru notaðir fyrir endurmat opnar færslur og aðallykla fjárhags.
 
--   Á síðunni **gjaldmiðilsendurmatslyklum**:
+-   Á síðunni **gjaldmiðilsendurmatslyklum** :
 -   Veljið aðra gjaldmiðilsendurmatslykla fyrir hvern gjaldmiðil og fyrirtæki. Ef engin lyklar eru skilgreindir, eru lykla úr **Fjárhag** síðu notaðar.
 
 ## <a name="process-foreign-currency-revaluation"></a>Vinna endurmat á erlendum gjaldmiðli
@@ -76,38 +76,33 @@ Eftir að ferli endurmat á erlendum gjaldmiðli er lokið færsla stofnuð að 
 
 **Dæmi** Eftirfarandi stöður eru til fyrir aðallykilinn 110110.
 
-|            |                    |                        |                       |
+| Dagsetning   | Fjárhagslykill| Færsluupphæð | Upphæð á lykil |
 |------------|--------------------|------------------------|-----------------------|
-| **Dagsetning**   | **Fjárhagslykill** | **Færsluupphæð** | **Upphæð á lykil** |
 | 20. janúar | 110110 (reiðufé)      | 500 EUR (Debet)        | 1000 USD (Debet)      |
 
 Aðallykill er endurmetinn 31. Janúar.  Óinnleystur hagnaður/tap er reiknuð á eftirfarandi hátt.
 
-|                                             |                                            |                                  |                                    |                             |
+| Núverandi staða í færslugjaldmiðli | Núverandi staða í bókhaldsgjaldmiðli | Gengi við endurmati | ný Upphæð í bókhaldsgjaldmiðli | Óinnleystur hagnaður/tap    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Núverandi staða í færslugjaldmiðli** | **Núverandi staða í bókhaldsgjaldmiðli** | **Gengi við endurmati** | **ný Upphæð í bókhaldsgjaldmiðli** | **Óinnleystur hagnaður/tap**    |
 | 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833.33 EUR (500 x 1.666667)        | 166.67 tap (833.33 – 1000) |
 
 Eftirfarandi lykilfærslu er stofnuð.
 
-|            |                          |           |            |
+| Dagsetning   | Fjárhagslykill       | Debet | Kredit |
 |------------|--------------------------|-----------|------------|
-| **Dagsetning**   | **Fjárhagslykill**       | **Debet** | **Kredit** |
 | 31. janúar | 110110 (reiðufé)            |           | 166.67     |
 | 31. janúar | 801400 (óinnleyst tap) | 166.67    |            |
 
 Engar nýjar færslur eru bókaðar fyrir Febrúar.  Aðallykill er endurmetinn á 28. Febrúar.
 
-|                                             |                                            |                                  |                                    |                             |
+| Núverandi staða í færslugjaldmiðli | Núverandi staða í bókhaldsgjaldmiðli | Gengi við endurmati | ný Upphæð í bókhaldsgjaldmiðli | Óinnleystur hagnaður/tap    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Núverandi staða í færslugjaldmiðli** | **Núverandi staða í bókhaldsgjaldmiðli** | **Gengi við endurmati** | **ný Upphæð í bókhaldsgjaldmiðli** | **Óinnleystur hagnaður/tap**    |
 | 500 EUR                                     | 833.33 USD (1000 - 166.67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | 416.67 hagnaður (1250 – 833.33) |
 
 Eftirfarandi lykilfærslu er stofnuð.
 
-|             |                          |           |            |
+| Dagsetning    | Fjárhagslykill       | Debet | Kredit |
 |-------------|--------------------------|-----------|------------|
-| **Dagsetning**    | **Fjárhagslykill**       | **Debet** | **Kredit** |
 | 28. febrúar | 110110 (reiðufé)            | 416.67    |            |
 | 28. febrúar | 801600 (óinnleystur hagnaður) |           | 416.67     |
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b4b3120001ecd5340c063f80ad7471050b437fd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203441"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018745"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
@@ -71,7 +71,7 @@ Til að deila upplýsingum um verð fyrir Innkaupatilboð gegnum viðmót samsta
 
 ### <a name="sending-a-po-to-a-vendor"></a>Senda Innkaupapöntun til lánardrottins
 
-Innkaupapantanir eru stofnaðar í Supply Chain Management. Þegar Innkaupapöntun hefur stöðuna **Samþykkt**, er hún send til lánardrottins með því að nota **Senda til staðfestingar** á **Innkaupapöntun** síðunni. Staða Innkaupapöntunar er síðan breytt í **í Ytri Yfirferð**. Þegar Innkaupapöntunin hefur verið send lánardrottni getur hann séð hana á síðunni **Innkaupapantanir til skoðunar** í viðmóti lánardrottnasamvinnu. Lánardrottinn getur þá samþykkt Innkaupapöntun, hafnað henni eða lagt til breytingar á henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstýringarkerfið.
+Innkaupapantanir eru stofnaðar í Supply Chain Management. Þegar Innkaupapöntun hefur stöðuna **Samþykkt** , er hún send til lánardrottins með því að nota **Senda til staðfestingar** á **Innkaupapöntun** síðunni. Staða Innkaupapöntunar er síðan breytt í **í Ytri Yfirferð**. Þegar Innkaupapöntunin hefur verið send lánardrottni getur hann séð hana á síðunni **Innkaupapantanir til skoðunar** í viðmóti lánardrottnasamvinnu. Lánardrottinn getur þá samþykkt Innkaupapöntun, hafnað henni eða lagt til breytingar á henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstýringarkerfið.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Staðfesting og samþykki Innkaupapöntunar af lánardrottinn
 
@@ -120,7 +120,7 @@ Upplýsingar um verð og gjöld geta ekki verið breytt af lánardrottinn.&#39; 
 </tbody>
 </table>
 
-Hægt er að nota vinnusvæðið **Undirbúningur innkaupapöntunar** til að fylgjast með hvaða innkaupapöntun lánardrottinn hefur svarað. Þetta vinnusvæði inniheldur tvo lista sem innihalda innkaupapantanir með stöðuna **í Ytri Yfirferð**:
+Hægt er að nota vinnusvæðið **Undirbúningur innkaupapöntunar** til að fylgjast með hvaða innkaupapöntun lánardrottinn hefur svarað. Þetta vinnusvæði inniheldur tvo lista sem innihalda innkaupapantanir með stöðuna **í Ytri Yfirferð** :
 
 - Í ytri yfirferð krefst aðgerða
 - Í ytri yfirferð og bíður svars lánardrottins
@@ -141,7 +141,7 @@ Hægt að bæta við viðhengjum eins og skrám, myndum og athugasemdum við Inn
 
 Ef seljandi hefur svarað Innkaupapöntun og lagt til breytingum er næsta skref að vinna úr svarinu.
 
-Í vinnusvæðinu **Undirbúningur fyrir innkaupapöntun**, í **Í ytri yfirferð krefst aðgerða** listanum, getur þú borið kennsl á innkaupapöntun sem lánardrottinn hefur samþykkt með breytingum. Frá þessum lista geturðu einnig farið yfir á svar lánardrottins.
+Í vinnusvæðinu **Undirbúningur fyrir innkaupapöntun** , í **Í ytri yfirferð krefst aðgerða** listanum, getur þú borið kennsl á innkaupapöntun sem lánardrottinn hefur samþykkt með breytingum. Frá þessum lista geturðu einnig farið yfir á svar lánardrottins.
 
 Á svari getur lánardrottinn breytt eftirfarandi upplýsingar á hausnum:
  
@@ -206,7 +206,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 | Þú gerir nokkrar breytingar sem lánardrottinn óskar eftir, annaðhvort handvirkt eða með því að nota **Vinna uppfærslu Innkaupapöntunar** aðgerðina á svarið til að uppfæra Innkaupapöntunina. | Stöðu er breytt aftur í **Drög**. |
 | Innkaupapöntunin er send aftur í samþykktarferlið. | Stöðunni er breytt úr **Drög** til **í Yfirferð** til **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Einnig er hægt að skilgreina kerfið þannig að breytingar krefjast ekki endursamþykktar. Í þessu tilfelli fer staðan fyrst í **Drög** og er sjálfkrafa uppfærð í **Samþykkt**. Samþykkta Innkaupapöntunin er skráð sem ný útgáfa. |
 | Þú sendir nýja útgáfu af Innkaupapöntuninni lánardrottins. | Ný útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**. |
-| Lánardrottinn samþykkir nýju útgáfuna. | Stöðu er breytt í **Staðfest**, annað hvort sjálfvirkt eða þegar svarið kemur frá lánardrottni og síðan er Innkaupapöntunin staðfest. |
+| Lánardrottinn samþykkir nýju útgáfuna. | Stöðu er breytt í **Staðfest** , annað hvort sjálfvirkt eða þegar svarið kemur frá lánardrottni og síðan er Innkaupapöntunin staðfest. |
 
 ## <a name="sharing-information-about-consignment-inventory"></a>Deila upplýsingum um vörusendingabirgðir
 
@@ -231,7 +231,7 @@ Ef verið er að nota vörusendingabirgðir, geta lánardrottna notað viðmót 
 
 - **Lagfæringar** - Þegar lagfæringu er lokið verða fyrirliggjandi tilboðssvör fjarlægð þannig að hægt sé að skipta þeim út fyrir uppfærð gildi. Upplýsingar eins og línaverð og magn frá fyrri tilboðssvörum má skoða í gegnum færslubækur á tilboðsbeiðnatilfellinu.
 
-    Til að knýja fram lagfæringarferli skal á síðunni **Innkaup og aðföng færibreytur**, á **Beiðni um tilboð** flýtiflipanum, stilla **Læsa tilboðsbeiðnum þegar þau eru send** á **Já**. (Þessi valkostur er stilltur og áskilinn fyrir opinbera aðila.)
+    Til að knýja fram lagfæringarferli skal á síðunni **Innkaup og aðföng færibreytur** , á **Beiðni um tilboð** flýtiflipanum, stilla **Læsa tilboðsbeiðnum þegar þau eru send** á **Já**. (Þessi valkostur er stilltur og áskilinn fyrir opinbera aðila.)
 
 - **Skil** - Ef lánardrottinn hefur sent inn tilboð, en meiri eða breyttar upplýsingar eru nauðsynlegar fyrir tilboðsbeiðna tilvikið, getur viðskiptavinurinn skilað tilboðinu til lánardrottins. Gögnin frá tilboðinu, sem áður var lagt fram, er haldið eftir og lánardrottinn getur framkvæmt breytingarnar sem farið var fram á án þess að þurfa að endurræsa tilboðsferlið.
 

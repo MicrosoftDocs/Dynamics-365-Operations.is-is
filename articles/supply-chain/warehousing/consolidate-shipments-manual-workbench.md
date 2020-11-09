@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationSetShipment
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8320c8aab82a39a8a5565e6b3e805e1065c67453
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986817"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016817"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sameina sendingar með því að nota samstæðuvinnusvæði sendinga
 
@@ -100,13 +100,13 @@ Opnaðu **Viðskiptakröfur \> Pantanir \> Allar sölupantanir** og búðu til s
 
 1. Bættu við pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt*)
+    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt* )
     - **Magn:** *1.00*
 
 1. Veljið **Birgðir \> Frátekning** og síðan, á aðgerðasvæðinu, veljið **Frátektarlota** til að taka frá pöntunarlínu.
 1. Bæta við annarri pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt*)
+    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt* )
     - **Magn:** *1.00*
     - **Afhendingarmáti:** *Airwa-Air*
 
@@ -208,7 +208,7 @@ Fylgdu þessum skrefum til að losa hverja sölupöntun sem þú bjóst til fyri
 
 1. Opna **Viðskiptakröfur \> Pantanir \> Allar sölupantanir**.
 1. Finnið og veljið sölupöntun sem á að losa.
-1. Á aðgerðasvæðinu, á flipanum **Vöruhús**, skal velja **Aðgerðir \> Losa í vöruhús** til að losa valda sölupöntun.
+1. Á aðgerðasvæðinu, á flipanum **Vöruhús** , skal velja **Aðgerðir \> Losa í vöruhús** til að losa valda sölupöntun.
 1. Endurtakið þetta ferli fyrir hverja sölupöntun sem var stofnuð fyrir þessar aðstæður.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Sameina sendingarnar með því að nota samstæðuvinnusvæði sendinga
@@ -238,7 +238,7 @@ Eftirfarandi ferli gerir kleift að staðfesta sendingarnar sem hafa verið stof
 Tvær sendingar ættu að hafa verið stofnaðar:
 
 - Fyrsta sendingin inniheldur þrjár línur og var búin til með því að nota samstæðureglu sendingar *CustomerMode*.
-- Önnur sendingin, sem notar ekki flutningsmátann *Flugfélög*, var stofnuð með því að nota samstæðureglu sendingar *CustomerOrderNo*.
+- Önnur sendingin, sem notar ekki flutningsmátann *Flugfélög* , var stofnuð með því að nota samstæðureglu sendingar *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Tengdar sendingar fyrir pöntunarsett 2
 

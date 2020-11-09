@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 56a3a838374bb1cd0f4b839124ada7114205c1e7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597289"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017138"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 
@@ -52,7 +53,7 @@ Til að nota þennan eiginleika verður að stilla valkostinn **Virkja staðsetn
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessar sýniaðstæður með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar sýniaðstæður með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir notkun eiginleikans í framleiðslukerfi. Hins vegar, í því tilfelli, verður að skipta út eigin gildi fyrir hverja stillingu sem er lýst hér.
 
@@ -75,7 +76,7 @@ Sýnigögnin útheimta uppsetningu og leiðréttingu birgða til að styðja vi�
     - Ef verið er að setja upp LIFO-aðstæður skal breyta gildinu í reitnum **Áætlun** í *LIFO aldursgreining staðsetningar*.
 
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn**.
-1. Í svarglugga fyrirspurnar, í flipanum **Svið**, skal velja **Bæta við** til að bæta við línu og síðan stilla eftirfarandi gildi:
+1. Í svarglugga fyrirspurnar, í flipanum **Svið** , skal velja **Bæta við** til að bæta við línu og síðan stilla eftirfarandi gildi:
 
     - **Tafla:** *Staðir*
     - **Afleidd tafla:** *Staðsetningar*
@@ -106,7 +107,7 @@ FIFO-aðferðin finnur staðsetningu sem inniheldur elstu aldursdagsetninguna og
 1. Ef þú hefur ekki enn gert þetta, skaltu [undirbúa sýnigögnin](#demo-set-up) sem þurfa að vera fyrir þessar aðstæður.
 1. Opnið **Sala og markaðssetning \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
 
     - Í flipanum **Viðskiptavinur** skaltu stilla reitinn **Reikningur viðskiptavinar** á *US-001*.
     - Í flýtiflipanum **Almennt** skal stilla reitinn **Vöruhús** á *63*.
@@ -117,7 +118,7 @@ FIFO-aðferðin finnur staðsetningu sem inniheldur elstu aldursdagsetninguna og
 1. Í síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá pantað magn af þessari vöru úr birgðum á völdu vöruhúsi.
 1. Lokaðu síðunni **Frátekning**.
 1. Á **Sölupöntun** síðunni, á aðgerðarrúðunni, á **Vöruhús** flipanum, í **Aðgerðir** hópnum, veldu **Losa í vöruhús**. Þú færð upplýsingaboð. Kerfið stofnar sendingu, bætir henni við nýja hleðslu og stofnar nauðsynlega vinnu.
-1. Í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Vöruhús**, skal velja **Upplýsingar um vinnu** til að opna vinnu sem var stofnuð fyrir þessa sölupöntun. Takið eftir að línan þar sem gildið **Vinnugerð** er *Tiltekt* sýnir gildi fyrir **Staðsetningu** á *FL-002*. Þessi staðsetning inniheldur númeraplötuna sem er með elstu aldursdagsetninguna (FIFO).
+1. Í flýtiflipanum **Sölupöntunarlínur** , í valmyndinni **Vöruhús** , skal velja **Upplýsingar um vinnu** til að opna vinnu sem var stofnuð fyrir þessa sölupöntun. Takið eftir að línan þar sem gildið **Vinnugerð** er *Tiltekt* sýnir gildi fyrir **Staðsetningu** á *FL-002*. Þessi staðsetning inniheldur númeraplötuna sem er með elstu aldursdagsetninguna (FIFO).
 1. Veljið **Vöruhús \> Upplýsingar sendingar**.
 1. Í flýtiflipanum **Almennt** skal punkta niður bylgjukennið svo hægt sé að nota það í aðstæðum 2.
 
@@ -126,16 +127,16 @@ FIFO-aðferðin finnur staðsetningu sem inniheldur elstu aldursdagsetninguna og
 FIFO-aðferðin finnur staðsetningu sem inniheldur nýjustu aldursdagsetninguna og hún úthlutar tiltekt eftir þessari aldursdagsetningu. Í aðstæðum 2 munt þú breyta uppsetningunni fyrir aðstæður 1 (FIFO) og nota aftur sölupöntunina og bylgjuna sem voru stofnaðar í þeim aðstæðum.
 
 1. Áður en hafist er handa með þessa atburðarás skal setja upp og ljúka FIFO-aðstæðunum eins og lýst er í [fyrri kafla](#fifo-demo). Í þessu dæmi notar þú aftur bylgjuna og stóran hluta uppsetningarinnar sem búin var til fyrir þessar aðstæður.
-1. Breytið staðsetningarleiðbeiningunni **63 Tiltekt gámunar** svo hún noti aðferðina *LIFO aldursgreining staðsetningar*, eins og lýst er í fyrsta hluta ferlisins [Setja upp aðstæðurnar](#demo-set-up).
+1. Breytið staðsetningarleiðbeiningunni **63 Tiltekt gámunar** svo hún noti aðferðina *LIFO aldursgreining staðsetningar* , eins og lýst er í fyrsta hluta ferlisins [Setja upp aðstæðurnar](#demo-set-up).
 
     Næst verður bylgjunni breytt sem stofnuð var fyrir sölupöntunina í aðstæðum 1, þannig að hún noti aðferðina *LIFO aldursgreining staðsetningar*.
 
 1. Farðu í **Vöruhúsastjórnun \> Bylgjur á útleið \> Sendingarbylgjur \> Allar bylgjur**.
 1. Veldu og opnaðu bylgjuna sem inniheldur pöntunina sem var stofnuð fyrir FIFO-aðstæðurnar.
-1. Á aðgerðasvæðinu, í flipanum **Vinna**, skal velja **Hætta við** til að hætta við vinnuna sem var stofnuð fyrir FIFO-aðstæðurnar.
+1. Á aðgerðasvæðinu, í flipanum **Vinna** , skal velja **Hætta við** til að hætta við vinnuna sem var stofnuð fyrir FIFO-aðstæðurnar.
 1. Í Aðgerðasvæði, á flipanum **Bylgja** í hópnum **Bylgja** skal velja **Ferli**.
-1. Þegar ferlinu er lokið, á Aðgerðasvæðinu, í flipanum **Bylgja**, í flokknum **Tengdar upplýsingar**, skal velja **Vinna** til að skoða vinnuna sem var búin til fyrir þessa bylgju.
-1. Á síðunni **Vinna**, í flipanum **Yfirlit**, ættu að vera tvær línur. Veldu línuna þar sem svæðið **Vinnustaða** er stillt á *Opin*.
+1. Þegar ferlinu er lokið, á Aðgerðasvæðinu, í flipanum **Bylgja** , í flokknum **Tengdar upplýsingar** , skal velja **Vinna** til að skoða vinnuna sem var búin til fyrir þessa bylgju.
+1. Á síðunni **Vinna** , í flipanum **Yfirlit** , ættu að vera tvær línur. Veldu línuna þar sem svæðið **Vinnustaða** er stillt á *Opin*.
 1. Takið eftir að línan þar sem gildið **Vinnugerð** er *Tiltekt* sýnir gildi fyrir **Staðsetningu** á *FL-001*. Þessi staðsetning inniheldur númeraplötuna sem er með nýjasta aldursdagsetninguna (LIFO).
 
 Í þessum aðstæðum hefurðu séð hvernig aðferð aldursgreiningar staðsetningar stýrir vinnu á birgðastaðsetninguna sem er annaðhvort með elstu birgðirnar eða þær nýjustu, fer eftir því hvor aðferðin er valin.

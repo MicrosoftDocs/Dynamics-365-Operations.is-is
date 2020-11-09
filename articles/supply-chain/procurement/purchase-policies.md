@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
+ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
-ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
+ms.openlocfilehash: 00200bc79f83e9d072ff8220c89a6aaa70cb07a5
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018722"
 ---
 # <a name="purchasing-policies-overview"></a>Yfirlit yfir innkaupareglur
 
@@ -135,7 +135,7 @@ Samlegðarregla stofnunar innkaupapantana og eftirspurnar skilgreinir stefnuregl
 -   Á flipann **Verðþol** er hægt að skilgreina reglur til að beina samþykktum innkaupabeiðnum aftur í gegnum endurskoðunarferlið þegar vöruverð í innkaupavörulista hækkar. Stillið hámarksupphæðina sem nettóupphæð í línuatriði í innkaupabeiðni getur hækkað um frá því að innkaupabeiðnin er samþykkt og þar til innkaupapöntun er stofnuð. Nettó upphæð er reiknuð með því að nota eftirfarandi formúlu: (\[Magn × (einingarverð – Afsláttur)÷ verðeining\] + ýmis Gjöld) × (100 - afsláttarprósenta) ÷ 100. Innkaupabeiðnilínur sem fara fram úr verðþoli er haldið eftir fyrir handvirka úrvinnslu. Reglurnar sem eru stilltar í flipanum **Villa við vinnslu** ákvarða hvernig innkaupabeiðnilínur eru unnar.
 -   Á flipanum **Villa við vinnslu** oer hægt að stilla vinnsluregluna sem er beitt á innkaupabeiðni ef staðfesting mistekst við stofnun innkaupapöntunar vegna villu hjá lánardrottni eða villu í verðvikmörkum. Veldu einn af eftirfarandi valkostum:
     -   **Engin aðgerð** – innkaupabeiðnilínur haldast á **Losa samþykktar innkaupabeiðnir** síðu. Staða innkaupabeiðnilínanna er ennþá **Samþykkt**. Hins vegar verður að leysa úr villunum áður en hægt er að gera innkaupapöntun fyrir innkaupabeiðnilínurnar.
-    -   **Hætta við innkaupabeiðnilínu**- Innkaupabeiðnilínurnar eru afturkallaðar. Umsækjandi hægt að stofnað nýja innkaupabeiðni fyrir línur sem hætt var við ef hann eða hún enn vill óska eftir línuatriðum.
+    -   **Hætta við innkaupabeiðnilínu** - Innkaupabeiðnilínurnar eru afturkallaðar. Umsækjandi hægt að stofnað nýja innkaupabeiðni fyrir línur sem hætt var við ef hann eða hún enn vill óska eftir línuatriðum.
     -   **Búa til nýja innkaupabeiðnilínu** - Innkaupabeiðnilínurnar eru afturkallaðar. Nýjar innkaupabeiðnir eru svo stofnaðar sem innihalda aðeins innkaupabeiðnilínur sem stóðust ekki villuleit. Þegar nýjar innkaupabeiðnir eru stofnaðar hafa þær stöðuna **Uppkast**. Þessar innkaupabeiðnir er hægt að endursenda til skoðunar eftir villur við villuleit hafa verið leiðréttar. Undirbúningsaðili fyrir innkaupabeiðnilínurnar er látinn vita þegar hætt var við línurnar og að nýjar innkaupabeiðnir hafi verið stofnaðar fyrir innkaupabeiðnilínurnar sem mistókust.
 -   Á flipanum **Gera innkaupabeiðni handvirkt** er hægt að skilgreina færibreyturnar sem ákvarða hvort innkaupabeiðni verði að vera unnin handvirkt eða hvort hægt sé að breyta henni sjálfkrafa í innkaupapöntun. Færibreyturnar geta átt við um innri vörulistavörur, ytri vörulistavörur eða vörur sem ekki eru á vörulista. Veldu einn af eftirfarandi valkostum:
     -   **Stofna innkaupapantanir handvirkt** – Stofna innkaupapantanir handvirkt fyrir allar innkaupabeiðnir.

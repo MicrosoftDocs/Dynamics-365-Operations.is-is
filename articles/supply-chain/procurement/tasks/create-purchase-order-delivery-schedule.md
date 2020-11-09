@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383252"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018237"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Stofna innkaupapöntun með afhendingaráætlun
 
@@ -46,7 +46,7 @@ ms.locfileid: "3383252"
 - Í svæðinu dagsetning afhendingar velurðu dagsetningu sem er einni viku eftir dagsetningu í fyrstu afhendingarlínunni.  
 - Þú getur fylgst með heildarmagn sem úthlutað er til í línur afhendingaráætlunar með því að líta á reitina **Samtölu** og **Eftirstandandi**. Þegar eftirstöðvar magns eru núll, allt magnið í upphaflegu línunni hefur verið úthlutað á áætlun.  
 12. Útvíkkaðu hlutann **Umreikningur gjalda**.
-- Valkostir hér gera þér kleift að stjórna því hvernig á að dreifa gjöldum yfir í línur afhendingaráætlunar. Ef valið er **Afrita brúttóupphæðir**, er gjaldupphæð á upprunaleg pöntunarlína afritað í hverja pöntunarlínu. Valkosturinn **Úthluta á afhendingarlínur** deilir upprunalegum línugjöldum samkvæmt magninu á hverri afhendingarlínu.  
+- Valkostir hér gera þér kleift að stjórna því hvernig á að dreifa gjöldum yfir í línur afhendingaráætlunar. Ef valið er **Afrita brúttóupphæðir** , er gjaldupphæð á upprunaleg pöntunarlína afritað í hverja pöntunarlínu. Valkosturinn **Úthluta á afhendingarlínur** deilir upprunalegum línugjöldum samkvæmt magninu á hverri afhendingarlínu.  
 13. Fella saman hlutann **Umreikningur gjalda**.
 14. Veljið **Í lagi**.
 - Afhendingaráætlunin hefur nú verið notuð í pöntunina.  

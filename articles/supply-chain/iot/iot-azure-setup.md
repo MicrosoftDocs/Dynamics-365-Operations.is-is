@@ -1,7 +1,7 @@
 ---
 title: Setja upp Azure-tilföng fyrir IoT-gervigreind
 description: Þetta efnisatriði útskýrir hvernig á að stofna og skilgreina Microsoft Azure-tilföng sem krafist er fyrir IoT-gervigreind.
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014913"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Setja upp Azure-tilföng fyrir IoT-gervigreind
 
@@ -62,7 +62,7 @@ Til að búa til tilföng lyklageymslu skal fylgja þessum skrefum.
 1. Í Azure-gátt skal búa til eða fara í tilfangaflokk.
 2. Veljið **Bæta við**.
 3. Á leitarreit á síðunni **Nýtt** skal slá inn **Lyklageymsla**. Veldu síðan **Búa til**.
-4. Á síðunni **Búa til lyklageymslu**, í reitnum **Heiti lyklageymslu** skaltu slá inn heiti.
+4. Á síðunni **Búa til lyklageymslu** , í reitnum **Heiti lyklageymslu** skaltu slá inn heiti.
 5. Farið yfir sjálfgildi og veljið síðan **Fara yfir + Búa til**.
 6. Velja **Stofna**.
 
@@ -122,7 +122,7 @@ Til að skilgreina lyklageymsluna skal fylgja þessum skrefum.
 1. Í tilföngum skal velja tilföng lyklageymslunnar.
 2. Á vinstri yfirlitssvæði skal velja **Access-reglur**.
 3. Veljið **Bæta við aðgangsreglu**.
-4. Á síðunni **Bæta við aðgangsreglu**, í reitinum **Heimildir leyniorðs**, skal velja **Sækja** og **Listi**.
+4. Á síðunni **Bæta við aðgangsreglu** , í reitinum **Heimildir leyniorðs** , skal velja **Sækja** og **Listi**.
 5. Smelltu á **Velja aðalreikning**.
 6. Í svarglugganum **Aðalreikningur** skal leita að og velja **Microsoft Dynamics ERP Microservices**. Veljið síðan **Velja**.
 7. Veljið **Bæta við**.

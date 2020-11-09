@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976380"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006167"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
@@ -76,7 +76,7 @@ Hægt er að setja upp víddarstigveldi sem uppfyllir skýrslukröfur fyrirtæki
 
 **Víddarstigveldi**
 
-|              | Svið víddarstaks |                     |
+|    &nbsp;    | Svið víddarstaks | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Hnútar**        | **Úr víddarstaki**   | **Til víddarstaks** |
 | Fyrirtæki |                         |                     |
@@ -97,7 +97,7 @@ Víddarstigveldi sem uppfyllir reglur er hægt að setja upp eins og sýnt er h�
 
 **Víddarstigveldi**
 
-|                         | Svið víddarstaks |                     |
+|      &nbsp;             | Svið víddarstaks |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Hnútar                   | Úr víddarstaki   | Til víddarstaks |
 | Rekstrarreikningur |                         |                     |
@@ -105,7 +105,7 @@ Víddarstigveldi sem uppfyllir reglur er hægt að setja upp eins og sýnt er h�
 
 Eftir að lokið hefur verið við fjárhagsfærslur lítur færslustaða kostnaðar eftir kostnaðarhlutum svona út.
 
-|                      | **Kostnaðarhlutur** |           |           |           | **Samtala**     |
+|      &nbsp;          | **Kostnaðarhlutur** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Samtala**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Kostnaðareining**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Rafmagn** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Ef þú vilt vita hvernig kostnaður flæðir milli kostnaðarstaða í fyrirtæ
 
 Hægt er að setja upp víddarstök kostnaðareiningar eins og hér segir.
 
-| Kostnaðareiningar | Gerð          |               |
+| Kostnaðareiningar | Gerð          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Rafmagn   | Aðal       |
 | 1002          | Laun      | Aðal       |
@@ -179,7 +179,7 @@ Uppfæra þarf víddarstigveldið **Rekstrarreikningur** með nýjum víddarstö
 
 **Víddarstigveldi**
 
-|                         | Svið víddarstaks |                     |
+|      &nbsp;             | Svið víddarstaks |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Hnútar                   | Úr víddarstaki   | Til víddarstaks |
 | Rekstrarreikningur |                         |                     |
@@ -258,7 +258,7 @@ Víddarstigveldi gera þér kleift að sjá gögn á mismunandi flokkunarstigum.
 
 Hér er dæmi um Power Pivot skýrslugjöf í Excel.
 
-| **Rekstrarreikningur** | **Kostnaðarhlutur** |                |               |               |  **Samtala**    |
+| **Rekstrarreikningur** | **Kostnaðarhlutur** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Samtala**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Aðalkostnaður**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Með því að nota **Stefnu fyrir samantekt kostnaðar** og **Kostnaðareiningu
 
 Ef það sama hefði verið framkvæmt án þess að stofna **Stefnu fyrir samantekt kostnaðar** myndu niðurstöður líta svona út. Kostnaður flæðir réttilega en rekjanleiki og innsæi í það hvernig kostnaður flæðir milli kostnaðarstaða glatast.
 
-| **Rekstrarreikningur** | **Kostnaðarhlutur** |           |               |               |          **Samtala**  |
+| **Rekstrarreikningur** | **Kostnaðarhlutur** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Samtala**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Aðalkostnaður**            | **0.00**        | **0.00**  | **31.082,75** | **15.717,25** | **46.800,00** |

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141431"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107353"
 ---
 # <a name="create-call-center-orders"></a> Stofna pantanir fyrir símaver
 
@@ -30,29 +30,29 @@ ms.locfileid: "3141431"
 
 Þetta ferli fer í gegnum hvernig er flett upp viðskiptavinur, ný pöntun er stofnuð, leita að afurð og innheimta greiðslu frá viðskiptavini. Þessi aðferð notar sýnigögn fyrirtækis USRT og er ætlaður fyrir Afgreiðslumaður sölupöntunar. Frumskilyrði: Notandinn sem klárar ferlið er settur upp sem notandi símavers og Fabrikam hálfsárs Vörulisti er birt með minnst einn frumkóða á honum.
 
-1. Fara í Retail og Commerce > viðskiptavinur > viðskiptavinur þjónusta.
-2. Færa inn leitarskilyrði til að fletta upp viðskiptavinar í svæðinu SearchText.
-    * Fyrir þetta dæmi í ferlinu 'karen' og stutt er á flipann.  
-3. Smellið á leita.
-    * Þar sem það er aðeins einn viðskiptavin með heitinu Karen í sýnigögn þær verða sjálfvirkt valinn.  
-4. Smelltu á Ný sölupöntun
-5. Útvíkka eða draga saman hlutann sölupöntunarhaus.
+1. Fárið í **Smásala og viðskipti \> Viðskiptavinir \> Þjónusta við viðskiptavini**.
+2. Færa inn leitarskilyrði til að fletta upp viðskiptavinar í svæðinu **SearchText.**
+    * Til að fá þetta dæmi skal slá inn „Karen“ og velja **Tab**.  
+3. Velja Leita.
+    * Þar sem það er aðeins einn viðskiptavinur með heitinu Karen í sýnigögn verður hann sjálfvirkt valinn.  
+4. Veldu **Ný sölupöntun**.
+5. Útvíkka eða draga saman haushlutann **sölupöntun**.
 6. Veljið frumkóða fyrir vörulistann.
-    * Ef engin virk frumkóðar eru hægt að loka á upprunareit og sleppa þessu þrepi.  
-7. Smellið á „Bæta við línu“.
-8. Færið inn leitarorð í svæðið númer vöru.
-    * Fyrir Þetta sýnishorn ferlis að færa inn hluta vörunúmer '8111' og styðjið á flipanum. Þetta mun birtast glugganum leit að vöru.  
-9. Velja afurðar til að bæta við sölupöntun
+    * Ef engin virkir frumkóðar eru til staðar er hægt að sleppa þessu þrepi.  
+7. Veldu **Bæta við línu**.
+8. Færið inn leitarorð í svæðið **Númer vöru**.
+    * Fyrir Þetta sýnishorn ferlis að færa inn hluta vörunúmer '8111' og styðjið á flipanum. Þá birtist leitarglugginn.  
+9. Velja afurðar til að bæta við sölupöntun.
 10. Færið inn sölumagn
-11. Smellið á Stofna.
-12. Smellið á Ljúka til að fanga greiðslu viðskiptavinar.
-13. Smelltu á Bæta við.
+11. Velja **Stofna**.
+12. Veljið **Ljúka** til að fanga greiðslu viðskiptavinar.
+13. Veljið **Bæta við**.
     * Bæta Við tengli er í flipanum Greiðslur. Útvíkka flipanum Greiðslur ef hún er dregin saman.  
 14. Veldu greiðslumáti
     * Veljið greiðslumáta reiðufjár fyrir þetta ferli.  
 15. Lokið síðunni.
 16. Færa skal inn upphæðina.
-    * Fyrir Þetta ferli skal færa upphæð jafnt og stöðu pöntunar sem hægt er að sjá í samantekt sölupöntunar síðunni vinstra megin við svæðið upphæð. Þetta leyfir notandanum að ljúka sem að fullu greitt.  
-17. Smellið á „Í lagi“.
-18. Smelltu á Senda.
+    * Fyrir þetta ferli skal færa upphæð jafnt og stöðu pöntunar sem hægt er að sjá í samantekt sölupöntunar síðunni vinstra megin við svæðið upphæð. Þessi aðgerð leyfir notandanum að ljúka pöntun sem að fullu greitt.  
+17. Veljið **Í lagi**.
+18. Veldu **Senda**.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018377"
 ---
 # <a name="set-up-consignment"></a>Uppsetning vörusendingar
 
@@ -40,7 +40,7 @@ Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á �
 2.  Lánardrottinn fær upplýsingar um áætlaða afhendingardagsetningu. Þetta getur gerst á þrjá vegu:
     -   Einhver sem vinnur hjá USMF sendir upplýsingar um pöntun til lánardrottins.
     -   Lánardrottinn getur einnig að fylgjast viðbúnum birgðum á lager með því að nota viðmót fyrir samstarf lánardrottna.
-    -   Einhver sem vinna hjá USMF síar gögn á **lagerbirgðir** síða til að sýna einungis færslur lánardrottins US-104, þar sem er staða innhreyfingar er **Pantað**, og sendir síðan þessar upplýsingar til lánardrottins.
+    -   Einhver sem vinna hjá USMF síar gögn á **lagerbirgðir** síða til að sýna einungis færslur lánardrottins US-104, þar sem er staða innhreyfingar er **Pantað** , og sendir síðan þessar upplýsingar til lánardrottins.
 3.  Birgðum er afhent frá US-104 USMF.
 4.  Þegar efni berst USMF, er áfyllingarpöntun vörusendingar uppfærð með innhreyfingarskjal afurða. Aðeins efnislegu magni birgða á lager í eigu lánardrottins eru skráðar. Það eru engar færslur fjárhags stofnuð vegna þess að birgðum er enn í eigu lánardrottins.
 5.  Lánardrottinn fylgist með Uppfærslur í efnislegum lagerbirgðum með **vörusendingabirgðir á lager** síðu.

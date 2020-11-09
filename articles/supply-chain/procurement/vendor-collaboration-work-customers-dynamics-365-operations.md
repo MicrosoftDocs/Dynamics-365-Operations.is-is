@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018157"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
@@ -59,7 +59,7 @@ Hægt er að nota eftirfarandi síður til að vinna með innkaupapantanir:
 
 Innkaupapantanir sem viðskiptavinurinn hefur sent þér til að fara yfir eru sýnilegir í **staðfesting á Innkaupapöntun** vinnusvæði og á **Innkaupapantanir fyrir yfirferð** síðuna. Eftir Innkaupapöntun er opnuð er hægt að samþykkja hana, hafna henni eða samþykkja hana með breytingum. Það gætu verið viðhengi á haus Innkaupapöntunar eða á einstakra lína. Líka er hægt að hengja upplýsingar við svar þínu á einstakar línur eða haus Innkaupapöntunar. Til dæmis gætu lagt til staðgengilsvöru fyrir ein línanna.
 
-Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Það er líka hægt að nota **Birta víddir** aðgerðina til að fela eða sýna eftirfarandi víddardálka: **Svæði**, **Vöruhús**, **Litur**, **Stærð**, **Stíll**, og **Skilgreining**. 
+Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Það er líka hægt að nota **Birta víddir** aðgerðina til að fela eða sýna eftirfarandi víddardálka: **Svæði** , **Vöruhús** , **Litur** , **Stærð** , **Stíll** , og **Skilgreining**. 
 
 Ef nota á **Samþykkja með breytingum** valkost er hægt að samþykkja eða hafna einstakar línur. Einnig er hægt að gera breytingar á eftirfarandi línum:
 
@@ -130,7 +130,7 @@ Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeið
 
     Þú gætir hugsanlega þurft að svara spurningalistum áður en þér er gefið leyfi til að senda inn kauptilboð.
 
-- Velja **Hafna** ef þú vilt ekki gera kauptilboð. Eftir að þú velur **Hafna**, er ekki hægt að kalla aðgerðina aftur fram og færa inn kauptilboð.
+- Velja **Hafna** ef þú vilt ekki gera kauptilboð. Eftir að þú velur **Hafna** , er ekki hægt að kalla aðgerðina aftur fram og færa inn kauptilboð.
 
 Ef tilboðsbeiðni er lagfærð, verður þú að færa inn nýtt kauptilboð. Þú getur fundið upplýsingar um lagfæringuna á **Lagfæringar** flipanum á tilboðsbeiðnisíðunni. Lagfærðar tilboðsbeiðnir birtast á **Boð um ný kauptilboð** síðunni.
 

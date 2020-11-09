@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533322"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107231"
 ---
 # <a name="set-up-an-online-channel"></a>Setja upp netrás
 
@@ -70,13 +70,13 @@ Ef netverslunarsíðan mun styðja mörg tungumál skaltu stækka hlutann **Tung
 
 ## <a name="set-up-payment-account"></a>Setja upp greiðslulykil
 
-Í hlutanum **Greiðslulykill** er hægt að bæta við greiðsluaðila þriðja aðila. Nánari upplýsingar um að setja upp Adyen greiðslutengi, sjá [Dynamics 365 greiðslutengi fyrir Adyen](../retail/dev-itpro/adyen-connector.md).
+Í hlutanum **Greiðslulykill** er hægt að bæta við greiðsluaðila þriðja aðila. Frekari upplýsingar um uppsetningu á Adyen greiðslutengli er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Viðbótaruppsetning grunnrásar
+## <a name="additional-channel-setup"></a>Viðbótaruppsetning grunnrásar
 
-Viðbótarupplýsingar sem krafist er fyrir uppsetningu netrásar fela í sér uppsetningu á greiðslumáta, afhendingaraðferðum og úthlutanir uppfyllingarflokks.
+Önnur verk sem krafist er fyrir uppsetningu á rásarnetinu innihalda uppsetningu greiðslumáta, afhendingarmáta og úthlutun uppfyllingarflokks.
 
-Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta**, **Greiðslumáta** og **Úthlutanir uppfyllingarflokks** á flipanum **Setja upp**.
+Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta** , **Greiðslumáta** og **Úthlutanir uppfyllingarflokks** á flipanum **Setja upp**.
 
 ![Viðbótar uppsetningaraðgerðir netrásar](media/channel-setup-online-3.png)
 

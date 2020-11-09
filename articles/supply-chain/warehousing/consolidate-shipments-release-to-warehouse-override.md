@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 406ff268eede4a9d448b3b9c1729a00fcec8f21e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016794"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
 
@@ -64,7 +64,7 @@ Fylgið eftirfarandi skrefum til að hnekkja samstæðureglu sendingar við losu
 1. Velja **Losa í vöruhús**.
 1. Velja skal aðra og þriðju sölupöntun sem voru stofnaðar fyrir þessar aðstæður.
 1. Veljið **Bæta við** til að bæta línunum við losunina í vöruhúsið. Takið eftir að *Sjálfgefið* reglunni er beitt í neðstu rúðu.
-1. Velja skal aðra línuna og síðan, í **Velja nýja samstæðureglu sendingar**, velja *CustomerOrderNo* regluna.
+1. Velja skal aðra línuna og síðan, í **Velja nýja samstæðureglu sendingar** , velja *CustomerOrderNo* regluna.
 1. Veljið **Losa í vöruhús** fyrir báðar línurnar.
 
 ## <a name="verify-the-shipments"></a>Staðfesta skal sendingarnar

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d8c2da17d4e3df37c55844f0aad00f883725f741
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
+ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989278"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000979"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika
 
@@ -124,7 +124,7 @@ Til skilgreina hvernig leiðsagnir birtast í vinnusal skal fara í **Blandaður
 
 Stilltu eftirfarandi reiti:
 
-- **Undirlén CDS-umhverfis** - Þessi reitur á þegar að sýna gildi. Þessi reitur inniheldur undirlén fyrir Common Data Service-umhverfið þar sem leiðsagnir eru búnar til. Undirlénið er fyrsti hluti vefslóðarinnar og fær yfirleitt heiti fyrirtækisins. Til dæmis ef Common Data Service vefslóðin er „contoso.crm4.dynamics.com“, ætti að færa inn *contoso* hér. Þetta gildi er notað til að setja saman slóð fyrir leiðsagnirnar og verður kóðað inn í QR-kóðana.
+- **Common Data Service undirlén** - Þessi reitur á þegar að sýna gildi. Þessi reitur inniheldur undirlén fyrir Common Data Service-umhverfið þar sem leiðsagnir eru búnar til. Undirlénið er fyrsti hluti vefslóðarinnar og fær yfirleitt heiti fyrirtækisins. Til dæmis ef Common Data Service vefslóðin er „contoso.crm4.dynamics.com“, ætti að færa inn *contoso* hér. Þetta gildi er notað til að setja saman slóð fyrir leiðsagnirnar og verður kóðað inn í QR-kóðana.
 - **Stærð QR-kóða** - Stillið myndastærð QR-kóðans. Við mælum með því að velja stærð sem fyllir stærstan hluta skjásins, en ekki meira. Oftast er *15* gott gildi.
 - **Stig villuleiðréttingar QR-kóða** - Stillið uppskiptingu QR-kóðans. Hærri uppskipting getur aukið áreiðanleika kóðans, en **Stærð QR-kóðans** verður að vera nógu stór til að styðja nákvæmnina sem valið leiðréttingarstig þarf.
 
@@ -368,7 +368,7 @@ Leiðarvísi bætt við tengsl leiðaraðgerðar:
 1. Á aðgerðasvæðinu skal opna flipann **Leið** og í flokknum **Vinna með** skal velja **Upplýsingar um leið**.
 1. Síðan **Upplýsingar um leið** opnast fyrir valda leið.
 1. Í efsta hnitanetinu skal velja aðgerðina sem á að fá leiðsögn.
-1. Í neðsta hnitanetinu skal velja sértæk tengsl (eða almennu tengslin **Allt**).
+1. Í neðsta hnitanetinu skal velja sértæk tengsl (eða almennu tengslin **Allt** ).
     ![Velja aðgerð og síðan tengsl](media/instruction-guides-RouteOperationRelation.png "Velja aðgerð og síðan tengsl")
 1. Fyrir ofan neðsta hnitanetið skal opna flipann **Tengdir leiðarvísar**. ![Flipinn tengdir leiðarvísar](media/instruction-guides-RouteOperationRelation-AddGuide.png "Flipi tengdra leiðarvísa")
 1. Veljið **Bæta við** í tækjastikunni efst í neðsta hnitanetinu til að bæta nýrri línu við hnitanetið.

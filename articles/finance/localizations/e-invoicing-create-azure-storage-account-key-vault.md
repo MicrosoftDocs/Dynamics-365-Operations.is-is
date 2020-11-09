@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b8e39539f767cc2944a9a7fdda09121921c64763
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835977"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039770"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 
 Þjónusta rafrænnar reikningsfærsluviðbótar tekur ábyrgð á því að geyma öll viðskiptagögnin þín í þeim Microsoft Azure-tilföngum sem fyrirtækið þitt á. Til að tryggja að þjónustan virki rétt og að öll viðskiptagögnin sem þarf fyrir og eru búin til af viðbót rafrænnar reikningsfærslu er aðeins opnuð af viðbótinni, þarf að stofna tvö aðaltilföng Azure:
@@ -76,7 +76,7 @@ ms.locfileid: "3835977"
 
 1. Opnið lyklageymsluna sem ætlunin er að nota með viðbót rafrænnar reikningsfærslu.
 2. Farið í **Stillingar** \> **Leynilyklar** og veljið síðan **Búa til/Flytja inn** til að stofna nýjan leynilykil.
-3. Á síðunni **Stofna leynilykil**, í reitnum **Valkostir upphleðslu**, skal velja **Handvirkt**.
+3. Á síðunni **Stofna leynilykil** , í reitnum **Valkostir upphleðslu** , skal velja **Handvirkt**.
 4. Færið inn heiti leynilykilsins. Þetta heiti verður notað við uppsetningu þjónustunnar í Regulatory Configuration Service (RCS) og verður vísað í það sem *leyniheiti lyklageymslu*.
 5. Í reitnum **Gildi** skal velja **URI-undirskrift samnýtts aðgangs** og veljið síðan **Stofna**.
 6. Setja upp aðgangsregluna til að veita rafrænu reikningsfærsluviðbótinni rétt öryggisstig aðgangs að leynilyklinum sem var búinn til. Opnið **Stillingar \> Aðgangsregla** og veljið **Bæta við aðgangsreglu**.

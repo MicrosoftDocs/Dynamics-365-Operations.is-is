@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 3a92970f2e3639090f51cf9e59ffcb148e210494
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070761"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011634"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -112,11 +112,11 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 
 | Dálktakmörkunarkóði | Lýsing |
 |-------------------------|-------------|
-| SU                      | Felur undirstrikun í dálki þar sem skipun um annað hvort undirstrikun (**---**) eða tvöföld undirstrikunarskipun (**===**) hefur verið færð inn í línuskilgreininguna. Til dæmis getur verið að ekki sé æskilegt að hafa strik undir upphæðum sem eru búið til af hlutfallsútreikningi. |
+| SU                      | Felur undirstrikun í dálki þar sem skipun um annað hvort undirstrikun ( **---** ) eða tvöföld undirstrikunarskipun ( **===** ) hefur verið færð inn í línuskilgreininguna. Til dæmis getur verið að ekki sé æskilegt að hafa strik undir upphæðum sem eru búið til af hlutfallsútreikningi. |
 | ST                      | Fela samtölur, þannig að aðeins upplýsingar birtast í dálknum (t.d. tölfræðilega dálk). |
-| SD                      | Felur ítarupplýsingar og birtir aðeins **TOT**- og **CAL**-línur, úr línuskilgreiningunni, í þessum dálki. |
-| DR                      | Takmarkar upphæðirnar sem birtar eru í **FD**-dálki við debetupphæðir. |
-| CR                      | Takmarkar upphæðirnar sem birtar eru í **FD**-dálki við kreditupphæðir. |
+| SD                      | Felur ítarupplýsingar og birtir aðeins **TOT** - og **CAL** -línur, úr línuskilgreiningunni, í þessum dálki. |
+| DR                      | Takmarkar upphæðirnar sem birtar eru í **FD** -dálki við debetupphæðir. |
+| CR                      | Takmarkar upphæðirnar sem birtar eru í **FD** -dálki við kreditupphæðir. |
 | ADJ                     | Takmarkar upphæðirnar sem birtar eru í dálkinum við upphæðir tímabilsleiðréttinga, ef þessar upphæðir eru til staðar. |
 | XAD                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo upphæðir tímabilsleiðréttinga sé sleppt. |
 | PT                      | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins bókaðar færslur séu hafðar með, ef þessar færslur eru til staðar. |
@@ -130,7 +130,7 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 4. Stækkið eða fellið saman listann yfir einingar og veljið svo einingu skipurits og smellið á **Í lagi**.
 
 ## <a name="format-column-headers"></a>Dálkfyrirsagnir sniða
-Hægt er að bæta við, breyta og eyða hausum sem birtast efst í dálkum í skýrslu. Einnig er hægt að grunnstilla dálkfyrirsagnir með skilyrt umfang samkvæmt reitnum **Tímabil** úr dálkskilgreiningum, og í reitnum **Grunntímabil**, úr skýrsluskilgreiningum. Grunntímabil er eiginleiki sem sparar tíma fyrir stofnun hlaupandi spáskýrslna.
+Hægt er að bæta við, breyta og eyða hausum sem birtast efst í dálkum í skýrslu. Einnig er hægt að grunnstilla dálkfyrirsagnir með skilyrt umfang samkvæmt reitnum **Tímabil** úr dálkskilgreiningum, og í reitnum **Grunntímabil** , úr skýrsluskilgreiningum. Grunntímabil er eiginleiki sem sparar tíma fyrir stofnun hlaupandi spáskýrslna.
 
 ### <a name="create-and-manage-column-headers"></a>Stofna og stjórna dálkahausum
 
@@ -170,7 +170,7 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 
 ### <a name="create-an-automatically-generated-header"></a>Stofna sjálfvirkt myndaðan haus
 
-Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem kóðar sjálfvirks texta notast við dagatalsupplýsingar úr upplýsingalínu dálkskilgreiningar, eru þeir aðeins studdir fyrir dálkana **CALC** og **FD**. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Til dæmis, á hefðbundnu almanaksári leysir **\@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **\@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil \@FiscalPeriod-\@FiscalYear frá \@StartDate til \@EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
+Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem kóðar sjálfvirks texta notast við dagatalsupplýsingar úr upplýsingalínu dálkskilgreiningar, eru þeir aðeins studdir fyrir dálkana **CALC** og **FD**. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Til dæmis, á hefðbundnu almanaksári leysir **\@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ** , er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **\@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil \@FiscalPeriod-\@FiscalYear frá \@StartDate til \@EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
 
 > [!NOTE]
 > Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.
@@ -195,10 +195,10 @@ Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvi
 
 Fyrirsagnir með skilyrt umfang geta náð yfir marga dálka, sem byggja á tilteknum tímabilsgögnum. Ef til dæmis er til fjárhagsáætlunarskýrsla fyrir fjárhagsárið og birta á raunfjárhagsáætlanir síðustu mánaða ásamt spá um fjárhagsáætlanir komandi mánaða, er hægt að nota fyrirsögn með skilyrt umfang til að uppfæra skýrslufyrirsögnina sjálfvirkt. Athugið eftirfarandi aðstæður þegar búin er til fyrirsögn með skilyrt umfang:
 
-- Ef stöðvunarskilyrði (reiturinn **Endar á**) er stemmt af á undan upphafskilyrði (reiturinn **Byrjar á**) er það hunsað. Til dæmis, dálkur B hefur skilyrði bils skilgreint sem BASE+1 til BASE og ef BASE er í dálk C og BASE+1 í dálk D, í því tilfelli er stöðvunarskilyrðið í dálk C hunsað og prentun fyrirsagna hefst í dálk D.
-- Ef tilgreindar er dálkfyrirsagnir sem skarast prentast þær út þannig í skýrslunni. Skýrslan er mynduð, en eftirfarandi viðvörun birtist í reitnum **Biðraðarstaða skýrslu**: „Dálkfyrirsagnir sem nota BASE skarast við aðrar dálkfyrirsagnir og geta valdið því að texti skarist.“ Í þessu tilfelli er fyrirsagnarskilgreiningin í dálk B er B til BASE+1 og fyrirsagnarskilgreiningin í dálk D er BASE+1 til F, eru fyrirsagnirnar prentaðar hvor ofan í aðra og eru ólæsilegar. Þegar BASE er notað í **Byrjar á/Endar á** skilgreiningu skal passa að skoða skýrsluna sem var mynduð til að sjá hvort fyrirsagnirnar skarast.
-- Ef BASE er tilgreint í skilgreiningunni í dálk sem ekki á að prenta (**NP**) er það hunsað, án tillits til þess sem skilgreint er í dálkskilgreiningunni. Í raun eru þessar aðstæður það sama og að búa ekki til skilgreiningu dálkfyrirsagnar.
-- Fyrir skilyrta prentunardálka (**P&lt;B**, **P&gt;=B**) haga fyrirsagnir með skilyrt umföng sér eins og hver önnur skilgreining dálkfyrirsagnar. Til dæmis ef skilyrðið er til dæmis rangt, munu allir síðari dálkar sem samsvara bilskilyrðinu hefja fyrirsagnarprentun.
+- Ef stöðvunarskilyrði (reiturinn **Endar á** ) er stemmt af á undan upphafskilyrði (reiturinn **Byrjar á** ) er það hunsað. Til dæmis, dálkur B hefur skilyrði bils skilgreint sem BASE+1 til BASE og ef BASE er í dálk C og BASE+1 í dálk D, í því tilfelli er stöðvunarskilyrðið í dálk C hunsað og prentun fyrirsagna hefst í dálk D.
+- Ef tilgreindar er dálkfyrirsagnir sem skarast prentast þær út þannig í skýrslunni. Skýrslan er mynduð, en eftirfarandi viðvörun birtist í reitnum **Biðraðarstaða skýrslu** : „Dálkfyrirsagnir sem nota BASE skarast við aðrar dálkfyrirsagnir og geta valdið því að texti skarist.“ Í þessu tilfelli er fyrirsagnarskilgreiningin í dálk B er B til BASE+1 og fyrirsagnarskilgreiningin í dálk D er BASE+1 til F, eru fyrirsagnirnar prentaðar hvor ofan í aðra og eru ólæsilegar. Þegar BASE er notað í **Byrjar á/Endar á** skilgreiningu skal passa að skoða skýrsluna sem var mynduð til að sjá hvort fyrirsagnirnar skarast.
+- Ef BASE er tilgreint í skilgreiningunni í dálk sem ekki á að prenta ( **NP** ) er það hunsað, án tillits til þess sem skilgreint er í dálkskilgreiningunni. Í raun eru þessar aðstæður það sama og að búa ekki til skilgreiningu dálkfyrirsagnar.
+- Fyrir skilyrta prentunardálka ( **P&lt;B** , **P&gt;=B** ) haga fyrirsagnir með skilyrt umföng sér eins og hver önnur skilgreining dálkfyrirsagnar. Til dæmis ef skilyrðið er til dæmis rangt, munu allir síðari dálkar sem samsvara bilskilyrðinu hefja fyrirsagnarprentun.
 
 #### <a name="create-a-conditional-spanning-header"></a>Stofnun fyrirsagnar með skilyrt umfang
 
@@ -206,7 +206,7 @@ Fyrirsagnir með skilyrt umfang geta náð yfir marga dálka, sem byggja á tilt
 2. Tvísmellið á fyrirsagnarhólf.
 3. Í svarglugganum **Dálkfyrirsögn** skal færa inn texta dálkfyrirsagnarinnar. Annar valkostur er að smella á **Setja inn sjálfvirkan texta** og velja valkost.
 4. Veljið sniðstíl fyrir fyrirsögnina í reitnum **Sniðvalkostir**.
-5. Tilgreinið tímabil í samræmi við grunntímabilið sem tilgreint er þegar skýrslan er mynduð. færa skal inn einn af eftirfarandi valkostum í reitina **Byrjar á** og **Endar á**: **BASE**, **BASE-X** eða **BASE+X**, þar sem X táknar fjölda tímabila úr grunntímabilinu. Til dæmis ef slegið er inn **BASE** í reitinn **Byrjar á** byrjar texti skilyrts umfangs dálkfyrirsagnarinnar í dálkfyrirsögninni þar sem skýrsluskilgreiningin **Grunntímabil** er sama og dálkskilgreining gildi **Tímabils** Hún endar í dálkinn sem er tilgreint í á **Enda á** svæði. Þannig að ef bilið er BASE til M og skýrsluskilgreingin **Grunntímabil** = **4** hefst fyrirsögnin frá og með dálknum með tímabilið stillt á **4** og endar með dálknum M. Hausar stöðvast og hefjast við prentun dálka eingöngu.
+5. Tilgreinið tímabil í samræmi við grunntímabilið sem tilgreint er þegar skýrslan er mynduð. færa skal inn einn af eftirfarandi valkostum í reitina **Byrjar á** og **Endar á** : **BASE** , **BASE-X** eða **BASE+X** , þar sem X táknar fjölda tímabila úr grunntímabilinu. Til dæmis ef slegið er inn **BASE** í reitinn **Byrjar á** byrjar texti skilyrts umfangs dálkfyrirsagnarinnar í dálkfyrirsögninni þar sem skýrsluskilgreiningin **Grunntímabil** er sama og dálkskilgreining gildi **Tímabils** Hún endar í dálkinn sem er tilgreint í á **Enda á** svæði. Þannig að ef bilið er BASE til M og skýrsluskilgreingin **Grunntímabil** = **4** hefst fyrirsögnin frá og með dálknum með tímabilið stillt á **4** og endar með dálknum M. Hausar stöðvast og hefjast við prentun dálka eingöngu.
 6. Undir **Jöfnun** skal velja hvort texti dálkfyrirsagnarinnar skal vera vinstri-, hægri- eða miðjujafnaður.
 7. Smelltu á **Í lagi**.
 
@@ -214,10 +214,9 @@ Fyrirsagnir með skilyrt umfang geta náð yfir marga dálka, sem byggja á tilt
 
 Pála er að búa til skýrslu fyrir sex mánaða spá. Hún vill að orðið Raunverulegt verði prentað fyrir ofan dálkana sem innihalda raungögn og að orðið Fjárhagsáætlun verði prentað fyrir ofan dálkana sem innihalda fjárhagsáætlunarspár. Í hverjum mánuði sem skýrslan er keyrð bætist við einn dálkur með fyrirsögnina Raunverulegt og fækkar um einn dálk með fyrirsögnina Fjárhagsáætlun. Hinsvegar, Pála getur breytt dálkskilgreiningunni handvirkt í hvert skipti sem skýrslan er mynduð til að aðlaga fyrirsagnirnar, hún ákveður að spara tíma og fyrirhöfn, hún ákveður að búa til fyrirsagnir með skilyrt umfang sem munu sjálfkrafa búa til fyrirsagnir yfir viðeigandi dálka í hvert skipti sem skýrslan er keyrð. Pála opnar Skýrsluhönnun, smellir á **Dálkskilgreining** í yfirlitssvæðinu og opnar dálkskilgreininguna fyrir skýrsluna. Hún færir síðan inn eftirfarandi upplýsingar. Grunntímabilið í skýrsluskilgreiningunni er 4.
 
-
-|                     |  Lista fyrir   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
+|      Snið         |  A   | V             | K             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Haus 1            |      | Raunverulegt        | Fjárhagsáætlun        |               |               |               |               |               |               |               |               |               |               |
+| Haus 1            |      | Raunþyngd        | Fjárhagsáætlun        |               |               |               |               |               |               |               |               |               |               |
 | Fyrirsögn 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Fyrirsögn 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Gerð dálks         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
@@ -266,7 +265,7 @@ Hólfið **Jöfnun** er notað til að jafna lýsingardálk í skýrslu. Þessi 
     - **Hægri** – Dálklýsingar eru hægristilltar.
 
 ## <a name="add-special-formatting-options"></a>Sérstökum sniðvalkostum bætt við
-Í dálkskilgreiningunni eru upplýsingalínur sniðdálksins notaðar til að nota sérstakt snið á valda dálka. Þótt sumir valkostir í **Stilling fyrir prentun** og **Dálktakmarkanir** eigi bara við **FD**-dálka eiga flestir valkostir við allar dálktegundir. Þetta snið hnekkir sniðinu sem er tilgreint í dálkskilgreiningunni og skýrsluskilgreiningunni. Hinsvegar, Þetta snið hnekkir sniðinu sem er tilgreint í línuskilgreiningunni og dálkaskilgreiningunni. Eftirfarandi línur flokkast sem sniðlínur:
+Í dálkskilgreiningunni eru upplýsingalínur sniðdálksins notaðar til að nota sérstakt snið á valda dálka. Þótt sumir valkostir í **Stilling fyrir prentun** og **Dálktakmarkanir** eigi bara við **FD** -dálka eiga flestir valkostir við allar dálktegundir. Þetta snið hnekkir sniðinu sem er tilgreint í dálkskilgreiningunni og skýrsluskilgreiningunni. Hinsvegar, Þetta snið hnekkir sniðinu sem er tilgreint í línuskilgreiningunni og dálkaskilgreiningunni. Eftirfarandi línur flokkast sem sniðlínur:
 
 - Dálkbreidd
 - Aukabil á undan dálki
@@ -275,7 +274,7 @@ Hólfið **Jöfnun** er notað til að jafna lýsingardálk í skýrslu. Þessi 
 
 ### <a name="changing-the-column-width"></a>Dálkbreidd breytt
 
-Hólfið **Dálkbreidd** tilgreinir hversu marga stafi er hægt að nota yfir breidd þessa dálks á prentaðri skýrslu. Dálkbreidd er sérstaklega mikilvæg fyrir dálka sem innihalda upphæðir (dálkgerð **CALC**, **WKS** eða **FD**), lýsingar (dálkgerð **DESC**) eða fyllingu (dálkagerð **FILL**). Að sjálfgefnu er **AutoFit** valkostur valinn, þannig að breidd hver dálkur er sjálfvirkt leiðrétt til að passa innihaldi.
+Hólfið **Dálkbreidd** tilgreinir hversu marga stafi er hægt að nota yfir breidd þessa dálks á prentaðri skýrslu. Dálkbreidd er sérstaklega mikilvæg fyrir dálka sem innihalda upphæðir (dálkgerð **CALC** , **WKS** eða **FD** ), lýsingar (dálkgerð **DESC** ) eða fyllingu (dálkagerð **FILL** ). Að sjálfgefnu er **AutoFit** valkostur valinn, þannig að breidd hver dálkur er sjálfvirkt leiðrétt til að passa innihaldi.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Breidd dálks í skýrslu tilgreind
 
@@ -310,8 +309,8 @@ Hólfið **Stilling fyrir prentun** inniheldur kóða sem stilla birtingar- eða
 | Kóði fyrir stillingu prentunar | Þýðing                                     | Lýsing |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Ekki til prentunar                                     | Útilokar upphæðir í þessum dálki frá skýrslunni sem er prentuð og frá útreikningum. Til að taka dálk sem ekki er til prentunar með í útreikningi er vísað beint til dálksins í útreikningsformúlunni. Til dæmis er dálkur C, sem ekki er ætlaður til prentunar, tekinn með í eftirfarandi útreikningi: **B+C+D**. Hins vegar er dálkur C, sem ekki er ætlaður til prentunar, ekki tekinn með í eftirfarandi útreikningi: **B:D**. |
-| XCR                | Tákni breytt ef dæmigerð staða línunnar er kredit | Stofnar fjárhagsáætlun eða samanburðarskýrslu þar sem óæskileg frávik (t.d. tekjutap eða framúrkeyrsla í kostnaði) er alltaf neikvæð. Nota þessi kóði til að breyta tákni **CALC**-dálksupphæðar ef dæmigerð staða tiltekinnar línu er kredit (táknað með **C** í dálkinum **Eðlileg staða** í línuskilgreiningunni).<p><strong>Athugið:</strong> Fyr <strong>TOT</strong> línur og </strong>CAL</strong> línur sem yfirleitt eru með kreditstöðu, skal slá inn <strong>C</strong> í dálkinn <strong>Eðlileg staða</strong> í línuskilgreininguna.</p> |
-| X0                 | Dálkur falinn ef hann inniheldur bara núll eða eyður          | Útilokar **FD**-dálk frá skýrslunni ef öll hólf í þeim dálki eru annaðhvort tóm eða innihalda núll. |
+| XCR                | Tákni breytt ef dæmigerð staða línunnar er kredit | Stofnar fjárhagsáætlun eða samanburðarskýrslu þar sem óæskileg frávik (t.d. tekjutap eða framúrkeyrsla í kostnaði) er alltaf neikvæð. Nota þessi kóði til að breyta tákni **CALC** -dálksupphæðar ef dæmigerð staða tiltekinnar línu er kredit (táknað með **C** í dálkinum **Eðlileg staða** í línuskilgreiningunni).<p><strong>Athugið:</strong> Fyr <strong>TOT</strong> línur og </strong>CAL</strong> línur sem yfirleitt eru með kreditstöðu, skal slá inn <strong>C</strong> í dálkinn <strong>Eðlileg staða</strong> í línuskilgreininguna.</p> |
+| X0                 | Dálkur falinn ef hann inniheldur bara núll eða eyður          | Útilokar **FD** -dálk frá skýrslunni ef öll hólf í þeim dálki eru annaðhvort tóm eða innihalda núll. |
 | SR                 | Sléttun falin                               | Kemur í veg fyrir að upphæðirnar í þessum dálki séu sléttaðar. |
 | XR                 | Samantekt falin                                 | Felur samantekt. Ef notað er skipurit í skýrslunni eru upphæðirnar í þessari dálkur ekki teknar saman í yfirhnútum sem á eftir koma. |
 | LG                 | Dálkur endurtekinn á hverri síðu                      | Endurtekur tiltekinn dálk á hverri síðu skýrslu. Til dæmis er hægt að nota **RP** prentstýringarkóða til að taka með dálkategundina **ROW** sem tekur inn línukóða á hverri síðu. |
@@ -340,7 +339,7 @@ Hólfið **Stilling fyrir prentun** inniheldur kóða sem stilla birtingar- eða
 > Einnig er hægt að slá prentkóðana beint inn í reitinn **Prentstýringar**. Aðskiljið marga stillingakóða fyrir prentun með kommum.
 
 ## <a name="column-types"></a>Gerðir dálka
-Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindur með gildinu í línunni **Dálkgerð** í dálkskilgreiningunni. Hver dálkskilgreining verður að innihalda að minnsta kosti einn lýsingardálk (**DESC**) og einn upphæðardálk (**FD**, **WKS** eða **CALC**).
+Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindur með gildinu í línunni **Dálkgerð** í dálkskilgreiningunni. Hver dálkskilgreining verður að innihalda að minnsta kosti einn lýsingardálk ( **DESC** ) og einn upphæðardálk ( **FD** , **WKS** eða **CALC** ).
 
 > [!NOTE]
 > Kóðarnir fyrir dálkategund eiga ekki við fyrir öll bókhaldskerfi. Ef valin er tegund sem er ekki gild fyrir viðeigandi bókhaldskerfi birtist sá dálkur auður í skýrslunni.
@@ -463,7 +462,7 @@ Hólfið **Tímabil sem er tekið með** auðkennir upphæðina sem ætti að s�
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Afmörkun eiginda í dálkskilgreiningu
 
-Eigindir eru gildi fjárhagsgagna sem skilgreina ítarlegar reikning eða færslu. Reikningseigindir innihalda **Eign**, **Skuld**, **Tekjur** og **Kostnaður**. Eigindir færslna innihalda **Færslulýsingu** og **notkunardagsetning færslu**. Stuðningur við eigindir gætu verið mismunandi milli Microsoft Dynamics ERP kerfa. Hólfið **Afmörkun eiginda** afmarkar gögn fyrir **FD**-dálka við sértæk gildi eða svið fyrir eigindaflokka. Þó að þessi eiginleiki getu verið notaður samhliða **ATTR**-dálki er **ATTR**-dálksins ekki krafist. Í **FD**-dálkinum eru takmörk fyrir reikninga eða færslur sem teknar verða með í skýrslunni úr afmörkun eiginda.
+Eigindir eru gildi fjárhagsgagna sem skilgreina ítarlegar reikning eða færslu. Reikningseigindir innihalda **Eign** , **Skuld** , **Tekjur** og **Kostnaður**. Eigindir færslna innihalda **Færslulýsingu** og **notkunardagsetning færslu**. Stuðningur við eigindir gætu verið mismunandi milli Microsoft Dynamics ERP kerfa. Hólfið **Afmörkun eiginda** afmarkar gögn fyrir **FD** -dálka við sértæk gildi eða svið fyrir eigindaflokka. Þó að þessi eiginleiki getu verið notaður samhliða **ATTR** -dálki er **ATTR** -dálksins ekki krafist. Í **FD** -dálkinum eru takmörk fyrir reikninga eða færslur sem teknar verða með í skýrslunni úr afmörkun eiginda.
 
 > [!NOTE]
 > Upplýsingar um hvaða eiginleika ERP-kerfið styður eru í leiðbeiningum um samþættingu gagna fyrir kerfið.
@@ -471,7 +470,7 @@ Eigindir eru gildi fjárhagsgagna sem skilgreina ítarlegar reikning eða færsl
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Afmörkun eiginda beitt á FD-dálk í skýrslu
 
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2. Tvísmellið á hólfið **Afmörkun eiginda** fyrir **FD**-dálk.
+2. Tvísmellið á hólfið **Afmörkun eiginda** fyrir **FD** -dálk.
 3. Í svarglugganum **Afmörkun eiginda** skal tvísmella á hólf í dálkinum **Eigind** og velja því næst gerð afmörkunar.
 4. Til að afmarka niðurstöðurnar enn frekar skal slá inn svið í dálkana **Frá** og **Til**. Hólfið **Frá** verður að innihalda gildi.
 5. Smelltu á **Í lagi**.
@@ -480,10 +479,10 @@ Eigindir eru gildi fjárhagsgagna sem skilgreina ítarlegar reikning eða færsl
 
 Eftirfarandi dæmi sýnir hluta af dálklýsingu með eigind reiknings í línunni **Tegund bókarkóða/eigindar**. Afmörkun eiginda fyrir þennan dálk tilgreinir svið gilda sem taka á með í skýrslunni.
 
-|                              | Lista fyrir    | B                   |
+|      Sía                  | A    | V                   |
 |------------------------------|------|---------------------|
-| Gerð dálks                  | DESC | FD                  |
-| Bókarkóði/Eigindaflokkur |      | ACTUAL              |
+| Dálkgerð                  | DESC | FD                  |
+| Bókarkóði/Eigindaflokkur |      | RAUNVERULEGT              |
 | Fjárhagsár                  |      | BASE                |
 | Tímabil                       |      | 1:BASE              |
 | Tímabil sem er tekið með              |      | PERIODIC            |
@@ -494,17 +493,17 @@ Eftirfarandi dæmi sýnir hluta af dálklýsingu með eigind reiknings í línun
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Víddarafmörkun í dálkskilgreiningu
 
-Víddarafmörkun er notuð til að takmarka **FD**-dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf ..\\fjárhags-víddir\\kerfi sem byggt er á víddum ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar margir lyklar eru tilgreindir, er sett komma á milli lykla, líkt og í eftirfarandi dæmi: +Lykill=\[1200\], +Lykill=\[1100\], Deild=\[01?\] Til að fá allar deildir fyrir tiltekinn lykil, er hægt að útiloka deildarvíddina úr víddarsíunni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
+Víddarafmörkun er notuð til að takmarka **FD** -dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf ..\\fjárhags-víddir\\kerfi sem byggt er á víddum ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar margir lyklar eru tilgreindir, er sett komma á milli lykla, líkt og í eftirfarandi dæmi: +Lykill=\[1200\], +Lykill=\[1100\], Deild=\[01?\] Til að fá allar deildir fyrir tiltekinn lykil, er hægt að útiloka deildarvíddina úr víddarsíunni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
 
 - +Account=\[1100\],Department
 - +Account=\[1100\]
 
-Einnig er hægt að nota hvaða samsetningu bók- og tölustafa sem er fyrir nákvæma samsvörun, auk þess sem hægt er að skilgreina hlutavíddir. Til dæmis **Staðsetningu = \[10 *\*\]** felur í sér allar staðsetningar víddagildi sem byrja með 10.
+Einnig er hægt að nota hvaða samsetningu bók- og tölustafa sem er fyrir nákvæma samsvörun, auk þess sem hægt er að skilgreina hlutavíddir. Til dæmis **Staðsetningu = \[10 \*\]** felur í sér allar staðsetningar víddagildi sem byrja með 10.
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Víddarafmörkun notuð fyrir dálk á skýrslu
 
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2. Tvísmellið á hólfið **Víddarafmörkun** fyrir **FD**-dálk.
+2. Tvísmellið á hólfið **Víddarafmörkun** fyrir **FD** -dálk.
 3. Færið inn afmörkun/afmarkanir sem á að nota í svarglugganum **Víddir**.
 4. Smelltu á **Í lagi**.
 
@@ -520,12 +519,12 @@ Til að ákvarða bókhaldsgjaldmiðil fyrirtækis skal fylgja eftirfarandi skre
 
 1. Á valmyndinni **Fyrirtæki** í Report Designer er smellt á **Fyrirtæki**.
 2. Í svarglugganum **Fyrirtæki** skal velja fyrirtæki og smella síðan á **Skoða**.
-3. Í **Skoða Fyrirtæki** svarglugganum undir **Svæðisbundnir valkostir**, er hægt að skoða þann gjaldmiðil sem er skilgreint fyrir valið fyrirtæki.
+3. Í **Skoða Fyrirtæki** svarglugganum undir **Svæðisbundnir valkostir** , er hægt að skoða þann gjaldmiðil sem er skilgreint fyrir valið fyrirtæki.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>tilgreindu gjaldmiðil í skýrslu með marga gjaldmiðla
 
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2. Tvísmellið á hólfið **Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Fjárhagsbókhaldsgjaldmiðill**, **Fjárhagsskýrslugerð**, færslugjaldmiðill eða veljið að umreikna yfir í annan skýrslugjaldmiðil.
+2. Tvísmellið á hólfið **Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Fjárhagsbókhaldsgjaldmiðill** , **Fjárhagsskýrslugerð** , færslugjaldmiðill eða veljið að umreikna yfir í annan skýrslugjaldmiðil.
 3. Tvísmellið á hólfið **Gjaldmiðilsafmörkun** í viðeigandi **FD** dálki og veljið svo viðeigandi gjaldmiðilskóða á listanum. Aðeins færslur sem færðar eru inn þessum gjaldmiðli birtast í skýrslunni.
 
 
@@ -552,7 +551,7 @@ Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað f
 
 ### <a name="calculation-column-in-a-column-definition"></a>Útreikningsdálkur í dálkskilgreiningu
 
-Dálkur af tegundinni **CALC** í dálkskilgreiningu styður flókna útreikninga í hólfinu **Formúla** og getur tekið með virkjana **+**, **-**, **\*** og **/**, ásamt yrðingunum **IF/THEN/ELSE**. Að auki getur útreikningsdálkur vísað í hvaða annan dálk sem er, þ. á m. dálka sem á eftir koma. Þar að auki, getur útreikningsdálkur einnig innifalið fjárhagsár og tímabil til að styðja hausa fyrir dálkinn. Útreikningsformúlan getur verið að hámarki 1,024 stafir að lengd. Til þess að sýna niðurstöður útreikningsins sem hlutfall skal notast við sérstaka hnekkingu sniðs.
+Dálkur af tegundinni **CALC** í dálkskilgreiningu styður flókna útreikninga í hólfinu **Formúla** og getur tekið með virkjana **+** , **-** , **\*** og **/** , ásamt yrðingunum **IF/THEN/ELSE**. Að auki getur útreikningsdálkur vísað í hvaða annan dálk sem er, þ. á m. dálka sem á eftir koma. Þar að auki, getur útreikningsdálkur einnig innifalið fjárhagsár og tímabil til að styðja hausa fyrir dálkinn. Útreikningsformúlan getur verið að hámarki 1,024 stafir að lengd. Til þess að sýna niðurstöður útreikningsins sem hlutfall skal notast við sérstaka hnekkingu sniðs.
 
 > [!NOTE]
 > Niðurstöður útreikningsformúla innihalda ekki gildin í sviðum dálka sem á ekki að prenta. Til dæmis prentar **A:D** út **0** (núll) þar sem **A+B+C** fyrir gildi sem ekki á að prenta út reiknar út gildið.
@@ -572,7 +571,7 @@ Til að bæta við, draga frá, margfalda eða skipta dálkum eru dálkstafir f�
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Útreikningsformúla notuð í dálkskilgreiningu
 
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2. Í viðeigandi **CALC**-dálki er formúla slegin inn í hólfið **Formúla**.
+2. Í viðeigandi **CALC** -dálki er formúla slegin inn í hólfið **Formúla**.
 
 #### <a name="complex-calculations"></a>Flóknir útreikningar
 

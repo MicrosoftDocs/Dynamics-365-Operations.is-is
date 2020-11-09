@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410414"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107185"
 ---
 # <a name="set-up-a-call-center-channel"></a>Setja upp rás símavers
 
@@ -47,7 +47,7 @@ Til að stofna og stilla nýja rás símavers fylgirðu þessum skrefum.
 1. Í reitnum **Heiti** slærðu inn heiti fyrir nýju rásina.
 1. Veldu viðeigandi **Lögaðila** af fellilistanum.
 1. Veldu viðeigandi staðsetningu **vöruhúss** af fellilistanum. Þessi staðsetning verður notuð sem sjálfgildi í sölupöntunum sem voru stofnaðar fyrir þessa símaversrás, nema önnur sjálfgildi hafi verið skilgreind á viðskiptavinar- eða vörustigi.
-1. Í reitnum **Sjálfgefinn viðskiptavinur** gefurðu upp gildan sjálfgefinn viðskiptavin. Þessi gögn eru notuð til að aðstoða við sjálfvirka útfærslu á sjálfgildum þegar nýjar viðskiptavinaskrár eru búnar til. Þegar búið er til pantanir í símaverum er ekki ráðlegt að búa til pantanir fyrir sjálfgefna viðskiptavininn.
+1. Í reitnum **Sjálfgefinn viðskiptavinur** gefurðu upp gildan sjálfgefinn viðskiptavin. Þessi gögn eru notuð til að aðstoða við sjálfval þegar nýjar viðskiptavinafærslur eru stofnaðar. Þegar búið er til pantanir í símaverum er ekki ráðlegt að búa til pantanir fyrir sjálfgefna viðskiptavininn.
 1. Í reitinn **Forstilling tilkynningar í tölvupósti** gefurðu upp gilt tilkynningarsnið fyrir tölvupóst. Þegar pantanir símavers eru búnar til og unnar er tilkynningasniðið notað til að kalla fram sjálfvirkar tilkynningar um tölvupóst til viðskiptavina með upplýsingar um stöðu pöntunar.
 1. Gefa upp upplýsingakóða **verðhnekkingar**. Þú gætir þurft að búa til upplýsingakóða fyrir þetta fyrst. Þessi upplýsingakóði veitir sett af ástæðukóða sem notandinn verður beðinn um að velja úr þegar hann notar verðhækkunaraðgerðina í pöntun símavers.
 1. Gefðu upp upplýsingakóðann **Biðkóði**. Þú gætir þurft að búa til upplýsingakóða fyrir þetta fyrst. Þessi upplýsingakóði veitir sett af valkvæðum ástæðukóðum sem notandinn verður beðinn um að velja úr þegar hann setur pöntun í bið.
@@ -104,7 +104,7 @@ Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
 ### <a name="set-up-channel-users"></a>Setja upp rásarnotendur
 
-Til að búa til sölupöntun sem er tengd við símaþjónustuver rás frá höfuðstöðvum viðskiptanna verður notandinn sem býr til sölupöntunina að vera tengdur við símaþjónustuver rásarinnar. Notandinn getur ekki tengt sölupöntun handvirkt í höfuðstöðvum viðskiptanna handvirkt við símaversrásina. Hlekkurinn er kerfisbundinn og byggist á notanda og tengslum notandans við símaversrásina. Notandi getur aðeins verið tengdur við eina símaversrás.
+Til að búa til sölupöntun sem er tengd við símaþjónustuver rás frá höfuðstöðvum viðskiptanna verður notandinn sem býr til sölupöntunina að vera tengdur við símaþjónustuver rásarinnar. Notandinn getur ekki tengt handvirkt sölupöntun sem búin var til í Commerce Headquarters í símaversrás. Hlekkurinn er kerfisbundinn og byggist á notanda og tengslum notandans við símaversrásina. Notandi getur aðeins verið tengdur við eina símaversrás.
 
 1. Í aðgerðaglugganum velurðu flipann **Rás** og velur síðan **Notendur rásar**.
 1. Í aðgerðaglugganum velurðu **Nýtt**.

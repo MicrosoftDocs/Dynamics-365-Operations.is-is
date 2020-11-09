@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f2ba2564ad3e8e444e27fcc0c586ddf252afabd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 2ddac76871a3ac574a1edcb5446be6c64e5e4682
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997231"
 ---
 # <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-common-data-service"></a>Gakktu úr skugga um að tvískipt skrif sé stillt í forritum Finance and Operations og Common Data Service
 
@@ -42,7 +41,7 @@ Til að ákvarða hvort villurnar sem þú sérð þegar þú reynir að vista s
 
     ![Staðfestir Finance and Operations forritatengingu þegar þú hefur stjórnunarréttindi](media/verify_fin_ops_1.png)
 
-+ Ef þú ert ekki með adminaréttindi færðu villuboð, *Ekki tókst að skrifa gögn í einingu \<heiti einingar\>*. Í dæminu á eftirfarandi mynd, þú getur ekki búið til viðskiptavinaskrá í forritinu Finance and Operations, vegna þess að tvískipt skrif er stillt, en viðmiðunargögn viðskiptavinahópsins og greiðsluskilmálar eru ekki til Common Data Service.
++ Ef þú ert ekki með stjórnandaréttindi muntu fá villuboð, *Ekki er hægt að skrifa gögn í eininguna \<entity name\>*. Í dæminu á eftirfarandi mynd, þú getur ekki búið til viðskiptavinaskrá í forritinu Finance and Operations, vegna þess að tvískipt skrif er stillt, en viðmiðunargögn viðskiptavinahópsins og greiðsluskilmálar eru ekki til Common Data Service.
 
     ![Staðfestir Finance and Operations forritatengingu þegar þú hefur ekki stjórnunarréttindi](media/verify_fin_ops_2.png)
 

@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: yijialuan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275675"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014960"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Vsk-greiðslur og sléttunarreglur
 
@@ -44,7 +44,7 @@ Heildarupphæð VSK fyrir tímabil sýnir kreditstöðu-98,765.43. Lögaðili in
 Fyrirtækið vill nota sléttunaraðferð sem sléttar stöðuna í næstu 1,00 EUR. Starfsmaðurinn sem ber ábyrgð á VSK-bókhaldi framkvæmir eftirfarandi skref.
 
 1. Fara á **Skattur** > **Óbeinir skattar** > **Virðisaukaskattur** > **Virðisaukaskattsyfirvöld**.
-2. Í flýtiflipanum **Almennt**, í reitnum **Sléttunarregla** skal velja **Eðlilegt**.
+2. Í flýtiflipanum **Almennt** , í reitnum **Sléttunarregla** skal velja **Eðlilegt**.
 3. Í reitinn **Sléttun** skal slá inn 1,00.
 4. Þegar tími er kominn til að greiða skattyfirvöldum VSK-skattinn skal opna **Skattur** > **Skattframtöl** > **Virðisaukaskattur** > **Jafna og bóka virðisaukaskatt**. Í vsk-jöfnunarlykli má sjá að upphæð skattskuldar upp á **98.765,43** er sléttuð í **98.765**.
 
@@ -54,7 +54,7 @@ Eftirfarandi tafla sýnir hvernig upphæðin 98.765,43 er sléttuð með því a
 > Ef sléttunargildið er stillt á 0,00 verður:
 >
 > - Fyrir eðlilega sléttun verður sléttunin sú sama og fyrir **Sléttun = 0,01**.
-> - Fyrir **Valkostir sléttunarreglu**, **Niður á við**, **Upp á við** og **Í eigin hag** er hegðunin sú sama og fyrir **Sléttun = 1,00**.
+> - Fyrir **Valkostir sléttunarreglu** , **Niður á við** , **Upp á við** og **Í eigin hag** er hegðunin sú sama og fyrir **Sléttun = 1,00**.
 
 | Skjámyndavalkostur fyrir sléttun                | Námunda markaðsvirði = 0,01 | Námunda markaðsvirði = 0,10 | Námunda markaðsvirði = 1,00 | Námunda markaðsvirði = 100,00 | Námunda markaðsvirði = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

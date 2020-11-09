@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea0408f4ef72bf77a0659799075338e4e6b2aa30
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: c513141f820c95fe3842478361693701f1e3641b
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835973"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039793"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Ítalíu
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 > [!IMPORTANT]
 > Viðbót rafrænnar reikningsfærslu fyrir Ítalíu styður eins og er hugsanlega ekki allar aðgerðir sem eru í boði fyrir rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
@@ -54,7 +54,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 ## <a name="import-the-e-invoicing-feature"></a>Flytja inn eiginleika rafrænnar reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækir eiginleikar**, undir hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækir eiginleikar** , undir hlutanum **Eiginleikar** , skal velja reitinn **Rafræn reikningsfærsla**.
 3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja **Flytja inn** til að flytja inn eiginleika rafrænnar reikningsfærslu úr altæku geymslunni.
 
     > [!NOTE]
@@ -68,7 +68,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ## <a name="create-a-new-version-of-the-e-invoices-export-it-feature"></a>Búa til nýja útgáfu af eiginleika fyrir útflutning rafrænna reikninga (IT)
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja **Ný**. 
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja **Ný**. 
 
     ![Nýrri útgáfu rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
@@ -96,7 +96,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við**, **Eyða** eða **Breyta** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , skal velja **Bæta við** , **Eyða** eða **Breyta** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu.
 
 ![Umsjón með uppsetningum á eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
@@ -104,7 +104,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Skilgreina uppsetningu á eiginleika sölureiknings
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, í dálknum **Uppsetning eiginleika**, skal velja **Sölureikningur**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Uppsetningar** , í dálknum **Uppsetning eiginleika** , skal velja **Sölureikningur**.
 2. Veljið **Breyta**.
 3. Á síðunni **Uppsetning á útgáfu eiginleika** skal velja flipann **Aðgerðir** til að stjórna lista yfir aðgerðir. Aðgerðir skilgreina lista yfir aðgerðir sem þarf að keyra í réttri röð til að ná fullri keyrslu á tilvikinu.
 
@@ -131,7 +131,7 @@ Skrefin og stillingarnar sem eru nauðsynleg til að skilgreina uppsetningu á e
 
 ## <a name="assign-the-e-invoicing-feature-to-the-environment"></a>Úthluta eiginleika rafrænnar reikningsfærslur á umhverfið
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Umhverfi**, skal velja **Virkja**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Umhverfi** , skal velja **Virkja**.
 2. Í reitnum **Umhverfi** skal velja umhverfið.
 3. Í reitnum **Gildir frá** skal velja dagsetninguna þegar nýja umhverfið tekur gildi.
 4. Veljið **Virkja**. 
@@ -144,12 +144,12 @@ Hægt er að birta eiginleika rafrænnar reikningsfærslu með því að breyta 
 
 ### <a name="change-the-version-status-to-completed"></a>Breyta stöðu útgáfu í Lokið
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Drög**.
 2. Velduð **Breyta stöðu \> Ljúka**. 
 
 ### <a name="change-the-version-status-to-published"></a>Breyta stöðu útgáfu í Birt 
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Lokið**.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** , í flipanum **Útgáfur** , skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Lokið**.
 2. Veljið **Breyta stöðu \> Birta**.
 
 ![Stöðu eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
@@ -166,7 +166,7 @@ Við uppsetningu á Finance verður þessum verkum lokið:
 1. Á vinnusvæðinu **Rafræn skýrslugerð** skal staðfesta að skilgreiningarveitan **Þjónusta viðskiptaskjala** sé stillt á **Virk**.
 2. Veldu **Geymslur**.
 3. Veljið **Altæk tilföng \> Opna**.
-4. Flytjið inn **Reikningslíkan**, **Vörpun reikningslíkans** og **Samhengislíkan viðskiptavinareiknings**.
+4. Flytjið inn **Reikningslíkan** , **Vörpun reikningslíkans** og **Samhengislíkan viðskiptavinareiknings**.
 
 #### <a name="turn-on-the-feature-for-exporting-customer-electronic-invoices-for-italy"></a>Kveikja á eiginleikanum fyrir útflutning á rafrænum reikningum viðskiptavinar fyrir Ítalíu
 
