@@ -1,9 +1,9 @@
 ---
 title: Endurgreiða viðskiptavini
 description: Í þessu grein útskýrt hvernig stofna endurgreiðslufærslurnar fyrir flokk af viðskiptavinum. Ef viðskiptavinur hefur kreditstöðu er hægt er að endurgreiða viðskiptavininum upphæð stöðunnar.
-author: ShivamPandey-msft
+author: JodiChristiansen
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,39 +15,39 @@ ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
-ms.author: shpandey
+ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97982dec140ed440682ae507f40557670ebccd3e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178332"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022544"
 ---
-# <a name="reimburse-customers"></a><span data-ttu-id="dbea9-104">Endurgreiða viðskiptavini</span><span class="sxs-lookup"><span data-stu-id="dbea9-104">Reimburse customers</span></span>
+# <a name="reimburse-customers"></a><span data-ttu-id="52121-104">Endurgreiða viðskiptavini</span><span class="sxs-lookup"><span data-stu-id="52121-104">Reimburse customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dbea9-105">Í þessu grein útskýrt hvernig stofna endurgreiðslufærslurnar fyrir flokk af viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="dbea9-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="dbea9-106">Ef viðskiptavinur hefur kreditstöðu er hægt er að endurgreiða viðskiptavininum upphæð stöðunnar.</span><span class="sxs-lookup"><span data-stu-id="dbea9-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
+<span data-ttu-id="52121-105">Í þessu grein útskýrt hvernig stofna endurgreiðslufærslurnar fyrir flokk af viðskiptavinum.</span><span class="sxs-lookup"><span data-stu-id="52121-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="52121-106">Ef viðskiptavinur hefur kreditstöðu er hægt er að endurgreiða viðskiptavininum upphæð stöðunnar.</span><span class="sxs-lookup"><span data-stu-id="52121-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 
-<span data-ttu-id="dbea9-107">Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en byrjað er.</span><span class="sxs-lookup"><span data-stu-id="dbea9-107">The following table shows the prerequisites that must be in place before you start.</span></span>
+<span data-ttu-id="52121-107">Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en byrjað er.</span><span class="sxs-lookup"><span data-stu-id="52121-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| <span data-ttu-id="dbea9-108">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="dbea9-108">Prerequisite</span></span>                                                            | <span data-ttu-id="dbea9-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="dbea9-109">Description</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="52121-108">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="52121-108">Prerequisite</span></span>                                                            | <span data-ttu-id="52121-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="52121-109">Description</span></span>                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="dbea9-110">Tilgreina lágmarks endurgreiðsluupphæð fyrir lögaðilann</span><span class="sxs-lookup"><span data-stu-id="dbea9-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="dbea9-111">Á **Færibreytur viðskiptakrafna** síðunni, á svæðinu **Almennt** á **Lágmarks endurgreiðsla** svæðinu, færið inn lágmarksupphæð sem hægt er að endurgreiða fyrir°ofgreiðslu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="dbea9-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
-| <span data-ttu-id="dbea9-112">Valfrjálst: Bæta lánardrottnareikningi við hvern viðskiptavin sem er hægt að endurgreiða.</span><span class="sxs-lookup"><span data-stu-id="dbea9-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="dbea9-113">Á°síðunni **Viðskiptavinir** í flýtiflipanum **Ýmsar upplýsingar** á svæðinu **Lánardrottnalykill** skal°velja lánardrottnalykilinn fyrir viðskiptavin.</span><span class="sxs-lookup"><span data-stu-id="dbea9-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
+| <span data-ttu-id="52121-110">Tilgreina lágmarks endurgreiðsluupphæð fyrir lögaðilann</span><span class="sxs-lookup"><span data-stu-id="52121-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="52121-111">Á **Færibreytur viðskiptakrafna** síðunni, á svæðinu **Almennt** á **Lágmarks endurgreiðsla** svæðinu, færið inn lágmarksupphæð sem hægt er að endurgreiða fyrir°ofgreiðslu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="52121-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
+| <span data-ttu-id="52121-112">Valfrjálst: Bæta lánardrottnareikningi við hvern viðskiptavin sem er hægt að endurgreiða.</span><span class="sxs-lookup"><span data-stu-id="52121-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="52121-113">Á°síðunni **Viðskiptavinir** í flýtiflipanum **Ýmsar upplýsingar** á svæðinu **Lánardrottnalykill** skal°velja lánardrottnalykilinn fyrir viðskiptavin.</span><span class="sxs-lookup"><span data-stu-id="52121-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
 
-<span data-ttu-id="dbea9-114">Þegar endurgreiðslufærslur eru stofnaðar, er reikningur lánardrottins stofnaður fyrir upphæð kreditstöðunnar.</span><span class="sxs-lookup"><span data-stu-id="dbea9-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="dbea9-115">Endurgreiðsluferlið°fjarlægir kreditstöðu fyrir viðskiptavinalykilinn og stofnar stöðu greiðslu fyrir lykil lánardrottins sem samsvarar viðskiptavininum.</span><span class="sxs-lookup"><span data-stu-id="dbea9-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
+<span data-ttu-id="52121-114">Þegar endurgreiðslufærslur eru stofnaðar, er reikningur lánardrottins stofnaður fyrir upphæð kreditstöðunnar.</span><span class="sxs-lookup"><span data-stu-id="52121-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="52121-115">Endurgreiðsluferlið°fjarlægir kreditstöðu fyrir viðskiptavinalykilinn og stofnar stöðu greiðslu fyrir lykil lánardrottins sem samsvarar viðskiptavininum.</span><span class="sxs-lookup"><span data-stu-id="52121-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
 
-1.  <span data-ttu-id="dbea9-116">Í Viðskiptakröfur, keyrið ferlið **Endurgreiðsla**.</span><span class="sxs-lookup"><span data-stu-id="dbea9-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
-2.  <span data-ttu-id="dbea9-117">Fylgið einu af eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="dbea9-117">Follow one of these steps:</span></span>
-    -   <span data-ttu-id="dbea9-118">Til þess að endurgreiða tilteknum viðskiptavini er smellt á **Velja** og reikningar viðskiptavina tilgreindir í fyrirspurn.</span><span class="sxs-lookup"><span data-stu-id="dbea9-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
-    -   <span data-ttu-id="dbea9-119">Til þess að endurgreiða öllum viðskiptavinum er smellt á **OK**.</span><span class="sxs-lookup"><span data-stu-id="dbea9-119">To reimburse all customer accounts, click **OK**.</span></span>
+1.  <span data-ttu-id="52121-116">Í Viðskiptakröfur, keyrið ferlið **Endurgreiðsla**.</span><span class="sxs-lookup"><span data-stu-id="52121-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
+2.  <span data-ttu-id="52121-117">Fylgið einu af eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="52121-117">Follow one of these steps:</span></span>
+    -   <span data-ttu-id="52121-118">Til þess að endurgreiða tilteknum viðskiptavini er smellt á **Velja** og reikningar viðskiptavina tilgreindir í fyrirspurn.</span><span class="sxs-lookup"><span data-stu-id="52121-118">To reimburse specific customer accounts, click **Select** , and specify the customer accounts in the query.</span></span>
+    -   <span data-ttu-id="52121-119">Til þess að endurgreiða öllum viðskiptavinum er smellt á **OK**.</span><span class="sxs-lookup"><span data-stu-id="52121-119">To reimburse all customer accounts, click **OK**.</span></span>
 
-    <span data-ttu-id="dbea9-120">Kreditupphæðir eru fluttar í lánardrottnarlykla viðskiptavinar og eru unnar eins og venjulegar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="dbea9-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="dbea9-121">Ef viðskiptamaður er ekki með lánardrottnarlykil er sjálfkrafa búið til númer einsskiptislánardrottins handa viðskiptamanninum.</span><span class="sxs-lookup"><span data-stu-id="dbea9-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
-3.  <span data-ttu-id="dbea9-122">Til að skoða færslur endurgreiðslna sem voru stofnaðar, notið síðuna **Endurgreiðslur**.</span><span class="sxs-lookup"><span data-stu-id="dbea9-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
-4.  <span data-ttu-id="dbea9-123">Í Viðskiptaskuldir, stofnið greiðslu fyrir reikninga lánardrottins sem voru stofnaðir sem afleiðing af endurgreiðsluferlinu.</span><span class="sxs-lookup"><span data-stu-id="dbea9-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
+    <span data-ttu-id="52121-120">Kreditupphæðir eru fluttar í lánardrottnarlykla viðskiptavinar og eru unnar eins og venjulegar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="52121-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="52121-121">Ef viðskiptamaður er ekki með lánardrottnarlykil er sjálfkrafa búið til númer einsskiptislánardrottins handa viðskiptamanninum.</span><span class="sxs-lookup"><span data-stu-id="52121-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
+3.  <span data-ttu-id="52121-122">Til að skoða færslur endurgreiðslna sem voru stofnaðar, notið síðuna **Endurgreiðslur**.</span><span class="sxs-lookup"><span data-stu-id="52121-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
+4.  <span data-ttu-id="52121-123">Í Viðskiptaskuldir, stofnið greiðslu fyrir reikninga lánardrottins sem voru stofnaðir sem afleiðing af endurgreiðsluferlinu.</span><span class="sxs-lookup"><span data-stu-id="52121-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
 
 
 

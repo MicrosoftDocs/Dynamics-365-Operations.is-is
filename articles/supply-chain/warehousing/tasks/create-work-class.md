@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkClass
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,26 +17,26 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc0eb4c0a6397164d068b5dd44a0807dfdf65814
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ed9b72d891df4d40213d4854da6b09bd9876effa
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016057"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="6ec20-103">Stofna vinnuklasa</span><span class="sxs-lookup"><span data-stu-id="6ec20-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="18be3-103">Stofna vinnuklasa</span><span class="sxs-lookup"><span data-stu-id="18be3-103">Create a work class</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6ec20-104">Þessi verklýsing sýnir hvernig á að setja upp vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="6ec20-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="6ec20-105">Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmaður í vöruhúsi er hægt að vinna í farsíma.</span><span class="sxs-lookup"><span data-stu-id="6ec20-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="6ec20-106">Línur sem starfskraftur getur unnið ákvarðast af vinnuklösum á valmyndaratriði fartækis sem starfskraftur í vöruhúsi hefur aðgang að og vinnuklasa sem er tilgreindur á vinnulínum.</span><span class="sxs-lookup"><span data-stu-id="6ec20-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="6ec20-107">Einnig er hægt að nota vinnuklösum til að villuleita frágangsstaðsetningu fyrir pöntunarlínu vinnu.</span><span class="sxs-lookup"><span data-stu-id="6ec20-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="6ec20-108">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="6ec20-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="6ec20-109">Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="6ec20-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="18be3-104">Þessi verklýsing sýnir hvernig á að setja upp vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="18be3-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="18be3-105">Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmaður í vöruhúsi er hægt að vinna í farsíma.</span><span class="sxs-lookup"><span data-stu-id="18be3-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="18be3-106">Línur sem starfskraftur getur unnið ákvarðast af vinnuklösum á valmyndaratriði fartækis sem starfskraftur í vöruhúsi hefur aðgang að og vinnuklasa sem er tilgreindur á vinnulínum.</span><span class="sxs-lookup"><span data-stu-id="18be3-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="18be3-107">Einnig er hægt að nota vinnuklösum til að villuleita frágangsstaðsetningu fyrir pöntunarlínu vinnu.</span><span class="sxs-lookup"><span data-stu-id="18be3-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="18be3-108">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="18be3-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="18be3-109">Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="18be3-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="6ec20-110">Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnuklasar.</span><span class="sxs-lookup"><span data-stu-id="6ec20-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="6ec20-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6ec20-111">Click New.</span></span>
-3. <span data-ttu-id="6ec20-112">Færa inn gildi í reitnum Kenni Vinnuklasa .</span><span class="sxs-lookup"><span data-stu-id="6ec20-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="6ec20-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="6ec20-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="6ec20-114">Í svæðinu gerð vinnupöntunar, skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="6ec20-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="6ec20-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6ec20-115">Click New.</span></span>
-7. <span data-ttu-id="6ec20-116">Í reitinn Gerð staðsetningar skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6ec20-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="6ec20-117">Ef gerð staðsetningar er valin, setur þetta takmarkanir á hvar hægt er að setja vörur eftir að þær hafa verið teknar til.</span><span class="sxs-lookup"><span data-stu-id="6ec20-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="6ec20-118">Þessi stilling er notuð þegar staðsetningarleiðbeiningar reynir að leysa úr staðsetningu, eða ef starfsmaður vöruhússins veitir staðsetningu handvirkt fyrir valmyndaratriði fartækis.</span><span class="sxs-lookup"><span data-stu-id="6ec20-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="6ec20-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6ec20-119">Close the page.</span></span>
+1. <span data-ttu-id="18be3-110">Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnuklasar.</span><span class="sxs-lookup"><span data-stu-id="18be3-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="18be3-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="18be3-111">Click New.</span></span>
+3. <span data-ttu-id="18be3-112">Færa inn gildi í reitnum Kenni Vinnuklasa .</span><span class="sxs-lookup"><span data-stu-id="18be3-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="18be3-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="18be3-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="18be3-114">Í svæðinu gerð vinnupöntunar, skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="18be3-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="18be3-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="18be3-115">Click New.</span></span>
+7. <span data-ttu-id="18be3-116">Í reitinn Gerð staðsetningar skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="18be3-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="18be3-117">Ef gerð staðsetningar er valin, setur þetta takmarkanir á hvar hægt er að setja vörur eftir að þær hafa verið teknar til.</span><span class="sxs-lookup"><span data-stu-id="18be3-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="18be3-118">Þessi stilling er notuð þegar staðsetningarleiðbeiningar reynir að leysa úr staðsetningu, eða ef starfsmaður vöruhússins veitir staðsetningu handvirkt fyrir valmyndaratriði fartækis.</span><span class="sxs-lookup"><span data-stu-id="18be3-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="18be3-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="18be3-119">Close the page.</span></span>
 

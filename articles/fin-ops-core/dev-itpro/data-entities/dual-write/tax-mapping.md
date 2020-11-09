@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,34 +18,34 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 68461f375c6d5b04f224331dc192c921cf3c4d04
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979330"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997601"
 ---
-# <a name="integrated-tax"></a><span data-ttu-id="05aa0-103">Samþættur skattur</span><span class="sxs-lookup"><span data-stu-id="05aa0-103">Integrated tax</span></span>
+# <a name="integrated-tax"></a><span data-ttu-id="d2c81-103">Samþættur skattur</span><span class="sxs-lookup"><span data-stu-id="d2c81-103">Integrated tax</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-<span data-ttu-id="05aa0-104">Skattuppsetningargögn skilgreina uppsetningu bæði á óbeinum sköttum (VSK, GST, virðisaukaskattur) og staðgreiðslu.</span><span class="sxs-lookup"><span data-stu-id="05aa0-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="05aa0-105">Það lýsir skattaútreikningsreglu, skatthlutfalli, skattabókhaldi, uppgjöri og öðrum hugtökum.</span><span class="sxs-lookup"><span data-stu-id="05aa0-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
+<span data-ttu-id="d2c81-104">Skattuppsetningargögn skilgreina uppsetningu bæði á óbeinum sköttum (VSK, GST, virðisaukaskattur) og staðgreiðslu.</span><span class="sxs-lookup"><span data-stu-id="d2c81-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="d2c81-105">Það lýsir skattaútreikningsreglu, skatthlutfalli, skattabókhaldi, uppgjöri og öðrum hugtökum.</span><span class="sxs-lookup"><span data-stu-id="d2c81-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
 
-## <a name="templates"></a><span data-ttu-id="05aa0-106">Sniðmát</span><span class="sxs-lookup"><span data-stu-id="05aa0-106">Templates</span></span>
+## <a name="templates"></a><span data-ttu-id="d2c81-106">Sniðmát</span><span class="sxs-lookup"><span data-stu-id="d2c81-106">Templates</span></span>
 
-<span data-ttu-id="05aa0-107">Skattaupplýsingar innihalda safn af einingaspjöldum sem virka saman á meðan samskipti við lánardrottna eru í gangi, eins og sýnt er í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="05aa0-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
+<span data-ttu-id="d2c81-107">Skattaupplýsingar innihalda safn af einingaspjöldum sem virka saman á meðan samskipti við lánardrottna eru í gangi, eins og sýnt er í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="d2c81-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
 
-<span data-ttu-id="05aa0-108">Finance and Operations-smáforrit</span><span class="sxs-lookup"><span data-stu-id="05aa0-108">Finance and Operations apps</span></span> | <span data-ttu-id="05aa0-109">Líkanadrifin forrit í Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="05aa0-109">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="05aa0-110">lýsing</span><span class="sxs-lookup"><span data-stu-id="05aa0-110">Description</span></span> |
+<span data-ttu-id="d2c81-108">Finance and Operations-smáforrit</span><span class="sxs-lookup"><span data-stu-id="d2c81-108">Finance and Operations apps</span></span> | <span data-ttu-id="d2c81-109">Líkanadrifin forrit í Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="d2c81-109">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="d2c81-110">lýsing</span><span class="sxs-lookup"><span data-stu-id="d2c81-110">Description</span></span> |
 -------------------------|---------------------------------|----|
-<span data-ttu-id="05aa0-111">VSK-flokkur vöru</span><span class="sxs-lookup"><span data-stu-id="05aa0-111">Item sales tax group</span></span> | <span data-ttu-id="05aa0-112">msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="05aa0-112">msdyn_taxitemgroups</span></span> |
-<span data-ttu-id="05aa0-113">Skattayfirvöld</span><span class="sxs-lookup"><span data-stu-id="05aa0-113">Sales tax authorities</span></span> | <span data-ttu-id="05aa0-114">msdyn_taxauthorities</span><span class="sxs-lookup"><span data-stu-id="05aa0-114">msdyn_taxauthorities</span></span> |
-<span data-ttu-id="05aa0-115">Eining undanþágukóða virðisaukaskatts fyrir CDS</span><span class="sxs-lookup"><span data-stu-id="05aa0-115">Sales tax exempt code entity CDS</span></span> | <span data-ttu-id="05aa0-116">msdyn_taxexemptcodes</span><span class="sxs-lookup"><span data-stu-id="05aa0-116">msdyn_taxexemptcodes</span></span> |
-<span data-ttu-id="05aa0-117">VSK-flokkar</span><span class="sxs-lookup"><span data-stu-id="05aa0-117">Sales tax groups</span></span> | <span data-ttu-id="05aa0-118">msdyn_taxgroups</span><span class="sxs-lookup"><span data-stu-id="05aa0-118">msdyn_taxgroups</span></span> |
-<span data-ttu-id="05aa0-119">Fjárhagsbókunarflokkar virðisaukaskatts V2</span><span class="sxs-lookup"><span data-stu-id="05aa0-119">Sales tax ledger posting groups V2</span></span> | <span data-ttu-id="05aa0-120">msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="05aa0-120">msdyn_taxpostinggroups</span></span> |
-<span data-ttu-id="05aa0-121">Staðgreiðsluskattskóðar</span><span class="sxs-lookup"><span data-stu-id="05aa0-121">Withholding tax codes</span></span> | <span data-ttu-id="05aa0-122">msdyn_withholdingtaxcodes</span><span class="sxs-lookup"><span data-stu-id="05aa0-122">msdyn_withholdingtaxcodes</span></span> |
-<span data-ttu-id="05aa0-123">Staðgreiðsluskattsflokkar</span><span class="sxs-lookup"><span data-stu-id="05aa0-123">Withholding tax groups</span></span> | <span data-ttu-id="05aa0-124">msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="05aa0-124">msdyn_withholdingtaxgroups</span></span> | 
+<span data-ttu-id="d2c81-111">VSK-flokkur vöru</span><span class="sxs-lookup"><span data-stu-id="d2c81-111">Item sales tax group</span></span> | <span data-ttu-id="d2c81-112">msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="d2c81-112">msdyn_taxitemgroups</span></span> |
+<span data-ttu-id="d2c81-113">Skattayfirvöld</span><span class="sxs-lookup"><span data-stu-id="d2c81-113">Sales tax authorities</span></span> | <span data-ttu-id="d2c81-114">msdyn_taxauthorities</span><span class="sxs-lookup"><span data-stu-id="d2c81-114">msdyn_taxauthorities</span></span> |
+<span data-ttu-id="d2c81-115">Eining undanþágukóða virðisaukaskatts fyrir CDS</span><span class="sxs-lookup"><span data-stu-id="d2c81-115">Sales tax exempt code entity CDS</span></span> | <span data-ttu-id="d2c81-116">msdyn_taxexemptcodes</span><span class="sxs-lookup"><span data-stu-id="d2c81-116">msdyn_taxexemptcodes</span></span> |
+<span data-ttu-id="d2c81-117">VSK-flokkar</span><span class="sxs-lookup"><span data-stu-id="d2c81-117">Sales tax groups</span></span> | <span data-ttu-id="d2c81-118">msdyn_taxgroups</span><span class="sxs-lookup"><span data-stu-id="d2c81-118">msdyn_taxgroups</span></span> |
+<span data-ttu-id="d2c81-119">Fjárhagsbókunarflokkar virðisaukaskatts V2</span><span class="sxs-lookup"><span data-stu-id="d2c81-119">Sales tax ledger posting groups V2</span></span> | <span data-ttu-id="d2c81-120">msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="d2c81-120">msdyn_taxpostinggroups</span></span> |
+<span data-ttu-id="d2c81-121">Staðgreiðsluskattskóðar</span><span class="sxs-lookup"><span data-stu-id="d2c81-121">Withholding tax codes</span></span> | <span data-ttu-id="d2c81-122">msdyn_withholdingtaxcodes</span><span class="sxs-lookup"><span data-stu-id="d2c81-122">msdyn_withholdingtaxcodes</span></span> |
+<span data-ttu-id="d2c81-123">Staðgreiðsluskattsflokkar</span><span class="sxs-lookup"><span data-stu-id="d2c81-123">Withholding tax groups</span></span> | <span data-ttu-id="d2c81-124">msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="d2c81-124">msdyn_withholdingtaxgroups</span></span> | 
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]

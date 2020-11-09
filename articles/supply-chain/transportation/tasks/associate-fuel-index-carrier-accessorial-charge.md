@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -16,64 +17,64 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfecdbd8ca2d6124906ef664493602a1d0ac0baf
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c91d49c2ccdc274632e3acf94b836e19dc6cdaa8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017001"
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="681b0-103">Tengja eldsneytisvísi flutningsaðila sem aukagjald</span><span class="sxs-lookup"><span data-stu-id="681b0-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="ef9df-103">Tengja eldsneytisvísi flutningsaðila sem aukagjald</span><span class="sxs-lookup"><span data-stu-id="ef9df-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="681b0-104">Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="681b0-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="681b0-105">Það Þarf að vera uppsettur eldsneytisvísi flutningsaðila áður en þessari leiðbeiningar er keyrð.</span><span class="sxs-lookup"><span data-stu-id="681b0-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="681b0-106">Hægt er að nota leiðbeiningarnar "Setja upp eldsneytisvísi flutningsaðila" til að gera þetta.</span><span class="sxs-lookup"><span data-stu-id="681b0-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="681b0-107">Þessi uppsetningarverk eru yfirleitt gert með stjórnanda í Vörustjórnun.</span><span class="sxs-lookup"><span data-stu-id="681b0-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="681b0-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="681b0-108">The demo data used to create this procedure is USMF.</span></span>
+<span data-ttu-id="ef9df-104">Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="ef9df-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="ef9df-105">Það Þarf að vera uppsettur eldsneytisvísi flutningsaðila áður en þessari leiðbeiningar er keyrð.</span><span class="sxs-lookup"><span data-stu-id="ef9df-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="ef9df-106">Hægt er að nota leiðbeiningarnar "Setja upp eldsneytisvísi flutningsaðila" til að gera þetta.</span><span class="sxs-lookup"><span data-stu-id="ef9df-106">You can use the "Set up a carrier fuel index" guide to do this.</span></span> <span data-ttu-id="ef9df-107">Þessi uppsetningarverk eru yfirleitt gert með stjórnanda í Vörustjórnun.</span><span class="sxs-lookup"><span data-stu-id="ef9df-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="ef9df-108">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="ef9df-108">The demo data used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-accessorial-master"></a><span data-ttu-id="681b0-109">Stofna aukalegt sniðmát</span><span class="sxs-lookup"><span data-stu-id="681b0-109">Create an accessorial master</span></span>
-1. <span data-ttu-id="681b0-110">Fara í flutningsstjórnun > Uppsetning > Einkunn > Aukalegt sniðmát.</span><span class="sxs-lookup"><span data-stu-id="681b0-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="681b0-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="681b0-111">Click New.</span></span>
-3. <span data-ttu-id="681b0-112">Í reitinn Aukalegt sniðmát skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="681b0-112">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="681b0-113">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="681b0-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="681b0-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="681b0-114">Click Save.</span></span>
+## <a name="create-an-accessorial-master"></a><span data-ttu-id="ef9df-109">Stofna aukalegt sniðmát</span><span class="sxs-lookup"><span data-stu-id="ef9df-109">Create an accessorial master</span></span>
+1. <span data-ttu-id="ef9df-110">Fara í flutningsstjórnun > Uppsetning > Einkunn > Aukalegt sniðmát.</span><span class="sxs-lookup"><span data-stu-id="ef9df-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="ef9df-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-111">Click New.</span></span>
+3. <span data-ttu-id="ef9df-112">Í reitinn Aukalegt sniðmát skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ef9df-112">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="ef9df-113">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ef9df-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="ef9df-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-114">Click Save.</span></span>
 
-## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="681b0-115">Stofna aukagjöld flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="681b0-115">Create a carrier accessorial charge</span></span>
-1. <span data-ttu-id="681b0-116">Fara í flutningsstjórnun > Uppsetning >Einkunn > Aukagjöld flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="681b0-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
-2. <span data-ttu-id="681b0-117">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="681b0-117">Click New.</span></span>
-3. <span data-ttu-id="681b0-118">Færa inn gildi í reitnum aukalegt kenni flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="681b0-118">In the Carrier accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="681b0-119">Í reitnum Farmflytjandi skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="681b0-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="681b0-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="681b0-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="681b0-121">Í þessu dæmi skal velja Flutningsaðila með vörubíla.</span><span class="sxs-lookup"><span data-stu-id="681b0-121">In this example, choose Truck Carrier.</span></span>  
-6. <span data-ttu-id="681b0-122">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="681b0-122">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="681b0-123">Í reitnum Flutningsþjónusta skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="681b0-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="681b0-124">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="681b0-124">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="681b0-125">Í reitnum Aukalegt sniðmát skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="681b0-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="681b0-126">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="681b0-126">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="681b0-127">Í þessu dæmi skal velja nýstofnuð aukalega sniðmátið.</span><span class="sxs-lookup"><span data-stu-id="681b0-127">In this example, choose the newly created Accessorial master.</span></span>  
-11. <span data-ttu-id="681b0-128">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="681b0-128">Click Save.</span></span>
+## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="ef9df-115">Stofna aukagjöld flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="ef9df-115">Create a carrier accessorial charge</span></span>
+1. <span data-ttu-id="ef9df-116">Fara í flutningsstjórnun > Uppsetning >Einkunn > Aukagjöld flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="ef9df-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
+2. <span data-ttu-id="ef9df-117">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-117">Click New.</span></span>
+3. <span data-ttu-id="ef9df-118">Færa inn gildi í reitnum aukalegt kenni flutningsaðila.</span><span class="sxs-lookup"><span data-stu-id="ef9df-118">In the Carrier accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="ef9df-119">Í reitnum Farmflytjandi skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ef9df-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ef9df-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ef9df-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ef9df-121">Í þessu dæmi skal velja Flutningsaðila með vörubíla.</span><span class="sxs-lookup"><span data-stu-id="ef9df-121">In this example, choose Truck Carrier.</span></span>  
+6. <span data-ttu-id="ef9df-122">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="ef9df-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ef9df-123">Í reitnum Flutningsþjónusta skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ef9df-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="ef9df-124">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="ef9df-124">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="ef9df-125">Í reitnum Aukalegt sniðmát skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ef9df-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="ef9df-126">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ef9df-126">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ef9df-127">Í þessu dæmi skal velja nýstofnuð aukalega sniðmátið.</span><span class="sxs-lookup"><span data-stu-id="ef9df-127">In this example, choose the newly created Accessorial master.</span></span>  
+11. <span data-ttu-id="ef9df-128">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-128">Click Save.</span></span>
 
-## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="681b0-129">Stofna aukalega úthlutun</span><span class="sxs-lookup"><span data-stu-id="681b0-129">Create an accessorial assignment</span></span>
-1. <span data-ttu-id="681b0-130">Smellt er á úthlutanir aukaþjónustu.</span><span class="sxs-lookup"><span data-stu-id="681b0-130">Click Accessorial assignments.</span></span>
-2. <span data-ttu-id="681b0-131">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="681b0-131">Click New.</span></span>
-3. <span data-ttu-id="681b0-132">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="681b0-132">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="681b0-133">Víxla útvíkkun á liðnum skilyrði.</span><span class="sxs-lookup"><span data-stu-id="681b0-133">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="681b0-134">Í skilyrðunum er Hægt er að velja að nota alltaf eldsneytisálag eða í þessu dæmi velja að það á einungis við innan ákveðið svæði.</span><span class="sxs-lookup"><span data-stu-id="681b0-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
-5. <span data-ttu-id="681b0-135">Í reitinn Póstnúmer frá skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="681b0-135">In the ZIP/postal code from field, type a value.</span></span>
-6. <span data-ttu-id="681b0-136">Í reitinn Póstnúmer til skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="681b0-136">In the ZIP/postal code to field, type a value.</span></span>
-7. <span data-ttu-id="681b0-137">Víxla útvíkkun á liðnum útreikningur.</span><span class="sxs-lookup"><span data-stu-id="681b0-137">Toggle the expansion of the Calculation section.</span></span>
-    * <span data-ttu-id="681b0-138">Í hlutanum útreikning er hægt að tilgreina hvernig á að reikna út eldsneytisálag.</span><span class="sxs-lookup"><span data-stu-id="681b0-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="681b0-139">Þessi útreikningur fer eftir aukalegu einunguna sem þú valdir sem grunn fyrir útreikninga.</span><span class="sxs-lookup"><span data-stu-id="681b0-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
-8. <span data-ttu-id="681b0-140">Veljið í svæðinu aukagjalds skal velja 'Eldsneytisálag'.</span><span class="sxs-lookup"><span data-stu-id="681b0-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
-9. <span data-ttu-id="681b0-141">Veljið 'Vegalengd' í svæðinu aukaleg eining.</span><span class="sxs-lookup"><span data-stu-id="681b0-141">In the Accessorial unit field, select 'Mileage'.</span></span>
-10. <span data-ttu-id="681b0-142">Í reitnum Svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="681b0-142">In the Region field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="681b0-143">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="681b0-143">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="681b0-144">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="681b0-144">Click Save.</span></span>
+## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="ef9df-129">Stofna aukalega úthlutun</span><span class="sxs-lookup"><span data-stu-id="ef9df-129">Create an accessorial assignment</span></span>
+1. <span data-ttu-id="ef9df-130">Smellt er á úthlutanir aukaþjónustu.</span><span class="sxs-lookup"><span data-stu-id="ef9df-130">Click Accessorial assignments.</span></span>
+2. <span data-ttu-id="ef9df-131">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-131">Click New.</span></span>
+3. <span data-ttu-id="ef9df-132">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ef9df-132">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ef9df-133">Víxla útvíkkun á liðnum skilyrði.</span><span class="sxs-lookup"><span data-stu-id="ef9df-133">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="ef9df-134">Í skilyrðunum er Hægt er að velja að nota alltaf eldsneytisálag eða í þessu dæmi velja að það á einungis við innan ákveðið svæði.</span><span class="sxs-lookup"><span data-stu-id="ef9df-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
+5. <span data-ttu-id="ef9df-135">Í reitinn Póstnúmer frá skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ef9df-135">In the ZIP/postal code from field, type a value.</span></span>
+6. <span data-ttu-id="ef9df-136">Í reitinn Póstnúmer til skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ef9df-136">In the ZIP/postal code to field, type a value.</span></span>
+7. <span data-ttu-id="ef9df-137">Víxla útvíkkun á liðnum útreikningur.</span><span class="sxs-lookup"><span data-stu-id="ef9df-137">Toggle the expansion of the Calculation section.</span></span>
+    * <span data-ttu-id="ef9df-138">Í hlutanum útreikning er hægt að tilgreina hvernig á að reikna út eldsneytisálag.</span><span class="sxs-lookup"><span data-stu-id="ef9df-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="ef9df-139">Þessi útreikningur fer eftir aukalegu einunguna sem þú valdir sem grunn fyrir útreikninga.</span><span class="sxs-lookup"><span data-stu-id="ef9df-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
+8. <span data-ttu-id="ef9df-140">Veljið í svæðinu aukagjalds skal velja 'Eldsneytisálag'.</span><span class="sxs-lookup"><span data-stu-id="ef9df-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
+9. <span data-ttu-id="ef9df-141">Veljið 'Vegalengd' í svæðinu aukaleg eining.</span><span class="sxs-lookup"><span data-stu-id="ef9df-141">In the Accessorial unit field, select 'Mileage'.</span></span>
+10. <span data-ttu-id="ef9df-142">Í reitnum Svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ef9df-142">In the Region field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="ef9df-143">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="ef9df-143">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="ef9df-144">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-144">Click Save.</span></span>
 
-## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="681b0-145">Uppfæra taxtaforstillingu flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="681b0-145">Update the carrier rating profile</span></span>
-1. <span data-ttu-id="681b0-146">Farið í flutningsstjórnun > Uppsetning > Flutningsaðilar > Farmflytjendur.</span><span class="sxs-lookup"><span data-stu-id="681b0-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
-2. <span data-ttu-id="681b0-147">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="681b0-147">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="681b0-148">Víxla útvíkkun á liðnum taxtaforstillingar.</span><span class="sxs-lookup"><span data-stu-id="681b0-148">Toggle the expansion of the Rating profiles section.</span></span>
-4. <span data-ttu-id="681b0-149">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="681b0-149">Click Edit.</span></span>
-5. <span data-ttu-id="681b0-150">Í reitnum Eldsneytisvísir flutningsaðila skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="681b0-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="681b0-151">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="681b0-151">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="681b0-152">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="681b0-152">Click Save.</span></span>
+## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="ef9df-145">Uppfæra taxtaforstillingu flutningsaðila</span><span class="sxs-lookup"><span data-stu-id="ef9df-145">Update the carrier rating profile</span></span>
+1. <span data-ttu-id="ef9df-146">Farið í flutningsstjórnun > Uppsetning > Flutningsaðilar > Farmflytjendur.</span><span class="sxs-lookup"><span data-stu-id="ef9df-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="ef9df-147">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ef9df-147">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="ef9df-148">Víxla útvíkkun á liðnum taxtaforstillingar.</span><span class="sxs-lookup"><span data-stu-id="ef9df-148">Toggle the expansion of the Rating profiles section.</span></span>
+4. <span data-ttu-id="ef9df-149">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="ef9df-149">Click Edit.</span></span>
+5. <span data-ttu-id="ef9df-150">Í reitnum Eldsneytisvísir flutningsaðila skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="ef9df-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="ef9df-151">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="ef9df-151">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ef9df-152">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ef9df-152">Click Save.</span></span>
 
