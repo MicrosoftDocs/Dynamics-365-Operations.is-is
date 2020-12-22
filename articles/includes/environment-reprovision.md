@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459227"
+---
 Þegar gagnagrunnur er afritaður á milli umhverfa þarf að keyra endurúthlutunarverkfæri áður en afritaði gagnagrunnurinn nær fullri virkni til að tryggja að allir Commerce-íhlutir séu uppfærðir.
 
 > [!IMPORTANT]

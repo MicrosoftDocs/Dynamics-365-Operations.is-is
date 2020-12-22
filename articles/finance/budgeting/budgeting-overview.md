@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975269"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528546"
 ---
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
@@ -64,7 +64,7 @@ Sjá upplýsingar um hvernig á að færa gögn áætlunargerðar úr öðrum ei
 ## <a name="user-interface-and-reporting-capabilities"></a>Notandaviðmót og skýrslugerðargeta
 Notendur geta stofnað fjárhagsáætlanir annaðhvort beint í biðlaranum (með því að nota skilgreinanlega síðu fjárhagsáætlunarskjals) eða í gegnum Excel. Excel veitir nokkra viðbótareiginleika. Til dæmis er hægt að nota ytri gögn sem uppruna fyrir fjárhagsáætlun, gera sérsniðna útreikninga og nota Microsoft PivotTable og gröf. Hægt er að skilgreina flestar breyturnar í ferli fjárhagsáætlunargerðar. 
 
-Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætlað og hvernig ferlið lítur út. Þó að hægt sé að nota Excel fyrir gerð fjárhagsáætlunar er forritið notað sem stakur uppruni þess sem er rétt og hjálpar við að koma í veg fyrir vandamál í fjárhagsáætlunarstýringu. Hægt er að nota reglubundin ferli til að færa upphafleg gögn fyrir fjárhagsáætlun í fjárhagsáætlunargerðina. Forritið býður upp á safn af stöðluðum fyrirspurnarsíðum fyrir skýrslugerð þar sem hægt er að skoða og greina gögn í fjárhagsáætlun. Hægt er að nálgast fjárhagsáætlunargögn í gegnum Management Reporter og aðskildar aðstæður fjárhagsáætlunargerðar má birta sem dálka á skýrslu Management Reporter.
+Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætlað og hvernig ferlið lítur út. Þó að hægt sé að nota Excel fyrir gerð fjárhagsáætlunar er forritið notað sem stakur uppruni þess sem er rétt og hjálpar við að koma í veg fyrir vandamál í fjárhagsáætlunarstýringu. Hægt er að nota reglubundin ferli til að færa upphafleg gögn fyrir fjárhagsáætlun í fjárhagsáætlunargerðina. Forritið býður upp á safn af stöðluðum fyrirspurnarsíðum fyrir skýrslugerð þar sem hægt er að skoða og greina gögn í fjárhagsáætlun. Hægt er að nálgast fjárhagsáætlunargögn í gegnum [Fjárhagsskýrslugerð](../general-ledger/financial-reporting-getting-started.md) og aðskildar aðstæður fjárhagsáætlunargerðar má birta sem dálka í fjárhagsáætluninni.
 
 
 

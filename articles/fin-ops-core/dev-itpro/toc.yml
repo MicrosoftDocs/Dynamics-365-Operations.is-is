@@ -14,14 +14,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.16 (febrúar 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Verkvangsuppfærslur fyrir 10.0.15 (janúar 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Verkvangsuppfærslur fyrir 10.0.14 (nóvember 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: Verkvangsuppfærslur fyrir 10.0.13 (október 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: Verkvangsuppfærslur fyrir 10.0.12 (ágúst 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: AX 2012 eiginleikar sem var frestað
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Viðskiptatilvik
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Setja upp vörpun fyrir stöðureit sölupöntunar
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Umsjón með tvöföldum skrifum
                           items:
                             - name: Sérstilling á vörpun eininga og reita
@@ -208,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Samþætt aðalsniðmát skatta
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Samstilling við Dynamics 365 Supply Chain Management verðlagningarkerfi eftir eftirspurn
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Viðfang til sjóðstreymis í tvöföldum skrifum
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Samstilling við Dynamics 365 Supply Chain Management verðlagningarkerfi eftir eftirspurn
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Nota Dynamics 365 Commerce-verðlagningarkerfi ásamt Dynamics 365 Sales
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Eignir til þjónustu innanhúss
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Samþættur starfskraftur, starf og staða'
@@ -496,10 +496,12 @@
                   items:
                     - name: Yfirlit yfir uppsetningu á staðnum
                       href: deployment/on-premises-overview.md
-                    - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
+                    - name: Áætlun og undirbúningur fyrir uppsetningu innanhúss
                       href: deployment/plan-onprem-deployment.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Sannvottun í Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/authentication-onprem.md
                 - name: Setja upp og virkja innanhússumhverfi
                   items:
                     - name: Setja upp verk á staðnum í LCS
@@ -630,6 +632,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Búa til Lifecycle Services (LCS) tengingu í Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Uppfæra eldri sölukeðju í Azure Pipelines
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Prufuforrit bílaflotastjórnunar
               items:
                 - name: Heildrænt ferli sviðsett fyrir prufuforrit bílaflotastjórnunar
@@ -766,6 +770,8 @@
                           href: dev-ref/xpp-data/xpp-data-perf.md
                         - name: Gagnaaðgangur með SysDa API
                           href: dev-ref/sysda.md
+                        - name: Gera ráðstafanir vegna árása með SQL-innsendingu
+                          href: dev-ref/query-with-parameters.md
                     - name: X++ fjölvar
                       href: dev-ref/xpp-macros.md
                     - name: X++ eigindaklasar
@@ -1462,7 +1468,7 @@
               href: lifecycle-services/lcs-support.md
             - name: Yfirlit yfir þjónustu við Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
+            - name: Fá aðstoð fyrir Finance and Operations sem er notað af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
             - name: Setja upp tæknilegan stuðning fyrir Finance and Operations-forrit
               href: lifecycle-services/support-experience.md
@@ -1492,12 +1498,14 @@
                   href: sysadmin/security-architecture.md
                 - name: Dulritun í Finance and Operations-forritum
                   href: sysadmin/encryption.md
-                - name: Velja hvenær tími rennur út vegna aðgerðaleysis
+                - name: Stilla hvenær lotutími rennur út vegna aðgerðaleysis
                   href: sysadmin/session-idle-timeout.md
                 - name: Tilbúnar öryggisskýrslur
                   href: sysadmin/security-reports.md
                 - name: Búa til nýja notendur
                   href: sysadmin/tasks/create-new-users.md
+                - name: Stjórnun notandalotu
+                  href: sysadmin/user-session-management.md
                 - name: Flytja inn marga notendur í einu
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Setja upp aðskilnað á skyldum
@@ -1558,6 +1566,8 @@
               href: sysadmin/odata-warmup.md
             - name: Biðlari Azure-lyklageymslu settur upp
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Hreinsa forskriftir
+              href: sysadmin/cleanuproutines.md
         - name: Uppfærslur og bráðabætur
           items:
             - name: Tilföng uppfærslna og bráðabóta
@@ -1696,7 +1706,7 @@
                   href: user-interface/build-customer-form.md
                 - name: Smíða yfirlit
                   href: user-interface/build-navigation.md
-                - name: Smíða vinnusvæði
+                - name: Breyta vinnusvæði
                   href: user-interface/build-workspace.md
             - name: Skjámyndir
               items:
@@ -1704,7 +1714,7 @@
                   href: user-interface/page-navigation.md
                 - name: Útlit síðu í vefbiðlara
                   href: user-interface/page-layout.md
-                - name: Leturgerð Dynamics-tákns
+                - name: Leturgerð gagnvirknitákns
                   href: user-interface/symbol-font.md
                 - name: Vistuð yfirlit
                   href: ../fin-ops/get-started/saved-views.md

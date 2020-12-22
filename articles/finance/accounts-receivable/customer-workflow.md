@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: cb8519db2f5d52d4e317b485d6ecc910956788cb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975317"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4459274"
 ---
 # <a name="customer-workflow"></a>Verkflæði viðskiptavinar
 
@@ -60,4 +60,4 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tvær valmy
 
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
-Verkflæðið fylgir venjulegu verkflæðisferli í forritinu. Samþykktaraðila er beint á síðuna **Viðskiptavinur** þar sem hann eða hún getur yfirfarið breytingar á síðunni **Fyrirhugaðar breytingar** og síðan valið **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
+Verkflæðið fylgir venjulegu verkflæðisferli í forritinu. Samþykktaraðila er beint á síðuna **Viðskiptavinur** þar sem hægt er að fara yfir breytingar á síðunni **Fyrirhugaðar breytingar** og velja síðan **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.

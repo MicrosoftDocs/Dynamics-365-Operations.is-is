@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979305"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685054"
 ---
 # <a name="globalization-resources"></a>Altæk tilföng
 
 ## <a name="local-and-regional-deployments"></a>Staðbundin og svæðisbundin uppsetning
-Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við uppsetningu. Líttu á eftirfarandi tilföng sem kunna að eiga við um þig:
+Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við uppsetningu. Lítið á eftirfarandi tilföng sem kunna að eiga við um viðkomandi notanda:
 
-[Finance and Operations-forrit rekin af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations-forrit notuð af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
