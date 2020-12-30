@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011422"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668946"
 ---
 # <a name="go-live-faq"></a>Algengar spurningar um keyrslu 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði eru algengar spurningar um hvernig á að keyra Dynamics 365 Human Resources innleiðingarverk. 
 
@@ -76,7 +78,7 @@ Gagnagrunnar eru varðir með sjálfvirkum öryggisafritunum með eftirfarandi m
 | Milliafritun gagnagrunns | Á 12-24 klukkustunda fresti |
 | Öryggisafritun færslukladda | Á 5 til 10 mínútna fresti |
 
-Microsoft heldur eftir nægum öryggisafritunum til að geta endurheimt tímapunkt innan síðustu sjö daga. 
+Microsoft heldur eftir nægum öryggisafritunum til að geta endurheimt tímapunkt innan síðustu 14 daga. 
 
 Frekari upplýsingar er að finna í  [Fræðast um sjálfvirka öryggisafritun SQL-gagnagrunns](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793564"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668982"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Námslisti fyrir notendur Dynamics 365 Supply Chain Management
 
@@ -50,6 +50,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Stilla og hafa umsjón með vörum og birgðum í Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Afurðarupplýsingar eru stoðir fyrir birgðakeðju og smásöluforrit í öllum greinum. Í hinum ýmsu einingum fyrirtækjalausnar eru upplýsingar og skilgreiningar á tilteknum vörum nauðsynlegar til að stjórna viðskiptaferlunum sem tengjast vörum, vörulínum, uppskriftum og vöruflokkum. Birgðaskýrslur sýna þér á margvíslegan hátt hversu miklar birgðir þú hefur og útskýra hvernig þú getur verið skilvirkari í birgðafjárfestingum þínum. Aðaláætlanagerð auðveldar þér að einfalda áætlanagerðina út frá fyrirframákveðnum þáttum svo þú getir áætlað á skilvirkan hátt hvaða efni þurfi að kaupa, flytja eða framleiða. | Ókeypis, sjálfstýr skref á námsleið | 14 klst. |
 | [Stilla og hafa umsjón með innkaupum og lánardrottnum í Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Ferlið við að finna og vinna með söluaðilum, kaupa vörur og tryggja gæði vöru og þjónustu eru allir mikilvægir þættir sem hafa áhrif á orðspor og árangur fyrirtækisins. | Ókeypis, sjálfstýr skref á námsleið | 14 klst. |
 | [Stilla og hafa umsjón með sölu og viðskiptavinum í Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | Ferlið við að vinna með viðskiptavinum, skilja líftíma söluferlisins og setja upp sölusamninga er allt saman mikilvægir þættir sem hafa áhrif á velgengni fyrirtækisins. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
+| [Aðaláætlanagerð í Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/master-planning-supply-chain-management/) | Aðaláætlanagerð gerir fyrirtækjum kleift að auðkenna og jafna hráefni og afkastagetu sem þarf til að uppfylla markmið þeirra í framtíðinni. Aðaláætlanagerð leggur mat á hvaða hráefni og afkastageta eru í boði og hvaða hráefni og afkastagetu þarf til að ljúka framleiðslu. Til dæmis ber það kennsl á hvað verður að framleiða, kaupa, flytja eða setja til hliðar sem öryggisbirgðir áður en þú getur lokið framleiðslu. | Ókeypis, sjálfstýr skref á námsleið | 5 klst. |
 | [Stilla og vinna með vöruhússtjórnun í Dynamics 365 for Finance and Operations](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Vöruhúsastjórnun í Dynamics 365 Supply Chain Management hjálpar til við að fínstilla og hagræða vöruferlum í samræmi við einstaklingsbundnar þarfir þínar og veitir innsýn í birgðum þínum og tækjum til að auka ánægju viðskiptavina og draga úr kostnaði. | Ókeypis, sjálfstýr skref á námsleið | 8.5 klst. |
 | [Stilla og vinna með flutningsstjórnun í Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Eining flutningsstjórnunar í Dynamics 365 Supply Chain Management auðveldar þér að finna skilvirkustu leiðina til að afhenda vörur til viðskiptavina þinna. Flutningsstjórnun reiknar út ódýrustu og fljótlegustu leiðina til að afhenda vörur og gerir þér kleift að finna lánardrottna og leiðir fyrir pantanir á inn- og útleið. | Ókeypis, sjálfstýr skref á námsleið | 3 klst. |
 | [Vinna með eignastýringu fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Eignastýring er viðbót við Dynamics 365 Supply Chain Management sem er notuð til að hafa umsjón með eignum sem eru notaðar í daglegum rekstri fyrirtækisins. Nokkur dæmi um þessar tegundir eigna eru vélar, framleiðslutæki og gaffallyftarar. | Ókeypis, sjálfstýr skref á námsleið | 12.5 klst. |
