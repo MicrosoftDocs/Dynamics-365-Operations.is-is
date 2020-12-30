@@ -1,0 +1,87 @@
+---
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (ágúst 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/27/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2018-08-27
+ms.dyn365.ops.version: Talent August 2018 update
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690101"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a><span data-ttu-id="e8b1e-103">Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (ágúst 2018)</span><span class="sxs-lookup"><span data-stu-id="e8b1e-103">What's new or changed in Dynamics 365 Talent - Core HR (August 2018)</span></span>
+
+<span data-ttu-id="e8b1e-104">**Smíði 8.1.104**</span><span class="sxs-lookup"><span data-stu-id="e8b1e-104">**Build 8.1.104**</span></span>
+
+<span data-ttu-id="e8b1e-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-105">This topic describes features that are either new or changed in Dynamics 365 Talent: Core HR.</span></span>
+
+## <a name="view-expiring-records-in-manager-self-service"></a><span data-ttu-id="e8b1e-106">Skoða færslur sem eru að renna út í sjálfsafgreiðslu stjórnanda</span><span class="sxs-lookup"><span data-stu-id="e8b1e-106">View expiring records in Manager self-service</span></span>
+
+<span data-ttu-id="e8b1e-107">Hægt er að skoða færslur sem eru að renna út í sjálfsafgreiðslu stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-107">You can now view expiring records in Manager self-service.</span></span> <span data-ttu-id="e8b1e-108">Nýir valkostir leyfa þér að stilla hvaða upplýsingar verða tiltækar fyrir stjórnendur til að skoða.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-108">New options allow you to configure what information will be available for managers to view.</span></span> <span data-ttu-id="e8b1e-109">Á meðal valkosta er:</span><span class="sxs-lookup"><span data-stu-id="e8b1e-109">These options include:</span></span>
+
+-   <span data-ttu-id="e8b1e-110">Skírteini</span><span class="sxs-lookup"><span data-stu-id="e8b1e-110">Certificates</span></span>
+
+-   <span data-ttu-id="e8b1e-111">Auðkennisnúmer</span><span class="sxs-lookup"><span data-stu-id="e8b1e-111">Identification numbers</span></span>
+
+-   <span data-ttu-id="e8b1e-112">Reynslutímabil</span><span class="sxs-lookup"><span data-stu-id="e8b1e-112">Probation periods</span></span>
+
+-   <span data-ttu-id="e8b1e-113">Skoðanir</span><span class="sxs-lookup"><span data-stu-id="e8b1e-113">Screenings</span></span>
+
+-   <span data-ttu-id="e8b1e-114">Prófanir</span><span class="sxs-lookup"><span data-stu-id="e8b1e-114">Tests</span></span>
+
+<span data-ttu-id="e8b1e-115">Þessi eiginleiki gefur þér einnig möguleika á að tilgreina dagsetningabil sem á að leita í að færslum sem eru að renna út.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-115">This feature also gives you the ability to specify the range of days in which to look for expiring records.</span></span>
+
+## <a name="configurable-transfer-actions"></a><span data-ttu-id="e8b1e-116">Stillanlegar flutningsaðgerðir</span><span class="sxs-lookup"><span data-stu-id="e8b1e-116">Configurable transfer actions</span></span>
+
+<span data-ttu-id="e8b1e-117">Þú getur stillt eftir hlutverki valkostina sem verða tiltækir meðan á færslu flutningsbeiðnar stendur.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-117">You can configure by role the options that will be available during the entry of a transfer request.</span></span> <span data-ttu-id="e8b1e-118">Þessi eiginleiki veitir viðbótar sveigjanleika yfir hlutverk í fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-118">This feature provides additional flexibility across the roles in an organization.</span></span>
+
+<span data-ttu-id="e8b1e-119">Til dæmis getur verið að stjórnendur sem óska ​​eftir flutningi á starfsmönnum hafi ekki aðgang til þess að stinga upp á eða slá inn launaupphæðir eða velja verkefnalista sem munu tengjast flutningsbeiðninni.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-119">For example, managers requesting employee transfers may not have access to suggest or enter compensation amounts or select the task lists that will be associated with the transfer request.</span></span> <span data-ttu-id="e8b1e-120">Stjórnendur geta búið til og sent inn flutningsbeiðnir en er ekki slegið inn laun eða úthlutanir á verkefnalistum.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-120">Managers can create and submit transfer requests, but can't enter compensation or task list assignments.</span></span> <span data-ttu-id="e8b1e-121">Í sömu stillingu getur HR úthlutað nýjum launagildum auk þess að úthluta aukalegum gátlistum sem þarf að ljúka vegna flutningsloka.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-121">In this same configuration, HR can assign the new compensation values and assign any additional checklists to be completed because of the transfer completing.</span></span>
+
+<span data-ttu-id="e8b1e-122">Sjálfgefið er að nýju stillingarmöguleikarnir séu stilltir þannig að þeir breyti ekki möguleikum á undan þessari uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-122">By default, the new configuration options are set to not change the capabilities prior to this update.</span></span>
+
+## <a name="leave-and-absence"></a><span data-ttu-id="e8b1e-123">Leyfi og fjarvera</span><span class="sxs-lookup"><span data-stu-id="e8b1e-123">Leave and absence</span></span>
+
+<span data-ttu-id="e8b1e-124">Það eru nú fleiri dagsetningareitir í boði í Leyfi og fjarveru.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-124">There are now additional Date fields available in Leave and Absence.</span></span>
+
+<span data-ttu-id="e8b1e-125">Með þessum eiginleika er hægt að stilla tímabilsgrunn uppsöfnunar á áætlunarstigi til að nota tilteknar starfsmannadagsetningar.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-125">With this feature, you can set the accrual period basis at the plan level to use specific employee dates.</span></span> <span data-ttu-id="e8b1e-126">Dagsetningar aðrar en upphafsdagsetning áætlunarinnar, sem notuð er á meðan á uppsöfnunarferli leyfis stendur.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-126">Dates other than the plan start date can be used during the leave accrual process.</span></span> <span data-ttu-id="e8b1e-127">Valkostir fyrir tilteknar dagsetningar starfsmanns innihalda eftirfarandi gildi:</span><span class="sxs-lookup"><span data-stu-id="e8b1e-127">Options for employee-specific dates include the following values:</span></span>
+
+-   <span data-ttu-id="e8b1e-128">Sérsnið (tiltæk á undan þessar uppfærslu)</span><span class="sxs-lookup"><span data-stu-id="e8b1e-128">Custom (available prior to this update)</span></span>
+
+-   <span data-ttu-id="e8b1e-129">Árleg dagsetning</span><span class="sxs-lookup"><span data-stu-id="e8b1e-129">Anniversary date</span></span>
+
+-   <span data-ttu-id="e8b1e-130">Upprunaleg ráðningardagsetning</span><span class="sxs-lookup"><span data-stu-id="e8b1e-130">Original hire date</span></span>
+
+-   <span data-ttu-id="e8b1e-131">Starfsaldursdagsetning</span><span class="sxs-lookup"><span data-stu-id="e8b1e-131">Seniority date</span></span>
+
+-   <span data-ttu-id="e8b1e-132">Leiðréttur upphafsdagur starfsmanns</span><span class="sxs-lookup"><span data-stu-id="e8b1e-132">Worker’s adjusted start date</span></span>
+
+-   <span data-ttu-id="e8b1e-133">Upphafsdagur starfsmanns</span><span class="sxs-lookup"><span data-stu-id="e8b1e-133">Worker’s start date</span></span>
+
+<span data-ttu-id="e8b1e-134">Þegar það er stillt á að nota eina af tilteknum dagsetningum starfsmanns, mun innskráningarferlið nota tilgreinda dagsetningu til að reikna út uppsöfnunartímabilin.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-134">When configured to use one of the employee-specific dates, the enrollment process will use the specified date to calculate the accrual periods.</span></span> <span data-ttu-id="e8b1e-135">Tímabilsgrunnur uppsöfnunar birtist einnig á skráningaráætlun starfsmanns til að hjálpa þér að skilja hvað er notað í uppsöfnunarferlinu.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-135">The accrual period basis is also displayed on the employee’s plan enrollment to help you understand what’s being used during the accrual process.</span></span>
+
+## <a name="microsoft-word-integration"></a><span data-ttu-id="e8b1e-136">Samþætting Microsoft Word</span><span class="sxs-lookup"><span data-stu-id="e8b1e-136">Microsoft Word integration</span></span>
+
+<span data-ttu-id="e8b1e-137">Skjalasniðmát hafa verið virkjuð í gegnum Core HR.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-137">Document templates have been enabled throughout Core HR.</span></span> <span data-ttu-id="e8b1e-138">Þessi eiginleiki gerir þér kleift að búa til bréf og skýrslur sem byggja á Word-sniðmátum sem þú býrð til.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-138">This feature allows you to create letters and reports based on Word templates that you create.</span></span>
+
+<span data-ttu-id="e8b1e-139">Viðbótarupplýsingar um þennan eiginleika er að finna í [Kennsla í Office-samþættingu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).</span><span class="sxs-lookup"><span data-stu-id="e8b1e-139">Additional information about this feature is available in the [Office integration tutorial](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).</span></span>
+
+
+## <a name="other-fixes"></a><span data-ttu-id="e8b1e-140">Aðrar lagfæringar</span><span class="sxs-lookup"><span data-stu-id="e8b1e-140">Other fixes</span></span>
+
+<span data-ttu-id="e8b1e-141">Þessi útgáfa felur einnig í sér fjölda villuleiðréttinga, viðbót nýrra eininga, lagfæringar á núverandi einingum og staðbundnar breytingar á merkjum.</span><span class="sxs-lookup"><span data-stu-id="e8b1e-141">This release also includes a number of bug fixes, the addition of new entities, fixes to existing entities, and localized label changes.</span></span>
