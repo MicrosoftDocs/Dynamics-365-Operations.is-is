@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 163c2e00bd0363303596a48199a833369e51b232
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012345"
+ms.locfileid: "4430641"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.9. (apríl 2020)
 
@@ -36,7 +36,7 @@ ms.locfileid: "4012345"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt* , svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt*, svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Ítarlegar hleðsluáætlanir í bylgju](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Frekari upplýsingar er að finna í [Viðbótarhleðsluáætlanir í bylgju](../warehousing/advanced-load-building-during-wave.md).
 

@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016563"
+ms.locfileid: "4430716"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Móttaka númeraplötu í gegnum vöruhúsaforritið
 
@@ -31,7 +31,7 @@ ms.locfileid: "4016563"
 
 Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið stofnar sjálfkrafa ASN þegar ferli vöruhússtjórnunar eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
 
-ASN gögnin eru tengd við farm og sendingar um *pakkaskipan* , þar sem bretti (yfirnúmeraplötur) geta innihaldið mál (faldaðar númeraplötur).
+ASN gögnin eru tengd við farm og sendingar um *pakkaskipan*, þar sem bretti (yfirnúmeraplötur) geta innihaldið mál (faldaðar númeraplötur).
 
 > [!NOTE]
 > Til að fækka birgðafærslum þegar pakkaskipan sem hefur faldaðar númeraplötur er notuð skráir kerfið efnislegar lagerbirgðir á yfirnúmeraplötuna. Til að kveikja á hreyfingu efnislegrar lagerbirgða frá yfirnúmeraplötunni yfir á faldaðar númeraplötur, byggðar á pakkaskipunargögnum, verður fartækið að bjóða upp á valmyndaratriði sem er byggt á vinnusköpunarferlinu *Pakka á faldaðar númeraplötur*.
@@ -42,7 +42,7 @@ ASN gögnin eru tengd við farm og sendingar um *pakkaskipan* , þar sem bretti 
 
 ## <a name="work-policies"></a>Vinnureglur
 
-Eins og við um (sem dæmi) vinnslu valmyndaratriði fartækis *Bóka sem tilbúið* , styður móttökuferli númeraplötu ýmis verkflæði samkvæmt skilgreindri uppsetningu.
+Eins og við um (sem dæmi) vinnslu valmyndaratriði fartækis *Bóka sem tilbúið*, styður móttökuferli númeraplötu ýmis verkflæði samkvæmt skilgreindri uppsetningu.
 
 ### <a name="work-policies-with-work-creation"></a>Vinnureglur með stofnun vinnu
 
@@ -50,7 +50,7 @@ Eins og við um (sem dæmi) vinnslu valmyndaratriði fartækis *Bóka sem tilbú
 
 ### <a name="work-policies-without-work-creation"></a>Vinnureglur án stofnun vinnu
 
-Hægt er að nota móttökuferli númeraplötu án þess að stofna vinnu. Ef vinnureglur eru skilgreindar sem eru með verkbeiðnigerðina *Millifærslumóttaka* og/eða *Innkaupapantanir* og notað er ferlið *Móttaka (og frágangur) númeraplötu* , munu eftirfarandi tvö ferli Warehousing mobile app ekki stofna vinnu. Þess í stað skrá þau aðeins efnislegar birgðir á innleið á númeraplötunni við móttökuhliðið.
+Hægt er að nota móttökuferli númeraplötu án þess að stofna vinnu. Ef vinnureglur eru skilgreindar sem eru með verkbeiðnigerðina *Millifærslumóttaka* og/eða *Innkaupapantanir* og notað er ferlið *Móttaka (og frágangur) númeraplötu*, munu eftirfarandi tvö ferli Warehousing mobile app ekki stofna vinnu. Þess í stað skrá þau aðeins efnislegar birgðir á innleið á númeraplötunni við móttökuhliðið.
 
 - *Móttaka númeraplötu*
 - *Móttaka og frágangur númeraplötu*
@@ -93,7 +93,7 @@ Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleik
 Fylgdu þessum skrefum til að stjórna virkni þegar þessi eiginleiki er tiltækur.
 
 1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-1. Á flipanum **Almennt** , á flýtiflipanum **Númeraplötur** , stillirðu reitinn **Reglur um númeraplötu flutningsvöruhúsa** á eitt af eftirfarandi gildum:
+1. Á flipanum **Almennt**, á flýtiflipanum **Númeraplötur**, stillirðu reitinn **Reglur um númeraplötu flutningsvöruhúsa** á eitt af eftirfarandi gildum:
 
     - **Leyfa endurnotkun á óröktum númeraplötum** - Kerfið virkar á sama hátt og það virkar þegar eiginleikinn *Koma í veg fyrir að númeraplötur með sendum flutningspöntunum séu notaðar í öðrum vöruhúsum en ákvörðunarvöruhúsinu* er ekki í boði. Þetta gildi er sjálfgefin stilling þegar þú virkjar eiginleikann fyrst.
     - **Koma í veg fyrir endurnotkun á óröktum númeraplötum** - Aðeins handvirkar uppfærslur sem tengjast sendum númeraplötum verða leyfðar í ákvörðunarvöruhúsinu þar til flutningspöntunin hefur borist.

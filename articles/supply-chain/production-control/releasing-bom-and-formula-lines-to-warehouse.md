@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017231"
+ms.locfileid: "4430678"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
@@ -46,7 +46,7 @@ Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framle
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Losa uppskriftarlínur og formúlulínur með því að nota runuvinnslu
 
-**Sjálfvirk losun BOM og formúlulínur** runuvinnsla fer í gegnum valin BOM og formúlu línur sem hafa eftirstandandi magn til að sleppa. Vinnslan tekur aðeins til greina pantanir með stöðuna **Losað** , **Byrjað** eða **Tilkynnt sem lokið**. Ef uppskriftar- eða formúlulína hefur eftirstandandi magn til að losa, þá losar vinnslan allt að magni sem hægt er að dekka með því magni sem þegar hefur verið efnislega frátekið og magnið sem er efnislega tiltækt.
+**Sjálfvirk losun BOM og formúlulínur** runuvinnsla fer í gegnum valin BOM og formúlu línur sem hafa eftirstandandi magn til að sleppa. Vinnslan tekur aðeins til greina pantanir með stöðuna **Losað**, **Byrjað** eða **Tilkynnt sem lokið**. Ef uppskriftar- eða formúlulína hefur eftirstandandi magn til að losa, þá losar vinnslan allt að magni sem hægt er að dekka með því magni sem þegar hefur verið efnislega frátekið og magnið sem er efnislega tiltækt.
 
 ### <a name="example-of-a-batch-job-release"></a>Dæmi um losun runuvinnslu
 
@@ -68,7 +68,7 @@ Eftirfarandi mynd sýnir framleiðslupöntun sem hefur tvær vinnslur, 10 og 20,
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Losun efnis fyrir hverja aðgerðarnúmer eða í hlutfalli við magn fullunninnar vöru
 
-Ef þú sleppir efni með því að nota færibreytustillingu **Á losun framleiðslupöntunar** , þegar þú framkvæmir handvirkt losun, hefur þú tvo valkosti til að stjórna losun efnisins:
+Ef þú sleppir efni með því að nota færibreytustillingu **Á losun framleiðslupöntunar**, þegar þú framkvæmir handvirkt losun, hefur þú tvo valkosti til að stjórna losun efnisins:
 
 - Losaðu efni eftir aðgerðarnúmeri.
 - Losaðu efni í hlutfalli við magn fullunnar vöru.
@@ -77,7 +77,7 @@ Ef þú sleppir efni með því að nota færibreytustillingu **Á losun framlei
 
 Til að stjórna þeim aðgerðum sem efnið ætti að vera losað til, notaðu síðuna **Losa í vöruhús**.
 
-- Veldu **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir** , veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Síðan skal nota **Frá aðg. nr.** og **Til aðg. nr.** reitina til að tilgreina bil aðgerðanúmera.
+- Veldu **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir**, veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Síðan skal nota **Frá aðg. nr.** og **Til aðg. nr.** reitina til að tilgreina bil aðgerðanúmera.
 
 Eftirfarandi mynd sýnir framleiðslupantanir sem hefur tvær aðgerðir, 10 og 20. Í þessu dæmi, ef þú takmarkar losun við aðgerð 10, verður aðeins efni M9203 losað.
 
@@ -89,11 +89,11 @@ Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullun
 
 Þú getur losað hráefni fyrir hluta magns fullunninnar vöru eða í tiltekinni einingu.
 
-- Til að losa hráefni fyrir hluta magns fullunnar vöru skaltu velja **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir** , veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Í reitinn **Magn** skal síðan slá inn magn.
+- Til að losa hráefni fyrir hluta magns fullunnar vöru skaltu velja **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir**, veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Í reitinn **Magn** skal síðan slá inn magn.
 
     Til dæmis er stofnuð og áætluð framleiðslupöntun fyrir 1.000 stykki (pcs.). Yfirmaður vinnusalar áætlar framleiðslu 100 stk. fyrir næsta vakt og vill losa efni aðeins fyrir þá vakt. Í þessu tilfelli getur umsjónarmaðurinn notað **Magn** reitinn til að losa efni fyrir 100 stk. sem eru áætlaðir fyrir næstu vakt.
 
-- Til að losa hráefni í tiltekinni einingu velurðu **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir** , veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Notaðu síðan **Eining** reitinn til að velja eininguna fyrir fullunnu vöruna til að losa efni í.
+- Til að losa hráefni í tiltekinni einingu velurðu **Framleiðslustýring** \> **Framleiðslupantanir** \> **Allar framleiðslupantanir**, veldu framleiðslupöntun og síðan á **Vöruhús** flipanum velurðu **Losa í vöruhús**. Notaðu síðan **Eining** reitinn til að velja eininguna fyrir fullunnu vöruna til að losa efni í.
 
     Einingarnar sem eru tiltækar eru skilgreindar í kenni einingaröðunarflokks fullunnu vörunnar.
 

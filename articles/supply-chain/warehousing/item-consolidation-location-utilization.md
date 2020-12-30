@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017185"
+ms.locfileid: "4430658"
 ---
 # <a name="item-consolidation---location-utilization"></a>Vörusameining - nýting á staðsetningu
 
@@ -60,8 +60,8 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Í svæðið **Vörunúmer** skaltu velja *M9201* og opna upplýsingasíðuna.
-1. Á Aðgerðasvæði, á flipanum **Stjórna birgðum** , í flokknum **Vöruhús** , velurðu **Efnislegar víddir**.
-1. Á síðunni **Efnisleg vídd** , á aðgerðasvæðinu, skal velja **Nýr**.
+1. Á Aðgerðasvæði, á flipanum **Stjórna birgðum**, í flokknum **Vöruhús**, velurðu **Efnislegar víddir**.
+1. Á síðunni **Efnisleg vídd**, á aðgerðasvæðinu, skal velja **Nýr**.
 
     Nýrri línu er bætt við hnitanetið. Reiturinn **Vörunúmeri** er forstilltur.
 
@@ -73,7 +73,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Forstillingar staðsetningar**.
 1. Veldu **FLOOR-05** á lista staðsetningarforstillinga.
 1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Í flýtiflipanum **Almennt** skal ganga úr skugga um að báðir eftirfarandi valkostir séu stilltir á *Já* :
+1. Í flýtiflipanum **Almennt** skal ganga úr skugga um að báðir eftirfarandi valkostir séu stilltir á *Já*:
 
     - Virkja vöru á staðsetningu
     - Virkja staðsetningarstöðu
@@ -98,7 +98,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
     >
     > Ef skilaboðin fyrir samræmisathugun segja: „Rangar upplýsingar um stöðu staðsetningar fannst fyrir staðsetningu XXXX í vöruhúsi XX,“ þarf að keyra samræmisathugunina aftur. Að þessu sinni skal stilla reitinn **Athuga/Laga** á *Laga villu*. Skoða skilaboðin til að ganga úr skugga um að engar villur hafi fundist.
 
-1. Nú þarf að ljúka uppsetningu staðsetningarforstillingar. Farið í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Staðsetningarforstillingar** , veljið staðsetningarforstillingu **FLOOR-05** og síðan, á aðgerðasvæðinu, skal velja **Breyta**.
+1. Nú þarf að ljúka uppsetningu staðsetningarforstillingar. Farið í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Staðsetningarforstillingar**, veljið staðsetningarforstillingu **FLOOR-05** og síðan, á aðgerðasvæðinu, skal velja **Breyta**.
 1. Stilltu eftirfarandi gildi á **Víddir** flipanum:
 
     - **Hlutfallsleg nýting magns:** *100*
@@ -121,7 +121,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
     - **Máti:** *Vinna*
     - **Nota fyrirliggjandi vinnu:** *Nei*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
     - **Ferli verkstofnunar:** *Magnleiðréttingar í*
     - **Gerðir leiðréttinga á birgðaskrá:** *Leiðréttingar í*

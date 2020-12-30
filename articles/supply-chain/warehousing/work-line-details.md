@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015896"
+ms.locfileid: "4430711"
 ---
 # <a name="work-line-details"></a>Upplýsingar um vinnulínu
 
@@ -55,7 +55,7 @@ Til að skoða listann yfir upplýsingar um vinnulínur skal opna **Vöruhúsast
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessa sýniútgáfu sem leiðsögn þegar unnið er í framleiðslukerfi. Hinsvegar þarf að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 
@@ -80,7 +80,7 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Ný** til að opna svargluggann **Stofna sölupöntun**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - Á flipanum **Viðskiptavinur** skaltu stilla reitinn **Reikningur viðskiptavinar** á _US-001_.
     - Í flýtiflipanum **Almennt** skal stilla reitinn **Vöruhús** á _51_.
@@ -95,11 +95,11 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 1. Veljið nýju pöntunarlínuna og síðan í valmyndinni **Birgðir** skal velja **Frátekning** til að opna síðuna **Frátekning**.
 1. Á síðunni **Frátekning** skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**. Kerfið stofnar sendingu, bætir henni við nýja hleðslu og stofnar nauðsynlega vinnu.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**. Kerfið stofnar sendingu, bætir henni við nýja hleðslu og stofnar nauðsynlega vinnu.
 1. Stofnið aðra sölupöntun fyrir sama viðskiptavinalykil og vöruhús sem notað var fyrir fyrstu pöntunina. Bætið eftirfarandi tveimur pöntunarlínum við þessa pöntun:
 
-    - **Lína 1:** Stillið reitinn **Vörunúmer** á _M9200_ , reitinn **Magn** á _25_ og reitinn **Eining** á _ea_.
-    - **Lína 2:** Stillið reitinn **Vörunúmer** á _M9202_ , reitinn **Magn** á _10_ og reitinn **Eining** á _ea_.
+    - **Lína 1:** Stillið reitinn **Vörunúmer** á _M9200_, reitinn **Magn** á _25_ og reitinn **Eining** á _ea_.
+    - **Lína 2:** Stillið reitinn **Vörunúmer** á _M9202_, reitinn **Magn** á _10_ og reitinn **Eining** á _ea_.
 
 1. Endurtakið skref 6 til 8 til að taka frá birgðir fyrir hverja pöntunarlínu (eina í einu) og endurtakið svo skref 9 til að losa pöntunina í vöruhúsið.
 
@@ -108,7 +108,7 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 1. Opnaðu **Vöruhúsastjórnun \> Vinna \> Upplýsingar um vinnulínu**.
 1. Finnið og veljið eina af vinnulínunum sem stofnaðar voru fyrir þessa sýniútgáfu.
 1. Veljið **Breyta staðsetningu** til að opna svargluggann **Velja nýja staðsetningu**.
-1. Í svarglugganum **Velja nýja staðsetningu** , í reitnum **Staðsetning** , skal velja nýja staðsetningu fyrir vinnulínuna.
+1. Í svarglugganum **Velja nýja staðsetningu**, í reitnum **Staðsetning**, skal velja nýja staðsetningu fyrir vinnulínuna.
 1. Velja skal **Í lagi** til að gera breytinguna og loka svarglugganum.
 
 > [!IMPORTANT]
@@ -121,7 +121,7 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 1. Veljið **Hætta við vinnulínu** til að opna svargluggann **Magn sem á að hætta við**.
 1. Í svarglugganum **Magn sem á að hætta við** skal breyta gildinu í reitnum **Magn** til að tiltaka magnið sem á að *draga frá* magninu sem tiltekið í línunni eins og er. Sjálfgefið er að reiturinn **Magn** sýni fullt magn.
 
-    - Ef hætt er við fullt magn verður gildinu **Staða verks** breytt í _Hætt við_ , en reiturinn **Vinnumagn** sýnir áfram upprunalegt gildi.
+    - Ef hætt er við fullt magn verður gildinu **Staða verks** breytt í _Hætt við_, en reiturinn **Vinnumagn** sýnir áfram upprunalegt gildi.
     - Ef aðeins er hætt við hluta af magninu verður reiturinn **Vinnumagn** uppfærður til að sýna nýja magnið, en gildið **Staða verks** breytist ekki.
 
 1. Velja skal **Í lagi** til að gera breytinguna og loka svarglugganum.

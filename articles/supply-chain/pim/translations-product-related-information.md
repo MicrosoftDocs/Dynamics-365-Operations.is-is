@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980991"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430180"
 ---
 # <a name="product-related-translations-faq"></a>Algengar spurningar um afurðartengdar þýðingar
 
@@ -50,7 +50,7 @@ Til að stofna þýðingar afurðar, skal fylgja þessum skrefum:
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
 2.  Velja afurð, og á Aðgerðarúðu í flokknum **Tungumál** er smellt á **Þýðingar**.
 3.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
-4.  Í hópnum **Þýddur texti**skal slá inn þýðingar í svæðunum **Lýsing** og **Afurðaheiti**.
+4.  Í hópnum **Þýddur texti** skal slá inn þýðingar í svæðunum **Lýsing** og **Afurðaheiti**.
 
 Til að stofna þýðingar fyrir afurðareigindir, skal fylgja þessum skrefum:
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Algent** &gt; **Losaðar afurðir**.
@@ -65,7 +65,7 @@ Fylgið eftirfarandi skrefum til að stofna víddargildi þýðingar afurðar:
 3.  Veljið einn af tenglunum fyrir afurðavíddir: **Stillingar**, **Stærðir**, **Litir**, eða **Stíll**.
 4.  Veljið víddargildi og smellið síðan á **Þýða**.
 5.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
-6.  Í hópnum **Þýddur texti** skal slá inn þýðingar á svæðunum **Heiti**og **Lýsing**.
+6.  Í hópnum **Þýddur texti** skal slá inn þýðingar á svæðunum **Heiti** og **Lýsing**.
 
 ## <a name="can-the-names-of-product-variants-be-translated"></a>Er hægt að þýða heiti afurðarafbrigði
 Afurðarafbrigði eru byggðar á víddum fyrir losaða afurð. Heiti afurðarafbrigða byggjast á samsetningu víddargilda. Þegar víddargildin sem tengjast afurðarafbrigði eru þýða heiti afurðarafbrigðis birtist í þýdd útgáfu.  
@@ -113,13 +113,13 @@ Fyrirtæki framleiðir stuttermaboli í mismunandi stílum og allir stílar eru 
 Víddargildið sem er tengdt við vöru með víddarafbrigðahóp verður að viðhalda úr afurðaflokki vöruvíddasamsetningar.   
 Fylgið eftirfarandi skrefum til að stofna gildi víddarflokks:
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Uppsetning** &gt; **Afbrigðaflokkar**.
-2.  Veljið flokkana**Stærð** **,**, **Litur**, eða **Stíll**.
+2.  Veljið flokkana **Stærð** **,**, **Litur**, eða **Stíll**.
 3.  Smelltu á **Nýtt** og sláið síðan heiti fyrir flokkinn í reitnum **Stærð** **hópnum**, **Litaflokkur** eða **Stílflokkur**. Smellið á **Stærðir**, **Litir** eða **Stílar** til að stofna línur fyrir flokkana.
 4.  Í á **Stærð** **flokknum** línunum **Lit** **flokknum** **línur**, eða **Stílflokkur** síðunni er smellt á **Nýtt**, og svo stofnaðar stærðir, litir og stílar fyrir flokka.
 
 Til að stjórna þýðingar fyrir gildi í víddaflokknum gildi skal fylgja þessum skrefum:
 1.  Fylgið skrefunum í fyrra ferli fyrir stofnun á gildi víddarflokks til að opna síðuna **Línur Stærðarhóps**, **Línur litahóps**, eða **Línur stílhóps**.
-2.  Smellið á **Textaþýðing**. Í skjámyndinni **Textaþýðing** í hópnum**Þýddur texti** skal slá inn þýðingar á svæðunum **Heiti** og **Lýsing**.
+2.  Smellið á **Textaþýðing**. Í skjámyndinni **Textaþýðing** í hópnum **Þýddur texti** skal slá inn þýðingar á svæðunum **Heiti** og **Lýsing**.
 
 ## <a name="when-can-translations-of-product-related-information-be-managed"></a>Þegar hægt þýðingar upplýsingar sem tengjast stjórnað?
 Þýðingum á upplýsingum sem tengjast vöru sem hægt er að stýra hvenær sem er. Þegar þýðingar eru uppfærðar fyrir víddargildi sem tengjast vöru, eru upplýsingar um vörur uppfærðar, án tillits til þess hvort varan sé með færslu.

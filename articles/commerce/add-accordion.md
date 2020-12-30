@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413077"
 ---
 # <a name="accordion-module"></a>Fellingareining
 
@@ -76,7 +76,7 @@ Til að bæta fellingareiningu við síðu algengra spurninga og stilla eiginlei
 1. Á eiginleikasvæði textabálkseiningar skal slá inn stuttan texta (til dæmis **Skil þurfa að fara fram í gegnum símaver. Hringja skal í 1-800-FABRIKAM fyrir skil. Vörur eru með 30 daga skilareglu. Hefja verður skil innan þess tímaramma.**).
 1. Í hólfinu **Felling** skal bæta við nokkrum fellingareiningaratriðum í viðbót. Í hverju fellingareiningaratriði skal bæta við textabálkseiningu með innihaldi.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Síðan mun sýna fellingareiningu með innihaldinu sem var bætt við.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973477"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4430779"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -67,6 +67,8 @@ Til að nota fínstillingu skipulagningar skaltu setja upp innbótina fínstilli
 1. Á flýtiflipanum **Umhverfisviðbætur** ættir þú að sjá að hagræðing skipulags er að setja upp.
 1. Eftir nokkrar mínútur ætti **Setur upp** að breytast í **Uppsett** (þú gætir þurft að endurnýja síðuna). Þegar það er sett upp ertu tilbúinn til að virkja hagræðingu skipulags í Dynamics 365 Supply Chain Management.
 
+Aðaltilgangurinn með því að setja upp viðbót fyrir fínstillingu skipulagningar er að tengja þjónustuna og umhverfið. Þess vegna þarf að setja viðbótina upp sérstaklega í hverju umhverfi þar sem nota á fínstillingu skipulagningar, óháð því hvaða kóði er fluttur á milli umhverfanna.
+
 ### <a name="planning-optimization-integration"></a>Samþætting fínstillingar skipulagningar
 
 Til að stilla hvort nota eigi innbótina fínstilling skipulagningara fyrir aðaláætlanagerð, farðu í **Aðaláætlanargerð** \> **Uppsetning** \> **Færibreytur fínstillingar skipulagningar**.
@@ -95,7 +97,7 @@ Stilling á valkostinum **Nota fínstillingu skipulags** ákvarðar hvaða áæt
 
 ### <a name="integration-with-the-setup"></a>Samþætting við uppsetninguna
 
-Ef kveikt er á forskoðun fínstillingar skipulags er aðaláætlunargerð gerð með því að nota viðbótaráætlun fyrir fínstillingu skipulags. Í þessu tilfelli verða niðurstöður og eiginleikar aðaláætlunargerðar fyrir áhrifum.
+Ef kveikt er á fínstillingu áætlanagerðar er aðaláætlanagerð lokið með því að nota viðbót fyrir fínstillingu skipulagningar. Í þessu tilfelli verða niðurstöður og eiginleikar aðaláætlunargerðar fyrir áhrifum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

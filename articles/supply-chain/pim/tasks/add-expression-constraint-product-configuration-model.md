@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430347"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Bæta skorðu á segð við afbrigðalíkan afurðar
 
@@ -44,7 +44,7 @@ ms.locfileid: "3986480"
 ## <a name="enter-expression"></a>Færa inn segð
 1. Smella á Breyta segð.
     * Ef notendaviðmótinu í verkinu á skráningu á þessu stigi er aflæsa, má nota IntelliSense og lista yfir tákn til að byggja skorðusegð.  
-2. Færið inn í svæðið ConstraintBody 'Implies [FrontGrill == "Metal", CornerProtection] '.
+2. Í reitnum ConstraintBody skal slá inn 'Implies[FrontGrill=="Metal", CornerProtection] '.
     * Rökhugsun á bakvið þessa segð segir: Ef Framgrill er úr málmi, þá verður að velja valkostinn hornvörn.  
 3. Smella á Villuleita.
     * Villuleita aðgerð keyrir gegnum skorðusegð og athugar málskipanarvilla.  

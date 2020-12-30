@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017622"
+ms.locfileid: "4430659"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -122,8 +122,8 @@ Notaðu reitinn **Ofmóttaka farms** fyrir viðeigandi valmyndaratriði farsíma
 
 - Móttaka farmvöru
 - Móttaka og frágangur farmvöru
-- Móttekin blönduð númeraplata (þegar reiturinn **Auðkennisaðferð línu upprunaskjals** er stilltur á _Móttaka farmvöru_ ).
-- Móttekin blönduð númeraplata og frágangur (þegar reiturinn **Auðkennisaðferð línu upprunaskjals** er stilltur á _Móttaka farmvöru_ ).
+- Móttekin blönduð númeraplata (þegar reiturinn **Auðkennisaðferð línu upprunaskjals** er stilltur á _Móttaka farmvöru_).
+- Móttekin blönduð númeraplata og frágangur (þegar reiturinn **Auðkennisaðferð línu upprunaskjals** er stilltur á _Móttaka farmvöru_).
 
 Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir reitinn **Ofmóttaka farms**.
 
@@ -155,11 +155,11 @@ Eftir að afurðamagn á innleið er skráð í kerfið verða þau tiltæk fyri
 Til að opna síðu þar sem þeir geta bókað innhreyfingarskjal afurða geta meðlimir aðgerðateymisins fylgst _einu_ af þessum skrefum:
 
 - Opnaðu viðeigandi farmskrá og veldu síðan aðgerðina **Innhreyfingarskjal afurða**.
-- Farðu í **Vöruhúsastjórnun \> Reglubundin verk \> Uppfærðu innhreyfingarskjöl afurða** og síðan, í reitnum **Kenni farms** , tilgreinirðu farm sem á að bóka.
+- Farðu í **Vöruhúsastjórnun \> Reglubundin verk \> Uppfærðu innhreyfingarskjöl afurða** og síðan, í reitnum **Kenni farms**, tilgreinirðu farm sem á að bóka.
 - Opnaðu viðeigandi innkaupapöntun og veldu síðan aðgerðina **Innhreyfingarskjal afurða**.
 - Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Móttaka afurða \> Bókunarvinnsla Innhreyfingarskjals afurða**.
 
-Aðgerðin **Innhreyfingarskjal afurða** sem er í boði á síðunni **Farmur** (og á samsvarandi síðu uppfærsluvinnslunna **Uppfæra innhreyfingarskjöl afurða** ) getur aðeins uppfært magn kvittunar vöru á innkaupapöntunarmagni sem hafa stöðuna _Skráð_. Hins vegar getur aðgerðin **Innhreyfingarskjal afurða** sem er í boði á síðunni **Innkaupapöntun** innihaldið magn í báðum vinnslustöðum ( _Pantað_ og _Skráð_ ). Hún getur einnig stjórnað umfangi bókunar innhreyfingarskjala afurða með fleiri færibreytum, eins og _Magn sem móttaka á nú_ og _Skráð magn og þjónusta_.
+Aðgerðin **Innhreyfingarskjal afurða** sem er í boði á síðunni **Farmur** (og á samsvarandi síðu uppfærsluvinnslunna **Uppfæra innhreyfingarskjöl afurða**) getur aðeins uppfært magn kvittunar vöru á innkaupapöntunarmagni sem hafa stöðuna _Skráð_. Hins vegar getur aðgerðin **Innhreyfingarskjal afurða** sem er í boði á síðunni **Innkaupapöntun** innihaldið magn í báðum vinnslustöðum (_Pantað_ og _Skráð_). Hún getur einnig stjórnað umfangi bókunar innhreyfingarskjala afurða með fleiri færibreytum, eins og _Magn sem móttaka á nú_ og _Skráð magn og þjónusta_.
 
 Aðeins pantanir sem hafa stöðuna _Staðfest_ er hægt að bóka innhreyfingarskjal afurða. Fyrir innkaupapantanir sem ekki eru staðfestar mun aðgerðin **Innhreyfingarskjal afurða** birtast sem ekki tiltæk.
 
@@ -172,7 +172,7 @@ Til að bóka innhreyfingarskjal afurða af síðunni **Farmur** verða eftirfar
 - Innkaupapöntunin sem er tengd farminum verður að hafa stöðu _Staðfest_.
 
 > [!NOTE]
-> Ef farmstaðan hefur ekki verið stillt á _Sent_ , mun kerfið staðfesta álagið sjálfkrafa áður en það keyrir uppfærslu á innhreyfingarskjali afurðar. (Farmstaðan er stillt á _Sent_ þegar notandi skráir sendingu farmsins á innleið.)
+> Ef farmstaðan hefur ekki verið stillt á _Sent_, mun kerfið staðfesta álagið sjálfkrafa áður en það keyrir uppfærslu á innhreyfingarskjali afurðar. (Farmstaðan er stillt á _Sent_ þegar notandi skráir sendingu farmsins á innleið.)
 
 Til að bóka innhreyfingarskjal afurða á komuskráningum sem tengjast völdum farmi velur starfsmaðurinn aðgerðina **Innhreyfingarskjal afurða** á síðunni **Farmur**. Síðan sem opnuð er hefur eftirfarandi lykilupplýsingar:
 
@@ -185,7 +185,7 @@ Til að bóka innhreyfingarskjal afurða á komuskráningum sem tengjast völdum
 >
 > | Útgáfa | Útreikningur |
 > |---|---|
-> | Útgáfur fyrir útgáfu 10.0.10 og nýrri útgáfur þar sem ekki er kveikt á eiginleikanum _Leyfa mörg innhreyfingarskjöl á farm_ | Línumagnið er samtals allt skráð magn _fyrir þá innkaupapöntunarlínu_ , óháð því hvort skráning var gerð á mörgum farmi, óháð álagi, úr farsíma eða frá viðskiptavininum. |
+> | Útgáfur fyrir útgáfu 10.0.10 og nýrri útgáfur þar sem ekki er kveikt á eiginleikanum _Leyfa mörg innhreyfingarskjöl á farm_ | Línumagnið er samtals allt skráð magn _fyrir þá innkaupapöntunarlínu_, óháð því hvort skráning var gerð á mörgum farmi, óháð álagi, úr farsíma eða frá viðskiptavininum. |
 > | Útgáfa 10.0.10 og nýrri þar sem kveikt er á eiginleikanum _Leyfa mörg innhreyfingarskjöl á farm_ | Línumagnið er samtals allt skráð magn _fyrir farmskrá_ sem aðgerðin **Bókun innhreyfingarskjals afurða** var hafin úr. |
 
 Þegar notandinn velur **Í lagi** til að staðfesta bókun innhreyfingarskjals afurða gerir kerfið eftirfarandi lykiluppfærslur um viðeigandi eininga.
@@ -207,8 +207,8 @@ Eftirfarandi tafla dregur saman áhrif af stillingunni **Leyfa mörg innhreyfing
 |---|---|---|---|
 | Þegar þessi reitur er ekki til (útgáfur fyrir 10.0.10) | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni.</p><p>Ef farmmagnið er uppfært í 0 (núll), sem þýðir að engin skráning hefur verið gerð, er farmlínunni eytt.</p><p>Ef engar farmlínur eru í farminum er farminum eytt.</p> | _Móttekið_ | Ef margir farmar eru til staðar fyrir skráð magn pöntunarlínunnar er aðeins staða farmsins sem innhreyfinarskjali var bókað úr uppfærð í _Móttekið_. |
 | Ekkert | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni sem er tengt við farmkennið.</p><p>Ef ekkert farmkenni er skráð fyrir birgðafærslu passar hegðunin við hegðun í útgáfum á undan 10.0.10.</p> | _Móttekið_ | |
-| Já | Engar uppfærslur | _Móttekið_ , ef heildarmagn farmmagns er jafnt eða meira en farmmagnið | |
-| Já | Engar uppfærslur | _Sent_ eða _Í vinnslu_ , ef heildarmagn farmmagns er minna en farmmagnið | |
+| Já | Engar uppfærslur | _Móttekið_, ef heildarmagn farmmagns er jafnt eða meira en farmmagnið | |
+| Já | Engar uppfærslur | _Sent_ eða _Í vinnslu_, ef heildarmagn farmmagns er minna en farmmagnið | |
 
 Þegar reiturinn **Farmstaða** hefur verið stilltur á _Móttekið_ er ekki hægt að gera fleiri bókanir innhreyfingarskjala afurða fyrir þann farm. Samt sem áður getur starfskrafturinn skráð eftirstöðvar pöntunarinnar á móti mótteknum farmi við eftirfarandi skilyrði. (Fyrir frekari upplýsingar, sjá hlutann [Ofmóttaka farms](#load-over-receiving) fyrr í þessu efni.)
 
@@ -219,7 +219,7 @@ Til að bóka innhreyfingarskjal afurða á viðbótar skráðu farmmagni á mó
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Settu skráð magn af síðunni Innkaupapöntun
 
-Til að bóka innhreyfingarskjal afurða á skráðu magni af síðunni **Innkaupapöntun** lýkur notandanum eftirfarandi verkum áður en viðkomandi velur aðgerðina **Innhreyfingarskjal afurða** :
+Til að bóka innhreyfingarskjal afurða á skráðu magni af síðunni **Innkaupapöntun** lýkur notandanum eftirfarandi verkum áður en viðkomandi velur aðgerðina **Innhreyfingarskjal afurða**:
 
 - Stilltu reitinn **Magn** í kaflanum **Færibreytur** á flipanum **Stillingar** á _Skráð magn_.
 - Í reitinn **Innhreyfingarskjal afurðar** slærðu inn þau númer innkaupapantana sem eru innifalin í bókuninni.
@@ -238,7 +238,7 @@ Eftirfarandi tafla dregur saman áhrif af stillingunni **Leyfa mörg innhreyfing
 
 | Leyfa mörg innhreyfingarskjöl afurða fyrir hvern farm | Magn farms | Hleðslustaða | Nóta |
 |---|---|---|---|
-| Þegar þessi reitur er annaðhvort óvirkur eða ekki tiltækur (í útgáfum fyrir 10.0.10) | Engar uppfærslur | Engar uppfærslur eru gerðar. (Staðan er enn _Opið_ , _Sent_ eða _Í vinnslu_ .) | Þar sem bókun á innhreyfingarskjali afurða var hafin úr innkaupapöntun hafa uppfærslurökin ekki upplýsingar um tengsl milli skráðs magns innan gildissviðs þess og farms sem skráningin var skráð á móti. Þess vegna getur hún ekki valið farm fyrir stöðuuppfærsluna. |
+| Þegar þessi reitur er annaðhvort óvirkur eða ekki tiltækur (í útgáfum fyrir 10.0.10) | Engar uppfærslur | Engar uppfærslur eru gerðar. (Staðan er enn _Opið_, _Sent_ eða _Í vinnslu_ .) | Þar sem bókun á innhreyfingarskjali afurða var hafin úr innkaupapöntun hafa uppfærslurökin ekki upplýsingar um tengsl milli skráðs magns innan gildissviðs þess og farms sem skráningin var skráð á móti. Þess vegna getur hún ekki valið farm fyrir stöðuuppfærsluna. |
 | Gert virkt | Engar uppfærslur | <p>Ein af eftirfarandi aðgerðum á sér stað:</p><ul><li>Stöðunni er breytt í <i>Móttekið</i> ef samtals móttekið og keypt magn af birgðafærslum innkaupapöntunar er meira en eða jafnt magni farmsins sem þeim tengist.</li><li>Staðan helst <i>Opið</i>, <i>Sent</i> eða <i>Í vinnslu</i> ef fyrri skilyrðin eru ekki uppfyllt fyrir allar línurnar í farminum.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Veldu viðeigandi bókunarvalkost fyrir innhreyfingarskjal afurða fyrir flutningaaðgerðir þínar
@@ -268,12 +268,12 @@ Til að vinna í gegnum dæmi um aðstæður sem lýst er í þessum hluta verð
 
 1. Opnaðu vinnusvæðið **Eiginleikastjórnun**. (Nánari upplýsingar um hvernig á að finna og nota þetta vinnusvæði er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
 
-1. Kveiktu á eiginleikanum _Tengja birgðafærslu innkaupapöntunar við farm_ , sem er skráður á eftirfarandi hátt:
+1. Kveiktu á eiginleikanum _Tengja birgðafærslu innkaupapöntunar við farm_, sem er skráður á eftirfarandi hátt:
 
     - **Eining:** _Vöruhúsakerfi_
     - **Heiti eiginleika:** _Tengja birgðafærslu innkaupapöntunar við farm_
 
-1. Kveiktu á eiginleikanum _Margar bókanir innhreyfingarskjala afurða á farm_ , sem er skráður á eftirfarandi hátt:
+1. Kveiktu á eiginleikanum _Margar bókanir innhreyfingarskjala afurða á farm_, sem er skráður á eftirfarandi hátt:
 
     - **Eining:** _Vöruhúsakerfi_
     - **Heiti eiginleika:** _Margar bókanir innhreyfingarskjala afurða á farm_
@@ -320,9 +320,9 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
     - **Vöruhús:** _24_
     - **Magn:** _10_
 
-1. Á aðgerðasvæðinu, í flipanum **Innkaup** , skal velja **Aðgerðir \> Staðfesta**. Pöntunarstaðan er núna _Staðfest_.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Aðgerðir \> Vinnusvæði hleðsluáætlunar**.
-1. Á síðunni **Vinnusvæði hleðsluáætlunar** , í aðgerðarglugganum, á flipanum **Framboð og eftirspurn** , velurðu **Bæta við \> Í nýja hleðslu**.
+1. Á aðgerðasvæðinu, í flipanum **Innkaup**, skal velja **Aðgerðir \> Staðfesta**. Pöntunarstaðan er núna _Staðfest_.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Aðgerðir \> Vinnusvæði hleðsluáætlunar**.
+1. Á síðunni **Vinnusvæði hleðsluáætlunar**, í aðgerðarglugganum, á flipanum **Framboð og eftirspurn**, velurðu **Bæta við \> Í nýja hleðslu**.
 1. Í valmyndinni **Úhlutun farmsniðmáts** stillirðu reitinn **Sniðmátskenni farms** á _20 'gámur_.
 1. Veldu **Í lagi** til að loka svarglugganum og fara til baka á vinnusvæðið.
 1. Í hlutanum **Farmar** velurðu **Farmkenni** til að opna nýstofnaðan farm.
@@ -333,8 +333,8 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
     ![Upplýsingar um hleðslu](media/inbound-load-details.png "Upplýsingar um hleðslu")
 
-1. Í aðgerðaglugganum, á flipanum **Senda og móttaka** , velurðu **Staðfesta \> Sending á innleið**. Taktu eftir að **Farmstaða** hefur breyst í _Sent_.
-1. Skrifaðu hjá þér gildið **Kenni farms** , svo að þú getir notað það í næsta ferli.
+1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Staðfesta \> Sending á innleið**. Taktu eftir að **Farmstaða** hefur breyst í _Sent_.
+1. Skrifaðu hjá þér gildið **Kenni farms**, svo að þú getir notað það í næsta ferli.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Skráð móttöku magns sem barst í farminum
 
@@ -354,7 +354,7 @@ Farmmóttökuverkinu er nú lokið og móttökustarfsmaður getur haldið áfram
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Finndu álagið sem þú hefur nýlega fengið á listanum. (Þú gætir þurft að velja gátreitinn **Sýning lokuð** til að fela farma á innleið sem hafa farmstöðuna _Sent_ .) Veldu síðan tengilinn í dálkinum **Kenni farms** til að opna farminn.
-1. Í farmskránni skaltu taka eftir að gildið **Farmstaða** er áfram _Sent_ , en gildið **Magn stofnaðrar vinnu** í farmlínunni hefur breyst í _9_.
+1. Í farmskránni skaltu taka eftir að gildið **Farmstaða** er áfram _Sent_, en gildið **Magn stofnaðrar vinnu** í farmlínunni hefur breyst í _9_.
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Finndu kaupin sem þú hefur nýlega á listanum og veldu síðan hlekkinn í dálkinum **Innkaupapöntun** til að opna pöntunina.
 \
@@ -370,8 +370,8 @@ Farmmóttökuverkinu er nú lokið og móttökustarfsmaður getur haldið áfram
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Finndu álagið sem þú hefur fengið á listanum. (Þú gætir þurft að velja gátreitinn **Sýning lokuð** til að fela farma á innleið sem hafa farmstöðuna _Sent_ .) Veldu síðan tengilinn í dálkinum **Kenni farms** til að opna farminn.
-1. Í aðgerðaglugganum, á flipanum **Senda og móttaka** , velurðu **Móttaka \> Innhreyfingarskjal**. Ef þú færð kvaðningu um að staðfesta aðgerðina velurðu **Já**.
-1. Í svarglugganum **Bókun innhreyfingarskjals afurða** , á flýtiflipanum **Línur** , skaltu skoða hnitanetið. Þú ættir að sjá innkaupapöntunarlínuna sem magnið hefur verið skráð á gegn völdum farmi.
+1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Móttaka \> Innhreyfingarskjal**. Ef þú færð kvaðningu um að staðfesta aðgerðina velurðu **Já**.
+1. Í svarglugganum **Bókun innhreyfingarskjals afurða**, á flýtiflipanum **Línur**, skaltu skoða hnitanetið. Þú ættir að sjá innkaupapöntunarlínuna sem magnið hefur verið skráð á gegn völdum farmi.
 
     > [!NOTE]
     > Í útgáfum þar sem eiginleikinn _Margar bókanir innhreyfingarskjala afurða á farm_ er ekki tiltækur eða er ekki virkur verður sjálfgefið magn sem er sýnt í hnitanetinu **Farmlínur** heildarmagnið sem hefur verið skráð yfir alla farma sem eru tengdir innkaupapöntunarlínunni.
@@ -421,16 +421,16 @@ Ef innkaupateymið býst ekki við að lánardrottinn afhendi eftirstandandi pö
     - **Vöruhús:** _24_
     - **Magn:** _10_
 
-1. Á flýtiflipanum **Línulýsing** , á flipanum **Afhending** , stillirðu reitinn **Ofafhending** á _20_.
-1. Á aðgerðasvæðinu, í flipanum **Innkaup** , skal velja **Aðgerðir \> Staðfesta**. Pöntunarstaðan er núna _Staðfest_.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Aðgerðir \> Vinnusvæði hleðsluáætlunar**.
-1. Á síðunni **Vinnusvæði hleðsluáætlunar** , í aðgerðarglugganum, á flipanum **Framboð og eftirspurn** , velurðu **Bæta við \> Í nýja hleðslu**.
+1. Á flýtiflipanum **Línulýsing**, á flipanum **Afhending**, stillirðu reitinn **Ofafhending** á _20_.
+1. Á aðgerðasvæðinu, í flipanum **Innkaup**, skal velja **Aðgerðir \> Staðfesta**. Pöntunarstaðan er núna _Staðfest_.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Aðgerðir \> Vinnusvæði hleðsluáætlunar**.
+1. Á síðunni **Vinnusvæði hleðsluáætlunar**, í aðgerðarglugganum, á flipanum **Framboð og eftirspurn**, velurðu **Bæta við \> Í nýja hleðslu**.
 1. Í valmyndinni **Úhlutun farmsniðmáts** stillirðu reitinn **Sniðmátskenni farms** á _20 'gámur_. Á flipanum **Upplýsingar** breytirðu gildinu **Magn** úr _10_ í _5_ til að bæta við hluta magns innkaupapöntunarlínunnar.
 1. Veldu **Í lagi** til að beita stillingum þínum og loka svarglugganum.
 1. Endurtaktu skref 8 til 10 til að stofna annan farm. Í þetta sinn ætti reiturinn **Magn** þegar að vera stilltur á _5_.
-1. Á síðunni **Vinnusvæði hleðsluáætlunar** , í hnitanetinu **Farmar** , velurðu gildið **Kenni farms** fyrir fyrsta farminn sem þú bjóst til. Síðan **Farmupplýsingar** birtist og sýnir valið álag. Fylgið eftirfarandi skrefum:
+1. Á síðunni **Vinnusvæði hleðsluáætlunar**, í hnitanetinu **Farmar**, velurðu gildið **Kenni farms** fyrir fyrsta farminn sem þú bjóst til. Síðan **Farmupplýsingar** birtist og sýnir valið álag. Fylgið eftirfarandi skrefum:
 
-    1. Í aðgerðaglugganum, á flipanum **Senda og móttaka** , velurðu **Staðfesta \> Sending á innleið**.
+    1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Staðfesta \> Sending á innleið**.
     1. Taktu eftir að gildið **Farmstaða** hefur breyst í _Sent_.
     1. Veldu lokunarhnappinn til að fara aftur á síðuna **Vinnusvæði hleðsluáætlunar**.
 
@@ -453,8 +453,8 @@ Ef innkaupateymið býst ekki við að lánardrottinn afhendi eftirstandandi pö
 
 1. Haltu áfram að fara í gegnum verkflæðið, láttu alla aðra reiti vera auða eða stilltu á sjálfgefin gildi, þar til tækið þitt upplýsir þig um að verkinu sé lokið.
 1. Í vefbiðlaranum ferðu í **Vöruhúsakerfi \> Farmar \> Allir farmar**.
-1. Í listanum finnurðu farminn sem þú hefur nýlega fengið og velur gildið **Kenni farms** til að opna farminn. Taktu eftir að gildið **Farmstaða** er áfram _Sent_ , en gildið **Magn stofnaðrar vinnu** í farmlínunni hefur breyst í _3_.
-1. Í aðgerðaglugganum, á flipanum **Senda og móttaka** , velurðu **Móttaka \> Innhreyfingarskjal**. Ef þú færð kvaðningu um að staðfesta aðgerðina velurðu **Já**.
+1. Í listanum finnurðu farminn sem þú hefur nýlega fengið og velur gildið **Kenni farms** til að opna farminn. Taktu eftir að gildið **Farmstaða** er áfram _Sent_, en gildið **Magn stofnaðrar vinnu** í farmlínunni hefur breyst í _3_.
+1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Móttaka \> Innhreyfingarskjal**. Ef þú færð kvaðningu um að staðfesta aðgerðina velurðu **Já**.
 1. Í valmyndinni **Bókun innhreyfingaskjals** skoðarðu en breytir ekki gildunum sem eru sýnd og velur síðan **Í lagi**.
 1. Þú ert komin/n aftur á síðuna **Farmupplýsingar** fyrir valin farm. Athugið eftirfarandi punkta:
 
@@ -475,6 +475,6 @@ Fyrir þessa atburðarás mun móttökustarfsmaður skrá magn á innleið sem e
 
     - **Farmur** - Sláðu inn annað farmkenni sem þú bjóst til fyrr.
     - **Vara** - Sláðu inn _A0001_ sem er varan sem er vænst fyrir þennan farm.
-    - **Magn** - Sláðu inn _7_ , sem er eftirstandandi magn sem lánardrottinn hefur leyfi til að afhenda sem hluta af heildarinnkaupapöntunarmagni 12 (þar sem 10 er upphaflegt pöntunarmagn og 2 er leyfilegt magn ofafhendingar upp á 20 prósent). Mundu að 5 stk hafa þegar verið skráð gegn fyrsta farmi.
+    - **Magn** - Sláðu inn _7_, sem er eftirstandandi magn sem lánardrottinn hefur leyfi til að afhenda sem hluta af heildarinnkaupapöntunarmagni 12 (þar sem 10 er upphaflegt pöntunarmagn og 2 er leyfilegt magn ofafhendingar upp á 20 prósent). Mundu að 5 stk hafa þegar verið skráð gegn fyrsta farmi.
 
 Annar farmurinn hefur nú verið uppfærður með magninu 7 og er hægt að fá uppfæra eftir innhreyfingarskjali afurða miðað við þetta magn.

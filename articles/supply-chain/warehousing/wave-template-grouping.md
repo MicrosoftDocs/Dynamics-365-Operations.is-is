@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015827"
+ms.locfileid: "4430743"
 ---
 # <a name="wave-template-grouping"></a>Flokkun bylgjusniðmáts
 
@@ -46,14 +46,14 @@ Til að gera bylgjusniðmátsflokkun tiltæka skal fylgja þessum skrefum til a�
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
 1. Vinstra megin á svæðinu skal velja bylgjusniðmátið sem á að setja upp. Ef verið er að undirbúa vinnu í gegnum atburðarásina síðar í þessu efnisatriði með því að nota sýnigögn skal velja sniðmátið **62 Sjálfgefin sending**.
 1. Veldu **Breyta** til að setja síðuna í breytingastillingu.
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
     - **Gera stofnun bylgju sjálfvirka:** *Já*
     - **Úthluta á opnar bylgjur:** *Já*
     - **Vinna úr bylgju við losun í vörugeymslu:** *Nei*
 
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að opna fyrirspurnargluggann.
-1. Í fyrirspurnarglugganum, í flipanum **Röðun** , skal fara yfir skilyrði röðunar og ganga úr skugga um að til sé regla sem tekur með reitinn sem ætlunin er að nota til að flokka bylgjurnar.
+1. Í fyrirspurnarglugganum, í flipanum **Röðun**, skal fara yfir skilyrði röðunar og ganga úr skugga um að til sé regla sem tekur með reitinn sem ætlunin er að nota til að flokka bylgjurnar.
 
     Ef verið er að undirbúa vinnu í gegnum atburðarásina með því að nota sýnigögn, skal bæta við línu sem er með eftirfarandi gildum:
 
@@ -79,7 +79,7 @@ Til að gera bylgjusniðmátsflokkun tiltæka skal fylgja þessum skrefum til a�
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginleikanum þegar unnið er í framleiðslukerfi. Í slíku tilfelli þarf hinsvegar að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 
@@ -93,7 +93,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Smellið á **Nýtt** til að stofna nýja sölupöntun.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - Í flipanum **Viðskiptavinur** skaltu stilla reitinn **Reikningur viðskiptavinar** á *US-004*.
     - Í flýtiflipanum **Almennt** skal stilla reitinn **Vöruhús** á *62*.
@@ -101,7 +101,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 1. Veljið **Í lagi** til að stofna sölupöntunina og loka svarglugganum **Stofna sölupöntun**.
 1. Nýja sölupöntunin er opnuð í **Línur**. Skráið hjá ykkur sölupöntunarnúmerið.
 1. Skiptið yfir í **Hausa** yfirlitið.
-1. Í flýtiflipanum **Afhending** , í hlutanum **Flutningur** , skal stilla eftirfarandi gildi:
+1. Í flýtiflipanum **Afhending**, í hlutanum **Flutningur**, skal stilla eftirfarandi gildi:
 
     - **Farmflytjandi:** *Flugfarmur*
     - **Flutningsþjónusta:** *flug*
@@ -114,9 +114,9 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
     - **Magn:** *2*
 
 1. Veljið nýju pöntunarlínuna og síðan í valmyndinni **Birgðir** fyrir ofan hnitanetið skal smella á **Frátekning**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
 1. Þú færð upplýsingaboð sem sýna sendinguna og bylgjuna fyrir þessa pöntun. Skráið hjá ykkur bylgjukennið og sendingarkenni.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Skoða bylgjuna sem var búin til úr sölupöntun 1
@@ -130,7 +130,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Smellið á **Nýtt** til að stofna nýja sölupöntun.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - Í flipanum **Viðskiptavinur** skaltu stilla reitinn **Reikningur viðskiptavinar** á *US-005*.
     - Í flýtiflipanum **Almennt** skal stilla reitinn **Vöruhús** á *62*.
@@ -138,7 +138,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 1. Veljið **Í lagi** til að stofna sölupöntunina og loka svarglugganum **Stofna sölupöntun**.
 1. Nýja sölupöntunin er opnuð í **Línur**. Skráið hjá ykkur sölupöntunarnúmerið.
 1. Skiptið yfir í **Hausa** yfirlitið.
-1. Í flýtiflipanum **Afhending** , í hlutanum **Flutningur** , skal stilla eftirfarandi gildi:
+1. Í flýtiflipanum **Afhending**, í hlutanum **Flutningur**, skal stilla eftirfarandi gildi:
 
     - **Farmflytjandi:** *Blómaflytjandi*
     - **Flutningsþjónusta:** *Std*
@@ -151,9 +151,9 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
     - **Magn:** *1*
 
 1. Veljið nýju pöntunarlínuna og síðan í valmyndinni **Birgðir** fyrir ofan hnitanetið skal smella á **Frátekning**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
 1. Þú færð upplýsingaboð sem sýna sendinguna og bylgjuna fyrir þessa pöntun. Skráið hjá ykkur bylgjukennið og sendingarkenni. Takið eftir því að bylgjukennið er ólíkt bylgjukenni fyrstu sölupöntunarinnar.
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Skoða bylgjuna sem var búin til úr sölupöntun 2
@@ -169,7 +169,7 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Smellið á **Nýtt** til að stofna nýja sölupöntun.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - Í flipanum **Viðskiptavinur** skaltu stilla reitinn **Reikningur viðskiptavinar** á *US-006*.
     - Í flýtiflipanum **Almennt** skal stilla reitinn **Vöruhús** á *62*.
@@ -177,7 +177,7 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
 1. Veljið **Í lagi** til að stofna sölupöntunina og loka svarglugganum **Stofna sölupöntun**.
 1. Nýja sölupöntunin er opnuð í **Línur**. Skráið hjá ykkur sölupöntunarnúmerið.
 1. Skiptið yfir í **Hausa** yfirlitið.
-1. Í flýtiflipanum **Afhending** , í hlutanum **Flutningur** , skal stilla eftirfarandi gildi:
+1. Í flýtiflipanum **Afhending**, í hlutanum **Flutningur**, skal stilla eftirfarandi gildi:
 
     - **Farmflytjandi:** *Flugfarmur*
     - **Flutningsþjónusta:** *flug*
@@ -190,9 +190,9 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
     - **Magn:** *1*
 
 1. Veljið nýju pöntunarlínuna og síðan í valmyndinni **Birgðir** fyrir ofan hnitanetið skal smella á **Frátekning**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
 1. Þú færð upplýsingaboð sem sýna sendinguna og bylgjuna fyrir þessa pöntun. Skráið hjá ykkur bylgjukennið og sendingarkenni. Sendingunni hefur verið úthlutað á fyrirliggjandi bylgju úr fyrstu sölupöntuninni.
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Skoða bylgjuna fyrir sölupantanir 1 og 3
@@ -200,4 +200,4 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
 1. Farðu í **Vöruhúsastjórnun \> Bylgjur á útleið \> Sendingarbylgjur \> Allar bylgjur**.
 1. Veljið bylgjukennið sem stofnað var í þriðju sölupöntuninni.
 1. Veljið tengil bylgjukennis til að opna upplýsingasíðu bylgjunnar.
-1. Takið eftir að sendingunni hefur verið bætt við flýtiflipann **Bylgjulínur** , ásamt sendingunni fyrir fyrstu sölupöntunina.
+1. Takið eftir að sendingunni hefur verið bætt við flýtiflipann **Bylgjulínur**, ásamt sendingunni fyrir fyrstu sölupöntunina.

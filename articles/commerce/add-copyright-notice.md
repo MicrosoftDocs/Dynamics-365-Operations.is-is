@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019542"
+ms.locfileid: "4413286"
 ---
 # <a name="add-a-copyright-notice"></a>Bæta við yfirlýsingu um höfundarrétt
 
@@ -44,14 +44,14 @@ Fylgdu þessum skrefum til að bæta við höfundarréttartilkynningu neðst á 
 1. Farðu í **Brot** og veldu síðan **Nýtt**.
 1. Í svarglugganum **Nýtt brot** skal velja eininguna **Síðufótur** og gefa brotinu heiti. Til dæmis, sláðu inn **Footer-Copyright**.
 1. Veljið **Í lagi**.
-1. Í glugganum velurðu úrfellingarhnappinn ( **...** ) við hliðina á **síðufæti** og velur síðan **Bæta við einingu**.
+1. Í glugganum velurðu úrfellingarhnappinn (**...**) við hliðina á **síðufæti** og velur síðan **Bæta við einingu**.
 1. Í valmyndinni velurðu **Síðufótaflokkur** og velur síðan **Í lagi**.
 1. Í glugganum velurðu úrfellingarhnappinn við hliðina á **síðufótaflokki** og velur síðan **Bæta við einingu**.
 1. Í valmyndinni velurðu **Textabálkur** og velur síðan **Í lagi**.
 1. Veldu á leiðsöguskjánum **Textabálkur**.
-1. Í eiginleikarrúðunni til hægri, í reitnum **Málsgrein** , bætirðu höfundarréttarskilaboðunum við. Til dæmis, færðu inn **(C) Fabrikam 2019**.
-1. Veldu **Vista** , veldu **Ljúka við breytingar** og veldu síðan **Birta**.
-1. Opnaðu **Sniðmát** , veldu sniðmátið og veldu síðan **Breyta**.
+1. Í eiginleikarrúðunni til hægri, í reitnum **Málsgrein**, bætirðu höfundarréttarskilaboðunum við. Til dæmis, færðu inn **(C) Fabrikam 2019**.
+1. Veldu **Vista**, veldu **Ljúka við breytingar** og veldu síðan **Birta**.
+1. Opnaðu **Sniðmát**, veldu sniðmátið og veldu síðan **Breyta**.
 1. Undir **Útlínur síðu** stækkarðu **Meginmál** og stækkar síðan **Sjálfgefin síða**.
 1. Veldu úrfellingarhnappinn við hliðina **Síðufótarhólf** og velur síðan **Bæta við broti**.
 1. Veldu brotið sem þú bjóst til áður og veldu síðan **Velja**.

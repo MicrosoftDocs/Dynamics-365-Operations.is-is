@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986504"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430348"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>Bæta útreikningi við afbrigðalíkan afurðar
 
@@ -34,7 +34,7 @@ ms.locfileid: "3986504"
 
 ## <a name="create-calculation-expression"></a>Stofna segð útreiknings
 1. Smella á Breyta segð.
-2. Færið inn í svæðið ConstraintBody ‚If[CabinetFinish == „white", 10, 15]'.
+2. Í ConstraintBody reitnum skaltu slá inn „If[CabinetFinish=="White", 10, 15]“.
 3. Smella á Villuleita.
 4. Smellið á „Loka“.
 5. Smellið á „Í lagi“.

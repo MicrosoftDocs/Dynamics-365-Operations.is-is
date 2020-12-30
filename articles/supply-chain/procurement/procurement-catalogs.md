@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018906"
+ms.locfileid: "4430662"
 ---
 # <a name="procurement-catalogs-overview"></a>Yfirlt innkaupavörulista
 
@@ -66,7 +66,7 @@ Uppfærslur eru birt annað hvort sjálfvirkt eða handvirkt, eftir því hvað 
 
 -   **Gagnvirk** – Vörulistinn uppfærist sjálfkrafa hvenær sem honum er breytt.
 -   **Fastur** – vörulista verður að uppfæra handvirkt.
--   **Bæði** – Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **Fasta** , það verður að uppfæra handvirkt þegar þær eru uppfærðar. Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **gagnvirkt** , er hann sjálfkrafa uppfærður hvenær sem honum er breytt.
+-   **Bæði** – Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **Fasta**, það verður að uppfæra handvirkt þegar þær eru uppfærðar. Ef vörulista inniheldur afurðarflokkar sem hafa sjálfgefinn uppfærslugerð sem **gagnvirkt**, er hann sjálfkrafa uppfærður hvenær sem honum er breytt.
 
 
 <a name="additional-resources"></a>Frekari upplýsingar

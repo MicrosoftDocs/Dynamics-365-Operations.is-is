@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017760"
+ms.locfileid: "4430733"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -180,7 +180,7 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
 
 1. Veldu **Vista** til að gera hnappinn **Breyta fyrirspurn** á **Aðgerðir í staðsetningarleiðbeiningum** tækjastikunni aðgengilegan.
 1. Veldu **Breyta fyrirspurn** til að opna fyrirspurnarritilinn.
-1. Gakktu úr skugga um að eftirfarandi tvær línur séu stilltar á flipanum **Svið** :
+1. Gakktu úr skugga um að eftirfarandi tvær línur séu stilltar á flipanum **Svið**:
 
     - Lína 1:
 
@@ -219,7 +219,7 @@ Fylgdu eftirfarandi skrefum til að stofna innkaupapöntun sem birgðauppruna.
 
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun** :
+1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun**:
 
     - **Lánardrottnalykill:** *104*
     - **Vöruhús:** *51*
@@ -236,7 +236,7 @@ Fylgdu eftirfarandi skrefum til að stofna sölupöntun sem uppruna eftirspurnar
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - **Viðskiptavinalykill:** *US-002*
     - **Vöruhús:** *51*
@@ -251,7 +251,7 @@ Fylgdu eftirfarandi skrefum til að stofna sölupöntun sem uppruna eftirspurnar
 
 Fylgdu eftirfarandi skrefum til að búa til áætlaða dreifingu frá dreifingarstöð úr sölupöntuninni.
 
-1. Á síðunni **Upplýsingar um sölupöntun** fyrir sölupöntunina sem þú varst að búa til, á aðgerðarglugganum, á flipanum **Vöruhús** , í flokknum **Aðgerðir** , velur þú **Losun í vöruhús**.
+1. Á síðunni **Upplýsingar um sölupöntun** fyrir sölupöntunina sem þú varst að búa til, á aðgerðarglugganum, á flipanum **Vöruhús**, í flokknum **Aðgerðir**, velur þú **Losun í vöruhús**.
 
     Aðgerðin við að losa í vöruhús býr til sendingu og farmlínu á sölupöntunarlínunni og gerir tilraun til að úthluta birgðum.
     
@@ -281,7 +281,7 @@ Annað vinnuauðkennið sem er búið til hefur gildi **Gerðar verkpöntunar** 
 1. Veljið **Í lagi**.
 1. Á næstu síðu skaltu stilla svæðið **Atriði** á *A0001*.
 1. Veljið **Í lagi**.
-1. Á næstu síðu staðfestir þú gildi **Sölupöntunarnúmersins** , **Atriðsins** og **Magnsins** með því að velja **Í lagi**.
+1. Á næstu síðu staðfestir þú gildi **Sölupöntunarnúmersins**, **Atriðsins** og **Magnsins** með því að velja **Í lagi**.
 
     Skilaboðin „Vinnu er lokið“ birtast.
 
@@ -294,7 +294,7 @@ Sem stendur hafa bæði vinnuauðkennin sömu marknúmeraplötu. Til að ljúka 
 1. Farðu í fatækið og farðu í **Á innleið \> Frágangur innkaupa** og sláðu inn marknúmeraplötu vinnunnar.
 1. Í svæðið **Auðkenni** skaltu slá inn auðkenni marknúmeraplötunnar úr upplýsingunum um vinnu.
 
-    Tiltektarsíða dreifingar frá dreifingarstöð birtir tiltektarstaðsetninguna ( *RECV* ), marknúmeraplötuna ( *númeraplata* ), atriði ( *A0001* ) og magn ( *3* ).
+    Tiltektarsíða dreifingar frá dreifingarstöð birtir tiltektarstaðsetninguna (*RECV*), marknúmeraplötuna (*númeraplata*), atriði (*A0001*) og magn (*3*).
 
 1. Veljið **Í lagi**.
 1. Í reitinn **Marknúmeraplata** skal færa inn kenni marknúmeraplötuna fyrir auðkenni númeraplötunnar sem skal koma fyrir (dreifa frá dreifingarstöð) til sendingarstaðsetningarinnar. Hægt er að velja hvaða auðkenni númeraplötu sem er.

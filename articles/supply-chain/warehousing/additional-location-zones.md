@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016309"
+ms.locfileid: "4430699"
 ---
 # <a name="additional-location-zones"></a>Viðbótargögn um staðsetningu
 
@@ -35,7 +35,7 @@ Ekki er krafist frekari uppsetningar til að nota svæðareitina.
 
 ## <a name="turn-on-the-additional-location-zone-feature"></a>Kveiktu á eiginleikanum „Viðbótargögn um staðsetningu“
 
-Áður en þú getur notað eiginleikann *Aukaleg staðsetning* , verður að vera kveikt á honum í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað eiginleikann *Aukaleg staðsetning*, verður að vera kveikt á honum í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Aukaleg staðsetning*

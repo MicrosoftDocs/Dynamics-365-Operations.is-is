@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017576"
+ms.locfileid: "4430751"
 ---
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
@@ -58,7 +58,7 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 
 1. Smelltu á **Nýtt** til að stofna nýja forstillingu.
 
-1. Smelltu á **Stofna klasa** og, undir **Klasaröðun** , skal smella á **Nýtt** til að setja upp röðunarforsendur fyrir klasann. Röðunarforsendur að stýra röðinni sem starfsmaðurinn mun framkvæma tiltekt vinnu. Hægt er að bæta við eins mörgum skilyrðum og þarf.
+1. Smelltu á **Stofna klasa** og, undir **Klasaröðun**, skal smella á **Nýtt** til að setja upp röðunarforsendur fyrir klasann. Röðunarforsendur að stýra röðinni sem starfsmaðurinn mun framkvæma tiltekt vinnu. Hægt er að bæta við eins mörgum skilyrðum og þarf.
 
 1. Í reitnum **Númeraröð** skal slá inn númer til að skilgreina röðina sem unnið er úr röðunarforsendum.
 

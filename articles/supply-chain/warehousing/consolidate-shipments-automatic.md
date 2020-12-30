@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016863"
+ms.locfileid: "4430676"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana
 
@@ -99,12 +99,12 @@ Opnaðu **Viðskiptakröfur \> Pantanir \> Allar sölupantanir** og búðu til s
 
 1. Bættu við pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt* )
+    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt*)
     - **Magn:** *1.00*
 
 1. Bæta við annarri pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt* )
+    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt*)
     - **Magn:** *1.00*
     - **Afhendingarmáti:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Opnaðu **Viðskiptakröfur \> Pantanir \> Allar sölupantanir** og búðu til s
 
 1. Bættu við pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt* )
+    - **Vörunúmer:** *M9200* (vara þar sem sía fyrir **kóða 4** er stillt á *eldfimt*)
     - **Magn:** *1.00*
 
 1. Bæta við annarri pöntunarlínu sem er með eftirfarandi stillingar:
 
-    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt* )
+    - **Vörunúmer:** *M9201* (vara þar sem sía fyrir **kóða 4** er stillt á *sprengifimt*)
     - **Magn:** *1.00*
     - **Afhendingarmáti:** *Airwa-Air*
 
@@ -236,7 +236,7 @@ Fyrir hvert safn af sölupöntunum sem voru stofnuð áður skal ljúka við fer
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
 1. Stillið svæðið **gerð bylgjusniðmáts** á *afhendingu*.
-1. Finnið og veljið bylgjusniðmátið sem tengist vöruhúsinu sem var notað í pöntunarsettunum sem voru stofnuð fyrir þessa atburðarás. Til dæmis, ef notað er vöruhús *24* , skal velja bylgjusniðmátið **sjálfgefin afhending 24**. Ef notað var vöruhús *61* skal velja bylgjusniðmátið **afhending 61.**
+1. Finnið og veljið bylgjusniðmátið sem tengist vöruhúsinu sem var notað í pöntunarsettunum sem voru stofnuð fyrir þessa atburðarás. Til dæmis, ef notað er vöruhús *24*, skal velja bylgjusniðmátið **sjálfgefin afhending 24**. Ef notað var vöruhús *61* skal velja bylgjusniðmátið **afhending 61.**
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Stilla valkostinn fyrir **Vinna úr bylgju við losun í vörugeymslu** á *Nei*.
 
@@ -268,7 +268,7 @@ Farið eftir [Grunnlosunarferli í vöruhús](#release-procedure) til að losa s
 Þegar því er lokið ættirðu að sjá að tvær sendingar voru búnar til:
 
 - Fyrsta sendingin inniheldur þrjár línur og var búin til með því að nota samstæðureglu sendingar *CustomerMode*.
-- Önnur sendingin, sem notar ekki flutningsmátann *Flugfélög* , var stofnuð með því að nota samstæðureglu sendingar *CustomerOrderNo*.
+- Önnur sendingin, sem notar ekki flutningsmátann *Flugfélög*, var stofnuð með því að nota samstæðureglu sendingar *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Losa sölupantanir úr pöntunarsetti 2
 
@@ -292,7 +292,7 @@ Farið eftir [Grunnlosunarferli í vöruhús](#release-procedure) til að losa s
 
 Farið eftir [Grunnlosunarferli í vöruhús](#release-procedure) til að losa sölupantanir úr pantanasetti 4.
 
-Þegar því er lokið ætti að koma fram að ein fyrirliggjandi sending (þar sem svæðið **Innkaupabeiðni viðskiptavinar** er stillt á *1* ) var uppfærð. Einni nýrri línu var bætt við hana.
+Þegar því er lokið ætti að koma fram að ein fyrirliggjandi sending (þar sem svæðið **Innkaupabeiðni viðskiptavinar** er stillt á *1*) var uppfærð. Einni nýrri línu var bætt við hana.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Losa sölupantanir úr pöntunarsetti 5
 
@@ -300,7 +300,7 @@ Farið eftir [Grunnlosunarferli í vöruhús](#release-procedure) til að losa s
 
 Þegar því er lokið ætti að koma í ljós að eftirfarandi aðgerðir áttu sér stað:
 
-- Ein fyrirliggjandi sending (þar sem svæðið **Innkaupabeiðni viðskiptavinar** er stillt á *1* ) var uppfærð. Línu úr sölupöntun 5-3 (þar sem reiturinn **Innkaupabeiðni viðskiptavinar** er stilltur á *1* ) var bætt við hana.
+- Ein fyrirliggjandi sending (þar sem svæðið **Innkaupabeiðni viðskiptavinar** er stillt á *1*) var uppfærð. Línu úr sölupöntun 5-3 (þar sem reiturinn **Innkaupabeiðni viðskiptavinar** er stilltur á *1*) var bætt við hana.
 - Ein ný sending var stofnuð, þar sem línur úr sölupöntunum 5-1 og 5-2 eru flokkaðar í eina sendingu.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Losa sölupantanir úr pöntunarsetti 6

@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014913"
+ms.locfileid: "4430647"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Setja upp Azure-tilföng fyrir IoT-gervigreind
 
@@ -62,7 +62,7 @@ Til að búa til tilföng lyklageymslu skal fylgja þessum skrefum.
 1. Í Azure-gátt skal búa til eða fara í tilfangaflokk.
 2. Veljið **Bæta við**.
 3. Á leitarreit á síðunni **Nýtt** skal slá inn **Lyklageymsla**. Veldu síðan **Búa til**.
-4. Á síðunni **Búa til lyklageymslu** , í reitnum **Heiti lyklageymslu** skaltu slá inn heiti.
+4. Á síðunni **Búa til lyklageymslu**, í reitnum **Heiti lyklageymslu** skaltu slá inn heiti.
 5. Farið yfir sjálfgildi og veljið síðan **Fara yfir + Búa til**.
 6. Velja **Stofna**.
 
@@ -122,7 +122,7 @@ Til að skilgreina lyklageymsluna skal fylgja þessum skrefum.
 1. Í tilföngum skal velja tilföng lyklageymslunnar.
 2. Á vinstri yfirlitssvæði skal velja **Access-reglur**.
 3. Veljið **Bæta við aðgangsreglu**.
-4. Á síðunni **Bæta við aðgangsreglu** , í reitinum **Heimildir leyniorðs** , skal velja **Sækja** og **Listi**.
+4. Á síðunni **Bæta við aðgangsreglu**, í reitinum **Heimildir leyniorðs**, skal velja **Sækja** og **Listi**.
 5. Smelltu á **Velja aðalreikning**.
 6. Í svarglugganum **Aðalreikningur** skal leita að og velja **Microsoft Dynamics ERP Microservices**. Veljið síðan **Velja**.
 7. Veljið **Bæta við**.

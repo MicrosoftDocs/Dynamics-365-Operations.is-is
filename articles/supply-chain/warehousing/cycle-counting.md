@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015988"
+ms.locfileid: "4430672"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -124,7 +124,7 @@ Eftirfarandi ferli er dæmi um hvernig hægt er að framkvæma reglulega stundar
 
 1.  Á farsíma, velja valmyndaratriði til að keyra vinnslu reglulegrar stundatalningar.
 2.  Skráið staðsetninguna þar sem á að framkvæma reglulega stundartalningu.
-3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:** Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar** , eða **Lokað** á síðunni **Allt** , eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
+3.  Skrá og staðfesta vörunúmer og talið magn vörunnar. **Athugið:** Vinna reglulegrar talningar er uppfærð í annað hvort **Bíður yfirferðar**, eða **Lokað** á síðunni **Allt**, eftir þeim færibreytum sem eru settar upp í skjámyndinni **Starfsmaður**.
 4.  Valfrjálst: Endurtaka þrep 3 fyrir þær vörur sem eru eftir á staðsetningunni og staðfesta að það eru engar frekari vörur tiltækar fyrir talningu.
 
 ## <a name="resolve-cycle-counting-differences"></a>Leysa úr mismun á reglulegri talningu.

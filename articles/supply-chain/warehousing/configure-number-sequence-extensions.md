@@ -4,7 +4,7 @@ description: Í þessu efnisatriði er að finna yfirlit yfir virknina sem býð
 author: GarmMSFT
 manager: tfehr
 ms.date: 06/10/2020
-ms.topic: configure-number-sequence-extensions
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016126"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4430775"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Skilgreina númeraraðir flæði vöruhúss
 
@@ -52,19 +52,19 @@ Hlutar staðlaðrar númeraraðar eru ekki hentugir fyrir GS1-innleiðingu vegna
 Til að setja upp viðbætur númeraraðar í kerfinu skal fylgja þessum skrefum.
 
 1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-1. Í flipanum **Almennt** , í reitinn **GS1-fyrirtækjaforskeyti** , og færa inn GS1-fyrirtækjaforskeyti. Þetta gildi mun hafa áhrif á allar númeraraðir þar sem GS1-forskeytið er tekið með sem hluti.
-1. Ef ætlunin er að búa til númer farmbréfa fyrir bylgjumerki, í flipanum **Skýrslur** , skal velja gátreitinn **Búa til númer farmbréfs þegar bylgjumerki eru prentuð**.
+1. Í flipanum **Almennt**, í reitinn **GS1-fyrirtækjaforskeyti**, og færa inn GS1-fyrirtækjaforskeyti. Þetta gildi mun hafa áhrif á allar númeraraðir þar sem GS1-forskeytið er tekið með sem hluti.
+1. Ef ætlunin er að búa til númer farmbréfa fyrir bylgjumerki, í flipanum **Skýrslur**, skal velja gátreitinn **Búa til númer farmbréfs þegar bylgjumerki eru prentuð**.
 
     > [!NOTE]
     > Þessi gátreitur er aðeins tiltækur ef kveikt er á virkninni fyrir [prentun bylgjumerkis](configure-wave-label-printing.md).
 
 1. Fara í **Vöruhúsakerfi** \> **Uppsetning** \> **Viðbætur númeraraðar**.
-1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** : GS1-fylgin númeraröð farmbréfs og þrjár gerðir af SSCC-númeraröðum eru búnar til. Allar þessar númeraraðir taka lengd GS1-forskeytis fyrirtækisins til greina.
+1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu**: GS1-fylgin númeraröð farmbréfs og þrjár gerðir af SSCC-númeraröðum eru búnar til. Allar þessar númeraraðir taka lengd GS1-forskeytis fyrirtækisins til greina.
 
     Nánari upplýsingar um hvernig á að sérsníða númeraraðir og/eða bæta nýjum við er að finna í næsta hluta. Einnig er hægt að fjarlægja allar þessar raðir ef ekki er þörf á þeim.
 
 1. Farið aftur í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-1. Í flipanum **Númeraraðir** skal velja viðeigandi viðbót númeraraðar sem nota á til að búa til númer fyrir auðkenni númeraplatna, auðkenni bylgjumerkja, gámakenni (í þessu tilviki skal velja viðeigandi röð **SSCC-18 númers** ) og/eða auðkenni farmbréfa (í þessu tilviki skal velja röð **Farmbréfs** ). Sjálfgefið er að viðbætur númeraraðar séu aðeins studdar fyrir þessar fjórar gerðir af auðkennum.
+1. Í flipanum **Númeraraðir** skal velja viðeigandi viðbót númeraraðar sem nota á til að búa til númer fyrir auðkenni númeraplatna, auðkenni bylgjumerkja, gámakenni (í þessu tilviki skal velja viðeigandi röð **SSCC-18 númers**) og/eða auðkenni farmbréfa (í þessu tilviki skal velja röð **Farmbréfs**). Sjálfgefið er að viðbætur númeraraðar séu aðeins studdar fyrir þessar fjórar gerðir af auðkennum.
 
 Næst þegar nýtt númer er myndað fyrir eina af þessum númeraröðum verða nýju rökin notuð.
 
@@ -85,10 +85,10 @@ Til að stofna og breyta númeraröðum skaltu fylgja þessum skrefum.
     | Gerð hluta | lýsing |
     |---|---|
     | Fasti | Þessi hlutagerð bætir við sama fasta texta fyrir hvert myndað númer í röðinni. Sláðu inn nauðsynlegan texta í reitinn **Gildi**. Reiturinn **Lengd** er sjálfkrafa uppfærður í lengd textans sem sleginn var inn í reitinn **Gildi**. |
-    | Númeraröð | Í reitinn **Gildi** skal slá inn númeratákni ( *\#* ) fyrir hvern staf sem á að sýna í mynduðu röðinni. Númeraröðin sjálf gæti myndað lengri tölur, en aðeins stafirnir til hægri eru sýndir. Reiturinn **Lengd** er sjálfkrafa uppfærður í fjölda númeratákna sem sleginn var inn í reitinn **Gildi**.<p>Til að fylgja kröfum GS1 fyrir SSCC-18 númer skal ganga úr skugga um að lengd þessa hluta sé 16 mínus lengdin á GS1-forskeytinu þínu.</p> |
+    | Númeraröð | Í reitinn **Gildi** skal slá inn númeratákni (*\#*) fyrir hvern staf sem á að sýna í mynduðu röðinni. Númeraröðin sjálf gæti myndað lengri tölur, en aðeins stafirnir til hægri eru sýndir. Reiturinn **Lengd** er sjálfkrafa uppfærður í fjölda númeratákna sem sleginn var inn í reitinn **Gildi**.<p>Til að fylgja kröfum GS1 fyrir SSCC-18 númer skal ganga úr skugga um að lengd þessa hluta sé 16 mínus lengdin á GS1-forskeytinu þínu.</p> |
     | GS1-forskeyti | Þessi hlutagerð bætir gildinu sem sett er í reitinn **GS1-fyrirtækjaforskeyti** á síðuna **Færibreytur vöruhúsakerfis**. Reiturinn **Gildi** sýnir gildið sem er stillt á síðunni **Færibreytur vöruhúsakerfis** og reiturinn **Lengd** sýnir þann fjölda stafa sem er í gildinu. Bæði reiturinn **Gildi** og **Lengd** eru skrifvarðir. |
     | Kennimerki forrits | Í reitinn **Gildi** skal slá inn kennimerki forrits eins og er tilgreint af viðeigandi GS1-reglu fyrir þessa gerð af númeraröð. Til dæmis skal slá inn *00* fyrir SSCC eða *420* fyrir aðalfarmbréf. Reiturinn **Lengd** er sjálfkrafa uppfærður í lengd kennimerkisins sem slegið var inn í reitinn **Gildi**. |
-    | Pökkunargerð | Fyrir vörur sem auðveldlega er hægt að bera kennsl á, bætir þessi hlutagerð við reitargildi úr viðeigandi röðunarflokki einingar (af síðunni **Röðunarflokkar einingar** ). (Þessi hegðun samsvarar fyrirliggjandi rökum fyrir kenni númeraplötu.) Fyrir númeraplötur sem fela í sér margar birgðahaldseiningar (BHE), bætir þessi hlutagerð sjálfgefið við *0* (núll). Fyrir þessa hlutagerð er reiturinn **Gildi** alltaf stilltur á *P* og reiturinn **Lengd** er alltaf stilltur á *1*.|
-    | Vartala | Þessi hlutagerð bætir við vartölu, sem er með leifastofn 10 við útreikning. (Þessi hegðun samsvarar fyrirliggjandi rökum fyrir kenni númeraplötu.) Fyrir þessa hlutagerð er reiturinn **Gildi** alltaf stilltur á innskotsmerki ( *^* ) og reiturinn **Lengd** er alltaf stilltur á *1*. |
+    | Pökkunargerð | Fyrir vörur sem auðveldlega er hægt að bera kennsl á, bætir þessi hlutagerð við reitargildi úr viðeigandi röðunarflokki einingar (af síðunni **Röðunarflokkar einingar**). (Þessi hegðun samsvarar fyrirliggjandi rökum fyrir kenni númeraplötu.) Fyrir númeraplötur sem fela í sér margar birgðahaldseiningar (BHE), bætir þessi hlutagerð sjálfgefið við *0* (núll). Fyrir þessa hlutagerð er reiturinn **Gildi** alltaf stilltur á *P* og reiturinn **Lengd** er alltaf stilltur á *1*.|
+    | Vartala | Þessi hlutagerð bætir við vartölu, sem er með leifastofn 10 við útreikning. (Þessi hegðun samsvarar fyrirliggjandi rökum fyrir kenni númeraplötu.) Fyrir þessa hlutagerð er reiturinn **Gildi** alltaf stilltur á innskotsmerki (*^*) og reiturinn **Lengd** er alltaf stilltur á *1*. |
 
 1. Til að skoða dæmi um endanlegt númerasnið skal skoða reitinn **Snið** neðst í flýtiflipanum **Hlutar**.

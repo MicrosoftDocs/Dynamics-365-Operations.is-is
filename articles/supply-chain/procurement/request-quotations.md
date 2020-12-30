@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018400"
+ms.locfileid: "4430747"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -44,7 +44,7 @@ Eftirfarandi skýringarmynd veitir yfirlit yfir BUT ferlið.
 
 Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða úr handvirkri færslu. BUT tilfellið er grunnskjalið sem er notað til að gefa út BUT á hvern lánardrottin.
 
-Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** ( **Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
+Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** (**Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
 Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
 
@@ -135,7 +135,7 @@ Ef BUT-verkið er af gerðinni **Innkaupapöntun** mun eftirfarandi hegðun eiga
 - Þegar BUT-verklínur eru stofnaðar eru birgðafærslur myndaðar með innhreyfingarstöðuna **Innhreyfing tilboðs**.
 - Þegar kauptilboð er samþykkt, er innkaupapöntun mynduð.
 
-Ef BUT er af gerðinni **Innkaupasamningur** , á eftirfarandi hegðun sér stað sem víkur frá öðrum BUT-verkum:
+Ef BUT er af gerðinni **Innkaupasamningur**, á eftirfarandi hegðun sér stað sem víkur frá öðrum BUT-verkum:
 
 - BUT-verk er notað sem samningur um að kaupa ákveðið magn eða virði afurðar yfir tíma. Ef valin er þessi gerð innkaupa þarf að velja dagsetningasvið sem á við innkaupasamninginn og nafn þess einstaklings sem hefur umsjón með innkaupasamningnum.
 - Þegar kauptilboð er samþykkt, er innkaupasamningur myndaður.
@@ -148,7 +148,7 @@ Hægt er að stofna BUT-verk úr innkaupabeiðni aðeins ef staða innkaupabeið
 
 Hægt er að bæta spurningalista við BUT-verk. Þessi spurningalisti birtist síðan í öllum BUT-svörum eftir að BUT er sent. Það er áskilið verk að ljúka spurningalistanum áður en hægt er að senda tilboðið.
 
-Þó að sjálfgildin séu gefin upp er hægt að breyta stillingunum **Reitir tilboðsbeiðni sem hafðir eru með í eyðublöðum sem innihalda svar lánardrottins við tilboðsbeiðni** fyrir hverja tilboðsbeiðni fyrir sig eftir þörfum. Til að gera það skal stofna eða opna tilvik af tilboðsbeiðni. Síðan, á aðgerðasvæðinu, skal opna flipann **Tilboð** og, úr hlutanum **Svör** , skal velja **Stilla sjálfgildi svars við tilboðsbeiðni**. Svarglugginn **Sjálfgefnir svarreitir tilboðsbeiðni** opnast, sem virkar á sama hátt og þegar sjálfgildin eru stillt fyrir eyðublöð fyrir svar við tilboðsbeiðni lánardrottins, fyrir utan að breytingarnar hér hafa aðeins áhrif á núverandi svar tilboðsbeiðni. Frekari upplýsingar um hvernig á að virkja þessa virkni og hvernig hún virkar er að finna í [Velja sjálfgefna reiti sem á að hafa með í eyðublöðum fyrir svar við tilboðsbeiðni](#default-reply-fields).
+Þó að sjálfgildin séu gefin upp er hægt að breyta stillingunum **Reitir tilboðsbeiðni sem hafðir eru með í eyðublöðum sem innihalda svar lánardrottins við tilboðsbeiðni** fyrir hverja tilboðsbeiðni fyrir sig eftir þörfum. Til að gera það skal stofna eða opna tilvik af tilboðsbeiðni. Síðan, á aðgerðasvæðinu, skal opna flipann **Tilboð** og, úr hlutanum **Svör**, skal velja **Stilla sjálfgildi svars við tilboðsbeiðni**. Svarglugginn **Sjálfgefnir svarreitir tilboðsbeiðni** opnast, sem virkar á sama hátt og þegar sjálfgildin eru stillt fyrir eyðublöð fyrir svar við tilboðsbeiðni lánardrottins, fyrir utan að breytingarnar hér hafa aðeins áhrif á núverandi svar tilboðsbeiðni. Frekari upplýsingar um hvernig á að virkja þessa virkni og hvernig hún virkar er að finna í [Velja sjálfgefna reiti sem á að hafa með í eyðublöðum fyrir svar við tilboðsbeiðni](#default-reply-fields).
 
 Það eru þrjár leiðir til að velja þá lánardrottna til að bæta við BUT-verk:
 
@@ -166,7 +166,7 @@ Einstaka sinnum þarf að breyta BUT-verki þegar búið er að senda það. Þ�
 
 Ef notað er meira takmarkandi lagfæringarferli þarf að smella á **Stofna** á BUT-málinu til að hefja lagfæringu áður en hægt er að breyta reitum á BUT-máli sem þegar hefur verið sent. Eftir að lokið hefur verið við lagfæringar, verður að smella á **Fullvinna**. Þú verður svo að leiddur í gegnum ferlið við að bæta upplýsingum við tölvupóstinn sem eru send til að tilkynna lánardrottnum um lagfæringar. Uppfærð BUT skýrsla, sem felur í sér athugasemd um lagfæringar, tengist sjálfkrafa við skilaboðin.
 
-Ef grunnstilling þín felur í sér minna takmarkandi lagfæringarferli þarf ekki að velja **Stofna** áður en hægt er að breyta reitum BUT-máls sem hefur þegar verið send. Hins vegar þarf að bæta athugasemd um lagfæringu handvirkt við BUT og senda málið aftur. Hafðu í huga að þessi nálgun er aðeins hægt að nota ef ekkert svaranna (tilboðin) hefur verið breytt. Ef þú hefur slegið inn svar og það er í **Móttekið** ástandi er **Senda** hnappurinn ekki tiltækur. Í þessu tilfelli verður þú að velja **Búa til** og síðan **Fullvinna** , eins og þú verður að gera í meira takmarkandi ferli. Svarið er síðan endurstillt til að endurspegla breytingar á BUT-málinu.
+Ef grunnstilling þín felur í sér minna takmarkandi lagfæringarferli þarf ekki að velja **Stofna** áður en hægt er að breyta reitum BUT-máls sem hefur þegar verið send. Hins vegar þarf að bæta athugasemd um lagfæringu handvirkt við BUT og senda málið aftur. Hafðu í huga að þessi nálgun er aðeins hægt að nota ef ekkert svaranna (tilboðin) hefur verið breytt. Ef þú hefur slegið inn svar og það er í **Móttekið** ástandi er **Senda** hnappurinn ekki tiltækur. Í þessu tilfelli verður þú að velja **Búa til** og síðan **Fullvinna**, eins og þú verður að gera í meira takmarkandi ferli. Svarið er síðan endurstillt til að endurspegla breytingar á BUT-málinu.
 
 Ef lánardrottnar nota lánardrottna samstarfsviðmótið til að slá inn tilboð verður þú alltaf að nota lagfæringarferlið til að tilkynna lánardrottnum um breytingar á BUT-málinu. Þetta ferli hjálpar til við að koma í veg fyrir aðstæður þar sem lánardrottnar bjóða í úrelt BUT-verk á meðan tilboð þeirra er í vinnslu. Nánari upplýsingar um samstarf lánardrottna er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 

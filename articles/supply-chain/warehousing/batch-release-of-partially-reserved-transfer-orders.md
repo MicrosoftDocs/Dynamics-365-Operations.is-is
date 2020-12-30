@@ -18,11 +18,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016289"
+ms.locfileid: "4430696"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Runulosun flutningspantana sem eru fráteknar að hluta
 
@@ -45,15 +45,15 @@ Fyrir þessa virkni eru flutningspantanir losaðar í vöruhús með því að n
 
 Tilgreina þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir á fyrirtækisstigi Allt eftir uppsetning uppfyllingarreglna verður losun pantana í runu samþykkt eða hafnað. Pantanir verða unnar í samræmi við það.
 
--   Til að stofna uppfyllingarreglur fyrir flutningspantanir og sölupantanir er smellt á **Vöruhúsastjórnun** \> **Uppsetning** \> **Losa í vöruhús** \> **Uppfyllingarregla** , og stofnaðu svo uppfyllingarreglu með því að færa inn nafn og lýsingu.
+-   Til að stofna uppfyllingarreglur fyrir flutningspantanir og sölupantanir er smellt á **Vöruhúsastjórnun** \> **Uppsetning** \> **Losa í vöruhús** \> **Uppfyllingarregla**, og stofnaðu svo uppfyllingarreglu með því að færa inn nafn og lýsingu.
 
--   Til að tilgreina uppfyllingartíðni, gildisgerð og skilaboð sem birtast ef uppfyllingarreglur eru brotnar, smelltu á  **Vöruhúsakerfi** \> **Uppsetning** \> **Losa í vöruhús** \> **uppfyllingarregla** , og stiltu svo reitina **uppfyllingartíðni** , **gerð gildis** , og **skilaboð vegna brota á uppfyllingu**.
+-   Til að tilgreina uppfyllingartíðni, gildisgerð og skilaboð sem birtast ef uppfyllingarreglur eru brotnar, smelltu á  **Vöruhúsakerfi** \> **Uppsetning** \> **Losa í vöruhús** \> **uppfyllingarregla**, og stiltu svo reitina **uppfyllingartíðni**, **gerð gildis**, og **skilaboð vegna brota á uppfyllingu**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Stilla þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir
 
--   Til að stilla uppfyllingarreglur fyrir flutningspantanir er smellt á **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur fyrir birgða- og vöruhúsastjórnun** \> **Flutningspantanir** \> **Vöruhúsastjórnun** , og því næst valin uppfyllingarregla fyrir flutningspöntun.
+-   Til að stilla uppfyllingarreglur fyrir flutningspantanir er smellt á **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur fyrir birgða- og vöruhúsastjórnun** \> **Flutningspantanir** \> **Vöruhúsastjórnun**, og því næst valin uppfyllingarregla fyrir flutningspöntun.
 
--   Til að stilla uppfyllingarreglur fyrir sölupantanir er smellt á **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur fyrir Viðskiptakröfur** \> **Vöruhúsastjórnun** , og því næst valin uppfyllingarregla fyrir sölupöntun.
+-   Til að stilla uppfyllingarreglur fyrir sölupantanir er smellt á **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur fyrir Viðskiptakröfur** \> **Vöruhúsastjórnun**, og því næst valin uppfyllingarregla fyrir sölupöntun.
 
 ## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Leyfa losun í runu og tilgreina magn sem á að losa í runu
 

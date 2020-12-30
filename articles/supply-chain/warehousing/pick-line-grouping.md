@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017737"
+ms.locfileid: "4430667"
 ---
 # <a name="pick-line-grouping"></a>Flokkun tiltektarlínu
 
@@ -52,7 +52,7 @@ Við flokkun tiltektarlínu er hægt að sameina margar vinnulínur sem hafa sam
 4. Á flýtiflipanum **Vinnuklasar** skaltu fylgja þessum skrefum til að stilla gilda vinnuflokka fyrir valmyndaratriðið í fartækinu:
 
     1. Veljið **Nýtt**.
-    2. Í reitnum **Auðkenni vinnuklasa** velurðu **Sala** eða **Tiltekt sölupöntunar** , eftir því vöruhúsi sem þú ætlar að nota.
+    2. Í reitnum **Auðkenni vinnuklasa** velurðu **Sala** eða **Tiltekt sölupöntunar**, eftir því vöruhúsi sem þú ætlar að nota.
     3. Í reitnum **Gerð verkbeiðni** velurðu **Sölupantanir**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Setja upp valmynd fartækja
@@ -84,7 +84,7 @@ Við flokkun tiltektarlínu er hægt að sameina margar vinnulínur sem hafa sam
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 2. Smellið á **Nýtt** til að stofna nýja sölupöntun. 
 3. Í reitnum **Viðskiptavinalykill** velurðu einhvern viðskiptavin. 
-4. Á flýtiflipanum **Almennt** , í reitnum **Vöruhús** , er valið **51**. Veljið síðan **Í lagi**.
+4. Á flýtiflipanum **Almennt**, í reitnum **Vöruhús**, er valið **51**. Veljið síðan **Í lagi**.
 5. Undir **Sölupöntunarlínur** skaltu bæta við eftirfarandi sex línum:
 
     - **Lína 1:** Í reitnum **Vörunúmer** velurðu **M9200**. Í **Magn** reitinn er fært inn **3**.

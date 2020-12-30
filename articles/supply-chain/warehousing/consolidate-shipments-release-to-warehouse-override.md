@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016794"
+ms.locfileid: "4430674"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
 
@@ -64,7 +64,7 @@ Fylgið eftirfarandi skrefum til að hnekkja samstæðureglu sendingar við losu
 1. Velja **Losa í vöruhús**.
 1. Velja skal aðra og þriðju sölupöntun sem voru stofnaðar fyrir þessar aðstæður.
 1. Veljið **Bæta við** til að bæta línunum við losunina í vöruhúsið. Takið eftir að *Sjálfgefið* reglunni er beitt í neðstu rúðu.
-1. Velja skal aðra línuna og síðan, í **Velja nýja samstæðureglu sendingar** , velja *CustomerOrderNo* regluna.
+1. Velja skal aðra línuna og síðan, í **Velja nýja samstæðureglu sendingar**, velja *CustomerOrderNo* regluna.
 1. Veljið **Losa í vöruhús** fyrir báðar línurnar.
 
 ## <a name="verify-the-shipments"></a>Staðfesta skal sendingarnar

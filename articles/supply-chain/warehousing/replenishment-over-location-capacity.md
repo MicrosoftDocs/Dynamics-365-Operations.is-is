@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016609"
+ms.locfileid: "4430723"
 ---
 # <a name="replenishment-over-location-capacity"></a>Áfylling yfir staðsetningargetu
 
@@ -44,7 +44,7 @@ Til að gera þennan eiginleika tiltækan skaltu kveikja á eftirfarandi eiginle
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum [sýniaðstæðurnar](#example-scenario) með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 ### <a name="location-profile"></a>Forstillingar staðsetningar
 
@@ -98,7 +98,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
         Birgðamörk staðsetningar eru tekin til greina þegar hlutfall vinnumagnsins er reiknað. Ef engin birgðamörk staðsetningar eru skilgreind, verður hlutfall vinnumagns reiknað eftir rúmmáli ef takmarkanir rúmmáls eru skilgreindar fyrir staðsetningarforstillinguna.
 
 > [!IMPORTANT]
-> Ef sýnigögnin eru notuð fyrir lögaðilann **USMF** og búið er að kveikja á eiginleikanum *Númeraplötustaða staðsetningar* , þarf að slökkva á stillingunni **Virkja staðsetningu númeraplötu** fyrir staðsetningarforstillinguna **BUK-06** til að ljúka skrefum fartækis í þessu sýnidæmi.
+> Ef sýnigögnin eru notuð fyrir lögaðilann **USMF** og búið er að kveikja á eiginleikanum *Númeraplötustaða staðsetningar*, þarf að slökkva á stillingunni **Virkja staðsetningu númeraplötu** fyrir staðsetningarforstillinguna **BUK-06** til að ljúka skrefum fartækis í þessu sýnidæmi.
 
 ### <a name="wave-step-code"></a>Kóði bylgjuskrefs
 
@@ -138,7 +138,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
     Stillið þennan valkost á *Já* til að stofna áfyllingarvinnu byggða á eftirspurn og losa hana sjálfkrafa. Verður að bæta bylgjuaðferð áfyllingar við bylgjusniðmátið og stofna áfyllingarsniðmát af gerðinni **Bylgjueftirspurn**. Setjið upp áfyllingarsniðmát á síðunni **Áfyllingarsniðmát**. Til að setja upp áfyllingarsniðmát þarf að bæta áfyllingaraðferðinni við bylgjusniðmátið.
 
-1. Í flýtiflipanum **Aðferðir** , í dálknum **Valdar aðferðir** , skal finna eftirfarandi línu:
+1. Í flýtiflipanum **Aðferðir**, í dálknum **Valdar aðferðir**, skal finna eftirfarandi línu:
 
     - **Heiti aðferðar:** *fylla á*
     - **Heiti:** *Áfylling*
@@ -170,7 +170,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 1. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Birgðir \> Frátekning**.
 1. Á síðunni **Frátekning** skal velja **Frátektarlota**.
 1. Lokið síðunni.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Upplýsingaboð birtast sem sýna auðkenni bylgju og sendingar sem voru búin til. Áfyllingarbylgja er einnig stofnuð.
 
@@ -178,7 +178,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
 #### <a name="create-sales-order-2"></a>Stofna sölupöntun 2
 
-1. Á síðunni **Allar sölupantanir** , á aðgerðasvæði, skal velja **Ný** til að opna svarglugga til að stofna nýja sölupöntun.
+1. Á síðunni **Allar sölupantanir**, á aðgerðasvæði, skal velja **Ný** til að opna svarglugga til að stofna nýja sölupöntun.
 1. Í svarglugganum skal stilla eftirfarandi gildi:
 
     - **Viðskiptavinalykill:** *US-001*
@@ -193,7 +193,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 1. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Birgðir \> Frátekning**.
 1. Á síðunni **Frátekning** skal velja **Frátektarlota**.
 1. Lokið síðunni.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Upplýsingaboð birtast sem sýna auðkenni bylgju og sendingar sem voru búin til. Áfyllingarbylgja er einnig stofnuð.
 
@@ -201,7 +201,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
 #### <a name="create-sales-order-3"></a>Stofna sölupöntun 3
 
-1. Á síðunni **Allar sölupantanir** , á aðgerðasvæði, skal velja **Ný** til að opna svarglugga til að stofna nýja sölupöntun.
+1. Á síðunni **Allar sölupantanir**, á aðgerðasvæði, skal velja **Ný** til að opna svarglugga til að stofna nýja sölupöntun.
 1. Í svarglugganum skal stilla eftirfarandi gildi:
 
     - **Viðskiptavinalykill:** *US-004*
@@ -216,7 +216,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 1. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Birgðir \> Frátekning**.
 1. Á síðunni **Frátekning** skal velja **Frátektarlota**.
 1. Lokið síðunni.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Upplýsingaboð birtast sem sýna auðkenni bylgju og sendingar sem voru búin til. Áfyllingarbylgja er einnig stofnuð.
 
@@ -255,7 +255,7 @@ Til að finna númeraplötukennin sem þarf að nota seinna meir, skal fylgja þ
 
 1. Veljið **Bæta við**.
 1. Á aðgerðasvæðinu skal velja **Víddir**.
-1. Í svarglugganum **Birting vídda** , í hlutanum **Geymsluvíddir** , skal velja öll gildin.
+1. Í svarglugganum **Birting vídda**, í hlutanum **Geymsluvíddir**, skal velja öll gildin.
 1. Í hlutanum **Færslur** skal velja **Vörunúmer** og **Magn \<\> 0**.
 1. Þegar þessu er lokið skal velja **Í lagi** til að loka svarglugganum.
 1. Hnitanetið **Á lager** sýnir númeraplötunúmerin fyrir vöru *T0100* í hverri staðsetningu. Skráið niður númeraplötuna sem er á hverri staðsetningu, því að nota þarf upplýsingarnar síðar.
@@ -361,7 +361,7 @@ Lokað er fyrir tiltekt fyrir sölupöntun 2 vegna þess að áfyllingarverkið 
 
 Um leið og samtala lagerbirgða í tiltektarstaðsetningunni og áfyllingarmagns er undir mörkum, verður hægt að vinna úr eftirstandandi áfyllingarvinnu.
 
-Farið aftur á síðuna **Upplýsingar um vinnu** og takið eftir að tiltækileiki áfyllingarvinnu fyrir síðasta hluta áfyllingar (fyrir sölupöntun 2) er *Opin* , því að nóg pláss er í staðsetningunni til að samþykkja áfyllinguna.
+Farið aftur á síðuna **Upplýsingar um vinnu** og takið eftir að tiltækileiki áfyllingarvinnu fyrir síðasta hluta áfyllingar (fyrir sölupöntun 2) er *Opin*, því að nóg pláss er í staðsetningunni til að samþykkja áfyllinguna.
 
 Nú er hægt að vinna þessa áfyllingarvinnu með fartækinu.
 

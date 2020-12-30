@@ -20,11 +20,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018814"
+ms.locfileid: "4430653"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Samþykkt og staðfesting innkaupapanta
 
@@ -35,7 +35,7 @@ ms.locfileid: "4018814"
 Eftir að innkaupapöntunina (PO) hefur verið stofnuð, gæti það þurft að fara í gegnum samþykktarferli. Eftir að lánardrottinn hefur samþykkt pöntun, er Innkaupapöntunin stillt á stöðuna **Staðfest**.
 
 ## <a name="approval-of-purchase-orders"></a>Samþykki innkaupapantana
-Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** um leið og þær eru stofnaðar, á meðan innaupapantanir sem nota breytingastjórnun hafa stöðuna **Drög** þegar þau eru stofnuð. Innkaupapöntun sem hefur verið stofnuð með staðfestingu áætlaðrar pöntunar úr aðaláætlanagerð er alltaf stillt á stöðuna **Samþykkt** , óháð stillingum breytingastjórnunar. Innkaupapöntun Stofnar birgðafærslur þegar hún er komin í **Samþykkt** stöðu. Þess vegna birtist þær birgðir ekki eins og þær séu til staðar til frátektar erða merkingar fyrr en pöntun er samþykkt.
+Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** um leið og þær eru stofnaðar, á meðan innaupapantanir sem nota breytingastjórnun hafa stöðuna **Drög** þegar þau eru stofnuð. Innkaupapöntun sem hefur verið stofnuð með staðfestingu áætlaðrar pöntunar úr aðaláætlanagerð er alltaf stillt á stöðuna **Samþykkt**, óháð stillingum breytingastjórnunar. Innkaupapöntun Stofnar birgðafærslur þegar hún er komin í **Samþykkt** stöðu. Þess vegna birtist þær birgðir ekki eins og þær séu til staðar til frátektar erða merkingar fyrr en pöntun er samþykkt.
 
 Þú virkja breytingastjórnun fyrir innkaupapantanir með uppsetningu **Virkja breytingastjórnun** valkostinn á á **færibreytur innkaupa og aðfanga** síðu. Þegar breytingastjórnun er virkjuð verða innkaupapantanir að fara gegnum samþykktarverkflæði eftir að þær hafa verið lokið. Supply Chain Management er með verkflæðisritil þar sem hægt er að skilgreina verkflæði til að tákna samþykktarferli. Þetta verkflæði getur falið í sér reglur fyrir sjálfvirkt samþykki, reglum sem ákvarða hverjum verður úthlutað til að samþykkja tilteknar innkaupapantanir, og reglur fyrir stigmanga verkflæði sem hefur beðið eftir samþykki í lengri tíma. Hægt er að virkja breytingastjórnunarferlið fyrir alla lánardrottna eða fyrir tiltekna lánardrottna. einnig Er hægt að setja upp ferlið þannig að hægt er að hnekkja því fyrir einstakar innkaupapantanir.
 
@@ -67,7 +67,7 @@ Lánardrottinn gæti beðið um einhver trygging væri lögð fram fyrir greiðs
 ## <a name="changing-purchase-orders"></a>Breyting innkaupapantana
 Í sumum tilvikum, þarf hugsanlega að breyta Innkaupapöntun eftir að hún hefur náð samþykktarstaða **Samþykkt** eða **Staðfest**.
 
-Ef Innkaupapöntunin var stofnuð með því að nota ferli breytingastjórnunar, er hægt að gera breytingar með því að kalla aftur fram pöntun eða, ef pöntunin hefur þegar verið samþykkt, með því að nota **Breytingabeiðni** aðgerð. Í þessu tilfelli er samþykktarstaðan breytt aftur í **Drög** , og síðan er hægt að breyta pöntuninni. Eftir að lokið hefur verið við breytingarnar, gæti þurft að senda innkaupapöntunina til samþykktar aftur. Hægt er að skilgreina gerðir breytinga sem krefjast endursamþykktar með því að nota í **endursamþykktarregla fyrir innkaupapantanir** stefnureglu á **Innkaupareglur** síðuna.
+Ef Innkaupapöntunin var stofnuð með því að nota ferli breytingastjórnunar, er hægt að gera breytingar með því að kalla aftur fram pöntun eða, ef pöntunin hefur þegar verið samþykkt, með því að nota **Breytingabeiðni** aðgerð. Í þessu tilfelli er samþykktarstaðan breytt aftur í **Drög**, og síðan er hægt að breyta pöntuninni. Eftir að lokið hefur verið við breytingarnar, gæti þurft að senda innkaupapöntunina til samþykktar aftur. Hægt er að skilgreina gerðir breytinga sem krefjast endursamþykktar með því að nota í **endursamþykktarregla fyrir innkaupapantanir** stefnureglu á **Innkaupareglur** síðuna.
 
 Ef hluti af pöntuðu magni fyrir línu Innkaupapöntunar hefur verið afhentu, er ekki hægt að breyta pantaða magninu þegar innkaupapöntunin er **Drög**. Hins vegar getur þú breytt magninu **Eftirstöðvar afhendingar** á línunni fyrir innkaupapöntunina sem er í stöðunni **Drög**.
 
@@ -80,7 +80,7 @@ Hægt er að hætta við innkaupapöntun með því að nota aðgerðina **Hætt
 
 Ef magnið hefur verið skráð, móttekið eða reiknað að hluta, er aðeins hægt að hætta við það magn sem ekki hefur verið skráð, fengið eða fengið reikning. Pöntunarmagnið er síðan minnkað í samræmi við það. Þegar magnið á línunni er uppfært er staða línunnar einnig uppfærð. Til dæmis er upphaflega magnið á línunni 5 og magnið 3 er móttekið. Í þessu tilfelli er aðeins hægt að hætta við tvo. Línan er síðan uppfærð í stöðuna **Móttekið**.
 
-Ef afhendingarafgangi er bætt við pöntunarlínuna og það fer yfir magnið á pöntunarlínunni, þá afturkallar aðgerðin **Hætta við** ekki umframmagnið. Í staðinn er línan áfram í stöðunni **Opin pöntun** , vegna þess að hún er með eftirstandandi magn. Til dæmis er upphaflega magnið á línunni 5 og eftirstöðvar afhendingar eru 7. Ef pöntuninni er aflýst, eru fimm felld niður og 2 verður eftir í magni, eins og þú sérð í birgðafærslunum.
+Ef afhendingarafgangi er bætt við pöntunarlínuna og það fer yfir magnið á pöntunarlínunni, þá afturkallar aðgerðin **Hætta við** ekki umframmagnið. Í staðinn er línan áfram í stöðunni **Opin pöntun**, vegna þess að hún er með eftirstandandi magn. Til dæmis er upphaflega magnið á línunni 5 og eftirstöðvar afhendingar eru 7. Ef pöntuninni er aflýst, eru fimm felld niður og 2 verður eftir í magni, eins og þú sérð í birgðafærslunum.
 
 Til að hætta við allt magn á innkaupalínu ættir þú að hætta við magn eftir afhendingu á línunni. Línan verður síðan uppfærð í stöðuna **Hætt við**.
 

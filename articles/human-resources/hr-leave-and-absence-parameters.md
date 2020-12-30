@@ -2,8 +2,8 @@
 title: Grunnstilla færibreytur leyfis og fjarvista
 description: Skilgreindu færibreytur Human Resources fyrir leyfi og fjarvistir í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712377"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419113"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Grunnstilla færibreytur leyfis og fjarvista
 
@@ -47,6 +47,19 @@ ms.locfileid: "3712377"
 5. Á **Sjálfsafgreiðsla starfsmanna** flipann, tilgreinir hvort stjórnendur geti slegið inn leyfi og fjarvistarbeiðnir fyrir hönd starfsmanna sinna.
 
 7. Veljið **Vista**.
+
+>[!IMPORTANT]
+>Skoðun leyfis og fjarvista milli fyrirtækja er gert í forskoðun eins og er. Þú þarft að virkja þetta í **sandkassaumhverfinu** til að birta valkostinn fyrir leyfi og fjarvistir. Frekari upplýsingar um virkjun forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Skoða og breyta samnýttum færibreytum fyrir mannauð
+
+1. Á síðunni **Starfsmannastjórnun** skal velja flipann **Tenglar**.
+
+2. Undir **Uppsetning**, veldu **Samnýttar færibreytur fyrir mannauð**.
+
+3. Á flipanum **Ítarlegur aðgangur** skal velja **Já** til að **Virkja yfirlit á milli fyrirtækja** til að heimila skoðun leyfis í öllu fyrirtækinu.
+
+4. Veljið **Vista**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Skoða og breyta færibreytum leyfis og fjarvista
 

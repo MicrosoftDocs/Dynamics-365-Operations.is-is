@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413074"
 ---
 # <a name="promo-banner-module"></a>Auglýsingaborðaeining
 
@@ -79,7 +79,7 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 1. Undir **Útlínur síðu** bæirðu auglýsingaborðaeiningu við gámaeininguna.
 1. Bættu við einum eða fleiri borðaskilaboðum í stillingunum fyrir borðaeininguna. Hver skilaboð geta verið með texta ásamt tengli. Þú getur breytt öðrum eiginleikum til að sérsníða eininguna frekar.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Efst á síðunni ættirðu að sjá viðvörun sem sýnir textann sem þú bættir við.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 > [!NOTE]
 > Auglýsingaborði er venjulega notaður í hólfi síðuhausa eða hólfi undirhauss.

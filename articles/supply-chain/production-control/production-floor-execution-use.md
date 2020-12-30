@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012482"
+ms.locfileid: "4430643"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -41,7 +41,7 @@ Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota
 
 ## <a name="all-jobs-tab"></a>Flipi allra starfa
 
-Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið* , *Stöðvað* eða *Hafið*.
+Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*.
 
 ![Flipi allra starfa](media/pfei-all-jobs-tab.png "Flipi allra starfa")
 
@@ -81,17 +81,17 @@ Starfsmenn hefja framleiðsluvinnu með því að velja vinnslu í flipanum **Al
 
 Starfsmenn nota svargluggann **Hefja vinnslu** til að staðfesta framleiðslumagnið og hefja síðan vinnsluna. Starfsmenn geta leiðrétt magnið með því að velja reitinn **Magn** og nota síðan talnaborðið sem birtist. Starfsmenn velja síðan **Hefja** til að byrja að vinna í vinnslunni. Svarglugginn **Hefja vinnslu** er lokaður og vinnslunni er bætt við flipann **Virkar vinnslur**.
 
-Starfsmenn geta hafið vinnslu sem er með einhverja stöðu. Þegar starfsmaður setur vinnslu í gang sem er með stöðuna *Ekki hafið* , mun reiturinn **Magn** í svarglugganum **Hefja vinnslu** upphaflega sýna allt magnið. Þegar starfsmaður setur vinnslu í gang sem er með stöðuna *Hafið* eða *Stöðvað* mun reiturinn **Magn** upphaflega sýna eftirstöðvarnar.
+Starfsmenn geta hafið vinnslu sem er með einhverja stöðu. Þegar starfsmaður setur vinnslu í gang sem er með stöðuna *Ekki hafið*, mun reiturinn **Magn** í svarglugganum **Hefja vinnslu** upphaflega sýna allt magnið. Þegar starfsmaður setur vinnslu í gang sem er með stöðuna *Hafið* eða *Stöðvað* mun reiturinn **Magn** upphaflega sýna eftirstöðvarnar.
 
 ## <a name="reporting-good-quantities"></a>Vörumagn gefið upp
 
-Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp vörumagnið sem valin vinnsla framleiddi í flipanum **Virkar vinnslur** og síðan velja **Gefa upp framvindu**. Síðan í svarglugganum **Gefa upp framvindu** færir starfsmaðurinn inn vörumagnið með því að nota talnaborðið. Magnið er autt að sjálfgefnu. Eftir að magn er fært inn getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu* , *Stöðvað* eða *Lokið*.
+Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp vörumagnið sem valin vinnsla framleiddi í flipanum **Virkar vinnslur** og síðan velja **Gefa upp framvindu**. Síðan í svarglugganum **Gefa upp framvindu** færir starfsmaðurinn inn vörumagnið með því að nota talnaborðið. Magnið er autt að sjálfgefnu. Eftir að magn er fært inn getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
 
 ![Svargluggi framvinduskýrslu](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
 
 ## <a name="reporting-scrap"></a>Tilkynna rýrnun
 
-Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp rýrnun með því að velja flipann **Virkar vinnslur** og síðan velja **Gefa upp rýrnun**. Síðan í svarglugganum **Gefa upp rýrnun** færir starfsmaðurinn inn magn rýrnunar með því að nota talnaborðið. Starfsmaðurinn velur einnig ástæðu ( *Engin* , *Vél* , *Notandi* eða *Efni* ).
+Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp rýrnun með því að velja flipann **Virkar vinnslur** og síðan velja **Gefa upp rýrnun**. Síðan í svarglugganum **Gefa upp rýrnun** færir starfsmaðurinn inn magn rýrnunar með því að nota talnaborðið. Starfsmaðurinn velur einnig ástæðu (*Engin*, *Vél*, *Notandi* eða *Efni*).
 
 ![Svargluggi rýrnunarskýrslu](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
 
@@ -119,8 +119,8 @@ Starfsmaðurinn velur þriðju vinnsluna í flipanum **Allar vinnslur** og velur
 
 Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrirtækis og fundir eru flokkaðir sem óbeinn verkþáttur. Önnur hvor af eftirfarandi aðstæðum eiga við:
 
-- **Shannon vinnur í einu eða fleiri virkum verkum.** Shannon velur **Verkþáttur** , gerir grein fyrir verkþættinum (fundur) og staðfestir valið. Skilaboð sem birtast láta hana vita að hún sé með verk sem eru í vinnslu. Í skilaboðunum getur Shannon valið að ljúka eða stöðva verkin sem hún vinnur að áður en hún fer á fundinn.
-- **Shannon er ekki með nein virk verk.** Shannon velur **Verkþáttur** , gerir grein fyrir verkþættinum (fundur) og staðfestir valið. Hún er nú skráð sem á fundinum.
+- **Shannon vinnur í einu eða fleiri virkum verkum.** Shannon velur **Verkþáttur**, gerir grein fyrir verkþættinum (fundur) og staðfestir valið. Skilaboð sem birtast láta hana vita að hún sé með verk sem eru í vinnslu. Í skilaboðunum getur Shannon valið að ljúka eða stöðva verkin sem hún vinnur að áður en hún fer á fundinn.
+- **Shannon er ekki með nein virk verk.** Shannon velur **Verkþáttur**, gerir grein fyrir verkþættinum (fundur) og staðfestir valið. Hún er nú skráð sem á fundinum.
 
 Í báðum aðstæðum, eftir að Shannon staðfestir val sitt, fer hún á annaðhvort innskráningarsíðuna eða síðu sem mun bíða þess að hún staðfesti að hún hafi skilað úr óbeina verkþættinum. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
 

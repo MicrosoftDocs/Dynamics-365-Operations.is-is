@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016886"
+ms.locfileid: "4430682"
 ---
 # <a name="batch-balancing"></a>Röðun virkra efna í uppskrift
 
@@ -115,7 +115,7 @@ Tengsl milli virks efnis og uppbótarefnis er sett upp á síðunni **Uppbótarr
 
 Fylgið eftirfarandi skrefum til að setja upp tengsl milli innihaldsefna.
 
-1.  Veljið **Afurðaupplýsingastjórnun** \> **Reikningar og efni og formúlur** \> **Formúlur** , opnið formúlulínu og veljið síðan **Innihaldsefni** til að opna síðuna **Uppbótarregla**.
+1.  Veljið **Afurðaupplýsingastjórnun** \> **Reikningar og efni og formúlur** \> **Formúlur**, opnið formúlulínu og veljið síðan **Innihaldsefni** til að opna síðuna **Uppbótarregla**.
 
 2.  Veljið línuna sem táknar uppbótarreglu og veljið síðan virka efnið fyrir uppbót.
 

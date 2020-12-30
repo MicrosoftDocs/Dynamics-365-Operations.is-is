@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018446"
+ms.locfileid: "4430765"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
@@ -38,7 +38,7 @@ Gátt Lánardrottins er hönnuð fyrir lánardrottna sem ekki hafa rafræn gagna
 Mögulegt er að skilgreina ferli svo staðfesting frá lánardrottni staðfesti sjálfkrafa pöntun. Þetta þýðir að eftirfylgni er aðeins stundum þörf, þegar pöntun er hafnað eða ef staðfesting lánardrottins er skráð sem svar en staða Innkaupapöntunar er ekki uppfærð í **Staðfest** vegna vandamáls í staðfestingarferli.
 
 ## <a name="po-confirmation-and-rejection"></a>Staðfesting og höfnun Innkaupapöntunar.
-Innkaupapantanir eru undirbúnar í Dynamics AX. Þegar Innkaupapöntun sem hefur stöðuna **Samþykkt** , skal senda hana til lánardrottins með því að mynda staðfestingarbeiðni. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstjórnunarkerfið. Innkaupapöntun birtist í gátt Lánardrottins með valkost fyrir lánardrottna til að staðfesta eða hafna henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun.  
+Innkaupapantanir eru undirbúnar í Dynamics AX. Þegar Innkaupapöntun sem hefur stöðuna **Samþykkt**, skal senda hana til lánardrottins með því að mynda staðfestingarbeiðni. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstjórnunarkerfið. Innkaupapöntun birtist í gátt Lánardrottins með valkost fyrir lánardrottna til að staðfesta eða hafna henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun.  
 
 Í gátt Lánardrottins getur lánardrottinn séð pöntunarlínur. Þessar línur sýna upplýsingar eins og ytri afurðarnúmer, víddir, upplýsingar um verð, magn, dagsetningu afhendingar, og afhendingaraðsetur. Lánardrottinn getur myndað skýrslu sem sýnir upplýsingar innkaupapöntunar og einnig heildarverð. Gjöld sem eiga við lánardrottin birtast ef lánardrottinn smellir á **Gjöld** hnappinn í haus eða línum. Lánardrottna geta flytja inn upplýsingar um Innkaupapöntun í sína eigin kerfið með því að nota í **Útflutning í Excel** virkni.  
 
@@ -70,7 +70,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 
 Til að sjá útgáfur af Innkaupapöntunum sem hafa verið sendar lánardrottni og svör hans, farið í **Færslubækur** &gt; **Staðfestingarbeiðnir** úr innkaupapöntuninni.  
 
-Pantanir sem hafa verið sendar til lánardrottins til svars og hafa stöðuna **Í ytri Yfirferð** birtast annað hvort í listanum **Innkaupapantanir sem eru sendar í Gátt lánardrottins, beðið eftir svari** eða í listanum **Innkaupapantanir sendar í Gátt lánardrottins, svar krefst aðgerða**. Þegar pöntun er breytt sem hefur verið send til lánadrottna, svo að staðan breytist aftur í **Samþykkt** , birtist hún ekki lengur í þessum listum. Til að sjá hvort það hafa áður komið svör frá lánardrottni er smellt á **Færslubækur** &gt; **Staðfestingarbeiðnir**.  
+Pantanir sem hafa verið sendar til lánardrottins til svars og hafa stöðuna **Í ytri Yfirferð** birtast annað hvort í listanum **Innkaupapantanir sem eru sendar í Gátt lánardrottins, beðið eftir svari** eða í listanum **Innkaupapantanir sendar í Gátt lánardrottins, svar krefst aðgerða**. Þegar pöntun er breytt sem hefur verið send til lánadrottna, svo að staðan breytist aftur í **Samþykkt**, birtist hún ekki lengur í þessum listum. Til að sjá hvort það hafa áður komið svör frá lánardrottni er smellt á **Færslubækur** &gt; **Staðfestingarbeiðnir**.  
 
 Lánardrottnar þurfa ekki að staðfesta Innkaupapöntun í Gátt lánardrottins. Þeir geta einnig sent skilaboð í tölvupósti eða tilkynnt samþykki Innkaupapöntunarinnar gegnum aðrar rásir. Síðan er hægt að staðfesta pöntunina handvirkt í Dynamics AX. Í þessu tilfelli berst viðvörun um að verið er að staðfesta pöntun jafnvel þótt að það er ekkert svar frá lánardrottni. Innkaupapöntunin birtist síðan í staðfestingarsögu í Gátt lánardrottins sem opin staðfest pöntun sem hefur ekki svör. Til viðbótar við þetta hefur lánardrottinn ekki lengur valkost til að staðfesta eða hafna innkaupapöntun.  
 

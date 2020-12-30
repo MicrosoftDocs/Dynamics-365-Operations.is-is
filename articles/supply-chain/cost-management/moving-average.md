@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981512"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430174"
 ---
 # <a name="moving-average"></a>Hlaupandi meðaltal
 
@@ -141,7 +141,7 @@ Ef nýja lagerbirgðamagnið er jákvætt eftir færsluna er færslunni skipt í
 
 ## <a name="inventory-value-report"></a>Virðisskýrsla birgða
 
-Í þessu dæmi um hlaupandi meðaltal er birgðavirðisskýrsla prentuð til að styðja gildandi útreikning hlaupandi meðaltals fyrir afurð. Birgðavirðisskýrslan getur prentað færslur í tímaröð, ásamt kostnaði við að styðja kostnaðarútreikning hlaupandi meðaltals afurðar. Skýrslan birtir kostnað hlaupandi meðaltals fyrir afurðina. Í svarglugganum **Birgðavirðisskýrslur** gerir dagsetningabil kleift að velja **Færslutími** eða **Bókunardagsetning** til að flokka skýrsluna eftir. Valkosturinn **Bókunardagsetning** er hvernig skýrslan er venjulega prentuð. Valkosturinn **Færslutími** er raunveruleg dagsetning þegar færslan er skráð og kostnaður hlaupandi meðaltals fyrir afurðina er uppfærður. Hægt er að prenta birgðavirðisskýrsluna með því að nota valkostinn**Röðun færslutíma** ef óskað er að finna kostnaðarútreikning hlaupandi meðaltals yfir tíma. Eftirfarandi tafla birtir færslurnar fyrir afurðina sem skýrslan er prentuð þegar valkosturinn **Röðun færslutíma** er notaður.
+Í þessu dæmi um hlaupandi meðaltal er birgðavirðisskýrsla prentuð til að styðja gildandi útreikning hlaupandi meðaltals fyrir afurð. Birgðavirðisskýrslan getur prentað færslur í tímaröð, ásamt kostnaði við að styðja kostnaðarútreikning hlaupandi meðaltals afurðar. Skýrslan birtir kostnað hlaupandi meðaltals fyrir afurðina. Í svarglugganum **Birgðavirðisskýrslur** gerir dagsetningabil kleift að velja **Færslutími** eða **Bókunardagsetning** til að flokka skýrsluna eftir. Valkosturinn **Bókunardagsetning** er hvernig skýrslan er venjulega prentuð. Valkosturinn **Færslutími** er raunveruleg dagsetning þegar færslan er skráð og kostnaður hlaupandi meðaltals fyrir afurðina er uppfærður. Hægt er að prenta birgðavirðisskýrsluna með því að nota valkostinn **Röðun færslutíma** ef óskað er að finna kostnaðarútreikning hlaupandi meðaltals yfir tíma. Eftirfarandi tafla birtir færslurnar fyrir afurðina sem skýrslan er prentuð þegar valkosturinn **Röðun færslutíma** er notaður.
 
 | Færslutími | Dagsetning         | Færslugerð           | Magn | Upphæð | Meðaleiningarkostnaður |
 |------------------|--------------|----------------------------|----------|--------|-------------------|

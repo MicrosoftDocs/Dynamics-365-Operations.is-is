@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017714"
+ms.locfileid: "4430670"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Hér er útskýring á þessu sniði:
 
-- `FieldName` er heiti gagnareitsins (eins og **Magn** ).
+- `FieldName` er heiti gagnareitsins (eins og **Magn**).
 - `FormatString` skilgreinir hvernig prenta verður gögnin.
 
-Eftirfarandi dæmi sýna hvernig þú getur sérsniðið vinnumagnsreitinn ( **Magn** ):
+Eftirfarandi dæmi sýna hvernig þú getur sérsniðið vinnumagnsreitinn (**Magn**):
 
 - Til að sýna alltaf fjóra tölustafi (með því að nota núll sem frátökutákn) notarðu `$Qty:0000$`. Til dæmis, ef magnið er 10 mun merkimiðinn sýna „0010”.
 - Til að sýna alltaf tvo aukastafi notarðu `$Qty:0.00$`. Til dæmis, ef magnið er 10 mun merkimiðinn sýna „10,00”.

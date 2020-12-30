@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 7ed2c50b28fdbd1baf4caa0a8a7f2f05d6a53fd6
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018584"
+ms.locfileid: "4430754"
 ---
 # <a name="import-vendor-catalogs"></a>Flytja inn vörulista lánardrottins
 
@@ -63,7 +63,7 @@ Sniðmát fyrir innflutningsskrá vörulista er XSD-skrá sem notuð er til að 
 
 1. Veldu **Innkaup og aðföng** \> **Vörulistar** \> **Vörulistar lánardrottins** og tvísmelltu á vörulistann sem þú vilt vinna með.
 
-2. Sæktu núverandi sniðmát vörulistainnflutnings (XSD-skrá). Á síðunni **Uppfæra vörulista** , á **Aðgerðarsvæði** , á flipanum **Vörulistar** í flokknum **Tengdar upplýsingar** skaltu smella á **Búa til sniðmát vörulista** og velja **Innkaupategund**.
+2. Sæktu núverandi sniðmát vörulistainnflutnings (XSD-skrá). Á síðunni **Uppfæra vörulista**, á **Aðgerðarsvæði**, á flipanum **Vörulistar** í flokknum **Tengdar upplýsingar** skaltu smella á **Búa til sniðmát vörulista** og velja **Innkaupategund**.
 
     - Með valkostinum **Innkaupaflokkar** er hægt að búa til sniðmát vörulista sem inniheldur innkaupaflokka þar sem lánardrottni er heimilað að útvega afurðir.
 

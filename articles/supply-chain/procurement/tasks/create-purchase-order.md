@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018156"
+ms.locfileid: "4430727"
 ---
 # <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
 
@@ -60,7 +60,7 @@ ms.locfileid: "4018156"
     - Yfirleitt inniheldur reiturinn **Einingarverð** gildi úr annaðhvort innkaupasamningi eða viðskiptasamningi. Hægt er að breyta einingarverðinu í einstaka pöntunarlínum, til dæmis ef samið er um einkvæmt verð við lánardrottininn.  
     - Reiturinn **Afsláttur** inniheldur afsláttarupphæð á einingu. Þessi afsláttur minnkar því einingarverð samkvæmt afsláttinn. Þennan afslátt er yfirleitt fengið sjálfkrafa frá innkaupasamningum eða viðskiptasamninga en mögulegt er að hnekkja honum í einstökum línum ef einkvæmt afsláttur hefur verið samið við lánardrottininn.  
     - Afsláttarprósenta er hægt að færa inn sem minnkar nettóupphæð línunnar, samkvæmt því. Þessi afsláttarprósenta er oft fengið sjálfkrafa frá innkaupasamningum eða viðskiptasamninga en mögulegt er að hnekkja honum í einstökum línum ef einkvæmt afsláttarprósenta hefur verið samið við lánardrottininn.  
-    - Gildið í reitnum **Nettóupphæð** er reiknað úr öðrum reitum í línunni, þar með talið magni, einingarverði, afslætti og afsláttarprósentu. Hægt er að breyta nettóupphæðinni en þá verða reitirnir **Einingaverð** , **Afsláttur** og **Afsláttarprósenta** auðir og þegar bókað er á línuna verður bókuð upphæð í hlutfalli við nettóupphæðina. Yfirleitt er reiturinn **Nettóupphæð** einungis notaður til að birta nettóupphæð línunnar.  
+    - Gildið í reitnum **Nettóupphæð** er reiknað úr öðrum reitum í línunni, þar með talið magni, einingarverði, afslætti og afsláttarprósentu. Hægt er að breyta nettóupphæðinni en þá verða reitirnir **Einingaverð**, **Afsláttur** og **Afsláttarprósenta** auðir og þegar bókað er á línuna verður bókuð upphæð í hlutfalli við nettóupphæðina. Yfirleitt er reiturinn **Nettóupphæð** einungis notaður til að birta nettóupphæð línunnar.  
 
 8. Útvíkkaðu hlutann **upplýsingar Línu**.
 9. Veldu flipann **Afhending**. Hægt er að úthluta einkvæmri afhendingardagsetningu á hverja pöntunarlínu. Dagsetningin kemur úr svæðinu á haus innkaupapöntunar, en hægt er að breyta þessu.  

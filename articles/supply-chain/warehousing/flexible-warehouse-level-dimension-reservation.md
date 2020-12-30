@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017645"
+ms.locfileid: "4430661"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -72,7 +72,7 @@ Til að koma til móts við æskilegan sveigjanleika í hegðun hóps fyrirvara 
 >
 > Ef pöntunarveldið þitt inniheldur röð raðnúmera (sem verður alltaf að vera undir **Rununúmer** stig), og ef þú hefur kveikt á lotusértækum fyrirvara fyrir lotunúmerið mun kerfið halda áfram að sjá um röðun og tína aðgerðir á raðnúmerum, byggt á reglunum sem eiga við um „Rað-neðan\[staðsetningu\]" fyrirvara stefnu.
 
-Hvenær sem er geturðu leyft lotusértæka pöntun fyrir núverandi „runu hér að neðan\[staðsetningu\]" pöntunarveldi í uppsetningu þinni. Þessi breyting mun ekki hafa áhrif á neina fyrirvara og opna vöruhúsavinnu sem voru búin til áður en breytingin átti sér stað. Hins vegar **Leyfa fyrirvara á pöntunarbeiðni** Ekki er hægt að hreinsa gátreitinn ef birgðafærslur á **Frátekið pantað** , **Frátekin líkamleg** , eða **Pantaði** útgáfutegund er til fyrir einn eða fleiri hluti sem eru tengdir því pöntunarveldi.
+Hvenær sem er geturðu leyft lotusértæka pöntun fyrir núverandi „runu hér að neðan\[staðsetningu\]" pöntunarveldi í uppsetningu þinni. Þessi breyting mun ekki hafa áhrif á neina fyrirvara og opna vöruhúsavinnu sem voru búin til áður en breytingin átti sér stað. Hins vegar **Leyfa fyrirvara á pöntunarbeiðni** Ekki er hægt að hreinsa gátreitinn ef birgðafærslur á **Frátekið pantað**, **Frátekin líkamleg**, eða **Pantaði** útgáfutegund er til fyrir einn eða fleiri hluti sem eru tengdir því pöntunarveldi.
 
 > [!NOTE]
 > Ef núverandi fyrirvaralegveldi hlutar leyfir ekki forskrift lotur í pöntuninni, þá geturðu endurúthlutað því í pöntunarveldi sem gerir kleift að skilgreina lotu, að því tilskildu að stigskipulag stigveldisins sé það sama í báðum stigveldum. Nota **Breyta pöntunarveldi fyrir hluti** virka til að framkvæma endurúthlutun. Þessi breyting gæti skipt máli þegar þú vilt koma í veg fyrir sveigjanlegan pöntunarhluta fyrir hlutmengi af hlutum sem eru rekin í hópum en leyfa það fyrir restina af vöruframboði.
@@ -102,9 +102,9 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
 
 1. Fara til **Vöruhúsastjórnun** \> **Skipulag** \> **Birgðir \> Pöntunarveldi**.
 2. Veljið **Nýtt**.
-3. Í reitnum **Heiti** skaltu slá inn nafn (til dæmis **BatchFlex** ).
-4. Í reitinn **Lýsing** slærðu inn lýsingu (t.d. **Hópur fyrir neðan sveigjanlegan** ).
-5. Í reitinn **Valinn** , veldu **Raðnúmer** og **Eigandi** og veldu síðan vinstri örvarhnappinn til að færa þá í reitinn **Tiltækt**.
+3. Í reitnum **Heiti** skaltu slá inn nafn (til dæmis **BatchFlex**).
+4. Í reitinn **Lýsing** slærðu inn lýsingu (t.d. **Hópur fyrir neðan sveigjanlegan**).
+5. Í reitinn **Valinn**, veldu **Raðnúmer** og **Eigandi** og veldu síðan vinstri örvarhnappinn til að færa þá í reitinn **Tiltækt**.
 6. Veljið **Í lagi**.
 7. Í röðinni fyrir **Hópnúmer** víddarstig, veldu **Leyfa fyrirvara á pöntunarbeiðni** gátreitinn. Stigin **Númeraplata** og **Staðsetning** eru sjálfkrafa valin og þú getur ekki hreinsað gátreitina fyrir þá.
 8. Veljið **Vista**.
@@ -132,21 +132,21 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
 2. Veljið **Nýtt**.
 3. Í sölupöntunarhausnum, í reitnum **Viðskiptavinur reikningur** slærðu inn **US-003**.
 4. Bættu við línu fyrir nýja vöru og sláðu inn **10** sem magnið. Gangið úr skugga um að reiturinn **Vöruhús** er stillt á **24**.
-5. Á flýtiflipanum **Sölupöntunarlínur** , veldu **Birgðir** og síðan, í hópnum **Viðhalda** , veldu **Hópapöntun**. Síðan **Hópapöntun** sýnir lista yfir lotur sem hægt er að panta fyrir pöntunarlínuna. Fyrir þetta dæmi sýnir það magn af **20** fyrir lotunúmer **B11** og magn af **10** fyrir lotunúmer **B22**. Athugaðu að **Hópapöntun** síðu er ekki hægt að nálgast frá línu ef hluturinn á þeirri línu er tengdur „Hópur hér að neðan\[staðsetningu\]" pöntunarveldi nema að það sé sett upp til að leyfa ákveðna pöntun.
+5. Á flýtiflipanum **Sölupöntunarlínur**, veldu **Birgðir** og síðan, í hópnum **Viðhalda**, veldu **Hópapöntun**. Síðan **Hópapöntun** sýnir lista yfir lotur sem hægt er að panta fyrir pöntunarlínuna. Fyrir þetta dæmi sýnir það magn af **20** fyrir lotunúmer **B11** og magn af **10** fyrir lotunúmer **B22**. Athugaðu að **Hópapöntun** síðu er ekki hægt að nálgast frá línu ef hluturinn á þeirri línu er tengdur „Hópur hér að neðan\[staðsetningu\]" pöntunarveldi nema að það sé sett upp til að leyfa ákveðna pöntun.
 
     > [!NOTE]
     > Til að panta ákveðna lotu fyrir sölupöntun verður þú að nota síðuna **Hópapöntun**.
     >
     > Ef þú slærð inn lotunúmerið beint á sölupöntunarlínunni mun kerfið haga sér eins og þú hafir slegið inn sérstakt lotugildi fyrir hlut sem er háð „hópnum hér að neðan\[staðsetningu\]" fyrirvara stefnu. Þegar þú vistar línuna færðu viðvörunarskilaboð. Ef þú staðfestir að tilgreina skuli lotunúmerið beint á pöntunarlínunni verður línan ekki meðhöndluð samkvæmt reglulegri vörugeymslu stjórnunar.
     >
-    > Ef þú áskilur magnið af síðunni **Fyrirvari** , engin sérstök lota verður frátekin og framkvæmd vörugeymsluaðgerða fyrir línuna mun fylgja þeim reglum sem gilda undir „Hópur hér að neðan\[staðsetningu\]" fyrirvara stefnu.
+    > Ef þú áskilur magnið af síðunni **Fyrirvari**, engin sérstök lota verður frátekin og framkvæmd vörugeymsluaðgerða fyrir línuna mun fylgja þeim reglum sem gilda undir „Hópur hér að neðan\[staðsetningu\]" fyrirvara stefnu.
 
     Almennt virkar þessi síða og er samspiluð á sama hátt og hún virkar og er samspiluð þeim með atriðum sem hafa tilheyrandi frátektarveldi „Hópurinn hér að ofan\[staðsetningu\]" gerð. Eftirfarandi undantekningar eiga þó við:
 
-    - Flýtiflipinn **Hópatölur skuldbundnar til upprunalínu** sýnir lotunúmerin sem eru frátekin fyrir pöntunarlínuna. Runugildin í hnitanetinu verða sýnd í gegnum allan uppfyllingartíma pöntunarlínunnar, þar á meðal stig vöruhúsavinnslunnar. Aftur á móti, á flýtiflipanum **Yfirlit** , venjulegur pöntunarlínupöntun (það er fyrirvari sem er gerður fyrir málin fyrir ofan **Staðsetning** stig) er sýnt í töflunni upp að því marki þegar vörugeymsla er búin til. Vinnuaðilinn tekur svo við línupöntuninni og línupöntunin birtist ekki lengur á síðunni. Flýtiflipinn **Hópatölur skuldbundnar til upprunalínu** hjálpar til við að ábyrgjast að sölupöntunaraðili getur skoðað lotunúmerin sem voru skuldbundin pöntun viðskiptavinarins hvenær sem er á líftíma hans, upp í gegnum reikninga.
+    - Flýtiflipinn **Hópatölur skuldbundnar til upprunalínu** sýnir lotunúmerin sem eru frátekin fyrir pöntunarlínuna. Runugildin í hnitanetinu verða sýnd í gegnum allan uppfyllingartíma pöntunarlínunnar, þar á meðal stig vöruhúsavinnslunnar. Aftur á móti, á flýtiflipanum **Yfirlit**, venjulegur pöntunarlínupöntun (það er fyrirvari sem er gerður fyrir málin fyrir ofan **Staðsetning** stig) er sýnt í töflunni upp að því marki þegar vörugeymsla er búin til. Vinnuaðilinn tekur svo við línupöntuninni og línupöntunin birtist ekki lengur á síðunni. Flýtiflipinn **Hópatölur skuldbundnar til upprunalínu** hjálpar til við að ábyrgjast að sölupöntunaraðili getur skoðað lotunúmerin sem voru skuldbundin pöntun viðskiptavinarins hvenær sem er á líftíma hans, upp í gegnum reikninga.
     - Auk þess að panta sértæka lotu getur notandi valið handvirkt sértækan stað og framleiðslueiningar plötunnar í stað þess að láta kerfið velja þá sjálfkrafa. Þessi hæfileiki tengist hönnun pöntunarbundins fyrirkomulags fyrir pöntun. Eins og nefnt var áður, þegar rununúmer er tekið frá fyrir vöru undir „Hópur hér að neðan\[staðsetningu\]" pöntunarstefna, kerfið verður að panta allar víddir upp í gegnum staðsetningu. Þess vegna mun vörugeymsla hafa sömu geymsluvíddir og notendurnir sem unnu með pantanirnar áskildu og það gæti ekki alltaf táknað geymslu hlutarins sem er þægilegt eða jafnvel mögulegt fyrir tínaaðgerðir. Ef pöntunaraðilar eru meðvitaðir um takmarkanir vörugeymslu, gætu þeir viljað handvirkt velja tiltekna staði og leyfismerki þegar þeir panta hóp. Í þessu tilfelli verður notandinn að nota **Sýna mál** virkni á síðuhausnum og verður að bæta við staðsetningu og kennitala í ristina á flýtiflipanum **Yfirlit**.
 
-6. Á **Hópapöntun** síðu, veldu línuna fyrir hópinn **B11** og veldu síðan **Varalína**. Það er engin tiltekin rökfræði til að úthluta staðsetningum og skiltum við sjálfvirka fyrirvara. Þú getur slegið inn magnið handvirkt í reitinn **Frátekning**. Taktu eftir því að á flýtiflipanum **Hópatölur skuldbundnar til upprunalínu** , hópur **B11** er sýnt sem **Skuldbundinn**.
+6. Á **Hópapöntun** síðu, veldu línuna fyrir hópinn **B11** og veldu síðan **Varalína**. Það er engin tiltekin rökfræði til að úthluta staðsetningum og skiltum við sjálfvirka fyrirvara. Þú getur slegið inn magnið handvirkt í reitinn **Frátekning**. Taktu eftir því að á flýtiflipanum **Hópatölur skuldbundnar til upprunalínu**, hópur **B11** er sýnt sem **Skuldbundinn**.
 
     ![Að fremja ákveðið lotunúmer í sölupöntunarlínu á síðu síðu frátektar á runu](media/Batch-reservation-form-with-order-committed-reservation.png)
 
@@ -168,7 +168,7 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Farið yfir og unnið úr vöruhúsagerð sem er með pöntunarbundna lotunúmer
 
-1. Á flýtiflipanum **Sölupöntunarlínur** , veldu **Vöruhús** \> **Upplýsingar um vinnu**.
+1. Á flýtiflipanum **Sölupöntunarlínur**, veldu **Vöruhús** \> **Upplýsingar um vinnu**.
 
     Vinnan sem annast tínsluaðgerðina fyrir magn magn sem skuldbundið sig til sölupöntunarlínunnar hefur eftirfarandi einkenni:
 
@@ -212,7 +212,7 @@ Til að virkja frátekningu á númeraplötu í pöntun þarf að velja gátreit
 
 ![Síða frátekningarstigveldis birgða fyrir frátekningarstigveldi sveigjanlegrar númeraplötu](media/Flexible-LP-reservation-hierarchy.png)
 
-Hægt er að virkja frátekningu á númeraplötu í pöntuninni hvenær sem er í uppsetningunni. Þessi breyting hefur ekki áhrif á neinar frátekningar eða opna vöruhúsavinnu sem var stofnuð áður en breytingin var gerð. Hins vegar er ekki hægt að hreinsa gátreitinn **Leyfa frátekt á eftirspurnarpöntun** ef opnar birgðafærslur á útleið sem eru með úthreyfingarstöðuna *Í pöntun* , *Frátekið pantað* eða *Frátekið efnislegt magn* eru til fyrir eina eða fleiri vörur sem tengjast þessu frátekningarstigveldi.
+Hægt er að virkja frátekningu á númeraplötu í pöntuninni hvenær sem er í uppsetningunni. Þessi breyting hefur ekki áhrif á neinar frátekningar eða opna vöruhúsavinnu sem var stofnuð áður en breytingin var gerð. Hins vegar er ekki hægt að hreinsa gátreitinn **Leyfa frátekt á eftirspurnarpöntun** ef opnar birgðafærslur á útleið sem eru með úthreyfingarstöðuna *Í pöntun*, *Frátekið pantað* eða *Frátekið efnislegt magn* eru til fyrir eina eða fleiri vörur sem tengjast þessu frátekningarstigveldi.
 
 Jafnvel ef gátreiturinn **Leyfa frátekt á eftirspurnarpöntun** er valinn fyrir stigið **Númeraplata** er enn mögulegt að *ekki* taka frá tiltekna númeraplötu í pöntuninni. Í slíku tilfelli gilda sjálfgefin rök vöruhúsaaðgerða fyrir frátekningarstigveldið.
 
@@ -224,7 +224,7 @@ Til að taka frá tiltekna númeraplötu verður að nota ferlið [Samskiptaregl
 - Númeraplata
 - Magn
 
-Ef taka þarf frá tiltekna númeraplötu fyrir runurakta vöru skal nota síðuna **Frátekt á runu** , eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
+Ef taka þarf frá tiltekna númeraplötu fyrir runurakta vöru skal nota síðuna **Frátekt á runu**, eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
 
 Þegar sölupöntunarlína sem notar frátekt á númeraplötu ráðstafaðrar pöntunar er unnin af vöruhúsaaðgerðum, eru staðsetningarleiðbeiningar ekki notaðar.
 
@@ -249,9 +249,9 @@ Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu s
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Birgðir \> Frátekningarstigveldi**.
 1. Veljið **Nýtt**.
-1. Í reitinn **Heiti** skal slá inn gildi (til dæmis *FlexibleLP* ).
-1. Í reitinn **Lýsing** skal færa inn gildi (til dæmis *Sveigjanleg frátekning á númeraplötu* ).
-1. Í listanum **Valið** skal velja **Rununúmer** , **Raðnúmer** og **Eigandi**.
+1. Í reitinn **Heiti** skal slá inn gildi (til dæmis *FlexibleLP*).
+1. Í reitinn **Lýsing** skal færa inn gildi (til dæmis *Sveigjanleg frátekning á númeraplötu*).
+1. Í listanum **Valið** skal velja **Rununúmer**, **Raðnúmer** og **Eigandi**.
 1. Veljið hnappinn **Fjarlægja** ![ör til baka](media/backward-button.png) til að flytja valdar færslur í listann **Tiltækt**.
 1. Veljið **Í lagi**.
 1. Í línunni fyrir víddarstigið **Númeraplata** skal velja gátreitinn **Leyfa frátekt á eftirspurnarpöntun**. Stigið **Staðsetning** er valið sjálfkrafa og ekki er hægt að hreinsa gátreitinn fyrir það.
@@ -274,7 +274,7 @@ Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu s
 1. Veljið **Í lagi** til að stofna afurðina og loka svarglugganum.
 1. Nýja afurðin opnast. Í flýtiflipanum **Vöruhús** skal stilla reitinn **Auðkenni röðunarflokks einingar** á *ea*.
 1. Endurtakið fyrri skref til að stofna aðra afurð sem er með sömu stillingar, en stillið reitina **Afurðarnúmer** og **Vörunúmer** á *Item2*.
-1. Á aðgerðasvæðinu, í flipanum **Stjórna birgðum** , í flokknum **Skoða** , skal velja **Lagerbirgðir**. Veljið síðan **Leiðrétting á magni**.
+1. Á aðgerðasvæðinu, í flipanum **Stjórna birgðum**, í flokknum **Skoða**, skal velja **Lagerbirgðir**. Veljið síðan **Leiðrétting á magni**.
 1. Leiðréttið lagerbirgðir nýju varanna eins og tilgreint er í eftirfarandi töflu.
 
     | vara  | Vöruhús | Staður | Númeraplata | Magn |
@@ -291,7 +291,7 @@ Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu s
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Veljið **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - **Viðskiptavinalykill:** *US-001*
     - **Vöruhús:** *24*
@@ -308,17 +308,17 @@ Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu s
     - **Magn:** *5*
 
 1. Veljið **Vista**.
-1. Í flýtiflipanum **Upplýsingar um línu** , í flipanum **Uppsetning** , skal skrá hjá sér gildið **Lotukenni** fyrir hverja línu. Þessi gildi eru nauðsynleg þegar tilteknar númeraplötur eru teknar frá.
+1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Uppsetning**, skal skrá hjá sér gildið **Lotukenni** fyrir hverja línu. Þessi gildi eru nauðsynleg þegar tilteknar númeraplötur eru teknar frá.
 
     > [!NOTE]
-    > Til að taka frá tiltekna númeraplötu þarf að nota gagnaeininguna **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu**. Til að taka frá runurakta vöru á tiltekinni númeraplötu er einnig hægt að nota síðuna **Frátekt á runu** , eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
+    > Til að taka frá tiltekna númeraplötu þarf að nota gagnaeininguna **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu**. Til að taka frá runurakta vöru á tiltekinni númeraplötu er einnig hægt að nota síðuna **Frátekt á runu**, eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
     >
     > Ef númeraplata er færð beint inn í sölupöntunarlínuna og hún síðan staðfest í kerfinu, verður vinnsla vöruhúsakerfis ekki notuð fyrir línuna.
 
-1. Veljið **Opna í Microsoft Office** , veljið **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu** og hlaðið niður skránni.
+1. Veljið **Opna í Microsoft Office**, veljið **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu** og hlaðið niður skránni.
 1. Opnið niðurhalaða skrá í Excel og veljið **Virkja breytingar** svo að Excel-innbótin geti keyrt.
 1. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
-1. Ef beðið er um að skrá sig inn skal velja **Innskráningu** , og síðan skrá sig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Supply Chain Management.
+1. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá sig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Supply Chain Management.
 1. Til að taka frá vöru á tiltekinni númeraplötu, í Excel-innbótinni, skal velja **Ný** til að bæta við frátektarlínu og stilla síðan eftirfarandi gildi:
 
     - **Lotukenni:** Færið inn gildið fyrir **Lotukenni** sem fannst sölupöntunarlínuna fyrir *Item1*.
@@ -337,17 +337,17 @@ Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu s
     > Frátektarlínan birtist aðeins í kerfinu ef birtingu er lokið án villna.
 
 1. Farið aftur í Supply Chain Management. 
-1. Til að yfirfara frátekningu vörunnar, í flýtiflipanum **Sölupöntunarlínur** , í valmyndinni **Birgðir** , skal velja **Vinna með \> Frátekning**. Athugið að fyrir sölupöntunarlínuna fyrir *Item1* eru birgðir upp á *10* teknar frá og fyrir sölupöntunarlínuna fyrir *Item2* , eru birgðir upp á *5* teknar frá.
-1. Til að fara yfir birgðafærslur sem tengjast frátekningu sölupöntunarlínu, í flýtiflipanum **Sölupöntunarlínur** , í valmyndinni **Birgðir** , skal velja **Skoða \> Færslur**. Athugið að tvær færslur eru tengdar frátekningunni: ein þar sem reiturinn **Tilvísun** er stilltur á *Sölupöntun* og ein þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun*.
+1. Til að yfirfara frátekningu vörunnar, í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Birgðir**, skal velja **Vinna með \> Frátekning**. Athugið að fyrir sölupöntunarlínuna fyrir *Item1* eru birgðir upp á *10* teknar frá og fyrir sölupöntunarlínuna fyrir *Item2*, eru birgðir upp á *5* teknar frá.
+1. Til að fara yfir birgðafærslur sem tengjast frátekningu sölupöntunarlínu, í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Birgðir**, skal velja **Skoða \> Færslur**. Athugið að tvær færslur eru tengdar frátekningunni: ein þar sem reiturinn **Tilvísun** er stilltur á *Sölupöntun* og ein þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun*.
 
     > [!NOTE]
     > Færsla þar sem reiturinn **Tilvísun** er stilltur á *Sölupöntun* sýnir frátekningu pöntunarlínu fyrir birgðavíddir sem eru fyrir ofan stigið **Staðsetning** (svæði, vöruhús og birgðastaða). Færsla þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun* sýnir frátekningu pöntunarlínu fyrir tiltekna númeraplötu og staðsetningu.
 
-1. Til að losa sölupöntunina, á aðgerðasvæðinu, í flipanum **Vöruhús** , í flokknum **Aðgerðir** , skal velja **Losa í vöruhús**.
+1. Til að losa sölupöntunina, á aðgerðasvæðinu, í flipanum **Vöruhús**, í flokknum **Aðgerðir**, skal velja **Losa í vöruhús**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Yfirfara og vinna úr vöruhúsavinnu með úthlutaðar númeraplötur ráðstafaðrar pöntunar
 
-1. Í flýtiflipanum **Sölupöntunarlínur** , í valmyndinni **Vöruhús** , skal velja **Upplýsingar um vinnu**.
+1. Í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Vöruhús**, skal velja **Upplýsingar um vinnu**.
 
     Þar sem frátekning er gerð fyrir tiltekna runu, notar kerfið ekki staðsetningarleiðbeiningar þegar það stofnar vinnu fyrir sölupöntunina sem notar frátekningu númeraplötu. Vegna þess að frátekning ráðstafaðrar pöntunar tilgreinir allar birgðavíddir, þ.á.m. staðsetningu, þarf ekki að nota staðsetningarleiðbeiningar vegna þess að birgðavíddir eru aðeins færðar inn í vinnuna. Þær eru sýndar í hlutanum **Úr birgðavíddum** á síðunni **Birgðafærslur vinnu**.
 
@@ -375,7 +375,7 @@ Dæmi um þessa atburðarás er ástand þar sem verið er að velja áður loki
 
 1. Farðu í **Vöruhúsakerfi** \> **Hleðslur** \> **Virkar hleðslur**.
 2. Veldu álag sem var búið til í tengslum við sendingu sölupöntunar þinnar.
-3. Af flýtiflipanum **Hlaðið pöntunarlínum** , veldu **Draga úr völdum magni**.
+3. Af flýtiflipanum **Hlaðið pöntunarlínum**, veldu **Draga úr völdum magni**.
 4. Á **Draga úr völdum magni** síðu, í **Færa á staðsetningu** reit, veldu **FL-001**.
 5. Í reitnum **Flytja á númeraplötu** velurðu **LP33**.
 6. Í hnitanetinu í reitnum **Magn birgða til að afturkalla tiltekt á** sláðu inn **10**.
@@ -385,7 +385,7 @@ Hér eru niðurstöður úr aðgerð til að afturkalla tiltekt:
 
 - Staða fyrri lokaðs verks er stillt á **Hætt við**.
 - Nýtt verk af gerðinni **Birgðahreyfing** er búin til fyrir óvalið magn af **10** fyrir lotunúmer **B11**. Þessi vinna táknar hreyfingu frá **Afgreiðsluhurð** staðsetningu til númeraplötu **LP33** á staðsetningu **FL-001**. Staðan er stillt á **Lokað**.
-- Kerfið áskilur aftur lotunúmerið sem upphaflega var pantað og úthlutar auðkenni staðsetningar og korts. (Þetta ferli jafngildir því að keyra virknina **Frátektarlína** fyrir pöntunarlínuna fyrir tiltekið lotunúmer). Fyrir vikið, hópur **B11** er sýnt sem framið á flýtiflipanum **Hópatölur skuldbundnar til upprunalínu** af **Runufrátekt** síðu og **Frátekt** reiturinn inniheldur magn af **10** fyrir lotunúmer **B11**. Að auki, er **Staðsetning** reiturinn stilltur á **FL-001** , og **Númeraplata** reiturinn er stilltur á **LP11**. (Þú getur bætt þessum reitum við töfluna ef þeir eru ekki sýnilegir.)
+- Kerfið áskilur aftur lotunúmerið sem upphaflega var pantað og úthlutar auðkenni staðsetningar og korts. (Þetta ferli jafngildir því að keyra virknina **Frátektarlína** fyrir pöntunarlínuna fyrir tiltekið lotunúmer). Fyrir vikið, hópur **B11** er sýnt sem framið á flýtiflipanum **Hópatölur skuldbundnar til upprunalínu** af **Runufrátekt** síðu og **Frátekt** reiturinn inniheldur magn af **10** fyrir lotunúmer **B11**. Að auki, er **Staðsetning** reiturinn stilltur á **FL-001**, og **Númeraplata** reiturinn er stilltur á **LP11**. (Þú getur bætt þessum reitum við töfluna ef þeir eru ekki sýnilegir.)
 
 Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pöntunarbundna lotu fyrirvara fyrir sérstakar vörugeymsluaðgerðir. Til að túlka innihaldið í töflunum, gerðu ráð fyrir að hver vörugeymslaaðgerð sé keyrð í samhengi við núverandi vörugeymsluverk sem er upprunnin í pöntunarbundinni lotu fyrirvara, eða að framkvæmd hverrar vörugerðaraðgerðar hefur áhrif á vinnu af þeirri gerð.
 

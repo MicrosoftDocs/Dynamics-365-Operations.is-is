@@ -17,11 +17,11 @@ ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017392"
+ms.locfileid: "4430749"
 ---
 # <a name="inventory-on-hand-list"></a>Listi yfir birgðir á lager
 
@@ -53,7 +53,7 @@ Fyrir hverja samsvarandi vöru býður hnitanetið **Á lager** upp á eftirfara
 | Samtals pantað | Heildarmagnið sem er tekið með í pöntunum á innleið eða sem er með jákvætt magn í ýmsum birgðabókum. |
 | Í pöntun | Heildarmagnið sem er tekið með í pöntunum á útleið eða sem er með neikvætt magn í ýmsum birgðabókum. |
 | Pantað frátekið | Heildarmagnið sem er frátekið fyrir pantaðar innhreyfingar. Gildið í þessum reit sýnir heildarmagn varanna í færslum á útleið sem eru með stöðuna _Frátekið fyrir pöntun_. Vörur sem eru fráteknar sem pantaðar eru ekki efnislega tiltækar í birgðum. Þess vegna er ekki hægt að tína þær beint og afhenda. |
-| Tiltækt til frátekningar | Heildarmagn lagerbirgða sem hægt er að taka frá.<p>**Athugið:** Ef gátreiturinn **Taka frá pantaðar vörur** er valinn á síðunni **Færibreytur birgða- og vöruhúsakerfis** , inniheldur gildið í þessum reit væntanlegar innhreyfingar. Ef gátreiturinn er hreinsaður inniheldur gildið ekki væntanlegar innhreyfingar.</p> |
+| Tiltækt til frátekningar | Heildarmagn lagerbirgða sem hægt er að taka frá.<p>**Athugið:** Ef gátreiturinn **Taka frá pantaðar vörur** er valinn á síðunni **Færibreytur birgða- og vöruhúsakerfis**, inniheldur gildið í þessum reit væntanlegar innhreyfingar. Ef gátreiturinn er hreinsaður inniheldur gildið ekki væntanlegar innhreyfingar.</p> |
 | Samtals magn til ráðstöfunar | Heildarmagn tiltækt.<p>**Samtals til ráðstöfunar** er reiknaður reitur. Gildið samsvarar gildinu **Efnislega tiltækt** að viðbættu gildinu **Samtals pantað** að frádregnu gildinu **Í pöntun**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Nota síur til að finna færslur sem leitað er að
@@ -61,7 +61,7 @@ Fyrir hverja samsvarandi vöru býður hnitanetið **Á lager** upp á eftirfara
 Notið svæðið **Síur** til að sía lista yfir lagerbirgðir þannig að hann innihaldi einungis færslur þar sem reitargildin samsvara síuskilyrðunum. Fylgið eftirfarandi skrefum til að skilgreina síu.
 
 1. Á svæðinu **Síur** skal finna reitinn sem á að sía.
-2. Í reitnum fyrir neðan heiti markreitsins skal velja rökvirkja (til dæmis, *hefst á* , *jafnt og* , eða *meira en* ).
+2. Í reitnum fyrir neðan heiti markreitsins skal velja rökvirkja (til dæmis, *hefst á*, *jafnt og*, eða *meira en*).
 3. Sláið inn eða veljið gildið sem á að leita að.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Notið svæðið **Síur** til að sía lista yfir lagerbirgðir þannig að han
 
 Hægt er að breyta síusafninu sem er í boði á svæðinu **Síur** með því að fylgja eftirfarandi skrefum.
 
-- Til að fjarlægja síu úr svæðinu skal tilheyrandi hnappinn **Loka** ( **X** ).
+- Til að fjarlægja síu úr svæðinu skal tilheyrandi hnappinn **Loka** (**X**).
 - Til að bæta við síu skal velja **Bæta við** efst á svæðinu **Síur**. Svarglugginn **Bæta við síureitum** sem birtist sýnir lista yfir tiltæka reiti. Hann sýnir einnig upplýsingar um gagnagerðina og töfluna fyrir hvern reit. Notið dálkahausana til að sía og raða listanum eftir þörfum og veljið síðan gátreitinn fyrir hvern reit sem á að bæta við svæðið **Sía**. Þegar þessu er lokið skal velja **Setja inn** til að gera breytingarnar.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Velja hvaða víddir á að sýna
@@ -145,4 +145,4 @@ Hér er útkoman.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Athugið að stillingarnar á svæðinu **Síur** eiga við um ítarlegu (ekki uppsafnaða) birgðatöfluna sem er sýnd í upphafi þessa hluta. Þar af leiðandi finnur skilyrðið **Efnislega tiltækt** \| **minna en eða jafnt og** \| _1_ tvær línur úr þeirri töflu (fyrstu og þriðju línu, sem hvor um sig sýnir gildi fyrir **Efnislega tiltækt** upp á _1_ ). Hins vegar, í þessu dæmi, er síðan **Lagerlisti** ekki sett upp til að sýna víddina **Vöruhús**. Þar af leiðandi leggur það upprunalegu línurnar tvær saman í eina línu því að báðar línurnar eru með sama gildið í öllum víddunum sem sýndar eru. Þessi lína virðist ekki fara eftir síuskilyrðinu vegna þess að gildið **Efnislega tiltækt** er sýnt sem _2_. Niðurstaðan er hinsvegar rétt vegna þess að stillingarnar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlögðu töfluna sem er sýnd á síðunni **Lagerlisti**.
+Athugið að stillingarnar á svæðinu **Síur** eiga við um ítarlegu (ekki uppsafnaða) birgðatöfluna sem er sýnd í upphafi þessa hluta. Þar af leiðandi finnur skilyrðið **Efnislega tiltækt** \| **minna en eða jafnt og** \| _1_ tvær línur úr þeirri töflu (fyrstu og þriðju línu, sem hvor um sig sýnir gildi fyrir **Efnislega tiltækt** upp á _1_). Hins vegar, í þessu dæmi, er síðan **Lagerlisti** ekki sett upp til að sýna víddina **Vöruhús**. Þar af leiðandi leggur það upprunalegu línurnar tvær saman í eina línu því að báðar línurnar eru með sama gildið í öllum víddunum sem sýndar eru. Þessi lína virðist ekki fara eftir síuskilyrðinu vegna þess að gildið **Efnislega tiltækt** er sýnt sem _2_. Niðurstaðan er hinsvegar rétt vegna þess að stillingarnar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlögðu töfluna sem er sýnd á síðunni **Lagerlisti**.

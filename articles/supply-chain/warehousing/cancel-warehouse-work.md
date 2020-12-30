@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016241"
+ms.locfileid: "4430695"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Hætta við vinnu í vörugeymslu fyrir meðhöndlun frávika
 
@@ -40,7 +40,7 @@ Meðan á vöruhússaðgerðum stendur gæti starfskraftur lent í aðstæðum �
 > [!NOTE]
 > Fyrir vinnu sem verður að hætta við af rekstrarástæðum verða notendur vöruhúss að halda áfram að nota venjulegu virknina Hætta við á vinnusíðunni.
 
-Aðeins er hægt að hætta við vinnu af gerðinni **Sala** , **Flutningsútgáfa** , **Tiltekt hráefnis** eða **Áfylling** með því að nota virknina Hætta við vinnu. Afturköllunarrök verða ekki keyrð fyrir frátektarvinnu frysts hráefnis eða vinnu sem hægt er að hætta við með því að nota venjulega Hætta við virkni (sjá fyrri athugasemd).
+Aðeins er hægt að hætta við vinnu af gerðinni **Sala**, **Flutningsútgáfa**, **Tiltekt hráefnis** eða **Áfylling** með því að nota virknina Hætta við vinnu. Afturköllunarrök verða ekki keyrð fyrir frátektarvinnu frysts hráefnis eða vinnu sem hægt er að hætta við með því að nota venjulega Hætta við virkni (sjá fyrri athugasemd).
 
 Til að opna verkið hættir kerfið öllum vinnulínum sem eftir eru og lagfærir vöruhúsgögnin sem eru tengd vinnukenninu sem notandinn tilgreindi. Allar venjulegar aðgerðir meðhöndlunar í vöruhúsi sem fela í sér vörumagn sem verða fyrir áhrifum geta síðan haldið áfram.
 

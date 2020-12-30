@@ -20,11 +20,11 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 205906e8c7495df9a60585d0a79d6cbb0a73a49c
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826079"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430145"
 ---
 # <a name="operations-resources"></a>Operations-tilföng
 
@@ -57,7 +57,7 @@ tilfangaflokk er safn rekstrartilfanga sem táknar uppskiptingu sem á að raða
 Framleiðslueining er stjórnunareining sem er safn forðaflokka. Framleiðslueining getur innihaldið marga forðaflokka, en forðaflokkur getur verið úthlutað á eina framleiðslueiningu. Framleiðslueining endurspeglar sjálft skipulag framleiðslutilfanganna og hefur engin áhrif á færslur eða hvernig þær eru unnar. Tengja valda framleiðslueiningu við svæði. Einnig er hægt er að tengja tiltektarvöruhús og geymsluvöruhús við framleiðslueiningu. Hægt er að nota framleiðslueiningu til að sameina og sía framleiðslutengd gögn. Til dæmis, vinnslusalarstjóri getur séð yfirlit yfir útistandandi vinnuálag og magn sem er í boði fyrir ákveðna framleiðslueiningu. Hægt er að breyta um framleiðslueiningu sem tengist hverjum tilfangaflokki. Einnig er hægt að eyða framleiðslueiningu. Þessar breytingar á framleiðslueiningu gilda þó aðeins fyrir nýjar pantanir sem eru stofnaðar eftir að aðalröðun er keyrð. Ef láta á breytinguna á framleiðslueiningu gilda um fyrirliggjandi pantanir verður að gera þessar breytingar handvirkt.
 
 ## <a name="resource-scheduling"></a>Röðun tilfanga
-Rekstrartilföng eru úthlutuð á verkþætti þegar verks eða framleiðslu er raðað. tvær röðunaraðferðir eru tiltækar: aðgerðröðun  og vinnsluröðun. Þegar aðgerðaröðun er notuð, er hver aðgerðar eða verkþáttar áætlað á tilfangaflokk sem inniheldur rekstrartilföngum sem samsvara tilfangaþarfir sem tilgreind eru fyrir aðgerðina. Ef tiltekinn rekstrartilföng er áskilið fyrir aðgerðina, tekur röðun frá afköst í sérstakar rekstrartilföng í flokknum. Vinnsluröðun er ítarlegri mynd röðunar en aðgerðaröðun. Hún sundurliðar hverja aðgerð niður í einstök verk eða vinnslur. Þessum vinnslum er svo úthlutað rekstrartilföngum sem munu framkvæma þær. Röðun tekur frá afköst í tilfangaflokka, samkvæmt aðgerðatímar sem eru skilgreindar í framleiðsluleið eða verkþætti verkefna. Ef verið er að vinna með takmarkaðri afkastagetu, er áætlun háð tiltækileika rekstrartilfanga sem eru nauðsynleg til að ljúka við verkþáttinn. Fyrir aðgerðaröðun, eru afkastageta tilfangaflokks summa tiltækrar afkastagetu í rekstrartilföngum sem eru hluti af þeim flokki. Frátekningar á afkastagetu sem þegar er til fyrir í rekstrartilföngum eru álitin ótiltæk afkastagetu. Ef það er ekki nægilegt afköst tiltæk fyrir framleiðslu, getur framleiðslupantanir verið seinkað eða jafnvel stöðvað. Á **Tilföng**síðu er hægt að skilgreina nokkrum eiginleikum sem stjórna hvernig frátekning afkastagetu eru gerðar:
+Rekstrartilföng eru úthlutuð á verkþætti þegar verks eða framleiðslu er raðað. tvær röðunaraðferðir eru tiltækar: aðgerðröðun  og vinnsluröðun. Þegar aðgerðaröðun er notuð, er hver aðgerðar eða verkþáttar áætlað á tilfangaflokk sem inniheldur rekstrartilföngum sem samsvara tilfangaþarfir sem tilgreind eru fyrir aðgerðina. Ef tiltekinn rekstrartilföng er áskilið fyrir aðgerðina, tekur röðun frá afköst í sérstakar rekstrartilföng í flokknum. Vinnsluröðun er ítarlegri mynd röðunar en aðgerðaröðun. Hún sundurliðar hverja aðgerð niður í einstök verk eða vinnslur. Þessum vinnslum er svo úthlutað rekstrartilföngum sem munu framkvæma þær. Röðun tekur frá afköst í tilfangaflokka, samkvæmt aðgerðatímar sem eru skilgreindar í framleiðsluleið eða verkþætti verkefna. Ef verið er að vinna með takmarkaðri afkastagetu, er áætlun háð tiltækileika rekstrartilfanga sem eru nauðsynleg til að ljúka við verkþáttinn. Fyrir aðgerðaröðun, eru afkastageta tilfangaflokks summa tiltækrar afkastagetu í rekstrartilföngum sem eru hluti af þeim flokki. Frátekningar á afkastagetu sem þegar er til fyrir í rekstrartilföngum eru álitin ótiltæk afkastagetu. Ef það er ekki nægilegt afköst tiltæk fyrir framleiðslu, getur framleiðslupantanir verið seinkað eða jafnvel stöðvað. Á **Tilföng** síðu er hægt að skilgreina nokkrum eiginleikum sem stjórna hvernig frátekning afkastagetu eru gerðar:
 
 -   **Afkastageta** – Tilgreina afkastageta rekstrartilfanga á klukkustund hvað varðar mælieiningu afkastagetu.
 -   **Runuafkastageta** – Tilgreina hámarksfjöldi stykki sem rekstrartilföng geta unnið per keyrslu.

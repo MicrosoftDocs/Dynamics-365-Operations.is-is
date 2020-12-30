@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017668"
+ms.locfileid: "4430744"
 ---
 # <a name="work-policies"></a>Vinnureglur
 
@@ -113,7 +113,7 @@ Til að setja upp valmyndaratriði fartækis til að styðja móttöku á sérst
 
 ## <a name="example-scenario-warehouse-receiving"></a>Sýnidæmi: Vöruhúsamóttaka
 
-Allar afurðir sem tekið er á móti með ferlinu *Móttaka (og frágangur) innkaupapöntunarvöru* verða að vera skráðar í staðsetningu *FL-001* og þær verða að vera tiltækar í vöruhúsi *24*. Hins vegar ætti ekki að stofna vinnu. Afurðir sem tekið er á móti með einhverju öðru ferli (þ.e. með því að nota önnur valmyndaratriði fartækis) á að skrá á sjálfgefna móttökustaðsetningu vöruhúss ( *RECV* ) og vinnu á að stofna eins og venjulega. (Þetta dæmi sýnir ekki uppsetningu sjálfgefinnar móttöku.)
+Allar afurðir sem tekið er á móti með ferlinu *Móttaka (og frágangur) innkaupapöntunarvöru* verða að vera skráðar í staðsetningu *FL-001* og þær verða að vera tiltækar í vöruhúsi *24*. Hins vegar ætti ekki að stofna vinnu. Afurðir sem tekið er á móti með einhverju öðru ferli (þ.e. með því að nota önnur valmyndaratriði fartækis) á að skrá á sjálfgefna móttökustaðsetningu vöruhúss (*RECV*) og vinnu á að stofna eins og venjulega. (Þetta dæmi sýnir ekki uppsetningu sjálfgefinnar móttöku.)
 
 Þetta dæmi krefst eftirfarandi þátta:
 
@@ -124,7 +124,7 @@ Allar afurðir sem tekið er á móti með ferlinu *Móttaka (og frágangur) inn
 
 Til að gera virknina sem lýst er í þessu dæmi tiltæka í kerfinu þarf að kveikja á eiginleikunum *Viðbætur við móttöku á númeraplötu* og *Viðbætur við vinnureglu fyrir vinnu á innleið* í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF** -lögaðila.
+Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF**-lögaðila.
 
 ### <a name="set-up-a-work-policy"></a>Setja upp vinnureglu
 
@@ -154,7 +154,7 @@ Til að gera virknina sem lýst er í þessu dæmi tiltæka í kerfinu þarf að
 1. Í flipanum **Almennt** skal stilla valkostinn **Nota sjálfgefin gögn** á *Já*.
 1. Veljið **Vista**.
 1. Á aðgerðasvæðinu skal velja **Sjálfgefin gögn**.
-1. Í flýtiflipanum **Sjálfgefin gögn** , á aðgerðasvæðinu, skal velja **Ný** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+1. Í flýtiflipanum **Sjálfgefin gögn**, á aðgerðasvæðinu, skal velja **Ný** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
 
     - **Reitur sjálfgefinna gagna:** *Til staðsetningar*
     - **Vöruhús:** *24*
@@ -171,7 +171,7 @@ Dæmið í þessum hluta sýnir hvernig á að taka á móti vöru innkaupapönt
 
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Veljið **Nýtt**.
-1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun** :
+1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun**:
 
     - **Lánardrottnalykill:** *US-101*
     - **Svæði:** *2*
@@ -201,7 +201,7 @@ Innkaupapöntunin er nú móttekin en engin vinna er tengd henni. Lagerbirgðir 
 
 ## <a name="example-scenario-manufacturing"></a>Sýnidæmi: Framleiðsla
 
-Í eftirfarandi dæmi eru tvær framleiðslupantanir, *PRD 001* og *PRD 002*. Framleiðslupöntunin *PRD-001* hefur aðgerðar sem nefnist *Samsetningu* , þar sem afurð *SC1* verið skráð sem lokið á staðsetningu *001*. Framleiðslupöntunin *PRD 002* hefur aðgerðar sem nefnist *Málun* og notar afurð *SC1* frá staðsetningu *001*. Framleiðslupöntunin *PRD-002* notar einnig *RM1* hráefni úr staðsetningunni *001*. Hráefni *RM1* er geymt á staðsetningu vöruhúss *BULK-001* og verður tínt yfir á staðsetningu *001* af vöruhúsavinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar *PRD 002 framleiðsla* er losuð.
+Í eftirfarandi dæmi eru tvær framleiðslupantanir, *PRD 001* og *PRD 002*. Framleiðslupöntunin *PRD-001* hefur aðgerðar sem nefnist *Samsetningu*, þar sem afurð *SC1* verið skráð sem lokið á staðsetningu *001*. Framleiðslupöntunin *PRD 002* hefur aðgerðar sem nefnist *Málun* og notar afurð *SC1* frá staðsetningu *001*. Framleiðslupöntunin *PRD-002* notar einnig *RM1* hráefni úr staðsetningunni *001*. Hráefni *RM1* er geymt á staðsetningu vöruhúss *BULK-001* og verður tínt yfir á staðsetningu *001* af vöruhúsavinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar *PRD 002 framleiðsla* er losuð.
 
 [![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -223,7 +223,7 @@ Eftirfarandi sýnidæmi býður upp á ítarlegar leiðbeiningar um uppsetningu 
 
 Þetta sýnidæmi kemur með dæmi þar sem framleiðslupöntun er tilkynnt sem lokið á staðsetningu sem er ekki númeraplötustýrð.
 
-Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF** -lögaðila.
+Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF**-lögaðila.
 
 ### <a name="set-up-a-warehouse-work-policy"></a>Setja upp reglur vöruhúsavinnu
 
@@ -261,7 +261,7 @@ Ferli vöruhúsa innihalda ekki alltaf vöruhúsavinnu. Með því að skilgrein
 
 1. Fara á **Fyrirtækisstjórnun \> Tilföng \> Tilfangaflokkar**.
 1. Á svæðinu vinstra megin skal velja tilfangaflokkinn **5102**.
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
     - **Vöruhús úttaks:** *51*
     - **Staðsetning úttaks:** *001*
@@ -282,15 +282,15 @@ Ferli vöruhúsa innihalda ekki alltaf vöruhúsavinnu. Með því að skilgrein
 
     Halda nýju framleiðslupöntuninni valdri.
 
-1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun** , í flokknum **Uppsetning** , skal velja **Áætla**.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Áætla**.
 1. Í svarglugganum **Áætla** skal lesa áætlunina og síðan velja **Í lagi** til að loka svarglugganum.
-1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun** , í flokknum **Uppsetning** , skal velja **Hefja**.
-1. Í svarglugganum **Hefja** , í flipanum **Almennt** , skal stilla reitinn **Sjálfvirk uppskriftanotkun** á *Aldrei*.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Hefja**.
+1. Í svarglugganum **Hefja**, í flipanum **Almennt**, skal stilla reitinn **Sjálfvirk uppskriftanotkun** á *Aldrei*.
 1. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
-1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun** , í flokknum **Uppsetning** , skal velja **Tilkynna sem lokið**.
-1. Í svarglugganum **Tilkynna sem lokið** , í flipanum **Almennt** , skal stilla valkostinn **Leyfa villu** á *Já*.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Tilkynna sem lokið**.
+1. Í svarglugganum **Tilkynna sem lokið**, í flipanum **Almennt**, skal stilla valkostinn **Leyfa villu** á *Já*.
 1. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Almennt** skaltu velja **Upplýsingar um vinnu**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Almennt** skaltu velja **Upplýsingar um vinnu**.
 
 Þegar framleiðslupöntunin er tilkynnt sem lokið, er engin vinna búin til fyrir frágang. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð *L0101* er skráð sem lokið á staðsetningu *001*.
 

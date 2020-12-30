@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017075"
+ms.locfileid: "4430649"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Áfylling með afturkölluðum kanban
 
@@ -54,7 +54,7 @@ Eftirfarandi dæmi sýnir dráttaráfyllingarkerfi þar sem dráttarkerfi setur 
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Skilgreining vöruhúsavinnu fyrir tínslu á kanban fyrir kanban-úttekt
 
-Til að virkja tínsluleið hráefnis fyrir kanban-úttekt skal stilla bylgjusmiðmát og staðsetningarleiðbeiningar fyrir vinnupöntunargerðina **Kanban-tiltekt**. Þessi gerð vinnupöntunar styður ekki bara við tiltektarferli fyrir kanban-úttekt. Hún styður einnig við tiltektarferlið fyrir kanban-framleiðslu. Hins vegar er hægt að skilgreina sérstakt tiltektarferli fyrir hverja gerð kanban með því að aðgreina bylgjusniðmát, vinnusniðmát og staðsetningarleiðbeiningar. Til að aðgreina bylgjusniðmát, vinnusniðmát og staðsetningarleiðbeiningar skal stilla viðmiðun á aðgerðartegundina ( **Ferli** eða **Flytja** ) í fyrirspurnum fyrir þær einingar.
+Til að virkja tínsluleið hráefnis fyrir kanban-úttekt skal stilla bylgjusmiðmát og staðsetningarleiðbeiningar fyrir vinnupöntunargerðina **Kanban-tiltekt**. Þessi gerð vinnupöntunar styður ekki bara við tiltektarferli fyrir kanban-úttekt. Hún styður einnig við tiltektarferlið fyrir kanban-framleiðslu. Hins vegar er hægt að skilgreina sérstakt tiltektarferli fyrir hverja gerð kanban með því að aðgreina bylgjusniðmát, vinnusniðmát og staðsetningarleiðbeiningar. Til að aðgreina bylgjusniðmát, vinnusniðmát og staðsetningarleiðbeiningar skal stilla viðmiðun á aðgerðartegundina (**Ferli** eða **Flytja**) í fyrirspurnum fyrir þær einingar.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Skilgreina kanban-úttekt
 

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018538"
+ms.locfileid: "4430759"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Villuleita verkflæði innkaupa og aðfanga
 
@@ -32,7 +32,7 @@ ms.locfileid: "4018538"
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Villa þegar innkaupapöntun er endursend í verkflæðið eftir breytingu: „Breytingar á innkaupapöntun X eru aðeins leyfðar í stöðunni Drög þegar breytingastjórnun er virkjuð“
 
-Þetta vandamál á sér aðeins stað ef innkaupapöntunin var með stöðuna *Staðfest* áður en óskað var eftir breytingum. Ef beðið er um breytingar á meðan innkaupapöntunin er með stöðuna *Samþykkt* , er hægt að vinna úr verkflæðinu.
+Þetta vandamál á sér aðeins stað ef innkaupapöntunin var með stöðuna *Staðfest* áður en óskað var eftir breytingum. Ef beðið er um breytingar á meðan innkaupapöntunin er með stöðuna *Samþykkt*, er hægt að vinna úr verkflæðinu.
 
 ### <a name="error-description"></a>Villulýsing
 
@@ -74,7 +74,7 @@ Ef þetta á að koma fram á staðfestingu innkaupapöntunarinnar ætti að lei
 
 ### <a name="issue-description"></a>Lýsing á úrlausnaratriði
 
-Þegar búið er að hætta við innkaupapantanir sem voru með stöðuna *Staðfest* , sjást afturkölluðu innkaupapantanir ennþá í listanum yfir drög að innkaupapöntunum á vinnusvæðinu **Undirbúningur innkaupapöntunar**.
+Þegar búið er að hætta við innkaupapantanir sem voru með stöðuna *Staðfest*, sjást afturkölluðu innkaupapantanir ennþá í listanum yfir drög að innkaupapöntunum á vinnusvæðinu **Undirbúningur innkaupapöntunar**.
 
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 

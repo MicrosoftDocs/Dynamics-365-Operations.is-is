@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: a718a2e825630ccfaa54ff9dece1d3d19d59018c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983941"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430537"
 ---
 # <a name="bom-calculations"></a>BOM útreikninguar
 
@@ -60,7 +60,7 @@ Reglur innan kostnaðarútgáfunnar (fyrir staðlaðan kostnað) geta krafist þ
 -   Kostnaðarframlag keyptrar vöru verður að byggja á staðalkostnaði. Uppskriftaútreikningar verða þannig að nota kostnaðarfærslur vörunnar innan tilgreindrar kostnaðarútgáfu, eða innan þess varakerfis sem inniheldur staðlað kostnaðarverð.
 -   Til að tryggja nákvæma og samræmda útreikninga á stöðluðu kostnaðarverði þarf niðurbrotið að vera eins stigs.
 -   Hagnaðarstilling verður að vera krafa til þess að hægt sé að fá fram samræmdar niðurstöður við útreikninga á söluverði vörunnar. Aðeins er hægt að nota hagnaðarstillinguna, og mynda söluverðsfærslu, ef kostnaðarútgáfan leyfir söluverð.
--   Fyrirmæli verða að vera um varaúrræði sem hægt er að stilla á **Ekkert**, v**Virkt** (fyrir virkar kostnaðarfærslur), eða **Kostnaðarútgáfa** (fyrir tiltekna kostnaðarútgáfu).
+-   Fyrirmæli verða að vera um varaúrræði sem hægt er að stilla á **Ekkert**, v **Virkt** (fyrir virkar kostnaðarfærslur), eða **Kostnaðarútgáfa** (fyrir tiltekna kostnaðarútgáfu).
 
 ### <a name="bom-calculations-that-use-planned-costs"></a>Uppskriftaútreikningar sem notaða áætlaðan kostnað
 

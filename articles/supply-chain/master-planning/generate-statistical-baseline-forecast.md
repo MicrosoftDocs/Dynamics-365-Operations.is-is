@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430576"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
@@ -56,7 +56,7 @@ Reiturinn **Upphafsdagsetning grunnlínuspár** - **Frá dagsetningu** verður a
 
 Svæðið **Upphafsdagsetning grunnlínuspár** - **Frá dagsetningu** getur verið stillt á dagsetningu sem er liðin. Með öðrum orðum, er hægt að mynda eftirspurnarspár í fortíðinni. Þetta er gagnlegt þar sem hún gerir notendum kleift að stilla færibreytur þjónustuspár svo tölfræðileg spá mynduð í fortíðinni samsvari raunverulegri söguleg eftirspurn. Notendur geta haldið svo áfram að nota þessar stillingar færibreyta til að mynda tölfræðilega grunnlínuspá fram í tímann. 
 
-Handvirkar leiðréttingar sem gerðar voru í fyrri ítrekunum eftirspurnarspár er hægt að nota sjálfvirkt á nýju grunnlínuspána ef gátlistinn **Flytja handvirkar leiðréttingar til eftirspurnarsp**á er valinn. Handvirkar leiðréttingar er ekki bætt við grunnlínuspá ef gátreiturinn er hreinsaður, - en þeim er ekki eytt. Handvirkar leiðréttingar í spá er aðeins hægt að eyða við innflutning spárinnar, með því að hreinsa gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár**. Handvirkar leiðréttingar eru vistaðar á heimildartíma. Þess vegna glatast breytingarnar ef notandi gerir handvirkar leiðréttingar á spá, en heimilar ekki spá aftur í Supply Chain Management. Nánari upplýsingar um handvirkar leiðréttingar og hvernig þær virka, sjá [Heimila leiðrétta spá](authorize-adjusted-forecast.md). 
+Handvirkar leiðréttingar sem gerðar voru í fyrri ítrekunum eftirspurnarspár er hægt að nota sjálfvirkt á nýju grunnlínuspána ef gátlistinn **Flytja handvirkar leiðréttingar til eftirspurnarsp** á er valinn. Handvirkar leiðréttingar er ekki bætt við grunnlínuspá ef gátreiturinn er hreinsaður, - en þeim er ekki eytt. Handvirkar leiðréttingar í spá er aðeins hægt að eyða við innflutning spárinnar, með því að hreinsa gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár**. Handvirkar leiðréttingar eru vistaðar á heimildartíma. Þess vegna glatast breytingarnar ef notandi gerir handvirkar leiðréttingar á spá, en heimilar ekki spá aftur í Supply Chain Management. Nánari upplýsingar um handvirkar leiðréttingar og hvernig þær virka, sjá [Heimila leiðrétta spá](authorize-adjusted-forecast.md). 
 
 Myndun eftirspurnarspár getur haft nafn og athugasemdir til að aðstoða notendur að greina spá sem hefur verið mynduð. Þessi gildi eru sýnileg í spámyndunarsögu á síðunni **Myndun tölfræðilegrar grunnlínuspár, saga**. 
 

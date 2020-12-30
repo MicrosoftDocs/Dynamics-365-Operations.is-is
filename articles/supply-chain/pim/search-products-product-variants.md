@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018331"
+ms.locfileid: "4430738"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Leita að afurðir og afurðarafbrigði við skráningu pantana
 
@@ -44,7 +44,7 @@ Stundum er ekki best að hafa of mikið af einhverju, og það er sérstaklega s
 
 ### <a name="examples"></a>Dæmi
 
-Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:**  Undir **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur &gt; Leitargerð** , veljið valkostinn  **Full samsvörun**.
+Eftirfarandi dæmi nota afurðir og afurðarafbrigði sem sýna hvernig leit er meðhöndlaðar í mismunandi aðstæðum. **Skilyrði:**  Undir **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur &gt; Leitargerð**, veljið valkostinn  **Full samsvörun**.
 
 | Gerð afurðar     | Afurðarnafn    | Birta afurðarnúmer | Vörunúmer | Grunnstilling |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -65,7 +65,7 @@ Hægt er að takmarka fjölda leitarniðurstöður með því að nota **Fjöldi
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. skref: Hafa með allar viðeigandi afurð og auðkenni afurðarafbrigðis og víddir í leitarskilyrði
 
-Dæmi um afurð og auðkenni afurðarafbrigðis og víddir sem hægt er að leita eftir eru  **vörunúmer, afurðarheiti** , **Sýna afurðarnúmer, Afbrigði, Lit, Stærð, Stíl, leitarnafn o.s.frv**.  
+Dæmi um afurð og auðkenni afurðarafbrigðis og víddir sem hægt er að leita eftir eru  **vörunúmer, afurðarheiti**, **Sýna afurðarnúmer, Afbrigði, Lit, Stærð, Stíl, leitarnafn o.s.frv**.  
 
 Farið í **Sala og markaðssetning &gt; Uppsetning &gt; Leita &gt; Leitarskilyrði** síðuna. Á **Leitarskilyrði** síðuna gerir kleift að skilgreina skilyrði fyrir viðskiptavinurinn, viðfangs og afurðaleit. Gangið úr skugga um verið sé að sía síðuna með leitarskilyrði afurðar. Þetta er gert með því að skipta í **Afurð** í valmynd síðu.  
 
@@ -73,7 +73,7 @@ Til að birta afurðarnúmeri á leitarskilyrði, smellið á **Nýtt** í valmy
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2. skref: Fylla gagnasafnstöflu sem notaður er fyrir afurðaleit
 
-Í **Leitarskilyrði** síðunni, smellið á **Uppfærsla fyrir leitargögn** hnappinn. Í **uppfærsla fyrir leitargögn** svarglugganum, gangið úr skugga um að  **Uppruni** er stillt á **Afurð** , og smellið svo á **í lagi**. Kerfið mun leggja saman í eina töflu allar valdar leitarskilyrði tilgreind í skrefi 1. Ef þú hefur fjölda af vörum og afurðarafbrigði, getur þetta ferli verið langt og þú getur fengið viðvörun. Við mælum með að áætlir að fylla í leitartöfluna á runuþjóni á þeim tíma þegar þjóninn er ekki of upptekinn.  
+Í **Leitarskilyrði** síðunni, smellið á **Uppfærsla fyrir leitargögn** hnappinn. Í **uppfærsla fyrir leitargögn** svarglugganum, gangið úr skugga um að  **Uppruni** er stillt á **Afurð**, og smellið svo á **í lagi**. Kerfið mun leggja saman í eina töflu allar valdar leitarskilyrði tilgreind í skrefi 1. Ef þú hefur fjölda af vörum og afurðarafbrigði, getur þetta ferli verið langt og þú getur fengið viðvörun. Við mælum með að áætlir að fylla í leitartöfluna á runuþjóni á þeim tíma þegar þjóninn er ekki of upptekinn.  
 
 Þar til taflan er fyllt út veitir afurðaleit ekki rétt niðurstöður. Ef þú færð engar leitarniðurstöður skal tryggja að þessi tafla er útfyllt.  
 

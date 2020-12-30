@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018630"
+ms.locfileid: "4430758"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Villuelita innhreyfingarskjöl og reikningsfærslur
 
@@ -58,7 +58,7 @@ Ef hætt er við innhreyfingarskjal, gerir kerfið kleift að bóka færslur á 
 
 Eftirfarandi ferli sýnir eina leið til að endurtaka málið.
 
-1. Á síðunni **Færibreytur viðskiptaskulda** , í flipanum **Almennt** , skal ganga úr skugga um að valkosturinn **Bóka innhreyfingarskjal afurða í fjárhag** sé stilltur á *Já*.
+1. Á síðunni **Færibreytur viðskiptaskulda**, í flipanum **Almennt**, skal ganga úr skugga um að valkosturinn **Bóka innhreyfingarskjal afurða í fjárhag** sé stilltur á *Já*.
 1. Stofnið innkaupapöntun og bætið við pöntunarlínu sem er með magnið *1000* fyrir afurð.
 1. Staðfesta innkaupapöntun.
 1. Bókið innhreyfingarskjalið og athugið fylgiskjölin.
@@ -99,10 +99,10 @@ Eftirfarandi ferli sýnir eina leið til að endurtaka málið.
     - **Vöruhús:** *11*
     - **Magn:** *4*
 
-1. Á aðgerðasvæðinu, í flipanum **Innkaup** , í flokknum **Aðgerð** , skal velja **Staðfesta**.
-1. Á aðgerðasvæðinu, í flipanum **Móttaka** , í flokknum **Mynda** , skal velja **Innhreyfingarskjal afurðar**.
-1. Í svargluggannn **Bókun innhreyfingarskjals afurða** , í reitinn **Innhreyfingarskjal** , skal færa inn handahófskennt númer og velja síðan **Í lagi**.
-1. Á aðgerðasvæðinu, í flipanum **Reikningur** , í flokknum **Búa til** skal velja á **Reikningur**.
+1. Á aðgerðasvæðinu, í flipanum **Innkaup**, í flokknum **Aðgerð**, skal velja **Staðfesta**.
+1. Á aðgerðasvæðinu, í flipanum **Móttaka**, í flokknum **Mynda**, skal velja **Innhreyfingarskjal afurðar**.
+1. Í svargluggannn **Bókun innhreyfingarskjals afurða**, í reitinn **Innhreyfingarskjal**, skal færa inn handahófskennt númer og velja síðan **Í lagi**.
+1. Á aðgerðasvæðinu, í flipanum **Reikningur**, í flokknum **Búa til** skal velja á **Reikningur**.
 1. Í reitinn **Númer** skal færa inn handahófskennt númer sem reikningsnúmerið.
 1. Uppfærið samsvörunarstöðuna og bókið.
 1. Takið eftir því að nú kemur upp eftirfarandi villa þegar reikningur er búinn til úr innkaupapöntun: „Númer lykils fyrir færslugerðin Útgjöld innkaupa fyrir afurð er ekki til.“

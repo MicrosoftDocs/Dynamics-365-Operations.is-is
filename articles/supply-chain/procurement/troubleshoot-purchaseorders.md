@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018561"
+ms.locfileid: "4430756"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Villuleita innkaupapantanir
 
@@ -118,7 +118,7 @@ Eftirfarandi ferli sýnir eina leið til að endurtaka málið.
 
 ### <a name="issue-description"></a>Lýsing á úrlausnaratriði
 
-Afurð er með samþykktan lánardrottin sem er með t.d. gildisdagsetningu 11. janúar 2018 ( *11/01/2018* ), og lokadaginn *Aldrei*. Ef reynt er að breyta gildisdagsetningunni í 10. janúar 2018 ( *10/01/2018* ) eða 12. janúar 2018 ( *12/01/2018* ) kemur upp eftirfarandi villu:
+Afurð er með samþykktan lánardrottin sem er með t.d. gildisdagsetningu 11. janúar 2018 (*11/01/2018*), og lokadaginn *Aldrei*. Ef reynt er að breyta gildisdagsetningunni í 10. janúar 2018 (*10/01/2018*) eða 12. janúar 2018 (*12/01/2018*) kemur upp eftirfarandi villu:
 
 > Ekki tókst að stofna færslu í lista yfir samþykkta birgja (PdsApproveVendorList). Gildið 'Lokadagsetning' þarf að vera stærra en eða jafnt og gildið fyrir ‚Gildisdagsetning‘.
 
@@ -130,7 +130,7 @@ Aðeins er hægt að framlengja tímabilið þar sem lánardrottinn hefur verið
 - Til að breyta lokadagsetningunni þannig að hún verði síðar en á fyrirliggjandi tímabilum verður gildisdagsetningin að vera á eftir síðustu lokadagsetningunni í fyrirliggjandi færslu.
 - Til að draga úr heildartímabilinu sem lánardrottinn hefur verið samþykktur fyrir, þarf að eyða eða breyta fyrirliggjandi færslum. Að öðrum kosti er hægt að nota rofann **stytta** meðan á innflutningi stendur. Þessi rofi eyðir öllum fyrirliggjandi færslum í töflunni fyrir samþykkta lánardrottna eftir vöru.
 
-Fyrir dæmið sem lýst er í útgáfulýsingunni þar sem færsla er með gildisdagsetningu *11/01/2018* og lokadag *Aldrei* , er hægt að flytja inn nýja færslu sem er með gildisdagsetningu *10/01/2018* og lokadagsetningu *Aldrei*. Hins vegar er ekki hægt að stytta tímabilið þannig að gildisdagsetningin uppfærist í *12/01/2018* í gegnum gagnastjórnun. Þú verður að gera þessa breytingu í gegnum notandaviðmótið.
+Fyrir dæmið sem lýst er í útgáfulýsingunni þar sem færsla er með gildisdagsetningu *11/01/2018* og lokadag *Aldrei*, er hægt að flytja inn nýja færslu sem er með gildisdagsetningu *10/01/2018* og lokadagsetningu *Aldrei*. Hins vegar er ekki hægt að stytta tímabilið þannig að gildisdagsetningin uppfærist í *12/01/2018* í gegnum gagnastjórnun. Þú verður að gera þessa breytingu í gegnum notandaviðmótið.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Eftir að ég breyti afhendingaraðsetrinu í haus innkaupapöntunar er afhendingarheitið ekki samstillt.
 

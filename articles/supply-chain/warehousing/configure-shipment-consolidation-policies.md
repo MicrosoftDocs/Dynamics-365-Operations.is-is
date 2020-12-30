@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016218"
+ms.locfileid: "4430677"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -47,7 +47,7 @@ Allar aðstæður í þessu efnisatriði vísa í gildi og færslur sem eru inni
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Aðstæður 1: Skilgreina sjálfgefnar samstæðureglur sendingar
 
-Tvenns konar ástand er til staðar þar sem skilgreina þarf lágmarksfjölda sjálfgefinna reglna eftir að kveikt er á eiginleikanum *Samstæðureglur sendingar* :
+Tvenns konar ástand er til staðar þar sem skilgreina þarf lágmarksfjölda sjálfgefinna reglna eftir að kveikt er á eiginleikanum *Samstæðureglur sendingar*:
 
 - Þú ert að uppfæra umhverfi sem inniheldur þegar gögn.
 - Þú ert að setja upp algjörlega nýtt umhverfi.
@@ -59,7 +59,7 @@ Tvenns konar ástand er til staðar þar sem skilgreina þarf lágmarksfjölda s
 Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sendingar í umhverfi þar sem vöruhús hafa þegar verið skilgreind fyrir millipöntunarsamstæðu.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
-1. Á listanum skal finna og opna viðkomandi vöruhúsafærslu (til dæmis, vöruhús *24* í **USMF** -sýnigögnum).
+1. Á listanum skal finna og opna viðkomandi vöruhúsafærslu (til dæmis, vöruhús *24* í **USMF**-sýnigögnum).
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Á flýtiflipanum **Vöruhús** skal stilla valkostinn **Taka sendingu með í samstæðu við losun í vörugeymslu** á *Já*.
 1. Endurtakið skref 2 til 4 fyrir öll önnur vöruhús þar sem sameining er nauðsynleg.
@@ -68,31 +68,31 @@ Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sen
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**. Hugsanlega þarf að uppfæra vafrann til að sjá nýja valmyndaratriðið **Samstæðureglur sendingar** eftir að kveikt er á eiginleikanum.
 1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
 
-    - **CrossOrder** -regla fyrir reglugerðina *Sölupantanir* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota sem eldri samstæðueiginleikann)
-    - **Sjálfgefið** -regla fyrir reglugerðina *Sölupantanirnar*
-    - **Sjálfgefið** -regla fyrir reglugerðina *Flutningsútgáfa*
-    - **CrossOrder** -regla fyrir reglugerðina *Flutningsútgáfa* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota eldri samstæðueiginleikann)
+    - **CrossOrder**-regla fyrir reglugerðina *Sölupantanir* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota sem eldri samstæðueiginleikann)
+    - **Sjálfgefið**-regla fyrir reglugerðina *Sölupantanirnar*
+    - **Sjálfgefið**-regla fyrir reglugerðina *Flutningsútgáfa*
+    - **CrossOrder**-regla fyrir reglugerðina *Flutningsútgáfa* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota eldri samstæðueiginleikann)
 
     > [!NOTE]
-    > - Báðar **CrossOrder** -reglur nota saman reitahóp sem eldri rök, fyrir utan reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og vöruhúsi, flutningsmáta afhendingar og aðsetri.)
-    > - Báðar **Sjálfgefið** -reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
+    > - Báðar **CrossOrder**-reglur nota saman reitahóp sem eldri rök, fyrir utan reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og vöruhúsi, flutningsmáta afhendingar og aðsetri.)
+    > - Báðar **Sjálfgefið**-reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
 
-1. Velja skal **CrossOrder** -reglu fyrir reglugerðina *Sölupantanir* og síðan skal velja **Breyta fyrirspurn** á aðgerðasvæðinu.
+1. Velja skal **CrossOrder**-reglu fyrir reglugerðina *Sölupantanir* og síðan skal velja **Breyta fyrirspurn** á aðgerðasvæðinu.
 1. Í svarglugga fyrirspurnaritilsins skal gefa gaum að því að skráð eru vöruhús sem hafa valkostinn **Taka sendingu með í samstæðu við losun í vörugeymslu** stilltan á *Já*. Þess vegna eru þau höfð með í fyrirspurninni.
 
 ### <a name="create-default-policies-for-a-new-environment"></a>Stofna sjálfgefnar reglur fyrir nýtt umhverfi
 
 Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sendingar í glænýju umhverfi.
 
-1. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum *Samstæðureglur sendingar* , ef ekki er þegar kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** kallst eiginleikinn *Sameina sendingu*.
+1. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum *Samstæðureglur sendingar*, ef ekki er þegar kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** kallst eiginleikinn *Sameina sendingu*.
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**.
 1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
 
-    - **Sjálfgefið** -regla fyrir reglugerðina *Sölupantanirnar*
-    - **Sjálfgefið** -regla fyrir reglugerðina *Flutningsútgáfa*
+    - **Sjálfgefið**-regla fyrir reglugerðina *Sölupantanirnar*
+    - **Sjálfgefið**-regla fyrir reglugerðina *Flutningsútgáfa*
 
     > [!NOTE]
-    > Báðar **Sjálfgefið** -reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
+    > Báðar **Sjálfgefið**-reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
 
 ## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Aðstæður 2: Skilgreina sérsniðna samstæðureglu sendingar
 
@@ -121,10 +121,10 @@ Nota skal eiginleikastjórnun til að virkja eiginleikann, ef ekki hefur þegar 
         - **Síuheiti:** *Kóði 4*
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Opnið afurðina með vörunúmerið *M9200*. (Afurðin sem valin er verður að vera virk fyrir ítarlegt ferli \[vöruhúsakerfis\] og þessi afurð er forvirk fyrir vöruhúsakerfisferli í **USMF** -sýnigögnunum.)
+1. Opnið afurðina með vörunúmerið *M9200*. (Afurðin sem valin er verður að vera virk fyrir ítarlegt ferli \[vöruhúsakerfis\] og þessi afurð er forvirk fyrir vöruhúsakerfisferli í **USMF**-sýnigögnunum.)
 1. Á flýtiflipanum **Vöruhús** skal stilla reitinn **Kóði 4** á *Eldfimt*.
 1. Lokið síðunni.
-1. Opnið afurðina með vörunúmerið *M9201*. (Þessi vara er einnig forvirk fyrir vöruhúsakerfisferla í **USMF** -sýnigögnunum.)
+1. Opnið afurðina með vörunúmerið *M9201*. (Þessi vara er einnig forvirk fyrir vöruhúsakerfisferla í **USMF**-sýnigögnunum.)
 1. Á flýtiflipanum **Vöruhús** skal stilla reitinn **Kóði 4** á *Sprengifimt*.
 1. Lokið síðunni.
 
@@ -166,7 +166,7 @@ Nota skal eiginleikastjórnun til að virkja eiginleikann, ef ekki hefur þegar 
 
 Í þessu dæmi er reglan *Viðskiptavinum+Máti* búin til, sem hægt er að nota fyrir eftirfarandi viðskiptatilvik:
 
-- Reglan mun leita að tilteknum viðskiptavinalykli ( *US-001* ) og tilteknum flutningsmáta ( *Airwa-Air* ).
+- Reglan mun leita að tilteknum viðskiptavinalykli (*US-001*) og tilteknum flutningsmáta (*Airwa-Air*).
 - Slökkt er á „Samstæða við opnar sendingar“.
 - Samstæða er gerð fyrir hvert pöntunarauðkenni. (Með öðrum orðum eru aðskildar sendingar til staðar fyrir hverja pöntun, vöruhús o.s.frv.)
 
@@ -181,8 +181,8 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Á flýtiflipanum **Samstæðureitir** , á listanum **Eftirstandandi reitir** , skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** , á hnitanetinu, skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Viðskiptamannalykill* og stilla reitinn **Skilyrði** fyrir þá línu á *US-001*.
 1. Veljið **Bæta við** til að bæta við línu sem er með eftirfarandi stillingar í hnitanetinu:
@@ -201,7 +201,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 Í þessu dæmi er reglan *Hættulegar vörur* búin til, sem hægt er að nota fyrir eftirfarandi viðskiptatilvik:
 
-- Reglan mun leita að tilteknum síukóða ( *hættulegt* ) og tilteknum flutningsmáta ( *Airwa-Air* ).
+- Reglan mun leita að tilteknum síukóða (*hættulegt*) og tilteknum flutningsmáta (*Airwa-Air*).
 - Kveikt er á „Samstæða við opnar sendingar“.
 - Samstæða er þvert á pantanir. (Með öðrum orðum verða aðskildar sendingar fyrir hvern lykil, vöruhús o.s.frv., en aðeins innan vöruflokksins sem tilgreindur er í fyrirspurninni.)
 
@@ -216,8 +216,8 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 1. Stillið valkostinn **Sameina við opnar sendingar** á *Já*.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Á flýtiflipanum **Samstæðureitir** , á listanum **Eftirstandandi reitir** , skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Samtengingar** , skal stækka og velja **Töflur \> Upplýsingar um hleðslu** á trénu.
 1. Velja **Bæta við töflusamtengingu**.
@@ -232,7 +232,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 1. Veldu **Í lagi** til að loka svarglugganum.
 
 > [!NOTE]
-> Fyrir þetta viðskiptatilvik eru allar pöntunarlínur þar sem vörur hafa tiltekinn síukóða (þ.e. síukóðann þar sem reiturinn **Kóði 4** er stilltur á *Eldfimt* ) sameinaður við aðrar vörur af sömu gerð á milli pantana. Ef opin sending er til staðar fyrir sama lykil, vöruhús og vöruflokk verða nýju línurnar hengdar við hana.
+> Fyrir þetta viðskiptatilvik eru allar pöntunarlínur þar sem vörur hafa tiltekinn síukóða (þ.e. síukóðann þar sem reiturinn **Kóði 4** er stilltur á *Eldfimt*) sameinaður við aðrar vörur af sömu gerð á milli pantana. Ef opin sending er til staðar fyrir sama lykil, vöruhús og vöruflokk verða nýju línurnar hengdar við hana.
 
 ### <a name="create-example-policy-3"></a>Búa til dæmareglu 3
 
@@ -253,10 +253,10 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 1. Stillið valkostinn **Sameina við opnar sendingar** á *Já*.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Á flýtiflipanum **Samstæðureitir** , á listanum **Eftirstandandi reitir** , skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Beiðni viðskiptavinar*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Beiðni viðskiptavinar*.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á listanum **Eftirstandandi reitir** skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Viðskiptamannalykill* og stilla reitinn **Skilyrði** fyrir þá línu á *US-001*.
 1. Veldu **Í lagi** til að loka svarglugganum.
@@ -270,7 +270,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 - Reglan mun leita tilteknu pöntunarsetti til að auðkenna viðskiptavini sem samþykkja sameinaðar sendingar.
 - Slökkt er á „Samstæða við opnar sendingar“.
-- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús** ).
+- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús**).
 
 - Hægt er að hnekkja reglunni á sölupöntun með því að velja annan pöntunarsett.
 
@@ -285,8 +285,8 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Á flýtiflipanum **Samstæðureitir** , á listanum **Eftirstandandi reitir** , skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritils á flipanum **Svið** skal velja **Bæta við** til að bæta við línu sem er með eftirfarandi stillingar á hnitanetinu:
 
@@ -306,7 +306,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 - Reglan mun leita tilteknu pöntunarsetti til að auðkenna vöruhús sem geta sameinað sendingar.
 - Slökkt er á „Samstæða við opnar sendingar“.
-- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús** ).
+- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús**).
 
 Yfirleitt er hægt að vinna þetta viðskiptatilvik með því að nota sjálfgefnu reglurnar sem voru stofnaðar í [aðstæðum 1](#scenario-1). Hins vegar er einnig hægt að stofna svipaðar reglur handvirkt með því að fylgja þessum skrefum.
 
@@ -319,8 +319,8 @@ Yfirleitt er hægt að vinna þetta viðskiptatilvik með því að nota sjálfg
 
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Á flýtiflipanum **Samstæðureitir** , í reitnum **Eftirstandandi reitir** , skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við** -hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Á flýtiflipanum **Samstæðureitir**, í reitnum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
+1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Vöruhús* og stilla reitinn **Skilyrði** fyrir þá línu á *61, 63*.
 1. Veldu **Í lagi** til að loka svarglugganum.

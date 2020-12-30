@@ -4,7 +4,7 @@ description: Þetta efnisatriði lýsir prentun bylgjumerkja og útskýrir hvern
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016956"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4430774"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Setja upp og nota prentun bylgjumerkja
 
@@ -134,7 +134,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
 
 1. Ef ætlunin er að geta prentað auðkenni farmbréfsins, skal í flipanum **Samtengingar** velja töfluna **Vinnulínur** og tengja töfluna **Sendingar** við það.
 1. Lokið svarglugga fyrirspurnarritils.
-1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss** , **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss** , í reitinn **Síðuhaus merkis** , skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
+1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss**, **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss**, í reitinn **Síðuhaus merkis**, skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Í hlutanum **Hluti meginmáls** , í reitinn **Meginmál merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti meginmáls**, í reitinn **Meginmál merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     </Row>
     ```
 
-1. Í hlutanum **Hluti síðufóts** , í reitinn **Síðufótur merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti síðufóts**, í reitinn **Síðufótur merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
 
     ```plaintext
     ^PQ1^XZ
@@ -242,7 +242,7 @@ Næst skal stofna sniðmát bylgjumerkis fyrir gerð bylgjumerkisins.
     - **Keyra fyrirspurn:** *Já* (Þessi stilling er valfrjáls, en mælt er með henni til að hámarka afköst.)
 
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Sendingar*
     - **Afleidd tafla:** *Sendingar*
@@ -252,7 +252,7 @@ Næst skal stofna sniðmát bylgjumerkis fyrir gerð bylgjumerkisins.
     Þegar því er lokið skal velja **Í lagi** til að loka svarglugga fyrirspurnarritils.
 
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að opna glugga fyrirspurnarritils fyrir allt merkjasniðmát.
-1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Vinnulínur*
     - **Afleidd tafla:** *Vinnulínur*
@@ -296,10 +296,10 @@ Viðbætur númeraraðar stjórna GS1-reglufylgni tiltekinna númeraraða. Þess
     > [!NOTE]
     > Vörurnar og magnið sem er gefið upp hér er aðeins notað sem dæmi. Nota verður röðunarflokk einingar sem var skilgreindur áður, viðeigandi umreikninga eininga úr *ea* í *Kassi* í *PL* verður að vera skilgreint fyrir þær og þær að vera með birgðastöðu í vöruhúsi *62*. Frekari upplýsingar er að finna í [Mælieining og birgðareglur](unit-measure-stocking-policies.md).
 
-1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína** , í valmyndinni **Birgðir** , velja **Frátekningar**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
+1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína**, í valmyndinni **Birgðir**, velja **Frátekningar**.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
 1. Endurtakið skref 4 og 5 fyrir sölupöntunarlínu 2.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Eftirfarandi tilvik gerast:
 
@@ -307,7 +307,7 @@ Viðbætur númeraraðar stjórna GS1-reglufylgni tiltekinna númeraraða. Þess
     - Bylgjumerki eru búin til og prentuð. Fjöldi merkimiða verður sá sami og kassafjöldinn (í þessu dæmi, 376 kassamerki fyrir línu 1 og 322 kassamerki fyrir línu 2).
     - Nýtt auðkenni farmbréfs er búið til fyrir sendingarnar. Ef þú skilgreindir viðbætur númeraraðarinnar mun auðkenni bylgjumerkis fylgja **SSCC-18** númerasniðinu. 
 
-Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum. Á aðgerðasvæði hverrar síðu, í flipanum **Sendingar** , í flokknum **Tengdar upplýsingar** , skal velja **Bylgjumerki**.
+Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum. Á aðgerðasvæði hverrar síðu, í flipanum **Sendingar**, í flokknum **Tengdar upplýsingar**, skal velja **Bylgjumerki**.
 
 - Allar sendingar \> Upplýsingar sendingar
 - Allar hleðslur \> Upplýsingar um hleðslu
@@ -391,7 +391,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
 
 1. Ef ætlunin er að geta prentað auðkenni farmbréfsins, skal í flipanum **Samtengingar** velja töfluna **Vinnulínur** og tengja töfluna **Sendingar** við það.
 1. Lokið svarglugga fyrirspurnarritils.
-1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss** , **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss** , í reitinn **Síðuhaus merkis** , skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
+1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss**, **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss**, í reitinn **Síðuhaus merkis**, skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Í hlutanum **Hluti meginmáls** , í reitinn **Meginmál merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti meginmáls**, í reitinn **Meginmál merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     </Row>
     ```
 
-1. Í hlutanum **Hluti síðufóts** , í reitinn **Síðufótur merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti síðufóts**, í reitinn **Síðufótur merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
 
     ```plaintext
     ^PQ1^XZ
@@ -444,7 +444,7 @@ Nú er merkimiðinn tilbúinn til notkunar.
     - **Keyra fyrirspurn:** *Já* (Þessi stilling er valfrjáls, en mælt er með henni til að hámarka afköst.)
 
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Sendingar*
     - **Afleidd tafla:** *Sendingar*
@@ -495,10 +495,10 @@ Viðbætur númeraraðar stjórna GS1-reglufylgni tiltekinna númeraraða. Þess
     > [!NOTE]
     > Vörurnar og magnið sem er gefið upp hér er aðeins notað sem dæmi. Þær verða að hafa birgðir í tilgreindu vöruhúsi.
 
-1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína** , í valmyndinni **Birgðir** , velja **Frátekningar**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
+1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína**, í valmyndinni **Birgðir**, velja **Frátekningar**.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
 1. Endurtakið skref 4 og 5 fyrir hverja sölupöntunarlínu.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Eftirfarandi tilvik gerast:
 
@@ -534,9 +534,9 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
 2. Veldu sniðmát, t.d. **62 Sjálfgefin sending**.
 3. Í flýtiflipanum **Aðferðir** skal færa aðferðina **Prentun bylgjumerkis** í dálkinn **Valdar aðferðir**.
-4. Í dálknum **Valdar aðferðir** skal úthluta gildi **Bylgjuskrefakóða** , t.d. *Kassi* , á aðferðina **Prentun bylgjumerkis**. Frekari upplýsingar um bylgjuskrefakóða er að finna í [Kóðar bylgjuskrefs](wave-step-codes.md).
+4. Í dálknum **Valdar aðferðir** skal úthluta gildi **Bylgjuskrefakóða**, t.d. *Kassi*, á aðferðina **Prentun bylgjumerkis**. Frekari upplýsingar um bylgjuskrefakóða er að finna í [Kóðar bylgjuskrefs](wave-step-codes.md).
 5. Færið aðferðina **Prentun bylgjumerkis** yfir í dálkinn **Valdar aðferðir** í annað skiptið.
-6. Í dálknum **Valdar aðferðir** skal úthluta öðru gildi **Bylgjuskrefakóða** , t.d. *Bretti* , á aðra aðferð **Prentun bylgjumerkis**. Frekari upplýsingar um bylgjuskrefakóða er að finna í [Kóðar bylgjuskrefs](wave-step-codes.md).
+6. Í dálknum **Valdar aðferðir** skal úthluta öðru gildi **Bylgjuskrefakóða**, t.d. *Bretti*, á aðra aðferð **Prentun bylgjumerkis**. Frekari upplýsingar um bylgjuskrefakóða er að finna í [Kóðar bylgjuskrefs](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Stofna þrenns konar útlit bylgjumerkis
 
@@ -583,7 +583,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
 
 1. Ef ætlunin er að geta prentað auðkenni farmbréfsins, skal í flipanum **Samtengingar** velja töfluna **Vinnulínur** og tengja töfluna **Sendingar** við það. 
 1. Lokið svarglugga fyrirspurnarritils.
-1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss** , **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss** , í reitinn **Síðuhaus merkis** , skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
+1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss**, **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss**, í reitinn **Síðuhaus merkis**, skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Í hlutanum **Hluti meginmáls** , í reitinn **Meginmál merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti meginmáls**, í reitinn **Meginmál merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     </Row>
     ```
 
-1. Í hlutanum **Hluti síðufóts** , í reitinn **Síðufótur merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti síðufóts**, í reitinn **Síðufótur merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
 
     ```plaintext
     ^PQ1^XZ
@@ -695,7 +695,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
 
 1. Ef ætlunin er að geta prentað auðkenni farmbréfsins, skal í flipanum **Samtengingar** velja töfluna **Vinnulínur** og tengja töfluna **Sendingar** við það.
 1. Lokið svarglugga fyrirspurnarritils.
-1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss** , **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss** , í reitinn **Síðuhaus merkis** , skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
+1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss**, **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss**, í reitinn **Síðuhaus merkis**, skal færa inn kóða fyrir nauðsynlegan síðuhaus. Ef til dæmis Zebra-prentari er notaður er hægt að nota eftirfarandi kóða.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Í hlutanum **Hluti meginmáls** , í reitinn **Meginmál merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti meginmáls**, í reitinn **Meginmál merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegt meginmál. Eftirfarandi er dæmi.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     </Row>
     ```
 
-1. Í hlutanum **Hluti síðufóts** , í reitinn **Síðufótur merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
+1. Í hlutanum **Hluti síðufóts**, í reitinn **Síðufótur merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegan síðufót. Eftirfarandi er dæmi.
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     - **Lýsing:** *Sundurliðunarmerki*
 
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss** , **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss** , í reitinn **Síðuhaus merkis** , skal færa inn ZPL-kóða fyrir nauðsynlegan síðuhaus. Eftirfarandi er dæmi.
+1. Í flýtiflipanum **Textaútlit prentara** eru þrír hlutar þar sem hægt er að skrifa prentarakóða: **Hluti síðuhauss**, **Hluti meginmáls** og **Hluti síðufóts**. Í hlutanum **Hluti síðuhauss**, í reitinn **Síðuhaus merkis**, skal færa inn ZPL-kóða fyrir nauðsynlegan síðuhaus. Eftirfarandi er dæmi.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -783,7 +783,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     - **Kóði bylgjuskrefs:** *Pakki*
     - **Vöruhús:** *62*
 
-1. Í flýtiflipanum **Almennt** , í reitnum **Gerð bylgjumerkis** , skal velja gildi á borð við *Kassi*.
+1. Í flýtiflipanum **Almennt**, í reitnum **Gerð bylgjumerkis**, skal velja gildi á borð við *Kassi*.
 1. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal bæta við línu sem er með eftirfarandi stillingum:
 
     - **Útlitskenni merkis:** *Pakki*
@@ -791,7 +791,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     - **Keyra fyrirspurn:** *Já* (Þessi stilling er valfrjáls, en mælt er með henni til að hámarka afköst.)
 
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Sendingar*
     - **Afleidd tafla:** *Sendingar*
@@ -801,7 +801,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     Þegar því er lokið skal velja **Í lagi** til að loka svarglugga fyrirspurnarritils.
 
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að opna glugga fyrirspurnarritils fyrir allt merkjasniðmát.
-1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Vinnulínur*
     - **Afleidd tafla:** *Vinnulínur*
@@ -818,7 +818,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
 1. Veldu **Í lagi** til að loka svarglugga fyrirspurnarritils.
 1. Skilaboðagluggi biður um að endurstillingaraðgerð flokkunar verði staðfest. Veldu **Já** til að halda áfram.
 1. Á aðgerðasvæðinu skal velja **Sniðmátsflokkur bylgjumerkis**.
-1. Í svarglugganum **Sniðmátsflokkur bylgjumerkis** , fyrir línuna þar sem reiturinn **Heiti tilvísunarreits** er stilltur á *Auðkenni sendingar* , skal stilla eftirfarandi gildi:
+1. Í svarglugganum **Sniðmátsflokkur bylgjumerkis**, fyrir línuna þar sem reiturinn **Heiti tilvísunarreits** er stilltur á *Auðkenni sendingar*, skal stilla eftirfarandi gildi:
 
     - **Prenta sundurliðunarmerki:** Veljið þennan gátreit.
     - **Útlitskenni merkis:** Veljið sundurliðunarmerki. (Til dæmis velja merkjaútlitið *Sundurliðun* sem búið var til fyrr í þessari atburðarás.)
@@ -837,7 +837,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     - **Kóði bylgjuskrefs:** *Bretti*
     - **Vöruhús:** *62*
 
-1. Í flýtiflipanum **Almennt** , í reitnum **Gerð bylgjumerkis** , skal velja gildi á borð við *Bretti*.
+1. Í flýtiflipanum **Almennt**, í reitnum **Gerð bylgjumerkis**, skal velja gildi á borð við *Bretti*.
 1. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal bæta við línu sem er með eftirfarandi stillingum:
 
     - **Útlitskenni merkis:** *Bretti*
@@ -845,7 +845,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     - **Keyra fyrirspurn:** *Já* (Þessi stilling er valfrjáls, en mælt er með henni til að hámarka afköst.)
 
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Valfrjálst: Ef verið er að setja upp merkimiða sem hannaður er með ákveðinn viðskiptavin í huga, þarf að búa til fyrirspurn til að finna lykil viðskiptavinarins. Í flýtiflipanum **Sniðmátsupplýsingar bylgjumerkis** skal velja **Breyta fyrirspurn**. Því næst, í svarglugga fyrirspurnarritils í flipanum **Svið**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Sendingar*
     - **Afleidd tafla:** *Sendingar*
@@ -855,7 +855,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     Þegar því er lokið skal velja **Í lagi** til að loka svarglugga fyrirspurnarritils. 
 
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að opna glugga fyrirspurnarritils fyrir allt merkjasniðmát.
-1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun** , skal bæta við línu sem er með eftirfarandi stillingar:
+1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun**, skal bæta við línu sem er með eftirfarandi stillingar:
 
     - **Tafla:** *Vinnulínur*
     - **Afleidd tafla:** *Vinnulínur*
@@ -872,7 +872,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
 1. Veldu **Í lagi** til að loka svarglugga fyrirspurnarritils.
 1. Skilaboðagluggi biður um að endurstillingaraðgerð flokkunar verði staðfest. Veldu **Já** til að halda áfram.
 1. Á aðgerðasvæðinu skal velja **Sniðmátsflokkur bylgjumerkis**.
-1. Í svarglugganum **Sniðmátsflokkur bylgjumerkis** , fyrir línuna þar sem reiturinn **Heiti tilvísunarreits** er stilltur á *Auðkenni sendingar* , skal stilla eftirfarandi gildi:
+1. Í svarglugganum **Sniðmátsflokkur bylgjumerkis**, fyrir línuna þar sem reiturinn **Heiti tilvísunarreits** er stilltur á *Auðkenni sendingar*, skal stilla eftirfarandi gildi:
 
     - **Prenta sundurliðunarmerki:** Veljið þennan gátreit.
     - **Útlitskenni merkis:** Veljið sundurliðunarmerki. (Til dæmis velja merkjaútlitið *Sundurliðun* sem búið var til fyrr í þessari atburðarás.)
@@ -912,10 +912,10 @@ Viðbætur númeraraðar stjórna GS1-reglufylgni tiltekinna númeraraða. Þess
     > [!NOTE]
     > Vörurnar og magnið sem er gefið upp hér er aðeins notað sem dæmi. Nota verður röðunarflokk einingar sem var skilgreindur áður, viðeigandi umreikninga eininga úr *ea* í *Kassi* í *PL* verður að vera skilgreint fyrir þær og þær að vera með birgðastöðu í vöruhúsi *62*. Frekari upplýsingar er að finna í [Mælieining og birgðareglur](unit-measure-stocking-policies.md).
 
-1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína** , í valmyndinni **Birgðir** , velja **Frátekningar**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
+1. Velja sölupöntunarlínu 1. Því næst skal, í hlutanum **Sölupöntunarlína**, í valmyndinni **Birgðir**, velja **Frátekningar**.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** og loka svo síðunni.
 1. Endurtakið skref 4 og 5 fyrir sölupöntunarlínu 2.
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús** , skal velja **Losa í vöruhús**.
+1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
     Eftirfarandi tilvik gerast: 
 

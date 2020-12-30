@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011421"
+ms.locfileid: "4419099"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Undirbúningur fyrir keyrslu á Human Resources
 
@@ -57,7 +57,7 @@ Stór áfangi í hverju innleiðingarverki fyrir sig er flutningur yfir í vinns
 
 Til að tryggja að vinnsluumhverfið sé notað fyrir virkar aðgerðir, úthlutar Microsoft aðeins vinnsluumhverfinu þegar innleiðingin nálgast áfangann **Stjórna** þegar áskildum aðgerðum í LCS-aðferðinni er lokið. Frekari upplýsingar um umhverfin í áskriftinni þinni er að finna í  [Leyfishandbók Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Viðskiptavinir verða að ljúka við áfangana **Greining** , **Hanna og þróa** og **Prófa** í LCS-aðferðinni áður en  **Skilgreina** hnappurinn til að biðja um vinnsluumhverfið verður aðgengilegur. Til að ljúka áfanga í LCS verður fyrst að ljúka öllum nauðsynlegum skrefum í þeim áfanga. Þegar öllum skrefum í áfanga er lokið er hægt að ljúka öllum áfanganum. Alltaf er hægt að opna áfanga aftur síðar ef gera þarf breytingar. Frekari upplýsingar er að finna í  [Viðskiptavinir Lifecycle Services (LCS) fyrir Finance and Operations forrit](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Viðskiptavinir verða að ljúka við áfangana **Greining**, **Hanna og þróa** og **Prófa** í LCS-aðferðinni áður en  **Skilgreina** hnappurinn til að biðja um vinnsluumhverfið verður aðgengilegur. Til að ljúka áfanga í LCS verður fyrst að ljúka öllum nauðsynlegum skrefum í þeim áfanga. Þegar öllum skrefum í áfanga er lokið er hægt að ljúka öllum áfanganum. Alltaf er hægt að opna áfanga aftur síðar ef gera þarf breytingar. Frekari upplýsingar er að finna í  [Viðskiptavinir Lifecycle Services (LCS) fyrir Finance and Operations forrit](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Ferlið við að ljúka við skref er með tvo hluta: 
 

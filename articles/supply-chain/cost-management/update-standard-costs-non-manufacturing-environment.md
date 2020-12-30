@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 09dca3012952b739a75a6930908752fba73a4550
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214110"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430281"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu
 
@@ -42,7 +42,7 @@ Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu ná
 
 Þannig er farið að við að leiðrétta, aðlaga eða uppfæra staðlaðan kostnað nýrra vara:
 
-1.  Notið skjámyndina **Kostnaðarútgáfa** **Uppsetning**til að leyfa skráningu á kostnaðarfærslum inn í seinni kostnaðarútgáfuna. Koma má í veg fyrir virkjun á kostnaði í bið, svo að virkjun verði leyfð eftir að kostnaður í bið hefur verið algerlega og nákvæmlega skilgreindur. Einnig er hægt að færa inn dagsetningu í svæðinu **Frá dagsetningu**. Gott er að nota dagsetninguna þegar á að virkja stigvaxandi uppfærslur. Sem annar valkostur, skiljið svæðið **Frá dagsetningu** eftir autt fyrir kostnaðarútgáfuna, og færið svo inn dagsetningu í svæðið **Frá dagsetningu** fyrir hverja kostnaðarfærslu.
+1.  Notið skjámyndina **Kostnaðarútgáfa** **Uppsetning** til að leyfa skráningu á kostnaðarfærslum inn í seinni kostnaðarútgáfuna. Koma má í veg fyrir virkjun á kostnaði í bið, svo að virkjun verði leyfð eftir að kostnaður í bið hefur verið algerlega og nákvæmlega skilgreindur. Einnig er hægt að færa inn dagsetningu í svæðinu **Frá dagsetningu**. Gott er að nota dagsetninguna þegar á að virkja stigvaxandi uppfærslur. Sem annar valkostur, skiljið svæðið **Frá dagsetningu** eftir autt fyrir kostnaðarútgáfuna, og færið svo inn dagsetningu í svæðið **Frá dagsetningu** fyrir hverja kostnaðarfærslu.
 2.  Nota skal síðuna **Vöruverð** til að færa inn uppfærslur sem kostnaðarfærslur vöru sem eru innan seinni kostnaðarútgáfunnar.
 3.  Notið skýrsluna **Vöruverð** til að sannprófa heilleika og réttmæti vörukostnaðarfærslanna innan seinni kostnaðarútgáfunnar.
 4.  Notið síðuna **Viðhald kostnaðarútgáfu** til að breyta lokunarflaggi til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.

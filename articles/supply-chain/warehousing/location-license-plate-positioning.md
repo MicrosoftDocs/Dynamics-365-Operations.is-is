@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017117"
+ms.locfileid: "4430655"
 ---
 # <a name="location-license-plate-positioning"></a>Númeraplötustaða staðsetningar
 
@@ -44,7 +44,7 @@ Eiginleikinn bætir raðnúmeri við hverja númeraplötu sem er sett á geymslu
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessar aðstæður með því að nota gildin sem hér koma fram, verður þú að nota kerfi þar sem sýnigögn eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota gildin sem hér koma fram, verður þú að nota kerfi þar sem sýnigögn eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Setja upp eiginleikann fyrir þessar aðstæður
 
@@ -60,11 +60,11 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
 
     - **Virkja númeraplötustöðu:** *Já*
 
-        Þegar aðgerðin er stillt á *Já* , verður númeraplötustöðunni haldið við fyrir númeraplötur í staðsetningunni.
+        Þegar aðgerðin er stillt á *Já*, verður númeraplötustöðunni haldið við fyrir númeraplötur í staðsetningunni.
 
     - **Birta númeraplötustöðu í fartæki:** *Já*
 
-        Þegar þessi valkostur er stilltur á *Já* , verður fartækjanotendum sýnd númeraplötustaðan við breytingar og talningu. Þú getur aðeins breytt stillingunni á þessum möguleika þegar kveikt er á eiginleikanum.
+        Þegar þessi valkostur er stilltur á *Já*, verður fartækjanotendum sýnd númeraplötustaðan við breytingar og talningu. Þú getur aðeins breytt stillingunni á þessum möguleika þegar kveikt er á eiginleikanum.
 
 1. Veljið **Vista**.
 
@@ -75,7 +75,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
 1. Veldu **61 Tiltektarpöntun sölupöntunar** á listanum yfir staðsetningarleiðbeiningar.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Á flýtiflipanum **Línur** velur þú línuna sem hefur **raðnúmeragildið** *2*.
-1. Á flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** , velur þú línuna sem hefur **Nafngildi** *Taka til fyrir minna en bretti* (hún ætti að vera eina lína) og breytir **Raðnúmeragildi** hennar í *2*.
+1. Á flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum**, velur þú línuna sem hefur **Nafngildi** *Taka til fyrir minna en bretti* (hún ætti að vera eina lína) og breytir **Raðnúmeragildi** hennar í *2*.
 1. Veldu **Nýtt** fyrir ofan hnitanetið til að bæta við línu fyrir nýjar aðgerðir í staðsetningarleiðbeiningum.
 1. Stilltu eftirfarandi gildi á nýju línunni:
 
@@ -184,7 +184,7 @@ Vinnu er nú lokið.
 
 1. Innskráning í Dynamics 365 Supply Chain Management.
 1. Opnaðu **Vöruhúsastjórnun \> Vinna \> Upplýsingar um vinnu**.
-1. Finndu línur með eftirfarandi gildi á flipanum **Yfirlit** :
+1. Finndu línur með eftirfarandi gildi á flipanum **Yfirlit**:
 
     - **Gerð verkpöntunar:** *Regluleg talning*
     - **Vöruhús:** *61*
@@ -195,7 +195,7 @@ Vinnu er nú lokið.
 1. Veldu fyrsta vinnuauðkennið fyrir gerð verkbeiðni *Reglulegrar talningar*.
 1. Á Aðgerðasvæðinu á flipanum **Vinna** í hópnum **Vinna** velur þú **Regluleg talning**.
 
-    Tvær línur birtast, ein fyrir hverja vöru fyrir sig og númeraplata. Gildin í svæðunum **Talið magn** , **Staðsetning** , **Númeraplata** og **Vara** ættu að passa við talningarfærslurnar sem þú bjóst til í fartækinu. Ef einhver af þessum reitum er ekki sýnilegur skaltu smella á **Sýna víddir** á aðgerðasvæðinu til að bæta þeim við hnitanetið.
+    Tvær línur birtast, ein fyrir hverja vöru fyrir sig og númeraplata. Gildin í svæðunum **Talið magn**, **Staðsetning**, **Númeraplata** og **Vara** ættu að passa við talningarfærslurnar sem þú bjóst til í fartækinu. Ef einhver af þessum reitum er ekki sýnilegur skaltu smella á **Sýna víddir** á aðgerðasvæðinu til að bæta þeim við hnitanetið.
 
 1. Veldu báðar línurnar.
 1. Veldu **Samþykkja talningu** á aðgerðasvæðinu.
@@ -213,7 +213,7 @@ Vinnu er nú lokið.
 1. Smelltu á flipann **Yfirlit** og veldu annað vinnuauðkenni fyrir gerð verkbeiðni *Reglulegrar talningar*.
 1. Á Aðgerðasvæðinu á flipanum **Vinna** í hópnum **Vinna** velur þú **Regluleg talning**.
 
-    Ein lína birtist fyrir vöruna og númeraplötuna. Gildin í svæðunum **Talið magn** , **Staðsetning** , **Númeraplata** og **Vara** ættu að passa við talningarfærslurnar sem þú bjóst til í fartækinu.
+    Ein lína birtist fyrir vöruna og númeraplötuna. Gildin í svæðunum **Talið magn**, **Staðsetning**, **Númeraplata** og **Vara** ættu að passa við talningarfærslurnar sem þú bjóst til í fartækinu.
 
 1. Veldu línuna.
 1. Veldu **Samþykkja talningu** á aðgerðasvæðinu.
@@ -235,14 +235,14 @@ Vinnu er nú lokið.
     - **Vöruhús:** *61*
     - **Uppfæra á öllum staðsetningum:** *Já*
 
-1. Taktu eftir að tvær númeraplötur eru fyrir staðsetningu *01A01R1S1B* :
+1. Taktu eftir að tvær númeraplötur eru fyrir staðsetningu *01A01R1S1B*:
 
-    - **A0001** , þar sem svæðið **Númeraplötustaður** er stilltur á *1*
-    - **A0002** , þar sem svæðið **Númeraplötustaður** er stilltur á *2*
+    - **A0001**, þar sem svæðið **Númeraplötustaður** er stilltur á *1*
+    - **A0002**, þar sem svæðið **Númeraplötustaður** er stilltur á *2*
 
-1. Taktu eftir því að ein númeraplata er fyrir staðsetningu *01A01R1S2B* :
+1. Taktu eftir því að ein númeraplata er fyrir staðsetningu *01A01R1S2B*:
 
-    - **A0002** , þar sem svæðið **Númeraplötustaður** er stilltur á *1*
+    - **A0002**, þar sem svæðið **Númeraplötustaður** er stilltur á *1*
 
 ### <a name="sales-order-scenario"></a>Aðstæður sölupöntunar
 
@@ -250,7 +250,7 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
 
     - **Viðskiptavinalykill:** *US-004*
     - **Vöruhús:** *61*
@@ -262,9 +262,9 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
     - **Magn:** *1*
 
 1. Á valmyndinni **Birgðir** fyrir ofan hnitanetið smellir þú á **Frátekning**.
-1. Á síðunni **Frátekning** , á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir fyrir pöntunarlínuna.
+1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá birgðir fyrir pöntunarlínuna.
 1. Lokaðu síðunni **Frátekning**.
-1. Á aðgerðarrúðunni, á flipanum **Vöruhús** , í hópnum **Aðgerðir** , velurðu **Losa í vöruhús**.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
 
     Þú færð upplýsingaboð sem tilgreina bylgjuauðkenni og sendingarkenni sem voru búin til fyrir pöntunina.
 

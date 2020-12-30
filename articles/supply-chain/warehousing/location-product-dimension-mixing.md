@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017162"
+ms.locfileid: "4430656"
 ---
 # <a name="location-product-dimension-mixing"></a>Blöndun á afurðarvídd staðsetningar
 
@@ -57,7 +57,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 1. Opna **upplýsingar um afurðastjórnun \> Afurðir \> Afurðarsniðmát**.
 1. Á aðgerðasvæðinu skal velja **Nýtt** til að stofna nýtt afurðarsniðmát.
-1. Sláið inn eftirfarandi gildi í svarglugganum **Ný afurð** :
+1. Sláið inn eftirfarandi gildi í svarglugganum **Ný afurð**:
 
     - **Gerð afurðar:** *Afurð*
     - **Undirgerð afurðar:** *Afurðarsniðmát*
@@ -67,7 +67,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
     - **Skilgreiningartækni:** *Forskilgreint afbrigði*
 
 1. Veljið **Í lagi**.
-1. Stilltu eftirfarandi gildi á síðunni **Upplýsingar um afurð** á flýtiflipanum **Almennt** :
+1. Stilltu eftirfarandi gildi á síðunni **Upplýsingar um afurð** á flýtiflipanum **Almennt**:
 
     - **Búa til afbrigði sjálfkrafa** *Já*
     - **Stærðarflokkur:** *CASUALDHIR*
@@ -88,7 +88,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 ### <a name="update-a-released-product-in-the-usmf-company"></a>Uppfæra afurð sem losað var um í USMF-fyrirtækinu
 
-1. Gakktu úr skugga um að þú sért skráð(ur) inn á **USMF** -fyrirtækið.
+1. Gakktu úr skugga um að þú sért skráð(ur) inn á **USMF**-fyrirtækið.
 1. Opnaðu **Afurðaupplýsingastjórnun \> Afurðir \> Losaðar afurðir** til að ljúka við að búa til losuðu afurðina.
 1. Leitaðu að og veldu vörunúmer *B0001* til að opna síðuna **Upplýsingasíða um losaðar afurðir**.
 1. Á aðgerðarúðunni skal velja **Breyta**.
@@ -104,7 +104,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 1. Stilltu svæðið **Frátekningarstigveldi** á *Sjálfgefið* og smelltu síðan á **Í lagi**.
 1. Athugaðu á flýtiflipanum **Almennt** í hlutanum **Stjórnun** hvort að valkostir þinir hafi verið uppfærðir.
 1. Í flýtiflipanum **Kaup** í svæðinu **Verð** slærðu inn *10*.
-1. Á flýtiflipanum **Stjórna kostnaði** , í reitnum **Vöruflokkur** skal slá inn *Hljóð*.
+1. Á flýtiflipanum **Stjórna kostnaði**, í reitnum **Vöruflokkur** skal slá inn *Hljóð*.
 1. Í flýtiflipanum **Kaup** í svæðinu **Verð** slærðu inn *10*.
 1. Á flýtiflipanum **Vöruhús** á svæðinu **Auðkenni röðunarflokks einingar** skaltu slá inn *ea*.
 1. Veljið **Vista**.
@@ -153,7 +153,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
     - **Máti:** *Vinna*
     - **Nota fyrirliggjandi vinnu:** *Nei*
 
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt** :
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
     - **Stofnunarferli vinnu:** *Móttaka og frátekning innkaupapöntunarlínu*
     - **Mynda númeraplötu:** *Já*
@@ -181,7 +181,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 1. Opnið **Viðskiptaskuldir \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun** :
+1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun**:
 
     - **Lánardrottnalykill:** *1001*
     - **Vöruhús:** *24*
@@ -216,7 +216,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 1. Staðfestu innsláttinn með því að smella á staðfestingarhnappinn (✔) neðst á síðunni.
 1. Sláðu inn línunúmerið í innkaupapöntuninni sem verið er að taka á móti. Veldu svæðið **LINENUM** og sláðu inn *1* með talnaborðinu.
 1. Staðfestu færsluna.
-1. Færðu inn magnið sem á að taka við. Veldu hnappinn með plúsmerkinu ( **+** ) tvisvar til að hækka gildið á svæðinu **Magn** í *2*.
+1. Færðu inn magnið sem á að taka við. Veldu hnappinn með plúsmerkinu (**+**) tvisvar til að hækka gildið á svæðinu **Magn** í *2*.
 1. Skráðu færsluna þína með því að velja hnappinn (✔) neðst á síðunni og staðfestu síðan færsluna með því að velja hnappinn (✔) aftur.
 1. Skoða upplýsingar á síðunni **Innkaupapantanir: Frágangur**. Þessi síða birtir vinnuna sem var stofnuð fyrir fráganginn (Vinna 1).
 
@@ -238,4 +238,4 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 1. Veldu valmyndarhnappinn efst á síðunni (stundum kallaður hamborgari eða hamborgarahnappur) og veldu síðan **Hætta við** til að loka **Móttöku innkaupapöntunarlínu**.
 
 > [!TIP]
-> Þú getur endurtekið þessar aðstæður, en í þetta sinn skaltu stilla **Stærð** - *Nei* fyrir neðan **Leyfa blöndun á afurðarvídd** flýtiflipann á *Staðsetningarforstillingar* **Magns** , þannig að ekki sé hægt að blanda saman afurðarvíddum. Í þessu tilfelli, þegar þú færð innkaupapöntunina, verður hvert afurðarafbrigði sett á nýja staðsetningu.
+> Þú getur endurtekið þessar aðstæður, en í þetta sinn skaltu stilla **Stærð** - *Nei* fyrir neðan **Leyfa blöndun á afurðarvídd** flýtiflipann á *Staðsetningarforstillingar* **Magns**, þannig að ekki sé hægt að blanda saman afurðarvíddum. Í þessu tilfelli, þegar þú færð innkaupapöntunina, verður hvert afurðarafbrigði sett á nýja staðsetningu.

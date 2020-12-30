@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018377"
+ms.locfileid: "4430686"
 ---
 # <a name="set-up-consignment"></a>Uppsetning vörusendingar
 
@@ -40,7 +40,7 @@ Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á �
 2.  Lánardrottinn fær upplýsingar um áætlaða afhendingardagsetningu. Þetta getur gerst á þrjá vegu:
     -   Einhver sem vinnur hjá USMF sendir upplýsingar um pöntun til lánardrottins.
     -   Lánardrottinn getur einnig að fylgjast viðbúnum birgðum á lager með því að nota viðmót fyrir samstarf lánardrottna.
-    -   Einhver sem vinna hjá USMF síar gögn á **lagerbirgðir** síða til að sýna einungis færslur lánardrottins US-104, þar sem er staða innhreyfingar er **Pantað** , og sendir síðan þessar upplýsingar til lánardrottins.
+    -   Einhver sem vinna hjá USMF síar gögn á **lagerbirgðir** síða til að sýna einungis færslur lánardrottins US-104, þar sem er staða innhreyfingar er **Pantað**, og sendir síðan þessar upplýsingar til lánardrottins.
 3.  Birgðum er afhent frá US-104 USMF.
 4.  Þegar efni berst USMF, er áfyllingarpöntun vörusendingar uppfærð með innhreyfingarskjal afurða. Aðeins efnislegu magni birgða á lager í eigu lánardrottins eru skráðar. Það eru engar færslur fjárhags stofnuð vegna þess að birgðum er enn í eigu lánardrottins.
 5.  Lánardrottinn fylgist með Uppfærslur í efnislegum lagerbirgðum með **vörusendingabirgðir á lager** síðu.

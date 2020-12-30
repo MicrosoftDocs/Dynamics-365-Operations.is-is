@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215701"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430217"
 ---
 # <a name="packing-materials-and-fees"></a>Umbúðaefni og gjöld
 
@@ -102,7 +102,7 @@ Ef sölupantanir tiltekins viðskiptavinar eiga að innihalda gjöld fyrir umbú
 
 Þegar þú býrð til og reikningsfærir sölupöntun sem inniheldur eina eða fleiri vörur sem nota umbúðaefni mun reikningurinn sýna umbúðaefnisgjöldin.
 
-Fylgdu þessum sömu skrefum fyrir viðskiptavini sem ættu ekki að greiða umbúðaefnisgjöld en hreinsaðu leyfisnúmerin úr reitunum **Leyfisnúmer fyrir umbúðagjald**og **Leyfisnúmer**. Reikningar fyrir viðskiptavini sem ekki greiða umbúðaefnisgjald sýna þyngd umbúðaefnanna, en þeir sýna ekki gjöldin.
+Fylgdu þessum sömu skrefum fyrir viðskiptavini sem ættu ekki að greiða umbúðaefnisgjöld en hreinsaðu leyfisnúmerin úr reitunum **Leyfisnúmer fyrir umbúðagjald** og **Leyfisnúmer**. Reikningar fyrir viðskiptavini sem ekki greiða umbúðaefnisgjald sýna þyngd umbúðaefnanna, en þeir sýna ekki gjöldin.
 
 Til að búa til skýrslu sem sýnir öll umbúðaefnisgjöld sem fyrirtæki þitt skuldar fyrir tiltekið tímabil ferðu á **Birgðastjórnun \> Fyrirspurnir og skýrslur \> Skýrslur um umbúðaefni \> Útreikningur umbúðaefnisgjalds**, tilgreinir dagsetningarsvið og velur síðan **Í lagi**.
 

@@ -20,11 +20,11 @@ ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022472"
+ms.locfileid: "4413291"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
 
@@ -62,7 +62,7 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 > [!NOTE]
 > **Hægri** útlit og birting dagsetningar/tíma gilda ekki fyrir innskráningarskjáinn í þjappaði skoðun.
 
-Þú þarft að keyra **1090** ( **Afgreiðslukassar** ) dreifingaráætlunarvinnslu til að samstilla nýjustu skilgreiningar á sjónrænu sniði við gagnagrunn rásar.
+Þú þarft að keyra **1090** (**Afgreiðslukassar**) dreifingaráætlunarvinnslu til að samstilla nýjustu skilgreiningar á sjónrænu sniði við gagnagrunn rásar.
 
 ## <a name="screen-layouts"></a>Útlit afgreiðsluskjás
 
@@ -84,7 +84,7 @@ Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stj
 
 Hægt er að úthluta útliti afgreiðsluskjás á verslunar-, afgreiðslukassa- eða notandastigi. Notandaúthlutunin hnekkir afgreiðslukassa- og verslunarúthlutuninni, og afgreiðslukassaúthlutunin hnekkir verslunarúthlutuninni. Í einföldu dæmi þar sem allir notendur nota sömu útlitið, óháð afgreiðslukassa eða hlutverki, er aðeins hægt að stilla skjáuppsetninguna á verslunarstiginu. Í dæmum þar sem tilteknar afgreiðslukassar eða notendur þurfa sérsniðið útlit, þá er hægt að úthluta því útliti.
 
-Allt eftir því hvaða stig skjáútlits er notað þarf að keyra **1070** ( **Grunnstilling rásar** ), **1090** ( **afgreiðslukassar** ), og/eða **1060** ( **Starfsfólk** ) dreifingaráætlunarvinnslur til að samstilla nýjustu skilgreiningar skjáútlits í gagnagrunni rásar.
+Allt eftir því hvaða stig skjáútlits er notað þarf að keyra **1070** (**Grunnstilling rásar**), **1090** (**afgreiðslukassar**), og/eða **1060** (**Starfsfólk**) dreifingaráætlunarvinnslur til að samstilla nýjustu skilgreiningar skjáútlits í gagnagrunni rásar.
 
 ### <a name="layout-sizes"></a>Útlitsstærðir
 

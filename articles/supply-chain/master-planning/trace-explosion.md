@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88e777d69c9da8a19c186bca3ca591e59af232f0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978081"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430107"
 ---
 # <a name="use-tracing-for-explosion"></a>Nota rakningu fyrir niðurbrot
 
@@ -39,7 +39,7 @@ Með því að gera rakningu, er°hægt að skoða upplýsingar um þætti sem h
 -   Herma eftir niðurstöðum áætlunargerðar til að ákvarða hvort færibreytur áætlanagerðar eru ákjósanlegar.
 -   Tilgreina hvernig upplýsingar, svo sem framleiðsludagsetningar, magn og forgangur fyrir pöntun var ákvarðaður.
 
-Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda pöntun. Á v**Niðurbrot** síðunni er hægt að sjá upplýsingar um rakningu í flipanum **Útskýring** í efri rúðunni. Rakning á sér stað þegar pöntun er brotin niður. Til að hefja rakningu fyrir pöntun, smellið á **Uppfæra**, og veljið því næst gátreitinn **Leyfa rakningu**. Hægt er að nota svæðið **Finna texta** til að leita að sérstökum upplýsingum í kladdanum. Leitarniðurstöður eru auðkenndar í trénu.
+Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda pöntun. Á v **Niðurbrot** síðunni er hægt að sjá upplýsingar um rakningu í flipanum **Útskýring** í efri rúðunni. Rakning á sér stað þegar pöntun er brotin niður. Til að hefja rakningu fyrir pöntun, smellið á **Uppfæra**, og veljið því næst gátreitinn **Leyfa rakningu**. Hægt er að nota svæðið **Finna texta** til að leita að sérstökum upplýsingum í kladdanum. Leitarniðurstöður eru auðkenndar í trénu.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

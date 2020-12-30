@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018354"
+ms.locfileid: "4430739"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Stofna áfyllingarpöntun vörusendingar
 
@@ -33,7 +33,7 @@ ms.locfileid: "4018354"
 ## <a name="create-a-consignment-replenishment-order"></a>Stofna áfyllingarpöntun vörusendingar
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Vörusending > Áfyllingarpantanir vörusendingar**.
 2. Veljið **Nýtt**.
-3. Í reitnum **Lánardrottnareikningur** velurðu lánardrottinn **US-104** (þú verður að velja lánardrottinn sem er skráður sem eigandi á síðunni **birgðaeigendur** ). 
+3. Í reitnum **Lánardrottnareikningur** velurðu lánardrottinn **US-104** (þú verður að velja lánardrottinn sem er skráður sem eigandi á síðunni **birgðaeigendur**). 
 4. Veljið **Í lagi**.
 5. Veldu **Bæta við línu**.
 6. Í reitnum **Vörunúmer** slærðu inn `M9211CI` (þú verður að velja hlut sem er settur upp fyrir vörusendingarbirgðum).

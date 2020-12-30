@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428663"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419043"
 ---
 # <a name="define-new-jobs"></a>Skilgreina ný störf
 
@@ -57,7 +57,7 @@ ms.locfileid: "3428663"
 21. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 22. Í listanum skal smella á tengilinn í valinni línu.
 23. Víxla útvíkkun á liðnum hæfni.
-    * Athugið að svæðin í Hæfni, Menntun eða Skírteini flýtiflipi er auð. Eftir að afrita upplýsingarnar úr vinnslusniðmáti, í þessi svæði fært inn í eitt skref.   
+    * Athugið að svæðin í Hæfni, Menntun eða Skírteini flýtiflipi er auð. Eftir að afrita upplýsingarnar úr vinnslusniðmáti, í þessi svæði fært inn í eitt skref.   
 24. Smellið á „Vista“.
 25. Smellt er á Afrita úr.
 26. Smellt er á Afrita úr sniðmát

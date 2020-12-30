@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016034"
+ms.locfileid: "4430724"
 ---
 # <a name="system-directed-cluster-picking"></a>Kerfisstýrð klasatiltekt
 
@@ -129,9 +129,9 @@ Fylgdu þessum skrefum til að búa til nýjan valmyndaratriði fartæki fyrir k
 1. Veljið valmyndina **Á útleið**.
 1. Veljið **Breyta** á aðgerðasvæðinu.
 1. Flettið þar til **SD-klasi** finnst.
-1. Veljið **Sd-klasi** , örin sem bendir á listann **Valmyndaskipan** virkjast.
+1. Veljið **Sd-klasi**, örin sem bendir á listann **Valmyndaskipan** virkjast.
 1. Veljið **örvarhnappinn** til að færa valmyndaratriðið **SD-klasi** í valmyndaskipanina **Á útleið**.
-1. Veljið **SD-klasi** úr listanum **Valmyndaskipan** , veljið síðan örvarnar **UPP** eða **NIÐUR** til að færa valmyndaratriðið í æskilega stöðu í valmynd fartækis.
+1. Veljið **SD-klasi** úr listanum **Valmyndaskipan**, veljið síðan örvarnar **UPP** eða **NIÐUR** til að færa valmyndaratriðið í æskilega stöðu í valmynd fartækis.
 
 ## <a name="scenario"></a>Aðstæður
 
@@ -186,7 +186,7 @@ Fylgdu þessum skrefum til að búa til nýjan valmyndaratriði fartæki fyrir k
     - Á aðgerðasvæðinu skal velja flipann **Bylgja**.
     - Í flokknum **Bylgja** skal velja **Úrvinnsla** til að vinna úr bylgjunni og búa til **Verk**.
     - Upplýsingaboð verða búin til þegar úrvinnslu lýkur, sem segir að verk hafi verið stofnað og bylgja hefur verið bókuð.
-1. **Valfrjálst** : Opnið **Vöruhúsakerfi > Verk > Upplýsingar um verk** til að skoða stofnað verk. Tvö mismunandi vinnukenni eru búin til. Hvert vinnukenni hefur tvær tínslulínur.
+1. **Valfrjálst**: Opnið **Vöruhúsakerfi > Verk > Upplýsingar um verk** til að skoða stofnað verk. Tvö mismunandi vinnukenni eru búin til. Hvert vinnukenni hefur tvær tínslulínur.
 
 ### <a name="run-the-mobile-device-flow"></a>Keyrðu fartækjaflæðið
 
