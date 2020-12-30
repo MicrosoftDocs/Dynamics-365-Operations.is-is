@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019519"
+ms.locfileid: "4413288"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Virkja og nota deilingu milli rása
 
@@ -72,10 +72,10 @@ Hægt er að búa til og nota efni milli rása á margan hátt. Til dæmis er h�
 Til að búa til brot milli rása í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
-1. Í svarglugganum **Nýtt brot** skal velja eininguna **Tilboðsborði** og síðan undir **Heiti brots** skal færa inn heiti (t.d. **Borði milli rása** ). Veljið síðan **Í lagi**.
+1. Í svarglugganum **Nýtt brot** skal velja eininguna **Tilboðsborði** og síðan undir **Heiti brots** skal færa inn heiti (t.d. **Borði milli rása**). Veljið síðan **Í lagi**.
 1. Á eiginleikasvæðinu fyrir eininguna **Tilboðsborði** skal velja **Bæta skilaboðum við** og síðan velja **Skilaboð**.
-1. Í svarglugganum **Skilaboð** , undir **Texti** , skal færa inn **Milli rása** og síðan velja **Í lagi**. 
-1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
+1. Í svarglugganum **Skilaboð**, undir **Texti**, skal færa inn **Milli rása** og síðan velja **Í lagi**. 
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
 
 Hægt er að nota þetta brot milli rása fyrir síður milli rása eða tiltekna síðu sem eru búnar til í hvaða rás svæðis sem er.
 
@@ -87,9 +87,9 @@ Til að búa til síðu milli rása í Commerce-vefsmið sem notar efni milli r�
 
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
 1. Í svarglugganum **Velja sniðmát** skal velja sniðmát eins og **Markaðssetning**.
-1. Undir **Síðuheiti** skal færa inn heiti fyrir síðuna (til dæmis **Millirásarsíða** ).
-1. Undir **Vefslóð síðu** skal færa inn vefslóð síðu (t.d. **examplepage** ) og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við broti**.
+1. Undir **Síðuheiti** skal færa inn heiti fyrir síðuna (til dæmis **Millirásarsíða**).
+1. Undir **Vefslóð síðu** skal færa inn vefslóð síðu (t.d. **examplepage**) og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við broti**.
 1. Í svarglugganum **Bæta við broti** skal velja brot milli rásar sem var áður búið til og er með tilboðsborða og velja síðan **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá tilboðsborðann sem á stendur „Milli rása“.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
@@ -102,10 +102,10 @@ Til að búa til síðu rásar í Commerce-vefsmið sem notar efni milli rása s
 
 1. Innan tiltekinnar rásar, t.d. **Stækkuð Fabrikam netverslun** skal fara í **Síður** og síðan velja **Ný** til að búa til nýja síðu.
 1. Í svarglugganum **Velja sniðmát** skal velja sniðmát eins og **Markaðssetning**.
-1. Undir **Síðuheiti** skal færa inn heiti fyrir síðuna (til dæmis **Síða rásar** ).
-1. Undir **Vefslóð síðu** skal færa inn vefslóð síðu (t.d. **channelspecificpage** ) og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við broti**.
-1. Í svarglugganum **Bæta við broti** , undir **Rás** , skal velja **Netverslun milli rása**. Brotið milli rása sem búið var til hér á undan ætti að birtast í listanum. Veljið það og veljið síðan **Í lagi**.
+1. Undir **Síðuheiti** skal færa inn heiti fyrir síðuna (til dæmis **Síða rásar**).
+1. Undir **Vefslóð síðu** skal færa inn vefslóð síðu (t.d. **channelspecificpage**) og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við broti**.
+1. Í svarglugganum **Bæta við broti**, undir **Rás**, skal velja **Netverslun milli rása**. Brotið milli rása sem búið var til hér á undan ætti að birtast í listanum. Veljið það og veljið síðan **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá tilboðsborðann sem á stendur „Milli rása“.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
@@ -119,10 +119,10 @@ Til að búa til útgáfu tiltekinnar rásar fyrir síðu milli rása í Commerc
 1. Opnið síðu milli rása sem var búin til hér á undan.
 1. Í reitnum **Rás** uppi hægra megin skal velja rásina sem á að vera með tiltekið efni. Síðuritillinn sýnir skilaboð sem biðja þig um að búa til nýtt síðuafbrigði.
 1. Veljið **Búa til síðuafbrigði**.
-1. Í hólfinu **Aðalsvæði** í síðuafbrigðinu skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Aðalsvæði** í síðuafbrigðinu skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Tilboðsborði** og síðan velja **Í lagi**.
 1. Á eiginleikasvæðinu fyrir eininguna **Tilboðsborði** skal velja **Bæta skilaboðum við** og síðan velja **Skilaboð**.
-1. Í svarglugganum **Skilaboð** , undir **Texti** , skal færa inn **Tiltekin rás** og síðan velja **Í lagi**.
+1. Í svarglugganum **Skilaboð**, undir **Texti**, skal færa inn **Tiltekin rás** og síðan velja **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá tilboðsborðann sem á stendur „Tiltekin rás“.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 

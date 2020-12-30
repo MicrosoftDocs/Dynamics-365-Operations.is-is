@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014887"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4413315"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Skjáútlit sýnigagna í Modern POS (MPOS) og Cloud POS
 
@@ -64,6 +64,7 @@ Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanst
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Grunnútgáfan sem styður margar skjástærðir fyrir mismunandi tæki og myndhlutföll |
 | 3.1            | Grunngerðin sem hefur viðbótarstuðning fyrir **Vörur sem mælt er með** gluggann.        |
+| 4              | Útvíkkuð útgáfa fyrir uppfært útlit Fabrikam                                  |
 
 ### <a name="persona"></a>Einstaklingur
 
@@ -75,9 +76,9 @@ Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanst
 
 ### <a name="example-layout"></a>Dæmi útlit
 
-Hér er dæmi um kenni skjáútlits fyrir Fabrikam fyrirtækið, útlitsútgáfu 3, og Verslunarstjóri einstaklingur:
+Hér er dæmi um kenni skjáútlits fyrir Fabrikam fyrirtækið, útlitsútgáfu 4, og Verslunarstjóri einstaklingur:
 
-F3MGR
+F4MGR
 
 Eftirfarandi skýringarmynd sýnir dæmi um Velkomin(n) skjáinn sem birtist Fabrikam verslunarstjóranum.
 
@@ -103,6 +104,7 @@ Eftirfarandi tafla sýnir þær útlitsstærðir sem eru í boði fyrir hefðbun
 | Fullt\*      | 1280 × 720 | 16:9         | Spjaldtölvur                 |
 | Fullt        | 1366 × 768 | 16:9         | Spjaldtölvur, stærri skjáir |
 | Fullt        | 1440 × 960 | 3:2          | Spjaldtölvur, stærri skjáir |
+| Fullt\*      | 1536 × 864 | 16:9         | Spjaldtölvur, stærri skjáir |
 
 \* Þessir viðbótar útlitsstærðir eru aðeins tiltækar í Adventure Works og Fabrikam útliti.
 
@@ -120,7 +122,7 @@ Sérhver ímyndað fyrirtæki er beint að mismunandi smásöluhluta og inniheld
 | Fyrirt.         | Staður | Hluti        | Áhersla | Þema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Íþróttavörur | Blátt   | Dökkt  |
-| Fabrikam        | Houston  | Tíska        | Grænt  | Ljóst |
+| Fabrikam        | San Francisco  | Tíska        | Grænt  | Ljóst |
 | Contoso         | Boston   | Raftæki    | Rautt    | Dökkt  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Náð hefur verið í notendur fyrir mismunandi skjáútlit. Með því að nota
 | Adventure Works | A3MGR            | Verslunarstjóri | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Gjaldkeri       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Afgreiðslustarfsmaður birgða   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Verslunarstjóri | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Verslunarstjóri | 000160, 000713         |
 | Fabrikam        | F3CSH            | Gjaldkeri       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Afgreiðslustarfsmaður birgða   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Verslunarstjóri | 000100, 000111         |

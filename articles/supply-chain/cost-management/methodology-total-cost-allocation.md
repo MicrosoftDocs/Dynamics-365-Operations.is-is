@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430087"
 ---
 # <a name="total-cost-allocation-method"></a>Úthlutunaraðferð heildarkostnaðar
 
@@ -44,7 +44,7 @@ Hér eru nokkrar leiðbeiningar fyrir notkun heildarúthlutunar kostnaðar fyrir
 -   Ef sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Já** fyrir formúluútgáfuna og eftirfarandi skilyrði eru uppfyllt, verður aðferð kostnaðarúthlutunar **Heildarúthlutun kostnaðar**, og hlutfall kostnaðarúthlutunar óbreytt:
     -   Aukaafurðum var bætt við.
     -   Önnur gerð kostnaðarúthlutunar var notuð fyrir aukaafurðir.
--   Ef sleðinn**Heildarúthlutun kostnaðar** er stilltur á **Nei** fyrir formúluútgáfuna og eftirfarandi skilyrði eru uppfyllt, er aðferð kostnaðarúthlutunar breytt í **Handvirkt**, og hlutfall kostnaðarúthlutunar er óbreytt:
+-   Ef sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Nei** fyrir formúluútgáfuna og eftirfarandi skilyrði eru uppfyllt, er aðferð kostnaðarúthlutunar breytt í **Handvirkt**, og hlutfall kostnaðarúthlutunar er óbreytt:
     -   Aukaafurðum var bætt við.
     -   Hlutfall kostnaðarúthlutunar er meira en 0 (núll).
 -   Áður en hægt er á árangursríkan hátt að framkvæma formúluútreikninga, verður að áætla prósentu kostnaðarúthlutunar. Hægt er að ljúka þessu skrefi handvirkt eða með því að nota **Meta kostnað** valkostinn á síðunni **Aukaafurðir**. **Athugasemd:** Valkosturinn **Meta kostnað** er aðeins tiltækur þegar sleðinn **Heildarúthlutun kostnaðar** er stilltur á **Já** fyrir formúluútgáfuna. Hægt er að skoða væntanlega úthlutun ef magn runupöntunar sem er skráð sem lokið samsvarar magni sem birtist í formúlunni.

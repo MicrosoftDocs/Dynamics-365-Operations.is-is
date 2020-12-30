@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0cc44592bd60e89f1dc67114098d701d8965e4fe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212550"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430209"
 ---
 # <a name="production-feedback"></a>Framleiðslusvörun
 
@@ -32,7 +32,7 @@ ms.locfileid: "3212550"
 
 Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun.
 
-Framleiðslusvörun gefur starfsmönnum svörun um framleiðsluvinnslu. Hún skráir tíma- og efnisnotkun á framleiðslupöntunum, magn og stöðu vinnslu, og villur sem valda því að vinnsla eða aðgerð mistekst. Hægt er að uppfæra°framleiðslusvörun í færslubókum sem°tengjast°framleiðslupöntunum. Færslubækurnar **Vinnsluspjald framleiðslu** og **Leiðarspjald framleiðslu** eru notaðar eru til að tilkynna tíma og magn°á hverja vinnslu eða aðgerð. Fyrir skýrslugerð um°síðustu vinnslu eða°aðgerð, er hægt að skrá°magn°af°endanlegri vöru sem lokið. Framleiðslusvörun er einnig hægt að uppfæra°á°síðunum **Afgreiðslustöð verkspjalda** og°**Verkspjaldstæki**. Þessar síður virkja framleiðslusvörun til uppfærslu í vinnusal og eru hluti af framkvæmdarferli framleiðsluaðgerða í **Framleiðslustýringar°**kerfiseiningu. Síðan **Afgreiðslustöð verkspjalda** hefur°skilgreinanlegt notandaviðmót sem°sýnir lista yfir útgefnar vinnslur í forgangsröðun á völdu vinnusvæði. Hún býður einnig upp á ítarlegri valkosti eins°og vinnslusamtvinnun og teymisvinnu. Síðan°**Verkspjaldstæki** hefur snertingarvirkjað notendaviðmót. Framleiðslusvörun á báðum síðunum er uppfærð úr°framleiðslubókunum.
+Framleiðslusvörun gefur starfsmönnum svörun um framleiðsluvinnslu. Hún skráir tíma- og efnisnotkun á framleiðslupöntunum, magn og stöðu vinnslu, og villur sem valda því að vinnsla eða aðgerð mistekst. Hægt er að uppfæra°framleiðslusvörun í færslubókum sem°tengjast°framleiðslupöntunum. Færslubækurnar **Vinnsluspjald framleiðslu** og **Leiðarspjald framleiðslu** eru notaðar eru til að tilkynna tíma og magn°á hverja vinnslu eða aðgerð. Fyrir skýrslugerð um°síðustu vinnslu eða°aðgerð, er hægt að skrá°magn°af°endanlegri vöru sem lokið. Framleiðslusvörun er einnig hægt að uppfæra°á°síðunum **Afgreiðslustöð verkspjalda** og°**Verkspjaldstæki**. Þessar síður virkja framleiðslusvörun til uppfærslu í vinnusal og eru hluti af framkvæmdarferli framleiðsluaðgerða í **Framleiðslustýringar°** kerfiseiningu. Síðan **Afgreiðslustöð verkspjalda** hefur°skilgreinanlegt notandaviðmót sem°sýnir lista yfir útgefnar vinnslur í forgangsröðun á völdu vinnusvæði. Hún býður einnig upp á ítarlegri valkosti eins°og vinnslusamtvinnun og teymisvinnu. Síðan°**Verkspjaldstæki** hefur snertingarvirkjað notendaviðmót. Framleiðslusvörun á báðum síðunum er uppfærð úr°framleiðslubókunum.
 
 
 

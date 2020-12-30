@@ -20,11 +20,11 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fc01e2d28758008d2e147a92c498da7ccb14b173
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826311"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430263"
 ---
 # <a name="resource-capabilities"></a>Tilfangageta
 
@@ -38,7 +38,7 @@ Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Rekstra
 Mörg tilföng hafa oft sömu getu til virkni en á mismunandi færnistigum (t.d. styrkleikar, vinnsluhrað eða°nákvæmni). Þess vegna, þegar getu er úthlutað á tilföng, er hægt að tilgreina **Stig** gildi. Stig er einfalt tölugildi. Ef tilgreint er að geta er tilfangakrafa fyrir framleiðsluleið, er einnig hægt að tilgreina gildið°**Lágmarksstig sem þarf** fyrir þá getu. Röðunarvélin velur þá aðeins°tilföng°sem hafa nauðsynlega getu á stigi sem er jafnt eða°meira en lágmarksstig sem tilgreint er í tilfangakröfunni.
 
 ## <a name="priority"></a>Forgangur
-Rekstrartilföngum sem hafa sömu getu er hægt að úthluta forgangi. Þannig að ef mörg tilföng hafa getu sem uppfylla röðunarkröfur á tilætluðu stigi og hafa frjálsa afkastagetu, getur röðunarvélin valið milli þeirra tilfanga. Ef **Forgangur** er valinn á svæðinu **Aðalval tilfanga** á síðunni **Röðunarfæribreytur** er það tilfang sem hefur mestan forgang (lægsta tölulegt gildi á reitnum **Forgangur**i) valið fyrst við röðun.
+Rekstrartilföngum sem hafa sömu getu er hægt að úthluta forgangi. Þannig að ef mörg tilföng hafa getu sem uppfylla röðunarkröfur á tilætluðu stigi og hafa frjálsa afkastagetu, getur röðunarvélin valið milli þeirra tilfanga. Ef **Forgangur** er valinn á svæðinu **Aðalval tilfanga** á síðunni **Röðunarfæribreytur** er það tilfang sem hefur mestan forgang (lægsta tölulegt gildi á reitnum **Forgangur** i) valið fyrst við röðun.
 
 ## <a name="resource-requirements"></a>Tilfangaþörf
 Þegar tilfangaþarfir fyrir framleiðsluleið er skilgreindar er hægt að tilgreina eina eða fleiri getu sem þarfir. Við framleiðsluröðun,er geta sem er skilgreind í tilfangaþarfir í leiðaraðgerð tengd við getu sem eru skilgreind fyrir tilföngin. Tilföng sem hafa getu sem uppfylla skilyrði eru valin. Ef mörg tilföng hafa sömu virknigetu en°mismunandi kosti (t.d. styrkleikar, vinnsluhraða eða nákvæmni) er hægt að skilgreina margar getur eða°nota getustigið til að viðurkenna getu tilfangsins. Eftirfarandi er dæmi:

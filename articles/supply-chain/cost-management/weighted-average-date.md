@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430148"
 ---
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
@@ -38,7 +38,7 @@ Ef einungis ein úthreyfing hefur orðið á eða fyrir dagsetninguna, þarf ekk
 
 Eftirfarandi formúla er notuð til að reikna út kostnaðaraðferð vegins meðaltals dagsetningar: 
 
-Vegið meðaltal = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Vegið meðaltal = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Við birgðalokun er útreikningur framkvæmdur á hverjum degi í lokunartímabilinu, eins og sýnt er í eftirfarandi dæmi. 
 
@@ -162,7 +162,7 @@ Merking er aðferð sem gerir mögulegt að tengja úthreyfingarfærslu við inn
 
 Þjónustudeild fyrir viðskiptavini, hefur til dæmis fengið flýtipöntun frá mikilvægum viðskiptavini. Þar sem um flýtipöntun er að ræða þarf að greiða meira fyrir vöruna til þess að geta mætt beiðni viðskiptavinarins. Þá er nauðsynlegt að vera viss um að kostnaðurinn við þessa birgðavöru endurspeglist í framlegð, eða kostnaði seldra vara (COGS) á þessum sölupöntunarreikningi. Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. þetta sölupöntunarskjal er merkt við innkaupapöntunina áður en fylgiseðillinn eða reikningurinn er bókaður. Kostnaður seldra vara mun þá vera 120,00 USD í staðinn fyrir núverandi meðaltal kostnaðar vörunnar. Ef að fylgiseðill sölupöntunarinnar eða reikningur er bókaður áður en merking á sér stað, mun kostnaður seldra vara verða bókaður á meðalkostnaðarverði. Áður en birgðalokun er framkvæmd er hægt að merkja þessar tvær færslur, hvora fyrir aðra. Þegar innhreyfingarfærsla er merkt við úthreyfingarfærslu er ekki tekið tillit til villuleitaraðferðarinnar sem var skilgreind í vörulíkanaflokknum. Í staðinn jafnar kerfið færslurnar hverja við aðra. 
 
-Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni**Merking**. Hægt er að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók. Eftirfarandi skýringarmynd sýnir þessar færslur:
+Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni **Merking**. Hægt er að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók. Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 -   1a. Efnisleg innhreyfing birgða í magninu 1 á kostnaðarverðinu USD 10,00 hver.
 -   1b. Fjárhagsleg innhreyfing birgða í magninu 1 á kostnaðarverðinu USD 10,00 hver.

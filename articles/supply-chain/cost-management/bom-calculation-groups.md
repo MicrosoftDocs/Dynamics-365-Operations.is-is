@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6e4f53401d604ce3c8308ed475a0b6147805cb78
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983574"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430539"
 ---
 # <a name="bom-calculations-groups"></a>Flokkur uppskriftarútreiknings
 
@@ -37,7 +37,7 @@ Sjálfgefinn reikniflokkur er krafist í á **stjórnfæribreytur birgða og vö
 ## <a name="purposes-of-bom-calculation-groups"></a>Tilgangur flokka uppskriftarútreiknings
 Þú Úthluta flokkum uppskriftarútreiknings af nokkrum ástæðum:
 
--   Með því að stilla **kostnaðarverðslíkan**reitinn, Tilgreinirðu uppruna kostnaðarframlags keyptrar einingar á meðan verið er að reikna út áætlaður kostnaður fyrir framleidd vara. Sumir framleiðendur reikna út áætlaðan kostnað með því að nota innkaupaverð skv. viðskiptasamningum um keyptar einingar eða annan grunn, eins og innkaupaverðsfærslur innan kostnaðarútgáfunnar.
+-   Með því að stilla **kostnaðarverðslíkan** reitinn, Tilgreinirðu uppruna kostnaðarframlags keyptrar einingar á meðan verið er að reikna út áætlaður kostnaður fyrir framleidd vara. Sumir framleiðendur reikna út áætlaðan kostnað með því að nota innkaupaverð skv. viðskiptasamningum um keyptar einingar eða annan grunn, eins og innkaupaverðsfærslur innan kostnaðarútgáfunnar.
 -   Tilgreinið hvernig gögn vörunnar verða notuð til þess að reikna út það söluverð sem lagt er til (með því að stilla **söluverðlíkan**). Hægt er að tilgreina annað hvort söluverð vöru eða kostnaðarflokk. Sumir framleiðendur vilja reikna út það söluverð sem lagt er til fyrir framleiddar vörur. Útreiknað söluverð getur endurspeglað nálgun verðs með samlagningu sem byggir á söluverðsfærslu einingarinnar. Hinsvegar, getur Útreiknað söluverð endurspeglað nálgun með kostnaði plús álagningu sem byggir á kostnaði einingarinnar og viðeigandi álagningarprósentu (sem tengist kostnaðarflokki vörunnar).
 -   Með því að nota reitinn **stöðva niðurbrot** tilgreinirðu að framleidd vara skuli vera meðhöndluð sem keypt vara fyrir samantekt kostnaðar við útreikning uppskriftar. Dæmigerðar aðstæður er þegar keypt vara sem er einstaka sinnum framleidd eða þegar um er að ræða framleidda vöru sem skal núna kaupa. Varan er fyrst skilgreind sem framleidd vara til að skilgreina uppskrift (BOM) og leiðarupplýsingar og til að styðja framleiðslupantanir fyrir vöruna. Aftur á móti, kemur flaggið **stöðvun niðurbrots** í veg fyrir að kostnaðarútreikningar noti uppskrift og leið vörunnar. Þess í stað notar Útreikningur uppskrifta tilgreindan kostnað vörunnar.
 

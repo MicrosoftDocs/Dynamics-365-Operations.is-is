@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413186"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
 
@@ -144,7 +144,7 @@ Vikmarkaprósenta vanafhendingar fyrir flutningspöntunarlínu getur verið fyri
 
 Eftir að fyrirtæki lýkur skilgreiningum á vanafhendingu innkaupapöntunar, sjá notendur sölustaðar nýja valkostinn **Loka eftirstandandi magni** í glugganum **Upplýsingar** þegar innkaupapöntunarlína á innleið er valin í aðgerðinni **Birgðir á innleið**. Ef notandinn lokar eftirstandandi magni, framkvæmir sölustaðurinn villuleit til að staðfesta hvort magnið sem var lokað er innan vikmarkaprósentu vanafhendingar sem er skilgreind í innkaupapöntunarlínunni. Ef farið er yfir vikmörk vanafhendingar birtast villuboð og notandinn mun ekki geta lokað eftirstandandi magni fyrr en áður sent magn ásamt magninu **Móttekur núna** uppfyllir eða fer yfir lágmarkið sem þarf að taka á móti samkvæmt vikmarkaprósentu vanafhendingar. 
 
-Með kveikt á valkostinum **Loka eftirstandandi magni** fyrir innkaupapöntunarlínu, þegar notandinn lýkur móttöku með því að nota aðgerðina**Ljúka við móttöku**, er lokunarbeiðni einnig send til Commerce Headquarters og hætt verður við allt magn sem ekki hefur verið móttekið fyrir þessa pöntunarlínu. Á þeim tímapunkti er litið á línuna sem móttekna að fullu. 
+Með kveikt á valkostinum **Loka eftirstandandi magni** fyrir innkaupapöntunarlínu, þegar notandinn lýkur móttöku með því að nota aðgerðina **Ljúka við móttöku**, er lokunarbeiðni einnig send til Commerce Headquarters og hætt verður við allt magn sem ekki hefur verið móttekið fyrir þessa pöntunarlínu. Á þeim tímapunkti er litið á línuna sem móttekna að fullu. 
 
 ### <a name="receiving-location-controlled-items"></a>Móttaka á staðstýrðir vörum
 

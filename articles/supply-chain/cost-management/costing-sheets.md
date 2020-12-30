@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0f83c18bb8700e274bcf8cb369a7436a17450bf7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430619"
 ---
 # <a name="costing-sheets"></a>Kostnaðarskjöl
 
@@ -44,7 +44,7 @@ Tvær lokunarstefnur fyrir kostnaðarútgáfu ákvarða hvort hægt sé að við
 
 Þegar búið er að skilgreina snið kostnaðarskjalsins og útreikninga óbeins kostnaðar verður að framkvæma sérstakar aðgerðir til að virkja og vista upplýsingarnar. Kostnaðarskjalið birtir snið fyrir allt fyrirtækið með því að birta í öllum tilfellum upplýsingar um kostnað seldra vara. 
 
-Kostnaðarskjalið er birt sem hluti af síðunni **Reikna vörukostnað**. Kostnaðarskjalið getur verið birt fyrir útreiknaðar kostnaðarfærslur framleiddra vara á síðunni **Vöruverð**, eða fyrir útreikning ákveðnar pöntunar á síðunni **Niðurstöður úr útreikningi uppskrifta**. Það getur líka verið sýnt sem hluti af síðunni **Verðútreikningur**fyrir framleiðslupöntun.
+Kostnaðarskjalið er birt sem hluti af síðunni **Reikna vörukostnað**. Kostnaðarskjalið getur verið birt fyrir útreiknaðar kostnaðarfærslur framleiddra vara á síðunni **Vöruverð**, eða fyrir útreikning ákveðnar pöntunar á síðunni **Niðurstöður úr útreikningi uppskrifta**. Það getur líka verið sýnt sem hluti af síðunni **Verðútreikningur** fyrir framleiðslupöntun.
 
 
 

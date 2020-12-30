@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057053"
+ms.locfileid: "4419104"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
 
@@ -35,11 +35,11 @@ Ef þú þarft að bæta við eða breyta persónulegum upplýsingum, sjáðu [B
 
 ## <a name="user-not-assigned-to-a-worker-record"></a>Notanda ekki úthlutað á starfsmannaskrá
 
-Ef þú hefur ekki tengt notandann þinn við skrá **Starfsmanna** á síðunni **Notendur** , birtast eftirfarandi skilaboð:
+Ef þú hefur ekki tengt notandann þinn við skrá **Starfsmanna** á síðunni **Notendur**, birtast eftirfarandi skilaboð:
 
 **Notandakenni notanda er ekki tengt starfsmannsfærslu í kerfinu. Ekki er hægt að skoðað eða uppfæra viðkomandi upplýsingar fyrr en það er gert. Leita skal aðstoðar hjá yfirmanni eða stuðningshópi.**
 
-Til að tengja notanda við skrá **Starfsmanna** skal fara í **Notendur** og velja notandann. Velja skal **Breyta** , bæta við samsvarandi starfsmanni í reitnum **Einstaklingur** í skjámyndinni og velja **Vista**. Nú ættir þú að hafa aðgang að sjálfsafgreiðslu starfsmanns.
+Til að tengja notanda við skrá **Starfsmanna** skal fara í **Notendur** og velja notandann. Velja skal **Breyta**, bæta við samsvarandi starfsmanni í reitnum **Einstaklingur** í skjámyndinni og velja **Vista**. Nú ættir þú að hafa aðgang að sjálfsafgreiðslu starfsmanns.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Öryggiskröfur fyrir sjálfsafgreiðslu starfsmanns og stjórnanda
 
@@ -80,7 +80,7 @@ Kortið **Skírteini** sýnir skírteinið og lokadag þess skírteinis sem renn
 
 Kortið **Næsta áætlaða umsögn** sýnir næstu frammistöðumat þitt. Þú getur byrjað á nýrri umsögn af þessu korti. Yfirmaður þinn eða HR-fulltrúi getur einnig hafið umsagnir. Það fer eftir stillingum fyrirtækisins, en þú gætir líka verið fær um að skoða, uppfæra og senda inn umsagnir um útgönguleið frá þessu korti.
 
-Þú getur stjórnað markmiðum þínum með kortinu **Frammistöðumarkmið**. Þetta kort sýnir fjölda markmiða sem þú hefur í hverri stöðu ( **Ekki byrjað** , **Á réttri leið** og **Þarfnast betrumbóta** ). Þú getur búið til, uppfært og fjarlægt markmið, allt eftir úthlutuðu hlutverkaöryggi þínu. Ef þú vilt geturðu bætt við nýjum markmiðum úr hópum eða sniðmátum. Stjórnendur og HR geta einnig búið til markmið fyrir hönd starfsmanna og ákvarðað hversu ítarlegt hvert markmið verður. Stjórnendur og starfsmenn geta unnið saman að markmiðum og uppfært aðgerðir, mælingar og stöðu. Þú getur líka haft viðhengi.
+Þú getur stjórnað markmiðum þínum með kortinu **Frammistöðumarkmið**. Þetta kort sýnir fjölda markmiða sem þú hefur í hverri stöðu (**Ekki byrjað**, **Á réttri leið** og **Þarfnast betrumbóta**). Þú getur búið til, uppfært og fjarlægt markmið, allt eftir úthlutuðu hlutverkaöryggi þínu. Ef þú vilt geturðu bætt við nýjum markmiðum úr hópum eða sniðmátum. Stjórnendur og HR geta einnig búið til markmið fyrir hönd starfsmanna og ákvarðað hversu ítarlegt hvert markmið verður. Stjórnendur og starfsmenn geta unnið saman að markmiðum og uppfært aðgerðir, mælingar og stöðu. Þú getur líka haft viðhengi.
 
 Þú getur skoðað núverandi hæfni þína á kortinu **Hæfni**. Þú getur uppfært hæfni, bætt við nýrri eða fjarlægt það sem ekki er lengur viðeigandi. Það veltur á stillingum stofnunarinnar, en breytingar á hæfni þinni kann að fara í gegnum samþykkisferli.
 
@@ -96,7 +96,7 @@ Skráðu þig fyrir bætur í gegnum tengilinn **Fríðindi**. Nánari upplýsin
 
 Undir **Frammistaða** geturðu valið **Frammistöðubækur** til að stofna færslur frammistöðubókar til að nota á bæði árangursmarkmið og endurskoðanir. Þú getur valið **Senda svörun** til að veita endurgjöf fyrir aðra starfsmenn innan fyrirtækisins. Það fer eftir stillingum fyrirtækisins, en tölvupóstur gæti verið sendur til viðtakanda, sendanda og stjórnenda. Þú getur sent athugasemdir til allra starfsmanna innan fyrirtækisins. Sending á svörun takmarkast ekki við fyrirtækið.
 
-Undir **Hæfni** geturðu gert breytingar á **Námskeiðum** , **Menntun** , **Ábyrgðarstöðum** og **Starfsreynslu**. Það veltur á stillingum fyrirtækisins, en uppfærslur á þessari hæfni gæti farið í gegnum samþykkisferli.
+Undir **Hæfni** geturðu gert breytingar á **Námskeiðum**, **Menntun**, **Ábyrgðarstöðum** og **Starfsreynslu**. Það veltur á stillingum fyrirtækisins, en uppfærslur á þessari hæfni gæti farið í gegnum samþykkisferli.
 
 Þú getur skoðað upplýsingar um starfið undir **Fyrirtæki**. Upplýsingar um starfið fela í sér færni, skírteini og ábyrgðarsvið fyrir aðalstöðu þína. Þú getur líka séð allan lánaðan búnað sem er tekinn út af þér. Það veltur á stillingum stofnunarinnar, en breytingar á lánuðum búnaði kann að fara í gegnum samþykkisferli.
 
@@ -112,7 +112,7 @@ Flipinn **Hópurinn minn** sýnir eftirfarandi upplýsingar fyrir sjálfsafgrei�
 
 ### <a name="personnel-actions"></a>Aðgerðir starfsmanna
 
-Aðgerðir starfsmanna birtast út frá stillingarvalkostum innan **Samnýttar færibreytur Human resources** og **Færibreytur Human resources**. Þegar kveikt er á fyrir **Starfskraftar** , aðgerðir starfsmanna gera kleift að velja nýja valmyndarvalkosti, þar á meðal:
+Aðgerðir starfsmanna birtast út frá stillingarvalkostum innan **Samnýttar færibreytur Human resources** og **Færibreytur Human resources**. Þegar kveikt er á fyrir **Starfskraftar**, aðgerðir starfsmanna gera kleift að velja nýja valmyndarvalkosti, þar á meðal:
 
 - **Óska eftir nýjum starfsmanni**
 - **Óska eftir nýjum verktaka**
@@ -211,6 +211,6 @@ Stjórnendur geta séð öll markmið fyrir lið sitt í gegnum reitinn **Frammi
 
 #### <a name="reviews-tab"></a>Flipinn Umsagnir
 
-Flipinn **Umsagnir** dregur saman umsagnir sem starfsmaðurinn hefur í hverri stöðu: **Í vinnslu** , **Tilbúið til skoðunar** og **Lokaumsögn**. Til að fá aðgang að umsögn starfsmanns skaltu velja **Upplýsingar** og veldu síðan umsagnir til að vinna saman. Byggt á því hvar endurskoðun er innan verkflæðisferilsins geturðu séð hvort endurskoðunin er tiltæk til uppfærslu. 
+Flipinn **Umsagnir** dregur saman umsagnir sem starfsmaðurinn hefur í hverri stöðu: **Í vinnslu**, **Tilbúið til skoðunar** og **Lokaumsögn**. Til að fá aðgang að umsögn starfsmanns skaltu velja **Upplýsingar** og veldu síðan umsagnir til að vinna saman. Byggt á því hvar endurskoðun er innan verkflæðisferilsins geturðu séð hvort endurskoðunin er tiltæk til uppfærslu. 
 
 Þú getur séð allar umsagnir fyrir hópinn þinn í gegnum reitinn **Umsagnir um frammistöðu hóps** í hlutann **Samantekt** í **Hópurinn minn**.

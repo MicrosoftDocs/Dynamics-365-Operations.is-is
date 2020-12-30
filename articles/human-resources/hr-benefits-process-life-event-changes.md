@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741437"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418974"
 ---
 # <a name="process-life-event-changes"></a>Vinna úr breytingum á viðburðum
 

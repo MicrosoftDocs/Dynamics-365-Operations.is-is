@@ -17,11 +17,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826695"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430402"
 ---
 # <a name="configure-job-card-for-devices"></a>Skilgreina verkspjald fyrir tæki
 

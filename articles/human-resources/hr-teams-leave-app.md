@@ -3,7 +3,7 @@ title: Stjórna leyfisbeiðnum í Teams
 description: Þetta efnisatriði sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources forritinu í Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929994"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4419110"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Microsoft Dynamics 365 Human Resources -forritið í Microsoft Teams gerir þér kleift að biðja um frí og skoða upplýsingar um stöðu frítíma í Microsoft Teams. Hægt er að eiga samskipti við þjarka til að óska eftir upplýsingum og byrja leyfisbeiðni. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
+Microsoft Dynamics 365 Human Resources -forritið í Microsoft Teams gerir þér kleift að biðja um frí og skoða upplýsingar um stöðu frítíma í Microsoft Teams. Hægt er að eiga samskipti við þjarka til að óska eftir upplýsingum og byrja leyfisbeiðni. Finna má ítarlegri upplýsingar á flipanum **Frí**. Einnig er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
 
 ## <a name="install-the-app"></a>Setja upp forritið
 
@@ -182,11 +182,25 @@ Ef þú getur ekki skráð þig inn í forritið er hugsanlegt að reikningurinn
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
-Ef villa kemur upp þegar verið er að reyna að samþykkja leyfisbeiðnir í Teams, skal fara í gegnum eftirfarandi villuleitarskref:
+Ef villa kemur upp þegar verið er að reyna að samþykkja leyfisbeiðnir í Teams, skal prófa að fara í gegnum eftirfarandi villuleitarskref:
 
 1. Gangið úr skugga um að reikningurinn sem er notaður til að skrá sig inn í Microsoft Teams sé sá sami og notaður er til að fá aðgang að Dynamics 365 Human Resources.
 
 2. Vertu viss um að þú sért gildur samþykktaraðili fyrir beiðnina með því að athuga stillingar verkflæðis fyrir samþykkt leyfis. Frekari upplýsingar um verkflæði leyfisbeiðna er að finna í [Búa til verkflæði leyfisbeiðni](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Þekkta aðgengisvandamál
+
+Human Resources-forritið í Teams er með eftirfarandi aðgengisvandamál sem við vinnum að lagfæringum á í síðari útgáfum.
+
+| Úthreyfing | Hjáleið eða skýring |
+| --- | --- |
+| Ef 400% aðdráttur er notaður á skjáborði eru sumir aðgerðahnappar ekki sýnilegir. | Mælt er með því að notað sé stækkunargler þar til við styðjum þennan aðdrátt. |
+| Á flipanum **Frí** tilkynnir upplestur hnappaaðgerð þegar hausinn hnitanetsins er lesinn fyrir fríið. | Haus og einingar innan hnitanetsins eru flokkaðar eftir árum og eru samanfellanlegar. Upplestur skilur þetta sem aðgerðarhlut, sem það er ekki. |
+| Ef strokið er þegar sprettigluggi eða valmynd er opin sleppir upplestur því að lesa efni sprettigluggans eða valmyndarinnar. | Skoðaðu efnið með fingraskönnun. |
+| Á flipanum **Frí** er aukaleg strokhreyfing þegar verið er að fletta að **Ástæðukóði** í nýrri beiðni. | Engin falin stjórnun er til staðar sem storkufletting er að reyna að ná til. |
+| Á flipanum **Frí**, ef strokið á meðan dagatalið er opið, er endað utan stýringar í stað upphafs nýrrar beiðni eða þegar beiðni er breytt. | Þegar komið er að **Fara á daginn í dag** er það síðasti hlutinn og strokið er í öfuga átt til að komast aftur efst. |
+| Upplestur les ekki merkin fyrir dagsetningar. | Dagsetningarnar sem eru í pörum eru alltaf **Upphafsdagur** og **Lokadagur**. |
+| Á flipanum **Spjall** er farið aftur á toppinn þegar dagsetningin er slegin inn á meðan verið er að nota hjálpartækið eða lyklaborðið. | Flipi þar til þú nærð innsláttarsvæðinu aftur. |
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 

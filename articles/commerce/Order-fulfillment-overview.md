@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107208"
+ms.locfileid: "4413308"
 ---
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 
@@ -111,7 +111,7 @@ Eftir að efnislega tiltektarferlinu hefur verið framkvæmt má merkja línur s
 
 Ef pöntunarlína er tiltekin í villu verður afturköllunarferlið að fara fram á pöntunarlínunni í bakvinnslu. Sem stendur er afturköllunaraðgerð fyrir tiltekt ekki studd á sölustað.
 
-Pöntunarlínur frá mismunandi pöntunum er hægt að velja og merkt sem **Tiltekið** , prenta á sama tiltektarlista eða merkt sem **Tiltekið**.
+Pöntunarlínur frá mismunandi pöntunum er hægt að velja og merkt sem **Tiltekið**, prenta á sama tiltektarlista eða merkt sem **Tiltekið**.
 
 ### <a name="pack"></a>Pakki
 
@@ -180,7 +180,7 @@ Línur eða línur að hluta má hafna. Þetta gerir þeim kleift að vera endur
 - **Afleidd staða:** Hafnað
 - **Afleidd staða bakvinnslu:** Engin breyting
 
-Hægt er að skoða þær pöntunarlínur sem hefur verið hafnað á vinnusvæðinu **Vinnsla og fyrirspurnir sölupantana**. Hreinsaðu einstaklingssíuna á vinnusvæðinu til að skoða allar pöntunarlínur, sem hefur verið hafnað, yfir allar verslanir. Flipinn **Pöntunarlínur sem hefur verið hafnað** undir **Pantanir og eftirlætisatriði** hlutanum birtir upplýsingar um pöntunarlínuna. Að auki geta notendurnir smellt á hnappinn **Pöntunarlínur sem hefur verið hafnað** undir **Samantekt** hlutanum til að fara yfir í yfirlit yfir sölupantanir. Þetta sýnir allar pantanir sem hafa einn eða fleiri hafnað pöntunarlínur. Ef Dreifð pantanastjórnun (DOM) er virkjuð, þá verða þessar pantanir sem hefur verið hafnað sjálfkrafa endurúthlutað til viðeigandi verslana til uppfyllingar, en hinsvegar er einnig hægt að endurúthluta þessar pantanalínur handvirkt. Til að gera það skaltu velja línu sem sýnir **Uppfyllingarstöðu** sem **Hafnað** og breyta síðuna/vöruhúsið eftir þörfum. Smelltu á **Uppfæra línu** fellilistann og smelltu á **Endurstilla uppfyllingarstaða** til að breyta uppfyllingarstöðu frá **Hafnað** yfir í **Samþykkt** eða **Í bið** , allt eftir uppsetningu pöntunaruppfyllingarinnar. Eftir að uppfyllingarstaða er endurstillt, þá geta verslunarmennirnir séð pöntunarlínurnar í POS.
+Hægt er að skoða þær pöntunarlínur sem hefur verið hafnað á vinnusvæðinu **Vinnsla og fyrirspurnir sölupantana**. Hreinsaðu einstaklingssíuna á vinnusvæðinu til að skoða allar pöntunarlínur, sem hefur verið hafnað, yfir allar verslanir. Flipinn **Pöntunarlínur sem hefur verið hafnað** undir **Pantanir og eftirlætisatriði** hlutanum birtir upplýsingar um pöntunarlínuna. Að auki geta notendurnir smellt á hnappinn **Pöntunarlínur sem hefur verið hafnað** undir **Samantekt** hlutanum til að fara yfir í yfirlit yfir sölupantanir. Þetta sýnir allar pantanir sem hafa einn eða fleiri hafnað pöntunarlínur. Ef Dreifð pantanastjórnun (DOM) er virkjuð, þá verða þessar pantanir sem hefur verið hafnað sjálfkrafa endurúthlutað til viðeigandi verslana til uppfyllingar, en hinsvegar er einnig hægt að endurúthluta þessar pantanalínur handvirkt. Til að gera það skaltu velja línu sem sýnir **Uppfyllingarstöðu** sem **Hafnað** og breyta síðuna/vöruhúsið eftir þörfum. Smelltu á **Uppfæra línu** fellilistann og smelltu á **Endurstilla uppfyllingarstaða** til að breyta uppfyllingarstöðu frá **Hafnað** yfir í **Samþykkt** eða **Í bið**, allt eftir uppsetningu pöntunaruppfyllingarinnar. Eftir að uppfyllingarstaða er endurstillt, þá geta verslunarmennirnir séð pöntunarlínurnar í POS.
 
 ## <a name="line-quantity-tracking"></a>Rakning línumagns
 

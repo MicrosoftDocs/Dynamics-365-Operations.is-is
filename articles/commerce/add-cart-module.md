@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055428"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413316"
 ---
 # <a name="cart-module"></a>Körfueining
 
@@ -50,7 +50,7 @@ Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu 
 
 | Eiginleiki | Gildi | lýsing |
 |----------------|--------|-------------|
-| Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar ( **H1** , **H2** , **H3** , **H4** , **H5** eða **H6** ) | Fyrirsögn fyrir körfuna, t.d. „Innkaupakarfa“ eða „Vörur í körfunni þinni“. |
+| Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Fyrirsögn fyrir körfuna, t.d. „Innkaupakarfa“ eða „Vörur í körfunni þinni“. |
 | Sýna villuboðin Ekki til á lager | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Sat** sýnir körfusíðan villur sem tengjast birgðum. Mælt er með því að þessi eiginleiki sé stilltur á **Satt** ef birgðaathuganir eru notaðar á svæðinu. |
 | Sýna sendingargjöld fyrir línuatriði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** sýna línuatriði körfu sendingargjöld, ef þessar upplýsingar eru í boði. Þessi eiginleiki er ekki studdur í Fabrikam-skemanu því að notendur velja sendingu eingöngu í greiðsluferlinu. Hins vegar er hægt að kveikja á þessum eiginleika í öðrum verkflæðum ef það á við. |
 
@@ -61,7 +61,7 @@ Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu 
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
-Hægt er að skilgreina eftirfarandi stillingar fyrir körfueiningar á **Stillingar svæðis \> viðbætur** :
+Hægt er að skilgreina eftirfarandi stillingar fyrir körfueiningar á **Stillingar svæðis \> viðbætur**:
 
 - **Hámarksmagn** - Þessi eiginleiki er notaður til að tilgreina hámarksfjölda hvers hlutar sem hægt er að bæta við körfuna. Til dæmis gæti smásali ákveðið að aðeins megi selja 10 stykki af hverri afurð í sömu færslunni.
 - **Birgðir** - Frekari upplýsingar um hvernig á að nota birgðastillingar er að finna í [Nota birgðastillingar](inventory-settings.md).
@@ -83,14 +83,14 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 1. Undir **Heiti brots** skal slá inn heitið **Körfubrot** og síðan velja **Í lagi**.
 1. Veldu hólfið **Karfa**.
 1. Hægra megin á eiginleikasvæðinu skal velja blýantstáknið, slá inn texta fyrirsagnar í reitinn og síðan velja gátmerkistáknið.
-1. Í hólfinu **Karfa** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Karfa**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Verslunarval** og síðan velja **Í lagi**.
-1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
-1. Í svarglugganum **Nýtt sniðmát** , undir **Heiti sniðmáts** , skal slá inn heiti fyrir sniðmátið.
-1. Í trjáskipulaginu skal velja hólfið **Meginmál** , velja úrfellingarmerkið ( **...** ), og síðan velja **Bæta við broti**.
+1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn heiti fyrir sniðmátið.
+1. Í trjáskipulaginu skal velja hólfið **Meginmál**, velja úrfellingarmerkið (**...**), og síðan velja **Bæta við broti**.
 1. Í svarglugganum **Velja brot** skal velja síðubrotið **Körfubrot** og síðan velja **Í lagi**.
-1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
 1. Í glugganum **Velja sniðmát** skal velja sniðmátið sem var búið til, slá inn síðuheiti og síðan velja **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
@@ -104,9 +104,11 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 
 [Greiðslueining](payment-module.md)
 
-[Eining sendingaraðseturs](ship-address-module.md)
+[Sendingaraðseturseining](ship-address-module.md)
 
-[Eining afhendingarvalkosta](delivery-options-module.md)
+[Afhendingarkostaeining](delivery-options-module.md)
+
+[Eining fyrir afhendingarupplýsingar](pickup-info-module.md)
 
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 

@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979829"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430531"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
 
@@ -110,9 +110,9 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <tr class="odd">
 <td>Felur í sér</td>
 <td>Þetta er satt ef fyrsta skilyrðið er rangt, annað skilyrðið er rétt, eða bæði.</td>
-<td>Felur í sér [a, b], infix: a -: b</td>
+<td>Felur í sér[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operator:</strong> Bendir til[x != 0, y &gt;= 0]</li>
+<li><strong>Virknitákn:</strong> Bendir til[x != 0, y &gt;= 0]</li>
 <li><strong>Infix-tákn:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
@@ -121,16 +121,16 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <td>Þetta er satt ef öll skilyrði eru uppfyllt. Ef skilyrði er 0 (núll), framleiðir það <strong>Rétt</strong>.</td>
 <td>Og[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Virknitákn:</strong> Og[x == 2, y &lt;= 2]</li>
+<li><strong>Virknitákn:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Infix-tákn:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Eða</td>
 <td>Þetta er satt ef hvaða skilyrði er satt. Ef skilyrði er 0 (núll), framleiðir það <strong>Rangt</strong>.</td>
-<td>Eða[args], infix: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Virknitákn:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Virknitákn:</strong> Eða[x == 2, y &lt;= 2]</li>
 <li><strong>Infix-tákn:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
@@ -146,30 +146,30 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <tr class="odd">
 <td>Mínus</td>
 <td>Þetta negates hennar frumbreytu. Þetta verður að hafa nákvæmlega eitt skilyrði.</td>
-<td>Mínus [expr] infix: -expr</td>
+<td>Mínus[expr], infix:-expr</td>
 <td><ul>
-<li><strong>Virknitákn:</strong> Minus[x] == y</li>
+<li><strong>Virknitákn:</strong> Mínus[x] = = y</li>
 <li><strong>Infix-tákn:</strong> -x == y</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Abs</td>
 <td>Þetta tekur raungildi hennar skilyrði. Þetta verður að hafa nákvæmlega eitt skilyrði.</td>
-<td>[Expr] abs</td>
+<td>Abs[expr]</td>
 <td><strong>Virknitákn:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
 <td>Tímar</td>
 <td>Þetta tekur afurðar þess skilyrða. Ef fjöldi skilyrða er 0 (núll), framleiðir það <strong>1</strong>.</td>
-<td>Sinnum[args], infix: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
-<li><strong>Virknitákn:</strong> Times[x, y, 2] == z</li>
+<li><strong>Virknitákn:</strong> Skipti[x, y, 2] == z</li>
 <li><strong>Infix-tákn:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Styrkur</td>
-<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum &#39; hægri-tengt.) Þess vegna er <strong>Power[a, b, c]</strong> jafnt og <strong>Power[a, Power[b, c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
+<td>Power</td>
+<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum er það &#39;hægri-tengt.) Þess vegna er <strong>Power[a, b, c]</strong> jafnt og <strong>Power[a, Power[b, c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Virknitákn:</strong> Power[x, 2] == y</li>
@@ -179,21 +179,21 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <tr class="odd">
 <td>Hámark</td>
 <td>Þetta myndar stærsta skilyrðið. Ef fjöldi skilyrða er 0 (núll), framleiðir það <strong>Óendanleiki</strong>.</td>
-<td>Max [viðföng]</td>
+<td>Max[args]</td>
 <td><strong>Virknitákn:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Lágmark</td>
+<td>Mín.</td>
 <td>Þetta birtir lægstu skilyrði. Ef fjöldi skilyrða er 0 (núll), framleiðir það <strong>Óendanleiki</strong>.</td>
-<td>Mín. [viðföng]</td>
+<td>Min[args]</td>
 <td><strong>Virknitákn:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
 <td>Ekki</td>
 <td>Þetta myndar röklegt inverse skilyrðis hennar. Þetta verður að hafa nákvæmlega eitt skilyrði.</td>
-<td>Ekki [expr] infix: expr</td>
+<td>Ekki[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Virknitákn:</strong> Ekki[x] &amp; Ekki[y == 3]</li>
+<li><strong>Virknitákn:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Infix-tákn:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>

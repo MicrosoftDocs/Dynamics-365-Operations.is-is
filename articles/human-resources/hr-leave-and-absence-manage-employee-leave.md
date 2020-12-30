@@ -1,9 +1,9 @@
 ---
 title: Stjórna leyfi starfsmanns
-description: Skilgreindu færibreytur Human Resources fyrir leyfi og fjarvistir í Dynamics 365 Human Resources.
+description: Stjórna leyfi starfsmanns í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712131"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419112"
 ---
 # <a name="manage-employee-leave"></a>Stjórna leyfi starfsmanns
 
@@ -44,6 +44,13 @@ Hægt er að stjórna leyfi starfsmanns eftir leyfisgerð. Þetta inniheldur ley
 6. Einnig er hægt að velja **Dagsetning**. 
 
 Hægt er að setja inn ástæðukóða og skrifa athugasemd þegar leyfisstaða starfsmanns er leiðrétt. 
+
+>[!IMPORTANT]
+>Hægt er að skoða frekari upplýsingar um leyfisstöðu í forskoðun. Þú þarft að virkja þetta í **sandkassaumhverfinu**. Frekari upplýsingar um virkjun forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).<br>
+>Þegar farið er yfir einhverja leyfisstöðu birtist nú:<br>
+>- **Í boði**: Samtals á þessu ári - Tekið á þessu ári
+>- **Samtals á þessu ári**: Allar uppsafnanir, leiðréttingar og yfirfærslur fyrir árið
+>- **Tekið á þessu ári**: Öll samþykkt frí
 
 ## <a name="see-also"></a>Sjá einnig
 

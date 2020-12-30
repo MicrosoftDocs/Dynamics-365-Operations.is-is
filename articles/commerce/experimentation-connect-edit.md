@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096968"
+ms.locfileid: "4413299"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Tengja tilraun og breyta afbrigðum
 
@@ -84,7 +84,7 @@ Fylgið eftirfarandi skrefum ef umfang tilraunarinnar var skilgreint sem **að h
 1. Veldu eininguna sem á að gera tilraunir á, veldu úrfellingarmerkið (...) og veldu síðan **Bæta við tilraun**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Breyta afbrigðum fyrir tilraunir með fullt umfang
-Ef þú skilgreindir umfang tilraunarinnar sem **allt** í leiðsagnarforritinu **Tengja tilraun** , skaltu í yfirliti ritils skal nota fellivalmynd afbrigðanna fyrir neðan skipanastikuna til að breyta hverju afbrigði fyrir sig samkvæmt upprunalegu tilgátunni. 
+Ef þú skilgreindir umfang tilraunarinnar sem **allt** í leiðsagnarforritinu **Tengja tilraun**, skaltu í yfirliti ritils skal nota fellivalmynd afbrigðanna fyrir neðan skipanastikuna til að breyta hverju afbrigði fyrir sig samkvæmt upprunalegu tilgátunni. 
 
 > [!NOTE]
 > Hvort sem verður fyrir valinu, gætir þú einnig viljað setja upp samanburðar- eða grunnafbrigði með því að skilja eitt þessarar afbrigða eftir óbreytt.

@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214095"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430294"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru
 
@@ -42,13 +42,13 @@ Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu ná
 
 Ef bæta á við nýjum framleiðsluvörum í gegnum fryst tímabil, skal fylgja eftirfarandi skrefum.
 
-1.  Notið skjámyndina **Uppsetning kostnaðarútgáfu**til að leyfa skráningu á kostnaðarfærslum inn í seinni kostnaðarútgáfuna sem inniheldur stigvaxandi uppfærslur. Komið í veg fyrir virkjun biðkostnaðar, þar sem virkjun er leyfð eftir að kostnaður í bið hefur verið algerlega og nákvæmlega skilgreindur. Tilgreinið auða upphafsdagsetningu sem reglu í kostnaðarútgáfunni og færið svo lokadaginn inn þegar hver kostnaðarfærsla er færð inn. Upphafsdagsetningin ætti að vera áður en nýju vörurnar verða keyptar inn eða framleiddar.
+1.  Notið skjámyndina **Uppsetning kostnaðarútgáfu** til að leyfa skráningu á kostnaðarfærslum inn í seinni kostnaðarútgáfuna sem inniheldur stigvaxandi uppfærslur. Komið í veg fyrir virkjun biðkostnaðar, þar sem virkjun er leyfð eftir að kostnaður í bið hefur verið algerlega og nákvæmlega skilgreindur. Tilgreinið auða upphafsdagsetningu sem reglu í kostnaðarútgáfunni og færið svo lokadaginn inn þegar hver kostnaðarfærsla er færð inn. Upphafsdagsetningin ætti að vera áður en nýju vörurnar verða keyptar inn eða framleiddar.
 2.  Notið skjámyndina **Vöruverð** til að færa inn kostnaðarfærslur fyrir nýjar innkeyptar vörur. Fyrir hverja kostnaðarfærslu skal færa inn kostnaðarútgáfuna sem inniheldur stigvaxandi uppfærslur og nota upphafsdagsetningu sem kemur á undan væntanlegri framleiðsludagsetningu fyrir nýjar framleiddar vörur.
 3.  Reiknið út kostnað nýframleiddra vara með því að nota skjámyndina **Útreikningur**. Opnið síðuna **Útreikningur** frá síðunni **Viðhald kostnaðarútgáfu** og veljið síðan kostnaðarútgáfuna sem inniheldur stigvaxandi uppfærslur. Notið valskilyrðin til að tilgreina nýframleidda vöru og alla framleidda íhluti hennar. Einnig gæti verið nauðsynlegt að tilgreina allar yfirvörur innan margstiga framleiðslubyggingar sem innihalda nýframleiddu vörurnar sem íhluti. Færið inn upphafsdagsetningu fyrir uppskriftarútreikninginn sem samsvarar byrjun framleiðslu fyrir nýframleiddu vörurnar. Upphafsdagsetningin ætti að vera innan gildisdagsetninga fyrir uppskriftarútgáfu og leiðarútgáfu vörunnar. **Athugið:** Týnd kostnaðarfærsla getur táknað nýja framleidda vöru. Uppskriftarútreikningar geta takmarkast við vörur með týndum kostnaði.
 4.  Gangið úr skugga um að reiknaður kostnaður fyrir nýjar framleiddar vörur sé fullunninn og nákvæmur. Notið síðuna **Fullvinna** til að fara yfir reiknaðan kostnað hverrar vörukostnaðarfærslu og til að skoða viðvaranir úr athugasemdakladda. Einnig er hægt að nota síðuna **Útreikningur** til að fara yfir reiknaðan kostnað.
 5.  Notið síðuna **Uppsetning kostnaðarútgáfu** til að breyta lokunarflaggiu til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.
 6.  Notið síðuna **Virkja verð** (sem er opnuð úr síðunni **Viðhald kostnaðarútgáfu**) til að virkja allar biðkostnaðarfærslur í seinni kostnaðarútgáfunni. Einnig er hægt að virkja kostnaðarfærslur í bið fyrir stakar vörur með því að smella á hnappinn **Virkja** á síðunni **Vöruverð**.
-7.  Notið síðuna **Uppsetning kostnaðarútgáfu**til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
+7.  Notið síðuna **Uppsetning kostnaðarútgáfu** til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
 
 
 

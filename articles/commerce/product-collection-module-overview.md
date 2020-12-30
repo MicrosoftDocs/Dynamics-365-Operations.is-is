@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817574"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413030"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
@@ -82,7 +82,7 @@ Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum
 1. Í glugganum **Velja grunnstillingu afurðalista** skal velja gerð listans og uppruna listans og slá inn fjölda vara. Grunnstillið aðra valkosti sem eru í boði fyrir listagerðina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
 1. Veljið **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni **Velja stillingu afurðalista**.
 

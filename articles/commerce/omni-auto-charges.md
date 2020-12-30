@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107376"
+ms.locfileid: "4413309"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 

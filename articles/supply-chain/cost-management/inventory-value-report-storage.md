@@ -17,11 +17,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759569"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430307"
 ---
 # <a name="inventory-value-storage-report"></a>Skýrsla um birgðavirði í geymslu
 
@@ -103,6 +103,6 @@ Eftirfarandi dæmi sýnir hvernig á að flytja út skýrslu um **birgðarvirði
 1. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
 1. Veldu **Vista** til að vista uppsetningu á útflutningi.
 1. Á flipanum **Valkostir útflutnings** velurðu **Flytja út núna** til að búa til útflutningsskrána.
-1. Á **Yfirlitssíðu keyrslu** sem birtist geturðu skoðað stöðu útflutningsverksins þíns og lista yfir allar einingar sem voru fluttar út. Í hlutanum**Vinnslustaða einingar** velurðu **Birgðavirði** á listanum og smellir á **Hlaða niður skrá** til að hlaða niður gögnum sem flutt voru út frá þeirri einingu.
+1. Á **Yfirlitssíðu keyrslu** sem birtist geturðu skoðað stöðu útflutningsverksins þíns og lista yfir allar einingar sem voru fluttar út. Í hlutanum **Vinnslustaða einingar** velurðu **Birgðavirði** á listanum og smellir á **Hlaða niður skrá** til að hlaða niður gögnum sem flutt voru út frá þeirri einingu.
 
 Nánari upplýsingar um hvernig á að nota gagnastjórnun til að flytja út gögn er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).

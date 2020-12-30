@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826719"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430419"
 ---
 # <a name="production-order-cost-analysis"></a>Kostnaðargreining framleiðslupöntunar
 
@@ -49,7 +49,7 @@ Eftirfarandi skýringarmynd sýnir fjögur frávik sem útskýra mismuninn á mi
 Hægt er að greina framleiðslufrávik með því að nota síðuna **Frávik** eða skýrsluna **Framleiðslufrávik**. Notið valkosti um birtingu til að skoða einstök frávik eftir vöru og rekstrartilföngum, eða eftir kostnaðarflokki. Reglur um niðurbrot kostnaðar innan birgðafæribreyta ákvarðar hvort að frávikin verða rakin eftir kostnaðarflokki. Einnig er hægt að nota sýnimöguleikana **ein**, **margar**, og **samtals** til að skoða samantekt frávika. Nákvæmar upplýsingar um frávik hjálpa við að skilja orsakir hvers fráviks. Til þess að sjá fyrir frávik áður en lokið er við framleiðslupöntun, greinið hinar nákvæmu upplýsingar sem eru gefnar í skýrslunni **Kostnaðaráætlun og kostnaðarútreikningur**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Kostnaðargreining gildandi framleiðslupantana.
-Aðskildar skýrslur veita upplýsingar fyrir hverja færslugerð. Notið þessar skýrslur til að greina kostnað fyrir skráða framleiðsluverkþætti. Upplýsingar eru aðeins birtar fyrir núverandi framleiðslupantanir með stöðuna **Byrjað** eða**Tilbúið**.
+Aðskildar skýrslur veita upplýsingar fyrir hverja færslugerð. Notið þessar skýrslur til að greina kostnað fyrir skráða framleiðsluverkþætti. Upplýsingar eru aðeins birtar fyrir núverandi framleiðslupantanir með stöðuna **Byrjað** eða **Tilbúið**.
 
 -   **Hráefni í vinnslu**- Skýrslan telur upp þær færslur tiltektarlista sem eru skráðar á móti núverandi framleiðslupöntunum frá og með tiltekinni færsludagsetningu. Skýrslan gefur til kynna íhlutamagn sem var útgefið og kostnaðarmagnið fyrir hverja færslu. Notið valskilyrði fyrir einstakan íhlut. Til dæmis er hægt að prenta upplýsingar um útgefið magn íhluta á móti viðeigandi framleiðslupöntunum. Útgefið magn er ekki uppfært með magni sem er skráð sem lokið fyrir yfirvöruna. Þess vegna getur magn hráefnis í vinnslu verið ýkt.
 -   **Verk í vinnslu**- Skýrslan telur upp leiðar- (eða vinnslu-) færslur sem hafa verið skráðar gegn núverandi framleiðslupöntunum frá og með tiltekinni færsludagsetningu. Skýrslan gefur til kynna vinnutímana, upphæðina og magnið (bæði gott magn og villumagn) sem er skráð fyrir hverja færslu. Það felur einnig í sér upplýsingar eins og aðgerðarnúmerið, Kenni aðgerðar og rekstrartilföng. Skýrslan birtir einnig heildartíma og heildarupphæð allra færslna á móti framleiðslupöntuninni og magn þess sem hefur verið skráð sem tilbúið.

@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: df34d1c0a57f8890dab83ad2284deb0514b128fb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212481"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430613"
 ---
 # <a name="registration-for-manufacturing-execution"></a>Skráning fyrir framkvæmd framleiðslu
 
@@ -53,7 +53,7 @@ Starfsmenn geta gert ýmsar gerðir af skráningum í framleiðsluframkvæmd fyr
 -   **Skrá í birgðum** - Starfsmenn geta gert skráningar á efni sem er notað í vinnslusal en°sem eru ekki tengd beint við framleiðsluverk. Dæmi eru feiti, smurefni eða önnur efni notuð til að halda vélum í gangi. Skráning er gerð í birgðabók.
 -   **Skrá verk** (tiltækt í Tími og viðvera) - Starfsmenn geta gert skráningar, eins og upphaf og lok vinnu á verk eða verkþætti sem birtast í vinnslulista þeirra.
 -   **Skrá verkgjöld og verkatriði** (tiltækt í Tími og viðvera) - Starfsmenn geta skráð þóknanir (útgjöld) sem eru tengdar við verk í verkþóknunarbók, eins og akstur og brúartolla. Starfsmenn geta einnig skráð notkun vara í verkum. Þetta er framkvæmt í vörubók verks.
--   **Skrá sig sem aðstoðarmann annars starfsmanns**Ef tveir eða fleiri starfsmenn vinna saman framleiðsluvinnslu eða verk, getur starfsmaður skráð sig sem aðstoðarmaður vélar eða annars starfsmanns sem mun þá vera eins og verkefnisstjórinn. Ef þörf krefur, getur verkefnisstjóri valið annan starfsmann sem verkefnisstjóra.
+-   **Skrá sig sem aðstoðarmann annars starfsmanns** Ef tveir eða fleiri starfsmenn vinna saman framleiðsluvinnslu eða verk, getur starfsmaður skráð sig sem aðstoðarmaður vélar eða annars starfsmanns sem mun þá vera eins og verkefnisstjórinn. Ef þörf krefur, getur verkefnisstjóri valið annan starfsmann sem verkefnisstjóra.
 -   **Skrá fjarvist** (tiltækt í Tími og viðvera) - Starfsmenn geta skráð tíma á mismunandi fjarvistarkóða sem eru settir upp. Það er hægt að gefa til kynna°fjarvist ef starfsmaður kemur of seint, þarf fjarveru á vinnudegi, eða fer fyrr en búist er við í samræmi við staðlaðar forstillingar vinnutíma.
 -   **Skrá hlé** (tiltækt í Tími og viðvera) - Yfir vinnudaginn geta starfsmenn skráð ef þeir yfirgefa vinnustöð sína til að taka sér hlé. Setja má upp ýmsar gerðir hlé. Þegar starfsmaðurinn kemur og skráir sig aftur, skráir kerfið að starfsmaðurinn er kominn aftur og stöðvar skráningu vinnuhléa.
 -   **Skrá óbeina verkþætti** (tiltækt í Tími og viðvera) –°Óbeinir verkþættir eru framleiðslulausir verkþættir sem starfsmenn gætu sinnt yfir vinnudaginn, eins og deildarfundur, hópfundur eða viðhaldsverk sem fer fram í vinnslusal. Starfsmenn geta gert skráningar á óbeina verkþætti sem eru settir upp.

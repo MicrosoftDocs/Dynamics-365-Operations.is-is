@@ -2,8 +2,8 @@
 title: Búa til hópdagatal
 description: Skoða og stofna hópsdagatöl í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968999"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419111"
 ---
 # <a name="view-team-and-company-calendars"></a>Skoða dagbækur hóps og fyrirtækis
 
@@ -64,6 +64,11 @@ Dagatöl innihalda nú viðbótarsíur og valmöguleika. Í öllum dagatölum er
 Skilgreining dagatals í leyfi og fjarvistafæribreytum ákvarðar tiltæka skoðunarvalmöguleika.
 
 Einnig er hægt að sía dagatöl eftir stjórnanda eða deild. Aðalstöðuverk ákvarðar hvaða starfsmenn birtast þegar þessar síur eru stilltar. 
+
+>[!IMPORTANT]
+>Skoðun leyfis og fjarvista milli fyrirtækja er gert í forskoðun eins og er. Þú þarft að virkja þetta í **sandkassaumhverfinu**. Frekari upplýsingar um virkjun forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).<br><br>
+>Síðan verður að virkja eiginleikann í **Samnýttar færibreytur fyrir mannauð** til að birta síu lögaðilans í dagatölum. Frekari upplýsingar eru í [Grunnstilla færibreytur leyfis og fjarvista](hr-leave-and-absence-parameters.md).<br><br>
+>Hægt er að sía dagatalið eftir lögaðila. Til að sjá alla starfsmenn óháð lögaðila skal hreinsa síureitinn og ýta á dálklykilinn. 
 
 Fyrir upplýsingar um stillingar dagatals, sjá [Skilgreina færibreytur dagatals](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

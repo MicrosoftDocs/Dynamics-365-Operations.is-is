@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec07913e217cb3e33d5b58623643f02593c1eeae
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430070"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Úthlutun tíma á vinnslur í vinnslubúnti
 
@@ -99,7 +99,7 @@ Ef óskað er eftir að reikna út framleiðslukostnað samkvæmt raunkostnaði,
 | Vinnsla 2 | 3 stundir     |
 | Vinnsla 3 | 5 klukkustundir     |
 
-Íhugið að vinnslurnar þrjár eru framkvæmdar af starfsmanni með tímakaupið 12,00 USD. Engin yfirvinna eða kaupauki fékkst fyrir tímann sem varið var í vinnslurnar. Starfsmaðurinn hefur unnið í samtals sex klukkustundir við þessar þrjár sameinuðu vinnslur. Þess vegna er launakostnaðurinn 6 × USD 12,00 = USD 72,00. Þegar úthlutunarlykill rauntíma er notaður er kostnaður á hverja klukkustund endurreiknaður með stuðlinum úr formúlunni Nettótími. Raunverulegur tími sem var varið í hverja vinnslu er síðan fluttur en með leiðrétt kostnaðarverð á klukkustund. Í dæminu er sex klukkustundum eytt þó svo að 10 klukkustundum sé úthlutað. Eftirfarandi tafla sýnir formúluna til að reikna út kostnað. Hér er formúlan: Kostnaður á klukkustund = (Búnt-tími samtals á hverja vinnslu (Nettótími) x Staðlað kostnaðarverð á klukkustund
+Íhugið að vinnslurnar þrjár eru framkvæmdar af starfsmanni með tímakaupið 12,00 USD. Engin yfirvinna eða kaupauki fékkst fyrir tímann sem varið var í vinnslurnar. Starfsmaðurinn hefur unnið í samtals sex klukkustundir við þessar þrjár sameinuðu vinnslur. Þess vegna er launakostnaðurinn 6 × USD 12,00 = USD 72,00. Þegar úthlutunarlykill rauntíma er notaður er kostnaður á hverja klukkustund endurreiknaður með stuðlinum úr formúlunni Nettótími. Raunverulegur tími sem var varið í hverja vinnslu er síðan fluttur en með leiðrétt kostnaðarverð á klukkustund. Í dæminu er sex klukkustundum eytt þó svo að 10 klukkustundum sé úthlutað. Eftirfarandi tafla sýnir formúluna til að reikna út kostnað. Hér er formúlan: Kostnaður á klukkustund = (Búnt-tími samtals á hverja vinnslu (Nettótími)) x Staðlað kostnaðarverð á klukkustund
 
 | Vinnsla   | Útreikningar á leiðréttum kostnaði á klukkustund | Leiðréttur kostnaður á klukkustund | Úthlutaður tími | Heildarkostnaður vinnslu |
 |-------|----------------------------------------|-------------------------|----------------|-------------------|

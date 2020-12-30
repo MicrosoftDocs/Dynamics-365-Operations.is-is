@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107280"
+ms.locfileid: "4413306"
 ---
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
@@ -64,7 +64,7 @@ Til að grunnstilla tiltekið verð vörulista skal velja **Verðflokkar** valko
 
 ## <a name="use-the-source-id-to-track-costs-and-response-rates"></a>Notaðu frumkennið til að fylgjast með kostnaði og svarhlutfalli
 
-Þegar þú skilgreinir **Frumkóðakenni** , getur þú valið um að tengja þetta kenni við **Markhópskenni**. **Markhópskenni** er hægt að skilgreina í **Retail og Commerce** \> **Viðskiptavinir** \> **Markhópur**. Markhópurinn listi yfir viðskiptavini og/eða viðföng sem tilheyra notandaskilgreindum hluta. Tenging gagna um viðskiptavini eða viðföng við frumkóðakenni gerir viðtakendur vörulistans sýnilegri. Ef viðskiptavinur er tengdur við markhóp og sá markhópur er tengdur við virkt frumkóðakenni/vörulista, munu notendur símavers geta séð hvaða vörulista viðskiptavinur hefur fengið með því að velja **Frumkóðar** valkostinn á valmyndinni á **Viðskiptavinir** valmyndaflipanum á **Notendaþjónusta** síðunni. Meðan á pöntunarfærslu stendur geta notendur símavers einnig séð sértæka vörulista sem viðskiptavinur voru sendir í **Uppruni** fellilistanum á sölupöntunarhausnum. Að breyta afmörkun frá **Allir** til **Miðaðir** leyfir notandanum að sjá tiltekna virka vörulista sem viðskiptavinurinn var sendur. Þetta er gagnlegt í aðstæðum þar sem viðskiptavinurinn kann að hafa gleymt vörulistanum sínum eða getur ekki fundið eða lesið vörulistakóðann þegar þeir hringja til að stofna sölupöntun.
+Þegar þú skilgreinir **Frumkóðakenni**, getur þú valið um að tengja þetta kenni við **Markhópskenni**. **Markhópskenni** er hægt að skilgreina í **Retail og Commerce** \> **Viðskiptavinir** \> **Markhópur**. Markhópurinn listi yfir viðskiptavini og/eða viðföng sem tilheyra notandaskilgreindum hluta. Tenging gagna um viðskiptavini eða viðföng við frumkóðakenni gerir viðtakendur vörulistans sýnilegri. Ef viðskiptavinur er tengdur við markhóp og sá markhópur er tengdur við virkt frumkóðakenni/vörulista, munu notendur símavers geta séð hvaða vörulista viðskiptavinur hefur fengið með því að velja **Frumkóðar** valkostinn á valmyndinni á **Viðskiptavinir** valmyndaflipanum á **Notendaþjónusta** síðunni. Meðan á pöntunarfærslu stendur geta notendur símavers einnig séð sértæka vörulista sem viðskiptavinur voru sendir í **Uppruni** fellilistanum á sölupöntunarhausnum. Að breyta afmörkun frá **Allir** til **Miðaðir** leyfir notandanum að sjá tiltekna virka vörulista sem viðskiptavinurinn var sendur. Þetta er gagnlegt í aðstæðum þar sem viðskiptavinurinn kann að hafa gleymt vörulistanum sínum eða getur ekki fundið eða lesið vörulistakóðann þegar þeir hringja til að stofna sölupöntun.
 
 Það er hægt að tengja mörg frumkóðakenni við vörulista. Þetta er oft þarft þegar fyrirtæki vill fylgjast með svörunarhlutfallinu eftir mismunandi hlutum. Fyrirtækið mun setja sérstaka vörulistakóða á mismunandi hluta viðskiptavina, sem gerir kleift að fylgjast með svörunarhlutfalli niður á hlutastigið, innan tiltekins vörulistatilviks.
 
@@ -86,13 +86,13 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 
 ## <a name="catalog-page-analysis"></a>Greining vörulistasíðu
 
-Á flipanum **Vörulistar** , eru valmöguleikar í boði til að stilla **Vörulistasíður**. Þessi eiginleiki gerir þér kleift að skilgreina tilteknar síður og síðugerðir fyrir prentaða vörulistann og kostnaðinn sem þeim tengist.
+Á flipanum **Vörulistar**, eru valmöguleikar í boði til að stilla **Vörulistasíður**. Þessi eiginleiki gerir þér kleift að skilgreina tilteknar síður og síðugerðir fyrir prentaða vörulistann og kostnaðinn sem þeim tengist.
 
 Þegar vörur í vörulista eru grunnstilltar, skal nota **Útlit vörusíðu** aðgerðina til að skilgreina tilteknu síðurnar, prósentuhlutfall af síðunni, og upplýsingar um stöðu síðunnar fyrir vöruna. Grunnstilling þessara gagna gerir notendum kleift að nýta sér **Greiningarskýrslu vörulistasvæðis**. Hægt er að finna þessa skýrslu með því að fara í skýrsluna **Retail og Commerce** \> **Skýrslur símavers** \> **Greining vörulistasvæðis**. Þessi skýrsla greinir sölur samanborið við vörulistann (sölupantanir þar sem frumkenni fyrir vörulistann var bundinn við pöntunarhaus eða línu) og við tengd prósent þeirra af síðunni og kostnað, til að gefa hefðbundna bein markaðssetning skýrslu með **fertommugreiningu**.
 
 ## <a name="catalog-requests"></a>Vörulistabeiðnir
 
-Þar sem vörulistar eru grunnstilltir og birtir í Commerce, er hægt að nota eiginleikann **Senda vörulista**. Þessi eiginleiki er tiltækur á síðunum **Viðskiptavinur leit** og **Viðskiptavinur þjónusta**. Eftir að þú hefur valið viðskiptavinarskrá í gegnum **Viðskiptavinur leit** eða þegar þú skoðar völdu viðskiptavinareikning frá **Viðskiptavinur þjónusta** , geta notendur valið **Senda vörulista** valkostinn sem opnar svarglugga sem gerir notandanum kleift að velja úr lista yfir allar birtar og virkar vörulistar. Notandi getur valið vörulista og magn, og tiltekið frumkóðakenni til að senda. Þegar þeir smella á **Senda** hnappinn er beiðni geymd, sem síðan er hægt að stjórna með því að prenta **Vörulistabeiðnir** skýrsluna. Hægt er að finna þessa skýrslu með því að fara í **Retail og Commerce** \> **Skýrslur símavers** \> **Skýrsla vörulistabeiðna**. Það skráir allar vörulistabeiðnir, þar með talið nafn viðskiptavinar og heimilisfang viðskiptavinar sem óskaði eftir vörulistanum. Hægt er að nota skýrsluna innbyrðis eða gögnin geta verið send til þriðja aðila sem styður ytri ferli sem fela í sér að senda vörulistann efnislega til viðskiptavinarins.
+Þar sem vörulistar eru grunnstilltir og birtir í Commerce, er hægt að nota eiginleikann **Senda vörulista**. Þessi eiginleiki er tiltækur á síðunum **Viðskiptavinur leit** og **Viðskiptavinur þjónusta**. Eftir að þú hefur valið viðskiptavinarskrá í gegnum **Viðskiptavinur leit** eða þegar þú skoðar völdu viðskiptavinareikning frá **Viðskiptavinur þjónusta**, geta notendur valið **Senda vörulista** valkostinn sem opnar svarglugga sem gerir notandanum kleift að velja úr lista yfir allar birtar og virkar vörulistar. Notandi getur valið vörulista og magn, og tiltekið frumkóðakenni til að senda. Þegar þeir smella á **Senda** hnappinn er beiðni geymd, sem síðan er hægt að stjórna með því að prenta **Vörulistabeiðnir** skýrsluna. Hægt er að finna þessa skýrslu með því að fara í **Retail og Commerce** \> **Skýrslur símavers** \> **Skýrsla vörulistabeiðna**. Það skráir allar vörulistabeiðnir, þar með talið nafn viðskiptavinar og heimilisfang viðskiptavinar sem óskaði eftir vörulistanum. Hægt er að nota skýrsluna innbyrðis eða gögnin geta verið send til þriðja aðila sem styður ytri ferli sem fela í sér að senda vörulistann efnislega til viðskiptavinarins.
 
 ## <a name="additional-features"></a>Viðbótareiginleikar
 
@@ -100,4 +100,4 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 
 ## <a name="additional-notes"></a>Viðbótarathugasemdir
 
-Eins og er, þegar frumkóðakenni er beitt á sölupöntun í símaveri, er það notað til að keyra verð, kynningartilboð, forskriftir og söluviðauki/viðbótarsala sem eru sértæk fyrir vörulista. Kerfið mun ekki banna eða koma í veg fyrir að vara sem er ekki í vörulistanum sé pantað í sölupöntuninni. Ef hlutur er pantaður, sem er ekki hluti af vörulistanum, notar kerfið fyrst **Verðflokkur** sem er skilgreindur á símaversrásinni ( **Retail og Commerce** \> **Rásir** \> **Símaver** \> **Öll símaver** ) fyrir vöruverð eða kynningartilboð. Ef ekkert tiltekið rásarverð finnst verður grunnsöluverð vörunnar notað.
+Eins og er, þegar frumkóðakenni er beitt á sölupöntun í símaveri, er það notað til að keyra verð, kynningartilboð, forskriftir og söluviðauki/viðbótarsala sem eru sértæk fyrir vörulista. Kerfið mun ekki banna eða koma í veg fyrir að vara sem er ekki í vörulistanum sé pantað í sölupöntuninni. Ef hlutur er pantaður, sem er ekki hluti af vörulistanum, notar kerfið fyrst **Verðflokkur** sem er skilgreindur á símaversrásinni (**Retail og Commerce** \> **Rásir** \> **Símaver** \> **Öll símaver**) fyrir vöruverð eða kynningartilboð. Ef ekkert tiltekið rásarverð finnst verður grunnsöluverð vörunnar notað.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888906"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430436"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
@@ -88,7 +88,7 @@ Tímasetningarferlið í eignastjórnun inniheldur nokkra þætti í útreikning
 | WO-00010817   | Eftir tvo daga   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Eftir tvo daga   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Verkbeiðnirnar verða áætlaðar í eftirfarandi röð: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Verkbeiðnirnar verða áætlaðar í eftirfarandi röð: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Dæmi 2:**
 
@@ -98,7 +98,7 @@ Verkbeiðnirnar verða áætlaðar í eftirfarandi röð: WO-000108**16**, WO-00
 | WO-00010817   | Eftir tvo daga   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Eftir tvo daga   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Ef stig stig þjónustunnar er hækkað í '100' í stað '5' verður tímasetningarröðin: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Ef stig stig þjónustunnar er hækkað í '100' í stað '5' verður tímasetningarröðin: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Matseinkunnir sem varða útreikning á því hvaða viðhaldsstarfsmenn ættu að vinna í verkbeiðnunum eru allar settar upp sem tölur, sem er bætt við hvern útreikning viðhaldsaðila við tímasetningu verkbeiðni. Viðhaldsstarfsmaðurinn með hæstu einkunn er valinn í verkbeiðninni. Hér er stutt lýsing á skorum starfsmanna viðhalds:
 

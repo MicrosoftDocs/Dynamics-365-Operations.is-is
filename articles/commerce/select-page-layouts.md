@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269913"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413282"
 ---
 # <a name="select-page-layouts"></a>Velja síðuútlit
 
@@ -47,7 +47,7 @@ Fylgdu þessum skrefum til að búa til útlit fyrir fyrirliggjandi síðu.
 1. Veldu **Vista sem nýtt útlit**.
 1. Sláðu inn nafn fyrir útlitið og veldu síðan **Í lagi**.
 1. Veldu **Breyta skipulagi**, veldu fyrsta skipulagið sem þú bjóst til og veldu síðan **Í lagi**. Skráið niður einingaröðina. Breyttu því þannig að það passi við einingapöntunina sem var vistuð með skipulaginu.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Veldu annað skipulag fyrir núverandi síðu
 
@@ -60,7 +60,7 @@ Fylgdu þessum skrefum til að velja annað skipulag fyrir fyrirliggjandi síðu
 1. Veldu síðuna, veldu **Breyta** til að athuga það og veldu síðan síðuheitið til að opna hana.
 1. Velja **Breyta útliti**.
 1. Veldu nýja skipulag síðunnar og veldu síðan **Í lagi**. Síðuritillinn er endurnýjaður til að sýna nýja skipulagið.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
 ms.openlocfilehash: 7c0f98ffc6ede74f93523b9fa9800e7b6617d9b6
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978338"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430548"
 ---
 # <a name="vendor-rebates"></a>Eftirágreiddur afsláttur lánardrottins
 
@@ -146,7 +146,7 @@ Endurgreiðslukröfur sem eru myndaðar tákna framtíðargreiðslur sem hægt e
     - Reikningur lánardrottins (kreditnóta) fyrir endurgreiðsluupphæðina hefur verið búin til.
 
         > [!NOTE]
-        > Stillingar **Handvirk bókun reiknings** valkostsins í **Áætlun fyrir eftirágreiddan afslátt** flipanum í**Færibreytur innkaupa og aðfanga** síðunni ákvarða hvort reikningur lánardrottins er bókaður handvirkt eða sjálfkrafa sem hluti af kröfuferli.
+        > Stillingar **Handvirk bókun reiknings** valkostsins í **Áætlun fyrir eftirágreiddan afslátt** flipanum í **Færibreytur innkaupa og aðfanga** síðunni ákvarða hvort reikningur lánardrottins er bókaður handvirkt eða sjálfkrafa sem hluti af kröfuferli.
 
     - Þegar lánardrottinsreikningur er bókaður, annaðhvort sjálfkrafa eða handvirkt, hefur kröfureikningur lánardrottins verið debetfærður og reikningurinn frádráttarreikningur kreditfærður.
 

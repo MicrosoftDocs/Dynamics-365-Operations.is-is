@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817379"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413094"
 ---
 # <a name="text-block-module"></a>Textabálkseining
 
@@ -75,7 +75,7 @@ Fylgdu þessum skrefum til að bæta textabálkseiningu við nýja síðu og sti
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Textabálkur** og síðan velja **Í lagi**. 
 1. Í eiginleikaglugga textabálkseiningarinnar bætirðu texta við í reitinn **Mótaður texti**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

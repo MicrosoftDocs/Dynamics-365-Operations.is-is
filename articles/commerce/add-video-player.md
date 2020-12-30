@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413114"
 ---
 # <a name="video-player-module"></a>Myndspilaraeining
 
@@ -93,7 +93,7 @@ Fylgdu þessum skrefum til að bæta myndspilaraeiningu við nýja síðu og sti
 1. Í glugganum **Hlaða upp margmiðlunarefni** skal slá inn titil og aðrar upplýsingar eftir þörfum og velja síðan **Í lagi**.
 1. Í glugganum **Val á miðli** skal velja **Loka**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá myndskeiðseininguna á síðunni. Þú getur breytt viðbótarstillingum til að sérsníða hegðun einingarinnar.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

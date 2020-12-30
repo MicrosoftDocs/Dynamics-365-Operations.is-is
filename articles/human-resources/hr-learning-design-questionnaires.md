@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419087"
 ---
 # <a name="design-questionnaires"></a>Hanna spurningalista
 
@@ -91,7 +91,7 @@ Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkv�
 Þú ættir að skilgreina allar færibreytur áður en þú byrjar að stofna gögnin þín. Hægt er að breyta færibreytustillingum spurningalista hvenær sem er.
 
 ## <a name="questionnaire-components"></a>Íhlutir spurningalista
-Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
+Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan.  Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

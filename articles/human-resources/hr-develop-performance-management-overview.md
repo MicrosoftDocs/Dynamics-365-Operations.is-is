@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628454"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419034"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -77,7 +77,7 @@ Markmið hafa oft mælanlegur niðurstöður. Hægt er að bæta við mælingu t
 
 Frammistöðubókin mun innihalda aðgerðir sem veita yfirmanni þínum frekari upplýsingar um hvernig þú getur náð markmiðinu þínu. Ef þú hefur tengt frammistöðubók við markmið birtist hún í **Aðgerðir** hlutanum í markmiðinu. Einnig er hægt að bæta við nýja frammistöðubók úr **frammistöðumarkmið** síða. Þessi frammistöðubók verður sjálfkrafa tengd við markmiðið. 
 
-Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú fest það í **Viðhengi**hlutanum í **frammistöðumarkmið** síðu. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala. 
+Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú fest það í **Viðhengi** hlutanum í **frammistöðumarkmið** síðu. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala. 
 
 Þú getur stofnað sniðmát úr markmiði og notað sniðmát til að búa til ný markmið sem byggð eru á sniðmátinu. Þegar sniðmát er stofnað í markmiði eru lýsing, umræðuefni og markmið mælingar vistaðar. Hins vegar, allar raunmælingar, lokadagsetningar, og efnisatriði ummæli eru fjarlægt.
 
@@ -132,7 +132,7 @@ Hægt er að nota starfskraftur yfirferð verkflæði til að stýra endurskoðu
 
 1.  Þegar umsögn er stofnað er hún stillt á **Ekki hafið** stöðu. Umsögn geta allir breytt.
 
-2.  Þegar starfsmaður ýtir á **Byrja endurskoðun** hnappinn er endurskoðun stillt á **Í vinnslu**stöðu. Starfsmaður byrjar þá að bæta við efni. Á þessum tímapunkti getur yfirmaður ekki lengur séð endurskoðunarskjal.
+2.  Þegar starfsmaður ýtir á **Byrja endurskoðun** hnappinn er endurskoðun stillt á **Í vinnslu** stöðu. Starfsmaður byrjar þá að bæta við efni. Á þessum tímapunkti getur yfirmaður ekki lengur séð endurskoðunarskjal.
 
 3.  Starfsmaður breytir stöðu í **Tilbúið fyrir endurskoðun**.
 
@@ -150,7 +150,7 @@ Starfskraftur umsögn verkflæði hefur tvö verkferli:
 
 ## <a name="setup"></a>Uppsetning
 
-Það eru þrjár síður sem hjálpa þér að setja upp upplýsingar sem er krafist til þess að ljúka frammistöðuferli: **mælingar**síða, **upprunagerðir frammistöðubók** síða og **endurskoðunargerðir** síða.
+Það eru þrjár síður sem hjálpa þér að setja upp upplýsingar sem er krafist til þess að ljúka frammistöðuferli: **mælingar** síða, **upprunagerðir frammistöðubók** síða og **endurskoðunargerðir** síða.
 
 ### <a name="measurements"></a>Mælingar
 

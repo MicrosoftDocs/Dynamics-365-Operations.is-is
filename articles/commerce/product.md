@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7afe9225b8fc966ca154a5eb7421e8d4cc7c3023
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664835"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413269"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Bæta afurðaráðleggingum við sölustað
 
@@ -59,7 +59,7 @@ Til að setja upp vöruráðleggingar skal fylgja þessum skrefum:
 
 1. Gakktu úr skugga um að þjónusta þín hafi verið uppfærð í **10.0.6 bygging.**
 2. Fylgdu leiðbeiningunum um hvernig á að gera [virkja tillögur um vöru](../commerce/enable-product-recommendations.md) fyrir fyrirtæki þitt.
-3. Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í **Útlit Skjás**útlit skjás valið **Útlitshönnuður afgreiðsluskjás** opnaður, og svo sleppt stýringunni **leiðbeiningar** þar sem þarf.
+3. Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í **Útlit Skjás** útlit skjás valið **Útlitshönnuður afgreiðsluskjás** opnaður, og svo sleppt stýringunni **leiðbeiningar** þar sem þarf.
 4. Farið í **Færibreytur Commerce**, veljið **Vélnám** svo **Já** undir **virkja ráðleggingar sölustaðar**.
 5. Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna **1110**. Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar **1070**.
 

@@ -20,11 +20,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 119046ee2b783e6a4b868fff2b1d7a1b59966e7b
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4413284"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 

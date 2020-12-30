@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413128"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
@@ -69,7 +69,7 @@ Fylgdu þessum skrefum til að búa til villusvörunarsíðu með stöðukóða.
 
 Fylgdu þessum skrefum til að setja upp framsendingu fyrir villusvörunarsíðu stöðukóða.
 
-1. Farðu á **Vefslóðir \> Nýtt \> Nýtt auknefni**og veldu villusvörusíðu stöðukóða sem þú bjóst til fyrr.
+1. Farðu á **Vefslóðir \> Nýtt \> Nýtt auknefni** og veldu villusvörusíðu stöðukóða sem þú bjóst til fyrr.
 1. Í reitinn **Auknefni** skaltu slá inn annaðhvort **sjálfgefið-4xx** eða **sjálfgefið-5xx**, allt eftir villusvörunarsíðu stöðukóða sem þú ert að setja upp framsendingu fyrir. Þessi auknefni verður að birta. Annars virkar framsendingin ekki.
 1. Velja skal **Í lagi** til að staðfesta tenginguna.
 

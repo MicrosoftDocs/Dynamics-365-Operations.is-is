@@ -3,7 +3,7 @@ title: Úthluta Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að setja upp að aðgang Microsoft Dynamics 365 Commerce matsumhverfi.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599851"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4413314"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Úthluta Dynamics 365 Commerce matsumhverfi
 
@@ -48,6 +48,7 @@ Frekari upplýsingar um hvernig á að grunnstilla Commerce-matsumhverfið þega
 
 Eftirfarandi skilyrði verða að vera til staðar áður en hægt er að úthluta matsumhverfi í Commerce:
 
+- Þú hefur fengið aðgang að matsforritinu og fengið úthlutað afkastagetu fyrir matsumhverfi.
 - Þú hefur aðgang að Microsoft Dynamics Lifecycle Services (LCS)-gáttinni.
 - Þú ert fyrirliggjandi félagi eða viðskiptavinur Microsoft Dynamics 365 og getur stofnað Dynamics 365 Commerce verk.
 - Þú ert með stjórnandaaðgang að Microsoft Azure-áskriftinni eða þú ert í samskiptum við umsjónaraðila áskriftar sem getur aðstoðað þig ef þörf krefur.
@@ -91,7 +92,7 @@ Til að virkja umhverfið skaltu fylgja þessum skrefum.
 
 1. Í efstu valmyndinni velurðu **Umhverfi í skýi**.
 1. Veldu **Bæta við** til að bæta við umhverfi.
-1. Í reitnum **Útgáfa forrits**, veldu nýjustu útgáfuna. Ef þú hefur sérstaka þörf fyrir að velja aðra forritsútgáfu en nýjustu útgáfuna skaltu ekki velja útgáfu áður **10.0.8**.
+1. Í reitnum **Útgáfa forrits**, veldu nýjustu útgáfuna. Ef þú hefur sérstaka þörf fyrir að velja aðra forritsútgáfu en nýjustu útgáfuna skaltu ekki velja útgáfu áður **10.0.14**.
 1. Í reitnum **Útgáfa verkvangs**, notarðu verkvangsútgáfuna sem er sjálfkrafa valin fyrir forritsútgáfuna sem þú valdir. 
 
     ![Val á forrita- og verkvangsútgáfum](./media/project1.png)

@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998877"
+ms.locfileid: "4430633"
 ---
 # <a name="automatic-allocation-of-charges"></a>Sjálfvirk úthlutun gjalda
 
@@ -49,12 +49,12 @@ Til að úthluta gjöldum þarf fyrst að skilgreina gjaldakóða.
     - **Hámarksupphæð** - Færið inn hámarksupphæð sem leyfð er fyrir gjaldakóðann. Þessi reitur er notaður til að staðfesta gjöld fyrir reikninga lánardrottins. Hann er aðeins í boði fyrir innkaupapantanir.
 
         > [!NOTE]
-        > Til að kveikja á virkni fyrir staðfestingu gjalda fyrir innkaupapantanir er farið í **Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**. Í flýtiflipanum **Prófun reiknings** , í hlutanum **Prófun reiknings** , skal stilla valkostinn **Virkja prófun á samsvörun reiknings** á *Já*.
+        > Til að kveikja á virkni fyrir staðfestingu gjalda fyrir innkaupapantanir er farið í **Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**. Í flýtiflipanum **Prófun reiknings**, í hlutanum **Prófun reiknings**, skal stilla valkostinn **Virkja prófun á samsvörun reiknings** á *Já*.
 
 1. Flýtiflipinn **Bókun** inniheldur **Debet** og **Kredit** hluta. Stillið eftirfarandi reiti, allt eftir fjárhagnum sem á að bóka gjöldin á:
 
-    - **Gerð** - Veljið gerð lykils sem bókað er á ( *Fjárhagur* , *Viðskiptavinur* eða *Vara* ).
-    - **Bókun** – Veljið gerð bókanna sem á að stofna (svo sem *Miðlaragjald* eða *Jöfnun viðskiptavinar* ).
+    - **Gerð** - Veljið gerð lykils sem bókað er á (*Fjárhagur*, *Viðskiptavinur* eða *Vara*).
+    - **Bókun** – Veljið gerð bókanna sem á að stofna (svo sem *Miðlaragjald* eða *Jöfnun viðskiptavinar*).
     - **Reikningur** - Veljið lykilinn sem bóka á gjaldið fyrir.
 
 1. Í aðgerðarúðunni skal velja **Vista**.
@@ -75,7 +75,7 @@ Til að stofna gjaldaflokka fyrir innkaupapantanir skal fylgja þessum skrefum.
 
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Farið í **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar** og annaðhvort opnið fyrirliggjandi lánardrottin eða stofnið nýjan lánardrottin.
-1. Í flýtiflipanum **Sjálfgildi innkaupapöntunar** , í hlutanum **Innkaupapöntun** , skal stilla reitinn **Gjaldaflokkur** á gjaldaflokkinn sem var stofnaður rétt í þessu.
+1. Í flýtiflipanum **Sjálfgildi innkaupapöntunar**, í hlutanum **Innkaupapöntun**, skal stilla reitinn **Gjaldaflokkur** á gjaldaflokkinn sem var stofnaður rétt í þessu.
 
 ### <a name="charge-groups-for-sales-orders"></a>Gjaldaflokkar fyrir sölupantanir
 
@@ -89,7 +89,7 @@ Til að stofna gjaldaflokka fyrir sölupantanir skal fylgja þessum skrefum.
 
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Farið í **Viðskiptakröfur \> Viðskiptavinir \> Allir viðskiptavinir** og annaðhvort opnið fyrirliggjandi viðskiptavin eða stofnið nýjan viðskiptavin.
-1. Í flýtiflipanum **Sjálfgildi innkaupapöntunar** , í hlutanum **Sölupöntun** , skal stilla reitinn **Gjaldaflokkur** á gjaldaflokkinn sem var stofnaður rétt í þessu.
+1. Í flýtiflipanum **Sjálfgildi innkaupapöntunar**, í hlutanum **Sölupöntun**, skal stilla reitinn **Gjaldaflokkur** á gjaldaflokkinn sem var stofnaður rétt í þessu.
 
 ## <a name="define-auto-charges"></a>Skilgreina sjálfvirk gjöld
 
@@ -100,7 +100,7 @@ Eftir að gjaldakóðar eru settir upp skal fylgja þessum skrefum til að skilg
     - Fyrir innkaupapantanir: Farið í **Innkaup og aðföng \> Uppsetning \> Gjöld \> Sjálfvirk gjöld**.
     - Fyrir sölupantanir: Farið í **Viðskiptakröfur \> Uppsetning \> Uppsetning gjalda \> Sjálfvirk gjöld**.
 
-1. Í listasvæðinu, í reitnum **Stig** , skal velja stigið þar sem á að nota sjálfvirkt gjald:
+1. Í listasvæðinu, í reitnum **Stig**, skal velja stigið þar sem á að nota sjálfvirkt gjald:
 
     - *Aðal* - Færa gjöld á pöntunarhaus.
     - *Lína* - Færa gjöld á pöntunarlínur.
@@ -156,8 +156,8 @@ Eftirfarandi ferli sýnir hvernig á að úthluta gjöldum hausastigs á línu. 
 1. Opnið innkaupapöntun eða gjaldapöntun.
 1. Á aðgerðasvæðinu skal fylgja einu af þessum skrefum:
 
-    - Fyrir innkaupapantanir: Í flipanum **Innkaup** , í flokknum **Gjald** , skal velja **Úthluta gjöldum**.
-    - Fyrir sölupantanir: Í flipanum **Selja** , í flokknum **Gjald** , skal velja **Úthluta gjöldum**.
+    - Fyrir innkaupapantanir: Í flipanum **Innkaup**, í flokknum **Gjald**, skal velja **Úthluta gjöldum**.
+    - Fyrir sölupantanir: Í flipanum **Selja**, í flokknum **Gjald**, skal velja **Úthluta gjöldum**.
 
 1. Í svarglugganum **Úthluta gjöldum á pöntunarlínur** skal stilla eftirfarandi reiti:
 

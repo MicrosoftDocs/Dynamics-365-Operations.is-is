@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022078"
+ms.locfileid: "4413289"
 ---
 # <a name="social-share-module"></a>Samfélagsmiðlaeining
 
@@ -53,20 +53,20 @@ Eftirfarandi mynd sýnir dæmi um samfélagsmiðlaeiningu sem er notuð á uppl�
 ## <a name="social-share-item-module-properties"></a>Eiginleikaeiningar samfélagsmiðlaeiningar
 | Nafn eiginleika             | Virði                 | lýsing |
 |---------------------------|-----------------------|-------------|
-| Netsamfélög              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **Mail** | Fellivalmynd með lista yfir samfélagsmiðla. |
+| Netsamfélög              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Mail** | Fellivalmynd með lista yfir samfélagsmiðla. |
 | Tákn |Mynd    | Þetta verður myndin sem birtist fyrir viðkomandi samfélagsmiðil. Bestu starfsvenju um notkun mynda fyrir verkvanga er að finna í SDK fyrir verkvang samfélagsmiðilsins. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Bæta samfélagsmiðlaeiningu við kaupgluggaeiningu
 
 Til að bæta við samfélagsmiðlaeiningu við kaupgluggaeiningu skal fylgja þessum skrefum.
 
-1. Á Fabrikam-svæðinu skal velja **Síður** , og síðan velja **DefaulPDP** síðuna til að opna upplýsingasíðu afurðar. 
-1. Í hólfinu **Kaupgluggi (krafist)** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Á Fabrikam-svæðinu skal velja **Síður**, og síðan velja **DefaulPDP** síðuna til að opna upplýsingasíðu afurðar. 
+1. Í hólfinu **Kaupgluggi (krafist)**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Deila á samfélagsmiðlum** og síðan **Í lagi**.
-1. Í hólfinu **Deila á samfélagsmiðlum** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Deila á samfélagsmiðlum**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **SocialShare** og síðan velja **Í lagi**.
-1. Á eiginleikasvæðinu í **SocialShare** einingunni, undir **Stefna** , skal velja **Lárétt**. Bættu við myndatexta eins og nauðsynlegt er.
-1. Í hólfinu **SocialShare** , skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Á eiginleikasvæðinu í **SocialShare** einingunni, undir **Stefna**, skal velja **Lárétt**. Bættu við myndatexta eins og nauðsynlegt er.
+1. Í hólfinu **SocialShare**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **SocialShareItem** og síðan velja **Í lagi**.
 1. Á eiginleikasvæði **SocialShareItem** einingarinnar, undir **Samfélagsmiðlar** skal velja **Facebook**.
 1. Á eiginleikasvæði **SocialShareItem** einingarinnar, undir **Tákn** skal velja **+ Bæta við mynd**.

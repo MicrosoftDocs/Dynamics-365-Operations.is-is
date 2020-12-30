@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413086"
 ---
 # <a name="carousel-module"></a>Myndaræmueining
 
@@ -73,7 +73,7 @@ Fylgdu þessum skrefum til að bæta myndaræmueiningu við nýja síðu og stil
 1. Bæta við og stilla aðra innihaldsbálkseiningu.
 1. Stilltu viðbótareiginleika fyrir myndaræmueininguna eins og þú þarft.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Síðan ætti að sýna myndaræmu sem hefur tvær einingar í sér (hetjueining og eiginleikaeining). Þú getur breytt viðbótareiginleikum fyrir myndaræmu-, hetju- og eiginleikaeiningarnar til að ná tilætluðum áhrifum.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

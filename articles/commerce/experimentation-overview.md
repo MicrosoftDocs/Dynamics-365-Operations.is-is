@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097140"
+ms.locfileid: "4413298"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Tilraunir í Dynamics 365 Commerce
 Notið tilraunir í Dynamics 365 Commerce til að sannprófa tilgátur um árangur af síðum rafrænna viðskipta og takið ákvarðanir sem styðjast við gögn. Commerce styður A/B-prófun á síðum, einingum og brotum og gerir notanda kleift að mæla áhrif fyrirhugaðra breytinga á vefsvæði notanda.

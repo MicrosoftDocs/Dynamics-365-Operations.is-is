@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 87e5d4f46a2ae34a2bc114a92ed4e037875dde43
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211147"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430266"
 ---
 # <a name="report-production-orders-as-finished"></a>Skrá framleiðslupöntun sem tilbúna
 
@@ -44,7 +44,7 @@ Magnið er skráð á°frálagsstaðsetningu. Vöruhúsavinna er°þá°mynduð 
 -   Hægt er að stofna gæðapöntun er þegar framleiðslupöntun er tilkynnt sem tilbúin ef gæðatenging hefur verið sett upp.
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Stilla framleiðslupöntun sem°Tilkynnt sem lokið
-Hægt er að færa framleiðslupöntun í stöðuna **Tilkynnt sem lokið**með hefðbundinni uppfærsluaðgerð framleiðslupöntunar eða með leiðar- og vinnslupjaldsbókum eða í gegnum°færslubókina **Tilkynnt sem lokið**. Einnig er hægt að uppfæra stigið í°**Tilkynnt sem lokið** gegnum síðurnar afgreiðslustöð verkspjalda og verkspjaldssíðu í tæki°í síðustu vinnslu framleiðslupöntunar. Loks er hægt að virkja valkostinn **Tilkynnt sem lokið** sem ferli fyrir vöruhúsalófatölvur.  
+Hægt er að færa framleiðslupöntun í stöðuna **Tilkynnt sem lokið** með hefðbundinni uppfærsluaðgerð framleiðslupöntunar eða með leiðar- og vinnslupjaldsbókum eða í gegnum°færslubókina **Tilkynnt sem lokið**. Einnig er hægt að uppfæra stigið í°**Tilkynnt sem lokið** gegnum síðurnar afgreiðslustöð verkspjalda og verkspjaldssíðu í tæki°í síðustu vinnslu framleiðslupöntunar. Loks er hægt að virkja valkostinn **Tilkynnt sem lokið** sem ferli fyrir vöruhúsalófatölvur.  
 
 
 

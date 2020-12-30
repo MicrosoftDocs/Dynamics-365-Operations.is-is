@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985914"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430411"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Reikna út uppskrift og nota uppbygging með einu stigi (febrúar 2016)
 

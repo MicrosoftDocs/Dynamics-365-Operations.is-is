@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980634"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430389"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO dagsetning með efnislegt virði og merkingu
 
@@ -119,7 +119,7 @@ til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptav
 
 Til dæmis, Innhreyfingarfærsla er merkt við úthreyfingarfærslu. Í þessu tilfelli, villuleitaraðferðarinnar sem var skilgreind í vörulíkanaflokk vöru er hunsuð, og kerfið jafnar þessar færslur hverja við aðra. 
 
-Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni**Merking**. 
+Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þetta frá sölupöntunarlínu á síðunni **Ítarupplýsingar sölupöntunar**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni **Merking**. 
 
 Einnig er Hægt að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók. 
 
