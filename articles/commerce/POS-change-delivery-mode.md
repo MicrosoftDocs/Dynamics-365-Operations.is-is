@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975098"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594138"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Breyta afhendingarmáta í POS
 
@@ -40,4 +40,10 @@ Eftir að þessi aðgerð er stillt í POS, þegar þú velur **Breyta afhending
 
 Eftir að þú hefur valið línurnar sem þú vilt breyta, smelltu á **Breyta afhendingaraðferð** að vera beðinn um að velja valkosti afhendingarstillingar. Ef þú valdir margar línur til að breyta, birtir POS aðeins afhendingaraðferðir sem hafa verið stilltir sem leyfilegt fyrir allar valdar vörur. Hægt er að stilla afhendingaraðferðir til að styðja við tilteknar vörur og afhendingarföng. Ef það er til staðar afhendingarstaður sem er ásættanlegur fyrir eina vöru- og heimilisfangasamsetningu en er ekki ásættanlegur fyrir aðra valda vöru- og heimilisfangasamsetningu, er afhendingarháttur ekki tiltækur. Þú gætir þurft að velja línur einn í einu og breyta afhendingarháttum fyrir hverja línu fyrir sig ef þú vilt velja afhendingaraðferð fyrir eina vöru sem er ekki studd af annarri vöru.  
 
-Eftir að þú hefur valið nýja afhendingarstillingu birtist viðskiptasíðan. Til að skoða nýju afhendingarstillingarnar þínar skaltu velja flipann **Afhending** á færslulistanum.   
+Eftir að þú hefur valið nýja afhendingarstillingu birtist viðskiptasíðan. Til að skoða nýju afhendingarstillingarnar þínar skaltu velja flipann **Afhending** á færslulistanum.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Stofna símaverspantanir](tasks/create-call-center-orders.md)
+
+[Sérstilla tölvupósta vegna færslna eftir afhendingarmáta](customize-email-delivery-mode.md)

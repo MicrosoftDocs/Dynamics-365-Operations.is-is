@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94d8291190b6c08c6e0e5241513989354df7939d
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711843"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (06. ágúst 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3444. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera LCS fyrir tilvísun.
 

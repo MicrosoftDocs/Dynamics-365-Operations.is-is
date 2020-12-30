@@ -1,33 +1,34 @@
 ---
 title: Samstarf lánardrottna með viðskiptavinum
 description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018157"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654341"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 Supply Chain Management. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 
@@ -40,7 +41,7 @@ Lánardrottnar geta líka fylgst með upplýsingum um vörusendingarbirgðir.
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>Vinna með innkaupapantanir á vinnusvæði staðfestingar á innkaupapöntun
 
-Í **Staðfesting á innkaupapöntun** vinnusvæði gerir þér kleift að svara Innkaupapantanir sem hafa verið send til þín til skoðunar. Það gerir einnig kleift að skoða upplýsingar um innkaupapantanir sem bíða eftir aðgerð frá viðskiptavininum og innkaupapantanir sem hafa verið staðfestar en eru enn opnar.
+Í **Staðfesting á innkaupapöntun** vinnusvæði gerir þér kleift að svara innkaupapöntunum sem hafa verið sendar til þín til skoðunar. Það gerir einnig kleift að skoða upplýsingar um innkaupapantanir sem bíða eftir aðgerð frá viðskiptavininum og innkaupapantanir sem hafa verið staðfestar en eru enn opnar.
 
 Það eru þrjár listum í **staðfesting á Innkaupapöntun** vinnusvæðis:
 
@@ -53,13 +54,13 @@ Hægt er að nota eftirfarandi síður til að vinna með innkaupapantanir:
 - **Innkaupapantanir til að fara yfir** - Þessi síða inniheldur sömu upplýsingar og **Innkaupapantanir til að fara yfir** listinn á vinnusvæðinu. Sjá lýsinguna fyrr í þessari efnisatriði.
 - **Staðfestingarsögu lánardrottins fyrir innkaupapantanir** -Þessi síða inniheldur allar innkaupapantanir og útgáfur innkaupapantana sem hafa verið sendar til lánardrottins. Hún inniheldur einnig öll svör sem hafa borist frá lánardrottni.
 - **Opnar staðfestar innkaupapantanir** - Þessi síða inniheldur sömu upplýsingar og **Opnar staðfestar innkaupapantanir** listinn á vinnusvæðinu. Sjá lýsinguna fyrr í þessari efnisatriði.
-- **Allar staðfestar innkaupapantanir** - Þessi síða inniheldur allar innkaupapantanir sem hafa verið staðfestar. Á meðal IP á þessari síðu eru allar innkaupapantanir þar sem vörur eða þjónustu hafa verið mótteknar. Hægt er að nota þennan lista til að fylgjast með þeim innkaupöntunum sem er hægt að senda reikninga fyrir.
+- **Allar staðfestar innkaupapantanir** - Þessi síða inniheldur allar innkaupapantanir sem hafa verið staðfestar. Á meðal innkaupapantana sem birtast á þessari síðu eru allar innkaupapantanir þar sem vörur eða þjónustu hafa verið mótteknar. Hægt er að nota þennan lista til að fylgjast með þeim innkaupöntunum sem er hægt að senda reikninga fyrir.
 
 ### <a name="responding-to-pos"></a>Svara innkaupapöntunum
 
 Innkaupapantanir sem viðskiptavinurinn hefur sent þér til að fara yfir eru sýnilegir í **staðfesting á Innkaupapöntun** vinnusvæði og á **Innkaupapantanir fyrir yfirferð** síðuna. Eftir Innkaupapöntun er opnuð er hægt að samþykkja hana, hafna henni eða samþykkja hana með breytingum. Það gætu verið viðhengi á haus Innkaupapöntunar eða á einstakra lína. Líka er hægt að hengja upplýsingar við svar þínu á einstakar línur eða haus Innkaupapöntunar. Til dæmis gætu lagt til staðgengilsvöru fyrir ein línanna.
 
-Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Það er líka hægt að nota **Birta víddir** aðgerðina til að fela eða sýna eftirfarandi víddardálka: **Svæði** , **Vöruhús** , **Litur** , **Stærð** , **Stíll** , og **Skilgreining**. 
+Forskoðun og prenta Innkaupapöntunina er mögulegt sem pdf-skrá með því að nota **Prenta /Forskoðun** valkostur. Það er líka hægt að nota **Birta víddir** aðgerðina til að fela eða sýna eftirfarandi víddardálka: **Svæði**, **Vöruhús**, **Litur**, **Stærð**, **Stíll**, og **Skilgreining**. 
 
 Ef nota á **Samþykkja með breytingum** valkost er hægt að samþykkja eða hafna einstakar línur. Einnig er hægt að gera breytingar á eftirfarandi línum:
 
@@ -81,7 +82,7 @@ Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir sam
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Vinna með Beiðnir um tilboð á vinnusvæði fyrir Lánardrottnatilboð
 
-**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða Beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð. 
+**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð. 
 
 Vinnusvæðið sýnir líka allar Beiðnir um tilboð sem þú hefur tapað eða unnið. Að auki, ef kerfið er grunnstillt fyrir hið opinbera, sýnir vinnusvæðið þær Beiðnir um tilboð sem eru opinber.
 
@@ -105,15 +106,18 @@ Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeið
 
     Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið.
 
+    Aukið aðgengi **Opna útgefnar tilboðsbeiðnir** tengilsins með því að kveikja á eiginleikanum **Sýna tengilinn „Opna birtar tilboðsbeiðnir“ sem reit**. Þessi eiginleiki breytir tengli í reit og flytur hann á áberandi stað, þannig að auðvelt sé að finna hann.
+
 - Velja **Lokaðar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir lokaðar beiðnir um tilboð sem eru opinberar. Lokuð tilboðsbeiðni er útrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 
     Lokuð tilboðsbeiðni sýnir öll kauptilboð lánardrottna niður á línustig. Upplýsingar í lokuðum tilboðsbeiðnum endurspegla það þegar kauptilboðum er úthlutað eða þeim hafnað. Öll viðhengi sem eru höfð með í kauptilboðinu eru líka tiltæk.
 
-**Athugið:** Þessi virkni er aðeins tiltæk ef búið er að virkja grunnstillingar fyrir hið opinbera.
+> [!NOTE]
+> Þessi virkni er aðeins í boði ef kveikt er á grunnstillingu fyrir hið opinbera.
 
 ### <a name="bidding"></a>Tilboð
 
-- Smellið á **Kauptilboð** til að byrja að gera kauptilboð í beiðni um tilboð.
+- Veljið **Kauptilboð** til að byrja að gera kauptilboð í beiðni um tilboð.
 
     Þegar opnað er fyrir möguleikann á breytingum í kauptilboðsreitunum á haus og línu tilboðsbeiðni, geturðu fært inn kauptilboð þitt beint í hnitanetið. Þú þarft einnig að gæta að öllum upplýsingar um viðbótarkauptilboð sem skal bæta inn í línuupplýsingarnar.
 
@@ -130,7 +134,7 @@ Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeið
 
     Þú gætir hugsanlega þurft að svara spurningalistum áður en þér er gefið leyfi til að senda inn kauptilboð.
 
-- Velja **Hafna** ef þú vilt ekki gera kauptilboð. Eftir að þú velur **Hafna** , er ekki hægt að kalla aðgerðina aftur fram og færa inn kauptilboð.
+- Velja **Hafna** ef þú vilt ekki gera kauptilboð. Eftir að þú velur **Hafna**, er ekki hægt að kalla aðgerðina aftur fram og færa inn kauptilboð.
 
 Ef tilboðsbeiðni er lagfærð, verður þú að færa inn nýtt kauptilboð. Þú getur fundið upplýsingar um lagfæringuna á **Lagfæringar** flipanum á tilboðsbeiðnisíðunni. Lagfærðar tilboðsbeiðnir birtast á **Boð um ný kauptilboð** síðunni.
 

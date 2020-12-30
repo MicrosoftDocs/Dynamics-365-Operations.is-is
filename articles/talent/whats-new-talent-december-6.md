@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897696"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529163"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (6. desember 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Smíði 8.1.2071**
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Verkvangsuppfærsla 22 fyrir Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>Uppfærsla 22 fyrir verkvang fyrir Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Flytja út allt að 1 milljón raðir í Excel
 
@@ -133,7 +135,7 @@ Starfskraftar til vinnu verk þarf eftirfarandi varpanir uppfærðar.
 
 Umbreyting á svæði kyns þarf einnig að uppfæra. Veldu **fn** (virkni) vörpunargerð fyrir Kyn og uppfærðu eftirfarandi vörpunargildi.
 
-| Common Data Service-gildi   | Finance and Operations gildi | | ------------|------------------ -----------| | 75440000    | Karl                         | | 75440001    | Kona                       | | 75440002    | Ekkert                         | | 75440003    | Ótilgreint                  |
+| Common Data Service Gildi   | Finance and Operations gildi | | ------------|------------------ -----------| | 75440000    | Karl                         | | 75440001    | Kona                       | | 75440002    | Ekkert                         | | 75440003    | Ekki tilgreint                  |
 
 Uppfærðu varpanirnar ættu að líta svona út.
 

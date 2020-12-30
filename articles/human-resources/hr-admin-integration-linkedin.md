@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056098"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527886"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) er verkvangur rakningakerfis umsækjenda (ATS). Það gerir þér kleift að finna, hafa umsjón með og ráða starfsmenn, allt á einum stað. Með því að samþætta Microsoft Dynamics 365 Human Resources við LinkedIn Talent Hub er auðveldlega hægt að stofna starfsmannafærslur í Human Resources fyrir umsækjendur sem hafa verið ráðnir í stöðu.
 
@@ -41,7 +43,7 @@ Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu v
 
 2. Í fellivalmynd notandans skal velja **Stillingar vöru**.
 
-3. Á yfirlitssvæðinu vinstra megin, í hlutanum **Ítarlegt** , skal velja **Samþættingar**.
+3. Á yfirlitssvæðinu vinstra megin, í hlutanum **Ítarlegt**, skal velja **Samþættingar**.
 
 4. Veljið **Heimila** fyrir Microsoft Dynamics 365 Human Resources-samþættingu.
 
@@ -62,7 +64,7 @@ Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu v
 
 4. Stækkaðu hnútinn **Notendur + Heimildir** og veldu **Öryggishlutverk**.
 
-5. Á síðunni **Öryggishlutverk** , í tækjastikunni, skal velja **Nýtt hlutverk**.
+5. Á síðunni **Öryggishlutverk**, í tækjastikunni, skal velja **Nýtt hlutverk**.
 
 6. Í flipanum **Upplýsingar** skal færa inn heiti fyrir hlutverkið, eins og **HRIS-samþætting LinkedIn Talent Hub**.
 
@@ -99,7 +101,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
     1. Breytið gildinu á reitnum **Gerð notanda** í **Forritsnotandi**.
     2. Stillið reitinn **Notandanafn** á **HRIS-samþætting HR LinkedIn Dynamics365**.
     3. Stilltu reitinn **Forritskenni** á **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Færið inn eitthvað gildi í reitina **Fornafn** , **Eftirnafn** og **Aðalnetfang**.
+    4. Færið inn eitthvað gildi í reitina **Fornafn**, **Eftirnafn** og **Aðalnetfang**.
     5. Á tækjastikunni skal velja **Vista \& Loka**.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Öryggishlutverki úthlutað á nýjan notanda
@@ -121,9 +123,9 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 1. Í Dynamics 365 Human Resources skal opna síðuna **Azure Active Directory forrit**.
 2. Bættu nýrri færslu við listann og stilltu eftirfarandi reiti:
 
-    - **Biðlarakenni** : Sláðu inn **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Heiti** : Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.
-    - **Notandakenni** : Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.
+    - **Biðlarakenni**: Sláðu inn **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Heiti**: Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.
+    - **Notandakenni**: Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Búa til eininguna í Common Data Service
 
@@ -152,7 +154,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 
 3. Veldu **Breyta stigi** og síðan **Ráðinn**.
 
-4. Í úrfellingarmerki ( **...** ) fyrir umsækjandann skal velja **Flytja yfir í HRIS**.
+4. Í úrfellingarmerki (**...**) fyrir umsækjandann skal velja **Flytja yfir í HRIS**.
 
 5. Á svæðinu **Flytja yfir í HRIS** skal færa inn upplýsingarnar sem þarf að flytja út:
 

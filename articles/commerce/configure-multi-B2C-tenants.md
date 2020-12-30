@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976017"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517125"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Stilla marga B2C leigjendur í viðskiptaumhverfi
 
@@ -114,15 +114,15 @@ Nýi Azure AD B2C-leigjandinn ætti nú að birtast á listanum undir **Stjórna
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

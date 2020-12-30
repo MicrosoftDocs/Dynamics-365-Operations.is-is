@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: feb39966d98fa7bde9a6bfad26b07fbd224da59b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897627"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528035"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (9. júlí 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
@@ -47,9 +49,9 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2374.
 
-### <a name="platform-update-28-for-finance-and-operations"></a>Verkvangsuppfærsla 28 fyrir Finance and Operations
+### <a name="platform-update-28-for-finance-and-operations"></a>Uppfærsla 28 fyrir verkvang fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 28 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 28 í (júlí 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Frekari upplýsingar um verkvangsuppfærslu 28 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 28 (júlí 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Stuðningur við einingar fyrir sérsniðna reiti í Common Data Service 
 

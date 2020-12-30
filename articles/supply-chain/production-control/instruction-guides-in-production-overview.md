@@ -3,7 +3,7 @@ title: Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleik
 description: Þetta efnisatriði útskýrir hvernig á að samþætta framleiðslustýringareininguna í Microsoft Dynamics 365 Supply Chain Management við Dynamics 365 Guides.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000979"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645145"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Starfsmenn í framleiðsluferli munu hagnast á viðeigandi leiðbeiningum sem eru veittar á réttum tíma í samhengi við verk þeirra. *Leiðbeiningar* eiga við í nokkrum þáttum vinnunnar, þar á meðal: samsetningu, þjónustu, aðgerðum, vottunum og öryggi. Í öllum þessum meginaðgerðum rekstursins geta virkar leiðbeiningar hjálpað starfsmönnum að ná meiri árangri og skila betri vinnu.
 
@@ -124,10 +126,9 @@ Til skilgreina hvernig leiðsagnir birtast í vinnusal skal fara í **Blandaður
 
 Stilltu eftirfarandi reiti:
 
-- **Common Data Service undirlén** - Þessi reitur á þegar að sýna gildi. Þessi reitur inniheldur undirlén fyrir Common Data Service-umhverfið þar sem leiðsagnir eru búnar til. Undirlénið er fyrsti hluti vefslóðarinnar og fær yfirleitt heiti fyrirtækisins. Til dæmis ef Common Data Service vefslóðin er „contoso.crm4.dynamics.com“, ætti að færa inn *contoso* hér. Þetta gildi er notað til að setja saman slóð fyrir leiðsagnirnar og verður kóðað inn í QR-kóðana.
+- **Microsoft Dataverse URL** - Tilgreindu URL fyrir Microsoft Dataverse umhverfi þar sem þú býrð til leiðarvísa. Sniðið er „contoso.crm4.dynamics.com“, þar sem fyrsti hluti URL er yfirleitt nefndur eftir fyrirtækinu (svo sem „contoso.“), annar hlutinn er sértækur fyrir gagnasvæði í umhverfinu (svo sem „crm4.“), og síðasti hlutinn er lénið (t.d. „dynamics.com“). Ein leið til að finna rétt URL er að fara á [Home.Dynamics.com](https://home.dynamics.com/) og opna síðan Guides forritið. Þegar Guides opnast birtist URL í veffangastiku vafrans (aðeins skal taka grunnslóðina, sem ætti að líkjast fyrra dæmi). Þetta gildi er notað til að setja saman slóð fyrir leiðsagnirnar og verður kóðað inn í QR-kóðana.
 - **Stærð QR-kóða** - Stillið myndastærð QR-kóðans. Við mælum með því að velja stærð sem fyllir stærstan hluta skjásins, en ekki meira. Oftast er *15* gott gildi.
 - **Stig villuleiðréttingar QR-kóða** - Stillið uppskiptingu QR-kóðans. Hærri uppskipting getur aukið áreiðanleika kóðans, en **Stærð QR-kóðans** verður að vera nógu stór til að styðja nákvæmnina sem valið leiðréttingarstig þarf.
-
 
 > [!TIP]
 > - QR-kóðastærðir sem eru of stórar fyrir skjáinn taka lengri tíma að myndast og síðan vera skalaðar niður til að passa inn á skjáinn. Þetta hefur engan ávinning í för með sér.
@@ -368,7 +369,7 @@ Leiðarvísi bætt við tengsl leiðaraðgerðar:
 1. Á aðgerðasvæðinu skal opna flipann **Leið** og í flokknum **Vinna með** skal velja **Upplýsingar um leið**.
 1. Síðan **Upplýsingar um leið** opnast fyrir valda leið.
 1. Í efsta hnitanetinu skal velja aðgerðina sem á að fá leiðsögn.
-1. Í neðsta hnitanetinu skal velja sértæk tengsl (eða almennu tengslin **Allt** ).
+1. Í neðsta hnitanetinu skal velja sértæk tengsl (eða almennu tengslin **Allt**).
     ![Velja aðgerð og síðan tengsl](media/instruction-guides-RouteOperationRelation.png "Velja aðgerð og síðan tengsl")
 1. Fyrir ofan neðsta hnitanetið skal opna flipann **Tengdir leiðarvísar**. ![Flipinn tengdir leiðarvísar](media/instruction-guides-RouteOperationRelation-AddGuide.png "Flipi tengdra leiðarvísa")
 1. Veljið **Bæta við** í tækjastikunni efst í neðsta hnitanetinu til að bæta nýrri línu við hnitanetið.

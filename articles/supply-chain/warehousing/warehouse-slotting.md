@@ -3,7 +3,7 @@ title: Hólfaskipting vöruhúss
 description: Þetta efni inniheldur upplýsingar um hólfaskiptingu vöruhúss. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 author: mirzaab
 manager: tfehr
-ms.date: 07/01/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,48 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017415"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627750"
 ---
 # <a name="warehouse-slotting"></a>Hólfaskipting vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
-Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna *Pöntuð* , *Frátekin* eða *Sleppt*. Tilbúna eftirspurn er síðan hægt að nota á staðsetningar sem verða notaðar fyrir tiltekt miðað við magn, einingu, efnislegar víddir, fastar staðsetningar o.s.frv. Þegar áætlunin um hólfaskiptingu er tilbúin er hægt að stofna áfyllingarvinnu til að færa rétt magn birgða í hverja staðsetningu.
+Ýmsir eiginleikar fyrir hólfaskiptingu vöruhúss eru í boði til að aðstoða stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 
-Þessi eiginleiki aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
+Eiginleikinn *Hólfaskipting vöruhúss* gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna *Pöntuð*, *Frátekin* eða *Sleppt*. Tilbúna eftirspurn er síðan hægt að nota á staðsetningar sem verða notaðar fyrir tiltekt miðað við magn, einingu, efnislegar víddir, fastar staðsetningar o.s.frv. Þegar áætlunin um hólfaskiptingu er tilbúin er hægt að stofna áfyllingarvinnu til að færa rétt magn birgða í hverja staðsetningu.
 
-## <a name="turn-on-the-warehouse-slotting-feature"></a>Kveikja á hólfaskiptingu vöruhúss
+Eiginleikinn *Vöruhúsahólf fyrir flutningspantanir* heimilar stjórnendum vöruhúss að fylla á tiltektarstaðsetningar samkvæmt eftirspurn flutningspantana sem ekki er enn búið að losa úr vöruhúsinu. Slíkt tryggir að í tiltektarstaðsetningunum verði allar vörurnar sem þarf fyrir flutningspantanir þegar þær eru losaðar í vöruhús. Þessi eiginleiki krefst þess að eiginleikinn *Hólfaskipting vöruhúss* sé einnig virkjaður.
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Eiginleikinn *Endurbætur á úthlutun hólfaskiptingar í vöruhúsi* bætir við valkosti fyrir sniðmátslínur sem eru notaðar af eiginleikanum *Hólfaskipting vöruhúss*. Valkosturinn gerir kerfinu kleift að íhuga fyrirliggjandi lagerbirgðir á viðtökustað. Þar af leiðandi kunna færri áfyllingar að vera búnar til fyrir hólf. Eiginleikinn *Endurbætur á úthlutun hólfaskiptingar í vöruhúsi* krefst þess að eiginleikinn *Hólfaskipting vöruhúss* sé einnig virkjaður. Einnig er hægt að nota hann ásamt eiginleikanum *Vöruhúsahólf fyrir flutningspantanir*.
 
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Hólfaskipting vöruhúss*
+## <a name="turn-on-the-warehouse-slotting-features"></a>Kveikja á eiginleikum fyrir hólfaskiptingu vöruhúss
+
+Áður en hægt er að nota slíka eiginleika verður að vera kveikt á þeim í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja skal á eftirfarandi eiginleikum eftir því sem þörf krefur:
+
+- Hólfaröðunareiginleiki vöruhúss
+- Vöruhúsahólf fyrir flutningspantanir
+
+    > [!IMPORTANT]
+    > Kveikja verður á eiginleikanum *Vöruhúsahólf fyrir flutningspantanir* áður en kveikt er á þessum eiginleika.
+
+- Endurbætur á úthlutun hólfaskiptingar í vöruhúsi
+
+    > [!IMPORTANT]
+    > Kveikja verður á eiginleikanum *Vöruhúsahólf fyrir flutningspantanir* áður en kveikt er á þessum eiginleika.
 
 ## <a name="set-up-warehouse-slotting"></a>Setja upp hólfaskiptingu vöruhúss
 
-Þú verður að setja upp eftirfarandi færibreytur í kerfinu til að hægt sé að nota hólfaskiptingu vöruhúss.
+Þú verður að setja upp eftirfarandi eiginleika í kerfinu til að hægt sé að nota hólfaskiptingu vöruhúss:
+
+- Mælieiningarlög hólfaskiptingar
+- Leiðbeiningarkóðar
+- Hólfaskiptingarsniðmát
+- Staðsetningarleiðbeiningar
 
 ### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a>Búa til mælieiningarlag fyrir hólfaskiptingu
 
@@ -93,9 +110,9 @@ Hvert hólfaskiptingarsniðmát stjórnar því hvernig birgðum er úthlutað �
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Áfylling \> Hólfaskiptingarsniðmát**.
 1. Veldu **Nýtt** til að búa til sniðmát.
 
-Því næst verður þú að setja upp sniðmáthaus, forskriftir hólfaskiptingar og staðsetningarleiðbeiningar, eins og útskýrt er í eftirfarandi undirköflum.
+Því næst verður þú að setja upp sniðmáthaus, forskriftir hólfaskiptingar og staðsetningarleiðbeiningar, eins og útskýrt er í eftirfarandi undirköflum. Uppsetning fyrir flutningspantanir líkist uppsetningu fyrir sölupantanir, en svæðið **Gerð eftirspurnar** er stillt á *Flutningspantanir* í staðinn fyrir *Sölupantanir*.
 
-#### <a name="set-up-a-slotting-template-header"></a>Setja upp sniðmátshaus fyrir hólfaskiptingu
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>Setja upp haus fyrir hólfasniðmát sölupöntunar
 
 1. Stilltu eftirfarandi gildi í sniðmátshausnum:
 
@@ -103,7 +120,8 @@ Hvert hólfaskiptingarsniðmát stjórnar því hvernig birgðum er úthlutað �
     - **Lýsing:** _61_
     - **Gerð eftirspurnar:** *Sölupöntun*
 
-        Sem stendur er *Sölupöntun* eina eftirspurnargerðin sem er studd.
+        > [!NOTE]
+        > Eins og stendur eru *Sölupantanir* og *Flutningspantanir* einu gerðir eftirspurnar sem eru studdar. Þú getur einungis valið *Flutningspantanir* ef kveikt er á eiginleikanum *Vöruhúsahólf fyrir flutningspantanir*.
 
     - **Eftirspurnarstefna:** _Pöntuð_
 
@@ -111,6 +129,7 @@ Hvert hólfaskiptingarsniðmát stjórnar því hvernig birgðum er úthlutað �
 
         - **Pantað** – Allt pantað magn á sölupöntuninni skal telja sem eftirspurn.
         - **Frátekið** – Aðeins magn af sölupöntunarlínu sem er frátekið (efnislega og pantað) ætti að teljast sem eftirspurn.
+        - **Losað** – Losað magn skal flokka sem eftirspurn.
 
     - **Vöruhús:** _61_
     - **Leyfa bylgjueftirspurn að nota magn sem ekki er frátekið:** _Já_
@@ -119,7 +138,7 @@ Hvert hólfaskiptingarsniðmát stjórnar því hvernig birgðum er úthlutað �
 
 #### <a name="set-up-slotting-specifications-for-each-template"></a>Settu upp forskriftir hólfaskiptingar fyrir hvert sniðmát
 
-Fylgdu þessum skrefum fyrir hvert sniðmát sem þú býrð til að bæta við línu fyrir hverja forskrift hólfaskiptingar.
+Fylgdu þessum skrefum fyrir hvert pöntunarsniðmát sem þú býrð til að bæta við línu fyrir hverja forskrift hólfaskiptingar.
 
 1. Á flýtiflipanum **Upplýsingar um hólfaskiptingarsniðmát** velur þú **Nýtt** til að búa til nýja sniðmátslínu.
 1. Stilltu eftirfarandi gildi á nýju línunni:
@@ -148,6 +167,7 @@ Fylgdu þessum skrefum fyrir hvert sniðmát sem þú býrð til að bæta við 
 
         - **Gera ráð fyrir að staðsetning sé tóm** – Þetta kerfi ætti að gera ráð fyrir að allar staðsetningar á tiltektarsvæðinu séu tómar og ætti ekki að athuga áðurnefndar staðsetningar fyrir birgðir.
         - **Gera ráð fyrir magni á staðsetningu** – Kerfið ætti að athuga staðsetningu á tiltektarsvæðinu fyrir birgðir og ætti að sleppa öllum staðsetningum sem eru ekki tómar.
+        - **Íhuga magn í birgðum** – kerfið ætti að athuga hvort einhver viðtökustaður innihaldi magn sem er ekki frátekið fyrir vöruna í eftirspurnarlínunni. Þegar magnið er nægilega mikið til að uppfylla að minnsta kosti eina einingu eftirspurnarlínunnar, er færsla áætlunar fyrir hólfaskiptingu færð niður í tiltækt magn. Þegar eftirspurn er t.d. 10 tilvik og eitt tilvik er á lager verður fundin eftirspurn í níu tilvikum. Þegar eftirspurn er 10 tilvik og hvert þeirra er á lager verður fundin eftirspurn í 10 tilvikum. Þetta gildi er aðeins tiltækt þegar kveikt er á eiginleikanum *Endurbætur á úthlutun hólfaskiptingar í vöruhúsi*.
 
     - **Leiðbeiningarkóði:** _Hólfaskipting_
 
@@ -159,7 +179,7 @@ Fylgdu þessum skrefum fyrir hvert sniðmát sem þú býrð til að bæta við 
 
     - **Leyfa stöðvun:** _já_
 
-        Þegar þessi valkostur er stilltur á *Já* , ef ekki er hægt að skipta einhverri eftirspurn í hólf, verður búin til birgðahreyfing til að taka birgðum úr staðsetningum þar sem engar birgðir eru, en engu var skipt niður í hólf. Sniðmátið er síðan keyrt aftur. Í þetta sinn hunsar það birgðir í staðsetningum. Þessi eiginleiki virkar best þegar svæðið **Úthluta skilyrðum fyrir hólf** er stillt á _Taka mið af magni_.
+        Þegar þessi valkostur er stilltur á *Já*, ef ekki er hægt að skipta einhverri eftirspurn í hólf, verður búin til birgðahreyfing til að taka birgðum úr staðsetningum þar sem engar birgðir eru, en engu var skipt niður í hólf. Sniðmátið er síðan keyrt aftur. Í þetta sinn hunsar það birgðir í staðsetningum. Þessi eiginleiki virkar best þegar svæðið **Úthluta skilyrðum fyrir hólf** er stillt á _Taka mið af magni_.
 
     - **Notkun fastrar staðsetningar:** _Aðeins fastar staðsetningar fyrir afurðina_
 
@@ -168,6 +188,9 @@ Fylgdu þessum skrefum fyrir hvert sniðmát sem þú býrð til að bæta við 
         - **Fastar og lausar staðsetningar** – Ekki ætti að takmarka kerfið við að nota aðeins fastar staðsetningar.
         - **Aðeins fastar staðsetningar fyrir afurðina** – Kerfið ætti aðeins að skipta niður í hólf á staðsetningar sem eru fastar staðsetningar fyrir afurðina.
         - **Aðeins fastar staðsetningar fyrir afurðarafbrigðið** – Kerfið ætti aðeins að skipta niður í hólf á staðsetningar sem eru fastar staðsetningar fyrir afurðarafbrigðið.
+
+> [!NOTE]
+> Ef hólfasniðmátið inniheldur að minnsta kosti eina línu þar sem svæðið **Úthluta skilyrðum fyrir hólf** er stillt á *Íhuga magn í birgðum* er yfirflæði ekki lengur leyft fyrir neina línu í sniðmátinu.
 
 1. Veljið **Vista**.
 1. Veldu **Ný** til að búa til aðra sniðmátslínu.
@@ -207,6 +230,7 @@ Setja þarf upp að minnsta kosti eina staðsetningarleiðbeiningar til að sty�
 1. Í svæðinu **Gerð verkbeiðni** í vinstri glugganum velur þú *Áfylling*.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
 1. Í haus nýju staðsetningarleiðbeininganna á svæðinu **Heiti** slærðu inn *61 Tiltekt við hólfaskiptingu*.
+1. Samþykktu sjálfgildið í svæðinu **Raðnúmer**.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Grunnstilling flýtiflipans Staðsetningarleiðbeiningar
 
@@ -222,11 +246,12 @@ Setja þarf upp að minnsta kosti eina staðsetningarleiðbeiningar til að sty�
 ##### <a name="configure-the-lines-fasttab"></a>Grunnstilling flýtiflipans Línur
 
 1. Á flýtiflipanum **Línur** velur þú **Ný** til að búa til línu.
-1. Stilltu eftirfarandi gildi á nýju línunni. Samþykktu sjálfgildin fyrir öll önnur svæði.
+1. Stilltu eftirfarandi gildi á nýju línunni.
 
     - **Frá-magn:** _0_
     - **Til magn:** _1000000_
 
+1. Samþykkið sjálfgefin gildi fyrir reitina sem eftir eru.
 1. Veldu **Vista** til að gera flýtiflipann **Aðgerðir í staðsetningarleiðbeiningum** tiltækan.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Grunnstilling flýtiflipans Aðgerðir í staðsetningarleiðbeiningum
@@ -234,9 +259,11 @@ Setja þarf upp að minnsta kosti eina staðsetningarleiðbeiningar til að sty�
 1. Á flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** velur þú **Ný** til að búa til línu.
 1. Stilltu eftirfarandi gildi á nýju línunni. Samþykktu sjálfgildin fyrir öll önnur svæði.
 
+    - **Raðnúmer:** Samþykkja sjálfgildið.
     - **Heiti:** _Magn_
     - **Áætlun:** _Engin_
 
+1. Samþykkið sjálfgefin gildi fyrir reitina sem eftir eru.
 1. Veldu **Vista** til að gera hnappinn **Breyta fyrirspurn** tiltækan.
 
 ##### <a name="edit-the-query"></a>Breyta fyrirspurn
@@ -248,7 +275,7 @@ Setja þarf upp að minnsta kosti eina staðsetningarleiðbeiningar til að sty�
     - **Tafla:** *Staðir*
     - **Afleidd tafla:** *Staðsetningar*
     - **Reitur::** *Auðkenni svæðis*
-    - **Skilyrði:** *Magn* (Veldu tvöfalt plúsmerki \[**++**\] á svæðinu til að stækka listann, og veldu síðan *Magn* ).
+    - **Skilyrði:** *Magn* (Veldu tvöfalt plúsmerki \[**++**\] á svæðinu til að stækka listann, og veldu síðan *Magn*).
 
 1. Veljið **Í lagi**.
 
@@ -260,7 +287,7 @@ Notaðu innbyggðu sýnigögnin fyrir þessar aðstæður og búðu til skrárna
 
 #### <a name="use-the-usmf-sample-data"></a>Nota USMF-sýnigögn
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 #### <a name="create-demand"></a>Búa til eftirspurn
 
@@ -318,9 +345,16 @@ Eftir að eftirspurn hefur verið mynduð verður þú að nota skipunina **Finn
 
 #### <a name="slotting-plan"></a>Hólfaskiptingaráætlun
 
-Áætlunin fyrir hólfaskiptingu sýnir staðsetningu sem hverri vöru/magni var úthlutað, hvort yfirflæði var notað, hvort vinnustöðvun var búin til og sniðmátalínan sem var notuð. **Eftirspurn sem ekki var hægt að skipa í hólf er auðkennd með rauðu.**
+Áætlunin fyrir hólfaskiptingu sýnir staðsetningu sem hverri vöru/magni var úthlutað, hvort yfirflæði var notað, hvort vinnustöðvun var búin til og sniðmátalínan sem var notuð. *Eftirspurn sem ekki var hægt að skipa í hólf er auðkennd með rauðu.*
 
 - Á aðgerðarsvæðinu velur þú **Áætlun fyrir hólfaskiptingu** til að skoða niðurstöðurnar.
+
+> [!NOTE]
+> - Ferlin **Búa til eftirspurn**, **Finna eftirspurn** og **Keyra áfyllingu** ferli eru nú keyrð í sandkassa. (Þessir ferlar eru tiltækir á aðgerðasvæðinu á síðunni **Hólfasniðmát**.)
+> - Ferlin **Búa til eftirspurn**, **Finna eftirspurn** og **Keyra áfyllingu** ferli eru læst til að tryggja að ekki sé hægt að virkja þau samtímis. Að öðrum kosti kann gögnunum sem eru notuð að vera eytt.
+> - Ferlin **Búa til eftirspurn** og **Finna eftirspurn** sýna viðvörun ef keyrslan myndar ekki færslur eða ef upplýsingar vantar um færslurnar.
+> - Þegar þú velur **Hólfaáætlun** birtast hnapparnir **Nýtt**, **Breyta** eða **Eyða** á aðgerðasvæðinu vegna þess að ekki er hægt að gera breytingar á gagnagjafanum.
+> - Þegar þú smellir á **Keyra áfyllingu** villuleitar kerfið í völdum hólfasniðmátum og ferlum.
 
 #### <a name="create-replenishment"></a>Stofna áfyllingu
 

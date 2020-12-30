@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 4851c62a19bb562c7f5f578aecbae99cfcdb982f
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461533"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-october-31-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (31. október 2018)
 
@@ -59,7 +59,7 @@ Hver tengill sem er búin til mun hafa eftirfarandi upplýsingar skilgreind.
 
 - Notaðu núverandi fyrirtæki notanda - Veldu **Já** ef þú vilt nota samhengi núverandi fyrirtækis notandans þegar þú vafrar í Finance. Ef **Nei** er valið geturðu valið fyrirtækið sem á að nota.
 
-- Markvalmyndaratriði - Sláðu inn valmyndaratriðið úr Finance sem tengilinn ætti að nota þegar þú vafrar. Valmyndaratriði sem þú getur farið beint á til eru tiltæk. Til að finna valmyndaratriðið sem þarf, opnaðu Finance og opnaðu síðuna sem er mark leiðsagnarinnar. Afritaðu valmyndaratriðið úr vefslóðinni. Til dæmis, ef þú vilt að tengilinn fari með þig á starfsmannalistann í Finance and Operations skaltu slá inn gildið sem birtist eftir "&mi" í vefslóðinni. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Valmyndaratriðið til að vafra um listasíðu starfsmannsins í þessu dæmi er: HcmWorkerListPage_Employees.
+- Markvalmyndaratriði - Sláðu inn valmyndaratriðið úr Finance sem tengilinn ætti að nota þegar þú vafrar. Valmyndaratriði sem þú getur farið beint á til eru tiltæk. Til að finna valmyndaratriðið sem þarf, opnaðu Finance og opnaðu síðuna sem er mark leiðsagnarinnar. Afritaðu valmyndaratriðið úr vefslóðinni. Til dæmis, ef þú vilt að tengilinn fari með þig á starfsmannalistann í Finance and Operations skaltu slá inn gildið sem birtist eftir "& mi" í vefslóðinni. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Valmyndaratriðið til að vafra um listasíðu starfsmannsins í þessu dæmi er: HcmWorkerListPage_Employees.
 
 - Tengill við gagnaveitu - Veldu veitu gagnanna sem tengilinn vísar til. Algengustu veitur eins og **Starfskraftur** og **Staða** eru tiltækar.
 
@@ -69,7 +69,7 @@ Hver tengill sem er búin til mun hafa eftirfarandi upplýsingar skilgreind.
 
 Kerfisstjórar munu sjá nýstofnaða tengla á skilgreindum síðum, jafnvel þótt **Virkja þennan tengil** valkost sé stillt á **Nei**. Þetta er hægt að nota til að prófa tengla áður en þau eru flutt til annarra starfsmanna. Öll önnur hlutverk sjá eingöngu grunnstillta tengla eftir að **Virkja þennan tengil** valkostur er stilltur á **Já**. Starfsmenn sem hafa aðgang að síðum þar sem tenglarnir birtast munu hafa aðgang að tenglum.
 
-Notendur geta einnig haft öryggisréttindi innan Finance sem eru skilgreindar til að fá aðgang að síðum Finance and Operations. Ef það gerist ekki birtist öryggissvargluggi þegar tengilinn er notaður.
+Notendur geta einnig haft öryggisréttindi innan Finance and Operations sem eru skilgreindar til að fá aðgang að síðum Finance and Operations. Ef það gerist ekki birtist öryggissvargluggi þegar tengilinn er notaður.
 
 
 ## <a name="other-changesfixes"></a>Aðrar breytingar/lagfæringar

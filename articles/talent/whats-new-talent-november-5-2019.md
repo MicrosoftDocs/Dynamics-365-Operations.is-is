@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896774"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527121"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (5. nóvember 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
@@ -69,9 +71,9 @@ Með þessari breytingu birtist viðvörun ef þú velur **Tiltæk fyrir úthlut
 
 Með þessari breytingu verða ástæðukóðar með meira en 30 stöfum uppfærðir í Common Data Service. Breytingar gerðar í Common Data Service munu einnig endurspeglast aftur í Talent.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Viðhalda samþættingu úr Talent við Finance and Operations (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Vinna með samþættingar úr Talent í Finance and Operations (351961)
 
-Þessi útgáfa lagar mál þar sem netföng sem uppfærð voru í Talent voru ekki uppfærð í Finance and Operations. Breytingar á heimilisfangablokkum verða nú uppfærðar.
+Þessi útgáfa lagar vandamál þar sem vefföng sem voru uppfærð í Talent voru ekki uppfærð í Finance and Operations. Breytingar á heimilisfangablokkum verða nú uppfærðar.
 
 ## <a name="coming-soon"></a>Væntanlegt
 

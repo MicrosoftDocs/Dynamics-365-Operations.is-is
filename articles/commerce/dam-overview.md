@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd2ec16ec441174485a9cc70f41a83337264f53b
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097032"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594357"
 ---
 # <a name="digital-asset-management-overview"></a>Yfirlit stafrænnar eignastýringar
 
@@ -51,10 +51,12 @@ Stafrænar eignir og stjórnunaraðgerðir eru staðsettar innan byggingaraðila
 
 [Hlaða upp myndum](dam-upload-images.md)
 
-[Hlaða upp myndskeiði](dam-upload-video.md)
+[Hlaða upp myndbandi](dam-upload-video.md)
 
 [Hlaða upp skrám](dam-upload-files.md)
 
 [Skera myndir](dam-crop-images.md)
 
-[Sérsníða þungamiðju myndar](dam-custom-focal-point.md)
+[Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
+
+[Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)

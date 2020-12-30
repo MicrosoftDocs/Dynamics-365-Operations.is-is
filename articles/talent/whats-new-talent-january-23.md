@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899129"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461467"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (23. janúar 2019)
 
@@ -51,5 +51,5 @@ Breyting hefur verið gerð til að uppfæra launastigið í launafyrirkomulagi 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Reynslutími og dagatal eru ekki sýnd fyrir starfsmenn með langtímaráðningu.
 Með þessari breytingu hefur reitunum **Reynslutímabil** og **Dagatal** verið bætt við síðuna **Stjórna breytingum** til að leyfa gagnaskráningu fyrir komandi og fyrrverandi starfsmenn.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Verkvangsuppfærsla 23 fyrir Finance and Operations
+### <a name="platform-update-23-for-finance-and-operations"></a>Uppfærsla 23 fyrir verkvang fyrir Finance and Operations
 Minniháttar lagfærslur á villum eru innifaldar í verkvangi uppfærslu 23 fyrir Finance and Operations. Frekari upplýsingar er að finna í [Nýjungar eða breytingar í Dynamics 365 Finance and Operations verkvangi uppfærsla 23 (janúar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

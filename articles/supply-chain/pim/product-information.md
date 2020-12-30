@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015130"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527387"
 ---
 # <a name="product-information-overview"></a>Yfirlit afurðarupplýsinga
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna upplýsingar um afurðastjórnun. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
 
@@ -72,7 +74,7 @@ Afurðarsniðmát er tengt við afurðavíddaflokk og skilgreiningartækni til a
 Þú getur valið milli þrenns konar skilgreiningartækni:
 
 - Fyrirframskilgreind afbrigði eru skilgreind af fyrirframskilgreindum afurðavíddum. Afurðarskilgreining felur í sér skilgreiningu á tiltekinni gildri víddasamsetningu, eins og lit, stíl og stærð. Hver samsetning myndar einkvæmt afurðarafbrigði.
-- Víddaskilgreiningar eru vanalega notaðar við framleiðsluaðstæður og gera þér kleift að nota skilgreiningarvíddir í skilgreiningu á uppskriftum. Eftir að tiltekin skilgreining er valin notar kerfið undirsamstæðu af uppskriftarlínum sem eru gildar fyrir þá skilgreiningu til áætlunar og framleiðslu. Þetta hugtak nefnist líka *altæk uppskrift* , þar sem ein samnýtt uppskrift er notuð fyrir allar skilgreiningar afurðar.
+- Víddaskilgreiningar eru vanalega notaðar við framleiðsluaðstæður og gera þér kleift að nota skilgreiningarvíddir í skilgreiningu á uppskriftum. Eftir að tiltekin skilgreining er valin notar kerfið undirsamstæðu af uppskriftarlínum sem eru gildar fyrir þá skilgreiningu til áætlunar og framleiðslu. Þetta hugtak nefnist líka *altæk uppskrift*, þar sem ein samnýtt uppskrift er notuð fyrir allar skilgreiningar afurðar.
 - Skorðuskilgreining notast við afbrigðalíkan afurðar til að lýsa öllum mögulegum eiginleikum og þáttum sem þarf til að lýsa öllum mögulegum afbrigðum afurðar í einu líkani. Hægt er að lýsa skorðum samsetninga eiginda með reglulegum segðum eða töfluskorðum. Afbrigðalíkön og stillar verða sífellt mikilvægari í stjórnun afurðaupplýsinga og eru notuð í öllum greinum.
 
 Þegar innleiðing á Supply Chain Management er áætluð er mjög mikilvægt að valin sé rétt skilgreiningartækni fyrir viðskiptaferli. Ekki er hægt að umbreyta afurð úr einu líkani í annað eftir innleiðingu.
@@ -89,7 +91,7 @@ Afurðir sem eru útgefnar á tiltekinn lögaðila kallast *útgefnar afurðir*.
 
 Hægt er að skilgreina vinnusvæðið **Viðhald útgefinnar afurðar** í valmyndaratriðinu **Skilgreina eigið vinnusvæði**. Veldu tegundastigveldi og flokk til að sía vinnusvæðið eftir. Til að leiðrétta viðeigandi afurðagögn í vinnusvæðinu getur þú einnig skilgreint, í dögum, tímamörk fyrir **Nýlega útgefnar afurðir** og **Stöðvaðar útgefnar afurðir**.
 
-Vinnusvæðið samanstendur af samanteknum reitum og tveimur listum. Listinn **Opin tilvik** sýnir tilvik afurðabreytinga sem hafa afurðir í völdu stigveldi afurðarflokks sem ekki er lokið og eru opnar. Listinn **Útgefið nýlega** sýnir afurðir sem hafa verið útgefnar innan þeirra tímamarka sem eru sett í skilgreiningu vinnusvæðisins. Fyrir hverja vöru á listanum er villuleit keyrð og staða hennar sýnd. Þessi staða gæti gefið til kynna að nauðsynlegri skilgreiningu fyrir lögaðilann sé ekki lokið. Af listanum getur þú fengið beinan aðgang að síðunum **Upplýsingar um losaðar afurðir** , **Viðhald afurðareiginda** , **Viðhald afurðarflokks** , **Sjálfgefnar pöntunarstillingar** , og **Textaþýðingar** til að ljúka við nauðsynlegar skilgreiningar afurðarinnar.
+Vinnusvæðið samanstendur af samanteknum reitum og tveimur listum. Listinn **Opin tilvik** sýnir tilvik afurðabreytinga sem hafa afurðir í völdu stigveldi afurðarflokks sem ekki er lokið og eru opnar. Listinn **Útgefið nýlega** sýnir afurðir sem hafa verið útgefnar innan þeirra tímamarka sem eru sett í skilgreiningu vinnusvæðisins. Fyrir hverja vöru á listanum er villuleit keyrð og staða hennar sýnd. Þessi staða gæti gefið til kynna að nauðsynlegri skilgreiningu fyrir lögaðilann sé ekki lokið. Af listanum getur þú fengið beinan aðgang að síðunum **Upplýsingar um losaðar afurðir**, **Viðhald afurðareiginda**, **Viðhald afurðarflokks**, **Sjálfgefnar pöntunarstillingar**, og **Textaþýðingar** til að ljúka við nauðsynlegar skilgreiningar afurðarinnar.
 
 ### <a name="manually-creating-a-new-released-product"></a>Handvirk stofnun á nýrri útgefinni afurð
 

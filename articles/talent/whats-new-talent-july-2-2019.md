@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2aaf64fe1ebdaad8ec9b84615dbb8d48616f9a3a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899015"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461575"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (02. júlí 2019)
 

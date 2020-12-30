@@ -3,7 +3,7 @@ title: Finna umsækjendur með LinkedIn Recruiter í Attract
 description: Notaðu LinkedIn samþættingu við Microsoft Dynamics 365 Talent - Attract til að finna umsækjendur til starfa í gegnum LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833047"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528270"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Finna umsækjendur með LinkedIn Recruiter í Attract
 
@@ -33,6 +33,9 @@ ms.locfileid: "2833047"
 LinkedIn er heimsins stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract gerir þér kleift að finna umsækjendur beint hjá LinkedIn. Þess vegna er auðveldara en nokkru sinni fyrr að finna hæfileikafólkið sem þú þarft til að ráða í opnar stöður. Eftir að þú hefur sett upp tenginguna við LinkedIn í gegnum Attract geturðu skoðað hugsanlega LinkedIn umsækendur um stöðurnar og flutt þá út í Attract með einum smelli.
 
 Ef þú virðist ekki hafa þessa getu skaltu hafa samband við stjórnanda þinn. Áður en þú getur nýtt þér LinkedIn Recruiter frá Attract verður stjórnandi þinn að [setja upp samþættingu við LinkedIn](./attract-admin-linkedin.md). Þú getur síðan sett upp tenginguna við LinkedIn Recruiter og byrjað að finna umsækjendur.
+
+>[!IMPORTANT]
+>Frá og með 1. júlí 2020 styður LinkedIn ekki lengur Internet Explorer 11. Notendur geta enn opnað LinkedIn með Internet Explorer 11, en verða beðnir um að uppfæra eða nota annan vafra. Frekari upplýsingar eru í [Studdir netvafrar fyrir LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
 
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Settu upp tenginguna við LinkedIn Recruiter
 
@@ -48,16 +51,32 @@ Ef þú virðist ekki hafa þessa getu skaltu hafa samband við stjórnanda þin
 
 Eftir að þú hefur tengst við LinkedIn Recruiter geturðu skoðað LinkedIn forstillingar umsækjenda í Attract.
 
+>[!NOTE]
+>Ef þú ert með hlutverk ráðningaraðila geturðu séð allar upplýsingar umsækjandans.<br><br>
+>Ef þú ert með hlutverk ráðningarstjóra eða ekkert hlutverk skaltu skrá þig út af LinkedIn eða LinkedIn Recruiter áður en þú ferð á LinkedIn flipann fyrir umsækjanda í Attract. Hægt er að sjá gögn um forstillingu umsækjandans, t.d. fornafn hans og eftirnafn.
+
 1. Í Attract velurðu **Störf** eða **Hæfileikasöfn** vinstra megin og síðan umsækjanda.
 
-    ![[Skoða LinkedIn umsækjendur í Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
+    ![[Skoða umsækjendur í LinkedIn í Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. Í forstillingum umsækjandans velurðu flipann **LinkedIn**. Þú getur skoðað forstillingar umsækjandans ásamt InMail sögu og LinkedIn athugasemdasögu.
+2. Í forstillingu umsækjanda skal velja flipann **LinkedIn**. Hægt er að skoða prófíl umsækjanda og InMail feril.
 
-Héðan geturðu vistað umsækjandann í LinkedIn Recruiter verkefni, sent inMail eða notað Update Me til að stilla viðvörun í LinkedIn Recruiter.
+   ![Skoða LinkedIn upplýsingar um umsækjanda](./media/attract-candidate-linkedin-tab.png)
+
+Héðan er hægt að framkvæma eftirfarandi aðgerðir:
+
+- Veljið flipann **Ráðningaraðgerðir** til að skoða:
+   
+   - Ráðningarathugasemdar (sýnilegar og einka). Sjálfgefið er að athugsemdir eru aðeins sýnilegar eiganda athugasemdirnar.
+   - InMail aðgerð (en ekki efni InMail). Flettu neðst á síðuna til að skoða InMail Exchange með viðfangi og skoða aðra notendur í fyrirtækinu sem eru að vinna með viðfangið þitt.
+   - Höfnunarþáttur umsækjanda
+
+- Veljið **Senda InMail** til að senda InMail án þess að fara úr Attract.
+
+- Veljið **vista í starf** til að vista starfið án þess að fara úr Attract.
 
 > [!NOTE]
-> LinkedIn forstillingar umsækjanda verða sýndar í Attract þegar Attract-upplýsingar umsækjandans passa við LinkedIn-upplýsingarnar. Hér eru samsvörunarreglurnar sem notaðar eru:
+> LinkedIn-prófíll umsækjanda birtist í Attract þegar Attract upplýsingar umsækjanda passa við upplýsingar LinkedIn. Hér eru samsvörunarreglurnar sem notaðar eru:
 > 
 > 1. Ef netfang og kenni meðlims LinkedIn samsvara í Attract og LinkedIn eru forstillingar umsækjandans sýndar. Umsækjendur hafa enn möguleika á að tengja eða aftengja LinkedIn forstillingar sínar frá Attract.
 > 2. Ef netfang eða kenni meðlima í LinkedIn passa ekki saman sérðu lista yfir mögulega umsækjendur. Þú getur síðan valið umsækjanda á listanum og tengt forstillingarnar.

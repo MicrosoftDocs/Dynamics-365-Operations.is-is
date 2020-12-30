@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930018"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476078"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
@@ -86,7 +86,6 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 | Úthreyfing | Staða |
 | --- | --- |
-| Lárétt fletting virkar ekki í Android-símum | Lárétt fletting eru ekki vandamál í iOS eða borðtölvum. Unnið er að lagfæringu fyrir Android. |
 | Staðan er röng þegar sendur er frítími fyrir dagsetningu í framtíðinni. | Spár eru ekki enn til staðar. Staðan birtist fyrir núverandi dagsetningu. |
 | Ekki er hægt að hætta við beiðni með stöðuna **Í yfirferð**. | Þessi eiginleiki er ekki studdur eins og er og honum verður bætt við í síðari tíma útgáfum. |
 | Upplýsingar um stöðu eru reiknaðar frá og með deginum í dag. | Kerfið sýnir eins og er ekki stöður frá uppsöfnunartímabilinu, jafnvel þótt það sé skilgreint í færibreytum leyfis og fjarvista. |

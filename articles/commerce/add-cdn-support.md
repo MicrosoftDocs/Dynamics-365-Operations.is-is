@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646040"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517209"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -33,9 +33,9 @@ ms.locfileid: "3646040"
 
 ## <a name="overview"></a>Yfirlit
 
-Þegar þú setur upp umhverfi rafrænna viðskipta í Dynamics 365 Commerce geturðu stillt það til að virka með CDN-þjónustunni. 
+Þegar búið er að setja upp rafrænt viðskiptaumhverfi í Dynamics 365 Commerce er hægt að skilgreina það til að vinna með CDN-þjónustunni. 
 
-Hægt er að virkja sérsniðið lén þitt í úthlutunarferlinu fyrir umhverfi þitt með rafræn viðskipti. Einnig er hægt að nota þjónustubeiðni til að setja hana upp eftir að úthlutunarferlinu er lokið. Úthlutunarferlið fyrir umhverfi rafrænna viðskipta býr til hýsingarheiti sem er tengt umhverfinu. Þetta hýsilsheiti er með eftirfarandi sniði, þar sem \<*e-commerce-tenant-name*\> er heiti umhverfisins:
+Hægt er að virkja sérsniðið lén meðan á úthlutunarferlinu stendur fyrir rafræna viðskiptaumhverfið. Einnig er hægt að nota þjónustubeiðni til að setja hana upp eftir að úthlutunarferlinu er lokið. Úthlutunarferlið fyrir rafræna viðskiptaumhverfið myndar hýsingarheiti sem er tengt við umhverfið. Þetta hýsilsheiti er með eftirfarandi sniði, þar sem \<*e-commerce-tenant-name*\> er heiti umhverfisins:
 
 &lt;rafræn viðskipti-leigjanda-heiti&gt;.commerce.dynamics.com
 
@@ -97,8 +97,8 @@ Fylgdu þessum skrefum til að setja upp beinareglu í Azure Front Door Service.
 1. Í reitinn **Heiti** skal færa inn **sjálfgildi**.
 1. Í reitnum **Samþykkt samskiptaregla** velurðu **HTTP og HTTPS**.
 1. Í reitnum **Framvinnsluhýslar** skaltu slá inn **dynamics-ecom-tenant-name.azurefd.net**.
-1. Undir **Mynstur til að passa** skaltu slá inn efri reitinn **/\***.
-1. Undir **Upplýsingar um beini** stillirðu valkostinn **Gerð beinis** á **Áfram**.
+1. Undir **Mynstur til að stemma af**, í efri reit, skal slá inn **/\** _.
+1. Undir _*Leiðarupplýsingar**, skal stilla **Leiðargerð** valkostinn á **Áfram**.
 1. Í reitnum **Bakvinnslusafn** velurðu **ecom-backend**.
 1. Í reitahópnum **Samskiptareglur framsendingar** velurðu valkostinn **Jafna beiðni**. 
 1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
@@ -110,8 +110,8 @@ Fylgdu þessum skrefum til að setja upp biðminnisreglu í Azure Front Door Ser
 1. Í reitinn **Heiti** skal færa inn **tölfræði**.
 1. Í reitnum **Samþykkt samskiptaregla** velurðu **HTTP og HTTPS**.
 1. Í reitnum **Framvinnsluhýslar** skaltu slá inn **dynamics-ecom-tenant-name.azurefd.net**.
-1. Undir **Mynstur til að passa**, í efri reitnum, **/\_msdyn365/\_scnr/\***.
-1. Undir **Upplýsingar um beini** stillirðu valkostinn **Gerð beinis** á **Áfram**.
+1. Undir **Mynstur til að stemma af**, í efra svæði, **/\_msdyn365/\_scnr/\** _.
+1. Undir _*Leiðarupplýsingar**, skal stilla **Leiðargerð** valkostinn á **Áfram**.
 1. Í reitnum **Bakvinnslusafn** velurðu **ecom-backend**.
 1. Í reitahópnum **Samskiptareglur framsendingar** velurðu valkostinn **Jafna beiðni**.
 1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
@@ -146,15 +146,15 @@ CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það m
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

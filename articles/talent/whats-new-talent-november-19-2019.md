@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896728"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527145"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (19. nóvember 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Talent.
 
@@ -41,9 +43,9 @@ ms.locfileid: "2896728"
 
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2621. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>Verkvangsuppfærsla 31 fyrir forrit Finance and Operations
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>Uppfærsla pallsins 31 fyrir forrit Finance and Operations
 
-Sjá frekari upplýsingar [Forskoða eiginleika í uppfærslu pallsins 31 fyrir forrit Finance and Operations (janúar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Frekari upplýsingar eru í [Forskoðunareiginleikar í Platform update 31 fyrir Finance and Operations forrit (janúar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Vinnusvæði eiginleikastjórnunar (383856)
 

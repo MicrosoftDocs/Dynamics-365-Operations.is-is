@@ -3,7 +3,7 @@ title: Verðleiðréttingar og afslættir
 description: Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Dynamics 365 Commerce.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022958"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584316"
 ---
 # <a name="price-adjustments-and-discounts"></a>Verðleiðréttingar og afslættir
 
@@ -41,11 +41,13 @@ Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetn
 
 ## <a name="types-of-discounts"></a>Gerðir afsláttar
 
-Til eru fjórar gerðir af afslætti:
+Það eru margar gerðir afslátta:
 
 - **Einfaldur afsláttur** - eitt hlutfall eða upphæð.
 - **Magnafsláttur** – Afsláttar sem er notaður þegar tvær eða fleiri vörur eru keyptar.
 - **Afsláttur blandaðs tilboðs** - Afsláttur sem er notaður þegar sérstök samsetning af vörum er keypt.
 - **Þröskuldur afsláttar** - Afsláttur sem er notaður þegar færslusamtala er hærri en tilgreind upphæð.
+- **Afslættir eftir greiðslumáta** - Afsláttur sem er notaður þegar færslusamtala er hærri en tilgreind upphæð og tilgreind greiðslugerð (t.d. reiðufé, kredit eða debetkort) er notað fyrir greiðslu.
+- **Sendingarafsláttur** – Afsláttur sem er notaður þegar heildarfærsla er hærri en tilgreind upphæð og tiltekinn afhendingarmáti (til dæmis tveggja daga sending eða sending yfir nótt) er notað á pöntuninni.
 
 Hægt er að tengja bæði verðleiðréttingar og afslátt við sérstaka verðflokka. Síðan er hægt að tengja verðflokka við rásir, vörulista, tengsl og vildarkerfi.

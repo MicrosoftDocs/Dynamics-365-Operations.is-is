@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461508"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (20. mars 2019)
 
@@ -80,7 +80,7 @@ Breytingar hafa verið gerðar til að leiðrétta vandamál þegar nafnaröð e
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þessar færslur gætu verið fyrir stjórnendur eða svæðisbundna starfsmenn. Með þessari breytingu geta mannauðsstjórar haft umsjón með launafyrirkomulaginu fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar og breytilegar áætlanir sem ákvarða aðgang að áætlunum og starfsmannaupplýsingum sem tengjast áætlunum, t.d. launa- eða bónusfærslur. Aðeins hlutverk með veittan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Með verkvangsuppfærslu 24 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
+Í verkvangsuppfærslu 24 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Afrita athugun starfsmanns: Viðmót breytist
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Tvítekin skjámynd opnast ekki sjálfkrafa, til að koma í veg fyrir truflandi gagnafærslu.

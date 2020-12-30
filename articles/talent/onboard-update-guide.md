@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551957"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461566"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Uppfæra móttökukynningum í Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>Uppfæra móttökukynningum
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Ef þú verður að gera breytingar á leiðbeiningum um borð í Microsoft Dyna
 2. Velja skal leiðbeiningarnar sem á að breyta.
 3. Gerðu allar þær breytingar sem óskað er og veldu síðan hnappinn **Vista** (diskatáknið).
 
-    ![[Vistun breytinga á þjálfunarleiðbeiningum](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Vista breytingar á nýliðakynningu](./media/onboard-save.png)](./media/onboard-save.png)
 
 Onboard mun sjálfkrafa senda nýliða tölvupóst sem gefur til kynna hverjar breytingarnar eru. Til að auðvelda auðkenningu birist rautt **Nýtt**-merki við hliðina á hverri breytingu.
 
@@ -49,6 +49,6 @@ Onboard mun sjálfkrafa senda nýliða tölvupóst sem gefur til kynna hverjar b
 3. Gerðu allar þær breytingar sem óskað er og veldu síðan hnappinn **Vista** (diskatáknið).
 4. Til að senda breytingarnar á öllum leiðbeiningunum sem byggja á sniðmátinu velurðu **Senda þessar breytingar**.
 
-    ![[Sending breytinganna í starfsþjálfunarsniðmát í öllum leiðbeiningum sem voru stofnaðar úr því](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
+    ![[Ýtir breytingum á innleiðingarsniðmáti til allra kynninga sem voru búnar til úr því](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Breytingarnar verða sýnilegar nýliðum sem opna þjálfunarleiðbeiningarnar. Hins vegar mun Onboard ekki senda tölvupóststilkynningar til nýliða til að láta þá vita að þjálfunarleiðbeiningarnar hafi breyst. Til að auðvelda auðkenningu birist rautt **Nýtt**-merki við hliðina á hverri breytingu. 

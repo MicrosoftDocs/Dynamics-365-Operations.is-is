@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533391"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517307"
 ---
 # <a name="enable-location-based-store-detection"></a>Virkja greiningu á verslun eftir staðsetningu
 
@@ -52,15 +52,15 @@ Fylgdu þessum skrefum til að kveikja á staðsetningarbyggðri greiningu versl
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

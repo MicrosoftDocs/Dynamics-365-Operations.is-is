@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 2539baba84bffeb21d351cc307191eea3e940515
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897888"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528196"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (30. apríl 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 

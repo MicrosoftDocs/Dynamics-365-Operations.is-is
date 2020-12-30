@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209123"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528900"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Samþætting við yfirlit Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Supply Chain Management virkjar samstillingu viðskiptaferla á milli Dynamics 365 Supply Chain Management og Dynamics 365 Field Service. Samþættingarsviðin eru grunnstillt með því að nota sniðmát teygjanlegrar gagnasamþættingar og Common Data Service til að gera samþættingu viðskiptaferla virka.
 Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum viðbótarreitum og einingum, til að aðlaga samþættinguna og uppfylla sérstakar viðskiptaþarfir. 
@@ -62,12 +64,12 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 ![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Seinni áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu við eftirfarandi sniðmát:
-- Vöruhús (Framboðsstjórnun að sviði þjónustu) - Vöruhús frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 
-- Birgðir afurðar (Supply Chain Management að Field Service) - Upplýsingar um birgðastöðu frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 
-- Leiðrétting birgða (Field Service til Supply Chain Management) - Leiðrétting birgða frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
+- Vöruhús (Supply Chain Management í Field Service) - vöruhús úr Supply Chain Management í Field Service [Ítarleg fyrirspurn] 
+- Birgðir afurðar (Supply Chain Management í Field Service) - Upplýsingar birgðastöðu úr Supply Chain Management í Field Service [Ítarleg fyrirspurn] 
+- Birgðaleiðrétting (Field Service til Supply Chain Management) - Birgðaleiðréttingar frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
 - Birgðaflutningar (Field Service til Supply Chain Management) - Birgðaflutningar frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
 - Verk (Supply Chain Management að Field Service) - Verklisti frá Supply Chain Management til Field Service 
-- Vinnupantanir með Project (Field Service til Supply Chain Management) - Vinnupantanir í Field Service til sölupantana í Supply Chain Management, með stuðningi fyrir Project [Ítarleg fyrirspurn] 
+- Vinnupantanir með Verk (Field Service til Supply Chain Management) - Vinnupantanir í Field Service til sölupantana í Supply Chain Management, með stuðningi fyrir Verk [Ítarleg fyrirspurn] 
 - Afurðir Field Service með birgðaeiningu (Supply Chain Management til Sales) - Supply Chain Management „Seljanlegar útgefnar afurðir“ Finance and Operations til „afurða“ Sales fyrir Field Service, þ.m.t. birgðaeiningu 
 
 ## <a name="system-requirements"></a>Kerfiskröfur

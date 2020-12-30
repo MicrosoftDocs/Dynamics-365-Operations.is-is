@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461489"
 ---
 # <a name="configure-email-settings-in-attract"></a>Skilgreindu tölvupóststillingar í Attract
 
@@ -34,7 +34,7 @@ Vörumerki þitt kemur á trausti og hjálpar þér að byggja upp samband við 
 
 Attract gerir þér kleift að framkvæma þessar aðgerðir:
 
-- Skilgreindu tölvupóststillingar þannig að fyrirtækjareikningur hjá tölvupóstþjónustu Microsoft Exchange sé notaður. Þannig vita umsækjendur að tölvupósturinn kemur frá fyrirtækinu þínu. Til dæmis geturðu skilgreint stillingarnar þannig að umsækjendur fá tölvupósta frá `recruiting@contoso.com` í staðinn fyrir `contoso@microsoft.com`.
+- Grunnstilla tölvupóststillingar þannig að Microsoft Exchange tölvupóstsreikningur fyrirtækisins er notaður. Þannig vita umsækjendur að tölvupósturinn kemur frá fyrirtækinu þínu. Til dæmis geturðu skilgreint stillingarnar þannig að umsækjendur fá tölvupósta frá `recruiting@contoso.com` í staðinn fyrir `contoso@microsoft.com`.
 - Búðu til samræmd vörumerki fyrir öll tölvupóstssamskipti þín með því að setja altæka hausinn og fótinn fyrir tölvupóstsniðmát. 
 
 > [!NOTE]

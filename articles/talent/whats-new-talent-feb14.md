@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-02-14
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 32f3bab38233833498ed566fa1558a023b3bc0dd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899221"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-14-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (14. febrúar 2019)
 

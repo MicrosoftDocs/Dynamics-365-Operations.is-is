@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897673"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529139"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (27. febrúar 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 
@@ -75,7 +77,7 @@ Nú er hægt að bæta við sérstilltum svæðum fyrir föst laun starfsmanns, 
 
 Í mörgum fyrirtækjum gætu umsjónaraðilar launa og fríðinda haft aðgang að eingöngu tilteknum launafærslum. Þessar færslur gætu verið fyrir stjórnendur eða svæðisbundna starfsmenn. Þessi breyting gerir mannauðsstjórnun kleift að hafa umsjón með launafyrirkomulagi mismunandi starfsmannahópa í fyrirtækinu. Öryggishlutverk sem hægt er að úthluta til fastra og breytilegra áætlana munu ákvarða aðgang að þeim áætlunum og starfsmannaupplýsingum sem tengjast þeim (til dæmis launaupplýsingar og bónusfærslur). Aðeins hlutverk sem hafa tilgreindan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Verkvangsuppfærsla 24 fyrir Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>Uppfærsla 24 fyrir verkvang fyrir Finance and Operations
 
 Nánari upplýsingar um verkvangsuppfærslu 24 fyrir Microsoft Dynamics 365 Finance and Operations (mars 2019) er að finna í [Forskoðunareiginleikar í Finance and Operations verkvangsuppfærslu 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
@@ -98,19 +100,19 @@ Til að uppfæra núverandi sniðmát skal fylgja eftirfarandi skrefum.
 
     - **Starf frá stöðu til stöðu:** Fjarlægja þessa vörpun.
     - **Yfireining starfsúthlutunar á starfi frá stöðu til stöðu:** Fjarlægja þessa vörpun.
-    - **Starfsstöður til grunnstöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Grunnstöðu** einingar Finance and Operations. Færðu það í stöðu 7 í röðinni.
+    - **Starfsstöður til grunnstöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Grunnstöðu** Finance and Operations einingar. Færðu það í stöðu 7 í röðinni.
 
         [![Vörpun á starfsstöðum til grunnstöðu](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Upplýsingar um starfsstöður til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Upplýsingar um stöðu** einingar Finance and Operations. Færðu það í stöðu 8 í röðinni.
+    - **Upplýsingar um starfsstöður til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Upplýsingar um stöðu** Finance and Operations einingar. Færðu það í stöðu 8 í röðinni.
 
         [![Vörpun upplýsinga frá starfi til starfs](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Tímalengdir á stöðu til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Tímalengdir stöðu** einingar Finance and Operations.
+    - **Tímalengdir á stöðu til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Tímalengdir stöðu** Finance and Operations einingar.
 
         [![Vörpun tímalengda frá starfi til starfs](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Starfsstigveldi á stöðum til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Stigveldi stöðu** einingar Finance and Operations. Veljið **Ítarlega fyrirspurn** til að gera ítarlega fyrirspurn tiltæka í verkinu.
+    - **Starfsstigveldi á stöðum til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Stigveldi stöðu** Finance and Operations einingu. Veljið **Ítarlega fyrirspurn** til að gera ítarlega fyrirspurn tiltæka í verkinu.
 
        [![Hnappur ítarlegrar fyrirspurnar](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Til að uppfæra núverandi sniðmát skal fylgja eftirfarandi skrefum.
         [![Bæta við skipun skilyrts dálks](./media/Add-column.png)](./media/Add-column.png)
 
     6. Í svarglugganum **Bæta við skilyrtum dálki** skal færa inn **HIERARCHYTYPENAME** sem heiti á nýja dálknum.
-    7. Í **Ef** hluta skilyrðingarinnar skal velja einhvern reit, nota **jafnt og** sem venslin, og slá inn eitthvað gildi. Í hlutunum ***Þá** og **Annars** fyrir skilyrðingu, skal tilgreina hvað sjálfgildið skuli vera. Í þessu tilfelli skal færa inn **Lína** í báðum hlutum.
+    7. Í **Ef** hluta skilyrðingarinnar skal velja einhvern reit, nota **jafnt og** sem venslin, og slá inn eitthvað gildi. Í hlutunum **_Þá_* og **Annars** fyrir skilyrðingu, skal tilgreina hvað sjálfgildið skuli vera. Í þessu tilfelli skal færa inn **Lína** í báðum hlutum.
 
         [![Bæta við svarglugga skilyrts dálks](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

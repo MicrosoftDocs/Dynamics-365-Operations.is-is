@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431269"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527917"
 ---
 # <a name="configure-integration-with-finance"></a>Skilgreina samþættingu við Finance
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](https://docs.microsoft.com/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818251"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665273"
 ---
 # <a name="store-selector-module"></a>Vista valeiningu
 
@@ -47,7 +47,7 @@ Valeining verslunar leyfir notendum að slá inn staðsetningu (borg, ríki, að
 
 Valeining verslunar er samþætt við [REST forritunarviðmót Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/) til að nota landkóðun og sjálfvirkar tillögur Bing. API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. API-landkóðun er notuð til að umbreyta staðsetningu í gildi breiddar- og lengdargráða. Samþætting við API fyrir sjálfvirkar tillögur er notuð til að sýna leitartillögur þegar notendur slá inn staðsetningar í leitarreitinn.
 
-Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfarandi vefslóðir séu leyfðar (einnig þekkt sem „undanþágulisti“) í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar fyrir vefsvæðið (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
+Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfarandi vefslóðir séu leyfðar í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar fyrir vefsvæðið (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
 
 - Í leiðbeininguna **connect-src** skal bæta við **&#42;.bing.com**.
 - Í leiðbeininguna **img-src** skal bæta við **&#42;.virtualearth.net**.
@@ -65,6 +65,9 @@ Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig 
 Eftirfarandi mynd sýnir dæmi um verslunarvalseiningu sem er notuð á PDP.
 
 ![Dæmi um verslunarvalseiningu sem notuð er á PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Í útgáfu 10.0.16 og nýrri er hægt að virkja nýja eiginleika sem gerir fyrirtæki kleift að skilgreina marga afhendingarmáta fyrir viðskiptavini.  Ef þessi eiginleiki er virkur er verslunarval og aðrar einingar í e-Commerce endurbættar til að leyfa kaupandanum að velja úr hugsanlega mörgum valkostum fyrir afhendingarmáta ef það er skilgreint.  Frekari upplýsingar um þennan eiginleika má finna í [þessum fylgigögnum](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Finna verslanir
 

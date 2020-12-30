@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022216"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529829"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (6. október 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
@@ -77,11 +79,11 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 
 Eftirfarandi nýir eiginleikar munu koma í seinni útgáfum:
 
-- **Einingar gátlista innifaldar í Common Data Service** : Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Common Data Service.
+- **Einingar gátlista innifaldar í Common Data Service**: Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Common Data Service.
 
-- **Ástæðukóðar fyrir fríðindastjórnun** : Ástæðukóðar fyrir fríðindastjórnun verða brátt sameinaðir við tiltæka ástæðukóða í Human Resources. Ef ástæðukóðar voru stofnaðir í Fríðindastjórnun sem eru yfir 15 stafir að lengd þarf að breyta heiti ástæðukóðans í Fríðindastjórnun **Ástæðukóðar** skjámyndinni þannig að þeir eru 15 stafir eða minna. Þegar búið er að uppfæra heitið mun ástæðukóðinn birtast undir fyrirliggjandi skjámynd ástæðukóða í starfsmannastjórnun. Þessi breyting verður tiltæk í framtíðinni og mun ekki hafa áhrif á fyrirliggjandi virkni.
+- **Ástæðukóðar fyrir fríðindastjórnun**: Ástæðukóðar fyrir fríðindastjórnun verða brátt sameinaðir við tiltæka ástæðukóða í Human Resources. Ef ástæðukóðar voru stofnaðir í Fríðindastjórnun sem eru yfir 15 stafir að lengd þarf að breyta heiti ástæðukóðans í Fríðindastjórnun **Ástæðukóðar** skjámyndinni þannig að þeir eru 15 stafir eða minna. Þegar búið er að uppfæra heitið mun ástæðukóðinn birtast undir fyrirliggjandi skjámynd ástæðukóða í starfsmannastjórnun. Þessi breyting verður tiltæk í framtíðinni og mun ekki hafa áhrif á fyrirliggjandi virkni.
 
-- **Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda** : Til að styðja stjórnendur erum við að útvíkka möguleikana í sjálfsafgreiðslu stjórnanda. Við bætum við möguleikanum á að bæta sérstilltum tenglum við flipann **Teymið mitt**. Þessi eiginleiki er svipaður og eiginleiki sérstilltra tengla í **Upplýsingaflipanum mínum** í sjálfsafgreiðslu starfsmanns. Nánari upplýsingar er að finna í [Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda**: Til að styðja stjórnendur erum við að útvíkka möguleikana í sjálfsafgreiðslu stjórnanda. Við bætum við möguleikanum á að bæta sérstilltum tenglum við flipann **Teymið mitt**. Þessi eiginleiki er svipaður og eiginleiki sérstilltra tengla í **Upplýsingaflipanum mínum** í sjálfsafgreiðslu starfsmanns. Nánari upplýsingar er að finna í [Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
 Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2019 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 

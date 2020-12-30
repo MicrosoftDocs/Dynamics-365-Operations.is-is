@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081340"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594114"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -197,6 +197,8 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 500 | Ógilda færslu | Eyða núgildandi færsla. | Já | Já | Númer | Já | Númer |
 | 916 | Windows Workflow Foundation | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
 | 924 | X-skýrsla fyrir bankakort | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Já |
+| 311 | Fjarlægja kerfisafslætti úr færslum | Fjarlægið alla afslætti sem kerfið hefur sett á, þar á meðal afslætti með afsláttarmiða, úr færslunni. Þetta fjarlægir ekki handvirkt afslátt. | Já | Já | Já | Já | Ekkert |
+| 312 | Endurnota kerfisafslætti | Endurnota kerfisafslátt á færslunni ef þeir voru fjarlægðir með því að nota aðgerðina **Fjarlægja kerfisafslætti úr færslunni**. | Já | Já | Já | Já | Ekkert |
 
 \* Aðgerðin er í boði í ótengdum ham einungis þegar viðskiptavinapantanir eða sölutilboð eru stofnuð, og aðeins ef stofnun viðskiptavinapantanir eða sölutilboð í ótengdum ham er skilgreint í POS virknireglunni. Ekki er hægt að framkvæma aðgerðina þegar pantanir eru búnar til með því að nota rauntímaþjónustu eða þegar pantanir eru kallaðar fram aftur eða breyttar.
 

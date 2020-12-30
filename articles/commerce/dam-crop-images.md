@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269568"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594479"
 ---
 # <a name="crop-images"></a>Skera myndir
 
@@ -59,8 +59,10 @@ Eftir að sérsniðnum skurði er lokið taka myndbreytingar gildi næstum því
 
 [Hlaða upp myndum](dam-upload-images.md)
 
-[Hlaða upp myndskeiði](dam-upload-video.md)
+[Hlaða upp myndbandi](dam-upload-video.md)
 
 [Hlaða upp skrám](dam-upload-files.md)
 
-[Sérsníða þungamiðju myndar](dam-custom-focal-point.md)
+[Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
+
+[Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)

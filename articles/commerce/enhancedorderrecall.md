@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974839"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665299"
 ---
 # <a name="recall-order-operation-in-pos"></a>Afturkalla pöntunaraðgerð á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Afturköllun pöntunaraðgerðar á sölustað Commerce veitir uppfærða pöntunarleit og síunareiginleika og upplýsingar um tiltekna pöntun. Þessi eiginleiki er tiltækur í Commerce-útgáfum 10.0.15 og nýrri.
+Aðgerðin **Afturköllun pöntunar** á sölustað Commerce veitir uppfærða pöntunarleit og síunareiginleika og upplýsingar um tiltekna pöntun. Þessi eiginleiki er tiltækur í Commerce-útgáfum 10.0.15 og nýrri.
 
 Til að virkja þessa virkni þarf að kveikja á eiginleikanum **Bætt afturköllunaraðgerð pöntunar á sölustað** á vinnusvæðinu **Eiginleikastjórnun** í Commerce Headquarters. Þegar búið er að virkja eiginleikann skal íhuga að uppfæra [skjáútlit](pos-screen-layouts.md) á sölustað til að nýta einhverjar af þessum breytingum.
 

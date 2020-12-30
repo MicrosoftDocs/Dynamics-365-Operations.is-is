@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817207"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665421"
 ---
 # <a name="map-module"></a>Kortaeining
 
@@ -58,7 +58,7 @@ Eftirfarandi mynd sýnir dæmi um kortaeiningu sem er notuð á staðsetningars�
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Bæta leyfðum kortavefslóðum við öryggisleiðbeiningar um innihald vefsvæðis
 
-Til þess að kortaeining geti unnið með Bing-korti, þarf að ganga úr skugga um að eftirfarandi kortavefslóðir séu leyfðar (einnig þekkt sem „undanþágulisti“) í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar vefsvæðis (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
+Til þess að kortaeining geti unnið með Bing-korti, þarf að ganga úr skugga um að eftirfarandi kortavefslóðir séu leyfðar í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar vefsvæðis (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
 
 - Í leiðbeininguna **connect-src** skal bæta við **&#42;.bing.com**.
 - Í leiðbeininguna **img-src** skal bæta við **&#42;.virtualearth.net**.

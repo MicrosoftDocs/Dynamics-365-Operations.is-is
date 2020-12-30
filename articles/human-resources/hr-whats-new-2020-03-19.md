@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f0b961de23a76947440f6616176874dc6a86cc4c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712521"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526864"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (19. mars 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3014. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Lifecycle Services (LCS) vegna tilvísunar.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817307"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517233"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
@@ -197,15 +197,15 @@ Til dæmis er sjálfgefinn texti fyrir tengilinn sem gleymdist lykilorð **Gleym
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

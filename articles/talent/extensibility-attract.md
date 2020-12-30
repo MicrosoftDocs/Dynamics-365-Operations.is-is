@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832862"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527243"
 ---
 # <a name="extensibility-in-attract"></a>Stækkunarhæfni í Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Microsoft Dynamics 365 Talent er byggt ofan á Common Data Service og hægt er að stækka það með ýmsum hætti með því að nota Microsoft Power Platform og eiginleika sem Common Data Service býður upp á. Þar af leiðandi er hægt að grunnstilla og sérsníða kerfið með því að nota Microsoft Power Apps og Microsoft Power Automate. Þú getur einnig fengið frekari greiningar um fólk með því að nota Microsoft Power BI. Ennfremur gera nýjar sérsniðnar aðgerðir, svo sem aðgerðir Power Apps og Web Content (Iframe), ráðningarferlið meira aðlagað en nokkru sinni fyrr. Með því að nota þessar aðgerðir getur þú sérsniðið ráðningarferlið við viðskiptaþarfir þínar og ferli fyrirtækisins og getur tryggt að bæði ráðningarteymið og umsækjendur hafi óaðfinnanlega sérsniðna upplifun.
 

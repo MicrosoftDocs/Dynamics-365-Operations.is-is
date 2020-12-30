@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897581"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528670"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (11. júní 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 
@@ -54,9 +56,9 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 
 Breytingunum sem er lýst í þessum hluta eiga við um smíðarnúmer 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Verkvangsuppfærsla 27 fyrir Finance and Operations
+### <a name="platform-update-27-for-finance-and-operations"></a>Uppfærsla 27 fyrir verkvang fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 27 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 27 í (júní 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Frekari upplýsingar um verkvangsuppfærslu 27 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 27 (júní 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Vinnusvæði eiginleikastjórnunar í Talent
 

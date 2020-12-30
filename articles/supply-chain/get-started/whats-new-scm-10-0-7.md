@@ -1,5 +1,5 @@
 ---
-title: Nýjungar og breytingar í Dynamics 365 Supply Chain Management 10.0.7 (janúar 2020)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.7 (janúar 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.7.
 author: josaw1
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
+ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802872"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4597107"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Nýjungar og breytingar í Dynamics 365 Supply Chain Management 10.0.7 (janúar 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.7 (janúar 2020)
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +48,7 @@ Eiginleikastjórnun gerir þér nú kleift að virkja alla nýja eiginleika sjá
 Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfærslu sem er hluti af 10.0.7, skráðu þig inn á Lifecycle Services (LCS) og skoðaðu [KB grein](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e).
 
 ### <a name="platform-update-31"></a>Update 31 fyrir verkvang
-Microsoft Dynamics 365 Supply Chain Management 10.0.7 inniheldur verkvangsuppfærslu 31. Til að læra meira um verkvangsuppfærslu 31, sjá [Hvað er nýtt og breytt í verkvangsuppfærslu 31](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.7 inniheldur verkvangsuppfærslu 31. Til að læra meira um verkvangsuppfærslu 31, sjá [Hvað er nýtt eða breytt í verkvangsuppfærslu 31](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
 
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: 2019 útgáfa bylgja 2 áætlun
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?

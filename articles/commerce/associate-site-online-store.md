@@ -1,5 +1,5 @@
 ---
-title: Tengja svæði fyrir rafræn viðskipti við netrás
+title: Tengja svæði Dynamics 365 Commerce við netrás
 description: Þetta efni útskýrir hvernig á að binda Microsoft Dynamics 365 Commerce svæðið við eina eða fleiri netverslanir.
 author: bicyclingfool
 manager: AnnBe
@@ -18,23 +18,22 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975369"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517331"
 ---
-# <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Tengja svæði fyrir rafræn viðskipti við netrás
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Tengja svæði Dynamics 365 Commerce við netrás
 
 [!include [banner](includes/banner.md)]
 
-
 Þetta efni útskýrir hvernig á að binda Microsoft Dynamics 365 Commerce svæðið við eina eða fleiri netverslanir. 
 
-Eftir að þú hefur veitt rafræn viðskipti með því að nota Microsoft Dynamics LCS (Lifecycle Services) vefgáttina ertu tilbúin/n að stofna fyrsta vefsvæði þitt fyrir rafræn viðskipti. Sem hluta af upphaflegri gerð vefsvæðisins tengir þú vefinn við netverslun sem áður var stofnuð. Þetta skref bindur vefinn við netrás og lætur vefinn sýna stigveldi, vörur, flokka, verð, flutningsmöguleika og allt annað sem þú skilgreindir í netversluninni.
+Eftir að þú hefur úthlutað Dynamics 365 Commerce rafræna viðskiptaumhverfinu þínu með því að nota Microsoft Dynamics Lifecycle Services (LCS) gáttina hefurðu þegar búið til fyrstu rafræna vefsvæðinu þínu. Sem hluta af upphaflegri gerð vefsvæðisins tengir þú vefinn við netverslun sem áður var stofnuð. Þetta skref bindur vefinn við netrás og lætur vefinn sýna stigveldi, vörur, flokka, verð, flutningsmöguleika og allt annað sem þú skilgreindir í netversluninni.
 
-Til að koma á nýrri síðu og tengja netverslun við það, í LCS, veldu tengilinn fyrir höfundarumhverfið. Veldu síðan á síðunni fyrir höfundarumhverfi svæðisins **Ný síða**. Í valmyndinni **Nýtt svæði** verður þú að gefa grunnupplýsingar um vefsvæðið. Fyrir heildarskýringar á þeim upplýsingum sem þú verður að veita skal sjá [Stofna nýtt svæði um rafræn viðskipti](create-ecommerce-site.md).
+Til að koma á nýrri síðu og tengja netverslun við það, í LCS, veldu tengilinn fyrir höfundarumhverfið. Veldu síðan á síðunni fyrir höfundarumhverfi svæðisins **Ný síða**. Í valmyndinni **Nýtt svæði** verður þú að gefa grunnupplýsingar um vefsvæðið. Til að fá ítarlegri útskýringar á upplýsingunum sem þarf að gefa upp er að finna á [Búa til nýtt svæði fyrir rafræn viðskipti](create-ecommerce-site.md).
 
 Eftir að vefsvæðið þitt er búið til geturðu staðfest að það sé tengt netversluninni þinni með því að velja flipann **Afurðir**. Þú ættir að sjá úrval af vörum sem hefur verið úthlutað í netverslunina. Þú getur líka notað fellivalmyndina efst til vinstri á síðunni til að fá aðgang að vörunum eftir flokkum.
 
@@ -42,7 +41,7 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það sé teng
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 

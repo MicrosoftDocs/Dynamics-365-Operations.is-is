@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793804"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516620"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Námskrá fyrir stjórnendur Dynamics 365 Supply Chain Management
 
@@ -46,7 +46,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Stjórna innleiðingarverki fyrir Finance and Operations](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | Kynntu þér mikilvægustu efnisþættina og bestu starfshættina til að stjórna árangursríku Finance and Operations innleiðingarverki. Allt frá fyrsta skrefi þar sem þú ert að skipuleggja og hanna aðferðafræði verkefnisins, notkun FastTrack þjónustu, þróunarstefnu, gagnaumsýslu og fleira, til bestu leiða til að viðhalda og fylgjast með rekstrinum þínum eftir Go-live. | Ókeypis, sjálfstýr skref á námsleið | 11.5 klst. |
 | [Kerfisstjórnun – heimasíða](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Þetta efni bendir á efni fyrir kerfisstjóra á Microsoft Dynamics 365 for Finance and Operations. Þetta efni mun hjálpa þér að skilgreina kerfið svo að það vinni vel og skilvirkt fyrir fyrirtæki þitt. | Fylgiskjöl | |
 | [Finance and Operations: Innleiðing í Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack býður upp á innleiðingarþjónustu fyrir alla Dynamics 365 for Finance and Operations verkefni. Í þessu tæknitali munum við útskýra Onboarding ferlið, ganga í gegnum innihald innleiðingarlotunnar með þér og afhjúpa hvernig við erum að gera innleiðingu skilvirkara og þægilegra á næstunni. Þessi fundur er sérstaklega viðeigandi fyrir alla sem vinna með viðskiptavini á fyrstu stigum verkefnis, milli lokunar leyfisumboðs og upphafs framkvæmdarverkefnis. | Ókeypis upptaka af vefráðstefnu | 62 mínútur |
-| [Skipulagning á staðnum (staðbundin viðskiptagögn) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Vinsamlegast taktu þátt í þessari tækni ræðu til að fá yfirlit yfir möguleika á dreifingu á staðnum Dynamics 365 for Finance and Operations, Enterprise Edition. Á þessu þingi munum við skoða lausnarskipulag á vettvangi fyrir dreifingu, ALM þætti, kerfiskröfur og hvernig á að veita Life Cycle Services verkefninu. | Ókeypis upptaka af vefráðstefnu | 48 mínútur |
+| [Skipulagning á staðnum (staðbundin viðskiptagögn) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Taktu þátt í þessum tækniumræðum til að fá upplýsingar um virkjunarkost á staðnum fyrir Dynamics 365 for Finance and Operations, Enterprise Edition. Í þessari lotu Lítum við á lausnauppbyggingu virkjunar á staðnum, ALM-þætti, kerfiskröfur, og hvernig á að úthluta verki Life Cycle Services. | Ókeypis upptaka af vefráðstefnu | 48 mínútur |
 | [Afrita í lögaðila (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Á þessari lotu munum við ræða nýjan möguleika í umgjörð gagna, Afrita í lögaðila. Við munum fyrst fara stuttlega yfir nýju aðgerðirnar sem bætt var við gagnastjórnunarramma á vettvang 8 fyrir vinnusvæði, sniðmát og gagnaverkefni og síðan ræða viðbótaraðgerðina sem bætt er við fyrir Afrita í lögaðila. | Ókeypis upptaka af vefráðstefnu | 54 mínútur |
 
 ## <a name="core-development"></a>Kjarnaþróun<a name="core-development"></a>

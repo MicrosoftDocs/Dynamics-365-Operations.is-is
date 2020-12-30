@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0a4d4de6cf28e24d1265395d6440df85edf71a0d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897857"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461574"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (9. apríl 2019)
 
@@ -89,4 +89,4 @@ Að fylgjast með frítíma starfsmanns og skilja hvernig frítími er reiknaðu
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Til að forðast að trufla gagnafærslu, opnast tvítekin skjámynd ekki sjálfkrafa.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 
+Í verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 

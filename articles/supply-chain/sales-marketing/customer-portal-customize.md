@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413976"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527364"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Sérsníða og nota viðskiptavinagátt
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði lýsir mismunandi síðum sem eru í boði í tilbúinni viðskiptavinagátt. Það útskýrir hvað síðurnar gera og hvernig hægt er að sérstilla þær.
 
 Viðskiptavinagáttin býður upp á nokkrar tilbúnar vefsíður og aðgerðir. Eftirfarandi veftré veitir yfirlit yfir þessar vefsíður og aðgerðir og hlutverkin sem geta framkvæmt aðgerðirnar.
 
-![![Veftré viðskiptavinagáttar](media/customer-portal-site-map.png "Veftré viðskiptavinagáttar")](media/customer-portal-site-map.png "Customer portal site map")
+![Veftré viðskiptavinagáttar](media/customer-portal-site-map.png "Veftré viðskiptavinagáttar")
 
 ## <a name="typical-customizations"></a>Dæmigerðar sérstillingar
 
@@ -62,12 +64,12 @@ Hér eru stöðluð skref til að senda inn pöntun úr viðskiptavinagátt.
     - **Númer beiðni** – Sláið inn beiðninúmer pöntunarinnar. Þessi reitur er ekki áskilinn.
     - **Senda til lands/svæðis** – Færið inn land eða svæði sem vörurnar verða sendar til. Þetta reitur er sjálfkrafa stilltur fyrir notendur sem ekki eru stjórnendur.
 
-    ![![Pöntunarupplýsingasíða](media/customer-portal-order-information.png "Pöntunarupplýsingasíða")](media/customer-portal-order-information.png "Order Information page")
+    ![Pöntunarupplýsingasíða](media/customer-portal-order-information.png "Pöntunarupplýsingasíða")
 
 1. Veljið **Næst**.
 1. Á síðunni **Vörur** skal velja **Bæta við vöru**.
 
-    ![![Vörusíða](media/customer-portal-items.png "Vörusíða")](media/customer-portal-items.png "Items page")
+    ![Vörusíða](media/customer-portal-items.png "Vörusíða")
 
 1. Í svarglugganum **Upplýsingar um vöru** skal stilla eftirfarandi reiti:
 
@@ -76,14 +78,14 @@ Hér eru stöðluð skref til að senda inn pöntun úr viðskiptavinagátt.
     - **Eining** – Tilgreinið mælieininguna (til dæmis, **ea.**, **kg** eða **kassi**).
     - **Áætluð nettóupphæð** – Gildið er reiknað út sem áætlað verð vörunnar × magn fyrir valda einingu.
 
-    ![![Upplýsingagluggi vöru](media/customer-portal-item-information.png "Upplýsingagluggi vöru")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Upplýsingagluggi vöru](media/customer-portal-item-information.png "Upplýsingagluggi vöru")
 
 1. Smellið á **Senda inn** til að bæta vöru við pöntun.
 1. Endurtakið skref 4 til 6 þar til öllum vörum hefur verið bætt við pöntun.
 1. Þegar búið er að bæta við vörum skal velja **Næst** á síðunni **Vörur**.
 1. Síðan **Pöntunarupplýsingar** sýnir samantekt pöntunar. Yfirfarið upplýsingar um innihald pöntunar og afhendingar. Ef allt lítur rétt út skal velja **Senda** til að senda pöntunina.
 
-    ![![Pöntunarupplýsingasíða](media/customer-portal-order-submit.png "Pöntunarupplýsingasíða")](media/customer-portal-order-submit.png "Order Information page")
+    ![Pöntunarupplýsingasíða](media/customer-portal-order-submit.png "Pöntunarupplýsingasíða")
 
 ### <a name="standard-data-setup"></a>Stöðluð gagnauppsetning
 
@@ -148,19 +150,19 @@ Allar stýringar í gátt viðskiptavinar eru innbyggðar Power Apps-gáttastýr
 
 Eina sérstillta stýringin sem er í sniðmáti viðskiptavinagáttar er notuð til að búa til reitina á heimasíðunni.
 
-![![Reitir á heimasíðunni](media/customer-portal-home-page-tiles.png "Reitir á heimasíðunni")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Reitir á heimasíðunni](media/customer-portal-home-page-tiles.png "Reitir á heimasíðunni")
 
 Til að breyta reitunum skal fylgja þessum skrefum.
 
 1. Opnið [Forrit gáttarstjórnunar](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. Á yfirlitssvæðinu vinstra megin er valið **Sniðmát pantana**.
 
-    ![![Yfirlitssvæði gáttarstjórnunar](media/customer-portal-nav.png "Yfirlitssvæði gáttarstjórnunar")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Yfirlitssvæði gáttarstjórnunar](media/customer-portal-nav.png "Yfirlitssvæði gáttarstjórnunar")
 
 1. Velja skal síðusniðmátið sem kallast **Heim**.
 1. Í reitnum **Vefsniðmát** skal velja tengilinn **Heim** til að opna frumkóðann fyrir þá síðu.
 
-    ![![Reitur vefsniðmáts](media/customer-portal-web-template.png "Reitur vefsniðmáts")](media/customer-portal-web-template.png "Web Template field")
+    ![Reitur vefsniðmáts](media/customer-portal-web-template.png "Reitur vefsniðmáts")
 
 1. Nú ættirðu að sjá allan frumkóðann fyrir heimasíðuna og hægt er að breyta honum eftir þörfum.
 

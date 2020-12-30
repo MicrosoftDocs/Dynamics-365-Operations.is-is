@@ -3,7 +3,7 @@ title: Skilgreina sýndareiningar Common Data Service
 description: Þetta efnisatriði sýnir hvernig á að skilgreina sýndareiningar fyrir Dynamics 365 Human Resources. Búið til og uppfærið fyrirliggjandi sýndareiningar og greinið tiltækar einingar sem hafa verið búnar til.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058155"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645602"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Skilgreina sýndareiningar Common Data Service
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources er sýndargagnagjafi í Common Data Service. Hann býður upp á heildstæðar aðgerðir stofnunar, lesturs, uppfærslu og eyðingar (CRUD) úr Common Data Service og Microsoft Power Platform. Gögn fyrir sýndareiningar eru ekki geymd í Common Data Service, heldur í gagnagrunni forritsins. 
 
@@ -50,11 +50,23 @@ Sýndareiningar fyrir Human Resources eru ekki þær sömu og venjulegu Common D
 
 ## <a name="setup"></a>Setja upp
 
-Fylgið þessum uppsetningarskrefum til að virkja sýndareiningar í umhverfinu. 
+Fylgið þessum uppsetningarskrefum til að virkja sýndareiningar í umhverfinu.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Virkja sýndareiningar fyrir Human Resources
+
+Fyrst þarf að virkja sýndareiningar í vinnusvæðinu **Eiginleikastjórnun**.
+
+1. Veldu í Human Resources **Kerfisstjórnun**.
+
+2. Veldu reitinn **Stjórnun eiginleika**.
+
+3. Veljið **Stuðningur við sýndareiningu í HR/CDS** og svo **Virkja**.
+
+Frekari upplýsingar um virkjun og óvirkjun eiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Skrá forritið í Microsoft Azure
 
-Fyrst þarf að skrá forritið inn í Azure-gáttinni þannig að auðkenningarverkvangur Microsoft geti veitt sannvottunar- og leyfisþjónustu fyrir forritið og notendur. Frekari upplýsingar um skráningu forrita í Azure er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðkenningarverkvangur Microsoft geti veitt sannvottunar- og leyfisþjónustu fyrir forritið og notendur. Frekari upplýsingar um skráningu forrita í Azure er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Opnið [Microsoft Azure-gáttina](https://portal.azure.com)
 
@@ -115,22 +127,34 @@ Næsta skref er að skilgreina gagnagjafa sýndareiningar í Power Apps-umhverfi
 
 4. Í **heilsulausnarmiðstöð** skal velja táknið **Ítarleg leit** efst til hægri á forritssíðunni.
 
-5. Á síðunni **Ítarleg leit** , í fellilistanum **Leita að** , skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
+5. Á síðunni **Ítarleg leit**, í fellilistanum **Leita að**, skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
 
 6. Veldu **Niðurstöður**.
 
 7. Veljið færsluna **Microsoft HR-gagnagjafi**.
 
-8. Færa skal inn nauðsynlegar upplýsingar fyrir skilgreiningu gagnagjafans.
+8. Færa skal inn nauðsynlegar upplýsingar fyrir skilgreiningu gagnagjafans:
 
-   - **Markvefslóð** : Vefslóð nafnarýmis Human Resources.
-   - **Auðkenni leigjanda** : Azure Active Directory (Azure AD) leigjandakenni.
-   - **AAD-forritskenni** : Forritskennið (biðlarinn) sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **Leynilykill AAD-forrits** : Leynilykill biðlara sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Markvefslóð**: Vefslóð nafnarýmis Human Resources. Snið URL viðtöku er:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. Veljið **Vista og loka**.
+     Dæmi:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Gætið þess að taka „**/**“ stafinn með í lok vefslóðarinnar til að forðast villu.
+
+   - **Auðkenni leigjanda**: Azure Active Directory (Azure AD) leigjandakenni.
+
+   - **AAD-forritskenni**: Forritskennið (biðlarinn) sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **Leynilykill AAD-forrits**: Leynilykill biðlara sem er stofnað fyrir forritið sem er skráð í Microsoft Azure-gáttina. Þú fékkst þessar upplýsingar fyrr í skrefinu [Skrá forritið í Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Microsoft HR-gagnagjafi](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Veljið **Vista og loka**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>Veita forritsheimildir í Human Resources
 
@@ -149,8 +173,8 @@ Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 
 3. Veljið **Ný** til að búa til aðra færslu forrits:
 
-    - **Auðkenni biðlara** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Heiti** : Dynamics 365 HR Virtual Entity
+    - **Auðkenni biðlara**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Heiti**: Dynamics 365 HR Virtual Entity
     - Í reitinn **Notandakenni** skal velja notandakenni notanda með stjórnandaheimildir í Human Resources og Power Apps-umhverfinu.
 
 ## <a name="generate-virtual-entities"></a>Mynda sýndareiningar

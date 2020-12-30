@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107353"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594237"
 ---
 # <a name="create-call-center-orders"></a> Stofna pantanir fyrir símaver
 
@@ -55,4 +55,10 @@ ms.locfileid: "4107353"
     * Fyrir þetta ferli skal færa upphæð jafnt og stöðu pöntunar sem hægt er að sjá í samantekt sölupöntunar síðunni vinstra megin við svæðið upphæð. Þessi aðgerð leyfir notandanum að ljúka pöntun sem að fullu greitt.  
 17. Veljið **Í lagi**.
 18. Veldu **Senda**.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Sérstilla tölvupósta vegna færslna eftir afhendingarmáta](../customize-email-delivery-mode.md)
+
+[Breyta afhendingarmáta á sölustað](../pos-change-delivery-mode.md)
 

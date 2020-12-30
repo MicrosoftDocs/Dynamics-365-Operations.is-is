@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á nýjum leigjanda rafrænna viðskipta
-description: Þetta efni lýsir því hvernig nota á nýjan leigjanda í netverslun með því að nota Microsoft Dynamics Lifecycle Services (LCS).
+description: Þetta efnisatriði lýsir því hvernig á að setja upp nýtt Dynamics 365 Commerce svæði fyrir rafræn viðskipti með því að nota Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,40 +17,40 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533276"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517283"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uppsetning á nýjum leigjanda rafrænna viðskipta
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig nota á nýtt svæði í netverslun með því að nota Microsoft Dynamics Lifecycle Services (LCS).
+Þetta efnisatriði lýsir því hvernig á að setja upp nýtt Dynamics 365 Commerce svæði fyrir rafræn viðskipti með því að nota Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Dynamics Lifecycle Services (LCS) er skýjasamvinnuvinnusvæði sem samstarfsaðilar og viðskiptavinir geta notað til að stjórna verkum sínum og umhverfi, skoða nýjustu upplýsingarnar um vörur og aðgerðir Microsoft Dynamics og stofna, fylgjast með og vafra um stuðningsatvik. Aðgerðir stjórnun rafrænna viðskipta eru samþættar LCS.
+Microsoft Dynamics Lifecycle Services (LCS) er skýjasamvinnuvinnusvæði sem samstarfsaðilar og viðskiptavinir geta notað til að stjórna verkum sínum og umhverfi, skoða nýjustu upplýsingarnar um vörur og aðgerðir Microsoft Dynamics og stofna, fylgjast með og vafra um stuðningsatvik. Eiginleikar E-Commerce Management eru samþættir við LCS.
 
 Til að læra meira um LCS, sjá [Notendahandbók um Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
-## <a name="get-started"></a>Leiðsögn
+## <a name="get-started"></a>Hafist handa
 
-Áður en hægt er að frumstilla rafræn viðskipti verður þú að frumstilla verkefni, umhverfi og Retail Cloud Scale Unit (RCSU). Til að gera frumstillingu í LCS verður þú að hafa heimildir fyrir annað hvort verkefnaeiganda eða umhverfisstjóra. Framleiðslu- og sandkassaumhverfisgrannfræði eru studd.
+Áður en hægt er að frumstilla rafræn viðskipti þarf að frumstilla verk, umhverfi og Retail Cloud Scale Unit (RCSU). Til að gera frumstillingu í LCS verður þú að hafa heimildir fyrir annað hvort verkefnaeiganda eða umhverfisstjóra. Framleiðslu- og sandkassaumhverfisgrannfræði eru studd.
 
 Nánari upplýsingar um umhverfi, sjá [Umhverfisskipulag](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Frekari upplýsingar um RCSU er að finna í [Frumstilla Retail Cloud Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>Frumstilla rafræn viðskipti
 
-Notaðu þessa aðferð til að frumstilla eiginleikann rafræn viðskipti í núverandi umhverfi.
+Notið þetta ferli til að frumstilla eiginleika rafrænna viðskipta í umhverfi sem er til staðar.
 
 Vertu viss um að hafa eftirfarandi nauðsynlegar upplýsingar áður en þú byrjar:
 
 - RCSU sem notað verður.
-- Microsoft Azure Active Directory öryggishópur sem notaður verður við kerfisstjórnendur e-Commerce.
+- Öryggisflokkur Microsoft Azure Active Directory sem verður notaður fyrir kerfisstjóra í rafrænum viðskiptum.
 - Microsoft Azure Active Directory öryggishópur sem notaður verður af gæslumönnum einkunna og umsagna.
 - Lénin sem verða tengd umhverfinu.
 
@@ -72,7 +72,7 @@ Að auki geturðu safnað eftirfarandi valfrjálsum upplýsingum:
 Eftir að þú hefur safnað nauðsynlegum upplýsingum skaltu fylgja þessum skrefum til að frumstilla rafræn viðskipti.
 
 1. Skráðu þig inn í [LCS](https://lcs.dynamics.com).
-1. Opnaðu verkefnið sem inniheldur umhverfið þar sem þú vilt frumstilla rafræn viðskipti.
+1. Opnið verkið sem inniheldur umhverfið þar sem á að ræsa rafræn viðskipti.
 1. Í hlutanum **Umhverfi**, veldu umhverfið.
 1. Undir **Eiginleikar umhverfis**, veldu tengilinn **Stjórnun smásölu**.
 1. Á flipanum **rafræn viðskipti**, veldu **Uppsetning**. Gluggi birtist þar sem þú verður að slá inn upplýsingarnar sem þarf til úthlutunar.
@@ -80,16 +80,16 @@ Eftir að þú hefur safnað nauðsynlegum upplýsingum skaltu fylgja þessum sk
 1. Á næstu síðu fyllirðu út nauðsynlegar upplýsingar og sendir formið síðan. Þú ert komin/n aftur á flipann **rafræn viðskipti** þar sem þú ættir að sjá að byrjað hefur verið á frumstillingu.
 1. Til að skoða frumstillingarstöðuna skaltu annaðhvort **Endurnýja** eða fara aftur á flipann **e-Commerce** seinna.
     
-Þegar rafræn viðskipti eru frumstill úr LCS, þá er kerfið með nokkra íhluti sem þarf til rafrænna viðskipta og tengir þá við umhverfið. Eftir að úthlutun er lokið er flipinn **rafræn viðskipti** á síðunni **Smásölustjórnun** uppfærð til að endurspegla úthlutunina. Á síðunni birtast nýjustu dreifingaraðgerðirnar og staðan fyrir aðrar áframhaldandi dreifingar. Það felur einnig í sér tengla á netverslunarsíðuna og vefsvæðishönnuð e-Commerce þar sem vefsvæði eru sett upp.
+Þegar rafræn viðskipti eru ræst úr LCS úthlutar kerfið nokkrum hlutum sem eru nauðsynlegir fyrir rafræna viðskipti og tengir þá við umhverfið. Eftir að úthlutun er lokið er flipinn **rafræn viðskipti** á síðunni **Smásölustjórnun** uppfærð til að endurspegla úthlutunina. Á síðunni birtast nýjustu dreifingaraðgerðirnar og staðan fyrir aðrar áframhaldandi dreifingar. Þar er einnig að finna tengla á svæði fyrir rafræn viðskipti og smið rafrænna viðskipta þar sem svæði eru tengd.
 
-## <a name="access-site-builder"></a>Aðgangur að vefsvæðishönnuði
+## <a name="access-commerce-site-builder"></a>Access smiður rafrænna viðskipta
 
-Farðu á flipann **e-Commerce** á síðunni **Verslunarstjórnun** í LCS og veldu tengilinn **Stjórnunartæki fyrir netverslun**. Áfangasíða byggingaraðila sýnir yfirlit leigjenda. Af þessari síðu er hægt að:
+Til að fá aðgang að Commerce Site Builder er farið á flipann **<Rafræn viðskipti** á flipanum **Smásölustjórnun** í LCS og tengillinn **Svæðisstjórnunarverkfæri rafrænna viðskipta** valinn. Áfangasíða byggingaraðila sýnir yfirlit leigjenda. Af þessari síðu er hægt að:
 
 - Breyta stillingum leigjenda.
 - Fara á hvaða síðu sem þú hefur búið til og hefur heimild til að skoða. 
 - Fara í umsögnir, eins og stjórnun og skýrslugerð.
-- Stofna nýtt svæði. Nánari upplýsingar um hvernig á að stofna nýtt svæði er að finna í [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md). 
+- Stofna nýtt svæði. Nánari upplýsingar um hvernig eigi að stofna nýja síðu er að finna í [Búa til nýtt svæði fyrir rafræn viðskipti](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -97,11 +97,11 @@ Farðu á flipann **e-Commerce** á síðunni **Verslunarstjórnun** í LCS og v
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

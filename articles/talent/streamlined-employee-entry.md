@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915202"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4461580"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Einfaldaður innsláttur og skoðun starfsmanns
 
@@ -68,12 +68,12 @@ Aðgerðarrúðan á starfskraftasíðunni hefur verið skipulögð á ný til a
 
 - Starf
 - Einstaklingur
-- Hætta
+- Orlof
 - Laun
 - Fríðindi
-- Reglufylgni
+- Samræmi
 
-Þar að auki veitir nýr flipi **Tenglar** á aðalsíðu starfsmanna notendum miðlæga staðsetningu til að fá aðgang að öllum skyldum upplýsingum starfskrafts.
+Að auki er nýr **Tenglar** flipi á síðu aðalstarfskrafts sem veitir notendum miðlæga staðsetningu fyrir aðgang að öllum tengdum upplýsingum fyrir starfskraftinn.
 
 Vegna þessara breytinga geta upplýsingar birst á öðrum stað en þú átt að venjast. Til dæmis birtast launaupplýsingar sem áður voru birtar í starfskraftaskjámyndinni núna í aðgerðarrúðunni undir **Bætur > Laun** og flipinn **Persónuupplýsingar** er kominn með hnappinn **Meiri upplýsingar** til að fela reiti sem ekki eru notaðir oft.
 
@@ -81,7 +81,7 @@ Vegna þessara breytinga geta upplýsingar birst á öðrum stað en þú átt a
 
 ## <a name="work-history"></a>Starfsferill
 
-Flipinn **Vinnuferill** sýnir vinnuferil yfir alla lögaðila og er í boði fyrir starfskenn og verktaka sem eru hættir, virkir og í bið. Þú getur nú skoðað allan vinnuferilinn í einu fyrir þá lögaðila sem þú hefur aðgang að. Að auki geturðu breytt upplýsingum fyrir hverja færslu vinnuferlisins án þess að breyta gagnasamhenginu. Þú getur uppfært allar upplýsingar beint á síðunni. 
+Flipinn **Vinnuferill** sýnir vinnuferil allra lögaðila og er tiltækur fyrir starfsmenn og verkaka á útleið, sem eru virkir og sem eru í bið. Þú getur nú skoðað allan vinnuferilinn í einu fyrir þá lögaðila sem þú hefur aðgang að. Að auki geturðu breytt upplýsingum fyrir hverja færslu vinnuferlisins án þess að breyta gagnasamhenginu. Þú getur uppfært allar upplýsingar beint á síðunni. 
 
 [![Starfsferill](./media/Worker-work-history.png)](./media/Worker-work-history.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna svæði fyrir rafræn viðskipti
-description: Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
+description: Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 07/02/2020
@@ -19,20 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533437"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517185"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
+Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
 
-Þegar veitt er heimild fyrir rafrænum viðskiptamöguleikum, fær vefhönnuður úthlutað upphafssíðu sem hægt er að nota sem grunn fyrir eigin síðu. Ef þú vilt hins vegar byrja frá grunni eða ef þú vilt koma á öðru vefsvæði þarftu að koma á fót nýju svæði í hönnunarumhverfi vefsvæðis. 
+Þegar Dynamics 365 Commerce er veitt heimild fyrir rafrænum viðskiptamöguleikum, fær vefhönnuður úthlutað upphafssíðu sem hægt er að nota sem grunn fyrir eigin síðu. Ef þú vilt hins vegar byrja frá grunni eða ef þú vilt koma á öðru vefsvæði þarftu að koma á fót nýju svæði í hönnunarumhverfi vefsvæðis. 
 
 ## <a name="set-up-your-site"></a>Setja upp síðuna
 
@@ -46,7 +46,7 @@ Til að setja upp síðuna þína skaltu gera eftirfarandi.
 |-------------------------------------|-------------|
 | Svæðaheiti                           | Sláðu inn skjáheitið sem ætti að nota fyrir síðuna þína í umhverfi höfundaréttarins. Þetta nafn er aðeins sýnilegt í höfundarumhverfinu og verður ekki sýnt viðskiptavinum. |
 | Öryggishópur vefstjórans | Tilgreindu Microsoft Azure Active Directory (Azure AD) öryggishóp sem heldur utan um notendur sem hafa hlutverk stjórnanda vefsins á þessari síðu. |
-| Sjálfgefin rás (númer rekstrareiningar) | Veldu netverslunina sem þessi síða mun þjóna sem vefverslun fyrir. Ef þú vilt að netverslunarsíðan þín styðji margar netverslanir, verður þú að tengja verslanirnar við síðuna þína á **Stillingar svæðis** eftir að svæðið er sett upp. |
+| Sjálfgefin rás (númer rekstrareiningar) | Veldu netverslunina sem þessi síða mun þjóna sem vefverslun fyrir. Ef vefsvæðið á að styðja margar netverslanir verður að tengja verslanir við síðuna þína á **Síðustillingar** eftir að svæðið er sett upp. |
 | Sjálfgefið tungumál                            | Tilgreindu sjálfgefið tungumál fyrir þessa netverslun og markað. Netverslun getur stutt mörg tungumál. Ef þú vilt styðja mörg tungumál fyrir þessa netverslun eða aðra netverslun geturðu stillt þann stuðning í **Stillingar svæðis** eftir að svæðið er settur upp.  |
 | Lén                              | Veldu heiti léns sem mun þjóna sem lén fyrir þessa vefverslun. Ef þú hefur ekki stillt nein lén í LCS geturðu haft þennan reit auðan. Eftir að lénið þitt er stillt í LCS verðurðu að bæta því við netverslunina þína í **Stillingar svæðis**.  |
 | Slóð                              | Þegar vefsvæðið þitt styður fleiri en eitt tungumál fyrir tiltekið lén, notaðu slóðareitinn til að búa til einstaka vefslóð fyrir það lén og tungumálasamsetningu. Ef tungumálið sem þú tilgreindir í reitnum **Sjálfgefið tungumál** er eina tungumálið sem þú munt styðja fyrir þetta lén eða heldur áfram að vera sjálfgefið tungumál eftir að þú hefur staðfært síðuna á fleiri tungumál mælum við með að þú hafir þennan reit auðan. |
@@ -58,13 +58,13 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

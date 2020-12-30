@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 80d52fa59f2f0e31595aefd7e18956f14e2c29a8
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793130"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516670"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Námslisti fyrir stjórnendur innleiðingarverka sem vinna með Dynamics 365 Supply Chain Management
 
@@ -47,7 +47,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Flytja gögn og gefa út með Finance and Operations forritum](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | Sem starfandi ráðgjafi verður þú að skilja hvernig á að undirbúa gögn viðskiptavinarins fyrir flutning, vinna með gagnastjórnun og framkvæma samþykkisprófun notanda til að vera í beinni með Finance and Operations-forritum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 | [Grunnstilla og vinna með greiningar og skýrslugerð í forritum Finance and Operations forritum](https://docs.microsoft.com/learn/paths/configure-analytics-reporting-finance-operations/) | Leiðtogar fyrirtækja geta tekið mikilvægar ákvarðanir í fyrirtæki sínu ef þeir hafa nákvæma innsýn í undirliggjandi fjárhags- og rekstrargögn. Viðskiptanotandi getur einnig grunnstillt og notað verkfæri fyrir rafræna skýrslugerð án þess að nota neinn kóða,til að taka í gagnið nýja kröfu samkvæmt reglum og mynda viðskiptaskjöl í nauðsynlegu sniði til að skiptast rafrænt á upplýsingum við stjórnvöld, banka og aðrar aðilum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 | [Finance and Operations: Innleiðing í Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack býður upp á innleiðingarþjónustu fyrir alla Dynamics 365 for Finance and Operations verkefni. Í þessu tæknitali munum við útskýra Onboarding ferlið, ganga í gegnum innihald innleiðingarlotunnar með þér og afhjúpa hvernig við erum að gera innleiðingu skilvirkara og þægilegra á næstunni. Þessi fundur er sérstaklega viðeigandi fyrir alla sem vinna með viðskiptavini á fyrstu stigum verkefnis, milli lokunar leyfisumboðs og upphafs framkvæmdarverkefnis. | Tæknital (hljóðritað vefnámskeið) | 62 mínútur |
-| [Skipulagning á staðnum (staðbundin viðskiptagögn) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Vinsamlegast taktu þátt í þessari tækni ræðu til að fá yfirlit yfir möguleika á dreifingu á staðnum Dynamics 365 for Finance and Operations, Enterprise Edition. Á þessu þingi munum við skoða lausnarskipulag á vettvangi fyrir dreifingu, ALM þætti, kerfiskröfur og hvernig á að veita Life Cycle Services verkefninu. | Tæknital (hljóðritað vefnámskeið) | 48 mínútur |
+| [Skipulagning á staðnum (staðbundin viðskiptagögn) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Taktu þátt í þessum tækniumræðum til að fá upplýsingar um virkjunarkost á staðnum fyrir Dynamics 365 for Finance and Operations, Enterprise Edition. Í þessari lotu Lítum við á lausnauppbyggingu virkjunar á staðnum, ALM-þætti, kerfiskröfur, og hvernig á að úthluta verki Life Cycle Services. | Tæknital (hljóðritað vefnámskeið) | 48 mínútur |
 | [Keyrsluáætlun (DYN458PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/go-live-planning-8-9-18) | Við munum ræða ítarlega um ferli og hvernig best sé að búa sig undir það til að gera það eins slétt og mögulegt er fyrir viðskiptavininn, félagann og Microsoft. | Tæknital (hljóðritað vefnámskeið) | 60 mínútur |
 | [Umhverfisskipulagning (DYN450PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/environment-planning-may-23-2018) | Vinsamlegast taktu þátt með okkur í þessari tækntali um skipulagningu umhverfis. Kynntu þér venjulegt umhverfi, hvaða önnur umhverfi þú gætir þurft, valkosti og tímasetningu til að afla og dreifa þeim og væntanlegan kóða og gagnaflæði milli umhverfisins. | Tæknital (hljóðritað vefnámskeið) | 53 mínútur |
 | [Finance and Operations: Eiginleikastjórnun (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Tæknifræðingur um reynslu af lögun stjórnunar. Það býður upp á vinnusvæði þar sem þú getur skoðað, gert kleift, slökkt á og skipulagt aðgerðir sem hafa verið afhentar í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Mætum á þennan fund til að sjá hvað er skilað í 10.0.3 og áætlanir okkar um framtíðarútgáfur. | Tæknital (hljóðritað vefnámskeið) | 47 mínútur |

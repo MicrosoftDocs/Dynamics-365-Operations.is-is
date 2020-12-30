@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017323"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654173"
 ---
 # <a name="zone-threshold-replenishment"></a>Áfyllingarmörk svæðis
 
@@ -41,7 +41,7 @@ Líkt og lágm./hám. áfyllingar sem miðast við staðsetningar, miðast lágm
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Kveikja á eiginleikanum áfyllingarmörk svæðis
 
-Áður en þú getur notað eiginleikann *Áfyllingarmörk svæðis* , verður að vera kveikt á því í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað eiginleikann *Áfyllingarmörk svæðis*, verður að vera kveikt á því í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Áfyllingarmörk svæðis*
@@ -62,7 +62,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 Þetta dæmi sýnir hvernig á að búa til leiðbeiningarkóða. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessa efnisatriðis getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
 
-1. Veldu **USMF** -lögaðilann til að vinna með sýnigögnin.
+1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar**.
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta línu við hnitanetið.
 1. Í nýju línunni skal stilla eftirfarandi gildi:
@@ -84,7 +84,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 Þetta dæmi sýnir hvernig á að undirbúa áfyllingarsniðmát. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessa efnisatriðis getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
 
-1. Veldu **USMF** -lögaðilann til að vinna með sýnigögnin.
+1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Fara í **Vöruhúsakerfi \> Uppsetningu \> Áfylling \> Áfyllingarsniðmát**.
 1. Veldu **Breyta** til að setja síðuna í breytingastillingu.
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta línu við hnitanetið **Yfirlit**.
@@ -102,7 +102,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
     - **Lýsing** Sláðu inn _Áfylling tiltektarsvæðis_.
     - **Áfyllingareining** Veldu _ea_.
     - **Tegund beiðni::** Hafðu þetta svæði autt.
-    - **Staðsetningarleiðbeiningar:** Þetta svæði tengir áfyllingarsniðmátið við staðsetningarleiðbeiningarnar. Veldu staðsetningakóða sýnigagnanna sem þú bjóst til áður ( _Áfylling fyrir svæði_ ).
+    - **Staðsetningarleiðbeiningar:** Þetta svæði tengir áfyllingarsniðmátið við staðsetningarleiðbeiningarnar. Veldu staðsetningakóða sýnigagnanna sem þú bjóst til áður (_Áfylling fyrir svæði_).
     - **Vinnusniðmát:** Skildu þetta svæði eftir autt.
     - **Lágmarksmagn:** Þetta svæði setur upp magnið sem áfylling verður sett af stað. Færðu inn _50_.
     - **Hámarksmagn:** Þetta svæði stillir hámarksmagn vöru sem getur verið til staðar á svæði. Framleidd áfyllingarvinna eykur birgðirnar um þetta magn. Færðu inn _150_.
@@ -111,7 +111,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
     - **Fylla á auðar fastar staðsetningar:** Merktu í þennan gátreit.
     - **Fylla aðeins á fastar staðsetningar:** Hreinsaðu þennan gátreit.
     - **Fyrirspurnarstilling afurðar:** Veldu _Fyrirspurn afurðar_.
-    - **Viðmiðunarmörk áfyllingar:** : Þetta svæði skilgreinir hvort sniðmátið eigi að meta eftir svæði eða eftir tiltekinni staðsetningu. Veldu _Svæði_.
+    - **Viðmiðunarmörk áfyllingar:**: Þetta svæði skilgreinir hvort sniðmátið eigi að meta eftir svæði eða eftir tiltekinni staðsetningu. Veldu _Svæði_.
     - **Vöruhús:** veldu _61_.
 
 1. Veldu **Velja afurðir** fyrir ofan hnitanetið **Upplýsingar um áfyllingarsniðmát**.
@@ -151,7 +151,7 @@ Til að útbúa sýnigögn svo hægt sé að nota þau við aðstæðurnar í lo
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Búa til leiðbeiningar um tiltekt áfyllingar
 
-1. Veldu **USMF** -lögaðilann til að vinna með sýnigögnin.
+1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Staðsetningarleiðbeiningar**.
 1. Stilltu svæðið **Gerð verkbeiðni** á _Áfylling_ í vinstri glugganum.
 1. Veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjar leiðbeiningar.
@@ -265,18 +265,18 @@ Til að útbúa sýnigögn svo hægt sé að nota þau við aðstæðurnar í lo
 
 #### <a name="use-the-usmf-legal-entity"></a>Nota USMF-lögaðilann
 
-Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF** -lögaðila áður en þú byrjar.
+Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 #### <a name="prepare-additional-sample-data"></a>Undirbúningur viðbótarsýnigagna
 
-Eftir að þú hefur valið **USMF** -lögaðilann skaltu bæta við viðbótarsýnigögnum sem krafist er, eins og lýst er í hlutanum [Uppsetning á áfyllingu miðað við svæði](#setup) fyrr í þessu efnisatriði.
+Eftir að þú hefur valið **USMF**-lögaðilann skaltu bæta við viðbótarsýnigögnum sem krafist er, eins og lýst er í hlutanum [Uppsetning á áfyllingu miðað við svæði](#setup) fyrr í þessu efnisatriði.
 
 #### <a name="check-your-on-hand-inventory"></a>Athuga lagerbirgðir
 
 Fylgdu þessum skrefum til að ganga úr skugga um að kerfið þitt sé með nægar birgðir til að styðja sýniaðstæðurnar.
 
-1. Gakktu úr skugga um að lagerbirgðir séu til staðar fyrir vöruna *A0001* á tveimur mismunandi staðsetningum á tiltektarsvæðinu ( *GÓLFI* ) sem er tilgreint í áfyllingarsniðmátinu. Samt sem áður ættu heildarbirgðirnar að vera minni en áskilið lágmarksmagn ( *50* ) sem er tilgreint í áfyllingarsniðmátinu. Á þennan hátt er hægt að líkja eftir því hvernig útreikningur á sér stað fyrir allt svæðið í stað einnar staðsetningar. **Notaðu hvaða vöruhúsaferli sem er til að breyta birgðunum eftir þörfum.**
-1. Gakktu úr skugga um að nægar birgðir séu fyrir vöru *A0001* á fjöldastaðsetningu sem er tilgreint í staðsetningarleiðbeiningu tiltektar á svæði þar sem áfyllingarvinnan skal taka til vörur á svæðisauðkenni *MAGN*. Heildarbirgðir verða að vera meiri en áskilið hámarksmagn ( *150* ) sem er tilgreint í áfyllingarsniðmátinu.
+1. Gakktu úr skugga um að lagerbirgðir séu til staðar fyrir vöruna *A0001* á tveimur mismunandi staðsetningum á tiltektarsvæðinu (*GÓLFI*) sem er tilgreint í áfyllingarsniðmátinu. Samt sem áður ættu heildarbirgðirnar að vera minni en áskilið lágmarksmagn (*50*) sem er tilgreint í áfyllingarsniðmátinu. Á þennan hátt er hægt að líkja eftir því hvernig útreikningur á sér stað fyrir allt svæðið í stað einnar staðsetningar. **Notaðu hvaða vöruhúsaferli sem er til að breyta birgðunum eftir þörfum.**
+1. Gakktu úr skugga um að nægar birgðir séu fyrir vöru *A0001* á fjöldastaðsetningu sem er tilgreint í staðsetningarleiðbeiningu tiltektar á svæði þar sem áfyllingarvinnan skal taka til vörur á svæðisauðkenni *MAGN*. Heildarbirgðir verða að vera meiri en áskilið hámarksmagn (*150*) sem er tilgreint í áfyllingarsniðmátinu.
 1. Valfrjálst en ráðlagt: Fylgdu eftirfarandi skrefum til að búa til leiðréttingabók birgða:
 
     1. Farið í **Birgðastjórnun \> Færslubókarfærslur \> Vörur \> Leiðrétting birgða**.

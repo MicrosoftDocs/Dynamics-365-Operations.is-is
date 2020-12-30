@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d27104a08cdc899f12942d80e693f3495d90a6ec
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040077"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527411"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 26. september 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
@@ -39,7 +41,7 @@ Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir a
 
 Eftirfarandi eiginleiki er almennt aðgengilegur með þessari útgáfu:
 
-- **Verkvangsuppfærsla 10.0.13 er nú tiltæk** : Frekari upplýsingar um uppfærsluna er að finna í [verkvangsuppfærslur fyrir útgáfu 10.0.13 af Finance and Operations forrita (2020. október)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Verkvangsuppfærsla 10.0.13 er nú tiltæk**: Frekari upplýsingar um uppfærsluna er að finna í [verkvangsuppfærslur fyrir útgáfu 10.0.13 af Finance and Operations forrita (2020. október)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

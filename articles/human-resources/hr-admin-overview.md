@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443419"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527862"
 ---
 # <a name="overview"></a>Yfirlit
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þessi stjórnandi handbók hjálpar þér að setja upp, stjórna og leysa úrræðaleit Dynamics 365 Human Resources.
 
@@ -81,7 +83,7 @@ ms.locfileid: "3443419"
   - [Verkskráning](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Búa til fylgiskjöl eða þjálfun með verkskráningu](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Úrræðaleit fyrir Human Resources
+- Úrræðaleit fyrir mannauð
   - [Fá aðstoð](hr-admin-troubleshooting-support.md)
   - [Auka afköst með sjálfvirkum hreinsunarverkum](hr-admin-troubleshooting-batch-history.md)
   - [Greiningarskýrslur eru ekki uppfærðar](hr-admin-troubleshooting-analytic-reports.md)

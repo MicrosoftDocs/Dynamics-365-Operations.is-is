@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765002"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517356"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -47,7 +47,7 @@ Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi
 
 ## <a name="commerce-generated-urls"></a>Vefslóðir myndaðar af Commerce
 
-Þegar rafrænu viðskiptaumhverfi er úthlutað, býr Commerce til vefslóð sem verður vinnuveffangið fyrir umhverfið. Vísað er í þessa vefslóð í tengli á rafræna viðskiptasvæðið í LCS þegar búið er að úthluta umhverfinu. Vefslóð sem Commerce myndar er á sniðinu `https://<e-Commerce tenant name>.commerce.dynamics.com`, þar sem biðlaraheiti rafrænna viðskipta er heitið sem fært er inn í LCS fyrir viðskiptaumhverfið.
+Þegar rafrænu Dynamics 365 Commerce viðskiptaumhverfi er úthlutað, býr Commerce til vefslóð sem verður vinnuveffangið fyrir umhverfið. Vísað er í þessa vefslóð í tengli á rafræna viðskiptasvæðið í LCS þegar búið er að úthluta umhverfinu. Vefslóð sem Commerce myndar er á sniðinu `https://<e-commerce tenant name>.commerce.dynamics.com`, þar sem biðlaraheiti rafrænna viðskipta er heitið sem fært er inn í LCS fyrir viðskiptaumhverfið.
 
 Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhverfi. Þessi möguleiki er tilvalinn þegar vefsvæði er afritað úr sandkassaumhverfi í framleiðslu.
 
@@ -102,9 +102,9 @@ Til dæmis hefur umhverfi „xyz“ verið úthlutað og tvö svæði hafa veri�
 
 ## <a name="traffic-forwarding-in-production"></a>Framsend umferð í framleiðslu
 
-Hægt er að líkja eftir mörgum lénum með því að nota færibreytur fyrir fyrirspurnarstreng léns á endastöð commerce.dynamics.com. En þegar nauðsynlegt er að fara í framleiðslu í rauntíma þarf að framsenda umferðina fyrir sérsniðna lénið á endastöðina `<e-Commerce tenant name>.commerce.dynamics.com`.
+Hægt er að líkja eftir mörgum lénum með því að nota færibreytur fyrir fyrirspurnarstreng léns á endastöð commerce.dynamics.com. En þegar nauðsynlegt er að fara í framleiðslu í rauntíma þarf að framsenda umferðina fyrir sérsniðna lénið á endastöðina `<e-commerce tenant name>.commerce.dynamics.com`.
 
-Endastöð `<e-Commerce tenant name>.commerce.dynamics.com` styður ekki sérsniðin SSL og þarf því setja upp sérsniðin lén með því að nota Front Door-þjónustu eða efnisbirtingarnet (CDN). 
+Endastöð `<e-commerce tenant name>.commerce.dynamics.com` styður ekki sérsniðin SSL og þarf því setja upp sérsniðin lén með því að nota Front Door-þjónustu eða efnisbirtingarnet (CDN). 
 
 Til að setja upp sérsniðin lén með því að nota Front Door-þjónustu eða CDN, eru tveir möguleikar í boði:
 
@@ -152,17 +152,17 @@ Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki un
 
   ## <a name="additional-resources"></a>Frekari upplýsingar
 
-  [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+  [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
   [Setja upp netverslunarrás](online-stores.md)
 
   [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-  [Tengja netsvæði við rás](associate-site-online-store.md)
+  [Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
   [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-  [Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+  [Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
   [Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 

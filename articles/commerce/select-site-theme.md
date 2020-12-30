@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817707"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556430"
 ---
 # <a name="select-a-site-theme"></a>Velja þema svæðis
 
@@ -32,7 +32,7 @@ ms.locfileid: "3817707"
 
 ## <a name="overview"></a>Yfirlit
 
-Útlit og stíll vefsvæðis (til dæmis leturgerðir, stærðir og litir) eru skilgreind af þema sem þú velur og beitir á síðuna. Þema er búið til og sent af þróunaraðila hjá fyrirtækinu þínu. Fyrir yfirlit yfir þemu skal sjá [Yfirlit yfir þemu](http://). Nánari upplýsingar um hvernig á að stofna og nota þeum eru í [Stofna nýtt þema](http://).
+Útlit og stíll vefsvæðis (til dæmis leturgerðir, stærðir og litir) eru skilgreind af þema sem þú velur og beitir á síðuna. Þema er búið til og sent af þróunaraðila hjá fyrirtækinu þínu. Fyrir yfirlit yfir þemu skal sjá [Yfirlit yfir þemu](e-commerce-extensibility/theming.md). Nánari upplýsingar um hvernig á að stofna og nota þeum eru í [Stofna nýtt þema](e-commerce-extensibility/create-theme.md).
 
 Þegar þú stofnar vefsíðu notar hún sjálfgefið þema sem heitir **Fabrikam**. Þetta sjálfgefna þema er veitt sem hluti af einingasafni Commerce. Eftir að þú hefur notað fleiri þemu fyrir síðuna þína geturðu stillt vefsvæðið þannig að hann noti eitt af þeim í staðinn.
 
@@ -63,3 +63,8 @@ Fylgdu þessum skrefum til að velja þemað sem er notað á síðuna þína.
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
+
+[Yfirlit yfir þemu](e-commerce-extensibility/theming.md)
+
+[Búa til nýtt þema](e-commerce-extensibility/create-theme.md)
+

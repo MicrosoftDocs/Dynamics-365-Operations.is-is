@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980965"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517381"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -345,19 +345,19 @@ Hægt er að bæta við valfrjálsum aukaforritareikningi í hlutanum **Notendur
 
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Tengja netsvæði við rás](associate-site-online-store.md)
+[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)Tengja svæði Dynamics 365 Commerce við netrás
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
-[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
+[Skilgreina marga B2C-leigjendur í Commerce-umhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 

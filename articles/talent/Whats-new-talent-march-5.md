@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898920"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527291"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (5. mars 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Talent.
 
@@ -76,5 +78,5 @@ Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Ítarlegt launaöryggi (fast og breytilegt)
 Í mörgum fyrirtækjum geta margir umsjónaraðilar launa og fríðinda eingöngu fengið aðgang að ákveðnum launafærslum, t.d. færslur fyrir yfirmenn eða svæðisbundna starfsmenn. Með þessari breytingu geturðu haft umsjón með launafyrirkomulaginu fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta föstum og breytilegum áætlunum öryggishlutverkum, sem ákvarðar aðgang að áætlunum og starfsmannaupplýsingum sem tengjast áætlunum, t.d. launa- eða bónusfærslur. Aðeins hlutverk með veittan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Verkvangsuppfærsla 24 fyrir Finance and Operations
-Frekari upplýsingar um verkvangsuppfærslu 24 fyrir Finance and Operations er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærsla 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Uppfærsla 24 fyrir verkvang fyrir Finance and Operations
+Frekari upplýsingar um verkvangsuppfærslu 24 fyrir Finance and Operations er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærslu 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

@@ -1,9 +1,9 @@
 ---
-title: Búa til staðsetningarleiðbeiningar
-description: Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
+title: Vinna með staðsetningarleiðbeiningar
+description: Þetta efnisatriði útskýrir hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
 author: Mirzaab
 manager: tfehr
-ms.date: 07/28/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,20 +14,20 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2020-07-28
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 4f634b7f526fd198b394af6d3870c43ee560813e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.search.validFrom: 2020-11-13
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: f56257fd3f2f681bbd514843d8ddafa2395648d3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016771"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517477"
 ---
-# <a name="create-location-directives"></a>Búa til staðsetningarleiðbeiningar
+# <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar. Til dæmis, fyrir sölupöntunarfærslu, ákvarða staðsetningarleiðbeiningar hvar vörurnar verða tíndar og hvar tíndar vörur verða settar.
+Staðsetningarleiðbeiningar eru reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar. Til dæmis, í sölupöntunarfærslu, ákvarða staðsetningarleiðbeiningar hvar vörurnar verða teknar til og hvar tilteknar vörur verða að setja. Staðsetningarleiðbeiningar samanstanda af haus og tengdum línum. Þær eru búnar til fyrir tilteknar *verkbeiðnigerðir*.
 
 > [!NOTE]
 > Athugasemd: Þetta efni á við aðgerðir í **Vöruhúsakerfi**. Það á ekki við um eiginleika í einingunni [Birgðastjórnun](../inventory/inventory-home-page.md).
@@ -43,83 +43,218 @@ Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi v
 
 Áður en hægt er að stofna staðsetningarleiðbeiningu þarf að fylgja þessum skrefum til að ganga úr skugga um að forkröfur séu til staðar.
 
+1. Gangið úr skugga um að kveikt sé á tilskildum leyfislykli. Farið í **Kerfisstjórnun \> Uppsetning \> Leyfisskilgreining**, stækkið leyfislykilinn **Viðskipti** og veljið síðan skilgreiningarlykilinn **Vöruhúsakerfi og flutningsstjórnun**. Athugið að stjórnendaaðgangur er nauðsynlegur fyrir þetta skref.
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
 1. Stofna vöruhús.
 1. Í flýtiflipanum **Vöruhús** skal stilla valkostinn **Nota ferli vöruhúsastjórnunar** á *Já*.
 1. Stofna staðsetningar, staðsetningargerðir, staðsetningarforstillingar og staðsetningarsnið. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 1. Stofna svæði og svæðisflokka. Frekari upplýsingar er að finna í [Uppsetning vöruhúss](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) og [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 
-## <a name="setup"></a>Setja upp
+## <a name="work-order-types-for-location-directives"></a>Verkbeiðnigerðir fyrir staðsetningarleiðbeiningar
 
-### <a name="create-location-directives"></a>Búa til staðsetningarleiðbeiningar
+Margir reitirnir sem hægt er að stilla fyrir staðsetningarleiðbeiningar eru eins í öllum verkbeiðnigerðunum. Hins vegar eru aðrir reitir sem tilheyra tilteknum verkbeiðnigerðum.
 
-Til að stofna staðsetningartilskipun, skal fylgja eftirfarandi skrefum.
+![Verkbeiðnigerðir staðsetningarleiðbeiningar](media/Location_Directives_Work_Order_Types.png "Verkbeiðnigerðir staðsetningarleiðbeininga")
 
-1. Fara í **Vöruhúsakerfi \> Uppsetning \> Staðsetningarleiðbeiningar**.
-1. Á listasvæðinu skal stilla reitinn **Gerð verkbeiðni** á þá gerð birgðafærslu sem verið að stofna staðsetningarleiðbeiningu fyrir.
-1. Veldu **Ný** á aðgerðasvæðinu til að búa til staðsetningarleiðbeiningu.
-1. Fyrir nýju staðsetningarleiðbeininguna skal stilla reitina eins og lýst er í eftirfarandi töflu.
+> [!NOTE]
+> Tvær verkbeiðnigerðir *Afturkölluð vinna* og *Regluleg talning* eru eingöngu notaðar af kerfinu. Ekki er hægt að búa til staðsetningarleiðbeiningar fyrir þessar verkbeiðnigerðir.
 
-    | Svæði | lýsing |
-    |---|---|
-    | Raðnúmer | Færið inn heiltölu sem gefur til kynna hvar í röðinni staðsetningarleiðbeiningin er. Hvar í röðinni segir til um hvenær unnið er úr hverri staðsetningarleiðbeiningu fyrir sig fyrir valda gerð verkbeiðni. |
-    | Nafn | Færðu inn nafn á staðsetningarleiðbeiningunni. | 
-    | Vinnugerð | Veldu gerð vinnunnar sem á að framkvæma. Listi yfir gildi fer eftir gerð birgðafærslu sem valin er í reitnum **Gerð verkbeiðni**. Eftirfarandi gildi gætu verið tiltæk:<ul><li>**Frágangur** – Staðsetningarleiðbeiningin reynir að finna bestu staðsetninguna til að staðsetja eða finna birgðir sem koma inn í kerfið við móttöku, framleiðslu eða leiðréttingu birgða. Staðsetningarleiðbeiningin er einnig notuð til að skilgreina afhendingarstaðsetningu fyrir geymslu eða útskot í verkflæði á útleið.</li><li>**Taka til** – Staðsetningarleiðbeiningin reynir að finna bestu staðsetningar til að taka frá efnislegar birgðir (stofna vinnu). Hægt er að ljúka tiltekt (þ.e. hægt er að losa vinnulínu tiltektar), jafnvel þótt vinnunni sé ekki lokið. Notandinn getur lokið efnislegri tiltekt. Í kerfinu er þessi aðgerð tiltektarskref. Notandinn getur síðan hætt við í fartækinu og lokið vinnunni (t.d. frágangi) seinna. Hins vegar er vinnuhausnum fyrst lokað þegar lokafrágangi er lokið.</li><li>**Talning** , **Leiðréttingar** , **Sérsnið** , **Breyting á birgðastöðu** , **Röðun númeraplötu** , **Prenta** , **Stöðubreyting** og **Pakka í faldaðar númeraplötur** - Hægt er að nota þessi gildi í hvaða uppsetningu staðsetningarleiðbeiningar sem er.</li></ul> |
-    | Svæði | Veljið svæðið Þar sem ætti að ljúka við vinnuna. |
-    | Vöruhús | Veljið vöruhúsastaðsetninguna þar sem á að klára vinnuna. |
-    | Leiðbeiningarkóði | Veljið leiðbeiningarkóða til að leiða val á staðsetningarleiðbeiningum sem tengjast frágangslínum vinnusniðmáts þar sem þessum kóða er úthlutað. Á síðunni **Leiðbeiningarkóði** er hægt að búa til nýja kóða sem má nota til að tengja vinnusniðmát við staðsetningarleiðbeiningu. Einnig er hægt að nota þessa síðu til að koma á tengingu milli hvaða vinnusniðmátslínu sem er og staðsetningarleiðbeiningar (t.d. útskot eða geymslustað). Frekari upplýsingar um hvernig á að skilgreina leiðbeiningarkóða með vinnusniðmáti er að finna í [Stýra vöruhúsavinnu með vinnusniðmátum og staðsetningarleiðbeiningum](control-warehouse-location-directives.md).<p>Ef leiðbeiningarkóði er stilltur, þegar búa þarf til vinnu, leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða í stað þess að leita eftir röð. Á þennan hátt er hægt að vera nákvæmari í sniðmáti staðsetningar sem er notað fyrir tiltekið skref í vinnusniðmáti, eins og skrefið fyrir geymslu á efni.</p> |
-    | Ráðstöfunarkóði | Veljið ráðstöfunarkóða til að framsenda frágang móttekinna vara á staðsetningu. (Frekari upplýsingar er að finna í [Setja upp ráðstöfunarkóða](tasks/set-up-dispositions-codes.md).) Þessi reitur er aðeins í boði þegar reiturinn **Gerð verkbeiðni** er stilltur á *Innkaupapantanir* , *Vöruskilapantanir* eða *Frágangur á fullunnum vörum*. |
-    | Margar birgðahaldseiningar | Stillið þennan valkost á *Já* til að nota margar birgðahaldseiningar á staðsetningu. Til dæmis verður þessi valkostur að vera stilltur á *Já* fyrir útskotið.<p>Ef valkosturinn **Margar birgðahaldseiningar** er stilltur á *Já* verður frágangsstaðsetningin tilgreind í vinnu (eins og búist er við). Hins vegar getur frágangsstaðsetningin aðeins höndlað frágang á mörgum vörum ef vinnan inniheldur margar birgðahaldseiningar sem þarf að taka til og ganga frá, ekki ef vinnan felur í sér aðeins eina birgðahaldseiningu sem þarf að ganga frá.</p><p>Ef valkosturinn **Margar birgðahaldseiningar** er stilltur á *Nei* , verður frágangsstaðsetningin eingöngu tilgreind ef frágangurinn er aðeins með eina gerð af birgðahaldseiningu.</p><p>Til að nota báðar aðferðirnar þarf að tilgreina tvær línur sem eru með sama skipulag og uppsetningu, en stilla valkostinn **Margar birgðahaldseiningar** á *Já* fyrir eina af línunum og *Nei* fyrir hinar. Með öðrum orðum, krafist er tveggja eins staðsetningarleiðbeininga fyrir frágangsaðgerðir, jafnvel þó að notandi þurfi ekki að greina á milli stakrar og margra birgðahaldseininga í vinnukenninu. Einnig þarf að setja upp staðsetningarleiðbeiningu fyrir tínslu, ef um er að ræða pöntun sem er með fleiri en eina vöru.</p><p>**Athugið:** Ef valkosturinn **Margar birgðahaldseiningar** er stilltur á *Já* fyrir staðsetningarleiðbeiningu af vinnugerðinni *Frágangur* , velur kerfið alltaf fyrstu línu staðsetningarleiðbeiningarinnar, óháð öðrum takmörkunum sem eru búnar til í línunum.</p> |
+Töflurnar í eftirfarandi undirköflum sýna sameiginlega reiti og sérreit verkbeiðnigerðar sem eru í boði þegar staðsetningarleiðbeining er sett upp.
 
-1. Valfrjálst: Á aðgerðasvæðinu skal velja **Breyta fyrirspurn** til að velja staði eða tilgreina allar takmarkanir sem gilda þegar þú velur ákveðna staðsetningarleiðbeiningu.
-1. Í flýtiflipanum **Línur** skal stofna eina eða fleiri línur til að tilgreina einingar og til að finna eða taka frá magn í vöruhúsi.
-1. Fyrir allar nýjar línur skal stilla reitina eins og lýst er í eftirfarandi töflu.
+### <a name="fields-that-are-common-to-all-work-order-types"></a>Reitir sem eru sameiginlegir öllum verkbeiðnigerðum
 
-    | Svæði | lýsing |
-    |---|---|
-    | Raðnúmer | Færið inn heiltölu sem gefur til kynna hvar í röðinni staðsetningarleiðbeiningin er. Hvar í röðinni segir til um hvenær unnið er úr hverri staðsetningarleiðbeiningu fyrir sig fyrir valda vinnugerð. |
-    | Frá-magn | Tilgreinið neðri mörk magnbilsins þegar á að velja röðina í miðjunni á hnitanetinu. Tilgreinið magnið í mælieiningunni sem er valin í reitnum **Eining**. |
-    | Til magn | Tilgreinið efri mörk magnbilsins þegar á að velja röðina í miðjunni á hnitanetinu. Tilgreinið magnið í mælieiningunni sem er valin í reitnum **Eining**. |
-    | Eining | Velja mælieiningu fyrir vörurnar.<p>Hægt er að tilgreina lágmarksmagn og hámarksmagn sem á að gilda fyrir leiðbeininguna. Einnig er hægt að tilgreina að nota eigi leiðbeininguna fyrir tiltekna birgðaeiningu. Reiturinn **Eining** er aðeins notaður fyrir magnáætlun.</p><p>Til að ákvarða hvort lína staðsetningarleiðbeiningar eigi við, mun kerfið meta magn með því að nota gildið **Eining** sem er tekið fram í línunni. Í hvert sinn sem farið er í línu staðsetningarleiðbeiningar mun kerfið reyna að umbreyta eftirspurnareiningunni í einingu sem er tilgreind í línunni. Ef umreikningur eininga er ekki til staðar, fer kerfið yfir í næstu línu.</p> |
-    | Finna magn | Þessi reitur gildir aðeins þegar reynt er að ganga frá eða finna magn í vöruhúsinu. Með öðrum orðum gildir hann aðeins fyrir *Frágangsvinnu*. Veljið aðferðina sem er notuð til að meta hvort magnið er innan marka sem stillt er í reitunum **Frá magn** og **Til magn**. Ef staðsetningarleiðbeiningin er fyrir færslu á innleið skal velja einn af eftirfarandi valkostum:<ul><li>**Magn númeraplötu** ─ Til að meta hvort magn sé innan bilsins sem sóst er eftir, skal nota magnið í númeraplötunni sem verið er að taka á móti.</li><li>**Einingamælt magn** ─ Til að meta hvort magn sé innan bilsins sem sóst er eftir, skal nota magnið sem verið er að einingamæla við flutninginn. Til dæmis, í vöruhúsi, ef hægt er að taka á móti magni sem nemur 1000 og skipta því niður á 10 númeraplötur, sem hver fyrir sig er með magn sem nemur 100, er hægt að nota magn sem nemur 1000 vörum í stað númeraplötumagns upp á 100.</li><li>**Eftirstöðvar magns** ─ Til að meta hvort magn sé innan bilsins sem sóst er eftir, skal nota magnið sem á eftir að taka á móti í innkaupapöntunarlínunni sem er verið að athuga.</li><li>**Væntanlegt magn** ─ Til að meta hvort magn sé innan bilsins sem sóst er eftir, skal nota heildarmagnið í innkaupapöntunarlínunni, óháð magninu sem er þegar verið að taka á móti.</li></ul> |
+Í eftirfarandi töflu er listi yfir þá reiti sem eru sameiginlegir öllum verkbeiðnigerðum.
 
-1. Valfrjálst: Í flýtiflipanum **Línur** er hægt að stilla eftirfarandi viðbótarreiti.
+| Flýtiflipi | Svæði |
+|---|---|
+| Staðsetningarleiðbeiningar | Vinnugerð |
+| Staðsetningarleiðbeiningar | Vefsvæði |
+| Staðsetningarleiðbeiningar | Vöruhús |
+| Staðsetningarleiðbeiningar | Leiðbeiningarkóði |
+| Staðsetningarleiðbeiningar | Margar birgðahaldseiningar |
+| Línur | Raðnúmer |
+| Línur | Frá-magn |
+| Línur | Til magn |
+| Línur | Eining |
+| Línur | Finna magn |
+| Línur | Takmarka eftir einingu |
+| Línur | Slétta upp í einingu |
+| Línur | Staðsetja umbúðamagn |
+| Línur | Leyfa að skipta |
+| Aðgerðir í staðsetningarleiðbeiningum | Raðnúmer |
+| Aðgerðir í staðsetningarleiðbeiningum | Nafn |
+| Aðgerðir í staðsetningarleiðbeiningum | Notkun fastrar staðsetningar |
+| Aðgerðir í staðsetningarleiðbeiningum | Heimila neikvæðar birgðir |
+| Aðgerðir í staðsetningarleiðbeiningum | Runa virk |
+| Aðgerðir í staðsetningarleiðbeiningum | Stjórnunarstefna |
 
-    | Svæði | lýsing |
-    |---|---|
-    | Takmarka eftir einingu | Veljið þennan gátreit til að takmarka mælieiningar sem teljast gild valskilyrði fyrir línur staðsetningarleiðbeiningar. Þegar mælieiningar hafa verið tilgreindar, verða aðeins vörur, þar sem einingin samsvarar a.m.k. einni einingu sem er skilgreind fyrir röðunarflokk einingar, taldar gildar fyrir línuvalið.<p>Til dæmis takmarkast einingin við bretti og varan tengist röðunarflokk einingar sem inniheldur eininguna *bretti*. Í þessu tilviki verður litið á vörurnar sem gildan valkost fyrir staðsetningarleiðbeininguna.</p><p>Hins vegar stjórnar gátreiturinn **Takmarka eftir einingu** ekki einingunni eða einingunum sem eru notaðar í vinnulínum. Takmörkun einingar gildir aðeins um einingarnar sem eru gerðar tiltækar í gegnum röðunarflokk einingarinnar.</p><p>Til dæmis tengist vara röðunarflokki einingar sem inniheldur báðar einingarnar *bretti* og *stk*. Mælieining hefur verið skilgreind þar sem 1 bretti = 100 stk, og staðsetningarleiðbeiningin notar virknina **Takmarka eftir einingu** aðeins fyrir bretti. Ennfremur hefur vinnusniðmát verið skilgreint sem takmarkar stofnun vinnuhauss við 50 stk. Í slíku tilfelli verða vinnulínur með 50 stk. stofnaðar.</p><p>Til að tilgreina mælieiningu fyrir takmarkanir skal fylgja þessum skrefum</p><ol><li>Í flýtiflipanum **Línur** skal velja **Takmarka eftir einingu**. Þessi hnappur verður aðeins tiltækur eftir að gátreiturinn **Takmarka eftir einingu** er valinn í línunni og síðan velja **Vista**.</li><li>Í reitnum **Eining** skal velja mælieininguna til að takmarka eftir fyrir tiltektar- og frágangsferlin.</li></ol> |
-    | Slétta upp í einingu | Veljið þennan valkost til að tilgreina hvort tiltekt á hráefni eigi að vera sléttuð upp í heila afgreiðslueiningu sem er tilgreind í reitnum **Takmarka eftir einingu**. Þetta reitur á aðeins við um tiltekt á hráefni og staðsetningarleiðbeiningar af gerðinni *Tiltekt*. |
-    | Staðsetja umbúðamagn | Veljið þennan gátreit ef magn umbúðaeiningar er tilgreint á síðunni **Sölupöntun**. Ef þessi gátreitur er valinn, eru aðeins staðsetningarnar sem eru með þetta magn umbúðaeiningar valdar. |
-    | Leyfa að skipta | Veljið þennan gátreit til að skipta magninu á mörgum stöðum. |
-    | Sniðmát fyrir tafarlausa áfyllingu | Stofnið tengingu við áfyllingarsniðmát þannig að áfylling hefjist strax ef vörum er ekki úthlutað. Ef reiturinn er skilinn eftir auður, hefst vöruáfylling ekki fyrr en unnið hefur verið úr öllum línum staðsetningarleiðbeiningarinnar.<p>Þetta reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð, eins og *Sölupantanir* og *Tiltekt hráefnis*.</p> |
+### <a name="fields-that-are-specific-to-work-order-types"></a><a name="fields-specific-types"></a>Reitir sem eru sértækir fyrir verkbeiðnigerðir
 
-1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Ný** til að velja staðsetninguna eða staðsetningarbil.
-1. Reiturinn **Raðnúmer** sýnir röðina sem unnið verður úr staðsetningarleiðbeiningunni fyrir valda vinnugerð. Hægt er að breyta röðinni. Hins vegar skal fara varlega með raðnúmer fyrir aðgerðir í staðsetningarleiðbeiningum, því að aðgerðir í staðsetningarleiðbeiningum keyra alltaf í þessari röð.
-1. Í reitinn **Heiti** skal slá inn heiti á aðgerð staðsetningarleiðbeiningar. Verið nákvæm svo það sé á hreinu hver aðgerðin er.
-1. Valfrjálst: Smellið á **Breyta fyrirspurn** til að breyta staðsetningum vöruhúss og öðrum skilyrðum.
-1. Valfrjálst: Hægt er að stilla eftirfarandi viðbótarreiti fyrir staðsetningarleiðbeiningu.
+Í eftirfarandi töflu er listi yfir þá reiti sem tilheyra ákveðnum verkbeiðnigerðum.
 
-    | Svæði | lýsing |
-    |---|---|
-    | Notkun fastrar staðsetningar | Veljið hvaða staðsetningar staðsetningarleiðbeiningin á að taka til greina:<ul><li>**Fastar og lausar staðsetningar** - staðsetningarleiðbeiningin tekur tillit til allra staðsetninga.</li><li>**Aðeins fastar staðsetningar fyrir afurðina** - staðsetningarleiðbeiningin tekur aðeins tillit til fastra staðsetninga fyrir afurðir.</li><li>**Aðeins fastar staðsetningar fyrir afurðarafbrigðið** - staðsetningarleiðbeiningin tekur aðeins tillit til fastra staðsetninga fyrir afurðarafbrigði.</li></ul> |
-    | Heimila neikvæðar birgðir | Veljið þennan gátreit til að heimila neikvæðar birgðir á staðsetningu tilgreint vöruhús. |
-    | Runa virk | Veljið þennan gátreit til að nota runuvinnslustefnu fyrir vörur sem nota runur. Ef þessi gátreitur er valinn og reiturinn **Stefna** er stilltur á *Engin* fer kerfið yfir í næstu aðgerðarlínuna. |
-    | Stjórnunarstefna | Veljið stefnuna sem staðsetningarleiðbeiningin á að nota:<ul><li>**Engin** – Engin stefna verður notuð.</li><li>**Jafna umbúðamagn** - Þessi aðferð athugar hvort staðsetning tiltektar hafi tilgreint umbúðamagn. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Tiltekt*.</li><li>**Sameina** - Þessi aðferð sameinar vörur í tiltekinni staðsetningu þegar líkar vörur eru þegar fyrir hendi. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Frágangur*. Í dæmigerðri uppsetningu fyrir frágang reynir kerfið að sameina fyrstu aðgerðarlínuna og síðan í annarri aðgerðarlínunni reynir það að ganga frá án sameiningar. Sameining á vörum gerir seinni tiltektir skilvirkari.</li><li>**Frátekt á FEFO-runu** - Þessi aðferð er notuð þegar birgðir eru staðsettar með lokadag runu og er úthlutað fyrir frátekningu á runu. Fyrst útrunnið - fyrst út (FEFO) frátektaraðferðin er einnig notuð þegar birgðir eru staðsettar með því að nota fyrningardagsetningu runu til viðbótar við lokadagsetningu. Aðeins er hægt að nota þessa aðferð fyrir vörur sem nota runu. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Tiltekt*. Þegar þessi aðferð er valin er öllum röðunum fyrirspurna fyrir rununúmer hnekkt sem eru notuð.</li><li>**Slétta upp í heila númeraplötu** - Þessi aðferð sléttar upp birgðamagnið þannig að það samsvari númeraplötumagninu sem er úthlutað á vörurnar sem þarf að taka til. Aðeins er hægt að nota þessa aðferð fyrir áfyllingargerð staðsetningarleiðbeininga og aðeins þegar reiturinn **Vinnugerð** er stilltur á *Tiltekt*.</li><li>**Tóm staðsetning með engin verk á innleið** - Þessi aðferð er notuð til að finna tómar staðsetningar. Staðsetning er talin tóm ef hún hefur engar efnislegar birgðir og enga væntanlega vinnu á innleið. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Frágangur*.</li></ul> |
+| Flýtiflipi | Svæði | Gerð verkbeiðni |
+|---|---|---|
+| Staðsetningarleiðbeiningar | Staðsetja eftir | Innkaupapantanir |
+| Staðsetningarleiðbeiningar | Gildandi ráðstöfunarkóði | Innkaupapantanir |
+| Staðsetningarleiðbeiningar | Ráðstöfunarkóði | Innkaupapantanir |
+| Staðsetningarleiðbeiningar | Gildandi ráðstöfunarkóði | Frágangur á fullunnum vörum |
+| Staðsetningarleiðbeiningar | Ráðstöfunarkóði | Frágangur á fullunnum vörum |
+| Staðsetningarleiðbeiningar | Gildandi ráðstöfunarkóði | Skilapantanir |
+| Staðsetningarleiðbeiningar | Ráðstöfunarkóði | Skilapantanir |
+| Staðsetningarleiðbeiningar | Gildandi ráðstöfunarkóði | Kanban-frágangur |
+| Staðsetningarleiðbeiningar | Gildandi ráðstöfunarkóði | Kanban-tiltekt |
+| Línur | Sniðmát fyrir tafarlausa áfyllingu | Sölupantanir |
+| Línur | Sniðmát fyrir tafarlausa áfyllingu | Tiltekt hráefnis |
+| Línur | Sniðmát fyrir tafarlausa áfyllingu | Flutningsútgáfa |
+| Línur | Sniðmát fyrir tafarlausa áfyllingu | Kanban-tiltekt |
 
-## <a name="example-of-the-use-of-location-directives"></a>Dæmi um notkun staðsetningarleiðbeiningar
+## <a name="open-the-location-directives-page"></a>Opna síðu staðsetningarleiðbeininga
+
+Til að opna síðuna **Staðsetningarleiðbeiningar** er farið í **Vöruhúsakerfi \> Uppsetning \> Staðsetningarleiðbeiningar**.
+
+Þaðan er hægt að skoða, búa til og breyta staðsetningarleiðbeiningum með því að nota skipanirnar á aðgerðasvæði. Í eftirstandandi hlutum í þessu efnisatriði er að finna upplýsingar um hvernig á að nota alla reitina sem eru í boði á síðunni.
+
+## <a name="action-pane"></a>Aðgerðasvæði
+
+Aðgerðasvæðið á síðunni **Staðsetningarleiðbeiningar** inniheldur hnappa sem hægt er að nota til að búa til, breyta og eyða leiðbeiningum (**Breyta**, **Ný** og **Eyða**). Þar er einnig að finna eftirfarandi hnappa sem gera þér kleift að stilla röðina sem staðsetningarleiðbeiningin er unnin í og skilgreina fyrirspurn sem skilgreinir skilyrðin fyrir því að nota staðsetningarleiðbeininguna:
+
+- **Færa upp** – Færið völdu staðsetningarleiðbeininguna upp í röðinni. Til dæmis er hægt að færa hana úr raðnúmeri 4 í raðnúmer 3.
+- **Færa niður** – Færið völdu staðsetningarleiðbeininguna niður í röðinni. Til dæmis er hægt að færa hana úr raðnúmeri 4 í raðnúmer 5.
+- **Breyta fyrirspurn** – Opnið svarglugga þar sem hægt er að skilgreina skilyrðin sem valin staðsetningarleiðbeining á að vera unnin undir. Til dæmis er hægt að nota hana eingöngu í ákveðnu vöruhúsi.
+
+## <a name="location-directives-header"></a>Haus staðsetningarleiðbeininga
+
+Haus staðsetningarleiðbeiningar inniheldur eftirfarandi reiti fyrir raðnúmer og lýsandi heiti staðsetningarleiðbeiningarinnar:
+
+- **Raðnúmer** – Þessi reitur bendir til þess að kerfið reyni að nota hverja staðsetningarleiðbeiningu í fyrir valda verkbeiðnigerð. Lágar tölur eru fyrst notaðar. Hægt er að breyta röðinni með því að nota hnappinn **Færa upp** og **Færa niður** á aðgerðasvæðinu.
+- **Heiti** - Færið inn lýsandi heiti á staðsetningarleiðbeiningunni. Þetta heiti ætti að hjálpa til við að greina almennan tilgang tilskipunarinnar. Sláið til dæmis inn *Tiltekt sölupöntunar í vöruhús 24*.
+
+## <a name="location-directives-fasttab"></a>Flýtiflipi staðsetningarleiðbeininga
+
+Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyrir verkbeiðnigerðina sem er valin í reitnum **Verkbeiðnigerð** í listasvæðinu.
+
+- **Verkgerð** - Veljið gerð verks sem á að framkvæma. Tiltæk gildi fara eftir gerð birgðafærslu sem valin er í reitnum **Gerð verkbeiðni**. Veljið eitt af eftirfarandi gildum:
+
+    - **Frágangur** – Staðsetningarleiðbeiningin reynir að finna ákjósanlegustu staðsetninguna til að ganga frá eða finna birgðir sem koma inn í kerfið við móttöku, framleiðslu eða leiðréttingu birgða. Hana er einnig hægt að nota til að skilgreina frágang á geymslustað eða útskot fyrir endanlegan afhendingarstað.
+    - **Tiltekt** – Staðsetningarleiðbeiningin reynir að finna ákjósanlegustu staðsetningarnar til að taka frá efnislegar birgðir (þ.e. stofna vinnu). Hægt er að ljúka tiltekt (þ.e. hægt er að losa vinnulínu tiltektar), jafnvel þótt vinnunni sé ekki lokið. Notandinn getur lokið efnislegri tiltekt. Í kerfinu er þessi aðgerð tiltektarskref. Notandinn getur síðan hætt við í fartæki og lokið verkinu síðar. Hins vegar er vinnuhausnum fyrst lokað þegar lokafrágangi er lokið.
+
+    > [!IMPORTANT]
+    > Önnur gildi í reitnum **Verkgerð** eiga ekki við fyrir staðsetningarleiðbeiningar. Þau birtast aðeins vegna þess að reiturinn er ekki síaður til að passa við valda verkbeiðnigerð.
+
+- **Svæði** – Þessi reitur er áskilinn vegna þess að staðsetningarleiðbeiningin þarf að geta ákvarðað svæðið og vöruhúsið sem það gildir um.
+- **Vöruhús** – Þessi reitur er áskilinn vegna þess að staðsetningarleiðbeiningin þarf að geta ákvarðað svæðið og vöruhúsið sem það gildir um.
+- **Leiðbeiningarkóði** - Veljið kóða leiðbeiningarkóðann til að tengja við vinnusniðmát eða áfyllingarsniðmát. Á síðunni **Leiðbeiningarkóði** er hægt að stofna nýja kóða sem má nota til að tengja vinnusniðmát eða áfyllingarsniðmát við staðsetningarleiðbeiningar. Leiðbeiningarkóða er einnig hægt að nota til að koma á tengingu milli hvaða vinnusniðmátslínu sem er og staðsetningarleiðbeiningar (t.d. útskot eða geymslustað).
+
+    > [!TIP]
+    > Ef leiðbeiningarkóði er stilltur leitar kerfið ekki í staðsetningarleiðbeiningum eftir raðnúmeri þegar búa þarf til vinnu. Þess í stað leitar það eftir leiðbeiningarkóða. Á þennan hátt er hægt að vera nákvæmari í sniðmáti staðsetningar sem er notað fyrir tiltekið skref í vinnusniðmáti, eins og skrefið fyrir geymslu á efni.
+
+- **Margar birgðahaldseiningar** – Stillið þennan valkost á *Já* til að virkja margar birgðaeiningar sem á að nota á staðsetningu. Til dæmis verður að virkja margar birgðahaldseiningar fyrir staðsetningu útskots. Ef margar birgðahaldseiningar eru virkjaðar verður frágangsstaðsetningin tilgreind í vinnu eins og ætlast er til. Hins vegar getur frágangsstaðsetningin aðeins höndlað frágang á mörgum vörum (ef vinna felur í sér mismunandi birgðahaldseiningar sem þarf að taka til og ganga frá). Hún getur ekki höndlað frágang á einni birgðahaldseiningu. Ef þessi valkostur er stilltur á *Nei* verður frágangsstaðsetningin aðeins tilgreind ef frágangurinn er með aðeins eina birgðahaldseiningu.
+
+    > [!IMPORTANT]
+    > Til að geta notað bæði frágang á mörgum vörum og einni birgðahaldseiningu þarf að tilgreina tvær línur sem eru með sama skipulag og uppsetningu, en stilla þarf valkostinn **Margar birgðahaldseiningar** á *Já* fyrir eina línu og *Nei* fyrir hinar. Þar af leiðandi þarf fyrir frágangsaðgerðir að hafa tvær eins staðsetningarleiðbeiningar, jafnvel þótt ekki þurfi að greina á milli einnar birgðahaldseiningar og margra birgðahaldseininga á verkkenni. Ef báðar þessar staðsetningarleiðbeiningar eru ekki settar upp birtast oft óvæntar staðsetningar viðskiptaferla frá notaðri staðsetningarleiðbeiningu. Nota þarf sams konar uppsetningu fyrir staðsetningarleiðbeiningar sem eru með **Verkgerðina** *tiltekt* ef þarf að vinna úr pöntunum sem innihalda margar birgðahaldseiningar.
+
+    Nota skal valkostinn **Margar birgðahaldseiningar** fyrir vinnulínur sem fást við fleiri en eitt vörunúmer. (Vörunúmerið verður autt í vinnulýsingunni og það verður sýnt sem **Mörg** á vinnslusíðunum í vöruhúsi forritsins.)
+
+    Í dæmigerðu sýnidæmi er vinnusniðmát sett upp þannig að það er með fleiri en eitt par af tiltekt/frágangi. Í þessu tilviki gæti verið gott að leita að tiltekinni geymslustaðsetningu til að nota fyrir línurnar með **Verkgerðina** *Frágangur*.
+
+    > [!NOTE]
+    > Ef valkosturinn **Margar birgðahaldseiningar** er stilltur á *Já* er ekki hægt að velja **Breyta fyrirspurn** í aðgerðasvæðinu vegna þess að ekki er hægt að meta fyrirspurnina á stigi vörunnar þegar margar vörur eru til staðar. Til að tryggja að æskileg staðsetningarleiðbeining sé valin skal nota reitinn **Leiðbeiningarkóði** til að leiðbeina um val á staðsetningarleiðbeiningu sem tengist frágangslínum þar sem þessum leiðbeiningarkóða er úthlutað í vinnusniðmátinu.
+
+    Nema alltaf sé unnið með annaðhvort aðgerð einnar vöru eða blandaðrar vöru, er mikilvægt að skilgreina tvær staðsetningarleiðbeiningar fyrir verkgerðina *Frágangur*: eina þar sem valkosturinn **Margar birgðahaldseiningar** er stilltur á *Já* og eina þar sem hann er stilltur á *Nei*.
+
+- **Viðeigandi ráðstöfunarkóði** - Tilgreinið ef ráðstöfunarkóði staðsetningarleiðbeiningar þarf að samræmast ráðstöfunarkóðanum sem er notaður þegar varan er móttekin eða hvort hægt er að velja staðsetningarleiðbeininguna út frá hvaða ráðstöfunarkóða sem er. Ef valið er *Nákvæmt samræmi* og reitur fyrir **ráðstöfunarkóða** er auður, koma aðeins auðir ráðstöfunarkóðar til greina fyrir þessa staðsetningartilskipun.
+
+    > [!NOTE]
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types) fyrr í þessu efnisatriði.
+
+- **Staðsetja eftir** - Tilgreinið hvort frágangsmagnið eigi að vera allt magnið í númeraplötunni eða hvort það eigi að vera vöru eftir vöru. Nota skal þennan reit til að tryggja að allt innihaldið á númeraplötu sé sett á eina staðsetningu og að kerfið leggi ekki til að skipt verði upp innihaldinu á nokkrar staðsetningar fyrir **ASN** (móttaka númeraplötu), móttaka **Blandaðrar númeraplötu** og móttökuferli **Klasa**. (Móttökuferli **Klasa** krefst þess að kveikt verði á eiginleikanum *Klasafrágangur*.) Hegðun fyrirspurnar staðsetningarleiðbeiningar, línanna og aðgerðir staðsetningarleiðbeiningar verða mismunandi, eftir því hvaða gildi er valið. Flýtiflipinn **Línur** er aðeins notaður þegar **Staðsetja eftir** er stilltur á *Vara*.
+
+    > [!NOTE]
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).
+
+- **Ráðstöfunarkóði** - Þessi reitur er notaður fyrir staðsetningarleiðbeiningar sem eru með verkbeiðnigerðina *Innkaupapantanir*, *Frágangur fullbúinnar vöru* eða *Skilapantanir* og verkgerðina *Frágangur*. Notið hann til að leiðbeina flæðinu til að nota tiltekna staðsetningarleiðbeiningu, allt eftir ráðstöfunarkóðanum sem starfskraftur valdi í vöruhúsaforriti. Til dæmis er hægt að beina skilavörum á eftirlitsstað áður en þeim er skilað í birgðir. Hægt er að tengja ráðstöfunarkóða við birgðastöðu. Á þennan hátt er hægt að nota hann til að breyta birgðastöðu sem hluta af móttökuferli. Þú getur til dæmis verið með ráðstöfunarkóða *QA* sem stillir birgðastöðuna á *QA*. Síðan er hægt að hafa sérstaka staðsetningarleiðbeiningu til að flytja birgðirnar á birgðageymslustaðsetningu.
+
+    > [!NOTE]
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).
+
+## <a name="lines-fasttab"></a>Flýtiflipinn Línur
+
+Nota skal flýtiflipann **Línur** til að setja á skilyrði við að nota tengdar aðgerðir sem eru tilgreindar í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum**. Fyrir hverja línu er hægt að tilgreina lágmarksmagn og hámarksmagn sem aðgerðirnar eiga að eiga við um. Einnig er hægt að tilgreina að aðgerðirnar eigi að eiga við um tiltekna birgðaeiningu.
+
+- **Raðnúmer** - Sláið inn röðina sem vinna skal hverja línu staðsetningarleiðbeiningar í fyrir valda verkgerð. Hægt er að breyta röðinni eins og þörf er á með því að nota hnappana **Færa upp** og **Færa niður** á tækjastikunni.
+- **Frá magn** – Tilgreinið upphaf magnbilsins sem línan á við um. Tilgreinið magnið í mælieiningunni sem er valin í reitnum **Eining**.
+- **Til magn** – Tilgreinið lok magnbilsins sem línan á við um. Tilgreinið magnið í mælieiningunni sem er valin í reitnum **Eining**.
+- **Eining** - Velja mælieiningu fyrir vörurnar. Hægt er að tilgreina lágmarksmagn og hámarksmagnið sem á við leiðbeiningarnar eiga að gilda um, og hægt er að tilgreina að leiðbeiningarnar eigi að vera fyrir tiltekna birgðaeiningu. Reiturinn **Eining** er *aðeins* notaður fyrir magnáætlun. Til að ákvarða hvort lína staðsetningarleiðbeiningar eigi við allt notar kerfið magnið í einingunni sem er tilgreind í þeirri línu. Í hvert sinn það nær í línu staðsetningarleiðbeiningar mun kerfið reyna að umbreyta eftirspurnareiningunni í einingu sem er tilgreind í línunni. Ef umreikningur mælieiningar er ekki til staðar, fer kerfið yfir í næstu línu.
+- **Staðsetja magn** – Þessi reitur er aðeins notaður þegar reynt er að ganga frá eða staðsetja vörur í vöruhúsinu. (Þess vegna á hann aðeins við þegar reiturinn **Verkgerð** er stilltur á *Frágangur*). Velja skal eitt af eftirfarandi gildum til að tilgreina magnið sem er notað til að meta hvort magn sé innan bilsins **Frá magn** og **Til magn**:
+
+    - **Magn númeraplötu** ─ Notið magnið í númeraplötunni sem verið er að taka á móti.
+    - **Einingamælt magn** – Notið magnið sem er notað við færsluna. Til dæmis ef tekið er á móti magni upp á 1.000 í vöruhúsi og því er skipt niður á 10 númeraplötur, hver þeirra er með magn upp á 100. Í þessu tilviki er hægt að nota magn upp á 1.000 vörur í staðinn fyrir númeraplötumagn upp á 100.
+    - **Eftirstandandi magn** – Notið magnið sem þarf samt að taka á móti í innkaupapöntunarlínunni sem verið er að vinna úr.
+    - **Væntanlegt magn** - Notið heildarmagn innkaupapöntunarlínunnar, burtséð frá því hvað hefur þegar verið móttekið.
+
+- **Takmarka eftir einingu** – Þessi gátreitur gerir kleift að láta línu staðsetningarleiðbeiningar eiga við um mælieiningu eða margar mælieiningar. Veljið hann til að takmarka mælieiningar sem teljast gild valskilyrði fyrir línur staðsetningarleiðbeiningar. Þessi virkni virkar aðeins fyrir staðsetningarleiðbeiningar þar sem reiturinn **Verkgerð** er stilltur á *Tiltekt*.
+
+    Til dæmis þegar magn er tekið frá, viltu aðeins taka frá bretti úr tilteknum staðsetningum. Í þessu tilviki munu línurnar takmarka þá röð við bretti á þann hátt að í hvert skipti sem eitthvert magn er minna eitt brett, verður það ekki valið fyrir staðsetningarleiðbeininguna.
+
+    Athugið að gátreiturinn **Takmarka eftir einingu** stjórnar ekki einingunni eða einingunum sem eru notaðar í vinnulínum. Takmörkun einingar gildir aðeins um einingarnar sem eru gerðar tiltækar í gegnum röðunarflokk einingarinnar. Til dæmis tengist vara röðunarflokki einingar sem inniheldur báðar einingarnar *bretti* og *stk*. Mælieining hefur verið skilgreind þar sem 1 bretti = 100 stk, og staðsetningarleiðbeiningin notar virknina **Takmarka eftir einingu** aðeins fyrir bretti. Ennfremur hefur vinnusniðmát verið skilgreint sem takmarkar stofnun vinnuhauss við 50 stk. Í slíku tilfelli verða vinnulínur með 50 stk. stofnaðar. Til að tilgreina mælieiningu fyrir takmarkanir skal fylgja þessum skrefum:
+
+    1. Í flýtiflipanum **Línur** skal velja **Takmarka eftir einingu** á tækjastiku. (Þessi hnappur verður aðeins tiltækur eftir að gátreiturinn **Takmarka eftir einingu** er valinn í línunni og síðan velja **Vista**.)
+    1. Á síðunni **Takmarka eftir einingum**, í reitnum **Eining**, skal velja mælieininguna sem á að takmarka eftir fyrir ferli tiltektar og frágangs.
+
+- **Námunda upp að einingu** - Þessi reitur vinnur með gátreitinn **Takmarka eftir einingu**. Ef til dæmis **Takmarka eftir einingu** og **Námunda upp að einingu** eru valin í línu staðsetningarleiðbeiningar, ætti verkið sem búið er til úr leiðbeiningunni fyrir tiltekt hráefnis að vera námunduð upp í eina af afgreiðslueiningunum sem eru tilgreindar á síðunni **Takmarka eftir einingu**.
+
+    > [!NOTE]
+    > Þessi **Námunda upp að einingu** uppsetning virkar aðeins fyrir verkbeiðnigerðina *Tiltekt hráefnis* og aðeins fyrir staðsetningarleiðbeiningar þar sem reiturinn **Verkgerð** er stilltur á *Tiltekt*.
+
+- **Staðsetja umbúðamagn** - Ef gefið er upp umbúðamagn á sölupöntun, flutningspöntun eða framleiðslupöntun gerir þessi gátreitur þér kleift að takmarka kerfið þannig að það geti valið aðeins staðsetningar sem eru með a.m.k. þetta umbúðamagn.
+
+    > [!NOTE]
+    > Þessi virkni virkar aðeins með staðsetningarleiðbeiningum af gerðinni *Tiltekt*.
+
+- **Leyfa að skipta** - Tilgreinið hvort staðsetningarleiðbeiningin geti skipt upp magninu sem tekið er á móti eða tekið frá yfir margar vöruhúsastaðsetningar, eða hvort staðsetja verði heildarmagnið í eina staðsetningu eða tekið frá úr einni staðsetningu til að búa til vinnu.
+- **Sniðmát tafarlausrar áfyllingar** - Notið þennan reit til að stofna tengingu við áfyllingarsniðmát þannig að áfylling hefjist strax ef vörum er ekki úthlutað. Ef reiturinn er skilinn eftir auður, hefst vöruáfylling ekki fyrr en unnið hefur verið úr öllum línum staðsetningarleiðbeiningarinnar.
+
+    > [!NOTE]
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).
+
+## <a name="location-directive-actions-fasttab"></a>Flýtiflipi fyrir aðgerðir staðsetningarleiðbeininga
+
+Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir hverja línu. Einu sinni enn, númeraröð er notuð til að ákvarða röðun sem aðgerðir eru metnar í. Á þessu stigi er hægt að setja upp fyrirspurn til að skilgreina hvernig á að finna bestu staðsetningu í vöruhúsinu. Einnig er hægt að nota forskilgreint gildi fyrir **Stjórnunarstefnu** til að finna ákjósanlega staðsetningu.
+
+- **Raðnúmer** - Þessi reitur sýnir röðina sem aðgerðirnar verða unnar í fyrir valda verkgerð. Hægt er að breyta röðinni með því að nota hnappinn **Færa upp** og **Færa niður** á tækjastikunni.
+- **Heiti** - Sláið inn heiti á aðgerð staðsetningarleiðbeiningar. Veljið skýrt heiti svo aðgerðin sem á að framkvæma er greinileg út frá heitinu.
+- **Notkun fastrar staðsetningar** - Tilgreinið hvaða staðsetningar staðsetningarleiðbeiningin á að taka til greina: Veljið eitt af eftirfarandi gildum:
+
+    - **Fastar og lausar staðsetningar** - staðsetningarleiðbeiningin tekur tillit til allra staðsetninga.
+    - **Aðeins fastar staðsetningar fyrir afurðina** - staðsetningarleiðbeiningin tekur aðeins tillit til fastra staðsetninga fyrir afurðir.
+    - **Aðeins fastar staðsetningar fyrir afurðarafbrigðið** - staðsetningarleiðbeiningin tekur aðeins tillit til fastra staðsetninga fyrir afurðarafbrigði.
+
+- **Heimila neikvæðar birgðir** - Veljið þennan gátreit til að heimila neikvæðar birgðir á staðsetningu tilgreinds vöruhúss í staðsetningarleiðbeiningum.
+- **Runa virk** - Veljið þennan gátreit til að nota runuvinnslustefnu fyrir vörur sem nota runur. Mikilvægt er að velja þennan gátreit fyrir ferli sem nota staðsetningarleiðbeiningar til að finna staðsetningar til að sækja runuraktar vörur úr. Á þennan hátt er leit að staðsetningum sem geyma runuraktar vörur hafðar með. Ef þessi gátreitur er valinn og reiturinn **Stefna** er stilltur á *Engin* fer kerfið yfir í næstu aðgerðarlínuna.
+- **Stefna** – Til að skilgreina aðgerðir á auðveldari og fljótlegri hátt sem tengjast hverri línu staðsetningarleiðbeiningar, er hægt að velja eina af eftirfarandi forskilgreindum stefnum:
+
+    - **Engin** – Engin stefna verður notuð.
+    - **Jafna umbúðamagn** - Þessi aðferð athugar hvort staðsetning tiltektar hafi tilgreint umbúðamagn. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Tiltekt*.
+    - **Sameina** - Þessi aðferð sameinar vörur í tiltekinni staðsetningu þegar líkar vörur eru þegar fyrir hendi. Þessi aðferð gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Frágangur*. Í dæmigerðri uppsetningu fyrir frágang er reynt að sameina fyrstu aðgerðarlínuna og síðan í annarri línunni er reynt að ganga frá án sameiningar. Sameining á vörum gerir seinni tiltektir skilvirkari.
+    - **Frátekt á FEFO-runu** – Þessi stefna notar runufrátekningarnar fyrst útrunnið, fyrstu út (FEFO). Nota skal þetta þegar birgðir eru staðsettar með lokadag runu og er úthlutað fyrir frátekningu á runu. Aðeins er hægt að nota þessa aðferð fyrir vörur sem nota runu. Hún gildir aðeins þegar reiturinn **Vinnugerð** er stilltur á *Tiltekt*.
+    - **Námunda upp í heila númeraplötu og FEFO-runu** – Þessi stefna sameinar einingar fyrir stefnurnar *Frátekt á FEFO-runu* og *Námunda upp í heila númeraplötu*. Hún gildir aðeins fyrir runuvörur og staðsetningarleiðbeiningar sem eru með verkgerðina *Tiltekt*. Línan verður að vera runuvirk til að nota stefnuna *Frátekt á FEFO-runu* og stefnan *Námunda upp í heila númeraplötu* er aðeins hægt að nota fyrir áfyllingu. Ef þessi stefna er skilgreind saman með birgðamörkum staðsetningar, getur hún valdið því að valin staðsetning frágangsvinnu verði ofhlaðin og birgðamörk verði hunsuð.
+    - **Slétta upp í heila númeraplötu** - Þessi aðferð sléttar upp birgðamagnið þannig að það samsvari númeraplötumagninu sem er úthlutað á vörurnar sem þarf að taka til. Aðeins er hægt að nota þessa stefnu fyrir staðsetningarleiðbeiningar áfyllingar af gerðinni *Tiltekt*. Ef þessi stefna er skilgreind saman með birgðamörkum staðsetningar, getur hún valdið því að valin staðsetning frágangsvinnu verði ofhlaðin og birgðamörk verði hunsuð.
+    - **Leitt af númerplötu** - Notið þessa stefnu þegar pöntun er losuð í vöruhúsið til að stofna vinnu tiltektar og frágangs. Hægt er að nota þessa nálgun fyrir margar númeraplötur. Þessi stefna reynir að taka frá og stofna tiltekt fyrir staðsetningarnar sem geyma umbeðnar númeraplötur sem hafa verið tengdar við flutningspöntunarlínurnar. Hins vegar, ef ekki er hægt að ljúka þessum aðgerðum en þú vilt samt stofna tiltekt, ættirðu að fara til baka í aðra stefnu fyrir aðgerðir staðsetningarleiðbeiningar. Það fer eftir kröfum viðskiptaferlisins, en þú gætir einnig vilja leita að birgðum á öðru svæði vöruhússins.
+    - **Tóm staðsetning með engin verk á innleið** - Notið þessa stefnu til að finna tómar staðsetningar. Staðsetning er talin tóm ef hún hefur engar efnislegar birgðir og enga væntanlega vinnu á innleið. Aðeins er hægt að nota þessa stefnu fyrir staðsetningarleiðbeiningar sem eru með verkgerðina *Tiltekt*.
+    - **FIFO aldursgreining staðsetningar** - Notið stefnuna fyrst inn, fyrst út (FIFO) til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir. FIFO-aðferðin finnur staðsetningu sem inniheldur elstu aldursdagsetninguna og hún úthlutar tiltekt eftir þessari aldursdagsetningu.
+    - **LIFO aldursgreining staðsetningar** - Notið stefnuna síðast inn, síðast út (LIFO) til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir. FIFO-aðferðin finnur staðsetningu sem inniheldur nýjustu aldursdagsetninguna og hún úthlutar tiltekt eftir þessari aldursdagsetningu.
+
+## <a name="example-using-location-directives"></a>Dæmi: Staðsetningarleiðbeiningar notaðar
 
 Í þessu dæmi skal íhuga innkaupapöntunarferli þar sem staðsetningarleiðbeiningar verða að finna lausa afkastagetu í vöruhúsi fyrir birgðavara sem hafa einungis verið skráð í móttökusvæðinu. Fyrst þarftu að finna laust pláss innan vöruhússins með því að sameina við fyrirliggjandi lagerbirgðir. Ef sameining er ekki möguleg, þarftu að finna tóma staðsetningu.
 
-Fyrir þessa atburðarás verður þú að skilgreina tvær aðgerðir staðsetningarleiðbeiningar. Fyrsta aðgerð í röðinni verður að nota í **Sameina** stjórnunarstefnu og annar ætti að nota í **Autt staðsetning með engu verki á innleið** stjórnunarstefnu. Nema þú skilgreinir þriðju aðgerð til að meðhöndla aðstæður yfirflæðis eru tvær niðurstöður mögulegar þegar engin afkastageta er í vöruhúsinu: hægt er að stofna vinnu jafnvel þótt engin staðsetningar eru skilgreindar eða ferli verkstofnunar getur mistekist. Niðurstaðan er ákvarðaður með uppsetningu á **staðsetningarleiðbeiningum** síðuna, þar sem hægt er að ákveða hvort að velja **Stöðva vinnu á misheppnuðum staðsetningarleiðbeiningum** valkost fyrir hverja gerð vinnupöntunar.
+Fyrir þessa atburðarás verður þú að skilgreina tvær aðgerðir staðsetningarleiðbeiningar. Fyrsta aðgerð í röðinni verður að nota í *Sameina* stjórnunarstefnu og annar ætti að nota í *Autt staðsetning með engu verki á innleið* stjórnunarstefnu. Nema þú skilgreinir þriðju aðgerð til að meðhöndla aðstæður yfirflæðis eru tvær niðurstöður mögulegar þegar engin afkastageta er í vöruhúsinu: hægt er að stofna vinnu jafnvel þótt engin staðsetningar eru skilgreindar eða ferli verkstofnunar getur mistekist. Niðurstaðan er ákvarðaður með uppsetningu á **staðsetningarleiðbeiningum** síðuna, þar sem hægt er að ákveða hvort að velja **Stöðva vinnu á misheppnuðum staðsetningarleiðbeiningum** valkost fyrir hverja gerð vinnupöntunar.
 
 ## <a name="next-step"></a>Næsta skref
 
 Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tilskipunarkóða með vinnusniðmátskóða fyrir vinnusköpun. Frekari upplýsingar er að finna í [Stýra vöruhúsavinnu með vinnusniðmátum og staðsetningarleiðbeiningum](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
 
-## <a name="technical-information-for-system-admins"></a>Tæknilegar upplýsingar sem eru ætlaðar kerfisstjórum
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-Ef notandi ekki aðgang að síðum sem notaðar eru til að ljúka þessu verki, skal hafa samband við kerfisstjóra og veita upplýsingar sem er sýndar í eftirfarandi töflu.
-
-| Tegund | Skilyrði |
-|---|---|
-| Skilgreiningarlyklar | Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**. Útvíkkið leyfislykillinn **Viðskipti** og veljið síðan skilgreinarlykilinn **Vöruhúsakerfi og flutningsstjórnun**. |
+- Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
+- Hjálparefni: [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)

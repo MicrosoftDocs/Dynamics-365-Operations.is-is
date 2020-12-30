@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897742"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529757"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (14. desember 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Smíði 8.1.2085**
 
@@ -137,11 +139,11 @@ Starfskraftar til vinnu verk þarf eftirfarandi varpanir uppfærðar.
 
 Umbreyting á svæði kyns þarf einnig að uppfæra. Veldu **fn** (virkni) vörpunargerð fyrir Kyn og uppfærðu eftirfarandi vörpunargildi.
 
-| Common Data Service gildi                   | Gildi Finance and Operations                     |
+| Common Data Service gildi                   | Finance and Operations gildi                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Karl                                             |
 | 75440001                    | Kona                                           |
-| 75440002                    | Enginn                                             | 
+| 75440002                    | Engum                                             | 
 | 75440003                    | Ótilgreint                                      |
 
 Uppfærðu varpanirnar ættu að líta út eins og eftirfarandi myndir.

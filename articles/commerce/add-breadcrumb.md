@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055405"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517161"
 ---
 # <a name="breadcrumb-module"></a>Brauðmylsnueining
 
@@ -66,16 +66,16 @@ Brauðmylsnueiningin er háð stillingunni **Birtingargerð brauðmylsnu á uppl
 
 Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nauðsynlega eiginleika skal fylgja þessum skrefum.
 
-1. Farið í **Stillingar svæðis /> Viðbætur** og síðan, fyrir stillinguna **Birtingargerð brauðmylsnu á upplýsingasíðu afurðar** , skal velja **Sýna tegundastigveldi**.
+1. Farið í **Stillingar svæðis \> Viðbætur** og síðan, fyrir stillinguna **Birtingargerð brauðmylsnu á upplýsingasíðu afurðar**, skal velja **Sýna tegundastigveldi**.
 1. Opnið **Sniðmát** og veljið sniðmát upplýsingasíðu afurðar.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
-1. Veldu **Vista** , síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
-1. Farið á **Síður** , og Opnið PDP sem notar PDP-sniðmátið. Ef PDP er ekki til staðar skal stofna eitt.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið ( **...** ) og síðan velja **Bæta við einingu**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Farið á **Síður**, og Opnið PDP sem notar PDP-sniðmátið. Ef PDP er ekki til staðar skal stofna eitt.
+1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
-1. Á eiginleikasvæði hólfsins **Brauðmylsna** , undir **Rót** , skal velja **Texti tengils**.
-1. Í svarglugganum **Texti tengils** skal slá inn **Heim** og síðan, undir **Viðtökustaður tengils** , skal velja **Bæta við tengli**.
+1. Á eiginleikasvæði hólfsins **Brauðmylsna**, undir **Rót**, skal velja **Texti tengils**.
+1. Í svarglugganum **Texti tengils** skal slá inn **Heim** og síðan, undir **Viðtökustaður tengils**, skal velja **Bæta við tengli**.
 1. Í svarglugganum **Bæta við tengli** skal velja tengil fyrir brauðmylsnurótina og síðan velja **Í lagi**.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.

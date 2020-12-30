@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814721"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461565"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Skoða stöðu nýliða og verkefna þinna
 
@@ -33,12 +33,12 @@ Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að skoða framvinduna
 
 1. Á vinstri valmyndinni velurðu **Kynningar**. Þú sérð yfirlit yfir framvinduna fyrir allar þjálfunarleiðbeiningar sem þú hefur sent.
 
-    ![[Skoða stöðu þjálfunarleiðbeininga](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[Skoðun stöðu á nýliðakynningum](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
 2. Veldu kynningun sem þú vilt skoða til að bora niður.
 3. Veldu flipann **Verkþættir** til að sjá hvaða verkþáttum nýliðinn hefur lokið.
 
-    ![[Skoða verkþætti sem nýliðinn hefur lokið](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Skoða aðgerðir sem nýliði hefur lokið](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Skoða starfsþjálfunarverk sem þér hefur verið úthlutað
 

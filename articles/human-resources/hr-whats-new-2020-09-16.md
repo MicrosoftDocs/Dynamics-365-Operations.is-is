@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad8513477c7f9243fa3ee5d99569c048ffada97d
-ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
+ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "3823723"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527435"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (16. september 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3557. Tölurnar í sviga við hliðina á sumum eiginleikum vísa í stuðningsnúmer Lifecycle Services (LCS).
 
@@ -37,7 +39,7 @@ ms.locfileid: "3823723"
 
 - Ef **Takmarka aðgang að upplýsingum starfsmanna** er stillt á „já“ í **Ítarlegri aðgangur** í **Færibreytur Human Resources** sýnir skjámynd fríðinda núna eingöngu viðeigandi starfsmenn (393384).
 
-- Nýr valmöguleiki fyrir myndun dagatals í einingunni **WorkCalendar** (477055).<br>- Sjálfgefinn lokatími<br>- Sjálfgefinn upphafstími<br>- Er föstudagur vinnudagur<br>- Er mánudagur vinnudagur<br>- Er laugardagur vinnudagur<br>- Er sunnudagur vinnudagur<br>- Er fimmtudagur vinnudagur<br>- Er þriðjudagur vinnudagur<br>- Er miðvikudagur vinnudagur<br>- Auðkenni á frídegi vinnudagatals
+- Nýr valmöguleiki fyrir myndun dagatals í einingunni **WorkCalendar** (477055):<br>- Sjálfgefinn lokatími<br>- Sjálfgefinn upphafstími<br>- Er föstudagur vinnudagur<br>- Er mánudagur vinnudagur<br>- Er laugardagur vinnudagur<br>- Er sunnudagur vinnudagur<br>- Er fimmtudagur vinnudagur<br>- Er þriðjudagur vinnudagur<br>- Er miðvikudagur vinnudagur<br>- Auðkenni á frídegi vinnudagatals
 
 - Einingin **LeaveBankTransactionV1** inniheldur núna ástæðukóðann (477823).
 

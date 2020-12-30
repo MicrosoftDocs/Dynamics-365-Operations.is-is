@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832885"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461479"
 ---
 # <a name="create-email-templates-in-attract"></a>Stofna tölvupóstsniðmát í Attract
 
