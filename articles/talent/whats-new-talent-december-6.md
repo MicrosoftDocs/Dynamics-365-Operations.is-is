@@ -1,0 +1,145 @@
+---
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (6. desember 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
+author: Darinkramer
+manager: AnnBe
+ms.date: 12/07/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2018-12-06
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529163"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a><span data-ttu-id="38abc-103">Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (6. desember 2018)</span><span class="sxs-lookup"><span data-stu-id="38abc-103">What's new or changed in Dynamics 365 Talent - Core HR (December 6, 2018)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="38abc-104">**Smíði 8.1.2071**</span><span class="sxs-lookup"><span data-stu-id="38abc-104">**Build 8.1.2071**</span></span>
+
+<span data-ttu-id="38abc-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.</span><span class="sxs-lookup"><span data-stu-id="38abc-105">This topic describes features that are either new or changed in Core HR.</span></span>
+
+
+## <a name="platform-update-22-for-finance-and-operations"></a><span data-ttu-id="38abc-106">Uppfærsla 22 fyrir verkvang fyrir Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="38abc-106">Platform update 22 for Finance and Operations</span></span>
+
+### <a name="export-up-to-1-million-rows-to-excel"></a><span data-ttu-id="38abc-107">Flytja út allt að 1 milljón raðir í Excel</span><span class="sxs-lookup"><span data-stu-id="38abc-107">Export up to 1 million rows to Excel</span></span>
+
+<span data-ttu-id="38abc-108">Eiginleikinn útflutningur í Excel er nú hægt að skilgreina til að leyfa notendum að flytja út allt að 1 milljón raðir úr hnitaneti í Talent, umtalsverð aukning frá eldri mörkum upp á 10.000 raðir.</span><span class="sxs-lookup"><span data-stu-id="38abc-108">The Export to Excel feature can now be configured to allow users to export up to 1 million rows from a grid in Talent, a substantial increase from the previous 10,000-row limit.</span></span> 
+
+### <a name="restyled-personalization-toolbar"></a><span data-ttu-id="38abc-109">Endurhönnuð tækjastika sérstillinga</span><span class="sxs-lookup"><span data-stu-id="38abc-109">Restyled personalization toolbar</span></span>
+
+<span data-ttu-id="38abc-110">Tækjastiku sérstillinga hefur verið endurhönnuð í verkvangsuppfærslu 22 fyrir Finance and Operations til að auðvelda notendum að sérsníða upplifun sína í Talent.</span><span class="sxs-lookup"><span data-stu-id="38abc-110">The personalization toolbar has been restyled in Platform update 22 for Finance and Operations to help users more easily tailor their own experiences in Talent.</span></span> <span data-ttu-id="38abc-111">Eftirfarandi breytingar voru gerðar:</span><span class="sxs-lookup"><span data-stu-id="38abc-111">The following changes were made:</span></span> 
+
+-  <span data-ttu-id="38abc-112">Nafnið á hverju sérstillingartóli er nú sýnt ásamt tákni, sem hjálpar notendum að þekkja tólið fljótt sem þeir hafa áhuga á að nota.</span><span class="sxs-lookup"><span data-stu-id="38abc-112">The name of each personalization tool is now shown along with an icon, which helps users quickly recognize the tool they are interested in using.</span></span>
+-  <span data-ttu-id="38abc-113">Leiðbeiningarnar um hvernig á að nota núverandi tól eru nú einnig sýndar, sem hjálpar notendum að skilja hvernig á að gera nauðsynlegar sérstillingar.</span><span class="sxs-lookup"><span data-stu-id="38abc-113">The description for how to use the current tool is also now shown, which helps users understand how to make the needed personalizations.</span></span>  
+-  <span data-ttu-id="38abc-114">Hægt er að flytja alla tækjastiku sérstillinga þvert yfir skjáinn með því að draga og sleppa á tilteknu svæði lengst til vinstri á tækjastikunni.</span><span class="sxs-lookup"><span data-stu-id="38abc-114">The entire personalization toolbar can be moved across the screen by dragging and dropping on a specific region at the far left of the toolbar.</span></span> <span data-ttu-id="38abc-115">Þetta gerir notendum kleift að sérsníða þætti sem tækjastikan huldi áður fyrr.</span><span class="sxs-lookup"><span data-stu-id="38abc-115">This allows users to personalize elements that were previously obscured by the toolbar.</span></span>   
+
+### <a name="optimized-is-one-of-filtering-experience"></a><span data-ttu-id="38abc-116">Fínstillt „er ein af“ upplifun með síu</span><span class="sxs-lookup"><span data-stu-id="38abc-116">Optimized "is one of" filtering experience</span></span>
+
+<span data-ttu-id="38abc-117">„Er ein af“ virknitákn síunar er í boði fyrir flest svæði þegar síunarrúðan og fellilisti í haus hnitanets er notaður.</span><span class="sxs-lookup"><span data-stu-id="38abc-117">The "is one of" filtering operator is available for most fields when using the Filter Pane and grid header drop-down lists.</span></span> <span data-ttu-id="38abc-118">Þetta virknitákn gerir notanda kleift að sía svæði byggt á mörgum gildum.</span><span class="sxs-lookup"><span data-stu-id="38abc-118">This operator allows a user to filter a field based on multiple values.</span></span> <span data-ttu-id="38abc-119">Ný og endurbætt upplifun fyrir virknitáknið „er ein af“ verður í boði í verkvangsuppfærslu 22 fyrir Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="38abc-119">A new and improved experience for the "is one of" operator is available in Platform update 22 for Finance and Operations.</span></span> <span data-ttu-id="38abc-120">Frekari upplýsingar eru í [Fínstillt „er ein af“ upplifun með síu](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span><span class="sxs-lookup"><span data-stu-id="38abc-120">To learn more, see [Optimized "is one of" filtering experience](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span></span>
+
+### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a><span data-ttu-id="38abc-121">Líma lista úr Excel í síunarsvæði með virknitákninu „er ein af“</span><span class="sxs-lookup"><span data-stu-id="38abc-121">Paste lists from Excel into filter fields with the "is one of" operator</span></span>
+
+<span data-ttu-id="38abc-122">Fyrir sum verk kann að vera að notendur hafi lista af gildum í Excel sem þeir vilja nota til að sía gögn í Talent.</span><span class="sxs-lookup"><span data-stu-id="38abc-122">For some tasks, users might have a list of values in Excel that they'd like to use to filter data in Talent.</span></span> <span data-ttu-id="38abc-123">Til dæmis gæti mannauðsstjóranotandi hafa borið kennsl á safn starfsmanna úr skýrslu sem þarf að kanna betur í kerfinu, og best væri ef þessi notandi gæti afritað listann beint úr Excel og í síunarsvæði í Talent.</span><span class="sxs-lookup"><span data-stu-id="38abc-123">For example, a Human Resource user might have identified a set of employees from a report that need additional research in the system, and it would be ideal for this user to be able to copy the list directly from Excel into a filter field in Talent.</span></span>
+
+<span data-ttu-id="38abc-124">Frá og með verkvangsuppfærslu 22 fyrir Finance and Operations þekkir virknitáknið „er ein af“ í síunarrúðunni og dálkasíun hnitanets lista sem eru afritaðir úr Excel svo hægt sé að líma þá beint í síunarsvæði.</span><span class="sxs-lookup"><span data-stu-id="38abc-124">Starting in Platform update 22 for Finance and Operations, the "is one of" operator in the Filter Pane and grid column filtering now recognizes lists copied from Excel so that they can be pasted directly into a filter field.</span></span> <span data-ttu-id="38abc-125">Þetta á t.d. við um safn af gildum sem eru afrituð úr mismunandi röðum og dálkum í Excel.</span><span class="sxs-lookup"><span data-stu-id="38abc-125">This includes a collection of values copied from different rows and columns in Excel.</span></span> <span data-ttu-id="38abc-126">Nánari upplýsingar um þennan eiginleika er að finna í [Líma lista úr Excel í síunarsvæði með virknitákninu „er ein af“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).</span><span class="sxs-lookup"><span data-stu-id="38abc-126">To learn more about this feature, see [Paste lists from Excel into filter fields with the "is one of" operator](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).</span></span>
+
+## <a name="in-preview"></a><span data-ttu-id="38abc-127">Í kynningarútgáfu</span><span class="sxs-lookup"><span data-stu-id="38abc-127">In preview</span></span>
+
+### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a><span data-ttu-id="38abc-128">Skilgreina launasamþættingu milli Talent og Dayforce fyrir Bretland</span><span class="sxs-lookup"><span data-stu-id="38abc-128">Configure UK payroll integration between Talent and Dayforce</span></span>
+
+<span data-ttu-id="38abc-129">Samþætting milli Talent og Ceridian Dayforce er tiltæk í kynningarútgáfu fyrir Bretland.</span><span class="sxs-lookup"><span data-stu-id="38abc-129">The integration between Talent and Ceridian Dayforce is available in preview for the UK.</span></span> <span data-ttu-id="38abc-130">Frekari upplýsingar er að finna í [Skilgreina launasamþættingu milli Talent og Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).</span><span class="sxs-lookup"><span data-stu-id="38abc-130">Refer to the following topic for more information, [Configure the payroll integration between Talent and Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).</span></span>
+
+## <a name="coming-soon"></a><span data-ttu-id="38abc-131">Væntanlegt</span><span class="sxs-lookup"><span data-stu-id="38abc-131">Coming soon</span></span>
+
+### <a name="leave-and-absence-future-leave-and-forecasting-leave-balances"></a><span data-ttu-id="38abc-132">Leyfi og fjarvistir: Stöður á leyfi fram í tímann og spár um leyfi</span><span class="sxs-lookup"><span data-stu-id="38abc-132">Leave and absence: Future leave and forecasting leave balances</span></span>
+
+<span data-ttu-id="38abc-133">Með breytinginum sem eru gerðar til að leyfa starfsmönnum að spá fyrir um frítíma og framtíðaróskum um frítíma án þess að það hafi áhrif á núgildandi stöður frítíma, hvernig stöður frítíma eru birtar er einnig að breytast.</span><span class="sxs-lookup"><span data-stu-id="38abc-133">With the changes being made to allow for employees to forecast time off and request future time off requests without impacting their current time off balances, the way time off balances are displayed is also changing.</span></span> 
+
+<span data-ttu-id="38abc-134">Tiltæk staða sem er sýnd eins og er er upphæð frítíma sem er í boði fyrir beiðnir, þ.m.t. uppsafnanir til og með deginum í dag og allar samþykktar leyfisbeiðnir fram til lok tímabils.</span><span class="sxs-lookup"><span data-stu-id="38abc-134">The available balance currently displayed is the amount of time off available for requests including accruals through today and all approved leave requests to the end of time.</span></span> 
+
+<span data-ttu-id="38abc-135">Þegar getan til að spá fyrir er gefin út, breytist staðan sem sýnd er í núgildandi stöðu frítíma ásamt uppsöfnunum og beiðnum til og með deginum í dag.</span><span class="sxs-lookup"><span data-stu-id="38abc-135">When the ability to forecast is released, the balance displayed changes to  be the current balance of time off including accruals through today and requests through today.</span></span> <span data-ttu-id="38abc-136">Starfsmenn og yfirmenn sjá þessar uppfærðu stöður í sjálfsafgreiðslu starfsmanna og yfirmanna í spjaldinu **Frítími** og í glugganum **Stöður frítíma**.</span><span class="sxs-lookup"><span data-stu-id="38abc-136">Employees and managers will see these updated balances in employee and manager self service on the **Time off** card and in the **Time off balances** window.</span></span> <span data-ttu-id="38abc-137">Mannauðsstjórar munu sjá þessar uppfærðu stöður á vinnusvæðinu **Fólk** og glugganum **Úthlutaðar leyfisáætlanir** fyrir starfsmenn.</span><span class="sxs-lookup"><span data-stu-id="38abc-137">HR managers will see these updated balances in the **People** workspace and in the employee’s **Assigned leave plans** window.</span></span>
+
+## <a name="other-changes"></a><span data-ttu-id="38abc-138">Aðrar breytingar</span><span class="sxs-lookup"><span data-stu-id="38abc-138">Other changes</span></span> 
+
+### <a name="termination-code-is-not-populated-to-the-worker-position-assignment-record"></a><span data-ttu-id="38abc-139">Starfslokakóði er ekki fylltur út í úthlutunarskrám fyrir stöður starfsmanna</span><span class="sxs-lookup"><span data-stu-id="38abc-139">Termination code is not populated to the worker position assignment record</span></span>
+
+<span data-ttu-id="38abc-140">Breyting hefur verið hrint í framkvæmd sem fyllir út í ástæðukóðann í skrá fyrir stöðuverkefni í uppsagnarferlinu.</span><span class="sxs-lookup"><span data-stu-id="38abc-140">A change has been implemented that populates the reason code on the position assignment record during the termination process.</span></span>
+
+### <a name="validation-for-personnel-number-being-in-use-needs-additional-details"></a><span data-ttu-id="38abc-141">Villuleit fyrir númer starfsmanns sem er í notkun þarf viðbótarupplýsingar</span><span class="sxs-lookup"><span data-stu-id="38abc-141">Validation for personnel number being in-use needs additional details</span></span>
+
+<span data-ttu-id="38abc-142">Viðbótarupplýsingar eru birtar þegar númeraraðir eru í notkun til að skilja betur vandamál þegar ekki er hægt að búa til nýtt númer.</span><span class="sxs-lookup"><span data-stu-id="38abc-142">Additional information is displayed when number sequences are in use, to better understand issues when a new number cannot be generated.</span></span>
+ 
+### <a name="attachments-buttons-not-available-for-workers"></a><span data-ttu-id="38abc-143">Viðhengishnappar ekki í boði fyrir starfskrafta</span><span class="sxs-lookup"><span data-stu-id="38abc-143">Attachments buttons not available for workers</span></span>
+
+<span data-ttu-id="38abc-144">Breytingar hafa verið gerðar til að leiðrétta viðhengi.</span><span class="sxs-lookup"><span data-stu-id="38abc-144">Changes have been made to correct attachments.</span></span> <span data-ttu-id="38abc-145">Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** nú í boði þegar FactBoxes er opið í starfsmannaglugganum.</span><span class="sxs-lookup"><span data-stu-id="38abc-145">When adding a new attachment to a worker, the **New** and **Edit** buttons are now available when FactBoxes are open on the worker window.</span></span> 
+
+## <a name="known-issues"></a><span data-ttu-id="38abc-146">Þekkt vandamál</span><span class="sxs-lookup"><span data-stu-id="38abc-146">Known issues</span></span>
+
+### <a name="mapping-errors-in-the-integration-with-finance"></a><span data-ttu-id="38abc-147">Vörpunarvillur í samþættingu við Finance</span><span class="sxs-lookup"><span data-stu-id="38abc-147">Mapping errors in the integration with Finance</span></span>
+
+<span data-ttu-id="38abc-148">Eftirfarandi vandamál hafa verið greind í núgildandi sniðmáti fyrir samþættingu Talent við Finance.</span><span class="sxs-lookup"><span data-stu-id="38abc-148">The following issues have been identified in the current template for integrating Talent with Finance.</span></span> <span data-ttu-id="38abc-149">Nýtt sniðmát verður birt fljótlega og verður notað fyrir öll ný samþættingarverk sem eru búin til.</span><span class="sxs-lookup"><span data-stu-id="38abc-149">A new template will be published soon and will be applied to all new integration projects that are created.</span></span> <span data-ttu-id="38abc-150">Hægt er að uppfæra vörpunarverkin fyrir núverandi samþættingarverk.</span><span class="sxs-lookup"><span data-stu-id="38abc-150">For existing integration projects, the task mappings can be updated.</span></span> <span data-ttu-id="38abc-151">Frekari upplýsingar um uppfærðar varpanir eru í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="38abc-151">Refer to the following table for updated mappings.</span></span> 
+
+>[!NOTE]
+> <span data-ttu-id="38abc-152">Úthlutunarverk á stöðum starfa til staða yfirstarfa samþættir ekki gögn.</span><span class="sxs-lookup"><span data-stu-id="38abc-152">The Job Positions to Positions Parent Job Assignment task does not integrate data.</span></span> <span data-ttu-id="38abc-153">Þetta er mál sem verið er að rannsaka.</span><span class="sxs-lookup"><span data-stu-id="38abc-153">This is an issue that is currently being researched.</span></span> <span data-ttu-id="38abc-154">Það er engin hjáleið í núverandi vörpun.</span><span class="sxs-lookup"><span data-stu-id="38abc-154">There is no workaround in the current mapping.</span></span> 
+
+<span data-ttu-id="38abc-155">Verk deilda til rekstrareiningar þarf eftirfarandi varpanir uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="38abc-155">The Departments to Operating unit task needs the following mappings updated.</span></span>
+
+| <span data-ttu-id="38abc-156">Fyrirliggjandi upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-156">Existing source field</span></span>          | <span data-ttu-id="38abc-157">Nýtt upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-157">New source field</span></span> |
+| -------------------------------|------------------|
+| <span data-ttu-id="38abc-158">cdm_description (lýsing)</span><span class="sxs-lookup"><span data-stu-id="38abc-158">cdm_description (Description)</span></span>  | <span data-ttu-id="38abc-159">cdm_name (heiti)</span><span class="sxs-lookup"><span data-stu-id="38abc-159">cdm_name (Name)</span></span>  |
+
+<span data-ttu-id="38abc-160">Einnig þarf að bæta við aukalegri vörpun.</span><span class="sxs-lookup"><span data-stu-id="38abc-160">An additional mapping also needs to be added.</span></span> <span data-ttu-id="38abc-161">Veldu síðasta **Ekkert** svæðið til að bæta við eftirfarandi vörpun.</span><span class="sxs-lookup"><span data-stu-id="38abc-161">Select the last **None** field to add the following mapping.</span></span>
+
+| <span data-ttu-id="38abc-162">Upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-162">Source field</span></span>                   | <span data-ttu-id="38abc-163">Áfangasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-163">Destination field</span></span>    |
+| -------------------------------|----------------------|
+| <span data-ttu-id="38abc-164">cdm_description (lýsing)</span><span class="sxs-lookup"><span data-stu-id="38abc-164">cdm_description (Description)</span></span>  | <span data-ttu-id="38abc-165">NAMEALIAS (NAMEALIAS)</span><span class="sxs-lookup"><span data-stu-id="38abc-165">NAMEALIAS (NAMEALIAS)</span></span>|
+
+<span data-ttu-id="38abc-166">Uppfærðu varpanirnar ættu að líta svona út.</span><span class="sxs-lookup"><span data-stu-id="38abc-166">The updated mappings should look like this.</span></span>
+
+![Deildir til rekstrareiningar verk](./media/DepartmentMapping.png)
+
+
+<span data-ttu-id="38abc-168">Verkið störf til upplýsingar um starf þarf eftirfarandi varpanir uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="38abc-168">The Jobs to Job Detail task needs the following mappings updated.</span></span>
+
+| <span data-ttu-id="38abc-169">Fyrirliggjandi upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-169">Existing source field</span></span>          | <span data-ttu-id="38abc-170">Nýtt upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-170">New source field</span></span>                   |
+| -------------------------------|------------------------------------|
+| <span data-ttu-id="38abc-171">cdm_name (heiti)</span><span class="sxs-lookup"><span data-stu-id="38abc-171">cdm_name (Name)</span></span>                | <span data-ttu-id="38abc-172">cdm_description (lýsing)</span><span class="sxs-lookup"><span data-stu-id="38abc-172">cdm_description (Description)</span></span>      |
+| <span data-ttu-id="38abc-173">cdm_name (lýsing)</span><span class="sxs-lookup"><span data-stu-id="38abc-173">cdm_name (Description)</span></span>         | <span data-ttu-id="38abc-174">cdm_jobdescription (starfslýsing)</span><span class="sxs-lookup"><span data-stu-id="38abc-174">cdm_jobdescription(Job Description)</span></span>|
+
+
+<span data-ttu-id="38abc-175">Uppfærðu varpanirnar ættu að líta svona út.</span><span class="sxs-lookup"><span data-stu-id="38abc-175">The updated mappings should look like this.</span></span>
+
+![Störf til upplýsinga um starf verk](./media/JobMapping.png)
+
+<span data-ttu-id="38abc-177">Starfskraftar til vinnu verk þarf eftirfarandi varpanir uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="38abc-177">The Workers to Work task needs the following mappings updated.</span></span>
+
+| <span data-ttu-id="38abc-178">Fyrirliggjandi upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-178">Existing source field</span></span>                 | <span data-ttu-id="38abc-179">Nýtt upprunasvæði</span><span class="sxs-lookup"><span data-stu-id="38abc-179">New source field</span></span>                               |
+| --------------------------------------|------------------------------------------------|
+| <span data-ttu-id="38abc-180">cdm_emailaddress1 (netfang 1)</span><span class="sxs-lookup"><span data-stu-id="38abc-180">cdm_emailaddress1 (Email Address 1)</span></span>   | <span data-ttu-id="38abc-181">cdm_primaryemailaddress (aðalnetfang</span><span class="sxs-lookup"><span data-stu-id="38abc-181">cdm_primaryemailaddress (Primary Email Address</span></span> |
+| <span data-ttu-id="38abc-182">cdm_telephone1 (símanúmer 1)</span><span class="sxs-lookup"><span data-stu-id="38abc-182">cdm_telephone1 (Telephone 1)</span></span>          | <span data-ttu-id="38abc-183">cdm_primarytelephone (aðalsímanúmer)</span><span class="sxs-lookup"><span data-stu-id="38abc-183">cdm_primarytelephone (Primary Telephone)</span></span>       |
+
+<span data-ttu-id="38abc-184">Umbreyting á svæði kyns þarf einnig að uppfæra.</span><span class="sxs-lookup"><span data-stu-id="38abc-184">The Gender field transform also needs to be updated.</span></span> <span data-ttu-id="38abc-185">Veldu **fn** (virkni) vörpunargerð fyrir Kyn og uppfærðu eftirfarandi vörpunargildi.</span><span class="sxs-lookup"><span data-stu-id="38abc-185">Select the **fn** (function) map type for Gender and update the following value mappings.</span></span>
+
+<span data-ttu-id="38abc-186">| Common Data Service Gildi   | Finance and Operations gildi | | ------------|------------------ -----------| | 75440000    | Karl                         | | 75440001    | Kona                       | | 75440002    | Ekkert                         | | 75440003    | Ekki tilgreint                  |</span><span class="sxs-lookup"><span data-stu-id="38abc-186">| Common Data Service Value   | Finance and Operations value | | ------------|------------------ -----------| | 75440000    | Male                         | | 75440001    | Female                       | | 75440002    | None                         | | 75440003    | NonSpecific                  |</span></span>
+
+<span data-ttu-id="38abc-187">Uppfærðu varpanirnar ættu að líta svona út.</span><span class="sxs-lookup"><span data-stu-id="38abc-187">The updated mappings should look like this.</span></span>
+
+![Starfskraftar til starfskrafts verk](./media/WorkerMapping.png)
+
+![Umbreyting á svæði kyns](./media/WorkerTransform.png)
+

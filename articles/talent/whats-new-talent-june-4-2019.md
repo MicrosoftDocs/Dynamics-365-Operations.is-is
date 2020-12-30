@@ -1,0 +1,100 @@
+---
+title: Nýjungar eða breytingar í Dynamics 365 Talent (4. júní 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
+author: Darinkramer
+manager: AnnBe
+ms.date: 06/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-06-04
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 4a42a3b817024447e2ff26cfcb3cdd0df1351158
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528046"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a><span data-ttu-id="f47ad-103">Nýjungar eða breytingar í Dynamics 365 Talent (4. júní 2019)</span><span class="sxs-lookup"><span data-stu-id="f47ad-103">What's new or changed in Dynamics 365 Talent (June 4, 2019)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="f47ad-104">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.</span><span class="sxs-lookup"><span data-stu-id="f47ad-104">This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="f47ad-105">Breytingar í Attract</span><span class="sxs-lookup"><span data-stu-id="f47ad-105">Changes in Attract</span></span>
+
+<span data-ttu-id="f47ad-106">Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Attract.</span><span class="sxs-lookup"><span data-stu-id="f47ad-106">This release includes minor bug fixes for Dynamics 365 Talent: Attract.</span></span>
+
+## <a name="coming-soon-in-attract"></a><span data-ttu-id="f47ad-107">Væntanlegt í Attract</span><span class="sxs-lookup"><span data-stu-id="f47ad-107">Coming soon in Attract</span></span>
+
+### <a name="job-approvals-on-the-home-page"></a><span data-ttu-id="f47ad-108">Vinnslusamþykktir á heimasíðunni</span><span class="sxs-lookup"><span data-stu-id="f47ad-108">Job approvals on the home page</span></span>
+
+<span data-ttu-id="f47ad-109">Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu.</span><span class="sxs-lookup"><span data-stu-id="f47ad-109">Approvals appear in an **Approvals** section on the dashboard.</span></span> <span data-ttu-id="f47ad-110">Samþykktaraðilar geta skoðað samþykki sín undir **Úthlutað til þín**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-110">Approvers can review their approvals under **Assigned to you**.</span></span> <span data-ttu-id="f47ad-111">Þessi hluti sýnir vinnslukenni, titil, aðra samþykktaraðila og daginn þegar vinnslunni var úthlutað.</span><span class="sxs-lookup"><span data-stu-id="f47ad-111">This section shows the job ID, title, other approvers, and the date when the job was assigned.</span></span> <span data-ttu-id="f47ad-112">Notendur sem leggja fram starf til samþykktar geta skoðað störf sín undir **Umbeðið af notanda**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-112">Users who submit a job for approval can review their jobs under **Requested by you**.</span></span> <span data-ttu-id="f47ad-113">Þessi kafli sýnir samþykktaraðila sem eiga enn eftir að samþykkja innsenda vinnslu.</span><span class="sxs-lookup"><span data-stu-id="f47ad-113">This section shows the approvers who must still approve the submitted job.</span></span>
+
+## <a name="changes-in-onboard"></a><span data-ttu-id="f47ad-114">Breytingar í Onboard</span><span class="sxs-lookup"><span data-stu-id="f47ad-114">Changes in Onboard</span></span>
+
+<span data-ttu-id="f47ad-115">Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="f47ad-115">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="f47ad-116">Breytingar í Core HR</span><span class="sxs-lookup"><span data-stu-id="f47ad-116">Changes in Core HR</span></span>
+
+<span data-ttu-id="f47ad-117">Breytingunum sem er lýst í þessum hluta eiga við um smíðarnúmer 8.1.2330.</span><span class="sxs-lookup"><span data-stu-id="f47ad-117">The changes that are described in this section apply to build number 8.1.2330.</span></span>
+
+### <a name="new-page-to-validate-position-hierarchy-data"></a><span data-ttu-id="f47ad-118">Ný síða til að villuleita gögn staðsetningarstigveldis</span><span class="sxs-lookup"><span data-stu-id="f47ad-118">New page to validate position hierarchy data</span></span>
+
+<span data-ttu-id="f47ad-119">Mannauðsstjórar (HR) og stjórnendur geta nú staðfest stjórnunarstigveldið fyrir allar hringtilvísanir sem kunna að hafa verið óvart fluttar inn.</span><span class="sxs-lookup"><span data-stu-id="f47ad-119">Human resources (HR) staff and admins can validate the managerial hierarchy for any circular references that were inadvertently imported.</span></span> <span data-ttu-id="f47ad-120">Hægt er að komast á þessa nýju síðu á **Stjórnun fyrirtækis \> Tenglar \> Staðsetningar \> Villuleita stigveldi staðsetningar**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-120">You can access this new page at **Organizational administration \> Links \> Positions \> Position hierarchy validation**.</span></span>
+
+### <a name="specify-reason-codes-on-leave-types"></a><span data-ttu-id="f47ad-121">Tilgreina ástæðukóða fyrir leyfisgerðir</span><span class="sxs-lookup"><span data-stu-id="f47ad-121">Specify reason codes on leave types</span></span>
+
+<span data-ttu-id="f47ad-122">Fyrirtæki gætu gert kröfu um frekari upplýsingar um frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="f47ad-122">Organizations might require additional information about time-off requests.</span></span> <span data-ttu-id="f47ad-123">Nú er hægt að tilgreina ástæðukóða fyrir leyfisgerðir og leyfa starfsmönnum að velja ástæðukóða fyrir frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="f47ad-123">You can now specify reason codes for leave types and let employees select a reason code on their time-off requests.</span></span>
+
+### <a name="require-reason-codes-for-specific-leave-types-on-time-off-requests"></a><span data-ttu-id="f47ad-124">Fara fram á ástæðukóða fyrir tilteknar leyfisgerðir á frítímabeiðnum</span><span class="sxs-lookup"><span data-stu-id="f47ad-124">Require reason codes for specific leave types on time-off requests</span></span>
+
+<span data-ttu-id="f47ad-125">Fyrirtæki gætu krafist ástæðukóða fyrir ákveðna leyfisgerðir þegar starfsfólk sendir inn frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="f47ad-125">Organizations might require reason codes for specific leave types when employees submit time-off requests.</span></span> <span data-ttu-id="f47ad-126">Þessi krafa gæti verið til vegna stefnu fyrirtækis eða reglugerða.</span><span class="sxs-lookup"><span data-stu-id="f47ad-126">This requirement might exist because of company policy or regulatory requirements.</span></span> <span data-ttu-id="f47ad-127">Hægt er að tilgreina hvers konar leyfisgerðir þurfa ástæðukóða og nú er hægt að krefja starfsfólk um að gefa upp ástæðukóða fyrir leyfisgerðina út af frítímabeiðni þeirra.</span><span class="sxs-lookup"><span data-stu-id="f47ad-127">You can specify which leave types require a reason code, and you can require that employees provide a reason code for the leave type on their time-off requests.</span></span>
+
+### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="f47ad-128">Bjóða upp á færslulista leyfa og fjarvista fyrir mannauðsstjóra</span><span class="sxs-lookup"><span data-stu-id="f47ad-128">Provide a leave and absence transaction list for HR</span></span>
+
+<span data-ttu-id="f47ad-129">Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frítími er reiknaður hjálpar ekki aðeins mannauðsstjóra við að svara spurningum starfsmanns heldur tryggir einnig nákvæma frítímainneign starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="f47ad-129">The ability to track employee time off and understand how time off is calculated not only helps HR answer employee questions but also helps guarantee accurate time-off awards for employees.</span></span> <span data-ttu-id="f47ad-130">Mannauðsstjóri er nú með nýja sýn á færslunum (styrkir, uppsafnanir, leiðréttingar og beiðnir), svo að starfsmenn mannauðs geta skoðað ástæðurnar á bak við frítímastöðu.</span><span class="sxs-lookup"><span data-stu-id="f47ad-130">HR now has a new view into the transactions (grants, accruals, adjustments, and requests), so that HR staff can view the reasons behind time-off balances.</span></span>
+
+### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a><span data-ttu-id="f47ad-131">Ef þú eyðir skrá úr Talent fjarlægir það skrána ekki úr Common Data Service</span><span class="sxs-lookup"><span data-stu-id="f47ad-131">Deleting a record from Talent doesn't remove the record from Common Data Service</span></span>
+
+<span data-ttu-id="f47ad-132">Skrár sem eru fjarlægðar úr Talent: Core HR eru nú einnig fjarlægðar úr Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="f47ad-132">Records that are removed from Talent: Core HR are now also removed from Common Data Service.</span></span>
+
+### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a><span data-ttu-id="f47ad-133">Ekki er verið að uppfylla áætlun um breytilega uppbót gildir frá/til dagsetninga</span><span class="sxs-lookup"><span data-stu-id="f47ad-133">Variable compensation plan valid from/to dates aren't being honored</span></span>
+
+<span data-ttu-id="f47ad-134">Í þessari útgáfu getur þú ekki skráð starfsmann í áætlun breytilegrar uppbótar ef upphafsdagurinn er á undan upphafsdegi áætlunarinnar eða lokadagsetning er eftir lokadagsetningu áætlunarinnar.</span><span class="sxs-lookup"><span data-stu-id="f47ad-134">In this release, you can't enroll an employee in a variable compensation plan if the start date is before the plan's start date or the end date is after the plan's end date.</span></span> 
+
+### <a name="performance-review-comments-are-removed-when-users-select-cancel"></a><span data-ttu-id="f47ad-135">Athugasemdir um frammistöðurýni eru fjarlægðar þegar notendur velja Hætta við</span><span class="sxs-lookup"><span data-stu-id="f47ad-135">Performance review comments are removed when users select Cancel</span></span>
+
+<span data-ttu-id="f47ad-136">Þessi útgáfa leiðréttir vandamál þar sem athugasemdir um rýni eru fjarlægðar ef notandi byrjar að breyta ummælum en velur síðan **Hætta við**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-136">This release corrects an issue where review comments are removed if a user starts to change a comment but then selects **Cancel**.</span></span> 
+
+## <a name="in-preview"></a><span data-ttu-id="f47ad-137">Í kynningarútgáfu</span><span class="sxs-lookup"><span data-stu-id="f47ad-137">In preview</span></span>
+
+### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a><span data-ttu-id="f47ad-138">Forskoðunareiginleikar eru aðeins virkjaðir í tilvikum sandkassans</span><span class="sxs-lookup"><span data-stu-id="f47ad-138">Preview features are enabled only in sandbox instances</span></span>
+
+<span data-ttu-id="f47ad-139">Þegar þú setur fram nýtt tilvik í Talent getur þú tiltekið hvort gerð tilviks er **Framleiðsla** eða **Sandkassi**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-139">When you provision a new instance of Talent, you can specify whether the instance type is **Production** or **Sandbox**.</span></span> <span data-ttu-id="f47ad-140">Tilvik af gerðinni **Sandkassi** gerir kleift að prófa nýja eiginleika snemma.</span><span class="sxs-lookup"><span data-stu-id="f47ad-140">Instances of the **Sandbox** type allow for early testing of new features.</span></span> <span data-ttu-id="f47ad-141">Öll núverandi tilvik Talent verða uppfærð í tilviksgerðina **Framleiðsla**.</span><span class="sxs-lookup"><span data-stu-id="f47ad-141">All existing Talent instances will be updated to the **Production** instance type.</span></span> <span data-ttu-id="f47ad-142">Ef uppfæra á eitt af núverandi tilvikum í tilviksgerðina **Sandkassi** skal hafa samband við [notendaþjónustu](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) til að hefja breytingarbeiðni.</span><span class="sxs-lookup"><span data-stu-id="f47ad-142">If you want one of your existing instances to be updated to the **Sandbox** instance type, contact [Support](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) to initiate the change request.</span></span>
+
+<span data-ttu-id="f47ad-143">Nánari upplýsingar um hvernig breytingar eru gefnar út er að finna í [Úthluta Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="f47ad-143">For more information about how changes are published, see [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+
+### <a name="restrict-leave-types-in-time-off-requests"></a><span data-ttu-id="f47ad-144">Takmarka leyfisgerðir í frítímabeiðnum</span><span class="sxs-lookup"><span data-stu-id="f47ad-144">Restrict leave types in time-off requests</span></span>
+
+<span data-ttu-id="f47ad-145">Fyrirtæki geta boðið starfsmönnum upp á margar mismunandi leyfisgerðir.</span><span class="sxs-lookup"><span data-stu-id="f47ad-145">Organizations can offer many different types of leave to employees.</span></span> <span data-ttu-id="f47ad-146">Hins vegar gæti það verið óviðeigandi fyrir starfsmenn að leggja fram beiðni um frest fyrir sumar gerðir leyfis.</span><span class="sxs-lookup"><span data-stu-id="f47ad-146">However, it might not be appropriate for employees to submit time-off requests for some leave types.</span></span> <span data-ttu-id="f47ad-147">Þessum leyfisgerðum kann að vera stjórnað af mannauði (HR) í staðinn.</span><span class="sxs-lookup"><span data-stu-id="f47ad-147">Those leave types might be managed by HR instead.</span></span> <span data-ttu-id="f47ad-148">Í þessari útgáfu er hægt að skilgreina hvaða leyfisgerðir starfsmenn geta sent inn fyrir frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="f47ad-148">In this release, you can configure which leave types employees can submit time-off requests for.</span></span> 
+
+## <a name="coming-soon-in-core-hr"></a><span data-ttu-id="f47ad-149">Kemur fljótlega í Core HR</span><span class="sxs-lookup"><span data-stu-id="f47ad-149">Coming soon in Core HR</span></span>
+
+### <a name="view-extended-information-for-performance-in-manager-self-service"></a><span data-ttu-id="f47ad-150">Skoðaðu framlengdar upplýsingar um afköst í sjálfsafgreiðslu stjórnanda</span><span class="sxs-lookup"><span data-stu-id="f47ad-150">View extended information for performance in manager self-service</span></span>
+
+<span data-ttu-id="f47ad-151">Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum skýrslum sínum og framlengdum skýrslum sínum.</span><span class="sxs-lookup"><span data-stu-id="f47ad-151">A new option will let managers view the performance of both their direct reports and their extended reports.</span></span> <span data-ttu-id="f47ad-152">Eins og er, geta línustjórnendur úthlutað og uppfært árangursmörk og gefið út nýjar umsagnir, sem starfsmenn þeirra stýra einnig.</span><span class="sxs-lookup"><span data-stu-id="f47ad-152">Currently, line managers can assign and update performance goals and issue new reviews, which their employees co-manage.</span></span> <span data-ttu-id="f47ad-153">Að auki geta beinar stjórnendur og starfsmenn þeirra viðhaldið og uppfært afkastabækur til að tryggja að ferli afkastarýni gangi vandræðalaust.</span><span class="sxs-lookup"><span data-stu-id="f47ad-153">In addition, direct managers and their employees can maintain and update performance journals to help guarantee that the performance review process goes smoothly.</span></span> <span data-ttu-id="f47ad-154">Þegar þessi breyting er framkvæmd verða stjórnendur að geta skoðað og viðhaldið árangursskyldum upplýsingum um útbreiddar skýrslur auk þeirra beinna skýrslna.</span><span class="sxs-lookup"><span data-stu-id="f47ad-154">When this change is implemented, managers will be able to view and maintain performance-related information for their extended reports in addition to their direct reports.</span></span> 
+
+### <a name="print-performance-reviews"></a><span data-ttu-id="f47ad-155">Prenta árangursumsagnir</span><span class="sxs-lookup"><span data-stu-id="f47ad-155">Print performance reviews</span></span>
+
+<span data-ttu-id="f47ad-156">Starfsmenn, stjórnendur og HR munu geta prentað út afkastarýni starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="f47ad-156">Employees, managers, and HR will be able to print an employee's performance review.</span></span>

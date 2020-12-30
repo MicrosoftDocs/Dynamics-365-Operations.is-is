@@ -1,0 +1,65 @@
+---
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (20. maí 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
+author: Darinkramer
+manager: AnnBe
+ms.date: 05/21/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-05-20
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 2eb7fbabdbc945436c238dc59802f487ccada35c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461515"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-20-2019"></a><span data-ttu-id="5d4db-103">Hvað er nýtt eða breytt í Dynamics 365 Talent (20. maí 2019)</span><span class="sxs-lookup"><span data-stu-id="5d4db-103">What's new or changed in Dynamics 365 Talent (May 20, 2019)</span></span>
+
+<span data-ttu-id="5d4db-104">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.</span><span class="sxs-lookup"><span data-stu-id="5d4db-104">This topic describes features that are either new or changed in Dynamics 365 Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="5d4db-105">Breytingar í Attract</span><span class="sxs-lookup"><span data-stu-id="5d4db-105">Changes in Attract</span></span>
+<span data-ttu-id="5d4db-106">Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Attract.</span><span class="sxs-lookup"><span data-stu-id="5d4db-106">This release includes minor bug fixes for Dynamics 365 Talent: Attract.</span></span>
+
+## <a name="coming-soon-in-attract"></a><span data-ttu-id="5d4db-107">Væntanlegt í Attract</span><span class="sxs-lookup"><span data-stu-id="5d4db-107">Coming soon in Attract</span></span>
+
+### <a name="job-approvals-on-home-page"></a><span data-ttu-id="5d4db-108">Samþykktir starfs á heimasíðunni</span><span class="sxs-lookup"><span data-stu-id="5d4db-108">Job approvals on home page</span></span>
+
+<span data-ttu-id="5d4db-109">Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu.</span><span class="sxs-lookup"><span data-stu-id="5d4db-109">Approvals appear in an **Approvals** section on the dashboard.</span></span> <span data-ttu-id="5d4db-110">Samþykktaraðilar geta yfirfarið samþykktir sínar undir **Úthlutað á þig**, sem sýnir auðkenni starfs, titil, aðra samþykktaraðila og dagsetningu úthlutunar.</span><span class="sxs-lookup"><span data-stu-id="5d4db-110">Approvers can review their approvals under **Assigned to you**, which displays the job ID, title, other approvers, and date assigned.</span></span> <span data-ttu-id="5d4db-111">Notendur sem senda inn starf til samþykktar geta yfirfarið störfin sín undir **Beiðni frá þér**, sem sýnir samþykktaraðilana sem verða enn að samþykkja innsent starf.</span><span class="sxs-lookup"><span data-stu-id="5d4db-111">Users who submit a job for approval can review their jobs under **Requested by you**, which displays the approvers who still need to approve the submitted job.</span></span>
+
+## <a name="changes-in-onboard"></a><span data-ttu-id="5d4db-112">Breytingar í Onboard</span><span class="sxs-lookup"><span data-stu-id="5d4db-112">Changes in Onboard</span></span>
+
+<span data-ttu-id="5d4db-113">Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="5d4db-113">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="5d4db-114">Breytingar í Core HR</span><span class="sxs-lookup"><span data-stu-id="5d4db-114">Changes in Core HR</span></span>
+
+<span data-ttu-id="5d4db-115">Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2306.</span><span class="sxs-lookup"><span data-stu-id="5d4db-115">Changes described in this section apply to build number 8.1.2306.</span></span> <span data-ttu-id="5d4db-116">Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Core HR.</span><span class="sxs-lookup"><span data-stu-id="5d4db-116">This release includes minor bug fixes for Dynamics 365 Talent: Core HR.</span></span>
+
+## <a name="in-preview-in-core-hr"></a><span data-ttu-id="5d4db-117">Í forskoðun í Core HR</span><span class="sxs-lookup"><span data-stu-id="5d4db-117">In preview in Core HR</span></span>
+
+### <a name="new-page-to-validate-position-hierarchy-data"></a><span data-ttu-id="5d4db-118">Ný síða til að villuleita gögn staðsetningarstigveldis</span><span class="sxs-lookup"><span data-stu-id="5d4db-118">New page to validate position hierarchy data</span></span>
+
+<span data-ttu-id="5d4db-119">Mannauðsstjórar og stjórnendur geta nú villuleitað stjórnunarstigveldið fyrir allar hringtilvísanir sem kunna að hafa verið óvart fluttar inn.</span><span class="sxs-lookup"><span data-stu-id="5d4db-119">Human resources (HR) and administrators can validate the managerial hierarchy for any circular references that might have been inadvertently imported.</span></span> <span data-ttu-id="5d4db-120">Hægt er að komast á þessa síðu frá **Stjórnun fyrirtækis > Tenglar > Staðsetningar > Villuleita stigveldi staðsetningar**.</span><span class="sxs-lookup"><span data-stu-id="5d4db-120">You can access this new page from **Organizational administration > Links > Positions > Position hierarchy validation**.</span></span>
+
+### <a name="specify-reason-codes-on-leave-types"></a><span data-ttu-id="5d4db-121">Tilgreina ástæðukóða fyrir leyfisgerðir</span><span class="sxs-lookup"><span data-stu-id="5d4db-121">Specify reason codes on leave types</span></span>
+
+<span data-ttu-id="5d4db-122">Fyrirtæki gætu gert kröfu um frekari upplýsingar um frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="5d4db-122">Organizations might require additional information about time-off requests.</span></span> <span data-ttu-id="5d4db-123">Nú er hægt að tilgreina ástæðukóða fyrir leyfisgerðir og leyfa starfsmönnum að velja ástæðukóða fyrir frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="5d4db-123">You can now specify reason codes for leave types and let employees select a reason code on their time-off requests.</span></span>
+
+### <a name="require-reason-codes-for-specific-leave-types-on-time-off-requests"></a><span data-ttu-id="5d4db-124">Fara fram á ástæðukóða fyrir tilteknar leyfisgerðir á frítímabeiðnum</span><span class="sxs-lookup"><span data-stu-id="5d4db-124">Require reason codes for specific leave types on time-off requests</span></span>
+
+<span data-ttu-id="5d4db-125">Fyrirtæki gætu krafist ástæðukóða fyrir ákveðna leyfisgerðir þegar starfsfólk sendir inn frítímabeiðnir.</span><span class="sxs-lookup"><span data-stu-id="5d4db-125">Organizations might require reason codes for specific leave types when employees submit time-off requests.</span></span> <span data-ttu-id="5d4db-126">Þessi krafa gæti verið til vegna stefnu fyrirtækis eða reglugerða.</span><span class="sxs-lookup"><span data-stu-id="5d4db-126">This requirement might exist because of company policy or regulatory requirements.</span></span> <span data-ttu-id="5d4db-127">Hægt er að tilgreina hvers konar leyfisgerðir þurfa ástæðukóða og nú er hægt að krefja starfsfólk um að gefa upp ástæðukóða fyrir leyfisgerðina út af frítímabeiðni þeirra.</span><span class="sxs-lookup"><span data-stu-id="5d4db-127">You can specify which leave types require a reason code, and you can require that employees provide a reason code for the leave type on their time-off requests.</span></span>
+
+### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="5d4db-128">Bjóða upp á færslulista leyfa og fjarvista fyrir mannauðsstjóra</span><span class="sxs-lookup"><span data-stu-id="5d4db-128">Provide a leave and absence transaction list for HR</span></span>
+
+<span data-ttu-id="5d4db-129">Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frítími er reiknaður hjálpar ekki aðeins mannauðsstjóra við að svara spurningum starfsmanns heldur tryggir einnig nákvæma frítímainneign starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="5d4db-129">The ability to track employee time off and understand how time off is calculated not only helps HR answer employee questions, but also helps ensure accurate time-off awards for employees.</span></span> <span data-ttu-id="5d4db-130">Mannauðsstjóri er nú með nýja sýn á færslunum (styrkir, uppsafnanir, leiðréttingar og beiðnir), svo að starfsmenn mannauðs geta skoðað ástæðurnar á bak við frítímastöðu.</span><span class="sxs-lookup"><span data-stu-id="5d4db-130">HR now has a new view into the transactions (grants, accruals, adjustments, and requests), so that HR staff can view the reasons behind time-off balances.</span></span>
