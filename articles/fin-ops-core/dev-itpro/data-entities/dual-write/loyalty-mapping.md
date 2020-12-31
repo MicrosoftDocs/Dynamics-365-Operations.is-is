@@ -1,6 +1,6 @@
 ---
 title: Vildarkort og vildarpunktar viðskiptavinar
-description: Þetta efni lýsir samþættingu gagna um vildarkort viðskiptavina og verðlaunapunkta á milli forrita Finance and Operations og Common Data Service.
+description: Þetta efnisatriði lýsir samþættingu gagna um vildarkort viðskiptavinar og vildarpunkta í tvöfaldri skráningu.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/10/2019
@@ -18,20 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 24ce08bb6cba9c74075151bafe0b07509fbdf73d
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998015"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683499"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Vildarkort og vildarpunktar viðskiptavinar
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Fyrirtæki flokka viðskiptavini og veita háþróaða þjónustu, byggð á innkaupum viðskiptavina og eyðslumynstri. Í Microsoft Dynamics 365 forritasvítunni hefur Dynamics 365 Commerce innviði og aðgerðir til að auðvelda og meðhöndla vildarkort viðskiptavina, verðlaunastig, verðmæti sem byggir á hollustu og umbun byggir á verslunarupplifun. Þegar gögn um vildarkort viðskiptavina og umbunarpunkta í viðskiptum eru samstillt við Common Data Service geta líkanadrifin forrit í Dynamics 365 notað þessi gögn. Til dæmis geta notendur Dynamics 365 Customer Service notað gögnin til að veita sömu háþróuðu þjónustu í gegnum þjónustuborðið.
+Fyrirtæki flokka viðskiptavini og veita háþróaða þjónustu, byggð á innkaupum viðskiptavina og eyðslumynstri. Til dæmis er Dynamics 365 Commerce með innviði og aðgerðir til að auðvelda meðhöndlun vildarkort viðskiptavina, vildarpunkta, verðlagningarverð, vildarverð og kaup með verðlaunum. Þegar gögn um vildarkort viðskiptavinar og vildarpunkta í Commerce eru samstillt við Dataverse geta Customer Engagement forrit notað þessi gögn. Til dæmis geta notendur Dynamics 365 Customer Service notað gögnin til að veita sömu háþróuðu þjónustu í gegnum þjónustuborðið.
 
 ## <a name="templates"></a>Sniðmát
 

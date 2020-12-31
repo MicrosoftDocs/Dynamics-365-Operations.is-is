@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040123"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679957"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Þetta efni er ekki lengur uppfært. Til að sjá núverandi lista yfir eiginleika sem hafa verið fjarlægðir eða úreltir úr forriti Finance and Operations, leitaðu að efni **„Fjarlægðir eða úreltir eiginleikar“** sem tengist forritinu sem þú notar.
@@ -79,7 +80,7 @@ ms.locfileid: "4040123"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Við erum að leggja niður aðferðina **setUtcString()** , vegna þess að betri endurnýjunaraðferð er fáanleg. |
+| **Ástæða úreldingar/fjarlægingar** | Við erum að leggja niður aðferðina **setUtcString()**, vegna þess að betri endurnýjunaraðferð er fáanleg. |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Kerfi |
 | **Dreifingarvalkostur**              | Öll |
@@ -185,7 +186,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Virknin verður alltaf virk eftir að færibreytan hefur verið fjarlægð. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Virknin til að styðja verkmiðaðar sölupantanir með marga uppruna fjármögnunar verður alltaf virk.   |
-| **Afurðasvæði sem haft er áhrif á**         |Færibreytan **Leyfa sölupantanir fyrir verk með mörgum fjármögnunaraðilum** verður fjarlægð. Eftirfarandi aðferðum verður breytt þegar færibreytan er fjarlægð: aðferðin **ctrlSalesOrderTable** í klasanum **ProjStatusType** , aðferðin **sannprófa** fyrir reitinn **ProjId** og aðferðin **keyra** í skjámyndinni **SalescreateOrder**. Eftirfarandi aðferðir verða úreltar þegar færibreytan er fjarlægð: **IsSalesOrderAllowedForMultipleFundingSources** í töfluskránni **ProjTable** , aðferðin **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** í töfluskránni **ProjTable** , gagnareiturinn **AllowSalesOrdersForMultipleFundingSources** í skjámyndinni **ProjParameters** og skrárnar **ProjParameterEntity** , einkaaðferðin **IsAssociatedToMultipleFundingSourcesContract** í töfluskránni **ProjTable**. |
+| **Afurðasvæði sem haft er áhrif á**         |Færibreytan **Leyfa sölupantanir fyrir verk með mörgum fjármögnunaraðilum** verður fjarlægð. Eftirfarandi aðferðum verður breytt þegar færibreytan er fjarlægð: aðferðin **ctrlSalesOrderTable** í klasanum **ProjStatusType**, aðferðin **sannprófa** fyrir reitinn **ProjId** og aðferðin **keyra** í skjámyndinni **SalescreateOrder**. Eftirfarandi aðferðir verða úreltar þegar færibreytan er fjarlægð: **IsSalesOrderAllowedForMultipleFundingSources** í töfluskránni **ProjTable**, aðferðin **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** í töfluskránni **ProjTable**, gagnareiturinn **AllowSalesOrdersForMultipleFundingSources** í skjámyndinni **ProjParameters** og skrárnar **ProjParameterEntity**, einkaaðferðin **IsAssociatedToMultipleFundingSourcesContract** í töfluskránni **ProjTable**. |
 | **Dreifingarvalkostur**              | Allir  |
 | **Staða**                         | Úrelding er fyrirhuguð fyrir útgáfulotu í apríl 2020. |
 
@@ -374,12 +375,12 @@ Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjánin
 | **Staða**                       | Úrelt: Valmyndaratriði þessara tveggja skýrslna hafa verið fjarlægðar í útgáfu 7.3. Kóðann fyrir skýrslurnar er samt sem áður enn að finna í afurðinni. Áætlað er að fjarlægja kóðann í framtíðarútgáfu. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI efnispakkar eru tiltækar á AppSource
-Efnispakkarnir **Kostnaðarstjórnun** , **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
+Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruuppfærslur í Microsoft Power BI. |
-| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun** , **Fjárhagsleg frammistaða** og **Afköst smásölurásar** , sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Afurðasvæði sem haft er áhrif á**         | Kostnaðarstjórnun, Fjármál og Smásala                                                                                               |
 | **Dreifingarvalkostur**              | Einungis ský (Samþætting við PowerBI.com er ekki studd við dreifingu á staðnum.)                                                                                                            |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018.    |
@@ -391,7 +392,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 | &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við erum að fjárfesta í veitingu nýrrar notendaupplifunar í nýja notendaviðmótinu.             |
-| **Skipt út fyrir aðra eiginleika?**   | Nýja notendaviðmótið, sem kallast *Aukið yfirlit* , kemur í stað gamla notendaviðmótsins.            |
+| **Skipt út fyrir aðra eiginleika?**   | Nýja notendaviðmótið, sem kallast *Aukið yfirlit*, kemur í stað gamla notendaviðmótsins.            |
 | **Afurðasvæði sem haft er áhrif á**         | Vinnusvæði gagnastjórnunar                                                     |
 | **Dreifingarvalkostur**              | Allir                                                                           |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018. |
@@ -712,7 +713,7 @@ Mannauður, launaupplýsingar
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi aðgerð hefur verið skipt fyrir síðurnar Laun og Mannauður.  |
-| **Skipt út fyrir aðra eiginleika?**   | **Fríðindi** , **Tekjur** , og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Þessi virkni er opnuð með því að nota **Mannauður 1** \> **Laun** skilgreiningarlykillinn. |
+| **Skipt út fyrir aðra eiginleika?**   | **Fríðindi**, **Tekjur**, og aðrar tengdar síður sem voru áður í BNA Laun hafa verið endurskilgreind, og eru nú hluti kjarnauppsetning Mannauðs til að styðja við ytri launavinnslu. Þessi virkni er opnuð með því að nota **Mannauður 1** \> **Laun** skilgreiningarlykillinn. |
 | **Afurðasvæði sem haft er áhrif á**         | Mannauður, Laun   |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations útgáfu 1611.    |
 
@@ -1157,7 +1158,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS-skýrslur
 
-Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **Samantekt á prófjöfnuði** , **Ítarlegur prófjöfnuður** , **Bókhaldslykil** , **Endurskoðunarslóð** , **Stöður** , og **stöðulisti**.
+Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **Samantekt á prófjöfnuði**, **Ítarlegur prófjöfnuður**, **Bókhaldslykil**, **Endurskoðunarslóð**, **Stöður**, og **stöðulisti**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

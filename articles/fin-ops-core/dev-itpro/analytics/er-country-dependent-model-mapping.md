@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781146"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680878"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Stilla landssamhengisháðar varpanir ER-líkans
 
@@ -202,7 +201,7 @@ Eftirfarandi tafla veitir upplýsingar um niðurstöður val á líkanavörpun f
 
 Taktu eftir að nýrri skrá hefur verið bætt við ER kembiforrit fyrir keyrð ER snið. Þar sem reiturinn **Stig** í þessari skrár er stilltur á **Upplýsingar** er skráin upplýsandi. Þar sem reiturinn Sniðsíhlutur er stilltur á **Vörpunarstilling** upplýsir skráin þig um líkanavörpun sem var notuð við framkvæmd á ER-sniðinu **Snið til að læra vörpun** (valið í reitnum **Stillingarheiti**). Innihald reitsins **Myndaður texti** upplýsir þig um að vörpunarhlutinn **Vörpun (FR)** sem er staðsett í stillingunni **Vörpun (FR)** hefur verið notaður til að keyra þessa skýrslu.
 
-## <a name="appendix1"></a> Viðauki 1
+## <a name="appendix-1"></a><a name="appendix1"></a> Viðauki 1
 
 ### <a name="configure-a-sample-data-model"></a>Stilltu sýnishorn gagnalíkans
 
@@ -343,7 +342,7 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 4.  Veljið **Vista**.
 5.  Lokið síðunni.
 
-## <a name="appendix2"></a> Viðauki 2
+## <a name="appendix-2"></a><a name="appendix2"></a> Viðauki 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Stilla vörpun sýnislíkans fyrir almenna sérstillingu
 
@@ -403,7 +402,7 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 
 Athugið að skilgreiningin sem var stofnað er vistuð sem lokin útgáfa 1.
 
-## <a name="appendix3"></a> Viðauki 3
+## <a name="appendix-3"></a><a name="appendix3"></a> Viðauki 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Stilla vörpun sýnislíkans fyrir lands-/landsvæðissértæka sérstillingu
 

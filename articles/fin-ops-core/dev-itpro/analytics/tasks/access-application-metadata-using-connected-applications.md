@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142202"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682142"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Aðgangur að lýsigögnum forrits með tengdum forritum
 
@@ -54,7 +53,7 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 2. Lokið síðunni. 
 3. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 
 4. Smelltu á **Tengd forrit**. 
-5. Gakktu úr skugga um að skilgreint forrit sé byggt á Azure og aðgengilegt fyrir núverandi notanda RCS. Þess er einnig krafist að núverandi notandi RCS hafi aðgang að völdu forriti og hafi verið skráður sem notandi þessara forrits, sem gegnir hlutverki í að gefa honum réttindi til að fá aðgang að lýsigögnum forritsins. 
+5. Gakktu úr skugga um að skilgreint forrit sé byggt á Azure og aðgengilegt fyrir núverandi notanda RCS. Þess er einnig krafist að núverandi RCS-notandi hafi aðgang að völdu forriti og hafi verið skráður sem notandi þessa forrits sem sér um að veita réttindi til að fá aðgang að lýsigögnum forritsins. 
 6. Smellt er á **Nýtt**. 
 7. Í reitinn **Heiti** slærðu inn „MyConnectedApp“. 
 8. Í reitinn **Forrit** slærðu inn „https:// mycompany.operations.dynamics.com“. 

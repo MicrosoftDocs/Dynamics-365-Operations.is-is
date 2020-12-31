@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771445"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681449"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Sjálfvirk prófun með rafrænni skýrslugerð
 
@@ -48,7 +47,7 @@ Virkir kraftnotendur geta samið notandasamþykki og samþættingarprófun án �
 - Flokkaðu prófunardæmi fyrir nauðsynlegar prófunaraðstæður. Nánari upplýsingar er að finna í [Stofna og gera sjálfvirkt staðfestingarpróf notanda](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Notaðu Viðskiptaferlavinnslu (BPM) í LCS til að búa til söfn fyrir samþykktarprófanir fyrir notendur.
-    - Notaðu BPM prófunarsöfn til að búa til prófunaráætlun og prófunarpakka í Microsoft Azure DevOps-þjónusta (Azure DevOps).
+    - Notaðu BPM-prófunarsöfn til að búa til prufuáætlun og prófunarpakka í Microsoft Azure DevOps Services (Azure DevOps).
 
 Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþættingu.
 
@@ -60,7 +59,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
 Áður en hægt er að ljúka þessum verkum í efninu verður að ljúka við eftirfarandi forsendur:
 
 - Nota grannfræði sem styður prófunarsjálfvirkni. Þú verður að hafa aðgang að tilviki í þessari grannfræði fyrir hlutverkið **Kerfisstjóri**. Þessi grannfræði verður að innihalda kynningargögn sem verða notuð í þessu dæmi. Nánari upplýsingar er að finna [Setja upp og nota umhverfi sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md).
-- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Nánari upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með forritum Finance and Operations og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
+- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með Finance and Operations forritum og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
 
     ![RSAT-stillingar](media/GER-Configure.png "Skjámynd af svarglugganum RSAT-stillingar")
 

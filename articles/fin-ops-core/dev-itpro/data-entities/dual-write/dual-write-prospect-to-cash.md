@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997401"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683648"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -62,9 +62,9 @@ Til dæmis er númeraröðin í Supply Chain Management **1, 2, 3, 4, 5, ...** o
 
 Sölutilboð má stofna í annaðhvort Sales eða Supply Chain Management. Ef þú býrð til tilvitnun í Sales er það samstillt við Supply Chain Management í rauntíma. Eins, ef þú býrð til tilboð í Supply Chain Management er það samstillt við Sales í rauntíma. Athugið eftirfarandi stig:
 
-+ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur** , **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð** , **Afsláttur** , **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
-+ Reitirnir **Afsláttur %** , **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
-+ Reitirnir **Flutningsskilmálar** , **Afhendingarskilmálar** , **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð**, **Afsláttur**, **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
++ Reitirnir **Afsláttur %**, **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
++ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færibreytuna **Flýtistofnun tilboðslínu**. Með því að virkja breytuna aftur geturðu haldið áfram að búa til tilboðslínur með flýtiaðgerðinni.
 1. Farðu í Dynamics 365 Sales forritið.
@@ -98,7 +98,7 @@ Ef þú samstillir úr Supply Chain Management í sölu færðu eftirfarandi ni�
 
 ## <a name="dual-write-solution-for-sales"></a>Tvöfaldur skrifa lausn fyrir sölu
 
-Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni. Flestir þessir reitir birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðureitum er varpað er að finna í efnisatriðinu [Setja upp vörpun fyrir stöðureiti sölupantana](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
+Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni. Flestir þessir reitir birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðureitum er varpað er að finna í [Setja upp vörpun fyrir stöðureiti sölupantana](sales-status-map.md).
 
 + Hnapparnir **Stofna reikning** og **Hætta við pöntun** á síðunni **Sölupöntun** eru faldir í Sales.
 + Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[Status\]** stillt á **Virkt**.
@@ -110,11 +110,11 @@ Sölureikningar eru búnir til í Supply Chain Management og samstilltir við Sa
 + Reitnum **Reikningsnúmer** er bætt við eininguna **Reikningur** og birtur á síðunni.
 + Hnappurinn **Stofna reikning** á síðunni **Sölupöntun** er falinn vegna þess að reikningar verða búnir til í Supply Chain Management og samstilltir við Sales. Ekki er hægt að breyta síðunni **Reikningur** vegna þess að reikningar verða samstilltir úr Supply Chain Management.
 + **Staða sölupöntunar** breytist sjálfkrafa í **Reikningsfært** þegar tengdur reikningur úr Supply Chain Management hefur verið samstilltur við Sales. Einnig var eiganda sölupöntunar sem reikningurinn var búinn til úr úthlutað sem eiganda reikningsins. Því getur eigandi sölurekningsins skoðað reikninginn.
-+ Reitirnir **Flutningsskilmálar** , **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 ## <a name="templates"></a>Sniðmát
 
-Viðfang til sjóðsstreymis inniheldur safn af grunneiningaspjöldum sem virka saman á meðan samskipti við lánardrottna eru í gangi, eins og sýnt er í eftirfarandi töflu.
+Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman í gagnasamskiptum, eins og sýnt er í eftirfarandi töflu.
 
 | Finance and Operations-smáforrit | Líkanadrifin forrit í Dynamics 365 | lýsing |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Viðfang til sjóðsstreymis inniheldur safn af grunneiningaspjöldum sem virka 
 | CDS-sölutilboðshaus  | tilboð                            |             |
 | CDS-sölutilboðslínur   | quotedetails                      |             |
 
-Hér eru tengd kortareiningar fyrir viðföng til sjóðsstreymis:
+Hér eru tengd kjarnatöflukort fyrir viðfang til sjóðstreymis:
 
 + [Viðskiptavinir v3 til lykla](customer-mapping.md#customers-v3-to-accounts)
 + [Tengiliðir fyrir skuldatryggingu V2 til tengiliða](customer-mapping.md#cds-contacts-v2-to-contacts)

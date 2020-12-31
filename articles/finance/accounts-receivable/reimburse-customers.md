@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022544"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644538"
 ---
 # <a name="reimburse-customers"></a>Endurgreiða viðskiptavini
 
@@ -33,22 +33,19 @@ ms.locfileid: "4022544"
 
 Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en byrjað er.
 
-| Skilyrði                                                            | Lýsing                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Skilyrði                                                            | Lýsing |
+|-------------------------------------------------------------------------|-------------|
 | Tilgreina lágmarks endurgreiðsluupphæð fyrir lögaðilann          | Á **Færibreytur viðskiptakrafna** síðunni, á svæðinu **Almennt** á **Lágmarks endurgreiðsla** svæðinu, færið inn lágmarksupphæð sem hægt er að endurgreiða fyrir°ofgreiðslu viðskiptavinar. |
-| Valfrjálst: Bæta lánardrottnareikningi við hvern viðskiptavin sem er hægt að endurgreiða. | Á°síðunni **Viðskiptavinir** í flýtiflipanum **Ýmsar upplýsingar** á svæðinu **Lánardrottnalykill** skal°velja lánardrottnalykilinn fyrir viðskiptavin.                                           |
+| Valfrjálst: Bæta lánardrottnareikningi við hvern viðskiptavin sem er hægt að endurgreiða. | Á°síðunni **Viðskiptavinir** í flýtiflipanum **Ýmsar upplýsingar** á svæðinu **Lánardrottnalykill** skal°velja lánardrottnalykilinn fyrir viðskiptavin. |
 
 Þegar endurgreiðslufærslur eru stofnaðar, er reikningur lánardrottins stofnaður fyrir upphæð kreditstöðunnar. Endurgreiðsluferlið°fjarlægir kreditstöðu fyrir viðskiptavinalykilinn og stofnar stöðu greiðslu fyrir lykil lánardrottins sem samsvarar viðskiptavininum.
 
-1.  Í Viðskiptakröfur, keyrið ferlið **Endurgreiðsla**.
-2.  Fylgið einu af eftirfarandi skrefum:
-    -   Til þess að endurgreiða tilteknum viðskiptavini er smellt á **Velja** og reikningar viðskiptavina tilgreindir í fyrirspurn.
-    -   Til þess að endurgreiða öllum viðskiptavinum er smellt á **OK**.
+1. Í viðskiptakröfur, keyrið ferlið **Endurgreiðsla**. (**Vinna úr viðskiptakröfur \> Reglubundin verkefni \> Endurgreiðsla**).
+2. Til að flokka allar færslur, án tillits til fjárhagsvíddar, skal stilla valkostinn **Taka saman fyrir viðskiptavin** á **Já**. Til að flokka aðeins færslur sem eru með svipaðar fjárhagsvíddir skal stilla valkostinn á **Nei**.
+3. Veljið **Hafa með viðskiptavini með útistandandi debetfærslur** til að velja viðskiptamenn sem eru með ójafnaðar debetupphæðir.
+4. Til að endurgreiða tiltekna viðskiptavinalykla skal opna flýtiflipann **Færslur til að taka með** og velja **Sía** og tilgreina síðan viðskiptavinalykla í fyrirspurninni.
 
     Kreditupphæðir eru fluttar í lánardrottnarlykla viðskiptavinar og eru unnar eins og venjulegar greiðslur. Ef viðskiptamaður er ekki með lánardrottnarlykil er sjálfkrafa búið til númer einsskiptislánardrottins handa viðskiptamanninum.
-3.  Til að skoða færslur endurgreiðslna sem voru stofnaðar, notið síðuna **Endurgreiðslur**.
-4.  Í Viðskiptaskuldir, stofnið greiðslu fyrir reikninga lánardrottins sem voru stofnaðir sem afleiðing af endurgreiðsluferlinu.
 
-
-
-
+5. Til að skoða endurgreiðslufærslur sem voru stofnaðar, skal nota skýrsluna **Endurgreiðsla** (**Viðskiptakröfur \> Fyrirspurnir og skýrslur \> Endurgreiðsluskýrsla**).
+6. Í Viðskiptaskuldir, stofnið greiðslu fyrir reikninga lánardrottins sem voru stofnaðir sem afleiðing af endurgreiðsluferlinu. Upplýsingar um hvernig greiða á lánardrottnum er að finna í [Yfirlit yfir greiðslu lánardrottins](../accounts-payable/Vendor-payments-workspace.md).

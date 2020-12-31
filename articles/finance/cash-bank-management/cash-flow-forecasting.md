@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653777"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645770"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -92,6 +92,11 @@ Hægt er að taka með fjárhagsáætlanir sem stofnaðar eru úr áætlunarlík
 ### <a name="inventory-management"></a>Birgðir
 
 Hægt er að taka spár fyrir birgðaframboð og eftirspurn með í sjóðstreymisspám. Á flipanum **Birgðastjórnun** á síðunni **Uppsetning sjóðstreymisspár** skal velja spálíkön til að taka með í sjóðstreymisspá. Hægt er að skrifa yfir meðtalningu í sjóðstreymisspá í einstökum línum í spá um framboð og eftirspurn.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Setja upp vídd fyrir sjóðsstreymisspá
+Nýr flipi á síðunni **Uppsetning sjóðstreymisspár** gerir notendum kleift að hafa stjórn á því hvaða fjárhagsvíddir eru notaðar fyrir síun í vinnusvæðinu **Sjóðsstreymisspá**. Þessi flipi mun aðeins birtast þegar eiginleiki sjóðstreymisspár er virkur. 
+
+Á flipanum **Víddir** skal velja víddir af listanum sem á að nota fyrir síun og nota örvalyklana til að fara þá í dálkinn til hægri. Aðeins er hægt að velja tvær víddir til að sía spárgögn sjóðstreymisspár. 
 
 ### <a name="calculation"></a>Útreikningur
 

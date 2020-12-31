@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771261"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680195"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Undirbúa forritasértæk lýsigögn fyrir RCS og ER
 
@@ -221,7 +220,7 @@ Ef þú hefur þegar lokið við í ferlið [Fá aðgang að lýsigögnum hugbú
 
 1. Farðu í **Öll vinnusvæði \> Rafræn skýrslugerð**.
 2. Veldu **Tengd forrit**.
-3. Gakktu úr skugga um að skilgreint forrit sé byggt á Microsoft Azure og að það sé almennt aðgengilegt RCS-notendum. Núverandi notandi RCS verður að hafa aðgang að skilgreindu forriti og vera skráður sem notandi þessa forrits í hlutverki sem gefur honum eða henni réttindi til að fá aðgang að lýsigögnum forritsins.
+3. Gakktu úr skugga um að skilgreint forrit sé byggt á Microsoft Azure og að það sé almennt aðgengilegt RCS-notendum. Núverandi RCS-notandi verður að hafa aðgang að skilgreinda forritinu sem verið er að skrá sem notandi þessa forrits í hlutverki sem veitir honum réttindi til að fá aðgang að lýsigögnum forritsins.
 4. Veljið **Nýtt**.
 5. Í reitnum **Heiti** slærðu inn **MyConnectedApp** sem heiti tengds forrits.
 6. Í reitnum **Forrit** skaltu tilgreina slóð forritsins.

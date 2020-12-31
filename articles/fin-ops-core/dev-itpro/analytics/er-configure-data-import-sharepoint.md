@@ -3,26 +3,25 @@ title: Skilgreina gagnainnflutning úr SharePoint
 description: Þetta efnisatriði útskýrir hvernig á að flytja inn gögn frá Microsoft SharePoint.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/29/2018
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 1f7754a3e69238ab1760b3f7eb8f5e2c792b451b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771353"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680903"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Skilgreina gagnainnflutning úr SharePoint
 
@@ -43,7 +42,7 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
 - ER-snið og grunnstillingar líkans fyrir 1099 greiðslur.
 
 ### <a name="create-required-er-configurations"></a>Búðu til nauðsynlegar ER grunnstillingar
-Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Microsoft Excel skrám. Nánari upplýsingar er að finna í [Þátta skjöl á innleið á Excel-sniði](parse-incoming-documents-excel.md). Eftir að þú hefur lokið við verkefnaleiðbeiningarnar verður uppsetningin eftirfarandi:
+Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Microsoft Excel skrám. Nánari upplýsingar er að finna í [Þátta skjöl á innleið á Excel-sniði](parse-incoming-documents-excel.md). Eftir að lokið hefur verið við verkefnaleiðbeiningarnar verður uppsetningin eftirfarandi.
 
 #### <a name="er-configurations"></a>ER grunnstillingar
 
@@ -56,7 +55,7 @@ Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, 
 
 - Excel skrá **1099import-data.xlsx**, með lánardrottnafærslur sem ættu að vera fluttar inn.
 
-![Sýnishornaskrár Microsoft Excel til að flytja út úr SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Excel-sýniskrá til að flytja út úr SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Sniðið til að flytja inn lánardrottnafærslur er valið sem sjálfgefin vörpun líkans. Þess vegna, ef þú keyrir vörpun líkans **1099 Greiðslulíkan**, og þessi vörpun líkans er af **Til áfangastaðar** gerðinni, keyrir vörpun líkans þetta snið til að flytja inn gögn úr ytri skrám. Það notar síðan þessi gögn til að uppfæra töflur í forriti.
@@ -80,7 +79,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
     - Mappa villuskráa - Þessi mappa yrði fyrir skrár sem ekki tókst að flytja inn.
 
 4. Farðu í **Fyrirtækjastjórnun > Skjalastjórnun > Skjalagerðir**.
-5. Stofnið eftirfarandi skjalagerðir sem verða notaðar til að fá aðgang að möppum SharePoint sem þú stofnaðir rétt í þessu. Nánari leiðbeiningar er að finna í [Grunnstilla skjalagerðir](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Stofnið eftirfarandi skjalagerðir sem verða notaðar til að fá aðgang að möppum SharePoint sem voru stofnaðar. Nánari leiðbeiningar er að finna í [Grunnstilla skjalagerðir](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Gerð skjals       | Hópur              | Staður      | SharePoint-mappa      |
 |--------------------|--------------------|---------------|------------------------|
@@ -96,7 +95,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 1. Smelltu á **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Uppruni rafrænnar skýrslugerðar**.
 2. Á **Uppruni rafræn skýrslugerð** síðunni, skal grunnstilla upprunaskrár fyrir gagnainnflutning með því að nota grunnstillt ER snið.
 3. Skilgreindu sniðmát skráarheitis, þannig að aðeins skrár með .xlsx eftirnafninu eru fluttar inn. Sniðmát skráarheitis er valfrjálst og er aðeins notað þegar það hefur verið skilgreint. Þú getur aðeins skilgreint eitt sniðmát fyrir hvert ER-snið.
-4. Breyta **Raða skrám fyrir innflutning** í **Ekki raða** ef flytja á inn margar skrár og innflutningsröðin er ekki mikilvæg
+4. Breyta **Raða skrám fyrir innflutning** í **Ekki raða** ef flytja á inn nokkrar skrár og innflutningsröðin er ekki mikilvæg
 5. Velja allar SharePoint-möppur sem þú bjóst til áður.
 
     [![Stilling fyrir uppsprettu ER skráa](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
@@ -119,7 +118,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 
     [![SharePoint efni - Microsoft Excel skrá fyrir innflutning](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
-2. Á **Skráarstaða fyrir uppruna** síðu, veldu **Endurglæða** til að endurglæða síðuna. Athugaðu að Excel-skráin, sem var hlaðið upp í SharePoint, birtist á þessari síðu með stöðuna **Tilbúin**. Eftirfarandi stöður eru studdir núna:
+2. Á **Skráarstaða fyrir uppruna** síðu, veldu **Endurglæða** til að endurglæða síðuna. Excel-skráin, sem var hlaðið upp í SharePoint, birtist á þessari síðu með stöðuna **Tilbúin**. Eftirfarandi stöður eru studdir núna:
 
     - **Tilbúin** – Úthlutað sjálfkrafa fyrir hverja nýja skrá í SharePoint-möppu. Þessi staða merkir að skráin er tilbúin til innflutnings.
     - **Innflutningur** – Úthlutað sjálfkrafa af ER skýrslu þegar skráin verður læst með innflutningsferlinu til að koma í veg fyrir notkun þess af öðrum ferlum (ef margir þeirra eru í gangi samtímis).
@@ -127,21 +126,21 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
     - **Mistókst** – Úthlutað sjálfkrafa af ER skýrslu þegar skráarinnflutningi lauk með villum eða undantekningum.
     - **Í bið** – Notandi úthlutar handvirkt á þessari síðu. Þessi staða þýðir að skráin verður ekki flutt inn í bili. Þessi staða er hægt að nota til að fresta innflutningi sumra skráa.
 
-    [![Síða ER skráarstöðu fyrir valinn uppruna](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Uppfærð síða ER skráarstöðu fyrir valinn uppruna](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Flytja inn gögn úr SharePoint skrám.
 1. Opnaðu ER grunnstillingar tré, veldu **1099 Greiðslulíkan** og útvíkkaðu lista yfir ER líkan íhluti.
 2. Veldu heiti vörpunar líkans til að opna listann yfir varpanir líkans af valinni ER grunnstillingu líkans.
 
-    [![Síða ER skráarstöðu fyrir valinn uppruna](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Stillingasíða](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Veldu **Keyra** til að keyra valið vörpun líkans. Vegna þess að þú grunnstilltir skráaruppruna fyrir ER-sniðið, getur þú breytt stillingunni í valkostinum **Skráaruppruni** ef þörf krefur. Ef þú heldur stillingu þessa valkosts eru .xslx skrárnar fluttar frá grunnstilltum uppruna (SharePoint-möppurnar, í þessu dæmi).
 
     Í þessu dæmi flyturðu aðeins eina skrá. Hins vegar, ef það eru margar skrár, eru þau valdar til innflutnings í þeirri röð sem þeim voru bætt við SharePoint möppuna. Sérhver keyrsla af ER-sniði flytur inn eina valda skrá.
 
-    [![Keyra ER vörpun líkans](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Flytja inn úr SharePoint og keyra líkansvörpun rafrænnar skýrslugerðar](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
-4. Vörpun líkans getur keyrt eftirlitslaus í runuham. Í þessu tilfelli, í hvert skipti sem runa keyrir þetta ER snið, er ein skrá flutt inn frá grunnstilltur skráaruppruni.
+4. Vörpun líkans getur keyrt [eftirlitslaus](#limitations) í runustillingu. Í þessu tilfelli, í hvert skipti sem runa keyrir þetta ER snið, er ein skrá flutt inn frá grunnstilltur skráaruppruni.
 
     Þegar skrá er flutt inn frá SharePoint-möppunni á fullnægjandi máta, er henni eytt úr þeirri möppu og færð í möppu fyrir skrár sem tókst að flytja inn eða í möppuna fyrir innfluttar skrár með viðvörun. Annars er hún færð í möppu fyrir mislukkaðar skrár eða er geymd í þessari möppu ef ekki er búið að setja upp möppuna fyrir mislukkaðar skrár. 
 
@@ -151,7 +150,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 
 6. Á **Skráarstaða fyrir uppruna** síðu, veldu **Endurglæða** til að endurglæða síðuna.
 
-    [![Síða ER skráarstöðu fyrir valinn uppruna](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Skráarstöður rafrænnar skýrslugerðar fyrir upprunasíðuna](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Í **Skrár** hlutanum, skoðaðu listann yfir skrár. **Upprunaskráin fyrir innflutningssniðið** hlutinn veitir aðgang að sögu Excel skráarinnflutnings. Vegna þess að þessi skrá var flutt inn á fullnægjandi máta, er hún merkt sem **Eytt** í SharePoint möppunni.
 8. Yfirfara **Innflutningsuppruni skráa (aðal)** SharePoint möppuna. Excel-skrárnar, sem voru fluttar inn á fullnægjandi máta, hafa verið eytt úr þessum möppu.
@@ -179,9 +178,9 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 8. Veldu **Keyra** til að keyra breytta ER vörpun líkans.
 9. Sláðu inn kenni fylgiskjals, eins og **V-00002**, og veldu síðan **Í lagi**.
 
-    Athugaðu að Upplýsingaskrá inniheldur tilkynningu um að í SharePoint-möppu sé skrá sem inniheldur rangan lánardrottnalykil og er ekki hægt að flytja inn.
+    Upplýsingaskrá inniheldur tilkynningu um að í SharePoint-möppu sé skrá sem inniheldur rangan lánardrottnalykil og er ekki hægt að flytja inn.
 
-    [![Keyra ER vörpun líkans](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Loknar keyrslur ER vörpun líkans](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Á **Skráarstöður fyrir uppruna** síðu, veldu **Endurglæða**, og síðan, í **Skrár** hlutanum, skoðaðu listann yfir skrár.
 
@@ -192,3 +191,18 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 11. Veldu **Viðskiptaskuldir** \> **Reglubundin verkefni** \> **Skattur 1099** \> **Lánardrottnauppgjör fyrir 1099s**, sláðu inn viðeigandi gildi í **Frá dagsetningu** og **Til dagsetningar** og veldu síðan **Handvirkt 1099 færslur**.
 
     Aðeins færslur fyrir fylgiskjal V-00001 eru tiltækar. Engar færslur fyrir fylgiskjal V-00002 eru tiltækar þótt villan fyrir síðustu innfluttu færslu hafi fundist í Excel-skránni.
+
+## <a name=""></a><a name="limitations">Takmarkanir</a>
+
+Rammi rafrænnar skýrslugerðar býður ekki upp á getuna til að hefja nýja runuvinnslu sem framkvæmir líkanavörpun í fjarverustillingu fyrir gagnainnflutning. Til að gera þetta verður þú að þróa ný rök þannig að hægt sé að kalla á skilgreinda líkansvörpun rafrænnar skýslugerðar frá notendaviðmóti forritsins til að flytja inn gögn af skrám á innleið. Þess vegna er einhver hönnunarvinna nauðsynleg. 
+
+Frekari upplýsingar um API rafrænnar skýrslugerðar er að finna í hlutanum [Kóði til að keyra vörpun sniðs við gagnainnflutning](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) í efnisatriðinu [Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 7.3](er-apis-app73.md).
+
+Farið yfir kóðann í `BankImport_RU` -klasanum fyrir `Application Suite` -líkan til að sjá hvernig hægt er að innleiða sérsniðnu rökin. Þessi klasi víkkar `RunBaseBatch`-klasann. Skoðið sérstaklega `runER()` aðferðina þar sem `ERIModelMappingDestinationRun`-hluturinn er búinn til sem keyrsla á líkansvörpun rafrænnar skýrslugerðar.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+
+[Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 7.3](er-apis-app73.md)
+

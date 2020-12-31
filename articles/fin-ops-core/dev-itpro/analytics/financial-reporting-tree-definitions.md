@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564168"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682674"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skipuritsskilgreiningar í fjárhagsskýrslum
 
@@ -76,7 +75,7 @@ Til að stofna skipuritsskilgreiningu, skal fylgja eftirfarandi skrefum.
     | Hafa með/Staða stafs       | Þessi hluti Birtir víddirnar sem skilgreindar eru í fjárhagsgögnunum og sýnir fjölda stafa í lengsta skilgreinda gildi fyrir hverja vídd. Veljið þennan gátreit fyrir vídd sem skal hafa með í þeirri vídd í stigveldi skipuritsins. |
     | Hlutun stigveldis og sviða     | Þessi hluti sýnir stigveldi vídda. Hægt er að færa víddir til í listanum til að breyta röð þeirra í skýrslu. Tilgreina svið gilda innan hverrar víddar í á **Úr Vídd** og **Til Vídd** reiti. Ef ekkert svið er tilgreint verða öll víddargildi sett inn á skipuritið.<blockquote>[!NOTE] Ef verið er að nota fleiri en ein vídd munu aðeins víddarsamsetningar sem hefur verið bókað á skila sér í niðurstöðum.</blockquote> |
 
-    Fyrir skjáskot sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann "Dæmi um Setja inn einingar skipurits úr víddum-svarglugga" síðar í þessari grein.
+    Fyrir skjáskot sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann „Dæmi um Setja inn einingar skipurits úr víddum-svarglugga“ síðar í þessari grein.
 
 5. Til að stofna viðbótarhluta, (svo sem að skipta einum hluta í tvo styttri), er smellt á rétta staðsetningu í reitnum **Staða stafs** og svo smella á **Skipta hlutum**.
 6. Til að sameina tvo hluta í einn, er smellt í reit annars hlutans sem á að sameina og smella svo á **Sameina hluta**.
@@ -165,9 +164,9 @@ Hægt er að koma í veg fyrir að tilteknir notendur eða hópar fái aðgang a
 3. Í svarglugganum **Einingaröryggi** er heiti valið og síðan smellt á **Fjarlægja**.
 4. Smelltu á **Í lagi**.
 
-### <a name="link-toreports"></a>Tenglar í skýrslur
+### <a name="link-to-reports"></a>Tenglar í skýrslur
 
-Þegar dálkur af gerðinni **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
+Þegar dálkur af gerðinni **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Auðkenna skýrsluna í skipuritinu
 

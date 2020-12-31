@@ -3,7 +3,7 @@ title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
-ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
+ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
+ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3999550"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672445"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
@@ -114,17 +114,17 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Sérhver skýr
 | Efnahagsreikningur og Tekjuyfirlit Hlið við Hlið - Sjálfgefið | Skoða fjárhagslega stöðu fyrirtækisins og arðsemi ársins hlið við hlið.                                                                                                                                                                                                                              |
 | Sjóðstreymi - Sjálfgefið                                       | Fá yfirlit yfir lausafé sem er að koma inn og fara út úr fyrirtækinu.                                                                                                                                                                                                                                   |
 | Ítarleg JE og TB yfirlit– Sjálfgefið                      | Skoða opna stöðu og verkþáttar upplýsingar fyrir alla lykla.                                                                                                                                                                                                                                                      |
-| Ítarlegur prófjöfnuður - Sjálfgefið                         | Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa debet- og kreditfærslur og nettó stöðu þessara færslna ásamt færsludagsetningu, fylgiskjali og lýsingu færslubókar.                                                                                                                                  |
+| [Ítarlegur prófjöfnuður - Sjálfgefið](trial-balance-financial-reports.md)| Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa debet- og kreditfærslur og nettó stöðu þessara færslna ásamt færsludagsetningu, fylgiskjali og lýsingu færslubókar.                                                                                                                                  |
 | Útgjöld þriggja ára á ársfjórðungslegum grundvelli – Sjálfgefið             | Fá innsýn í kostnað fyrir síðustu 12 ársfjórðungar síðustu þriggja ára.                                                                                                                                                                                                                                   |
 | Fjárhagstextar JE og TB yfirlit – Sjálfgefið            | Sjá°yfirlit yfir fjárhagstexta varðandi stöður og verkþætti fyrir eign, skuld, eigið fé eiganda, tekjur, kostnaður, hagnaður eða tap.                                                                                                                                                                           |
-| Rekstrarreikningur – Sjálfgefin                                | Skoða arðsemi fyrirtækisins fyrir gildandi tímabil og°ár til dagsetningar.                                                                                                                                                                                                                                   |
+| [Rekstrarreikningur – Sjálfgefin](income-statement-financial-report.md)| Skoða arðsemi fyrirtækisins fyrir gildandi tímabil og°ár til dagsetningar.                                                                                                                                                                                                                                   |
 | Fjárhagshreyfingalisti - Sjálfgefið                        | Skoða upplýsingar um ítarlega stöðu fyrir alla lykla. Þessi skýrsla sýnir debet og kredit stöður, með nánari færsluupplýsingar eins og færsludagsetningu, færslubókarnúmer, fylgiskjal, bókunargerð og rakningarnúmer.                                                                            |
 | Hlutfallstölur – Sjálfgefin                                          | Skoða greiðsluþol,arðsemi og skilvirkni fyrirtækisins fyrir gildandi ár.                                                                                                                                                                                                                           |
 | Samantekt á útgjöldum 12 mánaða - Sjálfgefið                       | Fá innsýn í útgjöld fyrir hvern af síðustu 12 mánuðum. Þessir 12 mánuðir geta náð yfir meira en eitt fjárhagsár.                                                                                                                                                                                                       |
 | Samantekt á tekjuyfirliti ársfjórðungs - Sjálfgefið               | Skoða arðsemisgreiningu fyrirtækisins ársfjórðungslega á síðastliðnu ári og einnig ári til dagsetningar.                                                                                                                                                                                                                   |
 | Efnahagsreikningur hlið við Hlið – Sjálfgefin                      | Skoða fjárhagslega stöðu fyrirtækisins fyrir árið. Þessi skýrsla sýnir eignir og skuldir og eigið fé hluthafa hlið við hlið.                                                                                                                                                                                |
-| Samantekt á prófjöfnuði - Sjálfgefið                          | Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa opnun og lokun stöður og debet og kredit stöður með nettó mismun þeirra.                                                                                                                                                                  |
-| Samantekt á Prófjöfnuði Ári til Árs – Sjálfgefin           | Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa opnun- og lokun stöður og debet og kredit stöður með nettó mismun þeirra yfir núgildandi ár og fyrra ár.                                                                                                                           |
+| [Samantekt á prófjöfnuði - Sjálfgefið](trial-balance-financial-reports.md)| Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa opnun og lokun stöður og debet og kredit stöður með nettó mismun þeirra.                                                                                                                                                                  |
+| [Samantekt á Prófjöfnuði Ári til Árs – Sjálfgefin](trial-balance-financial-reports.md)| Skoða upplýsingar um stöðu fyrir alla reikninga sem hafa opnun- og lokun stöður og debet og kredit stöður með nettó mismun þeirra yfir núgildandi ár og fyrra ár.                                                                                                                           |
 | Vikulegar Sölur- og Afslættir - Sjálfgefið                     | Fá innsýn í sölu- og afslætti fyrir hverja viku í mánuði. Þessi skýrsla inniheldur fjögurra vikna samtölu.                                                                                                                                                                                                              |
 | Fjármagn fjárhagsáætlunar tiltækt - sjálfgefinn                         | Skoða sundurliðað samanburður af endurskoðað fjárhagsáætlun, raunútgjöld, frátekt fjárhagsáætlunar og fjármagn fjárhagsáætlunar tiltækt fyrir allir reikningar                                                                                                                                                                                  |
 
@@ -145,11 +145,12 @@ Nokkur algeng vandamál eru til staðar sem geta valdið vandræðum þegar Ský
 
 Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta**.
 
-* Í Internet Explorer, veljið **Stillingar** , síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði og veljið síðan **Vefsvæði**. Í **Bæta þessu vefsvæði við svæði** , skal færa inn „\*\.dynamics.com“ (án gæsalappa) og síðan velja **Bæta við**. 
-* Í Internet Explorer, veljið **Stillingar** , síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
+* Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði og veljið síðan **Vefsvæði**. Í **Bæta þessu vefsvæði við svæði**, skal færa inn „\*\.dynamics.com“ (án gæsalappa) og síðan velja **Bæta við**. 
+* Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
 * Slökkvið á sprettigluggavörninni í vafranum.
 * Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.6.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
-* Ef verið er að nota Microsoft Edge með Chrome-vafranum, verður að setja upp ClickOnce-viðauka til að sækja biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu. 
+* Ef verið er að nota Chrome vafra, verður að setja upp ClickOnce-viðauka til að sækja skýrslu Report Designer. Ef verið er að nota Chrome í huliðsstillingu skal ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Frekari upplýsingar um Chrome ClickOnce viðbótina er að finna í [Kerfisskilyrði fyrir uppsetningu í skýi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Ef notað er Microsoft Edge með Chrome-vafra þarf ekki að setja upp ClickOnce viðbót fyrir Edge Chromium. Hins vegar verður að kveikja á valkostinum ClickOnce til að sækja valkostinn biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu.
      1. Opna nýjan vafraglugga í Microsoft Edge.
      2. Sláið inn **edge://flags** og veljið **Færa inn**.
      3. Leitið að valkostinn **ClickOnce stuðningur** eða notið þennan beina tengil: **edge://flags/#edge-click-once**.

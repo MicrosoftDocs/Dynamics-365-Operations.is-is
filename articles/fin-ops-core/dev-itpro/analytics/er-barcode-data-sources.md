@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088198"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681425"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
 
@@ -131,23 +130,23 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðfærslu** , í hlutanum **Skilgreiningaveitur** , skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki skráð, eða ef það er ekki merkt sem virkt, skal fylgja skrefunum í efnisatriðinu [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki skráð, eða ef það er ekki merkt sem virkt, skal fylgja skrefunum í efnisatriðinu [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Sýnifyrirtækið stillt sem virkt á síðunni Skilgreiningar staðfæringar](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Flytja inn uppgefna lausn rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja reitinn **Skilgreiningar skýrslugerðar**.
-3. Á síðunni **Skilgreiningar** , ef skilgreiningin **Líkan fyrir ávísanir** er ekki tiltæk í skilgreiningartrénu, skal fylgja þessum skrefum til að flytja inn skilgreiningu fyrir gagnalíkan rafrænnar skýrslugerðar:
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja reitinn **Skilgreiningar skýrslugerðar**.
+3. Á síðunni **Skilgreiningar**, ef skilgreiningin **Líkan fyrir ávísanir** er ekki tiltæk í skilgreiningartrénu, skal fylgja þessum skrefum til að flytja inn skilgreiningu fyrir gagnalíkan rafrænnar skýrslugerðar:
 
     1. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
-    2. Í glugganum skal velja **Vafra** , finna og velja skrána **Model for cheques.xml** og síðan velja **Í lagi**.
+    2. Í glugganum skal velja **Vafra**, finna og velja skrána **Model for cheques.xml** og síðan velja **Í lagi**.
 
 4. Ef skilgreiningin **Prentsnið ávísunar** er ekki tiltækt í skilgreiningatrénu skal fylgja þessum skrefum til að flytja inn skilgreiningu fyrir snið rafrænnar skýrslugerðar:
 
     1. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
-    2. Í glugganum skal velja **Vafra** , finna og velja skrána **Cheques printing format.xml** og síðan velja **Í lagi**.
+    2. Í glugganum skal velja **Vafra**, finna og velja skrána **Cheques printing format.xml** og síðan velja **Í lagi**.
 
 5. Í skilgreiningatrénu skal víkka út **Líkan fyrir ávísanir**.
 6. Skoðaðu listann yfir innfluttar ER stillingar í stillingartrénu.
@@ -156,7 +155,7 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 
 1. Farið í **Reiðufjár- og bankastjórnun** \> **Bankareikningar** \> **Bankareikningar**.
 2. Á síðunni **Bankareikningar** skal velja lykilinn **USMF OPER**.
-3. Á upplýsingasíðu bankareiknings, á aðgerðasvæðinu, í flipanum **Setja upp** , í flokknum **Útlit** , skal velja **Ávísun**.
+3. Á upplýsingasíðu bankareiknings, á aðgerðasvæðinu, í flipanum **Setja upp**, í flokknum **Útlit**, skal velja **Ávísun**.
 4. Á síðunni **Útlit ávísunar** skal velja **Breyta**.
 5. Í flipanum **Almennt** skal stilla valkostinn **Almennt rafrænt útflutningssnið** á **Já**.
 6. Í reitnum **Skilgreining útflutningssniðs** skal velja **Prentsnið ávísana** fyrir snið rafrænnar skýrslugerðar sem flutt var inn áður.
@@ -183,8 +182,8 @@ Hægt er að nota skjáborðsforrit Excel til að opna skrána **Cheque template
 Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](modify-electronic-reporting-format-reapply-excel-template.md) breytta sniðmátið.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja **Skilgreiningar skýrslugerðar**.
-3. Á síðunni **Skilgreiningar** , í skilgreiningatrénu, skal stækka **Líkan fyrir ávísanir** og velja **Prentsnið ávísana**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja **Skilgreiningar skýrslugerðar**.
+3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu, skal stækka **Líkan fyrir ávísanir** og velja **Prentsnið ávísana**.
 4. Í aðgerðarúðunni skal velja **Hönnuður**.
 5. Í aðgerðarhönnuði rafrænnar skýrslugerðar skal velja flipann **Vörpun** hægra megin á síðunni og síðan á svæði trjásniðs vinstra megin skal velja **Stækka/fella saman**.
 6. Takið eftir því að allar einingar hólfasniðs eru bundnar við viðeigandi gagnagjafa.
@@ -192,7 +191,7 @@ Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](mod
     ![Binding hólfasniðseininga við gagnagjafa í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-barcode-data-source-cells-bound.png)
 
 7. Veljið flipann **Snið** hægra megin á síðunni.
-8. Á aðgerðasvæðinu skal velja úrfellingarmerkið ( **...** ) og síðan velja **Flytja inn**.
+8. Á aðgerðasvæðinu skal velja úrfellingarmerkið (**...**) og síðan velja **Flytja inn**.
 9. Í flokknum **Flytja inn** skal velja **Uppfæra úr Excel** og síðan velja **Uppfæra sniðmát**.
 10. Í glugganum skal fara í skrána **Cheque template Excel.xlsx** sem vistuð er í tölvunni, velja hana, og síðan velja **Í lagi** til að staðfesta að nota eigi valið sniðmát.
 11. Velja skal flipann **Vörpun** hægra megin á síðunni og síðan á svæði trjásniðs vinstra megin skal velja **Stækka/fella saman**.
@@ -205,11 +204,11 @@ Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](mod
 Næst þarf að bæta við nýjum gagnagjafa af gerðinni **Strikamerki**.
 
 1. Í aðgerðarhönnuði rafrænnar skýrslugerðar, í flipanum **Vörpun** hægra megin á síðunni, skal velja gagnagjafann **prenta**.
-2. Veljið **Bæta við** og síðan, í flokknum **Aðgerðir** , skal velja gagnagjafa af gerðinni **Strikamerki**.
+2. Veljið **Bæta við** og síðan, í flokknum **Aðgerðir**, skal velja gagnagjafa af gerðinni **Strikamerki**.
 
     ![Val á gagnagjafa af gerðinni strikamerki](./media/er-barcode-data-source-add.png)
 
-3. Í glugganum, í reitnum **Heiti** , skal slá inn **strikamerki**.
+3. Í glugganum, í reitnum **Heiti**, skal slá inn **strikamerki**.
 4. Í **Snið strikamerkis** skal velja **Kóði 128**.
 5. Í reitinn **Breidd** skal slá inn **500**.
 6. Veljið **Í lagi**.
@@ -229,7 +228,7 @@ Næst þarf að binda nýju sniðseininguna við gagnagjafann sem var verið að
 
 5. Veljið **Breyta formúlu** til að breyta bindingunni.
 
-    Þú vilt ekki að heiti hólfaeiningarinnar verði skilað til baka. Því verður að skilgreina segð sem skilar texta sem inniheldur ógreidda upphæð á núverandi ávísun. Vegna þess að yfirsviðið **ChequeLines** er bundið við gagnagjafann **model.cheques** , er ógreidd upphæð núverandi ávísunar tiltæk í reitnum **model.cheques.attributes.amount** af gagnagerðinni **Raungildi**.
+    Þú vilt ekki að heiti hólfaeiningarinnar verði skilað til baka. Því verður að skilgreina segð sem skilar texta sem inniheldur ógreidda upphæð á núverandi ávísun. Vegna þess að yfirsviðið **ChequeLines** er bundið við gagnagjafann **model.cheques**, er ógreidd upphæð núverandi ávísunar tiltæk í reitnum **model.cheques.attributes.amount** af gagnagerðinni **Raungildi**.
 
 6. Í reitinn **Formúla** skal færa inn **print.barcode(NUMBERFORMAT(@.attribute.amount, „F2“))**.
 7. Veljið **Vista** og lokið síðan [Aðgerðarhönnuði rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md).
@@ -250,8 +249,8 @@ Ef halda á áfram að vinna með núverandi útgáfudrög, en nota þarf þau t
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Ljúka við breytt útgáfusnið
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja **Skilgreiningar skýrslugerðar**.
-3. Á síðunni **Skilgreiningar** , í skilgreiningatrénu, skal stækka **Líkan fyrir ávísanir** og velja **Prentsnið ávísana**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja **Skilgreiningar skýrslugerðar**.
+3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu, skal stækka **Líkan fyrir ávísanir** og velja **Prentsnið ávísana**.
 4. Í flýtiflipanum **Útgáfur** skal velja færsluna sem er með stöðuna **Drög**.
 5. Veljið **Breyta stöðu** og veljið síðan **Ljúka**.
 6. Í svarglugganum skal velja **Í lagi**.
@@ -261,8 +260,8 @@ Staða núverandi útgáfu er breytt úr **Drög** í **Lokið** og ný útgáfa
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Bjóða upp á að nota útgáfudrög
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja **Skilgreiningar skýrslugerðar**.
-3. Á síðunni **Skilgreiningar** , í aðgerðarúðunni, á flipanum **Skilgreiningar** , í flokknum **Ítarlegar stillingar** , skal velja **Færibreytur notanda**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja **Skilgreiningar skýrslugerðar**.
+3. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, á flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 4. Í glugganum skal stilla valkostinn **Keyra stillingu** á **Já** og síðan velja **Í lagi**.
 5. Í skilgreiningatrénu skal stækka **Líkan fyrir ávísanir** og velja **Prentsnið ávísana**.
 6. Stillið valkostinn **Keyra drög** á **Já**.
@@ -274,8 +273,8 @@ Staða núverandi útgáfu er breytt úr **Drög** í **Lokið** og ný útgáfa
 
 1. Farið í **Reiðufjár- og bankastjórnun** \> **Bankareikningar** \> **Bankareikningar**.
 2. Á síðunni **Bankareikningar** skal velja lykilinn **USMF OPER**.
-3. Á upplýsingasíðu bankareiknings, á aðgerðasvæðinu, í flipanum **Setja upp** , í flokknum **Útlit** , skal velja **Ávísun**.
-4. Á síðunni **Útlit ávísunar** , á aðgerðasvæðinu, skal velja **Prenta sýnishorn**.
+3. Á upplýsingasíðu bankareiknings, á aðgerðasvæðinu, í flipanum **Setja upp**, í flokknum **Útlit**, skal velja **Ávísun**.
+4. Á síðunni **Útlit ávísunar**, á aðgerðasvæðinu, skal velja **Prenta sýnishorn**.
 5. Í glugganum skal stilla valkostinn **Snið fyrir framseljanlega ávísun** á **Já**.
 6. Veljið **Í lagi**.
 7. Fara yfir myndaða ávísun. Takið eftir að strikamerki hefur verið myndað til að kóða ógreidda upphæð ávísunarinnar.

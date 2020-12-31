@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c19fef3e62eec48e66f7cec824afee3ebb25209e
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088221"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683017"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Sérstilla skilgreiningar rafrænnar skýrslugerðar til að búa til rafrænt skjal
 
@@ -62,10 +61,10 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar eða þr�
 ### <a name="configure-er-parameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Tengdir tenglar** , skal velja **Færibreytur rafrænnar skýrslugerðar**.
-3. Á síðunni **Færibreytur rafrænnar skýrslugerðar** , í flipanum **Almennt** , skal stilla valkostinn **Kveikja á hönnunarstillingu** á **Já**.
-4. Í flipanum **Viðhengi** , í reitnum **Skilgreiningar** , skal velja **Skrá**.
-5. Í reitunum **Verksafn** , **Tímabundið** , **Grunnlína** og **Annað** skal velja gerð fyrir **Skrá**.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Færibreytur rafrænnar skýrslugerðar**.
+3. Á síðunni **Færibreytur rafrænnar skýrslugerðar**, í flipanum **Almennt**, skal stilla valkostinn **Kveikja á hönnunarstillingu** á **Já**.
+4. Í flipanum **Viðhengi**, í reitnum **Skilgreiningar**, skal velja **Skrá**.
+5. Í reitunum **Verksafn**, **Tímabundið**, **Grunnlína** og **Annað** skal velja gerð fyrir **Skrá**.
 
 Frekari upplýsingar um færibreytur rafrænnar skýrslugerðar er að finna í [Skilgreina ramma rafrænnar skýrslugerðar](electronic-reporting-er-configure-parameters.md).
 
@@ -79,13 +78,13 @@ Allar skilgreiningar rafrænnar skýrslugerðar sem bætt er við eru merktar se
 #### <a name="review-the-list-of-er-configuration-providers"></a>Fara yfir lista yfir skilgreiningarveitur rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Tengdir tenglar** , skal velja **Skilgreiningarveitur**.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Skilgreiningarveitur**.
 3. Á síðunni **Tafla yfir skilgreiningarveitur** er hver færsla með einkvæmt heiti og vefslóð. Farið yfir efnið á þessari síðu. Ef færsla fyrir **Litware, Inc.** (`https://www.litware.com`) er þegar til skal sleppa næsta ferli, [Bæta við nýrri skilgreiningarveitu rafrænnar skýrslugerðar](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Bæta við nýrri skilgreiningarveitu rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Tengdir tenglar** , skal velja **Skilgreiningarveitur**.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Skilgreiningarveitur**.
 3. Á síðunni **Skilgreiningarveitur** skal velja **Ný**.
 4. Í reitinn **Heiti** skal færa inn **Litware, Inc.**
 5. Í reitinn **Veffang** skal færa inn `https://www.litware.com`.
@@ -94,7 +93,7 @@ Allar skilgreiningar rafrænnar skýrslugerðar sem bætt er við eru merktar se
 #### <a name="activate-an-er-configuration-provider"></a>Virkja skilgreiningarveitu rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Skilgreiningarveitur** , skal velja reitinn **Litware, Inc.** og síðan velja **Stilla sem virkt**.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Litware, Inc.** og síðan velja **Stilla sem virkt**.
 
 Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að finna í [Stofna skilgreiningarveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -103,9 +102,9 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi Finance-tilvikið þitt, þarftu að flytja þær inn úr [gagnageymslu](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar sem var skilgreind fyrir það tilvik.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Skilgreiningarveitur** , skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir Microsoft-veituna.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir Microsoft-veituna.
 3. Á síðunni **Skilgreiningageymslur** skal velja gagnageymslu af gerðinni **Altæk** og síðan velja **Opna**. Ef beðið er um heimild til að tengjast við Regulatory Configuration Service, skal fylgja leiðbeiningum um heimild.
-4. Á síðunni **Skilgreiningageymsla** , í skilgreiningatrénu vinstra megin á svæðinu, skal velja skilgreiningarsniðið **PEPPOL sölureikningur**.
+4. Á síðunni **Skilgreiningageymsla**, í skilgreiningatrénu vinstra megin á svæðinu, skal velja skilgreiningarsniðið **PEPPOL sölureikningur**.
 5. Í flýtiflipanum **Útgáfur** skal velja útgáfuna **11.2.2**.
 6. Veljið **Flytja inn** til að sækja valda útgáfu úr altækri geymslu.
 
@@ -117,22 +116,22 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 ### <a name="review-the-imported-er-configurations"></a>Skoða innfluttar skilgreiningar rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja reitinn **Skilgreiningar skýrslugerðar**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja reitinn **Skilgreiningar skýrslugerðar**.
 3. Á síðunni **Skilgreiningar** skal stækka flýtiflipann **Skilgreiningarþættir**.
 4. Í skilgreiningartrénu vinstra megin skal stækka **Reikningslíkan** og síðan stækka **UBL-sölureikning**.
 
-Takið eftir að til viðbótar við valið rafrænt skýrslugerðarsnið **PEPPOL sölureikningur** , voru aðrar áskildar skilgreiningar rafrænnar skýrslugerðar fluttar inn. Vegna þess að nýjar útgáfur af skilgreiningum rafrænnar skýrslugerðar eru jafnt og þétt birtar í altækri geymslu og LCS til að samsvarandi lausnir fylgi eftir nýjum kröfum, voru nýjustu útgáfur af nauðsynlegri skilgreiningu [gagnalíkans](general-electronic-reporting.md#data-model-and-model-mapping-components) og skilgreiningum [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) fluttar inn.
+Takið eftir að til viðbótar við valið rafrænt skýrslugerðarsnið **PEPPOL sölureikningur**, voru aðrar áskildar skilgreiningar rafrænnar skýrslugerðar fluttar inn. Vegna þess að nýjar útgáfur af skilgreiningum rafrænnar skýrslugerðar eru jafnt og þétt birtar í altækri geymslu og LCS til að samsvarandi lausnir fylgi eftir nýjum kröfum, voru nýjustu útgáfur af nauðsynlegri skilgreiningu [gagnalíkans](general-electronic-reporting.md#data-model-and-model-mapping-components) og skilgreiningum [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) fluttar inn.
 
 ![Skilgreiningasíða](./media/er-quick-start3-imported-solution1a.png)
 
 Til að líkja eftir stöðunni sem skilgreiningar rafrænnar skýrslugerðar í núverandi Finance-tilviki yrðu ef þú fluttir inn útgáfu **11.2.2** af rafrænu skýrslugerðarsniðinu **PEPPOL sölureikningur** áður fyrr (til dæmis 7. ágúst 2019), skal fylgja þessum skrefum.
 
-- Á aðgerðasvæðinu skal velja **Eyða** til að eyða öllum skilgreiningum rafrænnar skýrslugerðar sem voru gefnar út eftir 7. ágúst 2019. Aðeins skilgreiningarnar **Reikningslíkan** , **Líkanavörpun reiknings** (hét upprunalega **Líkanavörpun viðskiptavinareiknings** ), **UBL-sölureikningur** og **PEPPOL sölureikningur** verða að vera eftir.
-- Fyrir eftirstandandi skilgreiningar rafrænnar skýrslugerðar, í flýtiflipanum **Útgáfur** , skal velja **Eyða** til að eyða öllum útgáfum af skilgreiningum rafrænnar skýrslugerðar sem voru gefnar út eftir 7. ágúst 2019.
+- Á aðgerðasvæðinu skal velja **Eyða** til að eyða öllum skilgreiningum rafrænnar skýrslugerðar sem voru gefnar út eftir 7. ágúst 2019. Aðeins skilgreiningarnar **Reikningslíkan**, **Líkanavörpun reiknings** (hét upprunalega **Líkanavörpun viðskiptavinareiknings**), **UBL-sölureikningur** og **PEPPOL sölureikningur** verða að vera eftir.
+- Fyrir eftirstandandi skilgreiningar rafrænnar skýrslugerðar, í flýtiflipanum **Útgáfur**, skal velja **Eyða** til að eyða öllum útgáfum af skilgreiningum rafrænnar skýrslugerðar sem voru gefnar út eftir 7. ágúst 2019.
 
 Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í skilgreiningartrénu:
 
-- **Reikningslíkan** skilgreining gagnalíkans rafrænnar skýrslugerðar (hét upphaflega **Reikningslíkan viðskiptavinar** ):
+- **Reikningslíkan** skilgreining gagnalíkans rafrænnar skýrslugerðar (hét upphaflega **Reikningslíkan viðskiptavinar**):
 
     - Útgáfa 11 inniheldur útgáfu 10 af [gagnalíkansþætti](general-electronic-reporting.md#data-model-and-model-mapping-components) rafrænnar skýrslugerðar sem stendur fyrir gagnskipulag viðskiptaléns reikningsfærslunnar. Þessi skilgreining rafrænnar skýrslugerðar hefur verið flutt inn sem eldri útgáfa af rafrænu skýrslugerðarsniði **PEPPOL sölureiknings** sem var valið fyrir innflutning.
     - Útgáfa 50 inniheldur útgáfu 31 af gagnalíkansþætti rafrænnar skýrslugerðar. Þessi skilgreining rafrænnar skýrslugerðar hefur verið flutt inn sem eldri útgáfa af útgáfunni frá 7. ágúst 2019 af skilgreiningu **Líkanavörpunar reiknings** fyrir rafræn skýrslugerð.
@@ -142,7 +141,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
     > [!TIP]
     > Ef þú sérð ekki útgáfu 50 af þessu gagnalíkani skaltu opna altæku geymsluna og flytja inn útgáfu 50.19 af skilgreiningu **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð.
 
-- Skilgreinin **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð (hét upphaflega **Líkanavörpun viðskiptavinareiknings** ):
+- Skilgreinin **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð (hét upphaflega **Líkanavörpun viðskiptavinareiknings**):
 
     - Útgáfa 50.19 hefur verið flutt inn sem nýjasta innleiðingin af útgáfu 50 af skilgreiningu **Reikningslíkans** fyrir gagnalíkan rafrænnar skýrslugerðar. Hún inniheldur tvo þætti [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) fyrir rafræna skýrslugerð sem lýsa því hvernig fyllt er út í gagnalíkanið með forritsgögnum á keyrslutíma.
 
@@ -164,7 +163,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Skilgreina færibreytur viðskiptakrafna
 
 1. Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur viðskiptakröfu**.
-2. Í flipanum **Rafræn skjöl** , í flýtiflipanum **Rafræn skýrslugerð** , í reitnum **Sölu- og kreditreikningur með frjálsum texta** , skal velja **PEPPOL-sölureikningur**.
+2. Í flipanum **Rafræn skjöl**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Sölu- og kreditreikningur með frjálsum texta**, skal velja **PEPPOL-sölureikningur**.
 3. Veljið **Vista**.
 
 ![Flipi fyrir rafræn skjöl á færibreytusíðu viðskiptakrafna](./media/er-quick-start3-configure-ar1.png)
@@ -172,7 +171,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Skilgreina færibreytur lögaðila
 
 1. Fara í **Fyrirtækisstjórnun** \> **Fyrirtæki** \> **Lögaðilar**.
-2. Fyrir valda fyrirtækið **DEMF** , í flýtiflipanum **Bankareikningsupplýsingar** , í reitinn **Leiðarnúmer** , skal slá inn **1234**.
+2. Fyrir valda fyrirtækið **DEMF**, í flýtiflipanum **Bankareikningsupplýsingar**, í reitinn **Leiðarnúmer**, skal slá inn **1234**.
 3. Veljið **Vista**.
 4. Lokið síðunni **Lögaðilar**.
 
@@ -184,16 +183,16 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 ### <a name="add-a-customer-contact"></a>Bæta við tengilið viðskiptavinar
 
 1. Farið í **Viðskiptakröfur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**.
-2. Á aðgerðasvæðinu, í flipanum **Viðskiptavinir** , í flokknum **Lyklar** , skal velja **Tengiliðir**.
+2. Á aðgerðasvæðinu, í flipanum **Viðskiptavinir**, í flokknum **Lyklar**, skal velja **Tengiliðir**.
 3. Veljið **Bæta við tengiliðum**.
-4. Á síðunni **Tengiliðir** , í reitnum **Fornafn** , skal opna uppflettinguna, velja **Adam Carter** og síðan velja **Velja** til að loka uppflettingunni.
+4. Á síðunni **Tengiliðir**, í reitnum **Fornafn**, skal opna uppflettinguna, velja **Adam Carter** og síðan velja **Velja** til að loka uppflettingunni.
 5. Veljið **Vista**.
 6. Lokið síðunni **Tengliðir**.
 
 ### <a name="define-a-primary-contact"></a>Skilgreina aðaltengilið
 
 1. Farið í **Viðskiptakröfur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**.
-2. Á flýtiflipanum **Lýðfræðilegar sölur** , í reitnum **Aðaltengiliður** , skal velja **Adam Carter**.
+2. Á flýtiflipanum **Lýðfræðilegar sölur**, í reitnum **Aðaltengiliður**, skal velja **Adam Carter**.
 
 ### <a name="set-the-e-invoicing-option"></a>Stilla valkost rafrænnar reikningsfærslu
 
@@ -210,7 +209,7 @@ Nú er hægt að nota staðlaðar skilgreiningar rafrænnar skýrslugerðar sem 
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
 2. Á síðunni **Reikningur með frjálsum texta** skal velja **Nýr**.
-3. Í flýtiflipanum **Haus textareiknings** , í reitnum **Viðskiptavinalykill** , skal velja **DE-014**.
+3. Í flýtiflipanum **Haus textareiknings**, í reitnum **Viðskiptavinalykill**, skal velja **DE-014**.
 4. Í flýtiflipanum **Reikningslínur** er reikningslínu sjálfkrafa bætt við. Stillið eftirfarandi reiti í þessari línu:
 
     - Í reitinn **Lýsing** skal slá inn **Minnisbók**.
@@ -226,7 +225,7 @@ Nánari upplýsingar er að finna í [Stofna reikning með frjálsum texta](../.
 ### <a name="post-a-new-invoice"></a>Bóka nýjan reikning
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
-2. Á síðunni **Reikningur með frjálsum texta** , á aðgerðasvæðinu, skal velja **Bóka**.
+2. Á síðunni **Reikningur með frjálsum texta**, á aðgerðasvæðinu, skal velja **Bóka**.
 3. Í gátreitinn **Bóka reikning með frjálsum texta** skal velja **Í lagi**.
 
 ![Upplýsingasíða um reikninga með frjálsum texta](./media/er-quick-start3-post-invoice.png)
@@ -234,7 +233,7 @@ Nánari upplýsingar er að finna í [Stofna reikning með frjálsum texta](../.
 ### <a name="send-a-posted-invoice"></a>Senda bókaðan reikning
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
-2. Á síðunni **Reikningur með frjálsum texta** , á aðgerðasvæðinu, í flokknum **Skjal** , skal velja **Senda** \> **Upprunalegt**.
+2. Á síðunni **Reikningur með frjálsum texta**, á aðgerðasvæðinu, í flokknum **Skjal**, skal velja **Senda** \> **Upprunalegt**.
 
     ![Forskoðun upprunalega reikningsins](./media/er-quick-start3-send-invoice.png)
 
@@ -270,7 +269,7 @@ Fylgjið þessum skrefum til að gera sérstillinguna.
 
 4. Í valmyndinni **Sérstilla** skal velja **Bæta við reit**.
 5. Í svarglugganum **Bæta við dálkum** skal velja **Stofna nýjan reit**.
-6. Í svarglugganum **Stofna nýjan reit** , í reitnum **Töfluheiti** , skal velja **Viðskiptavinir**.
+6. Í svarglugganum **Stofna nýjan reit**, í reitnum **Töfluheiti**, skal velja **Viðskiptavinir**.
 7. Í reitinn **Forskeyti heitis** skal færa inn **FederalTaxID**.
 
     > [!NOTE]
@@ -305,9 +304,9 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar, geturðu
 #### <a name="add-a-custom-data-model-configuration"></a>Bæta við sérstilltri skilgreiningu gagnalíkans
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar**.
 3. Í aðgerðasvæðinu velurðu **Stofna skilgreiningu**.
-4. Í fellilistanum, í reitnum **Ný** , skal velja **Leiða af heiti: Reikningslíkan viðskiptavinarm Microsoft** til að gefa til kynna að nýja sérstillta skilgreiningin þín af gagnalíkani rafrænnar skýrslugerðar eigi að vera í skilgreiningu gagnalíkans rafrænnar skýrslugerðar.
+4. Í fellilistanum, í reitnum **Ný**, skal velja **Leiða af heiti: Reikningslíkan viðskiptavinarm Microsoft** til að gefa til kynna að nýja sérstillta skilgreiningin þín af gagnalíkani rafrænnar skýrslugerðar eigi að vera í skilgreiningu gagnalíkans rafrænnar skýrslugerðar.
 5. Í reitinn **Heiti** skal færa inn **Reikningslíkan (Litware)**.
 6. Veljið **Stofna skilgreiningu** til að bæta við nýrri skilgreiningu rafrænnar skýrslugerðar.
 
@@ -319,12 +318,12 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 
 Þú verður að breyta sérsniðnu gagnalíkaninu með því að bæta við nýjum reit til að gefa upp gildi auðkenniskóða alríkisskatts. Þessi kóði er hluti af gögnum viðskiptavinar fyrir hvert snið rafrænnar skýrslugerðar sem notar þetta gagnalíkan sem gagnagjafa.
 
-1. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal velja **Reikningslíkan (Litware)**.
+1. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal velja **Reikningslíkan (Litware)**.
 2. Í flýtiflipanum **Útgáfur** skal velja útgáfuna **50.1** af valdri skilgreiningu á gagnalíkani rafræns skýrslugerðarsniðs í stöðunni **Drög**.
 3. Á aðgerðasvæðinu skal velja **Hönnuður** fyrir valda útgáfu skilgreiningar.
-4. Á síðunni **Hönnuður gagnalíkans** , í gagnalíkanstrénu, skal velja **Upplýsingar um viðskiptavin (viðskiptavinur)**.
+4. Á síðunni **Hönnuður gagnalíkans**, í gagnalíkanstrénu, skal velja **Upplýsingar um viðskiptavin (viðskiptavinur)**.
 5. Veljið **Nýtt**.
-6. Í fellilistanum, í reitnum **Nýr hnútur sem** , skal samþykkja sjálfgefið gildi, **Undireining virks hnúts**.
+6. Í fellilistanum, í reitnum **Nýr hnútur sem**, skal samþykkja sjálfgefið gildi, **Undireining virks hnúts**.
 7. Í reitinn **Heiti** skal færa inn **FederalTaxID\_Litware**.
 8. Í reitnum **Gerð atriðis** skal samþykkja sjálfgefið gildi, **Strengur**.
 9. Veljið **Bæta við** og veljið síðan **Vista**.
@@ -341,7 +340,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 [Ljúka](general-electronic-reporting.md#component-versioning) þarf vinnunni á útgáfu 50.1 af sérstilltri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar til að gera hana aðgengilega þannig að hægt sé að bæta við öðrum sérstilltum skilgreiningum rafrænnar skýrslugerðar.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** og velja **Reikningslíkan (Litware)**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** og velja **Reikningslíkan (Litware)**.
 3. Í flýtiflipanum **Útgáfur** skal velja **Breyta stöðu** \> **Ljúka** og síðan velja **Í lagi**.
 
 Staða útgáfu 50.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfu 50.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar.
@@ -355,9 +354,9 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar geturðu 
 #### <a name="add-a-custom-model-mapping-configuration"></a>Bæta við nýrri sérstilltri skilgreiningu á líkanavörpun
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** og velja **Vörpun reikningslíkans viðskiptavinar**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** og velja **Vörpun reikningslíkans viðskiptavinar**.
 3. Í aðgerðasvæðinu velurðu **Stofna skilgreiningu**.
-4. Í fellilistanum, í reitnum **Ný** , skal velja **Leiða af heiti: Vörpun reikningslíkans viðskiptavinar Microsoft** til að gefa til kynna að nýja sérstillta skilgreiningin þín á líkanavörpun rafrænnar skýrslugerðar eigi að byggjast á skilgreiningu líkanavörpunar rafrænnar skýrslugerðar.
+4. Í fellilistanum, í reitnum **Ný**, skal velja **Leiða af heiti: Vörpun reikningslíkans viðskiptavinar Microsoft** til að gefa til kynna að nýja sérstillta skilgreiningin þín á líkanavörpun rafrænnar skýrslugerðar eigi að byggjast á skilgreiningu líkanavörpunar rafrænnar skýrslugerðar.
 5. Í reitinn **Heiti** skal færa inn **Vörpun reikningslíkans (Litware)**.
 6. Í reitnum **Marklíkan** skal velja **Reikningslíkan (Litware)**.
 
@@ -373,14 +372,14 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar geturðu 
 Breyta þarf sérstilltri vörpun líkans og tilgreina hvernig fylla á út sérstillta reitinn **FederalTaxID\_Litware** fyrir sérstillta gagnalíkanið með forritsgögnum á keyrslutíma.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **Vörpun á reikningslíkani viðskiptavinar** og velja **Vörpun Reikningslíkans (Litware)**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **Vörpun á reikningslíkani viðskiptavinar** og velja **Vörpun Reikningslíkans (Litware)**.
 3. Í aðgerðarúðunni skal velja **Hönnuður**.
 4. Á síðunni **Vörpun líkans í gagnagjafa** skal velja vörpunina **Reikningur viðskiptavinar**.
 
     ![Síðan fyrir vörpun líkans í gagnagjafa](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Veljið **Hönnuður**.
-6. Á síðunni **Hönnuður líkanavörpunar** , á svæðinu **Gagnagjafar** , skal stækka gagnagjafann **CustInvoiceJour** sem stendur fyrir forritstöfluna **CustInvoiceJour**.
+6. Á síðunni **Hönnuður líkanavörpunar**, á svæðinu **Gagnagjafar**, skal stækka gagnagjafann **CustInvoiceJour** sem stendur fyrir forritstöfluna **CustInvoiceJour**.
 7. Undir **CustInvoiceJour** skal stækka **Tengsl** til að fara yfir listann af tengslum af gerðinni „margar við eina“ (N:1) fyrir töfluna **CustInvoiceJour**.
 8. Undir **CustInvoiceJour** \> **Tengsl** skal stækka **Viðskiptavinir (CustTable)** til að fá aðgang að reitum og tengslum í töflunni **Viðskiptavinir (CustTable)**.
 9. Veljið **FederalTaxID\_Custom** gagnaveitusvæðið sem var innleitt [fyrr](#insert_custom_field).
@@ -398,7 +397,7 @@ Breyta þarf sérstilltri vörpun líkans og tilgreina hvernig fylla á út sér
 [Ljúka](general-electronic-reporting.md#component-versioning) þarf við vinnuna á útgáfu 50.19.1 á sérstilltri skilgreiningu á líkanavörpun rafrænnar skýrslugerðar til að gera hana aðgengilega.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **Vörpun á reikningslíkani viðskiptavinar** og velja **Vörpun Reikningslíkans (Litware)**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **Vörpun á reikningslíkani viðskiptavinar** og velja **Vörpun Reikningslíkans (Litware)**.
 3. Í flýtiflipanum **Útgáfur** skal velja **Breyta stöðu** \> **Ljúka** og síðan velja **Í lagi**.
 
 Staða útgáfu 50.19.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 50.19.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á líkanavörpun rafrænnar skýrslugerðar.
@@ -406,7 +405,7 @@ Staða útgáfu 50.19.1 er breytt úr **Drög** í **Lokið** og útgáfa verðu
 ![Útgáfu 50.19.1 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
-> [Stuðningstími](general-electronic-reporting-manage-configuration-lifecycle.md) skilgreiningarinnar nær ekki yfir stuðningstíma gagnagrunnsbreytinganna. Ef útgáfa 50.19.1 af skilgreiningunni **Vörpun reikningslíkans (Litware)** er flutt út úr núverandi Finance-tilviki og reynt að flytja hana inn í annað tilvik sem inniheldur ekki sérstilltan reit **FederalTaxID\_Custom** í töflunni **CustTable** , kemur upp undantekning. Undantekningin útskýrir að innflutt skilgreining rafrænnar skýrslugerðar samræmist ekki lýsigögnum Finance-tilviksins.
+> [Stuðningstími](general-electronic-reporting-manage-configuration-lifecycle.md) skilgreiningarinnar nær ekki yfir stuðningstíma gagnagrunnsbreytinganna. Ef útgáfa 50.19.1 af skilgreiningunni **Vörpun reikningslíkans (Litware)** er flutt út úr núverandi Finance-tilviki og reynt að flytja hana inn í annað tilvik sem inniheldur ekki sérstilltan reit **FederalTaxID\_Custom** í töflunni **CustTable**, kemur upp undantekning. Undantekningin útskýrir að innflutt skilgreining rafrænnar skýrslugerðar samræmist ekki lýsigögnum Finance-tilviksins.
 
 ### <a name="customize-the-format-configuration"></a>Sérstilla skilgreiningu sniðs
 
@@ -415,9 +414,9 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar, geturðu
 #### <a name="add-a-custom-format-configuration"></a>Bæta við sérstilltri skilgreiningu sniðs
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** og velja **PEPPOL-sölureikningur**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** og velja **PEPPOL-sölureikningur**.
 3. Í aðgerðasvæðinu velurðu **Stofna skilgreiningu**.
-4. Í fellilistanum, í reitnum **Ný** , skal velja **Leiða af heiti: PEPPOL-sölureikningur, Microsoft** til að gefa til kynna að sérstillta skilgreiningin þín á sniði rafrænnar skýrslugerðar eigi að byggjast á skilgreiningu rafrænnar skýrslugerðar.
+4. Í fellilistanum, í reitnum **Ný**, skal velja **Leiða af heiti: PEPPOL-sölureikningur, Microsoft** til að gefa til kynna að sérstillta skilgreiningin þín á sniði rafrænnar skýrslugerðar eigi að byggjast á skilgreiningu rafrænnar skýrslugerðar.
 5. Í reitinn **Heiti** skal færa inn **Peppol-sölureikningur (Litware)**.
 6. Í reitnum **Gagnalíkan** skal velja **Reikningslíkan (Litware)** til að nota sérsniðna hluti gagnalíkans og líkanavörpunar.
 
@@ -438,11 +437,11 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 Þú verður að breyta sérstillta sniðinu með því að bæta við nýrri sniðseiningu til að fylla út í gildið auðkenniskóða alríkisskatts fyrir reikningsfærðan viðskiptavin.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
 3. Í aðgerðarúðunni skal velja **Hönnuður**.
 4. Í sniðstrénu skal stækka **XMLHeader** \> **Reikningur** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** og velja **cbc:ID**.
 5. Veljið **Bæta við** og veljið síðan **XML** \> **Eigind**.
-6. Í svarglugganum **Eiginleiki hlutar** , í reitinn **Heiti** , skal færa inn **FederalTaxID**.
+6. Í svarglugganum **Eiginleiki hlutar**, í reitinn **Heiti**, skal færa inn **FederalTaxID**.
 7. Veljið **Í lagi** til að bæta við nýrri sniðseiningu til að stofna nýja XML-eigind **FederalTaxID** í myndaðri XML-skrá.
 8. Í sniðstrénu sundir **XMLHeader** \> **Reikningur** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** og velja **FederalTaxID**.
 9. Veldu **Færa upp**.
@@ -467,7 +466,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 [Ljúka](general-electronic-reporting.md#component-versioning) þarf við vinnuna á útgáfu 11.2.2.1 á sérstilltri skilgreiningu rafræns skýrslugerðarsniðs til að gera hana aðgengilega.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan viðskiptavinar** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
 3. Í flýtiflipanum **Útgáfur** skal velja **Breyta stöðu** \> **Ljúka** og síðan velja **Í lagi**.
 
 Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 11.2.2.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á sniði rafrænnar skýrslugerðar.
@@ -477,7 +476,7 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Skilgreina færibreytur viðskiptakrafna til að byrja að nota sérstilltar skilgreiningar rafrænnar skýrslugerðar
 
 1. Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur viðskiptakröfu**.
-2. Í flipanum **Rafræn skjöl** , í flýtiflipanum **Rafræn skýrslugerð** , í reitnum **Sölu- og kreditreikningur með frjálsum texta** , skal velja **PEPPOL-sölureikningur (Litware)**.
+2. Í flipanum **Rafræn skjöl**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Sölu- og kreditreikningur með frjálsum texta**, skal velja **PEPPOL-sölureikningur (Litware)**.
 3. Veljið **Vista**.
 
 ![Færibreytusíða viðskiptakrafna, flipi rafrænna skjala, flýtiflipi rafrænnar skýrslugerðar](./media/er-quick-start3-configure-ar2.png)
@@ -486,7 +485,7 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 
 1. Farið í **Viðskiptakröfur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**.
 2. Á síðunni **Allir viðskiptavinir** skal velja tengil **DE-014** viðskiptavinalykils.
-3. Í flýtiflipanum **Almennt** , í reitinn **Skattnúmer** skal færa inn **LITWARE-6789**.
+3. Í flýtiflipanum **Almennt**, í reitinn **Skattnúmer** skal færa inn **LITWARE-6789**.
 4. Veljið **Vista**.
 
     ![DE-014 upplýsingasíða viðskiptavinar](./media/er-quick-start3-added-tax-id-value.png)
@@ -499,7 +498,7 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
 2. Á síðunni **Reikningur með frjálsum texta** skal velja reikninginn sem var bætt við og bókaður hér á undan.
-3. Á aðgerðasvæðinu, í flokknum **Skjal** , skal velja **Senda** \> **Upprunalegt**.
+3. Á aðgerðasvæðinu, í flokknum **Skjal**, skal velja **Senda** \> **Upprunalegt**.
 4. Lokið síðunni **Reikningur með frjálsum texta**.
 
 ### <a name="analyze-a-generated-e-invoice"></a>Skoða myndaðan rafrænan reikning
@@ -517,9 +516,9 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 Til að halda safni staðlaðra skilgreininga rafrænnar skýrslugerðar í Finance-tilvikinu [uppfærðu](general-electronic-reporting-manage-configuration-lifecycle.md) þarf að flytja inn nýjar útgáfur af þeim í hvert sinn sem þær verða aðgengilegar í [gagnageymslu](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar sem var skilgreind fyrir það tilvik.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar þýðingar** , í hlutanum **Skilgreiningarveitur** , skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir Microsoft-veituna.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir Microsoft-veituna.
 3. Á síðunni **Skilgreiningageymslur** skal velja gagnageymslu af gerðinni **Altæk** og síðan velja **Opna**. Ef beðið er um heimild til að tengjast við Regulatory Configuration Service, skal fylgja leiðbeiningum um heimild.
-4. Á síðunni **Skilgreiningageymsla** , í skilgreiningatrénu vinstra megin á svæðinu, skal velja skilgreiningarsniðið **PEPPOL sölureikningur**.
+4. Á síðunni **Skilgreiningageymsla**, í skilgreiningatrénu vinstra megin á svæðinu, skal velja skilgreiningarsniðið **PEPPOL sölureikningur**.
 5. Í flýtiflipanum **Útgáfur** skal velja útgáfu **32.6.7** af valdri skilgreiningu á sniði rafrænnar skýrslugerðar sem hefur verið gefin út til að styðja rafræna reikninga viðskiptavinar á sniði PEPPOL BIS 3. Nánari upplýsingar eru í [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
 6. Veljið **Flytja inn** til að sækja valda útgáfu úr altækri geymslu í núverandi fjármálatilvik.
 
@@ -530,13 +529,13 @@ Frekari upplýsingar um hvernig hægt er að gera þetta ferli sjálfvirkt er a�
 ### <a name="review-the-imported-er-configurations"></a>Skoða innfluttar skilgreiningar rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar skýrslugerðar** , í hlutanum **Skilgreiningar** , skal velja reitinn **Skilgreiningar skýrslugerðar**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja reitinn **Skilgreiningar skýrslugerðar**.
 3. Stækkið flýtiflipann **Skilgreiningarþættir**.
 4. Í skilgreiningartrénu vinstra megin skal stækka **Reikningslíkan**. Takið eftir að heitið á **Reikningslíkani viðskiptavinar** hefur breyst í **Reikningslíkan** í einni innfluttu skilgreiningum á gagnalíkani rafrænnar skýrslugerð.
 5. Í skilgreiningartrénu vinstra megin skal stækka **Vörpun reikningslíkans**. Takið eftir að heitið á **Vörpun reikningslíkans viðskiptavinar** hefur breyst í **Vörpun reikningslíkans** í einni af innfluttu skilgreiningum á líkanavörpun rafrænnar skýrslugerðar.
 6. Stækkið **UBL-sölureikning** \> **PEPPOL-sölureikning**.
 
-Takið eftir að til viðbótar við valið rafrænt skýrslugerðarsnið **PEPPOL-sölureikningur** , voru nýjustu útgáfur af öðrum áskildum skilgreiningum rafrænnar skýrslugerðar fluttar inn. Vegna þess að nýjar útgáfur af skilgreiningum rafrænnar skýrslugerðar eru jafnt og þétt birtar í altækri geymslu og LCS til að samsvarandi rafrænar skýrslugerðarlausnir fylgi eftir nýjum kröfum, voru nýjustu útgáfur af nauðsynlegri skilgreiningu gagnalíkans og skilgreiningum líkanavörpunar fluttar inn.
+Takið eftir að til viðbótar við valið rafrænt skýrslugerðarsnið **PEPPOL-sölureikningur**, voru nýjustu útgáfur af öðrum áskildum skilgreiningum rafrænnar skýrslugerðar fluttar inn. Vegna þess að nýjar útgáfur af skilgreiningum rafrænnar skýrslugerðar eru jafnt og þétt birtar í altækri geymslu og LCS til að samsvarandi rafrænar skýrslugerðarlausnir fylgi eftir nýjum kröfum, voru nýjustu útgáfur af nauðsynlegri skilgreiningu gagnalíkans og skilgreiningum líkanavörpunar fluttar inn.
 
 Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar verði á endanum í boði í skilgreiningartrénu:
 
@@ -546,7 +545,7 @@ Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar
 
     ![Útgáfa 206 á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution2b1.png)
 
-- Skilgreining líkanavörpunar rafrænnar skýrslugerðar fyrir **Vörpun reikningslíkans** :
+- Skilgreining líkanavörpunar rafrænnar skýrslugerðar fyrir **Vörpun reikningslíkans**:
 
     - Útgáfa 206.132 (eða nýrri) hefur verið flutt inn sem nýjasta innleiðingin af útgáfu 206 af skilgreiningu **Reikningslíkans** fyrir gagnalíkan rafrænnar skýrslugerðar. Hún inniheldur nokkra þætti líkanavörpunar fyrir rafræna skýrslugerð sem lýsa því hvernig fyllt er út í gagnalíkanið með forritsgögnum á keyrslutíma.
 
@@ -567,8 +566,8 @@ Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar
 ### <a name="adopt-your-custom-er-data-model"></a>Taka upp sérstillt gagnalíkan rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** og velja **Reikningslíkan (Litware)**.
-3. Í flýtiflipanum **Útgáfur** , fyrir útgáfudrög **50.2** af valdri skilgreiningu gagnalíkans skal velja **Endurreikna grunn**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** og velja **Reikningslíkan (Litware)**.
+3. Í flýtiflipanum **Útgáfur**, fyrir útgáfudrög **50.2** af valdri skilgreiningu gagnalíkans skal velja **Endurreikna grunn**.
 4. Í reitnum **Markútgáfa** skal staðfesta val á útgáfu **206** af grunnskilgreiningu gagnalíkans rafrænnar skýrslugerðar og velja síðan **Í lagi**.
 
     Drög að útgáfu af sérstilltri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar er endurnúmeruð úr **50.2** í **206.2** til að gefa til kynna að nú innihaldi hún sérstillinguna þína sem var sameinuð við breytingarnar á síðustu útgáfunni (206) af grunnskilgreiningu á gagnalíkani rafrænnar skýrslugerðar.
@@ -585,8 +584,8 @@ Staða útgáfu 206.2 er breytt úr **Drög** í **Lokið** og útgáfa verður 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Taka upp sérstillta líkanavörpun rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** \> **Vörpun reikningslíkans** og velja **Vörpun reikningslíkans (Litware)**.
-3. Í flýtiflipanum **Útgáfur** , fyrir útgáfudrög **50.19.2** af valdri skilgreiningu líkanavörpunar skal velja **Endurreikna grunn**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** \> **Vörpun reikningslíkans** og velja **Vörpun reikningslíkans (Litware)**.
+3. Í flýtiflipanum **Útgáfur**, fyrir útgáfudrög **50.19.2** af valdri skilgreiningu líkanavörpunar skal velja **Endurreikna grunn**.
 4. Í reitnum **Markútgáfa** skal staðfesta val á útgáfu **206.132** af grunnskilgreiningu líkanavörpunar rafrænnar skýrslugerðar og velja síðan **Í lagi**.
 
     Drög að útgáfu af sérstilltri skilgreiningu á líkanavörpun rafrænnar skýrslugerðar er endurnúmeruð úr **50.19.2** í **206.132.2** til að gefa til kynna að nú innihaldi hún sérstillinguna þína sem var sameinuð við breytingarnar á síðustu útgáfunni (206.132) af grunnskilgreiningu á líkanavörpun rafrænnar skýrslugerðar.
@@ -617,8 +616,8 @@ Staða útgáfu 206.132.2 er breytt úr **Drög** í **Lokið** og útgáfa ver�
 ### <a name="adopt-your-custom-er-format"></a>Taka upp sérstillt snið rafrænnar skýrslugerðar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á síðunni **Skilgreiningar** , í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
-3. Í flýtiflipanum **Útgáfur** , fyrir útgáfudrög **11.2.2.2** af valdri sniðsskilgreiningu skal velja **Endurreikna grunn**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan** \> **UBL-sölureikningur** \> **PEPPOL-sölureikningur** og velja **PEPPOL-sölureikningur (Litware)**.
+3. Í flýtiflipanum **Útgáfur**, fyrir útgáfudrög **11.2.2.2** af valdri sniðsskilgreiningu skal velja **Endurreikna grunn**.
 4. Í útgáfureitnum **Mark** skal staðfesta val á útgáfu **32.6.7** af grunnskilgreiningu á sniði rafrænnar skýrslugerðar og velja síðan **Í lagi**.
 
     Drög að útgáfu af sérstilltri skilgreiningu á sniði rafrænnar skýrslugerðar er endurnúmeruð úr **11.2.2.2** í **32.6.7.2** til að gefa til kynna að nú innihaldi hún sérstillinguna þína sem var sameinuð við breytingarnar á síðustu útgáfunni (32.6.7) af grunnskilgreiningu á sniði rafrænnar skýrslugerðar.
@@ -648,7 +647,7 @@ Staða útgáfu 32.6.7.2 er breytt úr **Drög** í **Lokið** og útgáfa verð
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
 2. Á síðunni **Reikningur með frjálsum texta** skal velja reikninginn sem var bætt við og bókaður hér á undan.
-3. Á aðgerðasvæðinu, í flokknum **Skjal** , skal velja **Senda** \> **Upprunalegt**.
+3. Á aðgerðasvæðinu, í flokknum **Skjal**, skal velja **Senda** \> **Upprunalegt**.
 
     > [!NOTE] 
     > Þar sem þú ert nú með tvær útgáfur af skilgreiningu rafræns skýrslugerðarsniðs **Peppol-sölureikningi (Litware)** og hvorug útgáfan er með [gildisdagsetningu](general-electronic-reporting.md#component-date-effectivity), er nýjasta útgáfan notuð til að mynda rafrænan reikning.

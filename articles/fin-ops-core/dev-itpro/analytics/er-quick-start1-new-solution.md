@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678249"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680243"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 
@@ -142,10 +141,10 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar þarf að
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
-1. Fara í  **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á  **Rafræn skýrslugerð**  vinnusvæðinu, skal velja  **Færibreytur rafrænnar skýrslugerðar**.
-3. Á síðunni  **Færibreytur rafrænnar skýrslugerðar** , í flipanum **Almennt** , skal stilla valkostinn **Kveikja á hönnunarstillingu** á **Já**.
-4. Í flipanum  **Viðhengi**  skal stilla eftirfarandi færibreytur:
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+2. Í vinnusvæðinu **Rafræn skýrslugerð** velurðu **Rafrænar skýrslufæribreytur**.
+3. Á síðunni **Færibreytur rafrænnar skýrslugerðar**, í flipanum **Almennt**, skal stilla valkostinn **Kveikja á hönnunarstillingu** á **Já**.
+4. Í flipanum **Viðhengi** skal stilla eftirfarandi færibreytur:
 
     - Stillið reitinn **Skilgreiningar** á **Skrá** fyrir fyrirtækið **USMF**.
     - Stillið **Verksafn**, **Tímabundið**, **Grunnlína** og **Annað** reitina á **Skrá**.
@@ -161,28 +160,28 @@ Allar skilgreiningar rafrænnar skýrslugerðar eru merktar í eigu skilgreining
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Fara yfir lista yfir skilgreiningarveitur rafrænnar skýrslugerðar
 
-1. Fara í  **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Viðeigandi tenglar**, skal velja **Skilgreiningarveitur**.
 3. Á síðunni **Skilgreiningarveitur** er hver færsla skilgreiningarveitu með einkvæmt heiti og vefslóð. Farið yfir efnið á þessari síðu. Ef færsla fyrir **Litware, Inc.** (`https://www.litware.com`) er þegar til skal sleppa næsta ferli, [Bæta við nýrri skilgreiningarveitu rafrænnar skýrslugerðar](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Bæta við nýrri skilgreiningarveitu rafrænnar skýrslugerðar
 
 1. Á síðunni **Skilgreiningarveitur** skal velja **Ný**.
-2. Í reitinn **Heiti** skal færa inn  **Litware, Inc.**
-3. Í reitinn **Veffang** skal færa inn  `https://www.litware.com`.
-4. Veljið  **Vista**.
+2. Í reitinn **Heiti** skal færa inn **Litware, Inc.**
+3. Í reitinn **Veffang** skal færa inn `https://www.litware.com`.
+4. Veljið **Vista**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Virkja skilgreiningarveitu rafrænnar skýrslugerðar
 
-1. Fara í  **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja skilgreiningarveituna **Litware, Inc**.
-3. Veljið  **Stilla sem virkt**.
+3. Veldu **Stilla sem virkt**.
 
 Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að finna í [Stofna skilgreiningarveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Hanna gagnalíkan fyrir sérstakt lén
 
-Stofna þarf nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur [gagnalíkan](general-electronic-reporting.md#data-model-and-model-mapping-components) íhlut fyrir fyrirtækislénið **Spurningalisti**. Þetta gagnalíkan verður seinna notað sem gagnagjafi þegar hannað er snið rafrænnar skýrslugerðar til að búa til skýrsluna **Spurningalisti**.
+Stofna þarf nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur [gagnalíkan](general-electronic-reporting.md#data-model-and-model-mapping-components)íhlut fyrir fyrirtækislénið **Spurningalisti**. Þetta gagnalíkan verður seinna notað sem gagnagjafi þegar hannað er snið rafrænnar skýrslugerðar til að búa til skýrsluna **Spurningalisti**.
 
 Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagnalíkans](#ImportDataModel) er hægt að flytja inn nauðsynlegt gagnalíkan úr uppgefinni XML-skrá. Að öðrum kosti er hægt að ljúka skrefunum í hlutanum [Stofna nýjan skilgreiningu gagnalíkans](#DesignDataModel) til að hanna þetta gagnalíkan frá grunni.
 
@@ -811,7 +810,7 @@ Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **L
 
 Sem notandi í hlutverki kerfisstjóra þarf að þróa ný rök þannig að hægt sé að kalla á skilgreint snið rafrænnar skýrslugerðar úr notendaviðmóti forritsins til að mynda sérsniðnu skýrsluna. Sem stendur býður rafræn skýrslugerð er ekki upp á neina möguleika á því að skilgreina þessa gerð af rökum. Þess vegna er einhver hönnunarvinna nauðsynleg. 
 
-Til að þróa nýju rökin þarf að setja upp grannfræði sem styður samfellda smíði. Frekari upplýsingar er að finna í  [Setja upp grannfræði sem styður samfellda smíði og prófunarsjálfvirkni](../perf-test/continuous-build-test-automation.md). Þú verður einnig að hafa aðgang að þróunarumhverfi fyrir þessa grannfræði. Frekari upplýsingar um tiltækt API rafrænnar skýrslugerðar er að finna í [API fyrir ramma rafrænnar skýrslugerðar](er-apis-app73.md).
+Til að þróa nýju rökin þarf að setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md). Þú verður einnig að hafa aðgang að þróunarumhverfi fyrir þessa grannfræði. Frekari upplýsingar um tiltækt API rafrænnar skýrslugerðar er að finna í [API fyrir ramma rafrænnar skýrslugerðar](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Breyta frumkóða
 

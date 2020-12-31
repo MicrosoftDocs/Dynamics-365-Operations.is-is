@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143316"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684283"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
 
@@ -98,11 +97,11 @@ Skrefin í þessu undirverki sýna hvernig stofna má nýja grunnstillingu snið
 
     Athugið að uppsett snið er sett hér fram sem íhlutur gagnaveitu.  
 
-6. Í trénu skal víkka út „snið: Skráning\*uppgjör: XML eining 1..1 (uppgjör): Skráning“.
-7. Í trénu skal víkka út „snið: Skráning\*uppgjör: XML eining 1..1 (uppgjör): Skráning/færsla: XML eining 0..* (færsla): Skráningarlisti“.
-8. Í trénu skal víkka út „snið: Skráning\*uppgjör: XML eining 1..1 (uppgjör): Skráning/færsla: XML eining 0..* (færsla): Skráningarlisti\*lánardrottinn: XML Eining 1..1 (lánardrottinn): Skráning“.
-9. Í trénu skal víkka út „snið: Skráning\*uppgjör: XML eining 1..1 (uppgjör): Skráning/færsla: XML eining 0..* (færsla): Skráningarlisti\land: XML eining 0..1 (land): Skráning“.
-10. Í trénu skal velja „snið: Skráning\*uppgjör: XML eining 1..1 (uppgjör): Skráning/færsla: XML eining 0..* (færsla): Skráningarlisti\*lánardrottinn: XML Eining 1..1 (lánardrottinn): Skráning“.
+6. Í trénu skal víkka út „`format: Record\*settlement: XML Element 1..1 (settlement): Record`“.
+7. Í trénu skal víkka út „`format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`“.
+8. Í trénu skal víkka út „`format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`“.
+9. Í trénu skal víkka út „`format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`“.
+10. Í trénu skal velja „`format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`“.
 
     Athugið að kynning á skyldubundnum og valkvæmum einingum sniðs er ólík í fyrirframskilgreindur íhlutur gagnaveitu „sniðs“.  
 11. Í trénu skal víkka út „Færslur: Skráningalisti= format.settlement.'$enumerated''.
@@ -237,15 +236,15 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 19. Lokið síðunni.
 20. Smella á Breyta.
 
-    Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 Finance“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
+    Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 Finance„ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
 
-21. Veljið Já í „Sjálfgefið fyrir líkanavörpun“.
+21. Veljið Já í reitnum „Sjálfgefið fyrir líkanavörpun“.
 22. Í tré skal velja '1099 Greiðslulíkan'.
 23. Smellið á Hönnuður.
 24. Smellt er á Varpa líkani á gagnagjafa.
 25. Smellið á „Keyra“.
 
-    Ef bráðabótin KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) skal velja æskilegt vörpun líkans í uppflettingarreitnum. Ef bráðabótin hefur ekki verið sett upp, sleppa næsta skrefi þar sem vörpun hefur þegar verið falin af skilgreiningu á sjálfgefið grunnstilling sniðs.  
+    Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), skal velja æskilegt vörpun líkans í uppflettingarreitnum. Ef bráðabótin hefur ekki verið sett upp, sleppa næsta skrefi þar sem vörpun hefur þegar verið falin af skilgreiningu á sjálfgefið grunnstilling sniðs.  
     
     Ef bráðabótin KB 4012871 hefur ekki verið sett upp, athugið að svargluggi inniheldur viðbótarspurningu um vörpun líkans sem er notuð til að þátta skrána sem er flutt inn. Gögnin eru síðan tengd úr svarglugga í gagnalíkan. Sem stendur er hægt að velja hvaða vörpun sniðs verður að nota út frá gerð skráar sem ætlunin er að flytja inn.  
     

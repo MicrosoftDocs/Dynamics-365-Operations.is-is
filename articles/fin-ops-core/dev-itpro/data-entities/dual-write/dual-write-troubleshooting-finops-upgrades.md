@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997919"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683600"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamál sem tengjast uppfærslu á forritum Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Common Data Service. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á forritum Finance and Operations.
+
+Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á forritum Finance and Operations.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -43,7 +45,7 @@ ms.locfileid: "3997919"
 Þú gætir fengið villuboð sem líkjast eftirfarandi dæmi þegar þú reynir að nota eininguna **DualWriteProjectConfiguration** til að uppfæra forrit Finance and Operations í verkvangs uppfærslu 30.
 
 ```console
-Infolog diagnostic message: 'Cannot select a record in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
+Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
 10/28/2019 15:18:20: Application configuration sync failed.
 Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw exception(s), please investigate before synchronizing again: 'InfoException:Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN."
 ```
@@ -73,19 +75,19 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 Til að laga málið, fylgdu fyrst þessum skrefum til að ganga úr skugga um að reitirnir séu í einingunni.
 
 1. Skráðu þig inn á VM fyrir forrit Finance and Operations.
-2. Farðu í **Vinnusvæði \> Gagnastjórnun** , veldu reitinn **Rammafæribreytur** og síðan, á flipanum **Einingarstillingar** , velurðu **Uppfæra einingalista** til að endurræsa einingarnar.
-3. Farðu í **Vinnusvæði \> Gagnastjórnun** , veldu flipann **Gagnaeiningar** og gakktu úr skugga um að einingin sé skráð. Ef einingin er ekki skráð skaltu skrá þig inn á VM fyrir forrit Finance and Operations og gakktu úr skugga um að einingin sé tiltæk.
-4. Opnaðu síðuna **Vörpun eininga** af síðunni **Tvöfalt skrif** í forriti Finance and Operations.
-5. Veldu **Uppfæra einingalista** til að fylla sjálfkrafa reitina í vörpunum eininga.
+2. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu reitinn **Færibreytur ramma** og síðan á flipanum **Töflustillingar** skaltu velja **Uppfæra einingalista** til að uppfæra töflurnar.
+3. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu flipann **Gagnatöflur** og gakktu úr skugga um að einingin sé skráð. Ef einingin er ekki skráð skaltu skrá þig inn á VM fyrir forrit Finance and Operations og gakktu úr skugga um að einingin sé tiltæk.
+4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
+5. Veldu **Uppfæra einingalista** til að fylla sjálfkrafa út svæðin í vörpunum töflu.
 
 Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
 
 > [!IMPORTANT]
 > Þessi skref leiðbeina þér í gegnum ferlið við að eyða einingu og bæta henni síðan við aftur. Vertu viss um að fylgja leiðbeiningunum nákvæmlega til að forðast vandamál.
 
-1. Í forriti Finance and Operations ferðu í **Vinnusvæði \> Gagnastjórnun** og velur reitinn **Gagnaeiningar**.
+1. Í Finance and Operations -forritinu skal opna **Vinnusvæði \> Gagnastjórnun** og velja reitinn **Gagnatöflur**.
 2. Finndu eininguna sem vantar eigindina. Smelltu á **Breyta markvörpun** á tækjastikunni.
 3. Á **Varpa sviðsetningu á mark** svæðinu skaltu smella á **Búa til vörpun**.
-4. Opnaðu síðuna **Vörpun eininga** af síðunni **Tvöfalt skrif** í forriti Finance and Operations.
+4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
 5. Ef vörpunin býr ekki sjálfkrafa til eigindina skaltu bæta henni við með því að smella á **Bæta við eigind** hnappinn og svo **Vista**. 
 6. Veldu vörpunina og smelltu á **Keyra**.

@@ -3,26 +3,25 @@ title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367059"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679345"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -67,10 +66,9 @@ ms.locfileid: "3367059"
 
 ## <a name="other-resources"></a>Önnur tilföng
 - [Úrræðaleit fyrir uppsetningar á staðnum](troubleshoot-on-prem.md)
-- [Forskriftir til að leysa mál í umhverfi innanhúss](onprem-tsg-implementations.md)
+- [Forskriftir til að leysa vandamál í innanhússumhverfi](onprem-tsg-implementations.md)
 - [Vottorðssnúningur](certificate-rotation-on-prem.md)
 - [Greining á staðnum](on-premises-diagnostics.md)
-- [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143100"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684380"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Búa til skýrslur á Office-sniði með innfelldum myndum
 
@@ -39,15 +38,15 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 5. Smella á Prenta athugun.
     * Keyra sniðið til prufu.  
 6. Veljið Já í reitnum Snið fyrir framseljanlega ávísun
-7. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að lógó fyrirtækisins er í skýrslunni ásamt undirskrift frá viðurkenndum aðila. Myndin af undirskriftinni er tekin úr reit frá „Hólf“ gagnategund úr útlitskrá ávísunar sem tengist völdum bankareikningi.  
+7. Smellt er á Í lagi.
+    * Endurskoða stofnað úttak. Lógó fyrirtækisins er í skýrslunni ásamt undirskrift frá viðurkenndum aðila. Myndin af undirskriftinni er tekin úr reit frá „Hólf“ gagnategund úr útlitskrá ávísunar sem tengist völdum bankareikningi.  
 8. Útvíkka hluta Eintaka.
 9. Smellið á „Breyta“.
 10. Í reitnum vatnsmerki, skal færa inn „Prenta vatnsmerki sem ógilt“.
     * Breyta stillingu vatnsmerkjasniðsins þannig að það sýni vatnsmerkjatextann í mynduðu skjali í Excel lagaðri einingu.  
 11. Smella á Prenta athugun.
-12. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að vatnsmerkið er sýnt í stofnuðu skýrslunni í samræmi við valmöguleikann.  
+12. Smellt er á Í lagi.
+    * Endurskoða stofnað úttak. Vatnsmerkið er sýnt í stofnuðu skýrslunni í samræmi við valmöguleikann.  
 13. Lokið síðunni.
 14. Í Aðgerðarrúðunni er smellt á Stjórna greiðslum.
 15. Smellið á Ávísanir.
@@ -55,8 +54,8 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 17. Notið eftirfarandi síur: færðu inn síugildi "381","385","389" á reitnum "heiti ávísunarnúmer" með því að nota síuvirknitáknið „er eitt af".
 18. Í listanum er merkt við allar línur.
 19. Smellið á Prenta afrit af ávísun
-    * Keyra sniðið til að endurprenta valdar ávísanir.  
-    * Endurskoða stofnað úttak. Athugið að valdar ávísanirnar hafa verið endurprentaðar. Lógó og merkimiðar fyrirtækisins eru ekki prentaðir út því þeir birtast á forprentaða forminu.  
+    * Keyrið sniðið til að endurprenta valdar ávísanir.  
+    * Endurskoða stofnað úttak. Vldar ávísanirnar hafa verið endurprentaðar. Lógó og merkimiðar fyrirtækisins eru ekki prentaðir út því þeir birtast á forprentaða forminu.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Breyta vörpun innflutts gagnalíkans
 1. Lokið síðunni.
@@ -90,8 +89,8 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 3. Í aðgerðasvæðinu er smellt á setja upp.
 4. Smella skal á athuga.
 5. Smella á Prenta athugun.
-6. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að myndin frá viðhengi Skjalastjórnunar birtist sem undirskrift frá viðurkenndum aðila.  
+6. Smellt er á Í lagi.
+    * Endurskoða stofnað úttak. Myndin frá viðhengi Skjalastjórnunar birtist sem undirskrift frá viðurkenndum aðila.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Nota MS Word skjal sem sniðmát í innflutta sniðinu
 1. Lokið síðunni.
@@ -117,6 +116,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 20. Nota flýtiafmörkun til að sía í reitnum bankareikningur með gildið „USMF OPER“.
 21. Smella skal á athuga.
 22. Smella á Prenta athugun.
-23. Smellið á „Í lagi“.
-    * Endurskoða stofnað úttak. Athugið að úttakið hefur verið búið til sem MS Word skjal með ívafnar myndir þar sem lógó fyrirtækisins birtist, undirskrift frá viðurkenndum aðila og valinn texti vatnsmerkisins.  
+23. Smellt er á Í lagi.
+    * Endurskoða stofnað úttak. Úttakið hefur verið búið til sem MS Word skjal með ívafnar myndir þar sem lógó fyrirtækisins birtist, undirskrift frá viðurkenndum aðila og valinn texti vatnsmerkisins.  
 

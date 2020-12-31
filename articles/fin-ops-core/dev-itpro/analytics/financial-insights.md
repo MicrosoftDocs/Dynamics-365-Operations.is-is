@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181773"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682772"
 ---
 # <a name="financial-insights"></a>Fjármálainnsýn
 
@@ -81,14 +80,14 @@ Gögnin fyrir **Fjármálainnsýn** eru tekin úr einingaversluninni (**Kerfisst
 ## <a name="security"></a>Öryggi
 Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI-skýrslum við lögaðila sem notandinn hefur aðgang að. Þess vegna eru innfelldu Power BI skýrslurnar stýrðar með skyldum í öryggisuppsetningunni. Skyldurnar sem eru skilgreindar leyfa aðgang að gögnum fyrir annaðhvort alla lögaðila eða aðeins virka fyrirtækið. Eftirfarandi tafla sýnir skyldur sem eru til staðar og hlutverkunum sem þeim er úthlutað. Skyldur geta verið fjarlægðar eða þeim úthlutað mismunandi hlutverkum, byggt á kröfum fyrirtækisins.
 
-| Gjald                                    | Hlutverk | Lýsing |
+| Gjald                                    | Hlutverk | lýsing |
 |-----------------------------------------|-------|------------|
 | Skoða vinnusvæði CFO-yfirlits             | Fjármálastjóri | Þessi skylda veitir aðgang að vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
 | Skoða fjármálainnsýn í núgildandi fyrirtæki | <ul><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Endurskoðandi</li><li>Umsjón með fjárhagsáætlun</li><li>Forstjóri</li><li>Fjármálastjóri</li><li>Fjármálastjóri</li></ul> | Þessi skylda veitir aðgang að Fjármálainnsýn. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur ekki bætt við öðrum lögaðilum. |
 | Skoða fjármálainnsýn þvert á fyrirtæki   | Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, er þessari skyldu ekki úthlutað hlutverki. Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Fjárhagsskýrslugerð borin saman við fjármálainnsýn
+## <a name="financial-reporting-vs-financial-insights"></a>Fjárhagsskýrslugerð vs. fjármálainnsýn
 Þótt **Fjármálainnsýn** innihaldi fjárhagsskýrslur kemur hún ekki í staðinn fyrir fjárhagsskýrslugerð í forritið. Sjálfgefnar fjárhagsskýrslur í **Fjármálainnsýn** eru takmarkaðar að umfangi og innihalda ekki allar gerðir fjárhagsskýrslna. Fjárhagsskýrslugerð er enn aðalverkfærið til að hanna, búa til og stofna lögbundnar fjárhagsskýrslur.
 
 Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
@@ -131,7 +130,7 @@ Notendur geta afmarkað skýrsluna með því að nota **Síu** gluggann til vin
 - **Síur á myndrænu stigi** - Þessar síur eru aðeins notaðar á valið myndefni. Þessar síur eru notaðar ofan á síur á síðustigi.
 - **Köfunarsía** - Þessi sía afmarkar "uppsprettu" myndefnis sem er beitt á núgildandi myndefni þegar þú kafar frá uppsprettu myndefnisins til núverandi myndefnis.
 
-![Sía](./media/filter.png)
+![Síuvalkostir](./media/filter.png)
 
 Til að fjarlægja tiltekið síugildi velurðu strokleðurtáknið við hliðina á því. Ekki fjarlægja síu með því að velja X. Ef þú velur X verður svæðið sem þú ert að sía á fjarlægt sem síuvalkostur. Ef þú fjarlægir óvart svæði frá síunni skaltu loka vinnusvæðinu og opna það síðan aftur. Sjálfgefnar stillingar síu verða aftur settar á.
 
@@ -176,25 +175,25 @@ Mismunandi stig borunar eru í boði í gegnum Power BI. Hvert stig hefur annað
 
 Í eftirfarandi myndum er yfirlýsing **Prófjafnaðar** dregin saman í hæsta stigveldi línunnar, aðalyklagerðina.
 
-![Prófjöfnuður](./media/trial-balance.png)
+![Yfirlýsing um prófjöfnuð](./media/trial-balance.png)
 
 Til að skoða næsta stig stigveldisins, tegundir aðallykla, getur þú stillt **Kafa í** reitinn sem **Línur** og valið síðan **Stækka** hnappinn (þriðji hnappurinn eftir Kafa í reitinn). Þú sérð nú allar helstu tegundir aðallykla stækkaðar. Eins og er leyfir Power BI þér ekki að stækka aðeins eina línu eða dálk en sjá samt allar aðrar línur eða dálka.
 
-![Prófjöfnuður](./media/trial-balance2.png)
+![Prófjöfnuður kafað niður á línur](./media/trial-balance2.png)
 
 Til að víkka út til aðallykla allra línanna geturðu aftur notað **Stækka** hnappinn. Hins vegar, til að bora niður í aðallyklana fyrir aðeins eina línu skaltu fyrst velja **Bora í** hnappinn (staka örin sem bendir niður hægra megin í glugganum) og veldu síðan línuna til að bora niður í. Eftirfarandi mynd sýnir niðurstöðurnar þegar línan **Sölur** er valin eftir að **Bora niður** hnappurinn hefur verið valinn.
 
-![Prófjöfnuður](./media/trial-balance3.png)
+![Útvíkkunarhnappur prófjöfnuðar](./media/trial-balance3.png)
 
 Eftir að þú hefur borað niður í einni línu þarf að smella oft til að fara aftur í fullan prófjöfnuð. **Kafa upp** hnappurinn (fyrsti hnappurinn eftir **Kafa** í svæði) kafar aðeins upp í samhengi við **Sölu** flokkinn, eins og sýnt er á eftirfarandi mynd.
 
-![Prófjöfnuður](./media/trial-balance4.png)
+![Hnappur til að kafa upp á prófjöfnuð](./media/trial-balance4.png)
 
 Þú getur haldið áfram að nota **Kafa upp** hnappinn til að fara aftur á hæsta stigi samantektar í línum.
 
 Power BI hefur einnig hnapp sem leyfir þér að fara á næsta stig í stigveldinu (seinni hnappurinn eftir **Kafa niður** reitinn). Áhrif þessa hnapps eru frábrugðin áhrifum **Stækka** hnappsins (þriðja hnappurinn eftir **Kafa í** reitinn), sem er notaður til að stækka stigveldið. Þegar þú dregur út stigveldið er stigveldinu viðhaldið í skýrslunni. Til dæmis, eins og sýnt var áður, ef dregur út aðallyklagerðina, sérðu enn helstu aðallyklagerðir í skýrslunni. Hins vegar, þegar þú ferð á næsta stig í stigveldinu, sýnir skýrslan ekki lengur yfireininguna í stigveldinu, eins og sýnt er í eftirfarandi mynd.
 
-![Prófjöfnuður](./media/trial-balance5.png)
+![Prófjöfnuður kafað aftur](./media/trial-balance5.png)
 
 Til að sjá færsluupplýsingar um samanteknar stöður á bak, getur þú valið sumar fjárhæðir til að bora aftur í Financial and Operations.
 
@@ -245,6 +244,6 @@ Power BI veitir ekki möguleika á að fela og sýna tómar línur. Ef lína er 
 
 Upplýsingarnar í eftirfarandi tilföngum eru ekki nauðsynlegar til að virkja innfelldar skýrslur fyrir vinnusvæðið **CFO-yfirlit** eða **Fjármálainnsýn** í vinnsluumhverfi. Þess í stað eru þær gagnlegar fyrir dev box og ef þú vilt fella inn þínar eigin Power BI-skýrslur.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Aðgangur að Greiningarvinnusvæðum og skýrslum um 1-kassaumhverfi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Bæta greiningu við vinnusvæði með Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

@@ -1,6 +1,6 @@
 ---
 title: Tvöfaldur skrifa uppsetning frá Lifecycle Services
-description: Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Common Data Service úr Microsoft Dynamics Lifecycle Services (LCS).
+description: Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998109"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683525"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Tvöfaldur skrifa uppsetning frá Lifecycle Services
 
@@ -31,14 +31,16 @@ ms.locfileid: "3998109"
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Common Data Service úr Microsoft Dynamics Lifecycle Services (LCS).
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Þú verður að vera stjórnandi til að setja upp tvískipt tengingu.
 
 + Þú verður að hafa aðgang að leigjandanum.
-+ Þú verður að vera stjórnandi í bæði umhverfi Finance and Operations og umhverfi Common Data Service.
++ Þú verður að vera stjórnandi í bæði umhverfi Finance and Operations og umhverfi Dataverse.
 
 ## <a name="set-up-a-dual-write-connection"></a>Setja upp tvískipt tengingu
 
@@ -49,20 +51,20 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 3. Veldu útgáfuna. 
 4. Veldu grannfræði. Ef aðeins ein grannfræði er tiltæk er hún sjálfkrafa valin.
 5. Ljúktu við fyrstu skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.
-6. Á flipaum **Common Data Service** fylgirðu einu af eftirfarandi skrefum:
+6. Á flipaum **Dataverse** fylgirðu einu af eftirfarandi skrefum:
 
-    - Ef umhverfið Common Data Service er þegar veitt fyrir leigjanda þinn getur þú valið það.
+    - Ef umhverfið Dataverse er þegar veitt fyrir leigjanda þinn getur þú valið það.
 
-        1. Stillið valkostinn **Stilla Common Data Service** á **Já**.
+        1. Stillið valkostinn **Stilla Dataverse** á **Já**.
         2. Í reitnum **Aðgengilegt umhverfi** velurðu umhverfið sem á að samþætta við Finance and Operations-gögnin þín. Listinn inniheldur öll umhverfi þar sem þú hefur stjórnunarréttindi.
         3. Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.
 
-        ![Flipinn Common Data Service þegar umhverfið Common Data Service er þegar veitt fyrir leigjandann](../dual-write/media/lcs_setup_1.png)
+        ![Flipinn Dataverse þegar umhverfið Dataverse er þegar veitt fyrir leigjandann](../dual-write/media/lcs_setup_1.png)
 
-    - Ef leigjandi þinn er ekki þegar með Common Data Service umhverfi verður nýtt umhverfi veitt.
+    - Ef leigjandi þinn er ekki þegar með Dataverse umhverfi verður nýtt umhverfi veitt.
 
-        1. Stillið valkostinn **Stilla Common Data Service** á **Já**.
-        2. Slá inn heiti fyrir umhverfi Common Data Service.
+        1. Stillið valkostinn **Stilla Dataverse** á **Já**.
+        2. Slá inn heiti fyrir umhverfi Dataverse.
         3. Veldu svæðið til að dreifa umhverfinu á.
         4. Veldu sjálfgefið tungumál og gjaldmiðil fyrir umhverfið.
 
@@ -71,12 +73,12 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 
         5. Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.
 
-        ![Common Data Service flipann þegar leigjandi þinn er ekki þegar með Common Data Service umhverfi](../dual-write/media/lcs_setup_2.png)
+        ![Dataverse flipann þegar leigjandi þinn er ekki þegar með Dataverse umhverfi](../dual-write/media/lcs_setup_2.png)
 
 7. Ljúktu við eftirstandandi skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.
-8. Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar. Hlutinn **Common Data Service upplýsingar um umhverfi** sýnir nöfn í Finance and Operations umhverfi og Common Data Service umhverfi sem eru tengd.
+8. Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar. Hlutinn **Dataverse upplýsingar um umhverfi** sýnir nöfn í Finance and Operations umhverfi og Dataverse umhverfi sem eru tengd.
 
-    ![Common Data Service kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_3.png)
+    ![Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_3.png)
 
 9. Stjórnandi í Finance and Operations umhverfi verður að skrá sig inn á LCS og velja **Hlekkur á CDS fyrir forrit** til að ljúka við tengilinn. Umhverfisupplýsingasíðan sýnir upplýsingar um tengilið stjórnanda.
 
@@ -84,7 +86,7 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 
 10. Til að opna vinnusvæðið **Sameining gagna** í Finance and Operations umhverfi og stjórna sniðmátunum sem eru í boði, veldu **Hlekkur á CDS fyrir forrit**.
 
-    ![Hlekkur á hnappinn CDS for Apps í Common Data Service kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_4.png)
+    ![Hlekkur á hnappinn CDS for Apps í Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.

@@ -3,7 +3,7 @@ title: ROUND ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin ROUND í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12af71a024a76fca98fc2e876da9b59e5762cf07
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 83fb5c04938e0aba1277f2d6017d4b66208a8858
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744552"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683257"
 ---
 # <a name="round-er-function"></a>ROUND ER-aðgerð
 
@@ -57,7 +56,7 @@ Tölugildið sem verður til.
 
 Ef gildi frumbreytunnar `decimals` er hærra en 0 (núll), er tilgreind tala námunduð að þetta mörgum aukastöfum.
 
-Ef gildi frumbreytunnar `decimals` er **0** (núll), er tilgreind tala námunduð að næstu heiltölu.
+Ef gildi `decimals` frumbreytu er **0** (núll), er tilgreind tala námunduð að næstu heiltölu.
 
 Ef gildi frumbreytunnar `decimals` er lægra en 0 (núll), er tilgreind tala námunduð til vinstri við tugastafinn.
 
@@ -69,6 +68,10 @@ Ef gildi frumbreytunnar `decimals` er lægra en 0 (núll), er tilgreind tala ná
 
 `ROUND (1200.767, -3)` sléttar að næsta margfeldi svæðisins 1.000 og skilar **1000**.
 
+## <a name="example-3"></a>Dæmi 3
+
+`ROUND (1200.5, 0)` námundar að næstu heilli tölu og skilar **1200**, á meðan `ROUND (1201.5, 0)` gerir það sama og skilar **1202**.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Reikniaðgerðir](er-functions-category-mathematical.md)
+[Stærðfræðilegar aðgerðir](er-functions-category-mathematical.md)

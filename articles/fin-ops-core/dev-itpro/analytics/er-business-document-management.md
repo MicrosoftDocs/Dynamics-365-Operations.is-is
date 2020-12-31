@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: 4b50a170bb9e584501fe780239228dc871ca7750
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893136"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681305"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -327,7 +326,7 @@ Hægt er að breyta sniðmátinu með Microsoft 365. Til dæmis, í Office á ne
 6. Veldu **Samstilla geymt afrit** til að samstilla tímabundna sniðmátgeymslu við varanlega geymslu sniðmáts.
 
 > [!NOTE]
-> Afrit af breyttu sniðmátinu í tímabundnu skjalageymslunni er geymt aðeins fyrir núverandi lotu sniðmátsvinnslu. Þegar þú lýkur þessari lotu með því að loka síðunni **Ritill BDM-sniðmáts** verður þessu eintaki eytt. Ef þú lagaðir sniðmátið í tímabundnu skjalageymslu og valdir ekki **Samstilla geymt afrit**færðu skilaboð þegar þú reynir að loka síðunni **Ritstjóri BDM sniðmáts** sem spyrja hvort þú viljir geyma kynntar breytingar. Veldu **Já** ef þú vilt vista breytingarnar á sniðmátinu á varanlegri skráarstað.
+> Afrit af breyttu sniðmátinu í tímabundnu skjalageymslunni er geymt aðeins fyrir núverandi lotu sniðmátsvinnslu. Þegar þú lýkur þessari lotu með því að loka síðunni **Ritill BDM-sniðmáts** verður þessu eintaki eytt. Ef þú lagaðir sniðmátið í tímabundnu skjalageymslu og valdir ekki **Samstilla geymt afrit** færðu skilaboð þegar þú reynir að loka síðunni **Ritstjóri BDM sniðmáts** sem spyrja hvort þú viljir geyma kynntar breytingar. Veldu **Já** ef þú vilt vista breytingarnar á sniðmátinu á varanlegri skráarstað.
 
 ### <a name="validate-a-template"></a>Villuleita sniðmát
 

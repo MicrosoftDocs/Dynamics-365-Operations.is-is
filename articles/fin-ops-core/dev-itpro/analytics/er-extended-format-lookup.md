@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138861"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679487"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leyfa notendum að setja upp tilvísun á ER snið þar sem spurt er um snið frá altæku geymslunni
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) (ER) til að skilgreina [snið](general-electronic-reporting.md#FormatComponentOutbound) fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Þú getur líka notað ER ramma til að stilla [snið](general-electronic-reporting.md#FormatComponentInbound) til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hvert þessara sniða er hægt að nota í þínu tilviki Dynamics 365 Finance til að meðhöndla viðskiptagögn á heimleið eða á útleið sem hluta af ákveðnu viðskiptaferli. 
+Hægt er að nota ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) (ER) til að skilgreina [snið](general-electronic-reporting.md#FormatComponentOutbound) fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Þú getur líka notað ER ramma til að stilla [snið](general-electronic-reporting.md#FormatComponentInbound) til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hægt er að nota hvert þessara sniða í Dynamics 365 Finance tilvikinu til að meðhöndla viðskiptaskjöl á innleið eða útleið sem hluta af ákveðnu viðskiptaferli.
 
 Venjulega verður þú að tilgreina hvaða ER snið verður að nota í ákveðnu viðskiptaferli. Til að gera það skaltu velja eitt ER snið í uppflettigrein sem er stillt sem hluti af viðskiptaferlum sem eru sértækir. Þessir uppflettingarreitir eru venjulega útfærðir með því að nota viðeigandi API í ER ramma. Fyrir frekari upplýsingar, sjá [ER ramma API - kóða til að sýna sniðkortagerð](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
 Til dæmis þegar þú stillir [færibreytur erlendra viðskipta](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters) þarftu að setja upp tilvísanir í einstök ER snið sem verða notuð til að búa til Intrastat yfirlýsinguna og stjórnunarskýrsluna fyrir Intrastat yfirlýsinguna. Skjámyndirnar hér að neðan sýna hvernig útlit reiturinn fyrir ER snið lítur út á síðunni **Færibreytur erlendra viðskipta**.
 
-Ef núverandi tilvik Finance inniheldur engin Intrastat viðskiptaferli sem tengjast ER sniðum, verður þessi uppflettireitur auður.
+Þegar núverandi fjármálatilvik inniheldur engin snið rafrænnar skýrslugerðar fyrir Intrastat-viðskiptaferli verður þessi uppflettireitur auður.
 
 [![Síðan Færibreytur erlendra viðskipta](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
@@ -45,7 +44,7 @@ Ef núverandi tilvik Finance inniheldur Intrastat-viðskiptaferli sem tengjast E
 
 Þessi uppfletting býður aðeins upp á ER snið sem þegar hafa verið flutt inn í núverandi tilvik Finance. Til að [flytja inn](./tasks/er-import-configuration-lifecycle-services.md) ER-lausnir í núverandi tilvik Finance þarftu að hafa heimildir til að keyra viðeigandi aðgerð ER ramma sem styður [líftíma](general-electronic-reporting-manage-configuration-lifecycle.md) ER-lausna sem innihalda ER-snið.
 
-Byrjað er á útgáfu 10.0.9 af Finance (útgáfa apríl 2020), notendaviðmót ER-sniðsins, sem er útfært með því að nota ER-ramma API, hefur verið framlengt. Þú getur samt valið núverandi ER snið, sem er á flýtiflipanum **Velja sniðstillingu**. Að auki býður stækkuð uppfletting upp á nýjan möguleika til að leita í Global geymslunni (GR) til að finna sérstök ER snið. Öll ER snið GR eru í boði á flýtiflipanum **Flytja úr altækri geymslu**.
+Byrjað er á útgáfu 10.0.9 af Finance (útgáfa apríl 2020), notendaviðmót ER-sniðsins, sem er útfært með því að nota ER-ramma API, hefur verið framlengt. Þú getur samt valið núverandi ER snið, sem er á flýtiflipanum **Velja sniðstillingu**. Þar að auki býður útvíkkun uppflettingar upp á nýjan valkost til að leita í altækri geymslu (GR) til að finna tiltekin snið rafrænnar skýrslugerðar. Öll ER snið GR eru í boði á flýtiflipanum **Flytja úr altækri geymslu**.
 
 [![Síðan Færibreytur erlendra viðskipta](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ Svipað flipanum **Velja sniðstillingu**, sýnir flýtiflipinn **Flytja úr alt
 
 [![Síðan Færibreytur erlendra viðskipta](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Ef innflutningi lýkur síðan er tilvísunin í innflutt ER snið geymd í þessum uppflettisreit. Athugaðu að þegar þú opnar GR í fyrsta skipti þarftu að fylgja tenglinum sem fylgir til að skrá þig í [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) sem er notað til að stjórna aðgangi að GR geymslu.
+Ef innflutningi lýkur síðan er tilvísunin í innflutt ER snið geymd í þessum uppflettisreit. Þegar altæk geymsla (GR) er opnuð í fyrsta sinn verður að smella á viðkomandi tengil til að skrá sig fyrir [Skilgreiningarþjónustu reglugerðar](https://aka.ms/rcs) (RCS) sem er notuð til að stjórna aðgangi að altæku geymslunni (GR).
 
 [![Síðan Færibreytur erlendra viðskipta](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Sjálfgefið er flýtiflipinn **Flytja úr altækri geymslu** kynnir lista yfir ER snið úr tímabundinni geymslu sem er sjálfkrafa búin til á grundvelli GR innihalds til að bæta árangur. Þetta gerist þegar flýtiflipinn **Flytja úr altækri geymslu** er opnaður í fyrsta skipti sem getur tekið nokkrar sekúndur.
 
-Ef þú sérð ekki nauðsynlegt ER snið á flýtiflipanum **Flytja úr altækri geymslu** en þú ert viss um að þetta ER snið sé geymt í GR velurðu valkostinn **Samstilla**. Þetta mun uppfæra tímabundna geymslu og samstilla það við núverandi innihald GR.
+Ef þú sérð ekki nauðsynlegt ER snið á flýtiflipanum **Flytja úr altækri geymslu** en þú ert viss um að þetta ER snið sé geymt í GR velurðu valkostinn **Samstilla**. Þessi valkostur uppfærir tímabundnu geymsluna og samstillir hana við núgildandi efni altæku geymslunnar (GR).
 
 ## <a name="feature-activation"></a>Aðgerð virkjun
 
@@ -73,7 +72,7 @@ Aðgengi að þessari aðgerð er stjórnað af eiginleikanum **Útvíkkun á ú
 
 Réttindin **Viðhalda uppsetningargeymslum** (**ERMaintainSolutionRepositories**) stjórna aðgangi að GR fyrir notanda sem opnar ER-sniðaleit með virkjaða flýtiflipanum **Flytja úr altækri geymslu**. Til að leyfa notendum að fá aðgang að GR efninu úr uppflettimati á ER sniði þarftu að breyta öryggisstillingunum með því að veita réttindi **ERMaintainSolutionRepositories** fyrir notendur annaðhvort beint eða með því að nota þegar úthlutað hlutverk og skyldur.
 
-Eftirfarandi skjámynd sýnir hvernig þessi réttindi geta verið veitt notendum sem eru úthlutaðir á hlutverkið **Endurskoðandi**. Þetta hlutverk gerir notendum kleift að stilla færibreytur erlendra viðskipta og setja upp tilvísanir í ER snið í reitunum **Vörpun skráasniðs** og **Vörpun skýrslusniðs** á síðunni **Færibreytur erlendra viðskipta**.
+Eftirfarandi skjámynd sýnir hvernig þessi réttindi geta verið veitt notendum sem eru úthlutaðir á hlutverkið **Endurskoðandi**. Þetta hlutverk gerir notendum kleift að skilgreina færibreytur erlendra viðskipta og setja upp tilvísanir í snið rafrænnar skýrslugerðar í svæðunum **Vörpun skráarsniðs** og **Vörpun skýrslusniðs** á síðunni **Færibreytur erlendra viðskipta**.
 
 [![Síðan Öryggisskilgreining](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 

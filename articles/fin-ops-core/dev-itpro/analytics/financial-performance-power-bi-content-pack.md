@@ -10,31 +10,30 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771120"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682746"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com lausn fjárhagslegrar frammistöðu
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Fjarlægðir eða úreltir eiginleikar fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Þetta efnisatriði útskýrir PowerBI.com lausnir **Fjárhagslegrar frammistöðu**. Það útskýrir yfirlitið og skýrslurnar sem eru með og veitir upplýsingar um gagnalíkanið og einingarnar sem voru notaðar til að smíða lausnina.
 
 ## <a name="main-account-setup"></a>Uppsetning aðallykils
-Þar sem fyrr vilja upphæðir skulda og tekjur að birtast sem jákvætt upphæðir í skýrslur er uppsetning aðallykla mikilvæg. Til að þessir aðallyklar birtast sem jákvætt upphæðir verður aðallykilgerð að vera stillt á **Skuldir** eða **Tekjur**. egar þessar gerð lykils er notað verður skýrslugerð í gegnum Power BI snúa við merkjunum og sýna upphæðirnar sem jákvæðar.
+Þar sem fyrr vilja upphæðir skulda og tekjur að birtast sem jákvætt upphæðir í skýrslur er uppsetning aðallykla mikilvæg. Til að þessir aðallyklar birtast sem jákvætt upphæðir verður aðallykilgerð að vera stillt á **Skuldir** eða **Tekjur**. Þegar þessar gerð lykils er notað verður skýrslugerð í gegnum Power BI snúa við merkjum og sýna upphæðir sem jákvætt.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Yfirlit og skýrslur sem eru í PowerBI.com lausninni
 Mælaborð inniheldur samantekna gagnareiti sem byggjast á undirliggjandi skýrslum. Hver reitur inniheldur samanteknar upplýsingar fyrir núverandi ár yfir öll fyrirtæki í samstæðu. Hér eru sum af reitir:

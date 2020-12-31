@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1ae10f406148e213fd0272d1387f15606233be27
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000448"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645171"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Flutningur undirbókar í Fjárhag
 
@@ -31,7 +31,7 @@ ms.locfileid: "3000448"
 
 Þetta efni lýsir getu í Microsoft Dynamics 365 Finance sem tengjast reglum um flutning á lotum dagbókarfærslna undirbókar.
 
-Í útgáfu 8.1 voru gerðar breytingar til að leyfa flutning reglna, sem felldi úr gildi samstillingarvalkostsins. Nánari upplýsingar er að finna í [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
+Í útgáfu 8.1 voru gerðar breytingar til að leyfa flutning á reglum sem úreltu valkostinn **Samstillt**. Nánari upplýsingar er að finna í [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
 
 Eftirfarandi valkostir eru tiltækir til að flytja hópi á hærri stærð. 
 
@@ -39,6 +39,6 @@ Eftirfarandi valkostir eru tiltækir til að flytja hópi á hærri stærð.
 
 - Tímasett lota - Þessi valkostur bætir bókhaldsfærslunum sem eru fluttar yfir í vinnslukví í aðalbókinni, þar sem færslurnar verða unnar í pöntun. Fylgiskjal fjárhags verða tekin upp um leið á áætluðum tíma ef fjármagni er frjálst að afgreiða þessa runuvinnslu á netþjóninum. 
  
-Í útgáfu 10.0.8 voru gerðar endurbætur til að bæta árangur ósamhangandi valkostsins. Þessi aðgerð er gerð virk undir nafni eiginleikans **Flutningur undirliða yfir í hagræðingu almenns fjárhags**. 
+Í útgáfu 10.0.8 voru gerðar úrbætur til að auka afköst ósamstillts valkosts. Þessi aðgerð er gerð virk undir nafni eiginleikans **Flutningur undirliða yfir í hagræðingu almenns fjárhags**. 
  
-Þessi virkni bætir flutning gagna frá stórhýsinu yfir í aðalbókina. Það gerir ferlið kleift að vera skilvirkara og það flokka saman smærri viðskipti til að flytja. Þetta gerir kleift að nýta hópþjónninn á skilvirkari hátt. Þessi virkni krefst þess að hópþjónninn sé settur upp, á netinu og virki til þess að Asynchrounous transfer valkosturinn virki. 
+Þessi virkni bætir flutning gagna frá stórhýsinu yfir í aðalbókina. Það gerir ferlið kleift að vera skilvirkara og það flokka saman smærri viðskipti til að flytja. Þetta gerir kleift að nýta hópþjónninn á skilvirkari hátt. Þessi virkni krefst þess að runuþjónninn sé sett upp, nettengdur og sé í gangi til að valkosturinn Ósamstilltur flutningur virki. 

@@ -1,6 +1,6 @@
 ---
 title: Innsýn í greiðslu viðskiptavinar (forútgáfa)
-description: Þetta efni lýsir getu greiðsluinnsýna sem hjálpar til við að bæta skilning á dæmigerðum greiðsluaðferðum einstakra viðskiptavina og geta greint aðstæður sem réttlæta að hefja innheimtuferli fyrr en þú hefur gert annars.
+description: Í þessu efnisatriði er lýsing á greiðsluinnsýn sem getur aukið skilning á dæmigerðri greiðsluhegðun einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773978"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644634"
 ---
 # <a name="customer-payment-insights-preview"></a>Innsýn í greiðslu viðskiptavinar (forútgáfa)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efni lýsir getu greiðsluinnsýna sem hjálpar til við að bæta skilning á dæmigerðum greiðsluaðferðum einstakra viðskiptavina og geta greint aðstæður sem réttlæta að hefja innheimtuferli fyrr en þú gætir hafa annars gert. 
+Í þessu efnisatriði er lýsing á greiðsluinnsýn sem getur aukið skilning á dæmigerðri greiðsluhegðun einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið. 
 
 ## <a name="overview"></a>Yfirlit
 
-Fyrirtækjum finnst oft krefjandi að spá fyrir um hvenær viðskiptavinir greiða reikninga sína. Þessi skortur á innsæi leiðir til ónákvæmari spáa um sjóðstreymi, innheimtuferla sem hefjast of seint og pantana sem gefnar eru út til viðskiptavina sem kunna að standa ekki í skilum með greiðslu. Innsýn í greiðslu viðskiptavinar (forskoðun) hjálpar fyrirtækjum að spá fyrir um hvenær reikningur viðskiptavinar verður greiddur, sem auðveldar fyrirtækjum að stofna innheimtustefnur sem auka líkurnar á því að greitt sé á réttum tíma. 
+Það getur verið erfitt að spá fyrir um hvenær viðskiptavinir munu greiða reikninga sína. Þessi skortur á innsæi leiðir til ónákvæmari spáa um sjóðstreymi, innheimtuferla sem hefjast of seint og pantana sem gefnar eru út til viðskiptavina sem kunna að standa ekki í skilum með greiðslu. Innsýn í greiðslur viðskiptavinar (forskoðun) hjálpar fyrirtækjum að spá fyrir um hvenær reikningur viðskiptavinar verður greiddur. Þessar upplýsingar geta hjálpað fyrirtækjum að búa til innheimtuaðferðir sem auka líkurnar á því að fá greitt á réttum tíma. 
 
 ## <a name="predictions"></a>Spár
 
@@ -42,13 +42,13 @@ Greiðsluspár gera fyrirtækjum kleift að bæta viðskiptaferli sín með þv�
 
 Með því að nota vélanámslíkan, sem nýtir sögulega reikninga, greiðslur og gögn viðskiptavina, spáir innsýn í greiðslu viðskiptavinar (forskoðun) nákvæmar hvenær viðskiptavinur muni greiða útistandandi reikning.
 
-Fyrir hvern opinn reikning spáir innsýn í greiðslu viðskiptavinar (forútgáfa) fyrir um þrjá greiðslumöguleika:
+Fyrir hvern opinn reikning getur innsýn spáð í greiðslu viðskiptavinar (forútgáfa) fyrir um þrjá greiðslumöguleika:
 
 -   Líkur á að greiðsla fari fram á réttum tíma 
 -   Líkur á að greiðsla fari seint fram
 -   Líkur á að greiðsla fari fram eftir gjalddaga
 
-Til að hjálpa fyrirtækjum að skilja heildargreiðslufjárhæðina sem þeir geta búist við frá viðskiptavini í einu af þremur fötunum, á réttum tíma, seint og mjög seint, veitir greiðsla innsýn viðskiptavina (foskoðun) samansafn af væntanlegum greiðslum.
+Innsýn í greiðslur viðskiptavinar (forskoðun) veitir einnig samandregið yfirlit yfir áætlaðar greiðslur sem geta hjálpað fyrirtækjum að skilja heildargreiðsluupphæðina sem þeir geta búist við að viðskiptavinur greiði í einum af þremur römmum; á réttum tíma, seint og mjög seint.
 
 [![Samanlögð sýn á spá um greiðslur](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -62,11 +62,11 @@ Með greiðslu innsýn viðskiptavina (forskoðun), geta fyrirtæki verið meira
 
 ## <a name="methodology"></a>Aðferð
 
-Erfitt er að þróa og dreifa AI lausn. Það þarf hóp gagnafræðinga, fagaðila og verkfræðinga sem vinna í langan tíma til að móta, þróa, dreifa og viðhalda nothæfri AI lausn. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka AI lausnum í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
+Erfitt er að þróa og dreifa AI lausn. Fjöldi gagnasérfræðinga, sérfræðinga á viðkomandi sviði og verkfræðinga þarf að vinna lengi að mótun, þróun, uppsetningu og viðhaldi nothæfrar AI-lausnar. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka AI lausnum í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Hvernig skal nálgast innsýn í greiðslu viðskiptavinar (forútgáfa)
 
-Vinsamlegast sendu tölvupóst til [Innsýn í greiðslu viðskiptavinar (forútgáfa)](mailto:fiap@microsoft.com) ef þú hefur áhuga á að prófa innsýn í greiðslu viðskiptavinar (forútgáfu).
+Sendið tölvupóst til [Innsýn í greiðslur viðskiptavinar (forskoðun)](mailto:fiap@microsoft.com) ef áhugi er fyrir því að prófa „Innsýn í greiðslur viðskiptavinar (forskoðun)“.
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 

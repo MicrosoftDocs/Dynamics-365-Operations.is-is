@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 27621
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321667"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681401"
 ---
 # <a name="backup-storage-of-er-templates"></a>Afritunargeymsla ER-sniðmáta
 
@@ -59,7 +58,7 @@ Ef sniðmáts með ER sniði er krafist til að búa til skjöl á útleið, til
     - Ef þessi færibreyta er stillt á **Slökkt** mæla skilaboðin með því að þú hefjir runuferlið til að laga sjálfkrafa svipuð vandamál fyrir önnur ER-sniðmát fyrir skilgreiningarsnið. Skilaboðin innihalda tengil sem þú getur notað til að hefja runuferlið.
     - Ef þessi færibreyta er stillt á **Kveikt** tilkynna skilaboðin þér að uppgötvast hafi vandamál vegna sniðmáts sem vantar og að ný runuvinnsla, **Endurheimta biluð sniðmát úr innri afritun gagnagrunnsins**, hefur sjálfkrafa verið áætluð. Þessi runuvinnsla mun sjálfkrafa laga svipuð vandamál fyrir önnur sniðmát.
 
-Til að setja upp færibreytuna **Keyra ferlið sjálfkrafa til að endurheimta brotin sniðmát í runu** skal ljúka eftirfarandi skrefum:
+Til að setja upp **Keyra sjálfkrafa aðferðina við að endurheimta skemmd sniðmát í runu** færibreytuna skal ljúka eftirfarandi skrefum:
 
 1. Í Finance and Operations skal opna **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningarsíða**.
 2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.

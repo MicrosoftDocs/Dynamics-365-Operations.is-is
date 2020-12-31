@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000294"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514327"
 ---
 # <a name="split-a-fixed-asset"></a>Skipta eign
 
@@ -39,7 +39,7 @@ ms.locfileid: "4000294"
 
 ## <a name="split-a-fixed-asset"></a>Skipta eign
 
-Áður en afskrifaðri eign er skipt ætti að breyta stöðu eignabókar handvirkt úr **Lokað** í **Opin**. Þetta skref er áskilið vegna þess að staða bókar verður að vera **Opin** ef bóka þarf færslur fyrir eignina (til dæmis fyrir afskráning sölu). Eftir að stöðu eignabókar er breytt skal fylgja þessum skrefum til að skipta eigninni.
+Áður en afskrifaðri eign er skipt ætti að breyta stöðu eignabókar handvirkt úr **Lokað** í **Opin**. Þetta skref er áskilið vegna þess að staða bókar verður að vera **Opin** ef bóka þarf færslur fyrir eignina (til dæmis fyrir afskráning sölu). Einnig verður að kveikja á **Leyfa margar færslur í einu fylgiskjali** færibreytunni á flipanum **Almennt** á síðunni **Færibreytur fjárhagsbókar**. Eftir að stöðu eignabókar er breytt og margar færslur innan eins fylgiskjala hafa verið leyfðar, skal ljúka við eftirfarandi skref til að skipta eigninni.
 
 1. Finna og veljið tengil í eignir sem skipta á í listanum.
 2. Veldu **Bækur**. Veljið bók til að skipta á nýju eignina.

@@ -1,7 +1,7 @@
 ---
 title: Bóka eignafærslur í bókunalög
 description: Þessi grein gefur yfirlit yfir virkni bókunarlags fyrir eignafærslur.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770713"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493673"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Bóka eignafærslur í bókunalög
 
@@ -39,8 +39,11 @@ Eignabækur eru skilgreindir með því að nota í færslubókarheiti síðuna 
 
 Hægt er að tilnefna fjárhagsreikninga sem færslur eigna eru bókaðar í á síðunni Bókunarreglur eigna. Fyrir hverja bókunarreglu verður að velja viðeigandi færslugerð og bóka, og svo þarf að tilnefna fjárhagslyklana. Setja upp færslu bókunarreglu fyrir hverja bók sem er bókuð í fjárhag.
 
+Hægt er að færa eignina inn í skjöl sem styðja aðeins **Núverandi** bókunarlag, eins og **innkaupapöntun**, **biðreikning lánardrottins**, **sölupöntun** eða **reikning með frjálsum texta**. Þegar búið er að velja auðkenni eignar í einhverju af þessum skjölum er eignabók síuð í bókina með **Núverandi** bókunarlagi, og verður fyllt út sjálfkrafa, við bókun þegar kerfið staðfestir að bókunarlag eignarinnar er **Núverandi**. Ef ekki er hægt að ljúka við staðfestingu er bókunarferlið stöðvað. 
+
 > [!NOTE] 
-> Með því að nota afleidd bækur er mögulegt að bóka færslur á mismunandi bókunarlög á sama tíma. Færslur aðalbókar eru stofnaðar í færslubók með bókunarlagi sem samsvarar bókunarlagi bókar. Á meðan á bókun stendur, eru færslur afleidda bóka bókaðar á þau bókunarlög sem tilheyra þeim.
+> Með því að nota afleidd bækur er mögulegt að bóka færslur á mismunandi bókunarlög á sama tíma. Færslur aðalbókar eru stofnaðar í færslubók eða upprunaskjali með bókunarlagi sem samsvarar bókunarlagi bókar. Á meðan á bókun stendur, verða færslur afleidda bóka bókaðar á þau bókunarlög sem tilheyra þeim. 
+
 
 Nánari upplýsingar eru í [Afleiddar bækur](derived-books.md) og [Bóka í afleiddar bækur](post-derived-value-models.md).
 

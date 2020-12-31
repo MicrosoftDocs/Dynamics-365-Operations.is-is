@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002521"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682650"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -51,7 +50,7 @@ Rafræn skýrslugerð styður formúluhönnuðinn. Á hönnunartíma er því h�
 - Skilgreining á skilyrðum fyrir villuleit ferlisstýringar.
 - Skilgreining á texta í skilaboðum fyrir villuleit á ferlisstýringu.
 
-## <a name="Binding"></a>gagnatengsl
+## <a name="data-binding"></a><a name="Binding"></a>gagnatengsl
 
 Formúluhönnuður rafrænnar skýrslugerðar er hægt að nota til að skilgreina segð sem umbreytir gögnum sem eru móttekin frá gagnagjöfum, þannig að hægt sé að slá gögnin inn í gagnanotanda á eftirfarandi vegu á keyrslutíma:
 
@@ -69,7 +68,7 @@ Eftirfarandi mynd sýnir hvernig hægt er að nota segð af þessari gerð. Í �
 
 Á keyrslutíma námundar hannaða formúlan `ROUND (Intrastat.AmountMST, 2)` gildið í reitnum **AmountMST** fyrir hverja skrá í Intrastat töflunni í tvo aukastafi. Hún slær þá inn námundaða gildið í **Transaction.InvoicedAmount** hlutann af gagnalíkani **skattaskýrslunnar**.
 
-## <a name="Transformation"></a>Gagnasnið
+## <a name="data-formatting"></a><a name="Transformation"></a>Gagnasnið
 
 Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður gögn sem er tekið úr gagnagjafa, þannig að gögn geta verið send sem hluti af myndandi rafrænu skjali. Þú gætir haft snið sem þarf að nota sem dæmigerða reglu sem þarf að endurnýta sem snið. Í þessu tilviki getur þú lagt sniðið fram einu sinni í skilgreiningu sniðs, sem nefnda umbreytingu sem hefur sniðsegð. Þessi nefnda umbreyting er síðan hægt að tengja við margar sniðseiningar þar sem úttakið verður að vera sniðið í samræmi við sniðsegðina sem þú bjóst til.
 
@@ -87,7 +86,7 @@ Ef þú ert með snið sem þarf að nota eitt og sér, getur þú sett fram þa
 
 [![Sækja um snið fyrir einstaka þætti](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>Vinnsla vinnsluflæðis
+## <a name="process-flow-control"></a><a name="Validation"></a>Vinnsla vinnsluflæðis
 
 Formúluhönnuður rafrænnar skýrslugerðar er hægt að nota til að skilgreina segðir sem stýra vinnsluflæðinu við stofnun rafrænna skjala. Hægt er að framkvæma eftirfarandi verk:
 
@@ -112,7 +111,7 @@ Formúluhönnuður rafrænnar skýrslugerðar er einnig hægt að nota til að s
 
 [![Vinnsla vinnsluflæðis](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>Efnisstýring skjals
+## <a name="document-content-control"></a><a name="Enabled"></a>Efnisstýring skjals
 
 Hægt er að nota ER-formúluhönnuðinn til að stilla segðir sem stjórna hvaða gögn verða sett inn í mynduð rafræn skjöl á keyrslutíma. Segðirnar geta virkjað eða afvirkjað úttak tiltekinna eininga sniðsins, eftir því hver vinnslugögn og skilgreindur grunnur er. Hægt er að færa þessar segðir inn fyrir stakt snið í reitnum **Virkt** á flipanum **Vörpun** á síðunni **Rekstrarhönnuður**. Þú getur slegið inn orðin sem röklegt skilyrði sem skilar *Boole*-gildi:
 
@@ -139,7 +138,7 @@ Eftirfarandi skýringarmynd sýnir segðir af þessari gerð. (Útgáfa 11.12.11
 > 
 > Byggt á þessari uppsetningu munu skilaboðin sem myndast fyrir hverja greiðslu skuldara, XML-eininguna **Ustrd**, innihalda annaðhvort texta greiðsluseðla eða, þegar slíkur texti er auður, texta aðskilinn með kommu reikningsnúmer sem notuð eru til að jafna þessa greiðslu.
 
-## <a name="TestFormula"></a>Staðfesting á uppsettum formúlum
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Staðfesting á uppsettum formúlum
 
 Á síðunni **Formúluhönnuður** velurðu **Prófa** til að sannreyna hvernig uppsetta formúlan virkar.
 

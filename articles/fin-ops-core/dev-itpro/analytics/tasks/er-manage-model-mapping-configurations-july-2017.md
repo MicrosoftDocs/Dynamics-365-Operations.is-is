@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143054"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684428"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Stjórna vörum líkana rafrænar skýrslugerðar í mismunandi skilgreiningar rafrænnar skýrslugerðar
 
@@ -31,7 +30,7 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 Þar sem grunnstillingar Rafræn skýrslugerð er deilt á meðal fyrirtækja, geturðu lokið við þessar verkefnaleiðbeiningar með því að nota fyrirtækjagagnasafn að eigin vali. Virkni fyrir þessar verkefnaleiðbeiningar eru tiltækar ef þú hefur hlaðið inn einni af eftirfarandi bráðabótum: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 fyrir Dynamics AX 7.0 útgáfuna eða https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 fyrir Dynamics 365 for Operations útfgáfuna.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna skilgreiningarveitu og merkja hana sem virka”.   
+    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna skilgreiningarveitu og merkja hana sem virka“.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Bæta við nýrri grunnstillingu líkans í Rafræn skýrslugerð
 1. Smelltu á Grunnstillingar skýrslugerðar
@@ -57,18 +56,18 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 16. Lokið síðunni.
 17. Smellið á „Breyta stöðu“.
 18. Smelltu á Ljúka.
-19. Smellið á „Í lagi“.
+19. Smellt er á Í lagi.
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Bæta við nýrri grunnstillingu líkan vörpun í Rafræn skýrslugerð
+## <a name="add-a-new-er-model-mapping-configuration"></a>Bæta við nýrri grunnstillingu vörpunar í rafrænni skýrslugerð
 1. Smellt er á stofna skilgreiningu til að opna fellilistanum.
 2. Í svæði Nýtt skal slá inn „Vörpun líkans byggð á gagnalíkani Sýnigagnalíkani“.
 3. Í svæðið Heiti, færðu inn „Sýnivörpun“.
     * Sýnivörpun  
 4. Smelltu á Stofna skilgreiningu.
 5. Stækka hlutann Skilyrði
-    * Athugið að skilyrðaflokkur Framkvæmdir hefur verið bætt sjálfkrafa við. Flokkurinn inniheldur skilyrðahlutana sem taka til yfireiningar grunnstillingar gagnalíkansins og er merkt sem Framkvæmd. Þetta þýðir að þetta sýnidæmi um grunnstillingar vörpun líkansvörpunar er talið samsvara því að setja gagnalíkanið í framkvæmd, Sýnigagnalíkan. Þar af leiðandi mun þessi hluti neyða Rafræn skýrslugerð til að hlaða niður grunnstillingum líkansvörpunarinnar, Sýnivörpun frá geymslu Rafræn skýrslugerð þegar grunnstillingar líkans, Sýnigagnalíkan, er hlaðið niður.   
+    * Skilyrðaflokki Framkvæmdir hefur verið bætt sjálfkrafa við. Flokkurinn inniheldur skilyrðahlutana sem taka til yfireiningar grunnstillingar gagnalíkansins og er merkt sem Framkvæmd. Þetta þýðir að þetta sýnidæmi um grunnstillingar vörpun líkansvörpunar er talið samsvara því að setja gagnalíkanið í framkvæmd, Sýnigagnalíkan. Þar af leiðandi mun þessi hluti neyða Rafræn skýrslugerð til að hlaða niður grunnstillingum líkansvörpunarinnar, Sýnivörpun frá geymslu Rafræn skýrslugerð þegar grunnstillingar líkans, Sýnigagnalíkan, er hlaðið niður.   
 6. Smellið á Hönnuður.
-    * Athugið að grunnstillingar líkansvörpunar sem þegar hafa verið stofnaðar, innihalda nýja og auða vörpun með sama heiti og grunnstillingin sem þegar hefur verið stofnuð. Verið meðvituð um það að þegar valin yfireining grunnstillingar líkans inniheldur líkansvarpanir, munu þær verða afritaðar í nýjar grunnstillingar líkansvörpunar.   
+    * Grunnstillingar líkansvörpunar sem þegar hafa verið stofnaðar, innihalda nýja og auða vörpun með sama heiti og grunnstillingin sem þegar hefur verið stofnuð. Þegar valin yfireining grunnstillingar líkans inniheldur líkansvarpanir, munu þær verða afritaðar í nýjar grunnstillingar líkansvörpunar.   
 7. Smellið á Hönnuður.
 8. Í trénu skal velja „Dynamics 365 for Operations\Table“.
 9. Smella á bæta Við rót.
@@ -112,9 +111,9 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 16. Smellið á „Keyra“.
     * Á Útgáfur flýtiflipa, smellið á Keyra.  
 17. Smellið á „Í lagi“.
-    * Yfirfara úttakið sem inniheldur heiti fyrirtækisins sem notandinn, sem er að keyra þessa grunnstillingu sniðs, er skráður inn á. Athugið að áður stofnuð grunnstilling líkansvörpunar er notað af þessari grunnstillingu sniðs vegna þess að það er aðeins ein grunnstilling tiltæk sem inniheldur þær líkansvarpanir sem krafist er.   
+    * Yfirfara úttakið sem inniheldur heiti fyrirtækisins sem notandinn, sem er að keyra þessa grunnstillingu sniðs, er skráður inn á. Áður stofnuð grunnstilling líkansvörpunar er notað af þessari grunnstillingu sniðs vegna þess að það er aðeins ein grunnstilling tiltæk sem inniheldur þær líkansvarpanir sem krafist er.   
 
-## <a name="add-alternative-er-model-mapping-configuration"></a>Bæta við annarri grunnstillingu fyrir líkan vörpun í Rafræn skýrslugerð
+## <a name="add-alternative-er-model-mapping-configuration"></a>Bæta við annarri grunnstillingu vörpunar í rafrænni skýrslugerð
 1. Veljið „Sýnigagnalíkan“, í trénu.
 2. Smellt er á stofna skilgreiningu til að opna fellilistanum.
 3. Í svæði Nýtt skal slá inn „Vörpun líkans byggð á gagnalíkani Sýnigagnalíkani“.
@@ -150,15 +149,15 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 28. Lokið síðunni.
 29. Veljið Já í svæðinu drög keyrslu.
 
-## <a name="use-an-existing-er-model-mapping-configuration"></a>Nota fyrirliggjandi grunnstillingu fyrir líkan vörpun í Rafræn skýrslugerð
+## <a name="use-an-existing-er-model-mapping-configuration"></a>Nota fyrirliggjandi grunnstillingu vörpunar í rafrænni skýrslugerð
 1. Veljið „Sýnigagnalíkan/Sýnisnið“, í trénu.
-2. Smellið á „Keyra“.
-    * Athugið að valin útgáfudrög að grunnstillingum sniðs Rafræn skýrslugerð er ekki hægt að framkvæma vegna þess að það eru fleiri en ein grunnstilling líkansvörpunar tiltæk fyrir hið óskilgreinda gagnalíkan sem hefur verið valið sem gagnaveita fyrir snið Rafræn skýrslugerð sem verið er að keyra.   
-    * Næst muntu skilgreina aðra grunnstillingu fyrir líkansvörpun, sem þá sem líkansvarpanir verða notaðar sem gagnaveitur fyrir, fyrir keyrslu sniðs Rafræn skýrslugerð.   
+2. Smella á Keyra.
+    * Valin útgáfudrög að grunnstillingum sniðs Rafræn skýrslugerð er ekki hægt að framkvæma vegna þess að það eru fleiri en ein grunnstilling líkansvörpunar tiltæk fyrir hið óskilgreinda gagnalíkan sem hefur verið valið sem gagnaveita fyrir snið Rafræn skýrslugerð sem verið er að keyra.   
+    * Næst muntu skilgreina aðra grunnstillingu fyrir líkansvörpun, sem þá sem líkansvarpanir verða notaðar sem gagnaveitur fyrir, fyrir keyrslu sniðs rafrænar skýrslugerð.   
 3. Veljið „Sýnigagnalíkan/Sýnivörpun (valkostur)“, í trénu.
-4. Veljið Já í „Sjálfgefið fyrir líkanavörpun“.
+4. Veljið Já í reitnum „Sjálfgefið fyrir líkanavörpun“.
 5. Veljið „Sýnigagnalíkan/Sýnisnið“, í trénu.
-6. Smellið á „Keyra“.
-7. Smellið á „Í lagi“.
-    * Athugið að sjálfgefin grunnstilling líkansvörpunar er notuð af þessari grunnstillingu sniðs til að búa til rafræn skjöl (úttakið sem þegar hefur verið stofnað inniheldur fyrirtækjakóðann).  
+6. Smella á Keyra.
+7. Smellt er á Í lagi.
+    * Sjálfgefin grunnstilling líkansvörpunar er notuð af þessari grunnstillingu sniðs til að búa til rafræn skjöl (úttakið sem þegar hefur verið stofnað inniheldur fyrirtækjakóðann).  
 

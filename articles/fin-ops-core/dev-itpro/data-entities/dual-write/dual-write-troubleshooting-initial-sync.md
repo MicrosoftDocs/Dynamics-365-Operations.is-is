@@ -18,18 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997327"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683562"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Common Data Service. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -91,12 +93,12 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 Hugsanlega birtast villuboð ef einhver vörpun er með tilvísanir í sjálfa sig eða hringtilvísanir. Villurnar falla í þessa flokka:
 
-- [Villur í einingavörpuninni Lánardrottinn V2–to–msdyn_vendors](#error-vendor-map)
-- [Villur í einingavörpuninni Viðskiptavinir V3–to–Accounts](#error-customer-map)
+- [Villur í töfluvörpuninni Lánardrottinn V2–to–msdyn_vendors](#error-vendor-map)
+- [Villur í töfluvörpuninni Viðskiptavinir V3–to–Accounts](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Leysa villur í einingavörpuninni Lánardrottinn V2–to–msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Leysa villur í töfluvörpuninni Lánardrottinn V2–to–msdyn_vendors
 
-Villur upphaflegrar samstillingar gætu komið upp fyrir vörpun **Lánardrottnar V2** í **msdyn\_lánardrottnar** ef einingarnar eru með fyrirliggjandi færslur þar sem eru gildi í reitunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber**. Þessar villur koma upp vegna þess að **InvoiceVendorAccountNumber** er reitur sem vísar í sjálfan sig og **PrimaryContactPersonId** er hringtilvísun í vörpun lánardrottins.
+Villur upphaflegrar samstillingar gætu komið upp fyrir vörpun **Lánardrottnar V2** í **msdyn\_lánardrottnar** ef töflurnar eru með fyrirliggjandi línur þar sem eru gildi í reitunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber**. Þessar villur koma upp vegna þess að **InvoiceVendorAccountNumber** er reitur sem vísar í sjálfan sig og **PrimaryContactPersonId** er hringtilvísun í vörpun lánardrottins.
 
 Villuboðin sem koma upp verða á eftirfarandi formi.
 
@@ -107,11 +109,11 @@ Hér eru nokkur dæmi:
 - *Ekki tókst að leysa úr guid fyrir reitinn: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Uppflettingin fannst ekki: 000056. Reynið þessa vefslóð(ir) til að athuga hvort tilvísunargögnin séu til: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Ekki tókst að leysa úr guid fyrir reitinn: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Uppflettingin fannst ekki: V24-1. Reynið þessa vefslóð(ir) til að athuga hvort tilvísunargögnin séu til: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Ef einhverjir lánardrottnar í einingu lánardrottins eru með gildi í reitunum **PrimaryContactPersonId** and **InvoiceVendorAccountNumber** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni.
+Ef einhverjar línur í einingu lánardrottins eru með gildi í reitunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni.
 
 1. Í Finance and Operations-forritinu skal eyða reitunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber** úr vörpuninni og vista síðan vörpunina.
 
-    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Lánardrottnar V2 (msdyn)\_lánardrottnar** , í flipanum **Einingavarpanir** , í vinstri síunni, skal velja **Finance and Operations apps.Vendors V2**. Í hægri síunni skal velja **Sales.Vendor**.
+    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Lánardrottnar V2 (msdyn\_lánardrottnar)**, í flipanum **Töfluvarpanir**, í vinstri síunni, skal velja **Finance and Operations apps.Vendors V2**. Í hægri síunni skal velja **Sales.Vendor**.
     2. Leitið að **primarycontactperson** til að finna upprunareitinn **PrimaryContactPersonId**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
@@ -125,7 +127,7 @@ Ef einhverjir lánardrottnar í einingu lánardrottins eru með gildi í reitunu
 
 2. Slökkvið á rakningu breytinga fyrir eininguna **Lánardrottnar V2**.
 
-    1. Á vinnusvæðinu **Gagnastjórnun** skal velja reitinn **Gagnaeiningar**.
+    1. Á vinnusvæðinu **Gagnastjórnun** skal velja reitinn **Gagnatöflur**.
     2. Veljið eininguna **Lánardrottnar V2**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
@@ -136,14 +138,14 @@ Ef einhverjir lánardrottnar í einingu lánardrottins eru með gildi í reitunu
         ![Gera breytingarakningu óvirka valið](media/selfref_tracking.png)
 
 3. Keyrið upphaflega samstillingu fyrir vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)**. Upphafleg samstilling ætti að keyra með góðum árangri án nokkurra villna.
-4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**. Samstilla verður þessa vörpun ef á að samstilla reit aðaltengiliða í einingu lánardrottins, því einnig þarf að gera upphaflega samstillingu fyrir tengiliðafærslurnar.
+4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**. Samstilla verður þessa vörpun ef á að samstilla reit aðaltengiliða í einingu lánardrottins, því einnig þarf að gera upphaflega samstillingu fyrir tengiliðalínurnar.
 5. Bætið reitunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber** aftur við vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)** og vistið síðan vörpunina.
-6. Keyrið upphaflega samstillingu aftur fyrir vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)**. Slökkt er á rakningu breytinga og verða því allar færslur samstilltar.
+6. Keyrið upphaflega samstillingu aftur fyrir vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)**. Slökkt er á rakningu breytinga og verða því allar línur samstilltar.
 7. Kveikið aftur á rakningu breytinga fyrir eininguna **Lánardrottnar V2**.
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Leysa úr villum í einingavörpuninni Viðskiptavinir V3–to–Accounts
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Leysa úr villum í töfluvörpuninni Viðskiptavinir V3–to–Accounts
 
-Villur upphaflegrar samstillingar gætu komið upp fyrir vörpun **Viðskiptavinir V3** í **Lyklar** ef einingarnar eru með fyrirliggjandi færslur þar sem eru gildi í reitunum **ContactPersonID** og **InvoiceAccount**. Þessar villur koma upp vegna þess að **InvoiceAccount** er reitur sem vísar í sjálfan sig og **ContactPersonID** er hringtilvísun í vörpun lánardrottins.
+Villur upphaflegrar samstillingar gætu komið upp fyrir vörpun **Viðskiptavinir V3** í **Lyklar** ef töflurnar eru með fyrirliggjandi línur þar sem eru gildi í reitunum **ContactPersonID** og **InvoiceAccount**. Þessar villur koma upp vegna þess að **InvoiceAccount** er reitur sem vísar í sjálfan sig og **ContactPersonID** er hringtilvísun í vörpun lánardrottins.
 
 Villuboðin sem koma upp verða á eftirfarandi formi.
 
@@ -154,11 +156,11 @@ Hér eru nokkur dæmi:
 - *Ekki tókst að leysa úr guid fyrir reitinn: primarycontactid.msdyn\_contactpersonid. Uppflettingin fannst ekki: 000056. Reynið þessa vefslóð(ir) til að athuga hvort tilvísunargögnin séu til: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Ekki tókst að leysa úr guid fyrir reitinn: msdyn\_billingaccount.accountnumber. Uppflettingin fannst ekki: 1206-1. Reynið þessa vefslóð(ir) til að athuga hvort tilvísunargögnin séu til: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Ef einhverjar færslur í einingu viðskiptavinar eru með gildi í reitunum **ContactPersonID** og **InvoiceAccount** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni. Hægt er að nota þessa nálgun fyrir allar tilbúnar einingar á borð við **Lyklar** og **Tengiliðir**.
+Ef einhverjar línur í einingu viðskiptavinar eru með gildi í reitunum **ContactPersonID** og **InvoiceAccount** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni. Hægt er að nota þessa nálgun fyrir allar tilbúnar töflur á borð við **Lyklar** og **Tengiliðir**.
 
 1. Í Finance and Operations-forritinu skal eyða reitunum **ContactPersonID** og **InvoiceAccount** úr vörpuninni **Viðskiptavinir V3 (lyklar)** og síðan vista hana.
 
-    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Viðskiptavinir V3 (lyklar)** , á flipanum **Einingavarpanir** , á vinstri síunni, skal velja **Finance and Operations apps.Customers V3**. Í hægri síunni skal velja **Common Data Service.Account**.
+    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Viðskiptavinir V3 (lyklar)**, á flipanum **Töfluvarpanir**, á vinstri síunni, skal velja **Finance and Operations apps.Customers V3**. Í hægri síunni skal velja **Dataverse.Account**.
     2. Leitið að **contactperson** til að finna upprunareitinn **ContactPersonID**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
@@ -172,7 +174,7 @@ Ef einhverjar færslur í einingu viðskiptavinar eru með gildi í reitunum **C
 
 2. Slökkvið á rakningu breytinga fyrir eininguna **Viðskiptavinir V3**.
 
-    1. Á vinnusvæðinu **Gagnastjórnun** skal velja reitinn **Gagnaeiningar**.
+    1. Á vinnusvæðinu **Gagnastjórnun** skal velja reitinn **Gagnatöflur**.
     2. Veljið eininguna **Viðskiptavinir V3**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
@@ -186,26 +188,26 @@ Ef einhverjar færslur í einingu viðskiptavinar eru með gildi í reitunum **C
 4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**.
 
     > [!NOTE]
-    > Tvær varpanir eru með sama heitið. Verið viss um að velja þá vörpun sem er með eftirfarandi lýsingu í flipanum **Upplýsingar** : **Sniðmát tvöfaldra skrifa fyrir samstillingu milli FO.CDS Tengiliður lánardrottins V2 og CDS.Contacts. Þarfnast nýs pakka \[Dynamics365SupplyChainExtended\].**
+    > Tvær varpanir eru með sama heitið. Verið viss um að velja þá vörpun sem er með eftirfarandi lýsingu í flipanum **Upplýsingar**: **Sniðmát tvöfaldra skrifa fyrir samstillingu milli FO.CDS Tengiliður lánardrottins V2 og CDS.Contacts. Þarfnast nýs pakka \[Dynamics365SupplyChainExtended\].**
 
 5. Bætið reitunum **InvoiceAccount** og **ContactPersonID** aftur við vörpunina **Viðskiptavinir V3 (Lyklar)** og vistið hana síðan. Nú eru báðir reitirnir **InvoiceAccount** og **ContactPersonId** aftur orðnir hluti af samstillingarsniði í beinni. Í næsta skrefi verður gerð upphafleg samstilling fyrir þessa reiti.
-6. Keyrið aftur upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Vegna þess að slökkt er á breytingarakningu, verða gögnin fyrir **InvoiceAccount** og **ContactPersonId** samstillt úr Finance and Operations-forritinu við Common Data Service.
-7. Til að samstilla gögnin fyrir **InvoiceAccount** og **ContactPersonId** úr Common Data Service við forritið Finance and Operations þarf að nota gagnasamþættingarverk.
+6. Keyrið aftur upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Vegna þess að slökkt er á breytingarakningu, verða gögnin fyrir **InvoiceAccount** og **ContactPersonId** samstillt úr Finance and Operations-forritinu við Dataverse.
+7. Til að samstilla gögnin fyrir **InvoiceAccount** og **ContactPersonId** úr Dataverse við forritið Finance and Operations þarf að nota gagnasamþættingarverk.
 
-    1. Í Power Apps skal stofna gagnasamþættingarverk á milli eininganna **Sales.Account** og **Finance and Operations apps.Customers V3**. Gagnastefnan verður að vera frá Common Data Service til Finance and Operations forritsins. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. Í Power Apps skal stofna gagnasamþættingarverk á milli **Sales.Account** og **Finance and Operations apps.Customers V3**. Gagnastefnan verður að vera frá Dataverse til Finance and Operations forritsins. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
         Eftirfarandi skýringarmynd sýnir verk sem uppfærir **CustomerAccount** og **ContactPersonId**.
 
         ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId](media/cust_selfref6.png)
 
-    2. Bætið skilyrði fyrirtækis við síuna Common Data Service megin þannig að einungis færslur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**. 
+    2. Bætið skilyrði fyrirtækis við síuna Dataverse megin þannig að einungis línur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**. 
 
         > [ATHUGASEMD] Ef síuhnappurinn er ekki til staðar skal stofna þjónustubeiðni til að biðja gagnasamþættingarteymið um að virkja síugetu leigjandans.
 
-        Ef ekki er slegin inn síufyrirspurn fyrir **\_msdyn\_fyrirtæki\_gildi** verða allar færslurnar samstilltar.
+        Ef ekki er slegin inn síufyrirspurn fyrir **\_msdyn\_fyrirtæki\_gildi** verða allar línurnar samstilltar.
 
         ![Síufyrirspurn bætt við](media/cust_selfref7.png)
 
-    Upphaflegri samstillingu færslna er nú lokið.
+    Upphaflegri samstillingu línanna er nú lokið.
 
 8. Í forritinu Finance and Operations skal kveikja aftur á rakningu breytinga fyrir eininguna **Viðskiptavinir V3**.

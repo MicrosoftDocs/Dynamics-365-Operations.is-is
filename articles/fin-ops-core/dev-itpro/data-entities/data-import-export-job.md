@@ -3,24 +3,23 @@ title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278899"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684061"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -130,7 +129,7 @@ Starf getur verið tryggt eftir hlutverkum, notendum og lögaðilum á sama tím
 Þú getur keyrt vinnu starf sinni með því að velja hnappinn **Flytja inn** eða **Flytja út** eftir að þú skilgreinir starfið. Til að setja upp endurtekið starf skal velja **Stofna endurtekna gagnavinnslu**.
 
 > [!NOTE]
-> Hægt er að keyra innflutnings- eða útflutningsvinnslu ósamstillt með því að velja hnappinn **Innflutningur** eða **Útflutningur**. Ósamstillt keyrsla notar ósamstilltan ramma, sem er öðruvísi en runurammi. Hins vegar, eins og runurammi, ósamstilltur rammi getur einnig farið í takmörkun og fyrir vikið getur verið að vinnslan fari ekki gang strax. Einnig er hægt að keyra vinnslurnar ósamstillt með því að velja **Flytja inn núna** eða **Flytja út núna**. Þetta setur vinnsluna strax af stað og er gagnlegt ef ósamstillt vinnsla eða runa byrjar ekki sökum takmörkunar. Einnig er hægt að keyra vinnslurnar í runu með því að velja valkostinn **Keyra í runu**. Runutilföng heyra undir takmörkun og getur því verið að runuvinnslan hefjist ekki strax. Að velja ósamstillt er gagnlegt þegar notendur eiga í beinum samskiptum við notandaviðmótið og eru ekki kraftnotendur til að skilja runuröðun. Að nota runu er annar valkostur ef reynist þörf á að flytja mikið magn annaðhvort út eða inn. Hægt er að áætla keyrslu á runuvinnslum í tilteknum runuflokk sem leyfir meiri stjórn hvað snertir álagsjöfnun. Ef ósamstillt keyrsla og runa eru bæði að fara í gegnum takmörkun vegna mikillar notkunar á tilföngum kerfisins, er hægt að nota fljótvirka hjáleið sem felur í sér að hægt er að nota samstilltu útgáfuna af innflutningi/útflutningi. Samstillingin byrjar strax og mun loka á notandaviðmótið vegna þess að það er keyrt í samstillingu. Vafraglugginn verður að vera opinn á meðan ósamstillta aðgerðin er í gangi.
+> Hægt er að keyra innflutnings- eða útflutningsvinnslu með því að velja hnappinn **Innflutningur** eða **Útflutningur**. Þetta mun áætla keyrslu runuvinnsla einu sinni. Vinnslan verður ekki keyrð strax ef runuþjónusta er takmörkuð vegna álags á runuþjónustunni. Einnig er hægt að keyra vinnslurnar ósamstillt með því að velja **Flytja inn núna** eða **Flytja út núna**. Þetta setur vinnsluna strax af stað og er gagnlegt ef runa byrjar ekki sökum takmörkunar. Einnig er hægt að tímasetja vinnslur á að keyra síðar. Þetta er hægt að gera með því að velja **Keyra í runu** valkostinn. Runutilföng heyra undir takmörkun og getur því verið að runuvinnslan hefjist ekki strax. Ráðlagt er að nota runu vegna þess að hún hjálpar til við mikið gagnamagn sem þarf að flytja inn eða flytja út. Hægt er að áætla keyrslu á runuvinnslum í tilteknum runuflokk sem leyfir meiri stjórn hvað snertir álagsjöfnun.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Staðfesta að vinnslan hafi gengið eins og búist var við með því að skoða vinnsluferilinn.
 Vinnsluferillinn er tiltækur vegna villuleitar og skoðunar fyrir bæði innflutnings- og útflutningsvinnslu Sögulegar vinnslukeyrslur eru skipulögð eftir tímalengdum.
@@ -195,7 +194,7 @@ Nota verður starfshreinsunarreynslu í gagnastjórnun til að skipuleggja reglu
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-Virkni verður að vera virk í eiginleikastjórnun og síðan er hægt að nálgast hana úr **Gagnastjórnun \> Hreinsun verksögu**.
+Virkja verður eiginleikann **Hreinsun vinnsluferils** í eiginleikastjórnun og síðan er hægt að opna hann í **Gagnastjórnun \> Hreinsun vinnsluferils**.
 
 ### <a name="scheduling-parameters"></a>Færibreytur röðunar
 
@@ -211,3 +210,36 @@ Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytu
 
 > [!NOTE]
 > Ef færslur í sviðsetningatöflunum eru ekki hreinsaðar alveg upp skaltu tryggja að hreinsunarvinnslan sé áætluð til að keyra endurtekið. Eins og lýst er hér að ofan, í öllum hreinsunarframkvæmdum mun vinnslan aðeins hreinsa upp eins mörg framkvæmdakenni og hægt er innan hámarkstímanna. Til að halda áfram að hreinsa allar eftirstandandi sviðsetningarskrár verður að vinnslan að vera áætluð í reglulega keyrslu.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Hreinsun vinnsluferils og safnskráar (í boði fyrir forskoðun í verkvangsuppfærslu 39 eða útgáfu 10.0.15)
+Hreinsun vinnsluferils og virkni safnskráar kemur í stað fyrri útgáfa af virkni hreinsunar. Þessi hluti útskýrir þessa nýju eiginleika.
+
+Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun runuvinnslu kerfis gerir Finance and Operations -forritum kleift að hreinsa runuvinnsluna samkvæmt sjálfkrafa áætlun og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar 12 á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir.
+
+> [!NOTE]
+> Þetta er forskoðun þessarar virkni og því um runuvinnsla kerfis ekki eyða framkvæmdarferli þar til slíkt er virkjað með forútgáfunni DMFEnableExecutionHistoryCleanupSystemJob. Þegar eiginleikinn er almennt tiltækur í síðari útgáfu verður forútgáfunnar ekki krafist og runuvinnsla kerfisins hefst á hreinsun og safnvistun um leið og kerfið er tilbúið samkvæmt skilgreindu áætluninni eins og lýst er hér á undan. 
+
+> [!NOTE]
+> Í síðari útgáfu verða fyrri útgáfur eiginleika hreinsunar fjarlægðar úr Finance and Operations -forritum.
+
+Önnur breytingin á hreinsunarferlinu er safnvistun á hreinsuðum framkvæmdarferli. Hreinsunarvinnslan safnvistar eyddum færslum í BLOB-geymslu sem DIXF notar fyrir reglubundnar samþættingar. Safnvistaða skráin verður á DIXF-pakkasniði og verður tiltæk í 7 daga í BLOB og verður hægt að hlaða hana niður á því tímabili. Hægt er að breyta sjálfgefinni tímalengd 7 daga fyrir safnvistuðu skrána í að hámarki 90 daga í færibreytunum.
+
+### <a name="changing-the-default-settings"></a>Breyting á sjálfgefnum stillingum
+Þessi virkni er í forskoðun og þarf að kveikja á henni með því að virkja forútgáfuna DMFEnableExecutionHistoryCleanupSystemJob. Einnig verður að kveikja á eiginleika hreinsunar í sviðsetningu í eiginleikastjórnun.
+
+Til að breyta sjálfgefnu stillingunni fyrir tímalengd safnvistuðu skáarinnar skal fara á vinnusvæði gagnastjórnunar og velja **Hreinsun vinnsluferils**. Stillið **Dagar sem varðveita á pakka í BLOB** á gildi á milli 7 og 90 (til og með). Þetta mun taka gildi í skjalasöfnum sem stofnuð voru eftir að þessi breyting var gerð.
+
+### <a name="downloading-the-archived-package"></a>Hlaða niður safnvistaða pakkanum
+Þessi virkni er í forskoðun og þarf að kveikja á henni með því að virkja forútgáfuna DMFEnableExecutionHistoryCleanupSystemJob. Einnig verður að kveikja á eiginleika hreinsunar í sviðsetningu í eiginleikastjórnun.
+
+Til að hlaða niður safnvistaða vinnsluferlinum skaltu fara á vinnusvæði gagnastjórnunar og velja **Hreinsun vinnsluferils**. Veldu **Öryggisafritunarferill pakka** til að opna eyðublað ferils. Þetta eyðublað sýnir lista yfir alla safnvistaða pakka. Hægt er að velja safn og hlaða niður með því að velja **Sækja pakka**. Upphalspakkinn verður á DIXF-pakkasniði og inniheldur eftirfarandi skrár:
+
+-   Skrá millistigsvistunartöflu einingar sviðsetningar
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

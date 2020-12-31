@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d4ea1d81b0e4f92974ceb7d46386c9d9f6e48979
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249004"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683409"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Reikningssamþykktir á fartækjavinnusvæðum
 
@@ -63,7 +62,7 @@ Fartækjavinnusvæðið **Reikningssamþykktir** gerir gjaldkerum og stjórnendu
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
+Sæktu og settu upp fartækjaforritið Finance and Operations:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

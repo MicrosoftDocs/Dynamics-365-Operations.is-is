@@ -19,11 +19,11 @@ ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997675"
+ms.locfileid: "4453769"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Setja upp vörpun fyrir stöðureit sölupöntunar
 
@@ -129,7 +129,7 @@ Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum
 
 Til að virkja eigindina **erIntegrationUser** skal fylgja þessum skrefum.
 
-1. Í Sales skal farið á **Stilling \> Sérstillingar \> Sérstilla kerfið** , velja **Notandaeining** og opna svo **Skjámynd \> Notandi**.
+1. Í Sales skal farið á **Stilling \> Sérstillingar \> Sérstilla kerfið**, velja **Notandaeining** og opna svo **Skjámynd \> Notandi**.
 
     ![Skjámynd notanda opnuð](media/sales-map-user.png)
 

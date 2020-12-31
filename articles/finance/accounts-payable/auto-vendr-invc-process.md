@@ -3,7 +3,7 @@ title: Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
 description: Í þessu efnisatriði er lýst möguleikanum á að gera reikningsferli lánardrottins sjálfvirkt og ávinningin af því að nota sjálfvirkt ferli.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022497"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665323"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
 
@@ -39,8 +39,9 @@ Sjálfvirk ferli er hægt að nota til að framkvæma eftirfarandi verk:
 - Senda innflutta reikninga sjálfkrafa í verkflæðiskerfið.
 - Jafna innhreyfingarskjöl afurðar við reikningslínur lánardrottins sem eru í biðstöðu.
 - Herma eftir bókun áður en lánardrottnareikningur er bókaður.
-- Skoða á fljótlegan og skilvirkan hátt verkflæðissögu.
+- Skoða á fljótlegan og skilvirkan hátt verkflæði og sjálfvirknisögu.
 - Skoða og greina niðurstöður á sjálfvikri úrvinnslu lánardrottnareikninga.
+- Halda sjálfvirku ferli áfram fyrir marga reikninga.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Sjálfvirkni lánardrottnareikninga – Senda innflutta reikninga í verkflæðiskerfið
 
@@ -58,10 +59,13 @@ Kerfið getur sjálfkrafa jafnað innhreyfingarskjöl afurða við reikningslín
 
 Bókunarhermir lýkur villuleitarskrefunum sem eru gerð í bókunarferlinu fyrir reikninga lánardrottins, en engir lyklar eru uppfærðir. Til að keyra vinnsluna er hægt að velja annaðhvort einn reikning eða marga reikninga á síðunni **Reikningar frá lánardrottni í bið**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Sjálfvirkni lánardrottnareiknings – Aukin upplifun til að skoða ferilgögn verkflæðis fyrir reikninga lánardrottna
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Sjálfvirkni lánardrottnareiknings – Aukin upplifun til að skoða ferilgögn og sjálfvirkni verkflæðis fyrir reikninga lánardrottna
 
-Auðlesið yfirlit yfir verkflæðissögu lánardrottnareikninga er veitt. Hægt er að opna verkflæðissögu lánardrottnareiknings beint úr reikningi lánardrottins. Þess vegna þarf færri smelli til að finna þær upplýsingar.
+Auðlesið yfirlit yfir verkflæðissögu lánardrottnareikninga er veitt. Hægt er að opna verkflæðissögu lánardrottnareiknings beint úr reikningi lánardrottins. Þess vegna þarf færri smelli til að finna þær upplýsingar. Ef fyrirtækið hefur virkjað möguleikana á að senda innflutta reikninga lánardrottins sjálfkrafa í verkflæði er sjálfvirkniferill gefin upp fyrir innfluttu reikningana. Sjálfvirkniferill hjálpar til við að auðkenna núverandi skref ferlis, sem og skrefin sem þegar hefur verið lokið. Ef skref mistekst veitir kerfið ítarlegar upplýsingar til að hjálpa notendum við að skilja ástæðuna fyrir því að það mis´tókst.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Sjálfvirkni lánardrottnareiknings - Greiningar og mælingar
 
 Vinnusvæðið **Reikningsfærsla lánardrottins** gerir þér kleift að einblína á reikninga lánardrottins sem komust ekki í gegnum sjálfvirka ferlið. Reitirnir á vinnusvæðinu sýna upplýsingar um reikninga lánardrottins sem ekki tókst að senda í verkflæðiskerfið, ekki tókst að flytja inn eða jafna við innhreyfingarskjöl afurða. Einnig er boðið upp á Microsoft Power BI mælingar til að veita stjórnendum viðskiptaskulda innsýn í skilvirknina sem fylgir sjálfvirkni lánardrottnareikninga.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Sjálfvirkni reiknings lánardrottins - halda sjálfvirknivinnslu áfram fyrir marga reikninga
+Þegar innfluttur reikningur hefur ekki verið sendur í verkflæði í gegnum sjálfvirka ferlið mun kerfið fjarlægja hann úr frekari sjálfvirkri vinnslu. Starfsmaður viðskiptaskulda getur yfirfarið og breytt reikningi áður en sjálfvirka vinnslan sendir hann aftur í verkflæði. Þegar hægt er að leysa úr ástæðu þess að bilun kom upp fyrir marga reikninga er hægt að endurræsa sjálfvirka ferlið á síðunni **Halda áfram sjálfvirkri úrvinnslu reikninga**. 
