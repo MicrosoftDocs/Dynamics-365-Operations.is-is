@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178262"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444413"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
@@ -76,7 +76,7 @@ Segjum sem svo að eignin hafi eftirfarandi eiginleika:
 | Líftími í árum  | 5      |
 | Árleg afskrift | 2.000  |
 
-Sama afskriftarupphæð á hverju ári. (Kaupverð - Hrakvirði / Líftími í árum
+Sama afskriftarupphæð á hverju ári. (Kaupverð - Hrakvirði) / Líftími í árum
 
 | Tímabil | Reiknuð árleg upphæð afskrifta | Nettó bókfært verð við lok árs |
 |--------|-------------------------------------------|---------------------------------------|
@@ -95,7 +95,7 @@ Líftími leiðréttingar kaupa er sú sama og eignarinnar og hefst við kaup þ
 | Tímabil | Reiknuð upphæð árlegra afskrifta | Nettó bókfært verð við lok árs |
 |--------|-------------------------------------------|---------------------------------------|
 | 1. ár | 10,000 / 5 = 2,000                        | 11.000 - 2.000 = 9.000                |
-| 2. ár | 4.000 ( – Leiðrétting kaupa            | 9,000 + 4,000 =13,000                 |
+| 2. ár | 4.000 ( – Leiðrétting kaupa)            | 9,000 + 4,000 =13,000                 |
 | 2. ár | 14,000 / 5 = 2,800                        | 13.000 - 2.800 = 10.200               |
 | 3. ár | 14,000 / 5 = 2,800                        | 10,200 - 2,800 = 7,400                |
 | 4. ár | 14,000 / 5 = 2,800                        | 7,400 - 2,800 = 4,600                 |

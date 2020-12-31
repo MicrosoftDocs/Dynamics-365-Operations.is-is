@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1534aab03ac35950e875a1384dfdf2a22bc22546
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978008"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4444608"
 ---
 # <a name="vendor-transactions-list-page"></a>Listasíða með lánardrottnafærslum
 
@@ -39,7 +39,7 @@ ms.locfileid: "3978008"
 
 4. Í svarglugganum er hægt að framkvæma ýmis verk. Veldu eitt eða fleiri fylgiskjöl og veldu síðan einn af eftirfarandi hnöppum:
 
-    - **Skoða tengt** - Sýna allar greiðslubókarfærslur og færslubókarfærslur fyrir lánardrottin sem var búinn til í færslubókunum þar sem skjölin sem sýnd eru í listanum voru búin til. Til dæmis, ef greiðsla er sýnd, birtast allar greiðslur í greiðslubókinni þar sem hún var búin til. Ef reikningur eða greiðsla er sýnd og hún var búin til í almennri færslubók, þá birtast öll skjölin í almennu færslubókinni þar sem hún var búin til. Öll uppgjör sem tengjast skjalalista eru einnig sýnd. Við skoðun á tengdum greiðslum breytist merkið á þessum hnappi í **Skoða uppgjör**. Veldu **Skoða uppgjör** til að sýna aðeins færslurnar sem sýndar voru þegar þú opnaðir fyrst svargluggann **Skoða uppgjör**.
+    - **Skoða tengt** - Sýna allar greiðslubókarfærslur og færslubókarfærslur fyrir lánardrottinn sem var búinn til í færslubókunum þar sem skjölin sem sýnd eru í listanum voru búin til. Til dæmis, ef greiðsla er sýnd, birtast allar greiðslur í greiðslubókinni þar sem hún var búin til. Ef reikningur eða greiðsla er sýnd og hún var búin til í almennri færslubók, þá birtast öll skjölin í almennu færslubókinni þar sem hún var búin til. Öll uppgjör sem tengjast skjalalista eru einnig sýnd. Við skoðun á tengdum greiðslum breytist merkið á þessum hnappi í **Skoða uppgjör**. Veldu **Skoða uppgjör** til að sýna aðeins færslurnar sem sýndar voru þegar þú opnaðir fyrst svargluggann **Skoða uppgjör**.
     - **Skoða feril** - Skoða uppgjörsferli fyrir fylgiskjölin. Veldu **Loka** til að loka svarglugganum.
     - **Skoða bókhald** - Sýna öll fylgiskjöl sem tengjast völdum skjölum. Veldu **Loka** til að loka svarglugganum.
     - **Flytja út** - Flyttu út valin fylgiskjöl í Microsoft Excel.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250329"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4444606"
 ---
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
@@ -68,7 +68,7 @@ Hægt er að skoða öll núgildandi og fyrri lokunarverk tímabils úr listasí
 
 Á flipanum **Tilföng** skilgreinirðu fólki sem kemur við sögu í lokunarferlum. Alla starfsmenn sem verða ábyrgir fyrir verkefni lokunarverki þarf fyrst að tengja hér. Einnig verður að tilgreina sýn starfsmanns af vinnusvæðinu. Eftirtaldir valkostir eru í boði:
 
--   **Aðeins úthlutuð verkefni** – Þá mun notandinn sjá aðeins þau verkefni sem eru úthlutaðar á hann eða hana.
+-   **Aðeins úthlutuð verkefni** – Þá mun notandinn sjá aðeins þau verkefni sem eru úthlutaðar á hann.
 -   **Öll verkefni og staða** – Notandinn mun sjá öll lokunarverk og stöðu heildarferlisins.
 
 Notendur með heimild til að skoða aðeins úthlutuð verkefni sín geta ekki bætt verkum við lista yfir verkefni, breytt verkum eða fjarlægt verk úr lista yfir verk.

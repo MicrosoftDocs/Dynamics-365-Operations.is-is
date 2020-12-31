@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444321"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Innflutningur ítarlegrar bankaafstemmingar MT940 – Uppfærsla samsettrar gagnaeiningar
 
@@ -55,7 +55,7 @@ Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlit
             3.  Hlaða upp gagnaskrá = ný útgáfa SampleBankCompositeEntity.xml.
             4.  Smellið á **„Já“** til að skrifa yfir núgildandi skrá.
             5.  Smellið á **Já** til að mynda nýja vörpun.
-            6.  Staðfestið að S**equenceNumber** er varpað.
+            6.  Staðfestið að S **equenceNumber** er varpað.
                 -   Smellt er á **Skoða kort** á yfirlitseiningunni.
                 -   Staðfestið að **SequenceNumber** er varpað úr uppruna í sviðsetningu.
 

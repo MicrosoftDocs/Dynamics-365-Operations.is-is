@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006214"
+ms.locfileid: "4444547"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
@@ -41,15 +41,15 @@ Hluti af lok tímabils reikningsskilavenja krefjast stöður fjárhagslykils í 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Undirbúa keyrslu á endurmati á erlendum gjaldmiðli
 eftirfarandi uppsetningar er krafist áður en endurmatsferlið er keyrt.
 
--   Á síðunni **Aðallykill** :
+-   Á síðunni **Aðallykill**:
 -   Fyrir hvern aðallykil sem ætti að vera endurmetið, veljið **endurmat á Erlendum gjaldmiðli**. Ef aðallykli ættu ekki að endurmetinn (eins og Viðskiptakröfur og viðskiptaskuldir ef endurmetin í undirbókum), hreinsa þennan valkost.
--   Ef aðallykils er merkt fyrir endurmat, færa inn **gengisgerð**. Verður nota þessa gerð gengis fyrir endurmat á aðallykilinn. Aðskilin svæði **Fjárhagslegar skýrslugerð gengisgerð** , er tiltækt fyrir fjárhagsskýrslugerð. Tvö svæði eru ekki haldið í samræmi, heimiluð fyrir mismunandi gengisgerðir sem nota á fyrir endurmat og fjárhagsskýrslugerð.
+-   Ef aðallykils er merkt fyrir endurmat, færa inn **gengisgerð**. Verður nota þessa gerð gengis fyrir endurmat á aðallykilinn. Aðskilin svæði **Fjárhagslegar skýrslugerð gengisgerð**, er tiltækt fyrir fjárhagsskýrslugerð. Tvö svæði eru ekki haldið í samræmi, heimiluð fyrir mismunandi gengisgerðir sem nota á fyrir endurmat og fjárhagsskýrslugerð.
 
--   Á síðunni **fjárhagur** :
+-   Á síðunni **fjárhagur**:
 -   Tilgreinið **gengisgerð**. Ef gengisgerð er ekki tilgreind á aðallykilinn, þessa gerð gengis notað við endurmat á erlendum gjaldmiðli.
 -   Tilgreinið innleystan hagnaður, innleyst tap, óinnleystur hagnaður og óinnleyst tap lyklar fyrir endurmat gjaldmiðils. Innleystur hagnaður og innleyst tap lyklar eru notaðir fyrir jafnaðar viðskiptakröfur og viðskiptaskuldir færslur og óinnleystur hagnaður og óinnleyst tap lyklar eru notaðir fyrir endurmat opnar færslur og aðallykla fjárhags.
 
--   Á síðunni **gjaldmiðilsendurmatslyklum** :
+-   Á síðunni **gjaldmiðilsendurmatslyklum**:
 -   Veljið aðra gjaldmiðilsendurmatslykla fyrir hvern gjaldmiðil og fyrirtæki. Ef engin lyklar eru skilgreindir, eru lykla úr **Fjárhag** síðu notaðar.
 
 ## <a name="process-foreign-currency-revaluation"></a>Vinna endurmat á erlendum gjaldmiðli

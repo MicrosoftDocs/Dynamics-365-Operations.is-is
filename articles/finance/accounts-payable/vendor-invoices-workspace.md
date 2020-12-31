@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000796"
+ms.locfileid: "4444540"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Vinnusvæði reikningsfærslu lánardrottins
 
@@ -70,9 +70,9 @@ Reitirnir í hlutanum **Samantekt yfir reikninga í bið** í yfirlitinu **Mín 
 
 (Þessir fjórir reitir krefjast þess að kveikt sé á sjálfvirknieiginleiki lánardrottnareiknings í eiginleikastjórnun.)
 
-Til að nota reitinn **Endurheimta reikninga lánardrottna** verður að vera kveikt á eiginleikanum í færibreytum viðskiptaskulda. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur** , skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
+Til að nota reitinn **Endurheimta reikninga lánardrottna** verður að vera kveikt á eiginleikanum í færibreytum viðskiptaskulda. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur**, skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
 
-Þegar kveikt er á eiginleikanum sjást einnig þrír reitir saman á vinnusvæðinu í hluta sem kallast **Færslubækur**. Reitirnir kallast **Færslubækur** , **Færslubækur – Úthlutað til þín** og **Reikningasafn**. 
+Þegar kveikt er á eiginleikanum sjást einnig þrír reitir saman á vinnusvæðinu í hluta sem kallast **Færslubækur**. Reitirnir kallast **Færslubækur**, **Færslubækur – Úthlutað til þín** og **Reikningasafn**. 
 
 Upplýsingarnar í hlutanum **Samantekt yfir reikninga í bið** eru fyrir fyrirtækið sem er stillt sem sjálfgefið fyrirtæki fyrir innskráninguna þína.
 
@@ -102,7 +102,7 @@ Hnitanetið **Reikningar frá lánardrottni í bið** sýnir alla lánardrottnar
 
 ### <a name="related-information"></a>Tengdar upplýsingar
 
-Hægt er að skoða upplýsingar um bókaða reikninga með því að nota tenglana hægra megin á vinnusvæðinu. Þessir tenglar innihalda **Opnir lánardrottnareikningar** , **Reikningabækur** og **Reikningssaga og samsvarandi upplýsingar**. Í hlutanum **Lánardrottnar** er hægt að opna síaðan lista sem sýnir alla lánardrottna sem eru í bið eða hægt er að nota tengilinn **Allir lánardrottnar**. Tenglarnir **Allar innkaupapantanir** og **Opnar fyrirframgreiðslur** eru einnig í boði.
+Hægt er að skoða upplýsingar um bókaða reikninga með því að nota tenglana hægra megin á vinnusvæðinu. Þessir tenglar innihalda **Opnir lánardrottnareikningar**, **Reikningabækur** og **Reikningssaga og samsvarandi upplýsingar**. Í hlutanum **Lánardrottnar** er hægt að opna síaðan lista sem sýnir alla lánardrottna sem eru í bið eða hægt er að nota tengilinn **Allir lánardrottnar**. Tenglarnir **Allar innkaupapantanir** og **Opnar fyrirframgreiðslur** eru einnig í boði.
 
 ### <a name="analytics--all-companies-page"></a>Greiningar - síðan fyrir öll fyrirtæki
 

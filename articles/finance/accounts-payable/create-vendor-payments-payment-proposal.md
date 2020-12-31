@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178359"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444358"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofnun greiðslna lánardrottins með greiðslutillögu
 
@@ -119,7 +119,7 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 
 #### <a name="bank-account-selection"></a>Val á bankareikningi
 
-Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **Gerð bókunarlykils** = **Banka**.
+Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota  **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **Gerð bókunarlykils** = **Banka**.
 
 
 

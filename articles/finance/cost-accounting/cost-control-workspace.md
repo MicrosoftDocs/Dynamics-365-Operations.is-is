@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38dc261a74eea9e45036961fdfecea1465b238de
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977696"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4444604"
 ---
 # <a name="cost-control-workspace"></a>Vinnusvæði kostnaðarstýringar 
 
@@ -145,7 +145,7 @@ Notendur geta smellt á **Kostnaðarfærslur** til að kafa niður í upplýsing
 
 ![Kostnaðarfærslur](./media/cost-entries.png)
 
-Til dæmis er leiga útgjöld sem dreifist á kostnaðarstaði. Notandi sem vill öðlast skilning á leigukostnaði sem kostnaðarstaður hans eða hennar verður að bera getur kafað niður til að sjá hvernig leiga hefur verið reiknuð.
+Til dæmis er leiga útgjöld sem dreifist á kostnaðarstaði. Notandi sem vill skilja leigukostnaðinn sem kostnaðarstöð sína verður að kafa niður til að sjá hvernig leigan hefur verið reiknuð.
 
 Ef notendur smella á **Úthlutunargrunnur** á síðunni **Kostnaðarfærslur** birtist svargluggi. Notendur geta svo úthlutað reglunni úthlutunargrunni og skoðað samsvarandi tölfræðilegar mælingar sem eru skráðar á því tímabili.
 

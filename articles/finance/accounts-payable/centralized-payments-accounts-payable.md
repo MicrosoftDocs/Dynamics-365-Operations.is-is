@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2a4632056d6873cfeb748251c77becc410f5cf54
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189707"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444429"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Miðstýrðar greiðslur fyrir viðskiptaskuldir
 
@@ -33,7 +33,7 @@ Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þar að auki sparar fyrirtækið tíma þar sem greiðsluferlið er aðlagað.
 
-Í miðstýrðum greiðslusamtökum eru margir lögaðilar fyrir aðgerðir og hver rekstrareining lögaðila stjórnar eigin reikningum lánardrottins. Greiðslur fyrir allar rekstrareiningar lögaðila eru myndaðar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða lögeining innan fyrirtækisins fái innleystar hagnaðar- eða innleystar tapfærslurnar og hvernig færslur staðgreiðsluafsláttar sem eru tengdar greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Lánardrottin. **Gerð mótlykil**s skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
+Í miðstýrðum greiðslusamtökum eru margir lögaðilar fyrir aðgerðir og hver rekstrareining lögaðila stjórnar eigin reikningum lánardrottins. Greiðslur fyrir allar rekstrareiningar lögaðila eru myndaðar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða lögeining innan fyrirtækisins fái innleystar hagnaðar- eða innleystar tapfærslurnar og hvernig færslur staðgreiðsluafsláttar sem eru tengdar greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Lánardrottin. **Gerð mótlykil** s skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
 
 Eftirfarandi dæmi sýna hvernig bókanir eru meðhöndlaðar í mismunandi tilvikum. Eftirfarandi skilgreining er notuð í öllum þessum dæmum:
 
