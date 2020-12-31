@@ -1,0 +1,60 @@
+---
+title: Bóka tímabilsbækur
+description: Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæð, texti og aðrar upplýsingar eru endurteknar í hvert sinn sem er sótt í tímabilsbók.
+author: aprilolson
+manager: AnnBe
+ms.date: 06/26/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4444407"
+---
+# <a name="post-periodic-journals"></a><span data-ttu-id="7b3af-103">Bóka tímabilsbækur</span><span class="sxs-lookup"><span data-stu-id="7b3af-103">Post periodic journals</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="7b3af-104">Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæð, texti og aðrar upplýsingar eru endurteknar í hvert sinn sem er sótt í tímabilsbók.</span><span class="sxs-lookup"><span data-stu-id="7b3af-104">Periodic journals are sometimes called recurring journals because the amount, text, and other information are repeated each time that the periodic journal is retrieved.</span></span> <span data-ttu-id="7b3af-105">Þegar þú stofnar reglulega tímabilsdagbók tilgreinirðu tímabilið sem líður á milli endurkomu, svo sem daga eða mánuði.</span><span class="sxs-lookup"><span data-stu-id="7b3af-105">When you create the periodic journal, you specify the period interval for the recurrence, such as days or months.</span></span> <span data-ttu-id="7b3af-106">Þessar verkefnaleiðbeiningar munu stofna tímabilsbækur með mánaðarlegum endurtekningum.</span><span class="sxs-lookup"><span data-stu-id="7b3af-106">This task guide will create a periodic journal with a monthly recurrence.</span></span>
+
+1. <span data-ttu-id="7b3af-107">Farðu í **Skoðunarrúðu > Kerfiseiningar > Fjárhagur > Reglubundin verk > Tímabilsbækur**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-107">Go to **Navigation pane > Modules > General ledger > Periodic tasks > Periodic journals**.</span></span>
+2. <span data-ttu-id="7b3af-108">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-108">Click **New**.</span></span>
+3. <span data-ttu-id="7b3af-109">Sláið inn eða veldu gildi í reitnum **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-109">In the **Name** field, enter or select a value.</span></span>
+4. <span data-ttu-id="7b3af-110">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-110">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="7b3af-111">Í reitinn **Lýsing** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7b3af-111">In the **Description** field, type a value.</span></span> <span data-ttu-id="7b3af-112">Lýsing verður nafn tímabilsbókar þegar sótt síðar svo tryggja að veita viðeigandi heiti.</span><span class="sxs-lookup"><span data-stu-id="7b3af-112">The description will be the name of the Periodic journal when retrieved later so make sure to give it a relevant name.</span></span>
+6. <span data-ttu-id="7b3af-113">Í **Aðgerðasvæðinu**, smellirðu á **Línur**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-113">On the **Action pane**, click **Lines**.</span></span> <span data-ttu-id="7b3af-114">Tímabilsbók hefur yfirleitt færslubókarlínur.</span><span class="sxs-lookup"><span data-stu-id="7b3af-114">A periodic journal will typically include several journal lines.</span></span> <span data-ttu-id="7b3af-115">þessi leiðarvísi fyrir verk hins vegar aðeins bæta við einni línu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-115">this task guide will however only add one line.</span></span>
+7. <span data-ttu-id="7b3af-116">í retinum **Dagsetning** ritarðu dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-116">In the **Date** field, enter a date.</span></span> <span data-ttu-id="7b3af-117">Reiturinn **Dagsetning** inniheldur bókunardagsetningu fyrir næstu færslu í daglega færslubók.</span><span class="sxs-lookup"><span data-stu-id="7b3af-117">The **Date** field contains the posting date for the next transfer to the daily journal.</span></span> <span data-ttu-id="7b3af-118">Fyrir Færslubækur sem verða sóttar hvern mánuð mælt er með að nota dagsetningu í mánuði þegar verður að bóka hana, yfirleitt fyrsta eða síðasta degi tímabilsins.</span><span class="sxs-lookup"><span data-stu-id="7b3af-118">For journals that will be retrieved each month it is recommended to use the date in the month when it will be posted, typically the first or last date in the period.</span></span> <span data-ttu-id="7b3af-119">Hægt er að hafa Dagsetningu svæðið autt og veita dagsetningu þegar færslubók er sótt með því að nota Auða svæðið dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-119">It is possible to leave the Date field blank and to give a date when the journal is retrieved, using the Empty date field.</span></span> <span data-ttu-id="7b3af-120">Svæðið uppfærist sjálfkrafa á næsta endurtekna dagsetningu þegar færslur eru sóttar.</span><span class="sxs-lookup"><span data-stu-id="7b3af-120">The field is automatically updated to the next recurring date when transactions are retrieved.</span></span> 
+8. <span data-ttu-id="7b3af-121">Í reitnum **Lykill** tilgreinirðu þau gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="7b3af-121">In the **Account** field, specify the desired values.</span></span>
+9. <span data-ttu-id="7b3af-122">Veldu gildi í reitnum **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-122">In the **Description** field, select a value.</span></span>
+10. <span data-ttu-id="7b3af-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7b3af-123">Close the page.</span></span>
+11. <span data-ttu-id="7b3af-124">Í reitnum **Debet** skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-124">In the **Debit** field, enter a number.</span></span>
+12. <span data-ttu-id="7b3af-125">Í reitnum **Mótlykill** skal skilgreina æskileg gildi.</span><span class="sxs-lookup"><span data-stu-id="7b3af-125">In the **Offset account** field, specify the desired values.</span></span>
+13. <span data-ttu-id="7b3af-126">Í reitnum **Eining** skal velja ‚Mánuði‘.</span><span class="sxs-lookup"><span data-stu-id="7b3af-126">In the **Unit** field, select 'Months'.</span></span>
+14. <span data-ttu-id="7b3af-127">Í reitnum **Fjöldi eininga** skal færa inn ‚1‘.</span><span class="sxs-lookup"><span data-stu-id="7b3af-127">In the **Number of units** field, enter '1'.</span></span>
+15. <span data-ttu-id="7b3af-128">Í reitnum **Síðasta dagsetning** skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-128">In the **Last date** field, enter a date.</span></span> <span data-ttu-id="7b3af-129">Innsláttur síðustu dagsetningu á tímabilinu á undan kemur í veg fyrir að ítrekunarbók er stofnuðá röngu upphafstímabili.</span><span class="sxs-lookup"><span data-stu-id="7b3af-129">Entering last date in the preceding period will prevent that the recurring journal by mistake is created in the wrong starting period.</span></span> <span data-ttu-id="7b3af-130">Síðasta dagsetning verður síðar uppfærð í hvert skipti sem tímabilsbók er sótt.</span><span class="sxs-lookup"><span data-stu-id="7b3af-130">Last date will later on be updated each time the periodic journal is retrieved.</span></span> 
+16. <span data-ttu-id="7b3af-131">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-131">Click **Save**.</span></span>
+17. <span data-ttu-id="7b3af-132">Farðu í **skoðunarrúðuna > Kerfiseiningar > Fjárhagur > Bókarfærslur > Almennar færslubækur**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-132">Go to **Navigation pane > Modules > General ledger > Journal entries > General journals**.</span></span>
+18. <span data-ttu-id="7b3af-133">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-133">Click **New**.</span></span>
+19. <span data-ttu-id="7b3af-134">Sláið inn eða veldu gildi í reitnum **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-134">In the **Name** field, enter or select a value.</span></span>
+20. <span data-ttu-id="7b3af-135">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="7b3af-135">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="7b3af-136">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-136">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="7b3af-137">Í reitinn **Lýsing** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7b3af-137">In the **Description** field, type a value.</span></span>
+23. <span data-ttu-id="7b3af-138">Í **Aðgerðasvæðinu**, smellirðu á **Línur**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-138">On the **Action pane**, click **Lines**.</span></span>
+24. <span data-ttu-id="7b3af-139">Í **aðgerðasvæðinu** er smellt á **Tímabilsbók**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-139">On the **Action pane**, click **Period journal**.</span></span>
+25. <span data-ttu-id="7b3af-140">Smelltu á **Sækja færslubók**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-140">Click **Retrieve journal**.</span></span>
+26. <span data-ttu-id="7b3af-141">Í reitnum **Til dags.** færirðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-141">In the **To date** field, enter a date.</span></span> <span data-ttu-id="7b3af-142">**Til dagsetningar** gegnir hlutverki lokadagsetningar fyrir reglubundnar fylgiskjalslínurnar.</span><span class="sxs-lookup"><span data-stu-id="7b3af-142">The **To date** serves as the cutoff date for the periodic voucher lines.</span></span> <span data-ttu-id="7b3af-143">Á grundvelli endurtekningastillinga gætu Lokadagsetningin og Til dagsetningin sömu línu verið hafðar með oftar en einu sinni í færslubókinni sem verður til.</span><span class="sxs-lookup"><span data-stu-id="7b3af-143">Based on the recurrence setting, the Last date and To date the same line might be included more than once in the resulting journal.</span></span> <span data-ttu-id="7b3af-144">Til dagsetningar er sjálfvirkt uppfært samkvæmt dagsetningu lotu þegar tímabilslína var síðast millifærð í færslubók.</span><span class="sxs-lookup"><span data-stu-id="7b3af-144">To date is automatically updated based on  session date of the last time the periodic line was transferred to a journal.</span></span> 
+27. <span data-ttu-id="7b3af-145">Í reitnum **Tímabilsbækur** skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="7b3af-145">In the **Periodic journal number** field, enter or select a value.</span></span>
+28. <span data-ttu-id="7b3af-146">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-146">In the list, click the link in the selected row.</span></span>
+29. <span data-ttu-id="7b3af-147">Smellt er á **OK**.</span><span class="sxs-lookup"><span data-stu-id="7b3af-147">Click **OK**.</span></span> <span data-ttu-id="7b3af-148">Nú er hægt að endurskoða, samþykkja eða bóka tímabilsbók eftir þörf og uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="7b3af-148">The period journal can now be reviewed, approved or posted depending on requirement and setup.</span></span>   
