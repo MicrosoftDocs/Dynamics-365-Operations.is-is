@@ -1,0 +1,71 @@
+---
+title: IF ER-aðgerð
+description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin IF í rafrænni skýrslugerð (ER) er notuð.
+author: NickSelin
+manager: kfend
+ms.date: 12/12/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b8733022b44f3460e34a610140fd6d584ab990c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687003"
+---
+# <a name="if-er-function"></a><span data-ttu-id="4244e-103">IF ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="4244e-103">IF ER function</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="4244e-104">Aðgerðin `IF` skilar fyrsta tilgreinda gildinu ef tilgreinda skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="4244e-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="4244e-105">Að öðrum kosti skilar hún öðru tilgreinda gildinu.</span><span class="sxs-lookup"><span data-stu-id="4244e-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="4244e-106">Gildið sem er skilað getur verið gildi allra þeirra gagnagerða sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="4244e-106">The value that is returned can be a value of any of the supported data types.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="4244e-107">Málskipun</span><span class="sxs-lookup"><span data-stu-id="4244e-107">Syntax</span></span>
+
+```vb
+IF (condition, first value, second value) as any of the supported data types
+```
+
+## <a name="arguments"></a><span data-ttu-id="4244e-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="4244e-108">Arguments</span></span>
+
+<span data-ttu-id="4244e-109">`condition`: *Boole-gildi*</span><span class="sxs-lookup"><span data-stu-id="4244e-109">`condition`: *Boolean*</span></span>
+
+<span data-ttu-id="4244e-110">Gild skilyrt segð sem verður að prófa.</span><span class="sxs-lookup"><span data-stu-id="4244e-110">A valid conditional expression that must be tested.</span></span>
+
+<span data-ttu-id="4244e-111">`first value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="4244e-111">`first value`: *Any of the supported data types*</span></span>
+
+<span data-ttu-id="4244e-112">Niðurstaðan sem er skilað ef skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="4244e-112">The result that is returned if the condition is met.</span></span>
+
+<span data-ttu-id="4244e-113">`second value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="4244e-113">`second value`: *Any of the supported data types*</span></span>
+
+<span data-ttu-id="4244e-114">Niðurstaðan sem er skilað ef skilyrðið er ekki uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="4244e-114">The result that is returned if the condition isn't met.</span></span>
+
+## <a name="return-values"></a><span data-ttu-id="4244e-115">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="4244e-115">Return values</span></span>
+
+<span data-ttu-id="4244e-116">*Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="4244e-116">*Any of the supported data types*</span></span>
+
+<span data-ttu-id="4244e-117">Gildið sem myndast við einhverja af þeim gagnategundum sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="4244e-117">The resulting value of any of the supported data types.</span></span>
+
+## <a name="usage-notes"></a><span data-ttu-id="4244e-118">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="4244e-118">Usage notes</span></span>
+
+<span data-ttu-id="4244e-119">Frumbreyturnar `first value` og `second value` verða að vera tilgreindar með því að nota sömu gagnagerð.</span><span class="sxs-lookup"><span data-stu-id="4244e-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="4244e-120">Undantekning er gerð á hönnunartíma ef gagnagerðir stilltra gilda passa ekki saman.</span><span class="sxs-lookup"><span data-stu-id="4244e-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+
+<span data-ttu-id="4244e-121">Ef fyrsta gildið og annað gildið eru gildi af gagnagerðinni *Gámur (skrá)* eða *Skáalisti* er niðurstaðan aðeins með reitina sem eru til í báðum gildum.</span><span class="sxs-lookup"><span data-stu-id="4244e-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+
+## <a name="example"></a><span data-ttu-id="4244e-122">Dæmi</span><span class="sxs-lookup"><span data-stu-id="4244e-122">Example</span></span>
+
+<span data-ttu-id="4244e-123">`IF (1=2, "condition is met", "condition is not met")` skilar strengnum **"condition is not met"**.</span><span class="sxs-lookup"><span data-stu-id="4244e-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="4244e-124">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="4244e-124">Additional resources</span></span>
+
+[<span data-ttu-id="4244e-125">Rökvirkni</span><span class="sxs-lookup"><span data-stu-id="4244e-125">Logical functions</span></span>](er-functions-category-logical.md)
