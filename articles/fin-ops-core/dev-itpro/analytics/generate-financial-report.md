@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181842"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688318"
 ---
 # <a name="generate-financial-reports"></a>Mynda fjárhagsskýrslur
 
@@ -98,7 +97,7 @@ Ef eyða á skýrsluáætlun þarf notandinn að vera eigandi skýrsluáætlunar
 
 Ef þú færir ekki inn skilríki sem eru nauðsynleg fyrir öll fyrirtæki í skýrslum, berast þér eftirfarandi skilaboð þegar skýrsluáætlun er vistuð: „Tilgreina verður skilríkin fyrir þau fyrirtæki sem eru til staðarí þessari skýrsluáætlun. Smellið á hnappinn „Heimildir“ til að færa inn skilríkin þín.“
 
-Til dæmis skráir Pála sig inn í Fyrirtæki A með notandanafni sínu og aðgangsorði. Hún stofnar áætlun fyrir staka skýrslu sem notar skipuritsskilgreiningu til að safna gögnum frá mörgum fyrirtækjum. Þegar þessi skýrsluáætlun er vistuð fær Pála kvaðningu um að færa inn skilríkin fyrir hin fyrirtækin sem tilgreind eru í skipuritsskilgreiningunni. Þegar skilríki notanda renna út eru skýrslurnar sem það hefur áhrif á ekki myndaðar fyrr en skilríkin hafa verið uppfærð. Skilaboð birtast einnig í skýrslubiðröðinni til að gefa til kynna að uppfæra þurfi heimildir. Skýrsluáætlunin bregst ef einhver af eftirfarandi aðstæðum koma upp (þar sem þær krefjast skilríkja):
+Til dæmis skráir notandi sig inn á Fyrirtæki A með sinni innskráningu og aðgangsorði. Notandi stofnar áætlun fyrir skýrslu sem notar skýrslugerð tré skilgreiningu til að safna gögnum frá mörgum fyrirtækjum. Þegar áætlun þessi skýrsla er vistuð er notandinn beðinn um að notendaheimildir færðar inn í öðrum fyrirtækjum sem eru tilgreind í skilgreiningu reporting tréð. Þegar skilríki notanda renna út eru skýrslurnar sem það hefur áhrif á ekki myndaðar fyrr en skilríkin hafa verið uppfærð. Skilaboð birtast einnig í skýrslubiðröðinni til að gefa til kynna að uppfæra þurfi heimildir. Skýrsluáætlunin bregst ef einhver af eftirfarandi aðstæðum koma upp (þar sem þær krefjast skilríkja):
 
 - Nýju fyrirtæki er bætt við skipuritið fyrir einstaka skýrslu.
 - Skýrslu í skýrsluhópi er breytt.

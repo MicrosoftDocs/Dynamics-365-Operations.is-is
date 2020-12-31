@@ -1,6 +1,6 @@
 ---
 title: Samþætt vinna með lánardrottinssniðmát
-description: Þetta efni lýsir samþættingu lánardrottnagagna milli forrita Finance and Operations og Common Data Service.
+description: Þetta efni lýsir samþættingu lánardrottnagagna milli forrita Finance and Operations og Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997649"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685486"
 ---
 # <a name="integrated-vendor-master"></a>Samþætt lánardrottinssniðmát
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem v
 
 ## <a name="vendor-data-flow"></a>Gagnaflæði lánardrottins
 
-Ef þú vilt ekki geyma lánardrottnagögn í einingunni **Lykill/tengiliður** í Common Data Service geturðu notað nýju lánardrottnahönnunina.
+Ef þú vilt ekki geyma lánardrottnagögn í einingunni **Lykill/tengiliður** í Dataverse geturðu notað nýju lánardrottnahönnunina.
 
 ![Gagnaflæði lánardrottins](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ Ef þú vilt halda áfram að geyma lánardrottnagögn í einingunni **Lykill/te
 
 ## <a name="templates"></a>Sniðmát
 
-Lánardrottnagögn innihalda allar upplýsingar um lánardrottinn, svo sem lánardrottnahópinn, heimilisföng, tengiliðaupplýsingar, greiðslusnið og reikningssnið. Safn af einingakortum virka saman á meðan samskipti við lánardrottna eru í gangi, eins og sýnt er í eftirfarandi töflu.
+Lánardrottnagögn innihalda allar upplýsingar um lánardrottinn, svo sem lánardrottnahópinn, heimilisföng, tengiliðaupplýsingar, greiðslusnið og reikningssnið. Safn af töflukortum vinna saman í gagnasamskiptum lánardrottins, eins og sýnt er í eftirfarandi töflu.
 
 Finance and Operations-smáforrit | Önnur Dynamics 365 forrit     | Lýsing
 ----------------------------|-----------------------------|------------
 Lánardrottinn V2                   | Reikningur                     | Fyrirtæki sem nota lyklaeininguna til að geyma upplýsingar um lánardrottna geta haldið áfram að nota hana á sama hátt. Þau geta einnig nýtt sér yfirlýsta virkni lánardrottins sem kemur vegna samþættingar forrita Finance and Operations.
-Lánardrottinn V2                   | Msdyn\_vendors              | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Common Data Service vegna samþættingar forrita Finance and Operations. 
+Lánardrottinn V2                   | Msdyn\_vendors              | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Dataverse vegna samþættingar forrita Finance and Operations. 
 Lánardrottnaflokkar               | msdyn\_vendorgroups         | Þetta sniðmát samstillir upplýsingar um hóp lánardrottna.
 Greiðsluháttur lánardrottins       | msdyn\_vendorpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta lánardrottna.
 Tengiliðir fyrir skuldatryggingu V2             | tengiliðir                    | [Tengiliða](customer-mapping.md#cds-contacts-v2-to-contacts)-sniðmátið samstillir allar aðal-, aðrar og þriðju tengiliðaupplýsingar, bæði fyrir viðskiptavini og framleiðendur.

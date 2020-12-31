@@ -3,24 +3,23 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971446"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689567"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -37,8 +36,16 @@ ms.locfileid: "3971446"
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.15 á forritum Finance and Operations
 
-> [!NOTE]
-> Útgáfa 10.0.15 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 stuðningi við Dynamics 365 hefur verið hætt
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
+| **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
+| **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur |
+| **Dreifingarvalkostur**              | Allir|
+| **Staða**                         | Úrelt. Internet Explorer 11 verður ekki stutt eftir ágúst 2021.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio -viðbót til að nota flýtileiðréttingar
 
@@ -52,10 +59,6 @@ ms.locfileid: "3971446"
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.14 á forritum Finance and Operations
-
-> [!NOTE]
-> Útgáfa 10.0.14 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Síða nettengds notanda 
 
@@ -144,7 +147,7 @@ ms.locfileid: "3971446"
 | **Skipt út fyrir aðra eiginleika?**   | Visual Studio 2017 kemur í stað Visual Studio 2015 sem uppsett og áskild útgáfa. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Þegar framboð nýrra sýndarvéla með Visual Studio 2017 er tilkynnt verða núverandi sýndarvélar með aðeins Visual Studio 2015 að vera settar upp aftur á útgáfutímabili 1 fyrir árið 2021. |
+| **Staða**                         | Sýndarvélar virkjaðar í útgáfu 10.0.13 (verkvangsuppfærsla 37) eða nýrri innihalda Visual Studio 2017. Útgáfa 10.0.16 (verkvangsuppfærsla 40) er nýjasta útgáfa með stuðningi fyrir Visual Studio 2015. Ekki er hægt að uppfæra sýndarvélar með aðeins Visual Studio 2015 í útgáfu 10.0.17 (verkvangsuppfærsla 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Reitahópar sem innihalda ógilda tilvísanareiti
 

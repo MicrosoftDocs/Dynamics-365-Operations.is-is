@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015044"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692967"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -181,7 +180,7 @@ Tilraunaútgáfur eiginleika eru rauntímaskipting milli kveikt/slökkt sem Micr
 Já, ef eiginleikinn hefur áhrif á virkni umhverfis sem þjónar engum tilgangi er hægt að virkja hann að sjálfgefnu.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Hvernig er hægt að athuga virkjun eiginleika í kóða?
-Nota skal aðferðina **isFeatureEnabled** í klasanum **FeatureStateProvider** , láta hana fá tilvik af klasa eiginleikans. Dæmi: 
+Nota skal aðferðina **isFeatureEnabled** í klasanum **FeatureStateProvider**, láta hana fá tilvik af klasa eiginleikans. Dæmi: 
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))

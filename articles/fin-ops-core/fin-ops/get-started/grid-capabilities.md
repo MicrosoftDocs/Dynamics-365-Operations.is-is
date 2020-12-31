@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835087"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693775"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Nýja netstýringin veitir fjölda gagnlegra og öflugra getu sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
 
@@ -95,21 +95,23 @@ Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölu
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Flokkun töflugagna
-[!include [preview banner](../includes/preview-banner.md)]
+Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **Flokkun í hnitaneti** eiginleikinn, sem er almennt aðgenginlegur í útgáfu 10.0.16/verkvangsuppfærslu 40 háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
 
-Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **(forútgáfa) flokkun í hnitaneti** eiginleikinn, sem er háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
-
-Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir dálki** við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
+Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir** dálki við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
 -  Gagnagildi fyrir hópinn 
--  Dálkheiti (þessar upplýsingar verða sérstaklega gagnlegar eftir að mörg stig flokkunar eru studdar.)  
+-  Dálkheiti (þessar upplýsingar eru sérstaklega gagnlegar þegar mörg flokkunarstig eru til staðar)  
 -  Fjöldi gagnalína í þessum hópi
 -  Undirmál fyrir hvaða dálk sem er stilltur til að sýna samtölur
 
 Með [Vistaðar skoðanir](saved-views.md) virkt, þá er hægt að vista þennan flokkun með sérstillingu sem hluta af útsýni til að fá skjótan aðgang næst þegar þú heimsækir síðuna.  
 
-Ef **Flokka eftir þessum dálki** er valið fyrir annan dálk, er upprunalega hópnum skipt út þar sem aðeins eitt stig af flokkun er stutt frá útgáfu 10.0.9/verkvangsuppfærslu 33.
+### <a name="multiple-levels-of-grouping"></a>Mörg stig flokkunar
+Eftir að gögn hafa verið flokkuð eftir einum dálki er hægt að flokka gögnin eftir öðrum dálki með því að velja **Flokka eftir þessum dálki** í viðkomandi dálki. Hægt er að endurtaka þetta ferli þar til fimm faldaðar stigaflokkanir eru til staðar, sem er studd hámarksdýpt. Á þessu stigi er ekki lengur hægt að flokka eftir viðbótardálkum.  
 
-Til að afturkalla flokkun í hnitaneti skal hægrismella á flokkunardálkinn og velja **Sundra hópi**.  
+Hvenær sem er er hægt að fjarlægja flokkun í hvaða dálki sem er með því að hægrismella á dálkinn og velja **Sundra hópi**. Einnig er hægt að fjarlægja flokkun úr öllum dálkum með því að velja **Valkostir hnitanets** og síðan **Sundra öllum hópi**.   
+
+Athugið, á undan útgáfu 10.0.16/verkvangsuppfærslu 40, er aðeins eitt stig af flokkun stutt. Í þessum útgáfum, ef gögnin eru flokkuð og hægt er að velja **Flokka eftir þessum dálki** fyrir annan dálk, er upprunaflokknum skipt út.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Stækka og fella saman hópa
 Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til samandregin yfirlit yfir gögnin með því að fella saman einstaka flokka eða nota hóp til að stækka og draga saman til að aðstoða við að fletta í gegnum gögn. Til að víkka út hóp eða draga hann saman skal velja tvíoddatákn (>) hnappinn í samsvarandi flokkshauslínu. Athugið að staða fyrir víkkun/samanfellingu einstakra flokka er **ekki** vistuð í sérstillingum.
@@ -165,10 +167,26 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
     -  Flokkaður spjaldlisti er til á síðunni.
     -  Dálkur hnitanets sem bregst ekki við stækkanlegri stýringu.
 
-    Þegar notandi stendur í fyrsta skipti frammi fyrir þessum aðstæðum birtast skilaboð um að uppfæra skuli síðuna. Eftir að þessi skilaboð birtast mun síðan halda áfram að nýta núverandi hnitanet fyrir alla notendur fram að næstu uppfærslu afurðar. Betri meðhöndlun á þessum aðstæðum, svo hægt sé að nýta nýja hnitanetið, verður höfð í huga í framtíðaruppfærslu.     
+    Þegar notandi stendur í fyrsta skipti frammi fyrir þessum aðstæðum birtast skilaboð um að uppfæra skuli síðuna. Eftir að þessi skilaboð birtast mun síðan halda áfram að nýta núverandi hnitanet fyrir alla notendur fram að næstu uppfærslu afurðar. Betri meðhöndlun á þessum aðstæðum, svo hægt sé að nýta nýja hnitanetið, verður höfð í huga í framtíðaruppfærslu.    
+    
+-  [KB 4582758] Færslur eru óskýrar þegar verið er að breyta aðdrætti úr 100 í einhverja aðra prósentutölu
+    
+### <a name="fixed-as-part-of-10015"></a>Lagað sem hluti af 10.0.15    
+
+-  [KB 4582723] Birtingarkostir sjást ekki þegar það er gert síðar í líftíma eyðublaðs
+
+### <a name="fixed-as-part-of-10014"></a>Lagað sem hluti af 10.0.14
+
+-  (Gæðauppfærsla) [KB 4584752] Óvænt biðlaravilla með síðu verkreikningstillagna
 
 ### <a name="fixed-as-part-of-10013"></a>Lagað sem hluti af 10.0.13
 
+-  (Gæðauppfærsla) [KB 4583880] Regression Suite Automation Tool (RSAT) prófun mistekst í OpenLookup-aðgerð með „Ekki er hægt að lesa óskilgreinda eiginleika RowIndex“
+-  (Gæðauppfærsla) [KB 4583847] Óvænt biðlaravilla þegar farið er í gegnum uppflettingu 
+-  (Gæðauppfærsl) [Villa 471777] Ekki er hægt að velja reiti í hnitaneti til að breyta eða búa til farsímaforrit
+-  [Villa 474851] Tenglar í stýringum viðmiðunarhópa virka ekki 
+-  [Villa 474848] Aukin forskoðun með hnitanetum birtist ekki
+-  [KB 4582726] Ekki er verið að virða RotateSign-eignina  
 -  [Villa 470173] Gátreitir í óvirkum línum víxlast þegar smellt er á hvíta svæðið í hólfinu
 -  [Villa 474848] Aukin forskoðun með hnitanetum birtist ekki
 -  [Villa 474851] Tenglar í stýringum viðmiðunarhópa virka ekki 
@@ -176,6 +194,7 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
 -  [KB 4569441] Vandamál með myndun spjaldalista í mörgum dálkum, ábendinga á myndum og birtingarkostir í sumum reitum
 -  [KB 4575279] Ekki er öllum merktum línum eytt í almennri færslubók
 -  [KB 4575233] Birtingarkostir eru ekki endurheimtir þegar farið er í aðra línu
+-  [Villa 477884] Uppflettingar skila röngu gildi/færslu ef ný hnitanetsstjórnun er virkjuð
 -  [KB 4571095] Bókun innhreyfingarskjals afurðar á sér stað þegar óvart er ýtt á Enter (rétt meðhöndlun á sjálfgefinni aðgerð síðu)
 -  [KB 4575437] Uppflettingar með breytanlegum stýringum loka óvænt
 -  [KB 4569418] Tvítekin lína stofnuð í skjámynd afhendingaráætlunar
@@ -225,7 +244,7 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
 - [KB 4558383] Stýringar utan hnitanetsins eru ekki uppfærðar eftir að síðustu færslu er eytt.
 - [KB 4558587] Tilvísunarflokkar sem eru með samsetta glugga fyrir skiptireiti sýna ekki gildi.
 - [KB 4562143] Reitir eru ekki uppfærðir eftir línubreytingu / Úrvinnsla hnitanets festist eftir eyðingu línu.
-- [KB 4562645] Undantekning á sér stað þegar uppfletting er opnuð á meðan prófanir á stjórnunarverkfærum fjartengds þjóns eru keyrðar.
+- [KB 4562645] Undantekning á sér stað þegar uppfletting er opnuð á meðan prófanir á Regression Suite Automation Tool eru keyrðar.
 
 ### <a name="fixed-as-part-of-10010"></a>Lagað sem hluti af 10.0.10
 

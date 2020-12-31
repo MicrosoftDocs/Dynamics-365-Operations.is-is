@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002544"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686246"
 ---
 # <a name="view-and-design-financial-reports"></a>Skoða og setja upp fjárhagsskýrslur
 
@@ -164,7 +163,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 14. Lokaðu **Sameinaðir efnahagsreikningar og rekstrarreikningar hlið við hlið**.
 15. Lokaðu **Skýrsluhönnuninni**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Æfing 5: Stofna hlið við hlið deildarskýrslu
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Æfing 5: Stofna hlið við hlið deildarskýrslu
 Í þessari æfingu býrð þú til nýja skýrslu. Skýrslan er hlið við hlið deildarrekstrarreikningur. Þú munt nota línuskilgreiningu en stofna nýja skýrsluskilgreiningu og nýja dálkskilgreiningu sem notar víddarafmarkanir. Við byrjum í lista yfir fjárhagsskýrslur.
 
 1. Fara í **Fjárhagsskýrslur** undir Fyrirspurnir og skýrslur í fjárhag.
@@ -195,6 +194,6 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 ## <a name="additional-resources"></a>Frekari upplýsingar
 [Fjárhagsskýrslugerð](../../../finance/general-ledger/financial-reporting-getting-started.md)
 
-[Skoðun fjárhagsskýrslna](../../../finance/general-ledger/view-financial-reports.md)
+[Skoða fjárhagsskýrslur](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics Financial Reporting-blogg](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 365 Finance-bloggið](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

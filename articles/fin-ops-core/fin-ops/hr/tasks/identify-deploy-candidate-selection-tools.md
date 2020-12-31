@@ -3,7 +3,7 @@ title: Auðkenna og beita verkfærum við val á umsækjendum
 description: Finna hæf hóp af umsækjendum til að fylla lausar stöður getur verið erfitt, sérstaklega þegar stöðu krefst sérstaks safns af hæfileikum.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143950"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693065"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Auðkenna og beita verkfærum við val á umsækjendum
 
@@ -38,23 +37,23 @@ Finna hæf hóp af umsækjendum til að fylla lausar stöður getur verið erfit
     * Nota Sækja forstillingu til að sækja á vottorð, Hæfni, og Menntun úr völdum Aðila, Vinnslu eða Námskeið sem grunn fyrir leitina.   Síðan er hægt að bæta við eða fjarlægja skilyrði, ef skilyrði er valfrjáls og meta mikilvægi skilyrða.  
 7. Smellt er á verk
 8. Sláið inn eða veldu gildi í reitnum Verk.
-9. Smellið á „Í lagi“.
-10. Víkka flýtiflipann svið, og bættu við einhverjum viðbótarupplýsingar, eins og deild.
-11. Víkka flýtiflipann skírteini til að skoða eða breyta skírteini.
-12. Víkka flýtiflipann Hæfni til að skoða eða breyta hæfni.
+9. Smellt er á Í lagi.
+10. Víkkið flýtiflipann svið, og bætið við einhverjum viðbótarupplýsingar, eins og deild.
+11. Víkkið flýtiflipann Skírteini til að skoða eða breyta skírteini.
+12. Víkkið flýtiflipann Hæfni til að skoða eða breyta hæfni.
 13. Víkka flýtiflipann Menntun til að skoða eða breyta skilyrðum menntun.
 14. Smelltu á Keyra.
-15. Smellið á „Í lagi“.
+15. Smellt er á Í lagi.
 16. Smelltu á Niðurstöður.
 17. Smelltu á Niðurstöður.
 18. Smellt er á Halda áfram.
 19. Smellt er á Skírteini.
-    * Hægt er að kafa frekar í hvern einstakling fram og til að sjá upplýsingar varðandi þeirra menntun, hæfni, starfsreynslu o.s.frv.  
+    * Hægt er að kafa frekar í hvern einstakling fram og til að sjá upplýsingar varðandi þeirra menntun, hæfni, starfsreynslu.  
 20. Lokið síðunni.
 21. Lokið síðunni.
 22. Velja niðurstöðu aftur.
 23. Smellið á Skýrsluna.
-    * Skýrslan verður að birta besta samsvörun efst á skýrslunni.  Þú getur séð að eyða kemur fram á listanum.  Það er mismunurinn á stigi sem var skráð á hæfnisskrá og stig hæfninnar sem er úthlutað á þann einstakling.  
+    * Skýrslan verður að birta besta samsvörun efst á skýrslunni.  Hægt er að sjá að eyða kemur fram á listanum.  Það er mismunurinn á stigi sem var skráð á hæfnisskrá og stig hæfninnar sem er úthlutað á þann einstakling.  
 24. Lokið síðunni.
 25. Smellið á „Vista“.
 

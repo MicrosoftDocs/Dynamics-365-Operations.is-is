@@ -1,6 +1,6 @@
 ---
 title: Almenn úrræðaleit
-description: Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Common Data Service.
+description: Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997255"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688260"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Common Data Service.
+
+Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -51,11 +53,11 @@ Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp laus
     ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
 
 3. Límdu allar afritaðar skrár í möppuna **Verkfæri** í verkfærinu Package Deployer. 
-4. Keyrðu **PackageDeployer.exe** til að velja Common Data Service umhverfið og setja upp lausnirnar.
+4. Keyrðu **PackageDeployer.exe** til að velja Dataverse umhverfið og setja upp lausnirnar.
 
     ![Innihald möppunnar Verkfæri](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Kveiktu á og skoðaðu rakningarkladda viðbótar í Common Data Service til að skoða villuupplýsingar
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
 **Nauðsynlegt hlutverk til að kveikja á rakningarkladda og skoða villur:** Kerfisstjóri
 
@@ -63,18 +65,18 @@ Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
 1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Kerfi** veldu **Stjórnun**.
 2. Á síðunni **Stjórnun** skal velja **Kerfisstillingar**.
-3. Á flipanum **Sérsnið** , í reitnum **Viðbóð og sérsniðnar rakningaraðgerðir verkflæðis** , velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
+3. Á flipanum **Sérsnið**, í reitnum **Viðbóð og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
 
 
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
 1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Sérstillingar** veldu **Rakningarkladdi viðbóta**.
 2. Findu rakningarkladda þar sem reiturinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd** , skoðarðu textann **Skilaboðablokk**.
+3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Kveiktu á kembiforriti til að leysa vandamál samstillingar í beinni í forritum Finance and Operations
 
-**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri Tvíritaðar villur sem eiga uppruna sinn í Common Data Service geta birst í Finance and Operations forritinu. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
+**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri Tvíritaðar villur sem eiga uppruna sinn í Dataverse geta birst í Finance and Operations forritinu. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
 
 1. Allar verkefnisstillingar í forritum Finance and Operations eru með eiginleikann **IsDebugMode** í eingunni **DualWriteProjectConfiguration**. Opnaðu eininguna **DualWriteProjectConfiguration** með því að nota Excel-viðbótina.
 
@@ -85,7 +87,7 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 3. Keyrðu atburðarásina sem er að búa til villur.
 4. Fjölorðir kladdar eru fáanlegir í töflunni DualWriteErrorLog. Notaðu eftirfarandi slóð til að fletta upp gögnum í vafra töflunnar (skipta út **XXX** eftir atvikum):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Athugaðu samstillingarvillur á sýndarvélinni fyrir forritið Finance and Operations
 
@@ -99,9 +101,9 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 6. Veldu **Forrit og þjónustukladdar \> Microsoft \> Dynamics \> AX -DualWriteSync \> Virkt**.
 7. Farðu yfir listann yfir nýlegar villur.
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Taktu af og tengdu annað Common Data Service umhverfi úr forrit Finance and Operations
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Taktu af og tengdu annað Dataverse umhverfi úr forrit Finance and Operations
 
-**Nauðsynlegt hlutverk til að aftengja umhverfið:** Kerfisstjóri fyrir Finance and Operations forritið eða Common Data Service.
+**Nauðsynlegt hlutverk til að aftengja umhverfið:** Kerfisstjóri fyrir Finance and Operations forritið eða Dataverse.
 
 1. Innskráning í forritið Finance and Operations.
 2. Farðu í **Vinnusvæði \> Gagnastjórnun** og veldu reitinn **Tvöfalt skrif**.
@@ -113,7 +115,7 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Ekki er hægt að skoða Upplýsingar sölupöntunarlínu 
 
-Þegar þú býrð til sölupöntun í Dynamics 365 Sales og smellir á **+ Bæta við afurðum** kanntu að fara á Dynamics 365 Project Operations pöntunarlínu. Ekki er hægt að skoða **Upplýsingar** sölupöntunarlínu úr þeirri skjámynd. Valkosturinn fyrir **Upplýsingar** birtist ekki í fellivalmyndinni fyrir neðan **Ný pöntunarlína**. Þetta gerist vegna þess að Project Operations hefur verið sett upp í umhverfi þínu.
+Þegar búin er til sölupöntun í Dynamics 365 Sales og smellt er á **+ Bæta við afurðum** kanntu að fara á eyðublað Dynamics 365 Project Operations pöntunarlínu. Ekki er hægt að skoða **Upplýsingar** sölupöntunarlínu úr þeirri skjámynd. Valkosturinn fyrir **Upplýsingar** birtist ekki í fellivalmyndinni fyrir neðan **Ný pöntunarlína**. Þetta gerist vegna þess að Project Operations hefur verið sett upp í umhverfi þínu.
 
 Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 1. Fara í eigindina **Pöntunarlína**.

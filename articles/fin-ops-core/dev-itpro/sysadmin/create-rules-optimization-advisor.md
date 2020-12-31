@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985220"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687612"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Stofna reglur fyrir Fínstillingarráðgjöf
 
@@ -195,7 +194,7 @@ class ScanNewRulesJob
 
 Reglan birtist á sniði **Greiningar villuleitarreglu**, sem er tiltæk hjá **Kerfisstjórnun** > **Reglubundin verkefni** > **Viðhalda greiningum á villuleitarreglu**. Til að meta það, farðu í **Kerfisstjórnun** > **Reglubundin verkefni** > **Áætlun greiningar á villuleitarreglu**, veldu tíðni reglunnar, eins og **Daglega**. Smellið á **Í lagi**. Farðu í **Kerfisstjórnun** > **Fínstillingarráðgjöf** til að skoða nýja tækifærið. 
 
-Eftirfarandi dæmi er kóðabútur með drög að reglu sem inniheldur allar nauðsynlegar aðferðir og eigindi. Hún auðveldar þér að hefjast handa við að skrifa nýjar reglur. Merkin og aðgerðir valmyndaratriða í þessu dæmi eru eingöngu notuð til útskýringar.
+Eftirfarandi dæmi er kóðabútur með drög að reglu sem inniheldur allar nauðsynlegar aðferðir og eigindi. Hún auðveldar þér að hefjast handa við að skrifa nýjar reglur. Merkin og aðgerðir valmyndaratriða í þessu dæmi eru eingöngu notuð til útskýringar.
 
 ```xpp
 [DiagnosticsRuleAttribute]

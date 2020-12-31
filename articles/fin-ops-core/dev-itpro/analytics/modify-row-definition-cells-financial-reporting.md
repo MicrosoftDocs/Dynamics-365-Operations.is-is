@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182992"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685860"
 ---
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
@@ -61,7 +60,7 @@ Eftirfarandi eru dæmi um gilda línukóða:
 
 1. Smellið á **Línuskilgreiningar** í Skýrsluhönnun og opnið svo línuskilgreininguna sem á að breyta.
 2. Á valmyndinni **Breyta** er smellt á **Endurnúmera línur**.
-3. Í **endurnúmera línur** svarglugga, Tilgreinið nýju gildin fyrir upphafskóða línu og stighækkun línukóða. Hægt er að endursetja tölulega línukóða í gildi sem eru jöfn bil. Hinsvegar endurtölusetur Skýrsluhönnun línukóða sem hefjast á tölum, til dæmis 130, 246), Hann endurtölusetur ekki línukóða sem hefjast á bókstöfum, (til dæmis INCOME\_93, TP0693).
+3. Í **endurnúmera línur** svarglugga, Tilgreinið nýju gildin fyrir upphafskóða línu og stighækkun línukóða. Hægt er að endursetja tölulega línukóða í gildi sem eru jöfn bil. Hinsvegar endurtölusetur Skýrsluhönnun línukóða sem hefjast á tölum, (til dæmis 130, 246), Hann endurtölusetur ekki línukóða sem hefjast á bókstöfum, (til dæmis INCOME\_93, TP0693).
 
 > [!NOTE]
 > Þegar línukóðar eru endurtölusettir uppfærir Skýrsluhönnun sjálfkrafa **TOT-** og **CAL**-tilvísanir. Ef **TOT**-lína vísar til dæmis til sviðs sem hefst á línukóðanum 100 og línur eru endurtölusettar þannig að þær hefjist á 90 mun fyrsta **TOT**-tilvísunin breytast úr 100 í 90.
@@ -107,7 +106,7 @@ Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innih
     |-------------------------------|-----------------------------------|--------|
     | (Ekkert)                        |                                   | Hreinsar hólfið **Sniðkóði**. |
     | TOT                           | Samtals                             | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Samtölur innihalda einfalda virkja, til dæmis **+** eða **-**. |
-    | CAL                           | Útreikningur                       | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Útreikningar innihalda flókna virkja, til dæmis **+**, **-**, **\***, **/**, og **IF/THEN/ELSE** yrðingar. |
+    | CAL                           | Útreikningur                       | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Útreikningar innihalda flókna virkja, til dæmis **+**,**-**, **\**_, _*/**, og **IF/THEN/ELSE** yrðingar. |
     | DES                           | lýsing                       | Auðkennir hauslínu eða auða línu í skýrslu. |
     | LFT RGT CEN                   | Hægri vinstri miðja                 | Stillir staðsetningu texta línulýsingar á skýrslusíðunni, óháð staðsetningu textans í dálkskilgreiningunni. |
     | CBR                           | Breyta grunnlínu                   | Auðkennir línu sem ákvarðar grunnlínu fyrir dálkaútreikninga. |
@@ -175,7 +174,7 @@ Notið formúlu fyrir línusamtölu til að bæta við eða draga frá upphæði
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Dæmi um að koma í veg fyrir prentunar á línum
 
-Í eftirfarandi dæmi vill Svanhvít koma í veg fyrir prentun haussins og undirstrikana í línunni **Reiðufé alls** vegna þess að hvorugur lausafjárreikninganna sýndi neina virkni. Þess vegna, í línu 220 (sem, eins og **---**--- sniðkóði gefur til kynna, er sniðmátslína) í **Tengdar formúlur/línur/einingar** dálki, færir hún inn **250**, sem er línukóði upphæðarlínunnar sem á að fela.
+Í eftirfarandi dæmi vill notandi koma í veg fyrir prentun haussins og undirstrikana í línunni **Reiðufé alls** vegna þess að hvorugur lausafjárreikninganna sýndi neina virkni. Þess vegna, í línu 220 (sem, eins og **---**--- sniðkóði gefur til kynna, er sniðmátslína) í **Tengdar formúlur/línur/einingar** dálki, færir hann inn **250**, sem er línukóði upphæðarlínunnar sem á að fela.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -402,7 +401,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 2. Tvísmellið á hólfið í dálkinum **Tengill í fjárhagsvíddir**.
 3. Í svarglugganum **Víddir** er tvísmellt á hólf undir víddarheitinu.
 4. Í svarglugganum fyrir víddina skal velja **Stakur eða svið**.
-5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](media/browse.gif "Fletta") til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
+5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](media/browse.gif "Fletta")til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
 6. Smellið á **Í lagi** til að loka svarglugganum fyrir víddina. Uppfærða víddin eða sviðið er birt í svarglugganum **Víddir**.
 7. Smellt er á **Í lagi** til að loka svarglugganum **Víddir**.
 
@@ -416,7 +415,7 @@ Sjálfgefið er að Skýrsluhönnun prentar ekki línu sem hefur ekki samsvarand
 3. Á valmyndinni **Skrá** er smellt á **Vista** til að vista breytingarnar.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Notaðu Algildisstafir og svið í línuskilgreiningu
-Þegar færð eru inn meginhlutagildi í svargluggann **Víddir** er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn **6???** í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef fært er inn **6\*** eru sömu niðurstöður fengnar, en niðurstöður sýna einnig vídd-breidd gildi, eins og **60** og **600000**. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá **12?0** til **12?4**, er algildisstafnum í **12?0** skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í **12?4** er skipt út fyrir hæsta gildið í stafamenginu.
+Þegar færð eru inn meginhlutagildi í svargluggann **Víddir** er hægt að setja algildisstaf (? eða \*) hvar sem er í hluta. Skýrsluhönnun tekur út öll gildi fyrir skilgreindu stöðurnar án tillits til algildisstafanna. Til dæmis línuskilgreiningarinnar inniheldur aðeins gildi meginhluta, og meginhlutar hafa fjórir stafir. Með því að færa inn **6???** í röð, er verið að biðja Report Designer að taka með alla reikninga sem hafa gildi meginhluta sem byrjar á 6. Ef fært er inn **6\**_, eru sömu niðurstöður fengnar, en niðurstöður sýna einnig vídd-breidd gildi, eins og _* 60** og **600000**. Skýrsluhönnun skiptir út öllum algildisstöfum (?) fyrir allt svið mögulegra gilda, þar á meðal bókstafi og sérstafi. Til dæmis á sviðinu frá **12?0** til **12?4**, er algildisstafnum í **12?0** skipt út fyrir lægsta gildi stafamengisins og algildisstafnum í **12?4** er skipt út fyrir hæsta gildið í stafamenginu.
 
 > [!NOTE]
 > Forðast ætti notkun algildistafa í sviðum fyrir upphafs- og endareikningana. Ef algildistafir eru notaðir annaðhvort fyrir upphafsreikninginn eða endareikninginn getur það skilað óvæntum niðurstöðum.

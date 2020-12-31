@@ -3,26 +3,25 @@ title: Samanburður á skýi og eiginleikum á staðnum
 description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040100"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694568"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
@@ -166,10 +165,13 @@ Til að sjá lista yfir eiginleika sem eru tiltækir í uppsetningu á staðnum 
 | Eftirlit og fjarmælingar   |                                           | Já       | Já             |
 | Samhæfi kerfa     |                                           | Já       | Já             |
 | Þjónusta                  |                                           | Já       | Já             |
-|                            | Þjónustuumhverfi                    | Já       | Númer              |
-| Rakningarþáttari og tímamælir fyrir afköst |                                           | Já       | Númer              |
+|                            | Þjónustuumhverfi                    | Já       | Ekkert              |
+| Rakningarþáttari               |                                           | Já       | Já             |
+| PerfTimer                  |                                           | Já       | Já\*           |
 | Uppfæra                    |                                           | Já       | Já             |
 |                            | Uppfæra                                   | Já       | Ekkert              |
-|                            | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já       | Nr              |
+|                            | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já       | Ekkert              |
 | Visual Studio þróun  |                                           | Já       | Já             |
+
+\* Í umhverfi á staðnum sýnir PerfTimer aðeins niðurstöður fyrir biðlarann.
 

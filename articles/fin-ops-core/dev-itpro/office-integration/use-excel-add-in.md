@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181014"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688468"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Opna einingagögn í Excel og uppfæra þau með Excel-innbót
 
@@ -33,7 +32,7 @@ ms.locfileid: "2181014"
 Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum með því að nota innbót fyrir Excel. Þessi innbót þarf Microsoft Excel 2016.
 
 > [!NOTE]
-> Athugasemd: Ef notanda Microsoft Azure Active Directory (Azure AD) leigjandi er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 fyrir Office hafi verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
+> Ef Microsoft Azure Active Directory (Azure AD) leigjandi er skilgreindur til að nota Active Directory Federation Services (AD FS), þarf að tryggja að uppfærsla frá maí 2016 fyrir Office hafi verið notuð, þannig að í Excel-innbót geti skráð þig rétt inn.
 
 Til að fræðast meira um notkun á Excel-innbótinni skaltu horfa á þetta stutta myndband [Stofna Excel-sniðmát fyrir haus- og línumynstur í Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
@@ -45,7 +44,7 @@ Til að fræðast meira um notkun á Excel-innbótinni skaltu horfa á þetta st
 2. Veljið **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
 3. Í Excel, veljið **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
-5. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá sig inn með því að nota sömu skilríki og er notuð til að skrá sig inn í Finance and Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
+5. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá sig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Finance and Operations. Excel-innbót mun nota samhengi fyrri innskráningar úr Internet Explorer og skrá þig sjálfkrafa inn, ef það er hægt. Þess vegna þarf að staðfesta notandanafn í efra hægri horninu í Excel-innbót.
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 

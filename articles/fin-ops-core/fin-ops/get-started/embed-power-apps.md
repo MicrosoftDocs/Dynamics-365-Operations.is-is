@@ -3,7 +3,7 @@ title: Innfelld vinnuforrit frá Power Apps
 description: Þetta efnisatriði útskýrir hvernig á að innleiða vinnusvæðisforrit úr Microsoft Power Apps og í biðlarann til að auka virkni vörunnar.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893108"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693484"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Innfelld vinnuforrit frá Power Apps
 
@@ -57,7 +56,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit úr Power 
 3. Grunnstilla innfellt forrit:
 
     - Reiturinn **Heiti** gefur til kynna textann sem er sýndur fyrir hnappinn eða flipann sem mun innihalda innfellt forrit. Oft getur verið að þú viljir endurtaka heiti forritsins í þessum reit.
-    - Reiturinn **Forritskenni** gefur til kynna altækt einkvæmt kennimerki fyrir vinnusvæðaforritið sem á að fella inn. Til að sækja þetta gildi skaltu finna forritið á [web.powerapps.com](https://web.powerapps.com) og skoða síðan reitinn **Forritskenni** undir **Upplýsingar**.
+    - Reiturinn **Forritskenni** gefur til kynna altækt einkvæmt kennimerki fyrir vinnusvæðaforritið sem á að fella inn. Til að sækja þetta gildi skaltu finna forritið á [make.powerapps.com](https://make.powerapps.com) og skoða síðan reitinn **Forritskenni** undir **Upplýsingar**.
     - Fyrir **Setja inn samhengi fyrir forritið** er valfrjálst hægt að velja reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Sjá kaflann síðar í þessu efnisatriði undir heitinu [Búa til forrit sem nýtir gögn úr forritum Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) til að fá upplýsingar um hvernig forritið getur nálgast gögn sem send eru úr forritum Finance and Operations.
     - Veldu **Stærð forrits** sem passar við forritsgerðina sem þú ert að fella inn. Veldu **Mjór** fyrir forrit byggt fyrir fartæki og **Breiður** fyrir forrit byggt fyrir spjaldtölvur. Þetta tryggir að nægilegt magn af plássi sé úthlutað fyrir innfellt forrit.
     - Flýtiflipinn **Lögaðilar** veitir möguleika á að velja lögaðilana sem forritið er í boði fyrir. Sjálfgefið er að gera forritið aðgengilegt í öllum lögaðilum. Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er óvirk. 

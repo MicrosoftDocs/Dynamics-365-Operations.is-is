@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178372"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694690"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
@@ -45,7 +44,7 @@ Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem eru saman í r
 
 Verður að hafa minnst einn lögaðila sem standa fyrir fyrirtækið. Lögaðili getur fært inn lögbundna samninga og ætlast er til að það búi til fjárhagsskýrslur sem veita skýrslur um afköst hans.
 
-Lögaðila má nota fyrir viðskiptaferli eða sameiningu. Þetta þýðir að lögaðili í Finance and Operations stendur ekki endilega fyrir raunverulegan aðila í fyrirtækinu. Fyrirtækið sem tekur þátt í færslur geta til dæmis átt dótturfyrirtæki lögaðila. Í þessari atburðarás er lögaðili nauðsynlegur fyrir færslur og sýndarlögaðila þarf til að sameina niðurstöður og stöður undirlögaðila.
+Lögaðila má nota fyrir viðskiptaferli eða sameiningu. Þetta þýðir að lögaðila í Finance and Operations stendur ekki endilega fyrir raunverulegan einingu í fyrirtækinu. Fyrirtækið sem tekur þátt í færslur geta til dæmis átt dótturfyrirtæki lögaðila. Í þessari atburðarás er lögaðili nauðsynlegur fyrir færslur og sýndarlögaðila þarf til að sameina niðurstöður og stöður undirlögaðila.
 
 Innri stofnanir í fyrirtæki þitt, svo sem svæðisskrifstofur, má kynna sem fleiri lögaðila eða rekstrareiningar hjá helsta lögaðila. Ekki er krafist að rekstrareining sé löglega skilgreind stofnun. Rekstrareiningar eru notuð til að stjórna efnahag og aðgerðum aðferð í bransanum. Til dæmis, deildir og kostnaðarstaði eru rekstrareiningar.
 
@@ -174,7 +173,7 @@ Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar ský
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ef fyrirtækið er með líkan sem rekstrareining
 
-Lögbundinn skýrslur verður að stofna með annað forrit. Það þarf að tryggja að gögnin séu sótt í forrit Finance and Operations til að styðja þarfir hverrar rekstrareiningar, þar sem þær eru frábrugðnar kröfum höfuðstöðva.
+Lögbundinn skýrslur verður að stofna með annað forrit. Það þarf að tryggja að gögnin eru sótt í Finance and Operations forrit til að styðja hverja rekstrareiningu, þar sem þær eru frábrugðnar kröfum höfuðstöðva.
 
 ### <a name="currency"></a>Gjaldmiðill
 

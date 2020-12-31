@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367339"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695140"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -49,7 +48,7 @@ Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.micr
 
 Hægt er að finna efni á docs.microsoft.com með því að nota hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á vefsvæðum, svo sem **site:docs.microsoft.com dynamics 365 „leitarorð“**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
 
 Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna efnisins á docs.microsoft.com skaltu nota eftirfarandi tengil:
 
@@ -68,7 +67,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 > [!NOTE]
 > Ef senda á inn athugasemdir um fylgiskjöl þarf að skrá sig inn með GitHub-reikningi. Frekari upplýsingar er að finna í [Uppsetning og stjórnun GitHub-forstillingar](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Veita framlag til fylgigagna
+## <a name="contribute-to-the-documentation"></a>Veita framlag til fylgigagna
 
 Þú getur lagt fram og gert breytingar á fylgiskjölum. Til að hefjast handa skal velja hnappinn **Breyta** (blýantstáknið) á efnisatriði. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
 

@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997303"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685564"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Common Data Service. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
+
+Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Lifandi samstilling kastar 403 Forbidden villa þegar þú býrð til skrá í forriti Finance and Operations
+## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Samstilling í beinni veldur 403 Bannvillu þegar lína er stofnuð í Finance and Operations -forriti
 
-Þú gætir fengið eftirfarandi villuboð þegar þú stofnar skrá í forriti Finance and Operations:
+Eftirfarandi villuboð kunna að birtast þegar lína er stofnuð í Finance and Operations forriti:
 
 *\[{\\"villa\\":{\\"kóði\\":\\"0x80072560\\",\\"skilaboð\\":\\"Notandinn er ekki meðlimur í fyrirtækinu.\\"}}\], The remote server returned an error: (403) Forbidden."}}".*
 
-Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](requirements-and-prerequisites.md). Til að ljúka þessum skrefum verða notendur tvískiptra forrita sem eru búnir til í Common Data Service að hafa kerfisstjórarhlutverkið. Sjálfgefið eigendateymi verður einnig að hafa kerfisstjórarhlutverkið.
+Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](requirements-and-prerequisites.md). Til að ljúka þessum skrefum verða notendur tvískiptra forrita sem eru búnir til í Dataverse að hafa kerfisstjórarhlutverkið. Sjálfgefið eigendateymi verður einnig að hafa kerfisstjórarhlutverkið.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Lifandi samstilling fyrir einingu sýnir stöðugt svipaða villu þegar þú býrð til skrá í forriti Finance and Operations
+## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Samstilling í beinni fyrir sérhvern aðila veldur svipaðri villu þegar lína er stofnuð í Finance and Operations -forriti
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
@@ -52,12 +54,12 @@ Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](require
 
 *Ekki hægt að vista breytingarnar í gagnagrunninum. Vinnueining getur ekki gert færslu. Ekki er hægt að skrifa gögn í mælieiningar einingar. Skrifun í UnitOfMeasureEntity mistókst með villuboðin Ekki var hægt að samstilla við mælieiningar einingar.*
 
-Til að laga málið verður þú að ganga úr skugga um að forsendur tilvísunargagna séu til í bæði forriti Finance and Operations og Common Data Service. Til dæmis ef viðskiptavinurinn sem þú ert í forriti Finance and Operations tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að viðskiptavinahópurinn sé til í Common Data Service.
+Til að laga málið verður þú að ganga úr skugga um að forsendur tilvísunargagna séu til í bæði forriti Finance and Operations og Dataverse. Til dæmis ef viðskiptavinurinn sem þú ert í forriti Finance and Operations tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að viðskiptavinahópurinn sé til í Dataverse.
 
 Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfest að málið er ekki gagnatengt.
 
 1. Stöðvaðu tengda einingu.
-2. Skráðu þig inn í forrit Finance and Operations og passaðu að skrár fyrir eininguna sem mistekst séu til í töflunum DualWriteProjectConfiguration og DualWriteProjectFieldConfiguration. Hér er til dæmis hvernig fyrirspurnin lítur út ef einingin **Viðskiptavinir** er að mistakast.
+2. Skráðu þig inn í Finance and Operations -forritið og gakktu úr skugga um að línur einingarinnar sem mistókst séu til staðar í DualWriteProjectConfiguration og DualWriteProjectFieldConfiguration töflunum. Hér er til dæmis hvernig fyrirspurnin lítur út ef einingin **Viðskiptavinir** er að mistakast.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -66,8 +68,8 @@ Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfe
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Ef það eru skrár fyrir eininguna sem fellur ekki út jafnvel eftir að þú hættir vörpunar einingarinnar skaltu eyða þeim gögnum sem tengjast einingunni sem mistakast. Gerðu athugasemd við dálkinn **projectname** í DualWriteProjectConfiguration töflunni og sæktu færsluna í DualWriteProjectFieldConfiguration töfluna með því að nota verkefnisheitið til að eyða skránni.
-4. Hefja vörpun einingarinnar. Staðfestu hvort gögnin séu samstillt án nokkurra vandamála.
+3. Ef línur eru til staðar fyrir eininguna sem mistókst, jafnvel eftir að töfluvörpun er stöðvuð, skal eyða línunum sem tengjast einingunni sem mistókst. Gera skal athugasemd við dálkinn **projectname** í töflunni DualWriteProjectConfiguration og sækja færsluna í DualWriteProjectFieldConfiguration töfluna með því að nota verkheitið til að eyða línunni.
+4. Hefja töfluvörpun. Staðfestu hvort gögnin séu samstillt án nokkurra vandamála.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Meðhöndla villur til að lesa eða skrifa réttindi þegar þú býrð til gögn í forriti Finance and Operations
 
@@ -89,25 +91,25 @@ Til að laga málið verður þú að úthluta réttu öryggishlutverki til teym
 
     ![Hnappurinn Stjórna hlutverkum](media/manage_team_roles.png)
 
-4. Úthlutaðu hlutverkinu sem hefur lestrar-/skriftarréttindi fyrir viðkomandi einingar og veldu síðan **Í lagi**.
+4. Úthlutið hlutverkið sem er með les-/skrifheimild fyrir viðeigandi töflur og veljið síðan **Í lagi**.
 
-## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-common-data-service-environment"></a>Laga samstillingarvandamál í umhverfi sem er með nýlega breytt Common Data Service umhverfi
+## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a>Laga samstillingarvandamál í umhverfi sem er með nýlega breytt Dataverse umhverfi
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
 Þú gætir fengið eftirfarandi villuboð þegar þú stofnar gögn í forriti Finance and Operations:
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **Ekki tókst að mynda farm fyrir eininguna CustCustomerV3Entity** ","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Stofnun farms tókst ekki með villunni Ógilt URI: URI er tómt."}\],"isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Ekki tókst að mynda farm fyrir eininguna CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Stofnun farms tókst ekki með villunni Ógilt URI: URI er tómt."}\],"isErrorCountUpdated":true}*
 
 Svona lítur villan út í líkanadrifnu forritinu í Dynamics 365:
 
 *Óvænt villa kom upp úr ISV kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Keyra): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki á fullnægjandi hátt eftir nokkurn tíma, eða ekki tókst að koma á tengingu vegna þess að tengdur hýsill svaraði ekki*
 
-Þessi villa kemur upp þegar Common Data Service umhverfi er rangt endurstillt á sama tíma og þú reynir að búa til gögn í forriti Finance and Operations.
+Þessi villa kemur upp þegar Dataverse umhverfi er rangt endurstillt á sama tíma og þú reynir að búa til gögn í forriti Finance and Operations.
 
 Til að laga úr vandamálið skal fylgja þessum skrefum.
 
-1. Skráðu þig inn á Finance and Operations sýndarvél (VM), opnaðu SQL Server Management Studio (SSMS) og leitaðu að gögnum í DUALWRITEPROJECTCONFIGURATIONENTITY töflunni þar sem **internalentityname** jafngildir **Viðskiptavinir V3** og **externalentityname** jafngildir **reikningar**. Hér er hvernig fyrirspurnin lítur út.
+1. Skráðu þig inn á Finance and Operations sýndarvél (VL), opnaðu SQL Server Management Studio (SSMS) og leitaðu að línum í DUALWRITEPROJECTCONFIGURATIONENTITY töflunni þar sem **internalentityname** er jafnt **viðskiptavinum V3** og **externalentityname** jafngildir **reikningum**. Hér er hvernig fyrirspurnin lítur út.
 
     ```sql
     select projectname, externalenvironmentURL ,\* 
@@ -123,5 +125,5 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
     where projectname = <project name from previous query>
     ```
 
-3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Common Data Service eða forritsslóð. Eyða afritaskrám sem benda á ranga Common Data Service vefslóð. Eyða samsvarandi gögnum í DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION töflunum.
-4. Hættu að varpa einingunni og endurræstu hana síðan
+3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Dataverse eða forritsslóð. Eyða öllum tvíteknum línum sem benda á ranga Dataverse vefslóð. Eyðið samsvarandi línum í tölfunum DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION.
+4. Stöðvaðu töfluvörpunina og endurræstu hana

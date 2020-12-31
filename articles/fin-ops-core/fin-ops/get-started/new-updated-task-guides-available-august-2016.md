@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812533"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694990"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 
@@ -32,7 +31,7 @@ ms.locfileid: "2812533"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkefnaleiðbeiningar í (ágúst 2016 - öll tungumál) APQC Unified Library for Microsoft Dynamics AX
 
-(Ágúst 2016 - öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics AX verkvangsuppfærsla 2 (ágúst 2016), uppfærsla fyrir Dynamics AX maí 2016 Microsoft Dynamics AX útgáfa í febrúar 2016. Nánari upplýsingar um þessar útgáfur er að finna í [Hvað er nýtt eða breytt á heimasíðu Finance and Operations](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hjálparkerfi](help-overview.md).
+(Ágúst 2016 - öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics AX verkvangsuppfærsla 2 (ágúst 2016), uppfærsla fyrir Dynamics AX maí 2016 Microsoft Dynamics AX útgáfa í febrúar 2016. Nánari upplýsingar um útgáfuna eru í [Hvað er nýtt eða breytt í Finance and Operations heimasíða](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hjálparkerfi](help-overview.md).
 
 ### <a name="data-access"></a>Gagnaheimildir
 

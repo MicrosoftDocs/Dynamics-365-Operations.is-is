@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257062"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685384"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Rafræn skýrsla ítarlegur ritill fyrir formúlu
 
@@ -44,9 +43,9 @@ ms.locfileid: "3257062"
 
 Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í þínu tilviki Microsoft Dynamics 365 Finance.
 
-1.  Opnið **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2.  Á síðunni **Skilgreiningar** , í aðgerðarúðunni, í flipanum **Skilgreiningar** , í flokknum **Ítarlegar stillingar** , skal velja **Færibreytur notanda**.
-3.  Í glugganum **Breytur notanda** í hlutanum **Rakning keyrslu** stillirðu færibreytuna **Virkja ítarlegan formúluritil** á **Já**.
+1.  Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
+2.  Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
+3.  Í svarglugganum **Færibreytur notanda**, í hlutanum **Rakning keyrslu**, skal stilla færibreytuna **Kveikja á ítarlegum formúluritli** á **Já**.
 
 [![Skilgreiningarsíða í ER](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 

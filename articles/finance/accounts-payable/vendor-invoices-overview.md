@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249119"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701677"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
@@ -112,15 +112,18 @@ Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardro
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Endurstilling á stöðu verkflæðis fyrir reikninga lánardrottins úr óendurkræf í drög
 
-Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði fyrir reikning lánardrottins er **Óendurkræf** er hægt að endurstilla hana á **Drög** með því að velja **Afturkalla**. Síðan er hægt að breyta reikningi lánardrottins. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilla stöðuna drög fyrir verkflæði reiknings lánardrottins** á síðunni **Eiginleikastjórnun**.
+Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði fyrir reikning lánardrottins er **Óendurkræf** er hægt að endurstilla hana á **Drög** með því að velja **Afturkalla**. Síðan er hægt að breyta reikningi lánardrottins. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilling á stöðu verkflæðis fyrir reikninga lánardrottins úr óendurkræf í drög** á síðunni **Eiginleikastjórnun**.
 
 Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu úr **Reikningur lánardrottins** eða úr **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Skoðun heildarupphæðar reiknings á síðunni „Reikningar frá lánardrottni í bið“
+Hægt er að skoða heildarupphæð reiknings á síðunni **Reikningar frá lánardrottni í bið** með því að virkja færibreytuna **Birta heildarupphæð reiknings á reikningslista lánardrottins í bið** á síðunni **Færibreytur viðskiptaskulda**. 
 
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Setja upp reglur lánardrottnareikninga](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Setja upp reikningsreglur lánardrottins](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Lykilgögn reiknings í AP kerfið með því að nota reikning lánardrottins](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

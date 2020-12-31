@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013181"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693726"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -33,7 +32,7 @@ Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
 
-Sumar flýtileiðirnar á þessari síðu eru *lyklastrengir* , sem þýðir að þær krefjast tveggja samfelldra setta af lyklasamsetningum (aðskilin með kommu) sem þarf að ýta á hvort í sínu lagi til að kveikja á nauðsynlegri aðgerð. Til dæmis, með flýtileiðinni „Alt+M,A" þarf notandinn fyrst að ýta á „Alt+M“, sleppa lyklunum og síðan smella á „A“. 
+Sumar flýtileiðirnar á þessari síðu eru *lyklastrengir*, sem þýðir að þær krefjast tveggja samfelldra setta af lyklasamsetningum (aðskilin með kommu) sem þarf að ýta á hvort í sínu lagi til að kveikja á nauðsynlegri aðgerð. Til dæmis, með flýtileiðinni „Alt+M,A" þarf notandinn fyrst að ýta á „Alt+M“, sleppa lyklunum og síðan smella á „A“. 
 
 ## <a name="finding-a-shortcut"></a>Að finna flýtilykil
 

@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248714"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695116"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Setja upp kennslu fyrir Regression Suite Automation Tool
 Þetta efnisatriði er kennsla sem hjálpar þér að fá skipulag og byrja með RSAT og verkfærin sem tengjast því að nota RSAT. 
@@ -387,7 +386,7 @@ Til að virkja sannvottun verðurðu að mynda og setja upp vottorð á sömu t�
 
     ![AOSService á lista yfir vefsvæði](./media/setup_rsa_tool_49.png)
 
-3. Hægrismelltu á **Kannaðu** að opna möppuna **\<Drif\>: \\AosService\\WebRoot**. Finndu skrána **wif.config**.
+3. Hægrismellið á **Skoða** til að opna möppuna **\<Drive\>: \\AosService\\WebRoot**. Finndu skrána **wif.config**.
 
     ![Skráin Wif.config í möppunni WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ Til að virkja sannvottun verðurðu að mynda og setja upp vottorð á sömu t�
     ```
 
     > [!NOTE]
-    > Ef fleiri notendur eru að nota sama forrit, þarf hver notandi að búa til aðskilið fingrafar og bæta verður hverju af því fingrafari við í kaflanum **\<lyklar\>**.
+    > Ef margir notendur eru að nota sama forritið verður hver notandi að búa til aðskild fingraför og bæta verður hverju fingrafari við **\<keys\>** hlutann.
 
 5. Ef fleiri en ein AOS-tölva er til staðar skaltu endurtaka skref 3 til 4 fyrir hverja viðbótartölvu.
 
@@ -501,8 +500,8 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **Aðgangsmerki** - Sláðu inn aðgangsmerkið sem leyfir verkfærinu að tengjast Azure DevOps. Notaðu aðgangsmerki notanda sem þú bjóst til fyrr í þessari kennsluefni. Nánari upplýsingar er að finna í [Sannvotta aðgang með aðgangsmerkjum notenda](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **Heiti verkefnis** - Veldu heiti fyrir Azure DevOps-verkið.
     - **Prófunaráætlun** - Veldu Azure DevOps-prófunaráætlunina sem inniheldur prófunardæmin. Nánari upplýsingar er að finna í [Stofna prófunaráætlanir og prófunarpakka](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Þegar þú hefur valið prófunaráætlun skaltu velja **Prófa tengingu** til að prófa tengingu þína við Azure DevOps.
-    - **Hýsilheiti** – Skráðu hýsilheiti prófunarumhverfis, eins og **\<myaos\>.cloudax.dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
-    - **SOAP-hýsilheiti** – Skráðu SOAP-hýsilheiti prófunarumhverfis. Yfirleitt er heiti SOAP-hýsils það sama og hýsilheitið en með viðskeytið **soap**. Hér er dæmi: **\<myaos\>soap.cloudax.dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
+    - **Hýsilheiti** – Sláið inn hýsiheiti prófunarumhverfa á borð við **\<myaos\>. cloudax.Dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
+    - **SOAP-hýsilheiti** – Skráðu SOAP-hýsilheiti prófunarumhverfis. Yfirleitt er heiti SOAP-hýsils það sama og hýsilheitið en með viðskeytið **soap**. Eftirfarandi er dæmi: **\<myaos\>soap.cloudax.dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
 
         > [!NOTE]
         > Til að finna hýsilheiti og heiti SOAP-hýsils skaltu opna IIS Manager, hægri-smella á **Vefsvæði \> AOSService** og velja síðan **Breyta bindingum**. Gildin í dálknum **Heiti hýsils** veita þér hýsilheitið og heiti SOAP-hýsils (heiti SOAP-hýsils er með viðskeytið **soap** í vefslóðinni).
@@ -563,7 +562,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![Skjáborðsupplausn stillt á 100%](./media/setup_rsa_tool_68.png)
 
-6. Ef vafradrifin eru ekki uppsett í kerfinu færðu viðvörunarskilaboð sem segja: „Þessi aðgerð þarfnast drifs fyrir \<heiti vafra\>. Viltu sækja hann sjálfvirkt og setja upp núna?“ Velja skal **Já**.
+6. Ef vafrareklarnir eru ekki settir upp í kerfinu birtast viðvörunarskilaboðin „Þessi aðgerð krefst \<browser name\>-rekils. Viltu sækja hann sjálfvirkt og setja upp núna?“ Velja skal **Já**.
 
     ![Viðvörunarboð fyrir Internet Explorer](./media/setup_rsa_tool_69.png)
 
