@@ -102,3 +102,6 @@ Farið í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Endurheimta
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 
 [Skilgreina rafrænan skýrslugerðarramma (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Eftirfarandi tafla sýnir sýnigögn sem eru tiltæk á hverri skýrslusíðu.
 | Matsvarpanir        | Upplýsingar eignar |
 
 Til að skoða greiningu með gögnum þarf fyrst að endurnýja uppsafnaða mælingu AssetTransactionMeasure á síðunni **Einingarverslun**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

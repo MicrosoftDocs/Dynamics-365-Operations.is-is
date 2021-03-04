@@ -73,3 +73,6 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Vöruþjónustuvörur (Supply Chain Management til Field Service): Afurðir - Afurðir
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

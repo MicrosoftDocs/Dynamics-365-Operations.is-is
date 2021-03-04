@@ -408,3 +408,6 @@ Nú er hægt að vinna þessa áfyllingarvinnu með fartækinu.
 - Hægt er að hnekkja tiltækileika áfyllingarvinnu handvirkt fyrir hvern vinnuhaus af síðunni **Upplýsingar um vinnu** ef þess er óskað.
 - Þegar kerfið stillir tiltækileika áfyllingarvinnu, tekur það allar birgðir til greina sem eru þegar í staðsetningunni áður en vinnu er lokið
 - Hver hluti sölupöntunarvinnu er tengdur við tiltekna áfyllingarvinnu. Ekki er til nein samsvarandi virkni fyrir tiltækileika söluvinnu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

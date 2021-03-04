@@ -41,3 +41,6 @@ Skattayfirvöld eru einingar sem innheimtur virðisaukaskatt þarf að vera tilk
 10. Í reitinn sléttun skal slá inn númer.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

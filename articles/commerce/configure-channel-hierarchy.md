@@ -84,3 +84,6 @@ Eftirfarandi mynd sýnir hvernig á að birta uppfærslur á rásum.
 [Stofna yfirlitsstigveldi rásar](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -176,3 +176,6 @@ Tungumálið sem þú bætir við verður nú tiltækt þannig að þú getur st
 [Bæta við yfirlýsingu um höfundarrétt](add-copyright-notice.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Eftirfarandi tafla sýnir Power BI efni sem skýrslurnar eru afritaðar úr og s
 | [Sala og arðsemi](sales-profitability-performance-content-pack.md) | <ul><li>Tekjur eftir svæði</li><li>Efstu tíu viðskiptamenn eftir tekjum</li><li>Efstu tíu afurðir eftir tekjum</li></ul> |
 | [Skulda- og innheimtuumsjón](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Viðskiptavinur kominn fram yfir gjalddaga</li><li>Viðskiptavinir yfir kreditmörk</li><li>Aldursgreindar stöður</li></ul> |
 | [Greining á innkaupum og eyðslu](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Innkaup eftir mánuði/degi</li><li>10 efstu lánardrottnar eftir innkaupum</li><li>10 efstu vörur eftir innkaupum</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

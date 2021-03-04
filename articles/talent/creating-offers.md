@@ -153,3 +153,6 @@ Tilboð má afturkalla frá umsækjanda hvenær sem er af ýmsum ástæðum.
 ## <a name="closing-an-offer"></a>Loka tilboði 
 
 Þegar tilboð hefur verið samþykkt, hafnað eða afturkallað með frekari aðgerðum sem þörf er á geturðu lokað tilboðinu þannig að ekki er hægt að gera frekari breytingar á þessari tilboðspakka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

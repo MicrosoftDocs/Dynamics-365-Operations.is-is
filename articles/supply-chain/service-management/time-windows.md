@@ -45,3 +45,6 @@ Ef tímagluggi er ekki tilgreindur fyrir þjónustupöntunarlínu þarf þjónus
 
 [Stofna tímaskjámyndir](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Ef frumbreytan `regular expression flag` er **FALSE** skilar þessi aðgerð til
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Textavirkni](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

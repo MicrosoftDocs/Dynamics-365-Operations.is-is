@@ -55,3 +55,6 @@ Notendur utan leigjandans sem umhverfinu var dreift í þurfa að vera fulltrúa
 4. Veldu **Flytja inn notendur**.
 5. Veljið **Loka**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

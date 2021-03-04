@@ -83,3 +83,6 @@ Ef ávísunin sem var bakfærð var gefin út vegna endurgreiðslu viðskiptavin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

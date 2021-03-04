@@ -113,3 +113,6 @@ Við virkjun og notkun rafrænnar reikningsfærslu þarf hugsanlega að senda ta
 - [Hafist handa með innbót rafrænna reikninga fyrir Mexíkó](e-invoicing-mex-get-started.md)
 - [Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Ítalíu](e-invoicing-ita-get-started.md)
 - [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

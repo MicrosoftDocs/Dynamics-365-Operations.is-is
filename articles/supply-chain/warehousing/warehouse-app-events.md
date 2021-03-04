@@ -78,3 +78,6 @@ Til að endurstilla mislukkuð viðburðarskilaboð vöruhúsaforrits:
 1. Vinnið áfram þar til öll viðeigandi skilaboð eru endurstillt.
 
 Einnig er hægt að fjarlægja **tókst ekki** viðburðarskilaboð með því að nota **Eyða** valkostinn í tækjastikunni **Viðburðarskilaboð vöruhúsaforrits**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

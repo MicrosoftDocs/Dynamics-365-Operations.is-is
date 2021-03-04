@@ -41,3 +41,6 @@ Við úthlutun leyfa til starfsmanna ákvarðar grunnlag leyfa hversu miklum ley
 ## <a name="known-issue"></a>Þekkt vandamál
 
 **Vandamál:** Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að FactBoxes á síðunni **Starfsmenn** séu lokaðir. Ef upplýsingareitirnir eru lokaðir þegar síðan **Starfskraftar** er hlaðið inn verða viðhengishnapparnir gerðir virkir. (Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

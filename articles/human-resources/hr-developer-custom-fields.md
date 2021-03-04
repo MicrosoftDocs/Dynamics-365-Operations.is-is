@@ -40,3 +40,5 @@ Vertu viss um að virkja sérsniðna reiti sem þú býrð til svo þú getir no
 [Common Data Service einingar](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Stofna og vinna með sérstillt svæði](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Birtu sérstillt svæði í gagnaeiningum](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

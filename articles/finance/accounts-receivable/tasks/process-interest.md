@@ -68,3 +68,6 @@ ms.locfileid: "4444402"
 5. Smellt er á **OK**.
 6. Í reitnum **Staða** er ‚bókað' valið.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

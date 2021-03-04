@@ -36,3 +36,6 @@ Með því að stofna línur á **Merkjatalning** síðunni er sett merkjanúmer
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Regluleg talning](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

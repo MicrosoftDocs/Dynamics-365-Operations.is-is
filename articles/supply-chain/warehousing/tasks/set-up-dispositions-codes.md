@@ -41,3 +41,6 @@ ms.locfileid: "4430720"
 6. Í reitnum Ráðstöfunarkóði skila skal slá inn gildi.
     * Ráðstöfunarkóði skila ákvarðar afgangur skilapöntunarferlis fyrir vörur sem eru skráðar. Í þessu dæmi ætti viðskiptavinar að fá kreditnótu. Bæta við ráðstöfunarkóða skila sem inniheldur lánsfé aðgerðar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

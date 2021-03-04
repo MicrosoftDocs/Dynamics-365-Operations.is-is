@@ -223,3 +223,6 @@ Til að forðast fyrri aðstæður, ef önnur Dynamics 365 forrit hafa vörur se
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Flutningur á afurðagögnum úr öðrum Dynamics 365 forritum í Finance and Operations
 
 Ef önnur Dynamics 365 forrit eru með vörur sem eru ekki til staðar í Finance and Operations, getur kerfisstjórinn fyrst notað **EcoResReleasedProductCreationV2Entity** til að flytja inn þessar vörur í Finance and Operations. Og í öðru lagi skal jafna afurðagögnin úr Finance and Operations og önnur Dynamics 365 forrit eins og lýst er hér að ofan. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

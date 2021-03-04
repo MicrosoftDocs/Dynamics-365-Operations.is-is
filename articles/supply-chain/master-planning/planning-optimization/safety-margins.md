@@ -183,3 +183,6 @@ Til dæmis er vara með afhendingartíma upp á einn dag og innhreyfingarmörk u
 [Hafist handa með fínstillingu áætlanagerðar](get-started.md)
 
 [Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

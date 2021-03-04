@@ -39,3 +39,6 @@ Hægt er að nota þjónustusniðmátsflokka til að flokka og sía þjónustusn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

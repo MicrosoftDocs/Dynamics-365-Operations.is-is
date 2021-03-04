@@ -196,3 +196,6 @@ Setja upp samþættingu við Power BI. Nánari upplýsingar, sjá [Skilgreina sa
 [Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

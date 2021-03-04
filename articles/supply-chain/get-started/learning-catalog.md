@@ -187,3 +187,6 @@ Finndu rétta þjálfun á netinu, vinnusmiðjur og viðburði fyrir hlutverkið
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

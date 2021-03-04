@@ -162,3 +162,6 @@ Valkosturinn **Eftirvinnsla: Sía sjálfkrafa eftir atriðum með beinni eftirsp
 - **Ein þung rútína í einu** – Keyrðu ekki aðaláætlanagerð ásamt öðrum þungum rútínum.
 - **Yfirfara lotukladda**.
 - **Afmörkun á vörum** – Notaðu líftímastöðuna til að útiloka vörur frá aðaláætlanagerð. (Ekki nota vörunúmerin.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

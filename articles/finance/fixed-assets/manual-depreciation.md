@@ -76,3 +76,6 @@ Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100. Hins
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

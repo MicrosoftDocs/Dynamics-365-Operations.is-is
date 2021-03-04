@@ -69,3 +69,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 11. Smellt er á Í lagi.
     * Fara yfir myndað úttak. Athugið að fyrir hvert viðhengi hefur verið stofnað einu xml-hnútur. Innihald viðhengis er notað til að fylla út í úttak XML í MIME (base64) textasnið.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

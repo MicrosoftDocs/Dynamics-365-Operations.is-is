@@ -113,3 +113,6 @@ Hægt er að bakfæra Niðurstöður endurmat í rangri dagsetningaröð, en þa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

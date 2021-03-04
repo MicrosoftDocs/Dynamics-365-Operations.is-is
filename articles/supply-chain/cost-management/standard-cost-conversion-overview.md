@@ -102,3 +102,6 @@ Skýrslan **Yfirlit fráviksgreiningar** gerir það mögulegt að greina frávi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

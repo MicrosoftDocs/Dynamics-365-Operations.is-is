@@ -58,3 +58,6 @@ ms.locfileid: "4408064"
 9. Í reitinn Heiti skal slá inn ‚Skýrsla um verktakamiða lánardrottins yfirlýsing (IS)‘.
 10. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Forritsgögnin eru notuð til að mynda skýrslur í efnispakkanum Laun og frí�
 | Vinnuafl\_WorkerName             | Fornafn, eftirnafn, og fullt nafn                                                                       | Vinnuafl\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Vinnuafl\_WorkerTitle            | Titill og starfsaldursdagsetning                                                                                   | Vinnuafl\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Vinnuafl\_WorkerTrend            | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Vinnuafl\_Fyrirtæki, vinnuafl\_Laun, vinnuafl\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

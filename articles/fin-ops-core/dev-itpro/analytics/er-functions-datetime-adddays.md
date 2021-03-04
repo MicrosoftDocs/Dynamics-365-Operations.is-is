@@ -67,3 +67,6 @@ Jákvætt gildi fyrir `days` skilar framtíðardegi. Neikvætt gildi skilar lið
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dagsetningar og tímavirkni](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

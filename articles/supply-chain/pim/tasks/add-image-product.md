@@ -37,3 +37,6 @@ ms.locfileid: "4430346"
 5. Smellið á „Nýtt“.
     * Smellið á Fletta. Finndu myndina sem á að nota, veldu hana og lokaðu síðan svarglugganum.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ ms.locfileid: "4444263"
 17. Lokið síðunni.
 18. Veldu **Virkja**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

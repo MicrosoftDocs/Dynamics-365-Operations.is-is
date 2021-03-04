@@ -135,3 +135,6 @@ Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á rásum símavera
 [Stjórna einkunnum og umsögnum](manage-reviews.md)
 
 [Skilgreina einkunnir og umsagnir](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

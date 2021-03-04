@@ -180,3 +180,6 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 
 [Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)</br>
 [Skilgreina Common Data Service-samþættingu](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Með stofnun hlutastraumspöntunar sem er hluti af Retail, útgáfu 10.0.5, er h
 > Valmyndaratriðin **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta > Sölustaðarbókun > Reikna uppgjör í runu** og **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta > Sölustaðarbókun > Bóka uppgjör í runu** verða fjarlægð með tilkomu þessa nýja eiginleika.
 
 Einnig er hægt að búa til gerðir af færsluuppgjörum og fjárhagsskýrslum handvirkt. Opnið **Smásala og viðskipti > Rásir > Verslanir** og smellið á **Uppgjör**. Smella skal á **Nýtt** og velja svo þá gerð uppgjörs sem stofna á. Svæðin á síðunni **Uppgjör** og aðgerðir í hlutanum **Uppgjörsflokkur** á síðunni birta gögn og aðgerðir í samræmi við valda gerð uppgjörs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

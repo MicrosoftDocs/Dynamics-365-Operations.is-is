@@ -62,3 +62,6 @@ Eftirfarandi dæmi sýnir verkefnunum sem felast í að setja upp afslátt rása
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Verðleiðréttingar og afslættir](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

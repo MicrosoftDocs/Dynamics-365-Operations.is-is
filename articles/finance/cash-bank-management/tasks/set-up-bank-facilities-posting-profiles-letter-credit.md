@@ -74,3 +74,6 @@ ms.locfileid: "4444448"
     * Þessi lykill er tekjufærður þegar opnunarframlegð er bókuð og kreditfærð þegar greiðslan er bókuð.  
 9. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

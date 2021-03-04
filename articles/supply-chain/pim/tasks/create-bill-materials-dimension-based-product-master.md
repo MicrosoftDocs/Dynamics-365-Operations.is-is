@@ -79,3 +79,6 @@ Fyrir þetta ferli áttu að hafa lokið fyrri 4 leiðbeiningum í þessari rö�
 5. Smellið á „Í lagi“.
 6. Smellið á Virkja.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

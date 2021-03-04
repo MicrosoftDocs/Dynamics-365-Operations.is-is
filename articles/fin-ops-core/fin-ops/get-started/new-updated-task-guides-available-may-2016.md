@@ -193,3 +193,6 @@ ms.locfileid: "4694966"
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

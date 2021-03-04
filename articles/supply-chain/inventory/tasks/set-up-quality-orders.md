@@ -136,3 +136,5 @@ ms.locfileid: "4430588"
 
 > [!NOTE]
 > Eiginleikinn *Gæðastjórnun fyrir vöruhúsaferli* býður upp á viðbótareiginleika til að setja upp gæðatengingar. Hann bætir við nýju skilyrði (**Viðeigandi gerð vöruhúss**) og nýrri stillingu (**Regla um úrvinnslu gæða**). Ef þú hefur gert þennan eiginleika virka, er frekari upplýsingar að finna í [Gæðastjórnun fyrir vöruhúsaferli](../quality-management-for-warehouses-processes.md).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

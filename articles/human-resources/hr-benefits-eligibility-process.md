@@ -54,3 +54,6 @@ ms.locfileid: "4418943"
 25. Opnið dálkasía Stöðu.
 26. Raða frá A til Ö
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

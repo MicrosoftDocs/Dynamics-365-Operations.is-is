@@ -75,3 +75,6 @@ Ef gildi frumbreytunnar `decimals` er lægra en 0 (núll), er tilgreind tala ná
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stærðfræðilegar aðgerðir](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

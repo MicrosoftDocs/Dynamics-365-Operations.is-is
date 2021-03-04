@@ -68,3 +68,6 @@ ms.locfileid: "4444247"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Vistaðu reikningur með frjálsum texta sem sniðmát
 Þú getur líka vistað fyrirliggjandi reikningur með frjálsum texta sem sniðmát. Þegar þú velur Vista í sniðmát á flipanum Reikningur, gefðu upp nafn og lýsingu fyrir sniðmátið. Ef sniðmát með nafninu er þegar til, munt þú sjá tilkynningu um að sniðmát með því nafni sé þegar til. Þú getur ennþá smellt á Í lagi til að skipta því út. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

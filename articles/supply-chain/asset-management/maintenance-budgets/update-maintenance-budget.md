@@ -75,3 +75,6 @@ Reitirnir **Raunkostnaður** á fjárhagsáætlunarlínunum eru uppfærðir ef r
 
 - Þú veist að endurnýjun sumra eigna er sem stendur á áætlunarstig, en tengdar vinnslur hafa ekki enn verið stofnaðar í eignastýringu. Samt sem áður viltu að fjárhagsáætlunarkostnaðar fyrir þessar vinnslur verði tekin með í fjárhagsáætlun viðhalds.
 - Nýjar eignir eða eignategundir hafa verið búnar til síðan þú gerðir fjárhagsáætlun viðhalds en viðhaldsáætlanir hafa ekki enn verið settar upp fyrir þessar eignir eða eignategundir. Samt sem áður viltu að fjárhagsáætlunarkostnaður fyrir þessar eignagerðir verði tekinn með í fjárhagsáætlun viðhalds.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

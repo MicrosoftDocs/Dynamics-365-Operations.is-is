@@ -86,3 +86,6 @@ ms.locfileid: "4430704"
 4. Í reitnum **Skilyrði** skal slá inn gildi.
 5. Veljið **Í lagi**. Þú getur haldið áfram að bæta við leiðbeiningarlínum og leiðbeiningaraðgerðum þar til að þú hefur náð yfir allar mögulegar aðstæður í vöruhúsinu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Notkun á lýsigögnum skilgreiningarlykils sem eru búin til á meðan einingal
 Hvenær sem þú uppfærir skilgreiningarlykla á einingunni, á sviði töflu eða reita, verður einingalistinn í ramma gagnastjórnunar að endurnýjast. Þetta ferli tryggir að ramminn taki upp nýjustu stillingar skilgreiningarlykils. Þar til einingalistinn er endurnýjaður birtist eftirfarandi viðvörun á listasíðu einingar. Uppfærðar breytingar á skilgreiningarlykli munu taka gildi strax eftir að einingalistinn er endurnýjaður. Við mælum með því að þú sannprófir núverandi gagnaverk og störf til að ganga úr skugga um að þau virka eins og búist er við eftir að breytingar á skilgreiningarlyklunum hafa verið gerðar.
 
 ![Markreitir](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

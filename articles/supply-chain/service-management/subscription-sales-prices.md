@@ -380,3 +380,6 @@ Ferlið sem lýst er fyrir ofan er endurtekið til að stofna áskriftarþóknan
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

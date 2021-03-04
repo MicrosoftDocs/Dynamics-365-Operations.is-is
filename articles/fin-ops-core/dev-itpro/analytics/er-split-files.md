@@ -47,3 +47,6 @@ Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeininguna **S
 [Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 
 [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

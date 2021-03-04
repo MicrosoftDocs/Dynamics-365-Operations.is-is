@@ -331,3 +331,6 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

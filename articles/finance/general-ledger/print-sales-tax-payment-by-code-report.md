@@ -48,3 +48,6 @@ Til að prenta skýrsluna **VSK-greiðsla eftir kóða** ferðu í **Skattur** \
 Eftirfarandi skýringarmynd sýnir dæmi um skýrsluna sem er búin til. Skýrslan sýnir að skýrslukóðinn **101** er með gjaldmiðilinn **EUR** ef reiturinn **VSK-gjaldmiðill** er stilltur á **EUR** fyrir VSK-kóðann sem skýrslukóðanum er úthlutað á.
 
 ![Dæmi um VSK-greiðslu eftir kóðaskýrslu](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

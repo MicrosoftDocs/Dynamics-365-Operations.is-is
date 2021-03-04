@@ -80,3 +80,6 @@ Ef þetta á að koma fram á staðfestingu innkaupapöntunarinnar ætti að lei
 
 Þetta vandamál á sér aðeins stað fyrir innkaupapantanir sem heyra undir breytingastjórnun. Það á sér stað vegna þess að afturköllunin er talin breyta sem þarf að samþykkja. Hægt er að framkvæma samþykkið sjálfkrafa af kerfinu. Þess vegna gengur ferlið út á að senda afturkallaða innkaupapöntun til samþykktarverkflæðis þannig að hún geti fengið stöðuna *Samþykkt*. Á þessu stigi sést innkaupapöntunin ekki lengur í listanum yfir drög að innkaupapöntunum á vinnusvæðinu **Undirbúningur innkaupapöntunar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

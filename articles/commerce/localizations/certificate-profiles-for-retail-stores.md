@@ -122,3 +122,6 @@ Ef ný útgáfa af vottorðinu er kynnt til sögunnar, en ekki hægt að uppfær
 
 > [!NOTE]
 > Í Commerce Runtime verður fyrst kallað á nýju útgáfu vottorðsins. Ef vottorðið hefur ekki verið uppfært enn sem komið er í tiltekinni verslun er afgreiðslustöð, verður kallað á fyrri útgáfuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

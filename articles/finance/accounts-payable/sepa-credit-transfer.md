@@ -126,3 +126,6 @@ Greiðsluskráin er mynduð þegar greiðslur eru myndaðar og það verður be�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

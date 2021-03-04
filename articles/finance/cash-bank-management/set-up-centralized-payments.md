@@ -58,3 +58,6 @@ Hægt er að skilgreina sjálfgefnar lýsingar fyrir fylgiskjöl samstæðujöfn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

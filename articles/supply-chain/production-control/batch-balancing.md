@@ -193,3 +193,6 @@ Eftir að magn innihaldsefnisins hefur verið reiknað, getur þú staðfest og 
 Ef formúla inniheldur virkt efni fyrir afurð sem er virkjuð fyrir vöruhúsakerfisferlana, en rununúmer er undir staðsetningu í frátekningarstigveldinu, á runupöntunin ekki við um röðun virkra efna í uppskrift.
 
 Runupöntun sem á ekki við um röðun virkra efna í uppskrift fer í gegnum reglulega vinnuferilinn fyrir runupantanir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

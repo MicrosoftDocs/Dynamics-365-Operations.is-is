@@ -53,3 +53,6 @@ ms.locfileid: "4413193"
 19. Smellt er á Stofna pöntun.
 20. Smella á Já.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Tilfangageta lýsa því hvað rekstrartilföng getur gert. Við áætlunargerð
 5. Í reitinn Stig skal slá inn númer.
     * Þegar tilgreindur er vinnslu eða aðgerð sem krefst tiltekna getu, er einnig hægt að tilgreina lágmarksstig sem krafist er. Notaðu getistig til að aðgreina tilföng sem geta framkvæmt sömu vinnslu en með mismunandi hraða, styrkleikum, stærðir og svo framvegis.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

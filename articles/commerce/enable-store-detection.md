@@ -69,3 +69,6 @@ Fylgdu þessum skrefum til að kveikja á staðsetningarbyggðri greiningu versl
 [Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -114,3 +114,5 @@ Ef vöru úr vörulista ytri lánardrottinn hefur verið beðið um, ekki er hæ
 
 - [Viðbætur cXML-innkaupa](purchasing-cxml-enhancements.md)
 - [Nota ytri vörulista fyrir PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -256,3 +256,6 @@ Hér eru nokkur atriði til að hafa í huga þegar DOM-eiginleikinn er notaður
 - Sem stendur skoðar DOM aðeins pantanir sem eru stofnaðar úr viðskiptarásum. Litið er á sölupantanir sem sölupantanir þegar valkosturinn **Commerce-sala** er stilltur á **Já**.
 - Microsoft hefur ekki prófað DOM með ítarlegum eiginleikum vöruhúsakerfis. Viðskiptavinir og samstarfsaðilar verða að fara varlega í að ákvarða hvort DOM sé samhæft við ítarlegar aðgerðir og ferla vöruhúsakerfisins sem eiga við þá.
 - DOM er aðeins í boði í skýjaútgáfu Commerce. Það er ekki stutt fyrir uppsetningar á staðnum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Fyrir vörur sem eru stilltar þannig að þær notist við fyrirliggjandi verk 
 **Aðvara** og **Þvinga**: Listi yfir elstu runu(r) með elsta lokadeginum birtist fyrir ofan runustjórnun þegar starfsmaður velur runu. Ef staðsetningu er stýrt af númeraplötu birtist listi yfir númeraplötur sem hafa elstu rununa fyrir ofan númeraplötustjórnun. 
 -   **Aðvara**: Ef starfsmaður velur númeraplötu eða runu sem ekki birtist á listanum er stjórnunin auð og aðvörun birtist um að það sé eldri runa sem þarf að velja. Til að geta haldið áfram vinnu getur starfsmaður valið sömu númeraplötu eða runu aftur.  
 -   **Þvinga**: Starfsmenn munu áfram fá skilaboðin um að það sé eldri runa sem á að taka til.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

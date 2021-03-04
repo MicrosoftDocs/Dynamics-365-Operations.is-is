@@ -88,3 +88,6 @@ Ef gátreiturinn **Bóka sem viðskiptadag** er hreinsaður fyrir sömu verslun,
 - Sala þar sem viðskiptavinur var bætt við færslu í POS mynda sérstaka sölupantanir og reikninga, einn fyrir hvert einkvæmt kenni viðskiptavinar.
 
 Greiðslubækur eru sjálfkrafa stofnaðar fyrir greiðslur í uppgjörinu og á birgðirnar eru uppfærðar fyrir verslun á sölustaður.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4693931"
 **Ákvörðun:**
 
 - Hversu margar viðbótar aðsetursbækur muntu stofna?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

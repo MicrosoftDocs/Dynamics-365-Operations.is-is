@@ -110,3 +110,6 @@ Reikningabókin sem er stofnuð eftir bókun inniheldur ekki yfirvöru búntsins
 Mikilvægt er að reikningabókin innihaldi ekki yfirvöru búntsins vegna þess að allar úrvinnslur sem gerðar eru eftir bókun reikningsins byggjast á þeirri reikningabók. Til dæmis ef stofnuð er kreditnóta úr flipanum **Selja** á aðgerðasvæðinu mun stofnuð kreditnóta innihalda vöruhlutana en ekki yfirvöruna.
 
 [![Kreditnóta sem sýnir vöruhluta en ekki yfirvöru](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

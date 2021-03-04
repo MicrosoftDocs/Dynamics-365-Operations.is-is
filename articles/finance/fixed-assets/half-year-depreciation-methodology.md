@@ -42,3 +42,6 @@ Fyrsta þjónustuári lýkur í desember 2020, sem þýðir að lok fimm ára l�
    [![Afskriftaráætlun fyrir hálfs ára afskriftarreglu](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Útvíkkuð afskriftartímabil sem er bætt við með hálfs ára reglu bjóða upp á nákvæmari úthlutanir afskrifta. Sex mánaða reglan endurspeglar jafnari afskriftarkostnað, sem er gagnlegt fyrir skýrslugerð í rekstraryfirliti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Fyrir nánari upplýsingar, sjá [Loka fjárhag í lok tímabils](close-general-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

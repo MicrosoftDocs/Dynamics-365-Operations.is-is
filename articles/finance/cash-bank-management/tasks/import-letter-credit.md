@@ -185,3 +185,6 @@ ms.locfileid: "4444449"
     * Staðfesta skýrslunni inniheldur færslur með númer bankaskjals, aðstöðuhámark, nýttar upphæð og stöðuupphæð aðstöðu.  
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

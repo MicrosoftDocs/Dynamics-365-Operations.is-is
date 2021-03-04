@@ -54,3 +54,6 @@ Til að bæta deild við stigveldi deildar, skal fylgja þessum skrefum:
 
 ## <a name="steps-for-creating-a-department"></a>Skref til að búa til deild
 Sjá greinina [Skilgreina nýjar deildir](../fin-and-ops/hr/tasks/define-new-departments.md) fyrir skref fyrir skref aðferð til að búa til nýja deild. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

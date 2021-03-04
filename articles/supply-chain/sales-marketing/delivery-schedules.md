@@ -57,3 +57,6 @@ Skjalaútprentun pantana og tilboða sem hafa afhendingaráætlun sýna aðeins 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

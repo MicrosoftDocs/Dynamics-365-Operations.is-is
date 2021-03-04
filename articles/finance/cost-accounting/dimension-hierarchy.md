@@ -333,3 +333,6 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 > [!NOTE] 
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Stigveldi aðgangslista tryggir ekki útflutning á gögnum í Excel. Þar af leiðandi ætti það skýrslugerðartæki aðeins að verað notað af kostnaðarbókunum og stjórnendum sem verða að hafa ótakmarkaðan aðgang til að skoða gögn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

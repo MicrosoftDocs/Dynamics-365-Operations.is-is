@@ -146,3 +146,6 @@ Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir
 [REST API Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Kortaeining](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

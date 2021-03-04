@@ -140,3 +140,6 @@ Notandinn sem undirritar vottunina verður að færa inn handvirkt síðufjölda
 ### <a name="page-numbers"></a>Blaðsíðunúmer
 
 Núverandi síða og fjöldi síðna sem prentaðar voru neðst í skjalinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Starfsmönnum með verkefni sem krefjast ekki tafarlausra viðbragða, svo sem v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

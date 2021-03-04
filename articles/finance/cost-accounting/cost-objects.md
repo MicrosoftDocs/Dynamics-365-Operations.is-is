@@ -44,3 +44,6 @@ Til þess að auðvelda innflutningi víddarstök kostnaðarhlutar, notarðu gag
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

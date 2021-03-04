@@ -50,3 +50,6 @@ Rakningarvíddin **Eigandi** er ekki til staðar þegar vöruhúsaforritið er n
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Microsoft hefur metið þetta mál og hefur ákvarðað að þetta sé takmörkun eiginleika. Sem stendur styður vöruhúsakerfisferli aðeins birgðir sem eru í eigu lögaðilans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

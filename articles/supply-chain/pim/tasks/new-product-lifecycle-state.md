@@ -35,3 +35,6 @@ ms.locfileid: "4430188"
 3. Í reitinn Staða skal slá inn gildi.
 4. Sláið inn gildi í reitnum „Lýsing“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Til að læra meira um persónulegar ráðleggingar, sjá [Virkja persónulegar 
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

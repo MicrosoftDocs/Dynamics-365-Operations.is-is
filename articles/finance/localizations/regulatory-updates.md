@@ -87,3 +87,6 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 - Finnið allar áætlaðar og útgefnar regluuppfærslur í [Lifecycle Service - vandamálaleit](https://lcs.dynamics.com/Logon/Index) (innskráning nauðsynleg).
 - Fyrir lista yfir staðfærslur sem eru studdar fyrir skal sjá [Alþjóðlegt aðgengi að leiðbeiningum](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

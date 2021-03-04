@@ -98,3 +98,6 @@ ms.locfileid: "4679511"
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

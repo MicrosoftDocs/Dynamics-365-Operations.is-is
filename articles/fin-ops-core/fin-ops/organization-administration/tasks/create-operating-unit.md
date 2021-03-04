@@ -41,3 +41,6 @@ Rekstrareining er fyrirtæki sem er notað til að skipta stýringu verðmæta o
     + Færðu inn upplýsingar um samskiptamáta, eins og tölvupóstföng, vefslóðir og símanúmer. Til að færa inn nýja samskiptafærslu skal smella á Nýtt. Til að breyta fyrirliggjandi samskiptafærslu, smellið á **Fleiri valkostir > Ítarlegt**.   
 6. Einnig er hægt að breyta **Númeri rekstrareiningar** eftir þörfum. Athugaðu að þetta númer er einstakt kenni fyrir samsvarandi skrá **Aðila** og getur ekki verið það sama og nein önnur rekstrareining.
 7. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

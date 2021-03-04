@@ -37,3 +37,6 @@ Til að setja upp runuvinnslu, eða til að vinna með greiðslureikninga, afskr
 > Síðari færslur, svo sem afskriftaráætlanir skulda, greiðslur, afskriftir og kostnaður, verða aðeins bókaðar eftir að upphafleg viðurkenning fyrir samsvarandi leigusamninga er bókuð.
 >
 > Færslubókarfærslur eru stofnaðar en þær verða ekki bókaðar fyrr en **Keyra** skipunin er valin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

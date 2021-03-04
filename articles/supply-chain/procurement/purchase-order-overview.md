@@ -92,3 +92,6 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Skipulag listans samanstendur af staka reitnum **Upphæð** af gerðinni `Real` 
 [Listaaðgerðir](er-functions-category-list.md)
 
 [Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

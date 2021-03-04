@@ -47,3 +47,6 @@ Runuvinnslu útilokar lokaðar bækur. Í runuvinnslu fyrir afskrift er t.d. 10 
 Mörkin á fjölda bóka eru notuð ef tvítekin eignaauðkenni eru ekki til í sömu færslubók. Hins vegar ef eignaauðkennið er það sama og auðkenni bókarinnar, er hægt að fara umfram fjölda bóka fyrir hverja færslubók til að halda eignaauðkenninu í sömu færslubók.
 
 Til dæmis eru til 5001 eignaauðkenni, þrjár bækur eru tengdar við hvert auðkenni og hver eignabók er bókuð á sama bókunarlagið. Afskriftir eru keyrðar fyrir þrjá samfellda mánuði, án samantektar. Afskriftarbókin verður stofnuð í gegnum runuvinnslu og kerfið býr til sjö færslubækur með 667 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Útkoman verður 2.001 bækur. Eftir þrjá mánuði verða því 6003 færslubókarlínur til að viðhalda sömu auðkennum eignar í sömu færslubók. Kerfið stofnar einnig eina færslubók með 332 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Eftir þrjá mánuði verða línurnar 2.988.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

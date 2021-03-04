@@ -45,3 +45,6 @@ Sem hluti af Retail geta notendur geta skoðað afköst verslunar í rauntíma m
 - Skattsamantekt
 - Samantekt um hnekkingu verðs
 - Samantekt á afslætti
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

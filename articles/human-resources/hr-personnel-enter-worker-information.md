@@ -45,3 +45,6 @@ Eftir að ráðningaraðila hefur stofnuð fjöldaráðningaverk og stöður, n�
 8. Í listanum skal afmerkja valda línu.
     * Velja næsta stöðu verks og halda áfram að færa inn upplýsingar fyrir hvern einstakling sem verið er að ráða.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

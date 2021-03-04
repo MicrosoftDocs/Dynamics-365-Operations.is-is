@@ -51,3 +51,6 @@ Hver úthlutunarregla hefur fjóra meginþætti: almennt, uppruna, áfangastað 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

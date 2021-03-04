@@ -51,3 +51,6 @@ Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetn
 - **Sendingarafsláttur** – Afsláttur sem er notaður þegar heildarfærsla er hærri en tilgreind upphæð og tiltekinn afhendingarmáti (til dæmis tveggja daga sending eða sending yfir nótt) er notað á pöntuninni.
 
 Hægt er að tengja bæði verðleiðréttingar og afslátt við sérstaka verðflokka. Síðan er hægt að tengja verðflokka við rásir, vörulista, tengsl og vildarkerfi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

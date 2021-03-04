@@ -504,3 +504,6 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 [Stjórnun ósamkvæmi](enable-nonconformance-management.md)
 
 [Gæðastjórnun fyrir vöruhúsaferli](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

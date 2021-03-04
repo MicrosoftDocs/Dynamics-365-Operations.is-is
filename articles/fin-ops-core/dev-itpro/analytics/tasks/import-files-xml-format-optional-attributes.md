@@ -123,3 +123,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 
 > [!NOTE]
 > Sama skrá hefur verið flutt inn þar sem sniðshönnunin telur nú að eigindin „kenni“ fyrir eininguna „fylgiskjal“ sé valfrjáls.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

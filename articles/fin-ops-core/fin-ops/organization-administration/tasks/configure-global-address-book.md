@@ -45,3 +45,6 @@ Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er �
 13. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Styðja á Shift-takkanum til að velja mörg hlutverk til að bæta við reitinn **Valin hlutverk** og smellið á örina til að bæta við völdum hlutverkum.  
 14. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

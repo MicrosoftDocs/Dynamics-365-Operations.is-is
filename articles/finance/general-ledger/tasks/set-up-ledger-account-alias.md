@@ -41,3 +41,6 @@ ms.locfileid: "4444538"
 9. Í reitnum Upphafleg áhersla skal velja víddina sem hefur skilgreinda áherslu þegar auknefni er notað.
     * Eftir að þú slærð inn flýtileiðina og lykillinn og víddirnar eru útfylltar verður reiturinn Upphafleg áhersla þar sem bendillinn eða áherslan flyst í.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

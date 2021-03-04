@@ -58,3 +58,6 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 10. Lokið síðunni.
 11. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

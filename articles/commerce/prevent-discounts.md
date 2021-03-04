@@ -41,3 +41,6 @@ Eftirfarandi valmöguleikar, sem finna má á **Commerce** flipa útgefinna vara
 > Þessar stillingar takmarka ekki aðgerðina að hnekkja verði, vegna þess að hún setur grunnverð og er ekki meðhöndluð sem afsláttur.
 
 [![Koma í veg fyrir afslætti reitur](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

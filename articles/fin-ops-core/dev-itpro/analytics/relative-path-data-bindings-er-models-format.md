@@ -57,3 +57,6 @@ Ef þú staðfestir endurheimt á földuðum atriðum verður nýtt yfiratriði 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Formúlutungumál rafrænnar skýrslugerðar](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

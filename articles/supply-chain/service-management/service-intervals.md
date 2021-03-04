@@ -94,3 +94,6 @@ Ein þjónustupöntunarlína er stofnuð fyrir hverja þjónustupöntun vegna þ
 
 [Setja upp þjónustubil](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,5 @@ Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [
 #### <a name="task-guides"></a>Verkleiðbeiningar
 
 Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

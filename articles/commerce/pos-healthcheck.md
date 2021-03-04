@@ -83,3 +83,6 @@ Sérsniðnar ástandsskoðanir er einnig hægt að búa til til að prófa tæki
 ## <a name="related-articles"></a>Tengdar greinar
 
 [Kveikjur og prentun í Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

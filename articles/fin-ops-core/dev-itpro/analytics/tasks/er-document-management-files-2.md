@@ -91,3 +91,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verklei
 26. Smelltu á Ljúka.
 27. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

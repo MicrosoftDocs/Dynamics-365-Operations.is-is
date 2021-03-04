@@ -80,3 +80,6 @@ Hægt er að gera starfsmönnum kleift að kaupa og selja leyfisdaga með því 
 [Uppsöfnunaráætlanir fyrir leyfi og fjarvistir](hr-leave-and-absence-accrue.md)</br>
 [Kaupa og selja leyfisdaga](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Innkaupsverðsfærslurnar eru einnig aðeins notaðar til upplýsingar. Með þv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4430310"
     > Formið mun ekki innihalda millisamtölur sem eru skilgreindar í skýrsluútliti.
 
 Gagnaeiningin **Skýrsla um aldursgreiningu birgða** gerir þér kleift að flytja niðurstöðurnar af **Geymsla aldursgreiningarskýrslu birgða** skýrslu út með því að nota síu fyrir reitinn **Kenni ferlis - Heiti** á hvaða snið sem gagnastjórnun styður.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

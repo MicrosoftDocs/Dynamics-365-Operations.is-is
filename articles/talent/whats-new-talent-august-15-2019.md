@@ -61,3 +61,6 @@ Frekari upplýsingar um verkvangsuppfærslu 29 fyrir Finance and Operations er a
 Breytingar á starfsmannaskrám taka sjaldan gildi strax. Þú verður að uppfæra gögn frá upphafsdegi starfsmanns, sem oft er í framtíðinni, og þú þarft einnig að uppfæra upplýsingar áður. Með þessu straumlínulagaða leiðsagnarlíkani muntu geta uppfært gögn um framtíðina og fortíðina án þess að fletta að mörgum skjámyndum eða breyta dagsetningarsamhengi. Þessi breyting ýtir einnig undir og birtir lykilupplýsingar í efri borðasvæði starfsmannaskrárinnar.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

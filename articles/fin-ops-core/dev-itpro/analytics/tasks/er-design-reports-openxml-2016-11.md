@@ -150,3 +150,6 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 17. Í reitinn **Bankareikningar** skal slá inn `GBSI OPER`.
 18. Veldu **Í lagi** og síðan aftur **Í lagi**. Fara yfir stofnaðar vinnublað, þar á meðal upplýsingar um greiðslulínur ásamt samtölur fyrir hvern gjaldmiðilskóði sem notaður er í þessum greiðsluskilaboðum.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

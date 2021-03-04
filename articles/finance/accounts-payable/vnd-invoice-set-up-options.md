@@ -63,3 +63,6 @@ Eftirfarandi færibreytur eru tiltækar:
 
 - **Fjöldi skipta sem á að reyna sjálfvirka jöfnun** - Veljið hversu oft kerfið á að reyna að jafna innhreyfingarskjöl afurða við reikningslínu áður en ákveðið er að vinnslan hafi mistekist. Þegar tilteknum fjölda tilrauna er náð er reikningurinn fjarlægður úr sjálfvirka ferlinu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

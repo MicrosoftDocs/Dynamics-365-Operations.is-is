@@ -72,3 +72,6 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Einnig er hægt að sía dagatöl eftir stjórnanda eða deild. Aðalstöðuverk
 
 Fyrir upplýsingar um stillingar dagatals, sjá [Skilgreina færibreytur dagatals](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

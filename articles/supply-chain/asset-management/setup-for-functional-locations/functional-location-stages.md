@@ -63,3 +63,6 @@ ms.locfileid: "4430632"
 5. Ef þú vilt velja allar tiltækar stöður fyrir líkan, smelltu á hnappinn ![veldu öll tiltæk stig](media/03-setup-for-functional-locations.png). Allar stöður eru fluttar í hlutann **Valdar líftímastöður**.
 6. Ef þú vilt fjarlægja valda stöðu úr líkaninu skaltu velja stöðuna í hlutanum **Valdar líftímastöður** og velja síðan hnappinn ![aftur ör](media/04-setup-for-functional-locations.png).
 7. Veldu **Uppfærslur á líftímastöðu** til að skilgreina hvaða líftímastaða getur fylgt valinni stöðu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -138,3 +138,6 @@ Til að búa til skýrsluna **Fyrirtækjasala** fylgirðu þessum skrefum.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Heimasíða Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

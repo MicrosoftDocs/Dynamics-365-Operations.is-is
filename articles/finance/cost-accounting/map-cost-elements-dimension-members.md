@@ -53,3 +53,6 @@ Hægt er að uppfæra skilgreiningar vörpunar fyrir vídd kostnaðareiningar hv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

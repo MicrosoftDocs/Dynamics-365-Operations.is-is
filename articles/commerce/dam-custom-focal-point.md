@@ -60,3 +60,6 @@ Fylgdu þessum skrefum til að skilgreina sérsniðna þungamiðju fyrir mynd.
 [Skera myndir](dam-crop-images.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4444458"
 10. Í reitnum **Fjöldi tilvika eftir tímabilum** skal færa inn tölu.
 11. Í reitnum **Bóka færslur** skal velja hvenær bóka skal færslur, eins og **Mánaðarlega**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

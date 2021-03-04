@@ -96,3 +96,6 @@ Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endursko�
 21. Smellt er á **OK**.
 22. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

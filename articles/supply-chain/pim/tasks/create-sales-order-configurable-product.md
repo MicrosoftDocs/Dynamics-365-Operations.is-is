@@ -53,3 +53,6 @@ ms.locfileid: "4430325"
 
 ## <a name="select-the-product-configuration"></a>Veljið vöruafbrigði.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

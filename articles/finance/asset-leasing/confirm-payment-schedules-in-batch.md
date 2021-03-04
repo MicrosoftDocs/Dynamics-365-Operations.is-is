@@ -42,3 +42,6 @@ Til að staðfesta margar greiðsluáætlanir skal fylgja þessum skrefum.
     - Til að staðfesta allar bækur skal kveikja á færibreytunni **Fyrir allar bækur**.
 
 Upplýsingar fyrir nýstaðfestar bækur eru sýndar á síðunni **Staðfestar bækur**. Eftir að greiðsluáætlanir eru staðfestar er hægt að bóka upphaflegar færslur í færslubók gegn leigusamningunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

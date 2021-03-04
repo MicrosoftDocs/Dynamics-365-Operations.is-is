@@ -50,3 +50,6 @@ Supply Chain Management reiknar eftirfarandi gerðir af nákvæmnispám:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

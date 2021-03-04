@@ -116,3 +116,6 @@ Stjórnandi umhverfis okkar fékk tölvupóst frá Microsoft. Í tölvupóstinum
 > Ljúktu við eftirfarandi spurningalista til að hefjast handa og, ef svo á við, biddu um undantekningu frá yfirfærslu í fínstillingu skipulagningar.
 
 **Svar:** Nei, Aðaláætlanagerð er ekki læst. Keyrslu aðaláætlanagerðarinnar lauk á réttan hátt og þú getur notað niðurstöðurnar á hefðbundinn hátt. Hins vegar, til að forðast að fá þessi villuboð við síðari aðaláætlunarkeyrslur, verður að flytja yfir í fínstillingu áætlanagerðar strax eða biðja um undantekningu með því að nota tengilinn í villuboðunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

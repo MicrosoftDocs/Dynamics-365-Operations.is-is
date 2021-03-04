@@ -118,3 +118,6 @@ Aðeins er hægt að bæta greiðslueiningu við greiðsluferliseiningu. Frekari
 [Dynamics 365 Payment Connector fyrir PayPal](paypal.md)
 
 [Öflug sannvottun viðskiptavinar með Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

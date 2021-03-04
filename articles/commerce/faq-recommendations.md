@@ -100,3 +100,6 @@ Eftir að hafa gert afurðatillögur virkar þarftu að bæta við tillöguborð
 [Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
 
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

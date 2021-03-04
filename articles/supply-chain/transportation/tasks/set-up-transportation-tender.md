@@ -48,3 +48,6 @@ ms.locfileid: "4430115"
 7. Smelltu á Senda.
 8. Veljið leið.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

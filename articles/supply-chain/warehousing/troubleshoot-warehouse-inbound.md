@@ -65,3 +65,6 @@ Nýr eiginleiki fyrir meðhöndlun á innleið, *Umframmóttaka á hleðslumagni
 1. Umframmóttaka á hleðslumagni
 
 Frekari upplýsingar er að finna á [Bóka skráð afurðamagn á móti innkaupapöntunum](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

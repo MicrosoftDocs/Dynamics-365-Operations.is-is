@@ -108,3 +108,6 @@ Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutning
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Fylgið eftirfarandi skrefum til að tilgreina samþykkjendur.
 1. Á síðunni **Valkosti** á flipanum **Lykla**, smellið **Tilgreina samþykkjanda**.
 2. Í **notandakenni samþykktaraðila** reit, velja kenni þess notanda sem á að skrifa undir breytingar annars notanda.
 3. Í **undirrita fyrir notandakenni** reit, velja kenni notandans sem þarf að skrifa undir fyrir þegar hann gerir breytingar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

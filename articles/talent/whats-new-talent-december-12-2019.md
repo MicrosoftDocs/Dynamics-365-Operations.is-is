@@ -85,3 +85,6 @@ Forskoðunareiginleikar eru aðeins í boði í umhverfi **sandkassa**.
 
 Sjá [Prenta árangursumsagnir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) í Dynamics 365: 2019 útgáfu bylgjuáætlun 2.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Með uppfærslu þessarar viku geta starfsmenn HR séð upplýsingar um frammist
 Þessi aðgerð er nú fáanleg í sandkassaumhverfi. Til að kveikja á þessum eiginleika skaltu fara á **Kerfisstjórnun > Tenglar > Uppsetning > Kerfisfæribreytur > Forskoðunaraðgerðir**. Veldu **Bætt skjámynd starfskrafta og yfirlit**. Þetta mun virkja þessar breytingar fyrir alla notendur. Þú getur slökkt á þessum möguleika hvenær sem er.
 
 Sjá frekari upplýsingar í [Einfaldaður innsláttur og skoðun starfsmanns](./streamlined-employee-entry.md). Til að sjá breytingarnar skaltu horfa á myndbandið [Dynamics 365 for Talent Yfirlit yfir bylgjur 2 frá 2019](https://aka.ms/ROGT19RW2ROV).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni. Til að stof
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

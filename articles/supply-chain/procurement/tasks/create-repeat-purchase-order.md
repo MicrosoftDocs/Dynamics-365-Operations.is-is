@@ -70,3 +70,6 @@ Frekar en að Afrita heila pöntun, er algengara að stofna nýja innkaupapöntu
 4. Veldu línu fyrir æskilega innkaupapöntun. Athugið að staka pöntunarlínan sem er í þessari innkaupapöntun er einnig valin.  
 5. Veljið **Í lagi**. Viðbótar pöntunarlínan hefur verið bætt við innkaupapöntun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

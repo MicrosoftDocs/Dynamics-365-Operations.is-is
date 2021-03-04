@@ -174,3 +174,6 @@ Aðrar endurbætur sem notendur geta séð hafa verið gerðar á eiginleikanum 
 
     - Opnið **Retail og Commerce** \> **Uppsetning höfuðstöðva** \> **Færibreytur** \> **Færibreytur Commerce**. Síðan á flipanum **Bókun**, á flýtiflipanum **Birgðauppfærsla**, í reitnum **Upplýsingastig** skal velja **Samantekt**.
     - Opnið **Retail og Commerce** \> **Uppsetning höfuðstöðva** \> **Færibreytur** \> **Færibreytur Commerce**. Síðan á flipanum **Bókun**, á flýtiflipanum **Uppsöfnun** skal stilla valkostinn **Fylgiskjalafærslur** á **Já**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

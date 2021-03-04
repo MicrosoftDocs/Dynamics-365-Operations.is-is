@@ -75,3 +75,6 @@ Til að bæta öðru aðsetri við þjónustupöntun, skal fylgja þessum skrefu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

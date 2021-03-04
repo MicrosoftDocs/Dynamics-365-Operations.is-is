@@ -45,3 +45,6 @@ Til að skilgreina sjálfgefið runukenni sem notað er fyrir reikningsfærslu s
 
 > [!NOTE]
 > Stuðningur við bætta meðhöndlun runuraktra vara við uppgjörsbókun fyrir sviðsmyndir vöruhúsakerfis sem ekki er ítarlegt var kynntur í Retail-útgáfu 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

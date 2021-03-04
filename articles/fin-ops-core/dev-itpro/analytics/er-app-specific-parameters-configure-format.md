@@ -309,3 +309,6 @@ Til að læra að nota skilgreint ER-snið **Snið til að læra hvernig á að 
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Settu upp færibreytur ER sniðs á hvern lögaðila](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Til að skilgreina svar API afurðaframboðs skal fylgja þessum skrefum.
 [Nota birgðastillingar](inventory-settings.md)
 
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

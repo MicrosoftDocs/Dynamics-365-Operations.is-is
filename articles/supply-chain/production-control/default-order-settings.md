@@ -204,3 +204,6 @@ Til að stilla staðfestingarvalkostinn:
 1. Í flipanum **Almennt** skal stilla **Staðfesting á sjálfgefnu pöntunarmagni** á eitt af eftirfarandi gildum:
     - **Ítarlegt** - Veljið þennan valkost til að tryggja að öll gildin fyrir **Staðlað magn í pöntun** verði margfeldi af gildinu **Margfeldi** fyrir hvern flýtiflipa (**Innkaupapöntun**, **Birgðir** og **Sölupöntun**).
     - **Staðlað** - Veljið þennan valkost til að nota staðlaða staðfestingu (sem virkar á sama hátt og þegar þessi eiginleiki er ekki virkur).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

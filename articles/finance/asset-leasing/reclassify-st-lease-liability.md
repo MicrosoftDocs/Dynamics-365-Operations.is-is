@@ -41,3 +41,6 @@ Til að stofna og bóka færslu í endurflokkunarbók skammtímaskuldar skal fyl
 4. Kveikja skal á færibreytunni **Bóka**. Einnig er hægt að stofna færsluna en ekki bóka hana með því að hafa slökkt á þessari færibreytu.
 5. Kveikja skal á færibreytunni **Forskoða fyrir bókun** til að skoða færsluna áður en hún er bókuð.
 6. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

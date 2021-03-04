@@ -161,3 +161,6 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 7. Smellt er á Í lagi.
     * Sjálfgefin grunnstilling líkansvörpunar er notuð af þessari grunnstillingu sniðs til að búa til rafræn skjöl (úttakið sem þegar hefur verið stofnað inniheldur fyrirtækjakóðann).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

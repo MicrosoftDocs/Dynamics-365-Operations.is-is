@@ -53,3 +53,6 @@ Hægt er að leita í runueigindum þegar gerðar eru runufrátekningar fyrir s�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

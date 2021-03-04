@@ -72,3 +72,6 @@ Eftirfarandi tafla sýnir upplýsingar um hvernig þessi skilgreiningarlykill te
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "4430334"
 3. Í reitnum **Rakningarvíddarflokkur** skal slá inn eða velja gildi. Geymslurakningarflokkinn ákvarðar hvaða rakningarvíddir verður að færa inn á hverja færslu fyrir vöruna og hvernig það verða raktar í birgðum.  
 4. Veljið **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

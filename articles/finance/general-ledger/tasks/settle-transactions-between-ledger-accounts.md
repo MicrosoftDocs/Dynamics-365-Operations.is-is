@@ -49,3 +49,6 @@ ms.locfileid: "4444403"
 7. Smellt er á Fjárhagsjafnanir.
 8. Í listanum skal merkja valda línu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

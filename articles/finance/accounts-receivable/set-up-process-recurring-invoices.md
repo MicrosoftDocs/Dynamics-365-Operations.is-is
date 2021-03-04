@@ -67,3 +67,6 @@ Eftir að endurteknir reikningar hafa verið bókaðir er hægt að prenta reikn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

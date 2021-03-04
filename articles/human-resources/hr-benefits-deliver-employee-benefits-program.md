@@ -68,3 +68,6 @@ ms.locfileid: "4419050"
 16. Í reitnum Grunnur skal velja valkost.
 17. Færið inn tölu í reitnum Upphæð eða hlutfall.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

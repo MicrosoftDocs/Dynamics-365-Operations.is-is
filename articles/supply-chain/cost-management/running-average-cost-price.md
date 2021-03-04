@@ -76,3 +76,6 @@ Hafið einnig í huga að hámarksjöfnunin á efnislegu birgðavirði er takmö
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

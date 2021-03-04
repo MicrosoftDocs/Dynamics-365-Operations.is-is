@@ -43,3 +43,6 @@ ms.locfileid: "4430593"
 1. Fara í Lánardrottnar í samstarfi > vörusendingabirgðir > vörusendingabirgðum á lager.
     * Síðan vörusendingabirgðir á lager sýnir birgðir sem þú átt í vöruhúsi viðskiptavinar. Hægt er að birta aðrar víddir, eins og svæði og vöruhús, með því að smella á flipann Birta víddir.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

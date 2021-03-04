@@ -49,3 +49,6 @@ ms.locfileid: "4430719"
 15. Á listanum skal finna og velja vöruhús sem tók á móti vörur
 16. Smellið á pantanir til Að skoða pantanir sem var stofnað fyrir valið vöruhús
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

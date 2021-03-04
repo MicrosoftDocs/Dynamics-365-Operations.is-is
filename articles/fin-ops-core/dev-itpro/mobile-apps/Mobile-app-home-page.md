@@ -151,3 +151,6 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 [Tilföng fartækjaverkvangs](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar o
     * Oft eru nokkur markmið sem eru þau sömu eða svipuð fyrir hópmeðlimi eða alla starfsmenn.     MA-kerfisstjóri eða stjórnandi þinn getur stofnað markmiðsflokka sem innihalda eitt eða fleiri markmiðasniðmát. Hægt er að bæta við markmiði úr markmiðsflokki og aðlaga það til að passa við tímalínur.  
     * Þegar yfirferð er stofnað er hægt að bæta við markmiðum við yfirferðina. Skoðið leiðarvísi fyrir verkefnaleiðbeiningar til að sjá hvernig hægt er að bæta markmiðum við yfirferðir.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Lykillinn sem er valinn fyrir hverja kostnaðargerð er debetfærður þegar gre
 
 > [!NOTE]
 > Mótlykill er valinn á leigustigi á línunum fyrir greiðsluáætlun rekstrarkostnaðar. Þessi mótlykill getur tengst lánardrottni eða með fjárhagslykli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

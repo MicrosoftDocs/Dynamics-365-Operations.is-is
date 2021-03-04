@@ -73,3 +73,6 @@ Til að búa til eða afrita sniðmát viðskiptaferlis, eða til að hefja við
 
 Til að skoða virk ferli og tengda verkþætti, skal opna **Viðskiptaferli** vinnusvæðið.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

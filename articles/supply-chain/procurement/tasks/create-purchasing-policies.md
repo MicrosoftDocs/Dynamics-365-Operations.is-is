@@ -57,3 +57,6 @@ ms.locfileid: "4430273"
 4. Veljið **Loka**.
 - Núna er hægt að setja upp aðrar stefnureglur fyrir innkaupastefnu. Athugið að stefnureglugerð getur ekki haft reglur um skörun sem eru virkar á sama tíma innan einnar innkaupastefnu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

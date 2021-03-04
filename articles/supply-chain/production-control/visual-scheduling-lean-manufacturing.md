@@ -95,3 +95,6 @@ Hægt er að opna Kanban-áætlunarborð með valmyndaratriði á eftirfarandi s
 
 [Röðun kanban-vinnslu fyrir lean-framleiðslu](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

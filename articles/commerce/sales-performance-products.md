@@ -44,3 +44,6 @@ Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurna
 - **Verslunarstjórnun** vinnusvæði &gt; **Retail og Commerce** &gt; **Rásir** &gt; **Verslunarstjórnun** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
 - **Flokka- og vörustjórnun** vinnusvæði &gt; **Retail og Commerce** &gt; **Rásir** &gt; **Stjórnun verslunar** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
 - **Fyrirspurnir og skýrslur** hluti &gt; **Retail og Commerce** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -496,3 +496,6 @@ Gakktu úr skugga um að samnýtta stilling líkanavörpunar sé ekki merkt sem 
 - Að minnsta kosti ein útgáfa af stilligum ER-líkanavörpunar hefur annaðhvort stöðuna **Lokið** eða **Deilt**. Í þessu tilfelli verður útgáfan sem er með hæsta útgáfunúmerið notuð við framkvæmd ER sniðs.
 - Kveikt er á valkostinum **Keyra drög** fyrir stillingu ER-líkanavörpunar. Í þessu tilfelli verður útgáfan sem er með stöðuna **Drög** notuð við framkvæmd ER sniðs.
 > Valkosturinn **Keyra drög** verður í boði á síðunni **Stillingar** fyrir sérhverja stillingu ER-líkanavörpunar þegar kveikt er á ER-færibreytu notanda **Keyra stillingu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

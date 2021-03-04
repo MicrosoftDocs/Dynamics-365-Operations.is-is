@@ -63,3 +63,6 @@ Ef þú slærð inn gagnagjafa **DS** af gerðinni *Reiknaður reiður* og hann 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

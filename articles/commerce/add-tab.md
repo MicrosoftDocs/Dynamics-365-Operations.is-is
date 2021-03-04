@@ -84,3 +84,6 @@ Til að bæta flipaeiningu við síðu og stilla eiginleikana skal fylgja þessu
 [Fellingareining](add-accordion.md)
 
 [Textabálkseining](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

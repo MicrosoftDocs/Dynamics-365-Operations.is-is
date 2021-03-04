@@ -88,3 +88,6 @@ Birtingarröð fyrir yfirlitsstigveldi rásarinnar endurspeglast í aðalstöðv
 
 > [!NOTE]
 > Sjálfgefið er að slökkt sé á sérröðunarstillingunni. Til að læra hvernig á að kveikja á þessum eiginleika og öðrum eiginleikum skal sjá [Eiginleikastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

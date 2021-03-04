@@ -67,3 +67,6 @@ Nota þetta ferli til að stofna og úthluta stefnu kostnaðarúthlutunar og sam
 5. Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.
 6. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

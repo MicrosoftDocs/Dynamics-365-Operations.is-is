@@ -95,3 +95,6 @@ Til að virkja slíka staðfestingu þarf að áætla eftirfarandi verk til að 
 [Birgðaaðgerð á innleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Birgðaaðgerð á útleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

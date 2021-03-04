@@ -121,3 +121,6 @@ Smellið á **Uppsetningu** til að sérsníða upplýsingarnar sem birtast í t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

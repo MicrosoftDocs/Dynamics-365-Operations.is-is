@@ -53,3 +53,6 @@ Hægt er að skilgreina hvernig aðgerðaboðin eru reiknuð fyrir þekjuhóp se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

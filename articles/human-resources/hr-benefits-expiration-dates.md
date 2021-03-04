@@ -46,3 +46,6 @@ ms.locfileid: "4418948"
 15. Smellt er á Fríðindum.
 16. Í listanum skal finna fríðindi og velja skrá. Athugið að lokadagur nýrrar þekju.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

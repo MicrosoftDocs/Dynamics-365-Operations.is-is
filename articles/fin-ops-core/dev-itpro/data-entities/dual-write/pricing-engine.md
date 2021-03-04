@@ -69,3 +69,6 @@ Microsoft Dynamics 365 Supply Chain Management felur í sér verðlagningarvél 
 + Uppsetning gjalds og úthlutunar gjalds í Supply Chain Management er ekki endurtekin í Sales.
 + Verðlagning telur ekki sérstaka smásöluverðlagningu sem tilgreind er í reitnum **Verslunarrás** á sölupöntunarlínusíðunni í Supply Chain Management.
 + Afslættir sem eru skilgreindir í hlutanum **Stjórnun afsláttar** af Supply Chain Management eru ekki skoðaðir.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Fyrirtæki A viðheldur fjárhagslegum færslum fyrir lítilla fyrirtækja. Einn
 
 [Stofna þjónustuhluta](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

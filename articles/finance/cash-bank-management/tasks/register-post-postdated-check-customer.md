@@ -50,3 +50,6 @@ Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin f
 15. Smellið á „Bóka“.
 16. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Skýrslan **Aldursgreining viðskiptavinar** sýnir stöðu sem er á gjalddaga 
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Nánari upplýsingar eru í [Afleiddar bækur](derived-books.md) og [Bóka í af
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

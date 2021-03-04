@@ -131,3 +131,6 @@ Við flokkun tiltektarlínu er hægt að sameina margar vinnulínur sem hafa sam
 >    - Vinnulínur sem hafa óunna endurnýjunarvinnu.
 >    - Umframtiltekt.
 >    - Endurúthlutun með fyrir vöru
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

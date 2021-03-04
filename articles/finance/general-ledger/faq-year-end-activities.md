@@ -137,3 +137,6 @@ Dynamics 365 Finance prentar ekki út eyðublaðið 1096 Annual Summary and Tran
 Nýjum eiginleika fyrir opinbera geirann, **Uppfæra 1099-upplýsingar eftir aðallykli**, hefur verið bætt við, sem hægt er að virkja á vinnusvæðinu **Eiginleikastjórnun**. Þessi eiginleiki gerir kleift að tengja 1099-gildin fyrir lánardrottin eftir aðallyklinum í dreifingu á fjárhagsupphæð, frekar en eftir sjálfgefna lyklinum í lánardrottnafærslunni.
 
 Frekari upplýsingar eru í [Setja upp lánardrottna fyrir skýrsluna 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

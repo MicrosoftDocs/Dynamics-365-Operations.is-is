@@ -142,3 +142,6 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 [Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

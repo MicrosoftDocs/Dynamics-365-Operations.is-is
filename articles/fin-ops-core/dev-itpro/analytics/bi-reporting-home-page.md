@@ -89,3 +89,6 @@ Eftirfarandi skýrslur veita tilvísunarupplýsingar um hluti:
 - [Leyfiskóðar og skilgreiningarlyklaskýrsla](../sysadmin/license-codes-configuration-keys-report.md)
 - [SQL Server Reporting Services (SSRS) skýrslur sem eru tiltækar](SSRS-report.md)
 - [Skýrsla um verkflæðisgerðir](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

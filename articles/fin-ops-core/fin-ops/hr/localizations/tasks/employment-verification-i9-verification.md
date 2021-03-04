@@ -54,3 +54,6 @@ Reglugerð um endurbætur og eftirlit innflytjenda krefst þess að vinnuveitend
 22. Í reitinn skjalanúmer skal slá inn eða velja gildi.
 23. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

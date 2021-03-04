@@ -139,3 +139,6 @@ Notandi Commerce fylgist með verkflæðið til að reikna, samþykkja og flytja
 - Skrá Fjarvist
 
 Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

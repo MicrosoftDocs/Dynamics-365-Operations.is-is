@@ -100,3 +100,6 @@ Myndin hér að neðan sýnir dæmi um síðuna **Innkaupapöntun** með áhersl
 
 Á sama hátt, til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupabeiðnilínu verkbeiðni, á listasíðunni **Innkaupabeiðni verkbeiðni**, skaltu velja innkaupabeiðniskrána og síðan, í dálkinum **Innkaupabeiðni**, velurðu hlekkinn fyrir innkaupabeiðnina. Þú getur fundið reitinn **Verkþáttarnúmer** á flipanum **Verk** á flýtiflipanum **Línulýsing**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Fylgið eftirfarandi skrefum til að breyta fjárhagsvíddum fyrir smásölufær
 [Stofna Excel-vinnubók til að breyta smásölufærslum](create-excel-edit.md)
 
 [Bæta svæðum við Excel-vinnubók til að breyta smásölufærslum](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

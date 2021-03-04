@@ -107,3 +107,6 @@ Fylgdu þessum skrefum til að beina vefslóðinni yfir á aðra slóð.
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

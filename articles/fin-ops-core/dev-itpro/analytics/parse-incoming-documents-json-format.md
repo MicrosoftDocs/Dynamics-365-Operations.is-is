@@ -50,3 +50,6 @@ Að auki verður þú að ljúka verkleiðbeiningunum [ER Stofna nauðsynlegar s
 | Titill                  | Skrárnafn |
 |------------------------|-----------|
 | Líkanaskilgreining rafrænnar skýrslugerðar | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

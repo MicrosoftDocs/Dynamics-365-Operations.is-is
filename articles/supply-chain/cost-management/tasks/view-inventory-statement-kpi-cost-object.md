@@ -39,3 +39,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er �
 7. Dagsetning er rituð í reitinn Frá dags.
 8. Í reitinn Til dagsetningar skal slá inn dagsetningu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

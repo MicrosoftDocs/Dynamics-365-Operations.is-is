@@ -64,3 +64,6 @@ Færibreytan **Magn** tilgreinir hvort losa á í runu allt magnið eða efnisle
 -   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** skal smella á  **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
 
 -   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** fyrir sölupantanir skal smella á  **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

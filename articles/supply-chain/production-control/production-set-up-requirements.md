@@ -81,3 +81,6 @@ Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleið
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

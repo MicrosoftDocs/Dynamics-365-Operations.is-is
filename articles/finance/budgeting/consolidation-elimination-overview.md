@@ -90,3 +90,6 @@ Með því að nota valkostinn **Flytja út stöður í fyrirtækinu** til að f
 Frekari upplýsingar eru í [Endurmat gjaldmiðils í samstæðufyrirtæki](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

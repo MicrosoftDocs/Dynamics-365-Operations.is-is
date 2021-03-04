@@ -57,3 +57,6 @@ Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri s�
 | Fjárhagur                   | Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag              |
 | Fjárhagsáætlunarkóðar              | Fjárhagsáætlunarkóðar til að sía skýrslur eftir                                                |
 | Lögaðilar            | Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

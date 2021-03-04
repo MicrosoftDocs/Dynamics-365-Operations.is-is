@@ -37,3 +37,6 @@ ms.locfileid: "4430185"
 5. Sláið inn eða veljið gildi í reitnum Lífferilsstaða afurðar.
 6. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

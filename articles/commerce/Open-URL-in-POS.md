@@ -83,3 +83,6 @@ Til að stilla vefslóð svo hún opnist í POS, skal framkvæma eftirfarandi sk
 5. Veljið **Opna vefslóð** sem aðgerðina.
 6. Færið inn vefslóðina sem á að nota.
 7. Stillið hvort eigi að opna vefslóðina eða nýjan glugga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

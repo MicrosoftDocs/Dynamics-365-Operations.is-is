@@ -105,3 +105,6 @@ Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja f
 Frekari upplýsingar um framleiðsluaðstæðurnar *Bóka sem tilbúið* er að finna í [Yfirlit yfir vinnureglur vöruhúss](warehouse-work-policies.md).
 
 Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Inn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Eftir að sérsniðnum skurði er lokið taka myndbreytingar gildi næstum því
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

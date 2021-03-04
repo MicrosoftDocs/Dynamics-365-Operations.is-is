@@ -55,3 +55,6 @@ Til að bæta fjárhagsvíddum við sniðmát eru frekari breytingar nauðsynleg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

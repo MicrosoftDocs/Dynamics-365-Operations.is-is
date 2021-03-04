@@ -54,3 +54,6 @@ ms.locfileid: "4444217"
 10. Veldu **Bóka**.
 11. Veldu **Fylgiskjal** til að skoða færslur sem voru bókaðar. Lykill Reiknings sem bíður samþykkist er bakfærður og skipt út fyrir raunverulega kostnaðarlykil.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

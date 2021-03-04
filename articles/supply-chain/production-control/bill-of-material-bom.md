@@ -118,3 +118,6 @@ Veljið **lánardrottinn** línugerð ef framleiðsluferlið notar undirverktaka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

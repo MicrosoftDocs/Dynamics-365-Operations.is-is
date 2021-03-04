@@ -98,3 +98,6 @@ Hægt er að skilgreina margar flokka uppskriftaútreikninga, eftir kröfum fyri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

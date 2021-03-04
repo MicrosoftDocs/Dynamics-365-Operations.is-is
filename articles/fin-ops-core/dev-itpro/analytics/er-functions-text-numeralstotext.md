@@ -88,3 +88,6 @@ Gjaldmiðilskóðinn er valkostur. Ef hann er skilgreindur sem tómur strengur e
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Textavirkni](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Vörur sem nota á í ferli vörusendingar verður að tengjast við **rakningar
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
 Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þeir nota þetta að vakta notkun á birgðum á þínu svæði. Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lánardrottna er að finna í [Öryggi notanda í gátt lánardrottins](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

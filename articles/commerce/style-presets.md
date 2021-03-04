@@ -128,3 +128,6 @@ Stílgildi forstillingar eru gerð virk á almenna vefsvæðinu.
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

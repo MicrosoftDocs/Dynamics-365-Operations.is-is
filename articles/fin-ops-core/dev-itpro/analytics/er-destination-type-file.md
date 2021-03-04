@@ -38,3 +38,6 @@ Hægt er að stilla skrá áfangastaðar fyrir hvern FOLDER eða FILE hluti á r
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

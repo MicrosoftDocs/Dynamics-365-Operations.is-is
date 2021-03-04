@@ -62,3 +62,6 @@ Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur me
 Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi. Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

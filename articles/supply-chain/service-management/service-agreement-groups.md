@@ -42,3 +42,6 @@ ms.locfileid: "4430423"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Stofna þjónustusamningsflokka](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

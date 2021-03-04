@@ -118,3 +118,6 @@ Hægt er að tilgreina sjálfgefnir lyklar sem birtast sjálfkrafa í færslubæ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 "search term"
 – eða –
 
 site:msdn.microsoft.com dynamics ax 2012 „leitarorð“
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

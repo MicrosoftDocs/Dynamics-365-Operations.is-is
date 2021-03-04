@@ -128,3 +128,6 @@ Til að stjórna þýðingar fyrir gildi í víddaflokknum gildi skal fylgja þe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

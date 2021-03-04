@@ -151,3 +151,6 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir 
 - Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

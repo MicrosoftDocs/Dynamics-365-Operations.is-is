@@ -84,3 +84,6 @@ Til að úthluta lyklum á leigubækur og-flokka sem hafa verið stofnaðir ver�
     > [!NOTE]
     > Valinn fjármögnunar- eða rekstralykill verður debetfærður þegar reikningur fyrir áætluð útgjöld er bókaður.
     > **Jöfnun leigukostnaðar** er notuð sem bókunargerð fyrir færslur rekstrarkostnaðar en bókað er á skilgreinda **Mótlykilinn** í **Greiðsluáætlunarlínur rekstrarkostnaðar** í upplýsingum um leigusamning eða eyðublað leigubókar.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

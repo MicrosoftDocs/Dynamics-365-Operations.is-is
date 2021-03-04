@@ -70,3 +70,6 @@ Til að gera upp eftirstöðvarnar skal framkvæma eftirfarandi skref:
 7)  Einnig er hægt að velja að stofna greiðslubók með uppgjöri eftirstöðva eða einfaldlega bóka þær án greiðslubókar. Veldu **Já** fyrir **Breyta í færslubók** til að stofna greiðslubók. Þú munt geta breytt greiðslubókinni sem þú stofnar.
 8)  Smelltu á **Gera upp eftirstöðvar**. Ef þú velur að stofna færslubók breytist hnappurinn í **Stofna færslubók**. Smelltu á **Stofna færslubók** í staðinn.
 9)  Ef þú stofnaðir greiðslubók mun síða færslubókar opnast eftir að smellt er á **Gera upp eftirstöðvar**. Færslubókarlínu verður bætt við færslubókina þar sem upphæðin verður sú sem er á uppgjöri eftirstöðva og lykill fyrir uppgjör eftirstöðva sem mótlykilinn. Ef þú bættir við viðskiptavini eða lánardrottni svo þú getir fært uppgjörsupphæðina yfir á annan viðskiptavin eða lánardrottin, þá verður aukalegri línu bætt við færslubókina til að færa upphæð uppgjörsins til þess viðskiptavinar eða lánardrottins.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

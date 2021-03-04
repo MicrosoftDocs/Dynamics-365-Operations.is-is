@@ -124,3 +124,6 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

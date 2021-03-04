@@ -144,3 +144,6 @@ Eftirfarandi reitum verður bætt við valmyndaratriði fartækis þegar **Leið
 - Sjálfgefinn ástæðukóði talningar
 - Birta ástæðukóða talningar
 - Breyta ástæðukóða talningar
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

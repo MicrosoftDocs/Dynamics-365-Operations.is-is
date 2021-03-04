@@ -59,3 +59,6 @@ Eftir að hermdu kostnaðarbreytingarnar hafa verið færðar inn skal reikna ú
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

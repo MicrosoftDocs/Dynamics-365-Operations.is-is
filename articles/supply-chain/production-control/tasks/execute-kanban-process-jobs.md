@@ -57,3 +57,6 @@ ms.locfileid: "4430380"
 6. Í reitnum gallalaust magn skal slá inn númer.
 7. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

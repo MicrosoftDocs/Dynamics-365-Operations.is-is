@@ -44,3 +44,6 @@ Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista �
 | [Hanna spurningalista](hr-learning-design-questionnaires.md) | Þessi grein veitir upplýsingar um hvernig hanna á spurningalista. Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista. |
 | [Dreifa spurningalistum á ákveðnum tímum](hr-learning-distribute-questionnaires.md) | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista. |
 | [Yfirferð og mat á niðurstöðum spurningalista](hr-learning-evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

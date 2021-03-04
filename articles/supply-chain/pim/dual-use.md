@@ -108,3 +108,6 @@ Síðan **Vottorð fyrir tvíþætt notagildi** er notuð til að setja upp og s
     | Prenta á reikning | Veljið þennan gátreit til að prenta númer vottorðs á reikningunum sem eru stílaðir á tiltekið land innan tiltekins dagsetningabils. |
     | Prenta á fylgiseðil | Veljið þennan gátreit til að prenta númer vottorðs á fylgiseðlum sem eru stílaðir á tiltekið land innan tiltekins dagsetningabils. |
     | Prenta á sölupöntun | Veljið þennan gátreit til að prenta númer vottorðs á sölupöntunum sem eru stílaðar á tiltekið land innan tiltekins dagsetningabils. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

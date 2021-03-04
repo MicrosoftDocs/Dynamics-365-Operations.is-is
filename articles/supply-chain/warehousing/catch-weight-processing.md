@@ -210,3 +210,6 @@ Auk þeirra takmarkana sem nú eiga við um afurðir framleiðsluþyngdar, hafa 
 
 > [!NOTE]
 > Undanfarandi upplýsingar um merki framleiðsluþyngdar eru aðeins gildar ef afurð framleiðsluþyngdar er með rakningaraðferð merkjavíddar framleiðsluþyngdar sem er rakin að fullu (það er, ef færibreytan **Rakningaraðferð merkjavíddar framleiðsluþyngdar** í meðhöndlunarstefnu hlutar framleiðsluþyngdar er stillt á **Afurðarvíddir, rakningarvíddir og allar geymsluvíddir**). Ef hluti framleiðsluþyngdar er aðeins rakinn með merki að hluta (það er, ef færibreyta **Rakningaraðferð merkjavíddar framleiðsluþyngdar** á meðhöndlunarstefnu vöru framleiðsluþyngdar er stillt á **Afurðavíddir, rakningarvíddir og birgðastaða**), gilda frekari takmarkanir. Vegna þess að skyggni tapast milli merkisins og birgða í þessu tilfelli eru nokkrar viðbótaraðstæður ekki studdar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

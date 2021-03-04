@@ -48,3 +48,6 @@ ms.locfileid: "4430741"
     * Staðfestið að sölu- og kostnaðarverð séu tiltæk. Ef þau eru ekki tiltæk en þörf er á þeim skal slá inn upplýsingarnar.  
 14. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

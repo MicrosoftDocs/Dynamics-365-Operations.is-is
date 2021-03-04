@@ -622,3 +622,6 @@ Starfsmenn í vöruhúsi geta nú tekið til gæðapöntunarverk með því að 
 
 > [!NOTE]
 > Hugleiddu að bæta færslu gæðaskoðunar á útleið við valmyndaratriði fartækis þar sem virkjunarkóðinn er *Sýna opinn verkefnalisti*. Sjá til dæmis valmyndaratriði fartækis sem kallast **Verkefnalisti** í sýnigögnum. Bættu fyrst vinnuklasanum *Gæðapöntun* við notandamiðað valmyndaratriði því að þessi vinnuklasi nauðsynlegur til að vinna birtist í verkefnalistanum. Bættu síðan vinnuklasanum *Gæðapöntun* við valmyndaratriðið **Verkefnalisti**. Notendur sem hafa aðgang að verkefnalistanum geta þá tekið til og unnið úr verkinu sem er sjálfkrafa búið til af staðfestingu gæðapöntunar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

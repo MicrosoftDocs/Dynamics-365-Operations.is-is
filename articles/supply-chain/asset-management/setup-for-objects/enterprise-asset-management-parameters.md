@@ -107,3 +107,6 @@ Veldu skjalategundirnar sem eiga að vera tiltækar til að prenta viðhengi sem
 Tengillinn **Númeraraðir**
 
 Veldu nauðsynlegar töluraðir í þessum kafla. Það eru tvær töluraðir fyrir eignir: ein fyrir handvirkt stofnaðar eignir og ein fyrir eignir búnar til með eignum í bið.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

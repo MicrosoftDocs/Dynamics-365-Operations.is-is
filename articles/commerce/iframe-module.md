@@ -77,3 +77,6 @@ Til að bæta iframe-einingu við síðu til að sýna ytra myndband skal fylgja
 [Yfirlit einingasafns](starter-kit-overview.md)
 
 [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu ná
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Frekari upplýsingar
 [Skilgreining aðgangsréttinda stjórnborða kostnaðarhlutar](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

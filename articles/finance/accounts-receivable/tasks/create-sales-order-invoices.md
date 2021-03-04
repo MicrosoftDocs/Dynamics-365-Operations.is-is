@@ -68,3 +68,6 @@ ms.locfileid: "4444509"
 10. Smelltu á **Hætta við**.
 11. Smellið á **Já**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

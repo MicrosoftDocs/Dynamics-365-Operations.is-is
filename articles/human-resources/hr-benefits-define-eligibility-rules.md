@@ -69,3 +69,6 @@ Gögn sýniútgáfu fyrirtækis sem er notað til að stofna þessa skráningu �
 10. Smellið á „Vista“.
 11. Lokaðu skjámyndinni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

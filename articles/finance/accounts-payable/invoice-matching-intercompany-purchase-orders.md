@@ -70,3 +70,6 @@ Fylgdu til dæmis eftirfarandi skrefum.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

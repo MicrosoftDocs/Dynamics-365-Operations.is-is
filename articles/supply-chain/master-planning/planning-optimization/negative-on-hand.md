@@ -87,3 +87,6 @@ Niðurstaðan er áætluð röð 25 stk. (= 25 stk. &minus; 0 stk.) til að fyll
 [Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
 
 [Hætta við áætlunarvinnslu](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

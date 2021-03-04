@@ -54,3 +54,6 @@ ms.locfileid: "4430472"
 
 > [!NOTE]
 > Þegar þú býrð til verkbeiðni fyrir eign sem fellur undir ábyrgð lánardrottins, ef verkbeiðnin er með áætlaðan upphafsdag á ábyrgðartímabilinu, færðu tilkynningu um ábyrgðarsamninginn. Þú getur síðan sagt upp verkbeiðninni eins og þú þarft.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

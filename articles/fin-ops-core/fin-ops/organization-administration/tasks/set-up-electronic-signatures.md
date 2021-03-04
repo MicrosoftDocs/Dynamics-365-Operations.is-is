@@ -77,3 +77,6 @@ Notaðu þetta ferli til að setja upp rafrænar undirskriftir. Rafræn undirskr
 10. Smellið á „Vista“.
 11. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

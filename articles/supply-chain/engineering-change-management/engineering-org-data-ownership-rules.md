@@ -67,3 +67,6 @@ Vegna þess að hönnunarfyrirtækið á viðeigandi hönnunartengd gögn stjór
 
     - Þegar þessi skjöl eru losuð til annarra lögaðila eru skjölin skrifvarin og rekstrarfyrirtækið getur því ekki fjarlægt þau.
     - Aðrir lögaðilar geta bætt við alveg nýjum, staðbundnum fylgiskjölum. Rekstrarfyrirtækið er eigandinn og vinnur með slík staðbundin skjöl.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

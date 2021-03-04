@@ -65,3 +65,6 @@ ms.locfileid: "4444325"
 10. Smellið á „Yfirfara“ á aðgerðarúðunni.
 11. Smellið á „Samsvörunarupplýsingar“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

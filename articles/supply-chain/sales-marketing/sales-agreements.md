@@ -113,3 +113,6 @@ Hægt er að afrita fjárhagsvíddir í annað hvort skjalhausa eða í einstaka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

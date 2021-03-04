@@ -115,3 +115,6 @@ Eftirfarandi mynd sýnir dæmi um stillingu á losaðri afurð.
 [Stofna lögaðila](channels-legal-entities.md)
 
 [Stofna afbrigðaflokk](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

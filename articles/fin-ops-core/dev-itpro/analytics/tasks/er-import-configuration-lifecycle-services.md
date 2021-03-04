@@ -103,3 +103,6 @@ ms.locfileid: "4684452"
     Í þessu dæmi skal velja útgáfu þessarar skilgreiningar sem hefur stöðuna **Samnýtt**.
 
     Athugið að samnýtt útgáfa 1 hinnar völdu skilgreiningar gagnalíkans er nú tiltæk.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Eftir að þú hefur forskoðað breytingarnar á forstilltu skipulagi skaltu fy
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Vinna með sniðmát](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

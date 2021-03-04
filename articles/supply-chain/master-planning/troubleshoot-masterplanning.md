@@ -89,3 +89,6 @@ Ein leið til að auka afköst með innbyggðri aðaláætlunarvél er að gera 
 
 > [!NOTE]
 > Slíkt takmarkar framkvæmdartímabil niðurbrota fyrir þessa aðaláætlun við einn dag.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

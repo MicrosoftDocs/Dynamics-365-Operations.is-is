@@ -242,3 +242,6 @@ Sjá töfluna í næsta hluta fyrir frekari upplýsingar um <strong>SysQueryRang
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

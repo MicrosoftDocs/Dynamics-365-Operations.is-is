@@ -57,3 +57,6 @@ Greining á tíma sem er notuð til að vinna vinnuliði getur hjálpað við a�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

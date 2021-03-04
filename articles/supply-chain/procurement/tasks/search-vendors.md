@@ -39,3 +39,6 @@ Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyr
 6. Í reitinn land/svæði skal slá inn gildi.
 7. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

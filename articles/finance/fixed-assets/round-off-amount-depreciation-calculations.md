@@ -50,3 +50,6 @@ Afskrift án sléttunar er reiknuð sem 2.444,44. Mismunandi upphæðir eru lag�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

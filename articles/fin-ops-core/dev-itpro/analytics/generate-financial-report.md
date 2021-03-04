@@ -156,3 +156,6 @@ Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vanta
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
 
 [Viðmót Report Designer](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

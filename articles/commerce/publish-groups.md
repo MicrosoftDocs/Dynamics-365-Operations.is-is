@@ -155,3 +155,6 @@ Eins og stendur styður eiginleiki útgáfuhópa aðeins innihald vefsíðu. Hin
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Sérstilla yfirlit svæðis](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Notaðu frádrátt í Microsoft Dynamics 365 Human Resources til að ákvarða h
 4. Veldu til að fylgjast með og viðhalda breytingum á uppbótarhlutfalli **Aðgerðir** og veldu síðan **Viðhalda útgáfum**.
 
 5. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

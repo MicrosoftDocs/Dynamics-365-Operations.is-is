@@ -68,3 +68,6 @@ ms.locfileid: "4430054"
 5. Útvíkkar kanban-hlutann.
     * Athugið að búinn var til kanban til að flytja nauðsynlegt efni í vöruhús 12 .  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkv
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

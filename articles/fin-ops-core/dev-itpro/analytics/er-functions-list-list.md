@@ -73,3 +73,6 @@ Síðan slærðu inn gagnagjafann **Skrá 2** af gerðinni *Ílát*. Þessi gagn
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

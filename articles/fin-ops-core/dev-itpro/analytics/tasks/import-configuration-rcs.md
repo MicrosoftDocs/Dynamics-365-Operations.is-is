@@ -55,3 +55,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 5. Veljið **Loka**. 
 6. Veljið æskilega útgáfu af skilgreiningu rafrænnar skýrslugerðar og veljið **Flytja inn** til að færa hana inn í núverandi tilvik.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

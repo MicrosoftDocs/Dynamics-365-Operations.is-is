@@ -55,3 +55,6 @@ ms.locfileid: "4413210"
 24. Í listanum skal smella á tengilinn í valinni línu.
 25. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

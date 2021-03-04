@@ -70,3 +70,6 @@ Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

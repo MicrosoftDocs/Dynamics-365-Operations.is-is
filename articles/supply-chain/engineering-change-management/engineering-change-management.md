@@ -185,3 +185,6 @@ Flestir reitir hönnunarbreytingapantana eru þeir sömu og reitirnir fyrir útg
 | Umhverfisöryggi og heilbrigði | Tilgreinið hvort umhverfis- og öryggisreglur eiga við um breytinguna. Ef svo er, er hægt að velja viðeigandi reglur. |
 
 Hægt er að nota hnappinn **Vinna með/afrita upplýsingar um breytingu** til að afrita upplýsingar um breytingu milli afurðanna sem er breytt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

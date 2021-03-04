@@ -65,3 +65,6 @@ Svo hægt sé að keyra þetta ferli verður þú að hafa hlutverk Kerfisstjór
 29. Smellið á „Í lagi“.
 30. Veljið ástæðu þess að eru stimpla snemma.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

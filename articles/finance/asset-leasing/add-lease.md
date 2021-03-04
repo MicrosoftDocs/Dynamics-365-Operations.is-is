@@ -89,3 +89,6 @@ Allar bókarfærslur sem eru stofnaðar í Eignarleigu eru í færslubók Eignar
 
 > [!NOTE]
 > Ekki er hægt að stofna bók fyrir Eignarleigu handvirkt. Það stofnast sjálfkrafa þegar leiguáætlanir eru stofnaðar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

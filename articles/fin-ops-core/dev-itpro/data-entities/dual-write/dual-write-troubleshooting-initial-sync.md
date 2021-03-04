@@ -211,3 +211,6 @@ Ef einhverjar línur í einingu viðskiptavinar eru með gildi í reitunum **Con
     Upphaflegri samstillingu línanna er nú lokið.
 
 8. Í forritinu Finance and Operations skal kveikja aftur á rakningu breytinga fyrir eininguna **Viðskiptavinir V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

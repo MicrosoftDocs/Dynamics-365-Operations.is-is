@@ -104,3 +104,6 @@ Til að útskýra þessa bilun þarf að skilja valskilyrðin fyrir birgðamörk
 
 > [!NOTE]
 > Ekki er hægt að nota birgðatakmarkanir staðsetningar til að hafa stjórnun, til dæmis, áfyllingu á vörum sem hafa annað magn á sama stað. Í þessu tilvikum skal nota *áfyllingarsniðmát*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -299,3 +299,6 @@ Til að virkja eiginleikana MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturk
 - [Yfirlit innbótar rafrænna reikninga](e-invoicing-service-overview.md)
 - [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
 - [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Segðin `FIRST(SPLIT("",1)).Value` gerir undantekningu á keyrslutíma.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

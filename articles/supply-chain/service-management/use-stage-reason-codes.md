@@ -73,3 +73,6 @@ Ef búið er að tilgreina að ástæðukóða sé krafist, verður að færa in
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ Hér er útkoman.
 | IA0001 | 1 | 2 | 2 |
 
 Athugið að stillingarnar á svæðinu **Síur** eiga við um ítarlegu (ekki uppsafnaða) birgðatöfluna sem er sýnd í upphafi þessa hluta. Þar af leiðandi finnur skilyrðið **Efnislega tiltækt** \| **minna en eða jafnt og** \| _1_ tvær línur úr þeirri töflu (fyrstu og þriðju línu, sem hvor um sig sýnir gildi fyrir **Efnislega tiltækt** upp á _1_). Hins vegar, í þessu dæmi, er síðan **Lagerlisti** ekki sett upp til að sýna víddina **Vöruhús**. Þar af leiðandi leggur það upprunalegu línurnar tvær saman í eina línu því að báðar línurnar eru með sama gildið í öllum víddunum sem sýndar eru. Þessi lína virðist ekki fara eftir síuskilyrðinu vegna þess að gildið **Efnislega tiltækt** er sýnt sem _2_. Niðurstaðan er hinsvegar rétt vegna þess að stillingarnar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlögðu töfluna sem er sýnd á síðunni **Lagerlisti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

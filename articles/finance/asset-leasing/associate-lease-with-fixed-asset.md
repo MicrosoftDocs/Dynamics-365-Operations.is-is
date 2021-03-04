@@ -54,3 +54,6 @@ Nú er hægt að afskrifa eignina með því að nota staðlaða afskriftarvirkn
 
 > [!NOTE]
 > Ef eign er tengd við leigusamning eru hnapparnir **Afskrift eigna** og **Virðisrýrnun leigusamnings** óvirkir í eignarleigu. Hægt er að skoða færslur fyrir afskriftir eigna og virðisrýrnun leigusamninga úr eignum. Hnappurinn **Eignarfærslur**, sem opnar fyrirspurnarskjámynd er einnig gerður óvirkur. Einnig er hægt að opna **Eignarfærslur** fyrirspurnarskjámyndina í Eignir.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

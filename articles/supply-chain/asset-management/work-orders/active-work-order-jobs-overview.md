@@ -43,3 +43,6 @@ Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Virkar verkbei�
 
 Fyrir stutta lýsingu á hnöppunum á listasíðunni **Virkar verkbeiðnir um viðhaldsverk** skal sjá [Kynning á verkbeiðnum](../work-orders/introduction-to-work-orders.md) þar sem sömu hnöppum er lýst.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

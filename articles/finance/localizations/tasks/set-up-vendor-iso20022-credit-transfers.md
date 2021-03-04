@@ -52,3 +52,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.
 4. Í listanum skal smella á tengilinn í SEPA CT línu.
 5. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -243,3 +243,6 @@ Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútg
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
 Ljúkið skrefunum í ferlinu „Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur” í samhliða lotu Finance and Operations. Velja hið stofnaða „BACS snið (Bretland sérsniðið upphugsað)” í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

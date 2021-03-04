@@ -114,3 +114,6 @@ Til að stilla eigindina **Lágmarksaldur** fyrir myndskeiðseign skaltu fylgja 
 [Bæta við persónuverndarstefnusíðu](add-privacy-page.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4430761"
 6. Stillið **Magn** á „4“. Hér er hægt að tilgreina handvirkt magn sem fæst fyrir hverja línu í pöntun.  
 7. Veljið **Í lagi**. Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta. Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

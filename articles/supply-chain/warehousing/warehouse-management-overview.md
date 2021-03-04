@@ -74,3 +74,6 @@ Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu al
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

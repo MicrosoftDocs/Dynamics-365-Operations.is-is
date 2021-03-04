@@ -68,3 +68,6 @@ Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að ve
 5. Færa inn eða veljið gildi í svæðinu svaraflokkar.
 6. Í reitinn Texti skal slá inn gildi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

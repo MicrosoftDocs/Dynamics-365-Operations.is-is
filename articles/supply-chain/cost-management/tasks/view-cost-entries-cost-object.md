@@ -39,3 +39,6 @@ ms.locfileid: "4430094"
 7. Nota flýtiafmörkun til að sía í reitnum númer með gildið „p000031“.
     * Ef kostnaðarfærslur eru auð, setja Frá dagsetningu á 31. Janúar, 2012 og Til dagsetningu á 31. Desember 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

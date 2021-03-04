@@ -74,3 +74,6 @@ ms.locfileid: "4430727"
 
 2. Veljið **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

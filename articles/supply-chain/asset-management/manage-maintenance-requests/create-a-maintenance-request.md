@@ -74,3 +74,6 @@ Eftir að viðhaldsbeiðni er stofnuð, en áður en henni er breytt í vinnupö
 
 > [!NOTE]
 > Ef þú velur eign þegar þú býrð til viðhaldsbeiðni geturðu bætt einni villu við eignina. Eftir að viðhaldsbeiðnin hefur verið stofnuð geturðu bætt við fleiri göllum eftir þörfum. Til að bæta við göllum velurðu **Eignavilla** á síðunni **Allar viðhaldsbeiðnir**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

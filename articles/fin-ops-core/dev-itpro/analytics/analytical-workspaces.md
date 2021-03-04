@@ -45,3 +45,6 @@ ms.locfileid: "4683139"
 - [Vinnusvæði greiðslna lánardrottna](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Afköst vöruhúss Power BI efni](warehouse-power-bi-content.md)
 - [Mælikvarðar vinnuafls Power BI efni](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

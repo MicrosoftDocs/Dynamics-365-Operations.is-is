@@ -72,3 +72,6 @@ ms.locfileid: "4679345"
 - [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

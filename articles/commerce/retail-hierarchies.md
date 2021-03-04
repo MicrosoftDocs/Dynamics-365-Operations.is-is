@@ -45,3 +45,6 @@ Eftirfarandi tafla sýnir þær gerðir tegundastigvelda sem eru tiltækar og al
 | Valmyndarstigveldi   | Notið þessa gerð stigveldis til að flokka og raða afurðum í tegundum svo að hægt sé að skoða afurðir á netinu eða á söllustað. |
 
 Með tegundastigveldi til að skipuleggja vörur er hægt að setja upp og viðhalda afurðareigindum og eiginleikum tegundastigs. Þessi eigindir og eiginleikar hafa stillingar fyrir afurðavíddir og stillingar á Sölustað. Allar afurðir sem er úthlutað á tegundirnar erfa sjálfkrafa þær eigindir og eiginleika sem eru skilgreindir. Einnig er hægt að afrita stillingar eiginleika fyrir afurðir í margar afurðir í valinni tegund á sama tíma.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

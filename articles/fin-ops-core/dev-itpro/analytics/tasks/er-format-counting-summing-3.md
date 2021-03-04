@@ -132,3 +132,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 77. Smellið á „Vista“.
 78. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

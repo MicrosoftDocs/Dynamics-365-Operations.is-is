@@ -95,3 +95,6 @@ Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procure
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

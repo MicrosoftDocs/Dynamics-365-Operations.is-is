@@ -50,3 +50,6 @@ ms.locfileid: "4430242"
 
 4. Veldu **Viðhengi**. Staðalsíðan **Meðhöndlun skjala** birtist.
 5. Settu upp skjölin eða athugasemdirnar sem eiga að fylgja skránni yfir eigna skjalið. Eftir að þú hefur fest skjöl við **Viðhengi** reiturinn sýnir fjölda skjala sem tengjast skránni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Til dæmis færðu 2 prósent staðgreiðsluafslátt ef reikningurinn er greiddu
 
 
 Frekari upplýsingar eru í [Yfirlit greiðslur lánardrottins](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

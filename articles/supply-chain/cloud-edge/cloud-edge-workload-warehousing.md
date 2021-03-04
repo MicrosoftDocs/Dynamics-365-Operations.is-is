@@ -245,3 +245,6 @@ Nokkrar runuvinnslur keyra á bæði miðstöðinni og einingarkvörðum.
 
 - Töflufærslur bylgjuvinnslu
 - Vinna úr flutningstilviki fyrir stjórnun á bylgjukeyrslu
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

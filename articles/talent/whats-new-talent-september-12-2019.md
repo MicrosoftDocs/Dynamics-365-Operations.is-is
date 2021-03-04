@@ -104,3 +104,6 @@ Með þessari breytingu er upphafsdagsetning / tími nú sjálfgefinn byrjun dag
 Þessi aðgerð er nú fáanleg í sandkassaumhverfi. Til að kveikja á þessum eiginleika skaltu fara á **Kerfisstjórnun > Tenglar > Uppsetning > Kerfisfæribreytur > Forskoðunaraðgerðir**. Veldu **Bætt skjámynd starfskrafta og yfirlit**. Þetta mun virkja þessar breytingar fyrir alla notendur. Þú getur slökkt á þessum möguleika hvenær sem er.
 
 Sjá frekari upplýsingar í [Einfaldaður innsláttur og skoðun starfsmanns](./streamlined-employee-entry.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

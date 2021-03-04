@@ -82,3 +82,6 @@ ms.locfileid: "4430460"
     - Uppsöfnunarlykill eftirágreidds afsláttar hefur verið kreditfærður til að tákna framtíðarskuldir við viðskiptavininn.
     - Kostnaðarlykill eftirágreidds afsláttar hefur verið debetfærður sem staðfesting á kostnaðinum sem stofnað var til í tengslum við sölu.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

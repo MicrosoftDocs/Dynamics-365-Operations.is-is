@@ -318,3 +318,6 @@ Farið eftir [Grunnlosunarferli í vöruhús](#release-procedure) til að losa s
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

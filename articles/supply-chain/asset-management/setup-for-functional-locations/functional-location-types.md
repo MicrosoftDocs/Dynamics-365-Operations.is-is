@@ -67,3 +67,6 @@ Núna hefur sjálfgefin gerð virkrar staðsetningar sem aðeins á að nota fyr
 
 >[!NOTE] 
 >Á flýtiflipanum **Almennt** geturðu fengið yfirlit yfir fjölda eignagerða, viðhaldsáætlanir, eignaeigindakröfur, leyfðar gerðir, eigindi og virkar staðsetningar sem settar eru upp á gerð virkrar staðsetningar. Reiturinn **Virkar staðsetningar** sýnir fjölda virkra staðsetninga sem nota gerð virkrar staðsetningar. Þú getur notað hnappinn **Afrita** til að afrita stillingar frá gerð virkrar staðsetningar yfir í valda gerð virkrar staðsetningar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

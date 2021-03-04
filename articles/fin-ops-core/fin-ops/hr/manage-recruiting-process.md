@@ -103,3 +103,6 @@ Ef nokkrir starfsmenn þurfa að skoða umsóknina er hægt að nota síðuna **
 ## <a name="hiring-applicants"></a>Ráðnir umsækjendur
 
 Nota skal **Umsóknir** síðu til að ráða umsækjanda. Þegar umsækjandi er ráðinn mun umsóknarfærslan fá stöðuna **Ráðinn** og einstaklingsfærsla umsækjandans í altækri aðsetursbók er tengd við nýja skrá starfsmanns. Breytingar á upplýsingum altækrar aðsetursbókar fyrir nýja færslu starfsmanns eru einnig birtar í færslu umsækjanda. Þetta getur minnkað gagnainnfærslu ef nýr starfsmaður sækir aldrei um annað starf innan fyrirtækisins. Til að ráða starfsmanni í nýja stöðu, smellið á **Breyta stöðu** í fellilistanum **Umsóknastaða** til að hefja flutningsferlið.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

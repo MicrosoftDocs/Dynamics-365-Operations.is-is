@@ -254,3 +254,6 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 27. Lokið síðunni.
 28. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

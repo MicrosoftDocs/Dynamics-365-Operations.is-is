@@ -41,3 +41,6 @@ stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulag
 8. Víxla útvíkkun á liðnum fyrirtækishnekking.
     * Ef frammistöðu starfsmannsins á að hafa í huga, afköst mismunandi deildir eða deild sem er annað en það sem er úthlutað á stöðu starfsmannsins, hægt er að hnekkja deild. dálkinn Prósenta ætti að vera samtals 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

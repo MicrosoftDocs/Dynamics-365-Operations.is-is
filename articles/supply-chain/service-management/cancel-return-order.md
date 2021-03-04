@@ -49,3 +49,6 @@ Hægt er að hætta við skilapöntun frekar en að eyða henni þegar vista á 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Lögaðilar                                          | Heiti lögaðila                              |
 | Fjárhagsdagatöl                                        | Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður   |
 | Svæði                                                    | Kenni, nafn, heimilisfang, ríki, land               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

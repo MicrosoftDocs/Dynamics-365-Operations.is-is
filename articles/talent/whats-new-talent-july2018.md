@@ -57,3 +57,6 @@ Titlar hafa verið stækkaðir í þessari uppfærslu. Reiturinn er nú 65 stafi
 ## <a name="benefit-enrollment-status-report"></a>Stöðuskýrslu um fríðindaskráningu
 
 Innbyggð tilkynning um opna skráningu á fríðindum hjálpar þér að skilja betur hvar starfsmenn þínir eru í opnu skráningarferli. Þú getur komist að því hversu margir starfsmenn hafa lokið við ferlið, eru að fara að ljúka því og hafa ekki byrjað það. Að auki geturðu skoðað á fljótlegan hátt öll vandamál sem koma upp við skráningu starfsmanns og skoðað ítarlega skráningu yfir allar sendingar starfsmanns. Þess vegna getur þú auðveldlega staðfest og endurskoðað sendingar starfsmanns.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

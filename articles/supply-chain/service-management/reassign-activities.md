@@ -58,3 +58,6 @@ Fylgið eftirfarandi skrefum til að endurúthluta verkþætti á annan starfsma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

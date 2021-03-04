@@ -162,3 +162,6 @@ Nokkrum gagnaeiningum hefur verið bætt við til að virkja skjót innleiðingu
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

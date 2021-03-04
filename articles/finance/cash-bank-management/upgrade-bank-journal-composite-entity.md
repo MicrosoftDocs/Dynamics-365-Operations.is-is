@@ -55,3 +55,6 @@ Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við sams
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

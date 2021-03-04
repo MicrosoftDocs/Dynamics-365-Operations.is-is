@@ -71,3 +71,6 @@ Virknin Hætta við afstemmingu bankayfirlits auðveldar að hætta við afstemm
 Aðeins er hægt að hætta við bankayfirlýsingu í tímaröð sem þau voru færð inn. Þegar afstemming bankayfirlits fellur niður verða nýjum viðskiptum og leiðréttingum snúið við og öll önnur viðskipti merkt sem ósamræmd.
  
 Til að hætta við afstemmingu bankayfirlit skaltu velja bankayfirlitið og velja **Bankayfirlit > Hætt við bankaafstemmingu**. Á síðunni **Hætta við bankaafstemmingu**, veita **Ástæða kóða**, **Ástæða ummæla**, og **Aflýsingardagur**. Veldu **Í lagi** til að hefja niðurfellingu. Athugið að uppsagnadagur bankayfirlits verður að vera á eða eftir dagsetningu reikningsyfirlýsingarinnar. Eftir að afstemming bankayfirlits var felld niður, verðir reiturinn **Aflýsingardagur** fyrir bankayfirlitið uppfærður með veittum **Aflýsingardegi**. Veldu hnappinn **Færslur** til að skoða færslur sem afstemmingunni var aflýst fyrir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

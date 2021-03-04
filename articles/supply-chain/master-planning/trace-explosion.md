@@ -48,3 +48,6 @@ Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

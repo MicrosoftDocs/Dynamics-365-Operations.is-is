@@ -134,3 +134,6 @@ Til að nota sniðmátuppskriftir verður þú að setja upp tvær númeraraðir
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

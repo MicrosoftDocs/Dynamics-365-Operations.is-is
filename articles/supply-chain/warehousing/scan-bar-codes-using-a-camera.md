@@ -55,3 +55,6 @@ Myndavélasíðan mun ræsast fyrir allar síður þar sem ílagssvæðið er me
 
 Þegar myndavél er beint að strikamerki skal staðsetja strikamerkið innan hornklofanna til að fá sem bestar niðurstöðu. Þegar tekst að skanna strikamerki er unnið úr niðurstöðunni og þér verður vísað yfir á næsta skref. Ef næsta skref inniheldur annað ílagssvæði með æskilegan ílagsham stilltan á skönnun mun myndavélasíðan ræsast á ný. Ef næsta skref er ekki skönnunarsvæði mun myndavélasíðan ekki ræsast.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

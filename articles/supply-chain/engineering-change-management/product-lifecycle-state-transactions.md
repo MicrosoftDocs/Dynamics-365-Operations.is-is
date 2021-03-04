@@ -76,3 +76,6 @@ Eftirfarandi reitir eru tiltækir fyrir hvert ferli sem er skráð á flýtiflip
 | Tryggingasamningur | Veldu eitt af eftirfarandi gildum til að stjórna hvort og hvernig núverandi ferli verður heimilað fyrir afurðir með eftirfarandi líftímastöðu:<ul><li>**Virkjað** – Viðskiptaferlið er leyft.</li><li>**Lokað** – Ferlið er ekki leyft. Þegar notandi reynir að nota ferlið fyrir afurð með þessa líftímastöðu, stöðvar kerfið slíkt og birtir villu þess í stað. Þú ætlar t.d. að útiloka kaup á afurðum sem eru við lok líftíma.</li><li>**Virkjað með viðvörun** – Ferlið er leyft en viðvörun birtist. Þú vilt t.d. setja frumgerð afurðar á framleiðslupöntun sem er stofnuð af deild rannsóknar- og þróunarsviðsins. Hins vegar ættu aðrar deildir að fá að vita að þær eiga ekki að hefja framleiðslu á afurðinni strax.</li></ul> |
 
 Þegar þú bætir við fleiri reglum um líftímastöðu sem sérstillingar er hægt að skoða þessar reglur í notandaviðmótinu (UI) með því að velja **Uppfæra ferli** á efra svæðinu. Hnappurinn **Uppfæra ferli** er aðeins tiltækur fyrir stjórnendur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

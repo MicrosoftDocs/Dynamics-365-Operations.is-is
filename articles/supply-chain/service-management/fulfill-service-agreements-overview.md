@@ -107,3 +107,6 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

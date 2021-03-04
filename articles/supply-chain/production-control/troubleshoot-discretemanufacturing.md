@@ -142,3 +142,6 @@ Ekki er hægt að skrá villumagn í framleiðslupöntun nema einnig sé skráð
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Get ég rakið raðnúmer fullunninna vara á móti raðnúmerum notaðra vara?
 
 Ekki er hægt að rekja raðnúmer fullunninna vara á móti raðnúmerum efnis sem framleiðslupöntun notar til að gera þessar fullunnu vörur. Þessar aðstæður er ekki studdar eins og er. Verið er að búa til framleiðslupantanir fyrir magnið 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

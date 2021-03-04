@@ -78,3 +78,6 @@ Aðgangur að uppskriftarhönnuði með því að nota þjónustuhlutatengsl
 
 Ef þjónustupantanir eru stofnaðar sjálfkrafa fyrir þjónustusamning verða þjónustuhlutatengslin í samningnum einnig stofnuð í þjónustupöntunum.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

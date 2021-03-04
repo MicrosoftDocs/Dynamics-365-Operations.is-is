@@ -303,3 +303,6 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     ![Gröf kostnaðarsamanburðar](./media/subcontract35_cost-comparison-charts.png)
 
 Vantar uppsetningu í gögnum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

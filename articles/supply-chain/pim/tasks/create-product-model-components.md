@@ -38,3 +38,6 @@ Afbrigðalíkönum afurðar sem byggir á skorðum nota íhluti sem grunneininga
 7. Sláið inn gildi í reitnum „Lýsing“.
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

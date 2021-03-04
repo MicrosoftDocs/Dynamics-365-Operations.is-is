@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (**satt**) eða falið (**ósatt**).     |
 | showNavPane      | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
 | defaultFilters   | Sjálfgefna síur fyrir Power BI skýrslu.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

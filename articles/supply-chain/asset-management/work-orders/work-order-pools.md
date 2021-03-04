@@ -109,3 +109,6 @@ Eins og lýst er í kaflanum hér á undan, geturðu bætt verkbeiðnum við ver
 
 Til að fjarlægja valda vinnupöntun úr verkbeiðnasafni skaltu endurtaka þessi skref en velja **Fjarlægja** í þrepi 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

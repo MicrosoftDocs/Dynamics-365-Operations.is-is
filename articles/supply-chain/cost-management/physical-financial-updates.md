@@ -74,3 +74,6 @@ Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Útreik
 -   Birgðabækur með neikvæðu magni, svo sem hreyfing, hagnaður/tap, talningabækur, uppskriftir og flutningur
 
 Færslur sem minnka magn eru bókaðar á hlaupandi meðaltal kostnaðarverðs. Þannig að birgðalokunarferlið þarf til að jafna úthreyfingarfærslur á innhreyfingarfærslur í samræmi við birgðalíkan sem tengt er við hverja vöru.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

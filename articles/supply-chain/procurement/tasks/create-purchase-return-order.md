@@ -68,3 +68,6 @@ ms.locfileid: "4430685"
 4. Í reitinn **Innhreyfingarskjal afurða** skal slá inn gildi. Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.  
 5. Smellt er á **OK**. Vörurnar hafa nú verið skráð sem sendar á vöruskilapöntun innkaupa, og búið er að stofna færslubók fyrir innhreyfingarskjal afurða. Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið eða skilað, og hvenær.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

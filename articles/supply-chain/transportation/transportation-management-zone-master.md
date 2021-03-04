@@ -36,3 +36,6 @@ Með flutningsstjórnun geturðu skipt landfræðilegum stöðum niður í svæ�
 - **Fínstilla leiðaráætlun** – Með því að úthluta tilteknum leiðaáætlunum á tiltekin svæði.
 
 Svæði eru skilgreind út frá gildum í lýsingarreit (svo sem landi, póstnúmeri, eða flutningsþjónustu) sem hæfa hverju svæði. Svæðaskilgreiningar eru ekki nauðsynlegar ef flutningsverð eru ekki með svæðahugtak.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

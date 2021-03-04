@@ -101,3 +101,6 @@ ms.locfileid: "4430133"
 11. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
     * Staðfestið að tilboð hafa verið stofnaðar fyrir alla viðskiptavini sem eru tilgreind í fjöldauppfærslu, sem byggist á völdu sniðmáti.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

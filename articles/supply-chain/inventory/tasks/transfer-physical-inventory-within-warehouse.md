@@ -59,3 +59,6 @@ ms.locfileid: "4430586"
 1. Smelltu á **Birgðir**.
 2. Smelltu á **Færslur**. Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

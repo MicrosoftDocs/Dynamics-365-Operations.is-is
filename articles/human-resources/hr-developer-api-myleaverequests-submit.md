@@ -108,3 +108,5 @@ Sem hluti af símtalinu til að senda inn API, framkvæmir Human Resources lögg
 
 - [Yfirlit MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Sannvottun](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

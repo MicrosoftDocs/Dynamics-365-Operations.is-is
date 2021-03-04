@@ -95,3 +95,6 @@ Gagnagrunnurinn gerir ráð fyrir að gögn í **Dagsetningum og tíma** sem eru
 
 [Dagsetningar- og tímagögn](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Valin tímabelti notanda](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

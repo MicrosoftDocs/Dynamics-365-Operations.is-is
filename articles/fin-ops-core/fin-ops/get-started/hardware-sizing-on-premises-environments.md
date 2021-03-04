@@ -141,3 +141,6 @@ Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og
 ## <a name="virtualization-and-oversubscription"></a>Sýndaruppsetning og ofáskrift
 
 Mikilvæg þjónusta eins og AOS ætti að vera hýst á sýndarhýslum sem hafa sérstök tilföng til þess – kjarna, minni og disk.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

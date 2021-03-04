@@ -56,3 +56,6 @@ Færibreytur Commerce eru venjulega í skyndiminni. Þess vegna getur þetta tek
 
 - [Virkni sölustaðar án nettengingar](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Aðgerðir sölustaðar (POS) með og án nettengingar](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

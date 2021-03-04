@@ -90,3 +90,6 @@ Fylgið eftirfarandi skrefum til að breyta og endurskoða pöntunarfærslur í 
 [Stofna Excel-vinnubók til að breyta smásölufærslum](create-excel-edit.md)
 
 [Bæta svæðum við Excel-vinnubók til að breyta smásölufærslum](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

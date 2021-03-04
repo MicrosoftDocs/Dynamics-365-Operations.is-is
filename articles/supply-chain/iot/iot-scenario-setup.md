@@ -143,3 +143,6 @@ Til að gera aðstæður óvirkar skal fylgja eftirfarandi skrefum.
 2. Á svæðinu fyrir aðstæðurnar skal velja **Skilgreina**.
 3. Veljið **Næst** til að fara á síðustu leiðsagnarsíðuna.
 4. Stillið valkostinn til að slökkva á aðstæðunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

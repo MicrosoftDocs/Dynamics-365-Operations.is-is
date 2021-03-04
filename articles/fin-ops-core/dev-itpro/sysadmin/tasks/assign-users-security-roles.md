@@ -57,3 +57,6 @@ Stjórnandi þarf einnig að fjarlægja notendur sem er úthlutað handvirkt á 
 2. Í trénu skal velja hlutverk og í valmyndinni **Notendur sem úthlutað er á hlutverk** skal velja **Úthluta / útiloka notendum handvirkt**.
 4. Í **Úthluta eða útiloka notendum frá hlutverki** eru notendur sem hafa ekki fengið hlutverkið birtir þar sem **Úthlutunarstillingu** er stillt á **Ekkert**. Velja einn eða fleiri notendur sem á að úthluta hlutverkinu.
 5. Á **Aðgerðarsvæði** skal velja **Úthluta hlutverki**. **Úthlutunarstilling** er uppfærð í **Handvirkt** og notendur hafa nú nýtt hlutverk.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

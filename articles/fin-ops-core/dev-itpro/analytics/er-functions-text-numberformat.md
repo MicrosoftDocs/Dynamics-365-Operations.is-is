@@ -77,3 +77,6 @@ Fyrir menninguna **EN-US** skilar `NUMBERFORMAT (0.45, "p")` **"45,00 %"** og `N
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Textavirkni](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

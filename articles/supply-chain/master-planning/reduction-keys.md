@@ -227,3 +227,6 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit aðaláætlana](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

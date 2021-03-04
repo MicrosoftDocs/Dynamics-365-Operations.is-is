@@ -159,3 +159,6 @@ Hægt er að skoða starfskrafta sem eru skráðir í valda fríðindaáætlun.
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
 2. Veldu **sveigjanlegar útgjaldaáætlanir**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

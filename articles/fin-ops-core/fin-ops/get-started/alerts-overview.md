@@ -88,3 +88,6 @@ Myndskeiðið [Hvernig á að nota viðvaranir til að fylgjast með síuðum g�
 Myndskeiðið [Valkostir viðvaranareglu](https://youtu.be/cpzimwOjicM) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

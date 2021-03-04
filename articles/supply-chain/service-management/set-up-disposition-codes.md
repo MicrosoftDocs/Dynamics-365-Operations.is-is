@@ -57,3 +57,6 @@ Einnig er hægt að setja upp ástæðukóta til að aðstoða við að útskýr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

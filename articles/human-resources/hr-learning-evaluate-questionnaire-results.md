@@ -72,3 +72,5 @@ Hægt er að nota talnagögn spurningalista til að greina niðurstöður svara�
 -   Velja eða staðfesta skilyrði til að greina niðurstöður eftir svaranda eða einkennum spurningalista. Til dæmis með því að velja **póstnúmer**, er hægt að greina samræmi milli staðsetningar svaranda og rétt svör.
 
 Stillingarnar sem eru skilgreindar eru vistaðar og er hægt að nota þær til þess að endurreikna niðurstöður reglulega.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

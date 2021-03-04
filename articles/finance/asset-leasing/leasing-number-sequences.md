@@ -36,3 +36,6 @@ ms.locfileid: "4444587"
 3. Veljið **Númeraraðir** á hliðarstikunni.
 4. Velja númeraröð fyrir tilvísun **Leigukenni**. Þessi númeraröð verður notuð til að mynda einkvæmt kenni fyrir hvern leigusamning fyrir sig.
 5. Velja númeraröð fyrir tilvísun **Vinnslukennis**. Þessi númeraröð verður notuð til að mynda einkvæmt kenni fyrir hvert endurmatsferli vísitölu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

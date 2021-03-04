@@ -37,3 +37,6 @@ Hægt er að nota nýju sniðseininguna **HRÁTT XML** til að hanna snið rafr�
 > Hafa skal í huga að ramminn stjórnar því ekki hvort XML-efnið sem er sett á myndaða skjalið með því að nota sniðið **HRÁTT XML** sé rétt.
 
 Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeiningarnar **Nota hrá XML-gögn rafrænnar skýrslugerðar til að búa til XML-skýrslur (hluti 1: Hanna gagnalíkan)** og **Rafræn skýrslugerð notar hrá XML-gögn til að búa til XML-skýrslur (hluti 2: Hanna og keyra skýrslu)** sem eru hluti af viðskiptaferlinu **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþáttum (10677)** og sem hægt er að hlaða niður frá [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að grunnstilla snið rafrænnar skýrslugerðar til að setja hrá XML-gögn inn í myndaðar skrár.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

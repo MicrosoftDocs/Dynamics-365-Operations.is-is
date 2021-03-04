@@ -99,3 +99,6 @@ Til að tilkynna stöðvun á vinnslu skal fylgja ferlinu sem lýst er í  [Ti
  ## <a name="see-also"></a>Sjá einnig
 
  [Undirbúa keyrslu](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

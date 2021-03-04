@@ -52,3 +52,6 @@ Onboard mun sjálfkrafa senda nýliða tölvupóst sem gefur til kynna hverjar b
     ![[Ýtir breytingum á innleiðingarsniðmáti til allra kynninga sem voru búnar til úr því](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Breytingarnar verða sýnilegar nýliðum sem opna þjálfunarleiðbeiningarnar. Hins vegar mun Onboard ekki senda tölvupóststilkynningar til nýliða til að láta þá vita að þjálfunarleiðbeiningarnar hafi breyst. Til að auðvelda auðkenningu birist rautt **Nýtt**-merki við hliðina á hverri breytingu. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

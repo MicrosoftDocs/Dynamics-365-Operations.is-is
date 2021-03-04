@@ -58,3 +58,6 @@ Skýrslan **Listi yfir viðhaldsbeiðnir** sýnir lista yfir allar viðhaldsbei�
 Eftirfarandi mynd sýnir dæmi um skýrsluna **Listi yfir viðhaldsbeiðnir** fyrir allar virkar viðhaldsbeiðnir.
 
 ![Listaskýrsla yfir viðhaldsbeiðnir](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

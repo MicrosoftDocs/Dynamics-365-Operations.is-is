@@ -54,3 +54,6 @@ Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhluta
     - **Halda eftir**: Stilla runuvinnsluna sem **halda eftir** svo að henni er haldið eftir í verkraðara runuvinnslu. Jafngildir *stöðva*.
     - **Bið**: Stilla runuvinnsluna sem **bið** svo að hún bíður þess að verkraðari runuvinnslu taki hana til. Jafngildir *ræsa*.
 5. Smellt er á **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

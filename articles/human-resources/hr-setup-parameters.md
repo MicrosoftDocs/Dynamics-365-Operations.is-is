@@ -50,3 +50,6 @@ Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð ti
 
 > [!NOTE]
 > Fjölda stunda sem er unnið má ekki fara yfir 1,250 og lengd ráðningar má ekki fara yfir 12 mánuði. Þessi hámarksgildi eru samkvæmt alríkislögum í Bandaríkjunum. Að lokum, stillingar á í **sjálfsafgreiðslu Starfsmanns** flipanum ákvarða upplýsingar sem stjórnandi getur fært inn fyrir hönd starfsmanns hans eða hennar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

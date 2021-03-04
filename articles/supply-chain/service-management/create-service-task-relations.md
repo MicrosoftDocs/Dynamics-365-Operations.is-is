@@ -75,3 +75,6 @@ Endurtakið þetta ferli þar til búið er að stofna öll nauðsynleg þjónus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en 
 ### <a name="tables-currency-field"></a>töflur: Gjaldmiðilsreitur
 
 Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsreiti takmarkast við fjóra.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

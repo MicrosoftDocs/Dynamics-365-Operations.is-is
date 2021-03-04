@@ -64,3 +64,6 @@ Eftirfarandi tafla gefur yfirlit yfir hugtök sem þú ættir að þekkja þegar
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Sérstilla yfirlit svæðis](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

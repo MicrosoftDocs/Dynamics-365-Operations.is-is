@@ -281,3 +281,6 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 6. Í reitnum **Bankareikningur** skal velja **DEMF OPER**.
 7. Í svarglugganum **Búa til greiðslur** skal velja **Í lagi**.
 8. Í **Svargluggi rafrænna skýrslufæribreyta** velurðu **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

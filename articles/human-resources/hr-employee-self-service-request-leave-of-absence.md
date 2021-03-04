@@ -53,3 +53,6 @@ Hægt er að senda inn beiðni um fjarvist og sjá stöðu leyfisbeiðna í Dyna
 ## <a name="see-also"></a>Sjá einnig
 
 [Fresta leyfi](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

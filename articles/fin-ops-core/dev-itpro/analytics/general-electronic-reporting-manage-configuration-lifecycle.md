@@ -87,3 +87,6 @@ Skilgreiningar rafrænar skýrslugerðar sem eru hannaðar í þróunarumhverfi 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -854,3 +854,6 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
     - Flytja pantanir og hráefni tína
 
 - Reglugerð um gámasamstæðu fyrir pökkun með tilskipunareiningunni hefur takmarkanir. Fyrir pöntunarbundna fyrirvara mælum við með að þú notir ekki sniðmát fyrir gámagerð þar sem **Pakkning eftir tilskipunareining** reiturinn er virkur. Í núverandi hönnun eru staðsetningartilskipanir ekki notaðar þegar vörugeymsla er búin til. Þess vegna er aðeins lægsta einingin í einingaröðarhópnum (birgðaeiningin) beitt á gámabylgjuskrefinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

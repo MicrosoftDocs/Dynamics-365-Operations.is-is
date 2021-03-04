@@ -148,3 +148,6 @@ Einnig þarf að hlaða niður og vista staðbundið afrit af sniðinu með sýn
 49. Smellið á „Vista“.
 50. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

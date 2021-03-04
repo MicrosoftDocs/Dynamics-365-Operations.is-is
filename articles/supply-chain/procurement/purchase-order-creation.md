@@ -96,3 +96,6 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

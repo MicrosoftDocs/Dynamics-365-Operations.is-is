@@ -43,3 +43,6 @@ ms.locfileid: "4430165"
 1. Smelltu á **Opna** í Microsoft Office.
 2. Smelltu á **Breyta eftirspurnarspá** í Excel. Í Excel, hægt að bæta við, eyða og breyta spárlínum eftirspurnar. Ef ekki er hægt að sjá gögnin í Excel, þarf að skrá sig inn með "Halda mér undirrituð" valkosturinn virk og þarf að treysta forritið tengingu gögn.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

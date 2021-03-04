@@ -47,3 +47,6 @@ Til að stofna flutningsaðferð fyrir flytjanda, skal fylgja þessum skrefum:
 1. Veldu **Nýtt** til að stofna nýja flutningsaðferð.
 1. Færið inn einkvæmt kenni og lýsandi heiti fyrir flutningsaðferðina.
 1. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

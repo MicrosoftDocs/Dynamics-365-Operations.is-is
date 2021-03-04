@@ -132,3 +132,6 @@ Hægt er að eyða virkri staðsetningu með tengdum undirstöðum ef engar eign
 
 >[!NOTE]
 >Ef þú getur ekki eytt virkri staðsetningu geturðu í staðinn séð um eyðingu með því að setja upp líftímastöðu virkrar staðsetningar í þessum tilgangi. Til dæmis er hægt að setja upp „rusl“ eða „eytt“, sem ætti ekki að vera virkt stig, í forminu **Líftímastöður virkra staðsetninga**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

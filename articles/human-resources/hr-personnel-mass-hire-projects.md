@@ -82,3 +82,6 @@ ráðningarverk getur verið með eftirfarandi stöður:
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

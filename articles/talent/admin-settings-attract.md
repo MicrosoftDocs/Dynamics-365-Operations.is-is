@@ -69,3 +69,6 @@ Tvö verkflæði samþykktar eru í boði: **Samhliða** og **Í röð**.
 Þú getur einnig stillt og framfylgt lokadag fyrir tilboð. Ef þú setur **Krefjast lokadagsetningar fyrir öll tilboð** valkostur á **Já**, tilboð falla út eftir fjölda klukkustunda eða daga sem þú tilgreinir.
 
 Nánari upplýsingar um tilboðsstjórnun er að finna í [Setja upp tilboðsstjórnun](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

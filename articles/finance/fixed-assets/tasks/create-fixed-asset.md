@@ -55,3 +55,6 @@ Ef þú hefur ekki skilgreint eignanúmerið í sniðmáti Excel-innbótarinnar,
 
 > [!WARNING]
 > Eignafærslu er ekki eytt ef færslur voru bókaðar í tengdu bókinni eða ef nýstofnaða eignin er færð inn í færslubókarlínu en ekki bókuð. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem get
     - Veldu til að hlaða upp mynd **Hlaða upp nýrri mynd**.
     - Til að fjarlægja mynd, veldu myndina og veldu síðan **Fjarlægja**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

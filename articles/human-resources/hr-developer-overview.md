@@ -62,3 +62,6 @@ ms.locfileid: "4528318"
 - [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
 - [Leiðbeiningar stjórnanda](hr-admin-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

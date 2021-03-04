@@ -64,3 +64,6 @@ ms.locfileid: "4430042"
     * Þetta stofnar tvö kanbön.  
     * Athugið að 2 kanbön, fyrir hver 5, voru stofnuð fyrir þessa kanban-reglu afturköllun.  Þetta er síðasta skrefið í þessu ferli.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Síðan **Yfirlit eignaeiginda** sýnir sérstaka línu fyrir hverja eign. Lína
 3. Veljið **Í lagi**. Listi sýnir allar eignir sem nota valda eignategund. Fyrir hverja eign eru allar tengdar gerðir eignaeiginda sýndar á sömu línu.
 
 Síðan **Eignaeigind** sýnir sérstaka línu fyrir hverja eigindategund sem er notuð á eign. Til að opna þessa síðu velurðu **Eignastýring** \> **Fyrirspurnir** \> **Eignir** \> **Eignaeigind**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

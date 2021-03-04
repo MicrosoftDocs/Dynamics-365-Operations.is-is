@@ -39,3 +39,6 @@ Skjámyndin hér að neðan sýnir dæmi um viðhaldsstarfsmann sem tengist tilf
 
 Ekki er þörf á skipulagi dagatala fyrir verkfæri og eignir í tengslum við tímasetningu verkbeiðni. Forsendan er sú að verkfæri og eignir séu tiltækar allan sólarhringinn til viðhalds.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

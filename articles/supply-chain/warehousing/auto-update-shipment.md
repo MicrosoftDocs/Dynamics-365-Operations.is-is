@@ -140,3 +140,6 @@ Bylgjan er unnin og býr til vinnu fyrir frátekið magn á álagslínunum. Send
 Ef sending hefur stöðuna **Bylgjað** eða hærra endurspeglast uppfærslur á magni á sölupöntunarlínu ekki í eða eru staðfestar gegn álagslínu sem er tengd sendingunni. Breytingar á magni á álagslínu verða að vera gerðar beint á álagslínuna.
 
 Fullgilding er gerð eftir að vinna hefur verið gerð fyrir álagslínuna og gerð frátekning. Lækkun á magni á sölupöntunarlínunni er síðan sannprófuð gegn frátekningu á vinnulínu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

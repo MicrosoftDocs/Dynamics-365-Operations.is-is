@@ -47,3 +47,6 @@ Til að nota sjálfvirka afstemmingu, verður að tilgreina áætlun fyrir afste
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

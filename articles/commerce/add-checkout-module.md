@@ -127,3 +127,6 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

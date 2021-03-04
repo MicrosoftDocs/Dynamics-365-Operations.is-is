@@ -55,3 +55,6 @@ Hægt er að tengja sniðmátsuppskrift við þjónustuhlutatengsl. Svo er hægt
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

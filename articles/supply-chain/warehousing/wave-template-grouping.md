@@ -201,3 +201,6 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
 1. Veljið bylgjukennið sem stofnað var í þriðju sölupöntuninni.
 1. Veljið tengil bylgjukennis til að opna upplýsingasíðu bylgjunnar.
 1. Takið eftir að sendingunni hefur verið bætt við flýtiflipann **Bylgjulínur**, ásamt sendingunni fyrir fyrstu sölupöntunina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

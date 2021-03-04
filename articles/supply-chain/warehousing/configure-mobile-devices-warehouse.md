@@ -439,3 +439,6 @@ Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verksta
 [Birgðastöður](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

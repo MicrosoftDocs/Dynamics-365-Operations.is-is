@@ -157,3 +157,6 @@ Til að prófa, skal framkvæma vörpun sniðs með SampleIncomingMessage.txt-sk
 2. Smellið á „Í lagi“.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að aðeins 3 línur af innfluttri TXT-skrá voru unnar. IBAN-númerið á línu 4 sem er ógilt var sleppt og villuskilaboð eru veitt í Infolog.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessu efnisatriði, um fl
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtæk
     * Velja víddarstakið sem samsvarar hnútinum.  
 59. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

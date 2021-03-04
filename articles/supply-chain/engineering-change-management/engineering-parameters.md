@@ -57,3 +57,6 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk á flipanum **Umsjón hönn
 | Alvarleikaregla | Veldu hvernig á að stofna alvarleika vegna hönnunarbreytingapöntunar. Veldu *Handvirkt* ef búist er við því að gildi sé slegið inn í svæðið **Alvarleiki**. Veldu *Reikna* til að láta kerfið reikna út gildi svæðisins **Alvarleika** þegar þú velur að **Reikna út alvarleika** á aðgerðasvæði hönnunarbreytingapöntunarinnar. Í slíku tilviki notar kerfið alvarleikareglurnar sem eru skilgreindar á síðunni **Stilla alvarleikareglu**. Veldu *Reikna sjálfkrafa* til að gildi svæðisins **Alvarleiki** sé reiknað sjálfkrafa og útfyllt samkvæmt stillingum alvarleikareglu. |
 | Endurútgefa afurðir sem verða fyrir áhrifum | Þetta svæði á við þegar þú losar afurðir aftur með hönnunarbreytingarpöntun. Þú getur valið hvort leggja eigi til allar afurðir eða viðkomandi afurðir í svarglugganum **Losanir**. |
 | Uppskriftarþrep sem á að gefa út | Dýpt BOM-stigsins sem skal sleppa. Þegar fleiri stig eru til staðar í BOM (þ.e. ef uppskriftin er dýpri) en gildið sem er tilgreint hér, verður aðeins losað um stigin samkvæmt tilgreindu gildi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

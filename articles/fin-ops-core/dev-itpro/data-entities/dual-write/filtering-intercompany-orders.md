@@ -65,3 +65,6 @@ Hver stöðluð Common Data Service -eining er útvíkkuð með tilvísunum í s
 7. Eftir að einingin **Tilboð** hefur verið framlengd skaltu nota síu með `CUSTGROUP !=  "<company>"` sem fyrirspurnarstreng.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Sölutilboðshaus, breyta fyrirspurn":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

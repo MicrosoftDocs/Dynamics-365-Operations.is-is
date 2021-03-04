@@ -57,3 +57,6 @@ Valkosturinn **Svarað** er sjálfkrafa fylltur út þegar verkinu er lokið me�
 Verksvæði eruð notuð til að flokka gagnaprófunarverk í röklegt svæði eignarhalds innan fyrirtækisins. Til dæmis gætu Viðskiptaskuldir, Viðskiptakröfur eða Fjárhagur verið notuð sem verksvæði.
 
 **Heiti valmyndaratriðis** er tengt við verkframlag vinnu og hægt er að nota það til að fara beint á tengda síðu af verktengli í vinnusvæðinu. T.d. er hægt að tengja gagnaprófunarverk sem á að keyra skýrslur **Aldursgreiningarramma Viðskiptaskulda** við síðuna **Aldursgreiningarskýrsla Viðskiptaskulda**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

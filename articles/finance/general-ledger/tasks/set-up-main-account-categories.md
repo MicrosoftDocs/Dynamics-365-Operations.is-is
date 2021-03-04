@@ -42,3 +42,6 @@ ms.locfileid: "4444306"
 3. Veldu eða hreinsaðu valkostinn **Tengt** til að velja aðallykla.
 4. Veljið **Í lagi**.
 5. Velja skal **Já**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

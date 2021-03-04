@@ -249,3 +249,6 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 - [Skilgreina snið til að gera talningu og samlagningu](./tasks/er-format-counting-summing-1.md)
 - [Rekja framkvæmd á sniði rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 - [Frestaðu framkvæmd XML-þátta á ER sniði](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

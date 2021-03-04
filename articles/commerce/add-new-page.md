@@ -91,3 +91,6 @@ Fylgdu þessum skrefum til að bæta við nýrri síðu á síðuna þína.
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
 [Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

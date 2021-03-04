@@ -63,3 +63,6 @@ Ef þú slærð inn `SPLIT("abc" , 1)` sem gagnagjafa **DS** skilar segðin `STR
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

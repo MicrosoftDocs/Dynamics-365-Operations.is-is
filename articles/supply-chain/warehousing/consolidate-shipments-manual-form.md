@@ -98,3 +98,5 @@ Fylgdu þessum skrefum til að losa hverja sölupöntun sem þú bjóst til fyri
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

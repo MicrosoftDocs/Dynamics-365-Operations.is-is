@@ -56,3 +56,6 @@ Hægt er að setja inn ástæðukóða og skrifa athugasemd þegar leyfisstaða 
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

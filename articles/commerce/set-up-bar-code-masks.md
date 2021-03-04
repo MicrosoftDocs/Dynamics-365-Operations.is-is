@@ -83,3 +83,6 @@ Sniðmátum fyrir strikamerki verður að úthluta á strikamerki áður en hæg
 5. Smellið á **Vista**.
 
 Nú er hægt að nota sniðmát fyrir strikamerki til að búa til strikamerki fyrir vörur. Skrefin að ofan eru dæmi um hvernig stofna á sniðmát fyrir strikamerki fyrir vörur, en þau sýna einnig hvernig stofna á sniðmát fyrir strikamerki fyrir allar aðrar gerðir studdra strikamerkja. Leiðrétta ætti stafi strikamerkja, gerðir og hámarkslengd fyrir notkun í tilteknum umhverfinu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

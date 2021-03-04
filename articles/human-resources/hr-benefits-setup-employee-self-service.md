@@ -72,3 +72,6 @@ ms.locfileid: "4419074"
    | **Lýkur** | Lokasetning og tími sem reiturinn ætti að vera tiltækur. |
 
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

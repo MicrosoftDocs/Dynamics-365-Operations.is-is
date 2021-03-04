@@ -35,3 +35,6 @@ ms.locfileid: "4685170"
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 4. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

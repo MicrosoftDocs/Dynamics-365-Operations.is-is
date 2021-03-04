@@ -243,3 +243,6 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Skilgreina rafrænan skýrslugerðarramma (ER)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
     - Bæta við fleiri fyrirtæki eftir þörfum.  
     - Til að bæta við fyrirtæki skal smella á **Breyta** og síðan **Setja inn** til að bæta við fyrirtæki. Þegar gerðar eru breytingar er hægt að **Vista** drög og/eða **Birta** breytingarnar.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

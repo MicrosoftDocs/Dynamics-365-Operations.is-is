@@ -41,3 +41,6 @@ Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna
    | **Lýsing** | Lýsing á ástæðukóðanum. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

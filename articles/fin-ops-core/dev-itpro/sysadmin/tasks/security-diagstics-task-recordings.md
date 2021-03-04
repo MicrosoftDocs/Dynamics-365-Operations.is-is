@@ -49,3 +49,6 @@ ms.locfileid: "4679791"
     - Ef **Hlutverk** er valið skal velja **Bæta hlutverkum við notanda**. Þetta mun opna síðuna **Úthluta notendum á hlutverk**. Frekari upplýsingar má finna á síðunni [Úthluta notendum á öryggishlutverk](assign-users-security-roles.md).
     - Ef **Skylda** er valið skal velja **Bæta skyldu við hlutverk**, velja hlutverkin sem bæta á skyldunni við og velja svo **Í lagi**.
     - Ef **Réttindi** eru valin skal velja **Bæta réttindum við skyldur**, velja hlutverk sem bæta á skyldunni við og velja svo **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

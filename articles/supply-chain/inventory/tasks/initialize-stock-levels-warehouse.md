@@ -60,3 +60,6 @@ ms.locfileid: "4430595"
 25. Lokið síðunni.
 26. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

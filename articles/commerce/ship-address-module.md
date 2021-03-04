@@ -72,3 +72,6 @@ Aðeins er hægt að bæta einingu sendingaraðseturs við greiðsluferliseining
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

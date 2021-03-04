@@ -75,3 +75,6 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
     * Fara yfir skipan sniðsins sem er notað til að búa til Intrastat skýrlsuna. Athugið að það er hannað til að búa til XML skrá með því að fylla út í gögn frá gagnalíkaninu, sem er byggt á rótaratriðinu „Fyrir skjöl á útleið“. Staðfesta að heiti skrárinnar sem búin er til sé skilgreint á svargluggaskjámynd notanda („fn“ gagnaveita er notuð til þess).   
 30. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

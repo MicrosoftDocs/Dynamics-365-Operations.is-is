@@ -40,3 +40,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er �
 8. Hreinsa gátreitinn fyrir Staðsetningu.
 9. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4430338"
     * Færið inn lýsingu á skilgreiningu til að lýsa hvað hún inniheldur.  
 11. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Arnie bókar þessa færslubók og fer yfir viðskiptavinafærslur á **viðskip
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

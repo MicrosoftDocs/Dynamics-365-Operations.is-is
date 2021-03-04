@@ -218,3 +218,6 @@ Til að sjá hvaða fjárhagsáætlanir spástaða hefur verið höfð með í e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

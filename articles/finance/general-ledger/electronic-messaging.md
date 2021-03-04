@@ -536,3 +536,6 @@ Nú er annaðhvort hægt að eyða eða uppfæra stöðu skilaboða. Til að upp
 ![Uppfæra stöðu skilaboða](media/update-status.png)
 
 Staða skilaboða er uppfærð í **Undirbúin** og hægt er að búa til skýrsluna með því að velja **Búa til skýrslu**. Skýrslan er búin til og uppfærsla gerð á stöðu skilaboða og aðgerðakladda. Til að skoða myndaða skýrslu skal velja hnappinn **Viðhengi** (bréfaklemmutáknið) efst í hægra horni síðunnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

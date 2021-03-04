@@ -60,3 +60,6 @@ ms.locfileid: "4430602"
 5. Smellt er á **OK**.
 6. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

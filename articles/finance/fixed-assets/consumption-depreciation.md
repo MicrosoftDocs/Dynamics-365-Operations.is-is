@@ -68,3 +68,6 @@ Afskriftatillagan þann 31. Janúar er á eftirfarandi hátt: áætlað magn × 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

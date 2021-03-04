@@ -113,3 +113,6 @@ Eftirfarandi mynd sýnir dæmi um stillingu viðskiptavinr.
 [Yfirlit yfir rásir](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

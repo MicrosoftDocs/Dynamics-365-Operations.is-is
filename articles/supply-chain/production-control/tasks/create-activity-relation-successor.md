@@ -66,3 +66,6 @@ Skilyrði:
 12. Lokið síðunni.
 13. Endurhlaðið síðuna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

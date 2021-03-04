@@ -45,3 +45,6 @@ ms.locfileid: "4413247"
 | Dynamics 365 for Retail - 7.3.2.5 | 7,3,21971,64091 | 2018. júní | [KB 4342134Microsoft Dynamics 365 for Retail - Útgáfa 7.3.2.5 - Villuleiðréttingarpakki 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* Tengillinn vísar í Knowledge Base (KB) grein. Þú verður að skrá þig inn í Lifecycle Services (LCS) til að skoða KB-greinina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

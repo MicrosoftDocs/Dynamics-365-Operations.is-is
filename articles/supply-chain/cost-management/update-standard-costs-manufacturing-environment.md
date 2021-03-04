@@ -48,3 +48,6 @@ Hvert tilfelli krefst ítarlegrar umhugsunar um það hvernig eigi að uppfæra 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

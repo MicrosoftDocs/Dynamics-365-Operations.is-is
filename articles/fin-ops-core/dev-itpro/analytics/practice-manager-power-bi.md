@@ -117,3 +117,6 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
 |---------------------------------|---------------------|-------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

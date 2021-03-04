@@ -70,3 +70,6 @@ Til að nota ákveðna [síðustefnu](electronic-reporting-destinations.md#Selec
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

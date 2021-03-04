@@ -48,3 +48,6 @@ ms.locfileid: "4418961"
     * Einnig er hægt að velja Deild fyrir nýjar stöður.  
 13. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

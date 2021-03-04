@@ -88,3 +88,6 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni  | lýsing  | Snið  |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
 | [Dynamics 365 grundvallaratriði](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Sýndu fram á að þú skilur Microsoft Dynamics 365, Power Platform, hugmyndirnar um skýið, leyfismöguleika, og valkosti uppsetningar og útgáfu. | Próf, kostnaður er breytilegur eftir svæðum |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

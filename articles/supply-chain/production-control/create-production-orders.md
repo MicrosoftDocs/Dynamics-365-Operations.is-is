@@ -45,3 +45,6 @@ Hægt er að stofna framleiðslupöntun við eftirfarandi kringumstæður:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

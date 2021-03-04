@@ -97,3 +97,6 @@ Hnappurinn **Úthlutun á tekjuupphæð** er enn tiltækur til að hægt sé að
 Áætluð tekjuskráningaráætlun er fjarlægð og hennar í stað kemur endanleg tekjuskráningaráætlun. Upplýsingum um tekjuáætlun er haldið við fyrir hverja sölupöntunarlínu og eru þær notaðar til að losa um frestaðar tekjur í rauntekjur þar sem samningsbundnar skuldbindingar eru uppfylltar.
 
 [![Endanleg tekjuskráningaráætlun](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

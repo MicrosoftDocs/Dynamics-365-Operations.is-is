@@ -59,3 +59,6 @@ Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stj�
 27. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
     * Eftir að þú hefur valið Stigveldi víddar fyrir kostnaðarhluta skal útvíkka Stigveldi víddar fyrir kostnaðarhluta til að sjá það kostnaðarvirði sem þú vilt. Þú getur t.d. útvíkkað stigveldið í Framleiðslurekstrarkostnaður til að sjá virðið.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

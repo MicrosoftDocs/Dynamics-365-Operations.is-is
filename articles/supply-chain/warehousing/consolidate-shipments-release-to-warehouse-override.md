@@ -84,3 +84,6 @@ Fylgdu þessum skrefum til að yfirfara sendingar sem voru stofnaðar.
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

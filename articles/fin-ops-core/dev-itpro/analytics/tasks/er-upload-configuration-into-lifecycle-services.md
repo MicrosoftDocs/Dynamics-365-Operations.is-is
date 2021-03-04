@@ -145,3 +145,6 @@ ms.locfileid: "4684164"
     Skilgreining rafrænnar skýrslugerðar sem var hlaðið upp ætti að vera á listanum.
 
     Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verki.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

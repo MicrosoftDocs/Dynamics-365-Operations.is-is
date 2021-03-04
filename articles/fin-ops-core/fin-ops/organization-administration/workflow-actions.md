@@ -141,3 +141,6 @@ Síðan starfar Anna fyrir hönd Friðriks. Þetta þýðir að þegar Anna sam�
 Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $12,000 og þessu skjali hefur verið úthlutað til Súsönnu. Ef Súsanna biður um breytingu er kostnaðarskýrslan send til baka til Samúels.
 
 Samúel getur sent kostnaðarskýrsluna aftur. Hann getur gert umbeðnar breytingar fyrst eða endursent upprunalega útgáfu af kostnaðarskýrslunni. Ef Samúel endursendir kostnaðarskýrsluna þá er hún send til Friðriks til samþykktar, því að Friðrik var fyrsti samþykkjandinn í samþykktarferlinu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

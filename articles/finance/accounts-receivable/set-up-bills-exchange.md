@@ -86,3 +86,6 @@ Greiðsluþóknun er gjald sem er tengt innheimtu greiðslna frá viðskiptavinu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

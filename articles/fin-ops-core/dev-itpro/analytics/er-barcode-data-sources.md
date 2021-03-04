@@ -303,3 +303,6 @@ Eins og lýst er í efnisatriðinu [Mynda prentvæn reikningssnið með frjálsu
 - [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 - [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
 - [Virkni NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

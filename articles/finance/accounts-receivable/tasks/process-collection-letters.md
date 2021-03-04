@@ -88,3 +88,6 @@ Til að hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfak
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Skuldir og innheimta > Uppsetning > Færibreytur viðskiptakrafna** og smelltu á flipann **Innheimtur**. 
 2. Breyta gildinu á **Hunsa greiðslur og kreditreikninga við útreikning á innheimtubréfskóða** í **Já**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

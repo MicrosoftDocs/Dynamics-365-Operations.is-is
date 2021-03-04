@@ -233,3 +233,6 @@ Til að forðast óæskilegar vandamál við síðari jafnanir fyrir þessa fær
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

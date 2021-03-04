@@ -100,3 +100,6 @@ Athugið að mælieining eftirspurnarspár þarf ekki að hafa neina sérstaka m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

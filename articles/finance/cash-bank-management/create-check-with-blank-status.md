@@ -38,3 +38,6 @@ ms.locfileid: "4976454"
 Til að opna síðuna **Ávísanir** skal fara í **Reiðufjár-og bankastjórnun \> Bankareikningar \> Bankareikningar** og síðan, á aðgerðasvæðinu. í flipann **Stjórna greiðslum** í hópnum **Tengdar upplýsingar** og velja **Ávísanir**. Einnig er hægt að fara í **Reiðufjár- og bankastjórnun \> Fyrirspurnir og skýrslur \> Ávísanir**.
 
 Síðan, til að búa til ávísanir með stöðuna **Auð** á aðgerðasvæðinu, skal velja **Stofna auðar ávísanir**. Þegar kerfið er að búa til auðar ávísanir er tengdur bankareikningur gerður óvirkur tímabundið. Þessi virkni dregur úr hættunni á því að greiðslur verði myndaðar á sama tíma og auðar ávísanir eru stofnaðar. Þegar vinnslunni er lokið er tengdur bankareikningur endurvirkjaður.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

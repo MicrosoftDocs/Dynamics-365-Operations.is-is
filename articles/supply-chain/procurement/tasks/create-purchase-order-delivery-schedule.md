@@ -74,3 +74,6 @@ Hægt er að breyta magni í afhendingarlínum. Ef þetta er gert er viðskiptal
 6. Fella saman hlutann **Línur**.
 7. Veldu **Í lagi** til að bóka kvittunina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

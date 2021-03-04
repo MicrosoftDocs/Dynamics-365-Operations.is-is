@@ -43,3 +43,6 @@ Notendur geta einnig skoðað söluhegðun og sölumynstur yfir hverja klukkustu
 - **Verslunarstjórnun** vinnusvæði &gt; **Retail and Commerce** &gt; **Rásir** &gt; **Verslunarstjórnun** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
 - **Fjárhagur verslunar** vinnusvæði &gt; **Retail and Commerce** &gt; **Rásir** &gt; **Fjárhagur verslunar** &gt; **Skýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
 - **Fyrirspurnir og skýrslur** hlutinn &gt; **Retail og Commerce** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um rásarsölu eftir klukkustundum**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

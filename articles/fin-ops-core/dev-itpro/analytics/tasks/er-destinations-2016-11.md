@@ -60,3 +60,6 @@ Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú g
 21. Í reitinn Efni skal slá inn gildi.
 22. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

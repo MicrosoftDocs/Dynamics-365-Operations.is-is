@@ -49,3 +49,6 @@ Tímalínan er uppfærð í hvert skipti sem síðan er opnuð. Það inniheldur
 - Verkbeiðnir, þ.mt bókaðir hlutir og seðlar
 - Bilanir
 - Ástandsmat
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

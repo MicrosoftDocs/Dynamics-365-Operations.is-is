@@ -193,3 +193,6 @@ Einnig er hægt að nota tekjuskráningu fyrir sölupantanir sem eru stofnaðar 
 
 - **Frestaðar tekjur reiknings** (undir **Tekjulyklar**) – Færa skal inn aðallykil fyrir tekjuupphæðina sem bókar frestaðar tekjur (í stað tekna). Tekjuupphæð er frestað ef sölupöntunarlína er með tekjuáætlun.
 - **Frestaður kostnaður** (undir **Kostnaðarlyklar**) – Færið inn aðallykil fyrir kostnað seldra vara sem bókar frestaðan kostnað seldra vara ef tekjum er einnig frestað.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

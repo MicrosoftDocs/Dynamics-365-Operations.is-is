@@ -69,3 +69,6 @@ Til að setja upp valmyndaratriði fartækis til að birta yfirlit yfir tiltekta
     - Notið eftirstandandi reitina **Upplýsingasvæði** til að bæta við allt að sjö upplýsingasvæðum til viðbótar eftir þörfum. Í reitnum **Upplýsingasvæði** skal velja heiti vinnulínureits. Hver lína sýnir svo gildi fyrir þann reit. Gildin verða sýnd í pöntuninni sem er valin hér. Hægt er að skilja nokkra af reitunum **Upplýsingasvæði** eftir auða ef ekki reynist þörf á öllum sjö gildunum.
 
 1. Á aðgerðasvæðinu skal velja **Vista** og síðan loka síðunni **Reitalisti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

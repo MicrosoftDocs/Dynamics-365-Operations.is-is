@@ -53,3 +53,6 @@ Ef stöðu framleiðslupöntunar er bakfærð er pöntunin sjálf og allar aðge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

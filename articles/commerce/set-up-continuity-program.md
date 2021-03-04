@@ -50,3 +50,6 @@ Eftir að þú hefur sett upp samfelluforrit eins og lýst er hér að ofan, get
 - **Útvíkka samfelldnilínur (Ef þarf)** - Lengja fjölda skipta sem hægt er að endurtaka samfelldnitilvik. Endurtekning sendinga er síðan hægt að útvíkka umfram mörk sem voru sett í reitinn **Viðmiðunarmörk á endurtekinni samfelldni** í færibreytum símavers.
 - **Framkvæma samfelldniuppfærslu** (ef þarf) - Samstilltu breytingar milli samfelldniáætlunarinnar og samfelldni yfirsölupöntunar.
 - **Loka samfelldnisyfirlínum og -pöntunum** - Loka pöntunum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

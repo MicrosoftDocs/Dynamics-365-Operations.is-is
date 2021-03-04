@@ -80,3 +80,6 @@ Til að ógilda heimild fyrir kreditkort, er hægt að breyta greiðsluhætti í
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

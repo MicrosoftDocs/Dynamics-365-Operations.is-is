@@ -44,3 +44,6 @@ Notaðu **Eyða skilapöntun** skjámyndina til að eyða mörgum skilapöntunum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

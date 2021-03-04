@@ -59,3 +59,6 @@ Lánshlutir eru færslur sem aðstoða við að rekja efnislegu vörurnar, eins 
 14. Smellið á „Í lagi“.
 15. Endurhlaðið síðuna.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

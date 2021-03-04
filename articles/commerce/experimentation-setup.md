@@ -54,3 +54,6 @@ Til að setja upp árangursmælingar skaltu fylgja þessum skrefum.
 
 ## <a name="next-step"></a>Næsta skref
 [Tengja og breyta tilraun](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

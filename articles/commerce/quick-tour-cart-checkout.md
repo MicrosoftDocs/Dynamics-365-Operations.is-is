@@ -107,3 +107,6 @@ Nánari upplýsingar um hvernig á að skrifa greiðsluferlissíðu er að finna
 [Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

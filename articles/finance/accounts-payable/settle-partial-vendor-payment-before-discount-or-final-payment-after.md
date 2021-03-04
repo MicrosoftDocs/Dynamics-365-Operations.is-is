@@ -122,3 +122,6 @@ Arnie bókar síðan greiðsluna. Þegar hún opnar síðuna **lánardrottnafær
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

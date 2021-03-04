@@ -83,3 +83,6 @@ Ef fyrsta niðurstöðugildið og *N*-ta niðurstöðugildið eru gildi af gagna
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Rökvirkni](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

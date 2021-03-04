@@ -75,3 +75,6 @@ Skilgreiningunni er deilt með ytra fyrirtækinu og er aðgengileg fyrir það f
 ![Skilgreiningu deilt með ytra fyrirtæki](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Til að stöðva samnýtingu skilgreiningar sem áður hefur verið deilt með ytra fyrirtæki skal velja skilgreininguna og smella á **Stöðva samnýtingu** og velja síðan **Í lagi**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

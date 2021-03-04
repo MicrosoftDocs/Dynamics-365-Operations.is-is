@@ -40,3 +40,6 @@ ms.locfileid: "4430410"
 6. Skoða kostnaðarsamanburð
 7. Smellið á „Loka“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

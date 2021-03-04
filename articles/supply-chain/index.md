@@ -106,3 +106,6 @@ Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun 
 ## <a name="elearning-courses"></a>Rafræn námskeið
 
 Netnámskeið og þjálfun má finna í [Dynamics 365 Supply Chain Management á Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

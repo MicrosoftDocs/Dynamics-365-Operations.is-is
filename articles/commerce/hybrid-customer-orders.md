@@ -41,3 +41,6 @@ Ef körfulína er valin og **Taka til er valið**, **Senda er valið**, eða **F
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Pantanir viðskiptavinar í Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

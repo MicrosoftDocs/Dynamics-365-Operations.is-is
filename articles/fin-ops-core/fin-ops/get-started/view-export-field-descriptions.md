@@ -107,3 +107,6 @@ Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Lei
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Sérstilla lýsingar á reit](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

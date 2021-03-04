@@ -139,3 +139,6 @@ Við munum eyða stofnuðum grunnstillingum úr kerfinu og hlaða þeim aftur ni
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í forritinu. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
     * Ef þú skráir þig inn í Finance and Operations, skráir sömu veitu, færð aðgang að sama LCS verkinu, og hleður niður sömu grunnstillingum fyrir gagnalíkan, mun „Sýnivörpun (valmöguleiki)“ grunnstillingar hlaðast niður, en „Sýnivörpun“ grunnstillingar verður sleppt.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Niðurstöðurnar eru ólíkar miðað við tiltækar upplýsingar þegar vinnan
 [![Dæmi 2](media/ReplenTemp_example_2.png "Dæmi 2")](media/ReplenTemp_example_2_large.png)
 
 Þar af leiðandi til að fá hámarksmagn á áfyllingarstaðsetningar, skal stilla valkostinn **Leyfa að skipta** á *Já* á staðsetningarleiðbeiningum fyrir áfyllingu tiltektar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

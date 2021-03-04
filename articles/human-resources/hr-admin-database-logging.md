@@ -87,3 +87,6 @@ Til að setja upp hreinsun gagnagrunnskladda skal fylgja þessum skrefum:
    - Tími og dagsetning stofnunar
 
 3. Notið flipann **Hreinsun gagnagrunnskladda** til að ákveða hvenær keyra á hreinsunarverk kladdans. Gagnagrunnskladdar eru í boði í 30 daga að sjálfgefnu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

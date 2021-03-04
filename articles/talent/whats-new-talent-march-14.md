@@ -71,3 +71,6 @@ Common Data Service-einingarnar samstillast nú rétt þegar þær eru uppfærð
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Afrita athugun starfsmanns: Viðmót breytist
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Tvítekin skjámynd opnast ekki sjálfkrafa, til að koma í veg fyrir truflandi gagnafærslu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

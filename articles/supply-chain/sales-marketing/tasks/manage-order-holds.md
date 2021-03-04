@@ -70,3 +70,6 @@ Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
     - Aðgerðin **Hreinsa og senda** á aðeins við þegar aðgerðin Símaver er notað.  
 8. Smelltu á **Hreinsa biðstöðu**. Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður. Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

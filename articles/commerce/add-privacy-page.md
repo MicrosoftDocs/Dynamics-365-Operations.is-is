@@ -109,3 +109,6 @@ Nú er hægt að vísa í brotið í sniðmátinu fyrir aðrar vefsíður. Þega
 [Reglufylgni köku](cookie-compliance.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

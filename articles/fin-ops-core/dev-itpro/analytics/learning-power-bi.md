@@ -62,3 +62,6 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslurnar í **Learning** Pow
 | Staða         | Staða, titill og jafngildi fulls starfs (FTE)                  | Dagskrá námskeiðs, þáttakendur námskeiðs |
 | Nafn starfsmanns    | Fornafn, eftirnafn, og fullt nafn                             | Þátttakendur námskeiðs |
 | Titill starfsmanns   | Titill og starfsaldursdagsetning                                         | Þátttakendur námskeiðs |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

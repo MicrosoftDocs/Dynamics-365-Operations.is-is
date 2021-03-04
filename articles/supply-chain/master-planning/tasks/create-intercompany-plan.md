@@ -54,3 +54,6 @@ ms.locfileid: "4430193"
 2. Í listanum skal smella á tengilinn í valinni línu. Smelltu á tengil StaticPlan. Þú þarft að vera í fyrirtæki USMF.  
 3. Smelltu á **Tillögur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Sumar formúlurnar er ekki hægt að prófa á hönnunartíma. Til dæmis gæti 
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

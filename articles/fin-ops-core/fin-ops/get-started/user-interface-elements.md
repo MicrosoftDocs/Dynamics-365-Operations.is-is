@@ -86,3 +86,6 @@ Eftirfarandi mynd sýnir dæmi um þessar tegundir tilkynninga.
 *Listi* er nafnið gefið safn gagna sem þú getur flett í gegnum. Þú getur fært þessar færslur inn á síðuna með því að velja þær. Oft mun þetta opna hnitanet.
 
 ![Eftirfarandi mynd sýnir dæmi um tækjastika, töflur og lista.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

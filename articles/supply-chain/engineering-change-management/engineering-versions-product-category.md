@@ -162,3 +162,6 @@ Hönnunaruppskriftir og leiðir eru stofnaðar í hönnunarútgáfunni þar sem 
 Fyrir afurðir þar sem notuð er afurðarvíddin *útgáfa* (ásamt vörustjórnunaráhrifum á færslurnar), er útgáfunni einnig bætt við uppskriftir og leiðir. Þessi hegðun hjálpar til við að aðgreina uppskriftir og leiðir samfelldra útgáfa, burtséð frá stillingunni **Framfylgja virkni**.
 
 Fyrir afurðir þar sem ekki er notuð afurðarvíddin *útgáfa* (án vörustjórnunaráhrifa á færslurnar), er útgáfunni ekki bætt við uppskriftir og leiðir. Þess vegna verður enginn munur á uppskriftunum og leiðunum í samfelldum útgáfum. Í þessu tilfelli mælum við með því að valkosturinn **Framfylgja virkni** verði stilltur á *Já*. Á þennan hátt er hægt að koma í veg fyrir að hönnunarútgáfur skarist og einnig er hægt að virkja uppskrift og leið nýrrar útgáfu án þess að þurfa fyrsta að gera uppskriftina og leiðina óvirka í fyrri útgáfu. Ef valkosturinn **Framfylgja virkni** er stilltur á *Já* í þessu tilfelli, þarf fyrst að gera uppskriftir og leiðir í eldri útgáfum óvirkar handvirkt áður en hægt er virkja nýjustu útgáfuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

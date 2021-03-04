@@ -44,3 +44,6 @@ Forstillingar fyrir áætlun vinnutíma eru notaðir til að flokka tímabil vin
 3. Í reitinn Gildi skal slá inn gildi.
 4. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

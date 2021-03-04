@@ -40,3 +40,6 @@ Við bætt Flýti flytja inn Flytja Út eiginleikann til að láta notendur innf
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

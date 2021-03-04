@@ -56,3 +56,6 @@ Hlutverk þetta leiðbeiningar fyrir verk er Gjaldkera. Þetta verkefni notar US
 16. Lokið síðunni.
 17. Smellið á flipann Fyrirframdagsettar ávísanir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

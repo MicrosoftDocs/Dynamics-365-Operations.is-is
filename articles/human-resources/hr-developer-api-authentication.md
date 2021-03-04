@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Þegar þú hefur sótt aðgangsmerki muntu fara framhjá tákninu í heimildarhausnum sem handhafatákn með hverri beiðni sem þú sendir til gagna API eins og lýst er hér að ofan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

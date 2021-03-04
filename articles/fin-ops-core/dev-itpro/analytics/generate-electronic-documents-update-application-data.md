@@ -40,3 +40,6 @@ Til að fá frekari upplýsingar um þessa aðgerð skaltu spila verkefnaleiðbe
 - [Stilling á gagnalíkani í rafrænni skýrslugerð: Intrastat (líkan)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Stilling líkansvörpunar í rafrænni skýrslugerð: Intrastat (vörpun)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Sniðsskilgreining í rafrænni skýrslugerð: Intrastat (snið)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

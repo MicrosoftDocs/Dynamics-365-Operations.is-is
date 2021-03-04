@@ -91,3 +91,6 @@ Ef færibreytan **model.RoundOff** er stillt á **RoundOffType.RoundUp** skilar 
 [Other (lénsértæk virkni fyrir viðskipti)](er-functions-category-other.md)
 
 [Reikniaðgerðir](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

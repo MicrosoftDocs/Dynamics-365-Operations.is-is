@@ -42,3 +42,5 @@ Fyrir hvert fyrirtæki sem býður upp á fríðindi verður að skilgreina stil
    | **Sjálfgefið netfang sendanda** | Netfangið sem á að nota þegar staðfestingarpóstur er sendur. |
 
 3. Veljið **Vista**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

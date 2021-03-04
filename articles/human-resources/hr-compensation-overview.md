@@ -132,3 +132,6 @@ Vinnslutilvik reiknar út launaupplýsingar fyrir tilgreint tímabil handa öllu
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

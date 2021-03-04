@@ -99,3 +99,6 @@ Hægt er að nota flipann **Hnekkja** gildum fyrir starfsmanninn. Til dæmis, ef
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

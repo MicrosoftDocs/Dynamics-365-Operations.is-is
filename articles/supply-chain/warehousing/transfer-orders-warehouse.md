@@ -53,3 +53,6 @@ Nota má vöruhúsastig til að búa til þrepun sem styður pantanir á milli v
 2. Í reitnum **Viðtökustaður** skal velja **vöruhús**.
 3. Veljið **Sendingarvöruhús**, **Viðtökuvöruhús** og **Flutningsdagar**. 
 4. (Valfrjálst) Einnig er hægt að stilla flutningstíma, fer allt eftir flutningsmáta, undir flipanum **Flutningsdagar eftir flutningsmáta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

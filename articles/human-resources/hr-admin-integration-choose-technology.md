@@ -144,3 +144,6 @@ Með svo mörgum mismunandi aðlögunartækni sem til eru, getur það verið yf
 <sup>2</sup>Microsoft fjárfestir mikið í að auka gagnaumfjöllun fyrir einingar Common Data Service. Við mælum með að nota Common Data Service þegar umfjöllun er fyrir hendi. Sem stendur Common Data Service gagnaþekja er lítil samanborið við DMF og OData-virkar einingar.
 
 <sup>3</sup>Hægt er að nálgast SQL gagnagrunn með forritun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

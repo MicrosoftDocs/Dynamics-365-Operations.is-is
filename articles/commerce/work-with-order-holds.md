@@ -103,3 +103,6 @@ Ef notendur vilja hreinsa bið en gera frekari breytingar á pöntuninni áður 
 ## <a name="reporting-options"></a>Valkostir tilkynninga
 
 Fara í **Retail og Commerce** \> **Fyrirspurnir og skýrslur** \> **Símaversskýrslur** \> **Pantanir í bið skýrslur** til að keyra skýrslu um pantanir í bið eftir tímabili, biðkóða eða öðrum tengdum viðmiðunum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Kostnaðardreifingarreglur eru notaðar til að dreifa kostnaði sem hefur veri�
 5. Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.
 6. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

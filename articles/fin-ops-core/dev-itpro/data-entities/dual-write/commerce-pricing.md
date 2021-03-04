@@ -53,3 +53,6 @@ Dynamics 365 Commerce -Verðlagningarvélin styður flestar aðstæður smásöl
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Viðfang til sjóðstreymis í tvískiptingu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

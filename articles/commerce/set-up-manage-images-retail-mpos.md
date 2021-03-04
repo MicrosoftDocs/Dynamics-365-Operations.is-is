@@ -209,3 +209,6 @@ myndir Vörulista, tegund, starfsmanni og viðskiptavinarins sem verður notaðu
 5. Fylgja svipuð ferli fyrir aðrar einingar eins og Tegunda, Starfsmanna og Viðskiptavina.
 
     [![Mynd án nettengingar](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

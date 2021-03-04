@@ -60,3 +60,6 @@ Gangið úr skugga um að svæðið viðskiptavinalykill innihaldi númer viðsk
     * Það eru tvær línuafsláttarsamninga fyrir afurða T0012, sem tilgreina 5 prósent afslátt í fyrir pöntunarmagn línu frá 1 til 10, og 7 prósent afsláttur fyrir magn yfir 10. Athugaðu að afslættir gilda um hóp afurða, í þessu dæmi, flokkskóði 01 sem afurðin T0012 tilheyrir.  
 4. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -932,3 +932,6 @@ Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum:
 - Ferill bylgjumerkis
 
 Fyrir flestar af þessum síðum er hægt að finna viðeigandi virkni með því að velja **Bylgjumerki** í flokknum **Tengdar upplýsingar** í flipanum **Sendingar** á aðgerðasvæðinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

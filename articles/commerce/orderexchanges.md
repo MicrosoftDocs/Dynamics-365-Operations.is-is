@@ -50,3 +50,6 @@ Til að bjóða upp á aukinn sýnileika á hinum ýmsu upphæðum fyrir körfun
 - **Innborgun notuð** – Upphæð innborgunar sem er notuð í færslu þegar notandi velur að pöntun viðskiptavinar verði sótt. Ef engin hnekking innborgunar er til staðar, og 10% innborgun er skilgreind, er upphæðin í þessum reit 90% af heildarupphæð pöntunar viðskiptavinar.
 - **Taka með upphæð** – Heildarupphæð fyrir línur þar sem afhendingarmátinn var stilltur á **Taka með** þegar pöntun viðskiptavinar var stofnuð eða breytt, eða við skipti á pöntun viðskiptavinar. Upphæðin í þessum reit inniheldur skatta og gjöld.
 - **Upphæð skila** – Heildarfjöldi lína sem eru með neikvætt magn við skipti á pöntun viðskiptavinar. Upphæðin í þessum reit inniheldur skatta og gjöld.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Til að stofna lista með sérvöldum afurðatillögum skal fylgja þessum skref
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

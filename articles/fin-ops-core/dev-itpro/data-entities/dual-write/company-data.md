@@ -102,3 +102,6 @@ Til að nota síun sem byggir á samhengi fyrirtækisins í sérsniðnum skjámy
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Nota samhengi fyrirtækis":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

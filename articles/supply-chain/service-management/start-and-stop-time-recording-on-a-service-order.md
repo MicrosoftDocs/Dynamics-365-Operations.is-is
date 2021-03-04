@@ -65,3 +65,6 @@ Notið þetta ferli til að hefja og stöðva tímaskráningu fyrir þjónustup�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

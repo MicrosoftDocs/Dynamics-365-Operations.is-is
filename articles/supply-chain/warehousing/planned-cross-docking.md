@@ -316,3 +316,6 @@ Sem stendur hafa bæði vinnuauðkennin sömu marknúmeraplötu. Til að ljúka 
 Eftirfarandi skýringarmynd sýnir hvernig vinna við dreifingu frá dreifingarstöð gæti birst í Microsoft Dynamics 365 Supply Chain Management.
 
 ![Vinnu við dreifingu frá dreifingarstöð er lokið](media/PlannedCrossDockingWork.png "Vinnu við dreifingu frá dreifingarstöð er lokið")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

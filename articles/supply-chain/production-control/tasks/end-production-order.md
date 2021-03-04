@@ -46,3 +46,6 @@ ms.locfileid: "4430032"
 1. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
 2. Skoða kostnaðarsamanburð
     * Þegar framleiðslupöntuninni er lokið er hægt að bera saman áætlað kostnaðarverð við raunkostnaðarverð til að fá yfirlit yfir frávik í framleiðslu.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

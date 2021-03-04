@@ -43,3 +43,6 @@ Losunarfærslan fyrir eign í lágvirðishópi minnkar bókað nettóvirði lág
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

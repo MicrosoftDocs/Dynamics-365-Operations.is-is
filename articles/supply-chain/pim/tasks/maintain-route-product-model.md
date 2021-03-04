@@ -67,3 +67,6 @@ Keyra þetta ferli krefst að afbrigðalíkan afurðar sé til staðar. Þetta f
 15. Sláið inn eða veldu gildi í reitnum kröfur.
 16. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

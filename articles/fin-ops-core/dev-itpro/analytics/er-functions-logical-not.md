@@ -55,3 +55,6 @@ Gild skilyrt segð sem verður að snúa við.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Rökvirkni](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

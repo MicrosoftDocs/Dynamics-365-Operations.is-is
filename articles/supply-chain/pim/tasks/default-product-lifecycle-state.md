@@ -62,3 +62,6 @@ ms.locfileid: "4430323"
 > [!NOTE]
 > Gerum ráð fyrir að þú hafir sett upp virka stöðu, þú getur nú valið þessa virku stöðu til að heimila að afurðin sé notuð í aðaláætlanagerð og útreikningi á uppskriftastigi. Augljóslega er þetta aðeins skynsamlegt ef allar upplýsingar um afurð sem krafist er fyrir samræmda áætlanagerð eru tilgreindar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Notandi mun keyra tilbúna líkanavörpun í prófunarskyni til að sjá hvernig
     * Veljið Fletta og veljið Response4.xml skrá.
 16. Veljið Í lagi.
     * Fara yfir myndað úttak. Kennsl hafa verið borin á svargerðina og hún er jöfn og Response1.xml skrá.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

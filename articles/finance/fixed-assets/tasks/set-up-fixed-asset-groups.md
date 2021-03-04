@@ -39,3 +39,6 @@ ms.locfileid: "4444233"
 8. Veljið valkost í reitnum **Afskriftarregla**.
 9. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

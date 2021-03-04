@@ -50,3 +50,6 @@ Fylgdu þessum skrefum til að hanna og skilgreina einingarnar samhliða greinar
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir stofnun verkflæðis](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

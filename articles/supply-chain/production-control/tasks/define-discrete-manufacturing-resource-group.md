@@ -58,3 +58,6 @@ tilfangaflokk er safn rekstrartilföng sem samsvara yfirleitt efnislegt fyrirtæ
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 7. Í listanum skal smella á tengilinn í valinni línu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

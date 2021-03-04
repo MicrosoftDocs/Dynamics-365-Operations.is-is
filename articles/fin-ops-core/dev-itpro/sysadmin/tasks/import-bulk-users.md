@@ -58,3 +58,6 @@ Eftir að innflutningi er lokið þarf að úthluta hlutverkum á notendur.
 ## <a name="run-in-a-sandbox-environment"></a>Keyrsla í sandkassaumhverfi
 1. Veljið **Runuinnflutningur**.
 2. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

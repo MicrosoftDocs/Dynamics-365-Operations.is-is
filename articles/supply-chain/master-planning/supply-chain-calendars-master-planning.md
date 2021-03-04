@@ -143,3 +143,6 @@ Varðandi dagatal þekjuflokks er mikilvægt að hafa í huga að það býr yfi
 
 ### <a name="updating-scm-related-calendars"></a>Uppfærsla á SCM tengdum dagatölum
 Mikilvægt er að öllum viðeigandi dagatölum sé úthlutað á viðeigandi staði (lánardrottinn, viðskiptavinur, vöruhús, flutningsmáti eða þekjuflokkur), en að sama skapi er mikilvægt að uppfæra þau svo þau endurspegli breytingarnar. Kerfið mun skilgreina dagsetningar framleiðslu, flutnings, innkaupa og sölupöntunar, háð samsetningu úthlutaðra dagatala. Bestu starfsvenjur eru að fá úr því skorið hver beri ábyrgð á úthlutun og uppfærslu dagatalanna á svæðunum sem við eiga. Í tilfelli bilunar eða annarra óvenjulegra breytinga á vinnudögum er nauðsynlegt að uppfæra dagatölin í samræmi við það. Öll verk sem eru háð dagatölum, t.d. aðaláætlanagerð og framleiðsluröðun, verða að vera keyrð aftur þegar dagatöl eru uppfærð. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

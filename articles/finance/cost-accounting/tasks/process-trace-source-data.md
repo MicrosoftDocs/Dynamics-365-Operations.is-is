@@ -45,3 +45,6 @@ ms.locfileid: "4444512"
     * Í þessu dæmi, velja Fjárhags 2017 Tímabil 9.  
 14. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

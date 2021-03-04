@@ -67,3 +67,6 @@ Nú er hægt að úthluta hleðsluáætlanir fyrir hleðslusniðmát. Einnig er 
 1. Yfirfara tillögur að hleðslum og tillögur að farmlínum.
 1. Á aðgerðasvæðinu skal velja **Stofna hleðslur** til að stofna hleðslur sem byggja á upprunaskjalslínum í flýtiflipanum **Fyrirhugaðar farmlínur**.
 1. Lokið síðunni **Hlaða sniðmáti hleðslu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

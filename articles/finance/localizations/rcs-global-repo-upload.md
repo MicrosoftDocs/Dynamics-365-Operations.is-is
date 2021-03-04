@@ -98,3 +98,6 @@ Skilgreiningarútgáfunni er eytt og staðfestingarboð eru sýnd.
 > [!NOTE]
 > Aðeins er hægt að eyða skilgreiningum af skilgreiningarveitunni sem stofnaði þær. Ef skilgreiningunni hefur verið deilt með öðru fyrirtæki verður að stöðva samnýtingu hennar áður en henni er eytt.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4444412"
 17. Í listanum skal smella á tengilinn í valinni línu.
 18. Smelltu á **bóka.** Eign verður stofnuð og keypt þegar reikningur er bókaður.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

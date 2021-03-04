@@ -60,3 +60,5 @@ Til að hlaða niður sniðmátinu **Power Automate - SQL Connect og framkvæmd*
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

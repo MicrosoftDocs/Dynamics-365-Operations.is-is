@@ -89,3 +89,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [Setja upp rás símavers](channel-setup-callcenter.md)
 
 [Setja upp stigveldi fyrirtækis](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

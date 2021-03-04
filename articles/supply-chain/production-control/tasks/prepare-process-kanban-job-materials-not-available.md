@@ -52,3 +52,6 @@ ms.locfileid: "4430030"
 6. Smellt er á Undirbúa.
     * Athugið að tákn í vinnslustöðu tilgreinir vinnslan er nú tilbúið.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

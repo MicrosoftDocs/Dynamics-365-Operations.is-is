@@ -55,3 +55,6 @@ Nokkrum skrefum verður að vera lokið þegar þú vilt skipuleggja og keyra vi
 
 > [!NOTE]
 > Almennt þegar þú vinnur í Dynamics 365 Supply Chain Management og einingunni **Eignastýring** velurðu **Nýtt** til að búa til nýja skrá, velur **Breyta** til að uppfæra fyrirliggjandi skrá og þú velur **Vista** til að vista ný eða breytt gögn.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

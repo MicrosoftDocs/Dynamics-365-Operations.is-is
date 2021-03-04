@@ -37,3 +37,6 @@ ms.locfileid: "4430181"
 5. Smellt er á Útflutning vörulíkans.
     * Niðurhalshegðun er breytileg frá vafra til vafra allt eftir því hvernig öryggisstillingar eru sett upp.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

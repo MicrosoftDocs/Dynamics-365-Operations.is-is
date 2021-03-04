@@ -54,3 +54,6 @@ ms.locfileid: "4430008"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Þjónustubil](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

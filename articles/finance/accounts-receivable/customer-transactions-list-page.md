@@ -97,3 +97,6 @@ Hver reitur hefur mismunandi áhrif á færsluna þegar þú breytir honum:
 - **Breyta skilmálum staðgreiðsluafsláttar** - Staðgreiðsluafsláttum er breytt samkvæmt grunndagsetningu og skilmálum staðgreiðsluafsláttar.
 
 Þegar þú hefur lokið við breytingar á greiðslustillingum skaltu velja **Loka** til að vista breytingarnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ glugginn Tengt fylgiskjal sýnir fylgiskjal úr mótfyrirtæki þegar samstæðu
 3. Í listanum skal merkja valda línu.
 4. Smellt er á Fylgiskjalið.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

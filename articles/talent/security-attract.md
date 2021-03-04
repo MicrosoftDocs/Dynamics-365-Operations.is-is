@@ -157,3 +157,6 @@ Umsækjendur eru fólk sem hefur verið bætt við hæfileikasafn en eru ekki te
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Forstillingar - upplýsingar um umsækjanda | Búðu til, lestu, uppfærðu og eyða | Búðu til, lestu, uppfærðu og eyða | Enginn aðgangur   |
 | Skjöl                   | Búðu til, lestu, uppfærðu og eyða | Búðu til, lestu, uppfærðu og eyða | Enginn aðgangur   |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

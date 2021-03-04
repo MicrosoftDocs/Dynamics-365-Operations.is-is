@@ -90,3 +90,6 @@ Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir ú
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Innkaupasamningar](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

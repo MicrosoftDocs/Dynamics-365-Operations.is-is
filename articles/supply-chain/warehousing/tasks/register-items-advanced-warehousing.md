@@ -76,3 +76,6 @@ Skráðu niður númer innkaupapöntunarinnar sem er stofnuð og athugaðu einni
     * Eftir að smellt hefur verið í lagi, athuga skilaboðastikunni. Það ættu að vera skilaboð sem segja að aðgerðinni sé lokið.  
 5. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

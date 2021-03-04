@@ -68,3 +68,6 @@ Ef þú ætlar að vinna margar pantanir í einu getur samhliða keyrsla bætt k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

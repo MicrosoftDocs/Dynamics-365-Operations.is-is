@@ -47,3 +47,6 @@ Hér eru fylgiskjöl fyrir launin:
 - Vinnsla:
 
     - [Launaútreikningur](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

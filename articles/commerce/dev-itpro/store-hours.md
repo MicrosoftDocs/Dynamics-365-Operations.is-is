@@ -78,3 +78,6 @@ Fylgdu þessum skrefum til að bæta afgreiðslutíma við prentuðu POS kvittan
 Kvittanir á sölustað innihalda nú afgreiðslutímann. Ef einhverjir frídagar voru með í sniðmátinu eru þeir sýndir á kvittuninni.
 
 ![Kvittunardæmi](../dev-itpro/media/Storehours3.png "Kvittunardæmi")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

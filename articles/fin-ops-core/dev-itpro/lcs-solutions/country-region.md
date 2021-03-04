@@ -133,3 +133,6 @@ Frekari upplýsingar eru í [Hjálparkerfi](../../fin-ops/get-started/help-overv
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

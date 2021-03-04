@@ -153,3 +153,6 @@ Upplýsingarnar á þessum flipa eru tengduarr afhendingu annarrar línu sem val
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

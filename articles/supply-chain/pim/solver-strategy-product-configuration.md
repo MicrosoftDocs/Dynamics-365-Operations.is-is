@@ -73,3 +73,6 @@ Eins og er, er ekkert sem sjálfkrafa greinir hvaða leysisstefna muni vera skil
 [Leiðsagnarreglur](https://techterms.com/definition/heuristic)
 
 [Vandamál uppfylltra skilyrði](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

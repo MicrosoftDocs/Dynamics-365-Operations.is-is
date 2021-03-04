@@ -86,3 +86,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 7.  Veldu **Viðhengi** til að skoða athugasemdir eða skrár sem tengjast reikningnum.
 8.  Á síðunni **Reikningsupplýsingar** velurðu viðeigandi verkflæðisaðgerð til að ljúka við endurskoðunarferli þitt.
 9.  Velja **Ekkert**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

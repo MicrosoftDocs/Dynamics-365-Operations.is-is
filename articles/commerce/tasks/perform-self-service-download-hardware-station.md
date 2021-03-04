@@ -37,3 +37,6 @@ ms.locfileid: "4413196"
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 6. Smellt er á Niðurhal.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

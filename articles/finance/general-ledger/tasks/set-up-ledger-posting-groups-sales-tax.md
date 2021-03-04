@@ -42,3 +42,6 @@ VSK er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbó
 11. Í reitnum **Afsláttur viðskiptavinar** velurðu aðallykil til að bóka staðgreiðsluafslátt fyrir **Vsk-kóða** sem tengjast þessum **fjárhagsbókunarflokki**. Þetta er valfrjálst og ef enginn lykill er færður inn verður aðallykill á **kóðum staðgreiðsluafsláttar** notaður. Það getur verið gagnlegt að nota mismunandi lykla eftir **Fjárhagsbókunarflokki** ef notaður er bakfærður vsk á valkost staðgreiðsluafsláttar á **Vsk-flokka**.  
 12. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

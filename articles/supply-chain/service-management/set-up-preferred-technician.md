@@ -68,3 +68,6 @@ Hægt er að velja hvaða starfsmann sem æskilegan tæknimann fyrir þjónustus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

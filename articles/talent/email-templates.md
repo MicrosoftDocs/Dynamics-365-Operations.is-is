@@ -81,3 +81,6 @@ Eftir að sniðmát er búið til fyrir tiltekna tegund af tölvupósti skaltu v
 
 > [!NOTE] 
 > Fyrir tölvupósta sem eru sendir sjálfkrafa er hægt að búa til mörg sniðmát. Hins vegar er aðeins hægt að velja eitt sniðmát sem virkt sniðmát. Vegna þess að þetta ferli kviknar af tilvikum getur aðeins stjórnandi ákveðið hvaða sniðmát ætti að nota, byggt á samsetningunni **Sjálfgefið** og **Sent sjálfkrafa** merkin í sniðmátasafninu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

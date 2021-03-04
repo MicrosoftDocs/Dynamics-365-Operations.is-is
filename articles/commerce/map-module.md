@@ -82,3 +82,6 @@ Til þess að kortaeining geti unnið með Bing-korti, þarf að ganga úr skugg
 [Stjórna Bing-kortum fyrir þitt fyrirtæki](./dev-itpro/manage-bing-maps.md)
 
 [Bing-kort V8 Vefstýringar](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

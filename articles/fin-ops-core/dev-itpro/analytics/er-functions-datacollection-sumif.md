@@ -67,3 +67,6 @@ Frekari upplýsingar og dæmi um notkun þessarar aðgerðar er að finna í [Ke
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Gagnasöfnunaraðgerðir](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

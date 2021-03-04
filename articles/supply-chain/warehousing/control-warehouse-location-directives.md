@@ -77,3 +77,6 @@ Staðsetningarleiðbeiningar ákvarða *hvar* vörur eru teknar til og *hvar* á
 
 - Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Hjálparefni: [Búa til staðsetningarleiðbeiningar](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

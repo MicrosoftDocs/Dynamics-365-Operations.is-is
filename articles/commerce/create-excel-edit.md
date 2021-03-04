@@ -78,3 +78,6 @@ Fylgið eftirfarandi skrefum til að stofna Excel-vinnubók til að hægt sé a�
 [Breyta fjárhagsvíddum fyrir smásölufærslur](edit-financial-dim.md)
 
 [Bæta svæðum við Excel-vinnubók til að breyta smásölufærslum](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

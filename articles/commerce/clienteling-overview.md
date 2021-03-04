@@ -124,3 +124,6 @@ Fylgdu þessum skrefum til að setja samþættinguna upp.
     4. Þú getur haft mörg umhverfi í Customer Insights, svo sem prófunar- og framleiðsluumhverfi. Í reitinn **Tilvikskenni umhverfis** slærðu inn viðeigandi umhverfi.
     5. Í reitinn **Kenni annars viðskiptavinar** slærðu inn eiginleikann í Customer Insights sem er varpað á reikningsnúmer viðskiptavinarins. (Í Commerce er lykilnúmer viðskiptavinar kenni viðskiptavinarins.)
     6. Eiginleikarnir þrír sem eftir eru eru ráðstafanirnar sem verða sýndar á viðskiptavinaspjaldinu í viðskiptavinabókinni. Þú getur valið allt að þrjár ráðstafanir til að sýna á viðskiptavinaspjaldinu. (Hins vegar þarftu ekki að velja neinar ráðstafanir.) Eins og áður sagði sýnir kerfið þessi gildi fyrst og síðan sýnir það gildi fyrir eigindahóp viðskiptavinarbókarinnar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

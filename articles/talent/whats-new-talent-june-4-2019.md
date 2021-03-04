@@ -98,3 +98,6 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 ### <a name="print-performance-reviews"></a>Prenta árangursumsagnir
 
 Starfsmenn, stjórnendur og HR munu geta prentað út afkastarýni starfsmanns.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

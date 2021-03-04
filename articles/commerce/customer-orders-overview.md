@@ -170,3 +170,6 @@ Hægt er að stofna pantanir viðskiptavina á sölustað í annaðhvort samstil
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Blandaðar pantanir viðskiptavinar](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

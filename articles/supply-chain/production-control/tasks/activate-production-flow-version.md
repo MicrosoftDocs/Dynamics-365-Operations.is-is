@@ -41,3 +41,6 @@ ms.locfileid: "4430068"
 5. Smellið á Virkja.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

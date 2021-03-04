@@ -53,3 +53,6 @@ Stöðurnar verða annaðhvort uppfærðar sjálfkrafa eða fara í gegnum samþ
 
 [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
 [Stjórna reglum fyrir kaup og sölu á leyfisdögum](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

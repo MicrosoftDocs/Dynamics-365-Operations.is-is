@@ -206,3 +206,6 @@ Farið yfir kóðann í `BankImport_RU` -klasanum fyrir `Application Suite` -lí
 
 [Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

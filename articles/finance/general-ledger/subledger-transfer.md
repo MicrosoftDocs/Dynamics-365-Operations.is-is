@@ -42,3 +42,6 @@ Eftirfarandi valkostir eru tiltækir til að flytja hópi á hærri stærð.
 Í útgáfu 10.0.8 voru gerðar úrbætur til að auka afköst ósamstillts valkosts. Þessi aðgerð er gerð virk undir nafni eiginleikans **Flutningur undirliða yfir í hagræðingu almenns fjárhags**. 
  
 Þessi virkni bætir flutning gagna frá stórhýsinu yfir í aðalbókina. Það gerir ferlið kleift að vera skilvirkara og það flokka saman smærri viðskipti til að flytja. Þetta gerir kleift að nýta hópþjónninn á skilvirkari hátt. Þessi virkni krefst þess að runuþjónninn sé sett upp, nettengdur og sé í gangi til að valkosturinn Ósamstilltur flutningur virki. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

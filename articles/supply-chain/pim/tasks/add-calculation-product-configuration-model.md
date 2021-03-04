@@ -39,3 +39,6 @@ ms.locfileid: "4430348"
 4. Smellið á „Loka“.
 5. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

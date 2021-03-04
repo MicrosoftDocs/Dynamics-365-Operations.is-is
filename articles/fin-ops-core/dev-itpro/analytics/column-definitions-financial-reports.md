@@ -599,3 +599,6 @@ Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til 
 [Línuskilgreiningar í fjárhagsskýrsluhönnuði](row-definitions-financial-reporting.md)
 
 [Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

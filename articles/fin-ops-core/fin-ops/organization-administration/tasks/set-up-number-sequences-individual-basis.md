@@ -40,3 +40,6 @@ ms.locfileid: "4694716"
 8. Víkkaðu út hlutann **Almennt**. Á almennt flýtiflipanum skal tilgreina hvort númeraröðin sé handvirk, og samfelld eða ósamfelld. Auk þess eru færðir inn lægstir og hæstir tölustafir sem hægt er að nota í númeraröðinni. Við mælum ekki með því að breyta ósamfelldri númeraröð í samfellda númeraröð. Númeraröðin verður ekki sannlega samfelld. Þessi breyting getur líka valdið broti á tvítekningarlykli í gagnagrunninum. Að auki er hafa samfelldar númeraraðir meiri áhrif á afköst.   
 9. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

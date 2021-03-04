@@ -280,3 +280,6 @@ Núna hefur þú bundið þætti gagnalíkansins við atriði gagnagjafa sem er 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 Að öðrum kosti getur þú spilað verkleiðbeiningarnar **Undirbúa lýsigögn forrits sem hægt er að nota í RCS** í forritinu ásamt **Fá aðgang að lýsigögnum forrits með því að nota ER-stillingu** og **Fá aðgang að lýsigögnum forrits með því að nota tengd forrit** í RCS. Hægt er að sækja þessar verkleiðbeiningar af síðunni [Verkleiðbeiningar fyrir rafræna skýrslugerð Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

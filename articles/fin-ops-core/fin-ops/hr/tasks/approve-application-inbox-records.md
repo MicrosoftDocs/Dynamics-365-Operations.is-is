@@ -48,3 +48,6 @@ ms.locfileid: "4693460"
 2. Í listanum skal smella á tengilinn í valinni línu.
 3. Stækka Viðhengi hluti.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

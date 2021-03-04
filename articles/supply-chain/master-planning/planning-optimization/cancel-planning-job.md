@@ -60,3 +60,6 @@ Vinnslustaðan verður **Hættir við** þar til fínstillingarþjónusta áætl
 [Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
 
 [Nota síur á áætlun](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Birgðir sem ekki hafa verið fráteknar verða fráteknar við myndun tiltektar
 Um leið og allar tiltektarlínur hafa verið teknar til á síðunni **Skráning tiltektarlista** er tengdri afhendingu lokið. Hægt er að hefja ferli fyrir fylgiseðla sölupantana með hliðsjón af völdum birgðum.
 
 [![Uppfæra sendingar á útleið](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

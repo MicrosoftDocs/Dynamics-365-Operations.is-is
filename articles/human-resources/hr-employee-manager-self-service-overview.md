@@ -214,3 +214,5 @@ Stjórnendur geta séð öll markmið fyrir lið sitt í gegnum reitinn **Frammi
 Flipinn **Umsagnir** dregur saman umsagnir sem starfsmaðurinn hefur í hverri stöðu: **Í vinnslu**, **Tilbúið til skoðunar** og **Lokaumsögn**. Til að fá aðgang að umsögn starfsmanns skaltu velja **Upplýsingar** og veldu síðan umsagnir til að vinna saman. Byggt á því hvar endurskoðun er innan verkflæðisferilsins geturðu séð hvort endurskoðunin er tiltæk til uppfærslu. 
 
 Þú getur séð allar umsagnir fyrir hópinn þinn í gegnum reitinn **Umsagnir um frammistöðu hóps** í hlutann **Samantekt** í **Hópurinn minn**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

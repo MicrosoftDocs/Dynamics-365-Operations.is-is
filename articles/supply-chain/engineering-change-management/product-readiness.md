@@ -148,3 +148,6 @@ Stillið eftirfarandi reiti fyrir hverja línu sem er bætt við.
 | Spurningalisti | Veljið spurningalistann sem á að nota fyrir gátlistann. Gátlistinn er staðbundinn gátlisti innan fyrirtækisins þar sem undirbúningsathugun er framkvæmd. Kerfið þarf að geta metið hvort gátlistanum hafi verið svarað rétt. Þess vegna þarf að setja upp gátlistann þannig að mat sé framkvæmt út frá réttum svörum. Frekari upplýsingar um hvernig á að stofna spurningalista er að finna í [Nota spurningalista](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) og tengdum efnisatriðum þess. |
 | Sjálfvirkt samþykki | Færslur undirbúningsathugunar fela í sér gátreitinn **Samþykkt** sem tilgreinir samþykktarstöðuna. Veljið gátreitinn **Sjálfvirkt samþykki** fyrir athuganir sem á að stilla á samþykktar um leið og úthlutaður notandi lýkur þeim. Hreinsið þennan gátreit til að krefjast beins samþykkis sem viðbótarskrefs. |
 | Skylda | Veljið þennan gátreit fyrir athuganir sem notandi sem fékk hana úthlutaða verður að ljúka. Ekki er hægt að sleppa áskyldum athugunum. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

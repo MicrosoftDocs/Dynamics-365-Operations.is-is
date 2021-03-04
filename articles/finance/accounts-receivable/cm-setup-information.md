@@ -153,3 +153,6 @@ Fylgdu þessum skrefum til að bæta við línum sem tákna lánamörk sem verð
 2. Veldu samanburðarstjórann sem skilgreinir hvernig meta skal upplýsingar um stigahópinn.
 3. Sláðu inn gildi sem ber að bera saman við gildi sem er tilgreint fyrir stigahópinn.
 4. Sláðu inn lánsfjárhæðina sem ætti að vera úthlutað ef viðskiptavinaupplýsingin samsvarar gildinu sem er tilgreint fyrir stigahópinn. Til dæmis stofnarðu sjálfvirka lánamörk fyrir stigahópinn **Lágt**. Ef árin í viðskiptum eru einn af stigahópunum geturðu skilgreint eina línu sem úthlutar 100.000 lánamörkum ef viðskiptavinurinn hefur verið í viðskiptum í fimm ár og önnur lína sem úthlutar 200.000 kreditmörkum ef viðskiptavinurinn hefur verið í viðskiptum í 10 ár.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

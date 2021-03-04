@@ -98,3 +98,6 @@ Staða reiknings er nú 0.00. April getur skoðað upplýsingar á síðunni **v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Innborgun á greiðslum viðskiptavina. Þetta verkefni notar USMF-sýnifyrirtæ
 17. Veljið **Í lagi**. Fyrsta síða er notuð til að stofna innborgunarseðil.  
 18. Veljið **Í lagi**. Önnur skrefið er að prenta innborgunarseðil en þetta skref er ekki nauðsynlegt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -246,3 +246,6 @@ Hægt er að skoða innsendingarkladda fyrir öll send skjöl.
 - [Yfirlit innbótar rafrænna reikninga](e-invoicing-service-overview.md)
 - [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
 - [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

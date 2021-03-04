@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Nánari upplýsingar um hvernig á að prenta merkingar
 
 Nánari upplýsingar um hvernig á að setja upp og prenta merkimiða, sjá [Virkja prentun merkis á númeraplötu](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

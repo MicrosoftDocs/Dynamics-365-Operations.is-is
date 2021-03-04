@@ -64,3 +64,6 @@ Fylgdu þessum skrefum til að kveikja á þessum eiginleika fyrir alla lögaði
 Hnappurinn **Nýtt skjal** er notaður til að búa til og breyta sniðmáti á ER-sniði sem annar veitandi veitir. Í þessu dæmi er veitan Microsoft. Þegar þú velur **Nýtt skjal** geturðu skoðað öll sniðmát sem eru í eigu núverandi og annarra veitenda. Eftir að þú velur sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
 Fyrir frekari upplýsingar, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

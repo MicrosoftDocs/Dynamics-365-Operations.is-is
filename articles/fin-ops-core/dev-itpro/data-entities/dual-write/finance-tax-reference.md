@@ -37,3 +37,6 @@ Fjárhags- og skattagögn eru samþætt með eftirfarandi vörpunum:
 
 + [Samþættur fjárhagur](ledger-mapping.md)
 + [Samþætt aðalgögn skatta](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

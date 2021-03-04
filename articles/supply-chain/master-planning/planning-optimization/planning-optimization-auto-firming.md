@@ -67,3 +67,6 @@ Hægt er að nota bæði fínstillingu skipulagningar og áætlunarvélina sem e
 - Sjálfvirk staðfesting er byggð á þarfadagsetningu (lokadegi).
 - Til að hjálpa til við að tryggja að pantanir séu staðfestar á réttum tíma verða tímamörk staðfestingar að vera lengri en afhendingartíminn.
 - Ef þú vilt staðfesta allar pantanir sem verða að byrja í þessari viku, verða tímamörk staðfestingar að vera afhendingartíminn plús ein vika.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

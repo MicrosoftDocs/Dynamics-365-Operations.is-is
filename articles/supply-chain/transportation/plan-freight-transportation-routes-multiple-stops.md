@@ -53,3 +53,6 @@ Hleðsluáætlun vinnusvæði notar aðsetur viðskiptavinar og afhendingardagse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

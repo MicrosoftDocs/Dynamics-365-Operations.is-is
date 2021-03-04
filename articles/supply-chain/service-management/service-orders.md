@@ -89,3 +89,6 @@ Ein af hinum þjónustupöntununum sem voru búnar til fyrir janúarmánuð ver�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

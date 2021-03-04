@@ -97,3 +97,6 @@ Eins og lýst var í hlutanum „Búa til uppsetningarlínur fyrir eignategund�
 
 Til að sjá hvort varahlutur á valinni línu eru notaðir annars staðar í eignastýringu (til dæmis í sambandi við eignir og vinnupantanir), veldu varahlutalínuna og veldu síðan **Hlutur þar sem hann er notaður** til að opna **Hlutur þar sem hann er notaður** síðu. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

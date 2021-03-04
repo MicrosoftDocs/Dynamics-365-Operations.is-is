@@ -131,3 +131,6 @@ Nýi Azure AD B2C-leigjandinn ætti nú að birtast á listanum undir **Stjórna
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

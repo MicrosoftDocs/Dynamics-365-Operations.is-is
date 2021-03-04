@@ -57,3 +57,6 @@ Vegna þess að reikningur fyrir skilavöru er fyrir neikvæðri upphæð er han
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

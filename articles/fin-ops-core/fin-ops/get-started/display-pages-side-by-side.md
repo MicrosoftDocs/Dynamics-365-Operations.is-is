@@ -48,3 +48,6 @@ Sumar síður eru með mörgum yfirlitum eins og hnitanetsyfirlit, hausyfirlit o
 **Opna í nýjum glugga** eiginleiki er aðeins tiltækur þegar fleiri en einn síða er opna í glugganum. Einnig sprettiglugga sjálfkrafa lokast þegar engar frekari síður eru opnar (þar er, þegar síðustu síðuna í glugganum er lokað). Kerfið lokar einnig opnum síðum þegar farið er í mismunandi svæði í forritinu. Þess vegna ef sprettuglugga eru opnir og farið er í annað svæði í forritinu, er sprettuglugga sjálfkrafa lokað því síðurnar í þeim gluggum var lokað af kerfinu.
 
 Efsta sláin í sprettiglugga birtir upplýsingar um fyrirtækið sem síðuna var opnuð í og er skrifvarin. Sprettigluggar treysta einnig á aðalvafragluggann. Ef aðalglugginn er lokaður eða endurnýjuð, allar opnar sprettuglugga mun verða eingöngu lesaðgangur. Ef þetta gerist er hægt að skoða upplýsingarnar í þessum gluggum, en er ekki hægt að eiga samskipti við þá.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

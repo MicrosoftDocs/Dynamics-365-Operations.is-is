@@ -37,3 +37,6 @@ ms.locfileid: "4413304"
 4. Veljið valkost í svæðinu kvaðning eftir sölufulltrúa.
 5. Velja skal Já í svæðinu krefjast sölufulltrúa.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

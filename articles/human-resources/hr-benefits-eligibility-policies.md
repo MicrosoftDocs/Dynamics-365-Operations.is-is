@@ -49,3 +49,6 @@ Stefnureglugerðir skilgreina fyrirspurnafæribreytur sem eru notaðar þegar s�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

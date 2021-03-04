@@ -74,3 +74,6 @@ ms.locfileid: "4444405"
 10. Smella skal á fylgiseðilinn.
 11. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

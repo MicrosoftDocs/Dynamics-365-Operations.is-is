@@ -68,3 +68,6 @@ Allar gerðir eignafærsla má bóka í síðunni almenn færslubók. Einnig er 
 Eftirstöðvar eignar á afskriftartímabili eru ekki uppfærðar þegar færslubókarlína afskriftarfærslugerðar er búin til handvirkt eða flutt inn í gegnum gagnaeiningu. Þetta gildi er uppfært þegar ferli afskriftartillögu er notað til að búa til færslubókarlínu.
 
 Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

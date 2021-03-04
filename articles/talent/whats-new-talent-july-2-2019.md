@@ -55,3 +55,6 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 
 Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Core HR.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

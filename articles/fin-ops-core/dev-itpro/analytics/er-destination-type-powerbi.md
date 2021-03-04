@@ -38,3 +38,6 @@ Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

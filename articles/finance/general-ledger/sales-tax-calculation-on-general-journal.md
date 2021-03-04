@@ -157,3 +157,6 @@ Eftirfarandi tafla sýnir almennu regluna.
 | Innskattur | Neikvætt              | Viðskiptakröfulykill | Neikvætt (kredit)  |
 | Útskattur    | Jákvætt              | Viðskiptaskuldalykill    | Neikvætt (kredit)  |
 | Útskattur    | Neikvætt              | Viðskiptaskuldalykill    | Jákvætt (debet)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

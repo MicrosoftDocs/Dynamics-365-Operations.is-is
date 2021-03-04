@@ -128,3 +128,6 @@ Starfsmaður mannauðsmála getur skoðað og fylgst með breytingum á aðsetri
 > Ef óskað er eftir að fá tilkynningu eða tölvupóst um þessar breytingar á aðsetri, er hægt að stofna nýja tilkynningarreglu í flipanum **Valkostir** á aðgerðasvæðinu. Frekari upplýsingar um tilkynningarreglur er að finna í [Stofna tilkynningarreglur](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Ef ætlunin er að skilgreina verkflæði fyrir breytingar á aðsetri er hægt að velja valkostinn **Senda út á við** í tilkynningarreglunni og nota síðan Power Automate til að kveikja á viðskiptatilvikinu og skilgreina verkflæði. Frekari upplýsingar er að finna í [Tilkynningar sem viðskiptatilvik](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

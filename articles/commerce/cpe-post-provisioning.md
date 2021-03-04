@@ -164,3 +164,6 @@ Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal sk
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

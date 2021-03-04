@@ -99,3 +99,6 @@ Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardro
 8. Veldu síðuna.
 9. Velja Lokið.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Nánari upplýsingar er að finna í [Samstarf lánardrottna við utanaðkomandi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

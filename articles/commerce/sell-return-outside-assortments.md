@@ -46,3 +46,6 @@ Hér eru nokkrar dæmigerðar aðstæður.
 + Taka vörur í annarri verslun eða verslunarinnar.
 + Hætta við pöntun á verslunarinnar eða annarri verslun.
 + Pöntun með eða án móttöku á núverandi verslun eða annarri verslun aftur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -383,3 +383,6 @@ Spáð staða (30) = Uppsöfnunarupphæð (10 x 1) + Núgildandi staða (40) –
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
 - [Uppsöfnunaráætlanir fyrir leyfi og fjarvistir](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

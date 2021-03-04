@@ -59,3 +59,6 @@ Segðin `ISEMPTY (SPLIT ("",1))` skilar **TRUE**.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

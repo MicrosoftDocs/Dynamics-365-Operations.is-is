@@ -124,3 +124,6 @@ Til að prófa skal framkvæma sniðsvörpun með því að nota 1099entriescsv.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að allar 7 línur af innfluttu CSV-skránni voru unnar. Reitum sem innihalda titilinn í línu 1 var sleppt, 4 færslur voru þáttaðar á réttan hátt og 2 færslur voru viðurkenndar sem ógildar.
 3. Lokið síðunni.
 4. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

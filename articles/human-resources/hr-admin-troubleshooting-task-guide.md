@@ -63,3 +63,6 @@ Fylgja skal þessum skrefum til að endurspila verkefnaleiðbeiningu úr LCS.
 2. Veljið **Opna í LCS**.
 3. Veljið safnið og BPM-hnútinn sem eru með vistuðu verkefnaleiðbeininguna.
 4. Opnið verkefnaleiðbeininguna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

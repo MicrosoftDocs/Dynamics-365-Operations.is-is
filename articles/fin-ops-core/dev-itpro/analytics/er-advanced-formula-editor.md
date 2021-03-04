@@ -171,3 +171,6 @@ Ritillinn er nú studdur í eftirfarandi vöfrum:
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 - [Mónakó-ritill](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

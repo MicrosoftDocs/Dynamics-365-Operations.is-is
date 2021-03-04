@@ -59,3 +59,6 @@ Notið þessa leiðarvísi fyrir verk til að stofna innheimtubréfaröð. Þett
 26. Útvíkkaðu flýtiflipann **Athugasemd**.
 27. Færið inn textann sem birtist innheimtubréfinu fyrir valda innheimtubréfakóða. Hægt er að þýða þennan texta í á mörgum tungumálum með því að nota valmyndina Þýðingar yfir víxilkassanum.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

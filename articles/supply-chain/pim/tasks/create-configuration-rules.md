@@ -55,3 +55,6 @@ ms.locfileid: "4430337"
     * Velja vörunúmerið sem verður annað hvort valin eða hafnað eftir þeirri aðferð sem var valið.  
 18. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

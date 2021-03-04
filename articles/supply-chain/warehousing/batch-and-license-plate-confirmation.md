@@ -48,3 +48,6 @@ Hægt er að stilla staðfestingu á runu og númeraplötu úr valmynd í fartæ
 
 1. Færið inn uppsetningu á verkstaðfestingu í valmynd fartækisins.  
 1. Veljið valmöguleikann fyrir staðfestingu á annaðhvort runu eða númeraplötu. Báðir valmöguleikar eru í boði fyrir tiltektarvinnu þar sem sjálfkrafa staðfesting er ekki virkjuð.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

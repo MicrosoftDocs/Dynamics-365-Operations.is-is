@@ -80,3 +80,6 @@ Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.
 - [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
 - [Nýliðun lánardrottna](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

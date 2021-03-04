@@ -71,3 +71,6 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Skila eignum**.
 4. Í reitnum **Afhent** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á útleið**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

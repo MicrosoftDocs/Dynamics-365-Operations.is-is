@@ -62,3 +62,6 @@ ms.locfileid: "4430232"
     ![Mynd 1](media/05-controlling-and-reporting.png)
 
 Upplýsingar um hvernig setja skuli upp bilanir er að finna í efnisatriðinu [Bilanastjórnun](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

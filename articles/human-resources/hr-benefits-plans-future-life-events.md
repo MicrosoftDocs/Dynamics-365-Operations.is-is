@@ -46,3 +46,6 @@ ms.locfileid: "4418979"
    | Lína | Línunúmer framtíðarlífsviðburðarins. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

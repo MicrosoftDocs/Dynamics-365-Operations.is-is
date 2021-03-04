@@ -56,3 +56,6 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 8. Í trénu skal víkka út 'Intrastat model'.
 9. Í trénu skal velja 'Intrastat model\Intrastat (DE)'.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

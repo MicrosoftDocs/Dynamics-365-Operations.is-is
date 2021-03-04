@@ -55,3 +55,6 @@ Notið þessa aðferð til þess að setja upp sniðmát sem táknar hluti á ve
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

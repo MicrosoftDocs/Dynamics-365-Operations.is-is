@@ -73,3 +73,6 @@ Allir aukastafir eru styttir.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Aðgerðir fyrir umbreytingu á gerð](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Tímasett framkvæmdaruppsetning, sem tengist verkbeiðnum, getur verið almenn 
 6. Veljið **Vista**.
 
 ![Áætluð keyrsla](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

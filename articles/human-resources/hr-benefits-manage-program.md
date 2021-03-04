@@ -64,3 +64,6 @@ Stundum hættir fyrirtæki að bjóða ákveðnum fríðindi. Í þessu tilfelli
 Á sama hátt leyfa fjöldafríðinda þér að breyta lokadegi fríðindi og innskráningu starfsmanns fyrir þau fríðindi á sama tíma ef þú ákveður að bjóta fríðindi lengur ef þú upprunalega áætlaðir.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

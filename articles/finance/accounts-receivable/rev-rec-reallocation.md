@@ -114,3 +114,6 @@ Eftirfarandi efnisatriði fara í gegnum ýmsar aðstæður tekjuskráningar:
 - [Endurúthlutun tekjuskráningar – Aðstæður 2](rev-rec-reallocation-scenario-2.md) – Tvær sölupantanir eru færðar inn og viðskiptavinurinn bætir atriði við samninginn eftir að fyrsta sölupöntunin er reikningsfærð.
 - [Endurúthlutun tekjuskráningar – Aðstæður 3](rev-rec-reallocation-scenario-3.md) – Nýrri línu er bætt við núverandi reikningsfærða sölupöntun.
 - [Endurúthlutun tekjuskráningar – Aðstæður 4](rev-rec-reallocation-scenario-4.md) – Lína er fjarlægð úr núverandi sölupöntun sem er reikningsfærð að hluta til.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

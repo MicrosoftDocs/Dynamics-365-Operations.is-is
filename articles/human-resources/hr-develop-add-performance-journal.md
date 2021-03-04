@@ -54,3 +54,6 @@ Frammistöðubók inniheldur upplýsingar sem tengjast því hvernig þú náði
 20. Í reitnum Lýsing færirðu inn ‚Takk fyrir alla hjálpina á ráðstefnunni!‘.
 21. Smellt er á Senda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

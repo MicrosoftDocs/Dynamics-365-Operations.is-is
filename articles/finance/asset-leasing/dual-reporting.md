@@ -523,3 +523,6 @@ Eftir að allar þessar bókarfærslur hafa verið stofnaðar og bókaðar birta
 | 11         | Uppsöfnuð afskrift |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

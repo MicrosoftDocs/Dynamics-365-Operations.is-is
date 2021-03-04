@@ -48,3 +48,6 @@ Til að fá stuðning við sjálfstætt forrit Onboard skal nota tilföngin í e
 | Tilkynna vandamál. | Veljið hnappinn **Hjálp** (**?**) efst í hægra horninu á síðunni og veljið síðan **Tilkynna um vandamál**. Sláið inn lýsingu á málinu og hafið með netfang ef á að fylgja málinu eftir. |
 | Fáðu hjálp varðandi spurningar um leyfisveitingu Talent. | Hafðu samband við samstarfsaðila þinn eða sölufulltrúa Microsoft. |
 | Beiðni um nýja eiginleika og virkni í Onboard. | Velja skal hnappin **Hjálp** (**?**) og síðan velja **Hugmyndir**. Einnig er hægt að fara inn á [Dynamics 365 Talent: Onboard: Hugmyndir](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) til að skoða, leita að eða greiða fyrirliggjandi hugmyndum atkvæði, eða til að bæta við nýjum hugmyndum. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

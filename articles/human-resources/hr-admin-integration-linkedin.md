@@ -190,3 +190,6 @@ Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafæ
 
 [Skilgreina Common Data Service sýndareiningar](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Hvað er Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

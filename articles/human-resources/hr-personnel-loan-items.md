@@ -55,3 +55,6 @@ Eyðileggist hlutur eða hann týnist skal skrá gerviskil. Þá er hægt að ey
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

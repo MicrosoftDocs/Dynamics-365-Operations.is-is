@@ -284,3 +284,6 @@ Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsinga
 Forskriftin *Hættuleg efni í göngum* takmarkar gerðir ganga sem má flytja hættulegt efni í gegnum með því að gefa upp gangagerðirnar sem þarf að nota. Gangaflokkar eru settir á samkvæmt viðeigandi reglugerðum fyrir flutning á hættulegum efnum. Þessi skilgreining á yfirleitt aðeins við um flutning á vegum.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Hættuleg efni í göngum**. Á síðunni **Hættuleg efni í göngum** er hægt að búa til eins margar gangamerkingar og þarf og skilgreina hverja þeirra með auðkennandi kóða og stuttri lýsingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -163,3 +163,6 @@ CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það m
 [Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

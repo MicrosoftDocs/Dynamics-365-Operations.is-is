@@ -65,3 +65,6 @@ ms.locfileid: "4430060"
 5. Smellið á Velja.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

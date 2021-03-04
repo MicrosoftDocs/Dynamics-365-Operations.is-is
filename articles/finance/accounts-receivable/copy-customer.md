@@ -64,3 +64,6 @@ Einnig er hægt að afrita viðskiptavini með því að nota leitareiginleika f
 
 1. Valkosturinn **Afrita viðskiptavin** birtist. Að sjálfgefnu er þessi valkostur stilltur á **Nei**. Til að afrita viðskiptavininn til núverandi lögaðila skal stilla valkostinn á **Já**. 
 2. Veljið **Velja**. Nýi viðskiptavinurinn er stofnaður.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

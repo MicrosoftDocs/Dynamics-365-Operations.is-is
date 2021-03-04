@@ -54,3 +54,6 @@ Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim
 [Biðja um frí](hr-employee-self-service-request-time-off.md)
 [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

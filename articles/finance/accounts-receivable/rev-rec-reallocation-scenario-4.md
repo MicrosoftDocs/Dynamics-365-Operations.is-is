@@ -77,3 +77,6 @@ Tekjuskráningaráætlunin var einnig uppfærð á grunni nýrrar endurúthlutun
 Næst skal opna síðuna **Allir viðskiptavinir** (**Viðskiptakröfur \> Viðskiptavinir \> Allir viðskiptavinir**), velja viðskiptavin **US\_SI\_0003** og svo **Færslur**. Síðan **Færslur viðskiptavinar** sýnir aðeins upprunalegan reikning (000008) ásamt upprunalegri bókhaldsfærslu. Þar sem valkosturinn **Bóka leiðréttingar reiknings á viðskiptakröfur** er stilltur á **Nei** á síðunni **Fjárhagsfæribreytur** er aðeins fjárhagur uppfærður. Þess vegna eru bakfærðu og uppfærðu bókhaldsfærslurnar ekki sýndar. Athugið að leiðréttar tekjufærslur sem voru stofnaðar í [aðstæðum 3](rev-rec-reallocation-scenario-3.md) eru sýndar.
 
 [![Upprunaleg bókhaldsfærsla á síðunni viðskiptavinafærslur](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

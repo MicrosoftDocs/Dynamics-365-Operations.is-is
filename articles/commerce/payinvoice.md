@@ -45,3 +45,6 @@ Til að virkja þessar aðstæður þarf að grunnstilla virkniregluna fyrir ver
 
 > [!NOTE]
 > Greiðsla eða uppgjör upphæða að hluta til er ekki enn studd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

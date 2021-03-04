@@ -83,3 +83,6 @@ Reikningur lánardrottins mun haldast í biðstöðu þar til að sjálfur reikn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

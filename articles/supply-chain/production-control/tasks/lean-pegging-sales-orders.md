@@ -57,3 +57,6 @@ ms.locfileid: "4430300"
 5. Veljið í trénu 'Sölulínu 000832\Kanban 000558\útgáfa fyrir L0001\Kanban 000559'.
     * Vinnslan fyrir kanban-vinnslan númer tvö er líka áætlaðar, þar sem allt þarfarakningartré er áætluð. Athugið að stöðu kanban var breytt úr Ekki áætluð í áætlað.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

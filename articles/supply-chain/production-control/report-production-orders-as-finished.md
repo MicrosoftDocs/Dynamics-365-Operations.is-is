@@ -48,3 +48,6 @@ Hægt er að færa framleiðslupöntun í stöðuna **Tilkynnt sem lokið** með
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

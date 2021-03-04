@@ -91,3 +91,6 @@ Fyrir hvert reglusett skal stilla eftirfarandi reiti:
 - **Alvarleiki** – Veljið alvarleikastig til að setja reglur fyrir. Nota skal síðuna **Alvarleiki hönnunarbreytingar** til að stofna og skíra stigin. (Sjá fyrri hluta fyrir frekari upplýsingar.)
 
 Notið hnappana í flýtiflipanum **Reglur** til að bæta við eða fjarlægja reglu úr núverandi alvarleikastillingu. Hver regla er með reitinn **Regla** og **Heiti**. Kerfið setur á reglurnar og sýnir hvers konar breytingar hægt er að gera á afurð. Heitið táknar gerð breytingarinnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

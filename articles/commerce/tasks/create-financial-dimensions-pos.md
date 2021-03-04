@@ -48,3 +48,6 @@ ms.locfileid: "4413211"
 17. Á listanum, Finna og velja víddargildi fyrir afgreiðslukassi sem verið er að uppfæra.
 18. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

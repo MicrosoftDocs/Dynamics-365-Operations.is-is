@@ -140,3 +140,6 @@ Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Get ég rakið aukaafurðir og hliðarafurðir?
 Hægt er að rekja aukaafurðir, en ekki er hægt að rekja hliðarafurð því rakningarvíddum er yfirleitt ekki úthlutað á þær. Þegar vara er rakin, eru allar tengdar aukaafurðir teknar með í rakningarupplýsingunum. Hnútur sem inniheldur aukaafurð inniheldur orðið "aukaafurð" í upplýsingar. Einnig er hægt að skoða upplýsingar um aukaafurð með því að velja hnútinn í rakningarupplýsingunum, og smella svo á flýtiflipann **Framleiðsla**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -837,3 +837,6 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 [Jaðarhermibúnaður fyrir Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ Til að sjá lista yfir eiginleika sem eru tiltækir í uppsetningu á staðnum 
 
 \* Í umhverfi á staðnum sýnir PerfTimer aðeins niðurstöður fyrir biðlarann.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

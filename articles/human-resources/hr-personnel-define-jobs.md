@@ -71,3 +71,6 @@ ms.locfileid: "4419043"
 33. Víxla útvíkkun á liðnum Menntun.
 34. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

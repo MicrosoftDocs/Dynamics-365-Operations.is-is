@@ -107,3 +107,6 @@ Til að flytja út umreikninga eininga í Excel, á síðunni **Umreikningur ein
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stjórna mælieiningu](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

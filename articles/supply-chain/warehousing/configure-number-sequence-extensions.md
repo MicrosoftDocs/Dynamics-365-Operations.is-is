@@ -92,3 +92,6 @@ Til að stofna og breyta númeraröðum skaltu fylgja þessum skrefum.
     | Vartala | Þessi hlutagerð bætir við vartölu, sem er með leifastofn 10 við útreikning. (Þessi hegðun samsvarar fyrirliggjandi rökum fyrir kenni númeraplötu.) Fyrir þessa hlutagerð er reiturinn **Gildi** alltaf stilltur á innskotsmerki (*^*) og reiturinn **Lengd** er alltaf stilltur á *1*. |
 
 1. Til að skoða dæmi um endanlegt númerasnið skal skoða reitinn **Snið** neðst í flýtiflipanum **Hlutar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "4444456"
 8. Í reitnum Samstæðulykill skal færa inn gildi.
 9. Í reitinn Heiti samstæðulykils skal slá inn gildi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

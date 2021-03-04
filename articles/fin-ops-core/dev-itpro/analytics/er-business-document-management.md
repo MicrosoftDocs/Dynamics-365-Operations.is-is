@@ -423,3 +423,6 @@ Líklegast skráðir þú þig inn í núverandi tilvik forritsins í Azure AD-l
 
 [Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

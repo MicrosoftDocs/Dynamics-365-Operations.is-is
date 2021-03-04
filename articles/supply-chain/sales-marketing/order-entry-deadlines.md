@@ -109,3 +109,6 @@ Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur um
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

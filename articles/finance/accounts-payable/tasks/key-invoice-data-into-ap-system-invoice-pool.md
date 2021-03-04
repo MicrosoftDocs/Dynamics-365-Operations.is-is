@@ -68,3 +68,6 @@ ms.locfileid: "4444328"
 13. Veldu **Færslur**.
 14. Velja reikninginn sem þú stofnaðir. uppsöfnun komubókar var bakfærð og bókaðar á viðeigandi kostnaðarlykil.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

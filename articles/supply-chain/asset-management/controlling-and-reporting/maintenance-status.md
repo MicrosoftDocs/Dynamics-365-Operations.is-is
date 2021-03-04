@@ -68,3 +68,6 @@ ms.locfileid: "4430229"
 
 ![Dæmi um mánaðarlegt vinnuálag með virkum staðsetningum](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

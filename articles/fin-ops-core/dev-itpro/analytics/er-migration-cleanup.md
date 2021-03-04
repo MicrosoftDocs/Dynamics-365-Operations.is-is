@@ -57,3 +57,6 @@ Ljúkið eftirfarandi skrefum til að leysa úr vandamálum með sniðmát rafr�
 Svipað vandamál getur komið upp ef forritstilvikið er flutt á aðra staðsetningu sem hefur verið notuð sem flutningsmarkmið oftar en einu sinni og þar sem Blob-geymslan inniheldur nú þegar sniðmátsskrár rafrænnar skýrslugerðar.
 
 Fyrst að hægt er að hafa margar skilgreiningar á sniði rafrænnar skýrslugerðar getur þetta ferli verið tímafrekt. Þar af leiðandi er æskilegt að nota eiginleikann [Öryggisafrit sniðmáta rafrænnar skýrslugerðar](er-backup-storage-templates.md) til að endurheimta sjálfkrafa sniðmát með gölluðum tilvísunum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

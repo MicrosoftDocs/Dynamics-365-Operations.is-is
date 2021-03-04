@@ -83,3 +83,6 @@ Svæðið **Villur og athugasemdir**, neðst á verkflæðisritill, birtir skila
 
     - Smellið til að virkja þessa útgáfu verkflæðisins á **virkja nýja útgáfu**. Þegar verkflæði er virkt, notendur senda skjöl í hana í vinnslu.
     - Eigi ekki að virkja þessa útgáfu, smellið á **Ekki virkja nýju útgáfuna**. Hægt er að virkja verkflæðið síðar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

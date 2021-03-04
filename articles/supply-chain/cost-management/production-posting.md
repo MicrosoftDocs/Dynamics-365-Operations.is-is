@@ -57,3 +57,6 @@ Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í færslubók lei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Forritsgögn eru notuð til að fylla út skýrslurnar í efnispakka starfsmanna
 | Vinnuafl\_WorkerName             | Fornafn, eftirnafn, og fullt nafn                                                                       | |
 | Vinnuafl\_WorkerTitle            | Titill og starfsaldursdagsetning                                                                                   | |
 | Vinnuafl\_WorkerTrend             | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Vinnuafl\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

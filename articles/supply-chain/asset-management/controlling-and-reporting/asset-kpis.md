@@ -90,3 +90,6 @@ Myndin hér að neðan sýnir skjámynd af útreikningi afkastavísis fyrir fjó
 - Þú getur valið margar eignir í **Allar eignir** og smellt á hnappinn **Afkastavísir eigna** á flipanum **Almennt**. Síðan smellirðu á **Í lagi** í valmyndinni **Reikna afkastavísi eigna** til að reikna út afkastavísi fyrir valdar eignir.  
 - Niðurstöður úr útreikningi á afkastavísi kunna að innihalda eða ekki [skráningar á niðurtíma vegna viðhalds](../work-orders/maintenance-downtime.md), allt eftir uppsetningu og notkun á ástæðukóða fyrir niðurtíma vegna viðhalds. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

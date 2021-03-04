@@ -42,3 +42,6 @@ ms.locfileid: "4418958"
    | **Dagur** | Dagur mánaðar sem kerfið ætti að stilla dagsetningu biðtímans á. |
    
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

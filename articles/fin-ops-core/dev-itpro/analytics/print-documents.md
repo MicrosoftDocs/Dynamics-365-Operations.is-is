@@ -74,3 +74,6 @@ Eftirfarandi skýringarmynd sýnir grunníhluti sem hjálpa til við að styðja
 [![þjónustu-hlutar-fyrir-net-prentun\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Athugaðu að hægt er að skrá einn prentara með mörgum miðlum skjalasendingar. Til að leysa kjörstillingar prentara notar hýst þjónusta netslóðina sem ber kennsl á hvern prentara fyrir sig. Þar af leiðandi, jafnvel þegar prentari er skráður af mörgum biðlurum, birtist hann sem eitt val á lista yfir prentara sem eru í boði í forritunum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

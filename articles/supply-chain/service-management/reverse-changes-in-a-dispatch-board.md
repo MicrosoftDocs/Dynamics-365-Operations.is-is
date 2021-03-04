@@ -51,3 +51,6 @@ Fylgið eftirfarandi skrefum til að bakfæra óvistaðar breytingar á sendinga
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

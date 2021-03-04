@@ -73,3 +73,6 @@ Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og
 
 Virkni aðfangakeðjustjórnar nær yfir hluta af ferlinu frá kaupum til greiðslu sem felur í sér beiðni, pöntun, afhendingu, reikningsfærslu og greiðslu fyrir þá vöru og þjónustu sem fyrirtækið kaupir. Sjá upplýsingar um afköst við innkaupaumsjón, birgðahald og framleiðslu á [heimasíðu Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

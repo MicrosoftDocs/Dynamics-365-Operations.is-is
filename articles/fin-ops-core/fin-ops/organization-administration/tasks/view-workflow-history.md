@@ -46,3 +46,6 @@ ms.locfileid: "4694312"
     - Hnappurinn **Endurúthluta** opnar svarglugga þar sem hægt er að endurúthluta vinnulið til annars notanda.  
     - Gangið úr skugga um að hlutinn **Rakningarupplýsingar** sé stækkaður. Í þessum hluta er hægt að skoða verkflæðissaga sem tengist völdu skjali.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Tillögurnar birtast sem spjöld í flipanum **Viðföng** fyrir öll störf þa
 > Ef þú byrjaðir nýlega að nota Attract þarftu að bíða þangað til þú hefur 10 eða fleiri umsækjendur sem eru með heilar notandasíður eða ferilskrár áður en þú getur notað þennan möguleika.
 
 Til að forðast hugsanlega hlutdrægni í tillögunum, skannar Attract aðeins notendasíður umsækjanda fyrir hæfni, hæfi og öðrum lykilorðum sem passa við starfslýsinguna. Auk þess fjarlægir Attract persónugreinanlegar upplýsingar úr prófílum umsækjenda á undan matinu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

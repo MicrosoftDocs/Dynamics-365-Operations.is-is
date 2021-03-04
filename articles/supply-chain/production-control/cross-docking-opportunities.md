@@ -127,3 +127,6 @@ Eftir að afurð hefur verið tilkynnt sem lokið við framleiðslulínuna er h�
 -   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

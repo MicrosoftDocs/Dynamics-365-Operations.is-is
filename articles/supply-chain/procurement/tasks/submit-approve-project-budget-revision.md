@@ -46,3 +46,6 @@ ms.locfileid: "4430269"
 12. Í reitinn Athugasemd skal slá inn gildi.
 13. Smelltu á Senda.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

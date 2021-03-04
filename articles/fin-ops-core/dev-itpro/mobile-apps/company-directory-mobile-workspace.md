@@ -89,3 +89,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu.
 2.  Í reitnum **Leit** skal færa inn skírnarnafn og föðurnafn starfsmanns, titil eða deild til að hefja leit.
 3.  Velja starfsmann. Síðan **Forstilling starfsmanns** birtist. Á meðal upplýsinga á þessari síðu eru skírnarnafn og föðurnafn starfsmanns, titill og deild.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

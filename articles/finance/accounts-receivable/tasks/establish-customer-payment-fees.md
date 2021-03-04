@@ -51,3 +51,6 @@ Stofna greiðsluþóknanir fyrir greiðsluar viðskiptavinar.
 18. Veljið gjaldmiðil fyrir þóknunina í reitnum **Gjaldmiðill þóknunar**. Þetta er gjaldmiðill sem þóknunin verður stofnuð í.  
 19. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Leiðréttur kostnaður á klukkustund og vinnslutíminn eru bókaðir í framle
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Uppskriftarútreikningur sem á við eina pöntun er samsetning uppskriftarútre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

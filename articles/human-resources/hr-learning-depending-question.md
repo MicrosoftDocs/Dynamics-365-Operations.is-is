@@ -56,3 +56,6 @@ Skilyrtar spurningar gera kleift að tilgreina hvaða eftirfylgni spurninguar er
 10. Í trénu, velja ‚Spurningar\ Ég fæ sanngjörn laun fyrir mína vinnu.'.
     * Athugið að spurningatréð var uppfært til að sýna háðar kringumstæður.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Upplýsingar um hvernig á að framkvæma tiltekið verkefni á sendingarspjaldi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

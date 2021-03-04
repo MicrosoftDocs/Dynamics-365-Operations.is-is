@@ -44,3 +44,6 @@ ms.locfileid: "4419012"
 2. Smellið á „Breyta“.
 3. Í reitinn raunveruleg skil skal færa inn dagsetningu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota einnar útgáfu og tveggja-�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

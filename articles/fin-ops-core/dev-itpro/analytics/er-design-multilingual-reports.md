@@ -210,3 +210,6 @@ Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengj
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Aðgerðir rafrænnar skýrslugerðar](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

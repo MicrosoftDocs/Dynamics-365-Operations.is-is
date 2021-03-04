@@ -147,3 +147,6 @@ Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut. Hægt e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ ms.locfileid: "4430238"
 2. Í **Eignir** dálki, veldu hlekkinn fyrir eignina. Síðan **Upplýsingar** birtist.
 3. Veljið **Breyta**.
 4. Á flýtiflipanum **Almennt**, veldu gildi í reitunum **Framleiðandi** og **Líkan**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

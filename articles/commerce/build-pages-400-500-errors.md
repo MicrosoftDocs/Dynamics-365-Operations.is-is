@@ -83,3 +83,6 @@ Fylgdu þessum skrefum til að setja upp framsendingu fyrir villusvörunarsíðu
 [Bæta við nýrri síðu á svæði](add-new-page.md)
 
 [Búa til síðuvefslóð](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

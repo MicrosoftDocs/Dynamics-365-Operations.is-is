@@ -93,3 +93,6 @@ Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ým
 - [Hanna spurningalista](../../../talent/design-questionnaires.md)
 - [Dreifa spurningalistum á ákveðnum tímum](../../../talent/distribute-questionnaires.md)
 - [Yfirferð og mat á niðurstöðum spurningalista](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

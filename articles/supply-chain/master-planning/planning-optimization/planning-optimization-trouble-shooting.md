@@ -75,3 +75,6 @@ Ef reynt er að keyra afhendingargetu (CTP) frá sölupöntun þegar fínstillin
 [Hafist handa með fínstillingu áætlanagerðar](get-started.md)
 
 [Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

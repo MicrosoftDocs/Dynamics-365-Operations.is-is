@@ -76,3 +76,6 @@ Uppfærslur eru birt annað hvort sjálfvirkt eða handvirkt, eftir því hvað 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

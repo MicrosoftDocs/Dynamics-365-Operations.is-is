@@ -130,3 +130,6 @@ Einnig er hægt að stofna og nota snúningstöflur og myndrit fyrir viðbótarf
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

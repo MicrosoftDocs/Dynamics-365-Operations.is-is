@@ -78,3 +78,6 @@ Ef villa finnst við villuleit er einungis hægt að lagfæra hana með því a�
 
 > [!NOTE]
 > Frekari villuleitarreglum til að styðja við fleiri aðstæður verður bætt við í síðari útgáfu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

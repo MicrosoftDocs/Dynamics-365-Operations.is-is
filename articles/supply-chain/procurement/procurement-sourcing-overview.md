@@ -93,3 +93,6 @@ Reikningsfærðar innkaupapantanir munu skrá skuld í lánardrottnareikning inn
 ## <a name="vendor-performance"></a>Afköst lánardrottins
 
 Afköst og endurskoðun innkaupa er studdur gegnum *innkaupa- og viðskiptaskuldaskýrslur*, sem innihalda eyðslugreiningu og frammistöðugreiningu lánardrottins.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

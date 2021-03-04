@@ -65,3 +65,6 @@ Eftirfarandi hlutar lýsa áhrifum þessara stillinga. Þeir útskýra einnig hv
 - Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð** stilling fyrir reitinn **Fylgiskjalsnúmer** er ekki studd.
 
 Sjálfgefið er að Eining Almennrar færslubókar noti samstæðubyggð úrvinnsla. Eftir að þú metur viðskiptaþarfir í þínu fyrirtæki, er hægt að breyta **samstæðubyggð úrvinnsla** stillingu með því að smella á **gagnaeiningar** í á **gagnastjórnun** vinnusvæði. Samstæðubyggð úrvinnsla er notuð til að flýta innflutningsferlinu. Ef þú notar ekki samstæðubyggð úrvinnsla, verður innflutningur einingar Almennrar færslubókar hægvirkari.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

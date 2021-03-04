@@ -176,3 +176,6 @@ Forrit eru sett af fríðindaáætlunum sem deila sameiginlegu setti hæfisregln
    | **Hæfnisreglur** | Veldu hæfisreglur sem eiga við um bótakerfið. Þú skilgreinir hæfisreglur á **Reglur um hæfi** flipann á þessari síðu. |
    
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

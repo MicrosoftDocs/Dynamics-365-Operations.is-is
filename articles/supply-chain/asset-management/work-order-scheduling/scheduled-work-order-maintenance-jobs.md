@@ -52,3 +52,6 @@ Eftirfarandi skjámynd sýnir dæmi um síðuna **Skipulögð viðhaldsverk verk
 
 ![Mynd 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

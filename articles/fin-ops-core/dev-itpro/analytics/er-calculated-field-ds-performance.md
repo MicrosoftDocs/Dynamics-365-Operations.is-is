@@ -300,3 +300,6 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 - [Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

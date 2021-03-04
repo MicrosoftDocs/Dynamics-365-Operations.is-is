@@ -58,3 +58,6 @@ ms.locfileid: "4430665"
 2. Smellið á „Innhreyfingarskjal“.
 3. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

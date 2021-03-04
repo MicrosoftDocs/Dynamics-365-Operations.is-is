@@ -380,3 +380,6 @@ Eins og þú hefur séð, er þess vegna hægt að meta virkni ER-sniðs sjálfk
 - [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md)
 - [Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs](tasks/er-upgrade-format.md)
 - [Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

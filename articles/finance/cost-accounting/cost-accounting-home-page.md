@@ -53,3 +53,6 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

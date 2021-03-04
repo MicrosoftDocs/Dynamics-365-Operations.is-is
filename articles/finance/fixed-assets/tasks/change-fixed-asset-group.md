@@ -46,3 +46,6 @@ Eignum skal úthlutað á réttan eignaflokk. Eignaflokkurinn er notaður þegar
 6. Smellið á „Í lagi“.
 7. Smella á Já.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

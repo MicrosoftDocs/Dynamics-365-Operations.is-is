@@ -53,3 +53,6 @@ ms.locfileid: "4430582"
 4. Í **Runuverk** velurðu verkin sem á að ljúka.
 5. Smellið á **Breyta stöðu** veljið **Hætta við** og á **Í lagi**.
 6. Á flýtiflipanum **Runuverk** smellirðu á **Hætta við**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Tvö þjónustuverk eru tengd þjónustusamningslínunum fyrir verkin tvö. Þj�
 2. Í flipanum **Uppsetning** skal velja **Eftir þjónustuverki** í reitnum **Sameina þjónustupantanir**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -205,3 +205,6 @@ Verkyfirlit eru yfirlit fyrir stjórnendum sem bera ábyrgð á til að stýra k
 Útgáfur eru notaðar til að herma, skoða og bera saman niðurstöður mismunandi. Að sjálfgefnu raunverulegan kostnað eru skoðuð í ein útgáfa grunnsniðs sem kallast *raunverulega*. Hægt er að vinna með eins margar útgáfur og þörf er fyrir áætlanir og útreikninga. Til dæmis, hægt að flytja inn gögn fjárhagsáætlunargerðar í upprunalega útgáfa og endurskoða síðan áætlunar í endurskoðuð útgáfa. Hægt er að stofna mál fyrir mörg svæði í . Í þessum mismunandi útgáfur síðan stofna útreikning með því að nota mismunandi útreikningsreglur sem verður notað fyrir kostnaðarúthlutun.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

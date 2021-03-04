@@ -96,3 +96,6 @@ ms.locfileid: "4430258"
 17. Á listanum velurðu þóknunarflokk sem þú stofnaðir áður.
 18. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

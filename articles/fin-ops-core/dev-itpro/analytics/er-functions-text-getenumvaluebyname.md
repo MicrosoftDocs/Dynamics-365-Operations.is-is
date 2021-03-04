@@ -117,3 +117,6 @@ Ef ætlunin er að nota þessa nálgun fyrir mikið magn af færslugögnum verð
 [FIRSTORNULL ER-aðgerð](er-functions-list-firstornull.md)
 
 [WHERE ER-aðgerð](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

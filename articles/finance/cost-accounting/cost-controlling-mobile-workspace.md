@@ -145,3 +145,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 11. Skoða vinnsluhraða stakra kostnaðareininga.
 12. Einnig má leita að sérstökum kostnaðareiningum.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

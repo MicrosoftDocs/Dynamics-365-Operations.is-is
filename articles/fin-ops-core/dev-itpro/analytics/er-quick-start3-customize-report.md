@@ -671,3 +671,6 @@ Staða útgáfu 32.6.7.2 er breytt úr **Drög** í **Lokið** og útgáfa verð
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](er-download-configurations-global-repo.md)
 - [Stofna textareikning](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Stofna og vinna með sérstillt svæði](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

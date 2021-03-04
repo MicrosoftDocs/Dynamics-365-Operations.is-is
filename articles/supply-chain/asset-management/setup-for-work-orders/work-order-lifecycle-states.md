@@ -139,3 +139,6 @@ Eftirfarandi mynd sýnir tengsl milli verkbeiðnigerða, líftímalíkana og lí
 9. Vistaðu líftímalíkan verkbeiðni.
 
 ![Síðan Líftímalíkön verkbeiðna](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Ef notaðir eru tveir gjaldmiðlar eða ef notaður er einn gjaldmiðill, en fæ
 Innleystur hagnaður og tap er framlegð og tap sem verður til úr loknum færslum. Það er skráð í rekstraryfirlitið. Óinnleystur hagnaður og tap er framlegð og tap sem hefur átt sér stað, en færslunni er ekki lokið. Með öðrum orðum er til dæmis búið að bóka reikning, en reikningurinn er ekki enn jafnaður og greiddur. Óinnleystur hagnaður og tap er skráð á efnahagsreikninginn.
 
 Frekari upplýsingar um hvernig á að nota þessa tvo gjaldmiðli er að finna í [Tvöfaldur gjaldmiðill](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

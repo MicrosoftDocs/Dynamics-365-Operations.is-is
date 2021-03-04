@@ -50,3 +50,6 @@ Til að sjá hvað er nýtt eða breytt í Lifecycle Services, sjá eftirfarandi
 - [Nýjungar eða breytingar í Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

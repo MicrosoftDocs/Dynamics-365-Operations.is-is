@@ -110,3 +110,6 @@ Nánari upplýsingar má nálgast á [Skuldir og innheimtur í viðskiptakröfum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

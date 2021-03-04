@@ -46,3 +46,6 @@ Upplýsingar er að finna í „Að veita aðgang að umhverfinu“ í kaflanum 
 **Langtímalausn**
 
 Microsoft er að íhuga að úthluta sjálfkrafa viðeigandi réttindum fyrir Onboard og Attract þegar notanda er bætt við Human Resources.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

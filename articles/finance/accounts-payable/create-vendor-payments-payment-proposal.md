@@ -123,3 +123,6 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

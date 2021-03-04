@@ -91,3 +91,6 @@ Flipinn **Stöður** á aðalsíðu starfskrafta veitir fulla yfirsýn yfir alla
 
 [![Stöður](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

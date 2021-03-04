@@ -66,3 +66,6 @@ Eftirfarandi er dæmi.
 2. Á tækjastikunni velurðu **Bæta við forriti úr Power Apps**.
 
     ![Bæta við forriti úr Power Apps með tækjastiku sérstillinga](media/powerapp-bar.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

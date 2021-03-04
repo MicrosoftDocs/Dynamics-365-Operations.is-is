@@ -62,3 +62,6 @@ Til að setja upp nýja virkni reiðufjárstjórnunar skal fylgja þessum skrefu
 - Við afstemmingu, ef valin færsla stemmir ekki, verður notandinn að færa inn lýsingu á því af hverju afstemmingin stemmir ekki. Notendur geta valið staka færslu og afstemmt hana með viðeigandi lýsing á ástæðu þess eftir þörfum.
 - Notendur geta haldið áfram að afstemma og óafstemma færslur þar til vaktinni er lokið. Eftir að vakt er lokað er ekki hægt að afstemma færslurnar.
 - Þegar notandi velur að loka vakt, staðfestir Commerce að engar óafstemmdar færslur reiðufjárstjórnunar séu til staðar á vaktinni. Notendur geta ekki lokað vakt ef óafstemmdar færslur eru til staðar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunar
    | **Leyfa tryggingarupphæð starfsmanns** | Tilgreinir hvort leyfa eigi starfsmönnum að breyta tryggingarfjárhæð í sjálfsafgreiðslu bóta þegar þeir velja bætur. Ef þú velur þennan gátreit mun kerfið reikna út breytur bótaáætlunar miðað við tryggingarupphæð sem starfsmaður leggur inn í sjálfsafgreiðslu starfsmanna. |
 
 6. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

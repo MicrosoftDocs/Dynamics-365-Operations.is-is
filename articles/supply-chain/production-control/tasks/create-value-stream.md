@@ -49,3 +49,6 @@ Virðisstraumar eru rekstrareining sem flokka eitt eða fleiri framleiðsluflæ�
 2. Lokið síðunni.
 3. Endurhlaðið síðuna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

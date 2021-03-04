@@ -80,3 +80,6 @@ Einnig er hægt að úthluta flokknum eigindahópa eftir þörfum.
 [Stjórna afurðaflokkum og afurðum ](category-management-product-creation.md)
 
 [Breyta röðun eininga markaðssetningar](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

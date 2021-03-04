@@ -67,3 +67,6 @@ Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða e
 30. Sláið inn eða veldu gildi í reitnum deild.
 31. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Til að bæta broti lýsimerkis við **haus** HTML-svæðis síðanna þinna ska
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

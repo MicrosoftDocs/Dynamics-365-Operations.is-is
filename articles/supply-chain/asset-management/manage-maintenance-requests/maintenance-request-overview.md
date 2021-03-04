@@ -73,3 +73,6 @@ Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla 
 | Senda lánseign                  | Veldu lánaeign sem ætti að koma tímabundið í staðinn fyrir þá eign sem er valin á valinni viðhaldsbeiðni. |
 | Skila lánseign                | Skráðu lánaeignina sem að henni hafi verið skilað. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

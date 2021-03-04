@@ -175,3 +175,6 @@ Tilvikið **AttachingFile()** kemur upp þegar unnið er úr eftirfarandi viðt�
 
 - [Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 - [Heimasíða stækkunarhæfni](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

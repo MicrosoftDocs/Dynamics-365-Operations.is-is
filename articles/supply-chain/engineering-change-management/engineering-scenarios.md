@@ -411,3 +411,6 @@ Nú er hægt að gefa út afurðina aftur í fyrirtækinu *USMF* og senda hana t
 1. Veljið öll fyrirtækin sem gefa á út afurðir í.
 1. Veljið **Í lagi** til að loka svarglugganum **Útgáfur** og fara aftur í breytingapöntunina.
 1. Á aðgerðasvæðinu, í flipanum **Breytingapöntun**, í flokknum **Útgáfur afurða**, skal velja **Vinna úr** til að gefa út tilheyrandi afurðir í völdum fyrirtækjum. Að öðrum kosti skal velja **Gefa út skipulag afurðar** til að hefja útgáfuferlið.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

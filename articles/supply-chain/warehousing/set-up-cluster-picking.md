@@ -80,3 +80,6 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 1. Í valmyndaratriði fartækis skal opna eyðublað uppsetningar fyrir vinnustaðfestingu: **Vöruhúsakerfi** \> **Vöruhúsakerfi** \> **Uppsetning** \> **Fartæki** \> **Valmyndaratriði fartækis**.
 
 1. Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis. Valkosturinn **Afurðarstaðfesting** leyfir þér að staðfesta hvert stykki af birgðum úr fartæki þegar það er skannað.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

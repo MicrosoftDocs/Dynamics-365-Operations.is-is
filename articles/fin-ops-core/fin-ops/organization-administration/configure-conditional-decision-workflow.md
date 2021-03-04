@@ -52,3 +52,6 @@ Kerfið ákveður sjálfkrafa hvaða grein á að nota með því að meta sent 
     2. Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.
     3. Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
     4. Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

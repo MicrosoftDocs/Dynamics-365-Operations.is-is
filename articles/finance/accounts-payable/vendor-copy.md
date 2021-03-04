@@ -64,3 +64,6 @@ Einnig er hægt að afrita lánardrottna með því að nota leitareiginleika fy
 
 1. Valkosturinn **Afrita lánardrottin** birtist. Að sjálfgefnu er þessi valkostur stilltur á **Nei**. Til að afrita lánardrottininn til núverandi lögaðila skal stilla valkostinn á **Já**.
 2. Veljið **Velja**. Nýi lánardrottinninn er stofnaður.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

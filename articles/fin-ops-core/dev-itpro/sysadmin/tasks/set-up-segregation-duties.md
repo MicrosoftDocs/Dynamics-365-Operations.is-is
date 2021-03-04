@@ -40,3 +40,6 @@ Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af
 12. Í reitinn **Mótvægisaðgerðir öryggis** skal slá inn gildi. Færið inn lýsingu á aðgerðum sem eru teknar til að minnka þá áhættu. Til dæmis er hægt að draga úr hættunni með framkvæmd ítarlegri yfirferða á ferlinu, með framkvæmd á mánaðarlegri rekstraryfirferð eða með því að samnýta tilföng með öðrum deildum.     
 13. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

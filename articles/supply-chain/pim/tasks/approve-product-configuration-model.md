@@ -49,3 +49,6 @@ Keyra þetta ferli krefst sem að minnsta kosti eitt afbrigðalíkan afurðar er
     * Virkja útgáfu vörulíkans. Aðeins er hægt að hafa eina afurð virkt fyrir eitt vörulíkan í einu.  
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

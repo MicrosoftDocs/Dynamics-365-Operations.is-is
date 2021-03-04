@@ -56,3 +56,6 @@ Stjórnendur geta leyft sannvottuðum notendum að afþakka söfnun vefnotkunar 
 ### <a name="custom-extensions"></a>Sérsniðnar viðbætur
 
 Stjórnendur geta búið til sínar eigin viðbætur til að stjórna afþökkunarupplifuninni fyrir notendur. Fyrir frekari upplýsingar, sjá [Hringdu í smáforritaskil smásölumiðlara](e-commerce-extensibility/call-retail-server-apis.md) og [Stækkanleiki á netinu](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

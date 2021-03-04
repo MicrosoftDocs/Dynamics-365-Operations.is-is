@@ -100,3 +100,6 @@ Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyri
 10. Smellt er á Samþykkt.
     * Eftir að færslan hefur verið samþykkt það hægt að hlaða það í opinber launafærslu starfsmanns. Ný laun verður virkt frá og með færsludagsetningu sem stillt var í launavinnsluna.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

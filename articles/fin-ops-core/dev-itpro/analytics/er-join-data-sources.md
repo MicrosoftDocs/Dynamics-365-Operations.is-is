@@ -289,3 +289,6 @@ Að lokum er hægt að skilgreina gagnagjafann **TENGJAST** þar sem **X1** er f
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Rekja framkvæmd á sniði rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

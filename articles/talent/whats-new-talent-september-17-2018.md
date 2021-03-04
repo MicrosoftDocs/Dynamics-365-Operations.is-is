@@ -54,3 +54,6 @@ Verkvangsuppfærsla 18 fyrir Finance and Operations er nú hluti af Talent-útg�
 ## <a name="bug-fixes"></a>Villuleiðréttingar
 
 Þessi útgáfa inniheldur nokkrar villuleiðréttingar í viðbót, þar á meðal tilvísanir í ACA, ADA, og I9 og verða nú aðeins gerðar virkar í bandarískum fyrirtækjum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

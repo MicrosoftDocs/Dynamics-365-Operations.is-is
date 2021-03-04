@@ -46,3 +46,6 @@ Ef þú hefur ekki enn spilað eftirfarandi verkefnaleiðbeiningar, [Stofna nau�
 | Lýsing á efni    | Skrá                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Líkanaskilgreining rafrænnar skýrslugerðar | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

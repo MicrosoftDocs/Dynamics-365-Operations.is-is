@@ -57,3 +57,6 @@ ms.locfileid: "4444286"
 26. Í reitnum **Aðalreikningur fyrir afslátt lánardrottna** slærðu inn aðalreikninginn sem staðgreiðsluafsláttur birtir fyrir reikninga lánardrottna.
 27. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

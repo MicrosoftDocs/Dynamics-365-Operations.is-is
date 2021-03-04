@@ -164,3 +164,6 @@ Hvað öll almenn vandamál varðar, ættir þú fyrst að skoða tilvikaannála
 [Vista netgreiðslumáta með Adyen-tengli](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Greiðsluyfirlit Omni-rásar](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

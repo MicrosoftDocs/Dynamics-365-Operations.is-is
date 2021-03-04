@@ -46,3 +46,6 @@ Til að gera það auðveldara að uppgötva sérstakar eða tengdar grunnstilli
 [![Notuð sía og innflutningur fyrir gerð viðskiptaskjala](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Síaðar niðurstöður er hægt að flytja inn í RCS-geymslu notenda eða í Dynamics 365 Finance-umhverfi, annaðhvort hverja fyrir sig eða saman. Til að gera þetta skaltu velja hóp stillinga og smella á **Flytja inn**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

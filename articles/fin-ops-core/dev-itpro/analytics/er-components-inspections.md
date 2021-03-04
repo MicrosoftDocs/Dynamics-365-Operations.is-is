@@ -813,3 +813,6 @@ Til að fá upplýsingar um hvernig hægt er að samstilla sniðsskipulagið vi�
 [Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

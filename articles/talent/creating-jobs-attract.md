@@ -157,3 +157,6 @@ Fylgdu þessum skrefum til að búa til starf.
 
 13. Til að virkja starfið skaltu velja **Virkja**.
 14. Til að auglýsa starf, farðu til **Starfsauglýsingar** og veldu síðan **Auglýsa núna** á síðu Talent Careers eða LinkedIn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

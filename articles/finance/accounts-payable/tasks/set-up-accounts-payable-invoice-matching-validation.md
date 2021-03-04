@@ -98,3 +98,6 @@ Farðu í **Viðskiptaskuldir > Uppsetning > Uppsetning reikningsjöfnunar > Vik
 
 1. Til að tilgreina vikmörk fyrir einstaka lánardrottna sem hnekkja sjálfgefnum vikmörkum skaltu velja **Lánardrottnalykill**.
 2. Færa skal inn fráviksprósentu sem telst viðunandi fyrir þennan lánardrottinn.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

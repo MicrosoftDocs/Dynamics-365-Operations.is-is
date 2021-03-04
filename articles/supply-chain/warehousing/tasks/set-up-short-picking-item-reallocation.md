@@ -64,3 +64,6 @@ USMF sýniútgáfu fyrirtækis notað til að stofna þetta ferli.
 6. Í listanum skal velja **Notandakenni**. Til dæmis 24.
 7. Stækkið flýtiflipann **Verk**.
 8. Velja skal **Já** í svæðinu **Leyfa handvirka endurúthlutun vöru**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

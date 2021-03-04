@@ -91,3 +91,6 @@ Ef þú hefur virkjað eiginleikann **Útvíkkun á útfærslum á ER sniði sem
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Umgjörð API rafrænnar skýrslugerðar (ER)](er-apis-app73.md)
 - [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

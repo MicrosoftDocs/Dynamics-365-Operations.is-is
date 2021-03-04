@@ -48,3 +48,6 @@ Til að skoða færslur leigueignar skal velja leigusamning á síðunni **Saman
 Til að skoða færslur leigukostnaðar skal velja leigusamning á síðunni **Samantekt leigusamnings** og síðan velja **Bækur** til að opna bækurnar sem eru tengdar við færslu leigusamnings. Veljið svo **Kostnaðarfærslur**.
 
 **Kostnaðarfærslur** síðan sýnir allan kostnað sem hefur verið bókaður á móti leigunni, svo sem vaxtakostnað, afskriftarkostnað og annan rekstrarkostnað.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

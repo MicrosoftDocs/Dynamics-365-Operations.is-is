@@ -61,3 +61,6 @@ ms.locfileid: "4430544"
 6. Í reitinn **Kenni vinnuklasa** skal færa inn gildi. Tiltekt og frágangs leiðbeiningar eru stilltar. Tiltektar-/frágangspör verða að hafa sama vinnuklasa. Notið sama vinnuklasa sem fram voru lögð fyrir tiltektarfyrirmæli.  
 7. Veljið **Vista**. Athugaðu að núna er merkt í gátreitinn **Gildir**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

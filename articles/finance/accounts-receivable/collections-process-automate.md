@@ -118,3 +118,6 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Bóka innheimtubréf sjálfkrafa           |     Gerðir aðgerða fyrir innheimtubréf munu birta bréfið meðan sjálfvirknin er í gangi.                                      |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Stofna verkþætti fyrir sjálfvirkni                |     Stofnið og lokið verkþáttum fyrir gerðir aðgerðar sem ekki eru verkþáttargerðar til að skoða öll sjálfvirku skrefin sem eru tekin á reikningi.        |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Dagar sem geyma á sjálfvirkni innheimtuferlis     |     Skilgreinir fjölda daga sem innheimtuferill er geymdur.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

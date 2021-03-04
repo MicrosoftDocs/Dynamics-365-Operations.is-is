@@ -478,3 +478,6 @@ Fyrir þessa atburðarás mun móttökustarfsmaður skrá magn á innleið sem e
     - **Magn** - Sláðu inn _7_, sem er eftirstandandi magn sem lánardrottinn hefur leyfi til að afhenda sem hluta af heildarinnkaupapöntunarmagni 12 (þar sem 10 er upphaflegt pöntunarmagn og 2 er leyfilegt magn ofafhendingar upp á 20 prósent). Mundu að 5 stk hafa þegar verið skráð gegn fyrsta farmi.
 
 Annar farmurinn hefur nú verið uppfærður með magninu 7 og er hægt að fá uppfæra eftir innhreyfingarskjali afurða miðað við þetta magn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

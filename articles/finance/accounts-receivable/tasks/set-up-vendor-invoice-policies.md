@@ -73,3 +73,6 @@ ms.locfileid: "4444399"
 16. Veljið **Í lagi**.
 17. Lokið síðunum til að fara aftur á heimasíðuna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

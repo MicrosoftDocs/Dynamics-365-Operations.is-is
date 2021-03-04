@@ -100,3 +100,6 @@ Til að birta vefslóð skal fylgja þessum skrefum.
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
 [Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

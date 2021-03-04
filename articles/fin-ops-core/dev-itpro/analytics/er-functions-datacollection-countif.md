@@ -69,3 +69,6 @@ Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Raf
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Gagnasöfnunaraðgerðir](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

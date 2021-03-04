@@ -37,3 +37,6 @@ ms.locfileid: "4430196"
 5. Í reitnum Stilling velurðu „óbeint“.
 6. Velja 'Sameina númeraplötur' í reitnum verkþáttakóði
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

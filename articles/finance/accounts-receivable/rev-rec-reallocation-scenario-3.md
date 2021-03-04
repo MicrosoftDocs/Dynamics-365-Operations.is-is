@@ -81,3 +81,6 @@ Sölupöntunin er reikningsfærð aftur vegna vörunnar sem bætt var við. Heil
 [![Síða fylgiskjalsfærsla með bókhaldsfærslu sem eru bókuð](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Vegna þess að samtala tekna og sölu er meiri en $319,50 er mismunurinn bókaður fyrir -$14,48. Þessi upphæð hreinsar stöðuna úr tekjum millireiknings. Sú staða var uppfærð í nýju bókhaldsfærslunni sem var bókuð eftir endurúthlutun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

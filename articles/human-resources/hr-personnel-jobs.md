@@ -87,3 +87,6 @@ Verkefnum starfs er viðhaldið með því að nota síðuna **Verkefni starfs**
 
 ## <a name="steps-for-creating-a-job"></a>Skref til að stofna starf
 Sjá greinina [Skilgreina ný störf](../fin-and-ops/hr/tasks/define-new-jobs.md) fyrir skref fyrir skref aðferð til að stofna til nýtt starf. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ Fyrirtæki geta boðið starfsmönnum upp á margar mismunandi leyfisgerðir. Hi
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Skoðaðu afkastaupplýsingar fyrir beinar og útbreiddum skýrslum í sjálfsafgreiðslu stjórnanda
 
 Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum skýrslum sínum og framlengdum skýrslum sínum. Eins og er, geta línustjórnendur úthlutað og uppfært árangursmörk og gefið út nýjar umsagnir. Að auki geta beinar stjórnendur og starfsmenn þeirra viðhaldið og uppfært afkastabækur til að tryggja að ferli afkastarýni gangi vandræðalaust. Þegar þessi breyting er framkvæmd verða stjórnendur að geta skoðað og viðhaldið árangursskyldum upplýsingum um útbreiddar skýrslur auk þeirra beinna skýrslna.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

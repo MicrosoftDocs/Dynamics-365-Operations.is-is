@@ -85,3 +85,6 @@ Viðbótarupplýsingar um þennan eiginleika er að finna í [Kennsla í Office-
 ## <a name="other-fixes"></a>Aðrar lagfæringar
 
 Þessi útgáfa felur einnig í sér fjölda villuleiðréttinga, viðbót nýrra eininga, lagfæringar á núverandi einingum og staðbundnar breytingar á merkjum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

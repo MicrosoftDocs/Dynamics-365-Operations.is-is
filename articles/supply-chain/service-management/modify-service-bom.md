@@ -72,3 +72,6 @@ Hægt er að skrá sögu einingar innan þjónustuuppskriftar. Í hvert skipti s
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

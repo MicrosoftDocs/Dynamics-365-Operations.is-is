@@ -126,3 +126,6 @@ Hægt er að flytja inn einingahóp í fyrirliggjandi einingahóp. Allir eininga
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

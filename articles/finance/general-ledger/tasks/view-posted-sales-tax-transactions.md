@@ -49,3 +49,6 @@ ms.locfileid: "4444482"
 2. Á Aðgerðasvæðinu skal velja **Kóði virðisaukaskatts**.
 3. Veldu **Bókaður virðisaukaskattur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

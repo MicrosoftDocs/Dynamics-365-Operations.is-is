@@ -90,3 +90,6 @@ Viðbyggingin hefur að geyma gagnapakka sem kallast „RecoMockDataset.csv” s
 [Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

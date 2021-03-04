@@ -230,3 +230,6 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

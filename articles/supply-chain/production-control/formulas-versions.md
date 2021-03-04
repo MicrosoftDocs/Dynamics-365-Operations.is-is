@@ -71,3 +71,6 @@ Aðeins er hægt að nota kvörðunareiginleikann ef allir íhlutir vörunnar í
 
 ## <a name="use-step-consumption"></a>Nota skrefanotkun
 Með skrefaneyslu þarf ekki að slá inn magn á flipann **Formúlulína** fyrir innihaldsefni. Í staðinn er skrefaneysla stillt þannig að það hefur gildi **Frá-röð** og **Magn**. Upplýsingarnar úr skrefaneyslu eftir skrefafærslu sem passar við magnið á runupöntuninni eru þess í stað valdar. Skrefanotkun er gagnleg þegar neysluhlutfallið er ekki línulegt við runupöntunarstærð og eykur aðeins kröfur þegar tilteknum magnþröskuldi er náð. Til að virkja þennan eiginleika fyrir nýja formúlu skal, undir **Útreikningur notkunar**, breyta formúlustillingu fyrir viðeigandi innihaldsefni úr **Venjulegt** í **Skref**. Þessi neysluaðferð er tilgreind á flipanum **Uppsetning** á síðunni **Formúlulína**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

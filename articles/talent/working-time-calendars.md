@@ -56,3 +56,6 @@ Til að setja upp dagatal skal fylgja þessum skrefum:
 10. Til að úthluta dagatali á starfsmann skaltu velja **Úthluta til starfsmanna** á aðgerðasvæðinu. Veldu þá starfsmenn sem þú vilt úthluta þessu dagatali og smelltu síðan á **Úthluta**.
 
 Starfsmenn þurfa ekki að vera með dagatal úthlutað. Ef vinnutímadagatal er skilgreint, eru frídagar sjálfkrafa útilokaðir frá beiðninni. Upphæðin, í klukkustundum eða dögum, fellur sjálfkrafa að vinnustundunum sem eru skilgreindar í dagatalinu. Ef starfsmanni hefur ekki verið úthlutað dagatali eru allir dagar tiltækir fyrir frí og magn frítíma er ekki sjálfgefið fyrir beiðnina. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

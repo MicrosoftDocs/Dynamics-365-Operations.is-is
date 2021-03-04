@@ -90,3 +90,6 @@ Nánari upplýsingar er að finna í [Skatthlutfall virðisaukaskatts á grundve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

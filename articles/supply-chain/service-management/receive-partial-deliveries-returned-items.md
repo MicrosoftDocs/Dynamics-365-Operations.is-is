@@ -51,3 +51,6 @@ Ef vöruskilasending inniheldur minna en allt magnið í skilapöntunarlínu, er
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

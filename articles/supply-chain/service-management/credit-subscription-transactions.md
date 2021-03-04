@@ -56,3 +56,6 @@ Ef **Bakfærð uppsöfnun á gjaldfærslu** reiturinn í **Færibreytur Þjónus
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

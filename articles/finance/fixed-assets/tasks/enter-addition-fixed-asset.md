@@ -46,3 +46,6 @@ Ferlið notar Bókari hlutverk og sýnigögn gögn fyrir USMF lögaðila.
     * Stilltu **Eykur líftíma** á **Já** ef viðbótin eykur líftíma eignarinnar.  
     * Þetta svæði er einungis til upplýsingar. Til að auka líftíma skal breyta líftíma á virðislíkön og/eða afskriftarbókum fyrir eignina.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Aðgengilegu upplýsingarnar eru nafn lánardrottins, aðsetur, tengslaupplýsin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stjórnun notenda samstarfs lánardrottna](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

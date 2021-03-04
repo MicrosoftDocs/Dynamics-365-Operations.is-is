@@ -51,3 +51,6 @@ ms.locfileid: "4444516"
 ## <a name="view-the-imported-cost-centers"></a>Skoða innflutta kostnaðarstaði
 1. Smelltu á Skoða víddarstök.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

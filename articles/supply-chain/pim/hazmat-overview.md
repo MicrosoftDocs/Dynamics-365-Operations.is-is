@@ -62,3 +62,6 @@ Frekari upplýsingar um hvernig setja á upp reglugerðir og gildi fyrir hættul
 ## <a name="warehouse-management"></a>Vöruhúsakerfi
 
 Þegar sending er undirbúin í vöruhúsakerfinu er hægt að prenta út margar nýjar skýrslur sem nota upplýsingarnar sem eru settar upp í afurðaupplýsingastjórnun. Frekari upplýsingar um tiltækar skýrslur og hvernig á að nota þær er að finna í [Fyrirspurnir og skýrslur um hættuleg efni](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

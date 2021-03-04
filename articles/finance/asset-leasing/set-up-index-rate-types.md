@@ -43,3 +43,6 @@ Velja verður annað hvort **Gildismun vaxtavísitölu** eða **Gildi vaxtavísi
 
 - Veldu aðferðina **Gildismun vaxtavísitölu** til að reikna út nýja leigugreiðslu miðað við mismuninn á milli vaxtavísitölu á upphafsdeginum og nýjustu vaxtavísitölunni. Vaxtavísitalan er skilgreind í svæðinu **Vaxtavísitala (%)**.
 - Veldu aðferðina **Gildi vaxtavísitölu** til að reikna út leigugreiðsluna með því að nota prósentuhlutfallið sem er tilgreint í svæðinu **Vaxtavísitala (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

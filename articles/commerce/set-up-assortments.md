@@ -55,3 +55,6 @@ Eftir að forkröfur er lokið er hægt að stofna úrval og úthluta á rásir.
 2. Veljið rásir eða hástigs flokka af rása sem úrvalið á við.
 3. Bæta afurðaflokka, stakar afurðir eða afurðarafbrigði við úrvali. Hægt er að taka með allar vörur í tiltekinni tegund, eða hægt er að útiloka valdar afurðir úr tegund sem er tekin með í úrvalið.
 4. Birta vöruúrval Verkraðari úrvals er keyrður sjálfkrafa þegar úrval er birt. Þetta ferli myndar lista yfir afurðir. Síðan þegar þessu ferli er lokið verða þessar afurðir tiltækar til rása sem er tengdur við úrvalið. Ef breytingar eru gerðar á úrval sem hefur verið birt eða á rás sem úrvalinu er úthlutað á, þarf að uppfæra úrvalinu. Hægt er að keyra verkraðari úrvals sem runuvinnslu til að uppfæra úrvalinu þegar breytingar eru gerðar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

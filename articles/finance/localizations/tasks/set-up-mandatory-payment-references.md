@@ -58,3 +58,6 @@ Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sér
 13. Smellið á „Vista“.
 14. Smellið á „Bóka“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

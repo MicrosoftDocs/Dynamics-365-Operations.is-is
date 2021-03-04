@@ -53,3 +53,6 @@ Til að skoða stöðu afnotaréttar af eign og afskriftarupphæðir í annaðhv
 Hægt er að reikna út heildarupphæð afskrifta með því að nota örlítið annað gengi, þannig að afnotaréttur af eign sé að fullu afskrifaður bæði í bókhaldsgjaldmiðlinum og skýrslugjaldmiðlinum.
 
 Ef leigusamningurinn hefur verið endurflokkaður sem **Frestaðar leigugreiðslur** hreinsar kerfið sjálfkrafa gengi bókhalds-og skýrslugjaldmiðla, ef það hefur þegar verið skilgreint.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

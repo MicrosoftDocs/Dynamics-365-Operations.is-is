@@ -63,3 +63,6 @@ Kommur og punktar (.) skoðast sem skiltákn aukastafa, og bandstrik fremst (-) 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Aðgerðir fyrir umbreytingu á gerð](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

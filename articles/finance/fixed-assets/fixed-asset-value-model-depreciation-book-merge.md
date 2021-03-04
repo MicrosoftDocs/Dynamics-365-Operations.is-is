@@ -71,3 +71,6 @@ Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi fær
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

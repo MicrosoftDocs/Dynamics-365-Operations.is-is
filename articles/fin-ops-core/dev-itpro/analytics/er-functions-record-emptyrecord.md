@@ -60,3 +60,6 @@ Skráargildið sem verður til.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Færsluvirkni](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

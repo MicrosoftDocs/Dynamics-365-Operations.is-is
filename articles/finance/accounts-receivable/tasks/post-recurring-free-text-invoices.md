@@ -46,3 +46,6 @@ Endurteknir reikningar eru notaðar til að reikningsfæra viðskiptavini reglul
 6. Smellið á „Bóka“.
     * Bóka valda reikninginn  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

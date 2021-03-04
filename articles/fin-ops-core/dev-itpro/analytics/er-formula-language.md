@@ -174,3 +174,6 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Listi yfir virkni rafrænnar skýrslugerðar lengdur](general-electronic-reporting-formulas-list-extension.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Til að byrja að nota forstilltar skipulag, sjá [Vinna með forstillt skipulag
 [Vinna með forstillt útlit](work-with-layouts.md)
 
 [Unnið með birta hópa](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

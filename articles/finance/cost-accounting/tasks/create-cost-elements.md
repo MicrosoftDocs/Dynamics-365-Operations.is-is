@@ -58,3 +58,6 @@ ms.locfileid: "4444517"
 1. Smelltu á Skoða víddarstök.
     * Lítið á innflutt fjárhagslykla sem kostnaðareiningar í fyrirtækinu sem kostnaður getur streymt inn í.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

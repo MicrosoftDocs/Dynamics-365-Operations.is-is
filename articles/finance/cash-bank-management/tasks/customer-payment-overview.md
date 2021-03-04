@@ -52,3 +52,6 @@ ms.locfileid: "4444365"
 21. Færið inn greiðslutilvísun í reitnum **Greiðslutilvísun**. Aðeins er krafist greiðslutilvísunar ef merkt er við að greiðslan sé tekin með á innborgunarseðli.  
 22. Í **Aðgerðarúðunni** smellirðu á **Bóka** til að bóka greiðslur viðskiptavinar. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

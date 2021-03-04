@@ -53,3 +53,6 @@ Ef bæta á við nýjum framleiðsluvörum í gegnum fryst tímabil, skal fylgja
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

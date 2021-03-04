@@ -130,3 +130,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 3. Smelltu á **Fletta** og veldu skrána **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Smellt er á **OK**.
 5. Yfirfara myndaða skrá. Athugaðu að sama skrá hefur verið flutt inn þar sem sniðshönnunin telur nú að eigindin „kenni“ fyrir eininguna „fylgiskjal“ sé valfrjáls.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

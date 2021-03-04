@@ -95,3 +95,6 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 >[!NOTE]
 >Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er venjuleg uppsetning með öðrum forritum Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

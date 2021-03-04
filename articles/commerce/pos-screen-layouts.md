@@ -205,3 +205,6 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Setja upp útlitshönnuð smásöluverslunar (POS)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

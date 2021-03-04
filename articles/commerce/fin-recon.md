@@ -62,3 +62,6 @@ Aðgerðin **Loka vakt** á sölustað staðfestir einnig að allar færslur í 
 Upplýsingar um fjárhagsafstemmingu fyrir vakt eru samstilltar við Commerce Headquarters með því að nota P-verk.
 
 Fjárhagsuppgjör smásölu í Commerce Headquarters reikna ekki út samtölur til að sýna upplýsingar í uppgjörslínunum. Þess í stað eru lokaupphæðir í biðlara sölustaðar notaðar til að búa til og bóka fjárhagsuppgjör smásölu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

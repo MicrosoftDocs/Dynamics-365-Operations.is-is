@@ -53,3 +53,6 @@ Efnið útskýrir hvernig á að setja upp samþykktarverkflæði sem verður ke
 14. Á síðunni **Stofna verkflæði** skal velja **Loka**.
 14. Veldu nýja verkflæðið og veldu því næst **Útgáfur**. Síðan skal velja **Virkja** til að tryggja að verkflæðið sé virkt.
 15. Veljið **Loka**. Nýja virka útgáfan birtist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

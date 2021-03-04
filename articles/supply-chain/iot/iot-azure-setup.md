@@ -162,3 +162,6 @@ Til að vista leyniorðið fyrir tengistreng Redis-skyndiminnis skal fylgja þes
 > Þegar einn af tengistrengnum er uppfærður þarf einnig að uppfæra leynigildin.
 
 Nú er úthlutun nauðsynlegra Azure-tilfanga lokið. Næsta skref er að [setja upp IoT-gervigreind viðbótina í Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

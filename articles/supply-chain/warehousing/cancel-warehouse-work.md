@@ -45,3 +45,6 @@ Aðeins er hægt að hætta við vinnu af gerðinni **Sala**, **Flutningsútgáf
 Til að opna verkið hættir kerfið öllum vinnulínum sem eftir eru og lagfærir vöruhúsgögnin sem eru tengd vinnukenninu sem notandinn tilgreindi. Allar venjulegar aðgerðir meðhöndlunar í vöruhúsi sem fela í sér vörumagn sem verða fyrir áhrifum geta síðan haldið áfram.
 
 Til að setja vöruna á tiltekinn stað eftir að vinnunni er aflýst, verður notandinn að nota birgðahreyfingu eða magnleiðréttingaraðgerð í fartæki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

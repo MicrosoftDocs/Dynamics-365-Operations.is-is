@@ -82,3 +82,6 @@ Ef leigusamningi hefur verið breytt er hægt að skoða mismunandi útgáfur af
 
 2. Til að skoða eldri áætlanir skal opna breyttan leigusamning á síðunni **Samantekt leigusamnings** velja viðeigandi bók og velja síðan **Útgáfuferill bókar** á aðgerðasvæðinu.
 3. Á síðunni **Bókaútgáfa** skal velja æskilega útgáfu og æskilega áætlun til skoðunar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

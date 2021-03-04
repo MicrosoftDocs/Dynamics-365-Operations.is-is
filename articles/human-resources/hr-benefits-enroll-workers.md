@@ -58,3 +58,6 @@ ms.locfileid: "4418942"
 14. Í listanum skal smella á tengilinn í valinni línu.
 15. Þessi síða gerir kleift að skoða hvaða starfsmenn eru skráðir í fríðindi, ásamt öllum starfsmönnum sem voru ekki skráður.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

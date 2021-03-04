@@ -97,3 +97,6 @@ Eftirfarandi dæmi sýnir hvernig hægt er að fá listann yfir einkvæmt númer
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listaaðgerðir](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

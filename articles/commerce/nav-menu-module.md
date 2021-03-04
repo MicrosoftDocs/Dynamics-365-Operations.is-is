@@ -72,3 +72,6 @@ Frekari upplýsingar um hvernig á að bæta við einingu yfirlitsvalmyndar í h
 [Reglufylgni köku](cookie-compliance.md)
 
 [Eining síðuhauss](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

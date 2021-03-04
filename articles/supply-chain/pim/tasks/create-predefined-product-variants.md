@@ -72,3 +72,6 @@ ms.locfileid: "4430333"
     * Hægt er að mynda lýsingar fyrir öll afbrigði á grundvelli samsetninga á afurðarvíddargildum. Lýsing er valfrjálst.  
 5. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

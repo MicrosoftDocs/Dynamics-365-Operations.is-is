@@ -52,3 +52,6 @@ Eftirfarandi efnisatriði lýsa því hvernig áætlunarforritið vinnur, þegar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

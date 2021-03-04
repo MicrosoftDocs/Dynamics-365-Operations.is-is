@@ -102,3 +102,6 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarsp�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

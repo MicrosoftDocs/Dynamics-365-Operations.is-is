@@ -42,3 +42,6 @@ Vörustaðfesting fyrir klasatiltekt gengur eins fyrir sig og þegar vörur eru 
 |        Valkostur        |                                    lýsing                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Staðfesting afurðar | Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

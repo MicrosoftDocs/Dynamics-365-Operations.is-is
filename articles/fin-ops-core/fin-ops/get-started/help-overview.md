@@ -164,3 +164,6 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 | [Samfélag Dynamics](https://community.dynamics.com/) | Þetta vefsvæði hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Þetta vefsvæði veitir upplýsingar um mat og sölu. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Þetta svæði hýsir þjálfunarefni, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Notendur kunna að þurfa að vera með þjónustuáætlun til að fá aðgang að einhverjum tilföngum á þessu svæði. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Eftirfarandi mynd sýnir dæmi um útskráningarsíðu e-Commerce sem inniheldur
 [Eining pöntunarstaðfestingar](order-confirmation-module.md)
 
 [Pöntunarupplýsingaeining](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

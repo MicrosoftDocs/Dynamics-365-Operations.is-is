@@ -42,3 +42,6 @@ Eftir að afskriftarreglurnar fyrir eignir eru uppfærðar er hægt að vinna af
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

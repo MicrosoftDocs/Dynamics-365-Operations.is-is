@@ -72,3 +72,6 @@ ms.locfileid: "4430276"
 5. Veldu **Staðfestingar innkaupasamnings**. Valkosturinn **Forskoðun/Prenta** gerir kleift að búa til skjal fyrir innkaupasamning sem síðan er hægt að prenta eða senda til lánardrottins. Ef þú uppfæra samning síðar og staðfesta hann aftur, verða báðar útgáfur sýnd hér.  
 6. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

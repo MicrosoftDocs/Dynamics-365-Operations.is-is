@@ -341,3 +341,6 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Heimasíða stækkunarhæfni](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

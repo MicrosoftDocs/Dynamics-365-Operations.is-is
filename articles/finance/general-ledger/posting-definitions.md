@@ -62,3 +62,6 @@ Eftirfarandi takmarkanir eiga við þegar stofnaðir eru tengla í bókunarskilg
 Frekari upplýsingar eru í [Dæmi um bókunarskilgreiningu](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

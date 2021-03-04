@@ -99,3 +99,6 @@ Opnaðu þetta skjal í Word og gerðu eftirfarandi:
 16. Smellt er á **OK**.
 17. Smellt er á **OK**. Greina myndað úttak. Athuga að myndað úttak er sett fram í Word-snið og inniheldur upplýsingar um unnar greiðslur.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

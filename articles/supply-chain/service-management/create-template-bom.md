@@ -111,3 +111,6 @@ Nýtt sniðmátsuppskrift er búið til með því að nota línur sem samsvara 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

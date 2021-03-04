@@ -169,3 +169,6 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
 
 [Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

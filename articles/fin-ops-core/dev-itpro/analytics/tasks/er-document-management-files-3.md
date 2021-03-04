@@ -119,3 +119,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 23. Smellið á „Vista“.
 24. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

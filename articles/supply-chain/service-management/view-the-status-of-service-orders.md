@@ -55,3 +55,6 @@ Til að geta á fljótlegan hátt auðveldað þér að meta hversu brýn þjón
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

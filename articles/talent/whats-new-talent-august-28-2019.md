@@ -90,3 +90,6 @@ Sjá frekari upplýsingar í [Einfaldaður innsláttur og skoðun starfsmanns](.
 ### <a name="platform-update-29"></a>Update 29 fyrir verkvang
 
 Frekari upplýsingar um verkvangsuppfærslu 29 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 29 (október 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Til að
     * Intrastat sýnivörpun  
 5. Smelltu á Stofna skilgreiningu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

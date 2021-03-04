@@ -140,3 +140,6 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

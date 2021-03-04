@@ -72,3 +72,6 @@ Nýja **Kostnaðarfærslu** síðu gerir kleift að skoða og stýra skráningar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

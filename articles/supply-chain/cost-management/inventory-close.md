@@ -87,3 +87,6 @@ Ef margar viðvaranir berast í skilaboðunum, er mælt með að bregðast við 
 > [!NOTE] 
 > Aðeins er hægt að opna aftur síðasta birgðatímabil sem var lokað. Til að bakfæra fyrri birgðalokun verður að bakfæra hverja síðari birgðalokun eina í einu, byrja á nýjustu lokuninni.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

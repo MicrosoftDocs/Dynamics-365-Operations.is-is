@@ -199,3 +199,6 @@ Ef innflutningurinn heppnast, munu berast boð sem tilgreinir að uppgjör þitt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

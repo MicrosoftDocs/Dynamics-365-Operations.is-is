@@ -59,3 +59,6 @@ Næst skal kveikja á skilgreiningarlyklinum **Umsjón hönnunarbreytinga** með
 1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
 1. Stækkaðu reitinn **Viðskipti** og veldu gátreitinn **Umsjón hönnunarbreytinga**.
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

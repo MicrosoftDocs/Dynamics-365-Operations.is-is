@@ -194,3 +194,6 @@ Eftirfarandi mynd sýnir dæmi um viðhaldsáætlanir settar upp á eign á sí�
 
 ![Mynd 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

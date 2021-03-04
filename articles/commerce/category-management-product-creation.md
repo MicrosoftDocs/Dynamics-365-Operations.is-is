@@ -57,3 +57,6 @@ Auk þess getur vörustjóri í betrumbættu byggingunni á flokkum afurðar nú
 Hægt er að nota nýju betrumbættu bygginguna fyrir eiginleika afurðar til að velja hvaða uppfærðu eiginleikar afurðar á að flytja til tengdra afurða. Á síðunni **Afurðastigveldi Commerce**, skal velja á aðgerðasvæðinu **Flokkur** og síðan velja **Uppfæra afurðir** til að opna svargluggann **Uppfæra afurðir**.
 
 ![Uppfæra svarglugga afurða](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

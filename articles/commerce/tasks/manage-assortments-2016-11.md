@@ -55,3 +55,6 @@ ms.locfileid: "4413198"
 1. Smelltu á Birta.
 2. Smella á Já.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

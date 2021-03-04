@@ -216,3 +216,6 @@ Hlðarsvæði sýnir nýjustu niðurstöður framkvæmdarinnar fyrir ferlið. H�
 [Stofna og breyta sýndareiningum sem innihalda gögn frá ytri gagnagjafa](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Hvað eru Power Apps-gáttir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Yfirlit yfir stofnun forrita í Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

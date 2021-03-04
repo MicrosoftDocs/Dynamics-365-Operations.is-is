@@ -54,3 +54,6 @@ ms.locfileid: "4444442"
     * Athugaðu að afskriftartímabils er reiknað eftir uppsetningu líftíma.  
     * Er hægt að setja afskriftarreglan eins og krafist er hvað varðar skatta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

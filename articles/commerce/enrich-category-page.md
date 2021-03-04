@@ -65,3 +65,6 @@ Til að auðga flokkasíðu skaltu gera eftirfarandi.
 [Bæta vörusíðu](enrich-product-page.md)
 
 [Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Til að nota samþætta þjónustu [Microsoft Accessibility Insights](https://ac
 [Bæta vörusíðu](enrich-product-page.md)
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

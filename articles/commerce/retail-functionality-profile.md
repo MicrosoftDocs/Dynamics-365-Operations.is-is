@@ -64,3 +64,6 @@ Eftirfarandi mynd sýnir dæmi um virknireglu.
 [Yfirlit skjáútlits](pos-screen-layouts.md)       
 
 [Skilgreina og setja upp Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

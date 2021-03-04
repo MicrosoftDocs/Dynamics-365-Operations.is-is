@@ -195,3 +195,6 @@ Fyrir viðskiptavini sem hafa ekki enn kveikt á eiginleikanum [Vistuð yfirlit]
 Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Til dæmis notar þú sérstillingu til að fela dálk sem inniheldur birgðavídd rununúmers, en dálkurinn birtist næst þegar síðunni er opnuð. Þessi hegðun á sér stað vegna þess að **Birting vídda** stillingarnar stjórna birgðavíddadálkunum sem eru sýndir. **Birting vídda** stillingarnar eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á einstökum síðum.
 
 Þar af leiðandi, í dæminu hér á undan, ef þú vilt ekki að dálkurinn fyrir birgðavídd rununúmers birtist á síðu verður þú að hreinsa þá vídd sem hluta af valkostinum **Sýna víddir** fyrir þá síðu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

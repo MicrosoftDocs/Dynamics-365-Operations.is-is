@@ -239,3 +239,5 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 > [!TIP]
 > Þú getur endurtekið þessar aðstæður, en í þetta sinn skaltu stilla **Stærð** - *Nei* fyrir neðan **Leyfa blöndun á afurðarvídd** flýtiflipann á *Staðsetningarforstillingar* **Magns**, þannig að ekki sé hægt að blanda saman afurðarvíddum. Í þessu tilfelli, þegar þú færð innkaupapöntunina, verður hvert afurðarafbrigði sett á nýja staðsetningu.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en 
 
 5. Til að skoða endurgreiðslufærslur sem voru stofnaðar, skal nota skýrsluna **Endurgreiðsla** (**Viðskiptakröfur \> Fyrirspurnir og skýrslur \> Endurgreiðsluskýrsla**).
 6. Í Viðskiptaskuldir, stofnið greiðslu fyrir reikninga lánardrottins sem voru stofnaðir sem afleiðing af endurgreiðsluferlinu. Upplýsingar um hvernig greiða á lánardrottnum er að finna í [Yfirlit yfir greiðslu lánardrottins](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

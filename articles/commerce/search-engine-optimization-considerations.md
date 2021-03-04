@@ -56,3 +56,6 @@ Vegna þess að Dynamics 365 Commerce styður „það sem þú sérð er það 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
 [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

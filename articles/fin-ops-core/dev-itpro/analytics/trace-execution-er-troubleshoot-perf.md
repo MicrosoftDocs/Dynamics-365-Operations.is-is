@@ -376,3 +376,6 @@ Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá i
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með REIKNAÐA REITI með færibreytum](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Aðgerðin `TRANSLATE` kemur í stað eins stafs í einu. Aðgerðin skiptir út
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Textaaðgerðir](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

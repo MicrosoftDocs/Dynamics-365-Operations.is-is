@@ -70,3 +70,6 @@ ms.locfileid: "4430299"
 7. Smellið á „Breyta“.
 8. Sláðu inn eða veldu gildi í reitnum launasamningur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

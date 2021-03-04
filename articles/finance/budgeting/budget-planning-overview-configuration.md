@@ -205,3 +205,6 @@ Einnig er hægt að nota valmyndina **Aðgerðir** til að stofna nýtt ferli me
 Annað gagnlegt skipun í **Aðgerðir** valmyndinni er **Skoða stöðu ferlis fjárhagsáætlunar**. Þessi skipun sýnir myndrænt fjárhagsáætlunargerðir í ferli, með viðeigandi gögnum, eins og verkflæðisstöðu áætlana, samantektir eftir upphæð og einingu og eins smells flettingu í fjárhagsáætlunargerðir sjálfar.
 
 [![Ferli fjárhagsáætlunargerðar](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

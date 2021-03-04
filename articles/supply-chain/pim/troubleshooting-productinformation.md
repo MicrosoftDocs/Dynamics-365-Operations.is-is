@@ -152,3 +152,6 @@ Ef afurðarafbrigði hefur þegar verið losað í fyrirtæki A, og reynt er að
 Hnappurinn **Nýtt** á síðunni **Útgefin afurðarafbrigði** stofnar afbrigðið og losar það í samhengi fyrirtækisins. Ef afbrigðið hefur þegar verið stofnað er ekki hægt að nota hnappinn **Nýtt** til að losa það í annað fyrirtæki.
 
 Til að laga vandamálið skal opna síðuna **Afurðarsniðmát** og velja **Losa afurð** til að losa fyrirliggjandi afbrigði í æskilegt fyrirtæki.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

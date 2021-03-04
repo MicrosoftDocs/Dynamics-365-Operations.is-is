@@ -72,3 +72,6 @@ Með því að nota geymsluálagsstillinguna sem þú valdir í uppsetningu plá
 
 4. Í reitnum **Álagsgerð** skaltu velja **Rúmmál** eða **Þyngd** til að tilgreina rekstrareiningu vöruhússins fyrir áætlun á plássi.
 5. Í reitnum **Uppsetning plássnotkunar** skal velja uppsetningu plássnotkunar sem spáin á að byggjast á.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

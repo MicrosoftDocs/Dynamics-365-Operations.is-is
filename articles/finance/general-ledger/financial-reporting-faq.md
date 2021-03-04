@@ -88,3 +88,6 @@ Athugasemd: Ástæða ofangreindra skilaboða er að notandinn minn hefur ekki a
 2.  Flytja út skýrslu í Excel
 
 Nú ætti að vera hægt að afrita gögnin úr Excel-skýrslu fjárhagsskýrslugerðar yfir í prófjafnaðarskýrslu D365 og bera saman dálka „Lokunarstöðu“.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

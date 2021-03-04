@@ -48,3 +48,6 @@ Nánari upplýsingar eru í [Bóka í afleiddar bækur](post-derived-value-model
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

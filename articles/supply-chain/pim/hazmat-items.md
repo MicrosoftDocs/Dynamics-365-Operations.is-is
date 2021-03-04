@@ -221,3 +221,6 @@ Til að keyra samhæfisathugun þarf að fylgja þessum skrefum.
 1. Á aðgerðasvæðinu, í flipanum **Farmar**, í flokknum **Aðgerðir**, skal velja **Samhæfisprófun**.
 
 Skilaboð birtast sem sýna niðurstöður athugunarinnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

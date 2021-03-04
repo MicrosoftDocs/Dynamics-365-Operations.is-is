@@ -117,3 +117,6 @@ Annar munur milli gagnaeininga færslubókar er hæfnin til að nota samsettar e
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

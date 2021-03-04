@@ -63,3 +63,6 @@ Gerum ráð fyrir að fyrirtækið vilji takmarka gagnaaðgengi. Ef af einhverri
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 Til að fræðast nánar um Power BI öryggi á línustigi, sjá [Stjórna öryggi líkansins í Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

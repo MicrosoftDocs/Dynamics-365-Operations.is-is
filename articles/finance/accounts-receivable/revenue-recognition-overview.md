@@ -55,3 +55,6 @@ Verðið er reiknað annaðhvort þegar sölupöntun er staðfest eða þegar re
 Unnið er með upplýsingar úr tekjuskráningaráætlun fyrir hverja sölupöntunarlínu. Þar af leiðandi getur stjórnandi tekjuskráningar skoðað upplýsingarnar og losað línur í tekjur þegar samningsbundnum skyldum lýkur. Við lok hvers tímabils getur stjórnandi tekjuskráningar búið til færslubók fyrir tekjur til að losa allar áætlunarlínur sem eru á skilum á eða fyrir dagsetningu sem viðkomandi ákveður. Þessi færslubók tekna er ekki bókuð strax. Þar af leiðandi getur stjórnandi tekjuskráningar staðfest að rétt upphæð hafi verið losuð úr frestuðum tekjum í rauntekjur.
 
 Ef samningsbreytingar valda því að nýrri sölupöntunarlínu sé bætt við annaðhvort fyrirliggjandi sölupöntun eða nýja sölupöntun er hægt að keyra endurúthlutunarferli til að leiðrétta verðið á öllum línum sölupantana.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 23. Smellt er á Í lagi.
     * Endurskoða stofnað úttak. Úttakið hefur verið búið til sem MS Word skjal með ívafnar myndir þar sem lógó fyrirtækisins birtist, undirskrift frá viðurkenndum aðila og valinn texti vatnsmerkisins.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

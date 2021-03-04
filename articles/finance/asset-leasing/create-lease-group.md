@@ -50,3 +50,6 @@ Upplýsingunum sem voru slegnar inn er bætt við svæðið **Leigusamningsflokk
 1. Opnið **Eignarleiga \> Uppsetning \> Leigusamningsflokkur**.
 2. Veljið leigusamningsflokk og svo **Bækur**.
 3. Veljið **Nýtt** og síðan, á svæðinu **Bókargerð**, bókina sem á að úthluta á leigusamningsflokkinn. Hægt er að úthluta mörgum bókum á leigusamningsflokk ef taka þarf tillit til leigusamnings á mismunandi hátt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

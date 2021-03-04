@@ -346,3 +346,6 @@ Ef Electricity fyrirfram vídd stak úthlutunargrunn er úthlutað sem grunnur v
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Úthlutunargrunnar](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

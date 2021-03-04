@@ -41,3 +41,6 @@ Setja upp atvinnutegundir í Dynamics 365 Human Resources til að jafna starfsme
    | **Lýsing** | Lýsing á gerð starfs. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Apríl getur fara yfir lánardrottnafærslur á **lánardrottnafærslur** síðu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

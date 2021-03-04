@@ -68,3 +68,6 @@ Móttökuskilaboðin birtast nú efst á hverri síðu svæðis sem notar valið
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

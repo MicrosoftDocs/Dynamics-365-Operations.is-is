@@ -430,3 +430,6 @@ Hér er dæmi um kostnaðardreifingarreglu ef formúlu úthlutunargrunns fyrir f
 |    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × upphæð  |
 |    CC003    |     Upplýsingatækni      | 13,250.00 | (13.250,00 ÷ 18.162,50) × upphæð |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ ms.locfileid: "4430705"
 14. Í reitinn aukagjald skal slá inn númer.
 15. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

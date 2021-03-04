@@ -63,3 +63,6 @@ ms.locfileid: "4430066"
 8. Í listanum skal smella á tengilinn í valinni línu.
     * Velja reglu fyrir Speaker2016 hafa nýverið var stofnuð í fyrri undirverki.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

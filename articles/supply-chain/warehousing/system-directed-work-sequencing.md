@@ -305,3 +305,6 @@ Fyrirspurnir um kerfisstýrða vinnuröð eru *sameiginlegar*. Mikilvægt er að
 Þess vegna, í dæminu við þessar aðstæður, var vinnuauðkenni *4* einnig fangað af fyrirspurninni. Þegar það var búið var tveimur línum bætt við: ein fyrir 25 ea og önnur fyrir 10 ea. Vinnan birtist notandanum samt sem áður, því að minnsta kosti ein vinnulína hefur minna magn en 20 ea.
 
 Miðað við aðstæðurnar, getur þú komið í veg fyrir þessa aðgerð með því að nota vinnuhlé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

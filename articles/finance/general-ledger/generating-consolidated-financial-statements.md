@@ -224,3 +224,6 @@ Til að fá rétt umreiknaðar upphæðir þegar gjaldmiðlar eru notaðir, nota
 Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Sameiningar fjárhags á netinu](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

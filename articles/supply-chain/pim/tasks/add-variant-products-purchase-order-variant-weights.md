@@ -48,3 +48,6 @@ ms.locfileid: "4430737"
 17. Stillið magn á „1000“.
 18. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

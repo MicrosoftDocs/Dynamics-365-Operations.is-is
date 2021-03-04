@@ -67,3 +67,6 @@ Skráargildið sem verður til.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Other (lénsértæk virkni fyrir viðskipti)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

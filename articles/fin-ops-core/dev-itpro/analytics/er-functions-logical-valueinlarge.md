@@ -89,3 +89,6 @@ EXISTS (SELECT 'x' FROM tempdb."DBO".? T2 WHERE ((T2.PARTITION=?) AND (T1.RecId=
 [Rökfræðiaðgerðir](er-functions-category-logical.md)
 
 [VALUEIN aðgerðir](er-functions-logical-valuein.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

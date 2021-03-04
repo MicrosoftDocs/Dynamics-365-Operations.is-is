@@ -91,3 +91,6 @@ Hægt er að nota síur með ítarlegri fyrirspurn og síun þannig að eingöng
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Vörubirgðir (Supply Chain Management við Field Service): Product inventory
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

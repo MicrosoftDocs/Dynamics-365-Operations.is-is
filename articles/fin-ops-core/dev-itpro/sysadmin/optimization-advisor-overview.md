@@ -94,3 +94,6 @@ Til að gera mat óvirkt á tilgreindum reglum skal velja tækifærið sem regla
 [Búa til reglur fyrir fínstillingarráðgjöf](./create-rules-optimization-advisor.md)
 
 [Fínstillingarráðgjöf í Dynamics 365 for Finance and Operations (myndband)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

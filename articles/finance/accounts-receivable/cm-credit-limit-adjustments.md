@@ -124,3 +124,6 @@ Verkflæði **Leiðréttinga á lánamörkum** er hægt að nota til að senda l
 
 > [!NOTE]
 > Þegar þú býrð til verkflæðið **Leiðréttingar á lánamörkum** getur þú sett það upp þannig að leiðréttingarnar verða sjálfkrafa settar inn eftir að línurnar eru samþykktar. Hafðu bara verkið **Bóka dagbók sjálfkrafa** með í verkflæðinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

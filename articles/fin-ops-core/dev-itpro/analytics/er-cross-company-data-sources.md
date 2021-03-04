@@ -76,3 +76,6 @@ Sæka eftirfarandi skrár til að ljúka verkefnaleiðbeiningunni:
 
 - [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

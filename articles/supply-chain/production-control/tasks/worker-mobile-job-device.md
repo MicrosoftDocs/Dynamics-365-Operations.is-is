@@ -68,3 +68,6 @@ Fyrir þetta dæmi, staðfestið að notandinn „SHANNON“ hefur hlutverk stj�
 6. Í svæðið **eining Framleiðslu** er hægt að setja síu sjálfgefið fyrir starfsmann. Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu. Færa inn æskilegt gildi.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

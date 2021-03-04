@@ -45,3 +45,6 @@ Ef um er að ræða sjálfboðaliða eða aðra sem ekki eru starfsmenn er hægt
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

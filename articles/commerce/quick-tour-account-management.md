@@ -96,3 +96,6 @@ Nánari upplýsingar um reikningastjórnunareiningar og hvernig á að skrifa þ
 
 [Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

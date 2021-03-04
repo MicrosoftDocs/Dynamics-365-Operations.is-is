@@ -65,3 +65,6 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

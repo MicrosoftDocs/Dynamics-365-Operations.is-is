@@ -79,3 +79,6 @@ Hins vegar beitir `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` undantekni
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dagsetningar og tímavirkni](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

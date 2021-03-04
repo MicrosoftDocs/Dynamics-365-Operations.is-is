@@ -62,3 +62,6 @@ ms.locfileid: "4430523"
 [Yfirlit yfir þróaða og innleidda þjónustusamninga](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

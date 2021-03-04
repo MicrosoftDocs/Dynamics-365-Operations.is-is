@@ -44,3 +44,6 @@ ms.locfileid: "4413191"
 8. Smellt er á Í lagi.
 9. Smellt er á Í lagi.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

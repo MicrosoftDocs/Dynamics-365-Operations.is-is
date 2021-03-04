@@ -56,3 +56,6 @@ ms.locfileid: "4430610"
 19. Á aðgerðasvæðinu velurðu **Taka til og pakka**.
 20. Velja **Fylgiseðil**. Síðan **Færslubók fylgiseðla** inniheldur öll skjöl fylgiseðla sem voru mynduð fyrir pöntunina. Hægt er að fara yfir nákvæmar upplýsingar um hvert skjal og prenta þær, ef óskað er.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

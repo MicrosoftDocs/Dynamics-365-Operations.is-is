@@ -82,3 +82,6 @@ Ef þú setur upp runuvinnsluglugga er viðvörun send þegar unnið er úr við
 
 1. Farðu í **Kerfisstjórnun** &gt; **Reglubundin verkefni** &gt; **Viðvaranir** &gt; **Skiladagaviðvaranir**.
 2. Í svarglugganum **Skiladagaviðvaranir** skal færa inn viðeigandi upplýsingar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

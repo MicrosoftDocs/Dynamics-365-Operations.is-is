@@ -67,3 +67,6 @@ Hægt er að auka innskráningarþjónustu til að styðja til viðbótar aukin 
 ## <a name="using-extended-logon"></a>Notkun aukinnar innskráningar
 
 Þegar aukin innskráning er skilgreind og starfsmanni hefur verið úthlutað á strikamerki eða segulrönd, þarf starfsmaðurinn aðeins að renna eða skanna kortið sitt meðan síðan Innskráning á sölustað birtist. Ef aðgangsorðs er einnig krafist áður en innskráning getur haldið áfram er starfsmaður beðinn um að færa inn aðgangsorð sitt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

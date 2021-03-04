@@ -94,3 +94,6 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
 [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 
 [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

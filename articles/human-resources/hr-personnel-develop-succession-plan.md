@@ -60,3 +60,6 @@ Eftir því sem fyrirtækið stækkar og þú ferð að íhuga ráðningu eftirm
 28. Smellið á Skýrsluna.
     * Skýrslan verður að birta besta samsvörun efst á skýrslunni.  Þú getur séð að eyða kemur fram á listanum.  Það er mismunurinn á stigi sem var skráð á hæfnisskrá og stig hæfninnar sem er úthlutað á þann einstakling.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

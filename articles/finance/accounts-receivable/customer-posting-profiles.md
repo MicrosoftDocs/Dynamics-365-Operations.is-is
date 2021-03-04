@@ -140,3 +140,6 @@ Tilgreina eftirfarandi gildum til að setja upp bókunarreglunni :
 
 Frekari upplýsingar, sjá [Yfirlit yfir greiðslur viðskiptavinar](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

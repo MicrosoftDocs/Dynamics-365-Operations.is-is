@@ -187,3 +187,6 @@ Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

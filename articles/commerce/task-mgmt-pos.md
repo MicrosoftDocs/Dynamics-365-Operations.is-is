@@ -64,3 +64,6 @@ Eftirfarandi skýringarmynd sýnir flipann **Verkefnalistar**.
 [Búa til verkefnalista og bæta við verkum](task-mgmt-create-lists.md)
 
 [Úthluta verkefnalistum til verslana eða starfsmanna](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

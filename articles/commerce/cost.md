@@ -171,3 +171,6 @@ Setja verður upp eftirfarandi reiti fyrir þessa samsetningu:
 
 > [!IMPORTANT]
 > Til að DOM taki þennan kostnað til greina þegar hann er keyrður þarf að bæta kostnaðarstuðli við viðeigandi uppfyllingarsnið.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

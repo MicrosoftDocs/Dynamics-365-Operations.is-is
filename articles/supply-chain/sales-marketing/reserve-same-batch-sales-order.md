@@ -45,3 +45,6 @@ Frátekning í sömu runu gerir kleift að taka frá birgðir fyrir sölupöntun
 - Runuvinnslan hefur ekki nægilega langan endingartíma eftir, á grundvelli lokadagsetningar og best-fyrir dagsetningar plús seljanlega daga til viðskiptavina.
 
 Fyrir hluti sem tengjast geymsluvíddarhóp sem hefur **Nota ferli vöruhúsastjórnunar** virkt geturðu pantað ákveðin rununúmer með því að nota pöntunarveldi með birgðafjölda rununúmersins skilgreint fyrir ofan staðsetningarvíddina. Síðan **Runufrátekt** fyrir sölu- og flutningspöntunarlínur gerir þér einnig kleift að velja og panta margar línur miðað við fyrirliggjandi rununúmer. Fyrir frekari upplýsingar um hvað á að gera ef þú notar frátekningarstigveldi sem hefur rununúmervíddina fyrir neðan staðsetningu, sjá [Sveigjanleg stefna fyrir vöruvíddarstærð fyrirvara](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

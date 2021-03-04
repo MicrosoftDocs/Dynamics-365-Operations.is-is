@@ -46,3 +46,6 @@ Hægt er að virkja°fjárhagsáætlunarstýringu fyrir aðallykla af gerðinni 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

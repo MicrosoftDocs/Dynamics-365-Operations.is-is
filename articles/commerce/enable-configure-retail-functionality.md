@@ -69,3 +69,6 @@ Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
 - Commerce-rásir
 - Afgreiðslukassar og tæki
 - Úrval
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Notið þetta ferli til að setja upp reglur til þess að panta afurðir í teg
 6. Í reitnum **Velja lánardrottinn** skal velja valkost. Velja reglu til að stjórna hvers konar lánardrottna má velja fyrir flokkinn þegar beiðnir eru stofnaðar.  
 7. Smellið á **Loka**. Þær stefnureglur sem skilgreindar hafa verið hafaverið fyrir beiðnir af gerðinni notkun. Ef óskað er að skilgreina reglur fyrir beiðnir af gerðinni Áfylling, myndirðu stofna regla fyrir stefnureglugerð sem kallast „Stefnuregla tegundaraðgangs fyrir áfyllingu”.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

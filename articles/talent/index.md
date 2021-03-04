@@ -35,3 +35,6 @@ Talent inniheldur Attract, sem getur hjálpað þér að finna, taka við viðt�
 > [!IMPORTANT]
 > Virknin í Dynamics 365 Talent: Core HR er nú hluti af Dynamics 365 Human Resources. Hægt er að skoða fylgiskjöl fyrir mannauð í [Velkomin (n) í Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

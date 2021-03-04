@@ -397,3 +397,6 @@ Frekari upplýsingar um gæðastjórnun má finna í [Gæðastjórnunaryfirlit](
 1. Veljið valmyndarhnappinn (**≡**) efst á síðunni og síðan, í valmyndinni, skal velja **Hætta við** til að fara aftur í valmyndina.
 
 Nú má loka fartækjaforritinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 [Kaupgluggaeining](add-buy-box.md)
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

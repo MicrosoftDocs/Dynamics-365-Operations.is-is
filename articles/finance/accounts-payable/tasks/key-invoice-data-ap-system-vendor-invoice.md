@@ -73,3 +73,6 @@ ms.locfileid: "4444218"
 19. Smelltu á **Bóka.**
 20. Lokaðu skjámyndinni. Athugið að innkaupapöntunin er ekki lengur skráð sem móttekin en ekki reikningsfærð.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

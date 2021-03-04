@@ -51,3 +51,6 @@ Frekari upplýsingar eru í [Skoða fjárhagsskýrslur](view-financial-reports.m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

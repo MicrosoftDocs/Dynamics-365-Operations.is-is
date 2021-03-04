@@ -68,3 +68,6 @@ Fylgdu þessum skrefum til að velja þemað sem er notað á síðuna þína.
 
 [Búa til nýtt þema](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

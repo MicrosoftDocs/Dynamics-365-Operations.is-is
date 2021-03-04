@@ -55,3 +55,6 @@ Segðin `FIRSTORNULL(SPLIT("",1)).Value` skilar tómum streng (**""**).
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listavirkni](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Lögaðili er fyrirtæki sem er auðkennt með skráningu til löggiltra yfirval
 15. Útvíkkaðu hlutann **Skattskráning**. Í hlutanum **Skattskráning** skal færa inn skráningarnúmerin sem eru notuð til að senda skýrslu til skattyfirvalda.
 16. Útvíkkaðu hlutann **Skattur 1099**. Í hlutanum **Skattur 1099** skal færa inn 1099 upplýsingar fyrir lögaðilann.  
 17. Smellt er á **Vista**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

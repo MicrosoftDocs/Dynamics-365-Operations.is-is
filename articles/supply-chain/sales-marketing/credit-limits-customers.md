@@ -138,3 +138,6 @@ Stundum gætirðu þurft að athuga lánamark viðskiptavinar handvirkt. Til dæ
 1.  Smellið á **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**. Tvísmelltu á sölupöntun.
 
 2.  Á skjámyndinni **Sölupöntun** á Aðgerðasvæðinu, á flipanum **Stjórna** skal smella á **Kanna lánamark**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

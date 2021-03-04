@@ -91,3 +91,6 @@ ms.locfileid: "4444558"
 9. Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Viðbót rafrænnar reikningsfærslu**.
 10. Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.
 11. Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu. Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

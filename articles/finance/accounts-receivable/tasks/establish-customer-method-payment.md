@@ -46,3 +46,6 @@ ms.locfileid: "4444373"
 15. Notið flipann **Greiðslueigindir** til að tilgreina greiðslueigindir sem á að nota fyrir þennan greiðslumáta.
 16. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

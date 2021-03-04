@@ -63,3 +63,6 @@ Hér eru sumar dæmigert uppruna á frávikum á **staðgengilsframleiðslu** :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

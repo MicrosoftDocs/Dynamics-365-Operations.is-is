@@ -39,3 +39,6 @@ Til að leysa vandamálið verður viðskiptamaðurinn að fylgja þessum skrefu
 3. Veldu **Vista**.
 
 ![Færibreytusíða altækrar aðsetursbókar](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

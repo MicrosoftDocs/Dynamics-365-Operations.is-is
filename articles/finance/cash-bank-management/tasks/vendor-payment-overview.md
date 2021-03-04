@@ -63,3 +63,6 @@ ms.locfileid: "4444416"
 33. Smellt er á **Í lagi** til að búa til greiðslur.
 34. Smellt er á **Bóka** ef allar greiðslur eru samþykktar og myndaðar. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

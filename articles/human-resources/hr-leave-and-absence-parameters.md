@@ -92,3 +92,6 @@ ms.locfileid: "4419113"
 ## <a name="see-also"></a>Sjá einnig
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

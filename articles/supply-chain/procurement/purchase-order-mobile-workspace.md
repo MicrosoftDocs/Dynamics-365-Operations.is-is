@@ -113,3 +113,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 5. Velja viðeigandi aðgerð.
 6. Færðu inn athugasemd á síðunni **Ljúka verki**. Athugaðu að ef þú velur aðgerðina **Úthluta**, verður þú að velja notanda til að úthluta verkinu.
 7. Velja **Ekkert**. Þegar þú endurnýjar vinnusvæðið hverfur innkaupapöntunin af listanum. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

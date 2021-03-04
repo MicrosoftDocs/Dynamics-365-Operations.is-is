@@ -63,3 +63,6 @@ Tölugildið sem verður til.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Reikniaðgerðir](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

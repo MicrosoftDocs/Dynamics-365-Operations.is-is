@@ -131,3 +131,6 @@ Til að skoða mismunandi útgáfur er hægt að nota í **frá og með** val ti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

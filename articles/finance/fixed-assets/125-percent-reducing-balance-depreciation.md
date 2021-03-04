@@ -88,3 +88,6 @@ Aðferðin afskriftir fyrir 125% bókfært virði deilir 125% með líftíma í 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Til að geta látið endurnota afurður, verður að tilgreina eftirfarandi uppl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

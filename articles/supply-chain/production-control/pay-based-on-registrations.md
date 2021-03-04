@@ -599,3 +599,6 @@ Hafi starfsmaður mætir ekki til vinnu á vinnudegi og engin áætluð fjarvist
 - Færa fjarvistir sjálfkrafa inn
 
 Þegar daglegar skráningar eru reiknaðar fyrir starfsmann sem er með sveigjanlegar vinnustundir virkar, er fjarvistarkóðinn sem er tilgreindur í reitnum **Færa Sveigjanlegan- sjálfkrafa inn** notaður sem sjálfgefinn fjarvistarkóði. Ef starfsmaður er ekki með sveigjanlegar vinnustundir virkar, er fjarvistarkóðinn sem er tilgreindur í reitnum **Færa fjarvistir sjálfkrafa inn** notaður. Ef fyrirtæki hefur samsetningu af starfsmönnum sem eru með sveigjanlegar vinnustundir virkar og starfsmönnum sem eru ekki með sveigjanlegar vinnustundir virkar þarf að setja upp báðar færibreyturnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

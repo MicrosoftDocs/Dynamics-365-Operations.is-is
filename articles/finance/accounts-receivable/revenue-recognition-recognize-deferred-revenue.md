@@ -108,3 +108,6 @@ Breytingar á samningnum hafa eftirfarandi áhrif á upplýsingar tekjuáætluna
 - Ef tekjur hafa verið skráðar fyrir afurðina voru einhverjar tekjur ranglega skráðar vegna þess að skráningin var byggð á rangri tekjuáætlun. Bakfæra þarf þessar línur og skrá aftur út frá nýju áætluninni. Í þessu tilfelli eru nýjar tekjuáætlunarlínur stofnaðar sem eru með neikvæðar tölur á upphaflegri skráningardagsetningu. Nýjar línur eru svo stofnaðar til að skrá upphæðina sem byggjast á nýju tekjuáætluninni. Til dæmis þann 8. ágúst 2019 voru tekjur skráðar sem nemur $10,53. Þann 8. september 2019 voru tekjur skráðar sem nemur $13,16. Þar af leiðandi eru tvær nýjar línur stofnaðar á sömu dagsetningunum. Ein lína er fyrir -$10,53 og hin línan er fyrir -$13,16. Tuttugu og fjórar nýjar línur eru síðan stofnaðar og frestuðum heildartekjum að upphæð $160,61 er úthlutað á milli þeirra. Hægt er að bóka bakfærslulínur með því að keyra ferli **Stofna færslubók**.
 
 [![Tekjuskráningaráætlun](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

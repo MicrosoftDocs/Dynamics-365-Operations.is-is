@@ -64,3 +64,6 @@ Myndin hér að neðan sýnir dæmi um síðuna **Eignateljarar**.
 >[!NOTE]
 >Þú getur sett upp svið til að skilgreina frávik í handvirkum gagnaskráningum. Þú getur einnig tilgreint hvaða skilaboð birtast ef skráningar eru utan skilgreinds sviðs. Nánari upplýsingar um hvernig setja skal upp teljara er að finna í [Teljarar](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

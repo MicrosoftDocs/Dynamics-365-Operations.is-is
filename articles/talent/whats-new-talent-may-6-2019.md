@@ -93,3 +93,6 @@ Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frít
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Tilgreina gerð tilviks við úthlutun Talent
 
 Við úthlutun á nýju tilviki af Talent er hægt að gefa upp hvort gerð tilviks er **Framleiðsla** eða **Sandkassi**, sem opnar fyrir snemmbærar prófanir á nýjum eiginleikum. Öll núverandi tilvik Talent verða uppfærð í tilviksgerðina Framleiðsla. Ef uppfæra á eitt af núverandi tilvikum í tilviksgerðina Sandkassi skal hafa samband við notendaþjónustu til að koma breytingarbeiðninni áfram.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

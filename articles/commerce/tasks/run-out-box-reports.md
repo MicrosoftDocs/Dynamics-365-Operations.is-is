@@ -64,3 +64,6 @@ Sýnigögn gögn fyrirtækisins til að stofna þetta skráning er USRT. Þessi 
 5. Smellt er á Útflutning.
 6. Smellið á PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

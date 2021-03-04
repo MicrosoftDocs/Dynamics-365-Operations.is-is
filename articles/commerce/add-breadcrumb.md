@@ -95,3 +95,6 @@ Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nau�
 [Kaupgluggaeining](add-buy-box.md)
 
 [Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Stillingin **Birta eldri runur innan vöruhússins** er í boði í valmyndaratr
 
 - Undir **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis** stillirðu **Nota fyrirliggjandi verk** á **Já** fyrir valmyndaratriðið, og velur **Vara við** í reitnum **Tína elsta runu**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

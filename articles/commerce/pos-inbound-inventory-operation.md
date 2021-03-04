@@ -221,3 +221,6 @@ Eftir að drögum að skjali hefur verið skilað til Commerce Headquarters birt
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Birgðaaðgerð á útleið á sölustað](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

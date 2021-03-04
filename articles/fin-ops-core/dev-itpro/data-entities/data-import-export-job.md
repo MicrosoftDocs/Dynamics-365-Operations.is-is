@@ -243,3 +243,6 @@ Til að hlaða niður safnvistaða vinnsluferlinum skaltu fara á vinnusvæði g
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

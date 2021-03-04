@@ -150,3 +150,6 @@ Sjá efnisatriðið [Sjóðsstreymi Power BI](https://docs.microsoft.com/dynamic
 - **Birgðaspá**: Velja **Sjóðstreymisspár** til að skoða komandi útstreymi lausafjár sem tengist birgðaspá valdrar vöru.
 - **Eftirspurnarspá**: Velja **Sjóðstreymisspár** til að skoða komandi útstreymi lausafjár sem tengist eftirspurnarspá valdrar vöru.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

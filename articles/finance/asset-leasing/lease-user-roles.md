@@ -44,3 +44,6 @@ Fylgið eftirfarandi skrefum til að úthluta notendum á hlutverk sem eru notu�
 1. Fara í **Kerfisstjórn\>öryggi\>úthluta hlutverkum á notendur**.
 2. Veljið **Vinna með leigusamning**, **Afgreiðslustarfsmaður leiguskrifstofu** eða **Skoða leigusamning** og veljið svo **Úthluta/útiloka notendur handvirkt**.
 3. Veljið notandann sem á að úthluta hlutverkinu og velja svo **Úthluta hlutverki**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -200,3 +200,6 @@ Til að fá betra yfirlit yfir greiningu á ýmsum mælikvörðum um árangur fy
 
 Til að fá betra yfirlit yfir greiningu á ýmsum mælikvörðum um árangur fyrir kynninguna geturðu notað Greiningaryfirlitið. Til að fara í Greiningaryfirlitið skaltu smella á **Sala og markaðssetning** \> **Afslættir** \> **Afsláttarsamningar**. Á aðgerðasvæðinu skal smellt á **Greining**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

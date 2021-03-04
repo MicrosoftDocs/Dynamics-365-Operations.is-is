@@ -62,3 +62,6 @@ Vöru er bætt við sölulínu fyrir beina afhendingu úr vöruhúsi þar sem v�
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Microsoft hefur metið þetta mál og hefur ákvarðað að þetta sé takmörkun eiginleika. Sem stendur styður vöruhúsakerfi ekki beina afhendingu. Til að nota beina afhendingu skal því velja vöru sem er ekki WMS og vöruhús.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

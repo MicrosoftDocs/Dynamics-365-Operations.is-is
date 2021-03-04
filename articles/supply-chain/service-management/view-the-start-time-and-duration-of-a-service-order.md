@@ -59,3 +59,6 @@ Einnig er hægt að skoða hvenær tímaskráningin fyrir þjónustupöntunina v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

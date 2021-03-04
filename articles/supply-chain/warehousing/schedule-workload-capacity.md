@@ -80,3 +80,6 @@ Ef þessar upplýsingar eru ekki tilgreindar á réttan hátt, færðu skilaboð
 3. Í reitnum **Gerð pöntunar** skal velja **Áætlað og staðfest**, **Áætlað** eða **Staðfest** til að tilgreina gerð pantana sem á að spá fyrir í skýrslunni.
 4. Í reitnum **Álagsgerðir** skal velja álagsgerð til að tilgreina hvort spá ætti fyrir um afkastagetu vinnuálags fyrir rúmmál og þyngd.
 5. Í reitnum **Afkastageta vinnuálags** skal velja uppsetningu á afkastagetu vinnuálags.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

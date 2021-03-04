@@ -71,3 +71,6 @@ ms.locfileid: "4430253"
 7. Smellið á „Bóka“.
 8. Smellið á „Í lagi“.
     * Í færslubók leiðarspjalda er tími sem er eytt í staðar aðgerðir skráður. Einnig er hægt að tilkynna gallað og ógallað magn.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

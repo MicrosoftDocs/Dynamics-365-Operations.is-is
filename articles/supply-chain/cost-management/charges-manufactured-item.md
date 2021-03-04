@@ -40,3 +40,6 @@ Gjöld framleiddrar vöru eru alltaf í einingarkostnaði vegna staðlaðs kostn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

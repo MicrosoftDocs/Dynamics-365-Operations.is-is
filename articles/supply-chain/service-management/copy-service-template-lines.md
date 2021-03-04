@@ -60,3 +60,6 @@ Hægt er að afrita sniðmátsupplýsingar annað hvort í þjónustusamning eð
 [Þjónustusniðmát](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

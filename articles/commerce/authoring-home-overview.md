@@ -122,3 +122,6 @@ Eftir að höfundatólið hefur verið hlaðið geturðu valið **Heim** til að
 [Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt](search-engine-optimization-considerations.md)
 
 [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Eftirfarandi skýringarmynd sýnir dæmi um graf.
 ![Myndræn framsetning svæða miðað við stöðu vinnu](media/work-viz-chart.png "Myndræn framsetning svæða miðað við stöðu vinnu")
 
 Þetta graf sýnir tvö svæði sem kallast **GÓLF** og **MAGN**, auk svæðis sem kallast **Autt**. Svæðið **Autt** táknar allar vinnulínur sem eru ekki hluti af svæðum. Grafið sýnir alltaf ótengd síuð gögn sem **Auð** til að veita eins mikinn sýnileika og hægt er. Á svæðinu **Gólf** sýnir grafið þrjár lokaðar línur og fjórar opnar línur. Á svæðinu **MAGN** sýnir grafið fjórar lokaðar línur, eina opna línu og 24 línur sem var hætt við. Grafið sýnir að endingu átta lokaðar línur sem eru ekki hluti af svæði og eru því flokkaðar sem **Auðar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

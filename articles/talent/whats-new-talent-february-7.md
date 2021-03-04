@@ -58,3 +58,6 @@ Með þessari uppfærslu hefur einingin fyrir föst laun starfsmanns verið uppf
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Bætt afköst þegar vinnusvæði birtast
 Greiningarflipar á vinnusvæðum munu nú eingöngu hlaðast þegar þessar síður eru opnaðar. Vísir birtist meðan á fyrstu birtingu á síðunni efst í vinstra horni síðunnar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

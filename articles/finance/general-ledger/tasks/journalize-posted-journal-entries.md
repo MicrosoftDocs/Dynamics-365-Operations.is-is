@@ -40,3 +40,6 @@ ms.locfileid: "4444310"
 9. Smellið á **Í lagi** til að loka síusíðunni.
 10. Smellið á **Í lagi** til að hefja ferli færslubókarskráningar. Skýrrsla verður mynduð eftir að ferlinu er lokið.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

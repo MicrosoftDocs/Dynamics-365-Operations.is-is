@@ -107,3 +107,6 @@ Eftirfarandi lykilvíddir í söluteningnum eru notaðar sem síur til að snei�
 | Dagsetningar            | Dagsetningar                                                |
 
 Sjálfgefið er að efnispakkinn sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

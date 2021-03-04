@@ -51,3 +51,6 @@ ms.locfileid: "4444367"
 18. Smellt er á Framlengja.
 19. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

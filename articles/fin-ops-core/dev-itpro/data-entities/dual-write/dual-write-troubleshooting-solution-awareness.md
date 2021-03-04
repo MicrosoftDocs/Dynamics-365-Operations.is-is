@@ -45,3 +45,6 @@ ms.locfileid: "4683565"
 *Einingin sem heitir 'msdyn\_dualwriteentitymap' með namemapping='Logical' fannst ekki í MetadataCache.*
 
 Til að laga málið skaltu ganga úr skugga um að tvískipt kjarnalausnin sé sett upp í Dataverse. Tvískipt kjarnalausnin er forsenda fyrir vitund um lausn.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

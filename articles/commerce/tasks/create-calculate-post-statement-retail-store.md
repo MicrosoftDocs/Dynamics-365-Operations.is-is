@@ -48,3 +48,6 @@ ms.locfileid: "4413213"
 12. Á heimasíðunni velurðu **Fjárhagur verslunar**.
 13. Veldu flipann **Bókuð uppgjör**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

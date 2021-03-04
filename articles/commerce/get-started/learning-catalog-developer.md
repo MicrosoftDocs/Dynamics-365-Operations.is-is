@@ -42,3 +42,6 @@ Frekari upplýsingar um kennslu eiginleika sem deilt er með öðrum Finance and
 | Efni  | lýsing  | Snið  | Lengd    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Nota og víkka Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Þessi námsleið lýsir því hvernig á að setja upp Dynamics 365 Commerce-umhverfi og framkvæma úthlutunarskref eftir á, fyrir árangursríkar innleiðingar Commerce með því að nota rétta grannfræði fyrir viðskiptaþarfir hvers smásöluaðila. | Ókeypis, sjálfstýr skref á námsleið | 5 klst. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

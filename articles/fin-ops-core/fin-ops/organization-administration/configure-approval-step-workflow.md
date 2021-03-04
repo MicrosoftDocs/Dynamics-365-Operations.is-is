@@ -276,3 +276,6 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
 
 5. Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6. Ef notendunum í stigmögnunarslóðinni svara ekki innan tímarammans, grípur kerfið sjálfkrafa til aðgerða varðandi skjalið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

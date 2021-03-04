@@ -117,3 +117,6 @@ Eftirfarandi tafla lýsir mismunandi valkostum við að auglýsa störf á Linke
 [Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Hlaupandi meðaltal kostnaðarverðs fyrir vöruhús GW og runu AAA er 11,20 USD
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

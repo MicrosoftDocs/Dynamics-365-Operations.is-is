@@ -121,3 +121,6 @@ Með því að velja margar línur á síðunni **Komuyfirlit** getur Sammy ræs
 
 ## <a name="summary"></a>Samantekt
 Síðan **Komuyfirlit** getur hjálpað vöruhússtjóra og starfskröftum að sjá yfirlit yfir væntanleg verk sem þarf að vinna sem hluta af vinnslu á innleið. Einnig er hægt að nota síðuna til að hefja komuferlið, til að aðstoða við að tryggja rakningu vara við fyrstu færslu í vöruhúsið.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

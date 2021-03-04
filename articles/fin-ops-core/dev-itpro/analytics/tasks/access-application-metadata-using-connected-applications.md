@@ -113,3 +113,6 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 11. Lokið síðunni. 
 
 Þegar þú þarft að meta þessa líkanavörpun með því að nota lýsigögn annarrar útgáfu forrits skaltu skrá annað tengt forrit, úthluta því á þessara líkanavörpun og sannprófa það gegn nýjum lýsigögnum.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

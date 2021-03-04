@@ -260,3 +260,6 @@ Sambandi á milli ER sniðs og forritasértækum færibreyta þess er komið á 
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

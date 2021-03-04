@@ -51,3 +51,6 @@ Eftirfarandi mynd sýnir dæmi um vinnuskýrslu sem er búin til á grundvelli �
 
 ![Mynd 2](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

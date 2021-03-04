@@ -68,3 +68,6 @@ Hægt er að flytja út lista yfir starfsmenn í Excel sem voru myndaðir með e
 Ef nauðsynlegt er að skrá tryggða einstaklinga þar sem þú sem vinnuveitandi býður upp á sjúkratryggingasjóð, getur þú einnig skoðað alla skjólstæðinga sem tryggðir eru samkvæmt fríðindaáætlun og hafa verið merktir sem **ACA-tilkynningaskyldur** með því að velja tryggingaaðgerðina Skoða skjólstæðinga í aðgerðarúðulengjunni.
 
 **Athugið:** Aðeins fríðindi þar sem áætlunin hefur verið merkt sem **ACA-tilkynningaskyldur** birtast í fyrirspurnarglugganum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

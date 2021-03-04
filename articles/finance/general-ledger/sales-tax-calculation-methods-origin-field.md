@@ -131,3 +131,6 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

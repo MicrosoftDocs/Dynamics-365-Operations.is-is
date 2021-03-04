@@ -61,3 +61,6 @@ Hægt er að nota eftirfarandi skýrslur fjárhags til að skoða fjárhagsfærs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

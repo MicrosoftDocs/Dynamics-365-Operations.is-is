@@ -267,3 +267,6 @@ Eftir að þú hefur búið til nauðsynlegar sjálfgefnar samsetningar á gerð
 2. Í valmyndinni **Uppfæra spá um gerð viðhaldsverka** á flýtiflipanum **Færslur til að hafa með** er hægt að bæta við vali fyrir sérstakar viðhaldsgerðir, eftir þörfum. Veldu **Sía** og veldu síðan **Velja** til að gera valið.
 3. Á flýtiflipanum **Keyra í bakgrunni** geturðu sett upp sjálfvirka uppfærslu sem runuvinnslu, eftir þörfum.
 4. Veldu **Í lagi** til að hefja uppfærslu á spá.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

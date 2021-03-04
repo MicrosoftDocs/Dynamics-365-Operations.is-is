@@ -41,3 +41,6 @@ Ef það er ósamræmi milli bókhaldslykils, skiltákni bókhaldslykils og kenn
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Hvernig á að ákvarða hvort umhverfið þitt krefst uppfærðra skiltákna 
 Ef skiltákn í uppfærða umhverfinu þínu stangast á gætir þú fundið fyrir óstöðugleika þegar þú slærð inn gildi í sundurliðaðri innfærslustýringu eða víddarstýrðri innfærslu. Sem þýðir að alltaf þarf að nota uppflettingar eða hliðargluggavalmynd þegar slegnar eru inn lykla- og víddarsamsetningar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

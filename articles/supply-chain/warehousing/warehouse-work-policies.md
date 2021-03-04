@@ -301,3 +301,6 @@ Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja f
 Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

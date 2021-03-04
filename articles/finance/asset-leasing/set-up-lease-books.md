@@ -53,3 +53,6 @@ Fylgdu þessum skrefum til að búa til leigubók.
     | Skammtímaþröskuldur                     | Sláið inn fjölda mánaða sem á að nota sem mörk fyrir skammtímaleigur. Ef leigutíminn er styttri en eða jafnt og mánaðarfjöldinn sem færður er inn hér, flokkar kerfið leigusamninginn sem skammtímaleigusamning og aðferðin frestaðar leigugreiðslur verður notuð. |
     | Mörk verðlítillar eignar                      | Færa skal inn upphæð sem á að nota sem þröskuld fyrir leigu verðlítillar eignar. Ef gangvirði eignar er jafnt og eða minna en gildi sem er slegið inn hér mun kerfið flokka leigusamninginn sem verðlítinn og frestaðar leigugreiðslur verða notaðar. |
     | Greiða lánardrottni                            | Stillið þennan valkost á **Yes** til að leyfa bókun leigugreiðslna sem reiknings á lánardrottnalykil sem tilgreindur er í hverjum leigusamningi. Þegar leigugreiðsla er bókuð verður lánardrottnalykill kreditfærður. Ef þessi valkostur er stilltur á **Nei**, verður lykillinn sem er tilgreindur fyrir bókunargerðina **Leigugreiðsla** á síðunni **Færibreytur bókunargerðar** kreditfærður þess í stað. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

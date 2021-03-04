@@ -46,3 +46,6 @@ Uppsöfnunarskemu eru notuð til að setja upp frestaðar tekjur og kostnað, og
 
 
 Nánari upplýsingar, sjá [stofna uppsöfnunarskemu](tasks/create-accrual-schemes.md) og [Stofna uppsöfnunarfærslur fjárhags](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

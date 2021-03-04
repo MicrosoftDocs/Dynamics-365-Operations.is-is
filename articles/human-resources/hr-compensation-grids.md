@@ -92,3 +92,6 @@ Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir la
 29. Merkið eða afmerkið allar línur í listanum.
 30. Smellt er á Nota á hnitanet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

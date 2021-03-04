@@ -96,3 +96,6 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 [Búa til fjárhagsskýrslur](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

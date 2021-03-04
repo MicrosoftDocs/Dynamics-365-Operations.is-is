@@ -296,3 +296,6 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 | Viðskiptavinir (Fabrikam West)    |              | 75,00         |
 | Á gjalddaga frá Fabrikam East (Fabrikam West) | 25,00        |               |
 | Viðskiptavinir (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

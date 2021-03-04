@@ -56,3 +56,6 @@ Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Í �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Til að ljúka endurúthlutuninni skal velja **Vinna úr**. Beðið er um bókun
 > Til að setja í samhengi af hverju þessar vörur eru sýndar er hægt að bæta öðrum dálkum við hnitanetið, t.d. **Kenni endurúthlutunar** og **Sölupöntun**.
 > 
 > [![Viðbótardálkar á síðunni Úthlutun tekjuupphæðar](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

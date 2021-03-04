@@ -51,3 +51,6 @@ Apríl bókar greiðslubókina. Reikningurinn er fulljafnaður með greiðslu up
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

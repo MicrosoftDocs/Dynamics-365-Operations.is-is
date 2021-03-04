@@ -46,3 +46,6 @@ Sameinaðri runupöntun getur innihaldið samsetningu af eftirfarandi pantanir:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

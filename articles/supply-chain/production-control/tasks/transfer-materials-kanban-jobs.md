@@ -66,3 +66,6 @@ ms.locfileid: "4430434"
 2. Smelltu á Ljúka.
     * Þetta lýkur við flutning á bæði vinnslur.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

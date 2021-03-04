@@ -43,3 +43,6 @@ ms.locfileid: "4430108"
 8. Víkkaðu út hlutann Upplýsingar um eftirspurn uppstreymis.
     * Í þessum hluta er hægt að sjá upplýsingar um hvernig verður hægt að uppfylla eftirspurnina. Hugsanlega þarf að bíða eftir aðaláætlanagerð til að vera keyrð hjá birginum áður en þú getur séð frekari upplýsingar hér.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

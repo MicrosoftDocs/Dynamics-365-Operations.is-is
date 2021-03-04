@@ -676,3 +676,6 @@ Starfsmenn geta gefið upp vegabréfsupplýsingar. Þessar upplýsingar eru af a
 
 Starfsmenn geta gefið upp mörg auðkennisnúmer af auðkennisgerðinni **Vegabréf**. Hins vegar er aðeins núverandi virka færslan samþætt í Dayforce. Ef allar vegabréfsfærslur eru útrunnar verður vegabréfið sem síðast var gefið út samþætt í Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

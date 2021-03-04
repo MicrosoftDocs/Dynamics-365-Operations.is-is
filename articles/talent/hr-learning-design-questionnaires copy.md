@@ -246,3 +246,6 @@ Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar 
 
 [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ ms.locfileid: "4430326"
 12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 13. Í listanum skal smella á tengilinn í valinni línu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

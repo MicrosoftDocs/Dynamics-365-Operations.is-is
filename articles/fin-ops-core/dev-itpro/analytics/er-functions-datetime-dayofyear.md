@@ -59,3 +59,6 @@ Tölugildið sem verður til.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dagsetningar og tímavirkni](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

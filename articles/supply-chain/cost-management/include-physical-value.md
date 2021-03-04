@@ -60,3 +60,6 @@ Gátreiturinn hefur svolítið ólík áhrif eftir því hvaða birgðalíkan er
 
 > [!NOTE]
 > Til samanburðar, ef gátreiturinn **Taka með efnislegt virði** er valinn þegar sölupöntun er bókuð, verður bókaða kostnaðarupphæðin 12,00 USD.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

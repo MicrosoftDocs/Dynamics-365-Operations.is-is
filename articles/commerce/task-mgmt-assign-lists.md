@@ -92,3 +92,6 @@ Til að rekja stöðu verkefnalista fyrir öll verk sem er úthluta á þig skal
 [Búa til verkefnalista og bæta við verkum](task-mgmt-create-lists.md)
 
 [Verkstjórnun á sölustað](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

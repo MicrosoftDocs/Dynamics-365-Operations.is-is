@@ -65,3 +65,6 @@ Hægt er að breyta birgðastöðu annaðhvort með því að nota síðuna **Á
 > - Á síðunni **Á lager eftir staðsetningu** er hægt að flokka línurnar út frá birtum víddunum með því að nota hnappinn **Sýna víddir** og breyta stöðunni fyrir völdu línurnar.
 > - Á síðunni **Á lager eftir staðsetningu** er hægt að velja margar færslur og nota svo hnappinn **Breyting á birgðastöðu** til að breyta öllum í einu.
 > - Á reglubundna verkefninu **Breyting á birgðastöðu** er hægt að sía eftir rakningarvíddunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

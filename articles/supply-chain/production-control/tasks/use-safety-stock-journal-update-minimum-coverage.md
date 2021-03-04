@@ -66,3 +66,6 @@ ms.locfileid: "4430563"
 5. Í **Aðgerðarrúðunni** er smellt á Áætlun.
 6. Smelltu á **Vöruþekju**. Athugaðu að **Lágmarksmagn** hefur verið uppfært með nýju lágmarksmagni úr öryggisbirgðabók.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

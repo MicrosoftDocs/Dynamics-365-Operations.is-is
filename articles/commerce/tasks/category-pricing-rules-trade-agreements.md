@@ -59,3 +59,6 @@ ms.locfileid: "4413217"
 24. Smellið á flipann verðlagningarreglur flokks.
     * verðlagningarreglur flokka fyrir tiltekna rás mun sýna á þessum lista.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

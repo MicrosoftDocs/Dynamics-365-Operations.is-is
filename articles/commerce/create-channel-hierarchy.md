@@ -107,3 +107,6 @@ Eftirfarandi mynd sýnir dæmi um hnút með afurðareigindir sem er bætt við.
 [Setja upp úrval](set-up-assortments.md)
 
 [Stjórna eigindum og eigindahópum](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

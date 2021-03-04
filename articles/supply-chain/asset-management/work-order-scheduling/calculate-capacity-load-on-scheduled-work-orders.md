@@ -58,3 +58,6 @@ Ef þú velur álagsgerðina **Afkastageta** eða **Eftirstöðvar** fyrir útre
 
 Upplýsingar um hvernig skuli reikna út álag afkastagetu á línum viðhaldsskema og óáætluðum verkbeiðnum eru að finna í [Reikna álag](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

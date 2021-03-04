@@ -48,3 +48,6 @@ Til að nota þennan eiginleika skal virkja **Sérstilltir tenglar í sjálfsafg
 ## <a name="see-also"></a>Sjá einnig
 
 [Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

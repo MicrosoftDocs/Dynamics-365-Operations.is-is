@@ -39,3 +39,6 @@ stjórnandi Launa og fríðindagetur tengja starfsmenn við launafyrirkomulög f
     * Ef Fast launafyrirkomulag er áætlun með skrefi skal velja skrefið sem innihalda réttar launataxta starfsmannsins. Ef fast launafyrirkomulag er með stigi eða brautaráætlun, er fært inn launataxti starfsmannsins. Launataxtinn sem verður að villuleita gagnvart vikmörk stillingar fyrir áætlunarinnar og lágmarks- og hámarks og tilvísunarpunkta fyrir launastig í vinnslu.  
 8. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

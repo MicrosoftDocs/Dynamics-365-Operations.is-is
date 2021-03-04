@@ -36,3 +36,6 @@ Setja upp atvinnuflokka í Dynamics 365 Human Resources til að jafna starfsmenn
 3. Tilgreindu gildi fyrir **Verkamannategund**, **Atvinnuflokkur** og **Lýsing**.
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

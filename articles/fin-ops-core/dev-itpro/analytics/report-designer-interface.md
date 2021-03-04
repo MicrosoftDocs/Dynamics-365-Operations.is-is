@@ -227,3 +227,6 @@ Tækjastikan Skýrsluhönnun veitir auðveldan aðgang að skipunum til að fara
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
 
 [Búa til fjárhagsskýrslur](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

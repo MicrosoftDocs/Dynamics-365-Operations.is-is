@@ -121,3 +121,6 @@ Viðskiptavinurinn tilkynnir að hann þurfi ekki þjónustuþekju í tvo daga (
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

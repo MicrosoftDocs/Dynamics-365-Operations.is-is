@@ -98,3 +98,6 @@ Til að hlaða upp skrá í vefsíðuhönnuð í Commerce skaltu fylgja þessum 
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

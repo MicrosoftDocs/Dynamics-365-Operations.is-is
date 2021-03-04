@@ -59,3 +59,6 @@ Næst ætti að tengja lykla við kostnaðargerðirnar. Þessir lyklar verða de
 7. Í viðeigandi svæðum skal velja aðallykill fjármögnunarleigusamnings og aðallykil rekstrarleigusamnings.
 
 Þegar þessum skrefum er lokið er hægt að bæta kostnaði við **Greiðsluáætlunarlínur rekstrarkostnaðar** á síðunni **Upplýsingar um leigusamning** fyrir valinn leigusamning. Að öðrum kosti er hægt að bæta við kostnaði þegar ný leiga er stofnuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

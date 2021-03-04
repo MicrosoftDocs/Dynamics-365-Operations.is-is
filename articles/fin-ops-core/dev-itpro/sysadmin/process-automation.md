@@ -47,3 +47,6 @@ Hægt er að breyta hverju tilviki fyrir sig án þess að hafa áhrif á önnur
 ## <a name="developer-documentation"></a>Fylgiskjöl forritunar
 
 Þróunarrammi ferlisins gerir þróunaraðilum kleift að víkka sjálfvirkni ferlisins. Í fylgiskjölum [Meðhöndla sjálfvirkniramma](../process-automation/process-automation-framework.md) verður að finna upplýsingar um hvernig hægt er að búa til sérsniðin ferli sem þarf að keyra með runuþjóninum sem áætlaður er með leiðsagnarforriti fyrir sjálfvirkni ferlis og birtist sjálfkrafa í dagatalsyfirlitinu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Til að bæta fellingareiningu við síðu algengra spurninga og stilla eiginlei
 [Flipaeining](add-tab.md)
 
 [Textabálkseining](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

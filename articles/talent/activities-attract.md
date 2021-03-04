@@ -91,3 +91,6 @@ Sniðmát ráðningarferlis krefst virkni tilboðs. Til að nota samþætt forri
 > Samþætt forrit tilboðsstjórnunar er aðeins í boði með viðbót alhliða ráðningar. Fyrir frekari upplýsingar, sjá [Hvaða útgáfa af Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

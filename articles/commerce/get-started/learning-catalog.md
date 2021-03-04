@@ -141,3 +141,6 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

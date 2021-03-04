@@ -239,3 +239,6 @@ Til að geta stjórnað því hvort starfsmenn ættu að endurnýta fyrirliggjan
 
 > [!NOTE]
 > Til að skilgreina merkið skal fara í **Vöruhúsastjórnun \> Uppsetning \> Skjalaleið \> Skjalaleið**. Frekari upplýsingar er að finna í [Leyfa prentun númeraplötumerkis](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

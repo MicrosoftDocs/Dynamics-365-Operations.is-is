@@ -56,3 +56,6 @@ LCS uppsetningu er nú lokið. Næsta skrefið er að [setja upp aðstæður](io
 2. Opnið upplýsingar umhverfis Supply Chain Management í LCS.
 3. Flettu að hlutanum **Innbætur umhverfis**.
 4. Veljið **Fjarlægja** fyrir innbótina IoT-gervigreind.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

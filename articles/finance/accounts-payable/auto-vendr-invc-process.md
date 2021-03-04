@@ -69,3 +69,6 @@ Vinnusvæðið **Reikningsfærsla lánardrottins** gerir þér kleift að einbl�
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Sjálfvirkni reiknings lánardrottins - halda sjálfvirknivinnslu áfram fyrir marga reikninga
 Þegar innfluttur reikningur hefur ekki verið sendur í verkflæði í gegnum sjálfvirka ferlið mun kerfið fjarlægja hann úr frekari sjálfvirkri vinnslu. Starfsmaður viðskiptaskulda getur yfirfarið og breytt reikningi áður en sjálfvirka vinnslan sendir hann aftur í verkflæði. Þegar hægt er að leysa úr ástæðu þess að bilun kom upp fyrir marga reikninga er hægt að endurræsa sjálfvirka ferlið á síðunni **Halda áfram sjálfvirkri úrvinnslu reikninga**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

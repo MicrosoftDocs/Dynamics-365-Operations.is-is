@@ -88,3 +88,6 @@ ms.locfileid: "4444462"
 57. Útvíkkaður hlutann **Tengingar**.
 58. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Við bættum við lýsigögnum um Intrastat-skráatöfluna.
 3.    Smellt er á **OK**. 
     
 Uppsett ER lýsigagnaskilgreining er vistuð sem XML-skrá sem hægt er að flytja inn í RCS og notuð sem upplýsingaveita um lýsigögn fyrir viðskiptalén utanríkisviðskipta. Samkvæmt þessum upplýsingum getum við tilgreint vörpun á milli lýsigagna forritsins og ER-gagnalíkansins.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

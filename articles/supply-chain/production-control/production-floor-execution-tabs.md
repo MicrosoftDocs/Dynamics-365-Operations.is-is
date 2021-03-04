@@ -79,3 +79,6 @@ Eftir að þú hefur hannað alla flipana sem þú þarft er hægt að tengja þ
 1. Halda áfram að bæta við öðrum flipum eftir þörfum.
 
 1. Notið hnappana **Færa upp** og **Færa niður** á tækjastikunni til að raða flipunum eftir þörfum. Fliparnir birtast frá vinstri til hægri í þeirri röð sem sýnd er í ofangreindri skjámynd (flipinn efst er sýndur hér til vinstri).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ ms.locfileid: "4444444"
 88. Í reitnum **Aðallykill** skal skilgreina æskileg gildi.
 89. Í reitnum **Mótlykill** skal skilgreina æskileg gildi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

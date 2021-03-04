@@ -76,3 +76,6 @@ Til að auðvelda uppsetningu víddarstök kostnaðareiningar í kostnaðarbókh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

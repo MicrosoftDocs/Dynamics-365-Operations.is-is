@@ -38,3 +38,6 @@ Ef innfluttur reikningur er sendur í verkflæðisferlið er hægt að skoða gi
 - **Gert hlé** – Sjálfvirku ferlin sem eru skilgreind á síðunni **Færibreytur viðskiptaskulda** hafa verið keyrð, en að minnsta kosti eitt skref í ferlinu tókst ekki. Staðan **Gert hlé** er einnig notuð ef reiturinn **Hafa með í sjálfvirkri vinnslu** er stilltur á **Nei**. Hægt er að skoða bilanirnar með því að velja **Skoða nýjustu niðurstöður**.
 - **Í verkflæði** - Innfluttur reikningur hefur verið sendur í verkflæðiskerfið, annaðhvort af sjálfvirkri innsendingu í verkflæðisferli eða handvirkt.
 - **Verkflæði lokið** – Verkflæðisferlinu hefur verið lokið fyrir innfluttan reikning.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

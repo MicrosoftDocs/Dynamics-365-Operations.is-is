@@ -62,3 +62,6 @@ ms.locfileid: "4413188"
     * Færið inn númer sölupöntunar sem var tekið niður fyrr í ferlinu. Þetta mun halda vinnslutíma í lágmarki fyrir þetta ferli. Svæðið sölupöntun er valfrjáls - hægt er að vinna allar pantanir fyrir hverja staka áætlun.  
 21. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

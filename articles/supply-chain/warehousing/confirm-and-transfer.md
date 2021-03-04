@@ -230,3 +230,6 @@ Einnig er hægt að staðfesta að tengsl milli færslna hafi verið uppfærð �
 - Valkosturinn **Skipta magni á nýjan farm** virkar einnig þegar einhverjir af eftirstandandi verkhausum eru með stöðuna *Í vinnslu*. Þess vegna er enn hægt að nota virknina jafnvel þótt starfsmenn séu þegar byrjaðir að keyra tiltektarpantanirnar.
 - Ef valið er **Hætta við óuppfyllt magn** á meðan til er verk með stöðuna *Opið* eða *Í vinnslu*, birtast eftirfarandi villuboð: „Ekki er hægt að hætta við eftirstandandi magn fyrir farm. Vinna er til fyrir farm.“
 - Ef valið er **Hætta við óuppfyllt magn** þegar ekkert verk er eftir, en ólosaðar farmlínur eru til fyrir farminn, birtast eftirfarandi villuboð: „Ekki var hægt að staðfesta sendinguna fyrir farm vegna þess að magnið fyrir vöru fer yfir þá prósentu sem skilgreind er fyrir undirafhendingu.“ Til að koma í veg fyrir villuna er hægt að stilla prósentu fyrir **Undir afhendingu** í ólosaðri farmlínu á 100 prósent. Ólosaðar línur verða ekki fluttar á nýjan farm, en núverandi farmur verður staðfestur með undirafhendingu. Í þessu tilfelli verður ekki hægt að endurlosa upprunalega pöntun. Því verður að meðhöndla hana á annan hátt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

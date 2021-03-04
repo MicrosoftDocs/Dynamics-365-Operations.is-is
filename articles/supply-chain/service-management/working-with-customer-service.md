@@ -49,3 +49,6 @@ Efnisatriðin í þessum hluta veita yfirlit yfir viðskiptaferil þjónustudeil
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

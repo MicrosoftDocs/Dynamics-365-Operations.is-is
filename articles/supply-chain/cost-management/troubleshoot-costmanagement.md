@@ -62,3 +62,6 @@ Munið að keyra birgðalokun frá %3 (31-01-2019) sem samsvarar lokum tímabils
 ## <a name="inventory-aging-report-discrepancies"></a>Ósamræmisskýrsla um aldursgreiningu birgða
 
 **Skýrsla um aldursgreiningu birgða** sýnir ólík gildi þegar hún er skoðuð í mismunandi geymsluvíddum (t.d. svæði eða vöruhúsi). Frekari upplýsingar um skýrslurökin er að finna í [Dæmi og rök fyrir aldursgreiningarskýrslu birgða](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

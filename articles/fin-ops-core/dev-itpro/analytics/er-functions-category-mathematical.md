@@ -47,3 +47,6 @@ Hægt er að nota stærðfræðilegar aðgerðir rafrænnar skýrslur (ER) til a
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

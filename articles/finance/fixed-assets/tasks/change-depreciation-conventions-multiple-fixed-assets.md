@@ -49,3 +49,6 @@ ms.locfileid: "4444237"
 15. Smellið á „Í lagi“.
     *  Niðurstöðu ferlisins eru sýndar í skýrslunni Margar uppfærslu.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

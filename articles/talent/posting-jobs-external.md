@@ -102,3 +102,6 @@ Ef þú átt í vandræðum með að birta starf á Broadbean, reyndu þá þess
 [Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
 [Virkja Broadbean-samþættingu í Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

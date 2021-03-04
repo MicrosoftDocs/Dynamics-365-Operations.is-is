@@ -57,3 +57,6 @@ Tveimur dögum síðar hringir viðskiptavinurinn að segja þér að áskriftin
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

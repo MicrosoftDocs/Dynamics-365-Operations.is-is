@@ -65,3 +65,6 @@ Aðskildar skýrslur veita upplýsingar fyrir hverja færslugerð. Notið þessa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

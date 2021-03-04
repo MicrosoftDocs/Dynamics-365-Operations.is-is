@@ -68,3 +68,6 @@ Fylgdu þessum skrefum til að kveikja á endurstillingu.
 
 > [!NOTE]
 > Það fer eftir endurstillingardagsetningu sem þú velur og kvittunarsnið, þú gætir haft afrit kvittunarnúmera. Þrátt fyrir að sölustaðurinn (POS) kerfið geti sinnt þessum aðstæðum, eykur það tímann sem þarf til að vinna úr ávöxtun, því söluaðilar verða að velja meðal afritskvittana. Önnur flækjustig sem tengjast gagnahreinsun geta komið fram ef afritskvittanirnar voru ekki fyrirhugaðar afleiðingar. Þess vegna mælum við með því að þú notir kvika dagsetningarstafi (til dæmis, **ddd**, **MM**, **DD** og **JÁ**) til að koma í veg fyrir afritunarkvittunúmer eftir endurstillingu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

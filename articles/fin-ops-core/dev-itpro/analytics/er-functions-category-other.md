@@ -55,3 +55,6 @@ Hægt er að nota lénssértækar aðgerðir fyrir viðskipti í rafrænni skýr
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

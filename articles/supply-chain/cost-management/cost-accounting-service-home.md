@@ -37,3 +37,6 @@ Innbót kostnaðarbókhaldsþjónustu fyrir Microsoft Dynamics 365 Supply Chain 
 ## <a name="related-resources"></a>Tengd tilföng
 
 [Hafist handa með kostnaðarbókhaldsþjónustu](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

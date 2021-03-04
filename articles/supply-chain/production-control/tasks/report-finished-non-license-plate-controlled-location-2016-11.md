@@ -62,3 +62,6 @@ ms.locfileid: "4430027"
 18. Smellt er á Upplýsingar um vinnu
     * Þegar framleiðslupöntunin var skráð sem lokið, engin vinna var mynduð fyrir frágangur. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð L0101 er skráð sem lokið á staðsetningu 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

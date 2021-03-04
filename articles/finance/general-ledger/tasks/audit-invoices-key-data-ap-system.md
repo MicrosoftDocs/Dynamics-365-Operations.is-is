@@ -62,3 +62,6 @@ ms.locfileid: "4444264"
 9. Í aðgerðasvæðinu skal smella á **Yfirfara**.
 10. Smellið á **Samsvörunarupplýsingar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

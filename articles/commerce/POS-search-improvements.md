@@ -118,3 +118,6 @@ Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í P
 
 Til að koma í veg fyrir óvænt afkastavandamál eru þessar stillingar faldar á bak við tilraunaútgáfuflagg sem heitir **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Þess vegna, til að sýna stillinguna **Sjálfgefnar leitarstillingar viðskiptavina** í notandaviðmótinu (UI) ætti smásalinn að stofna stuðningsmiða fyrir samþykkisprófun notanda (UAT) og framleiðsluumhverfi. Þegar miðinn hefur verið móttekinn munu tæknimennirnir vinna með söluaðila til að ganga úr skugga um að smásalinn framkvæmi prófanir í umhverfi utan framleiðslu til að meta árangur og framkvæma allar fínstillingar sem krafist er.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

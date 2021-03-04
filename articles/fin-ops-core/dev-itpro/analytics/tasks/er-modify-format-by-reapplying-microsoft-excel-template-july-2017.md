@@ -83,3 +83,6 @@ Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Nota breytt drög að sniði Rafræn skýrslugerð fyrir greiðslubókarvinnslu
 
 Fara yfir stofnaðar vinnublað, þar á meðal nýjar upplýsingar um greiðslulínur – greiðsludagsetningu.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

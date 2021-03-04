@@ -50,3 +50,6 @@ Til að flytja afurðagögn inn og út verður að nota gagnaeiningar. Eftirfara
 
 > [!NOTE]
 > Aðeins er hægt að nota gagnaeininguna **Útgefnar afurðir V2** til að flytja afurðir inn í kerfið ef samnýtta afurðin hefur þegar verið búin til. Að öðrum kosti, til að flytja vörur inn í kerfið verður að nota gagnaeininguna **Afurðasköpun**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

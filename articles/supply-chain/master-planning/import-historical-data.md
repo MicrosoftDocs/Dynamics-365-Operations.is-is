@@ -59,3 +59,6 @@ Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda ef
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

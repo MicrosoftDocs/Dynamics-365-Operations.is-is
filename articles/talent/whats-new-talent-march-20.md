@@ -86,3 +86,6 @@ Breytingar hafa verið gerðar til að leiðrétta vandamál þegar nafnaröð e
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Tvítekin skjámynd opnast ekki sjálfkrafa, til að koma í veg fyrir truflandi gagnafærslu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

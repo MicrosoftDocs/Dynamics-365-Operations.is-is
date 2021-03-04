@@ -182,3 +182,6 @@ Hér eru nokkrar samstæðuaðstæður sem Financial reporting styður:
 
 ## <a name="generating-consolidated-financial-statements"></a>Býr til samstæðureikningsskil
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Ef þú hefur gert kleift að forskoða eiginleikann Leyfi og fjarvistir vegna o
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

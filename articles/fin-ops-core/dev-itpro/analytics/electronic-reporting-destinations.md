@@ -238,3 +238,6 @@ Sniðið verður fyrst að vera tiltæk í skilgreiningum rafrænnar skýrsluger
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

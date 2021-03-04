@@ -54,3 +54,6 @@ Hægt er að úthluta kostnaðarflokki gerð og hegðun í tilgangi fyrir aukale
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

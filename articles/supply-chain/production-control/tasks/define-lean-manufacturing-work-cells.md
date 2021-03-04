@@ -100,3 +100,6 @@ Vinnuflokkur er tiltekna tegund fyrir tilfangaflokka sem hægt er að nota í le
 ## <a name="save"></a>Vista
 1. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

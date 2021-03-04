@@ -179,3 +179,6 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 2. Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3. Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
 4. Smellið á **Bæta við** til að bæta athugasemdir við **ferill Athugasemda** svæði.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

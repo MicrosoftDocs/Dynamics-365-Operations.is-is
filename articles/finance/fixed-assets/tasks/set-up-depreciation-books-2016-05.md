@@ -55,3 +55,6 @@ ms.locfileid: "4444453"
 6. Í reitinn líftími skal slá inn númer.
     * Sjáðu að svæðisgildi afskriftartímabils er reiknaður eftir uppsetningu líftíma.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

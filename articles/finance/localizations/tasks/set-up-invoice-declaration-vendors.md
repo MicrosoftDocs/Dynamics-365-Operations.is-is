@@ -59,3 +59,6 @@ ms.locfileid: "4408066"
 10. Í reitnum Færslugerð skal velja ‚LA‘.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

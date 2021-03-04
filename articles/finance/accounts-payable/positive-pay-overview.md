@@ -49,3 +49,6 @@ Nánari upplýsingar er að finna í [Setja upp og mynda jákvæða greiðsluskr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

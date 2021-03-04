@@ -67,3 +67,6 @@ Ef uppskriftar- eða formúlulínur hafa ekki verið losaðar eða aðeins losa�
 **Opin vöruhúsaverk sem þarfnast athygli** reiturinn sýnir fjölda uppskrifta- og formúlulína sem hafa verið losaðar í vöruhúsið, sem innihalda óunnin verk, og hafa hráefnisdagsetningu sem er fyrr en eða sú sama og vinnusvæðisdagsetningin. Línurnar verða einnig að vera notaðar af aðgerðartilfangi sem gildir um síu vinnusvæðisins.
 
 Þegar reiturinn er valinn, opnast síðan **Öll verk**. Þessi síða er síuð út frá fjölda opinna vinnuhausa sem innihalda verklínur úr losuðum uppskriftar- og formúlulínum sem uppfylla viðmiðanirnar fyrir reitinn. Frá **Öll verk** síðunni er hægt að vinna verkið handvirkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

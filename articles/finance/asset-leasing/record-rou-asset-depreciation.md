@@ -86,3 +86,6 @@ Fyrir leigusamninga sem eru með fjármálaflokkun reiknar kerfið afskriftir af
 | 1                                    | 22.889.87 ÷ 24 = 953,74                 |
 | 2                                    | 22.889.87 ÷ 24 = 953,74                 |
 | 3                                    | 22.889.87 ÷ 24 = 953,74                 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

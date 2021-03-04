@@ -57,3 +57,6 @@ Ef tafarlaus áfylling er valin fyrir línu staðsetningarleiðbeiningar, en eng
 
 - Gakktu úr skugga um að sniðmát eftirspurnaráfyllingar sem er notað sé sett upp til að nota rétt staðsetningarsniðmát og vinnusniðmát af gerðinni **Áfylling**.
 - Gakktu úr skugga um að það sé nóg af birgðum á lager á þeirri staðsetningu sem sniðmát eftirspurnaráfyllingar leitar að birgðum á lager fyrir áfyllingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

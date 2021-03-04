@@ -55,3 +55,6 @@ Nýja svæðið og gögnin fyrir svæðið ættu að vera tiltæk til breytinga 
 [Breyta fjárhagsvíddum fyrir smásölufærslur](edit-financial-dim.md)
 
 [Stofna Excel-vinnubók til að breyta smásölufærslum](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

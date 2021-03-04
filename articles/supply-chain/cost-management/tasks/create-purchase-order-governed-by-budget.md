@@ -62,3 +62,6 @@ Nota þetta ferli til að stofna innkaupapöntun sem er athuguð í tiltækri fj
 4. Smella á athugun á villum eða viðvörunum í fjárhagsáætlun
 5. Smellið á „Loka“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

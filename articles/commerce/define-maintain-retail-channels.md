@@ -89,3 +89,6 @@ Commerce notar stigveldi stofnunar fyrir uppbyggingu á rásum. Stigveldi fyrirt
 > [!NOTE]
 > Til að nota söluaðgerðir Commerce verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna ýmissa sannprófana á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

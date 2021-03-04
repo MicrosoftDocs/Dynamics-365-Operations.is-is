@@ -62,3 +62,6 @@ Til að tengja lén við Dynamics 365 Commerce rafrænt viðskiptaumhverfi skal 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

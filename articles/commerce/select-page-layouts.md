@@ -78,3 +78,6 @@ Fylgdu þessum skrefum til að velja annað skipulag fyrir fyrirliggjandi síðu
 
 [Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

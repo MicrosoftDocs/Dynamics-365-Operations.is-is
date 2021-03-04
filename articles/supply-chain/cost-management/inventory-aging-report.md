@@ -365,3 +365,6 @@ Nýja skýrslan mun líkjast eftirfarandi dæmi.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

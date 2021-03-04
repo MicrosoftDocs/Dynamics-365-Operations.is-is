@@ -64,3 +64,6 @@ ms.locfileid: "4430237"
 6. Ef tilfangahópur ætti að tengjast völdum hópi viðhaldsstarfsmanna skaltu velja **Afrita úr tilfangahóp**. Í **Hópur** reitinn, veldu auðlindahópinn sem á að afrita dagatalstillingar frá. Síðan, í **starfsmannahópur** veldu starfsmannahópinn sem á að afrita dagatalsstillingar auðlindahópsins til. Þetta skref skiptir aðeins máli ef þú vilt að viðhaldsstarfsmenn noti dagatalið sem er tengt auðlindinni (vinnumiðstöð) við tímasetningu vinnu.
 
     Reitirnir á flýtiflipanum **Upplýsingar** sýna fjölda viðhaldsstarfsmannahópa og virka staði sem valinn viðhaldsstarfsmaður er tengdur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

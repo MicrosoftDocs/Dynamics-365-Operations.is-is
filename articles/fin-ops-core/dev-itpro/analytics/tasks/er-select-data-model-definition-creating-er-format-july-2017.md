@@ -98,3 +98,6 @@ Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið 
     * Athugið að aðeins eitt rótaratriði er tiltækt til vörpunar yfir í gagnaveitu forritsins. Þegar að minnsta kosti ein vörpun líkans er lögð fram, er aðeins hægt að velja þau rótaratriði líkansins sem er varpað yfir í gagnaveitu forritsins, sem skilgreiningu líkans um leið og sniði Rafræn skýrslugerð er bætt við.   
 5. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

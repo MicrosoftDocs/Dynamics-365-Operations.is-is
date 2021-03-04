@@ -65,3 +65,6 @@ Eftirfarandi lausnir PowerBI.com eru í tiltækar frá [Microsoft AppSource](htt
 - Kostnaðarstýring
 - [Fjárhagsleg frammistaða](financial-performance-power-bi-content-pack.md)
 - [Afköst smásölurásar](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

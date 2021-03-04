@@ -56,3 +56,6 @@ Til að afturkalla bakfærða færslu skal fylgja þessum skrefum.
 Þegar valið er **Rekja bakfærslu** birtist svargluggi sem sýnir bæði upprunalegu færslurnar og bakfærðu færslurnar ásamt tengdu rakningarnúmeri.
 
 Einnig er hægt að rekja afturköllun með því að nota viðeigandi **Áætlanir** síðu. Reiturinn **Bakfæra** er hreinsaður, en reitnum **Bókuð færslubók** er valinn. Þar að auki er reiturinn **Nýjasta færslubókarnúmerið** uppfærður með færslubókarnúmeri afturköllunar og **Færslubókarnúmer** reiturinn er uppfært með númeri bakfærslubókar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

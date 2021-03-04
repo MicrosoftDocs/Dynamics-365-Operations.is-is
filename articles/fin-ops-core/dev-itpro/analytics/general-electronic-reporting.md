@@ -367,3 +367,6 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 
 - [Stofna skilgreiningar fyrir rafræna skýrslugerð (ER)](electronic-reporting-configuration.md)
 - [Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

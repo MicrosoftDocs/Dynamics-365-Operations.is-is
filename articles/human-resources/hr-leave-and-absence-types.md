@@ -82,3 +82,6 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 - [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md)
 - [Fresta leyfi](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

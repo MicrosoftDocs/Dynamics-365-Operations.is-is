@@ -78,3 +78,6 @@ Hins vegar, ef notuð er vara sem inniheldur "runu fyrir neðan" frátekningarst
 Þessi hegðun er samkvæmt hönnuninni. Ef vídd fyrir ofan víddina **Staðsetning** er sett upp í frátekningarstigveldi verður að tilgreina hana áður en hún er losuð í vöruhúsið. Microsoft hefur metið þetta vandamál og hefur ákvarðað að takmörkun á eiginleika við losanir í vöruhúsi frá áætlunarvinnusvæði hleðsluáætlunar sé til staðar. Ekki er hægt að losa hlutamagn ef ein eða fleiri vídd fyrir ofan **Staðsetning** eru ekki tilgreindar.
 
 Frekari upplýsingar er að finna í [Sveigjanleg frátektarregla á vídd vöruhúsastigs](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

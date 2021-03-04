@@ -73,3 +73,6 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 [Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

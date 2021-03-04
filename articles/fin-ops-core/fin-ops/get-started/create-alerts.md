@@ -102,3 +102,6 @@ Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa skjámynda
     ```
 2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

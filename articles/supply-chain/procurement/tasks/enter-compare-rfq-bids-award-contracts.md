@@ -107,3 +107,6 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skoða innkaupapöntun sem er búin til
 
 Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

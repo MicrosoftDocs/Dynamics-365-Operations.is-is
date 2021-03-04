@@ -45,3 +45,6 @@ ms.locfileid: "4419036"
    | **Biðdagur** | Veljið biðdag sem á að nota við útreikning biðdagsetningar. |
 
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

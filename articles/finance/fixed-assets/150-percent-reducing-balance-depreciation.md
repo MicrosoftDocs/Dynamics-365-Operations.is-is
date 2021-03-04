@@ -88,3 +88,6 @@ Aðferðin 150% bókfært virði stöðu deilir 150% með líftíma í árum. Þ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

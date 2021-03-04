@@ -56,3 +56,6 @@ ms.locfileid: "4430384"
 2. Veljið **Nýtt**.
 3. Í reitnum **Lýsing** skal færa inn lýsinguna.
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

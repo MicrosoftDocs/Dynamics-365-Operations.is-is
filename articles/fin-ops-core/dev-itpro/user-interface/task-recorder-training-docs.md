@@ -123,3 +123,6 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 [Verkskráning](task-recorder.md)
 
 [Stofna Hjálparefni rich Client með Verkskráningar (ytri tengil)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

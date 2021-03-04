@@ -117,3 +117,6 @@ Myndirnar tvær hér að neðan sýna tímaáætlun í glugganum **Tímasetja vi
 - Þú getur sett upp runuvinnslu á flýtiflipanum **Keyra í bakgrunni** til að skipuleggja lotur með reglulegu millibili.  
 - Ef lota er innifalin í nokkrum verkbeiðnisöfnum (sjá [Verkbeiðnisöfn](../work-orders/work-order-pools.md)) er sýnd ein skrá fyrir hvert safn í **Opna viðhaldsskemasöfn**. Þetta er gert til að hámarka síunarvalkosti fyrir verkbeiðnisöfn.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Til að fá frekari upplýsingar um hvert skref í tilraunaferlinu skal skoða e
 
 ## <a name="next-step"></a>Næsta skref
 [Auðkenna tilgátu og ákvarða árangursmælingar fyrir tilraun](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

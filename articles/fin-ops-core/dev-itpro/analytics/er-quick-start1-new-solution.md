@@ -1233,3 +1233,6 @@ Takið eftir því að síðufótur myndaðrar skýrslu inniheldur ekki heitið 
 - [IF-aðgerð](er-functions-logical-if.md)
 - [ORDERBY-aðgerð](er-functions-list-orderby.md)
 - [SESSIONNOW-aðgerð](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

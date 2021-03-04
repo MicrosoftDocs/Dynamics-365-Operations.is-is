@@ -117,3 +117,6 @@ Eftirfarandi tafla sýnir sýnigögn sem eru tiltæk á hverri skýrslusíðu.
 | Reikningar sem ekki tókst að flytja inn | <ul><li>Reikningar sem ekki tókst að flytja inn</li><li>Reikningar sem ekki tókst að flytja inn eftir fyrirtæki</li></ul> |
 | Ástæður fyrir bilun sjálfvirkni | <ul><li>Reikningar mistókust</li><li>Reikningar mistókust eftir fyrirtæki</li><li>Reikningar mistókust eftir lánardrottnaflokki</li></ul> |
 | Staða verkflæðis                | <ul><li>Reikningar í verkflæði</li><li>Verkflæðitilvik lánardrottnareiknings</li><li>Úthlutun á hvern samþykkjanda</li><li>Verkflæði lánardrottnareiknings eftir fyrirtæki</li><li>Meðaltal daga í verkflæði eftir samþykkjanda</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

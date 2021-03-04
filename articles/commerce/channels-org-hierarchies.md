@@ -88,3 +88,6 @@ Eftirfarandi mynd sýnir lögaðila sem er bætt við stigveldisrótina með fj�
 [Yfirlit yfir rásir](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 [Setja upp starfsstöðvar banka og bókunarreglur fyrir ábyrgðarbréf](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

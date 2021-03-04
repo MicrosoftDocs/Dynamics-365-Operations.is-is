@@ -43,3 +43,6 @@ ms.locfileid: "4444262"
 12. Smellið á **Upphaflegt skjal** á aðgerðarúðunni.
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

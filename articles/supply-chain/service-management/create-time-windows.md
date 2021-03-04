@@ -40,3 +40,6 @@ Hægt er að nota tímaglugga til að bæta röðun á þjónustupöntunarlínum
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Tímaskjámyndir](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

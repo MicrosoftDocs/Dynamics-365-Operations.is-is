@@ -110,3 +110,6 @@ Vinnusvæðið **Vöktun á útleið** hefur tvo reiti sem hjálpa þér að fyl
 ## <a name="deleting-completed-tasks"></a>Eyðing á loknum verkum
 
 Þú getur eytt frestuðum verkefnavinnu sem lokið hefur verið með því að velja þau og eyða þeim á síðunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Fylgdu þessum skrefum til að hlaða upp fjölda mynda í myndamöppu í vefsv�
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

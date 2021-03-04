@@ -121,3 +121,6 @@ Fylgdu þessum skrefum til að bæta við eða fjarlægja niðurstöður fyrir g
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

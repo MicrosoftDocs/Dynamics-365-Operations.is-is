@@ -68,3 +68,6 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 | Hæfnigreining starfsmanns  | Vottun, stig, dagsetning stigs og hæfni                                                                    | Nafn starfsmanns, hæfni |
 | Afköst              | Mat, lýsing og matslíkan                                                                      | Núverandi starfsmaður, núverandi staða, starfsmannaleitni, æskileg hæfni starfs, fyrri stöðuúthlutun, stöðuleitni starfsmaður sem er hættur |
 | Hæfni                    | Hæfni, gerð hæfni og mat                                                                              | Hæfnigreining starfsmanns, æskileg hæfni starfs |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

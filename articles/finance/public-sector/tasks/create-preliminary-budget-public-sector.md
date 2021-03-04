@@ -53,3 +53,6 @@ Hægt er að stofna forvinnslu færslur fjárhagsáætlunarskrár fyrir tiltekna
 19. Smelltu á Uppfæra.
     * til að sjá niðurstöður uppfærslu, Smellið upplýsingar Skilaboða bláa slá.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

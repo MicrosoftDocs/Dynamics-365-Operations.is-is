@@ -66,3 +66,6 @@ Stjórnun leyfis og fjarvista býður upp á eftirfarandi eiginleika:
 - **Senda beiðnir um leyfi.**
 
     Starfsmenn geta sent inn beiðnir um leyfi til móts við tiltækar vinnustundir þeirra. Beiðnir geta verið einfaldar einsdags beiðnir eða beiðnir upp á marga daga sem innihalda margskonar gerðir af leyfi og fjarvistum. Ef verkflæði er ekki virkjað eru beiðnirnar samþykktar sjálfkrafa. Ef verkflæði er virkjað, getur samþykktin verið sjálfvirk, eða hún getur krafist útskráningar, það fer eftir grunnstillingu verkflæðis.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

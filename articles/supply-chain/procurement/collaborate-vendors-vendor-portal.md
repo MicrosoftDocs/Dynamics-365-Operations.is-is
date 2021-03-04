@@ -104,3 +104,6 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

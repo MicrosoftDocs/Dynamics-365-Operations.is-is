@@ -101,3 +101,6 @@ Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frít
 ### <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
 
 Í verkvangsuppfærslu 26 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ ms.locfileid: "4430528"
     * Athugið að báðir vinnslur er bætt við umbeðið tímabil.  
     * Hægt er að sjá álag fyrir hvert tímabil í hlutanum afkastageta Tímabilsins. Reiturinn Notkun sýnir áætlaða notkun á þessu tímabili. Ef áætluð notkun er hærri en tiltæk afkastageta í þetta tímabil er valið ofhlaðin notkun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

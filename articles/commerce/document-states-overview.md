@@ -61,3 +61,6 @@ Eftirfarandi tafla sýnir mögulegar skjalastöður síðueininga í Commerce.
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Sérstilla yfirlit svæðis](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

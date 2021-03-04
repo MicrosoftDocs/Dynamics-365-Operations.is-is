@@ -97,3 +97,6 @@ Fyrirtæki gætu krafist þess að ástæðukóðar verðir settir á ákveðnar
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Afrita athuganir starfsmanns: Breytingar á notandaviðmóti
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Til að forðast að trufla gagnafærslu, opnast tvítekin skjámynd ekki sjálfkrafa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

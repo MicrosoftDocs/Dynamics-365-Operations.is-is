@@ -410,3 +410,6 @@ Hægt er að bæta leiðarvísum við eftirfarandi framleiðslugögn:
 - Ef mörg tengsl leiðaraðgerða eru skilgreind sem innihalda tengslin *Allt* og leiðarvísum er úthlutað á þau, verða aðeins leiðarvísarnir úr sértækustu tengslunum sýndir fyrir verkið.  
 
 ![Skýringarmynd um úrlausn viðeigandi leiðarvísa](media/instruction-guides-Resolve.png "Skýringarmynd um úrlausn viðeigandi leiðarvísa")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

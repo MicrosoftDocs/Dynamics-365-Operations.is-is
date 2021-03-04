@@ -57,3 +57,6 @@ Glugginn skilar ATP upplýsingum frá Supply Chain Management. Þessar upplýsin
 - Magn innhreyfingar
 - Magn úthreyfingar
 - Lagerbirgðir
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

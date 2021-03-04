@@ -514,3 +514,6 @@ Til að byrja að nota nýja virkni fyrir útgáfu 3.3 af sniðinu **BACS (Bretl
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

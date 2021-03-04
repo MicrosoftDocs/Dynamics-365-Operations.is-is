@@ -145,3 +145,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 - [Tvöfaldur gjaldmiðill](dual-currency.md)
 - [Yfirlit virðisaukaskatts](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

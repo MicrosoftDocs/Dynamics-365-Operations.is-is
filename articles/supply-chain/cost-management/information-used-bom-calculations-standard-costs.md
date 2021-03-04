@@ -84,3 +84,6 @@ Hægt er að tilgreina nokkra uppruna upplýsinga þegar verið er að hefja upp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

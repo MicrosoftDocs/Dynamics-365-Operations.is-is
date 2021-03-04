@@ -69,3 +69,6 @@ ms.locfileid: "4430732"
     - **Tilvísunarlota** tryggir að kostnaður úr núgildandi Innkaup eru gjaldfærð á viðhengda sölupöntun.  
     - Hægt er að fara á upprunalegri sölupöntun með því að opna tengil í svæðinu **Tilvísunarnúmer**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4688020"
 | [Sölupantanir](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Þú getur fylgst náið með sölupöntunum þínum.                                                                                                                          |  2017. janúar                  |
 | [Samstarf lánardrottna](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Lánardrottnar geta fylgst náið með innkaupapöntununum sem hafa verið sendar til þeirra til samþykkis. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði. |2017. janúar    |
 | [Eignastýring](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Þetta vinnusvæði gerir notendum kleift að skoða og búa til viðhaldsbeiðnir og verkbeiðnir. Notendur geta einnig skoðað úthlutað verkbeiðnivinnslur í dagatali eða listaskjá. Einnig er hægt að skoða og leita að eignum og hagnýtum stöðum. |2019. október    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

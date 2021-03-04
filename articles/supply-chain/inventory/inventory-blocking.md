@@ -70,3 +70,6 @@ Hægt er að tilgreina hvaða birgðastöður eru lokunarstöður með því að
 [Gæðastjórnunarferli](quality-management-processes.md)
 
 [Skoða gæði vara](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

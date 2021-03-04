@@ -87,3 +87,6 @@ Eftir að þú hefur lokið við skrefin í kaflanum [Setja upp sjálfgefnar lý
 2. Í reitnum **Tilvísunartafla** skal velja tölfu gagnagrunns, þar sem bæta á færibreytugögnum við lýsinguna.
 3. Í reitnum **Tilvísunarreitur** skal velja reitinn þar sem bæta á færibreytugögnum við lýsinguna.
 4. Endurtakið skref 1 til 3 til að bæta við fleiri færibreytum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

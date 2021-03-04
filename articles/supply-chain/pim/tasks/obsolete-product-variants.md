@@ -73,3 +73,6 @@ ms.locfileid: "4430187"
 
 8. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

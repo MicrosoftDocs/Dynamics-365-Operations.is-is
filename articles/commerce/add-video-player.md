@@ -106,3 +106,6 @@ Fylgdu þessum skrefum til að bæta myndspilaraeiningu við nýja síðu og sti
 [Textabálkseining](add-content-rich-block.md)
 
 [Innihaldsbálkseining](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

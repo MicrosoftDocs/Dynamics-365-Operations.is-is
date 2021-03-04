@@ -45,3 +45,6 @@ Til að sjá hvar tilraun er í ferlinu skal velja **Tilraunir** í vinstra yfir
 Skýringarmyndin hér að neðan sýnir bæði settin af stöðum og hvernig þau tengjast hvort öðru.
 
 [ ![Stöður tilraunavinnu](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

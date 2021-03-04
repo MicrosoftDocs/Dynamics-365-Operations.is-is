@@ -49,3 +49,6 @@ ms.locfileid: "4444425"
     * Ef hnappurinn Innflutningur er ekki tiltækur, merkir það að þessi skilgreining hefur þegar verið flutt inn.  
 9. Smella á Já.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

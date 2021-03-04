@@ -89,3 +89,6 @@ Fylgdu þessum skrefum til að bæta textabálkseiningu við nýja síðu og sti
 
 [Myndspilaraeining](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

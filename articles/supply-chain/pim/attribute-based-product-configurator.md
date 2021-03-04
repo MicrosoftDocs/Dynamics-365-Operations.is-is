@@ -141,3 +141,6 @@ Lokaskrefið er að tilgreina söluverð sem byggir á eigind fyrir útgáfu afu
 1. Á aðgerðasvæðinu skal opna flipann **Líkan** og í flokknum **Upplýsingar um vörulíkan** skal velja **Útgáfur**.
 1. Síðan **Útgáfur** opnast. Gangið úr skugga um að **Verðlagningaraðferð** sé stillt á **Byggir á eigind**.
     ![Stilla aðferð verðlagningar svo hún byggi á eigind](media/prod-config-versions.png "Stilla aðferð verðlagningar svo hún byggi á eigind")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

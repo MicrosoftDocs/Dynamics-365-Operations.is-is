@@ -66,3 +66,6 @@ ms.locfileid: "4430277"
 7. Veldu **Bæta við línum**.
 8. Veljið **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

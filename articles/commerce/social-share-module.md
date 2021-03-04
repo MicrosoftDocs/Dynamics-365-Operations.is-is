@@ -82,3 +82,6 @@ Til að bæta við samfélagsmiðlaeiningu við kaupgluggaeiningu skal fylgja þ
 [Kaupgluggaeining](add-buy-box.md)
 
 [Reglufylgni köku](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

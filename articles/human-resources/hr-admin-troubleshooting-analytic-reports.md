@@ -43,3 +43,6 @@ Skýrslur Microsoft Power BI eru endurnýjaðar á fjögurra klukkustunda fresta
 1. Veljið **Breyta** efst á síðunni og stillið áætlaðan upphafsdag/tíma á gildi sem endurnýjar greiningarnar nær núgildandi tíma.
 
 ![Runuvinnslur](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

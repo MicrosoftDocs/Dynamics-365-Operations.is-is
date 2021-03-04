@@ -123,3 +123,6 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
 | Fjárhagsár                       | Almanaksár                                                                                                        |
 | Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

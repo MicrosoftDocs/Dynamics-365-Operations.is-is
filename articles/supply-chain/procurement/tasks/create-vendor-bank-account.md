@@ -58,3 +58,6 @@ ms.locfileid: "4430199"
 25. Í reitnum **Bankareikningur** skal velja lykil sem var nýlega stofnaður.
 26. Smellt er á **Vista**. Aðsetrið má erfa frá bankaflokki, ef slíkt er tilgreint, eða hægt er að bæta honum við hér.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

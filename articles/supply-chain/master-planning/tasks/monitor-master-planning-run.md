@@ -127,3 +127,6 @@ Liturinn er aðeins sýndur á lægsta stiginu í Gantt töflunni. Veldu **Auka 
 1. Veldu línuna þar sem reiturinn **Reitur** er stilltur á **Vörunúmer**.
 1. Í reitinn **Skilyrði** skal slá inn gildi.
 1. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

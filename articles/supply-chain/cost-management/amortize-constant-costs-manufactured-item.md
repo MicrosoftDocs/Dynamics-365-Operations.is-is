@@ -47,3 +47,6 @@ Reiknuð upphæð afskrifaðs fasts kostnaðar vöru fellur undir ýmis gjöld.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

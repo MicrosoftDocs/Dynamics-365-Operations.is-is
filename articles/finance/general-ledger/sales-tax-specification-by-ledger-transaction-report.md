@@ -58,3 +58,6 @@ Fyrir skattalykla sýna dálkarnir **Uppruni**, **Innskattur** og **Útskattur**
 Til að sýna aðeins lykla sem ekki eru skattar í skýrslunni skaltu setja upp síuskilyrði, svo sem stjörnu (\*), eins og sýnt er á eftirfarandi mynd.
 
 ![Skýrsla sem sýnir lykla án skatta](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

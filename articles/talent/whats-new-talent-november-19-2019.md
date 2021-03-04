@@ -86,3 +86,6 @@ Með þessari útgáfu eru vörur á tiltektarlista núna samstilltir við Commo
 ### <a name="print-performance-reviews"></a>Prenta árangursumsagnir
 
 Sjá [Prenta árangursumsagnir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) í Dynamics 365: 2019 útgáfu bylgjuáætlun 2.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Birgðatalningar geta verið annaðhvort áætlaðar eða óskipulagðar. Áætl
 ## <a name="inventory-lookup"></a>Birgðauppfletting
 
 Núverandi afurðarmagn á lager fyrir margar verslanir og vöruhús er hægt að skoða á síðunni **Uppfletting á birgðum**. Til viðbótar við núverandi magn á lager er hægt að skoða magn sem tiltækt er að lofa í framtíðinni (ATP) fyrir hverja verslun. Veldu verslunina til að skoða ATP-magn fyrir og veldu síðan **Sýna tiltækileika verslunar**. Upplýsingar um skilgreiningarvalkostina sem eru í boði er að finna í [Reikna út birgðaframboð fyrir smásölurásir](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

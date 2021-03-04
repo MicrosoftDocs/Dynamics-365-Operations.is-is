@@ -147,3 +147,6 @@ Viðbótarskýrslur sem eru tiltækar innihalda skýrsluna **Spástöður eftir 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

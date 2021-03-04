@@ -54,3 +54,6 @@ ms.locfileid: "4976664"
 
 Ef pöntuninni var skilað að fullu verður skattupphæðin sem skilað er til viðskiptavinarins jöfn skattupphæðinni sem var upphaflega innheimt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

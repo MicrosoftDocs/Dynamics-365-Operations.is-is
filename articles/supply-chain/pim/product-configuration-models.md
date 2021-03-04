@@ -153,3 +153,6 @@ Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undirí
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

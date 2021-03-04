@@ -129,3 +129,6 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
 2. Smellt er á Ljúka.
 3. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

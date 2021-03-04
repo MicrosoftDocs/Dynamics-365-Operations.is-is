@@ -76,3 +76,6 @@ Dæmin sem lýst er hér sýna að allar gagnaskráningar sem gerðar hafa veri�
 
 ![Mynd 4](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

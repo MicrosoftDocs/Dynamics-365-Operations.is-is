@@ -107,3 +107,6 @@ Fyrst þarf að vinna úr vöruúrvali sem er skilgreint í Commerce áður en �
 - **Sölur og skil utan vöruúrvals** – Þessi möguleiki hjálpar smásölum að stjórna vöruúrvali sínu á árangursríkan hátt með því að leyfa þeim að takmarka fjölda tiltækra afurða til afurða sem tilheyra undirstöðuafurðum samsetningarinnar fyrir verslunina. Þessi möguleiki hjálpar einnig smásölum að takast á við aðstæður þar sem afurð var ranglega sleppt úr vöruúrvali eða þar sem afurð var skilað utan virkra dagsetninga fyrir vöruúrvalið.
 
 Ef afurðargögn eru ekki til í gagnagrunni rásar mun sölustaðurinn hafa samskipti í rauntíma við höfuðstöðvar til að sækja nauðsynlegar upplýsingar svo hægt sé að selja, skila eða setja afurðina á pöntun viðskiptavinar. Afurðarupplýsingar sem eru sóttar með þessum hætti eru aðeins tiltækar á meðan á þessari færslu stendur. Afurðinni er ekki bætt við skilgreiningu vöruúrvalsins. Þess vegna verða næstu samskipti í rauntíma gerð eftir þörfum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

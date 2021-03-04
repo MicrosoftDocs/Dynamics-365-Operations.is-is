@@ -41,3 +41,6 @@ Til að ljúka gildistíma og vinnslu í útgáfu framleiðsluflæðis á tiltek
 6. Færa inn dagsetningu og tíma í dagsetningarsvæði Gildistíma.
     * Fyrir lokadagsetningu hefst ný útgáfu ekki eða verður virk. Það verður ekki heldur lengur hægt að stofna eða hefja vinnslur fyrir þetta framleiðsluflæði. Það verður samt hægt að ljúka vinnslum eftir lokadagsetningu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

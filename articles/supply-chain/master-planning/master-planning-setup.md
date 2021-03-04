@@ -227,3 +227,6 @@ Afhendingartími + Neikvæðir dagar + Núverandi dags. – Þarfadags.
 Kerfið notar aðeins áætlaðar birgðapantanir sem eru innan þessa tímabils og það stofnar nýja áætlaða pöntun utan þess. Kosturinn við kvika neikvæða daga er að þeir munu innihalda staka afhendingartíma, til að endurnota fyrirliggjandi pantanir og forðast stofnun á nýjum áætluðum pöntunum sem munu enda með síðari dag vegna tafa sem stafa af afhendingartíma. 
 
 Nánari upplýsingar er að finna í [Neikvæðir dagar og kvikir neikvæðir dagar](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4418975"
    | Áætlanir | Flýtiflipinn Áætlanir inniheldur áætlanirnar sem uppfylla síuskilyrðin sem þú tilgreindir. Viðeigandi stillingarmöguleikar sem voru settir af starfsmönnum HR og innritunarvalir sem starfsmenn voru valdir eru á hverri línu. Reiturinn Hæfur tilgreinir hvort það sé staðfestingarárekstur við áætlunina. |
 
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með þv
 [Setja upp gæðapantanir](tasks/set-up-quality-orders.md)
 
 [Skoða gæði vara](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Aðsetrið í haus innkaupapöntunar er uppfært í aðsetur sem er ekki afhendi
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Get ég fundið notandann sem afturkallaði innkaupapöntunina?
 
 Þessar upplýsingar eru aðeins raktar ef innkaupapöntunin fellur undir breytingastjórnun. Ef breytingastjórnun er notuð, er hægt að sjá hver sendi inn breytinguna (afturköllunina) og hver samþykkti hana.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

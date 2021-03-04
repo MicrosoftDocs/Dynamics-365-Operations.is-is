@@ -122,3 +122,6 @@ Ef notandi hefur ekki aðgang að síðum sem notaðar eru til að ljúka verkum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

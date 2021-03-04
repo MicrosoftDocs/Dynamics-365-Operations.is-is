@@ -64,3 +64,6 @@ ms.locfileid: "4430141"
 11. Smellt er á **OK**.
 12. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

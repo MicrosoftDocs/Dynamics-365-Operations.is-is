@@ -47,3 +47,6 @@ ms.locfileid: "4430439"
 14. Í reitinn Svið frá skal slá inn númer.
 15. Í reitinn Svið til skal slá inn númer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

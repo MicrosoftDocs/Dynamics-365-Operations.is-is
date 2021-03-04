@@ -83,3 +83,6 @@ Einnig er hægt að virkja reitina **Upphafstími** og **Lokatími** í flipanum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

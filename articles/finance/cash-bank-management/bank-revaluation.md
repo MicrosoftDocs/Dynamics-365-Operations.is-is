@@ -88,3 +88,6 @@ Endurmatsfærsla á erlendum gjaldmiðli er einnig dreift á milli víddanna sem
 Ef bakfæra þarf endurmatsfærsluna, skal velja **Bakfæra færslu** á aðgerðarsvæðinu á síðunni **Endurmat á erlendum gjaldmiðli**. Ný söguleg færsla fyrir endurmat á erlendum gjaldmiðli er stofnuð til að viðhalda sögulegri endurskoðunarslóð yfir því hvenær endurmatið átti sér stað eða var bakfært.
 
 Til að bakfæra fleiri en eitt endurmat þarf að bakfæra nýlegasta endurmatið fyrst. Svo skal halda áfram til að bakfæra eldra endurmat í dagsetningarröð. Þú getur síðan unnið með nýtt endurmat fyrir þau tímabil sem þú bakfærðir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

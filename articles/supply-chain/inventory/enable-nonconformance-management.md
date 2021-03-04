@@ -54,3 +54,6 @@ Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
 [Gæðastjórnunarferli](quality-management-processes.md)
 
 [Setja upp forsendur fyrir ósamkvæmistýringu.](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

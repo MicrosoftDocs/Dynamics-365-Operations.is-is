@@ -64,3 +64,6 @@ Hægt er að nota rafræn skýrslugerð (ER) lista aðgerðir til að draga uppl
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

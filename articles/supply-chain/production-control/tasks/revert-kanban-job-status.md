@@ -55,3 +55,6 @@ ms.locfileid: "4430295"
     * Velja sömu vinnslu.  
     * Athugið staða vinnslu fyrir kanban-vinnsla hefur verið breytt í áætlað, sem er tilgreind með tómu kanban tákn.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

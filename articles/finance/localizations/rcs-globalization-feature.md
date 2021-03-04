@@ -252,3 +252,6 @@ Notendur altækrar þjónustu geta stjórnað umhverfinu til að setja upp altæ
 10. Veljið **Gefa út** til að gefa út umhverfið.
 
     ![Útgefið umhverfi](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

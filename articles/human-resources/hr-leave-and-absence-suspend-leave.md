@@ -49,3 +49,6 @@ Sé unnið úr uppsöfnunum á meðan leyfi starfsmanns er frestað verður engi
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
 - [Uppsöfnunaráætlanir fyrir leyfi og fjarvistir](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

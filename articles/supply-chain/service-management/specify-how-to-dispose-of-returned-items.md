@@ -183,3 +183,6 @@ Fyrir hvern ráðstöfunarkóða sem skilgreindur er verður að velja ráðstö
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

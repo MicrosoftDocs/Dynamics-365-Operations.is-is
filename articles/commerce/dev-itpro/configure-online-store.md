@@ -62,3 +62,6 @@ Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Commerce-þátta og net
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

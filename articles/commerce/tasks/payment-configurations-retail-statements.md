@@ -53,3 +53,6 @@ ms.locfileid: "4413197"
     * Veljið lykilinn sem á að bóka upphæðir í öryggisskáp í.  
 8. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Dagsetningar á línu spástöðu kostnaðareiningarinnar verða að vera innan 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

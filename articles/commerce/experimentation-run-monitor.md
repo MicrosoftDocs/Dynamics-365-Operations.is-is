@@ -53,3 +53,6 @@ Ef þú þarft að breyta afbrigðunum af einhverjum ástæðum skaltu fylgja sk
 
 ## <a name="next-step"></a>Næsta skref
 [Kynna afbrigði og ljúka tilraun](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

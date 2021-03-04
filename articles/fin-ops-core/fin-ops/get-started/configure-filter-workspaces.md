@@ -63,3 +63,6 @@ Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hlu
 [![vinnusvæði-hluti-síur](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Eins og með síu alls vinnusvæðis þarf að velja eða færa inn gildi til að sía efni hlutans.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

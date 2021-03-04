@@ -66,3 +66,6 @@ Eftirfarandi gerðir eininga eru veittar í einingasafni:
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

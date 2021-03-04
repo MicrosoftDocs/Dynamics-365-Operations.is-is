@@ -49,3 +49,6 @@ Stofna þarf nýtt valmyndaratriði með vinnuham sem notast ekki við fyrirligg
 - Móttaka og frágangur blandaðrar númeraplötu
 
 Valkostir sem eru í boði til að auðkenna upprunaskjalslínur eru vara í innkaupapöntun, innkaupapöntunarlína, skilapöntun, vara í flutningspöntun og flutningspöntunarlína. Þessir valkostir geta breytt móttökupöntun á einni númeraplötu. Síðasti valkosturinn er eftir hleðsluvöru. Hægt er að bæta mörgum vörum við númeraplötu en ekki er hægt að skipta milli margra hleðsla.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

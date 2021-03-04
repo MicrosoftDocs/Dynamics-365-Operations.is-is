@@ -79,3 +79,6 @@ Nokkrar tölfræði um lánastjórnun er að finna í upplýsingareitnum **Tölf
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Númeraraðir og samnýttar færibreytur númeraraða
 
 Auðkenni dagbókar er krafist til að vinna úr leiðréttingum á lánamörkum. Þú verður að bæta við leiðréttingarnúmeri fyrir lánsfjárhæð sem ætti að nota til að búa til dagbókarauðkenni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

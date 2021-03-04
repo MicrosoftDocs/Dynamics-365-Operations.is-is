@@ -145,3 +145,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 46. Lokið síðunni.
 ![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

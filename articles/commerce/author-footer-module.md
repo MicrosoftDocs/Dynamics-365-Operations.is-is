@@ -87,3 +87,6 @@ Með því að bæta broti við síðusniðmát hjálpar þú til við að trygg
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

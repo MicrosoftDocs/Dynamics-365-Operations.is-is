@@ -66,3 +66,6 @@ Hægt er að finna skoðanir, fréttir og aðrar upplýsingar um viðskiptaskuld
 ### <a name="videos"></a>Myndskeið
 Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

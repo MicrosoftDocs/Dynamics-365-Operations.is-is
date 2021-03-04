@@ -52,3 +52,6 @@ ms.locfileid: "4430373"
 
 5. Smellt er á **OK**. Ein eða fleiri verkbeiðnir eru búnar til.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

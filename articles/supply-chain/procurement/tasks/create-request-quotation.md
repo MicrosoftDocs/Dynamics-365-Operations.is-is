@@ -81,3 +81,6 @@ Eftir að þú hefur tilgreint grunnupplýsingar um tilboðsbeiðnir þínar til
 4. Lokið síðunni.
 5. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

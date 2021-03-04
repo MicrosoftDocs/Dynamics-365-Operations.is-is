@@ -45,3 +45,6 @@ Eftirfarandi skilyrði eru til dæmis í gildi:
 Upphæðin til afskriftar fyrir upprunalegu eignina er $1.822,25. Þessi upphæð samsvarar BNV áður en skipt færsla er bókuð ($9111,25), auk kaupleiðréttingar sem er mynduð við bókun á skiptifærslunni (-$8000), auk afskriftarleiðréttingarinnar sem er mynduð við skiptifærsluna ($711). Þess vegna er afskriftin fyrir annað ár (1.822,25 × 18 prósent) ÷ 12 = $27,33.
 
 Upphæðin til afskriftar fyrir nýju eignina á fyrsta árinu er (8.000 × 18 prósent) ÷ 12 = $120.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

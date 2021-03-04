@@ -57,3 +57,6 @@ ms.locfileid: "4430136"
 11. Veljið **Í lagi**.
 12. Lokið síðunni. Samningurinn er nú gildur. Hægt er að hefja tengingu á pöntunum viðskiptavina við samning til mótfærslu við skuldbindingarmarkið.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

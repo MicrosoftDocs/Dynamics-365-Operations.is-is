@@ -86,3 +86,6 @@ Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Bæta verður notanda við hlutverk umhverfishönnuðar fyrir umhverfið í Micr
     ![Samstillingarhnappur](media/get-more.png)
 
     Human Resources birtist á heimasíðunni þegar samstillingu lýkur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

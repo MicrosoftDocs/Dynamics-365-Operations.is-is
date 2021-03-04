@@ -66,3 +66,6 @@ Eftir að þú ert búinn að gera skráningu á ástandsmati á eign geturðu p
 
 >[!NOTE]
 >Þú getur líka skráð ástandsmat í verkbeiðnihnappi (**Eignastýring** > **Sameiginlegt** > **Verkbeiðni** > **Allar verkbeiðnir** > **Ástandsmat**.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
