@@ -94,12 +94,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.17 (apríl 2021)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: Commerce 10.0.16 (febrúar 2021)
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (janúar 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: Commerce 10.0.14 (nóvember 2020)
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Kynning á Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Stjórnun innleiðingarferlis
+              items:
+                - name: Heimasíða stjórnunar innleiðingarferlis
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Hönnun fyrir Finance and Operations -forrit
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Taka inn innleiðingarverk
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Umhverfisskipulagning
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Undirbúa keyrslu
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: Algengar spurningar um keyrslu
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Senda þjónustubeiðni
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Áskriftir, LCS-verk og algengar spurningar um Azure AD-leigjendur'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Færa umhverfi milli gagnamiðstöðva
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Færa leyfi á milli samningsgerða
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Færa LCS-innleiðingarverk úr innanhússumhverfi í ský
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Innleiða Finance and Operations Commerce-verk
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Setja upp ný umhverfi, Azure DevOps, og greinar fyrir verk'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Uppfæra kóða og umhverfi fyrir Commerce-verk
+                  href: dev-itpro/updating-environments.md
+                - name: Vandamál tengd prófun og afköstum
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Yfirlit yfir hönnun
           items:
             - name: Skipulag
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Frumstilla grunngögn í nýju Commerce-umhverfi
                   href: enable-configure-retail-functionality.md
-            - name: Stjórnun innleiðingarferlis
-              items:
-                - name: Heimasíða stjórnunar innleiðingarferlis
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Hönnun fyrir Finance and Operations -forrit
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Taka inn innleiðingarverk
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Umhverfisskipulagning
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Undirbúa keyrslu
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Algengar spurningar um keyrslu
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Senda þjónustubeiðni
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Áskriftir, LCS-verk og algengar spurningar um Azure AD-leigjendur'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Færa umhverfi milli gagnamiðstöðva
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Færa leyfi á milli samningsgerða
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Færa LCS-innleiðingarverk úr innanhússumhverfi í ský
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Innleiða Finance and Operations Commerce-verk
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Setja upp ný umhverfi, Azure DevOps, og útibú fyrir Commerce-verk'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Uppfæra kóða og umhverfi fyrir Commerce-verk
-                  href: dev-itpro/updating-environments.md
-                - name: Vandamál tengd prófun og afköstum
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Setja upp rásirnar þínar
           items:
             - name: Yfirlit rása
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: Greiðslumátar í símaverum
                       href: work-with-payments.md
+                    - name: Meðhöndlun endurgreiðslu í símaverum
+                      href: call-center-refund-payments.md
                     - name: 'Uppsetning kreditkorts, heimild og úthlutun'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina verðgildi reiðufjár fyrir sölustað
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: Virkja tillögur um að kaupa svipaða vöru
                   href: shop-similar-looks.md
+                - name: Virkja ráðleggingar um „versla svipaða lýsingu“
+                  href: shop-similar-description.md
                 - name: Reynsla af sölustað
                   items:
                     - name: Bæta við afurðatillögum á sölustað
@@ -712,7 +716,7 @@
           items:
             - name: Pantanir viðskiptavinar
               items:
-                - name: Pantanir viðskiptavinar á sölustað (POS)
+                - name: Pantanir viðskiptavinar í POS
                   href: customer-orders-overview.md
                 - name: Blandaðar pantanir viðskiptavinar
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: Virkja marga afhendingamáta
                   href: multiple-pickup-modes.md
+                - name: Vinna úr afhendingu á pöntun viðskiptavinar á sölustað
+                  href: process-order-pickup-POS.md
             - name: Sölupantanir
               items:
                 - name: Stofna símaverspantanir
@@ -858,11 +864,15 @@
                   href: add-cdn-support.md
                 - name: Virkja greiningu á verslun eftir staðsetningu
                   href: enable-store-detection.md
+                - name: Stafræn rafræn gjafakort
+                  href: digital-gift-cards.md
+                - name: Vafrakröfur fyrir Dynamics 365 Commerce vefsvæði
+                  href: browser-requirements.md
             - name: Dæmi um yfirlit svæðis
               items:
                 - name: Yfirlit heimasíðu
                   href: quick-tour-home-page.md
-                - name: Yfirlýt upplýsingasíðu afurða
+                - name: Yfirlit fyrir upplýsingasíðu afurða
                   href: quick-tour-pdp.md
                 - name: Yfirlit yfir síður körfu og greiðsluferlis
                   href: quick-tour-cart-checkout.md
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Staðfesta aðgengi að efni síðu
                       href: verify-accessibility.md
+                    - name: Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
+                      href: create-dynamic-pages.md
                 - name: Leiðsögn um vefsvæði
                   items:
                     - name: Sérstilla yfirlit svæðis
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Afurðasafnseiningar
                       href: product-collection-module-overview.md
+                    - name: Flýtiskoðunareining
+                      href: quick-view-module.md
                 - name: Yfirlitseiningar
                   items:
                     - name: Brauðmylsnueining
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: Svæðisvalseining
                       href: site-selector.md
+                - name: Leitareiningar
+                  items:
+                    - name: Leitarniðurstöðueining
+                      href: search-result-module.md
                 - name: Reglufylgnieiningar
                   items:
                     - name: Eining kökusamþykkis
@@ -1106,6 +1124,18 @@
           items:
             - name: Dynamics 365 Fraud Protection samþætting við Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: B2B rafræn viðskipti
+          items:
+            - name: Setja upp B2B svæði fyrir rafræn viðskipti
+              href: b2b/set-up-b2b-site.md
+            - name: Stofna líkanastigveldi fyrir B2B fyrirtæki
+              href: b2b/org-model.md
+            - name: Stjórna notendum viðskiptafélaga á B2B svæði fyrir rafræn viðskipti
+              href: b2b/manage-b2b-users.md
+            - name: Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B svæði fyrir rafræn viðskipti
+              href: b2b/payment-method.md
+            - name: Stilla takmarkanir magns fyrir B2B svæði fyrir rafræn viðskipti
+              href: b2b/quantity-limits.md
         - name: Eftirlit og greining
           items:
             - name: Eftirlit með sölu og framlegð
@@ -1558,7 +1588,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Gerð: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Gerð: Gildi'
+                        - name: 'Gerð: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Dagsetning og tími: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
@@ -1990,7 +2020,7 @@
               items:
                 - name: Yfirlit stækkunarhæfni netrásar
                   href: e-commerce-extensibility/overview.md
-                - name: Hafist handa
+                - name: Hefjast handa
                   items:
                     - name: Hafist handa með stækkunarhæfni rafrænna viðskipta á netinu
                       href: e-commerce-extensibility/sdk-getting-started.md
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Herma eftir innskráningarstöðu við staðbundna þróun
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Grunnstilla eiginleika einingar sem á að sýna út frá samhengi
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: Gera einingar alþjóðlegar með því að nota klasann CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Setja upp Azure-lyklageymslu fyrir örugga lyklastjórnun
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Væntanlegar breytingar í Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: Mikilvæg þróun og ALM-breytingar frá útgáfu 10.0.10 til 10.0.13
+                - name: Þróun og ALM-breytingar frá útgáfu 10.0.10 til 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: Sameina byggingarkerfin fyrir Commerce og Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Búa til virkjanlega pakka
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: Þróun í þróunarumhverfi sem hýst er í skýi án stjórnandaaðgangs
+                - name: Þróun í umhverfi sem hýst er í skýi án stjórnandaaðgangs
                   href: dev-itpro/cloud-dev-box.md
                 - name: Setja upp sölukeðju Commerce SDK smíðar
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: API viðskiptavina og neytenda Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Búa til nýtt API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og síðari)
+                - name: Búa til API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og síðari)
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: Búa til nýtt API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og fyrri)
                   href: dev-itpro/retail-server-extension.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: Kveikja á vörn gegn tvítekinni greiðslu fyrir greiðslutengil
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Búa til greiðsluumbúðir fyrir forritaskoðara í uppsetningu Service Fabric
+                - name: Búa til greiðslupakka Commerce fyrir uppsetningu Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: Stækkunarhæfni rafrænna viðskipta þriðja aðila
               items:

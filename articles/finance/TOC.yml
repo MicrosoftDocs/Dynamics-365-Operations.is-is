@@ -72,12 +72,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.17 (mars 2021)
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (febrúar 2021)
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (janúar 2021)
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: 'Finance, 10.0.14 (nóvember 2020)'
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
@@ -175,7 +175,7 @@
                 - name: Hönnun fyrir Finance and Operations -forrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: Taka inn innleiðingarverk
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Umhverfisskipulagning
@@ -340,14 +340,6 @@
               href: accounts-receivable/copy-customer.md
             - name: Verkflæði viðskiptavinar
               href: accounts-receivable/customer-workflow.md
-            - name: Yfirlit tekjuskráningar
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: Uppsetning tekjuskráningar
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: Skrá frestaðar tekjur
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: Tekjuskráning í sölupöntunum
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Uppsetning og vinnsla endurtekinna reikninga
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta
@@ -384,10 +376,30 @@
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Viðskiptakröfum lokað
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Greiðslur og uppgjör
+            - name: Tekjuskráning
               items:
                 - name: Yfirlit tekjuskráningar
                   href: accounts-receivable/revenue-recognition-overview.md
+                - name: Uppsetning tekjuskráningar
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: Skrá frestaðar tekjur
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: Tekjuskráning í sölupöntunum
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: Búnt tekjuskráningar
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: Endurúthlutun tekjuskráningar
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: Endurúthlutun tekjuskráningar – Aðstæður 1
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: Endurúthlutun tekjuskráningar aðstæður 2
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: Endurúthlutun tekjuskráningar aðstæður 3
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: Endurúthlutun tekjuskráningar aðstæður 4
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
+            - name: Greiðslur og uppgjör
+              items:
                 - name: Greiðsluyfirlit viðskiptavina
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Miðstýrðar greiðslur fyrir viðskiptakröfur
@@ -470,6 +482,10 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Umsjón með ítarlegum minnismiðum
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: Tilvísanir í upprunalega reikninga í kreditnótum
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: Tímaröðun númera skjala og fylgiskjala
+              href: accounts-receivable/chrono-numbers.md
         - name: Fjárhagsáætlanir
           items:
             - name: Fjárhagsáætlun – heimasíða
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: Sjóðstreymisspár
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: Úrræðaleit vegna uppsetningar sjóðstreymisspár
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: Vinnusvæði bankakerfis
               href: cash-bank-management/Bank-management-workspace.md
             - name: Endurmat á banka – erlendum gjaldmiðli
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: Bakfæra bókaðar leigufærslur
                   href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Viðteknar reglur eignarleigu
+                  href: asset-leasing/asset-leasing-convention.md
                 - name: Breyta leigusamningi
                   href: asset-leasing/adjust-lease.md
                 - name: Draga úr afnotarétti af eign
                   href: asset-leasing/impair-rou-asset.md
+                - name: Leggja til uppsögn leigusamnings
+                  href: asset-leasing/lease-termination.md
                 - name: Tengja leigusamning við eign
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: Skrá leigusamninga í erlendum gjaldmiðlum
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: Búa til samstæðureikningsskil
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Flytja inn gögn dótturfyrirtækis úr skrám
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Flytja út gögn dótturfyrirtækis í skrá
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Sameina við innflutningssnið
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Undirbúa lögaðila til notkunar í sameiningarferlinu
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Setja upp dótturfyrirtæki fyrir sameiningu
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: Stofna samstæðuhópa og annan samstæðulykil
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: Aðallykilgerðir
@@ -1004,6 +1036,8 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Eitt fylgiskjal
                   href: general-ledger/one-voucher.md
+                - name: Algengar spurningar um eitt fylgiskjal
+                  href: general-ledger/one-voucher-faq.md
                 - name: Fjárhagsjafnanir
                   href: general-ledger/ledger-settlements.md
             - name: Lokun tímabils
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Fjöldalokun fjárhagstímabils
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: Algengar spurningar um verkþætti árslokunar
+                  href: general-ledger/faq-year-end-activities.md
             - name: Virðisaukaskattur
               items:
                 - name: Yfirlit virðisaukaskatts
@@ -1056,12 +1092,26 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Setja upp VSK-uppgjörstímabil
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Setja upp staðgreiðsluskatt
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Skoða bókaðar VSK-færslur
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Prenta VSK-greiðslu eftir kóðaskýrslu
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Staðgreiðsluskattur
+              items:
+                - name: Setja upp staðgreiðsluskatt
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Altækur staðgreiðsluskattur
+                  items:
+                    - name: Yfirlit um altækan staðgreiðsluskatt
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Setja upp altækan staðgreiðsluskatt
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Staðgreiðsluskattur í innkaupafærslum
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Staðgreiðsluskattur í sölufærslum
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Stofna greiðslu staðgreiðsluskatts
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Vinnusvæði endurskoðunar
               items:
                 - name: Reglur endurskoðunarstefnu
@@ -1070,9 +1120,55 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
-        - name: Finance-innsýn
+        - name: Fjárhagsskýrslugerð
           items:
-            - name: Heimasíða Finance-innsýnar
+            - name: Hafist handa með fjárhagsskýrslugerð
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: Yfirlitssíða fjárhagsskýrslugerðar
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: Fjárhagsskýrsluhlutar
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Gjaldmiðilsgeta í fjárhagsskýrslugerð
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: Fjárhagsskýrslur efnahagsreiknings
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: Búa til fjárhagsskýrslur
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: Fjárhagsskýrsla rekstrarreiknings
+              href: general-ledger/income-statement-financial-report.md
+            - name: Fjárhagsskýrslur prófjafnaðar
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: Skoða fjárhagsskýrslur
+              href: general-ledger/view-financial-reports.md
+            - name: Viðmót skýrsluhönnunar
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: Flýtilyklar fyrir fjárhagsskýrslur
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: Kjörstillingar notanda í fjárhagsskýrsluhönnun
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Ítarlegir sniðsvalkostir
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Skipuleggja skýrsluhluta í skýrsluhönnun
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Skýrsluskilgreiningar
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Línuskilgreiningar
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Dálkskilgreiningar
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Skilgreiningar skipurits í fjárhagsskýrslum
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Breyta hólfum línuskilgreiningar
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: Hvenær á að endurstilla gagnaskemma
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: Algengar spurningar um fjárhagsskýrslugerð
+              href: general-ledger/financial-reporting-faq.md
+        - name: Fjármálainnsýn
+          items:
+            - name: Heimasíða Fjarmálainnsýnar
               href: finance-insights/finance-insights-home-page.md
             - name: Grunnstilling og stjórnun
               items:
@@ -1306,48 +1402,6 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Reiknar út samræmdan virðisaukaskatt fyrir Kanada
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Fjárhagsskýrslugerð
-          items:
-            - name: Hafist handa með fjárhagsskýrslugerð
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: Yfirlitssíða fjárhagsskýrslugerðar
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: Fjárhagsskýrsluhlutar
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Gjaldmiðilsgeta í fjárhagsskýrslugerð
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: Fjárhagsskýrslur efnahagsreiknings
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: Búa til fjárhagsskýrslur
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: Fjárhagsskýrsla rekstrarreiknings
-              href: general-ledger/income-statement-financial-report.md
-            - name: Fjárhagsskýrslur prófjafnaðar
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: Skoða fjárhagsskýrslur
-              href: general-ledger/view-financial-reports.md
-            - name: Viðmót skýrsluhönnunar
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: Flýtilyklar fyrir fjárhagsskýrslur
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: Kjörstillingar notanda í fjárhagsskýrsluhönnun
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Ítarlegir sniðsvalkostir
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Skipuleggja skýrsluhluta í skýrsluhönnun
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Skýrsluskilgreiningar
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Línuskilgreiningar
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Dálkskilgreiningar
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Skilgreiningar skipurits í fjárhagsskýrslum
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Breyta hólfum línuskilgreiningar
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Staðfæring
           items:
             - name: Altæk tilföng
@@ -1358,18 +1412,30 @@
               items:
                 - name: Yfirlit innbótar rafrænna reikninga
                   href: localizations/e-invoicing-service-overview.md
+                - name: Stjórnunarhlutar innbótar rafrænna reikninga
+                  href: localizations/e-invoicing-service-administration.md
+                - name: Skilgreina innbót rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Gefa út rafræna reikninga í Finance and Supply Chain Management
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Setja upp Azure-geymslureikning og lyklageymslu
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Hafist handa með innbót rafrænna reikninga
-                  href: localizations/e-invoicing-get-started.md
-                - name: Hafist handa með innbót rafrænna reikninga fyrir Brasilíu
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: Hafist handa með innbót rafrænna reikninga fyrir Ítalíu
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: Setja upp innbót rafrænna reikninga
-                  href: localizations/e-invoicing-setup.md
+                - name: Hefjast handa
+                  items:
+                    - name: Hafist handa með viðbót rafrænna reikninga fyrir Brasilíu
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Hafist handa með innbót rafrænna reikninga
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Hafist handa með innbót rafrænna reikninga fyrir Brasilíu
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Rafrænir reikningar viðskiptavinar í Egyptalandi
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: Hafist handa með innbót rafrænna reikninga fyrir Ítalíu
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: Setja upp innbót rafrænna reikninga
+                      href: localizations/e-invoicing-setup.md
             - name: Ástralía
               items:
                 - name: Yfirlit yfir Ástralíu
@@ -1710,6 +1776,14 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Setja upp greiðsluseðlasnið
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: Egyptaland
+              items:
+                - name: Yfirlit yfir Egyptaland
+                  href: localizations/egypt.md
+                - name: Skilgreina skráningarnúmer í Egyptalandi
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: Skilgreina reikningsútlit fyrir Egyptaland
+                  href: localizations/emea-egy-invoice-layout.md
             - name: Eistland
               items:
                 - name: Yfirlit yfir Eistland
@@ -1800,6 +1874,8 @@
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
                 - name: Staðlar sem eru studdir fyrir rafræna reikningsfærslu
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: Þvinguð myndun rafrænna reikninga
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: Tilvísun upprunalegs reiknings (Austur-Evrópa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: Leit að aðila með VSK-númeri
@@ -1968,6 +2044,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Reikningsfærslukerfi á netinu
                   href: localizations/emea-hun-online-invoicing.md
+                - name: VSK-skýrsla fyrir Ungverjaland
+                  href: localizations/emea-hun-sales-tax-reports.md
                 - name: Frestaður VSK-útreikningur
                   href: localizations/emea-hun-deferred-vat.md
             - name: Ísland
@@ -2224,6 +2302,8 @@
                   href: localizations/italy.md
                 - name: VSK-yfirlitsupplýsingar
                   href: localizations/emea-ita-vat-statements-details.md
+                - name: Ársfjórðungsskýrsla VSK-samskipta
+                  href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Svartlistaskýrsla
                   href: localizations/emea-ita-black-list-report.md
                 - name: Færsludagsetning
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: Árleg skattsamskipti
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: Rekjanleiki greiðslu
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: Samræmd stjórnun bókunardagsetningar
+                  href: localizations/emea-ita-post-date-control.md
             - name: Japan
               items:
                 - name: Yfirlit yfir Japan
@@ -2826,6 +2910,10 @@
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Skattskrár eigna
                       href: localizations/rus-assets-tax-registers.md
+                    - name: Skattskrá frestana
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: Skattskrár sjóðstreymis
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: Sádi-Arabía
               items:
                 - name: Yfirlit í Sádi-Arabíu
@@ -2906,6 +2994,10 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Óinnleystur VSK
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Víddir skattstofu
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: VSK-skýrsla
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: Staðgreiðsluskattur
                   href: localizations/apac-tha-withholding-tax.md
             - name: Sameinuðu arabísku furstadæmin (UAE)
@@ -2991,7 +3083,7 @@
                 - name: Þróa áætlun um röðun starfsmanna
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Færa inn Project Timesheets
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: Fjöldaráðningarverk
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: Stofna fjöldaráðningarverk
@@ -3307,6 +3399,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: Aðgerðir
                   items:
+                    - name: Gamur
+                      items:
+                        - name: Gamaaðgerðir
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: Dagsetning og tími
                       items:
                         - name: Dagsetningar- og tímaaðgerðir
@@ -3527,8 +3625,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Gerð: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Gerð: Gildi'
+                        - name: 'Gerð: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Geymir: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 'Dagsetning og tími: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Dagsetning og tími: DateToDateTime'
@@ -3570,7 +3670,11 @@
                         - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að búa til skýrslur á Word-sniði
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að fylla inn í PDF-sniðmát
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Innfeldar myndir og form
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: Útiloka uppskriftarstafi í mynduðum skrám
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: Uppfæra forritagögn með rafrænni skýrslugerð
               items:
                 - name: Búa til rafræn skjöl og uppfæra forritsgögn
@@ -3646,7 +3752,7 @@
                         - name: Flytja inn skilgreiningar úr GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Aukin síun til að finna skilgreiningar í GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Hlaða skilgreiningum upp í GR
@@ -3710,38 +3816,40 @@
                         - name: Breyta og keyra snið til að nota skjalastjórnunarskrár
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Kemba gagnagjafa
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Nota STRIKAMERKI til að búa til strikamerkismyndir
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina vörpun líkana
                   items:
                     - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: Stilla snið
                   items:
                     - name: Velja skilgreiningar líkans þegar snið eru búin til
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: Fresta keyrslu á atriðum í sniðum rafrænnar skýrslugerðar
                       items:
                         - name: Fresta keyrslu á röðunareiningu
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: Fresta keyrslu á XML-einingu
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: Hanna skýrslur á mörgum tungumálum
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Þjappa stórum skjölum á útleið
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Skoða grunnstillta íhluti rafrænnar skýrslugerðar
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Afstæð slóð í gagnatengslum
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: Nota rafræn skýrslugerðarlausnir í Finance
               items:
                 - name: Skilgreina ramma
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Skilgreina viðtökustaði
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Skilgreina áfangastaði sem eru háðir aðgerð
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Setja upp tilvísun í sniðum rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
@@ -3815,6 +3925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
                     - name: Forritsuppfærsla 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Forritsuppfærsla 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
