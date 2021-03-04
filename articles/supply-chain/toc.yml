@@ -72,12 +72,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (apríl 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (febrúar 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (janúar 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (nóvember 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vistuð yfirlit
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Stöðluð vistuð yfirlit fyrir Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: Eiginleikar hnitanets
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stofna og vinna með sérstillt svæði
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Hönnun fyrir Finance and Operations -forrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Taka inn innleiðingarverk
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Umhverfisskipulagning
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Eignastýring
           items:
             - name: Yfirlit eignastýringar
@@ -363,6 +367,8 @@
               items:
                 - name: 'Spár, verkbeiðnir og verk'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: Reikningur vegna viðhalds á eignum viðskiptavinar
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Samþætta eignastýringu með eignum
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Viðhald sem er fyrirbyggjandi og bregst við
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Staða viðhalds
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Eignastýring úr farsímaforritinu
+              items:
+                - name: Setja upp fartækjavinnusvæði eignastýringar
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: Nota fartækjavinnusvæði eignastýringar
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: Samþætta eignastýringu með Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: Fartækjavinnusvæði eignastýringar
-              href: asset-management/asset-management-mobile-workspace.md
         - name: Gagnastjórnun
           items:
             - name: Markeiningar
@@ -1005,7 +1015,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Gerð: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Gerð: Gildi'
+                        - name: 'Gerð: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Dagsetning og tími: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Birgðir á lager eftir fartækjavinnusvæði
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Úrræðaleita birgðaaðgerðir
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Útleiðarferli
               items:
                 - name: Yfirlit útleiðarferlis
@@ -1377,12 +1389,18 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Öryggismörk
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Innkaupabeiðnir
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: Framleiðsluáætlun
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: Birgðamerking með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/marking.md
                 - name: Áætlanagerð innan samstæðu
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Útiloka afurðir með tilteknar líftímastöður afurðar
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Þekjutímamörk
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Samþykkja tillögur
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Sjálfvirk staðfesting með fínstilling skipulagningar
@@ -1909,6 +1927,8 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Nota formúluhönnun
                   href: production-control/formula-designer.md
+                - name: Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
+                  href: production-control/override-default-reservation-principle.md
                 - name: Bæta afbrigðum afurða við innkaupapantanir með því að nota þyngd afbrigða
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Stofna sölupöntun fyrir skilgreinanlega afurð
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Virkni uppskriftahönnunar
                       href: production-control/bom-designer-functionality.md
+                    - name: Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
+                      href: production-control/override-default-reservation-principle.md
                     - name: Skuggavörur
                       href: production-control/phantom-items.md
                     - name: Útreikningur uppskrifta
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Kerfisstýrð klasatiltekt
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Stilla mismunandi víddir fyrir pakka og geymslu
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: Setja upp gámun
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Staðfesting lotu og númeraplötu
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Endurprenta og ógilda bylgjumerki
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Sending lítilla pakka
+                      href: warehousing/small-parcel-shipping.md
                     - name: Úrræðaleit fyrir hleðsluáætlun og sendingar
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Samstæðureglur sendingar
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Vinna með staðsetningarleiðbeiningar
                       href: warehousing/create-location-directive.md
+                    - name: Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
+                      href: warehousing/filters-and-filter-codes.md
                     - name: Birgðamörk staðsetningar
                       href: warehousing/location-stocking-limits.md
                     - name: Kóðar bylgjuskrefs
                       href: warehousing/wave-step-codes.md
                     - name: Skilgreina bylgjuvinnslu
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Áætla stofnun vinnu í bylgju
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: Setja upp og nota prentun bylgjumerkja
                       href: warehousing/configure-wave-label-printing.md
                     - name: Uppfæra sendingar sjálfkrafa
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Setja upp og stilla vöruhúsaforrit
                   items:
+                    - name: Setja upp og tengja farsímaforrit vöruhúsakerfis
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: Setja upp og tengja vöruhúsaforrit
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Skanna strikamerki með myndavél í vöruhúsaforriti

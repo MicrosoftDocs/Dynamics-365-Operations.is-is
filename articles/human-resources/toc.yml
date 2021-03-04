@@ -5,6 +5,10 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 28. janúar 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21. janúar 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2. desember 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22. október 2020
@@ -79,12 +83,16 @@
           items:
             - name: Velja tækni við samþættingu gagna
               href: hr-admin-integration-choose-technology.md
-            - name: Skilgreina Common Data Service-samþættingu
+            - name: Algengar spurningar um takmörkun
+              href: hr-admin-integration-throttling-faq.md
+            - name: Skilgreina Dataverse-samþættingu
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service einingar
+            - name: Dataverse töflur
               href: hr-developer-entities.md
-            - name: Skilgreina sýndareiningar Common Data Service
+            - name: Skilgreina sýndareiningar Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Algengar spurningar um sýndareiningar Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: Skilgreina samþættingu við Finance
               href: hr-admin-integration-finance.md
             - name: Skilgreina samþættingu við Dayforce
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Stækka með Power Apps og Power Automate
           href: hr-developer-power-apps.md
-        - name: Common Data Service einingar
+        - name: Dataverse töflur
           href: hr-developer-entities.md
         - name: Sérstilltir reitir
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Velja tækni við samþættingu gagna
               href: hr-admin-integration-choose-technology.md
-            - name: Skilgreina Common Data Service-samþættingu
+            - name: Skilgreina Dataverse-samþættingu
               href: hr-admin-integration-common-data-service.md
             - name: Skilgreina samþættingu við Finance
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Senda leyfisbeiðni í verkflæði
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: API-Samþætting við
+          items:
+            - name: Kynning
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Ráðningarbeiðni og tengdar einingar
+              items:
+                - name: Ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Menntun í ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Staðsetning í ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Staða í ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Færni í ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Dæmi um fyrirspurn fyrir ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Valkostir ráðningarbeiðni
+              items:
+                - name: Undanþágustaða starfs
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Staða ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Staða ráðningarbeiðni
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Flokkur stjórnunarstarfs
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Umsækjandi til að ráða og tengdar einingar
+              items:
+                - name: Umsækjandi til að ráða
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Gerð skírteinis
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Tengiliður aðila
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Einstaklingur
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Aðsetur einstaklings
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Vottorð einstaklings
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Menntun einstaklings
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Kennitala einstaklings
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Starfsreynsla einstaklings
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Skoðun einstaklings
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Hæfni einstaklings
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Matsstig
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Skoðunargerðir
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Dæmi um fyrirspurn fyrir umsækjanda til ráðningar
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Valkostir umsækjanda
+              items:
+                - name: Niðurstöður samþættingar umsækjanda
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Autt Já Nei
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Staða á lokið
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Gerð tengiliðar
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Einingagrunnur menntunar
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Kyn
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Hjúskaparstaða
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Mánuðir árs
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Nei Já
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Tímabilseining
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Tíðni skoðunar
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Tíðni skoðunar mynduð úr
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Gerð hæfnisstig
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Notkunarleiðbeiningar
       items:
         - name: Yfirlit
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Viðvörunartilkynningar biðlara með tölvupósti
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Rafrænar undirskriftir
-              items:
-                - name: Yfirlit rafrænna undirskrifta
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Uppsetning rafrænna undirskrifta
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Málastjórnun
               items:
                 - name: Málastjórnunaryfirlit
@@ -591,6 +679,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Vinna úr breytingum á hlutfalli
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA skýrslugerð
+                  href: hr-benefits-management-aca-reports.md
             - name: Skilgreina og stjórna fríðindaáætlun
               href: hr-benefits-manage-program.md
             - name: Stefnur um hæfni til fríðinda

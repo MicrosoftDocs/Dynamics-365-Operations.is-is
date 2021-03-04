@@ -1,6 +1,6 @@
 ---
 title: Hið opinbera – heimasíða
-description: Microsoft Dynamics 365 Finance býður upp á viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum.
+description: Dynamics 365 Finance styður sameiginlegt viðskiptaferli fyrir opinbera geirann. Þar á meðal eru verk fjárhagsáætlanagerðar, innkaupa, viðskiptaskulda og viðskiptakrafna.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459219"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984685"
 ---
 # <a name="public-sector-home-page"></a>Hið opinbera – heimasíða
 
@@ -60,9 +59,8 @@ Skilgreiningarlykill **hins opinbera** virkjar síður og stýringar sem styðja
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Hvernig tengist skilgreiningarlykil hins opinbera öðrum skilgreiningarlyklum?
 Eftirfarandi tafla sýnir upplýsingar um hvernig þessi skilgreiningarlykill tengist öðrum skilgreiningarlyklum.
 
-|            |                                                                                                                                                                                                                     |
+|   **Upplýsingar**         |              **Lýsing**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Upplýsingar** | **Lýsing**                                                                                                                                                                                                     |
 | Yfirlykill | Enginn                                                                                                                                                                                                                |
 | Undirlyklar | Skilgreiningarlykill **ítarlegrar fjárhagsfærslu** (AdvancedLedgerEntry) skilgreiningarlykill **hins opinbera 1099G** skilgreiningarlykill (Tax1099G) **hins opinbera 1099S** skilgreiningarlykill (Tax1099S) skilgreiningarlykill **franskrar löggjafar** |
 

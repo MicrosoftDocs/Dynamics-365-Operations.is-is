@@ -3,14 +3,13 @@ title: Dreifingarstjórnun pöntunar (DOM)
 description: Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4459271"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982592"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -49,8 +48,12 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
     - **Virkja dreifingarstjórnun pöntunar** – Stillið þennan valkost á **Já**.
     - **Staðfesta notkun á Bing-kortum fyrir DOM** – Stillið þennan valkost á **Já**.
 
+
         > [!NOTE]
         > Aðeins er hægt að stilla þennan valkost á **Já** ef valkosturinn **Virkja Bing-kort** á flipanum **Bing-kort** á síðunni **Samnýttar viðskiptafæribreytur** (**Retail and Commerce \> Uppsetning höfuðstöðva\> Færibreytur \> Samnýttar viðskiptafæribreytur**) er einnig stilltur á **Já**, og ef gildur lykill er sleginn inn í reitinn **Lykill Bing-korts**.
+        >
+        > Gáttin [Þróunarmiðstöð Bing-korta](https://www.bingmapsportal.com/) gerir notanda kleift að takmarka aðgang á API-lyklum Bing-korta niður í lénasafn sem notandi tilgreinir. Með þessum eiginleika geta viðskiptavinir skilgreint afmarkað safn tilvísanagilda eða svið IP-talna sem lykillinn verður sannprófaður gagnvart. Beiðnir úr heimildarlistanum verða unnar á venjulegan hátt, á meðan beiðnir utan listans skila svari um að aðgangur sé óheimill. Lénöryggi sem viðbót við API-lykil er valfrjáls og lyklar sem ekki er breytt halda áfram að virka. Heimildarlisti fyrir lykil er óháður öllum öðrum lyklunum og gerir notanda kleift að hafa aðskildar reglur fyrir hvern lykil. Dreifingarstjórnun pöntunar styður ekki uppsetningu eiginleika sem lén vísa í.
+
 
     - **Varðveislutími í dögum** – Tilgreinið hversu lengi á að geyma uppfyllingaráætlanir í kerfinu, sem DOM-keyrslur búa til. Runuvinnslan **Uppsetning á eyðingarvinnslu DOM-uppfyllingargagna** eyðir öllum uppfyllingaráætlunum sem eru eldri en dagafjöldinn sem tilgreindur er hér.
     - **Höfnunartímabil (í dögum)** – Tilgreinið tímann sem þarf að líða áður en hægt er að úthluta hafnaðri pöntunarlínu á sömu staðsetninguna.
@@ -62,14 +65,15 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
     - **Gerð leysara** – Veljið gildi. Tvær gerðir af leysara eru gefnar út með Commerce: **Leysari framleiðslu** og **Einfaldaður leysari**. Velja þarf **Leysari framleiðslu** fyrir allar vélar sem munu keyra DOM (sem sagt allir þjónar sem eru hluti af DOMBatch-flokknum). Leysari framleiðslu krefst tiltekins leyfislykils sem er að sjálfgefnu leyfður og uppsettur í vinnsluumhverfi. Þennan leyfislykil þarf að setja upp handvirkt fyrir umhverfi sem er ekki vinnsluumhverfi. Til að setja upp leyfislykilinn handvirkt skal fylgja þessum skrefum:
 
         1. Opnið samnýtta eignasafnið í Microsoft Dynamics Lifecycle Services og veljið **Líkan** sem eignagerð og sækið skrána **DOM-leyfi**.
-        2. Ræsið Microsoft Internet Information Services (IIS), hægrismellið á **Vefsvæði AOSService** og veljið síðan **Skoða**. Windows Explorer-gluggi opnast á **\<AOS service root\>\\webroot**. Skrifa skal niður slóðina fyrir \<AOS Service root\> vegna þess að hún verður notuð í næsta skrefi.
-        3. Afritið skilgreiningarskrána í skráasafninu **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\hólf**.
-        4. Opnaðu biðlara Höfuðstöðva og opnaðu svo síðuna **DOM-færibreytur**. Á flipanum **Leysari**, í reitnum **Gerð leysara** skal velja **Leysari framleiðslu** og staðfesta að engin villuboð birtist.
+        1. Ræsið Microsoft Internet Information Services (IIS), hægrismellið á **Vefsvæði AOSService** og veljið síðan **Skoða**. Windows Explorer-gluggi opnast á **\<AOS service root\>\\webroot**. Skrifa skal niður slóðina fyrir \<AOS Service root\> vegna þess að hún verður notuð í næsta skrefi.
+        1. Afritið skilgreiningarskrána í skráasafninu **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\hólf**.
+        1. Opnaðu biðlara Höfuðstöðva og opnaðu svo síðuna **DOM-færibreytur**. Á flipanum **Leysari**, í reitnum **Gerð leysara** skal velja **Leysari framleiðslu** og staðfesta að engin villuboð birtist.
+
 
         > [!NOTE]
         > Einfaldaður leysari er útvegaður svo smásöluaðilar geti prófað DOM-eiginleikann án þess að þurfa að setja upp tiltekið leyfi. Fyrirtæki eiga ekki að nota einfaldaðan leysara í vinnsluumhverfi.
         >
-        > Einfaldaði leysarinn býður upp á sömu eiginleika og leysari framleiðslu, en þó eru takmarkanir hvað varðar frammistöðu (fjöldi pantana og pöntunarlína sem hægt er að vinna með í keyrslu) og samleitni niðurstaðna (runa pantana kemur ekki endilega með bestu niðurstöðuna í sumum tilfellum).
+        > Leysari framleiðslu bætir frammistöðu, (svo sem fjölda pantana og pöntunarlína sem hægt er að vinna með í keyrslu) og samleitni niðurstaðna (runa pantana kemur ekki endilega með bestu niðurstöðuna í sumum tilfellum). Sumar reglur, á borð við **Hlutapantanir** og **Hámarksfjöldi staðsetninga** krefjast Leysara framleiðslu.
      
 6. Farið aftur í **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Setja upp \> DOM-færibreytur**.
 7. Á flipanum **Númeraraðir** skal úthluta áskildum númeraröðum á hinar ýmsu DOM-einingar.
@@ -121,7 +125,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
         \* Ef **Uppfylla hlutapantanir** er stillt á **Nei** er alltaf litið svo á að **Uppfylla hlutalínur** sé stillt á **Nei**, óháð því hver stillingin er í raun og veru.
 
         > [!NOTE]
-        > Í Retail, útgáfu 10.0.5, var færibreytunni **Uppfylla pöntun aðeins frá einni staðsetningu** breytt í **Hámarksstaðsetning uppfyllingar**. Í stað þess að leyfa notanda að skilgreina hvort aðeins sé hægt að uppfylla pantanir á einni staðsetningu eða uppfylla á eins mörgum staðsetningum og mögulegt er geta notendur nú tilgreint hvort hægt sé að uppfylla þær á ákveðnum fjölda staðsetninga (allt að fimm), eða frá eins mörgum staðsetningum og mögulegt er. Þetta veitir meiri sveigjanleika í fjölda staðsetninga sem hægt er að uppfylla pöntunina á.
+        > Í Retail, útgáfu 10.0.5, var færibreytunni **Uppfylla pöntun aðeins frá einni staðsetningu** breytt í **Hámarksstaðsetning uppfyllingar**. Í stað þess að leyfa notanda að skilgreina hvort aðeins sé hægt að uppfylla pantanir á einni staðsetningu eða uppfylla á eins mörgum staðsetningum og mögulegt er geta notendur nú tilgreint hvort hægt sé að uppfylla þær á ákveðnum fjölda staðsetninga (allt að fimm), eða frá eins mörgum staðsetningum og mögulegt er. Þetta veitir meiri sveigjanleika í fjölda staðsetninga sem hægt er að uppfylla pöntunina á. Þessi regla virkar aðeins með Leysara framleiðslu. 
 
    - **Staðsetningarregla uppfyllingar utan nets** – Þessi regla gerir fyrirtækjum kleift að tilgreina staðsetningu eða flokk staðsetninga sem utan nets eða ekki tiltæka fyrir DOM, svo ekki sé hægt að úthluta pöntunum á þessar staðsetningar til uppfyllingar.
     - **Regla um hámark hafnana** – Þessi regla gerir fyrirtækjum kleift að skilgreina mörk fyrir hafnanir. DOM-vinnslan mun merkja pöntun eða pöntunarlínu sem undantekningu þegar mörkum er náð og útiloka hana frá frekari úrvinnslu.

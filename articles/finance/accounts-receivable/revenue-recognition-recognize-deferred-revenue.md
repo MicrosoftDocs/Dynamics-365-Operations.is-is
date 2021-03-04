@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459248"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115921"
 ---
 # <a name="recognize-deferred-revenue"></a>Skrá frestaðar tekjur
 
@@ -39,7 +38,7 @@ Tvær leiðir eru til að nálgast upplýsingar um tekjuskráningaráætlunina.
 - Hægt er að opna tekjuskráningaráætlunina beint úr reikningsfærðri sölupöntun. Í þessu tilviki eru upplýsingarnar í tekjuáætluninni síaðar til að sýna aðeins upplýsingar fyrir völdu sölupöntunina. Þessi nálgun er gagnleg þegar verið er að staðfesta upplýsingar um áætlun fyrir sölupöntun.
 - Hægt er að opna tekjuskráningaráætlunina af síðunni **Tekjuskráning \> Reglubundin verkefni**. Þessi nálgun er oft notuð þegar tekjur eru skráðar við lok tímabils. Þegar síðan er fyrst opnuð birtast engar upplýsingar. Nota skal síurnar fyrir ofan hnitanetið til að skilgreina skilyrði fyrir upplýsingar um áætlun sem á að sýna. Hægt er að sía eftir reikningsdagsetningum með því að færa inn dagsetningabil, sölupöntun, viðskiptavin, verkkenni eða stöðu.
 
-[![Síða tekjuáætlana](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Mynd af síðunni Tekjuáætlanir](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Flýtiflipinn **Fjárhagsvídd** fyrir neðan hnitanetið sýnir fjárhagsvíddir sölupöntunarlínunnar. Þessar víddir voru teknar til greina við bókun á frestuðum tekjum. Þær eru einnig teknar til greina þegar tekjurnar eru skráðar. Víddargildin sem eru notuð ráðast af lykilskipulagi sem er úthlutað á aðallykla fyrir tekjur og frestaðar tekjur.
 
