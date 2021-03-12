@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444251"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969702"
 ---
 # <a name="collections-process-automation"></a>Sjálfvirkni innheimtuferlis
 
@@ -118,6 +117,3 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Bóka innheimtubréf sjálfkrafa           |     Gerðir aðgerða fyrir innheimtubréf munu birta bréfið meðan sjálfvirknin er í gangi.                                      |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Stofna verkþætti fyrir sjálfvirkni                |     Stofnið og lokið verkþáttum fyrir gerðir aðgerðar sem ekki eru verkþáttargerðar til að skoða öll sjálfvirku skrefin sem eru tekin á reikningi.        |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Dagar sem geyma á sjálfvirkni innheimtuferlis     |     Skilgreinir fjölda daga sem innheimtuferill er geymdur.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

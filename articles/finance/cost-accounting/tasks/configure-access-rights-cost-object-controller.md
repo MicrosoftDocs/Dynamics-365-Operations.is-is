@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4b50782c7a1b69b6953c65d6df155f003028333
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 88d6208e867bd322ddfc4e599856b1905fa8e19b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969379"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Skilgreina aðgangsréttindi stjórnborðs kostnaðarhlutar
 
@@ -69,6 +68,3 @@ Nota þetta ferli til að skilgreina aðgangsréttindi eftirlitsmanns kostnaðar
     * Ef þú velur Já, getur notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslur í Vinnusvæði kostnaðarstýringar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, afgreiðslustarfsmaður endurskoðanda kostnaðar, og eftirlitsmaður kostnaðarhluta. Ef þú velur Nei, getur aðeins notandi sem er úthlutað einu af fjórum eftirfarandi hlutverkum séð skýrslurnar: Stjórnandi kostnaðarbókhalds, endurskoðandi kostnaðar, og afgreiðslustarfsmaður endurskoðanda kostnaðar.    
 9. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

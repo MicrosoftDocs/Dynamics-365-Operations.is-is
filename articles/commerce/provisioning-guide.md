@@ -3,14 +3,13 @@ title: Úthluta Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að setja upp að aðgang Microsoft Dynamics 365 Commerce matsumhverfi.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4413314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969902"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Úthluta Dynamics 365 Commerce matsumhverfi
 
@@ -117,7 +116,7 @@ Til að virkja umhverfið skaltu fylgja þessum skrefum.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
-Fylgið eftirfarandi skrefum til að hefja CSU.
+Fylgið þessum skrefum til að ræsa CSU.
 
 1. Í glugganum **Umhverfi í skýi** velurðu umhverfi þitt af listanum.
 1. Í umhverfissýninni til hægri skaltu velja **Nánari upplýsingar**. Umhverfisupplýsingaskjárinn birtist.
@@ -130,6 +129,22 @@ Fylgið eftirfarandi skrefum til að hefja CSU.
 1. Áður en lengra er haldið skaltu ganga úr skugga um að staða CSU sé **Tókst**. Frumstilling tekur um það bil tvær til fimm klukkustundir.
 
 Ef þú finnur ekki tengilinn **Stjórna** í upplýsingayfirliti umhverfis skal hafa samband við tengiliðann hjá Microsoft til að fá aðstoð.
+
+Þú gætir fengið eftirfarandi villuboð við uppsetningarferlið:
+
+> Mat (prufu-/prófunarumhverfi) þarf að skrá inn tengiforrit \<application ID\> í höfuðstöðvum.
+
+Ef ræsing CSU mistekst og þessi villuboð birtast skal skrá forritskennið, altækt einkvæmt kennimerki (GUID), og fylgja svo skrefunum í næsta hluta til að skrá CSU-uppsetningarforrit í Commerce Headquarters.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Skrá CSU-uppsetningarforrit í Commerce Headquarters (ef þess er krafist)
+
+Til að skrá CSU-uppsetningarforritið í Commerce Headquarters skal fylgja þessum skrefum.
+
+1. Í Commerce Headquarters skal opna **Kerfisstjórnun \> Uppsetning \> Azure Active Directory forrita**.
+1. Í **Kenni biðlara** dálkinum skal slá inn kenni forrits úr villuboðum í CSU-frumstillingarboðum sem voru móttekin.
+1. Í dálknum **Heiti** skal færa inn lýsandi texta (til dæmis **CSU-viðtæki**).
+1. Í dálkinn **Notandakenni** skal slá inn **RetailServiceAccount**.
+1. Reynið aftur ræsingu á CSU og uppsetningu úr LCS.
 
 ### <a name="initialize-e-commerce"></a>Frumstilla rafræn viðskipti
 
@@ -176,6 +191,3 @@ Til að halda áfram að úthluta og grunnstilla Commerce-matsumhverfið skal sk
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

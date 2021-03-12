@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e487de874fd9b65dc6913cbacf724686f23d33c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413182"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970014"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Námskrá fyrir stjórnendur Dynamics 365 Commerce
 
@@ -48,6 +47,3 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni  | lýsing  | Snið  | Lengd    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Skilgreina og vinna með rafræn viðskipti í Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/)              | Netrásir og vefsvæði rafrænna viðskipta Dynamics 365 Commerce gera smásöluaðilum kleift að gera vörulína sína sýnilega á netinu. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

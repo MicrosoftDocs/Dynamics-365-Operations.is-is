@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969005"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Línuleg afskrift eftirstandandi líftíma
 
@@ -38,7 +37,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Ef **Dagatal** er valið í ***Afskriftarár*** reitnum, er gert ráðyrir ári sem er 1. Janúar til og með 31. desember , jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
+Ef **Dagatal** er valið í **_Afskriftarár_*_ reitnum, er gert ráð fyrir ári sem er 1. janúar til og með 31. desember, jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. Valkosturinn_* Dagatal** uppfærir afskriftargrunninn 1. janúar hvert ár. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
 -   **Mánaðarlega** bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
@@ -80,6 +79,3 @@ Afskriftarupphæðin er sama ár hvert: (Kaupverð - hrakvirði) ÷ líftíma í
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

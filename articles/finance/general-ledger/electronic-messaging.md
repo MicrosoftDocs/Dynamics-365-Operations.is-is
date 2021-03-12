@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444485"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968980"
 ---
 # <a name="electronic-messaging"></a>Rafræn skilaboð
 
@@ -536,6 +535,3 @@ Nú er annaðhvort hægt að eyða eða uppfæra stöðu skilaboða. Til að upp
 ![Uppfæra stöðu skilaboða](media/update-status.png)
 
 Staða skilaboða er uppfærð í **Undirbúin** og hægt er að búa til skýrsluna með því að velja **Búa til skýrslu**. Skýrslan er búin til og uppfærsla gerð á stöðu skilaboða og aðgerðakladda. Til að skoða myndaða skýrslu skal velja hnappinn **Viðhengi** (bréfaklemmutáknið) efst í hægra horni síðunnar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

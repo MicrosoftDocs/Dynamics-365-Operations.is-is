@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2158c097fafb6c35bce7dc28a29c175f458cde1b
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6f26144b03fb4d2130c1ed7fe3db2411384b9ff6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645842"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970182"
 ---
 # <a name="troubleshoot-warehouse-setup"></a>Úrræðaleit fyrir uppsetningu vöruhúss
 
@@ -40,6 +39,3 @@ Ekki er hægt að nota neitt hlutverk nema stjórnanda til að fá aðgang að h
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Hermiforriti fartækis er aðeins stillt á að vinna með stjórnandareikningi. Við mælum með því að þú notir vöruhúsakerfisforritið sjálft í öllum prófunum og raunverulegri notkun.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

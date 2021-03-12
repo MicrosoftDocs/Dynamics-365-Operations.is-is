@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ea79bd9c6561c4e4f6fad2c177f44fe62bdea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b29c1c0727487992a478552d94b5bbe8684d0550
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430519"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967459"
 ---
 # <a name="physical-and-financial-updates"></a>fjárhagslegar og efnislegar uppfærslur
 
@@ -74,6 +73,3 @@ Færslur sem auka magn eru bókaðar á gildandi meðalkostnaðarverði. Útreik
 -   Birgðabækur með neikvæðu magni, svo sem hreyfing, hagnaður/tap, talningabækur, uppskriftir og flutningur
 
 Færslur sem minnka magn eru bókaðar á hlaupandi meðaltal kostnaðarverðs. Þannig að birgðalokunarferlið þarf til að jafna úthreyfingarfærslur á innhreyfingarfærslur í samræmi við birgðalíkan sem tengt er við hverja vöru.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
