@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9ee25036488d2f7f24c1691d36239f3f34caf0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f253355b3de4f148c11b1d9d3f43b6756e6bd38c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983676"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6. (nóvember 2019)
 
@@ -71,6 +70,3 @@ Efnið [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Mana
 Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í efninu [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

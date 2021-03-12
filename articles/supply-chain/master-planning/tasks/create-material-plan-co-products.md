@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14de9a1085ac1cae88ad93c35385dd43c60ed4d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a8e9067cdd8851da31c07a92217001e447f400d4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430353"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983392"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Stofna efnisáætlun fyrir aukaafurðir.
 
@@ -111,6 +110,3 @@ Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir form
 19. Veljið Nei í reitnum Slökkva á öllum ferlum áætlanagerðar.
 20. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

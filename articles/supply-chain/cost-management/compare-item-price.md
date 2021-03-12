@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6554aec1991080f4a14aedb3440ff3dfd32e9b61
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430533"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983970"
 ---
 # <a name="compare-item-prices-storage-report"></a>Berðu saman geymsluskýrslu vöruverðs
 
@@ -121,6 +120,3 @@ Eftirfarandi er dæmi um hvernig á að flytja út skýrsluna **Bera saman geyms
 1. Síðan **Yfirlit framkvæmdar** opnast þar sem þú getur séð stöðuna á útflutningsvinnslunni og lista yfir þær einingar sem voru fluttar út. Veldu eininguna **Bera saman vöruverð** sem er skráð í reitinn **Vinnslustaða einingar** og veldu síðan **Sækja skrá** til að sækja gögnin sem flutt eru út úr þeirri einingu.
 
 Nánari upplýsingar um hvernig á að nota gagnastjórnun til að flytja út gögn er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

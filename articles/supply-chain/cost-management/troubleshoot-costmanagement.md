@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4430778"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983851"
 ---
 # <a name="troubleshoot-cost-management"></a>Úrræðaleit fyrir kostnaðarstjórnun
 
@@ -63,5 +62,22 @@ Munið að keyra birgðalokun frá %3 (31-01-2019) sem samsvarar lokum tímabils
 
 **Skýrsla um aldursgreiningu birgða** sýnir ólík gildi þegar hún er skoðuð í mismunandi geymsluvíddum (t.d. svæði eða vöruhúsi). Frekari upplýsingar um skýrslurökin er að finna í [Dæmi og rök fyrir aldursgreiningarskýrslu birgða](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Árekstur við uppfærslu gerist þegar aðferð birgðamats er annaðhvort staðalkostnaður eða hlaupandi meðaltal
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Þegar bókuð eru skjöl á borð við birgðabækur, innkaupapöntunarreikningar eða sölupöntunarreikningar samhliða fyrir sveigjanleika og afköst, gætu komið upp villuboð um árekstur við uppfærslu og sum skjalanna verða hugsanlega ekki bókuð. Þetta vandamál getur komið upp þegar aðferð birgðamats er annaðhvort *Staðalkostnaður* eða *Hlaupandi meðaltal*. Báðar þessar aðferðir eru varanlegar kostnaaðaraðferðir. Með öðrum orðum er endanlegur kostnaður ákvarðaður á þeim tíma sem bókað er.
+
+Ef verið er að nota aðferðina *Hlaupandi meðaltal* líkjast villuboðin þessu dæmi:
+
+> Ekki er búist við birgðavirði xx.xx eftir hlutfallslegan kostnaðarútreikning
+
+Ef verið er að nota aðferðina *Staðlaður kostnaður* kostnaðaraðferð líkjast villuboðin þessu dæmi:
+
+> Staðalkostnaður stemmir ekki við gildi fjárhagslegra birgða eftir uppfærsluna. Gildi = xx.xx, magn = yy.yy, staðalkostnaður = zz.zz
+
+Þar til Microsoft gefur út lausn til að laga vandamálið er mögulegt að nota eftirfarandi hjáleið til að forðast eða draga úr þessum villum:
+
+- Endurbókið skjölin sem mistókust.
+- Stofna skjöl sem eru með færri línum.
+- Forðast skal tugabrot í staðalkostnaði. Reynið að skilgreina staðalkostnaðinn þannig að reiturinn **Magn í verði** sé stilltur á *1*. Ef tilgreina þarf gildi fyrir **Magn í verði** sem er meira en *1* skal reyna að lágmarka fjölda aukastafa í staðalkostnaði einingarinnar. (Helst ættu að vera færri en tveir aukastafir.) Til dæmis skal forðast að skilgreina stillingar staðalkostnaðar á borð við **Verð** = *10* og **Magn í verði** = *3* vegna þess að þær munu leiða til staðalkostnaðar á einingu sem er 3,333333 (þar sem gildi aukastafs endurtekur sig).
+- Í flestum skjölum skal forðast að hafa margar línur sem geyma sömu samsetningu afurðar- og fjárhagsbirgðavídda.
+- Dragið úr fjölda á samhliða vinnslum. (Í þessu tilviki gæti kerfið orðið fljótara þar sem færri árekstrar við uppfærslu og endurtekningar koma upp.)

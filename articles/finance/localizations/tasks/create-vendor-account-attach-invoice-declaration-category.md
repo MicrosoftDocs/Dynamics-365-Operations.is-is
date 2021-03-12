@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, DirPartyLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 083260e6562d003c2d221dcc6efc75e5dce20fc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: beeccef06b7de6c07b58da4137af224cdd262822
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984875"
 ---
 # <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category"></a>Stofna lánardrottnalykil og festa verktakamiða
 
@@ -46,6 +45,3 @@ ms.locfileid: "4408068"
 3. Í listanum skal smella á tengilinn í valinni línu.
 4. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

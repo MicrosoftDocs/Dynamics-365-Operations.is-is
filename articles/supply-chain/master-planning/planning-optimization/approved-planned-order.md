@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430306"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983570"
 ---
 # <a name="approve-planned-orders"></a>Samþykkja tillögur
 
@@ -43,6 +42,3 @@ Reiturinn **Staða** hjálpar til við að fylgjast með framvindu með eftirfar
 - **Samþykkt:** Ef þú vilt halda breytingum eða ætlar að staðfesta áætlaða pöntun skaltu breyta stöðunni í *Samþykkt*. Áætlaðar pantanir með stöðuna *Samþykkt* eru hugsaðar sem fastar og eru áætlaðar fyrir aðaláætlanagerð, þannig að þeim er ekki breytt eða þeim eytt í síðari aðaláætlunarkeyrslum. Til að ná þessu afritar áætlunargrunnurinn *Samþykktar* áætlaðar pantanir úr gömlu áætlunarútgáfunni yfir í nýju áætlunarútgáfuna við aðalskipulagningu. Athugið að *Samþykktar* áætlaðar pantanir eru aðeins hugsaðar sem framboð innan tiltekinnar aðaláætlunar.
 
 Hægt er að stjórna áætluðum pöntunum úr vinnusvæðinu **Aðaláætlanagerð**, úr listanum **Áætluð pöntun** eða listunum **Áætlaðar framleiðslupantanir**, **Áætlaðar innkaupapantanir**, og **Flutningsáætlanir**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

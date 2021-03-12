@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984985"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Námslisti fyrir hönnuði Dynamics 365 Finance
 
@@ -49,8 +48,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Finance and Operations: Framlengt Dynamics 365 for Finance and Operations með PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Skilja hversu einfalt Microsoft PowerApps er og hvernig skal samþætta það við Dynamics 365 for Finance and Operations til að breyta fyrirtækjum á stafrænan hátt og auka framleiðni notenda. | Ókeypis upptaka af vefráðstefnu | 43 mínútur |
 | [Finance and Operations: Stækkunarhæfni (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Við munum veita yfirlit og uppfærslu á stækkunaráætlunum Microsoft. Við munum fjalla í smáatriðum um ýmsar leiðir til að lengja út lausn, fjöllum ítarlega um stækkunarhæfni lýsigagna sem og hæfileika til að auka og lengja kóða, meðal annars með öflugum boðleiðareiginleika. | Ókeypis upptaka af vefráðstefnu | 50 mínútur |
 | [Visual Studio Uppsetning á Team Services (VSTS) (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Þetta tæknispjall mun ganga í gegnum nauðsynleg skref til að stilla VSTS dæmi og verkefni til að tengjast LCS útfærsluverkefni fyrir Dev/Test umhverfi stillingar. | Ókeypis upptaka af vefráðstefnu | 41 mínútur |
-| [CDS-gagnasamþætting (DYN451PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Vinsamlegast taktu þátt með okkur í þessari tækniræðu um getu Common Data Service (CDS) gagnaöflunar. Við munum ræða samþættingarmöguleika á milli Dynamics 365 Customer Engagement og Dynamics 365 Finance and Operations ásamt samþættingu við aðrar lausnir frá þriðja aðila. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
-| [Samþætting milli Dynamics 365 for Sales og Dynamics 365 for Finance & Operations í gegnum CDS (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Í þessu tæknitali munum við kynna sameiningarsviðið sem kallast Prospect fyrir reiðufé, með sölu- og markaðsstarfsemi í Dynamics 365 for Sales og uppfylling í Dynamics 365 for Finance and Operations. Við munum einnig skoða gagnagrunna og hvernig á að breyta samþættingunni. | Ókeypis upptaka af vefráðstefnu | 54 mínútur |
+| [Dataverse Gagnasamþætting (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Taktu þátt með okkur í þessari tækniráðstefnu um getu Dataverse gagnasamþættingar. Við munum ræða samþættingarmöguleika á milli Dynamics 365 Customer Engagement og Dynamics 365 Finance and Operations ásamt samþættingu við aðrar lausnir frá þriðja aðila. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
+| [Samþætting milli Dynamics 365 for Sales og Dynamics 365 for Finance and Operations í gegnum Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Í þessu tæknitali munum við kynna sameiningarsviðið sem kallast Prospect fyrir reiðufé, með sölu- og markaðsstarfsemi í Dynamics 365 for Sales og uppfylling í Dynamics 365 for Finance and Operations. Við munum einnig skoða gagnagrunna og hvernig á að breyta samþættingunni. | Ókeypis upptaka af vefráðstefnu | 54 mínútur |
 | [Gagnastjórnun (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Vertu með í þessu TechTalk um gagnastjórnun. Kynntu þér þá valkosti sem eru í boði og atburðarásina sem þeim er mælt með. Við förum yfir gagnastjórnunarramma, sniðmát, afritun gagnagrunns, samnýtingu gagna á milli fyrirtækja og afkastaatriði. | Ókeypis upptaka af vefráðstefnu | 58 mínútur |
 | [Samþættingarverkfæri Azure fyrir Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Þetta tæknital mun fjalla um þær tegundir tækja sem þú gætir haft í huga þegar þú samþættir Dynamics 365 for Finance & Operations og hvenær á að velja hvaða sameiningartæki. Lotan mun einnig ganga í gegnum nokkur samþættingarmynd sem er útfærð með Azure samþættingarþjónustu. | Ókeypis upptaka af vefráðstefnu | 63 mínútur |
 | [Samþættingarrammi innan Dynamics 365 for Finance & Operations (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | Þessi lota mun veita yfirlit yfir samþættingarramma Dynamics 365 for Finance & Operations og ræða umhugsunarefni sem hægt væri að nota þessi ramma. | Ókeypis upptaka af vefráðstefnu | 64 mínútur |
@@ -94,6 +93,3 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni | lýsing  | Snið  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Próf MB-500: Microsoft Dynamics 365: Hönnuður Finance and Operations-forrita](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Þetta próf metur getu þína til að vinna eftirfarandi tæknileg verkefni: áætla hönnun skipulags og lausnar; nota verkfæri hönnuða; hanna og þróa AOT-einingar; þróa og prófa kóða; innleiða skýrslugerð; samþætta og stjórna gagnalausnum; og innleiða öryggi og fínstilla afköst. | Próf, kostnaður er breytilegur eftir svæðum |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

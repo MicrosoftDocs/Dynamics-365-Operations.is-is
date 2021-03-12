@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 139fb4fdb7d4f8034bff5e9668dc794f29fb327e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d4f6d5bdf4f2fdc4529d9f51515ed2ac4b5b3b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444523"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985313"
 ---
 # <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
@@ -66,6 +65,3 @@ Reikningur fyrir 1000 USD með skilmála staðgreiðsluafsláttar 20D2% er bóka
 > [!NOTE]
 > Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

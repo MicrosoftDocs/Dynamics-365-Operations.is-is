@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b76d542f64979d28367cacb234669c9825b2d8aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982342"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Endurbætur á sölustað fyrir raðaðar afurðir
 
@@ -42,6 +41,3 @@ Byggt á stillingum í Commerce Headquarters er hægt að flokka vörur sem anna
 - **Raðnúmers er ekki krafist fyrir pantanir viðskiptavinar** - Viðskiptavinir geta pantað í einni verslun og sótt í aðra. Gjaldkeri sem pantar fyrir viðskiptavin þarf ekki að gefa upp raðnúmerið. Raðnúmerið verður veitt við tiltekt eða afhendingu. Hins vegar verður að gefa upp raðnúmer fyrir öll línuatriði þegar afhendingargerðin **Framkvæma** er valin. Annars er ekki hægt að ljúka færslunni.
 - **Röðuðum vörum er ekki steypt saman á færsluskjánum** – **Steypa saman afurðum** stillingin í **Afgreiðslustöð** reitarhópnum á **Virkniregla** síðunni gerir þér kleift að steypa saman óröðuðum vörum á færsluskjánum. Þegar sömu vörur eru settar saman er auðveldara að sjá þær á færsluskjá. Þar sem raðnúmer eru yfirleitt einkvæmt, og söluaðilar Þurfa ekki að slá inn raðnúmer fyrir kaup gildir stillingin **Steypa saman afurðum** ekki um raðaðar vörur. Þessi vegna er röðuðum vörum ekki steypt saman á færsluskjánum ef **Steypa saman afurðum** stillingin er valin.
 - **Geta til að leita í færslubókum út frá raðnúmeri** – Nú er hægt að leita aukalega í færslubókum út frá raðnúmerum. Til að gera það skaltu opna „Færslubækur“ aðgerðina og ýta á „Ítarleg leit“ hnappinn á forritastikunni. Með því að nota „Bæta við síu“ hnappinn er einnig hægt að nota síu til að leita að raðnúmerum.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
