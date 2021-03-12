@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430260"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001525"
 ---
 # <a name="working-with-serialized-items"></a>Vinna með raðgreinda hluti
 
@@ -55,8 +54,8 @@ Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða lín
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?
 Já, hægt er að leiðrétta raðnúmer þegar eftirfarandi skilyrði eru uppfyllt:
--   **Reikningar**  - Hægt er að breyta raðnúmeri fyrir vörur sem þú hefur ekki enn komið í innheimtu. Síðan er fylgiseðillinn líka uppfærður. Hins vegar, ef sölupöntunarlína var leiðrétt eftir að neikvætt magn er skráð er hægt að breyta raðnúmerum fyrir sölupöntunarlínuna.
--   **Fylgiseðlar**  - Ekki er hægt að leiðrétta fylgiseðillínu að hluta, sem inniheldur vörur með raðnúmerum. Bakfæra þarf fullt magn fyrir línuna. Ef fylgiseðill hefur verið afturkallaður eða leiðréttur þarf ekki að skrá bakfærð raðnúmer aftur við stofnun nýs fylgiseðils fyrir sömu raðnúmeruðu vörurnar. Númer sem voru skráðar verður notuð.
+-   **Reikningar** - Hægt er að breyta raðnúmeri fyrir vörur sem þú hefur ekki enn komið í innheimtu. Síðan er fylgiseðillinn líka uppfærður. Hins vegar, ef sölupöntunarlína var leiðrétt eftir að neikvætt magn er skráð er hægt að breyta raðnúmerum fyrir sölupöntunarlínuna.
+-   **Fylgiseðlar** - Ekki er hægt að leiðrétta fylgiseðilllínu að hluta, sem inniheldur vörur með raðnúmerum. Bakfæra þarf fullt magn fyrir línuna. Ef fylgiseðill hefur verið afturkallaður eða leiðréttur þarf ekki að skrá bakfærð raðnúmer aftur við stofnun nýs fylgiseðils fyrir sömu raðnúmeruðu vörurnar. Númer sem voru skráðar verður notuð.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Get ég skoðað raðnúmer sem voru send með tilgreindum fylgiseðli eða voru tekin með í reikningi?
 Já, hægt er að keyra fyrirspurn á færslubókarlínu fylgiseðils eða reikningabókarlínu til að skoða lista yfir öll raðnúmer sem voru höfð með í skjalinu.
@@ -80,6 +79,3 @@ Já, Smásala (POS) mun biðja notanda að færa inn raðnúmer þegar notandinn
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

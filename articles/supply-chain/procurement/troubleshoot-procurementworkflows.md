@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e8274890c581fffc7330538430c9b2ba060041bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430759"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999104"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Villuleita verkflæði innkaupa og aðfanga
 
@@ -80,6 +79,3 @@ Ef þetta á að koma fram á staðfestingu innkaupapöntunarinnar ætti að lei
 
 Þetta vandamál á sér aðeins stað fyrir innkaupapantanir sem heyra undir breytingastjórnun. Það á sér stað vegna þess að afturköllunin er talin breyta sem þarf að samþykkja. Hægt er að framkvæma samþykkið sjálfkrafa af kerfinu. Þess vegna gengur ferlið út á að senda afturkallaða innkaupapöntun til samþykktarverkflæðis þannig að hún geti fengið stöðuna *Samþykkt*. Á þessu stigi sést innkaupapöntunin ekki lengur í listanum yfir drög að innkaupapöntunum á vinnusvæðinu **Undirbúningur innkaupapöntunar**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430695"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001199"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Hætta við vinnu í vörugeymslu fyrir meðhöndlun frávika
 
@@ -45,6 +44,3 @@ Aðeins er hægt að hætta við vinnu af gerðinni **Sala**, **Flutningsútgáf
 Til að opna verkið hættir kerfið öllum vinnulínum sem eftir eru og lagfærir vöruhúsgögnin sem eru tengd vinnukenninu sem notandinn tilgreindi. Allar venjulegar aðgerðir meðhöndlunar í vöruhúsi sem fela í sér vörumagn sem verða fyrir áhrifum geta síðan haldið áfram.
 
 Til að setja vöruna á tiltekinn stað eftir að vinnunni er aflýst, verður notandinn að nota birgðahreyfingu eða magnleiðréttingaraðgerð í fartæki.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

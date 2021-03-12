@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1cbe2c55ef9e3ed35db30ca927f3472c750c1db5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430109"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999807"
 ---
 # <a name="monitor-a-master-planning-run"></a>Fylgjast með keyrslu áætlanagerðar
 
@@ -127,6 +126,3 @@ Liturinn er aðeins sýndur á lægsta stiginu í Gantt töflunni. Veldu **Auka 
 1. Veldu línuna þar sem reiturinn **Reitur** er stilltur á **Vörunúmer**.
 1. Í reitinn **Skilyrði** skal slá inn gildi.
 1. Veljið **Í lagi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

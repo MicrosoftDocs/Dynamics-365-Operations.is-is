@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430131"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001225"
 ---
 # <a name="shipment-auto-updates"></a>Sjálfvirkar uppfærslur á sendingu
 
@@ -140,6 +139,3 @@ Bylgjan er unnin og býr til vinnu fyrir frátekið magn á álagslínunum. Send
 Ef sending hefur stöðuna **Bylgjað** eða hærra endurspeglast uppfærslur á magni á sölupöntunarlínu ekki í eða eru staðfestar gegn álagslínu sem er tengd sendingunni. Breytingar á magni á álagslínu verða að vera gerðar beint á álagslínuna.
 
 Fullgilding er gerð eftir að vinna hefur verið gerð fyrir álagslínuna og gerð frátekning. Lækkun á magni á sölupöntunarlínunni er síðan sannprófuð gegn frátekningu á vinnulínu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

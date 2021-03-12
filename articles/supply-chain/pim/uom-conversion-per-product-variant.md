@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430621"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001700"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Umreikningur mælieiningar eftir afurðarafbrigði
 
@@ -59,7 +58,7 @@ Til að skilgreina afurðarsniðmát til að styðja umbreytingu eininga á hver
     - **Afurð** – Ef þú velur þetta gildi getur þú sett upp umreikning eininga fyrir afurðarsniðmát. Þessi umreikningur eininga verður notaður til vara fyrir öll afurðarafbrigði sem enginn umreikningur eininga er skilgreindur fyrir.
     - **Afurðarafbrigði** – ef þetta gildi er valið er hægt að setja upp umreikning eininga fyrir tilgreint afurðarafbrigði. Notaðu reitinn **Afurðarafbrigði** til að velja afbrigðið.
 
-    ![![Nýjum umreikningi eininga bætt við](media/uom-new-conversion.png "Nýjum umreikningi eininga bætt við")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Nýjum umreikningi eininga bætt við](media/uom-new-conversion.png "Nýjum umreikningi eininga bætt við")
 
 1. Notaðu önnur svæði sem eru gefin upp til að setja upp umreikning eininga.
 1. Veljið **Í lagi** til að vista nýja umreikning eininga.
@@ -107,6 +106,3 @@ Til að flytja út umreikninga eininga í Excel, á síðunni **Umreikningur ein
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stjórna mælieiningu](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

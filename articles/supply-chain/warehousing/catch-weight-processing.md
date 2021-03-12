@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430694"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001175"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -210,6 +209,3 @@ Auk þeirra takmarkana sem nú eiga við um afurðir framleiðsluþyngdar, hafa 
 
 > [!NOTE]
 > Undanfarandi upplýsingar um merki framleiðsluþyngdar eru aðeins gildar ef afurð framleiðsluþyngdar er með rakningaraðferð merkjavíddar framleiðsluþyngdar sem er rakin að fullu (það er, ef færibreytan **Rakningaraðferð merkjavíddar framleiðsluþyngdar** í meðhöndlunarstefnu hlutar framleiðsluþyngdar er stillt á **Afurðarvíddir, rakningarvíddir og allar geymsluvíddir**). Ef hluti framleiðsluþyngdar er aðeins rakinn með merki að hluta (það er, ef færibreyta **Rakningaraðferð merkjavíddar framleiðsluþyngdar** á meðhöndlunarstefnu vöru framleiðsluþyngdar er stillt á **Afurðavíddir, rakningarvíddir og birgðastaða**), gilda frekari takmarkanir. Vegna þess að skyggni tapast milli merkisins og birgða í þessu tilfelli eru nokkrar viðbótaraðstæður ekki studdar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

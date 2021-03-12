@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90924c853793a3d70f2f2d46d8a154a19bd7d6bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79d5252d950cd83dfd1307ffb661948405102593
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430326"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999682"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Stofna útgefna afurð fyrir stakt fyrirtæki
 
@@ -103,6 +102,3 @@ ms.locfileid: "4430326"
 12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 13. Í listanum skal smella á tengilinn í valinni línu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

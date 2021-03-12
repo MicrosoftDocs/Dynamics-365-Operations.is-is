@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d86e7b9c6c2c21083ec79f798038a74b133577d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430259"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001475"
 ---
 # <a name="sales-agreements-overview"></a>Yfirlit sölusamninga
 
@@ -37,7 +36,7 @@ Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu** og *
 
 Hægt er að stofna sölupöntun beint úr sölusamning með því að nota í **Úttektarpöntun** aðgerð. Einnig er hægt að velja virkan sölusamnings þegar verið er að taka pantanirnar (sjá í "Nota sölusamningar í pöntunarferlið" hluta í þessari grein).  
 
-> [Athugið!] Í eldri útgáfum voru sölusamningar nefndir standandi sölupantanir.
+> [Athugasemd!] Í eldri útgáfum voru sölusamningar nefndir standandi sölupantanir.
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í sölusamningi lýsir skuldbindingu um að selja eitthvað. Almennt séð, eru tvær tegundir af ráðstöfun:
@@ -113,6 +112,3 @@ Hægt er að afrita fjárhagsvíddir í annað hvort skjalhausa eða í einstaka
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
