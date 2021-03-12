@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413137"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993729"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kveikja á og grunnstilla sjálfvirk gjöld eftir rás
 
@@ -77,7 +76,7 @@ Fylgdu þessum skrefum til að tengja sjálfgefið stigveldi við skipulag stigv
 
 Fylgdu þessum skrefum til að skilgreina sjálfvirka gjaldtöku eftir rás í Commerce.
 
-1. Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
+1. Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
 1. Í vinstri glugganum, í reitnum **Stig**, velurðu annaðhvort **Haus** eða **Lína**, eftir því hverjar viðskiptakröfur þínar eru.
 1. Í reitnum **Númer smásölurásar** velurðu viðeigandi rásakóða (til dæmis, **Tafla** eða **Hópur**). Ef sjálfgefin stilling, **Allt**, er notuð eru gjaldareglur notaðar á allar rásir.
 
@@ -128,6 +127,3 @@ Með því að velja **Færslukosti \> Gjöld \> Stjórna gjöldum** í POS-forr
 [Ítarleg sjálfvirk gjöld fyrir omni-rás](omni-auto-charges.md)
 
 [Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

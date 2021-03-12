@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6151797001b1ccdb7e371c70b90c304a5ab422d8
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a1ea23059d56ebf387a95a1378e2a3cd47556d5f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645121"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993866"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Úrræðaleit fyrir frátekningar í vöruhúsastjórnun
 
@@ -78,6 +77,3 @@ Hins vegar, ef notuð er vara sem inniheldur "runu fyrir neðan" frátekningarst
 Þessi hegðun er samkvæmt hönnuninni. Ef vídd fyrir ofan víddina **Staðsetning** er sett upp í frátekningarstigveldi verður að tilgreina hana áður en hún er losuð í vöruhúsið. Microsoft hefur metið þetta vandamál og hefur ákvarðað að takmörkun á eiginleika við losanir í vöruhúsi frá áætlunarvinnusvæði hleðsluáætlunar sé til staðar. Ekki er hægt að losa hlutamagn ef ein eða fleiri vídd fyrir ofan **Staðsetning** eru ekki tilgreindar.
 
 Frekari upplýsingar er að finna í [Sveigjanleg frátektarregla á vídd vöruhúsastigs](flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

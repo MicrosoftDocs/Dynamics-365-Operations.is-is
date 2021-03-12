@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644922"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995091"
 ---
 # <a name="finance-insights-home-page-preview"></a>Heimasíða Fjármálainnsýnar (forskoðun)
 
@@ -67,7 +66,7 @@ Breytingar verða gerðar á Microsoft Dynamics 365 Finance, Microsoft Dynamics 
 - Handhafastjóri Active Directory verður að heimila aðgang AI Builder-forritsins að Data Lake.
 - Kveikt verður á eiginleikann í Dynamics 365.
 
-Þekking á ferlinu við að búa til og vinna með tilföng í Azure, Common Data Service og LCS er gagnleg til að ljúka við ferlið.
+Þekking á ferlinu við að búa til og vinna með tilföng í Azure, Microsoft Dataverse og LCS er gagnleg til að ljúka við ferlið.
 
 ## <a name="configure-finance-insights"></a>Grunnstilla fjármálainnsýn
 
@@ -130,6 +129,3 @@ Sendið tölvupóst á [Innsýn í greiðslur viðskiptavinar (forskoðun)](mail
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
 Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

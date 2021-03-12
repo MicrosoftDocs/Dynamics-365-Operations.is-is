@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c4775ca3f44486fd3cd557df49acd229048d186
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430127"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996174"
 ---
 # <a name="release-to-warehouse-rule"></a>Reglu fyrir losun í vöruhús
 
@@ -131,6 +130,3 @@ Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir eiginleikann �
 
 > [!NOTE]
 > Vænta má sömu útkomu þegar lína tvö er frátekin að hluta. Í því tilfelli verður verk stofnað fyrir magn frátekinnar línu en ekki fyrir ófrátekna magnið.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

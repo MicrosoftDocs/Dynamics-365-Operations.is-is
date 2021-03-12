@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994046"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Supply Chain Management
 
@@ -33,9 +32,9 @@ ms.locfileid: "4528950"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla einingar tengiliðar (tengiliða) og tengiliðar (viðskiptavina) beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
+Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla töflur tengiliðs (tengiliða) og tengiliðar (viðskiptavina) beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -47,7 +46,7 @@ Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik
 
 Til að opna fyrirliggjandi sniðmát skaltu opna [PowerApps Admin Center](https://preview.admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
 
-Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla Tengilið (Tengiliðir) einingar í Sales við Tengilið (Viðskiptavinir) einingar í Supply Chain Management.
+Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla tengiliðatöflur (Tengiliðir) í Sales í tengiliðatölfur (Viðskiptavinir) í Supply Chain Management.
 
 - **Heiti sniðmátanna í gagnasamþættingu**
 
@@ -65,7 +64,7 @@ Eftirfarandi samstilliningarverkefni er nauðsynlegt til að samstiling Tengili�
 
 | Sala    | Birgðakeðjustjórnun |
 |----------|------------------------|
-| Tengiliðir | Tengiliðir fyrir skuldatryggingu           |
+| Tengiliðir | Dataverse-tengiliðir           |
 | Tengiliðir | Viðskiptavinir V2           |
 
 ## <a name="entity-flow"></a>Einingaflæði
@@ -79,13 +78,13 @@ Tengiliður í Sales getur orðið tengiliður eða viðskiptavinur í Supply Ch
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect to cash lausn fyrir Sales
 
-Nýjum **Er virkur viðskiptavinur** reit hefur verið bætt við tengiliðinn. Reiturinn er notaður til að aðgreina tengiliði sem hafa sölustarfsemi og tengiliði sem hafa ekki sölustarfsemi. **Er virkur viðskiptavinur** er stillt á **Já** aðeins fyrir tengiliði sem hafa tengd tilboð, pantanir eða reikninga. Aðeins þeir tengiliðir eru samstilltir við Supply Chain Management sem viðskiptavinir.
+Nýjum **Er virkur viðskiptavinur** dálki hefur verið bætt við tengiliðinn. Dálkurinn er notaður til að aðgreina tengiliði sem hafa sölustarfsemi og tengiliði sem hafa ekki sölustarfsemi. **Er virkur viðskiptavinur** er stillt á **Já** aðeins fyrir tengiliði sem hafa tengd tilboð, pantanir eða reikninga. Aðeins þeir tengiliðir eru samstilltir við Supply Chain Management sem viðskiptavinir.
 
-Nýjum **IsCompanyAnAccount** reit hefur verið bætt við tengiliðinn. Reiturinn gefur til kynna hvort tengiliður er tengdur við fyrirtæki (yfirreikning/tengilið) af gerðinni **Reikningur**. Þessar upplýsingar eru notaðar til að auðkenna tengiliði sem ætti að samstilla við Supply Chain Management sem tengiliði.
+Nýjum **IsCompanyAnAccount** dálki hefur verið bætt við tengiliðinn. Dálkurinn gefur til kynna hvort tengiliður er tengdur við fyrirtæki (yfirreikning/tengilið) af gerðinni **Reikningur**. Þessar upplýsingar eru notaðar til að auðkenna tengiliði sem ætti að samstilla við Supply Chain Management sem tengiliði.
 
-Nýjum **Númer tengiliðs** reit hefur verið bætt við tengiliðinn til að hjálpa við að tryggja einkvæman lykil fyrir samþættinguna. Þegar nýr tengiliður er búinn til er sjálfkrafa myndað **Númer tengiliðs** gildi með því að nota númeraröð. Gildið samanstendur af **CON**, því næst hækkandi talnaröð og svo sex stafa viðskeyti. Hér er dæmi: **CON-01000-BVRCPS**
+Nýjum **Númer tengiliðs** dálki hefur verið bætt við tengiliðinn til að hjálpa við að tryggja einkvæman lykil fyrir samþættinguna. Þegar nýr tengiliður er búinn til er sjálfkrafa myndað **Númer tengiliðs** gildi með því að nota númeraröð. Gildið samanstendur af **CON**, því næst hækkandi talnaröð og svo sex stafa viðskeyti. Hér er dæmi: **CON-01000-BVRCPS**
 
-Þegar samþættingarlausn fyrir Sales er beitt stillir uppfærsluforskrift **Númer tengiliðs** fyrir fyrirliggjandi tengiliði með því að nota númeraröðina sem áður var getið. Uppfærsluforskriftin stillir einnig **Er virkur viðskiptavinur** reitinn á **Já** fyrir alla tengiliði með söluaðgerðir.
+Þegar samþættingarlausn fyrir Sales er beitt stillir uppfærsluforskrift dálkinn **Númer tengiliðs** fyrir fyrirliggjandi tengiliði með því að nota númeraröðina sem áður var getið. Uppfærsluforskriftin stillir einnig **Er virkur viðskiptavinur** dálkinn á **Já** fyrir alla tengiliði með söluaðgerðir.
 
 ## <a name="in-supply-chain-management"></a>Í Supply Chain Management
 
@@ -95,7 +94,7 @@ Tengiliðir eru merktir með eiginleikanum **IsContactPersonExternallyMaintained
 
 ### <a name="contact-to-customer"></a>Tengiliður í viðskiptavin
 
-- **Viðskiptavinahópur** er krafist í Supply Chain Management. Til að forðast samstillingarvillur er hægt að tilgreina sjálfgildi í vörpun. Sjálfgefna gildið er svo notaðu ef reiturinn er skilinn eftir auður í Sales.
+- **Viðskiptavinahópur** er krafist í Supply Chain Management. Til að forðast samstillingarvillur er hægt að tilgreina sjálfgildi í vörpun. Sjálfgefið gildi er síðan notað ef dálkurinn er hafður auður í Sales.
 
     Sjálfgefið sniðmátsgildi er **10**.
 
@@ -118,7 +117,7 @@ Tengiliðir eru merktir með eiginleikanum **IsContactPersonExternallyMaintained
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþættingu. 
 
 > [!NOTE]
-> Vörpunin sýnir hvaða reitaupplýsingar verða samstilltar úr Sales í Supply Chain Management.
+> Vörpunin sýnir hvaða dálkupplýsingar verða samstilltar úr Sales í Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>Tengiliður í tengilið
 
@@ -142,6 +141,3 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 [Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

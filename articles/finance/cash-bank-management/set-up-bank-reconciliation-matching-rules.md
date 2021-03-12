@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3302738a05852dfb37f8266074386d9f2998994d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbee870848010f2dce9b6a5e2c6179849191f9cf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444380"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995266"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Uppsetning samsvörunarreglna bankaafstemmingar
 
@@ -49,6 +48,3 @@ Að sjálfgefnu munu samsvörunarreglur samsvara fyrsta bankaskjalinu sem uppfyl
 | **Jafna með bankaskjali**       | Stofna skilyrði til að tilgreina hvernig bankaskjöl og bankayfirlitslínur eru jafnaðar þegar jöfnunarregla er keyrð af síðunni **Vinnublað bankaafstemmingar**. Færslulínur eru valdar samkvæmt uppsetningu aukaskilyrða á flýtiflipunum.                                | **Skref 1: Skilgreina jöfnunarregluna** – Velja skilyrði til að tilgreina hvaða bankayfirlit ætti að jafna við Finance bankafærslur. **Skref 2 (valfrjálst): Velja uppgjörslínu til að keyra jöfnunarreglur gagnvart:**  Beita síu á hvaða uppgjörslínu skal keyra reglur gagnvart.                                                                                                                                                                                                                                                                                                               |
 | **Hreinsa bakfærslulínur** | Stofna skilyrði til að tilgreina hvernig bakfærslulínur eru fjarlægðar af síðunni **Vinnublað bankaafstemmingar** þegar jöfnunarkeyrsla er keyrð. Þessi valkostur er notaður þegar bankamistök valda því að tvær bankayfirlitslínur eru skráðar í innfluttu bankayfirliti og línurnar verður að stemma af. | **Skref 1**: **Finna bakfærðar uppgjörslínur**– Bæta við valskilyrðum til að velja bakfærslulínur banka. Til dæmis til að velja aðeins ávísanir skal velja **Bankafærslukóði** í reitnum Reitur, velja plúsmerkið (+) í reitnum **Reiknimerki** og færa síðan inn **Ávísanir** í reitnum Gildi. **Skref 2: Finna upprunalegar uppgjörslínur**– Hægt er að bæta við valskilyrðum til að jafna línur í bankaskjali við bankafærslulínur. **Skref 3: Finna bankafærslur Finance** – Hægt er að bæta við valskilyrðum til að jafna Finance bankafærslur við bankafærslulínur. |
 | **Merkja nýjar færslur**          | Stofna skilyrði til að tilgreina hvernig nýjar línur skulu merktar á síðunni **Vinnublað bankaafstemmingar** þegar jöfnunarkeyrsla er keyrð.                                                                                                                                                                 | **Skref 1: Finna uppgjörslínur**– Bæta við valreitum til að tilgreina hvaða bankayfirlitslínur ætti að velja af síðunni **Vinnublað bankaafstemmingar**. **Skref 2: Finna Finance and Operations** – Hægt er að bæta við valskilyrðum til að leita að bankaskjalslínum. Ef ekkert bankaskjal finnst verður uppgjörslína merkt sem ný færsla.                                                                                                                                                                                                                                             |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

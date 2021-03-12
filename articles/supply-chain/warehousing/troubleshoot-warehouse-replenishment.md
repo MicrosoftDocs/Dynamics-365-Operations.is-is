@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e4d87e85520c2b6f2346fddf3b985d4e17fe35cb
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 7748a18d2b6f612b3ac9ac1a75efb6ae5f13859a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644874"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993882"
 ---
 # <a name="troubleshoot-warehouse-replenishment"></a>Úrræðaleit fyrir áfyllingar vöruhúss
 
@@ -40,6 +39,3 @@ Tiltektarvinna er lokuð vegna háðrar áfyllingarvinnu.
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Þegar eftirspurnaráfylling bylgju er notuð, ef fylla verður á tiltektarstaðsetningu til að uppfylla eftirspurn upprunapöntunar, stofnar kerfið bæði áfyllingarvinnu og tiltektarvinnu. Hins vegar lokar það tiltektarvinnu þar til áfyllingarvinnu er lokið. Þessi hegðun er innbyggð, vegna þess að tiltektarstaðsetningin mun ekki innihalda nægar birgðir nema áfyllingarvinnu sé lokið. Ljúka skal áfyllingarvinnu og vinna síðan tiltektarverk.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

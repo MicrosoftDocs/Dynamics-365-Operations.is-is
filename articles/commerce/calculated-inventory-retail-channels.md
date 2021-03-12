@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413146"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995821"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reiknið birgðir til ráðstöfunar fyrir smásölurásir
 
@@ -114,6 +113,3 @@ Mælt er með því að keyra ekki þessar runuvinnslur of oft (á nokkurra mín
 > Af frammistöðuástæðum, þegar útreikningar á birgðahlið framboðs eru notaðir til að leggja fram beiðni um birgðaaðstoð með því að nota API fyrir e-Commerce eða nýju POS birgðastöðvar við hlið rásar, notar útreikningurinn skyndiminni til að ákvarða hvort nægur tími hafi liðið til að réttlæta að keyra útreikninga rökfræðinnar aftur. Sjálfgefið skyndiminni er stillt á 60 sekúndur. Til dæmis kveiktir þú á útreikningi á rásarhlið fyrir verslunina þína og skoðaðir lagerbirgðir fyrir vöru á síðunni **Birgðauppfletting**. Ef ein eining vörunnar er síðan seld, mun síðan **Birgðauppfletting** ekki sýna minnkaðan lager fyrr en skyndiminni hefur verið hreinsað. Eftir að notendur bókað færslur í POS ættu þeir að bíða í 60 sekúndur áður en þeir staðfesta að lagerbirgðir hafi verið skertar.
 
 Ef viðskiptasvið þitt þarfnast minni skyndiminnistíma skaltu hafa samband við stuðningsfulltrúa þinn til að fá hjálp.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996124"
 ---
 # <a name="replenishment-over-location-capacity"></a>Áfylling yfir staðsetningargetu
 
@@ -408,6 +407,3 @@ Nú er hægt að vinna þessa áfyllingarvinnu með fartækinu.
 - Hægt er að hnekkja tiltækileika áfyllingarvinnu handvirkt fyrir hvern vinnuhaus af síðunni **Upplýsingar um vinnu** ef þess er óskað.
 - Þegar kerfið stillir tiltækileika áfyllingarvinnu, tekur það allar birgðir til greina sem eru þegar í staðsetningunni áður en vinnu er lokið
 - Hver hluti sölupöntunarvinnu er tengdur við tiltekna áfyllingarvinnu. Ekki er til nein samsvarandi virkni fyrir tiltækileika söluvinnu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

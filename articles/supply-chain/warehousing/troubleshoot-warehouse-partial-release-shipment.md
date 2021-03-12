@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e89a430f90374733b23fadaf53f5bab598d67d62
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 33323a8aed44cf19db6c2c937abcb09f7e05b6c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645949"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993953"
 ---
 # <a name="troubleshoot-partial-releases-and-partial-shipments"></a>Úrræðaleit fyrir losun að hluta og hlutaafhendingar
 
@@ -42,6 +41,3 @@ Til dæmis er sölupöntun með tvær vörur: eina fyrir afhendingu og eina fyri
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Losunarstaðan á aðeins við um pöntunarlínur þar sem vörurnar eru virkjaðar fyrir vöruhúsastjórnun. Þess vegna er útgáfustaðan enn *Losað að hluta* í þessum aðstæðum. Microsoft hefur metið þetta mál og hefur ákvarðað að þetta sé takmörkun eiginleika. Hægt er að bæta við viðbót sem hluta af fylgiseðli og reikningsfærsluferli til að uppfæra útgáfustöðu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

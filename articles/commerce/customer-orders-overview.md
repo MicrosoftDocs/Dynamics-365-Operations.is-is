@@ -3,7 +3,7 @@ title: Pantanir viðskiptavina á sölustað
 description: Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar á sölustað. Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413145"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995796"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
@@ -52,9 +51,9 @@ Til að nota pantanir viðskiptavina þarf að skilgreina afhendingarmáta sem v
 
 ### <a name="set-up-fulfillment-groups"></a>Setja upp uppfyllingarflokka
 
-Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pantanir viðskiptavina. Með því að skilgreina uppfyllingarflokka getur fyrirtæki tilgreint hvaða verslunar- og vöruhúsastaðsetningar verði sýndar sem valmöguleiki fyrir notendur sem stofna pantanir viðskiptavina á sölustað. Uppfyllingarflokkar eru skilgreindir á síðunni **Uppfyllingarflokkar**. Fyrirtæki geta stofnað eins marga uppfyllingarflokka og þörf er á. Eftir að uppfyllingarflokkur hefur verið skilgreindur er hann tengdur við verslun með því að nota hnapp í flipanum **Setja upp** á aðgerðasvæði síðunnar **Verslanir**.
+Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pantanir viðskiptavina. Með því að skilgreina uppfyllingarflokka getur fyrirtæki tilgreint hvaða verslunar- og vöruhúsastaðsetningar verði sýndar sem valmöguleiki fyrir notendur sem stofna pantanir viðskiptavina á sölustað. Uppfyllingarflokkar eru skilgreindir á síðunni **Uppfyllingarflokkar**. Fyrirtæki geta stofnað eins marga uppfyllingarflokka og þörf er á. Eftir að uppfyllingarflokkur hefur verið skilgreindur skal tengja hann við verslun með því að velja **Úthlutun uppfyllingarflokks** í flipanum **Uppsetning** á aðgerðasvæði síðunnar **Verslanir**.
 
-Í Commerce-útgáfu 10.0.12 og síðar geta fyrirtæki skilgreint hvort hægt sé að nota vöruhúsið eða samsetningar vöruhúss/verslunar sem eru skilgreindar í uppfyllingarflokkum fyrir sendingar, sótt eða bæði sendingar og sótt. Þar af leiðandi hefur verslunin aukinn sveigjanleika til að keyra valmöguleika vöruhúss og verslunar sem sýndir eru notendum sem stofna pöntun fyrir afhendingu í samanburði við pöntun sem á að senda. Til að nýta sér þessa stillingarmöguleika þarf að kveikja á eiginleikanum **Geta til að tilgreina staðsetningar sem „Sending“ eða „Afhending“ í uppfyllingarflokki**. Ef vöruhús sem er tengt við uppfyllingarflokk er ekki verslun er aðeins hægt að skilgreina það sem sendingarstað. Ekki er hægt að nota það þegar pantanir sem á að afhenda eru skilgreindar á sölustað.
+Í Commerce-útgáfu 10.0.12 og síðar geta fyrirtæki skilgreint hvort hægt sé að nota vöruhúsið eða samsetningar vöruhúss og verslanir sem eru skilgreindar í uppfyllingarflokkum fyrir sendingar, sótt eða bæði sendingar og sótt. Þetta gerir kleift að auka sveigjanleika fyrir fyrirtækið til að ákvarða hvaða vöruhús má velja þegar stofnuð er viðskiptavinapöntun fyrir vörur til að senda í samanburði við hvaða verslanir má velja þegar stofnuð er viðskiptavinapöntun fyrir vörur til að sækja. Til að nota þessa stillingarmöguleika skal kveikja á eiginleikanum **Geta til að tilgreina staðsetningar sem „Sending“ eða „Afhending“ í uppfyllingarflokki**. Ef vöruhús sem er tengt við uppfyllingarflokk er ekki verslun er aðeins hægt að skilgreina það sem sendingarstað. Ekki er hægt að nota það þegar pantanir sem á að afhenda eru skilgreindar á sölustað.
 
 ![Síða uppfyllingarflokka](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Gangið úr skugga um að [skjáútlit](https://docs.microsoft.com/dynamics365/c
 
 ![Aðgerðir á færsluskjá sölustaðar](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Unnið með pantanir viðskiptavina á sölustað
+## <a name="work-with-customer-orders-in-pos"></a>Vinna með pantanir viðskiptavina á sölustað
+
+> [!NOTE]
+> Virkni tekjuskráningar er sem stendur ekki studd fyrir notkun í Commerce-rásum (rafrænum viðskiptum, sölustað, símaveri). Ekki skal bæta vörum, sem skilgreindar eru með tekjuskráningu, við pantanir sem stofnaðar eru í Commerce-rásum. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Stofna pöntun viðskiptavinar fyrir afurðir sem verða sendar til viðskiptavinarins
 
@@ -118,7 +120,7 @@ Gangið úr skugga um að [skjáútlit](https://docs.microsoft.com/dynamics365/c
 2. Bæta afurðum við körfuna.
 3. Veljið **Sækja valið** eða **Sækja allt** til að setja af stað skilgreiningu pöntunar sem er sótt.
 4. Veljið staðsetningu verslunar þar sem viðskiptavinurinn mun sækja valdar afurðir.
-5. Veljið afhendingardag.
+5. Veljið dagsetningu þegar varan verður sótt.
 6. Notið greiðsluaðgerðirnar til að greiða allar reiknaðar upphæðir sem eru á gjalddaga, eða notið aðgerðina **Hnekking innborgunar** til að breyta upphæðunum sem eru á gjalddaga, og veljið síðan greiðslu.
 7. Ef pöntunin var ekki greidd að fullu, skal velja hvort viðskiptavinurinn greiði seinna meir (við afhendingu) eða hvort kreditkort verður eyrnamerkt núna og síðan notað við afhendingu.
 
@@ -127,12 +129,10 @@ Gangið úr skugga um að [skjáútlit](https://docs.microsoft.com/dynamics365/c
 Smásölupantanir sem annaðhvort eru stofnaðar á netrásinni eða verslunarrásinni er hægt að endurkalla og breyta í gegnum sölustað eftir þörfum.
 
 > [!IMPORTANT]
-> Pantanir sem stofnaðar eru í símaversrás er ekki hægt að breyta í gegnum sölustað ef kveikt er á stillingunni [Virkja lok pöntunar](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) fyrir símaversrásina. Til að tryggja rétta úrvinnslu á greiðslu, þarf að breyta pöntunum sem gerðar voru í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ í gegnum símaversforritið í Commerce Headquarters.
+> Ekki er hægt að breyta öllum smásölupöntunum í gegnum forrit sölustaðar. Pantanir sem stofnaðar eru í símaversrás er ekki hægt að breyta í gegnum sölustað ef kveikt er á stillingunni [Virkja lok pöntunar](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) fyrir símaversrásina. Til að tryggja rétta úrvinnslu á greiðslu, þarf að breyta pöntunum sem gerðar voru í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ í gegnum símaversforritið í Commerce Headquarters.
 
-Í Commerce-útgáfu 10.0.13 og eldri geta notendur breytt studdum pöntunum viðskiptavina í gegnum sölustað ef pantanirnar eru opnaðar að fullu. Ef búið er að vinna úr einhverjum línum pöntunar til uppfyllingar (sækja, pakka o.s.frv.) verður læst fyrir breytingar á pöntuninni á sölustað.
+Í útgáfu 10.0.17 og nýrri geta notendur breytt tilheyrandi pöntunum í gegnum forrit sölustaðar jafnvel þótt pöntunin sé uppfyllt að hluta til. Hins vegar er ekki hægt að breyta pöntunum í gegnum sölustað sem hafa verið reikningsfærðar að fullu. Til að virkja þennan möguleika skal kveikja á eiginleikanum **Breyta pöntunum á sölustað sem hafa verið uppfylltar að hluta til** á vinnusvæðinu **Eiginleikastjórnun**. Ef þessi eiginleiki er ekki virkur eða ef verið er að nota útgáfu 10.0.16 eða eldri, geta notendur aðeins breytt pöntunum viðskiptavinar á sölustað ef pöntunin er opin að fullu. Auk þess, ef eiginleikinn er virkur, er hægt að takmarka hvaða verslanir geta breytt pöntunum sem eru uppfylltar að hluta til. Hægt er að skilgreina valkostinn til að slökkva á þessum möguleika fyrir tilteknar verslun í gegnum **Virkniforstillingar** undir flýtiflipanum **Almennt**.
 
-> [!NOTE]
-> Í Commerce-útgáfu 10.0.14 gerir eiginleiki sem hefur verið gefinn út í [opinni forútgáfu](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) notendum sölustaðar kleift að breyta pöntunum viðskiptavina í gegnum sölustað, jafnvel þótt pöntunin hefur verið uppfyllt að hluta til. Hins vegar er ekki hægt að breyta pöntunum í gegnum sölustað sem hafa verið reikningsfærðar að fullu. Til að prófa þessa forútgáfu og veita frekari athugasemdir skal kveikja á eiginleikanum **(Forskoðun) Breyta pöntunum á sölustað sem hafa verið uppfylltar að hluta til** á vinnusvæðinu **Eiginleikastjórnun**. Ekki er hægt að breyta viðskiptavinapöntunum sem voru stofnaðar í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ jafnvel eftir að þessi eiginleiki er virkjaður.
 
 1. Veljið **Afturkalla pöntun**.
 2. Notið **Leita að** til að færa inn síur til að finna pöntunina og veljið síðan **Nota**.
@@ -170,6 +170,3 @@ Hægt er að stofna pantanir viðskiptavina á sölustað í annaðhvort samstil
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Blandaðar pantanir viðskiptavinar](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
