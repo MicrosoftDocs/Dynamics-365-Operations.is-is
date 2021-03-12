@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430785"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005328"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Líftímastöður afurðar og færslur
 
@@ -76,6 +75,3 @@ Eftirfarandi reitir eru tiltækir fyrir hvert ferli sem er skráð á flýtiflip
 | Tryggingasamningur | Veldu eitt af eftirfarandi gildum til að stjórna hvort og hvernig núverandi ferli verður heimilað fyrir afurðir með eftirfarandi líftímastöðu:<ul><li>**Virkjað** – Viðskiptaferlið er leyft.</li><li>**Lokað** – Ferlið er ekki leyft. Þegar notandi reynir að nota ferlið fyrir afurð með þessa líftímastöðu, stöðvar kerfið slíkt og birtir villu þess í stað. Þú ætlar t.d. að útiloka kaup á afurðum sem eru við lok líftíma.</li><li>**Virkjað með viðvörun** – Ferlið er leyft en viðvörun birtist. Þú vilt t.d. setja frumgerð afurðar á framleiðslupöntun sem er stofnuð af deild rannsóknar- og þróunarsviðsins. Hins vegar ættu aðrar deildir að fá að vita að þær eiga ekki að hefja framleiðslu á afurðinni strax.</li></ul> |
 
 Þegar þú bætir við fleiri reglum um líftímastöðu sem sérstillingar er hægt að skoða þessar reglur í notandaviðmótinu (UI) með því að velja **Uppfæra ferli** á efra svæðinu. Hnappurinn **Uppfæra ferli** er aðeins tiltækur fyrir stjórnendur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

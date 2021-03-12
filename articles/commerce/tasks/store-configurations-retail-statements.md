@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4413312"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003654"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Skilgreiningar verslunar fyrir smásöluyfirlit
 
@@ -49,6 +48,3 @@ ms.locfileid: "4413312"
 17. Veljið "Já" í **Skipta eftir uppgjörsaðferð** til að fá yfirlit sem stofnuð voru fyrir hverja uppgjörsaðferð sem var skilgreind. Þessi aðgerð getur verið gagnleg ef afköst við bókun þarf að vera endurbætt fyrir verslana með margar færslur, þar sem það stofnar mörg minni yfirlit sem má vinna samhliða.  
 18. Í flýtiflipanum **Almennt** í svæðinu **Sjálfgefinn viðskiptavinur** hægt er að velja viðskiptavinalykillinn sem á að nota fyrir sölu til viðskiptavina sem koma af götunni.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

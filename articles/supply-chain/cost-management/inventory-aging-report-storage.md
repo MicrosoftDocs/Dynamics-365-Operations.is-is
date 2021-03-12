@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a292bd7a7ccbb09af1955e1e253b45e230c1009
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430310"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005428"
 ---
 # <a name="inventory-aging-report-storage"></a>Skýrsla um aldursgreiningu birgða
 
@@ -57,6 +56,3 @@ ms.locfileid: "4430310"
     > Formið mun ekki innihalda millisamtölur sem eru skilgreindar í skýrsluútliti.
 
 Gagnaeiningin **Skýrsla um aldursgreiningu birgða** gerir þér kleift að flytja niðurstöðurnar af **Geymsla aldursgreiningarskýrslu birgða** skýrslu út með því að nota síu fyrir reitinn **Kenni ferlis - Heiti** á hvaða snið sem gagnastjórnun styður.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

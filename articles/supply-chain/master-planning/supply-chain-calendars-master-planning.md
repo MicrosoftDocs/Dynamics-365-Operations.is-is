@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430356"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001800"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
@@ -143,6 +142,3 @@ Varðandi dagatal þekjuflokks er mikilvægt að hafa í huga að það býr yfi
 
 ### <a name="updating-scm-related-calendars"></a>Uppfærsla á SCM tengdum dagatölum
 Mikilvægt er að öllum viðeigandi dagatölum sé úthlutað á viðeigandi staði (lánardrottinn, viðskiptavinur, vöruhús, flutningsmáti eða þekjuflokkur), en að sama skapi er mikilvægt að uppfæra þau svo þau endurspegli breytingarnar. Kerfið mun skilgreina dagsetningar framleiðslu, flutnings, innkaupa og sölupöntunar, háð samsetningu úthlutaðra dagatala. Bestu starfsvenjur eru að fá úr því skorið hver beri ábyrgð á úthlutun og uppfærslu dagatalanna á svæðunum sem við eiga. Í tilfelli bilunar eða annarra óvenjulegra breytinga á vinnudögum er nauðsynlegt að uppfæra dagatölin í samræmi við það. Öll verk sem eru háð dagatölum, t.d. aðaláætlanagerð og framleiðsluröðun, verða að vera keyrð aftur þegar dagatöl eru uppfærð. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430649"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004472"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Áfylling með afturkölluðum kanban
 
@@ -87,6 +86,3 @@ Ef fjarlægðin milli vöruhúsastaðsetninga og staðsetningar framleiðsluinnt
 
 Eftir að kanban er notað í staðsetningu framleiðsluinntaks er kanban skráð sem autt og nýju kanban af sömu gerð er bætt við flæðið. Þegar kanban er stofnað er bylgjulínu bætt við kanban-bylgju. Þegar kanban-bylgja er yfirstaðin er vöruhúsavinna fyrir kanban-tiltekt stofnuð. Starfsmaður vöruhússins lýkur vinnu fyrir kanban-tiltekt og verkið segir honum að tína efnið fyrir kanban í vöruhúsastaðsetningu. Þegar þessi starfsmaður vöruhússins staðfestir tiltektina er kanban sjálfkrafa stofnað og starfsmanninum er sagt að setja efnið í staðsetningu framleiðsluinntaks.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2b703d770c7f9ea684716368cf1e7dbe5fec8710
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: cb503072fb76e04aa01ff2d231c756eeb244c65a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430803"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004702"
 ---
 # <a name="transportation-management-miscellaneous-charges"></a>Ýmis gjöld flutningsstjórnunar
 
@@ -31,6 +30,3 @@ Eins og á við um öll gjöld verða flutningsgjöld að vera tengd við gjalda
 Opnaðu **Flutningsstjórnun > Uppsetning > Flokkun > Ýmis gjöld** til að skilgreina flokkunarskilyrðin sem ákvarða hvenær tiltekinn **Gjaldakóði** er notaður fyrir gjald.
 
 Þú ættir að hafa að minnsta kosti eina uppsetningu fyrir hverja viðeigandi stillingu **Gjaldaeiningar** (*Viðskiptavinur* og *Lánardrottinn*) þar sem **Gerð ýmissa gjalda** er stillt á *Engin*. Ef þetta vantar verður gjaldinu *ekki* bætt við pöntunina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Iceland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a77f7af3907b1d0524d8fe2f0175591c0d176bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b56b8912e584493bc82e90ba6bedf8cc0fa6d0f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408063"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005790"
 ---
 # <a name="iceland-overview"></a>Yfirlit yfir Ísland
 
@@ -33,6 +32,3 @@ ms.locfileid: "4408063"
 - [Setja upp verktakamiða fyrir lánardrottna](tasks/set-up-invoice-declaration-vendors.md)
 - [Setja upp skyldubundnar greiðslutilvísanir](tasks/set-up-mandatory-payment-references.md)
 - [Uppfæra verktakamiða lánardrottna og búa til skýrslu](tasks/update-vendor-invoice-declarations-report.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

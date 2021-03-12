@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430749"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005203"
 ---
 # <a name="inventory-on-hand-list"></a>Listi yfir birgðir á lager
 
@@ -146,6 +145,3 @@ Hér er útkoman.
 | IA0001 | 1 | 2 | 2 |
 
 Athugið að stillingarnar á svæðinu **Síur** eiga við um ítarlegu (ekki uppsafnaða) birgðatöfluna sem er sýnd í upphafi þessa hluta. Þar af leiðandi finnur skilyrðið **Efnislega tiltækt** \| **minna en eða jafnt og** \| _1_ tvær línur úr þeirri töflu (fyrstu og þriðju línu, sem hvor um sig sýnir gildi fyrir **Efnislega tiltækt** upp á _1_). Hins vegar, í þessu dæmi, er síðan **Lagerlisti** ekki sett upp til að sýna víddina **Vöruhús**. Þar af leiðandi leggur það upprunalegu línurnar tvær saman í eina línu því að báðar línurnar eru með sama gildið í öllum víddunum sem sýndar eru. Þessi lína virðist ekki fara eftir síuskilyrðinu vegna þess að gildið **Efnislega tiltækt** er sýnt sem _2_. Niðurstaðan er hinsvegar rétt vegna þess að stillingarnar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlögðu töfluna sem er sýnd á síðunni **Lagerlisti**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

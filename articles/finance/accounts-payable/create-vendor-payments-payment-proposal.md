@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b047a1abaa6b19096740f589281c837643d796b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444358"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003529"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofnun greiðslna lánardrottins með greiðslutillögu
 
@@ -69,7 +68,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 
 ### <a name="option-1-by-cash-discount"></a>Valkostur 1: Eftir staðgreiðsluafslætti
 
-Apríl velur **staðgreiðsluafsláttur** sem gerð reikningstillögu. Hún færir inn dagsetningatímabilið 26.júní til 10.júlí. Eftirfarandi reikningar eru ekki teknir með í tillögunni:
+Apríl velur **staðgreiðsluafsláttur** sem gerð reikningstillögu. Hún færir inn dagsetningatímabilið 26.júní til 10.júlí. Eftirfarandi reikningar eru ekki teknir með í tillögunni:
 
 -   1002, þar sem afsláttardagsetningin 4. Júlí er svið greiðsludagsetninga.
 -   1004, þar sem afsláttardagsetningin 1. Júlí er svið greiðsludagsetninga.
@@ -101,7 +100,7 @@ Arnie velur **Gjalddagi og staðgreiðsluafsláttur** sem gerð reikningstillög
 
 Eftirfarandi reikningar eru ekki teknir með í tillögunni:
 
--   1001, þar sem 29.Júní dagsetning afsláttar er þegar liðin, því er þessi reikningur er ekki lengur hæfur fyrir staðgreiðsluafslátt og gjalddaginn 15. Júlí er einnig utan dagsetningasviðs
+-   1001, þar sem 29.Júní dagsetning afsláttar er þegar liðin, því er þessi reikningur er ekki lengur hæfur fyrir staðgreiðsluafslátt og gjalddaginn 15. Júlí er einnig utan dagsetningasviðs.
 
 ## <a name="country-specific-considerations"></a>Atriði sem varða tiltekin lönd
 ### <a name="norway"></a>Noregur
@@ -119,10 +118,7 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 
 #### <a name="bank-account-selection"></a>Val á bankareikningi
 
-Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota  **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **Gerð bókunarlykils** = **Banka**.
+Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **gerð bókunarlykils** = **Banka**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
