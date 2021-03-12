@@ -11,27 +11,26 @@ ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430670"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973761"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a><span data-ttu-id="368b8-103">Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu</span><span class="sxs-lookup"><span data-stu-id="368b8-103">Document routing layout for license plate labels</span></span>
+# <a name="document-routing-layout-for-license-plate-labels"></a><span data-ttu-id="9dec1-103">Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu</span><span class="sxs-lookup"><span data-stu-id="9dec1-103">Document routing layout for license plate labels</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="368b8-104">Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og gögnin sem eru prentuð á þá.</span><span class="sxs-lookup"><span data-stu-id="368b8-104">The document routing layout defines the layout of license plate labels, and the data that is printed on them.</span></span> <span data-ttu-id="368b8-105">Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="368b8-105">You configure the printing trigger points when you set up mobile device menu items and work templates.</span></span>
+<span data-ttu-id="9dec1-104">Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og gögnin sem eru prentuð á þá.</span><span class="sxs-lookup"><span data-stu-id="9dec1-104">The document routing layout defines the layout of license plate labels, and the data that is printed on them.</span></span> <span data-ttu-id="9dec1-105">Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="9dec1-105">You configure the printing trigger points when you set up mobile device menu items and work templates.</span></span>
 
-<span data-ttu-id="368b8-106">Í dæmigerðri atburðarás prenta starfsmenn í móttöku vöruhúsa merkimiða strax eftir að þeir skrá innihald bretta sem berast á móttökusvæðið.</span><span class="sxs-lookup"><span data-stu-id="368b8-106">In a typical scenario, warehouse receiving clerks print license plate labels immediately after they record the contents of pallets that arrive in the receiving area.</span></span> <span data-ttu-id="368b8-107">Efnislegir merkimiðar eru settir á brettin.</span><span class="sxs-lookup"><span data-stu-id="368b8-107">The physical labels are applied to the pallets.</span></span> <span data-ttu-id="368b8-108">Síðan er hægt að nota þá til staðfestingar sem hluta af frágangsferlinu sem fylgir í kjölfarið og framtíðartínsluaðgerðum.</span><span class="sxs-lookup"><span data-stu-id="368b8-108">They can then be used for validation as part of the put-away process that follows and future outbound picking operations.</span></span>
+<span data-ttu-id="9dec1-106">Í dæmigerðri atburðarás prenta starfsmenn í móttöku vöruhúsa merkimiða strax eftir að þeir skrá innihald bretta sem berast á móttökusvæðið.</span><span class="sxs-lookup"><span data-stu-id="9dec1-106">In a typical scenario, warehouse receiving clerks print license plate labels immediately after they record the contents of pallets that arrive in the receiving area.</span></span> <span data-ttu-id="9dec1-107">Efnislegir merkimiðar eru settir á brettin.</span><span class="sxs-lookup"><span data-stu-id="9dec1-107">The physical labels are applied to the pallets.</span></span> <span data-ttu-id="9dec1-108">Síðan er hægt að nota þá til staðfestingar sem hluta af frágangsferlinu sem fylgir í kjölfarið og framtíðartínsluaðgerðum.</span><span class="sxs-lookup"><span data-stu-id="9dec1-108">They can then be used for validation as part of the put-away process that follows and future outbound picking operations.</span></span>
 
-<span data-ttu-id="368b8-109">Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans.</span><span class="sxs-lookup"><span data-stu-id="368b8-109">You can print highly complex labels, provided that the printing device can interpret the text that is sent to it.</span></span> <span data-ttu-id="368b8-110">Til dæmis gæti skipulag forritunarmálsins Zebra (ZPL) sem inniheldur strikamerki líkst eftirfarandi dæmi.</span><span class="sxs-lookup"><span data-stu-id="368b8-110">For example, a Zebra Programming Language (ZPL) layout that includes a bar code might resemble the following example.</span></span>
+<span data-ttu-id="9dec1-109">Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans.</span><span class="sxs-lookup"><span data-stu-id="9dec1-109">You can print highly complex labels, provided that the printing device can interpret the text that is sent to it.</span></span> <span data-ttu-id="9dec1-110">Til dæmis gæti skipulag forritunarmálsins Zebra (ZPL) sem inniheldur strikamerki líkst eftirfarandi dæmi.</span><span class="sxs-lookup"><span data-stu-id="9dec1-110">For example, a Zebra Programming Language (ZPL) layout that includes a bar code might resemble the following example.</span></span>
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -47,92 +46,92 @@ ms.locfileid: "4430670"
 ^PQ1,,,Y^XZ
 ```
 
-<span data-ttu-id="368b8-111">Sem hluti af prentunarferlinu verður textanum `$LicensePlateId$` í þessu dæmi skipt út fyrir gagnagildi.</span><span class="sxs-lookup"><span data-stu-id="368b8-111">As part of the label printing process, the text `$LicensePlateId$` in this example will be replaced with a data value.</span></span>
+<span data-ttu-id="9dec1-111">Sem hluti af prentunarferlinu verður textanum `$LicensePlateId$` í þessu dæmi skipt út fyrir gagnagildi.</span><span class="sxs-lookup"><span data-stu-id="9dec1-111">As part of the label printing process, the text `$LicensePlateId$` in this example will be replaced with a data value.</span></span>
 
-<span data-ttu-id="368b8-112">Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrirspurnir og skýrslur \> Merkimiðar á númeraplötum**.</span><span class="sxs-lookup"><span data-stu-id="368b8-112">To see the values that will be printed, go to **Warehouse management \> Inquiries and reports \> License plate labels**.</span></span>
+<span data-ttu-id="9dec1-112">Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrirspurnir og skýrslur \> Merkimiðar á númeraplötum**.</span><span class="sxs-lookup"><span data-stu-id="9dec1-112">To see the values that will be printed, go to **Warehouse management \> Inquiries and reports \> License plate labels**.</span></span>
 
-<span data-ttu-id="368b8-113">Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins.</span><span class="sxs-lookup"><span data-stu-id="368b8-113">Several widely available label generation tools can help you format the text for the label layout.</span></span> <span data-ttu-id="368b8-114">Mörg þessara verkfæra styðja sniðið `$FieldName$`.</span><span class="sxs-lookup"><span data-stu-id="368b8-114">Many of these tools support the `$FieldName$` format.</span></span> <span data-ttu-id="368b8-115">Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.</span><span class="sxs-lookup"><span data-stu-id="368b8-115">In addition, Microsoft Dynamics 365 Supply Chain Management uses special formatting logic as part of the field mapping for the document routing layout.</span></span>
+<span data-ttu-id="9dec1-113">Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins.</span><span class="sxs-lookup"><span data-stu-id="9dec1-113">Several widely available label generation tools can help you format the text for the label layout.</span></span> <span data-ttu-id="9dec1-114">Mörg þessara verkfæra styðja sniðið `$FieldName$`.</span><span class="sxs-lookup"><span data-stu-id="9dec1-114">Many of these tools support the `$FieldName$` format.</span></span> <span data-ttu-id="9dec1-115">Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.</span><span class="sxs-lookup"><span data-stu-id="9dec1-115">In addition, Microsoft Dynamics 365 Supply Chain Management uses special formatting logic as part of the field mapping for the document routing layout.</span></span>
 
-## <a name="custom-number-formats"></a><span data-ttu-id="368b8-116">Sérsniðin tölusnið</span><span class="sxs-lookup"><span data-stu-id="368b8-116">Custom number formats</span></span>
+## <a name="custom-number-formats"></a><span data-ttu-id="9dec1-116">Sérsniðin tölusnið</span><span class="sxs-lookup"><span data-stu-id="9dec1-116">Custom number formats</span></span>
 
-<span data-ttu-id="368b8-117">Þú getur sérsniðið snið á tölulegum reitagildum sem eru prentuð með kóða með eftirfarandi sniði.</span><span class="sxs-lookup"><span data-stu-id="368b8-117">You can customize the formatting of numerical field values that are printed by using codes that have the following format.</span></span>
+<span data-ttu-id="9dec1-117">Þú getur sérsniðið snið á tölulegum reitagildum sem eru prentuð með kóða með eftirfarandi sniði.</span><span class="sxs-lookup"><span data-stu-id="9dec1-117">You can customize the formatting of numerical field values that are printed by using codes that have the following format.</span></span>
 
 ```dos
 $FieldName:FormatString$
 ```
 
-<span data-ttu-id="368b8-118">Hér er útskýring á þessu sniði:</span><span class="sxs-lookup"><span data-stu-id="368b8-118">Here is an explanation of this format:</span></span>
+<span data-ttu-id="9dec1-118">Hér er útskýring á þessu sniði:</span><span class="sxs-lookup"><span data-stu-id="9dec1-118">Here is an explanation of this format:</span></span>
 
-- <span data-ttu-id="368b8-119">`FieldName` er heiti gagnareitsins (eins og **Magn**).</span><span class="sxs-lookup"><span data-stu-id="368b8-119">`FieldName` is the name of the data field (such as **Qty**).</span></span>
-- <span data-ttu-id="368b8-120">`FormatString` skilgreinir hvernig prenta verður gögnin.</span><span class="sxs-lookup"><span data-stu-id="368b8-120">`FormatString` defines how the data must be printed.</span></span>
+- <span data-ttu-id="9dec1-119">`FieldName` er heiti gagnareitsins (eins og **Magn**).</span><span class="sxs-lookup"><span data-stu-id="9dec1-119">`FieldName` is the name of the data field (such as **Qty**).</span></span>
+- <span data-ttu-id="9dec1-120">`FormatString` skilgreinir hvernig prenta verður gögnin.</span><span class="sxs-lookup"><span data-stu-id="9dec1-120">`FormatString` defines how the data must be printed.</span></span>
 
-<span data-ttu-id="368b8-121">Eftirfarandi dæmi sýna hvernig þú getur sérsniðið vinnumagnsreitinn (**Magn**):</span><span class="sxs-lookup"><span data-stu-id="368b8-121">The following examples show how you can customize the work quantity (**Qty**) field:</span></span>
+<span data-ttu-id="9dec1-121">Eftirfarandi dæmi sýna hvernig þú getur sérsniðið vinnumagnsreitinn (**Magn**):</span><span class="sxs-lookup"><span data-stu-id="9dec1-121">The following examples show how you can customize the work quantity (**Qty**) field:</span></span>
 
-- <span data-ttu-id="368b8-122">Til að sýna alltaf fjóra tölustafi (með því að nota núll sem frátökutákn) notarðu `$Qty:0000$`.</span><span class="sxs-lookup"><span data-stu-id="368b8-122">To always show four digits (by using zeros as placeholders), use `$Qty:0000$`.</span></span> <span data-ttu-id="368b8-123">Til dæmis, ef magnið er 10 mun merkimiðinn sýna „0010”.</span><span class="sxs-lookup"><span data-stu-id="368b8-123">For example, if the quantity is 10, the label will show "0010."</span></span>
-- <span data-ttu-id="368b8-124">Til að sýna alltaf tvo aukastafi notarðu `$Qty:0.00$`.</span><span class="sxs-lookup"><span data-stu-id="368b8-124">To always show two decimal places, use `$Qty:0.00$`.</span></span> <span data-ttu-id="368b8-125">Til dæmis, ef magnið er 10 mun merkimiðinn sýna „10,00”.</span><span class="sxs-lookup"><span data-stu-id="368b8-125">For example, if the quantity is 10, the label will show "10.00."</span></span>
+- <span data-ttu-id="9dec1-122">Til að sýna alltaf fjóra tölustafi (með því að nota núll sem frátökutákn) notarðu `$Qty:0000$`.</span><span class="sxs-lookup"><span data-stu-id="9dec1-122">To always show four digits (by using zeros as placeholders), use `$Qty:0000$`.</span></span> <span data-ttu-id="9dec1-123">Til dæmis, ef magnið er 10 mun merkimiðinn sýna „0010”.</span><span class="sxs-lookup"><span data-stu-id="9dec1-123">For example, if the quantity is 10, the label will show "0010."</span></span>
+- <span data-ttu-id="9dec1-124">Til að sýna alltaf tvo aukastafi notarðu `$Qty:0.00$`.</span><span class="sxs-lookup"><span data-stu-id="9dec1-124">To always show two decimal places, use `$Qty:0.00$`.</span></span> <span data-ttu-id="9dec1-125">Til dæmis, ef magnið er 10 mun merkimiðinn sýna „10,00”.</span><span class="sxs-lookup"><span data-stu-id="9dec1-125">For example, if the quantity is 10, the label will show "10.00."</span></span>
 
-<span data-ttu-id="368b8-126">Fyrir fullan lista yfir tiltæka strengi tölusniðmáts, sjá [Sérsniðnir strengir tölusniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span><span class="sxs-lookup"><span data-stu-id="368b8-126">For a complete list of the available number format strings, see [Custom numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span></span>
+<span data-ttu-id="9dec1-126">Fyrir fullan lista yfir tiltæka strengi tölusniðmáts, sjá [Sérsniðnir strengir tölusniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span><span class="sxs-lookup"><span data-stu-id="9dec1-126">For a complete list of the available number format strings, see [Custom numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).</span></span>
 
-## <a name="custom-string-formats"></a><span data-ttu-id="368b8-127">Sérsniðin strengjasnið</span><span class="sxs-lookup"><span data-stu-id="368b8-127">Custom string formats</span></span>
+## <a name="custom-string-formats"></a><span data-ttu-id="9dec1-127">Sérsniðin strengjasnið</span><span class="sxs-lookup"><span data-stu-id="9dec1-127">Custom string formats</span></span>
 
-<span data-ttu-id="368b8-128">Þú getur fjarlægt fyrstu stafina í strengnum með því að nota eftirfarandi reit og sniðkóða.</span><span class="sxs-lookup"><span data-stu-id="368b8-128">You can remove the first characters of a string by using the following field and format code.</span></span>
+<span data-ttu-id="9dec1-128">Þú getur fjarlægt fyrstu stafina í strengnum með því að nota eftirfarandi reit og sniðkóða.</span><span class="sxs-lookup"><span data-stu-id="9dec1-128">You can remove the first characters of a string by using the following field and format code.</span></span>
 
 ```dos
 $FieldName:#..$
 ```
 
-<span data-ttu-id="368b8-129">Hér tilgreinir `#` fjölda stafa sem á að sleppa.</span><span class="sxs-lookup"><span data-stu-id="368b8-129">Here, `#` specifies the number of characters to skip.</span></span> <span data-ttu-id="368b8-130">Til dæmis, til að prenta númeraplötunúmer raðnúmers vörusendinga (SSCC) sem ekki eru fyrstu tveir stafirnir, notarðu `$LicensePlateId:2..$`.</span><span class="sxs-lookup"><span data-stu-id="368b8-130">For example, to print a Serial Shipping Container Code (SSCC) license plate number that doesn't include the first two characters, use `$LicensePlateId:2..$`.</span></span> <span data-ttu-id="368b8-131">Í þessu tilfelli verður númeraplötunúmerið 0011111111111222221 prentað sem „11111111111222221”.</span><span class="sxs-lookup"><span data-stu-id="368b8-131">In this case, the license plate number 0011111111111222221 will be printed as "11111111111222221."</span></span>
+<span data-ttu-id="9dec1-129">Hér tilgreinir `#` fjölda stafa sem á að sleppa.</span><span class="sxs-lookup"><span data-stu-id="9dec1-129">Here, `#` specifies the number of characters to skip.</span></span> <span data-ttu-id="9dec1-130">Til dæmis, til að prenta númeraplötunúmer raðnúmers vörusendinga (SSCC) sem ekki eru fyrstu tveir stafirnir, notarðu `$LicensePlateId:2..$`.</span><span class="sxs-lookup"><span data-stu-id="9dec1-130">For example, to print a Serial Shipping Container Code (SSCC) license plate number that doesn't include the first two characters, use `$LicensePlateId:2..$`.</span></span> <span data-ttu-id="9dec1-131">Í þessu tilfelli verður númeraplötunúmerið 0011111111111222221 prentað sem „11111111111222221”.</span><span class="sxs-lookup"><span data-stu-id="9dec1-131">In this case, the license plate number 0011111111111222221 will be printed as "11111111111222221."</span></span>
 
-## <a name="custom-datetime-formats"></a><span data-ttu-id="368b8-132">Sérsniðin dagsetningar-/tímasnið</span><span class="sxs-lookup"><span data-stu-id="368b8-132">Custom date/time formats</span></span>
+## <a name="custom-datetime-formats"></a><span data-ttu-id="9dec1-132">Sérsniðin dagsetningar-/tímasnið</span><span class="sxs-lookup"><span data-stu-id="9dec1-132">Custom date/time formats</span></span>
 
-<span data-ttu-id="368b8-133">Eftirfarandi dæmi sýnir hvernig þú getur stjórnað sniðinu sem er notað til að prenta dagsetningar.</span><span class="sxs-lookup"><span data-stu-id="368b8-133">The following example shows how you can control the format that is used to print dates.</span></span>
+<span data-ttu-id="9dec1-133">Eftirfarandi dæmi sýnir hvernig þú getur stjórnað sniðinu sem er notað til að prenta dagsetningar.</span><span class="sxs-lookup"><span data-stu-id="9dec1-133">The following example shows how you can control the format that is used to print dates.</span></span>
 
 ```dos
 $PrintedDate:dd-MM-yyyy$
 ```
 
-<span data-ttu-id="368b8-134">Í þessu dæmi verður dagsetningin 30. apríl 2020 prentuð sem „30-04-2020”.</span><span class="sxs-lookup"><span data-stu-id="368b8-134">In this example, the date April 30, 2020, will be printed as "30-04-2020."</span></span>
+<span data-ttu-id="9dec1-134">Í þessu dæmi verður dagsetningin 30. apríl 2020 prentuð sem „30-04-2020”.</span><span class="sxs-lookup"><span data-stu-id="9dec1-134">In this example, the date April 30, 2020, will be printed as "30-04-2020."</span></span>
 
-<span data-ttu-id="368b8-135">Fyrir fullan lista yfir tiltæka strengi dagsetningar-/tímasniðmáta, sjá [Sérsniðnir strengir dagsetningar- og tímasniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span><span class="sxs-lookup"><span data-stu-id="368b8-135">For a complete list of the available date/time formats, see [Custom date and time format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span></span>
+<span data-ttu-id="9dec1-135">Fyrir fullan lista yfir tiltæka strengi dagsetningar-/tímasniðmáta, sjá [Sérsniðnir strengir dagsetningar- og tímasniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span><span class="sxs-lookup"><span data-stu-id="9dec1-135">For a complete list of the available date/time formats, see [Custom date and time format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).</span></span>
 
-## <a name="print-individual-lines-from-multiline-data"></a><span data-ttu-id="368b8-136">Prentaðu einstakar línur úr samvalsgögnum</span><span class="sxs-lookup"><span data-stu-id="368b8-136">Print individual lines from multiline data</span></span>
+## <a name="print-individual-lines-from-multiline-data"></a><span data-ttu-id="9dec1-136">Prentaðu einstakar línur úr samvalsgögnum</span><span class="sxs-lookup"><span data-stu-id="9dec1-136">Print individual lines from multiline data</span></span>
 
-<span data-ttu-id="368b8-137">Ef gagnareitur inniheldur margar línur (það er að segja línur sem eru aðskildar með línuskilum) geturðu prentað einstaka línu með eftirfarandi sniði.</span><span class="sxs-lookup"><span data-stu-id="368b8-137">If a data field contains multiple lines (that is, lines that are separated by line breaks), you can print an individual line by using the following format.</span></span>
+<span data-ttu-id="9dec1-137">Ef gagnareitur inniheldur margar línur (það er að segja línur sem eru aðskildar með línuskilum) geturðu prentað einstaka línu með eftirfarandi sniði.</span><span class="sxs-lookup"><span data-stu-id="9dec1-137">If a data field contains multiple lines (that is, lines that are separated by line breaks), you can print an individual line by using the following format.</span></span>
 
 ```dos
 $FieldName[#]$
 ```
 
-<span data-ttu-id="368b8-138">Hér er `#` línunúmerið sem þú vilt prenta.</span><span class="sxs-lookup"><span data-stu-id="368b8-138">Here, `#` is the line number that you want to print.</span></span> <span data-ttu-id="368b8-139">(Notaðu 1 fyrir fyrstu línuna.)</span><span class="sxs-lookup"><span data-stu-id="368b8-139">(Use 1 for the first line.)</span></span>
+<span data-ttu-id="9dec1-138">Hér er `#` línunúmerið sem þú vilt prenta.</span><span class="sxs-lookup"><span data-stu-id="9dec1-138">Here, `#` is the line number that you want to print.</span></span> <span data-ttu-id="9dec1-139">(Notaðu 1 fyrir fyrstu línuna.)</span><span class="sxs-lookup"><span data-stu-id="9dec1-139">(Use 1 for the first line.)</span></span>
 
-<span data-ttu-id="368b8-140">Til dæmis, kerfið þitt er með reitinn `AdditionalAddress` sem geymir eftirfarandi samvalsheimilisfang:</span><span class="sxs-lookup"><span data-stu-id="368b8-140">For example, your system has an `AdditionalAddress` field that stores the following multiline address:</span></span>
+<span data-ttu-id="9dec1-140">Til dæmis, kerfið þitt er með reitinn `AdditionalAddress` sem geymir eftirfarandi samvalsheimilisfang:</span><span class="sxs-lookup"><span data-stu-id="9dec1-140">For example, your system has an `AdditionalAddress` field that stores the following multiline address:</span></span>
 
-<span data-ttu-id="368b8-141">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="368b8-141">Contoso Inc.</span></span>  
-<span data-ttu-id="368b8-142">123 Götuheiti</span><span class="sxs-lookup"><span data-stu-id="368b8-142">123 Street Name</span></span>  
-<span data-ttu-id="368b8-143">Einhver borg, eitthvað ríki</span><span class="sxs-lookup"><span data-stu-id="368b8-143">Some City, Some State</span></span>
+<span data-ttu-id="9dec1-141">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="9dec1-141">Contoso Inc.</span></span>  
+<span data-ttu-id="9dec1-142">123 Götuheiti</span><span class="sxs-lookup"><span data-stu-id="9dec1-142">123 Street Name</span></span>  
+<span data-ttu-id="9dec1-143">Einhver borg, eitthvað ríki</span><span class="sxs-lookup"><span data-stu-id="9dec1-143">Some City, Some State</span></span>
 
-<span data-ttu-id="368b8-144">Þú getur prentað þetta heimilisfang, eina línu í einu, með því að nota eftirfarandi kóða.</span><span class="sxs-lookup"><span data-stu-id="368b8-144">You can print this address, one line at a time, by using the following codes.</span></span>
+<span data-ttu-id="9dec1-144">Þú getur prentað þetta heimilisfang, eina línu í einu, með því að nota eftirfarandi kóða.</span><span class="sxs-lookup"><span data-stu-id="9dec1-144">You can print this address, one line at a time, by using the following codes.</span></span>
 
-| <span data-ttu-id="368b8-145">Kóði</span><span class="sxs-lookup"><span data-stu-id="368b8-145">Code</span></span> | <span data-ttu-id="368b8-146">Texti sem er prentaður</span><span class="sxs-lookup"><span data-stu-id="368b8-146">Text that is printed</span></span> |
+| <span data-ttu-id="9dec1-145">Kóði</span><span class="sxs-lookup"><span data-stu-id="9dec1-145">Code</span></span> | <span data-ttu-id="9dec1-146">Texti sem er prentaður</span><span class="sxs-lookup"><span data-stu-id="9dec1-146">Text that is printed</span></span> |
 |---|---|
-| `$AdditionalAddress[1]$` | <span data-ttu-id="368b8-147">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="368b8-147">Contoso Inc.</span></span> |
-| `$AdditionalAddress[2]$` | <span data-ttu-id="368b8-148">123 Götuheiti</span><span class="sxs-lookup"><span data-stu-id="368b8-148">123 Street Name</span></span> |
-| `$AdditionalAddress[3]$` | <span data-ttu-id="368b8-149">Einhver borg, eitthvað ríki</span><span class="sxs-lookup"><span data-stu-id="368b8-149">Some City, Some State</span></span> |
+| `$AdditionalAddress[1]$` | <span data-ttu-id="9dec1-147">Contoso Inc.</span><span class="sxs-lookup"><span data-stu-id="9dec1-147">Contoso Inc.</span></span> |
+| `$AdditionalAddress[2]$` | <span data-ttu-id="9dec1-148">123 Götuheiti</span><span class="sxs-lookup"><span data-stu-id="9dec1-148">123 Street Name</span></span> |
+| `$AdditionalAddress[3]$` | <span data-ttu-id="9dec1-149">Einhver borg, eitthvað ríki</span><span class="sxs-lookup"><span data-stu-id="9dec1-149">Some City, Some State</span></span> |
 
-## <a name="print-and-format-from-a-display-method"></a><span data-ttu-id="368b8-150">Prenta og sníða úr birtingaraðferð</span><span class="sxs-lookup"><span data-stu-id="368b8-150">Print and format from a display method</span></span>
+## <a name="print-and-format-from-a-display-method"></a><span data-ttu-id="9dec1-150">Prenta og sníða úr birtingaraðferð</span><span class="sxs-lookup"><span data-stu-id="9dec1-150">Print and format from a display method</span></span>
 
-<span data-ttu-id="368b8-151">Þú getur prentað úr birtingaraðferð með því að nota eftirfarandi snið.</span><span class="sxs-lookup"><span data-stu-id="368b8-151">You can print from a display method by using the following format.</span></span>
+<span data-ttu-id="9dec1-151">Þú getur prentað úr birtingaraðferð með því að nota eftirfarandi snið.</span><span class="sxs-lookup"><span data-stu-id="9dec1-151">You can print from a display method by using the following format.</span></span>
 
 ```dos
 $DisplayMethod()$
 ```
 
-<span data-ttu-id="368b8-152">Þú getur sameinað þetta snið við aðrar gerðir sem lýst var fyrr í þessu efni.</span><span class="sxs-lookup"><span data-stu-id="368b8-152">You can combine this format with other types that were described earlier in this topic.</span></span> <span data-ttu-id="368b8-153">Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar.</span><span class="sxs-lookup"><span data-stu-id="368b8-153">For example, you have a display method that is named `DisplayListOfItemsNumbers()`, and you want to print the first item number of this method.</span></span> <span data-ttu-id="368b8-154">Í þessu tilviki er hægt að nota eftirfarandi kóða.</span><span class="sxs-lookup"><span data-stu-id="368b8-154">In this case, you can use the following code.</span></span>
+<span data-ttu-id="9dec1-152">Þú getur sameinað þetta snið við aðrar gerðir sem lýst var fyrr í þessu efni.</span><span class="sxs-lookup"><span data-stu-id="9dec1-152">You can combine this format with other types that were described earlier in this topic.</span></span> <span data-ttu-id="9dec1-153">Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar.</span><span class="sxs-lookup"><span data-stu-id="9dec1-153">For example, you have a display method that is named `DisplayListOfItemsNumbers()`, and you want to print the first item number of this method.</span></span> <span data-ttu-id="9dec1-154">Í þessu tilviki er hægt að nota eftirfarandi kóða.</span><span class="sxs-lookup"><span data-stu-id="9dec1-154">In this case, you can use the following code.</span></span>
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$
 ```
 
-## <a name="more-information-about-how-to-print-labels"></a><span data-ttu-id="368b8-155">Nánari upplýsingar um hvernig á að prenta merkingar</span><span class="sxs-lookup"><span data-stu-id="368b8-155">More information about how to print labels</span></span>
+## <a name="more-information-about-how-to-print-labels"></a><span data-ttu-id="9dec1-155">Nánari upplýsingar um hvernig á að prenta merkingar</span><span class="sxs-lookup"><span data-stu-id="9dec1-155">More information about how to print labels</span></span>
 
-<span data-ttu-id="368b8-156">Nánari upplýsingar um hvernig á að setja upp og prenta merkimiða, sjá [Virkja prentun merkis á númeraplötu](tasks/license-plate-label-printing.md).</span><span class="sxs-lookup"><span data-stu-id="368b8-156">For more information about how to set up and print labels, see [Enable license plate label printing](tasks/license-plate-label-printing.md).</span></span>
+<span data-ttu-id="9dec1-156">Nánari upplýsingar um hvernig á að setja upp og prenta merkimiða, sjá [Virkja prentun merkis á númeraplötu](tasks/license-plate-label-printing.md).</span><span class="sxs-lookup"><span data-stu-id="9dec1-156">For more information about how to set up and print labels, see [Enable license plate label printing](tasks/license-plate-label-printing.md).</span></span>
