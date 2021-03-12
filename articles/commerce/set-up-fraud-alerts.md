@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413238"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985787"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
@@ -69,6 +68,3 @@ Pöntunin er vistuð, en **Ekki setja í ferli** flaggið er stillt á hana. Þe
 Til að skoða og stjórna pöntununum sem eru í bið fyrir svikakönnun skaltu fara í **Retail og Commerce** \> **Viðskiptavinir** \> **Pantanir í bið**. Á síðunni **Pantanir í bið** skal velja færslu í listanum og smella svo á **Pöntun í bið** til að sjá frekari upplýsingar sem innihalda ástæðuupplýsingar. Á flipanum **Upplýsingar um svik** er hægt að skoða kerfisbundin svikaviðmið sem fundust fyrir pöntunina og stigin sem voru notuð. Ef pöntunin var sett í bið handvirkt er hægt að skoða allar athugasemdir sem notandinn sem setti pöntunina í bið sló inn með því að skoða **Athugasemdir um svik** hlutann í flýtiflipanum **Athugasemdir**.
 
 Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430780"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987480"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Hönnunarútgáfur og flokkar hönnunarafurðar
 
@@ -162,6 +161,3 @@ Hönnunaruppskriftir og leiðir eru stofnaðar í hönnunarútgáfunni þar sem 
 Fyrir afurðir þar sem notuð er afurðarvíddin *útgáfa* (ásamt vörustjórnunaráhrifum á færslurnar), er útgáfunni einnig bætt við uppskriftir og leiðir. Þessi hegðun hjálpar til við að aðgreina uppskriftir og leiðir samfelldra útgáfa, burtséð frá stillingunni **Framfylgja virkni**.
 
 Fyrir afurðir þar sem ekki er notuð afurðarvíddin *útgáfa* (án vörustjórnunaráhrifa á færslurnar), er útgáfunni ekki bætt við uppskriftir og leiðir. Þess vegna verður enginn munur á uppskriftunum og leiðunum í samfelldum útgáfum. Í þessu tilfelli mælum við með því að valkosturinn **Framfylgja virkni** verði stilltur á *Já*. Á þennan hátt er hægt að koma í veg fyrir að hönnunarútgáfur skarist og einnig er hægt að virkja uppskrift og leið nýrrar útgáfu án þess að þurfa fyrsta að gera uppskriftina og leiðina óvirka í fyrri útgáfu. Ef valkosturinn **Framfylgja virkni** er stilltur á *Já* í þessu tilfelli, þarf fyrst að gera uppskriftir og leiðir í eldri útgáfum óvirkar handvirkt áður en hægt er virkja nýjustu útgáfuna.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

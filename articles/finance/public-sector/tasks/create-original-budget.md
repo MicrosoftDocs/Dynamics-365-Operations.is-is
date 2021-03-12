@@ -1,6 +1,6 @@
 ---
 title: Stofna upprunalega fjárhagsáætlun og bakfæra síðan færslur bráðabirgðafjárhagsáætlunar í opinbera geiranum
-description: Þegar upprunaleg færsla fjárhagsáætlunar er stofnuð og nota fjárhagsáætlunarlíkan og víddargildi sem innihalda bráðabirgða upphæð fjárhagsáætlunar, má bakfæra upphæð fjárhagsáætlunar.
+description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að stofna og bakfæra upprunalega fjárhagsáætlunarfærslu með því að nota fjárhagsáætlunarlíkan og víddargildi sem eru með bráðabirgðaupphæðir.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 134e2ca851d72965198026107817c66a808ac705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987955"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Stofna upprunalega fjárhagsáætlun og bakfæra síðan færslur bráðabirgðafjárhagsáætlunar í opinbera geiranum
 
@@ -51,6 +50,3 @@ ms.locfileid: "4444473"
     * Til þess að velja valfrjáls, smellið á táknið Aflæsa efst á síðunni.  
 18. Smelltu á Uppfæra.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

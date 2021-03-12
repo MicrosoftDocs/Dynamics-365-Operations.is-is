@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430309"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987554"
 ---
 # <a name="inventory-close"></a>Birgðalokun
 
@@ -60,7 +59,7 @@ Nokkur þeirra verka sem hægt er að framkvæma á síðunni **Lokun og leiðr�
 Fjárhagslyklar sem eru uppfærðir vegna þessara verka eru tengdir upphaflegu birgðafærslunni. Til dæmis ef sölupöntun er jöfnuð við innkaupapöntun verða fjárhagslyklarnir sem voru notaðir fyrir upprunalega sölupöntun leiðréttir. Þetta gerist jafnvel þó að fjárhagslyklarnir fyrir vöruflokkinn sem er úthlutaður þessari vöru hafi breyst síðan sölupöntunin var bókuð. Eftir að birgðalokun stofnar upphæð til jöfnunar, er jöfnunarupphæð samt bókuð á upprunalegu fjárhagslyklana, í staðinn fyrir þá nýju fjárhagslykla sem úthlutað var á vöruna. Einnig gæti fjárhagur verið uppfærður ef birgðalokun er bakfærð. 
 
 > [!NOTE] 
-> - Lokun birgða er nauðsynlegt skref í lokunarferli mánaðarins fyrir öll birgðalíkön. Þetta felur í sér venjulegan kostnað og kostnað hlaupandi meðaltals. Þú munt ekki geta lokað fjárhagstímabilinu fyrr en birgðalokun hefur verið framkvæmd frá lokadegi tímabilsins.
+> - Lokun birgða er nauðsynlegt skref í lokunarferli mánaðarins fyrir öll birgðalíkön nema fyrir hlaupandi meðaltal.  Viðvörun birtist ef reynt er að loka fjárhagstímabili án þess að framkvæma fyrst birgðalokun frá lokadagsetningunni fyrir tímabilið.
 > - Áður en lokunarferlið er keyrt, geturðu skoðað lista yfir vörur sem ekki er hægt að jafna við uppfærslu.
 > - Mælt er með því að birgðalokun sé keyrð utan háannatíma til þess að tölvubúnaðurinn nýtist betur.
 
@@ -87,6 +86,3 @@ Ef margar viðvaranir berast í skilaboðunum, er mælt með að bregðast við 
 > [!NOTE] 
 > Aðeins er hægt að opna aftur síðasta birgðatímabil sem var lokað. Til að bakfæra fyrri birgðalokun verður að bakfæra hverja síðari birgðalokun eina í einu, byrja á nýjustu lokuninni.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

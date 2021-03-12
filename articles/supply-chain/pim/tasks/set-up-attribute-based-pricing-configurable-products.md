@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b2f9a78902ff1a0333c46c8ad9142338678b6e7d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430182"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986780"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir
 
@@ -52,6 +51,3 @@ ms.locfileid: "4430182"
 8. Í reitinn **Segð** skal slá inn gildi. Til dæmis, slá inn `50`. 
 9. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
