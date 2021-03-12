@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974786"
 ---
 # <a name="troubleshoot-sales-orders"></a>Villuleita sölupantanir
 
@@ -59,6 +58,8 @@ Hægt er að stofna innkaupapöntun úr sölupöntun. Frekari upplýsingar er a�
 Aðeins er hægt að hætta við sölupantanir og skilapantanir sem eru með stöðuna *Stofnuð*. Frekari upplýsingar er að finna í [Hætta við skilapöntun](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Þegar ég reyni að hætta við sölupöntun fæ ég upp villuna „Ekki er hægt að fjarlægja frátekningar vegna þess að búið er að stofna vinnu sem byggir á frátekningunum.“
+
+Villukóði WAX4661
 
 Ef vinna tengist sölupöntun er ekki hægt að hætta við sölupöntunina fyrr en hætt er við vinnu og hún bakfærð. Þessi krafa gildir jafnvel þótt vinnan sem tengist sölupöntuninni sé lokuð.
 
@@ -110,7 +111,4 @@ Supply Chain Management styður ekki útreikning á þóknunum fyrir bókaða re
 
 Búntvaran er ekki tiltæk fyrir innkaupapöntunina því að ef þú skoðar sölupöntunarlínurnar fyrir búntvöruna muntu taka eftir því að magnið er *0* (núll) og staðan er *Afturkölluð*. Þessi hegðun er samkvæmt hönnuninni. Sölupöntunin kaupir aðeins þætti búntvörunnar. Hún kaupir ekki búntvöruna sjálfa.
 
-Ef kaupa þarf búnt, þarf að hafa í huga hvort merkja eigi það sem búntvöru, þar sem þessi virkni er raunverulega hönnuð fyrir aðstæður tekjuskráningar. Frekari upplýsingar um búntvörur er að finna í [Búnt](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ef kaupa þarf búnt, þarf að hafa í huga hvort merkja eigi það sem búntvöru, þar sem þessi virkni er hönnuð fyrir aðstæður tekjuskráningar. Frekari upplýsingar um búntvörur er að finna í [Búnt](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

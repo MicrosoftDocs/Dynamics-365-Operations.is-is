@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975765"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
@@ -125,7 +124,7 @@ Hægt er að finna uppsetningu fyrir losanir á svæðinu **Setja upp** í einin
 
 Þegar þú hefur skilgreint grunneiginleika skaltu velja **Línur** til að skilgreina raunverulegar úrvinnslureglur. Þú hefur tvo kosti í boði fyrir losun, að losa upphæð nettóbreytingar eða skilgreina fasta upphæð.
 
-Veldu upprunalykla. Þú getur notað stjörnu (\*) sem algildistaf. Til dæmis velur **1\*** alla lykla sem byrja á **1** sem gagnagjafa fyrir úthlutunina.
+Veldu upprunalykla. Þú getur notað stjörnu (\*) sem algildistaf. Til dæmis velur **1\**_alla lykla sem byrja á_* 1** sem gagnagjafa fyrir úthlutunina.
 
 Þegar þú hefur valið upprunalykil skaltu nota reitinn **Lýsing á lykli** til að tilgreina lykilinn sem er notaður í viðtökufyrirtæki. Veldu **Uppruni** til að nota sama aðallykilinn sem er skilgreindur í upprunalegum lykli. Ef þú velur **Notandaskilgreint** verður þú að tilgreina viðtökulykil.
 
@@ -182,6 +181,3 @@ Hér eru nokkrar samstæðuaðstæður sem Financial reporting styður:
 
 ## <a name="generating-consolidated-financial-statements"></a>Býr til samstæðureikningsskil
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

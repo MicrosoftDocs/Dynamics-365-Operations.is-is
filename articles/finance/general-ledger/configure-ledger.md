@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4444598"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975817"
 ---
 # <a name="configure-ledgers"></a>Grunnstilla fjárhag
 
@@ -82,6 +81,3 @@ Ef notaðir eru tveir gjaldmiðlar eða ef notaður er einn gjaldmiðill, en fæ
 Innleystur hagnaður og tap er framlegð og tap sem verður til úr loknum færslum. Það er skráð í rekstraryfirlitið. Óinnleystur hagnaður og tap er framlegð og tap sem hefur átt sér stað, en færslunni er ekki lokið. Með öðrum orðum er til dæmis búið að bóka reikning, en reikningurinn er ekki enn jafnaður og greiddur. Óinnleystur hagnaður og tap er skráð á efnahagsreikninginn.
 
 Frekari upplýsingar um hvernig á að nota þessa tvo gjaldmiðli er að finna í [Tvöfaldur gjaldmiðill](dual-currency.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
