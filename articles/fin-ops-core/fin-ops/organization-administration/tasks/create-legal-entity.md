@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694838"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796755"
 ---
 # <a name="create-a-legal-entity"></a>Stofna lögaðila
 
@@ -45,6 +45,3 @@ Lögaðili er fyrirtæki sem er auðkennt með skráningu til löggiltra yfirval
 15. Útvíkkaðu hlutann **Skattskráning**. Í hlutanum **Skattskráning** skal færa inn skráningarnúmerin sem eru notuð til að senda skýrslu til skattyfirvalda.
 16. Útvíkkaðu hlutann **Skattur 1099**. Í hlutanum **Skattur 1099** skal færa inn 1099 upplýsingar fyrir lögaðilann.  
 17. Smellt er á **Vista**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

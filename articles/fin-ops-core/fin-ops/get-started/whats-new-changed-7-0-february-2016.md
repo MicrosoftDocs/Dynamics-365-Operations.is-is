@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693259"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797220"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
@@ -1033,6 +1033,3 @@ Engum nýjum eiginleikum hefur verið bætt við.
 [Nýjungar eða breytingar í Finance and Operations heimasíða](whats-new-changed.md)
 
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

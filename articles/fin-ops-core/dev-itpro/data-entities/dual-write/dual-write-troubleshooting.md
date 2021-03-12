@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688260"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744542"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -65,23 +65,23 @@ Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
 1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Kerfi** veldu **Stjórnun**.
 2. Á síðunni **Stjórnun** skal velja **Kerfisstillingar**.
-3. Á flipanum **Sérsnið**, í reitnum **Viðbóð og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
+3. Á flipanum **Sérsnið**, í dálkinum **Viðbót og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
 
 
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
 1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Sérstillingar** veldu **Rakningarkladdi viðbóta**.
-2. Findu rakningarkladda þar sem reiturinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Findu rakningarkladda þar sem dálkurinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Kveiktu á kembiforriti til að leysa vandamál samstillingar í beinni í forritum Finance and Operations
 
 **Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri Tvíritaðar villur sem eiga uppruna sinn í Dataverse geta birst í Finance and Operations forritinu. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
 
-1. Allar verkefnisstillingar í forritum Finance and Operations eru með eiginleikann **IsDebugMode** í eingunni **DualWriteProjectConfiguration**. Opnaðu eininguna **DualWriteProjectConfiguration** með því að nota Excel-viðbótina.
+1. Allar verkefnisstillingar í forritum Finance and Operations eru með eiginleikann **IsDebugMode** í töflunni **DualWriteProjectConfiguration**. Opnaðu töfluna **DualWriteProjectConfiguration** með því að nota Excel-viðbótina.
 
     > [!TIP]
-    > Auðveld leið til að opna eininguna er að kveikja á stillingunni **Hönnun** í Excel-viðbótinni og síðan bætt við **DualWriteProjectConfigurationEntity** í vinnublaðið. Nánari upplýsingar eru í [Opna einingagögn í Excel og uppfæra þau með Excel-innbót](../../office-integration/use-excel-add-in.md).
+    > Auðveld leið til að opna töfluna er að kveikja á stillingunni **Hönnun** í Excel-viðbótinni og síðan bætt við **DualWriteProjectConfigurationEntity** í vinnublaðið. Nánari upplýsingar eru í [Opna töflugögn í Excel og uppfæra þau með Excel-innbót](../../office-integration/use-excel-add-in.md).
 
 2. Stilltu eiginleikann **IsDebugMode** á **Já** fyrir verkið.
 3. Keyrðu atburðarásina sem er að búa til villur.
@@ -118,10 +118,7 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 Þegar búin er til sölupöntun í Dynamics 365 Sales og smellt er á **+ Bæta við afurðum** kanntu að fara á eyðublað Dynamics 365 Project Operations pöntunarlínu. Ekki er hægt að skoða **Upplýsingar** sölupöntunarlínu úr þeirri skjámynd. Valkosturinn fyrir **Upplýsingar** birtist ekki í fellivalmyndinni fyrir neðan **Ný pöntunarlína**. Þetta gerist vegna þess að Project Operations hefur verið sett upp í umhverfi þínu.
 
 Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
-1. Fara í eigindina **Pöntunarlína**.
+1. Fara í töfluna **Pöntunarlína**.
 2. Finndu **Upplýsingar** undir skjámyndum. 
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**. 
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

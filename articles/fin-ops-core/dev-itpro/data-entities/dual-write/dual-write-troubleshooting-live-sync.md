@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685564"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744614"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
@@ -46,11 +46,11 @@ Eftirfarandi villuboð kunna að birtast þegar lína er stofnuð í Finance and
 
 Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](requirements-and-prerequisites.md). Til að ljúka þessum skrefum verða notendur tvískiptra forrita sem eru búnir til í Dataverse að hafa kerfisstjórarhlutverkið. Sjálfgefið eigendateymi verður einnig að hafa kerfisstjórarhlutverkið.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Samstilling í beinni fyrir sérhvern aðila veldur svipaðri villu þegar lína er stofnuð í Finance and Operations -forriti
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Samstilling í beinni fyrir sérhverja töflu veldur svipaðri villu þegar lína er stofnuð í Finance and Operations -forriti
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
-Þú gætir fengið villuboð eins og eftirfarandi í hvert skipti sem þú reynir að vista gögn um einingar í forriti Finance and Operations:
+Þú gætir fengið villuboð eins og eftirfarandi í hvert skipti sem þú reynir að töflugögn um einingar í forriti Finance and Operations:
 
 *Ekki hægt að vista breytingarnar í gagnagrunninum. Vinnueining getur ekki gert færslu. Ekki er hægt að skrifa gögn í mælieiningar einingar. Skrifun í UnitOfMeasureEntity mistókst með villuboðin Ekki var hægt að samstilla við mælieiningar einingar.*
 
@@ -58,8 +58,8 @@ Til að laga málið verður þú að ganga úr skugga um að forsendur tilvísu
 
 Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfest að málið er ekki gagnatengt.
 
-1. Stöðvaðu tengda einingu.
-2. Skráðu þig inn í Finance and Operations -forritið og gakktu úr skugga um að línur einingarinnar sem mistókst séu til staðar í DualWriteProjectConfiguration og DualWriteProjectFieldConfiguration töflunum. Hér er til dæmis hvernig fyrirspurnin lítur út ef einingin **Viðskiptavinir** er að mistakast.
+1. Stöðvaðu tengda töflu.
+2. Skráðu þig inn í Finance and Operations -forritið og gakktu úr skugga um að línur töflunnar sem mistókst séu til staðar í DualWriteProjectConfiguration og DualWriteProjectFieldConfiguration töflunum. Hér er til dæmis hvernig fyrirspurnin lítur út ef taflan **Viðskiptavinir** er að mistakast.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfe
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Ef línur eru til staðar fyrir eininguna sem mistókst, jafnvel eftir að töfluvörpun er stöðvuð, skal eyða línunum sem tengjast einingunni sem mistókst. Gera skal athugasemd við dálkinn **projectname** í töflunni DualWriteProjectConfiguration og sækja færsluna í DualWriteProjectFieldConfiguration töfluna með því að nota verkheitið til að eyða línunni.
+3. Ef línur eru til staðar fyrir eininguna sem mistókst, jafnvel eftir að töfluvörpun er stöðvuð, skal eyða línunum sem tengjast töflunni sem mistókst. Gera skal athugasemd við dálkinn **projectname** í töflunni DualWriteProjectConfiguration og sækja línuna í DualWriteProjectFieldConfiguration töfluna með því að nota verkheitið til að eyða línunni.
 4. Hefja töfluvörpun. Staðfestu hvort gögnin séu samstillt án nokkurra vandamála.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Meðhöndla villur til að lesa eða skrifa réttindi þegar þú býrð til gögn í forriti Finance and Operations
@@ -127,6 +127,3 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Dataverse eða forritsslóð. Eyða öllum tvíteknum línum sem benda á ranga Dataverse vefslóð. Eyðið samsvarandi línum í tölfunum DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION.
 4. Stöðvaðu töfluvörpunina og endurræstu hana
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

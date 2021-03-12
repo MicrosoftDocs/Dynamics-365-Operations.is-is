@@ -1,6 +1,6 @@
 ---
-title: Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
-description: Í þessu efnisatriði er því lýst hvernig pantanir eru síaðar innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur.
+title: Sía pantanir innan samstæðu til að komast hjá samstillingu pantana og pöntunarlína
+description: Þetta efnisatriði útskýrir hvernig á að sía pantanir innan samstæðu þannig að einingar pöntunar og pöntunarlína samstillist ekki.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,52 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701034"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796607"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a>Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Sía pantanir innan samstæðu til að komast hjá samstillingu pantana og pöntunarlína
 
 [!include [banner](../../includes/banner.md)]
 
-Hægt er að sía pantanir innan samstæðu til að komast hjá því að samstilla **Pantanir** og **Pöntunarlínur** einingar. Í sumum aðstæðum eru upplýsingar um pöntun innan samstæðu ekki nauðsynlegar í forriti viðskiptavinar.
+Hægt er að sía pantanir innan samstæðu þannig að töflurnar **Pantanir** og **Pöntunarlínur** samstillist ekki. Í sumum aðstæðum eru upplýsingar um pöntun innan samstæðu ekki nauðsynlegar í forriti viðskiptavina.
 
-Hver stöðluð Common Data Service -eining er útvíkkuð með tilvísunum í svæðið **IntercompanyOrder** og tvöföldu skráningunni er breytt til að vísa í viðbótarsvæði í síunum. Niðurstaðan er sú að samstæðupantanir eru ekki lengur samstilltar. Þetta ferli forðast óþarfa gögn í forriti viðskiptavinar.
+Hver stöðluð Dataverse-tafla er útvíkkuð með tilvísunum í dálkinn **IntercompanyOrder** og vörpunum tvöfaldrar skráningar er breytt þannig að þær vísa í viðbótardálkana í síunum. Þess vegna eru samstæðupantanir ekki lengur samstilltar. Þetta ferli kemur í veg fyrir ónauðsynleg gögn í forriti viðskiptavinar.
 
-1. Bætið við tilvísun í **IntercompanyOrder** í **Hausar CDS-sölupöntunar**. Aðeins er fyllt út í pöntun innan samstæðu. Reiturinn **IntercompanyOrder** er tiltækur í **SalesTable**.
+1. Útvíkka skal töfluna **Hausar CDS-sölupöntunar** með því að bæta tilvísun við dálkinn **IntercompanyOrder**. Þessi dálkur er aðeins fylltur út í samstæðupöntunum. Dálkurinn **IntercompanyOrder** er í boði í töflunni **SalesTable**.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Varpa sviðsetningu á mark, SalesOrderHeader":::
-    
-2. Þegar **Hausar CDS-sölupöntunar** er útvíkkað er svæðið **IntercompanyOrder** aðgengilegt í vörpuninni. Nota skal síu með `INTERCOMPANYORDER == ""` sem fyrirspurnarstreng.
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Varpa sviðsetningu á marksíðu fyrir hausa CDS-sölupöntunar":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Hausar sölupöntunar, breyta fyrirspurn":::
+2. Þegar **Hausar CDS-sölupöntunar** er útvíkkað er dálkurinn **IntercompanyOrder** aðgengilegur í vörpuninni. Nota skal síu sem er með `INTERCOMPANYORDER == ""` sem fyrirspurnarstreng.
 
-3. Bætið við tilvísun í **IntercompanyInventTransId** í **Hausar CDS-sölupöntunar**.  Aðeins er fyllt út í pöntun innan samstæðu. Reiturinn **InterCompanyInventTransID** er tiltækur í **SalesLine**.
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Breyta svarglugga fyrirspurnar fyrir hausa CDS-sölupantana":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Varpa sviðsetningu á mark, SalesOrderLine":::
+3. Útvíkka skal töfluna **Hausar CDS-sölupöntunar** með því að bæta tilvísun við dálkinn **IIntercompanyInventTransId**. Þessi dálkur er aðeins fylltur út í samstæðupöntunum. Dálkurinn **InterCompanyInventTransId** er í boði í töflunni **SalesLine**.
 
-4. Þegar **CDS-sölupöntunarlínur** er útvíkkað er svæðið **IntercompanyInventTransId** aðgengilegt í vörpuninni. Nota skal síu með `INTERCOMPANYINVENTTRANSID == ""` sem fyrirspurnarstreng.
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Varpa sviðsetningu á marksíðu fyrir línur CDS-sölupöntunar":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Sölupöntunarlínur, breyta fyrirspurn":::
+4. Þegar **CDS-sölupöntunarlínur** er útvíkkað er dálkurinn **IntercompanyInventTransId** aðgengilegur í vörpuninni. Nota skal síu sem er með `INTERCOMPANYINVENTTRANSID == ""` sem fyrirspurnarstreng.
 
-5. Framlengið **Sölureikningshaus V2** og **Sölureikningslínur V2** á sama hátt og Common Data Service-einingarnar í skrefum 1 og 2 voru framlengdar. Bættu síðan við síufyrirspurnum. Síustrengurinn fyrir **Sölureikningshaus V2** er `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`. Síustrengurinn fyrir **Sölureikningslínur V2** er `INTERCOMPANYINVENTTRANSID == ""`.
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Breyta svarglugga fyrirspurnar fyrir línur CDS-sölupantana":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Varpa sviðsetningu á mark, sölureikningshausar":::
+5. Endurtakið skref 1 og 2 til að víkka út töfluna **Sölureikningshaus V2** og bæta við síufyrirspurn. Í þessu tilviki skal nota `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` sem fyrirspurnarstreng fyrir síuna.
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Sölureikningshausar, breyta fyrirspurn":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Varpa sviðsetningu á marksíðu fyrir sölureikningshaus V2":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Sölureikningslínur, breyta fyrirspurn":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Breyta svarglugga fyrirspurnar fyrir sölureikningshaus v2":::
 
-6. Einingin **Tilboð** er ekki með samstæðuvensl. Ef einhver stofnar tilboð fyrir einn af samstæðuviðskiptavinunum er hægt að setja alla þessa viðskiptavini í einn viðskiptavinaflokk með því að nota svæðið **CustGroup**.  Hægt er að framlengja haus og línur til að bæta við svæðinu **CustGroup** og sía svo flokkinn út.
+6. Endurtakið skref 3 og 4 til að víkka út töfluna **Sölureikningshaus V2** og bæta við síufyrirspurn. Í þessu tilviki skal nota `INTERCOMPANYINVENTTRANSID == ""` sem fyrirspurnarstreng fyrir síuna.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Varpa sviðsetningu á mark, sölutilboðshaus":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Breyta svarglugga fyrirspurnar fyrir sölureikningslínur V2":::
 
-7. Eftir að einingin **Tilboð** hefur verið framlengd skaltu nota síu með `CUSTGROUP !=  "<company>"` sem fyrirspurnarstreng.
+7. Taflan **Tilboð** er ekki með vensl innan samstæðu. Ef einhver stofnar tilboð fyrir einn af viðskiptavinum innan samstæðu er hægt dálkinn **CustGroup** til að setja alla þessa viðskiptavini í einn viðskiptavinaflokk. Hægt er að víkka út hausinn og línurnar með því að bæta við dálkinum **CustGroup** og síðan sía þannig að flokkurinn sé ekki tekinn með.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Sölutilboðshaus, breyta fyrirspurn":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="Varpa sviðsetningu á marksíðu fyrir CDS-sölutilboðshaus":::
 
+8. Þegar **Tilboð** hafa verið víkkuð út skal nota síu sem er með `CUSTGROUP != "<company>"` sem fyrirspurnarstreng.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Breyta svarglugga fyrirspurnar fyrir CDS-sölutilboðshaus":::

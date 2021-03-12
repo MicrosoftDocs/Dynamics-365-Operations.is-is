@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694336"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797046"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
 
@@ -67,6 +67,3 @@ Setja upp stigveldi fyrirtækis til að skoða og gefa skýrslu um reksturinn fr
 Hverju stigveldi er úthlutað tilgangi. Tilgangur stigveldis ákvarðar gerðir fyrirtæki sem má hafa með í stigveldi. Tilgangur skilgreinir einnig hvaða forrit aðstæður sem hægt er að nota í stigveldinu.
 
 Fyrirtæki í stigveldi geta samnýtt færibreytur reglur og færslur. Fyrirtæki getur erft eða hunsað færibreytur móðurfélags þess. Hins vegar samnýtt aðalgögn, eins og afurðir og aðsetursbækur, gildir fyrir allt fyrirtækið og ekki er hægt að hnekkja verði fyrir einstök fyrirtæki. Stofnun fyrirtæki og stigveldi krefst vandlegrar áætlanagerðar. Sjá frekari upplýsingar í [Skipuleggja stigveldi fyrirtækis](plan-organizational-hierarchy.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

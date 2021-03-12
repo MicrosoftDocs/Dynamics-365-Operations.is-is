@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694137"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798550"
 ---
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
@@ -30,7 +30,7 @@ Vantar þig upplýsingar um Dynamics 365 Finance, Dynamics 365 Supply Chain Mana
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófaðu Finance and Operations frítt í 30 daga
 
-Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af forritum Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Fáðu upplýsingar á [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af forritum Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Upplýsingar má finna á [Skráðu þig fyrir prufuáskriftum](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 
@@ -93,6 +93,3 @@ Microsoft FastTrack fyrir Dynamics 365 er viðskiptavinaþjónusta okkar sem er 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ef þú ert að uppfæra úr Dynamics AX 2012 eða flytja úr AX 2009
 
 Ef þú ert viðskiptavinur sem er að uppfæra úr Microsoft Dynamics AX 2012 eða flytja úr Microsoft Dynamics AX 2009, getur verið að þú sért gjaldgengur fyrir lengri prufutíma. Hafðu samband við <daxcf@microsoft.com> til að fá frekari upplýsingar.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

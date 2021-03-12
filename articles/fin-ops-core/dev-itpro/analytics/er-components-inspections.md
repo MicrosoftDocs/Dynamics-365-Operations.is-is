@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688568"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797342"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
 [!include[banner](../includes/banner.md)]
 
-Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md) [snið](general-electronic-reporting.md#FormatComponentOutbound) og hlutur [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) er hægt að [villuleita](er-fillable-excel.md#validate-an-er-format) á tíma hönnunar. Í þessari villuleit er samræmisathugun gerð til að koma í veg fyrir vandamál varðandi keyrsluna sem getur komið upp, t.d. villur við framkvæmd og afkastaminnkun. Fyrir hvert vandamál sem finnst er slóð einingarinnar sem tengist vandanum gefin upp. Í sumum vandamálum er sjálfvirk lagfæring tiltæk.
+Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md) [snið](general-electronic-reporting.md#FormatComponentOutbound) og hlutur [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) er hægt að [villuleita](er-fillable-excel.md#validate-an-er-format) á tíma hönnunar. Í þessari villuleit er samræmisathugun keyrð til að koma í veg fyrir vandamál varðandi keyrsluna sem getur komið upp, t.d. villur við framkvæmd og afkastaminnkun. Fyrir hvert vandamál sem finnst gefur athugunin upp slóð einingarinnar sem tengist vandanum. Í sumum vandamálum er sjálfvirk lagfæring tiltæk.
 
 Sjálfgefið er að villuleit er sjálfkrafa notuð í eftirfarandi tilfellum fyrir grunnstillingu rafrænnar skýrslugerðar sem inniheldur fyrrnefnda hluti rafrænnar skýrslugerðar:
 
@@ -101,7 +100,7 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <td>Villa</td>
 <td>
 <p>Ekki er hægt að breyta segð af gerðinni &lt;gerð&gt; í reit af gerðinni &lt;gerð&gt;.</p>
-<p><b>Keyrsluvilla:</b> Undantekning af gerð</p>
+<p><b>Keyrsluvilla:</b> Undantekning fyrir gerð</p>
 </td>
 </tr>
 <tr>
@@ -215,7 +214,7 @@ Rafræn skýrslugerð athugar hvort gagnagerð gagnalíkansreits sé samhæfur v
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
+1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpun rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
     ![X-svæði og heiltölugagnagerð bætt við gangalíkanstréð á síðu gagnalíkans](./media/er-components-inspections-01.png)
@@ -278,7 +277,7 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 #### <a name="option-1"></a>Valkostur 1
 
-Uppfærið sniðsskipulagið með því að breyta gagnagerð sniðseiningarinnar **Tölustafir** þannig að hún samsvari gagnagerð segðarinnar sem er skilgreind fyrir bindingu einingarinnar. Í dæminu á undan verður að breyta gildinu **Gerð tölustafa** af sniðseiningu **X** aftur í **Heiltala**.
+Uppfærið sniðsskipulagið með því að breyta gagnagerð sniðseiningarinnar **Tölustafir** þannig að hún samsvari gagnagerð segðarinnar sem var skilgreind fyrir bindingu einingarinnar. Í dæminu á undan verður að breyta gildinu **Gerð tölustafa** af sniðseiningu **X** aftur í **Heiltala**.
 
 #### <a name="option-2"></a>Valkostur 2
 
@@ -290,7 +289,7 @@ Rafræn skýrslugerð athugar hvort bindisegðin innihaldi aðeins gagnagjafa se
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
+1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpun rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
     ![Gagnalíkanstré með X-reit og gagnagerðina heiltala á gagnalíkanssíðunni](./media/er-components-inspections-01.png)
@@ -325,7 +324,7 @@ Innbyggða aðgerðin [FILTER](er-functions-list-filter.md) fyrir rafrænna ský
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur**.
@@ -363,7 +362,7 @@ Gagnagjafinn **GROUPBY** skiptir niðurstöðum fyrirspurnar í flokka af færsl
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Gefið nýja gagngjafanum **Trans** heiti. Í reitnum **Tafla** skal velja **VendTrans** til að gefa til kynna að þessi gagnagjafi muni óska eftir VendTrans-töflunni.
 4. Bætið við gagnagjafa af gerðinni **Flokka eftir**.
@@ -410,7 +409,7 @@ Gagnagjafinn [JOIN](er-join-data-sources.md) sameinar færslur úr tveimur eða 
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
@@ -462,7 +461,7 @@ Innbyggða aðgerðin [FILTER](er-functions-list-filter.md) fyrir rafrænna ský
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Gefið nýja gagngjafanum **Trans** heiti. Í reitnum **Tafla** skal velja **VendTrans** til að gefa til kynna að þessi gagnagjafi muni óska eftir VendTrans-töflunni.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur** sem faldaðan reit af gagnagjafanum **Lánardrottinn**.
@@ -473,7 +472,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 9. Gefið nýja gagnagjafanum heitið **FilterVendor** og skilgreinið hann þannig að hann innihaldi segðina `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Veljið villuleita til að skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07a.png)
+    ![Veljið til að skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07a.png)
 
 11. Takið eftir að viðvaranir villuleitar ráðleggja að nota aðgerðina **FILTER** í staðinn fyrir aðgerðina **WHERE** fyrir gagnagjafana **FilteredVendor** og **FilteredTrans**.
 
@@ -489,15 +488,15 @@ Annars er líka hægt að velja línuna fyrir ákveðna viðvörun í hnitanetin
 
 ### <a name="manual-resolution"></a>Handvirk lausn
 
-Hægt er að leiðrétta segðir allra gagnagjafa sem nefndir eru í hnitaneti villuleitar með því að skipta út aðgerðinni **WHERE** í staðinn fyrir aðgerðina **FILTER**.
+Hægt er að leiðrétta segðir allra gagnagjafa í hnitaneti villuleitar með því að skipta út aðgerðinni **WHERE** í staðinn fyrir aðgerðina **FILTER**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Ákjósanleiki ALLITEMSQUERY vs ALLITEMS aðgerðar
 
-Innbyggðu aðgerðirnar [ALLITEMS](er-functions-list-allitems.md) og [ALLITEMSQUERY](er-functions-list-allitemsquery.md) fyrir rafræna skýrslugerð eru notaðar til að fá útflatt gildi fyrir **Færslulista** sem samanstendur af lista yfir færslur sem sýnir öll atriði sem passa við tiltekna slóð. Rafræn skýrslugerð athugar hvort hægt sé að koma á beinu SQL-kalli til gagnagjafa sem vísað er til í aðgerðinni **ALLITEMS**. Ef hægt að koma á fót beinu kalli kemur upp viðvörun villuleitar í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast ráðleggja að nota aðgerðina **ALLITEMSQUERY** í staðinn fyrir aðgerðina **ALLITEMS** til að auka skilvirknina.
+Innbyggðu aðgerðirnar [ALLITEMS](er-functions-list-allitems.md) og [ALLITEMSQUERY](er-functions-list-allitemsquery.md) fyrir rafræna skýrslugerð skila útflöttu gildi fyrir **Færslulista** sem samanstendur af lista yfir færslur sem sýnir öll atriði sem passa við tiltekna slóð. Rafræn skýrslugerð athugar hvort hægt sé að koma á beinu SQL-kalli til gagnagjafa sem vísað er til í aðgerðinni **ALLITEMS**. Ef hægt að koma á fót beinu kalli kemur upp viðvörun villuleitar í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast ráðleggja að nota aðgerðina **ALLITEMSQUERY** í staðinn fyrir aðgerðina **ALLITEMS** til að auka skilvirknina.
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur** til að ná í færslur fyrir ýmsa lánardrottna.
@@ -573,11 +572,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
     ![Villuleita sniðseiningar sem bundnar voru við gagnagjafa á sniðshönnunarsíðunni](./media/er-components-inspections-09c.png)
 
-16. Athugið að staðfestingarvillur koma upp. Skilaboðin gefa til kynna að villan gæti verið út af skilgreindum sniðshlutunum **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðili\\AccountNum** við keyrslu ef listinn **model.Vendor** er tómur.
+16. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að villan gæti verið út af skilgreindum sniðshlutunum **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðili\\AccountNum** við keyrslu ef listinn `model.Vendor` er tómur.
 
     ![Villa við villuleit sem tilkynnir um hugsanlega villu vegna skilgreindra sniðshluta](./media/er-components-inspections-09d.png)
 
-Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð, valið er **Keyra** til að keyra sniðið og lykilnúmerið er valið fyrir lánardrottin sem er ekki til. Vegna þess að umbeðinn lánardrottinn er ekki til verður listinn **model.Vendor** tómur (þ.e. hann mun ekki innihalda neinar færslur).
+Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð, valið er **Keyra** til að keyra sniðið og lykilnúmerið er valið fyrir lánardrottin sem er ekki til. Vegna þess að umbeðinn lánardrottinn er ekki til verður listinn `model.Vendor` tómur (þ.e. hann mun ekki innihalda neinar færslur).
 
 ![Keyrsluvillur vegna þess að það kom upp við keyrslu sniðsvörpunar](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Fyrir valda línu í hnitanetinu í flipanum **Viðvaranir** er hægt að velja 
 
 #### <a name="option-1"></a>Valkostur 1
 
-Hægt er að binda sniðseininguna **Uppgjör\\Aðili\\Heiti** við gagnagjafaatriðið **model.Vendor**. Við keyrslu kallar þessi binding fyrst á gagnagjafann **model.Vendor**. Þegar **model.Vendor** skilar tómum færslulista, eru földuðu sniðseiningarnar ekki keyrðar. Þess vegna koma engar viðvaranir villuleitar upp fyrir þessa sniðsskilgreiningu.
+Hægt er að binda sniðseininguna **Uppgjör\\Aðili\\Heiti** við gagnagjafaatriðið `model.Vendor`. Við keyrslu kallar þessi binding fyrst á gagnagjafann `model.Vendor`. Þegar `model.Vendor` skilar tómum færslulista, eru földuðu sniðseiningarnar ekki keyrðar. Þess vegna koma engar viðvaranir villuleitar upp fyrir þessa sniðsskilgreiningu.
 
 ![Sniðseiningin bundin við atriði gagnagjafa á sniðshönnunarsíðunni](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Valkostur 2
 
-Breytið bindingu sniðseiningarinnar **Uppgjör\\Aðili\\Heiti** úr `model.Vendor.Name` í `FIRSTORNULL(model.Vendor).Name`. Uppfærð binding umbreytir með skilyrðum fyrstu færsluna af gagnagjafanum **model.Vendor** af gerðinni **Færslulisti** við nýjan gagnagjafa af gerðinni **Færsla**. Þessi nýi gagnagjafi inniheldur sömu reitina.
+Breytið bindingu sniðseiningarinnar **Uppgjör\\Aðili\\Heiti** úr `model.Vendor.Name` í `FIRSTORNULL(model.Vendor).Name`. Uppfærð binding umbreytir með skilyrðum fyrstu færsluna af gagnagjafanum `model.Vendor` af gerðinni **Færslulisti** við nýjan gagnagjafa af gerðinni **Færsla**. Þessi nýi gagnagjafi inniheldur sömu reitina.
 
-- Ef a.m.k. ein færsla er tiltæk í gagnagjafanum **model.Vendor**, eru reitir þeirrar færslu fylltir út með gildum reitanna fyrir fyrstu færslu gagnagjafans **model.Vendor**. Í þessu tilviki skilar uppfærð binding lánardrottnaheitinu.
+- Ef a.m.k. ein færsla er tiltæk í gagnagjafanum `model.Vendor`, eru reitir þeirrar færslu fylltir út með gildum reitanna fyrir fyrstu færslu gagnagjafans `model.Vendor`. Í þessu tilviki skilar uppfærð binding lánardrottnaheitinu.
 - Annars verða allir reitir færslunnar sem er stofnuð fylltir út með sjálfgefna gildinu fyrir gagnagerð þessa reits. Í þessu tilfelli er auða strengnum skilað sem sjálfgefnu gildi af gagnagerðinni **Strengur**.
 
 Þess vegna birtast engar viðvaranir villuleitar fyrir sniðseininguna **Uppgjör\\Aðili\\Heiti** þegar hún er bundin við `FIRSTORNULL(model.Vendor).Name` segðina.
@@ -606,13 +605,13 @@ Breytið bindingu sniðseiningarinnar **Uppgjör\\Aðili\\Heiti** úr `model.Ven
 
 #### <a name="option-3"></a>Valkostur 3
 
-Ef ætlunin er að tilgreina sérstaklega gögnin sem eru færð inn í myndað skjal þegar gagnagjafinn **model.Vendor** af gerðinni **Færslulisti** skilar engum færslum (textanum **Engar færslur** í þessu dæmi) skal breyta bindingunni á sniðseiningunni **Uppgjör\\Aðili\\Heiti** úr `model.Vendor.Name` í `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Einnig er hægt að nota segðina `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Ef ætlunin er að tilgreina sérstaklega gögnin sem eru færð inn í myndað skjal þegar gagnagjafinn `model.Vendor` af gerðinni **Færslulisti** skilar engum færslum (textanum **Engar færslur** í þessu dæmi) skal breyta bindingunni á sniðseiningunni **Uppgjör\\Aðili\\Heiti** úr `model.Vendor.Name` í `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Einnig er hægt að nota segðina `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Fleira sem þarf að hafa í huga
 
-Eftirlitið varar einnig við öðru mögulegu vandamáli. Að sjálfgefnu, þegar sniðseiningarnar **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðila\\AccountNum** eru bundnar við viðeigandi reiti gagnagjafans **model.Vendor** af gerðinni **Færslulisti**, verða þessar bindingar keyrðar og fá gildi viðeigandi reita fyrstu færslu gagnagjafans **model.Vendor** ef sá listi er tómur.
+Eftirlitið varar einnig við öðru mögulegu vandamáli. Að sjálfgefnu, þegar sniðseiningarnar **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðila\\AccountNum** eru bundnar við viðeigandi reiti gagnagjafans `model.Vendor` af gerðinni **Færslulisti**, verða þessar bindingar keyrðar og fá gildi viðeigandi reita fyrstu færslu gagnagjafans `model.Vendor` ef sá listi er ekki tómur.
 
-Vegna þess að sniðseiningin **Uppgjör\\Aðili** hefur ekki verið bundin við gagnagjafann **model.Vendor**, verður einingin **Uppgjör\\Aðili** ekki endurtekin fyrir hverja færslu gagnagjafans **model.Vendor** við keyrslu sniðsins. Þess í stað verður myndað skjal fyllt út með upplýsingum úr aðeins fyrstu færslu færslulistans, ef sá listi inniheldur margar færslur. Þess vegna gæti komið upp vandamál ef sniðið á að fylla út myndað skjal með upplýsingum um alla lánardrottna úr gagnagjafanum **model.Vendor**. Til að leysa þetta vandamál skal binda eininguna **Uppgjör\\Aðili** við gagnagjafann **model.Vendor**.
+Vegna þess að sniðseiningin **Uppgjör\\Aðili** hefur ekki verið bundin við gagnagjafann `model.Vendor`, verður einingin **Uppgjör\\Aðili** ekki endurtekin fyrir hverja færslu gagnagjafans `model.Vendor` við keyrslu sniðsins. Þess í stað verður myndað skjal fyllt út með upplýsingum úr aðeins fyrstu færslu færslulistans, ef sá listi inniheldur margar færslur. Þess vegna gæti komið upp vandamál ef sniðið á að fylla út myndað skjal með upplýsingum um alla lánardrottna úr gagnagjafanum `model.Vendor`. Til að leysa þetta vandamál skal binda eininguna **Uppgjör\\Aðili** við gagnagjafann `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Keyranleiki segðar með FILTER-aðgerð (vistar í skyndiminni)
 
@@ -620,7 +619,7 @@ Vegna þess að sniðseiningin **Uppgjör\\Aðili** hefur ekki verið bundin vi�
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið gagnagjafa af gerðinni **Almenn \\ innsláttarfæribreyta notanda** til að leita að lánardrottnalykli í svarglugga keyrslu.
@@ -699,7 +698,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 14. Bindið sniðseiningarnar til að bjóða upp á gagnagjafa á eftirfarandi hátt:
 
-    - Bindið sniðseininguna **Uppgjör\\Aðili** við gagnagjafaatriðið **model.Vendor**.
+    - Bindið sniðseininguna **Uppgjör\\Aðili** við gagnagjafaatriðið `model.Vendor`.
     - Bindið sniðseininguna **Uppgjör\\Aðili\\Heiti** við gagnagjafareitinn **model.Vendor.Name**.
     - Bindið sniðseininguna **Uppgjör\\Aðili\\AccountNum** við gagnagjafareitinn **model.Vendor.AccountNumber**.
 
@@ -813,6 +812,3 @@ Til að fá upplýsingar um hvernig hægt er að samstilla sniðsskipulagið vi�
 [Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

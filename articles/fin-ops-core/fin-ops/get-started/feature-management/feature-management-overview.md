@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692967"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798353"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -32,7 +32,7 @@ Eiginleikum er bætt við og þeir uppfærðir í hverri útgáfu. Upplifun eigi
 
 ## <a name="the-feature-management-workspace"></a>Vinnusvæði eiginleikastjórnunar
 
-Hægt er að opna vinnusvæðið **Eiginleikastjórnun** með því að velja viðeigandi reit yfirlit. Þú munt sjá síðu sem sýnir lista yfir eiginleika fyrir allar útgáfur sem upplifun eiginleikastjórnunar styður. Með tímanum mun Microsoft auka upplifun eiginleikastjórnunar svo hún innihaldi viðbótarvirkni til að hjálpa til við stjórnun eiginleika.
+Hægt er að opna vinnusvæðið **Eiginleikastjórnun** með því að velja viðeigandi reit yfirlit. Þú munt sjá síðu sem sýnir lista yfir eiginleika fyrir allar útgáfur sem upplifun eiginleikastjórnunar styður. Með tímanum mun Microsoft auka upplifun eiginleikastjórnunar svo hún innihaldi meiri virkni til að hjálpa til við stjórnun eiginleika.
 
 Eiginleikalistinn inniheldur eftirfarandi upplýsingar:
 
@@ -42,7 +42,7 @@ Eiginleikalistinn inniheldur eftirfarandi upplýsingar:
 - **Eiginleika bætt við** - Dagsetningin þegar eiginleikanum var bætt við umhverfið þitt. Þessi dagsetning er slegin inn sjálfvirkt þegar umhverfið er uppfært í mánaðarlega útgáfuferlinu.
 - **Eining** - Einingin sem nýja útgáfan hefur áhrif á.
 
-Þegar eiginleiki er valinn birtast viðbótarupplýsingar á upplýsingasvæðinu hægra megin við eiginleikalistann. Efst á svæðinu sérðu heiti eiginleikans, dagsetningin þegar eiginleikanum var bætt við, einingin sem útgáfan hefur áhrif á og tengilinn **Frekari upplýsingar**. Veljið þennan tengil til að skoða fylgiskjöl útgáfunnar. Ef fylgiskjölin eru ekki tiltæk ferðu yfir á bráðabirgðasíðu. Upplýsingasvæðið inniheldur einnig reitinn **Athugasemdir** þar sem hægt er að bæta við eigin athugasemdum um útgáfuna.
+Þegar eiginleiki er valinn birtast meiri upplýsingar á upplýsingasvæðinu hægra megin við eiginleikalistann. Efst á svæðinu sérðu heiti eiginleikans, dagsetningin þegar eiginleikanum var bætt við, einingin sem útgáfan hefur áhrif á og tengilinn **Frekari upplýsingar**. Veljið þennan tengil til að skoða fylgiskjöl útgáfunnar. Ef fylgiskjölin eru ekki tiltæk ferðu yfir á bráðabirgðasíðu. Upplýsingasvæðið inniheldur einnig reitinn **Athugasemdir** þar sem hægt er að bæta við eigin athugasemdum um útgáfuna.
 
 Vinnusvæðið **Eiginleikastjórnun** er einnig með nokkra flipa sem hver um sig sýnir lista yfir eiginleika.
 
@@ -63,7 +63,7 @@ Sumar aðgerðir sýna skilaboð sem veita frekari upplýsingar áður en þú k
 
 Sumar aðgerðir sýna skilaboð um að ekki sé hægt að virkja aðgerðina fyrr en gripið er til aðgerða. Þessir eiginleikar eru auðkenndir með rauðu X-merki. Þú verður að grípa til aðgerða sem lýst er í lýsingunni áður en aðgerðin er virk. Til dæmis, ef þú getur ekki notað aðgerð fyrr en stillingarlykill er óvirkur, verður þú að slökkva á stillingarlyklinum fyrst og fara síðan aftur í Eiginleikastjórnun til að virkja aðgerðina.
 
-Eftir að kveikt hefur verið á eiginleika birtast skilaboð fyrir neðan tengilinn **Frekari upplýsingar** á upplýsingasvæðinu. Þessi skilaboð kveða annaðhvort á um að kveikt hafi verið á eiginleikanum eða tilgreina dagsetningu fram í tímann þegar áætlað er að kveikja á eiginleikanum. Þau birtast í hvert skipti sem þú velur eiginleikann úr eiginleikalistanum.
+Eftir að kveikt hefur verið á eiginleika birtast skilaboð fyrir neðan tengilinn **Frekari upplýsingar** á upplýsingasvæðinu. Þessi skilaboð kveða á um að kveikt hafi verið á eiginleikanum eða tilgreina dagsetningu fram í tímann þegar áætlað er að kveikja á eiginleikanum. Þau birtast í hvert skipti sem þú velur eiginleikann úr eiginleikalistanum.
 
 Eiginleikar sem áætlað er að kveikja á í framtíðinni birtast í flipanum **Á áætlun**. Runuvinnsla kveikir á þeim á miðnætti á tilgreindum degi, sem byggist á tímabeltinu sem kerfisdagsetningin sýnir.
 
@@ -101,8 +101,8 @@ Allir aðgerðir sem hægt er að virkja verða gerðar virkar. Ef áætlun er �
 
 Sjálfgefið er að slökkt sé á öllum eiginleikum sem er bætt við umhverfið þitt, nema þeir séu áskildir eiginleikar. Ef þú vilt hins vegar kveikja sjálfkrafa á öllum eiginleikum er hægt að nota fellilistann undir titli vinnusvæðis til að breyta því sem gerist þegar nýjum eiginleikum er bætt við.
 
-- Veljið **Virkja nýja eiginleika sjálfvirkt** til að kveikja sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
-- Veljið **Ekki virkja nýja eiginleika sjálfvirkt** til að stilla alla nýja eiginleika sjálfkrafa á slökkt þegar þeim er bætt við umhverfið þitt.
+- Veljið `Enable new features automatically` til að kveikja sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
+- Veljið `Do not enable new features automatically` til að slökkva sjálfgefið á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
 
 
 Þegar þú kveikir á öllum eiginleikum sjálfkrafa gerir það kleift að gera alla þá eiginleika sem verða virkar þegar smellt er á hnappinn **Virkja allt**. Það gerir ekki kleift aðgerðir sem krefjast staðfestingar eða aðgerðir sem ekki er hægt að virkja fyrr en gripið er til aðgerða.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Hvað er IFeatureLifecycle sem innleitt er af sumum eiginleikaklösum?
 IFeatureLifecycle er innri starfsemi Microsoft til að tilgreina stig stuðningstíma eiginleikans. Eiginleikar geta verið:
-- PrivatePreview - Þarfnast forútgáfu til að vera sýnilegt.
-- PublicPreview - Sýnt að sjálfgefnu en með viðvörun um að eiginleikinn sé í forútgáfu.
-- Útgefið - Útgefið að fullu.
+- `PrivatePreview` - Þarfnast forútgáfu til að vera sýnilegt.
+- `PublicPreview` - Sýnt að sjálfgefnu en með viðvörun um að eiginleikinn sé í forútgáfu.
+- `Released` - Útgefið að fullu.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

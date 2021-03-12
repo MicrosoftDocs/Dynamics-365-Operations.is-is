@@ -1,6 +1,6 @@
 ---
-title: Setja upp vörpun fyrir stöðureit sölupöntunar
-description: Þetta efnisatriði útskýrir hvernig setja á upp stöðureiti sölupöntunar fyrir tvískipt skrif.
+title: Setja upp vörpun fyrir stöðudálka sölupöntunar
+description: Þetta efnisatriði útskýrir hvernig setja á upp stöðudálka sölupöntunar fyrir tvískipt skrif.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4453769"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744300"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Setja upp vörpun fyrir stöðureit sölupöntunar
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Setja upp vörpun fyrir stöðudálka sölupöntunar
 
 [!include [banner](../../includes/banner.md)]
 
-Reitirnir sem gefa til kynna stöðu sölupöntunar eru með mismunandi tölusetningargildum í Microsoft Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Viðbótaruppsetning er nauðsynleg til að varpa þessum reitum í tvískiptum skrifum.
+Dálkarnir sem gefa til kynna stöðu sölupöntunar eru með mismunandi tölusetningargildum í Microsoft Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Viðbótaruppsetning er nauðsynleg til að varpa þessum dálkum í tvískiptum skrifum.
 
-## <a name="fields-in-supply-chain-management"></a>Reitir í Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>dálkar í Supply Chain Management
 
-Í Supply Chain Management endurspegla tveir reitir stöðu sölupöntunarinnar. Reitirnir sem þarf að varpa eru **Staða** og **Staða skjals**.
+Í Supply Chain Management endurspegla tveir dálkar stöðu sölupöntunarinnar. Dálkarnir sem þarf að varpa eru **Staða** og **Staða skjals**.
 
 Tölusetningin **Staða** tilgreinir heildarstöðu pöntunar. Þessi staða er sýnd í pöntunarhausnum.
 
@@ -49,13 +49,13 @@ Tölusetningin **Staða skjals** tilgreinir nýlegasta skjalið sem var búið t
 Tölusetningin **Staða skjals** er með eftirfarandi gildi:
 
 - Staðfesting
-- Tínslulisti
+- Tiltektarlisti
 - Fylgiseðill
 - Reikningur
 
-## <a name="fields-in-sales"></a>Reitir í Sales
+## <a name="columns-in-sales"></a>dálkar í Sales
 
-Í Sales sýna tveir reitir stöðu pöntunar. Reitirnir sem þarf að varpa eru **Staða** og **Staða úrvinnslu**.
+Í Sales sýna tveir dálkar stöðu pöntunar. Dálkarnir sem þarf að varpa eru **Staða** og **Staða úrvinnslu**.
 
 Tölusetningin **Staða** tilgreinir heildarstöðu pöntunar. Hún eru með eftirfarandi gildi:
 
@@ -95,7 +95,7 @@ Eftirfarandi tafla sýnir vörpun á **Stöðu úrvinnslu** milli Sales og Suppl
 
 ## <a name="setup"></a>Setja upp
 
-Til að setja upp vörpun fyrir stöðureiti sölupöntunar þarf að virkja eigindirnar **IsSOPIntegrationEnabled** og **isIntegrationUser**.
+Til að setja upp vörpun fyrir stöðudálka sölupöntunar þarf að virkja eigindirnar **IsSOPIntegrationEnabled** og **isIntegrationUser**.
 
 Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum.
 
@@ -110,14 +110,14 @@ Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum
 
 Til að virkja eigindina **erIntegrationUser** skal fylgja þessum skrefum.
 
-1. Í Sales skal farið á **Stilling \> Sérstillingar \> Sérstilla kerfið**, velja **Notandaeining** og opna svo **Skjámynd \> Notandi**.
+1. Í Sales skal farið á **Stilling \> Sérstillingar \> Sérstilla kerfið**, velja **Notandatafla** og opna svo **Skjámynd \> Notandi**.
 
     ![Skjámynd notanda opnuð](media/sales-map-user.png)
 
 2. Í Field Explorer skal finna **Stilling samþættingarnotanda** og tvísmella á það til að bæta því við skjámyndina. Vistið breytingarnar.
 
-    ![Stillingasvæði samþættingarnotanda bætt við skjámyndina](media/sales-map-field-explorer.png)
+    ![Stillingadálki samþættingarnotanda bætt við skjámyndina](media/sales-map-field-explorer.png)
 
 3. Í Sales skal farið í **Stilling \> Öryggi \> Notendur** og breyta yfirlitinu úr **Virkjaðir notendur** í **Notendur forrits**.
 
@@ -145,11 +145,8 @@ Til að virkja eigindina **erIntegrationUser** skal fylgja þessum skrefum.
 
     ![Listi yfir notendur forrits](media/sales-map-user-mode.png)
 
-5. Breytið gildinu á reitnum **Stilling samþættingarnotanda** í **Já**.
+5. Breytið gildinu á dálkinum **Stilling samþættingarnotanda** í **Já**.
 
-    ![Gildinu breytt á stillingasvæði samþættingarnotanda](media/sales-map-user-mode-yes.png)
+    ![Gildinu breytt á stillingadálki samþættingarnotanda](media/sales-map-user-mode-yes.png)
 
 Sölupöntunum hefur verið varpað.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

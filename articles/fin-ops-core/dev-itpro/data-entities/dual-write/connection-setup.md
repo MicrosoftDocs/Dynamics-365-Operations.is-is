@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685666"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744854"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Leiðbeinigar fyrir uppsetningu tvöfaldra skrifa
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685666"
 Þú getur sett upp tvískipt samband milli Finance and Operations umhverfis og Dataverse umhverfis.
 
 + Umhverfi **Finance and Operations** veitir undirliggjandi verkvang fyrir smáforrit **Finance and Operations** (til dæmis Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce og Dynamics 365 Human Resources).
-+ **Dataverse Umhverfi** veitir undirliggjandi verkvang fyrir **forrit viðskiptavina** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing og Dynamics 365 Project Service Automation).
++ **Dataverse Umhverfi** veitir undirliggjandi verkvang fyrir **forrit viðskiptavina** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing og Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > Mannauðseiningin í Dynamics 365 Finance styður tengingu tvískiptra skrifa, en Dynamics 365 Human Resources-forritið gerir það ekki.
@@ -138,6 +138,3 @@ Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 Sjá til dæmis [Virkjun viðskiptavina v3 — Töflukort tengiliða](enable-entity-map.md#enable-table-map)
 
 Ef um er að ræða aðra nálgun sem byggir á gagnamagni í hverri einingu sem þarf að keyra upphaflega samstillingu, sjá [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

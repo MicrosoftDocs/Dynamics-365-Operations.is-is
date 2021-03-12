@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685486"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744516"
 ---
 # <a name="integrated-vendor-master"></a>Samþætt lánardrottinssniðmát
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685486"
 
 
 
-Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Þó að *Lánardrottinn* sé rótgróið hugtak í Microsoft Dynamics 365 Supply Chain Management er ekkert lánadrottinshugtakið til í líkanadrifnum forritum í Dynamics 365. Hins vegar geturðu ofhlaðið eininguna **Lykill/tengiliður** til að geyma lánardrottnaupplýsingar. Samþætt lánardrottinssniðmát kynnir skýrt lánardrottnahugtak í líkanadrifnum forritum í Dynamics 365. Þú getur annaðhvort notað nýju lánardrottnahönnunina eða geymt lánardrottnagögn í einingunni **Lykill/tengiliður**. Tvöföld skrifa styður báðar leiðir.
+Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Þó að *Lánardrottinn* sé rótgróið hugtak í Microsoft Dynamics 365 Supply Chain Management er ekkert lánadrottinshugtakið til í líkanadrifnum forritum í Dynamics 365. Hins vegar er hægt að ofhlaða töfluna **Lykill/tengiliður** til að geyma lánardrottnaupplýsingar. Samþætt lánardrottinssniðmát kynnir skýrt lánardrottnahugtak í líkanadrifnum forritum í Dynamics 365. Annaðhvort er hægt að nota nýju lánardrottnahönnunina eða geyma lánardrottnagögn í töflunni **Lykill/tengiliður**. Tvöföld skrifa styður báðar leiðir.
 
 Í báðum aðferðum eru gögn lánardrottins samþætt á milli gátta Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service og Power Apps. Í Supply Chain Management eru gögnin tiltæk fyrir verkflæði eins og innkaupabeiðnir og innkaupapantanir.
 
 ## <a name="vendor-data-flow"></a>Gagnaflæði lánardrottins
 
-Ef þú vilt ekki geyma lánardrottnagögn í einingunni **Lykill/tengiliður** í Dataverse geturðu notað nýju lánardrottnahönnunina.
+Ef ekki á að geyma lánardrottnagögn í tölfunni **Lykill/tengiliður** í Dataverse geturðu notað nýju lánardrottnahönnunina.
 
 ![Gagnaflæði lánardrottins](media/dual-write-vendor-data-flow.png)
 
-Ef þú vilt halda áfram að geyma lánardrottnagögn í einingunni **Lykill/tengiliður** geturðu notað auknu lánardrottnahönnunina. Til að nota aukna lánardrottnahönnun verður þú að stilla verkflæði lánardrottins í tvískiptu lausnarpakkanum. Fyrir frekari upplýsingar, sjá [Skipta á milli lánardrottnahönnunar](vendor-switch.md).
+Ef halda á áfram að geyma lánardrottnagögn í töflunni **Lykill/tengiliður** geturðu notað auknu lánardrottnahönnunina. Til að nota aukna lánardrottnahönnun verður þú að stilla verkflæði lánardrottins í tvískiptu lausnarpakkanum. Fyrir frekari upplýsingar, sjá [Skipta á milli lánardrottnahönnunar](vendor-switch.md).
 
 ![Útvíkkað gagnaflæði lánardrottins](media/dual-write-vendor-detail.jpg)
 
@@ -54,9 +54,9 @@ Ef þú vilt halda áfram að geyma lánardrottnagögn í einingunni **Lykill/te
 
 Lánardrottnagögn innihalda allar upplýsingar um lánardrottinn, svo sem lánardrottnahópinn, heimilisföng, tengiliðaupplýsingar, greiðslusnið og reikningssnið. Safn af töflukortum vinna saman í gagnasamskiptum lánardrottins, eins og sýnt er í eftirfarandi töflu.
 
-Finance and Operations-smáforrit | Önnur Dynamics 365 forrit     | Lýsing
+Finance and Operations-smáforrit | Önnur Dynamics 365 forrit     | lýsing
 ----------------------------|-----------------------------|------------
-Lánardrottinn V2                   | Reikningur                     | Fyrirtæki sem nota lyklaeininguna til að geyma upplýsingar um lánardrottna geta haldið áfram að nota hana á sama hátt. Þau geta einnig nýtt sér yfirlýsta virkni lánardrottins sem kemur vegna samþættingar forrita Finance and Operations.
+Lánardrottinn V2                   | Lykill                     | Fyrirtæki sem nota lyklatöfluna til að geyma upplýsingar um lánardrottna geta haldið áfram að nota hana á sama hátt. Þau geta einnig nýtt sér yfirlýsta virkni lánardrottins sem kemur vegna samþættingar forrita Finance and Operations.
 Lánardrottinn V2                   | Msdyn\_vendors              | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Dataverse vegna samþættingar forrita Finance and Operations. 
 Lánardrottnaflokkar               | msdyn\_vendorgroups         | Þetta sniðmát samstillir upplýsingar um hóp lánardrottna.
 Greiðsluháttur lánardrottins       | msdyn\_vendorpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta lánardrottna.
@@ -75,6 +75,3 @@ Viðskeyti nafna                | msdyn\_nameaffixes          | [Heitisviðskeyt
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

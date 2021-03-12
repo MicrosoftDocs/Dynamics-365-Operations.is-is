@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693233"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797491"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -195,6 +195,3 @@ Fyrir viðskiptavini sem hafa ekki enn kveikt á eiginleikanum [Vistuð yfirlit]
 Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Til dæmis notar þú sérstillingu til að fela dálk sem inniheldur birgðavídd rununúmers, en dálkurinn birtist næst þegar síðunni er opnuð. Þessi hegðun á sér stað vegna þess að **Birting vídda** stillingarnar stjórna birgðavíddadálkunum sem eru sýndir. **Birting vídda** stillingarnar eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á einstökum síðum.
 
 Þar af leiðandi, í dæminu hér á undan, ef þú vilt ekki að dálkurinn fyrir birgðavídd rununúmers birtist á síðu verður þú að hreinsa þá vídd sem hluta af valkostinum **Sýna víddir** fyrir þá síðu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

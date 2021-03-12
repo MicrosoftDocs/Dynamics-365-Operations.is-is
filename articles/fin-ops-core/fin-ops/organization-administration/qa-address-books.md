@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693905"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796899"
 ---
 # <a name="address-books-faq"></a>Algengar spurningar um aðsetursbækur
 
@@ -67,6 +67,3 @@ Hægt er að færa inn aðilafærslur annað hvort°í altæku aðsetursbókina 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Er hægt að þýða upplýsingar um aðsetur fyrir aðilafærslur?
 
 Hægt er að setja upp þýðingar á upplýsingum um aðsetur,°þannig að upplýsingarnar birtast á tungumáli notanda (kerfistungumál) í forritinu en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683734"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744376"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -44,11 +44,11 @@ Flutningur er valfrjáls. Ef þú gætir notið góðs af stuðningi fyrir fleir
 
 ## <a name="requesting-migration-from-microsoft"></a>Beðið um flutning frá Microsoft
 
-Geymsla fyrir núverandi gjaldmiðilsreiti í Dataverse getur ekki stutt meira en fjóra aukastafi. Í flutningsferlinu eru gildi gjaldmiðla þar af leiðandi afrituð í nýja innri reiti í gagnagrunninum. Þetta ferli heldur samfleytt áfram þar til öll gögn hafa verið flutt. Innan fyrirtækisins, við lok flutnings, taka nýju geymslugerðirnar við af þeim eldri en gagnagildin haldast óbreytt. Gjaldmiðilsreitirnir geta í kjölfarið stutt allt að 10 aukastafi. Meðan á flutningi stendur, er hægt að halda áfram að nota Dataverse án truflunar.
+Geymsla fyrir núverandi gjaldmiðilsdálka í Dataverse getur ekki stutt meira en fjóra aukastafi. Í flutningsferlinu eru gildi gjaldmiðla þar af leiðandi afrituð í nýja innri dálka í gagnagrunninum. Þetta ferli heldur samfleytt áfram þar til öll gögn hafa verið flutt. Innan fyrirtækisins, við lok flutnings, taka nýju geymslugerðirnar við af þeim eldri en gagnagildin haldast óbreytt. Gjaldmiðilsdálkarnir geta í kjölfarið stutt allt að 10 aukastafi. Meðan á flutningi stendur, er hægt að halda áfram að nota Dataverse án truflunar.
 
 Á sama tíma er gengi breytt þannig að það styður allt að 12 aukastafi í stað núgildandi hámarks upp á 10. Þörf er á þessari breytingu svo að fjöldi aukastafa sé sá sami í bæði Finance and Operations-forritinu og Dataverse.
 
-Flutningur breytir engum gögnum. Þegar reitum gjaldmiðils og gengis hefur verið breytt, geta stjórnendur stillt kerfið til að nota allt að 10 aukastafi fyrir gjaldmiðilsreiti með því að tilgreina fjölda aukastafa fyrir hvern gjaldmiðil færslu og fyrir verðlagningu.
+Flutningur breytir engum gögnum. Þegar dálkum gjaldmiðils og gengis hefur verið breytt, geta stjórnendur stillt kerfið til að nota allt að 10 aukastafi fyrir gjaldmiðilsdálkameð því að tilgreina fjölda aukastafa fyrir hvern gjaldmiðil færslu og fyrir verðlagningu.
 
 ### <a name="request-a-migration"></a>Óska eftir flutningi
 
@@ -72,29 +72,26 @@ Fulltrúi Microsoft mun hafa samband við þig innan tveggja til þriggja virkra
 
 Til að gera þessa breytingu þarf að uppfæra eftirfarandi stillingar í Power Apps:
 
-+ **Kerfisstillingar: Gjaldmiðilsnákvæmni fyrir verðlagningu** - Reiturinn **Stilla gjaldmiðilsnákvæmni sem notuð er fyrir verðlagningu í öllu kerfinu** skilgreinir hvernig gjaldmiðillinn virkar fyrir fyrirtækið þegar **Nákvæmni í verðlagningu** er valið.
-+ **Viðskiptastjórnun: Gjaldmiðlar** - Reiturinn **Nákvæmni gjaldmiðils** gerir notanda kleift að tilgreina sérsniðinn fjölda aukastafa fyrir tiltekinn gjaldmiðil. Til er varastilling fyrir fyrirtækjastillinguna.
++ **Kerfisstillingar: Gjaldmiðilsnákvæmni fyrir verðlagningu** - Dálkurinn **Stilla gjaldmiðilsnákvæmni sem notuð er fyrir verðlagningu í öllu kerfinu** skilgreinir hvernig gjaldmiðillinn virkar fyrir fyrirtækið þegar **Nákvæmni í verðlagningu** er valið.
++ **Viðskiptastjórnun: Gjaldmiðlar** - Dálkurinn **Nákvæmni gjaldmiðils** gerir notanda kleift að tilgreina sérsniðinn fjölda aukastafa fyrir tiltekinn gjaldmiðil. Til er varastilling fyrir fyrirtækjastillinguna.
 
 Nokkrar takmarkanir eru til staðar:
 
-+ Ekki er hægt að stilla gjaldmiðilsreitinn í einingu.
++ Ekki er hægt að grunnstilla gjaldmiðilsdálkinn á töflu.
 + Aðeins er hægt að tilgreina fleiri en fjóra aukastafi á stigunum **Verðlagning** og **Gjaldmiðill færslu**.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Kerfisstillingar: Nákvæmni gjaldmiðils fyrir verðlagningu
 
-Eftir að flutningi er lokið geta stjórnendur stillt nákvæmni gjaldmiðilsins. Opnið **Stillingar \> Stjórnun** og veljið **Kerfisstillingar**. Síðan skal, í flipanum **Almennt**, breyta gildinu á reitnum **Stilla nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu í öllu kerfinu** eins og sýnt er á eftirfarandi skýringarmynd.
+Eftir að flutningi er lokið geta stjórnendur stillt nákvæmni gjaldmiðilsins. Opnið **Stillingar \> Stjórnun** og veljið **Kerfisstillingar**. Síðan skal, í flipanum **Almennt**, breyta gildinu á dálknum **Stilla nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu í öllu kerfinu** eins og sýnt er á eftirfarandi skýringarmynd.
 
 ![Kerfisstillingar fyrir gjaldmiðil](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Viðskiptastjórnun: Gjaldmiðlar
 
-Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en fyrir nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu, er hægt að breyta henni. Opnið **Stillingar \> Viðskiptastjórnun**, veljið **Gjaldmiðlar** og veljið gjaldmiðilinn sem á að breyta. Stillið síðan reitinn **Nákvæmni gjaldmiðils** á þann fjölda aukastafa sem sóst er eftir eins og sýnt er á eftirfarandi skýringarmynd.
+Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en fyrir nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu, er hægt að breyta henni. Opnið **Stillingar \> Viðskiptastjórnun**, veljið **Gjaldmiðlar** og veljið gjaldmiðilinn sem á að breyta. Stillið síðan dálkinn **Nákvæmni gjaldmiðils** á þann fjölda aukastafa sem sóst er eftir eins og sýnt er á eftirfarandi skýringarmynd.
 
 ![Stillingar gjaldmiðils fyrir ákveðinn stað](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>töflur: Gjaldmiðilsreitur
+### <a name="tables-currency-column"></a>töflur: Gjaldmiðilsdálkur
 
-Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsreiti takmarkast við fjóra.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takmarkast við fjóra.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681329"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728090"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Uppfæra skipan sniðmáts viðskiptaskjals 
 
@@ -56,7 +56,7 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 5. Veljið **Í LAGI** til að stofna nýja sniðmátið.
 
     > [!NOTE]
-    > Ef notandinn hefur ekki enn skráð sig inn á Office Online er honum [beint á Office 365 innskráningarsíðuna](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Til að fara aftur í fjármálaumhverfið skal velja hnappinn **Til baka** í vafranum.
+    > Ef notandinn hefur ekki enn skráð sig inn á Office Online er honum [beint á Office 365 innskráningarsíðuna](er-business-document-management.md#frequently-asked-questions). Til að fara aftur í fjármálaumhverfið skal velja hnappinn **Til baka** í vafranum.
 
     Nýja sniðmátið er opnað fyrir breytingar í Excel Online innbyggðu stýringunni á sniðmátssíðu.
 
@@ -106,6 +106,3 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

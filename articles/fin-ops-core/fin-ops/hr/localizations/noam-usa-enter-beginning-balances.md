@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693403"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797785"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Innskráning á upphafsstöðu launa
 
@@ -166,6 +166,3 @@ Er mögulegt að bakfæra og endurskrá færslur. Til að bakfæra færsluna þa
 2. Smelltu á **Já** þegar skilaboðin „Þegar þetta launayfirlit er bakfært verður launayfirlit bakfærslu stofnað fyrir mótbókun á þessu launayfirliti. Hvorugu launayfirlitinu er hægt að breyta. Á að bakfæra þetta launayfirlit?“ birtast. 
 
 Eftir að launayfirlitið hefur verið bakfært geturðu búið til nýtt launayfirlit fyrir starfsmanninn úr tekjuyfirlitinu sem þú bjóst til áður. Gættu þess að lagfæra allar rangar línur á tekjuyfirlitinu áður en þú býrð til nýtt launauppgjör, og búðu svo til ný launayfirlit með réttum upphæðum. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

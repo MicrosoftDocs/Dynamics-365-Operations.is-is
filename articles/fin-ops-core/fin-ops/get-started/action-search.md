@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694189"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798648"
 ---
 # <a name="action-search"></a>Aðgerðaleit
 
@@ -35,7 +35,7 @@ Síður birta fyrst og fremst skipanir í aðgerðarúðum, bæði í staðlaðr
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Lykilráð eru ekki lengur tiltæk en þeim hefur verið skipt út fyrir aðgerðaleitareiginleikann. Þessi nýi eiginleiki gerir þér kleift að leita fljótt og keyra hnapp af einhverju af sýnilegu aðgerðarúðunum.
+Eiginleiki aðgerðaleitar kemur í stað Lyklaábendinga sem eru ekki lengur í boði. Þessi nýi eiginleiki gerir þér kleift að leita fljótt og keyra hnapp af einhverju af sýnilegu aðgerðarúðunum.
 
 ## <a name="using-action-search"></a>Notkun Aðgerðaleitar
 
@@ -53,7 +53,7 @@ Einnig er hægt að hefja aðgerðaleit með því að ýta á Ctrl +/ eða Alt 
 
 ## <a name="understanding-the-results-list"></a>Skilningur á lista yfir niðurstöður
 
-Oft er nauðsynlegt að vita bæði staðsetningu og efni hnapps til að skilja tilgang þess hnapps til fulls. Þess vegna birtast viðbótarupplýsingar fyrir hvern hlut í listanum, til að hjálpa þér að skilja nákvæmlega hvaða hnappar birtast í listanum. Einkum er "slóð" hnappsins sýnd. Þessa slóð gætu innihaldið merki eftirfarandi eininga notendaviðmóts, eins og:
+Oft er nauðsynlegt að vita bæði staðsetningu og efni hnapps til að skilja tilgang þess hnapps til fulls. Þess vegna birtir niðurstöðulisti viðbótarupplýsingar fyrir hvern hlut í listanum, til að hjálpa þér að skilja nákvæmlega hvaða hnappar birtast í listanum. Einkum er "slóð" hnappsins sýnd. Þessa slóð gætu innihaldið merki eftirfarandi eininga notendaviðmóts, eins og:
 
 - Flipinn aðgerðarúða.
 - Hnappaflokkur
@@ -65,7 +65,7 @@ Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-Í fyrri dæmi sýna sýndi leitaraðgerð niðurstöðum úr staðlaða Aðgerðarúðu efst síðu. Hins vegar sýnir aðgerðaleit einnig niðurstöður úr sýnilegri verkfæraslám sem eru staðsettir í öðrum hlutum á síðu. Til dæmis er verið að leita að **lagerbirgðir** hnappi sem er staðsettur í **sölupantanalínum** flýtiflipa. Í þessu tilfelli tilkynnir slóð hnappsins í lista yfir niðurstöður (**sölupantanalínur** &gt; **Birgðir** &gt; **Skoða**) að þessi hnappur er staðsettur undir **Skoða** fyrirsögn á **Birgðir** valmyndarhnapp á í **sölupantanalínur** flýtiflipa.
+Í fyrri dæmi sýna sýndi leitaraðgerð niðurstöðum úr staðlaða Aðgerðarúðu efst síðu. Hins vegar sýnir aðgerðaleit einnig niðurstöður úr sýnilegri tækjastikum sem eru staðsettar í öðrum hlutum á síðu. Til dæmis er verið að leita að **lagerbirgðir** hnappi sem er staðsettur í flipanum **Sölupantanalínur**. Í þessu tilfelli tilkynnir slóð hnappsins í lista yfir niðurstöður (**sölupantanalínur** &gt; **Birgðir** &gt; **Skoða**) að þessi hnappur er staðsettur undir **Skoða** fyrirsögn á **Birgðir** valmyndarhnapp á í **sölupantanalínur** flýtiflipa.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að 
 ## <a name="action-search-vs-navigation-search"></a>Aðgerðaleita samanborið við flettingaleit
 
 Aðgerðaleit er ætlað að finna og keyra aðgerðir á síðu, en sérstakt leitarkerfi er til að finna og fletta á síður. Fyrir frekari upplýsingar um þann möguleika, að sjá greinina [Flettingaleit](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

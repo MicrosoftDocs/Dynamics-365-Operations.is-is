@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694496"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798428"
 ---
 # <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
@@ -40,7 +40,7 @@ Runuvinnslur fyrir gagnabreytingar og tilkynningar um gjalddaga þurfa að vera 
 
 Tilvikið sem kveikir á viðvörunarreglu getur verið dagsetning sem kemur eða tiltekin breyting sem á sér stað. Kveikjur fyrir tilvik eru skilgreindar á flýtiflipanum **Láta mig vita þegar** í svarglugganum **Búa til viðvörunarreglu**. Tilvikin sem eru tiltæk fyrir tiltekinn reit fer eftir kveikjunni sem er valin.
 
-Til dæmis, ef þú ert að setja upp viðvörunarreglu fyrir reitinn **Upphafsdagur** eru tilvik lokadags við hæfi. Þess vegna er gerð tilviksins **er komin á tíma eftir** í boði fyrir þann reit. Hins vegar, fyrir reit eins og **Kostnaðarstaður** er lokadagur tilviks ekki viðeigandi. Þess vegna er gerð tilviksins **er komin á tíma eftir** ekki í boði. Þess í stað er gerð tilviksins **hefur breyst** í boði.
+Til dæmis, ef þú ert að setja upp viðvörunarreglu fyrir reitinn **Upphafsdagur** eru tilvik lokadags við hæfi. Þess vegna er gerð tilviksins `is due in` í boði fyrir þann reit. Hins vegar, fyrir reit eins og **Kostnaðarstaður** er lokadagur tilviks ekki viðeigandi. Þess vegna er gerð tilviksins `is due in` er í boði. Þessi í stað er `has changed` atviksgerð í boði.
 
 ## <a name="event-types"></a>Gerð tilvika
 
@@ -77,7 +77,7 @@ Næst verður þú að ákveða hvaða innkaupapantanir þú vilt fá viðvarani
 
 ## <a name="alerts-as-business-events"></a>Viðvaranir sem viðskiptatilvik
 
-Hægt er að senda viðvaranir að utan með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Þegar viðvörunin hefur komið viðskiptatilvikinu af stað er hægt að virkja flæði sem er innbyggt í Power Automate með virkjanum **Þegar viðskiptatilvik á sér stað** í tengi Finance and Operations eða senda tilvikið beint á endastöð viðskiptatilvika í gegnum **Lista yfir viðskiptatilvik**.
+Hægt er að senda viðvaranir út með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Þegar viðvörunin hefur komið viðskiptatilvikinu af stað er hægt að virkja flæði sem er innbyggt í Power Automate með virkjanum **Þegar viðskiptatilvik á sér stað** í tengi Finance and Operations eða senda tilvikið beint á endastöð viðskiptatilvika í gegnum **Lista yfir viðskiptatilvik**.
 
 ## <a name="create-an-alert-rule"></a>Búa til viðvörunarreglu
 
@@ -86,22 +86,19 @@ Hægt er að senda viðvaranir að utan með ramma viðskiptatilvika. Þegar þ�
 2. Á aðgerðasvæðinu, á flipanum **Valkostir**, í flokknum **Deila** skal velja **Búa til viðvörunarreglu**.
 3. Í svarglugganum **Búa til viðvörunarreglu**, í reitnum **Reitur** skal velja reitinn sem á að fylgjast með.
 4. Í reitnum **Tilvik** skal velja gerð tilviks.
-5. Á flýtiflipanum **Láta mig vita af** skal velja æskilegan valkost. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu tryggja að **Í öllu fyrirtækinu** sé stillt á **Nei**.
+5. Á flýtiflipanum **Láta mig vita af** skal velja æskilegan valkost. Ef senda á viðvörun sem viðskiptatilvik skal stilla gildið **Í öllu fyrirtækinu** á **Nei**.
 6. Ef viðvörunarreglan verður óvirk á tilteknum degi skaltu velja lokadag á flýtiflipanum **Láta mig vita þangað til**.
-7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn er notaður í efnislínu fyrirsagnarfyrir tölvupóst sem berst þegar viðvörun er gefin. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu stilla **Senda að utan** á **Já**.
-8. Í reitnum **Skilaboð** skal færa inn valfrjáls skilaboð. Textinn er notaður sem skilaboðin sem er tekið á móti þegar viðvörun er ræst.
+7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn verður efni fyrirsagnar tölvupóstskilaboðanna sem berast þegar viðvörun er ræst. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu stilla **Senda að utan** á **Já**.
+8. Í reitnum **Skilaboð** skal færa inn valfrjáls skilaboð. Textinn verður skilaboðin sem berast þegar viðvörun er gefin.
 9. Veldu **Í lagi** til að vista stillingarnar og búa til viðvörunarregluna.
 
 ## <a name="limitations-and-workarounds"></a>Takmarkanir og hjáleiðir
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Hjáleiðir til að búa til viðvaranir fyrir aukalega gagnagjafa skjámyndar
-Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa skjámynda. Til dæmis, þegar viðvaranir eru búnar til í bókunarregluskjámyndum viðskiptavinar og lánardrottins, eru aðeins reitirnir í hausnum (CustLedger or VendLedger) tiltækir en ekki víddarlyklarnir. Hjáleið þessarar takmörkunar er að nota **SysTableBrowser** til að opna þessa töflu sem aðalgagnagjafa. 
+Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa á eyðublöðum. Til dæmis, þegar viðvaranir eru búnar til í bókunarregluskjámyndum viðskiptavinar og lánardrottins, eru aðeins reitirnir í hausnum (CustLedger or VendLedger) tiltækir en ekki víddarlyklarnir. Hjáleið þessarar takmörkunar er að nota **SysTableBrowser** til að opna þessa töflu sem aðalgagnagjafa. 
 1. Opnið töfluna í skjámyndinni **SysTableBrowser**.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
     ```
 2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

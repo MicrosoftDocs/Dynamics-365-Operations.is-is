@@ -3,7 +3,7 @@ title: Stofna stigveldi fyrirtækis
 description: Notaðu eftirfarandi ferli til að stofna stigveldi fyrirtækis
 author: sericks007
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8627c1aa0ce9ec011b568224040b1143f0f54c31
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694790"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796923"
 ---
 # <a name="create-an-organization-hierarchy"></a>Stofna stigveldi fyrirtækis
 
@@ -38,7 +38,7 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 3. Í reitinn **Heiti** skal slá inn gildi.
 4. Í kaflanum **Tilgangur** skal smella á **Úthluta tilgangi**.
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Veljið tilgangur sem úthluta á stigveldi fyrirtækisins.  
-6. Í kaflanum **Úthlutuð stigveldi** skal smella á **Bæta við**.
+6. Í hlutanum **Úthlutuð stigveldi** skal smella á **Bæta við**.
 7. Í listanum skal merkja valda línu. Finna stigveldið sem var verið að stofna.  
 8. Smellt er á **OK**.
 
@@ -48,6 +48,3 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
     - Bæta við fleiri fyrirtæki eftir þörfum.  
     - Til að bæta við fyrirtæki skal smella á **Breyta** og síðan **Setja inn** til að bæta við fyrirtæki. Þegar gerðar eru breytingar er hægt að **Vista** drög og/eða **Birta** breytingarnar.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

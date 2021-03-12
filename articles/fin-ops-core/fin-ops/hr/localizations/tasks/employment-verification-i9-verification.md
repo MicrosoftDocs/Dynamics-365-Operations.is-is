@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7b5d0bfdee219b5003a3fdf62f81890bb81aecad
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694213"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798095"
 ---
 # <a name="employment-verification-i9-verification"></a>Ráðningar sannprófun i9 sannprófun
 
@@ -54,6 +54,3 @@ Reglugerð um endurbætur og eftirlit innflytjenda krefst þess að vinnuveitend
 22. Í reitinn skjalanúmer skal slá inn eða velja gildi.
 23. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
