@@ -11,33 +11,32 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94888a0ad10371a9aa449d1c7706f85cf5d9d5e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b3019b06651b2c96df7c971a563865c9c140429
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998816"
 ---
-# <a name="activate-a-production-flow-version"></a><span data-ttu-id="5e8bb-103">Virkja útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="5e8bb-103">Activate a production flow version</span></span>
+# <a name="activate-a-production-flow-version"></a><span data-ttu-id="a3f08-103">Virkja útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="a3f08-103">Activate a production flow version</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5e8bb-104">Áður en hægt er að stofna kanban-vinnslur og aðgerðir má vinna fyrir útgáfu framleiðsluflæðis, ætti að virkja útgáfu.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="5e8bb-105">Besta venja er að virkja útgáfu áður en raunverulegur upphafsdagur hennar og tími rennur út.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="5e8bb-106">Til að ljúka þessu verki, þarf að hafa framleiðsluflæðisútgáfu sem hefur stöðuna Drög til að virkja útgáfu.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
+<span data-ttu-id="a3f08-104">Áður en hægt er að stofna kanban-vinnslur og aðgerðir má vinna fyrir útgáfu framleiðsluflæðis, ætti að virkja útgáfu.</span><span class="sxs-lookup"><span data-stu-id="a3f08-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="a3f08-105">Besta venja er að virkja útgáfu áður en raunverulegur upphafsdagur hennar og tími rennur út.</span><span class="sxs-lookup"><span data-stu-id="a3f08-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="a3f08-106">Til að ljúka þessu verki, þarf að hafa framleiðsluflæðisútgáfu sem hefur stöðuna Drög til að virkja útgáfu.</span><span class="sxs-lookup"><span data-stu-id="a3f08-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 
 
-## <a name="find-and-activate-a-production-flow-version"></a><span data-ttu-id="5e8bb-107">Finna og virkja útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="5e8bb-107">Find and activate a production flow version</span></span>
-1. <span data-ttu-id="5e8bb-108">Fara í framleiðsluflæði</span><span class="sxs-lookup"><span data-stu-id="5e8bb-108">Go to Production flows.</span></span>
-2. <span data-ttu-id="5e8bb-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5e8bb-110">Veljið framleiðsluflæðisútgáfu sem hefur Drög í reitnum staða áætlunar.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-110">Select a production flow version that has Draft in the Plan status field.</span></span>  
-3. <span data-ttu-id="5e8bb-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="5e8bb-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-112">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5e8bb-113">Veljið framleiðsluflæðisútgáfu sem hefur Drög í reitnum staða áætlunar.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-113">Select a production flow version that has Draft in the Plan status field.</span></span>  
-5. <span data-ttu-id="5e8bb-114">Smellið á Virkja.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-114">Click Activate.</span></span>
-6. <span data-ttu-id="5e8bb-115">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="5e8bb-115">Click OK.</span></span>
+## <a name="find-and-activate-a-production-flow-version"></a><span data-ttu-id="a3f08-107">Finna og virkja útgáfu framleiðsluflæðis</span><span class="sxs-lookup"><span data-stu-id="a3f08-107">Find and activate a production flow version</span></span>
+1. <span data-ttu-id="a3f08-108">Fara í framleiðsluflæði</span><span class="sxs-lookup"><span data-stu-id="a3f08-108">Go to Production flows.</span></span>
+2. <span data-ttu-id="a3f08-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a3f08-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a3f08-110">Veljið framleiðsluflæðisútgáfu sem hefur Drög í reitnum staða áætlunar.</span><span class="sxs-lookup"><span data-stu-id="a3f08-110">Select a production flow version that has Draft in the Plan status field.</span></span>  
+3. <span data-ttu-id="a3f08-111">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a3f08-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="a3f08-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a3f08-112">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a3f08-113">Veljið framleiðsluflæðisútgáfu sem hefur Drög í reitnum staða áætlunar.</span><span class="sxs-lookup"><span data-stu-id="a3f08-113">Select a production flow version that has Draft in the Plan status field.</span></span>  
+5. <span data-ttu-id="a3f08-114">Smellið á Virkja.</span><span class="sxs-lookup"><span data-stu-id="a3f08-114">Click Activate.</span></span>
+6. <span data-ttu-id="a3f08-115">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a3f08-115">Click OK.</span></span>
 
