@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430111"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992246"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Áætlanagerð með innkaupaverðsamningum
 
@@ -74,22 +73,19 @@ Eftir að kerfið er undirbúið eins og lýst er í hlutanum á undan, ætti a�
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Dæmi um hvernig fínstilling áætlanagerðar finnur lánardrottin og afhendingartíma
 
-Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir útgefna afurð og tengda innkaupasamninga hafa áhrif á gildin sem finnast fyrir innkaupatillöguna sem verður til. **Feitletruðu** gildin dálkunum tveimur lengst til hægri eru gildin sem valin eru af fínstillingu áætlanagerðar. ***Feitleitruðu og skáletruðu*** gildin í hinum dálkunum eru stillingarnar sem leiddu til þessara gilda fyrir hverja línu.
+Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir útgefna afurð og tengda innkaupasamninga hafa áhrif á gildin sem finnast fyrir innkaupatillöguna sem verður til. **Feitletruðu** gildin dálkunum tveimur lengst til hægri eru gildin sem valin eru af fínstillingu áætlanagerðar. **_Feitleitruðu og skáletruðu_* _ gildin í hinum dálkunum eru stillingarnar sem leiddu til þessara gilda fyrir hverja línu.
 
 | Útgefin afurð: Lánardrottinn | Sjálfgefnar pöntunarstillingar: Afhendingartími | Vöruþekja: Hnekking lánardrottins | Vöruþekja: Hnekking afhendingartíma | Verðsamningur: Lánardrottinn | Verðsamningur: Afhendingartími | Verðsamningur: Hunsa afhendingartíma | Lánardrottinn sem verður til | Afhendingartíma sem verður til |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | Ekkert | Ekkert | US003 | 3 | Ekkert | **US001** | **1** |
-| US001 | 1 | ***Já: US002*** | ***Já: 2*** | US003 | 3 | Ekkert | **US002** | **2** |
-| *(Autt)* | 1 | Ekkert | Ekkert | ***US003*** | ***3*** | Ekkert | **US003** | **3** |
-| *(Autt)* | ***1*** | Ekkert | Ekkert | ***US003*** | 3 | Já | **US003** | **1** |
-| *(Autt)* | ***1*** | ***Já: US002*** | Ekkert | US003 | 3 | Ekkert | **US002** | **1** |
-| *(Autt)* | ***1*** | ***Já: US002*** | Ekkert | US003 | 3 | Ekkert | **US002** | **1** |
-| *(Autt)* | 1 | Ekkert | Já: 2 | ***US003*** | ***3*** | Ekkert | **US003** | **3** |
-| *(Autt)* | 1 | Ekkert | ***Já: 2*** | ***US003*** | 3 | Já | **US003** | **2** |
+| _*_US001_*_ | _*_1_*_ | Ekkert | Ekkert | US003 | 3 | Ekkert | _ *US001** | **1** |
+| US001 | 1 | **_Já: US002_* _ | _*_Já: 2_*_ | US003 | 3 | Ekkert | _ *US002** | **2** |
+| *(Autt)* | 1 | Ekkert | Ekkert | ***US003*** | _*_3_*_ | Ekkert | _ *US003** | **3** |
+| *(Autt)* | ***1** _ | Ekkert | Ekkert | _*_US003_*_ | 3 | Já | _ *US003** | **1** |
+| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Ekkert | US003 | 3 | Ekkert | _ *US002** | **1** |
+| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Ekkert | US003 | 3 | Ekkert | _ *US002** | **1** |
+| *(Autt)* | 1 | Ekkert | Já: 2 | ***US003*** | _*_3_*_ | Ekkert | _ *US003** | **3** |
+| *(Autt)* | 1 | Ekkert | ***Já: 2** _ | _*_US003_*_ | 3 | Já | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Innkaupasamningar](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444252"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991249"
 ---
 # <a name="credit-management-setup"></a>Uppsetning á lánastýringu 
 
@@ -153,6 +152,3 @@ Fylgdu þessum skrefum til að bæta við línum sem tákna lánamörk sem verð
 2. Veldu samanburðarstjórann sem skilgreinir hvernig meta skal upplýsingar um stigahópinn.
 3. Sláðu inn gildi sem ber að bera saman við gildi sem er tilgreint fyrir stigahópinn.
 4. Sláðu inn lánsfjárhæðina sem ætti að vera úthlutað ef viðskiptavinaupplýsingin samsvarar gildinu sem er tilgreint fyrir stigahópinn. Til dæmis stofnarðu sjálfvirka lánamörk fyrir stigahópinn **Lágt**. Ef árin í viðskiptum eru einn af stigahópunum geturðu skilgreint eina línu sem úthlutar 100.000 lánamörkum ef viðskiptavinurinn hefur verið í viðskiptum í fimm ár og önnur lína sem úthlutar 200.000 kreditmörkum ef viðskiptavinurinn hefur verið í viðskiptum í 10 ár.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

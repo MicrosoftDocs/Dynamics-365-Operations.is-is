@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56f063e24e2c332889191638b4f6ffcb2c08500d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990993"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Stofna vaxtakóða með sviði
 
@@ -51,6 +50,3 @@ Hægt er að setja upp vaxtakóða til að reikna vexti á mismunandi upphæðir
 21. Færa skal inn vexti í prósentum á mánuði sem verður notað til að reikna vexti frá og með mánuði 7. Í þessu dæmi er það 2,5.
 22. Smellið á Loka Til að ljúka uppsetningunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

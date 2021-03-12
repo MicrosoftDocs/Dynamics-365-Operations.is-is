@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8281de3cb336d9392a6a97f98e51a2a139a384c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee4fff7b148396faecef899c7a75365d3e1f47f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444247"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991165"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Stofna sniðmát fyrir reikning með frjálsum texta
 
@@ -68,6 +67,3 @@ ms.locfileid: "4444247"
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Vistaðu reikningur með frjálsum texta sem sniðmát
 Þú getur líka vistað fyrirliggjandi reikningur með frjálsum texta sem sniðmát. Þegar þú velur Vista í sniðmát á flipanum Reikningur, gefðu upp nafn og lýsingu fyrir sniðmátið. Ef sniðmát með nafninu er þegar til, munt þú sjá tilkynningu um að sniðmát með því nafni sé þegar til. Þú getur ennþá smellt á Í lagi til að skipta því út. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 726d4979059417871a00626c55da32fa4286cb53
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444248"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991118"
 ---
 # <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
 
@@ -28,10 +27,10 @@ ms.locfileid: "4444248"
 
 Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
 
-## <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
+## <a name="create-a-free-text-invoice"></a>Stofna textareikning
 
-1. Fara í **Viðskiptakröfur \> Reikningar \> Allir reikningar með frjálsum texta**.
-2. Velja **Nýja**.
+1. Fara í **Viðskiptakröfur (eða fjárhag) \> Reikningar \> Allir reikningar með frjálsum texta**.
+2. Veljið **Nýtt**.
 3. Í reitnum **Viðskiptavinalykill** skal velja gildi.
 
     * Sjálfgefið er að lykill sem valinn er sem viðskiptavinalykill er notaður sem reikningslykill.
@@ -85,6 +84,3 @@ Eftir afritun á línum er hægt að breyta upplýsingum eftir þörfum.
 Þú getur búið til reikning með frjálsum texta út frá sniðmáti. Þegar **Nýtt úr sniðmáti** er valið úr flipanum **Reikningur** er hægt að velja sniðmátsheiti og viðskiptavinalykilinn fyrir nýja reikninginn með frjálsum texta. Sjálfgefin gildi, svo sem greiðsluskilmálar og greiðslumáti, geta sjálfkrafa verið fyllt út af viðskiptavininum, eða hægt er að nota gildin sem voru vistuð í sniðmátinu.
 
 Nýr reikningur með frjálsum texta verður búinn til og hægt er að breyta gildunum eftir þörfum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
