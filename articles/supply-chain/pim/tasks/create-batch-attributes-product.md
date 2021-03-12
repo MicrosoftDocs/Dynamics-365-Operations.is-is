@@ -11,47 +11,46 @@ ms.technology: ''
 ms.search.form: PdsBatchAttrib
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8924eedfbb635ca04aa167d7f6c44872fef496fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6d51cecc800a827fe91583b6086fd88b10aedc41
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986930"
 ---
-# <a name="create-batch-attributes-for-a-product"></a><span data-ttu-id="abf51-103">Stofna runu runueigindir fyrir afurð</span><span class="sxs-lookup"><span data-stu-id="abf51-103">Create batch attributes for a product</span></span>
+# <a name="create-batch-attributes-for-a-product"></a><span data-ttu-id="a4f52-103">Stofna runu runueigindir fyrir afurð</span><span class="sxs-lookup"><span data-stu-id="a4f52-103">Create batch attributes for a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="abf51-104">Þessi verklýsing sýnir hvernig á að stofna runueigind, úthluta sjálfgefin gildissvið, og taka eigindina með í flokk.</span><span class="sxs-lookup"><span data-stu-id="abf51-104">This procedure shows how to create a batch attribute, assign default value ranges, and include the attribute in a group.</span></span> <span data-ttu-id="abf51-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er the USP2 fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="abf51-105">The demo data company used to create this procedure is the USP2 Company.</span></span>
+<span data-ttu-id="a4f52-104">Þessi verklýsing sýnir hvernig á að stofna runueigind, úthluta sjálfgefin gildissvið, og taka eigindina með í flokk.</span><span class="sxs-lookup"><span data-stu-id="a4f52-104">This procedure shows how to create a batch attribute, assign default value ranges, and include the attribute in a group.</span></span> <span data-ttu-id="a4f52-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er the USP2 fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="a4f52-105">The demo data company used to create this procedure is the USP2 Company.</span></span>
 
-1. <span data-ttu-id="abf51-106">Fara í Birgðastjórnun > Uppsetning > Runa > Runueigindir.</span><span class="sxs-lookup"><span data-stu-id="abf51-106">Go to Inventory management > Setup > Batch > Batch attributes.</span></span>
-2. <span data-ttu-id="abf51-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="abf51-107">Click New.</span></span>
-3. <span data-ttu-id="abf51-108">Í reitinn Eigind skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="abf51-108">In the Attribute field, type a value.</span></span>
-4. <span data-ttu-id="abf51-109">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="abf51-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="abf51-110">Veljið gerðina 'Brot' í svæðinu gerð eigindar.</span><span class="sxs-lookup"><span data-stu-id="abf51-110">In the Attribute type field, select 'Fraction'.</span></span>
-    * <span data-ttu-id="abf51-111">Þetta ferli notar gerðina brot til að virkja tugagildi.</span><span class="sxs-lookup"><span data-stu-id="abf51-111">This procedure uses the Fraction type to enable decimal values.</span></span> <span data-ttu-id="abf51-112">Hægt er að velja aðrar gerðir eiginda.</span><span class="sxs-lookup"><span data-stu-id="abf51-112">You can select other attribute types.</span></span> <span data-ttu-id="abf51-113">Ef velja gerðina tölusetning verður að færa inn gildi í listanum tölusetning áður en hægt er að færa inn gildi í markreit.</span><span class="sxs-lookup"><span data-stu-id="abf51-113">If you select the Enumeration type, you must enter values in the enumeration list before you can enter a value in the Target field.</span></span>  
-6. <span data-ttu-id="abf51-114">Í reitinn Lágmark skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="abf51-114">In the Minimum field, enter a number.</span></span>
-7. <span data-ttu-id="abf51-115">Í reitinn Hámark skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="abf51-115">In the Maximum field, enter a number.</span></span>
-8. <span data-ttu-id="abf51-116">Í reitinn Hækka skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="abf51-116">In the Increment field, enter a number.</span></span>
-9. <span data-ttu-id="abf51-117">Í reitinn Mark skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="abf51-117">In the Target field, type a value.</span></span>
-10. <span data-ttu-id="abf51-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abf51-118">Click Save.</span></span>
-11. <span data-ttu-id="abf51-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abf51-119">Close the page.</span></span>
-12. <span data-ttu-id="abf51-120">Fara í Birgðastjórnun > Uppsetning > Runa > Runueigindaflokkar.</span><span class="sxs-lookup"><span data-stu-id="abf51-120">Go to Inventory management > Setup > Batch > Batch attribute groups.</span></span>
-13. <span data-ttu-id="abf51-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="abf51-121">Click New.</span></span>
-14. <span data-ttu-id="abf51-122">Færa inn gildi í svæðinu eigindaflokkur.</span><span class="sxs-lookup"><span data-stu-id="abf51-122">In the Attribute group field, type a value.</span></span>
-15. <span data-ttu-id="abf51-123">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="abf51-123">In the Description field, type a value.</span></span>
-16. <span data-ttu-id="abf51-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abf51-124">Click Save.</span></span>
-17. <span data-ttu-id="abf51-125">Smellið á eigindir Flokka.</span><span class="sxs-lookup"><span data-stu-id="abf51-125">Click Group attributes.</span></span>
-18. <span data-ttu-id="abf51-126">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="abf51-126">Click New.</span></span>
-19. <span data-ttu-id="abf51-127">Í reitnum Eigind skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="abf51-127">In the Attribute field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="abf51-128">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="abf51-128">In the list, find and select the desired record.</span></span>
-21. <span data-ttu-id="abf51-129">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="abf51-129">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="abf51-130">Hægt er að taka eigind með í alla flokkana.</span><span class="sxs-lookup"><span data-stu-id="abf51-130">An attribute can be included in any of the groups.</span></span>  
-22. <span data-ttu-id="abf51-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="abf51-131">Click Save.</span></span>
-23. <span data-ttu-id="abf51-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="abf51-132">Close the page.</span></span>
+1. <span data-ttu-id="a4f52-106">Fara í Birgðastjórnun > Uppsetning > Runa > Runueigindir.</span><span class="sxs-lookup"><span data-stu-id="a4f52-106">Go to Inventory management > Setup > Batch > Batch attributes.</span></span>
+2. <span data-ttu-id="a4f52-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-107">Click New.</span></span>
+3. <span data-ttu-id="a4f52-108">Í reitinn Eigind skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="a4f52-108">In the Attribute field, type a value.</span></span>
+4. <span data-ttu-id="a4f52-109">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a4f52-110">Veljið gerðina 'Brot' í svæðinu gerð eigindar.</span><span class="sxs-lookup"><span data-stu-id="a4f52-110">In the Attribute type field, select 'Fraction'.</span></span>
+    * <span data-ttu-id="a4f52-111">Þetta ferli notar gerðina brot til að virkja tugagildi.</span><span class="sxs-lookup"><span data-stu-id="a4f52-111">This procedure uses the Fraction type to enable decimal values.</span></span> <span data-ttu-id="a4f52-112">Hægt er að velja aðrar gerðir eiginda.</span><span class="sxs-lookup"><span data-stu-id="a4f52-112">You can select other attribute types.</span></span> <span data-ttu-id="a4f52-113">Ef velja gerðina tölusetning verður að færa inn gildi í listanum tölusetning áður en hægt er að færa inn gildi í markreit.</span><span class="sxs-lookup"><span data-stu-id="a4f52-113">If you select the Enumeration type, you must enter values in the enumeration list before you can enter a value in the Target field.</span></span>  
+6. <span data-ttu-id="a4f52-114">Í reitinn Lágmark skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="a4f52-114">In the Minimum field, enter a number.</span></span>
+7. <span data-ttu-id="a4f52-115">Í reitinn Hámark skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="a4f52-115">In the Maximum field, enter a number.</span></span>
+8. <span data-ttu-id="a4f52-116">Í reitinn Hækka skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="a4f52-116">In the Increment field, enter a number.</span></span>
+9. <span data-ttu-id="a4f52-117">Í reitinn Mark skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="a4f52-117">In the Target field, type a value.</span></span>
+10. <span data-ttu-id="a4f52-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-118">Click Save.</span></span>
+11. <span data-ttu-id="a4f52-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a4f52-119">Close the page.</span></span>
+12. <span data-ttu-id="a4f52-120">Fara í Birgðastjórnun > Uppsetning > Runa > Runueigindaflokkar.</span><span class="sxs-lookup"><span data-stu-id="a4f52-120">Go to Inventory management > Setup > Batch > Batch attribute groups.</span></span>
+13. <span data-ttu-id="a4f52-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-121">Click New.</span></span>
+14. <span data-ttu-id="a4f52-122">Færa inn gildi í svæðinu eigindaflokkur.</span><span class="sxs-lookup"><span data-stu-id="a4f52-122">In the Attribute group field, type a value.</span></span>
+15. <span data-ttu-id="a4f52-123">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-123">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="a4f52-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-124">Click Save.</span></span>
+17. <span data-ttu-id="a4f52-125">Smellið á eigindir Flokka.</span><span class="sxs-lookup"><span data-stu-id="a4f52-125">Click Group attributes.</span></span>
+18. <span data-ttu-id="a4f52-126">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-126">Click New.</span></span>
+19. <span data-ttu-id="a4f52-127">Í reitnum Eigind skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a4f52-127">In the Attribute field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="a4f52-128">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a4f52-128">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="a4f52-129">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a4f52-129">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="a4f52-130">Hægt er að taka eigind með í alla flokkana.</span><span class="sxs-lookup"><span data-stu-id="a4f52-130">An attribute can be included in any of the groups.</span></span>  
+22. <span data-ttu-id="a4f52-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="a4f52-131">Click Save.</span></span>
+23. <span data-ttu-id="a4f52-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a4f52-132">Close the page.</span></span>
 

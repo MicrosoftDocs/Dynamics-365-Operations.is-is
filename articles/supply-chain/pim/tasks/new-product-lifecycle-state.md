@@ -10,28 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce5d708f3ac4b7dc9c2048538b53c42334e0ecc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430188"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986830"
 ---
-# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="08770-103">Stofna nýja lífferilsstöðu afurðar</span><span class="sxs-lookup"><span data-stu-id="08770-103">Create a new product lifecycle state</span></span>
+# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="3a622-103">Stofna nýja lífferilsstöðu afurðar</span><span class="sxs-lookup"><span data-stu-id="3a622-103">Create a new product lifecycle state</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="08770-104">Þessi aðferð sýnir hvernig á að stofna nýja lífferilsstöðu afurðar.</span><span class="sxs-lookup"><span data-stu-id="08770-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="08770-105">Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.</span><span class="sxs-lookup"><span data-stu-id="08770-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="08770-106">Lífferilsstöður afurða eru skilgreind af notanda, yfirleitt framleiðslustjóra eða vara aðalgagna-framleiðslustjóra.</span><span class="sxs-lookup"><span data-stu-id="08770-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="08770-107">Tilteknir viðskiptaferlar, svo sem aðaláætlanagerð, geta orðið fyrir áhrifum af tiltekinni lífferilsstöðu.</span><span class="sxs-lookup"><span data-stu-id="08770-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
+<span data-ttu-id="3a622-104">Þessi aðferð sýnir hvernig á að stofna nýja lífferilsstöðu afurðar.</span><span class="sxs-lookup"><span data-stu-id="3a622-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="3a622-105">Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.</span><span class="sxs-lookup"><span data-stu-id="3a622-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="3a622-106">Lífferilsstöður afurða eru skilgreind af notanda, yfirleitt framleiðslustjóra eða vara aðalgagna-framleiðslustjóra.</span><span class="sxs-lookup"><span data-stu-id="3a622-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="3a622-107">Tilteknir viðskiptaferlar, svo sem aðaláætlanagerð, geta orðið fyrir áhrifum af tiltekinni lífferilsstöðu.</span><span class="sxs-lookup"><span data-stu-id="3a622-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 
 
-## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="08770-108">Stofna lífferilsstöðu afurðar</span><span class="sxs-lookup"><span data-stu-id="08770-108">Create a product lifecycle state</span></span>
-1. <span data-ttu-id="08770-109">Fara í Upplýsingastjórnun afurðar > Uppsetning > Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="08770-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="08770-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="08770-110">Click New.</span></span>
-3. <span data-ttu-id="08770-111">Í reitinn Staða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="08770-111">In the State field, type a value.</span></span>
-4. <span data-ttu-id="08770-112">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="08770-112">In the Description field, type a value.</span></span>
+## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="3a622-108">Stofna lífferilsstöðu afurðar</span><span class="sxs-lookup"><span data-stu-id="3a622-108">Create a product lifecycle state</span></span>
+1. <span data-ttu-id="3a622-109">Fara í Upplýsingastjórnun afurðar > Uppsetning > Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="3a622-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="3a622-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="3a622-110">Click New.</span></span>
+3. <span data-ttu-id="3a622-111">Í reitinn Staða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="3a622-111">In the State field, type a value.</span></span>
+4. <span data-ttu-id="3a622-112">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="3a622-112">In the Description field, type a value.</span></span>
 

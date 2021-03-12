@@ -10,37 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f9573fd220cd8b6a58f81e4d17ca65234f41beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6bb18f876e7d279624f60f01c5fbf4e449e9ab27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430192"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986880"
 ---
-# <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a><span data-ttu-id="2454f-103">Búa til lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð</span><span class="sxs-lookup"><span data-stu-id="2454f-103">Create a product lifecycle state to exclude products from Master planning</span></span>
+# <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a><span data-ttu-id="7788c-103">Búa til lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð</span><span class="sxs-lookup"><span data-stu-id="7788c-103">Create a product lifecycle state to exclude products from Master planning</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2454f-104">Þessi ferli sýnir hvernig á að stofna nýja lífferlisstöðu afurðar sem útilokar vörur úr aðaláætlanagerð og úrreikningi á uppskriftarstigi.</span><span class="sxs-lookup"><span data-stu-id="2454f-104">This procedure shows how to create a new product lifecycle state that excludes the products from Master planning and BOM-level calculation.</span></span>
+<span data-ttu-id="7788c-104">Þessi ferli sýnir hvernig á að stofna nýja lífferlisstöðu afurðar sem útilokar vörur úr aðaláætlanagerð og úrreikningi á uppskriftarstigi.</span><span class="sxs-lookup"><span data-stu-id="7788c-104">This procedure shows how to create a new product lifecycle state that excludes the products from Master planning and BOM-level calculation.</span></span>
 
 
-## <a name="create-an-obsolete-state"></a><span data-ttu-id="2454f-105">Stofna úrelda stöðu</span><span class="sxs-lookup"><span data-stu-id="2454f-105">Create an obsolete state</span></span>
-1. <span data-ttu-id="2454f-106">Fara í Upplýsingastjórnun afurðar > Uppsetning > Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="2454f-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="2454f-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2454f-107">Click New.</span></span>
-3. <span data-ttu-id="2454f-108">Í reitinn Staða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="2454f-108">In the State field, type a value.</span></span>
-4. <span data-ttu-id="2454f-109">Velja skal Nei í reitinum Er virk fyrir áætlunargerð.</span><span class="sxs-lookup"><span data-stu-id="2454f-109">Select No in the Is active for planning field.</span></span>
-5. <span data-ttu-id="2454f-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="2454f-110">In the Description field, type a value.</span></span>
+## <a name="create-an-obsolete-state"></a><span data-ttu-id="7788c-105">Stofna úrelda stöðu</span><span class="sxs-lookup"><span data-stu-id="7788c-105">Create an obsolete state</span></span>
+1. <span data-ttu-id="7788c-106">Fara í Upplýsingastjórnun afurðar > Uppsetning > Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="7788c-106">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="7788c-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="7788c-107">Click New.</span></span>
+3. <span data-ttu-id="7788c-108">Í reitinn Staða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7788c-108">In the State field, type a value.</span></span>
+4. <span data-ttu-id="7788c-109">Velja skal Nei í reitinum Er virk fyrir áætlunargerð.</span><span class="sxs-lookup"><span data-stu-id="7788c-109">Select No in the Is active for planning field.</span></span>
+5. <span data-ttu-id="7788c-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="7788c-110">In the Description field, type a value.</span></span>
 
-## <a name="associate-the-obsolete-state-to-a-released-product"></a><span data-ttu-id="2454f-111">Tengja úrelta stöðu á útgefina afurð</span><span class="sxs-lookup"><span data-stu-id="2454f-111">Associate the obsolete state to a released product</span></span>
-1. <span data-ttu-id="2454f-112">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="2454f-112">Close the page.</span></span>
-2. <span data-ttu-id="2454f-113">Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="2454f-113">Go to Product information management > Products > Released products.</span></span>
-3. <span data-ttu-id="2454f-114">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="2454f-114">Use the Quick Filter to find records.</span></span> <span data-ttu-id="2454f-115">Til dæmis skal sía svæðið Leitarheiti með gildinu „M00“.</span><span class="sxs-lookup"><span data-stu-id="2454f-115">For example, filter on the Search name field with a value of 'M00'.</span></span>
-4. <span data-ttu-id="2454f-116">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="2454f-116">Click Edit.</span></span>
-5. <span data-ttu-id="2454f-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="2454f-117">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="2454f-118">Sláið inn eða veljið gildi í reitnum Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="2454f-118">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="associate-the-obsolete-state-to-a-released-product"></a><span data-ttu-id="7788c-111">Tengja úrelta stöðu á útgefina afurð</span><span class="sxs-lookup"><span data-stu-id="7788c-111">Associate the obsolete state to a released product</span></span>
+1. <span data-ttu-id="7788c-112">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7788c-112">Close the page.</span></span>
+2. <span data-ttu-id="7788c-113">Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.</span><span class="sxs-lookup"><span data-stu-id="7788c-113">Go to Product information management > Products > Released products.</span></span>
+3. <span data-ttu-id="7788c-114">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="7788c-114">Use the Quick Filter to find records.</span></span> <span data-ttu-id="7788c-115">Til dæmis skal sía svæðið Leitarheiti með gildinu „M00“.</span><span class="sxs-lookup"><span data-stu-id="7788c-115">For example, filter on the Search name field with a value of 'M00'.</span></span>
+4. <span data-ttu-id="7788c-116">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="7788c-116">Click Edit.</span></span>
+5. <span data-ttu-id="7788c-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="7788c-117">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="7788c-118">Sláið inn eða veljið gildi í reitnum Lífferilsstaða afurðar.</span><span class="sxs-lookup"><span data-stu-id="7788c-118">In the Product lifecycle state field, enter or select a value.</span></span>
 
