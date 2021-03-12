@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444511"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990618"
 ---
 # <a name="cost-accounting-terminology"></a>Hugtök kostnaðarbókhalds
 
@@ -205,6 +204,3 @@ Verkyfirlit eru yfirlit fyrir stjórnendum sem bera ábyrgð á til að stýra k
 Útgáfur eru notaðar til að herma, skoða og bera saman niðurstöður mismunandi. Að sjálfgefnu raunverulegan kostnað eru skoðuð í ein útgáfa grunnsniðs sem kallast *raunverulega*. Hægt er að vinna með eins margar útgáfur og þörf er fyrir áætlanir og útreikninga. Til dæmis, hægt að flytja inn gögn fjárhagsáætlunargerðar í upprunalega útgáfa og endurskoða síðan áætlunar í endurskoðuð útgáfa. Hægt er að stofna mál fyrir mörg svæði í . Í þessum mismunandi útgáfur síðan stofna útreikning með því að nota mismunandi útreikningsreglur sem verður notað fyrir kostnaðarúthlutun.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

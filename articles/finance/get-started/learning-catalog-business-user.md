@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444421"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990240"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Námslisti fyrir notendur Dynamics 365 Finance
 
@@ -54,12 +53,10 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Stilla og nota fjárlagagerð í Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Sérhver stofnun, hvort sem hún er einkarekin eða opinber, setur fjárhagsleg og rekstrarleg markmið með því að búa til fjárveitingar. Með samvinnu og ferli sem rekin er af fjárhagsáætlanagerð geturðu gert fjárhagsáætlunarferlið skilvirkara. | Ókeypis, sjálfstýr skref á námsleið | 3.5 klst. |
 | [Stilla og stjórna fastafjármunum í Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og setja upp fjármögnunarþröskulda. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi eða svæði. | Ókeypis, sjálfstýr skref á námsleið | 4.5 klst. |
 | [Hafist handa með kostnaðarbókhald fyrir aðfangakeðjur í Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis.  | Ókeypis, sjálfstýr skref á námsleið | 1 klukkustund  |
+| [Unnið með kostnaðarstýringu í Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Hámarka arðsemi og lágmarka kostnað með nákvæman útgjaldastýringu í Dynamics 365 Project Operations. Kynntu þér hvernig á að skilgreina kerfið, og búðu til og samþykktu kostnaðarskýrslur. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst.  |
 
 ## <a name="exam"></a>Próf<a name="exam"></a>
 
 | Efni | lýsing  | Snið  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 grundvallaratriði](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Sannaðu að þú skiljir Microsoft Dynamics 365; Power Platform ; skýjahugtök; leyfisvalkostir; og dreifingar- og losunarvalkostir | Próf, kostnaður er breytilegur eftir svæðum |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7636f5c664634c680edf2ff9d8bae5ebb9035af
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fede81aa8c61eddba72b9ba2e780d61731f8253
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413174"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989253"
 ---
 # <a name="payment-methods-in-call-centers"></a>Greiðslumátar í símaverum
 
@@ -53,6 +52,3 @@ Til að stilla greiðslumáta fyrir rás símavers skal fara í **Retail og Comm
 Fyrir úrvinnslu á endurgreiðslum notar símaverið einnig suma greiðslumátana sem eru skilgreindir í viðskiptakröfum. Til að stilla þessa greiðslumáta skaltu fara í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Endurgreiðslumátar símavers**. Þú verður að ljúka þessum stillingum til að afgreiða endurgreiðsluávísanir til viðskiptavina. Til dæmis, ef viðskiptavinur sem upphaflega greiddi fyrir pöntun með því að nota reiðufé eða ávísun, gæti notandinn viljað senda viðskiptavininum endurgreiðsluávísun í gegnum viðskiptakröfur. Í þessu tilfelli verður að varpa greiðslumáta reiðufés og ávísunar í símaveri á réttan greiðslumáta í viðskiptakröfum til að tryggja að endurgreiðslan sé rétt afgreidd.
 
 Að auki, ef notandi er að vinna úr skilapöntun sem notandi símavers í Commerce, en getur ekki tengt skilin við upprunalega sölu verður greiðslumátinn fyrir **Skila** að vera stilltur í færibreytum símavers. Farðu í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers** og síðan á flipanum **RMA/Skila** í reitnum **Greiðslumáti** skal tryggja að greiðslumáti sé skilgreindur. Greiðslumátinn verður greiðslumátinn sem er notaður fyrir endurgreiðslur. Venjulega verður hann skilgreindur sem annaðhvort prófunaraðferð eða aðferð viðskiptavinalykils.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

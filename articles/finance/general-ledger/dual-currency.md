@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444228"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990465"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
@@ -209,6 +208,3 @@ Virkni sem kynnt var í Dynamics 365 Finance útgáfu 10.0.5 (október 2019) ger
 -  Þú getur nú valið hvort nota á bókhaldsgjaldmiðilinn eða skýrslugjaldmiðilinn frá upprunafyrirtækinu sem viðskiptamynt í samstæðufyrirtækinu.
 
 - Upphæðir bókhalds- eða skýrslugjaldmiðils úr upprunafyrirtækinu verður afritaður beint í upphæðir bókhalds- eða skýrslugjaldmiðils í samstæðufyrirtækinu, ef annar hvor gjaldmiðillinn er sá sami. Fjárhæðir í bókhalds- og skýrslugjaldmiðlum í samstæðufyrirtækinu eru reiknaðar út með gengi ef hvorugur gjaldmiðillinn er sá sami.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444463"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988878"
 ---
 # <a name="import-currency-exchange-rates"></a>Flytja inn gengi gjaldmiðla
 
@@ -56,6 +55,3 @@ Eftirfarandi kaflar lýsa flæði upplýsinga sem er notað til að setja upp og
 | **Hnekkja fyrirliggjandi gengi**   | Þessi gátreitur stjórnar uppfærslu fyrirliggjandi gengis fyrir gjaldmiðilspar þegar gengi fyrir tiltekna dagsetningu er þegar til. Ef þessi gátreitur er ekki valinn verður gengi fyrir tilgreindar dagsetningar ekki flutt inn ef annað gengi er þegar til.                                                                                       |
 | **Koma í veg fyrir innflutning á þjóðhátíðardegi** | Þessi gátreitur stjórnar innflutningi á gengi fyrir þjóðhátíðardag. Til dæmis, ef þú velur þennan gátreit og notar Seðlabanki Evrópu sem gengisveitur mun kerfið ekki uppfæra gengið á þjóðhátíðardegi sem tengist núverandi lögaðila. Þessi valkostur er hugsanlega ekki í boði fyrir einhverjar veitur. |
 | **Gengi fyrri dags** | Þessi gátreitur er í boði ef þú virkjar hann í eiginleikanum **Innflutningur ECB á núverandi eða fyrri dagsetningu** á **Stjórnun eiginleika** síðu. Þessi gátreitur er aðeins í boði fyrir veituna, *Seðlabanki Evrópu*. Veljið þennan gátreit til að flytja inn gengi gjaldmiðils sem birt er af evrópska seðlabankanum á síðasta virka degi um kl. 16:00 CET. Sjálfgefið er að gátreiturinn sé valinn. Hreinsaðu þennan gátreit til að flytja inn gengi gjaldmiðilsins sem birt er á sama virkum degi.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
