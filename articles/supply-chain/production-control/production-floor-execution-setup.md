@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4430642"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966280"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -80,6 +79,3 @@ Efri hluti eftirfarandi myndar sýnir hvernig viðmótið lítur út að sjálfg
 Að sjálfgefnu mun keyrsluviðmót framleiðslugólfs sjálfkrafa skrá sig út ef enginn notar það í 12 klukkustundir. Notandi Supply Chain Management verður þá að skrá sig inn aftur. Hins vegar er hægt að lengja tímamörkin upp í allt að 90 daga.
 
 Til að lengja tímamörkin skal skrá sig inn í Supply Chain Management og fara í **Kerfisstjórnun \> Notendur \> Lengingar á lotu**. Tilgreinið notandareikning Supply Chain Management sem er notaður til að skrá sig inn í tækið og fjölda klukkustunda sem lotan á að vera virk í.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

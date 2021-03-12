@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413050"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965118"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Búa til og skilgreina auknar ábyrgðir
 
@@ -142,7 +141,7 @@ Til að skilgreina númeraröð fyrir ábyrgðarstefnur í Commerce skal fylgja 
 
 Til að setja upp ábyrgðarflokk í Commerce skal fylgja þessum skrefum.
 
-1. Fara skal í  **Smásala og viðskipti \> Afurðir og flokkar \> Ábyrgð \> Ábyrgðarflokkar**.
+1. Fara skal í **Smásala og viðskipti \> Afurðir og flokkar \> Ábyrgð \> Ábyrgðarflokkar**.
 1. Veljið **Nýr** til að búa til ábyrgðarflokk.
 1. Í **Heiti** reitinn, slá inn heiti fyrir nýjan hóp.
 1. Í flipanum **Almennt**, í reitnum **Lýsing**, skal slá inn lýsingu á flokknum.
@@ -239,6 +238,3 @@ Aðeins er hægt að finna kvittanir ef sækja-verk er keyrt til að hlaða upp 
 [Setja upp úrval](set-up-assortments.md)
 
 [Yfirlit númeraraða](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

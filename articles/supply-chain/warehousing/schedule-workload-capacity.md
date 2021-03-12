@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430123"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965578"
 ---
 # <a name="schedule-workload-capacity"></a>Tímasetja afkastagetu vinnuálags
 
@@ -80,6 +79,3 @@ Ef þessar upplýsingar eru ekki tilgreindar á réttan hátt, færðu skilaboð
 3. Í reitnum **Gerð pöntunar** skal velja **Áætlað og staðfest**, **Áætlað** eða **Staðfest** til að tilgreina gerð pantana sem á að spá fyrir í skýrslunni.
 4. Í reitnum **Álagsgerðir** skal velja álagsgerð til að tilgreina hvort spá ætti fyrir um afkastagetu vinnuálags fyrir rúmmál og þyngd.
 5. Í reitnum **Afkastageta vinnuálags** skal velja uppsetningu á afkastagetu vinnuálags.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

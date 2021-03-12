@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsFitAnalysis, MpsIntegrationParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04605370cbcc7b8c13552ae7f999212a1efabfab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430357"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967067"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -53,7 +52,7 @@ Til að sjá útkomu samræmisgreiningar á fínstillingu skipulagningar skal fa
 
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Yfirlit yfir mögulegar niðurstöður samræmisgreiningar
 
-Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna eftir samræmisgreiningu. Númeramerkjum (_\#_) verður skipt út fyrir númer sem tilgreinir fjölda færslna sem eru með uppgefið vandamál.
+Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna eftir samræmisgreiningu. Númeramerkjum (_\#_) verður skipt út fyrir númer sem tilgreinir fjölda færslna sem eru með uppgefið vandamál. Eiginleikar sem eru studdir eða í forútgáfu eru tiltækir með útgáfu 10.0.9 eða nýrri (nema hærra útgáfunúmer sé skráð í dálkinn „Væntanlegt framboð“).
 
 | Eiginleiki | Uppgefið vandamál | Skýring | Væntanlegt framboð |
 | --- | --- | --- | --- |
@@ -66,17 +65,17 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Staðfesting | Vöruþekjufærslur með sjálfvirka staðfestingu stillta: _\#_ | Í útgáfu 10.0.7 og nýrri er sjálfvirk staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn _Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar_ hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
 | Staðfesting | Aðaláætlanir með sjálfvirka staðfestingu stillta: _\#_ | Í útgáfu 10.0.7 og nýrri er sjálfvirk staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn _Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar_ hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
 | FitAnalysisPlanningItems | Vörur í áætlun: _\#_ | Þessi eiginleiki í bið. Sem stendur eru vörur í áætlun meðhöndlaðar eins og venjulegar vörur þegar fínstilling áætlanagerðar er virk. | 2021. október |
-| Spá | Þekjuflokkar með „Hafa með pantanir innan samstæðu“: _\#_ | Þessi eiginleiki í bið. Eins og er inniheldur aðaláætlanagerð ekki áætlaða seinni tíma eftirspurn þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Athugið að útgefnar/staðfestar pantanir virka enn með venjulegu samstæðuaðgerðinni og nær utan um flestar atburðarásir. | 2020. október |
-| Spá | Þekjuflokkar með „Draga úr spá um“ stillinguna stillta á annað gildi en „Pantanir“: _\#_ | Sjálfgefið er að fínstilling áætlanagerðar noti „Draga úr spá um“ fyrir pantanir, óháð þessari stillingu. | Nóvember 2020 |
+| Spá | Þekjuflokkar með „Hafa með pantanir innan samstæðu“: _\#_ | Þessi eiginleiki í bið. Eins og er inniheldur aðaláætlanagerð ekki áætlaða seinni tíma eftirspurn þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Athugið að útgefnar/staðfestar pantanir virka enn með venjulegu samstæðuaðgerðinni og nær utan um flestar atburðarásir. | Í kynningarútgáfu |
+| Spá | Þekjuflokkar með „Draga úr spá um“ stillinguna stillta á annað gildi en „Pantanir“: _\#_ | Sjálfgefið er að fínstilling áætlanagerðar noti „Draga úr spá um“ fyrir pantanir, óháð þessari stillingu. | Stutt |
 | Spá | Spárlíkön með undirspárlíkönum: _\#_ | Þessi eiginleiki í bið. Sem stendur eru spár sem nota undirlíkön ekki studdar þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2021. apríl |
 | Spá | Aðaláætlanir með „Hafa með birgðaspá“ virkt: _\#_ | Þessi eiginleiki í bið. Sem stendur eru birgðaspár ekki studdar þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2021. október |
 | Tímamörk frystingar | Þekjuhópar með stillt á fryst tímamörk staðfestinga: _\#_ | Tímamörk frystingar eru ekki oft notaðar og sem stendur er ekki áformað að hafa þær með í fínstilling áætlanagerðar. Sem stendur er litið framhjá tímamörkum frystingar þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | Á ekki við |
 | Tímamörk frystingar | Vöruþekjufærslur með stillt á fryst tímamörk staðfestinga: _\#_ | Tímamörk frystingar eru ekki oft notaðar og sem stendur er ekki áformað að hafa þær með í fínstilling áætlanagerðar. Sem stendur er litið framhjá tímamörkum frystingar þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | Á ekki við |
 | Tímamörk frystingar | Aðaláætlanir með stillt á fryst tímamörk staðfestinga: _\#_ | Tímamörk frystingar eru ekki oft notaðar og sem stendur er ekki áformað að hafa þær með í fínstilling áætlanagerðar. Sem stendur er litið framhjá tímamörkum frystingar þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | Á ekki við |
-| Innan samstæðu | Aðaláætlanir þ.m.t. áætluð eftirspurn forstreymis: _\#_ | Þessi eiginleiki í bið. Eins og er inniheldur aðaláætlanagerð ekki áætlaða seinni tíma eftirspurn þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Athugið að útgefnar/staðfestar pantanir virka enn með hefðbundnu samstæðuaðgerðinni og nær utan um flestar atburðarásir. | 2020. október |
+| Innan samstæðu | Aðaláætlanir þ.m.t. áætluð eftirspurn forstreymis: _\#_ | Þessi eiginleiki í bið. Eins og er inniheldur aðaláætlanagerð ekki áætlaða seinni tíma eftirspurn þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Athugið að útgefnar/staðfestar pantanir virka enn með hefðbundnu samstæðuaðgerðinni og nær utan um flestar atburðarásir. | Í kynningarútgáfu |
 | Kanban | Vöruþekjufærslur með áætlaða kanban-pöntunargerð: _\#_ | Þessi eiginleiki í bið. Sem stendur verður vöruþekja sem stillt er á kanban hunsuð þegar fínstilling áætlanagerðar er virk. Áætluð kanban-pöntunargerð býr til viðvörun við aðaláætlanagerð og áætlaðar innkaupapantanir verða búnar til til að ná yfir viðeigandi eftirspurn. | 2021. október |
 | Kanban | Vörur með sjálfgefna kanban-pöntunargerð: _\#_ | Sem stendur verður sjálfgefin pöntunargerð sem stillt er á kanban hunsuð þegar fínstilling áætlanagerðar er virk. Áætluð kanban-pöntunargerð býr til viðvörun við aðaláætlanagerð og áætlaðar innkaupapantanir verða búnar til til að ná yfir viðeigandi eftirspurn. | 2021. október |
-| Lífferilsstaða afurðar   | Lífferilsstaða afurðar ekki virk fyrir áætlanagerð: _\#_ | Þetta er eiginleiki í bið. Sem stendur er Lífferilsstaða afurðar hunsuð þegar fínstilling áætlanagerðar er virk. Hægt er að stilla afurðarsíu áætlunarstigs til að koma í veg fyrir að vörur þar sem líftímastaða afurðar er gerð óvirk fyrir áætlanagerð séu teknar með. | Nóvember 2020 |
+| Lífferilsstaða afurðar   | Lífferilsstaða afurðar ekki virk fyrir áætlanagerð: _\#_ | Þetta er eiginleiki í bið. Sem stendur er Lífferilsstaða afurðar hunsuð þegar fínstilling áætlanagerðar er virk. Hægt er að stilla afurðarsíu áætlunarstigs til að koma í veg fyrir að vörur þar sem líftímastaða afurðar er gerð óvirk fyrir áætlanagerð séu teknar með. | Stutt |
 | Framleiðsla | Uppskriftarlínur með sléttun eða margfeldi í uppsetningu: _\#_ | Þessi eiginleiki í bið. Sem stendur verða uppsetningar með sléttun og margfeldi hunsaðar í uppskriftarlínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. apríl |
 | Framleiðsla | Uppskriftar-/formúlulínur með formúlumælingu: _\#_ | Þessi eiginleiki í bið. Sem stendur er formúlumæling hunsuð í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. október |
 | Framleiðsla | Uppskriftar-/formúlulínur með staðgengilsvöru (áætlunarflokka): _\#_ | Þessi eiginleiki í bið. Sem stendur er staðgengilsvara (áætlunarflokkar) hunsaður í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. október |
@@ -85,7 +84,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Uppskrifta-/formúlulínur með skrefanotkun: _\#_ | Þessi eiginleiki í bið. Sem stendur er skrefanotkun hunsuð í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk. | 2021. október |
 | Framleiðsla | Uppskriftir með fastri rýrnun eða breytilegri rýrnun skilgreindar: _\#_ | Þessi eiginleiki í bið. Sem stendur er föst rýrnun og breytileg rýrnun, sem skilgreindar eru í uppskriftum, hunsaðar þegar fínstilling áætlanagerðar er virk. | 2021. október |
 | Framleiðsla | Uppskriftir með úthýsingu: _\#_ | Þessi eiginleiki í bið. Sem stendur er uppsetning úthýsingar í uppskriftum hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. október |
-| Framleiðsla | Uppskriftir án svæðis: _\#_ | Þessi eiginleiki í bið. Sem stendur eru uppskriftir án svæðis hunsaðar þegar fínstilling áætlanagerðar er virk. | 2020. október |
+| Framleiðsla | Uppskriftir án svæðis: _\#_ | Þessi eiginleiki í bið. Sem stendur eru uppskriftir án svæðis hunsaðar þegar fínstilling áætlanagerðar er virk. | Stutt |
 | Framleiðsla | Senda beiðni með skilgreindum kröfum fyrir tiltekna uppskrift eða leið: _\#_ | Þessi eiginleiki í bið. Sem stendur eru tilteknar kröfur uppskriftar eða leiðar, sem skilgreindar eru í eftirspurninni (t.d. undiruppskrift eða undirleið í sölupöntun), hunsaðar þegar fínstilling áætlanagerðar er virk. Stöðluð uppskrift eða leið verður notuð, óháð þessari stillingu. | 2021. október |
 | Framleiðsla | Formúluútgáfur með auka-/hliðarafurðir: _\#_ | Þessi eiginleiki í bið. Sem stendur eru aukaafurðir og hliðarafurðir, sem tengjast formúluútgáfunni, hunsaðar þegar fínstilling áætlanagerðar er virk. | 2021. október |
 | Framleiðsla | Formúluútgáfur með arði: _\#_ | Þessi eiginleiki í bið. Sem stendur er arðurinn sem tengist formúluútgáfunni hunsaður þegar fínstilling áætlanagerðar er virk. | 2021. október |
@@ -97,8 +96,8 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Áætlanagerð með frátekningu framleiðslupantana: _\#_ | Áætlanagerð sem notar útþenslu framleiðslupantana er ekki studd þegar fínstilling áætlanagerðar er virk. Hægt er að áætla hverja framleiðslupöntun fyrir sig. | 2021. október |
 | Beiðnir um tilboð | Aðaláætlanir með beiðnir um tilboð virkar: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki litið á tilboðsbeiðnir sem eftirspurn þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2021. október |
 | Innkaupabeiðnir | Aðaláætlanir með virkar innkaupabeiðnir: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til beiðna þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2021. október |
-| Öryggismörk | Þekjuflokkar með öryggismörk: _\#_ | Þessi eiginleiki í bið. Sem stendur eru öryggismörk hunsuð þegar fínstilling áætlanagerðar er virk. Til að bæta upp fyrir þessa hegðun geturðu aukið afhendingartímann þannig að hann feli í sér öryggismörkin. | 2020. október |
-| Öryggismörk | Aðaláætlanir með öryggismörk: _\#_ | Þessi eiginleiki í bið. Sem stendur eru öryggismörk hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Til að bæta upp fyrir þessa hegðun geturðu aukið afhendingartímann þannig að hann feli í sér öryggismörkin. | 2020. október |
+| Öryggismörk | Þekjuflokkar með öryggismörk: _\#_ | Þessi eiginleiki í bið. Sem stendur eru öryggismörk hunsuð þegar fínstilling áætlanagerðar er virk. Til að bæta upp fyrir þessa hegðun geturðu aukið afhendingartímann þannig að hann feli í sér öryggismörkin. | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl 2021 |
+| Öryggismörk | Aðaláætlanir með öryggismörk: _\#_ | Þessi eiginleiki í bið. Sem stendur eru öryggismörk hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Til að bæta upp fyrir þessa hegðun geturðu aukið afhendingartímann þannig að hann feli í sér öryggismörkin. | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl 2021 |
 | Uppfylling öryggisbirgða | Vöruþekjufærslur með „Uppfylla lágmark“ annað en „Dagurinn í dag + öflunartími“: _\#_ | Fínstilling áætlanagerðar notar alltaf *Dagurinn í dag + öflunartími*. Þessi breyting er gerð til að undirbúa einfalda uppsetningu áætlanagerðar í framtíðinni og til að veita niðurstöður sem hægt er að nýta sér. Ef öflunartíminn er ekki hafður með í öryggisbirgðum, verða alltaf tafir á áætluðum pöntunum sem búnar eru til fyrir núverandi lágar lagerbirgðir vegna afhendingartíma. Þessi hegðun getur valdið verulegum truflunum og óæskilegum áætluðum pöntunum. Besta er að breyta stillingunni þannig að *Dagurinn í dag + öflunartími* er notaður. Uppfæra aðalgögn til að forðast viðvaranir. | Á ekki við |
 | Sölutilboð | Aðaláætlanir með virk sölutilboð: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2021. október |
 | Endingartími | Aðaláætlanir með virkan endingartíma: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til endingartíma þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. október |
@@ -114,6 +113,3 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 [Nota síur á áætlun](plan-filters.md)
 
 [Hætta við áætlunarvinnslu](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

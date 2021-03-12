@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430016"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965806"
 ---
 # <a name="service-subscriptions"></a>Þjónustuáskriftir
 
@@ -38,6 +37,3 @@ Tímabilskóði gefur til kynna lengd áskriftarþóknunartímabilsins, eða me�
 Tímabilskóðinn er skilgreindur í þjónustuáskriftarflokknum. Hann er skilgreindur fyrir áskriftirnar í gegnum þjónustuáskriftarflokkinn. Öll ný áskriftargjöld sem eru stofnuð eru með tillögur að upphafsdagsetningu. Þetta er upphafsdagsetning tímabilsins, ef þetta er fyrsta tímabilið sem er stofnað, eða lok fyrra tímabils ef það er annað eða síðara tímabil.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

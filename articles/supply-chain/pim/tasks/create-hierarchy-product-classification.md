@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439df63a4f8f0cc1c030554d18f80e9934c88b00
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966956"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Stofna stigveldi afurðaflokkunar
 
@@ -67,6 +66,3 @@ ms.locfileid: "4430335"
 8. Í listanum skal smella á tengilinn í valinni línu.
 9. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
