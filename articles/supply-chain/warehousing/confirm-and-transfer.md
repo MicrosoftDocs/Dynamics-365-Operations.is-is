@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430100"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996327"
 ---
 # <a name="confirm-and-transfer"></a>Staðfesta og flytja
 
@@ -230,6 +229,3 @@ Einnig er hægt að staðfesta að tengsl milli færslna hafi verið uppfærð �
 - Valkosturinn **Skipta magni á nýjan farm** virkar einnig þegar einhverjir af eftirstandandi verkhausum eru með stöðuna *Í vinnslu*. Þess vegna er enn hægt að nota virknina jafnvel þótt starfsmenn séu þegar byrjaðir að keyra tiltektarpantanirnar.
 - Ef valið er **Hætta við óuppfyllt magn** á meðan til er verk með stöðuna *Opið* eða *Í vinnslu*, birtast eftirfarandi villuboð: „Ekki er hægt að hætta við eftirstandandi magn fyrir farm. Vinna er til fyrir farm.“
 - Ef valið er **Hætta við óuppfyllt magn** þegar ekkert verk er eftir, en ólosaðar farmlínur eru til fyrir farminn, birtast eftirfarandi villuboð: „Ekki var hægt að staðfesta sendinguna fyrir farm vegna þess að magnið fyrir vöru fer yfir þá prósentu sem skilgreind er fyrir undirafhendingu.“ Til að koma í veg fyrir villuna er hægt að stilla prósentu fyrir **Undir afhendingu** í ólosaðri farmlínu á 100 prósent. Ólosaðar línur verða ekki fluttar á nýjan farm, en núverandi farmur verður staðfestur með undirafhendingu. Í þessu tilfelli verður ekki hægt að endurlosa upprunalega pöntun. Því verður að meðhöndla hana á annan hátt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

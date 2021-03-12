@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528924"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998504"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
 
@@ -62,13 +61,13 @@ Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstillingar við 
 
 | **Field Service** | **Birgðakeðjustjórnun** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Hausar CDS-sölupöntunar |
-| msdyn_workorderservices | CDS sölupöntunarlínur   |
-| msdyn_workorderproducts | CDS sölupöntunarlínur   |
+| msdyn_workorders        | Dataverse hausar sölupöntunar |
+| msdyn_workorderservices | Dataverse sölupöntunarlínur   |
+| msdyn_workorderproducts | Dataverse sölupöntunarlínur   |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
-Vinnapantanir eru búnar til í Field Service. Ef vinnupantanirnar innihalda aðeins utanaðkomandi afurðir og ef gildið **Staða vinnupöntunar** er frábrugðið **Opin-ótímasett** og **Lokað - Hætt við** er hægt að samstilla vinnupantanirnar við Supply Chain Management með Common Data Service-gagnasamþættingarverki. Uppfærslur á vinnupöntunum verða samstilltar sem sölupantanir í Supply Chain Management. Þessar uppfærslur innihalda upplýsingar um upprunagerð og stöðu.
+Vinnapantanir eru búnar til í Field Service. Ef vinnupantanirnar innihalda aðeins utanaðkomandi afurðir og ef gildið **Staða vinnupöntunar** er frábrugðið **Opin-ótímasett** og **Lokað - Hætt við** er hægt að samstilla vinnupantanirnar við Supply Chain Management með Microsoft Dataverse-gagnasamþættingarverki. Uppfærslur á vinnupöntunum verða samstilltar sem sölupantanir í Supply Chain Management. Þessar uppfærslur innihalda upplýsingar um upprunagerð og stöðu.
 
 ## <a name="estimated-versus-used"></a>Metið á móti notað
 
@@ -273,6 +272,3 @@ Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus n
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004) eða (msdyn_allocated ne true))
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

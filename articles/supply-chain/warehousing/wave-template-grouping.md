@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430743"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998379"
 ---
 # <a name="wave-template-grouping"></a>Flokkun bylgjusniðmáts
 
@@ -201,6 +200,3 @@ Ný bylgja var stofnuð fyrir þessa sendingu vegna þess að hún notar aðra f
 1. Veljið bylgjukennið sem stofnað var í þriðju sölupöntuninni.
 1. Veljið tengil bylgjukennis til að opna upplýsingasíðu bylgjunnar.
 1. Takið eftir að sendingunni hefur verið bætt við flýtiflipann **Bylgjulínur**, ásamt sendingunni fyrir fyrstu sölupöntunina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

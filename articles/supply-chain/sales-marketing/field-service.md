@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1b1f88c77ed891839adb57c2ba5e2f72f35fda6d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528900"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998479"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Samþætting við yfirlit Microsoft Dynamics 365 Field Service
 
@@ -32,14 +31,14 @@ ms.locfileid: "4528900"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Supply Chain Management virkjar samstillingu viðskiptaferla á milli Dynamics 365 Supply Chain Management og Dynamics 365 Field Service. Samþættingarsviðin eru grunnstillt með því að nota sniðmát teygjanlegrar gagnasamþættingar og Common Data Service til að gera samþættingu viðskiptaferla virka.
-Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum viðbótarreitum og einingum, til að aðlaga samþættinguna og uppfylla sérstakar viðskiptaþarfir. 
+Supply Chain Management virkjar samstillingu viðskiptaferla á milli Dynamics 365 Supply Chain Management og Dynamics 365 Field Service. Samþættingarsviðin eru grunnstillt með því að nota sniðmát teygjanlegrar gagnasamþættingar og Microsoft Dataverse til að gera samþættingu viðskiptaferla virka.
+Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum dálkum og töflum , til að aðlaga samþættinguna og uppfylla sérstakar viðskiptaþarfir. 
 
 Samþætting field service byggir ofan á fyrirliggjandi prospect-to-cash virknina.
 
 ![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/field-service-integration.png)
 
-Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management einblínir á að gera kleift að reikningsfæra vinnupantanir og samninga frá Field Service til Supply Chain Management. Studda flæðið byrjar í Field Service, þar sem upplýsingar frá vinnupöntunum eru samstilltar við Supply Chain Management sem sölupantanir. Í Supply Chain Management eru sölupantanir innheimtir til að búa til reikningsgögn. Að auki eru upplýsingarnar frá samþykktum reikningum Field Service samstilltar við Supply Chain Management. Gagnasamþætting Microsoft Dynamics 365 samstillir gögn með sérsniðnum verkum. Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum viðbótarreitum, ásamt einingum, til að aðlaga samþættinguna og uppfylla sérstakar kröfur.
+Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management einblínir á að gera kleift að reikningsfæra vinnupantanir og samninga frá Field Service til Supply Chain Management. Studda flæðið byrjar í Field Service, þar sem upplýsingar frá vinnupöntunum eru samstilltar við Supply Chain Management sem sölupantanir. Í Supply Chain Management eru sölupantanir innheimtir til að búa til reikningsgögn. Að auki eru upplýsingarnar frá samþykktum reikningum Field Service samstilltar við Supply Chain Management. Gagnasamþætting Microsoft Dynamics 365 samstillir gögn með sérsniðnum verkum. Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum dálkum og töflum , til að aðlaga samþættinguna og uppfylla sérstakar þarfir.
 
 Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu á eftirfarandi atriðum:
 
@@ -64,12 +63,12 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 ![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Seinni áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu við eftirfarandi sniðmát:
-- Vöruhús (Supply Chain Management í Field Service) - vöruhús úr Supply Chain Management í Field Service [Ítarleg fyrirspurn] 
-- Birgðir afurðar (Supply Chain Management í Field Service) - Upplýsingar birgðastöðu úr Supply Chain Management í Field Service [Ítarleg fyrirspurn] 
-- Birgðaleiðrétting (Field Service til Supply Chain Management) - Birgðaleiðréttingar frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
+- Vöruhús (Framboðsstjórnun að sviði þjónustu) - Vöruhús frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 
+- Birgðir afurðar (Supply Chain Management að Field Service) - Upplýsingar um birgðastöðu frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 
+- Leiðrétting birgða (Field Service til Supply Chain Management) - Leiðrétting birgða frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
 - Birgðaflutningar (Field Service til Supply Chain Management) - Birgðaflutningar frá Field Service til Supply Chain Management [Ítarleg fyrirspurn] 
 - Verk (Supply Chain Management að Field Service) - Verklisti frá Supply Chain Management til Field Service 
-- Vinnupantanir með Verk (Field Service til Supply Chain Management) - Vinnupantanir í Field Service til sölupantana í Supply Chain Management, með stuðningi fyrir Verk [Ítarleg fyrirspurn] 
+- Vinnupantanir með Project (Field Service til Supply Chain Management) - Vinnupantanir í Field Service til sölupantana í Supply Chain Management, með stuðningi fyrir Project [Ítarleg fyrirspurn] 
 - Afurðir Field Service með birgðaeiningu (Supply Chain Management til Sales) - Supply Chain Management „Seljanlegar útgefnar afurðir“ Finance and Operations til „afurða“ Sales fyrir Field Service, þ.m.t. birgðaeiningu 
 
 ## <a name="system-requirements"></a>Kerfiskröfur
@@ -85,6 +84,3 @@ Til að nota samþættingarlausn Field Service verður að setja upp eftirfarand
 - Field Service (útgáfa 8.2.0.286) eða nýrri útgáfa á Dynamics 365 9.1.x - Gefin út í nóvember 2018
 - Prospect to Cash (P2C) lausn fyrir Dynamics 365, útgáfa 1.15.0.1 eða nýrri útgáfa. Lausnina er hægt að sækja hjá [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Samþætting Field Service, verk- og birgðalausnir fyrir Dynamics 365, útgáfa 2.0.0.0 eða nýrri útgáfa. Lausnina er hægt að sækja hjá [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

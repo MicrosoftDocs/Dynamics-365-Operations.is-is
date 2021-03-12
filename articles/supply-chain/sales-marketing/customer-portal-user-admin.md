@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528294"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996777"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
@@ -39,11 +38,11 @@ Myndbandið [Bjóða viðskiptavinum að skrá sig og nota viðskiptavinagáttin
 
 ## <a name="prerequisite-setup"></a>Uppsetning frumskilyrða
 
-Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í einingunni **Tengiliðir** í Common Data Service. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
+Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í töflunni **Tengiliðir** í Microsoft Dataverse. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
 
 ![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
 
-Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja einingavörpunina **Tengiliðir** í tvíritun.
+Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja töfluvörpunina **Tengiliðir** í tvíritun.
 
 ## <a name="the-invitation-process"></a>Boðsferlið
 
@@ -58,15 +57,15 @@ Eftir að tengiliður er stofnaður ætti að vera hægt að sjá hann í Supply
 
 Frekari upplýsingar er að finna í [Skilgreina tengilið til að nota í gátt](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) í fylgiskjali Power Apps-gátta.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Tilbúin vefhlutverk og heimildir eininga
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Tilbúin vefhlutverk og heimildir tafla
 
-Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [heimildum eininga](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
+Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [töfluheimildum](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
 
 ### <a name="out-of-box-web-roles"></a>Tilbúin vefhlutverk
 
 Þessi hluti útskýrir vefhlutverkin sem afhent eru með viðskiptavinagáttinni.
 
-Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota heimildareiningar fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
+Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota töfluheimildir fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
 
 #### <a name="administrator"></a>Kerfisstjóri
 
@@ -96,6 +95,3 @@ Eftirfarandi tafla sýnir hvaða sölupantanir notendur í hverju vefhlutverki f
 
 > [!NOTE]
 > Þótt bæði Sam og Jane séu tengiliðir sem vinna fyrir viðskiptavin X geta þau aðeins séð þær pantanir sem þau hafa gert og ekkert annað. Þótt May sé með pöntun í kerfinu, getur hún ekki séð pöntunina í viðskiptavinagáttinni því að hún er ekki með heimild. (Auk þess hlýtur hún að hafa verið lagt pöntunina inn í gegnum aðra rás en viðskiptavinagáttina.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
