@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413263"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979754"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Setja upp og hanna kvittunarsnið
 
@@ -46,6 +45,10 @@ ms.locfileid: "4413263"
     - **Ekki prenta** - kvittunin er ekki prentuð.
     - **Kvaðning notanda** – notandinn er beðinn um að prenta kvittunina.
     - **Eftir þörfum** – Þessi valkostur er einungis notaður fyrir kvittanir gjafakorts. Þegar þessi valkostur er valinn getur notandi prentað kvittun fyrir gjöf úr á **Breytingu** síðuna, ef þörf er á kvittun fyrir gjöf.
+
+## <a name="print-images"></a>Prenta myndir
+
+Kvittunarhönnuður er með færibreytu **Lógó** sem hægt er að nota til að tilgreina myndir sem á að prenta á kvittunina. Myndir sem eru innifaldar í kvittunum með því að nota **Lógó** breytuna ættu að vera með einlita skráargerðir (.bmp). Ef mynd .bmp mynd er tilgreind í skýrsluhönnuði, en er ekki prentuð þegar hún er send til prentar, getur skráarstærðin verið of stór eða að dílastærð myndarinnar sé ekki samhæf prentaranum. Ef þetta kemur upp skal reyna að minnka upplausn myndskráar.   
 
 ## <a name="design-a-receipt-format"></a>Hanna kvittunarsnið
 
@@ -82,6 +85,3 @@ Kvittunarforstillingar eru tengdar beint í prentara með vélbúnaðarreglu.
 
 > [!NOTE]
 > Ef tveir prentarar eru notaðir, er hægt að nota einn prentara til að prenta staðlaða 40 dálka thermal-kvittanir. Önnur prentara er yfirleitt notað til að prenta kvittun af heilsíðugerð, sem krefjast frekari upplýsingar. Þessar gerðir kvittana innifela pöntun viðskiptavinar og reikningum viðskiptavina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a9010b95cfd0528cd3b532627d19a3b340bdca4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 180035668d9c8a03b83f669af7459725eecc8def
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430027"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981182"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Skrá sem lokið í ekki númeraplötustýrð staðsetningu (Notkun, maí 2016)
 
@@ -62,6 +61,3 @@ ms.locfileid: "4430027"
 18. Smellt er á Upplýsingar um vinnu
     * Þegar framleiðslupöntunin var skráð sem lokið, engin vinna var mynduð fyrir frágangur. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð L0101 er skráð sem lokið á staðsetningu 001.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

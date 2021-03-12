@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413088"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979676"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -82,6 +81,3 @@ Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum. Commerce-h�
 - **HQ er uppfært að hluta en Commerce Scale Unit og sölustaður eru ekki uppfærðir.** Í uppfærslu á HQ er afsláttarmiði og afsláttarsíða uppfærð og viðskiptaverðskerfið er einnig uppfært. Ef aðeins einn af þessum þáttum er uppfærður munu sumar síður í Commerce ekki passa við gögn um verðútreikninga. Þar af leiðandi gætu óvæntir útreikningar á afsláttum eða villur komið upp við útreikning á afsláttum.
 - **HQ er uppfært en Commerce Scale Unit og sölustaður eru ekki uppfærðir (N-1).** Þar sem ekki er hægt að uppfæra allar verslanir samtímis mælum við með því að þú uppfærir HQ áður en verslanir eru uppfærðar. Í atburðarás N-1 verður ný virkni sem er tengd afsláttarmiðum ekki tiltæk í verslunum sem hafa ekki verið uppfærðar. Til dæmis kynnir virkni afsláttarmiða til sögunnar „útiloka“ línur. Ef þú útilokar línur í afslætti eru þær ekki notaðar í verslun sem notast við eldri útgáfu.
 - **HQ er ekki uppfært en Commerce Scale Unit og sölustaður eru uppfærðir (N+1).** Þar sem uppfært verðkerfi í Commerce Scale Unit getur höndlað eldri afsláttarmiðakóða í verðútreikningi ætti uppfærslan ekki að hafa nein áhrif á virkni í þessu tilfelli.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

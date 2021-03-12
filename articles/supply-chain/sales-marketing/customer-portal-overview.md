@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529579"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980807"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management-yfirlit
 
@@ -64,11 +63,8 @@ Viðskiptavinargátt er gefin upp sem Power Apps gáttasniðmát. Það fer efti
 
 [Power Apps gáttir](https://docs.microsoft.com/powerapps/maker/portals/overview) er eiginleiki sem gerir notendum kleift að búa til vefsvæði fyrir almenning sem fólk utan fyrirtækisins geta skráð sig inn á. Lítil eða engin kóðun er nauðsynleg til að búa til gáttir. Viðskiptavinagáttin er eitt margra [sniðmáta Dynamics 365-gáttar](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) sem eru í boði hjá Microsoft.
 
-[Tvöföld skrif](https://docs.microsoft.com/powerapps/maker/portals/overview) er tilbúin kerfisafurð sem býður upp á næstum rauntíma samskipti milli líkanadrifinni forrita í Dynamics 365 og Finance and Operations-forrita. Tvöföld skrif veitir tvíátta samþættingu milli Finance and Operations-forrita og Common Data Service. Þau bjóða þar af leiðandi upp á samþætta notandaupplifun í öllum forritunum. Viðskiptavinagáttin veltur á einingum sem eru samstilltar með tvöföldum skrifum. Áður en hægt er að fara með gögn úr Supply Chain Management í viðskiptavinagáttina verða tvöföld skrif að vera virk fyrir allar viðeigandi einingar.
+[Tvöföld skrif](https://docs.microsoft.com/powerapps/maker/portals/overview) er tilbúið tölvuvörukerfi sem býður upp á samskipti í rauntíma á milli forrita viðskiptavina og Finance and Operations-forrita. Tvöföld skrif veitir tvíátta samþættingu milli Finance and Operations-forrita og Microsoft Dataverse. Þau bjóða þar af leiðandi upp á samþætta notandaupplifun í öllum forritunum. Viðskiptavinagáttin veltur á töflum sem eru samstilltar með tvöföldum skrifum. Áður en hægt er að fara með gögn úr Supply Chain Management í viðskiptavinagáttina verða tvöföld skrif að vera virk fyrir allar viðeigandi töflur.
 
 ![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
 Viðskiptavinagáttin virkar sem upphafspunktur fyrir fyrirtæki sem vilja nota Power Apps-gáttir til að búa til vefsvæði út á við sem notar gögn úr uppsetningu Supply Chain Management. Hún hjálpar fyrirtækjum að tengja saman tvöföld skrif, Supply Chain Management og Power Apps-gáttir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980857"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Sérsníða og nota viðskiptavinagátt
 
@@ -40,9 +39,9 @@ Eftirfarandi efnisatriði munu hjálpa til við að læra grunnatriði varðandi
 - [Stjórna efni gáttar](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Þetta efnisatriði útskýrir hvernig hægt er að stjórna og sérsníða efnið sem er flett upp í gáttinni.
 - [Breyta CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Þetta efnisatriði hjálpar til við að gera flóknari sérsnið í notendaviðmóti gáttarinnar.
 - [Stofna þema fyrir gáttina](https://docs.microsoft.com/dynamics365/portals/create-theme) – Þetta efnisatriði hjálpar til við að stofna þema notandaviðmóts fyrir gáttina þína.
-- [Búa til og sýna efni gáttar á auðveldan hátt](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Þetta efnisatriði hjálpar til við að stjórna undirliggjandi gögnum og einingum sem eru notaðar í gáttinni.
+- [Búa til og sýna efni gáttar á auðveldan hátt](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Þetta efnisatriði hjálpar til við að stjórna undirliggjandi gögnum og töflum sem eru notaðar í gáttinni.
 - [Skilgreina tengilið fyrir notkun á gátt](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Þetta efnisatriði útskýrir hvernig á að búa til og sérsníða notandahlutverk og hvernig öryggi og sannvottun virka í Power Apps gáttum.
-- [Skilgreina athugasemdir fyrir skjámyndir eininga og vefs í gáttum](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Þetta efnisatriði útskýrir hvernig á að bæta skjölum og viðbótargeymslum við gáttina.
+- [Skilgreina athugasemdir fyrir skjámyndir tafla og vefs í gáttum](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Þetta efnisatriði útskýrir hvernig á að bæta skjölum og viðbótargeymslum við gáttina.
 - [Villumeðhöndlun fyrir vefsvæði gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Þetta efnisatriði útskýrir hvernig á að skoða villuskráningar gáttar og geyma þær í blob-geymslureikningi Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Sérsníða stofnferli pantana
@@ -91,7 +90,7 @@ Hér eru stöðluð skref til að senda inn pöntun úr viðskiptavinagátt.
 
 Til að tryggja liprari notendaupplifun fyllir viðskiptavinagáttin sjálfkrafa út gildin fyrir nokkra áskilda reiti. Þessi gildi eru byggð á upplýsingum í tengiliðafærslu viðskiptavinarins sem er að senda pöntunina.
 
-Fyrir hverja [tengiliðafærslu](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) sem tilheyrir viðskiptavini sem notar viðskiptavinagáttina til að senda inn pantanir, verða gildi að vera tilgreind fyrir eftirfarandi áskilda reiti. Annars koma upp villur.
+Fyrir hverja [tengiliðalínu](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) sem tilheyrir viðskiptavini sem notar viðskiptavinagáttina til að senda inn pantanir, verða gildi að vera tilgreind fyrir eftirfarandi áskilda reiti. Annars koma upp villur.
 
 - **Fyrirtæki** – Lögaðili sem pöntunin tilheyrir
 - **Mögulegur viðskiptavinur** - Viðskiptavinalykill sem tengist pöntuninni
@@ -99,7 +98,7 @@ Fyrir hverja [tengiliðafærslu](https://docs.microsoft.com/powerapps/maker/port
 - **Gjaldmiðill** – Gjaldmiðill verðsins
 - **Senda til lands/svæðis** – Landið eða svæðið sem vörurnar verða sendar til
 
-Eftirfarandi reitir eru sjálfkrafa stilltir fyrir einingu sölupöntunar:
+Eftirfarandi reitir eru sjálfkrafa stilltir fyrir töflu sölupöntunar:
 
 - **Tungumál** - Tungumál pöntunarinnar (Gildið er sjálfkrafa tekið úr tengiliðafærslunni.)
 - **Senda til lands/svæðis** – Landið eða svæðið sem vörurnar verða sendar til (gildið er sjálfkrafa tekið úr tengiliðafærslunni.)
@@ -116,7 +115,7 @@ Eftirfarandi reitir eru sjálfkrafa stilltir fyrir einingu sölupöntunar:
 
 Hægt er að breyta að vild útliti og notandaviðmóti viðskiptavinagáttar ef grunnstofnferli pöntunar er ekki breytt. Ef ætlunin er að breyta stofnferli pöntunar þarf að hafa nokkur atriði í huga.
 
-Ekki fjarlægja eftirfarandi reiti úr einingu sölupöntunar í Common Data Service, því að þeir eru nauðsynlegir til að stofna sölupöntun í tvískiptum skrifum:
+Ekki fjarlægja eftirfarandi dálka úr töflu sölupöntunar í Microsoft Dataverse, því að þeir eru nauðsynlegir til að stofna sölupöntun í tvískiptum skrifum:
 
 - **Fyrirtæki** – Lögaðili sem pöntunin tilheyrir
 - **Heiti** - Heiti sölupöntunar
@@ -127,7 +126,7 @@ Ekki fjarlægja eftirfarandi reiti úr einingu sölupöntunar í Common Data Ser
 - **Tungumál** - Tungumál pöntunar (yfirleitt er þetta tungumál hugsanlegs viðskiptavinar.)
 - **Lýsing afhendingaraðseturs** – Afhendingaraðsetur sölupöntunar
 
-Fyrir vörur eru eftirfarandi reitir nauðsynlegir:
+Fyrir vörur eru eftirfarandi dálkar nauðsynlegir:
 
 - **Afurð** – Afurðin sem á að panta
 - **Magn** - Magn valdrar afurðar
@@ -135,11 +134,11 @@ Fyrir vörur eru eftirfarandi reitir nauðsynlegir:
 - **Senda til lands/svæðis** – Land eða svæði afhendingar
 - **Lýsing afhendingaraðseturs** – Afhendingaraðsetur pöntunar
 
-Ganga þarf úr skugga um að viðskiptavinargáttin sendi á einhvern hátt gildi fyrir alla þessa reiti.
+Ganga þarf úr skugga um að viðskiptavinargáttin sendi á einhvern hátt gildi fyrir alla þessa dálka.
 
-Ef bæta á reitum við síðuna, eða fjarlægja reiti, sjá [Stofna eða breyta fljótlegri stofnun skjámynda fyrir einfalda upplifun gagnaskráningar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Ef bæta á dálkum við síðuna, eða fjarlægja dálka, sjá [Stofna eða breyta fljótlegri stofnun skjámynda fyrir einfalda upplifun gagnaskráningar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Ef ætlunin er að breyta því hvernig reitir eru forstilltir og hvernig gildi eru stillt þegar síðan er vistuð skal skoða eftirfarandi upplýsingar í fylgiskjölum Power Apps-gátta:
+Ef ætlunin er að breyta því hvernig dálkar eru forstilltir og hvernig gildi eru stillt þegar síðan er vistuð skal skoða eftirfarandi upplýsingar í fylgiskjölum Power Apps-gátta:
 
 - [Fylla út reiti fyrirfram](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Stilla gildi á vista](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Frekari upplýsingar um hvernig hægt er að setja upp og sérsníða viðskipta
 - [Uppfæra gátt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Flytja grunnstillingu gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 fyrir forrit Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f249348fac526fc7814045b1b1b71c898430c0f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413093"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980432"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
 
@@ -66,7 +65,7 @@ Til að búa til brot sem inniheldur lýsimerki fyrir táknmyndina þína skal f
 1. Í svarglugganum **Nýtt brot** skal velja **Lýsimerki** sem eininguna sem brotið byggir á.
 1. Sláðu inn heiti fyrir brotið og veldu svo **Í lagi**.
 1. Í trjástigveldi brotsins skal velja undireininguna **Sjálfgefin lýsimerki**.
-1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
+1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
 1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta brotið.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Bæta broti lýsimerkis við HTML-haus síðanna þinna
@@ -99,6 +98,3 @@ Til að bæta broti lýsimerkis við **haus** HTML-svæðis síðanna þinna ska
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

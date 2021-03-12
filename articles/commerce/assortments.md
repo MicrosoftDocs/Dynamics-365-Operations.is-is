@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413085"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979999"
 ---
 # <a name="assortment-management"></a>Stjórn vöruúrvals
 
@@ -107,6 +106,3 @@ Fyrst þarf að vinna úr vöruúrvali sem er skilgreint í Commerce áður en �
 - **Sölur og skil utan vöruúrvals** – Þessi möguleiki hjálpar smásölum að stjórna vöruúrvali sínu á árangursríkan hátt með því að leyfa þeim að takmarka fjölda tiltækra afurða til afurða sem tilheyra undirstöðuafurðum samsetningarinnar fyrir verslunina. Þessi möguleiki hjálpar einnig smásölum að takast á við aðstæður þar sem afurð var ranglega sleppt úr vöruúrvali eða þar sem afurð var skilað utan virkra dagsetninga fyrir vöruúrvalið.
 
 Ef afurðargögn eru ekki til í gagnagrunni rásar mun sölustaðurinn hafa samskipti í rauntíma við höfuðstöðvar til að sækja nauðsynlegar upplýsingar svo hægt sé að selja, skila eða setja afurðina á pöntun viðskiptavinar. Afurðarupplýsingar sem eru sóttar með þessum hætti eru aðeins tiltækar á meðan á þessari færslu stendur. Afurðinni er ekki bætt við skilgreiningu vöruúrvalsins. Þess vegna verða næstu samskipti í rauntíma gerð eftir þörfum.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979539"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
 
@@ -48,10 +47,10 @@ Bókhaldsvenjur í mörgum löndum/svæðum krefjast þess að fyrirframgreiðsl
 
 1.  Setja upp bókunarreglur fyrir fyrirframgreiðslur
 2.  Í Færibreytur viðskiptakrafna og Færibreytur lánardrottna, undir **Fjárhags og virðisaukaskatts**, veljið nýja bókunarreglu með því að nota **Bókunarregla með fyrirframgreiðslu fyrir greiðslubók** færibreyta.
-3.  Stofnið greiðslubók og síðan að stofna nýja greiðslu.
+3.  Stofnið greiðslubók og síðan nýja greiðslu.
 4.  Hægt er að merkja greiðsluna sem fyrirframgreiðslu. Ef greiðsla er merkt sem fyrirframgreiðsla, greiðslan er bókuð í fjárhagslyklana sem eru skilgreindar í bókunarreglu sem er sett upp í skrefum 1 og 2. Þar að auki eru skattar reiknaðir, ef greiðsla er merkt sem fyrirframgreiðsla. Sumar yfirvöld krefjast þess að skattar séu greiddir þegar fyrirframgreiðsla er skráð, jafn vel þó enginn sé reikningurinn.
 5.  Bókið fyrirframgreiðsluna
-6.  Valfrjálst: Hægt er að jafna fyrirframgreiðsla við innkaupapöntun eða sölupöntun áður en reikningurinn er stofnaður. Á síðu sölupöntunar eða innkaupapöntunar skal nota **Jafna færslur** á aðgerðasvæðinu.
+6.  Valfrjálst: Hægt er að jafna fyrirframgreiðsla við innkaupapöntun eða sölupöntun áður en reikningurinn er stofnaður. Á sölupöntun eða innkaupapöntun síðu skal nota **Jafna færslur** á aðgerðasvæðinu.
 7.  Skrá reikning eftir ap lánardrottinn skilar vörum eða þjónustu. Ef fyrirframgreiðsla er jöfnuð við innkaupapöntun eða sölupöntun í skrefi 6, er fyrirframgreiðsla sjálfkrafa jaöfnuð við reikning sem þú stofnaðir. Ef fyrirframgreiðsla er ekki jöfnuð við innkaupapöntun eða sölupöntun, geturðu jafnað handvirkt við reikninginn með því að nota **Jafna færslur** síðu viðskiptavinar eða lánardrottins. Upphæð fyrirframgreiðslu er síðan bakfærð úr tímabundna AP/AR fjárhagslykli. Þar að auki, ef skattar voru reiknuð eru þeir bakfærðar, vegna þess að reikningurinn hefur raunverulega skatta.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Yfirlit yfir reikningsfærsluferli fyrirframgreiðslu
@@ -66,6 +65,3 @@ Fyrirframgreiðslureikningar er algengur viðskiptaháttur. Lánardrottinn gefur
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

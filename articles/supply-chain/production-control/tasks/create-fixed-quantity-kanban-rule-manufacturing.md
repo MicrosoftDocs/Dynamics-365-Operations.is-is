@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24eb705bf2de0d175a8a03a4e89ad11c51f15d15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af912ecfb07a7af2f299e354243ba0d80c063a9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430056"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981307"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Stofna kanban í föstu magni fyrir framleiðslu
 
@@ -74,6 +73,3 @@ ms.locfileid: "4430056"
     * Þetta stofnar 5 kanbana.  
     * Athugið að 5 kanbön, fyrir hver 10, voru stofnuð fyrir þessa kanban-reglu framleiðslu. Þetta er síðasta skrefið í þessu ferli.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

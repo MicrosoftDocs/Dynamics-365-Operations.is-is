@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413260"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979804"
 ---
 # <a name="ratings-and-reviews-modules"></a>Einkunna- og umsagnaeiningar
 
@@ -100,6 +99,3 @@ Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt vi�
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

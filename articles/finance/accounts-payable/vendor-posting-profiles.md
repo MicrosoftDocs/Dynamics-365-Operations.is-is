@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43450c5f7ab8295b896b591880da9d0bddd955cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b6447228f00d91fd2dddd43c1ceb57dff0c6df9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444213"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979190"
 ---
 # <a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
 
@@ -119,6 +118,3 @@ Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna
 | **Jöfnun** | Veljið þennan valkost til að virkja sjálfvirka jöfnun fyrir færslur sem eru með þessari bókunarreglu. Ef þessi valkostur er tómur þarftu að jafna færslur handvirkt með því að nota síðuna **Jafna opnar færslur**. |
 | **Hætta við**     | Veljið þennan valkost ef þú vilt geta hætt við færslur sem eru með þessari bókunarreglu.                                                                                                               |
 | **Loka**      | Tilgreinið bókunarreglu sem óskað er eftir að verði breytt yfir í þegar færslur með þessari bókunarreglu eru lokaðar. Litið er á færslu sem lokaða þegar hún hefur verið jöfnuð að fullu.                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
