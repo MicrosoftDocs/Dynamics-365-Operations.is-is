@@ -3,7 +3,7 @@ title: Tvöfaldur gjaldeyrisstuðningur fyrir skatta
 description: Þetta efni útskýrir hvernig á að framlengja tvískiptan gjaldeyrisbókhald á skattalénum og áhrifin á útreikning skatta og bókun
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978601"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Tvöfaldur gjaldeyrisstuðningur fyrir virðisaukaskatt
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ Nánari upplýsingar um tvískiptan gjaldmiðil er að finna í [Tvöfaldur gjal
 
 Sem afleiðing af stuðningi við tvískipta gjaldmiðla eru tveir nýir möguleikar fáanlegir í eiginleikastjórnun: 
 
-- Virðisaukaskattsbreyting (losað í útgáfu 10.0.9)
-- Sjálfvirk staða skattauppgjörs í skýrslugjaldmiðli (losað í útgáfu 10.0.11)
+- Umreikningur virðisaukaskatts (nýtt í útgáfu 10.0.13)
 
 Tvöfaldur gjaldmiðilsstuðningur við virðisaukaskatta tryggir að skattar eru reiknaðir nákvæmlega í skattagjaldmiðlinum og að uppgjörsstaða virðisaukaskatts er reiknuð nákvæmlega bæði í bókhaldsgjaldmiðli og skýrslugjaldmiðli. 
 
@@ -53,8 +51,8 @@ Tvöfaldur gjaldmiðilsstuðningur við virðisaukaskatta tryggir að skattar er
 
 Færibreytan **Virðisaukaskattsbreyting** býður upp á tvo möguleika til að umreikna skattafjárhæð úr færslugjaldmiðli yfir í skattagjaldmiðil. 
 
-- Bókhaldsgjaldmiðill: Slóðin verður „Upphæð í færslugjaldmiðli > Upphæð í bókhaldsgjaldmiðli > Upphæð í skattagjaldmiðli”. Gengisgerð bókhaldsgjaldmiðilsins (stillt í fjárhagsuppsetningu) verður notuð við umreikning gjaldmiðilsins.
-- Skýrslugjaldmiðill: Slóðin verður „Upphæð í færslugjaldmiðli > Upphæð í skýrslugjaldmiðli > Upphæð í skattagjaldmiðli”. Gengisgerð skýrslugjaldmiðilsins (stillt í fjárhagsuppsetningu) verður notuð við umreikning gjaldmiðilsins.
+- Bókhaldsgjaldmiðill: Slóðin verður „Upphæð í færslugjaldmiðli > Upphæð í bókhaldsgjaldmiðli > Upphæð í skattagjaldmiðli”. Gengisgerð bókhaldsgjaldmiðilsins (stillt í fjárhagsuppsetningu) verður notuð fyrir umreikning gjaldmiðils.
+- Skýrslugjaldmiðill: Slóðin verður „Upphæð í færslugjaldmiðli > Upphæð í skýrslugjaldmiðli > Upphæð í skattagjaldmiðli”. Gengisgerð skýrslugjaldmiðils (stillt í fjárhagsuppsetningu) verður notuð fyrir umreikning gjaldmiðils.
 
 ### <a name="example"></a>Dæmi
 
@@ -109,7 +107,7 @@ Fyrir skatt sem eingöngu er vistaður í töflunni TAXUNCOMMITTTED en ekki enn 
 
 ## <a name="tax-settlement-auto-balance-in-reporting-currency"></a>Sjálfvirk staða skattauppgjörs í skýrslugjaldmiðli
 
-Ef skattauppgjörið er ekki jafnað í skýrslugjaldmiðlinum af ákveðnum ástæðum, eins og umreikningsleið virðisaukaskatts er „Bókhaldsgjaldmiðill“ eða gengisbreytingin á stöku skattauppgjörstímabili, mun kerfið sjálfkrafa búa til bókhaldsfærslur til að leiðrétta frávik skattaupphæðar og bóka þær á móti innleystum lykli gengishagnaðar/-taps, sem er stilltur í fjárhagsuppsetningu.
+Ef skattauppgjör er ekki jafnað í skýrslugjaldmiðli af einhverri ástæðu, svo sem að slóð umreiknings virðisaukaskatts er „Bókhaldsgjaldmiðill“, eða gengisbreyting er á einu skattjöfnunartímabili, þá myndar kerfið sjálfkrafa bókhaldsfærslur til að leiðrétta frávik skattupphæðar og mótfærir það gegn innleystum gengishagnaði/taplykli, sem er skilgreindur í fjárhagsgrunni.
 
 Notaðu fyrra dæmið til að sýna fram á þennan eiginleika, gerðu ráð fyrir að gögnin í TAXTRANS töflunni við bókun séu eftirfarandi.
 
@@ -145,6 +143,3 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 - [Tvöfaldur gjaldmiðill](dual-currency.md)
 - [Yfirlit virðisaukaskatts](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

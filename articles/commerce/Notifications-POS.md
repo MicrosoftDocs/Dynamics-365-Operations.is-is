@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c3b8e2774a189f2afefa757e7c4f3885b674918c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976789"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
@@ -77,6 +76,3 @@ Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé a
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 
 ![Beint efni á hnöppum sölustaðar](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

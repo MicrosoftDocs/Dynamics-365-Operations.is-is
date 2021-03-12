@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9ad470d81d94a0af1c4c4dc6c5072354cfd96d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: acdaa3c9ee927b5c333b41927b2a6d245c02b4d8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430035"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977889"
 ---
 # <a name="define-lean-schedule-groups"></a>Skilgreina flokka í markvissri áætlanagerð
 
@@ -56,6 +55,3 @@ flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afu
 3. Í reitnum úthlutunarlykill vöru skal smella á fellilistahnappinn til að opna leitina.
 4. Í listanum skal smella á tengilinn í valinni línu.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

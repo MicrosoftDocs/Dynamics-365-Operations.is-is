@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: da11a474e1bb031fac26e04c91cbdbab5f62eb0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430751"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977354"
 ---
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
@@ -80,6 +79,3 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 1. Í valmyndaratriði fartækis skal opna eyðublað uppsetningar fyrir vinnustaðfestingu: **Vöruhúsakerfi** \> **Vöruhúsakerfi** \> **Uppsetning** \> **Fartæki** \> **Valmyndaratriði fartækis**.
 
 1. Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis. Valkosturinn **Afurðarstaðfesting** leyfir þér að staðfesta hvert stykki af birgðum úr fartæki þegar það er skannað.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

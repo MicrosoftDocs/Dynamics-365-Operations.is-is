@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430034"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977864"
 ---
 # <a name="define-production-flow-models"></a>Skilgreina líkön framleiðsluflæðis
 
@@ -46,6 +45,3 @@ Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-fr
 8. Veljið valkost í reitnum viðbrögð við skorti á Afkastagetu .
     * Valkostirnir eru: Fresta - Frestun fullt eftirspurn röðunartilviksins á næsta tiltæka framleiðslu dag með tiltæk afköst. Hætta við - Ljúka sjálfvirk áætlun fyrir röðunartilvik og hafa tengd verk án áætlunar.   Bæta við umbeðinn dag - Áætla umbeðin verk fyrir umbeðið tímabil. Þetta leggur of mikið álag á reitnum fyrir þennan dag og krefst þess að skipuleggjara endurskoða og framkvæma handvirk samskipti.   Dreifa á tiltækt tímabil - Dreifa á mismunandi verk röðunartilviksins á allir dagar tiltæk framleiðslu, byrja á fyrsta tiltæk degi. Lágmarks magn til dreifingar er magn kanban-vinnsla. Dreifingu úthlutar lágmarks áætlunarmagn (kanban-magn) í hverjum degi með nægilegt gegnumstreymi.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

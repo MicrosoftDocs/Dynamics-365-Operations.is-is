@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: 97790b91d4de536b89b580c26ef1e37145f7d7c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977439"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Staðfesting lotu og númeraplötu
 
@@ -48,6 +47,3 @@ Hægt er að stilla staðfestingu á runu og númeraplötu úr valmynd í fartæ
 
 1. Færið inn uppsetningu á verkstaðfestingu í valmynd fartækisins.  
 1. Veljið valmöguleikann fyrir staðfestingu á annaðhvort runu eða númeraplötu. Báðir valmöguleikar eru í boði fyrir tiltektarvinnu þar sem sjálfkrafa staðfesting er ekki virkjuð.  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

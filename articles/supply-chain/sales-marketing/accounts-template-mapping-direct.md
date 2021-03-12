@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0499f604049240a226b4002710817034598b1e66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529211"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977714"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Samstilla lykla beint úr Sales við viðskiptavini í Supply Chain Management
 
@@ -33,7 +32,7 @@ ms.locfileid: "4529211"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla reikninga beint úr Dynamics 365 Sales í Dynamics 365 Supply Chain Management.
 
@@ -66,11 +65,11 @@ Lyklum er stjórnað í Sales og þeir samstilltir við Supply Chain Management 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect to cash lausn fyrir Sales
 
-Reiturinn **Lykilnúmer** er tiltækur á síðunni **Lykill**. Það er einkvæmur lykill til að styðja við samþættingu. Raunlykilseiginleikinn í Tengslastjórnunarlausninni (CRM) gæti haft áhrif á viðskiptavini sem nota þegar reitinn **Lykilnúmer** en nota ekki einkvæm **Lykilnúmersgildi** fyrir hvern lykil. Eins og er styður samþættingarlausin ekki slík tilfelli.
+Dálkurinn **Lykilnúmer** er í boði á síðunni **Lykill**. Það er einkvæmur lykill til að styðja við samþættingu. Eiginleiki raunlykils fyrir lausnina Tengslastjórnun (CRM) kann að hafa áhrif á viðskiptavini sem hafa þegar notað **Lykilnúmer** dálkinn en notað ekki einkvæm **Lykilnúmer** gildi fyrir hvern lykil. Eins og er styður samþættingarlausin ekki slík tilfelli.
 
 Þegar nýr lykill er stofnaður, og ef **Lykilnúmersgildi** er ekki þegar til, er það sjálfkrafa búið til með talnaröð. Gildið samanstendur af **ACC**, því næst hækkandi talnaröð og svo sex stafa viðskeyti. Hér er dæmi: **ACC-01000-BVRCPS**
 
-Þegar samþættingarlausnin fyrir Sales er notuð, stillir uppfærsluforskrift reitinn **Lykilnúmer** fyrir lykla sem þegar eru til í Sales. Ef engin **Reikningsnúmer** gildi eru til staðar er númeraröðin sem var minnst á áður notuð.
+Þegar samþættingarlausn fyrir Sales er beitt stillir uppfærsluforskrift dálkinn **Númer tengiliðs** fyrir fyrirliggjandi reikninga í Sales. Ef engin **Reikningsnúmer** gildi eru til staðar er númeraröðin sem var minnst á áður notuð.
 
 ## <a name="preconditions-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
@@ -95,12 +94,12 @@ Reiturinn **Lykilnúmer** er tiltækur á síðunni **Lykill**. Það er einkvæ
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
 > [!NOTE]
-> Reitirnir **Greiðsluskilmálar**, **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
+> **Greiðsluskilmálar**, **Farmskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti í sjálfgefinni vörpun. Til að varpa þessum dálkum, verður að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
 
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþættingu. 
 
 > [!NOTE]
-> Vörpunin sýnir hvaða reitaupplýsingar verða samstilltar úr Sales í Supply Chain Management.
+> Vörpunin sýnir hvaða dálkupplýsingar verða samstilltar úr Sales í Supply Chain Management.
 
 ![Sniðmátsvörpun í Gagnasamþættingu](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -117,6 +116,3 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 [Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

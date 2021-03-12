@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444454"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976367"
 ---
 # <a name="reconcile-a-bank-account"></a>Afstemma bankareining
 
@@ -71,6 +70,3 @@ Virknin Hætta við afstemmingu bankayfirlits auðveldar að hætta við afstemm
 Aðeins er hægt að hætta við bankayfirlýsingu í tímaröð sem þau voru færð inn. Þegar afstemming bankayfirlits fellur niður verða nýjum viðskiptum og leiðréttingum snúið við og öll önnur viðskipti merkt sem ósamræmd.
  
 Til að hætta við afstemmingu bankayfirlit skaltu velja bankayfirlitið og velja **Bankayfirlit > Hætt við bankaafstemmingu**. Á síðunni **Hætta við bankaafstemmingu**, veita **Ástæða kóða**, **Ástæða ummæla**, og **Aflýsingardagur**. Veldu **Í lagi** til að hefja niðurfellingu. Athugið að uppsagnadagur bankayfirlits verður að vera á eða eftir dagsetningu reikningsyfirlýsingarinnar. Eftir að afstemming bankayfirlits var felld niður, verðir reiturinn **Aflýsingardagur** fyrir bankayfirlitið uppfærður með veittum **Aflýsingardegi**. Veldu hnappinn **Færslur** til að skoða færslur sem afstemmingunni var aflýst fyrir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

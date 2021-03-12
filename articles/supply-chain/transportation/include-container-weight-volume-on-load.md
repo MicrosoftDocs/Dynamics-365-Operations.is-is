@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b8fb40a0fe1606b856f58f5bc517c7f1aff85e4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430176"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977514"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Taka þyngd og rúmmál gáms með í hleðslu
 
@@ -45,6 +44,3 @@ Fjöldi gáma sem koma til greina fyrir farm er reiknað út frá þyngd og rúm
 -   Til að stilla þyngd og rúmmál fyrir gám skal smella á  **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámagerð**.
 
 -   Til að stilla gámanýtingarhlutfallið, smelltu á **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámaflokkar** og sláðu síðan inn gildi í reitinn **Nýtingarhlutfall gáms**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

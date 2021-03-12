@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea8b5e03282aa21aa9dfa486b1deaced6af4601c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f05034454002fa9c4161b8f2d6cafdaeaa24d32
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430481"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977089"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
 
@@ -76,6 +75,3 @@ Skráðu niður númer innkaupapöntunarinnar sem er stofnuð og athugaðu einni
     * Eftir að smellt hefur verið í lagi, athuga skilaboðastikunni. Það ættu að vera skilaboð sem segja að aðgerðinni sé lokið.  
 5. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

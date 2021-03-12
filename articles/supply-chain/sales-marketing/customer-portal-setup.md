@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529531"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977739"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Setja upp og uppfæra viðskiptavinagátt
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529531"
 Til að innleiða viðskiptavinagáttina þarf að hafa eftirfarandi leyfi:
 
 - **Power Apps gáttir** – Þetta leyfi þarf til að hýsa viðskiptavinagáttina. Gáttir fá leyfi samkvæmt notkun. Frekari upplýsingar er að finna í [Leyfiskröfur Power Apps-gátta](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Tvöföld skrif** - Nauðsynlegt er að hafa réttu leyfin til að virkja tvöföld skrif fyrir einingar Supply Chain Management. Frekari upplýsingar er að finna í [kerfiskröfur fyrir tvöföld skrif](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Tvöföld skrif** - Nauðsynlegt er að hafa réttu leyfin til að virkja tvöföld skrif fyrir töflur Supply Chain Management. Frekari upplýsingar er að finna í [kerfiskröfur fyrir tvöföld skrif](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Tengsl í tvöföldum skrifum og Power Apps-gáttum
 
@@ -39,13 +38,13 @@ Viðskiptavinagáttin er háð Power Apps-gáttum og tvöföldum skrifum eins og
 
 ![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
-Ólíkt öðrum eiginleikum frá Supply Chain Management er sniðmát viðskiptavinagáttar að finna í Power Apps-gáttum. Þess vegna takmarkast viðskiptavinagáttin við virknina og möguleikana sem boðið er upp á af Power Apps-gáttum og einingunum í tvöföldum skrifum.
+Ólíkt öðrum eiginleikum frá Supply Chain Management er sniðmát viðskiptavinagáttar að finna í Power Apps-gáttum. Þess vegna takmarkast viðskiptavinagáttin við virknina og möguleikana sem boðið er upp á af Power Apps-gáttum og töflunum í tvöföldum skrifum.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Nauðsynleg uppsetning til að virkja viðskiptavinagáttina
 
 Eftir að gengið hefur verið úr skugga um að nauðsynleg leyfi séu til staðar, er hægt að setja upp tvöföld skrif eins og lýst er í [leiðbeiningum um fyrstu samstillingu tvöfaldra skrifa](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Ganga skal úr skugga um að virkja eftirfarandi einingavarpanir í tvöföldum skrifum:
+Ganga skal úr skugga um að virkja eftirfarandi töfluvarpanir í tvöföldum skrifum:
 
 - Sölupöntunarhaus
 - Upplýsingar um sölupöntun
@@ -80,12 +79,9 @@ Til að komast að því hvernig á að setja upp og sérsníða viðskiptavinag
 - [Power Apps fylgiskjöl gátta](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Tvískrifuð fylgiskjöl](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Til að stjórna gáttunum á áhrifaríkan hátt þarf að skilja gáttir Power Apps og stuðningstíma Common Data Service. Frekari upplýsingar er að finna í eftirfarandi tilföngum:
+Til að stjórna gáttunum á áhrifaríkan hátt þarf að skilja gáttir Power Apps og stuðningstíma Microsoft Dataverse. Frekari upplýsingar er að finna í eftirfarandi tilföngum:
 
 - [Um stuðningstíma gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Uppfæra gátt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Flytja grunnstillingu gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 fyrir forrit Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
