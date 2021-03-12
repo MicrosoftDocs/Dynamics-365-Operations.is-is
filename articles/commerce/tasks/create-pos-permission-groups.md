@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ffc64fd39a390af3ca7110178ef0999527106dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413209"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964821"
 ---
 # <a name="create-pos-permission-groups"></a>Stofna heimildaflokka sölustaða
 
@@ -48,6 +47,3 @@ ms.locfileid: "4413209"
 16. Í reitinn Heimildaflokkur sölustaðar skal slá inn eða velja gildi. Allir starfsmenn í stöðum fyrir þessa vinnslu munu nota stillingar þessa heimildaflokks sölustaðar nema heimildum sölustaðar starfsmanna hafi verið hnekkt á stöðustigi þeirra.  
 17. Veljið **Vista**. Eftir að breytingar eru vistaðar þarf að keyra dreifingaráætlun Starfsmanns til að færa breytingar á rása.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

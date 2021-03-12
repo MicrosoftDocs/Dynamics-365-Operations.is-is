@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22ff180f09d7f017f7119c4c5e4dd908c3e048e7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444478"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964517"
 ---
 # <a name="create-and-submit-vat-report"></a>Stofna og senda inn VSK-skýrslu
 
@@ -35,6 +34,3 @@ ms.locfileid: "4444478"
 5. Velja Já í svæði Stofna rafrænt skattaskjal.
 6. Smellið á „Í lagi“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

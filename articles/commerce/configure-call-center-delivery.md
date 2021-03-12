@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413064"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963111"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
@@ -95,6 +94,3 @@ Ef þú vilt geturðu tengt flýtikóðann við hvaða afhendingarmáta sem þú
 Til dæmis, fyrir pantanir sem verða fluttar með flugi næsta dag, verður að tiltekt að eiga sér stað í vörugeymslunni fyrir klukkan 13:00 á hverjum degi. Í þessu tilfelli er hægt að búa til flýtikóða og þessi kóða er hægt að tengja við allar gerðir afhendingarmáta fyrir næsta dag, sem eru grunnstilltar í kerfinu. Þegar vörugeymsla býr til tiltektarbylgju má nota viðeigandi flýtikóða í **Flýta** reitnum sem afmörkun, þannig að tiltekt er aðeins keyrð fyrir pantanir sem hafa afhendingarmáta sem tengist þeim kóða.
 
 Að auki, þegar símaverspöntun er færð inn, er hægt að beita flýtikóðanum handvirkt annaðhvort í sölupöntunarhaus eða í einstaka sölupöntunarlínu. Líkt og áður, hægt er að nota kóðann til flokkunar eða skýrslugerðar. Stundum þarf að meðhöndla pöntun gætilega vegna vandamáls í þjónustudeild. Í þessu tilviki er hægt að beita tilteknum flýtikóða á pöntunarhausinn eða línurnar til að hjálpa til við að auðkenna og forgangsraða pöntuninni á meðan uppfyllingarferlinu stendur.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

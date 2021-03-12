@@ -3,7 +3,7 @@ title: Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum
 description: Þetta efni útskýrir hvernig skulu auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum.
 author: peakerbl
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,34 +15,47 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7e25a568b86ce3161e2c52045ff2361c0bc4a0e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: deff97c7728db91089d3ea834d15de738da500fa
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681595"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826369"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig skulu auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum. Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af mismunandi notendum. Þetta hugtak er kallað Aðskilnaður á skyldum. Þegar skilgreining á öryggishlutverki eða hlutverkaúthlutun notanda brýtur reglurnar er árekstur skráður. Allir árekstrar verða leystir af kerfisstjóra. Ljúktu við eftirfarandi til að auðkenna og leysa úr árekstrum. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þetta efni útskýrir hvernig skulu auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum. Hægt er að setja upp reglur til að aðskilja skyldur sem þarf að framkvæma af mismunandi notendum. Þetta hugtak er kallað Aðskilnaður á skyldum. Þegar skilgreining á öryggishlutverki eða hlutverkaúthlutun notanda brýtur reglurnar er árekstur skráður. Allir árekstrar verða leystir af kerfisstjóra. Ljúktu við eftirfarandi til að auðkenna og leysa úr árekstrum.
 
+Þegar reglu hefur verið bætt við skal staðfesta að öll fyrirliggjandi hlutverk séu samhæf. 
 
-## <a name="verify-whether-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Sannprófa hvort hlutverk notanda úthlutun samræmist nýjum reglum fyrir aðskilnað á skyldum
-1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Öryggi > Aðskilnaður á skyldum > Sannreyna skal samræmi notendahlutaverka**.
-2. Veljið **Í lagi**. Ef árekstur kemur upp geturðu opnað síðuna Notandi og breytt hlutverkaúthlutun notanda. Ef árekstur kemur upp geturðu opnað síðuna **Notandi** og breytt hlutverkaúthlutun notanda. Árekstrar er einnig skráðir á síðunni **Árekstrar við aðskilnað á skyldum**. Til að keyra sannprófun sem runuvinnslu skal velja **Runuvinnsla** og stilla síðan aðrar færibreytur runu. Þegar keyrslunni er lokið geturðu yfirfarið áreksturinn á síðunni **Árekstrar aðskilnaðar á skyldum**.  
+## <a name="verify-that-existing-roles-and-duties-comply-with-new-rules-for-segregation-of-duties"></a>Sannprófa hvort fyrirliggjandi hlutverk og skyldur samræmast nýjum reglum fyrir aðskilnað á skyldum
+1. Farið í **Kerfisstjórnun** > **Öryggi** > **Aðskilnaður á skyldum** > **Reglur um aðskilnað á skyldum**.
+3. Veldu **Sannreyna skyldur og hlutverk**. Ef einhver hlutverk brjóta valda reglu eru skilaboð birt sem innihalda heiti hlutverks og heiti þeirra skylda sem rekast á. Laga þarf hlutverk sem stangast á með **Öryggisskilgreiningu** og þau mega ekki innihalda skyldur sem stangast á. Ef ekkert hlutverk brýtur valda reglu birtast skilaboð um að öll hlutverk séu í samræmi.   
+
+> [!NOTE]
+> Prófunin er aðeins framkvæmd fyrir valda reglu. Mikilvægt er að sannprófa reglufylgni fyrir hverja reglu.   
+
+Þegar hlutverk er stofnað eða því breytt er reglum um aðskilnað á skyldum sjálfkrafa beitt. Ekki er hægt að úthluta skyldum sem stangast á við hlutverk.
+
+Næst skal staðfesta að allar fyrirliggjandi úthlutanir hlutverka séu samhæfar.
+
+## <a name="verify-that-user-role-assignments-comply-with-new-rules-for-segregation-of-duties"></a>Sannprófa að hlutverk notanda úthlutun samræmist nýjum reglum fyrir aðskilnað á skyldum
+1. Farið í **Kerfisstjórnun > Öryggi > Aðskilnaður á skyldum > Staðfesta samræmi notendahlutverka**.
+2. Veljið **Í lagi**. Ef árekstur kemur upp geturðu opnað síðuna Notandi og breytt hlutverkaúthlutun notanda. Árekstrar er einnig skráðir á síðunni **Óleystir árekstrar fyrir aðskilnað á skyldum**.   
+
+Þegar notendum er úthlutað á hlutverk er reglum um aðskilnað á skyldum sjálfkrafa beitt. Ef reynt er að úthluta notanda á hlutverk sem fela í sér skyldur sem stangast á, koma upp villuboð. Þá þarf að leysa úr árekstrinum með því að hafna eða leyfa viðbótarúthlutun hlutverks. Viðbótarhlutverki verður úthlutað eftir að úthlutun er leyfð. 
+
+> [!NOTE]
+> Árekstrar eru ekki sem stendur staðfestir fyrir notendur sem úthlutað er hlutverkum sem byggja á flokkum Active Directory Domain.
 
 ## <a name="view-and-resolve-conflicting-user-role-assignments"></a>Skoða og leysa misræmi í hlutverkaúthlutun notanda
-1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Öryggi > Aðskilnaður á skyldum > Árekstrar við aðskilnað á skyldum.** Veldu árekstur og veldu síðan einn af eftirfarandi hnöppum: **Hafna verkefni – Hafna úthlutun notanda á auka öryggishlutverk**. Ef þú hafnar sjálfvirkri hlutverkaúthlutun er notandinn merktur sem útilokað frá hlutverki. Útilokuðum notanda er ekki veittur aðgangur sem tengist hlutverkinu og ekki er hægt að úthluta notandanum á hlutverkið þar til kerfisstjóri fjarlægir útilokunina. Leyfa verkefni – **Hnekkja** árekstri og leyfa notandanum til að úthluta á bæði öryggishlutverk. Ef þú hnekkir árekstri verður að færa inn ástæðu í reitnum **Ástæðu fyrir hnekkingu**.  
-2. Lokið síðunni.
-3. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Öryggi > Aðskilnaður á skyldum > Óleystir árekstrar í aðskilnaði á skyldum.** Veldu árekstur og veldu síðan einn af eftirfarandi hnöppum: **Hafna verkefni – Hafna úthlutun notanda á auka öryggishlutverk**. Ef þú hafnar sjálfvirkri hlutverkaúthlutun er notandinn merktur sem útilokað frá hlutverki. Útilokuðum notanda er ekki veittur aðgangur sem tengist hlutverkinu og ekki er hægt að úthluta notandanum á hlutverkið þar til kerfisstjóri fjarlægir útilokunina. Leyfa verkefni – **Hnekkja** árekstri og leyfa notandanum til að úthluta á bæði öryggishlutverk. Ef þú hnekkir árekstri verður að færa inn ástæðu í reitnum **Ástæðu fyrir hnekkingu**.    
-4. Lokið síðunni.
+1. Farið í **Kerfisstjórnun** > **Öryggi** > **Aðskilnaður á skyldum** > **Óleystir árekstrar fyrir aðskilnað á skyldum**. 
+2. Veljið árekstur og veljið síðan eina af eftirfarandi aðgerðum: 
 
-## <a name="verify-whether-existing-roles-comply-with-new-rules-for-segregation-of-duties"></a>Sannprófa hvort fyrirliggjandi hlutverk samræmast nýjum reglum fyrir aðskilnað á skyldum
-1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Öryggi > Aðskilnaður á skyldum > Reglur varðandi aðskilnaði á skyldum.** Velja reglu.  
-2. Veldu **Sannreyna skyldur og hlutverk**. Ef einhver fyrirliggjandi hlutverk brjóta valda reglu eru skilaboð birt sem innihalda heiti hlutverks og heiti þeirra skylda sem rekast á. Kerfisstjórinn þarf annaðhvort að gefa til kynna mildun á öryggishættunni eða breyta hlutverki þannig að hún brjóti ekki reglur um aðskilnað á skyldum. Ef ekkert hlutverk brýtur valda reglu birtast skilaboð um að öll hlutverk séu í samræmi.  
+  - **Hafna verkefni**: – Þetta mun hafna úthlutun notanda á auka öryggishlutverk. Ef þú hafnar sjálfvirkri hlutverkaúthlutun er notandinn merktur sem útilokað frá hlutverki. Útilokuðum notanda er ekki veittur aðgangur sem tengist hlutverkinu og ekki er hægt að úthluta notandanum á hlutverkið fyrr en kerfisstjóri fjarlægir útilokunina. 
+-  **Leyfa úthlutun**: Þetta hnekkir árekstrinum og leyfir að notanda sé að auki úthlutað öryggishlutverki. Ef þú hnekkir árekstri verður að færa inn ástæðu í reitnum **Ástæðu fyrir hnekkingu**. Hægt er að skoða allar hnekktar úthlutanir hlutverka á síðunni **Árekstrar í aðskilnaði á skyldum**.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> [!NOTE]
+> Ef nokkrir árekstrar eru á listanum fyrir sama notanda skal velja færslu notanda og leggja mat á úthlutuð hlutverk á síðunni **Notendur**. Til að forðast þennan árekstur skal sannprófa hverja reglu fyrir sig þegar búið er að bæta henni við og breyta.

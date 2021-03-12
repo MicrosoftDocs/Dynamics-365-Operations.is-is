@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430148"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963739"
 ---
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
@@ -51,7 +50,7 @@ Birgðafærslur sem fara úr birgðum, þar á meðal sölupantanir, birgðabæk
 
 Jafnanir eru birgðalokunarbókanir sem leiðrétta úthreyfingar í rétt vegin meðaltöl frá og með lokadagsetningunni. 
 
-**Ábending:**  Fyrir frekari upplýsingar um jafnanir, sjá grein um birgðalokun. Eftirfarandi dæmi skýra áhrif þess að nota vegið meðaltal með fimm ólíkum skilgreiningum:
+**Ábending:** Fyrir frekari upplýsingar um jafnanir, sjá grein um birgðalokun. Eftirfarandi dæmi skýra áhrif þess að nota vegið meðaltal með fimm ólíkum skilgreiningum:
 
 -   Bein jöfnun vegins meðaltals dagsetningar án valkostarins **Taka efnislegt virði með**
 -   Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins **Taka efnislegt virði með**
@@ -196,6 +195,3 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

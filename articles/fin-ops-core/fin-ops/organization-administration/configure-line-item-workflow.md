@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72719c9fd03f73b69b558fc0f08eed91ea94ee1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694360"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798830"
 ---
 # <a name="configure-line-item-workflows"></a>Skilgreina verkflæði línuatriðis
 
@@ -54,6 +54,3 @@ Fylgið eftirfarandi skrefum til að tilgreina hvort sama verkflæði er notað 
     6. Hægt er að sannreyna að skilyrðin sem voru færð inn hafi verið sett upp rétt með því að smella á **prófa**. Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu og smelltu svo á **prófa**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst. Smelltu á **Í lagi** eða **hætta við** til að fara aftur síðuna **forstillingar**.
 
     Á **Verkflæði** flipanum, veljið verkflæðið velja verkflæði sem á að nota við vinnslu línuatriði sem uppfylla skilyrðasettin sem þú skilgreindir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

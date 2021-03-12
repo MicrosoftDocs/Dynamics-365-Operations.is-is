@@ -3,7 +3,7 @@ title: DATEFORMAT ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin DATEFORMAT í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/03/2019
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa6bdef2168112aeb17e0edb9f9a6d1b3bd45c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cdc1671f818bc2c4d8a78d0a35337298e83c5060
+ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684933"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "4826012"
 ---
 # <a name="dateformat-er-function"></a>DATEFORMAT ER-aðgerð
 
@@ -52,6 +52,9 @@ Dagsetningargildi sem táknar dagsetningu til að forsníða.
 
 Snið úttaksstrengsins.
 
+> [!NOTE]
+> Sniðstrengurinn tekur tillit til há- og lágstafa þegar notað er annaðhvort staðlað snið eða sérstillt snið. Til dæmis skilar [staðlaða](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) „d“-sniðsákvörðunin dagsetningunni með því að nota stutt dagsetningarsnið á meðan staðlaða „D“-sniðsákvörðunin skilar dagsetningunni með því að nota langt dagsetningarsnið. Auk þess skilar [sérstillt](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx) „M“-sniðsákvörðun mánuðinum frá 1 til 12 á meðan sérstillt „m“-sniðsákvörðun skilar mínútu frá 0 til 59.
+
 `culture`: *Strengur*
 
 Menningin sem á að nota til að forsníða.
@@ -64,7 +67,7 @@ Strenggildið sem myndast.
 
 ## <a name="usage-notes"></a>Notkunarbréf
 
-Þegar menningin er ekki skilgreind sem frumbreyta kallaðrar aðgerðar er gildið `culture` skilgreint af köllunarsamhenginu. Til dæmis, ef aðgerðin `DATEFORMAT` er kölluð með því að nota málskipan 1 á rafrænni skýrslugerð (ER) sniði fyrir **FILE**-þáttinn sem er stillt til að nota þýska menningu verður umbreytingin gerð með því að nota þýska menninguna. Sjálfgefið gildi `culture` er **EN-US**.
+Ef menningin er ekki skilgreind sem frumbreyta fyrir kallaða aðgerð er gildi `culture` skilgreint af samhengi köllunar. Til dæmis, ef aðgerðin `DATEFORMAT` er kölluð með því að nota málskipan 1 á rafrænni skýrslugerð (ER) sniði fyrir **FILE**-þáttinn sem er stillt til að nota þýska menningu verður umbreytingin gerð með því að nota þýska menninguna. Sjálfgefið gildi `culture` er **EN-US**.
 
 ## <a name="example-1"></a>Dæmi 1
 
@@ -77,6 +80,3 @@ Strenggildið sem myndast.
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dagsetningar og tímavirkni](er-functions-category-datetime.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

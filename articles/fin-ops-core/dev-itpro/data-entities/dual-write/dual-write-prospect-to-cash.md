@@ -3,7 +3,7 @@ title: Viðfang til sjóðstreymis í tvískiptingu
 description: Þetta efni veitir upplýsingar um viðfang til sjóðstreymis í tvískiptri skrifun.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683648"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959602"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -37,6 +37,11 @@ Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskipt
 
 ![Tvískipt gagnaflæði í viðfang til sjóðstreymis](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finna í [Samþætt aðalsniðmát viðskiptavinar](customer-mapping.md). Frekari upplýsingar um samþættingu afurðar er að finna í [Samræmd afurðarupplifun](product-mapping.md).
+
+> [!NOTE]
+> Í Dynamics 365 Sales vísa bæði viðfang og viðskiptavinur í færslu í töflunni **Reikningur** þar sem dálkurinn **RelationshipType** er annaðhvort **Viðfang** eða **Viðskiptavinur**. Ef viðskiptagrunnurinn felur í sér hæfnisferilinn **Reikningur** þar sem færslan **Reikningur** er stofnuð og telst hæf sem viðfang fyrst og síðan sem viðskiptavinur mun sú færsla samstillast við Finance and Operations-forritið þegar hún er viðskiptavinur (`RelationshipType=Customer`). Ef ætlunin er að línan **Reikningur** samstillist sem viðfang þarf að sérstillta vörpun til að samþætta viðfangsgögnin.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
 Áður en þú getur samstillt sölutilboð verður þú að uppfæra eftirfarandi stillingar.
@@ -46,11 +51,11 @@ Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskipt
 Í Sölu ferðu í **Stillingar \> Stjórnun \> Kerfisstillingar \> Sala** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
 - Kerfisvalkosturinn **Nota reikningskerfi verðs** er stilltur á **Já**.
-- **Reikningsaðferð reikningsafslátta** reiturinn er stilltur á **Línuatriði**.
+- **Reikningsaðferð reikningsafslátta** dálkurinn er stilltur á **Línuatriði**.
 
 ### <a name="sites-and-warehouses"></a>Svæði og vöruhús
 
-Í Supply Chain Management eru reitirnir **Vefsvæði** og **vörugeymsla** nauðsynlegir fyrir tilboðslínur og pöntunarlínur. Ef þú stillir vefinn og vöruhúsið í sjálfgefnum pöntunarstillingum verða þessir reitir sjálfkrafa stilltir þegar þú bætir vöru við tilboðslínu eða pöntunarlínu. 
+Í Supply Chain Management eru dálkarnir **Vefsvæði** og **vörugeymsla** nauðsynlegir fyrir tilboðslínur og pöntunarlínur. Ef þú stillir vefinn og vöruhúsið í sjálfgefnum pöntunarstillingum verða þessir dálkar sjálfkrafa stilltir þegar þú bætir vöru við tilboðslínu eða pöntunarlínu. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Númeraröð fyrir tilboð og pantanir
 
@@ -62,9 +67,9 @@ Til dæmis er númeraröðin í Supply Chain Management **1, 2, 3, 4, 5, ...** o
 
 Sölutilboð má stofna í annaðhvort Sales eða Supply Chain Management. Ef þú býrð til tilvitnun í Sales er það samstillt við Supply Chain Management í rauntíma. Eins, ef þú býrð til tilboð í Supply Chain Management er það samstillt við Sales í rauntíma. Athugið eftirfarandi stig:
 
-+ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð**, **Afsláttur**, **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
-+ Reitirnir **Afsláttur %**, **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
-+ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Dálkarnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er dálkunum **Verð**, **Afsláttur**, **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
++ Dálkarnir **Afsláttur %**, **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru skrifvarðir.
++ Dálkarnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum dálkum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
 
 Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færibreytuna **Flýtistofnun tilboðslínu**. Með því að virkja breytuna aftur geturðu haldið áfram að búa til tilboðslínur með flýtiaðgerðinni.
 1. Farðu í Dynamics 365 Sales forritið.
@@ -82,7 +87,7 @@ Sölupantanir má stofna í annaðhvort Sales eða Supply Chain Management. Ef �
 + Afsláttarútreikningur og sléttun:
 
     - Útreikningur útreikningslíkansins í Sales er frábrugðin útreikningslíkaninu í Supply Chain Management. Í Supply Chain Management má endanlega afsláttarverð á sölulínu vera niðurstaða af samsetningu af afslætti og afsláttarhlutföllum. Ef lokaafsláttarupphæð er skipt eftir magni sem er á línunni, getur sléttun átt sér stað. Hins vegar er sléttunin ekki talin með ef afsláttarupphæð á einingu er samstillt við Sales. Til að tryggja að öll afsláttarupphæðin úr sölulínu í Supply Chain Management sé rétt samstillt við Sales verður heildarupphæðin að vera samstillt án þess að vera skipt eftir líumagni. Þess vegna verður þú að skilgreina afsláttarreikningsaðferðina sem **Línuvara** í Sales.
-    - Þegar sölupöntunarlína er samstillt úr Sales í Supply Chain Management er heildarlínuafsláttarupphæðin notuð. Vegna þess að Supply Chain Management hefur engan reit sem geymir heildarfjárhæðina fyrir línu, er upphæðinni skipt niður með magni og geymt á reitnum **Línuafsláttur**. Öll frávik sem eiga sér stað eru vistuð í reitnum **Sölulaun** á sölulínunni.
+    - Þegar sölupöntunarlína er samstillt úr Sales í Supply Chain Management er heildarlínuafsláttarupphæðin notuð. Vegna þess að Supply Chain Management hefur engan dálk sem geymir heildarfjárhæðina fyrir línu, er upphæðinni skipt niður með magni og geymt á dálkinum **Línuafsláttur**. Öll frávik sem eiga sér stað eru vistuð í dálkinum **Sölulaun** á sölulínunni.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Dæmi: Samstilling úr Sales við Supply Chain Management
 
@@ -98,7 +103,7 @@ Ef þú samstillir úr Supply Chain Management í sölu færðu eftirfarandi ni�
 
 ## <a name="dual-write-solution-for-sales"></a>Tvöfaldur skrifa lausn fyrir sölu
 
-Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni. Flestir þessir reitir birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðureitum er varpað er að finna í [Setja upp vörpun fyrir stöðureiti sölupantana](sales-status-map.md).
+Nýjum dálkum hefur verið bætt við töfluna **Pöntun** og birtast á síðunni. Flestir þessir da´lkar birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðudálkum er varpað er að finna í [Setja upp vörpun fyrir stöðudálka sölupantana](sales-status-map.md).
 
 + Hnapparnir **Stofna reikning** og **Hætta við pöntun** á síðunni **Sölupöntun** eru faldir í Sales.
 + Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[Status\]** stillt á **Virkt**.
@@ -107,18 +112,18 @@ Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðu
 
 Sölureikningar eru búnir til í Supply Chain Management og samstilltir við Sales. Athugið eftirfarandi stig:
 
-+ Reitnum **Reikningsnúmer** er bætt við eininguna **Reikningur** og birtur á síðunni.
++ Dálkinum **Reikningsnúmer** hefur verið bætt við töfluna **Reikningur** og birtist á síðunni.
 + Hnappurinn **Stofna reikning** á síðunni **Sölupöntun** er falinn vegna þess að reikningar verða búnir til í Supply Chain Management og samstilltir við Sales. Ekki er hægt að breyta síðunni **Reikningur** vegna þess að reikningar verða samstilltir úr Supply Chain Management.
 + **Staða sölupöntunar** breytist sjálfkrafa í **Reikningsfært** þegar tengdur reikningur úr Supply Chain Management hefur verið samstilltur við Sales. Einnig var eiganda sölupöntunar sem reikningurinn var búinn til úr úthlutað sem eiganda reikningsins. Því getur eigandi sölurekningsins skoðað reikninginn.
-+ Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
++ Dálkarnir **Flutningsskilmálar**, **Afhendingarskilmálar** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum dálkum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
 
 ## <a name="templates"></a>Sniðmát
 
 Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman í gagnasamskiptum, eins og sýnt er í eftirfarandi töflu.
 
-| Finance and Operations-smáforrit | Líkanadrifin forrit í Dynamics 365 | lýsing |
+| Finance and Operations-smáforrit | Forrit viðskiptavinatengsla | lýsing |
 |-----------------------------|-----------------------------------|-------------|
-| Sölureikningshausar V2    | reikningar                          |             |
+| Sölureikningshausar V2    | reikningar                          | Sölureikningshausar V2 í töflu í Finance and Operations-forritinu innihalda reikninga fyrir sölupantanir og reikninga með frjálsum texta. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
 | Sölureikningslínur V2      | invoicedetails                    |             |
 | Hausar CDS-sölupöntunar     | salesorders                       |             |
 | CDS sölupöntunarlínur       | salesorderdetails                 |             |
@@ -135,6 +140,11 @@ Hér eru tengd kjarnatöflukort fyrir viðfang til sjóðstreymis:
 + [Allar afurðir í msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Verðlisti](product-mapping.md)
 
+## <a name="limitations"></a>Takmarkanir
+- Skilapantanir eru ekki studdar.
+- Kreditnótur eru ekki studdar.
+- Stilla verður fjárhagsvíddir fyrir aðalgögnin, til dæmis viðskiptavin og lánardrottin. Þegar viðskiptavini er bætt við tilboð eða sölupöntun flæða fjárhagsvíddirnar sem tengjast viðskiptavinafærslunni til pöntunarinnar sjálfkrafa. Sem stendur inniheldur tvöföld skráning ekki gögn fjárhagsvídda fyrir aðalgögn. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
@@ -150,6 +160,3 @@ Hér eru tengd kjarnatöflukort fyrir viðfang til sjóðstreymis:
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

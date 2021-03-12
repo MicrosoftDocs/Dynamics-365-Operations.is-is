@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4453807"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839550"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Birgðir til ráðstöfunar í tvíritun
 
@@ -58,5 +58,63 @@ Glugginn skilar ATP upplýsingum frá Supply Chain Management. Þessar upplýsin
 - Magn úthreyfingar
 - Lagerbirgðir
 
+## <a name="how-it-works"></a>Hvernig það virkar
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Þegar hnappurinn **Lagerbirgðir** er valinn á síðunni **Tilboð**, **Pantanir** eða **Reikningar** er sjálfkrafa komið á tengingu við API fyrir **Lagerbirgðir**. API reiknar lagerbirgðir fyrir viðkomandi afurð. Niðurstaðan er geymd í töflunum **InventCDSInventoryOnHandRequestEntity** og **InventCDSInventoryOnHandEntryEntity** og er svo skrifuð í Dataverse með tvöfaldri skráningu. Til að nota þessa virkni þarf að keyra eftirfarandi kort með tvöfaldri skráningu. Sleppa upphaflegri samstillingu þegar kortin eru keyrð.
+
+- Lagerbirgðafærslur CDS-birgða (msdyn_inventoryonhandentries)
+- Beiðnir um lager CDS-birgða (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Sniðmát
+Eftirfarandi sniðmát eru í boði fyrir birgðagögn á lager.
+
+Finance and Operations-smáforrit | Forrit viðskiptavinatengsla | lýsing 
+---|---|---
+[Lagerbirgðafærslur CDS-birgða](#145) | msdyn_inventoryonhandentries |
+[Beiðnir um lager CDS-birgða](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Lagerbirgðafærslur CDS-birgða (msdyn_inventoryonhandentries)
+
+Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Dataverse.
+
+Svæði í Finance and Operations | Gerð vörpunar | Reitur viðskiptavinatengsla | Sjálfgildi
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Beiðnir um lager CDS-birgða (msdyn_inventoryonhandrequests)
+
+Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Dataverse.
+
+Svæði í Finance and Operations | Gerð vörpunar | Reitur viðskiptavinatengsla | Sjálfgildi
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+
