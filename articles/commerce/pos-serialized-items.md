@@ -3,24 +3,23 @@ title: Vinna með raðaðar vörur á sölustaðnum
 description: Í þessu efnisatriði er útskýrt hvernig á að stjórna röðuðum vörum í forriti sölustaðar.
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413272"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972556"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Vinna með raðaðar vörur á sölustaðnum
 
@@ -90,11 +89,49 @@ Til að virkja slíka staðfestingu þarf að áætla eftirfarandi verk til að 
 - **Retail og Commerce** > **Upplýsingatækni Retail og Commerce** > **Vörur og birgðir** > **Afurðaframboð með rakningarvíddum**
 - **Retail og Commerce** > **Dreifingaráætlanir** > **1130** (**Afurðarframboð**)
 
+## <a name="sell-serialized-items-in-pos"></a>Selja raðaðar vörur á sölustað
+
+Á meðan forrit sölustaðar hefur alltaf stutt sölu á röðuðum vörum, í Commerce útgáfu 10.0.17 og nýrri, geta fyrirtæki virkjað aðgerð sem bætir viðskiptagrunninn sem ræsist þegar afurðir eru seldar sem eru stilltar á rakningu raðnúmers.
+
+Þegar eiginleikinn **Bætt prófun raðnúmers þegar pantanir eru sóttar og uppfylltar á sölustað** er virkjaður eru eftirfarandi afurðarafbrigði metin þegar raðaðar afurðir eru seldar á sölustað:
+
+- Uppsetningin **Gerð raðar** fyrir afurð (**virk** eða **virk í sölu**).
+- Stillingarnar **Auð úthreyfing heimil** fyrir afurðina.
+- Stillingin **Efnislega neikvæð birgðastaða** fyrir afurðina og/eða vöruhús sölu.
+
+### <a name="active-serial-configurations"></a>Skilgreiningar virkrar röðunar
+
+Þegar vörur eru seldar á sölustað sem er skilgreindur með rakningarvídd raðnúmers sem **Virka**, kveikir sölustaður á prófunarreglu sem kemur í veg fyrir að notendur ljúki sölu á raðaðri vöru með raðnúmeri sem finnst ekki í núverandi birgðum söluvöruhúss. Tvær undantekningar eru á þessari prófunarreglu:
+
+- Ef varan er einnig skilgreind með **Auð úthreyfing heimil** virkt geta notendur sleppt innslætti raðnúmers og selt vöruna án raðnúmers.
+- Ef varan og/eða söluvöruhúsið er skilgreint með **Efnislega neikvæð birgðastaða** virkt samþykkir forritið og selur raðnúmer sem ekki er hægt að staðfesta að sé í birgðum í vöruhúsinu sem það er selt úr. Þessi skilgreining leyfir að birgðafærslan fyrir þessa tilteknu vöru/raðnúmer verði neikvæð og kerfið leyfir þar af leiðandi sölu á óþekktum raðnúmerum.
+
+> [!IMPORTANT]
+> Til að tryggja að forrit sölustaðar geti staðfest almennilega hvort raðnúmerin sem verið er að selja fyrir vörur með **Virka** raðnúmeragerð séu í birgðum í söluvöruhúsi, þurfa fyrirtæki að keyra verkið **Afurðaframboð með rakningarvíddum** í Commerce Headquarters og tilheyrandi **1130** dreifingarverk afurðaframboðs í gegnum Commerce Headquarters með reglulegu millibili. Þegar nýjar raðaðar birgðir eru mótteknar inn í söluvöruhús, til þess að sölustaður geti staðfest birgðaframboð raðnúmer sem eru seld, verður yfirnotandi birgða að uppfæra reglulega gagnagrunnsrásins með nýjustu gögnum um birgðaframboð. Verkið **Afurðaframboð með rakningarvíddum** tekur skyndimynd af yfirbirgðum, þ.m.t. raðnúmerum, fyrir öll vöruhús fyrirtækis. Dreifingarvinnslan **1130** tekur þessa skyndimynd af birgðum og deilir henni með öllum skilgreindum gagnagrunnsrásum.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Skilgreiningar virkrar röðunar í söluferli
+
+Vörur sem eru skilgreindar með röðunarvíddum sem **Virkar í söluferli** fara ekki í gegnum neinar prófunarreglur á birgðum þar sem þessi skilgreining gerir í skyn að þessi raðnúmer birgða séu ekki forskráð í birgðir og raðnúmerin eru aðeins sótt þegar sala á sér stað.  
+
+Ef **Auð úthreyfing heimil** er einnig skilgreind fyrir skilgreindar vörur í **Virkt í söluferli**, er hægt að sleppa innslætti númers. Ef **Auð úthreyfing heimil** er ekki skilgreind krefst forritið þess að notandinn slái inn raðnúmer jafnvel þótt það verði ekki sannprófað gagnvart tiltækum birgðum.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Nota raðnúmer þegar færslur sölustaðar eru búnar til
+
+Forriti sölustaðar biður notendur strax um að sækja raðnúmer þegar röðuðu vara er seld, en forritið leyfir notendum að sleppa innslætti raðnúmera upp að ákveðnu marki í söluferlinu. Þegar notandinn byrjar að sækja greiðslu gerir forritið kröfu um innslátt raðnúmers fyrir allar vörur sem ekki eru skilgreindar til að vera uppfylltar í gegnum sendingar eða afhendingar í framtíðinni. Allar raðaðar vörur sem eru skilgreindar fyrir staðgreiðslu eða taka með krefjast þess að notandinn sæki raðnúmerið (eða samþykki að skilja það eftir autt ef vöruafbrigðið leyfir það) áður en hann lýkur sölunni.
+
+Fyrir raðaðar vörur sem seldur eru fyrir sótt eða sent í framtíðinni, geta notendur sölustaðar sleppt innslætti raðnúmersins og samt lokið við stofnun viðskiptavinapöntunar.   
+
+> [!NOTE]
+> Þegar raðaðar afurðir eru seldar eða uppfylltar í gegnum forrit sölustaðar er magn upp á „1“ sett inn fyrir raðaðar vörur í sölufærslunni. Þetta er vegna þess hvernig upplýsingar um raðnúmer eru raktar í sölulínunni. Þegar færsla er seld eða uppfyllt fyrir margar raðaðar vörur í gegnum sölustað verður hver sölulína aðeins skilgreind með magninu „1“. 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Nota raðnúmer við uppfyllingu eða tiltekt pöntunar viðskiptavinar
+
+Þegar pöntunarlínur viðskiptavina eru uppfylltar fyrir raðaðar afurðir með aðgerðinni **Uppfylling pöntunar** á sölustað, þá krefst sölustaður að raðnúmerið sé sótt á undan lokauppfyllingu. Ef raðnúmer var þar af leiðandi ekki gefið upp þegar pöntun var upphaflega sótt, þarf að sækja það í tiltektar-, pökkunar- eða sendingarferlum á sölustað. Prófun er gerð í hverju skrefi og notandinn verður aðeins spurður um gögn raðnúmersins, hvort það vanti eða er ekki lengur gilt. Til dæmis ef notandi sleppir tiltektar- eða pökkunarskrefunum og setur strax af stað sendingu, og raðnúmer hefur ekki verið skráð fyrir línuna, mun sölustaður krefjast þess að raðnúmerið verði slegið inn áður en lokið verður við lokaskref reiknings. Þegar framfylgja á að raðnúmerið verði sótt í aðgerðum pöntunaruppfyllingar á sölustað, eiga allar reglur sem minnst var á áður í þessu efnisatriði enn við. Aðeins raðaðar vörur sem eru skilgreindar sem **Virkar** fara í gegnum prófun á raðnúmeri birgða. Vörur sem eru skilgreindar sem **Virkar í söluferli** verða ekki staðfestar. Ef **Efnislega neikvæð birgðastaða** er leyfð fyrir **Virkar** afurðir, verður hvaða raðnúmer sem er samþykkt, óháð birgðaframboði. Fyrir bæði vörur sem eru **Virkar** og **Virkar í söluferli**, ef **Auð úthreyfing heimil** er skilgreind, getur notandi skilið raðnúmer eftir auð ef þess er óskað í tiltektar-, pökkunar- og sendingarskrefum.
+
+Prófanir á raðnúmerum munu einnig eiga sér stað þegar notandi framkvæmir aðgerðir fyrir sótt í pöntunum viðskiptavina á sölustað. Forrit sölustaðar leyfir ekki að sótt verði klárað á raðaðri afurð nema hún standist prófanir eins og hefur verið minnst á hér áður. Prófanir byggjast alltaf á rakningarvídd afurðarinnar og skilgreiningum söluvöruhúss. 
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Birgðaaðgerð á innleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Birgðaaðgerð á útleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

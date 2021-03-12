@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d627633e43c2e6f5cad90dfe4100ff95a71541f7
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 274fcc73b48282a8025a210dd488105500609d5a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444586"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971429"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Tengja eignir við leigu
 
@@ -54,6 +53,3 @@ Nú er hægt að afskrifa eignina með því að nota staðlaða afskriftarvirkn
 
 > [!NOTE]
 > Ef eign er tengd við leigusamning eru hnapparnir **Afskrift eigna** og **Virðisrýrnun leigusamnings** óvirkir í eignarleigu. Hægt er að skoða færslur fyrir afskriftir eigna og virðisrýrnun leigusamninga úr eignum. Hnappurinn **Eignarfærslur**, sem opnar fyrirspurnarskjámynd er einnig gerður óvirkur. Einnig er hægt að opna **Eignarfærslur** fyrirspurnarskjámyndina í Eignir.  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

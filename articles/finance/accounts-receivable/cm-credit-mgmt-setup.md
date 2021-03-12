@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98ea865812a0ef187697fadbfc6f576df6595db4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444346"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971754"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -79,6 +78,3 @@ Nokkrar tölfræði um lánastjórnun er að finna í upplýsingareitnum **Tölf
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Númeraraðir og samnýttar færibreytur númeraraða
 
 Auðkenni dagbókar er krafist til að vinna úr leiðréttingum á lánamörkum. Þú verður að bæta við leiðréttingarnúmeri fyrir lánsfjárhæð sem ætti að nota til að búa til dagbókarauðkenni.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

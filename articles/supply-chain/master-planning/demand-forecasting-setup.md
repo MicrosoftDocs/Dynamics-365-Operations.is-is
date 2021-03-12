@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d0de588d54948d89f636cadeb66c3d9e6878015
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b7b0976494a8bb128ae6bb40cbcdf7c691185f23
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430577"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970507"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -84,8 +83,8 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarsp�
 - **Prósentuhlutfall öryggisstigs**: Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að framtíðareftirspurnar falli utan sviðs áreiðanleikabils.
 - **Þvinga árstíðabindingu**: Tilgreinir hvort neyða eigi líkanið til að nota ákveðna tegund árstíðabundnar. Á við einungis um ARIMA og ETS. Valkostir: AUTO (sjálfgefið), NONE, ADDITIVE, MULTIPLICATIVE.
 - **Spárlíkan**: Valkostir: ARIMA, ETS, STL, ETS + ARIMA, ETS + STL, ALL. Til að velja besta líkanið skaltu velja **ALL**.
-- **Hámarksfjöldi spáðra gilda**: Tilgreinir hámarksgildið sem á að nota fyrir spár. Snið: + 1E[n] eða föst tala.
-- **Lágmarksfjöldi spáðra gilda**: Tilgreinir lágmarksgildið sem á að nota fyrir spár. Snið: -1E[n] eða föst tala.
+- **Hámarksfjöldi spáðra gilda**: Tilgreinir hámarksgildið sem á að nota fyrir spár. Snið: + 1E [n] eða föst tala.
+- **Lágmarksfjöldi spáðra gilda**: Tilgreinir lágmarksgildið sem á að nota fyrir spár. Snið: - 1E [n] eða föst tala.
 - **Gildisskipti vantar**: Tilgreinir hvernig eyður í sögulegum gögnum eru fylltar. Valkostir: tölugildi, MEAN, PREVIOUS, INTERPOLATE LINEAR, INTERPOLATE POLYNOMIAL.
 - **Umfang gildissviðs vantar**: Tilgreinir hvort gildisbreytingin eigi einungis við um gagnasvið sérhverrar uppskiptingareigindar eða fyrir allt gagnasafnið. Valkostir: GRANULARITY_ATTRIBUTE (sjálfgefið), GLOBAL.
 - **Árstíðarbundin vísbending**: Fyrir árstíðabundin gögn, gefðu vísbendingu um spárlíkanið til að bæta nákvæmni spárinnar. Snið: heiltala tala, sem táknar fjölda ramma sem eftirspurnarmynstur endurtekur sig. Til dæmis skaltu slá inn „6“ fyrir gögn sem endurtaka sig á 6 mánaða fresti.
@@ -102,6 +101,3 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarsp�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

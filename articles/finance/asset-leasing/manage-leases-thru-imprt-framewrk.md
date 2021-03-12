@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d7a7d2afd8f352bc167ec8c0a354ee4ac0a9e77b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7df2f55f596cab54315c2da2ec0492422514f49c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444585"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971304"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Vinna með leigusamninga í innflutningsramma leigusamnings
 
@@ -83,6 +82,3 @@ Ef verið er að nota innflutningsramma leigusamnings til að uppfæra leigusamn
 
 1. Opnaðu **Eignarleiga \> Innflutningsrammi leigusamnings \> Uppsetning \> Uppfæra val á svæði**.
 2. Á síðunni sem birtist eru svæði valin til að uppfæra og síðan er græna örin valin til að færa þau yfir í listann yfir **Valin svæði**. Aðeins er hægt að uppfæra svæði á listanum **Valin svæði** með því að nota innflutningspakka leigusamnings.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
