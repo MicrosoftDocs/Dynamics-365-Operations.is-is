@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7d6e3dea1b3c1ef47490df678f639c036cdd5c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430243"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021705"
 ---
 # <a name="asset-criticality-types"></a>Mikilvægisgerðir eigna
 
@@ -62,6 +61,3 @@ Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti a
 - Gagnrýnin á verkbeiðni er endurútreiknuð í hvert skipti sem vinnupöntunarlínu er bætt við eða henni eytt úr verkbeiðninni.
 - Ef verkbeiðni inniheldur nokkur vinnupöntunarstörf er mesta gagnrýni samkvæmt **Þáttur** reit á síðunni **Gerðir gagnrýni**, er alltaf notuð í nni.
 - Almennt getur gagnrýni eigna breyst á tímabili. Gagnrýni getur orðið fyrir áhrifum af kaup á nýjum búnaði, endurbótum og svo framvegis. Íhugaðu að endurmeta eignatengsl þitt með reglulegu millibili (til dæmis einu sinni á ári eða annað hvert ár) til að ganga úr skugga um að skilgreiningar á mikilvægi þínu samsvari núverandi framleiðsluuppsetningunni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

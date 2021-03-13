@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430225"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022031"
 ---
 # <a name="install-assets-on-functional-locations"></a>Setja upp eignir á virkum staðsetningum
 
@@ -83,6 +82,3 @@ Eftir að uppsetningargögnin eru tiltæk ertu tilbúinn að búa til eign.
 1. Á síðunni **Allar virkar staðsetningar**, vertu viss um að virka staðsetningin þar sem þú vilt að eignin verði sjálfkrafa búin til noti þá gerð virkrar staðsetningar sem þú bjóst til í þessu skyni.
 2. Velja virka staðsetningu á listanum.
 3. Veldu **Uppfærðu stöðu virkrar staðsetningar**, og veldu síðan líftímastöðuna sem þú bjóst til í þessum tilgangi. Ein eign er nú sjálfkrafa sett upp á virkri staðsetningu. Þessi eign er með sama kenni og heiti og virka staðsetningin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

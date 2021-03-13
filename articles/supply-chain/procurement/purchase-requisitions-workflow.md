@@ -1,7 +1,7 @@
 ---
 title: Verkflæði fyrir innkaupabeiðni
 description: Verkflæðisferlið færir innkaupabeiðnir í endurskoðunarferli úr upphaflegu stöðunni Drög í endanlegu stöðuna Samþykkt. Þegar innkaupabeiðni er sent til endurskoðunar, hefst verkflæðisferli. Eftir að innkaupabeiðnin er samþykkt getir innkaupapöntun verið myndað fyrir innkaupabeiðnilínur og send til lánardrottins fyrir uppfyllingu pöntunar.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a9dceb3f9e71163dcaf8b8763317110ef019844
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430179"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021981"
 ---
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
@@ -121,6 +120,3 @@ Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
