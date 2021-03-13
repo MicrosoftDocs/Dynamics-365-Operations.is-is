@@ -1,7 +1,7 @@
 ---
 title: Samstarf með lánardrottnum í gegnum gátt lánardrottins
 description: Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 4aece4fd621be803abe5011e40785f6a3301924f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430765"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019104"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
@@ -104,6 +103,3 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Setja upp fjárhagsáætlunargerðar stöðu
 description: Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88253
 ms.assetid: c44df01b-8700-4022-b4c6-c4b1cb84d31d
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afddc9815ee3864236f93c8400bcf116d5b6cc89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444470"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017618"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Setja upp fjárhagsáætlunargerðar stöðu
 
@@ -64,6 +63,3 @@ Dagsetningar á línu spástöðu kostnaðareiningarinnar verða að vera innan 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Yfirlit yfir beiðnir um tilboð
 description: Í þessu efnisatriði er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430747"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016932"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -247,6 +246,3 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT eftir því sem kauptilboð eru 
 | Samþykkja eitt af tilboðunum. (eða að minnsta kosti ein lína) |                          Móttekið                           |                           Samþ.                           |                    Móttekið                    |                    Samþ.                     |                   Móttekið                   |                   Samþ.                    |
 |           Hafna öllum öðrum kauptilboðum.           |                          Hafnað                           |                           Samþ.                           |                    Hafnað                    |                    Samþ.                     |                   Hafnað                   |                   Samþ.                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

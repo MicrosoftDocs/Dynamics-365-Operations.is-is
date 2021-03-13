@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430440"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020654"
 ---
 # <a name="asset-management-parameters"></a>Færibreytur eignastýringar
 
@@ -34,25 +33,24 @@ ms.locfileid: "4430440"
 > [!NOTE]
 > Ef þú vilt setja upp kerfi sem inniheldur kynningu gagna til að prófa eiginleika Eignastýringar, sjá [Uppsetning sýniútgáfuumhverfis](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) fyrir leiðbeiningar.
 
-Tengillinn **Eignir**
+## <a name="the-assets-tab"></a>Eignaflipinn
+
+ Flipinn **Eignir** býður upp á eftirfarandi stillingar:
 
 - **Sjálfgefin staðsetning** er staðalbúnaðurinn, sem er sjálfkrafa valinn á eignir þegar þú býrð til nýjar eignir.  
 - Í reitnum **Venjulegt dagatal** velurðu dagatal sem á að nota til að reikna KPI eigna ef engin auðlind er valin á eign.  
 - Í reitnum **Skoða** veldu staðalskjáinn sem sýndur er þegar þú opnar **Eignasýn** (**Eignastýring** > **Sameiginlegt** > **Eignir** > **Eignasýn**).
 - **Sjálfgefin tegund beiðni** er venjuleg tegund viðhaldsbeiðni, sem er sjálfkrafa valin þegar þú býrð til nýja beiðni.  
-- Ef þú vilt búa til verkefni sem tengjast eignum, tengsl verkefna varðandi val á **Aðalverkefni**, **Stigveldi verkefnis**, og möguleikinn á **Búðu til verkefni sjálfkrafa** eru settar upp í **Breytur eignastýringar**.  
-- Í reitnum **Verksía verkbeiðni** skilgreinir þú fjölda undirverkefna sem leyfðar eru fyrir vinnupantanir og undireignir. Verksía verkbeiðni er notaður til að skilgreina hve margar verkbeiðnir er hægt að búa til á eign og nota í tengda verkbeiðnaverkefni. Verksía verkbeiðni er sett upp í reitnum **Tengd sía verkbeiðni** í **Færibreytur eignastýringar** (**Eignastýring** > **Uppsetning** > **Færibreytur eignastýringar** > **Verkbeiðnir**).  
-    >[!NOTE]
-    >Snið fyrir tengda verksíu verkbeiðni er fjöldi endamerkja (#), allt eftir hámarksfjölda verkbeiðna sem þú býst við að búa til á eign. Dæmi: ## gerir þér kleift að búa til allt að 99 undirverkefni.  
 - Spár um vinnslugerðir eru vistaðar í verkinu sem valið var í reitnum **Spáð verk**. Fyrir hverja verkgerð er ný virkni búin til í spáverkefninu. Spár um verkgerðina eru síðan vistaðar í spáverkefninu.  
-- Í reitnum **Líkan** veldu spálíkanið sem notað er við verkgerð og verkbeiðnispár.  
+- Í reitnum **Líkan** veldu spálíkanið sem notað er við verkgerð og verkbeiðnispár.
 
+## <a name="the-work-orders-tab"></a>Flýtiflipi verkbeiðna
 
-Tengillinn **Verkbeiðnir**
+Flipinn **Verkbeiðnir** býður upp á eftirfarandi stillingar:
 
 - **Sjálfgefin gerð verkbeiðna** skilgreinir staðlaðar stillingar við stofnun verkbeiðni.  
 - **Gerð fyrirbyggjandi verkbeiðni** skilgreinir gerð verkbeiðni sem notuð er við stofnun verkbeiðna úr viðhaldsáætlunum. Ef þessi reitur er látinn vera auður er gerð verkbeiðnar í reitnum **Sjálfgefin gerð verkbeiðni** notaður.  
-- Í reitnum **Tengd sía verkbeiðni** skilgreinir þú hámarksfjölda verkbeiðna sem geta tengst verkbeiðni. Til dæmis gerir ## þér kleift að hafa allt að 99 verkbeiðnir tengdar. Ef sía er skilgreind eins og hér er lýst verða tengdar vinnupantanir númeraðar [ verkbeiðnikenni verkbeiðninnar sem verkbeiðnin tengist] -01, -02, -03 o.s.frv. Ef þú skilgreinir ekki síu á þenan reit fær tengd verkbeiðni næsta röð verkskilríkja.  
+- Í reitnum **Tengd sía verkbeiðni** skilgreinir þú hámarksfjölda verkbeiðna sem geta tengst verkbeiðni. Til dæmis gerir ## þér kleift að hafa allt að 99 verkbeiðnir tengdar. Ef þú skilgreinir síu eins og lýst er hér, verða tengdar verkbeiðnir tölusettar [verkskilríki verkbeiðninnar sem verkbeiðni tengist] -01, -02, -03, og svo framvegis. Ef þú skilgreinir ekki síu á þenan reit fær tengd verkbeiðni næsta röð verkskilríkja.  
 - Veldu **Já** fyrir **Afrita bilanir** ef þú vilt sjálfkrafa afrita bilanir sem eru skráðar í verkbeiðnum í tengdar viðhaldsbeiðnir. 
 - Í reitnum **Stig** skilgreinir þú virkt staðsetningarstig sem er sjálfkrafa sett inn í verkbeiðni ef öll tengd verkpöntunarstörf vísa til sömu virku staðsetningar. Ef verkbeiðnistörfin tengjast ekki öll sama virku staðsetningu á skilgreindu stigi er reiturinn **Virk staðsetning** hafður auður í verkbeiðninni. Til dæmis, ef þú setur töluna „1“ inn í þennan reit, þá er það efsta stigið í virkri staðsetningu. Ef þú setur inn töluna „0“ í þennan reit hefur þú ekki skilgreint sérstakt virkni staðsetningarstig, aðeins að öll verkbeiðnistörf í verkbeiðni verða að tengjast sama virku staðsetningu fyrir þá virku staðsetningu til að vera bætt við verkbeiðni.  
 - Hægt er að velja bækur sem notuð eru þegar neysla er lögð í verkbeiðni á flýtiflipanum **Almennt** í reitunum **Klukkustund**, **Liður**, og **Kostnaður**.  
@@ -67,8 +65,9 @@ Tengillinn **Verkbeiðnir**
     - Uppsetning á viðhaldslotur  
 - Á flytiflipanum **Flokkur** er hægt að skilgreina sjálfgefna flokka sem varða neyslu í verkbeiðnum.  
 
+## <a name="the-work-order-scheduling-tab"></a>Áætlanaflipi verkbeiðni
 
-Tengill **Tímasetningar verkbeiðni**
+Flipinn **Áætlanagerð verkbeiðni** býður eftirfarandi stillingar á flýtiflipanum **Almennt**:
 
 - **Tímamörk áætlunar** skilgreinir tímabil í dögum, reiknað út frá áætluðum upphafsdegi verkbeiðni, þar sem verkbeiðnir eru skipulögð.  
 - **Aðaláætlun** snýr að auðlindum í einingunni **Fyrirtækisstjórnun**. Ef þú velur aðalskipulag á þessu sviði muntu geta séð fyrirvara um afkastagetu sem tengjast verkbeiðni í **Frátekin afkastageta** (flipinn **Fyrirtækisstjórnun** > **Tilföng** > **Tilföng** > velja tilföng > flipinn **Tilföng** > hnappurinn **Frátekin afkastageta**). Ef þú hefur þennan reit auðan geturðu séð álag sem tengist verkbeiðnum í **Álag** (**Fyrirtækisstjórnun** \> **Tilföng** \> **tilföng** \> velja tilföng á flipanum \> **Tilföng** \> hnappnum **Álag**).  
@@ -100,13 +99,10 @@ Reitirnir sem lýst er í eftirfarandi lista tengjast allir reiknuðum matseinku
   - Að því gefnu að enginn ábyrgur starfsmaður og ábyrgur starfsmannahópur hafi verið valinn í vinnuskipun sem á að skipuleggja - þú bætir við og dregur frá stigagjöf í dæmunum í reitunum **Æskilegur starfsmaður**, **Valinn starfsmannahópur**, **Eignastaðsetning** og **Upphafsdagur** hér að ofan færðu samtals 3.010,00. Þetta þýðir háa einkunn fyrir starfsmanninn sem þegar er valinn valinn starfsmaður sem og innifalinn í valinn starfsmannahópur í vinnutilskipuninni, og starfsmaðurinn er einnig staðsettur í sömu aðstöðu og eignin sem þarf að skipuleggja starf fyrir. Það þýðir að góðar líkur eru á því að viðkomandi starfskraftur verði valinn til að ljúka verkinu meðan á tímasetningu vinnu stendur.  
   - Ef gildið „0,00“ er sett inn í einn af átta reitum hér að ofan, verður það einkunnagjöf ekki notuð við tímasetningu verkbeiðni.  
 
-Tengillinn **Gerðir skjala**
+## <a name="the-document-types-tab"></a>Flipi skjalagerðar
 
 Veldu skjalategundirnar sem eiga að vera tiltækar til að prenta viðhengi sem tengjast vinnuskýrslu. Þetta er gert með því að velja skjalagerðina í hlutanum **Laus** og velja hnappinn ![áfram ör](media/15-setup-for-objects.png). Ef þú vilt fjarlægja valda skjalategund skaltu velja skjalagerðina í hlutanum **Valið** og velja ![aftur ör](media/16-setup-for-objects.png).
 
-Tengillinn **Númeraraðir**
+## <a name="the-number-sequences-tab"></a>Flipinn Númeraraðir
 
 Veldu nauðsynlegar töluraðir í þessum kafla. Það eru tvær töluraðir fyrir eignir: ein fyrir handvirkt stofnaðar eignir og ein fyrir eignir búnar til með eignum í bið.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

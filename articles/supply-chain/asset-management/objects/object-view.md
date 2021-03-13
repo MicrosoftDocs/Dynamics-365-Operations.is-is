@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc4cd9ada9c1f64b434cd657eb5f5654c1328ef4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430468"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019405"
 ---
 # <a name="asset-view"></a>Eignayfirlit
 
@@ -48,6 +47,3 @@ Kenni virkrar staðsetningar / Kenni virkar staðsetningar (ef það eru fleiri 
 Ef þú hefur valið eign í trjáskjánum geturðu valið **Virkar beiðnir** eða **Virkar vinnupantanir** til að skoða viðhaldsbeiðnir eða verkbeiðnir sem tengjast eigninni. Þú getur líka valið **Opið** \> **Virk staðsetning**, **Eignir**, eða **Uppskrift eignar** til að opna tengda sýn.
 
 Valkosturinn **Virkar staðsetningar eigna** sem þú getur valið í **Skoða** reiturinn er einnig fáanlegur í hvaða eignaleit þar sem þú getur valið eign. Trjásýnin er sýnt á **Eignamat** flipann, til dæmis þar sem þú [stofnar eign](../objects/create-an-object.md), búðu til viðhaldsbeiðni eða stofnaðu verkbeiðni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

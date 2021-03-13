@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413253"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017468"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir
 
@@ -150,6 +149,3 @@ Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en 
 Eftirfarandi eldri virkni fjárhagssamþættingar sem er fáanleg í Retail SDK notar ekki ramma fjárhagssamþættingar og verður úrelt í síðari uppfærslum:
 
 - [Dæmi um samþættingu stjórntækja fyrir Svíþjóð (eldra)](./retail-sdk-control-unit-sample.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
