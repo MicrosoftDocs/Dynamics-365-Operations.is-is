@@ -11,47 +11,46 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7080af2059c9c9bcdd11ca0ee9c5e339cef69302
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430473"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021505"
 ---
-# <a name="warranty-agreements"></a><span data-ttu-id="89fa1-103">Ábyrgðarsamningar</span><span class="sxs-lookup"><span data-stu-id="89fa1-103">Warranty agreements</span></span>
+# <a name="warranty-agreements"></a><span data-ttu-id="e407b-103">Ábyrgðarsamningar</span><span class="sxs-lookup"><span data-stu-id="e407b-103">Warranty agreements</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
 
-<span data-ttu-id="89fa1-104">Í eignastjórnun geturðu sett upp ábyrgðarskilmála sem hægt er að tengja við eign eða eignategund.</span><span class="sxs-lookup"><span data-stu-id="89fa1-104">In Asset Management, you can set up warranty terms that can be connected to an asset or an asset type.</span></span> <span data-ttu-id="89fa1-105">Ábyrgðarskilmálar eru búnir til fyrir tiltekið tímabil.</span><span class="sxs-lookup"><span data-stu-id="89fa1-105">Warranty terms are created for a specific period.</span></span> <span data-ttu-id="89fa1-106">Hægt er að setja upp ábyrgð til að veita fulla tryggingu eða hlutfallslega tryggingu og þú getur sett upp skilmála sem tengjast tíma, kostnaði og vörum.</span><span class="sxs-lookup"><span data-stu-id="89fa1-106">Warranty can be set up to provide full coverage or partial coverage, and you can set up terms that are related to hours, expenses, and items.</span></span>
+<span data-ttu-id="e407b-104">Í eignastjórnun geturðu sett upp ábyrgðarskilmála sem hægt er að tengja við eign eða eignategund.</span><span class="sxs-lookup"><span data-stu-id="e407b-104">In Asset Management, you can set up warranty terms that can be connected to an asset or an asset type.</span></span> <span data-ttu-id="e407b-105">Ábyrgðarskilmálar eru búnir til fyrir tiltekið tímabil.</span><span class="sxs-lookup"><span data-stu-id="e407b-105">Warranty terms are created for a specific period.</span></span> <span data-ttu-id="e407b-106">Hægt er að setja upp ábyrgð til að veita fulla tryggingu eða hlutfallslega tryggingu og þú getur sett upp skilmála sem tengjast tíma, kostnaði og vörum.</span><span class="sxs-lookup"><span data-stu-id="e407b-106">Warranty can be set up to provide full coverage or partial coverage, and you can set up terms that are related to hours, expenses, and items.</span></span>
 
-<span data-ttu-id="89fa1-107">Fyrsta skrefið er að búa til hvaða ábyrgðarsamninga lánardrottna sem þú hefur fyrir búnaðinn þinn.</span><span class="sxs-lookup"><span data-stu-id="89fa1-107">The first step is to create any vendor warranty agreements that you have for your equipment.</span></span> <span data-ttu-id="89fa1-108">Þú hengir síðan ábyrgðarsamninga við eignir eða eignategundir.</span><span class="sxs-lookup"><span data-stu-id="89fa1-108">You then attach warranty agreements to assets or asset types.</span></span> <span data-ttu-id="89fa1-109">Ábyrgðarsamningar lánardrottna eru aðeins notaðir til upplýsinga.</span><span class="sxs-lookup"><span data-stu-id="89fa1-109">Vendor warranty agreements are used only for informational purposes.</span></span> <span data-ttu-id="89fa1-110">Ef ábyrgð lánardrottins er sett upp á eign geturðu séð ábyrgðartímabil tryggingar á eigninni.</span><span class="sxs-lookup"><span data-stu-id="89fa1-110">If vendor warranty is set up on an asset, you can see the warranty coverage period on the asset.</span></span>
+<span data-ttu-id="e407b-107">Fyrsta skrefið er að búa til hvaða ábyrgðarsamninga lánardrottna sem þú hefur fyrir búnaðinn þinn.</span><span class="sxs-lookup"><span data-stu-id="e407b-107">The first step is to create any vendor warranty agreements that you have for your equipment.</span></span> <span data-ttu-id="e407b-108">Þú hengir síðan ábyrgðarsamninga við eignir eða eignategundir.</span><span class="sxs-lookup"><span data-stu-id="e407b-108">You then attach warranty agreements to assets or asset types.</span></span> <span data-ttu-id="e407b-109">Ábyrgðarsamningar lánardrottna eru aðeins notaðir til upplýsinga.</span><span class="sxs-lookup"><span data-stu-id="e407b-109">Vendor warranty agreements are used only for informational purposes.</span></span> <span data-ttu-id="e407b-110">Ef ábyrgð lánardrottins er sett upp á eign geturðu séð ábyrgðartímabil tryggingar á eigninni.</span><span class="sxs-lookup"><span data-stu-id="e407b-110">If vendor warranty is set up on an asset, you can see the warranty coverage period on the asset.</span></span>
 
-## <a name="create-a-warranty-agreement"></a><span data-ttu-id="89fa1-111">Stofna ábyrgðarsamning</span><span class="sxs-lookup"><span data-stu-id="89fa1-111">Create a warranty agreement</span></span>
+## <a name="create-a-warranty-agreement"></a><span data-ttu-id="e407b-111">Stofna ábyrgðarsamning</span><span class="sxs-lookup"><span data-stu-id="e407b-111">Create a warranty agreement</span></span>
 
-<span data-ttu-id="89fa1-112">Í ábyrgðarsamningi geta verið nokkrar samningslínur til að standa straum af ábyrgðinni á vinnutíma, kostnaði og hlutum.</span><span class="sxs-lookup"><span data-stu-id="89fa1-112">A warranty agreement can include several agreement lines to cover the warranty for work hours, expenses, and items.</span></span>
+<span data-ttu-id="e407b-112">Í ábyrgðarsamningi geta verið nokkrar samningslínur til að standa straum af ábyrgðinni á vinnutíma, kostnaði og hlutum.</span><span class="sxs-lookup"><span data-stu-id="e407b-112">A warranty agreement can include several agreement lines to cover the warranty for work hours, expenses, and items.</span></span>
 
-1. <span data-ttu-id="89fa1-113">Veldu **Eignastýring** \> **Uppsetning** \> **Eignir** \> **Ábyrgð**.</span><span class="sxs-lookup"><span data-stu-id="89fa1-113">Select **Asset management** \> **Setup** \> **Assets** \> **Warranty**.</span></span>
-2. <span data-ttu-id="89fa1-114">Veljið **Ný** til að stofna nýja afurð.</span><span class="sxs-lookup"><span data-stu-id="89fa1-114">Select **New** to create a product.</span></span>
-3. <span data-ttu-id="89fa1-115">Í reitinn **Ábyrgð** skaltu færa inn kenni ábyrgðar.</span><span class="sxs-lookup"><span data-stu-id="89fa1-115">In the **Warranty** field, enter a warranty ID.</span></span> 
-4. <span data-ttu-id="89fa1-116">Færið inn lýsandi nafn í reitinn **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="89fa1-116">In the **Name** field, enter a description.</span></span>
+1. <span data-ttu-id="e407b-113">Veldu **Eignastýring** \> **Uppsetning** \> **Eignir** \> **Ábyrgð**.</span><span class="sxs-lookup"><span data-stu-id="e407b-113">Select **Asset management** \> **Setup** \> **Assets** \> **Warranty**.</span></span>
+2. <span data-ttu-id="e407b-114">Veljið **Ný** til að stofna nýja afurð.</span><span class="sxs-lookup"><span data-stu-id="e407b-114">Select **New** to create a product.</span></span>
+3. <span data-ttu-id="e407b-115">Í reitinn **Ábyrgð** skaltu færa inn kenni ábyrgðar.</span><span class="sxs-lookup"><span data-stu-id="e407b-115">In the **Warranty** field, enter a warranty ID.</span></span> 
+4. <span data-ttu-id="e407b-116">Færið inn lýsandi nafn í reitinn **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="e407b-116">In the **Name** field, enter a description.</span></span>
 
-    <span data-ttu-id="89fa1-117">Á flýtflipanum **Upplýsingar** sýnir reiturinn **Eignir** fjölda virkra eigna sem nota ábyrgðarsamninginn.</span><span class="sxs-lookup"><span data-stu-id="89fa1-117">On the **Details** FastTab, the **Assets** field shows the number of active assets that use the warranty agreement.</span></span>
+    <span data-ttu-id="e407b-117">Á flýtflipanum **Upplýsingar** sýnir reiturinn **Eignir** fjölda virkra eigna sem nota ábyrgðarsamninginn.</span><span class="sxs-lookup"><span data-stu-id="e407b-117">On the **Details** FastTab, the **Assets** field shows the number of active assets that use the warranty agreement.</span></span>
 
-5. <span data-ttu-id="89fa1-118">Í flýtiflipanum **Ábyrgðarlínur** skal fylgja þessum skrefum til að bæta við línum sem eiga að vera með í ábyrgðarsamningi:</span><span class="sxs-lookup"><span data-stu-id="89fa1-118">On the **Warranty lines** FastTab, follow these steps to add lines that should be included in a warranty agreement:</span></span>
+5. <span data-ttu-id="e407b-118">Í flýtiflipanum **Ábyrgðarlínur** skal fylgja þessum skrefum til að bæta við línum sem eiga að vera með í ábyrgðarsamningi:</span><span class="sxs-lookup"><span data-stu-id="e407b-118">On the **Warranty lines** FastTab, follow these steps to add lines that should be included in a warranty agreement:</span></span>
 
-    1. <span data-ttu-id="89fa1-119">Veljið **Bæta við línu** til að bæta nýju skilyrði við ábyrgðina.</span><span class="sxs-lookup"><span data-stu-id="89fa1-119">Select **Add line** to add a new condition to the warranty.</span></span> <span data-ttu-id="89fa1-120">Raðlínunúmer er sjálfvirkt sett inn í reitinn **Lína**.</span><span class="sxs-lookup"><span data-stu-id="89fa1-120">A sequential line number is automatically entered in the **Line** field.</span></span>
-    2. <span data-ttu-id="89fa1-121">Í reitinn **Tímabil** skal velja gerð ábyrgðartímabils.</span><span class="sxs-lookup"><span data-stu-id="89fa1-121">In the **Period** field, select the type of warranty period.</span></span>
-    3. <span data-ttu-id="89fa1-122">Í reitinn **Tímabil** skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="89fa1-122">In the **Interval** field, enter a number.</span></span> <span data-ttu-id="89fa1-123">Þessi reitur skilgreinir fjölda tímabila sem ábyrgðin ætti að gilda fyrir.</span><span class="sxs-lookup"><span data-stu-id="89fa1-123">This field defines the number of periods that the warranty should be valid for.</span></span>
-    4. <span data-ttu-id="89fa1-124">Í reitnum **Prósenta** slærðu inn tryggingarhlutfall fyrir ábyrgðarlínuna.</span><span class="sxs-lookup"><span data-stu-id="89fa1-124">In the **Percent** field, enter the coverage percentage for the warranty line.</span></span> <span data-ttu-id="89fa1-125">Hlutfallið gefur til kynna hve mikið fyrirtækið þitt tryggir.</span><span class="sxs-lookup"><span data-stu-id="89fa1-125">The percentage indicates how much is covered by your company.</span></span>
+    1. <span data-ttu-id="e407b-119">Veljið **Bæta við línu** til að bæta nýju skilyrði við ábyrgðina.</span><span class="sxs-lookup"><span data-stu-id="e407b-119">Select **Add line** to add a new condition to the warranty.</span></span> <span data-ttu-id="e407b-120">Raðlínunúmer er sjálfvirkt sett inn í reitinn **Lína**.</span><span class="sxs-lookup"><span data-stu-id="e407b-120">A sequential line number is automatically entered in the **Line** field.</span></span>
+    2. <span data-ttu-id="e407b-121">Í reitinn **Tímabil** skal velja gerð ábyrgðartímabils.</span><span class="sxs-lookup"><span data-stu-id="e407b-121">In the **Period** field, select the type of warranty period.</span></span>
+    3. <span data-ttu-id="e407b-122">Í reitinn **Tímabil** skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="e407b-122">In the **Interval** field, enter a number.</span></span> <span data-ttu-id="e407b-123">Þessi reitur skilgreinir fjölda tímabila sem ábyrgðin ætti að gilda fyrir.</span><span class="sxs-lookup"><span data-stu-id="e407b-123">This field defines the number of periods that the warranty should be valid for.</span></span>
+    4. <span data-ttu-id="e407b-124">Í reitnum **Prósenta** slærðu inn tryggingarhlutfall fyrir ábyrgðarlínuna.</span><span class="sxs-lookup"><span data-stu-id="e407b-124">In the **Percent** field, enter the coverage percentage for the warranty line.</span></span> <span data-ttu-id="e407b-125">Hlutfallið gefur til kynna hve mikið fyrirtækið þitt tryggir.</span><span class="sxs-lookup"><span data-stu-id="e407b-125">The percentage indicates how much is covered by your company.</span></span>
 
 ![Ábyrgðarsíða](media/01-warranty.png)
