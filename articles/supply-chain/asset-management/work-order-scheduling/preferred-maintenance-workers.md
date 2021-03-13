@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c0637609a34890360a3b81355a8d21ef1b9faf8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430282"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021405"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Setja upp æskilega viðhaldsstarfskrafta
 
@@ -68,6 +67,3 @@ Forgangsviðhaldsstarfsmaður eða starfsmannahópur getur verið skyldur einum 
 
 Við tímatökuáætlun verkbeiðni eru mismunandi stig reiknuð út til að ákvarða hvaða starfsmenn ættu að ljúka störfum sem tengjast verkbeiðni (þessi stig eru sett upp í tenglinum **Færibreytur eignastýringar** > **Tímasetningar verkbeiðni**). Ef tveir eða fleiri forgangsviðhaldsstarfsmenn eða ábyrgir starfsmenn við viðhald fá sömu einkunn við tímasetningu verkbeiðni er einn starfsmaður valinn af handahófi. Annars er það alltaf starfsmaðurinn með hæstu einkunn sem er úthlutað til að ljúka verkbeiðni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

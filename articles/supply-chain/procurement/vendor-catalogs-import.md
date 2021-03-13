@@ -1,7 +1,7 @@
 ---
 title: Flytja inn vörulista lánardrottins
 description: Þetta efnisatriði lýsir ferlinu til að flytja inn vörulistagögn lánardrottins.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7ed2c50b28fdbd1baf4caa0a8a7f2f05d6a53fd6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430754"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020755"
 ---
 # <a name="import-vendor-catalogs"></a>Flytja inn vörulista lánardrottins
 
@@ -70,6 +69,3 @@ Sniðmát fyrir innflutningsskrá vörulista er XSD-skrá sem notuð er til að 
 3. Í svarglugganum **Vista sem** skaltu velja staðsetningu þar sem á að geyma sniðmát fyrir vörulistaskrá og vista skrána.
 
 Nánari upplýsingar og dæmi er að finna í þessari bloggfærslu: [Vörulistar lánardrottins í Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

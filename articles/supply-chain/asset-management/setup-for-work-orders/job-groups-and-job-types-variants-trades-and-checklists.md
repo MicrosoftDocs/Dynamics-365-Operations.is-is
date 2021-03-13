@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430315"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021280"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar
 
@@ -267,6 +266,3 @@ Eftir að þú hefur búið til nauðsynlegar sjálfgefnar samsetningar á gerð
 2. Í valmyndinni **Uppfæra spá um gerð viðhaldsverka** á flýtiflipanum **Færslur til að hafa með** er hægt að bæta við vali fyrir sérstakar viðhaldsgerðir, eftir þörfum. Veldu **Sía** og veldu síðan **Velja** til að gera valið.
 3. Á flýtiflipanum **Keyra í bakgrunni** geturðu sett upp sjálfvirka uppfærslu sem runuvinnslu, eftir þörfum.
 4. Veldu **Í lagi** til að hefja uppfærslu á spá.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
