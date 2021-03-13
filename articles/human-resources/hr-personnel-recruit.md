@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669173"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112889"
 ---
 # <a name="recruit-job-candidates"></a>Ráða umsækjendur
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðn
 Þegar þú notar ekki annað ráðningarforrit getur þú einnig haft umsjón með umsækjendum handvirkt í Human Resources.
 
 >[!NOTE]
->Þegar þú ert stjórnandi eða þróunaraðili og vilt samþætta Human Resources við ráðningarforrit þriðja aðila er frekari upplýsingar að finna í [Grunnstilling Common Data Service Samþætting](hr-admin-integration-common-data-service.md) og [Grunnstilling Common Data Service sýndareininga](hr-admin-integration-common-data-service-virtual-entities.md)
+>Þegar þú ert stjórnandi eða þróunaraðili og vilt samþætta Human Resources við ráðningarforrit þriðja aðila er frekari upplýsingar að finna í [Grunnstilling Dataverse Samþætting](hr-admin-integration-common-data-service.md) og [Grunnstilling Dataverse sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Einnig er hægt að finna samþættingarforrit ráðninga á [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðn
 
 ## <a name="enable-recruiting-requests"></a>Virkja ráðningarbeiðnir
 
-Ef þú vilt senda ráðningarbeiðnir í Human Resources verður þú fyrst að virkja eiginleikann í **Færibreytur Human Resources**.
+Ef þú vilt senda ráðningarbeiðnir í Human Resources verður þú fyrst að virkja eiginleikann í **Samnýttar færibreytur fyrir mannauð**.
 
 1. Á vinnusvæðinu **Starfsmannastjórnun** velur þú **Tenglar**.
 
-2. Undir **Skipulag**, veldu **Færirbreytur Human Resources**.
+2. Undir **Uppsetning**, veldu **Samnýttar færibreytur fyrir mannauð**.
 
-3. Á flipanum **Almennt**, fyrir neðan **RÁÐNINGAR** verður að stilla **Virkja ráðningarbeiðnir** á **Já**.
-
-   ![Virkja ráðningarbeiðnir](./media/hr-recruit-0-enable-requests.png)
+3. Á flipanum **Ráðning**, fyrir neðan **RÁÐNINGAR** verður að stilla **Virkja ráðningarbeiðnir** á **Já**.
 
 ## <a name="add-a-recruiting-request-location"></a>Bæta við staðsetningu í ráðningarbeiðni
 
@@ -224,8 +222,6 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Skilgreina Common Data Service sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Skipuleggja starfsfólk](hr-personnel-departments-jobs-positions.md)<br>
 [Setja upp íhluti verks](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
