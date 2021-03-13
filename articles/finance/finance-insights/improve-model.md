@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646080"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009369"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Bæta spálíkanið (forskoðun)
 
@@ -42,19 +41,19 @@ Ef fyrirtækið krefst aðeins tveggja niðurstaðna skal breyta **Seint** og **
 
 ## <a name="select-fields"></a>Velja svæði
 
-Þegar þú velur svæði til að taka með í líkaninu skaltu hafa í huga að listinn inniheldur öll tiltæk svæði í Common Data Service -einingunni sem er varpað í gögnin í Azure Data Lake. Suma þessa reiti ætti **ekki** að velja. Reitirnir sem ættu ekki að vera valdir falla undir einn af þremur flokkum:
+Þegar þú velur svæði til að taka með í líkaninu skaltu hafa í huga að listinn inniheldur öll tiltæk svæði í Microsoft Dataverse -töflunni sem er varpað í gögnin í Azure Data Lake. Suma þessa reiti ætti **ekki** að velja. Reitirnir sem ættu ekki að vera valdir falla undir einn af þremur flokkum:
 
-- Reiturinn er áskilinn fyrir Common Data Service eininguna en engin gögn eru til staðar fyrir það í Data Lake.
+- Reiturinn er áskilinn fyrir Dataverse töfluna en engin gögn eru til staðar fyrir það í Data Lake.
 - Svæðið er auðkenni og er því óskiljanlegt fyrir vélnámseiginleika.
 - Reiturinn sýnir upplýsingar sem verða ekki í boði við spá.
 
 Eftirfarandi kaflar sýna svæðin sem eru tiltæk fyrir einingar reikninga og viðskiptavina og listi yfir svæðin sem ætti **ekki** að velja til þjálfunar. Flokkurinn sem er tilgreindur fyrir hvert þessara svæða vísar í flokkana í listanum þar á undan.
  
-### <a name="invoice-common-data-model-entity"></a>Common Data Model-eining reiknings
+### <a name="invoice-dataverse-table"></a>Reikningur Dataverse tafla
 
-Eftirfarandi mynd sýnir reitina sem eru í boði fyrir reikningseininguna.
+Eftirfarandi mynd sýnir reitina sem eru í boði fyrir reikningstöfluna.
 
-[![Tiltæk svæði fyrir reikningseininguna](./media/available-fields.png)](./media/available-fields.png)
+[![Tiltæk svæði fyrir reikningstöfluna](./media/available-fields.png)](./media/available-fields.png)
 
 Eftirfarandi reitir ættu ekki að vera valdir fyrir þjálfun:
 
@@ -65,11 +64,11 @@ Eftirfarandi reitir ættu ekki að vera valdir fyrir þjálfun:
 - **Upprunafærsla** (flokkur 2)
 - **Upprunatafla** (flokkur 2)
 
-### <a name="customer-common-data-model-entity"></a>Common Data Model-eining viðskiptavinar
+### <a name="customer-dataverse-table"></a>Viðskiptavinur Dataverse tafla
 
-Eftirfarandi mynd sýnir reitina sem eru í boði fyrir viðskiptavinaeininguna.
+Eftirfarandi mynd sýnir reitina sem eru í boði fyrir viðskiptavinatöfluna.
 
-[![Tiltæk svæði fyrir viðskiptavinaeininguna](./media/related-entities.png)](./media/related-entities.png)
+[![Tiltæk svæði fyrir viðskiptavinatöfluna](./media/related-entities.png)](./media/related-entities.png)
 
 Ekki ætti að velja eftirfarandi reit fyrir þjálfun:
 
@@ -83,6 +82,3 @@ Eins og er styðja síurnar ekki sviðsmynd fyrir spá um greiðslu viðskiptavi
 
 #### <a name="privacy-notice"></a>Tilkynning um persónuvernd
 Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

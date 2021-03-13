@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc7fa705681c3f1fde96cabc430dad1dd0045b4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444357"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009319"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 150% bókfært virði
 
@@ -84,10 +83,7 @@ Aðferðin 150% bókfært virði stöðu deilir 150% með líftíma í árum. Þ
 | 3. ár | 4,900 × 30% = 1,470                           | 5.900 – 1.470 = 4.430  | 4,900 – 1,470 = 3,430                 |
 
 > [!NOTE]
-> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 150% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir°eftirstandandi líftíma.
+> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 150% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

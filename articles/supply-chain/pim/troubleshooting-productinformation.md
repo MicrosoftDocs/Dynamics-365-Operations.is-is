@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516809"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007517"
 ---
 # <a name="troubleshoot-product-information"></a>Úrræðaleit fyrir afurðarupplýsingar
 
@@ -152,6 +151,3 @@ Ef afurðarafbrigði hefur þegar verið losað í fyrirtæki A, og reynt er að
 Hnappurinn **Nýtt** á síðunni **Útgefin afurðarafbrigði** stofnar afbrigðið og losar það í samhengi fyrirtækisins. Ef afbrigðið hefur þegar verið stofnað er ekki hægt að nota hnappinn **Nýtt** til að losa það í annað fyrirtæki.
 
 Til að laga vandamálið skal opna síðuna **Afurðarsniðmát** og velja **Losa afurð** til að losa fyrirliggjandi afbrigði í æskilegt fyrirtæki.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

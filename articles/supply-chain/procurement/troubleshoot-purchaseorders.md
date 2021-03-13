@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430756"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007492"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Villuleita innkaupapantanir
 
@@ -132,7 +131,7 @@ Aðeins er hægt að framlengja tímabilið þar sem lánardrottinn hefur verið
 
 Fyrir dæmið sem lýst er í útgáfulýsingunni þar sem færsla er með gildisdagsetningu *11/01/2018* og lokadag *Aldrei*, er hægt að flytja inn nýja færslu sem er með gildisdagsetningu *10/01/2018* og lokadagsetningu *Aldrei*. Hins vegar er ekki hægt að stytta tímabilið þannig að gildisdagsetningin uppfærist í *12/01/2018* í gegnum gagnastjórnun. Þú verður að gera þessa breytingu í gegnum notandaviðmótið.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Eftir að ég breyti afhendingaraðsetrinu í haus innkaupapöntunar er afhendingarheitið ekki samstillt.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Eftir að ég breyti afhendingaraðsetrinu í haus innkaupapöntunar er afhendingarheitið ekki samstillt.
 
 ### <a name="issue-description"></a>Lýsing á úrlausnaratriði
 
@@ -145,6 +144,3 @@ Aðsetrið í haus innkaupapöntunar er uppfært í aðsetur sem er ekki afhendi
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Get ég fundið notandann sem afturkallaði innkaupapöntunina?
 
 Þessar upplýsingar eru aðeins raktar ef innkaupapöntunin fellur undir breytingastjórnun. Ef breytingastjórnun er notuð, er hægt að sjá hver sendi inn breytinguna (afturköllunina) og hver samþykkti hana.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

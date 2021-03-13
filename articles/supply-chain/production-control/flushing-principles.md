@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84be2a4646cfc18cd1f25a4ec969acdb62cb2856
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007242"
 ---
 # <a name="flushing-principles"></a>Losunarreglur
 
@@ -63,6 +62,3 @@ Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar t
 
 ### <a name="available-at-location"></a>Tiltækt í staðsetningu
 Losunarreglan Tiltækt í staðsetningu gefur til kynna að efnið verði sjálfkrafa notað þegar það er skráð sem tekið til fyrir framleiðslu. Efnið er skráð sem tekið til frá staðsetningu þegar vinnu við tiltekt á hráefni er lokið, eða þegar efni er tiltækt á staðsetningu framleiðsluinntaks og efnislínan er losuð til vöruhússins. Tiltektarlistinn sem verður til í ferlinu er birtur í runuvinnslu. Þessi regla á til dæmis við ef ert með marga tiltektarverkþætti á móti einni framleiðslupöntun. Í þessu tilfelli þarf ekki að uppfæra tiltektarlistann handvirkt, og þú færð núverandi yfirlit yfir VÍV-stöðuna.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

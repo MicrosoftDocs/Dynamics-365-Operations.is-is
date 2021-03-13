@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4c9443c6e659602ae09e4744396651186874ad3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430503"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008017"
 ---
 # <a name="merge-inventory-batches"></a>Sameina birgðarunur
 
@@ -140,6 +139,3 @@ Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að ég sameinaði atriði fyrir þyngd afurðar, hví sé ég ekki upplýsingar um þyngd afurðar í birgðabók?
 Hægt er að sameina runur af vörum í þyngd afurðar eins og öllum öðrum vörum. Hins vegar, eru upplýsingar um þyngd afurðar ekki birtar í birgðabók. Mælt er með því að staðfesta upplýsingar um þyngd afurðar áður en runusameiningin er flutt í birgðabók.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

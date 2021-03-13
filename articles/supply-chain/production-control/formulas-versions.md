@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430267"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007162"
 ---
 # <a name="formulas-and-formula-versions"></a>Formúlur og formúluútgáfar
 
@@ -71,6 +70,3 @@ Aðeins er hægt að nota kvörðunareiginleikann ef allir íhlutir vörunnar í
 
 ## <a name="use-step-consumption"></a>Nota skrefanotkun
 Með skrefaneyslu þarf ekki að slá inn magn á flipann **Formúlulína** fyrir innihaldsefni. Í staðinn er skrefaneysla stillt þannig að það hefur gildi **Frá-röð** og **Magn**. Upplýsingarnar úr skrefaneyslu eftir skrefafærslu sem passar við magnið á runupöntuninni eru þess í stað valdar. Skrefanotkun er gagnleg þegar neysluhlutfallið er ekki línulegt við runupöntunarstærð og eykur aðeins kröfur þegar tilteknum magnþröskuldi er náð. Til að virkja þennan eiginleika fyrir nýja formúlu skal, undir **Útreikningur notkunar**, breyta formúlustillingu fyrir viðeigandi innihaldsefni úr **Venjulegt** í **Skref**. Þessi neysluaðferð er tilgreind á flipanum **Uppsetning** á síðunni **Formúlulína**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
