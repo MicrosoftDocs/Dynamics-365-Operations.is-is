@@ -1,7 +1,7 @@
 ---
 title: Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir samþykkt innkaupapöntunar, sem gerir kleift að skoða innkaupapantanir og bregðast við þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430502"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022307"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
 
@@ -113,6 +112,3 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 5. Velja viðeigandi aðgerð.
 6. Færðu inn athugasemd á síðunni **Ljúka verki**. Athugaðu að ef þú velur aðgerðina **Úthluta**, verður þú að velja notanda til að úthluta verkinu.
 7. Velja **Ekkert**. Þegar þú endurnýjar vinnusvæðið hverfur innkaupapöntunin af listanum. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetItemForecast
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f8f38ac7bfb270f648cd561da50ee5477721ab47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 155dc720804196ccc44fad5eaf71e3563a9c68cf
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430450"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022559"
 ---
 # <a name="calculate-item-forecast"></a>Reikna vöruspá
 
@@ -60,6 +59,3 @@ Rétt eins og þú getur gert útreikninga á álagi, sem lýst er í fyrri hlut
 8. Smelltu á hnappinn **Sýna víddir** ef þú vilt sjá afurð, geymslu eða rakningarvíddir sem tengjast vörunum. Veldu viðeigandi gátreiti og smelltu á **Í lagi**.
 
 ![Mynd 1](media/02-capacity-planning.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

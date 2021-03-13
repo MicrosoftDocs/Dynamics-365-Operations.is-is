@@ -1,6 +1,6 @@
 ---
 title: Mælikvarðar vinnuafls Power BI efni
-description: Þetta efnisatriði lýsir mælikvörðum vinnuafls Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+description: Þetta efnisatriði lýsir mælikvörðum vinnuafls Power BI efni.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687352"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092792"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Mælikvarðar vinnuafls Power BI efni
 
@@ -86,6 +86,3 @@ Eftirfarandi tafla sýnir einingar sem efnið var byggt á.
 | Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                 | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf |
 | Fjöldaráðningarverk        | Fjöldi fjöldaráðningaverka, eigandi verks og staða verks                     | Fyrirtæki, fjöldaráðningarlína |
 | Fjöldaráðningarlína           | Deild, starfsheiti og staða                                           | Dagsetning, starf, fjöldaráðningarverk |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

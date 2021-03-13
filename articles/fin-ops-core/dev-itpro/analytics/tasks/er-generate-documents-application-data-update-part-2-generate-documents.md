@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar til að búa til skjöl sem eru með forritsgögnum
-description: 'Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið, Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 1: Flytja inn grunnstillingar).'
+description: Þetta efni útskýrir hvernig skal hanna skilgreiningar rafrænnar skýrslugerðar þannig að þær búi til rafrænt skjal. (Hluti 1 - Flytja inn skilgreiningar).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684596"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092923"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Hanna skilgreiningar til að búa til skjöl sem eru með forritsgögnum
 
@@ -58,6 +58,3 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 10. Lokið síðunni.
 11. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

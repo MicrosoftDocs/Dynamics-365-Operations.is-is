@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413291"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032934"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
 
@@ -117,6 +116,9 @@ Fyrir hverja útlitsstærð í skjáútliti er hægt að grunnstilla og úthluta
 
 ![Þjappað útlit hnappahnit](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Hnappastærðir í hönnuðin verða kvarðaðir þannig að þær passi við stærð gluggans, því er ekki víst að þær endurspegli raunverulega hnappa á sölustað. Til að herma eftir útliti hnappahnits skal stilla gluggahönnuð á sömu stærð og á sölustað.
+
 ### <a name="images"></a>Myndir
 
 Fyrir hverja útlitsstærð í skjáútliti er hægt að tilgreina myndir til að vera með í POS notandaviðmótinu. Fyrir óþjappað POS útlit er hægt að skilgreina eina mynd fyrir upphafsskjár. Þessi mynd birtist sem fyrsta viðmótseining til vinstri. Á **Færsla** skjár, myndir er hægt að nota sem flipamyndir eða sem lógó. Þjappað POS útlit notar ekki þessar myndir.
@@ -205,6 +207,3 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Setja upp útlitshönnuð smásöluverslunar (POS)](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
-description: Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar.
+description: Þetta efnisatriði lýsir hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682022"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092086"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
 
@@ -157,6 +157,3 @@ Til að prófa, skal framkvæma vörpun sniðs með SampleIncomingMessage.txt-sk
 2. Smellið á „Í lagi“.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að aðeins 3 línur af innfluttri TXT-skrá voru unnar. IBAN-númerið á línu 4 sem er ógilt var sleppt og villuskilaboð eru veitt í Infolog.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

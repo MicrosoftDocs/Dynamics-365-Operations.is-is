@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur.
+description: Í þessu efni er útskýrt hvernig á að skilgreina snið rafrænnar skýrslugerðar til að nota skrár skjalastjórnunar (viðhengi) í úttaki rafrænnar skýrslugerðar. (Hluti 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bff518c60f0f36bdc88245d79bd82f0c4d0599ed
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681829"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092642"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)
 
@@ -74,6 +74,3 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 3. Í svæðið Heiti, Færðu inn 'líkan reiknings viðskiptavinar (sérstillt)'.
 4. Smelltu á Stofna skilgreiningu.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

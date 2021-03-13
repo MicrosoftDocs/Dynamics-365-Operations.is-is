@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 4 - keyra skýrslu)
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
+description: Þetta efni útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb7f49310aa25ff7c17ab4bcd50e1842be84fe2d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c1fe332de84339d3369ba495ca13f50c4901f366
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684740"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092276"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 4 - keyra skýrslu)
 
@@ -49,6 +49,3 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 ![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run3.png)
     * Fara yfir myndað úttak. Fyrir hverja færslu fyrir valda runu eru birtar fjárhagsvíddir úr viðeigandi víddarmengjum. Keyra þessa skýrslu og veljið mismunandi víddir til að sjá að skýrslan er ekki háð fjölda valinna vídda eða fjölda vídda sem skilgreint er fyrir þetta tilvik.  
 ![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run4.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

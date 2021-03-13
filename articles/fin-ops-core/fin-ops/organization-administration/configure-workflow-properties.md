@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693283"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067624"
 ---
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
@@ -73,6 +73,9 @@ Hægt er að veita þeim notendum leiðbeiningar sem senda skjöl til vinnslu og
     4. Í svæðið **þýddur texti** skal færa inn textann.
     5. Hægt er að sérsníða texta með því að færa inn staðgengla. Sjá skref 3 til að fá leiðbeiningar um hvernig á að færa inn staðgengill.
     6. Smellið á **Loka**.
+
+> [!NOTE]
+> Ekki er hægt að bæta við staðgenglum með því að nota afritun og líma þar sem markupplýsingarnar eru ekki límdar á réttan hátt. Nota viðmótið til að bæta við staðgenglum.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Tilgreindu hvenær þetta verkflæði er notað í gegnum virkjunarskilyrði
 
@@ -179,6 +182,3 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 2. Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3. Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
 4. Smellið á **Bæta við** til að bæta athugasemdir við **ferill Athugasemda** svæði.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

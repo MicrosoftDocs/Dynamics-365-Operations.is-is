@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 1 - hanna gagnalíkan)
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
+description: Þetta efni útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c4a05fb15a7e3166c6d075569debcf9cbc3cc3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92d29d954debddd509eaba6b710f39b218da2c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681710"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092176"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 1 - hanna gagnalíkan)
 
@@ -108,6 +108,3 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 
 ![Hönnuðarsíðan ER-gagnavörpun](../media/er-financial-dimensions-guides-data-model.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

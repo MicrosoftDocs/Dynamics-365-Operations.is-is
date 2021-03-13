@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594971"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053414"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Virkja marga afhendingamáta fyrir pantanir viðskiptavinar
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Í Microsoft Dynamics 365 Commerce útgáfu 10.0.16 og nýrri, geta fyrirtæki skilgreint marga afhendingarmáta sem kaupendur eða sölufulltrúar geta valið úr þegar þeir stofna pantanir sem verða sóttar í verslun. Á þennan hátt geta fyrirtæki veitt kaupendum marga tengimöguleika. Til dæmis bjóða margir smásalar kaupendum upp á að velja milli þess að sækja pantanir í verslun eða fyrir utan verslun. Commerce styður skilgreiningu á þessum mismunandi afhendingarmátum þegar er sótt. Notendur geta þá nýtt sér þá þegar þeir stofna viðskiptavinapantanir í hvaða studdu Commerce-rás sem er (rafræn viðskipti, símaver eða verslun).
 
@@ -86,6 +85,3 @@ Engin frekari skref eru nauðsynleg á síðum rafrænna viðskipta til að gera
 ## <a name="considerations-for-distributed-order-management"></a>Það sem skal hafa í huga varðandi dreifingarstjórnun pöntunar
 
 Eiginleikar [dreifingarstjórnunar pöntunar (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) í Commerce hunsa allar sölulínur sem eru merktar að verði sóttar í verslun. Þessir eiginleikar hafa verið uppfærðir til að tryggja að sölulínur sem eru tengdar við skilgreinda afhendingarmáta fyrir sóttar pantanir líti framhjá DOM-reglunni og verði ekki endurúthlutaðar á nýtt vöruhús uppfyllingar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

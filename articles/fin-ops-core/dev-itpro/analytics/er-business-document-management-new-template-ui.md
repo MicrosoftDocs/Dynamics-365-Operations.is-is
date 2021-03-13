@@ -1,6 +1,6 @@
 ---
 title: Nýtt notendaviðmót skjala í viðskiptaskjalastjórnun
-description: Þetta efni veitir upplýsingar um hvernig nota á nýtt notendaviðmót (UI) skjals í viðskiptaskjalastjórnunaraðgerð rafrænna skýrslugerðar (ER) ramma.
+description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að nota nýja notandaviðmót skjalsins í eiginleikastjórnun viðskiptaskjala fyrir rafræn skýrslugerð.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681353"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092226"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Nýtt notendaviðmót skjala í viðskiptaskjalastjórnun
+# <a name="new-document-user-interface-in-business-document-management"></a>Nýtt notandaviðmót fyrir skjöl í stjórnun viðskiptaskjala
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Fylgdu þessum skrefum til að kveikja á þessum eiginleika fyrir alla lögaði
 Hnappurinn **Nýtt skjal** er notaður til að búa til og breyta sniðmáti á ER-sniði sem annar veitandi veitir. Í þessu dæmi er veitan Microsoft. Þegar þú velur **Nýtt skjal** geturðu skoðað öll sniðmát sem eru í eigu núverandi og annarra veitenda. Eftir að þú velur sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
 Fyrir frekari upplýsingar, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

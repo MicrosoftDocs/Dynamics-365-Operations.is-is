@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 3 - stofna snið)
-description: Eftirfarandi skref útskýra hvernig notandi með hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stillg snið rafrænnar skýrslugerðar til að nota skjalastjórnunarskrár í rafrænum skýrslum.
+description: Í þessu efni er útskýrt hvernig á að skilgreina snið rafrænnar skýrslugerðar til að nota skrár skjalastjórnunar í úttaki rafrænnar skýrslugerðar. (Hluti 3)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 432cf4c41a7a223ab07b02edf6da7eac9965cff0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681854"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092617"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 3 - stofna snið)
 
@@ -119,6 +119,3 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 23. Smellið á „Vista“.
 24. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Power BI-efni aðferðastjórnunar
-description: Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið.
+description: Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685706"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092458"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-efni aðferðastjórnunar
 
@@ -117,6 +117,3 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
 |---------------------------------|---------------------|-------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

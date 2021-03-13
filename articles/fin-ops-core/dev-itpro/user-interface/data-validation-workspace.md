@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði gátlista gagnaprófunar
-description: Vinnusvæði gátlista gagnavilluleitar gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu.
+description: Vinnusvæði gátlista gagnavilluleitar gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,14 +14,14 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687576"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092332"
 ---
-# <a name="data-validation-checklist-workspace"></a>Vinnusvæði gátlista gagnaprófunar
+# <a name="data-validation-checklist-workspace"></a>Vinnusvæði gagnaprófunargátlista
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,8 +39,7 @@ Fyrst verður að velja gagnaprófunarverk efst í vinnusvæðinu. Öll gögn se
 
 Í hlutanum **Verkefni og staða** er staða gagnaprófunarverks birt á mismunandi vegu: staða eftir lögaðila, eftir svæðum og eftir verkefnalista. Hægt er að velja síu til að skoða stöðu fyrir tiltekið fyrirtæki. Hver stöðuflipi veitir sundurliðun eftir bæði prósentu sem hefur verið lokið og fjölda verka sem eftir eru.
 
-Síðasti flipinn eru fyrir nákvæman verkefnalista. Listinn sýnir fullan verkefnalista.
-Hægt er að sía lista yfir verk með nokkrum aðferðum. Smellt er á **Breyta verkefni** til að breyta stöðu verks eða úthluta verkefni. Smellt er á **Tengingar** til að skoða tengingar við verk.
+Síðasti flipinn eru fyrir nákvæman verkefnalista. Listinn sýnir fullan verkefnalista. Hægt er að sía lista yfir verk með nokkrum aðferðum. Smellt er á **Breyta verkefni** til að breyta stöðu verks eða úthluta verkefni. Smellt er á **Tengingar** til að skoða tengingar við verk.
 
 Verkefnið er tengill á síðu sem notandinn verður að fara á til að ljúka vinnunni. Hægt er að setja þennan tengil með því að nota reitinn **Heiti valmyndaratriðis** þegar á að breyta eða stofna verk úr skjámyndinni **Skilgreina gögnum villuleit verks**.
 
@@ -57,6 +56,3 @@ Valkosturinn **Svarað** er sjálfkrafa fylltur út þegar verkinu er lokið me�
 Verksvæði eruð notuð til að flokka gagnaprófunarverk í röklegt svæði eignarhalds innan fyrirtækisins. Til dæmis gætu Viðskiptaskuldir, Viðskiptakröfur eða Fjárhagur verið notuð sem verksvæði.
 
 **Heiti valmyndaratriðis** er tengt við verkframlag vinnu og hægt er að nota það til að fara beint á tengda síðu af verktengli í vinnusvæðinu. T.d. er hægt að tengja gagnaprófunarverk sem á að keyra skýrslur **Aldursgreiningarramma Viðskiptaskulda** við síðuna **Aldursgreiningarskýrsla Viðskiptaskulda**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

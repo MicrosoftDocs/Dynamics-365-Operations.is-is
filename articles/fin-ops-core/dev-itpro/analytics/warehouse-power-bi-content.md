@@ -1,6 +1,6 @@
 ---
 title: Afköst vöruhúss Power BI efni
-description: Þetta efnisatriði lýsir því sem er innifalið í afköstum vöruhúss Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+description: Þetta efnisatriði lýsir því sem er innifalið í afköstum vöruhúss Power BI efni.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687402"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092817"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Afköst vöruhúss Power BI efni
 
@@ -111,6 +111,3 @@ Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 | Sendingarframmistaða        | Sent eftir afurð                       | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir viðskiptavini                      | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir svæði / vöruhús              | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

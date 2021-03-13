@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 976155b685498456952f7d715779d20191712103
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6d1761202697f62421bbf288c7e22efe559a986
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430363"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022408"
 ---
 # <a name="scheduled-execution"></a>Áætluð keyrsla
 
@@ -43,6 +42,3 @@ Tímasett framkvæmdaruppsetning, sem tengist verkbeiðnum, getur verið almenn 
 6. Veljið **Vista**.
 
 ![Áætluð keyrsla](media/20-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

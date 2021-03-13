@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669172"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080039"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 2. desember 2020
 
@@ -61,7 +60,7 @@ Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 | 514087 | BenefitEligibilityProcessResult ætti að innihalda dag og tíma sem var notuð í ferlinu. | Úrvinnsla úr niðurstöðum BenefitEligibity inniheldur nú datetimestamp fyrir síðustu vinnslu, sem vantaði fyrr. |
 | 526903 | Fríðindaskráning mistekst fyrir áætlanir ásamt skjólstæðingum þegar kveikt er á **Sjálfvirkt val á fulltrúum** í **Samnýttar færibreytur fyrir mannauð**. | Leyst var úr vandamáli þegar fríðindaskráning mistókst fyrir skjólstæðinga þegar kveikt var á valkostinum **Sjálfvirkt val á fulltrúum** fyrir sjálfgefna fulltrúa. |
 | 521922 | Færibreytan **Sýna fjarvistir án frekari upplýsinga** birtir upplýsingar um frítímabeiðnir í fjarvistadagatali teymis. | Leyfisgerð, litur leyfisgerðar og frekari upplýsingar um dag birtust í fjarvistadagatali teymisins þegar **Sýna fjarvistir án frekari upplýsinga** var stillt á **Já** í **Færibreytum leyfis og fjarvista**. Þetta vandamál hefur nú verið leyst og nú birtist leyfisgerðin ekki og sjálfgefinn litur leyfisgerðar (dökkblár) er notaður fyrir allar leyfisgerðir á fjarvistadagatali teymisins. |
-| 527316 | Breytingar á starfstitli, stöðu og tilkynningum starfskrafts eru ekki samstilltar. | Tengslum titils var áður bætt við einingar starfs, stöðu og starfskrafts. Samstilling þessa vensla virkar fyrir samstillingu úr Human Resources í Common Data Service, en virkaði ekki fyrir tilkynningar frá Common Data Service. Þetta hefur verið meðhöndlað. |
+| 527316 | Breytingar á starfstitli, stöðu og tilkynningum starfskrafts eru ekki samstilltar. | Tengslum titils var áður bætt við einingar starfs, stöðu og starfskrafts. Samstilling þessa vensla virkar fyrir samstillingu úr Human Resources í Dataverse, en virkaði ekki fyrir tilkynningar frá Dataverse. Þetta hefur verið meðhöndlað. |
 | 512275 | Fjarlægja skal litavalkostina úr **Færibreytur leyfis og fjarvista**. | Nú eru litir skilgreindir á leyfisgerðinni og því er ekki lengur þörf á litavalkostum fyrir **Færibreytur leyfis og fjarvista** og því voru slíkir valkostir fjarlægðir. |
 | 437112 | Villandi texti villuskilaboða við stöðuverkefni starfsmanns. | Uppfærði villuboð við ráðningu starfskrafts þegar reynt var að úthluta starfsmanni stöðu sem er ekki virk. Uppfærð skilaboð **Tilgreind staða er ekki virk frá upphafsdagsetningu ráðningar. Athugaðu tímalengd þessarar stöðu.** |
 | 527816 | Vandamál með afköst með síðuna **Frí**. | Afköst hafa verið endurbætt á siðunni **Frí**. |
@@ -92,6 +91,3 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 [Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

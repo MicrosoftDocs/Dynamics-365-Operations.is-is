@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430404"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043394"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Framlengja gagnaeiningar tiltækra birgða
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management býður upp á eiginleika [stækkunarhæfni](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) sem gera kleift að [bæta reitum við töflur í gegnum stækkun](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). Í þessu efnisatriði er að finna dæmi sem sýnir hvernig á að bæta stækkuðum reitum við yfirlit `INVENTORSITEONHANDENTITY` og `INVENTWAREHOUSEONHANDENTITY` þannig að möguleikar gagnaeininga lagerbirgða geti virkað með stækkuninni. Frekari upplýsingar um gagnaeiningar er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management býður upp á eiginleika [stækkunarhæfni](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) sem gera kleift að [bæta reitum við töflur í gegnum stækkun](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Í þessu efnisatriði er að finna dæmi sem sýnir hvernig á að bæta stækkuðum reitum við yfirlit `INVENTORSITEONHANDENTITY` og `INVENTWAREHOUSEONHANDENTITY` þannig að möguleikar gagnaeininga lagerbirgða geti virkað með stækkuninni. Frekari upplýsingar um gagnaeiningar er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Hér er listi yfir sumar gagnaeiningar lagerbirgðanna:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Eftir að þessum skrefum er lokið er hægt að stækka gagnaeiningarnar fyrir birgðir á lager eftir svæði og birgðir á lager eftir vöruhúsi með því að bæta nýju reitunum við. Á þennan hátt er tryggt að stækkuðu reitirnir verði þekktir og hafðir með við gagnaflutning sem notar þessar gagnaeiningar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

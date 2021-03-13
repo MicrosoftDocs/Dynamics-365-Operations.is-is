@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664297"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077478"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -65,6 +64,12 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 
 - Eiginleikinn til að læsa vinnsluspjaldstæki og afgreiðslustöð svo hægt sé að hreinsa tækin
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Virkni eignarstýringar fyrir viðmót framkvæmdar á framleiðslugólfi
+
+Þessi eiginleiki bætir eftirfarandi stjórnunarflipa eigna við keyrsluviðmót framleiðslugólfsins: Starfskraftar geta notað þennan flipa til að velja eign sem er tengd við vélatilföng sem eru innan valdrar síu af vinnslulistanum. Fyrir valda vélaeign getur starfskrafturinn skoðað stöðu og ástand eignarinnar úr teljaragildi í allt að fjórum völdum teljurum. Ef þú vilt nota þennan eiginleika skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Virkni eignarstýringar fyrir viðmót framkvæmdar á framleiðslugólfi
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Vinna með skilgreiningar á keyrslum framleiðslugólfs
 
 Til að stofna og vinna með tækjastillingar skal fara í **Framleiðslustýringu \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**. Síðan **Grunnstilla framkvæmd á framleiðslugólfi** sýnir lista yfir fyrirliggjandi skilgreiningar. Á þessari síðu er hægt að framkvæma eftirfarandi aðgerðir:
@@ -94,6 +99,3 @@ Runuvinnslu hreinsar reglulega færslur í tilvísanatöflunni fyrir tæki sem h
 1. Á aðgerðasvæðinu skal velja **Hreinsa biðlaragrunnstillingar**.
 1. Í svarglugganum **Hreinsa biðlaragrunnstillingu** skal stilla reitinn **Fjöldi daga** á dagafjölda án aðgerða (á undan deginum í dag) sem á að taka til greina. Allar skilgreiningar og innskráningarfærslur eru fjarlægðar fyrir tæki sem hafa ekki verið virk á þessum tíma.
 1. Veljið **Í lagi** til að hreinsa út viðeigandi skilgreiningar byggt á stillingunni **Fjöldi daga**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

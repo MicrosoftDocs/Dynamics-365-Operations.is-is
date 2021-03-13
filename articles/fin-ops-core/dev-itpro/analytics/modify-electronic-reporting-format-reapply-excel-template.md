@@ -1,6 +1,6 @@
 ---
-title: Breyta rafrænu skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
-description: Þetta umræðuefni veitir upplýsingar um hvernig hægt er að breyta sniði rafrænnar skýrslugerðar (ER) sem er notað til að búa til viðskiptaskjöl með því að endurnota breytt Excel-sniðmát.
+title: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
+description: Þetta efnisatriði lýsir hvernig á að breyta sniði rafrænnar skýrslugerðar (ER) sem er notað til að búa til viðskiptaskjöl með því að endurnota breytt Excel-sniðmát.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/01/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa15ae3111f7b91fd63afedb3ef21709d7d866d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3d828412e0d804acf6e6141778512e899bc78a7d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682218"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092845"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Breyta rafrænu skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
 
@@ -33,6 +33,3 @@ Rafræn skýrslugerð (ER) tólið er notað til að búa til viðskiptaskjöl �
 ER tólið er hægt að nota til að búa til viðskiptaskjöl í formi Microsoft Excel skráa. Hægt er að nota Excel-skjal sem sniðmát fyrir þessi skjöl. Til að skilgreina útlit skjalsins í ER hönnuður, er hægt að flytja efni Excel-skjalsins sem þú vilt nota sem sniðmát inn í skilgreint ER sniðið. Fyrir frekari upplýsingar og til að æfa þig í þessum aðstæðum, skaltu spila verkleiðbeiningarnar **ER Hanna skilgreiningu fyrir myndun skýrslna í OPENXML-sniði** (hluti af 7.5.4.3 Acquire/Develop IT service/solution components (10677) viðskiptaferli).
 
 Ef þú breytir Excel-skjalinu sem er notað sem sniðmát fyrir viðskiptaskjal, gerir ný ER-virkni þér kleift að endurnota uppfært sniðmátið á ER-sniðið. ER-sniðið er síðan uppfært þannig að það fylgir uppfærða sniðmátinu. Til að fá frekari upplýsingar um þessa virkni, skaltu spila verkleiðbeiningarnar **ER Hanna snið með því að endurnota Excel-sniðmát** (hluti af 7.5.5.3 Acquire/Develop IT service/solution components (10683) viðskiptaferli). Í skrefinu í verkleiðbeiningunum þar sem þú flytur inn uppfært sniðmát, skaltu nota breytt sniðmát Greiðsluskýrsla Excel-skrárinnar, SampleVendPaymWsReport2, sem sniðmát.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

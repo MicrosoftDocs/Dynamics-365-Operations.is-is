@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4430643"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077632"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -41,11 +40,11 @@ Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota
 
 ## <a name="all-jobs-tab"></a>Flipi allra starfa
 
-Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*.
+Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
 
 ![Flipi allra starfa](media/pfei-all-jobs-tab.png "Flipi allra starfa")
 
-Vinnslulistinn er með eftirfarandi dálka. (Tölurnar samsvara tölunum í síðustu skýringarmynd.)
+Vinnslulistinn er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
 
 1. **Valdálkur** – Dálkurinn lengst til vinstri notar gátmerki til að gefa til kynna vinnslur sem starfsmaðurinn hefur valið. Starfsmenn geta valið margar vinnslur í listanum samtímis. Til að velja allar vinnslurnar á listanum skal velja gátmerkið í dálkhausnum. Þegar ein vinnsla er valin eru upplýsingar um þessa vinnslu sýndar á neðri hluta síðunnar.
 1. **Dálkur vinnslustöðu** – Þessi dálkur notar tákn til að gefa til kynna stöðu hverrar vinnslu. Vinnslur með ekkert tákn í þessum dálki hafa stöðuna *Ekki hafið*. Grænn þríhyrningur gefur til kynna vinnslur sem eru með stöðuna *Hafin*. Tvær gular lóðréttar línur gefa til kynna vinnslur sem eru með stöðuna *Stöðvuð*.
@@ -60,9 +59,11 @@ Vinnslulistinn er með eftirfarandi dálka. (Tölurnar samsvara tölunum í sí�
 
 ## <a name="active-jobs-tab"></a>Flipi fyrir virkar vinnslur
 
-![Flipi fyrir virkar vinnslur](media/pfei-active-jobs-tab.png "Flipi fyrir virk verk")
+Fliparnir **Virkar vinnslur** sýna lista yfir allar vinnslu sem innskráður starfsmaður hefur þegar byrjað á. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
 
-Vinnslulistinn í flipanum **Virkar vinnslur** er með eftirfarandi dálka:
+![Flipi fyrir virkar vinnslur](media/pfei-active-jobs-tab.png "Flipi fyrir virkar vinnslur")
+
+Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
 - **Valdálkur** – Dálkurinn lengst til vinstri notar gátmerki til að gefa til kynna vinnslur sem starfsmaðurinn hefur valið. Starfsmenn geta valið margar vinnslur í listanum samtímis. Til að velja allar vinnslurnar á listanum skal velja gátmerkið í dálkhausnum. Þegar ein vinnsla er valin eru upplýsingar um þessa vinnslu sýndar á neðri hluta síðunnar.
 - **Pöntun** - Þessi dálkur sýnir númer framleiðslupöntunar fyrir vinnslu.
@@ -72,6 +73,28 @@ Vinnslulistinn í flipanum **Virkar vinnslur** er með eftirfarandi dálka:
 - **Lokið** – Þessi dálkur sýnir magnið sem þegar hefur verið lokið fyrir vinnslu.
 - **Rýrnað** -Þessi dálkur sýnir magnið sem þegar hefur verið fært til rýrnunar fyrir vinnslu.
 - **Eftirstandandi** – Þessi dálkur sýnir magnið sem á eftir að ljúka fyrir vinnslu.
+
+## <a name="my-machine-tab"></a>Flipinn fyrir vélina mína
+
+Flipinn **Vélin mín** gerir starfsmönnum kleift að velja eign sem er tengd við tilfang vélar innan síunnar sem er stillt í flipanum **Allar vinnslur**. Starfsmaðurinn getur síðan skoðað stöðu og ástand valinnar eignar með því að lesa gildi fyrir allt að fjóra valda teljara og lista yfir nýlegar viðhaldsbeiðnir og skráða niðurtíma. Starfsmaðurinn getur einnig beðið um viðhald fyrir valda eign og skráð og breytt niðurtíma vélar. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
+ 
+![Flipinn fyrir vélina mína](media/pfei-my-machine-tab.png "Flipinn fyrir vélina mína")
+
+Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
+
+1. **Eign vélar** – Veljið eign vélar sem á að fylgjast með. Byrjið á því að slá inn heiti til að velja úr lista yfir samsvarandi eignir, eða veljið stækkunarglerið til að velja úr lista yfir allar eignir sem tengjast tilföngunum sem eru innan síu vinnslulistans.
+
+    > [!NOTE]
+    > Notendur Supply Chain Management geta úthlutað hverri eign tilfangi eftir þörfum með því að nota síðuna **Allar eignir** (í flipanum **Eign** með því að nota fellilistann **Tilfang**). Frekari upplýsingar eru í [Stofna eign](../asset-management/objects/create-an-object.md).
+
+1. **Stillingar** – Veljið tannhjólið til að opna svarglugga þar sem hægt er að velja hvaða teljara á að skoða fyrir valda eign vélar. Gildi fyrir þessa teljara eru sýnd efst í flipanum **Eignastýring**. Valmyndin **Stillingar** (sem sýnd er í eftirfarandi skjámynd) gerir notanda kleift að virkja allt að fjóra teljara. Fyrir hvern teljara sem á að virkja skal nota uppflettireitinn efst í glugganum til að velja teljara. Uppflettireiturinn sýnir alla teljarana sem tengjast eigninni sem valin er efst á síðunni **Eignastýring**. Stillið hvern teljara til að annaðhvort fylgjast með gildinu fyrir **Uppsafnað** eða síðasta gildi fyrir **Raungildi** fyrir teljarann. Til dæmis ef teljari er settur á sem fylgist með hversu margar klukkustundir vél hefur verið í notkun, þá ætti að stilla hann á **Uppsafnað**. Ef settur er á teljari til að mæla síðasta uppfærða hitastig eða þrýsting, þá ætti að stilla hann á **Raungildi**. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
+
+    ![Flipinn fyrir vélina mína](media/pfei-my-machine-tab-settings.png "Flipinn fyrir vélina mína")
+
+1. **Biðja um viðhald** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að stofna viðhaldsbeiðni. Hægt er að skrifa lýsingu og athugasemd. Beiðnin verður send á notanda Supply Chain Management sem getur þá breytt viðhaldsbeiðninni í verkbeiðni viðhalds.
+1. **Skrá niðurtíma** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að skrá niðurtíma vélar. Hægt verður að velja ástæðukóða og slá inn dagsetningu/tímalengd niðurtímans. Skráning niðurtíma vélar er notuð til að reikna út skilvirkni á eign vélar.
+1. **Skoða eða breyta** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að breyta eða skoða fyrirliggjandi færslur niðurtíma.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Hefja og ljúka framleiðsluvinnslum
 
@@ -124,7 +147,7 @@ Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrir
 
 Í báðum aðstæðum, eftir að Shannon staðfestir val sitt, fer hún á annaðhvort innskráningarsíðuna eða síðu sem mun bíða þess að hún staðfesti að hún hafi skilað úr óbeina verkþættinum. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Unnið í hléum
+## <a name="registering-breaks"></a>Skráning hléa
 
 Starfsmenn geta skráð hlé. Hægt er að skilgreina hlé með sveigjanlegum hætti eins og lýst er í [Laun byggð á skráningum](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Starfsmenn geta opnað skjal sem er hengt við verk með því að velja **Leið
 1. Starfsmaðurinn vinnur í gegnum leiðarvísinn til að læra inn á verkið.
 
 Frekari upplýsingar um hvernig á að stofna, úthluta og nota leiðarvísa fyrir HoloLens er að finna í [Láta starfsmenn í framleiðslu fá leiðarvísa með blönduðum veruleika](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

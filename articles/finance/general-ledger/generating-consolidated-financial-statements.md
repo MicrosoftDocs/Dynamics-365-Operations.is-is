@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444432"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044022"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Búa til samstæðureikningsskil
 
@@ -74,7 +73,7 @@ Stigveldi fyrirtækis sem inniheldur víddir eða lögaðila búa til gagnvirkt 
 ## <a name="consolidations-that-involve-eliminations"></a>Samstæður sem fela í sér losun
 Losunarfærslur eru algengur hluti samstæðuferlisins. Í þessu dæmi eru fimm lyklar losaðir við samstæðu: 142600, 211400, 401420, 401180 og 510820. Fyrirtæki gætu sett upp lyklana sína innan samstæðu á annan hátt. Til dæmis velja sum fyrirtæki síðasta tölustafinn sem 9 ef lykillinn er notaður í færslum innan samstæðu. Óháð aðferðinni, ef þú þekkir lyklana innan samstæðu, geturðu sýnt losanir á samstæðureikningsskilum.
 
-Eftirfarandi skýringarmynd sýnir dálkskilgreiningu fyrir sameinaðan rekstrarreikning. Þrír rekstrarreikningar innan samstæðu eru skilgreindir fyrir hvert fyrirtæki með því að nota víddarsíuna. Dálkur D inniheldur losunarlykla eingöngu fyrir USMF-fyrirtækið og dálkur E inniheldur aðeins losanir fyrir DEMF-fyrirtækið. Bæði dálkur D og dálkur E eru settir upp þannig að þeir eru **ekki** prentaðir á fjárhagsskýrsluna.
+Eftirfarandi skýringarmynd sýnir dálkskilgreiningu fyrir sameinaðan rekstrarreikning. Þrír rekstrarreikningar innan samstæðu eru skilgreindir fyrir hvert fyrirtæki með því að nota víddarsíuna. Dálkar F, G og H innihalda aðeins losunarlykla fyrir USMF, USRT og DEMF fyrirtæki. Þessir dálkar eru settir upp þannig að þeir eru **ekki** prentaðir á fjárhagsskýrsluna.
 
 ![Dálkaskilgreining samstæðureikningsskila](./media/column-definition-consolidated-income-statement.png "Dálkaskilgreining samstæðureikningsskila")
 
@@ -140,7 +139,7 @@ Mismunandi lögaðilar gætu haft mismunandi fjárhagsdagatöl en þurfa samt en
 - Búðu til dálkskilgreiningu og notaðu tímabilið og árið til að varpa viðeigandi tímabilum fyrir hvert fyrirtæki.
 - Í **Stillingar** \> **Annað** \> **Aukavalkostir**, veldu hvort eigi að sameina með því að nota lokadag tímabils eða númer tímabils.
 
-Þegar þú hannar dálkskilgreiningu fyrir mörg fyrirtæki með mismunandi fjárhagstímabilum er mikilvægt að þú íhugir hvaða fyrirtæki verði úthlutað í reitinn **Nafn fyrirtækis** í skýrsluskilgreiningunni. Fjárhagsdagatal fyrirtækis verður notað sem grunnfjárhagsdagatal fyrir skýrsluskilgreininguna. Til dæmis sýnir eftirfarandi tafla uppsetningu fjárhagstímabils fyrir USMF- og INMF-fyrirtækin. Fyrir sameinaðar skýrslur viltu nota fjárhagsdagatal sem USMF notar. „Vörpunar“dálkurinn sýnir sambærilegt tímabil og ár fyrir hvert fyrirtæki ef skýrsla er búin til fyrir 30. júní 2018.
+Þegar þú hannar dálkskilgreiningu fyrir mörg fyrirtæki með mismunandi fjárhagstímabilum er mikilvægt að þú íhugir hvaða fyrirtæki verði úthlutað í reitinn **Nafn fyrirtækis** í skýrsluskilgreiningunni. Fjárhagsdagatal fyrirtækis verður notað sem grunnfjárhagsdagatal fyrir skýrsluskilgreininguna. Til dæmis sýnir eftirfarandi tafla fjárhagstímabils sem var sett upp fyrir USMF- og INMF-fyrirtækin. Fyrir sameinaðar skýrslur viltu nota fjárhagsdagatal sem USMF notar. „Vörpunar“dálkurinn sýnir sambærilegt tímabil og ár fyrir hvert fyrirtæki ef skýrsla er búin til fyrir 30. júní 2018.
 
 | Fyrirtæki   | Fjárhagsár                                  | Vörpun                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -224,6 +223,3 @@ Til að fá rétt umreiknaðar upphæðir þegar gjaldmiðlar eru notaðir, nota
 Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Sameiningar fjárhags á netinu](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

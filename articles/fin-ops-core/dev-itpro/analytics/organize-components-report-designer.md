@@ -1,6 +1,6 @@
 ---
 title: Skipuleggja skýrsluhluta í skýrsluhönnun
-description: Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skipuleggja þessum hlutum þannig að þeir verði auðveldara fyrir notendum að staðsetja. Þessi skrá er útskýrt hvernig raða fyrirliggjandi skýrslur einingar og hlutum í skýrsluhönnun.
+description: Þetta efnisatriði lýsir því hvernig fyrirliggjandi skýrslum, einingum og hlutum í skýrsluhönnun er raðað.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685812"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092424"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
@@ -148,6 +148,3 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

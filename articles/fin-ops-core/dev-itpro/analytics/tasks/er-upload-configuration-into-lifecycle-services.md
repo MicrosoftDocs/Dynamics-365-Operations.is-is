@@ -1,6 +1,6 @@
 ---
 title: Hlaða upp skilgreiningu í Lifecycle Services
-description: Þetta efnisatriði útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Dynamics Lifecycle Services (LCS).
+description: Í þessu efnisatriði er útskýrt hvernig á að stofna nýja skilgreiningu rafrænnar skýrslugerðar og hlaða hana upp í Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684164"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092542"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Hlaða upp skilgreiningu í Lifecycle Services
 
@@ -145,6 +145,3 @@ ms.locfileid: "4684164"
     Skilgreining rafrænnar skýrslugerðar sem var hlaðið upp ætti að vera á listanum.
 
     Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verki.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

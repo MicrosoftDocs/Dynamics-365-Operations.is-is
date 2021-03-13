@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur notað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) til að búa til rafræn skjöl til að vinna úr greiðslum.
+description: Í þessu efni er útskýrt hvernig á að nota nýja skilgreiningu rafræns skýrslugerðarsniðs til að mynda rafræn skjöl fyrir úrvinnslu greiðslna.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 816f98660a5508ada203f49a71e0785548fb9a31
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681734"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092201"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði
 
@@ -81,6 +81,3 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 25. Smellið á „Í lagi“.
     * Greina stofnaða greiðsluskrá á XML-sniði. Bera saman við hannað útlit skjals og færslueigindir skilgreinda greiðslu.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

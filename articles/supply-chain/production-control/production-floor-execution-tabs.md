@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664273"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077579"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
 
@@ -57,7 +56,7 @@ Til að stofna og skilgreina nýjan flipa skal fylgja þessum skrefum:
 1. Gerið eftirfarandi stillingar í haus síðunnar:
 
     - **Heiti flipa** - Tilgreindu heiti fyrir flipann
-    - **Aðalyfirlit** -Veljið á milli tveggja fyrirfram skilgreindra verklista (*virkar vinnslur* eða *Öll störf*).
+    - **Aðalyfirlit** -Veljið á milli tveggja fyrirfram skilgreindra verklista (*Virk verk*, *Öll verk* eða *Vélin mín*).
     - **Upplýsingayfirlit** -Veldu milli auðra gilda eða **Upplýsingar um starf**. Ef valið er autt gildi verður engin nákvæm skoðun á flipanum. Ef valið er **Upplýsingar um starf** mun Ítarlegt yfirlit innihalda nákvæma lýsingu á vinnslunni sem er valin í verklistanum í aðalyfirlitinu.
 
 1. Í **aðaltækjastikunni** skal velja hvaða hnappar eiga að vera tiltækir í aðaltækjastikunni. Dálkurinn **Tiltækar aðgerðir** sýnir lista yfir alla hnappa sem hægt er að bæta við. Dálkurinn **Valdar aðgerðir** sýnir lista yfir alla hnappa sem eru teknir með í núgildandi skilgreiningu. Notaðu hnappana á milli dálka til að fara valdar vörur á milli dálka eftir þörfum. Notaðu upp- og niðurhnappana við hliðina á **Valdar aðgerðir** til að hafa stjórnina á pöntuninni þar sem hnapparnir eru sýndir í notandaviðmótinu.
@@ -79,6 +78,3 @@ Eftir að þú hefur hannað alla flipana sem þú þarft er hægt að tengja þ
 1. Halda áfram að bæta við öðrum flipum eftir þörfum.
 
 1. Notið hnappana **Færa upp** og **Færa niður** á tækjastikunni til að raða flipunum eftir þörfum. Fliparnir birtast frá vinstri til hægri í þeirri röð sem sýnd er í ofangreindri skjámynd (flipinn efst er sýndur hér til vinstri).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
