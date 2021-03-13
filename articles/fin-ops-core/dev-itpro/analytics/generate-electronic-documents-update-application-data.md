@@ -1,6 +1,6 @@
 ---
 title: Mynda rafræn skjöl og uppfæra forritagögn með rafrænni skýrslugerð
-description: Hægt er að hanna snið fyrir rafræna skýrslugerð (ER) sem nota má í forritinu til að búa til rafræn skjöl á útleið. Einnig er hægt að hanna rafræn skýrslugerðarsnið sem þátta rafræn skjöl á innleið og nota innihaldið í þeim skjölum til að uppfæra gögn í forritinu.
+description: Hægt er að hanna snið fyrir rafræna skýrslugerð (ER) sem nota má í forritinu til að búa til rafræn skjöl á útleið.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688389"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093874"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Mynda rafræn skjöl og uppfæra forritagögn með rafrænni skýrslugerð
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Búa til rafræn skjöl og uppfæra forritsgögn með því að nota rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Til að fá frekari upplýsingar um þessa aðgerð skaltu spila verkefnaleiðbe
 - [Stilling á gagnalíkani í rafrænni skýrslugerð: Intrastat (líkan)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Stilling líkansvörpunar í rafrænni skýrslugerð: Intrastat (vörpun)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Sniðsskilgreining í rafrænni skýrslugerð: Intrastat (snið)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

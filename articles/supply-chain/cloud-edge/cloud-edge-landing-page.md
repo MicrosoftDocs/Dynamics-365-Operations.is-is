@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 28301cdfb86d00ea6f04e996fe7fb1485e83b2d4
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516808"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104965"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 
@@ -165,7 +164,7 @@ Nú er hægt að hefja skilgreiningu á einingarkvörðum og vinnuálagi í fors
 
 > [!IMPORTANT]
 > Þegar einingarkvarðar í skýi eru skilgreindir er hægt að [gera öll áskilin skref í gátt Scale Unit Manager](#scale-unit-manager-portal).
-<!-- >
+<!-- 
 > If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Stjórna einingarkvörðum í skýi og vinnuálagi með gátt Scale Unit Manager
@@ -176,7 +175,7 @@ Farið í [Gátt Scale Unit Manager](https://aka.ms/SCMSUM) og skráið ykkur in
 
 Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í þínu nærumhverfi, skal velja **Bæta við einingarkvörðum**. Í forskoðuninni ætti að birtast einingarkvarði í skýi sem þú settir upp fyrir einn af kynningarkóðunum sem þú fékkst sem hluti af áætlun forskoðunar.
 
-<!-- > [!IMPORTANT]
+<!--  [!IMPORTANT]
 > In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
 Í flipanum **Skilgreint vinnuálag** skal nota hnappinn **Stofna vinnuálag** til að bæta vöruhúsakerfi eða vinnuálagi framleiðslu við einn einingarkvarðann. Fyrir hvert vinnuálag þarf að tilgreina samhengi ferlanna sem vinnuálagið verður í. Fyrir vinnuálag vöruhúsakerfis er samhengið tiltekið vöruhús á tilteknu svæði og lögaðila. Fyrir vinnuálag framkvæmdar í framleiðslu er samhengið tiltekið svæði í lögaðila.
@@ -189,6 +188,3 @@ Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í þín
 <!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
 In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

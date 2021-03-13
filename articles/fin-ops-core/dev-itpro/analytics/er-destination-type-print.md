@@ -1,6 +1,6 @@
 ---
 title: Prentari ER-gerð áfangastaðar
-description: Þetta efni útskýrir hvernig þú getur stillt áfangastað prentara fyrir hvern FOLDER eða FILE hluti á rafrænu skýrslugerðarsniðinu (ER) sem er stillt til að búa til skjöl á útleið í annaðhvort PDF eða Microsoft Office snið (Excel\Word).
+description: Þetta efnisatriði útskýrir hvernig á að skilgreina viðtökuprentara tölvupósts fyrir hvern MÖPPU- eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
 author: NickSelin
 manager: AnnBe
 ms.date: 03/17/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679607"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094080"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Áfangastaður prentara
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Viðtökustaður prentara
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,6 +70,3 @@ Til að nota ákveðna [síðustefnu](electronic-reporting-destinations.md#Selec
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

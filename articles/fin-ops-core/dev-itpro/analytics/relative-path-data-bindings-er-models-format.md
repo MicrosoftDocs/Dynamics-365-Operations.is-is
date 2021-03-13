@@ -1,6 +1,6 @@
 ---
 title: Notaðu viðeigandi slóð í gagnabindingum ER-líkana og sniða
-description: Verkfærið Rafræn skýrslugerð (ER) gerir notendum kleift að skilgreina skipulag á rafrænu sniði og lýsa síðan hvernig fylla skal út þetta skipulag með því að nota gögn og reiknirit sem eru til í forritinu.
+description: Í rafrænu skýrsluverkfæri er hægt að skilgreina skipulag rafræns sniðs og lýsa því síðan hvernig á að fylla þetta út.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 321a85c675439b91b99ec5988494d7514a5c53f4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687468"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093138"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Notaðu viðeigandi slóð í gagnabindingum ER-líkana og sniða
 
@@ -57,6 +57,3 @@ Ef þú staðfestir endurheimt á földuðum atriðum verður nýtt yfiratriði 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Formúlutungumál rafrænnar skýrslugerðar](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

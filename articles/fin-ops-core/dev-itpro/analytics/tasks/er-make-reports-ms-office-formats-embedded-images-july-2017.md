@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
-description: Skrefin í þessu efni veita upplýsingar um hvernig á að hanna stillingar fyrir rafræna skýrslugerð (ER) sem búa til rafræn skjöl á Microsoft Office sniði (Excel og Word) sem innihalda innbyggðar myndir.
+description: Í þessu efni er útskýrt hvernig á að hanna skilgreiningar sem mynda rafræn skjöl á Excel- og Word-sniði sem innihalda innfelldar myndir.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684403"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093671"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
 
@@ -90,6 +90,3 @@ Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafr
  30. Velja skal Já í Leyfa stofnun fyrirframkvittana fyrir óvirka bankareikninga: reitinn.  
  31. Smellið á „Vista“.  
  32. Lokið síðunni.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

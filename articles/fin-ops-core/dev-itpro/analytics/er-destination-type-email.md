@@ -1,6 +1,6 @@
 ---
 title: Tölvupóstur ER-gerð áfangastaðar
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁAHLUTA rafrænnar skýrslugerðar (ER) sem er grunnstillt til að mynda skjöl á útleið.
+description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690127"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094105"
 ---
 # <a name="email-er-destination-type"></a>Tölvupóstur ER-gerð áfangastaðar
 
@@ -65,8 +65,6 @@ Ef valið er **Tölvupóstur vegna prentstýringar** sem tegund tölvupóstfangs
 - Í reitnum **Uppruni tölvupósts** skal velja **Enginn**.
 - Í reitinn **Viðbótarnetföng, aðskilin með „;“** skal slá inn föst netföng.
 
-![Skilgreina fast netfang](./media/er_destinations-emailfixedaddress.png)
-
 Að öðrum kosti er hægt að fá netföng frá tengiliðaupplýsingum aðilans sem skjal á útleið er búið til fyrir. Til að nota tölvupóstföng sem eru ekki föst, skal í reitnum **Uppruni tölvupósts** velja [hlutverk](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) aðilans fyrir viðtökustað skráar. Eftirfarandi hlutverk eru studd:
 
 - Viðskiptavinur
@@ -92,8 +90,6 @@ Til dæmis til að grunnstilla viðtökustað tölvupósts fyrir ER-snið sem er
 
 Ef lykilnúmer skilgreinda hlutverksins eru einkvæm fyrir allt tilvik Microsoft Dynamics 365 Finance, má reiturinn **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** vera áfram auður.
 
-![Reitur fyrir autt fyrirtæki tölvupóstsuppruna](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Einnig gæti komið um sú staða þar sem mismunandi aðilar í [Altækri aðsetursbók](../../fin-ops/organization-administration/overview-global-address-book.md) hafi verið skráðir í mismunandi fyrirtæki ([lögaðilar](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) á þann hátt að þeir nota allir sama lykilnúmerið til að fylla út skilgreint hlutverk. Í þessu tilviki eru lykilnúmer fyrir skilgreint hlutverk ekki einkvæm fyrir allt Finance-tilvikið. Til að velja ákveðinn aðila er þess vegna ekki hægt að tilgreina aðeins lykilnúmer. Einnig þarf að tilgreina fyrirtækið sem aðilinn hefur verið skráður í til að fylla út skilgreint hlutverk. Velja skal hnappinn **Binda** (keðjutáknið) við hliðina á reitnum **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** til að opna síðuna [Formúluhönnuður](general-electronic-reporting-formula-designer.md). Síðan er hægt að nota þessa síðu til að skilgreina formúlu sem skilar við keyrslu kóða fyrirtækisins sem æskilegur uppruni verður að finnast í.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Til að tilgreina gerð netfanga sem þarf að nota við keyrslu skal í svarglu
 
 > [!NOTE]
 > Ef tilgangur er valinn í reitnum **Tilgangur** og valkosturinn **Aðaltengiliður** er stilltur á **Já** á sama tíma, verða öll netföng sem uppfylla a.m.k. eitt skilgreint skilyrði notuð við keyrslu.
-
-![Skilgreina lykil fyrir eigindir tölvupóstsuppruna](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Skilgreiningartölvupóstur
 
@@ -145,6 +139,3 @@ Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessu efnisatriði, um fl
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

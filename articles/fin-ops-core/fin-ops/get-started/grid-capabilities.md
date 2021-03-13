@@ -1,9 +1,9 @@
 ---
 title: Hnitanetsgeta
-description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
+description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,40 +15,40 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693775"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104310"
 ---
-# <a name="grid-capabilities"></a>Hnitanetsgeta
+# <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Nýja netstýringin veitir fjölda gagnlegra og öflugra getu sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
+Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
 
 -  Reiknar samtölur
 -  Vélritun á undan kerfinu
 -  Mat á stærðfræðisegðum 
 -  Flokkun töflugagna (virkjuð sérstaklega með flokkun **(forútgáfa) í hnitanetum** eiginleika)
--  Festir kerfisdálkar
+-  Dálkar frystir
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
-Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Þessar samtölur eru sýndar í síðufótarhluta neðst á töflunni. 
+Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
 
 ### <a name="showing-the-grid-footer"></a>Sýni síðufót hnitanetsins
 Það er neðanmálssvæði neðst í hverju töflukerfi í forritum Finance and Operations. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
 
-- Fjöldi valda lína í töflunni (þegar fleiri en ein skrá er valin)
+- Fjöldi valdra lína í töflunni (þegar fleiri en ein skrá er valin)
 - Stórt heildartölur neðst í samstilltu töludálkunum
 - Fjöldi raða í gagnasafninu 
 
-Þessi síðufótur er sjálfgefið falinn en það er einfalt að kveikja á honum. Til að sýna fót fyrir rist, hægrismellt er á dálkhaus í töflunni og valið valkosturinn **Sýna fót**. Þegar búið er að kveikja á fótfótum fyrir tiltekið rist mun sú stilling muna þar til notandinn kýs að fela fótfótinn, það er hægt að gera með því að hægrismella á dálkhaus og velja **Fela fót**.  Athugið staðsetningu staðsetningu **Sýna fót / Fela fót** Búist er við að aðgerð verði staðsett aftur í framtíðaruppfærslu. 
+Þessi síðufótur er sjálfgefið falinn en hægt er að kveikja á honum. Til að sýna fót fyrir rist, hægrismellt er á dálkhaus í töflunni og valið valkosturinn **Sýna fót**. Eftir að kveikt er á síðufætinum fyrir tiltekið hnitanet verður stillingin geymd í minni þar til notandinn kýs að fela síðufótinn. Til að fela síðufót skal hægrismella á dálkhaus og velja **Fela síðufót**.  (Staðsetning aðgerðarinnar **Sýna síðufót/fela síðufót** gæti verið færð yfir á aðra staðsetningu í næstu uppfærslu. 
 
 ### <a name="specifying-columns-with-totals"></a>Tilgreina dálka með samtölum
-Sem stendur er enginn dálkur stilltur til að sýna samtöl sem sjálfgefið. Þess í stað er þetta talið einskiptisvirkni, svipað og að laga breidd dálka í ristum. Þegar þú hefur tilgreint að þú viljir sjá samtölur fyrir dálk, þá munst þessi stilling næst þegar þú heimsækir síðuna.  
+Sem stendur sýna engir dálkar samtölur að sjálfgefnu. Þess í stað er þetta talið einskiptisvirkni, svipað og að laga breidd dálka í ristum. Þegar þú hefur tilgreint að þú viljir sjá samtölur fyrir dálk, þá munst þessi stilling næst þegar þú heimsækir síðuna.  
 
 Það eru tvær leiðir til að stilla dálk til að sýna samtals: 
 
@@ -117,13 +117,19 @@ Athugið, á undan útgáfu 10.0.16/verkvangsuppfærslu 40, er aðeins eitt stig
 Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til samandregin yfirlit yfir gögnin með því að fella saman einstaka flokka eða nota hóp til að stækka og draga saman til að aðstoða við að fletta í gegnum gögn. Til að víkka út hóp eða draga hann saman skal velja tvíoddatákn (>) hnappinn í samsvarandi flokkshauslínu. Athugið að staða fyrir víkkun/samanfellingu einstakra flokka er **ekki** vistuð í sérstillingum.
 
 ### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Velja og afvelja línur á hópstigi
-Á sama hátt og hægt er að velja (eða afvelja) allar línur í hnitanetinu með því að velja gátreitinn efst í fyrsta dálkinum í hnitanetinu, einnig er hægt að velja (eða afvelja) allar línur í hópi með því að velja gátreitinn í samsvarandi hauslínu hóps. Gátreiturinn í línu hóphauss endurspeglar alltaf núverandi valstöðu lína í þeim hópi, burtséð frá því hvort allar línur séu valdar, engar línur séu valdar eða aðeins einhverjar línur eru valdar.
+Á sama hátt og hægt er að velja (eða afvelja) allar línur í hnitanetinu með því að velja gátreitinn efst í fyrsta dálkinum í hnitanetinu, einnig er hægt að velja (eða afvelja) allar línur í hópi með því að velja gátreitinn í samsvarandi hauslínu hóps. Gátreiturinn í hauslínu hóps endurspeglar alltaf núverandi valstöðu lína í þeim hópi, burtséð frá því hvort allar línur séu valdar, engar línur séu valdar eða aðeins nokkrar línur séu valdar.
 
 ### <a name="hiding-column-names"></a>Fela dálkaheiti
 Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Ef byrjað er á útgáfu 10.0.14/verkvangsuppfærsla 38 er hægt að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
 
-## <a name="pinned-system-columns"></a>Festir kerfisdálkar
-Dálkur línuvals og dálkur línustöðu í nýja hnitanetinu eru festir eða frystir lengst til vinstri í hnitanetinu. Þess vegna, þegar þessir dálkar eru teknir með í hnitaneti, verða þeir alltaf sýnilegir notandanum, óháð láréttri flettistöðu í hnitanetinu.   
+## <a name="freezing-columns"></a>Dálkar festir
+Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað viltu að gildin í þessum dálkum séu alltaf sýnileg. Í útgáfu 10.0.17 býður eiginleikinn **Festa dálka í hnitaneti** notendum upp á þennan sveigjanleika. 
+
+Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa dálk**. Í fyrsta skipti sem þetta skref er gert verður valinn dálkur að fyrsta dálkinum og mun ekki lengur hverfa úr augsýn við flettingu. Næstu dálkum sem eru festir verður bætt hægra megin við síðasta festa dálkinn. Hægt er að nota venjulegu færsluaðgerðina til að endurraða festum dálkum eftir þörfum. Hins vegar er ekki hægt að færa festa dálka þannig að þeir birtist á meðal ófestra dálka. Að sama skapi er ekki hægt að færa ófesta dálka þannig að þeir birtist á meðal festra dálka.
+
+Til að losa dálk skal hægrismella í haus fests dálks og síðan velja **Losa dálk**. 
+
+Athugið að dálkval og línustaða dálka í nýja hnitanetinu eru alltaf fest sem fyrstu tveir dálkarnir. Þess vegna, þegar þessir dálkar eru teknir með í hnitaneti, verða þeir alltaf sýnilegir notanda, óháð láréttri flettistöðu í hnitanetinu. Ekki er hægt að endurraða þessum tveimur dálkum.
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
@@ -159,7 +165,7 @@ Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnit
 Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyrir dálka innan nýja hnitanetsins, fá þessir dálkar upphaflega sömu breidd og þeir myndu fá ef eiginleikinn væri stilltur á **SizeToContent**. Hins vegar teygist á þeim þannig að þeir noti þá breidd sem í boði er innan hnitanetsins. Ef eiginleikinn er stilltur á **SizeToAvailable** fyrir marga dálka, deila allir þessir dálkar á milli sín aukalegri breidd sem er í boði innan hnitanetsins. Hins vegar, ef notandi breytir stærð einhverra þessara dálka, verður sá dálkur fastur. Hann heldur þeirri breidd og breikkar ekki lengur til að fylla upp í tiltæka breidd hnitanetsins.  
 
 ## <a name="known-issues"></a>Þekkt vandamál
-Þessi hluti heldur lista yfir þekkt vandamál fyrir nýja hnitanetstýringuna á meðan eiginleikinn er í forútgáfu.  
+Þessi hluti heldur lista yfir þekkt vandamál fyrir nýju hnitanetsstýringuna.  
 
 ### <a name="open-issues"></a>Opin vandamál
 -  Þegar búið er að virkja eiginleikann **Ný hnitanetsstýring**, halda sumar síður áfram að nota núverandi netstýringu. Þetta gerist við eftirfarandi aðstæður:  
@@ -170,20 +176,44 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
     Þegar notandi stendur í fyrsta skipti frammi fyrir þessum aðstæðum birtast skilaboð um að uppfæra skuli síðuna. Eftir að þessi skilaboð birtast mun síðan halda áfram að nýta núverandi hnitanet fyrir alla notendur fram að næstu uppfærslu afurðar. Betri meðhöndlun á þessum aðstæðum, svo hægt sé að nýta nýja hnitanetið, verður höfð í huga í framtíðaruppfærslu.    
     
 -  [KB 4582758] Færslur eru óskýrar þegar verið er að breyta aðdrætti úr 100 í einhverja aðra prósentutölu
-    
+-  [KB 4592012] Óvænt biðlaravilla í IE11 þegar margar línur eru límdar úr Excel
+    -  Microsoft er ekki að vinna að lagfæringu á þessu vandamáli
+
+### <a name="fixed-as-part-of-10016"></a>Lagað sem hluti af 10.0.16
+
+-  [KB 4598335] Strengjastýringar margra lína fara ekki eftir DisplayHeights í listum/spjöldum 
+-  [KB 4591891] Reikningstillögulínur hverfa þegar línur eru afmerktar
+-  [KB 4592104] Ekki er hægt að breyta færslum eftir að smellt er á „Leysa vandamál“ og farið er í aðra línu án þess að lagfæra staðfestingarvandann
+-  [KB 4594449] Hnappana „Aldrei“ og „Hreinsa“ vantar inni í dagsetningarvalinu 
+-  [KB 4594448] Innsláttur tíma er meðhöndlaður á annan hátt í nýja hnitanetinu
+-  [KB 4600059] Óvænt biðlaravilla í takmörkun tölvupóstsendinga
+-  [KB 4574584] Forskoðun kostnaðar í viðhengi ekki í boði þegar músarbendlinum er haldið yfir kvittunartákninu
+
 ### <a name="fixed-as-part-of-10015"></a>Lagað sem hluti af 10.0.15    
 
+-  (Gæðauppfærsla) [KB 4594444] Óvænt biðlaravilla í forskoðun fyrir sundurliðaða innfærslustýringu
 -  [KB 4582723] Birtingarkostir sjást ekki þegar það er gert síðar í líftíma eyðublaðs
+-  [KB 4591988] Vandamál þegar lyklaborðið er notað til að velja gildi úr uppflettingu ReferenceGroup
+-  [KB 4588958] Regression Suite Automation Tool (RSAT) prófun mistekst með villu: TypeError: Ekki hægt að lesa óskilgreindan eiginleika „texta“
+-  [KB 4591970] Óvænt biðlaravilla þegar líming úr Excel var gerð strax eftir að smellt var í hnitanetið
+-  [KB 4591904] Breytingar á gögnum eru ekki vistaðar ef notandi, eftir breytingu á stýringu, smellti strax og opnaði uppflettingu á annarri stýringu
+-  [KB 4584752] Óvænt biðlaravilla varðandi tillögusíðu verkreikninga
+-  [KB 4584540] Ekki er hægt að fara úr hnitanetinu eftir límingu á einni línu í færslulínu
+-  [KB 4591908] Þegar ný lína er stofnuð helst áherslan á dálkinum sem notandi var í
 
 ### <a name="fixed-as-part-of-10014"></a>Lagað sem hluti af 10.0.14
 
 -  (Gæðauppfærsla) [KB 4584752] Óvænt biðlaravilla með síðu verkreikningstillagna
+-  [KB 4583880] Regression Suite Automation Tool (RSAT) prófun mistekst í OpenLookup-aðgerð með „Ekki er hægt að lesa óskilgreinda eiginleika RowIndex“
+-  [KB 4583847] Óvænt biðlaravilla þegar farið er í gegnum uppflettingar
 
 ### <a name="fixed-as-part-of-10013"></a>Lagað sem hluti af 10.0.13
 
+-  (Gæðauppfærsla) [KB 4584752] Óvænt biðlaravilla með síðu verkreikningstillagna
 -  (Gæðauppfærsla) [KB 4583880] Regression Suite Automation Tool (RSAT) prófun mistekst í OpenLookup-aðgerð með „Ekki er hægt að lesa óskilgreinda eiginleika RowIndex“
 -  (Gæðauppfærsla) [KB 4583847] Óvænt biðlaravilla þegar farið er í gegnum uppflettingu 
 -  (Gæðauppfærsl) [Villa 471777] Ekki er hægt að velja reiti í hnitaneti til að breyta eða búa til farsímaforrit
+-  [KB 4582727] Hnitanet frýs eftir að notandi fær svarglugga fyrir vörur með margs konar magni
 -  [Villa 474851] Tenglar í stýringum viðmiðunarhópa virka ekki 
 -  [Villa 474848] Aukin forskoðun með hnitanetum birtist ekki
 -  [KB 4582726] Ekki er verið að virða RotateSign-eignina  
@@ -263,6 +293,3 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
 ### <a name="quality-update-for-1009platform-update-33"></a>Gæðauppfærsla fyrir 10.0.9/verkvangsuppfærsla 33
 
 - [KB 4550367] Tímagildin eru á röngu sniði.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

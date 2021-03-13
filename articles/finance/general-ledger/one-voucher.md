@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444436"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107721"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -55,25 +54,26 @@ Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum
 
 Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 
-[![Dæmi](./media/example.png)](./media/example.png)
+[![Dæmi um fylgiskjal með mörgum línum](./media/example.png)](./media/example.png)
 
 Þá er búin til skýrslan **Útgjöld lánardrottins** á vinnusvæðinu **Fjármálainnsýn**. Í þessari skýrslu eru reikningsstöður kostnaðarlykla flokkaðir af lánardrottnaflokk og síðan lánardrottni. Við gerð skýrslunnar getur kerfið ekki ákvarðað hvaða lánardrottnaflokkar/lánardrottnar stofnuðu til kostnaðarins 250,00. Færsluupplýsingar vantar og þess vegna gerir kerfið ráð fyrir að fyrsti lánardrottin sem finnst í fylgiskjalinu hafi stofnað til 250,00. Þess vegna er 250,00 kostnaður, sem er hluti af stöðu aðallykils 600120, sýndur undir þeim lánardrottnaflokki/lánardrottni. Hins vegar er mjög líklegt að fyrsti lánardrottininn í fylgiskjalinu sé ekki rétti lánardrottininn. Þess vegna er skýrslan líklega rangt.
 
-[![Kostnaður](./media/expenses.png)](./media/expenses.png)
+[![Kostnaðarskýrsla eftir lánardrottni](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Framtíð eins fylgiskjals
 
-Vegna vandamálanna sem fyrr voru nefndar, mun Eitt fylgiskjal virkni verða úrelt. Hins vegar, vegna þess að það eru virknigloppur sem treysta á þessa virkni, mun virknin ekki vera úreld öll í einu. Þess í stað verður eftirfarandi áætlun notuð:
+Vegna vandamála sem geta komið upp þegar eitt fylgiskjal er notað, verður þessi virkni úreld að lokum. En hins vegar eru virknigloppur sem reiða sig á þessa virkni og úreldingin gerist því ekki öll í einu. Þess í stað verður eftirfarandi áætlun notuð:
 
-- **Vorútgáfa 2018** - Sjálfgefið verður slökkt á virkninni sjálfgefið á **Leyfa margar færslur í einu fylgiskjali** færibreytunni á **Almennt** flipanum á **Færibreytur fjárhagsbókar** síðu. Hins vegar geturðu kveikt á virkni ef fyrirtækið hefur atburðarás sem heyrir undir viðskiptagloppur sem eru skráðar seinna í þessu efnisatriði.
+- **Vorútgáfa 2018** - Sjálfgefið var slökkt á virkninni í gegnum færibreytuna **Leyfa margar færslur í einu fylgiskjali** færibreytunni í flipanum **Almennt** á síðunni **Færibreytur fjárhags**. Hins vegar geturðu kveikt aftur á því ef fyrirtækið hefur atburðarás sem heyrir undir viðskiptagloppur sem eru skráðar seinna í þessu efnisatriði.
 
-    - Ef viðskiptavinir hafa viðskiptaatburðarrás sem ekki krefst Eins fylgiskjals, ættu þeir ekki að kveikja á virkni. Microsoft mun ekki laga „villur“ á þeim svæðum sem eru auðkenndar síðar í þessu efnisatriði ef þessi virkni er notuð jafnvel þó að önnur lausn sé til staðar.
-    - Hættið að nota Eitt fylgiskjal fyrir samþættingu, nema virknin sé nauðsynleg fyrir eina af virknigloppunum.
+    - Ef viðskiptaaðstæðurnar krefjast ekki eins fylgiskjals er mælt með því að slökkt sé á virkninni. Ef hún er notuð jafnvel þótt önnur lausn sé til staðar, mun Microsoft ekki laga „villur“ á svæðum sem ekki er minnst á í þessu efnisatriði.
+    - Mælt er með því að hætta að nota eitt fylgiskjal fyrir samþættingar nema virknin sé nauðsynleg fyrir eina eða fleiri skráðar virknigloppur.
 
-- **Seinni útgáfur**- Allar virknigloppur verða fylltar. **Eftir að virknigloppur eru fylltir og nýjar aðgerðir eru afhentar, verður að líða að minnsta kosti eitt ár áður en virkni Eins fylgiskjals er varanlega slökkt**, vegna þess að viðskiptavinir og óháðir hugbúnaðarsalar (ISV) verða að hafa nægan tíma til að bregðast við nýju virkninni. Til dæmis gætu þeir þurft að uppfæra viðskiptaferli sín, einingar og samþættingar.
+- **Síðari útgáfur** – Nokkrar viðskiptakröfur er aðeins hægt að uppfylla með því að nota eitt fylgiskjal. Microsoft verður að tryggja að enn verði hægt að uppfylla allar skilgreindar viðskiptakröfur í kerfinu eftir að virknin er gerð úreld. Þess vegna þarf líklega að bæta við nýjum eiginleikum til að fylla í virknigloppur. Microsoft getur ekki boðið upp á eina sérstaka lausn vegna þess að hver eiginleikagloppa er mismunandi og verður að meta hana út frá viðskiptakröfunum. Einhverjum virknigloppum verður líklega skipt út fyrir eiginleika sem hjálpa til við að mæta tilteknum viðskiptakröfum. Hins vegar gæti verið fyllt í aðrar gloppur með því að leyfa áfram færslu í færslubók, eins og eitt fylgiskjal er notað, en að rakning kerfisins á upplýsingum verði bætt eftir þörfum.
 
-> [!IMPORTANT]
-> **Eitt fylgiskjal eingöngu** valkosturinn hefur **ekki** verið fjarlægður úr uppsetningu færslubókarheitis. Þessi valkostur er ennþá studdur þegar fylgiskjalið inniheldur aðeins fjárhagslyklagerðir. Viðskiptavinir verða að vera varkárir þegar þeir nota þessa stillingu, því fylgiskjalið verður ekki bókað ef þeir nota **Eitt fylgiskjal eingöngu** kostinn en slá síðan inn fleiri en eitt viðskiptavina, lánardrottinn, banka, eign eða verk. Þar að auki geta viðskiptavinir ennþá slegið inn lyklagerðir undirbókar, svo sem greiðslu í einu fylgiskjali sem inniheldur lyklagerðir **Lánardrottins**/**Banka**.
+Þegar fyllt hefur verið í allar virknigloppur mun Microsoft láta vita að eiginleikinn verði gerður úreldur. Hins vegar tekur úreldingin ekki gildi fyrr en a.m.k. einu ári eftir samskiptin. Þrátt fyrir að Microsoft geti ekki lagt fram mat þegar virkni eins fylgiskjals verður gerð úreld, þá mun það líklega taka að minnsta kosti tvö ár áður en úreldingin mun eiga sér stað. Stefna Microsoft er að láta líða a.m.k. 12 mánuði frá tilkynningu um úreldingu á virkni og þar til sjálf úreldingin á sér stað þannig að viðskiptavinir og óháðir hugbúnaðarsalar hafi tíma til að bregðast við breytingunni. Til dæmis gæti fyrirtæki þurft að uppfæra viðskiptaferli sína, einingar og samþættingar.
+
+Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Sem hluti af þeim samskiptum mun Microsoft uppfæra þetta efnisatriði, birta bloggfærslu á bloggsvæði Microsoft Dynamics 365 Finance, uppfæra efnisatriðið „Fjarlægðir eða úreltir eiginleikar“, láta vita af breytingunni á viðeigandi ráðstefnum Microsoft o.s.frv.
 
 ## <a name="why-use-one-voucher"></a>Af hverju að nota Eitt fylgiskjal?
 
@@ -186,6 +186,3 @@ Ef þarf að gera leiðréttingu á fjárhagslykli viðskiptakrafna eða viðski
 ### <a name="the-system-allows-it"></a>„Kerfið leyfir það“
 
 Fyrirtæki nota oft virknina Eitt fylgiskjal eingöngu vegna þess að kerfið leyfir notkun þess án þess að gerð sé grein fyrir afleiðingunum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

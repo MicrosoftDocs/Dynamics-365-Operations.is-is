@@ -1,6 +1,6 @@
 ---
 title: Hlutar fjárhagsskýrslu
-description: Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu. Þessar einingar eru línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. Í þessari grein er útskýrt hvernig á að skipuleggja og læsa einingum, og hvernig unnið er með einingahópa.
+description: Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d066ee69887f05c8fe14eebac1111c4db26ec628
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682722"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093977"
 ---
-# <a name="financial-report-components"></a>Hlutar fjárhagsskýrslu
+# <a name="financial-report-components"></a>Fjárhagsskýrsluhlutar
 
 [!include [banner](../includes/banner.md)]
 
@@ -126,6 +126,3 @@ Hægt er að flytja inn einingahóp í fyrirliggjandi einingahóp. Allir eininga
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4444558"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104230"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Þjónusta rafrænnar reikningsfærsluviðbótar tekur ábyrgð á því að geyma öll viðskiptagögnin þín í þeim Microsoft Azure-tilföngum sem fyrirtækið þitt á. Til að tryggja að þjónustan virki rétt og að öll viðskiptagögnin sem þarf fyrir og eru búin til af viðbót rafrænnar reikningsfærslu er aðeins opnuð af viðbótinni, þarf að stofna tvö aðaltilföng Azure:
-
-- Azure-geymslureikningur (Blob-geymsla) til að geyma rafræna reikninga
-- Azure-lyklageymsla til að geyma vottorð og einkvæmt forðakenni (URI) geymslureikningsins
-
-> [!NOTE]
-> Úthluta verður tilteknu lyklageymslutilfangi og Blob-geymslu viðskiptavinar sem er sérstaklega notað með viðbót rafrænnar reikningsfærslu.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -91,6 +80,3 @@ ms.locfileid: "4444558"
 9. Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Viðbót rafrænnar reikningsfærslu**.
 10. Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.
 11. Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu. Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

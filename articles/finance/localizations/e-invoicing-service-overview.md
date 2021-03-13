@@ -3,7 +3,7 @@ title: Yfirlit innbótar rafrænna reikninga
 description: Í þessu efnisatriði er að finna upplýsingar um viðbót rafrænnar reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4444557"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104209"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Yfirlit innbótar rafrænna reikninga
 
@@ -45,9 +44,9 @@ Viðbót rafrænnar reikningsfærslu getur auðveldað þér að ná eftirfarand
 
 Til að nota viðbót rafrænnar reikningsfærslu þarf að setja hana upp í verkinu þínu í Microsoft Dynamics Lifecycle Services (LCS). Næst skal fylgja uppsetningarferlinu til að kveikja á samþættingu við Finance and Supply Chain Management. Frekari upplýsingar er að finna í [Hafist handa með viðbót rafrænnar reikningsfærslu](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Til ráðstöfunar
+## <a name="service-availability"></a><a name="availability"></a>Framboð þjónustu
 
-Í upphafi er rafræna reikningsfærsluviðbótin tiltæk völdum viðskiptavinum í gegnum forútgáfu forrits. Síðar verður forútgáfan opnuð fyrir fleiri viðskiptavini. Að lokum mun þjónustan verða almennt í boði. Vegna þess að virkni sem tengist lands-/svæðisbundnum kröfum kann að vera takmörkuð á mismunandi stigum útgáfunnar, ætti alltaf að athuga nýjustu fylgigögnin sem fjalla um umfang lausna sem eru háðar löndum/svæðum.
+Sem stendur er rafræn reikningsfærsluviðbót tiltæk fyrir viðskiptavini í gegnum forskoðunarforritið og í næsta áfanga verður þjónustan almennt tiltæk. Vegna þess að virkni sem tengist lands-/svæðisbundnum kröfum kann að vera takmörkuð á mismunandi stigum útgáfunnar, ætti alltaf að athuga nýjustu fylgigögnin sem fjalla um umfang lausna sem eru háðar löndum/svæðum.
 
 Viðbót rafrænnar reikningsfærslu er sett upp á eftirfarandi staðsetningum Azure:
 
@@ -76,7 +75,7 @@ Hægt er að nota viðbót rafrænnar reikningsfærslu í aðstæðum þar sem s
     - Innbyggð, auðveldlega stækkanleg og stillanleg samþætting við viðbótarefni fyrir ýmis lönd
 
     > [!NOTE]
-    > Sem stendur er takmarkaður fjöldi beinna innsendingar studdur. Frekari upplýsingar er að finna í hlutanum [Framboð](#availability) fyrr í þessu efnisatriði. Stuðningur verður lengdur í framtíðinni.
+    > Sem stendur er takmarkaður fjöldi beinna innsendingar studdur. Frekari upplýsingar er að finna í hlutanum [Þjónustuframboð](#availability) fyrr í þessu efnisatriði. Stuðningur verður lengdur í framtíðinni.
 
 - Meðhöndlun svara frá vefþjónustum, þ.m.t. meðhöndlun á stillanlegum undantekningarboðum
 - Stuðningur við rafrænar undirskriftir (til dæmis með því að nota reiknirit XMLDSig-undirskriftar)
@@ -104,15 +103,9 @@ Eftirfarandi mynd sýnir hvernig gögn streyma til og frá viðbót rafrænnar r
 ![Gagnaflæði fyrir viðbót rafrænnar reikningsfærslu](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Við virkjun og notkun rafrænnar reikningsfærslu þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
+Við virkjun og notkun viðbótar rafrænnar reikningsfærslu þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-
-- [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
-- [Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Brasilíu](e-invoicing-bra-get-started.md)
-- [Hafist handa með innbót rafrænna reikninga fyrir Mexíkó](e-invoicing-mex-get-started.md)
-- [Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Ítalíu](e-invoicing-ita-get-started.md)
-- [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Þjónustustjórnun](e-invoicing-service-administration.md)
+- [Skilgreina rafræna reikninga í RCS](e-invoicing-configuration-rcs.md)
+- [Gefa út rafræna reikninga í Finance and Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

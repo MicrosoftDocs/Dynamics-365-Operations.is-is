@@ -1,9 +1,9 @@
 ---
 title: Áfangastaðir fyrir rafræna skýrslugerð
-description: Þetta efni veitir upplýsingar um stjórnun áfangastaða fyrir rafræna skýrslugerð, tegundir áfangastaða sem eru studdir og öryggissjónarmið.
+description: Í þessu efnisatriði er að finna upplýsingar um stjórnun á áfangastöðum rafrænnar skýrslugerðar, gerðir studdra áfangastaða og öryggissjónarmið.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687159"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097282"
 ---
-# <a name="electronic-reporting-er-destinations"></a>Áfangastaðir rafrænnar skýrslugerðar (ER)
+# <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,7 +62,7 @@ Sjálfgefin hegðun fyrir skilgreiningu sniðs rafrænnar skýrslugerðar veltur
 Ef valkosturinn **Runuvinnsla** er stilltur á **Já** er snið rafrænnar skýrslugerðar keyrt í stillingunni [runa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Viðeigandi runuvinnsla er stofnuð á grundvelli færibreytna sem tilgreindar eru í **Keyra í bakgrunni** flipa í flipanum í svarglugganum **Færibreytur rafrænnar skýrslugerðar** .
 
 > [!NOTE]
-> Starfslýsing er ræst til að láta vita um keyrslu á vörpun með sniði rafrænnar skýrslugerðar. Það inniheldur einnig heiti hluta rafrænnar skýrslugerðar sem var keyrður.
+> Starfslýsing lætur vita um keyrslu á vörpun með sniði rafrænnar skýrslugerðar. Hún inniheldur einnig heiti rafræns skýrslugerðarhluts sem er keyrður.
 
 [![Keyrir snið rafrænnar skýrslugerðar](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -96,7 +96,9 @@ Til dæmis er hægt að nota þessa getu til að stilla skrá áfangastaða fyri
 
 [![Stilla marga áfangastaði fyrir staka sniðeiningu](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
-## <a name="destination-types"></a>Gerðir áfangastaða
+Þegar snið rafrænnar skýrslugerðar er keyrt verða allir áfangastaðir sem voru skilgreindir fyrir íhluti sniðsins alltaf keyrðir. Að auki, í Finance **útgáfu 10.0.17 og nýrri**, hefur virkni áfangastaða rafrænnar skýrslugerðar verið bætt og gerir notanda nú kleift að skilgreina mismunandi safn staðsetninga fyrir eitt snið rafrænnar skýrslugerðar. Þessi skilgreining merkir hvert safn sem skilgreint fyrir tiltekna aðgerð notanda. API rafrænnar skýrslugerðar hefur verið [stækkað](er-apis-app10-0-17.md) þannig að hægt sé að bjóða upp á aðgerð sem notandi framkvæmir með því að keyra snið rafrænnar skýrslugerðar. Aðgerðarkóðinn sem er veittur er sendur til áfangastaða rafrænnar skýrslugerðar. Hægt er að keyra mismunandi áfangastaði fyrir snið rafrænnar skýrslugerðar, sem fer eftir aðgerðarkóðanum sem gefinn er upp. Frekari upplýsingar er að finna í [Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð](er-action-dependent-destinations.md).
+
+## <a name="destination-types"></a>Gerðir viðtökustaða
 
 Eftirfarandi áfangastaðir eru nú studdir fyrir ER-snið. Þú getur virkjað eða óvirkjað allar gerðir á sama tíma. Á þennan hátt er annað hvort hægt að gera ekkert eða senda íhlutinn á allar skilgreinda áfangastaði.
 
@@ -154,7 +156,7 @@ Ef þú hreinsar gátreitinn **Hætta að vinna við bilun** fyrir hlutann **Cov
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Útfærsla í PDF
 
-Þú getur notað PDF viðskipti möguleika til að umbreyta framleiðsla í Microsoft Office-snið (Excel/Word) á PDF snið.
+Hægt er að nota valkost PDF-umbreytingar til að breyta úttaki í Microsoft Office (Excel eða Word) sniði yfir á PDF-snið.
 
 ### <a name="make-pdf-conversion-available"></a>Gerðu PDF umbreytingu aðgengileg
 
@@ -164,21 +166,20 @@ Til að gera PDF umbreytingarvalkostinn tiltækan í núverandi tilviki Finance,
 
 ### <a name="applicability"></a>Gildissvið
 
-Aðeins er hægt að kveikja á PDF-umbreytingarvalkostinum fyrir skráhluta sem eru notaðir til að mynda úttak í Microsoft Office Excel eða Word-sniði (**Excel-skjal**). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið.
+Aðeins er hægt að kveikja á valkosti PDF-umbreytingar fyrir skráarhluta sem eru notaðir til að mynda úttak á Office-sniði (Excel eða Word) (**Excel-skrá**). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið.
 
 ### <a name="limitations"></a>Takmarkanir
 
 > [!NOTE]
 > Þessi eiginleiki er forsýningaraðgerð og er háð þeim notkunarskilmálum sem lýst er í [Viðbótarskilmálar notkunar fyrir Microsoft Dynamics 365 Forskoðanir](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> PDF-umbreytingarvalkostuirnn er aðeins í boði fyrir skýjadreifingar.
->
-> Framleitt PDF er takmarkað við hámarksfjölda 300 blaðsíður.
->
-> Microsoft Dynamics 365 Finance útgáfa 10.0.9 (apríl 2020) styður aðeins langsnið í PDF-skjali sem er búið til úr Excel. Með Dynamics 365 Finance útgáfu 10.0.10 (maí 2020) er hægt að [tilgreina síðuuppsetningu](#SelectPdfPageOrientation) í PDF-skjalinu sem er búið til úr Excel meðan áfangastaður fyrir rafræna skýrslugerð er skilgreindur.
->
-> Aðeins algeng kerfis leturgerðir Window stýrikerfisins eru notuð til að umbreyta framleiðsla sem inniheldur engin innbyggð letur.
+Valkostur PDF-umbreytingar er aðeins í boði fyrir uppsetningar í skýi.
+
+PDF-skjalið sem verður til takmarkast við að hámarki 300 blaðsíður.
+
+Í Finance, **útgáfu 10.0.9**, er aðeins langsnið á síðum stutt í PDF-skjalinu sem er búið til úr Excel-úttaki. Í Finance, **útgáfu 10.0.10 (maí 2020) og nýrri**, er hægt að [tilgreina hvernig blaðsíðan á að snúa](#SelectPdfPageOrientation) fyrir PDF-skjal sem er búið til úr Excel-úttaki á meðan staðsetning rafrænnar skýrslugerðar er skilgreind.
+
+Aðeins algengar leturgerðir Windows-stýrikerfisins eru notaðar til að umbreyta úttaki sem inniheldur engar innfelldar leturgerðir.
 
 ### <a name="use-the-pdf-conversion-option"></a>Notaðu PDF-umbreytingarvalkostinn
 
@@ -188,16 +189,16 @@ Til að kveikja á PDF-ummyndun fyrir skráarstað, veldu gátreitinn **Umbreyta
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Veldu síðu stefnu fyrir PDF umbreytingu</a>
 
-Ef þú býrð til ER skilgreiningu á Excel sniði og vilt umbreyta því á PDF snið, geturðu tilgreint síðustefnu PDF. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
+Ef skilgreining rafrænnar skýrslugerðar er búin til á Excel-sniði og ætlunin er að breyta því í PDF-skjal, er hægt að tilgreina hvernig síðan á að snúa í PDF-skjalinu. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
 
 [![Val á síðustefnu fyrir PDF-umbreytingu](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Til að eiga möguleika á að velja stefnu PDF síðu verður þú að setja upp Microsoft Dynamics 365 Finance útgáfa 10.0.10 (maí 2020) eða nýrri.
+> Til að hafa möguleikann á því að velja hvernig PDF-síða á að snúa þarf að setja upp Finance-útgáfu 10.0.10 eða nýrri.
 >
 > Valin síðustefna er notuð á allar ER stillingar sem eru búnar til á Excel sniði og síðan breytt í PDF snið.
 >
-> Ef umbreytt PDF er búið til úr ER stillingu á Word sniði er stefnumörkun PDF tekin úr Word skjalinu.
+> Ef skilgreining rafrænnar skýrslugerðar á Word-sniði er breytt í PDF-snið, verður snúningur PDF-skjalsins tekinn frá Word-skjalinu.
 
 ## <a name="security-considerations"></a>Öryggisatriði
 
@@ -225,7 +226,7 @@ Nei. Sjálfgefna Microsoft Azure Blob geymslan sem er skilgreind og notað fyrir
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Hver er tilgangur áfangastaðar skrár í stillingar fyrir áfangastað? Hvað gerir sú stillingu?
 
-**Skrá** áfangastaður er notuð til að stýra svarglugga. Ef þessi áfangastað er virkjaður, eða ef enginn áfangastaður er skilgreind fyrir skilgreiningu, birtist opinn eða vistaður svargluggi eftir að frálagsskráin er stofnuð.
+Áfangastaður **skráar** er notaður til að stjórna svarglugga vafrans þegar snið rafrænnar skýrslugerðar er keyrt í gagnvirkri stillingu. Ef þessi áfangastaður er virkjaður, eða ef enginn áfangastaður er skilgreindur fyrir skilgreiningu, sést svargluggi til að opna eða vista í vafranum eftir að úttaksskrá hefur verið búin til.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Er Hægt að veita dæmi um formúluna sem vísar til reikning lánardrottins sem ég get set tölvupóst til?
 
@@ -237,7 +238,6 @@ Sniðið verður fyrst að vera tiltæk í skilgreiningum rafrænnar skýrsluger
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð](er-action-dependent-destinations.md)

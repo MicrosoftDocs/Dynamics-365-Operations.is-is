@@ -1,6 +1,6 @@
 ---
 title: Dálkaskilgreiningar í Fjárhagsskýrslum
-description: Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum.
+description: Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Dálkskilgreining er skýrsluhluti, eða eining sem tilgreinir efni dálka í skýrslu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687231"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093110"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -226,7 +226,7 @@ Notandinn er að stofna skýrslu fyrir kvika sex mánuða spá. Notandinn vill a
 | Dálkbreidd        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Stilling fyrir prentun       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Notandi tvísmellir á dálkhaus til að opna svargluggann **Dálkhaus** þar sem hann færir inn eftirfarandi upplýsingar.
+Notandi tvísmellir á dálkhaus í dálki B til að opna svargluggann **Dálkhaus** þar sem hann færir inn eftirfarandi upplýsingar.
 
 | Svæði              | Virði                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ Notandi tvísmellir á dálkhaus til að opna svargluggann **Dálkhaus** þar se
 | Jöfnun      | Ekkert er valið |
 | Byrjar á        | V                     |
 | Endar á          | BASE                  |
-| Fyrirsögn fjárhagsáætlunar      | BASE+1 í lokadálk  |
 
 Þegar upplýsingar eru færðar inn smellir notandinn á **Í LAGI**. Notandinn tvísmellir svo á dálkfyrirsagnarhólfið í dálki C til að opna svargluggann **Dálkfyrirsögn** og færir inn eftirfarandi upplýsingar.
 
@@ -246,8 +245,8 @@ Notandi tvísmellir á dálkhaus til að opna svargluggann **Dálkhaus** þar se
 | Setja inn sjálfvirkan texta    | Ekkert er valið |
 | Sniðvalkostir     | Reitur                   |
 | Jöfnun      | Ekkert er valið |
-| Byrjar á        | C                     |
-| Endar á          | BASE+2                |
+| Byrjar á        | BASE+1                |
+| Endar á          | M                     |
 
 Í hvert skipti sem skýrsla er mynduð mun orðið Raunverulegt vera prentað fyrir ofan dálkana sem innihalda raungögn og að orðið Fjárhagsáætlun verði prentað fyrir ofan dálkana sem innihalda fjárhagsáætlunarspár. Þar að auki, fjölda dálka verður leiðréttir hvern mánuð.
 
@@ -599,6 +598,3 @@ Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til 
 [Línuskilgreiningar í fjárhagsskýrsluhönnuði](row-definitions-financial-reporting.md)
 
 [Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

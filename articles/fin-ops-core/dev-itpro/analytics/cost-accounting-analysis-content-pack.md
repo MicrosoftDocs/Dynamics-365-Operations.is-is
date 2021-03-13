@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarbókhaldsgreining Power BI efni
-description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu á Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu á Power BI efni.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683872"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093387"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining á Power BI efni
+# <a name="cost-accounting-analysis-power-bi-content"></a>Greining á Power BI-efni kostnaðarbókhalds
 
 [!include [banner](../includes/banner.md)]
 
@@ -123,6 +123,3 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
 | Fjárhagsár                       | Almanaksár                                                                                                        |
 | Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

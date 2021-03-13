@@ -1,9 +1,9 @@
 ---
 title: Yfirlit yfir rafræna skýrslugerð (ER)
-description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
+description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
 author: NickSelin
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 33d399c6a9051097d3ea0c7990a37302395d9c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682600"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093927"
 ---
-# <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð (ER)
+# <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
@@ -37,6 +37,7 @@ Vélar fyrir rafræna skýrslugerð eru ætlaðar fyrir viðskiptanotendur í st
 Á þessum tíma styður ER TEXT, XML Microsoft Word skjöl, og OPENXML snið vinnublaða. Hins vegar veitir viðbótarviðmót stuðning við fleiri snið.
 
 ## <a name="capabilities"></a>Geta
+
 ER-vélin hefur eftirfarandi getu:
 
 - Það er eitt deilt verkfæri til rafrænnar skýrslugerðar á mismunandi lénum, og kemur í stað 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir Finance and Operations.
@@ -46,6 +47,7 @@ ER-vélin hefur eftirfarandi getu:
 - Það styður getu til að dreifa sniðum til viðskiptaaðila og viðskiptavini með Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Lykilhugtök
+
 ### <a name="components"></a>Íhlutir
 
 ER styður tvær gerðir íhluta **gagnalíkan** og **Snið**.
@@ -71,7 +73,6 @@ Líkanavörpun sem styður rafræn skjöl á útleið hefur eftirfarandi getu:
 - Hægt er að nota mismunandi gagnagerðir sem gagnagjafa fyrir gagnalíkan. Til dæmis getur það notað töflur, gagnaeiningar, aðferðir eða upptalningar.
 - Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
 - Stuðningur er fyrir umbreytingu gagna í tilskilda hópa. Það leyfir þér einnig að sía, raða og leggja saman gögn og skeyta við rökrétta útreiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel-formúlum. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)).
-
 
 Líkanavörpun sem styður rafræn skjöl á innleið hefur eftirfarandi getu:
 
@@ -107,6 +108,7 @@ Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 Til að keyra eina sniðsskilgreiningu fyrir rafræna skýrslugerð og búa til rafrænt skjal til að senda út verður þú að auðkenna vörpun skilgreiningarsniðsins.
 
 #### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Sniðsþættir fyrir rafræn skjöl á innleið
+
 Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
 
 - Snið sem skilgreinir skipulag og innihald rafræns skjals á innleið sem inniheldur gögn sem eru flutt inn á keyrslutíma. Sniðsþáttur er notaður til að þátta skjal á innleið á ýmis snið, eins og texta og XML.
@@ -196,6 +198,7 @@ Gagnasafn fyrir **Rekstrartilföng** veitir aðgang að lista yfir skilgreininga
 Hægt er að skrá nauðsynleg gagnasöfn **LCS-verks**, **Skráakerfis** og **Skilgreiningarþjónustu reglugerðar (RCS)**, hvert safn fyrir sig, fyrir hverja skilgreiningarveitu fyrir núgildandi tilvik. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
+
 ### <a name="building-a-data-model"></a>Byggja gagnalíkan
 
 ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging. 
@@ -216,6 +219,7 @@ Er veitir hönnuð líkanavörpunar sem leyfir notendum að varpa gagnlíkönum 
 Spila **ER Skilgreining líkanavörpunar og velja gagnagjafa** og **ER vörpun gagnalíkans í valda gagnagjafa** verkleiðbeiningar (hluti af **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþættir (10677)** viðskiptaferli) til að kynna þér aðstæðurnar í smáatriðum.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Stilling gagna í líkanavörpunum fyrir skjöl á innleið
+
 Rafræn skýrslugerð hefur að geyma hönnun líkanavörpunar sem leyfir notendum að varpa gagnalíkönum sem þeir hafa hannað á tiltekna staði. Til dæmis er hægt að varpa gagnalíkönum í uppfæranlega gagnaþætti (töflur, gagnaeiningar og yfirlit). Gögnin verða uppfærð samkvæmt vörpuninni á keyrslutíma með því að nota gögnin úr gagnalíkaninu. Gagnalíkanið er útdráttargeymsla fyrir snið í rafrænni skýrslugerð og er því fullt af gögnum sem eru flutt inn úr rafrænum skjölum á innleið. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Geyma hannaðan þátt líkans sem líkanastillingu
@@ -237,6 +241,7 @@ Hægt er að nota sniðshönnun fyrir rafræna skýrslugerð til að búa til ra
 Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) . Notaðu Excel-skrána [Sniðmát fyrir greiðsluskýrslu (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) sem sniðmát, sem hluta af verkefnaleiðbeiningunum við að flytja inn snið.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Að búa til stillingu til að mynda rafræn skjöl á Word-skjalssniðinu.
+
 Hægt er að nota sniðshönnun fyrir rafræna skýrslugerð til að búa til rafræn skjöl á skjalssniði fyrir Word. Eftirfarandi skýringarmynd sýnir dæmi um þessa gerð sniðs. Athugaðu að þetta snið notar aftur fyrirliggjandi grunnstillingu fyrir rafræna skýrslugerð sem var upphaflega hönnuð til að búa til skýrsluúttakið á OPENXML-sniði.
 
 Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Rafræn skýrslugerð - Hannaðu stillingu til að búa til skýrslur á Microsoft WORD sniðinu (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi Word-skrár sem sniðmát fyrir snið rafrænnar skýrslugerðar, sem hluta af verkleiðbeiningunum fyrir innflutning á sniðmáti.
@@ -245,6 +250,7 @@ Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeining
 - [Afmarkað sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Að búa til stillingu til að flytja inn gögn úr rafrænum skjölum á innleið
+
 Hægt er að nota sniðshönnun í rafrænni skýrslugerð til að lýsa rafrænu skjali sem er hugsað fyrir gagnainnflutning á annaðhvort XML eða textasniði. Hannaða sniðið er notað til að þátta skjal á innleið. Hægt er að nota vörpunarhönnun fyrir snið í rafrænni skýrslugerð til að skilgreina bindingu eininga hannaðs sniðs við gagnalíkanið. 
 
 Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Stofnaðu nauðsynlegar stillingar í rafrænni skýrslugerð til að flytja inn gögn úr utanaðkomandi skrá (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi skrár til að spila þessar leiðbeiningar:
@@ -265,6 +271,7 @@ Hægt er að stilla forritið til að byrja að nota stofnað snið fyrir rafræ
 Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er nota snið til að mynda rafrænt skjal fyrir greiðslur** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) .
 
 ## <a name="handling-er-components"></a>Meðhöndlun ER þátta
+
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Birting ER þátta í LCS til að bjóða það út á við (staðfærsla)
 
 Eigandi þáttar (líkan eða snið) sem hefur verið stofnað getur notað ER til að birta kláraða útgáfu þáttarins í LCS. Geymsla **LCS verks** fyrir gildandi ER stillingaveitu er krafist. Þegar staða fullunnar útgáfu þáttar er breytt úr **LOKIÐ** í **SAMNÝTT**, er útgáfan er birt í LCS. Þegar þáttur hefur verið birtur í LCS verður eigandi þess þáttar veitandi þjónustu til að styðja þennan þátt. T.d. ef þessi sniðsþáttur er hannaður til að búa til rafrænt skjal sem er krafist samkvæmt lögum (t.d. í samræmi við staðfærsluaðstæður), gerir þessi þjónusta ráð fyrir að halda sniðinu í samræmi við lögboðnar breytingar og hönnuðurinn muni gefa út nýjar útgáfur þegar styðja þarf nýjar lögbundnar kröfur. Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **Er hlaða upp skilgreiningu í Lifecycle Services** leiðarvísi fyrir verk (hluti af **7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)** viðskiptaferli) .
@@ -281,92 +288,13 @@ ER gerir þér kleift að stofna (leita út) nýjan þátt úr gildandi útgáfu
 
 ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af þættinum grunngögn í gildandi drögum af afleiddum þætti. Þetta ferli kallast *endurreikningur*. Til dæmis, geta nýjar breytingar á reglum sem voru kynntar í síðastu útgáfu sniðsþáttar sem var flutt úr LCS verið sjálfkrafa sameinaðar við í sérsniðna útgáfu af þessu sniði rafrænna skjala. Allar breytingar sem ekki er hægt að sameina sjálfvirkt eru taldar árekstrar. Þessir árekstrar eru ætlaðir fyrir handvirka úrlausn í hönnunartæki fyrir viðkomandi þátt. Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar **ER Uppfæra snið með innleiðingu nýs grunns af því sniði** (hluti af **7.5.5.3 Komast yfir/þróa íhluti fyrir breytta upplýsingatækniþjónustu/lausnir (10683)** viðskiptaferli).
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>Listi yfir skilgreiningar rafrænnar skýrslugerðar sem eru í Finance-forritinu
+## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>Listi yfir skilgreiningar rafrænnar skýrslugerðar sem hafa verið gefnar út í Finance
 
-| Skilgreiningar gagnalíkana tengd ákveðnum lénum: Titill | Lén                | Gagnalíkan – háð skilgreiningarsnið: Titill | Lýsing                                                        |
-|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| Líkan endurskoðunarskrár                                 | Endurskoðun       |                                                   |                                                                    |
-|                                                  |                       | Endurskoðunarskrá (NL)                                   | endurskoðunarskrársnið fyrir Holland                                  |
-| BAS-líkan                                        | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | BAS (AU)                                          | BAS-snið fyrir Ástralíu                                           |
-| Líkan skema fyrir byggingariðnað               | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | CIS mánaðarleg ávöxtun (UK)                           | CIS snið fyrir mánaðarlega ávöxtun fyrir Bretland                   |
-| líkan innheimtubréfs                          | Rafræn reikningsfærsla  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL innheimtubréf (DK)                     | OIOUBL snið innheimtubréfs fyrir Danmörku                        |
-| Rafrænt reikningshaldslíkan (MX)          | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | Aukafjárhagur XML (MX)                         | Viðbótar fjárhagsfærslur eftir skýrslusniði lykils fyrir Mexíkó |
-|                                                  |                       | Bókhaldslykill XML (MX)                         | skýrslusnið bókhaldslykils fyrir Mexíkó                          |
-|                                                  |                       | Færslubækur XML (MX)                                 | Skýrslusnið færslubókarfærsla fyrir Mexíkó                      |
-|                                                  |                       | Prófjöfnuður XML (MX)                            | Skýrslusniðið prófjöfnuðar fyrir Mexíkó                             |
-| Elster-líkan                                     | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | Elster (DE)                                       | Elster-Snið fyrir Þýskaland                                          |
-| Líkan ESB-sölulista                              | Viðskiptaskýrslugjöf       |                                                   |                                                                    |
-|                                                  |                       | ESB-sölulisti (DE)                                | ESB-sölulisti - TXT-snið fyrir Þýskaland                               |
-|                                                  |                       | ESB-sölulista (DK)                                | ESB-sölulisti - TXT-snið fyrir Danmörk                               |
-|                                                  |                       | ESB-sölulisti (FR)                                | ESB-sölulisti - XML-snið fyrir frakkland                                |
-|                                                  |                       | ESB-sölulista (NL)                                | ESB-sölulisti - XML-snið fyrir Holland                           |
-|                                                  |                       | ESB-sölulista TXT (Bretland)                            | ESB-sölulisti - TXT-snið fyrir Bretland                    |
-|                                                  |                       | ESB-sölulisti - XML (UK)                            | ESB-sölulisti - XML-snið fyrir Bretland                    |
-|                                                  |                       | ESB-sölulista eftir dálkaskýrslu                   | ESB-sölulista eftir dálkaskýrslu                                    |
-|                                                  |                       | ESB-sölulisti eftir línum skýrsla                      | ESB-sölulisti eftir línum skýrsla                                       |
-| FEC reikningshaldslíkan (FR)                        | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | FEC-bókhaldsgagna XML (FR)                      | Útflutningur FEC-bókhaldsgagna - XML-snið fyrir frakkland                   |
-| Þýska endurskoðunarskrá                                | Endurskoðun       |                                                   |                                                                    |
-|                                                  |                       | Þýskt úttak endurskoðunarskrár                          | Úttak endurskoðunarskrár fyrir Þýskaland og Austurríki.                          |
-| Intrastat-líkan                                  | Viðskiptaskýrslugjöf       |                                                   |                                                                    |
-|                                                  |                       | Intrastat-(DE)                                    | Intrastat-snið fyrir Þýskaland                                       |
-|                                                  |                       | Intrastat-(DK)                                    | Intrastat-snið fyrir Danmörk                                       |
-|                                                  |                       | Intrastat-INTRACOM (FR)                           | Intrastat-INTRACOM snið fyrir Frakkland                               |
-|                                                  |                       | Intrastat-SAISUNIC (FR)                           | Intrastat-SAISUNIC snið fyrir Frakkland                               |
-|                                                  |                       | Intrastat-(NL)                                    | Intrastat-snið fyrir Holland                               |
-|                                                  |                       | Intrastat-(Bretland)                                    | Intrastat-snið fyrir BRETLANDI                            |
-|                                                  |                       | Intrastat-skýrsla                                  | Intrastat-Excel eftirlitsskýrsla                                     |
-| Líkan Reiknings viðskiptavinar                           | Rafræn reikningsfærsla  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL kreditnóta verks (DK)                   | OIOUBL Kreditnóta verkefnis-snið fyrir Danmörk                      |
-|                                                  |                       | OIOUBL Verkreikningur (DK)                       | OIOUBL verkreikningur-snið fyrir Danmörk                          |
-|                                                  |                       | OIOUBL Sölukreditnóta (DK)                     | OIOUBL snið sölukreditnótu fyrir Danmörku                        |
-|                                                  |                       | OIOUBL sölureikningur (DK)                         | OIOUBL snið sölureiknings fyrir danmörku                            |
-| OB Skattframtalslíkan                             | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | OB skattframtal (NL)                               | OB snið skattframtals fyrir Holland                          |
-| Greiðslulíkan                                    | Greiðslur              |                                                   |                                                                    |
-|                                                  |                       | Betalingsservice (DK)                             | Betalingsservice greiðslusnið fyrir Danmörku                        |
-|                                                  |                       | Greiðsla á víxli (FR)                  | Snið fyrir Greiðsla á víxli fyrir frakkland                      |
-|                                                  |                       | BTL91 (NL)                                        | BTL91 greiðslusnið fyrir holland                    |
-|                                                  |                       | CFONB Prelevements (FR)                           | CFONB greiðslusnið fyrir beint debet fyrir frakkland                       |
-|                                                  |                       | CFONB Virements (FR)                              | CFONB snið fyrir greiðsla lánardrottins innanlands fyrir frakkland.                    |
-|                                                  |                       | Nordea lánardrottinn (DK)                                | Greiðslusnið lánardrottins Nordea netbanka fyrir danmörku         |
-|                                                  |                       | ANZ þjónusta beins kredits (AU)                    | Snið fyrir ANZ þjónustu beins kredits fyrir Ástralíu                 |
-|                                                  |                       | CBA þjónusta beins kredits (AU)                    | Snið fyrir CBA þjónustu beins kredits fyrir Ástralíu                 |
-|                                                  |                       | NAB þjónusta beins kredits (AU)                    | Snið fyrir NAB þjónustu beins kredits fyrir Ástralíu                 |
-|                                                  |                       | STG þjónusta beins kredits (AU)                    | Snið fyrir STG þjónustu beins kredits fyrir Ástralíu                 |
-|                                                  |                       | WBC kerfi fyrir beina færslu (AU)                      | Snið fyrir WBC kerfi fyrir beina færslu fyrir Ástralíu                   |
-|                                                  |                       | DirectLink (NZ)                                   | Snið fyrir DirectLink fyrir Nýja-Sjáland                              |
-|                                                  |                       | JBA greiðsluskrá (JP)                             | JBA greiðslusnið fyrir Japan                                       |
-|                                                  |                       | ISO20022-kreditfærsla                          | SEPA-kreditfærsla snið fyrir Evrópu                             |
-|                                                  |                       | ISO20022-kreditfærsla (FR)                     | SEPA snið kreditfærslu fyrir Frakkland                             |
-|                                                  |                       | ISO20022-kreditfærsla (DE)                     | SEPA snið kreditfærslu fyrir Þýskaland                            |
-|                                                  |                       | ISO20022-kreditfærsla (NL)                     | SEPA snið kreditfærslu fyrir Holland                    |
-|                                                  |                       | ISO20022-beingreiðsla                             | SEPA-snið beingreiðslu fyrir Evrópu                                |
-|                                                  |                       | ISO20022-beingreiðsla (FR)                        | SEPA snið fyrir beingreiðslu fyrir Evrópu                                |
-|                                                  |                       | ISO20022-beingreiðsla (DE)                        | SEPA snið fyrir beingreiðslu fyrir Þýskaland                               |
-|                                                  |                       | ISO20022-beingreiðsla (NL)                        | SEPA snið fyrir beingreiðslu fyrir Fyrir Holland                       |
-|                                                  |                       | BACS (UK)                                         | BACS snið greiðsla lánardrottins fyrir Bretland                  |
-| Bakfærð gjöld                                   | skattaskýrslugerð         |                                                   |                                                                    |
-|                                                  |                       | Sölulisti bakfærðra gjalda                         | Snið Sölulista bakfærðra gjalda                                   |
-| Hollensk XBRL Samþættingarstilling                     | XBRL skýrslugerð        |                                                   |                                                                    |
-|                                                  |                       | Semansys XBRL (NL)                                | Semansys XBRL útflutningssnið fyrir holland.                    |
-| GAF líkan (MY)                                   | Endurskoðun       |                                                   |                                                                    |
-|                                                  |                       | GAF skrá (MY)                                     | Snið GAF fyrir Malasía                                         |
-| Aldursgreiningarskýrsla lánardrottins (CN)                         | Greining gagna lánardrottins |                                                   |                                                                    |
-|                                                  |                       | Snið Aldursskýrslu lánardrottins (CN)                   | Snið Aldursskýrslu lánardrottins fyrir Kína                               |
-| líkan um verktakamiða lánardrottins                 | Greining gagna lánardrottins |                                                   |                                                                    |
-|                                                  |                       | Verktakamiðar lánardrottins (IS)                   | Verktakamiðar lánardrottins fyrir Ísland                      |
-|                                                  |                       | Skýrsla um verktakamiða lánardrottins (IS)            | Skýrsla um verktakamiða lánardrottins fyrir Ísland                      |
+Sífellt er verið að uppfæra Listann yfir skilgreiningar rafrænnar skýrslugerðar fyrir Finance. Opnið [Altæka geymsla](er-download-configurations-global-repo.md) til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru studdar. Í flýtiflipanum **Upplýsingar um niðurfellingu** er hægt að fara yfir upplýsingar um skilgreiningar sem hætt hefur verið við eða sem ekki er verið að viðhalda. 
+
+![Efni altækrar geymslu síað á síðu skilgreiningageymslu](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Stofna skilgreiningar fyrir rafræna skýrslugerð (ER)](electronic-reporting-configuration.md)
+- [Stofna skilgreiningar fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 - [Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
