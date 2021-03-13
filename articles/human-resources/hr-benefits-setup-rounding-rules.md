@@ -2,7 +2,7 @@
 title: Setja upp sléttunarreglur
 description: Þú getur sett upp námundunarreglur í Dynamics 365 Human Resources til að mæta þörfum fyrirtækisins.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a9b0c33d2e0c47b351463b4b3630a91c6bd9999
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a603c31e3a36072b6456bea212ad176009c8b48
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419054"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112944"
 ---
 # <a name="set-up-rounding-rules"></a>Setja upp sléttunarreglur
 
@@ -36,6 +36,3 @@ ms.locfileid: "4419054"
 3. Tilgreindu gildi fyrir **Námunda að næsta**, **Atburðarás** og **Námundunarform**.
 
 4. Veljið **Vista**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

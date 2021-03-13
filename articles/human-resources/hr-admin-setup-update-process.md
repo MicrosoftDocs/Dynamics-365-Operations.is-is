@@ -2,7 +2,7 @@
 title: Uppfærsluferli
 description: Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur fyrir breytingar á forriti og verkvangi.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527809"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112939"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
@@ -43,7 +43,7 @@ Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Reso
 
     Öll studd gagnaver uppfæra á tveggja vikna fresti nema annað sé tekið fram. Bandaríkin, Ástralía, Evrópa, Bretland, Asía og Kanada eru með í uppfærslum á tveggja vikna fresti. 
 
-- **Common Data Service lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Common Data Service. Þessar uppfærslur koma út á sömu svæðum og uppfærslur á tveggja vikna fresti og það tekur um sex vikur að endurtaka í gegnum öll gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við þjónustuuppfærslur á tveggja vikna fresti.
+- **Dataverse lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Dataverse. Þessar uppfærslur koma út á sömu svæðum og uppfærslur á tveggja vikna fresti og það tekur um sex vikur að endurtaka í gegnum öll gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við þjónustuuppfærslur á tveggja vikna fresti.
 
 > [!NOTE]
 > Lausnaruppfærslur eru fáanlegar á öllum gagnaverum þegar þeim er sleppt. Ef þú vilt ekki bíða eftir að uppfærslurnar endurtaki sig sjálfkrafa geturðu beitt þessum uppfærslum handvirkt á hvaða umhverfi sem er í hvaða gagnaveri sem er.
@@ -105,6 +105,3 @@ Nánari upplýsingar um vistun á sandkassaumhverfi, sjá [Veita verk Human Reso
 [Nýjungar eða breytingar í Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Reglur um stuðningstíma hugbúnaðar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

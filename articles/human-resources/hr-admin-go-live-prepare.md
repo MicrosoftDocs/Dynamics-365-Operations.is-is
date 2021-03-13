@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4419099"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112921"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Undirbúningur fyrir keyrslu á Human Resources
 
@@ -53,28 +53,36 @@ ms.locfileid: "4419099"
 
 ## <a name="completing-the-lcs-methodology"></a>Lokið við LCS-aðferðina
 
-Stór áfangi í hverju innleiðingarverki fyrir sig er flutningur yfir í vinnsluumhverfið. 
-
-Til að tryggja að vinnsluumhverfið sé notað fyrir virkar aðgerðir, úthlutar Microsoft aðeins vinnsluumhverfinu þegar innleiðingin nálgast áfangann **Stjórna** þegar áskildum aðgerðum í LCS-aðferðinni er lokið. Frekari upplýsingar um umhverfin í áskriftinni þinni er að finna í  [Leyfishandbók Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Viðskiptavinir verða að ljúka við áfangana **Greining**, **Hanna og þróa** og **Prófa** í LCS-aðferðinni áður en  **Skilgreina** hnappurinn til að biðja um vinnsluumhverfið verður aðgengilegur. Til að ljúka áfanga í LCS verður fyrst að ljúka öllum nauðsynlegum skrefum í þeim áfanga. Þegar öllum skrefum í áfanga er lokið er hægt að ljúka öllum áfanganum. Alltaf er hægt að opna áfanga aftur síðar ef gera þarf breytingar. Frekari upplýsingar er að finna í  [Viðskiptavinir Lifecycle Services (LCS) fyrir Finance and Operations forrit](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Ferlið við að ljúka við skref er með tvo hluta: 
+Stór áfangi í hverju innleiðingarverki fyrir sig er flutningur yfir í vinnsluumhverfið. Ferlið við að ljúka við skref er með tvo hluta: 
 
 - Gerið raunverulega vinnu, svo sem greining á samsvörun og gloppum eða samþykkisprófun notanda. 
 - Merktu samsvarandi skref í LCS-aðferðinni sem lokið. 
 
-Gott er að ljúka við skrefin í aðferðinni eftir því sem innleiðingunni vindur fram. Ekki bíða þar til á síðustu stundu. Ekki bara smella í gegnum öll skrefin til að fá vinnsluumhverfi. Það er í hag viðskiptavinarins að fá áreiðanlega innleiðingu. 
+Gott er að ljúka við skrefin í aðferðinni eftir því sem innleiðingunni vindur fram. Ekki bíða þar til á síðustu stundu. Það er í hag viðskiptavinarins að fá áreiðanlega innleiðingu. 
 
 ## <a name="uat-for-your-solution"></a>Samþykkisprófun notanda (UAT) fyrir lausnina þína
 
 Í UAT-áfanganum þarf að prófa alla viðskiptaferla sem hafa verið innleiddir og allar sérstillingar sem gerðar hafa verið í sandkassaumhverfi í innleiðingarverkinu. Til að tryggja vel heppnaða keyrslu ætti að íhuga eftirfarandi þegar lögð er lokahönd á UAT-áfangann: 
 
+- Mælt er með því að UAT-ferlið byrji á hreinu og fersku umhverfi þar sem gögnin úr GOLD-grunnstillingunni eru afrituð í umhverfið áður en UAT-ferlið er hafið. Mælt er með því að nota framleiðsluumhverfið sem GOLD-umhverfið fram að keyrslu, en á þeim tímapunkti verður umhverfið að framleiðsluumhverfi.
 - Prófunartilvik ná yfir allar kröfurnar. 
 - Prófaðu með því að nota flutt gögn. Þessi gögn ættu að innihalda aðalgögn, svo sem starfsmenn, störf og stöður. Taktu einnig með opnunarstöður eins og uppsöfnuð leyfi og fjarvistir. Að lokum skal taka með opnar færslur eins og gildandi fríðindaskráningar. Ljúkið prófun á öllum gagnagerðum, jafnvel þótt gagnasafninu sé ekki lokið. 
 - Prófið með því að nota rétt öryggishlutverk (sjálfgefin hlutverk og sérstillt hlutverk) sem er úthlutað á notendur. 
 - Gakktu úr skugga um að lausnin samræmist öllum kröfum sem tengjast fyrirtæki og atvinnugrein. 
 - Skjalfestu alla eiginleika og fáðu samþykki frá viðskiptavininum. 
+
+## <a name="mock-go-live"></a>Herma eftir keyrslu
+
+Á undan keyrslu þarf að framkvæma hermikeyrslu til að prófa skrefin sem þarf að taka til að fara úr gamla kerfinu og yfir í það nýja. Framkvæma ætti hermikeyrsluna í sandkassaumhverfi og hafa með öll skrefin í flutningsáætluninni.
+
+- Við mælum með því að nota vinnsluumhverfið sem umhverfi GOLD-grunnstillingar fram að keyrslu.
+- Ganga þarf úr skugga um að öflugt stjórnunarferli sé til staðar til að vernda vinnsluumhverfið fyrir óvæntum færslum eða uppfærslum áður en keyrsla er gerð.
+- Þegar UAT eða hermikeyrsla er tilbúin skal uppfæra sandkassaumhverfið í vinnsluumhverfinu. Frekari upplýsingar má finna í [Afrita tilvik](hr-admin-setup-copy-instance.md).
+- Prófa skal hvert skref í flutningsáætluninni í sandkassaumhverfinu og síðan villuleita sandkassaumhverfið með því að framkvæma stikkprufur eða prófanir úr UAT-forskriftum í umhverfinu.
+  - Prófanir eiga að fela í sér gagnaflutninga, þ.m.t. nauðsynlegar umbreytingar fyrir keyrsluna.
+  - Ferlið á að fela í sér prufuflutning á einhverju gömlu kerfi.
+  - Gætið þess að hafa með skref samþættingarflutnings eða ytri skref kerfis í hermiflutningnum.
+- Ef upp koma einhver vandamál í hermiflutningnum þarf að gera annan hermiflutning. Af þeim sökum er mælt með að áforma tvo hermiflutninga í verkáætluninni.
 
 ## <a name="fasttrack-go-live-assessment"></a>Keyrslumat FastTrack
 
@@ -91,5 +99,3 @@ Verkefnisstjórinn eða helsti aðilinn að verkinu verður að ljúka við gát
 ## <a name="see-also"></a>Sjá einnig
 
 [Algengar spurningar um keyrslu](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

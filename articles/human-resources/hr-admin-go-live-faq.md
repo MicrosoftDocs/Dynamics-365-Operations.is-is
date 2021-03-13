@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668946"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112947"
 ---
 # <a name="go-live-faq"></a>Algengar spurningar um keyrslu 
 
@@ -66,7 +66,7 @@ Aðgangur að umhverfi Human Resources er háður takmörkunum. Ekki er hægt a�
 
 - Hægt er að setja upp Azure SQL-gagnagrunn í eigin Azure-leigjanda og eiginleikann BYOD-gagnagrunnur til að samstilla gögn. Frekari upplýsingar er að finna í [Koma með eigin gagnagrunn (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Hægt er að nota Common Data Service-samþættingu til að samstilla valdar einingar við Common Data Service-gagnagrunninn. Frekari upplýsingar er að finna í [Common Data Service einingar](hr-developer-entities.md). 
+- Hægt er að nota Dataverse-samþættingu til að samstilla valdar einingar við Dataverse-gagnagrunninn. Frekari upplýsingar eru í [Dataverse töflur](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Hversu oft er verið að afrita vinnslugrunninn minn? 
 
@@ -99,6 +99,3 @@ Til að tilkynna stöðvun á vinnslu skal fylgja ferlinu sem lýst er í  [Ti
  ## <a name="see-also"></a>Sjá einnig
 
  [Undirbúa keyrslu](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Árangursstjórnun
 description: Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Human Resources
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 722ae95de3b1822f3c7246394c3d16b8b827723b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419034"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115609"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -163,5 +163,3 @@ Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá.
 ### <a name="review-types"></a>Gerðir yfirferðar
 
 Frammistöðurýni gerð hjálpar þér að stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögn ekki nota verkflæði, þú getur skilgreint sjálfgefna stöðu sem verður notuð þegar umsögn er stofnuð. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

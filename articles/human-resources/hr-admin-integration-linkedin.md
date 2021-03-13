@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527886"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113031"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
@@ -127,14 +127,14 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
     - **Heiti**: Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.
     - **Notandakenni**: Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.
 
-### <a name="create-the-entity-in-common-data-service"></a>Búa til eininguna í Common Data Service
+### <a name="create-the-table-in-dataverse"></a>Búa til töfluna í Dataverse
 
 > [!IMPORTANT]
-> Samþættingin við LinkedIn Talent Hub veltur á sýndareiningum í Common Data Service fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndareiningar. Upplýsingar um hvernig á að skilgreina sýndareiningar er að finna í [Skilgreina Common Data Service sýndareiningar](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur. Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. Í Human Resources skal opna síðuna **Common Data Service (CDS)-samþætting**.
+1. Í Human Resources skal opna síðuna **Dataverse-samþætting**.
 
-2. Veldu flipann **Sýndareiningar**.
+2. Veljið flipann **Sýndartöflur**.
 
 3. Síaðu einingalistann eftir einingarmerki til að finna **Útfluttan umsækjanda LinkedIn**.
 
@@ -142,7 +142,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 
 ## <a name="exporting-candidate-records"></a>Skrár umsækjanda fluttar út
 
-Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk Human Resources notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.
+Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk mannauðs notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Flytja út færslur úr LinkedIn Talent Hub
 
@@ -188,8 +188,5 @@ Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafæ
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Skilgreina Common Data Service sýndareiningar](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Hvað er Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Skilgreina Dataverse-sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

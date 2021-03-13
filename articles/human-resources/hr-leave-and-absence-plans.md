@@ -2,7 +2,7 @@
 title: Búa til leyfis- og fjarvistaáætlun
 description: Búðu til orlofstímabil í Dynamics 365 Human Resources fyrir mismunandi tegundir orlofs.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419075"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115949"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Búa til leyfis- og fjarvistaáætlun
 
@@ -383,6 +383,3 @@ Spáð staða (30) = Uppsöfnunarupphæð (10 x 1) + Núgildandi staða (40) –
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
 - [Uppsöfnunaráætlanir fyrir leyfi og fjarvistir](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

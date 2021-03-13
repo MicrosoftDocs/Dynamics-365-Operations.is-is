@@ -2,7 +2,7 @@
 title: Stofna afkomuendurskoðun
 description: Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419017"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115801"
 ---
 # <a name="create-performance-reviews"></a>Stofna afkomuendurskoðun
 
@@ -78,6 +78,3 @@ ms.locfileid: "4419017"
 34. Veldu flipann **Endurskoða**. Þegar yfirferðin fer í gegnum stöðurnar geta starfsmaður og stjórnandi bætt við athugasemdum fyrir hvert markmið eða hæfni.  
 35. Veldu flipann **Útskráningar**. Starfskrafturinn og yfirmaðurinn geta skrifað undir endurskoðunina. Þegar öllum nauðsynlegum útskráningum er lokið er stöðunni breytt í **Lokið** og ekki er hægt að gera neinar frekari breytingar.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

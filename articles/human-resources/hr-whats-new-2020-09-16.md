@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 74a87ddb4ed14042dd4e716ad64bc844a800a0a0
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527435"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113025"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (16. september 2020)
 
@@ -110,9 +110,9 @@ Nýr valkostur er nú tiltækur til að staðsetja **Vinnuliðum sem úthlutað 
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Einingar gátlista innifaldar í Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Einingar gátlista innifaldar í Dataverse
 
-Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Common Data Service.
+Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Ástæðukóðar fyrir fríðindastjórnun
 
@@ -124,6 +124,3 @@ Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir ve
 [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

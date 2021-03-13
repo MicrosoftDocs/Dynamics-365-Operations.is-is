@@ -2,7 +2,7 @@
 title: Yfirlit MyLeaveRequests
 description: MyLeaveRequests einingin í Microsoft Dynamics 365 Human Resources býður upp á lista yfir leyfisbeiðnir í kerfinu, umfangsmiklar (takmarkaðar) fyrir beiðnirnar sem eru aðgengilegar núverandi notanda sem fyrirspurnir eininguna.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bf3b298af9eb39e03514a4005afb43a42908e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ca5bc225400338e76faee41a279e91fc00ce570
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418955"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115537"
 ---
 # <a name="myleaverequests-overview"></a>Yfirlit MyLeaveRequests
 
@@ -64,5 +64,3 @@ MyLeaveRequests einingin í Microsoft Dynamics 365 Human Resources býður upp �
 
 - [Senda leyfisbeiðni í verkflæði](hr-developer-api-myleaverequests-submit.md)
 - [Sannvottun](hr-developer-api-authentication.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

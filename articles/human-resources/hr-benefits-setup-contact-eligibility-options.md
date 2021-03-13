@@ -2,7 +2,7 @@
 title: Grunnstilla hæfnisvalkosti persónulegs tengiliðar
 description: Grunnstilla hæfnisvalkosti fyrir persónulega tengiliði í Microsoft Dynamics 365 Human Resources. Persónulegir tengiliðir geta verið rétthafar eða skjólstæðingar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419045"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112976"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Grunnstilla hæfnisvalkosti persónulegs tengiliðar
 
@@ -45,6 +45,3 @@ ms.locfileid: "4419045"
    | **Aldur** | Hámarksaldur gjaldgengs persónulegs tengiliðar vegna bótakerfisins. Þessi reitur er aðeins virkur ef þú velur samband. Þessi aldur er borinn saman við reiknaðan aldur persónulegra tengiliða. Reiknaður aldur er: (Dagsetning umfjöllunar - fæðingardagur persónulegs tengiliðar / 365). Þessi tala er alltaf heiltala. |
 
 4. Veljið **Vista**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

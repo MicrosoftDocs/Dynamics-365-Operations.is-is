@@ -2,7 +2,7 @@
 title: Grunnstilla gerðir viðburða
 description: Microsoft Dynamics 365 Human Resources notar tegundir atburða í lífinu til að skilgreina atburði þar sem það gildir að uppfæra skráningu starfsmannabóta.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419010"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112990"
 ---
 # <a name="configure-life-event-types"></a>Grunnstilla gerðir viðburða
 
@@ -88,6 +88,3 @@ Eftir að þú hefur búið til tegundir af atburðum í lífinu þarftu að ten
 | **Gildislok á hnekkingu hæfisreglu (ekki sértækt fyrir Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Áætlanir > Fríðindi > Hæfisregla hnekkt | Breytingavinnsla á Notkun lífsviðburða. Til dæmis, ef þú breytir hæfisreglu áætlunarinnar hnekki gildistíma til að vera í dag kl. 17:00, hvenær sem er eftir kl. 17:00 eða næstu daga á eftir og keyra síðan vinnslu á atburði á Lífsviðburði, birtast skilaboð sem segja að hæfisreglan hnekkt er útrunnið. |
 | **Ný bótakerfi (ekki sérstök í Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Áætlanir > Nýtt | <ul><li>Gildisvalkostir bætast við núverandi áætlun</li><li>Ný áætlun með hæfileikum meðfylgjandi er bætt við</li></ul></br></br>Starfsmenn HR ættu að stjórna hæfileikaframkvæmdum í Lífsmóti í þessu tilfelli. |
 | **Breyting á hæfisreglu (ekki sértækt fyrir Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Reglur/valkostir > Hæfisreglur | Hæfisvinnsla á Notkun lífsviðburða. Skráð hvenær **EhrBenefitEligibilityRule** skrár hafa eftirfarandi gildum breytt: **UseEmplCategory**, **UseEmplStatus** eða **UseEmplType**. Aðeins uppfærir viðskipti með lífatburði sem þegar eru til vegna breyttrar reglu eða hæfisskilyrða. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

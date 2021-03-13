@@ -1,9 +1,9 @@
 ---
-title: Common Data Service einingar
-description: Microsoft Dynamics 365 Human Resources notar Common Data Service til að gera mögulegt atburðarás fyrir stækkun og samþættingu.
+title: Dataverse töflur
+description: Microsoft Dynamics 365 Human Resources notar Dataverse til að gera mögulegt atburðarás fyrir stækkun og samþættingu.
 author: andreabichsel
-manager: AnnBe
-ms.date: 02/03/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 988fa0b6d39a49b973626a8a0abe83c546f42297
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4530007"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113002"
 ---
-# <a name="common-data-service-entities"></a>Common Data Service einingar
+# <a name="dataverse-tables"></a>Dataverse töflur
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+Microsoft Dynamics 365 Human Resources notar Dataverse til að gera mögulegt atburðarás fyrir stækkun og samþættingu.
 
-Microsoft Dynamics 365 Human Resources notar Common Data Service til að gera mögulegt atburðarás fyrir stækkun og samþættingu.
+> [!NOTE]
+> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
-Nánari upplýsingar um Common Data Service er að finna í [Hvað er Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
+Eftirfarandi Dataverse-töflur eru í boði sem byggja á einingum Human Resources.
 
-Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
+## <a name="benefit-tables"></a>Fríðindatöflur
 
-## <a name="benefit-entities"></a>Fríðindaeiningar
-
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Útreikningstíðni fríðinda | cdm_benefitcalculationfrequency |
 | Útreikningsíðni fríðinda á launatímabili | cdm_benefitcalculationfrequencypayperiod |
@@ -47,9 +46,9 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Fríðindaáætlun | cdm_benefitplan (Ekki virkjað fyrir sérsniðinn reitastuðning) |
 | Gerð fríðinda | cdm_benefittype |
 
-## <a name="business-process-tasks-entities"></a>Einingar viðskiptaferlaverka
+## <a name="business-process-tasks-tables"></a>Verkefnatöflur viðskiptaferlis
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Dagatal viðskiptaferlis | cdm_businessprocesscalendar |
 | Hópverkefni viðskiptaferlis | cdm_businessprocessgroupassignment |
@@ -58,9 +57,9 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Haus gátlistasniðmáts | cdm_businessprocesstemplateheader |
 | Verkefni gátlistasniðmáts | cdm_businessprocesstemplatetask |
 
-## <a name="compensation-entities"></a>Bótaeiningar
+## <a name="compensation-tables"></a>Launatöflur
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Fyrirkomulag fastra launa | cdm_compensationfixedplan |
 | Launanet | cdm_compensationgrid |
@@ -77,13 +76,13 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Veitiregla | cdm_vestingrule |
 | Föst laun starfskrafts | cdm_workerfixedcompensation |
 
-## <a name="organization-entities"></a>Fyrirtækjaeiningar
+## <a name="organization-tables"></a>Fyrirtækistöflur
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Deild | cdm_department |
 | Ráðning | cdm_employment |
-| Fyrirt. | cdm_company |
+| Fyrirt.   | cdm_company |
 | Vinnsla | cdm_job |
 | Starfshlutverk | cdm_jobfunction |
 | Staða starfs | cdm_jobposition |
@@ -95,11 +94,11 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Titill | cdm_title |
 
 > [!NOTE]
-> Fjárhagslegar víddir fyrir **Gerð stöðu**, **Stöðuúthlutun starfskrafts** og **Starf** veita einnar áttar samþættingu við Common Data Service. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Common Data Service í Human Resources. 
+> Fjárhagslegar víddir fyrir **Gerð stöðu**, **Stöðuúthlutun starfskrafts** og **Starf** veita einnar áttar samþættingu við Dataverse. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Dataverse í Human Resources. 
 
-## <a name="leave-and-absence-entities"></a>Einingar fyrir leyfi og fjarvistir
+## <a name="leave-and-absence-tables"></a>Leyfis- og fjarvistatöflur
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Orlofsbankafærsla | cdm_leavebanktransaction |
 | Orlofsskráning | cdm_leaveenrollment |
@@ -109,9 +108,9 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Gerð leyfis | cdm_leavetype |
 | Ástæðukóði orlofsgerðar | cdm_leavetypereasoncode |
 
-## <a name="payroll-entities"></a>Launaeiningar
+## <a name="payroll-tables"></a>Töflur launaskráar
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Greiðsluferli | cdm_paycycle |
 | Launatímabil | cdm_payperiod |
@@ -119,11 +118,11 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Bankareikningsgreiðslur | cdm_bankaccountdisbursement |
 | Skattumdæmi | cdm_taxregion |
 
-## <a name="worker-entities"></a>Starfskraftaeiningar
+## <a name="worker-tables"></a>Starfsmannatöflur
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
-| Starfskraftur | cdm_worker |
+| Starfsmaður | cdm_worker |
 | Aðsetur starfskrafts | cdm_workeraddress |
 | Persónuupplýsingar starfskrafts | cdm_workerpersonaldetail |
 | Kennitala starfskrafts | cdm_workerpersonidentificationnumber |
@@ -135,26 +134,26 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 | Tímabil vinnudagatals | cdm_workcalendartimeinterval (Ekki virkjað fyrir sérsniðinn reitastuðning) |
 | Bankareikningur starfskrafts | cdm_workerbankaccount |
 
-## <a name="worker-setup-entities"></a>Uppsetningareiningar starfskrafts
+## <a name="worker-setup-tables"></a>Uppsetningartöflur starfsmanns
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Uppgjafahermaður | cdm_veteranstatus |
 | Þjóðernisuppruni | cdm_ethnicorigin |
 | Ástæðukóði | cdm_reasoncode |
 | Útgáfustofnun persónuskilríkja | cdm_personidentificationissuingagency |
 
-## <a name="competency-entities"></a>Hæfnieiningar
+## <a name="competency-tables"></a>Hæfnistöflur
 
-| Nafn | Eining |
+| Nafn | Tafla |
 | --- | --- |
 | Gerð hæfni | cdm_skilltype |
 
-## <a name="entity-relationship-models"></a>Einingaþáttur tengslalíkanseiningar
+## <a name="table-relationship-models"></a>Líkön töfluvensla
 
-### <a name="worker"></a>Starfskraftur
+### <a name="worker"></a>Starfsmaður
 
-![Starfskraftur](./media/HCMCommon-worker-entity-diagram.png)
+![Starfsmaður](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Starf og starfstaða
 
@@ -178,8 +177,9 @@ Eftirfarandi einingar Human Resources eru í boði í Common Data Service.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)</br>
-[Skilgreina Common Data Service-samþættingu](hr-admin-integration-common-data-service.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)<br>
+[Skilgreina Dataverse-samþættingu](hr-admin-integration-common-data-service.md)<br>
+[Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Algengar spurningar um sýndartöflur Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Hugtakauppfærslur](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)

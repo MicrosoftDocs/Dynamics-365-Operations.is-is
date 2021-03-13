@@ -2,7 +2,7 @@
 title: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
 description: Þessi grein útskýrir hvernig á að leysa mál þar sem nöfn einstaklinga og stöður eru styttar þegar viðskiptamenn skoða stöðustigveldið í Microsoft Dynamics 365 Human Resources. Stýfing á texta getur gert það erfitt að taka skjámynd eða prenta stigveldið.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419030"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112954"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
 
@@ -104,6 +104,3 @@ Skýringarmyndin sem er búin til í Visio birtir hvern yfirmann á aðskildu vi
 **Frekari valkostir**
 
 Í Human Resources er hugsanlega líka hægt að nota vinnusvæðið **Fólk** til að skoða stigveldistengdar upplýsingar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Yfirlit
+title: Yfirlit stjórnunar
 description: Þessi stjórnandi handbók hjálpar þér að setja upp, stjórna og leysa úrræðaleit Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527862"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113024"
 ---
-# <a name="overview"></a>Yfirlit
+# <a name="administration-overview"></a>Yfirlit stjórnunar
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "4527862"
 
 - Setja upp samþættingu gagna
   - [Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)
-  - [Skilgreina Common Data Service-samþættingu](hr-admin-integration-common-data-service.md)
+  - [Skilgreina Dataverse-samþættingu](hr-admin-integration-common-data-service.md)
   - [Skilgreina samþættingu við Finance](hr-admin-integration-finance.md)
   - [Skilgreina samþættingu við Dayforce](hr-admin-integration-dayforce.md)
   - [Búa til útflutningsforrit fyrir endurtekin gögn](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ ms.locfileid: "4527862"
 - [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
 - [Leiðbeiningar þróunaraðila](hr-developer-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

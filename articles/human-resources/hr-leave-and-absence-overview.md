@@ -2,7 +2,7 @@
 title: Yfirlit yfir leyfi og fjarvistir
 description: Í Dynamics 365 Human Resources býður vinnusvæði leyfis og fjarvista upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419080"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115973"
 ---
 # <a name="leave-and-absence-overview"></a>Yfirlit yfir leyfi og fjarvistir
 
@@ -54,6 +54,3 @@ Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim
 [Biðja um frí](hr-employee-self-service-request-time-off.md)
 [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

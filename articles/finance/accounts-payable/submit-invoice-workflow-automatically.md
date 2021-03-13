@@ -1,5 +1,5 @@
 ---
-title: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða (forskoðun)
+title: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
 description: Þetta efnisatriði útskýrir hvernig á að senda reikninga lánardrottna í verkflæðiskerfið og jafna sjálfkrafa bókaðar línur innhreyfingarskjals afurðar fyrir reikninga lánardrottins.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444223"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115657"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða (forskoðun)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að senda reikninga lánardrottna í verkflæðiskerfið og jafna sjálfkrafa bókaðar línur innhreyfingarskjals afurðar fyrir reikninga lánardrottins.
 
@@ -47,13 +45,10 @@ Vinnslan keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngild
 
 Reikningslínur sem eru með þríhliða jöfnunarreglu, þar sem jafnað innhreyfingarmagn er minna en magn á reikningi, verða teknar með í sjálfvirku jöfnunarferli innhreyfingarskjala.
 
-Til að skoða stöðuna **Síðasta jöfnun** fyrir reikninga sem eru ekki hluti af sjálfvirka ferlinu „senda í verkflæði“, skal opna reikninginn af síðunni **Reikningar lánardrottins**. Þegar reikningurinn er skoðaður eru upplýsingar um prófun jöfnunar uppfærðar.
+Til að skoða stöðuna **Síðasta jöfnun** fyrir reikninga sem eru ekki hluti af sjálfvirka ferlinu „senda í verkflæði“, skal opna reikninginn af síðunni **Reikningar lánardrottins**. Þegar reikningurinn er skoðaður eru upplýsingar um prófun jöfnunar uppfærðar. Hægt að uppfæra **Síðasta samsvörunarstaða** sjálfkrafa með **Staðfesta reikningsjöfnun** bakgrunnsverk. Hægt er að skilgreina ferlið sjálfkrafa með því að uppfæra stöðuna **Síðasta samsvörunarstaða** á **Bakgrunnsferli** flipanum á síðunni **Sjálfvirkni ferlis** (**Kerfisstjórnun\> Uppsetning\> Sjálfvirkni ferlis**).
 
 Reikningslína verður útilokuð frá sjálfvirku vinnslunni ef eitthvert eftirfarandi skilyrðanna er uppfyllt:
 
 - Gildið **Staða sjálfvirkrar jöfnunar innhreyfingar** í reikningslínunni er **Tókst ekki**.
 - Verið er að nota reikninginn.
 - Reikningurinn er í verkflæðiskerfinu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

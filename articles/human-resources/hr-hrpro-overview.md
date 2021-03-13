@@ -2,7 +2,7 @@
 title: Yfirlit
 description: Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að setja upp Human Resources, setja upp bætur og bætur fyrir starfsmenn þína og stjórna vinnuafli þínu.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419091"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115247"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -60,10 +60,9 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 [Breyta skýrslugjafarvenslum fyrir stöðu](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Færa inn upplýsingar um starfsmann](hr-personnel-enter-worker-information.md)</br>
 [Lána starfsfólki vörur](hr-personnel-loan-item-worker.md)</br>
-[Færa inn Project Timesheets](hr-personnel-enter-project-timesheets.md)</br>
 [Fjöldaráðningarverk](hr-personnel-mass-hire-projects.md)</br>
 [Setja upp stöður](hr-personnel-set-up-positions.md)</br>
-[Uppsetning upplýsinga um meiðsl og veikindi](hr-personnel-set-up-injury-illness-information.md)</br>
+[Setja upp upplýsingar um meiðsl og veikindi](hr-personnel-set-up-injury-illness-information.md)</br>
 
 ## <a name="set-up-compensation-plans"></a>Setja upp launafyrirkomulag
 
@@ -128,6 +127,3 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

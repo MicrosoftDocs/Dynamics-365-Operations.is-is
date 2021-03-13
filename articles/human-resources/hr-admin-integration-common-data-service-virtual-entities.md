@@ -1,9 +1,9 @@
 ---
-title: Skilgreina sýndareiningar Common Data Service
-description: Þetta efnisatriði sýnir hvernig á að skilgreina sýndareiningar fyrir Dynamics 365 Human Resources. Búið til og uppfærið fyrirliggjandi sýndareiningar og greinið tiltækar einingar sem hafa verið búnar til.
+title: Skilgreina Dataverse-sýndartöflur
+description: Þetta efnisatriði sýnir hvernig á að skilgreina sýndartöflur fyrir Dynamics 365 Human Resources. Búið til og uppfærið fyrirliggjandi sýndartöflur og greinið tiltækar töflur sem hafa verið búnar til.
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,49 +18,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645602"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5113011"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>Skilgreina sýndareiningar Common Data Service
+# <a name="configure-dataverse-virtual-tables"></a>Skilgreina Dataverse-sýndartöflur
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources er sýndargagnagjafi í Common Data Service. Hann býður upp á heildstæðar aðgerðir stofnunar, lesturs, uppfærslu og eyðingar (CRUD) úr Common Data Service og Microsoft Power Platform. Gögn fyrir sýndareiningar eru ekki geymd í Common Data Service, heldur í gagnagrunni forritsins. 
+Dynamics 365 Human Resources er sýndargagnagjafi í Microsoft Dataverse. Hann býður upp á heildstæðar aðgerðir stofnunar, lesturs, uppfærslu og eyðingar (CRUD) úr Dataverse og Microsoft Power Platform. Gögn fyrir sýndartöflur eru ekki geymd í Dataverse, heldur í gagnagrunni forritsins.
 
-Til að virkja CRUD-aðgerðir í Common Data Service, þarf að bjóða upp á einingarnar sem sýndareiningar í Common Data Service. Þetta gerir þér kleift að framkvæma CRUD-aðgerðir í Common Data Service og Microsoft Power Platform á gögnum sem eru í Human Resources. Aðgerðirnar styðja einnig sannprófanir á viðskiptagrunni Human Resources til að tryggja heilleika gagna þegar gögn eru skrifuð í einingarnar.
-
-## <a name="available-virtual-entities-for-human-resources"></a>Tiltækar sýndareiningar fyrir Human Resources
-
-Allar einingar Open Data Protocol í Human Resources eru í boði sem sýndareiningar í Common Data Service. Þetta er einnig tiltækt í Power Platform. Nú er hægt að búa til forrit og upplifanir með gögnum beint úr Human Resources með fullum CRUD-möguleikum án þess að afrita eða samstilla gögn við Common Data Service. Hægt er að nota Power Apps-gáttir til að smíða útlit vefsvæða sem bjóða upp á samvinnu fyrir viðskiptaferla í Human Resources.
-
-Hægt er að skoða lista yfir sýndareiningar sem eru virkjaðar í umhverfinu og byrja að vinna með einingarnar í [Power Apps](https://make.powerapps.com) í lausninni **Sýndareiningar HR í Dynamics 365**.
-
-![Sýndareiningar HR í Dynamics 365 í Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>Sýndareiningar í samanburði við venjulegar einingar
-
-Sýndareiningar fyrir Human Resources eru ekki þær sömu og venjulegu Common Data Service-einingarnar sem búnar eru til fyrir Human Resources. Venjulegu einingarnar fyrir Human Resources eru myndaðar sérstaklega og unnið með þær í HCM Common Solution í Common Data Service. Með venjulegum einingum eru gögnin geymd í Common Data Service og þarfnast samstillingar við gagnagrunn Human Resources-forritsins.
+Til að virkja CRUD-aðgerðir í einingum Human Resources úr Dataverse þarf að bjóða upp á einingarnar sem sýndartöflur í Dataverse. Þetta gerir þér kleift að framkvæma CRUD-aðgerðir í Dataverse og Microsoft Power Platform á gögnum sem eru í Human Resources. Aðgerðirnar styðja einnig sannprófanir á viðskiptagrunni Human Resources til að tryggja heilleika gagna þegar gögn eru skrifuð í einingarnar.
 
 > [!NOTE]
-> Til að sjá lista yfir venjulegar Common Data Service-einingar fyrir Human Resources skal fara í [Common Data Service einingar](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>Tiltækar sýndartöflur fyrir Human Resources
+
+Allar einingar Open Data Protocol (OData) í Human Resources eru í boði sem sýndartöflur í Dataverse. Þetta er einnig tiltækt í Power Platform. Nú er hægt að búa til forrit og upplifanir með gögnum beint úr Human Resources með fullum CRUD-möguleikum án þess að afrita eða samstilla gögn við Dataverse. Hægt er að nota Power Apps-gáttir til að smíða útlit vefsvæða sem bjóða upp á samvinnu fyrir viðskiptaferla í Human Resources.
+
+Hægt er að skoða lista yfir sýndartöflur sem eru virkjaðar í umhverfinu og byrja að vinna með töflurnar í [Power Apps](https://make.powerapps.com) í lausninni **Sýndartöflur HR í Dynamics 365**.
+
+![Sýndartöflur HR í Dynamics 365 í Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>Sýndartöflur í samanburði við venjulegar töflur
+
+Sýndartöflur fyrir Human Resources eru ekki þær sömu og venjulegu Dataverse-töflurnar sem búnar eru til fyrir Human Resources. 
+
+Venjulegu töflurnar fyrir Human Resources eru myndaðar sérstaklega og unnið með þær í lausn HCM Common í Dataverse. Með venjulegum töflum eru gögnin geymd í Dataverse og þarfnast samstillingar við gagnagrunn Human Resources-forritsins.
+
+> [!NOTE]
+> Til að sjá lista yfir venjulegar Dataverse-töflur fyrir Human Resources skal fara í [Dataverse-töflur](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
 
 ## <a name="setup"></a>Setja upp
 
-Fylgið þessum uppsetningarskrefum til að virkja sýndareiningar í umhverfinu.
+Fylgið þessum uppsetningarskrefum til að virkja sýndartöflur í umhverfinu.
 
-### <a name="enable-virtual-entities-in-human-resources"></a>Virkja sýndareiningar fyrir Human Resources
+### <a name="enable-virtual-tables-in-human-resources"></a>Virkja sýndartöflur í Human Resources
 
-Fyrst þarf að virkja sýndareiningar í vinnusvæðinu **Eiginleikastjórnun**.
+Fyrst þarf að virkja sýndartöflur í vinnusvæðinu **Eiginleikastjórnun**.
 
 1. Veldu í Human Resources **Kerfisstjórnun**.
 
 2. Veldu reitinn **Stjórnun eiginleika**.
 
-3. Veljið **Stuðningur við sýndareiningu í HR/CDS** og svo **Virkja**.
+3. Veldu **Stuðningur sýndartöflu fyrir HR í Dataverse** og veldu því næst **Virkja**.
 
 Frekari upplýsingar um virkjun og óvirkjun eiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
 
@@ -74,13 +79,13 @@ Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðken
 
 3. Veljið **Ný skráning**.
 
-4. Í reitinn **Heiti** skal færa inn lýsandi heiti á forritinu. Til dæmis, **Dynamics 365 Human Resources Sýndareiningar**.
+4. Í reitinn **Heiti** skal færa inn lýsandi heiti á forritinu. Til dæmis **Dynamics 365 Human Resources Sýndartöflur**.
 
 5. Í reitinn **Framsenda API** skal færa inn nafnarými vefslóðar fyrir tilvikið af Human Resources.
 
 6. Veldu **Skrá**.
 
-7. Þegar skráningu lýkur birtir Azure-gáttin svæðið **Yfirlit** fyrir skráningu forritsins, sem felur í sér **Forritskenni (biðlari)**. Takið niður **Forritskennið (biðlari)** á þessari stundu. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Þegar skráningu lýkur birtir Azure-gáttin svæðið **Yfirlit** fyrir skráningu forritsins, sem felur í sér **Forritskenni (biðlari)**. Takið niður **Forritskennið (biðlari)** á þessari stundu. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndartöflu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
 8. Á vinstra yfirlitssvæðinu skal velja **Vottorð og leynilyklar**.
 
@@ -88,14 +93,14 @@ Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðken
 
 10. Gefið upp lýsingu, veljið tímalengd og veljið **Bæta við**.
 
-11. Skráið gildi fyrir leynilykil. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+11. Skráið gildi fyrir leynilykil. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndartöflu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Gætið þess að taka niður gildi leynilykilsins að svo stöddu. Leynilykillinn er ekki sýndur aftur eftir að farið er af þessari síðu.
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>Setja upp forritið Dynamics 365 HR Virtual Entity
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>Setja upp forritið Dynamics 365 Virtual Table
 
-Setja skal upp forritið Dynamics 365 HR Virtual Entity í Power Apps-umhverfinu til að virkja lausnapakka sýndareiningarinnar í Common Data Service.
+Setja skal upp forritið Dynamics 365 HR Virtual Table í Power Apps-umhverfinu til að virkja lausnapakka sýndartöflunnar í Dataverse.
 
 1. Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
@@ -105,7 +110,7 @@ Setja skal upp forritið Dynamics 365 HR Virtual Entity í Power Apps-umhverfinu
 
 4. Veljið aðgerðina **Setja upp forrit**.
 
-5. Veljið **Dynamics 365 HR Virtual Entity** og veljið **Áfram**.
+5. Veljið **Dynamics 365 HR Virtual Table** og veljið **Áfram**.
 
 6. Yfirfara og merkja til að samþykkja þjónustuskilmála.
 
@@ -113,11 +118,11 @@ Setja skal upp forritið Dynamics 365 HR Virtual Entity í Power Apps-umhverfinu
 
 Uppsetningin tekur örfáar mínútur. Þegar henni lýkur skal halda áfram í næsta skref.
 
-![Setja upp forritið Dynamics 365 HR Virtual Entity úr Power Platform-stjórnendamiðstöðinni](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![Setja upp forritið Dynamics 365 HR Virtual Table úr Power Platform-stjórnendamiðstöðinni](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a>Skilgreining gagnagjafa sýndareiningar 
+### <a name="configure-the-virtual-table-data-source"></a>Skilgreina gagnagjafa sýndartöflu 
 
-Næsta skref er að skilgreina gagnagjafa sýndareiningar í Power Apps-umhverfinu. 
+Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu. 
 
 1. Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
@@ -161,7 +166,7 @@ Næsta skref er að skilgreina gagnagjafa sýndareiningar í Power Apps-umhverfi
 Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 
 - Forritið sem var stofnað fyrir leigjanda í Microsoft Azure gáttinni
-- Forritið Dynamics 365 HR Virtual Entity sem var sett upp í Power Apps-umhverfinu 
+- Forritið Dynamics 365 HR Virtual Table sem var sett upp í Power Apps-umhverfinu 
 
 1. Í Human Resources skal opna síðuna **Azure Active Directory-forrit**.
 
@@ -174,48 +179,45 @@ Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 3. Veljið **Ný** til að búa til aðra færslu forrits:
 
     - **Auðkenni biðlara**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Heiti**: Dynamics 365 HR Virtual Entity
+    - **Heiti**: Dynamics 365 HR Virtual Table
     - Í reitinn **Notandakenni** skal velja notandakenni notanda með stjórnandaheimildir í Human Resources og Power Apps-umhverfinu.
 
-## <a name="generate-virtual-entities"></a>Mynda sýndareiningar
+## <a name="generate-virtual-tables"></a>Mynda sýndartöflur
 
-Þegar uppsetningu er lokið er hægt að velja sýndareiningarnar sem á að mynda og virkja í Common Data Service-tilvikinu.
+Þegar uppsetningu er lokið er hægt að velja sýndartöflurnar sem á að mynda og virkja í Dataverse-tilvikinu.
 
-1. Í Human Resources skal opna síðuna **Common Data Service (CDS)-samþætting**.
+1. Í Human Resources skal opna síðuna **Dataverse-samþætting**.
 
-2. Veldu flipann **Sýndareiningar**.
+2. Veljið flipann **Sýndartöflur**.
 
 > [!NOTE]
-> **Virkjar sýndareininguna** verður stillt á **Já** sjálfkrafa þegar allri nauðsynlegri uppsetningu er lokið. Ef skipting er stillt á **Nei** skal fara yfir skrefin í fyrri hlutum þessa skjals til að tryggja að uppsetningu forútgáfu sé lokið.
+> **Virkjar sýndartöflur** verður stillt á **Já** sjálfkrafa þegar allri nauðsynlegri uppsetningu er lokið. Ef skipting er stillt á **Nei** skal fara yfir skrefin í fyrri hlutum þessa skjals til að tryggja að uppsetningu forútgáfu sé lokið.
 
-3. Velja skal eininguna eða einingarnar sem á að búa til í Common Data Service.
+3. Veljið töfluna eða töflurnar sem á að búa til í Dataverse.
 
 4. Velja **Búa til/uppfæra**.
 
-![Common Data Service Samþætting](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse Samþætting](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a>Athuga einingu um myndunarstöðu
+## <a name="check-table-generation-status"></a>Athuga myndunarstöðu töflu
 
-Sýndareiningar eru myndaðar í Common Data Service í gegnum ósamstillta bakgrunnsvinnslu. Uppfærslur á ferlinu birtast í aðgerðamiðstöð. Upplýsingar um ferlið, þar á meðal villukladda, birtast á síðunni **Sjálfvirkni ferlis**.
+Sýndartöflur eru myndaðar í Dataverse í gegnum ósamstillta bakgrunnsvinnslu. Uppfærslur á ferlinu birtast í aðgerðamiðstöð. Upplýsingar um ferlið, þar á meðal villukladda, birtast á síðunni **Sjálfvirkni ferlis**.
 
 1. Í Human Resources skal opna síðuna **Sjálfvirkni ferlis**.
 
 2. Veljið flipann **Bakgrunnsvinnslur**.
 
-3. Velið **Virtual einingakönnun async Aðgerðar bakgrunnsvinnsla**.
+3. Veljið **Bakgrunnsvinnsla á ósamstilltri aðgerð sýndartöflukönnunar**.
 
 4. Veldu **Skoða síðustu niðurstöður**.
 
-Hlðarsvæði sýnir nýjustu niðurstöður framkvæmdarinnar fyrir ferlið. Hægt er að skoða kladda vinnslunnar, þar á meðal allar villur sem skilað er frá Common Data Service.
+Hlðarsvæði sýnir nýjustu niðurstöður framkvæmdarinnar fyrir ferlið. Hægt er að skoða kladda vinnslunnar, þar á meðal allar villur sem skilað er frá Dataverse.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hvað er Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Einingayfirlit](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Yfirlit einingartengsla](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Stofna og breyta sýndareiningum sem innihalda gögn frá ytri gagnagjafa](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Hvað er Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Töflur í Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[Yfirlit töflutengsla](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[Stofna og breyta sýndartöflum sem innihalda gögn frá ytri gagnagjafa](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Hvað eru Power Apps-gáttir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Yfirlit yfir stofnun forrita í Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

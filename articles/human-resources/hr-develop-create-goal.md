@@ -2,7 +2,7 @@
 title: Búa til markmið
 description: Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar og tengja markmið við fyrir yfirferð.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2157e3b31786c8f0412ea447831e45a2290b8e35
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418963"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115825"
 ---
 # <a name="create-a-goal"></a>Búa til markmið
 
@@ -58,6 +58,3 @@ Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar o
     * Oft eru nokkur markmið sem eru þau sömu eða svipuð fyrir hópmeðlimi eða alla starfsmenn.     MA-kerfisstjóri eða stjórnandi þinn getur stofnað markmiðsflokka sem innihalda eitt eða fleiri markmiðasniðmát. Hægt er að bæta við markmiði úr markmiðsflokki og aðlaga það til að passa við tímalínur.  
     * Þegar yfirferð er stofnað er hægt að bæta við markmiðum við yfirferðina. Skoðið leiðarvísi fyrir verkefnaleiðbeiningar til að sjá hvernig hægt er að bæta markmiðum við yfirferðir.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

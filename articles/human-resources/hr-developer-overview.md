@@ -1,8 +1,8 @@
 ---
-title: Yfirlit
+title: Yfirlit þróunar
 description: Þessi þróunarhandbók veitir API og tilvísun í sérsniðna reiti. Það veitir einnig upplýsingar um samþættingu við önnur forrit.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528318"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115391"
 ---
-# <a name="overview"></a>Yfirlit
+# <a name="development-overview"></a>Yfirlit þróunar
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ ms.locfileid: "4528318"
 
 - [Stækka með Power Apps og Power Automate](hr-developer-power-apps.md)
 
-- [Einingar Human Resources í Common Data Service](hr-developer-entities.md)
+- [Einingar Human Resources í Dataverse](hr-developer-entities.md)
 
 - [Sérstilltir reitir](hr-developer-custom-fields.md)
 
 - Setja upp samþættingu gagna
   - [Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)
-  - [Skilgreina Common Data Service-samþættingu](hr-admin-integration-common-data-service.md)
+  - [Skilgreina Dataverse-samþættingu](hr-admin-integration-common-data-service.md)
   - [Skilgreina samþættingu við Finance](hr-admin-integration-finance.md)
   - [Skilgreina samþættingu við Dayforce](hr-admin-integration-dayforce.md)
   - [Búa til útflutningsforrit fyrir endurtekin gögn](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ ms.locfileid: "4528318"
 - [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
 - [Leiðbeiningar stjórnanda](hr-admin-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

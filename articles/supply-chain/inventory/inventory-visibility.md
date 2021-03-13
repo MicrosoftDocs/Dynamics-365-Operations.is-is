@@ -1,7 +1,7 @@
 ---
 title: Innbót birgðasýnileika
 description: Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla innbót birgðasýnileika fyrir Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625066"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114671"
 ---
 # <a name="inventory-visibility-add-in"></a>Innbót birgðasýnileika
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Innbót birgðasýnileika er sjálfstæð og einstaklega sveigjanleg örþjónusta sem býður upp á rakningu lagerbirgða í rauntíma og veitir þar af leiðandi alhliða yfirlit yfir sýnileika birgða.
 
 Allar upplýsingar sem tengjast birgðum á lager eru fluttar út í þjónustuna í nánast rauntíma í gegnum SQL-samþættingu á lágu stigi. Ytri kerfi fá aðgang að þjónustunni í gegnum RESTful API til að spyrjast fyrir um lagerbirgðir á uppgefnum víddasamstæðum, sem fær þá lista yfir lausar lagerstöður.
 
-Birgðasýnileiki er örþjónusta byggð á Common Data Service, sem þýðir að hægt er að stækka hana með því að smíða Power Apps og nota Power BI til að bjóða upp á sérsniðna virkni til að uppfylla kröfur fyrirtækisins. Einnig er hægt að uppfæra vísinn til að gera birgðafyrirspurnir.
+Birgðasýnileiki er örþjónusta byggð á Microsoft Dataverse, sem þýðir að hægt er að stækka hana með því að smíða Power Apps og nota Power BI til að bjóða upp á sérsniðna virkni til að uppfylla kröfur fyrirtækisins. Einnig er hægt að uppfæra vísinn til að gera birgðafyrirspurnir.
 
 Birgðasýnileiki býður upp á grunnstillingarvalkosti sem gerir því kleift að samþættast við mörg kerfi þriðja aðila. Hann styður staðlaða birgðavídd, sérsniðna stækkunarhæfni og staðlað, stillanlegt magn sem er reiknað út.
 
@@ -78,30 +78,57 @@ Til að setja upp innbót birgðasýnileika skal gera eftirfarandi:
 
 ### <a name="get-a-security-service-token"></a>Sækja merki öryggisþjónustu
 
-Til að sækja merki öryggisþjónustu skal gera eftirfarandi:
+Sækja merki öryggisþjónustu á eftirfarandi hátt:
 
-1. Sæktu `aadToken` og kallaðu á endastöðina: https://securityservice.operations365.dynamics.com/token.
-1. Skiptu út `client_assertion` í meginmálinu og settu inn `aadToken`.
-1. Skiptu út samhengi meginmálsins fyrir umhverfið þar sem á að nota innbótina.
-1. Skiptu út umfangi meginmálsins fyrir eftirfarandi:
+1. Skráðu þig inn í Azure-gátt og notaðu hana til að finna `clientId` og `clientSecret` Supply Chain Management forritið.
+1. Sækja Azure Active Directory tákn (`aadToken` ) með því að senda inn HTTP beiðni með eftirfarandi eiginleikum:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Aðferð** - `GET`
+    - **Meginefni (eyðublaðagögn)**:
 
-    - Umfang fyrir MCK - „https://inventoryservice.operations365.dynamics.cn/.default“  
-    (Hægt er að finna Azure Active Directory forritskennið og leigjandakennið fyrir MCK í `appsettings.mck.json`.)
-    - Umfang fyrir PROD - „https://inventoryservice.operations365.dynamics.com/.default“  
-    (Hægt er að finna Azure Active Directory forritskennið og leigjandakennið fyrir PROD í `appsettings.prod.json`.)
+        | lykill | gildi |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | tilföng | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Þú ættir að fá `aadToken` svar, sem líkist eftirfarandi dæmi.
 
-    Niðurstaðan ætti að líkjast eftirfarandi dæmi.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Búa skal til JSON-beiðni sem líkist eftirfarandi:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Hvar:
+    - Gildið `client_assertion` verður að vera `aadToken` sem var móttekið í fyrra skrefi.
+    - Gildið `context` verður að vera umhverfiskenni þar sem á að nota viðbótina.
+    - Stillið öll önnur gildi eins og sýnt er í dæminu.
+
+1. Sendið inn HTTP-beiðni með eftirfarandi eiginleikum:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Aðferð** - `POST`
+    - **HTTP** - Inniheldur API-útgáfu (lykilinn er `Api-Version` og gildið er `1.0`)
+    - **Meginefni efnis** - Nota skal JSON-beiðni sem var stofnuð í fyrra skrefi.
 
 1. Þú færð `access_token` í staðinn. Þetta er það sem þú þarft sem handhafalykill til að kalla í API birgðasýnileikans. Eftirfarandi er dæmi.
 
@@ -500,6 +527,3 @@ Fyrirspurnirnar sem sýndar voru í fyrra dæminu gætu skilað niðurstöðum s
 ```
 
 Athugið að magnreitirnir eru skipulagðir sem orðabók yfir mælingar og tengd gildi þeirra.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
