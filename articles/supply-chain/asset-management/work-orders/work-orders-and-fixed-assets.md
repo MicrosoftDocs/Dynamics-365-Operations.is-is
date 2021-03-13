@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ca7a5d88de4308d7be9c1bc749b9dbf1da027c2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430542"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016704"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Verkbeiðnir og eignir
 
@@ -65,6 +64,3 @@ Eftirfarandi aðferð lýsir tengslum á milli eigna, verkbeiðna, verkbeiðnive
 
 7. Til að sjá yfirlit yfir verk sem eru tengd fastri eign skaltu velja **Fastar eignir** > **Fastar eignir** > **Fastar eignir** og síðan í reitnum **Númer fastrar eignar** velurðu tengilinn fyrir föstu eignina til að opna upplýsingaglugga. Stækkaðu gluggann **Tengdar upplýsingar** hægra megin á síðunni og veldu flýtiflipann **Tengd verk**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
