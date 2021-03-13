@@ -2,8 +2,8 @@
 title: Setja upp ástæðukóða
 description: Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+manager: tfehr
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83923eecf7eb23a21b8dbbd39491014fa2bc20d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae82c8312d344f5380adec8413766304681a0a05
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419053"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112945"
 ---
-# <a name="set-up-reason-codes"></a><span data-ttu-id="22470-103">Setja upp ástæðukóða</span><span class="sxs-lookup"><span data-stu-id="22470-103">Set up reason codes</span></span>
+# <a name="set-up-reason-codes"></a><span data-ttu-id="6bb97-103">Setja upp ástæðukóða</span><span class="sxs-lookup"><span data-stu-id="6bb97-103">Set up reason codes</span></span>
 
-<span data-ttu-id="22470-104">Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.</span><span class="sxs-lookup"><span data-stu-id="22470-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span> 
+<span data-ttu-id="6bb97-104">Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.</span><span class="sxs-lookup"><span data-stu-id="6bb97-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span>
 
-1. <span data-ttu-id="22470-105">Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Ástæðukóða**.</span><span class="sxs-lookup"><span data-stu-id="22470-105">In the **Benefits management** workspace, under **Setup**, select **Reason codes**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="6bb97-105">Frá og með janúar 2021 flytjast ástæðukóðar yfir á vinnusvæðið **Starfsmannastjórnun** í staðinn fyrir vinnusvæðið **Fríðindastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-105">As of January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="6bb97-106">Frekari upplýsingar er að finna í [Flytja ástæðukóða handvirkt yfir í starfsmannastjórnun](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span><span class="sxs-lookup"><span data-stu-id="6bb97-106">For more information, see [Manually migrate reason codes to Personnel management](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).</span></span>
 
-2. <span data-ttu-id="22470-106">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="22470-106">Select **New**.</span></span>
+## <a name="create-reason-codes"></a><span data-ttu-id="6bb97-107">Stofna ástæðukóða</span><span class="sxs-lookup"><span data-stu-id="6bb97-107">Create reason codes</span></span>
 
-3. <span data-ttu-id="22470-107">Tilgreina gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="22470-107">Specify values for the following fields:</span></span>
+1. <span data-ttu-id="6bb97-108">Á vinnusvæðinu **Starfsmannastjórnun** (eða vinnusvæðinu **Fríðindastjórnun** ef ástæðukóðarnir hafa ekki verið fluttir enn) skal velja **Tenglar** og síðan velja **Ástæðukóðar**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-108">In the **Personnel management** workspace (or **Benefits management** workspace if your reason codes haven't yet migrated), select **Links**, and then select **Reason codes**.</span></span>
 
-   | <span data-ttu-id="22470-108">Svæði</span><span class="sxs-lookup"><span data-stu-id="22470-108">Field</span></span> | <span data-ttu-id="22470-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="22470-109">Description</span></span> |
+2. <span data-ttu-id="6bb97-109">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-109">Select **New**.</span></span>
+
+3. <span data-ttu-id="6bb97-110">Tilgreina gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="6bb97-110">Specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="6bb97-111">Svæði</span><span class="sxs-lookup"><span data-stu-id="6bb97-111">Field</span></span> | <span data-ttu-id="6bb97-112">Lýsing</span><span class="sxs-lookup"><span data-stu-id="6bb97-112">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="22470-110">**Ástæðukóði**</span><span class="sxs-lookup"><span data-stu-id="22470-110">**Reason code**</span></span> | <span data-ttu-id="22470-111">Einstakt nafn til að bera kennsl á ástæðu þess að starfsmaður myndi breyta skráningu í fríðindaáætlun.</span><span class="sxs-lookup"><span data-stu-id="22470-111">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
-   | <span data-ttu-id="22470-112">**Lýsing**</span><span class="sxs-lookup"><span data-stu-id="22470-112">**Description**</span></span> | <span data-ttu-id="22470-113">Lýsing á ástæðukóðanum.</span><span class="sxs-lookup"><span data-stu-id="22470-113">A description of the reason code.</span></span> |
+   | <span data-ttu-id="6bb97-113">**Ástæðukóði**</span><span class="sxs-lookup"><span data-stu-id="6bb97-113">**Reason code**</span></span> | <span data-ttu-id="6bb97-114">Einstakt nafn til að bera kennsl á ástæðu þess að starfsmaður myndi breyta skráningu í fríðindaáætlun.</span><span class="sxs-lookup"><span data-stu-id="6bb97-114">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
+   | <span data-ttu-id="6bb97-115">**Lýsing**</span><span class="sxs-lookup"><span data-stu-id="6bb97-115">**Description**</span></span> | <span data-ttu-id="6bb97-116">Lýsing á ástæðukóðanum.</span><span class="sxs-lookup"><span data-stu-id="6bb97-116">A description of the reason code.</span></span> |
 
-4. <span data-ttu-id="22470-114">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="22470-114">Select **Save**.</span></span> 
+4. <span data-ttu-id="6bb97-117">Undir **Aðstæður sem eiga við** skal stilla **Fríðindastjórnun** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-117">Under **Applicable scenarios**, set **Benefits management** to **Yes**.</span></span> <span data-ttu-id="6bb97-118">(Á ekki við ef ástæðukóðar hafa ekki enn verið yfirfærðir á vinnusvæðið **Starfsmannastjórnun**.)</span><span class="sxs-lookup"><span data-stu-id="6bb97-118">(Not applicable if your reason codes haven't yet migrated to the **Personnel management** workspace.)</span></span>
+
+5. <span data-ttu-id="6bb97-119">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-119">Select **Save**.</span></span>
+
+## <a name="manually-migrate-reason-codes-to-personnel-management"></a><span data-ttu-id="6bb97-120">Flytja ástæðukóða handvirkt yfir í starfsmannastjórnun</span><span class="sxs-lookup"><span data-stu-id="6bb97-120">Manually migrate reason codes to Personnel management</span></span>
+
+<span data-ttu-id="6bb97-121">Í janúar 2021 verða ástæðukóðar fluttir yfir á vinnusvæðið **Starfsmannastjórnun** í staðinn fyrir vinnusvæðið **Fríðindastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-121">In January 2021, reason codes are migrating to the **Personnel management** workspace instead of the **Benefits management** workspace.</span></span> <span data-ttu-id="6bb97-122">Flest gögn ástæðukóða munu flytjast sjálfkrafa yfir í umhverfið.</span><span class="sxs-lookup"><span data-stu-id="6bb97-122">Most reason code data will automatically migrate in your environment.</span></span> <span data-ttu-id="6bb97-123">Hugsanlega flytjast ekki sum gögn ástæðukóða.</span><span class="sxs-lookup"><span data-stu-id="6bb97-123">Some reason code data might not migrate.</span></span> <span data-ttu-id="6bb97-124">Sem dæmi þá eru ástæðukóðar nú með 15 stafi að hámarki, þannig að ástæðukóðar sem eru lengri en 15 stafir munu ekki flytjast sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="6bb97-124">For example, reason codes now have a 15-character maximum, so any reason codes longer than 15 characters won't migrate automatically.</span></span>
+
+<span data-ttu-id="6bb97-125">Borði birtist á síðunni **Tenglar** á vinnusvæðinu **Fríðindastjórnun** sem gefur flutninginn til kynna og hvort einhverjir ástæðukóðar flytjist ekki.</span><span class="sxs-lookup"><span data-stu-id="6bb97-125">You'll see a banner on the **Links** page of the **Benefits management** workspace informing you about the migration and whether any reason codes didn't migrate.</span></span>
+
+1. <span data-ttu-id="6bb97-126">Veljið **Ástæðukóðar** fyrir upplýsingar um stöðu flutnings.</span><span class="sxs-lookup"><span data-stu-id="6bb97-126">Select **Reason codes** for details about migration status.</span></span>
+
+   <span data-ttu-id="6bb97-127">[![Ástæðukóðar](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span><span class="sxs-lookup"><span data-stu-id="6bb97-127">[![Reason codes](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)</span></span>
+
+2. <span data-ttu-id="6bb97-128">Veljið ástæðukóða sem ekki tókst að flytja.</span><span class="sxs-lookup"><span data-stu-id="6bb97-128">Select a reason code that failed to migrate.</span></span>
+
+   <span data-ttu-id="6bb97-129">[![Staða á flutningi ástæðukóða](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span><span class="sxs-lookup"><span data-stu-id="6bb97-129">[![Reason code migration status](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)</span></span>
+
+3. <span data-ttu-id="6bb97-130">Veljið **Yfirfæra ástæðukóða**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-130">Select **Migrate reason code**.</span></span>
+
+   <span data-ttu-id="6bb97-131">[![Yfirfæra ástæðukóða](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span><span class="sxs-lookup"><span data-stu-id="6bb97-131">[![Migrate reason code](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)</span></span>
+
+4. <span data-ttu-id="6bb97-132">Í glugganum **Yfirfærsla ástæðukóða fríðinda** eru tvær möguleikar á vörpun í ástæðukóða starfsmannastjórnunar:</span><span class="sxs-lookup"><span data-stu-id="6bb97-132">In the **Benefit reason code migration** pane, you have two options for mapping to a Personnel management reason code:</span></span>
+
+   - <span data-ttu-id="6bb97-133">Til að nota fyrirliggjandi ástæðukóða í starfsmannastjórnun skal velja einn úr fellilistanum **Nota fyrirliggjandi ástæðukóða**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-133">To use an existing reason code in Personnel management, choose one from the **Use existing reason code** dropdown.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="6bb97-134">Aðeins er hægt að nota fyrirliggjandi ástæðukóða í starfsmannastjórnun ef annar ástæðukóði fríðindastjórnunar hefur ekki enn verið færður í hana.</span><span class="sxs-lookup"><span data-stu-id="6bb97-134">You can only use an existing reason code in Personnel management if another Benefits management reason code hasn't already migrated to it.</span></span>
+   - <span data-ttu-id="6bb97-135">Til að stofna nýjan ástæðukóða í starfsmannastjórnun skal slá nýjan inn í **Nýr ástæðukóði** og síðan færa inn lýsingu í **Ný lýsing**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-135">To create a new reason code in Personnel management, enter a new one in **New reason code**, and then enter a description in **New description**.</span></span>
+
+   <span data-ttu-id="6bb97-136">[![Varpa í ástæðukóða starfsmannastjórnunar](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span><span class="sxs-lookup"><span data-stu-id="6bb97-136">[![Map to a Personnel management reason code](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)</span></span>
+
+<span data-ttu-id="6bb97-137">Þegar ástæðukóðar hafa verið fluttir yfir í starfsmannastjórnun er möguleikinn á að nota þá í fríðindastjórnun sjálfkrafa stilltur á **Já**.</span><span class="sxs-lookup"><span data-stu-id="6bb97-137">After reason codes migrate to Personnel management, the option for using them in Benefits management is automatically set to **Yes**.</span></span>
+
+<span data-ttu-id="6bb97-138">[![Nota ástæðukóða í fríðindastjórnun](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span><span class="sxs-lookup"><span data-stu-id="6bb97-138">[![Use reason code in Benefits management](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)</span></span>
