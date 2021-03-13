@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur.
+description: Í þessu efni er útskýrt hvernig á að skilgreina snið rafrænnar skýrslugerðar til að nota skrár skjalastjórnunar (viðhengi) í úttaki rafrænnar skýrslugerðar. (Hluti 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,62 +15,62 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b82c63c572cc946737ba54deb10a03dc437c01b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bff518c60f0f36bdc88245d79bd82f0c4d0599ed
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681829"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092642"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a><span data-ttu-id="f155b-103">Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)</span><span class="sxs-lookup"><span data-stu-id="f155b-103">ER Use Document Management files in format outputs (Part 1 - Prepare data model)</span></span>
+# <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a><span data-ttu-id="e3cb9-104">Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)</span><span class="sxs-lookup"><span data-stu-id="e3cb9-104">ER Use Document Management files in format outputs (Part 1 - Prepare data model)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f155b-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur.</span><span class="sxs-lookup"><span data-stu-id="f155b-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="f155b-105">Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.</span><span class="sxs-lookup"><span data-stu-id="f155b-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="e3cb9-105">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="e3cb9-106">Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-106">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="f155b-106">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.</span><span class="sxs-lookup"><span data-stu-id="f155b-106">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>
+<span data-ttu-id="e3cb9-107">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-107">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>
 
-<span data-ttu-id="f155b-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="f155b-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="e3cb9-108">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="f155b-108">Fá aðgang að lista yfir skilgreiningar sem Microsoft veitir</span><span class="sxs-lookup"><span data-stu-id="f155b-108">Get access to the list of configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="f155b-109">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="f155b-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a><span data-ttu-id="e3cb9-109">Fá aðgang að lista yfir skilgreiningar sem Microsoft veitir</span><span class="sxs-lookup"><span data-stu-id="e3cb9-109">Get access to the list of configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="e3cb9-110">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
 
-    <span data-ttu-id="f155b-110">Gakktu úr skugga um að „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="f155b-110">Make sure that the 'Litware, Inc.'</span></span> <span data-ttu-id="f155b-111">veitandi sé tiltæk og merkt Virk.</span><span class="sxs-lookup"><span data-stu-id="f155b-111">provider is available and marked as active.</span></span>  
+    <span data-ttu-id="e3cb9-111">Gakktu úr skugga um að „Litware, Inc.“</span><span class="sxs-lookup"><span data-stu-id="e3cb9-111">Make sure that the 'Litware, Inc.'</span></span> <span data-ttu-id="e3cb9-112">veitandi sé tiltæk og merkt Virk.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-112">provider is available and marked as active.</span></span>  
 
-2. <span data-ttu-id="f155b-112">Velja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="f155b-112">Select the 'Litware, Inc.'</span></span> <span data-ttu-id="f155b-113">veita.</span><span class="sxs-lookup"><span data-stu-id="f155b-113">provider.</span></span>
-3. <span data-ttu-id="f155b-114">Smella á Geymslur.</span><span class="sxs-lookup"><span data-stu-id="f155b-114">Click Repositories.</span></span>
+2. <span data-ttu-id="e3cb9-113">Velja Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-113">Select the 'Litware, Inc.'</span></span> <span data-ttu-id="e3cb9-114">veita.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-114">provider.</span></span>
+3. <span data-ttu-id="e3cb9-115">Smella á Geymslur.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-115">Click Repositories.</span></span>
 
-    <span data-ttu-id="f155b-115">Sleppa önnur þrep í núverandi undirverki ef gagnasafn af gerð 'Rekstrartilföngum' er þegar til.</span><span class="sxs-lookup"><span data-stu-id="f155b-115">If a repository of the 'Operations resources' type already exists, skip the remaining steps of the current sub-task.</span></span>  
+    <span data-ttu-id="e3cb9-116">Sleppa önnur þrep í núverandi undirverki ef gagnasafn af gerð 'Rekstrartilföngum' er þegar til.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-116">If a repository of the 'Operations resources' type already exists, skip the remaining steps of the current sub-task.</span></span>  
 
-4. <span data-ttu-id="f155b-116">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="f155b-116">Click Add to open the drop dialog.</span></span>
-5. <span data-ttu-id="f155b-117">Í reitnum gerð gagnasafns fyrir skilgreiningar, færðu inn "rekstrartilföng".</span><span class="sxs-lookup"><span data-stu-id="f155b-117">In the Configuration repository type field, enter 'Operations resources'.</span></span>
-6. <span data-ttu-id="f155b-118">Smellið á Stofna gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="f155b-118">Click Create repository.</span></span>
-7. <span data-ttu-id="f155b-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="f155b-119">Click OK.</span></span>
+4. <span data-ttu-id="e3cb9-117">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-117">Click Add to open the drop dialog.</span></span>
+5. <span data-ttu-id="e3cb9-118">Í reitnum gerð gagnasafns fyrir skilgreiningar, færðu inn "rekstrartilföng".</span><span class="sxs-lookup"><span data-stu-id="e3cb9-118">In the Configuration repository type field, enter 'Operations resources'.</span></span>
+6. <span data-ttu-id="e3cb9-119">Smellið á Stofna gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-119">Click Create repository.</span></span>
+7. <span data-ttu-id="e3cb9-120">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-120">Click OK.</span></span>
 
-## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a><span data-ttu-id="f155b-120">Sækja Líkan Reiknings viðskiptavinar-skilgreiningar sem Microsoft veitir</span><span class="sxs-lookup"><span data-stu-id="f155b-120">Get the Customer invoice model configurations provided by Microsoft</span></span>
-1. <span data-ttu-id="f155b-121">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="f155b-121">Click Show filters.</span></span>
-2. <span data-ttu-id="f155b-122">Nota eftirfarandi síur: færið Inn gildi síu "Rekstrartilföngum" síu á svæðið "Heiti" með því að nota í "byrjar á" virknitákn síu; Færa inn gildi síu "" á reitnum "Lýsing" með því að nota "byrjar á" virknitákn síu.</span><span class="sxs-lookup"><span data-stu-id="f155b-122">Apply the following filters: Enter a filter value of "Operations resources" on the "Name" field using the "begins with" filter operator; Enter a filter value of "" on the "Description" field using the "begins with" filter operator</span></span>
-3. <span data-ttu-id="f155b-123">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="f155b-123">Click Show filters.</span></span>
-4. <span data-ttu-id="f155b-124">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="f155b-124">Click Open.</span></span>
-5. <span data-ttu-id="f155b-125">Í trénu, veljið 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="f155b-125">In the tree, select 'Customer invoice model'.</span></span>
+## <a name="get-the-customer-invoice-model-configurations-provided-by-microsoft"></a><span data-ttu-id="e3cb9-121">Sækja Líkan Reiknings viðskiptavinar-skilgreiningar sem Microsoft veitir</span><span class="sxs-lookup"><span data-stu-id="e3cb9-121">Get the Customer invoice model configurations provided by Microsoft</span></span>
+1. <span data-ttu-id="e3cb9-122">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-122">Click Show filters.</span></span>
+2. <span data-ttu-id="e3cb9-123">Nota eftirfarandi síur: færið Inn gildi síu "Rekstrartilföngum" síu á svæðið "Heiti" með því að nota í "byrjar á" virknitákn síu; Færa inn gildi síu "" á reitnum "Lýsing" með því að nota "byrjar á" virknitákn síu.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-123">Apply the following filters: Enter a filter value of "Operations resources" on the "Name" field using the "begins with" filter operator; Enter a filter value of "" on the "Description" field using the "begins with" filter operator</span></span>
+3. <span data-ttu-id="e3cb9-124">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-124">Click Show filters.</span></span>
+4. <span data-ttu-id="e3cb9-125">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-125">Click Open.</span></span>
+5. <span data-ttu-id="e3cb9-126">Í trénu, veljið 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-126">In the tree, select 'Customer invoice model'.</span></span>
 
-    <span data-ttu-id="f155b-126">Velja skilgreiningu líkans 'líkan reiknings viðskiptavinar' til að flytja það inn.</span><span class="sxs-lookup"><span data-stu-id="f155b-126">Select the model configuration 'Customer invoice model' to import it.</span></span>  
+    <span data-ttu-id="e3cb9-127">Velja skilgreiningu líkans 'líkan reiknings viðskiptavinar' til að flytja það inn.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-127">Select the model configuration 'Customer invoice model' to import it.</span></span>  
 
-6. <span data-ttu-id="f155b-127">Smelltu á Flytja inn.</span><span class="sxs-lookup"><span data-stu-id="f155b-127">Click Import.</span></span>
+6. <span data-ttu-id="e3cb9-128">Smelltu á Flytja inn.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-128">Click Import.</span></span>
 
-    <span data-ttu-id="f155b-128">Smelltu á innflutning fyrir útgáfu 1 fyrir valda skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="f155b-128">Click Import for version 1 of the selected configuration.</span></span>  
+    <span data-ttu-id="e3cb9-129">Smelltu á innflutning fyrir útgáfu 1 fyrir valda skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-129">Click Import for version 1 of the selected configuration.</span></span>  
 
-7. <span data-ttu-id="f155b-129">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="f155b-129">Click Yes.</span></span>
-8. <span data-ttu-id="f155b-130">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f155b-130">Close the page.</span></span>
-9. <span data-ttu-id="f155b-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f155b-131">Close the page.</span></span>
-10. <span data-ttu-id="f155b-132">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="f155b-132">Click Reporting configurations.</span></span>
-11. <span data-ttu-id="f155b-133">Í trénu, veljið 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="f155b-133">In the tree, select 'Customer invoice model'.</span></span>
+7. <span data-ttu-id="e3cb9-130">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-130">Click Yes.</span></span>
+8. <span data-ttu-id="e3cb9-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-131">Close the page.</span></span>
+9. <span data-ttu-id="e3cb9-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-132">Close the page.</span></span>
+10. <span data-ttu-id="e3cb9-133">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="e3cb9-133">Click Reporting configurations.</span></span>
+11. <span data-ttu-id="e3cb9-134">Í trénu, veljið 'Customer invoice model'.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-134">In the tree, select 'Customer invoice model'.</span></span>
 
-## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a><span data-ttu-id="f155b-134">Stofna afleitt líkan til að styðja aðgang að skrám Skjalastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="f155b-134">Create the derived model to support access to the Document Management files.</span></span>
-<span data-ttu-id="f155b-135">Þú munt stofna okkar eigin skilgreiningu á líkani reiknings viðskiptavinar og fá það úr skilgreiningu sem Microsoft veitir.</span><span class="sxs-lookup"><span data-stu-id="f155b-135">You will create our own configuration of the Customer invoice model deriving it from the configuration provided by Microsoft.</span></span> <span data-ttu-id="f155b-136">Þú munt nota þessa skilgreiningu til að innleiða aðgang að skrám Skjalastjórnunar og gera þau tiltæk fyrir rafræn skjöl sem þú munt stofna á grundvelli þessa líkans.</span><span class="sxs-lookup"><span data-stu-id="f155b-136">You will use this configuration to implement access to the Document Management files and make them available for electronic documents that you will create based on this model.</span></span>  
-1. <span data-ttu-id="f155b-137">Smellt er á stofna skilgreiningu til að opna fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="f155b-137">Click Create configuration to open the drop dialog.</span></span>
-2. <span data-ttu-id="f155b-138">Í svæðinu Nýtt, veljið 'Leiða af nafni: líkan reiknings viðskiptavinar, Microsoft'.</span><span class="sxs-lookup"><span data-stu-id="f155b-138">In the New field, enter 'Derive from Name: Customer invoice model, Microsoft'.</span></span>
-3. <span data-ttu-id="f155b-139">Í svæðið Heiti, Færðu inn 'líkan reiknings viðskiptavinar (sérstillt)'.</span><span class="sxs-lookup"><span data-stu-id="f155b-139">In the Name field, type 'Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="f155b-140">Smelltu á Stofna skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="f155b-140">Click Create configuration.</span></span>
+## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a><span data-ttu-id="e3cb9-135">Stofna afleitt líkan til að styðja aðgang að skrám Skjalastjórnunar.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-135">Create the derived model to support access to the Document Management files.</span></span>
+<span data-ttu-id="e3cb9-136">Þú munt stofna okkar eigin skilgreiningu á líkani reiknings viðskiptavinar og fá það úr skilgreiningu sem Microsoft veitir.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-136">You will create our own configuration of the Customer invoice model deriving it from the configuration provided by Microsoft.</span></span> <span data-ttu-id="e3cb9-137">Þú munt nota þessa skilgreiningu til að innleiða aðgang að skrám Skjalastjórnunar og gera þau tiltæk fyrir rafræn skjöl sem þú munt stofna á grundvelli þessa líkans.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-137">You will use this configuration to implement access to the Document Management files and make them available for electronic documents that you will create based on this model.</span></span>  
+1. <span data-ttu-id="e3cb9-138">Smellt er á stofna skilgreiningu til að opna fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="e3cb9-139">Í svæðinu Nýtt, veljið 'Leiða af nafni: líkan reiknings viðskiptavinar, Microsoft'.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-139">In the New field, enter 'Derive from Name: Customer invoice model, Microsoft'.</span></span>
+3. <span data-ttu-id="e3cb9-140">Í svæðið Heiti, Færðu inn 'líkan reiknings viðskiptavinar (sérstillt)'.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-140">In the Name field, type 'Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="e3cb9-141">Smelltu á Stofna skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="e3cb9-141">Click Create configuration.</span></span>
 
