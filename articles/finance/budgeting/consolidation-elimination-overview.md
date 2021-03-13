@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444501"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120480"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Yfirlit yfir sameiningu og losun
 
@@ -60,6 +59,7 @@ Valkosturinn **Fjárhagsskýrslugerð** hefur ótakmarkaðar gjaldmiðilsskrár.
 Valkosturinn **Fjárhagsskýrslugerð** er lausnin, þar sem hægt er að skoða upplýsingar um færslustig fyrir eins mörg fyrirtæki og eru tekin með í skilgreiningu skipuritsins.
 
 4.  Við erum að nota fjárhagsáætlunargerð eða fjárhagsáætlunarstýringu, og það verður að sameina.
+
 Valkosturinn **Fjárhagsskýrslugerð** er lausnin til að sameina allar fjárhagsáætlunargerðir eða gögn fjárhagsáætlunarstýringar.
 
 5.  Dótturfyrirtæki okkar eru dreifð um heiminn og við höfum marga bókhaldslykla. Hver er besta aðferðin til að sameina gögn okkar?
@@ -86,10 +86,10 @@ Valkosturinn **Fjárhagsskýrsla** er lausnin. Hægt er að skrá stigveldi fyri
 
 Með því að nota valkostinn **Flytja út stöður í fyrirtækinu** til að flytja út úr einu tilviki og nota svo°valkostinn **Sameina með innflutningi** fyrir hina útgáfuna er hægt að sameina gögnin.
 
+11. Get ég gert sameiningu við fjárhagsáætlun í stöðunni **DRÖG**? 
+            
+Ekki er hægt að vinna eða ljúka við fjárhagsáætlanir í samstæðufyrirtækinu. Mælt er með því að nota fjárhagsskýrslugerð til að sameina drög að fjárhagsáætlunum.
 
 Frekari upplýsingar eru í [Endurmat gjaldmiðils í samstæðufyrirtæki](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
