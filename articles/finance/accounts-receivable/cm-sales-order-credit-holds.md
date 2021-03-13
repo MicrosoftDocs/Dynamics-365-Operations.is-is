@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444253"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012264"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Lán í biðstöðu fyrir sölupantanir
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ Ekki er hægt að gefa út sölupantanir sem eru með nauðungarástæður sjál
 Lánastjórnun er aðeins hægt að nota sem stendur við sölupantanir. Frítextareikningar, sölupunktur sölupantana og pantanir í símaþjónustuverum nota tímabundin lánamörk og tryggingar/ábyrgðir sem þú bætir við til að laga lánsheimildina. Þeir munu ekki nota hindrunarreglurnar og þær verða ekki settar á biðlista ef það er vandamál með lánsfjárhæðina.
 
 Það er enginn stuðningur við reikninga verkefna í lánamálum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

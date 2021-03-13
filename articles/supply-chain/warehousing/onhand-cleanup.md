@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014484"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
 
@@ -50,7 +49,12 @@ Ef vinnslan reynir að eyða færslu fyrir vöru á meðan annar notandi er að 
 
 ## <a name="possible-user-impact"></a>Hugsanleg áhrif á notanda
 
-Notendur gætu orðið fyrir áhrifum ef hreinsunarvinnsla lagerbirgðafærslna eyðir öllum færslum fyrir uppgefið stig (t.d. númeraplötustigið). Í slíku tilfelli gæti aðgerðin til að sjá að birgðir séu til staðar á lager á númeraplötu ekki virkað sem skyldi vegna þess að viðeigandi lagerbirgðafærslur eru ekki lengur í boði. (Þessi aðgerð athugar skilyrðið **Magn \<\> 0** í stillingunum **Birting víddar** þegar notendur skoða lagerupplýsingar.) Hins vegar ættu aukin afköst sem hreinsunarvinnslan býður upp á að bæta upp fyrir þetta litla tap í virkni.
+Notendur gætu orðið fyrir áhrifum ef hreinsunarvinnsla lagerbirgðafærslna eyðir öllum færslum fyrir uppgefið stig (t.d. númeraplötustigið). Í slíku tilfelli gæti aðgerðin til að sjá að birgðir séu til staðar á lager á númeraplötu ekki virkað sem skyldi vegna þess að viðeigandi lagerbirgðafærslur eru ekki lengur í boði. Þetta getur t.d. komið upp við eftirfarandi aðstæður:
+
+- Á **Listasíða lagers**, þegar notandinn afvelur ástandið **Magn \<\> 0** eða velur ástandið **Lokaðar færslur** í stillingunum **Víddabirting**.
+- Í skýrslunni **Efnislegar birgðir eftir birgðavíddum** fyrir fyrri tímabil þegar notandinn stillir færibreytingu **Frá og með dagsetningunni** dagsetningarfæribreytu.
+
+Hins vegar ættu frammistöðuúrbætur sem hreinsunarstarf býður upp að vega upp á móti þessu litla tapi í virkni.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Gera stillingu hámarkskeyrslutíma tiltæka
 
@@ -58,6 +62,3 @@ Sjálfgefið er að stillingin **Hámarkskeyrslutími** sé ekki í boði. Ef æ
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

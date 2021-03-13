@@ -1,7 +1,7 @@
 ---
 title: Setja upp ytri vörulista fyrir PunchOut e-procurement
 description: Í þessu efnisatriði er lýst notkun á ytri vörulista eða PunchOut-vörulista til að safna upplýsingum um tilboð frá lánardrottni og bæta þeim við beiðni.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430710"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016378"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Setja upp ytri vörulista fyrir PunchOut e-procurement
 
@@ -54,19 +53,18 @@ Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að ve
 Þessi hluti veitir frekari upplýsingar um verkefni 4 í undanfarandi hluta.
 
 1. Heiti og lýsing eru færð inn fyrir ytri vörulista lánardrottins. Nafnið sem er fært inn mun birtast á körfu sem stendur fyrir ytri vörulista sem sýndur er á milli starfsmanna sem stofnar beiðni. Starfsfólk getur smellt á körfuna til að opna vörulistann á svæði ytri vörulista lánardrottins.
-2. Bættu við mynd með því að nota aðgerðina **Mynd í ytri vörulista**. Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni. Athugið að breidd og hæð myndarinnar verður að vera jöfn. Annars birtist myndin ekki rétt.
+2. Bættu við mynd með því að nota aðgerðina **Mynd í ytri vörulista**. Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni. Athugið að breidd og hæð myndarinnar verður að vera jöfn. Annars birtist myndin ekki rétt.
 3. Veldu hvort vefsvæði ytri vörulista lánardrottins eigi að birtast í sama vafraglugga og þar sem starfsmaður bjó til beiðnina, eða opnast í nýjum glugga.
 4. Veldu lánardrottinn fyrir vörulistann. Í því **lögaðila** er engin línu fyrir hverja lögaðili sem lánardrottininn verið settur upp. Til að leyfa notendum að biðja um vörur beint frá vörulista lánardrottins í sumum lögaðilum en ekki öðrum, geturðu notað hnappinn **Hindra aðgang** eða **Leyfa aðgang** fyrir hvern lögaðila þar sem þú vilt að vörulistinn verði annaðhvort í boði eða ekki.
 5. Í því **Sjálfgefin gildistíma (Dagar)** skal slá inn fjölda daga sem tilboð frá ytri vörulista gildir og hægt er að nota til að kaupa frá ytri lánardrottni. Þegar tilboð er stofnað og sótt úr svæði ytri vörulista lánardrottinsins, er tilboðið gilt frá og með núverandi kerfisdagsetningu, og er gild fyrir þann fjölda daga sem er færður inn í þetta svæði.
-6. Smellið á **Bæta** hnappinn til að hefja innkaupaflokkana vörpun á ytri vörulistann. Síðan skal velja flokk í lista yfir flokksheiti. Lista yfir tegundir er tákna innkaupaflokkana sem lánardrottinn hefur verið varpað í öllum lögaðila sem eru settir fyrir lánardrottinn.
+6. Smellið á **Bæta** hnappinn til að hefja innkaupaflokkana vörpun á ytri vörulistann. Síðan skal velja flokk í lista yfir flokksheiti. Lista yfir tegundir er tákna innkaupaflokkana sem lánardrottinn hefur verið varpað í öllum lögaðila sem eru settir fyrir lánardrottinn.
 
     > [!NOTE]
-    > Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu. Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.
+    > Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu. Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.
 
 7. Setja upp cXML uppsetningu beiðni skilaboðin sem er sendur lánardrottni. Skilaboðasniðið myndaðar eru um sniðmát sem eru nauðsynlegar til að hefja svarsetu. Fylla verður í gildi fyrir seðlana í.
 
-Endurhlaða má kerfismynduðu sniðmáti skilaboða hvenær sem er með því að smella á **Endurheimta sniðmát skilaboða**. 
-Athugaðu að ef þú endurheimtir sniðmát skilaboða verður núverandi skilaboðum skipt út fyrir sjálfvirka myndun á sniðmáti skilaboða, sem hefur tóm merki.
+Endurhlaða má kerfismynduðu sniðmáti skilaboða hvenær sem er með því að smella á **Endurheimta sniðmát skilaboða**. Athugaðu að ef þú endurheimtir sniðmát skilaboða verður núverandi skilaboðum skipt út fyrir sjálfvirka myndun á sniðmáti skilaboða, sem hefur tóm merki.
 
 ### <a name="cxml-setup-message"></a>Uppsetning cXML skilaboð
 Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sniðmátinu:
@@ -91,7 +89,7 @@ Tilgreinið nafn extrinsic einingarinnar sem lánardrottinn getur þekkja og ten
 Fyrir nánari upplýsingar um cXML-samskiptareglur skal sjá [cXML.org vefsvæðið](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Skilaboð aftur
-Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Supply Chain Management. Ekki er hægt að stilla skilaboð til baka. Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni. Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu.
+Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Supply Chain Management. Ekki er hægt að stilla skilaboð til baka. Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni. Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu:
 
 | Skilaboðin sem berast frá lánardrottni | Afritað í beiðnilínu|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Ef vöru úr vörulista ytri lánardrottinn hefur verið beðið um, ekki er hæ
 
 - [Viðbætur cXML-innkaupa](purchasing-cxml-enhancements.md)
 - [Nota ytri vörulista fyrir PunchOut e-procurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

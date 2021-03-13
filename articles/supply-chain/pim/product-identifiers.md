@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529187"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011370"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni
 
@@ -44,7 +43,7 @@ ms.locfileid: "4529187"
 
 Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
-Þegar þú notar Common Data Service, vörunúmerið í Supply Chain Management er einnig vörunúmerið í Common Data Service. Afurðarafbrigði eru samstillt við Common Data Service sem einkvæmar afurðir.
+Þegar Microsoft Dataverse er notað, er afurðarnúmerið í Supply Chain Management einnig afurðarnúmerið í Microsoft Dataverse. Afurðarafbrigði eru samstillt við Dataverse sem einkvæmar afurðir.
 
 ## <a name="item-number-and-product-dimensions"></a>Vörunúmer og afurðarvíddir
 
@@ -167,7 +166,7 @@ Eftirfarandi tafla veitir yfirlit yfir niðurstöður innflutnings og handvirkra
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Kenni afurðareiningar (Flytja út öll afurðarkenni)
 
-Kennilíkan afurðareiningar var stofnað til að gera útgáfu 1.0 af CDS kleift að vera úthlutað með öllum auðkennum sem eru notuð til að vísa í afurð. Til að einfalda þetta verk er öllum auðkennum safnað saman í eina altæka auðkennistöflu, svo að hægt sé að flytja þau út sem eitt líkan. Athugaðu að þessi útgáfa af CDS notar ekki kennilíkan afurðar. Þess vegna hefur einingin **Afurðareining auðkenniseiningar Common data service** og þetta ferli takmarkaða hagnýta notkun og mun líklega verða fyrir breytingum í framtíðinni.
+Kennilíkan afurðareiningar var stofnað til að gera útgáfu 1.0 af Dataverse kleift að vera úthlutað með öllum auðkennum sem eru notuð til að vísa í afurð. Til að einfalda þetta verk er öllum auðkennum safnað saman í eina altæka auðkennistöflu, svo að hægt sé að flytja þau út sem eitt líkan. Athugaðu að þessi útgáfa af Dataverse notar ekki kennilíkan afurðar. Þess vegna hefur einingin **Afurðareining auðkenniseiningar Common data service** og þetta ferli takmarkaða hagnýta notkun og mun líklega verða fyrir breytingum í framtíðinni.
 
 Auðkennistafla afurðar er altæk tafla sem er útfyllt af öllum tilvísanatöflum helstu lögaðila með endurtekinni runuvinnslu. Þú verður að velja lögaðila og tegundastigveldi afurðar sem skilgreiningu á umfangi alþjóðlegs afurðarsniðmáts. Myndun á altækri auðkennistöflu afurðar takmarkast við afurðir sem eru gefnar út til valinna lögaðila og afurða sem tilheyra afurðastigveldinu sem er valið fyrir hlutverkið **Common data service** í tegundastigveldi afurðar.
 
@@ -175,7 +174,7 @@ Auðkennistafla afurðar er altæk tafla sem er útfyllt af öllum tilvísanatö
 
 Fylgdu þessum skrefum til að grunnstilla umhverfið.
 
-1. Veldu tegundastigveldi fyrir CDS. Á síðunni **Tengsl hlutverka í tegundastigveldi**, ef engin stigveldi eru tengd við **Common data service**, verður þú að stofna nýja tengingu. Veldu hlutverkið **Common data service** og tengdu síðan tegundastigveldi afurðar sem sýnir afurðasafnið sem ætti að samstilla við CDS.
+1. Veldu tegundastigveldi fyrir Dataverse. Á síðunni **Tengsl hlutverka í tegundastigveldi**, ef engin stigveldi eru tengd við **Common data service**, verður þú að stofna nýja tengingu. Veldu hlutverkið **Common Data Service** og tengdu síðan tegundastigveldi afurðar sem sýnir afurðasafnið sem ætti að samstilla við Dataverse.
 2. Veldu lögaðilann fyrir alþjóðleg gögn afurðarsniðmáts. Á síðunni **Færibreytur afurðarupplýsingastjórnunar**, á flipanum **Afurðareigindir** skal velja aðalfyrirtækið þar sem kennum afurðar og vöru er fyrst og fremst viðhaldið.
 3. Skilgreindu gerðir auðkenniskóða og kóða sem á að flytja út. Farðu í **Afurðaupplýsingastjórnun** &gt; **Uppsetning** &gt; **Auðkenniskóðar afurðar**. Til að búa til gerðir auðkenniskóða skaltu velja **Búa til kóða**. Færsla kóðagerðar er búin til fyrir hverja gerð fyrir auðkenni sem er að finna í völdum lögaðilum.
 
@@ -190,6 +189,3 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 ## <a name="related-topic"></a>Tengt efni
 
 [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

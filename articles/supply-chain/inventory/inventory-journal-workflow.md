@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430091"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011673"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
@@ -31,6 +30,13 @@ ms.locfileid: "4430091"
 
 > [!NOTE]
 > Samþykktarverkflæði birgðabókar á aðeins við um færslur sem skráðar eru með birgðastjórnunareiningunni. Þau vinna ekki með birgðabækur sem ræsast í einingu vöruhúsakerfis.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Kveikið á eiginleika samþykktarverkflæði birgðabókar
+
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Birgða- og vöruhúsakerfi*
+- **Heiti eiginleika:** *Samþykktarverkflæði birgðabókar*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Búið til samþykktarverkflæði birgðabókar
 
@@ -112,6 +118,3 @@ Að yfirfara verkflæðissögu færslubókar:
 1. Á yfirlitssvæðinu skal útvíkka **Birgðastjórnun \> Færslubókarfærslur \> Vörur** og síðan velja birgðabókargerð.
 1. Opnið viðeigandi færslubók.
 1. Veljið hnappinn **Verkflæði** á aðgerðasvæðinu til að opna fellilistaglugga. Veldu **Verkflæðissaga**. Frekari upplýsingar er að finna á [Skoða verkflæðissögu](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

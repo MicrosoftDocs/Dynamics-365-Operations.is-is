@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 828dd1324c2692b7b3f4bc15c5e50b3dbee8b72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430216"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010923"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Samstilla upplýsingar um birgðastöðu úr Supply Chain Management við Field Service 
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
@@ -51,7 +52,7 @@ Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstilling við bi
 
 | Field Service                      | Birgðakeðjustjórnun                |
 |------------------------------------|----------------------------------------|
-| msdynce_externalproductinventories | CDS-birgðir á lager eftir vöruhúsi     |
+| msdynce_externalproductinventories | Dataverse birgðir á lager eftir vöruhúsi     |
 
 ## <a name="entity-flow"></a>Einingaflæði
 Upplýsingar um birgðastöðu úr Finance and Operations eru sendar til Field Service fyrir valdar afurðir. Upplýsingarnar um birgðastöðu fela í sér: 
@@ -91,6 +92,3 @@ Hægt er að nota síur með ítarlegri fyrirspurn og síun þannig að eingöng
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Vörubirgðir (Supply Chain Management við Field Service): Product inventory
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

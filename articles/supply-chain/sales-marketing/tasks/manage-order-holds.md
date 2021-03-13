@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans, MCRHoldCheckOutOverride, MCRHoldCodeTable, MCRItemListCopying, MCRItemListTable, MCROMHoldList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 27a5149812a8e478dae1d2385e6c139c9f635202
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430427"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010748"
 ---
 # <a name="manage-order-holds"></a>Stjórna pöntunum í bið
 
@@ -70,6 +69,3 @@ Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
     - Aðgerðin **Hreinsa og senda** á aðeins við þegar aðgerðin Símaver er notað.  
 8. Smelltu á **Hreinsa biðstöðu**. Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður. Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.     
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

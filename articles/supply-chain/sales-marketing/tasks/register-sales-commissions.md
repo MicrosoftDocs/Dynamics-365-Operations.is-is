@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher, CustClassificationGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57e3b95cb1f4a13b49ddcd336efaeabb12e5defc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4334fcd996f32b00bb399d3df5c43eb6bf50ab28
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430160"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010698"
 ---
 # <a name="register-sales-commissions"></a>Skrá söluþóknun
 
@@ -71,6 +70,3 @@ Athugið þær tölur viðskiptavina og vara sem voru valdar fyrir sölulaunafer
 3. Lokið síðunni.
 4. Veldu **Fylgiskjal**. Hægt er að skoða færslur fylgiskjala fyrir upphæðir sölulauna sem hafa verið bókaðar í forskilgreindu þóknunarkostnaður og þóknun lykla lánardrottna.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

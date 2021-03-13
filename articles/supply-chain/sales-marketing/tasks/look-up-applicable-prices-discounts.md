@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430134"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010773"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Fletta upp gildandi verði og afslætti
 
@@ -60,6 +59,3 @@ Gangið úr skugga um að svæðið viðskiptavinalykill innihaldi númer viðsk
     * Það eru tvær línuafsláttarsamninga fyrir afurða T0012, sem tilgreina 5 prósent afslátt í fyrir pöntunarmagn línu frá 1 til 10, og 7 prósent afsláttur fyrir magn yfir 10. Athugaðu að afslættir gilda um hóp afurða, í þessu dæmi, flokkskóði 01 sem afurðin T0012 tilheyrir.  
 4. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
