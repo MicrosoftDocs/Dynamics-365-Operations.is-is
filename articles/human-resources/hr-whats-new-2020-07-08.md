@@ -1,8 +1,8 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources (08. júlí 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 8. júlí 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528474"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130398"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (8. júlí 2020)
 
@@ -71,9 +71,9 @@ Stofnaðir og breyttir reitir kerfisins eru nú virkir í töflunni **WorkCalend
 
 Þessi útgáfa leiðréttir villu (núlltilvísun) í einfaldaðri starfsmannafærslu þegar starfsmaður er ráðinn með því að nota valmöguleikann **Ráða og bæta við upplýsingum**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Breytingar sem gerðar eru í Common Data Service starfsmannaeiningunni koma ekki fram í Mannauðnum (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Breytingar sem gerðar eru í Dataverse starfsmannaeiningunni koma ekki fram í Mannauðnum (455652)
 
-Breytingar sem gerðar eru á eftirfarandi reitum í einingunni **Starfsmaður** í Common Data Service birtast nú í Mannauð:
+Breytingar sem gerðar eru á eftirfarandi reitum í einingunni **Starfsmaður** í Dataverse birtast nú í Mannauð:
 
 - **Vinnur heima**
 - **Starfsaldursdagsetning**
@@ -131,9 +131,9 @@ DMF-eining er ekki til staðar fyrir uppsöfnun í bið.
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Einingar gátlista innifaldar í Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Einingar gátlista innifaldar í Dataverse
 
-Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Common Data Service.
+Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Dataverse.
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -141,6 +141,3 @@ Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir ve
 [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

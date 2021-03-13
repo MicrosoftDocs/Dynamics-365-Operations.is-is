@@ -1,5 +1,5 @@
 ---
-title: Flytja inn gögn frá Excel-gagnaeiningasniðmátum sem eru með mörgum vinnublöðum
+title: Gagnasniðmát með mörgum vinnublöðum
 description: Þetta efnisatriði lýsir því hvernig skal flytja gögn með því að nota Excel gagnaeiningasniðmát inn í Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688080"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130582"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Flytja inn gögn frá Excel-gagnaeiningasniðmátum sem eru með mörgum vinnublöðum
+# <a name="data-templates-with-multiple-worksheets"></a>Gagnasniðmát með mörgum vinnublöðum
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Vörpun vinnublaðsins til gagnaeiningar í innflutningsverkinu er hægt að fes
 ## <a name="upload-a-file-using-run-project"></a>Hlaða upp skrá með því að nota Keyra verk
 
 Þú getur hlaðið upp Excel-skrá meðan þú notar **Keyra verk** valmöguleikann til að framkvæma innflutningsverk. Þú verður að gæta þess að hlaða aðeins upp skrám sem eru með sömu vinnublaði og fyrirliggjandi varpanir á gagnaeiningarnar í gagnaverkinu. Ef vinnublað er ekki að finna í skránni sem nýlega var hlaðið upp, birtir kerfið villu og stoppar innflutning. Ef breyta verður vörpunin á vinnublaðið fyrir einingu, þá verður að uppfæra varpanirnar í gagnaverkinu fyrst innan frá gagnaverkinu, áður en þú notar skrána í **Keyra verk** upplifuninni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

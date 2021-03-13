@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri
-description: Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir.
+description: Þetta efnisatriði lýsir ákvörðunum sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp fjárhagsvíddir og aðallykla.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680483"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127648"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri
 
@@ -38,6 +38,3 @@ Fjárhagsvíddir og aðallykla eru lykilíhluti í áætlunaráfanginn við innl
 - Komast hjá því að nota valda skiltákn bókhaldslykils í gildum fjárhagsvíddar og aðallykilinn.
 
 Með því að fara eftir Eftirfarandi bestu venjur, hjálpa til við tryggja samræmda framsetningu notandaskilgreint röðun í kerfinu.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

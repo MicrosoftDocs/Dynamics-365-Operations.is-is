@@ -1,8 +1,8 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (03. febrúar 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 3. febrúar 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527003"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128138"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (3. febrúar 2020)
 
@@ -45,7 +45,7 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
+Nýtt Dataverse lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
 
 | Lýsing | Skiptimynt |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | Nýir uppsetningaraðilar breytilegra bóta | **Fyrirkomulagsgerð breytilegra uppbóta**</br>**Fyrirkomulag breytilegra uppbóta**</br>**Veitireglur**</br>**Fyrirkomulagsstig breytilegra uppbóta** |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | **Vinnudagatalseining** bætt við |
 | Ný eining **Upplýsinga um launastöðu** | **Upplýsingar um launastöðu** bætt við |
-| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Common Data Service. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
+| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Dataverse. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -65,6 +65,3 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

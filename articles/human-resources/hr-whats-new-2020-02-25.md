@@ -1,8 +1,8 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (25. febrúar 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 25. febrúar 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4faecb83518f3ef8af825872abc2a6ffb94162fc
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526811"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128023"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (25. febrúar 2020)
 
@@ -55,15 +55,15 @@ Með þessari breytingu birtist viðvörun þegar þú reynir að eyða stöðu 
 
 Þessi breyting leiðréttir vandamál þar sem fleiri þátttakendur vegna afskráningar bætast við frammistöðumatið.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Verkalýðsverkefni ekki búið til í Common Data Service þegar valið er í New Worker valmyndinni (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Verkalýðsverkefni ekki búið til í Dataverse þegar valið er í New Worker valmyndinni (413479)
 
-Þessi breyting leiðréttir mál þegar ráðinn er nýr starfsmaður og framselja nýja ráðninguna í stöðu í gegnum **Nýr starfsmaður** samtal. Nú endurspeglast stöðuúthlutunin Common Data Service.
+Þessi breyting leiðréttir mál þegar ráðinn er nýr starfsmaður og framselja nýja ráðninguna í stöðu í gegnum **Nýr starfsmaður** samtal. Nú endurspeglast stöðuúthlutunin Dataverse.
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-### <a name="updated-common-data-service-solution"></a>Uppfærð Common Data Service-lausn
+### <a name="updated-dataverse-solution"></a>Uppfærð Dataverse-lausn
 
-Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
+Nýtt Dataverse lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
 
 | Lýsing | Skiptimynt |
 | ----------------------------------------- | --- |
@@ -74,9 +74,9 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | Nýir uppsetningaraðilar breytilegra bóta | **Fyrirkomulagsgerð breytilegra uppbóta**</br>**Fyrirkomulag breytilegra uppbóta**</br>**Veitireglur**</br>**Fyrirkomulagsstig breytilegra uppbóta** |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | **Vinnudagatalseining** bætt við |
 | Ný eining **Upplýsinga um launastöðu** | **Upplýsingar um launastöðu** bætt við |
-| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Common Data Service. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
+| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Dataverse. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
 
-Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Common Data Service lausn fyrir Human Resources:
+Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Dataverse lausn fyrir Human Resources:
 
 1.  Farðu í [Power Platform Stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
@@ -106,5 +106,3 @@ Eftirfarandi forskoðunaraðgerðir urðu fáanlegar 3. febrúar 2020:
 [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

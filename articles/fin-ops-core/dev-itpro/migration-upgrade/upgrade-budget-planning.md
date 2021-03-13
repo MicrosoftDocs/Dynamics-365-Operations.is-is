@@ -1,7 +1,7 @@
 ---
 title: Uppfæra fjárhagsáætlunargerð
-description: Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Dynamics 365 Finance. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.
-author: ryansandness
+description: Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.
+author: panolte
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -13,15 +13,15 @@ ms.reviewer: sericks
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1c62771170212039112c777e55d45a0d88d2f49d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1b1ac233feb124fea261f65f16656fea1ac2ae37
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680999"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127180"
 ---
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
@@ -162,6 +162,3 @@ Nokkrum gagnaeiningum hefur verið bætt við til að virkja skjót innleiðingu
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

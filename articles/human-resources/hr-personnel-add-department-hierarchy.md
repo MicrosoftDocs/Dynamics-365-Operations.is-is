@@ -2,7 +2,7 @@
 title: Stofna deildir og setja þær inn í deildastigveldið
 description: Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði. Hægt er að nota deildir til að gefa skýrslur um virk svið. Deildir gætu haft ábyrgðarsvið fyrir hagnað og tap.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab9d16c8b8596f0890e0256f33608fda99a5312f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418957"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130374"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Stofna deildir og setja þær inn í deildastigveldið
 
@@ -54,6 +54,3 @@ Til að bæta deild við stigveldi deildar, skal fylgja þessum skrefum:
 
 ## <a name="steps-for-creating-a-department"></a>Skref til að búa til deild
 Sjá greinina [Skilgreina nýjar deildir](../fin-and-ops/hr/tasks/define-new-departments.md) fyrir skref fyrir skref aðferð til að búa til nýja deild. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

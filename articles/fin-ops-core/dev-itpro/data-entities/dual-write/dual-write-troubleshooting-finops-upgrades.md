@@ -1,5 +1,5 @@
 ---
-title: Úrræðaleit vandamál sem tengjast uppfærslu á forritum Finance and Operations
+title: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
 description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál sem tengjast uppfærslu á forritum Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683600"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131222"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamál sem tengjast uppfærslu á forritum Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "4683600"
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
-Þú gætir fengið villuboð sem líkjast eftirfarandi dæmi þegar þú reynir að nota eininguna **DualWriteProjectConfiguration** til að uppfæra forrit Finance and Operations í verkvangs uppfærslu 30.
+Þú gætir fengið villuboð sem líkjast eftirfarandi dæmi þegar þú reynir að nota töfluna **DualWriteProjectConfiguration** til að uppfæra forrit Finance and Operations í verkvangs uppfærslu 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 8. Veldu **Samstilla** til að gera fulla samstillingu gagnagrunnsins.
 9. Eftir að samstilling gagnagrunnsins hefur náðst að fullu skaltu endurtaka samstillingu gagnagrunnsins Microsoft Dynamics Lifecycle Services (LCS) og notaðu handvirka uppfærsluhandritin eftir því sem við á, svo þú getir haldið áfram með uppfærsluna.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Reitir sem vantar einingar á kortum
+## <a name="missing-table-columns-issue-on-maps"></a>Vandamál með töfludálka sem vantar á kort
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
@@ -70,27 +70,24 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 *Upprunareitur sem vantar \<field name\> í skemanu.*
 
-![Dæmi um villuboð vantar upprunasvið](media/error_missing_field.png)
+![Dæmi um villuboð vantar upprunadálk](media/error_missing_field.png)
 
-Til að laga málið, fylgdu fyrst þessum skrefum til að ganga úr skugga um að reitirnir séu í einingunni.
+Til að laga málið skaltu fyrst fylgja þessum skrefum til að ganga úr skugga um að dálkarnir séu í töflunni.
 
 1. Skráðu þig inn á VM fyrir forrit Finance and Operations.
-2. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu reitinn **Færibreytur ramma** og síðan á flipanum **Töflustillingar** skaltu velja **Uppfæra einingalista** til að uppfæra töflurnar.
-3. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu flipann **Gagnatöflur** og gakktu úr skugga um að einingin sé skráð. Ef einingin er ekki skráð skaltu skrá þig inn á VM fyrir forrit Finance and Operations og gakktu úr skugga um að einingin sé tiltæk.
+2. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu reitinn **Færibreytur ramma** og síðan á flipanum **Töflustillingar** skaltu velja **Uppfæra töflulista** til að uppfæra töflurnar.
+3. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu flipann **Gagnatöflur** og gakktu úr skugga um að taflan sé skráð. Ef taflan er ekki skráð skaltu skrá þig inn á VM fyrir forrit Finance and Operations og ganga úr skugga um að taflan sé tiltæk.
 4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
-5. Veldu **Uppfæra einingalista** til að fylla sjálfkrafa út svæðin í vörpunum töflu.
+5. Veldu **Uppfæra töflulista** til að fylla sjálfkrafa út reitina í töfluvörpunum.
 
 Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
 
 > [!IMPORTANT]
-> Þessi skref leiðbeina þér í gegnum ferlið við að eyða einingu og bæta henni síðan við aftur. Vertu viss um að fylgja leiðbeiningunum nákvæmlega til að forðast vandamál.
+> Þessi skref leiðbeina þér í gegnum ferlið við að eyða töflu og bæta henni síðan við aftur. Vertu viss um að fylgja leiðbeiningunum nákvæmlega til að forðast vandamál.
 
 1. Í Finance and Operations -forritinu skal opna **Vinnusvæði \> Gagnastjórnun** og velja reitinn **Gagnatöflur**.
-2. Finndu eininguna sem vantar eigindina. Smelltu á **Breyta markvörpun** á tækjastikunni.
+2. Finnið töfluna sem vantar eigindina. Smelltu á **Breyta markvörpun** á tækjastikunni.
 3. Á **Varpa sviðsetningu á mark** svæðinu skaltu smella á **Búa til vörpun**.
 4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
 5. Ef vörpunin býr ekki sjálfkrafa til eigindina skaltu bæta henni við með því að smella á **Bæta við eigind** hnappinn og svo **Vista**. 
 6. Veldu vörpunina og smelltu á **Keyra**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

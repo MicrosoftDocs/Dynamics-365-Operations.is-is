@@ -2,7 +2,7 @@
 title: Velkomin(n) í Dynamics 365 Human Resources
 description: Dynamics 365 Human Resources veitir vinnuafls innsýn sem þú þarft til að byggja upp upplifun starfsmanna á mörgum sviðum.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529781"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129545"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>Velkomin(n) í Dynamics 365 Human Resources
 
@@ -61,7 +61,7 @@ Human Resources tengir fólk og rekstrargögn til að hjálpa þér að hámarka
 
 [Yfirlit](hr-developer-overview.md)</br>
 [Stækka með Power Apps og Power Automate](hr-developer-power-apps.md)</br>
-[Einingar Human Resources í Common Data Service](hr-developer-entities.md)</br>
+[Einingar Human Resources í Dataverse](hr-developer-entities.md)</br>
 [Sérstilltir reitir](hr-developer-custom-fields.md)</br>
 [Setja upp samþættingu gagna](hr-admin-integration-choose-technology.md)</br>
 [Einingartilvísun API](hr-developer-api-authentication.md)
@@ -78,6 +78,3 @@ Human Resources tengir fólk og rekstrargögn til að hjálpa þér að hámarka
 [Vinna með leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
 [Þróa starfsmenn](hr-develop-performance-management-overview.md)</br>
 [Stofna námskeið](hr-learning-courses.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

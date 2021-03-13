@@ -1,6 +1,6 @@
 ---
-title: Tvöfaldur skrifa uppsetning frá Lifecycle Services
-description: Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).
+title: Uppsetning tvöfaldra skrifa úr Lifecycle Services
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp tengingu tvöfaldrar skráningar úr Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683525"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127594"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Tvöfaldur skrifa uppsetning frá Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
     - Ef umhverfið Dataverse er þegar veitt fyrir leigjanda þinn getur þú valið það.
 
         1. Stillið valkostinn **Stilla Dataverse** á **Já**.
-        2. Í reitnum **Aðgengilegt umhverfi** velurðu umhverfið sem á að samþætta við Finance and Operations-gögnin þín. Listinn inniheldur öll umhverfi þar sem þú hefur stjórnunarréttindi.
+        2. Í dálkinum **Tiltæk umhverfi** skal velja umhverfið sem á að samþætta við Finance and Operations gögnin. Listinn inniheldur öll umhverfi þar sem þú hefur stjórnunarréttindi.
         3. Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.
 
         ![Flipinn Dataverse þegar umhverfið Dataverse er þegar veitt fyrir leigjandann](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
         ![Dataverse flipann þegar leigjandi þinn er ekki þegar með Dataverse umhverfi](../dual-write/media/lcs_setup_2.png)
 
 7. Ljúktu við eftirstandandi skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.
-8. Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar. Hlutinn **Dataverse upplýsingar um umhverfi** sýnir nöfn í Finance and Operations umhverfi og Dataverse umhverfi sem eru tengd.
+8. Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar. Kaflinn **Power Platform Samþætting** sýnir heiti Finance and Operations umhverfisins og Dataverse umhverfis sem er tengt.
 
-    ![Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_3.png)
+    ![Power Platform Hluti samþættingar](../dual-write/media/lcs_setup_3.png)
 
 9. Stjórnandi í Finance and Operations umhverfi verður að skrá sig inn á LCS og velja **Hlekkur á CDS fyrir forrit** til að ljúka við tengilinn. Umhverfisupplýsingasíðan sýnir upplýsingar um tengilið stjórnanda.
 
@@ -86,10 +84,8 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 
 10. Til að opna vinnusvæðið **Sameining gagna** í Finance and Operations umhverfi og stjórna sniðmátunum sem eru í boði, veldu **Hlekkur á CDS fyrir forrit**.
 
-    ![Hlekkur á hnappinn CDS for Apps í Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_4.png)
+    ![Tengill á CDS fyrir forritahnapp í Power Platform samþættingarhlutanum](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Þróa áætlun um röðun starfsmanna
-description: Eftir því sem fyrirtækið stækkar og þú ferð að íhuga ráðningu eftirmanna ættirðu að reyna að finna einhvern sem hefur svipaða hæfni við annan einstakling.
+description: Eftir því sem fyrirtækið vex þarf að huga að röðunaráætlun.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,55 +11,48 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 203dbc5463bfcc4249e9ed73802a9a1fc153f260
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418959"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130206"
 ---
-# <a name="develop-succession-plan"></a>Þróa áætlun um röðun starfsmanna
+# <a name="develop-a-succession-plan"></a>Þróa áætlun um röðun starfsmanna
 
+Eftir því sem fyrirtækið vex þarf að huga að röðunaráætlun. Við gerð áætlunar um röðun gæti verið sniðugt að finna einhvern sem er með svipaða hæfni og annar einstaklingur. Hæfnisskrá gerir kleift að greina fyrirliggjandi starfsmönnum og umsækjendum til að sjá ef þær passi við hæfnisafn vel metins starfsmanns. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-
-Eftir því sem fyrirtækið stækkar og þú ferð að íhuga ráðningu eftirmanna ættirðu að reyna að finna einhvern sem hefur svipaða hæfni við annan einstakling.  Hæfnisskrá gerir kleift að greina fyrirliggjandi starfsmönnum og umsækjendum til að sjá ef þær passi við hæfnisafn vel metins starfsmanns. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
-
-1. Farið í Mannauður > Hæfni > Hæfnigreining > Forstillingar hæfnisskráningar.
-2. Smellið á „Nýtt“.
-3. Í svæðinu hæfnisskrá, færið inn heiti fyrir þitt hæfnisskrá.  Dæmi: Starfsmanns.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Dagsetning er rituð í reitinn Dagetning.
-6. Smellt er á sækja forstilling.
-7. Smellt er á Einstakling.
-8. Færa skal inn heiti í svæðinu Einstaklings, eða velja fellilista.  Dæmi: Cassie Hicks.
-9. Smellt er á Í lagi.
-10. Útvíkkaðu skírteini flýtiflipa til að skoða eða breyta skírteinum sem eru teknar með í hæfnisskrá.
-11. Víkka flýtiflipann Hæfni til að skoða eða breyta hæfni sem fylgja eiga með.
-12. Merktu fyrstu röðina á listanum.  Dæmi: bókhald
-13. Smellt er á gátreitinn Valfrjálst.
-14. Í reitnum Mikilvægi skal velja valkost.
-    * Þegar hæfni er merkt sem valfrjáls þarf að velja mikilvægi hæfninnar.  
+1. Farið í **Mannauður > Hæfni > Hæfnigreining > Forstillingar hæfnisskráningar**.
+2. Veljið **Nýtt**.
+3. Í svæðinu **hæfnisskrá**, færið inn heiti fyrir þitt hæfnisskrá. Dæmi: Starfsmanns.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. í retinum **Dagsetning** ritarðu dagsetningu.
+6. Veljið **Sækja forstillingu**.
+7. Velja **Einstaklingur**.
+8. Færa skal inn heiti í svæðinu **Einstaklingur**, eða velja fellilista.
+9. Veljið **Í lagi**.
+10. Útvíkkaðu **skírteini** flýtiflipa til að skoða eða breyta skírteinum sem eru teknar með í hæfnisskrá.
+11. Víkka flýtiflipann **Hæfni** til að skoða eða breyta hæfni sem fylgja eiga með.
+12. Merktu fyrstu röðina á listanum. Dæmi: bókhald.
+13. Gátreiturinn **Valfrjálst** er valinn.
+14. Í reitnum **Mikilvægi** skal velja valkost. Þegar hæfni er merkt sem valfrjáls þarf að velja mikilvægi hæfninnar.  
 15. Í listanum skal velja línu 2.
-16. Smellt er á gátreitinn Valfrjálst.
-17. Í reitnum Mikilvægi skal velja valkost.
+16. Gátreiturinn **Valfrjálst** er valinn.
+17. Í reitnum **Mikilvægi** skal velja valkost.
 18. Í listanum skal velja línu 3.
-19. Smellt er á gátreitinn Valfrjálst.
-20. Í reitnum Mikilvægi skal velja valkost.
+19. Gátreiturinn **Valfrjálst** er valinn.
+20. Í reitnum **Mikilvægi** skal velja valkost.
 21. Í listanum skal velja línu 4.
-22. Smellt er á gátreitinn Valfrjálst.
+22. Gátreiturinn **Valfrjálst** er valinn.
 23. Í reitnum Mikilvægi skal velja valkost.
-24. Víkka flýtiflipann Menntun til að skoða eða breyta menntunarskilyrðum sem skal hafa með í hæfnisskrá.
-25. Smelltu á Keyra.
-26. Smellið á „Í lagi“.
-27. Smelltu á Niðurstöður.
-28. Smellið á Skýrsluna.
-    * Skýrslan verður að birta besta samsvörun efst á skýrslunni.  Þú getur séð að eyða kemur fram á listanum.  Það er mismunurinn á stigi sem var skráð á hæfnisskrá og stig hæfninnar sem er úthlutað á þann einstakling.  
+24. Víkka flýtiflipann **Menntun** til að skoða eða breyta menntunarskilyrðum sem skal hafa með í hæfnisskrá.
+25. Veljið **Framkvæma**.
+26. Veljið **Í lagi**.
+27. Veldu **Niðurstöður**.
+28. Velja **skýrslu**. Skýrslan birtir bestu samsvaranir efst í skýrslunni. Hægt er að sjá bileiningu. Bil er munurinn á milli stigs hæfnivörpunar og hæfnisstigs einstaklingsins.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

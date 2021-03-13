@@ -1,6 +1,6 @@
 ---
 title: Uppfæra færslubækur með eitt fylgiskjal og endurmat á gjaldmiðli
-description: Sum fyrirtæki nota færslubækur sem innihalda eitt fylgiskjal sem hefur fleiri en einn viðskiptavin eða lánardrottinn og keyra einnig endurmat á erlendum gjaldmiðli fyrir Viðskiptakröfur eða Viðskiptaskuldir. Þetta efnisatriði lýsir skrefunum sem þessi fyrirtæki ættu að fylgja þegar þau uppfæra í Microsoft Dynamics 365 for Operations útgáfu 1611.
+description: Þetta efni lýsir því hvernig eigi að uppfæra færslubækur með eitt fylgiskjal og endurmat á gjaldmiðli.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c06e54c5be8d0a410b9f15f2a89def3076b4638
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3504c01a4ed1571866fd2a0cd83eef86a57d684a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681025"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127304"
 ---
 # <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a>Uppfæra færslubækur með eitt fylgiskjal og endurmat á gjaldmiðli
 
@@ -34,6 +34,3 @@ Fylgið eftirfarandi skrefum þegar uppfært er í Microsoft Dynamics 365 for Op
 1.  Áður en uppfært er í Finance and Operations skal keyra endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur. Í reitnum **Aðferð** skal stilla á **Dagsetning reiknings**. Endurmatsfærsla er stofnuð sem bakfærir síðasta endurmat á erlendum gjaldmiðli. Því eru opnar færslur metnar eftir upprunalegum bókhaldsgjaldmiðli.
 2.  Uppfærðu í útgáfu 1611.
 3.  Keyra skal endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur aftur. Í þetta sinn skal stilla **Aðferð** á **Staðlað**. Ný endurmatsfærsla er stofnið sem byggir á gildandi gengi. Þessi færsla skráir óinnleystan hagnað/tap og réttan samantektarlykil fjárhags.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

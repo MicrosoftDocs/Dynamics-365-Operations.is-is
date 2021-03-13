@@ -1,6 +1,6 @@
 ---
 title: Breyta sniðum til að búa til skjöl sem eru með forritsgögnum
-description: 'Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 3: Breyta líkani og vörpun)“.'
+description: Í þessu efni er útskýrt hvernig á að hanna skilgreiningar skýrslugerðar til að mynda rafrænt skjal og uppfæra forritsgögn.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684548"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129398"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Breyta sniðum til að búa til skjöl sem eru með forritsgögnum
 
@@ -149,6 +149,3 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 46. Lokið síðunni.
 47. Lokið síðunni.
 48. Lokið síðunni.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

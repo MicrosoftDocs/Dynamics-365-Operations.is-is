@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4444579"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131006"
 ---
 # <a name="set-up-lease-books"></a>Setja upp leigubækur
 
@@ -53,6 +52,4 @@ Fylgdu þessum skrefum til að búa til leigubók.
     | Skammtímaþröskuldur                     | Sláið inn fjölda mánaða sem á að nota sem mörk fyrir skammtímaleigur. Ef leigutíminn er styttri en eða jafnt og mánaðarfjöldinn sem færður er inn hér, flokkar kerfið leigusamninginn sem skammtímaleigusamning og aðferðin frestaðar leigugreiðslur verður notuð. |
     | Mörk verðlítillar eignar                      | Færa skal inn upphæð sem á að nota sem þröskuld fyrir leigu verðlítillar eignar. Ef gangvirði eignar er jafnt og eða minna en gildi sem er slegið inn hér mun kerfið flokka leigusamninginn sem verðlítinn og frestaðar leigugreiðslur verða notaðar. |
     | Greiða lánardrottni                            | Stillið þennan valkost á **Yes** til að leyfa bókun leigugreiðslna sem reiknings á lánardrottnalykil sem tilgreindur er í hverjum leigusamningi. Þegar leigugreiðsla er bókuð verður lánardrottnalykill kreditfærður. Ef þessi valkostur er stilltur á **Nei**, verður lykillinn sem er tilgreindur fyrir bókunargerðina **Leigugreiðsla** á síðunni **Færibreytur bókunargerðar** kreditfærður þess í stað. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | Reglur leigusamnings                       | Velja hefð samninginn fyrir upphafstíma leigu:<ul><li><b>Ekkert</b> – nota upphafsdagsetningu leigu sem upphafsdagsetningu.</li><li><b>Heill mánuður</b> - Notið fyrsta dag mánaðarins sem upphafsdag sem leigusamningingur fellur undir.</li></ul><p>Ef <b>Ekkert</b> er valið er hætta á að skuldfærðar afskriftir og afskriftaráætlanir eigna muni safnast upp og bóka útgjöld í miðjum mánuðinum í stað mánaðarloka. Með því að velja <b>Heill mánuður</b> er tryggt að kerfið byrji að gera grein fyrir leigunni á fyrsta degi mánaðarins og að kostnaður fyrir heilan mánuð verði uppsafnaður og bókaður á síðasta degi mánaðarins.</p><p><strong>Athugið:</strong> Það verður að kveikja á eiginleikanum fyrir viðteknar reglur leigusamninga í gegnum eiginleikastjórnun. Á vinnusvæðinu <b>Eiginleikastjórnun</b> skal finna og velja eiginleikann sem heitir <b>Viðtekin regla leigusamnings fyrir eignarleigu</b> og velja því næst <b>Virkja núna</b>.</p> |

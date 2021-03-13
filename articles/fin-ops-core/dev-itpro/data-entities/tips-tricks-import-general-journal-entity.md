@@ -1,5 +1,5 @@
 ---
-title: Bestu starfsvenjur fyrir innflutning fylgiskjala með því að nota einingu almennrar færslubókar
+title: Innflutningur fylgiskjala með því að nota einingu almennrar færslubókar
 description: Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687644"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129600"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bestu starfsvenjur fyrir innflutning fylgiskjala með því að nota einingu almennrar færslubókar
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Innflutningur fylgiskjala með því að nota einingu almennrar færslubókar
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ Eftirfarandi hlutar lýsa áhrifum þessara stillinga. Þeir útskýra einnig hv
 - Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð** stilling fyrir reitinn **Fylgiskjalsnúmer** er ekki studd.
 
 Sjálfgefið er að Eining Almennrar færslubókar noti samstæðubyggð úrvinnsla. Eftir að þú metur viðskiptaþarfir í þínu fyrirtæki, er hægt að breyta **samstæðubyggð úrvinnsla** stillingu með því að smella á **gagnaeiningar** í á **gagnastjórnun** vinnusvæði. Samstæðubyggð úrvinnsla er notuð til að flýta innflutningsferlinu. Ef þú notar ekki samstæðubyggð úrvinnsla, verður innflutningur einingar Almennrar færslubókar hægvirkari.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

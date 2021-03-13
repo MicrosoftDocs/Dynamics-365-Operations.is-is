@@ -2,7 +2,7 @@
 title: Skoða og vinna með aðsetursbreytingar
 description: Þetta efnisatriði útskýrir hvernig hægt er að skoða og hafa umsjón með breytingum á aðsetri í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418968"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152054"
 ---
 # <a name="view-and-manage-address-changes"></a>Skoða og vinna með aðsetursbreytingar
 
@@ -125,9 +125,6 @@ Starfsmaður mannauðsmála getur skoðað og fylgst með breytingum á aðsetri
 Þegar reiturinn **Breytingar á aðsetri** er valinn, sýnir ný síða upplýsingarnar um allar breytingar á aðsetri. Hægt er að velja **Hafa seinni tíma breytingar á aðsetri með** ofarlega í hægra horninu til að sýna breytingar á aðsetri með dagsetningu fram í tímann.
 
 > [!NOTE]
-> Ef óskað er eftir að fá tilkynningu eða tölvupóst um þessar breytingar á aðsetri, er hægt að stofna nýja tilkynningarreglu í flipanum **Valkostir** á aðgerðasvæðinu. Frekari upplýsingar um tilkynningarreglur er að finna í [Stofna tilkynningarreglur](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Ef óskað er eftir að fá tilkynningu eða tölvupóst um þessar breytingar á aðsetri, er hægt að stofna nýja tilkynningarreglu í flipanum **Valkostir** á aðgerðasvæðinu. Frekari upplýsingar um tilkynningarreglur er að finna í [Stofna tilkynningarreglur](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Ef ætlunin er að skilgreina verkflæði fyrir breytingar á aðsetri er hægt að velja valkostinn **Senda út á við** í tilkynningarreglunni og nota síðan Power Automate til að kveikja á viðskiptatilvikinu og skilgreina verkflæði. Frekari upplýsingar er að finna í [Tilkynningar sem viðskiptatilvik](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Ef ætlunin er að skilgreina verkflæði fyrir breytingar á aðsetri er hægt að velja valkostinn **Senda út á við** í tilkynningarreglunni og nota síðan Power Automate til að kveikja á viðskiptatilvikinu og skilgreina verkflæði. Frekari upplýsingar er að finna í [Tilkynningar sem viðskiptatilvik](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

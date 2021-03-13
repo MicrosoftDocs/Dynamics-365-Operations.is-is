@@ -1,9 +1,9 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (13. apríl 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 13. apríl 2020.
-author: Darinkramer
-manager: AnnBe
-ms.date: 4/13/2020
+author: andreabichsel
+manager: tfehr
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 3afc112f8a30bb187fbe37c9062afe7943e986ec
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528522"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127898"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (13. apríl 2020)
 
@@ -43,9 +43,9 @@ Með þessari breytingu er reiturinn **Sléttunarnákvæmni** nú tiltækur efti
 
 Þú getur nú breytt lokadagsetningu skráningar án þess að fá villuna „Fylla verður út reitinn Grundvöllur uppsöfnunardags”.
 
-## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>Starfseiningin samstillist ekki við Common Data Service (430834)
+## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>Starfseiningin samstillist ekki við Dataverse (430834)
 
-Þessi breyting leiðréttir vandamál þar sem starfsgögn samstilltust ekki við Common Data Service þegar fjárhagsvíddum hefur verið bætt við. 
+Þessi breyting leiðréttir vandamál þar sem starfsgögn samstilltust ekki við Dataverse þegar fjárhagsvíddum hefur verið bætt við. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>Fjarlægja fjölyfireiningar fyrir eininguna Tímabil vinnudagatals (431775)
 
@@ -97,5 +97,3 @@ Ef forskoðun skjals fyrir skjöl sem eru vistuð í SharePoint virkar ekki, pr�
 [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

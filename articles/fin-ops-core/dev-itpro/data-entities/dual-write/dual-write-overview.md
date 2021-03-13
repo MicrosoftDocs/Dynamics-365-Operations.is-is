@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir tvöfalt skriftarverk
-description: Þetta efni veitir yfirlit tvöföld skriftarverk. Tvöföld skriftarverk er grunngerð sem veitir nær rauntíma samskipti á milli Microsoft Dynamics 365 líkanaknúinna forrita og Finance and Operations forrita.
+title: Tvöföld skrif – yfirlit
+description: Þetta efnisatriði inniheldur yfirlit yfir tvöfalda skráningu sem býður upp á svo gott sem rauntímasamskipti á milli viðskiptvinaforita og Finance and Operations forrita.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685614"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130006"
 ---
-# <a name="dual-write-overview"></a>Yfirlit yfir tvöfalt skriftarverk
+# <a name="dual-write-overview"></a>Tvöföld skrif – yfirlit
 
 [!include [banner](../../includes/banner.md)]
 
@@ -53,7 +53,7 @@ Innbyggingin með tvískiptum skrifum er teygjanleg og áreiðanleg og inniheldu
 + Samsett yfirlit yfir verkþætti og villukladda fyrir gangastjórnendur
 + Geta til að stilla sérsniðnar viðvaranir og viðmiðunarmörk og gerast áskrifandi að tilkynningum
 + Leiðandi notendaviðmót (UI) fyrir síun og umbreytingu
-+ Geta til að stilla og skoða ósjálfstæði og sambönd eininga
++ Geta til að stilla og skoða töflutengsl og sambönd
 + Stækkunarhæfni fyrir bæði staðlaðar og sérsniðnar töflur og kort
 + Áreiðanleg stjórnun á líftíma forrits
 + Tilbúin uppsetningarupplifun viðskiptavina fyrir nýja viðskiptavini
@@ -93,7 +93,7 @@ Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Hvað þýða tvöföld skrif fyrir þróunaraðila og hönnuði forrita viðskiptavina?
 
-Tvöföld skrif gerir gagnaflæði á milli Finance and Operations forrita og forrit fyrir viðskiptavini sjálfvirk. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út einingarskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Fyrir árangursríka innleiðingu verða þróunaraðilar og hönnuðir forrita viðskiptavina að hafa skilning á þessum breytingum og vinna með viðkomandi í Finance and Operations-forritum.
+Tvöföld skrif gerir gagnaflæði á milli Finance and Operations forrita og forrit fyrir viðskiptavini sjálfvirk. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út töfluskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Fyrir árangursríka innleiðingu verða þróunaraðilar og hönnuðir forrita viðskiptavina að hafa skilning á þessum breytingum og vinna með viðkomandi í Finance and Operations-forritum.
 
 Ef búa á til samstæðu með Finance and Operations-forritum gera tvöföld skrif nauðsynlegar breytingar í Dataverse-skemanu. Ef ætlunin er að skilja áætlunina er hægt að koma í veg fyrir endurvinnslu tiltekinnar hönnunr og þróunar í framtíðinni.
 
@@ -103,12 +103,9 @@ Ef búa á til samstæðu með Finance and Operations-forritum gera tvöföld sk
 
 + Til að koma í veg fyrir gagnatap við flutning á milli Finance and Operations-forrita og Dataverse, er hægt að útvíkka fjölda aukastafa í gagnagerð gjaldmiðils fyrir forrit viðskiptavina. Eiginleikinn þýðir sjálfkrafa fyrirliggjandi línur í nýja útvíkkaða stöðu á lýsigagnalagi. Í þessu ferli er gjaldmiðilsgildið þýtt með tugagögnum, frekar en peningagögnum, og gjaldmiðilsgildið styður 10 aukastafi. Velja þarf þennan eiginleiki er innskráður og fyrirtæki sem þurfa ekki meira en 4 aukastafi þurfa ekki að velja hann. Nánari upplýsingar er að finna í [Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif](currrency-decimal-places.md).
 
-+ [Dagsetningarvirkni](../../dev-tools/date-effectivity.md) verður bætt við Dataverse. Það styður gögn í fortíð, nútíð og framtíð í sömu einingu.
++ [Dagsetningarvirkni](../../dev-tools/date-effectivity.md) verður bætt við Dataverse. Það styður gögn í fortíð, nútíð og framtíð í sömu töflu.
 
 + [Umreikningur eininga](../../../../supply-chain/pim/tasks/manage-unit-measure.md) er studdur fyrir vörur, tilboð, pantanir og reikninga.
 
 Frekari upplýsingar um breytingar á næstunni er að finna í [Nýjungar eða breytingar í tvöföldum skrifum](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

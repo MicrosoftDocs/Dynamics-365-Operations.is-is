@@ -1,8 +1,8 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (18. febrúar 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 18. febrúar 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526979"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128066"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (18. febrúar 2020)
 
@@ -43,17 +43,17 @@ Nýi glugginn **Starfskraftur** man nú eftir leitargildum þegar þú breytir s
 
 Fastir og breytilegir reitir fyrir launastjórnun sýna nú réttar skrár í nýja eyðublaðinu **Starfskraftur**. Gildir aðeins um straumlínulagaða forskoðunareiginleika starfsmanna. Þú getur gert þennan forskoðunareiginleika virkan í **Stjórnun eiginleika**. Frekari upplýsingar eru í [Stjórna eiginleikum](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Tómur stöðureitur fyrir sumar skráningar vegna leyfisbeiðna í Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Tómur stöðureitur fyrir sumar skráningar vegna leyfisbeiðna í Dataverse (414915)
 
-Þessi breyting leiðréttir mál í Common Data Service þegar reiturinn **Staða** í leyfisbeiðni er stilltur á **Endurskoðun**. Common Data Service endurspeglar nú stöðuna.
+Þessi breyting leiðréttir mál í Dataverse þegar reiturinn **Staða** í leyfisbeiðni er stilltur á **Endurskoðun**. Dataverse endurspeglar nú stöðuna.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Hæfnigreining aðeins möguleg fyrir úthlutað starf (411390)
 
 Þú getur nú gert hæfnigreiningar í hverju starfi sem skilgreint er í Human Resources.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Kerfisgjaldmiðill er ekki samstillt úr Common Data Service í Human Resources í nýju umhverfi (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Kerfisgjaldmiðill er ekki samstillt úr Dataverse í Human Resources í nýju umhverfi (418011)
 
-Kerfisgjaldmiðill í Common Data Service getur núna samstillt sig við Human Resources.
+Kerfisgjaldmiðill í Dataverse getur núna samstillt sig við Human Resources.
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
 
@@ -63,9 +63,9 @@ Kerfisgjaldmiðill í Common Data Service getur núna samstillt sig við Human R
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-### <a name="updated-common-data-service-solution"></a>Uppfærð Common Data Service-lausn
+### <a name="updated-dataverse-solution"></a>Uppfærð Dataverse-lausn
 
-Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
+Nýtt Dataverse lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
 
 | Lýsing | Skiptimynt |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | Nýir uppsetningaraðilar breytilegra bóta | **Fyrirkomulagsgerð breytilegra uppbóta**</br>**Fyrirkomulag breytilegra uppbóta**</br>**Veitireglur**</br>**Fyrirkomulagsstig breytilegra uppbóta** |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | **Vinnudagatalseining** bætt við |
 | Ný eining **Upplýsinga um launastöðu** | **Upplýsingar um launastöðu** bætt við |
-| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Common Data Service. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
+| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Dataverse. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -84,5 +84,3 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
