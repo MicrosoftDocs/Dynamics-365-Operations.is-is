@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70713fb25584e26f97bcb7c769da6954aa36b81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b8b3de89235c6dac52f059af9665ea70f80d83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4429996"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007793"
 ---
-# <a name="configuration-rules"></a><span data-ttu-id="80307-104">Afbrigðareglur</span><span class="sxs-lookup"><span data-stu-id="80307-104">Configuration rules</span></span>
+# <a name="configuration-rules"></a><span data-ttu-id="a5755-104">Afbrigðareglur</span><span class="sxs-lookup"><span data-stu-id="a5755-104">Configuration rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="80307-105">Þessi grein veitir almennar upplýsingar um skilgreiningarreglur.</span><span class="sxs-lookup"><span data-stu-id="80307-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="80307-106">Skilgreiningarreglur skilgreina tengsl milli þátta í uppskrift (BOM) fyrir vörur sem nota skilgreiningartækni byggða á víddum.</span><span class="sxs-lookup"><span data-stu-id="80307-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
+<span data-ttu-id="a5755-105">Þessi grein veitir almennar upplýsingar um skilgreiningarreglur.</span><span class="sxs-lookup"><span data-stu-id="a5755-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="a5755-106">Skilgreiningarreglur skilgreina tengsl milli þátta í uppskrift (BOM) fyrir vörur sem nota skilgreiningartækni byggða á víddum.</span><span class="sxs-lookup"><span data-stu-id="a5755-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 
-<span data-ttu-id="80307-107">Skilgreiningareglur eru tiltækar þegar skilgreiningarlíkön byggð á víddum eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="80307-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="80307-108">Skilgreiningarreglur eru notaðar til þess annað hvort að framfylgja eða koma í veg fyrir ákveðnar vörusamsetningar í uppskrift.</span><span class="sxs-lookup"><span data-stu-id="80307-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="80307-109">Eftir að uppskrift hefur verið stofnuð og viðeigandi atriðum hefur verið úthlutað í viðeigandi skilgreiningarflokka, er hægt að skilgreina eina eða fleiri skilgreiningareglur.</span><span class="sxs-lookup"><span data-stu-id="80307-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="80307-110">Ef tvö atriði tilheyra saman er virknitáknið **Velja** notað til að tryggja að þau verði tekin saman.</span><span class="sxs-lookup"><span data-stu-id="80307-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="80307-111">Ef tvö atriði útiloka hvort annað er virknitáknið **Afvelja** notað til að tryggja að þau verði ekki tekin saman.</span><span class="sxs-lookup"><span data-stu-id="80307-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
+<span data-ttu-id="a5755-107">Skilgreiningareglur eru tiltækar þegar skilgreiningarlíkön byggð á víddum eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="a5755-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="a5755-108">Skilgreiningarreglur eru notaðar til þess annað hvort að framfylgja eða koma í veg fyrir ákveðnar vörusamsetningar í uppskrift.</span><span class="sxs-lookup"><span data-stu-id="a5755-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="a5755-109">Eftir að uppskrift hefur verið stofnuð og viðeigandi atriðum hefur verið úthlutað í viðeigandi skilgreiningarflokka, er hægt að skilgreina eina eða fleiri skilgreiningareglur.</span><span class="sxs-lookup"><span data-stu-id="a5755-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="a5755-110">Ef tvö atriði tilheyra saman er virknitáknið **Velja** notað til að tryggja að þau verði tekin saman.</span><span class="sxs-lookup"><span data-stu-id="a5755-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="a5755-111">Ef tvö atriði útiloka hvort annað er virknitáknið **Afvelja** notað til að tryggja að þau verði ekki tekin saman.</span><span class="sxs-lookup"><span data-stu-id="a5755-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
 
-<span data-ttu-id="80307-112">**Ábending:** Þessar upplýsingar gilda aðeins í afurðarsniðmáti sem notar skilgreiningartækni byggða á víddum.</span><span class="sxs-lookup"><span data-stu-id="80307-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
+<span data-ttu-id="a5755-112">**Ábending:** Þessar upplýsingar gilda aðeins í afurðarsniðmáti sem notar skilgreiningartækni byggða á víddum.</span><span class="sxs-lookup"><span data-stu-id="a5755-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
 
-<span data-ttu-id="80307-113">Síðari breytingar á skilgreiningarreglum hafa ekki áhrif á fyrirliggjandi skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="80307-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="80307-114">Samt sem áður er mikilvægt að setja reglur áður en ný skilgreining er sett fram, og að athuga reglurnar°ef talið er að þeim gæti hafa verið breytt.</span><span class="sxs-lookup"><span data-stu-id="80307-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
+<span data-ttu-id="a5755-113">Síðari breytingar á skilgreiningarreglum hafa ekki áhrif á fyrirliggjandi skilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="a5755-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="a5755-114">Samt sem áður er mikilvægt að setja reglur áður en ný skilgreining er sett fram, og að athuga reglurnar°ef talið er að þeim gæti hafa verið breytt.</span><span class="sxs-lookup"><span data-stu-id="a5755-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
 
-<span data-ttu-id="80307-115">**Ábending:** Fyrir aðferðina **Velja** eru afleiddi skilgreiningaflokkurinn, vörunúmer og skilgreining sjálfkrafa valin.</span><span class="sxs-lookup"><span data-stu-id="80307-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="80307-116">Fyrir aðferðina **Afvelja** er ekki hægt að velja afleidda skilgreiningaflokkinn, vörunúmer og skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="80307-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
+<span data-ttu-id="a5755-115">**Ábending:** Fyrir aðferðina **Velja** eru afleiddi skilgreiningaflokkurinn, vörunúmer og skilgreining sjálfkrafa valin.</span><span class="sxs-lookup"><span data-stu-id="a5755-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="a5755-116">Fyrir aðferðina **Afvelja** er ekki hægt að velja afleidda skilgreiningaflokkinn, vörunúmer og skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="a5755-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="80307-117">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="80307-117">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="a5755-117">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="a5755-117">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="80307-118">Yfirlit yfir afurðarafbrigði sem byggja á víddum</span><span class="sxs-lookup"><span data-stu-id="80307-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
+[<span data-ttu-id="a5755-118">Yfirlit yfir afurðarafbrigði sem byggja á víddum</span><span class="sxs-lookup"><span data-stu-id="a5755-118">Dimension-based product configuration overview</span></span>](dimension-based-product-configuration.md)
 
 
 
