@@ -1,68 +1,68 @@
 ---
-title: Þróa og opna tilkynningar um lausar stöður
-description: Ráðningarverk hjálpa til við að stjórna ráðningarferlið.
+title: Stofna og opna starfsbeiðni
+description: Ráðningarverk aðstoða þig við að stjórna ráðningarferlinu.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+manager: tfehr
+ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418960"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129568"
 ---
-# <a name="develop-and-open-job-requisition"></a><span data-ttu-id="f9691-103">Þróa og opna tilkynningar um lausar stöður</span><span class="sxs-lookup"><span data-stu-id="f9691-103">Develop and open job requisition</span></span>
+# <a name="create-and-open-job-requisition"></a><span data-ttu-id="b5ca2-103">Stofna og opna starfsbeiðni</span><span class="sxs-lookup"><span data-stu-id="b5ca2-103">Create and open job requisition</span></span>
 
+<span data-ttu-id="b5ca2-104">Ráðningarverk aðstoða þig við að stjórna ráðningarferlinu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-104">Recruitment projects help you manage your recruiting process.</span></span> <span data-ttu-id="b5ca2-105">Þegar ráðningarverk er stofnað er hægt að gera eftirfarandi verk:</span><span class="sxs-lookup"><span data-stu-id="b5ca2-105">After creating a recruitment project, you can do the following tasks:</span></span>
 
+- <span data-ttu-id="b5ca2-106">Skrifa atvinnuauglýsingu fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-106">Write a job advertisement for the project.</span></span>
+- <span data-ttu-id="b5ca2-107">Birta auglýsinguna á sjálfsafgreiðslusíðum starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-107">Publish the ad on Employee self-service pages.</span></span>
+- <span data-ttu-id="b5ca2-108">Tengja forrit fyrir vinnu við verkið.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-108">Associate applications for employment with the project.</span></span>
+- <span data-ttu-id="b5ca2-109">Rekja verkþætti fyrir þetta verk.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-109">Track activities for that project.</span></span> 
 
-<span data-ttu-id="f9691-104">Ráðningarverk hjálpa til við að stjórna ráðningarferlið.</span><span class="sxs-lookup"><span data-stu-id="f9691-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="f9691-105">Fyrir hvert ráðningarverk, getur þú sett upp upplýsingar, svo sem verk sem ráðningu er fyrir, nafn ráðningaraðila, stöðu verkefnisins og deild sem starfið verður staðsett í.</span><span class="sxs-lookup"><span data-stu-id="f9691-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="f9691-106">Eftir stofnun ráðningarverks, er hægt skrifa atvinnuauglýsingu fyrir verkið, birta auglýsinguna í sjálfsafgreiðslusíðum Starfsmanna, tengja starfsumsóknir við verkið og rekja aðgerðir fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="f9691-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="f9691-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="f9691-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f9691-108">Til að hefja ferlið, farið í Mannauður > Ráðningar > Ráðningarverk > Ráðningarverk</span><span class="sxs-lookup"><span data-stu-id="f9691-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
-
-1. <span data-ttu-id="f9691-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="f9691-109">Click New.</span></span>
-2. <span data-ttu-id="f9691-110">Í svæðinu ráðningarverk, færið inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f9691-110">In the Recruitment project field, type a value.</span></span>
-3. <span data-ttu-id="f9691-111">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="f9691-111">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="f9691-112">Í reitnum Ráðningaraðili skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f9691-112">In the Recruiter field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="f9691-113">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f9691-113">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="f9691-114">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f9691-114">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="f9691-115">Smellið á Velja.</span><span class="sxs-lookup"><span data-stu-id="f9691-115">Click Select.</span></span>
-8. <span data-ttu-id="f9691-116">Í reitnum Deild skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f9691-116">In the Department field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="f9691-117">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f9691-117">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="f9691-118">Í reitnum Starf skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f9691-118">In the Job field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="f9691-119">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f9691-119">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="f9691-120">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f9691-120">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="f9691-121">Í svæðinu Fjölda opnana skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="f9691-121">In the Number of openings field, enter a number.</span></span>
-14. <span data-ttu-id="f9691-122">Í reitnum Ráðningarstjóri skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f9691-122">In the Hiring manager field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="f9691-123">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f9691-123">In the list, find and select the desired record.</span></span>
-16. <span data-ttu-id="f9691-124">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f9691-124">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="f9691-125">Smellið á Velja.</span><span class="sxs-lookup"><span data-stu-id="f9691-125">Click Select.</span></span>
-18. <span data-ttu-id="f9691-126">Færa inn dagsetningu í svæði umsóknarfrestur.</span><span class="sxs-lookup"><span data-stu-id="f9691-126">In the Application deadline field, enter a date.</span></span>
-19. <span data-ttu-id="f9691-127">Smellt er á Miðlar.</span><span class="sxs-lookup"><span data-stu-id="f9691-127">Click Media.</span></span>
-    * <span data-ttu-id="f9691-128">Ráðningarverk með valkost til að tilgreina miðla sem nota á til að auglýsa opnar stöður.</span><span class="sxs-lookup"><span data-stu-id="f9691-128">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
-20. <span data-ttu-id="f9691-129">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="f9691-129">Click New.</span></span>
-21. <span data-ttu-id="f9691-130">Í reitnum Miðlunarefni skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f9691-130">In the Media field, click the drop-down button to open the lookup.</span></span>
-22. <span data-ttu-id="f9691-131">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f9691-131">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="f9691-132">Dagsetning er rituð í reitinn Upphafsdagur.</span><span class="sxs-lookup"><span data-stu-id="f9691-132">In the Start date field, enter a date.</span></span>
-24. <span data-ttu-id="f9691-133">Dagsetning er rituð í reitinn Lokadagur.</span><span class="sxs-lookup"><span data-stu-id="f9691-133">In the End date field, enter a date.</span></span>
-25. <span data-ttu-id="f9691-134">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f9691-134">Click Save.</span></span>
-26. <span data-ttu-id="f9691-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f9691-135">Close the page.</span></span>
-27. <span data-ttu-id="f9691-136">Smellt er á starfsauglýsingar.</span><span class="sxs-lookup"><span data-stu-id="f9691-136">Click Job ads.</span></span>
-28. <span data-ttu-id="f9691-137">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f9691-137">Click Save.</span></span>
-29. <span data-ttu-id="f9691-138">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f9691-138">Close the page.</span></span>
-30. <span data-ttu-id="f9691-139">Merkja eða afmerkja gátreitinn Birta á sjálfsafgreiðsla starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="f9691-139">Check or uncheck the Display on employee self service checkbox.</span></span>
-    * <span data-ttu-id="f9691-140">Velja gátreitinn Sýna á sjálfsafgreiðslu starfsmanns til að gera ráðningarverkið sýnileg starfsmönnum á þeirra sjálfsafgreiðslusíðum Starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="f9691-140">Select the Display on employee self service check box to make the recruitment project visible to employees on their Employee self-service pages.</span></span>  
-31. <span data-ttu-id="f9691-141">Smellt er á Staða ráðningarverks.</span><span class="sxs-lookup"><span data-stu-id="f9691-141">Click Recruitment project status.</span></span>
-32. <span data-ttu-id="f9691-142">Smellið á „Byrja“.</span><span class="sxs-lookup"><span data-stu-id="f9691-142">Click Start.</span></span>
-    * <span data-ttu-id="f9691-143">Stöðuna Byrjað merkir að verkið sé tilbúin til að fá umsóknir.</span><span class="sxs-lookup"><span data-stu-id="f9691-143">The Started status means that the project is ready to receive applications.</span></span>  
-33. <span data-ttu-id="f9691-144">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="f9691-144">Click OK.</span></span>
-
+1. <span data-ttu-id="b5ca2-110">Farið í **Human Resources > Ráðning > Ráðningarverk > Ráðningarverk**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-110">Go to **Human resources > Recruitment > Recruitment projects > Recruitment projects**.</span></span>
+2. <span data-ttu-id="b5ca2-111">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-111">Select **New**.</span></span>
+3. <span data-ttu-id="b5ca2-112">Í reitinn **Ráðningarverk** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-112">In the **Recruitment project** field, enter a value.</span></span>
+4. <span data-ttu-id="b5ca2-113">Sláið inn gildi í reitnum **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-113">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="b5ca2-114">Í reitnum **Ráðningaraðili** skal velja á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-114">In the **Recruiter** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="b5ca2-115">Í listanum skal finna og velja færsluna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-115">In the list, find and select your record.</span></span>
+7. <span data-ttu-id="b5ca2-116">Í listanum skal velja tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-116">In the list, select the link in the selected row.</span></span>
+8. <span data-ttu-id="b5ca2-117">Valið **Velja**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-117">Choose **Select**.</span></span>
+9. <span data-ttu-id="b5ca2-118">Í reit deildar skal velja hnapp fellilista til að opna uppflettinguna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-118">In the Department field, select the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="b5ca2-119">Í listanum skal velja tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-119">In the list, select the link in the selected row.</span></span>
+11. <span data-ttu-id="b5ca2-120">Í reitnum **Starf** skal velja hnapp fellilista til að opna uppflettinguna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-120">In the **Job** field, select the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="b5ca2-121">Í listanum skal finna og velja færsluna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-121">In the list, find and select your record.</span></span>
+13. <span data-ttu-id="b5ca2-122">Í listanum skal velja tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-122">In the list, select the link in the selected row.</span></span>
+14. <span data-ttu-id="b5ca2-123">Í svæðinu **Fjölda opnana** skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-123">In the **Number of openings field**, enter a number.</span></span>
+15. <span data-ttu-id="b5ca2-124">Í reitnum **Ráðningarstjóri** skal velja hnapp fellilista til að opna uppflettinguna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-124">In the **Hiring manager** field, select the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="b5ca2-125">Í listanum skal finna og velja færsluna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-125">In the list, find and select your record.</span></span>
+17. <span data-ttu-id="b5ca2-126">Í listanum skal velja tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-126">In the list, select the link in the selected row.</span></span>
+18. <span data-ttu-id="b5ca2-127">Valið **Velja**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-127">Choose **Select**.</span></span>
+19. <span data-ttu-id="b5ca2-128">Færa inn dagsetningu í svæði **umsóknarfrestur**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-128">In the **Application deadline** field, enter a date.</span></span>
+20. <span data-ttu-id="b5ca2-129">Velja **miðil**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-129">Select **Media**.</span></span> <span data-ttu-id="b5ca2-130">Ráðningarverk með valkost til að tilgreina miðla sem nota á til að auglýsa opnar stöður.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-130">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
+21. <span data-ttu-id="b5ca2-131">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-131">Select **New**.</span></span>
+22. <span data-ttu-id="b5ca2-132">Í reitnum **Miðill** skal velja hnapp fellilista til að opna uppflettinguna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-132">In the **Media** field, select the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="b5ca2-133">Í listanum skal velja tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-133">In the list, select the link in the selected row.</span></span>
+24. <span data-ttu-id="b5ca2-134">í reitinn **Upphafsdagur** skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-134">In the **Start date** field, enter a date.</span></span>
+25. <span data-ttu-id="b5ca2-135">í reitinn **Lokadagur** skal rita dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-135">In the **End date** field, enter a date.</span></span>
+26. <span data-ttu-id="b5ca2-136">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-136">Select **Save**.</span></span>
+27. <span data-ttu-id="b5ca2-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-137">Close the page.</span></span>
+28. <span data-ttu-id="b5ca2-138">Veljið starfsauglýsingar.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-138">Select Job ads.</span></span>
+29. <span data-ttu-id="b5ca2-139">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-139">Select **Save**.</span></span>
+30. <span data-ttu-id="b5ca2-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-140">Close the page.</span></span>
+31. <span data-ttu-id="b5ca2-141">Hakið við eða afhakið gátreitinn **Sýna í sjálfsafgreiðslu starfsmanns**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-141">Check or uncheck the **Display on employee self-service** checkbox.</span></span> <span data-ttu-id="b5ca2-142">Veljið gátreitinn **Sýna sjálfsafgreiðslu starfsmanns**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-142">Select the **Display on employee self-service** check box.</span></span> <span data-ttu-id="b5ca2-143">Þetta val ráðningarverkið sýnilegt starfsmönnum á sjálfsafgreiðslusíðum starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-143">This selection makes the recruitment project visible to employees on their Employee self-service pages.</span></span>
+32. <span data-ttu-id="b5ca2-144">Valið er **Staða ráðningarverks**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-144">Select **Recruitment project status**.</span></span>
+33. <span data-ttu-id="b5ca2-145">Velja **Ræsa**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-145">Select **Start**.</span></span> <span data-ttu-id="b5ca2-146">Staðan **Byrjað** merkir að verkið sé tilbúin til að fá umsóknir.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-146">The **Started** status means that the project is ready to receive applications.</span></span>  
+34. <span data-ttu-id="b5ca2-147">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="b5ca2-147">Select **OK**.</span></span>
