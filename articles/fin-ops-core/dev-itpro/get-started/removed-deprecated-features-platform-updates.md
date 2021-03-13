@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689567"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154088"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -32,7 +32,55 @@ ms.locfileid: "4689567"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Eiginleiki fjarlægður frá og með 28. janúar 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Runuvinnsla fyrir endurröðun SQL-atriðaskráar
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Þessi eiginleiki hefur verið fjarlægður til þess að draga úr rekstrar-, eftirlits- og viðhaldskostnaði við stjórnun atriðaskráar eftir viðskiptavini. |
+| **Skipt út fyrir aðra eiginleika?**   | Héðan í frá mun Microsoft-þjónusta sjá um stjórnun atriðaskráar. Þetta gerist samfellt án þess að hafa áhrif á vinnuálag notanda. |
+| **Afurðasvæði sem haft er áhrif á**         | Finance and Operations-smáforrit|
+| **Dreifingarvalkostur**              | Uppsetning í skýinu - hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
+| **Staða**                         | Þessi eiginleiki hefur verið fjarlægður. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.17 á forritum Finance and Operations
+
+> [!IMPORTANT]
+> Útgáfa 10.0.17 tiltæk sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Til að styðja við nýjustu útgáfur af Visual Studio þarf að gera nokkrar breytingar á viðbótum X++ fyrir Visual Studio. Þessar breytingar samhæfast ekki Visual Studio 2015. |
+| **Skipt út fyrir aðra eiginleika?**   | Visual Studio 2017 kemur í stað Visual Studio 2015 sem uppsett og áskild útgáfa. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. Við uppfærslu verða fyrri verkfæri X++ fjarlægð úr Visual Studio 2015 og uppfærðu verkfærin verða ekki sett upp í Visual Studio 2015. Hýst smíði verður ekki fyrir áhrifum. Fyrir sýndarvélar smíðar þarf sölukeðja smíðar (skilgreining smíðar) að vera uppfærð handvirkt til að breyta tengslum úr MSBuild 14.0 (Visual Studio 2015) í MSBuild 15.0 (Visual Studio 2017) eins og lýst er í [Uppfæra eldri sölukeðju í Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Notandapersóna notanda 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Notandapersóna notanda sem birtist hægra megin á yfirlitsstikunni var sótt með API úr yfirskriftarstýringu Dynamics 365 sem hefur verið úreld. |
+| **Skipt út fyrir aðra eiginleika?**   | Notendur munu sjá upphafsstafi sína í hring á yfirlitsstikunni í staðinn. Þetta er sýnt á sama hátt og í þróunarvélum. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Fjarlægt frá og með útgáfu 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Úrelding Enterprise Portal  
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Gervingar lýsigagna sem tengjast Dynamics AX 2012 Enterprise Portal hafa verið gerðir úreldir þar sem Enterprise Portal var aldrei stutt í Finance and Operations-forritum. |
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. Áætlað er að allur EP-kóði verði fjarlægður í október 2021 útgáfu. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.15 á forritum Finance and Operations
 
@@ -192,6 +240,3 @@ ms.locfileid: "4689567"
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Fyrri tilkynningar um eiginleika sem voru fjarlægðir eða úreltir
 Til að læra meira um eiginleika sem hafa verið fjarlægðir eða úreltir í fyrri útgáfum, sjá [Fjarlægir eða úreltir eiginleikar í fyrri útgáfum](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

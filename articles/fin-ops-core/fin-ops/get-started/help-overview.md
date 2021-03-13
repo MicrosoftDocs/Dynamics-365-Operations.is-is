@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695140"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154154"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -163,7 +163,4 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 | [Docs.microsoft.com/fyrri útgáfur](/previous-versions/dynamics/) | Þetta vefsvæði hýsir efni frá fyrri útgáfum. |
 | [Samfélag Dynamics](https://community.dynamics.com/) | Þetta vefsvæði hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Þetta vefsvæði veitir upplýsingar um mat og sölu. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Þetta svæði hýsir þjálfunarefni, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Notendur kunna að þurfa að vera með þjónustuáætlun til að fá aðgang að einhverjum tilföngum á þessu svæði. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Þetta svæði hýsir þjálfunarefni, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Notendur kunna að þurfa að vera með þjónustuáætlun til að fá aðgang að einhverjum tilföngum á þessu svæði. |

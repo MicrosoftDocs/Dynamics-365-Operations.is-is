@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
+description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 for Finance and Operations og fyrri útgáfum.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679957"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154386"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -39,7 +39,7 @@ ms.locfileid: "4679957"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
 
@@ -970,7 +970,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika. |
-| **Skipt út fyrir aðra eiginleika?**   | Common data service                                      |
+| **Skipt út fyrir aðra eiginleika?**   | Dataverse                                      |
 | **Afurðasvæði sem haft er áhrif á**         | Tengill fyrir Dynamics                         |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 |     <strong>Afurðasvæði sem haft er áhrif á</strong>     |                                              Fjárhagur                                              |
 |             <strong>Staða</strong>             |                                      Fjarlægt frá og með Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

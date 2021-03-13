@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694690"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154410"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
@@ -166,7 +166,7 @@ Rekstrareiningar nota landssamhengi yfirlögaðila. Rekstrareiningar í sama lö
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ef fyrirtækið er með líkan sem lögaðili
 
-Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar skýrslur. Sjá upplýsingar um hvaða skýrslur eru tiltækar fyrir hvert land/svæði í [Microsoft Dynamics Staðfærslugátt](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (CustomerSource innskráningar er krafist.)
+Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar skýrslur. Sjá upplýsingar um hvaða skýrslur eru tiltækar fyrir hvert land/svæði í [Microsoft Dynamics Staðfærslugátt](https://docs.microsoft.com/dynamics/s-e/). (CustomerSource innskráningar er krafist.)
 
 > [!NOTE]
 > Bókunarlag í fjárhag gerir kleift að gera leiðréttingarfærslur á móðurfyrirtæki sem notar annan bókhaldsstaðal en dótturfyrirtæki. Til dæmis, fyrir fyrirtæki sem notar almennt samþykkt bókhaldsvenjum í Bretland (UK GAAP), er hægt að gera leiðréttingarfærslur í bókunarlag. Hægt er að sameina þessar færslur inn móðurfyrirtækis sem samþykkt notar almennt reikningsskilareglur (samþykktum Bókhaldsreglum) í Bandaríkjunum. Leiðréttingarfærslur sem hafa ekki áhrif á samþykktum Bókhaldsreglum UK skýrslugerð.
@@ -241,6 +241,3 @@ Ekki þarf að breyta fyrirtæki til að nálgast gögn frá mörgum rekstrarein
 - Áður en þú mótar helstu atburðarásir endurskipulagningar þarf að nota öruggar gildisdagsetningar stigveldisins til að framkvæma áhrifagreiningu og staðfestingarpróf.
 - Nota ham fyrir drög til að breyta stigveldi áður en ný útgáfa er birt í vinnsluumhverfi.
 - Takmarka fjölda fólks sem hefur leyfi til að bæta við eða fjarlægja stofnanir frá stigveldi í framleiðsluumhverfi. Lægri tala minnkar hættuna sem á dýrum mistökum og gera verður leiðréttingar.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

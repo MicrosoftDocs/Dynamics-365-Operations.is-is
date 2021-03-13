@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527411"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152198"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 26. september 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527411"
 
 Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
-Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Í þessari útgáfu
 
@@ -58,7 +57,7 @@ Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 | 481401 | Uppsöfnunarvinnsla hangir þegar upphafsdagsgrunnur uppsöfnunar er á eftir upphafsddegi uppsöfnunar og í lok mánaðar | Uppsöfnunarvinnsla er uppfærð þannig að hún er ekki með frestun þegar dagsetningargrunnur uppsöfnunar er á eftir upphafsdagsetningu uppsöfnunarinnar og í lok mánaðarins. |
 | 447167 | Listar sem eru að renna út taka með óvirka starfsmenn | Flipinn **Færslur sem eru að renna út** í **Starfsmannastjórnun** eru með óvirka starfskrafta. Nú inniheldur hún aðeins virka starfskrafta. |
 | 486840 | Röng Fjarvistarbeiðni opnast frá **Vinnuliðum úthlutað á mig** | Val á fjarvistabeiðni úr **Vinnuliðum úthlutað á mig** opnar ekki lengur síðustu beiðni um fjarvistabeiðnir sem úthlutað er á núverandi notanda. |
-| 506868 | Common Data Service **Titill** svæði ekki stillt fyrir **Starfsheiti** einingu | Svæðið **Titill** í **vinnslunni** og **Starfsstaða** einingar birtist sem ekki tilgreint. Reiturinn **Heiti** birtist nú. |
+| 506868 | Dataverse **Titill** svæði ekki stillt fyrir **Starfsheiti** einingu | Svæðið **Titill** í **vinnslunni** og **Starfsstaða** einingar birtist sem ekki tilgreint. Reiturinn **Heiti** birtist nú. |
 | 430359 | Ekki er hægt að fá aðgang að verkefnum gátlista með stjórnanda og hlutverkum starfsmanns úthlutuðum | Starfsmenn með starfslok í framtíðinni gátu ekki fengið aðgang að gátlistaverkum sínum ef þeir höfðu aðeins hlutverk starfsmanns eða stjórnanda. Notendur með hlutverkið starfsmaður eða yfirmaður geta ekki fengið aðgang að verkefni sem tengist dagsetningu uppsagnar í framtíðinni. |
 | 458102 | Nýr starfsmaður birtist ekki í **Launaupplýsingar starfsmanna** einingunni þegar hún var stofnuð | Nýir starfsmenn eru teknir með í launaupplýsingum starfsmanns án þess að þurfa að opna launaupplýsingar fyrir starfsmanninn áður en einingin er flutt inn. |
 
@@ -85,6 +84,3 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 [Yfirlit yfir Dynamics 365 Human Resources 2020 útgáfutímabil 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Uppfærsluferli](hr-admin-setup-update-process.md)
 [Stjórna eiginleikum](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
