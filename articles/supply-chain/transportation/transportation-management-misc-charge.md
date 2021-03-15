@@ -30,3 +30,6 @@ Eins og á við um öll gjöld verða flutningsgjöld að vera tengd við gjalda
 Opnaðu **Flutningsstjórnun > Uppsetning > Flokkun > Ýmis gjöld** til að skilgreina flokkunarskilyrðin sem ákvarða hvenær tiltekinn **Gjaldakóði** er notaður fyrir gjald.
 
 Þú ættir að hafa að minnsta kosti eina uppsetningu fyrir hverja viðeigandi stillingu **Gjaldaeiningar** (*Viðskiptavinur* og *Lánardrottinn*) þar sem **Gerð ýmissa gjalda** er stillt á *Engin*. Ef þetta vantar verður gjaldinu *ekki* bætt við pöntunina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

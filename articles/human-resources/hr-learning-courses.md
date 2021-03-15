@@ -137,3 +137,6 @@ Starfsmenn sem skrá sig á námskeið gegnum í **Starfsmanns sjálfsafgreiðsl
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar 
 9. Smellt er á Breyta stöðu.
     * Einnig má breyta launum á þessum tíma. Ef laun fyrir á þessum tíma er ekki úthlutað, er hægt að breyta þeim með því að fara í skjámynd starfsmanns, velja flipa "laun" og velja 'Föst Áætlun'. Eftir að þú velja 'Breyting á stöðu', er staða á umsókninni uppfærð í í ‚Ráðinn'.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

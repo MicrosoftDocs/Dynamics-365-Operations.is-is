@@ -208,3 +208,6 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Prospect to cash](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

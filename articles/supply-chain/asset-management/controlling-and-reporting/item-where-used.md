@@ -70,3 +70,6 @@ ms.locfileid: "5021140"
 
 ![Dæmi um útreikning á notkunarstað vöru](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

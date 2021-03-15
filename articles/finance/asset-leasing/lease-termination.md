@@ -158,3 +158,6 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
 11. Til að skoða nettóáhrif riftunar þar sem afnotaréttur af eign og leiguskuldbinding verða 0 (núll) skal opna töflur yfir færslur leiguskuldbindingar og eignar.
 
 Nú ætti staða leigusamningsins að vera **Riftur**. Engar frekari færslur í færslubók verða bókaðar gagnvart þessum leigusamningi nema riftunin verði bakfærð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

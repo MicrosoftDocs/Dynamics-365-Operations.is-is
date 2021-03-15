@@ -32,3 +32,6 @@ Til að setja upp afslætti fyrir flutningsstjórnun skal fara í **Flutningsstj
 Þú getur valið hvort velta eigi afslættinum til viðskiptavinarins (með því að stilla afsláttargerðina á viðskiptavin) eða halda honum innan fyrirtækisins (með því að stilla afsláttargerðina á farmsendanda). Þetta gerir notendum kleift að skilgreina uppsetningu þar sem þeir fá framlegð á reiknuðu farmgjöldin.
 
 Hægt er að setja upp mörg skilyrði fyrir hvern afslátt, svo sem flutningsaðila, flutningsþjónustu, afhendingarskilmála, viðskiptavin, áfangastað og fleira.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

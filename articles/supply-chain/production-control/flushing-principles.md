@@ -62,3 +62,6 @@ Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar t
 
 ### <a name="available-at-location"></a>Tiltækt í staðsetningu
 Losunarreglan Tiltækt í staðsetningu gefur til kynna að efnið verði sjálfkrafa notað þegar það er skráð sem tekið til fyrir framleiðslu. Efnið er skráð sem tekið til frá staðsetningu þegar vinnu við tiltekt á hráefni er lokið, eða þegar efni er tiltækt á staðsetningu framleiðsluinntaks og efnislínan er losuð til vöruhússins. Tiltektarlistinn sem verður til í ferlinu er birtur í runuvinnslu. Þessi regla á til dæmis við ef ert með marga tiltektarverkþætti á móti einni framleiðslupöntun. Í þessu tilfelli þarf ekki að uppfæra tiltektarlistann handvirkt, og þú færð núverandi yfirlit yfir VÍV-stöðuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

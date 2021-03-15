@@ -43,3 +43,6 @@ Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðarein
     * Í þessu dæmi, velja víddarstak 6001004 Símanr.  
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

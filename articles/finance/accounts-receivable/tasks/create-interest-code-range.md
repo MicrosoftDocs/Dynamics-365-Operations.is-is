@@ -50,3 +50,6 @@ Hægt er að setja upp vaxtakóða til að reikna vexti á mismunandi upphæðir
 21. Færa skal inn vexti í prósentum á mánuði sem verður notað til að reikna vexti frá og með mánuði 7. Í þessu dæmi er það 2,5.
 22. Smellið á Loka Til að ljúka uppsetningunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

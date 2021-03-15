@@ -112,3 +112,6 @@ Supply Chain Management styður ekki útreikning á þóknunum fyrir bókaða re
 Búntvaran er ekki tiltæk fyrir innkaupapöntunina því að ef þú skoðar sölupöntunarlínurnar fyrir búntvöruna muntu taka eftir því að magnið er *0* (núll) og staðan er *Afturkölluð*. Þessi hegðun er samkvæmt hönnuninni. Sölupöntunin kaupir aðeins þætti búntvörunnar. Hún kaupir ekki búntvöruna sjálfa.
 
 Ef kaupa þarf búnt, þarf að hafa í huga hvort merkja eigi það sem búntvöru, þar sem þessi virkni er hönnuð fyrir aðstæður tekjuskráningar. Frekari upplýsingar um búntvörur er að finna í [Búnt](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

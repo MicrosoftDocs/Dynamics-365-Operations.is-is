@@ -174,3 +174,6 @@ Vandamál 3: Þú getur haldið áfram framhjá ClickOnce innskráningarsíðu s
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Skoða fjárhagsskýrslur](view-financial-reports.md)
 - [Skilgreiningar skipurits í fjárhagsskýrslum](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

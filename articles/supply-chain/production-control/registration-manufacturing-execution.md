@@ -61,3 +61,6 @@ Starfsmenn geta gert ýmsar gerðir af skráningum í framleiðsluframkvæmd fyr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

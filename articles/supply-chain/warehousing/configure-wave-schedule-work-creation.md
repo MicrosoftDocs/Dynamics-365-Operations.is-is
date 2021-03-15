@@ -110,3 +110,6 @@ Síðan **Upplýsingar um áætlaða vinnu** (**Vöruhúsakerfi \> Vinna \> Uppl
 Til að skoða runuvinnslur fyrir vinnslubylgjur skal velja **Runuvinnslur** á aðgerðasvæðinu á **Allar bylgjur** síðunni.
 
 Héðan er hægt að skoða allar upplýsingar um runuverk fyrir hvert runuvinnslukenni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

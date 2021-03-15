@@ -527,3 +527,6 @@ Fyrirspurnirnar sem sýndar voru í fyrra dæminu gætu skilað niðurstöðum s
 ```
 
 Athugið að magnreitirnir eru skipulagðir sem orðabók yfir mælingar og tengd gildi þeirra.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagsl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Að yfirfara verkflæðissögu færslubókar:
 1. Á yfirlitssvæðinu skal útvíkka **Birgðastjórnun \> Færslubókarfærslur \> Vörur** og síðan velja birgðabókargerð.
 1. Opnið viðeigandi færslubók.
 1. Veljið hnappinn **Verkflæði** á aðgerðasvæðinu til að opna fellilistaglugga. Veldu **Verkflæðissaga**. Frekari upplýsingar er að finna á [Skoða verkflæðissögu](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

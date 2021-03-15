@@ -113,3 +113,6 @@ Ekki er hægt að úthluta föstu launafyrirkomulagi til starfsmanns fyrr en hæ
 
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

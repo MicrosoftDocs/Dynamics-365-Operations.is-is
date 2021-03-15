@@ -65,3 +65,6 @@ Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða
     * Matsfyrirtæki eru stofnana þar sem atvik þarf að tilkynna. Veldu gátreitinn fyrir aðilann sem er sjálfgefið stofnunar fyrir að tilkynna að sjálfgefnu meiðsli og veikindi til .  
 23. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

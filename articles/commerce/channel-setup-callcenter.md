@@ -135,3 +135,6 @@ Til að setja upp verðflokk, gerðu eftirfarandi.
 [Setja upp og vinna með svikaviðvaranir](set-up-fraud-alerts.md)
 
 [Setja upp samfelldniáætlanir fyrir símaver](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

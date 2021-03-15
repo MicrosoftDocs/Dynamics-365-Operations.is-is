@@ -37,3 +37,6 @@ Til dæmis hugsum okkur að verið sé að færa inn upplýsingar um leigu bíla
 > Aðeins er hægt að nota sniðmát á þeim svæðum sem viðkomandi hefur aðgang að. Hins vegar eru öll sniðmátsheiti sýnileg öllum notendum þegar ný færsla er stofnuð, ef verið er að stofna sniðmát sem verða svo aðgengileg fyrir alla notendur. Gætið þess að þetta í huga þegar sniðmát eru nefnd. Til dæmis ætti að forðast að nota heiti með orðum eins og „kaupauki“ ef það er trúnaðarmál að sumir starfsmenn fá greidda kaupauka.
 
 Þegar eitt eða fleiri sniðmát sem viðkomandi hefur aðgang að eru til fyrir tiltekna skjámynd og reynt er að stofna nýja færslu í skjámyndinni birtist **Velja sniðmát** síðan. Þegar sniðmát er valið úr listanum er nýja færslan stofnuð og inniheldur hún sjálfgefnar upplýsingar sem eru byggðar á sniðmátinu sem valið er. Ef ekki á að nota sniðmát þegar nýjar færslur eru stofnaðar skal velja **Ekki spyrja aftur** gátreit á síðunni **Velja sniðmát fyrir**. Til að birta svargluggann fyrir sniðmátsval aftur skal hægrismella á hvaða færslu sem er, smella svo á **Færsluupplýsingar**, og svo á **Sýna sniðmátsval**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

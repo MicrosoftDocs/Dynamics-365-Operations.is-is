@@ -93,3 +93,6 @@ Leiðbeiningar um hvernig bæta skuli gjafakortseiningu við greiðslusíðu og 
 [Stuðningur við utanaðkomandi gjafakort](./dev-itpro/gift-card.md)
 
 [Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

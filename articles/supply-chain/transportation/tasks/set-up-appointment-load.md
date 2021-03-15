@@ -46,3 +46,6 @@ ms.locfileid: "5004953"
 6. Smellið á „Vista“.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

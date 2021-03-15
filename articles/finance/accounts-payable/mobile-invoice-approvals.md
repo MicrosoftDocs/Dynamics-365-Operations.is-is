@@ -534,3 +534,6 @@ Eftirfarandi frávik er hægt að gera fyrir aðstæður 1, byggt á þörfum fy
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

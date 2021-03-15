@@ -113,3 +113,6 @@ Til að tengja leiðarvísi við sniðmát viðhaldsgátlista skal fylgja þessu
 
 - [Tvöföld skrif – yfirlit](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Yfirlit eignastýringar](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

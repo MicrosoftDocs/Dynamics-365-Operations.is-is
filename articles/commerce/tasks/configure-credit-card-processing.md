@@ -61,3 +61,6 @@ ms.locfileid: "5006111"
 24. Smellt er á Sjálfgefinn örgjörvi fyrir gátreit fyrir ný kreditkort .
 25. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

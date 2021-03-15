@@ -52,3 +52,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 [Stofna bankaaðstöðusamning fyrir bankaábyrgð](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

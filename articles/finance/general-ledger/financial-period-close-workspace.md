@@ -107,3 +107,6 @@ Ef lokunaráætlun er lokið, velja valkostur **Lokað** fyrir hana. Ferill verk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

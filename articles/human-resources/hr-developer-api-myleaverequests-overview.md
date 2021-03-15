@@ -64,3 +64,5 @@ MyLeaveRequests einingin í Microsoft Dynamics 365 Human Resources býður upp �
 
 - [Senda leyfisbeiðni í verkflæði](hr-developer-api-myleaverequests-submit.md)
 - [Sannvottun](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

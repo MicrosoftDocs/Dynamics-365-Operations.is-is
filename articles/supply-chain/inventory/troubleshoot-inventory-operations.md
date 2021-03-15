@@ -157,3 +157,6 @@ Til að laga þetta vandamál skal fylgja þessum skrefum.
 
 > [!IMPORTANT]
 > Sérstaklega er mælt með því að fara gætilega þegar forskriftinni er breytt samkvæmt þörfum umhverfisins, prófið hana í prófunarumhverfi og athugið síðan niðurstöðurnar áður en forskriftin er keyrð í framleiðsluumhverfi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

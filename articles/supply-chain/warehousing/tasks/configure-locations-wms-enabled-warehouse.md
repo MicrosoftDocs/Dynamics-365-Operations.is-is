@@ -174,3 +174,6 @@ ms.locfileid: "4977315"
 6. Í listanum skal smella á tengilinn í valinni línu.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

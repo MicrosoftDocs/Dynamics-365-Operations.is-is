@@ -69,3 +69,6 @@ ms.locfileid: "5016985"
 3. Þú getur sett þetta starf upp til að keyra sem runuvinnslu, til dæmis einu sinni á dag.
 
 **Varúð:** Ef gögnum er breytt í innkaupapöntun *eftir* að þú hefur búið til eign byggða á vörunni sem hún tilheyrir munu þessar breytingar ekki koma fram á eigninni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

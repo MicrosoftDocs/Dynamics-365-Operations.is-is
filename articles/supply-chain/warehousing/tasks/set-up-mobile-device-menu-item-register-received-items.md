@@ -59,3 +59,6 @@ Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli
 6. Veljið **Vista**.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

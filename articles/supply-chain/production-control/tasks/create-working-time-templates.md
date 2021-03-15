@@ -78,3 +78,6 @@ Sniðmát vinnutíma skilgreina vinnustundir yfir vikuna og eru notaðir til að
 3. Stækka Sunnudagur hluti.
 4. Velja skal Já í svæði Lokað fyrir afhendingu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

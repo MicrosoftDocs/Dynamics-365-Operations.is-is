@@ -87,3 +87,6 @@ POS gerir notendum kleift að skilgreina hnappahnit sem eru höfð með í útli
 ## <a name="calculating-commissions"></a>Útreikningur á þóknun
 
 Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar. Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

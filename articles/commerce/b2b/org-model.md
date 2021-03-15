@@ -62,3 +62,6 @@ Notendur Commerce Headquarters geta skoðað gildi eiginleikanna fyrir allar fæ
 [Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti](payment-method.md)
 
 [Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

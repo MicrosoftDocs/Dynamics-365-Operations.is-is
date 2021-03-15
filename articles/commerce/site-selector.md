@@ -63,3 +63,6 @@ Hægt er að bæta við svæðisvalseiningu í [Hauseiningu](author-header-modul
 [Brauðmylsnueining](add-breadcrumb.md)
 
 [Eining yfirlitsvalmyndar](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -302,3 +302,6 @@ Til að búa til upplýsingasíðu reiknings í svæðissmið skal fylgja þessu
 [Eining fyrir bálk með efni](../add-hero-module.md)
 
 [Vörusafn](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

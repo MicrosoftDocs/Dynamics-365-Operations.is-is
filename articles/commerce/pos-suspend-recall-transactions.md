@@ -81,3 +81,6 @@ Til að auðveldlega endurheimta frestaða færslu skal skanna strikamerkið á 
 ### <a name="void-a-suspended-transaction"></a>Ógilda frestaða færslu
 
 Hægt er að ógilda frestaðar færslur annaðhvort með því að endurheimta færsluna og framkvæma síðan aðgerðina **Ógilda færslu** eða með því að velja færsluna í listanum **Endurheimta færslu** og velja **Ógilda** á forritastikunni. Að öðrum kosti er hægt að stilla verslunina til að biðja notendur um ógilda frestaðar færslur þegar þeir loka vaktinni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

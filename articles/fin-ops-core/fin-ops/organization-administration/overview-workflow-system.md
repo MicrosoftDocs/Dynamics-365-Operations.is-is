@@ -71,3 +71,6 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 + [Skilgreina samhliða greinar í verkflæði](configure-parallel-branch-workflow.md)
 + [Skilgreina verkflæði línuatriða](configure-line-item-workflow.md)
 + [Algengar spurningar um verkflæði](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

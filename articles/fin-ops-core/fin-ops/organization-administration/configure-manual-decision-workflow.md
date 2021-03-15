@@ -350,3 +350,6 @@ Fylgið eftirfarandi skrefum ef verður að taka ákvörðunina innan tiltekins 
     - **Ár** — velja daginn, vikuna og mánuðinn sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku desembermánaðar.
 
 4. Ef farið er yfir tímamörkin mun kerfið taka ákvörðunina vegna verksins. Veljið Valkost, sem kerfið á að velja, í listanum **Aðgerðir**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ ms.locfileid: "4964846"
 
 [Breyta afhendingarmáta á sölustað](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

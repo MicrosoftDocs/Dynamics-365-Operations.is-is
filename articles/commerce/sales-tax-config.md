@@ -81,3 +81,6 @@ Fylgdu eftirfarandi skrefum til að grunnstilla skattflokk fyrir aðsetursfærsl
 
 [Reikna út skattundanþágu](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

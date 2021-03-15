@@ -92,3 +92,6 @@ Eftirfarandi mynd sýnir dæmi um körfu sem sýnir skilaboðin til á lager (�
 [Eining til að velja verslun](store-selector.md)
 
 [Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

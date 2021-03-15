@@ -102,3 +102,6 @@ Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

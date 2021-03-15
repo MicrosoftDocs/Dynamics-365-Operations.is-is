@@ -117,3 +117,6 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
 
 [Búa til virkniforstillingu á netinu](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

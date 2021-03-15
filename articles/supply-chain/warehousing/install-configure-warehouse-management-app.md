@@ -289,3 +289,6 @@ Ef tæki týnist eða hefur orðið fyrir árás þarf að fjarlægja aðgang þ
 1. Ganga skal úr skugga um að biðlarakenni forritsins passi við biðlarakenni í skrefi 2.
 1. Á tækjastikunni skal velja **Eyða**.
 1. Í staðfestingarskilaboðum sem birtist velurðu **Já**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

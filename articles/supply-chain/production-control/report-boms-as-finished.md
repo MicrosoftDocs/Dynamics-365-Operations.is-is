@@ -88,3 +88,6 @@ Eins og fyrri taflan sýnir, telst aðeins vörunúmer COMP afdregið í færslu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Hins vegar, eins og áður er getið, þegar tækjaskilgreining er notuð með v
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Bóka sem tilbúið úr verkspjaldstæki](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

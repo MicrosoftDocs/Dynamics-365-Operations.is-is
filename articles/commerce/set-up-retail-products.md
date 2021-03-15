@@ -39,3 +39,6 @@ ms.locfileid: "4985712"
 4. **Bæta afurðum við vöruúrvalið** Vöruúrval stendur fyrir safn afurða sem á að bjóða í rásunum. Hægt er að úthluta einu eða fleiri vöruúrvali og hverri afurð er hægt að úthluta á eitt eða fleiri vöruúrval. Til að tengja afurðir við rásir skal úthluta úrvali á þær rásir. Þegar vöruúrval er stofnað er hægt að bæta við afurðum sem hafa ekki enn verið losaðar til lögaðila. Hins vegar verðu að losa afurðirnar til lögaðila áður en hægt er að gera þessar afurðir tiltækar fyrir rásirnar.
 5. **Bæta afurðum við skoðunarstigveldi.** Áður en hægt er að skoða afurðir á netinu eða á sölustaðnum (POS), verður að flokka þær í yfirlitsstigveldi Commerce.
 6. **Bæta afurðum við vörulista.** Þótt þetta þrep sé valfrjálst fyrir POS, krefjast netverslanir að afurðir séu í að minnsta kosti einu vörulista.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

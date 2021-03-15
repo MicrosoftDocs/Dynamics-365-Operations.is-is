@@ -59,3 +59,6 @@ Viðskiptavinir gæti reitt fram hlutagreiðslu þar sem eftirstöðvar upphæð
 
 
 Frekari upplýsingar eru í [Innborgun greiðslur viðskiptavina](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

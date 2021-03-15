@@ -145,3 +145,6 @@ Að auki styðja eiginleikar fyrir stofnun pöntunar og pöntunarúrvinnslu í C
 
 > [!IMPORTANT]
 > Ef kveikt er á útgáfuvíddinni og hún notuð, gætu sumar lausnir sem vísa í birgðavíddirnar hætt að virka eins og til er ætlast. Til að staðfesta og laga þessi vandamál skal hafa samband við óháða hugbúnaðarsalann fyrir lausnirnar sem um ræðir. Frekari upplýsingar er að finna í [Virkja útgáfuvíddina](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

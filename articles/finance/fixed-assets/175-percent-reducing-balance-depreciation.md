@@ -87,3 +87,6 @@ Aðferðin afskriftir fyrir 175% bókfært virði stöðu deilir 175% með líft
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

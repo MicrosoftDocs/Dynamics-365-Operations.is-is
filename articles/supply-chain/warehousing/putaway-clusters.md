@@ -295,3 +295,6 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 ## <a name="notes-and-tips"></a>Athugasemdir og ábendingar
 
 Í tilvikum þar sem klasakennið verður að yfireiningu númeraplötunnar fyrir faldað bretti, verður frágangsstaðurinn sjálfkrafa gefinn þegar klasakennið er skannað. Ekki þarf frekari skönnun númeraplötu, jafnvel þótt myndun númeraplötu sé stillt á handvirkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

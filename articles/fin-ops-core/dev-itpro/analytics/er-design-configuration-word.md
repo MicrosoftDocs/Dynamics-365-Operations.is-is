@@ -72,3 +72,6 @@ Síðan þarf að skipta út upprunalegu Word-sniðmáti breytanlega sniði rafr
 
 - [Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði](./tasks/er-design-configuration-word-2016-11.md)
 - [Felldu inn myndir og form í skjöl sem þú myndar með því að nota ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

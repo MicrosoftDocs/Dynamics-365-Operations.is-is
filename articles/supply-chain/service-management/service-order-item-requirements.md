@@ -69,3 +69,6 @@ Ef vöruþörf er búin til í þjónustupöntun er ekki hægt að eyða þjónu
 
 [Vöruþörf (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

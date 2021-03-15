@@ -63,3 +63,6 @@ Sjálfgefinn staðgreiðsluskattsflokkur og staðgreiðsluskattflokkur vöru ver
 Staðgreiðsluskattur er reiknaður og bókaður með **Greiðslubók viðskiptavinar**. Hægt er að leiðrétta viðeigandi staðgreiðsluskattskóða handvirkt rétt eins og raunverulega upphæð staðgreiðsluskatts í flipanum **Staðgreiðsluskattur** á síðunni **Jafna færslur**.
 
 Reiknuð upphæð staðgreiðsluskatts verður dregin frá lánardrottnagreiðslunni og bókuð í **Mótlykli staðgreiðsluskatts** í tengdu fylgiskjali.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

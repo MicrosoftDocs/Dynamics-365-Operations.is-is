@@ -83,3 +83,6 @@ Eftir að þú hefur sent vöruneyslu í verkbeiðni geturðu skoðað skráða 
 5. Ef hluturinn rennur út, í **Fyrning** reitinn, sláðu inn lokadagsetningu.
 6. Veldu vöru í reitnum **Vörunúmer**. Nafn hópsins er fært sjálfkrafa inn í reitinn **Heiti afurðar**.
 7. Inn í reitinn **Magn** skal slá inn magnið sem er notað. Reiturinn **Eining** er sjálfkrafa uppfært.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

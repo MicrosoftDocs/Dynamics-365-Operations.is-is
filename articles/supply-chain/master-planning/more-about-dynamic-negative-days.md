@@ -250,3 +250,6 @@ Til að tryggja að rétt gildi séu færð fyrir fyrirtækið, verður þú að
 ## <a name="see-also"></a>Sjá einnig
 
 Fyrir frekar umfjöllun skaltu sjá upphaflega bloggfærslu [Meira um (kvika) neikvæða daga](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

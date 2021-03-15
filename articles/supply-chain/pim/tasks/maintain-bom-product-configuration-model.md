@@ -57,3 +57,6 @@ Keyra þetta ferli krefst fyrirliggjandi skilgreiningu afbrigðalíkan afurðar.
     * Staðfesta ef einhver afurðarvíddum eru virk og þess vegna verður að hafa gildi eða eigind sem er úthlutað.  
 9. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

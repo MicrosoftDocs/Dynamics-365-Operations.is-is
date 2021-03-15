@@ -55,3 +55,6 @@ ms.locfileid: "5007892"
 4. Smellt er á Efnum.
     * Á þessari síðu er hægt að sjá metin efnisnotkun fyrir aðgerðir á gildandi tiltækum birgðum og framleiðslupöntun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

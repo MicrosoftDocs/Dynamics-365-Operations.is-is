@@ -142,3 +142,6 @@ Eftirfarandi skýringamyndir sýna dæmi um sniðmátsvörpun í gagnasamþátta
 
 [Prospect to cash](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

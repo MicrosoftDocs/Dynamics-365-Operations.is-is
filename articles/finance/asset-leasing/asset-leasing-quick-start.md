@@ -252,3 +252,6 @@ Ljúkið eftirfarandi skrefum til að stofna nýja leigu.
 
    Síðan **Færslur leiguskuldbindingar** sýnir upphaflega skráningu, vaxtagreiðslur leigu, leigugreiðslur og stöðu leiguskuldbindingar. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -202,3 +202,6 @@ Frekari upplýsingar um hvernig á að skilgreiningu tölvupósts í Dynamics 36
 [Setja upp tölvupóst innhreyfingar](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Senda kvittanir í tölvupósti frá Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

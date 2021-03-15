@@ -35,3 +35,6 @@ Eftirfarandi efni útskýrir hvernig notandi í hlutverk kerfisstjóra getur sti
 5. Í reitnum **Tímasvæði** velurðu valkost úr fellivalmyndinni.
 6. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

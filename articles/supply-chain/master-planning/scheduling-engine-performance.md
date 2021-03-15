@@ -328,3 +328,6 @@ Gildi fyrir **Tímalokun á tilraunum hámörkunar** stjórnar því hversu marg
 
 > [!NOTE]
 > Gildin sem eru sett upp fyrir tímalokanir verða bæði notuð fyrir röðun útgefinna framleiðslupantana og áætlaðra pantana sem hluta af MRP. Þar af leiðandi gætu mjög há gildi bætt umtalsvert við keyrslutíma MRP þegar áætlun er keyrð með mörgum framleiðslupöntunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

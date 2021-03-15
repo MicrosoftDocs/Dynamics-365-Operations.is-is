@@ -75,3 +75,6 @@ Staðgreiðsluskattur er reiknaður í **Greiðslubók lánardrottins**. Hægt e
 Afleidd upphæð staðgreiðsluskatts verður dregin frá lánardrottnagreiðslunni og bókuð í **Staðgreiðsluskattslykli** í tengdu fylgiskjali.
 
 ![Staðgreiðsluskattslykill sem sýnir tengt fylgiskjal](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

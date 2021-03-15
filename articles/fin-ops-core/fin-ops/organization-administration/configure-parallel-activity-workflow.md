@@ -53,3 +53,6 @@ Fylgdu eftirfarandi skrefum til að bæta við og skilgreina greinar þessa hli�
     > Röðun greina er ekki mikilvæg þar sem allar greinar samhliða verkþáttar keyra á sama tíma.
 
 3. Til þess að skilgreina hver grein, sjá [Skilgreina samhliða greinar í verkflæði](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

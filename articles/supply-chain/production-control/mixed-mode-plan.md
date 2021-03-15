@@ -68,3 +68,6 @@ Fyrir fullan sveigjanleika í blandaðri stillingu, mælum við með að nota up
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

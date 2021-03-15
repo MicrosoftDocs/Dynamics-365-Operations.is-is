@@ -68,3 +68,6 @@ Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða
 Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða afslætti er stillt á **Besta verð aðeins innan forgangs, alltaf blandað yfir forgangsröðun**.
 
 ![Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun](./media/Model_2.png "Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

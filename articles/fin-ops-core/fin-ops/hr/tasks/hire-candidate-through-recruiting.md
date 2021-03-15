@@ -45,3 +45,6 @@ ms.locfileid: "4797284"
 15. Útvíkka eða draga saman hluta upplýsingar Tengiliðar.
 16. Útvíkka eða draga saman persónuupplýsingar hluta.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

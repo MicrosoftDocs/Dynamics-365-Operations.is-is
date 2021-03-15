@@ -72,3 +72,6 @@ Tiltæk afkastageta eftir degi eða viku ákvarðast af dagatalinu sem er úthlu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

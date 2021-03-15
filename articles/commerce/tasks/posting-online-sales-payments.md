@@ -108,3 +108,6 @@ Fylgdu þessum skrefum til að keyra starfið „Samstilla pantanir“ handvirkt
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

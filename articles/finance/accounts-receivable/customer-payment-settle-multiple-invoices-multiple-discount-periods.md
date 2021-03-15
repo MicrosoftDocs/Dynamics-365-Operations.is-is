@@ -100,3 +100,6 @@ April getur skoðað upplýsingar á síðunni **viðskiptavinarfærslur**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

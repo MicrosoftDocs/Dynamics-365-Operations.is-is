@@ -110,3 +110,6 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </table>
 
 8. Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

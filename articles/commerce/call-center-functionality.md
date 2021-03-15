@@ -68,3 +68,6 @@ Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einn
 ## <a name="configure-continuity-programs"></a>Grunnstilla samfelldniáætlun
 
 [Setja upp samfelldniáætlanir fyrir símaver](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

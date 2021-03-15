@@ -149,3 +149,6 @@ Eftir að þú hefur forskoðað breytingarnar á sniðmátinu skaltu fylgja ein
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Vinna með forstillt útlit](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

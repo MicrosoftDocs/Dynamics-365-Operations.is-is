@@ -130,3 +130,6 @@ Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir eiginleikann �
 
 > [!NOTE]
 > Vænta má sömu útkomu þegar lína tvö er frátekin að hluta. Í því tilfelli verður verk stofnað fyrir magn frátekinnar línu en ekki fyrir ófrátekna magnið.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

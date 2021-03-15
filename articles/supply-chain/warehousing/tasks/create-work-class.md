@@ -39,3 +39,6 @@ ms.locfileid: "4977214"
     * Ef gerð staðsetningar er valin, setur þetta takmarkanir á hvar hægt er að setja vörur eftir að þær hafa verið teknar til. Þessi stilling er notuð þegar staðsetningarleiðbeiningar reynir að leysa úr staðsetningu, eða ef starfsmaður vöruhússins veitir staðsetningu handvirkt fyrir valmyndaratriði fartækis.  
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

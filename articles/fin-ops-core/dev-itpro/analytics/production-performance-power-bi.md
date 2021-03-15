@@ -128,3 +128,6 @@ Eftirfarandi tafla sýnir lykilvíddir sem eru notaðar sem síur til að sneið
 | Einingar                  | Auðkenni og heiti                                                   |
 | Tilföng                 | Auðkenni tilfanga, heiti tilfanga, gerð tilfanga og tilfangahópur |
 | Afurðir                  | Afurðarnúmer, afurðarheiti, auðkenni vöru og vöruflokkur         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

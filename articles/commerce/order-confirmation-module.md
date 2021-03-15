@@ -86,3 +86,6 @@ Til að bæta einingu pöntunarstaðfestingar við nýja síðu og stilla nauðs
 [Eining fyrir afhendingarupplýsingar](pickup-info-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

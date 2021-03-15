@@ -43,3 +43,6 @@ Viðbótarhnappar á síðunni **Kostnaðartegundir** gefa aðgang að verktengd
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

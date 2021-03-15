@@ -60,3 +60,6 @@ Til að byrja að stilla þessar upplýsingar skaltu búa til reglugerð sem þ�
 ## <a name="warehouse-management"></a>Vöruhúsakerfi
 
 Þegar sending er unnin er hægt að prenta nokkrar nýjar skýrslur. Þessar skýrslur nota upplýsingarnar sem þú settir upp í stjórnun vöruupplýsinga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

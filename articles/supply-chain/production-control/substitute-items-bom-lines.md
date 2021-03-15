@@ -48,3 +48,6 @@ Hægt er að skipta út efni við áætlanagerð aðeins þegar er verið að no
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

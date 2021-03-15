@@ -108,3 +108,6 @@ Starfsmaður stimplar sig t.d. inn klukkan 10:00 og velur fjarvistarkóða sem g
 ### <a name="calculate-and-approve-absence"></a>Reikna út og samþykkja fjarvistir
 
 - Veldu **Tími mæting** &gt; **Skoða og samþykkja** &gt; **Samþykkja eða Reikna**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

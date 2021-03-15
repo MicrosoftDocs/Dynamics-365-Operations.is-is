@@ -53,3 +53,6 @@ Innflutningssafn hjálpar til við að tryggja að seljandi fái greitt þegar k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

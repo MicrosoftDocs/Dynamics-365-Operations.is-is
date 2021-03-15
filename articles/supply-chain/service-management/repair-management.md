@@ -112,3 +112,6 @@ Hægt er að stilla viðgerðarstig viðgerðarlínu til að fylgjast með framv
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

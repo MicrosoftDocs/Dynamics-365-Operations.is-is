@@ -76,3 +76,6 @@ Vinnsluröðun tekur tillit til Skilvirkniprósentur sem eru tilgreindar fyrir t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

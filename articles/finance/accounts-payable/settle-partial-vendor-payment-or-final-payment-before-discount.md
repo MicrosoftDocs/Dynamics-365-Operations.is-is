@@ -141,3 +141,6 @@ Apríl bókar greiðslubók og fer yfir lánardrottnafærslur á við **lánardr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

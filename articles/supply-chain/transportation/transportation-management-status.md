@@ -48,3 +48,6 @@ Til að varpa flutningsstöðu á stöðu flutningsaðila skal fylgja eftirfaran
 1. Veljið kóða flutningsstöðu sem á að varpa kóðanum fyrir valda farmflytjanda fyrirtækisins.
 1. Færa skal inn ytri kóðann sem farmflytjandi notar.
 1. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

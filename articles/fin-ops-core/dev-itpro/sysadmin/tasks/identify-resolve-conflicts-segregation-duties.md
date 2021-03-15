@@ -59,3 +59,6 @@ Næst skal staðfesta að allar fyrirliggjandi úthlutanir hlutverka séu samhæ
 
 > [!NOTE]
 > Ef nokkrir árekstrar eru á listanum fyrir sama notanda skal velja færslu notanda og leggja mat á úthlutuð hlutverk á síðunni **Notendur**. Til að forðast þennan árekstur skal sannprófa hverja reglu fyrir sig þegar búið er að bæta henni við og breyta.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Uppsetning á hlutaafhendingu farma samanstendur af eftirfarandi tveimur ferlum.
 
 1. Veldu **Vöruhúsakerfi** \> **Hleðslur** \> **Flutningshleðslur**.
 2. Í aðgerðasvæðinu, í flipanum **Afhenda og móttaka** í flokknum **Staðfesta** skal velja **Flutningur**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

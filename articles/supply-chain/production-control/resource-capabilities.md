@@ -57,3 +57,6 @@ Rekstrartilföngum sem hafa sömu getu er hægt að úthluta forgangi. Þannig a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 ![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run3.png)
     * Fara yfir myndað úttak. Fyrir hverja færslu fyrir valda runu eru birtar fjárhagsvíddir úr viðeigandi víddarmengjum. Keyra þessa skýrslu og veljið mismunandi víddir til að sjá að skýrslan er ekki háð fjölda valinna vídda eða fjölda vídda sem skilgreint er fyrir þetta tilvik.  
 ![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

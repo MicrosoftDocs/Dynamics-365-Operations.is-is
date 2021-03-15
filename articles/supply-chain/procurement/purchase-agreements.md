@@ -113,3 +113,6 @@ Hægt er að afrita fjárhagsvíddir á skjalahausa eða á einstaka línur í i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

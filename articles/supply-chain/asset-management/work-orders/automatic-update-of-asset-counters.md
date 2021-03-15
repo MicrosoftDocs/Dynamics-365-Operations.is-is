@@ -69,3 +69,6 @@ Athugið eftirfarandi stig:
 
 - Þú getur sett upp teljara sem tengjast öðrum teljara. Í þessu tilfelli, þegar teljarinn er uppfærður, eru tengdir teljarar sjálfkrafa uppfærðir um leið. Nánari upplýsingar um hvernig setja skal upp tengda eignateljara er að finna í [Teljarar](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

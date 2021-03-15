@@ -225,3 +225,6 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 [Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Skipuleggja starfsfólk](hr-personnel-departments-jobs-positions.md)<br>
 [Setja upp íhluti verks](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

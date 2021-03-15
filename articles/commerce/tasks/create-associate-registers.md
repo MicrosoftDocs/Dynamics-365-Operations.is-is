@@ -43,3 +43,6 @@ ms.locfileid: "4964896"
     * Kortamillifærslunúmer Afgreiðslukassa er notað til að upplýsa greiðsluvinnslu um það hvaða greiðslustaður er að senda beiðnir um heimild. Þetta gildi er oft kallað „Kenni afgreiðslustöðvar” eða „TID”. Yfirleitt má finna TID á límmiða á greiðslutækinu.  
 9. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Jöfnun getur einnig myndað færslur. Til dæmis gæti jöfnun reiknings og gre
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Gera upp eftirstöðvar](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

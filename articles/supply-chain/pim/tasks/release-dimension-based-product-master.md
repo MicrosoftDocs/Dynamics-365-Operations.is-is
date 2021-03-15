@@ -40,3 +40,6 @@ ms.locfileid: "4983202"
 7. Smelltu á Næsta.
 8. Smellt er á Ljúka.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

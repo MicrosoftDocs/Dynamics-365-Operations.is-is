@@ -87,3 +87,6 @@ Ef þarf að tilkynna tryggða einstaklinga vegna þess að þú býður upp á 
 
 > [!NOTE]
 > Aðeins fríðindaáætlanir sem eru merktar **ACA-tilkynningaskylt** birtast í fyrirspurnarglugganum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Ef innkaupapöntun er undir breytingastjórnun verður að leggja fram allar bre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

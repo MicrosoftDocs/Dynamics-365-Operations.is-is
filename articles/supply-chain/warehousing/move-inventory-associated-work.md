@@ -58,3 +58,6 @@ Fyrir starfsmann sem má flytja fráteknar birgðir skal velja gátreitinn **Ley
 Þessi eiginleiki hefur einnig verið sendur aftur til Microsoft Dynamics AX 2012 R3 og verður í boði sem hluti af CU12.
 Einnig er hægt að hlaða honum niður einum og sér í gegnum KB-númer 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Nánari upplýsingar um það eru í [Setja upp tegundir aðallykils](tasks/set-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

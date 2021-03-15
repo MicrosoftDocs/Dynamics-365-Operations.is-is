@@ -166,3 +166,6 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

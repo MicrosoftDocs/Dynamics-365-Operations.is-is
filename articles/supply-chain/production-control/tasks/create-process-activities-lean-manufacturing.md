@@ -93,3 +93,6 @@ Skilyrði:
 12. Smellt er á Ljúka.
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

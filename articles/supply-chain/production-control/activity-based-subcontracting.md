@@ -105,3 +105,6 @@ Núna styður Supply Chain Management uppskriftarútreikninga sem fela í sér f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

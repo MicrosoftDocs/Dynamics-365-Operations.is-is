@@ -77,3 +77,6 @@ ms.locfileid: "5022534"
 >[!NOTE]
 >Þú getur líka búið til [verkbeiðnaskýrslu](../work-orders/work-order-report.md), sem inniheldur fleiri upplýsingar um verkbeiðni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

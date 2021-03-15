@@ -162,3 +162,6 @@ Ef afbrigði verður að framkvæma á svæði, eða jafnvel fyrirtæki, sem er 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ ms.locfileid: "4994691"
 23. Árslokalokunin er sjálfgefið keyrt í runu. Það eru bestu starfsvenjur fyrir langtímaferli til að keyra í runuhætti. Þetta er yfirleitt eitt af þessum ferlum, og er það ástæðan fyrir því að sjálfgefið er að nota runuhátt.  
 24. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

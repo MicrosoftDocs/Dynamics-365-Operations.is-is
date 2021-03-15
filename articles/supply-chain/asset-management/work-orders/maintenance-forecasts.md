@@ -123,3 +123,6 @@ Ef kostnaður á klukkustund, vörukostnaður og útgjöld eru uppfærð í öð
 Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Uppfæra verkbeiðnispá**.
 
 ![Mynd 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

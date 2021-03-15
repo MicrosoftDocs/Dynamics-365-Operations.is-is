@@ -190,3 +190,6 @@ Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafæ
 
 [Skilgreina Dataverse-sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

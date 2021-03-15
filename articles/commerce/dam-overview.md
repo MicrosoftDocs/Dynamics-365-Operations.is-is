@@ -59,3 +59,6 @@ Stafrænar eignir og stjórnunaraðgerðir eru staðsettar innan byggingaraðila
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
 >[!NOTE]
 >Til að fá yfirlit yfir allar bilanaskráningar sem stofnaðar eru í verkbeiðnum og viðhaldsbeiðnum smellirðu á **Eignastýringu** > **Fyrirspurnir** > **Bilun eignar** > **Bilanir eigna**. Á síðunni **Bilanir eigna** skaltu velja eignarbilunarskráningu og stækka gluggann **Tengdar upplýsingar** til að sjá upplýsingar varðandi tengda verkbeiðni eða viðhaldsbeiðni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

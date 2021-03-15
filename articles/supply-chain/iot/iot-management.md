@@ -61,3 +61,6 @@ Hægt er að líkja eftir merkjum verksmiðjuvélar. Nánari upplýsingar eru í
 + [Tengja IoT DevKit AZ3166 við Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Tengja Raspberry Pi netherbi við Azure IoT Hub (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Yfirlit yfir hraðal tækjahermis](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

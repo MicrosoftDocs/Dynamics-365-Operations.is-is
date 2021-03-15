@@ -99,3 +99,6 @@ Ef óskað er eftir samstarfi við Microsoft í tengslum við verkfæri og ferli
 [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md)  
 [Búa til fylgiskjöl eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Sérsniðin hjálp GitHub-geymslu](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 ## <a name="additional-notes"></a>Viðbótarathugasemdir
 
 Eins og er, þegar frumkóðakenni er beitt á sölupöntun í símaveri, er það notað til að keyra verð, kynningartilboð, forskriftir og söluviðauki/viðbótarsala sem eru sértæk fyrir vörulista. Kerfið mun ekki banna eða koma í veg fyrir að vara sem er ekki í vörulistanum sé pantað í sölupöntuninni. Ef hlutur er pantaður, sem er ekki hluti af vörulistanum, notar kerfið fyrst **Verðflokkur** sem er skilgreindur á símaversrásinni (**Retail og Commerce** \> **Rásir** \> **Símaver** \> **Öll símaver**) fyrir vöruverð eða kynningartilboð. Ef ekkert tiltekið rásarverð finnst verður grunnsöluverð vörunnar notað.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

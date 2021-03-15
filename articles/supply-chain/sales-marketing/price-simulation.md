@@ -144,3 +144,6 @@ Verðhermirinn hefur eingöngu áhrif á línuna þar sem hann er notaður á og
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

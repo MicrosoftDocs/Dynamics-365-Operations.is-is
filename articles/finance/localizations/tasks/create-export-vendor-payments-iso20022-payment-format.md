@@ -49,3 +49,6 @@ ms.locfileid: "4964542"
     3.    Í reitinn **Skráarheiti** skal slá inn gildi. Fyrir þetta dæmi, vegna EUR greiðslu, verður myndaða skráin samhæf SEPA. Einnig er hægt að nota ISO20022 kreditfærslur ásamt öðrum greiðslusniðum lánardrottins til að búa til greiðslur í öðrum gjaldmiðlum.
     4.    Færa inn eða veljið gildi í svæðinu **Bankareikningur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

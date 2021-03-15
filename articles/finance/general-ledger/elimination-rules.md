@@ -154,3 +154,6 @@ Veldu fyrirtækið sem er uppruni sameinuðu gagnanna og veldu svo regluna sem �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

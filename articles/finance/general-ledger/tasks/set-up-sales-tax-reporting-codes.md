@@ -38,3 +38,6 @@ Skýrslugerðakóðar söluskatts vísa í númer svæða sem má finna í sölu
 6. Færið inn lýsingu vegna innri málefna í svæðinu **Stutta lýsingu**.
 7. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

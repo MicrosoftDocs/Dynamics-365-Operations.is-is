@@ -107,3 +107,6 @@ Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **Da
 ![Dæmi um niðurstöður útreikninga í Dagsetningastjórnun verkbeiðni](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

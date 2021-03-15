@@ -80,3 +80,6 @@ Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli. Þessi fe
 4. Sláðu inn eða veldu gildi Innsláttur reitnum Staðsetning inntaks.
     * Tilgreina staðsetningu vöruhúss þar sem rekstrartilföng er að nota efni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

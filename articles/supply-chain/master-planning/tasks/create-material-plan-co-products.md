@@ -110,3 +110,6 @@ Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir form
 19. Veljið Nei í reitnum Slökkva á öllum ferlum áætlanagerðar.
 20. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Dataverse eða forritsslóð. Eyða öllum tvíteknum línum sem benda á ranga Dataverse vefslóð. Eyðið samsvarandi línum í tölfunum DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION.
 4. Stöðvaðu töfluvörpunina og endurræstu hana
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Mjög mikilvægt er að skilja hvernig gátreiturinn **Vista handvirkar leiðré
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

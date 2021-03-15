@@ -53,3 +53,6 @@ Myndin hér að neðan sýnir niðurstöður útreiknings á kostnaði viðhalds
 
 ![Mynd 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

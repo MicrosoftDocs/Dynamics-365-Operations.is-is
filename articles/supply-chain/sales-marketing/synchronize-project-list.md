@@ -66,3 +66,6 @@ Virkja rakningarbreytingu fyrir verk gagnaeiningar.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Verk (Supply Chain Management við Field Service): Projects
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

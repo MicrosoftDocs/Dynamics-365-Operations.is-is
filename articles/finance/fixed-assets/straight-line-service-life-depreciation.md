@@ -107,3 +107,6 @@ Líftími leiðréttingar kaupa er sú sama og eignarinnar og hefst við kaup þ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

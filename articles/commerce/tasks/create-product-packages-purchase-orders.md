@@ -72,3 +72,6 @@ ms.locfileid: "4964671"
 17. Smellið á „Stofna“.
 18. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

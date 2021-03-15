@@ -40,3 +40,6 @@ ms.locfileid: "4990693"
 10. Sláið inn eða veljið gildi í reitnum Vídd.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

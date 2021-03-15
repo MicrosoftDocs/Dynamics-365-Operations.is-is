@@ -1373,3 +1373,6 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 |     <strong>Afurðasvæði sem haft er áhrif á</strong>     |                                              Fjárhagur                                              |
 |             <strong>Staða</strong>             |                                      Fjarlægt frá og með Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

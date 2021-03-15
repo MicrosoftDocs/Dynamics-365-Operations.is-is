@@ -58,3 +58,6 @@ ms.locfileid: "4977914"
     * Athugaðu að Kanbanið hefur tvær ferlisvinnslur úr framleiðsluflæði. Sá fyrri er SpeakerAssemblyAndPolish og sá seinni er SpeakerTestAndPackaging.  
     * Þetta er síðasta skrefið!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

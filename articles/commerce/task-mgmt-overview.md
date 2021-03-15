@@ -52,3 +52,6 @@ Eftirfarandi mynd sýnir hugmyndafræðilega uppbyggingu verkefnisstjórnar í C
 [Úthluta verkefnalistum til verslana eða starfsmanna](task-mgmt-assign-lists.md)
 
 [Verkstjórnun á sölustað](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Fylgdu þessum skrefum til að bæta við sérsniðnum yfirlitsvalkostum fyrir y
 [Búa til síðuvefslóð](create-page-url.md)
 
 [Unnið með birta hópa](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

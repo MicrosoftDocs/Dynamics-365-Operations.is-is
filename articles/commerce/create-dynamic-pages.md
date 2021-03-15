@@ -96,3 +96,6 @@ Til að hnekkja færibreytustilltri vefslóð með sérsniðinni síðu í Comme
 [Staðfesta aðgengi að efni síðu](verify-accessibility.md)
 
 [Stækkunarhæfni netrásar](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

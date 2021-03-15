@@ -166,3 +166,6 @@ Ferlið til að meðhöndla eftirágreiddan afslátt lánardrottins felur í sé
 - Búa til nákvæmar endurgreiðslukröfur
 - Safna væntanlegum og tímabundnum hagnaði í fjárhag
 - Uppfæra stöðu lánardrottins og rekstrarreikning með gjaldföllnu heimildinni
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

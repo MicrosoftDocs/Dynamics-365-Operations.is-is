@@ -47,3 +47,6 @@ Dynamics 365 Commerce svæði eru studd best af eftirtöldum vefvöfrum. Farið 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

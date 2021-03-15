@@ -197,3 +197,6 @@ Allt eftir nafnakerfinu getur kerfið reynt að úthluta númeri afurðarafbrig�
 
 [Stofna nafnakerfi afurðarafbrigðis fyrir skilgreind afurðarafbrigði](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

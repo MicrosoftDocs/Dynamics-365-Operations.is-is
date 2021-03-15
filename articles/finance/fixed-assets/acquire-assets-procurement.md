@@ -108,3 +108,6 @@ Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

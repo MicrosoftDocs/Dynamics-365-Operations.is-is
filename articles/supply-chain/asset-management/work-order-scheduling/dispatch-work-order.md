@@ -59,3 +59,6 @@ Myndin hér að neðan sýnir dæmi um sendingarval í glugganum **Áætla verkb
 [!NOTE]
 Ef þú vilt eyða áætlun í vinnupöntun velurðu verkbeiðnina í **Allar verkbeiðnir** og smellir síðan á **Eyða áætlun** á flipanum **Almennt**. Mundu að uppfæra handvirkt líftímastöðu verkbeiðni ef þú eyðir áætluninni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

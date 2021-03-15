@@ -77,3 +77,6 @@ ms.locfileid: "4976267"
 10. Smelltu á Vista.
 11. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

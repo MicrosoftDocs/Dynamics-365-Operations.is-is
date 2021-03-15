@@ -81,3 +81,6 @@ Eftirfarandi mynd sýnir stöðu fastra eigna.
 Eftirfarandi mynd sýnir fylgiskjalið sem er sent.
 
 [![Bókað nettóvirði](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

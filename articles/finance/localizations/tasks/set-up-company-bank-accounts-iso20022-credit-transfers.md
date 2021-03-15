@@ -51,3 +51,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.
 4. Færa inn eða veljið gildi í svæðinu bankareikning.
 5. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ ms.locfileid: "4966106"
     - Síða Beinnar afhendingar þjónar sem vinnusvæðis sem veitir innkaupaaðila yfirlit yfir allar sölupöntunarlínur sem eiga að vera afhentar beint og gerir þær mögulegt að stofna samsvarandi innkaupapantanir. Þar að auki þeir geti skoðað opna beinar afhendingarpantanir og staðfestar pantanir á flipunum Staðfestingu og Afhending.  
     - Þegar búið er að stofna pöntun fyrir beina afhendingu er það sjálfkrafa flutt í flipann Staðfestingu. Hægt er að velja að staðfesta pöntunina beint úr þessari síðu. Þegar innkaupin er að staðfesta það sjálfkrafa færist í flipanum Afhendingar, þar sem hægt er að skrá móttöku hans.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

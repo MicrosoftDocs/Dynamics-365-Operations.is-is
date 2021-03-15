@@ -61,3 +61,6 @@ Fyrir hlutatalningu uppfærist ekki **Síðasta reglulega talning** dagsetning/t
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Regluleg talning](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

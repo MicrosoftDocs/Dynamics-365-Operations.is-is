@@ -38,3 +38,6 @@ Greinin lýsir eiginleikanum að sameina sendingar í stöðvar sem eru sendar �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

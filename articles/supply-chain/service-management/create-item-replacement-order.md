@@ -67,3 +67,6 @@ Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

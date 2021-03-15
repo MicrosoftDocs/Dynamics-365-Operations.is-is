@@ -109,3 +109,6 @@ Til að leiðrétta bókaða fylgiseðla fyrir vörur sem eru virkar í vöruhú
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Til að laga þetta vandamál skal breyta klasaforstillingunni og stilla valkostinn **Virkja stöður** á *Nei*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

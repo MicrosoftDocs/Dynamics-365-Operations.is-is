@@ -111,3 +111,6 @@ Að sjálfgefnu, þegar þú bætir vörum við skilapöntun, er vörunum skila�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

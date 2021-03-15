@@ -54,3 +54,6 @@ Undir sumum kringumstæðum viljum við ekki endurstilla gagnaskemmu. Eftirfaran
 > Eftirfarandi punktar tilgreina tvö atriði sem endurstilling gagnaskemmunnar mun *ekki* gera. <br>
 > - Endurstillingar hreinsa ekki hönnun skýrslu. <br>
 > - Endurstillingar hreinsa ekki fyrirtækisgögn eða notendagögn nema þau séu valin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

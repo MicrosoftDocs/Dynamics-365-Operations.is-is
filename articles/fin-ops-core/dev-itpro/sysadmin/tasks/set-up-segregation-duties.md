@@ -42,3 +42,6 @@ Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af
 
 > [!IMPORTANT] 
 > Fylgni við reglur fyrir aðskilnað á skyldum er ekki staðfest þegar regla er stofnuð. Hægt er að stofna reglu sem stofnar árekstra fyrir fyrirliggjandi hlutverk. Fyrirliggjandi úthlutuð notandahlutverk geta einnig stangast á við nýju regluna. Staðfesta verður samræmi eftir að regla hefur verið stofnuð eða henni breytt. Frekari upplýsingar eru í [Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Bankayfirlitsfærslur sem voru merktar sem **Nýtt** á afstemmingarvinnublaði 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

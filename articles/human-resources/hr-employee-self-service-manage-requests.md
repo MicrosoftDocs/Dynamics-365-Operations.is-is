@@ -39,3 +39,5 @@ Stjórna fríbeiðnum úr vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** í D
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Hægt er að jafn marga þjónustustigssamninga og þörf er á til þess að bj
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

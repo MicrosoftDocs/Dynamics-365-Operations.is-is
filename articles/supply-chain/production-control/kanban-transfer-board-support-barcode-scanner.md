@@ -191,3 +191,6 @@ Staða valinnar vinnslu og stöðuna á öllum föstum vinnslum fyrir tilvik kan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

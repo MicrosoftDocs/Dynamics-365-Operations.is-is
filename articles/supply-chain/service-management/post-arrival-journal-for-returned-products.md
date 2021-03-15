@@ -57,3 +57,6 @@ Eftir að færslubók er bókuð eru skilavörurnar skráðar í birgðum og skj
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

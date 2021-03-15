@@ -84,3 +84,6 @@ ms.locfileid: "4961373"
 5. Í fellivalmyndinni í reitnum **Talningarflokkur** skal velja talningarflokk. Hægt er að velja ákveðinn talningarflokk sem nota á fyrir vöruna í tiltekið vöruhús sem var valið. Þegar talning fer fram í vöruhúsinu mun þessi talningarregla hnekkja almennri talningarreglu fyrir vöru.  
 6. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Færslusniðmát geta hjálpað til við að stofna færslur hraðar. Hægt er a
 - [Stilla skjalastjórnun](configure-document-management.md)
 - [Skilgreining og sending tölvupósts](configure-email.md)
 - [Dagsetningar-/tímagögn og tímabelti](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

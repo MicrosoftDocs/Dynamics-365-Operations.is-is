@@ -54,3 +54,6 @@ Valkosturinn **Skoða upplýsingar** er tiltækur á tvo vegu:
 
 - Ef stýring hefur getuna **Skoða upplýsingar** og hafi stýringin gildi er gildið birt sem tengill. Hægt er að smella á tengillinn til að opna síðuna sem inniheldur viðbótarupplýsingar.
 - **Skoða upplýsingar** er einnig valkostur í flýtivalmyndum. Nánari upplýsingar um hvenær flýtivalmyndir birtast við hægrismell er að finna í fyrri hlutanum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

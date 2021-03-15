@@ -54,3 +54,6 @@ Fyrsta skrefið er að búa til hvaða ábyrgðarsamninga lánardrottna sem þú
     4. Í reitnum **Prósenta** slærðu inn tryggingarhlutfall fyrir ábyrgðarlínuna. Hlutfallið gefur til kynna hve mikið fyrirtækið þitt tryggir.
 
 ![Ábyrgðarsíða](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

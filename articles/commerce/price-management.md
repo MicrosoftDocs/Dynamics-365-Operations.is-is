@@ -239,3 +239,6 @@ Að auki **aðeins** verðlagningarvél styður eftirfarandi verðlagningareigin
 Verð er einn mikilvægasti þátturinn sem stýrir ákvörðun á innkaupum að gera fyrir marga viðskiptavini, og margir viðskiptavinir bera saman verð á ýmsum síðum áður en þeir kaupa nokkuð. Til að tryggja að söluaðilar bjóði upp á samkeppnishæf verð verða þeir að fylgjast grannt með samkeppnisaðilum og auglýsa oft sig. Til að auðvelda þessum söluaðilum að laða að viðskiptavini, er mjög mikilvægt að afurðaleit, vafraeiginleikinn, listar og upplýsingasíða afurðar sýni nákvæmustu verðin.
 
 Í væntanlegri útgáfu Commerce, mun forritunarviðmótið (API) **GetActivePrices** skila verðum sem innihalda einfalda afslætti (t.d. staka línuafslætti sem eru ekki háðir öðrum vörum í körfunni). Á þennan hátt eru verðin sem eru sýnd nálægt raunverulegri upphæð sem viðskiptavinur greiðir fyrir vörurnar. Þetta API mun innihalda allar gerðir af einföldum afsláttum sem miðast við: afslætti tengsla, hollustu, vörulista og rásar. Að auki skilar API upplýsingum um heiti og gjaldgengi notaðra afslátta svo söluaðilar geti boði upp á ítarlegri lýsingar á verðinu og skapað óþreyju ef gjaldgengur afsláttur rennur brátt út.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

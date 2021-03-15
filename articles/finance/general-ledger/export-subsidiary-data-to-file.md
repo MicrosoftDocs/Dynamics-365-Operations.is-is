@@ -70,3 +70,6 @@ Síðan **Flytja út** (**Kerfisstjórnun \> Vinnusvæði \> Flytja inn/út**) e
 5. Veljið **Í lagi** til að keyra útflutninginn.
 
 Þegar útflutningi er lokið koma upp skilaboð sem sýna fjölda færslna sem var vistaður í hverja skrá. Síðan er hægt að flytja inn skrárnar í sameinuðu lögaðilanna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Eftir að uppsetningargögnin eru tiltæk ertu tilbúinn að búa til eign.
 1. Á síðunni **Allar virkar staðsetningar**, vertu viss um að virka staðsetningin þar sem þú vilt að eignin verði sjálfkrafa búin til noti þá gerð virkrar staðsetningar sem þú bjóst til í þessu skyni.
 2. Velja virka staðsetningu á listanum.
 3. Veldu **Uppfærðu stöðu virkrar staðsetningar**, og veldu síðan líftímastöðuna sem þú bjóst til í þessum tilgangi. Ein eign er nú sjálfkrafa sett upp á virkri staðsetningu. Þessi eign er með sama kenni og heiti og virka staðsetningin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

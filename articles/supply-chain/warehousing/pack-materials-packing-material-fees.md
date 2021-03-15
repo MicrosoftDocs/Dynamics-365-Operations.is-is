@@ -111,3 +111,6 @@ Mögulegt er að prenta þyngd umbúða og gefa til kynna á reikningnum hver gr
 
 1. Opnið **Viðskiptakröfur \> Setja upp \> Færibreytur viðskiptakrafna**.
 1. Á flipanum **Uppfærslur**, á flýtflipanum **Reikningur**, stillirðu valkostinn **Prenta þyngd umbúðaefnis** á **Já**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "5112991"
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
 4. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

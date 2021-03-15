@@ -108,3 +108,6 @@ Annars getur fyrirtækið stillt valkostinn **Leyfa að hnekkja greiðslu** á *
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Greiðslumátar í símaverum](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

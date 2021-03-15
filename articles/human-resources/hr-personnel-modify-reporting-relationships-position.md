@@ -44,3 +44,6 @@ ms.locfileid: "5127056"
 12. Færa inn eða velja gildi í svæðis veitir Skýrslum til stöðu .  Til dæmis 000437.
 13. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

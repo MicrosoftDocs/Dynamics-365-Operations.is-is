@@ -114,3 +114,6 @@ Fylgdu þessum skrefum til að fjarlægja núverandi tengsl milli viðhaldseigna
 1. Finndu og opnaðu eignina.
 1. Á flýtiflipanum **Eign** hreinsaðu gildið af svæðinu **Virk staðsetning**.
 1. Í aðgerðarúðunni skal velja **Vista**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

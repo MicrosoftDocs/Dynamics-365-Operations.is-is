@@ -48,3 +48,6 @@ ms.locfileid: "4971829"
 12. Smelltu á **Bóka**.
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

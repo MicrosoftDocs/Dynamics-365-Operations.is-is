@@ -86,3 +86,6 @@ Til að flytja út fjárhagsskýrslu, á Aðgerðasvæðinu skal smellt á **Bir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

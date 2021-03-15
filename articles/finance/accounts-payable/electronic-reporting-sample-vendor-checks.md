@@ -43,3 +43,6 @@ Microsoft Dynamics 365 Finance inniheldur sýnisnið þar sem ávísunin er efst
 - Þegar greiðslur eru myndaðar fyrir skilgreindan bankareikning í greiðslubók verða ávísanirnar prentaðar með sniði sem tilgreint er.
 
 Nánari upplýsingar eru í [Breyta sniði rafrænnar skýrslugerðar](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

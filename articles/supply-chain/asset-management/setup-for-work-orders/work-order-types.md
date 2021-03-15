@@ -51,3 +51,6 @@ Nánari upplýsingar um líftímastöður verkbeiðna og verkefnastig, sjá [Lí
 8. Veljið **Vista**.
 
 ![Gerðir verkbeiðni](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

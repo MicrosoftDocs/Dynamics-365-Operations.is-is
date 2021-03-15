@@ -249,3 +249,6 @@ Ef færsla í undirbók er röng þegar hún er forskoðuð áður en reikningur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

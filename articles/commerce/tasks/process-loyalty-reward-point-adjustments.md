@@ -49,3 +49,6 @@ ms.locfileid: "4991327"
 15. Smellt er á kortafærslur
 16. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

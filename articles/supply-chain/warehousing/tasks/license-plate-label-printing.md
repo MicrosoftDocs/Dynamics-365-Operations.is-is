@@ -100,3 +100,6 @@ ms.locfileid: "4977114"
 7. Veljið **Vista**.
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

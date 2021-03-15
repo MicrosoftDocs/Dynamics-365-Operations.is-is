@@ -55,3 +55,6 @@ ms.locfileid: "4985113"
 16. Smíðaðu þitt verkefni og opnaðu svo forritið til að skoða niðurstöðurnar.
 
     [![Vinnusvæði lokið](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Vegna þess að gögnin úr töflunni **Afurðir** eru hönnuð til að flæða 
 ## <a name="quote-and-quote-product-tables"></a>Töflur tilboðs og afurðartilboðs
 
 Fyrir töfluna **Tilboð** skal fylgja leiðbeiningunum í hlutanum [Pöntunartafla](#order-table) fyrr í þessu efnisatriði. Fyrir töfluna **Afurðartilboð** skal fylgja leiðbeiningunum í hlutanum [Tafla afurðapöntunar](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

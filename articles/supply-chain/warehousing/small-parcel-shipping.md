@@ -279,3 +279,6 @@ Fylgið þessum skrefum til að pakka sendingunni.
     ![Dæmi um merkimiða](media/sps-label-example.png "Dæmi um merkimiða")
 
 1. Takið eftir að gildunum **Skráarkenni gáms** og **Heildarfarmur** hefur verið bætt við sem mótteknum frá flutningsaðila.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

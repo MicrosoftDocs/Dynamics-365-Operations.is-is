@@ -53,3 +53,6 @@ Ekki er hægt að velja land/svæði fyrir sjálfgefna grunnstillingu, þannig a
 4.  Opnaðu flipann **Land/svæði** til að velja landið/svæðið sem á að nota grunnstillinguna fyrir.
 5.  Ljúktu grunnstillingunni með því að fylgja leiðbeiningunum um sjálfgefna grunnstillingu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

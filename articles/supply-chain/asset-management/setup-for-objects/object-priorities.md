@@ -52,3 +52,6 @@ Nánari upplýsingar um uppsetninguna sem er tengd útreikningi á matseinkunnum
 
 > [!NOTE]
 > Ef þú breytir færslu eignaþjónustustigs á **Þjónustustig** síðu eftir að þú hefur þegar notað það í verkbeiðni, þjónustustig fyrir viðhaldsbeiðnir og verkbeiðnir er ekki uppfært í samræmi við það.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

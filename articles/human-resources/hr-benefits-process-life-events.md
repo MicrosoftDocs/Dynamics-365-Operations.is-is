@@ -57,3 +57,6 @@ Til dæmis, ef í dag er 1. febrúar, og þann 14. febrúar, áætlar starfsmað
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
 4. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

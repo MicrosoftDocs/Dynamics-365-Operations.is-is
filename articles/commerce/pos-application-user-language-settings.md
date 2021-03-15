@@ -64,3 +64,6 @@ Tungumálastilling POS notanda er stillt í **Allir starfsmenn** á síðunni **
 | **Fyrirtæki** | Sjálfgefinn                    | Sjálfgefinn                                                       |
 | **Verslun**   | Hnekkir fyrirtæki          | Hnekkir fyrirtæki                                             |
 | **Notandi**    | Hnekkir verslun eða fyrirtæki | Aldrei                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

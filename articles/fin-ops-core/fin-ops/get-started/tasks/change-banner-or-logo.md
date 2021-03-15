@@ -39,3 +39,6 @@ Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppf�
 6. Farðu í **Skoðunarrúðu > Kerfiseiningar > Almennt > Almennt > Sjálfgefið mælaborð**. Ný borði eða merki fyrirtækis ættu að birtast á á yfirliti.  
     
     Hugsanlega þarf að breyta fyrirtækinu, og nota fyrirtækjaval, á það sem borða var hlaðið upp fyrir.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

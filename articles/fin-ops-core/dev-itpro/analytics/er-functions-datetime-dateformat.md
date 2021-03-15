@@ -80,3 +80,6 @@ Ef menningin er ekki skilgreind sem frumbreyta fyrir kallaða aðgerð er gildi 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dagsetningar og tímavirkni](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

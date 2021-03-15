@@ -540,3 +540,6 @@ Ef loka á röðunarstaðsetningum handvirkt, verður valkosturinn **Loka sjálf
 
 > [!IMPORTANT]
 > Þegar vinna birgðahreyfingar hefur verið búin til í röðunarstaðsetningu, má ekki hætta við vinnuna. Annars verður staðnum og gámum hans eytt úr kerfinu og ekki tiltækir fyrir frekari úrvinnslu. Birgðir verða einnig fjarlægðar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

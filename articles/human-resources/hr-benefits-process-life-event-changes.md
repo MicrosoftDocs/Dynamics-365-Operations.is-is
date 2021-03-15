@@ -52,3 +52,6 @@ Vinnsla á atburði í lífi atburða í Microsoft Dynamics 365 Human Resources 
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
 4. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

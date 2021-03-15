@@ -95,3 +95,6 @@ Vinnusvæðið samanstendur af samanteknum reitum og tveimur listum. Listinn **O
 ### <a name="manually-creating-a-new-released-product"></a>Handvirk stofnun á nýrri útgefinni afurð
 
 Hægt er að stofna útgefna afurð í einni keyrslu, allt eftir viðskiptaferlum fyrirtækisins og þeim reglum sem gilda um hvort þessi virkni skuli notuð. Þessi virkni stofnar nýja afurð og gefur hana sjálfkrafa út til núverandi lögaðila. Til að stofna nýja afurð skaltu smella **Útgefnar afurðir** á vinnusvæðinu **Viðhald útgefinnar afurðar** eða á listasíðunni **Útgefin afurð**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

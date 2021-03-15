@@ -61,3 +61,6 @@ Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda ef
 
 [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)  
 [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

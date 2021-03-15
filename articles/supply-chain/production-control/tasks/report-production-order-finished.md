@@ -51,3 +51,6 @@ ms.locfileid: "5011148"
 4. Í listanum skal smella á tengilinn í valinni línu.
     * Bóka sem tilbúið færslubók er bókuð. Ef óskað er að leiðrétta færslubókina handvirkt er hægt að stofna nýja færslubók þar sem hægt er að gera breytingar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

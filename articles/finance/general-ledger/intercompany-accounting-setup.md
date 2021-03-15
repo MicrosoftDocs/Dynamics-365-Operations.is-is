@@ -49,3 +49,6 @@ Hægt er að setja upp umhverf tengsl á síðunni **Samstæðulyklar** með þv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

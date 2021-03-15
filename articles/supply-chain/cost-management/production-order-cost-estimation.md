@@ -64,3 +64,6 @@ Kostnaðarmat felur líka í sér eftirfarandi upplýsingar:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

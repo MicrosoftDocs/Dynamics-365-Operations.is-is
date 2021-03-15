@@ -66,3 +66,6 @@ ms.locfileid: "4964795"
 3. Keyra 1070 dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

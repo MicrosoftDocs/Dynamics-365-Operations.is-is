@@ -38,3 +38,6 @@ ms.locfileid: "5016403"
 5. Smellið á „Í lagi“.
     * Innkaupapöntun má nú ljúka og unnin eins og hver önnur pöntun. Það eru engar sérstakar einkenni tengdar því hvernig þetta er gert. Reikningur reikningsfærir færslu á gjalddaga á lánardrottnalykil sem stofnaður var með pöntun og þá verður greiðslan unnin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

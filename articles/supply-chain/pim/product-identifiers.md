@@ -189,3 +189,6 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 ## <a name="related-topic"></a>Tengt efni
 
 [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

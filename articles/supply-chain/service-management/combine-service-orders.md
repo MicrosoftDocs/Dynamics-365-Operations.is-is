@@ -112,3 +112,6 @@ Viðbótar flokkun þjónustupantanalína í þjónustupantanir fer fram í samr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5017293"
 2. Nota flýtiafmörkun til að finna starfsmann sem var nýverið bætt við sem umsækjanda.
 3. Veljið umsækjanda Listi Undirbúningsaðila sýnir fólk sem hefur heimild til að panta hluti fyrir hönd umsækjandans sem er valinn á rúðunni vinstra megin.  Hægt er að bæta við fleiri undirbúningsaðilum hér. Þetta yfirlit leyfir þér einnig að veita umsækjanda heimild til að stofna beiðnir í lögaðilum og rekstrareiningum sem eru ekki aðal lögaðili eða rekstrareining þess einstaklings.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

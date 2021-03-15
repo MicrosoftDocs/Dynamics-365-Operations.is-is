@@ -85,3 +85,6 @@ Engin frekari skref eru nauðsynleg á síðum rafrænna viðskipta til að gera
 ## <a name="considerations-for-distributed-order-management"></a>Það sem skal hafa í huga varðandi dreifingarstjórnun pöntunar
 
 Eiginleikar [dreifingarstjórnunar pöntunar (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) í Commerce hunsa allar sölulínur sem eru merktar að verði sóttar í verslun. Þessir eiginleikar hafa verið uppfærðir til að tryggja að sölulínur sem eru tengdar við skilgreinda afhendingarmáta fyrir sóttar pantanir líti framhjá DOM-reglunni og verði ekki endurúthlutaðar á nýtt vöruhús uppfyllingar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

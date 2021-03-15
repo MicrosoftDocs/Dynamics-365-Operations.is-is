@@ -118,3 +118,6 @@ Til að gera það auðveldara og fljótlegra að skilgreina aðgerðir sem eru 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

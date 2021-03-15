@@ -40,3 +40,6 @@ Við notkun útgáfa sem eru eldri en útgáfa 10.0.13 og þú notar ekki kostna
 > Þú ert að fara að framkvæma birgðalokun með dagsetningu %1. Engin keyrsla á bakfærslukostnaðaraðferð útreiknings með dagsetningu %1 sem samsvarar tímabilslokum hefur verið skráð. Munið að keyra bakfærslukostnaðaraðferðar með dagsetningu á %1 sem samsvarar lokun tímabilsins. Mat á birgðum, kostnaði seldra vara og frávikum er mögulega ekki rétt í undirbók eða fjárhag fyrr en þetta hefur verið keyrt.
 
 Leyst hefur verið úr vandamálinu í útgáfu 10.0.13 og nýrri. Frekari upplýsingar er að finna í [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

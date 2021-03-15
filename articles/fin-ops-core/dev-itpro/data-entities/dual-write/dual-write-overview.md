@@ -109,3 +109,6 @@ Ef búa á til samstæðu með Finance and Operations-forritum gera tvöföld sk
 
 Frekari upplýsingar um breytingar á næstunni er að finna í [Nýjungar eða breytingar í tvöföldum skrifum](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í skýrslunni.
 |           Afskráningar: Hrakvirði            |                                                                                               Hrakvirði eignabókarinnar með afskráningu - hrakfærslur.                                                                                               |
 |           Afskráningar: Hagnaður/tap            |                                                                                 Hagnaðurinn eða tapið sem er reiknað sem hluti af afskráningarfærslu fyrir eignabókina.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

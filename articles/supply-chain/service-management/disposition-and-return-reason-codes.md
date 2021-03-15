@@ -53,3 +53,6 @@ Nota ástæðukóða skila til að lýsa ástæðu fyrir því að viðskiptavin
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

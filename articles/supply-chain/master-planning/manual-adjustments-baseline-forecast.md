@@ -84,3 +84,6 @@ Einnig er hægt að gera handvirkar leiðréttingar á spá í **upplýsingar ef
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

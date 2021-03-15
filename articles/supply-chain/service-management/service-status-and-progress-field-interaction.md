@@ -94,3 +94,6 @@ Ef allar línur í þjónustupöntun eru merktar sem **Bókað** er framvinda p�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

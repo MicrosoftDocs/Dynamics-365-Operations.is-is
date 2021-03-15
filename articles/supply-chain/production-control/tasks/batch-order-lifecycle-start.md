@@ -91,3 +91,6 @@ Skilyrði til að keyra ferlið með öðru gagnamengi eru útgefin afurð með 
 12. Lokið síðunni.
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -236,3 +236,5 @@ Til að nota skilyrtar spurningar til að stofna spurningastigveldi í spurninga
 Lögaðili býður bæði vörur og þjónustu fyrir viðskiptavini sína. Eins og á sér yfirleitt stað í slíkum tilfellum, kaupa sumir viðskiptavinir aðeins vörur, sumir kaupa aðeins þjónustu og sumir kaupa bæði vörur og þjónustu. Ef fyrirtækið vill dreifa ánægjukönnun er hægt að nota skilyrðisbundið skipulag fyrir spurningalistann til þess að koma í veg fyrir að viðskiptavinir sem einungis kaupa þjónustu þurfi að svara spurningum um vörur. 
 
 Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar A fyrir spurningu 1, er spurning 2 næst í spurningaröðinni. Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar A við spurningu 1, er spurning 5 næst.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Að uppfylla kröfufærslu öryggisbirgða er tekið úr forgangi ef kerfið ák
 Í þekjufasa aðaláætlanagerðar er ekki áfylling öryggisbirgða ekki lengur sett úr forgangi. Nota má lagerbirgðir á undan öllum öðrum tegundir eftirspurnar. Við útreikning tafa verður bætt við nýjum rökum til að fara yfir seinkaðar sölulínur, BOM línu kröfur og allar aðrar tegundir eftirspurnir, til að ákvarða hvort hægt væri að afhenda þau á réttum tíma, að því tilskildu að öryggisbirgðir sé notaður. Ef kerfið gefur til kynna að það geti dregið úr töfum með því að nota öryggisbrigðir, þá munu sölulínur eða BOM línur setja öryggisbirgðir í staðinn fyrir upphaflega þekju sína og kerfið muni kveikja á áfyllingu öryggisbirgða í staðinn.
 
 Ef áætlunin eða varan er ekki settur upp til útreiknings seinkunar, þá hafa skorður öryggisbirgðirnar sama forgang og aðrar eftirspurnartegundir. Þetta þýðir að það er frátekning á lager og aðrar tiltækar birgðir á undan öðrum tegundir eftirspurnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

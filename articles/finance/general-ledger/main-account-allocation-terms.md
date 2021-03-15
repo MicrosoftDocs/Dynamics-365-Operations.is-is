@@ -69,3 +69,6 @@ Búið er að skilgreina kostnaðarstað fyrir fyrirtækið sem kallast FYRIRTÆ
 > Hægt er að nota hnappinn **Afrita** til að tvítaka valda úthlutun.
 
 Þegar úthlutunarskilmáli er stofnaður fyrir aðallykil, bókar kerfið nýtt fylgiskjal sjálfkrafa þegar fylgiskjal er bókað sem samsvarar fjárhagsvíddum uppruna í úthlutunarskilmálunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "4797988"
     * Til dæmis: Haft fyrir ættleiðingu  
 12. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

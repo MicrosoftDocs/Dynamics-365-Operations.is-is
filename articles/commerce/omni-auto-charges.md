@@ -221,3 +221,6 @@ Ef notendur handvirkt hunsa reiknuð gjöld eða bæta gjaldi handvirkt við fæ
 
 [Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

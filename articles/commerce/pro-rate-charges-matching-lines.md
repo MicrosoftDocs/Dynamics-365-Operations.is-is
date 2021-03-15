@@ -174,3 +174,6 @@ Vegna þess að skilgreining sjálfvirks gjalds er stillt til að hlutfallsskipt
 [Ítarleg sjálfvirk gjöld fyrir omni-rás](omni-auto-charges.md)
 
 [Kveikja á og grunnstilla sjálfvirk gjöld eftir rás](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

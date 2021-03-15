@@ -381,3 +381,6 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
 5. Veljið gátreitinn **framselja** ef notandinn á að geta framselt verkinu til annars notanda.
 6. Veljið gátreitinn **endurúthluta** ef notandinn á að geta endurúthlutað verkinu til annars notanda í vinnuliðalistanum.
 7. Veljið gátreitinn **Losa** ef notandinn á að geta endurúthlutað verkinu til vinnuliðalista. Annar notandi getur þá ljúka verkefninu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Notaðu taxta til að ákvarða hversu mikið launþegar og vinnuveitendur grei�
    | **Hlutfall reykingamanns fyrir sveigjanleg útgjöld** | Fjöldi flex eykur ávinningskostnaðinn, miðað við útreikninginn sem er skilgreindur fyrir stig stig fyrir reykingarfólk. |
 
 5. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

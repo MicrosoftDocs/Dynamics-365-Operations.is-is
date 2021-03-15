@@ -53,3 +53,6 @@ Nánari upplýsingar er að finna í [Stofna samstæðuhópa og fleiri samstæð
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

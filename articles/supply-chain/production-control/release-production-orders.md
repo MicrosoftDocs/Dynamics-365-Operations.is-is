@@ -63,3 +63,6 @@ Vinnu fyrir tiltekt hráefnis er stofnuð á meðan á losun stendur. Vinna er m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Til að ráðstafa viðskiptaumhverfinu í Commerce, sjá [Úthlutun Commerce ma
 [Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

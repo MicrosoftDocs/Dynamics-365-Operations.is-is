@@ -353,3 +353,6 @@ Eftirfarandi aðstæður sýna hvernig hægt er að nota samstæðureglur sendin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

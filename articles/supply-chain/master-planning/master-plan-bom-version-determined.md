@@ -43,3 +43,6 @@ Gild uppskriftarútgáfa, hvort sem hún er svæðistengd eða almenn, verður a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

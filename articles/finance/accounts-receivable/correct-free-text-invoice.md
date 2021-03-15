@@ -50,3 +50,6 @@ Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo veg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

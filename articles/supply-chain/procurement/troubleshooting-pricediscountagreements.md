@@ -124,3 +124,6 @@ Búist er við þessari hegðun. Vegna þess að beiðnir eru ekki alltaf samþy
 
 Hægt er að stofna verðsamninga fyrir öll svör fyrir beiðni um tilboð (tilboðsbeiðni), óháð því hvort þau voru samþykkt eða þeim hafnað. Frekari upplýsingar er að finna í [Yfirlit yfir beiðni um tilboð (tilboðsbeiðni)](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

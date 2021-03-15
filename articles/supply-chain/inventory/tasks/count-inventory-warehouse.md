@@ -55,3 +55,6 @@ ms.locfileid: "5000097"
 1. Veldu **Birgðir**.
 2. Veldu **Færslur**. Hér er hægt að sjá tengdar færslur sem stofnast þegar talningarbók birgða er bókuð.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

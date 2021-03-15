@@ -129,3 +129,6 @@ Sendið tölvupóst á [Innsýn í greiðslur viðskiptavinar (forskoðun)](mail
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
 Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

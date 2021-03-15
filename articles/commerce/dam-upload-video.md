@@ -72,3 +72,6 @@ Ef þú ert að hlaða inn mörgum tegundum eigna samtímis (til dæmis myndum o
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
 
 [Hlaða upp og þjóna föstum skrám](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

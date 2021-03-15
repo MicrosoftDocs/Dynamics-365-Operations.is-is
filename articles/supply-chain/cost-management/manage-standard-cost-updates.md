@@ -51,3 +51,6 @@ Ef nýtt staðlað verð er virkjað verður birgðavirði yfirleitt endurmetið
 - **Engar** – Engar fjárhagsvíddir eru bókaðar í færslum endumats. Ef lykilskipulagið felur í sér áskilda fjárhagsvídd mun endurmatsferlið halda keyrslu áfram, en mun stofna bókhaldsfærslur sem eru ekki með neinar fjárhagsvíddir. Í slíku tilfelli koma fyrst upp viðvörunarboð þannig að hægt sé að hætta við endurmatið ef nauðsyn krefur.
 - **Tafla** - Fjárhagsvíddir vörunnar eru bókaðar í endurmatsfærslunum. Þetta er sjálfgefin stilling og er í samræmi við upprunalega virkni kerfisins án þess að kveikt sé á eiginleikanum *Valmöguleikar á að gera fjárhagsvíddir sjálfgefnar fyrir endurmat á staðalkostnaði birgða*.
 - **Bókun** - Fjárhagsvíddir færslunnar sem verið er að endurmeta eru bókaðar á endurmatsfærslurnar. Sjálfgefið er að fjárhagsvíddir upprunalega birgðarreiknings færslunnar séu notaðar bæði fyrir birgðarreikninginn og endurmatsreikninginn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

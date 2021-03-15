@@ -43,3 +43,6 @@ Hægt er að nota **Leiðrétting á lagerbirgðum** síðuna til að leiðrétt
 -   5. febrúar: Magnið 1 á verðinu 13.00 USD
 
 Ef stilla á kostnað þessara tveggja vara á USD 15.00 skal nota valkostinn um leiðréttingu lagerbirgða til að leiðrétta opna lagerbirgðamagnið frá síðasta birgðalokunartímabili. **Ábending:** Bókunardagsetning lagerbirgðaleiðréttingarfærslunnar verður dagsetning síðustu birgðalokunar. Ekki er hægt að breyta þessari dagsetningu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

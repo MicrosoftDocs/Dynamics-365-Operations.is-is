@@ -95,3 +95,6 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 [Eining fyrir bálk með efni](add-hero-module.md)
 
 [Myndspilaraeining](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

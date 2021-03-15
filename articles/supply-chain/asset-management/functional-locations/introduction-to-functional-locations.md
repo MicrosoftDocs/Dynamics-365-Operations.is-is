@@ -82,3 +82,6 @@ Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla 
 | Bilanir                              | Opnaðu síðuna **Eignabilanir** þar sem þú getur skoðað lista yfir skráningar á eignabilunum sem tengjast valinni virkri staðsetningu. |
 | Uppfæra stöðu virkrar staðsetningar    | Uppfæra stig valinnar virkrar staðsetningar.                                                                                        |
 | Kladdi líftímastöðu                 | Skoðaðu notkunarskrá sem sýnir stig valinnar virkrar staðsetningar.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

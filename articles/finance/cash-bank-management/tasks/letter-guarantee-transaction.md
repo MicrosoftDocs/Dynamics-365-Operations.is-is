@@ -147,3 +147,6 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
     * Staðfesta bókaðar færslur færslubókar.  
 16. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

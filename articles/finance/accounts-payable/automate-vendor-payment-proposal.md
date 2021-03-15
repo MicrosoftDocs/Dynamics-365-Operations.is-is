@@ -143,3 +143,6 @@ Eftirtöldum skyldum og réttindum hefur verið bætt við fyrir sjálfvirkar gr
 | Spyrjast fyrir um áætlunartilvik | Starfsmaður viðskiptaskulda, starfsmaður miðstýrðrar greiðslu viðskiptaskulda | Þessi aðgangsheimild veitir réttindi til að skoða tilvik sjálfvirkra greiðslutillaga og tilvika í gegnum eftirfarandi réttindi:<ul><li>Skoða áætlunartilvik</li><li>Skoða vikulegt yfirlit tilviks</li></ul> |
 | Spyrjast fyrir um áætlunarraðir      | Engum                                                                       | Þessi aðgangsheimild veitir réttindi til að skoða stillingar raðanna og tilvika í gegnum eftirfarandi réttindi:<ul><li>Skoða áætlunartilvik</li><li>Skoða listasíðu tilvika</li><li>Skoða vikulegt yfirlit tilviks</li></ul>|
 | Viðhalda áætlunartilvikum     | Engum                                                                       | Þessi aðgangsheimild veitir réttindi til að stofna og vinna með tilvik í gegnum eftirfarandi réttindi:<ul><li>Viðhalda áætlunartilvikum</li><li>Skoða vikulegt yfirlit tilviks</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

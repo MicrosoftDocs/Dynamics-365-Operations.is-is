@@ -169,3 +169,6 @@ Allar breytingar sem gerðar voru í svari raðarlínu eru sýndar. Hins vegar e
 
 ### <a name="open-confirmed-orders"></a>Opna staðfestar pantanir
 Þegar innkaupapöntun er staðfest af viðskiptavini (það er að segja, stöðu innkaupapöntunar er breytt í stöðuna **Staðfest**) birtist hún í opinni staðfestri pöntun. Hún verður áfram á listanum þar til hún er skráð sem móttekin af viðskiptavini.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

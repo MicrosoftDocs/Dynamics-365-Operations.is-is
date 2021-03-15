@@ -95,3 +95,6 @@ Eftirfarandi tafla sýnir hvaða sölupantanir notendur í hverju vefhlutverki f
 
 > [!NOTE]
 > Þótt bæði Sam og Jane séu tengiliðir sem vinna fyrir viðskiptavin X geta þau aðeins séð þær pantanir sem þau hafa gert og ekkert annað. Þótt May sé með pöntun í kerfinu, getur hún ekki séð pöntunina í viðskiptavinagáttinni því að hún er ekki með heimild. (Auk þess hlýtur hún að hafa verið lagt pöntunina inn í gegnum aðra rás en viðskiptavinagáttina.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

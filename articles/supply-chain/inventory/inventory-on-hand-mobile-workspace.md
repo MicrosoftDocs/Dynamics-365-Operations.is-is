@@ -129,3 +129,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
     -   Eftir efnislegum birgðum (Þetta yfirlit táknar heildarmagn).
     -   Eftir efnislegum frátektum (Þetta yfirlit táknar frátekið magn).
     -   Eftir efnislegu vörum sem eru tiltækar (þetta yfirlit táknar tiltækt magn sem ekki er bókað).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

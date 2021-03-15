@@ -60,3 +60,6 @@ ms.locfileid: "4976814"
 5. Velja **Úthluta**.
 6. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

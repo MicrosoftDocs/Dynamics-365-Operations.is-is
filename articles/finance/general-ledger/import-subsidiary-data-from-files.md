@@ -60,3 +60,6 @@ ms.locfileid: "4988825"
 8. Stillið valkostinn **Runuvinnsla** á **Já** til að keyra sameininguna sem runuvinnslu á tilteknum tíma. Til að keyra sameiningu strax skal velja **Í lagi**. 
 
 Færslurnar og stöðurnar sem tilgreindar voru fyrir samstæðu í dótturfyrirtækjunum er bætt við viðeigandi lykla sameinaða lögaðilans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

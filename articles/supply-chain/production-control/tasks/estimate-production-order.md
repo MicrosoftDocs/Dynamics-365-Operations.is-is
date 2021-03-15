@@ -41,3 +41,6 @@ Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.
 1. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
 2. Smellt er á Skoða útreikningsupplýsingar.
     * Þessi síða sýnir sundurliðun kostnaðar. Til dæmis er hægt að skoða samtals kostnaðarverð á einingu fyrir endanlegu vöruna í fyrstu línunni. Síðari línurnar innihalda kostnað samkvæmt uppskrift, framleiðsluleið og óbeinum kostnaði.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Til að sannprófa tilgátu ætti velgengni eða mislukkun tilraunar að vera te
 
 ## <a name="next-step"></a>Næsta skref
 [Setja upp tilraun](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

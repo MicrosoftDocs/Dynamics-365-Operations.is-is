@@ -241,3 +241,6 @@ Sniðið verður fyrst að vera tiltæk í skilgreiningum rafrænnar skýrsluger
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 [Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

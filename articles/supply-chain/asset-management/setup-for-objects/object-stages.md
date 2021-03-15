@@ -69,3 +69,6 @@ Eftir að þú hefur búið til tilskildar líftímastöður eigna geturðu sett
 
 6. Veldu **Uppfærslur á líftímastöðu** til að skilgreina líftímastöður eignar sem geta fylgt valinni líftímastöðu.
 7. Þú notar flýtiflipann **Eignarstaða** ef þú annast eignir sem þú færð til viðgerðar. Í hlutanum **Innleið/útleið**, getur þú valið líftímastöður eigna til að gefa til kynna verkflæði eignar sem þú færð til viðgerðar. Ef þú býður upp á eignir til viðskiptavina eða deilda, í **Lán** kafla, getur þú valið líftímastöðu fyrir lánaeignir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Til að tilgreina Þekjutímamörk fyrir tiltekna aðaláætlun skal fylgja þes
 - Eftirspurn innan samstæðu verður hunsuð ef umbeðin sendingardagsetning sem er reiknuð er ekki innan þekjutímamarka. Athugið að fyrir innbyggða aðaláætlanagerð takmarkast eftirspurn innan samstæðu ekki við þekjutímamörk.
 - Eftirspurnarspár verða hunsaðar ef dagsetning fjárhagsáætlunar er ekki innan þekjutímamarka. Athugið að fyrir innbyggða aðaláætlanagerð takmarkast eftirspurnarspár innan samstæðu ekki við þekjutímamörk.
 - Fínstilling skipulagningar tekur tillit til tímabeltis. Hún tekur tillit til tímabeltis á svæðum framboðs og eftirspurn og tíma áætlunarkeyrslu. Til dæmis er aðaláætlanagerð ræst klukkan 11:00 þann 15. október frá svæði í Danmörku (tímabelti GMT+1) og Þekjutímamörk upp á tíu daga eru notuð. Í slíku tilfelli er framboð og eftirspurn frá svæði í Seattle (tímabelti GMT-8) haft með þangað til kl. 02:00 þann 25. október (= tíu sólarhringa eftir að aðaláætlanagerð var ræst mínus tímamismunur upp á níu klukkustundir). Athugið að innbyggð aðaláætlunarvél tekur aðeins tillit til dagsetningu tímamarkanna. Þess vegna getur útkoman verið önnur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

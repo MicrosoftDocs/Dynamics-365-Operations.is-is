@@ -84,3 +84,6 @@ Til að kveikja á eiginleika fyrir takmörk B2B-pöntunarmagns í Commerce-vefs
 [Stjórna notendum viðskiptafélaga á B2B-svæði fyrir rafræn viðskipti](manage-b2b-users.md)
 
 [Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

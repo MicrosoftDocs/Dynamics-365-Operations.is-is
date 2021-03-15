@@ -113,3 +113,6 @@ Eftirfarandi tafla lýsir flýtivísum á lyklaborði sem hægt er að nota þeg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

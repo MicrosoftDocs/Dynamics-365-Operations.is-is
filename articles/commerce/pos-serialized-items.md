@@ -135,3 +135,6 @@ Prófanir á raðnúmerum munu einnig eiga sér stað þegar notandi framkvæmir
 [Birgðaaðgerð á innleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Birgðaaðgerð á útleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

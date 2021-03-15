@@ -120,3 +120,6 @@ Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

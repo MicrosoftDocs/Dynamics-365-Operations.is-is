@@ -225,3 +225,6 @@ Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þ�
     1. Veldu útlitið til að uppfæra.
     2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Ljúka skráningarferli fjárhags**.
     3. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

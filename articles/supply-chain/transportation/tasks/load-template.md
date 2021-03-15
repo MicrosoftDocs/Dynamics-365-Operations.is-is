@@ -53,3 +53,6 @@ ms.locfileid: "5005053"
 1. Á aðgerðasvæðinu, í flipanum **Framboð og eftirspurn**, í flokknum **Bæta við**, skal velja **Við nýjan farm**.
 1. Í svarglugganum **Úthlutun hleðslusniðmáts**, í reitnum **Kenni hleðslusniðmáts**, skal velja sniðmátið sem á að nota.
 1. Veljið **Í lagi** til að nota sniðmátið.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

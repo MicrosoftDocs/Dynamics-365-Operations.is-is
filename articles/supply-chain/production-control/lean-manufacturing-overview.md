@@ -82,3 +82,6 @@ Auk þess, Lean-framleiðsla styður innkaupa- og innheimtuferli fyrir þjónust
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

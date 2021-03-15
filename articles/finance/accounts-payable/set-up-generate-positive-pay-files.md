@@ -164,3 +164,6 @@ Ef nauðsynlegt er að breyta jákvæðri greiðsluskrá er hægt að afturkalla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

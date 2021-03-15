@@ -43,3 +43,6 @@ Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þessi grein út
 12. Veljið **Í lagi**.
 13. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

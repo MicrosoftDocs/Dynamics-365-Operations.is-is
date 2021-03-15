@@ -343,3 +343,6 @@ Hér eru nokkrar athugasemdir og ábending til að vinna með eiginleikann:
 
 - Ef þú ert að nota kvikar staðsetningar verður áfyllingarvinnan búin annað hvort til fyrir fyrsta tiltæka staðsetningu eða fyrir staðsetningu sem er þegar með birgðum, ef aðgerð í staðsetningarleiðbeiningum er sett upp til að nota áætlun um **Sameiningu**.
 - Ef þú ert að nota fasta staðsetningar í stað svæða, ættir þú að nota [venjulega lágm./hám. áfyllingu](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

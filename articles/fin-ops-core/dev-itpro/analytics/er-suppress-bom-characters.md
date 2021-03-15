@@ -66,3 +66,6 @@ Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúkið se
 ## <a name="see-also"></a>Sjá einnig
 
 - [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Hægt er að fara í **áætlunarsíuna** úr **Aðaláætlunum** þegar fínsti
 [Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
 
 [Hætta við áætlunarvinnslu](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

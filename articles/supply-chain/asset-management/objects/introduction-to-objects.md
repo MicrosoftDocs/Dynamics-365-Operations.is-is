@@ -77,3 +77,6 @@ Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla 
 | Varahlutir          | Skoðaðu lista yfir viðurkennda og aðra varahluti sem hægt er að nota á eignina.                                                                               |
 | Notkun eignar    | Prentaðu skýrslu sem sýnir neytendaskráningar á eigninni.                                                                                                |
 | Bilun eignar          | Prentaðu skýrslu sem sýnir bilanaskráningar á eigninni.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

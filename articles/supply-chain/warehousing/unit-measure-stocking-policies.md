@@ -49,3 +49,6 @@ Sem hluti af stofnun útgefnar afurðir, verður að velja sjálfgefnar einingar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

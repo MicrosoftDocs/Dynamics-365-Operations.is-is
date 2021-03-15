@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Eftir að þessum skrefum er lokið er hægt að stækka gagnaeiningarnar fyrir birgðir á lager eftir svæði og birgðir á lager eftir vöruhúsi með því að bæta nýju reitunum við. Á þennan hátt er tryggt að stækkuðu reitirnir verði þekktir og hafðir með við gagnaflutning sem notar þessar gagnaeiningar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

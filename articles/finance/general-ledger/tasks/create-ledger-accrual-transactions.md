@@ -48,3 +48,6 @@ Verk leiðbeiningar fer í gegnum myndun uppsöfnunarfærslna höfuðbókar sem 
 17. Smellið á „Í lagi“.
 18. Smellið á „Bóka“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

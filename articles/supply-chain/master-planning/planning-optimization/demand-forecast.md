@@ -273,3 +273,6 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 ### <a name="reduce-a-forecast-by-transactions"></a>Lækka spá með færslum
 
 Þegar valið er **Færslur - minnkunarlykill** eða **Færslur - breytilegt tímabil** sem aðferð til að lækka spárþarfir, er hægt að tilgreina hvaða færslur lækka spána. Á síðunni **Þekjuflokkar**, í flýtiflipanum **Annað**, í reitnum **Lækka spá um**, skal velja **Allar færslur** ef allar færslur eiga að lækka spána eða **Pantanir** ef sölupantanir ættu eingöngu að lækka spána.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

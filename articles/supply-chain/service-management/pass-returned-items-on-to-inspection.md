@@ -55,3 +55,6 @@ ms.locfileid: "5006679"
 
 [Tilgreint hvernig losa eigi skilaðar vörur](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

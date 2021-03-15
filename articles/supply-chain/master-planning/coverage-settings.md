@@ -65,3 +65,6 @@ Hverri áfyllingaraðferð er úthlutað einum af eftirfarandi umfjöllunarkóð
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit aðaláætlana](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

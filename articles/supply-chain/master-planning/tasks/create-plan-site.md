@@ -54,3 +54,6 @@ Framleiðslustjóri reiknar efnis- og afkastakröfur fyrir framleiðslu á tilte
 2. Smellið á „Fastáætla“.
 3. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

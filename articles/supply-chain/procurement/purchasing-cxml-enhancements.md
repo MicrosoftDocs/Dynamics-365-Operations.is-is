@@ -276,3 +276,6 @@ Til að skoða innihald svars lánardrottins um staðfestingu eða villu, skal v
 
 - [Setja upp ytri vörulista fyrir PunchOut e-Procurement](set-up-external-catalog-for-punchout.md)
 - [Nota ytri vörulista fyrir PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

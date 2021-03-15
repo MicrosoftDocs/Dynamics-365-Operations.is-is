@@ -97,3 +97,6 @@ Eftirfarandi tafla er notuð til að aðstoða við að ákveða hvar á að út
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

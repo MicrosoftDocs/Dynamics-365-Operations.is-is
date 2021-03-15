@@ -49,3 +49,6 @@ ms.locfileid: "4969629"
     + Árlega – veldu þennan valkost og færðu inn fjölda ára í reitnum Eftir Til dæmis, ef fært er inn 2 er reikningurinn verður myndaður á tveggja ára fresti fyrir þennan viðskiptavin.  
 14. Í reitinn **Eftir** skal slá inn tölu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

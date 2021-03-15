@@ -81,3 +81,6 @@ Magn uppskriftar (BOM) er 1 og framleiðslumagnið er 110. Formúla fyrir notkun
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

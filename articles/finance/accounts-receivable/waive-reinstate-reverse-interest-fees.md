@@ -94,3 +94,6 @@ Hægt er að bakfæra vaxtanótur með því að nota **Saga** hnappinn í **Saf
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Til að grunnstilla grunnverkflæði sem ræsist þegar starfsmenn biðja um bre
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

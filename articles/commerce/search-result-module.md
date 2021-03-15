@@ -90,3 +90,6 @@ Til að bæta leitarniðurstöðueiningu við flokkasíðu skal fylgja þessum s
 [Yfirlit einingasafns](starter-kit-overview.md)
 
 [Flýtiskoðunareining](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Human Resources tengir fólk og rekstrargögn til að hjálpa þér að hámarka
 [Vinna með leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
 [Þróa starfsmenn](hr-develop-performance-management-overview.md)</br>
 [Stofna námskeið](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

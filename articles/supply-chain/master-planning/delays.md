@@ -58,3 +58,6 @@ Aðgerðaskilaboð er einnig hægt að nota til að bera kennsl á fyrirhugaðar
 --------
 
 [Þekjustillingar](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

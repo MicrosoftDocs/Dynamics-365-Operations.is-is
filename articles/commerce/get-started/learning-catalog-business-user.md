@@ -51,3 +51,6 @@ Frekari upplýsingar um kennslu eiginleika sem deilt er með öðrum Finance and
 | Efni | lýsing  | Snið   | Lengd    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Skilgreina og vinna með rafræn viðskipti í Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Netrásir og vefsvæði rafrænna viðskipta Dynamics 365 Commerce gera smásöluaðilum kleift að gera vörulína sína sýnilega á netinu. | Ókeypis, sjálfstýr skref á námsleið | 4 klst.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

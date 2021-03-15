@@ -63,3 +63,6 @@ Síðan **Greiningar** hefur að geyma mikilvæga mælikvarða um bankareikninga
 -   Staða eftir gjaldmiðlum
 
 Hægt er að skoða bankagreiningu fyrir öll fyrirtæki á vinnusvæðinu **Yfirlit yfir reiðufé - öll fyrirtæki**. Frekari upplýsingar má finna á [Yfirlit yfir reiðufé Power BI efni](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

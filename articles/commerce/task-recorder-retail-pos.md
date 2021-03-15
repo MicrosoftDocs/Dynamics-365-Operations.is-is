@@ -145,3 +145,6 @@ Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á 
 
 > [!NOTE]
 > Hjálp í Retail Modern POS og sölukerfi í skýinu mun ekki sýna verkefnaleiðbeiningar í samræmi við skjámyndina sem þú ert í eða aðgerðina sem þú ert að framkvæma. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

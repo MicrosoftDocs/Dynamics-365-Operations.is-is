@@ -114,3 +114,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
  - [Fara yfir innheimtuupplýsingar](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Hvernig þú byggir stigveldi þitt yfir virkar staðsetningar fer eftir kröfum
 Eftirfarandi mynd sýnir dæmi um virkar staðsetningar sem eru byggðir á viðskiptavinum.
 
 ![Skýringarmynd sem sýnir virkar staðsetningar út frá viðskiptavinum](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

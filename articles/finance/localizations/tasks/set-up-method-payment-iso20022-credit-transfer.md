@@ -47,3 +47,6 @@ ms.locfileid: "4988103"
 10. Tilgreindu gildi 'DEMF OPER' í svæði greiðslulykils.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

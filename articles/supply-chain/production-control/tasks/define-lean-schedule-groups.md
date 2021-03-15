@@ -55,3 +55,6 @@ flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afu
 3. Í reitnum úthlutunarlykill vöru skal smella á fellilistahnappinn til að opna leitina.
 4. Í listanum skal smella á tengilinn í valinni línu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

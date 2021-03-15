@@ -38,3 +38,6 @@ Fjárhagsvíddir og aðallykla eru lykilíhluti í áætlunaráfanginn við innl
 - Komast hjá því að nota valda skiltákn bókhaldslykils í gildum fjárhagsvíddar og aðallykilinn.
 
 Með því að fara eftir Eftirfarandi bestu venjur, hjálpa til við tryggja samræmda framsetningu notandaskilgreint röðun í kerfinu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Supply Chain Management býður upp á hleðsluáætlun sem nefnist hleðsluáæ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

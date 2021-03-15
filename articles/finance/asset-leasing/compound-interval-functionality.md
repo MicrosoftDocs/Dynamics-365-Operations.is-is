@@ -159,3 +159,6 @@ Eftirfarandi tafla sýnir fyrstu 12 mánuði greiðsluáætlunarinnar. Athugið 
 
 > [!NOTE]
 > Ef afborgunargerðinni er breytt í **Framsettar afborganir** verður greiðslan í janúar í stað desember.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

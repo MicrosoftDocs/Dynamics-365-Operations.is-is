@@ -102,3 +102,5 @@ ms.locfileid: "5113024"
 - [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
 - [Leiðbeiningar þróunaraðila](hr-developer-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Til dæmis bókhaldsgjaldmiðli er USD, er gjaldmiðill reikningsins er CAD og g
 3.  Fyrir viðskiptavin, á listasíðunni **Allir viðskiptavinir**, skal fara í **Safna > Jafna opnar færslur**. Fyrir lánardrottin, á listasíðunni **Allir lánardrottnar**, skal fara í **Reikningur > Jafna opnar færslur**. 
 4.  Veldu færsluna sem er aðalgreiðslan og smelltu síðan á **Merkja greiðslu**. Gátreiturinn í dálknum **Merkja** er valinn og upplýsingatákn birtist í dálknum **Aðalgreiðsla**. 
 5.  Í reitnum **Meðalgengi** skal færa inn gengi milli gjaldmiðils reiknings og gjaldmiðils greiðslu frá og með jöfnunardagsetningunni. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Valkosturinn **Niðurstöður starfsmanna** sýnir upplýsingar um ferlið sjál
 Þegar eitt eða fleiri starfsmannatilvik hafa fengið uppfærða stöðu í Samþykkt er hægt að lesa þau inn í fastar launaskrár starfsmanna. Hægt er að gera þetta annaðhvort með því að velja eitt starfsmannatilvik í einu og smella á hnappinn **Hlaða launum starfsmanns** á síðunni **Niðurstöður starfsmanns**, eða með því að smella á **Hlaða launum** á síðunni **Vinna niðurstöður** til að hlaða öllum samþykktum starfsmannatilvikum í einu.
 
 Sé smellt á **Í lagi** í svarglugganum **Hlaða laun** bætir það launaaðgerðalínum sem eru ekki núll við síðuna **Föst laun starfsmanns**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

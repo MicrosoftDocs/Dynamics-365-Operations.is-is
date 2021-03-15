@@ -96,3 +96,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 7. Smellt er á Í lagi.
     * Fara yfir myndað úttak. Athugið að auk skilaboð reiknings í xml-sniði, hefur eina skrá verið stofnuð fyrir hverja viðhengi. Viðhegndar skrárnar eru fyllt út með úttaki zip-skrár með tvíundarsniði.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

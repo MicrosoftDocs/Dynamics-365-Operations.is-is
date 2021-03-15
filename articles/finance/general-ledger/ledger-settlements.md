@@ -74,3 +74,6 @@ Til að jafn fjárhagsfærslur skaltu fylgja þessum skrefum.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Uppfærðu lista yfir reikninga sem eru í listanum yfir færslur
 
 Veldu **Lyklar fjárhagsuppgjörs** til að opna svarglugga þar sem þú getur breytt reikningum sem eru innifalin í listanum yfir færslur. Veldu **Nýr** til að bæta við nýjum reikningum á listann. Þessi listi er notaður til að sía lista yfir færslur sem birtast á **Fjárhagsuppgjör** síðu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

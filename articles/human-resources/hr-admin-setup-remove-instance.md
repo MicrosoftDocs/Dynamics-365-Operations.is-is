@@ -85,3 +85,6 @@ Til að endurheimta umhverfið:
 
 > [!Warning]
 > Power Apps-umhverfi eru aðeins vistuð í sjö daga frá eyðingu. Nauðsynlegt er að endurheimta umhverfið innan þessara sjö daga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

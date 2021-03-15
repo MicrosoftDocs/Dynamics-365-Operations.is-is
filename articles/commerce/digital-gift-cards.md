@@ -100,3 +100,6 @@ Til að skilgreina sérsniðna upphæð fyrir stafrænt gjafakort í Commerce-ve
 [Búa til virkniforstillingu á netinu](online-functionality-profile.md)
 
 [Stuðningur við utanaðkomandi gjafakort](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

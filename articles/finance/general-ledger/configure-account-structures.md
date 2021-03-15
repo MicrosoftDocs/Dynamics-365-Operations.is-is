@@ -106,3 +106,6 @@ Til að halda áfram að bæta við fleiri skilyrðum skaltu smella á **Afrita 
 Þegar þú ert ánægð(ur) með nýju uppsetninguna eða breytingu á lykilskipulagi, verður þú að virkja það. Ef lykilskipulagi er úthlutað á fjárhag, getur þessi virkjun verið ferli sem tekur langan tíma að keyra, þar sem allar óbókaðar færslur í kerfinu verða að vera samstilltar við nýja skipulagið. Bókaðar færslur verða ekki fyrir áhrifum af völdum breytinga á lykilskipulag.
 
 Nánari upplýsingar er að finna í [Skipuleggðu bókhaldslykilinn þinn](plan-chart-of-accounts.md), [Fjárhagsvíddir](financial-dimensions.md) og [Sláðu inn lykil og víddarsamsetningum (hlutuð færslustýring)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

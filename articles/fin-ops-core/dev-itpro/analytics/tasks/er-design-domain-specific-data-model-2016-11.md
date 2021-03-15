@@ -187,3 +187,6 @@ Verið er að búa til nýtt gagnalíkan fyrir valda grunnstillingu. Þessi útg
 65. Smellið á „Vista“.
 66. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

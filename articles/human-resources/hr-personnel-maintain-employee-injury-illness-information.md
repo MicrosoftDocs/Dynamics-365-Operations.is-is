@@ -93,3 +93,6 @@ Mælt er með að ljúka við "Uppsetningu meiðsla og veikinda' leiðarvísi fy
 36. Smellið á „Vista“.
     * Hægt er að uppfæra stöðu máls hvenær sem er.  Stilla máls á í vinnslu, ef meiðsla eða veikinda er í vinnslu.  Þegar atviki er skráð lokið, aðeins er aðeins hægt að bæta við eða fjarlægja kostnað, meðferðir eða skráning tengt atvik.  Til að breyta aðrar upplýsingar, enduropna málinu.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

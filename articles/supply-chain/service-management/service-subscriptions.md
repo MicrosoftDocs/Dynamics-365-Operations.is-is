@@ -37,3 +37,6 @@ Tímabilskóði gefur til kynna lengd áskriftarþóknunartímabilsins, eða me�
 Tímabilskóðinn er skilgreindur í þjónustuáskriftarflokknum. Hann er skilgreindur fyrir áskriftirnar í gegnum þjónustuáskriftarflokkinn. Öll ný áskriftargjöld sem eru stofnuð eru með tillögur að upphafsdagsetningu. Þetta er upphafsdagsetning tímabilsins, ef þetta er fyrsta tímabilið sem er stofnað, eða lok fyrra tímabils ef það er annað eða síðara tímabil.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

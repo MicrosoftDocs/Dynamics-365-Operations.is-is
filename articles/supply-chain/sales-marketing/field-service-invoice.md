@@ -107,3 +107,6 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Samkomulagsreikningar (Field Service til Supply Chain Management): Reikningslínur
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

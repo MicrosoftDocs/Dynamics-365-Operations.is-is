@@ -57,3 +57,6 @@ ms.locfileid: "4964921"
 23. Í reitnum kenni EFT afgreiðslustöðvar, færðu inn gildi
 24. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

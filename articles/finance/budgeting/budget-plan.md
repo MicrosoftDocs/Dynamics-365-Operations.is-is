@@ -246,3 +246,6 @@ C. Farið á Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

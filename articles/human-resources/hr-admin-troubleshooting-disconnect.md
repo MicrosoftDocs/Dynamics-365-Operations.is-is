@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources aftengir notendur þegar tvær mismunandi
 Gangið úr skugga um að aðeins eitt umhverfi í einu sé opið fyrir tiltekna tegund vafra. Notendur geta opnað margar lotur í sama umhverfinu (sem sagt marga flipa í sama vafranum).
 
 Notendur sem vilja hoppa á milli tveggja umhverfa á sama tíma ættu að opna umhverfin í ólíkum tegundum vafra. (Til dæmis getur notandi A skoðað umhverfi 1 í Chrome og umhverfi 2 í Microsoft Edge.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

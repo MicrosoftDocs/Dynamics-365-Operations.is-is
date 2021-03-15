@@ -64,3 +64,6 @@ Viðbótarafskriftir eru færðar inn sem prósenta eða föst upphæð. Þegar 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

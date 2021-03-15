@@ -94,3 +94,6 @@ Frekari upplýsingar um samþættingu Dynamics 365 Human Resources við Microsof
 [Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

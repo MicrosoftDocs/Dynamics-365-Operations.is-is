@@ -131,3 +131,6 @@ Til að skoða mynstur einkunna og umsagna í vefsmið Commerce skal fylgja þes
 [Skilgreina einkunnir og umsagnir](configure-ratings-reviews.md)
 
 [Samstilla afurðaeinkunnir í Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

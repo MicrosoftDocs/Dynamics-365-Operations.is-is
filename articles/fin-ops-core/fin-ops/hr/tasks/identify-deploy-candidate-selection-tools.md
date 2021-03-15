@@ -57,3 +57,6 @@ Finna hæf hóp af umsækjendum til að fylla lausar stöður getur verið erfit
 24. Lokið síðunni.
 25. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

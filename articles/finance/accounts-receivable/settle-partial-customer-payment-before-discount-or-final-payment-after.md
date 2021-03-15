@@ -110,3 +110,6 @@ Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

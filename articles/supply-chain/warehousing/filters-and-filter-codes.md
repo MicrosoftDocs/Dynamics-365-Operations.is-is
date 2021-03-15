@@ -165,3 +165,6 @@ Til að setja upp síukóða lánardrottins skal fylgja þessum skrefum.
 ## <a name="see-also"></a>Sjá einnig
 
 [Frekari upplýsingar er að finna í bloggfærslunni Síukóðar vöruhúsakerfis](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

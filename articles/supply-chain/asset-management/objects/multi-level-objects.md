@@ -61,3 +61,6 @@ Ef eign hefur tengdar undireignir geturðu eingöngu eytt henni ef engar viðhal
 
 > [!NOTE]
 > Ef þú getur ekki eytt eign með því að nota þessa aðferð, er önnur leið til að takast á við eyðingu að setja upp eignatíma í þessu skyni. Til dæmis er hægt að setja upp líftímastöðuna **Hent** eða **Eytt** á síðunni **Líftímastaða eigna**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

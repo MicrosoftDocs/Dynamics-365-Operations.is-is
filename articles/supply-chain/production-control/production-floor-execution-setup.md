@@ -79,3 +79,6 @@ Efri hluti eftirfarandi myndar sýnir hvernig viðmótið lítur út að sjálfg
 Að sjálfgefnu mun keyrsluviðmót framleiðslugólfs sjálfkrafa skrá sig út ef enginn notar það í 12 klukkustundir. Notandi Supply Chain Management verður þá að skrá sig inn aftur. Hins vegar er hægt að lengja tímamörkin upp í allt að 90 daga.
 
 Til að lengja tímamörkin skal skrá sig inn í Supply Chain Management og fara í **Kerfisstjórnun \> Notendur \> Lengingar á lotu**. Tilgreinið notandareikning Supply Chain Management sem er notaður til að skrá sig inn í tækið og fjölda klukkustunda sem lotan á að vera virk í.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

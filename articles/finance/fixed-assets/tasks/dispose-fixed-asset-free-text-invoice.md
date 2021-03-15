@@ -40,3 +40,6 @@ ms.locfileid: "4975867"
 10. Í reitnum **Eignaflokkur** skal færa inn eða velja gildi.
 11. Veldu **Bóka**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

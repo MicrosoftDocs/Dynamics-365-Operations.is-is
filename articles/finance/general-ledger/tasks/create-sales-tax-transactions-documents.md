@@ -59,3 +59,6 @@ Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vs
 29. Smellt er á vsk.
 30. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

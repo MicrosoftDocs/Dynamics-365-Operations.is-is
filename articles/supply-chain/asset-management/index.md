@@ -37,3 +37,6 @@ Myndin hér að neðan er mynd af viðmóti við aðrar einingar í Finance and 
 ![Yfirlit yfir hvernig eignastjórnun samþættist](media/overview-integrate2.jpg)
 
 Eignastýring gerir þér kleift að stjórna og framkvæma verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu, til dæmis vélar, framleiðslutæki og farartæki. Eignastjórnun styður lausnir í fjölmörgum atvinnugreinum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

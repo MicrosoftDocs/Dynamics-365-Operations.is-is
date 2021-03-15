@@ -59,3 +59,6 @@ Hægt er að tímasetja afbrigði til birtingar sem búin eru til í vefsmiðnum
 
 ## <a name="next-step"></a>Næsta skref
 [Keyra og fylgjast með tilraun](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

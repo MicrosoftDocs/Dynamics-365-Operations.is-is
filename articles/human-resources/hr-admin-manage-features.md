@@ -94,3 +94,5 @@ Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þ
 
 - [Hvað er nýtt í Human Resources](hr-admin-whats-new.md)
 - [Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Ef hlutur er sendur frá biðgeymslu til „Afhendingar- og móttökudeildar“,
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

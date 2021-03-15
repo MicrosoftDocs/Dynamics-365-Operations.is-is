@@ -51,3 +51,6 @@ ms.locfileid: "5000060"
 2. Smellið á **Já**.
 3. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Gildið í reitnum **stuðull** er jafn **50**. Í þessu tilfelli eru afskrifti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

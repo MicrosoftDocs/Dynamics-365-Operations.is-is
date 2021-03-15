@@ -66,3 +66,6 @@ Hægt er að uppfæra teljaraskráningu handvirkt eða sjálfkrafa út frá fram
 
 ![Mynd 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

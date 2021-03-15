@@ -133,3 +133,6 @@ Farið í **Vöruhúsakerfi \> Uppsetning \> Umbúðir \> Sniðmát umbúðahön
 1. Opnið fartækið, skráið ykkur inn í vöruhús 63 og farið í **Birgðir \> Breyting á**.
 1. Sláið inn **Loc** = *SHORT-01*. Búið til nýja númeraplötu með **Vöru** = *A0001* og **Magn** = *1 stk*.
 1. Veljið **Í lagi**. Upp kemur villan „Staðsetningin SHORT-01 tókst ekki vegna þess að varan A0001 passar ekki í tilgreindar víddir staðsetningar.“ Þetta er vegna þess að víddir *Geymslutegundar* fyrir afurðina eru stærri en víddirnar sem tilgreindar eru í staðsetningarforstillingunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

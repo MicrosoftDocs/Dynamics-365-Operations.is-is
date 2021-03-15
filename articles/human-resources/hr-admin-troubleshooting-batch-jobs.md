@@ -65,3 +65,6 @@ Eftirfarandi runuvinnslur ættu að keyra að næturlagi eða eftir vinnutíma. 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Auka afköst með sjálfvirkum hreinsunarverkum](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

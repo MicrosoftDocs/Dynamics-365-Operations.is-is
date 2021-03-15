@@ -134,3 +134,6 @@ Eftirfarandi tafla sýnir samantekt á því hvernig sendingarsamstæða virkar 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

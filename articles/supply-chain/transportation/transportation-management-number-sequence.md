@@ -48,3 +48,6 @@ Til að tengja númeraröð við flutningsaðila skal gera eftirfarandi:
 1. Veljið **Breyta**.
 1. Á flýtiflipanum **Yfirlit** skaltu velja kost á svæðinu **Pro-númeraröð**.
 1. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

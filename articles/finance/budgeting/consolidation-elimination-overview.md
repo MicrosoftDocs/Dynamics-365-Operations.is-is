@@ -93,3 +93,6 @@ Ekki er hægt að vinna eða ljúka við fjárhagsáætlanir í samstæðufyrirt
 Frekari upplýsingar eru í [Endurmat gjaldmiðils í samstæðufyrirtæki](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

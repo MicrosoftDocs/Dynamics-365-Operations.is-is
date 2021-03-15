@@ -666,3 +666,6 @@ Ljúka þarf tiltekt flokkaðra birgða. Þegar henni er lokið verða birgðir 
     Vinnu er lokið.
 
 Héðan í frá eiga öll önnur vöruhúsaferli við.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

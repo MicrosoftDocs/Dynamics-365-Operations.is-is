@@ -60,3 +60,6 @@ Valkostinn að **Afstemming eftir innflutning** verður sjálfkrafa villuleita b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

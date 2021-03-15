@@ -79,3 +79,6 @@ Afskriftarupphæðin er sama ár hvert: (Kaupverð - hrakvirði) ÷ líftíma í
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

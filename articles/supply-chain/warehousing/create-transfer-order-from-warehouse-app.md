@@ -333,3 +333,6 @@ Flutningspantanirnar eru búnar til án þess að nota möguleikann **Stýring a
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Get ég notað númeraplötu með neikvæðar efnislegar birgðir?
 
 Eiginleikinn styður aðeins jákvætt efnislegt magn á lager. Gakktu úr skugga um að þú sért með jákvætt efnislegt magn á lager í vöruhúsinu og birgðastöðu áður en þú úthlutar númeraplötum á flutningspöntun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

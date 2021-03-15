@@ -87,3 +87,6 @@ Eftirfarandi átta verkefnaleiðbeiningar eru taldar upp í þeirri röð sem æ
 7.  [Stofna skilgreiningareglur](tasks/create-configuration-rules.md)
 8.  [Stofna skilgreiningar sem byggja á víddum](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

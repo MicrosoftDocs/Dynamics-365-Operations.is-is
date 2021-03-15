@@ -53,3 +53,6 @@ ms.locfileid: "5112934"
 6. Færa inn dagsetningu og tíma í svæðinu gildistaka.
 7. Smellt er á Stofna fríðindi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

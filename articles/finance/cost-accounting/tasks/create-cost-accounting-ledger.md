@@ -37,3 +37,6 @@ Kostnaðarbókhald fjárhags sýnir skráningareininguna í heild. Það er skil
 8. Sláið inn eða veljið gildi í reitnum Tölfræðileg vídd.
 9. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

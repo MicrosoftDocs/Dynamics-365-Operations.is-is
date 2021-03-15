@@ -62,3 +62,6 @@ Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. F
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

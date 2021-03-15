@@ -90,3 +90,6 @@ Notaðu aðgerðina **Setja upp eign** til að setja upp eignaskipulag á virkan
 4. Í reitnum **Virk staðsetning** skal velja nýja staðsetningu.
 5. Sjálfgefið er að reiturinn **Virkt** sé sjálfkrafa stilltur á núverandi dagsetningu og tíma. Hins vegar getur þú valið annan dag og tíma sem uppsetning á eignaskipulaginu gildir frá.
 6. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

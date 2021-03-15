@@ -112,3 +112,6 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
 [Flýtiskoðunareining](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

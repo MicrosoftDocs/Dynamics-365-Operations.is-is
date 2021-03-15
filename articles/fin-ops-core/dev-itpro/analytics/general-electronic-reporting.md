@@ -298,3 +298,6 @@ Sífellt er verið að uppfæra Listann yfir skilgreiningar rafrænnar skýrslug
 
 - [Stofna skilgreiningar fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 - [Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

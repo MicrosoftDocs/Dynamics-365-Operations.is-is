@@ -44,3 +44,6 @@ Skoðaðu og breyttu listanum yfir ástæður stigs fyrir þjónustupöntun. Not
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

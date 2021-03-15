@@ -308,3 +308,6 @@ Til að virkja eiginleikann BR-00053 (NF-e Federal) þarf hugsanlega að senda t
 - [Yfirlit innbótar rafrænna reikninga](e-invoicing-service-overview.md)
 - [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
 - [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

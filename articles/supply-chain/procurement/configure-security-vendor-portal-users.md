@@ -49,3 +49,6 @@ Ef sami einstaklingur krefst aðgangs að gátt lánardrottins fyrir marga lána
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

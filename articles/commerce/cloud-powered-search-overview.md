@@ -81,3 +81,6 @@ Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, 
 [Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu](category-search-page-overview.md)
 
 [Stjórna SEO-lýsigögnum](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

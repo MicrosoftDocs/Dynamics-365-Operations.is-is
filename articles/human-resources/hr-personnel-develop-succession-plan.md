@@ -56,3 +56,6 @@ Eftir því sem fyrirtækið vex þarf að huga að röðunaráætlun. Við ger�
 27. Veldu **Niðurstöður**.
 28. Velja **skýrslu**. Skýrslan birtir bestu samsvaranir efst í skýrslunni. Hægt er að sjá bileiningu. Bil er munurinn á milli stigs hæfnivörpunar og hæfnisstigs einstaklingsins.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

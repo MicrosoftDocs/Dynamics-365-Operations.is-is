@@ -59,3 +59,6 @@ Rétt eins og þú getur gert útreikninga á álagi, sem lýst er í fyrri hlut
 8. Smelltu á hnappinn **Sýna víddir** ef þú vilt sjá afurð, geymslu eða rakningarvíddir sem tengjast vörunum. Veldu viðeigandi gátreiti og smelltu á **Í lagi**.
 
 ![Mynd 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

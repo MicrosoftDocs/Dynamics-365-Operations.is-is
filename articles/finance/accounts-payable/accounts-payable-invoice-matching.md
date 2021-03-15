@@ -193,3 +193,6 @@ Frekari upplýsingar eru í [Þríhliða jöfnunarreglur](three-way-matching-pol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

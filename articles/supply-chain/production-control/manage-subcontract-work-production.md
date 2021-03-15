@@ -102,3 +102,6 @@ Yfirleitt eru úttaksvöruhús og staðsetning forðaflokks undirverktaka tengd 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Ef eiginleiki einingu rafrænna viðskipta notar köku sem ekki er nauðsynleg �
 [Eining kökusamþykkis](cookie-consent-module.md) 
  
 [Eining síðuhauss](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

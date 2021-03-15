@@ -120,3 +120,6 @@ Eftirfarandi er dæmi um hvernig á að flytja út skýrsluna **Bera saman geyms
 1. Síðan **Yfirlit framkvæmdar** opnast þar sem þú getur séð stöðuna á útflutningsvinnslunni og lista yfir þær einingar sem voru fluttar út. Veldu eininguna **Bera saman vöruverð** sem er skráð í reitinn **Vinnslustaða einingar** og veldu síðan **Sækja skrá** til að sækja gögnin sem flutt eru út úr þeirri einingu.
 
 Nánari upplýsingar um hvernig á að nota gagnastjórnun til að flytja út gögn er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

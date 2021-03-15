@@ -91,3 +91,6 @@ Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
 4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
 5. Ef vörpunin býr ekki sjálfkrafa til eigindina skaltu bæta henni við með því að smella á **Bæta við eigind** hnappinn og svo **Vista**. 
 6. Veldu vörpunina og smelltu á **Keyra**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

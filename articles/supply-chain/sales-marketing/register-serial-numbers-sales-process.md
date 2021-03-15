@@ -79,3 +79,6 @@ Já, Smásala (POS) mun biðja notanda að færa inn raðnúmer þegar notandinn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

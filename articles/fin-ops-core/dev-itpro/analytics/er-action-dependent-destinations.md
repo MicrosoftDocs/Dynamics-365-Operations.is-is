@@ -129,3 +129,6 @@ Viðskiptaskjölum í eftirfarandi lista er stjórnað af eiginleikanum **Leiða
 [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 
 [Breytingar á API rafræns skýrslugerðarramma fyrir Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

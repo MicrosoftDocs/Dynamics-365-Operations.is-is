@@ -47,3 +47,6 @@ ms.locfileid: "5060750"
 7. Setjið upp flokka staðgreiðsluskatts á síðunni **Staðgreiðsluskattflokkar vöru** fyrir vöru eða þjónustu.
 
 8. Setjið upp **Lágmarksupphæð reiknings** á síðunni **Færibreytur fjárhags > Staðgreiðsluskattur**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

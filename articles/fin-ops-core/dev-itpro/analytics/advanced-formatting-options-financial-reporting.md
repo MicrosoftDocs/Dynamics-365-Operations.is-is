@@ -310,3 +310,6 @@ Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin se
 Hægt er að hanna skýrslur með því að nota víddargildi sem inniheldur og-merkið (&).
 
 Inn í hvaða **Tengja við fjárhagsvídd** reit er hægt að slá inn gildi á borð við **'P&L'**. Að hafa með einfaldar gæsalappir (' ') báðum megin við víddargildið gefur til kynna að verið sé að nota bókstaflegt gildi, t.d. að hafa með (&) og-merkið.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -300,3 +300,6 @@ Fabrikam myndar greiðslu upp á 75,00 fyrir Fabrikam lánardrottinn 3004, Fourt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

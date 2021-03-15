@@ -41,3 +41,6 @@ Dynamics 365 Human Resources notar lagaaupplýsingar með fríðindataxta sem er
    | **Lýsing** | Lýsing á fríðindalagakóða. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

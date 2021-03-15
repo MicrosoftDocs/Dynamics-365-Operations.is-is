@@ -53,3 +53,6 @@ ms.locfileid: "4999657"
 4. Í reitnum Skilyrði er valið Customer group 10. 
 5. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

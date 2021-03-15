@@ -83,3 +83,6 @@ Hægt er að skilgreina ástæðukóða svo þeirra sé krafist fyrir breytingar
 Loks í flipanum **Númeraraðir** skilgreinir þú númeraraðir fyrir eignir. Hægt er að hnekkja númeraröð **Eignar** með númeraröð **Eignaflokks** ef hún hefur verið tilgreind.
 
 Nánari upplýsingar sjá [Stofna eign](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ Eftirfarandi tafla sýnir lista yfir skilgreiningar rafrænnar skýrslugerðar s
 |                             | Fylgiseðill sölupöntunar (LT) (Excel)           |
 |                             | Fylgiseðill sölupöntunar (PL) (Excel)           |
 |                             | Sölupöntun - Fylgiseðill (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

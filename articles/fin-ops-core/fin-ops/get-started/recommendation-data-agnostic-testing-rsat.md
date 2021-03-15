@@ -49,3 +49,6 @@ ms.locfileid: "4798202"
     - Staðfesta aðeins eftir að þú síar á tiltekin viðskipti í stað almennrar staðfestingar. Til dæmis, fyrir fjölda færslna, síaðu að viðskiptanúmerinu eða viðskiptadeginum þannig að löggildingin útiloki öll önnur viðskipti. 
     - Ef þú ert að athuga jafnvægi viðskiptavina eða fjárhagsáætlunarprófun skaltu vista gildi fyrst og bæta síðan við viðskiptagildi þínu til að staðfesta væntanlega niðurstöðu í stað þess að staðfesta fast væntanlegt gildi. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

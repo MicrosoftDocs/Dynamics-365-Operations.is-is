@@ -300,3 +300,6 @@ Skýr aðgreining milli **Kostnaðarúthlutunar** og **Stefnu fyrir samantekt ko
 -  [Víddir kostnaðareiningar](cost-elements.md)
 -  [Víddarstigveldi](dimension-hierarchy.md)
 -  [Útreikningur fastakostnaður](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Ef þú skilgreindir umfang tilraunarinnar sem **allt** í leiðsagnarforritinu 
 
 ## <a name="next-step"></a>Næsta skref
 [Forskoða og birta tilraun](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

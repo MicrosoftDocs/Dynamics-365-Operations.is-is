@@ -103,3 +103,6 @@ Fylgdu skrefunum í báðum eftirfarandi dæmum til að skoða leyfðar gerðir 
 
 
 ![Listi yfir greiðsluhætti](media/Return-policy-page5.PNG "Gerðir endurgreiðslu ekki leyfð")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

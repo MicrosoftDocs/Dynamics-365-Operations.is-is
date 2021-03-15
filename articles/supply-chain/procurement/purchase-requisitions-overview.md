@@ -201,3 +201,6 @@ Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

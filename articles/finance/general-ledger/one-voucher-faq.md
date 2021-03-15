@@ -51,3 +51,6 @@ Rétt eins og með alla nýja eiginleika verða viðskiptavinir að fylgjast me�
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Þegar dagsetning úreldingar er vituð, hvar verður látið vita af henni?
 
 Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Hún verður tilkynnt í gegnum fylgiskjöl afurðar, bloggfærslu og tilkynningar á viðeigandi ráðstefnum Microsoft með góðum fyrirvara áður en úreldingin tekur gildi.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

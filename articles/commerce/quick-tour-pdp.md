@@ -87,3 +87,6 @@ Ef markaðsefni er einstakt fyrir ákveðna afurð er hægt að bæta hvaða mar
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
 
 [Bæta upplýsingasíðu afurða](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

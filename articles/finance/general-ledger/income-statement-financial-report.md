@@ -70,3 +70,6 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ Ef þú notar nú grunnvefslóð rásarinnar og ferð á vefslóð síðu milli 
 [Staða og líftími skjala](document-states-overview.md)
 
 [Vinna með birtingarhópa](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

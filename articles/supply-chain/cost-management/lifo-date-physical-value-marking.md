@@ -156,3 +156,6 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á mi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

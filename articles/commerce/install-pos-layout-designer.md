@@ -62,3 +62,6 @@ Grafískri hönnun Retail POS viðmótsins er stýrt af Útliti skúffu. Útlit 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

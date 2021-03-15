@@ -79,3 +79,6 @@ Notið þetta efni til að virkja sjórnunarferli ósamkvæmni. Ósamkvæmni lý
 4. Í reitinn **Lýsing** skal slá inn gildi.
 5. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

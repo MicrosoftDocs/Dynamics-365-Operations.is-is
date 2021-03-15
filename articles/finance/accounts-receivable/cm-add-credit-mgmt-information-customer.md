@@ -101,3 +101,6 @@ Tímabundin lánamörk fara yfir lánamörk viðskiptavina um skilgreindan tíma
     Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[B × C\]).
     
     Hins vegar, ef þú velur gátreitinn **Innifalið í útsetningu** er virðið **Uppfæra lánamörk** upp á 50.000 (= 50,00 prósent af 100.000) fjarlægt og útsetningargildið er 75.000 (= A + \[B × C\] - B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

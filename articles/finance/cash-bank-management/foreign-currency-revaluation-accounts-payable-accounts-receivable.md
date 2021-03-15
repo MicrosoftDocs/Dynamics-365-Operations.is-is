@@ -65,3 +65,6 @@ Skrá er haldin yfir hvert skipti sem endurmat á erlendum gjaldmiðli er keyrð
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

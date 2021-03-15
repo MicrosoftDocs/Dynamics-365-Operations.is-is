@@ -44,3 +44,6 @@ Fjöldi gáma sem koma til greina fyrir farm er reiknað út frá þyngd og rúm
 -   Til að stilla þyngd og rúmmál fyrir gám skal smella á  **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámagerð**.
 
 -   Til að stilla gámanýtingarhlutfallið, smelltu á **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámaflokkar** og sláðu síðan inn gildi í reitinn **Nýtingarhlutfall gáms**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

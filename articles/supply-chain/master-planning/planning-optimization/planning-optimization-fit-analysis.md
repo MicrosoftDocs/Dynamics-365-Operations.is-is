@@ -113,3 +113,6 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 [Nota síur á áætlun](plan-filters.md)
 
 [Hætta við áætlunarvinnslu](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Ef breyta þarf tiltektarmagni eftir að búið er að velja vörurnar sem verð
 Ef kveikt er á eiginleikanum **Bætt upplifun notanda fyrir úrvinnslu á sóttri pöntun á sölustað** geta fyrirtæki bætt hnappi fyrir aðgerðina **Breyta afhendingarlínum** við skjáútlit færslusíðunnar. Þegar búið er að búa til færslukörfu afhendingar á sölustað og velja vörurnar, er hægt að velja **Breyta afhendingarlínum** ef þarf að breyta afhendingarvörum en ekki ógilda alla færsluna. Í svarglugganum **Breyta afhendingarlínum** sem birtist er hægt að breyta afhendingarvörum og magni. Færslukarfan er síðan uppfærð til að endurspegla breytingarnar.
 
 ![Svargluggi fyrir breytingu á sóttum vörum](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

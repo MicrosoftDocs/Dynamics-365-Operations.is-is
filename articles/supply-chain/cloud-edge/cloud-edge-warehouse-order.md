@@ -72,3 +72,6 @@ Til að hætta við línur vöruhúsapöntunar skal fylgja þessum skrefum.
 
 - Farið í **Vöruhúsakerfi \> Fyrirpurnir og skýrslur \> Línur vöruhúsapöntunar** og notið síuna til að finna línurnar sem leitað er að.
 - Opnið **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir** og opnið viðeigandi innkaupapöntun. Í hlutanum **Innkaupapöntunarlínur** skal velja eina eða fleiri línur og síðan á tækjastikunni skal velja **Vöruhús \> Færslur vöruhúsamóttöku**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

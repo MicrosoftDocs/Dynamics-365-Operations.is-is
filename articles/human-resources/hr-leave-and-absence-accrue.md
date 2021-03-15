@@ -111,3 +111,6 @@ Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagse
 
 [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
 [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

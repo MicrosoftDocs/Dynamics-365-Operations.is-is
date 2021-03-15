@@ -115,3 +115,6 @@ Viðhaldsáætlanir eru notaðar við tímasetningu forvarnarviðhaldsverka með
 ## <a name="financial-dimensions"></a>Fjárhagsvíddir
 
 Þú getur valið fjárhagsvíddir fyrir eignina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

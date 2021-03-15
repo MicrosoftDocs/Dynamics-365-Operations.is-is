@@ -56,3 +56,6 @@ Reitirnir fyrir umbreytingarstuðla bera kennsl á umbreytingarstuðulinn frá g
    | **Umreiknistuðull fyrir hverja klukkustund** | Árlegur umbreytingarstuðull greiðslutíðni. Til dæmis er árlegur viðskiptaþáttur fyrir mánaðarlega launatíðni: </br></br>(12 mánaðarlegar greiðslur / 2080 stundir) = 0,005769
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

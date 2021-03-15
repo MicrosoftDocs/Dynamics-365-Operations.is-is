@@ -62,3 +62,6 @@ Sjálfgefið er að stillingin **Hámarkskeyrslutími** sé ekki í boði. Ef æ
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

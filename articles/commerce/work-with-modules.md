@@ -172,3 +172,6 @@ Fylgdu þessum skrefum til að stilla gámaeiningu á síðu.
 
 [Vinna með birtingarhópa](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

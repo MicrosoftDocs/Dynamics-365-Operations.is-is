@@ -81,3 +81,6 @@ Ef verið er að nota aðferðina *Staðlaður kostnaður* kostnaðaraðferð l�
 - Forðast skal tugabrot í staðalkostnaði. Reynið að skilgreina staðalkostnaðinn þannig að reiturinn **Magn í verði** sé stilltur á *1*. Ef tilgreina þarf gildi fyrir **Magn í verði** sem er meira en *1* skal reyna að lágmarka fjölda aukastafa í staðalkostnaði einingarinnar. (Helst ættu að vera færri en tveir aukastafir.) Til dæmis skal forðast að skilgreina stillingar staðalkostnaðar á borð við **Verð** = *10* og **Magn í verði** = *3* vegna þess að þær munu leiða til staðalkostnaðar á einingu sem er 3,333333 (þar sem gildi aukastafs endurtekur sig).
 - Í flestum skjölum skal forðast að hafa margar línur sem geyma sömu samsetningu afurðar- og fjárhagsbirgðavídda.
 - Dragið úr fjölda á samhliða vinnslum. (Í þessu tilviki gæti kerfið orðið fljótara þar sem færri árekstrar við uppfærslu og endurtekningar koma upp.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

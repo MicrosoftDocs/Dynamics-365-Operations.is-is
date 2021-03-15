@@ -72,3 +72,6 @@ Eftirfarandi mynd sýnir dæmi um stærðarhóp fyrir „stærðir á hversdagss
 [Setja upp smásöluafurðir](set-up-retail-products.md)
 
 [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

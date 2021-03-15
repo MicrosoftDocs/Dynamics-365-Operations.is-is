@@ -53,3 +53,6 @@ Uppsetningin á **Ábyrgir starfsmenn viðhalds** síðu er *ekki* notuð við t
 Eftirfarandi mynd sýnir dæmi um listasíðuna **Ábyrgir viðhaldsstarfsmenn**.
 
 ![Síðan Ábyrgir viðhaldsstarfskraftar](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

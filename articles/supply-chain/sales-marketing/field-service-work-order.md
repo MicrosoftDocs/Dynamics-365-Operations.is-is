@@ -272,3 +272,6 @@ Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus n
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004) eða (msdyn_allocated ne true))
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

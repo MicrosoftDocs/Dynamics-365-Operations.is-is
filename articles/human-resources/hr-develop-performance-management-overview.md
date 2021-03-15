@@ -163,3 +163,5 @@ Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá.
 ### <a name="review-types"></a>Gerðir yfirferðar
 
 Frammistöðurýni gerð hjálpar þér að stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögn ekki nota verkflæði, þú getur skilgreint sjálfgefna stöðu sem verður notuð þegar umsögn er stofnuð. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

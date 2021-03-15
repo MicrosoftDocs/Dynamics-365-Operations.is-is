@@ -39,3 +39,6 @@ Afskriftareglur ákvarða tegund og tíðni afskriftar fyrir eigna.   Þessi skr
 7. Í reitnum **Tímabilstíðni** skal velja valkost.
 8. Lokaðu skjámyndinni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

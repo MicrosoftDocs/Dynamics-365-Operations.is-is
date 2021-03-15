@@ -78,3 +78,6 @@ Línur þjónustusamninga lýsa nákvæmlega efni umbeðinnar þjónustuvinnu. L
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Þjónustusamningar stofnaðir](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

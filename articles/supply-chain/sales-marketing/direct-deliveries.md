@@ -52,3 +52,6 @@ Reynirðu að eyða sölupöntunarlínu sem hefur afhendingargerðina **bein afh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

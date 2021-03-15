@@ -55,3 +55,6 @@ ms.locfileid: "4998654"
 1. Setja hámarksmagn á "100".
     * Útvíkka flýtiflipann Magn til að sjá svæðið Hámarksmagn. Hámarksmagni breytt í 100 leyfir allt að 100 kanbans að vera vinna.    Þetta er síðasta skrefið í þessu verkefni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

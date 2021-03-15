@@ -97,3 +97,6 @@ Notið eftirfarandi ferli til að skilgreina tilvísanir í upprunalega reikning
 
 > [!NOTE]
 > Gangið úr skugga um að prentvæn snið skjalanna séu rétt skilgreind með það í huga að tilvísanir í upprunalega reikninga verði prentaðar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

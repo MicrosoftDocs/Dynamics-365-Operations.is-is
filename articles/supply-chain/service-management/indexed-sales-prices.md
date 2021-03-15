@@ -42,3 +42,6 @@ Til dæmis ef grunnverðið er 1000 evrur og vísirinn er 110 verður söluverð
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

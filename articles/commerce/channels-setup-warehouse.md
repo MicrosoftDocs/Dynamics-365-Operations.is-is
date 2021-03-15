@@ -146,3 +146,6 @@ Eftirfarandi mynd sýnir upplýsingar um stillt vöruhús.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Núna er hægt að stofna áskriftarfærslu fyrir áskriftina.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Hægt er að nota eftirfarandi gagnaeiningar til að stofna skilyrtar eða sjál
 ## <a name="see-also"></a>Sjá einnig
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Til að leysa vandamál stigveldisvaxandi fjölda samsetninga sem þarf að meta
 ![Formúla til að reikna út jaðarvirði](./media/overlapping-discount-combo-06.jpg)
 
 Eftir að jaðarvirði fyrir hvern afslátt á samnýtta hópa afurða hefur verið reiknað út, er afsláttum beitt á samnýttar afurðir í tæmandi röð frá hæsta jaðarvirði til lægsta jaðarvirðis. Fyrir þessa aðferð eru allir eftirstandandi afsláttarmöguleikar ekki bornir saman í hvert skipti sem eitt tilvik afsláttar er sett á. Þess í stað eru afslættir sem skarast bornir saman einu sinni og síðan notað í röð. Enginn viðbótarsamanburður er gerður. Hægt er að skilgreina þröskuld til að skipta yfir í aðferð jaðarvirðis á flipanum **Afsláttur** á síðunni **Færibreytur Commerce**. Viðunandi tími til að reikna heildarafslátt er breytilegur milli atvinnugreina smásölu. Hins vegar er þessi tími almennt á bili tíu millisekúnda til einnar sekúndu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

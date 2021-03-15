@@ -241,3 +241,6 @@ Ekki þarf að breyta fyrirtæki til að nálgast gögn frá mörgum rekstrarein
 - Áður en þú mótar helstu atburðarásir endurskipulagningar þarf að nota öruggar gildisdagsetningar stigveldisins til að framkvæma áhrifagreiningu og staðfestingarpróf.
 - Nota ham fyrir drög til að breyta stigveldi áður en ný útgáfa er birt í vinnsluumhverfi.
 - Takmarka fjölda fólks sem hefur leyfi til að bæta við eða fjarlægja stofnanir frá stigveldi í framleiðsluumhverfi. Lægri tala minnkar hættuna sem á dýrum mistökum og gera verður leiðréttingar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Einnig er hægt að stofna nýja fjárhagsáætlun viðhalds með því að afri
 
 > [!NOTE]
 > Viðhaldsfjárhagsáætlunin reiknar aðeins kostnaðaráætlun fjárhagsáætlunar út frá fjárhagsáætlunarlínum viðhalds. Til að reikna út raunkostnað fyrir sama tímabil er hægt að gera þann útreikning á síðunni **Stýring eignakostnaðar**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

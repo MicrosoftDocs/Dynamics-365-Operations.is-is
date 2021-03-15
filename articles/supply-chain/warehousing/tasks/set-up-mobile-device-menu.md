@@ -68,3 +68,6 @@ ms.locfileid: "4976914"
 5. Veldu örina sem vísar til hægri.
 6. Veljið **Vista**.
 7. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

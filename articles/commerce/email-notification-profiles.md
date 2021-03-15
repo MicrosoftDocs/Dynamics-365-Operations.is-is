@@ -95,3 +95,6 @@ Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar tilviks.
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
 
 [Yfirlit yfir fyrirtæki og fyrirtækjastigveldi](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

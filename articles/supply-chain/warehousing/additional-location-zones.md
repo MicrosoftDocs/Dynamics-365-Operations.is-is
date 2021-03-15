@@ -57,3 +57,6 @@ Ekki er krafist frekari uppsetningar til að nota svæðareitina.
 7. Velja **Stofna**.
 8. Skilaboð birtast sem segja að búið sé að bæta við nýju staðsetningunum. Veljið hnappinn **Sýna skilaboð** til að skoða skilaboðin.
 9. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Staðsetningar**. Nýju staðsetningarnar birtast í listanum og allir svæðareitir eru tiltækir (þ.e. núverandi svæðareitur og nýju svæðareitirnir).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

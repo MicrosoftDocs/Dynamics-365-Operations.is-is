@@ -54,3 +54,6 @@ Ef bókhaldsfærslur eru ekki jafnaðar á stigi fjárhagsvíddargilda, eru sjá
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

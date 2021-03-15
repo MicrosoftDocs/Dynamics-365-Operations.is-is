@@ -803,3 +803,6 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 2. Staðfestu að bæði prófunardæmin hafi staðist.
 
     ![Niðurstöðureiturinn stilltur á staðist fyrir bæði prófunardæmin](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

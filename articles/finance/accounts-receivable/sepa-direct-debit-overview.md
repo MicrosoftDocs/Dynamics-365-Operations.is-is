@@ -83,3 +83,6 @@ Undir báðum skemum SEPA-beingreiðslna, hafa viðskiptavinir ákveðin réttin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

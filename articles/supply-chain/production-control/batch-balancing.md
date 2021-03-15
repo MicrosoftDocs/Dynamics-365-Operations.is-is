@@ -186,3 +186,6 @@ Eftir að magn innihaldsefnisins hefur verið reiknað, getur þú staðfest og 
 1. Ef formúlumælieining er frábrugðin birgðamælieiningu virks innihaldsefnis, á tunupöntunin ekki við um röðun virkra efna í uppskrift.
 
 Runupöntun sem á ekki við um röðun virkra efna í uppskrift fer í gegnum reglulega vinnuferilinn fyrir runupantanir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

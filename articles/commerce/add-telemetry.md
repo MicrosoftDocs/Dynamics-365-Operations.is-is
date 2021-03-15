@@ -121,3 +121,6 @@ Fylgdu þessum skrefum til að bæta ytri forskrift beint við sniðmát í vefs
 [Bæta við yfirlýsingu um höfundarrétt](add-copyright-notice.md)
 
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

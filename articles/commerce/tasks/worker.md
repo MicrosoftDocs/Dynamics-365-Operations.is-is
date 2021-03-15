@@ -56,3 +56,6 @@ ms.locfileid: "5003604"
 6. Færa inn eða veljið gildi í reitnum Sjálfgefinn flokkur.
 7. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

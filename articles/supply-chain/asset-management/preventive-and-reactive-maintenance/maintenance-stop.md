@@ -96,3 +96,6 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 - Þú getur afritað eignir frá einni aðgerð niðurtíma vegna viðhalds til annarrar. Í **Öllum aðgerðum niðurtíma vegna viðhalds** velurðu hnappinn **Afrita aðgerðir niðurtíma vegna viðhalds** og gerir val þitt í reitunum **Frá aðgerðum niðurtíma vegna viðhalds** og **Til aðgerða niðurtíma vegna viðhalds** og smelltu á **Í lagi**.
 - Í **Öllum aðgerðum niðurtíma vegna viðhalds** skaltu smella á hnappinn **Viðhaldsskemalínur** eða hnappinn **Virkar verkbeiðnir** til að opna tengda lista og skoða línurnar sem tengjast völdum aðgerðum niðurtíma vegna viðhalds.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

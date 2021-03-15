@@ -150,3 +150,6 @@ Upplýsingarnar á þessum flipa eru tengdar afhendingu annarrar línu sem valin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Pöntun lofað](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

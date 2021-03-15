@@ -80,3 +80,6 @@ Undantekningin „Færibreyta er ekki gild“ er notuð ef inntaksstrengurinn ke
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Hólfaaðgerðir](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

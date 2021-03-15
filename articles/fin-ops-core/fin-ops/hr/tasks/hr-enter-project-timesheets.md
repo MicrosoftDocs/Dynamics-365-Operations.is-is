@@ -51,3 +51,6 @@ ms.locfileid: "5055940"
 21. Smelltu á **Senda**.
 22. Smelltu á **Senda**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

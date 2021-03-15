@@ -46,3 +46,6 @@ Hægt er að búa til strikamerki handvirkt eða sjálfvirkt. Til að búa til s
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Uppsetning strikamerkja](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

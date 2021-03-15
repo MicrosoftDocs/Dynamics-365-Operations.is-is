@@ -148,3 +148,6 @@ Hægt er að nota síðuna **Upplýsingar um vinnu** til að skoða vinnuna sem 
 > Þegar svarglugginn **Breyta vinnuhópi** birtist, gæti reiturinn **Auðkenni vinnuhóps** verið sjálfgefið auður. Ef reiturinn er auður þegar valið er **Í lagi** til að koma breytingum á, verður vinnuhópurinn fjarlægður að fullu úr vinnunni.
 >
 > Ásamt því að skipta um vinnuhópa, er hægt að nota þetta ferli til að bæta vinnuhópi við hvaða vinnulið sem er sem er ekki með slíkan, eða til að fjarlægja vinnuhóp úr vinnulið sem er með einn slíkan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

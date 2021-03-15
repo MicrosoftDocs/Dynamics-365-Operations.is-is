@@ -42,3 +42,6 @@ ms.locfileid: "4987005"
 11. Í reitnum **Flokkur** færirðu inn eða velur gildi.
 12. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

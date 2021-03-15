@@ -59,3 +59,6 @@ Topphnútur trés sem birtist hér táknar magn á lager valinnar vöru og runu.
 9. Smelltu á **Sölupantanir sem voru sendar**.
 10. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -253,3 +253,6 @@ Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

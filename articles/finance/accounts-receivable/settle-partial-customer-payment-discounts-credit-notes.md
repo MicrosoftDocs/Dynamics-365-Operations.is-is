@@ -60,3 +60,6 @@ Jöfnun verða 100,00 og mun innihalda greiðslu 99.00 og afslætti á 1,00.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

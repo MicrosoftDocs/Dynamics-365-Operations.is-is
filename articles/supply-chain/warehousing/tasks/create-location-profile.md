@@ -42,3 +42,6 @@ ms.locfileid: "4977264"
 10. Velja skal **Já** í reitnum **Leyfa reglulega talningu**.
 11. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

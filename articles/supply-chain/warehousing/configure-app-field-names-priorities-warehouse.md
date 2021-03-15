@@ -143,3 +143,6 @@ Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefn
 --------
 
 [Setja upp og stilla yfirlit vöruhúsaforrits](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

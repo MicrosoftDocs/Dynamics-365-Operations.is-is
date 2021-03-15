@@ -57,3 +57,6 @@ Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæ�
 27. Í reitnum **Tímabilsbækur** skal slá inn eða velja gildi.
 28. Í listanum skal smella á tengilinn í valinni línu.
 29. Smellt er á **OK**. Nú er hægt að endurskoða, samþykkja eða bóka tímabilsbók eftir þörf og uppsetningu.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

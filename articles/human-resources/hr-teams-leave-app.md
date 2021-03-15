@@ -228,3 +228,6 @@ Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtæki
 [Sækja og setja upp Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams hjálparmiðstöð](https://support.office.com/teams)</br>
 [Forritið „Human Resources“ í Teams](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

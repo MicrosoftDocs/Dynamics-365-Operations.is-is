@@ -59,3 +59,6 @@ ms.locfileid: "4988137"
     * Til dæmis: Velja bankareikning "DEMF OPER".  
 6. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

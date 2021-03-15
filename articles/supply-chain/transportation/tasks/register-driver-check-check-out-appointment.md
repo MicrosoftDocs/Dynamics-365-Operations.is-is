@@ -45,3 +45,6 @@ ms.locfileid: "5004978"
 1. Smelltu á Útskráning ökumanns.
 2. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

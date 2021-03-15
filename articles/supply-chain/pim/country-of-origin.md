@@ -90,3 +90,6 @@ Til að setja upp upplýsingar um vottorð skal fylgja þessum skrefum.
 Skýrsla sem sýnir upplýsingar um upprunaland hvers hluta er búin til og sýnd. Hér er dæmi um skýrsluna.
 
 ![Skýrsla upprunalands](media/country-of-origin-report.png "Skýrsla upprunalands")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

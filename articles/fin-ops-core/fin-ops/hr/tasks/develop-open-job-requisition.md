@@ -65,3 +65,6 @@ Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert r�
     * Stöðuna Byrjað merkir að verkið sé tilbúin til að fá umsóknir.  
 33. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Framlenging á tímamörkum er undantekning sem þarf að skoða sérstaklega fy
 [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
 
 [Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

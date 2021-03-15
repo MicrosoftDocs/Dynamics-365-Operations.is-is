@@ -50,3 +50,6 @@ Varan er nú tengd við þjónustuhlutinn og hvers konar birgðavíddir sem tilg
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

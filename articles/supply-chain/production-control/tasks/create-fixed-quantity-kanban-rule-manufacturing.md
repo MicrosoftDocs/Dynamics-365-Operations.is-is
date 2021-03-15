@@ -73,3 +73,6 @@ ms.locfileid: "4981307"
     * Þetta stofnar 5 kanbana.  
     * Athugið að 5 kanbön, fyrir hver 10, voru stofnuð fyrir þessa kanban-reglu framleiðslu. Þetta er síðasta skrefið í þessu ferli.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

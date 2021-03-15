@@ -43,3 +43,6 @@ Eftir að kennsl hafa verið borin á misræmið, gæti verið að það þurfi 
 Nánari upplýsingar er að finna í [Rannsaka/leysa úr undantekningum](tasks/research-resolve-exceptions.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

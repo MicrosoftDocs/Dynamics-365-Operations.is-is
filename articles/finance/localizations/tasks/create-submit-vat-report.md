@@ -34,3 +34,6 @@ ms.locfileid: "4964517"
 5. Velja Já í svæði Stofna rafrænt skattaskjal.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

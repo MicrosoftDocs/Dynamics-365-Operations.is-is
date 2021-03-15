@@ -66,3 +66,5 @@ Ráðningarverk aðstoða þig við að stjórna ráðningarferlinu. Þegar rá�
 32. Valið er **Staða ráðningarverks**.
 33. Velja **Ræsa**. Staðan **Byrjað** merkir að verkið sé tilbúin til að fá umsóknir.  
 34. Veljið **Í lagi**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "4961616"
 4. Smellið á „Í lagi“.
     * Þetta er bakfæra stöðu vinnslunnar úr "Áætlað" í 'Ekki áætluð' og fjarlægja hana úr spjald ferli.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

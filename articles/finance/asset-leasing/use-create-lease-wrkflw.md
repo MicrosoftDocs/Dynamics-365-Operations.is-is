@@ -44,3 +44,6 @@ ms.locfileid: "4992759"
 
 8. Til að stöðva verkflæði, á síðunni **Verkflæðisferill** skal velja **Afturkalla**. Í svarglugganum sem birtist skal færa inn athugasemd og velja svo **Í lagi**.
 9. Til að gera verkflæði óvirkt, eða til að virkja verkflæði sem var áður stofnað, skal fara í **Eignarleiga \> Uppsetning \> Verkflæði leigusamnings**. Síðan á síðunni **Verkflæði leigusamnings** skal velja **Verkflæði \> Útgáfur**. Til að gera núverandi verkflæði óvirkt skal velja virka leigusamninginn í svarglugga útgáfu leigusamningsins og velja svo **Gera óvirkt**. Til að gera fyrirliggjandi verkflæði virkt skal velja verkflæðið og velja svo **Gera virkt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

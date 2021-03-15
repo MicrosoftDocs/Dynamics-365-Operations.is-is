@@ -46,3 +46,6 @@ Eftir að þú hefur valið nýja afhendingarstillingu birtist viðskiptasíðan
 [Stofna símaverspantanir](tasks/create-call-center-orders.md)
 
 [Sérstilla tölvupósta vegna færslna eftir afhendingarmáta](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

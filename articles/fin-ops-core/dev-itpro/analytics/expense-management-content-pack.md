@@ -93,3 +93,6 @@ Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safn
 | Upplýsingar starfsmanns | Kostnaðarskýrslur eftir kostnaðargerð            |
 |                     | Persónulegur kostnaður                       |
 |                     | Kostnaðarskýrslur eftir upplýsingaflokki     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

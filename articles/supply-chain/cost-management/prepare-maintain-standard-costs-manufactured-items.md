@@ -72,3 +72,6 @@ Ef þú vilt nota leiðarlýsingar í kostnaðartilgangi er nauðsynlegt að fre
 
 [Uppsetning afurða sem hægt er að framleiða eða kaupa](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

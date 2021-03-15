@@ -70,3 +70,6 @@ Til að hanna undirverktakavinnu fyrir lean-framleiðslu, verður að stofna vin
 24. Í reitnum Eining skal smella á fellilistahnappinn til að opna leitina.
 25. Leysa breytir Einingu.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

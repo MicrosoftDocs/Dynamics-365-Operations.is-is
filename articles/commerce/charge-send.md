@@ -41,3 +41,6 @@ Hleðslusending eiginleikinn notar eftirfarandi POS aðgerðir: Senda allar vör
 Hæfni til að velja „senda til" heimilisföng er óbreytt.
 
 Afhendingaraðferðirnar, sem hægt er að nota til að uppfylla pöntunarlínuna, eru byggðar á grunnstillingum gildra afhendingarmáta fyrir vörur og heimilisföng. Vegna þess að reglunum um gilda afhendingarmáta eru aðeins viðhaldið í bakvinnslu (HQ), framkvæmir POS viðskiptavinurinn rauntímasímtal til að sækja gilda afhendingarmáta fyrir sendingarlínu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

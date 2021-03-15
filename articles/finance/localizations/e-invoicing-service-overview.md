@@ -109,3 +109,6 @@ Við virkjun og notkun viðbótar rafrænnar reikningsfærslu þarf hugsanlega a
 - [Þjónustustjórnun](e-invoicing-service-administration.md)
 - [Skilgreina rafræna reikninga í RCS](e-invoicing-configuration-rcs.md)
 - [Gefa út rafræna reikninga í Finance and Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

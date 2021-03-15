@@ -75,3 +75,6 @@ Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að 
 ## <a name="action-search-vs-navigation-search"></a>Aðgerðaleita samanborið við flettingaleit
 
 Aðgerðaleit er ætlað að finna og keyra aðgerðir á síðu, en sérstakt leitarkerfi er til að finna og fletta á síður. Fyrir frekari upplýsingar um þann möguleika, að sjá greinina [Flettingaleit](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

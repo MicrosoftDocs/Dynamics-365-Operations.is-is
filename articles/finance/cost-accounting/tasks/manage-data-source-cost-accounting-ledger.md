@@ -47,3 +47,6 @@ Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald f
 14. Í svæðið Bókunarlag skal velja Núgildandi.
 15. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

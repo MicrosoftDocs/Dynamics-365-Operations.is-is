@@ -138,3 +138,6 @@ Upphæð staðgreiðsluafsláttar er minnkað úr í 10,50 10,00. Greiðslu og r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

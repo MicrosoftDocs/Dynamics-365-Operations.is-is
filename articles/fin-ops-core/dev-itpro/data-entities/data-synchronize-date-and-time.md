@@ -40,3 +40,6 @@ Mikilvægt er að stilla tímabelti fyrir innflutningsverkið á samræmdan heim
 4. Breytið **Tímabelti** í **Samræmdan heimstíma** og breytið **Tungumáli** í **En-Us**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

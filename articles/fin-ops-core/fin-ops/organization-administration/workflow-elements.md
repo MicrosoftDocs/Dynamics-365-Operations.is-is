@@ -89,3 +89,6 @@ Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar gr
 ### <a name="subworkflow"></a>Undirverkflæði
 
 *Undirverkflæði* er verkflæði sem keirir í samhengi við annað yfirverkflæði.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

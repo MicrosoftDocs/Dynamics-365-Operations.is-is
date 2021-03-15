@@ -69,3 +69,6 @@ Hægt er að nota talnagögn spurningalista til að reikna út meðaltöl, samt�
 2. Smelltu á Niðurstöður.
 3. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

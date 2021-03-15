@@ -183,3 +183,6 @@ Eftirfarandi Dataverse-töflur eru í boði sem byggja á einingum Human Resourc
 [Algengar spurningar um sýndartöflur Human Resources](hr-admin-virtual-entity-faq.md)<br>
 [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Hugtakauppfærslur](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

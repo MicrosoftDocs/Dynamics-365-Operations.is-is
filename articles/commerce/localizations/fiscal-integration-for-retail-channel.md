@@ -149,3 +149,6 @@ Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en 
 Eftirfarandi eldri virkni fjárhagssamþættingar sem er fáanleg í Retail SDK notar ekki ramma fjárhagssamþættingar og verður úrelt í síðari uppfærslum:
 
 - [Dæmi um samþættingu stjórntækja fyrir Svíþjóð (eldra)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

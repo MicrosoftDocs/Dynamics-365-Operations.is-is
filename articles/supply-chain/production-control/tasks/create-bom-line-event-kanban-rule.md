@@ -82,3 +82,6 @@ ms.locfileid: "4998754"
     * Athugaðu kanban sem var stofnað til að veita framboð fyrir M0001 fyrir áætlaða framleiðslupöntun.  
     * Þetta er síðasta skrefið!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

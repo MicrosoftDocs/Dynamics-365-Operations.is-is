@@ -182,3 +182,6 @@ Líkanavörpunin **Afrit af InvoiceProject** í skilgreiningunni **Líkanavörpu
 - [Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd](er-country-dependent-model-mapping.md)
 - [Breytingar á API rafræns skýrslugerðarramma](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

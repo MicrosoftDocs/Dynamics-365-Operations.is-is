@@ -44,3 +44,6 @@ Virkni altæks staðgreiðsluskatts er bætt fyrir færslur lánardrottins og vi
 
 > [!NOTE]
 > Ekki er hægt að kveikja á virkni altæks staðgreiðsluskatts fyrir lönd/svæði þar sem staðbundnar lausnir staðgreiðsluskatts eru þegar til staðar. Þessi lönd eru m.a. Indland, Brasilía, Taíland, Sádi-Arabía, Írland, Stóra-Bretland og Bandaríkin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

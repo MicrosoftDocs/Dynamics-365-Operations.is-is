@@ -54,3 +54,6 @@ ms.locfileid: "4994591"
 9. Í reitnum **Víddargildi** skal slá inn heiti til að lýsa því fjárhagsvíddargildi.
 10. Í reitnum **Lýsing** skal færa inn lýsingu sem lýsir fjárhagsvíddargildi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

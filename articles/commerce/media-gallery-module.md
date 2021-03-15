@@ -103,3 +103,6 @@ Til að bæta einingu efnissafns við markaðssíðu skal fylgja þessum skrefum
 [Hólfeining](add-container-module.md)
 
 [Hlaða upp myndum](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

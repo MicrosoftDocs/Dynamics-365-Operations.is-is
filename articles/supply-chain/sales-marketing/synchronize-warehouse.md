@@ -80,3 +80,6 @@ Eftirfarandi mynd sýnir sniðmátsvörpunina í Gagnasamþættingu.
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Vöruhús (Supply Chain Management við Field Service): Warehouse
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

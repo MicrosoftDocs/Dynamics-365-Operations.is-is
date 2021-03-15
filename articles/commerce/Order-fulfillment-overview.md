@@ -217,3 +217,6 @@ Pöntunaruppfylling á sölustað felur í sér síun til að hjálpa notandanum
 - Búið til þann
 - Afhendingardagur
 - Móttökudagsetning
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

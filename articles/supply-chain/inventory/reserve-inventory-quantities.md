@@ -82,3 +82,6 @@ Sölupöntun sem á að vera tekin frá sjálfkrafa og afhent 4. aprí 2016, tek
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Reglur um birgðafrátekningu á síðunni færibreytur framleiðslu
 
 Gildi reitsins **Frátekning** á **Almennar** flipanum á **framleiðslufæribreytur** síðuna ákvarðar sjálfgefið stað í framleiðsluferlinu þar sem á að taka frá birgðir. Til dæmis, mætti taka frá birgðir þegar vinnu er áætluð, eða þegar vinna er byrjuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

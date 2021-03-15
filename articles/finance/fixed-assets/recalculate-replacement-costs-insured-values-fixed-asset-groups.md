@@ -77,3 +77,6 @@ Næsta dag segir yfirmaðurinn að tölvurnar hafi dregist saman um 8 prósent �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

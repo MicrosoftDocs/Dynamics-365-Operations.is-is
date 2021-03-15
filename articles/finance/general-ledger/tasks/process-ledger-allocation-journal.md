@@ -43,3 +43,6 @@ ms.locfileid: "4968480"
 9. Veldu **Bóka**.
 10. Veldu **Bóka**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

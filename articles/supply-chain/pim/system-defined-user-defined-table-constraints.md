@@ -66,3 +66,6 @@ Kerfisskilgreind töfluskorða stpfmar gagnvirkri vörpun á milli gerð eiginda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

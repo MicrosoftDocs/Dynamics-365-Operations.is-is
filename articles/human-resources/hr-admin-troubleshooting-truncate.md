@@ -104,3 +104,6 @@ Skýringarmyndin sem er búin til í Visio birtir hvern yfirmann á aðskildu vi
 **Frekari valkostir**
 
 Í Human Resources er hugsanlega líka hægt að nota vinnusvæðið **Fólk** til að skoða stigveldistengdar upplýsingar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

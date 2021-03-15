@@ -41,3 +41,6 @@ ms.locfileid: "4977764"
 6. Smellt er á Undirbúa.
     * Undirbúningsferli er nú lokið. Valinn gátreitur fyrir allar línur í tiltektarlistanum tilgreinir birgðastaða er tiltekin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

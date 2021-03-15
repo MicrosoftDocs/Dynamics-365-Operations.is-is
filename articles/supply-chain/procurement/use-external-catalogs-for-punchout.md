@@ -54,3 +54,5 @@ Eftir að línum hefur verið bætt við innkaupabeiðni er hægt að bæta við
 
 - [Setja upp ytri vörulista fyrir PunchOut e-Procurement](set-up-external-catalog-for-punchout.md)
 - [Viðbætur cXML-innkaupa](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

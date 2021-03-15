@@ -77,3 +77,6 @@ Til að bæta flýtiskoðunareiningu við vörusafnseiningu í Commerce-vefsmið
 [Afurðasafnseining](product-collection-module-overview.md)
 
 [Leitarniðurstöðueining](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

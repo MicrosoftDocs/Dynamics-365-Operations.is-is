@@ -101,3 +101,6 @@ Afurð er sett upp þannig að hún sé með gildi fyrir **Þekjukóða** sem *T
 > Þegar áætluð pöntun sem er fest við innkaupabeiðni er staðfest heldur áætlunarvélin þarfarakningunni á innkaupabeiðninni. Ef kemur í ljós síðar að það vanti magn í staðfestu pöntunina sem þarf til að fylla á innkaupabeiðnina mun kerfið stofna nýja áætlaða pöntun sem nemur mismuninum.
 
 Frekari upplýsingar um innkaupabeiðnir er að finna í [Yfirlit innkaupabeiðna](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

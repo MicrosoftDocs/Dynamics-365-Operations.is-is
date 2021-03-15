@@ -258,3 +258,6 @@ Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið t
 - %createddate%
 
 Ef lagfæringar er krafist og er send eftir að tilboðsbeiðni er send, þá mun tilboðsbeiðnin verða endursend til allra boðinna lánardrottna. Útgefið skjalið verður líka uppfært á síðunni **Opna útgefnar tilboðsbeiðnir**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

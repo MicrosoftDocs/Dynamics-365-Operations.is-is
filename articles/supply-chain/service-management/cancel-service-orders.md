@@ -77,3 +77,6 @@ Annaðhvort er búið að hætta við völdu þjónustupantanirnar eða vinnslus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

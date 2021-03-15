@@ -249,3 +249,6 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
 1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur**, skal velja **Bæta við línu** til að bæta við annarri línu.
 1. Í nýju línunni skal stilla reitinn **Vörunúmer** á *M9200* og reitinn **Magn** á *1*.
 1. Endurtakið línur 6 til 9 til að taka línuna frá og losa hana í vöruhúsið. Líkt og áður, stofnar kerfið **nýja** sendingu fyrir línuna sem bætt var við. En vegna þess að varan er í vöruflokknum **CarAudio** **nær varan ekki að uppfylla takmarkanirnar sem settar voru upp fyrir blöndunarflokk hleðslunnar**. Þar af leiðandi er henni **bætt við nýja hleðslu**. Ef ekki hefði verið tilgreindur blöndunarflokkur farms í sniðmáti hleðsluáætlunar, hefði þessari sendingu verið bætt við fyrstu hleðsluna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

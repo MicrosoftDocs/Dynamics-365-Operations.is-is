@@ -95,3 +95,6 @@ Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en 
 ### <a name="tables-currency-column"></a>töflur: Gjaldmiðilsdálkur
 
 Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takmarkast við fjóra.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

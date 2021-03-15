@@ -43,3 +43,6 @@ ms.locfileid: "5016350"
 13. Veljið **Nei** í reitnum **Erfa lánardrottna frá yfirtegund:**.
 14. Veljið **Já** í reitnum **Erfa lánardrottna frá yfirtegund:**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

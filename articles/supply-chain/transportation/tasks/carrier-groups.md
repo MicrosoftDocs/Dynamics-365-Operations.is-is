@@ -37,3 +37,6 @@ Flutningsflokkur er safn farmflytjenda og flutningaþjónustu. Hver flutningsflo
 1. Í reitinn **Heiti** skal færa inn lýsandi heiti á hópnum.
 1. Á flipanum **Upplýsingar** skal bæta við línu og velja farmflytjanda og flutningsþjónustu fyrir hana. Endurtakið þetta skref þar til öllum nauðsynlegum flutningsaðilum fyrir flokkinn hefur verið bætt við.
 1. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

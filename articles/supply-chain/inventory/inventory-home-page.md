@@ -57,3 +57,6 @@ Finna má skoðanir, fréttir og aðrar upplýsingar um birgðastjórnun og aðr
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

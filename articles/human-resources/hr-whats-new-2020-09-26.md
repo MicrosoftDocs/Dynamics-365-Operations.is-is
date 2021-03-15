@@ -84,3 +84,6 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 [Yfirlit yfir Dynamics 365 Human Resources 2020 útgáfutímabil 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Uppfærsluferli](hr-admin-setup-update-process.md)
 [Stjórna eiginleikum](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

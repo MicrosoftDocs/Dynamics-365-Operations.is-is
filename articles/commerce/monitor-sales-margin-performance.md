@@ -48,3 +48,6 @@ Sem hluti af Commerce geta notendur fylgst með sölu og afköstum framlegðar �
 - **Flokka- og afurðastjórnun** vinnusvæði &gt; **Retail og Commerce** &gt; **Afurð og flokkar** &gt; **Stjórnun verslana** &gt; **Skýrslur**
 - **Stjórnun verðlagningar og afslátta** vinnusvæði &gt; **Retail og Commerce** &gt; **Verðlagning og afslættir** &gt; **Stjórnun verslana** &gt; **Skýrslur**
 - **Fyrirspurnir og skýrslur** hlutinn &gt; **Retail og Commerce** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Til að vernda kerfið, getur aðeins kerfisstjóri stofnað sérstillt svæði.
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Get ég vísað til sérsniðinna reita úr forritunartólunum?  
 
 Aðeins er hægt að stjórna sérsniðnum reitum í gegnum notendaviðmótið og ekki er hægt að vísa í þá með kóða. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

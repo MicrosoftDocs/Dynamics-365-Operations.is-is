@@ -48,3 +48,6 @@ ms.locfileid: "4981357"
 7. Smellt er á Ljúka.
     * Nú er kanban-vinnslu með annarri kanban-reglu. Þetta getur verið jafna út hleðslu vinnuflokkana .  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ ms.locfileid: "5008083"
 2. Veldu **Loka ósamkvæmni**.
 3. Velja skal **Já**.
 4. Lokaðu síðunum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

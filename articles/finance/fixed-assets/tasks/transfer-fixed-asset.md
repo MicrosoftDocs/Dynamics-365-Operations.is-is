@@ -47,3 +47,6 @@ ms.locfileid: "4975917"
     * Skoða niðurstöður áður en eignabækur fluttar.  
 10. Smelltu á **Flutningur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

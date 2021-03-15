@@ -293,3 +293,6 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
 ### <a name="quality-update-for-1009platform-update-33"></a>Gæðauppfærsla fyrir 10.0.9/verkvangsuppfærsla 33
 
 - [KB 4550367] Tímagildin eru á röngu sniði.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

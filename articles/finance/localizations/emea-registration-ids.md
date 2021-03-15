@@ -111,3 +111,6 @@ Frekari upplýsingar um vinnslu skráningarkenna, þar á meðal áskildar forse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

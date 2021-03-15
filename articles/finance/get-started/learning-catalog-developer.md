@@ -93,3 +93,6 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni | lýsing  | Snið  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Próf MB-500: Microsoft Dynamics 365: Hönnuður Finance and Operations-forrita](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Þetta próf metur getu þína til að vinna eftirfarandi tæknileg verkefni: áætla hönnun skipulags og lausnar; nota verkfæri hönnuða; hanna og þróa AOT-einingar; þróa og prófa kóða; innleiða skýrslugerð; samþætta og stjórna gagnalausnum; og innleiða öryggi og fínstilla afköst. | Próf, kostnaður er breytilegur eftir svæðum |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

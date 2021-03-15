@@ -97,3 +97,6 @@ Varan er hönnuð til að virka á ýmsum tækjum og skjámyndaþáttum, frá mi
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Leiðbeiningar til að hjálpa þróunaraðilum og viðskiptavinum að innleiða aðgengilega hugsun þegar kemur að sérstillingum.
 
 Til að læra meira um bestu aðferðir Microsoft til að auðvelda aðgengileika, sjá [Aðgengileiki í skjámyndum, afurðum og stýringum](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

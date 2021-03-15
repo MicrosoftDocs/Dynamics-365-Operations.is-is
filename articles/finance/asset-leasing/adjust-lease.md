@@ -134,3 +134,6 @@ Ef leigusamningur hefur verið leiðréttur er hægt að skoða mismunandi útg�
 
 2. Til að skoða eldri áætlanir skal opna breyttan leigusamning á síðunni **Samantekt leigusamnings** velja viðeigandi bók og velja síðan **Útgáfuferill bókar** á aðgerðasvæðinu.
 3. Á síðunni **Bókaútgáfa** skal velja útgáfu og áætlun til að skoða.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

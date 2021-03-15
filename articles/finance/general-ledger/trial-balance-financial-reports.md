@@ -109,3 +109,6 @@ Hver skýrslu prófjöfnuðar notar mismunandi dálkskilgreiningu. Þessar dálk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

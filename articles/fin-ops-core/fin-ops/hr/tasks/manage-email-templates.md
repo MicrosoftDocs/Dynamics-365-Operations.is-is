@@ -47,3 +47,6 @@ Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki
 8. Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.
 9. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

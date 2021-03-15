@@ -55,3 +55,6 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Vinna með svæðið þitt fyrir rafræn viðskipti](online-store-overview.md)
 - [Svikavörn](dev-itpro/DFP.md)
 - [Viðskiptaþróun og stækkunarhæfni](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

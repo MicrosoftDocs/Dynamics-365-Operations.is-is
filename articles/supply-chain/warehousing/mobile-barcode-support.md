@@ -34,3 +34,6 @@ Vöruhúsaforritið fyrir Dynamics 365 Supply Chain Management hefur verið pró
 
 Sem viðskiptavinur, mælum við með því að þú prófir skönnunarforrit farsíma fyrir vöruhús á völdum vélbúnaði áður en þú ákveður hvaða vélbúnað þú vilt kaupa.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

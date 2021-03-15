@@ -68,3 +68,6 @@ Viðskiptavinargátt er gefin upp sem Power Apps gáttasniðmát. Það fer efti
 ![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
 Viðskiptavinagáttin virkar sem upphafspunktur fyrir fyrirtæki sem vilja nota Power Apps-gáttir til að búa til vefsvæði út á við sem notar gögn úr uppsetningu Supply Chain Management. Hún hjálpar fyrirtækjum að tengja saman tvöföld skrif, Supply Chain Management og Power Apps-gáttir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

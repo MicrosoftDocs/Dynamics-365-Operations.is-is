@@ -361,3 +361,6 @@ Hægt er að bæta við valfrjálsum aukaforritareikningi í hlutanum **Notendur
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

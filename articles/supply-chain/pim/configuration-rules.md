@@ -45,3 +45,6 @@ Síðari breytingar á skilgreiningarreglum hafa ekki áhrif á fyrirliggjandi s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

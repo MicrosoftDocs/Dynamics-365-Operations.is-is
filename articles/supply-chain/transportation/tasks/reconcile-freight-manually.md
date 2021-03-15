@@ -60,3 +60,6 @@ Til að stemma af farmflytjanda reiknings og til farmbréfs, er þetta gert lín
 5. Smellið til að elta tengilinn í reitnum tilvísunarnúmer færslubókar.
 6. Smellið á „Línur“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Ein leið til að gera handvirka samsvörun í þessu dæmi er að halda áfram 
 1. Jafna Inv1 og Inv 2 við farmbréf eitt á eftir öðru. Farmbréf er að samsvarað að fullu.
 
 Eins og þetta dæmi sýnir á aðeina að samsvara farmreikninga með neikvæðum upphæðum handvirkt. Þetta tryggir að það sé alltaf hægt að samsvara farmreikninga með neikvæðum upphæðum við farmbréf sem ekki er samsvarað að fullu vegna þess að það gerir notanda kleift að hafa stjórnun á röð samsvörunar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Sjá lýsingu á þessum hugtökum [Lykilhugtök innheimtustjórnunar](./cm-coll
 [Kreditbið fyrir sölupantanir](./cm-sales-order-credit-holds.md)
 
 [Regluleg verk viðskiptavinarlánastjórnunar](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

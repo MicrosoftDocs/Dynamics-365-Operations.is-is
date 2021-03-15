@@ -118,3 +118,6 @@ Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna
 | **Jöfnun** | Veljið þennan valkost til að virkja sjálfvirka jöfnun fyrir færslur sem eru með þessari bókunarreglu. Ef þessi valkostur er tómur þarftu að jafna færslur handvirkt með því að nota síðuna **Jafna opnar færslur**. |
 | **Hætta við**     | Veljið þennan valkost ef þú vilt geta hætt við færslur sem eru með þessari bókunarreglu.                                                                                                               |
 | **Loka**      | Tilgreinið bókunarreglu sem óskað er eftir að verði breytt yfir í þegar færslur með þessari bókunarreglu eru lokaðar. Litið er á færslu sem lokaða þegar hún hefur verið jöfnuð að fullu.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

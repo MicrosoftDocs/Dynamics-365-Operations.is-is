@@ -174,3 +174,6 @@ Með því að nota **Eyða** aðgerðina á skráningarbeiðni væntanlegs lán
 |         Samþ.         |                                                                               Lánardrottnabeiðnin er samþykkt.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
 |         Hafnað         |                                                                               Lánardrottnabeiðninni er hafnað.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Sannprófun á reikningsjöfnun notar ekki reikningsreglur lánardrottins, en er
 24. Lokið síðunni.
 25. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

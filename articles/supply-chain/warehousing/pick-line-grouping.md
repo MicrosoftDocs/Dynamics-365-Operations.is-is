@@ -170,3 +170,6 @@ Fylgið þessum skrefum til að bæta við valmyndaratriðinu sem var stofnað �
 >   - Vinnulínur sem eru með óuppgerða áfyllingarvinnu
 >   - Umframtiltekt
 >   - Endurúthlutun með fyrir vöru
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

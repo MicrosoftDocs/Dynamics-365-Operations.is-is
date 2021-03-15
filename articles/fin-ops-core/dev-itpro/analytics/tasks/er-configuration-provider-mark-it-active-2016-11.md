@@ -44,3 +44,6 @@ ms.locfileid: "5092061"
 2. Veldu **Stilla sem virkt**.
 
 ![Síðan Vinnusvæði rafrænnar skýrslugerðar](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

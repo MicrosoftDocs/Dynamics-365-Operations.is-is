@@ -50,3 +50,6 @@ ms.locfileid: "4966156"
     * Athugið að færsla fyrir mínustölu, sem stendur fyrir heildarupphæð eftirágreidds afsláttar, án tilvísunar reiknings hefur verið bætt við stöðu viðskiptavinar.   
 15. Smellið á Hætta við.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

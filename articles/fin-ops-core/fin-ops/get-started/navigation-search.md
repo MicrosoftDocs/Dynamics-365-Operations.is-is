@@ -62,3 +62,6 @@ Lista yfir leitarniðurstöður takmarkast við 10 vörur. Ef þú finnur ekki �
 ## <a name="development"></a>Þróunarvalmynd
 
 Frá þróunarsjónarhóli er flettingaleitarvirkni auðvelt að til að finna jafnvægi, þar er nánast engin töf milli uppsetningar valmyndaratriða og getu þeirra til að birtast í leitarniðurstöðum. Svo lengi sem tengt er í valmyndaratriðin annað hvort úr skoðunarrúðunni eða á yfirlitinu, verða þær sjálfkrafa finnanlegar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

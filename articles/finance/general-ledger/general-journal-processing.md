@@ -104,3 +104,6 @@ Geta til að rifja upp dagbók í verkflæði sem hefur stöðuna „óendurheim
 
 ## <a name="delete-journal-lines"></a>Eyða færslubókarlínum
 Getan til að eyða öllum dagbókarlínum hratt er virk í dagbók undir **Aðgerðir** > **Eyða færslubókalínum**. Til að virkja þennan eiginleika, á **Stjórnun eiginleika** skaltu velja **Eyða afkastafínstillingu færslubókar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

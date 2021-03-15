@@ -116,3 +116,6 @@ ms.locfileid: "5094266"
 68. Smelltu á Vista.
     * Athugaðu að reiturinn „Framkvæmd við“ gefur til kynna að þessi flokkun verði framkvæmd á keyrslutíma í minni þrátt fyrir að engar uppsafnanir séu skilgreindar og valdir gagnagjafar af gerðinni „Töflufærslur“ vísa í sömu „Intrastat“-töflu. Þetta er vegna þess að gagnagjafinn inniheldur nokkra útreiknaða reiti sem ekki er hægt að þýða yfir í SQL gagnagrunnsstig.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

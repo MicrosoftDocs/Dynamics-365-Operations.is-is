@@ -125,3 +125,6 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 > [!NOTE]
 > Þessi leið til að sækja upplýsingar um lýsigögn hugbúnaðar er sú eina sem er í boði fyrir staðbundið uppsett forrit (þegar uppsetningarlíkan staðbundinna eða innanhúss viðskiptagagna (LBD) er notað).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

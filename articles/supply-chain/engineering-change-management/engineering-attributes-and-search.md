@@ -93,3 +93,6 @@ Tilgreina verður hönnunartegund sem afurðin tilheyrir. Flokkurinn stillir öl
 Þú getur notað leit hönnunareiginda til að leita af afurðum eftir gildum hönnunareiginda slíkra afurða. Þess vegna er auðvelt að finna hönnunarafurðir út frá einkennum þeirra. Hægt er að leita í afurðum sem tilheyra flokki afurðategundar eða leita í öllum hönnunarafurðum.
 
 Leit er tiltæk á gagnasíðum afurðarsniðmáts og færslutengdum atriðum í kerfinu eins og sölupöntunum. Fyrir færslutengdar-vöru er hægt að nota síðuna **Leita að hönnunareigind** til að leita að afurð. Síðan getur þú notað hnappinn **Bæta við sem nýrri línu** til að bæta afurðinni við sölupöntunarlínurnar. Einnig er hægt að bæta afurðum í leitarniðurstöðum beint við pöntunina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

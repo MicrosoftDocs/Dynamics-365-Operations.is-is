@@ -150,3 +150,6 @@ Auk þess geta smásalar skilgreint hámark vildarpunkta á hverju vildarkorti. 
 
     > [!NOTE]
     > Ólíkt öðrum reglubundnum afsláttum, t.d. magni, einfalt, blanda og samsvara og þröskuldarafslættir, þá býr sendingarafsláttur ekki til afsláttarlínur, heldur breytir sendingargjaldinu með beinum hætti og bætir heiti afsláttarins við lýsingu gjaldsins.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

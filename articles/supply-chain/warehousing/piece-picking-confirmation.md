@@ -50,3 +50,6 @@ Eftirfarandi valkostir verða tiltækar til vals þegar gerð vinnu er tiltekt e
 | Staðfesting einingartiltektar | Tiltækt fyrir tínslu og talningu. Staðfesting vöru er sjálfkrafa valin. Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu. |
 |  Hámarksfjöldi eininga  |                   Tiltækt fyrir tiltektarvinnu ef staðfesting einingatiltektar er virkjuð. Stillir takmörkun á fjölda eininga sem þarf að staðfesta.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

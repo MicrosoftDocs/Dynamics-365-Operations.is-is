@@ -62,3 +62,6 @@ ms.locfileid: "4975942"
     - Kaupfærsla er stofnuð fyrir nýju eignina fyrir sömu upphæð.
 
 4. Veldu **Bóka**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

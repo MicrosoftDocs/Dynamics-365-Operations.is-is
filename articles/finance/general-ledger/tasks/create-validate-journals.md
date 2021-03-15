@@ -42,3 +42,6 @@ ms.locfileid: "5021455"
 12. Smelltu á **Bóka**.
 13. Smellt er á **Fylgiskjal**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

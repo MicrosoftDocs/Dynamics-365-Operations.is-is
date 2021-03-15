@@ -103,3 +103,6 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Tímasettu sjálfvirkt verkefni til að hreinsa úr sögu runuvinnslu. Við mæl
 
 8. Breyta öðrum breytum undir **Keyra í bakgrunni** eftir þörfum og veldu síðan **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

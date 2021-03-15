@@ -56,3 +56,6 @@ Eftirfarandi mynd sýnir stofnun netbókar starfsmanna fyrir smásöluverslun.
 [Yfirlit skjáútlits](pos-screen-layouts.md)       
 
 [Skilgreina og setja upp Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

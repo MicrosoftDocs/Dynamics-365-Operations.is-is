@@ -1414,3 +1414,6 @@ Eftirfarandi tafla sýnir niðurstöður þegar Umbúðaþjónusta er notuð sem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

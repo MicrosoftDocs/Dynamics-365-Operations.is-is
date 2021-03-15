@@ -74,3 +74,6 @@ Síðufótur sem inniheldur höfundarréttartilkynningu birtist sjálfkrafa neð
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

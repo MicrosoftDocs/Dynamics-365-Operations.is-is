@@ -203,3 +203,6 @@ IFeatureLifecycle er innri starfsemi Microsoft til að tilgreina stig stuðnings
 - `PublicPreview` - Sýnt að sjálfgefnu en með viðvörun um að eiginleikinn sé í forútgáfu.
 - `Released` - Útgefið að fullu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

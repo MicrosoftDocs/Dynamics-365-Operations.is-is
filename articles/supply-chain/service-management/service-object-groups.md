@@ -65,3 +65,6 @@ Hægt er að tengja þjónustuhluti við flokk með því að nota skjámyndina 
 [Stofna þjónustuhluta](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

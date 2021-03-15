@@ -81,3 +81,6 @@ Eftirfarandi mynd sýnir stigveldi með ýmsum rásum bætt við.
 [Setja upp smásölurás](channel-setup-retail.md)
     
 [Setja upp netrás](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.
 11. Smellt er á Í lagi.
 12. Smellt er á Í lagi.
 13. Smellt er á Stofna greiðslur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

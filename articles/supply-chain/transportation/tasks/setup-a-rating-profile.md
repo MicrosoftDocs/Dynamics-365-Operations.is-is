@@ -60,3 +60,6 @@ Taxtaforstilling er einkvæm fyrir farmflytjanda. Í forstillingunni er hægt a�
 
 > [!NOTE]
 > Forstillingar sem búnar eru til á síðunni **Farmflytjendur** eru einnig sýndar á síðunni **Taxtaforstillingar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ ms.locfileid: "5018922"
 6. Lokið síðunni.
 7. Endurhlaðið síðuna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

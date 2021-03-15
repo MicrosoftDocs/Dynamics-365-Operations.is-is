@@ -67,3 +67,6 @@ Til að skoða áhrif endurmatsferlis leigusamnings á IFRS 16-leigusamninga, sk
 Þú getur skoðað greiðsluáætlunina sem var mynduð og hefst á endurmatsdagsetningunni og sýnir uppfærða heildar greiðsluupphæð. Ný afskriftaráætlun leiguskuldbindingar og afskriftaráætlun eignar hefur einnig verið stofnuð til að endurspegla leiðrétta greiðsluáætlunina.
 
 Bókarfærslan hefur sjálfkrafa bókað færslu leiðréttingabókarinnar í lykilinn fyrir breytinguna í leigugreiðslum sem tengjast endurmati vísitölunnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.locfileid: "5000485"
 10. Veljið valkost í reitnum eining Gildistíma.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

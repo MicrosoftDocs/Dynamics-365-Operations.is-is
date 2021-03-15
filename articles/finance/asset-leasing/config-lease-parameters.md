@@ -45,3 +45,6 @@ Nokkrar skilgreiningarstillingar hafa áhrif á það hvernig Eignarleiga virkar
 
     > [!NOTE]
     > Mælt er með því að þessi valkostur sé stilltur á **Nei**. Stillingin fyrir þennan valkost er notuð sem staðfesting og stjórnun til að koma í veg fyrir að lokuð bókaútgáfa sé óvart afskrifuð. Með því að stilla valkostinn á **Nei** er hjálpað við að halda bókuðu nettóvirði og útreikningum á afskriftum í framtíðinni réttum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

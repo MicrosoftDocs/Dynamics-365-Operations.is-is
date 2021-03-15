@@ -101,3 +101,6 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
 7. Hægt er að skoða heildaráhrif virðisrýrnunarinnar í töflum skulda og eignafærslna. Taktu eftir að kostnaður virðisrýrnunar hefur lækkað fyrir afnotaréttinn af eign en bókfært virði leiguskuldbindingarinnar hefur ekki breyst.
 
 Virðisrýrnunin hefur ein áhrif til viðbótar sem þú ættir að hafa í huga. Vegna þess að upphæð afnotaréttar af eign er nú mun lægri en leiguskuldbindingin verður að afskrifa upphæðina á annan hátt en áður. Nánar tiltekið, nú er eignin afskrifuð með línulegri aðferð í eftirstandandi 84 mánuði leigutímans, sem hefst á færsludagsetningunni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

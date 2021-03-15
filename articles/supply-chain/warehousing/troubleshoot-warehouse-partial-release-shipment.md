@@ -41,3 +41,6 @@ Til dæmis er sölupöntun með tvær vörur: eina fyrir afhendingu og eina fyri
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Losunarstaðan á aðeins við um pöntunarlínur þar sem vörurnar eru virkjaðar fyrir vöruhúsastjórnun. Þess vegna er útgáfustaðan enn *Losað að hluta* í þessum aðstæðum. Microsoft hefur metið þetta mál og hefur ákvarðað að þetta sé takmörkun eiginleika. Hægt er að bæta við viðbót sem hluta af fylgiseðli og reikningsfærsluferli til að uppfæra útgáfustöðu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Til að bæta við einingunni fyrir körfutákn, sjá [Hauseiningu](author-heade
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

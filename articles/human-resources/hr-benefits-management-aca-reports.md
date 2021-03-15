@@ -207,3 +207,6 @@ Upplýsingar um tryggingu skjólstæðinga starfsmanns eru sýndar.
 
 > [!NOTE]
 > Síðan sýnir aðeins fríðindaáætlanir sem eru merktar sem **ACA-tilkynningaskyldar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

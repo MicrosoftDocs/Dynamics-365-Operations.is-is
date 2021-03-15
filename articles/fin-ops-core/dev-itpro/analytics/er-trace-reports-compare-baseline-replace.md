@@ -207,3 +207,6 @@ Til að flytja inn grunnlínustillingar úr XML-skrá sem er geymd á Microsoft 
 
 - [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md)
 - [Tilföng verkskráningar](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

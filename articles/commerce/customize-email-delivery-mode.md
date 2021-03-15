@@ -71,3 +71,6 @@ Fylgdu eftirfarandi skrefum til að skilgreina sniðmát fyrir tölvupóst fyrir
 [Stofna símaverspantanir](tasks/create-call-center-orders.md)
 
 [Breyta afhendingarmáta á sölustað](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Söluaðilar velja oft að útiloka sumar vörur, svo sem nýja hluti eða eftir
 
 > [!NOTE]
 > Þegar skilgreiningin **Koma í veg fyrir allan afslátt** er stillt á **Já** verður engum afslætti beitt á vöruna. Ekki einu sinni útboðsbundnum afslætti verður beitt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

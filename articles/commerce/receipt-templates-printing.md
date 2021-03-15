@@ -85,3 +85,6 @@ Kvittunarforstillingar eru tengdar beint í prentara með vélbúnaðarreglu.
 
 > [!NOTE]
 > Ef tveir prentarar eru notaðir, er hægt að nota einn prentara til að prenta staðlaða 40 dálka thermal-kvittanir. Önnur prentara er yfirleitt notað til að prenta kvittun af heilsíðugerð, sem krefjast frekari upplýsingar. Þessar gerðir kvittana innifela pöntun viðskiptavinar og reikningum viðskiptavina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

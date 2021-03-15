@@ -120,3 +120,6 @@ Nánari upplýsingar um hvernig á að stjórna efni svæðis er að finna í ef
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

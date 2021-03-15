@@ -55,3 +55,6 @@ ms.locfileid: "5006942"
 3. Í reitinn verkþáttur skal slá inn eða velja gildi.
 4. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

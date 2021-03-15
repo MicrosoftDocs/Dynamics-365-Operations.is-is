@@ -66,3 +66,6 @@ Til að koma í veg fyrir fleiri bókhaldsfærslur, debet og kredit á sama fjá
 
 -   Fyrirtæki nota oft fastar víddir að núllfylla fjárhagsvídd sem er ekki krafist. Þetta er almennt raunin fyrir efnahagslykla, svo sem viðskiptakröfur/viðskiptaskuldir. Lykilskipulag er hægt að nota til að fylgjast ekki með fjárhagsvíddum sem eru venjulega núllfyllt.  Þú getur fjarlægt fjárhagsvíddina fyrir efnahagslykla sem kemur í veg fyrir nauðsyn þess að nota fasta víddir.
 -   Ef fyrirtækið þitt krefst ákveðinna fastra vídda á aðallykli viðskiptakrafa/viðskiptaskulda skaltu finna leið til að gera föstu víddina sjálfgefna á greiðslunni svo að fasta víddargildið sé geymt á lánardrottnafærslunni fyrir greiðsluna. Þetta mun gera kerfinu kleift að enduruppbyggja aðallykil viðskiptakrafa/viðskiptaskulda til að hafa með föstu víddargildin. Hægt er að skilgreina fasta víddargildið sem sjálfgefið á annaðhvort lánardrottnum eða heiti færslubókar fyrir greiðslubókina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

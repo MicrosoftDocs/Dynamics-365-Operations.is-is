@@ -159,3 +159,6 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 
 [Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

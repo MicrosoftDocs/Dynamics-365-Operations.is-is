@@ -139,3 +139,6 @@ Keyra ferli 'Setja upp bankaaðgerðir og bókunarreglur' og ‚kreditbréf_Stof
 3. Í listanum skal smella á tengilinn í valinni línu.
     * Staðfesta sendingarstaða = Greiðsla móttekin og staða upphæð = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

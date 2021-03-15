@@ -58,3 +58,6 @@ ms.locfileid: "5012087"
 2. Velja skal viðskiptavin með stöðu.
 3. Útvíkka skal svæði **Aldursgreiningar** í upplýsingakassa til að skoða aldursgreindar stöður. Skilgreining aldurstímabils fyrir upplýsingakassann er tekið úr sjálfgefnu skilgreining aldurstímabils sem tilgreint er í færibreytum. Hægt er að breyta henni með því að nota valmyndina Innheimta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

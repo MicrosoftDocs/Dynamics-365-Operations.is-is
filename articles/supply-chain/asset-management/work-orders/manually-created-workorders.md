@@ -165,3 +165,6 @@ Myndin hér að neðan sýnir dæmi um gluggann **Stofna verkbeiðni**.
 >[!NOTE]
 >Ef þú vilt að verkbeiðnir sé sjálfvirkt stofnaðar er hægt að tímastilla vinnslur viðhaldsáætlana eða hægt er að setja upp „Stofna sjálfvirkt“ [viðhaldsáætlanir](../preventive-and-reactive-maintenance/maintenance-plans.md) eða [viðhaldslotur](../preventive-and-reactive-maintenance/maintenance-rounds.md) á eign. Verkbeiðnir sem eru stofnaðar úr viðhaldsbeiðnum á listasíðunni **Öll viðhaldsskemu** eru með þær gerðir viðhaldsverka sem eru valdar í viðhaldsbeiðnum.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

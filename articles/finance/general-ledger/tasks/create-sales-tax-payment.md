@@ -36,3 +36,6 @@ Jafna og bóka VSK vinnslan jafnar VSK stöður í VSK -lykla og mótfærir þei
 5. Færa inn dagsetningu í reitinn **Færsludagsetning**.
 6. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

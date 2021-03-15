@@ -78,3 +78,6 @@ Athugið að Lágm. / Hám áfyllingaráætlun getur ekki fylla á tómar staðs
 |   Staðsetningarleiðbeiningar   |                                                       Staðsetningarleiðbeiningar eru nauðsynleg til leiða vinnu til staðsetninga þar sem áfylling er nauðsynlegt, og til staðsetningar þar sem birgðir eru upprunnar frá.                                                        |
 |     Vinnusniðmát      |                                                   Vinnusniðmát af gerðinni <strong>Áfylling</strong> er krafist til að geta stofna áfyllingarvinnu svo að birgðir sé hægt að færa í æskilega staðsetningu.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

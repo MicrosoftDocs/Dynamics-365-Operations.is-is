@@ -49,3 +49,6 @@ Kostnaðarskjalið er birt sem hluti af síðunni **Reikna vörukostnað**. Kost
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

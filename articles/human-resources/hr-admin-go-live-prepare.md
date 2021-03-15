@@ -99,3 +99,6 @@ Verkefnisstjórinn eða helsti aðilinn að verkinu verður að ljúka við gát
 ## <a name="see-also"></a>Sjá einnig
 
 [Algengar spurningar um keyrslu](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

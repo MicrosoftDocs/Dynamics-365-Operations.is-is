@@ -54,3 +54,6 @@ Ennfremur, ef **Frá dagsetningu** á stytta tímabilinu er 21. janúar (31 mín
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

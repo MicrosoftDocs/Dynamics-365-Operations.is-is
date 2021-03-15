@@ -47,3 +47,6 @@ Kenni virkrar staðsetningar / Kenni virkar staðsetningar (ef það eru fleiri 
 Ef þú hefur valið eign í trjáskjánum geturðu valið **Virkar beiðnir** eða **Virkar vinnupantanir** til að skoða viðhaldsbeiðnir eða verkbeiðnir sem tengjast eigninni. Þú getur líka valið **Opið** \> **Virk staðsetning**, **Eignir**, eða **Uppskrift eignar** til að opna tengda sýn.
 
 Valkosturinn **Virkar staðsetningar eigna** sem þú getur valið í **Skoða** reiturinn er einnig fáanlegur í hvaða eignaleit þar sem þú getur valið eign. Trjásýnin er sýnt á **Eignamat** flipann, til dæmis þar sem þú [stofnar eign](../objects/create-an-object.md), búðu til viðhaldsbeiðni eða stofnaðu verkbeiðni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

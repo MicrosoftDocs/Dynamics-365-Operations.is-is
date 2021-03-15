@@ -207,3 +207,6 @@ Eftirfarandi aðstæður notar vöruhúsaforritið í fartæki til að gera *lei
 
     > [!NOTE]
    > Kerfið býr til eitt vinnuauðkenni fyrir hvern flutning sem þarf að ljúka. Ef staðsetning sem inniheldur þegar birgðir er tilgreind er aðeins eitt vinnuauðkennið stofnað. Ef ný staðsetning er tilgreind eru tvö vinnuauðkenni stofnuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

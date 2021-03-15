@@ -47,3 +47,6 @@ ms.locfileid: "4980998"
 2. Í listanum skal merkja valda línu.
     * Athugið að staða Efnismeðhöndlunareiningar er Tæmd  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

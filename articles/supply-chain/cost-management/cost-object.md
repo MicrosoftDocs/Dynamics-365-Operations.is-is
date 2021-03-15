@@ -81,3 +81,6 @@ Eftirfarandi tafla sýnir hvað er kostnaðarhlutur og hvað birgðahlutur.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

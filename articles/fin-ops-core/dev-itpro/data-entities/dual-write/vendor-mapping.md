@@ -75,3 +75,6 @@ Viðskeyti nafna                | msdyn\_nameaffixes          | [Heitisviðskeyt
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Með því að velja **Færslukosti \> Gjöld \> Stjórna gjöldum** í POS-forr
 [Ítarleg sjálfvirk gjöld fyrir omni-rás](omni-auto-charges.md)
 
 [Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

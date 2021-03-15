@@ -186,3 +186,6 @@ Ef þarf að gera leiðréttingu á fjárhagslykli viðskiptakrafna eða viðski
 ### <a name="the-system-allows-it"></a>„Kerfið leyfir það“
 
 Fyrirtæki nota oft virknina Eitt fylgiskjal eingöngu vegna þess að kerfið leyfir notkun þess án þess að gerð sé grein fyrir afleiðingunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

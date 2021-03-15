@@ -89,3 +89,6 @@ ms.locfileid: "4991765"
 23. Smelltu á tengdur Sölusamningar
 24. Smelltu á uppfyllingarflipann.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

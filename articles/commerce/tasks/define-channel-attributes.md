@@ -71,3 +71,6 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
 33. Smellið á „Í lagi“.
 34. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

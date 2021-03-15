@@ -39,3 +39,6 @@ Tiltektarvinna er lokuð vegna háðrar áfyllingarvinnu.
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Þegar eftirspurnaráfylling bylgju er notuð, ef fylla verður á tiltektarstaðsetningu til að uppfylla eftirspurn upprunapöntunar, stofnar kerfið bæði áfyllingarvinnu og tiltektarvinnu. Hins vegar lokar það tiltektarvinnu þar til áfyllingarvinnu er lokið. Þessi hegðun er innbyggð, vegna þess að tiltektarstaðsetningin mun ekki innihalda nægar birgðir nema áfyllingarvinnu sé lokið. Ljúka skal áfyllingarvinnu og vinna síðan tiltektarverk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

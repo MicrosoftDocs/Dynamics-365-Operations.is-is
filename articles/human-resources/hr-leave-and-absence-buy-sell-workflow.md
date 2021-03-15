@@ -81,3 +81,6 @@ Hægt er að nota eftirfarandi gagnaeiningar til að stofna skilyrtar eða sjál
 [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)<br>
 [Stjórna reglum fyrir kaup og sölu á leyfisdögum](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

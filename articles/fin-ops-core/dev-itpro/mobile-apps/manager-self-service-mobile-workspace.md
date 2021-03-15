@@ -97,3 +97,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 1.  Veldu **Senda hrós**. 
 1. Sláðu inn texta hróssins sem þú vilt senda. 
 1. Velja **Ekkert**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4988603"
 4. Í trénu skal kanna ‚flokkinn sem á að leyfa bókanir fyrir þetta heiti færslubókar‘.
 5. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

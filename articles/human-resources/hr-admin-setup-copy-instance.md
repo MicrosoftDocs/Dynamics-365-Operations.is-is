@@ -150,3 +150,6 @@ Frekari upplýsingar um sérsniðna reiti er að finna á [Stofna og vinna með 
 [Fjarlægja tilvik](hr-admin-setup-remove-instance.md)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

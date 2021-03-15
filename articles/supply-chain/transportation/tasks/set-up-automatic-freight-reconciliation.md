@@ -71,3 +71,6 @@ ms.locfileid: "4974011"
 11. Í reitinn Ástæðukóði vangreiðslu skal slá inn eða veldu gildi.
 12. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

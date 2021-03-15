@@ -147,3 +147,6 @@ Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

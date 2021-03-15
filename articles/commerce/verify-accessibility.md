@@ -86,3 +86,6 @@ Til að nota samþætta þjónustu [Microsoft Accessibility Insights](https://ac
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
 [Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Frekari upplýsingar
 - [Vinnusvæði kostnaðarstýringar](cost-control-workspace.md)
 - [Víddarstigveldi](dimension-hierarchy.md)
 - [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma. Í þessu
 8. Í reitinn þyngdareining skal slá inn eða velja gildi.
 9. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

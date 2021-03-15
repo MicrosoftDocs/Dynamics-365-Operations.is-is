@@ -42,3 +42,6 @@ Ef fleiri en ein sending er í farmi er hægt að Stofna aðalfarmbréf. Þetta 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

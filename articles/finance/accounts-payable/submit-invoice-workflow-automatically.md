@@ -52,3 +52,6 @@ Reikningslína verður útilokuð frá sjálfvirku vinnslunni ef eitthvert eftir
 - Gildið **Staða sjálfvirkrar jöfnunar innhreyfingar** í reikningslínunni er **Tókst ekki**.
 - Verið er að nota reikninginn.
 - Reikningurinn er í verkflæðiskerfinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

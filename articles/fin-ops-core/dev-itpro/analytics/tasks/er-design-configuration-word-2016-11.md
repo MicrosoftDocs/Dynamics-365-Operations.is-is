@@ -164,3 +164,6 @@ Til að keyra útgáfudrög breytanlega sniðsins þarf að gera það [keyranle
 
 - [Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði](../er-design-configuration-word.md)
 - [Felldu inn myndir og form í skjöl sem þú myndar með því að nota ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

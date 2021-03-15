@@ -259,3 +259,6 @@ Meðal vinnslugerðanna er hægt að finna skörun. Skörun gerir mismunandi vin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

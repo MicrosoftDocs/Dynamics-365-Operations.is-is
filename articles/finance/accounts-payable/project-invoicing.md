@@ -131,3 +131,6 @@ Hægt er að stofna reikning með neikvæðri upphæð; sem verður reikningur s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

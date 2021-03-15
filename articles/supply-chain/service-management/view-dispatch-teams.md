@@ -52,3 +52,6 @@ Til að fá upplýsingar um hvernig á að úthluta starfsmanni á hóp skaltu s
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -157,3 +157,6 @@ Farðu í **Retail og Commerce \> Rásir \> Verslanir \> Allar verslanir \> Uppg
 Þessi uppsetning hjálpar til við að tryggja að bakvinnsluuppgjör innihaldi sömu færslur og vaktir í POS, og að gögnin séu tekin saman af þeirri vakt.
 
 Frekari upplýsingar um uppgjör og lokunaraðferðir, sjá [Grunnstillingar verslunar fyrir smásöluuppgjör](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

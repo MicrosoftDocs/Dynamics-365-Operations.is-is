@@ -360,3 +360,6 @@ Fylgið þessum skrefum til að stjórna stuðningstíma fyrir eiginleika rafræ
 
     > [!NOTE]
     > Þegar valið er **Já** er stöðunni á útgáfum skilgreiningar sjálfkrafa breytt úr **Lokið** í **Samnýtt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

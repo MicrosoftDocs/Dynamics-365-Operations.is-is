@@ -44,3 +44,6 @@ Gerð viðhaldsbeiðni skilgreinir tengsl við líftímastöðuhóp fyrir viðha
 Eftirfarandi mynd sýnir dæmi um síðuna **Gerðir viðhaldsbeiðna**.
 
 ![Síðan Gerðir viðhaldsbeiðna](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

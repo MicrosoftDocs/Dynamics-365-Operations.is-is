@@ -146,3 +146,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 5. Velja lokna útgáfu af núgildandi skilgreiningu.
     * Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

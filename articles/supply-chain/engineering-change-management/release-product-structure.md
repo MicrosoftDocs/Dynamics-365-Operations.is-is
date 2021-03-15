@@ -159,3 +159,6 @@ Vegna þess að eigendur afurða vita hvaða lögaðilar þurfa afurðirnar, er 
 Til dæmis er afurð X úthlutað á afurðareigendahópinn *Hanna skápa*. Afurð X er einnig hluti af uppskrift afurðar Y, sem er úthlutað á afurðareigendahópinn *Hanna hátalara*. Ef notandi úr afurðareigendahópnum *Hanna hátalara* losar afurð Y og uppskrift hennar, verður afurð X losuð saman um leið og afurð Y.
 
 Frekari upplýsingar er að finna í [Eigendur afurða](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Uppsetning reikningsfærsutímabilsins er lögboðin hluti af heildaruppsetningu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Opnar spurningar gera svarendur kleift að veita sína eigin svar. Hægt er að 
     * Inntaksgerð Texta eða Athugasemdar er notað fyrir opnar spurningar.  
 6. Færa skal spurninguna inn í textasvæði.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

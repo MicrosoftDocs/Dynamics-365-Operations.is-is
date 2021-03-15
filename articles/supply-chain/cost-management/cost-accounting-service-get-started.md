@@ -110,3 +110,6 @@ Til að setja upp samþættingu milli kostnaðarbókhaldsþjónustu og Dynamics 
 ## <a name="related-resources"></a>Tengd tilföng
 
 [Heimasíða kostnaðarbókhaldsþjónustu](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

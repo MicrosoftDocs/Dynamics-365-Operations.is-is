@@ -70,3 +70,6 @@ Eftirfarandi skýringarmynd sýnir viðskiptaferla á háu stigi fyrir **Þjónu
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

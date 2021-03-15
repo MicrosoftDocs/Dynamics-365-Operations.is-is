@@ -39,3 +39,6 @@ Ef reynt er að stilla sölumagn (reiturinn **SalesQty**) fyrir vöru af gerðin
 
 Ekki er hægt að velja sölumagn fyrir afurðir sem eru þjónustuvörur. Ef til dæmis boðið er upp á þjónustu til að setja upp vöru, er engin ástæða til þess að skrá magn því að það er engin efnisleg vara til staðar. Aðeins er um að ræða þjónustu.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

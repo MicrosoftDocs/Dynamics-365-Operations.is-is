@@ -153,3 +153,6 @@ Hægt er að nota eftirfarandi stillingar ef hráefni eiga alltaf að vera dregn
 | Bóka tilbúið |   Sjálfvirk uppskriftanotkun    | <strong>Aldrei</strong>  |
 | Bóka tilbúið | Uppfæra skýrslu um tilbúið á neti | <strong>Staða</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

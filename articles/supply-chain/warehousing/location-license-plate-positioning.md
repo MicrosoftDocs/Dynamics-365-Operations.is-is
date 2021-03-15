@@ -280,3 +280,6 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
     ![Staðsetning stöðu 1](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
 
 1. Sláðu inn auðkenni númeraplötunnar sem þú bjóst til fyrir staðsetningu og fylgdu síðan leiðbeiningunum til að velja sölupöntunina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

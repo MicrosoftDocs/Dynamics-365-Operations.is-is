@@ -148,3 +148,6 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

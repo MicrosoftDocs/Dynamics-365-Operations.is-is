@@ -79,3 +79,5 @@ Borði birtist á síðunni **Tenglar** á vinnusvæðinu **Fríðindastjórnun*
 Þegar ástæðukóðar hafa verið fluttir yfir í starfsmannastjórnun er möguleikinn á að nota þá í fríðindastjórnun sjálfkrafa stilltur á **Já**.
 
 [![Nota ástæðukóða í fríðindastjórnun](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

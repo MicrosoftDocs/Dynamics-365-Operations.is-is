@@ -32,3 +32,6 @@ ms.locfileid: "4796874"
 2. í retinum **Dagsetning** ritarðu dagsetningu.
 3. Veljið **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

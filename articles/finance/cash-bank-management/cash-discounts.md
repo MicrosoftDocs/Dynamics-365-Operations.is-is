@@ -65,3 +65,6 @@ Reikningur fyrir 1000 USD með skilmála staðgreiðsluafsláttar 20D2% er bóka
 > [!NOTE]
 > Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ Fylgdu þessum skrefum til að búa til nýjan valmyndaratriði fartæki fyrir k
 1. Lokaskrefið í fartækinu er að **Ganga frá** klasanum á lokastaðsetninguna. Veljið **Í lagi**.
     - Þegar frágangsaðgerðin er staðfest er klasanum lokað og skipt upp, byggt á gildinu sem var stillt fyrir reitinn **Skipta klasa við** í klasaforstillingunni. Vinnukennum er einnig lokað.
 1. Skilaboðin „Klasa lokið“ eru sýnd á fartækinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

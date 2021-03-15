@@ -60,3 +60,6 @@ ms.locfileid: "4977289"
 Fyrir sölupantanir og kanbanpantanir verður að taka frá birgðir áður en pöntun er losuð í vöruhús. Annars eru vörur eða úthlutunarlínur ekki hægt að vinna í bylgju. Fyrir framleiðslupantanir, er einnig sá kostur tiltækur að velja Leyfa hlutafrátekningu. Til dæmis, þetta er hentugt ef efnin sem þarf til að hefja framleiðslu eru til staðar og geta beðið þar til viðbótar efni verða tiltækar til að klára ferlið. Ef þessi valkostur er valinn verður handvirkt að endurtaka losun í vöruhúsaferli þegar viðbótar efni verða tiltækar.  
 25. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

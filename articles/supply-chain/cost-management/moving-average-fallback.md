@@ -45,3 +45,6 @@ Fylgdu þessum skrefum til að velja varakostnaðarröð fyrir útreikninga á m
     - **Virkur kostnaður - Vöruverð** - Fyrirtæki gætu lent í afkomuvandamálum ef þau nota viðskiptaferla þar sem birgðir verða reglulega neikvæðar og færsluumfangið er um leið mikið. Þessi stilling getur hjálpað til við að draga úr þessum afkastavandamálum.
 
 ![Færibreytur birgðabókhalds](media/inventory-accounting-parameters.png "Færibreytur birgðabókhalds")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

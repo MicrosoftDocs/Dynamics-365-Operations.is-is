@@ -112,3 +112,6 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einigu Vöru
 | Allar bylgjur | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir bylgjuvinnslu |
 | Vinnusvæði hleðsluáætlunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir vinnusvæði vinnuáætlunar |
 | Upplýsingar um starf | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir upplýsingasíðu vinnu |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

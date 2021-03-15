@@ -61,3 +61,6 @@ ms.locfileid: "4797314"
 6. Smellið á „Vista“.
     * eftir vistun umsóknar, Hægt er að tengja skjöl við það, þar á meðal umsækjandans reynslu, umbun og kynningarbréfi.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

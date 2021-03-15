@@ -78,3 +78,6 @@ ms.locfileid: "5115801"
 34. Veldu flipann **Endurskoða**. Þegar yfirferðin fer í gegnum stöðurnar geta starfsmaður og stjórnandi bætt við athugasemdum fyrir hvert markmið eða hæfni.  
 35. Veldu flipann **Útskráningar**. Starfskrafturinn og yfirmaðurinn geta skrifað undir endurskoðunina. Þegar öllum nauðsynlegum útskráningum er lokið er stöðunni breytt í **Lokið** og ekki er hægt að gera neinar frekari breytingar.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

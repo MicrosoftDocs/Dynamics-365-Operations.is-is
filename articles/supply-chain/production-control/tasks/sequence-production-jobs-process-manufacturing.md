@@ -70,3 +70,6 @@ ms.locfileid: "4981058"
 8. Notið flýtiafmörkun til að sía á vörunúmerasvæðinu með gildinu „P300“.
     * Athugið pantanirnar eru nú raðað eftir forgangi lit og stærð og áætlaðar pantanir byrja á fyrstu pöntunardagsetningu og afhendingardagsetningu. Villuleita dálknum pöntunardagsetningu eða upphafsdagsetning upplýsingum um Áætlun upplýsingareit.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

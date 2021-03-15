@@ -41,3 +41,6 @@ Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þessi skráning
 7. Smella á örina til að bæta völdum tiltækum teymum við aðsetursbókina.
 8. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Til að taka þátt í vildarkerfi er hægt að búa til markaðssíðu með vil
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

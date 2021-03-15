@@ -104,3 +104,6 @@ Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

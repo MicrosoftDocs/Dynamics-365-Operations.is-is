@@ -118,3 +118,6 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

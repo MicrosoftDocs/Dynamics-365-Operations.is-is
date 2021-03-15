@@ -176,3 +176,6 @@ Eftirfarandi ferli sýnir hvernig á að úthluta gjöldum hausastigs á línu. 
         > Þegar unnið er með hnitanetið **Velja línur sem á að sleppa úr úthlutun** skal ganga úr skugga um að skilja hnitanetið eftir opið þar til **Úthluta** er valið. Ef hnitanetinu er lokað áður en valið er **Úthluta** tapast stillingarnar í hnitanetinu. Gjöldum verður þar af leiðandi úthlutað samkvæmt skilyrðinu sem var skilgreint hér áður.
 
 1. Vejið **Úthluta** til að nota stillingarnar og loka gátreitnum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

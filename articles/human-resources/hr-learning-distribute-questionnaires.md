@@ -131,3 +131,6 @@ Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurn
 Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

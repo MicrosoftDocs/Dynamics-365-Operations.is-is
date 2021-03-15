@@ -41,3 +41,6 @@ ms.locfileid: "5007617"
     * Veljið skilgreiningartækni á grundvelli vídda.  
 9. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

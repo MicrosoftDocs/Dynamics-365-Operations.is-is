@@ -32,3 +32,6 @@ ms.locfileid: "5005790"
 - [Setja upp verktakamiða fyrir lánardrottna](tasks/set-up-invoice-declaration-vendors.md)
 - [Setja upp skyldubundnar greiðslutilvísanir](tasks/set-up-mandatory-payment-references.md)
 - [Uppfæra verktakamiða lánardrottna og búa til skýrslu](tasks/update-vendor-invoice-declarations-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

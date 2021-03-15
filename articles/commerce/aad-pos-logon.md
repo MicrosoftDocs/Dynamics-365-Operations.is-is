@@ -73,3 +73,6 @@ Reitirnir **Samheiti**, **UPN** og **Ytra undirkennimerki** á flipanum **Commer
 [Stofna virknireglu fyrir smásölu](retail-functionality-profile.md)
 
 [Skilgreina starfsmann](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

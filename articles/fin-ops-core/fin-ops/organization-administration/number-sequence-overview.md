@@ -115,3 +115,6 @@ Ef ekki eru fyrirliggjandi lagaskilyrði um að notaðar séu samfelldar númera
 Ef rafmagnsleysi kemur upp, villa forrits eða önnur óvænt óhöpp getur kerfið ekki endurunnið númer sjálfkrafa fyrir samfelldri númeraröð. Hægt er að keyra tiltekt handvirkt eða sjálfvirkt til að endurheimta týnd númer.
 
 Íhugaðu vandlega notkun þjóns þegar hreinsunarferli er áætlað. Mælt er með því að tiltektin sé keyrð sem runuvinnsla utan háannatíma.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

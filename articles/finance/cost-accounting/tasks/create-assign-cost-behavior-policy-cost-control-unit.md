@@ -85,3 +85,6 @@ Kostnaður er flokkaður út frá kostnaðarhegðun sem annað hvort fastur eða
 15. Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.
 16. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

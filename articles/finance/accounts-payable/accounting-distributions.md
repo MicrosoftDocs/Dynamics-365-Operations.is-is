@@ -56,3 +56,6 @@ Almenn geta dreifingar á fjárhagsupphæð veitir eftirfarandi valkosti fyrir v
 Í útgáfu 10.0.13 hefur eiginleika verið bætt við sem villuleitar töflu yfir dreifingu á fjárhagsupphæð til að ganga úr skugga um að nýju reitirnir séu settir upp á réttan hátt. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Til að nota eiginleikann verður að virkja hann á vinnusvæðinu **Eiginleikastjórnun**. Til að virkja eiginleikann skal leita að heiti eiginleikans í reitnum **Leita** á síðunni **Eiginleikastjórnun** og síðan velja **Virkja núna**.
 
 Nánari upplýsingar má nálgast á [Dreifing á fjárhagsupphæðum og færslur undirbókar fyrir lánardrottnareikninga](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

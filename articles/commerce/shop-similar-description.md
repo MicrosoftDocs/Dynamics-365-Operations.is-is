@@ -98,3 +98,6 @@ Eftirfarandi mynd sýnir gátreitinn **Virkja tengil til að versla vörur með 
 [Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

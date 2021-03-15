@@ -109,3 +109,6 @@ Til að mynda og prenta þessa skýrslu skal fara í **Vöruhúsastjórnun \> Se
 ## <a name="packing-list-report"></a>Skýrsla pökkunarskráar
 
 Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er inniheldur pökkunarlistinn viðbótarupplýsingar sem tengjast prenttexta sendingar fyrir vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

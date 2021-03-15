@@ -46,3 +46,6 @@ Til að bóka leiðréttingu umbreytingar samkvæmt nýju bókhaldsstöðlunum s
 
 5. Til að skoða bókarfærsluna skal velja **Færslubækur eignarleigu**.
 6. Veldu nýja bók og veldu síðan **Bóka**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

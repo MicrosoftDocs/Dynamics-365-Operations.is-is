@@ -137,3 +137,5 @@ Safn valkosta:
 [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Nota Microsoft Dataverse vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Búa til og uppfæra söfn valkosta með vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

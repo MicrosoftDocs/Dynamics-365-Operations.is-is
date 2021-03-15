@@ -41,3 +41,6 @@ Hægt er að grunnstilla kerfið til að senda tölvupóst til notenda þegar ti
 
 > [!NOTE]
 > Tölvupóstssniðmát verkflæðis verða fengin frá annaðhvort tölvupóstssniðmátum kerfis eða fyrirtækis, fer eftir því hvort verkflæðið is á kerfisstigi (miðast ekki við fyrirtæki) eða verkflæði á fyrirtækisstigi (miðast við fyrirtæki).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

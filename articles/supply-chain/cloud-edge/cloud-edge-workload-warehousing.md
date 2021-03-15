@@ -292,3 +292,6 @@ Nokkrar runuvinnslur keyra á bæði miðstöðinni og einingarkvörðum.
 - Töflufærslur bylgjuvinnslu
 - Skilaboðaúrvinnsla vöruhúsamiðstöðvar til kvörðunareiningar
 - Vinna úr beiðnum um magnuppfærslur fyrir vöruhúsapöntunarlínur
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

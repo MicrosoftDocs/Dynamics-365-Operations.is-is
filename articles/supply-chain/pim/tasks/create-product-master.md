@@ -60,3 +60,6 @@ Stofna afurðarsniðmát fyrir forskilgreind afbrigði. Sýnigögn fyrirtækisin
 10. Smellt er á **Vista**.
 11. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

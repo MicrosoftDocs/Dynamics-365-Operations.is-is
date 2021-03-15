@@ -97,3 +97,6 @@ Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afri
 ## <a name="related-topic"></a>Tengt efni
 
 [Sniðmát skilgreiningargagna](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Hægt er að velja meðlimi í kredithóp viðskiptavina úr mismunandi lögaði
 Eftir að þú hefur lokið við að setja upp viðskiptahóp fyrir lánsfé geturðu bætt viðskiptavinum við hann með því að tilgreina lögaðila þeirra og auðkenni viðskiptavinarreiknings. Þegar þú bætir nýjum viðskiptavini við viðskiptavinahóp, leitar kerfið að sama viðskiptavinareikningi yfir alla lögaðila og biður þig um að bæta honum við viðskiptahópinn.
 
 Notaðu valmyndina **Aldursgreindar stöður** til að skoða upplýsingar um aldursgreinda stöðu fyrir alla reikningviðskiptavini í kredithóp viðskiptavina. Síðan **Aldursgreind staða** sýnir yfirlit yfir aldursgreiningar fyrir reikninga viðskiptavinarreikninga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

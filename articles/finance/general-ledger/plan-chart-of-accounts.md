@@ -59,3 +59,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
 - [Fjárhagsvíddir](financial-dimensions.md)
 - [Stofna og úthluta ítarlegu regluskipulagi](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

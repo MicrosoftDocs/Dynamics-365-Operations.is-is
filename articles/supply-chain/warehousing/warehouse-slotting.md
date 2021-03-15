@@ -383,3 +383,6 @@ Eftir að allir nauðsynlegir þættir eru til staðar geturðu sett upp hólfas
 1. Stilltu endurtekninguna til að keyra sjálfkrafa ef þú vilt.
 
 Þegar aðstæður eru æfðar skal **ekki** setja upp sjálfvirka hólfaskiptingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

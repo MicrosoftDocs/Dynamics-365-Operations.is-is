@@ -97,3 +97,6 @@ Ef um er að ræða starfsmann sem fær viðbótarlaun líkt og þóknanir er h�
 - [Vinna úr hæfni viðburðar](hr-benefits-process-life-event-eligibility.md)
 - [Vinna úr breytingum á hlutfalli](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

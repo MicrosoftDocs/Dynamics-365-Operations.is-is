@@ -82,3 +82,6 @@ Ef enginn notandaskilgreindur jöfnunarforgangur er til staðar, eru færslur sj
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

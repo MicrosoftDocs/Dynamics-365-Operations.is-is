@@ -141,3 +141,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 4.  Velja viðskiptavin.
 5.  Veldu **Tengslaupplýsingar** eða **Sölupantanir**. Ef **Sölupantanir** er valið birtist listi yfir sölupantanir fyrir viðskiptavininn.
 6.  Veldu **Velja sölupöntun**. Hér er hægt að skoða upplýsingar um sölupöntunarlínur, sendingar, tengslaupplýsingar viðskiptavinar og tengslaupplýsingar þess sem pantar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Framleiðslusvörun gefur starfsmönnum svörun um framleiðsluvinnslu. Hún skr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

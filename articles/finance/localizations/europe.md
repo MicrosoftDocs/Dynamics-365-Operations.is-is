@@ -99,3 +99,6 @@ ms.locfileid: "5099900"
 
 - [Yfirlit yfir rafræna skýrslugerð](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

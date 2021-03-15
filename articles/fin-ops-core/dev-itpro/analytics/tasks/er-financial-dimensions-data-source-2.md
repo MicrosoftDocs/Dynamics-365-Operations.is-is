@@ -147,3 +147,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 4. Smelltu á Ljúka.
 5. Smellt er á Í lagi.
 ![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

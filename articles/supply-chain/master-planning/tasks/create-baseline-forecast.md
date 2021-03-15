@@ -81,3 +81,6 @@ Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota anna
 5. Smellt er á Upplýsingar spárlínu
     * Á þessari síðu er hægt að sjá nákvæmnisgildi, söguleg eftirspurn og spár. Hægt er að gera breytingar á spá einnig.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

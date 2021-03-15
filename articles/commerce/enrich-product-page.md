@@ -74,3 +74,6 @@ Fylgdu þessum skrefum til að auðga vörusíðu.
 [Staðfesta aðgengi að efni síðu](verify-accessibility.md)
 
 [Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

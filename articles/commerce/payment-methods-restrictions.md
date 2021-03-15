@@ -60,3 +60,6 @@ Sjálfgefið gildi á valkostinum er **Nei**, sem tryggir að greiðslumátinn s
 
 Ef færsla er bæði með endurgreiðslu með kvittun og án kvittunar, verður ekki farið eftir skilmálum takmörkunar vegna þess að færslan verður verkflæði endurgreiðslu með kvittun. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

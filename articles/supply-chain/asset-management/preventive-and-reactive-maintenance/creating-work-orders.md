@@ -95,3 +95,6 @@ Til að setja upp flokkun fyrir sjálfkrafa myndaðar verkbeiðnir skal fylgja �
 1. Ef ætlunin er að valkostirnir séu notaðir þegar aðeins sumar viðhaldsáætlanir eru keyrðar skal í flýtiflipanum **Færslur til að taka með** sía eftir þörfum, rétt eins og yrði gert fyrir aðrar runuvinnslur í Microsoft Dynamics 365 Supply Chain Management.
 1. Í flýtiflipanum **Keyra í bakgrunni** skal setja upp runu og áætlunarvalkosti eftir þörfum, rétt eins og yrði gert fyrir aðrar runuvinnslur í Supply Chain Management.
 1. Veljið **Í lagi** til að keyra og/eða tímasetja valdar viðhaldsáætlanir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

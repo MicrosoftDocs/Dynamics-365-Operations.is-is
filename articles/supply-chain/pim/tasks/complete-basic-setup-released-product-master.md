@@ -52,3 +52,6 @@ ms.locfileid: "4987030"
 20. Lokið síðunni.
 21. Lokið skjámyndinni **Upplýsingar um losaða afurð**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Fyrir innleiðingar Lean Framleiðslu völdum við nálgun á framleiðsluflæð
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

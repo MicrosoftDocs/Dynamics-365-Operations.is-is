@@ -56,3 +56,6 @@ Frekari upplýsingar eru í [Afskriftaaðferðir og hefðir](depreciation-method
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

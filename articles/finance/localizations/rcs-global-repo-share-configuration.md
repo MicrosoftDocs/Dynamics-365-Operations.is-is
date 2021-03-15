@@ -72,3 +72,6 @@ Eftir að skilgreining hefur verið stofnuð í skilgreiningarveitu er hægt að
 Skilgreiningunni er deilt með ytra fyrirtækinu og er aðgengileg fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja hana inn í tilvik fyrirtækisins í RCS eða í tilvik Finance and Operations-forrita.
 
 6. Til að stöðva samnýtingu skilgreiningar sem áður hefur verið deilt með ytra fyrirtæki skal velja skilgreininguna og smella á **Stöðva samnýtingu** og velja síðan **Í lagi**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

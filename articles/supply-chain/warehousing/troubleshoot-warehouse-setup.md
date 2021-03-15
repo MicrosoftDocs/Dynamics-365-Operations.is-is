@@ -39,3 +39,6 @@ Ekki er hægt að nota neitt hlutverk nema stjórnanda til að fá aðgang að h
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Hermiforriti fartækis er aðeins stillt á að vinna með stjórnandareikningi. Við mælum með því að þú notir vöruhúsakerfisforritið sjálft í öllum prófunum og raunverulegri notkun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

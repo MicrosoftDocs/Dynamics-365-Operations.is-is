@@ -51,3 +51,6 @@ Nánari upplýsingar, sjá hvítbókina með yfirskriftinni "Framleiðsluflæði
     * Sjálfgefið hlutfall ferlistíma fyrir verkþáttarvensl er 1. Þetta gerir ráð fyrir að báðir verkþættir keyri á sama hraða eða framleiðslutími á einingu. Ef forveri keyrir á hærra hraða (lægri framleiðslutími á einingu), ætti hlutfall að vera lægri en 1, ef forveri keyrir á hægari hraða (hærri framleiðslutími á einingu) er hlutfall ferlistíma hærri en 1.  
 5. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

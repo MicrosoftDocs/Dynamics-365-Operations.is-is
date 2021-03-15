@@ -84,3 +84,6 @@ Til að gera eiginleika eignastýringar tiltæka í Finance and Operations (Dyna
 Frekari upplýsingar um hvernig á að vinna með fartækjavinnusvæðið **Eignastýring** er að finna í [Nota fartækjavinnusvæði eignastýringar](asset-management-mobile-workspace.md).
 
 Frekari upplýsingar um fartækjaforritið Finance and Operations (Dynamics 365) er að finna í [Heimasíða fartækjaforrits](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

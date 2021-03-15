@@ -68,3 +68,6 @@ Hægt er að opna þessa síðu úr á **Innhreyfing** aðgerðaflokk á **Innka
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -246,3 +246,6 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT eftir því sem kauptilboð eru 
 | Samþykkja eitt af tilboðunum. (eða að minnsta kosti ein lína) |                          Móttekið                           |                           Samþ.                           |                    Móttekið                    |                    Samþ.                     |                   Móttekið                   |                   Samþ.                    |
 |           Hafna öllum öðrum kauptilboðum.           |                          Hafnað                           |                           Samþ.                           |                    Hafnað                    |                    Samþ.                     |                   Hafnað                   |                   Samþ.                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

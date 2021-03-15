@@ -71,3 +71,6 @@ Fylgið eftirfarandi skrefum til að stofna tengsl þjónustuhlutar í þjónust
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Af listasíðunni **Allar eignir** er hægt að prenta eignabilanaskýrslu sem s
 >[!NOTE]
 >Til að prenta bilanaskýrslu fyrir nokkrar eignir eða eignagerðir velurðu **Eignastýringu** > **Skýrslur** > **Eignir** > **Bilun eigna**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

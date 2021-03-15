@@ -208,3 +208,6 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 § Þegar POS er ótengdur er aðeins hægt að kalla aftur fram viðskipti í núgildandi ótengda gagnagrunninum fyrir skil.
 
 \*\* Þegar POS er ótengdur birtist aðeins viðskipti í núgildandi ótengda rásagagnagrunninum í færslubókinni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

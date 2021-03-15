@@ -77,3 +77,6 @@ Ef spá er ekki mynduð fyrir stórt safn af vörum en, til dæmis, fyrir eina v
 - [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 
 - [Leiðrétt spá heimiluð](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

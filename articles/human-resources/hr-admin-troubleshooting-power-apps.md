@@ -44,3 +44,6 @@ Athugið að ýmsar birgðahaldseiningar Microsoft Office veita réttindin, ása
 
 1. Opnið [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Stofnið umhverfið með því að fylgja leiðbeiningunum í [Ráðstafa Human Resources](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

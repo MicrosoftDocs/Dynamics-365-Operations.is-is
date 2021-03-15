@@ -76,3 +76,6 @@ Til að staðfesta að greiðslumáti viðskiptavinalykils hafi verið gerður v
 [Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði](quantity-limits.md)
 
 [Uppfærslur á SDK og kjarnasafni](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

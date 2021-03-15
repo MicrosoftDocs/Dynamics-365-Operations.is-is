@@ -60,3 +60,6 @@ Frekari upplýsingar eru í [Reglur endurskoðunarstefnu](audit-policy-rules.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

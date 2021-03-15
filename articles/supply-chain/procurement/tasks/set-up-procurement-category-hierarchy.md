@@ -44,3 +44,6 @@ ms.locfileid: "5017318"
 4. Velja afurðir sem á að bæta við innkaupategund.
 5. Veldu örina til að bæta afurðunum við töfluna **Valið**.
 6. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

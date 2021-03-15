@@ -37,3 +37,6 @@ ms.locfileid: "5002024"
 6. Í reitnum Frá dagsetningu skal stilla dagsetninguna á ‚2012-12-01‘.
 7. Í reitnum Til dagsetningar skal stilla dagsetninguna á ‚2012-12-31‘.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

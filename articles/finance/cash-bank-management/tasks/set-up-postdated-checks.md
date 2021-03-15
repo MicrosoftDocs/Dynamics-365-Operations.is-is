@@ -56,3 +56,6 @@ Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn U
 18. Smelltu á Vista.
 19. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

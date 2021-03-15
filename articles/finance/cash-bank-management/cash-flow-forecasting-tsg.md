@@ -52,3 +52,6 @@ Gangið úr skugga um að mælingarnar „Sjóðstreymismæling V2“ og „Ledg
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Hafa einingar einingaverslunar verið uppfærðar?
 
 Nauðsynlegt er að uppfæra einingarnar reglulega til að tryggja að gögnin séu uppfærð og nákvæm. Til að uppfæra handvirkt tiltekna einingu skal fara í **Kerfisstjórnun \> Uppsetning \> Einingaverslun**, velja eininguna og því næst velja **Uppfæra**. Einnig er hægt að uppfæra gögnin sjálfkrafa. Á síðunni **Einingaverslun** skal stilla valkostinn **Virkja sjálfvirka uppfærslu** á **Já**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

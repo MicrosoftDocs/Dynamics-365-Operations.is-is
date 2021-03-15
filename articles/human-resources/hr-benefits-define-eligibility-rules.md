@@ -67,3 +67,6 @@ ms.locfileid: "5112933"
 10. Veljið **Vista**.
 11. Lokaðu skjámyndinni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

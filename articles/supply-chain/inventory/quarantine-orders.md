@@ -66,3 +66,6 @@ Hægt er að rýra birgðir sem hluta af biðgeymslupöntunarferlinu. Við vinns
 --------
 
 [Stöðvun í birgðum](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

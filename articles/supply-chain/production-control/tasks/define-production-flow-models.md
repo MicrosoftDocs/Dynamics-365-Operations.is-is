@@ -45,3 +45,6 @@ Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-fr
 8. Veljið valkost í reitnum viðbrögð við skorti á Afkastagetu .
     * Valkostirnir eru: Fresta - Frestun fullt eftirspurn röðunartilviksins á næsta tiltæka framleiðslu dag með tiltæk afköst. Hætta við - Ljúka sjálfvirk áætlun fyrir röðunartilvik og hafa tengd verk án áætlunar.   Bæta við umbeðinn dag - Áætla umbeðin verk fyrir umbeðið tímabil. Þetta leggur of mikið álag á reitnum fyrir þennan dag og krefst þess að skipuleggjara endurskoða og framkvæma handvirk samskipti.   Dreifa á tiltækt tímabil - Dreifa á mismunandi verk röðunartilviksins á allir dagar tiltæk framleiðslu, byrja á fyrsta tiltæk degi. Lágmarks magn til dreifingar er magn kanban-vinnsla. Dreifingu úthlutar lágmarks áætlunarmagn (kanban-magn) í hverjum degi með nægilegt gegnumstreymi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Nánari upplýsingar er að finna í [Afleiddar bækur](derived-books.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

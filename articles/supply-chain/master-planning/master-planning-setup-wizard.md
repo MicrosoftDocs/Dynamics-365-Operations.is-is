@@ -208,3 +208,6 @@ Contoso smásala er dreifingarfyrirtæki í tískuiðnaðinum. Það notar aðal
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi." **1 dagur** er slegið inn.
 
     Contoso notar samþykktar kröfur frá verslunum sínum til að búa til fyrirhugaðar innkaupapantanir til að bæta við þær verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

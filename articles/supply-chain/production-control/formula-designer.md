@@ -120,3 +120,6 @@ Smellið á **Uppsetningu** til að sérsníða upplýsingarnar sem birtast í t
 |     Uppskrift     | Notið þessa gátreiti til að velja skilyrðin sem eru sýndar í trjáskipulagi. Formúluhönnuðurinn sýnir valin skilyrði neðst í báðum flipum. |
 |    Leið    |                                           Notið þessa gátreiti til að velja skilyrðin sem eru sýndar fyrir leiðirnar.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

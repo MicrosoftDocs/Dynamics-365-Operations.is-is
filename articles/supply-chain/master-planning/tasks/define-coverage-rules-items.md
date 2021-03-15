@@ -101,3 +101,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli sýn
 11. Í reitnum **Innkaupatími** skal slá inn ‚5‘.
 12. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

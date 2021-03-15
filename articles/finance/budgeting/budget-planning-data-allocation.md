@@ -76,3 +76,6 @@ Loks er bætt við sjálfvirku verki fyrir stigsúthlutun fjárhagsáætlunarger
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

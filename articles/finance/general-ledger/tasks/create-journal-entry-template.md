@@ -62,3 +62,6 @@ Hægt er að vista bókaða færslubókarfylgiskjal sem sniðmát Fylgiskjals og
 29. Í reitinn **Upphæð** skal færa inn upphæðina sem á að beita á fylgiskjalið. Reiturinn **Upphæð** er einungis sýndur ef sniðmát fylgiskjals er af gerðinni Prósent.  
 30. Smellt er á **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

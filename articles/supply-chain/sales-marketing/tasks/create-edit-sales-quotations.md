@@ -69,3 +69,6 @@ ms.locfileid: "4974936"
 13. Smelltu á **Sölupantanir**.
 14. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

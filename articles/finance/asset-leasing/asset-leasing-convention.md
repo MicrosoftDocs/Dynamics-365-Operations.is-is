@@ -50,3 +50,6 @@ Til að skoða eða úthluta viðtekinni reglu leigusamnings skal fylgja þessum
 3. Veljið **Vista**.
 
 Þegar leigusamningur er stofnaður er upphafsdagur hverrar bókar sjálfkrafa færður inn samkvæmt upphafsdagsetningunni sem er færð inn fyrir leigusamninginn og viðteknu reglu hans sem er tilgreind fyrir bókina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

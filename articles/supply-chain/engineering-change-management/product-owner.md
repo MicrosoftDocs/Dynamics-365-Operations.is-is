@@ -60,3 +60,6 @@ Til dæmis er afurð X úthlutað á afurðareigendahópinn *Hanna skápa*. Afur
 ## <a name="product-owners-and-approvals"></a>Eigendur afurða og samþykktir
 
 Vegna þess að afurðareigendur vita hvort tilteknar hönnunarbreytingar muni koma sér vel fyrir þeirra afurð er oft skynsamlegt að taka þær með sem hluta af samþykktarferlinu í umsjón hönnunarbreytinga. Hægt er að innleiða þessa nálgun með því að setja upp vörueigendur sem þátttakanda í verkflæðinu sem er notað fyrir umsjón hönnunarbreytinga. Kerfið mun þá úthluta samþykktarverkefnum í verkflæði, byggt á þeim afurðum sem eru í stjórnunarbeiðnum og beiðnum um hönnunarbreytingar. Frekari upplýsingar eru í [Umsjón hönnunarbreytinga](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.locfileid: "5112944"
 3. Tilgreindu gildi fyrir **Námunda að næsta**, **Atburðarás** og **Námundunarform**.
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

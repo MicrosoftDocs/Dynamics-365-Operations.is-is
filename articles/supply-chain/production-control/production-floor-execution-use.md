@@ -169,3 +169,6 @@ Starfsmenn geta opnað skjal sem er hengt við verk með því að velja **Leið
 1. Starfsmaðurinn vinnur í gegnum leiðarvísinn til að læra inn á verkið.
 
 Frekari upplýsingar um hvernig á að stofna, úthluta og nota leiðarvísa fyrir HoloLens er að finna í [Láta starfsmenn í framleiðslu fá leiðarvísa með blönduðum veruleika](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

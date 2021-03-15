@@ -49,3 +49,6 @@ ms.locfileid: "4994491"
 19. Í listanum skal smella á tengilinn í valinni línu.
 20. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

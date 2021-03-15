@@ -122,3 +122,6 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 2. Finndu **Upplýsingar** undir skjámyndum. 
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**. 
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

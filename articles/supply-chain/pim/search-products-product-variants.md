@@ -86,3 +86,6 @@ Fyrir færslu í sölupöntunarlínu, er sjálfgefna hegðun að opna **afurðal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

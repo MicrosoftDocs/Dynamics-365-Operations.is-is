@@ -54,3 +54,6 @@ Frekari upplýsingar um ferlið fyrir flutning frá grunnvöruhúsi í ítarlegt
 - [Flutningur á Microsoft Dynamics AX WMS í ný R3 vöruhús og flutningsvirkni](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [WMSI/WMS2 atriðaflutningur](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Uppfæra vöruhúsastjórnunarferli úr Microsoft Dynamics AX 2012 í Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

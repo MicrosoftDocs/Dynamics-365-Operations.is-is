@@ -183,3 +183,6 @@ Samþykktarferli samanstendur af samþykktarskref. Ljúktu við eftirfarandi fer
 1. Tvísmellið samþykktarferlið í ritill verkflæðis. Verkflæðisritlinum birtir skref í samþykktarferlinu.
 2. Til að bæta við samþykktarskrefi, draga skrefið í **verkflæðiseiningar** á vinnusvæði.
 3. Til að skilgreina samþykktarskref, sjá [Skilgreina samþykktarskref í verkflæði](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

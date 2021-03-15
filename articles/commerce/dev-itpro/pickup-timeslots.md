@@ -127,3 +127,6 @@ Eftirfarandi mynd sýnir dæmi um rafræna pöntun þar sem tímahólf sóttrar 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Eining fyrir afhendingarupplýsingar](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Hnapparnir í hópnum **Verk** á flipanum **Verkbeiðni** í aðgerðaglugganum
 >[!NOTE]
 >Til að hafa spár með sem voru stofnaðar í verkbeiðni þegar röðun er keyrð skaltu nota spárlíkanið sem valið var á síðunni **Færibreytur eignastýringar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

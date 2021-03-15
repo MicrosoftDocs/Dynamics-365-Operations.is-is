@@ -61,3 +61,6 @@ Stofna og senda ársfjórðungslegan ESB-sölulista
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

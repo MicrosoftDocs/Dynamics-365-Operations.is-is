@@ -87,3 +87,6 @@ Eftirfarandi mynd sýnir hvernig þetta dæmi kann að birtast á síðunni **ma
 Eftirfarandi mynd sýnir hvernig þetta dæmi kann að birtast á síðunni **margbrotin Þarfarakning** fyrir áætluðu framleiðslupöntunina.
 
 ![Dæmi um fyrirtæki innan samstæðu sem felur í sér þrjú fyrirtæki](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

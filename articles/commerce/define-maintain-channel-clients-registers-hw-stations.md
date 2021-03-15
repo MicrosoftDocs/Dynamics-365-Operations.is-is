@@ -204,3 +204,6 @@ Viðbótarupplýsingar tengdar virkjun inniheldur starfsmaður sem breytti virkj
 ### <a name="client-data-synchronization"></a>gagnasamstilling biðlara
 
 Allar breytingar á biðlara Sölustaðar, nema breytingar á virkjunarstöðu tækis, verður að samstilla í gagnagrunn rásar til að taka gildi. Til að samstilla breytingar á gagnagrunni rásar, fara í **Retail og Commerce** &gt; **Upplýsingatækni í Retail og Commerce** &gt; **Dreifingaráætlun**, og keyra nauðsynlega dreifingaráætlun. Fyrir breytingar á biðlaranum, ætti að keyra dreifingaráætlanir **Afgreiðslukassa** og **Skilgreiningar rásar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

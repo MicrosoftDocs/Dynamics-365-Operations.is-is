@@ -39,3 +39,6 @@ ms.locfileid: "4986980"
 10. Færið inn númer í reitnum „Magn“.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

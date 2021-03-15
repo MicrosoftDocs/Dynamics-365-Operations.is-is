@@ -114,3 +114,6 @@ Eftirfarandi tafla veitir frekari upplýsingar um viðbótaraðgerðir sem eru �
 | Framboð         | Sýna ATP-upplýsingar fyrir valdar samsetningar afbrigða fyrir valda staðsetningu. |
 | Sýna allar staðsetningar   | Skiptu yfir í staðlað uppflettingaryfirlit birgða og auðkenndu upplýsingar um birgðaframboð á vöruafbrigðinu yfir allar verslanir í flokki verslanastaðsetjara og einnig í dreifingarmiðstöðvum af gerðinni **Staðall/Sjálfgefið**. |
 | Skoða upplýsingar um afurð | Beindu notandanum á síðuna **Afurðarupplýsingar** á tengdu afurðarsniðmáti. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

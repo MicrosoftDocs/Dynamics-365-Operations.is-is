@@ -64,3 +64,6 @@ Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er a�
 4. Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.
 
 ![Mynd af síðu almennrar færslubókar](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

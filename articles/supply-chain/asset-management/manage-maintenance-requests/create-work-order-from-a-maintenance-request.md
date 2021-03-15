@@ -54,3 +54,6 @@ Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt
 
     ![Opna nýja vinnupöntun](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

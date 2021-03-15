@@ -77,3 +77,6 @@ Eftirfarandi tafla sýnir sýnigögn sem eru tiltæk á hverri skýrslusíðu.
 |    Staða lánardrottins/viðskiptavinar     |                                                                                                                   <ul><li>Staða lánardrottins/viðskiptavinar</li><li>Staða lánardrottins/viðskiptavinar eftir fyrirtæki</li><li>Upplýsingar um stöðu lánardrottins/viðskiptavinar</li></ul>                                                                                                                    |
 |    Reikningar með greiðslubið     |                                                                                         <ul><li>Reikningar með greiðslubið</li><li>Reikningar með upplýsingar um greiðslubið</li><li>Reikningar með greiðslubið eftir fyrirtæki</li><li>Reikningar með greiðslubið eftir lánardrottnahóp</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Skýrslan um vegið meðaltal forvaxta fullnægir kröfum US GAAP um upplýsinga
 |     Gjaldmiðill                          |     Skammstöfun fyrir færslugjaldmiðilinn sem er notaður. Í öllum skýrslum verður færslugjaldmiðlinum breytt í skýrslugjaldmiðilinn.  |
 |     Eftirstandandi leigugreiðslur          |     Heildarupphæð ógreiddra leigugreiðslna úr greiðsluáætlun sem eftir stendur frá dagsetningunni **Frá og með**.            |
 |     Eftirstandandi vegnar greiðslur       |     Leigugreiðslur sem eftir eru margfaldaðar með notuðum forvöxtum.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

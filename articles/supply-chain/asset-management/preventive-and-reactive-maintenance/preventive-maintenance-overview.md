@@ -38,3 +38,6 @@ Eftirfarndi mynd gefur yfirlit yfir verkflæðið frá stofnun viðhaldsáætlan
 
 ![Mynd 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

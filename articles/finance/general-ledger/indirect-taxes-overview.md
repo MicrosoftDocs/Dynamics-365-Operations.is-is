@@ -96,3 +96,6 @@ Ef þú notar hins vegar skilyrtan virðisaukaskatt er gert upp við skattyfirv�
 Ef þú notar útreiknaða ávísun sem greiðslumáta, þegar greiðslan er stofnuð, er bankareikningurinn ekki hreinsaður. Í sumum löndum verður virðisaukaskatturinn „innleyst“ ábyrgð þegar greiðslan hreinsar bankann, sem þýðir að fyrirframgreidd ávísun er gerð upp. Þú getur gert það kleift með því að velja **Innleysa skilyrtan skatt þegar fyrirframgreiddar ávísanir eru gefnar út** í **Reiðufjár- og bankastjórnun > Uppsetning > Færibreytur reiðufjár- og bankastjórnunar > Fyrirframdagsettar ávísanir**.
 
 Nánari upplýsingar um það eru í [Setja upp staðgreiðsluskattur](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

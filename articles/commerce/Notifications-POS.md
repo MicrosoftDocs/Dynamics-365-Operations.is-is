@@ -76,3 +76,6 @@ Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé a
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 
 ![Beint efni á hnöppum sölustaðar](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

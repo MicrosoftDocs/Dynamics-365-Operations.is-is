@@ -57,3 +57,6 @@ Til að skoða lista yfir allar eignir sem þú hefur lánað til annarra staða
 3. Í reitnum **Skilað** skaltu slá inn dagsetningu og tíma.
 4. Veljið **Í lagi**.
 5. Endurnærðu **Virk eignalán** listasíðu og taktu eftir því að eignalánið birtist ekki lengur á listanum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

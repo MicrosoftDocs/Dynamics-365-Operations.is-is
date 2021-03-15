@@ -96,3 +96,6 @@ ms.locfileid: "4974261"
     * Tilgreina hvaða póstnúmer þessa úthlutun taxtagrunns á að gilda frá.
 10. Í reitnum **Landsvæði** þar sem sótt er, skal slá inn ‚USA‘.
 11. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

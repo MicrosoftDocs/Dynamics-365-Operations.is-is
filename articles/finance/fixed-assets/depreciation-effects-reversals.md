@@ -95,3 +95,6 @@ Afskrift er er höfð of lítil sem nemur 16,95 (983,62 - 966,67).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

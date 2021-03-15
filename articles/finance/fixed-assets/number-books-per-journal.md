@@ -49,3 +49,6 @@ Til dæmis eru til 5001 eignaauðkenni, þrjár bækur eru tengdar við hvert au
 
 > [!Note] 
 > Ef færibreytan **Sundurliða afskriftir** er virk þegar verið er að stofna afskriftartillögu, þá hefur gildið í **Fjöldi bóka í hverri færslubók - AfskriftartillAGA** engin áhrif. Í þessu máli ER fjöldi bóka í færslubók 6000, sem eru innri skilgreindu mörkin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

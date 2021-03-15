@@ -90,3 +90,6 @@ Hægt er að velja á milli eftirfarandi afskriftaraðferða.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

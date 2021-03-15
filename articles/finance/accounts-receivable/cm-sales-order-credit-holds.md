@@ -264,3 +264,6 @@ Ekki er hægt að gefa út sölupantanir sem eru með nauðungarástæður sjál
 Lánastjórnun er aðeins hægt að nota sem stendur við sölupantanir. Frítextareikningar, sölupunktur sölupantana og pantanir í símaþjónustuverum nota tímabundin lánamörk og tryggingar/ábyrgðir sem þú bætir við til að laga lánsheimildina. Þeir munu ekki nota hindrunarreglurnar og þær verða ekki settar á biðlista ef það er vandamál með lánsfjárhæðina.
 
 Það er enginn stuðningur við reikninga verkefna í lánamálum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

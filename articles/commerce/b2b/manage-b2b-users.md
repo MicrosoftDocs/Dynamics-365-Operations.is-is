@@ -139,3 +139,6 @@ Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgj
 [Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði](quantity-limits.md)
 
 [Yfirlit númeraraða](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

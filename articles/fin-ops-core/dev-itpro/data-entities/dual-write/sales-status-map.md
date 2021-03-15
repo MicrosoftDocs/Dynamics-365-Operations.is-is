@@ -150,3 +150,6 @@ Til að virkja eigindina **erIntegrationUser** skal fylgja þessum skrefum.
     ![Gildinu breytt á stillingadálki samþættingarnotanda](media/sales-map-user-mode-yes.png)
 
 Sölupöntunum hefur verið varpað.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 | Sendingarframmistaða        | Sent eftir afurð                       | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir viðskiptavini                      | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir svæði / vöruhús              | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Birgðaflutningur (Field Service við Supply Chain Management): Inventory transfer
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

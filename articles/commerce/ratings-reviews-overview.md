@@ -58,3 +58,6 @@ Einkunna- og umsagnalausnin býður einnig upp á sniðmát fyrir viðskiptagrei
 [Skilgreina einkunnir og umsagnir](configure-ratings-reviews.md)
 
 [Samstilla afurðaeinkunnir í Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Ef verið er að vinna með endanlegt magn, er áætlun einnig háð tiltækilei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

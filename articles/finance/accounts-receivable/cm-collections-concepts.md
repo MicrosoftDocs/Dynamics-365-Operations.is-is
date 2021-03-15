@@ -121,3 +121,6 @@ Hægt er að vinna NSF-greiðslur með því að velja **NSF-greiðslu** á sí�
 [Kreditbið fyrir sölupantanir](./cm-sales-order-credit-holds.md)
 
 [Regluleg verk viðskiptavinarlánastjórnunar](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

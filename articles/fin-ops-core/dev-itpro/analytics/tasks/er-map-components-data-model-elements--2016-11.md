@@ -113,3 +113,6 @@ Hægt er að skilgreina hverja sniðsútgáfa sem tiltæk fyrir notkun frá tilt
 1. Víkka út hlutann ISO lands-/svæðiskóða.
     * Hvert aðgangur sniðs má takmarka með því að auðkenna tiltekna lönd/svæði þar sem snið á við. Þegar listi yfir lönd/svæði fyrir tiltekið snið er tómt er hægt að nota þetta snið fyrir öll fyrirtæki. Þegar sumar ISO lands/svæðiskóða eru færðar inn á lista yfir lönd/svæði, er hægt að nota sniðið eingöngu í fyrirtæki sem hafa aðalaðsetur með landskóðinn af þeim lista.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

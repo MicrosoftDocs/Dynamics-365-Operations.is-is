@@ -73,3 +73,6 @@ ms.locfileid: "4998629"
 2. Smellt er á Skoða þarfarakningartré.
     * Athugið að kanban með sama magni og sölulínan var stofnað. Einnig er hægt að skoða efni sem þarf til að framleiða L0050. Þetta er síðasta skrefið í þessu ferli.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

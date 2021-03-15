@@ -106,3 +106,6 @@ Fylgdu þessum skrefum til að bæta hetjueiningu við nýja síðu og stilla na
 [Textabálkseining](add-content-rich-block.md)
 
 [Myndspilaraeining](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

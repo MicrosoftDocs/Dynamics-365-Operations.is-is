@@ -181,3 +181,6 @@ Til að setja upp öryggishólf skal fylgja þessum skrefum.
 
 [Setja upp rás símavers](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Eiginleikarnir sem þú getur sett upp eru mismunandi eftir því hvaða þáttu
 9. Vistaðu færsluna.
 
     Reiturinn **Gerðir virkra staðsetninga** sýnir fjölda virkra staðsetninga sem eru að nota eigindagerðina. Reiturinn **Gerðir eigna** sýnir fjölda eignagerða sem eru að nota hann.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

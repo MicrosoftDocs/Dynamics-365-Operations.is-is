@@ -127,3 +127,6 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 
 > [!IMPORTANT]
 > Ef aðeins er hætt við hluta af magninu fyrir vinnulínu þarf einnig að fjarlægja úrelt magn úr farmlínunni. Að öðrum kosti, nema undirafhending sé sett upp á réttan hátt, er ekki hægt að staðfesta sendingu á farmlínu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Til að breyta notandakenni þarf að endurnefna lykilinn í gagnagrunninum. Þe
 Frekari möguleikar til að innleiða B2B-notendur er að finna í [Flytja út B2B-notendur í Azure AD](../implement-b2b.md).
 
 Frekari upplýsingar um forstillta kerfisreikninga er að finna í [Forstilltir kerfisreikningar](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

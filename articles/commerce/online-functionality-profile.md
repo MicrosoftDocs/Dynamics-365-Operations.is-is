@@ -66,3 +66,6 @@ Eftirfarandi mynd sýnir dæmi um netvirknireglu.
 [Setja upp smásölurás](channel-setup-retail.md)
 
 [Setja upp rás símavers](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Til að sjá yfirlit yfir allar skráningar á niðurtíma vegna viðhalds smell
 >[!NOTE]
 >Öll dagatöl sem eru notuð í einingunni **Eignastjórnun** eru sett upp í **Fyrirtækisstjórnun** > **Uppsetning** > **Dagatöl** > **Dagatöl**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

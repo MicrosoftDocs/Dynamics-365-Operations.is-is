@@ -109,3 +109,6 @@ Eftirfarandi ferli sýnir eina leið til að endurtaka málið.
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
 Þetta fer eftir færibreytustillingunum fyrir reikninga og reikningaflokka. Frekari upplýsingar er að finna í eftirfarandi bloggfærslu: [Bókhald fyrir Útgjöld innkaupa og Afbrigði birgða](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

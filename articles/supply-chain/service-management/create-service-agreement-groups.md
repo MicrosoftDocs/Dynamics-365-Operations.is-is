@@ -42,3 +42,6 @@ ms.locfileid: "4965931"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Yfirlit yfir þjónustusamning](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

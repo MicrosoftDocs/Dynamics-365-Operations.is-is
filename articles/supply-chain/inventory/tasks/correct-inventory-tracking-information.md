@@ -63,3 +63,6 @@ ms.locfileid: "5000135"
 2. Smella á Færslur.
     * Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

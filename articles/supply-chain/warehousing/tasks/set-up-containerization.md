@@ -80,3 +80,6 @@ ms.locfileid: "4977039"
 11. Í reitinn **Velja reit** skal slá inn eða velja gildi.
 12. Veljið **Í lagi**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Pöntunin er vistuð, en **Ekki setja í ferli** flaggið er stillt á hana. Þe
 Til að skoða og stjórna pöntununum sem eru í bið fyrir svikakönnun skaltu fara í **Retail og Commerce** \> **Viðskiptavinir** \> **Pantanir í bið**. Á síðunni **Pantanir í bið** skal velja færslu í listanum og smella svo á **Pöntun í bið** til að sjá frekari upplýsingar sem innihalda ástæðuupplýsingar. Á flipanum **Upplýsingar um svik** er hægt að skoða kerfisbundin svikaviðmið sem fundust fyrir pöntunina og stigin sem voru notuð. Ef pöntunin var sett í bið handvirkt er hægt að skoða allar athugasemdir sem notandinn sem setti pöntunina í bið sló inn með því að skoða **Athugasemdir um svik** hlutann í flýtiflipanum **Athugasemdir**.
 
 Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

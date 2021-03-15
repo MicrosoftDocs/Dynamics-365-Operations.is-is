@@ -41,3 +41,6 @@ ms.locfileid: "4968628"
 11. Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.
 12. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

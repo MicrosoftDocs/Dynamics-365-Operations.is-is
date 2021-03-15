@@ -58,3 +58,6 @@ Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltekt
 Smurolía í magnvöru er framleidd í 1000 lítra blandara. Þegar magnvaran er tilbúin er henni dælt inn á nokkrar áfyllingarstöðvar þar sem flöskur í mismunandi stærðum eru fylltar. Að áfyllingu lokinni er flöskunum pakkað í kassa. Þessum kössum er síðan raðað á vörubretti.
 
 Í þessum aðstæðum er stofnuð runupöntun til að gera 1000 lítra magnvöru. (Þessi pöntun er magnpöntunin) Þegar þessari runupöntun er lokið er tilkynnt um lok hennar hjá inntaksstað efnisins á áfyllingarstöðvunum. Runupöntun til að fylla og pakka hverri flöskustærð er því næst stofnuð. (Þessar pantanir eru pakkapantanir.) Pakkapantanir eru með formúlu sem samanstendur af magnvöru, tómri flösku, merkimiða og öðru umbúðaefni. Vegna þess að magnvaran rennur beint frá blöndunartankinum til áfyllingarstöðvanna er ekki þörf á neinni vöruhúsavinnu til að taka til þetta efni og magnvaran er notuð beint frá inntaksstaðnum. Þess vegna er frátekningarreglan stillt á *handvirkt*. Öðrum efnum er komið til áfyllingarstöðvarinnar í gegnum tiltekt. Þess vegna er frátekningarreglan fyrir þessar línur stillt á *losa* sem dæmi, þannig að frátekningin gerist sjálfkrafa þegar pakkapöntunin er losuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

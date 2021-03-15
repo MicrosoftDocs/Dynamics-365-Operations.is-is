@@ -150,3 +150,6 @@ ms.locfileid: "5104393"
 
 3. Í reitinn **Umhverfi** skal færa inn heiti á umhverfi rafrænnar reikningsfærsluviðbótar.
 4. Veljið **Vista** og lokið síðan skjámyndinni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

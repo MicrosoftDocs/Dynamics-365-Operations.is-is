@@ -133,3 +133,6 @@ Hægt að vista gildandi gildi sem sjálfgildi. Tveir kostir eru í boði:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -217,3 +217,6 @@ Undantekningar vinnu stjórna hegðun lítillar tiltektar. Fylgið þessum skref
 1. Veljið **Stutt tiltekt**.
 1. Veljið undantekningarkóða vinnu sem búinn var til fyrir þessa atburðarás.
 1. Ef rétta undantekningin var valin ætti gátreiturinn **Ógilda og prenta aftur** að vera tiltækur. Veldu þennan reit og staðfestu. Þegar staðfest, verður röð miðarúllunnar sem reiturinn **Smíðakenni merkis** ber kennsl á endurreiknuð út frá breyttu magni vinnulínu. Hún er síðan endurprentuð á tilteknum prentara.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

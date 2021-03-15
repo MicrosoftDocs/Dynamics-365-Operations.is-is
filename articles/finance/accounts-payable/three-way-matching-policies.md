@@ -144,3 +144,6 @@ Nánari upplýsingar er að finna í [Yfirlit yfir reikningsjöfnun viðskiptask
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -290,3 +290,6 @@ Aðeins eiginleikaútgáfur rafrænnar reikningsfærslu sem eru með stöðuna *
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Gefa út rafræna reikninga í Finance and Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

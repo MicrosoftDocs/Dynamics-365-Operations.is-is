@@ -82,3 +82,6 @@ Ef verið er að nota innflutningsramma leigusamnings til að uppfæra leigusamn
 
 1. Opnaðu **Eignarleiga \> Innflutningsrammi leigusamnings \> Uppsetning \> Uppfæra val á svæði**.
 2. Á síðunni sem birtist eru svæði valin til að uppfæra og síðan er græna örin valin til að færa þau yfir í listann yfir **Valin svæði**. Aðeins er hægt að uppfæra svæði á listanum **Valin svæði** með því að nota innflutningspakka leigusamnings.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

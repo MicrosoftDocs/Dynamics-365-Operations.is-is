@@ -90,3 +90,6 @@ Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafr
  30. Velja skal Já í Leyfa stofnun fyrirframkvittana fyrir óvirka bankareikninga: reitinn.  
  31. Smellið á „Vista“.  
  32. Lokið síðunni.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

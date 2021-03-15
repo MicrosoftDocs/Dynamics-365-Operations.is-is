@@ -238,3 +238,6 @@ Hægt er að skilgreina kerfið á að endurstilla teljara sjálfkrafa í hvert 
 1. Farið í **Eignastýring \> Uppsetning \> Verkbeiðnir \> Líftímastöður**.
 1. Í listasvæðinu skal velja líftímastöðu verkbeiðni sem endurstilla á viðeigandi teljara á.
 1. Í flipanum **Almennt** skal stilla valkostinn **Endurstilla teljara** á *Já*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

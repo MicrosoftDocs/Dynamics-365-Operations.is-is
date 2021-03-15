@@ -39,3 +39,6 @@ ms.locfileid: "4983255"
 7. Í reitinn Heiti skal slá inn gildi.
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

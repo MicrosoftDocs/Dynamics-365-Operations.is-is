@@ -43,3 +43,6 @@ ms.locfileid: "5010998"
 3. Smellið á „Í lagi“.
     * Athugið að afrit af kanban-reglu 000017 er stofnað.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

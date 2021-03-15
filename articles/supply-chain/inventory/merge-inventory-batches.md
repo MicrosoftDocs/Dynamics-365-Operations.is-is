@@ -139,3 +139,6 @@ Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að ég sameinaði atriði fyrir þyngd afurðar, hví sé ég ekki upplýsingar um þyngd afurðar í birgðabók?
 Hægt er að sameina runur af vörum í þyngd afurðar eins og öllum öðrum vörum. Hins vegar, eru upplýsingar um þyngd afurðar ekki birtar í birgðabók. Mælt er með því að staðfesta upplýsingar um þyngd afurðar áður en runusameiningin er flutt í birgðabók.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

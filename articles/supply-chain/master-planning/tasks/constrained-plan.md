@@ -52,3 +52,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er �
 3. Veljið **Í lagi**.
 4. Veldu **Tillögur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

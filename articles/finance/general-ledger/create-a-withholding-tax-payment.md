@@ -40,3 +40,6 @@ Vinnslan greiðsla staðgreiðsluskatts jafnar stöðu staðgreiðsluskatt af vi
 7. Smellt er á **OK**.
 
 ![Færibreytur fyrir greiðslu staðgreiðsluskatts](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

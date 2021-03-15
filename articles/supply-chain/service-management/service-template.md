@@ -57,3 +57,6 @@ Hægt er að afrita sniðmátslínur úr þjónustusniðmáti í annan þjónust
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Afrita línur þjónustusniðmáta](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

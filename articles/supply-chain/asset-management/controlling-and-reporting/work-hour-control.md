@@ -73,3 +73,6 @@ Skjámyndin hér að neðan sýnir dæmi um útreikning á **Stjórnun eignastun
 Önnur leið til að gera stundaútreikning er að velja margar eignir í **Allar eignir** eða **Virkar eignir**. Smelltu síðan á hnappinn **Stundastjórnun** á flýtiflipanum **Almennt**. Valdar eignir eru sjálfkrafa settar inn í reitnum **Eignir** á flýtiflipanum **Færslur til að taka með**. Smelltu á **Í lagi** í glugganum **Stjórnun eignastunda** og útreikningur fyrir valdar eignir er sýndur. Sama ferli er hægt að gera fyrir virkar staðsetningar í **Allar virkar staðsetningar** eða **Virkar virkar staðsetningar**, og vegna verkbeiðna í **Allar verkbeiðnir** eða **Virkar vinnupantanir**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

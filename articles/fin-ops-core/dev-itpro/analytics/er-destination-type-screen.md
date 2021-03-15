@@ -38,3 +38,6 @@ Ef **Virkt** er stillt á **Já**, er forskoðun á frálagi stofnuð. Hægt er 
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

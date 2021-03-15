@@ -47,3 +47,6 @@ ms.locfileid: "4968904"
 3. Veldu **Línur**.
 4. Veldu **Bóka**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Veldu eitt af eftirfarandi efnisatriðum til að byrja.
 [Staða og líftími skjala](document-states-overview.md)
 
 [Virkja og nota deilingu milli rása](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

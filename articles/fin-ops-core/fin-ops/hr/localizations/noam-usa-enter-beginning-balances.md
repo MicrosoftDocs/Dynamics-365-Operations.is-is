@@ -166,3 +166,6 @@ Er mögulegt að bakfæra og endurskrá færslur. Til að bakfæra færsluna þa
 2. Smelltu á **Já** þegar skilaboðin „Þegar þetta launayfirlit er bakfært verður launayfirlit bakfærslu stofnað fyrir mótbókun á þessu launayfirliti. Hvorugu launayfirlitinu er hægt að breyta. Á að bakfæra þetta launayfirlit?“ birtast. 
 
 Eftir að launayfirlitið hefur verið bakfært geturðu búið til nýtt launayfirlit fyrir starfsmanninn úr tekjuyfirlitinu sem þú bjóst til áður. Gættu þess að lagfæra allar rangar línur á tekjuyfirlitinu áður en þú býrð til nýtt launauppgjör, og búðu svo til ný launayfirlit með réttum upphæðum. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

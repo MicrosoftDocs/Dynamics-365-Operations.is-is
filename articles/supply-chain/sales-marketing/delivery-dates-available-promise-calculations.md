@@ -80,3 +80,6 @@ Stofna sölupöntunarlínu fyrir afurðina og færa inn **150** sem magn.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

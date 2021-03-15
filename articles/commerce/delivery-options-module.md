@@ -82,3 +82,6 @@ Aðeins er hægt að bæta einingu afhendingarvalkosta við greiðsluferliseinin
 [Skipta gjöldum í haus til að stemma við sölulínur](pro-rate-charges-matching-lines.md)
 
 [Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

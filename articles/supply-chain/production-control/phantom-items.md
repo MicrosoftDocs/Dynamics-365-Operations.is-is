@@ -72,3 +72,6 @@ Einnig er hægt að nota skuggauppskriftir fyrir uppskrift sem hefur leiðanet. 
 Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð G og hluta F og (b) leiðarskjalið fyrir afurð G og hluta F.
 
 ![Afurð G og hluti F með leiðarskjölum](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

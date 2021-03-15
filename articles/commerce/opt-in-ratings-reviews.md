@@ -63,3 +63,6 @@ Fylgdu þessum skrefum til að taka þátt í að nota einkunnir og umsagnir á 
 [Samstilla afurðaeinkunnir í Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

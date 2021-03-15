@@ -97,3 +97,6 @@ Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullun
     Einingarnar sem eru tiltækar eru skilgreindar í kenni einingaröðunarflokks fullunnu vörunnar.
 
     Til dæmis hefur fullunnin vara eftirfarandi einingaumreikning á milli punda (lbs.) og bretti (PL): 1 PL = 100 pund. Til að stofna framleiðslupöntun fyrir 10.000 pund. af fullunnu vörunni, getur þú losað hráefni fyrir fjölda bretti sem þú áætlar að framleiða. Veldu **PL** sem eininguna og veldu síðan samsvarandi númer í **Magn** reitnum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

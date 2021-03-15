@@ -60,3 +60,6 @@ ms.locfileid: "4968581"
 29. Í **aðgerðarúðunni** skal smella á **Virkja**.
 30. Smellið á **Virkja**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Eiginleikinn **Tilgangur með sannvottun þjóns** úr vottorðinu V5 er gefinn 
 Þessi uppfærsla opnar á aðra lausn fyrir prófun vottorðs, sem þýðir að það er mögulegt að koma á öruggum samskiptum.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

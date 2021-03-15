@@ -69,3 +69,6 @@ ms.locfileid: "5006059"
 38. Í **Aðgerðasvæðinu** smellirðu á Selja.
 39. Smelltu á **Söluverð**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

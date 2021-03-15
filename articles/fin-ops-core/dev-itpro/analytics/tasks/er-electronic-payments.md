@@ -81,3 +81,6 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 25. Smellið á „Í lagi“.
     * Greina stofnaða greiðsluskrá á XML-sniði. Bera saman við hannað útlit skjals og færslueigindir skilgreinda greiðslu.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

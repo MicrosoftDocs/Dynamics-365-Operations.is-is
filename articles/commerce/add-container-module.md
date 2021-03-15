@@ -141,3 +141,6 @@ Fylgdu þessum skrefum til að bæta gámaspilaraeiningu við nýja síðu og st
 [Eining síðuhauss](author-header-module.md)
 
 [Eining síðufótar](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

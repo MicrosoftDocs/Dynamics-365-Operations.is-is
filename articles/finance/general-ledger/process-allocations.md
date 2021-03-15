@@ -43,3 +43,6 @@ Hægt er að nota úthlutunarreglur fjárhags fyrir fjárhagsáætlunargerð. Þ
 > [!NOTE]
 > Hægt er að nota úthlutunarreglur fjárhags innan samstæðu fyrir fjárhagsáætlunargerð.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

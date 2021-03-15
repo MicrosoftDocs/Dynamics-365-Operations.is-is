@@ -66,3 +66,6 @@ Hver stöðluð Dataverse-tafla er útvíkkuð með tilvísunum í dálkinn **In
 8. Þegar **Tilboð** hafa verið víkkuð út skal nota síu sem er með `CUSTGROUP != "<company>"` sem fyrirspurnarstreng.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Breyta svarglugga fyrirspurnar fyrir CDS-sölutilboðshaus":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

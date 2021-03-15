@@ -108,3 +108,6 @@ Til að gera starfskröftum kleift að gera þessa breytingu er hægt að stofna
 - **Birta birgðastöðu:** *Já*
 
 Hægt er að stilla aðra reiti á síðunni eftir þörfum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

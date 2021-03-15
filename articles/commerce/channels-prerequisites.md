@@ -85,3 +85,6 @@ ms.locfileid: "4997701"
 [Setja upp smásölurás](channel-setup-retail.md)
     
 [Setja upp netrás](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

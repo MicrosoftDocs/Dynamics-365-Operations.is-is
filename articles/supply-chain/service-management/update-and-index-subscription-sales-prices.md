@@ -54,3 +54,6 @@ Grunnverð eða vísitala áskriftar er uppfærð með tilgreindu gildi.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

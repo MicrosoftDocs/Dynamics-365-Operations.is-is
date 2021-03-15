@@ -139,3 +139,6 @@ FIFO-aðferðin finnur staðsetningu sem inniheldur nýjustu aldursdagsetninguna
 1. Takið eftir að línan þar sem gildið **Vinnugerð** er *Tiltekt* sýnir gildi fyrir **Staðsetningu** á *FL-001*. Þessi staðsetning inniheldur númeraplötuna sem er með nýjasta aldursdagsetninguna (LIFO).
 
 Í þessum aðstæðum hefurðu séð hvernig aðferð aldursgreiningar staðsetningar stýrir vinnu á birgðastaðsetninguna sem er annaðhvort með elstu birgðirnar eða þær nýjustu, fer eftir því hvor aðferðin er valin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

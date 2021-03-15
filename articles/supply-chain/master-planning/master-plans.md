@@ -56,3 +56,6 @@ Einnig er hægt að setja upp breytilega áætlun sem uppfærð er með nýrri �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

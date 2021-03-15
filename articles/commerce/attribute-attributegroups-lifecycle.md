@@ -256,3 +256,6 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 
     > [!NOTE]
     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar eiga þær við um allar söluafurðir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

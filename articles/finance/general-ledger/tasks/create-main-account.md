@@ -51,3 +51,6 @@ ms.locfileid: "4978602"
 21. Í reitnum **Umreikningsgerð gjaldmiðils** skal velja aðferð til að reikna út gengi fyrir lykilinn.
 22. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

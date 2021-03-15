@@ -61,3 +61,6 @@ ms.locfileid: "4961641"
 2. Smellið á **Áfram**. Athugað að vinnslan er fluttur einnar línu niður á listanum. 
 
 3. Smellið á **Til baka**. Athugaðu að vinnslan er fluttur einnar línu upp á listanum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

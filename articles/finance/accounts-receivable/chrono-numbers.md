@@ -105,3 +105,6 @@ Til að skilgreina tímaröð númeraraðaflokka skal fara í **Fyrirtækisstjó
 
 > [!NOTE]
 > Í sumum löndum er þegar búið að innleiða ákveðna reglu fyrir númerasetningu skjala. Í slíku tilfelli mun regla tiltekins lands hnekkja eiginleikanum **Tölusetning í tímaröð**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

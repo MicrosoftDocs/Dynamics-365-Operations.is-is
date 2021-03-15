@@ -88,3 +88,6 @@ Eftir að þú hefur búið til tegundir af atburðum í lífinu þarftu að ten
 | **Gildislok á hnekkingu hæfisreglu (ekki sértækt fyrir Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Áætlanir > Fríðindi > Hæfisregla hnekkt | Breytingavinnsla á Notkun lífsviðburða. Til dæmis, ef þú breytir hæfisreglu áætlunarinnar hnekki gildistíma til að vera í dag kl. 17:00, hvenær sem er eftir kl. 17:00 eða næstu daga á eftir og keyra síðan vinnslu á atburði á Lífsviðburði, birtast skilaboð sem segja að hæfisreglan hnekkt er útrunnið. |
 | **Ný bótakerfi (ekki sérstök í Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Áætlanir > Nýtt | <ul><li>Gildisvalkostir bætast við núverandi áætlun</li><li>Ný áætlun með hæfileikum meðfylgjandi er bætt við</li></ul></br></br>Starfsmenn HR ættu að stjórna hæfileikaframkvæmdum í Lífsmóti í þessu tilfelli. |
 | **Breyting á hæfisreglu (ekki sértækt fyrir Bandaríkjunum)** | Human resources háþróaður > Fríðindi > Reglur/valkostir > Hæfisreglur | Hæfisvinnsla á Notkun lífsviðburða. Skráð hvenær **EhrBenefitEligibilityRule** skrár hafa eftirfarandi gildum breytt: **UseEmplCategory**, **UseEmplStatus** eða **UseEmplType**. Aðeins uppfærir viðskipti með lífatburði sem þegar eru til vegna breyttrar reglu eða hæfisskilyrða. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Ef þú vilt geturðu tengt flýtikóðann við hvaða afhendingarmáta sem þú
 Til dæmis, fyrir pantanir sem verða fluttar með flugi næsta dag, verður að tiltekt að eiga sér stað í vörugeymslunni fyrir klukkan 13:00 á hverjum degi. Í þessu tilfelli er hægt að búa til flýtikóða og þessi kóða er hægt að tengja við allar gerðir afhendingarmáta fyrir næsta dag, sem eru grunnstilltar í kerfinu. Þegar vörugeymsla býr til tiltektarbylgju má nota viðeigandi flýtikóða í **Flýta** reitnum sem afmörkun, þannig að tiltekt er aðeins keyrð fyrir pantanir sem hafa afhendingarmáta sem tengist þeim kóða.
 
 Að auki, þegar símaverspöntun er færð inn, er hægt að beita flýtikóðanum handvirkt annaðhvort í sölupöntunarhaus eða í einstaka sölupöntunarlínu. Líkt og áður, hægt er að nota kóðann til flokkunar eða skýrslugerðar. Stundum þarf að meðhöndla pöntun gætilega vegna vandamáls í þjónustudeild. Í þessu tilviki er hægt að beita tilteknum flýtikóða á pöntunarhausinn eða línurnar til að hjálpa til við að auðkenna og forgangsraða pöntuninni á meðan uppfyllingarferlinu stendur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Einnig er hægt að skilgreina aðgerðir sem eru leyfðar á hverju stigi. Til 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

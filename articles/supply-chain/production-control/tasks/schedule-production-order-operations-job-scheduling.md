@@ -55,3 +55,6 @@ ms.locfileid: "4981132"
 6. Á aðgerðasvæðinu skal velja **Framleiðslupöntun**.
 7. Veldu **Allar vinnslur**. Athugið samkvæmt virk leið 5 störf eru stofnuð með vinnsluröðun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

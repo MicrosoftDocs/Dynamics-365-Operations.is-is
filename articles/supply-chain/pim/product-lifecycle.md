@@ -108,3 +108,6 @@ Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir e
 - [Úthluta líftímastöðu afurðar til útgefinnar afurðar](tasks/product-lifecycle-state-released-product.md)
 - [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar](tasks/obsolete-product-variants.md)
 - [Búa til lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

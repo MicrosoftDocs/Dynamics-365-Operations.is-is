@@ -50,3 +50,6 @@ Með því útiloka frávik er hægt að auka nákvæmni spár. Þetta verk er v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

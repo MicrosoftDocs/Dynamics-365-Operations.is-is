@@ -238,3 +238,6 @@ Aðeins er hægt að finna kvittanir ef sækja-verk er keyrt til að hlaða upp 
 [Setja upp úrval](set-up-assortments.md)
 
 [Yfirlit númeraraða](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -255,3 +255,5 @@ Staðarauðkenni sem notað er fyrir heimilisfang starfsmanns er ekki hluti af n
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþáttara. 
 
 ![Vörpun sniðmáts](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

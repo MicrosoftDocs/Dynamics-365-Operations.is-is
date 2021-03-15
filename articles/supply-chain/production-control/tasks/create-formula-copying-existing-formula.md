@@ -56,3 +56,6 @@ ms.locfileid: "4998729"
 3. Smellið á „Í lagi“.
 4. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

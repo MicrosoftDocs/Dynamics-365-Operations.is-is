@@ -118,3 +118,6 @@ Til að hjálpa til við að tryggja að haus birtist á hverri síðu skal fylg
 [Svæðisvalseining](site-selector.md)
 
 [Eining til að velja verslun](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

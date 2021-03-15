@@ -60,3 +60,6 @@ Til að eyða tilraun vefsmið Commerce skal fylgja þessum skrefum.
 
 ## <a name="previous-step"></a>Fyrra skref
 [Keyra og fylgjast með tilraun](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

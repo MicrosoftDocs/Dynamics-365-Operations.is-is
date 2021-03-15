@@ -38,3 +38,6 @@ Eftirfarandi aðstæður leiða notanda í gegnum samstæðuferli sendingar sem 
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

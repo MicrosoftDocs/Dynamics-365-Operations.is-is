@@ -82,3 +82,6 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Þú getur lokið þessu skrefi beint á síðunni með því að nota Microsoft Office samþættinguna eða með því að nota gagnaeiningaferlið í [Gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
 7.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 8.  Vinna breytingarnar. Uppfærsla á allar birgðavíddir getur framkvæmt á meðan. Hægt að fylgjast með framvindu með vinnslum runuverk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

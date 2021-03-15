@@ -88,3 +88,6 @@ Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur
 *Dual write failure - Plugin registration failed: \[(Ekki tókst að fá skiltáknakort fyrir verk DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Villa fer fram yfir hámarksskiltákn leyfð fyrir vörpun á DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Ein eða fleiri villur komu upp.*
 
 Núverandi mörk þegar tengt er við umhverfið eru um það bil 40 lagatöflur. Þessi villa kemur upp ef reynt er að virkja kort og fleiri en 40 lagatöflur eru tengdar á milli umhverfanna.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

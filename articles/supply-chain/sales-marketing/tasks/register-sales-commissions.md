@@ -70,3 +70,6 @@ Athugið þær tölur viðskiptavina og vara sem voru valdar fyrir sölulaunafer
 3. Lokið síðunni.
 4. Veldu **Fylgiskjal**. Hægt er að skoða færslur fylgiskjala fyrir upphæðir sölulauna sem hafa verið bókaðar í forskilgreindu þóknunarkostnaður og þóknun lykla lánardrottna.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

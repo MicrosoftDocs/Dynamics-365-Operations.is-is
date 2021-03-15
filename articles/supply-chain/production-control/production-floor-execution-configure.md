@@ -99,3 +99,6 @@ Runuvinnslu hreinsar reglulega færslur í tilvísanatöflunni fyrir tæki sem h
 1. Á aðgerðasvæðinu skal velja **Hreinsa biðlaragrunnstillingar**.
 1. Í svarglugganum **Hreinsa biðlaragrunnstillingu** skal stilla reitinn **Fjöldi daga** á dagafjölda án aðgerða (á undan deginum í dag) sem á að taka til greina. Allar skilgreiningar og innskráningarfærslur eru fjarlægðar fyrir tæki sem hafa ekki verið virk á þessum tíma.
 1. Veljið **Í lagi** til að hreinsa út viðeigandi skilgreiningar byggt á stillingunni **Fjöldi daga**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

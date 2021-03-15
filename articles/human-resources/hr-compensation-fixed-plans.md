@@ -98,3 +98,6 @@ Nú er hægt að tengja starfsmann við launafyrirkomulag fastra launa. Opna ska
 
 Kerfið°staðfestir launafjárhæðina sem tilgreind er í launafyrirkomulagi af því stigi eða braut°sem er innan lágmarks- og hámarkspunkta fyrir tiltekið launastig starfs viðkomandi starfsmanns. Ef laun eru utan leyfilegra marka,°munu viðvörun°eða villuboð birtast , eftir því vikmarkastigi sem fasta launafyrirkomulagið er stillt á.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 3. Í svæðið Heiti, Færðu inn 'líkan reiknings viðskiptavinar (sérstillt)'.
 4. Smelltu á Stofna skilgreiningu.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

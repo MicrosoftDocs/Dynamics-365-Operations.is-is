@@ -89,3 +89,6 @@ Afskriftir fyrir 200% bókfært virði stöðu aðferð deilir 200% með líftí
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

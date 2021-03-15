@@ -139,3 +139,6 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
 - [Skilgreina fjárhagsvíddir](tasks/define-financial-dimensions.md)
 - [Viðhalda sjálfgefnum sniðmátum fjárhagsvídda](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

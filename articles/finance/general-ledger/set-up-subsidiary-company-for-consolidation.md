@@ -80,3 +80,6 @@ Burtséð frá því hvort lyklum hafi verið varpað, þá þarf að hreinsa g�
 
 > [!NOTE]
 > Hægt er að nota þessa aðferð til að stofna bókhaldslykla í sameinaða lögaðilanum frá bókhaldslyklunum í einum af lögaðilum dótturfyrirtækisins. (Frekari upplýsingar er að finna í [Flokkar samstæðulykla og viðbótar samstæðulyklar](../budgeting/consolidation-account-groups-consolidation-accounts.md).) Síðan er viðeigandi sameiningarumreikningsregla úthlutuð til sérhvers sameinaðs aðallykils, og sameiningin keyrð fyrir öll dótturfyrirtæki lögaðilans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

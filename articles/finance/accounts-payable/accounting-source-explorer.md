@@ -50,3 +50,6 @@ Fyrir þessi skjöl er einnig hægt að skoða raunveruleg upprunaskjöl úr Sko
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

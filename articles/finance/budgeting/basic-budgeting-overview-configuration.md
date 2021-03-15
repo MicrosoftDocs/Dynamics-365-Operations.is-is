@@ -87,3 +87,6 @@ Fyrirtækið sem er að nota virkni fjárhagsáætlunargerðar getur stofnað og
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

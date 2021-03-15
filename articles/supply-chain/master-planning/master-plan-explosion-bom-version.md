@@ -47,3 +47,6 @@ Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunarge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

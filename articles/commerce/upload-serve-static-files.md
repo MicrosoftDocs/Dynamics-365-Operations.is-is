@@ -105,3 +105,6 @@ Til að breyta vefslóð skal fylgja þessum skrefum.
 [Skera myndir](dam-crop-images.md)
 
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

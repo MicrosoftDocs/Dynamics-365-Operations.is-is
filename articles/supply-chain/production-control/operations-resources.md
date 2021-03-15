@@ -84,3 +84,6 @@ Til að nota á tilfangaflokk sem lean-vinnuflokkur , er afkastageta vinnuflokks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

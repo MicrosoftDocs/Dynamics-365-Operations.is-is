@@ -208,3 +208,6 @@ Virkni sem kynnt var í Dynamics 365 Finance útgáfu 10.0.5 (október 2019) ger
 -  Þú getur nú valið hvort nota á bókhaldsgjaldmiðilinn eða skýrslugjaldmiðilinn frá upprunafyrirtækinu sem viðskiptamynt í samstæðufyrirtækinu.
 
 - Upphæðir bókhalds- eða skýrslugjaldmiðils úr upprunafyrirtækinu verður afritaður beint í upphæðir bókhalds- eða skýrslugjaldmiðils í samstæðufyrirtækinu, ef annar hvor gjaldmiðillinn er sá sami. Fjárhæðir í bókhalds- og skýrslugjaldmiðlum í samstæðufyrirtækinu eru reiknaðar út með gengi ef hvorugur gjaldmiðillinn er sá sami.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

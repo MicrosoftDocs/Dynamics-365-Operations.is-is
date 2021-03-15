@@ -127,3 +127,6 @@ Fjárhagsfærslur eru myndaðar til að skrá upprunalega fjárhagsáætlun á h
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

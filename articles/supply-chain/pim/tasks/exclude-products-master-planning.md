@@ -43,3 +43,6 @@ ms.locfileid: "4986880"
 5. Í listanum skal merkja valda línu.
 6. Sláið inn eða veljið gildi í reitnum Lífferilsstaða afurðar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

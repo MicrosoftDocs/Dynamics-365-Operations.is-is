@@ -67,3 +67,6 @@ Sameinaður lögaðili er nú uppsettur fyrir reglubundnu vinnsluna **Sameina**.
 
 > [!NOTE]
 > Áður en hægt er að keyra sameininguna þarf að undirbúa lögaðila dótturfyrirtækis fyrir sameiningu. Frekari upplýsingar er að finna í [Setja upp dótturfyrirtæki lögaðila fyrir sameiningu](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

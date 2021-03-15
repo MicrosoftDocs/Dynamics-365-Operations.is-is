@@ -91,3 +91,6 @@ Nú er hægt að velja að halda áfram skráninguna, til dæmis fyrir rununúme
 -   Hægt er að ofnota hráefni. Sem dæmi um þetta má nefna að ef ætlað er að nota hráefni með magnið 50 kg er hægt að ofnota það með magni sem til dæmis nemur 52 kg.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

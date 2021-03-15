@@ -94,3 +94,6 @@ Sjá upplýsingar um stillingar á einkunna- og umsagnaeiningum á upplýsingas�
 [Stilla einkunnir og endurskoða einingar á upplýsingasíðum](ratings-reviews-modules.md)
 
 [Samstilla afurðaeinkunnir í Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

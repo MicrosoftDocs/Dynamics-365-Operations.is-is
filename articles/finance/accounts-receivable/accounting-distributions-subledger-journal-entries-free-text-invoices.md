@@ -135,3 +135,6 @@ Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa ver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "5022006"
 Eftirfarandi mynd sýnir dæmi um listasíðuna **Allar viðhaldsbeiðnir**.
 
 ![Listasíðan Allar viðhaldsbeiðnir](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

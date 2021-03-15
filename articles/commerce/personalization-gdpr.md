@@ -103,3 +103,6 @@ Eftirfarandi dæmi sýnir hvernig smásala getur sinnt þessu verkefni.
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Að lokum er hægt að úthluta kanban-afgreiðslueiningum (= í vinnslu,) mótt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

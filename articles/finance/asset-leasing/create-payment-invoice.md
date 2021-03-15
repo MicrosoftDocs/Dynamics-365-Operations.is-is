@@ -48,3 +48,6 @@ Hægt er að stofna mánaðarlega reikninga fyrir tiltekna leigusamninga eða no
 6. Eftir að færslan er bókuð er hægt að skoða færsluupplýsingar og bókfært virði leiguskuldbindingar með því að velja **Skuldafærslur** í leigubókinni.
 
     Í greiðsluáætluninni er merkt í gátreitinn **Færslubók bókuð** og línan sýnir númer reikningabókar. Eftir að búið er að stofna greiðslubók og færslu fyrir þá færslubók verður að bakfæra færsluna áður en hægt er að endurgera hana.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

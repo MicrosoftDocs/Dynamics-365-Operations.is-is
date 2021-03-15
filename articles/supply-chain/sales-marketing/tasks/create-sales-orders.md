@@ -67,3 +67,6 @@ Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem
     Síðan **Samtals** birtir upplýsingar um alla pöntunina. Þar á meðal upphæð millisamtala sem er summa allra nettóupphæða línu leiðrétt fyrir hugsanlega línuafslætti, heildarreikningsupphæðin, sem er upphæð millisamtölu leiðrétt fyrir hugsanlega afslætti á stigi pöntunar, gjöld og virðisaukaskatt, lánamark viðskiptavinar og fleira. Reikningsupphæð er upphæðin sem mun birtast á reikningsskjalið viðskiptavinar.  
     
 3. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

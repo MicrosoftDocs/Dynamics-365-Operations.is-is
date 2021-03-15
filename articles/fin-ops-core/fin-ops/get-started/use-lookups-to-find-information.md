@@ -83,3 +83,6 @@ Endurbætur á uppflettingu sem fjallað er um í fyrri tveimur köflum auka get
 Eftir að afmörkun hefur verið beitt (sjá myndina hér fyrir neðan), getur notandinn fundið og valið línuna eins og venjulega.
 
 ![gridfilteritemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

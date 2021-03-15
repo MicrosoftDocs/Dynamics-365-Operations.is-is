@@ -63,3 +63,6 @@ Hægt er að nota síðuna fjárhagsdagatal til að skoða upplýsingar um fjár
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

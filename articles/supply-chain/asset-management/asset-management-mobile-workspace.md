@@ -239,3 +239,6 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 1. Velja **Ekkert**.
 
     ![Bæta viðhengi við viðhaldsbeiðni](media/am-mobile-10.png "Bæta viðhengi við viðhaldsbeiðni")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

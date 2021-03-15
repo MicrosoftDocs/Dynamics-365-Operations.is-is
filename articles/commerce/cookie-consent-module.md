@@ -61,3 +61,6 @@ Frekari upplýsingar um síðubrot og einingar má finna í [Hauseining](author-
 [Eining síðuhauss](author-header-module.md) 
 
 [Reglufylgni köku](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

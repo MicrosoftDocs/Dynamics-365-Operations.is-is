@@ -150,3 +150,6 @@ Samlegðarregla stofnunar innkaupapantana og eftirspurnar skilgreinir stefnuregl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

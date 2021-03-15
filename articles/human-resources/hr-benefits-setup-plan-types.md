@@ -63,3 +63,6 @@ Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort t
    | **Tilkynningargluggi** | Tilgreinir tilkynningarglugga viðburðar í dögum. **Athugið**: Ef þú slærð ekki inn upphæð gerir kerfið ráð fyrir að skýrsluglugginn sé núll og afgreiði ekki viðburðinn. |
 
 5. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

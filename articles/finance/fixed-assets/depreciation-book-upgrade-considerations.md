@@ -82,3 +82,6 @@ Með hvorri nálguninni mun uppfærsluforskrift gagna einnig nota númeraröðin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

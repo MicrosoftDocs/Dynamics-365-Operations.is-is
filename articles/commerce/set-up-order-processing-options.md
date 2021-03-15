@@ -83,3 +83,6 @@ Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pö
 > [!NOTE]
 > Til að nota símaversvirkni Retail verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna símaversaðgerða sem framkvæma ýmsar sannprófanir á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

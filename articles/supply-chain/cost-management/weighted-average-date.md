@@ -195,3 +195,6 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslu
 4. Veljið **Næst**.
 5. Veljið **Ljúka**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

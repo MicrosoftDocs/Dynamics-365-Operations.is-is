@@ -102,3 +102,6 @@ Athugið að mælieining eftirspurnarspár þarf ekki að hafa neina sérstaka m
 [Fjarlægja einfara úr sögulegum færslugögnum við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

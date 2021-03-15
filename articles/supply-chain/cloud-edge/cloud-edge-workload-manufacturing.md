@@ -109,3 +109,6 @@ Yfirleitt eru áskilin ferli til keyrslu vinnuálags framkvæmdar framleiðslu k
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Skilaboðaúrvinnsla framleiðslumiðstöðvar til vinnslu kvörðunareiningar
 
 Vinnslan _Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar_ vinnur úr gögnum frá miðstöðinni til kvörðunareiningarinnar. Þessi vinnsla hefst sjálfkrafa um leið og vinnuálag framkvæmdar framleiðslu er keyrt. Hins vegar er hægt að keyra slíkt handvirkt hvenær sem er með því að opna **Framleiðslustýringu \> Reglubundin verk \> Stjórnun vinnuálags í bakvinnslu \> Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

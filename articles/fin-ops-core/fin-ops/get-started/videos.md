@@ -167,3 +167,6 @@ ms.locfileid: "4797876"
 [Tæknital FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) einblínir á að veita tæknilega dýpt og bestu starfsvenjur sem veita viðskiptavinum og samstarfsaðilum nákvæma þekkingu sem er sértæk fyrir viðkomandi svið.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

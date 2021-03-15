@@ -103,3 +103,6 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 21. Smellt er á Opin.
     * Fara yfir stofnaða xml-skrána sem inniheldur upplýsingar um talningu og samlagningu sem safnað var við keyrslu á valinni skilgreiningu.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

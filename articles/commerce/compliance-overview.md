@@ -45,3 +45,6 @@ Til að læra meira um grundvallarreglurnar sem Microsoft notar skaltu fara á [
 [Bæta við persónuverndarstefnusíðu](add-privacy-page.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Til viðbótar við að nota skjámyndina **Komuyfirlit** getur þú notað skj�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

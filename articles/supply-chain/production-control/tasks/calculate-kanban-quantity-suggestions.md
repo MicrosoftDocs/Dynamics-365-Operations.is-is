@@ -84,3 +84,6 @@ ms.locfileid: "4981382"
     * Athugið að þetta er fast kanban-magn 4 úr útreikningi kanban-magns.  
 5. Smellt er á flipann ListPanel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

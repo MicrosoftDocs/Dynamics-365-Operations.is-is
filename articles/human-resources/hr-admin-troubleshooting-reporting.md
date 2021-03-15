@@ -49,3 +49,6 @@ Notandi getur ekki sérsniðið innfelldar skýrslur Microsoft Power BI.
 **Langtímalausn**
 
 Frekari Power BI-valkostir verða tiltækir og fleiri gögn og einingar verða hluti af Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

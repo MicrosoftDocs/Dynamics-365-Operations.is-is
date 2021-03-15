@@ -45,3 +45,6 @@ ms.locfileid: "5112976"
    | **Aldur** | Hámarksaldur gjaldgengs persónulegs tengiliðar vegna bótakerfisins. Þessi reitur er aðeins virkur ef þú velur samband. Þessi aldur er borinn saman við reiknaðan aldur persónulegra tengiliða. Reiknaður aldur er: (Dagsetning umfjöllunar - fæðingardagur persónulegs tengiliðar / 365). Þessi tala er alltaf heiltala. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

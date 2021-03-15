@@ -49,3 +49,6 @@ Til að skoða upplýsingar um ástæðukóða sem voru notaðir til að rekja f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

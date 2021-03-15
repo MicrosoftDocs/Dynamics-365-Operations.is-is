@@ -52,3 +52,6 @@ Deildir eru rekstrareiningar sem standa fyrir virku svæði fyrirtækis, svo sem
 16. Í reitnum Lýsa breytingum skal slá inn gildi.
 17. Smelltu á Birta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

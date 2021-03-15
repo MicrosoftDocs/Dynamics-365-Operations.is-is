@@ -69,3 +69,6 @@ ms.locfileid: "4972281"
 27. Smellið á „Vista“.
     * Hvenær sem þú breytir rásir fyrir vildarkerfi er verður að keyra Vinnslu vildarkerfis. Þannig rásir verður að sækja uppfærðu vildarkerfi.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

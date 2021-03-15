@@ -51,3 +51,6 @@ ms.locfileid: "4986780"
 8. Í reitinn **Segð** skal slá inn gildi. Til dæmis, slá inn `50`. 
 9. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

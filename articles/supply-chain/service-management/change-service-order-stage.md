@@ -40,3 +40,6 @@ Fylgdu þessum leiðbeiningum til að færa þjónustupöntun á næsta stig í 
 4.  Í **Breyta þjónustustigi** skjámynd skaltu velja viðeigandi stig.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

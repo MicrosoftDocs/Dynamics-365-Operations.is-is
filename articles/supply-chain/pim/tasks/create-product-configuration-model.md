@@ -82,3 +82,6 @@ ms.locfileid: "4999707"
 17. Í reitinn Á röð skal slá inn númer.
 18. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

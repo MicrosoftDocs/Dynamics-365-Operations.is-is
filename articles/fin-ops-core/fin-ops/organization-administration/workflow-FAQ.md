@@ -59,3 +59,6 @@ Sjálfgefna reitgildið fyrir **Fjöldi verkflæðisatriða á runu** á síðun
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Hvað er eiginleiki Aukinnar villu í verkflæði?
 Eiginleikinn Aukin villa í verkflæði í útgáfu 10.0.13 bætir við villukóðum til að aðgreina mismunandi klasa af verkflæðissvillum. Villuboðin sem gefin voru upp verða að mestu leyti svipuð með minniháttar frávikum til að gera þau skýrari.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

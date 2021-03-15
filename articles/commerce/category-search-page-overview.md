@@ -110,3 +110,6 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

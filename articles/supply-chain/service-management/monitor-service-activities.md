@@ -59,3 +59,6 @@ Smelltu á **Þjónustustjórnun** \> **Reglubundið** \> **Sendingartafla**.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

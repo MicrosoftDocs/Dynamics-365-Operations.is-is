@@ -99,3 +99,6 @@ Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt vi�
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

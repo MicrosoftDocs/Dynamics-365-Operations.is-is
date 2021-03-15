@@ -275,3 +275,6 @@ Hvenær sem er í eftirfarandi skrefum er hægt að velja flipann **Upplýsingar
     Skilaboðin „Klasa er lokið“ birtast.
 
 Nú er hægt að nota valmyndaratriðið **Tiltekt sölu** til að tína eftirstandandi magn. Síðan er hægt að nota valmyndaratriðið **Hleðsla sölu** til að færa vörurnar úr geymslustaðsetningu yfir á dreifingarstað.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

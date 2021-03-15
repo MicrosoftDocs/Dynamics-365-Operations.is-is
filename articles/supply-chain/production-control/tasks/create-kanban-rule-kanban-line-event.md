@@ -68,3 +68,6 @@ ms.locfileid: "4981256"
     * Athugið að kanban fyrir 27 var stofnað til að vinna verkþátt á grunni stofnaðrar kanban-reglu.  
     * Þetta er síðasta skrefið  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

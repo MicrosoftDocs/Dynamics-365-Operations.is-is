@@ -65,3 +65,6 @@ Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að a�
 16. Smellið á „Vista“.
 17. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Vörpun vinnublaðsins til gagnaeiningar í innflutningsverkinu er hægt að fes
 ## <a name="upload-a-file-using-run-project"></a>Hlaða upp skrá með því að nota Keyra verk
 
 Þú getur hlaðið upp Excel-skrá meðan þú notar **Keyra verk** valmöguleikann til að framkvæma innflutningsverk. Þú verður að gæta þess að hlaða aðeins upp skrám sem eru með sömu vinnublaði og fyrirliggjandi varpanir á gagnaeiningarnar í gagnaverkinu. Ef vinnublað er ekki að finna í skránni sem nýlega var hlaðið upp, birtir kerfið villu og stoppar innflutning. Ef breyta verður vörpunin á vinnublaðið fyrir einingu, þá verður að uppfæra varpanirnar í gagnaverkinu fyrst innan frá gagnaverkinu, áður en þú notar skrána í **Keyra verk** upplifuninni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -178,3 +178,6 @@ Athugaðu að eftirfarandi atburðir eiga sér stað:
 - Losun í vöruhús virkjast fyrir tengda sölupöntun.
 - Sendingar- og dreifingarvinna frá dreifingarstöð er stofnuð og byggist á losuninn. Þessi vinna leiðbeinir starfsmanni í vöruhúsi með að velja það magn sem þarf til að uppfylla sölupöntunarlínuna og setja það á staðsetningu á útleið sem tilgreind er í leiðbeiningum um dreifingu frá dreifingarstöð.
 - Ef magn framleiðslupöntunar er meira en það magn sem þarf í sölupöntuninni er regluleg frágangsvinna stofnuð. Þessi vinna leiðbeinir starfsmanni vöruhúss með að taka frá magn af fullunnum vörum sem er eftirstandandi eftir dreifingu frá dreifingarstöð og færa það í venjulega geymslu, samkvæmt staðsetningarleiðbeiningunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

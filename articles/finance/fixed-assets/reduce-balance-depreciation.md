@@ -84,3 +84,6 @@ Með því að nota aðferðina lækkandi afskrift eru 30 prósent af afskriftag
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

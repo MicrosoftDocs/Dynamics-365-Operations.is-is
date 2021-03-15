@@ -74,3 +74,6 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ ms.locfileid: "4992271"
 8. Í reitinn Afurðarnúmer skal slá inn gildi.
 9. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

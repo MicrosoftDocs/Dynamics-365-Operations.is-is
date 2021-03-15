@@ -154,3 +154,6 @@ Ef reynt er að nota vöruhúsaforritið til að keyra tiltekt fyrir verkkenni s
 ## <a name="other-blocked-operations"></a>Aðrar lokaðar aðgerðir
 
 Allar aðgerðir sem breyta vinnulínum, birgðafærslum eða áfyllingartenglum sem tengjast vinnu sem verið er að skipta munu mistakast og eftirfarandi villuboð birtast: „Verið er að skipta niður vinnu með auðkennið \#\#\#\#.“
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

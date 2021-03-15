@@ -56,3 +56,6 @@ Framleiðslupöntun fyrir afurð C er þá stofnuð og afurð A er bætt við up
     - **Afurð C:** 2
 
 Þessi hegðun tryggir að breytingar á uppskriftum framleiðslupantana hafa ekki áhrif á væntanlega kostnaðarútreikninga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

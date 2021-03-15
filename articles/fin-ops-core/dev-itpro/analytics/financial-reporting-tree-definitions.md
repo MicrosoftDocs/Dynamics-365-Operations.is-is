@@ -220,3 +220,6 @@ Eftirfarandi dæmi sýna mögulegar upplýsingar sem eru notaðar í skipuritssk
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

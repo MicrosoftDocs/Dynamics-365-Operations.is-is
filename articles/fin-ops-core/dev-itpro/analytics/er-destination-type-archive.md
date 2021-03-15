@@ -57,3 +57,6 @@ Hægt er að vista skrá í möppu merktu SharePoint. Til að skilgreina sjálfg
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

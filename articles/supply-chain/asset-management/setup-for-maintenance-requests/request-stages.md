@@ -80,3 +80,6 @@ Eftir að þú ert búinn að búa til lífsferilstig sem nauðsynleg eru fyrir 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímalíkön viðhaldsbeiðna**.
 
 ![Síðan Líftímalíkön viðhaldsbeiðni](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

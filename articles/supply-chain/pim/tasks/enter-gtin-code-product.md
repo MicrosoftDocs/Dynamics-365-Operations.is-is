@@ -41,3 +41,6 @@ Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins. Í þessu dæmi, verðu
 11. Í reitinn GTIN skal slá inn gildi.
 12. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

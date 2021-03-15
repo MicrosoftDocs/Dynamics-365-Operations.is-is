@@ -89,3 +89,6 @@ Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 > [!NOTE]
 > Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

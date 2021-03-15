@@ -63,3 +63,6 @@ Fylgið eftirfarandi skrefum til að bæta einingunni innflutningur bankayfirlit
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

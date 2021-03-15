@@ -54,3 +54,6 @@ Eftir að gögn eru flutt inn í Kostnaðarbókhald getur þú nota þau til að
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

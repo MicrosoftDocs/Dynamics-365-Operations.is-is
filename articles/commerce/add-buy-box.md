@@ -135,3 +135,6 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
 
 [Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Fylgdu þessum skrefum til að velja annað skipulag fyrir fyrirliggjandi síðu
 
 [Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

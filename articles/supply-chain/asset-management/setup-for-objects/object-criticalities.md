@@ -61,3 +61,6 @@ Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti a
 - Gagnrýnin á verkbeiðni er endurútreiknuð í hvert skipti sem vinnupöntunarlínu er bætt við eða henni eytt úr verkbeiðninni.
 - Ef verkbeiðni inniheldur nokkur vinnupöntunarstörf er mesta gagnrýni samkvæmt **Þáttur** reit á síðunni **Gerðir gagnrýni**, er alltaf notuð í nni.
 - Almennt getur gagnrýni eigna breyst á tímabili. Gagnrýni getur orðið fyrir áhrifum af kaup á nýjum búnaði, endurbótum og svo framvegis. Íhugaðu að endurmeta eignatengsl þitt með reglulegu millibili (til dæmis einu sinni á ári eða annað hvert ár) til að ganga úr skugga um að skilgreiningar á mikilvægi þínu samsvari núverandi framleiðsluuppsetningunni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

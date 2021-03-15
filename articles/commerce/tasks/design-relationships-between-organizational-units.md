@@ -62,3 +62,6 @@ ms.locfileid: "4972245"
 29. Smelltu á Birta.
 30. Smellið á „Loka“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

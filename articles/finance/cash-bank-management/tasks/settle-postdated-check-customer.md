@@ -55,3 +55,6 @@ Hlutverk þetta leiðbeiningar fyrir verk er Gjaldkera.
 10. Smellt er á Fylgiskjalið.
 11. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

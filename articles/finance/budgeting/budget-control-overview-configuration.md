@@ -126,3 +126,6 @@ Eftir að kveikt hefur verið á fjárhagsáætlunarstýringu, notendur fá við
 Úr þessari síðu geta notendur kafað í **talnagögn fjárhagsáætlunarstýringar eftir tímabili** síðu til að skoða upplýsingar um framboð fjárhagsáætlunar og frátekningar á víddarsamsetningu fjárhagsáætlunarstýringar. Notendur geta einnig kafa í **talnagögn fjárhagsáætlunarstýringar** síðu til að skoða framboð á fjárhagsáætlun fyrir allar samsetningar fjárhagsvídda sem eru notaðar í fjárhagsáætlunarstýringu. 
 
 Ef fjárhagsáætlunarstýring er kveikt fyrir Innkaupapantanir, getur stjórnanda fjárhagsáætlunar notað vinnusvæðið **fjárhagsáætlun og spár** til að skoða biðröð fyrir biðröðinni allar óstaðfestar innkaupapantanir sem eru með viðvaranir frá athugun á fjárhagsáætlun og villuboð. Hafi stjórnandi fjárhagsáætlunar skilgreindar heimildir yfir fjárhagsáætlun er hægt að staðfesta innkaupapantanir beint í vinnusvæðið.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Innsendingarkladdarnir innihalda að auki eftirfarandi aðgerðir:
 - **Hætta við sendingar** – Þessi aðgerð virkjar sérstakt sendingarferli í aðstæðum þar sem ytri vefþjónusta þarf að samþykkja rafrænan reikning. Hún segir viðbót rafrænnar reikningsfærslu að senda vefþjónustunni ákveðin skilaboð sem ætluð eru til að hætta við stöðu samþykkts rafræns reiknings í gagnagrunni vefþjónustunnar.
 - **Endursenda skjal** – Endursenda rafrænt skjal sem hefur þegar verið sent til viðbótar rafrænnar reikningsfærslu. Nýr kladdi er búinn til á síðunni **Upplýsingar um sendingu**.
 - **Senda tengdar sendingar**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

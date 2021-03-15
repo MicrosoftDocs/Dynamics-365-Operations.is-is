@@ -107,3 +107,6 @@ Ef um lánardrottinnsgreiðslur er að ræða nota færslurnar í greiðslulöga
 
 ## <a name="withholding-tax"></a>Staðgreiðsluskattur
 Lánardrottnalykillinn sem reikningurinn tengist er notað til að ákvarða hvort á að reikna skuli staðgreiðsluskatt. Ef staðgreiðsluskattur á við hann reiknaður í lögaðila sem tengist reikningnum. Ef lögaðila nota aðra gjaldmiðla, er notað gengi frá lögaðila sem tengist reikningnum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

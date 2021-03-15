@@ -50,3 +50,6 @@ Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra ko
 
 [Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Ef nýja lagerbirgðamagnið er jákvætt eftir færsluna er færslunni skipt í
 
 > [!NOTE]
 > Ekki er hægt að afstemma fjárhag með birgðum með því að nota valkostinn **Röðun færslutíma**. Prenta verður skýrsluna með því að nota valkostinn **Bókunardagsetning**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

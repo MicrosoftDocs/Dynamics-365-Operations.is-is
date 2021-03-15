@@ -92,3 +92,6 @@ Dæmi:
 - Upphafsdagsetning í aðgerðinni **Ráða starfskraft** er dagsetningin sem þú skráðir í reitinn **Upphafsdagur starfs**.
 - Upphafsdagsetning í aðgerðinni **Flytja starfskraft** er dagsetningin sem þú skráðir í reitinn **Upphafsdagsetning verkefnis** fyrir starfskraftinn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Til að fá aðgang að Commerce Site Builder er farið á flipann **<Rafræn vi
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Notið þetta ferli til að skoða eða hreinsa sögu RFM analysis færslu.
 2. Á **RFM greining** síðunni skal velja skrána sem á að skoða.
 3. Til að skoða skráarferil, smellið á flýtiflipann **Ferill**.
 4. Til að hreinsa feril skráar, smellið á **Hreinsa feril**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

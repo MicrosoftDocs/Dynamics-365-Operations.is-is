@@ -192,3 +192,6 @@ Flutningsskipanir sem eru að fullu sendar eru fluttar á flipann **Lokið** á 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Innleið birgðaaðgerð í POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

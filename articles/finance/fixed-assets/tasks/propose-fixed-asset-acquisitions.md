@@ -42,3 +42,6 @@ ms.locfileid: "4990440"
 - Aðeins eignir með kaupdag og kaupverðið settar á bókinni verða teknar með í kauptillögu.  
 11. Á síðunni velurðu flipann **Bækur**.
 12. Veldu **Bóka**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

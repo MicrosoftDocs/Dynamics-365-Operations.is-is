@@ -177,3 +177,6 @@ Nú verður að tengja viðskiptavinalykilinn við yfirverkið í verkuppsetning
 1. Á aðgerðasvæðinu, í flipanum **Reikningsfærsla**, skal velja **Ný reikningstillaga**.
 1. Í svarglugganum **Stofna reikningstillögu**, í hlutanum **Verkfærslur**, skal velja gátreitinn **Velja** fyrir hverja línu sem á að reikningsfæra.
 1. Veljið **Í lagi** til að loka svarglugganum og skoða nýju reikningstillöguna.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

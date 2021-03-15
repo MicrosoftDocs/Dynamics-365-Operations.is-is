@@ -1033,3 +1033,6 @@ Engum nýjum eiginleikum hefur verið bætt við.
 [Nýjungar eða breytingar í Finance and Operations heimasíða](whats-new-changed.md)
 
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

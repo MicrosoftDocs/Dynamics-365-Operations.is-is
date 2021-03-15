@@ -132,3 +132,6 @@ Fylgdu þessum skrefum til að búa til lista yfir uppástungur að úrræðum o
 
 > [!NOTE]
 > Þú getur breytt nöfnum á bilanaeinkennum þínum, -svæðum, -gerðum, -orsökum og -úrræðum eins og þú þarft. Nafnabreytingarnar endurspeglast sjálfkrafa í tengdum bilaskráningum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -368,3 +368,6 @@ ms.locfileid: "4799063"
 **Eyddar uppskriftarlínur**
 
 - Færa áætlaðar kanban-vinnslur
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

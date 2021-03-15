@@ -63,3 +63,6 @@ Notandi getur valið pöntun á listanum til að skoða frekari upplýsingar. Up
 - **Breyta** – Leyfir notendum að gera breytingar á valinni pöntun viðskiptavinar.
 
 - **Taka til** – Ræsir tiltektarflæðið, sem gerir notandanum kleift að velja afurðirnar sem á að taka til og stofnar sölufærslu tiltektarinnar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

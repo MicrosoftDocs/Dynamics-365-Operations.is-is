@@ -65,3 +65,6 @@ Mögulegt er að afrita staðsetningar úr einu vöruhúsi í annað og til að 
 --------
 
 [Búa til nýtt vöruhúsaútlit](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

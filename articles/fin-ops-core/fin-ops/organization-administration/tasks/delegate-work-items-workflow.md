@@ -60,3 +60,6 @@ Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tilt
 8. Í reitnum **Lokadagsetning/-tími** skal slá inn dagsetningu og tíma.
 9. Veljið gátreitinn **Virkjað** til að gera úthlutunarregluna virka. 
 10. Í reitnum **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

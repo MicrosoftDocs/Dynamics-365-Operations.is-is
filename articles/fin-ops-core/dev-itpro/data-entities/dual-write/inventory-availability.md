@@ -118,3 +118,6 @@ Svæði í Finance and Operations | Gerð vörpunar | Reitur viðskiptavinatengs
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

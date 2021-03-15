@@ -65,3 +65,6 @@ Fyrirframgreiðslureikningar er algengur viðskiptaháttur. Lánardrottinn gefur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

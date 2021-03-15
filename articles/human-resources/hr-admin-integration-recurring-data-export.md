@@ -205,3 +205,6 @@ Eftirfarandi mynd sýnir hvernig Logic Apps Designer lítur út þegar öll skre
 Í þessari einkatími lærðir þú hvernig á að nota rökfræðiforrit til að flytja gögn úr mannauðsmálum og vista útflutt gögn í OneDrive fyrir viðskiptamöppu. Þú getur breytt skrefunum í þessari kennslu eins og þörf krefur til að henta þínum viðskiptaþörfum.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Til að skoða og vinna með gantt-grafið:
     - Til að enduráætla sýnda vinnupöntun skal velja hana og sleppa á nýja dagsetningu og tíma.
 
 1. Ef þú gerðir einhverjar breytingar skaltu velja **Vista** á aðgerðasvæðinu til að vista þær.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "4968930"
     * Prósenta eða Upphæð er sjálfgefið úr uppsetningu sérstök heimild til afskriftar.  
 8. Í reitinn forgangur skal slá inn númer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

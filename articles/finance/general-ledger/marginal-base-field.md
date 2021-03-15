@@ -185,3 +185,6 @@ Frekari upplýsingar eru í [Útreikningsaðferð heildarupphæðar og tímabils
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

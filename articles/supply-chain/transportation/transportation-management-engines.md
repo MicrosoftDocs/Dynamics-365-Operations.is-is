@@ -98,3 +98,6 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | 3        | Upphafspóstnúmer áfangastaðar | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 4        | Póstnúmer áfangastaðar   | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 5        | Áfangaland           | Úthlutun | Strengur    | Land/svæði |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

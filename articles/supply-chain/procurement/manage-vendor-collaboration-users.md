@@ -93,3 +93,6 @@ Til að biðja um að öryggishlutverkin er breytt fyrir notanda:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

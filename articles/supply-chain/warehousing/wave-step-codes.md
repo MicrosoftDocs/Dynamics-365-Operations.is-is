@@ -92,3 +92,6 @@ Eftirfarandi aðferð hjálpar til við að tryggja að endurnýjunarsniðmáti�
 6. Í reitnum **Bylgjuskrefakóði** velurðu bylgjuskrefakóðann sem þú valdir í áfyllingarsniðinu.
 
 Þú framkvæmir þessi skref fyrir hvern lögaðila.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

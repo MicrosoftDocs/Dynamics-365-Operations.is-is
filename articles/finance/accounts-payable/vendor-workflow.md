@@ -60,3 +60,6 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tveir flipa
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
 Verkflæðið fylgir venjulegu verkflæðisferli. Samþykktaraðila er beint á síðuna **Lánardrottinn** þar sem hægt er að fara yfir breytingar á síðunni **Fyrirhugaðar breytingar** og velja síðan **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

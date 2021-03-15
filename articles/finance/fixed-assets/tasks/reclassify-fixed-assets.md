@@ -45,3 +45,6 @@ Fylgið þessum skrefum til að endurflokka eign:
 5. Í svæði **Dagsetning endurflokkunar** skal slá inn dagsetning.
 6. Í reitinn **fylgiskjalaruna** skal slá inn eða velja gildi.
 7. Smellt er á **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

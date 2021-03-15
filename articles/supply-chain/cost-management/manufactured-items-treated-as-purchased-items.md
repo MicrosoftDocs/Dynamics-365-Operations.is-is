@@ -41,3 +41,6 @@ Hægt er að koma í veg fyrir þennan útreikning með því að velja fánann 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ Fylgdu þessum skrefum til að setja samþættinguna upp.
 8. Í Commerce, á síðunni **Commerce-færibreytur**, í flipanum **Biðlaraþjónusta**, í flýtiflipanum **Dynamics 365 Customer Insights**, skal stilla **Kenni forrits** á „CI_Access_AppID“ (úr skrefi 1 hér að ofan). Fyrir **Leyniheiti** skal velja heiti leynilykilsins sem slegið var inn í skrefi 7 hér að ofan („CISecret“). Stillið valkostinn **Customer Insights** á **Já**. Ef uppsetningin tekst ekki af einhverju ástæðum munu villuboð birtast og þessi valkostur verður stilltur á **Nei**. 
 
 Þú getur haft mörg umhverfi í Customer Insights, svo sem prófunar- og framleiðsluumhverfi. Í reitinn **Tilvikskenni umhverfis** slærðu inn viðeigandi umhverfi. Í reitinn **Kenni annars viðskiptavinar** slærðu inn eiginleikann í Customer Insights sem er varpað á reikningsnúmer viðskiptavinarins. (Í Commerce er númer viðskiptavinalykils auðkenni viðskiptavinarins.) Eftirstandandi þrír eiginleikar eru ráðstafanirnar sem verða sýndar í spjaldi viðskiptavinar í biðlarabókinni. Þú getur valið allt að þrjár ráðstafanir til að sýna á viðskiptavinaspjaldinu. Hins vegar er ekki krafist þess að neinar ráðstafanir séu valdar. Eins og áður er getið sýnir kerfið þessi gildi fyrst og síðan sýnir það gildin fyrir eigindaflokk biðlarabókar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

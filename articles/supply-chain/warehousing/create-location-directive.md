@@ -257,3 +257,6 @@ Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tils
 
 - Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Hjálparefni: [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

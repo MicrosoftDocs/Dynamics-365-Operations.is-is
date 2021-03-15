@@ -139,3 +139,6 @@ Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

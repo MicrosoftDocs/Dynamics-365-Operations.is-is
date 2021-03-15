@@ -92,3 +92,6 @@ Fylgdu þessum skrefum til að bæta við nýrri síðu á síðuna þína.
 [Staðfesta aðgengi að efni síðu](verify-accessibility.md)
 
 [Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

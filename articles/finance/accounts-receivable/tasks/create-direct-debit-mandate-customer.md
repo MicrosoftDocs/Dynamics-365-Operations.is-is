@@ -89,3 +89,6 @@ ms.locfileid: "4991043"
 3. Veljið þann viðskiptavin sem umboðið var bætt við.
 4. Í reitinn **Kenni beingreiðsluumboðs** skal færa inn eða velja gildi.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

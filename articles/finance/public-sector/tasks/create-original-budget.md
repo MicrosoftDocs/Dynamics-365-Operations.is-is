@@ -50,3 +50,6 @@ ms.locfileid: "4987955"
     * Til þess að velja valfrjáls, smellið á táknið Aflæsa efst á síðunni.  
 18. Smelltu á Uppfæra.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ ms.locfileid: "5004878"
 9. Í reitnum **Flutningstímavél** velurðu valkost úr fellivalmyndinni.
 10. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

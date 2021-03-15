@@ -168,3 +168,6 @@ Sýniaðstæðurnar krefjast þess að þú búir til tvær staðsetningarforsti
 
 > [!NOTE]
 > Staðsetningarreitirnir eru aðeins uppfærðir með vöruhúsafærslum. Svæðin uppfærast ekki ef þú notar færslubók eða aðra ferla sem eru ekki vöruhúsakerfi til að færa birgðir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

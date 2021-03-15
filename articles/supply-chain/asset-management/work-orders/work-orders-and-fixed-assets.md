@@ -64,3 +64,6 @@ Eftirfarandi aðferð lýsir tengslum á milli eigna, verkbeiðna, verkbeiðnive
 
 7. Til að sjá yfirlit yfir verk sem eru tengd fastri eign skaltu velja **Fastar eignir** > **Fastar eignir** > **Fastar eignir** og síðan í reitnum **Númer fastrar eignar** velurðu tengilinn fyrir föstu eignina til að opna upplýsingaglugga. Stækkaðu gluggann **Tengdar upplýsingar** hægra megin á síðunni og veldu flýtiflipann **Tengd verk**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

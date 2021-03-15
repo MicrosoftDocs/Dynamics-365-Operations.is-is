@@ -133,3 +133,6 @@ Eftirfarandi mynd sýnir dæmi um uppstillingu úthlutunar uppfyllingarflokks.
 [Setja upp rás símavers](channel-setup-callcenter.md)
 
 [Dynamics 365-greiðslutengill fyrir Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

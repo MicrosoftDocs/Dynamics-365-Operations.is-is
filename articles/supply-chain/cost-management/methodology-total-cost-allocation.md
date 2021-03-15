@@ -61,3 +61,6 @@ Hér eru nokkrar leiðbeiningar fyrir notkun heildarúthlutunar kostnaðar fyrir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

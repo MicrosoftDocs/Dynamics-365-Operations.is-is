@@ -134,3 +134,6 @@ Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtæki
 [Microsoft Teams hjálparmiðstöð](https://support.office.com/teams)</br>
 [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

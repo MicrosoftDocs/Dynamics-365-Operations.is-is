@@ -165,3 +165,6 @@ Hægt er að breyta þeim upplýsingum sem nefnd eru í fyrri töflu fyrir starf
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

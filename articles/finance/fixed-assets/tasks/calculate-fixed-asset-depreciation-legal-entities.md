@@ -50,3 +50,6 @@ Hægt er að keyra eignaafskriftir á milli lögaðila í einu skrefi. Þessi a�
 5. Smella skal Stofna færslubók.
 6. Fara í Eignir >°Færslubókarfærslur°> Eignabók.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

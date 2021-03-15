@@ -142,3 +142,6 @@ ms.locfileid: "4971529"
 5. Veldu **Sýna lista**.
 - Veljið viðskiptavinalykil eða samþykkið sjálfgefnu færsluna. Að sjálfgefnu er í valinn reikning viðskiptavinar á síðu viðskiptavinalista eða í skjámyndinni sem þessi skjámynd var opnuð. Ef skjámyndin er opnuð úr listasíðunni eru viðskiptavinum í lista viðskiptavina sem eru teknar með í hópnum innheimtu sem er notuð á listasíðunni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Eftir afritun á línum er hægt að breyta upplýsingum eftir þörfum.
 Þú getur búið til reikning með frjálsum texta út frá sniðmáti. Þegar **Nýtt úr sniðmáti** er valið úr flipanum **Reikningur** er hægt að velja sniðmátsheiti og viðskiptavinalykilinn fyrir nýja reikninginn með frjálsum texta. Sjálfgefin gildi, svo sem greiðsluskilmálar og greiðslumáti, geta sjálfkrafa verið fyllt út af viðskiptavininum, eða hægt er að nota gildin sem voru vistuð í sniðmátinu.
 
 Nýr reikningur með frjálsum texta verður búinn til og hægt er að breyta gildunum eftir þörfum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

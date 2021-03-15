@@ -106,3 +106,6 @@ Til að eyða robots.txt-skrá á síðunni þinni í Commerce skaltu fylgja þe
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
