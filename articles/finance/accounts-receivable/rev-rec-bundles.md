@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: cf4d03c1a697259899c419ce084b35f4eddf13fe
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238377"
 ---
 # <a name="revenue-recognition-bundles"></a>Búnt tekjuskráningar
 
@@ -29,7 +29,7 @@ ms.locfileid: "5142300"
 Þetta efnisatriði lýsir búntaðgerðinni sem er hluti af tekjuskráningarmöguleikanum í viðskiptakröfum. Búnt samanstendur af yfirvöru og mörgum hlutum vöru. Yfirvaran er færð inn á sölupöntun þannig að pöntunarfærsla verði skilvirkari. Hún er aftur á móti brotin niður í vöruhlutana. Innri skjöl, svo sem fylgiseðill, munu sýna vöruhlutana. Ytri skjöl sýna hins vegar aðeins yfirvöruna.
 
 > [!NOTE]
-> Rásir Microsoft Dynamics 365 Commerce, t.d. á netinu, sölustaður og símaver, styðja ekki tekjuskráningu (þ.m.t. búntaðgerðina). Þetta inniheldur einnig PTC-lausnina fyrir Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Ekki skal bæta vörum, sem eru skilgreindar til að nota tekjuskráningu, við pantanir eða færslur sem eru stofnaðar í Commerce-rásum eða í PTC-lausninni.
+> Microsoft Dynamics 365 Commerce rásir, t.d. á netinu, sölustaður og símaver, styðja ekki tekjuskráningu (þ.m.t. búntaðgerðina). Þetta inniheldur einnig PTC-lausnina fyrir Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Ekki skal bæta vörum, sem eru skilgreindar til að nota tekjuskráningu, við pantanir eða færslur sem eru stofnaðar í Commerce-rásum eða í PTC-lausninni.
 
 Til að setja upp búnt þarf að færa inn skilgreiningarlykla fyrir tekjuskráningu. Hins vegar er hægt að nota búnt þótt tekjuskráning sé ekki sett upp. Sömuleiðis er hægt að nota tekjuskráningu ef búnt eru ekki sett upp. Ef tekjuskráning er sett upp ákvarða vöruhlutarnir tekjuupphæðina og tekjuáætlunina sem eru notuð fyrir tekjuskráningu eða frestun þegar sölupöntun er reikningsfærð.
 

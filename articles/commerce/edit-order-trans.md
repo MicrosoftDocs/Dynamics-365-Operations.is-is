@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8fa6f7a71bae759e2b8feb3c5778200bb7bdbfe9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fee5ef7ad61e9581e7b2797bb1bd26b1a48ddbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221775"
 ---
-# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Breyta og endurskoða netpöntun og ósamstilltum færslum pöntunar viðskiptavinar
+# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Breyta og endurskoða netpöntun og ósamstilltar færslur pöntunar viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
