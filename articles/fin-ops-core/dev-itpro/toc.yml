@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Verkvangsuppfærslur fyrir 10.0.17 (apríl 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Verkvangsuppfærslur fyrir 10.0.16 (febrúar 2021)
@@ -22,6 +24,8 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
+                - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
@@ -38,6 +42,8 @@
               href: business-events/app-business-events.md
             - name: Viðskiptatilvik verkflæðis
               href: business-events/business-events-workflow.md
+            - name: Viðskiptatilvik runu
+              href: business-events/system-business-events.md
             - name: Viðvaranir sem viðskiptatilvik
               href: business-events/alerts-business-events.md
             - name: Viðskiptatilvik í Microsoft Flow
@@ -216,10 +222,14 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Eignir til þjónustu innanhúss
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Samþættur starfskraftur, starf og staða'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Birgðir til ráðstöfunar
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Samþættur starfskraftur, starf og staða'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Samþætting athugasemdar
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Vörpunartilvísun
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Notendaþjónusta fyrir tvöföld skrif
                           items:
                             - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Búa til Lifecycle Services (LCS) tengingu í Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Uppfæra hýsta Azure Pipeline fyrir nýja NuGet pakka
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Uppfæra eldri sölukeðju í Azure Pipelines
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Prufuforrit bílaflotastjórnunar
@@ -1100,8 +1112,6 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Eftirlit og greiningar
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Áhrifagreiningarskýrsla
-              href: lifecycle-services/impact-analysis-report.md
             - name: Endurræsa umhverfisþjónustu
               href: lifecycle-services/restart-environment-services.md
             - name: Tilkynna framleiðslustöðvun
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Flytja notendur milli fyrirtækja í Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Gagnaviðhald
+              href: sysadmin/DataMaintenancePortal.md
             - name: Öryggi
               items:
                 - name: Öryggi byggt á hlutverkum
