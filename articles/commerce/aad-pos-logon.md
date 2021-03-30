@@ -1,6 +1,6 @@
 ---
 title: Virkja Azure Active Directory sannvottun fyrir POS innskráningu
-description: Þetta efni útskýrir hvernig á að stilla innskráningarupplifunina fyrir Microsoft Dynamics 365 Commerce sölustað (POS) þannig að hún noti Azure Active Directory auðkenningu.
+description: Þetta efnisatriði útskýrir hvernig á að stilla innskráningu fyrir Microsoft Dynamics 365 Commerce sölustað þannig að hann noti Azure Active Directory sannvottun.
 author: boycezhu
 manager: annbe
 ms.date: 07/27/2020
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d6073a04814adf8237b4caa952b31b011f4b34bf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 234d19bb6659af07c65763e05671742b9581e244
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206680"
 ---
-# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Virkja Azure Active Directory sannvottun fyrir POS innskráningu
+# <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Virkja Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
 [!include [banner](includes/banner.md)]
 
 
-Margir viðskiptavinir sem nota Microsoft Dynamics 365 Commerce nota einnig aðra Microsoft-skýjaþjónustu og þeir gætu notað Azure Active Directory (Azure AD) til að stjórna notendaskilríkjum fyrir þessa þjónustu. Í þeim tilvikum gætu viðskiptavinirnir viljað nota sama Azure AD reikninginn yfir forrit. Þetta efni útskýrir hvernig á að stilla innskráningarupplifun sölustaðar (POS) í Commerce til að nota Azure AD auðkenningu.
+Margir Viðskiptavinir sem nota Microsoft Dynamics 365 Commerce nota einnig aðra skýjaþjónustu Microsoft, og gætu notað Azure Active Directory (Azure AD) til að sjórna notandaskilríkjum fyrir þá þjónustu. Í þeim tilvikum gætu viðskiptavinirnir viljað nota sama Azure AD reikninginn yfir forrit. Þetta efni útskýrir hvernig á að stilla innskráningarupplifun sölustaðar (POS) í Commerce til að nota Azure AD auðkenningu.
 
 ## <a name="configure-azure-ad-authentication"></a>Skilgreina Azure AD sannvottun
 

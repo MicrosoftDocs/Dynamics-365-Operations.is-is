@@ -1,6 +1,6 @@
 ---
 title: Auglýsingaborðaeining
-description: Þetta efni fjallar um auglysingaborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a77196be69bb71d917bf84c633199a3af3fbf478
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b9325ef31fc61d451584930b09c2039156c0c05
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986030"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206584"
 ---
-# <a name="promo-banner-module"></a>Auglýsingaborðaeining
+# <a name="promo-banner-module"></a>Tilboðsborðaeining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um auglysingaborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 Auglýsingaborðaeiningar eru notaðar til að sýna upplýsingarskilaboð á síðu. Hægt er að nota þær til að sýna kynningar á öllu svæðinu sem birtast á öllum síðum svæðis rafrænna viðskipta. 
 

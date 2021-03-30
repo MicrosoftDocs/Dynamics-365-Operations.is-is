@@ -1,6 +1,6 @@
 ---
 title: Fyrirsagnareining
-description: Þetta efni fjallar um fyrirsagnareiningar og lýsir því hvernig á að stofna síðuhausa í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði nær yfir hauseiningar og lýsir því hvernig á að búa til síðuhausa í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1373397c4499ed65835bcc71c6fc628ff356e4e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991516"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211425"
 ---
 # <a name="header-module"></a>Eining síðuhauss
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um fyrirsagnareiningar og lýsir því hvernig á að stofna síðuhausa í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði nær yfir hauseiningar og lýsir því hvernig á að búa til síðuhausa í Microsoft Dynamics 365 Commerce.
 
 Í Dynamics 365 Commerce er síðuhaus stilltur sem síðubrot sem inniheldur haus, tilboðsborða og kökusamþykkiseiningar. 
 

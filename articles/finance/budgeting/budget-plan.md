@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971279"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210410"
 ---
 # <a name="budget-planning"></a>Fjárhagsáætlunargerð
 
@@ -105,7 +105,7 @@ Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðg
 
 2.5. Veljið "Veita skilgreindum fyrirtækjum aðgengi". Veldu Stigveldi fyrirtækis sem var búið til í fyrsta þrepinu. Veldu fjárhagstengipunkt og smelltu á hnappinn Leyfa með undirgreinum. 
 
-**_Mikilvægt!_* _ _Gangið úr skugga um að vera í DEMF-lögaðilasamhengi þegar þetta er gert, þar sem fyrirtækisöryggi er notað fyrir hvern lögaðila* 
+***Mikilvægt!** _ _Gangið úr skugga um að vera í DEMF-lögaðilasamhengi þegar þetta er gert, þar sem fyrirtækisöryggi er notað fyrir hvern lögaðila* 
 
 ### <a name="task-3-create-scenarios"></a>Verkefni 3: Stofna atburðarás
 3.1. Farið á Fjárhagsáætlun&gt;Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar. Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun. 

@@ -1,6 +1,6 @@
 ---
 title: Textabálkseining
-description: Þetta efni fjallar um textabálkseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um textabálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cad6a26ea1858d6afac33ef8eab10e16b404035b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3926f23e4e762a49ef94ef0c8f3291e7e9a4a6a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206392"
 ---
 # <a name="text-block-module"></a>Textabálkseining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um textabálkseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efni fjallar um textabálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 Textabálkseining er eining sem er notuð til að bæta við textainnihaldi. Þetta efni getur verið upplýsandi eða kynningar.
 

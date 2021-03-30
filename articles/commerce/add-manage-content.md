@@ -1,6 +1,6 @@
 ---
 title: Leiðir til að bæta við efni
-description: Þetta efni veitir yfirlit og velur tengla fyrir hvar og hvernig skuli hefja umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
+description: Í þessu efnisatriði er að finna yfirlit og tengla á það hvar og hvernig á að hefja efnisstjórnun með Microsoft Dynamics 365 Commerce verkfærasafni síðusmiðs.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d818ab91af7b1a74b580e145e4b602cca0ea1662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208064"
 ---
 # <a name="ways-to-add-content"></a>Leiðir til að bæta við efni
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir yfirlit og tengla á fylgiskjöl um hvernig skuli hafa umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
+Í þessu efnisatriði er að finna yfirlit og tengla í fylgigögn um hvernig á að stjórna efni með Microsoft Dynamics 365 Commerce verkfærasafni vefsmiðs.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -1,6 +1,6 @@
 ---
 title: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
-description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d21ce20b2c7ac8c656a718749dabd76f33893da8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991466"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211106"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
