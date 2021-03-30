@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944f88e65c5dbbd2acf21ebfd96c28ce477798ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fe90e29e5ae71492519d9ab0d4cab2d12765cf4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212374"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="01b97-103">Loka fjárhag í lok tímabils</span><span class="sxs-lookup"><span data-stu-id="01b97-103">Close the general ledger at period end</span></span>
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="539cf-103">Loka fjárhag í lok tímabils</span><span class="sxs-lookup"><span data-stu-id="539cf-103">Close the general ledger at period end</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="01b97-104">Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag.</span><span class="sxs-lookup"><span data-stu-id="01b97-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
+<span data-ttu-id="539cf-104">Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag.</span><span class="sxs-lookup"><span data-stu-id="539cf-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-<span data-ttu-id="01b97-105">Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins.</span><span class="sxs-lookup"><span data-stu-id="01b97-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="01b97-106">Lokunarferli°undirbúa kerfið fyrir nýtt tímabil.</span><span class="sxs-lookup"><span data-stu-id="01b97-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="01b97-107">Til að undirbúa kerfið fyrir nýtt ár verður að keyra ferlið Árslokavinnsla.</span><span class="sxs-lookup"><span data-stu-id="01b97-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="01b97-108">Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils.</span><span class="sxs-lookup"><span data-stu-id="01b97-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="01b97-109">Hér eru sum valfrjálsu skrefin fyrir lok tímabila:</span><span class="sxs-lookup"><span data-stu-id="01b97-109">Here are some optional steps for period ends:</span></span>
+<span data-ttu-id="539cf-105">Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins.</span><span class="sxs-lookup"><span data-stu-id="539cf-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="539cf-106">Lokunarferli°undirbúa kerfið fyrir nýtt tímabil.</span><span class="sxs-lookup"><span data-stu-id="539cf-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="539cf-107">Til að undirbúa kerfið fyrir nýtt ár verður að keyra ferlið Árslokavinnsla.</span><span class="sxs-lookup"><span data-stu-id="539cf-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="539cf-108">Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils.</span><span class="sxs-lookup"><span data-stu-id="539cf-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="539cf-109">Hér eru sum valfrjálsu skrefin fyrir lok tímabila:</span><span class="sxs-lookup"><span data-stu-id="539cf-109">Here are some optional steps for period ends:</span></span>
 
--   <span data-ttu-id="01b97-110">Ljúka verkefni fyrir allar aðrar kerfiseiningar, svo sem Viðskiptakröfur, Viðskiptaskuldir, og Birgðir.</span><span class="sxs-lookup"><span data-stu-id="01b97-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
--   <span data-ttu-id="01b97-111">Staðfestu að allar færslubækur séu bókaðar.</span><span class="sxs-lookup"><span data-stu-id="01b97-111">Verify that all journals are posted.</span></span>
--   <span data-ttu-id="01b97-112">Keyra endurmat á erlendum gjaldmiðli til að mynda allan óinnleystan hagnað eða tapupphæðir.</span><span class="sxs-lookup"><span data-stu-id="01b97-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
--   <span data-ttu-id="01b97-113">Jafna færslur á milli fjárhagslykla.</span><span class="sxs-lookup"><span data-stu-id="01b97-113">Settle transactions for each ledger account.</span></span>
--   <span data-ttu-id="01b97-114">Vinna allar áskildar úthlutanir.</span><span class="sxs-lookup"><span data-stu-id="01b97-114">Process any required allocations.</span></span>
--   <span data-ttu-id="01b97-115">Bóka leiðréttingar í lok tímabils handvirkt.</span><span class="sxs-lookup"><span data-stu-id="01b97-115">Manually post period-end adjustments.</span></span>
--   <span data-ttu-id="01b97-116">Skráð færslur og fara yfir **fjárhagsbók** skýrslu.</span><span class="sxs-lookup"><span data-stu-id="01b97-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
--   <span data-ttu-id="01b97-117">Framkvæma samlegð með því að nota samstæðufyrirtæki eða fjárhagsskýrslur.</span><span class="sxs-lookup"><span data-stu-id="01b97-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
--   <span data-ttu-id="01b97-118">Mynda ársreikninga í lok tímabils með því að nota fjárhagsskýrslur.</span><span class="sxs-lookup"><span data-stu-id="01b97-118">Generate period-end financial statements by using Financial reporting.</span></span>
--   <span data-ttu-id="01b97-119">Stilla fjárhagstímabil á **Í bið**, þannig að engin önnur bókun á sér stað.</span><span class="sxs-lookup"><span data-stu-id="01b97-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="01b97-120">Einnig er hægt að takmarka tímabil við ákveðinn notendaflokk á meðan á aðgerðum við lok tímabils stendur, til að fá betri stýringu.</span><span class="sxs-lookup"><span data-stu-id="01b97-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="01b97-121">Ekki er gott að stilla tímabil á **Lokað fyrir fullt og allt**, þar sem ekki er hægt að enduropna tímabil sem hefur verið lokað.</span><span class="sxs-lookup"><span data-stu-id="01b97-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
+-   <span data-ttu-id="539cf-110">Ljúka verkefni fyrir allar aðrar kerfiseiningar, svo sem Viðskiptakröfur, Viðskiptaskuldir, og Birgðir.</span><span class="sxs-lookup"><span data-stu-id="539cf-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="539cf-111">Staðfestu að allar færslubækur séu bókaðar.</span><span class="sxs-lookup"><span data-stu-id="539cf-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="539cf-112">Keyra endurmat á erlendum gjaldmiðli til að mynda allan óinnleystan hagnað eða tapupphæðir.</span><span class="sxs-lookup"><span data-stu-id="539cf-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="539cf-113">Jafna færslur á milli fjárhagslykla.</span><span class="sxs-lookup"><span data-stu-id="539cf-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="539cf-114">Vinna allar áskildar úthlutanir.</span><span class="sxs-lookup"><span data-stu-id="539cf-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="539cf-115">Bóka leiðréttingar í lok tímabils handvirkt.</span><span class="sxs-lookup"><span data-stu-id="539cf-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="539cf-116">Skráð færslur og fara yfir **fjárhagsbók** skýrslu.</span><span class="sxs-lookup"><span data-stu-id="539cf-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="539cf-117">Framkvæma samlegð með því að nota samstæðufyrirtæki eða fjárhagsskýrslur.</span><span class="sxs-lookup"><span data-stu-id="539cf-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="539cf-118">Mynda ársreikninga í lok tímabils með því að nota fjárhagsskýrslur.</span><span class="sxs-lookup"><span data-stu-id="539cf-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="539cf-119">Stilla fjárhagstímabil á **Í bið**, þannig að engin önnur bókun á sér stað.</span><span class="sxs-lookup"><span data-stu-id="539cf-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="539cf-120">Einnig er hægt að takmarka tímabil við ákveðinn notendaflokk á meðan á aðgerðum við lok tímabils stendur, til að fá betri stýringu.</span><span class="sxs-lookup"><span data-stu-id="539cf-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="539cf-121">Ekki er gott að stilla tímabil á **Lokað fyrir fullt og allt**, þar sem ekki er hægt að enduropna tímabil sem hefur verið lokað.</span><span class="sxs-lookup"><span data-stu-id="539cf-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-<span data-ttu-id="01b97-122">Vinnusvæði lokunar fjárhagstímabils má nota til að til að skipuleggja og rekja verkefni sem eru áskilin fyrir mismunandi lokunarferli tímabila.</span><span class="sxs-lookup"><span data-stu-id="01b97-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
-
-
-<span data-ttu-id="01b97-123">Frekari upplýsingar er hægt að finna í eftirfarandi efni:</span><span class="sxs-lookup"><span data-stu-id="01b97-123">For more information, see the following topics for more information:</span></span>
-- [<span data-ttu-id="01b97-124">Vinnusvæði lokunar fjárhagstímabils</span><span class="sxs-lookup"><span data-stu-id="01b97-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
-- [<span data-ttu-id="01b97-125">Árslokalokun</span><span class="sxs-lookup"><span data-stu-id="01b97-125">Year-end close</span></span>](Year-end-close.md)  
-- [<span data-ttu-id="01b97-126">Fjöldalokun fjárhagstímabils</span><span class="sxs-lookup"><span data-stu-id="01b97-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
+<span data-ttu-id="539cf-122">Vinnusvæði lokunar fjárhagstímabils má nota til að til að skipuleggja og rekja verkefni sem eru áskilin fyrir mismunandi lokunarferli tímabila.</span><span class="sxs-lookup"><span data-stu-id="539cf-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
+<span data-ttu-id="539cf-123">Frekari upplýsingar er hægt að finna í eftirfarandi efni:</span><span class="sxs-lookup"><span data-stu-id="539cf-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="539cf-124">Vinnusvæði lokunar fjárhagstímabils</span><span class="sxs-lookup"><span data-stu-id="539cf-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="539cf-125">Árslokalokun</span><span class="sxs-lookup"><span data-stu-id="539cf-125">Year-end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="539cf-126">Fjöldalokun fjárhagstímabils</span><span class="sxs-lookup"><span data-stu-id="539cf-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
