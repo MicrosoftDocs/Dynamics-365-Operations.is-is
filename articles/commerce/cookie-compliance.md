@@ -1,6 +1,6 @@
 ---
 title: Kökusamræmi
-description: Þetta efni lýsir forsendum varðandi samræmi við vafrakökur og sjálfgefnar reglur sem fylgja Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
 ms.date: 08/31/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95c5801e69396b21a36c4ae12ce17801e6f7fd88
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 10a58cf7197d2a8596107a42174b35350e72ae11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993501"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215698"
 ---
-# <a name="cookie-compliance"></a>Kökusamræmi
+# <a name="cookie-compliance"></a>Reglufylgni köku
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir forsendum varðandi samræmi við vafrakökur og sjálfgefnar reglur sem fylgja Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna nýtt afurðastigveldi
-description: Þetta efni lýsir því hvernig á að stofna nýtt afurðastigveldi í Microsoft Dynamics 365 Commerce.
+description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýtt afurðastigveldi í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 540a4a9c48ed958abb56a393e99b8060e1b7aa8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965212"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207872"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Stofna nýtt afurðastigveldi
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna nýtt afurðastigveldi í Microsoft Dynamics 365 Commerce.
+Í þessu efnisatriði er lýst hvernig eigi að stofna nýtt afurðastigveldi í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 

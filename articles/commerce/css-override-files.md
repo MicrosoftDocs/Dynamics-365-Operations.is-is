@@ -1,6 +1,6 @@
 ---
 title: Vinna með CSS-hnekkingarskrár
-description: Þetta efni lýsir hvers vegna, hvenær og hvernig á að nota Cascading Style Sheets (CSS) hnekkingarskrár í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvers vegna, hvenær, og hvernig nota á stallað stílblað (CSS) hnekkingu skráa í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 05/28/2020
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f4a64735a1259f05de95aa6e129e4b12cbf5f197
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 41fb0be51f7af25faba1b860319aea84ae7a8b56
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972958"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207800"
 ---
 # <a name="work-with-css-override-files"></a>Vinna með CSS-hnekkingarskrár
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir hvers vegna, hvenær og hvernig á að nota Cascading Style Sheets (CSS) hnekkingarskrár í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvers vegna, hvenær, og hvernig nota á stallað stílblað (CSS) hnekkingu skráa í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
