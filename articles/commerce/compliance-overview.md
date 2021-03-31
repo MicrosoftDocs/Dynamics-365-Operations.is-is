@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir samræmi
-description: Þetta efni er yfirlit yfir leiðbeiningar um samræmi sem fylgir Microsoft Dynamics 365 Commerce til að hjálpa þér að gera vefsvæði fyrirtækisins samhæft.
+description: Í þessu efnisatriði er að finna yfirlit yfir leiðbeiningar reglufylgni með Microsoft Dynamics 365 Commerce til að hjálpa til við reglufylgni vefsvæðis fyrirtækisins.
 author: BrianShook
 manager: annbe
 ms.date: 01/08/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c06d4e02affc48cf8b9b533d2cd4c1cd0d85e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd47f9ad8ef7bca37986819bcc11f4c4c4d5ab0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997626"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220631"
 ---
-# <a name="compliance-overview"></a>Yfirlit yfir samræmi
+# <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni er yfirlit yfir leiðbeiningar um samræmi sem fylgir Microsoft Dynamics 365 Commerce til að hjálpa þér að gera vefsvæði fyrirtækisins samhæft. Fylgni er mikilvægur þáttur fyrir öll fyrirtæki, vegna þess að það hjálpar notendagrunni þeirra að tengjast innihaldi síðunnar. Með því að vera í samræmi við það geturðu einnig verndað fyrirtæki þitt gegn dýrum réttaraðgerðum eða miklum sektum.
+Í þessu efnisatriði er að finna yfirlit yfir leiðbeiningar reglufylgni með Microsoft Dynamics 365 Commerce til að hjálpa til við reglufylgni vefsvæðis fyrirtækisins. Fylgni er mikilvægur þáttur fyrir öll fyrirtæki, vegna þess að það hjálpar notendagrunni þeirra að tengjast innihaldi síðunnar. Með því að vera í samræmi við það geturðu einnig verndað fyrirtæki þitt gegn dýrum réttaraðgerðum eða miklum sektum.
 
 Fylgiskjölin innihalda endurskoðun á svæðum sem þú ættir að hafa í huga þegar þú notar Dynamics 365 Commerce, til að hjálpa þér að uppfylla kröfur fyrirtækisins.
 

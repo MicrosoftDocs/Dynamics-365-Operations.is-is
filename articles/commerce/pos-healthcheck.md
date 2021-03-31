@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216676"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Heilbrigðiseftirlit með POS jaðartæki og þjónustu
 
@@ -34,7 +34,7 @@ ms.locfileid: "5000535"
 
 Smásöluverslanir geta verið flókið umhverfi þar sem mörg forrit og tæki eru notuð. Eftir því sem aðgerðir vaxa getur það reynst erfitt að tryggja að aðgerðir gangi alltaf vel, vegna háðs til dæmis jaðartækja sem geta brotnað eða óvart verið tengd yfir daginn. Úrræðaleit vegna vandamála sem tengjast tækjum og þjónustu getur verið dýrt fyrir stærri söluaðila og jafn pirrandi fyrir minni aðgerðir.
 
-Microsoft Dynamics 365 Commerce útgáfur 10.0.10 og síðar fela í sér ástandsskoðunaraðgerð sem getur hjálpað til við að koma í veg fyrir hluta af þessum kostnaði og gremju. Þessi aðgerð veitir aðferð til að prófa tæki beint úr POS utan venjulegra aðgerða. Þess vegna getur það hjálpað smásöluaðilum að greina mál áður en þau koma upp.
+Microsoft Dynamics 365 Commerce útgáfur 10.0.10 og nýrri innihalda ástandsskoðunaraðgerð sem getur hjálpað við að koma í veg fyrir einhvern af þessum kostnaði og gremju. Þessi aðgerð veitir aðferð til að prófa tæki beint úr POS utan venjulegra aðgerða. Þess vegna getur það hjálpað smásöluaðilum að greina mál áður en þau koma upp.
 
 ## <a name="key-terms"></a>Lykilhugtök
 

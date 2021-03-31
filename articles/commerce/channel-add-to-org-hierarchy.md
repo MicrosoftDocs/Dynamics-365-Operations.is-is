@@ -1,6 +1,6 @@
 ---
 title: Bæta rás við stigveldi fyrirtækis
-description: Þetta efni lýsir því hvernig á að bæta rás við á stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að bæta rás við stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 297bd34f9bde23d5cc7de266b8e8f49b1a752662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4212797d2959c4f8b0d60e6b45de76ffc3ee0dc2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216754"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Bæta rás við stigveldi fyrirtækis
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta rás við á stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir hvernig á að bæta rás við stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 

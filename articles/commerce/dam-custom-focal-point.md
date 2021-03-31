@@ -1,6 +1,6 @@
 ---
 title: Sérsníða þungamiðju myndar
-description: Þetta efni lýsir því hvernig á að sérsníða þungamiðju myndar í vefsvæðishönnuði í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að sérsníða áherslupunkta myndar í Microsoft Dynamics 365 Commerce svæðasmið.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8fc9a1f944d24aff3ab2923ca2715209a674e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222562"
 ---
-# <a name="customize-image-focal-points"></a>Sérsníða þungamiðju myndar
+# <a name="customize-image-focal-points"></a>Sérstilla áherslupunkta myndar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að sérsníða þungamiðju myndar í vefsvæðishönnuði í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að sérsníða áherslupunkta myndar í Microsoft Dynamics 365 Commerce svæðasmið.
 
 ## <a name="overview"></a>Yfirlit
 

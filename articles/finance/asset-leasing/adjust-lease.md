@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130756"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219988"
 ---
 # <a name="adjust-leases"></a>Leiðrétta leigusamninga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast. Eignarleiga uppfyllir leiðbeiningar sem efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) kveður á um varðandi breytingar á leigusamningum. ASC 842-20-15-1 skilgreinir breytingar á leigusamningi sem allar breytingar á skilmálum samnings sem valda breytingu á umfangi, eða meðferð á leigusamningi. Málsgrein 39 í IFRS 16 segir að leigjandi þurfi að endurmeta leiguskuldbindingu þannig að hún endurspegli breytingar á leigugreiðslum.
 

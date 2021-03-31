@@ -1,6 +1,6 @@
 ---
 title: Breyta síðu svæðis sem þegar er til
-description: Þetta efni lýsir því hvernig á að breyta fyrirliggjandi svæði í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 47a7d17b97631ba469a9b68f5f6cf492ebccde6f
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223048"
 ---
 # <a name="modify-an-existing-site-page"></a>Breyta síðu svæðis sem þegar er til
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að breyta fyrirliggjandi svæði í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
