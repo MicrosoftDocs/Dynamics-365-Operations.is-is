@@ -1,6 +1,6 @@
 ---
 title: Afurðasafnseiningar
-description: Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 01/28/2021
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097104"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231105"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
 
 Vöruuppgötvun er aðalverkfærið sem smásalar nota til að eiga samskipti við viðskiptavini sína á vefsíðu netverslunar. Afurðasafnseiningar hjálpa smásöluaðilum að byggja upp sannfærandi verslunarupplifun með því að bjóða upp á leiðandi sjónviðmót sem hægt er að nota til að skrifa afurðasöfn á fljótlegan hátt.
 

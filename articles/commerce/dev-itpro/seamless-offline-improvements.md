@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1ea46ae90dedcc3ad3c3b305bddeb4d98827353a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230669"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Þægilegur rofi án nettengingar fyrir gjafakorta- og kreditreikningsaðgerðir
 
@@ -32,7 +32,7 @@ Ef sölustaður (POS) tæki missir tengingu sína við rásagagnagrunninn geta f
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Lokið við gjafakortafærslur án tengingar
 
-Innri gjafakort eru háð rauntímaþjónustunni vegna þess að staðan fyrir gjafakortin verður að vera miðlæg í Microsoft Dynamics 365 Commerce Headquarters. Til að koma í veg fyrir svik eða önnur vandamál varðandi samstillingu er gjafakortum læst um leið og þeim er bætt við færslu. Lásaraðgerðin tryggir að ekki er hægt að nota gjafakort á mörgum útstöðvum á sama tíma. Þegar færslunni lýkur er gjafakortið uppfært og aflæst.
+Innri gjafakort eru háð rauntímaþjónustu þar sem nauðsynlegt er að viðhalda stöðunni fyrir gjafakortin í Microsoft Dynamics 365 Commerce höfuðstöðvum. Til að koma í veg fyrir svik eða önnur vandamál varðandi samstillingu er gjafakortum læst um leið og þeim er bætt við færslu. Lásaraðgerðin tryggir að ekki er hægt að nota gjafakort á mörgum útstöðvum á sama tíma. Þegar færslunni lýkur er gjafakortið uppfært og aflæst.
 
 Hins vegar, ef POS tapar tengingu eftir að gjafakorti hefur verið bætt við færslu getur gjafakortið orðið ónothæft. Til að koma í veg fyrir þetta ástand er Dynamics 365 Commerce með færibreytu sem gerir kleift að ljúka færslum sem innihalda gjafakortslínu sem má ljúka meðan POS er ótengdur. Þegar kveikt er á þessari færibreytu verða gjafakortafærslur sem eru þvingaðar án nettengingar vistaðar ásamt færslum án nettengingar og þær verða samstilltar við Commerce Headquarters þegar færslur án nettengingar eru samstilltar. Samstillingin mun einnig opna gjafakortið þannig að hægt sé að nota það í annarri afgreiðslustöð.
 

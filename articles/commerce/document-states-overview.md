@@ -1,6 +1,6 @@
 ---
 title: Staða skjala og líftíma
-description: Þetta efni fjallar um hinar ýmsu skjalastöður blaðsíðuþátta í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c30932800beda13ac8fe6b0386fe29efe93f79c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 457b1ac7afb8cad57399572acf429d208db917af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230535"
 ---
-# <a name="document-states-and-lifecycle"></a>Staða skjala og líftíma
+# <a name="document-states-and-lifecycle"></a>Staða og líftími skjala
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um hinar ýmsu skjalastöður blaðsíðuþátta í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Lýsing skjalastöðu
 

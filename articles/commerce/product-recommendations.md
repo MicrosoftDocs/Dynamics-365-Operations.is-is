@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1769af6663a040c699449eb53841b3f72ab433e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231033"
 ---
 # <a name="product-recommendations-overview"></a>Yfirlit yfir afurðarráðleggingar
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce má nota til að sýna afurðatillögur á vefsíðu netverslunar og sölustað (POS) tækinu. Afurðatillögur eru vörur sem viðskiptavinur gæti haft áhuga á. Ráðleggingarnar eru byggðar á kaupþróun annarra viðskiptavina í verslunum á netinu og verslunum sjálfum.
+Microsoft Dynamics 365 Commerce má nota til að sýna afurðartillögur á rafrænu vefsvæði og tæki sölustaðar. Afurðatillögur eru vörur sem viðskiptavinur gæti haft áhuga á. Ráðleggingarnar eru byggðar á kaupþróun annarra viðskiptavina í verslunum á netinu og verslunum sjálfum.
 
 Afurðatillögur gera viðskiptavinum kleift að finna auðveldlega og fljótt vörur sem þeir vilja á meðan þeir hafa reynslu sem þjónar þeim vel. Krosssölu og uppsölu er jafnvel hægt að nota til að hjálpa viðskiptavinum að finna fleiri vörur en þeir ætluðu upphaflega ekki að kaupa. Þegar ráðleggingar eru notaðar til að auka uppgötvun vöru skapa þau fleiri viðskiptatækifæri, hjálpað til við að auka sölutekjur og jafnvel aukið ánægju viðskiptavina og varðveisla.
 
