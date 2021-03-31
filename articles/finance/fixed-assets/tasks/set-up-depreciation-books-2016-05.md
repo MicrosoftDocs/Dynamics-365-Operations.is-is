@@ -15,42 +15,45 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e1d934bffd0a5daacf27fcd5a2e00043fe3daf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224694"
 ---
-# <a name="set-up-depreciation-books"></a><span data-ttu-id="d1fa4-103">Uppsetning afskriftabóka</span><span class="sxs-lookup"><span data-stu-id="d1fa4-103">Set up depreciation books</span></span> 
+# <a name="set-up-depreciation-books"></a><span data-ttu-id="565fe-103">Uppsetning afskriftabóka</span><span class="sxs-lookup"><span data-stu-id="565fe-103">Set up depreciation books</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d1fa4-104">Þessi aðferð gengur í gegnum ferlið við að búa til nýja afskriftabók og tengja hana við fastafjárhóp.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
+<span data-ttu-id="565fe-104">Þessi aðferð gengur í gegnum ferlið við að búa til nýja afskriftabók og tengja hana við fastafjárhóp.</span><span class="sxs-lookup"><span data-stu-id="565fe-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
 
-## <a name="create-a-depreciation-book"></a><span data-ttu-id="d1fa4-105">Stofna afskriftarbók</span><span class="sxs-lookup"><span data-stu-id="d1fa4-105">Create a depreciation book</span></span>
-1. <span data-ttu-id="d1fa4-106">Fara í Eignir > Uppsetning > Afskriftarbækur.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
-2. <span data-ttu-id="d1fa4-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-107">Click New.</span></span>
-3. <span data-ttu-id="d1fa4-108">Færa inn gildi í svæðinu afskriftarbók.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-108">In the Depreciation book field, type a value.</span></span>
-4. <span data-ttu-id="d1fa4-109">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="d1fa4-110">Merkja eða afmerkja gátreit Reikna afskrift.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
-6. <span data-ttu-id="d1fa4-111">Í reitnum afskriftarregla skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="d1fa4-112">Í listanum skal finna og velja þá afskriftarregla sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-112">In the list, find and select the desired depreciation profile.</span></span>
-8. <span data-ttu-id="d1fa4-113">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-113">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d1fa4-114">Í reitnum önnur afskriftarregla skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="d1fa4-115">Á listanum, skal velja viðeigandi afskriftarregla.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-115">In the list, select the desired depreciation profile.</span></span>
-11. <span data-ttu-id="d1fa4-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-116">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d1fa4-117">Óregluleg afskriftaregla er notuð fyrir aukalega afskrift af eign við óvenjulegar aðstæður.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="d1fa4-118">Til dæmis er hægt að nota þetta til að skrá niðurstöður úr náttúruhamfarir afskrift.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
-12. <span data-ttu-id="d1fa4-119">Merkja eða afmerkja gátreit Stofna afskriftaleiðréttingar með grunnleiðréttingar .</span><span class="sxs-lookup"><span data-stu-id="d1fa4-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
-13. <span data-ttu-id="d1fa4-120">Í reitnum dagatal skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="d1fa4-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-121">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="565fe-105">Stofna afskriftarbók</span><span class="sxs-lookup"><span data-stu-id="565fe-105">Create a depreciation book</span></span>
+1. <span data-ttu-id="565fe-106">Fara í Eignir > Uppsetning > Afskriftarbækur.</span><span class="sxs-lookup"><span data-stu-id="565fe-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="565fe-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="565fe-107">Click New.</span></span>
+3. <span data-ttu-id="565fe-108">Færa inn gildi í svæðinu afskriftarbók.</span><span class="sxs-lookup"><span data-stu-id="565fe-108">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="565fe-109">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="565fe-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="565fe-110">Merkja eða afmerkja gátreit Reikna afskrift.</span><span class="sxs-lookup"><span data-stu-id="565fe-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="565fe-111">Í reitnum afskriftarregla skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="565fe-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="565fe-112">Í listanum skal finna og velja þá afskriftarregla sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="565fe-112">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="565fe-113">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="565fe-113">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="565fe-114">Í reitnum önnur afskriftarregla skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="565fe-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="565fe-115">Á listanum, skal velja viðeigandi afskriftarregla.</span><span class="sxs-lookup"><span data-stu-id="565fe-115">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="565fe-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="565fe-116">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="565fe-117">Óregluleg afskriftaregla er notuð fyrir aukalega afskrift af eign við óvenjulegar aðstæður.</span><span class="sxs-lookup"><span data-stu-id="565fe-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="565fe-118">Til dæmis er hægt að nota þetta til að skrá niðurstöður úr náttúruhamfarir afskrift.</span><span class="sxs-lookup"><span data-stu-id="565fe-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="565fe-119">Merkja eða afmerkja gátreit Stofna afskriftaleiðréttingar með grunnleiðréttingar .</span><span class="sxs-lookup"><span data-stu-id="565fe-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="565fe-120">Í reitnum dagatal skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="565fe-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="565fe-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="565fe-121">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="d1fa4-122">Tengið afskriftarbók við eignaflokkur</span><span class="sxs-lookup"><span data-stu-id="d1fa4-122">Associate the depreciation book with a fixed asset group</span></span>
-1. <span data-ttu-id="d1fa4-123">Smella á eignaflokkar.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-123">Click Fixed asset groups.</span></span>
-2. <span data-ttu-id="d1fa4-124">Í reitnum eignaflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="d1fa4-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="d1fa4-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-126">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="d1fa4-127">Veljið valkost í svæðinu afskriftarregla.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-127">In the Depreciation convention field, select an option.</span></span>
-6. <span data-ttu-id="d1fa4-128">Í reitinn líftími skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-128">In the Service life field, enter a number.</span></span>
-    * <span data-ttu-id="d1fa4-129">Sjáðu að svæðisgildi afskriftartímabils er reiknaður eftir uppsetningu líftíma.</span><span class="sxs-lookup"><span data-stu-id="d1fa4-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="565fe-122">Tengið afskriftarbók við eignaflokkur</span><span class="sxs-lookup"><span data-stu-id="565fe-122">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="565fe-123">Smella á eignaflokkar.</span><span class="sxs-lookup"><span data-stu-id="565fe-123">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="565fe-124">Í reitnum eignaflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="565fe-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="565fe-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="565fe-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="565fe-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="565fe-126">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="565fe-127">Veljið valkost í svæðinu afskriftarregla.</span><span class="sxs-lookup"><span data-stu-id="565fe-127">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="565fe-128">Í reitinn líftími skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="565fe-128">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="565fe-129">Sjáðu að svæðisgildi afskriftartímabils er reiknaður eftir uppsetningu líftíma.</span><span class="sxs-lookup"><span data-stu-id="565fe-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

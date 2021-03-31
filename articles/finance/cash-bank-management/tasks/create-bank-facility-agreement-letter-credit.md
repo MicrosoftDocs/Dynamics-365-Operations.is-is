@@ -15,38 +15,41 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bffb5c802e8fa261e52197d1293ffb15c35981f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40d13e996b08efecb19be961c592230567656a4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225490"
 ---
-# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="09257-103">Stofna bankaaðstöðusamning fyrir bankaábyrgð</span><span class="sxs-lookup"><span data-stu-id="09257-103">Create a bank facility agreement for a letter of credit</span></span>
+# <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="a4a7e-103">Stofna bankaaðstöðusamning fyrir bankaábyrgð</span><span class="sxs-lookup"><span data-stu-id="a4a7e-103">Create a bank facility agreement for a letter of credit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="09257-104">Þetta verk útskýrir stofnun bankaaðstöðusamning til að vinna ábyrgðarbréf.</span><span class="sxs-lookup"><span data-stu-id="09257-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="09257-105">Þú þarft að setja upp bankaaðstöður og bókunarreglur á undan þetta verk.</span><span class="sxs-lookup"><span data-stu-id="09257-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="09257-106">Þetta notar verk 'USMF' sýnigögn fyrirtækið .</span><span class="sxs-lookup"><span data-stu-id="09257-106">This task uses the demo company 'USMF'.</span></span>  
+<span data-ttu-id="a4a7e-104">Þetta verk útskýrir stofnun bankaaðstöðusamning til að vinna ábyrgðarbréf.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-104">This task walks through the creating a Bank facility agreement to process a Letter of credit.</span></span> <span data-ttu-id="a4a7e-105">Þú þarft að setja upp bankaaðstöður og bókunarreglur á undan þetta verk.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-105">You will want to set up bank facilities and posting profiles before this task.</span></span>  <span data-ttu-id="a4a7e-106">Þetta notar verk 'USMF' sýnigögn fyrirtækið .</span><span class="sxs-lookup"><span data-stu-id="a4a7e-106">This task uses the demo company 'USMF'.</span></span>  
 
 
-## <a name="create-bank-facility-agreement"></a><span data-ttu-id="09257-107">Stofna bankaaðstöðusamningur</span><span class="sxs-lookup"><span data-stu-id="09257-107">Create Bank facility agreement</span></span>
-1. <span data-ttu-id="09257-108">Fara í Reiðufé og bankastjórnun > Kreditbréf > Bankaaðstöðusamningur.</span><span class="sxs-lookup"><span data-stu-id="09257-108">Go to Cash and bank management > Letters of credit > Bank facility agreements.</span></span>
-2. <span data-ttu-id="09257-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="09257-109">Click New.</span></span>
-3. <span data-ttu-id="09257-110">Í svæðið samningsnúmer, færðu inn samningsnúmer samkvæmt samkomulagi við bankann.</span><span class="sxs-lookup"><span data-stu-id="09257-110">In the Agreement number field, enter the agreement number according to the agreement with the bank.</span></span>
-4. <span data-ttu-id="09257-111">Í svæðinu bankareikning, færið inn lykilnúmer bankans sem gefur út.</span><span class="sxs-lookup"><span data-stu-id="09257-111">In the Bank account field, enter the account number at the issuing bank.</span></span>
-5. <span data-ttu-id="09257-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="09257-112">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="09257-113">Í reitnum upphafsdagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="09257-113">In the Start date field, enter a date and time.</span></span>
-7. <span data-ttu-id="09257-114">Í reitnum Lokadagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="09257-114">In the End date field, enter a date and time.</span></span>
-8. <span data-ttu-id="09257-115">Útvíkka eða draga saman hlutann Almennt.</span><span class="sxs-lookup"><span data-stu-id="09257-115">Expand or collapse the General section.</span></span>
-9. <span data-ttu-id="09257-116">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="09257-116">Click Add line.</span></span>
-10. <span data-ttu-id="09257-117">Í reitnum aðstöðugerð skal smella a fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="09257-117">In the Facility type field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="09257-118">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="09257-118">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="09257-119">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="09257-119">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="09257-120">Í reitinn Mörk færirðu inn upphæð aðstöðu sem samið var um við bankann.</span><span class="sxs-lookup"><span data-stu-id="09257-120">In the Limit field, enter the facility amount that was negotiated with the bank.</span></span>
-14. <span data-ttu-id="09257-121">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="09257-121">Click Save.</span></span>
-15. <span data-ttu-id="09257-122">Smellt er á víkka út til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="09257-122">Click Extend to open the drop dialog.</span></span>
-16. <span data-ttu-id="09257-123">Færa inn gildi í svæðið nýtt samningsnúmer.</span><span class="sxs-lookup"><span data-stu-id="09257-123">In the New agreement number field, type a value.</span></span>
-17. <span data-ttu-id="09257-124">Í reitnum Lokadagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="09257-124">In the End date field, enter a date and time.</span></span>
-18. <span data-ttu-id="09257-125">Smellt er á Framlengja.</span><span class="sxs-lookup"><span data-stu-id="09257-125">Click Extend.</span></span>
-19. <span data-ttu-id="09257-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="09257-126">Close the page.</span></span>
+## <a name="create-bank-facility-agreement"></a><span data-ttu-id="a4a7e-107">Stofna bankaaðstöðusamningur</span><span class="sxs-lookup"><span data-stu-id="a4a7e-107">Create Bank facility agreement</span></span>
+1. <span data-ttu-id="a4a7e-108">Fara í Reiðufé og bankastjórnun > Kreditbréf > Bankaaðstöðusamningur.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-108">Go to Cash and bank management > Letters of credit > Bank facility agreements.</span></span>
+2. <span data-ttu-id="a4a7e-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-109">Click New.</span></span>
+3. <span data-ttu-id="a4a7e-110">Í svæðið samningsnúmer, færðu inn samningsnúmer samkvæmt samkomulagi við bankann.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-110">In the Agreement number field, enter the agreement number according to the agreement with the bank.</span></span>
+4. <span data-ttu-id="a4a7e-111">Í svæðinu bankareikning, færið inn lykilnúmer bankans sem gefur út.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-111">In the Bank account field, enter the account number at the issuing bank.</span></span>
+5. <span data-ttu-id="a4a7e-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-112">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="a4a7e-113">Í reitnum upphafsdagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-113">In the Start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="a4a7e-114">Í reitnum Lokadagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-114">In the End date field, enter a date and time.</span></span>
+8. <span data-ttu-id="a4a7e-115">Útvíkka eða draga saman hlutann Almennt.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-115">Expand or collapse the General section.</span></span>
+9. <span data-ttu-id="a4a7e-116">Smella á bæta Við línu.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-116">Click Add line.</span></span>
+10. <span data-ttu-id="a4a7e-117">Í reitnum aðstöðugerð skal smella a fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-117">In the Facility type field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="a4a7e-118">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-118">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="a4a7e-119">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-119">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="a4a7e-120">Í reitinn Mörk færirðu inn upphæð aðstöðu sem samið var um við bankann.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-120">In the Limit field, enter the facility amount that was negotiated with the bank.</span></span>
+14. <span data-ttu-id="a4a7e-121">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-121">Click Save.</span></span>
+15. <span data-ttu-id="a4a7e-122">Smellt er á víkka út til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-122">Click Extend to open the drop dialog.</span></span>
+16. <span data-ttu-id="a4a7e-123">Færa inn gildi í svæðið nýtt samningsnúmer.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-123">In the New agreement number field, type a value.</span></span>
+17. <span data-ttu-id="a4a7e-124">Í reitnum Lokadagur, færa inn dagsetningu og tíma.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-124">In the End date field, enter a date and time.</span></span>
+18. <span data-ttu-id="a4a7e-125">Smellt er á Framlengja.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-125">Click Extend.</span></span>
+19. <span data-ttu-id="a4a7e-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a4a7e-126">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
