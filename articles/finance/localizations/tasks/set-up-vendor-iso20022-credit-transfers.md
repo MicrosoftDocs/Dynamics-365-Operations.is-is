@@ -15,39 +15,42 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a7245824c53ab594d62e9296e1f32d32a96ab84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b3a16d614efed0aafbf13fc59c17ab568811d82
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988021"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222040"
 ---
-# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="232db-103">Setja upp lánardrottna og bankareikninga lánardrottna fyrir ISO20022-tmillifærslur</span><span class="sxs-lookup"><span data-stu-id="232db-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>
+# <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="234ad-103">Setja upp lánardrottna og bankareikninga lánardrottna fyrir ISO20022-tmillifærslur</span><span class="sxs-lookup"><span data-stu-id="234ad-103">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="232db-104">Þetta ferli sýnir hvernig á að setja upp lánardrottins og bankareikningsupplýsingar fyrir lánardrottinn sem þarf fyrir myndun ISO20022-greiðsluskrár fyrir millifærsla fjármuna eða hvers kyns aðra greiðsluskrá lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="232db-104">This procedure demonstrates how to set up the vendor and vendor specific bank account information required for ISO20022 Credit transfer or any other vendor payment file generation.</span></span> 
+<span data-ttu-id="234ad-104">Þetta ferli sýnir hvernig á að setja upp lánardrottins og bankareikningsupplýsingar fyrir lánardrottinn sem þarf fyrir myndun ISO20022-greiðsluskrár fyrir millifærsla fjármuna eða hvers kyns aðra greiðsluskrá lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="234ad-104">This procedure demonstrates how to set up the vendor and vendor specific bank account information required for ISO20022 Credit transfer or any other vendor payment file generation.</span></span> 
 
-<span data-ttu-id="232db-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.</span><span class="sxs-lookup"><span data-stu-id="232db-105">The demo data company used to create this procedure is DEMF.</span></span>
-<span data-ttu-id="232db-106">Þetta fjórða ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="232db-106">This is the fourth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="232db-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="232db-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="234ad-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.</span><span class="sxs-lookup"><span data-stu-id="234ad-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="234ad-106">Þetta fjórða ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="234ad-106">This is the fourth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="234ad-107">Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.</span><span class="sxs-lookup"><span data-stu-id="234ad-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="set-up-bank-details"></a><span data-ttu-id="232db-108">Setja upp upplýsingar um banka</span><span class="sxs-lookup"><span data-stu-id="232db-108">Set up bank details</span></span>
-1. <span data-ttu-id="232db-109">Farið í Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="232db-109">Go to Accounts payable > Vendors > All vendors.</span></span>
-2. <span data-ttu-id="232db-110">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="232db-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="232db-111">Til dæmis, sía svæðið Lánardrottins með gildið 'DE-001'.</span><span class="sxs-lookup"><span data-stu-id="232db-111">For example, filter on the Vendor account field with a value of 'DE-001'.</span></span>
-3. <span data-ttu-id="232db-112">Smellt er á DE-001 til að opna upplýsingar um lánardrottin.</span><span class="sxs-lookup"><span data-stu-id="232db-112">Click DE-001 to open vendor details.</span></span>
-4. <span data-ttu-id="232db-113">Í aðgerðasvæðinu er smellt á lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="232db-113">On the Action Pane, click Vendor.</span></span>
-5. <span data-ttu-id="232db-114">Smellt er á bankareikninga.</span><span class="sxs-lookup"><span data-stu-id="232db-114">Click Bank accounts.</span></span>
-6. <span data-ttu-id="232db-115">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="232db-115">Click Edit.</span></span>
-    * <span data-ttu-id="232db-116">Ef engin bankareikningurinn er tiltækur, þarf að stofna nýja.</span><span class="sxs-lookup"><span data-stu-id="232db-116">If there is no bank account available, you need to create a new one.</span></span>  
-7. <span data-ttu-id="232db-117">Í svæðinu swift-kóði færðu inn 'COBADEFFXXX' .</span><span class="sxs-lookup"><span data-stu-id="232db-117">In the SWIFT code field, type 'COBADEFFXXX'.</span></span>
-8. <span data-ttu-id="232db-118">Í reitinn IBAN skal slá inn 'DE36200400000628808808'.</span><span class="sxs-lookup"><span data-stu-id="232db-118">In the IBAN field, type 'DE36200400000628808808'.</span></span>
-9. <span data-ttu-id="232db-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="232db-119">Close the page.</span></span>
+## <a name="set-up-bank-details"></a><span data-ttu-id="234ad-108">Setja upp upplýsingar um banka</span><span class="sxs-lookup"><span data-stu-id="234ad-108">Set up bank details</span></span>
+1. <span data-ttu-id="234ad-109">Farið í Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="234ad-109">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="234ad-110">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="234ad-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="234ad-111">Til dæmis, sía svæðið Lánardrottins með gildið 'DE-001'.</span><span class="sxs-lookup"><span data-stu-id="234ad-111">For example, filter on the Vendor account field with a value of 'DE-001'.</span></span>
+3. <span data-ttu-id="234ad-112">Smellt er á DE-001 til að opna upplýsingar um lánardrottin.</span><span class="sxs-lookup"><span data-stu-id="234ad-112">Click DE-001 to open vendor details.</span></span>
+4. <span data-ttu-id="234ad-113">Í aðgerðasvæðinu er smellt á lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="234ad-113">On the Action Pane, click Vendor.</span></span>
+5. <span data-ttu-id="234ad-114">Smellt er á bankareikninga.</span><span class="sxs-lookup"><span data-stu-id="234ad-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="234ad-115">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="234ad-115">Click Edit.</span></span>
+    * <span data-ttu-id="234ad-116">Ef engin bankareikningurinn er tiltækur, þarf að stofna nýja.</span><span class="sxs-lookup"><span data-stu-id="234ad-116">If there is no bank account available, you need to create a new one.</span></span>  
+7. <span data-ttu-id="234ad-117">Í svæðinu swift-kóði færðu inn 'COBADEFFXXX' .</span><span class="sxs-lookup"><span data-stu-id="234ad-117">In the SWIFT code field, type 'COBADEFFXXX'.</span></span>
+8. <span data-ttu-id="234ad-118">Í reitinn IBAN skal slá inn 'DE36200400000628808808'.</span><span class="sxs-lookup"><span data-stu-id="234ad-118">In the IBAN field, type 'DE36200400000628808808'.</span></span>
+9. <span data-ttu-id="234ad-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="234ad-119">Close the page.</span></span>
 
-## <a name="set-up-a-method-of-payment-for-the-vendor"></a><span data-ttu-id="232db-120">Setja upp greiðsluhátt fyrir lánardrottinn</span><span class="sxs-lookup"><span data-stu-id="232db-120">Set up a method of payment for the vendor</span></span>
-1. <span data-ttu-id="232db-121">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="232db-121">Click Edit.</span></span>
-2. <span data-ttu-id="232db-122">Stækka eða fella saman hlutann Greiðsla.</span><span class="sxs-lookup"><span data-stu-id="232db-122">Expand or collapse the Payment section.</span></span>
-3. <span data-ttu-id="232db-123">Í reitnum greiðsluaðferð skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="232db-123">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="232db-124">Í listanum skal smella á tengilinn í SEPA CT línu.</span><span class="sxs-lookup"><span data-stu-id="232db-124">In the list, click the link in the SEPA CT row.</span></span>
-5. <span data-ttu-id="232db-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="232db-125">Click Save.</span></span>
+## <a name="set-up-a-method-of-payment-for-the-vendor"></a><span data-ttu-id="234ad-120">Setja upp greiðsluhátt fyrir lánardrottinn</span><span class="sxs-lookup"><span data-stu-id="234ad-120">Set up a method of payment for the vendor</span></span>
+1. <span data-ttu-id="234ad-121">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="234ad-121">Click Edit.</span></span>
+2. <span data-ttu-id="234ad-122">Stækka eða fella saman hlutann Greiðsla.</span><span class="sxs-lookup"><span data-stu-id="234ad-122">Expand or collapse the Payment section.</span></span>
+3. <span data-ttu-id="234ad-123">Í reitnum greiðsluaðferð skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="234ad-123">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="234ad-124">Í listanum skal smella á tengilinn í SEPA CT línu.</span><span class="sxs-lookup"><span data-stu-id="234ad-124">In the list, click the link in the SEPA CT row.</span></span>
+5. <span data-ttu-id="234ad-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="234ad-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
