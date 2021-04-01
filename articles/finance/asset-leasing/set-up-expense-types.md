@@ -17,44 +17,47 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1538826f140393eec59be9ff4df5242d5ced9d8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969504"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249750"
 ---
-# <a name="set-up-expense-types"></a><span data-ttu-id="dba75-103">Setja upp kostnaðargerðir</span><span class="sxs-lookup"><span data-stu-id="dba75-103">Set up expense types</span></span>
+# <a name="set-up-expense-types"></a><span data-ttu-id="6d413-103">Setja upp kostnaðargerðir</span><span class="sxs-lookup"><span data-stu-id="6d413-103">Set up expense types</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="dba75-104">Í þessu efnisatriði er útskýrt hvernig á að setja upp kostnaðargerðir í Eignarleigu.</span><span class="sxs-lookup"><span data-stu-id="dba75-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="dba75-105">Kostnaður sem er ekki sýndur í greiðsluáætlun er þekktur sem *útgjaldakostnaður*.</span><span class="sxs-lookup"><span data-stu-id="dba75-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="dba75-106">Dæmi um slíkan kostnað eru m.a. fasteignaskattar, viðhaldskostnaður sameiginlegs svæðis og tryggingagjöld.</span><span class="sxs-lookup"><span data-stu-id="dba75-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
+<span data-ttu-id="6d413-104">Í þessu efnisatriði er útskýrt hvernig á að setja upp kostnaðargerðir í Eignarleigu.</span><span class="sxs-lookup"><span data-stu-id="6d413-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="6d413-105">Kostnaður sem er ekki sýndur í greiðsluáætlun er þekktur sem *útgjaldakostnaður*.</span><span class="sxs-lookup"><span data-stu-id="6d413-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="6d413-106">Dæmi um slíkan kostnað eru m.a. fasteignaskattar, viðhaldskostnaður sameiginlegs svæðis og tryggingagjöld.</span><span class="sxs-lookup"><span data-stu-id="6d413-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
 
-## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="dba75-107">Nota gerð stjórnunarkostnaðar</span><span class="sxs-lookup"><span data-stu-id="dba75-107">Add an administrative expense type</span></span>
+## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="6d413-107">Nota gerð stjórnunarkostnaðar</span><span class="sxs-lookup"><span data-stu-id="6d413-107">Add an administrative expense type</span></span>
 
-1. <span data-ttu-id="dba75-108">Opnið **Eignarleiga \> Uppsetning \> Kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="dba75-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
-2. <span data-ttu-id="dba75-109">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="dba75-109">Select **New**.</span></span>
-3. <span data-ttu-id="dba75-110">Í viðeigandi svæði skal færa inn nýja kostnaðargerð og lýsingu.</span><span class="sxs-lookup"><span data-stu-id="dba75-110">In the appropriate fields, enter the new expense type and a description.</span></span>
+1. <span data-ttu-id="6d413-108">Opnið **Eignarleiga \> Uppsetning \> Kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="6d413-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
+2. <span data-ttu-id="6d413-109">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="6d413-109">Select **New**.</span></span>
+3. <span data-ttu-id="6d413-110">Í viðeigandi svæði skal færa inn nýja kostnaðargerð og lýsingu.</span><span class="sxs-lookup"><span data-stu-id="6d413-110">In the appropriate fields, enter the new expense type and a description.</span></span>
 
-## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="dba75-111">Úthluta lyklum á stjórnunarkostnað</span><span class="sxs-lookup"><span data-stu-id="dba75-111">Assign accounts to administrative costs</span></span>
+## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="6d413-111">Úthluta lyklum á stjórnunarkostnað</span><span class="sxs-lookup"><span data-stu-id="6d413-111">Assign accounts to administrative costs</span></span>
 
-<span data-ttu-id="dba75-112">Næst ætti að tengja lykla við kostnaðargerðirnar.</span><span class="sxs-lookup"><span data-stu-id="dba75-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="dba75-113">Þessir lyklar verða debetfærðir þegar kostnaðaráætlunarfærslur eru bókaðar.</span><span class="sxs-lookup"><span data-stu-id="dba75-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="dba75-114">Mótlykill er tilgreindur á **Greiðsluáætlunarlínum rekstrarkostnaðar** fyrir hvern leigusamning fyrir sig.</span><span class="sxs-lookup"><span data-stu-id="dba75-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
+<span data-ttu-id="6d413-112">Næst ætti að tengja lykla við kostnaðargerðirnar.</span><span class="sxs-lookup"><span data-stu-id="6d413-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="6d413-113">Þessir lyklar verða debetfærðir þegar kostnaðaráætlunarfærslur eru bókaðar.</span><span class="sxs-lookup"><span data-stu-id="6d413-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="6d413-114">Mótlykill er tilgreindur á **Greiðsluáætlunarlínum rekstrarkostnaðar** fyrir hvern leigusamning fyrir sig.</span><span class="sxs-lookup"><span data-stu-id="6d413-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
 
-1. <span data-ttu-id="dba75-115">Opnið **Eignarleiga \> Uppsetning \> Færibreytur fyrir eignarleigu**.</span><span class="sxs-lookup"><span data-stu-id="dba75-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
-2. <span data-ttu-id="dba75-116">Á flipanum **Lyklar** á flýtiflipanum **Rekstrarkostnaður** í svæðinu **Kostnaðargerð** er kostnaðargerðin valin.</span><span class="sxs-lookup"><span data-stu-id="dba75-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
-3. <span data-ttu-id="dba75-117">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="dba75-117">Select **Add**.</span></span>
-4. <span data-ttu-id="dba75-118">Í reitnum **Bókargerð** skal velja gerð bókarinnar sem á að tengja við stjórnunarkostnaðinn.</span><span class="sxs-lookup"><span data-stu-id="dba75-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
+1. <span data-ttu-id="6d413-115">Opnið **Eignarleiga \> Uppsetning \> Færibreytur fyrir eignarleigu**.</span><span class="sxs-lookup"><span data-stu-id="6d413-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
+2. <span data-ttu-id="6d413-116">Á flipanum **Lyklar** á flýtiflipanum **Rekstrarkostnaður** í svæðinu **Kostnaðargerð** er kostnaðargerðin valin.</span><span class="sxs-lookup"><span data-stu-id="6d413-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
+3. <span data-ttu-id="6d413-117">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="6d413-117">Select **Add**.</span></span>
+4. <span data-ttu-id="6d413-118">Í reitnum **Bókargerð** skal velja gerð bókarinnar sem á að tengja við stjórnunarkostnaðinn.</span><span class="sxs-lookup"><span data-stu-id="6d413-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="dba75-119">Hægt er að tengja margar bókargerðir við sama kostnaðarlykil.</span><span class="sxs-lookup"><span data-stu-id="dba75-119">Multiple book types can be linked to the same expense account.</span></span>
+    > <span data-ttu-id="6d413-119">Hægt er að tengja margar bókargerðir við sama kostnaðarlykil.</span><span class="sxs-lookup"><span data-stu-id="6d413-119">Multiple book types can be linked to the same expense account.</span></span>
 
-5. <span data-ttu-id="dba75-120">Í svæðinu **Lykilkóði** skal tilgreina leigusamningana sem nota skal bókina fyrir:</span><span class="sxs-lookup"><span data-stu-id="dba75-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
+5. <span data-ttu-id="6d413-120">Í svæðinu **Lykilkóði** skal tilgreina leigusamningana sem nota skal bókina fyrir:</span><span class="sxs-lookup"><span data-stu-id="6d413-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
 
-    - <span data-ttu-id="dba75-121">**Allt** – Nota bók fyrir allar leigur.</span><span class="sxs-lookup"><span data-stu-id="dba75-121">**All** – Apply the book to all leases.</span></span>
-    - <span data-ttu-id="dba75-122">**Flokkur** -Notið bókina á tiltekinn flokk leigusamninga.</span><span class="sxs-lookup"><span data-stu-id="dba75-122">**Group** – Apply the book to a specific group of leases.</span></span>
-    - <span data-ttu-id="dba75-123">**Tafla** – Nota bókina fyrir tiltekna leigusamninga.</span><span class="sxs-lookup"><span data-stu-id="dba75-123">**Table** – Apply the book to specific leases.</span></span>
+    - <span data-ttu-id="6d413-121">**Allt** – Nota bók fyrir allar leigur.</span><span class="sxs-lookup"><span data-stu-id="6d413-121">**All** – Apply the book to all leases.</span></span>
+    - <span data-ttu-id="6d413-122">**Flokkur** -Notið bókina á tiltekinn flokk leigusamninga.</span><span class="sxs-lookup"><span data-stu-id="6d413-122">**Group** – Apply the book to a specific group of leases.</span></span>
+    - <span data-ttu-id="6d413-123">**Tafla** – Nota bókina fyrir tiltekna leigusamninga.</span><span class="sxs-lookup"><span data-stu-id="6d413-123">**Table** – Apply the book to specific leases.</span></span>
 
-6. <span data-ttu-id="dba75-124">Ef þú valdir **Flokk** eða **Tafla** í svæðinu **Lykilkóði** skaltu velja lykilnúmer eða flokksnúmer á svæðinu **Lykil-/flokksnúmer**.</span><span class="sxs-lookup"><span data-stu-id="dba75-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
-7. <span data-ttu-id="dba75-125">Í viðeigandi svæðum skal velja aðallykill fjármögnunarleigusamnings og aðallykil rekstrarleigusamnings.</span><span class="sxs-lookup"><span data-stu-id="dba75-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
+6. <span data-ttu-id="6d413-124">Ef þú valdir **Flokk** eða **Tafla** í svæðinu **Lykilkóði** skaltu velja lykilnúmer eða flokksnúmer á svæðinu **Lykil-/flokksnúmer**.</span><span class="sxs-lookup"><span data-stu-id="6d413-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
+7. <span data-ttu-id="6d413-125">Í viðeigandi svæðum skal velja aðallykill fjármögnunarleigusamnings og aðallykil rekstrarleigusamnings.</span><span class="sxs-lookup"><span data-stu-id="6d413-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
 
-<span data-ttu-id="dba75-126">Þegar þessum skrefum er lokið er hægt að bæta kostnaði við **Greiðsluáætlunarlínur rekstrarkostnaðar** á síðunni **Upplýsingar um leigusamning** fyrir valinn leigusamning.</span><span class="sxs-lookup"><span data-stu-id="dba75-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="dba75-127">Að öðrum kosti er hægt að bæta við kostnaði þegar ný leiga er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="dba75-127">Alternatively, you can add expenses when you create a new lease.</span></span>
+<span data-ttu-id="6d413-126">Þegar þessum skrefum er lokið er hægt að bæta kostnaði við **Greiðsluáætlunarlínur rekstrarkostnaðar** á síðunni **Upplýsingar um leigusamning** fyrir valinn leigusamning.</span><span class="sxs-lookup"><span data-stu-id="6d413-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="6d413-127">Að öðrum kosti er hægt að bæta við kostnaði þegar ný leiga er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="6d413-127">Alternatively, you can add expenses when you create a new lease.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
