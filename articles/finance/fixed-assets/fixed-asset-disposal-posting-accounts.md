@@ -17,28 +17,31 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67d9c386b5da90918226e8b1a224bf628c65702b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 92b653d50744884d56c19601cff74c420eb1b397
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240971"
 ---
-# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="91805-103">Bókunarlyklar eignaafskráningar</span><span class="sxs-lookup"><span data-stu-id="91805-103">Fixed asset disposal posting accounts</span></span>
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="62da0-103">Bókunarlyklar eignaafskráningar</span><span class="sxs-lookup"><span data-stu-id="62da0-103">Fixed asset disposal posting accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="91805-104">Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir.</span><span class="sxs-lookup"><span data-stu-id="91805-104">This topic explains how to set up general ledger posting accounts for disposing of assets.</span></span>
+<span data-ttu-id="62da0-104">Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir.</span><span class="sxs-lookup"><span data-stu-id="62da0-104">This topic explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-<span data-ttu-id="91805-105">Á síðunni Bókunarreglur eigna, veljið Afskráning - sala og afskráning - rýrnun í flýtiflipanum Fjárhagslykill, til að setja upp bókanir í fjárhagnum.</span><span class="sxs-lookup"><span data-stu-id="91805-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
+<span data-ttu-id="62da0-105">Á síðunni Bókunarreglur eigna, veljið Afskráning - sala og afskráning - rýrnun í flýtiflipanum Fjárhagslykill, til að setja upp bókanir í fjárhagnum.</span><span class="sxs-lookup"><span data-stu-id="62da0-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-<span data-ttu-id="91805-106">Fyrir báðar færslugerðirnar fjárhagslykil tekjufærður losunarvirði eignarinnar.</span><span class="sxs-lookup"><span data-stu-id="91805-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="91805-107">Skuldfærslan er bókuð á mótlykil, sem gæti t.d. bankareikning.</span><span class="sxs-lookup"><span data-stu-id="91805-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="91805-108">Ef eign er seld á viðskiptavin, er viðskiptavinalykillinn notaður frekar en mótlykillinn.</span><span class="sxs-lookup"><span data-stu-id="91805-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
+<span data-ttu-id="62da0-106">Fyrir báðar færslugerðirnar fjárhagslykil tekjufærður losunarvirði eignarinnar.</span><span class="sxs-lookup"><span data-stu-id="62da0-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="62da0-107">Skuldfærslan er bókuð á mótlykil, sem gæti t.d. bankareikning.</span><span class="sxs-lookup"><span data-stu-id="62da0-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="62da0-108">Ef eign er seld á viðskiptavin, er viðskiptavinalykillinn notaður frekar en mótlykillinn.</span><span class="sxs-lookup"><span data-stu-id="62da0-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-<span data-ttu-id="91805-109">Smelltu á Afskráning og smelltu síðan á Sala eða Rýrnun og settu síðan upp sundurliðaða lykla til að bakfæra bókað nettóvirði af eign.</span><span class="sxs-lookup"><span data-stu-id="91805-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="91805-110">Einnig er hægt að færa upplýsingar inn á svæðinu Bókunargildi og Sölugildi á síðunni Losunarfæribreytur.</span><span class="sxs-lookup"><span data-stu-id="91805-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
+<span data-ttu-id="62da0-109">Smelltu á Afskráning og smelltu síðan á Sala eða Rýrnun og settu síðan upp sundurliðaða lykla til að bakfæra bókað nettóvirði af eign.</span><span class="sxs-lookup"><span data-stu-id="62da0-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="62da0-110">Einnig er hægt að færa upplýsingar inn á svæðinu Bókunargildi og Sölugildi á síðunni Losunarfæribreytur.</span><span class="sxs-lookup"><span data-stu-id="62da0-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-<span data-ttu-id="91805-111">Losunarfærslan fyrir eign í lágvirðishópi minnkar bókað nettóvirði lágvirðishópsins einungis eftir losun upphæðar.</span><span class="sxs-lookup"><span data-stu-id="91805-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="91805-112">Hins vegar verður bókað nettóvirði eignar minnkað í núll þegar sala vöru er hærri en bókað nettógildi lágvirðishóps.</span><span class="sxs-lookup"><span data-stu-id="91805-112">However, when the sale of an asset exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
-
-
+<span data-ttu-id="62da0-111">Losunarfærslan fyrir eign í lágvirðishópi minnkar bókað nettóvirði lágvirðishópsins einungis eftir losun upphæðar.</span><span class="sxs-lookup"><span data-stu-id="62da0-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="62da0-112">Hins vegar verður bókað nettóvirði eignar minnkað í núll þegar sala vöru er hærri en bókað nettógildi lágvirðishóps.</span><span class="sxs-lookup"><span data-stu-id="62da0-112">However, when the sale of an asset exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
