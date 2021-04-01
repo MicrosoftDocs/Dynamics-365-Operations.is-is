@@ -1,6 +1,6 @@
 ---
 title: Stjórna SEO-lýsigögnum
-description: Þetta efnisatriði lýsir því hvernig hægt er að stjórna lýsigögnum um SEO (SEO) í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7cf9e76ffb30ee5c8bba318b2644e67c757bff0
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 00942befef9f9b6a878766bbbb5341426e31db2c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097416"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252607"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að stjórna lýsigögnum um SEO (SEO) í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 

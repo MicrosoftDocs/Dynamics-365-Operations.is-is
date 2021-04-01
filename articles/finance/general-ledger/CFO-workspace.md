@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985113"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256692"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Bæta fjárhagsvíddum við CFO vinnusvæðið
 
@@ -33,7 +33,7 @@ ms.locfileid: "4985113"
 1. Í Finance, á síðunni **Einingaverslun** skal uppfæra **LedgerActivityMeasure** og **BudgetActivityMeasure** mælingarnar.
 2. Í Microsoft Visual Studio skal opna Application Explorer og leita að **FjárhagurCFO**.
 3. Undir **Forði** skal opna **LedgerCFOWorkspacePBIX**.
-4. Þegar forðinn opnast í Microsoft Power BI skjáborð, skal velja **Sækja gögn**, velja **SQL þjónn gagnagrunnur**, og velja svo **Tengja**.
+4. Þegar forðinn opnast í Microsoft Power BI Desktop, skal velja **Sækja gögn**, velja **SQL þjónn gagnagrunnur**, og velja svo **Tengja**.
 5. Færa inn heiti þjóns og færa inn **AxDW** sem gagnagrunninn. Velja skal **DirectQuery** og svo **Í lagi**.
 6. Leita að og velja **LedgerActivityMeasure\_DimensionCombination** og velja svo **Hlaða**.
 

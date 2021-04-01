@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252559"
 ---
 # <a name="media-gallery-module"></a>Eining efnissafns
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Einingar efnissafns sýna eina eða fleiri myndir í yfirliti efnissafns. Einingar efnissafns styðja smámyndir, sem hægt er að raða annaðhvort lárétt (sem röð fyrir neðan myndina) eða lóðrétt (sem dálk við hliðina á myndinni). Einingar efnissafns bjóða einnig upp á möguleika sem leyfa aðdrátt á myndum (stækka þær) eða skoða þær á heilum skjá. Til að mynd sjáist í einingu efnissafns, verður mynd að vera til staðar í miðlasafni Commerce-vefssmiðsins. Sem stendur styðja einingar efnissafns eingöngu myndir.
 
