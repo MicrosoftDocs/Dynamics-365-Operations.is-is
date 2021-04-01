@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f3dd442f979c23a87ae4b7e69a37de65d5d9bd70
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2254453201817d906de9805e2cfd3c9e74c9497c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972631"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234486"
 ---
-# <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
+# <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og síðar, koma aðgerðir á innleið og útleið á sölustað (POS) í stað tiltektar- og móttökuaðgerðar.
+Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og nýrri er inn- og útskráningaraðgerðum á sölustað skipt út tiltektar-og móttökuaðgerð.
 
 > [!NOTE]
 > Í Commerce útgáfu 10.0.10 og nýrri, verður öllum nýjum eiginleikum í forriti sölustaðar sem tengjast því að taka á móti birgðum verslunar vegna innkaupapantana og flutningspantana bætt við sölustaðaraðgerðina **Aðgerð á innleið**. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
