@@ -1,6 +1,6 @@
 ---
 title: Virkja ráðleggingar um afurðir
-description: Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini.
 author: bebeale
 manager: AnnBe
 ms.date: 08/18/2020
@@ -18,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59c83409ede5e006ddf030d396934eeb6cd8df76
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fcb3b542d290e01a3cddc73ae163ed2ef420771b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238794"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
+Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Ráðleggingar fyrir skoðun
 

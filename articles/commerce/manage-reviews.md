@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0a70d0526fb2443605a6b11df3ee281d4dd12f1d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f8ab85605bce11934f71237ad1ef7cd24804319b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982567"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250805"
 ---
 # <a name="manage-ratings-and-reviews"></a>Stjórna einkunnum og umsögnum
 
@@ -36,7 +36,7 @@ Dynamics 365 Commerce notar Microsoft Azure Cognitive Services til að miðla sj
 
 - Breyta umsögnum með því að svara þeim eða fjarlægja þær.
 - Eyða umsögnum viðskiptavinarins að beiðni viðskiptavinarins.
-- Flyttu inn einkunnir og umsagnir fyrir allar vörur í Microsoft Power BI-sniðmáti, svo að hægt sé að greina þróun á einkunnum og umsögnum.
+- Flytja inn öll gögn um einkunnir og umsagnir gagna í Microsoft Power BI sniðmát svo hægt sé að greina þau.
 
 ## <a name="read-a-review"></a>Lesa umsögn 
 

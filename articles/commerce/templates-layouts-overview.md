@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir sniðmát og útlit
-description: Þetta efni fjallar um sniðmát og skipulag í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði nær yfir sniðmát og útlit í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 12/12/2019
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 319e60f34c7e94cc56386b0f86ac83360f7b0456
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962961"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232592"
 ---
 # <a name="templates-and-layouts-overview"></a>Yfirlit yfir sniðmát og útlit
 
 
 [!include [banner](includes/banner.md)]
 
-Sniðmát er grunnþáttur Microsoft Dynamics 365 Commerce síðulíkani. Ef markmið þitt er að hámarka skilvirkni og samræmi í vinnuferlum höfundar er mikilvægt að þú kynnir þér hvernig þú getur nýtt þér sniðmát fyrir vefsíðuna. Snemmbærar ákvarðanir um uppbyggingu sniðmáts eru mikilvægar og geta haft veruleg áhrif á kostnað og snerpu við daglegar, árstíðabundnar og vefsvæðis vörumerkisuppfærslur. Vel skipulögð sniðmát hafa líka aðra kosti. Til dæmis hjálpa þau til við að bæta stig á SEO (SEO) og lágmarka fjölda galla.
+Sniðmát eru grunneiningar Microsoft Dynamics 365 Commerce síðulíkans. Ef markmið þitt er að hámarka skilvirkni og samræmi í vinnuferlum höfundar er mikilvægt að þú kynnir þér hvernig þú getur nýtt þér sniðmát fyrir vefsíðuna. Snemmbærar ákvarðanir um uppbyggingu sniðmáts eru mikilvægar og geta haft veruleg áhrif á kostnað og snerpu við daglegar, árstíðabundnar og vefsvæðis vörumerkisuppfærslur. Vel skipulögð sniðmát hafa líka aðra kosti. Til dæmis hjálpa þau til við að bæta stig á SEO (SEO) og lágmarka fjölda galla.
 
 Góð leið til að byrja að vinna með sniðmát er að skilja virkan ávinning sniðmáta og skipulags, muninn þar á milli og stigveldi.
 

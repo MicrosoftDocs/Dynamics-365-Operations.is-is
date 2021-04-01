@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016932"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237377"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -80,21 +80,21 @@ Velja sniðmát fyrir tilkynningu í tölvupósti sem er sent til lánardrottna 
 - %Ástæða fyrir ógildingu tilboðs%
 - %Ástæða breytinga%
 - %Breytingar gerðar af%
-- %Fyrirtæki%
+- %Company%
 - %BUT mál heiti%
 - %Lokadagur Tími%
-- % Dagsetning%
+- %Date%
 
-% Ástæða skila kauptilboðs % og % Ástæða fyrir breytingum % tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann eða hún lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir % Breytingar gerðar af % og % Fyrirtækis % tákn eru sjálfkrafa tekin úr BUT. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
+% Ástæða skila kauptilboðs % og % Ástæða fyrir breytingum % tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann eða hún lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir %Breytingar gerðar af% og %Company% tákn eru sjálfkrafa tekin úr tilboðsbeiðni. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
 Ef á að hætta í BUT eftir að það hefur verið sent, er hægt að gera það frá RFQ-verkinu. Fyrir afturköllun á sniðmáti fyrir tölvupóst er þess krafist að senda tilkynningu afturköllunar til tengiliðs lánardrottins. Sniðmátið verður að vera valið á síðunni **Færibreytur innkaupa og aðfanga**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
 
 - %Ástæða afturköllunar%
 - %BUT mál%
 - %BUT afturkallað af%
-- %Fyrirtæki%
+- %Company%
 - %BUT mál heiti%
-- % Dagsetning%
+- %Date%
 
 %Ástæða afturköllunar kauptilboðs% tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn í **Afturköllun** leiðsagnarforritinu. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
