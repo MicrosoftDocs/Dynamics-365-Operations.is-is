@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 639d6fa74954b5f74560c7e51523ab2b4d2b7f62
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c4d1a4a1b14f7af1db1c53bd9ee1993cc9187609
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254794"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
 
@@ -40,7 +40,7 @@ Við „óbundna ræsingu“ er vefsíða gerð aðgengileg fyrir takmarkaðan m
 
 ## <a name="a-site-that-is-in-production"></a>Vefsvæði sem er í framleiðslu
 
-Þegar vefur er í framleiðslu ættirðu að ganga úr skugga um að allar vefsíðurnar séu réttar merktar. Microsoft Dynamics 365 Commerce notar upplýsingarnar sem eru færðar inn á síðu til að birta allar SEO upplýsingar á þeirri síðu. Eftirfarandi einingar veita þessa virkni: yfirlit yfir flokksíðu, yfirlit yfir listasíðu og yfirlit yfir vörusíðu.
+Þegar vefur er í framleiðslu ættirðu að ganga úr skugga um að allar vefsíðurnar séu réttar merktar. Microsoft Dynamics 365 Commerce notar upplýsingarnar sem eru færðar inn fyrir síðu til að mynda allar upplýsingar um leitarvélabestun á þeirri síðu. Eftirfarandi einingar veita þessa virkni: yfirlit yfir flokksíðu, yfirlit yfir listasíðu og yfirlit yfir vörusíðu.
 
 Til að hámarka flokkun leitarvéla notar flutningsramma báðar upplýsingar frá SEO eiginleikunum sem eru settir upp í Dynamics 365 Commerce og einingasértækar upplýsingar. Fyrir vefsvæði sem er í framleiðslu, ættir þú að ganga úr skugga um að robots.txt skráin geri kleift að gera skrá yfir allt vefsvæðið og að hún innihaldi tengla á birt skjal svæðiskorts. Þú ættir að kveikja á myndunarvirkni svæðiskorts á **Svæðisstillingar \> Vefkort virkjuð**.
 

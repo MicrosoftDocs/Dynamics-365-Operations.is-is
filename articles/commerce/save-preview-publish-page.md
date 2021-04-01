@@ -1,6 +1,6 @@
 ---
 title: Vista, forskoða og birta síðu
-description: Þetta efni lýsir því hvernig á að vista, forskoða og gefa út síðu í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að vista, forskoða og birta síðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5eccf5409c41710585e3d69c7270faa4621f7715
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 68fec8c2ddc05c71394045351cef880361f2e306
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254818"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Vista, forskoða og birta síðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að vista, forskoða og gefa út síðu í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að vista, forskoða og birta síðu í Microsoft Dynamics 365 Commerce.
 
 ## <a name="save-a-page"></a>Vista síðu
 
