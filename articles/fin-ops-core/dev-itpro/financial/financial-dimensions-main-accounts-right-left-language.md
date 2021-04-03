@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -16,25 +15,28 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 496869bd3e7a372a5ec791df66fb7a8c43ccad13
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5127648"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561001"
 ---
-# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="7a418-103">Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri</span><span class="sxs-lookup"><span data-stu-id="7a418-103">Financial dimensions and main accounts in right-to-left languages</span></span>
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="ea5ca-103">Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri</span><span class="sxs-lookup"><span data-stu-id="ea5ca-103">Financial dimensions and main accounts in right-to-left languages</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="7a418-104">Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir.</span><span class="sxs-lookup"><span data-stu-id="7a418-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
+<span data-ttu-id="ea5ca-104">Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
 
-<span data-ttu-id="7a418-105">Fjárhagsvíddir og aðallykla eru lykilíhluti í áætlunaráfanginn við innleiðingu.</span><span class="sxs-lookup"><span data-stu-id="7a418-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="7a418-106">Eftir að fjárhagsvíddir og aðallyklar eru stofnaðir í kerfinu, þær eru notaðar á **Skilgreina lykilskipulög**, **Ítarlegt regluskipulag**, og **fjárhagsvíddarskilgreining fyrir samþættingu forrita** síður.</span><span class="sxs-lookup"><span data-stu-id="7a418-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="7a418-107">Röðin sem er skilgreindur á þessum síðum er notaður í kerfinu fyrir innslátt gagna og notkun.</span><span class="sxs-lookup"><span data-stu-id="7a418-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="7a418-108">Í sumum stöðum í kerfinu birtast fjárhagsvíddir og aðallykla í sérstök svæði.</span><span class="sxs-lookup"><span data-stu-id="7a418-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="7a418-109">Á öðrum stöðum eins og færslubækur, birtast fjárhagsvíddir og aðallyklar sem einn strengur.</span><span class="sxs-lookup"><span data-stu-id="7a418-109">In other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
+<span data-ttu-id="ea5ca-105">Fjárhagsvíddir og aðallykla eru lykilíhluti í áætlunaráfanginn við innleiðingu.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="ea5ca-106">Eftir að fjárhagsvíddir og aðallyklar eru stofnaðir í kerfinu, þær eru notaðar á **Skilgreina lykilskipulög**, **Ítarlegt regluskipulag**, og **fjárhagsvíddarskilgreining fyrir samþættingu forrita** síður.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="ea5ca-107">Röðin sem er skilgreindur á þessum síðum er notaður í kerfinu fyrir innslátt gagna og notkun.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="ea5ca-108">Í sumum stöðum í kerfinu birtast fjárhagsvíddir og aðallykla í sérstök svæði.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="ea5ca-109">Á öðrum stöðum eins og færslubækur, birtast fjárhagsvíddir og aðallyklar sem einn strengur.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-109">In other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
 
-## <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="7a418-110">Bestu venjur við að setja upp aðallykla og fjárhagsvíddir í kerfi hægri til vinstri</span><span class="sxs-lookup"><span data-stu-id="7a418-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
+## <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="ea5ca-110">Bestu venjur við að setja upp aðallykla og fjárhagsvíddir í kerfi hægri til vinstri</span><span class="sxs-lookup"><span data-stu-id="ea5ca-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
 
-- <span data-ttu-id="7a418-111">Þegar skiltákn fyrir bókhaldslykil er valinn, veldu einn af tveimur kostum tvöföld skiltákn: tvöfalda bandstrik (`--`), tvöföldu strikamerki (`||`) eða tvöfaldur punktur (`..`) eða tvöföldu undirstrik (`\\`).</span><span class="sxs-lookup"><span data-stu-id="7a418-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (`--`), double bar (`||`), double period (`..`), or double underscore (`\\`).</span></span>
-- <span data-ttu-id="7a418-112">Þegar þú stofnar fjárhagsvíddir og gildi aðallykla, notaðu eingöngu númer og stafi tungumála frá hægri til vinstri.</span><span class="sxs-lookup"><span data-stu-id="7a418-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
-- <span data-ttu-id="7a418-113">Komast hjá því að nota valda skiltákn bókhaldslykils í gildum fjárhagsvíddar og aðallykilinn.</span><span class="sxs-lookup"><span data-stu-id="7a418-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
+- <span data-ttu-id="ea5ca-111">Þegar skiltákn fyrir bókhaldslykil er valinn, veldu einn af tveimur kostum tvöföld skiltákn: tvöfalda bandstrik (`--`), tvöföldu strikamerki (`||`) eða tvöfaldur punktur (`..`) eða tvöföldu undirstrik (`\\`).</span><span class="sxs-lookup"><span data-stu-id="ea5ca-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (`--`), double bar (`||`), double period (`..`), or double underscore (`\\`).</span></span>
+- <span data-ttu-id="ea5ca-112">Þegar þú stofnar fjárhagsvíddir og gildi aðallykla, notaðu eingöngu númer og stafi tungumála frá hægri til vinstri.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
+- <span data-ttu-id="ea5ca-113">Komast hjá því að nota valda skiltákn bókhaldslykils í gildum fjárhagsvíddar og aðallykilinn.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
 
-<span data-ttu-id="7a418-114">Með því að fara eftir Eftirfarandi bestu venjur, hjálpa til við tryggja samræmda framsetningu notandaskilgreint röðun í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="7a418-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
+<span data-ttu-id="ea5ca-114">Með því að fara eftir Eftirfarandi bestu venjur, hjálpa til við tryggja samræmda framsetningu notandaskilgreint röðun í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="ea5ca-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
