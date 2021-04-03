@@ -1,6 +1,6 @@
 ---
 title: Setja upp sérsniðnar síður fyrir innskráningu notenda
-description: Þetta efni lýsir því hvernig á að smíða sérsniðnar síður í Microsoft Dynamics 365 Commerce sem sjá um sérsniðnar innskráningar fyrir notendur Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C).
+description: Þetta efnisatriði lýsir því hvernig á að búa til sérsmíðaðar síður í Microsoft Dynamics 365 Commerce sem meðhöndla sérstilltar innskráningar fyrir notendur Azure Active Directory (Azure AD) sem eru B2C leigjendur.
 author: brianshook
 manager: annbe
 ms.date: 09/15/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a55da9683c43ac75109fd256e481b02a4d565914
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970079"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477949"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að smíða sérsniðnar síður í Microsoft Dynamics 365 Commerce sem sjá um sérsniðnar innskráningar fyrir notendur Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C).
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að búa til sérsmíðaðar síður í Microsoft Dynamics 365 Commerce sem meðhöndla sérstilltar innskráningar fyrir notendur Azure Active Directory (Azure AD) sem eru B2C leigjendur.
 
 Til að nota sérsniðnar síður sem eru gerðar í Dynamics 365 Commerce til að takast á við innskráningarflæði notenda verður þú að setja upp Azure AD stefnu sem vísað verður til í viðskiptaumhverfi. Þú getur stillt „Skráning og innskráning“, „Forstillingum breytt“ og „Aðgangsorð endurstillt“ Azure AD B2C stefnur með því að nota Azure AD B2C forrit. Síðan er hægt að vísa til Azure AD B2C leigjanda og stefnuheita við útvegunarferlið sem er gert fyrir viðskiptaumhverfið með því að nota Microsoft Dynamics Lifecycle Services (LCS).
 

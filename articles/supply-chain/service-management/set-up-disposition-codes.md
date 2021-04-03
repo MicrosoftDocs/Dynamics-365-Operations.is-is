@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977539"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470692"
 ---
 # <a name="set-up-disposition-codes"></a>Setja upp ráðstöfunarkóða 
 
@@ -33,15 +33,15 @@ ms.locfileid: "4977539"
 
 Einnig er hægt að setja upp ástæðukóta til að aðstoða við að útskýra hvers vegna vöru var skilað. Nánari upplýsingar um ástæðukóða, sjá [Setja upp ástæðakóða](set-up-return-reason-code.md).
 
-1.  Smelltu á **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Ráðstöfunarkóðar**.
+1.  Veljið **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Ráðstöfunarkóðar**.
 
-2.  Smellið á **Nýtt** eða styðjið á CTRL+N til þess að stofna nýjan ráðstöfunarkóða.
+2.  Veljið **Nýtt** til að stofna nýjan ráðstöfunarkóða.
 
 3.  Færið inn einkvæmt lýsandi nafn, veljið aðgerð og færið inn lýsingu fyrir ráðstöfunarkóða.
 
-4.  Ef þú vilt tengja gjöld viðskiptavina við þennan ráðstöfunarkóða skaltu smella á hnappinn **Gjöld** til að opna skjámyndina **Setja upp gjöld**.
+4.  Ef þú vilt tengja gjöld viðskiptavina við þennan ráðstöfunarkóða skal velja hnappinn **Gjöld** til að opna skjámyndina **Setja upp gjöld**.
 
-5.  Ef þú vilt skilgreina einhverja ytri kóða sem til að passa við eigin ráðstöfunarkóða fyrirtækisins skaltu smella á hnappinn **Ytri kóðar** til að opna skjámyndina **Ytri kóðar**.
+5.  Ef þú vilt skilgreina einhverja ytri kóða sem til að passa við eigin ráðstöfunarkóða fyrirtækisins skal velja hnappinn **Ytri kóðar** til að opna skjámyndina **Ytri kóðar**.
 
 ## <a name="see-also"></a>Sjá einnig
 

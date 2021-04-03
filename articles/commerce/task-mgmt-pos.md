@@ -1,6 +1,6 @@
 ---
 title: Verkstjórnun á sölustað
-description: Þetta efni lýsir verkefnastjórnun í Microsoft Dynamics 365 Commerce sölustað (POS) forritinu.
+description: Þetta efnisatriði lýsir verkstjórnun í Microsoft Dynamics 365 Commerce sölustaðarforritinu.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006186"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478363"
 ---
 # <a name="task-management-in-pos"></a>Verkstjórnun á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir verkefnastjórnun í Microsoft Dynamics 365 Commerce sölustað (POS) forritinu.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir verkstjórnun í Microsoft Dynamics 365 Commerce sölustaðarforritinu.
 
 Dynamics 365 Commerce POS forritið er með verkstjórnunareiginleika sem láta verslunarstjóra og starfsmenn stjórna verkefnum og uppfæra stöðu verkefna. Verslunarmenn geta nálgast verk annaðhvort með því að velja reitinn **Verk** á heimasíðu POS eða með því að velja tilkynningar um verkefni. Sjálfgefið er að starfsmenn verslunarinnar séu fluttir á flipann **Mín verk** þar sem þeir geta skoðað verkefnin sem þeim er úthlutað. Hins vegar geta þeir auðveldlega skipt yfir á flipana **Verk í vanskilum**, **Opin verk** og **Verkefnalistar**.
 

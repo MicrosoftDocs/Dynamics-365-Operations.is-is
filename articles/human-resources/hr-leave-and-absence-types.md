@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115077"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463335"
 ---
 # <a name="configure-leave-and-absence-types"></a>Grunnstilla gerðir leyfis og fjarvista
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fjarvista sem starfsmaður getur gefið upp. Þú getur sérsniðið leyfi eftir tegundum fyrirtækisins. Dæmi um orlofsgerðir eru:
 
@@ -72,8 +74,7 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
    
  3. Stillið **Yfirfærð leyfisgerð** fyrir leyfisgerð. Þegar þessi valkostur er valinn verða allar yfirfærðar stöður fluttar í tilgreinda gerð leyfis. Yfirfærsluleyfisgerðin þarf einnig að vera með í áætlun um leyfi og fjarveru. 
  
- 4. Skilgreinið **Gildistímareglur** fyrir leyfisgerðina. Þegar þessi valkostur er skilgreindur er hægt að velja einingu daga eða mánaða og stilla tímalengd gildistímans. Einnig er hægt að stilla gildisdagsetningu gildistímareglunnar. Allar leyfisstöður sem eru til staðar þegar gildistíminn rennur út verða dregnar frá leyfisgerðinni og teknar inn í leyfsstöðuna. 
- 
+ 4. Skilgreinið **Gildistímareglur** fyrir leyfisgerðina. Þegar þessi valkostur er skilgreindur er hægt að velja einingu daga eða mánaða og stilla tímalengd gildistímans. Einnig er hægt að stilla gildisdagsetningu gildistímareglunnar. Gildisdagsetningin er notuð til að ákvarða hvenær á að hefja keyrslu runuvinnslunnar sem vinnur úr gildistíma leyfis eða dagsetninguna þegar reglan tekur gildi. Sjálfur gildistíminn gerist alltaf á upphafsdegi leyfisáætlunarinnar þegar runuvinnslan er stillt á vinnslu. Til dæmis getur upphafsdagur áætlunarinnar verið 1/1/2020, en reglan var ekki búin til fyrr en 1/6/2020. Með því að stilla gildisdagsetninguna á 1/6/2020 verður reglan afgreidd í upphafi næsta árs, þ.e. 1/1/2021. Allar leyfisstöður sem eru til staðar þegar gildistíminn rennur út verða dregnar frá leyfisgerðinni og teknar inn í leyfsstöðuna. 
  
 ## <a name="see-also"></a>Sjá einnig
 

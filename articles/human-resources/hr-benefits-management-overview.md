@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ba6623102431eb45bf5d0c96b6583615663d1081
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113007"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464327"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Fríðindastjórnun í Microsoft Dynamics 365 Human Resources veitir þér sveigjanlega lausn sem styður fjölbreytt úrval af kostum. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001949"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476676"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -44,20 +44,24 @@ Umsjón hönnunarbreytinga sem hjálpar til við að skipuleggja og vinna með a
 
 Fyrra myndskeið ([Eiginleikar breytingastjórnunar í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er tekin með í [Finance and Operations spilunarlista](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er í boði á YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Kveikið á umsjón hönnunarbreytinga fyrir kerfið
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Kveikja á eiginleikum fyrir umsjón hönnunarbreytinga og útgáfuvíddir fyrir kerfið
 
-Kveikt er á umsjón hönnunarbreytinga með því að fylgja þessum skrefum.
+Áður en hægt er að nota umsjón hönnunarbreytinga þarf að virkja bæði eiginleikann *Umsjón hönnunarbreytinga* og skilgreiningarlykil hans. Ef einnig á að rekja útgáfuvídd afurðanna í færslum (valfrjálst) þarf einnig að virkja eiginleikann *Vídd afurðarútgáfu* og skilgreiningarlykil hans.
+
+Fyrst skal kveikja á eiginleikunum með því að fylgja þessum skrefum.
 
 1. Opnið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Athuga með uppfærslur.
 1. Kveikið á eiginleikanum sem kallast **Umsjón hönnunarbreytinga**.
+1. Ef nota á þetta skal einnig kveikja á eiginleikanum sem kallast **Útgáfa afurðarvíddar**.
 
-Næst skal kveikja á skilgreiningarlyklinum **Umsjón hönnunarbreytinga** með því að fylgja þessum skrefum.
+Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skrefum.
 
 1. Setjið kerfið í viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
-1. Stækkaðu reitinn **Viðskipti** og veldu gátreitinn **Umsjón hönnunarbreytinga**.
+1. Víkkið út hnútinn **Viðskipti**
+1. Stækkaðu gátreitinn **Umsjón hönnunarbreytinga**.
+1. Ef á að nota hann skal einnig velja gátreitinn **Afurðarvídd - Útgáfur**.
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

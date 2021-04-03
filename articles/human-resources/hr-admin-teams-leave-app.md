@@ -3,7 +3,7 @@ title: Forritið „Human Resources“ í Teams
 description: Þetta efnisatriði kynnir Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112969"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487874"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams gerir starfsmönnum kleift að biðja um frí og skoða upplýsinga um frítíma á fljótlegan hátt í Microsoft Teams. Starsmenn geta haft samband við þjarka til að óska eftir upplýsingum. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
 
-![Human Resources Teams þjarkaforrit fyrir leyfi](./media/hr-admin-teams-leave-app-bot.png)
+![Human Resources Teams þjarkaforrit fyrir leyfi](./media/hr-teams-leave-app-bot.png)
 
 ![Fríflipi fyrir fríforrit Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams gerir starfs
 
 ## <a name="install-and-setup"></a>Setja upp
 
-Hægt er að finna forritið Human Resources í Teams versluninni. Frekari upplýsingar um uppsetningu á Teams-forritinu má finna í [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md).
+Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni. Frekari upplýsingar um uppsetningu á Teams-forritinu má finna í [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md).
 
 Frekari upplýsingar um stjórnun forritsheimilda í Teams er að finna í [Stjórna reglum forritaheimilda í Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Ef notendur eiga að skoða Leyfis- og fjarvistadagatal í forritinu þarf að virkja **Leyfis- og fjarvistadagatal í Teams** í eiginleikastjórnun. Frekari upplýsingar um virkjun eiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Kveikja á tilkynningum fyrir forritið „Human Resources“ í Teams
 
-Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu verður að virkja tilkynningar í Human Resources.
+Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu verður að virkja tilkynningar í Dynamics 365 Human Resources.
 
 >[!NOTE]
->Aðeins notendur sem eru skráðir inn í Teams og nota Human Resources Teams-forritið fá tilkynningar.
+>Aðeins notendur sem eru skráðir inn í Teams og nota Dynamics 365 Human Resources Teams-forritið fá tilkynningar.
 
 1. Veldu í Human Resources **Kerfisstjórnun**.
 
@@ -66,7 +68,7 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Kveikja eða slökkva á hóptilkynningum fyrir einstaka notendur
 
-Þegar búið er að virkja tilkynningar fyrir Human Resources Teams forritið er hægt að kveikja eða slökkva á tilkynningum fyrir einstaka notendur.
+Þegar búið er að virkja tilkynningar fyrir Dynamics 365 Human Resources Teams forritið er hægt að kveikja eða slökkva á tilkynningum fyrir einstaka notendur.
 
 1. Veldu í Human Resources **Kerfisstjórnun**.
 
@@ -82,9 +84,28 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 6. Veljið **Vista**.
 
-## <a name="known-issues"></a>Þekkt vandamál
+## <a name="supported-languages"></a>Studd tungumál
 
-| Úthreyfing | Staða |
+ Forritið Dynamics 365 Human Resources í Teams styður eftirfarandi tungumál:
+
+| Landstaðalskenni | Tungumál |
+| --- | --- |
+| de-DE | Þýska (Þýskaland) |
+| es-ES | Spænska (Spánn) |
+| es-MX | Spænska (Mexíkó) |
+| fr-CA | franska (Kanada) |
+| fr-FR | Franska (Frakkland) |
+| it-IT | Ítalska (Ítalía) |
+| nl-NL | Hollenska (Holland) |
+| pt-BR | Portúgalska (Brasilía) |
+| tr-TR | Tyrkneska (Tyrkland) |
+| zh-CN | kínverska (einfölduð) |
+
+## <a name="notes"></a>Athugasemdir
+
+Eftirfarandi vinnuliðir eru áætlaðir í síðari útgáfum:
+
+| Vinnuliður | Staða |
 | --- | --- |
 | Staðan er röng þegar sendur er frítími fyrir dagsetningu í framtíðinni. | Spár eru ekki enn til staðar. Staðan birtist fyrir núverandi dagsetningu. |
 | Ekki er hægt að hætta við beiðni með stöðuna **Í yfirferð**. | Þessi eiginleiki er ekki studdur eins og er og honum verður bætt við í síðari tíma útgáfum. |
@@ -96,11 +117,11 @@ Ef notandi á í vandræðum með að skrá sig inn í eða nota forritið Human
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ekki er hægta að skrá inn í forritið „Human Resources“ í Teams
 
-Ef notandi hefur samband við þig vegna þess að hann vill skrá sig inn í forritið, skaltu sannprófa að þessi notandi sé með tengda starfsmannafærslu í Human Resources.
+Ef notandi hefur samband við þig vegna þess að hann vill skrá sig inn í forritið, skaltu sannprófa að hann sé með tengda starfsmannafærslu í Human Resources.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
-Ef notandi fær villu þegar reynt er að samþykkja beiðni um leyfi í Teams-forritinu skal framkvæma eftirfarandi villuleitarskref:
+Ef notandi fær villu þegar reynt er að samþykkja beiðni um leyfi í Teams-forritinu skal prófa eftirfarandi villuleitarskref:
 
 1. Gangið úr skugga um að Teams-reikningurinn sé sá sami og hann notar til að fá aðgang að Human Resources.
 
