@@ -16,32 +16,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be38076be7f57ca9072221d1c8b8a524e81ab62b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 439a1747be66e299593ebda7c1775232af8f9d31
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112985"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464887"
 ---
-# <a name="enter-worker-information"></a><span data-ttu-id="ea7c6-103">Færa inn upplýsingar um starfsmann</span><span class="sxs-lookup"><span data-stu-id="ea7c6-103">Enter worker information</span></span>
+# <a name="enter-worker-information"></a><span data-ttu-id="9fa78-103">Færa inn upplýsingar um starfsmann</span><span class="sxs-lookup"><span data-stu-id="9fa78-103">Enter worker information</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="ea7c6-104">Eftir að ráðningaraðila hefur stofnuð fjöldaráðningaverk og stöður, næsta skref er að færa inn upplýsingar starfsmanna fyrir fólk sem er verið að ráða.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="ea7c6-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ea7c6-106">Sýnigögnin inniheldur opna fjöldaráðningarverk.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="ea7c6-107">Til að hefja þetta ferli, farið í Mannauður > Ráðning > Fjöldaráðningarverk.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
+<span data-ttu-id="9fa78-104">Eftir að ráðningaraðila hefur stofnuð fjöldaráðningaverk og stöður, næsta skref er að færa inn upplýsingar starfsmanna fyrir fólk sem er verið að ráða.</span><span class="sxs-lookup"><span data-stu-id="9fa78-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="9fa78-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="9fa78-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9fa78-106">Sýnigögnin inniheldur opna fjöldaráðningarverk.</span><span class="sxs-lookup"><span data-stu-id="9fa78-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="9fa78-107">Til að hefja þetta ferli, farið í Mannauður > Ráðning > Fjöldaráðningarverk.</span><span class="sxs-lookup"><span data-stu-id="9fa78-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 
-1. <span data-ttu-id="ea7c6-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-108">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="ea7c6-109">Smellt er á Upplýsingar um stöðu.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-109">Click Position details.</span></span>
-    * <span data-ttu-id="ea7c6-110">Breyta upphafsdagsetningu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-110">Edit the start date for the worker.</span></span>  
-    * <span data-ttu-id="ea7c6-111">Breyta lokadagsetningu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-111">Edit the end date for the worker.</span></span>  
-    * <span data-ttu-id="ea7c6-112">Breyta gerð starfsmanns fyrir starfsmanninn, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-112">Change the worker type for the worker, if needed.</span></span>  
-3. <span data-ttu-id="ea7c6-113">Í reitinn Eiginnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-113">In the First name field, type a value.</span></span>
-4. <span data-ttu-id="ea7c6-114">Í reitinn Millinafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-114">In the Middle name field, type a value.</span></span>
-5. <span data-ttu-id="ea7c6-115">Í reitinn eftirnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-115">In the Last name field, type a value.</span></span>
-    * <span data-ttu-id="ea7c6-116">Breyta vinnslu fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-116">Change the job for the worker, if needed.</span></span>  
-    * <span data-ttu-id="ea7c6-117">Breyta deildinni fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-117">Change the department for the worker, if needed.</span></span>  
-    * <span data-ttu-id="ea7c6-118">Breyta stöðu ígildis fulls starfs fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
-6. <span data-ttu-id="ea7c6-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-119">Click OK.</span></span>
-7. <span data-ttu-id="ea7c6-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-120">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="ea7c6-121">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-121">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="ea7c6-122">Velja næsta stöðu verks og halda áfram að færa inn upplýsingar fyrir hvern einstakling sem verið er að ráða.</span><span class="sxs-lookup"><span data-stu-id="ea7c6-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
+1. <span data-ttu-id="9fa78-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9fa78-108">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="9fa78-109">Smellt er á Upplýsingar um stöðu.</span><span class="sxs-lookup"><span data-stu-id="9fa78-109">Click Position details.</span></span>
+    * <span data-ttu-id="9fa78-110">Breyta upphafsdagsetningu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="9fa78-110">Edit the start date for the worker.</span></span>  
+    * <span data-ttu-id="9fa78-111">Breyta lokadagsetningu fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="9fa78-111">Edit the end date for the worker.</span></span>  
+    * <span data-ttu-id="9fa78-112">Breyta gerð starfsmanns fyrir starfsmanninn, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="9fa78-112">Change the worker type for the worker, if needed.</span></span>  
+3. <span data-ttu-id="9fa78-113">Í reitinn Eiginnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="9fa78-113">In the First name field, type a value.</span></span>
+4. <span data-ttu-id="9fa78-114">Í reitinn Millinafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="9fa78-114">In the Middle name field, type a value.</span></span>
+5. <span data-ttu-id="9fa78-115">Í reitinn eftirnafn skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="9fa78-115">In the Last name field, type a value.</span></span>
+    * <span data-ttu-id="9fa78-116">Breyta vinnslu fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="9fa78-116">Change the job for the worker, if needed.</span></span>  
+    * <span data-ttu-id="9fa78-117">Breyta deildinni fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="9fa78-117">Change the department for the worker, if needed.</span></span>  
+    * <span data-ttu-id="9fa78-118">Breyta stöðu ígildis fulls starfs fyrir starfsmann, ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="9fa78-118">Change the full-time equivalent status for the worker, if needed.</span></span>  
+6. <span data-ttu-id="9fa78-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="9fa78-119">Click OK.</span></span>
+7. <span data-ttu-id="9fa78-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="9fa78-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="9fa78-121">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="9fa78-121">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="9fa78-122">Velja næsta stöðu verks og halda áfram að færa inn upplýsingar fyrir hvern einstakling sem verið er að ráða.</span><span class="sxs-lookup"><span data-stu-id="9fa78-122">Select the next project position and continue entering the worker information for each person that you're hiring.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
