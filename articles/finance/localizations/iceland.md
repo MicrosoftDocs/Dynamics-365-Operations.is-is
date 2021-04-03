@@ -15,20 +15,23 @@ ms.search.region: Iceland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b56b8912e584493bc82e90ba6bedf8cc0fa6d0f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd5a47fd8a137193be49e029de468dda017bd2c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247964"
 ---
-# <a name="iceland-overview"></a><span data-ttu-id="4d2c6-103">Yfirlit yfir Ísland</span><span class="sxs-lookup"><span data-stu-id="4d2c6-103">Iceland overview</span></span>
+# <a name="iceland-overview"></a><span data-ttu-id="be55b-103">Yfirlit yfir Ísland</span><span class="sxs-lookup"><span data-stu-id="be55b-103">Iceland overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4d2c6-104">Í þessu efnisatriði eru tenglar á skjöl fyrir Ísland.</span><span class="sxs-lookup"><span data-stu-id="4d2c6-104">This topic provides links to documentation resources for Iceland.</span></span> 
+<span data-ttu-id="be55b-104">Í þessu efnisatriði eru tenglar á skjöl fyrir Ísland.</span><span class="sxs-lookup"><span data-stu-id="be55b-104">This topic provides links to documentation resources for Iceland.</span></span> 
 
-- [<span data-ttu-id="4d2c6-105">Stofna lánardrottnalykil og festa verktakamiða</span><span class="sxs-lookup"><span data-stu-id="4d2c6-105">Create a vendor account and attach the invoice declaration category</span></span>](tasks/create-vendor-account-attach-invoice-declaration-category.md)
-- [<span data-ttu-id="4d2c6-106">Setja upp verktakamiða fyrir lánardrottna</span><span class="sxs-lookup"><span data-stu-id="4d2c6-106">Set up an invoice declaration for vendors</span></span>](tasks/set-up-invoice-declaration-vendors.md)
-- [<span data-ttu-id="4d2c6-107">Setja upp skyldubundnar greiðslutilvísanir</span><span class="sxs-lookup"><span data-stu-id="4d2c6-107">Set up mandatory payment references</span></span>](tasks/set-up-mandatory-payment-references.md)
-- [<span data-ttu-id="4d2c6-108">Uppfæra verktakamiða lánardrottna og búa til skýrslu</span><span class="sxs-lookup"><span data-stu-id="4d2c6-108">Update vendor invoice declarations and generate the report</span></span>](tasks/update-vendor-invoice-declarations-report.md)
+- [<span data-ttu-id="be55b-105">Stofna lánardrottnalykil og festa verktakamiða</span><span class="sxs-lookup"><span data-stu-id="be55b-105">Create a vendor account and attach the invoice declaration category</span></span>](tasks/create-vendor-account-attach-invoice-declaration-category.md)
+- [<span data-ttu-id="be55b-106">Setja upp verktakamiða fyrir lánardrottna</span><span class="sxs-lookup"><span data-stu-id="be55b-106">Set up an invoice declaration for vendors</span></span>](tasks/set-up-invoice-declaration-vendors.md)
+- [<span data-ttu-id="be55b-107">Setja upp skyldubundnar greiðslutilvísanir</span><span class="sxs-lookup"><span data-stu-id="be55b-107">Set up mandatory payment references</span></span>](tasks/set-up-mandatory-payment-references.md)
+- [<span data-ttu-id="be55b-108">Uppfæra verktakamiða lánardrottna og búa til skýrslu</span><span class="sxs-lookup"><span data-stu-id="be55b-108">Update vendor invoice declarations and generate the report</span></span>](tasks/update-vendor-invoice-declarations-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
