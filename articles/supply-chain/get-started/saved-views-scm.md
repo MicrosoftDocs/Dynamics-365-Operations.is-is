@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123469"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500695"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management inniheldur nokkur vistuð yfirlit sem hægt er að kveikja á og nota eftir þörfum. Eitthvað af þessum stöðluðu vistuðum yfirlitum eru fínstillt og nefnd fyrir tiltekið hlutverk eða verkefni (til dæmis, „Gæðastjórnun“ eða „Móttöku“). Önnur eru fínstillt þannig að þau innihalda aðeins reiti og stillingar sem talnagögn Microsoft gefa til kynna að er oftast notað af viðskiptavinum. Þessi vistuðu yfirlit eru yfirleitt nefnd *einfölduð* yfirlit. Þetta efnisatriði lýsir stöðluðum vistuðum yfirlitum sem eru tiltæk og útskýrir hvernig á að gera þau virk og sérsníða þau.
 

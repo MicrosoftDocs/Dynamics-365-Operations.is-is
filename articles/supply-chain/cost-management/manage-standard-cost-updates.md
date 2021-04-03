@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024671"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500599"
 ---
 # <a name="manage-standard-cost-updates"></a>Stjórnun uppfærslu staðalkostnaðar
 
@@ -45,6 +45,8 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota einnar útgáfu og tveggja-�
 Þetta dæmi notaði eina aukaútgáfu kostnaðarútgáfu við stjórnun uppfærslna í gegnum árið 2020. Fleiri en eina aukaútgáfu kostnaðarútgáfu er hægt að nota, eins og aðskilda útgáfu fyrir hverja uppfærslurunu. Þegar fleiri en ein viðbótar kostnaðarútreikningur er notað, verður varaútgáfan að vera sýnd sem virka kostnaðinn, af því virkan kostnað eru dreifast yfir margar kostnaðarútgáfur.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Fjárhagsvíddir fyrir endurmat staðalkostnaðar
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ef nýtt staðlað verð er virkjað verður birgðavirði yfirleitt endurmetið með endurmatsfærslum staðalkostnaðar. Yfirleitt eru fjárhagsvíddir vörunnar þá bókaðar í færslunum. Ef hins vegar vilji er til þess að stjórna því hvort og hvernig fjárhagsvíddir eru bókaðar skal nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum sem heitir *Valmöguleikar á að gera fjárhagsvíddir sjálfgefnar fyrir endurmat á staðalkostnaði birgða*. Þegar þessi eiginleiki hefur verið virkjaður skal opona **Kostnaðarstjórnun > Skipulag á reglum birgðabókhalds > Færibreytur** og stilla nýja fellilistann **Uppruni fjárhagsvíddar** á eitt af eftirfarandi gildum:
 
