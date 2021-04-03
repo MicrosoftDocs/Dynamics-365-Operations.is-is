@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104396"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592623"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Skilgreina viðbót rafrænnar reikningsfærslu í Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í for�
 | Belgía        | Belgískur rafrænn reikningur (BE)      | Sölureikningar og verkreikningar |
 | Brasilía         | Brasilískt NF-e (BR)                  | Fjárhagsskjalalíkan 55, leiðréttingarbréf, afturkallanir og fleygingar |
 | Brasilía         | Brasilískt NFS-e ABRASF Curitiba (BR) | Fjárhagsskjöl þjónustu |
-| Brasilía         | Brasilískt NFS-e São Paulo (BR)       | Fjárhagsskjöl þjónustu |
 | Danmörk        | Danskur rafrænn reikningur (DK)       | Sölureikningar og verkreikningar |
 | Egyptaland          | Egypskur rafrænn reikningur (EG) | Sölureikningar og verkreikningar |
 | Eistland        | Eistneskur rafrænn reikningur (EE)     | Sölureikningar og verkreikningar |
@@ -119,10 +118,6 @@ Eftirfarandi listar sýna skilgreiningar rafræns skýrslugerðarsniðs sem eru 
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Inquire Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brasilískt (BR) NFS-e: NFS-e São Paulo-borg
-
-- NFS-e Sao Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Danmörk (DK) rafrænn reikningur: Sölu- og verkreikningar fyrir Danmörku
 

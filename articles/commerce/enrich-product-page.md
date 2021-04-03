@@ -1,6 +1,6 @@
 ---
 title: Bæta vörusíðu
-description: Þetta efni lýsir því hvernig á að bæta afurðasíðu í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að auðga vörusíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fcb8eda188a6796282a7a800b87a68dfef9d7d62
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 1d7899ac79805abeb55323bd21f83b3af38e09b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238679"
 ---
 # <a name="enrich-a-product-page"></a>Bæta vörusíðu
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta afurðasíðu í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir hvernig á að auðga vörusíðu í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
