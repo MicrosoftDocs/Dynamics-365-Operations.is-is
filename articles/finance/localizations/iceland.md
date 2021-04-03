@@ -15,12 +15,12 @@ ms.search.region: Iceland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b56b8912e584493bc82e90ba6bedf8cc0fa6d0f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd5a47fd8a137193be49e029de468dda017bd2c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247964"
 ---
 # <a name="iceland-overview"></a>Yfirlit yfir Ísland
 

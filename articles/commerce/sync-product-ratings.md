@@ -1,6 +1,6 @@
 ---
 title: Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
-description: Þetta efni lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/06/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7318d53535a93352425f811ec90572e65aeb696
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ab6de4bfa619df74bafc5511affddd516bdb34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260310"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 

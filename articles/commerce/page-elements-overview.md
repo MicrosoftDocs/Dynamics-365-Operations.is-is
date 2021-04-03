@@ -1,6 +1,6 @@
 ---
 title: Orðalisti síðulíkans
-description: Þetta efni lýsir hinum ýmsu þáttum sem eru notaðir á síðum Microsoft Dynamics 365 Commerce vefsvæðis.
+description: Þetta efnisatriði lýsir ýmsum einingum sem notaðar eru á síðum Microsoft Dynamics 365 Commerce svæðis.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f676503691049938fb8b6b7bfcac159e2f61bc6f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2225bdca654e164d97feec7848f077f54054b37f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972683"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257100"
 ---
 # <a name="page-model-glossary"></a>Orðalisti síðulíkans
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir hinum ýmsu þáttum sem eru notaðir á síðum Microsoft Dynamics 365 Commerce vefsvæðis.
+Þetta efnisatriði lýsir ýmsum einingum sem notaðar eru á síðum Microsoft Dynamics 365 Commerce svæðis.
 
 ## <a name="page-element-definitions"></a>Skilgreiningar á síðueiningum
 

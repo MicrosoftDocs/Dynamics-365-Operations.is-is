@@ -1,6 +1,6 @@
 ---
 title: Velja síðuútlit
-description: Þetta efni útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0f5037c40afdbb8af1d01af8de965ddb3b17a3a
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 22c5d0cba477ea7f254c3dfd74810cc248d39afe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097077"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254746"
 ---
 # <a name="select-page-layouts"></a>Velja síðuútlit
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
 
 ## <a name="create-layouts-for-an-existing-page"></a>Búðu til útlit fyrir fyrirliggjandi síðu
 
