@@ -3,7 +3,7 @@ title: Yfirlit yfir Evrópu
 description: Í þessu efnisatriði eru tenglar á skjöl Microsoft Dynamics 365 Finance fyrir Evrópu.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099900"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557425"
 ---
 # <a name="europe-overview"></a>Yfirlit yfir Evrópu
 
@@ -40,6 +40,7 @@ ms.locfileid: "5099900"
 - [Skýrslugerð ESB-sölulista](emea-eu-sales-list.md)
 - [Gengisleiðrétting](emea-exchange-rate-adjustments.md)
 - [Skrársnið fyrir greiðsluhátt](emea-select-file-formats-for-the-method-of-payments.md)
+- [Fjárhagsleiðbeiningar (altækar) um áhrif af Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Samþætting fjárhagsþjónustu (ESR)](emea-fiscal-service-integration.md)
 - [Afskráning eigna fyrir Eistland og Litháen](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Mynda flutningsskjal fyrir innri birgðaflutning](tasks/transfer-document-internal-inventory-transfer.md)

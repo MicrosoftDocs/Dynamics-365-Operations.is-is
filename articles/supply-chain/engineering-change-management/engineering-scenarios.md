@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987580"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487922"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Kynning á eiginleikanum umsjón hönnunarbreytinga
 
@@ -397,7 +397,6 @@ Hönnuðurinn fer nú yfir beiðni viðskiptavinarins og stofnar breytingapöntu
 
 1. Á aðgerðasvæðinu, í flipanum **Breytingapöntun**, í flokknum **Breytingastaða**, skal velja **Samþykkja**.
 1. Veljið **Vinna úr** til að uppfæra upplýsingar um afurðina.
-1. Veljið **Ljúka** til að merkja breytingapöntunina sem lokið.
 
 ## <a name="release-the-changed-product"></a>Gefa út breytta afurð
 
@@ -411,5 +410,8 @@ Nú er hægt að gefa út afurðina aftur í fyrirtækinu *USMF* og senda hana t
 1. Veljið **Í lagi** til að loka svarglugganum **Útgáfur** og fara aftur í breytingapöntunina.
 1. Á aðgerðasvæðinu, í flipanum **Breytingapöntun**, í flokknum **Útgáfur afurða**, skal velja **Vinna úr** til að gefa út tilheyrandi afurðir í völdum fyrirtækjum. Að öðrum kosti skal velja **Gefa út skipulag afurðar** til að hefja útgáfuferlið.
 
+## <a name="complete-the-change-order"></a>Ljúka breytingapöntun
+
+Til að merkja breytingapöntun sem lokið, sem gefur til kynna að engar frekari aðgerðir séu eftir, skal velja **Ljúka** á aðgerðasvæðinu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

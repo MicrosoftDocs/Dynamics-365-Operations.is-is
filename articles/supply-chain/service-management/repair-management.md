@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001349"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470642"
 ---
 # <a name="repair-management"></a>Viðgerðarstjórnun       
 
@@ -37,15 +37,11 @@ Fyrir viðgerðarstjórnun geturðu flokkað vandamál kerfisbundið. Þetta er 
 
 Notaðu eftirfarandi skjámyndir uppsetningar til að slá inn upplýsingar sem nota skal til að tilgreina einkenni, greiningu og úrlausn viðgerðar.
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Skilyrði**.
-
-2.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Einkennasvæði**.
-
-3.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Greiningarsvæði**.
-
-4.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Úrlausnir**.
-
-5.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Viðgerðarstig**.
+- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Skilyrði**.
+- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Einkennasvæði**.
+-  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Greiningarsvæði**.
+- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Úrlausnir**.
+- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Viðgerðarstig**.
 
 ## <a name="symptoms-and-conditions"></a>Einkenni og skilyrði
 
@@ -81,19 +77,19 @@ Hægt er að stofna viðhaldslínur fyrir hvert skref í viðgerðarferlinu.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Stofna viðgerðarlínu í þjónustupöntun.
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið þjónustupöntunina með þjónustuhlutnum sem þarfnast viðgerðar.
 
-3.  Smelltu á **Viðgerð** \> **Viðgerðarlínur** til að opna skjámyndina **Viðgerðarlínur**.
+3.  Veljið **Viðgerð** \> **Viðgerðarlínur** til að opna skjámyndina **Viðgerðarlínur**.
 
-4.  Stutt á CTRL+N til að stofna nýja línu.
+4.  Veljið **Nýtt** til að stofna nýja línu.
 
 5.  Velja þjónustuhlut. Hægt er að velja hvaða þjónustuhlut sem settur hefur verið upp með hlutatengslum í þjónustupöntuninni.
 
-6.  Veldu eitthvað af forstilltum einkennum, greiningum og framkvæmdargildi sem eru viðeigandi í viðgerðarlínunni og smelltu síðan á flipann **Athuga** til að búa til minnismiða á viðgerðarlínunni, ef þörf krefur.
+6.  Veldu eitthvað af forstilltum einkennum, greiningum og framkvæmdargildi sem eru viðeigandi í viðgerðarlínunni og veldu síðan flipann **Athuga** til að búa til minnismiða á viðgerðarlínunni, ef þörf krefur.
 
-7.  Styðjið á CTRL+S til þess að vista nýju viðgerðarlínuna. Reiturinn **Stofna dagsetningu og tíma** á flipanum **Almennt** í skjámyndinni **Viðgerðarlínur** er uppfærður þegar vistun á sér stað.
+7.  Veljið **Vista** til að vista nýju viðgerðarlínuna. Reiturinn **Stofna dagsetningu og tíma** á flipanum **Almennt** í skjámyndinni **Viðgerðarlínur** er uppfærður þegar vistun á sér stað.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Að fylgjast með framvindu og finna úrlausn á viðgerðarverkefni
 

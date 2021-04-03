@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970307"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556267"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -37,12 +37,12 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
 > [!NOTE]
 > Birgðafærslur eru **ekki** óskráðar þegar hætt er við dreifingu frá dreifingarstöð, jafnvel þó að kveikt sé á stillingunni fyrir þennan eiginleika í færibreytum vöruhúsakerfisins.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
+## <a name="turn-on-the-planned-cross-docking-features"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
 
-Áður en þú getur notað háþróaða, áætlaða dreifingu frá dreifingarstöð verður að vera kveikt á eiginleikanum í kerfinu þínu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
 
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Áætluð dreifing frá dreifingarstöð*
+1. *Áætluð dreifing frá dreifingarstöð*
+2. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*
 
 ## <a name="setup"></a>Setja upp
 
@@ -89,6 +89,10 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
     - **Staðfesta aftur birgðarafhendingu:** *Nei*
 
         Þessi valkostur skilgreinir hvort staðfest skuli aftur birgðir við afhendingu. Ef þessi valkostur er stilltur á *Já* er bæði hámarkstímagluggi og dagsetningabil lokadaga athugaðir.
+
+    - **Leiðbeiningarkóði** Hafðu þetta svæði autt
+
+        Þessi valkostur gerir kerfinu kleift að nota staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Hver leiðbeiningarkóði auðkennir einstakar staðsetningarleiðbeiningar.
 
     - **Staðfesta tímaglugga:** *Já*
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994004"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487098"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Úrræðaleit fyrir grunnstillingu vöruhúss
 
@@ -109,5 +109,32 @@ Til að gera starfskröftum kleift að gera þessa breytingu er hægt að stofna
 
 Hægt er að stilla aðra reiti á síðunni eftir þörfum.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Forstilling dreifingarstjórnunar fyrir staðsetningarforstillingu hindrar ekki að tegundir birgða blandist saman.
+
+### <a name="issue-description"></a>Lýsing á úrlausnaratriði
+
+Verið er að nota *samstæðureglur sendingar*. Setja þarf upp *forstillingu dreifingarstjórnunar* fyrir *staðsetningarforstillingu*, en þegar vinna er stofnuð er tegundum birgða blandað saman á lokastaðsetningunni.
+
+### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
+
+Forstilling dreifingarstjórnunar krefst þess að vinnu sé skipt upp fyrirfram. Með öðrum orðum býst forstilling dreifingarstjórnunar við því að vinnuhaus verði ekki með mörgum frágangsstaðsetningum.
+
+Til að forstilling dreifingarstjórnunar geti haft umsjón með blöndun birgða, þarf að setja upp vinnuhausaskil.
+
+Í þessu dæmi er forstilling dreifingarstjórnunar skilgreind á þann hátt að **Birgðagerðir sem ætti ekki að blanda saman** er stillt á *Auðkenni sendingar* og við munum setja upp vinnuhausaskil fyrir hana:
+
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnusniðmát**.
+1. Veljið **Gerð verkbeiðni** til að breyta (t.d. *Innkaupapantanir*).
+1. Velið vinnusniðmátið til að breyta.
+1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
+1. Opnið flipann **Röðun** og bætið við línu með eftirfarandi stillingum:
+    - **Tafla** - *Tímabundnar vinnufærslur*
+    - **Afleidd tafla:** - *Tímabundnar vinnufærslur*
+    - **Reitur** - *Auðkenni sendingar*
+1. Veljið **Í lagi**.
+1. Þú ferð til baka á síðuna **Vinnusniðmát**. Á aðgerðasvæðinu skal velja **Vinnuhausaskil**.
+1. Á aðgerðarúðunni skal velja **Breyta**.
+1. Veljið gátreitinn sem tengist **Heiti reits** *Auðkenni sendingar*.
+1. Í aðgerðarúðunni skal velja **Vista**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

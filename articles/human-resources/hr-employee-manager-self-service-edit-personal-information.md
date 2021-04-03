@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115343"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5502989"
 ---
 # <a name="edit-personal-information"></a>Breyta persónuupplýsingum
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þú getur breytt persónuupplýsingum þínum í Dynamics 365 Human Resources í **Vinnusvæði sjálfsafgreiðslu starfsmanna**.
 
@@ -38,13 +40,16 @@ Persónuupplýsingarnar sem þú getur breytt eru:
 - Greiðsluháttur
 - Mynd notuð í Human Resources
 
+>[!NOTE]
+>Hugsanlega er ekki hægt að breyta vissum gerðum persónulegra upplýsinga, t.d. upplýsingum um tengilið. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
+
 Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem geta séð persónuupplýsingar þínar.
 
 1. Í Human Resources velurðu **Sjálfsafgreiðsla starfsmanns**.
 
 2. Veldu **Breyta persónulegum upplýsingum**.
 
-3. Til að breyta heimilisfanginu velurðu flipann **Heimilisföng**. Breytingar sem þú gerir birtast í vinnusvæðinu **Starfsmannastjórnun** til að vekja athygli HR. 
+3. Til að breyta heimilisfanginu velurðu flipann **Heimilisföng**. Breytingar sem þú gerir birtast í vinnusvæðinu **Starfsmannastjórnun** til að vekja athygli HR.
 
     - Til að bæta við nýju heimilisfangi velurðu **Bæta við**.
     - Til að breyta núverandi heimilisfangi skaltu velja heimilisfangið og velja síðan **Breyta**.
@@ -52,11 +57,13 @@ Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem get
     - Til að bæta við eða flarlægja tengilið velurðu **Fleiri valkostir** og veldu síðan **Ítarlegt**. Undir **Upplýsingar um tengiliði** velurðu **Bæta við** eða **Fjarlægja** og breytir reitunum eftir þörfum.
     - Til að stilla tímabelti og staðsetningu velurðu **Fleiri valkostir** og velur síðan **Ítarlegt**. Undir **Almennt** breytirðu reitunum eftir þörfum.
 
-4. Til að breyta tengiliðaupplýsingum þínum skaltu velja flipann **Upplýsingar um tengilið**. Þú getur gefið upp mismunandi gerðir af tengiliðaupplýsingum, þ.m.t. síma, tölvupóst og samfélagsmiðlatengla. Þú getur stillt upplýsingar um tengiliði sem aðal en þú getur aðeins stillt eina af hverri gerð sem aðal. 
+4. Til að breyta tengiliðaupplýsingum þínum skaltu velja flipann **Upplýsingar um tengilið**. Þú getur gefið upp mismunandi gerðir af tengiliðaupplýsingum, þ.m.t. síma, tölvupóst og samfélagsmiðlatengla. Þú getur stillt upplýsingar um tengiliði sem aðal en þú getur aðeins stillt eina af hverri gerð sem aðal.
 
     - Til að bæta við nýjum tengiliðarupplýsingum velurðu **Bæta við**. Breyttu reitunum eins og þörf er á.
     - Til að breyta núverandi tengiliðarupplýsingum skaltu velja liðinn og velja síðan **Breyta**. Breyttu reitunum eins og þörf er á.
     - Til að stilla tengiliðaupplýsingar sem einkaaðila skaltu velja hlutinn, velja **Ítarlegt** og stilla síðan **Einka** á **Já**. Veljið **Í lagi**.
+      >[!NOTE]
+      >Hnappurinn **Ítarlegt** er ekki tiltækur ef stjórnandi hefur virkjað **(Forskoðun) Takmarka möguleika starfsmanna á að bæta við eða breyta aðsetri og tengiliðaupplýsingum í völdum tilgangi.** eiginleikann í umhverfinu þínu. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
   
 5. Til að breyta persónulegum tengiliðum skaltu velja flipann **Persónulegir tengiliðir**. Þú getur tilnefnt neyðartengiliði, rétthafa og á framfæri. Tengiliður getur verið einstaklingur eða fyrirtæki. Eiginleikinn **Fríðindastjórnun** notar persónulegar upplýsingar um tengiliði. Nánari upplýsingar er að finna í [Grunnstilla hæfnisvalkosti persónulegs tengiliðar](hr-benefits-setup-contact-eligibility-options.md).
 
