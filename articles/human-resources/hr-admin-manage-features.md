@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 305ce398b0ec80647a95e69409da9b77ebf14b45
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113014"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466954"
 ---
 # <a name="manage-features-in-human-resources"></a>Umsjón með eiginleikum í Human Resources
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Sem hluti af samfelldri kynningu okkar á nýrri afkastagetu fyrir Microsoft Dynamics 365 Human Resources, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Við veitum forskoðunareiginleika sem eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 

@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115415"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467115"
 ---
 # <a name="personnel-actions-faq"></a>Algengar spurningar um aðgerðir starfsfólks
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. Dæmi um verk sem gætu krafist aðgerða starfsfólks eru þegar að stofna nýjar stöður, breyta fyrirliggjandi gildi stöðu, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni eða segja upp starfsmönnum.
 
