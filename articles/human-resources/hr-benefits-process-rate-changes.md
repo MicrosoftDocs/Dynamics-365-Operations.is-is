@@ -18,33 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f326957d5f33607e434f99563cfeb528c05f258d
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: c87d98a16431805ad652e28e5ca100a4152ad0c6
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112964"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466231"
 ---
-# <a name="process-rate-changes"></a><span data-ttu-id="d67a8-103">Vinna úr breytingum á hlutfalli</span><span class="sxs-lookup"><span data-stu-id="d67a8-103">Process rate changes</span></span>
+# <a name="process-rate-changes"></a><span data-ttu-id="562de-103">Vinna úr breytingum á hlutfalli</span><span class="sxs-lookup"><span data-stu-id="562de-103">Process rate changes</span></span>
 
-<span data-ttu-id="d67a8-104">Vinnu breytinga á ávinningi hlutfall í Microsoft Dynamics 365 Human Resources þegar ný eða núverandi bótakerfi hefur breytingu á stillingum hæfisreglna.</span><span class="sxs-lookup"><span data-stu-id="d67a8-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="d67a8-105">Ef ný hæfisregla er búin til og þeim er úthlutað í áætlunina biður þetta kerfið um að endurkeyra hæfi starfsmanna til að athuga hvort starfsmenn geti nú verið gjaldgengir í áætlunina á grundvelli nýrra hæfiskosta.</span><span class="sxs-lookup"><span data-stu-id="d67a8-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="d67a8-106">Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla uppfærslu á taxtabreytingum**.</span><span class="sxs-lookup"><span data-stu-id="d67a8-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
+<span data-ttu-id="562de-104">Vinnu breytinga á ávinningi hlutfall í Microsoft Dynamics 365 Human Resources þegar ný eða núverandi bótakerfi hefur breytingu á stillingum hæfisreglna.</span><span class="sxs-lookup"><span data-stu-id="562de-104">Process benefit rate changes in Microsoft Dynamics 365 Human Resources when a new or existing benefit plan has a change in eligibility rule settings.</span></span> <span data-ttu-id="562de-105">Ef ný hæfisregla er búin til og þeim er úthlutað í áætlunina biður þetta kerfið um að endurkeyra hæfi starfsmanna til að athuga hvort starfsmenn geti nú verið gjaldgengir í áætlunina á grundvelli nýrra hæfiskosta.</span><span class="sxs-lookup"><span data-stu-id="562de-105">If a new eligibility rule is created and assigned to the plan, this prompts the system to rerun worker eligibility to check if workers may now be eligible for the plan based on new eligibility options.</span></span> 
 
-2. <span data-ttu-id="d67a8-107">Í valmyndinni **Keyra uppfærsluferli fríðindataxta**, tilgreindu gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="d67a8-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
+1. <span data-ttu-id="562de-106">Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla uppfærslu á taxtabreytingum**.</span><span class="sxs-lookup"><span data-stu-id="562de-106">In the **Benefits management** workspace, under **Processing**, select **Rate change update processing**.</span></span>
 
-   | <span data-ttu-id="d67a8-108">Svæði</span><span class="sxs-lookup"><span data-stu-id="d67a8-108">Field</span></span> | <span data-ttu-id="d67a8-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="d67a8-109">Description</span></span> |
+2. <span data-ttu-id="562de-107">Í valmyndinni **Keyra uppfærsluferli fríðindataxta**, tilgreindu gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="562de-107">In the **Run benefit rate update process** dialog box, specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="562de-108">Svæði</span><span class="sxs-lookup"><span data-stu-id="562de-108">Field</span></span> | <span data-ttu-id="562de-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="562de-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="d67a8-110">**Skráningartímabil**</span><span class="sxs-lookup"><span data-stu-id="d67a8-110">**Enrollment period**</span></span> | <span data-ttu-id="d67a8-111">Innritunartímabilið til að vinna úr taxtabreytingum fyrir.</span><span class="sxs-lookup"><span data-stu-id="d67a8-111">The enrollment period to process rate changes for.</span></span> |
+   | <span data-ttu-id="562de-110">**Skráningartímabil**</span><span class="sxs-lookup"><span data-stu-id="562de-110">**Enrollment period**</span></span> | <span data-ttu-id="562de-111">Innritunartímabilið til að vinna úr taxtabreytingum fyrir.</span><span class="sxs-lookup"><span data-stu-id="562de-111">The enrollment period to process rate changes for.</span></span> |
 
-3. <span data-ttu-id="d67a8-112">Ef þú vilt keyra ferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:</span><span class="sxs-lookup"><span data-stu-id="d67a8-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="562de-112">Ef þú vilt keyra ferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:</span><span class="sxs-lookup"><span data-stu-id="562de-112">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="d67a8-113">Færið inn upplýsingar fyrir ferlið.</span><span class="sxs-lookup"><span data-stu-id="d67a8-113">Enter information for the process.</span></span>
+   1. <span data-ttu-id="562de-113">Færið inn upplýsingar fyrir ferlið.</span><span class="sxs-lookup"><span data-stu-id="562de-113">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="d67a8-114">Veldu til að setja upp endurtekið starf **Endurtekning**, sláðu inn upplýsingar um endurtekningu og veldu **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="d67a8-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="562de-114">Veldu til að setja upp endurtekið starf **Endurtekning**, sláðu inn upplýsingar um endurtekningu og veldu **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="562de-114">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="d67a8-115">Veldu til að setja upp atvinnuviðvörun **Viðvaranir**, veldu viðvaranir sem berast og veldu síðan **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="d67a8-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="562de-115">Veldu til að setja upp atvinnuviðvörun **Viðvaranir**, veldu viðvaranir sem berast og veldu síðan **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="562de-115">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="d67a8-116">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="d67a8-116">Select **OK**.</span></span> <span data-ttu-id="d67a8-117">Ferlið keyrir með breytunum sem þú stillir.</span><span class="sxs-lookup"><span data-stu-id="d67a8-117">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="562de-116">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="562de-116">Select **OK**.</span></span> <span data-ttu-id="562de-117">Ferlið keyrir með breytunum sem þú stillir.</span><span class="sxs-lookup"><span data-stu-id="562de-117">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="d67a8-118">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="d67a8-118">Select **OK**.</span></span>
+4. <span data-ttu-id="562de-118">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="562de-118">Select **OK**.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
