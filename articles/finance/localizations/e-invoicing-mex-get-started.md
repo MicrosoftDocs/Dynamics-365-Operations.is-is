@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988481"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592647"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
 
@@ -291,7 +291,7 @@ Upplýsingunum í innsendingarkladdanum er skipt niður á þrjá flýtiflipa:
     ![Upplýsingar um innsendingarkladda afturköllunar skoðaðar](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Til að virkja eiginleikana MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleikum MX-00010 og MX-00016 (CFDI-reikningur og CFDI-afturköllun) með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar**, veljið línurnar sem innihalda MX-00010 og MX-00016 eiginleikana og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
+Til að virkja eiginleikann **CFDI - Mexíkóskur rafrænn reikningur (MX)** þarf hugsanlega að senda takmörkuð gögn, sem fela í sér skattskráningarkenni fyrirtækisins. Þetta verður sent til stofnanir þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleikanum **CFDI - Mexíkóskur rafrænn reikningur (MX)** með því að fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**. Veljið flipann **Eiginleikar**, veljið línurnar sem innihalda eiginleikann **CFDI - Mexíkóskur rafrænn reikningur (MX)** og veljið viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

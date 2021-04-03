@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141905"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579973"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Samstilling innkaupa milli Supply Chain Management og Field Service
 
@@ -47,8 +46,8 @@ Til að samþætta Supply Chain Management við Field Service þarf að setja up
 
 ### <a name="prerequisites"></a>Forkröfur
 
-+ **Tvöföld skrif** – Frekari upplýsingar eru í [Tvöföld skrif – heimasíða](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service** – Frekari upplýsingar eru [Hvernig á að setja upp Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Tvöföld skrif** – Frekari upplýsingar eru í [Tvöföld skrif – heimasíða](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service** – Frekari upplýsingar eru [Hvernig á að setja upp Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Þegar það er virkjað í Microsoft Dataverse kynna tvöföld skráning og Field Service ýmsar lagskiptar lausnir til sögunnar sem stækka umhverfið með nýjum lýsigögnum, skjámyndum, yfirlitum og reglu. Hægt er að virkja þessar lausnir í hvaða röð sem er, þó oftast sé sett upp í þeirri röð sem gefin er upp hér:
 
@@ -57,8 +56,8 @@ Til að samþætta Supply Chain Management við Field Service þarf að setja up
 3. **Supply Chain Management Extended** – Supply Chain Management Extended er sjálfkrafa sett upp þegar tvöföld skráning er virkjuð í umhverfi. 
 4. **OneFSSCM-lausn** – OneFSSCM er sjálfkrafa sett upp af annarri hvorri lausninni (Field Service eða Supply Chain Management) sem var síðast sett upp.
 
-    + Ef Field Service er þegar uppsett í umhverfinu og tvöföld skráning er virkjuð sem setur upp Supply Chain Management Extended, verður OneFSSCM sett upp.
-    + Ef Supply Chain Management Extended er þegar uppsett í umhverfinu og Field Service er sett upp, verður OneFSSCM sett upp.
+    - Ef Field Service er þegar uppsett í umhverfinu og tvöföld skráning er virkjuð sem setur upp Supply Chain Management Extended, verður OneFSSCM sett upp.
+    - Ef Supply Chain Management Extended er þegar uppsett í umhverfinu og Field Service er sett upp, verður OneFSSCM sett upp.
 
 ## <a name="initial-synchronization"></a>Upphafleg samstilling
 
@@ -124,22 +123,22 @@ Auk þess inniheldur Dataverse reglu sem varpar lánardrottnum með tilheyrandi 
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 
-+ Dataverse notendur geta búið til og uppfært innkaupapantanir. Ferlinu og gögnum er hins vegar stjórnað af Supply Chain Management. Takmarkanir á uppfærslum á dálkum innkaupapöntunar í Supply Chain Management eiga við þegar uppfærslur koma frá Field Service. Til dæmis er ekki hægt að uppfæra innkaupapöntun ef hún er frágengin. 
-+ Ef innkaupapöntun er stjórnað af breytingastjórnun í Supply Chain Management getur notandi Field Service aðeins uppfært innkaupapöntunina þegar samþykktarstaða Supply Chain Management er *Drög*.
-+ Nokkrir dálkar eru aðeins stýrðir af Supply Chain Management og er ekki hægt að uppfæra í Field Service. Til að fá upplýsingar um hvaða dálka er ekki hægt að uppfæra skal skoða vörpunartöflur í afurðinni. Til einföldunar eru flestir þessara dálka stilltir sem skrifvarðir á Dataverse-síðum. 
+- Dataverse notendur geta búið til og uppfært innkaupapantanir. Ferlinu og gögnum er hins vegar stjórnað af Supply Chain Management. Takmarkanir á uppfærslum á dálkum innkaupapöntunar í Supply Chain Management eiga við þegar uppfærslur koma frá Field Service. Til dæmis er ekki hægt að uppfæra innkaupapöntun ef hún er frágengin. 
+- Ef innkaupapöntun er stjórnað af breytingastjórnun í Supply Chain Management getur notandi Field Service aðeins uppfært innkaupapöntunina þegar samþykktarstaða Supply Chain Management er *Drög*.
+- Nokkrir dálkar eru aðeins stýrðir af Supply Chain Management og er ekki hægt að uppfæra í Field Service. Til að fá upplýsingar um hvaða dálka er ekki hægt að uppfæra skal skoða vörpunartöflur í afurðinni. Til einföldunar eru flestir þessara dálka stilltir sem skrifvarðir á Dataverse-síðum. 
 
     Til dæmis er dálkum fyrir verðupplýsingar stýrt með Supply Chain Management. Supply Chain Management er með viðskiptasamninga sem Field Service getur notið góðs af. dálkar á borð við **Einingarverð**, **Afsláttur** og **Nettóupphæð** koma aðeins úr Supply Chain Management. Til að tryggja að verðið sé samstillt við Field Service ætti að nota eiginleikann **Samstilla** á síðunum **Innkaupapöntun** og **Afurð innkaupapöntunar** í Dataverse þegar gögn innkaupapöntunar hafa verið slegin inn. Frekari upplýsingar er að finna í [Samstilla við innkaupagögn Dynamics 365 Supply Chain Management samkvæmt eftirspurn](#sync-procurement).
 
-+ Dálkurinn **Samtölur** er aðeins í boði í Field Service vegna þess að engar uppfærðar samtölur innkaupapöntunarinnar eru til staðar í Supply Chain Management. Samtölur í Supply Chain Management eru reiknaðar út frá mörgum færibreytum sem eru ekki í boði í Field Service.
-+ Innkaupapöntunarlínur þar sem aðeins innkaupategund er tilgreind, eða þar sem tilgreind afurð er vara af afurðargerðinni *Þjónusta* eða afurðargerðinni Field Service, er aðeins hægt að hefja í Supply Chain Management. Línurnar eru síðan samstilltar við Dataverse og eru sýnilegar í Field Service.
-+ Ef aðeins Field Service er uppsett, ekki Supply Chain Management, er dálkurinn **Vöruhús** áskilinn í innkaupapöntun. Ef Supply Chain Management er hins vegar uppsett, er slakað á þessari kröfu vegna þess að Supply Chain Management leyfir innkaupapöntunarlínur þar sem ekkert vöruhús er tilgreint við ákveðnar kringumstæður.
-+ Innhreyfingarskjölum afurða (móttökum innkaupapantana í Dataverse) er stjórnað af Supply Chain Management og er ekki hægt að stofna úr Dataverse ef Supply Chain Management er uppsett. Innhreyfingarskjöl afurða úr Supply Chain Management eru samstillt úr Supply Chain Management við Dataverse.
-+ Undirafhending er leyfð í Supply Chain Management. OneFSSCM-lausnin bætir við reglu þannig að þegar innhreyfingarlína afurðar (eða innhreyfingarafurð innkaupapöntunar í Dataverse) er stofnuð eða uppfærð er lína birgðabókar stofnuð í Dataverse til að leiðrétta eftirstandandi magn sem er í pöntun fyrir aðstæður undirafhendingar.
+- Dálkurinn **Samtölur** er aðeins í boði í Field Service vegna þess að engar uppfærðar samtölur innkaupapöntunarinnar eru til staðar í Supply Chain Management. Samtölur í Supply Chain Management eru reiknaðar út frá mörgum færibreytum sem eru ekki í boði í Field Service.
+- Innkaupapöntunarlínur þar sem aðeins innkaupategund er tilgreind, eða þar sem tilgreind afurð er vara af afurðargerðinni *Þjónusta* eða afurðargerðinni Field Service, er aðeins hægt að hefja í Supply Chain Management. Línurnar eru síðan samstilltar við Dataverse og eru sýnilegar í Field Service.
+- Ef aðeins Field Service er uppsett, ekki Supply Chain Management, er dálkurinn **Vöruhús** áskilinn í innkaupapöntun. Ef Supply Chain Management er hins vegar uppsett, er slakað á þessari kröfu vegna þess að Supply Chain Management leyfir innkaupapöntunarlínur þar sem ekkert vöruhús er tilgreint við ákveðnar kringumstæður.
+- Innhreyfingarskjölum afurða (móttökum innkaupapantana í Dataverse) er stjórnað af Supply Chain Management og er ekki hægt að stofna úr Dataverse ef Supply Chain Management er uppsett. Innhreyfingarskjöl afurða úr Supply Chain Management eru samstillt úr Supply Chain Management við Dataverse.
+- Undirafhending er leyfð í Supply Chain Management. OneFSSCM-lausnin bætir við reglu þannig að þegar innhreyfingarlína afurðar (eða innhreyfingarafurð innkaupapöntunar í Dataverse) er stofnuð eða uppfærð er lína birgðabókar stofnuð í Dataverse til að leiðrétta eftirstandandi magn sem er í pöntun fyrir aðstæður undirafhendingar.
 
 ## <a name="unsupported-scenarios"></a>Óstuddar aðstæður
 
-+ Field Service kemur í veg fyrir að línum sé bætt við afturkallaða innkaupapöntun í Supply Chain Management. Sem hjáleið er hægt að breyta kerfisstöðu innkaupapöntunar í Field Service og síðan bæta nýju línunni við annaðhvort Field Service eða Supply Chain Management.
-+ Þótt innkaupalínur hafi áhrif á birgðastöður í báðum kerfum, þá tryggir þessi samþætting ekki jafnar birgðir á milli Supply Chain Management og Field Service. Bæði Field Service og Supply Chain Management eru með aðra ferla sem uppfæra birgðastöður. Þessi ferli eru utan umfangs innkaupa.
+- Field Service kemur í veg fyrir að línum sé bætt við afturkallaða innkaupapöntun í Supply Chain Management. Sem hjáleið er hægt að breyta kerfisstöðu innkaupapöntunar í Field Service og síðan bæta nýju línunni við annaðhvort Field Service eða Supply Chain Management.
+- Þótt innkaupalínur hafi áhrif á birgðastöður í báðum kerfum, þá tryggir þessi samþætting ekki jafnar birgðir á milli Supply Chain Management og Field Service. Bæði Field Service og Supply Chain Management eru með aðra ferla sem uppfæra birgðastöður. Þessi ferli eru utan umfangs innkaupa.
 
 ## <a name="status-management"></a>Stöðustjórnun
 
@@ -161,13 +160,13 @@ Samþykktarstöður lína eru aðeins virkar þegar verkflæði línu er til sta
 
 Eftirfarandi reglur eru notaðar fyrir stöðudálka:
 
-+ Ekki er hægt að uppfæra stöðu í Supply Chain Management úr Field Service. Hins vegar verður staðan í Field Service í sumum tilfellum uppfærð þegar staða innkaupapöntunar í Supply Chain Management er breytt.
-+ Ef innkaupapöntun í Supply Chain Management er undir breytingastjórnun og verið er að vinna úr breytingu, er samþykktarstaðan *Drög* eða *Í yfirferð*. Í slíku tilfelli verður samþykktarstaða Field Service stillt á *Núll*.
-+ Ef samþykktarstaða innkaupapöntunar í Supply Chain Management er stillt á *Samþykkt*, *Í ytri yfirferð*, *Staðfest* eða *Lokið*, verður samþykktarstaða innkaupapöntunar Field Service stillt á *Samþykkt*.
-+ Ef samþykktarstaða innkaupapöntunar í Supply Chain Management er stillt á *Hafnað* verður samþykktarstaða innkaupapöntunar Field Service stillt á *Hafnað*.
-+ Ef staðan í haus skjals í Supply Chain Management er breytt í *Opin pöntun (biðpöntun)* og staða innkaupapöntunar Field Service er *Drög* eða *Hætt við*, verður stöðu innkaupapöntunar Field Service breytt í *Sent inn*.
-+ Ef staðan í haus skjals í Staða í Supply Chain Management er breytt í *Hætt við* og engar innhreyfingarafurðir innkaupapöntunar í Field Service tengjast innkaupapöntuninni (í gegnum afurðir innkaupapöntunar), er kerfisstaða Field Service stillt á *Hætt við*.
-+ Ef staða innkaupapöntunarlínu í Supply Chain Management er *Hætt við*, er afurðarstaða innkaupapöntunar í Field Service stillt á *Hætt við*. Að auki, ef staða innkaupapöntunarlínu í Supply Chain Management er breytt úr *Hætt við* í *Biðpöntun*, staða afurðavöru innkaupapöntunar í Field Service stillt á *Í bið*.
+- Ekki er hægt að uppfæra stöðu í Supply Chain Management úr Field Service. Hins vegar verður staðan í Field Service í sumum tilfellum uppfærð þegar staða innkaupapöntunar í Supply Chain Management er breytt.
+- Ef innkaupapöntun í Supply Chain Management er undir breytingastjórnun og verið er að vinna úr breytingu, er samþykktarstaðan *Drög* eða *Í yfirferð*. Í slíku tilfelli verður samþykktarstaða Field Service stillt á *Núll*.
+- Ef samþykktarstaða innkaupapöntunar í Supply Chain Management er stillt á *Samþykkt*, *Í ytri yfirferð*, *Staðfest* eða *Lokið*, verður samþykktarstaða innkaupapöntunar Field Service stillt á *Samþykkt*.
+- Ef samþykktarstaða innkaupapöntunar í Supply Chain Management er stillt á *Hafnað* verður samþykktarstaða innkaupapöntunar Field Service stillt á *Hafnað*.
+- Ef staðan í haus skjals í Supply Chain Management er breytt í *Opin pöntun (biðpöntun)* og staða innkaupapöntunar Field Service er *Drög* eða *Hætt við*, verður stöðu innkaupapöntunar Field Service breytt í *Sent inn*.
+- Ef staðan í haus skjals í Staða í Supply Chain Management er breytt í *Hætt við* og engar innhreyfingarafurðir innkaupapöntunar í Field Service tengjast innkaupapöntuninni (í gegnum afurðir innkaupapöntunar), er kerfisstaða Field Service stillt á *Hætt við*.
+- Ef staða innkaupapöntunarlínu í Supply Chain Management er *Hætt við*, er afurðarstaða innkaupapöntunar í Field Service stillt á *Hætt við*. Að auki, ef staða innkaupapöntunarlínu í Supply Chain Management er breytt úr *Hætt við* í *Biðpöntun*, staða afurðavöru innkaupapöntunar í Field Service stillt á *Í bið*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Samstilla við innkaupagögn Supply Chain Management samkvæmt eftirspurn
 

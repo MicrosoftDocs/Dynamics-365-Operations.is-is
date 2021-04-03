@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077579"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501031"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
 
@@ -45,7 +46,7 @@ Eftirfarandi einingar eru sýndar á mynd:
 
 Til að stofna og skilgreina nýjan flipa skal fylgja þessum skrefum:
 
-1. Farið í **Framleiðslustjórnun &gt; Uppsetning &gt; Framkvæmd framleiðslu**.
+1. Farið í **Framleiðslustýring \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**.
 
 1. Veljið **Hanna flipa** á aðgerðasvæði til að opna síðuna **Hanna flipa**.
 
@@ -67,7 +68,7 @@ Til að stofna og skilgreina nýjan flipa skal fylgja þessum skrefum:
 
 Eftir að þú hefur hannað alla flipana sem þú þarft er hægt að tengja þá við skilgreiningu.
 
-1. Farið í **Framleiðslustýring &gt; Uppsetning &gt; Grunnstilla framkvæmd á framleiðslugólfi**.
+1. Farið í **Framleiðslustýring \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**.
 
     ![Grunnstilla framkvæmd á framleiðslugólfi](media/pfe-config-prod-floor-execution.png "Grunnstilla framkvæmd á framleiðslugólfi")
 

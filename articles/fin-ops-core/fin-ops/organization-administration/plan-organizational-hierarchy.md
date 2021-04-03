@@ -3,10 +3,9 @@ title: Skipuleggja fyrirtækjastigveldi
 description: Áður en að setja upp fyrirtæki og stigveldi fyrirtækis skaltu ganga úr skugga um að þú skiljir hvernig best er að setja upp fyrirtækið.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154410"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569362"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
@@ -166,7 +165,7 @@ Rekstrareiningar nota landssamhengi yfirlögaðila. Rekstrareiningar í sama lö
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ef fyrirtækið er með líkan sem lögaðili
 
-Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar skýrslur. Sjá upplýsingar um hvaða skýrslur eru tiltækar fyrir hvert land/svæði í [Microsoft Dynamics Staðfærslugátt](https://docs.microsoft.com/dynamics/s-e/). (CustomerSource innskráningar er krafist.)
+Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar skýrslur. 
 
 > [!NOTE]
 > Bókunarlag í fjárhag gerir kleift að gera leiðréttingarfærslur á móðurfyrirtæki sem notar annan bókhaldsstaðal en dótturfyrirtæki. Til dæmis, fyrir fyrirtæki sem notar almennt samþykkt bókhaldsvenjum í Bretland (UK GAAP), er hægt að gera leiðréttingarfærslur í bókunarlag. Hægt er að sameina þessar færslur inn móðurfyrirtækis sem samþykkt notar almennt reikningsskilareglur (samþykktum Bókhaldsreglum) í Bandaríkjunum. Leiðréttingarfærslur sem hafa ekki áhrif á samþykktum Bókhaldsreglum UK skýrslugerð.

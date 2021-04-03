@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985955"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582720"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
-
-## <a name="overview"></a>Yfirlit
 
 Þegar búið er að setja upp rafrænt viðskiptaumhverfi í Dynamics 365 Commerce er hægt að skilgreina það til að vinna með CDN-þjónustunni. 
 
@@ -96,8 +93,8 @@ Fylgdu þessum skrefum til að setja upp beinareglu í Azure Front Door Service.
 1. Í reitinn **Heiti** skal færa inn **sjálfgildi**.
 1. Í reitnum **Samþykkt samskiptaregla** velurðu **HTTP og HTTPS**.
 1. Í reitnum **Framvinnsluhýslar** skaltu slá inn **dynamics-ecom-tenant-name.azurefd.net**.
-1. Undir **Mynstur til að stemma af**, í efri reit, skal slá inn **/\** _.
-1. Undir _*Leiðarupplýsingar**, skal stilla **Leiðargerð** valkostinn á **Áfram**.
+1. Undir **Mynstur til að passa** skaltu slá inn efri reitinn **/\***.
+1. Undir **Upplýsingar um beini** stillirðu valkostinn **Gerð beinis** á **Áfram**.
 1. Í reitnum **Bakvinnslusafn** velurðu **ecom-backend**.
 1. Í reitahópnum **Samskiptareglur framsendingar** velurðu valkostinn **Jafna beiðni**. 
 1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
@@ -109,8 +106,8 @@ Fylgdu þessum skrefum til að setja upp biðminnisreglu í Azure Front Door Ser
 1. Í reitinn **Heiti** skal færa inn **tölfræði**.
 1. Í reitnum **Samþykkt samskiptaregla** velurðu **HTTP og HTTPS**.
 1. Í reitnum **Framvinnsluhýslar** skaltu slá inn **dynamics-ecom-tenant-name.azurefd.net**.
-1. Undir **Mynstur til að stemma af**, í efra svæði, **/\_msdyn365/\_scnr/\** _.
-1. Undir _*Leiðarupplýsingar**, skal stilla **Leiðargerð** valkostinn á **Áfram**.
+1. Undir **Mynstur til að passa**, í efri reitnum, **/\_msdyn365/\_scnr/\***.
+1. Undir **Upplýsingar um beini** stillirðu valkostinn **Gerð beinis** á **Áfram**.
 1. Í reitnum **Bakvinnslusafn** velurðu **ecom-backend**.
 1. Í reitahópnum **Samskiptareglur framsendingar** velurðu valkostinn **Jafna beiðni**.
 1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
@@ -143,25 +140,7 @@ CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það m
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
-
-[Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
-
-[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
-
-[Tengja svæði Dynamics 365 Commerce við netrás](associate-site-online-store.md)
-
-[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
-
-[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
-
-[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
-
-[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
-
-[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
-
-[Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+[Valkostir innleiðingar á efnisbirtingarneti](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

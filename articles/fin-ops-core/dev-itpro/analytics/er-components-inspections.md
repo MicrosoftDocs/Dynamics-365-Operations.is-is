@@ -3,10 +3,9 @@ title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg 
 description: Þetta efnisatriði útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
 author: NickSelin
 manager: AnnBe
-ms.date: 12/04/2020
+ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797342"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574126"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -205,6 +204,33 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <td>Viðvörun</td>
 <td>Skilgreint heiti &lt;heiti íhlutar&gt; er ekki til í Excel-skjali &lt;heiti skjals&gt;</td>
 </tr>
+<tr>
+<td><a href='#i14'>Ekki samstillt snið</a></td>
+<td>Heilleiki gagna</td>
+<td>Viðvörun</td>
+<td>
+<p>&lt;Merkt Word-efnisstýring&gt; er ekki til í Word-sniðmátskrá</p>
+<p><b>Keyrsluvilla:</b> Merkið &lt;Merkt Word-efnisstýring&gt; er ekki til í Word-sniðmátskrá.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i15'>Engin sjálfgefin vörpun</a></td>
+<td>Heilleiki gagna</td>
+<td>Villa</td>
+<td>
+<p>Fleiri en ein líkanavörpun er til fyrir gagnalíkanið &lt;heiti líkans (rótarlýsing)&gt; í skilgreiningunum &lt;skilgreningarheiti aðskilin með kommu&gt;. Stillið eina skilgreininguna sem sjálfgefna.</p>
+<p><b>Keyrsluvilla:</b> Fleiri en ein líkanavörpun er til fyrir gagnalíkanið &lt;heiti líkans (rótarlýsing)&gt; í skilgreiningunum &lt;skilgreningarheiti aðskilin með kommu&gt;. Stillið eina skilgreininguna sem sjálfgefna.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i16'>Ósamræmi í stillingu á þáttum síðuhauss eða síðufótar</a></td>
+<td>Heilleiki gagna</td>
+<td>Villa</td>
+<td>
+<p>Síðuhausar/síðufætur (&lt;gerð þáttar: Síðuhaus eða síðufótur&gt;) eru í ósamræmi</p>
+<p><b>Keyrslutími:</b> Síðasti skilgreindi hlutinn er notaður við keyrslu ef útgáfa draga fyrir skilgreint snið rafrænnar skýrslugerðar er keyrt.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -214,22 +240,22 @@ Rafræn skýrslugerð athugar hvort gagnagerð gagnalíkansreits sé samhæfur v
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpun rafrænnar skýrslugerðar samtímis.
+1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
     ![X-svæði og heiltölugagnagerð bætt við gangalíkanstréð á síðu gagnalíkans](./media/er-components-inspections-01.png)
 
-3. Á gagnagjafasvæði líkanavörpunar skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
+3. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
 4. Gefið nýja gagnagjafanum heitið **Y** og skilgreinið hann þannig að hann innihaldi segðina `INTVALUE(100)`.
 5. Binda **X** við **Y**.
 6. Í hönnuði gagnalíkansins skal breyta gagnagerðinni fyrir reitinn **X** úr **Heiltala** í **Int64**.
 7. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![að villuleita breytanlegan íhlut líkanavörpunar á síðunni Hönnuður líkanavörpunar](./media/er-components-inspections-01.gif)
+    ![Að villuleita breytanlegan íhlut líkanavörpunar á síðunni Hönnuður líkanavörpunar](./media/er-components-inspections-01.gif)
 
 8. Veljið **Villuleita** til að skoða íhlut líkanavörpunar af valinni skilgreiningu rafrænnar skýrslugerðar á síðunni **Skilgreiningar**.
 
-    ![Villuleita til að skoða íhlut líkanavörpunar á skilgreiningarsíðunni](./media/er-components-inspections-01a.png)
+    ![Hlutur líkanavörpunar á skilgreiningarsíðunni skoðaður](./media/er-components-inspections-01a.png)
 
 9. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að gildið af gerðinni **Heiltala** sem `INTVALUE(100)` segðin af **Y** gagnagjafanum skilar, geti ekki verið vistað í gagnalíkansreit **X** af gerðinni **Int64**.
 
@@ -289,18 +315,18 @@ Rafræn skýrslugerð athugar hvort bindisegðin innihaldi aðeins gagnagjafa se
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpun rafrænnar skýrslugerðar samtímis.
+1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
     ![Gagnalíkanstré með X-reit og gagnagerðina heiltala á gagnalíkanssíðunni](./media/er-components-inspections-01.png)
 
-3. Á gagnagjafasvæði líkanavörpunar skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
+3. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
 4. Gefið nýja gagnagjafanum heitið **Y** og skilgreinið hann þannig að hann innihaldi segðina `INTVALUE(100)`.
 5. Binda **X** við **Y**.
-6. Í hönnuði líkanavörpunar, á svæði gagnagjafa, skal eyða gagnagjafanum **Y**.
+6. Í hönnuði líkanavörpunar, á svæði **gagnagjafa**, skal eyða gagnagjafanum **Y**.
 7. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Skoða breytanlegan íhlut líkanavörpunar rafrænnar skýrslugerðar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-03.gif)
+    ![Breytanlegur íhlutur líkanavörpunar rafrænnar skýrslugerðar á hönnunarsíðu líkanavörpunar skoðaður](./media/er-components-inspections-03.gif)
 
 8. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að bindingin á gagnalíkansreit **X** inniheldur slóðina sem vísar til gagnagjafa **Y**, en þessi gagnagjafi finnst ekki.
 
@@ -316,15 +342,15 @@ Losið gagnalíkansreitinn **X** til að hætta að vísa í gagnagjafa **Y** se
 
 #### <a name="option-2"></a>Valkostur 2
 
-Á gagnagjafasvæðinu í hönnuði líkanavörpunar rafrænnar skýrslugerðar skal bæta við gagnagjafa **Y** aftur.
+Í hönnuði líkanavörpunar, á svæði **Gagnagjafa**, skal bæta við gagnagjafa **Y** aftur.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Keyranleiki segðar með FILTER-aðgerð
 
-Innbyggða aðgerðin [FILTER](er-functions-list-filter.md) fyrir rafrænna skýrslugerð er notuð til að fá aðgang að forritstöflum, yfirlitum eða gagnaeiningum með því að leggja fram eitt SQL-kall til að ná í nauðsynleg gögn sem lista yfir færslur. Gagnagjafi af gerðinni **Færslulisti** er notaður sem frumbreyta þessarar aðgerðar og tilgreinir upprunastað forrits fyrir kallið. Rafræn skýrslugerð athugar hvort hægt sé að koma á beinni SQL-fyrirspurn til gagnagjafa sem vísað er til í `FILTER`-aðgerðinni. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `FILTER`-aðgerðina sé ekki hægt að keyra við keyrslu. 
+Innbyggða aðgerðin [FILTER](er-functions-list-filter.md) fyrir rafrænna skýrslugerð er notuð til að fá aðgang að forritstöflum, yfirlitum eða gagnaeiningum með því að leggja fram eitt SQL-kall til að ná í nauðsynleg gögn sem lista yfir færslur. Gagnagjafi af gerðinni **Færslulisti** er notaður sem frumbreyta þessarar aðgerðar og tilgreinir upprunastað forrits fyrir kallið. Rafræn skýrslugerð athugar hvort hægt sé að koma á beinni SQL-fyrirspurn til gagnagjafa sem vísað er til í `FILTER`-aðgerðinni. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `FILTER`-aðgerðina sé ekki hægt að keyra við keyrslu.
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur**.
@@ -334,7 +360,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda `FILTER(Vendor, Vendor.AccountNum="US-101")`-segðinni í gagnagjafanum **Lánardrottinn** fyrirspurn.
 
-    ![Hægt er að senda fyrirspurn vegna villuleitar á segðinni á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-04.gif)
+    ![Staðfestir að hægt sé að senda fyrirspurn á segðina á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-04.gif)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Lánardrottinn** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða segð gagnagjafans **FilteredVendor** í beina SQL-strenginn.
 
@@ -362,7 +388,7 @@ Gagnagjafinn **GROUPBY** skiptir niðurstöðum fyrirspurnar í flokka af færsl
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Gefið nýja gagngjafanum **Trans** heiti. Í reitnum **Tafla** skal velja **VendTrans** til að gefa til kynna að þessi gagnagjafi muni óska eftir VendTrans-töflunni.
 4. Bætið við gagnagjafa af gerðinni **Flokka eftir**.
@@ -381,7 +407,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda skilgreindum gagnagjafa **GroupedTrans** fyrirspurn.
 
-    ![Villuleitið hlut líkanavörpunar rafrænnar skýrslugerðar og staðfestið skilgreindan gagnagjafa, hægt er að senda GroupedTrans fyrirspurn á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-05b.png)
+    ![Staðfestir íhlut líkanavörpunar rafrænnar skýrslugerðar og staðfestir að hægt sé að senda fyrirspurn á gagnagjafann GroupedTrans á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-05b.png)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Trans** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða kallið í gagnagjafann **FilteredVendor** í beina SQL-strenginn.
 
@@ -409,7 +435,7 @@ Gagnagjafinn [JOIN](er-join-data-sources.md) sameinar færslur úr tveimur eða 
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
@@ -437,7 +463,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra snið sem er skilgreint til að nota líkanavörpunina.
 
-![Breytanlegt snið keyrt á sniðshönnunarsíðu](./media/er-components-inspections-06e.png)
+![Kleyra breytanlegt snið á sniðshönnunarsíðu](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -461,7 +487,7 @@ Innbyggða aðgerðin [FILTER](er-functions-list-filter.md) fyrir rafrænna ský
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Gefið nýja gagngjafanum **Trans** heiti. Í reitnum **Tafla** skal velja **VendTrans** til að gefa til kynna að þessi gagnagjafi muni óska eftir VendTrans-töflunni.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur** sem faldaðan reit af gagnagjafanum **Lánardrottinn**.
@@ -472,11 +498,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 9. Gefið nýja gagnagjafanum heitið **FilterVendor** og skilgreinið hann þannig að hann innihaldi segðina `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Veljið til að skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07a.png)
+    ![Skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07a.png)
 
 11. Takið eftir að viðvaranir villuleitar ráðleggja að nota aðgerðina **FILTER** í staðinn fyrir aðgerðina **WHERE** fyrir gagnagjafana **FilteredVendor** og **FilteredTrans**.
 
-    ![Viðvaranir villuleitar sem ráðleggja filter-aðgerð í staðinn fyrir where-aðgerð á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07b.png)
+    ![Tillaga um að nota FILTER-aðgerðina í stað Where-aðgerðarinnar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -496,7 +522,7 @@ Innbyggðu aðgerðirnar [ALLITEMS](er-functions-list-allitems.md) og [ALLITEMSQ
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur** til að ná í færslur fyrir ýmsa lánardrottna.
@@ -505,11 +531,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 7. Gefið nýja gagnagjafanum heitið **FilteredVendorTrans** og skilgreinið hann þannig að hann innihaldi segðina `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Hönnunarsíða líkanavörpunar, villuleitarhnappur](./media/er-components-inspections-08a.png)
+    ![Skoðar breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-08a.png)
 
 9. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin ráðleggja að nota aðgerðina **ALLITEMSQUERY** í staðinn fyrir aðgerðina **ALLITEMS** fyrir gagnagjafann **FilteredVendorTrans**.
 
-    ![Viðvörun villuleitar um að nota ALLITEMSQUERY í staðinn fyrir ALLITEMS aðgerðina í líkanavörpunarhlut rafrænnar skýrslugerðar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-08b.png)
+    ![Tillaga um að nota ALLITEMSQUERY-aðgerðina í stað ALLITEMS-aðgerðarinnar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -517,7 +543,7 @@ Veljið **Laga** til að skipta sjálfkrafa út aðgerðinni **ALLITEMS** fyrir 
 
 Annars er líka hægt að velja línuna fyrir ákveðna viðvörun í hnitanetinu og síðan velja **Laga það sem er valið**. Í þessu tilviki er segðinni sjálfkrafa aðeins breytt í gagnagjafanum sem er minnst á í valinni viðvörun.
 
-![Á hönnunarsíður líkanavörpunar skal velja Laga](./media/er-components-inspections-08c.png)
+![Laga valið á hönnunarsíðu líkanavörpunar valið](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Handvirk lausn
 
@@ -540,7 +566,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
     ![Földum reitum bætt við gagnalíkanssíðuna](./media/er-components-inspections-09a.png)
 
-6. Á gagnagjafasvæði líkanavörpunar skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
+6. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 7. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 8. Bætið gagnagjafa af gerðinni **Almenn \\ innsláttarfæribreyta notanda** til að leita að lánardrottnalykli í svarglugga keyrslu.
 9. Gefið nýja gagnagjafanum heitið **RequestedAccountNum**. Í reitinn **Merki** skal slá inn **Númer lánardrottnalykils**. Í reitnum **Heiti á gerð gagnaaðgerðar** skal skilja sjálfgefna gildið **Lýsing** eftir.
@@ -570,15 +596,15 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 15. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Villuleita sniðseiningar sem bundnar voru við gagnagjafa á sniðshönnunarsíðunni](./media/er-components-inspections-09c.png)
+    ![Sniðseiningar sem bundnar voru við gagnagjafa á sniðshönnunarsíðunni villuleitaðar](./media/er-components-inspections-09c.png)
 
 16. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að villan gæti verið út af skilgreindum sniðshlutunum **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðili\\AccountNum** við keyrslu ef listinn `model.Vendor` er tómur.
 
-    ![Villa við villuleit sem tilkynnir um hugsanlega villu vegna skilgreindra sniðshluta](./media/er-components-inspections-09d.png)
+    ![Villa við villuleit um hugsanlega villu vegna skilgreindra sniðshluta](./media/er-components-inspections-09d.png)
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð, valið er **Keyra** til að keyra sniðið og lykilnúmerið er valið fyrir lánardrottin sem er ekki til. Vegna þess að umbeðinn lánardrottinn er ekki til verður listinn `model.Vendor` tómur (þ.e. hann mun ekki innihalda neinar færslur).
 
-![Keyrsluvillur vegna þess að það kom upp við keyrslu sniðsvörpunar](./media/er-components-inspections-09e.png)
+![Keyrsluvillur sem gerast við keyrslu sniðsvörpunar](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -619,7 +645,7 @@ Vegna þess að sniðseiningin **Uppgjör\\Aðili** hefur ekki verið bundin vi�
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
-1. Hefjið skilgreiningu á íhlut líkanavörpunar rafrænnar skýrslugerðar.
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 4. Bætið gagnagjafa af gerðinni **Almenn \\ innsláttarfæribreyta notanda** til að leita að lánardrottnalykli í svarglugga keyrslu.
@@ -628,17 +654,17 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 7. Gefið nýja gagnagjafanum heitið **FilteredVendor** og skilgreinið hann þannig að hann innihaldi segðina `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Merkið skilgreinda gagnagjafann **Lánardrottinn** sem vistun í skyndiminni.
 
-    ![Skilgreina hlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-10a.gif)
+    ![Grunnstilling hlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-10a.gif)
 
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Villuleita síunaraðgerðina sem notuð er fyrir gagnagjafa lánardrottins í skyndiminni á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-10a.png)
+    ![FILTER-aðgerðin sem er notuð fyrir gagnagjafa lánardrottins í skyndiminni á hönnunarsíðu líkanavörpunar villuleituð](./media/er-components-inspections-10a.png)
 
 10. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að ekki sé hægt að nota aðgerðina **FILTER** á gagnagjafanum **Lánardrottinn** sem vistaður er í skyndiminni.
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra sniðið.
 
-![Keyrsluvilla sem kom upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni](./media/er-components-inspections-10b.png)
+![Keyrsluvilla sem kemur upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -669,12 +695,12 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **Heiti**.
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **AccountNumber**.
 
-    ![Bæta földum reitum við lánardrottnaatriðið á gagnalíkanssíðunni](./media/er-components-inspections-11a.png)
+    ![Földuðum reitum bætt við lánardrottnaatriðið á gagnalíkanssíðunni](./media/er-components-inspections-11a.png)
 
-6. Á gagnagjafasvæði líkanavörpunar skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
+6. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 7. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
 8. Bætið gagnagjafa af gerðinni **Almenn \\ innsláttarfæribreyta notanda** til að spyrjast fyrir um lánardrottnalykil í svarglugga keyrslu.
-9 Gefið nýja gagnagjafanum heitið **RequestedAccountNum**. Í reitinn **Merki** skal slá inn **Númer lánardrottnalykils**. Í reitnum **Heiti á gerð gagnaaðgerðar** skal skilja sjálfgefna gildið **Lýsing** eftir.
+9. Gefið nýja gagnagjafanum heitið **RequestedAccountNum**. Í reitinn **Merki** skal slá inn **Númer lánardrottnalykils**. Í reitnum **Heiti á gerð gagnaaðgerðar** skal skilja sjálfgefna gildið **Lýsing** eftir.
 10. Bætið við gagnagjafa af gerðinni **Reiknaður reitur** til að sía lánardrottin sem spurst er fyrir um.
 11. Gefið nýja gagnagjafanum heitið **FilteredVendor** og skilgreinið hann þannig að hann innihaldi segðina `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 12. Bindið atriði gagnalíkans við skilgreinda gagnagjafa á eftirfarandi hátt:
@@ -685,7 +711,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     > [!NOTE]
     > Gagnalíkansreiturinn **Vendor.name** helst óbundinn.
 
-    ![Atriði gagnalíkans bundin við skilgreinda gagnagjafa og atriði gagnalíkans sem helst áfram á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-11b.png)
+    ![Atriði gagnalíkans bundin við skilgreinda gagnagjafa og atriði gagnalíkans sem helst óbundið á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-11b.png)
 
 13. Í tré sniðsskipulags skal bæta við eftirfarandi atriðum til að mynda skjal á útleið á XML-sniði sem inniheldur upplýsingar um lánardrottin sem spurst er fyrir um:
 
@@ -712,7 +738,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra sniðið.
 
-![Kleyra breytanlegt snið á sniðshönnunarsíðu](./media/er-components-inspections-11e.png)
+![Breytanlegt snið keyrt á sniðshönnunarsíðu](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -743,7 +769,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
     ![Villuleita breytanlegan sniðshlut vinnubókarskrá á sniðshönnunarsíðunni](./media/er-components-inspections-12a.gif)
 
-7. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin gefa til kynna að vinnubókarskráin **B.xlsx** sé ekki tengd við neina íhluti og að hún verði fjarlægð þegar búið er að breyta stöðunni á útgáfu skilgreiningarinnar.
+7. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin gefa til kynna að vinnubókarskráin B.xlsx sé ekki tengd við neina íhluti og að hún verði fjarlægð þegar búið er að breyta stöðunni á útgáfu skilgreiningarinnar.
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -766,10 +792,10 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     > [!IMPORTANT]
     > Ganga skal úr skugga um að viðbætt Excel-vinnubók innihaldi ekki heitið **ReportTitle**.
 
-4. Bætið eftirfarandi einingu **Excel\\hólf** **Titill** sem faldaða einingu einingarinnar **Skýrsla**. Í reitinn **Excel-afmörkun** skal slá inn **ReportTitle**.
+4. Bætið einingu **Excel\\hólf** **Titill** sem faldaða einingu einingarinnar **Skýrsla**. Í reitinn **Excel-afmörkun** skal slá inn **ReportTitle**.
 5. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Villuleita faldaðar einingar og reiti á sniðshönnunarsíðunni](./media/er-components-inspections-13a.png)
+    ![Faldaðar einingar og reitir á sniðshönnunarsíðunni villuleitað](./media/er-components-inspections-13a.png)
 
 6. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin gefa til kynna að heitið **ReportTitle** sé ekki til í vinnublaði **Sheet1** í Excel-sniðmátinu sem verið er að nota.
 
@@ -793,6 +819,55 @@ Breytið skilgreindu sniði með því að fjarlægja allar einingar sem vísa �
 
 Til að fá upplýsingar um hvernig hægt er að samstilla sniðsskipulagið við sniðmát rafrænnar skýrslugerðar í sniðmátsritli [Viðskiptaskjalastjórnunar](er-business-document-management.md) skal skoða [Uppfæra skipan sniðmáts viðskiptaskjals](er-bdm-update-structure.md).
 
+## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>Ekki samstillt með Word-sniðmáti
+
+Þegar sniðshlutur rafrænnar skýrslugerðar er [skilgreindur](er-fillable-excel.md) til að nota Word-sniðmát til að mynda skjal á útleið, er hægt að bæta handvirkt við einingunni **Excel\\skrá**, bæta við nauðsynlegu Word-sniðmáti sem viðhengi breytanlegs hlutar og velja það viðhengi í viðbættri einingu **Excel\\Skrá**.
+
+> [!NOTE]
+> Þegar Word-skjalið er hengt við sýnir hönnuður rafræns skýrslugerðarsniðs breytanlegu eininguna sem **Word\\Skrá**.
+
+Á þennan hátt er gefið til kynna að viðbætt eining muni fylla út valið sniðmát við keyrslu. Vegna þess að Word-sniðmátið sem bætt var við var hannað annars staðar gæti breytanlegt rafrænt skýrslugerðarsnið innihaldið vísanir í Word-efnisstýringu sem vantar í sniðsmátið sem bætt var við. Sniðshönnuður rafrænnar skýrslugerðar varar við ósamræmi milli eiginleika sniðseininga rafrænnar skýrslugerðar sem vísa í efnisstýringar sem ekki eru hafðar með í Word-sniðmátinu sem bætt var við.
+
+Til að sjá dæmi sem sýnir hvernig þetta vandamál kann að koma upp er að finna í [Skilgreina breytanlegt snið til að fela samantektarhlutann](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control).
+
+### <a name="automatic-resolution"></a>Sjálfvirk lausn
+
+Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
+
+### <a name="manual-resolution"></a>Handvirk lausn
+
+#### <a name="option-1"></a>Valkostur 1
+
+Breytið skilgreindu sniði með því að eyða formúlunni **Fjarlægt** úr sniðseiningunni sem er minnst á í viðvörun villuleitar.
+
+#### <a name="option-2"></a>Valkostur 2
+
+Breytið notuðu Word-sniðmáti með því að [bæta](er-design-configuration-word-suppress-controls.md#tag-control) áskildu merki við viðeigandi Word-efnisstýringu.
+
+## <a name="no-default-mapping"></a><a id="i15"></a>Engin sjálfgefin vörpun
+
+Þegar eftirlitið [Bindingu vantar](#i11) er búið, eru sniðsbindingarnar sem fylgst var með metnar í samanburði við bindingarnar í viðeigandi íhlutum líkanavörpunar. Vegna þess að hægt er að flytja inn [ýmsar](./tasks/er-manage-model-mapping-configurations-july-2017.md) skilgreiningar á líkanavörpun rafrænnar skýrslugerðar í Finance-tilvikið, og hver skilgreining gæti innihaldið íhlut líkanavörpunar sem á við, þarf að velja eina skilgreiningu sem sjálfgefna skilgreiningu. Annars kemur upp villa þegar reynt er að keyra, breyta eða villuleita snið rafrænnar skýrslugerðar sem fylgst er með og upp koma eftirfarandi skilaboð: „Fleiri en ein líkanavörpun er til fyrir gagnalíkanið \<model name (root descriptor)\> í skilgreiningunum \<configuration names separated by comma\>. Stillið eina skilgreininguna sem sjálfgefna.
+
+Fyrir dæmi sem sýnir hvernig þetta vandamál getur komið upp og hvernig á að laga það er að finna í [Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans](er-multiple-model-mappings.md).
+
+## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Ósamræmi í stillingu á þáttum síðuhauss eða síðufótar
+
+Þegar íhlutur rafræns skýrslugerðarsniðs er [skilgreindur](er-fillable-excel.md) til að nota Excel-sniðmát til að búa til skjal á útleið, er hægt að bæta við íhlutnum **Excel\\Haus** til að fylla í hausana efst á vinnublaði í Excel-vinnubók. Einnig er hægt að bæta við íhlutnum **Excel\\Síðufótur** til að fylla í síðufætur neðst á vinnublaði. Fyrir hvern íhlut **Excel\\Haus** eða **Excel\\Síðufótur** sem bætt er við þarf að stilla eiginleikann **Útlit síðuhauss/síðufótar** til að tilgreina síðurnar sem íhluturinn er keyrður fyrir. Vegna þess að hægt er að skilgreina ýmsa íhluti **Excel\\Síðuhaus** eða **Excel\\Síðufótur** fyrir einn íhlut **Vinnublaðs** og hægt er að búa til mismunandi síðuhausa eða síðufætur fyrir mismunandi gerðir af síðum í Excel-vinnublaði, þarf að skilgreina einn íhlut **Excel\\Síðuhaus** eða **Excel\\Síðufótur** fyrir tiltekið gildi eiginleikans **Útlit hauss/fótar**. Ef fleiri en einn íhlutur **Excel\\Síðuhaus** eða **Excel\\Síðufótur** er skilgreindur fyrir tiltekið gildi eiginleikans **Útlit hauss/fótar** kemur upp villa við villuleit og eftirfarandi villuboð birtast: „Síðuhausar/síðufætur (&lt;gerð íhlutar: Síðuhaus eða síðufótur&gt;) eru í ósamræmi.“
+
+### <a name="automatic-resolution"></a>Sjálfvirk lausn
+
+Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
+
+### <a name="manual-resolution"></a>Handvirk lausn
+
+#### <a name="option-1"></a>Valkostur 1
+
+Breytið skilgreindu sniði með því að eyða einum af ósamræmdu íhlutum **Excel\\Síðuhaus** eða **Excel\\Síðufótur**.
+
+#### <a name="option-2"></a>Valkostur 2
+
+Breytið gildi eiginleikans **Útlit hauss/fótar** fyrir einn af ósamræmdu íhlutum **Excel\\Síðuhaus** eða **Excel\\Síðufótur**.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [ALLITEMS ER-aðgerð](er-functions-list-allitems.md)
@@ -812,6 +887,10 @@ Til að fá upplýsingar um hvernig hægt er að samstilla sniðsskipulagið vi�
 [Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
+
+[Fela Word-efnisstýringar í mynduðum skýrslum](er-design-configuration-word-suppress-controls.md)
+
+[Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans](er-multiple-model-mappings.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114671"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574223"
 ---
 # <a name="inventory-visibility-add-in"></a>Innbót birgðasýnileika
 
@@ -48,11 +48,64 @@ Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](https://docs.
 Áður en þú setur upp innbót birgðasýnileika þarftu að gera eftirfarandi:
 
 - Fá LCS-innleiðingarverk með að minnsta kosti einu virku umhverfi í notkun.
-- Búa til beta-lykla fyrir tilboðin þín í LCS.
-- Virkja beta-lykla fyrir tilboðin þín fyrir notendur þína í LCS.
-- Hafa skal samband við vöruteymi birgðasýnileika hjá Microsoft og gefa upp umhverfiskenni þar sem á að nota innbót birgðasýnileika.
+- Gangið úr skugga um að skilyrðum fyrir uppsetningu innbóta sem gefnar eru upp í [Yfirliti innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) sé lokið. Sýnileiki birgða krefst ekki tengingu tvöföldrar skráningar.
+- Hafa skal samskipti við teymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá eftirfarandi þrjár áskildar skrár:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
+
+> [!NOTE]
+> Ríkin sem eru studd eins og er eru Kanada, Bandaríkin og Evrópusambandið (ESB).
 
 Ef einhverjar spurningar vakna um þessi skilyrði er hægt að hafa samband við vöruteymi birgðasýnileika.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Setja upp Dataverse
+
+Fylgdu þessum skrefum til að setja upp Dataverse.
+
+1. Bætið þjónustureglu við leigjandann:
+
+    1. Setjið upp Azure AD PowerShell-einingu v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir graf](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Keyra eftirfarandi PowerShell-skipun.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Stofnið forritsnotanda fyrir birgðarsýnileika í Dataverse:
+
+    1. Opnið vefslóð Dataverse umhverfisins.
+    1. Farið í **Ítarleg stilling \> Kerfi \> Öryggi \> Notendur** og stofnið notanda forrits. Notið yfirlitsvalmyndina til að breyta síðuyfirlitinu í **Notendur forritsins**.
+    1. Veljið **Nýtt**. Stilla forritskenni á *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Auðkenni hlutar verður sjálfkrafa hlaðið þegar breytingarnar eru vistaðar.) Hægt er að sérstilla nafnið. Til dæmis er hægt að breyta því í *Birgðasýnileiki*. Þegar þessu er lokið skal velja **Vista**.
+    1. Veljið **Úthluta hlutverki** og veljið því næst **Kerfisstjóri**. Ef til er hlutverk sem heitir **Common Data Service Notandi** skal líka velja það.
+
+    Frekari upplýsingar eru í [Stofna notanda forrits](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Flytjið inn `Inventory Visibility Dataverse Solution.zip` skrána sem inniheldur Dataverse skilgreiningar tengdra eininga og Power Apps:
+
+    1. Opnið síðuna **Lausnir**.
+    1. Velja **Innflutningur**.
+
+1. Flytjið inn flæði fyrir ræsingu skilgreiningaruppfærslu:
+
+    1. Opna Microsoft Flow síðuna.
+    1. Gangið úr skugga um að tengingin sem heitir *Dataverse (eldra efni)* sé til. (Ef það er ekki til skal stofna það.)
+    1. Flytja inn `Inventory Visibility Configuration Trigger.zip`-skrá. Þegar hún hefur verið flutt inn birtist ræsihnappurinn undir **Mín verkflæði**.
+    1. Frumstilla eftirfarandi fjórar breytur út frá umhverfisupplýsingum:
+
+        - Azure AD-leigjandakenni
+        - Biðlarakenni Azure-forritsins
+        - Leynilykill biðlara Azure-forritsins
+        - Endastöð sýnileika birgða
+
+            Frekari upplýsingar um þessa breytu er að finna í hlutanum [Setja upp samþættingu fyrir Sýnileika birgða](#setup-inventory-visibility-integration) seinna í þessu efnisatriði.
+
+        ![Ræsing skilgreiningar](media/configuration-trigger.png "Ræsing skilgreiningar")
+
+    1. Veljið **Kveikja á**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Setja upp innbótina
 
@@ -61,14 +114,16 @@ Til að setja upp innbót birgðasýnileika skal gera eftirfarandi:
 1. Skráðu þig inn í gátt [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
 1. Á heimasíðunni skal velja verkið þar sem umhverfið er í notkun.
 1. Á verksíðunni skal velja umhverfið þar sem á að setja upp innbótina.
-1. Á heimasíðu umhverfisins skal fletta niður á hlutann **Innbætur umhverfis**. Ef hlutinn er ekki sýnilegur skal ganga úr skugga um að unnið hafi verið úr beta-lyklum forkröfu.
+1. Á heimasíðu umhverfisins skal fletta niður á hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting** þar sem hægt er að finna heiti Dataverse-umhverfisins.
 1. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+
     ![Heimasíða umhverfis í LCS](media/inventory-visibility-environment.png "Heimasíða umhverfis í LCS")
+
 1. Veldu tengilinn **Setja upp nýja innbót**. Listi yfir tiltækar innbætur opnast.
-1. Veldu **Birgðaþjónustu** úr listanum. (Athugið að þetta kann nú að vera skráð sem **Innbót birgðasýnileika fyrir Dynamics 365 Supply Chain Management**.)
+1. Velja **Sýnileiki birgða** í listanum.
 1. Sláðu inn gildi fyrir eftirfarandi reiti fyrir umhverfið þitt:
 
-    - **AAD-forritskenni**
+    - **Auðkenni AAD-forritsins (biðlara)**
     - **AAD-leigjandakenni**
 
     ![Uppsetningarsíða innbótar](media/inventory-visibility-setup.png "Uppsetningarsíða innbótar")
@@ -76,7 +131,70 @@ Til að setja upp innbót birgðasýnileika skal gera eftirfarandi:
 1. Samþykktu skilmálana með því að velja gátreitinn **Skilmálar**.
 1. Velja **Setja upp**. Staða innbótarinnar birtist sem **Er í uppsetningu**. Þegar henni er lokið skal uppfæra síðuna til að sjá stöðuna breytast í **Uppsett**.
 
-### <a name="get-a-security-service-token"></a>Sækja merki öryggisþjónustu
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Fjarlægja innbótina
+
+Til að fjarlægja innbótina skal velja **Fjarlægja**. Þegar LCS er uppfært verður innbót birgðasýnileikans fjarlægð. Fjarlægingarferlið mun fjarlægja innbótarskráninguna og ræsir einnig vinnslu til að hreinsa öll viðskiptagögn sem vistuð eru í þjónustunni.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Nota gögn lagerbirgða úr Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Nota samþættingarpakka birgðasýnileika
+
+Ef keyrð er útgáfa 10.0.17 eða eldri af Supply Chain Management skal hafa samband við stuðningshóp vegna innleiðingar birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá skráarpakkann. Virkjaðu svo pakkann í LCS.
+
+> [!NOTE]
+> Ef villa vegna misræmis útgáfu kemur upp í uppsetningunni þarf að flytja inn handvirkt X++ verkið í þróunarumhverfið. Síðan skal stofna virkjanlega pakkann í þróunarumhverfinu og setja hann upp í þróunarumhverfinu.
+> 
+> Kóðinn fylgir með Supply Chain Management útgáfu 10.0.18. Ef sú útgáfa eða nýrri er keyrð þarf ekki uppsetningu.
+
+Gangið úr skugga um að kveikt sé á eftirfarandi eiginleikum í umhverfi Supply Chain Management. (Sjálfgefið er að kveikt sé á þessu.)
+
+| Lýsing eiginleika | Kóðaútgáfa | Skipta milli klasa |
+|---|---|---|
+| Gera notkun birgðavídda í InventSum-töflu virka eða óvirka | 10.0.11 | InventUseDimOfInventSumToggle |
+| Gera notkun birgðavídda í InventSumDelta-töflu virka eða óvirka | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Setja upp samþættingu fyrir Sýnileika birgða
+
+1. Í Supply Chain Management skal opna vinnusvæðið **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og kveikja á eiginleikanum **Samþætting sýnileika birgða**.
+1. Farið í **Birgðastjórnun \> Uppsetning \> Samþætting færibreyta sýnileika birgða** og færið inn vefslóð umhverfisins þar sem birgðasýnileiki er keyrður.
+
+    Finnið Azure-svæði LCS-umhverfisins og færið síðan inn vefslóðina. Vefslóðin er með eftirfarandi skjámynd:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Í Evrópu verður umhverfið til dæmis með eina af eftirfarandi vefslóðum:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Eftirfarandi svæði eru í boði sem stendur.
+
+    | Azure-svæði | Stutt heiti svæðis |
+    |---|---|
+    | Austur-Ástralía | eau |
+    | Suðaustur-Ástralía | seau |
+    | Mið-Kanada | cca |
+    | Austur-Kanda | eca |
+    | Norður-Evrópa | neu |
+    | Vestur-Evrópa | weu |
+    | Austurhluti Bandaríkjanna | eus |
+    | Vesturhluti Bandaríkjanna | wus |
+
+1. Farið í **Birgðastjórnun \> Reglubundið \> Samþætting sýnileika birgða** og virkjið verkið. Öll tilvik birgðabreytinga úr Supply Chain Management verða nú bókuð í birgðasýnileika.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>Almennt API innbótar birgðasýnileika
+
+Almennt REST API innbótar birgðasýnileikans kynnir ýmsar tilteknar endastöðvar samþættingar. Það styður þrjár aðalsamskiptaleiðir:
+
+- Bókun á lagerbirgðum breytist í innbótina úr ytra kerfi
+- Fyrirspurn um núverandi lagermagn úr ytra kerfi
+- Sjálfvirk samstilling við lagerbirgðir Supply Chain Management
+
+Sjálfvirk samstilling er ekki hluti af almennu API. Þess í stað er það meðhöndlað í bakgrunni fyrir umhverfi þar sem innbót birgðasýnileika er virk.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Sannvottun
+
+Öryggistákn verkvangsins er notað til að kalla á innbót birgðasýnileika. Þess vegna þarf að búa til *Azure Active Directory (Azure AD) tákn* með því að nota Azure AD-forritið. Þá þarf að nota Azure AD táknið til að fá *aðgangsmerkið* úr öryggisþjónustunni.
 
 Sækja merki öryggisþjónustu á eftirfarandi hátt:
 
@@ -140,27 +258,7 @@ Sækja merki öryggisþjónustu á eftirfarandi hátt:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Fjarlægja innbótina
-
-Til að fjarlægja innbótina skal velja **Fjarlægja**. Uppfærðu LCS og innbót birgðasýnileika verður fjarlægð. Fjarlægingarferlið fjarlægir innbótarskráninguna og ræsir einnig vinnslu til að hreinsa öll viðskiptagögn sem vistuð eru í þjónustunni.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Almennt API innbótar birgðasýnileika
-
-Almennt REST API innbótar birgðasýnileikans kynnir ýmsar tilteknar endastöðvar samþættingar. Það styður þrjár aðalsamskiptaleiðir:
-
-- Bókun á lager breytist í innbótina úr ytra kerfi.
-- Fyrirspurn um núverandi lagermagn úr ytra kerfi.
-- Sjálfvirk samstilling við lager Supply Chain Management.
-
-Sjálfvirka samstillingin er ekki hluti af almennu API en er í staðinn meðhöndluð í bakgrunni fyrir umhverfi sem hafa virkjað innbót birgðasýnileika.
-
-### <a name="authentication"></a>Sannvottun
-
-Öryggismerki verkvangs er notað til að kalla á innbót birgðasýnileika, þannig að nauðsynlegt er að búa til Azure Active Directory merki með því að nota Azure Active Directory-forritið.
-
-Frekari upplýsingar um hvernig á að sækja öryggismerkið er að finna í [Setja upp innbót birgðasýnileika](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Skilgreina API fyrir sýnileika birgða
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Skilgreina API fyrir sýnileika birgða
 
 Áður en þjónustan er notuð þarf að ljúka við skilgreiningarnar sem lýst er í eftirfarandi undirköflum. Skilgreiningin kann að vera mismunandi eftir því hverjar upplýsingar um umhverfið þitt eru. Hún inniheldur fyrst og fremst fjóra hluti:
 
@@ -257,7 +355,7 @@ Hér er dæmi um fyrirspurn um afurðina með lita- og stærðarsamsetningu.
 
 #### <a name="custom-measurement"></a>Sérsniðin mæling
 
-Sjálfgefið mælingarmagn er tengt við Supply Chain Management, en þú gætir hinsvegar viljað hafa magn sem er gert úr samsetningu sjálfgefinna mælinga. Til að gera þetta er hægt að hafa skilgreiningu á sérsniðnu magni, sem verður bætt við úttak lagerfyrirspurnar.
+Sjálfgefna mælingarmagnið er tengt við Supply Chain Management. Hins vegar gætir þú viljað hafa magn sem er gert úr samsetningu sjálfgefinna mælinga. Til að gera þetta er hægt að hafa skilgreiningu á sérsniðnu magni, sem verður bætt við úttak lagerfyrirspurnar.
 
 Virknin gerir einfaldlega kleift að skilgreina safn mælinga sem verður bætt við og/eða safn mælinga sem verður dregið frá til að búa til sérsniðnu mælinguna.
 

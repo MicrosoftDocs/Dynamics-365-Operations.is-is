@@ -3,7 +3,7 @@ title: Afturkalla pöntunaraðgerð á sölustað
 description: Í þessu efnisatriði eru útskýrðir eiginleikar í boði fyrir bættar síður afturköllunar á pöntun á sölustað.
 author: hhainesms
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 174821fce4baf81e4298da4b066f855bfec98ca5
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010075"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585131"
 ---
 # <a name="recall-order-operation-in-pos"></a>Afturkalla pöntunaraðgerð á sölustað
 
@@ -35,7 +35,7 @@ Skilgreining á aðgerðarhnappnum **Endurkalla pöntun** gerir fyrirtækjum kle
 
 Birtingarkostir eru eftirfarandi:
 - **Ekkert** – Þessi valkostur setur upp aðgerðina án sérstakrar birtingar. Þegar notandi opnar aðgerðina með þessari skilgreiningu verða þeir beðnir um að leita og finna pantanir eða velja úr fyrirframskilgreindum pöntunarsíum.
-- **Pantanir sem á að uppfylla** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem á að uppfylla í versluninni. Þessar pantanir eru skilgreindar fyrir sótt í verslun eða sendingu úr verslun og línur þessara pantana hafa enn ekki verið teknar til eða pakkaðar.
+- **Pantanir sem á að uppfylla** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem á að uppfylla í verslun notandans. Þessar pantanir eru skilgreindar fyrir sótt í verslun eða sendingu úr verslun og línur þessara pantana hafa enn ekki verið teknar til eða pakkaðar.
 - **Pantanir sem á að sækja** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem eru skilgreindar að verði sóttar í verslun í núverandi verslun notandans.
 - **Pantanir sem á að senda** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem eru skilgreindar að verði sendar úr núverandi verslun notandans.
 
@@ -46,7 +46,7 @@ Birtingarkostir eru eftirfarandi:
 
 ![RecallOrderMainMenu](media/recallordermain.png)
 
-Eftir að leitarskilyrði er notað, birtir forritið lista yfir samsvarandi sölupantanir.
+Eftir að leitarskilyrði er notað, birtir forritið lista yfir samsvarandi sölupantanir. Mikilvægt er að hafa í huga að þegar leitar-/síuvalkostir eru notaðir þurfa sóttar pantanir ekki að vera pantanir sem tengdar eru við núverandi verslun notanda. Þetta leitarferli mun sækja og sýna allar pantanir viðskiptavina sem passa við leitarskilyrðið jafnvel þótt pöntunin hafi verið stofnuð eða stillt á að vera uppfyllt af annarri verslun/rás eða staðsetningu vöruhúss.
 
 ![RecallOrderDetail](media/orderrecalldetail.png)
 
@@ -54,15 +54,18 @@ Notandi getur valið pöntun á listanum til að skoða frekari upplýsingar. Up
 
 Í AppBar getur notandi valið aðgerð. Það fer eftir stöðu pöntunarinnar hvort ákveðnar aðgerðir eru virkar eða ekki.
 
-- **Skila** – Keyrir skil fyrir einn eða fleiri reikninga sem tengjast valinni pöntun viðskiptavinar.
+- **Skil** – Hefjið ferlið við að stofna skil fyrir einhverja reikningsfærða afurð í valdri pöntun viðskiptavinar.
 
-- **Hætta við** – Gefa út fulla afturköllun á valinni sölupöntun.
+- **Hætta við** – Gefa út fulla afturköllun á valinni sölupöntun. Þessi valkostur verður ekki í boði fyrir pantanir sem settar eru í gang í gegnum símaversrás og er ekki hægt að nota til að hætta við pöntun að hluta til.
 
 - **Uppfylla** – Flytur notandann yfir á uppfyllingarsíðu pöntunar sem verður fyrirframsíuð fyrir valda pöntun. Aðeins pöntunarlínur sem verslun notanda má uppfylla fyrir valda pöntun eru sýndar.
 
-- **Breyta** – Leyfir notendum að gera breytingar á valinni pöntun viðskiptavinar.
+- **Breyta** – Leyfir notendum að gera breytingar á valinni pöntun viðskiptavinar. Pantanir eru aðeins breytilegar í [ákveðnum aðstæðum](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Taka til** – Ræsir tiltektarflæðið, sem gerir notandanum kleift að velja afurðirnar sem á að taka til og stofnar sölufærslu tiltektarinnar.
+- **Sótt** – Þessi valkostur verður í boði ef pöntunin er með eina eða fleiri línur úthlutaðar sem sóttar í núverandi verslun notanda. Þessi aðgerð ræsir tiltektarflæðið, sem gerir notandanum kleift að velja afurðirnar sem á að taka til og stofnar sölufærslu tiltektarinnar.
 
+## <a name="add-notifications-to-the-recall-order-operation"></a>Bæta tilkynningum við endurköllunaraðgerð pöntunar
+
+Í útgáfu 10.0.18 og nýrri er hægt að skilgreina tilkynningar sölustaðar og viðvaranir virkra reita fyrir aðgerðina **Endurköllun pöntunar** ef þess er óskað. Frekari upplýsingar er að finna í [Sýna pöntunartilkynningar á sölustað (POS)](notifications-pos.md).  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
