@@ -15,25 +15,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20ba3033dd5917406eb3b8bcb933f26fc120f721
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 273f335bc7b75f46911295c950c7f9f323cc9699
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983142"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237943"
 ---
-# <a name="create-product-model-components"></a><span data-ttu-id="8ec26-103">Stofna hluta vörulíkana</span><span class="sxs-lookup"><span data-stu-id="8ec26-103">Create product model components</span></span>
+# <a name="create-product-model-components"></a><span data-ttu-id="7cfe3-103">Stofna hluta vörulíkana</span><span class="sxs-lookup"><span data-stu-id="7cfe3-103">Create product model components</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8ec26-104">Afbrigðalíkönum afurðar sem byggir á skorðum nota íhluti sem grunneiningar til að koma á skipan vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="8ec26-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="8ec26-105">Íhlutina verður að stofna áður en byggð vörulíkan.</span><span class="sxs-lookup"><span data-stu-id="8ec26-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="8ec26-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="8ec26-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="7cfe3-104">Afbrigðalíkönum afurðar sem byggir á skorðum nota íhluti sem grunneiningar til að koma á skipan vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="7cfe3-105">Íhlutina verður að stofna áður en byggð vörulíkan.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="7cfe3-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="8ec26-107">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="8ec26-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="8ec26-108">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="8ec26-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="8ec26-109">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="8ec26-109">On the Action Pane, click Model.</span></span>
-4. <span data-ttu-id="8ec26-110">Smellt er á Íhlutum.</span><span class="sxs-lookup"><span data-stu-id="8ec26-110">Click Components.</span></span>
-5. <span data-ttu-id="8ec26-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="8ec26-111">Click New.</span></span>
-6. <span data-ttu-id="8ec26-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="8ec26-112">In the Name field, type a value.</span></span>
-7. <span data-ttu-id="8ec26-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="8ec26-113">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="8ec26-114">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="8ec26-114">Close the page.</span></span>
+1. <span data-ttu-id="7cfe3-107">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="7cfe3-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="7cfe3-108">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="7cfe3-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="7cfe3-109">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-109">On the Action Pane, click Model.</span></span>
+4. <span data-ttu-id="7cfe3-110">Smellt er á Íhlutum.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-110">Click Components.</span></span>
+5. <span data-ttu-id="7cfe3-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-111">Click New.</span></span>
+6. <span data-ttu-id="7cfe3-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-112">In the Name field, type a value.</span></span>
+7. <span data-ttu-id="7cfe3-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-113">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="7cfe3-114">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7cfe3-114">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
