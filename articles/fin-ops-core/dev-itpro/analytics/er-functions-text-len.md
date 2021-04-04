@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,41 +16,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d766b8effa9d6936de7a3def252536603330965
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fce4b5311d84364310b76545a775f1cc8db2fd70
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680362"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569969"
 ---
-# <a name="len-er-function"></a><span data-ttu-id="6a634-103">LEN ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="6a634-103">LEN ER function</span></span>
+# <a name="len-er-function"></a><span data-ttu-id="eb19f-103">LEN ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="eb19f-103">LEN ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6a634-104">Aðgerðin `LEN` skilar heiltölugildi sem sýnir fjölda staftákna í tilteknum streng sem *heiltölu*-gildi.</span><span class="sxs-lookup"><span data-stu-id="6a634-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
+<span data-ttu-id="eb19f-104">Aðgerðin `LEN` skilar heiltölugildi sem sýnir fjölda staftákna í tilteknum streng sem *heiltölu*-gildi.</span><span class="sxs-lookup"><span data-stu-id="eb19f-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6a634-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="6a634-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="eb19f-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="eb19f-105">Syntax</span></span>
 
 ```vb
 LEN (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6a634-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="6a634-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="eb19f-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="eb19f-106">Arguments</span></span>
 
-<span data-ttu-id="6a634-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="6a634-107">`text`: *String*</span></span>
+<span data-ttu-id="eb19f-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="eb19f-107">`text`: *String*</span></span>
 
-<span data-ttu-id="6a634-108">Gildið *Strengur* sem tilgreinir textann.</span><span class="sxs-lookup"><span data-stu-id="6a634-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="eb19f-108">Gildið *Strengur* sem tilgreinir textann.</span><span class="sxs-lookup"><span data-stu-id="eb19f-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6a634-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="6a634-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="eb19f-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="eb19f-109">Return values</span></span>
 
-<span data-ttu-id="6a634-110">*Heiltala*</span><span class="sxs-lookup"><span data-stu-id="6a634-110">*Integer*</span></span>
+<span data-ttu-id="eb19f-110">*Heiltala*</span><span class="sxs-lookup"><span data-stu-id="eb19f-110">*Integer*</span></span>
 
-<span data-ttu-id="6a634-111">Tölugildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="6a634-111">The resulting numeric value.</span></span>
+<span data-ttu-id="eb19f-111">Tölugildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="eb19f-111">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6a634-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="6a634-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="eb19f-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="eb19f-112">Example</span></span>
 
-<span data-ttu-id="6a634-113">`LEN ("Sample")` skilar **6**.</span><span class="sxs-lookup"><span data-stu-id="6a634-113">`LEN ("Sample")` returns **6**.</span></span>
+<span data-ttu-id="eb19f-113">`LEN ("Sample")` skilar **6**.</span><span class="sxs-lookup"><span data-stu-id="eb19f-113">`LEN ("Sample")` returns **6**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6a634-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="6a634-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="eb19f-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="eb19f-114">Additional resources</span></span>
 
-[<span data-ttu-id="6a634-115">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="6a634-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="eb19f-115">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="eb19f-115">Text functions</span></span>](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
