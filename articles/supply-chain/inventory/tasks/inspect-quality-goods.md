@@ -16,37 +16,40 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbfb3733cc52f0f8f54ab4388764429387358ee7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e37ac8c9320d427b9f9a3ca32b0e4667c7023339
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244424"
 ---
-# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="0385a-103">Kanna vörugæði</span><span class="sxs-lookup"><span data-stu-id="0385a-103">Inspect the quality of goods</span></span>
+# <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="ffc82-103">Kanna vörugæði</span><span class="sxs-lookup"><span data-stu-id="ffc82-103">Inspect the quality of goods</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0385a-104">Þetta efni útskýrir hvernig á að vinna úr gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="0385a-104">This topic explains how to process a quality order.</span></span> <span data-ttu-id="0385a-105">Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="0385a-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="0385a-106">Áður en byrjað er á þessu dæmaferli, þarf að staðfesta innkaupapöntun „000016” og bóka innhreyfingarskjal afurða.</span><span class="sxs-lookup"><span data-stu-id="0385a-106">Before you start this example procedure, you need to confirm purchase order "000016" and post a product receipt.</span></span> <span data-ttu-id="0385a-107">Þetta stofna sjálfkrafa gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="0385a-107">This will automatically create a quality order.</span></span> <span data-ttu-id="0385a-108">Gæðaeftirlit eru yfirleitt framkvæmd með því að starfsmaður á sviði gæða.</span><span class="sxs-lookup"><span data-stu-id="0385a-108">Quality inspections are typically carried out by a quality clerk.</span></span>
+<span data-ttu-id="ffc82-104">Þetta efni útskýrir hvernig á að vinna úr gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="ffc82-104">This topic explains how to process a quality order.</span></span> <span data-ttu-id="ffc82-105">Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="ffc82-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="ffc82-106">Áður en byrjað er á þessu dæmaferli, þarf að staðfesta innkaupapöntun „000016” og bóka innhreyfingarskjal afurða.</span><span class="sxs-lookup"><span data-stu-id="ffc82-106">Before you start this example procedure, you need to confirm purchase order "000016" and post a product receipt.</span></span> <span data-ttu-id="ffc82-107">Þetta stofna sjálfkrafa gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="ffc82-107">This will automatically create a quality order.</span></span> <span data-ttu-id="ffc82-108">Gæðaeftirlit eru yfirleitt framkvæmd með því að starfsmaður á sviði gæða.</span><span class="sxs-lookup"><span data-stu-id="ffc82-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="0385a-109">Velja gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="0385a-109">Select a quality order</span></span>
-1. <span data-ttu-id="0385a-110">Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastjórnun > Reglubundin verkefni > Gæðastjórnun > Gæðapantanir**.</span><span class="sxs-lookup"><span data-stu-id="0385a-110">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
-2. <span data-ttu-id="0385a-111">Veljið gæðapöntun var stofnuð áður en þetta ferli er hafið.</span><span class="sxs-lookup"><span data-stu-id="0385a-111">Select the quality order that was created before you started this procedure.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="ffc82-109">Velja gæðapöntun.</span><span class="sxs-lookup"><span data-stu-id="ffc82-109">Select a quality order</span></span>
+1. <span data-ttu-id="ffc82-110">Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastjórnun > Reglubundin verkefni > Gæðastjórnun > Gæðapantanir**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-110">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
+2. <span data-ttu-id="ffc82-111">Veljið gæðapöntun var stofnuð áður en þetta ferli er hafið.</span><span class="sxs-lookup"><span data-stu-id="ffc82-111">Select the quality order that was created before you started this procedure.</span></span>  
 
-## <a name="record-test-results"></a><span data-ttu-id="0385a-112">Skrá niðurstöðu prófunar</span><span class="sxs-lookup"><span data-stu-id="0385a-112">Record test results</span></span>
-1. <span data-ttu-id="0385a-113">Veldu **Niðurstöður**.</span><span class="sxs-lookup"><span data-stu-id="0385a-113">Select **Results**.</span></span>
-2. <span data-ttu-id="0385a-114">Veljið **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="0385a-114">Select **Edit**.</span></span>
-3. <span data-ttu-id="0385a-115">Í reitnum **Niðurstöðumagn** skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="0385a-115">In the **Result quantity** field, enter a number.</span></span>
-4. <span data-ttu-id="0385a-116">Í reitnum **Útkoma** velurðu skrána sem óskað er eftir af fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="0385a-116">In the **Outcome** field, select the desired record in the drop-down menu.</span></span>  
-- <span data-ttu-id="0385a-117">Í þessu dæmi niðurstaðan er byggt á fyrirframskilgreindu útkomu.</span><span class="sxs-lookup"><span data-stu-id="0385a-117">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="0385a-118">Vanalega væri skráð nákvæmari niðurstöður prófana, til dæmis stærð eða öðrum vídd.</span><span class="sxs-lookup"><span data-stu-id="0385a-118">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
-5. <span data-ttu-id="0385a-119">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="0385a-119">Select **Save**.</span></span>
-6. <span data-ttu-id="0385a-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="0385a-120">Close the page.</span></span>
+## <a name="record-test-results"></a><span data-ttu-id="ffc82-112">Skrá niðurstöðu prófunar</span><span class="sxs-lookup"><span data-stu-id="ffc82-112">Record test results</span></span>
+1. <span data-ttu-id="ffc82-113">Veldu **Niðurstöður**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-113">Select **Results**.</span></span>
+2. <span data-ttu-id="ffc82-114">Veljið **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-114">Select **Edit**.</span></span>
+3. <span data-ttu-id="ffc82-115">Í reitnum **Niðurstöðumagn** skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="ffc82-115">In the **Result quantity** field, enter a number.</span></span>
+4. <span data-ttu-id="ffc82-116">Í reitnum **Útkoma** velurðu skrána sem óskað er eftir af fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="ffc82-116">In the **Outcome** field, select the desired record in the drop-down menu.</span></span>  
+- <span data-ttu-id="ffc82-117">Í þessu dæmi niðurstaðan er byggt á fyrirframskilgreindu útkomu.</span><span class="sxs-lookup"><span data-stu-id="ffc82-117">In this example the result is based on a pre-defined outcome.</span></span> <span data-ttu-id="ffc82-118">Vanalega væri skráð nákvæmari niðurstöður prófana, til dæmis stærð eða öðrum vídd.</span><span class="sxs-lookup"><span data-stu-id="ffc82-118">Normally you would record a more specific test result, for example a size or other dimension.</span></span>  
+5. <span data-ttu-id="ffc82-119">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-119">Select **Save**.</span></span>
+6. <span data-ttu-id="ffc82-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ffc82-120">Close the page.</span></span>
 
-## <a name="validate-the-quality-order"></a><span data-ttu-id="0385a-121">Villuprófa gæðapöntunina</span><span class="sxs-lookup"><span data-stu-id="0385a-121">Validate the quality order</span></span>
-1. <span data-ttu-id="0385a-122">Veldu **Staðfesta**.</span><span class="sxs-lookup"><span data-stu-id="0385a-122">Select **Validate**.</span></span>
-2. <span data-ttu-id="0385a-123">Í reitnum **Staðfest af** veldu notandann sem framkvæmir skoðunina í fellivalmyndinni.</span><span class="sxs-lookup"><span data-stu-id="0385a-123">In the **Validated by** field, select the user performing the inspection from the drop-down menu.</span></span>  
-3. <span data-ttu-id="0385a-124">Smellið á **Velja**.</span><span class="sxs-lookup"><span data-stu-id="0385a-124">Click **Select**.</span></span>
-4. <span data-ttu-id="0385a-125">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="0385a-125">Select **OK**.</span></span>
-5. <span data-ttu-id="0385a-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="0385a-126">Close the page.</span></span>
+## <a name="validate-the-quality-order"></a><span data-ttu-id="ffc82-121">Villuprófa gæðapöntunina</span><span class="sxs-lookup"><span data-stu-id="ffc82-121">Validate the quality order</span></span>
+1. <span data-ttu-id="ffc82-122">Veldu **Staðfesta**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-122">Select **Validate**.</span></span>
+2. <span data-ttu-id="ffc82-123">Í reitnum **Staðfest af** veldu notandann sem framkvæmir skoðunina í fellivalmyndinni.</span><span class="sxs-lookup"><span data-stu-id="ffc82-123">In the **Validated by** field, select the user performing the inspection from the drop-down menu.</span></span>  
+3. <span data-ttu-id="ffc82-124">Smellið á **Velja**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-124">Click **Select**.</span></span>
+4. <span data-ttu-id="ffc82-125">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="ffc82-125">Select **OK**.</span></span>
+5. <span data-ttu-id="ffc82-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ffc82-126">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
