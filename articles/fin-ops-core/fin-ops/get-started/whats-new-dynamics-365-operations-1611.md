@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5856ef83ff1e101896eefbbe022e70ad954219
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e5627b605b72b8f9c84a967f88bbfdc0c54173fc
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797196"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564374"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
@@ -623,7 +622,7 @@ ms.locfileid: "4797196"
 | Skilgreindu ER-skýrslur til að mynda rafræn skjöl á Excel-, Microsoft Word eða PDF-sniði. | Eina skilgreining gerir ER-skýrslum kleift að mynda rafræn skjöl á þremur mismunandi sniðum: OpenXML-vinnublaðiði (Excel), Word og XML-gagnaeyðublöðum (XFDF) (PDF). Notendur geta valið snið með því að bæta við sniðasniðmáti við ER-skýrslu sem Excel-, Word- eða PDF-skjal. |
 | Grunnstilltu ER-skýrslur til að setja gögn inn í síðuhausa og síðufætur rafrænna skjala sem eru mynduð í vinnublaði OpenXML og til að stjórna síðuskilum. | ER-skýrslur geta sett viðskiptagögn inn í síðuhausa og síðufætur og einnig stýrt því hvar síðuskil eru gerð. Þess vegna geta skýrslur stutt fasta efri og neðri hluta fyrir síður í rafræn skjölum sem eru mynduð. Þær geta einnig stutt tiltekið síðuvíxl þessara skjala, þannig að þau samræmist lagaskilyrðum. |
 | Skilgreindu áfangastað ER-skýrslna þannig að úttak sé sent sem tölvupóstur og þannig að hægt sé að nota viðskiptagögn og viðskiptagrunninn sem ER-rök (segðir) til að tilgreina á keyrslutíma hvaða netfang eigi að nota. | Áður þegar ER-áfangastaður var skilgreindur, var hægt að skilgreina tölvupóstfang viðtakanda á á hönnunarstigi. Nú er hægt að skilgreina segð á ER-sniði. Síðan er hægt að velja þessa segð á áfangastað sem uppruna tölvupóstfangs fyrir hverja skilgreiningu sniðs og hvern úttaksíhlut (möppu eða skrá) sérstaklega. Þegar ER-skýrsla er í gangi er þess vegna hægt að póstsenda hverja skrá sem er mynduð til mismunandi viðtakanda og hægt er að skilgreina tölvupóstfang samkvæmt ER-rökum og viðskiptagögnum. |
-| Skilgreindu áfangastað ER-skýrslna þannig að úttakið sé sent í Microsoft SharePoint-möppu sem annaðhvort ný nefnd skrá eða í nýja útgáfu af fyrirliggjandi skrá og þannig er hægt að nota viðskiptagögn í Microsoft Power BI-ramma sem annaðhvort gagnasafn eða skýrslu. | Þegar ER-skýrslur eru skilgreindar er nú auðveldlega (án kóðunar) hægt að undirbúa umbeðin viðskiptagögn svo að hægt sé að nota þau af ramma Power BI. Þegar þessar ER-skýrslur eru keyrðar er hægt að veita ramma Power BI með viðkomandi viðskiptagögnum og/eða Excel-skýrslum sem þegar eru tiltækar. Ef þú raðar skýrslukeyrslum í reglubundinn ham er hægt að koma á áætluðum sendingum á viðskiptagögnum úr Dynamics 365 for Operations í Power BI til að styðja uppfærsluáætlun á Power BI-skýrslum. |
+| Skilgreindu áfangastað ER-skýrslna þannig að úttakið sé sent í SharePoint-möppu sem annaðhvort ný nefnd skrá eða í nýja útgáfu af fyrirliggjandi skrá og þannig er hægt að nota viðskiptagögn í Microsoft Microsoft Power BI-ramma sem annaðhvort gagnasafn eða skýrslu. | Þegar ER-skýrslur eru skilgreindar er nú auðveldlega (án kóðunar) hægt að undirbúa umbeðin viðskiptagögn svo að hægt sé að nota þau af ramma Power BI. Þegar þessar ER-skýrslur eru keyrðar er hægt að veita ramma Power BI með viðkomandi viðskiptagögnum og/eða Excel-skýrslum sem þegar eru tiltækar. Ef þú raðar skýrslukeyrslum í reglubundinn ham er hægt að koma á áætluðum sendingum á viðskiptagögnum úr Dynamics 365 for Operations í Power BI til að styðja uppfærsluáætlun á Power BI-skýrslum. |
 | Skilgreindu ER-skýrslum til að nota hluta af rafræna skjalinu sem hefur þegar verið myndað sem gagnagjafi til að mynda afganginn af skjalinu. | Hægt er að skilgreina ER-skýrslur sem stofna úttak á textasniði til að gera línutalningu skjals. Síðan er hægt að nota þessar upplýsingar í öðrum hlutum skjalsins til að stofna línur sem innihalda upplýsingar um samantekt. Samantektarupplýsingar (samtölur og númer) er hægt að reikna og prenta á rafrænum skjölum sem eru mynduð án þess að krefjast frekari umbreytingar gagna. Þar af leiðandi eykur þessi eiginleiki afköst skýrslukeyrslu og hjálpar til við að haldi seinni tíma viðhaldi á skilgreindu ER-sniði. |
 | Skilgreindu ER-skýrslur til að tilgreina skráarendingu fyrir rafræn skjöl sem eru mynduð á textaformi. | Hægt er að skilgreina ER-skýrslur til að stofna úttak á textasniði, þannig að hægt er að vista það sem skrá sem hefur ákveðinn nafnauka. Auk sjálfgefins .txt nafnauka er hægt að skilgreina nafnauka eins og .csv og .prn, samræmi við sniðlýsingu. |
 | Stofnaðu nýjar ER-skýrslur sem byggja á tiltekinni útgáfu ER-líkans. | Áður, þegar nýtt ER-snið var stofnað, var aðeins hægt að nota allra nýjustu útgáfu af völdu ER-líkani sem staðsetningu fyrir gagnaveitu sniðs. Núna er hægt að velja allar tiltækar útgáfur valins ER-líkans. Þessi eiginleiki gerir kleift að vinna með ER-skýrslur núverandi árs og hanna nýja útgáfu ER-líkans fyrir næsta ár samhliða. |

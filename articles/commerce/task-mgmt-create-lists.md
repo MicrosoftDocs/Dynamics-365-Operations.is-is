@@ -1,6 +1,6 @@
 ---
 title: Búðu til verkefnalista og bættu við verkum
-description: Þetta efni lýsir því hvernig á að stofna verklista og bæta verkum á þá í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að stofna verkefnalista og bæta verkum við þá í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cca5e0efd6516d02c372e8a616b6bb0c39f3088c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006211"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477830"
 ---
-# <a name="create-task-lists-and-add-tasks"></a>Búðu til verkefnalista og bættu við verkum
+# <a name="create-task-lists-and-add-tasks"></a>Búa til verkefnalista og bæta við verkum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna verklista og bæta verkum á þá í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að stofna verkefnalista og bæta verkum við þá í Microsoft Dynamics 365 Commerce.
 
 *Verk* skilgreinir tiltekið verk eða aðgerð sem einhver verður að ljúka á eða fyrir tiltekinn gjalddaga. Í Dynamics 365 Commerce getur verk innihaldið nákvæmar leiðbeiningar og upplýsingar um tengilið. Það getur einnig falið í sér hlekki á bakvinnsluaðgerðir, sölustaði (POS) eða vefsíður til að bæta framleiðni og veita það samhengi sem eigandi verkefna þarf til að ljúka verkinu á skilvirkan hátt.
 
