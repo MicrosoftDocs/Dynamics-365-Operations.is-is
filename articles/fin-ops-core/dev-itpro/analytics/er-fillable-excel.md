@@ -3,10 +3,9 @@ title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094030"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574174"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -54,7 +53,7 @@ Bæta þarf þætti **Excel\\-skráar** við skilgreint snið rafrænnar skýrsl
 Til að tilgreina útlit skjals á útleið skal hengja Excel-vinnubók með .xlsx skrárendingu við þátt **Excel\\-skrárinnar** sem sniðmát fyrir skjöl á útleið.
 
 > [!NOTE]
-> Þegar sniðmát er handvirkt hengt við þarf að nota [gerð skjals](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) sem hefur verið skilgreind í þeim tilgangi í [færibreytum rafrænnar skýrslugerðar](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Þegar sniðmát er handvirkt hengt við þarf að nota [gerð skjals](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) sem hefur verið skilgreind í þeim tilgangi í [færibreytum rafrænnar skýrslugerðar](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Viðhengi bætt við Excel\skráarþátt](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Þátturinn **PageBreak** þvingar Excel til að byrja nýja síðu. Ekki þarf að nota þennan þátt þegar nota á sjálfgefið blaðsíðutal Excel en mælt er að hann sé notaður þegar Excel á að fylgja viðkomandi sniði rafrænnar skýrslugerðar við blaðsíðutal.
 
+## <a name="footer-component"></a>Þáttur síðufótar
+
+Þáttur **Síðufótar** er notaður til að fylla inn síðufætur neðst á mynduðu vinnublaði í Excel-vinnubók.
+
+> [!NOTE]
+> Hægt er að bæta þessum þætti við fyrir hvern þátt **Vinnublaðs** til að tilgreina mismunandi síðufætur fyrir mismunandi vinnublöð í myndaðri Excel-vinnubók.
+
+Þegar stakt þáttur **Síðufótar** er skilgreindur, er hægt að nota eiginleikann **Útlit hauss/fótar** til að tilgreina síðurnar sem þátturinn er notaður fyrir. Eftirtalin gildi eru tiltæk:
+
+- **Allar** – Keyrið skilgreindan þátt **Síðufótar** fyrir allar síður yfireiningar Excel-vinnublaðs.
+- **Fyrsta** – Keyrið skilgreindan þátt **Síðufótar** fyrir aðeins fyrstu síðu yfireiningar Excel-vinnublaðs.
+- **Sléttar** – Keyrið skilgreindan þátt **Síðufótar** fyrir aðeins síður sléttra talna í yfireiningu Excel-vinnublaðs.
+- **Odda** – Keyrið skilgreindan þátt **Síðufótar** fyrir aðeins síður oddatölu í yfireiningu Excel-vinnublaðs.
+
+Fyrir einn þátt **Vinnublaðs** er hægt að bæta við ýmsum þáttum **Síðufótar** sem hver hefur mismunandi gildi fyrir eiginleikann **Útlit hauss/fótar**. Á þennan hátt er hægt að mynda mismunandi síðufætur fyrir mismunandi gerðir af síðum í Excel-vinnublaði.
+
+> [!NOTE]
+> Gangið úr skugga um að hver þáttur **Síðufótar** sem bætt er við stakan þátt **Vinnublaðs** sem með mismunandi gildi fyrir eiginleikann **Útlit hauss/fótar**. Annars kemur upp [staðfestingarvilla](er-components-inspections.md#i16). Villuboðin sem birtast láta vita af ósamræminu.
+
+Undir viðbættum þætti **Síðufótar** skal bæta við nauðsynlegum földuðum þáttum **Text\\String**, **Text\\DateTime** eða annarri gerð. Skilgreinið bindingarnar fyrir þessa þæti til að tilgreina hvernig fyllt er í síðufótinn.
+
+Einnig er hægt að nota sérstaka [sniðskóða](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) til að sníða efni myndaðs síðufótar á réttan hátt. Til að fá frekari upplýsingar um þessa nálgun skal fylgja skrefunum í [Dæmi 1](#example-1) síðar í þessu efnisatriði.
+
+> [!NOTE]
+> Þegar snið rafrænnar skýrslugerðar er skilgreint skal hafa í huga [takmörk](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel og hámarksfjölda stafa fyrir einn haus og fót.
+
+## <a name="header-component"></a>Þáttur síðuhauss
+
+Þáttur **Síðuhauss** er notaður til að fylla inn síðuhausa efst á mynduðu vinnublaði í Excel-vinnubók. Hann er notaður eins og þáttur **Síðufótar**.
+
 ## <a name="edit-an-added-er-format"></a>Breyta sniði rafrænnar skýrslugerðar sem bætt er við
 
 ### <a name="update-a-template"></a>Uppfæra sniðmát
@@ -175,6 +204,48 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
     >[!NOTE]
     > Endurútreikningur formúlu er þvingaður handvirkt þegar myndað skjal er opnað í forskoðun með Excel.
     > Ekki nota þennan valkost ef áfangastaður rafrænnar skýrslugerðar er skilgreindur sem gerir ráð fyrir notkun á mynduðu skjali án forskoðunar þess í Excel (PDF-umbreyting, sending í tölvupósti o.s.frv.) vegna þess að skjalið sem var myndað inniheldur hugsanlega ekki gildi í hólfum sem innihalda formúlur.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Dæmi 1: Sníða efni síðufótar
+
+1. Notið uppgefnar skilgreiningar rafrænnar skýrslugerðar til að [mynda](er-generate-printable-fti-forms.md) prentvænt reikningsskjal með frjálsum texta.
+2. Farið yfir síðufót myndaðs skjals. Takið eftir að hann inniheldur upplýsingar um núverandi blaðsíðutal og fjölda blaðsíðna í skjalinu.
+
+    ![Fara yfir síðufót myndaðs skjals á Excel-sniði](./media/er-fillable-excel-footer-1.gif)
+
+3. Í sniðshönnuði rafrænnar skýrslugerðar skal [opna](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) sýnishorn af rafrænu skýrslugerðarsniði til að fara yfir.
+
+    Síðufótur vinnublaðsins **Reikningur** er myndað samkvæmt stillingum tveggja þátta **Strengs** sem er að finna undir þættinum **Síðufótur**:
+
+    - Fyrsti **Strengjaþátturinn** fyllir í eftirfarandi sérstaka sniðskóða til að neyða Excel til að nota tiltekið snið:
+
+        - **&C** – Miðjujafna neðanmálstexta.
+        - **&"Segoe UI,Venjulegt"&8** – Sýna neðanmálstexta í leturgerðinni "Segoe UI Regular" í 8 punkta stærð.
+
+    - Annar **Strengjaþátturinn** fyllir í textann sem inniheldur núverandi blaðsíðutal og heildarfjölda síðna í núverandi skjali.
+
+    ![Fara yfir hlut síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni](./media/er-fillable-excel-footer-2.png)
+
+4. Sérstillið sýnishorn af sniði rafrænnar skýrslugerðar til að breyta núverandi síðufæti:
+
+    1. [Búið til](er-quick-start2-customize-report.md#DeriveProvidedFormat) afleiddan **sérstilltan reikning með frjálsum texta** fyrir rafrænt skýrslugerðarsnið sem byggir á sýnishorni rafræns skýrslugerðarsniðs.
+    2. Bætið við fyrsta nýja parinu af **Strengjaþáttum** fyrir þátt **Síðufótar** á vinnublaðinu **Reikningur**:
+
+        1. Bætið við **Strengjaþætti** sem jafnar heiti fyrirtækisins vinstra megin og sýnir það í 8 punkta stærð í leturgerðinni "Segoe UI Regular" (**"&L&"Segoe UI,Regular"&8"**).
+        2. Bætið við **Strengjaþætti** sem fyllir í heiti fyrirtæksisin (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Bætið við seinna nýja parinu af **Strengjaþáttum** fyrir þátt **Síðufótar** á vinnublaðinu **Reikningur**:
+
+        1. Bætið við **Strengjaþætti** sem jafnar úrvinnsludag hægra megin og sýnir það í 8 punkta stærð í leturgerðinni "Segoe UI Regular" (**"&R&"Segoe UI,Regular"&8"**).
+        2. Bætið við **Strengjaþætti** sem fyllir í úrvinnsludaginn á sérstilltu sniði (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Þáttur síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni yfirfarinn](./media/er-fillable-excel-footer-3.png)
+
+    4. [Ljúkið](er-quick-start2-customize-report.md#CompleteDerivedFormat) útgáfudrögum af afleidda rafræna skýrslugerðarsniðinu **Sérsniðinn reikningur með frjálsum texta (Excel)**.
+
+5. [Skilgreinið](er-generate-printable-fti-forms.md#configure-print-management) prentstýringar til að nota afleidda rafræna skýrslugerðarsniðið **Sérstilltur reikningur með frjálsum texta (Excel)** í staðinn fyrir sýnishornið af sniði rafrænnar skýrslugerðar.
+6. Búið til prentvænt reikningsskjal með frjálsum texta og skoðið síðufótinn á myndaða skjalinu.
+
+    ![Síðufótur á mynduðu skjali skoðaður á Excel-sniði](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

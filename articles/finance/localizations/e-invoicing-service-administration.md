@@ -3,7 +3,7 @@ title: Stjórnunarhlutar viðbótar rafrænnar reikningsfærslu
 description: Í þessu efnisatriði er að finna upplýsingar um hlutana sem tengjast stjórnun á viðbót rafrænnar reikningsfærslu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104395"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592575"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Stjórnunarhlutar viðbótar rafrænnar reikningsfærslu
 
@@ -39,11 +39,15 @@ Notið Microsoft Azure til að stofna leynilykil fyrir lyklageymslu og geymslure
 
 Notið Microsoft Dynamics Lifecycle Services (LCS) til að virkja viðbótina fyrir microservices fyrir LCS-uppsetningarverkið.
 
-Í LCS skal velja reitinn **Stjórnun forskoðunareiginleika** og síðan kveikja á eiginleikanum **Þjónusta rafrænnar reikningsfærslu**.
+> [!NOTE]
+> Uppsetning örþjónustuviðbóta í LCS krefst að minnsta kosti Tier 2 sýndarvélar. Nánari upplýsingar um umhverfisskipulag er að finna í [Umhverfisskipulag](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) er viðmótið sem er notað til að skilgreina viðbót rafrænnar reikningsfærslu. Tilföng eins og umhverfi og eiginleikar rafrænnar reikningsfærslu eru búin til, unnið með og hýst í RCS. Þegar tilföngin eru tilbúin eru þau birt í viðbót rafrænnar reikningsfærsluþjónustu.
+
+Fyrir RCS-innskráningu, sjá [Regulatory Services](https://marketing.configure.global.dynamics.com/).
 
 Frekari upplýsingar um RCS er að finna í [Regulatory Configuration Services (RCS) – Altækir eiginleikar](rcs-globalization-feature.md)
 
@@ -53,22 +57,14 @@ Frekari upplýsingar um RCS er að finna í [Regulatory Configuration Services (
 
 #### <a name="service-endpoint"></a>Endastöð þjónustu
 
-Vefslóð fyrir endastöð viðbótar rafrænnar reikningsfærslu getur verið breytileg eftir staðsetningu Azure-gagnamiðstöðvarinnar. Eftirfarandi tafla sýnir tiltækileika eftir svæði:
+Rafræna reikningsfærsluviðbótin er tiltæk í nokkrum Azure Datacenter löndum. Eftirfarandi tafla sýnir framboði eftir svæði.
 
-| Staðsetning Azure-gagnamiðstöðvar | ULR endastöð þjónustu                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Austurhluti Bandaríkjanna                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Vesturhluti Bandaríkjanna                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Norðurhluti Evrópusambandsins                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Vesturhluti Evrópusambandsins                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Kenni umsóknar
-
-Forritsauðkenni er kenni forrits fyrir viðbót rafrænnar reikningsfærslu. Í þessu tilfelli er gildið fast: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>Auðkenni LCS-umhverfis
-
-Auðkenni LCS-umhverfis er kenni LCS-áskriftar fyrirtækisins.
+| Staðsetning Azure-gagnamiðstöðvar |
+|----------------------------|
+| Austurhluti Bandaríkjanna                    |
+| Vesturhluti Bandaríkjanna                    |
+| Norðurhluti Evrópusambandsins                   |
+| Vesturhluti Evrópusambandsins                    |
 
 ### <a name="service-environments"></a>Þjónustuumhverfi
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992496"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457330"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Úrræðaleit fínstillingar áætlanagerðar 
 
@@ -48,12 +48,6 @@ Fínstilling áætlanagerðar krefst þess að kveikt sé á Lifecycle Services 
 Fínstilling áætlanagerðar er frábrugðin hönnun innbyggðar aðaláætlanagerðar á sumum svæðum. Þetta getur einnig stafað af eiginleikum í bið.
 
 **Lagfæra**: keyra samræmisgreiningu á fínstillingu áætlanagerðar og greina síðan niðurstöðurnar þegar vísað er í tengd fylgiskjöl til að skilja áhrifin. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>Aðaláætlanagerð virðir ekki tímamörk fyrir umfang
-
-Þetta stafar af því að eiginleiki er í bið vegna fínstillingar áætlanagerðar.
-
-**Lagfæra**: þar til eiginleiki í bið er tiltækur skal sía eða eyða áætluðum pöntunum til að fjarlægja framboðstillögur utan tímamörk fyrir umfang.
 
 ## <a name="cant-enable-planning-optimization"></a>Ekki hægt að virkja fínstillingu áætlanagerðar
 

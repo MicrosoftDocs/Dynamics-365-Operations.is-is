@@ -1,9 +1,9 @@
 ---
 title: Sjálfvirkni innheimtuferlis
-description: Þetta efnisatriði lýsir því hvernig á að setja upp aðferðir innheimtuferlis sem sjálfkrafa auðkenna reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerðar (svo sem símtals) eða innheimtubréfs sem á að senda viðskiptavininum.
+description: Þetta efnisatriði lýsir því hvernig á að setja upp aðferðir innheimtuferlis sem sjálfkrafa auðkenna reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerðar eða innheimtubréfs sem á að senda viðskiptavininum.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,23 +15,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969702"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582752"
 ---
-# <a name="collections-process-automation"></a>Sjálfvirkni innheimtuferlis
+# <a name="collections-process-automation"></a>Sjálfvirkni innheimtuferla
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að setja upp aðferðir innheimtuferlis sem sjálfkrafa auðkenna reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerðar (svo sem símtals) eða innheimtubréfs sem á að senda viðskiptavininum. 
 
-Fyrirtæki eyða verulegum tíma í að rannsaka skýrslur um aldursgreindar stöður, viðskiptavinalykla og opna reikninga til að finna út hvaða viðskiptavini þarf að hafa samband við vegna opins reiknings eða reikningsstöðu. Þessi rannsókn tekur tíma frá innheimtufulltrúanum sem fer í samskipti við viðskiptavini um að safna gjaldföllnum greiðslum eða ráða fram úr ágreiningi vegna reikninga. Sjálfvirkni innheimtuferlis gerir þér kleift að setja upp stjórnunartengda nálgun á innheimtuferlinu. Þetta hjálpar til við að beita innheimtuaðgerðum með stöðugum hætti með því að bjóða upp á sérsniðnar áminningar í tölvupósti eða forritað ferli til að senda innheimtubréf. 
+Fyrirtæki eyða verulegum tíma í að rannsaka skýrslur um aldursgreindar stöður, viðskiptavinalykla og opna reikninga til að finna út hvaða viðskiptavini ætti að hafa samband við vegna opins reiknings eða reikningsstöðu. Þessi rannsókn tekur tíma frá innheimtufulltrúanum sem fer í samskipti við viðskiptavini um að safna gjaldföllnum greiðslum eða ráða fram úr ágreiningi vegna reikninga. Sjálfvirkni innheimtuferlis gerir þér kleift að setja upp stjórnunartengda nálgun á innheimtuferlinu. Þetta hjálpar til við að beita innheimtuaðgerðum með stöðugum hætti með því að bjóða upp á sérsniðnar áminningar í tölvupósti eða forritað ferli til að senda innheimtubréf. 
 
 ## <a name="collections-process-setup"></a>Uppsetning innheimtuferlis
 Hægt er að nota síðuna **Uppsetning innheimtuferlis** (**Skuldir og innheimta > Uppsetning > Uppsetning innheimtuferlis**) til að búa til sjálfvirkt innheimtuferli sem tímasetur aðgerðir, sendir tölvupósta og stofnar og sendir innheimtubréf til viðskiptavina. Skref ferlisins byggja á fremsta eða elsta opna reikningnum. Hvert skref notar þennan reikning til að ákvarða hvaða samskipti eða aðgerð á að fara fram varðandi tiltekinn viðskiptavin.  
+
+Innheimtuhópar senda yfirleitt út tilkynningu með góðum fyrirvara sem tengist ákveðnum útistandandi reikningi þannig að viðskiptavinur er látinn vita þegar reikningur er að falla á gjalddaga. Valið **Aðgerð fyrir ítrekun** er hægt að stilla til að leyfa að bregðast við einu skrefi í hverju stigveldi ferlis fyrir hvern reikning þegar tímasetning reiknings nær því skrefi.
 
 ### <a name="process-hierarchy"></a>Stigveldi ferlis
 Hverjum viðskiptavinahóp er aðeins hægt að úthluta á eitt stigveldi ferlis. Stigveldisstaðan í þessu skrefi segir til um hvaða ferli mun hafa forgang ef viðskiptavinur er hafður með í fleiri en einum hóp sem hefur verið úthlutað ferlisstigveldi. Hópkennið ákvarðar hvaða viðskiptavinum verður úthlutað á ferlið. 
@@ -82,6 +84,7 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 |                                                           |     Viðskiptaskjal                           |     Skilgreinir sniðmát verkþáttar eða tölvupósts sem er notað við skref ferlisins.                                                                        |
 |                                                           |     Hvenær                                          |     Skilgreinir hvort úrvinnsluskrefið eigi sér stað fyrir eða eftir gjalddaga fremsta reiknings ásamt reitnum **Dagar í tengslum við gjalddaga reiknings**.        |
 |                                                           |     Dagar í tengslum við gjalddaga reiknings        |     Ásamt reitnum **Hvenær** skilgreinir hann tímasetningu skrefsins í ferlinu.                                                                          |
+|                                                           |     Aðgerð fyrir ítrekun                                   |     Þetta val gerir kleift að stilla og keyra eitt skref í hverju stigveldi ferlis á móti hverjum reikningi þegar hann nær skilyrði tímasetningarinnar.                                                |
 |                                                           |     Viðtakandi                                     |     Gefur til kynna hvort tölvupóstur verði sendur til viðskiptavinar, söluhóps eða tengiliðs innheimtuaðila.                                                   |
 |                                                           |     Viðskiptatengiliður                    |     Ákvarðar hvaða netfang viðtakanda er notað í tölvupóstsamskiptum.                                                                                 |
 
@@ -100,7 +103,7 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 ### <a name="collections-history"></a>Innheimtusaga 
 |     Síða                              |     Svæði     |      lýsing                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Uppsetning innheimtuferlis       |               |     Skoðið nýjasta ferilinn fyrir valið stigveldi ferlis.     |
+|     Uppsetning innheimtuferlis       |               |     Skoðið nýjasta ferilinn fyrir valið stigveldi ferlis.       |
 
 ### <a name="collection-process-assignment"></a>Úthlutun innheimtuferlis
 |     Síða                              |     Svæði     |      lýsing                                                  |
@@ -110,6 +113,11 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 |     Forskoða úthlutun ferlis      |               |     Forskoðið viðskiptavinina sem verður úthlutað á áætlun þegar hún er keyrð.   |
 |     Forskoða úthlutun viðskiptavinar     |               |     Skoðið stefnu sem tilteknum viðskiptamanni hefur verið úthlutað.    |
  
+ ### <a name="process-simulation"></a>Hermun aðgerðar
+|     Síða                              |     Svæði     |      lýsing                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Hermun aðgerðar                 |               |     Forskoðið aðgerðirnar sem verða stofnaðar ef valin sjálfvirkni ferlisins er keyrð á þessum tíma. |
+
 ### <a name="parameters"></a>Færibreytur
 |     Síða                                                                  |     Svæði                                             |      lýsing                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,6 +125,7 @@ Ef gerð aðgerðar er tölvupóstur í upplýsingum um ferli mun þessi hluti i
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Bóka innheimtubréf sjálfkrafa           |     Gerðir aðgerða fyrir innheimtubréf munu birta bréfið meðan sjálfvirknin er í gangi.                                      |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Stofna verkþætti fyrir sjálfvirkni                |     Stofnið og lokið verkþáttum fyrir gerðir aðgerðar sem ekki eru verkþáttargerðar til að skoða öll sjálfvirku skrefin sem eru tekin á reikningi.        |
 |     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Dagar sem geyma á sjálfvirkni innheimtuferlis     |     Skilgreinir fjölda daga sem innheimtuferill er geymdur.                                                       |
+|     Færibreytur viðskiptakrafna > Sjálfvirkni innheimtuferlis     |     Útiloka reikning eftir virkjun síðasta skref ferlis    |     Reikningur sem nær til síðasta skrefs innheimtuferlisins verður ekki notaður til að búa til gerðir sjálfvirkniaðgerða í framtíðinni. Næstelsti reikningurinn ákvarðar næsta sjálfvirkniskref til að tryggja að sjálfvirkniaðgerðir fyrir innheimtuferlið haldi áfram.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

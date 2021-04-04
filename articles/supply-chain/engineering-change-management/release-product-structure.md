@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967232"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580916"
 ---
 # <a name="release-product-structures"></a>Skipulag afurðarlosunar
 
@@ -76,8 +76,6 @@ Fyrir dæmi um hvernig á að samþykkja afurð skal skoða [Yfirfara og samþyk
 ## <a name="release-policies"></a>Losunarreglur
 
 Ekki þurfa öll rekstrarfyrirtæki sömu afurðargögnin. Almennt, rekstrarfyrirtæki sem framleiða hönnunarafurðir þurfa á uppskrift að halda, á meðan rekstrarfyrirtæki sem selja aðeins hönnunarafurðir þurfa ekki uppskrift. Hægt er að gefa út reglur til að setja á færibreyturnar sem eru notaðar fyrir losun á afurðum.
-
-Fyrir hönnunarafurðir er losunarreglunni úthlutað á flokk hönnunarafurðar og reiturinn er áskilinn. Fyrir staðlaðar afurðir er reglunni úthlutað á samnýtta afurðina og svæðið er valfrjálst.
 
 Frekari upplýsingar um flokka hönnunarafurða er að finna í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
 

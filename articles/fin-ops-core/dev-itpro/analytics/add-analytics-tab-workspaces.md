@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680937"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568491"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
@@ -28,12 +27,12 @@ ms.locfileid: "4680937"
 > [!NOTE]
 > Þessi eiginleiki er studdur í Finance and Operations (útgáfa 7.2 og síðar).
 
-## <a name="introduction"></a>Inngangur
-Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipanum **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
+## <a name="introduction"></a>Kynning
+Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.
-+ Greiningarskýrsla (.pbix skrá) sem var búin til með því að nota Microsoft Power BI Desktop, og það hefur gagnalíkan sem er sótt frá gagnagrunni einingaverslunar.
++ Greiningarskýrsla (.pbix skrá) sem var búin til með því að nota Microsoft Power BI Desktop og það hefur gagnalíkan sem er sótt frá gagnagrunni einingaverslunar.
 
 ## <a name="overview"></a>Yfirlit
 Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þitt eigið vinnusvæði geturðu notað innfelld greiningaryfirlit til að fá skýrt og gagnvirkt yfirlit yfir viðskiptagögnin þín. Ferlið til að bæta við greiningarvinnusvæðisflipa er í fjórum skrefum.

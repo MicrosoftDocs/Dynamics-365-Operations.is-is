@@ -3,7 +3,7 @@ title: Hafist handa með þjónustuveitu viðbótar rafrænnar reikningsfærslu
 description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með viðbót rafrænnar reikningsfærslu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104393"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592527"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Hafist handa með þjónustuveitu viðbótar rafrænnar reikningsfærslu
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104393"
 Áður en ferlið í þessu efnisatriði er klárað þurfa eftirfarandi skilyrði að vera til staðar:
 
 - Þú verður að hafa aðgang að reikningi á Microsoft Dynamics Lifecycle Services (LCS).
-- Þú verður að vera með LCS-verk sem inniheldur útgáfu 10.0.13 eða nýrri af Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Þar að auki verða þessi forrit að vera sett upp á einni af eftirfarandi Azure-staðsetningum:
+- Þú verður að vera með LCS-verk sem inniheldur útgáfu 10.0.17 eða nýrri af Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Þar að auki verða þessi forrit að vera sett upp á einni af eftirfarandi Azure-staðsetningum:
 
     - Austurhluti Bandaríkjanna
     - Vesturhluti Bandaríkjanna
@@ -52,6 +52,13 @@ ms.locfileid: "5104393"
 2. Veldu reitinn **Stjórnun forskoðunareiginleika**.
 3. Í hlutanum **Opnir forskoðunareiginleikar** skal velja **Þjónusta rafrænnar reikningsfærslu**.
 4. Gangið úr skugga um að valkosturinn **Virkja forskoðunareiginleika** sé stilltur á **Já**.
+5. Á LCS-stjórnborðinu skal velja LCS-uppsetningarverkið. LCS-verkið verður að vera í gangi.
+7. Í flipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+8. Veljið **Rafrænar reikningsfærsluþjónustur** og í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
+10. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
+11. Farið yfir skilmálana og veljið því næst gátreitinn.
+12. Velja **Setja upp**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Setja upp færibreytur fyrir RCS-samþættingu við viðbót rafrænnar reikningsfærslu
 
@@ -73,7 +80,7 @@ ms.locfileid: "5104393"
 ## <a name="create-key-vault-secret"></a>Stofna leynilykil lyklageymslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, undir hlutanum **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Viðbót rafrænnar reikningsfærslu**.
 3. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi** og síðan velja **Færibreytur lyklageymslu**.
 4. Veljið **Nýr** til að stofna leynilykil lyklageymslu.
 5. Í reitinn **Heiti** skal slá inn heiti á leynilykli lyklageymslu. Í reitnum **Lýsing** skal færa inn lýsingu.
@@ -82,22 +89,31 @@ ms.locfileid: "5104393"
 
 ## <a name="create-storage-account-secret"></a>Stofna leynilykil geymslureiknings
 
-1. Á síðunni **Færibreytur lyklageymslu**, í hlutanum **Vottorð**, skal velja **Bæta við**.
-2. Í reitinn **Heiti** skal færa inn það sama fyrir leynilykil geymslureiknings. Í reitnum **Lýsing** skal færa inn lýsingu.
-3. Í reitnum **Gerð** skal velja **Vottorð**.
-4. Veljið **Vista** og lokið síðan skjámyndinni.
+1. Farið í **Kerfisstjórnun** > **Uppsetning** > **Færibreytur lyklageymslu** og veljið leynilykil lyklageymslu.
+2. Í hlutanum **Vottorð** skal velja **Bæta við**.
+3. Í reitinn **Heiti** skal færa inn heiti leynilykils geymslureikningsins og í reitinn **Lýsing** skal færa inn lýsingu.
+4. Í reitnum **Gerð** skal velja **Vottorð**.
+5. Veljið **Vista** og lokið síðan skjámyndinni.
+
+## <a name="create-a-digital-certificate-secret"></a>Búa til leynilykil stafræns vottorðs
+
+1. Farið í **Kerfisstjórnun** > **Uppsetning** > **Færibreytur lyklageymslu** og veljið leynilykil lyklageymslu.
+2. Í hlutanum **Vottorð** skal velja **Bæta við**.
+3. Í reitinn **Heiti** skal færa inn heiti leynilykils stafræns vottorðs og í reitinn **Lýsing** skal færa inn lýsingu.
+4. Í reitnum **Gerð** skal velja **Vottorð**.
+5. Veljið **Vista** og lokið síðan skjámyndinni.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Stofna umhverfi fyrir viðbót rafrænnar reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, undir hlutanum **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Viðbót rafrænnar reikningsfærslu**.
 
 ## <a name="create-a-service-environment"></a>Stofna þjónustuumhverfi
 
 1. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi**.
 2. Velja skal **Nýtt** til að stofna nýtt þjónustuumhverfi.
 3. Í reitinn **Heiti** skal slá inn heiti á umhverfi rafrænnar reikningsfærslu. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Í reitnum **SAS-leynilykill geymslu** skal velja heiti vottorðsins sem þarf að nota til að auðkenna aðgang að geymslureikningnum.
+4. Í reitnum **SAS-leynilykill geymslu** skal velja heiti leynilykils geymslureikningsins sem þarf að nota til að auðkenna aðgang að geymslureikningnum.
 5. Í hlutanum **Notendur** skal velja **Bæta við** til að bæta við notanda sem hefur heimild til að senda inn rafræna reikninga í gegnum umhverfið og einnig tengjast við geymslureikninginn.
 6. Í reitinn **Notandakenni** skal færa inn samnefni notandans. Í reitinn **Tölvupóstur** skal færa inn netfang notandans.
 7. Veljið **Vista**.

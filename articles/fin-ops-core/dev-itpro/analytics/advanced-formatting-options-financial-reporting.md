@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093163"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568467"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
@@ -283,10 +282,10 @@ Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin se
 > [!NOTE]
 > Ef nota á þessa aðgerð verður skipuritið að vera tengt línuskilgreiningunni.
 
-Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið **Tengdar formúlur/línur/einingar** í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningurinn verður að nota skilyrtan útreikning sem hefst á **IF @Unit**. Hér er dæmi: EF @Unit(SALES) SÍÐAN @100 ELSE 0 Þessi útreikningur felur í sér upphæðina úr línu 100 í hverjum dálki í skýrslunni, en eingöngu fyrir SALES-einingar. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka **OR**-samsetningar með í **IF**-yrðingu. Hér er dæmi: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Hægt er að tilgreina einingu í takmörkun af útreikningsgerð á einn af eftirfarandi háttum:
+Útreikningslínan getur vísað til útreikningslínu eða fjárhagsgagnalínu. Útreikningurinn er skráður í hólfið **Tengdar formúlur/línur/einingar** í línuskilgreiningunni ásamt takmörkunum fjárhagsgagnagerða. Útreikningurinn verður að nota skilyrtan útreikning sem hefst á **IF \@Unit**. Hér er dæmi: EF @Unit(SALES) SÍÐAN @100 ELSE 0 Þessi útreikningur felur í sér upphæðina úr línu 100 í hverjum dálki í skýrslunni, en eingöngu fyrir SALES-einingar. Ef margar einingar heita SALES birtist upphæðin í hverri þessara eininga. Auk þess gæti lína 100 verið fjárhagsgagnalína og skilgreind sem ekki til prentunar. Í þessu tilfelli er komið í veg fyrir að upphæðin birtist í öllum einingum í trénu. Einnig er hægt að takmarka upphæðina við stakan dálk í skýrslunni með því að nota dálkatakmarkanir, eins og dálk H, til að prenta gildið eingöngu í þessum dálk skýrslunnar. Hægt er að taka **OR**-samsetningar með í **IF**-yrðingu. Hér er dæmi: **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Hægt er að Tilgreina einingu á takmörkun gerðar útreiknings á eftirfarandi vegu:
 
-- Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis býður **IF @Unit(SALES)** upp á að reikna út fyrir hverja einingu sem kallast SALES, jafnvel þótt nokkrar einingar með heitinu SALES séu í skipuritinu.
-- Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis færirðu inn **EF @Unit (ACME: VSK**) til að takmarka útreikning í SALES-eininga í ACME fyrirtækisinu.
+- Færa inn heiti einingar til að taka með samsvarandi einingar. Til dæmis býður **IF \@Unit(SALES)** upp á að reikna út fyrir hverja einingu sem kallast SALES, jafnvel þótt nokkrar einingar með heitinu SALES séu í skipuritinu.
+- Færið inn heiti fyrirtækis og einingar til að takmarka útreikninginn tilgreindar einingar í tilgreindu fyrirtæki. Til dæmis færirðu inn **IF @Unit (ACME: SALES**) til að takmarka útreikning í SALES-eininga í ACME fyrirtækisinu.
 - Færið inn fullan stigveldiskóðann úr skipuritinu til að takmarka útreikninginn við tiltekna einingu. Til dæmis færirðu inn **EF @Unit (SAMANTEKT ^ ACME ^ WEST COAST ^ VSK)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin se
 
 1. Smellið á **Línuskilgreiningar** í Report Designer og opnið svo línuskilgreininguna sem á að breyta.
 2. Tvísmellið á hólfið **Sniðkóði** og veljið síðan **CAL**.
-3. Smellið á hólfið **Tengdar formúlur/línur/einingar** og færið síðan inn skilyrta útreikninginn sem byrjar á **IF @Unit**.
+3. Smellið á hólfið **Tengdar formúlur/línur/einingar** og færið síðan inn skilyrta útreikninginn sem byrjar á **IF \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>IF/THEN/ELSE-yrðingar í dálkskilgreiningu
 
@@ -310,6 +309,5 @@ Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin se
 Hægt er að hanna skýrslur með því að nota víddargildi sem inniheldur og-merkið (&).
 
 Inn í hvaða **Tengja við fjárhagsvídd** reit er hægt að slá inn gildi á borð við **'P&L'**. Að hafa með einfaldar gæsalappir (' ') báðum megin við víddargildið gefur til kynna að verið sé að nota bókstaflegt gildi, t.d. að hafa með (&) og-merkið.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
