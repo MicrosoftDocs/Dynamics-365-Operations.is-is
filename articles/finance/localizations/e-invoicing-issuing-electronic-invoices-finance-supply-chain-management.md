@@ -3,7 +3,7 @@ title: Gefa út rafræna reikninga í Finance and Supply Chain Management
 description: Í þessu efnisatriði er útskýrt hvernig á að gefa út rafræna reikninga í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management í gegnum viðbót rafrænnar reikningsfærslu.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104394"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486954"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Gefa út rafræna reikninga í Finance and Supply Chain Management
 
@@ -35,25 +35,35 @@ ms.locfileid: "5104394"
 
 ## <a name="feature-activation"></a>Aðgerð virkjun
 
-Til að byrja að gefa út rafræna reikninga í gegnum viðbót rafrænnar reikningsfærslu er nauðsynlegt að virkja tilvísun eiginleikans í Finance and Supply Chain Management.
+Til gefa út rafræna reikninga í gegnum viðbót rafrænnar reikningsfærslu þarf að virkja eiginleikann í Finance and Supply Chain Management.
 
-Hver tilvísun í eiginleika samsvarar tilteknum eiginleika rafrænnar reikningsfærslu sem fylgir kröfum rafrænnar reikningsfærslu í landi/svæði.
+Hver eiginleiki samsvarar tilteknum eiginleika rafrænnar reikningsfærslu sem fylgir kröfum rafrænnar reikningsfærslu fyrir land/svæði.
 
-Eftirfarandi tafla sýnir lista yfir tilvísanir í eiginleika sem viðbót rafrænnar reikningsfærslu styður.
+Eftirfarandi tafla sýnir lista yfir eiginleika sem viðbót rafrænnar reikningsfærslu kann að styðja.
 
-| Tilvísun eiginleika | Nafn                                              | Land/svæði |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e Federal - Rafrænn reikningur fyrir Brasilíu       | Brasilía         |
-| BR-00095          | NFS-e brasilískir rafrænir reikningar               | Brasilía         |
-| DK-00001          | Rafræn reikningsfærsla fyrir opinbera geirann (OIOUBL) - DK    | Danmörk        |
-| EG-00008          | Rafræn reikningsfærsla fyrir Egyptaland                             | Egyptaland          |
-| ES-00025          | Rafrænn reikningur fyrir opinbera geirann           | Spánn          |
-| EUR-00023         | Rafræn reikningsfærsla Evrópusambandsins fyrir opinbera geirann       | Evrópa         |
-| ITA-00036         | IT – Rafræn reikningsfærsla fyrir opinbera geirann (FatturaPA) | Ítalía          |
-| MX-00010          | Rafrænir reikningar CFDI                                  | Mexíkó         |
-| MX-00016          | Rafræn reikningsfærsla CFDI - afturköllunarferli           | Mexíkó         |
+| Nafn                                              | Land/svæði |
+|---------------------------------------------------|----------------|
+|Austurrískur rafrænn reikningur                        |Austurríki         |
+|Belgískur rafrænn reikningur                         |Belgía         |
+|NF-e Ríki - rafrænn reikningur fyrir Brasilíu       |Brasilía          |
+|NFS-e - Brasilísk Þjónusta (borg) rafrænn reikningur|Brasilía          |
+|Danskur rafrænn reikningur                          |Danmörk         |
+|Egypskur rafrænn reikningur                        |Egyptaland           |
+|Eistneskur rafrænn reikningur                        |Eistland         |
+|Finnskur rafrænn reikningur                         |Finnland         |
+|Franskur rafrænn reikningur                          |Frakkland          |
+|Þýskur rafrænn reikningur                          |Þýskaland         |
+|PEPPOL - altækur rafrænn reikningur                 |Altæk          |
+|Ítalskur rafrænn reikningur                         |Ítalía           |
+|CFDI - Mexíkóskur rafrænn reikningur                  |Mexíkó          |
+|Hollenskur rafrænn reikningur                           |Holland     |
+|Norskur rafrænn reikningur                       |Noregur          |
+|Spænskur rafrænn reikningur                         |Spánn           |
 
-Þar sem um er að ræða eldri eiginleika rafrænnar reikningsfærslu, sem styður staðbundið umfang landsins, virkjar virkjun tilvísunar í eiginleika útgáfu rafrænna reikninga í gegnum viðbót rafrænnar reikningsfærslu og slekkur á gamla eiginleikanum.
+Þegar til staðar er eldri eiginleiki rafrænnar reikningsfærslu sem er studdur í staðbundnu umfangi lands/svæðis mun virkjun eins þessara eiginleika slökkva á eldri eiginleikanum og virkja rafræna reikninga til að vera gefna út í gegnum viðbót rafrænnar reikningsfærslu.
+
+> [!IMPORTANT]
+> Þegar samþættingareiginleiki viðbótar rafrænnar reikningsfærslu er virkjaður er sjálfgefið slökkt á upplifun nýrrar rafrænnar reikningsfærslu. Hægt er að nota hugmynd eiginleikans til að velja hvaða upplifanir eigi að virkja fyrir lögaðila með því að nota lands-/svæðisbundna virkni. Valkosturinn **Altækt** stýrir nýju upplifuninni fyrir hin löndin/svæðin sem eru ekki sérstaklega tilgreind í töflunni.
 
 ## <a name="submit-electronic-documents"></a>Senda inn rafræn skjöl
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 1192a45d0d2fffbe2ecba65551641c090c08db8e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115973"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463431"
 ---
 # <a name="leave-and-absence-overview"></a>Yfirlit yfir leyfi og fjarvistir
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum mikinn orlof. Vinnusvæðið **Leyfi og fjarvistir** býður upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí. Greining hjálpar fyrirtækinu þínu að mæla og fylgjast með orlofshlutfalli og notkun vegna orlofssókna.
 
