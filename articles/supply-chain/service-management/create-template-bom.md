@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b34cc2e9921df6e3ef619e2b2adaf8d2069fbac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5afcb8171b674281faf8100d5c01fdff8d6ff764
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974561"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470786"
 ---
 # <a name="create-a-template-bom"></a>Stofna sniðmátsuppskrift   
 
@@ -33,9 +33,9 @@ Hægt er að stofna sniðmátsuppskrift með hvaða af eftirfarandi aðferðum. 
 
 ## <a name="create-a-template-bom-manually"></a>Stofna sniðmátsuppskrift handvirkt
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
+1.  Opnið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
 
-2.  Ýttu á CTRL + N til að opna **Búa til sniðmátsuppskrift** skjámynd.
+2.  Veljið **Nýtt** til að opna **Búa til sniðmátsuppskrift** skjámynd.
 
 3.  Undir **Afrita uppskriftarlínur frá tilvísun**, veldu **Handvirkt** valkostinn.
 
@@ -45,15 +45,15 @@ Hægt er að stofna sniðmátsuppskrift með hvaða af eftirfarandi aðferðum. 
 
 6.  Í **Frá dagsetningu** og **Til dagsetningar** reitina, slá inn dagsetningu millibili þar sem sniðmátsuppskriftin er virkt.
 
-7.  Smelltu á **Í lagi**.
+7.  Veljið **Í lagi**.
 
 Ný, tóm sniðmátsuppskrift er stofnuð.
 
 ## <a name="create-a-template-bom-based-on-another-template-bom"></a>Stofna sniðmátsuppskrift sem byggð er á annarri sniðmátsuppskrift
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
+1.  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
 
-2.  Ýttu á CTRL + N til að opna **Búa til sniðmátsuppskrift** skjámynd.
+2.  Veljið **Nýtt** til að opna **Búa til sniðmátsuppskrift** skjámynd.
 
 3.  Undir **Afrita uppskriftarlínur frá tilvísun**, veldu **Sniðmátsuppskrift** valkostinn.
 
@@ -63,15 +63,15 @@ Ný, tóm sniðmátsuppskrift er stofnuð.
 
 6.  Í **Frá dagsetningu** og **Til dagsetningar** reitina, slá inn dagsetningu millibili þar sem sniðmátsuppskriftin er virkt.
 
-7.  Smelltu á **Í lagi**.
+7.  Veljið **Í lagi**.
 
 Ný sniðmátsuppskrift er stofnuð með því að notast við línur sem samsvara línunum í upprunalegu sniðmátsuppskriftinni.
 
 ## <a name="create-a-template-bom-based-on-an-item-bom"></a>Stofna sniðmátsuppskrift sem byggð er á uppskriftarvöru
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
+1.  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
 
-2.  Ýttu á CTRL + N til að opna **Búa til sniðmátsuppskrift** skjámynd.
+2.  Veljið **Nýtt** til að opna **Búa til sniðmátsuppskrift** skjámynd.
 
 3.  Undir **Afrita uppskriftarlínur frá tilvísun**, veldu **Uppskrift**.
 
@@ -81,15 +81,15 @@ Ný sniðmátsuppskrift er stofnuð með því að notast við línur sem samsva
 
 6.  Í **Frá dagsetningu** og **Til dagsetningar** reitina, slá inn dagsetningu millibili þar sem sniðmátsuppskriftin er virkt.
 
-7.  Smelltu á **Í lagi**.
+7.  Veljið **Í lagi**.
 
 Nýtt sniðmátsuppskrift er búið til með því að nota línur sem samsvara línunum í uppskriftinni sem er skráð í **Uppskriftir**.
 
 ## <a name="create-a-template-bom-based-on-a-production-bom"></a>Stofna sniðmátsuppskrift sem byggð er á framleiðsluuppskrift
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
+1.  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutir** \> **Sniðmátsuppskriftir**.
 
-2.  Ýttu á CTRL + N til að opna **Búa til sniðmátsuppskrift** skjámynd.
+2.  Veljið **Nýtt** til að opna **Búa til sniðmátsuppskrift** skjámynd.
 
 3.  Undir **Afrita uppskriftarlínur frá tilvísun**, veldu **Framleiðsla**.
 
@@ -99,7 +99,7 @@ Nýtt sniðmátsuppskrift er búið til með því að nota línur sem samsvara 
 
 6.  Í **Frá dagsetningu** og **Til dagsetningar** reitina, slá inn dagsetningu millibili þar sem sniðmátsuppskriftin er virkt.
 
-7.  Smelltu á **Í lagi**.
+7.  Veljið **Í lagi**.
 
 Nýtt sniðmátsuppskrift er búið til með því að nota línur sem samsvara línunum í Uppskrift sem er skráð í **Uppskrift**.
 

@@ -1,6 +1,6 @@
 ---
 title: Búa til virkniforstillingu á netinu
-description: Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að stofna virkniforstillingu í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969977"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477733"
 ---
 # <a name="create-an-online-functionality-profile"></a>Búa til virkniforstillingu á netinu
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni birtir yfirlit yfir að setja upp netsniðsforrit fyrir Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði sýnir yfirlit yfir uppsetningu á virkniforstillingu fyrir Microsoft Dynamics 365 Commerce.
 
 Online virkni sniðið veitir ýmsar stillingar sem notaðar eru fyrir netrásir. Hver rás á netinu verður að tilgreina prófíl á netinu.
 

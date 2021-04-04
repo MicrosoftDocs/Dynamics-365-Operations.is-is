@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142324"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487026"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142324"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Þetta efnisatriði lýsir því hvernig á að skilgreina nýja farsímaforrit vöruhúsakerfisins sem er sem stendur í opinni forútgáfu. Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla vöruhúsaforritið skal skoða [Setja upp og tengja vöruhúsaforrit](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Þetta efnisatriði lýsir því hvernig á að skilgreina nýja farsímaforrit vöruhúsakerfisins. Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla vöruhúsaforritið skal skoða [Setja upp og tengja vöruhúsaforrit](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Hægt er að sækja opna forútgáfu af farsímaforriti vöruhúsakerfisins í forritamiðstöð Microsoft. Það er gefið út sem sjálfstæður hluti. Þess vegna þarf að sækja það í hvert tæki og stilla það svo á tengingu við Microsoft Dynamics 365 Supply Chain Management -umhverfið.
-
-Þetta efnisatriði útskýrir hvernig á að setja upp farsímaforrit Vöruhúsakerfis og grunnstilla það til að tengja það við stjórnunarumhverfi Supply Chain Management. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
+Þetta efnisatriði útskýrir hvernig á að sækja og setja upp farsímaforrit Vöruhúsakerfis og grunnstilla forritið til að tengja það við stjórnunarumhverfi Supply Chain Management. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
 
 ## <a name="system-requirements"></a>Kerfiskröfur
 
@@ -53,17 +51,27 @@ Farsímaforrit vöruhúsakerfisins er í boði fyrir bæði stýrikerfi Windows 
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Sækja farsímaforrit vöruhúsakerfis
 
-Notaðu einn eftirfarandi tengla til að sækja forritið:
+Fyrir smærri uppsetningar er yfirleitt sett upp forritið á hverju tæki úr viðkomandi verslun á hverju tæki og grunnstilla tenginguna sjálfkrafa í því umhverfi sem notað er.
 
-- **Windows (UWP):** [Forútgáfa forrits forritamiðstöðvar - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Fyrir stærri uppsetningar er hægt að gera uppsetningu og/eða grunnstillingu forrits sjálfvirka, sem getur reynst hentugara ef verið er að stýra mörgum tækjum. Til dæmis gætu verið notaðar fartækjastjórnunar- og farsímaforritastjórnunarlausnir á borð við [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Upplýsingar um hvernig á að nota Intune til að bæta við forritum eru í [Bæta forritum við Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Vegna þess að forritið er í forútgáfu þarf að fara í gegnum nokkur aukaskref til að setja það upp. Frekari upplýsingar er að finna í [Setja upp smíði úr forritasmiðstöð](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Setja upp forritið úr forritsverslun
 
-- **Android:** [Forútgáfa forrits forritamiðstöðvar - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Auðveldasta leiðin til að setja upp forritið á einu tæki er að setja það upp úr forritsverslun sem býður alltaf upp á nýjustu útgáfu sem er í boði. Microsoft Intune getur einnig sótt forrit úr forritaverslunum. Notaðu einn eftirfarandi tengla til að sækja forritið úr forritaversluninni og setja það upp:
 
-    Vegna þess að forritið er í forútgáfu þarf að fara í gegnum nokkur aukaskref til að setja það upp. Frekari upplýsingar er að finna í [Prófun Android-forrita](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Vöruhúsakerfi í Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Fyrir smærri uppsetningar er hægt að setja upp forritið á hverju tæki úr viðkomandi verslun á hverju tæki og grunnstilla tenginguna sjálfkrafa í því umhverfi sem notað er. Hins vegar er einnig hægt að gera uppsetningu og/eða skilgreiningu forrits sjálfvirka. Hugsanlega er þessi nálgun þægilegri ef verið er að vinna með mörg tæki og verið er að nota fartækjastjórnunar- og farsímaforritastjórnunarlausnir á borð við [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Upplýsingar um hvernig á að nota Intune til að bæta við forritum eru í [Bæta forritum við Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Vöruhúsakerfi á Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Sækja forritið úr forritamiðstöð Microsoft
+
+Í stað þess að setja upp í gegnum forritaverslun er hægt að sækja forritið frá forritamiðstöð Microsoft. Forritamiðstöðin býður upp á uppsetningarpakka sem hægt er að hlaða milli tækja. Til viðbótar við núverandi útgáfu gerir forritamiðstöðin einnig kleift að sækja eldri útgáfur og gæti boðið upp á forútgáfur af væntanlegum eiginleikum sem hægt er að prófa. Til að sækja núverandi eða eldri útgáfu eða forútgáfur af fartækjaforriti vöruhúsakerfisins úr forritamiðstöð Microsoft skal nota einn af eftirfarandi tenglum:
+
+- **Windows (UWP):** [Vöruhúsakerfi (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Leiðbeiningar um hvernig á að setja upp sóttan pakka í Windows-tæki og síðan setja upp áskilin leyfi er að finna í [Setja upp smíð frá forritastöð](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Vöruhúsakerfi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Ef forútgáfa forritsins er sótt þarf að fara í gegnum nokkur aukaskref til að setja það upp. Frekari upplýsingar er að finna í [Prófun Android-forrita](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Búa til vefþjónustuforrit í Azure Active Directory
 

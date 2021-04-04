@@ -2,11 +2,10 @@
 title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Í þessu efnisatriði er að finna upplýsingar um stjórnun á áfangastöðum rafrænnar skýrslugerðar, gerðir studdra áfangastaða og öryggissjónarmið.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097282"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569720"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -166,12 +165,14 @@ Til að gera PDF umbreytingarvalkostinn tiltækan í núverandi tilviki Finance,
 
 ### <a name="applicability"></a>Gildissvið
 
-Aðeins er hægt að kveikja á valkosti PDF-umbreytingar fyrir skráarhluta sem eru notaðir til að mynda úttak á Office-sniði (Excel eða Word) (**Excel-skrá**). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið.
-
-### <a name="limitations"></a>Takmarkanir
+Aðeins er hægt að kveikja á valkosti PDF-umbreytingar fyrir skráarhluta sem eru notaðir til að mynda úttak á Office-sniði (Excel eða Word) (**Excel-skrá**). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið. Í útgáfum Finance **á undan útgáfu 10.0.18** er aðeins hægt að kveikja á þessum valkosti fyrir þætti af gerðinni **Excel\\skrá** sem eru notaðir til að mynda úttak á [Excel-sniði](er-fillable-excel.md) eða [Word-sniði](er-design-configuration-word.md). Í **útgáfu 10.0.18 og nýrri** er hins vegar einnig hægt að kveikja á þessum valkosti fyrir þætti af gerðinni **Algeng\\skrá**.
 
 > [!NOTE]
-> Þessi eiginleiki er forsýningaraðgerð og er háð þeim notkunarskilmálum sem lýst er í [Viðbótarskilmálar notkunar fyrir Microsoft Dynamics 365 Forskoðanir](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Athugið villuboðin sem koma upp þegar kveikt er á valkosti PDF-breytingar fyrir rafræna skýrslugerðarþætti af gerðinni **Algeng\\skrá**. Þessi skilaboð gefa til kynna að ekki sé hægt að tryggja, á hönnunartíma, að valinn skráarþáttur muni sýna efnið á PDF-sniði eða efni sem umbreytt er yfir í PDF á keyrslutíma. Því ætti aðeins að kveikja á valkostinum ef öruggt er að valinn skráarþáttur hafi verið skilgreindur til að sýna efni á PDF-sniði eða efni sem umbreytt er yfir í PDF á keyrslutíma.
+> 
+> Ef kveikt er á valkosti PDF-umbreytingar fyrir þátt af gerðinni **Excel\\skrá**, ef sá þáttur sýnir efni á sniði öðru en PDF, og ef ekki er hægt að umbreyta sýnt efni yfir á PDF-snið, mun undantekning eiga sér stað á keyrslutíma. Skilaboðin sem koma upp segja að ekki sé hægt að umbreyta myndað efni yfir á PDF-snið.
+
+### <a name="limitations"></a>Takmarkanir
 
 Valkostur PDF-umbreytingar er aðeins í boði fyrir uppsetningar í skýi.
 

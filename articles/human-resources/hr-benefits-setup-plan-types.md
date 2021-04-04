@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112959"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463913"
 ---
 # <a name="create-plan-types"></a>Stofna gerðir áætlana
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar. Til dæmis, áætlunartegund Grunnlífsins myndi hafa tegundar kóðans Líf vegna þess að hún er eins konar líftryggingaráætlun og verður að vera í samræmi við reglur sem settar voru fyrir gerð kóða lífsins. Önnur áætlunartegund gæti verið viðbótarlíf, einnig með tegundar kóða kóða Líf.
 

@@ -3,7 +3,7 @@ title: Yfirlit yfir aðgerðir viðskiptavina
 description: Í þessu efnisatriði er að finna yfirlit yfir nýja aðgerðagetu viðskiptavina sem er í boði í verslunarforritinu.
 author: bebeale
 manager: AnnBe
-ms.date: 01/29/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
+ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097256"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5554995"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -34,7 +34,7 @@ Margir smásalar, sérstaklega smásalar með dýra sérvöru, vilja að sölua�
 
 ## <a name="client-book"></a>Biðlarabók
 
-Í Microsoft Dynamics 365 Commerce geta smásalar notað virkni viðskiptavinabókarinnar til að hjálpa starfsfólki verslunarinnar að mynda langtímasambönd við helstu viðskiptavini.
+Í Microsoft Dynamics 365 Commerce geta smásöuaðilar notað bókarvirkni til að hjálpa aðilum tengdum verslunum að mynda langtímatengsl við lykilviðskiptavini.
 
 Biðlarabókin inniheldur spjöld viðskiptavina sem sýna samskiptaupplýsingar fyrir hvern viðskiptavin ásamt þremur öðrum eiginleikum sem eru skilgreindir af smásöluaðilanum og grunnstilltir í höfuðstöðvum. Söluaðilar geta ákveðið þrjá mikilvægustu hlutina sem söluaðilar ættu að vita um viðskiptavini. Til dæmis gæti skartgripasöluaðili viljað hafa með mikilvægar dagsetningar eins og brúðkaupsafmæli eða afmælisdaga, því þessar dagsetningar eru tilefni þar sem fólk gæti keypt fleiri skartgripi. Að sama skapi gæti tískuverslun viljað hafa með kaupáhuga og vörumerki viðskiptavinarins.
 
