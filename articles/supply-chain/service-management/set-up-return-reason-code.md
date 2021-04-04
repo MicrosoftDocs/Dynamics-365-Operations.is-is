@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991716"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470669"
 ---
 # <a name="set-up-return-reason-codes"></a>Setja upp ástæðukóða skila   
 
@@ -31,9 +31,9 @@ ms.locfileid: "4991716"
 
 ## <a name="set-up-return-reason-code-groups"></a>Uppsetning flokka ástæðukóða skila 
 
-1.  Smelltu á **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Flokkar ástæðukóða skila**.
+1.  Opnaðu **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Flokkar ástæðukóða skila**.
 
-2.  Styðjið á CTRL+N til þess að stofna línu fyrir flokk ástæðukóða skila.
+2.  Veljið **Nýtt** til þess að stofna línu fyrir flokk ástæðukóða skila.
 
 3.  Í reitinn **Flokkur ástæðukóða skila** er fært inn kenni fyrir flokkinn.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991716"
 
 Þetta ferli hjálpar til við að setja upp ástæðukóða fyrir skil sem hægt er að nota til að tilgreina ástæðuna fyrir því að afurð var skilað af viðskiptamanni.
 
-1.  Smelltu á **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Ástæðukóðar skila**.
+1.  Opnið **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Skil** \> **Ástæðukóðar skila**.
 
 2.  Styðjið á CTRL + N til að stofna nýja línu ástæðukóða skila.
 

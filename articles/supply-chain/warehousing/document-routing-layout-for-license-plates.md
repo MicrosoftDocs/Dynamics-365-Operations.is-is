@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973761"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558263"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
 
 [!include [banner](../includes/banner.md)]
+
 
 Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og gögnin sem eru prentuð á þá. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
 
@@ -51,6 +52,10 @@ Sem hluti af prentunarferlinu verður textanum `$LicensePlateId$` í þessu dæm
 Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrirspurnir og skýrslur \> Merkimiðar á númeraplötum**.
 
 Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins. Mörg þessara verkfæra styðja sniðið `$FieldName$`. Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
+
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Aukið skipulag á númeraplötumerki*.
 
 ## <a name="custom-number-formats"></a>Sérsniðin tölusnið
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963311"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470520"
 ---
 # <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
@@ -239,7 +239,7 @@ Hægt er að skilgreina margar aðgerðir í staðsetningarleiðbeiningum fyrir 
     - **Námunda upp í heila númeraplötu og FEFO-runu** – Þessi stefna sameinar einingar fyrir stefnurnar *Frátekt á FEFO-runu* og *Námunda upp í heila númeraplötu*. Hún gildir aðeins fyrir runuvörur og staðsetningarleiðbeiningar sem eru með verkgerðina *Tiltekt*. Línan verður að vera runuvirk til að nota stefnuna *Frátekt á FEFO-runu* og stefnan *Námunda upp í heila númeraplötu* er aðeins hægt að nota fyrir áfyllingu. Ef þessi stefna er skilgreind saman með birgðamörkum staðsetningar, getur hún valdið því að valin staðsetning frágangsvinnu verði ofhlaðin og birgðamörk verði hunsuð.
     - **Slétta upp í heila númeraplötu** - Þessi aðferð sléttar upp birgðamagnið þannig að það samsvari númeraplötumagninu sem er úthlutað á vörurnar sem þarf að taka til. Aðeins er hægt að nota þessa stefnu fyrir staðsetningarleiðbeiningar áfyllingar af gerðinni *Tiltekt*. Ef þessi stefna er skilgreind saman með birgðamörkum staðsetningar, getur hún valdið því að valin staðsetning frágangsvinnu verði ofhlaðin og birgðamörk verði hunsuð.
     - **Leitt af númerplötu** - Notið þessa stefnu þegar pöntun er losuð í vöruhúsið til að stofna vinnu tiltektar og frágangs. Hægt er að nota þessa nálgun fyrir margar númeraplötur. Þessi stefna reynir að taka frá og stofna tiltekt fyrir staðsetningarnar sem geyma umbeðnar númeraplötur sem hafa verið tengdar við flutningspöntunarlínurnar. Hins vegar, ef ekki er hægt að ljúka þessum aðgerðum en þú vilt samt stofna tiltekt, ættirðu að fara til baka í aðra stefnu fyrir aðgerðir staðsetningarleiðbeiningar. Það fer eftir kröfum viðskiptaferlisins, en þú gætir einnig vilja leita að birgðum á öðru svæði vöruhússins.
-    - **Tóm staðsetning með engin verk á innleið** - Notið þessa stefnu til að finna tómar staðsetningar. Staðsetning er talin tóm ef hún hefur engar efnislegar birgðir og enga væntanlega vinnu á innleið. Aðeins er hægt að nota þessa stefnu fyrir staðsetningarleiðbeiningar sem eru með verkgerðina *Tiltekt*.
+    - **Tóm staðsetning með engin verk á innleið** - Notið þessa stefnu til að finna tómar staðsetningar. Staðsetning er talin tóm ef hún hefur engar efnislegar birgðir og enga væntanlega vinnu á innleið. Aðeins er hægt að nota þessa stefnu fyrir staðsetningarleiðbeiningar sem eru með verkgerðina *Frágangur*.
     - **FIFO aldursgreining staðsetningar** - Notið stefnuna fyrst inn, fyrst út (FIFO) til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir. FIFO-aðferðin finnur staðsetningu sem inniheldur elstu aldursdagsetninguna og hún úthlutar tiltekt eftir þessari aldursdagsetningu.
     - **LIFO aldursgreining staðsetningar** - Notið stefnuna síðast inn, síðast út (LIFO) til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir. FIFO-aðferðin finnur staðsetningu sem inniheldur nýjustu aldursdagsetninguna og hún úthlutar tiltekt eftir þessari aldursdagsetningu.
 

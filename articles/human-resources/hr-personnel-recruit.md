@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6aca285133495dfe023dfd18bdeb050aabcafee6
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112889"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478285"
 ---
 # <a name="recruit-job-candidates"></a>Ráða umsækjendur
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðnum. Aðstoðar þig einnig við að breyta umsækjendum í starfsmenn á einfaldan hátt. Þegar fyrirtækið þitt notar annað ráðningarforrit kann ráðningarferlið að fela í sér eftirfarandi skref:
 

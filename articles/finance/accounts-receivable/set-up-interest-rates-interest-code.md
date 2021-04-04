@@ -3,7 +3,7 @@ title: Setja upp vaxtastig fyrir vaxtakóða
 description: Vaxtakóðar innihalda stillingar sem ákveða hvenær vextir eru gjaldfærðir og hvernig það er reiknað á gjaldfallna reikninga.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971630"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555366"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Setja upp vaxtastig fyrir vaxtakóða
 
@@ -46,10 +46,19 @@ Hægt er að setja upp vaxtastig sem reiknar út tilgreinda prósentu.
 
 - Upphæð vaxta gildir um alla gjaldmiðla.
 - Hægt er að færa inn valfrjáls takmörk upphæðar fyrir vexti.
-- <strong>Prósenta</strong> er valinn** <strong>í **Reikna út vexti á grundvelli</strong> reitnum á síðunni <strong>Setja upp vaxtakóða</strong>.
+- **Prósenta** er valinn í **Reikna út vexti á grundvelli** reitnum á síðöunni **Setja upp vaxtakóða**.
 
 Til dæmis til að setja upp vaxtakóða sem metur 5 prósent vexti fyrir hverja tvo mánuði sem reikningurinn fer umfram gjalddaga færslunnar, þá væri fært inn 2 í svæðið **reikna vexti fyrir hvern** og velja **Mánuður**.
 
+> [!NOTE] 
+> Nýja algrímið fyrir útreikning vaxtanótu er bætt við með Eiginleikastjórnun. Til að nota þetta algrím skal virkja eiginleikann **(GBL) Heimila útreikning vaxta á dag sem árlegt prósentuhlutfall deilt með 365**. Nánari upplýsingar um hvernig á að virkja eiginleikann er að finna í [Yfirlit eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> Formúla fyrir útreikning fyrir upphæð vaxtanótu er: 
+>  
+> Upphæð vaxtanótu = Upphæð skuldar *Árlegir vextir % / 365* Fjöldi daga framyfir
+>  
+> Þessi eiginleiki er tiltækur í útgáfu 10.0.18 og nýrri.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Vextir á grundvelli upphæða
 Hægt er að setja upp vaxtastig sem reiknar út tilgreinda upphæð fyrir hvern gjaldmiðil.
 - Vaxtaupphæð er tilgreind fyrir hvern gjaldmiðil í vaxtakóða.

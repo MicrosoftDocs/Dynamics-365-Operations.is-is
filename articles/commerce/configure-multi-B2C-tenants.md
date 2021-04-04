@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997601"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477757"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Stilla marga B2C leigjendur í viðskiptaumhverfi
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir því hvenær og hvernig á að setja upp margar á rás Microsoft Azure Active Directory (Azure AD) viðskipti til neytenda (B2C) leigjendur fyrir auðkenningu notenda í sérhæfðu umhverfi Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce notar Azure AD B2C skýjaeiningarþjónusta til að styðja skilríki notenda og auðkenningarflæði. Notendur geta notað auðkenningarflæðin til að skrá sig, skrá sig inn og endurstilla lykilorð sitt. Azure AD B2C geymir viðkvæmar sannvottunarupplýsingar notanda, svo sem notandanafn og lykilorð. Notendaskráin er einstök fyrir hvern B2C leigjanda og hún notar annað hvort notendanafn (netfang) eða persónuskilríki.
 

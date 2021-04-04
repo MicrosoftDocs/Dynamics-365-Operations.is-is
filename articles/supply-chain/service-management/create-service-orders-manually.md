@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c10990f96fecf55e005650257f83c28423203b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 72b600bc59119a6304fa043240a34051435f8691
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001411"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470954"
 ---
 # <a name="create-service-orders-manually"></a>Stofna þjónustupantanir handvirkt    
 
@@ -36,17 +36,17 @@ ms.locfileid: "5001411"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Búðu til þjónustupöntun handvirkt út frá þjónustusamningi
 
-1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Veljið þjónustusamning eða stofnið nýjan þjónustusamning.
 
-3.  Smelltu á flipann **Afhenda** og í **Stofna** hópnum skal smella á **Skipulögð þjónustupantanir** til að opna **Stofna þjónustupantanir** skjámynd.
+3.  Veljið **Afhenda** flipann og í **Stofna** hópnum skal velja **Skipulögð þjónustupantanir** til að opna skjámyndina **Stofna þjónustupantanir**.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Stofna þjónustupöntun handvirkt í skjámyndinni Þjónustupantanir
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
-2.  Styðjið á CTRL+N til að stofna nýja þjónustupöntun.
+2.  Veljið **Nýtt** til að stofna nýja þjónustupöntun.
 
 3.  Stofnið þjónustupöntunarlínur fyrir þjónustupöntunina.
 
@@ -55,9 +55,9 @@ ms.locfileid: "5001411"
 
 ## <a name="create-a-service-order-from-a-project"></a>Búðu til þjónustupöntun frá verkefni
 
-1.  Smelltu á **Verkefnastjórnun og bókhald** \> **Almenn** \> **Verkefni** \> **Öll verkefni**.
+1.  Opnið **Verkefnastjórnun og bókhald** \> **Almennt** \> **Verk** \> **Öll verk**.
 
-2.  Í **Verkefni** skjámynd, á **Aðgerðasvæði**, smelltu á **Stjórna** flipann \> smella **Þjónusta** \> **Þjónustupantanir**.
+2.  Í **Verkefni** skjámynd, á **Aðgerðasvæði** skal velja **Stjórna** flipann \> velja **Þjónusta** \> **Þjónustupantanir**.
 
 3.  Fylgja fyrri aðferð til að búa til þjónustupöntun handvirkt í **þjónustupantanir** skjámynd. **Auðkenni verkefnis** reitinn sýnir verkefni tilvísun.
 
@@ -68,19 +68,19 @@ ms.locfileid: "5001411"
 
 Þú getur búið til þjónustupöntun út frá **Sölupantanir** skjámynd með því að nota **Stofna nýjan þjónustupöntun sem byggist á sölupöntunar** hjálpinni.
 
-1.  Smellið á **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**.
+1.  Farðu í **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**.
 
 2.  Viðeigandi sölupöntun er opnuð.
 
-3.  Á **Sölupöntun** flipanum smelltu á **Þjónustupöntun** til að hefja **Stofna nýjan þjónustupöntun sem byggist á sölupöntun** hjálpinni.
+3.  Á **Sölupöntun** flipanum skal velja **Þjónustupöntun** til að hefja **Stofna nýjan þjónustupöntun sem byggist á sölupöntun** hjálpinni.
 
-4.  Smelltu á **Næsta \>**, og svo ljúka eftirfarandi skrefum á **Veldu samkomulag um þjónustupöntun** síðunni:
+4.  Veljið **Næsta \>**, og ljúkið svo eftirfarandi skrefum á **Veldu samkomulag um þjónustupöntun** síðunni:
     
       - Notaðu **þjónustusamningur** reitinn til að velja þjónustusamninginn sem ætti að tengja nýja þjónustupöntunina við.
     
       - Valfrjálst: Notaðu **Auðkenni verkefnis** reitinn til að tengja þessa þjónustupöntun við tiltekið verkefni.
 
-5.  Smelltu á **Næsta \>** , og svo ljúka eftirfarandi skrefum á **Stofna þjónustupöntun** síðunni:
+5.  Veljið **Næsta \>**, og ljúkið svo eftirfarandi skrefum á **Stofna þjónustupöntun** síðunni:
     
       - Sláðu inn dagsetningu og tíma fyrir þjónustusímtalið í reitnum **Valinn þjónustutími** reitinn.
     
@@ -90,7 +90,7 @@ ms.locfileid: "5001411"
     
       - Í **Kenni tengiliðar** reitinn, velja einstakling í fyrirtæki viðskiptavinarins sem ætti að hafa samband við varðandi þessa þjónustupöntun.
 
-6.  Smella á **Næsta \>** og smella síðan á **Ljúka**.
+6.  Veljið **Næsta \>** og svo **Ljúka**.
 
 
 ## <a name="see-also"></a>Sjá einnig

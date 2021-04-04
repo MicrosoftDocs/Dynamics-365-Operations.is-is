@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd9f6dfdf17ffd506fff21763388ee0ca7526681
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991591"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470883"
 ---
 # <a name="set-up-subscription-groups"></a>Setja upp áskriftarflokka 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónusta áskrift** \> **Áskriftarflokkar** .
+1.  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónusta áskrift** \> **Áskriftarflokkar**.
 
-2.  Ýttu á Ctrl+N eða smelltu á **Nýtt** til að stofna nýjan áskriftarflokk.
+2.  Velja skal **Nýtt** til að stofna nýjan umhverfishóp.
 
 3.  Í reitinn **Áskriftarflokkur** skal slá inn heiti fyrir nýjan áskriftarflokk.
 

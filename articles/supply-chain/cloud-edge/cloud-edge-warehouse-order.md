@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105712"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556363"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
 
@@ -51,6 +51,8 @@ Til að stofna vöruhúsapöntun, skal fylgja eftirfarandi skrefum.
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Aðgerðir**, velurðu **Losa í vöruhús**.
 1. Til að skoða tengdar línur vöruhúsapöntunar skal opna viðeigandi innkaupapöntun, velja línu í hlutanum **Innkaupapöntunarlínur** og síðan á tækjastikunni skal velja **Vöruhús \> Línur vöruhúsapöntunar**. Til að skoða allar línur skal fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Línur vöruhúsapöntunar**.
+
+Einnig er hægt að kveikja á ferlinu *Losa í vöruhús* úr runuvinnslu með því að fara í **Vöruhúsakerfi > Losa í vöruhús > Sjálfvirk losun innkaupapantana**. Við uppsetningu runuvinnslunnar er hægt að velja tilteknar innkaupapöntunarlínur sem byggja á fyrirspurn. Dæmigerð atburðarás væri að setja upp endurtekna runuvinnslu sem losar allar staðfestar innkaupapöntunarlínur sem búist er við að berist næsta dag.
 
 ## <a name="cancel-a-warehouse-order"></a>Hætta við vöruhúsapöntun
 

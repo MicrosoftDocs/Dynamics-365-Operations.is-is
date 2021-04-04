@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
+title: Dynamics 365 Commerce yfirlit yfir matsumhverfi
 description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
 manager: annbe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e08c2f327771d7731b836840006d63b6ecb7dfc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc6bffba6ee402c6b48d6a3c8f8356eb32b5423b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000951"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478021"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
@@ -31,8 +31,6 @@ ms.locfileid: "5000951"
 
 > [!NOTE]
 > Commerce matsumhverfi er almennt ekki í boði og er veitt af samstarfsaðilum og viðskiptavinum á grundvelli beiðna. Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð ef þig vantar frekari upplýsingar.
-
-## <a name="overview"></a>Yfirlit
 
 Commerce matsumhverfi er valfrjálst og tekur til alls ferilsins Dynamics 365 Commerce sem gerir samstarfsaðilum og hugsanlegum viðskiptavinum kleift að prófa Commerce-vöruna.
 

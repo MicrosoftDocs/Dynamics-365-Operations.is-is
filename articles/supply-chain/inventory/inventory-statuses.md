@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001825"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476700"
 ---
 # <a name="inventory-statuses"></a>Birgðastöður
 
@@ -45,6 +45,9 @@ Birgðastaða er ein af víddum í geymsluvíddaflokki. Hægt er að flokkað bi
 
 Hægt er að nota vörur í vöruhúsi með birgðastöðu tiltækt eða ekki tiltækt fyrir vinnu á innleið. Til dæmis stofnaður tiltæka stöðu sem heitir *tilbúinn*, ótiltæka stöðu sem heitir *skemmt* og lokaða stöðu sem heitir *lokað*. Þegar innkaupapöntun er stofnuð fyrir móttekið eða skilavörur, ef einhverjar vörur eru skemmt eða brotið, hægt að breyta birgðastöðu þær vörur *"Skemmt"* í innkaupapöntunarlínunni. Eftir að þessar vörur eru mótteknar staðan er sjálfkrafa stillt á *Læst*. Ef að þú skannar þessar skemmdu vörur með fartæki, getur Supply Chain Management nota staðsetningarleiðbeiningar og vinnusniðmát til að birta upplýsingar um viðeigandi staðsetning eða svið staðsetningar fyrir frágang þessara vara. Fyrir skilavörur er stofnuð *frátekning* fyrir úthreyfingar í skjámyndinni **Birgðafærslur**.
 
+> [!NOTE]
+> Ekki er hægt að breyta stöðu birgða á staðsetningum þar sem opin vinna er til staðar. Til dæmis, ef tekið var á móti innkaupum fyrir vöru, en frágangsskrefið var ekki gert, þá yrði opin vinna vera til fyrir móttökustaðsetninguna og ekki kæmi upp villa ef reynt væri að breyta stöðu birgðanna á þeirri staðsetningu. Með því að ljúka við eða hætta við tengda vinnu er hægt að breyta stöðunni.
+ 
 Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef þú ert með vörur með stöðuna *slitin* og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
 
 Eftir að þú hefur sett upp birgðastöðu er hægt að stilla sjálfgefna birgðastöðu fyrir síðu, vöru og vöruhús. Einnig er hægt að stilla sjálfgefna stöðu fyrir sölu, flutning, og innkaupapantanir. Sjálfgefin staða fyrir sölupantanir og flutningspöntun á útleið getur ekki haft **birgðalæsingu** valkostur stilltan á *Já*. Birgðastöðu sem er erft frá sjálfgefnar stillingar á setri, vöruhúsi, vöru, innkaupapöntun, flutningspöntun eða sölupöntun er hægt að breyta með því að nota fartækið eða á innkaupapöntun, sölupöntun eða flutningspöntunarlínu.

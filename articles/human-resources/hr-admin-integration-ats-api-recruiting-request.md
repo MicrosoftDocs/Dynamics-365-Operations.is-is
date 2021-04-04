@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125426"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500623"
 ---
 # <a name="recruiting-request"></a>Ráðningarbeiðni
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þetta efnisatriði lýsir einingu ráðningarbeiðni fyrir Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ Lýsir beiðni til að ráða í starf.
 | **Gildi fyrir kenni starfsgerðar**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Lesa eingöngu<br>Valfrjálst<br>Ytri lykill: mshr_hcmjobtypeentityid úr einingu mshr_hcmjobtypenentity | Einkvæmt lesanlegt kenni sem kerfið myndar fyrir starfsgerðina sem tengist starfi ráðningarbeiðninnar. |
 | **Undanþágustaða**<br>mshr_exemptstatus<br>Valkostir *JobExemptStatus* | Lesa eingöngu<br>Valfrjálst | FLSA-undanþágustaðan samkvæmt starfsgerðinni. |
 | **Áætluð upphafsdagsetning**<br>mshr_estimatedstartdate<br>*Dagsetning* | Lesa/skrifa<br>Krafa | Áætluð dagsetning þegar umsækjandi hefur störf. |
-| **Ytri lýsing**<br>mshr_externaldescription<br>*Strengur* | Lesa/skrifa<br>Valfrjálst | Lýsing á starfi/stöðu sem snýr að umsækjanda. | Neðra launamark<br>mshr_compensationlowthreshold<br>*Tvöfalt* | Lesa/skrifa<br>Valfrjálst | Neðri mörk launastigsins. |
+| **Ytri lýsing**<br>mshr_externaldescription<br>*Strengur* | Lesa/skrifa<br>Valfrjálst | Lýsing á starfi/stöðu sem snýr að umsækjanda. | 
+| **Neðra launamark**<br>mshr_compensationlowthreshold<br>*Tvöfalt* | Lesa/skrifa<br>Valfrjálst | Neðri mörk launastigsins. |
 | **Stýripunktur launa**<br>mshr_compensationcontrolpoint<br>*Tvöfalt* | Lesa/skrifa<br>Valfrjálst | Stýripunktur fyrir launastigið. |
 | **Efra launamark**<br>mshr_compensationhighthreshold<br>*Tvöfalt* | Lesa/skrifa<br>Valfrjálst | Efri mörk launastigsins. |
 | **Launastig**<br>mshr_compensationlevelid<br>*Strengur* | Lesa/skrifa<br>Valfrjálst | Launastig starfsins. Hægt er að setja upp starf með mörgum launastigum. Þessi eigind gefur til kynna valið launastig launa starfs fyrir þessa beiðni. |

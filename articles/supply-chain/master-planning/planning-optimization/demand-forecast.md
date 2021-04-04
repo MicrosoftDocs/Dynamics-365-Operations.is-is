@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983545"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501127"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Aðaláætlanagerð með eftirspurnarspám
 
@@ -249,7 +249,7 @@ Taktu eftir að í þessari spá er ekkert greinilegt tímabil milli dagsetninga
 Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkunarlykill** og **Prósenta - minnkunarlykill** til að lækka þarfir samkvæmt spá. Fylgdu eftirfarandi skrefum til að búa til og setja upp minnkunarlykil.
 
 1. Fara skal í **Aðaláætlanagerð \> Uppsetning \> Þekja \> Minnkunarlyklar**.
-2. Velja skal **Nýtt** eða ýta á **Ctrl+N** til að stofna minnkunarlykil.
+2. Veldu **Nýtt** til að búa til minnkunarlykil.
 3. Í reitinn **Minnkunarlykill** skal færa inn einkvæmt kennimerki fyrir minnkunarlykil samkvæmt spá. Því næst, í reitinn **Heiti** skal færa inn heiti. 
 4. Skilgreindu tímabilin og prósentu minnkunarlykils fyrir hvert tímabil:
 
@@ -265,8 +265,8 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 2. Í flýtiflipanum **Annað**, í reitnum **Minnkunarlykill**, skal velja minnkunarlykilinn sem á að úthluta á þekjuflokkinn. Minnkunarlykillinn á þá við um allar vörur sem tilheyra þekjuflokknum.
 3. Til að nota minnkunarlykil til að reikna út spárlækkun við aðaláætlanagerð er nauðsynlegt að skilgreina þessa stillingu í uppsetningu spáráætlunar eða aðaláætlunar. Farðu í eina af eftirfarandi staðsetningum:
 
-    - Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Spáráætlanir
-    - Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Aðaláætlanir
+    - **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Spáráætlanir**
+    - **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Aðaláætlanir**
 
 4. Á síðunni **Spáráætlanir** eða **Aðaláætlanir**, í flýtiflipanum **Almennt**, í reitnum **Aðferð notuð til að minnka þörf samkvæmt spá**, skal velja annaðhvort **Prósenta - minnkunarlykill** eða **Færslur - minnkunarlykill**.
 
@@ -274,5 +274,69 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 
 Þegar valið er **Færslur - minnkunarlykill** eða **Færslur - breytilegt tímabil** sem aðferð til að lækka spárþarfir, er hægt að tilgreina hvaða færslur lækka spána. Á síðunni **Þekjuflokkar**, í flýtiflipanum **Annað**, í reitnum **Lækka spá um**, skal velja **Allar færslur** ef allar færslur eiga að lækka spána eða **Pantanir** ef sölupantanir ættu eingöngu að lækka spána.
 
+## <a name="forecast-models-and-submodels"></a>Spárlíkön og undirlíkön
+
+Þessi hluti lýsir því hvernig á að búa til spárlíkön og hvernig á að sameina mörg spárlíkön með því að setja upp undirlíkön.
+
+*Spálíkan* nefnir og auðkennir tiltekna spá. Eftir að búið er að stofna spárlíkanið er hægt að bæta spárlínum við það. Til að bæta við spárlínum fyrir margar vörur skal nota **Eftirspurnarspárlínur** síðuna. Til að bæta við spárlínum fyrir tiltekna valda vöru skal nota síðuna **Útgefnar afurðir**.
+
+Spárlíkan getur innihaldið spár úr öðrum spárlíkönum. Til að ná fram þessari niðurstöðu er öðrum spárlíkönum bætt við sem *undirlíkön* yfirspárlíkans. Stofna þarf hvert viðeigandi líkan áður en hægt er að bæta því við sem undirlíkan yfirspárlíkans.
+
+Skipulagið sem verður til býður upp á öfluga leið til að stjórna spám vegna þess að það gerir kleift að sameina (safna saman) inntak margra spárlíkana. Séð út frá áætlanagerð er því auðvelt að sameina spár fyrir hermanir. Til dæmis væri hægt að setja upp hermun sem byggir á samsetningu reglulegra spár með spánni fyrir kynningu á vortilboðum.
+
+### <a name="submodel-levels"></a>Stig undirlíkana
+
+Engin takmörk eru á fjölda undirlíkana sem hægt er að bæta við yfirspárlíkan. Hins vegar getur skipulagið aðeins verið einslaga stig. Þ.e.a.s. spárlíkan sem er undirlíkan annars spárlíkans getur ekki haft eigin undirlíkön. Þegar undirlíkönum er bætt við spárlíkan athugar kerfið hvort spárlíkanið sé nú þegar undirlíkan annars spárlíkans.
+
+Ef aðaláætlanagerð finnur undirlíkan sem er með sín eigin undirlíkön koma upp villuboð.
+
+#### <a name="submodel-levels-example"></a>Dæmi um stig undirlíkana
+
+Spárlíkan A er með spárlíkan B sem undirlíkan. Þar af leiðandi getur spárlíkan B ekki verið með sín eigin undirlíkön. Ef reynt er að bæta undirlíkani við spárlíkan B koma upp eftirfarandi villuboð: „Spárlíkan B er undirlíkan fyrir líkan A.“
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Spám safnað saman yfir spárlíkön
+
+Spárlínur sem gerast á sama degi verður safnað saman þvert yfir spárlíkan þeirra og undirlíkana.
+
+#### <a name="aggregation-example"></a>Uppsöfnunardæmi
+
+Spárlíkan A er með spárlíkön B og C sem undirlíkön.
+
+- Spárlíkan A inniheldur eftirspurnarspá fyrir 2 stykki (stk) þann 15. júní.
+- Spárlíkan B inniheldur eftirspurnarspá fyrir 3 stk þann 15. júní.
+- Spárlíkan C inniheldur eftirspurnarspá fyrir 4 stk þann 15. júní.
+
+Eftirspurnarspáin í kjölfarið verður ein eftirspurn eftir 9 stk (2 + 3 + 4) þann 15. júní.
+
+> [!NOTE]
+> Hvert undirlíkan notar eigin færibreytur, ekki færibreytur yfirspárlíkansins.
+
+### <a name="create-a-forecast-model"></a>Stofna spálíkan
+
+Til að búa til spárlíkan skal fylgja þessum skrefum.
+
+1. Farið í **Aðaláætlanagerð \> Uppsetning \> Eftirspurnarspá \> Spárlíkön**.
+1. Í aðgerðarúðunni velurðu **Nýtt**.
+1. Stillið eftirfarandi reiti fyrir nýja spárlíkanið:
+
+    - **Líkan** – Færið inn einkvæmt kenni fyrir líkanið.
+    - **Heiti** - Færið inn lýsandi heiti á líkaninu.
+    - **Stöðvað** – Venjulega á að stilla þennan valkost á *Nei*. Stillið hann á *Já* ef á að koma í veg fyrir breytingar á öllum spárlínum sem er úthlutað á líkanið.
+
+    > [!NOTE]
+    > Reiturinn **Telja með í sjóðsstreymisspár** og reitirnir í flýtiflipanum **Verk** eru ekki tengdir aðaláætlanagerð. Þess vegna er hægt að hunsa þá í þessu samhengi. Aðeins þarf að taka þá til greina þegar unnið er með spár fyrir **Verkefnastjórnun og bókhaldskerfi**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Úthluta undirlíkönum á spárlíkan
+
+Til að úthluta undirlíkönum á spárlíkan skal fylgja þessum skrefum.
+
+1. Opnið **Birgðastjórnun \> Uppsetning \> Spá \> Spárlíkön**.
+1. Á listasvæðinu er spárlíkanið valið til að setja upp undirlíkan fyrir.
+1. Í flýtiflipanum **Undirlíkan** skal velja **Bæta við** til að bæta línu við hnitanetið.
+1. Í nýju línunni skal stilla eftirfarandi reiti:
+
+    - **Undirlíkan** – Veljið spárlíkanið sem á að bæta við sem undirlíkan. Þetta spárlíkan verður að vera til staðar og það má ekki hafa sín eigin undirlíkön.
+    - **Heiti** - Færið inn lýsandi heiti á undirlíkaninu. Til dæmis gæti þetta heiti gefið til kynna tengsl undirlíkans við yfirspárlíkanið.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

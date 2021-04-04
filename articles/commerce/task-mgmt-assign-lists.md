@@ -1,6 +1,6 @@
 ---
 title: Úthlutaðu verkefnalistum til verslana eða starfsmanna
-description: Þetta efni lýsir því hvernig á að úthluta verklista á verslanir eða starfsmenn í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að úthluta verkefnalistum til verslana eða starfsmanna í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d249809f15b50c59620d69a901a427dc3ecb2f0
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006261"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477585"
 ---
-# <a name="assign-task-lists-to-stores-or-employees"></a>Úthlutaðu verkefnalistum til verslana eða starfsmanna
+# <a name="assign-task-lists-to-stores-or-employees"></a>Úthluta verkefnalistum til verslana eða starfsmanna
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að úthluta verklista á verslanir eða starfsmenn í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að úthluta verkefnalistum til verslana eða starfsmanna í Microsoft Dynamics 365 Commerce.
 
 Verkefnisstjórn í Dynamics 365 Commerce gerir þér kleift að úthluta verkefnalista til margra verslana eða starfsmanna, eða til samblanda verslana og starfsmanna. Til dæmis gæti svæðisstjóri í 20 verslunum viljað úthluta verklistanum **Undirbúningur undir frídaga** á allar 20 verslanir.
 

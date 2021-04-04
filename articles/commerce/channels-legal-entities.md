@@ -1,6 +1,6 @@
 ---
 title: Stofna lögaðila
-description: Þetta efni lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem verður að búa til og stilla áður en rásir eru stofnaðar.
+description: Þetta efnisatriði lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem þarf að búa til og skilgreina áður en rásir eru stofnaðar.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9491feb004366a02155225bfb323773e130f3dc9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 016b67631a53139d12d65dfaf594f49b030326b1
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993604"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478213"
 ---
 # <a name="create-legal-entities"></a>Stofna lögaðila
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem verður að búa til og stilla áður en rásir eru stofnaðar.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem þarf að búa til og skilgreina áður en rásir eru stofnaðar.
 
 Lögaðili er fyrirtæki sem hefur skráð ögfest lagalega uppbyggingu. Lögaðila er hægt að færa inn í samninga og eru þeir krafnir um að útbúa yfirlit sem segir til um frammistöðu þeirra.
 

@@ -1,9 +1,9 @@
 ---
 title: Setja upp forstillingu tilkynningar í tölvupósti
-description: Þetta efnisatriði lýsir því hvernig á að búa til tilkynningar um tölvupóst í Microsoft Dynamics 365 Commerce.
-author: samjarawan
+description: Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000825"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555308"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Setja upp forstillingu tilkynningar í tölvupósti
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til tilkynningar um tölvupóst í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Yfirlit
-
-Áður en þú stofnar rásir þarftu að setja upp prófíl til að tryggja að hægt sé að senda tölvupósttilkynningar vegna ýmissa viðburða, svo sem til pöntunar, pöntunarstöðu og greiðslubilun.
+Þegar rásir eru búnar til er hægt að setja upp forstillingu tilkynningar í tölvupósti. Á þann hátt er hægt að senda viðskiptavinum tölvupósta vegna ýmissa færslutilvika á borð við stofnun pöntunar, sendingarstöðu pöntunar og greiðsluvillu.
 
 Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Fylgdu þessum skrefum til að búa til tilkynningar um tölvupóst.
 
 ### <a name="create-an-email-template"></a>Stofna sniðmát fyrir tölvupóst
 
-Áður en hægt er að búa til tilkynningu í tölvupósti verður þú að búa til tölvupóstsniðmát stofnunar sem inniheldur tölvupóstupplýsingar sendenda og tölvupóstsniðmátið.
+Áður en hægt er að virkja gerð tölvupóststilkynningar þarf að stofna tölvupóstssniðmát fyrirtækis í Commerce Headquarters. Þetta sniðmát skilgreinir viðfangsefni tölvupóstsins, sjálfgefið tungumál hans og meginmál fyrir öll tungumálin sem á að styðja við.
 
 Til að stofna tölvupóstsniðmát, skal fylgja eftirfarandi skrefum.
 
@@ -58,7 +55,7 @@ Til að stofna tölvupóstsniðmát, skal fylgja eftirfarandi skrefum.
 1. Í reitnum **Nafn sendanda** skal færa inn heiti sendanda.
 1. Í reitnum **Lýsing tölvupósts** skal færa inn auðskiljanlega lýsingu.
 1. Í **Netfang sendanda** slærðu inn netfang sendanda.
-1. Í hlutanum **Almennt** fyllirðu út allar nauðsynlegar upplýsingar (svo sem forgang tölvupósts).
+1. Í hlutanum **Almennt** skal velja sjálfgefið tungumál fyrir sniðmát tölvupóstsins. Sjálfgefið tungumál verður notað þegar ekkert staðbundið sniðmát er til fyrir tilgreint tungumál.
 1. Stækkaðu hlutann **Efni tölvupóstskilaboða** og veldu **Nýtt** til að búa til sniðmátsinnihald. Veldu tungumál fyrir hvern efnislið og gefðu upp efnislínu tölvupóstsins. Ef tölvupósturinn verður með meginmál skal passa að hakað sé í reitinn **Hefur meginmál**.
 1. Í aðgerðaglugganum velurðu **Tölvupóstskeyti** til að gefa upp meginmálssnið tölvupósts.
 

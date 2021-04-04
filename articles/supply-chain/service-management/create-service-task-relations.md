@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974661"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470738"
 ---
 # <a name="create-service-task-relations"></a>Stofna þjónustuverkatengsl    
 
@@ -32,13 +32,13 @@ ms.locfileid: "4974661"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Stofna tengsl við þjónustusamning
 
-1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Veljið fyrirliggjandi þjónustusamning eða stofnið nýjan þjónustusamning.
 
-3.  Í aðgerðarúðunni smellirðu á **Þjónustuverk** hnappinn.
+3.  Í aðgerðarúðunni smellirðu á hnappinn **Þjónustuverk**.
 
-4.  Á **Þjónustuverk** skjámyndinni, ýttu á CTRL + N til að búa til nýjan línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkið við þjónustusamninginn.
+4.  Á **Þjónustuverk** skjámyndinni skal velja **Nýtt** til að búa til nýjan línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkið við þjónustusamninginn.
 
 5.  Á flipanum **Lýsing**, sláðu inn í reitina fyrir frjálsan texta hvaða innri eða ytri lýsingar sem er.
 
@@ -50,13 +50,13 @@ Endurtakið þetta ferli þar til búið er að stofna öll nauðsynleg þjónus
 
 ## <a name="create-a-relation-with-a-service-order"></a>Stofna tengsl við þjónustupöntun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið fyrirliggjandi þjónustupöntun eða stofnið nýja þjónustupöntun.
 
-3.  Í aðgerðarúðunni smellirðu á **Þjónustuverk** hnappinn.
+3.  Í aðgerðarúðunni smellirðu á hnappinn **Þjónustuverk**.
 
-4.  Frá **Þjónustuverk** skjámynd, ýttu á CTRL + N til að búa til nýja línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkin við þjónustupöntunina.
+4.  Frá **Þjónustuverk** skjámyndinni skal velja **Nýtt** til að búa til nýja línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkin við þjónustupöntunina.
 
 5.  Á flipanum **Lýsing**, sláðu inn í reitina fyrir frjálsan texta hvaða innri eða ytri lýsingar sem er.
 

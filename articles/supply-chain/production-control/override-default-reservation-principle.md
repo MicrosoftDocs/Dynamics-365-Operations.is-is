@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078271"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501103"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 
@@ -38,11 +39,11 @@ Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltekt
 Áður en hægt er að nota eiginleikann verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Framleiðslustýring*
-- **Heiti eiginleika:** *Hnekkja sjálfgefinni framleiðslufrátekningu*
+- **Heiti eiginleika:** *(Forskoðun) Hnekkja sjálfgefinni framleiðslufrátekningu*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Úthluta reglu framleiðslufrátekningar á vörulíkanaflokk
 
-1. Farið í **Kostnaðarstjórnun &gt; Uppsetning á reglum birgðabókhalds &gt; Vörulíkanaflokkar**.
+1. Farið í **Kostnaðarstjórnun \> Uppsetning á reglum birgðabókhalds \> Vörulíkanaflokkar**.
 1. Stofnið eða veljið vörulíkanaflokk.
 1. Í flýtiflipanum **Birgðareglur** skal velja gátreitinn **Hnekkja frátekningu vöruframleiðslu**.
 1. Í reitnum **Frátekning** skal velja frátekningarregluna fyrir vörur sem tilheyra völdum líkanaflokki. (Þessar vörur innihalda vörur sem eru í uppskriftar- eða formúlulínu.)
