@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef5ca8cc9c80581b9f7ef69bd8c4403d3d0296e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f883d5b312c042a995e30998fc24da5b1c02f22a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965967"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470858"
 ---
 # <a name="create-service-agreements"></a>Þjónustusamningar stofnaðir
 
@@ -33,8 +33,8 @@ ms.locfileid: "4965967"
 ## <a name="create-a-service-agreement-from-service-management"></a>Stofna þjónustusamning úr þjónustustjórnun.
 
 1. Farið í **Þjónustustjórnun**.
-2. Smellið á **Þjónustusamninga** til að stofna nýja þjónustusamningslínu á síðuhaus. 
-3. Smellt er á **Nýtt**. Færið inn lýsingu, veljið tilvísun í verk í reitnum **Auðkenni verks** og fyllið inn í það sem eftir er af reitum og línum fyrir þjónustusamninginn. Smellið á **Vista**.
+2. Veljið **Þjónustusamninga** til að stofna nýja þjónustusamningslínu á síðuhaus. 
+3. Veljið **Nýtt**. Færið inn lýsingu, veljið tilvísun í verk í reitnum **Auðkenni verks** og fyllið inn í það sem eftir er af reitum og línum fyrir þjónustusamninginn. Veljið **Vista**.
 4. Í flipanum **Tengsl** skal velja **Þjónustuhluti** eða **Þjónustuverk** til að stofna þjónustuhlutartengsl eða þjónustuverktengsl fyrir þjónustusamninginn. Þjónustuhlutinn og verkið sem er búið að stofna tengsl fyrir er hægt að tengja við línur þjónustusamningsins.
 5. Í neðri hluta síðunnar skal stofna þjónustusamningslínur með því að afrita línur úr þjónustusniðmáti, öðrum þjónustusamningi eða stofna þjónustusamningslínurnar handvirkt.
 
@@ -45,14 +45,14 @@ ms.locfileid: "4965967"
 
 1. Bætið við þjónustusamningslínu við hnitanetið á síðu **Þjónustusamninga**. 
 2. Færið inn viðeigandi upplýsingar fyrir línu þjónustusamningsins. 
-3. Ýtið á **CTRL+S** til að vista línuna og loka síðunni.
+3. Veljið **Vista** til að vista línuna og loka síðunni.
 
 ## <a name="create-a-service-agreement-from-project"></a>Stofnið þjónustusamninga úr verki
 
-1. Smellið á **Verkefnastjórnun og bókhald**.
-2. Smellið á **Öll verk**.
+1. Veljið **Verkefnastjórnun og bókhald**.
+2. Veljið **Öll verk**.
 3. Veljið verkið úr listanum.
-4. Í **Aðgerðarrúðunni** er smellt á **Stjórna**. Í **Nýja** aðgerðarhópnum er smellt á **Þjónustu** og **Þjónustusamningur** valið.
+4. Í **aðgerðarúðunni** skal velja **Stjórna**. Í **Nýja** aðgerðarhópnum skal velja **Þjónusta** og **Þjónustusamningur**.
 5. Fylgið skrefunum í hlutanum sem heitir **Stofna þjónustusamning** eins og áður var lýst í þessu efnisatriði til að færa inn verktilvísunina.
 
 

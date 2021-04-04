@@ -1,6 +1,6 @@
 ---
 title: Skilgreina verkstýringu
-description: Þetta efnisatriði lýsir því hvernig á að stilla verkefnisstjórnunaraðgerðir í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að grunnstilla eiginleika verkefnastjórnunar í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e880305d02fd9f10464fe3f65a2774a44da258c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba2283bbfa2fdce75d3fbef6fcff47dd872c7998
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006236"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478045"
 ---
-# <a name="configure-task-management"></a>Skilgreina verkstýringu
+# <a name="configure-task-management"></a>Skilgreina verkstjórnun
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stilla verkefnisstjórnunaraðgerðir í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir hvernig á að grunnstilla eiginleika verkefnastjórnunar í Microsoft Dynamics 365 Commerce.
 
 Áður en Dynamics 365 Commerce stjórnendur og starfsmenn geta notað verkstjórnunaraðgerðir í verslun verður að stilla verkstjórnun. Stillingarþrepin fela í sér að veita stjórnendum og starfsmönnum leyfi, dreifa heimildum til viðskiptavina á sölustað (POS), setja upp POS tilkynningar og stilla reitina **Verk** á heimasíðu POS forrita.
 

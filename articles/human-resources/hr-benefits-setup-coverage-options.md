@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2e1d5fc80d93e41626da8eb5bdf8f389fb0bd531
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112952"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466183"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun. Til dæmis gætu umfjöllunarkostirnir falið í sér **Aðeins starfsmaður** vegna læknisáætlunar, eða **2x laun** vegna líftryggingaráætlunar. Þegar það er skilgreint geturðu notað valkosti um umfjöllun um fríðindi. Þú getur tengt valkost við eina eða fleiri áætlanir.
 

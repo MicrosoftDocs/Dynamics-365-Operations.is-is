@@ -3,10 +3,9 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154088"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563995"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -32,7 +31,7 @@ ms.locfileid: "5154088"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Eiginleiki fjarlægður frá og með 28. janúar 2021
 

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 237af011229e3d84f54bc601753dc621f8335d2f
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: cc05e60b24ab82feb5ffccc4cdb662108b6b1534
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092742"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562929"
 ---
 # <a name="recruiting-power-bi-content"></a>Ráða Power BI-efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **Ráðning** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir **Ráðningar** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Ráðning** Power BI-efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.
