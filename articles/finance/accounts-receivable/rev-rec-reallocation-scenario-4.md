@@ -2,11 +2,9 @@
 title: Endurúthlutun tekjuskráningar – Aðstæður 4
 description: Þetta efnisatriði fer í gegnum aðstæður endurúthlutunar þar sem lína er fjarlægð úr fyrirliggjandi sölupöntun sem er reikningsfærð að hluta til. Þessar aðstæður leiða til sömu niðurstöðu burtséð frá því hvort línan er fjarlægð úr sölupöntuninni eða fær stöðu afturköllunar.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50a2d0d2ca28d9b62713502700f2c4bd2e42751e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2b53145ac1ef4b277afadb4262fd1e704a2e7662
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830665"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Endurúthlutun tekjuskráningar – Aðstæður 4
 
