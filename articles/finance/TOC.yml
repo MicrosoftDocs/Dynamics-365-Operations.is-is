@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (febrúar 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (janúar 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1418,34 +1416,36 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
-            - name: Innbót rafrænna reikninga
+            - name: Rafræn reikningsfærsla
               items:
-                - name: Yfirlit innbótar rafrænna reikninga
+                - name: Yfirlit rafrænna reikninga
                   href: localizations/e-invoicing-service-overview.md
-                - name: Stjórnunarhlutar innbótar rafrænna reikninga
+                - name: Stjórnunarhlutar rafrænna reikninga
                   href: localizations/e-invoicing-service-administration.md
-                - name: Skilgreina innbót rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
+                - name: Skilgreina rafræna reikningsfærslu í Regulatory Configuration Services (RCS)
                   href: localizations/e-invoicing-configuration-rcs.md
-                - name: Gefa út rafræna reikninga í Finance and Supply Chain Management
+                - name: Gefa út rafræna reikninga í Finance og Supply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Setja upp Azure-geymslureikning og lyklageymslu
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Hefjast handa
                   items:
-                    - name: Hafist handa með viðbót rafrænna reikninga fyrir Brasilíu
+                    - name: Hafist handa með stjórnun þjónustu rafrænna reikninga
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Hafist handa með innbót rafrænna reikninga
+                    - name: Hafist handa með rafrænar reikningsfærslur
                       href: localizations/e-invoicing-get-started.md
-                    - name: Hafist handa með innbót rafrænna reikninga fyrir Brasilíu
+                    - name: Hafist handa með rafrænar reikningsfærslur fyrir Brasilíu
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Hafist handa með viðbót fyrir rafrænar reikningsfærslur fyrir Egyptaland
+                    - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: Hafist handa með innbót rafrænna reikninga fyrir Ítalíu
+                    - name: Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
+                    - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: Setja upp innbót rafrænna reikninga
+                    - name: Setja upp rafrænar reikningsfærslur
                       href: localizations/e-invoicing-setup.md
+                - name: Algengar spurningar um rafrænar reikningsfærslur
+                  href: localizations/e-invoicing-faq.md
             - name: Ástralía
               items:
                 - name: Yfirlit yfir Ástralíu
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Rafrænir reikningar viðskiptavinar í Egyptalandi
                   href: localizations/emea-egy-e-invoices.md
+                - name: VSK-skýrsla fyrir Egyptaland
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Staðgreiðsluskattskýrsla fyrir Egyptaland
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Eistland
               items:
                 - name: Yfirlit yfir Eistland
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: Umfang indverskra þýðinga
                   href: localizations/apac-ind-scope.md
+                - name: Nýjungar eða breytingar á staðfæringu fyrir Indland
+                  items:
+                    - name: Nýjungar eða breytingar í 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: Nýjungar eða breytingar í 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Nýjungar eða breytingar í 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Nýjungar eða breytingar í 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Nýjungar eða breytingar í 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Nýjungar eða breytingar í 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Nýjungar eða breytingar í 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Nýjungar eða breytingar í 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Nýjungar eða breytingar í 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Nýjungar eða breytingar í 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Nýjungar eða breytingar í 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Nýjungar eða breytingar í 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Nýjungar eða breytingar í 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Nýjungar eða breytingar í 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Nýjungar eða breytingar í 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Eignir
                   items:
                     - name: Yfirlit yfir indverskar eignir
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Flutningur fjármagnsvara til eignar
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Vöru- og þjónustuskattur fyrir Indland
+                - name: Óbeinir skattar
                   items:
-                    - name: Yfirlit yfir vöru- og þjónustuskatt fyrir Indland
-                      href: localizations/apac-ind-gst.md
-                    - name: Nýjungar eða breytingar á staðfæringu vöru- og þjónustuskatts fyrir Indland
+                    - name: Vöru- og þjónustuskattur fyrir Indland
                       items:
-                        - name: Nýjungar eða breytingar í 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: Nýjungar eða breytingar í 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: Nýjungar eða breytingar í 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: Nýjungar eða breytingar í 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: Nýjungar eða breytingar í 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: Nýjungar eða breytingar í 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: Nýjungar eða breytingar í 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: Nýjungar eða breytingar í 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: Nýjungar eða breytingar í 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: Nýjungar eða breytingar í 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: Nýjungar eða breytingar í 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: Nýjungar eða breytingar í 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: Nýjungar eða breytingar í 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: Nýjungar eða breytingar í 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: Nýjungar eða breytingar í 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: Viðmiðunarhópar vöru- og þjónustuskatts fyrir Indland
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Uppsetning aðalgagna
-                      items:
-                        - name: Búa til lóðrétt viðskipti
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Uppfæra ríkjakóða og svæði
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: Stofna aðalsniðmát fyrir vöru- og þjónustuskatt
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: Skilgreina vöru- og þjónustuskatt og númeraraðir tilvísana
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: Skilgreina HSN-kóða og kóða þjónustureiknings
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Búa til gerð skatthlutfalls
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: Búa til aðallykla fyrir vöru- og þjónustuskatt
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Búa til virðisaukaskattstímabil
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: Hengja GSTIN (vöru- og þjónustuskattur) við skattskráningarhóp
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Skattauppsetning
-                      items:
-                        - name: Stilla skattaskilgreiningu og nota fyrir lögaðila
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: Varpa skattgerðir skilgreiningar - sérstilling
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Setja upp verð og prósentutöflur
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Setja upp stigveldi virðisaukaskatts og skattjöfnunarreglur
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Innkaupafærsla
-                      items:
-                        - name: Kaup frá óskráðum lánardrottnum
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Kaupa skattskylda vöru frá óskráðum lánardrottni
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Kaup frá skráðum lánardrottnum
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: Kaup afsláttarvara
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Kaup undanskilinna vara
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Kaup núllmetinna vara
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: Kaup vara sem eru undirskildar vöru- og þjónustuskatti
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Kaup frá samsettum aðila
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: Kaup skattlagðra vara með sendingargjöldum
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: Skoða innkaupareikning með skattlögðum vörum
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Kaup eigna
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Stofna kreditnótu á móti innkaupareikningi
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Stofna debetnótu á móti innkaupareikningi
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: Gæðapantanir sem innhalda eyðingu sýnidæmis
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Vöruskilapantanir innkaupa
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: Fyrirframgreiðslur lánardrottins þar sem bakfærð gjöld eru til staðar
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Sölufærsla
-                      items:
-                        - name: Sala skattlagðra vara til neytenda
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Sala til skráðra viðskiptamanna
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Reikningar með frjálsum texta
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Sala skattlagðra vara þar sem bakfært gjald er til staðar
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: Sala undanþeginna vara
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Sala núllmetinna vara
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: Sala vara sem eru undirskildar vöru- og þjónustuskatti
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: Sala skattlagðra vara með afslætti og bráðabirgðamati
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: Sala skattlagðra vara með sköttum á sendingargjöld
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: Sala þar sem verð inniheldur og inniheldur ekki skatt
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Stofna debetnótu á móti sölureikningi
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Stofna kreditnótu á móti sölureikningi
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: Sölureikningum sem hefur verið skipt eftir afhendingaraðsetri
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Skilapantanir
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Erlendar færslur
-                      items:
-                        - name: Innflutningsvörur með vöru- og þjónustuskatti
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: Innflutningsþjónusta með vöru- og þjónustuskatti
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: Útflutningsvörur með núllmetinn skatt
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: Útflutningsþjónusta með núllmetinn skatt
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Birgðafærsla
-                      items:
-                        - name: Flutningspantanir birgða
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: Flutningspantanir birgða þar sem skattur er á flutningsverð
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Greiðslufærsla viðskiptavinar
-                      items:
-                        - name: Fyrirframgreiðslur með skatti
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: Fyrirframgreiðslur sem gengið er frá með reikningsfærslu
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: Handvirk jöfnun fyrirframgreiðslu og reiknings með skatti
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: Greiðsla reikninga með skatti
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: Endurskoða fyrirframgreiðslur með skatti
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Endurgreiðsla viðskiptavinar
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Bein skattafærsla
+                        - name: Yfirlit yfir vöru- og þjónustuskatt fyrir Indland
+                          href: localizations/apac-ind-gst.md
+                        - name: Skattkerfi
+                          items:
+                            - name: Yfirlit skattakerfis
+                              href: general-ledger/tax-engine.md
+                            - name: Flytja inn skilgreiningu
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Ítarlegur formúluhönnuður
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Gildissvið skattkerfis
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Stofna skatthluta
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Samþætting skattakerfis
+                              href: general-ledger/tax-engine-integration.md
+                            - name: Útvíkkun skattakerfisins
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: Hreinsa TaxDocumentJSON-töfluna
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: Úrræðaleit fyrir GTE
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Uppsetning aðalgagna
+                          items:
+                            - name: Búa til lóðrétt viðskipti
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Uppfæra ríkjakóða og svæði
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: Stofna aðalsniðmát fyrir vöru- og þjónustuskatt
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: Skilgreina vöru- og þjónustuskatt og númeraraðir tilvísana
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: Skilgreina HSN-kóða og kóða þjónustureiknings
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Búa til gerð skatthlutfalls
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: Búa til aðallykla fyrir vöru- og þjónustuskatt
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Búa til virðisaukaskattstímabil
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: Hengja GSTIN (vöru- og þjónustuskattur) við skattskráningarhóp
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Skattauppsetning
+                          items:
+                            - name: Stilla skattaskilgreiningu og nota fyrir lögaðila
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: Varpa skattgerðir skilgreiningar - sérstilling
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Setja upp verð og prósentutöflur
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Setja upp stigveldi virðisaukaskatts og skattjöfnunarreglur
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: Viðmiðunarhópar vöru- og þjónustuskatts fyrir Indland
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Skattafærslur
+                          items:
+                            - name: Innkaupafærslur
+                              items:
+                                - name: Kaup frá óskráðum lánardrottnum
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Kaupa skattskylda vöru frá óskráðum lánardrottni
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Kaup frá skráðum lánardrottnum
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: Kaup afsláttarvara
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Kaup undanskilinna vara
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Kaup núllmetinna vara
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: Kaup vara sem eru undirskildar vöru- og þjónustuskatti
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Kaup frá samsettum aðila
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: Kaup skattlagðra vara með sendingargjöldum
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: Skoða innkaupareikning með skattlögðum vörum
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Kaup eigna
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Stofna kreditnótu á móti innkaupareikningi
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Stofna debetnótu á móti innkaupareikningi
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: Gæðapantanir sem innhalda eyðingu sýnidæmis
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Vöruskilapantanir innkaupa
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: Fyrirframgreiðslur lánardrottins þar sem bakfærð gjöld eru til staðar
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Sölufærslur
+                              items:
+                                - name: Sala skattlagðra vara til neytenda
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Sala til skráðra viðskiptamanna
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Reikningar með frjálsum texta
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Sala skattlagðra vara þar sem bakfært gjald er til staðar
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: Sala undanþeginna vara
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Sala núllmetinna vara
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: Sala vara sem eru undirskildar vöru- og þjónustuskatti
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: Sala skattlagðra vara með afslætti og bráðabirgðamati
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: Sala skattlagðra vara með sköttum á sendingargjöld
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: Sala þar sem verð inniheldur og inniheldur ekki skatt
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Stofna debetnótu á móti sölureikningi
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Stofna kreditnótu á móti sölureikningi
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: Sölureikningum sem hefur verið skipt eftir afhendingaraðsetri
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Skilapantanir
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Erlendar færslur
+                              items:
+                                - name: Innflutningsvörur með vöru- og þjónustuskatti
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: Innflutningsþjónusta með vöru- og þjónustuskatti
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: Útflutningsvörur með núllmetinn skatt
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: Útflutningsþjónusta með núllmetinn skatt
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: Kredit- eða debetnóta á móti útflutningspöntun
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Birgðamillifærslur
+                              items:
+                                - name: Flutningspantanir birgða
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: Flutningspantanir birgða þar sem skattur er á flutningsverð
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Greiðslufærslur viðskiptavinar
+                              items:
+                                - name: Fyrirframgreiðslur með skatti
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: Fyrirframgreiðslur sem gengið er frá með reikningsfærslu
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: Handvirk jöfnun fyrirframgreiðslu og reiknings með skatti
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: Greiðsla reikninga með skatti
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: Endurskoða fyrirframgreiðslur með skatti
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Endurgreiðsla viðskiptavinar
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Skattaleiðrétting
+                              items:
+                                - name: Leiðrétt skattupphæð
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Búa til skattfærslubók
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Fyrirspurnir skattaskjala
+                              items:
+                                - name: Skattfyrirspurn
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Skattjöfnun
+                          items:
+                            - name: Reglubundin skattjöfnun
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: GSTR-skýrslur
+                          items:
+                            - name: Ný GSTR-1 og GSTR-2 skilasnið
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: Nýtt GSTR-verkfæri án tengingar fyrir ANX-1 og skrá yfir innkaup
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: Búa til GSTR-skýrslugögn fyrir skattskil
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: Virkja magnrunuvinnslu fyrir GSTR-skýrslur
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Beinir skattar
+                  items:
+                    - name: Staðgreiðsluskattur á Indlandi
                       items:
                         - name: Taka með vöru- og þjónustuskatt við útreikning frádreginna skatta
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: Taka með vöru- og þjónustuskatt við innheimtu skattinnheimtu
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Leiðrétt skattupphæð
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Reglubundin skattjöfnun
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Búa til skattfærslubók
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Búa til skýrslugögn vöru- og þjónustuskatts fyrir skattskil
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Virkja magnrunuvinnslu fyrir GSTR-skýrslur
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Skattfyrirspurn
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: Hreinsa TaxDocumentJSON-töfluna
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Skattkerfi
-                  items:
-                    - name: Yfirlit skattakerfis
-                      href: general-ledger/tax-engine.md
-                    - name: Flytja inn skilgreiningu
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Ítarlegur formúluhönnuður
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Gildissvið skattkerfis
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Stofna skatthluta
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Samþætting skattakerfis
-                      href: general-ledger/tax-engine-integration.md
-                    - name: Útvíkkun skattakerfisins
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Úrræðaleit fyrir GTE
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Algengar spurningar um skattþrep
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Algengar spurningar um skattþrep
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: Staðgreiðsluskattur á vörusölu
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: i.SAF-skýrslugerð fyrir Litháen
                   href: localizations/emea-ltu-isaf.md
+                - name: Stöðluð endurskoðunarskrá fyrir skattaupplýsingar (SAF-T) fyrir Litháen
+                  href: localizations/emea-ltu-saf-t.md
             - name: Malasía
               items:
                 - name: Yfirlit yfir Malasíu
@@ -2930,9 +2956,11 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Skattskrár sjóðstreymis
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Skrár skilgreindra útgjalda
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Sádi-Arabía
               items:
-                - name: Yfirlit í Sádi-Arabíu
+                - name: Yfirlit yfir Sádi-Arabíu
                   href: localizations/saudi-arabia.md
                 - name: Virðisaukaskattur
                   href: localizations/apac-sau-sales-tax.md
@@ -3381,11 +3409,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Undirbúa forritasértæk lýsigögn
                       items:
-                        - name: (Rafræn skýrslugerð) Undirbúa lýsigögn umsóknar til notkunar í RCS
+                        - name: Undirbúa lýsigögn forrita rafrænnar skýrslugerðar til notkunar í RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Aðgangur að lýsigögnum forrits með skilgreiningu rafrænnar skýrslugerðar
+                        - name: Aðgangur að lýsigögnum forrits í RCS með skilgreiningu rafrænnar skýrslugerðar
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Aðgangur að lýsigögnum forrits með tengdum forritum
+                        - name: Aðgangur að lýsigögnum forrits í RCS með notkun tengdra forrita
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Skilgreina vörpun líkana og velja gagnaveitur
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: Formúluhönnuðir í rafrænni skýrslugerð
+            - name: Formúluhönnuður í rafrænni skýrslugerð
               items:
                 - name: Formúluhönnuður
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Texti: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Hanna snið rafrænnar skýrslugerðar til að mynda rafræn skjöl á mismunandi sniðum
+            - name: Hanna snið rafrænnar skýrslugerðar til að mynda skjöl á útleið á mismunandi sniðum
               items:
                 - name: Hanna skilgreiningar til að mynda skjöl á Excel-sniði á útleið
                   items:
@@ -3701,11 +3729,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að fylla inn í PDF-sniðmát
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-                - name: Innfeldar myndir og form
+                - name: Fella inn myndir og form
                   items:
-                    - name: (Rafræn skýrslugerð) Fella inn myndir og form í viðskiptaskjöl sem búin eru til
+                    - name: Fella inn myndir og form í viðskiptaskjöl sem búin eru til
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                    - name: Dæmi um innfeldar myndir og form
+                    - name: Dæmi um innfelldar myndir og form
                       items:
                         - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -3763,8 +3791,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) – altækir eiginleikar
-                      href: localizations/rcs-globalization-feature.md
+                    - name: Altækir eiginleikar í RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Finance
                       items:
                         - name: Sækja skilgreiningar úr RCS
@@ -3896,17 +3924,17 @@
                     - name: Gerðir viðtökustaða
                       items:
                         - name: Safnvista viðtökustað
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: Viðtökustaður tölvupósts
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Viðtökustaður skráar
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Power BI viðtökustaður
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Viðtökustaður prentara
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Viðtökustaður skjás
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Skilgreina viðtökustaði
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Skilgreina áfangastaði sem eru háðir aðgerð

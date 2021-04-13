@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Verkvangsuppfærslur fyrir 10.0.16 (febrúar 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Verkvangsuppfærslur fyrir 10.0.15 (janúar 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Samþættur starfskraftur, starf og staða'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Altæk aðila- og aðsetursbók
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Notkun Power Portal með gagnalíkani aðila
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Samþætting athugasemdar
                               href: data-entities/dual-write/notes-integration.md
                             - name: Vörpunartilvísun
@@ -526,13 +528,15 @@
                   items:
                     - name: Setja upp verk á staðnum í LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Setja upp og virkja innanhússumhverfi
+                    - name: Setja upp og virkja umhverfi á staðnum í (verkvangsuppfærsla 41 og síðari útgáfur)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Setja upp og virkja umhverfi á staðnum í (verkvangsuppfærsla 12 til 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Uppsetningarskref fyrir hluta Retail-rásar í innanhússumhverfi
+                    - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
                       href: deployment/deploy-retail-onprem.md
                     - name: Þróa og virkja sérstillt líkön í innanhússumhverfi
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Viðhald umhverfis
+                - name: Umhverfisaðgerðir
                   items:
                     - name: Nota uppfærslur fyrir uppsetningu á staðnum
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Grunnstilla AOS-hnúta sem eru eingöngu fyrir runu og eingöngu gagnvirkir í uppsetningu á staðnum
                       href: deployment/onprem-batchonly.md
+                    - name: Skilgreina mikinn tiltækileika fyrir SQL Server Reporting Services (SSRS) hnúta
+                      href: deployment/onprem-SSRSHA.md
                     - name: Skilgreina staðgengla fyrir innanhússumhverfi
                       href: deployment/onprem-reverseproxy.md
                     - name: Greining á staðnum
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Samþætting Microsoft Power Platform
           items:
-            - name: Microsoft Power Platform samþætting við Finance and Operations
-              href: power-platform/overview.md
-            - name: Yfirlit innbóta
-              href: power-platform/add-ins-overview.md
-            - name: Einingalíkön
-              href: power-platform/entity-modeling.md
-            - name: Líftímastjórnun forrits
-              href: power-platform/application-lifecycle-management.md
-            - name: Tilvísun stjórnanda Finance and Operations og Dataverse
-              href: power-platform/admin-reference.md
-            - name: Power Apps-gáttir með Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Algengar spurningar um sýndareiningar Finance and Operations
-              href: power-platform/faq.md
+            - name: Sýndareiningar
+              items:
+                - name: Microsoft Power Platform samþætting við Finance and Operations
+                  href: power-platform/overview.md
+                - name: Einingalíkön
+                  href: power-platform/entity-modeling.md
+                - name: Líftímastjórnun forrits
+                  href: power-platform/application-lifecycle-management.md
+                - name: Tilvísun stjórnanda Finance and Operations og Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Power Apps-gáttir með Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Algengar spurningar um sýndareiningar Finance and Operations
+                  href: power-platform/faq.md
+            - name: Innbætur
+              items:
+                - name: Yfirlit innbóta
+                  href: power-platform/add-ins-overview.md
         - name: Fartækjaverkvangur
           items:
             - name: Tilföng fartækjaverkvangs
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Kennsla fyrir Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Skilgreina notendur sem ekki eru stjórnendur
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Bestu starfsvenjur
               href: perf-test/rsat/rsat-best-practices.md
             - name: Prófun óháð gögnum með Regression Suite Automation Tool
