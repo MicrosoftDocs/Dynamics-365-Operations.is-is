@@ -1,12 +1,10 @@
 ---
-title: Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Ítalíu
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Ítalíu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+title: Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
+description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Ítalíu.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840101"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Ítalíu
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> Viðbót rafrænnar reikningsfærslu fyrir Ítalíu styður eins og er hugsanlega ekki allar aðgerðir sem eru í boði fyrir rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
+> Rafræn reikningsfærsla fyrir Ítalíu styður eins og er hugsanlega ekki allar aðgerðir sem eru í boði fyrir rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
 
 Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Ítalíu. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það leiðir notandann einnig í gegnum ferlið til að senda inn rafræna reikninga sem eru myndaðir á ítalska sniðinu **FatturaPA** í gegnum þjónustuna og það útskýrir hvernig á að yfirfara niðurstöður vinnslunnar.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með viðbót rafrænnar reikningsfærslu](e-invoicing-get-started.md).
+Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -48,7 +46,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 4. Birtið eiginleika rafrænnar reikningsfærslu.
 
 > [!NOTE]
-> „Eiginleiki rafrænnar reikningsfærslu“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota þjón rafrænnar reikningsfærsluviðbótar. Í þessu tilfelli er útflutningur á rafrænum reikningum viðskiptavinar eiginleiki rafrænnar reikningsfærslu sem á að setja upp.
+> „Eiginleiki rafrænnar reikningsfærslu“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota þjón rafrænnar reikningsfærslu. Í þessu tilfelli er útflutningur á rafrænum reikningum viðskiptavinar eiginleiki rafrænnar reikningsfærslu sem á að setja upp.
 
 ## <a name="import-the-e-invoicing-feature"></a>Flytja inn eiginleika rafrænnar reikningsfærslu
 
@@ -153,7 +151,7 @@ Hægt er að birta eiginleika rafrænnar reikningsfærslu með því að breyta 
 
 ![Stöðu eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Setja upp samþættingu á viðbót rafrænnar reikningsfærslu í Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Setja upp samþættingu rafrænnar reikningsfærslu í Finance
 
 Við uppsetningu á Finance verður þessum verkum lokið:
 
@@ -193,17 +191,17 @@ Við uppsetningu á Finance verður þessum verkum lokið:
 
 Við úrvinnslu í Finance verður lokið við þessi verk:
 
-1. Mynda ítalska rafræna reikninga í gegnum viðbót rafrænnar reikningsfærslu
+1. Mynda ítalska rafræna reikninga í gegnum rafræna reikningsfærslu
 2. Skoða keyrslukladda og yfirfara niðurstöður vinnslu
 
 ### <a name="generate-electronic-invoices"></a>Búa til rafræna reikninga
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** og eiginleikinn **IT00036** hefur verið virkjaður, verður ekki lengur hægt að nota gamla Finance-ferlið til að mynda ítalska rafræna reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænnni reikningsfærslu** og eiginleikinn **IT00036** hefur verið virkjaður, verður ekki lengur hægt að nota gamla Finance-ferlið til að mynda ítalska rafræna reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
 
 Hægt er að senda skjölin inn handvirkt, út frá eftirspurn eftir skjölum rafrænna reikninga.
 
 > [!NOTE]
-> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Hafa skal í huga að einhver uppsetningarskref sem lýst er í því efnisatriði kunna að vera ekki í boði vegna virkjunar á viðbót rafrænnar reikningsfærslu.
+> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Hafa skal í huga að einhver uppsetningarskref sem lýst er í því efnisatriði kunna að vera ekki í boði vegna virkjunar á rafrænni reikningsfærslu.
 
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Senda inn rafræn skjöl**.
 2. Fyrir fyrstu innsendingu á skjali skal stilla valkostinn **Senda skjöl inn aftur** á **Nei**. Ef senda þarf skjal inn aftur í gegnum þjónustuna skal stilla þennan valkost á **Já**.
@@ -220,7 +218,7 @@ Hægt er að senda skjölin inn handvirkt, út frá eftirspurn eftir skjölum ra
 2. Veljið **Í lagi** til að loka svarglugganum **Fyrirspurn**.
 3. Veljið **Í lagi** til að senda inn valin skjöl.
 
-> ![ATHUGIÐ] Í fyrstu tilraun til að senda inn skjal í gegnum þjónustuna verður beðið um að staðfesta tenginguna við viðbót rafrænnar reikningsfærslu. Veljið **Smelltu hér til að tengjast sendingarþjónustu rafrænna skjala**.
+> ![ATHUGIÐ] Í fyrstu tilraun til að senda inn skjal í gegnum þjónustuna verður beðið um að staðfesta tenginguna við rafræna reikningsfærslu. Veljið **Smelltu hér til að tengjast sendingarþjónustu rafrænna skjala**.
 
 #### <a name="view-submission-logs"></a>Skoða innsendingarkladda
 
@@ -242,9 +240,9 @@ Hægt er að skoða innsendingarkladda fyrir öll send skjöl.
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
-- [Yfirlit innbótar rafrænna reikninga](e-invoicing-service-overview.md)
-- [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
-- [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+- [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md)
+- [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md)
+- [Setja upp rafrænar reikningsfærslur](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,27 +1,26 @@
 ---
 title: Skilgreiningar skipurits í fjárhagsskýrslum
 description: Þessi grein lýsir skilgreiningum skipurits. Skilgreining skipurits er skýrsluíhlutur sem skilgreinir skipulag fyrirtækis.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568776"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819939"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skilgreiningar skipurits í fjárhagsskýrslum
 
@@ -74,7 +73,7 @@ Til að stofna skipuritsskilgreiningu, skal fylgja eftirfarandi skrefum.
     | Hafa með/Staða stafs       | Þessi hluti Birtir víddirnar sem skilgreindar eru í fjárhagsgögnunum og sýnir fjölda stafa í lengsta skilgreinda gildi fyrir hverja vídd. Veljið þennan gátreit fyrir vídd sem skal hafa með í þeirri vídd í stigveldi skipuritsins. |
     | Hlutun stigveldis og sviða     | Þessi hluti sýnir stigveldi vídda. Hægt er að færa víddir til í listanum til að breyta röð þeirra í skýrslu. Tilgreina svið gilda innan hverrar víddar í á **Úr Vídd** og **Til Vídd** reiti. Ef ekkert svið er tilgreint verða öll víddargildi sett inn á skipuritið.<blockquote>[!NOTE] Ef verið er að nota fleiri en ein vídd munu aðeins víddarsamsetningar sem hefur verið bókað á skila sér í niðurstöðum.</blockquote> |
 
-    Fyrir skjáskot sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann „Dæmi um Setja inn einingar skipurits úr víddum-svarglugga“ síðar í þessari grein.
+    Fyrir mynd sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann „Dæmi um Setja inn einingar skipurits úr víddum-svarglugga“ síðar í þessari grein.
 
 5. Til að stofna viðbótarhluta, (svo sem að skipta einum hluta í tvo styttri), er smellt á rétta staðsetningu í reitnum **Staða stafs** og svo smella á **Skipta hlutum**.
 6. Til að sameina tvo hluta í einn, er smellt í reit annars hlutans sem á að sameina og smella svo á **Sameina hluta**.
@@ -186,23 +185,23 @@ Hér er Uppbygging einingar skipurits í eftirfarandi skipuriti:
 - Eining skipurits á læsta upplýsingastigi (Home Sales, Auto Sales, Client Services, og Operations) stendur fyrir deildir í fjárhagsgögnunum. Þessar einingar skipuritsins eru í skyggða svæðinu í skipuritinu.
 - Samantektareiningar á hærri stigum taka saman upplýsingar frá upplýsingaeiningum.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso bygging samantektarskýrslu - Dæmi 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Uppbygging einingar skipurits - dæmi 2
 
 Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er skipt niður í viðskiptaaðgerðir.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso bygging samantektarskýrslu - Dæmi 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga
 
 Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugga. Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Setja inn einingar skipurits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 skipuritsskilgreining sem verður til er raðað eftir viðskiptaeining, og svo eftir kostnaðarstað og svo eftir deild. Vídd fyrir fimmtu eining skipurits er **Viðskiptaeining = \[001\], Kostnaðarstaður =\[\], Deild = \[022\]** og auðkennir eining skipurits fyrir lykla sem tengjast viðskiptaeiningu 001 og deild 022.
 
-[![Skipurit](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Mynd af skýrslutrénu](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Dæmi um samantekt gagna
 
@@ -210,11 +209,11 @@ Eftirfarandi dæmi sýna mögulegar upplýsingar sem eru notaðar í skipuritssk
 
 #### <a name="example-1"></a>Dæmi 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Samantekt margra fyrirtækja](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Dæmi 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Samantekt deilda þvert á fyrirtæki](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
