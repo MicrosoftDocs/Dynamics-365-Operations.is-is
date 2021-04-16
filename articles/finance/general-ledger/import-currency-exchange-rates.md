@@ -2,11 +2,9 @@
 title: Flytja inn gengi gjaldmiðla
 description: Þetta efni veitir upplýsingar um kröfur um innflutning á erlendum viðmiðunargengi sem eru gefin út af gengisaðilum.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249120"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823741"
 ---
 # <a name="import-currency-exchange-rates"></a>Flytja inn gengi gjaldmiðla
 
@@ -35,9 +33,8 @@ Eftirfarandi kaflar lýsa flæði upplýsinga sem er notað til að setja upp og
 ## <a name="configure-an-exchange-rate-provider"></a>Skilgreina gengisveitu
 Áður en hægt er að flytja inn gengi þarf að setja upp upplýsingarnar sem eru áskildar af gengisveitunum. Notaðu síðuna **Skilgreina gengisveitur** page to til að velja gegnisveitu. Sumar gengisveitur eru hluti af sýnigögnum í Dynamics 365 Finance. Eftirfarandi tafla lýsir stýringum í þessari síðu.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Svæði** | **Lýsing**                                                                                                                                                                                                             |
+| Svæði | lýsing                   |
+|-----------|-----------------------------------|
 | **Heiti**  | Nafn gengisveitunnar.                                                                                                                                                                                     |
 | **Lykill**   | Einkvæmt kennimerki fyrir hverjar skilgreiningarupplýsinganna sem nauðsynlegar eru fyrir veituna. Þessar upplýsingar er sjálfkrafa bætt fyrir hverja gengisveitu sem bætt er við. |
 | **Value** | Upplýsingar fyrir hvern lykil. Þessar upplýsingum er bætt fyrir hverja gengisveitu sem bætt er við.                                                                                         |
@@ -45,9 +42,8 @@ Eftirfarandi kaflar lýsa flæði upplýsinga sem er notað til að setja upp og
 ## <a name="import-currency-exchange-rates"></a>Flytja inn gengi gjaldmiðla
 Þú getur flutt inn gengi gjaldmiðils úr uppruna gengisveita og bætt þeim við á síðunni **Gengi gjaldmiðils**. Notaðu síðuna **Flytja inn gengi gjaldmiðla** til að flytja inn gengi gjaldmiðla Eftirfarandi tafla inniheldur lýsingar á svæðunum sem eru áskilin til að ljúka við innflutningsferlið.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Svæði**                              | **Lýsing**                                                                                                                                                                                                                                                                                                                                                             |
+| Svæði | lýsing                   |
+|-----------|-----------------------------------|
 | **Gerð gengis**                 | Gerð gengis.                                                                                                                                                                                                                                                                                                                                                      |
 | **Gengisveita**             | Gengisveita                                                                                                                                                                                                                                                                                                                                                  |
 | **Innflutningur frá og með**                       | Þessi færibreyta stjórnar því hvort á að flytja inn frá og með deginum í dag eða miðað við tiltekið dagsetningabil. Ef ætlunin er að nota dagsetningabil, skal færa inn eða velja upphafs- og lokadagsetningar.                                                                                                                                                                                                                |

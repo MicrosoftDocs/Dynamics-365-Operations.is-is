@@ -2,11 +2,9 @@
 title: Víddir kostnaðareiningar
 description: Sem einn grunnstólpi kostnaðarbókhalds, eru víddir kostnaðareiningar notaðar til að flokka og rekja hvert kostnaður streymir.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: be2f984c1ce5c76e3f995108d25f57c29e8c8457
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226365"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811438"
 ---
 # <a name="cost-element-dimensions"></a>Víddir kostnaðareiningar
 

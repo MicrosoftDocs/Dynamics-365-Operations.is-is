@@ -2,11 +2,9 @@
 title: Hafist handa með eignarleigu
 description: Í þessu efnisatriði er lýst möguleikum eignarleigu og farið í gegnum skrefin til að búa til leigusamning eignar og skoða upplýsingar fyrir þessa leigusamninga.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814129"
 ---
 # <a name="asset-leasing-get-started"></a>Hafist handa með eignarleigu
 
@@ -41,16 +39,16 @@ Leigð eign inniheldur eftirfarandi meginþætti:
 
 - **Leigusamningur** - Leigusalinn á eignina og gerir samkomulag við leigjandann um að leigja út eign á tilteknum tímabili í skiptum fyrir reglubundnar leigugreiðslur. Auk lagalegs samnings milli leigusala og leigjanda, nær leigusamningurinn yfir stjórnunarákvörðunum á borð við líkurnar á því að nýta sér valkost endurnýjunar og breytingu á eignarhaldi.
 
-- **Útreikningur og flokkun leigusamnings eftir reikningsskilastaðli** - Útreikningur og flokkun leigusamnings segja til um reikningsskilastaðalinn sem verður notaður við upphaflegt mat og í framhaldinu, auk prófun flokksins sem ákvarðar hver gerð leigusamningsins verður. Leigusamningur getur verið fjármögnunarleigusamningur, rekstrarleigusamningur, skammtímaleigusamningur eða leigusamningur verðlítillar eignar. Kerfið reiknar einnig út núvirði á lágmarksgreiðslum á leigu í framtíðinni fyrir mat og flokkun.
+- **Útreikningur og flokkun leigusamnings eftir reikningsskilastaðli** - Útreikningur og flokkun leigusamnings segja til um reikningsskilastaðalinn sem verður notaður við upphaflegt mat og í framhaldinu, auk prófun flokksins sem ákvarðar hver gerð leigusamningsins verður. Leigusamningur getur verið fjármögnunarleigusamningur, rekstrarleigusamningur, skammtímaleigusamningur eða leigusamningur verðlítillar eignar. Kerfið reiknar einnig út nettónúvirði á lágmarksgreiðslum á leigu í framtíðinni fyrir mat og flokkun.
 
-- **Leigufærslur** - Eignarleiga styður upphaflega skráningu á afnotarétti af eign fyrir leigusamninga á efnahagsreikningnum, auk væntanlegu mati fyrir annaðhvort leigusamninga í eða fyrir utan efnahagsreikning. Upphaflegar skráningarfærslur reikna út núvirði á lágmarksgreiðslum á leigu í framtíðinni. Þessi gögn eru notuð til að ákvarða virði á upphaflegum afnotarétti eignar og leiguskuldbindingu, sem hefur áhrif á efnahagsreikning fyrirtækisins. Seinna mat á mánaðarlegum leigufærslum felur í sér uppsöfnun vaxta á leiguskuldbindinguna, sem hækkar leiguskuldbindinguna. Það mælir einnig uppsöfnun leigugreiðslna sem lækka leiguskuldbindingu og sem verður síðan greitt út til leigusala. Matið felur einnig í sér afskrift á afnotarétti eignar.
+- **Leigufærslur** - Eignarleiga styður upphaflega skráningu á afnotarétti af eign fyrir leigusamninga á efnahagsreikningnum, auk væntanlegu mati fyrir annaðhvort leigusamninga í eða fyrir utan efnahagsreikning. Upphaflegar skráningarfærslur reikna út nettónúvirði á lágmarksgreiðslum á leigu í framtíðinni. Þessi gögn eru notuð til að ákvarða virði á upphaflegum afnotarétti eignar og leiguskuldbindingu, sem hefur áhrif á efnahagsreikning fyrirtækisins. Seinna mat á mánaðarlegum leigufærslum felur í sér uppsöfnun vaxta á leiguskuldbindinguna, sem hækkar leiguskuldbindinguna. Það mælir einnig uppsöfnun leigugreiðslna sem lækka leiguskuldbindingu og sem verður síðan greitt út til leigusala. Matið felur einnig í sér afskrift á afnotarétti eignar.
 
   Fyrir leigusamninga utan efnahagsreiknings, reiknar kerfið út línulegan leigukostnað fyrir annaðhvort af eftirfarandi sem felur í sér lægri kostnað: efnahagslegan líftíma eignarinnar eða leigutímann. Breytingar á leigu taka til greina breytingar á samningum á borð við framlengingu eða stækkun leigusamnings og færslu virðisrýrnunar sem notar afnotaréttinn af eign fyrir óendurheimtanlegan kostnað.
 
   Eignarleiga samþættist við Fjárhag til að tryggja að allar bókaðar leigufærslur uppfæri bókhaldslykilinn. Eignarleiga samþættist við Viðskiptaskuldir til að rekja reikninga leigusala í Viðskiptaskuldum og taka við framtíðargreiðslum þaðan. Samþætting við Eignir gerir þér kleift að rekja leigusamninga í skrá eignar og bóka færslur afnotaréttar af eign, þ.m.t. upphaflega skráningu, afskrift og virðisrýrnun eignar innan Eigna.   
 
 ## <a name="asset-leasing-components"></a>Þættir Eignarleigu 
-Eignarleiga varpar upplýsingum um leigusamning, greiðsluáætlunum, upphafs- og lokadagsetningu og greiðslutíðninni. Hún gerir einnig útreikninga fyrir núvirði, mánaðarlegar leigugreiðslur, vexti og afskriftir leigusamnings sjálfvirka. Kerfið framkvæmir prófanir á flokkun leigusamnings, eftir því hver grunnstillingin er. Kerfið stofnar einnig og bókar samsvarandi leigufærslur sem eru byggðar á þeim ramma sem er skilgreindur af þeim reikningsskilastaðli sem þú ferð eftir.
+Eignarleiga varpar upplýsingum um leigusamning, greiðsluáætlunum, upphafs- og lokadagsetningu og greiðslutíðninni. Hún gerir einnig útreikninga fyrir nettónúvirði, mánaðarlegar leigugreiðslur, vexti og afskriftir leigusamnings sjálfvirka. Kerfið framkvæmir prófanir á flokkun leigusamnings, eftir því hver grunnstillingin er. Kerfið stofnar einnig og bókar samsvarandi leigufærslur sem eru byggðar á þeim ramma sem er skilgreindur af þeim reikningsskilastaðli sem þú ferð eftir.
 
 Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðsluáætlun, flokkunarprófanir fyrir leigusamninga og leigubækur og samsvarandi bókhaldsfærslur.
 
@@ -62,13 +60,13 @@ Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðslu�
 
 - **Nýtingartími eignar** - Þetta táknar eftirstandandi tímabil fyrir nýtingartíma eignar, frá og með upphafsdagsetningu leigusamningsins. Nýtingartími eignar verður tekin til greina í jöfnun flokkunarprófunar. Hann er frábrugðinn nýtingartímanum sem er skilgreindur í Eignum.
 
-- **Vextir á nýju lánsfé** - Þetta eru vextirnir sem verða notaðir til að reikna núvirðið. Kerfið mun nota óbeina vexti ef það er skilgreint í gögnum leigusamnings að reikna núvirði leigugreiðslnanna. Ef óbeinir vextir eru ekki skilgreindir, notar kerfið vexti á nýju lánsfé.
+- **Vextir á nýju lánsfé** - Þetta eru vextirnir sem verða notaðir til að reikna nettónúvirðið. Kerfið mun nota óbeina vexti ef það er skilgreint í gögnum leigusamnings að reikna nettónúvirði leigugreiðslnanna. Ef óbeinir vextir eru ekki skilgreindir, notar kerfið vexti á nýju lánsfé.
 
 - **Tegund afborgunar** - Þetta er leigugreiðsla á gjalddaga annaðhvort við upphaf greiðslutímabilsins eða undir lok þess. Þetta gæti verið fyrirframgreiðsla eða framsett afborgun (við upphaf tímabils leigugreiðslunnar) eða venjuleg afborgun (undir lok tímabils leigugreiðslunnar).
 
   Fyrsti mánuður verður talinn sem tímabil númer núll fyrir fyrirframgreiðslu; fyrstu mánuður verður talinn tímabil eitt fyrir greiðslu eftirstöðva.
 
-- **Samsett tímabil** - Þetta táknar fjölda tímabila sem vextir eru teknir saman á ári. Þetta gæti verið mánaðarlega (tólf tímabil á ári), ársfjórðungslega (fjögur tímabil á ári), hálfs árs fresti (tvö tímabil á ári), eða árlega (eitt tímabil á ári). Fjöldi tímabila verður talinn með í útreikningi núvirðis.
+- **Samsett tímabil** - Þetta táknar fjölda tímabila sem vextir eru teknir saman á ári. Þetta gæti verið mánaðarlega (tólf tímabil á ári), ársfjórðungslega (fjögur tímabil á ári), hálfs árs fresti (tvö tímabil á ári), eða árlega (eitt tímabil á ári). Fjöldi tímabila verður talinn með í útreikningi nettónúvirðis.
 
 - **Upphafsdagsetning** - Þetta er dagsetningin þegar leigusali gerir leigjanda kleift að nota eignina. Allir útreikningar og færslur leigusamnings verða notuð samkvæmt upphafsdagsetningunni. Upphafsdagsetning á að vera í upphafi tímabils (fyrsta dag mánaðar) til að tryggja nákvæmni væntanlegra útreikninga. Hægt er að nota reitinn **Dagsetning undirritunar samnings** til að færa inn raundagsetninguna þegar samningurinn var undirritaður.
 
@@ -81,7 +79,7 @@ Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðslu�
 
 - **Greiðslutíðni** - Þetta gefur til kynna hvort greiðslan er mánaðarleg, ársfjórðungsleg, hálfs árs fresti eða árlega. Lokadagsetningin er sjálfkrafa reiknuð út frá upphafsdegi og fjölda tímabila sem færð voru inn.
 
-- **Greiðsluáætlun** - Þetta er reiknað núvirði, byggt á tímalengdinni sem leigugreiðslurnar ná yfir, greiðsluupphæðunum, samsettum tímabilum og tegund afborgunar.
+- **Greiðsluáætlun** - Þetta er reiknað nettónúvirði, byggt á tímalengdinni sem leigugreiðslurnar ná yfir, greiðsluupphæðunum, samsettum tímabilum og tegund afborgunar.
 
 - **Tímabilin** - Þetta eru leigutímabilin sem endurspegla innri samsetningu og tegund afborgunar. Samsett tímabil ákvarðar hvernig tímabilum verður skipt. Hægt er að stilla eftirfarandi samsett tímabil:
 
@@ -92,10 +90,10 @@ Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðslu�
 
 Fyrsta tímabilið hefst á tímabili núll, ef tegund afborgunar er framsett afborgun. Annars hefst fyrsta tímabilið á einum, ef tegund afborgunar er vangoldin greiðsla.
 
-- **Mánuðir** - Þetta gefur til kynna fjölda almanaksmánaða yfir lengd leigutímans. Greiðsluupphæðin er gjaldfallin upphæð eins og hún er skilgreind í greiðslutíðninni. Útreiknað núvirði er leigugreiðsla á tímabili sem byggir á núvirði, samsett tímabil og vexti á nýju lánsfé.
+- **Mánuðir** - Þetta gefur til kynna fjölda almanaksmánaða yfir lengd leigutímans. Greiðsluupphæðin er gjaldfallin upphæð eins og hún er skilgreind í greiðslutíðninni. Útreiknað nettónúvirði er leigugreiðsla á tímabili sem byggir á núvirði, samsett tímabil og vexti á nýju lánsfé.
 
 > [!NOTE] 
-> Núvirði er reiknað samkvæmt jöfnu afvaxtaðs sjóðstreymis.
+> Nettónúvirði er reiknað samkvæmt jöfnu afvaxtaðs sjóðstreymis.
 
 - **Bækur** - Þetta er forskilgreind uppsetning sem tengist hverjum leigusamningi. Bókin skilgreinir þann reikningsskilastaðal sem er notaður, gerðir leigusamninga og mörkin sem eru notuð til grundvallar prófunar á flokkun. Flokkunarprófanir eru notaðar til að tilgreina gerð leigusamningsins sjálfkrafa.
 
@@ -107,7 +105,7 @@ Fyrsta tímabilið hefst á tímabili núll, ef tegund afborgunar er framsett af
 
   - **Leigutími** - Þetta er prósenta nýtingartímans sem nota á í flokkunarprófuninni. Kerfið mun flokka leigusamninginn sem fjármögnunarleigusamning ef gerð leigusamnings er stillt á sjálfvirkni, og ef leigutíminn yfir nýtingartíma eignarinnar er meiri en eða jafnt og prósentan sem gefin er upp hér.
 
-  - **Núvirði** - Þetta er prósentan af gangvirði eignar sem nota á í flokkunarprófuninni. Kerfið mun flokka leigusamninginn sem fjármögnunarleigusamning ef gerð leigusamnings er stillt á sjálfvirkni og ef núvirði á leigugreiðslum í framtíðinni yfir gangvirði eignarinnar er meira en eða jafnt og prósentan sem gefin er upp hér.
+  - **Nettónúvirði** - Þetta er prósentan af gangvirði eignar sem nota á í flokkunarprófuninni. Kerfið mun flokka leigusamninginn sem fjármögnunarleigusamning ef gerð leigusamnings er stillt á sjálfvirkni og ef nettónúvirði á leigugreiðslum í framtíðinni yfir gangvirði eignarinnar er meira en eða jafnt og prósentan sem gefin er upp hér.
 
   - **Skammtímaleigusamningur** - Ef leigutíminn er minni en eða jafn skilgreindu virði, verður leigusamningurinn flokkaður sem skammtímaleigusamningur.
 
@@ -115,7 +113,7 @@ Fyrsta tímabilið hefst á tímabili núll, ef tegund afborgunar er framsett af
 
   - **Flokkun og færslur leigusamnings** Flokkun leigusamnings er sjálfvirkt ferli til að flokka leigusamninga samkvæmt skilgreindum mörkum í bókum fyrir utan önnur skilyrði prófunarflokkunar til að greina leigusamninginn sem fjármögnunarleigusamning, rekstrarleigusamning, skammtímaleigusamning eða leigusamning verðlítillar eignar. Þetta er einnig notað til að auðkenna hvort ferli frestaðra leigugreiðslna er fylgt eftir.
 
-Flokkunarprófanir fela í sér flutning á eignarhaldi, kaupmöguleika, leigutíma, núvirði og einstaka eign. Eftirfarandi skýringarmynd sýnir prófun leigusamningsflokkunar.
+Flokkunarprófanir fela í sér flutning á eignarhaldi, kaupmöguleika, leigutíma, nettónúvirði og einstaka eign. Eftirfarandi skýringarmynd sýnir prófun leigusamningsflokkunar.
 
 [![Prófun leigusamningsflokkunar](./media/overview-03.png)](./media/overview-03.png)
 
@@ -124,22 +122,22 @@ Hver gerð leigusamnings meðhöndlar bókhaldið á ólíkan hátt fyrir mismun
 ## <a name="asset-leasing-transactions"></a>Færslur eignarleigu
 
 #### <a name="initial-recognition"></a>Upphafleg skráning 
-Upphafleg skráning á leigðri eign notar reiknað núvirði svo hægt sé að gefa það upp í efnahagsreikningnum. Bókhaldsfærslan fyrir þetta er búin til sjálfkrafa. Þessi færsla debetfærir lykilinn fyrir afnotarétt af eign og kreditfærir skuldbindingalykil rekstrarleigusamnings eins og hér segir. Ef eign er tengd leigusamningnum, mun upphafleg skráningarfærsla endurspegla eignakaup. Í þessu tilfelli þarf að skilgreina bókunarreglu eigna til að bóka lykil fyrir afnotarétt af eign. 
+Upphafleg skráning á leigðri eign notar reiknað nettónúvirði svo hægt sé að gefa það upp í efnahagsreikningnum. Bókhaldsfærslan fyrir þetta er búin til sjálfkrafa. Þessi færsla debetfærir lykilinn fyrir afnotarétt af eign og kreditfærir skuldbindingalykil rekstrarleigusamnings eins og hér segir. Ef eign er tengd leigusamningnum, mun upphafleg skráningarfærsla endurspegla eignakaup. Í þessu tilfelli þarf að skilgreina bókunarreglu eigna til að bóka lykil fyrir afnotarétt af eign. 
 
 > [!NOTE]
 > Rekstrarleigusamningar eru aðeins studdir af US GAAP ASC 842.
 
 |     Gerð                                          |     Debet                     |     Kredit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Rekstrarleigusamningur samkvæmt US GAAP              |     Afnotaréttur af eign      |     Skuldbinding rekstrarleigusamnings       |
-|     Fjármögnunarleigusamningur samkvæmt IFRS og US GAAP        |     Afnotaréttur af eign      |     Skuldbinding rekstrarleigusamnings       |
+|     Rekstrarleigusamningur samkvæmt US GAAP            |     Afnotaréttur af eign        |     Skuldbinding rekstrarleigusamnings     |
+|     Fjármögnunarleigusamningur samkvæmt IFRS og US GAAP      |     Afnotaréttur af eign        |     Skuldbinding fjármögnunarleigusamnings       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Afskrift leiguskuldbindingar (vaxtakostnaður) 
 Vextir fyrir leigusamning eru skráðir með því að reikna út vexti fyrir upphafsstöðu leigusamningsins, leigugreiðslu tímabils, vexti á lánsfé og samsett tímabil á ári. Vaxtaupphæðin eykur skuldbindingu á lykli rekstrarleigusamnings með því að kreditfæra hann, sem kemur fram í efnahagsreikningi fyrirtækisins. Færslan felur einnig í sér debetfærslu á lykli vaxtakostnaðar sem kemur fram á rekstraryfirlitinu fyrir fjármagnsleigusamninga og á kostnaðarlykli leigusamnings fyrir rekstrarleigusamninga.
 
 |     Gerð                                          |     Debet                     |     Kredit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Færsla skuldbindingar rekstrarleigusamnings samkvæmt US GAAP ASC 842    |     Vaxtakostnaður          |     Skuldbinding rekstrarleigusamnings         |
+|     Færsla skuldbindingar rekstrarleigusamnings samkvæmt US GAAP ASC 842    |     Leigukostnaður         |     Skuldbinding rekstrarleigusamnings         |
 |     Færsla skuldbindingar fjármögnunarleigusamnings samkvæmt IFRS og US GAAP      |     Vaxtakostnaður          |     Skuldbinding fjármögnunarleigusamnings           |
 
 #### <a name="accrued-lease-payment"></a>Uppsöfnuð leigugreiðsla
@@ -151,7 +149,7 @@ Uppsöfnuð leigugreiðsla er viðurkennd sem framtíðargreiðsla leigutaka sem
 |     Fjármögnunarleigusamningur samkvæmt IFRS og US GAAP        |  Skuldbinding fjármögnunarleigusamnings      |   Skuldbinding lánardrottins (undirbók)/Víxilskuld  |
 
 #### <a name="asset-depreciation"></a>Afskrift eigna
-Afnotaréttur af eign er afskrifaður á þeim tíma sem er styttri - nýtingartíma eignar eða leigusamning. Aðferðin til að reikna afskriftir fyrir GAAP (ASC 842) byggist á mismun á línulegum leigukostnaði og vaxtaupphæð. Vextir á fjármagnsleigusamningi eru reiknaðir með því að nota hefðbundna línulega aðferð. Leiguafskriftir hafa áhrif á rekstraryfirlitið með því að debetfæra vaxtakostnað. Efnahagsreikningurinn verður fyrir áhrifum vegna kreditfærslu á lykli fyrir afnotarétt af eign fyrir fjármögnunarleigusamninga. Fyrir rekstrarleigusamninga er afskriftin að kreditfæra kostnaðarlykil leigusamningsins. Ef leigusamningurinn er tengdur við eign verða afskriftarfærslurnar keyrðar úr eignaeiningunni eingöngu. 
+Afnotaréttur af eign er afskrifaður á þeim tíma sem er styttri - nýtingartíma eignar eða leigusamning. Aðferðin til að reikna afskriftir fyrir US GAAP rekstrarleigusamning (ASC 842) byggist á mismun á línulegum leigukostnaði og vaxtaupphæð. Afskriftir á fjármagnsleigusamningi eru reiknaðar með því að nota hefðbundna línulega aðferð. Leiguafskriftir hafa áhrif á rekstraryfirlitið með því að debetfæra vaxtakostnað. Efnahagsreikningurinn verður fyrir áhrifum vegna kreditfærslu á lykli fyrir afnotarétt af eign fyrir fjármögnunarleigusamninga. Ef leigusamningurinn er tengdur við eign verða afskriftarfærslurnar keyrðar úr eignaeiningunni eingöngu. 
 
 |     Gerð                                          |     Debet                     |     Kredit                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |

@@ -1,12 +1,10 @@
 ---
-title: Setja upp viðbót rafrænnar reikningsfærslu
-description: Í þessu efnisatriði er útskýrt hvernig setja á upp viðbót rafrænnar reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+title: Setja upp rafrænar reikningsfærslur
+description: Í þessu efnisatriði er útskýrt hvernig setja á upp rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,62 +15,62 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209947"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840005"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>Setja upp viðbót rafrænnar reikningsfærslu
+# <a name="set-up-electronic-invoicing"></a>Setja upp rafrænar reikningsfærslur
 
 [!include [banner](../includes/banner.md)]
 
 
-Uppsetning á eiginleika rafrænnar reikningsfærsluviðbótar er ferlið við að stofna nauðsynlega skilgreiningu í gegnum umhverfi Regulatory Configuration Services (RCS) og útgáfu þeirrar skilgreiningar á þjóni rafrænnar reikningsfærsluviðbótar. Uppsetningin leyfir þér að búa til stillanlegar reglur sem gerir viðbót rafrænnar reikningsfærslu kleift að nota örugga samskiptareglu á internetinu til að flytja og skiptast á gögnum við einingu þriðja aðila í gegnum vefþjónustur.
+Uppsetning á eiginleika rafrænnar reikningsfærslu er ferlið við að stofna nauðsynlega skilgreiningu í gegnum umhverfi Regulatory Configuration Services (RCS) og útgáfu þeirrar skilgreiningar á þjóni rafrænnar reikningsfærslu. Uppsetningin leyfir þér að búa til stillanlegar reglur sem gerir rafrænni reikningsfærslu kleift að nota örugga samskiptareglu á internetinu til að flytja og skiptast á gögnum við einingu þriðja aðila í gegnum vefþjónustur.
 
 Stillanleikinn reiðir sig á skilgreiningu rafræns skýrslugerðarsniðs sem leið til að búa til efni sem er sent og móttekið í gegnum stafrænar skrár. Hann reiðir sig einnig á útsetningu samskiptaaðgerða til að senda beiðnir til og taka á móti svörum frá vefþjónustum þriðja aðila án þess að þú þurfir að skrifa kóða.
 
 ## <a name="overview"></a>Yfirlit
 
-„Eiginleiki rafrænnar reikningsfærsluviðbótar“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota þjón rafrænnar reikningsfærsluviðbótar. Uppsetning eiginleikans sameinar meðal annars notkun á sniðum rafrænna skýrslugerðarskilgreininga til að búa til stillanlegar útflutnings- og innflutningsskrá, og notkun á aðgerðum og aðgerðarflæði til að virkja stofnun á stillanlegum reglum til að senda beiðnir, flytja inn svör og þátta innihald svara.
+„Eiginleiki rafrænnar reikningsfærslu“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota netþjón rafrænnar reikningsfærslu. Uppsetning eiginleikans sameinar meðal annars notkun á sniðum rafrænna skýrslugerðarskilgreininga til að búa til stillanlegar útflutnings- og innflutningsskrá, og notkun á aðgerðum og aðgerðarflæði til að virkja stofnun á stillanlegum reglum til að senda beiðnir, flytja inn svör og þátta innihald svara.
 
-Eftirfarandi mynd sýnir helstu þættina í eiginleika rafrænnar reikningsfærsluviðbótar.
+Eftirfarandi mynd sýnir helstu þættina í eiginleika rafrænnar reikningsfærslu.
 
-![Yfirlit yfir eiginleika rafrænnar reikningsfærsluviðbótar](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Yfirlit yfir eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Vegna frávika í reikningssniðum og aðgerðarflæði, gæti uppsetning eiginleikans verið breytileg eftir löndum eða svæðum, eða vegna viðskiptakrafa.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>Setja upp eiginleika rafrænnar reikningsfærsluviðbótar
+## <a name="set-up-the-electronic-invoicing-feature"></a>Setja upp eiginleika rafrænnar reikningsfærslu
 
-Ljúka þarf uppsetningarferlinu í RCS-umhverfinu. Fylgið eftirfarandi skrefum til að stofna nýjan eiginleika rafrænnar reikningsfærsluviðbótar.
+Ljúka þarf uppsetningarferlinu í RCS-umhverfinu. Fylgið eftirfarandi skrefum til að stofna nýjan eiginleika rafrænnar reikningsfærslu.
 
 1. Skráðu þig inn í RCS-umhverfið þitt.
-2. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Eiginleikar**, skal velja reitinn **Viðbót rafrænnar reikningsfærslu**.
-3. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar** skal velja **Flytja inn** til að flytja inn skilgreiningu á gagnalíkani rafrænnar skýrslugerðar úr altæku geymslunni.
-4. Veljið **Bæta við** til að stofna eiginleika rafrænnar reikningsfærsluviðbótar. Annaðhvort er hægt að stofna eiginleikann frá grunni eða búa hann til út frá fyrirliggjandi eiginleika rafrænnar reikningsfærsluviðbótar.
+2. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
+3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja **Flytja inn** til að flytja inn skilgreiningu á gagnalíkani rafrænnar skýrslugerðar úr altæku geymslunni.
+4. Veljið **Bæta við** til að stofna eiginleika rafrænnar reikningsfærslu. Annaðhvort er hægt að stofna eiginleikann frá grunni eða búa hann til út frá fyrirliggjandi eiginleika rafrænnar reikningsfærslu.
 
-    ![Eiginleika rafrænnar reikningsfærsluviðbótar bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Bæta við eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> Þegar nýr eiginleiki rafrænnar reikningsfærsluviðbótar er stofnaður fylgir honum nýtt útgáfunúmer og sjálfgefin staða hans er stillt á **Drög**.
+> Þegar nýr eiginleiki rafrænnar reikningsfærslu er stofnaður fylgir honum nýtt útgáfunúmer og sjálfgefin staða hans er stillt á **Drög**.
 
 ### <a name="configurations"></a>Afbrigði
 
-Skilgreiningar geyma skilgreiningar rafræns skýrslugerðarsniðs sem eru nauðsynleg til að umbreyta og búa til skrár sem verður skipst á í samskiptum við vefþjónustur þriðja aðila. Eiginleiki rafrænnar reikningsfærsluviðbótar getur haft eins margar skilgreiningar á skráarsniði rafrænnar skýrslugerðar og þörf er á, sem byggir á tæknilýsingu samþættingar sem vefþjónustan býður upp á.
+Skilgreiningar geyma skilgreiningar rafræns skýrslugerðarsniðs sem eru nauðsynleg til að umbreyta og búa til skrár sem verður skipst á í samskiptum við vefþjónustur þriðja aðila. Eiginleiki rafrænnar reikningsfærslu getur haft eins margar skilgreiningar á skráarsniði rafrænnar skýrslugerðar og þörf er á, sem byggir á tæknilýsingu samþættingar sem vefþjónustan býður upp á.
 
-Fylgið þessum skrefum til að bæta sniðum rafrænnar skýrslugerðar við eiginleika rafrænnar reikningsfærsluviðbótar.
+Fylgið þessum skrefum til að bæta sniðum rafrænnar skýrslugerðar við eiginleika rafrænnar reikningsfærslu.
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í flipanum **Skilgreiningar**, skal velja **Bæta við** til að bæta við skilgreiningum á skráarsniði rafrænnar skýrslugerðar fyrir eiginleika rafrænnar reikningsfærsluviðbótar.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Skilgreiningar**, skal velja **Bæta við** til að bæta við skilgreiningum á skráarsniði rafrænnar skýrslugerðar fyrir eiginleika rafrænnar reikningsfærslu.
 
-    ![Skilgreiningum á eiginleika rafrænnar reikningsfærsluviðbótar bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > Þegar eiginleiki rafrænnar reikningsfærsluviðbótar er búinn til frá grunni, þarf að bæta handvirkt við öllum skilgreiningum á skráarsniði rafrænnar skýrslugerðar. Þegar eiginleiki rafrænnar reikningsfærsluviðbótar er búinn til út frá fyrirliggjandi eiginleika, eru skilgreiningar á skráarsniði rafrænnar skýrslugerðar sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærsluviðbótar.
+    > Þegar eiginleiki rafrænnar reikningsfærslu er búinn til frá grunni, þarf að bæta handvirkt við öllum skilgreiningum á skráarsniði rafrænnar skýrslugerðar. Þegar eiginleiki rafrænnar reikningsfærslu er búinn til út frá fyrirliggjandi eiginleika, eru skilgreiningar á skráarsniði rafrænnar skýrslugerðar sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærslu.
 
 2. Veljið **Breyta** til að opna síðuna **Sniðshönnuður** þar sem hægt er að breyta skilgreiningu á skráarsniði rafrænnar skýrslugerðar.
 
-    ![Skilgreiningum á eiginleika rafrænnar reikningsfærsluviðbótar breytt](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Þegar sniðinu er breytt breytist staða skilgreiningarinnar í **Drög**.
@@ -83,20 +81,20 @@ Fylgið þessum skrefum til að bæta sniðum rafrænnar skýrslugerðar við ei
 
 ### <a name="feature-setups"></a>Uppsetning eiginleika
 
-Uppsetningar eiginleika halda utan um reglurnar um samskipti og öryggi gagnvart vefþjónustu þriðja aðila. Eiginleiki rafrænnar reikningsfærsluviðbótar getur haft eins margar uppsetningar á eiginleika og þörf er á, sem byggir á viðskiptareglunni sem á að uppfylla.
+Uppsetningar eiginleika halda utan um reglurnar um samskipti og öryggi gagnvart vefþjónustu þriðja aðila. Eiginleiki rafrænnar reikningsfærslu getur haft eins margar uppsetningar á eiginleika og þörf er á, sem byggir á viðskiptareglunni sem á að uppfylla.
 
-Fylgið þessum skrefum til að bæta uppsetningum eiginleika við eiginleika rafrænnar reikningsfærsluviðbótar.
+Fylgið þessum skrefum til að bæta uppsetningum eiginleika við eiginleika rafrænnar reikningsfærslu.
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í flipanum **Uppsetningar**, skal velja **Bæta við** til að bæta uppsetningum eiginleika við eiginleika rafrænnar reikningsfærsluviðbótar.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við** til að bæta uppsetningum eiginleika við eiginleika rafrænnar reikningsfærslu.
 
-    ![Uppsetningum á eiginleika rafrænnar reikningsfærsluviðbótar bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Uppsetningum á eiginleika rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > Þegar eiginleiki rafrænnar reikningsfærsluviðbótar er búinn til frá grunni, þarf að bæta handvirkt við öllum uppsetningum eiginleika sem þörf er á. Þegar eiginleiki rafrænnar reikningsfærsluviðbótar er búinn til út frá fyrirliggjandi eiginleika, eru allar uppsetningar eiginleika sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærsluviðbótar.
+    > Þegar eiginleiki rafrænnar reikningsfærslu er búinn til frá grunni, þarf að bæta handvirkt við öllum uppsetningum eiginleika sem þörf er á. Þegar eiginleiki rafrænnar reikningsfærslu er búinn til út frá fyrirliggjandi eiginleika, eru allar uppsetningar eiginleika sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærslur.
 
 2. Veljið **Breyta** til að breyta uppsetningu eiginleikaútgáfu.
 
-    ![Uppsetningum á eiginleika rafrænnar reikningsfærsluviðbótar breytt](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Uppsetningum á breytingum eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Notið síðuna **Uppsetning eiginleikaútgáfu** til að skilgreina aðgerðir, gildissviðsreglur og breytur.
 
@@ -104,7 +102,7 @@ Fylgið þessum skrefum til að bæta uppsetningum eiginleika við eiginleika ra
 
 ### <a name="actions"></a>Aðgerðir
 
-Aðgerðir eru fyrirframskilgreindur listi yfir aðgerðir sem eru keyrðar í ákveðinni röð. Þessi listi stendur fyrir sundurliðun á nauðsynlegum skrefum fyrir heildarútfærslu á eiginleika rafrænnar reikningsfærsluviðbótar. Aðgerðirnar geta haldið utan um, í sama eiginleika rafrænnar reikningsfærsluviðbótar, samskipti í báðar áttir: senda beiðni um áfangastað og taka á móti svari og þátta innihald þess.
+Aðgerðir eru fyrirframskilgreindur listi yfir aðgerðir sem eru keyrðar í ákveðinni röð. Þessi listi stendur fyrir sundurliðun á nauðsynlegum skrefum fyrir heildarútfærslu á eiginleika rafrænnar reikningsfærslu. Aðgerðirnar geta haldið utan um, í sama eiginleika rafrænnar reikningsfærslu, samskipti í báðar áttir: senda beiðni um áfangastað og taka á móti svari og þátta innihald þess.
 
 Hver aðgerð inniheldur fyrirframskilgreindan lista yfir færibreytur sem eru nauðsynlegar til að aðgerðin nái settu marki. Einnig er valfrjálst að útvega fleiri færibreytur.
 
@@ -255,7 +253,7 @@ Tiltækar færibreytur eru mismunandi eftir aðgerðinni sem er valin í flýtif
 
 ### <a name="applicability-rules"></a>Gildissviðsreglur
 
-Gildissviðsreglur gera þér kleift að búa til röklegar reglur sem ákveða samhengið sem uppsetning eiginleikans er notuð í. Þannig að samsvörunin milli samhengisins sem viðskiptaskjalið gefur upp sem er sent til úrvinnslu, ásamt skilyrði gildissviðsreglunnar, ákveða hvaða eiginleiki rafrænnar reikningsfærsluviðbótar er notaður til að vinna úr þeirri innsendingu.
+Gildissviðsreglur gera þér kleift að búa til röklegar reglur sem ákveða samhengið sem uppsetning eiginleikans er notuð í. Þannig að samsvörunin milli samhengisins sem viðskiptaskjalið gefur upp sem er sent til úrvinnslu, ásamt skilyrði gildissviðsreglunnar, ákveða hvaða eiginleiki rafrænnar reikningsfærslu er notaður til að vinna úr þeirri innsendingu.
 
 #### <a name="set-up-applicability-rules"></a>Setja upp gildissviðsreglur
 
@@ -290,7 +288,7 @@ Eftirfarandi tafla lýsir reitunum sem eru í boði í flipanum **Gildissviðsre
 
 ### <a name="variables"></a>Breytur
 
-Hægt er að búa til breytur og nota þær síðan sem innsláttargildið fyrir færibreytu tiltekinnar aðgerðar. Einnig er hægt að nota þær til að skiptast á upplýsingum, á milli þjónustu rafrænnar reikningsfærsluviðbótar og biðlarans, sem verða til vegna framkvæmdar á tiltekinni aðgerð sem hluti af innsendingarflæðinu.
+Hægt er að búa til breytur og nota þær síðan sem innsláttargildið fyrir færibreytu tiltekinnar aðgerðar. Einnig er hægt að nota þær til að skiptast á upplýsingum, á milli þjónustu rafrænnar reikningsfærslu og biðlarans, sem verða til vegna framkvæmdar á tiltekinni aðgerð sem hluti af innsendingarflæðinu.
 
 #### <a name="set-up-variables"></a>Setja upp breytur
 
@@ -318,45 +316,45 @@ Villuleitin athugar samræmi allrar skilgreiningarinnar. Ef til dæmis tiltekin 
 
 ## <a name="environments"></a>Umhverfi
 
-Umhverfi rafrænnar reikningsfærsluviðbótar verður að tengjast eiginleika rafrænnar reikningsfærsluviðbótar og vera virkjað fyrir hann. Búa verður til og gefa út umhverfi rafrænnar reikningsfærsluviðbótar fyrirfram í gegnum skilgreiningu altækra eiginleika í RCS-reikningi fyrirtækisins.
+Umhverfi rafrænnar reikningsfærslu verður að tengjast eiginleika rafrænnar reikningsfærslu og vera virkjað fyrir hann. Búa verður til og gefa út umhverfi rafrænnar reikningsfærslu fyrirfram í gegnum skilgreiningu altækra eiginleika í RCS-reikningi fyrirtækisins.
 
-Fylgið þessum skrefum til að virkja umhverfi rafrænnar reikningsfærsluviðbótar fyrir eiginleika rafrænnar reikningsfærsluviðbótar.
+Fylgið þessum skrefum til að virkja umhverfi rafrænnar reikningsfærslu fyrir eiginleika rafrænnar reikningsfærslu.
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í flipanum **Umhverfi**, skal velja **Virkja** til að bæta við umhverfi rafrænnar reikningsfærsluviðbótar.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Umhverfi**, skal velja **Virkja** til að bæta við umhverfi rafrænnar reikningsfærslu.
 2. Í reitinn **Gildir frá** skal færa inn dagsetninguna þegar nýja umhverfið tekur gildi.
 
-![Umhverfi rafrænnar reikningsfærsluviðbótar virkjað](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Virkjun umhverfis rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Fyrirtæki
 
-Hægt er að samnýta eiginleika rafrænnar reikningsfærsluviðbótar í mörgum fyrirtækjum.
+Hægt er að samnýta eiginleika rafrænnar reikningsfærslu í mörgum fyrirtækjum.
 
-- Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í flipanum **Fyrirtæki**, skal velja **Samnýta með** til að bæta við fyrirtækinu sem þú vilt samnýta eiginleika rafrænnar reikningsfærsluviðbótar með.
+- Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Fyrirtæki**, skal velja **Samnýta með** til að bæta við fyrirtækinu sem þú vilt samnýta eiginleika rafrænnar reikningsfærslu með.
 
-Til að hætta að samnýta eiginleika rafrænnar reikningsfærsluviðbótar með fyrirtækinu skal velja **Stöðva samnýtingu**.
+Til að hætta að samnýta eiginleika rafrænnar reikningsfærslu með fyrirtækinu skal velja **Stöðva samnýtingu**.
 
 ## <a name="versions"></a>Útgáfur
 
-Útgáfur hjálpa til við að stýra stuðningstíma eiginleika rafrænnar reikningsfærsluviðbótar með því að stjórna stöðu hans. Hægt er að búa til nýja útgáfu af fyrirliggjandi eiginleika rafrænnar reikningsfærsluviðbótar, eða þegar öllum skilgreiningum fyrir eiginleika rafrænnar reikningsfærsluviðbótar er lokið, er hægt að breyta stöðu eiginleikans í **Ljúka** og síðan í **Gefa út**.
+Útgáfur hjálpa til við að stýra stuðningstíma eiginleika rafrænnar reikningsfærslu með því að stjórna stöðu hans. Hægt er að búa til nýja útgáfu af fyrirliggjandi eiginleika rafrænnar reikningsfærslu, eða þegar öllum skilgreiningum fyrir eiginleika rafrænnar reikningsfærslu er lokið, er hægt að breyta stöðu eiginleikans í **Ljúka** og síðan í **Gefa út**.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Búa til nýja útgáfu af fyrirliggjandi eiginleika rafrænnar reikningsfærsluviðbótar
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Búa til nýja útgáfu af fyrirliggjandi eiginleika rafrænnar reikningsfærslu
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í hnitanetinu vinstra megin, skal velja eiginleika rafrænnar reikningsfærsluviðbótar.
-2. Í flipanum **Útgáfur** skal velja **Ný** til að bæta við nýrri útgáfu af eiginleika rafrænnar reikningsfærsluviðbótar.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í hnitanetinu vinstra megin, skal velja eiginleika rafrænnar reikningsfærslu.
+2. Í flipanum **Útgáfur** skal velja **Ný** til að bæta við nýrri útgáfu af eiginleika rafrænnar reikningsfærslu.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Breyta stöðunni á eiginleika rafrænnar reikningsfærsluviðbótar
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>Breyta stöðunni á eiginleika rafrænnar reikningsfærslu
 
-Fylgið þessum skrefum til að stjórna stuðningstíma fyrir eiginleika rafrænnar reikningsfærsluviðbótar.
+Fylgið þessum skrefum til að stjórna stuðningstíma fyrir eiginleika rafrænnar reikningsfærslu.
 
-1. Á síðunni **Eiginleikar rafrænnar reikningsfærsluviðbótar**, í hnitanetinu vinstra megin, skal velja eiginleika rafrænnar reikningsfærsluviðbótar.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í hnitanetinu vinstra megin, skal velja eiginleika rafrænnar reikningsfærslu.
 2. Í flipanum **Útgáfur** skal velja **Breyta stöðu** og síðan breyta stöðunni úr **Drög** í **Ljúka**.
-3. Beðið er um staðfestingu á að ætlunin sé að ljúka eiginleika rafrænnar reikningsfærsluviðbótar og öllum þáttum hans. Veljið **Já** til að staðfesta aðgerðina eða **Nei** til að hætta við hana.
+3. Beðið er um staðfestingu á að ætlunin sé að ljúka eiginleika rafrænnar reikningsfærslu og öllum þáttum hans. Veljið **Já** til að staðfesta aðgerðina eða **Nei** til að hætta við hana.
 
     > [!NOTE]
-    > Þegar valið er **Já** er staðan á útgáfum skilgreiningar, sem eru þættir í eiginleika rafrænnar reikningsfærsluviðbótar, sjálfkrafa breytt úr **Drög** í **Lokið**.
+    > Þegar valið er **Já** er staðan á útgáfum skilgreiningar, sem eru þættir í eiginleika rafrænnar reikningsfærslu, sjálfkrafa breytt úr **Drög** í **Lokið**.
 
 4. Veljið **Breyta stöðu** og breytið síðan stöðunni úr **Lokið** í **Gefa út**.
-5. Beðið er um staðfestingu á að ætlunin sé að gefa út eiginleika rafrænnar reikningsfærsluviðbótar og öllum þáttum hans í altæku geymslunni. Veljið **Já** til að staðfesta aðgerðina eða **Nei** til að hætta við hana.
+5. Beðið er um staðfestingu á að ætlunin sé að gefa út eiginleika rafrænnar reikningsfærslu og öllum þáttum hans í altæku geymslunni. Veljið **Já** til að staðfesta aðgerðina eða **Nei** til að hætta við hana.
 
     > [!NOTE]
     > Þegar valið er **Já** er stöðunni á útgáfum skilgreiningar sjálfkrafa breytt úr **Lokið** í **Samnýtt**.
