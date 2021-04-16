@@ -2,11 +2,9 @@
 title: Virkja frestun skattaútreiknings á dagbókum
 description: Þetta efni útskýrir hvernig á að kveikja á eiginleikanum Frestun skattaútreiknings að bæta afköst skattaútreikninga þegar fjöldi dagbókarlína er afar mikið.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,51 +15,51 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d842b60b3cca8c29b281ab4a6a1b6c3b0bad3684
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236723"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823717"
 ---
-# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="7dc8b-103">Virkja frestun skattaútreiknings á dagbókum</span><span class="sxs-lookup"><span data-stu-id="7dc8b-103">Enable delayed tax calculation on journals</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="9df1e-103">Virkja frestun skattaútreiknings á dagbókum</span><span class="sxs-lookup"><span data-stu-id="9df1e-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="7dc8b-104">Þetta efni útskýrir hvernig þú getur seinkað útreikningi á söluskatti í færslubókum.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="7dc8b-105">Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
+<span data-ttu-id="9df1e-104">Þetta efni útskýrir hvernig þú getur seinkað útreikningi á söluskatti í færslubókum.</span><span class="sxs-lookup"><span data-stu-id="9df1e-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="9df1e-105">Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.</span><span class="sxs-lookup"><span data-stu-id="9df1e-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="7dc8b-106">Sjálfgefið er að fjárhæðir söluskatts í færslubókarlínum eru reiknaðar út í hvert skipti sem skattatengdir reitir eru uppfærðir.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="7dc8b-107">Þessir reitir innihalda reiti fyrir VSK-flokka og VSK-flokka vöru.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="7dc8b-108">Sérhver uppfærsla á færslubókarlínu veldur því að skattfjárhæðir eru endurreiknaðar fyrir allar dagbókarlínur.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="7dc8b-109">Þrátt fyrir að þessi hegðun hjálpi notendum að sjá skattaupphæðir reiknaðar í rauntíma getur það einnig haft áhrif á afköst ef fjöldi færslubókarlína er mjög mikill.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
+<span data-ttu-id="9df1e-106">Sjálfgefið er að fjárhæðir söluskatts í færslubókarlínum eru reiknaðar út í hvert skipti sem skattatengdir reitir eru uppfærðir.</span><span class="sxs-lookup"><span data-stu-id="9df1e-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="9df1e-107">Þessir reitir innihalda reiti fyrir VSK-flokka og VSK-flokka vöru.</span><span class="sxs-lookup"><span data-stu-id="9df1e-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="9df1e-108">Sérhver uppfærsla á færslubókarlínu veldur því að skattfjárhæðir eru endurreiknaðar fyrir allar dagbókarlínur.</span><span class="sxs-lookup"><span data-stu-id="9df1e-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="9df1e-109">Þrátt fyrir að þessi hegðun hjálpi notendum að sjá skattaupphæðir reiknaðar í rauntíma getur það einnig haft áhrif á afköst ef fjöldi færslubókarlína er mjög mikill.</span><span class="sxs-lookup"><span data-stu-id="9df1e-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="7dc8b-110">Aðgerðin fyrir útreikning á sköttum gerir kleift að fresta skattaútreikningi á færslubókum og hjálpar því til við að laga afkastavandamál.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="7dc8b-111">Þegar kveikt er á þessum eiginleika verða skattaupphæðir aðeins reiknaðar þegar notandi velur **Virðisaukaskatt** eða bókar færslubókina.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
+<span data-ttu-id="9df1e-110">Aðgerðin fyrir útreikning á sköttum gerir kleift að fresta skattaútreikningi á færslubókum og hjálpar því til við að laga afkastavandamál.</span><span class="sxs-lookup"><span data-stu-id="9df1e-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="9df1e-111">Þegar kveikt er á þessum eiginleika verða skattaupphæðir aðeins reiknaðar þegar notandi velur **Virðisaukaskatt** eða bókar færslubókina.</span><span class="sxs-lookup"><span data-stu-id="9df1e-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="7dc8b-112">Þú getur tafið útreikning á VSK-skatti á þremur stigum:</span><span class="sxs-lookup"><span data-stu-id="7dc8b-112">You can delay the calculation of sales taxes at three levels:</span></span>
+<span data-ttu-id="9df1e-112">Þú getur tafið útreikning á VSK-skatti á þremur stigum:</span><span class="sxs-lookup"><span data-stu-id="9df1e-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-- <span data-ttu-id="7dc8b-113">Lögaðili</span><span class="sxs-lookup"><span data-stu-id="7dc8b-113">Legal entity</span></span>
-- <span data-ttu-id="7dc8b-114">Heiti færslubókar</span><span class="sxs-lookup"><span data-stu-id="7dc8b-114">Journal name</span></span>
-- <span data-ttu-id="7dc8b-115">Færslubókarhaus</span><span class="sxs-lookup"><span data-stu-id="7dc8b-115">Journal header</span></span>
+- <span data-ttu-id="9df1e-113">Lögaðili</span><span class="sxs-lookup"><span data-stu-id="9df1e-113">Legal entity</span></span>
+- <span data-ttu-id="9df1e-114">Heiti færslubókar</span><span class="sxs-lookup"><span data-stu-id="9df1e-114">Journal name</span></span>
+- <span data-ttu-id="9df1e-115">Færslubókarhaus</span><span class="sxs-lookup"><span data-stu-id="9df1e-115">Journal header</span></span>
 
-<span data-ttu-id="7dc8b-116">Kerfið hefur forgang til stillingar fyrir færslubókarhaus.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="7dc8b-117">Sjálfgefið er að þessi stilling er tekin úr nafni færslubókarinnar.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="7dc8b-118">Sjálfgefið er að stillingin fyrir færslubókarheitið sé tekin úr stillingunni á síðunni **Almennar fjárhagsbreytur** þegar færslubókarheitið er búið til.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="7dc8b-119">Eftirfarandi kaflar útskýra hvernig á að kveikja á seinkuðum útreikningum á skatti lögaðila, færslubókarheiti og færslubókarhausum.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
+<span data-ttu-id="9df1e-116">Kerfið hefur forgang til stillingar fyrir færslubókarhaus.</span><span class="sxs-lookup"><span data-stu-id="9df1e-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="9df1e-117">Sjálfgefið er að þessi stilling er tekin úr nafni færslubókarinnar.</span><span class="sxs-lookup"><span data-stu-id="9df1e-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="9df1e-118">Sjálfgefið er að stillingin fyrir færslubókarheitið sé tekin úr stillingunni á síðunni **Almennar fjárhagsbreytur** þegar færslubókarheitið er búið til.</span><span class="sxs-lookup"><span data-stu-id="9df1e-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="9df1e-119">Eftirfarandi kaflar útskýra hvernig á að kveikja á seinkuðum útreikningum á skatti lögaðila, færslubókarheiti og færslubókarhausum.</span><span class="sxs-lookup"><span data-stu-id="9df1e-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="7dc8b-120">Kveiktu á frestun skattaútreiknings á stigi lögaðila</span><span class="sxs-lookup"><span data-stu-id="7dc8b-120">Turn on delayed tax calculation at the legal entity level</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="9df1e-120">Kveiktu á frestun skattaútreiknings á stigi lögaðila</span><span class="sxs-lookup"><span data-stu-id="9df1e-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="7dc8b-121">Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
-2. <span data-ttu-id="7dc8b-122">Á flipanum **VSK-skattur** á flýtiflipanum **Almennt** skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
+1. <span data-ttu-id="9df1e-121">Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="9df1e-122">Á flipanum **VSK-skattur** á flýtiflipanum **Almennt** skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
 ![Mynd af almennum fjárhagsfæribreytum](media/delayed-tax-calculation-gl.png)
 
-## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="7dc8b-124">Kveiktu á frestun skattaútreiknings á stigi færslubókarheitis</span><span class="sxs-lookup"><span data-stu-id="7dc8b-124">Turn on delayed tax calculation at the journal name level</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="9df1e-124">Kveiktu á frestun skattaútreiknings á stigi færslubókarheitis</span><span class="sxs-lookup"><span data-stu-id="9df1e-124">Turn on delayed tax calculation at the journal name level</span></span>
 
-1. <span data-ttu-id="7dc8b-125">Farðu í **Fjárhag \> Færslubókaruppsetning \> Færslubókarheiti**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
-2. <span data-ttu-id="7dc8b-126">Á flýtiflipanum **Almennt**, í kaflanum **VSK-skattur**, skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
+1. <span data-ttu-id="9df1e-125">Farðu í **Fjárhag \> Færslubókaruppsetning \> Færslubókarheiti**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="9df1e-126">Á flýtiflipanum **Almennt**, í kaflanum **VSK-skattur**, skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
 ![Mynd af færslubókanöfnum](media/delayed-tax-calculation-journal-name.png)
 
-## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="7dc8b-128">Kveiktu á frestun skattaútreiknings á stigi færslubókarhauss</span><span class="sxs-lookup"><span data-stu-id="7dc8b-128">Turn on delayed tax calculation at the journal header level</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="9df1e-128">Kveiktu á frestun skattaútreiknings á stigi færslubókarhauss</span><span class="sxs-lookup"><span data-stu-id="9df1e-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-1. <span data-ttu-id="7dc8b-129">Farðu í **Fjárhag \> Færslubókarfærslur \> Almennar færslubækur**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
-2. <span data-ttu-id="7dc8b-130">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-130">Select **New**.</span></span>
-3. <span data-ttu-id="7dc8b-131">Veldu heiti færslubókar.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-131">Select a journal name.</span></span>
-4. <span data-ttu-id="7dc8b-132">Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="7dc8b-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
+1. <span data-ttu-id="9df1e-129">Farðu í **Fjárhag \> Færslubókarfærslur \> Almennar færslubækur**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="9df1e-130">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-130">Select **New**.</span></span>
+3. <span data-ttu-id="9df1e-131">Veldu heiti færslubókar.</span><span class="sxs-lookup"><span data-stu-id="9df1e-131">Select a journal name.</span></span>
+4. <span data-ttu-id="9df1e-132">Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="9df1e-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
 ![Mynd af síðu almennrar færslubókar](media/delayed-tax-calculation-journal-header.png)
 

@@ -2,11 +2,9 @@
 title: Breyta afskriftarvenjum fyrir margar eignir
 description: Þetta verkefni uppfærir afskriftarreglu fyrir tilgreindan eignaflokk.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
@@ -15,38 +13,38 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c64e4f7117c4ca70236a02b4d36a88e9f2a9906
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a71b24b0c2ea072aeff8c994cfdac10bc57b64c6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823981"
 ---
-# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="3f0bf-103">Breyta afskriftarvenjum fyrir margar eignir</span><span class="sxs-lookup"><span data-stu-id="3f0bf-103">Change depreciation conventions for multiple fixed assets</span></span>
+# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="52535-103">Breyta afskriftarvenjum fyrir margar eignir</span><span class="sxs-lookup"><span data-stu-id="52535-103">Change depreciation conventions for multiple fixed assets</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3f0bf-104">Þetta verkefni uppfærir afskriftarreglu fyrir tilgreindan eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="3f0bf-105">Þessi leiðarvísi fyrir verk notar sýnigögn USMF fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-105">This task guide uses the USMF demo company.</span></span>
+<span data-ttu-id="52535-104">Þetta verkefni uppfærir afskriftarreglu fyrir tilgreindan eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="52535-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="52535-105">Þessi leiðarvísi fyrir verk notar sýnigögn USMF fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="52535-105">This task guide uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="3f0bf-106">Fara í Eignir > Reglubundin verkefni > Fjöldauppfærsla</span><span class="sxs-lookup"><span data-stu-id="3f0bf-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
-2. <span data-ttu-id="3f0bf-107">Í reitnum Afskriftabók skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="3f0bf-108">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-108">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="3f0bf-109">Í reitinn Sett í upphaf þjónustu skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-109">In the Placed in service start field, enter a date.</span></span>
-5. <span data-ttu-id="3f0bf-110">Í reitinn Sett í lok þjónustu skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-110">In the Placed in service end field, enter a date.</span></span>
-    * <span data-ttu-id="3f0bf-111">Aðeins Eignir sem tilheyra valdri afskriftarbók og sem hafa verið teknar í notkun á tilgreindu tímabili verða uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
-6. <span data-ttu-id="3f0bf-112">Veljið valkost í núverandi afskriftarregla svæðið.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-112">In the Current depreciation convention field, select an option.</span></span>
-    * <span data-ttu-id="3f0bf-113">Aðeins eignir sem hafa gildandi afskriftarreglu verða uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-113">Only assets that have the current depreciation convention will be updated.</span></span>  
-7. <span data-ttu-id="3f0bf-114">Veljið valkost í Nýja afskriftarregla svæðið.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-114">In the New depreciation convention field, select an option.</span></span>
-    * <span data-ttu-id="3f0bf-115">Staðfestið að prenta skýrsluna á áfangastaðinn.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-115">Verify the report will print to the desired destination.</span></span>  
-8. <span data-ttu-id="3f0bf-116">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-116">Expand the Records to include section.</span></span>
-9. <span data-ttu-id="3f0bf-117">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-117">Click Filter.</span></span>
-10. <span data-ttu-id="3f0bf-118">Á listanum, veljið eignaflokkur.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-118">In the list, select the Fixed asset group.</span></span>
-11. <span data-ttu-id="3f0bf-119">Í reitnum skilyrði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="3f0bf-120">Veljið æskilega eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-120">Select the desired Fixed asset group.</span></span>
-13. <span data-ttu-id="3f0bf-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-121">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="3f0bf-122">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-122">Click OK.</span></span>
-15. <span data-ttu-id="3f0bf-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-123">Click OK.</span></span>
-    *  <span data-ttu-id="3f0bf-124">Niðurstöðu ferlisins eru sýndar í skýrslunni Margar uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="3f0bf-124">Results of the process are shown on the Mass update report.</span></span>     
+1. <span data-ttu-id="52535-106">Fara í Eignir > Reglubundin verkefni > Fjöldauppfærsla</span><span class="sxs-lookup"><span data-stu-id="52535-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
+2. <span data-ttu-id="52535-107">Í reitnum Afskriftabók skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="52535-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="52535-108">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="52535-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="52535-109">Í reitinn Sett í upphaf þjónustu skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="52535-109">In the Placed in service start field, enter a date.</span></span>
+5. <span data-ttu-id="52535-110">Í reitinn Sett í lok þjónustu skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="52535-110">In the Placed in service end field, enter a date.</span></span>
+    * <span data-ttu-id="52535-111">Aðeins Eignir sem tilheyra valdri afskriftarbók og sem hafa verið teknar í notkun á tilgreindu tímabili verða uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="52535-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
+6. <span data-ttu-id="52535-112">Veljið valkost í núverandi afskriftarregla svæðið.</span><span class="sxs-lookup"><span data-stu-id="52535-112">In the Current depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="52535-113">Aðeins eignir sem hafa gildandi afskriftarreglu verða uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="52535-113">Only assets that have the current depreciation convention will be updated.</span></span>  
+7. <span data-ttu-id="52535-114">Veljið valkost í Nýja afskriftarregla svæðið.</span><span class="sxs-lookup"><span data-stu-id="52535-114">In the New depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="52535-115">Staðfestið að prenta skýrsluna á áfangastaðinn.</span><span class="sxs-lookup"><span data-stu-id="52535-115">Verify the report will print to the desired destination.</span></span>  
+8. <span data-ttu-id="52535-116">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="52535-116">Expand the Records to include section.</span></span>
+9. <span data-ttu-id="52535-117">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="52535-117">Click Filter.</span></span>
+10. <span data-ttu-id="52535-118">Á listanum, veljið eignaflokkur.</span><span class="sxs-lookup"><span data-stu-id="52535-118">In the list, select the Fixed asset group.</span></span>
+11. <span data-ttu-id="52535-119">Í reitnum skilyrði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="52535-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="52535-120">Veljið æskilega eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="52535-120">Select the desired Fixed asset group.</span></span>
+13. <span data-ttu-id="52535-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="52535-121">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="52535-122">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="52535-122">Click OK.</span></span>
+15. <span data-ttu-id="52535-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="52535-123">Click OK.</span></span>
+    *  <span data-ttu-id="52535-124">Niðurstöðu ferlisins eru sýndar í skýrslunni Margar uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="52535-124">Results of the process are shown on the Mass update report.</span></span>     
 
 
 
