@@ -2,11 +2,9 @@
 title: Uppfærsluferli
 description: Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur fyrir breytingar á forriti og verkvangi.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466833"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791534"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
@@ -58,14 +56,14 @@ Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Reso
 
 Útgáfur eru skoðaðar, prófaðar og staðfestar í innra umhverfi. Eftir að búið er að slökkva á smíðum er þeim síðan sent til framleiðslu.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Undantekningar á útgáfutíðni árið 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Undantekningar á útgáfutíðni árið 2021
 
-Til að taka með frídaga er úttektaráætlun fyrir nóvember og desember 2020 sem hér segir:
+Til að taka með frídaga er úttektaráætlun fyrir nóvember og desember 2021 sem hér segir:
 
-- Nóvemberútgáfa: 2. nóvember til 13. nóvember
-- Desemberútgáfa: 30. nóvember til 11. desember
+- Nóvemberútgáfa: 1. nóvember til 14. nóvember
+- Desemberútgáfa: 29. nóvember til 12. desember
  
-Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 11. janúar 2021.
+Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 10. janúar 2022.
 
 ## <a name="communications"></a>Samskipti
 

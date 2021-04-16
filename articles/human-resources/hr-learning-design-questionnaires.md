@@ -2,11 +2,9 @@
 title: Búa til spurningalista
 description: Þessi skrá lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: eb4632d7f7d73dbef690be16419e5f3aa25e880e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c117864f3a4e21faed450fa11821e7e3432642fb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467820"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791390"
 ---
 # <a name="create-questionnaires"></a>Búa til spurningalista
 
