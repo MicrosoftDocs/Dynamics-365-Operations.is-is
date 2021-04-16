@@ -1,12 +1,10 @@
 ---
-title: Hafist handa með þjónustuveitu viðbótar rafrænnar reikningsfærslu
-description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með viðbót rafrænnar reikningsfærslu.
+title: Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
+description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með rafrænni reikningsfærslu.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840149"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Hafist handa með þjónustuveitu viðbótar rafrænnar reikningsfærslu
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -46,7 +42,7 @@ ms.locfileid: "5592527"
 - Þú verður að virkja altækan eiginleika fyrir RCS-reikninginn þinn í eiginleikastjórnun. Frekari upplýsingar er að finna í [Regulatory Configuration Services (RCS) – Altækir eiginleikar](rcs-globalization-feature.md).
 - Stofna verður lyklageymslu og geymslureikning í Azure. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>Setja upp viðbótina fyrir microservices í Lifecycle Services
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Setja upp innbótina fyrir microservices í Lifecycle Services
 
 1. Skráðu þig inn á LCS-reikninginn þinn.
 2. Veldu reitinn **Stjórnun forskoðunareiginleika**.
@@ -54,13 +50,14 @@ ms.locfileid: "5592527"
 4. Gangið úr skugga um að valkosturinn **Virkja forskoðunareiginleika** sé stilltur á **Já**.
 5. Á LCS-stjórnborðinu skal velja LCS-uppsetningarverkið. LCS-verkið verður að vera í gangi.
 7. Í flipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
-8. Veljið **Rafrænar reikningsfærsluþjónustur** og í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
+8. Veljið **Þjónusta rafrænnar reikningsfærslu**.
+9. Í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
 10. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
 11. Farið yfir skilmálana og veljið því næst gátreitinn.
 12. Velja **Setja upp**.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Setja upp færibreytur fyrir RCS-samþættingu við viðbót rafrænnar reikningsfærslu
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Setja upp færibreytur fyrir RCS-samþættingu við rafræna reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Í vinnusvæðinu **Rafræn skýrslugerð** í kaflanum **Skyldir tenglar**, velurðu **Færibreytur rafrænnar skýrslugerðar**.
@@ -74,58 +71,56 @@ ms.locfileid: "5592527"
     | Vesturhluti Evrópusambandsins                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. Gangið úr skugga um að reiturinn **Forritsauðkenni** sé stilltur á **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gildið er fast.
-5. Í reitinn **LCS-umhverfiskenni** skal færa inn auðkenni LCS-áskriftarreiknings.
+5. Í reitinn **LCS-umhverfiskenni** skal færa inn auðkenni LCS-umhverfis.
 6. Veljið **Vista** og lokið síðan skjámyndinni.
 
-## <a name="create-key-vault-secret"></a>Stofna leynilykil lyklageymslu
+## <a name="create-key-vault-references"></a>Stofna tilvísanir lyklageymslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Viðbót rafrænnar reikningsfærslu**.
+2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
 3. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi** og síðan velja **Færibreytur lyklageymslu**.
-4. Veljið **Nýr** til að stofna leynilykil lyklageymslu.
-5. Í reitinn **Heiti** skal slá inn heiti á leynilykli lyklageymslu. Í reitnum **Lýsing** skal færa inn lýsingu.
-6. Í reitinn **URI lyklageymslu** skal líma leynilykilinn úr Azure-lyklageymslu.
+4. Veljið **Nýr** til að stofna tilvísun lyklageymslu.
+5. Í reitinn **Heiti** skal slá inn heiti á tilvísun lyklageymslu. Í reitnum **Lýsing** skal færa inn lýsingu.
+6. Í reitinn **URI lyklageymslu** skal líma leyniorð leynilykilinn úr Azure-lyklageymslu. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
 7. Veljið **Vista**.
 
 ## <a name="create-storage-account-secret"></a>Stofna leynilykil geymslureiknings
 
-1. Farið í **Kerfisstjórnun** > **Uppsetning** > **Færibreytur lyklageymslu** og veljið leynilykil lyklageymslu.
-2. Í hlutanum **Vottorð** skal velja **Bæta við**.
-3. Í reitinn **Heiti** skal færa inn heiti leynilykils geymslureikningsins og í reitinn **Lýsing** skal færa inn lýsingu.
-4. Í reitnum **Gerð** skal velja **Vottorð**.
-5. Veljið **Vista** og lokið síðan skjámyndinni.
+1. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi** > **Færibreytur lyklageymslu**.
+2. Veljið **Tilvísun lyklageymslu** og í **Vottorð** hlutanum skal velja **Bæta við**.
+3. Í reitinn **Heiti** skal færa inn heiti fyrir leynilykil geymslureiknings. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Í reitnum **Lýsing** skal færa inn lýsingu.
+5. Í reitnum **Gerð** skal velja **Leynilykill**.
+6. Veljið **Vista** og lokið síðan skjámyndinni.
 
 ## <a name="create-a-digital-certificate-secret"></a>Búa til leynilykil stafræns vottorðs
 
-1. Farið í **Kerfisstjórnun** > **Uppsetning** > **Færibreytur lyklageymslu** og veljið leynilykil lyklageymslu.
-2. Í hlutanum **Vottorð** skal velja **Bæta við**.
-3. Í reitinn **Heiti** skal færa inn heiti leynilykils stafræns vottorðs og í reitinn **Lýsing** skal færa inn lýsingu.
-4. Í reitnum **Gerð** skal velja **Vottorð**.
-5. Veljið **Vista** og lokið síðan skjámyndinni.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Stofna umhverfi fyrir viðbót rafrænnar reikningsfærslu
-
-1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Viðbót rafrænnar reikningsfærslu**.
+1. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi** og síðan velja **Færibreytur lyklageymslu**.
+2. Veljið **Tilvísun lyklageymslu** og svo í **Vottorð** hlutanum skal velja **Bæta við**.
+3. Heiti leynilykils stafræna skírteinisins er sleginn í reitinn **Nafn**. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
+4. Í reitnum **Lýsing** skal færa inn lýsingu.
+5. Í reitnum **Gerð** skal velja **Vottorð**.
+6. Veljið **Vista** og lokið síðan skjámyndinni.
 
 ## <a name="create-a-service-environment"></a>Stofna þjónustuumhverfi
 
-1. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi**.
-2. Velja skal **Nýtt** til að stofna nýtt þjónustuumhverfi.
-3. Í reitinn **Heiti** skal slá inn heiti á umhverfi rafrænnar reikningsfærslu. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Í reitnum **SAS-leynilykill geymslu** skal velja heiti leynilykils geymslureikningsins sem þarf að nota til að auðkenna aðgang að geymslureikningnum.
-5. Í hlutanum **Notendur** skal velja **Bæta við** til að bæta við notanda sem hefur heimild til að senda inn rafræna reikninga í gegnum umhverfið og einnig tengjast við geymslureikninginn.
-6. Í reitinn **Notandakenni** skal færa inn samnefni notandans. Í reitinn **Tölvupóstur** skal færa inn netfang notandans.
-7. Veljið **Vista**.
-8. Ef reikningar fyrir tiltekið land/svæði þurfa vottorðakeðju til að nota stafræna undirskrift, þá skal á aðgerðasvæðinu velja **Færibreytur lyklageymslu** og síðan velja **Vottorðakeðja** og fara í gegnum þessi skref:
-
+1. Skráðu þig inn á RCS-reikninginn þinn.
+2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+3. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Þjónustuumhverfi**.
+4. Velja skal **Nýtt** til að stofna nýtt þjónustuumhverfi.
+5. Í reitinn **Heiti** skal slá inn heiti á umhverfi rafrænnar reikningsfærslu. Í reitnum **Lýsing** skal færa inn lýsingu.
+6. Í reitnum **SAS-leynilykill geymslu** skal velja heiti leynilykils geymslureikningsins sem þarf að nota til að auðkenna aðgang að geymslureikningnum.
+7. Í hlutanum **Notendur** skal velja **Bæta við** til að bæta við notanda sem hefur heimild til að senda inn rafræna reikninga í gegnum umhverfið og einnig tengjast við geymslureikninginn.
+8. Í reitinn **Notandakenni** skal færa inn samnefni notandans. Í reitinn **Tölvupóstur** skal færa inn netfang notandans.
+9. Veljið **Vista**.
+10. Ef reikningar fyrir tiltekið land/svæði þurfa vottorðakeðju til að nota stafræna undirskrift, þá skal á aðgerðasvæðinu velja **Færibreytur lyklageymslu** og síðan velja **Vottorðakeðja** og fara í gegnum þessi skref:
     1. Veljið **Ný** til að búa til nýja vottorðakeðju.
     2. Í reitinn **Heiti** skal færa inn heiti vottorðakeðjunnar. Í reitnum **Lýsing** skal færa inn lýsingu.
     3. Í hlutanum **Vottorð** skal velja **Bæta við** til að bæta vottorði við keðjuna.
     4. Notið hnappinn **Upp** eða **Niður** til að breyta stöðu vottorðs í keðjunni.
     5. Veljið **Vista** og lokið síðan skjámyndinni.
     6. Lokið síðunni.
-9. Á síðunni **Þjónustuumhverfi**, á aðgerðasvæðinu, skal velja **Birta** til að birta umhverfið í skýinu. Gildi reitsins **Staða** er breytt í **Birt**.
+11. Á síðunni **Þjónustuumhverfi**, á aðgerðasvæðinu, skal velja **Birta** til að birta umhverfið í skýinu. Gildi reitsins **Staða** er breytt í **Birt**.
 
 ## <a name="create-a-connected-application"></a>Búa til tengt forrit
 
@@ -144,12 +139,12 @@ ms.locfileid: "5592527"
 3. Í reitnum **Þjónustuumhverfi** skal velja þjónustuumhverfi.
 4. Veljið **Vista** og lokið síðan skjámyndinni.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>Setja upp samþættingu á viðbót rafrænnar reikningsfærslu í Finance and Supply Chain Management
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>Setja upp samþættingu á rafrænni reikningsfærslu í Finance and Supply Chain Management
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Kveikið á eiginleika fyrir samþættingu rafrænnar reikningsfærsluviðbótar
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>Kveikið á eiginleika fyrir samþættingu rafrænnar reikningsfærslu
 
 1. Skráðu þig inn í tilvikið þitt af Finance eða Supply Chain Management.
-2. Á vinnusvæðinu **Eiginleikastjórnun** skal leita að eiginleikanum **Samþætting viðbótar rafrænnar reikningsfærslu**. Ef þessi eiginleiki birtist ekki á síðunni skal velja **Athuga með uppfærslur**.
+2. Á vinnusvæðinu **Eiginleikastjórnun** skal leita að eiginleikanum **Samþætting rafrænnar reikningsfærslu**. Ef þessi eiginleiki birtist ekki á síðunni skal velja **Athuga með uppfærslur**.
 3. Veljið eiginleikann og veljið svo **Virkja núna**.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Setja upp vefslóð fyrir endastöð þjónustu
@@ -164,8 +159,18 @@ ms.locfileid: "5592527"
     | Norðurhluti Evrópusambandsins                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Vesturhluti Evrópusambandsins                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. Í reitinn **Umhverfi** skal færa inn heiti á umhverfi rafrænnar reikningsfærsluviðbótar.
+3. Í reitinn **Umhverfi** skal færa inn heiti á þjónustuumhverfi sem er birt í rafrænni reikningsfærslu.
 4. Veljið **Vista** og lokið síðan skjámyndinni.
 
+### <a name="enable-flighting-keys"></a>Virkja fluglykla
+
+Virkjaðu fluglykla fyrir Microsoft Dynamics 365 Finance eða Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.17 eða eldri. 
+1. Framkvæmið eftirfarandi SQL-skipun:
+
+    SETJA INN Í SYSFLIGHTING (ÚTGÁFUHEITI, VIRKJAÐ) GILDI ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    SETJA INN Í SYSFLIGHTING (ÚTGÁFUHEITI, VIRKJAÐ) GILDI ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Framkvæma IISreset-skipun fyrir öll AOS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

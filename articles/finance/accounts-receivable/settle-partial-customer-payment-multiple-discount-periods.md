@@ -2,11 +2,9 @@
 title: Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
 description: Þessi grein sýnir hvernig skal jafna hlutagreiðslu viðskiptavinar þegar um er að ræða mörg afsláttartímabil.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241715"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835101"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
 
@@ -56,7 +54,7 @@ April getur skoðað þessa færslu á síðunni **viðskiptavinarfærslur**.
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í **294,00** verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast mismunandi. Hins vegar verður 6,00 tekið sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar** fyrir þig.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 6/30/2015 |
 | Upphæð staðgreiðsluafsláttar         | 20,00     |
@@ -75,7 +73,7 @@ Viðskiptavinur greiðir afgangurinn af reikningsupphæðinni á 8. Júlí. Þar
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 30,00     |

@@ -2,11 +2,9 @@
 title: Taka meiri afslátt en reiknaður afsláttur fyrir greiðslu lánardrottins
 description: Þessi grein fer í gegnum aðstæður þar sem staðgreiðsluafsláttur er tekinn fyrir upphæð sem er hærri en afslátturinn sem var upphaflega tiltækur á reikningnum. Þessar aðstæður gætu komið upp ef fyrirtæki kemst að samkomulagi við lánardrottin að borga minni upphæð inn á reikninginn.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810247"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Taka meiri afslátt en reiknaður afsláttur fyrir greiðslu lánardrottins
 
@@ -38,10 +36,10 @@ Lánardrottni 3051 gefur Fabrikam 4 prósent staðgreiðsluafslátt ef reikningu
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
-| Upphæð staðgreiðsluafsláttar         | 60,00     |
+| Upphæð staðgreiðsluafsláttar         | 60.00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 60,00     |

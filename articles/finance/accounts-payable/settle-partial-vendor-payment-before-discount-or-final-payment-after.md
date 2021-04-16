@@ -2,11 +2,9 @@
 title: Jafna hlutagreiðslu fyrir afsláttardagsetningu og lokagreiðslu eftir afsláttardagsetningu
 description: Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227329"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810343"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Jafna hlutagreiðslu fyrir afsláttardagsetningu og lokagreiðslu eftir afsláttardagsetningu
 
@@ -48,7 +46,7 @@ Arnie vill greiða 300,00 af þessum reikningi þann 2. júlí. Greiðslan gefur
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |
@@ -73,7 +71,7 @@ Arnie greiðir eftirstöðvar reikningsins 15.júlí, sem er eftir afsláttartí
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni. Arnie getur séð að hún hefur þegar fengið afslátt upp á 3,00.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 0,00      |
@@ -99,10 +97,10 @@ Ef lánardrottinn leyfir Arnie að fá afslátt jafnvel þó að hún sé að gr
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
-| Upphæð staðgreiðsluafsláttar         | 7,00      |
+| Upphæð staðgreiðsluafsláttar         | 7.00      |
 | Nota staðgreiðsluafslátt            | Alltaf    |
 | Notaður staðgreiðsluafsláttur          | -3,00     |
 | Upphæð staðgreiðsluafsláttar sem á að veita | -7,00     |

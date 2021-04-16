@@ -2,11 +2,9 @@
 title: Jafna hlutagreiðslu fyrir afsláttardagsetninguna við lokagreiðslu eftir afsláttardagsetninguna
 description: Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250555"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835148"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Jafna hlutagreiðslu fyrir afsláttardagsetninguna við lokagreiðslu eftir afsláttardagsetninguna
 
@@ -48,7 +46,7 @@ Fabrikam selur vörurn til 4027 viðskiptavina. Fabrikam býður 1 prósent afsl
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í 297.00 verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast vera mismunandi. Hins vegar verður 3,00 notað sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar** fyrir þig.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
@@ -73,7 +71,7 @@ Arnie bókar þessa greiðslu. Reikningurinn hefur núna stöðuna 700,00. Hægt
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
 | Upphæð staðgreiðsluafsláttar         | 0,00      |
@@ -89,10 +87,10 @@ Ef Arnie breytir gildi í reitnum **Nota staðgreiðsluafslátt** í **Alltaf** 
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
-| Upphæð staðgreiðsluafsláttar         | 7,00      |
+| Upphæð staðgreiðsluafsláttar         | 7.00      |
 | Nota staðgreiðsluafslátt            | Alltaf    |
 | Notaður staðgreiðsluafsláttur          | 3,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 7,00      |

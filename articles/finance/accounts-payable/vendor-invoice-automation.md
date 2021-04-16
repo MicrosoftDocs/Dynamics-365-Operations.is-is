@@ -2,11 +2,9 @@
 title: Sjálfvirkni reiknings fyrir skönnuð skjöl
 description: Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239652"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841238"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Sjálfvirkni reiknings fyrir skönnuð skjöl
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
+Í þessu efnisatriði er fjallað um gagnaeiningar sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, þar með talið reikninga með viðhengi.
 
 Fyrirtæki sem vilja hagræða ferlum Viðskiptaskulda (AP) auðkenna oft reikningsvinnslur sem ein af aðalferlunum sem þurfa að vera skilvirkari. Í mörgum tilvikum láta þessi fyrirtæki ótengdan þjónustuaðila með ljósskynjun stafa (OCR) um vinnslu reikninga á pappír. Þeir fá síðan tölvulesanleganleg lýsigögn reiknings ásamt skannaðri mynd af hverjum reikningi. Til að aðstoða við sjálfvirkni er "síðasta kílómetra" lausn síðan myndað til að auðvelda notkun á þessum hlutum í reikningsfærslukerfinu. Núna er þessi „síðustu metrunum“ sjálfvirkni virkjuð beint úr kassanum með því að nota lausn sjálfvirkra reikninga.
 
@@ -90,9 +88,9 @@ Reikningar sem eru innfluttir með gagnapakka er hægt að tengja lögaðila sem
 
 Í aðstæðum þar sem lánardrottinsreikningar koma inn Finance and Operations með samþættingu þarf að vera til staðar auðveld leið fyrir meðlimi viðskiptaskulda til að vinna úr undantekningum eða reikninga sem ekki eru samþykktir og stofna reikninga í bið út frá reikningum sem mistókst. Þessi frábrigðavinnsla fyrir reikninga lánardrottins er nú hluti af Finance and Operations.
 
-### <a name="exceptions-list-page"></a>Listasíða undantekninga
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Listasíða reikninga lánardrottna sem ekki tókst að flytja inn
 
-Nýja listasíðan fyrir reikningsundantekningar er alltaf tiltæk í **Viðskiptaskuldum** > **Reikningum** > **Flytja verkefnismistök** > **reikningar Lánardrottins sem hefur mistekist að flytja**. Þessi síða sýnir allar hausfærslur lánardrottnareiknings úr sviðsetningartöflunni í gagnaeiningu hauss lánardrottnareiknings. Athugið að hægt er að skoða sömu skrár á vinnusvæðinu **Gagnastjórnun** þar sem er einnig hægt að framkvæma sömu aðgerðir sem eru gefnar í undantekningunni meðhöndlun aðgerð. Hins vegar UI sem undantekningin meðhöndlunaraðgerð veitir bestuð fyrir virkan notanda.
+Nýja listasíðan fyrir reikningsundantekningar er alltaf tiltæk í **Viðskiptaskuldum** > **Reikningum** > **Flytja verkefnismistök** > **reikningar Lánardrottins sem hefur mistekist að flytja**. Þessi síða sýnir allar hausfærslur lánardrottnareiknings úr sviðsetningartöflunni í gagnaeiningu hauss lánardrottnareiknings. Athugið að hægt er að skoða sömu skrár á vinnusvæðinu **Gagnastjórnun**. Hægt að framkvæma sömu aðgerðir sem eru gefnar í undantekningunni meðhöndlun aðgerð af vinnusvæðinu **Gagnastjórnun**. Eiginleiki meðhöndlunar undantekninga hefur verið fínstillt fyrir virkan notanda sem auðveldar notkun hans.
 
 ![Listasíða undantekninga](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ Nýja listasíðan fyrir reikningsundantekningar er alltaf tiltæk í **Viðskip
 Þessi listasíða hefur einnig forskoðunarrúðu sem þú getur notað á eftirfarandi hátt:
 
 + Skoða öll villuboðin svo að ekki þurfi að útvíkka dálkinn **Villuboð** í hnitanetinu.
-+ Skoða allan listann yfir viðhengi fyrir reikninginn, ef einhver viðhengi fylgdu með reikningnum.
 
 Listasíðan styður eftirfarandi aðgerðir:
 
 + **Breyta** – Opna undantekningarfærsluna í breytingarham, þannig að hægt sé að laga vandamálin.
 + **Valkostir** – Farðu í staðlaða valkostina sem eru tiltækir á listasíðunum. Hægt er að nota valkostinn **Bæta við vinnusvæði** til að festa listasíðu undantekninga á vinnusvæðið sem lista eða reit.
 
-### <a name="exception-details-page"></a>Upplýsingasíða undantekninga
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Upplýsingasíða reikninga lánardrottna sem ekki tókst að flytja inn
 
-Þegar breytingastillingar eru opnaðar birtis upplýsingasíða fyrir reikninginn sem er með vandamál. Ef einhver viðhengi eru til staðar birtast reikningurinn og sjálfgefna viðhengið hlið við hlið á upplýsingasíðu um undantekningar.
+Þegar breytingastilling er ræst opnast upplýsingasíða **Reikningar lánardrottna sem ekki tókst að flytja inn** fyrir reikninginn sem er með vandamál. Ef vandamál koma upp með reikning sem er með viðhengi verður viðhengið ekki birt. Viðhengi verður að vera endurhengt við reikninginn.
 
-![Upplýsingasíða undantekninga](media/vendor_invoice_automation_03.png)
-
-Á fyrrigreindi mynd voru engar línur fyrir reikningshaus lánardrottins sem kom inn. Þess vegna er línuhlutinn í kaflanum auður.
-
-Upplýsingasíða um undantekningar styður eftirfarandi aðgerð:
-
-+ **Stofna reikning í bið** – Þegar vandamál á reikningnum hafa verið löguð sem hluti af undantekningavinnslu, er hægt að smella á þennan hnapp til að stofna reikning í bið. Stofnun reikninga fer fram í bakgrunni (eins og ósamstillt aðgerð).
+**Reikningar lánardrottna sem ekki tókst að flytja inn** upplýsingasíðan gerir notanda kleift að stofna biðreikning. Þegar vandamál á reikningnum hafa verið löguð sem hluti af undantekningavinnslu, skal velja **Stofna reikning í bið** til að stofna reikning í bið. Biðreikningurinn verður búinn til í bakgrunni. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Samnýtt þjónusta samanb. v. fyrirtækjabyggða undantekningavinnslu
 
@@ -187,7 +178,7 @@ Aðeins er hægt að stilla eitt skjal sem sjálfgefið viðhengi. Eftir að skj
 
 Ný hnappur sem er tiltækur á fyrirspurnasíðunum **Undantekningar vinnslu**, **Reikningur í bið** og **Reikningabók** gerir kleift að sýna eða fela viðhengjabirtinn.
 
-### <a name="security"></a>Öryggi
+## <a name="security"></a>Öryggi
 
 Eftirfarandi aðgerðum í viðhengjabirti er stjórnað með öryggi eftir hlutverkum:
 
@@ -212,7 +203,7 @@ Eftirfarandi hlutverk veita aðeins lesaðgang eða les/skrif aðgang að viðhe
 + **Afgreiðslumaður viðskiptaskulda** og **Stjórnandi viðskiptaskulda** – Skyldan Viðhalda lánardrottnareikningum er úthlutað á þessum hlutverk.
 + **Afgreiðslumaður lánardrottna**, **stjórnanda lánardrottna**, **Lykla lánardrottna miðstýrðar greiðslur afgreiðslumaður**, og **Lykla lánardrottna greiðslur afgreiðslumaður** – í Spyrjast fyrir um lánardrottinn reikningi stöðuna gjald er úthlutað á þessum hlutverkum.
 
-### <a name="invoice-exception-details-page"></a>Upplýsingasíða reikningsundantekninga
+### <a name="vendor-invoice-attachment"></a>Viðhengi reiknings lánardrottins
 
 Eftirfarandi réttindi veita aðgang tilbúna-aðeins eða les/skrif aðgang að viðhengjabirti fyrir því að merkingar-, blokkunar- og ahtugasemdaaðgerðir.
 

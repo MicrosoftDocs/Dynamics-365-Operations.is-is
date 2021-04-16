@@ -2,11 +2,9 @@
 title: Vinna með leigusamninga í innflutningsramma leigusamnings
 description: Þetta efnisatriði útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum samtímis.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 90727e8624c8edb7cd9458089dd9d6dfaad67a7f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207232"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819795"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Vinna með leigusamninga í innflutningsramma leigusamnings
 
