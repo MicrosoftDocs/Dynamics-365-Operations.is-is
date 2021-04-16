@@ -2,11 +2,9 @@
 title: Samþætta við LinkedIn Talent Hub
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp samþættingu milli Microsoft Dynamics 365 Human Resources og LinkedIn Talent Hub.
 author: jaredha
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2a017d67177bcbee86abf920cf8d83f37312c5eb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465199"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805059"
 ---
-# <a name="integrate-with-linkedin-talent-hub"></a><span data-ttu-id="8b11e-103">Samþætta við LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="8b11e-103">Integrate with LinkedIn Talent Hub</span></span>
+# <a name="integrate-with-linkedin-talent-hub"></a><span data-ttu-id="b43cf-103">Samþætta við LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="b43cf-103">Integrate with LinkedIn Talent Hub</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -33,165 +31,165 @@ ms.locfileid: "5465199"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="8b11e-104">[LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) er verkvangur rakningakerfis umsækjenda (ATS).</span><span class="sxs-lookup"><span data-stu-id="8b11e-104">[LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) is an applicant tracking system (ATS) platform.</span></span> <span data-ttu-id="8b11e-105">Það gerir þér kleift að finna, hafa umsjón með og ráða starfsmenn, allt á einum stað.</span><span class="sxs-lookup"><span data-stu-id="8b11e-105">It lets you source, manage, and hire employees all in one place.</span></span> <span data-ttu-id="8b11e-106">Með því að samþætta Microsoft Dynamics 365 Human Resources við LinkedIn Talent Hub er auðveldlega hægt að stofna starfsmannafærslur í Human Resources fyrir umsækjendur sem hafa verið ráðnir í stöðu.</span><span class="sxs-lookup"><span data-stu-id="8b11e-106">By integrating Microsoft Dynamics 365 Human Resources with LinkedIn Talent Hub, you can easily create employee records in Human Resources for applicants who have been hired for a position.</span></span>
+<span data-ttu-id="b43cf-104">[LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) er verkvangur rakningakerfis umsækjenda (ATS).</span><span class="sxs-lookup"><span data-stu-id="b43cf-104">[LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) is an applicant tracking system (ATS) platform.</span></span> <span data-ttu-id="b43cf-105">Það gerir þér kleift að finna, hafa umsjón með og ráða starfsmenn, allt á einum stað.</span><span class="sxs-lookup"><span data-stu-id="b43cf-105">It lets you source, manage, and hire employees all in one place.</span></span> <span data-ttu-id="b43cf-106">Með því að samþætta Microsoft Dynamics 365 Human Resources við LinkedIn Talent Hub er auðveldlega hægt að stofna starfsmannafærslur í Human Resources fyrir umsækjendur sem hafa verið ráðnir í stöðu.</span><span class="sxs-lookup"><span data-stu-id="b43cf-106">By integrating Microsoft Dynamics 365 Human Resources with LinkedIn Talent Hub, you can easily create employee records in Human Resources for applicants who have been hired for a position.</span></span>
 
-## <a name="setup"></a><span data-ttu-id="8b11e-107">Setja upp</span><span class="sxs-lookup"><span data-stu-id="8b11e-107">Setup</span></span>
+## <a name="setup"></a><span data-ttu-id="b43cf-107">Setja upp</span><span class="sxs-lookup"><span data-stu-id="b43cf-107">Setup</span></span>
 
-<span data-ttu-id="8b11e-108">Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu við LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="8b11e-108">A system administrator must complete setup tasks to enable integration with LinkedIn Talent Hub.</span></span> <span data-ttu-id="8b11e-109">Fyrst þarf að setja upp notanda og öryggishlutverk í Power Apps umhverfinu til að veita LinkedIn Talent Hub viðeigandi heimildir til að skrifa gögn inn í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="8b11e-109">First, in the Power Apps environment, you must set up a user and security role to grant LinkedIn Talent Hub the appropriate permissions to write data into Human Resources.</span></span>
+<span data-ttu-id="b43cf-108">Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu við LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="b43cf-108">A system administrator must complete setup tasks to enable integration with LinkedIn Talent Hub.</span></span> <span data-ttu-id="b43cf-109">Fyrst þarf að setja upp notanda og öryggishlutverk í Power Apps umhverfinu til að veita LinkedIn Talent Hub viðeigandi heimildir til að skrifa gögn inn í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="b43cf-109">First, in the Power Apps environment, you must set up a user and security role to grant LinkedIn Talent Hub the appropriate permissions to write data into Human Resources.</span></span>
 
-### <a name="link-your-environment-to-linkedin-talent-hub"></a><span data-ttu-id="8b11e-110">Tengja umhverfið við LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="8b11e-110">Link your environment to LinkedIn Talent Hub</span></span>
+### <a name="link-your-environment-to-linkedin-talent-hub"></a><span data-ttu-id="b43cf-110">Tengja umhverfið við LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="b43cf-110">Link your environment to LinkedIn Talent Hub</span></span>
 
-1. <span data-ttu-id="8b11e-111">Opnaðu [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub).</span><span class="sxs-lookup"><span data-stu-id="8b11e-111">Open [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub).</span></span>
+1. <span data-ttu-id="b43cf-111">Opnaðu [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub).</span><span class="sxs-lookup"><span data-stu-id="b43cf-111">Open [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub).</span></span>
 
-2. <span data-ttu-id="8b11e-112">Í fellivalmynd notandans skal velja **Stillingar vöru**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-112">On the user drop-down menu, select **Product Settings**.</span></span>
+2. <span data-ttu-id="b43cf-112">Í fellivalmynd notandans skal velja **Stillingar vöru**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-112">On the user drop-down menu, select **Product Settings**.</span></span>
 
-3. <span data-ttu-id="8b11e-113">Á yfirlitssvæðinu vinstra megin, í hlutanum **Ítarlegt**, skal velja **Samþættingar**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-113">In the left navigation pane, in the **Advanced** section, select **Integrations**.</span></span>
+3. <span data-ttu-id="b43cf-113">Á yfirlitssvæðinu vinstra megin, í hlutanum **Ítarlegt**, skal velja **Samþættingar**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-113">In the left navigation pane, in the **Advanced** section, select **Integrations**.</span></span>
 
-4. <span data-ttu-id="8b11e-114">Veljið **Heimila** fyrir Microsoft Dynamics 365 Human Resources-samþættingu.</span><span class="sxs-lookup"><span data-stu-id="8b11e-114">Select **Authorize** for the Microsoft Dynamics 365 Human Resources integration.</span></span>
+4. <span data-ttu-id="b43cf-114">Veljið **Heimila** fyrir Microsoft Dynamics 365 Human Resources-samþættingu.</span><span class="sxs-lookup"><span data-stu-id="b43cf-114">Select **Authorize** for the Microsoft Dynamics 365 Human Resources integration.</span></span>
 
-5. <span data-ttu-id="8b11e-115">Á **Dynamics 365 Human Resources** síðunni skal velja umhverfið sem á að tengja LinkedIn Talent Hub við og síðan velja **Tengill**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-115">On the **Dynamics 365 Human Resources** page, select the environment to link LinkedIn Talent Hub to, and then select **Link**.</span></span>
+5. <span data-ttu-id="b43cf-115">Á **Dynamics 365 Human Resources** síðunni skal velja umhverfið sem á að tengja LinkedIn Talent Hub við og síðan velja **Tengill**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-115">On the **Dynamics 365 Human Resources** page, select the environment to link LinkedIn Talent Hub to, and then select **Link**.</span></span>
 
     ![Innleiðing LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
-    > <span data-ttu-id="8b11e-117">Aðeins er hægt að tengja við umhverfi þar sem notandareikningurinn er með stjórendaaðgang að bæði umhverfi Human Resources og tengdu Power Apps-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="8b11e-117">You can link only to environments where your user account has administrator access to both the Human Resources environment and the associated Power Apps environment.</span></span> <span data-ttu-id="8b11e-118">Ef engin umhverfi eru skráð á síðu Human Resources skal ganga úr skugga um að þú sért með heimiluð umhverfi Human Resources í leigjandanum og að notandinn sem þú skráðir inn á tengda síðu sé með stjórnendaheimildir fyrir bæði umhverfi Human Resources og Power Apps-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="8b11e-118">If no environments are listed on the Human Resources link page, make sure that you have licensed Human Resources environments on the tenant, and that the user that you signed in to the link page as has administrator permissions to both the Human Resources environment and the Power Apps environment.</span></span>
+    > <span data-ttu-id="b43cf-117">Aðeins er hægt að tengja við umhverfi þar sem notandareikningurinn er með stjórendaaðgang að bæði umhverfi Human Resources og tengdu Power Apps-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="b43cf-117">You can link only to environments where your user account has administrator access to both the Human Resources environment and the associated Power Apps environment.</span></span> <span data-ttu-id="b43cf-118">Ef engin umhverfi eru skráð á síðu Human Resources skal ganga úr skugga um að þú sért með heimiluð umhverfi Human Resources í leigjandanum og að notandinn sem þú skráðir inn á tengda síðu sé með stjórnendaheimildir fyrir bæði umhverfi Human Resources og Power Apps-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="b43cf-118">If no environments are listed on the Human Resources link page, make sure that you have licensed Human Resources environments on the tenant, and that the user that you signed in to the link page as has administrator permissions to both the Human Resources environment and the Power Apps environment.</span></span>
 
-### <a name="create-a-power-apps-security-role"></a><span data-ttu-id="8b11e-119">Stofna Power Apps öryggishlutverk</span><span class="sxs-lookup"><span data-stu-id="8b11e-119">Create a Power Apps security role</span></span>
+### <a name="create-a-power-apps-security-role"></a><span data-ttu-id="b43cf-119">Stofna Power Apps öryggishlutverk</span><span class="sxs-lookup"><span data-stu-id="b43cf-119">Create a Power Apps security role</span></span>
 
-1. <span data-ttu-id="8b11e-120">Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="8b11e-120">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
+1. <span data-ttu-id="b43cf-120">Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="b43cf-120">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
 
-2. <span data-ttu-id="8b11e-121">Í listanum **Umhverfi** skal velja umhverfið sem tengist umhverfi Human Resources sem á að tengja við tilvikið af LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="8b11e-121">In the **Environments** list, select the environment that is associated with the Human Resources environment that you want to link your instance of LinkedIn Talent Hub to.</span></span>
+2. <span data-ttu-id="b43cf-121">Í listanum **Umhverfi** skal velja umhverfið sem tengist umhverfi Human Resources sem á að tengja við tilvikið af LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="b43cf-121">In the **Environments** list, select the environment that is associated with the Human Resources environment that you want to link your instance of LinkedIn Talent Hub to.</span></span>
 
-3. <span data-ttu-id="8b11e-122">Veldu **Stillingar**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-122">Select **Settings**.</span></span>
+3. <span data-ttu-id="b43cf-122">Veldu **Stillingar**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-122">Select **Settings**.</span></span>
 
-4. <span data-ttu-id="8b11e-123">Stækkaðu hnútinn **Notendur + Heimildir** og veldu **Öryggishlutverk**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-123">Expand the **Users + Permissions** node, and select **Security Roles**.</span></span>
+4. <span data-ttu-id="b43cf-123">Stækkaðu hnútinn **Notendur + Heimildir** og veldu **Öryggishlutverk**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-123">Expand the **Users + Permissions** node, and select **Security Roles**.</span></span>
 
-5. <span data-ttu-id="8b11e-124">Á síðunni **Öryggishlutverk**, í tækjastikunni, skal velja **Nýtt hlutverk**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-124">On the **Security Roles** page, on the toolbar, select **New role**.</span></span>
+5. <span data-ttu-id="b43cf-124">Á síðunni **Öryggishlutverk**, í tækjastikunni, skal velja **Nýtt hlutverk**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-124">On the **Security Roles** page, on the toolbar, select **New role**.</span></span>
 
-6. <span data-ttu-id="8b11e-125">Í flipanum **Upplýsingar** skal færa inn heiti fyrir hlutverkið, eins og **HRIS-samþætting LinkedIn Talent Hub**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-125">On the **Details** tab, enter a name for the role, such as **LinkedIn Talent Hub HRIS Integration**.</span></span>
+6. <span data-ttu-id="b43cf-125">Í flipanum **Upplýsingar** skal færa inn heiti fyrir hlutverkið, eins og **HRIS-samþætting LinkedIn Talent Hub**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-125">On the **Details** tab, enter a name for the role, such as **LinkedIn Talent Hub HRIS Integration**.</span></span>
 
-7. <span data-ttu-id="8b11e-126">Í flipanum **Sérstilling** skal velja heimildina **Lesaðgangur** á fyrirtækisstigi fyrir eftirfarandi einingar:</span><span class="sxs-lookup"><span data-stu-id="8b11e-126">On the **Customization** tab, select organization-level **Read** permission for the following entities:</span></span>
+7. <span data-ttu-id="b43cf-126">Í flipanum **Sérstilling** skal velja heimildina **Lesaðgangur** á fyrirtækisstigi fyrir eftirfarandi einingar:</span><span class="sxs-lookup"><span data-stu-id="b43cf-126">On the **Customization** tab, select organization-level **Read** permission for the following entities:</span></span>
 
-    - <span data-ttu-id="8b11e-127">Eining</span><span class="sxs-lookup"><span data-stu-id="8b11e-127">Entity</span></span>
-    - <span data-ttu-id="8b11e-128">Svæði</span><span class="sxs-lookup"><span data-stu-id="8b11e-128">Field</span></span>
-    - <span data-ttu-id="8b11e-129">Skyldleiki</span><span class="sxs-lookup"><span data-stu-id="8b11e-129">Relationship</span></span>
+    - <span data-ttu-id="b43cf-127">Eining</span><span class="sxs-lookup"><span data-stu-id="b43cf-127">Entity</span></span>
+    - <span data-ttu-id="b43cf-128">Svæði</span><span class="sxs-lookup"><span data-stu-id="b43cf-128">Field</span></span>
+    - <span data-ttu-id="b43cf-129">Skyldleiki</span><span class="sxs-lookup"><span data-stu-id="b43cf-129">Relationship</span></span>
 
-8. <span data-ttu-id="8b11e-130">Vistið og lokið öryggishlutverkinu.</span><span class="sxs-lookup"><span data-stu-id="8b11e-130">Save and close the security role.</span></span>
+8. <span data-ttu-id="b43cf-130">Vistið og lokið öryggishlutverkinu.</span><span class="sxs-lookup"><span data-stu-id="b43cf-130">Save and close the security role.</span></span>
 
-### <a name="create-a-power-apps-application-user"></a><span data-ttu-id="8b11e-131">Stofna notanda fyrir Power Apps-forrit</span><span class="sxs-lookup"><span data-stu-id="8b11e-131">Create a Power Apps application user</span></span>
+### <a name="create-a-power-apps-application-user"></a><span data-ttu-id="b43cf-131">Stofna notanda fyrir Power Apps-forrit</span><span class="sxs-lookup"><span data-stu-id="b43cf-131">Create a Power Apps application user</span></span>
 
-<span data-ttu-id="8b11e-132">Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub til að veita breytinum heimildir til að skrifa færslur umsækjanda inn í Power Apps-umhverfið.</span><span class="sxs-lookup"><span data-stu-id="8b11e-132">An application user must be created for the LinkedIn Talent Hub adapter to grant permissions to the adapter to write candidate records into the Power Apps environment.</span></span>
+<span data-ttu-id="b43cf-132">Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub til að veita breytinum heimildir til að skrifa færslur umsækjanda inn í Power Apps-umhverfið.</span><span class="sxs-lookup"><span data-stu-id="b43cf-132">An application user must be created for the LinkedIn Talent Hub adapter to grant permissions to the adapter to write candidate records into the Power Apps environment.</span></span>
 
-1. <span data-ttu-id="8b11e-133">Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="8b11e-133">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
+1. <span data-ttu-id="b43cf-133">Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="b43cf-133">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com).</span></span>
 
-2. <span data-ttu-id="8b11e-134">Í listanum **Umhverfi** skal velja umhverfið sem tengist umhverfi Human Resources sem á að tengja við tilvikið af LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="8b11e-134">In the **Environments** list, select the environment that is associated with the Human Resources environment that you want to link your instance of LinkedIn Talent Hub to.</span></span>
+2. <span data-ttu-id="b43cf-134">Í listanum **Umhverfi** skal velja umhverfið sem tengist umhverfi Human Resources sem á að tengja við tilvikið af LinkedIn Talent Hub.</span><span class="sxs-lookup"><span data-stu-id="b43cf-134">In the **Environments** list, select the environment that is associated with the Human Resources environment that you want to link your instance of LinkedIn Talent Hub to.</span></span>
 
-3. <span data-ttu-id="8b11e-135">Veldu **Stillingar**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-135">Select **Settings**.</span></span>
+3. <span data-ttu-id="b43cf-135">Veldu **Stillingar**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-135">Select **Settings**.</span></span>
 
-4. <span data-ttu-id="8b11e-136">Stækkaðu hnútinn **Notendur + Heimildir** og veldu **Notendur**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-136">Expand the **Users + Permissions** node, and select **Users**.</span></span>
+4. <span data-ttu-id="b43cf-136">Stækkaðu hnútinn **Notendur + Heimildir** og veldu **Notendur**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-136">Expand the **Users + Permissions** node, and select **Users**.</span></span>
 
-5. <span data-ttu-id="8b11e-137">Veljið **Stjórna notendum í Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-137">Select **Manage users in Dynamics 365**.</span></span>
+5. <span data-ttu-id="b43cf-137">Veljið **Stjórna notendum í Dynamics 365**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-137">Select **Manage users in Dynamics 365**.</span></span>
 
-6. <span data-ttu-id="8b11e-138">Notið fellivalmyndina fyrir ofan listann til að breyta yfirlitinu úr sjálfgefnu yfirliti **Virkjaðir notendur** í **Forritsnotendur**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-138">Use the drop-down menu above the list to change the view from the default **Enabled Users** view to **Application Users**.</span></span>
+6. <span data-ttu-id="b43cf-138">Notið fellivalmyndina fyrir ofan listann til að breyta yfirlitinu úr sjálfgefnu yfirliti **Virkjaðir notendur** í **Forritsnotendur**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-138">Use the drop-down menu above the list to change the view from the default **Enabled Users** view to **Application Users**.</span></span>
 
     ![Yfirlit forritsnotenda](./media/hr-admin-integration-power-apps-application-users.jpg)
 
-7. <span data-ttu-id="8b11e-140">Á tækjastikunni skal velja **Nýr**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-140">On the toolbar, select **New**.</span></span>
+7. <span data-ttu-id="b43cf-140">Á tækjastikunni skal velja **Nýr**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-140">On the toolbar, select **New**.</span></span>
 
-8. <span data-ttu-id="8b11e-141">Á síðunni **Nýr notandi** skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="8b11e-141">On the **New user** page, follow these steps:</span></span>
+8. <span data-ttu-id="b43cf-141">Á síðunni **Nýr notandi** skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="b43cf-141">On the **New user** page, follow these steps:</span></span>
 
-    1. <span data-ttu-id="8b11e-142">Breytið gildinu á reitnum **Gerð notanda** í **Forritsnotandi**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-142">Change the value of the **User type** field to **Application User**.</span></span>
-    2. <span data-ttu-id="8b11e-143">Stillið reitinn **Notandanafn** á **HRIS-samþætting HR LinkedIn Dynamics365**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-143">Set the **User Name** field to **Dynamics365 HR LinkedIn HRIS Integration**.</span></span>
-    3. <span data-ttu-id="8b11e-144">Stilltu reitinn **Forritskenni** á **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-144">Set the **Application ID** field to **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span></span>
-    4. <span data-ttu-id="8b11e-145">Færið inn eitthvað gildi í reitina **Fornafn**, **Eftirnafn** og **Aðalnetfang**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-145">Enter any value in the **First Name**, **Last Name**, and **Primary Email** fields.</span></span>
-    5. <span data-ttu-id="8b11e-146">Á tækjastikunni skal velja **Vista \& Loka**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-146">On the toolbar, select **Save \& Close**.</span></span>
+    1. <span data-ttu-id="b43cf-142">Breytið gildinu á reitnum **Gerð notanda** í **Forritsnotandi**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-142">Change the value of the **User type** field to **Application User**.</span></span>
+    2. <span data-ttu-id="b43cf-143">Stillið reitinn **Notandanafn** á **HRIS-samþætting HR LinkedIn Dynamics365**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-143">Set the **User Name** field to **Dynamics365 HR LinkedIn HRIS Integration**.</span></span>
+    3. <span data-ttu-id="b43cf-144">Stilltu reitinn **Forritskenni** á **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-144">Set the **Application ID** field to **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span></span>
+    4. <span data-ttu-id="b43cf-145">Færið inn eitthvað gildi í reitina **Fornafn**, **Eftirnafn** og **Aðalnetfang**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-145">Enter any value in the **First Name**, **Last Name**, and **Primary Email** fields.</span></span>
+    5. <span data-ttu-id="b43cf-146">Á tækjastikunni skal velja **Vista \& Loka**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-146">On the toolbar, select **Save \& Close**.</span></span>
 
-### <a name="assign-a-security-role-to-the-new-user"></a><span data-ttu-id="8b11e-147">Öryggishlutverki úthlutað á nýjan notanda</span><span class="sxs-lookup"><span data-stu-id="8b11e-147">Assign a security role to the new user</span></span>
+### <a name="assign-a-security-role-to-the-new-user"></a><span data-ttu-id="b43cf-147">Öryggishlutverki úthlutað á nýjan notanda</span><span class="sxs-lookup"><span data-stu-id="b43cf-147">Assign a security role to the new user</span></span>
 
-<span data-ttu-id="8b11e-148">Þegar búið er að vista og loka nýja forritsnotandanum í hlutanum hér að ofan er þér vísað aftur á síðuna **Listi yfir notendur**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-148">After you save and close the new application user in the previous section, you're returned to the **Users list** page.</span></span>
+<span data-ttu-id="b43cf-148">Þegar búið er að vista og loka nýja forritsnotandanum í hlutanum hér að ofan er þér vísað aftur á síðuna **Listi yfir notendur**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-148">After you save and close the new application user in the previous section, you're returned to the **Users list** page.</span></span>
 
-1. <span data-ttu-id="8b11e-149">Á síðunni **Listi yfir notendur** skal breyta yfirlitinu í **Forritsnotendur**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-149">On the **Users list** page, change the view to **Application Users**.</span></span>
+1. <span data-ttu-id="b43cf-149">Á síðunni **Listi yfir notendur** skal breyta yfirlitinu í **Forritsnotendur**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-149">On the **Users list** page, change the view to **Application Users**.</span></span>
 
-2. <span data-ttu-id="8b11e-150">Veldu forritsnotandann sem þú stofnaðir í hlutanum hér á undan.</span><span class="sxs-lookup"><span data-stu-id="8b11e-150">Select the application user that you created in the previous section.</span></span>
+2. <span data-ttu-id="b43cf-150">Veldu forritsnotandann sem þú stofnaðir í hlutanum hér á undan.</span><span class="sxs-lookup"><span data-stu-id="b43cf-150">Select the application user that you created in the previous section.</span></span>
 
-3. <span data-ttu-id="8b11e-151">Á tækjastikunni skal velja **Stjórna hlutverkum**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-151">On the toolbar, select **Manage Roles**.</span></span>
+3. <span data-ttu-id="b43cf-151">Á tækjastikunni skal velja **Stjórna hlutverkum**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-151">On the toolbar, select **Manage Roles**.</span></span>
 
-4. <span data-ttu-id="8b11e-152">Veldu öryggishlutverkið sem þú stofnaðir fyrr í samþættingunni.</span><span class="sxs-lookup"><span data-stu-id="8b11e-152">Select the security role that you created earlier for the integration.</span></span>
+4. <span data-ttu-id="b43cf-152">Veldu öryggishlutverkið sem þú stofnaðir fyrr í samþættingunni.</span><span class="sxs-lookup"><span data-stu-id="b43cf-152">Select the security role that you created earlier for the integration.</span></span>
 
-5. <span data-ttu-id="8b11e-153">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-153">Select **OK**.</span></span>
+5. <span data-ttu-id="b43cf-153">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-153">Select **OK**.</span></span>
 
-### <a name="add-an-azure-active-directory-app-in-human-resources"></a><span data-ttu-id="8b11e-154">Bæta Azure Active Directory-forriti við Human Resources</span><span class="sxs-lookup"><span data-stu-id="8b11e-154">Add an Azure Active Directory app in Human Resources</span></span>
+### <a name="add-an-azure-active-directory-app-in-human-resources"></a><span data-ttu-id="b43cf-154">Bæta Azure Active Directory-forriti við Human Resources</span><span class="sxs-lookup"><span data-stu-id="b43cf-154">Add an Azure Active Directory app in Human Resources</span></span>
 
-1. <span data-ttu-id="8b11e-155">Í Dynamics 365 Human Resources skal opna síðuna **Azure Active Directory forrit**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-155">In Dynamics 365 Human Resources, open the **Azure Active Directory applications** page.</span></span>
-2. <span data-ttu-id="8b11e-156">Bættu nýrri færslu við listann og stilltu eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="8b11e-156">Add a new record to the list, and set the following fields:</span></span>
+1. <span data-ttu-id="b43cf-155">Í Dynamics 365 Human Resources skal opna síðuna **Azure Active Directory forrit**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-155">In Dynamics 365 Human Resources, open the **Azure Active Directory applications** page.</span></span>
+2. <span data-ttu-id="b43cf-156">Bættu nýrri færslu við listann og stilltu eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="b43cf-156">Add a new record to the list, and set the following fields:</span></span>
 
-    - <span data-ttu-id="8b11e-157">**Biðlarakenni**: Sláðu inn **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-157">**Client ID**: Enter **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span></span>
-    - <span data-ttu-id="8b11e-158">**Heiti**: Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-158">**Name**: Enter the name of the Power Apps security role that you created earlier, such as **LinkedIn Talent Hub HRIS Integration**.</span></span>
-    - <span data-ttu-id="8b11e-159">**Notandakenni**: Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.</span><span class="sxs-lookup"><span data-stu-id="8b11e-159">**User ID**: Select a user who has permissions to write data in Personnel Management.</span></span>
+    - <span data-ttu-id="b43cf-157">**Biðlarakenni**: Sláðu inn **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-157">**Client ID**: Enter **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.</span></span>
+    - <span data-ttu-id="b43cf-158">**Heiti**: Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-158">**Name**: Enter the name of the Power Apps security role that you created earlier, such as **LinkedIn Talent Hub HRIS Integration**.</span></span>
+    - <span data-ttu-id="b43cf-159">**Notandakenni**: Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.</span><span class="sxs-lookup"><span data-stu-id="b43cf-159">**User ID**: Select a user who has permissions to write data in Personnel Management.</span></span>
 
-### <a name="create-the-table-in-dataverse"></a><span data-ttu-id="8b11e-160">Búa til töfluna í Dataverse</span><span class="sxs-lookup"><span data-stu-id="8b11e-160">Create the table in Dataverse</span></span>
+### <a name="create-the-table-in-dataverse"></a><span data-ttu-id="b43cf-160">Búa til töfluna í Dataverse</span><span class="sxs-lookup"><span data-stu-id="b43cf-160">Create the table in Dataverse</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8b11e-161">Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources.</span><span class="sxs-lookup"><span data-stu-id="8b11e-161">The integration with LinkedIn Talent Hub depends on virtual tables in Dataverse for Human Resources.</span></span> <span data-ttu-id="8b11e-162">Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur.</span><span class="sxs-lookup"><span data-stu-id="8b11e-162">As a prerequisite for this step in the setup, you must configure virtual tables.</span></span> <span data-ttu-id="8b11e-163">Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).</span><span class="sxs-lookup"><span data-stu-id="8b11e-163">For information about how to configure virtual tables, see [Configure Dataverse virtual tables](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).</span></span>
+> <span data-ttu-id="b43cf-161">Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources.</span><span class="sxs-lookup"><span data-stu-id="b43cf-161">The integration with LinkedIn Talent Hub depends on virtual tables in Dataverse for Human Resources.</span></span> <span data-ttu-id="b43cf-162">Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur.</span><span class="sxs-lookup"><span data-stu-id="b43cf-162">As a prerequisite for this step in the setup, you must configure virtual tables.</span></span> <span data-ttu-id="b43cf-163">Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).</span><span class="sxs-lookup"><span data-stu-id="b43cf-163">For information about how to configure virtual tables, see [Configure Dataverse virtual tables](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).</span></span>
 
-1. <span data-ttu-id="8b11e-164">Í Human Resources skal opna síðuna **Dataverse-samþætting**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-164">In Human Resources, open the **Dataverse integration** page.</span></span>
+1. <span data-ttu-id="b43cf-164">Í Human Resources skal opna síðuna **Dataverse-samþætting**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-164">In Human Resources, open the **Dataverse integration** page.</span></span>
 
-2. <span data-ttu-id="8b11e-165">Veljið flipann **Sýndartöflur**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-165">Select the **Virtual tables** tab.</span></span>
+2. <span data-ttu-id="b43cf-165">Veljið flipann **Sýndartöflur**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-165">Select the **Virtual tables** tab.</span></span>
 
-3. <span data-ttu-id="8b11e-166">Síaðu einingalistann eftir einingarmerki til að finna **Útfluttan umsækjanda LinkedIn**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-166">Filter the entity list by entity label to find **LinkedIn exported candidate**.</span></span>
+3. <span data-ttu-id="b43cf-166">Síaðu einingalistann eftir einingarmerki til að finna **Útfluttan umsækjanda LinkedIn**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-166">Filter the entity list by entity label to find **LinkedIn exported candidate**.</span></span>
 
-4. <span data-ttu-id="8b11e-167">Veldu eininguna og síðan **Búa til/uppfæra**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-167">Select the entity, and then select **Generate/refresh**.</span></span>
+4. <span data-ttu-id="b43cf-167">Veldu eininguna og síðan **Búa til/uppfæra**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-167">Select the entity, and then select **Generate/refresh**.</span></span>
 
-## <a name="exporting-candidate-records"></a><span data-ttu-id="8b11e-168">Skrár umsækjanda fluttar út</span><span class="sxs-lookup"><span data-stu-id="8b11e-168">Exporting candidate records</span></span>
+## <a name="exporting-candidate-records"></a><span data-ttu-id="b43cf-168">Skrár umsækjanda fluttar út</span><span class="sxs-lookup"><span data-stu-id="b43cf-168">Exporting candidate records</span></span>
 
-<span data-ttu-id="8b11e-169">Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk mannauðs notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="8b11e-169">After the setup is completed, recruiters and human resources (HR) professionals can use the **Export to HRIS** function in LinkedIn Talent Hub to export hired candidate records from LinkedIn Talent Hub to Human Resources.</span></span>
+<span data-ttu-id="b43cf-169">Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk mannauðs notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="b43cf-169">After the setup is completed, recruiters and human resources (HR) professionals can use the **Export to HRIS** function in LinkedIn Talent Hub to export hired candidate records from LinkedIn Talent Hub to Human Resources.</span></span>
 
-### <a name="export-records-from-linkedin-talent-hub"></a><span data-ttu-id="8b11e-170">Flytja út færslur úr LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="8b11e-170">Export records from LinkedIn Talent Hub</span></span>
+### <a name="export-records-from-linkedin-talent-hub"></a><span data-ttu-id="b43cf-170">Flytja út færslur úr LinkedIn Talent Hub</span><span class="sxs-lookup"><span data-stu-id="b43cf-170">Export records from LinkedIn Talent Hub</span></span>
 
-<span data-ttu-id="8b11e-171">Þegar umsækjandi hefur farið í gegnum ráðningarferlið og hefur verið ráðinn, geturðu flutt út skrár umsækjanda úr LinkedIn Talent Hub í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="8b11e-171">After a candidate has moved through the recruiting process and has been hired, you can export the candidate record from LinkedIn Talent Hub to Human Resources.</span></span>
+<span data-ttu-id="b43cf-171">Þegar umsækjandi hefur farið í gegnum ráðningarferlið og hefur verið ráðinn, geturðu flutt út skrár umsækjanda úr LinkedIn Talent Hub í Human Resources.</span><span class="sxs-lookup"><span data-stu-id="b43cf-171">After a candidate has moved through the recruiting process and has been hired, you can export the candidate record from LinkedIn Talent Hub to Human Resources.</span></span>
 
-1. <span data-ttu-id="8b11e-172">Í LinkedIn Talent Hub skal opna verkið sem þú réðst nýja starfsmanninn í.</span><span class="sxs-lookup"><span data-stu-id="8b11e-172">In LinkedIn Talent Hub, open the project that you hired the new employee for.</span></span>
+1. <span data-ttu-id="b43cf-172">Í LinkedIn Talent Hub skal opna verkið sem þú réðst nýja starfsmanninn í.</span><span class="sxs-lookup"><span data-stu-id="b43cf-172">In LinkedIn Talent Hub, open the project that you hired the new employee for.</span></span>
 
-2. <span data-ttu-id="8b11e-173">Veldu skrá umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="8b11e-173">Select a candidate record.</span></span>
+2. <span data-ttu-id="b43cf-173">Veldu skrá umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="b43cf-173">Select a candidate record.</span></span>
 
-3. <span data-ttu-id="8b11e-174">Veldu **Breyta stigi** og síðan **Ráðinn**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-174">Select **Change stage**, and then select **Hired**.</span></span>
+3. <span data-ttu-id="b43cf-174">Veldu **Breyta stigi** og síðan **Ráðinn**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-174">Select **Change stage**, and then select **Hired**.</span></span>
 
-4. <span data-ttu-id="8b11e-175">Í úrfellingarmerki (**...**) fyrir umsækjandann skal velja **Flytja yfir í HRIS**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-175">On the ellipsis menu (**...**) for the candidate, select **Export to HRIS**.</span></span>
+4. <span data-ttu-id="b43cf-175">Í úrfellingarmerki (**...**) fyrir umsækjandann skal velja **Flytja yfir í HRIS**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-175">On the ellipsis menu (**...**) for the candidate, select **Export to HRIS**.</span></span>
 
-5. <span data-ttu-id="8b11e-176">Á svæðinu **Flytja yfir í HRIS** skal færa inn upplýsingarnar sem þarf að flytja út:</span><span class="sxs-lookup"><span data-stu-id="8b11e-176">In the **Export to HRIS** pane, enter the information that must be exported:</span></span>
+5. <span data-ttu-id="b43cf-176">Á svæðinu **Flytja yfir í HRIS** skal færa inn upplýsingarnar sem þarf að flytja út:</span><span class="sxs-lookup"><span data-stu-id="b43cf-176">In the **Export to HRIS** pane, enter the information that must be exported:</span></span>
 
-    - <span data-ttu-id="8b11e-177">Í reitnum **HRIS-veitandi** skal velja **Microsoft Dynamics 365 Human Resources**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-177">In the **HRIS provider** field, select **Microsoft Dynamics 365 Human Resources**.</span></span>
-    - <span data-ttu-id="8b11e-178">Í reitnum **Upphafsdagsetning** skal velja gildi fyrir nýja starfsmanninn.</span><span class="sxs-lookup"><span data-stu-id="8b11e-178">In the **Start date** field, select a value for the new employee.</span></span>
-    - <span data-ttu-id="8b11e-179">Í reitinn **Starfsheiti** skal færa inn starfsheiti fyrir vinnu nýja starfsmannsins.</span><span class="sxs-lookup"><span data-stu-id="8b11e-179">In the **Job title** field, enter a job title for the new employee's job.</span></span>
-    - <span data-ttu-id="8b11e-180">Í reitinn **Staðsetning** skal færa inn staðsetninguna þar sem starfsmaðurinn verður.</span><span class="sxs-lookup"><span data-stu-id="8b11e-180">In the **Location** field, enter the location where the employee will be based.</span></span>
-    - <span data-ttu-id="8b11e-181">Færðu inn eða staðfestu netfang starfsmannsins.</span><span class="sxs-lookup"><span data-stu-id="8b11e-181">Enter or verify the employee's email address.</span></span>
+    - <span data-ttu-id="b43cf-177">Í reitnum **HRIS-veitandi** skal velja **Microsoft Dynamics 365 Human Resources**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-177">In the **HRIS provider** field, select **Microsoft Dynamics 365 Human Resources**.</span></span>
+    - <span data-ttu-id="b43cf-178">Í reitnum **Upphafsdagsetning** skal velja gildi fyrir nýja starfsmanninn.</span><span class="sxs-lookup"><span data-stu-id="b43cf-178">In the **Start date** field, select a value for the new employee.</span></span>
+    - <span data-ttu-id="b43cf-179">Í reitinn **Starfsheiti** skal færa inn starfsheiti fyrir vinnu nýja starfsmannsins.</span><span class="sxs-lookup"><span data-stu-id="b43cf-179">In the **Job title** field, enter a job title for the new employee's job.</span></span>
+    - <span data-ttu-id="b43cf-180">Í reitinn **Staðsetning** skal færa inn staðsetninguna þar sem starfsmaðurinn verður.</span><span class="sxs-lookup"><span data-stu-id="b43cf-180">In the **Location** field, enter the location where the employee will be based.</span></span>
+    - <span data-ttu-id="b43cf-181">Færðu inn eða staðfestu netfang starfsmannsins.</span><span class="sxs-lookup"><span data-stu-id="b43cf-181">Enter or verify the employee's email address.</span></span>
 
 ![Flytja yfir á HRIS-svæðið í LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
-## <a name="complete-onboarding-in-human-resources"></a><span data-ttu-id="8b11e-183">Ljúka við innleiðingu í Human Resources</span><span class="sxs-lookup"><span data-stu-id="8b11e-183">Complete onboarding in Human Resources</span></span>
+## <a name="complete-onboarding-in-human-resources"></a><span data-ttu-id="b43cf-183">Ljúka við innleiðingu í Human Resources</span><span class="sxs-lookup"><span data-stu-id="b43cf-183">Complete onboarding in Human Resources</span></span>
 
-<span data-ttu-id="8b11e-184">Færslur umsækjanda sem eru fluttar úr LinkedIn Talent Hub í Human Resources birtast í hlutanum **Umsækjendur til að ráða** á síðunni **Starfsmannastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-184">Candidate records that are exported from LinkedIn Talent Hub to Human Resources appear in the **Candidates to hire** section of the **Personnel management** page.</span></span>
+<span data-ttu-id="b43cf-184">Færslur umsækjanda sem eru fluttar úr LinkedIn Talent Hub í Human Resources birtast í hlutanum **Umsækjendur til að ráða** á síðunni **Starfsmannastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-184">Candidate records that are exported from LinkedIn Talent Hub to Human Resources appear in the **Candidates to hire** section of the **Personnel management** page.</span></span>
 
-1. <span data-ttu-id="8b11e-185">Í Human Resources skal opna síðuna **Starfsmannastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="8b11e-185">In Human Resources, open the **Personnel management** page.</span></span>
+1. <span data-ttu-id="b43cf-185">Í Human Resources skal opna síðuna **Starfsmannastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="b43cf-185">In Human Resources, open the **Personnel management** page.</span></span>
 
-2. <span data-ttu-id="8b11e-186">Í hlutanum **Umsækjendur til að ráða** skal velja **Ráða** fyrir valinn umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="8b11e-186">In the **Candidates to hire** section, select **Hire** for the selected candidate.</span></span>
+2. <span data-ttu-id="b43cf-186">Í hlutanum **Umsækjendur til að ráða** skal velja **Ráða** fyrir valinn umsækjanda.</span><span class="sxs-lookup"><span data-stu-id="b43cf-186">In the **Candidates to hire** section, select **Hire** for the selected candidate.</span></span>
 
-3. <span data-ttu-id="8b11e-187">Í svarglugganum **Ráða nýjan starfsmann** skal fara yfir færsluna og bæta við nauðsynlegum upplýsingum.</span><span class="sxs-lookup"><span data-stu-id="8b11e-187">In the **Hire new worker** dialog box, review the record, and add any required information.</span></span> <span data-ttu-id="8b11e-188">Einnig er hægt að velja staðsetningarnúmerið sem umsækjandinn hefur verið ráðinn fyrir.</span><span class="sxs-lookup"><span data-stu-id="8b11e-188">You can also select the position number that the candidate has been hired for.</span></span>
+3. <span data-ttu-id="b43cf-187">Í svarglugganum **Ráða nýjan starfsmann** skal fara yfir færsluna og bæta við nauðsynlegum upplýsingum.</span><span class="sxs-lookup"><span data-stu-id="b43cf-187">In the **Hire new worker** dialog box, review the record, and add any required information.</span></span> <span data-ttu-id="b43cf-188">Einnig er hægt að velja staðsetningarnúmerið sem umsækjandinn hefur verið ráðinn fyrir.</span><span class="sxs-lookup"><span data-stu-id="b43cf-188">You can also select the position number that the candidate has been hired for.</span></span>
 
-<span data-ttu-id="8b11e-189">Þegar búið er að færa inn nauðsynlegar upplýsingar er hægt að halda áfram með hefðbundin ferli til að búa til starfsmannafærslur og starfsmannaráðningar.</span><span class="sxs-lookup"><span data-stu-id="8b11e-189">After the required information has been entered, you can continue with your standard processes for creating employee records and onboarding employees.</span></span>
+<span data-ttu-id="b43cf-189">Þegar búið er að færa inn nauðsynlegar upplýsingar er hægt að halda áfram með hefðbundin ferli til að búa til starfsmannafærslur og starfsmannaráðningar.</span><span class="sxs-lookup"><span data-stu-id="b43cf-189">After the required information has been entered, you can continue with your standard processes for creating employee records and onboarding employees.</span></span>
 
-<span data-ttu-id="8b11e-190">Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafærsluna:</span><span class="sxs-lookup"><span data-stu-id="8b11e-190">The following details are imported and included on the new employee record:</span></span>
+<span data-ttu-id="b43cf-190">Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafærsluna:</span><span class="sxs-lookup"><span data-stu-id="b43cf-190">The following details are imported and included on the new employee record:</span></span>
 
-- <span data-ttu-id="8b11e-191">Fornafn</span><span class="sxs-lookup"><span data-stu-id="8b11e-191">First name</span></span>
-- <span data-ttu-id="8b11e-192">Eftirnafn</span><span class="sxs-lookup"><span data-stu-id="8b11e-192">Last name</span></span>
-- <span data-ttu-id="8b11e-193">Upphafsdagur starfs</span><span class="sxs-lookup"><span data-stu-id="8b11e-193">Employment start date</span></span>
-- <span data-ttu-id="8b11e-194">Tölvupóstfang</span><span class="sxs-lookup"><span data-stu-id="8b11e-194">Email address</span></span>
-- <span data-ttu-id="8b11e-195">Símanúmer</span><span class="sxs-lookup"><span data-stu-id="8b11e-195">Phone number</span></span>
+- <span data-ttu-id="b43cf-191">Fornafn</span><span class="sxs-lookup"><span data-stu-id="b43cf-191">First name</span></span>
+- <span data-ttu-id="b43cf-192">Eftirnafn</span><span class="sxs-lookup"><span data-stu-id="b43cf-192">Last name</span></span>
+- <span data-ttu-id="b43cf-193">Upphafsdagur starfs</span><span class="sxs-lookup"><span data-stu-id="b43cf-193">Employment start date</span></span>
+- <span data-ttu-id="b43cf-194">Tölvupóstfang</span><span class="sxs-lookup"><span data-stu-id="b43cf-194">Email address</span></span>
+- <span data-ttu-id="b43cf-195">Símanúmer</span><span class="sxs-lookup"><span data-stu-id="b43cf-195">Phone number</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8b11e-196">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="8b11e-196">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b43cf-196">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="b43cf-196">See also</span></span>
 
-[<span data-ttu-id="8b11e-197">Skilgreina Dataverse-sýndartöflur</span><span class="sxs-lookup"><span data-stu-id="8b11e-197">Configure Dataverse virtual tables</span></span>](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[<span data-ttu-id="8b11e-198">Hvað er Microsoft Dataverse?</span><span class="sxs-lookup"><span data-stu-id="8b11e-198">What is Microsoft Dataverse?</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[<span data-ttu-id="b43cf-197">Skilgreina Dataverse-sýndartöflur</span><span class="sxs-lookup"><span data-stu-id="b43cf-197">Configure Dataverse virtual tables</span></span>](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[<span data-ttu-id="b43cf-198">Hvað er Microsoft Dataverse?</span><span class="sxs-lookup"><span data-stu-id="b43cf-198">What is Microsoft Dataverse?</span></span>](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
