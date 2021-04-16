@@ -2,11 +2,9 @@
 title: Fastir bókunarlyklar eignakaupa
 description: Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til eignast eignir.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
@@ -17,30 +15,30 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a340df57a6073c6d9b6f2cdaadbf8f21fc11649
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d4c1b4de2e58b964bcf6ab07929897083f4c826
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241043"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822010"
 ---
-# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="e8c5b-103">Fastir bókunarlyklar eignakaupa</span><span class="sxs-lookup"><span data-stu-id="e8c5b-103">Fixed asset acquisition posting accounts</span></span>
+# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="c92b4-103">Fastir bókunarlyklar eignakaupa</span><span class="sxs-lookup"><span data-stu-id="c92b4-103">Fixed asset acquisition posting accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e8c5b-104">Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til eignast eignir.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
+<span data-ttu-id="c92b4-104">Þessi grein útskýrir hvernig á að setja upp almenna bókunarreikninga til eignast eignir.</span><span class="sxs-lookup"><span data-stu-id="c92b4-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 
-<span data-ttu-id="e8c5b-105">Lyklar sem eru notaðir til að bóka eignakaup geta verið mismunandi, eftir því hvaða aðferð er notuð til að kaupa eignir.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="e8c5b-106">Á síðunni bókunarreglur eigna, í Fjárhagsreiknings flipa, veljið Kaup og Leiðrétting kaupa til að setja upp eignalykla til að bóka í fjárhaginn.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
+<span data-ttu-id="c92b4-105">Lyklar sem eru notaðir til að bóka eignakaup geta verið mismunandi, eftir því hvaða aðferð er notuð til að kaupa eignir.</span><span class="sxs-lookup"><span data-stu-id="c92b4-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="c92b4-106">Á síðunni bókunarreglur eigna, í Fjárhagsreiknings flipa, veljið Kaup og Leiðrétting kaupa til að setja upp eignalykla til að bóka í fjárhaginn.</span><span class="sxs-lookup"><span data-stu-id="c92b4-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
 
-<span data-ttu-id="e8c5b-107">Í færslubókum og á innkaupapöntunum er Fjárhagsreikningur oftast efnahagslykillinn þar sem kaupvirði nýju eignarinnar er skuldfært.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="e8c5b-108">Þessi lykill getur ekki birst í færslubók og er ekki hægt að skipta út í færslum.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
+<span data-ttu-id="c92b4-107">Í færslubókum og á innkaupapöntunum er Fjárhagsreikningur oftast efnahagslykillinn þar sem kaupvirði nýju eignarinnar er skuldfært.</span><span class="sxs-lookup"><span data-stu-id="c92b4-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="c92b4-108">Þessi lykill getur ekki birst í færslubók og er ekki hægt að skipta út í færslum.</span><span class="sxs-lookup"><span data-stu-id="c92b4-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
 
-<span data-ttu-id="e8c5b-109">Mótlykill er líka efnahagslykill.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="e8c5b-110">Í almennu færslubókinni og í eignabókinni er þessi lykill oft bankareikningurinn sem er notaður til að greiða fyrir kaup eignarinnar.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="e8c5b-111">Mótlykillinn er sjálfgefinn lykill sem er stungið upp á í færslubókunum.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="e8c5b-112">Hægt er að breyta þessu í færslubókinni í einhvern annan reikning úr bókhaldslykli eða í lánardrottnalykil, ef eignin var keypt af lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
+<span data-ttu-id="c92b4-109">Mótlykill er líka efnahagslykill.</span><span class="sxs-lookup"><span data-stu-id="c92b4-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="c92b4-110">Í almennu færslubókinni og í eignabókinni er þessi lykill oft bankareikningurinn sem er notaður til að greiða fyrir kaup eignarinnar.</span><span class="sxs-lookup"><span data-stu-id="c92b4-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="c92b4-111">Mótlykillinn er sjálfgefinn lykill sem er stungið upp á í færslubókunum.</span><span class="sxs-lookup"><span data-stu-id="c92b4-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="c92b4-112">Hægt er að breyta þessu í færslubókinni í einhvern annan reikning úr bókhaldslykli eða í lánardrottnalykil, ef eignin var keypt af lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="c92b4-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
 
-<span data-ttu-id="e8c5b-113">Þegar reikningabók eða innkaupapöntun í viðskiptaskuldum eru notuð fyrir eignakaup, er mótlyklinum fyrir eignafærsluna skipt úr fyrir lánardrottnareikninginn sem er valinn fyrir færsluna.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
+<span data-ttu-id="c92b4-113">Þegar reikningabók eða innkaupapöntun í viðskiptaskuldum eru notuð fyrir eignakaup, er mótlyklinum fyrir eignafærsluna skipt úr fyrir lánardrottnareikninginn sem er valinn fyrir færsluna.</span><span class="sxs-lookup"><span data-stu-id="c92b4-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
 
-<span data-ttu-id="e8c5b-114">Fyrir kaup bókuð með því að nota færslubókina eignabirgðir í fjárhagnum er eignin ekki keypt af utanaðkomandi aðila heldur færð úr eigin birgðum fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="e8c5b-115">Þess vegna, mótlykill er lykill birgðaúthreyfingar fyrir birgðavara í birgðastjórnun.</span><span class="sxs-lookup"><span data-stu-id="e8c5b-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
+<span data-ttu-id="c92b4-114">Fyrir kaup bókuð með því að nota færslubókina eignabirgðir í fjárhagnum er eignin ekki keypt af utanaðkomandi aðila heldur færð úr eigin birgðum fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="c92b4-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="c92b4-115">Þess vegna, mótlykill er lykill birgðaúthreyfingar fyrir birgðavara í birgðastjórnun.</span><span class="sxs-lookup"><span data-stu-id="c92b4-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
 
-<span data-ttu-id="e8c5b-116">Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="e8c5b-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
+<span data-ttu-id="c92b4-116">Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="c92b4-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
 
 
 

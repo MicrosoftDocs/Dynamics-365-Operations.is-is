@@ -2,11 +2,9 @@
 title: Setja upp Azure-geymslureikning og lyklageymslu
 description: Í þessu efnisatriði er útskýrt hvernig á að stofna Azure-geymslureikning og lyklageymslu.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,70 +15,70 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479346"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840221"
 ---
-# <a name="create-an-azure-storage-account-and-a-key-vault"></a><span data-ttu-id="4634d-103">Setja upp Azure-geymslureikning og lyklageymslu</span><span class="sxs-lookup"><span data-stu-id="4634d-103">Create an Azure storage account and a key vault</span></span>
+# <a name="create-an-azure-storage-account-and-a-key-vault"></a><span data-ttu-id="d0972-103">Setja upp Azure-geymslureikning og lyklageymslu</span><span class="sxs-lookup"><span data-stu-id="d0972-103">Create an Azure storage account and a key vault</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="prerequisites"></a><span data-ttu-id="4634d-104">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="4634d-104">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d0972-104">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="d0972-104">Prerequisites</span></span>
 
-<span data-ttu-id="4634d-105">Áður en hægt er að ljúka við skrefin í þessu efnisatriði þarf að ganga úr skugga um að eftirfarandi verkum sé lokið:</span><span class="sxs-lookup"><span data-stu-id="4634d-105">Before you can complete the steps in this topic, you must make sure that the following tasks have been completed:</span></span>
+<span data-ttu-id="d0972-105">Áður en hægt er að ljúka við skrefin í þessu efnisatriði þarf að ganga úr skugga um að eftirfarandi verkum sé lokið:</span><span class="sxs-lookup"><span data-stu-id="d0972-105">Before you can complete the steps in this topic, you must make sure that the following tasks have been completed:</span></span>
 
-- <span data-ttu-id="4634d-106">Stofna lyklageymslutilfang í Azure.</span><span class="sxs-lookup"><span data-stu-id="4634d-106">Create a key vault resource in Azure.</span></span> <span data-ttu-id="4634d-107">Frekari upplýsingar er að finna í [Um Azure-lyklageymslu](https://docs.microsoft.com/azure/key-vault/general/overview).</span><span class="sxs-lookup"><span data-stu-id="4634d-107">For more information, see [About Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).</span></span>
-- <span data-ttu-id="4634d-108">Stofna Azure-geymslureikning (Blob-geymsla).</span><span class="sxs-lookup"><span data-stu-id="4634d-108">Create an Azure storage account (Blob storage).</span></span> <span data-ttu-id="4634d-109">Frekari upplýsingar er að finna í [Unnið með Azure-geymslureikning](https://docs.microsoft.com/azure/storage/blobs/).</span><span class="sxs-lookup"><span data-stu-id="4634d-109">For more information, see [Maintaining Azure Storage Account](https://docs.microsoft.com/azure/storage/blobs/).</span></span>
+- <span data-ttu-id="d0972-106">Stofna lyklageymslutilfang í Azure.</span><span class="sxs-lookup"><span data-stu-id="d0972-106">Create a key vault resource in Azure.</span></span> <span data-ttu-id="d0972-107">Frekari upplýsingar er að finna í [Um Azure-lyklageymslu](https://docs.microsoft.com/azure/key-vault/general/overview).</span><span class="sxs-lookup"><span data-stu-id="d0972-107">For more information, see [About Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).</span></span>
+- <span data-ttu-id="d0972-108">Stofna Azure-geymslureikning (Blob-geymsla).</span><span class="sxs-lookup"><span data-stu-id="d0972-108">Create an Azure storage account (Blob storage).</span></span> <span data-ttu-id="d0972-109">Frekari upplýsingar er að finna í [Unnið með Azure-geymslureikning](https://docs.microsoft.com/azure/storage/blobs/).</span><span class="sxs-lookup"><span data-stu-id="d0972-109">For more information, see [Maintaining Azure Storage Account](https://docs.microsoft.com/azure/storage/blobs/).</span></span>
 
-## <a name="overview"></a><span data-ttu-id="4634d-110">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="4634d-110">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="d0972-110">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="d0972-110">Overview</span></span>
 
-<span data-ttu-id="4634d-111">Í þessu efnisatriði verður farið í gegnum tvö aðalskref:</span><span class="sxs-lookup"><span data-stu-id="4634d-111">In this topic, you will complete two main steps:</span></span>
+<span data-ttu-id="d0972-111">Í þessu efnisatriði verður farið í gegnum tvö aðalskref:</span><span class="sxs-lookup"><span data-stu-id="d0972-111">In this topic, you will complete two main steps:</span></span>
 
-- <span data-ttu-id="4634d-112">Setja skal upp Azure-geymslureikning til að fá URI geymslureiknings.</span><span class="sxs-lookup"><span data-stu-id="4634d-112">Set up the Azure storage account to get the storage account URI.</span></span>
-- <span data-ttu-id="4634d-113">Setja skal upp lyklageymslu til að geyma URI geymslureiknings.</span><span class="sxs-lookup"><span data-stu-id="4634d-113">Set up the key vault to store the storage account URI.</span></span>
+- <span data-ttu-id="d0972-112">Setja skal upp Azure-geymslureikning til að fá URI geymslureiknings.</span><span class="sxs-lookup"><span data-stu-id="d0972-112">Set up the Azure storage account to get the storage account URI.</span></span>
+- <span data-ttu-id="d0972-113">Setja skal upp lyklageymslu til að geyma URI geymslureiknings.</span><span class="sxs-lookup"><span data-stu-id="d0972-113">Set up the key vault to store the storage account URI.</span></span>
 
-## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a><span data-ttu-id="4634d-114">Setja upp Azure-geymslureikning til að fá URI geymslureiknings</span><span class="sxs-lookup"><span data-stu-id="4634d-114">Set up the Azure storage account to get the storage account URI</span></span>
+## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a><span data-ttu-id="d0972-114">Setja upp Azure-geymslureikning til að fá URI geymslureiknings</span><span class="sxs-lookup"><span data-stu-id="d0972-114">Set up the Azure storage account to get the storage account URI</span></span>
 
-1. <span data-ttu-id="4634d-115">Opnið geymslureikninginn sem ætlunin er að nota með viðbót rafrænnar reikningsfærslu.</span><span class="sxs-lookup"><span data-stu-id="4634d-115">Open the storage account that you plan to use with the Electronic invoicing add-on.</span></span>
-2. <span data-ttu-id="4634d-116">Farið í **Blog-þjónusta** \> **Geymsla** og stofnið nýja geymslu.</span><span class="sxs-lookup"><span data-stu-id="4634d-116">Go to **Blob service** \> **Containers**, and create a new container.</span></span>
-3. <span data-ttu-id="4634d-117">Sláið inn nafn geymslunnar og stillið reitinn **Almennt aðgangsstig** á **Einkaaðili (enginn nafnlaus aðgangur)**.</span><span class="sxs-lookup"><span data-stu-id="4634d-117">Enter a name for the container, and set the **Public access level** field to **Private (no anonymous access)**.</span></span>
-4. <span data-ttu-id="4634d-118">Opnið geymsluna og farið í **Stillingar \> Aðgangsregla**.</span><span class="sxs-lookup"><span data-stu-id="4634d-118">Open the container, and go to **Settings \> Access policy**.</span></span>
-5. <span data-ttu-id="4634d-119">Veljið **Bæta við reglu** til að bæta við geymdri aðgangsreglu.</span><span class="sxs-lookup"><span data-stu-id="4634d-119">Select **Add policy** to add a stored access policy.</span></span>
-6. <span data-ttu-id="4634d-120">Stillið reitina **Kennimerki** og **Aðgangsheimildir** eftir því sem við á.</span><span class="sxs-lookup"><span data-stu-id="4634d-120">Set the **Identifier** and **Permissions** fields as appropriate.</span></span> <span data-ttu-id="4634d-121">Í reitnum **Aðgangsheimildir** á að velja allar aðgangsheimildir.</span><span class="sxs-lookup"><span data-stu-id="4634d-121">In the **Permissions** field, you should select all permissions.</span></span>
+1. <span data-ttu-id="d0972-115">Opnið geymslureikninginn sem ætlunin er að nota með rafrænni reikningsfærslu.</span><span class="sxs-lookup"><span data-stu-id="d0972-115">Open the storage account that you plan to use with Electronic invoicing.</span></span>
+2. <span data-ttu-id="d0972-116">Farið í **Blog-þjónusta** \> **Geymsla** og stofnið nýja geymslu.</span><span class="sxs-lookup"><span data-stu-id="d0972-116">Go to **Blob service** \> **Containers**, and create a new container.</span></span>
+3. <span data-ttu-id="d0972-117">Sláið inn nafn geymslunnar og stillið reitinn **Almennt aðgangsstig** á **Einkaaðili (enginn nafnlaus aðgangur)**.</span><span class="sxs-lookup"><span data-stu-id="d0972-117">Enter a name for the container, and set the **Public access level** field to **Private (no anonymous access)**.</span></span>
+4. <span data-ttu-id="d0972-118">Opnið geymsluna og farið í **Stillingar \> Aðgangsregla**.</span><span class="sxs-lookup"><span data-stu-id="d0972-118">Open the container, and go to **Settings \> Access policy**.</span></span>
+5. <span data-ttu-id="d0972-119">Veljið **Bæta við reglu** til að bæta við geymdri aðgangsreglu.</span><span class="sxs-lookup"><span data-stu-id="d0972-119">Select **Add policy** to add a stored access policy.</span></span>
+6. <span data-ttu-id="d0972-120">Stillið reitina **Kennimerki** og **Aðgangsheimildir** eftir því sem við á.</span><span class="sxs-lookup"><span data-stu-id="d0972-120">Set the **Identifier** and **Permissions** fields as appropriate.</span></span> <span data-ttu-id="d0972-121">Í reitnum **Aðgangsheimildir** á að velja allar aðgangsheimildir.</span><span class="sxs-lookup"><span data-stu-id="d0972-121">In the **Permissions** field, you should select all permissions.</span></span>
 
     ![Aðgangsheimild Blob-geymslu veitt](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
-7. <span data-ttu-id="4634d-123">Færið inn upphafs-og lokadagsetningar.</span><span class="sxs-lookup"><span data-stu-id="4634d-123">Enter the start and expiry dates.</span></span> <span data-ttu-id="4634d-124">Lokadagsetningin á að vera fram í tímann.</span><span class="sxs-lookup"><span data-stu-id="4634d-124">The expiry date should be in future.</span></span>
-8. <span data-ttu-id="4634d-125">Veljið **Í lagi** til að vista regluna og vistið síðan breytingarnar í geymsluna.</span><span class="sxs-lookup"><span data-stu-id="4634d-125">Select **OK** to save the policy, and then save your changes to the container.</span></span>
-9. <span data-ttu-id="4634d-126">Farið aftur í geymslureikninginn og opnið **Geymsluskoðara (forútgáfa)**.</span><span class="sxs-lookup"><span data-stu-id="4634d-126">Return to the storage account, and open **Storage Explorer (preview)**.</span></span>
-10. <span data-ttu-id="4634d-127">Hægrismellið á geymsluna og veljið síðan **Fá undirskrift samnýtts aðgangs**.</span><span class="sxs-lookup"><span data-stu-id="4634d-127">Right-click the container, and then select **Get Shared Access Signature**.</span></span>
-11. <span data-ttu-id="4634d-128">Í svarglugganum **Undirskrift samnýtts aðgangs** skal afrita og vista gildin í reitnum **URI**.</span><span class="sxs-lookup"><span data-stu-id="4634d-128">In the **Shared Access Signature** dialog box, copy and store the value in the **URI** field.</span></span> <span data-ttu-id="4634d-129">Þetta gildi verður notað í næsta ferli og verður vísað til þess sem *URI-undirskrift samnýtts aðgangs*.</span><span class="sxs-lookup"><span data-stu-id="4634d-129">This value will be used in the next procedure and will be referred to as the *shared access signature URI*.</span></span>
+7. <span data-ttu-id="d0972-123">Færið inn upphafs-og lokadagsetningar.</span><span class="sxs-lookup"><span data-stu-id="d0972-123">Enter the start and expiry dates.</span></span> <span data-ttu-id="d0972-124">Lokadagsetningin á að vera fram í tímann.</span><span class="sxs-lookup"><span data-stu-id="d0972-124">The expiry date should be in future.</span></span>
+8. <span data-ttu-id="d0972-125">Veljið **Í lagi** til að vista regluna og vistið síðan breytingarnar í geymsluna.</span><span class="sxs-lookup"><span data-stu-id="d0972-125">Select **OK** to save the policy, and then save your changes to the container.</span></span>
+9. <span data-ttu-id="d0972-126">Farið aftur í geymslureikninginn og opnið **Geymsluskoðara (forútgáfa)**.</span><span class="sxs-lookup"><span data-stu-id="d0972-126">Return to the storage account, and open **Storage Explorer (preview)**.</span></span>
+10. <span data-ttu-id="d0972-127">Hægrismellið á geymsluna og veljið síðan **Fá undirskrift samnýtts aðgangs**.</span><span class="sxs-lookup"><span data-stu-id="d0972-127">Right-click the container, and then select **Get Shared Access Signature**.</span></span>
+11. <span data-ttu-id="d0972-128">Í svarglugganum **Undirskrift samnýtts aðgangs** skal afrita og vista gildin í reitnum **URI**.</span><span class="sxs-lookup"><span data-stu-id="d0972-128">In the **Shared Access Signature** dialog box, copy and store the value in the **URI** field.</span></span> <span data-ttu-id="d0972-129">Þetta gildi verður notað í næsta ferli og verður vísað til þess sem *URI-undirskrift samnýtts aðgangs*.</span><span class="sxs-lookup"><span data-stu-id="d0972-129">This value will be used in the next procedure and will be referred to as the *shared access signature URI*.</span></span>
 
     ![URI-gildin valin og afrituð](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
-## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a><span data-ttu-id="4634d-131">Setja skal upp lyklageymslu til að geyma URI geymslureiknings</span><span class="sxs-lookup"><span data-stu-id="4634d-131">Set up the key vault to store the storage account URI</span></span>
+## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a><span data-ttu-id="d0972-131">Setja skal upp lyklageymslu til að geyma URI geymslureiknings</span><span class="sxs-lookup"><span data-stu-id="d0972-131">Set up the key vault to store the storage account URI</span></span>
 
-1. <span data-ttu-id="4634d-132">Opnið lyklageymsluna sem ætlunin er að nota með viðbót rafrænnar reikningsfærslu.</span><span class="sxs-lookup"><span data-stu-id="4634d-132">Open the key vault that you intend to use with the Electronic invoicing add-on.</span></span>
-2. <span data-ttu-id="4634d-133">Farið í **Stillingar** \> **Leynilyklar** og veljið síðan **Búa til/Flytja inn** til að stofna nýjan leynilykil.</span><span class="sxs-lookup"><span data-stu-id="4634d-133">Go to **Settings** \> **Secrets**, and then select **Generate/Import** to create a new secret.</span></span>
-3. <span data-ttu-id="4634d-134">Á síðunni **Stofna leynilykil**, í reitnum **Valkostir upphleðslu**, skal velja **Handvirkt**.</span><span class="sxs-lookup"><span data-stu-id="4634d-134">On the **Create a secret** page, in the **Upload options** field, select **Manual**.</span></span>
-4. <span data-ttu-id="4634d-135">Færið inn heiti leynilykilsins.</span><span class="sxs-lookup"><span data-stu-id="4634d-135">Enter the name of the secret.</span></span> <span data-ttu-id="4634d-136">Þetta heiti verður notað við uppsetningu þjónustunnar í Regulatory Configuration Service (RCS) og verður vísað í það sem *leyniheiti lyklageymslu*.</span><span class="sxs-lookup"><span data-stu-id="4634d-136">This name will be used during setup of the service in Regulatory Configuration Service (RCS) and will be referred to as the *key vault secret name*.</span></span>
-5. <span data-ttu-id="4634d-137">Í reitnum **Gildi** skal velja **URI-undirskrift samnýtts aðgangs** og veljið síðan **Stofna**.</span><span class="sxs-lookup"><span data-stu-id="4634d-137">In the **Value** field, select **Shared Access Signature URI**, and then select **Create**.</span></span>
-6. <span data-ttu-id="4634d-138">Setja upp aðgangsregluna til að veita rafrænu reikningsfærsluviðbótinni rétt öryggisstig aðgangs að leynilyklinum sem var búinn til.</span><span class="sxs-lookup"><span data-stu-id="4634d-138">Set up the access policy to grant the Electronic invoicing add-on the correct level of secure access to the secret you created.</span></span> <span data-ttu-id="4634d-139">Opnið **Stillingar \> Aðgangsregla** og veljið **Bæta við aðgangsreglu**.</span><span class="sxs-lookup"><span data-stu-id="4634d-139">Go to **Settings \> Access policy**, and select **Add Access Policy**.</span></span>
-7. <span data-ttu-id="4634d-140">Stillið aðgangsheimildir leynilykils fyrir aðgerðirnar **Fá** og **Listi**.</span><span class="sxs-lookup"><span data-stu-id="4634d-140">Set the secret permissions for the **Get** and **List** operations.</span></span>
+1. <span data-ttu-id="d0972-132">Opnið lyklageymsluna sem ætlunin er að nota með rafrænni reikningsfærslu.</span><span class="sxs-lookup"><span data-stu-id="d0972-132">Open the key vault that you intend to use with Electronic invoicing.</span></span>
+2. <span data-ttu-id="d0972-133">Farið í **Stillingar** \> **Leynilyklar** og veljið síðan **Búa til/Flytja inn** til að stofna nýjan leynilykil.</span><span class="sxs-lookup"><span data-stu-id="d0972-133">Go to **Settings** \> **Secrets**, and then select **Generate/Import** to create a new secret.</span></span>
+3. <span data-ttu-id="d0972-134">Á síðunni **Stofna leynilykil**, í reitnum **Valkostir upphleðslu**, skal velja **Handvirkt**.</span><span class="sxs-lookup"><span data-stu-id="d0972-134">On the **Create a secret** page, in the **Upload options** field, select **Manual**.</span></span>
+4. <span data-ttu-id="d0972-135">Færið inn heiti leynilykilsins.</span><span class="sxs-lookup"><span data-stu-id="d0972-135">Enter the name of the secret.</span></span> <span data-ttu-id="d0972-136">Þetta heiti verður notað við uppsetningu þjónustunnar í Regulatory Configuration Service (RCS) og verður vísað í það sem *leyniheiti lyklageymslu*.</span><span class="sxs-lookup"><span data-stu-id="d0972-136">This name will be used during setup of the service in Regulatory Configuration Service (RCS) and will be referred to as the *key vault secret name*.</span></span>
+5. <span data-ttu-id="d0972-137">Í reitnum **Gildi** skal velja **URI-undirskrift samnýtts aðgangs** og veljið síðan **Stofna**.</span><span class="sxs-lookup"><span data-stu-id="d0972-137">In the **Value** field, select **Shared Access Signature URI**, and then select **Create**.</span></span>
+6. <span data-ttu-id="d0972-138">Setja upp aðgangsregluna til að veita rafrænu reikningsfærslunni rétt öryggisstig aðgangs að leynilyklinum sem var búinn til.</span><span class="sxs-lookup"><span data-stu-id="d0972-138">Set up the access policy to grant Electronic invoicing the correct level of secure access to the secret you created.</span></span> <span data-ttu-id="d0972-139">Opnið **Stillingar \> Aðgangsregla** og veljið **Bæta við aðgangsreglu**.</span><span class="sxs-lookup"><span data-stu-id="d0972-139">Go to **Settings \> Access policy**, and select **Add Access Policy**.</span></span>
+7. <span data-ttu-id="d0972-140">Stillið aðgangsheimildir leynilykils fyrir aðgerðirnar **Fá** og **Listi**.</span><span class="sxs-lookup"><span data-stu-id="d0972-140">Set the secret permissions for the **Get** and **List** operations.</span></span>
 
     ![Veita aðgang að þjónustu](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
-8. <span data-ttu-id="4634d-142">Stillið heimildir vottorðsins fyrir aðgerðirnar **Fá** og **Listi**.</span><span class="sxs-lookup"><span data-stu-id="4634d-142">Set the certificate permissions for **Get** and **List** operations.</span></span>
+8. <span data-ttu-id="d0972-142">Stillið heimildir vottorðsins fyrir aðgerðirnar **Fá** og **Listi**.</span><span class="sxs-lookup"><span data-stu-id="d0972-142">Set the certificate permissions for **Get** and **List** operations.</span></span>
 
     ![Vottorðsheimildir veittar](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. <span data-ttu-id="4634d-144">Í reitnum **Velja aðalreikning** skal velja **Ekkert valið**.</span><span class="sxs-lookup"><span data-stu-id="4634d-144">In the **Select principal** field, select **None selected**.</span></span>
-10. <span data-ttu-id="4634d-145">Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Þjónusta rafrænnar reikningsfærslu**.</span><span class="sxs-lookup"><span data-stu-id="4634d-145">In the **Principal** dialog box, select the principal by adding **e-Invoicing Service**.</span></span>
-11. <span data-ttu-id="4634d-146">Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.</span><span class="sxs-lookup"><span data-stu-id="4634d-146">Select **Add**, and then select **Save Key Vault changes**.</span></span>
-12. <span data-ttu-id="4634d-147">Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu.</span><span class="sxs-lookup"><span data-stu-id="4634d-147">On the **Overview** page, copy the **DNS name** value for the key vault.</span></span> <span data-ttu-id="4634d-148">Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.</span><span class="sxs-lookup"><span data-stu-id="4634d-148">This value will be used during setup of the service in RCS and will be referred as the *key vault URI*.</span></span>
+9. <span data-ttu-id="d0972-144">Í reitnum **Velja aðalreikning** skal velja **Ekkert valið**.</span><span class="sxs-lookup"><span data-stu-id="d0972-144">In the **Select principal** field, select **None selected**.</span></span>
+10. <span data-ttu-id="d0972-145">Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Þjónusta rafrænnar reikningsfærslu**.</span><span class="sxs-lookup"><span data-stu-id="d0972-145">In the **Principal** dialog box, select the principal by adding **e-Invoicing Service**.</span></span>
+11. <span data-ttu-id="d0972-146">Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.</span><span class="sxs-lookup"><span data-stu-id="d0972-146">Select **Add**, and then select **Save Key Vault changes**.</span></span>
+12. <span data-ttu-id="d0972-147">Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu.</span><span class="sxs-lookup"><span data-stu-id="d0972-147">On the **Overview** page, copy the **DNS name** value for the key vault.</span></span> <span data-ttu-id="d0972-148">Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.</span><span class="sxs-lookup"><span data-stu-id="d0972-148">This value will be used during setup of the service in RCS and will be referred as the *key vault URI*.</span></span>
 
 
 
