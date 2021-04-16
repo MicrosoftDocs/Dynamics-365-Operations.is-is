@@ -2,7 +2,6 @@
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 description: Þetta efnisatriði útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574126"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753841"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -666,19 +665,19 @@ Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð
 
 ![Keyrsluvilla sem kemur upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Sjálfvirk lausn
+### <a name="automatic-resolution&quot;></a>Sjálfvirk lausn
 
 Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
-### <a name="manual-resolution"></a>Handvirk lausn
+### <a name=&quot;manual-resolution&quot;></a>Handvirk lausn
 
-#### <a name="option-1"></a>Valkostur 1
+#### <a name=&quot;option-1&quot;></a>Valkostur 1
 
 Fjarlægið flaggið **Skyndiminni** úr gagnagjafanum **Lánardrottinn**. Gagnagjafinn **FilteredVendor** verður þá keyrsluhæfur, en gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni verður opnaður í hvert skipti sem kallað er á gagnagjafann **FilteredVendor**.
 
-#### <a name="option-2"></a>Valkostur 2
+#### <a name=&quot;option-2&quot;></a>Valkostur 2
 
-Breytið segðinni á gagnagjafa **FilteredVendor** úr `FILTER(Vendor, Vendor.AccountNum="US-101")` í `WHERE(Vendor, Vendor.AccountNum="US-101")`. Í þessu tilviki verður gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni aðeins opnaður við fyrsta kall í gagnagjafann **Lánardrottinn**. Hins vegar fer val færslna fram í minninu. Þess vegna getur þessi nálgun valdið slökum afköstum.
+Breytið segðinni á gagnagjafa **FilteredVendor** úr `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` í `WHERE(Vendor, Vendor.AccountNum="US-101")`. Í þessu tilviki verður gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni aðeins opnaður við fyrsta kall í gagnagjafann **Lánardrottinn**. Hins vegar fer val færslna fram í minninu. Þess vegna getur þessi nálgun valdið slökum afköstum.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Bindingu vantar
 

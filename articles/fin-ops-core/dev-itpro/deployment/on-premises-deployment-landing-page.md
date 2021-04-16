@@ -2,8 +2,7 @@
 title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564061"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749306"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -38,14 +37,16 @@ ms.locfileid: "5564061"
 
 ## <a name="onboard"></a>Ráðningar
 - [Setja upp verk á staðnum í Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 12 og nýrri)](setup-deploy-on-premises-pu12.md)
+- [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 41 og nýrri)](setup-deploy-on-premises-pu41.md)
+- [Setja upp og virkja umhverfi á staðnum í (verkvangsuppfærsla 12 til 40)](setup-deploy-on-premises-pu12.md)
 - [Setja upp nettengda prentara á staðnum](../analytics/install-network-printer-onprem.md)
 - [Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu](../analytics/configure-ssrs-on-premises.md)
-- [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](develop-deploy-custom-models-on-premises.md)
+- [Þróa og virkja sérstillt líkön í innanhússumhverfi](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Vinna í virkjun á staðnum
+- [Skilgreina mikinn tiltækileika fyrir SQL Server Reporting Services (SSRS) hnúta](onprem-SSRSHA.md)
 - [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md)
-- [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Innflutningur skilgreininga fyrir rafræna skýrslugerð](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum](../analytics/printing-capabilities-on-premises.md)
 - [Skilgreina staðgengla fyrir innanhússumhverfi](onprem-reverseproxy.md)
 - [Setja upp tæknilegan stuðning fyrir forrit Finance and Operations](../lifecycle-services/support-experience.md)

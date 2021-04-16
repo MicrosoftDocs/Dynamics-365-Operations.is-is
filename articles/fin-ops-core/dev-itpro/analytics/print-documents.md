@@ -1,8 +1,7 @@
 ---
 title: Yfirlit skjalaprentunar
 description: Hægt er að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
-author: TJVass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +11,15 @@ ms.reviewer: kfend
 ms.custom: 69161
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c349e50826aa577ce6a3b8a68676d549f7fed1b1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4d41e299f0076e1016e8ddae8584bfec338a73a9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564406"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749394"
 ---
 # <a name="document-printing-overview"></a>Yfirlit skjalaprentunar
 

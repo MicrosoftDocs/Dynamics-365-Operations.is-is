@@ -1,8 +1,7 @@
 ---
 title: Viðvörunarreglur stofnaðar
-description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
-author: tjvass
-manager: AnnBe
+description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,17 +10,17 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559409"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749198"
 ---
-# <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
+# <a name="create-alert-rules"></a>Stofna viðvörunarreglur
 
 [!include [banner](../includes/banner.md)]
 

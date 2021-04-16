@@ -2,7 +2,6 @@
 title: Skilgreining og síun vinnusvæða
 description: Þessi þekkingarskrá gefur yfirlit um hvernig á til að skilgreina og sía vinnusvæði.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4f587608b03512aabce1d9b76ec4b9d6ec9227b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559433"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744028"
 ---
 # <a name="configure-and-filter-workspaces"></a>Skilgreining og síun vinnusvæða
 
@@ -55,9 +54,9 @@ Hægt er að sía allt vinnusvæðið með því að nota síu á allt vinnusvæ
 
 Veljið valkost til að sía vinnusvæðis byggt á valkostinn.
 
-### <a name="workspace-section-filters"></a>Síur fyrir vinnusvæðishluta
+### <a name="workspace-section-filters&quot;></a>Síur fyrir vinnusvæðishluta
 
-Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hluta sérstaklega. Í eftirfarandi skýringarmynd er sía (svæðið sem inniheldur texta "Sía") dæmi um reitarsíu með frjálsum texta.
+Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hluta sérstaklega. Í eftirfarandi skýringarmynd er sía (svæðið sem inniheldur texta &quot;Sía") dæmi um reitarsíu með frjálsum texta.
 
 [![vinnusvæði-hluti-síur](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 

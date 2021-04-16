@@ -2,7 +2,6 @@
 title: Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
 description: Í þessu efnisatriði er útskýrt hvernig á að breyta rafrænu skýrslugerðarsniði frá Microsoft svo það búi til sérsniðið rafrænt skjal.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c643c913d9bc9233c891709593dff995284e2e5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568998"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743654"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
 

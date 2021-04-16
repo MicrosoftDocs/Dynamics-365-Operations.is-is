@@ -2,7 +2,6 @@
 title: Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýjar eða breyttar í Microsoft Dynamics AX umsókn útgáfu 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7da0eba072aba08b4da655cf680af9282278f34f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f1d0361da03f2fc4aaaa749d632192265483db2d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564676"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752823"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
 

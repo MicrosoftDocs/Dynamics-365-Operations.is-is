@@ -2,7 +2,6 @@
 title: Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 description: Þetta efnisatriði sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 – öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa9910ec65899926a57b974f7e9a3f1f2becc5d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0c97b0bb3f18408cb4defe0a7aa52a5a5a08ce04
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566529"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749779"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 

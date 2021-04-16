@@ -2,7 +2,6 @@
 title: Samanburður á skýi og eiginleikum á staðnum
 description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566637"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744052"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
@@ -43,9 +42,9 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 |---------------------|-----------------------------|-----------|-----------------|
 | Samræmi og Vottun        |                                                                                           | Já       | Já             |
 |                                      | SOC 1 gerð 1 vottun                                                                | Já       | Nr              |
-| Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             
+| Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             |
 |                                      | Flytja út gögn í eigin gagnavöruhús                                                    | Já       | Já             |
-|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já              |
+|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já             |
 |                                      | Gagnasamþættingar                                                                         | Já       | Já             |
 | Skjalastjórnun                  |                                                                                           | Já       | Já             |
 | Fjármálastjórnun                 |                                                                                           | Já       | Já             |
@@ -62,8 +61,8 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 |                                      | Greiningarvinnusvæði                                                                     | Já       | Ekkert              |
 |                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Ekkert              |
 |                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Ekkert              |
-|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Nr              |
-|                                      | Telemetry er flutt í skýið                                                   | Já       | Nr              |
+|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Já             |
+|                                      | Telemetry er flutt í skýið                                                   | Já       | Ekkert              |
 | Lifecycle Services                   |                                                                                           | Já       | Já             |
 |                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Nr              |
 | Staðfæringar                        |                                                                                           | Já       | Já             |
@@ -85,7 +84,7 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 
 | **Svæði**                | **Eiginleiki**             | **Ský** | **Innanhúss** |
 |-------------------------|-------------------|-----------|-----------------|
-| Eignastýring                     |                                                                                           | Já       | Ekkert |
+| Eignastýring                     |                                                                                           | Já       | Ekkert              |
 | Samræmi og Vottun        |                                                                                           | Já       | Já             |
 |                                      | SOC 1 gerð 1 vottun                                                                | Já       | Ekkert              |
 | Kostnaðarbókhald                      |                                                                                           | Já       | Já             |
@@ -96,7 +95,7 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 | Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             |
 |                                      | Skilgreiningastýrð viðbót                                                            | Já       | Númer              |
 |                                      | Flytja út gögn í eigin gagnavöruhús                                                    | Já       | Já             |
-|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já              |
+|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já             |
 |                                      | Gagnasamþættingar                                                                         | Já       | Já             |
 | Skjalastjórnun                  |                                                                                           | Já       | Já             |
 | Hjálp                                 |                                                                                           | Já       | Nr              |
@@ -111,8 +110,8 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 |                                      | Greiningarvinnusvæði                                                                     | Já       | Ekkert              |
 |                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Ekkert              |
 |                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Ekkert              |
-|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Númer              |
-|                                      | Telemetry er flutt í skýið                                                   | Já       | Númer              |
+|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Já             |
+|                                      | Telemetry er flutt í skýið                                                   | Já       | Ekkert              |
 | Birgðir                 |                                                                                           | Já       | Já             |
 | Lifecycle Services                   |                                                                                           | Já       | Já             |
 |                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Númer              |

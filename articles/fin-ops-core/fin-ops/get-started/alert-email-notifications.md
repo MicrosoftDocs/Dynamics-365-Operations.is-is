@@ -1,8 +1,7 @@
 ---
 title: Viðvörunartilkynning biðlara með tölvupósti
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að setja upp reglur sem senda tilkynningar í tölvupósti þegar fyrirfram skilgreindir viðburðir eiga sér stað.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -11,15 +10,15 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: fe422d645c8f2c0c564af30624090828e10ea4bf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567253"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752915"
 ---
 # <a name="client-alert-notifications-by-email"></a>Viðvörunartilkynningar biðlara með tölvupósti
 

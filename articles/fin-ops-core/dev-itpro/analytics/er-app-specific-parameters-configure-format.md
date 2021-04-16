@@ -2,8 +2,7 @@
 title: Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 description: Þetta efni útskýrir hvernig þú getur stillt ER-snið fyrir rafræna skýrslugerð til að nota færibreytur sem eru tilgreindar á lögaðila.
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9253191f9cd10e0b3c87d61991598f9b791c35d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570735"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751179"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 
@@ -48,14 +47,14 @@ Við mælum með að þú klárir skrefin í efninu [Stuðningur við færibreyt
 
 ## <a name="import-er-configurations-into-rcs"></a>Flytja inn skilgreiningar inn í RCS
 
-Úr [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=851448) sækirðu þjappaða skrána **Stuðningur við færibreytur kallar á ER gagnagjafa af gerðinni REIKNAÐUR REITUR**. Þessi þjappaða skrá inniheldur eftirfarandi ER-skilgreiningar sem verður að draga út og geyma á staðnum.
+Einnig verður að sækja og geyma staðbundið eftirfarandi skilgreiningar fyrir rafræna skýrslugerð.
 
 | **Lýsing á efni**                        | **Skrárnafn**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| Sýnishorn af skilgreiningarskránni **ER-gagnalíkan**    | Líkan til að læra breytur á calls.version.1.xml     |
-| Sýnishorn af skilgreiningarskrá **ER-lýsigagna**      | Lýsigögn til að læra breytur á calls.version.1.xml  |
-| Sýnishorn af skilgreiningu **ER-líkanavörpunar** | Vörpun til að læra breytur á calls.version.1.1.xml |
-| Sýnishorn af skilgreiningu **ER-sniðmáts**             | Snimát til að læra breytur á calls.version.1.1.xml  |
+| Sýnishorn af skilgreiningarskránni **ER-gagnalíkan**    | [Líkan til að læra breytur á calls.version.1.xml](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| Sýnishorn af skilgreiningarskrá **ER-lýsigagna**      | [Lýsigögn til að læra breytur á calls.version.1.xml](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Sýnishorn af skilgreiningu **ER-líkanavörpunar** | [Vörpun til að læra breytur á calls.version.1.1.xml](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Sýnishorn af skilgreiningu **ER-sniðmáts**             | [Snimát til að læra breytur á calls.version.1.1.xml](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 Næst skráðirðu þig inn á RCS tilvikið.
 
@@ -79,17 +78,17 @@ Næst skráðirðu þig inn á RCS tilvikið.
 
     ER-sniðmátið **Snið til að læra færibreytur á köll** er hannað til að búa til skattayfirlit á XML sniði sem sýnir nokkur stig skattheimtu (venjuleg, lækkuð og engin). Hvert stig hefur mismunandi fjölda smáatriða.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Mörg stig af sniði rafrænnar skýrslugerðar, snið til að læra færibreytusímtöl](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Á flipanum **Vörpun** stækkarðu liðina **Líkan**, **Gögn** og **Yfirlit**.
 
     Gagnagjafinn **Model.Data.Summary** skilar lista yfir skattfærslur. Þessar færslur eru teknar saman eftir skattkóðum. Fyrir þessa gagnaheimild hefur reiknaði reiturinn **Model.Data.Summary.Level** verið stilltur til að skila kóðanum fyrir skattlagningarstig hverrar samandreginnar skráar. Fyrir alla skattakóða sem hægt er að sækja úr gagnagjafanum **Model.Data.Summary** á keyrslutíma skilar reiknaði reiturinn skattlagningarstigskóðanum (**Regluleg**, **Lækkuð**, **Engin** eða **Annað**) sem textagildi. Reiknaði reiturinn **Model.Data.Summary.Level** er notaður til að sía skrár úr gagnagjafanum **Model.Data.Summary** og slá inn síuð gögn í hvern XML-þátt sem táknar skattlagningarstig með því að nota reitina **Model.Data2.Level1**, **Model.Data2.Level2** og **Model.Data2.Level3**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![Model.Data.Summary listi gagnaveitu skattfærsla](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Reiknaði reiturinn **Model.Data.Summary.Level** hefur verið stilltur þannig að hann inniheldur ER-segð. Athugaðu að skattakóðar (**VSK19**, **InVAT19**, **VSK7**, **InVAT7**, **THIRD** og **InVAT0**) eru harðkóðaðar í þessa stillingu. Þess vegna er þetta ER snið háð lögaðilanum þar sem þessir skattakóðar voru stilltir.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Model.Data.Summary.Level útreiknaður reitur með harðkóðuðum skattkóðum](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Til að styðja við annað sett af skatt kóða fyrir hvern lögaðila verður þú að fylgja þessum skrefum:
 
@@ -129,7 +128,7 @@ Næst bætirðu við nýrri upptalningu á ER sniði. Gildi þessarar sniðuppta
 12. Veldu aftur **Bæta við**.
 13. Í reitinn **Heiti** skal færa inn **Annað**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Ný færsla á síðunni tölusetningar sniðs](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Vegna þess að notendur fyrirtækja gætu notað mismunandi tungumál til að tilgreina skattalög sem eru háð lögaðilum, mælum við með að þú þýðir gildi þessarar talningar yfir á tungumálin sem eru stillt sem ákjósanleg tungumál fyrir þá notendur í Finance.
 
@@ -142,7 +141,7 @@ Næst bætirðu við nýrri upptalningu á ER sniði. Gildi þessarar sniðuppta
 20. Í reitinn **Þýddur texti** skal færa inn **keine Besteuerung**.
 21. Veldu **Þýða**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Textaþýðingar renna út](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Veljið **Vista**.
 23. Lokaðu síðunni **Tölusetningar sniða**.
@@ -169,13 +168,13 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 10. Veldu liðinn **Model.Data.Tax.Code**.
 11. Veldu hnappinn **Bæta við** (hægri örin).
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Dálkar renna út](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Þú varst að tilgreina að fyrir hverja reglu sem er tilgreind í þessum gagnagjafa fyrir viðurkenningu á skattaþrepum, verður viðskiptanotandi að velja einn af skattakóðunum sem skilyrði. Listinn yfir skattakóða sem viðskiptanotandinn getur valið verður skilað af gagnagjafanum **Model.Data.Tax**. Vegna þess að þessi gagnaheimild inniheldur reitinn **Heiti** verður heiti skattakóðans sýnt fyrir hvert skattakóðagildi í uppflettingu sem er kynnt viðskiptanotanda.
     
 12. Veljið **Í lagi**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Hönnunarsíða leitar](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Notendur fyrirtækja geta bætt við mörgum reglum sem skrám yfir þessa gagnaheimild. Hver skrá verður tölusett með línukóða. Reglur verða metnar til að auka línufjölda.
 
@@ -189,13 +188,13 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 
     Taktu eftir að þú bætir við nýjum gagnagjafa sem skilar skattstigi sem gildi sniðatölusetningarinnar **Listi yfir skattastig** fyrir alla skattakóða sem er sendur til gagnaheimildarinnar sem frumgildi fyrir færibreytuna **Kóði** af gagnagerðinni **Strengur**.
     
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Sniðshönnuðarsíða með nýrri gagnaveitu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Athugaðu að mat á stilltum reglum veltur á gagnagerð reitanna sem hafa verið valdir til að skilgreina skilyrði þessara reglna. Þegar þú velur reit sem er stilltur sem reitur af annaðhvort gagnagerðinni **Tölulegt** eða **Dagsetning** munu viðmiðin verða frábrugðin viðmiðunum sem lýst var áðan fyrir gagnagerðina **Strengur**. Fyrir reitina **Tölulegt** og **Dagsetning** verður að tilgreina regluna sem gildissvið. Skilyrði reglunnar verður síðan talið fullnægt þegar gildi sem er sent til gagnagjafans er á skilgreindu sviðinu.
     
     Eftirfarandi skýringarmynd sýnir dæmi um þessa gerð uppsetningar. Í viðbót við reitinn **Model.Data.Tax.Code** í gagnagerðinni **Strengur** er reiturinn **Model.Tax.Summary.Base** í gagnagerðinni **Rauntími** notaður til að tilgreina skilyrði fyrir uppflettingu gagnagjafa.
     
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Hönnunarsíða leitar með viðbótardálkum](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Þar sem reitirnir **Model.Data.Tax.Code** og **Model.Tax.Summary.Base** eru valdir fyrir þennan uppflettingargagnagjafa verður sérhver regla þessa gagnagjafa stillt á eftirfarandi hátt:
     
@@ -224,7 +223,7 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 9.  Veldu **Þýða**.
 10. Veljið **Í lagi**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Eiginleiki gagnagjafa, renna út](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Bættu við nýjum reit til að nota stillta uppflettingu
 
@@ -237,12 +236,12 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 7.  Í reitinn **Formúla** slærðu inn **Model.Selector (Model.Data.Summary.Code)**.
 8.  Veljið **Vista**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Adding Model.Selector(Model.Data.Summary.Code) á síðu Formúluhönnuðarins](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Lokið síðunni **Formúluritill**.
 10. Veljið **Í lagi**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Sniðshönnuður með nýrri viðbættri formúlu](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Athugaðu að reiknaði reiturinn **LevelByLookup** sem þú bættir við mun skila skattastiginu sem gildi sniðaupptalningarinnar **Listi yfir skattastig** fyrir hverja samantekna skrá skattafærslna. Skattakóði skrárinnar verður sendur til uppflettigagnagjafans **Model.Selector** og reglurnar fyrir þennan gagnagjafa verða notaðar til að velja rétt skattlagningarstig.
 
@@ -282,14 +281,14 @@ Næst verður þú að breyta fyrirliggjandi reiknuðum reit þannig að hann no
 
 ## <a name="complete-the-draft-version-of-a-derived-format"></a>Ljúktu uppkastsútgáfu af afleiddu sniði
 
-1.  Á flýtflipanum **Útgáfur** velurðu **Breyta stöðu**.
+1.  Á flýtiflipanum **Útgáfur** skal velja **Breyta stöðu**.
 2.  Velja **Lokið**.
 3.  Veljið **Í lagi**.
 
 ## <a name="export-completed-version-of-modified-format"></a>Flyttu út fullkláraða útgáfu af breyttu sniði
 
 1.  Í stillingatrénu sniðmátið velurðu liðinn **Snið til að læra hvernig eigi að fletta upp LE-gögnum**.
-2.  Á flýtiflipanum **Útgáfur** velurðu skrána sem hefur stöðuna **Lokið**.
+2.  Í flýtiflipanum **Útgáfur** skal velja færsluna sem er með stöðuna **Lokið**.
 3.  Veldu **Gengi**.
 4.  Veldu **Flytja út sem XML-skrá**.
 5.  Veljið **Í lagi**.

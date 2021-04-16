@@ -2,7 +2,6 @@
 title: Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 description: Í þessu efnisatriði er útskýrt hvernig á að vinna með skilgreiningu rafræns skýrslugerðarsniðs.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 336551f4e9858269010ec7debd1750a8d8453163
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 05f8562bcab50a303b58174d177c6058f9417294
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564243"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744940"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 

@@ -2,8 +2,7 @@
 title: SPLITLIST ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin SPLITLIST í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559139"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745570"
 ---
 # <a name="splitlist-er-function"></a>SPLITLIST ER-aðgerð
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559139"
 
 Aðgerðin `SPLITLIST` skiptir tilgreindum lista niður í undirlista (eða runur) sem hver inniheldur tilgreindan fjölda skráa. Hún skilar síðan niðurstöðunni sem nýju *Skráalista*-gildi sem samanstendur af rununum.
 
-## <a name="syntax"></a>Málskipun
+## <a name="syntax-1"></a>Málskipun 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Málskipun 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Frumbreytur
@@ -45,9 +50,13 @@ Gild slóð í gagnagjafa af gagnagerðinni *Skráalisti*.
 
 Hámarksfjöldi skráa í hverri runu.
 
+`on-demand reading flag`: *Boole-gildi*
+
+*Boolean*-gildi tilgreinir hvort mynda eigi til einingar undirlista eftir þörfum.
+
 ## <a name="return-values"></a>Skilagildi
 
-*Skráalisti*
+*Færslulisti*
 
 Sá listi yfir skrár sem er búinn til.
 
@@ -62,6 +71,8 @@ Listi yfir runur sem er skilað inniheldur eftirfarandi þætti:
 - **BatchNumber:** *Heiltala*
 
     Númer gildandi runu í skiluðum lista.
+
+Þegar lestrarflagg eftir þörfum er stillt á **Satt** eru undirlistar búnir til eftir beiðni sem gerir notendum kleift að minnka minnisnotkun en sem getur haft áhrif á afköst ef einingar eru ekki notaðar í röð.
 
 ## <a name="example"></a>Dæmi
 
