@@ -2,7 +2,6 @@
 title: CONVERTCURRENCY ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin CONVERTCURRENCY í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,60 +15,60 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f0d5bace9b62cf6f0d7576744a6cc271666bf73
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb8f7f28f5a9bb27402544efcffa6393238e38d8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567641"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744368"
 ---
-# <a name="convertcurrency-er-function"></a><span data-ttu-id="d6ac1-103">CONVERTCURRENCY ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="d6ac1-103">CONVERTCURRENCY ER function</span></span>
+# <a name="convertcurrency-er-function"></a><span data-ttu-id="9946b-103">CONVERTCURRENCY ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="9946b-103">CONVERTCURRENCY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d6ac1-104">Aðgerðin `CONVERTCURRENCY` skilar *raungildi* sem sýnir niðurstöður umreiknings á tilgreindri peningaupphæð frá tilgreindum upprunagjaldmiðli til tilgreinds markgjaldmiðils með því að nota stillingar tilgreinds fyrirtækis á tilteknum degi.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-104">The `CONVERTCURRENCY` function returns a *Real* value that represents the result of converting the specified monetary amount from the specified source currency to the specified target currency by using the settings of the specified company on the specified date.</span></span>
+<span data-ttu-id="9946b-104">Aðgerðin `CONVERTCURRENCY` skilar *raungildi* sem sýnir niðurstöður umreiknings á tilgreindri peningaupphæð frá tilgreindum upprunagjaldmiðli til tilgreinds markgjaldmiðils með því að nota stillingar tilgreinds fyrirtækis á tilteknum degi.</span><span class="sxs-lookup"><span data-stu-id="9946b-104">The `CONVERTCURRENCY` function returns a *Real* value that represents the result of converting the specified monetary amount from the specified source currency to the specified target currency by using the settings of the specified company on the specified date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d6ac1-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="d6ac1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9946b-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="9946b-105">Syntax</span></span>
 
 ```vb
 CONVERTCURRENCY (amount, source currency, target currency, date, company)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d6ac1-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="d6ac1-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="9946b-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="9946b-106">Arguments</span></span>
 
-<span data-ttu-id="d6ac1-107">`amount`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-107">`amount`: *Integer* or *Real*</span></span>
+<span data-ttu-id="9946b-107">`amount`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="9946b-107">`amount`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="d6ac1-108">Tölugildi sem táknar peningaupphæðina sem þarf að breyta.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-108">A numeric value that represents the monetary amount that must be converted.</span></span>
+<span data-ttu-id="9946b-108">Tölugildi sem táknar peningaupphæðina sem þarf að breyta.</span><span class="sxs-lookup"><span data-stu-id="9946b-108">A numeric value that represents the monetary amount that must be converted.</span></span>
 
-<span data-ttu-id="d6ac1-109">`source currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-109">`source currency`: *String*</span></span>
+<span data-ttu-id="9946b-109">`source currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="9946b-109">`source currency`: *String*</span></span>
 
-<span data-ttu-id="d6ac1-110">Kóði upprunagjaldmiðils.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-110">The code of the source currency.</span></span>
+<span data-ttu-id="9946b-110">Kóði upprunagjaldmiðils.</span><span class="sxs-lookup"><span data-stu-id="9946b-110">The code of the source currency.</span></span>
 
-<span data-ttu-id="d6ac1-111">`target currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-111">`target currency`: *String*</span></span>
+<span data-ttu-id="9946b-111">`target currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="9946b-111">`target currency`: *String*</span></span>
 
-<span data-ttu-id="d6ac1-112">Kóði markgjaldmiðils.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-112">The code of the target currency.</span></span>
+<span data-ttu-id="9946b-112">Kóði markgjaldmiðils.</span><span class="sxs-lookup"><span data-stu-id="9946b-112">The code of the target currency.</span></span>
 
-<span data-ttu-id="d6ac1-113">`date`: *Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-113">`date`: *Date*</span></span>
+<span data-ttu-id="9946b-113">`date`: *Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="9946b-113">`date`: *Date*</span></span>
 
-<span data-ttu-id="d6ac1-114">Gildið *Dagsetning* sem táknar dagsetninguna sem er notuð til að ákvarða gengi viðskipta.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-114">A *Date* value that represents the date that is used to determine the exchange rate for the conversion.</span></span>
+<span data-ttu-id="9946b-114">Gildið *Dagsetning* sem táknar dagsetninguna sem er notuð til að ákvarða gengi viðskipta.</span><span class="sxs-lookup"><span data-stu-id="9946b-114">A *Date* value that represents the date that is used to determine the exchange rate for the conversion.</span></span>
 
-<span data-ttu-id="d6ac1-115">`company`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-115">`company`: *String*</span></span>
+<span data-ttu-id="9946b-115">`company`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="9946b-115">`company`: *String*</span></span>
 
-<span data-ttu-id="d6ac1-116">Gildið *Strengur* sem táknar kóða fyrirtækisins sem veitir stillingarnar sem notaðar eru við umreikninginn.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-116">A *String* value that represents the code of a company that supplies the settings that are used for the conversion.</span></span>
+<span data-ttu-id="9946b-116">Gildið *Strengur* sem táknar kóða fyrirtækisins sem veitir stillingarnar sem notaðar eru við umreikninginn.</span><span class="sxs-lookup"><span data-stu-id="9946b-116">A *String* value that represents the code of a company that supplies the settings that are used for the conversion.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d6ac1-117">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="d6ac1-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9946b-117">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="9946b-117">Return values</span></span>
 
-<span data-ttu-id="d6ac1-118">*Rauntala*</span><span class="sxs-lookup"><span data-stu-id="d6ac1-118">*Real*</span></span>
+<span data-ttu-id="9946b-118">*Rauntala*</span><span class="sxs-lookup"><span data-stu-id="9946b-118">*Real*</span></span>
 
-<span data-ttu-id="d6ac1-119">Tölugildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-119">The resulting numeric value.</span></span>
+<span data-ttu-id="9946b-119">Tölugildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="9946b-119">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d6ac1-120">Dæmi</span><span class="sxs-lookup"><span data-stu-id="d6ac1-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9946b-120">Dæmi</span><span class="sxs-lookup"><span data-stu-id="9946b-120">Example</span></span>
 
-<span data-ttu-id="d6ac1-121">`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` skilar jafngildi einni evru í Bandarískum dollurum á dagsetningu núverandi setu, byggða á stillingum **DEMF**-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="d6ac1-121">`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` returns the equivalent of one euro in US dollars on the current session date, based on settings for the **DEMF** company.</span></span>
+<span data-ttu-id="9946b-121">`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` skilar jafngildi einni evru í Bandarískum dollurum á dagsetningu núverandi setu, byggða á stillingum **DEMF**-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="9946b-121">`CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")` returns the equivalent of one euro in US dollars on the current session date, based on settings for the **DEMF** company.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d6ac1-122">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="d6ac1-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9946b-122">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="9946b-122">Additional resources</span></span>
 
-[<span data-ttu-id="d6ac1-123">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="d6ac1-123">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="9946b-123">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="9946b-123">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

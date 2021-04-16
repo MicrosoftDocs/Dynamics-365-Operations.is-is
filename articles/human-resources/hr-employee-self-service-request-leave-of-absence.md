@@ -2,11 +2,9 @@
 title: Beiðni um fjarvist
 description: Senda inn beiðni um fjarvistarleyfi.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveofAbsenceRequestEntry, EssWorkspace
 audience: Application User
@@ -18,43 +16,43 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f5880391115f683b4148886aa09e1095b521f9
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 7c774deffb58e53bab4ea32195e02baba8854d6f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463479"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790717"
 ---
-# <a name="request-a-leave-of-absence"></a><span data-ttu-id="92744-103">Beiðni um fjarvist</span><span class="sxs-lookup"><span data-stu-id="92744-103">Request a leave of absence</span></span>
+# <a name="request-a-leave-of-absence"></a><span data-ttu-id="a7ebd-103">Beiðni um fjarvist</span><span class="sxs-lookup"><span data-stu-id="a7ebd-103">Request a leave of absence</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="92744-104">Hægt er að senda inn beiðni um fjarvist og sjá stöðu leyfisbeiðna í Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="92744-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="a7ebd-104">Hægt er að senda inn beiðni um fjarvist og sjá stöðu leyfisbeiðna í Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
 
-## <a name="request-a-leave-of-absence"></a><span data-ttu-id="92744-105">Beiðni um fjarvist</span><span class="sxs-lookup"><span data-stu-id="92744-105">Request a leave of absence</span></span>
+## <a name="request-a-leave-of-absence"></a><span data-ttu-id="a7ebd-105">Beiðni um fjarvist</span><span class="sxs-lookup"><span data-stu-id="a7ebd-105">Request a leave of absence</span></span>
 
-1. <span data-ttu-id="92744-106">Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.</span><span class="sxs-lookup"><span data-stu-id="92744-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="a7ebd-106">Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="92744-107">Til að senda inn beiðni um fjarvist skal velja **Beiðni um fjarvist**.</span><span class="sxs-lookup"><span data-stu-id="92744-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
+2. <span data-ttu-id="a7ebd-107">Til að senda inn beiðni um fjarvist skal velja **Beiðni um fjarvist**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
 
-3. <span data-ttu-id="92744-108">Færa skal inn upplýsingar fyrir **Leyfisgerð**, **Upphafsdagsetning** og **Lokadagsetning**.</span><span class="sxs-lookup"><span data-stu-id="92744-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
+3. <span data-ttu-id="a7ebd-108">Færa skal inn upplýsingar fyrir **Leyfisgerð**, **Upphafsdagsetning** og **Lokadagsetning**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
 
-4. <span data-ttu-id="92744-109">Ef þú þarft að leggja fram nein fylgigögn skaltu velja **Hlaða inn** undir **Viðhengi**.</span><span class="sxs-lookup"><span data-stu-id="92744-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
+4. <span data-ttu-id="a7ebd-109">Ef þú þarft að leggja fram nein fylgigögn skaltu velja **Hlaða inn** undir **Viðhengi**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
 
-5. <span data-ttu-id="92744-110">Sláðu inn upplýsingar í **Athugasemd**, ef þess er þörf.</span><span class="sxs-lookup"><span data-stu-id="92744-110">Enter information in **Comment**, if needed.</span></span>
+5. <span data-ttu-id="a7ebd-110">Sláðu inn upplýsingar í **Athugasemd**, ef þess er þörf.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-110">Enter information in **Comment**, if needed.</span></span>
 
-6. <span data-ttu-id="92744-111">Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína.</span><span class="sxs-lookup"><span data-stu-id="92744-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="92744-112">Annars skaltu velja **Vista uppkast**.</span><span class="sxs-lookup"><span data-stu-id="92744-112">Otherwise, select **Save draft**.</span></span>
+6. <span data-ttu-id="a7ebd-111">Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="a7ebd-112">Annars skaltu velja **Vista uppkast**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-112">Otherwise, select **Save draft**.</span></span>
 
 
-## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="92744-113">Skoða stöðu fjarvistabeiðna</span><span class="sxs-lookup"><span data-stu-id="92744-113">View leave of absence request status</span></span>
+## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="a7ebd-113">Skoða stöðu fjarvistabeiðna</span><span class="sxs-lookup"><span data-stu-id="a7ebd-113">View leave of absence request status</span></span>
 
-1. <span data-ttu-id="92744-114">Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.</span><span class="sxs-lookup"><span data-stu-id="92744-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="a7ebd-114">Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="92744-115">Til að skoða beiðnir um fjarvist skal velja **Skoða fjarvistir**.</span><span class="sxs-lookup"><span data-stu-id="92744-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
+2. <span data-ttu-id="a7ebd-115">Til að skoða beiðnir um fjarvist skal velja **Skoða fjarvistir**.</span><span class="sxs-lookup"><span data-stu-id="a7ebd-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="92744-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="92744-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7ebd-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="a7ebd-116">See also</span></span>
 
-[<span data-ttu-id="92744-117">Fresta leyfi</span><span class="sxs-lookup"><span data-stu-id="92744-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
+[<span data-ttu-id="a7ebd-117">Fresta leyfi</span><span class="sxs-lookup"><span data-stu-id="a7ebd-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
