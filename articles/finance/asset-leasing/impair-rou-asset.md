@@ -2,11 +2,9 @@
 title: Draga úr afnotarétti af eignum
 description: Þetta efnisatriði lýsir virkninni sem skráir vi og leiðréttir afskriftaráætlun eigna fyrir efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) rekstrarleigusamninga.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b648075a681fb01720149aac4f479dccf963489
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5d30812e77473a5bd2f4134496b237be81cc6c2c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841166"
 ---
 # <a name="impair-right-of-use-assets"></a>Draga úr afnotarétti af eignum
 

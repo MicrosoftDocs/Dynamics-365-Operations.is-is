@@ -2,11 +2,9 @@
 title: Yfirlit yfir SEPA-kreditfærslur
 description: Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227401"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830737"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
 

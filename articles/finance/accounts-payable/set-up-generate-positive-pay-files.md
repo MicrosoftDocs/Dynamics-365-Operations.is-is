@@ -2,11 +2,9 @@
 title: Uppsetning og myndun jákvæðra greiðsluskráa launa
 description: Þetta efnisatriði útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227377"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830713"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Uppsetning og myndun jákvæðra greiðsluskráa launa
 
@@ -140,6 +138,9 @@ Jákvæð greiðsluskrár eru stofnaðar með því að nota gagnaeiningar. Áð
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> XML-nöfn í XSLT verða að samsvara hnútum í XML. Bæði XSLT-og XML-skrárnar gera greinarmun á há- og lágstöfum. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Úthluta jákvæðum greiðslusniðum á bankareikning
 Fyrir hvern bankareikning sem á að mynda upplýsingar um jákvæða greiðslu til, verður að úthluta jákvæða greiðslusniðinu sem tilgreint var í fyrra ferli. Á síðunni **Bankareikningar**, veljið jákvæða greiðslusniðið sem samsvarar bankareikningnum. Í svæðinu **Upphafsdagur jákvæðrar greiðslu** þarf að færa inn fyrstu dagsetningu til að mynda jákvæðar greiðsluskrár. Það er mikilvægt að dagsetning sé slegin inn í þetta svæði. Annars mun fyrsta jákvæða greiðsluskrá sem mynduð er innihalda allar ávísanir sem hafa verið stofnaðar fyrir þennan bankareikning.

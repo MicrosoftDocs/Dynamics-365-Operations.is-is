@@ -2,11 +2,9 @@
 title: Nota samþykktarverkflæði leigusamnings
 description: Þetta efnisatriði útskýrir hvernig á að nota verkflæði til að samþykkja eignaleigur og hvernig á að rekja stöðu og feril verkflæðanna.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f19cb0be14ba784cc4c3d189f4d2b5b00426e1b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2f9fc8e337206111b0f2ac1cca87131abe7f283c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249558"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827531"
 ---
 # <a name="use-lease-approval-workflows"></a>Nota samþykktarverkflæði leigusamnings
 

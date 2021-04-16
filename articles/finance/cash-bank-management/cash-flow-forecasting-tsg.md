@@ -2,11 +2,9 @@
 title: Úrræðaleit vegna uppsetningar sjóðstreymisspár
 description: Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina sjóðstreymisspár. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232490"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827315"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Úrræðaleit vegna uppsetningar sjóðstreymisspár
 
@@ -47,11 +45,19 @@ Ljúka þarf nokkrum skrefum áður en sjóðstreymisspár geta birst í Power B
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Hvers vegna virkaði sjóðstreymi Power BI í fyrri útgáfum en er nú autt?
 
-Gangið úr skugga um að mælingarnar „Sjóðstreymismæling V2“ og „LedgerCovLiquidityMeasurement“ úr einingaverslun hafi verið skilgreindar. Frekari upplýsingar um hvernig á að vinna með gögn í einingaverslun er að finna í [Power BI samþætting við einingaverslun](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Gangið úr skugga um að búið sé að fara í gegnum öll skrefin sem þarf að taka til að skoða Power BI-efni. Frekari upplýsingar má finna á [Yfirlit yfir reiðufé Power BI efni](Cash-Overview-Power-BI-content.md).
+Gangið úr skugga um að mælingarnar „Sjóðstreymismæling V2“ og „LedgerCovLiquidityMeasurement“ úr einingaverslun hafi verið skilgreindar. Frekari upplýsingar um það hvernig á að vinna með gögn í einingaverslun er að finna í [Power BI samþætting við einingaverslun](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Gangið úr skugga um að búið sé að fara í gegnum öll skrefin sem þarf að taka til að skoða Power BI-efni. Frekari upplýsingar má finna á [Yfirlit yfir reiðufé Power BI efni](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Hafa einingar einingaverslunar verið uppfærðar?
 
 Nauðsynlegt er að uppfæra einingarnar reglulega til að tryggja að gögnin séu uppfærð og nákvæm. Til að uppfæra handvirkt tiltekna einingu skal fara í **Kerfisstjórnun \> Uppsetning \> Einingaverslun**, velja eininguna og því næst velja **Uppfæra**. Einnig er hægt að uppfæra gögnin sjálfkrafa. Á síðunni **Einingaverslun** skal stilla valkostinn **Virkja sjálfvirka uppfærslu** á **Já**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Hvaða útreikningsaðferð á að nota við útreikninga sjóðstreymisspár?
+
+Útreikningsaðferð sjóðstreymisspár er með tvo mikilvæga valkosti. Valkosturinn **Ný** reiknar sjóðstreymisspár fyrir ný skjöl og skjöl sem hafa breyst síðan síðasta runuvinnsla var keyrð. Þessi valkostur keyrir oft hraðar því hann vinnur með minni undirmengi skjala.  **Samtala** valkosturinn mun endurreikna sjóðstreymisspár fyrir hvert skjal í kerfinu. Þessi valkostur tekur lengri tíma vegna þess að það er meiri vinna sem þarf að ljúka.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Hvernig bæti ég afköst á endurtekinni runuvinnslu fyrir sjóðsstreymisspá?
+
+Mælt er með því að sjóðstreymisspá sé keyrð á hverjum degi utan vinnutíma með því að nota **Nýja** útreikningsaðferð. Mælt er með þessari nálgun sex daga vikunnar. Svo skal keyra sjóðstreymisspá einu sinni í viku með því að nota **Samtals** útreikningsaðferðina á þeim degi sem minnst er að gera.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
