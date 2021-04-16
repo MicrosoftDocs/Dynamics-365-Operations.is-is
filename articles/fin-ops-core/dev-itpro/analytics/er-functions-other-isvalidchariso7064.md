@@ -2,7 +2,6 @@
 title: ISVALIDCHARACTERISO7064 ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin ISVALIDCHARACTERISO7064 í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,46 +15,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26300adce5f9a8a567510885577c6cfb9b1c859a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1f102a6a3eafe3b066101370b94fa2f17ad3ad8b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563367"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748294"
 ---
-# <a name="isvalidcharacteriso7064-er-function"></a><span data-ttu-id="79f1e-103">ISVALIDCHARACTERISO7064 ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="79f1e-103">ISVALIDCHARACTERISO7064 ER function</span></span>
+# <a name="isvalidcharacteriso7064-er-function"></a><span data-ttu-id="2e7c3-103">ISVALIDCHARACTERISO7064 ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="2e7c3-103">ISVALIDCHARACTERISO7064 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="79f1e-104">Aðgerðin `ISVALIDCHARACTERISO7064` skilar *Boolean*-gildinu **TRUE** ef tilgreindur strengur táknar gildan alþjóðlegan bankareikning (IBAN).</span><span class="sxs-lookup"><span data-stu-id="79f1e-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="79f1e-105">Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="79f1e-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="2e7c3-104">Aðgerðin `ISVALIDCHARACTERISO7064` skilar *Boolean*-gildinu **TRUE** ef tilgreindur strengur táknar gildan alþjóðlegan bankareikning (IBAN).</span><span class="sxs-lookup"><span data-stu-id="2e7c3-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="2e7c3-105">Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="2e7c3-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="79f1e-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="79f1e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2e7c3-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="2e7c3-106">Syntax</span></span>
 
 ```vb
 ISVALIDCHARACTERISO7064 (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="79f1e-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="79f1e-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="2e7c3-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="2e7c3-107">Arguments</span></span>
 
-<span data-ttu-id="79f1e-108">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="79f1e-108">`text`: *String*</span></span>
+<span data-ttu-id="2e7c3-108">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="2e7c3-108">`text`: *String*</span></span>
 
-<span data-ttu-id="79f1e-109">Textagildi sem táknar IBAN.</span><span class="sxs-lookup"><span data-stu-id="79f1e-109">A text value that represents an IBAN.</span></span>
+<span data-ttu-id="2e7c3-109">Textagildi sem táknar IBAN.</span><span class="sxs-lookup"><span data-stu-id="2e7c3-109">A text value that represents an IBAN.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="79f1e-110">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="79f1e-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="2e7c3-110">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="2e7c3-110">Return values</span></span>
 
-<span data-ttu-id="79f1e-111">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="79f1e-111">*String*</span></span>
+<span data-ttu-id="2e7c3-111">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="2e7c3-111">*String*</span></span>
 
-<span data-ttu-id="79f1e-112">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="79f1e-112">The resulting text value.</span></span>
+<span data-ttu-id="2e7c3-112">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="2e7c3-112">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="79f1e-113">Dæmi</span><span class="sxs-lookup"><span data-stu-id="79f1e-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2e7c3-113">Dæmi</span><span class="sxs-lookup"><span data-stu-id="2e7c3-113">Example</span></span>
 
-<span data-ttu-id="79f1e-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` skilar **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="79f1e-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
+<span data-ttu-id="2e7c3-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` skilar **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="2e7c3-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
 
-<span data-ttu-id="79f1e-115">`ISVALIDCHARACTERISO7064 ("AT61")` skilar **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="79f1e-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
+<span data-ttu-id="2e7c3-115">`ISVALIDCHARACTERISO7064 ("AT61")` skilar **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="2e7c3-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="79f1e-116">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="79f1e-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="2e7c3-116">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="2e7c3-116">Additional resources</span></span>
 
-[<span data-ttu-id="79f1e-117">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="79f1e-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="2e7c3-117">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="2e7c3-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

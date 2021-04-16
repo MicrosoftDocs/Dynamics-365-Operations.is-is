@@ -2,7 +2,6 @@
 title: GETENUMVALUEBYNAME ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin GETNUMVALUEBYNAME í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -16,106 +15,106 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfc173130a9fc57385826f77443ec28946ef68fd
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570591"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746412"
 ---
-# <a name="getenumvaluebyname-er-function"></a><span data-ttu-id="23337-103">GETENUMVALUEBYNAME ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="23337-103">GETENUMVALUEBYNAME ER function</span></span>
+# <a name="getenumvaluebyname-er-function"></a><span data-ttu-id="5661a-103">GETENUMVALUEBYNAME ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="5661a-103">GETENUMVALUEBYNAME ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="23337-104">Aðgerðin `GETENUMVALUEBYNAME` leitar að tilteknu *Enum*-gildi í tilgreindum tölusetningargagnagjafa með því að nota tölusetningarheitið sem er tilgreint sem *Strengja*-gildi.</span><span class="sxs-lookup"><span data-stu-id="23337-104">The `GETENUMVALUEBYNAME` function searches for a specific *Enum* value in the specified enumeration data source by using the enumeration name that is specified as a *String* value.</span></span> <span data-ttu-id="23337-105">Ef *Enum*-gildi finnst skilar aðgerðin því.</span><span class="sxs-lookup"><span data-stu-id="23337-105">If the *Enum* value is found, the function returns it.</span></span> <span data-ttu-id="23337-106">Að öðrum kosti skilar aðgerðin upptalningargildinu **núll**.</span><span class="sxs-lookup"><span data-stu-id="23337-106">Otherwise, the function returns the **null** enumeration value.</span></span>
+<span data-ttu-id="5661a-104">Aðgerðin `GETENUMVALUEBYNAME` leitar að tilteknu *Enum*-gildi í tilgreindum tölusetningargagnagjafa með því að nota tölusetningarheitið sem er tilgreint sem *Strengja*-gildi.</span><span class="sxs-lookup"><span data-stu-id="5661a-104">The `GETENUMVALUEBYNAME` function searches for a specific *Enum* value in the specified enumeration data source by using the enumeration name that is specified as a *String* value.</span></span> <span data-ttu-id="5661a-105">Ef *Enum*-gildi finnst skilar aðgerðin því.</span><span class="sxs-lookup"><span data-stu-id="5661a-105">If the *Enum* value is found, the function returns it.</span></span> <span data-ttu-id="5661a-106">Að öðrum kosti skilar aðgerðin upptalningargildinu **núll**.</span><span class="sxs-lookup"><span data-stu-id="5661a-106">Otherwise, the function returns the **null** enumeration value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="23337-107">Málskipun</span><span class="sxs-lookup"><span data-stu-id="23337-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5661a-107">Málskipun</span><span class="sxs-lookup"><span data-stu-id="5661a-107">Syntax</span></span>
 
 ```vb
 GETENUMVALUEBYNAME (enumeration data source path, enumeration value text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="23337-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="23337-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5661a-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="5661a-108">Arguments</span></span>
 
-<span data-ttu-id="23337-109">`enumeration data source path`: *Upptalning*</span><span class="sxs-lookup"><span data-stu-id="23337-109">`enumeration data source path`: *Enumeration*</span></span>
+<span data-ttu-id="5661a-109">`enumeration data source path`: *Upptalning*</span><span class="sxs-lookup"><span data-stu-id="5661a-109">`enumeration data source path`: *Enumeration*</span></span>
 
-<span data-ttu-id="23337-110">Gild slóð gagnagjafa af einni af eftirfarandi upptalningargerðum:</span><span class="sxs-lookup"><span data-stu-id="23337-110">The valid path of a data source of one of the following enumeration types:</span></span>
+<span data-ttu-id="5661a-110">Gild slóð gagnagjafa af einni af eftirfarandi upptalningargerðum:</span><span class="sxs-lookup"><span data-stu-id="5661a-110">The valid path of a data source of one of the following enumeration types:</span></span>
 
-- <span data-ttu-id="23337-111">Líkanaupptalning rafrænnar skýrslugerðar (ER)</span><span class="sxs-lookup"><span data-stu-id="23337-111">Electronic reporting (ER) model enumeration</span></span>
-- <span data-ttu-id="23337-112">Upptalning ER-sniðs</span><span class="sxs-lookup"><span data-stu-id="23337-112">ER format enumeration</span></span>
-- <span data-ttu-id="23337-113">Upptalning Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="23337-113">Microsoft Dynamics 365 Finance enumeration</span></span>
+- <span data-ttu-id="5661a-111">Líkanaupptalning rafrænnar skýrslugerðar (ER)</span><span class="sxs-lookup"><span data-stu-id="5661a-111">Electronic reporting (ER) model enumeration</span></span>
+- <span data-ttu-id="5661a-112">Upptalning ER-sniðs</span><span class="sxs-lookup"><span data-stu-id="5661a-112">ER format enumeration</span></span>
+- <span data-ttu-id="5661a-113">Upptalning Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="5661a-113">Microsoft Dynamics 365 Finance enumeration</span></span>
 
-<span data-ttu-id="23337-114">`enumeration value text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="23337-114">`enumeration value text`: *String*</span></span>
+<span data-ttu-id="5661a-114">`enumeration value text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="5661a-114">`enumeration value text`: *String*</span></span>
 
-<span data-ttu-id="23337-115">Strengagildi sem táknar heiti staks upptalningargildis.</span><span class="sxs-lookup"><span data-stu-id="23337-115">A string value that represents the name of a single enumeration value.</span></span>
+<span data-ttu-id="5661a-115">Strengagildi sem táknar heiti staks upptalningargildis.</span><span class="sxs-lookup"><span data-stu-id="5661a-115">A string value that represents the name of a single enumeration value.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="23337-116">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="23337-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5661a-116">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="5661a-116">Return values</span></span>
 
-<span data-ttu-id="23337-117">Má vera núll *Enum*</span><span class="sxs-lookup"><span data-stu-id="23337-117">Nullable *Enum*</span></span>
+<span data-ttu-id="5661a-117">Má vera núll *Enum*</span><span class="sxs-lookup"><span data-stu-id="5661a-117">Nullable *Enum*</span></span>
 
-<span data-ttu-id="23337-118">Upptalningargildið sem myndast.</span><span class="sxs-lookup"><span data-stu-id="23337-118">The resulting enumeration value.</span></span>
+<span data-ttu-id="5661a-118">Upptalningargildið sem myndast.</span><span class="sxs-lookup"><span data-stu-id="5661a-118">The resulting enumeration value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="23337-119">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="23337-119">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="5661a-119">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="5661a-119">Usage notes</span></span>
 
-<span data-ttu-id="23337-120">Engin undantekning er gerð ef gildið *Enum* er ekki að finna með því að nota heiti upptalningargildisins sem er tilgreint sem gildið *Strengur*.</span><span class="sxs-lookup"><span data-stu-id="23337-120">No exception is thrown if an *Enum* value isn't found by using the name of the enumeration value that is specified as a *String* value.</span></span>
+<span data-ttu-id="5661a-120">Engin undantekning er gerð ef gildið *Enum* er ekki að finna með því að nota heiti upptalningargildisins sem er tilgreint sem gildið *Strengur*.</span><span class="sxs-lookup"><span data-stu-id="5661a-120">No exception is thrown if an *Enum* value isn't found by using the name of the enumeration value that is specified as a *String* value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="23337-121">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="23337-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="5661a-121">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="5661a-121">Example 1</span></span>
 
-<span data-ttu-id="23337-122">Í eftirfarandi mynd er **ReportDirection** upptalningin kynnt í gagnalíkani.</span><span class="sxs-lookup"><span data-stu-id="23337-122">In the following illustration, the **ReportDirection** enumeration is introduced in a data model.</span></span> <span data-ttu-id="23337-123">Athugaðu að merki eru skilgreind fyrir tölusetningargildin.</span><span class="sxs-lookup"><span data-stu-id="23337-123">Notice that labels are defined for the enumeration values.</span></span>
+<span data-ttu-id="5661a-122">Í eftirfarandi mynd er **ReportDirection** upptalningin kynnt í gagnalíkani.</span><span class="sxs-lookup"><span data-stu-id="5661a-122">In the following illustration, the **ReportDirection** enumeration is introduced in a data model.</span></span> <span data-ttu-id="5661a-123">Athugaðu að merki eru skilgreind fyrir tölusetningargildin.</span><span class="sxs-lookup"><span data-stu-id="5661a-123">Notice that labels are defined for the enumeration values.</span></span>
 
 ![Tiltæk gildi fyrir tölusetningu gagnalíkans](./media/ER-data-model-enumeration-values.PNG)
 
-<span data-ttu-id="23337-125">Eftirfarandi mynd sýnir þessar upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="23337-125">The following illustration shows these details:</span></span>
+<span data-ttu-id="5661a-125">Eftirfarandi mynd sýnir þessar upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="5661a-125">The following illustration shows these details:</span></span>
 
-- <span data-ttu-id="23337-126">Gagnagjafinn **$Direction** er stilltur í ER-skýrslu.</span><span class="sxs-lookup"><span data-stu-id="23337-126">The **$Direction** data source is configured in an ER report.</span></span> <span data-ttu-id="23337-127">Þessi gagnagjafi er stilltur út frá líkanaupptalningunni **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="23337-127">This data source is configured based on the **ReportDirection** model enumeration.</span></span>
-- <span data-ttu-id="23337-128">Segðin `$IsArrivals` er hönnuð til að nota líkanatölusetningarbyggðan gagnagjafa **$Direction** sem færibreytu þessarar aðgerðar.</span><span class="sxs-lookup"><span data-stu-id="23337-128">The `$IsArrivals` expression is designed to use the model enumeration–based **$Direction** data source as a parameter of this function.</span></span>
-- <span data-ttu-id="23337-129">Gildi þessarar samanburðarsegðar er **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="23337-129">The value of this comparison expression is **TRUE**.</span></span>
+- <span data-ttu-id="5661a-126">Gagnagjafinn **$Direction** er stilltur í ER-skýrslu.</span><span class="sxs-lookup"><span data-stu-id="5661a-126">The **$Direction** data source is configured in an ER report.</span></span> <span data-ttu-id="5661a-127">Þessi gagnagjafi er stilltur út frá líkanaupptalningunni **ReportDirection**.</span><span class="sxs-lookup"><span data-stu-id="5661a-127">This data source is configured based on the **ReportDirection** model enumeration.</span></span>
+- <span data-ttu-id="5661a-128">Segðin `$IsArrivals` er hönnuð til að nota líkanatölusetningarbyggðan gagnagjafa **$Direction** sem færibreytu þessarar aðgerðar.</span><span class="sxs-lookup"><span data-stu-id="5661a-128">The `$IsArrivals` expression is designed to use the model enumeration–based **$Direction** data source as a parameter of this function.</span></span>
+- <span data-ttu-id="5661a-129">Gildi þessarar samanburðarsegðar er **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="5661a-129">The value of this comparison expression is **TRUE**.</span></span>
 
 ![Dæmi um tölusetningu gagnalíkans](./media/ER-data-model-enumeration-usage.PNG)
 
-## <a name="example-2"></a><span data-ttu-id="23337-131">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="23337-131">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="5661a-131">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="5661a-131">Example 2</span></span>
 
-<span data-ttu-id="23337-132">Aðgerðirnar `GETENUMVALUEBYNAME` og [`LISTOFFIELDS`](er-functions-list-listoffields.md) gerir þér kleift að sækja gildi og merki yfir studdar tölusetningar sem textagildi.</span><span class="sxs-lookup"><span data-stu-id="23337-132">The `GETENUMVALUEBYNAME` and [`LISTOFFIELDS`](er-functions-list-listoffields.md) functions let you fetch values and labels of supported enumerations as text values.</span></span> <span data-ttu-id="23337-133">(Studdar tölusetningar eru tölusetningar forrits, tölusetningar gagnalíkans og tölusetningar sniðs.)</span><span class="sxs-lookup"><span data-stu-id="23337-133">(The supported enumerations are application enumerations, data model enumerations, and format enumerations.)</span></span>
+<span data-ttu-id="5661a-132">Aðgerðirnar `GETENUMVALUEBYNAME` og [`LISTOFFIELDS`](er-functions-list-listoffields.md) gerir þér kleift að sækja gildi og merki yfir studdar tölusetningar sem textagildi.</span><span class="sxs-lookup"><span data-stu-id="5661a-132">The `GETENUMVALUEBYNAME` and [`LISTOFFIELDS`](er-functions-list-listoffields.md) functions let you fetch values and labels of supported enumerations as text values.</span></span> <span data-ttu-id="5661a-133">(Studdar tölusetningar eru tölusetningar forrits, tölusetningar gagnalíkans og tölusetningar sniðs.)</span><span class="sxs-lookup"><span data-stu-id="5661a-133">(The supported enumerations are application enumerations, data model enumerations, and format enumerations.)</span></span>
 
-<span data-ttu-id="23337-134">Á eftirfarandi mynd er gagnagjafinn **TransType** kynntur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="23337-134">In the following illustration, the **TransType** data source is introduced in a model mapping.</span></span> <span data-ttu-id="23337-135">Þessi gagnagjafi vísar í forritstölusetningu **LedgerTransType**.</span><span class="sxs-lookup"><span data-stu-id="23337-135">This data source refers to the **LedgerTransType** application enumeration.</span></span>
+<span data-ttu-id="5661a-134">Á eftirfarandi mynd er gagnagjafinn **TransType** kynntur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="5661a-134">In the following illustration, the **TransType** data source is introduced in a model mapping.</span></span> <span data-ttu-id="5661a-135">Þessi gagnagjafi vísar í forritstölusetningu **LedgerTransType**.</span><span class="sxs-lookup"><span data-stu-id="5661a-135">This data source refers to the **LedgerTransType** application enumeration.</span></span>
 
 ![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
-<span data-ttu-id="23337-137">Eftirfarandi mynd sýnir gagnagjafann **TransTypeList** sem er skilgreindur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="23337-137">The following illustration shows the **TransTypeList** data source that is configured in a model mapping.</span></span> <span data-ttu-id="23337-138">Þessi gagnagjafi er skilgreindur út frá **TransType** tölusetningu forrits.</span><span class="sxs-lookup"><span data-stu-id="23337-138">This data source is configured based on the **TransType** application enumeration.</span></span> <span data-ttu-id="23337-139">`LISTOFFIELDS`-aðgerðin er notuð til að skila öllum gildum tölusetningar sem lista yfir færslur sem innihalda reiti.</span><span class="sxs-lookup"><span data-stu-id="23337-139">The `LISTOFFIELDS` function is used to return all enumeration values as a list of records that contain fields.</span></span> <span data-ttu-id="23337-140">Á þennan hátt verða upplýsingar um sérhvert gildi tölusetningar sýndar.</span><span class="sxs-lookup"><span data-stu-id="23337-140">In this way, the details of every enumeration value are exposed.</span></span>
+<span data-ttu-id="5661a-137">Eftirfarandi mynd sýnir gagnagjafann **TransTypeList** sem er skilgreindur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="5661a-137">The following illustration shows the **TransTypeList** data source that is configured in a model mapping.</span></span> <span data-ttu-id="5661a-138">Þessi gagnagjafi er skilgreindur út frá **TransType** tölusetningu forrits.</span><span class="sxs-lookup"><span data-stu-id="5661a-138">This data source is configured based on the **TransType** application enumeration.</span></span> <span data-ttu-id="5661a-139">`LISTOFFIELDS`-aðgerðin er notuð til að skila öllum gildum tölusetningar sem lista yfir færslur sem innihalda reiti.</span><span class="sxs-lookup"><span data-stu-id="5661a-139">The `LISTOFFIELDS` function is used to return all enumeration values as a list of records that contain fields.</span></span> <span data-ttu-id="5661a-140">Á þennan hátt verða upplýsingar um sérhvert gildi tölusetningar sýndar.</span><span class="sxs-lookup"><span data-stu-id="5661a-140">In this way, the details of every enumeration value are exposed.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="23337-141">**EnumValue** gildið er skilgreint fyrir **TransTypeList** gagnagjafann með því að nota `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`-segðina.</span><span class="sxs-lookup"><span data-stu-id="23337-141">The **EnumValue** field is configured for the **TransTypeList** data source by using the `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` expression.</span></span> <span data-ttu-id="23337-142">Þessi reitur skilar gildi tölusetningar fyrir hverja færslu í þessum lista.</span><span class="sxs-lookup"><span data-stu-id="23337-142">This field returns an enumeration value for every record in this list.</span></span>
+> <span data-ttu-id="5661a-141">**EnumValue** gildið er skilgreint fyrir **TransTypeList** gagnagjafann með því að nota `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`-segðina.</span><span class="sxs-lookup"><span data-stu-id="5661a-141">The **EnumValue** field is configured for the **TransTypeList** data source by using the `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` expression.</span></span> <span data-ttu-id="5661a-142">Þessi reitur skilar gildi tölusetningar fyrir hverja færslu í þessum lista.</span><span class="sxs-lookup"><span data-stu-id="5661a-142">This field returns an enumeration value for every record in this list.</span></span>
 
 ![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
-<span data-ttu-id="23337-144">Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="23337-144">The following illustration shows the **VendTrans** data source that is configured in a model mapping.</span></span> <span data-ttu-id="23337-145">Þessi gagnagjafi skilar lánardrottnafærslum úr forritstöflu **VendTrans**.</span><span class="sxs-lookup"><span data-stu-id="23337-145">This data source returns vendor transaction records from the **VendTrans** application table.</span></span> <span data-ttu-id="23337-146">Fjárhagsgerð hverrar færslu er skilgreind eftir gildinu á reitnum **TransType**.</span><span class="sxs-lookup"><span data-stu-id="23337-146">The ledger type of every transaction is defined by the value of the **TransType** field.</span></span>
+<span data-ttu-id="5661a-144">Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="5661a-144">The following illustration shows the **VendTrans** data source that is configured in a model mapping.</span></span> <span data-ttu-id="5661a-145">Þessi gagnagjafi skilar lánardrottnafærslum úr forritstöflu **VendTrans**.</span><span class="sxs-lookup"><span data-stu-id="5661a-145">This data source returns vendor transaction records from the **VendTrans** application table.</span></span> <span data-ttu-id="5661a-146">Fjárhagsgerð hverrar færslu er skilgreind eftir gildinu á reitnum **TransType**.</span><span class="sxs-lookup"><span data-stu-id="5661a-146">The ledger type of every transaction is defined by the value of the **TransType** field.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="23337-147">**TransTypeTitle** gildið er skilgreint fyrir **VendTrans** gagnagjafann með því að nota `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label`-segðina.</span><span class="sxs-lookup"><span data-stu-id="23337-147">The **TransTypeTitle** field is configured for the **VendTrans** data source by using the `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` expression.</span></span> <span data-ttu-id="23337-148">Þessi reitur skilar merki tölusetningargildis af núverandi færslu sem texta, ef þetta tölusetningargildi er í boði.</span><span class="sxs-lookup"><span data-stu-id="23337-148">This field returns the label of an enumeration value of the current transaction as text, if this enumeration value is available.</span></span> <span data-ttu-id="23337-149">Annars skilar hann auðum streng.</span><span class="sxs-lookup"><span data-stu-id="23337-149">Otherwise, it returns a blank string value.</span></span>
+> <span data-ttu-id="5661a-147">**TransTypeTitle** gildið er skilgreint fyrir **VendTrans** gagnagjafann með því að nota `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label`-segðina.</span><span class="sxs-lookup"><span data-stu-id="5661a-147">The **TransTypeTitle** field is configured for the **VendTrans** data source by using the `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` expression.</span></span> <span data-ttu-id="5661a-148">Þessi reitur skilar merki tölusetningargildis af núverandi færslu sem texta, ef þetta tölusetningargildi er í boði.</span><span class="sxs-lookup"><span data-stu-id="5661a-148">This field returns the label of an enumeration value of the current transaction as text, if this enumeration value is available.</span></span> <span data-ttu-id="5661a-149">Annars skilar hann auðum streng.</span><span class="sxs-lookup"><span data-stu-id="5661a-149">Otherwise, it returns a blank string value.</span></span>
 >
-> <span data-ttu-id="23337-150">Reiturinn **TransTypeTitle** er bundinn við **LedgerType** reit gagnalíkans sem gerir kleift að nota þessar upplýsingar í öllum sniðum rafrænnar skýrslugerðar sem notar gagnalíkanið sem upprunastað gagna.</span><span class="sxs-lookup"><span data-stu-id="23337-150">The **TransTypeTitle** field is bound to the **LedgerType** field of a data model that enables this information to be used in every ER format that uses the data model as a source of data.</span></span>
+> <span data-ttu-id="5661a-150">Reiturinn **TransTypeTitle** er bundinn við **LedgerType** reit gagnalíkans sem gerir kleift að nota þessar upplýsingar í öllum sniðum rafrænnar skýrslugerðar sem notar gagnalíkanið sem upprunastað gagna.</span><span class="sxs-lookup"><span data-stu-id="5661a-150">The **TransTypeTitle** field is bound to the **LedgerType** field of a data model that enables this information to be used in every ER format that uses the data model as a source of data.</span></span>
 
 ![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
-<span data-ttu-id="23337-152">Eftirfarandi mynd sýnir hvernig hægt er að nota [kembiforrit gagnagjafans](er-debug-data-sources.md) til að prófa skilgreinda líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="23337-152">The following illustration shows how you can use the [data source debugger](er-debug-data-sources.md) to test the configured model mapping.</span></span>
+<span data-ttu-id="5661a-152">Eftirfarandi mynd sýnir hvernig hægt er að nota [kembiforrit gagnagjafans](er-debug-data-sources.md) til að prófa skilgreinda líkanavörpun.</span><span class="sxs-lookup"><span data-stu-id="5661a-152">The following illustration shows how you can use the [data source debugger](er-debug-data-sources.md) to test the configured model mapping.</span></span>
 
 ![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
-<span data-ttu-id="23337-154">**LedgerType** reitur gagnalíkans sýnir merki af færslugerðum eins og búist var við.</span><span class="sxs-lookup"><span data-stu-id="23337-154">The **LedgerType** field of a data model exposes labels of transaction types as expected.</span></span>
+<span data-ttu-id="5661a-154">**LedgerType** reitur gagnalíkans sýnir merki af færslugerðum eins og búist var við.</span><span class="sxs-lookup"><span data-stu-id="5661a-154">The **LedgerType** field of a data model exposes labels of transaction types as expected.</span></span>
 
-<span data-ttu-id="23337-155">Ef ætlunin er að nota þessa nálgun fyrir mikið magn af færslugögnum verður að íhuga afköst keyrslunnar.</span><span class="sxs-lookup"><span data-stu-id="23337-155">If you plan to use this approach for a large amount of transactional data, you must consider execution performance.</span></span> <span data-ttu-id="23337-156">Frekari upplýsingar er að finna í [Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md).</span><span class="sxs-lookup"><span data-stu-id="23337-156">For more information, see [Trace the execution of ER formats to troubleshoot performance issues](trace-execution-er-troubleshoot-perf.md).</span></span>
+<span data-ttu-id="5661a-155">Ef ætlunin er að nota þessa nálgun fyrir mikið magn af færslugögnum verður að íhuga afköst keyrslunnar.</span><span class="sxs-lookup"><span data-stu-id="5661a-155">If you plan to use this approach for a large amount of transactional data, you must consider execution performance.</span></span> <span data-ttu-id="5661a-156">Frekari upplýsingar er að finna í [Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md).</span><span class="sxs-lookup"><span data-stu-id="5661a-156">For more information, see [Trace the execution of ER formats to troubleshoot performance issues](trace-execution-er-troubleshoot-perf.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="23337-157">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="23337-157">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5661a-157">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="5661a-157">Additional resources</span></span>
 
-[<span data-ttu-id="23337-158">Textaaðgerðir</span><span class="sxs-lookup"><span data-stu-id="23337-158">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="5661a-158">Textaaðgerðir</span><span class="sxs-lookup"><span data-stu-id="5661a-158">Text functions</span></span>](er-functions-category-text.md)
 
-[<span data-ttu-id="23337-159">Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum</span><span class="sxs-lookup"><span data-stu-id="23337-159">Trace the execution of ER formats to troubleshoot performance issues</span></span>](trace-execution-er-troubleshoot-perf.md)
+[<span data-ttu-id="5661a-159">Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum</span><span class="sxs-lookup"><span data-stu-id="5661a-159">Trace the execution of ER formats to troubleshoot performance issues</span></span>](trace-execution-er-troubleshoot-perf.md)
 
-[<span data-ttu-id="23337-160">LISTOFFIELDS ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="23337-160">LISTOFFIELDS ER function</span></span>](er-functions-list-listoffields.md)
+[<span data-ttu-id="5661a-160">LISTOFFIELDS ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="5661a-160">LISTOFFIELDS ER function</span></span>](er-functions-list-listoffields.md)
 
-[<span data-ttu-id="23337-161">FIRSTORNULL ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="23337-161">FIRSTORNULL ER function</span></span>](er-functions-list-firstornull.md)
+[<span data-ttu-id="5661a-161">FIRSTORNULL ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="5661a-161">FIRSTORNULL ER function</span></span>](er-functions-list-firstornull.md)
 
-[<span data-ttu-id="23337-162">WHERE ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="23337-162">WHERE ER function</span></span>](er-functions-list-where.md)
+[<span data-ttu-id="5661a-162">WHERE ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="5661a-162">WHERE ER function</span></span>](er-functions-list-where.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

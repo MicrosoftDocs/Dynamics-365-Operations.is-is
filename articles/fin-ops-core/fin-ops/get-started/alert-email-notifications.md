@@ -1,8 +1,7 @@
 ---
 title: Viðvörunartilkynning biðlara með tölvupósti
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að setja upp reglur sem senda tilkynningar í tölvupósti þegar fyrirfram skilgreindir viðburðir eiga sér stað.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -11,44 +10,44 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: fe422d645c8f2c0c564af30624090828e10ea4bf
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567253"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752915"
 ---
-# <a name="client-alert-notifications-by-email"></a><span data-ttu-id="d9beb-103">Viðvörunartilkynningar biðlara með tölvupósti</span><span class="sxs-lookup"><span data-stu-id="d9beb-103">Client alert notifications by email</span></span>
+# <a name="client-alert-notifications-by-email"></a><span data-ttu-id="df8dc-103">Viðvörunartilkynningar biðlara með tölvupósti</span><span class="sxs-lookup"><span data-stu-id="df8dc-103">Client alert notifications by email</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d9beb-104">Hægt er að skilgreina sérsniðar viðvörunarreglur sem fylgjast með síuðum yfirlitum á gögnum og senda sjálfkrafa tilkynningar í tölvupósti þegar fyrirfram skilgreindir viðburðir gerast.</span><span class="sxs-lookup"><span data-stu-id="d9beb-104">You can define custom alert rules that monitor filtered views of data and automatically send email notifications when predefined events occur.</span></span> <span data-ttu-id="d9beb-105">Möguleikinn til að senda tilkynningar í tölvupósti er tiltækur fyrir allar studdar gerðir viðvörunar og einnig er hægt að kveikja á þeim fyrir núverandi viðvörunarreglur.</span><span class="sxs-lookup"><span data-stu-id="d9beb-105">The option to send email notifications is available for all supported alert types and you can also turn them on for existing alert rules.</span></span>
+<span data-ttu-id="df8dc-104">Hægt er að skilgreina sérsniðar viðvörunarreglur sem fylgjast með síuðum yfirlitum á gögnum og senda sjálfkrafa tilkynningar í tölvupósti þegar fyrirfram skilgreindir viðburðir gerast.</span><span class="sxs-lookup"><span data-stu-id="df8dc-104">You can define custom alert rules that monitor filtered views of data and automatically send email notifications when predefined events occur.</span></span> <span data-ttu-id="df8dc-105">Möguleikinn til að senda tilkynningar í tölvupósti er tiltækur fyrir allar studdar gerðir viðvörunar og einnig er hægt að kveikja á þeim fyrir núverandi viðvörunarreglur.</span><span class="sxs-lookup"><span data-stu-id="df8dc-105">The option to send email notifications is available for all supported alert types and you can also turn them on for existing alert rules.</span></span>
 
-<span data-ttu-id="d9beb-106">Hægt er að nota innbyggðar stýringar til að búa til viðvörunarreglur sem fylgjast með síuðum yfirlitum á runuvinnslum kerfis.</span><span class="sxs-lookup"><span data-stu-id="d9beb-106">You can use built-in controls to create alert rules that monitor the filtered views of system batch jobs.</span></span> <span data-ttu-id="d9beb-107">Með því að fylgjast með svæðinu **Staða** er einnig hægt að skilgreina viðvörunarreglur sem senda tölvupóst þegar runuvinnsla mistekst.</span><span class="sxs-lookup"><span data-stu-id="d9beb-107">By monitoring the value of the **Status** field, you can also configure alert rules that send email when a batch job fails.</span></span> <span data-ttu-id="d9beb-108">Eftir að þessar viðvörunarreglur eru búnar til þarf ekki lengur að athuga skýrslur út af breytingum á viðskiptagögnum.</span><span class="sxs-lookup"><span data-stu-id="d9beb-108">After you create these alert rules, you no longer have to check reports for changes to business data.</span></span> <span data-ttu-id="d9beb-109">Í staðinn er hægt að láta snjallþjónustu breytingagreininga fylgjast með.</span><span class="sxs-lookup"><span data-stu-id="d9beb-109">Instead, you can let the intelligent change detection service do the monitoring for you.</span></span>
+<span data-ttu-id="df8dc-106">Hægt er að nota innbyggðar stýringar til að búa til viðvörunarreglur sem fylgjast með síuðum yfirlitum á runuvinnslum kerfis.</span><span class="sxs-lookup"><span data-stu-id="df8dc-106">You can use built-in controls to create alert rules that monitor the filtered views of system batch jobs.</span></span> <span data-ttu-id="df8dc-107">Með því að fylgjast með svæðinu **Staða** er einnig hægt að skilgreina viðvörunarreglur sem senda tölvupóst þegar runuvinnsla mistekst.</span><span class="sxs-lookup"><span data-stu-id="df8dc-107">By monitoring the value of the **Status** field, you can also configure alert rules that send email when a batch job fails.</span></span> <span data-ttu-id="df8dc-108">Eftir að þessar viðvörunarreglur eru búnar til þarf ekki lengur að athuga skýrslur út af breytingum á viðskiptagögnum.</span><span class="sxs-lookup"><span data-stu-id="df8dc-108">After you create these alert rules, you no longer have to check reports for changes to business data.</span></span> <span data-ttu-id="df8dc-109">Í staðinn er hægt að láta snjallþjónustu breytingagreininga fylgjast með.</span><span class="sxs-lookup"><span data-stu-id="df8dc-109">Instead, you can let the intelligent change detection service do the monitoring for you.</span></span>
 
-<span data-ttu-id="d9beb-110">Viðvaranir biðlara eru háðar undirkerfi tölvupósts sem er veitt í gegnum samþættingu við Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="d9beb-110">Client alerts depend on the email subsystem that is provided through integration with Microsoft Office.</span></span> <span data-ttu-id="d9beb-111">Við mælum með því að þú notir veituna fyrir SMTP-samskiptaregluna, þannig að dreifing á tölvupósti þarf ekki að treysta á staðbundinn póstþjón.</span><span class="sxs-lookup"><span data-stu-id="d9beb-111">We recommend that you use the Simple Mail Transfer Protocol (SMTP) provider, so that email distribution doesn't have to rely on a local mail client.</span></span>
+<span data-ttu-id="df8dc-110">Viðvaranir biðlara eru háðar undirkerfi tölvupósts sem er veitt í gegnum samþættingu við Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="df8dc-110">Client alerts depend on the email subsystem that is provided through integration with Microsoft Office.</span></span> <span data-ttu-id="df8dc-111">Við mælum með því að þú notir veituna fyrir SMTP-samskiptaregluna, þannig að dreifing á tölvupósti þarf ekki að treysta á staðbundinn póstþjón.</span><span class="sxs-lookup"><span data-stu-id="df8dc-111">We recommend that you use the Simple Mail Transfer Protocol (SMTP) provider, so that email distribution doesn't have to rely on a local mail client.</span></span>
 
-<span data-ttu-id="d9beb-112">Til að senda tilkynningar með tölvupósti verða viðskiptavinir að skilgreina samþættar tölvupóstsþjónustur.</span><span class="sxs-lookup"><span data-stu-id="d9beb-112">To send notifications by email, customers must configure integrated email services.</span></span> <span data-ttu-id="d9beb-113">Tilkynningar í tölvupósti eru sendar viðtakendum af hálfu eigenda tilkynningar.</span><span class="sxs-lookup"><span data-stu-id="d9beb-113">Email notifications are sent to recipients on behalf of alert owners.</span></span>
+<span data-ttu-id="df8dc-112">Til að senda tilkynningar með tölvupósti verða viðskiptavinir að skilgreina samþættar tölvupóstsþjónustur.</span><span class="sxs-lookup"><span data-stu-id="df8dc-112">To send notifications by email, customers must configure integrated email services.</span></span> <span data-ttu-id="df8dc-113">Tilkynningar í tölvupósti eru sendar viðtakendum af hálfu eigenda tilkynningar.</span><span class="sxs-lookup"><span data-stu-id="df8dc-113">Email notifications are sent to recipients on behalf of alert owners.</span></span>
 
-<span data-ttu-id="d9beb-114">Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](../organization-administration/configure-email.md).</span><span class="sxs-lookup"><span data-stu-id="d9beb-114">For more information about how to configure email, see [Configure and send email](../organization-administration/configure-email.md).</span></span>
+<span data-ttu-id="df8dc-114">Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](../organization-administration/configure-email.md).</span><span class="sxs-lookup"><span data-stu-id="df8dc-114">For more information about how to configure email, see [Configure and send email](../organization-administration/configure-email.md).</span></span>
 
-<span data-ttu-id="d9beb-115">Eftirfarandi mynd sýnir svargluggann **Stofna viðvörunarreglu** sem er nú með valkostinn **Senda tölvupóst**.</span><span class="sxs-lookup"><span data-stu-id="d9beb-115">The following image shows the **Create alert rule** dialog box, which now includes a **Send email** option.</span></span>
+<span data-ttu-id="df8dc-115">Eftirfarandi mynd sýnir svargluggann **Stofna viðvörunarreglu** sem er nú með valkostinn **Senda tölvupóst**.</span><span class="sxs-lookup"><span data-stu-id="df8dc-115">The following image shows the **Create alert rule** dialog box, which now includes a **Send email** option.</span></span>
 
-<span data-ttu-id="d9beb-116">[![Stofna svarglugga viðvörunarreglu þar sem valkosturinn „Senda tölvupóst“ er stilltur á Já](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)</span><span class="sxs-lookup"><span data-stu-id="d9beb-116">[![Create alert rule dialog box, where the Send email option is set to Yes](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)</span></span>
+<span data-ttu-id="df8dc-116">[![Stofna svarglugga viðvörunarreglu þar sem valkosturinn „Senda tölvupóst“ er stilltur á Já](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)</span><span class="sxs-lookup"><span data-stu-id="df8dc-116">[![Create alert rule dialog box, where the Send email option is set to Yes](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d9beb-117">Þegar valkosturinn **Senda tölvupóst** er stilltur á **Já** verður haldið áfram að senda viðvörunartilkynningar úr Aðgerðamiðstöðinni.</span><span class="sxs-lookup"><span data-stu-id="d9beb-117">When the **Send email** option is set to **Yes**, alert notifications will continue to be delivered from the Action Center.</span></span>
+> <span data-ttu-id="df8dc-117">Þegar valkosturinn **Senda tölvupóst** er stilltur á **Já** verður haldið áfram að senda viðvörunartilkynningar úr Aðgerðamiðstöðinni.</span><span class="sxs-lookup"><span data-stu-id="df8dc-117">When the **Send email** option is set to **Yes**, alert notifications will continue to be delivered from the Action Center.</span></span>
 
-## <a name="alert-notification-email-templates"></a><span data-ttu-id="d9beb-118">Sniðmát fyrir viðvörunartilkynningar í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="d9beb-118">Alert notification email templates</span></span>
+## <a name="alert-notification-email-templates"></a><span data-ttu-id="df8dc-118">Sniðmát fyrir viðvörunartilkynningar í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="df8dc-118">Alert notification email templates</span></span>
 
-<span data-ttu-id="d9beb-119">Þjónustan sendir tilkynningar í tölvupósti með því að nota fyrirfram skilgreind sniðmát tölvupósts sem afhenda grunnupplýsingar um viðvörunartilkynninguna.</span><span class="sxs-lookup"><span data-stu-id="d9beb-119">The service sends email notifications by using predefined email templates that deliver the basic details of the alert notification.</span></span>
+<span data-ttu-id="df8dc-119">Þjónustan sendir tilkynningar í tölvupósti með því að nota fyrirfram skilgreind sniðmát tölvupósts sem afhenda grunnupplýsingar um viðvörunartilkynninguna.</span><span class="sxs-lookup"><span data-stu-id="df8dc-119">The service sends email notifications by using predefined email templates that deliver the basic details of the alert notification.</span></span>
 
-<span data-ttu-id="d9beb-120">Eftirfarandi mynd sýnir uppbyggingu á viðvörunartilkynningum þegar þær eru mótteknar með tölvupósti.</span><span class="sxs-lookup"><span data-stu-id="d9beb-120">The following image shows the structure of the alert notifications when they are received by email.</span></span>
+<span data-ttu-id="df8dc-120">Eftirfarandi mynd sýnir uppbyggingu á viðvörunartilkynningum þegar þær eru mótteknar með tölvupósti.</span><span class="sxs-lookup"><span data-stu-id="df8dc-120">The following image shows the structure of the alert notifications when they are received by email.</span></span>
 
-<span data-ttu-id="d9beb-121">[![Viðvörunartilkynningar sem byggjast á sniðmáti fyrir stofnun á færslu, breytingar á svæði og eyðingu á sniðmáti](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)</span><span class="sxs-lookup"><span data-stu-id="d9beb-121">[![Template-based alert notifications for record creation, field changes, and template deletion](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)</span></span>
+<span data-ttu-id="df8dc-121">[![Viðvörunartilkynningar sem byggjast á sniðmáti fyrir stofnun á færslu, breytingar á svæði og eyðingu á sniðmáti](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)</span><span class="sxs-lookup"><span data-stu-id="df8dc-121">[![Template-based alert notifications for record creation, field changes, and template deletion](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
