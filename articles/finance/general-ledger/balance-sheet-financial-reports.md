@@ -2,11 +2,9 @@
 title: Fjárhagsskýrslur efnahagsreikninga
 description: Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
@@ -17,67 +15,67 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfb8e8fd28224ac9fe9a4919f4252dcd01ce360
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821938"
 ---
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="23a15-104">Fjárhagsskýrslur efnahagsreikninga</span><span class="sxs-lookup"><span data-stu-id="23a15-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="96e0b-104">Fjárhagsskýrslur efnahagsreikninga</span><span class="sxs-lookup"><span data-stu-id="96e0b-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="23a15-105">Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="23a15-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="23a15-106">Hún lýsir einnig einingum sem tengjast þessum skýrslum.</span><span class="sxs-lookup"><span data-stu-id="23a15-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="96e0b-105">Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="96e0b-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="96e0b-106">Hún lýsir einnig einingum sem tengjast þessum skýrslum.</span><span class="sxs-lookup"><span data-stu-id="96e0b-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="23a15-107">Sjálfgefnar skýrslur efnahagsreikninga</span><span class="sxs-lookup"><span data-stu-id="23a15-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="96e0b-107">Sjálfgefnar skýrslur efnahagsreikninga</span><span class="sxs-lookup"><span data-stu-id="96e0b-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="23a15-108">Það eru tvær sjálfgefnar skýrslur efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="23a15-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="23a15-109">Í einni skýrslunni er köflunum staflað.</span><span class="sxs-lookup"><span data-stu-id="23a15-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="23a15-110">Í hinni skýrslunni eru kaflarnir hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="23a15-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="96e0b-108">Það eru tvær sjálfgefnar skýrslur efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="96e0b-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="96e0b-109">Í einni skýrslunni er köflunum staflað.</span><span class="sxs-lookup"><span data-stu-id="96e0b-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="96e0b-110">Í hinni skýrslunni eru kaflarnir hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="96e0b-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="23a15-111">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="23a15-111">Default report</span></span>                       | <span data-ttu-id="23a15-112">Það sem hún gerir</span><span class="sxs-lookup"><span data-stu-id="23a15-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="96e0b-111">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="96e0b-111">Default report</span></span>                       | <span data-ttu-id="96e0b-112">Það sem hún gerir</span><span class="sxs-lookup"><span data-stu-id="96e0b-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="23a15-113">Efnahagsreikningur - Sjálfgefið</span><span class="sxs-lookup"><span data-stu-id="23a15-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="23a15-114">Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.</span><span class="sxs-lookup"><span data-stu-id="23a15-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="23a15-115">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="23a15-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="23a15-116">Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.</span><span class="sxs-lookup"><span data-stu-id="23a15-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="23a15-117">Eignir og skuldir og eigið fé hluthafa er hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="23a15-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="96e0b-113">Efnahagsreikningur - Sjálfgefið</span><span class="sxs-lookup"><span data-stu-id="96e0b-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="96e0b-114">Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.</span><span class="sxs-lookup"><span data-stu-id="96e0b-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="96e0b-115">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="96e0b-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="96e0b-116">Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.</span><span class="sxs-lookup"><span data-stu-id="96e0b-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="96e0b-117">Eignir og skuldir og eigið fé hluthafa er hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="96e0b-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="23a15-118">Einingar</span><span class="sxs-lookup"><span data-stu-id="23a15-118">Building blocks</span></span>
-<span data-ttu-id="23a15-119">Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.</span><span class="sxs-lookup"><span data-stu-id="23a15-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="96e0b-118">Einingar</span><span class="sxs-lookup"><span data-stu-id="96e0b-118">Building blocks</span></span>
+<span data-ttu-id="96e0b-119">Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.</span><span class="sxs-lookup"><span data-stu-id="96e0b-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="23a15-120">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="23a15-120">Default report</span></span>                       | <span data-ttu-id="23a15-121">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="23a15-121">Row definition</span></span>                       | <span data-ttu-id="23a15-122">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="23a15-122">Column definition</span></span>             |
+| <span data-ttu-id="96e0b-120">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="96e0b-120">Default report</span></span>                       | <span data-ttu-id="96e0b-121">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="96e0b-121">Row definition</span></span>                       | <span data-ttu-id="96e0b-122">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="96e0b-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="23a15-123">Efnahagsreikningur - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="23a15-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="23a15-124">Efnahagsreikningur - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="23a15-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="23a15-125">YTD og frávik - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="23a15-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="23a15-126">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="23a15-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="23a15-127">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="23a15-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="23a15-128">Dálkurinn Það sem af er ári - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="23a15-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="96e0b-123">Efnahagsreikningur - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="96e0b-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="96e0b-124">Efnahagsreikningur - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="96e0b-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="96e0b-125">YTD og frávik - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="96e0b-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="96e0b-126">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="96e0b-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="96e0b-127">Efnahagsreikningur hlið við Hlið – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="96e0b-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="96e0b-128">Dálkurinn Það sem af er ári - Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="96e0b-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="23a15-129">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="23a15-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="96e0b-129">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="96e0b-129">Row definition</span></span>
 
-<span data-ttu-id="23a15-130">Línuskilgreiningar fyrir báðar skýrslur efnahagsreikninga innihalda hluta fyrir hvern hluta venjulegs efnahagsreiknings.</span><span class="sxs-lookup"><span data-stu-id="23a15-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="23a15-131">Hlið við hlið skýrslan inniheldur dálkaskil, þannig að skuld og eigið fé eiganda birtast við eigna.</span><span class="sxs-lookup"><span data-stu-id="23a15-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="23a15-132">Víddin Tegund aðallykils er notuð til að búa til báðar línuskilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="23a15-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="23a15-133">Þess vegna getur hver sem er myndað skýrslu án þess að þurfa að gera neinar breytingar.</span><span class="sxs-lookup"><span data-stu-id="23a15-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="96e0b-130">Línuskilgreiningar fyrir báðar skýrslur efnahagsreikninga innihalda hluta fyrir hvern hluta venjulegs efnahagsreiknings.</span><span class="sxs-lookup"><span data-stu-id="96e0b-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="96e0b-131">Hlið við hlið skýrslan inniheldur dálkaskil, þannig að skuld og eigið fé eiganda birtast við eigna.</span><span class="sxs-lookup"><span data-stu-id="96e0b-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="96e0b-132">Víddin Tegund aðallykils er notuð til að búa til báðar línuskilgreiningar.</span><span class="sxs-lookup"><span data-stu-id="96e0b-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="96e0b-133">Þess vegna getur hver sem er myndað skýrslu án þess að þurfa að gera neinar breytingar.</span><span class="sxs-lookup"><span data-stu-id="96e0b-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="23a15-134">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="23a15-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="96e0b-134">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="96e0b-134">Column definition</span></span>
 
-<span data-ttu-id="23a15-135">Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi stig upplýsinga og fjárhagsgagna.</span><span class="sxs-lookup"><span data-stu-id="23a15-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="96e0b-135">Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi stig upplýsinga og fjárhagsgagna.</span><span class="sxs-lookup"><span data-stu-id="96e0b-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="23a15-136">**YTD og frávik - Sjálfgefnar gerðir dálka:**</span><span class="sxs-lookup"><span data-stu-id="23a15-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="23a15-137">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="23a15-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="23a15-138">**FD** – Fjárhagsgögn til dags. fyrir gildandi ár</span><span class="sxs-lookup"><span data-stu-id="23a15-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="23a15-139">**FD** – Fjárhagsgögn til dags. fyrir síðasta ár</span><span class="sxs-lookup"><span data-stu-id="23a15-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="23a15-140">**CALC** – Frávik frá frádregnu síðasta ári frá þessu ári</span><span class="sxs-lookup"><span data-stu-id="23a15-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="96e0b-136">**YTD og frávik - Sjálfgefnar gerðir dálka:**</span><span class="sxs-lookup"><span data-stu-id="96e0b-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="96e0b-137">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="96e0b-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="96e0b-138">**FD** – Fjárhagsgögn til dags. fyrir gildandi ár</span><span class="sxs-lookup"><span data-stu-id="96e0b-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="96e0b-139">**FD** – Fjárhagsgögn til dags. fyrir síðasta ár</span><span class="sxs-lookup"><span data-stu-id="96e0b-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="96e0b-140">**CALC** – Frávik frá frádregnu síðasta ári frá þessu ári</span><span class="sxs-lookup"><span data-stu-id="96e0b-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="23a15-141">**Dálkurinn Það sem af er ári - Sjálfgildi:**</span><span class="sxs-lookup"><span data-stu-id="23a15-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="23a15-142">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="23a15-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="23a15-143">**FD** – Fjárhagsgögn til dags. fyrir gildandi ár</span><span class="sxs-lookup"><span data-stu-id="23a15-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="96e0b-141">**Dálkurinn Það sem af er ári - Sjálfgildi:**</span><span class="sxs-lookup"><span data-stu-id="96e0b-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="96e0b-142">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="96e0b-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="96e0b-143">**FD** – Fjárhagsgögn til dags. fyrir gildandi ár</span><span class="sxs-lookup"><span data-stu-id="96e0b-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="23a15-144">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="23a15-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="96e0b-144">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="96e0b-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="23a15-145">Yfirlitssíða fjárhagsskýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="23a15-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="96e0b-145">Yfirlitssíða fjárhagsskýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="96e0b-145">Financial reporting overview</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="23a15-146">Skoða fjárhagsskýrslur</span><span class="sxs-lookup"><span data-stu-id="23a15-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="96e0b-146">Skoða fjárhagsskýrslur</span><span class="sxs-lookup"><span data-stu-id="96e0b-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="23a15-147">Dynamics Financial Reporting-blogg</span><span class="sxs-lookup"><span data-stu-id="23a15-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="96e0b-147">Dynamics Financial Reporting-blogg</span><span class="sxs-lookup"><span data-stu-id="96e0b-147">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

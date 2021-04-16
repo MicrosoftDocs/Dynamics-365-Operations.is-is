@@ -2,11 +2,9 @@
 title: Staðgreiðsluskattur í sölufærslum
 description: Þetta efnisatriði sýnir skrefin til að komast hjá útreikningi staðgreiðsluskatts fyrir valda viðskiptavini. Fyrir viðskiptavini sem tilgreina staðgreiðsluskatt í greiðslum til þín, er hægt að úthluta sjálfgefnum staðgreiðsluskattsflokki.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,52 +15,52 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: c839df1b54cdb60beefa6dc6c3fc6e945a6eac85
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8e11ce10faa9b450b6f36a856b34b06b4ee1838d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256644"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842345"
 ---
-# <a name="withholding-tax-in-sales-transactions"></a><span data-ttu-id="25337-104">Staðgreiðsluskattur í sölufærslum</span><span class="sxs-lookup"><span data-stu-id="25337-104">Withholding tax in sales transactions</span></span>
+# <a name="withholding-tax-in-sales-transactions"></a><span data-ttu-id="7135d-104">Staðgreiðsluskattur í sölufærslum</span><span class="sxs-lookup"><span data-stu-id="7135d-104">Withholding tax in sales transactions</span></span>
 
-<span data-ttu-id="25337-105">Þetta efnisatriði sýnir skrefin til að komast hjá útreikningi staðgreiðsluskatts fyrir valda viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="25337-105">This topic lists the steps for avoiding the calculation of withholding tax for selected customers.</span></span> <span data-ttu-id="25337-106">Fyrir viðskiptavini sem tilgreina staðgreiðsluskatt í greiðslum til þín, er hægt að úthluta sjálfgefnum **Staðgreiðsluskattsflokki** á síðunni **Viðskiptavinir**.</span><span class="sxs-lookup"><span data-stu-id="25337-106">For customers who specify withholding tax in their payments to you, you can assign the default **Withholding tax group** on the **Customers** page.</span></span> 
+<span data-ttu-id="7135d-105">Þetta efnisatriði sýnir skrefin til að komast hjá útreikningi staðgreiðsluskatts fyrir valda viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="7135d-105">This topic lists the steps for avoiding the calculation of withholding tax for selected customers.</span></span> <span data-ttu-id="7135d-106">Fyrir viðskiptavini sem tilgreina staðgreiðsluskatt í greiðslum til þín, er hægt að úthluta sjálfgefnum **Staðgreiðsluskattsflokki** á síðunni **Viðskiptavinir**.</span><span class="sxs-lookup"><span data-stu-id="7135d-106">For customers who specify withholding tax in their payments to you, you can assign the default **Withholding tax group** on the **Customers** page.</span></span> 
 
-1. <span data-ttu-id="25337-107">Farið í **Yfirlitssvæði > Einingar > Viðskiptakröfur > Viðskiptavinir > Allir viðskiptavinir**.</span><span class="sxs-lookup"><span data-stu-id="25337-107">Go to **Navigation pane > Modules > Accounts receivable > Customers > All customers**.</span></span>
+1. <span data-ttu-id="7135d-107">Farið í **Yfirlitssvæði > Einingar > Viðskiptakröfur > Viðskiptavinir > Allir viðskiptavinir**.</span><span class="sxs-lookup"><span data-stu-id="7135d-107">Go to **Navigation pane > Modules > Accounts receivable > Customers > All customers**.</span></span>
 
-2. <span data-ttu-id="25337-108">Smellið á tilheyrandi viðskiptavinalykil og smellið á **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="25337-108">Click the respective customer account, click **Edit**.</span></span>
+2. <span data-ttu-id="7135d-108">Smellið á tilheyrandi viðskiptavinalykil og smellið á **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="7135d-108">Click the respective customer account, click **Edit**.</span></span>
 
-3. <span data-ttu-id="25337-109">Í flipanum **Reikningsfæra og afhenda** skal stilla reitinn **Reikna staðgreiðsluskatt** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="25337-109">In the **Invoice and delivery** tab, set the **Calculate withholding tax** field to **Yes**.</span></span>
-
-   > [!NOTE] 
-   > <span data-ttu-id="25337-110">Staðgreiðsluskattur verður ekki reiknaður ef ekki er kveikt á **Reikna staðgreiðsluskatt** fyrir þennan viðskiptavin í aðalgögnunum.</span><span class="sxs-lookup"><span data-stu-id="25337-110">Withholding tax will not be calculated if **Calculate withholding tax** is not switched on for this customer in the master data.</span></span>
-
-4. <span data-ttu-id="25337-111">Veljið flokk staðgreiðsluskatts í **Staðgreiðsluskattsflokkur**.</span><span class="sxs-lookup"><span data-stu-id="25337-111">Select a withholding tax group in **Withholding tax group**.</span></span>
-
-5. <span data-ttu-id="25337-112">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="25337-112">Click **Save**.</span></span>
-
-<span data-ttu-id="25337-113">Fyrir vörur/þjónustu þar sem þarf að greiða staðgreiðsluskatt er hægt að úthluta sjálfgefnum **Staðgreiðsluskattsflokki vöru** í **Útgefnar afurðir**.</span><span class="sxs-lookup"><span data-stu-id="25337-113">For items/services, which are liable to withholding tax, you can assign the default **Item withholding tax group** in **Released Products**.</span></span>
-
-1. <span data-ttu-id="25337-114">Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Útgefnar afurðir**.</span><span class="sxs-lookup"><span data-stu-id="25337-114">Go to **Navigation pane > Modules > Product information management > Products > Released products**.</span></span>
-
-2. <span data-ttu-id="25337-115">Smellið á viðkomandi vörunúmer og smellið á **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="25337-115">Click the respective Item number, click **Edit**.</span></span>
-
-3. <span data-ttu-id="25337-116">Í flipanum **Selja** skal smella á **Reikna staðgreiðsluskatt**.</span><span class="sxs-lookup"><span data-stu-id="25337-116">In the **Sell** tab, click **Calculate withholding tax**.</span></span>
+3. <span data-ttu-id="7135d-109">Í flipanum **Reikningsfæra og afhenda** skal stilla reitinn **Reikna staðgreiðsluskatt** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="7135d-109">In the **Invoice and delivery** tab, set the **Calculate withholding tax** field to **Yes**.</span></span>
 
    > [!NOTE] 
-   > <span data-ttu-id="25337-117">Staðgreiðsluskattur verður ekki reiknaður ef **Reikna staðgreiðsluskatt** er ekki stillt á **Já** fyrir þessa vöru í flipanum **Selja** á síðunni **Útgefin afurð**.</span><span class="sxs-lookup"><span data-stu-id="25337-117">Withholding tax will not be calculated if **Calculate withholding tax** is not set to **Yes** for this Item in the **Sell** tab on the **Released product** page.</span></span>
+   > <span data-ttu-id="7135d-110">Staðgreiðsluskattur verður ekki reiknaður ef ekki er kveikt á **Reikna staðgreiðsluskatt** fyrir þennan viðskiptavin í aðalgögnunum.</span><span class="sxs-lookup"><span data-stu-id="7135d-110">Withholding tax will not be calculated if **Calculate withholding tax** is not switched on for this customer in the master data.</span></span>
 
-4. <span data-ttu-id="25337-118">Veljið staðgreiðsluskattflokk vöru úr listanum **Staðgreiðsluskattsflokkur**.</span><span class="sxs-lookup"><span data-stu-id="25337-118">Select an Item withholding tax group in **Item withholding tax group** list.</span></span>
+4. <span data-ttu-id="7135d-111">Veljið flokk staðgreiðsluskatts í **Staðgreiðsluskattsflokkur**.</span><span class="sxs-lookup"><span data-stu-id="7135d-111">Select a withholding tax group in **Withholding tax group**.</span></span>
 
-5. <span data-ttu-id="25337-119">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="25337-119">Click **Save**.</span></span>
+5. <span data-ttu-id="7135d-112">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="7135d-112">Click **Save**.</span></span>
 
-<span data-ttu-id="25337-120">Hægt er að úthluta staðgreiðsluskattsflokkum og staðgreiðsluskattflokkum vöru með því að nota síðuna **Sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="25337-120">Withholding tax groups and Item withholding tax groups can be assigned using the **Sales order** page.</span></span> 
+<span data-ttu-id="7135d-113">Fyrir vörur/þjónustu þar sem þarf að greiða staðgreiðsluskatt er hægt að úthluta sjálfgefnum **Staðgreiðsluskattsflokki vöru** í **Útgefnar afurðir**.</span><span class="sxs-lookup"><span data-stu-id="7135d-113">For items/services, which are liable to withholding tax, you can assign the default **Item withholding tax group** in **Released Products**.</span></span>
 
-<span data-ttu-id="25337-121">Sjálfgefinn staðgreiðsluskattsflokkur og staðgreiðsluskattflokkur vöru verða notaðir sem sjálfgefnar færslur í sölupöntunarlínum þegar ný sölupöntun er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="25337-121">The default Withholding tax group and Item withholding tax group will be used as default entries on sales order lines when you create a new sales order.</span></span>
+1. <span data-ttu-id="7135d-114">Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Útgefnar afurðir**.</span><span class="sxs-lookup"><span data-stu-id="7135d-114">Go to **Navigation pane > Modules > Product information management > Products > Released products**.</span></span>
 
-<span data-ttu-id="25337-122">Staðgreiðsluskattur er reiknaður og bókaður með **Greiðslubók viðskiptavinar**.</span><span class="sxs-lookup"><span data-stu-id="25337-122">Withholding tax is calculated and posted with **Customer payment journal**.</span></span> <span data-ttu-id="25337-123">Hægt er að leiðrétta viðeigandi staðgreiðsluskattskóða handvirkt rétt eins og raunverulega upphæð staðgreiðsluskatts í flipanum **Staðgreiðsluskattur** á síðunni **Jafna færslur**.</span><span class="sxs-lookup"><span data-stu-id="25337-123">You can manually adjust the applicable withholding tax code, as well as the actual withholding tax amount in the **Withholding tax** tab on the **Settle transactions** page.</span></span>
+2. <span data-ttu-id="7135d-115">Smellið á viðkomandi vörunúmer og smellið á **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="7135d-115">Click the respective Item number, click **Edit**.</span></span>
 
-<span data-ttu-id="25337-124">Reiknuð upphæð staðgreiðsluskatts verður dregin frá lánardrottnagreiðslunni og bókuð í **Mótlykli staðgreiðsluskatts** í tengdu fylgiskjali.</span><span class="sxs-lookup"><span data-stu-id="25337-124">The calculated withholding tax amount will be deducted from the customer payment and posted to the **Withholding tax offset** account in a related voucher.</span></span>
+3. <span data-ttu-id="7135d-116">Í flipanum **Selja** skal smella á **Reikna staðgreiðsluskatt**.</span><span class="sxs-lookup"><span data-stu-id="7135d-116">In the **Sell** tab, click **Calculate withholding tax**.</span></span>
+
+   > [!NOTE] 
+   > <span data-ttu-id="7135d-117">Staðgreiðsluskattur verður ekki reiknaður ef **Reikna staðgreiðsluskatt** er ekki stillt á **Já** fyrir þessa vöru í flipanum **Selja** á síðunni **Útgefin afurð**.</span><span class="sxs-lookup"><span data-stu-id="7135d-117">Withholding tax will not be calculated if **Calculate withholding tax** is not set to **Yes** for this Item in the **Sell** tab on the **Released product** page.</span></span>
+
+4. <span data-ttu-id="7135d-118">Veljið staðgreiðsluskattflokk vöru úr listanum **Staðgreiðsluskattsflokkur**.</span><span class="sxs-lookup"><span data-stu-id="7135d-118">Select an Item withholding tax group in **Item withholding tax group** list.</span></span>
+
+5. <span data-ttu-id="7135d-119">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="7135d-119">Click **Save**.</span></span>
+
+<span data-ttu-id="7135d-120">Hægt er að úthluta staðgreiðsluskattsflokkum og staðgreiðsluskattflokkum vöru með því að nota síðuna **Sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="7135d-120">Withholding tax groups and Item withholding tax groups can be assigned using the **Sales order** page.</span></span> 
+
+<span data-ttu-id="7135d-121">Sjálfgefinn staðgreiðsluskattsflokkur og staðgreiðsluskattflokkur vöru verða notaðir sem sjálfgefnar færslur í sölupöntunarlínum þegar ný sölupöntun er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="7135d-121">The default Withholding tax group and Item withholding tax group will be used as default entries on sales order lines when you create a new sales order.</span></span>
+
+<span data-ttu-id="7135d-122">Staðgreiðsluskattur er reiknaður og bókaður með **Greiðslubók viðskiptavinar**.</span><span class="sxs-lookup"><span data-stu-id="7135d-122">Withholding tax is calculated and posted with **Customer payment journal**.</span></span> <span data-ttu-id="7135d-123">Hægt er að leiðrétta viðeigandi staðgreiðsluskattskóða handvirkt rétt eins og raunverulega upphæð staðgreiðsluskatts í flipanum **Staðgreiðsluskattur** á síðunni **Jafna færslur**.</span><span class="sxs-lookup"><span data-stu-id="7135d-123">You can manually adjust the applicable withholding tax code, as well as the actual withholding tax amount in the **Withholding tax** tab on the **Settle transactions** page.</span></span>
+
+<span data-ttu-id="7135d-124">Reiknuð upphæð staðgreiðsluskatts verður dregin frá lánardrottnagreiðslunni og bókuð í **Mótlykli staðgreiðsluskatts** í tengdu fylgiskjali.</span><span class="sxs-lookup"><span data-stu-id="7135d-124">The calculated withholding tax amount will be deducted from the customer payment and posted to the **Withholding tax offset** account in a related voucher.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Skrá reikning lánardrottins og samsvara við móttekið magn
 description: Þegar reikningur er móttekinn frá lánardrottni fyrir vörur eða þjónustu á innkaupapöntun gætu viðskiptaferlin krafist þess að vörurnar eða þjónustan séu mótteknar áður en hægt er að samþykkja reikninginn til greiðslu.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
@@ -15,54 +13,54 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 66f3b3444b9ff6a93d83c97f1d962c3bdb0699c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a9d3fab4be1de90783d5885cf46b9e0cf6ee74b5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227113"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820618"
 ---
-# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="742c7-103">Skrá reikning lánardrottins og samsvara við móttekið magn</span><span class="sxs-lookup"><span data-stu-id="742c7-103">Record vendor invoice and match against received quantity</span></span>
+# <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="4f130-103">Skrá reikning lánardrottins og samsvara við móttekið magn</span><span class="sxs-lookup"><span data-stu-id="4f130-103">Record vendor invoice and match against received quantity</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="742c7-104">Þegar reikningur er móttekinn frá lánardrottni fyrir vörur eða þjónustu á innkaupapöntun gætu viðskiptaferlin krafist þess að vörurnar eða þjónustan séu mótteknar áður en hægt er að samþykkja reikninginn til greiðslu.</span><span class="sxs-lookup"><span data-stu-id="742c7-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="742c7-105">Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill reikningsjöfnunar sé valinn.</span><span class="sxs-lookup"><span data-stu-id="742c7-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
+<span data-ttu-id="4f130-104">Þegar reikningur er móttekinn frá lánardrottni fyrir vörur eða þjónustu á innkaupapöntun gætu viðskiptaferlin krafist þess að vörurnar eða þjónustan séu mótteknar áður en hægt er að samþykkja reikninginn til greiðslu.</span><span class="sxs-lookup"><span data-stu-id="4f130-104">When you receive an invoice from a vendor for goods or services on a purchase order, the business processes might require that the goods or services be received before the invoice can be approved for payment.</span></span> <span data-ttu-id="4f130-105">Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill reikningsjöfnunar sé valinn.</span><span class="sxs-lookup"><span data-stu-id="4f130-105">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> 
 
-<span data-ttu-id="742c7-106">Á síðunni færibreytum viðskiptaskulda, skal tryggja að valkosturinn Virkja sannprófun á reikningsjöfnun sé valinn, svæðið Bóka reikning með misræmi er stillt til að Krefjast samþykkis, og svæðið Línujöfnunarregla er stillt á þríhliða jöfnun.</span><span class="sxs-lookup"><span data-stu-id="742c7-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
+<span data-ttu-id="4f130-106">Á síðunni færibreytum viðskiptaskulda, skal tryggja að valkosturinn Virkja sannprófun á reikningsjöfnun sé valinn, svæðið Bóka reikning með misræmi er stillt til að Krefjast samþykkis, og svæðið Línujöfnunarregla er stillt á þríhliða jöfnun.</span><span class="sxs-lookup"><span data-stu-id="4f130-106">In the Accounts payable parameters page, ensure that the Enable invoice matching validation option is selected, the Post invoice with discrepancies field is set to Require approval, and the Line matching policy field is set to Three-way matching.</span></span>
 
-<span data-ttu-id="742c7-107">Þessi aðferð notar sýnigögn USMF fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="742c7-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="742c7-108">hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum.</span><span class="sxs-lookup"><span data-stu-id="742c7-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
+<span data-ttu-id="4f130-107">Þessi aðferð notar sýnigögn USMF fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="4f130-107">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="4f130-108">hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum.</span><span class="sxs-lookup"><span data-stu-id="4f130-108">The accounts payable manager or accounting manager role would perform these steps.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="742c7-109">Stofna innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="742c7-109">Create a purchase order</span></span>
-1. <span data-ttu-id="742c7-110">Fara í Allar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="742c7-110">Go to All purchase orders.</span></span>
-2. <span data-ttu-id="742c7-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="742c7-111">Click New.</span></span>
-3. <span data-ttu-id="742c7-112">Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="742c7-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="742c7-113">Í svæðinu Lánardrottnalykill skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="742c7-113">In the Vendor account field, type a value.</span></span>
-5. <span data-ttu-id="742c7-114">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="742c7-114">Click OK.</span></span>
-6. <span data-ttu-id="742c7-115">Smellið á „Bæta við línu“.</span><span class="sxs-lookup"><span data-stu-id="742c7-115">Click Add line.</span></span>
-7. <span data-ttu-id="742c7-116">Í reitnum Vörunúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="742c7-116">In the Item number field, type a value.</span></span>
-8. <span data-ttu-id="742c7-117">Smellið á „Innkaup“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="742c7-117">On the Action Pane, click Purchase.</span></span>
-9. <span data-ttu-id="742c7-118">Smellið á „Staðfesta“.</span><span class="sxs-lookup"><span data-stu-id="742c7-118">Click Confirm.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="4f130-109">Stofna innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="4f130-109">Create a purchase order</span></span>
+1. <span data-ttu-id="4f130-110">Fara í Allar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="4f130-110">Go to All purchase orders.</span></span>
+2. <span data-ttu-id="4f130-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="4f130-111">Click New.</span></span>
+3. <span data-ttu-id="4f130-112">Í reitnum Lánardrottnalykill skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="4f130-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="4f130-113">Í svæðinu Lánardrottnalykill skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4f130-113">In the Vendor account field, type a value.</span></span>
+5. <span data-ttu-id="4f130-114">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4f130-114">Click OK.</span></span>
+6. <span data-ttu-id="4f130-115">Smellið á „Bæta við línu“.</span><span class="sxs-lookup"><span data-stu-id="4f130-115">Click Add line.</span></span>
+7. <span data-ttu-id="4f130-116">Í reitnum Vörunúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4f130-116">In the Item number field, type a value.</span></span>
+8. <span data-ttu-id="4f130-117">Smellið á „Innkaup“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4f130-117">On the Action Pane, click Purchase.</span></span>
+9. <span data-ttu-id="4f130-118">Smellið á „Staðfesta“.</span><span class="sxs-lookup"><span data-stu-id="4f130-118">Click Confirm.</span></span>
 
-## <a name="post-a-product-receipt"></a><span data-ttu-id="742c7-119">Bóka innhreyfingarskjal afurða</span><span class="sxs-lookup"><span data-stu-id="742c7-119">Post a product receipt</span></span>
-1. <span data-ttu-id="742c7-120">Smellið á „Móttaka“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="742c7-120">On the Action Pane, click Receive.</span></span>
-2. <span data-ttu-id="742c7-121">Smellið á „Innhreyfingarskjal“.</span><span class="sxs-lookup"><span data-stu-id="742c7-121">Click Product receipt.</span></span>
-3. <span data-ttu-id="742c7-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="742c7-122">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="742c7-123">Í reitinn innhreyfingarskjal afurða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="742c7-123">In the Product receipt field, type a value.</span></span>
-5. <span data-ttu-id="742c7-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="742c7-124">Click OK.</span></span>
+## <a name="post-a-product-receipt"></a><span data-ttu-id="4f130-119">Bóka innhreyfingarskjal afurða</span><span class="sxs-lookup"><span data-stu-id="4f130-119">Post a product receipt</span></span>
+1. <span data-ttu-id="4f130-120">Smellið á „Móttaka“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4f130-120">On the Action Pane, click Receive.</span></span>
+2. <span data-ttu-id="4f130-121">Smellið á „Innhreyfingarskjal“.</span><span class="sxs-lookup"><span data-stu-id="4f130-121">Click Product receipt.</span></span>
+3. <span data-ttu-id="4f130-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4f130-122">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="4f130-123">Í reitinn innhreyfingarskjal afurða skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4f130-123">In the Product receipt field, type a value.</span></span>
+5. <span data-ttu-id="4f130-124">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4f130-124">Click OK.</span></span>
 
-## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="742c7-125">Skráðu og jafnaðu reikningu lánardrottins við innhreyfingarskjal afurða</span><span class="sxs-lookup"><span data-stu-id="742c7-125">Record and match a vendor invoice to a product receipt</span></span>
-1. <span data-ttu-id="742c7-126">Smellið á „Reikningur“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="742c7-126">On the Action Pane, click Invoice.</span></span>
-2. <span data-ttu-id="742c7-127">Smellið á „Reikningur“.</span><span class="sxs-lookup"><span data-stu-id="742c7-127">Click Invoice.</span></span>
-3. <span data-ttu-id="742c7-128">Í reitnum Númer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="742c7-128">In the Number field, type a value.</span></span>
-4. <span data-ttu-id="742c7-129">Smellt er á Sjálfgefið úr: Pantað magn til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="742c7-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
-5. <span data-ttu-id="742c7-130">Í reitnum sjálfgefið magn fyrir línur skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="742c7-130">In the Default quantity for lines field, select an option.</span></span>
-6. <span data-ttu-id="742c7-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="742c7-131">Click OK.</span></span>
-7. <span data-ttu-id="742c7-132">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="742c7-132">Click Yes.</span></span>
-8. <span data-ttu-id="742c7-133">Smellt er á Jafna innhreyfingarskjöl afurða.</span><span class="sxs-lookup"><span data-stu-id="742c7-133">Click Match product receipts.</span></span>
-9. <span data-ttu-id="742c7-134">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="742c7-134">Click OK.</span></span>
-10. <span data-ttu-id="742c7-135">Smellið á „Yfirfara“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="742c7-135">On the Action Pane, click Review.</span></span>
-11. <span data-ttu-id="742c7-136">Smellið á „Samsvörunarupplýsingar“.</span><span class="sxs-lookup"><span data-stu-id="742c7-136">Click Matching details.</span></span>
+## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a><span data-ttu-id="4f130-125">Skráðu og jafnaðu reikningu lánardrottins við innhreyfingarskjal afurða</span><span class="sxs-lookup"><span data-stu-id="4f130-125">Record and match a vendor invoice to a product receipt</span></span>
+1. <span data-ttu-id="4f130-126">Smellið á „Reikningur“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4f130-126">On the Action Pane, click Invoice.</span></span>
+2. <span data-ttu-id="4f130-127">Smellið á „Reikningur“.</span><span class="sxs-lookup"><span data-stu-id="4f130-127">Click Invoice.</span></span>
+3. <span data-ttu-id="4f130-128">Í reitnum Númer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4f130-128">In the Number field, type a value.</span></span>
+4. <span data-ttu-id="4f130-129">Smellt er á Sjálfgefið úr: Pantað magn til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4f130-129">Click Default from: Ordered quantity to open the drop dialog.</span></span>
+5. <span data-ttu-id="4f130-130">Í reitnum sjálfgefið magn fyrir línur skal velja valkost.</span><span class="sxs-lookup"><span data-stu-id="4f130-130">In the Default quantity for lines field, select an option.</span></span>
+6. <span data-ttu-id="4f130-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4f130-131">Click OK.</span></span>
+7. <span data-ttu-id="4f130-132">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="4f130-132">Click Yes.</span></span>
+8. <span data-ttu-id="4f130-133">Smellt er á Jafna innhreyfingarskjöl afurða.</span><span class="sxs-lookup"><span data-stu-id="4f130-133">Click Match product receipts.</span></span>
+9. <span data-ttu-id="4f130-134">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="4f130-134">Click OK.</span></span>
+10. <span data-ttu-id="4f130-135">Smellið á „Yfirfara“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4f130-135">On the Action Pane, click Review.</span></span>
+11. <span data-ttu-id="4f130-136">Smellið á „Samsvörunarupplýsingar“.</span><span class="sxs-lookup"><span data-stu-id="4f130-136">Click Matching details.</span></span>
 
 
 
