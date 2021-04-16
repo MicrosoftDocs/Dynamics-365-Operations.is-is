@@ -2,11 +2,9 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474064"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836914"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ ms.locfileid: "5474064"
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS-geymsla sem geymsluvalkostur fyrir skilgreiningar rafrænnar skýrslugerðar
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja Regulatory Configuration Service (RCS) altæka geymslu |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -51,7 +49,7 @@ ms.locfileid: "5474064"
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>„VSK-skýrsla (CZ)“ og „Control statement export (CZ)“ Snið rafrænnar skýrslugerðar fyrir Tékkland
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýrri snið |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -61,7 +59,7 @@ ms.locfileid: "5474064"
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>Rafræna skýrslugerðarsniðið „Útflutningssnið fjárhagsfærslu (BE)“ og samsvarandi gerð „Útflutningur fjárhagsáætlunar (BE)“ fyrir Belgíu
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýtt snið rafrænnar skýrslugerðar undir gerðinni „Stöðluð endurskoðunarskrá (SAF-T)“.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -71,7 +69,7 @@ ms.locfileid: "5474064"
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>„VSK 100“-skýrsla fyrir Bretland á SSRS-sniði
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýtt snið rafrænnar skýrslugerðar – sniðið „VSK-skýrsla á Excel (UK)“ undir „Skattframtalslíkan“.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
@@ -83,7 +81,7 @@ ms.locfileid: "5474064"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 stuðningi við Dynamics 365 hefur verið hætt
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
@@ -95,7 +93,7 @@ ms.locfileid: "5474064"
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Pólska SSRS skýrslur: VSK skrá yfir sölu, virðisaukaskattsskrá, ESB yfirlit virðisaukaskattsskrá - Tilvísun eiginleika PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki krafist lagalega.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já (Excel snið fyrir venjulega endurskoðunarskrá með virðisaukaskattsyfirlýsingu - JPK_VDEK) |
@@ -107,7 +105,7 @@ ms.locfileid: "5474064"
 
 ### <a name="norwegian-standard-main-accounts"></a>Aðallyklar Norwegian Standard
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Endurhönnun  |
 | **Skipt út fyrir aðra eiginleika?**   | Já (Skipt út fyrir forritssértækar færibreytur ER-sniðs) |
@@ -118,7 +116,8 @@ ms.locfileid: "5474064"
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.7 útgáfu
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Gluggi fyrir breytingu á verkflæðisbeiðni inniheldur ekki lengur fellivalmynd fyrir val á notendum
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skipt í aðgerðina með vali á lyklahópum.  |
 | **Skipt út fyrir aðra eiginleika?**   | Já |

@@ -2,11 +2,9 @@
 title: Setja upp sjálfgefnar lýsingar fyrir sjálfvirka bókun
 description: Þetta efnisatriði útskýrir hvernig hægt er að setja upp sjálfgefinn texta sem er notaður til að fylla í svæðið fyrir bókhaldsfærslur sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5955b796cbc7917eb5500b96c879d1b0819d2edc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3963b4ed63021dd3c84a0d87b768486dcb0f386d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204859"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837082"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Setja upp sjálfgefnar lýsingar fyrir sjálfvirka bókun
 

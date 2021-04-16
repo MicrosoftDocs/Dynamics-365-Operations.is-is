@@ -2,11 +2,9 @@
 title: Víddarstigveldi
 description: Þetta efni inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217387"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810175"
 ---
 # <a name="dimension-hierarchy"></a>Víddarstigveldi
 
@@ -124,12 +122,13 @@ Víddastigveldi sem uppfyllir skipulags tilkynningarskyldu hægt er að setja ei
 
 Hægt er að setja upp víddastigveldi fyrir skýrslugerð eins og sýnt er hér.
 
-|                   | Svið víddarstaks   |                         |
+**Svið víddarstaks**
+
+|   Hnútar           |   Úr víddarstaki   |   Til víddarstaks   |
 |-------------------|---------------------------|-------------------------|
-| **Hnútar**         | **Úr víddarstaki** | **Til víddarstaks** |
 | Fyrirtæki      |                           |                         |
 | &nbsp;&nbsp;Stjórnandi         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;Mannauður        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Framleiðsla    |                           |                         |
@@ -146,12 +145,13 @@ Víddastigveldi sem uppfyllir reglur er hægt að setja upp eins og sýnt er hé
 
 Hægt er að setja upp víddastigveldi fyrir regluna eins og sýnt er hér.
 
-|                   | Svið víddarstaks   |                         |
+**Svið víddarstaks**
+
+|   Hnútar           |   Úr víddarstaki   |   Til víddarstaks   |
 |-------------------|---------------------------|-------------------------|
-| **Hnútar**         | **Úr víddarstaki** | **Til víddarstaks** |
 | Kostnaðarhegðun     |                           |                         |
 | &nbsp;&nbsp;Fastur kostnaður    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Breytilegur kostnaður | 40001                     | 40010                   |
+| &nbsp;&nbsp;Breytilegur kostnaður | 40001                     | 40010                   |
 
 > [!NOTE]
 > Undir **Svið víddarstaks** getur hnútur innihaldið 1:_n_ svið víddarstaks. Hægt er að setja inn kenni víddarstaka sem eru ekki enn fyrir hendi sem víddarstök. Þessi aðferð gerir stigveldi endingargott fyrir seinni tíma.  
@@ -297,9 +297,10 @@ Mögulega munu allir stjórnendur geta opnað mjög viðkvæm viðskiptagögn sl
 
 Nýr flýtiflipi **Notendur** er tiltækur í stigveldishönnuði. Hér er hægt að færa inn eitt eða fleiri notandakenni í hverjum hnúti innan stigveldisins.
 
-|                 | Notendur            | Svið víddarstaks   |                         |
+**Notendur og svið víddarstaks**
+
+|   Hnútar         |   Kenni notanda        |   Úr víddarstaki   |   Til víddarstaks   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Hnútar**       | **Notandakenni**      | **Úr víddarstaki** | **Til víddarstaks** |
 | Fyrirtæki    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Stjórnandi         | Apríl            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | Alicia           | CC002                     | CC003                   |

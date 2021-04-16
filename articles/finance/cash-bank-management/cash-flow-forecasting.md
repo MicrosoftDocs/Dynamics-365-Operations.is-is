@@ -1,12 +1,10 @@
 ---
 title: Sjóðstreymisspár
 description: Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819651"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -45,8 +43,7 @@ Hægt er að samþætta sjóðstreymisspár við fjárhag, viðskiptaskuldir, vi
 - **Færslur í fjárhagsáætlunarskrá** – Færslur í fjárhagsáætlunarskrá sem eru valdar fyrir sjóðstreymisspár.
 - **Eftirspurnarspár** – Línur í birgðaspálíkani sem eru valdar fyrir sjóðstreymisspár.
 - **Birgðaspá** – Línur í birgðaspálíkani sem eru valdar fyrir sjóðstreymisspár.
-
-Jafnvel þótt engin bein samþætting sé milli verkefnastjórnunar og bókhalds eru nokkrar leiðir til að hafa verkfærslur með í sjóðstreymisspánni. Bókaðir verkreikningar eru hafðir með í spánni sem hluti af opnum viðskiptamannafærslum. Sölu- og innkaupapantanir sem koma úr verkefnum eru innifaldar í spánum sem opnar pantanir eftir að þær eru færðar inn í kerfið. Einnig er hægt að flytja verkspár í fjárhagsáætlunarlíkan. Þetta fjárhagsáætlunarlíkan er síðan tekið með í sjóðstreymisspá sem hluti af færslum í fjárhagsáætlun.
+- **Verkspár** - Verkefnastjórnun og bókhaldsspár með spárlíkani.
 
 ## <a name="configuration"></a>Grunnstilling
 
@@ -96,6 +93,14 @@ Hægt er að taka spár fyrir birgðaframboð og eftirspurn með í sjóðstreym
 Nýr flipi á síðunni **Uppsetning sjóðstreymisspár** gerir notendum kleift að hafa stjórn á því hvaða fjárhagsvíddir eru notaðar fyrir síun í vinnusvæðinu **Sjóðsstreymisspá**. Þessi flipi mun aðeins birtast þegar eiginleiki sjóðstreymisspár er virkur. 
 
 Á flipanum **Víddir** skal velja víddir af listanum sem á að nota fyrir síun og nota örvalyklana til að fara þá í dálkinn til hægri. Aðeins er hægt að velja tvær víddir til að sía spárgögn sjóðstreymisspár. 
+
+### <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
+
+Í útgáfu 10.0.17 gerir nýr eiginleiki samþættingu verkefnastjórnunar og bókhalds- og sjóðstreymisspáa mögulega. Á vinnusvæðinu **Eiginleikastjórnun** skal kveikja á eiginleikanum **Sjóðstreymisspá verks** til að taka með spákostnað og tekjur í sjóðstreymisspá. Á flipanum **Verkefnastjórnun og bókhald** á síðunni **Uppsetning sjóðsstreymisspár** skal velja þær verkgerðir og færslugerðir sem á að taka með í sjóðstreymisspá. Veljið svo verkspárlíkan. Undirlíkan fyrir minnkunargerð virkar best. Greiðslugetulyklarnir sem voru færðir inn í uppsetningu viðskiptakrafna eru notaðir sem sjálfgefinn greiðslugetulyklar. Þess vegna þarf ekki að færa inn sjálfgefna greiðslugetulykilal þegar sjóðstreymisspá er sett upp. Einnig er hægt að nota áætlunarlíkan en aðeins er hægt að velja eina gerð á síðunni **Uppsetning sjóðsstreymisspár** fyrir verkefnastjórnun og bókhald. Spárííkan veitir mestan sveigjanleika við notkun verkefnastjórnunar og bókhald eða Project Operations.
+
+Þegar kveikt er á eiginleika sjóðstreymis fyrir verk er hægt að skoða sjóðstreymisspá fyrir hvert verk á síðunni **Öll verk**. Á aðgerðasvæðinu, í flipanum **Áætlun**, í flokknum **Spá**, skal velja **Sjóðstreymisspá**. Á **Yfirlit yfir reiðufé** vinnusvæðum (sjá hlutann [Skýrslugerð](#reporting) síðar í þessu efnisatriði), sýnir spáfærslugerð innflæði (tekjur spáfærslu) og útflæði (kostnað spáfærslu). Aðeins er hægt að taka upphæðirnar með ef reiturinn **Verkefnastig** í **Yfirlit yfir reiðufé** vinnusvæði er stilltur á **Í vinnslu**.
+
+Verkfærslur eru enn innifaldar í sjóðstreymisspá á marga vegu, óháð því hvort kveikt sé á eiginleikanum **Sjóðstreymisspá verks** eða ekki. Bókaðir verkreikningar eru hafðir með í spánni sem hluti af opnum viðskiptamannafærslum. Sölu- og innkaupapantanir sem koma úr verkefnum eru innifaldar í spánum sem opnar pantanir eftir að þær eru færðar inn í kerfið. Einnig er hægt að flytja verkspár í fjárhagsáætlunarlíkan. Þetta fjárhagsáætlunarlíkan er síðan tekið með í sjóðstreymisspá sem hluti af færslum í fjárhagsáætlun. Ef kveikt er á eiginleikanum **Sjóðstreymisspá verks** skaltu ekki fleyjta verkspár í fjárhagsáætlunarlíkan, vegna þess að aðgerðin mun valda því að verkspárnar séu tvítaldar.
 
 ### <a name="calculation"></a>Útreikningur
 

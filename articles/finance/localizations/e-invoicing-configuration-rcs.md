@@ -1,12 +1,10 @@
 ---
-title: Skilgreina viðbót rafrænnar reikningsfærslu í Regulatory Configuration Services (RCS)
-description: Þetta efnisatriði útskýrir hvernig skilgreina á viðbót rafrænnar reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
+title: Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
+description: Þetta efnisatriði útskýrir hvernig skilgreina á rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592623"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840245"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Skilgreina viðbót rafrænnar reikningsfærslu í Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Í þessu efnisatriði er að finna upplýsingar um skilgreiningarmöguleika fyrir rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 
-Í þessu efnisatriði er að finna upplýsingar um skilgreiningarmöguleika fyrir viðbót rafrænnar reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
-
-Það er í gegnum skilgreiningarmöguleikana sem viðbót rafrænnar reikningsfærslu auðveldar þér að uppfylla kröfur fyrirtækis og reglugerða fyrir rafræna reikningsfærslu án þess að þurfa að gera einhverja kóðun. Og í aðstæðunum þar sem rafrænir reikningar verða að vera samþykktir rafrænt af vefþjónustu auðvelda skilgreiningarmöguleikarnir þér einnig að uppfylla kröfur um samskipti í gegnum skilaboð við vefþjónustur án þess að gera einhverja kóðun.
+Það er í gegnum skilgreiningarmöguleikana sem rafræn reikningsfærsla auðveldar þér að uppfylla kröfur fyrirtækis og reglugerða fyrir rafræna reikningsfærslu án þess að þurfa að gera einhverja kóðun. Og í aðstæðunum þar sem rafrænir reikningar verða að vera samþykktir rafrænt af vefþjónustu auðvelda skilgreiningarmöguleikarnir þér einnig að uppfylla kröfur um samskipti í gegnum skilaboð við vefþjónustur án þess að gera einhverja kóðun.
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 
-Rafræn skýrslugerð styður viðbót rafrænnar reikningsfærslu.
+Rafræn skýrslugerð styður rafræna reikningsfærslu.
 
-Vörpun og snið gagnalíkansins eru skilgreininalegir þættir sem eru búnir til og unnið með í gegnum rafræna skýrslugerð og notaðir í viðbót rafrænnar reikningsfærslu. Sniðshönnuður rafrænnar skýrslugerðar er verkfærið til að búa til og vinna með skráarsnið. Hann er notaður til að skilgreina eiginleika rafrænnar reikningsfærslu.
+Vörpun og snið gagnalíkansins eru skilgreininalegir þættir sem eru búnir til og unnið með í gegnum rafræna skýrslugerð og notaðir í rafrænni reikningsfærslu. Sniðshönnuður rafrænnar skýrslugerðar er verkfærið til að búa til og vinna með skráarsnið. Hann er notaður til að skilgreina eiginleika rafrænnar reikningsfærslu.
 
 Frekari upplýsingar eru í [Yfirlit yfir rafræna skýrslugerð (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Eiginleikar rafrænnar reikningsfærslu
 
-Eiginleikar rafrænnar reikningsfærslu bera ábyrgð á að mynda rafræna reikninga í gegnum viðbót rafrænnar reikningsfærslu. Þeir halda utan um skilgreiningarreglur og nota þær til að vinna úr gögnum sem Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management senda til viðbótar rafrænnar reikningsfærslu og rafrænna reikninga.
+Eiginleikar rafrænnar reikningsfærslu bera ábyrgð á að mynda rafræna reikninga í gegnum rafræna reikningsfærslu. Þeir halda utan um skilgreiningarreglur og nota þær til að vinna úr gögnum sem Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management senda til rafrænnar reikningsfærslu og rafrænna reikninga.
 
 Eiginleikarnir styðja líka aðstæður þar sem reglufylgni við forskriftir skráarsniðs er nauðsynleg og útkoman er sjálfstæð rafræn skrá. Í flestum tilfellum eru forskriftir skráarsniðs birt af skattyfirvöldum.
 
@@ -81,13 +77,13 @@ Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í for�
 
 Eiginleikar rafrænnar reikningsfærslu samanstanda af eftirfarandi flokkum skilgreinanlegra þátta:
 
-- **Snið** – Snið gera þér kleift að skilgreina hvað viðbót rafrænnar reikningsfærslu verður að mynda þegar rafrænt skjal verður að rafrænum reikningi. Snið fela í sér skilgreiningu sniðs fyrir rafrænan reikning og fyrir skrár og skilaboð sem eru notuð til að senda inn beiðnir og taka við svörum þegar samskipti við ytri vefþjónustu eru nauðsynleg.
-- **Aðgerðir** – Aðgerðir gera þér kleift að skilgreina hvernig viðbót rafrænnar reikningsfærslu myndar umbreytingu á rafrænu skjali sem Finance and Supply Chain Management sendu inn í rafrænan reikning.
-- **Gildissviðsreglur** – Gildissviðsreglur gera þér kleift að skilgreina samhengið sem viðbót rafrænnar reikningsfærslu verður að hafa í huga til að vinna úr eiginleika rafrænnar reikningsfærslu.
-- **Breytur** – Breytur gera þér kleift að skilgreina stuðninginn við smíði á rökum skilgreiningar. Breytur geta virkað sem innsláttur gilda til að framkvæma tiltekna aðgerð. Þær geta líka virkað sem skipti á gildum milli Finance and Supply Chain Management og viðbótar rafrænnar reikningsfærslu.
-- **Líkanavörpun rafræns skjals** – Líkanavörpun rafræns skjals gerir þér kleift að skilgreina líkanavörpun rafrænnar skýrslugerðar. Líkanavörpunin skilgreinir gagnavörpun á útdrætti reiknings sem er felldur inn í viðbót rafrænnar reikningsfærslu þegar rafræn skjöl eru send inn.
+- **Snið** – Snið gera þér kleift að skilgreina hvað rafrænnar reikningsfærslu verður að mynda þegar rafrænt skjal verður að rafrænum reikningi. Snið fela í sér skilgreiningu sniðs fyrir rafrænan reikning og fyrir skrár og skilaboð sem eru notuð til að senda inn beiðnir og taka við svörum þegar samskipti við ytri vefþjónustu eru nauðsynleg.
+- **Aðgerðir** – Aðgerðir gera þér kleift að skilgreina hvernig rafræn reikningsfærsla myndar umbreytingu á rafrænu skjali sem Finance and Supply Chain Management sendu inn í rafrænan reikning.
+- **Gildissviðsreglur** – Gildissviðsreglur gera þér kleift að skilgreina samhengið sem rafræn reikningsfærsla verður að hafa í huga til að vinna úr eiginleika rafrænnar reikningsfærslu.
+- **Breytur** – Breytur gera þér kleift að skilgreina stuðninginn við smíði á rökum skilgreiningar. Breytur geta virkað sem innsláttur gilda til að framkvæma tiltekna aðgerð. Þær geta líka virkað sem skipti á gildum milli Finance and Supply Chain Management og rafrænnar reikningsfærslu.
+- **Líkanavörpun rafræns skjals** – Líkanavörpun rafræns skjals gerir þér kleift að skilgreina líkanavörpun rafrænnar skýrslugerðar. Líkanavörpunin skilgreinir gagnavörpun á útdrætti reiknings sem er felldur inn í rafræna reikningsfærslu þegar rafræn skjöl eru send inn.
 - **Samhengislíkan reiknings** – Samhengislíkan reiknings gerir þér kleift að skilgreina samhengislíkan reiknings í rafrænni skýrslugerð og ákveða samhengi eiginleika rafrænnar reikningsfærslu.
-- **Svargerðir** – Svargerðir gera þér kleift að skilgreina hvað viðbót rafrænnar reikningsfærslu þarf að uppfæra í Finance and Supply Chain Management eftir úrvinnslu á rafræna reikningnum.
+- **Svargerðir** – Svargerðir gera þér kleift að skilgreina hvað rafræn reikningsfærsla þarf að uppfæra í Finance and Supply Chain Management eftir úrvinnslu á rafræna reikningnum.
 
 ### <a name="formats"></a>Snið
 
@@ -237,7 +233,7 @@ Eiginleikaútgáfur rafrænnar reikningsfærslu fylgja stuðningstíma sem er me
 
 - **Drög** – Ef útgáfa eiginleika er í þessari stöðu er hægt að breyta skilgreiningareigindum og öllum gervingum hennar (til dæmis skilgreiningum skráarsniðs).
 - **Lokið** – Ef útgáfa eiginleika er í þessari stöðu hefur hún verið birt í altækri geymslu sem tengist fyrirtækinu. Ekki er lengur hægt að breyta eiginleikaútgáfunni eða einhverjum þáttum rafrænnar skýrslugerðar.
-- **Birt** – Ef útgáfa eiginleika er í þessari stöðu hefur hún verið birt í viðbót rafrænnar reikningsfærslu. Ekki er lengur hægt að breyta eiginleikaútgáfunni eða einhverjum þáttum rafrænnar skýrslugerðar.
+- **Birt** – Ef útgáfa eiginleika er í þessari stöðu hefur hún verið birt í rafrænni reikningsfærslu. Ekki er lengur hægt að breyta eiginleikaútgáfunni eða einhverjum þáttum rafrænnar skýrslugerðar.
 
 ### <a name="feature-configurations"></a>Eiginleikastillingar
 
@@ -266,14 +262,14 @@ Uppsetning forrits verður að vera tengd við tengt forrit sem var áður stofn
 
 Í RCS er skipunin **Nota** notuð til að birta ákveðna eiginleikaútgáfu rafrænnar reikningsfærslu. Veljið **Nota** og veljið síðan einn af eftirfarandi valkostum til að skilgreina markmið uppsetningarinnar: 
 
-- **Þjónustuumhverfi** – Þegar markmið uppsetningarinnar er þjónustuumhverfið er útgáfa rafræns reikningsfærslueiginleika birt í þjónustuumhverfinu. Viðbót rafrænnar reikningsfærslu er þá tilbúin til að taka við og vinna úr rafrænum skjölum sem Finance and Supply Chain Management senda.
+- **Þjónustuumhverfi** – Þegar markmið uppsetningarinnar er þjónustuumhverfið er útgáfa rafræns reikningsfærslueiginleika birt í þjónustuumhverfinu. Rafræn reikningsfærsla er þá tilbúin til að taka við og vinna úr rafrænum skjölum sem Finance and Supply Chain Management senda.
 - **Tengt forrit** – Þegar markmið uppsetningarinnar er tengda forritið verður skilgreiningin sem gefin er upp af uppsetningu forritsins skrifuð í tilviki Finance and Supply Chain Management sem var tengt við hana á undan.
 
 Aðeins eiginleikaútgáfur rafrænnar reikningsfærslu sem eru með stöðuna **Lokið** er hægt að setja upp í annaðhvort þjónustuumhverfi eða tengt forrit.
 
 ### <a name="removing-feature-versions"></a>Fjarlægir eiginleikaútgáfu
 
-Í RCS er skipunin **Hætta að nota** notuð til að fjarlægja tiltekna eiginleikaútgáfu rafrænnar reikningsfærslu úr þjónustuumhverfi í viðbót rafrænnar reikningsfærslu.
+Í RCS er skipunin **Hætta að nota** notuð til að fjarlægja tiltekna eiginleikaútgáfu rafrænnar reikningsfærslu úr þjónustuumhverfi í rafrænni reikningsfærslu.
 
 > [!IMPORTANT]
 > Skipunin **Hætta að nota** virkar aðeins í þjónustuumhverfum. Það fjarlægir ekki eiginleikaútgáfur fyrir rafrænar reikningsfærslur úr tengdum forritum.

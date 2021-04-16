@@ -1,12 +1,10 @@
 ---
 title: Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
-description: Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
+description: Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur).
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8e882cb2063133324005a8e4585daa1c6a0752b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 64301ac540ce2e6e914b6b23668fddeb295ef84c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227475"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827987"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
+Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Önnur aðferðin stofnar fyrirframgreiðslureikning sem tengist innkaupapöntun. Hin aðferðin stofnar fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
 
 Fyrirtæki gæti gefið út fyrirframgreiðslur (fyrirframgreiðsla) til lánardrottna fyrir vörur eða þjónustu áður en þær vörur eða þjónustu hafa verið uppfylltar. Hægt er að nota tvær aðferðir til að gefa út fyrirframgreiðslur til lánardrottna. Til að lágmarka áhættu, er hægt að rekja fyrirframgreiðslur með því að skilgreina fyrirframgreiðslu á innkaupapöntun. Fyrir þessa aðferð, verður að stofna fyrirframgreiddum reikningi sem er tengd innkaupapöntun. Þessi aðferð er kallað reikningsfærsla fyrirframgreiðslu. Fyrirtæki sem vilja ekki rekja fyrirframgreiðslur jafn náið eða fá ekki fyrirframgreiðslureikning frá lánardrottni þeirra geta nota fylgiskjöl fyrirframgreiðslna í stað reikningsfærsluaðferð fyrirframgreiðslu. Hægt er að stofna færslubókafylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna. Fyrir þessa aðferð er ekki hægt að rekja hvaða fyrirframgreiðslu til lánardrottins eru gerðar á móti hvaða innkaupapantanir. Hins vegar er hægt að merkja bókaða fyrirframgreiðslu fyrir jöfnun á móti innkaupapöntun.
 
@@ -37,7 +35,7 @@ Fyrirtæki gæti gefið út fyrirframgreiðslur (fyrirframgreiðsla) til lánard
 | Fyrirframgreiðslurreikningsfærsla                                                                | Fyrirframgreiðslur                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Skilgreina gildi fyrirframgreiðslu í innkaupapöntuninni.                                    | Ekkert fyrirframgreiðslugildi er skilgreint í innkaupapöntuninni.                    |
-| Lykill: Fyrirframgreiðslureikning og endanlegam reikning verður að bóka.                       | Engin fyrirframgreiðslureikning verður að bóka.                                    |
+| Fyrirframgreiðslureikning og endanlegan reikning verður að bóka.                       | Engin fyrirframgreiðslureikning verður að bóka.                                    |
 | Skuld fyrir fyrirframgreiðsluna er geymt í lykli fyrirframgreiðslu, ekki AP lykli. | Skuld fyrir fyrirframgreiðsluna er geymt í AP lykil.                  |
 | Staða lánardrottins endurspeglar ekki gildi fyrirframgreiðslu í gegnum ferlið.     | Staða lánardrottins endurspeglar gildi fyrirframgreiðslu í gegnum ferlið. |
 | reikningsfærsla Fyrirframgreiðslu er aðeins tiltæk í Viðskiptaskuldir.                         | Fyrirframgreiðslur eru tiltækar í viðskiptaskuldum og viðskiptakröfum.    |
@@ -59,11 +57,41 @@ Fyrirframgreiðslureikningar er algengur viðskiptaháttur. Lánardrottinn gefur
 1.  Innkaupaaðilinn stofnar staðfestir og sendir svo hefur innkaupapöntun sem lánardrottinn hefur beðið um fyrirframgreiðslu fyrir. fyrirframgreiðslugildi er skilgreint í innkaupapöntuninni. sem hluti af samkomulaginu.
 2.  Lánardrottinn sendir inn fyrirframgreiðslureikning.
 3.  Samræmingaraðili viðskiptaskulda skráir fyrirframgreiðslureikning gagnvart innkaupapöntun, og síðan er fyrirframgreiðslureikningur greiddur.
-4.  Eftir að lánardrottinn afhendir vörum eða þjónustu, og tengdar reikningar lánardrottna hafa borist, beitir samræmingaraðili viðskiptaskulda upphæð fyrirframgreiðslu sem var þegar greidd gegn reikningnum.
-5.  Samræmingaraðili viðskiptaskulda greiðir og jafnar eftirstandandi upphæð reikningsins.
+4.  Lánardrottinn sendir beiðni um greiðslu, sem vísað er til sem staðlaður reikningur lánardrottins. Eftir að lánardrottinn afhendir vörum eða þjónustu, og tengdir staðlaðir reikningar lánardrottna hafa borist, beitir samræmingaraðili viðskiptaskulda upphæð fyrirframgreiðslu sem var þegar greidd gegn staðlaða reikningnum.
+5.  Samræmingaraðili viðskiptaskulda greiðir og jafnar eftirstandandi upphæð staðlaða reikningsins.
 
+## <a name="set-up-parameters-to-enable-the-prepayment-invoicing-process"></a>Setja upp færibreytur til að virkja reikningsfærsluferli fyrirframgreiðslu
+Tilgreina verður lykil fyrirframgreiðslu í flipanum **Innkaupapöntun** á síðunni **Birgðabókun** (**Birgðastjórnun \> Uppsetning \> Bókun \> Bókun**). Fyrirframgreiðslulykillinn verður uppfærður, yfirleitt debetfærður, þegar fyrirframgreiðslureikningurinn er bókaður. Inneign á fyrirframgreiðslulyklinum verður bakfærð þegar venjulegi reikningurinn sem notaður er í fyrirframgreiðslureikningi er bókaður. Ef fyrirframgreiðslureikningur er ekki jafnaður við greiðslu áður en fyrirframgreiðslureikningurinn er notaður sem staðlaður reikningur, verða bókhaldsfærslurnar úr bókuðum fyrirframgreiðslureikningi bakfærðar þegar staðlaði reikningurinn er bókaður.
 
+Mótfærslulykill fyrir samantekt viðskiptaskulda er skilgreindur í **Bókunarreglu lánardrottins**. Til að skilgreina sjálfgefnar bókunarforstillingar skal smella á **Viðskiptaskuldir \>Uppsetning \> Færibreytur viðskiptaskulda \>Flipi fjárhags og söluskatts \> Bókunarregla með fyrirframgreiddum reikningi lánardrottins**.
 
+**Regla um notkun fyrirframgreiðslu** gefur til kynna hvort kerfið muni sjálfkrafa nota jafnaða fyrirframgreiðslureikninga í lokareikningnum sem var stofnaður handvirkt. Reikningar sem eru búnir til með gagnaeiningu vísa ekki í **Reglu um notkun fyrirframgreiðslu**. Setja þarf handvirkt jafnaða fyrirframgreiðslureikninga á reikninga sem voru búnir til með gagnaeiningu. Til að skilgreina regluna skal fara í **Viðskiptaskuldir \>Uppsetning \> Færibreytur viðskiptaskulda \> Flipi fjárhags og söluskatts \> Regla um notkun fyrirframgreiðslu**. Ef reiturinn **Regla um notkun fyrirframgreiðslu** er stilltur á **Sjálfvirkt** verður fyrirframgreiðslureikningurinn sjálfkrafa merktur fyrir jöfnun við lokareikninginn. Ef reiturinn er stilltur á **Tilkynningu** birtist merki um að fyrirframgreiðslureikningur sé tiltækur til notkunar þegar lokareikningur er stofnaður.
+
+## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Stofna innkaupapöntun sem inniheldur upplýsingar um fyrirframgreiðslureikning
+Þegar lánardrottinn segir þér að hann krefjist fyrirframgreiðslu fyrir vörur og þjónustu sem er í innkaupapöntun verður að skilgreina fyrirframgreiðsluvirði fyrir tengda innkaupapöntun. Opnið **Viðskiptaskuldir \> Almennt \> Innkaupapantanir \> Allar innkaupapantanir** og finnið innkaupapöntun lánardrottins. Á aðgerðasvæðinu skal velja flipann **Innkaup** og síðan velja **Fyrirframgreiðsla**. Færið inn upplýsingar um fyrirframgreiðsluna, þar með talið lýsingu, virði fyrirframgreiðslunnar, hvort fyrirframgreiðsla er föst upphæð eða prósenta og kenni fyrirframgreiðslu tegund. 
+
+Athugið að margar skilgreiningar fyrirframgreiðslu í innkaupapöntun eru ekki leyfðar. Ef leyfa þarf margar fyrirframgreiðslur í innkaupapöntun skal bóka greiðslurnar með greiðslubókinni í stað fyrirframgreiðslureiknings.
+
+Fyrirframgreiðslan kann að vera fjarlægð úr innkaupapöntuninni nema þú hafir þegar jafnað greiðslu á móti bókuðum fyrirframgreiðslureikningi eða bókuðum stöðluðum reikningi. Til að fjarlægja upplýsingar um fyrirframgreiðslu úr innkaupapöntuninni skal velja **Viðskiptaskuldir \> Almennt \> Innkaupapantanir \> Allar innkaupapantanir** og finnið innkaupapöntun lánardrottins. Á aðgerðasvæðinu skal velja flipann **Innkaup** og síðan velja **Fjarlægja fyrirframgreiðslu**.
+
+## <a name="create-and-post-a-prepayment-invoice"></a>Stofna og bóka fyrirframgreiðslureikning
+Til að skrá fyrirframgreiðslureikning lánardrottins skal fara á síðuna **Reikningur lánardrottins** með því að velja valkostinn **Fyrirframgreiðslureikningur** á síðunni **Innkaupapantanir** (**Viðskiptaskuldir \> Almennt \> Innkaupapantanir \> Allar innkaupapantanir \> Reikningsflipi \> Fyrirframgreiðslureikningur**). Færið inn upplýsingar fyrir fyrirframgreiðslureikninginn, þ.m.t. reikningsnúmerið. Ekki er hægt að breyta magni fyrir fyrirframgreiðslureikning. Ef lánardrottinn hefur reikningsfært upphæð að hluta til fyrir virði fyrirframgreiðslunnar sem skilgreint er í innkaupapöntuninni er hægt að uppfæra einingarverðið til að endurspegla hlutavirðið.
+
+Þegar fyrirframgreiðslureikningurinn er bókaður verður inneign lánardrottins og lykill fyrirframgreiðslunnar uppfært. Virðið fyrir **Nota í fyrirframgreiðslu** í skilgreiningu fyrirframgreiðslunnar sem er að finna í innkaupapöntuninni verður einnig uppfært. Sjálfgefnar fjárhagsvíddarfærslur fyrir bókaða fylgiskjal fyrirframgreiðslunnar verið tekið úr upplýsingum í haus innkaupapöntunarinnar.
+
+## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Bóka og jafna greiðslur fyrir fyrirframgreiðslureikning
+Næst verður fyrirframgreiðslureikningurinn greiddur af síðunni **Greiðslubók**. Til að opna greiðslubækur skal smella á **Viðskiptaskuldir \> Færslubækur \> Greiðslur \> Greiðslubók**. Þegar jöfnun greiðslunnar hefur verið bókuð á fyrirframgreiðslureikninginn verður virðið fyrir **Eftirstöðvar fyrirframgreiðslu** í innkaupapöntuninni uppfært.
+
+Áður en staðlaði reikningurinn er bókaður fyrir fyrirframgreiðslureikninginn er hægt að bakfæra jöfnunina á greiðslunni í gegnum fyrirframgreiðslureikninginn. Hinsvegar, þegar staðlaður reikningur er notaður í fyrirframgreiðslureikningnum, verður ekki hægt að bakfæra greiðslujöfnunina í gegnum fyrirframgreiðslureikninginn.
+
+## <a name="post-the-standard-vendor-invoice-for-the-purchase-order-and-apply-the-prepayment-invoice-to-the-standard-invoice"></a>Bóka staðlaðan reikning lánardrottins fyrir innkaupapöntunina og notið fyrirframgreiðslureikninginn á staðlaða reikninginn
+Skrá venjulegan reikning frá lánardrottni. Sem hluti af þessu ferli er hægt að nota jafnaðan fyrirframgreiðslureikning í reikning lánardrottins þannig að virði reikningsins verður minnkað um upphæðina sem hefur þegar verið greidd. Ef fyrirframgreiðslureikningurinn er notaður í reikningi lánardrottins mun það tryggja að bókhaldsfærslur úr fyrirframgreiðslureikningnum verði bakfærðar.
+
+## <a name="application-of-the-prepayment-invoice-after-posting-the-standard-invoice"></a>Notkun fyrirframgreiðslureikningsins eftir bókun staðlaða reikningsins
+Ef gleymist að nota fyrirframgreiðsluna í stöðluðum reikningi lánardrottins þegar reikningur lánardrottins er bókaður, verður jöfnuð fyrirframgreiðsla tiltæk til notkunar á öðrum reikningum frá þessum lánardrottni á síðunni **Lánardrottnar** (**Viðskiptaskuldir \> Almennt \> Lánardrottnar \> Allir lánardrottnar \> Reikningsflipi \> Nota**).
+
+## <a name="reversal-of-the-prepayment-application-process"></a>Bakfærsla á notkunarferli fyrirframgreiðslu
+Ef þarf að ójafna eða bakfæra notkun fyrirframgreiðslureiknings í gegnum staðlaðan reikning skal velja aðgerðina **Bakfæra** á síðunni **Lánardrottnar** (**Viðskiptaskuldir \> Almennt \> Lánardrottnar \> Allir lánardrottnar \> Reikningsflipi \> Bakfæra**). Þegar notkun fyrirframgreiðslunnar er bakfærð er hægt að nota fyrirframgreiðsluna á annan staðlaðan reikning. 
 
 
 

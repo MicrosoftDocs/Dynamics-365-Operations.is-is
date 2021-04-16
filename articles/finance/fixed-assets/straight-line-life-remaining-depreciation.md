@@ -2,11 +2,9 @@
 title: Línuleg afskrift eftirstandandi líftíma
 description: Þessi grein gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823b2569670adfbf04038abca656e34f0199fce1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210096"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818513"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Línuleg afskrift eftirstandandi líftíma
 
@@ -57,9 +55,9 @@ Ef valið er **reikningsár** á svæðinu **afskriftarár** er línuleg afskrif
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Dæmi um Línuleg afskrift af óbreytt eign
 eignin hefur eftirfarandi eiginleika:
 
-|                     |        |
+| Svæði               | Virði  |
 |---------------------|--------|
-| Kaupverð    | 11.000 |
+| Kaupverð    | 11,000 |
 | Hrakvirði       | 1.000  |
 | Afskriftargrundvöllur   | 10.000 |
 | Líftími í árum  | 5      |

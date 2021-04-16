@@ -2,7 +2,6 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563995"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814321"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -37,7 +36,7 @@ ms.locfileid: "5563995"
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Runuvinnsla fyrir endurröðun SQL-atriðaskráar
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi eiginleiki hefur verið fjarlægður til þess að draga úr rekstrar-, eftirlits- og viðhaldskostnaði við stjórnun atriðaskráar eftir viðskiptavini. |
 | **Skipt út fyrir aðra eiginleika?**   | Héðan í frá mun Microsoft-þjónusta sjá um stjórnun atriðaskráar. Þetta gerist samfellt án þess að hafa áhrif á vinnuálag notanda. |
@@ -48,12 +47,10 @@ ms.locfileid: "5563995"
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.17 á forritum Finance and Operations
 
-> [!IMPORTANT]
-> Útgáfa 10.0.17 tiltæk sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Til að styðja við nýjustu útgáfur af Visual Studio þarf að gera nokkrar breytingar á viðbótum X++ fyrir Visual Studio. Þessar breytingar samhæfast ekki Visual Studio 2015. |
 | **Skipt út fyrir aðra eiginleika?**   | Visual Studio 2017 kemur í stað Visual Studio 2015 sem uppsett og áskild útgáfa. |
@@ -63,7 +60,7 @@ ms.locfileid: "5563995"
 
 ### <a name="user-avatar"></a>Notandapersóna notanda 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Notandapersóna notanda sem birtist hægra megin á yfirlitsstikunni var sótt með API úr yfirskriftarstýringu Dynamics 365 sem hefur verið úreld. |
 | **Skipt út fyrir aðra eiginleika?**   | Notendur munu sjá upphafsstafi sína í hring á yfirlitsstikunni í staðinn. Þetta er sýnt á sama hátt og í þróunarvélum. |
@@ -73,7 +70,7 @@ ms.locfileid: "5563995"
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Úrelding Enterprise Portal  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Gervingar lýsigagna sem tengjast Dynamics AX 2012 Enterprise Portal hafa verið gerðir úreldir þar sem Enterprise Portal var aldrei stutt í Finance and Operations-forritum. |
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert |
@@ -85,7 +82,7 @@ ms.locfileid: "5563995"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 stuðningi við Dynamics 365 hefur verið hætt
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
@@ -96,7 +93,7 @@ ms.locfileid: "5563995"
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio -viðbót til að nota flýtileiðréttingar
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bráðabætur lýsigagna eru ekki lengur studdar með uppfærsluþjónustum [One Version](../../fin-ops/get-started/one-version.md) sem kynntar voru í júlí 2018 með útgáfu 8.1. |
 | **Skipt út fyrir aðra eiginleika?**   | Stakar bráðabætur lýsigagna eru ekki í boði fyrir studdar útgáfur. Uppsafnaðar gæðauppfærslur eru notaðar í staðinn. |
@@ -109,7 +106,7 @@ ms.locfileid: "5563995"
 
 ### <a name="online-users-page"></a>Síða nettengds notanda 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þetta er eldri síða sem var byggð á fyrri uppsetningu biðlara/þjóns. Upplýsingarnar á þessari síðu eru ekki alltaf réttar, sem getur verið ruglingsleg og villandi. |
 | **Skipt út fyrir aðra eiginleika?**   | Við munum birta nýja síðu í síðari uppfærslu.|
@@ -123,7 +120,7 @@ ms.locfileid: "5563995"
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Sérstilltur kóði skilgreindur í eiginleikum SSRS-skýrslu 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Almennt býður sérstilltur kóðir upp á takmarkaðan ávinning og þarf á sama tíma umtalsverða tilfangagetu og útreikning fyrir stuðning. Sérstilltur kóði er fyrst og fremst notaður af skýrsluhöfundum til að kalla á opinberar aðferðir úr samsetningu sérstilltra kóða. Skýjaþjónustan styður hinsvegar ekki tilvísanir í sérstilltar samsetningar fyrir SSR-skýrslur. |
 | **Skipt út fyrir aðra eiginleika?**   | Skýrsluhöfundar geta valið að halda áfram að vísa í almenn .NET API fyrir útreiknings-, umreiknings- og sniðsaðgerðir úr hvers kyns textareitasegð. Frekari upplýsingar eru í [Bæta kóða við skýrslu (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
@@ -133,7 +130,7 @@ ms.locfileid: "5563995"
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Uppfærsla á þremur jQuery-þáttasöfnum 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Verið er að uppfæra þrjú jQuery-þáttasöfn í tengslum við öryggisuppfærslur og uppfærslu upplýsinga.   
 | **Skipt út fyrir aðra eiginleika?**   | Eftirfarandi söfn eru uppfærð: jQuery (að útgáfu 3.5.0 frá útgáfu 2.1.4), jQuery UI (að útgáfu 1.12.1 frá útgáfu 1.11.4), jQuery qTip (að útgáfu 3.0.3 frá útgáfu 2.2.1). jQuery hefur birt leiðbeiningar um flutninga á netinu.  |
@@ -143,7 +140,7 @@ ms.locfileid: "5563995"
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Fyrirliggjandi hnitanetsstýring/forceLegacyGrid() API
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Verið er að skipta út núverandi hnitanetsstýringu fyrir nýju hnitanetsstýringuna. |
 | **Skipt út fyrir aðra eiginleika?**   | [Ný hnitanetsstýring](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ ms.locfileid: "5563995"
 
 ### <a name="personalization-without-saved-views"></a>Sérstillingar án vistaðra yfirlita 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Undirkerfi sérstillinga hefur verið yfirfarið með eiginleikanum fyrir vistuð yfirlit þannig að afköstin verði betri og boðið verður upp á fleiri möguleika. |
 | **Skipt út fyrir aðra eiginleika?**   | Vistuð yfirlit |
@@ -166,7 +163,7 @@ ms.locfileid: "5563995"
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Viðbætur í hnitaneti eða hópstýringarsniði sem innihalda ógildar reitartilvísanir
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Gagnaflokkseiginleikinn í hnitaneti eða hópstýringum er notaður til að birta sjálfkrafa alla reiti reitahópsins. Hnitanet eða hópstýring sem bætt var við með viðbót getur innihaldið reiti sem eru ekki lengur skilgreindir í reitahópnum eða það gætu verið reitir sem vantar sem eru skilgreindir í reitahópnum. Þetta getur valdið ósamkvæmri hegðun á keyrslutíma. Verkvangsuppfærslur fyrir útgáfu 10.0.12 af Finance and Operations-forritum flokka nú þetta vandamál sem þýðingar *viðvörun*. Til að laga þetta vandamál skal opna snið viðbótar og vista hana.
 | **Skipt út fyrir aðra eiginleika?**   | Þýðingarviðvörunin verður skipt út fyrir þýðingarvillu í framtíðaruppfærslu. |
@@ -178,7 +175,7 @@ ms.locfileid: "5563995"
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Öruggir listar fyrir sjálfsafgreiðsluumhverfi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ferlið við að færa IP-tölur yfir á undanþágulista hefur breyst. Sjálfsafgreiðsla styður ekki lengur undanþágulista IP-talna. |
 | **Skipt út fyrir aðra eiginleika?**   | Nánari upplýsingar er að finna í [Skilgreining Azure Active Directory Skilyrðisbundinn aðgangur](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
@@ -188,7 +185,7 @@ ms.locfileid: "5563995"
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Til að styðja við nýjustu útgáfur af Visual Studio þarf að gera nokkrar breytingar á viðbótum X++ fyrir Visual Studio. Þessar breytingar samhæfast ekki Visual Studio 2015. |
 | **Skipt út fyrir aðra eiginleika?**   | Visual Studio 2017 kemur í stað Visual Studio 2015 sem uppsett og áskild útgáfa. |
@@ -198,7 +195,7 @@ ms.locfileid: "5563995"
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Reitahópar sem innihalda ógilda tilvísanareiti
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Reitahópar í skilgreiningum á lýsigögnum töflu geta innihaldið reitatilvísanir sem eru ekki gildar. Ef þessi reitahópar eru uppsettir geta þeir valdið keyrsluvillu í Financial Reporting og Microsoft SQL Server Reporting Services (SSRS). Uppfærsla pallsins 23 kynnti þýðanda *viðvörun* sem gerði kleift að taka á þessu lýsigagnavandamáli. Verkvangsuppfærslur fyrir útgáfu 10.0.11 á forritum Finance and Operations flokka þetta mál sem þýðanda *villa*.<p>Til að laga þetta vandamál skal fylgja þessum skrefum.</p><ol><li>Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.</li><li>Endurþýða.</li><li>Gakktu úr skugga um að tekið sé á öllum villum.</li></ol> |
 | **Skipt út fyrir aðra eiginleika?**   | Þessi þýðingarvilla kemur í staðinn fyrir viðvörun þýðandans.  |
@@ -208,7 +205,7 @@ ms.locfileid: "5563995"
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV leyfi búin til með því að nota endamerkja reikniritið SHA1
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ferlið til að búa til óháð leyfi fyrir hugbúnaðarframleiðanda (ISV) hefur breyst. Fyrir frekari upplýsingar, sjá [Óháð leyfi fyrir hugbúnaðarsöluaðila (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
 | **Skipt út fyrir aðra eiginleika?**   | Já. Notaðu Windows PowerShell til að búa til leyfi. |
@@ -219,7 +216,8 @@ ms.locfileid: "5563995"
 ## <a name="platform-update-32"></a>Update 32 fyrir verkvang
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Gluggi fyrir breytingu á verkflæðisbeiðni inniheldur ekki lengur fellivalmynd fyrir val á notendum
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þetta var öryggisatriði vegna þess að beiðni um breytingar var hægt að senda í ógáti til notanda. Þetta var einnig nothæfismál vegna þess að það neyddi notandann til að ákvarða hver upphafsmaður verkflæðisins var og velja þá handvirkt.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nr |
@@ -228,7 +226,8 @@ ms.locfileid: "5563995"
 | **Staða**                         | Listi notendavalsins var fjarlægður úr valmyndinni um breytingu á beiðni í uppfærslu á verkvangi 32. Beiðnir um breytingu verða sjálfkrafa sendar til höfundar eins og til er ætlast. Fyrir frekari upplýsingar um þessa virkni, sjá [Verkþættir í samþykktarferli verkflæðis](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Innfelldir boratenglar eru ekki lengur studdir í skjöluðum skjölum sem gefin eru af þjónustunni í skýinu 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vefslóðir sem eru felldar inn í skjöl sem þjónustan veitir geta innihaldið viðkvæm viðskiptagögn. Við erum að fjarlægja stuðning við innbyggða boratengla í skjölum sem öryggisráðstöfun til að vernda gögn viðskiptavinarins frekar. Notendur munu einnig njóta góðs af bættum árangri meðan þeir framleiða skjöl gagnvirkt vegna þessarar breytinga.  |
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert |

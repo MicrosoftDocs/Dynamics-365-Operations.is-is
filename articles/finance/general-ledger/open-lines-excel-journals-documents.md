@@ -2,11 +2,9 @@
 title: Birta færslubókarlínur og skjöl úr Excel
 description: Í þessu efnisatriði er útskýrt hvernig á að færa inn og birta línur fyrir almennar færslubækur úr Microsoft Excel. Það felur í sér upplýsingar um mismunandi sniðmát sem nota má, eftir gerð þeirra færslna sem verið er að færa inn.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f87ce1dcbae779f875abcbffd1781bbf076b1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230251"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834477"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Birta færslubókarlínur og skjöl úr Excel
 
@@ -32,9 +30,8 @@ ms.locfileid: "5230251"
 
 Notendur geta fært inn og birt línur fyrir fjárhagsbækur úr Microsoft Excel. Þegar notandi stofnar færslubók, birtir **Opna línur í Excel** hnappurinn sniðmát sem eru í boði. Sniðmát eru hönnuð til að styðja tilteknar aðstæður, hins vegar styður færslubókin ekki allar samsetningar reikningsgerða. Eftirfarandi tafla sýnir sniðmátin sem eru í boði og reikningagerðir sem þau styðja.
 
-|                          |                                                                                                                         |                                                                                         |
+| Sniðmát             | Studdar reikningsgerðir | Hvernig sniðmátið er valið                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Sniðmát**             | **Studdar reikningsgerðir**                                                                                             | **Hvernig sniðmátið er valið**                                                          |
 | Fjárhagsfærslubókarlínur     | Reikningar: Fjárhagur, Viðskiptavinur, Lánardrottinn, Mótfærslureikningur banka: Fjárhagur, Viðskiptavinur, Lánardrottinn, Samstæðulykill banka er studd.       | Almenn færslubók                                                                         |
 | Komubók         | Reikningar: Mótlykill lánardrottins: Fjárhagssamstæða er ekki studd.                                                    | Viðskiptaskuldir, komubók                                                                     |
 | Reikningabók          | Reikningar: Mótlykill lánardrottins: Fjárhagssamstæða er studd.                                                      | Færslubók fyrir reikninga viðskiptavinar                                                                      |

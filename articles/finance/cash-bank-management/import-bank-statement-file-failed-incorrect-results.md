@@ -2,11 +2,9 @@
 title: Úrræðaleit vegna innflutnings bankayfirlitsskrár
 description: Það er mikilvægt að bankayfirlitsskránni frá bankanum samsvari útliti sem Microsoft Dynamics 365 Finance styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu.
 author: panolte
-manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac82a269e8f7773c58517ef017576c82c52039cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0e01881a6b68526479d27014d49a718069cffc9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253964"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815885"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Úrræðaleit vegna innflutnings bankayfirlitsskrár
 
@@ -35,11 +33,14 @@ ms.locfileid: "5253964"
 
 Þegar þú hefur reynt að flytja inn bankayfirlitsskránni, skaltu fara í vinnslusögu gagnastjórnunar og í Gögn og upplýsingar um framkvæmd til að finna villuna. Villan getur hjálpað til með því vísa til yfirlits, stöðu eða uppgjörslínu. Hins vegar er ólíklegt að hún veiti nægar upplýsingar til að auðvelda að auðkenna svæði eða einingu sem veldur vandamálinu.
 
+> [!NOTE]
+> Innflutt bankayfirlit geta aðeins skarast fyrir einn tímapunkt.  Ef uppgjöri lýkur til dæmis klukkan 12:00 þann 1. janúar, 2021 þá er upphafsdagsetningin fyrir næsta uppgjör kl. 12:00 þann 1. janúar, 2021 12:00:00.
+
 ## <a name="what-are-the-differences"></a>Hver er munurinn?
 Berðu saman skilgreiningu útlits bankaskrár við innflutningsskilgreiningu Finance og taktu eftir öllu misræmi í reitum og einingum. Berðu saman bankayfirlitsskrána við tengda sýnisskrá Finance. Í ISO20022 skrárnar ætti að vera auðvelt að sjá mismun.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Munur á tímabelti á innfluttum bankayfirliti
-Gildin á dagsetningunni í innflutningsskránni geta verið önnur en gildistíminn sem birtist í Finance and Operations. Til að koma í veg fyrir þetta misræmi, sláðu inn tímabelti sem valinn er á síðunni **Stilla gagnaveitur**. Sjáðu [Setja upp þróaða innflutningsferli banka](set-up-advanced-bank-reconciliation-import-process.md) til að fá frekari upplýsingar um að slá inn tímabeltisval.
+Gildin á dagsetningunni í innflutningsskránni geta verið önnur en gildistíminn sem birtist í Finance and Operations. Til að koma í veg fyrir þetta misræmi, sláðu inn tímabelti sem valinn er á síðunni **Stilla gagnaveitur**. Frekari upplýsingar um að slá inn tímabeltisval má finna á [Setja upp þróaða innflutningsferli banka](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Umbreytingar
 Yfirleitt, verður að framkvæma breytinguna í einni af þremur umbreytingum. Hver umbreyting er skrifuð fyrir tiltekna staðla.
@@ -94,14 +95,13 @@ Stundum gætu debet verið flutt inn sem kredit og kredit verið flutt inn sem d
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator-sniðmát
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Dæmi um bankayfirlitssnið og tæknilegar útlit
-Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutningsskrár ítarlegrar bankaafstemmingar og þriggja tengdum skrám bankayfirlits: Þú getur hlaðið niður skáardæmum og tæknilegum útlitum hér: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
-
+Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutningsskrár ítarlegrar bankaafstemmingar og þriggja tengdum skrám bankayfirlits: Þú getur hlaðið niður skáardæmum og tæknilegum útlitum hér: [Flytja inn skráardæmi](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
 
 | Skilgreining tæknilegs útlits                             | Dæmi bankayfirlitsskránni          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| DynamicsAXMT940Layout                                   | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)                |
+| DynamicsAXISO20022Layout                                | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout                                    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)                 |
 
 
 

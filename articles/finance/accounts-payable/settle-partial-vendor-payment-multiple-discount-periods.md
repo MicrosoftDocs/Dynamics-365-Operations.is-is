@@ -2,11 +2,9 @@
 title: Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 description: Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbcaca97203c47bf7eac02ba410763a4e1a7b34a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56e2b3a8dadd824fa0170a1db19fffeaecb47775
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227281"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827867"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 
@@ -56,10 +54,10 @@ Eftirfarandi dagsetningar og upphæðir staðgreiðsluafsláttar eru tiltækar f
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/02/2015 |
-| Upphæð staðgreiðsluafsláttar         | 20.00    |
+| Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | -6.12     |
@@ -72,10 +70,10 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/02/2015 |
-| Upphæð staðgreiðsluafsláttar         | 20.00    |
+| Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | -6.00     |
@@ -105,7 +103,7 @@ Apríl ákveður að greiða 495,00 og taka 5,00 staðgreiðsluafslátt. Þess v
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |

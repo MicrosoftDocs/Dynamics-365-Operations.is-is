@@ -1,12 +1,10 @@
 ---
-title: Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+title: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
+description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592647"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840053"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Viðbót rafrænnar reikningsfærslu fyrir Mexíkó styður hugsanlega ekki sem stendur allar aðgerðir sem eru í boði í skjalinu Comprobante Fiscal Digital por Internet (CFDI) og í tengdri samþættingu sem er byggð inn í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+> Rafræn reikningsfærsla fyrir Mexíkó styður hugsanlega ekki sem stendur allar aðgerðir sem eru í boði í skjalinu Comprobante Fiscal Digital por Internet (CFDI) og í tengdri samþættingu sem er byggð inn í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 
 Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með viðbót rafrænnar reikningsfærslu](e-invoicing-get-started.md).
+Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -47,7 +45,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 4. Birta eiginleika rafrænnar reikningsfærslu fyrir CFDI-reikninga.
 
 > [!NOTE]
-> „Eiginleiki rafrænnar reikningsfærslu“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota þjón rafrænnar reikningsfærsluviðbótar. Í þessu tilfelli eru CFDI-reikningar (MX) eiginleikinn fyrir rafræna reikningsfærslu sem verður settur upp.
+> „Eiginleiki rafrænnar reikningsfærslu“ er almennt heiti fyrir tilfangið sem er skilgreint og gefið út til að nota þjón rafrænnar reikningsfærslu. Í þessu tilfelli eru CFDI-reikningar (MX) eiginleikinn fyrir rafræna reikningsfærslu sem verður settur upp.
 
 ## <a name="import-the-e-invoicing-feature"></a>Flytja inn eiginleika rafrænnar reikningsfærslu
 
@@ -153,9 +151,9 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 
 ![Stöðu eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Setja upp samþættingu á viðbót rafrænnar reikningsfærslu í Finance
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Setja upp samþættingu rafrænnar reikningsfærslu í Finance
 
-Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljúka þessum verkum:
+Til að setja upp rafræna reikningsfærslu í Finance þarf að ljúka þessum verkum:
 
 1. Flytjið inn gagnalíkan rafrænnar skýrslugerðar, gagnalíkansvörpun rafrænnar skýrslugerðar og snið sem eru nauðsynleg fyrir CFDI-reikninga.
 2. Skilgreinið svargerðir fyrir uppfærslu á CFDI-reikningum. Þessar svargerðir eru notaðar fyrir svar frá þjóni samþykktrar vottorðaveitu (PAC).
@@ -194,7 +192,7 @@ Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljú
     - Fyrir **Reikningabók viðskiptavinar** skal færa inn **Samhengi viðskiptavinareiknings**.
     - Fyrir **Verkreikningur** skal færa inn **Samhengi verkreiknings**.
 
-4. Veljið **Svargerðir** til að skilgreina svargerðirnar sem hægt er að skila úr viðbót rafrænnar reikningsfærslu og hafa með í reikningabók viðskiptavinar eða verkreikningi.
+4. Veljið **Svargerðir** til að skilgreina svargerðirnar sem hægt er að skila úr rafrænni reikningsfærslu og hafa með í reikningabók viðskiptavinar eða verkreikningi.
 5. Veljið **Nýtt** og svo, í reitnum **Svargerð**, skal velja **Svar**.
 6. Í reitnum **Staða sendingar** skal velja **Í bið**.
 7. Í reitnum **Líkanavörpun** skal velja **Innflutningssnið svarskilaboða - Líkanavörpun úr svarskilaboðum**.
@@ -206,7 +204,7 @@ Til að setja upp viðbót rafrænnar reikningsfærslu í Finance þarf að ljú
 
 ## <a name="process-electronic-invoices-in-finance"></a>Vinna úr rafrænum reikningum í Finance 
 
-Við vinnslu CFDI-reikninga í Finance í gegnum viðbót rafrænnar reikningsfærslu er hægt að framkvæma eftirfarandi verk:
+Við vinnslu CFDI-reikninga í Finance í gegnum rafræna reikningsfærslu er hægt að framkvæma eftirfarandi verk:
 
 - Senda inn rafræna CFDI-reikninga.
 - Skoða keyrslukladda fyrir sendingar.
@@ -214,7 +212,7 @@ Við vinnslu CFDI-reikninga í Finance í gegnum viðbót rafrænnar reikningsf�
 
 ### <a name="submit-cfdi-invoices"></a>Senda inn rafræna CFDI-reikninga
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, verður ekki lengur hægt að nota ferlið **Útflutningur/innflutningur á rafrænum reikningi** (**Viðskiptakröfur \> Reikningar \> Rafrænir reikningar**) til að senda inn CFDI-reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**, verður ekki lengur hægt að nota ferlið **Útflutningur/innflutningur á rafrænum reikningi** (**Viðskiptakröfur \> Reikningar \> Rafrænir reikningar**) til að senda inn CFDI-reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
 
 > [!NOTE]
 > Áður en nýja ferlið **Senda inn rafræn skjöl** er notað skal ganga úr skugga um að uppsetningunni sem þarf fyrir rafræna mexíkóska reikninga sé lokið. Frekari upplýsingar er að finna í [CFDI-útlitsútgáfu 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
@@ -226,7 +224,7 @@ Við vinnslu CFDI-reikninga í Finance í gegnum viðbót rafrænnar reikningsf�
 ![CFDI-skjal sent inn](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Í fyrstu tilraun til að senda inn skjal í gegnum þjónustuna verður beðið um að staðfesta tenginguna við viðbót rafrænnar reikningsfærslu. Veljið **Smelltu hér til að tengjast sendingarþjónustu rafrænna skjala**.
+> Í fyrstu tilraun til að senda inn skjal í gegnum þjónustuna verður beðið um að staðfesta tenginguna við rafræna reikningsfærslu. Veljið **Smelltu hér til að tengjast sendingarþjónustu rafrænna skjala**.
 
 ### <a name="view-submission-logs"></a>Skoða innsendingarkladda
 
@@ -234,7 +232,7 @@ Hægt er að skoða innsendingarkladda fyrir öll send skjöl eða fyrir aðeins
 
 #### <a name="view-all-submission-logs"></a>Skoða alla innsendingarkladda
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** er ný síða í boði sem gerir kleift að fylgja eftir innsendingarferli skjalsins. Hægt er að nota þessa síðu til að skoða innsendingarkladda fyrir öll send skjöl.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænnni reikningsfærslu** er ný síða í boði sem gerir kleift að fylgja eftir innsendingarferli skjalsins. Hægt er að nota þessa síðu til að skoða innsendingarkladda fyrir öll send skjöl.
 
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Innsendingarkladdi rafrænna skjala**.
 2. Í reitnum **Gerð skjals** skal velja **Reikningabók viðskiptavinar** til að sía fyrir nauðsynlegum rafrænum skjölum.
@@ -249,26 +247,26 @@ Upplýsingunum í innsendingarkladdanum er skipt niður á þrjá flýtiflipa:
 
 - **Vinnsluaðgerðir** - Þessi flýtiflipi sýnir keyrslukladdann fyrir aðgerðirnar sem eru skilgreindar í útgáfu eiginleikans sem var sett upp í RCS. Dálkurinn **Staða** sýnir hvort tekist hafi að keyra aðgerðina.
 - **Aðgerðaskrár** – Þessi flýtiflipi sýnir milliskrárnar sem voru myndaðar við keyrslu aðgerðanna. Hægt er að velja **Skoða** til að hlaða niður og skoða skrána.
-- **Aðgerðarkladdi vinnslu** - Þessi flýtiflipi sýnir niðurstöður samskiptanna milli viðbótar rafrænnar reikningsfærslu og tilheyrandi vefþjónustu. Hann sýnir hverju úrvinnsla vefþjónustunnar skilaði. Dálkurinn **Villukóði** sýnir skilakóðann sem vefþjónusta heimildar skilaði.
+- **Aðgerðarkladdi vinnslu** - Þessi flýtiflipi sýnir niðurstöður samskiptanna milli rafrænnar reikningsfærslu og tilheyrandi vefþjónustu. Hann sýnir hverju úrvinnsla vefþjónustunnar skilaði. Dálkurinn **Villukóði** sýnir skilakóðann sem vefþjónusta heimildar skilaði.
 
 Þegar innsendur CFDI-reikningur er heimilaður verður staða hans uppfærð í **Samþykktur**.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Skoða innsendingarkladda úr CFDI-reikningum
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu** er einnig hægt að skoða innsendingarkladdana úr CFDI-reikningum.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu** er einnig hægt að skoða innsendingarkladdana úr CFDI-reikningum.
 
 1. Farið í **Viðskiptakröfur \> Fyrirspurnir og skýrslur \> CFDI (rafrænir reikningar)**.
-2. Veljið CFDI-reikning sem var sendur inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**.
+2. Veljið CFDI-reikning sem var sendur inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**.
 3. Á aðgerðasvæðinu, í flipanum **Ferill**, skal velja **Kladdi rafræns skjals**.
 
 ![Innsendingarkladdar skoðaðir í CFDI-reikningum](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Fyrir CFDI-reikninga sem voru sendir inn áður en kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, er hnappurinn **Ferill** í boði. Hnappurinn **Ferill** er ekki tiltækur fyrir CFDI-reikninga sem voru sendir inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**.
+> Fyrir CFDI-reikninga sem voru sendir inn áður en kveikt var á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**, er hnappurinn **Ferill** í boði. Hnappurinn **Ferill** er ekki tiltækur fyrir CFDI-reikninga sem voru sendir inn eftir að kveikt var á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Senda inn afturköllun CFDI-reikninga
 
-Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri viðbót rafrænnar reikningsfærslu**, verður ekki lengur hægt að nota gamla ferlið til að hætta við CFDI-reikninga. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
+Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**, verður ekki lengur hægt að nota gamla ferlið til að hætta við CFDI-reikninga. Því er skipt út fyrir nýja afturköllunarferlið sem er fellt inn í síðuna **Innsendingarkladdi rafrænna skjala**.
 
 1. Farið í **Viðskiptakröfur \> Fyrirspurnir og skýrslur \> CFDI (rafrænir reikningar)**.
 2. Ef CFDI-reikningurinn er með stöðuna **Samþykktur** skal velja **Aðgerðir \> Hætta við CFDI**.
@@ -295,9 +293,9 @@ Til að virkja eiginleikann **CFDI - Mexíkóskur rafrænn reikningur (MX)** þa
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirlit innbótar rafrænna reikninga](e-invoicing-service-overview.md)
-- [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md)
-- [Setja upp viðbót rafrænnar reikningsfærslu](e-invoicing-setup.md)
+- [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md)
+- [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md)
+- [Setja upp rafrænar reikningsfærslur](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

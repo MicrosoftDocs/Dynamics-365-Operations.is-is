@@ -2,11 +2,9 @@
 title: Bókunargerðir leigusamnings
 description: Þetta efnisatriði lýsir bókunargerðunum sem eru notaðar fyrir eignaleigufærslur.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841142"
 ---
 # <a name="lease-posting-types"></a>Bókunargerðir leigusamnings
 
@@ -90,15 +88,6 @@ Lykillinn er tengdur við andstæðan eignalykil fyrir afnotarétt af eign. Þes
 **Dæmi um færslubókarfærslur:** Afskriftauppsöfnun<br>
 **Debet:** Afskriftakostnaður XXX<br>
 **Kredit:** Uppsafnaðar afskriftir XXX
-
-## <a name="retained-earnings"></a>Óráðstafað eigið fé
-
-Lykillinn er tengdur óráðstöfuðum tekjum. Þennan lykil má annaðhvort debetfæra eða kreditfæra í bókarfærslu leiðréttingar umbreytingar með því að nota fulla afturvirka aðferð eða uppsafnaða A-tiltektarvalkostinn. Mismunurinn milli upphaflegs afnotaréttar af eign og leiguskuldbindingar er bókaður í óráðstafaðar tekjur. Í örfáum tilvikum gætu óráðstafaðar tekjur einnig orðið fyrir áhrifum við breytingar á leigusamningi, ef flokkun leigusamnings er breytt úr fjármálum í rekstur við uppgjör eða niðurfærslu afnotaréttar af eign til að hann sé jafngildur leiguskuldbindingu.
-
-**Dæmi um bókarfærslur:** Leiðrétting umbreytingar (fullur afturkræfur eða uppsafnaður A-tiltektarvalkostur)<br>
-**Debet:** Leiguskuldbinding XXX<br>
-**Kredit:** Leigueign xxx<br>
-**Kredit:** Óráðstafaðar tekjur
 
 ## <a name="variable-payment"></a>Breytileg greiðsla
 

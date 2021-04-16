@@ -2,11 +2,9 @@
 title: Heimasíða Fjármálainnsýnar (forskoðun)
 description: Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3026517a20e7e59e6223894dcc8078e32e4a9c5e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245545"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818561"
 ---
 # <a name="finance-insights-home-page-preview"></a>Heimasíða Fjármálainnsýnar (forskoðun)
 

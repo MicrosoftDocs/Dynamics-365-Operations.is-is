@@ -2,11 +2,9 @@
 title: Stofna lánardrottnalykil og festa verktakamiða
 description: Þetta ferli fer í gegnum stofnun á reikningi lánardrottins með grunnstillingu fyrir verktakamiða.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, DirPartyLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0043e68535f42ab32ea88d440735e6563e00339d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 70e6a2de0cd5d2abf71ea5f2fd7bdd4179557dd5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230169"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822633"
 ---
 # <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category"></a>Stofna lánardrottnalykil og festa verktakamiða
 
