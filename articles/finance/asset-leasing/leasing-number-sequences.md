@@ -2,11 +2,9 @@
 title: Úthluta númeraröðum
 description: Þetta efnisatriði útskýrir hvernig á að búa til númeraraðir fyrir kenni leigusamnings. Það útskýrir einnig hvernig á að búa til einkvæm kenni sem eru notuð í endurmatsferli vísitölu.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3e89fb7616aff323d5815918a37e1fccf9b7f578
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a0b5d622df1e5dcdf7f1322328bce7e185f8edb8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207256"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819819"
 ---
 # <a name="assign-number-sequences"></a>Úthluta númeraröðum
 

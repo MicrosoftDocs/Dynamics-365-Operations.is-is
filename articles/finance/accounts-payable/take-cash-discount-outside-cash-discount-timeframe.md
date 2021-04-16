@@ -2,11 +2,9 @@
 title: Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
 description: Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235862"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810223"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
 
@@ -43,7 +41,7 @@ Apríl merkir reikninginn til greiðslu. Enginn staðgreiðsluafsláttur er teki
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
@@ -61,7 +59,7 @@ Ef bæði reikningur og greiðsla hefur verið bókuð, er enn hægt að fá sta
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Upphæð afsláttar sem er tekinn er 20,00, þar sem upphæðin til jöfnunar fyrir reikning er sjálfgefna upphæðin, 1,980.00.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
@@ -78,7 +76,7 @@ Apríl uppfærir gildið á svæðinu **Upphæð til jöfnunar** í **500,00**. 
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Gildið í svæðinu **Upphæð staðgreiðsluafsláttar sem á að taka** er **5,05**, þar sem upphæðin til jöfnunar fyrir reikninginn var breytt í greiðsluupphæðina 500,00.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |

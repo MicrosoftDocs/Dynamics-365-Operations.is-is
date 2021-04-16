@@ -2,11 +2,9 @@
 title: Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
 description: Þessi grein útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234118"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842369"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
 
@@ -46,9 +44,8 @@ Ef upphæð er hámark fyrra bils og lágmark næsta bils, mun söluskattshlutfa
 ## <a name="example-whole-amount-method-of-calculation"></a>Útreikningsaðferð heildarupphæðar: Dæmi
 Í síðunni gildi VSK-kóði, eru Skatthlutfall virðisaukaskatts sett upp í eftirfarandi tímabilum:
 
-|                   |                   |              |
+| Neðri mörk     | Hámarksgildi     | Skatthlutfall     |
 |-------------------|-------------------|--------------|
-| **Neðri mörk** | **Hámarksgildi** | **Skatthlutfall** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -65,9 +62,8 @@ virðisaukaskattur er reiknaður af allri skattskyldri upphæð.
 ## <a name="example-interval-method-of-calculation"></a>Útreikningsaðferð tímabila: Dæmi
 Í síðunni gildi, eru Skatthlutfall virðisaukaskatts sett upp í eftirfarandi tímabilum:
 
-|                   |                   |              |
+| Neðri mörk     | Hámarksgildi     | Skatthlutfall     |
 |-------------------|-------------------|--------------|
-| **Neðri mörk** | **Hámarksgildi** | **Skatthlutfall** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |

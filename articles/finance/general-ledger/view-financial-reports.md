@@ -2,11 +2,9 @@
 title: Skoða fjárhagsskýrslur
 description: Þetta efnisatriði lýsir því hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 Finance. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 author: kweekley
-manager: AnnBe
 ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d407eb33060c61a5899ba5cc021c8c1c6c77c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e744ade8b02b288821dd9142c85092d384db4b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240617"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816956"
 ---
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 

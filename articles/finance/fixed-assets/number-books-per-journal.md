@@ -2,11 +2,9 @@
 title: Fjöldi bóka í hverri færslubók
 description: Í þessu efnisatriði er lýst venslum á milli færslubóka og eignabóka þegar eignakaup eða afskriftartillaga er stofnuð í gegnum runuvinnslu. Hægt er að skilgreina hámarksfjölda bóka sem eru innifaldar fyrir hver kaup og fyrir afskriftir.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256716"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822034"
 ---
 # <a name="number-of-books-per-journal"></a>Fjöldi bóka í hverri færslubók
 
@@ -43,11 +41,14 @@ Hægt er að nota runuvinnslu til að keyra afskriftir fyrir sama safn af keyptu
 
 Runuvinnslu útilokar lokaðar bækur. Í runuvinnslu fyrir afskrift er t.d. 10 af fyrstu 2.000 bókunum lokað. Í þessu tilfelli mun fyrsta færslubókin innihalda bækur sem eru tengdar við eignir sem eru númeraðar 1 til 2011. Önnur færslubókin mun svo innihalda bækur sem eru tengdar við eignir sem eru númeraðar 2.012 til 4.000.
 
+> [!NOTE]
+> Ef eignaauðkenni með mismunandi skilmerkjum eru til staðar (eins og – eða /) og stofnuð er eignafærsla í runuvinnslum, verður að keyra aðskilda runuvinnslu fyrir hvert skiltákn. Ekki er hægt að vinna með mismunandi skiltákn innan sömu runuvinnslu.
+
 Mörkin á fjölda bóka eru notuð ef tvítekin eignaauðkenni eru ekki til í sömu færslubók. Hins vegar ef eignaauðkennið er það sama og auðkenni bókarinnar, er hægt að fara umfram fjölda bóka fyrir hverja færslubók til að halda eignaauðkenninu í sömu færslubók.
 
 Til dæmis eru til 5001 eignaauðkenni, þrjár bækur eru tengdar við hvert auðkenni og hver eignabók er bókuð á sama bókunarlagið. Afskriftir eru keyrðar fyrir þrjá samfellda mánuði, án samantektar.  Afskriftarbókin verður stofnuð í gegnum runuvinnslu og kerfið býr til sjö færslubækur með 667 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Útkoman verður 2.001 bækur. Eftir þrjá mánuði verða því 6003 færslubókarlínur til að viðhalda sömu auðkennum eignar í sömu færslubók. Kerfið stofnar einnig eina færslubók með 332 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Eftir þrjá mánuði verða línurnar 2.988.
 
-> [!Note] 
+> [!NOTE] 
 > Ef færibreytan **Sundurliða afskriftir** er virk þegar verið er að stofna afskriftartillögu, þá hefur gildið í **Fjöldi bóka í hverri færslubók - AfskriftartillAGA** engin áhrif. Í þessu máli ER fjöldi bóka í færslubók 6000, sem eru innri skilgreindu mörkin.
 
 
