@@ -2,11 +2,9 @@
 title: Heimasíða kostnaðarbókhalds
 description: Í þessu efnisatriði er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db93078c862cd468ec692d490876d825725f4253
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3485818ff67e20a5354e4bebc4903faaa36f6286
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219964"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841118"
 ---
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
@@ -36,7 +34,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 ## <a name="quick-links"></a>Flýtitenglar
 
-|      |   |
+| &nbsp; | &nbsp;  |
 |------|---|
 |  [Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)  |[Víddir kostnaðareiningar](cost-elements.md)  |
 |  [Víddarstigveldi](dimension-hierarchy.md)  |[Skilgreina kostnaðarstýringareiningar](./tasks/define-cost-control-units.md)| 
@@ -46,7 +44,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 ## <a name="get-started-videosbr"></a>Byrjendamyndskeið<br/>
 
-|  |  |                             |
+| &nbsp; | &nbsp;  | &nbsp;  |
 |------------------------|--------------------|-----------------------------|
 | [Hafist handa með kostnaðarbókhald](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Fartækjavinnusvæði kostnaðarbókhalds](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Nota Excel fyrir kostnaðarbókhaldsgreiningu](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 

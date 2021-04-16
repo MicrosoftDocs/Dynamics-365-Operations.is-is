@@ -2,11 +2,9 @@
 title: Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum
 description: Þessi grein fer með þig í gegnum aðstæður þar sem kreditreikningur er jafnaður gagnvart reikningi.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227305"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827843"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu lánardrottins sem er með afslætti á kreditnótum
 
@@ -42,10 +40,10 @@ lánardrottnar Fabrikam veita staðgreiðsluafslátt á kreditnótum. lánardrot
 
 Afsláttarupplýsingarnar fyrir kreditnótuna birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-|                              |           |
+| Svæði                        | Virði     |
 |------------------------------|-----------|
 | Dagsetning staðgreiðsluafsláttar           | 7/13/2015 |
-| Upphæð staðgreiðsluafsláttar         | 2,00      |
+| Upphæð staðgreiðsluafsláttar         | 2.00      |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 2,00      |
