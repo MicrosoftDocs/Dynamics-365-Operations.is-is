@@ -2,11 +2,9 @@
 title: Setja upp skyldubundnar greiðslutilvísanir
 description: Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Iceland
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd9e545dd90b54b6fdcc1d020936295f4435e8c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e39eb4967859a8a40dd60f1da207d9511ab63ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258163"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830397"
 ---
 # <a name="set-up-mandatory-payment-references"></a>Setja upp skyldubundnar greiðslutilvísanir
 
