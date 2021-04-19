@@ -1,12 +1,10 @@
 ---
 title: Áætlaðar verkbeiðnir viðhaldsvinnsla
 description: Þetta efni útskýrir tímasettar verkbeiðnir um viðhaldsverk í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,40 +12,40 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c8cea81d27f1671b54c4947b05bbc387667247c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a8a93f5252e2785329bf3d24414841cf724f0aa3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263807"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832419"
 ---
-# <a name="scheduled-work-order-maintenance-jobs"></a><span data-ttu-id="e71ef-103">Áætlaðar verkbeiðnir viðhaldsverka</span><span class="sxs-lookup"><span data-stu-id="e71ef-103">Scheduled work order maintenance jobs</span></span>
+# <a name="scheduled-work-order-maintenance-jobs"></a><span data-ttu-id="1919c-103">Áætlaðar verkbeiðnir viðhaldsverka</span><span class="sxs-lookup"><span data-stu-id="1919c-103">Scheduled work order maintenance jobs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="e71ef-104">Síðan **Skipulögð viðhaldsverk verkbeiðna** er sýnir yfirlit yfir verkbeiðnir sem úthlutað er á tilföng.</span><span class="sxs-lookup"><span data-stu-id="e71ef-104">The **Scheduled work order maintenance jobs** page shows an overview of the work orders allocated to a resource.</span></span> <span data-ttu-id="e71ef-105">Verkbeiðnir sem nota tilfangagerðirnar „Mannauður“, „Verkfæri“ og „Vél“ eru sýndar.</span><span class="sxs-lookup"><span data-stu-id="e71ef-105">Work orders using resource types "Human resources", "Tool", and "Machine" are shown.</span></span> <span data-ttu-id="e71ef-106">Til dæmis, ef viðhaldsstarfsmaður tilkynnir sig veikan er hægt að nota þessa síðu til að finna verkbeiðnir sem er úthlutað á starfskraftinn á fljótan hátt og úthluta síðan öðrum viðhaldsstarfsmanni til verksins.</span><span class="sxs-lookup"><span data-stu-id="e71ef-106">For example, if a maintenance worker calls in sick, you can use this page to quickly find work orders allocated to the worker, and then allocate another maintenance worker to the job.</span></span>
+<span data-ttu-id="1919c-104">Síðan **Skipulögð viðhaldsverk verkbeiðna** er sýnir yfirlit yfir verkbeiðnir sem úthlutað er á tilföng.</span><span class="sxs-lookup"><span data-stu-id="1919c-104">The **Scheduled work order maintenance jobs** page shows an overview of the work orders allocated to a resource.</span></span> <span data-ttu-id="1919c-105">Verkbeiðnir sem nota tilfangagerðirnar „Mannauður“, „Verkfæri“ og „Vél“ eru sýndar.</span><span class="sxs-lookup"><span data-stu-id="1919c-105">Work orders using resource types "Human resources", "Tool", and "Machine" are shown.</span></span> <span data-ttu-id="1919c-106">Til dæmis, ef viðhaldsstarfsmaður tilkynnir sig veikan er hægt að nota þessa síðu til að finna verkbeiðnir sem er úthlutað á starfskraftinn á fljótan hátt og úthluta síðan öðrum viðhaldsstarfsmanni til verksins.</span><span class="sxs-lookup"><span data-stu-id="1919c-106">For example, if a maintenance worker calls in sick, you can use this page to quickly find work orders allocated to the worker, and then allocate another maintenance worker to the job.</span></span>
 
-## <a name="view-scheduled-work-order-maintenance-jobs"></a><span data-ttu-id="e71ef-107">Skoða áætlaðar verkbeiðnir viðhaldsvinnsla</span><span class="sxs-lookup"><span data-stu-id="e71ef-107">View scheduled work order maintenance jobs</span></span>
+## <a name="view-scheduled-work-order-maintenance-jobs"></a><span data-ttu-id="1919c-107">Skoða áætlaðar verkbeiðnir viðhaldsvinnsla</span><span class="sxs-lookup"><span data-stu-id="1919c-107">View scheduled work order maintenance jobs</span></span>
 
-1. <span data-ttu-id="e71ef-108">Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Skipulagðar verkbeiðnir um viðhaldsverk**.</span><span class="sxs-lookup"><span data-stu-id="e71ef-108">Click **Asset management** > **Common** > **Work orders** > **Scheduled work order maintenance jobs**.</span></span> <span data-ttu-id="e71ef-109">Þú sérð lista yfir allar verkbeiðnir sem eru stilltar á líftímastöðu verkbeiðni „Skipulögð“ eða „Í vinnslu“.</span><span class="sxs-lookup"><span data-stu-id="e71ef-109">You see a list of all work orders set to work order lifecycle state "Scheduled" or "In progress".</span></span>
+1. <span data-ttu-id="1919c-108">Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Skipulagðar verkbeiðnir um viðhaldsverk**.</span><span class="sxs-lookup"><span data-stu-id="1919c-108">Click **Asset management** > **Common** > **Work orders** > **Scheduled work order maintenance jobs**.</span></span> <span data-ttu-id="1919c-109">Þú sérð lista yfir allar verkbeiðnir sem eru stilltar á líftímastöðu verkbeiðni „Skipulögð“ eða „Í vinnslu“.</span><span class="sxs-lookup"><span data-stu-id="1919c-109">You see a list of all work orders set to work order lifecycle state "Scheduled" or "In progress".</span></span>
 
-2. <span data-ttu-id="e71ef-110">Þú getur flokkað listann, til dæmis eftir viðhaldsstarfsmanni.</span><span class="sxs-lookup"><span data-stu-id="e71ef-110">You can sort the list, for example, by maintenance worker.</span></span> <span data-ttu-id="e71ef-111">Þú getur líka notað síuna til að takmarka listann til að birta verkbeiðnir sem eru úthlutaðar á tiltekin tilföng eða viðhaldsstarfsmann.</span><span class="sxs-lookup"><span data-stu-id="e71ef-111">You can also use the filter to limit the list to display work orders allocated to a specific resource or maintenance worker.</span></span>
+2. <span data-ttu-id="1919c-110">Þú getur flokkað listann, til dæmis eftir viðhaldsstarfsmanni.</span><span class="sxs-lookup"><span data-stu-id="1919c-110">You can sort the list, for example, by maintenance worker.</span></span> <span data-ttu-id="1919c-111">Þú getur líka notað síuna til að takmarka listann til að birta verkbeiðnir sem eru úthlutaðar á tiltekin tilföng eða viðhaldsstarfsmann.</span><span class="sxs-lookup"><span data-stu-id="1919c-111">You can also use the filter to limit the list to display work orders allocated to a specific resource or maintenance worker.</span></span>
 
-3. <span data-ttu-id="e71ef-112">Þú getur séð minnispunkta um verkbeiðnina og, ef þörf krefur, bætt við nýjum athugasemdum með því að velja verkbeiðnivinnsluna og smella á **Minnispunktar**.</span><span class="sxs-lookup"><span data-stu-id="e71ef-112">You can see notes on the work order and, if required, add new notes by selecting the work order job, and then click **Notes**.</span></span>
+3. <span data-ttu-id="1919c-112">Þú getur séð minnispunkta um verkbeiðnina og, ef þörf krefur, bætt við nýjum athugasemdum með því að velja verkbeiðnivinnsluna og smella á **Minnispunktar**.</span><span class="sxs-lookup"><span data-stu-id="1919c-112">You can see notes on the work order and, if required, add new notes by selecting the work order job, and then click **Notes**.</span></span>
 
-4. <span data-ttu-id="e71ef-113">Ef þú vilt úthluta einum viðhaldsstarfsmanni á verkbeiðni skaltu velja verkbeiðnina og smella síðan á **Verkbeiðni**.</span><span class="sxs-lookup"><span data-stu-id="e71ef-113">If you want to allocate one maintenance worker to a work order, select the work order, and then click **Work order**.</span></span>
+4. <span data-ttu-id="1919c-113">Ef þú vilt úthluta einum viðhaldsstarfsmanni á verkbeiðni skaltu velja verkbeiðnina og smella síðan á **Verkbeiðni**.</span><span class="sxs-lookup"><span data-stu-id="1919c-113">If you want to allocate one maintenance worker to a work order, select the work order, and then click **Work order**.</span></span>
 
-5. <span data-ttu-id="e71ef-114">Síðan **Verkbeiðni** opnast.</span><span class="sxs-lookup"><span data-stu-id="e71ef-114">The **Work order** page opens.</span></span> <span data-ttu-id="e71ef-115">Smelltu á **Senda** til að skipuleggja verkbeiðnina til ákveðins viðhaldsstarfsmanns.</span><span class="sxs-lookup"><span data-stu-id="e71ef-115">Click **Dispatch** to schedule the work order to a specific maintenance worker.</span></span>
+5. <span data-ttu-id="1919c-114">Síðan **Verkbeiðni** opnast.</span><span class="sxs-lookup"><span data-stu-id="1919c-114">The **Work order** page opens.</span></span> <span data-ttu-id="1919c-115">Smelltu á **Senda** til að skipuleggja verkbeiðnina til ákveðins viðhaldsstarfsmanns.</span><span class="sxs-lookup"><span data-stu-id="1919c-115">Click **Dispatch** to schedule the work order to a specific maintenance worker.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="e71ef-116">Lestu meira um tímasetningu nokkurra verkbeiðna eða einnar verkbeiðni í [Skipuleggja verkbeiðnir](../work-order-scheduling/schedule-work-orders.md) og [Senda vinnu röð](../work-order-scheduling/dispatch-work-order.md).</span><span class="sxs-lookup"><span data-stu-id="e71ef-116">Read more about scheduling several work orders or one work order in [Schedule work orders](../work-order-scheduling/schedule-work-orders.md) and [Dispatch work order](../work-order-scheduling/dispatch-work-order.md).</span></span>
+><span data-ttu-id="1919c-116">Lestu meira um tímasetningu nokkurra verkbeiðna eða einnar verkbeiðni í [Skipuleggja verkbeiðnir](../work-order-scheduling/schedule-work-orders.md) og [Senda vinnu röð](../work-order-scheduling/dispatch-work-order.md).</span><span class="sxs-lookup"><span data-stu-id="1919c-116">Read more about scheduling several work orders or one work order in [Schedule work orders](../work-order-scheduling/schedule-work-orders.md) and [Dispatch work order](../work-order-scheduling/dispatch-work-order.md).</span></span>
 
-<span data-ttu-id="e71ef-117">Eftirfarandi skjámynd sýnir dæmi um síðuna **Skipulögð viðhaldsverk verkbeiðni**.</span><span class="sxs-lookup"><span data-stu-id="e71ef-117">The following screenshot shows an example of the **Scheduled work order maintenance jobs** page.</span></span>
+<span data-ttu-id="1919c-117">Eftirfarandi skjámynd sýnir dæmi um síðuna **Skipulögð viðhaldsverk verkbeiðni**.</span><span class="sxs-lookup"><span data-stu-id="1919c-117">The following screenshot shows an example of the **Scheduled work order maintenance jobs** page.</span></span>
 
 ![Mynd 1](media/07-work-order-scheduling.png)
 
