@@ -2,11 +2,9 @@
 title: Sjálfvirk staðfesting með fínstillingu skipulagningar
 description: Þetta efni útskýrir hvernig á að nota sjálfvirka styrkingu með fínstillingu skipulagsins.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 9106137fe6dd097beea9914cdde541e581946f46
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3542e343de29c9fd9d19ed99cab4b4eebacd2899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227796"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813004"
 ---
 # <a name="autofirming-with-planning-optimization"></a>Sjálfvirk staðfesting með fínstillingu skipulagningar
 
@@ -33,6 +31,8 @@ Sjálfvirk styrking gerir þér kleift að festa (það er að losa) fyrirhugað
 
 > [!NOTE]
 > Sjálfvirk staðfesting áætlaðrar innkaupapöntunar getur aðeins farið fram ef varan er tengd lánardrottni.
+> 
+> Staðfestar afleiðupantanir (innkaupapantanir undirverktaka) mun sýna stöðuna á *Í endurskoðun* þegar breytingarrakning er virk.
 
 ## <a name="turn-on-autofirming"></a>Kveikja á sjálfvirkri staðfestingu
 

@@ -2,7 +2,6 @@
 title: Staða ferðar
 description: Þetta efnisatriði lýsir því hvernig á að koma á fót stöðugildunum sem notendur geta úthlutað á ferðir.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: b7180cc9ab2d13f2260635d717adb7aab2177ab9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 80433c17ed9d790d88b20ecc253c8e4459ffea10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500887"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829789"
 ---
 # <a name="voyage-status-setup"></a>Uppsetningarstaða ferðar
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Á síðunni **Ferðastöður** eru sett upp mengi stöðugilda sem notendur geta úthlutað á ferðir. Notendur geta úthlutað gildi ferðastöðu á öll stig ferðar: ferð, gám, fólíó, innkaupapöntun og vöru (innkaupalínur og flutningspöntunarlínur). Þetta er notað í tvennum tilgangi:
 

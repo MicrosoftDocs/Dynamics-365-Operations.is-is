@@ -2,11 +2,9 @@
 title: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 description: Þetta efnisatriði lýsir því hvernig á að nota keyrsluviðmót framleiðslugólfsins frá sjónarhóli starfsmanns.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500791"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814657"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Keyrsluviðmót framleiðslugólfsins er fínstillt fyrir snertingaskipanir. Hönnun þess býður upp á sjónræna skerpu sem mætir kröfum um aðgengi fyrir umhverfi vinnusalar. Það býður upp á alla sömu virkni og verkspjaldstækið. Hins vegar gerir það líka kleift að hefja margar vinnslur samhliða úr vinnslulistanum. (Þessi möguleiki er einnig þekktur sem *vinnslusamtvinnun*.) Þar að auki, úr vinnslulista, geta starfsmenn opnað leiðbeiningu sem var búin til í leiðarvísi Microsoft Dynamics 365. Á þennan hátt er hægt að fá sjónrænar leiðbeiningar á HoloLens.
 
@@ -90,7 +87,7 @@ Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum
 
 1. **Stillingar** – Veljið tannhjólið til að opna svarglugga þar sem hægt er að velja hvaða teljara á að skoða fyrir valda eign vélar. Gildi fyrir þessa teljara eru sýnd efst í flipanum **Eignastýring**. Valmyndin **Stillingar** (sem sýnd er í eftirfarandi skjámynd) gerir notanda kleift að virkja allt að fjóra teljara. Fyrir hvern teljara sem á að virkja skal nota uppflettireitinn efst í glugganum til að velja teljara. Uppflettireiturinn sýnir alla teljarana sem tengjast eigninni sem valin er efst á síðunni **Eignastýring**. Stillið hvern teljara til að annaðhvort fylgjast með gildinu fyrir **Uppsafnað** eða síðasta gildi fyrir **Raungildi** fyrir teljarann. Til dæmis ef teljari er settur á sem fylgist með hversu margar klukkustundir vél hefur verið í notkun, þá ætti að stilla hann á **Uppsafnað**. Ef settur er á teljari til að mæla síðasta uppfærða hitastig eða þrýsting, þá ætti að stilla hann á **Raungildi**. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
 
-    ![Flipinn fyrir vélina mína](media/pfei-my-machine-tab-settings.png "Flipinn fyrir vélina mína")
+    ![Flipastillingar fyrir vélina mína](media/pfei-my-machine-tab-settings.png "Flipastillingar fyrir vélina mína")
 
 1. **Biðja um viðhald** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að stofna viðhaldsbeiðni. Hægt er að skrifa lýsingu og athugasemd. Beiðnin verður send á notanda Supply Chain Management sem getur þá breytt viðhaldsbeiðninni í verkbeiðni viðhalds.
 1. **Skrá niðurtíma** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að skrá niðurtíma vélar. Hægt verður að velja ástæðukóða og slá inn dagsetningu/tímalengd niðurtímans. Skráning niðurtíma vélar er notuð til að reikna út skilvirkni á eign vélar.

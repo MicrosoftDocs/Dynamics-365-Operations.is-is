@@ -2,11 +2,9 @@
 title: Yfirlit hættulegra efna
 description: Í þessu efnisatriði er að finna yfirlit yfir eiginleika sem tengjast meðhöndlun og skráningu hættulegra efna við afurðarupplýsingastjórnun og vöruhúsastjórnun.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231889"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829379"
 ---
 # <a name="hazardous-materials-overview"></a>Yfirlit hættulegra efna
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Til að fylgja eftir reglum um sendingar og flutninga verða fyrirtæki sem senda efni sem flokkast sem hættulegur varningur að vera með aukalega pappírsvinnu með sendingum sínum. Eiginleiki hættulegra efna gerir viðskiptavinum kleift að geyma upplýsingar sem tengjast losuðum vörum. Þessar upplýsingar er síðan hægt að nota til að undirbúa flutningsgögn. Fyrirtæki sem sendir hættulegan varning verður að hafa eigin ferla og verklagsreglur til að stjórna sendingarferlinu. Microsoft Dynamics 365 Supply Chain Management er bara verkfæri sem getur hjálpað til við að búa til nauðsynleg skjöl.
 

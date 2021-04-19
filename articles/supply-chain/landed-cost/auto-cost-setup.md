@@ -2,7 +2,6 @@
 title: Uppsetning sjálfvirks kostnaðar
 description: Þetta efnisatriði lýsir því hvernig setja á upp kostnaðarreglur fyrir mismunandi ferðastig á innleið. Á grundvelli þessara reglna reiknar kerfið út kostnað og bætir þeim sjálfkrafa við. Því þurfa notendur ekki að bæta kostnaði við handvirkt.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501151"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841960"
 ---
 # <a name="auto-costs-setup"></a>Uppsetning sjálfvirks kostnaðar
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Hægt er að nota síðuna **Sjálfvirkur kostnaður** til að setja upp kostnaðarreglur fyrir ýmsa kostnaðarþætti (t.d. ferðir, sendingu, gáma, fólíó, innkaupapantanir, vörur eða flutningspöntunarlínur). Út frá reglunum og reitunum sem notendur velja þegar þeir stofna færslur fyrir einn kostnaðarþáttinn mun kerfið reikna kostnaðinn og bæta honum sjálfkrafa við. Því þurfa notendur ekki að bæta kostnaði við handvirkt.
 

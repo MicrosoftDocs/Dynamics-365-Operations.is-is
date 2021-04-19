@@ -2,7 +2,6 @@
 title: Stjórna ferðum
 description: Þetta efnisatriði útskýrir hvernig á að vinna með ferðir. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501007"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833786"
 ---
 # <a name="manage-voyages"></a>Stjórna ferðum
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
 
@@ -74,9 +72,9 @@ Eftirfarandi tafla lýsir aðgerðunum sem eru í boði í flipanum **Stjórna**
 | Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í ferðinni. Ef vörurnar í ferðinni fara í gegnum vöruflutningsferlið verða innkaupapöntunarlínurnar reikningsfærðar áður en móttökuferlið klárast. Þegar upprunalega innkaupapöntunin er reikningsfærð verða pantanir fyrir vörur í flutningi sem tengjast upprunalegum innkaupapöntunarlínum stofnaðar. Vöruhúsið getur þá móttekið þessar pantanir. Ef sendir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun reiknings fyrir hvert fyrirtæki. |
 | Senda flutningspöntun | Bókið ferð flutningspöntunar fyrir alla flutningspöntunarlínur ferðarinnar. Þegar þessi hnappur er valinn verða aðeins flutningspantanir í boði til uppfærslu. |
 | Taka á móti flutningspöntun | Bókið móttöku flutningspöntunar fyrir allar flutningspöntunarlínur ferðarinnar. |
-| Taka á móti vörum í flutningi | Takið á móti öllum pöntunarlínum sem eru í flutningi í ferðinni. Þessi hnappur er einn af þremur valmöguleikunum sem eru í boði til að taka á móti vörum í flutningi í ferð. (Hinir tveir valmöguleikarnri eru hnappurinn **Stofna komubók** sem er lýst seinna í þessari töflu og vöruhúsaforritið.) Þessi valmöguleiki er einfaldasti valkosturinn og mun afgreiða vörur í flutningi úr flutningsvöruhúsinu og inn í vöruhús áfangastaðar. Ef óskað er eftir frekari stjórn á ferlinu skal nota komubókina eða fartækið til að afgreiða móttöku á vörum. |
+| Taka á móti vörum í flutningi | Takið á móti öllum pöntunarlínum sem eru í flutningi í ferðinni. Þessi hnappur er einn af þremur valmöguleikunum sem eru í boði til að taka á móti vörum í flutningi í ferð. (Hinir tveir valmöguleikarnir eru hnappurinn **Stofna komubók** sem er lýst seinna í þessari töflu og farsímaforriti Vöruhúsakerfis.) Þessi valmöguleiki er einfaldasti valkosturinn og mun afgreiða vörur í flutningi úr flutningsvöruhúsinu og inn í vöruhús áfangastaðar. Ef óskað er eftir frekari stjórn á ferlinu skal nota komubókina eða fartækið til að afgreiða móttöku á vörum. |
 | Leita að sjálfvirkum kostnaði | Finna allan kostnað ferðar sem á við. Ef þessi kostnaður hefur þegar verið fundinn eða uppfærður birtast eftirfarandi skilaboð: „Óreikningsfærðar kostnaðarlínur eru til staðar. Á að skrifa yfir þetta? Allur kostnaður sem var ekki tengdur við ferðina þegar hún var búin til verður fundinn. Ekki verður skrifað yfir kostnað ferðar sem er hengdur við ferð og hefur verið reikningsfærður. |
-| Stofna komubók | <p>Opnið svargluggann **Stofna komubók** þar sem hægt er að stofna komubók sem tilgreinir staðsetningu. Svarglugginn býður upp á eftirfarandi valkosti:</p><ul><li>**Stofna úr vörum í flutningi** eða **Stofna úr flutningspöntun** – Merkið fyrir þennan valkost breytist eftir því hvort verið sé að nota vöruflutningsferlið. Stillið hann á *Já* til að opna síðu komubókar sem gerir þér kleift að afgreiða venjulega komubók fyrir vörur í flutningi sem tengjast ferðinni. Ef varan hefur þegar verið móttekin í vöruhúsi áfangastaðar verður henni ekki bætt við línur komubókarinnar.</li><li>**Frumstilla magn** – Stillið þennan valkost á *Já* til að frumstilla magnið sem verður móttekið samkvæmt vörumagninu sem er tilgreint í línu ferðarinnar. Ef lína ferðarinnar hefur verið móttekin að hluta til verður þetta magn eftirstandandi magnið. Mælt er með að þessi valkostur sé stilltur á *Já*.</li><li>**Stofna úr pöntunarlínum** – Stillið þennan valkost á *Já* til að nota gildið úr pöntunarlínunum.</li></ul><p>Þessi hnappur er einn af þremur valmöguleikunum sem eru í boði til að taka á móti vörum í ferð. (Aðrir valmöguleikar eru hnappurinn **Taka á móti vörum í flutningi** sem var lýst áður í þessari töflu og vöruhúsaforritið.)</p> |
+| Stofna komubók | <p>Opnið svargluggann **Stofna komubók** þar sem hægt er að stofna komubók sem tilgreinir staðsetningu. Svarglugginn býður upp á eftirfarandi valkosti:</p><ul><li>**Stofna úr vörum í flutningi** eða **Stofna úr flutningspöntun** – Merkið fyrir þennan valkost breytist eftir því hvort verið sé að nota vöruflutningsferlið. Stillið hann á *Já* til að opna síðu komubókar sem gerir þér kleift að afgreiða venjulega komubók fyrir vörur í flutningi sem tengjast ferðinni. Ef varan hefur þegar verið móttekin í vöruhúsi áfangastaðar verður henni ekki bætt við línur komubókarinnar.</li><li>**Frumstilla magn** – Stillið þennan valkost á *Já* til að frumstilla magnið sem verður móttekið samkvæmt vörumagninu sem er tilgreint í línu ferðarinnar. Ef lína ferðarinnar hefur verið móttekin að hluta til verður þetta magn eftirstandandi magnið. Mælt er með að þessi valkostur sé stilltur á *Já*.</li><li>**Stofna úr pöntunarlínum** – Stillið þennan valkost á *Já* til að nota gildið úr pöntunarlínunum.</li></ul><p>Þessi hnappur er einn af þremur valmöguleikunum sem eru í boði til að taka á móti vörum í ferð. (Aðrir valmöguleikar eru hnappurinn **Taka á móti vörum í flutningi** sem var lýst áður í þessari töflu og farsímaforriti vöruhúsakerfis.)</p> |
 | Uppsafnaður kostnaður | Hægt er að safna upp kostnaði þar sem kostnaðargerð er með fjárhagslykilinn tilgreindan fyrir debet. Þessi hnappur er vanalega notaður þegar birgðir eru í flutningi eða þegar vörur hafa verið mótteknar og reikningsfærðar. |
 | Samanlagður kostnaður | Flytjið kostnað frá stigi flutningsgáms til stigs ferðar. Hægt er að nota þennan hnapp í aðstæðum samnýttrar þjónustu/sendingar þar sem margar einingar deila flutningsgámi eða kassasvæði. Ferðin er til dæmis með 40 feta flutningsgám og 20 feta flutningsgám og skiptingin er gerð eftir rúmmáli. Í þessu tilviki gæti verið sektað fyrir vörur/einingar sem deila eða nota plássið í 20 feta flutningsgámnum. Til að dreifa kostnaðinum á sanngjarnan hátt gætu sum fyrirtæki viljað flytja kostnaðinn yfir á ferðina og deila honum samkvæmt skiptingaraðferð á stigi ferðar. |
 | Breyta sniðmáti ferðar | Opnið svarglugga þar sem hægt er að breyta sniðmáti ferðarinnar. Þegar sniðmáti hefur verið breytt verður ferðakostnaðinum eytt. Þess vegna gæti verið sniðugt að velja **Finna sjálfvirkan kostnað** (sjá lýsinguna fyrr í þessari töflu) eða bæta kostnaði handvirkt við aftur. |

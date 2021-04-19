@@ -2,11 +2,9 @@
 title: Blöndun á afurðarvídd staðsetningar
 description: Þetta efnisatriði inniheldur upplýsingar um blöndun á afurðarvídd staðsetningar. Þessi virkni staðsetningarforstillingar hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217030"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831291"
 ---
 # <a name="location-product-dimension-mixing"></a>Blöndun á afurðarvídd staðsetningar
 
@@ -206,9 +204,9 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 1. Veljið **Vista**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Taka á móti innkaupapöntunarlínum í vöruhúsaforritinu
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Taka á móti innkaupapöntunarlínum í farsímaforriti vöruhúsakerfis
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *24*.
+1. Skráðu þig inn í farsímaforriti vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *24*.
 1. Veldu valmyndina **Á innleið**.
 1. Veldu **Móttaka innkaupapöntunarlínu**.
 1. Veldu svæðið **PONUM** og sláðu síðan inn númer innkaupapöntunar.

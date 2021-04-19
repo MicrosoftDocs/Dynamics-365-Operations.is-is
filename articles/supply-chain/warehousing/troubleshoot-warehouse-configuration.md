@@ -2,11 +2,9 @@
 title: Úrræðaleit fyrir grunnstillingu vöruhúss
 description: Þetta efnisatriði lýsir því hvernig á að laga almenn vandamál sem kunna að koma upp við stillingu Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487098"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814393"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Úrræðaleit fyrir grunnstillingu vöruhúss
 
@@ -38,7 +36,7 @@ ms.locfileid: "5487098"
 
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
-Gangið úr skugga um að kenni númeraplötunnar sé ekki tekið frá eitthvað annað. Þetta vandamál kom upp þegar gildið sem notandi skannaði í vöruhúsaforrotinu var bæði gild staðsetning og gilt númerakenni. Hins vegar var þetta vandamál leyst í útgáfu 10.0.11.
+Gangið úr skugga um að kenni númeraplötunnar sé ekki tekið frá eitthvað annað. Þetta vandamál kom upp þegar gildið sem notandi skannaði í farsímaforriti vöruhúsakerfis var bæði gild staðsetning og gilt númerakenni. Hins vegar var þetta vandamál leyst í útgáfu 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Ég fæ eftirfarandi villuboð: „Tilgreina þarf númeraplötu fyrir þessa staðsetningu“.
 
@@ -82,7 +80,7 @@ Staðsetningarleiðbeiningar af vinnutegundinni *Sölupantanir* og *Frágangur* 
 
 Nýr eiginleiki, *Meta allar aðgerðir fyrir staðsetningarleiðbeiningar margra birgðahaldseininga*, hefur verið bætt við útgáfu 10.0.15 (sjá [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Þessi eiginleiki metur allar aðgerðir fyrir staðsetningarleiðbeiningar margra birgðahaldseininga. Ef þessi eiginleiki er nauðsynlegur skal nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á honum.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Ég get ekki notað vöruhúsaforritið fyrir hlutatínslu.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Ég get ekki notað farsímaforrit vöruhúsakerfis fyrir hlutatínslu.
 
 ### <a name="issue-description"></a>Lýsing á úrlausnaratriði
 
@@ -100,7 +98,7 @@ Fyrir sölu-og flutningspantanir er ekki hægt að sleppa vörum og gera hlutati
 
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
-Til að gera starfskröftum kleift að gera þessa breytingu er hægt að stofna valmyndaratriði fyrir vöruhúsaforritið. Á síðunni **Valmyndaratriði fartækis** skal stofna (eða breyta) valmyndaratriði sem er með eftirfarandi stillingum:
+Til að gera starfskröftum kleift að gera þessa breytingu er hægt að stofna valmyndaratriði fyrir farsímaforrit vöruhúsakerfis. Á síðunni **Valmyndaratriði fartækis** skal stofna (eða breyta) valmyndaratriði sem er með eftirfarandi stillingum:
 
 - **Máti:** *Vinna*
 - **Nota fyrirliggjandi vinnu:** *Nei*

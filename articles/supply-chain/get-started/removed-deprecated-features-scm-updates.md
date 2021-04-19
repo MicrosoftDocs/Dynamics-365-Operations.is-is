@@ -2,11 +2,9 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259092"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821274"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ ms.locfileid: "5259092"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.18 útgáfa
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Vöruhúsaforrit (vöruhúsaforritið)
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Frá apríl 2021 er *Dynamics 365 for Finance and Operations - Vöruhús* (þetta vöruhúsaforrit) úrelt og það verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já, skipt út fyrir nýtt farsímaforrit vöruhúsakerfis. |
+| **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - vöruhúsaforrit |
+| **Dreifingarvalkostur**              | Ský og innanhúss |
+| **Staða**                         | Úrelt. Vöruhúsaforritið verður stutt vegna villna og öryggismála, en eiginleikar þess verða ekki endurbættir. Eftir að apríl 2022 verður gamla vöruhúsaforritið ekki lengur stutt og viðskiptavinir verða beðnir um að færa sig yfir í nýtt farsímaforrit vöruhúsakerfis. Gamla vöruhúsforritið verður fjarlægt úr Microsoft Store og Google Play.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.15 útgáfa
 

@@ -2,7 +2,6 @@
 title: Eining heildarkostnaðar
 description: Eining heildarkostnaðar hjálpar fyrirtækjum að einfalda sendingaraðgerðir á innleið með því að veita notendum fulla stjórn á fjárhag og vörum fyrir innflutta farma, frá framleiðanda til vöruhúss.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823338"
 ---
 # <a name="landed-cost-module"></a>Eining heildarkostnaðar
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Einingin **Heildarkostnaður** hjálpar fyrirtækjum að einfalda sendingaraðgerðir á innleið með því að veita notendum fulla stjórn á fjárhag og vörum fyrir innflutta farma, frá framleiðanda til vöruhúss. Fyrir innfluttar vörur getur heildarkostnaður verið 40 prósent eða meira af samtals kostnaði hverrar innfluttrar vöru. Því er áskorun að leggja fram nákvæmt mat á heildarkostnaði.
 

@@ -2,11 +2,9 @@
 title: Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
 description: Þetta efnisatriði útskýrir hvernig á að skilgreina þegar listi yfir allar vinnulínur verður sýndur starfsmönnum vöruhúss sem eru að vinna úr vöruhúsavinnu í fartæki. Þessi möguleiki getur gagnast starfsmönnum vöruhúss sem þurfa oft að sjá yfirlit yfir tínslulínur í vinnupöntun þannig að þeir geti hagrætt tínsluröðinni.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,21 +12,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 22e724b60ec5cc8bf39a520022f43784d3a328eb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6eaba6da313f398c8d30f9a26c959ee971812e21
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232912"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818873"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á valkosti sem tengjast yfirliti tiltektarlínu fyrir valmyndaratriði fartækis sem eru notuð til að vinna úr tiltektarvinnu. Yfirlit tiltektarlínu gerir starfsmönnum vöruhúss kleift að skoða og velja úr lista yfir allar vinnulínur sem tengjast núverandi verki. Þessi möguleiki getur hjálpað starfsmönnum að hagræða tínsluröðinni. Þessi eiginleiki býður upp á valmöguleika sem koma í staðinn fyrir hefðbundna hnappinn **Sleppa** sem gerir starfsmönnum kleift að fara á milli línanna eina í einu í ákveðinni röð. (Hins vegar er valkosturinn til að nota þann hnapp enn tiltækur.)
 
-Stjórnendur geta skilgreint hvert valmyndaratriði út af fyrir sig til að stjórna því hvernig, hvenær og hvar vöruhúsaforritið sýnir yfirlit tínslulína.
+Stjórnendur geta skilgreint hvert valmyndaratriði út af fyrir sig til að stjórna því hvernig, hvenær og hvar farsímaforrit vöruhúsakerfis sýnir yfirlit tínslulína.
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>Kveikja á eiginleika fyrir yfirlit yfir tiltektarlínu vinnu
 
@@ -52,17 +49,17 @@ Til að setja upp valmyndaratriði fartækis til að birta yfirlit yfir tiltekta
 
 1. Í flýtiflipanum **Almennt** skal skilgreina eiginleikann með því að stilla reitinn **Sýna vinnulínulista** á eitt eftirfarandi gilda:
 
-    - **Sýna aðeins við beiðni** – Starfsmenn geta valið að skoða tínslulínulista með því að velja hnappinn **Fara í** í vöruhúsaforritinu.
-    - **Sýna við upphaf hverrar tiltektar** – Starfsmenn sjá listann í hvert sinn sem þeir hefja eða ljúka tiltektarlínu. Einnig er hægt að skoða listann aftur með því að velja hnappinn **Fara í** í vöruhúsaforritinu.
-    - **Sýna eingöngu við upphaf fyrstu tiltektar** – Starfsmenn sjá listann í hvert sinn sem þeir hefja nýja tiltektarvinnu, en ekki eftir hverja línu. Einnig er hægt að skoða listann aftur með því að velja hnappinn **Fara í** í vöruhúsaforritinu.
-    - **Sýna aldrei** – Hefðbundni hnappurinn **Sleppa** birtist í vöruhúsaforritinu og slökkt er á skjámyndinni fyrir vinnulínulista. Hnappurinn **Sleppa** gerir starfsmönnum kleift að fara á milli línanna eina í einu í ákveðinni röð. Einnig er hægt að fara í gegnum listann eins oft og þarf til, þar til búið er að vinna úr öllum línum.
+    - **Sýna aðeins við beiðni** – Starfsmenn geta valið að skoða tínslulínulista með því að velja hnappinn **Fara í** í farsímaforrit vöruhúsakerfis.
+    - **Sýna við upphaf hverrar tiltektar** – Starfsmenn sjá listann í hvert sinn sem þeir hefja eða ljúka tiltektarlínu. Einnig er hægt að skoða listann aftur með því að velja hnappinn **Fara í** í farsímaforriti vöruhúsakerfis.
+    - **Sýna eingöngu við upphaf fyrstu tiltektar** – Starfsmenn sjá listann í hvert sinn sem þeir hefja nýja tiltektarvinnu, en ekki eftir hverja línu. Einnig er hægt að skoða listann aftur með því að velja hnappinn **Fara í** í farsímaforriti vöruhúsakerfis.
+    - **Sýna aldrei** – Hefðbundni hnappurinn **Sleppa** birtist í farsímaforriti vöruhúsakerfis og slökkt er á skjámyndinni fyrir vinnulínulista. Hnappurinn **Sleppa** gerir starfsmönnum kleift að fara á milli línanna eina í einu í ákveðinni röð. Einnig er hægt að fara í gegnum listann eins oft og þarf til, þar til búið er að vinna úr öllum línum.
 
 1. Í aðgerðarúðunni skal velja **Vista**.
 
     Ef reiturinn **Sýna vinnulínulista** er stilltur á eitthvað gildi fyrir utan *Sýna aldrei* verður hnappurinn **Reitalisti** á aðgerðasvæðinu tiltækur.
 
 1. Veljið **Reitalisti** á aðgerðasvæðinu.
-1. Á síðunni **Reitalisti** skal skilgreina upplýsingarnar sem vöruhúsaforritið sýnir fyrir hverja línu í listanum.
+1. Á síðunni **Reitalisti** skal skilgreina upplýsingarnar sem farsímaforrit vöruhúsakerfis sýnir fyrir hverja línu í listanum.
 
     - Reiturinn **Aðalstýring** er alltaf stilltur á *LineNum*. Hver lína í listanum hefst þar af leiðandi á línunúmeri.
     - Notið eftirstandandi reitina **Upplýsingasvæði** til að bæta við allt að sjö upplýsingasvæðum til viðbótar eftir þörfum. Í reitnum **Upplýsingasvæði** skal velja heiti vinnulínureits. Hver lína sýnir svo gildi fyrir þann reit. Gildin verða sýnd í pöntuninni sem er valin hér. Hægt er að skilja nokkra af reitunum **Upplýsingasvæði** eftir auða ef ekki reynist þörf á öllum sjö gildunum.

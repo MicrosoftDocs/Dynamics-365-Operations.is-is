@@ -2,11 +2,9 @@
 title: Kerfisstýrð vinnuröðun
 description: Þetta efnisatriði veitir upplýsingar um kerfisstýrða vinnuröðun. Þessi aðgerð gerir þér kleift að flokka og sía verkbeiðnir sem kerfið býður notendum til framkvæmdar. Það er gagnlegt við aðstæður þar sem þörf er á viðbótarskilyrðum til að keyra tiltektarferli vöruhússins.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7db884a5cd62e1f44a2a86316fde6bf2d11a3376
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239135"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831123"
 ---
 # <a name="system-directed-work-sequencing"></a>Kerfisstýrð vinnuröðun
 

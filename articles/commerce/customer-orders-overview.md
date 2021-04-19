@@ -2,11 +2,9 @@
 title: Pantanir viðskiptavina á sölustað
 description: Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar á sölustað. Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821009"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
@@ -61,7 +59,8 @@ Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pan
 
 Þegar unnið er með pantanir viðskiptavina á sölustað verður að hafa í huga nokkrar stillingar verslunarrásarinnar. Þessar stillingar er að finna á síðunni **Verslanir** í Commerce Headquarters.
 
-- **Vöruhús** – Þessi reitur tilgreinir vöruhúsið sem notað er til að uppfylla pantanir sem skilgreindar eru fyrir sendingu úr versluninni.
+- **Vöruhúsið** – Þessi reitur sýnir vöruhúsið sem verður notað þegar birgðir eru minnkaðar vegna staðgreiðslu og sóttar pantanir viðskiptavina sem tengjast þessar verslun. Sem bestu starfsvenjur mælum við með því að nota sérstakt vöruhús fyrir hverja verslunarrás til að koma í veg fyrir vandamál vegna árekstra viðskiptagrunna á milli verslana.
+- **Afhendingarvöruhús** - Þessi reitur sýnir vöruhúsið sem verður notað þegar birgðir eru minnkaðar vegna pantana viðskiptavina sem á að senda úr valinni verslun. Ef eiginleikinn **Geta til að tilgreina staðsetningar sem „Sending“ eða „Afhending“ í uppfyllingarflokki** hefur verið virkjaður í umhverfinu, geta notendur sölustaðar valið sérstakt vöruhús til að senda úr á sölustað í stað þess að velja verslun til að senda úr. Þar af leiðandi, þegar sá eiginleiki er virkjaður, er afhendingarvöruhúsið ekki lengur nýtt fyrst að notandinn mun velja tiltekið vöruhús til að senda pöntunina úr þegar pöntunin er stofnuð.
 - **Úthlutun uppfyllingarflokks** – Veljið þennan hnapp (í flipanum **Setja upp** á aðgerðasvæðinu) til að tengja uppfyllingarflokkana sem vísað er í til að sýna valmöguleika fyrir afhendingarstaði eða upprunastaði sendinga þegar pantanir viðskiptavina eru stofnaðar á sölustað.
 - **Nota skatt áfangastaðar** – Þessi valkostur gefur til kynna hvort heimilisfang viðtakanda sé notað til að ákvarða skattflokkinn sem á að nota fyrir pöntunarlínur sem eru sendar á heimilisfang viðskiptavinar.
 - **Nota skatt viðskiptavinar** – Þessi valkostur gefur til kynna hvort skattflokkurinn sem skilgreindur er fyrir heimilisfang viðskiptavinar sé notaður til skattleggja pantanir viðskiptavina sem eru stofnaðar á sölustað fyrir sendingu til heimilis viðskiptavinar.

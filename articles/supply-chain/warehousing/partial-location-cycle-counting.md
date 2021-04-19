@@ -2,11 +2,9 @@
 title: Hlutastaðsetning reglulegrar talningar
 description: Áætlanir um reglulega talningu stýra raunverulegum talningaraðgerðum. Hægt er að biðja um að aðeins tilteknar afurðir og afurðaafbrigði séu talin í stað þess að allar efnislegar lagerbirgðir í staðsetningu séu taldar.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234682"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818897"
 ---
 # <a name="partial-location-cycle-counting"></a>Hlutastaðsetning reglulegrar talningar
 
@@ -48,7 +46,7 @@ Ef þú tengir áætlanir fyrir reglulega talningu við vinnusniðmát með þv�
 Fyrir hlutatalningu uppfærist ekki **Síðasta reglulega talning** dagsetning/tími fyrir staðsetninguna, jafnvel þó svo að allar vörur í birgðum á staðsetningunni séu taldar. Hlutatalning telur ekki með færibreytuna **Dagar á milli reglulegrar talninga** á síðunni **Áætlanir um reglulega talningu**. Hlutatalning styður ekki samtímis talningar á mörgum vörum á sama stað. Hlutatalning getur leitt til þess að sama staðsetning sé talin mörgum sinnum fyrir vöru þegar **Vinna úr áætlun um reglulega talningu** er keyrð. Til að koma í veg fyrir þessar aðstæður skal tilgreina síur í reitnum **Velja staðsetningar**.
 
 > [!NOTE]
-> Vöruhúsaforritið gefur ekki upp -hnappinn **Bæta við númeraplötu eða vöru** þegar regluleg talning að hluta er notuð.
+> Farsímaforrit vöruhúsakerfis gefur ekki upp hnappinn **Bæta við númeraplötu eða vöru** þegar hlutatalning er notuð.
 
 ## <a name="example"></a>Dæmi
 

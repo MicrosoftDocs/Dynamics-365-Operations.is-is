@@ -2,11 +2,9 @@
 title: Staðfesting lotu og númeraplötu
 description: Í þessu efnisatriði er lýst hvernig eigi að setja upp og nota staðfestingu runu og númeraplötu úr fartæki.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c309061b31f10209c22cb90cc08c971b697f6dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c588e6ed11d275b75133e2824f3d385048050426
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233128"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837538"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Staðfesting lotu og númeraplötu
 
 [!include [banner](../includes/banner.md)]
 
-Staðfesting runu gerir kleift að staðfesta að rétt runa sé valin úr fartækinu. Í fyrstu tiltekt á vinnustöð fyrir vörur með „runu yfir“ eingöngu, þar sem runa yfir gefur til kynna runusvið sem er hærra en staðsetningin í leitarstigveldinu verður að staðfesta að runan sem er valin sé sú sama og er í tiltektarlínu.
+Staðfesting runu gerir kleift að staðfesta að rétt runa sé valin úr fartækinu. Í fyrstu tiltekt á vinnustöð fyrir vörur með *Runa fyrir ofan\[staðsetningu\]* eingöngu, þar sem runa fyrir ofan gefur til kynna að runa sem er hærri en staðsetningin í leitarstigveldinu, verður að staðfesta að runan sem er valin sé sú sama og er í tiltektarlínu.
 
 Staðfesting númeraplötu gerir kleift að staðfesta að rétt númeraplata sé tekin til úr fartækinu Þegar tiltektarvinna á sér stað úr stigstaðsetningu verður að staðfesta að númeraplatan sem er tekin til sé sú sama og sú sem tengist verkinu. Ef vinna er hafin með því að skanna númeraplötu er þessu staðfestingarskrefi sleppt.
 

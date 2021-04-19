@@ -2,30 +2,27 @@
 title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233080"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808919"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Útsetning eiginleika
 
@@ -52,7 +49,7 @@ Vegna þess að þyngd birgða þegar þær koma inn í vöruhús getur verið f
 > [!NOTE]
 > Verkþáttur fartækis mun aðeins virkja færsluleiðréttingar ef aðferð þyngdarfráviks á útleið við meðhöndlunarstefnu framleiðsluþyngdar hlutar er **Leyfa þyngdarafbrigði**.
 
-**Dæmi 1**
+### <a name="example-1"></a>Dæmi 1
 
 Við framleiðsluferlið **Bóka sem tilbúið** er þyngd númeraplötu á innleið sem inniheldur átta kassa af framleiðsluþyngdarafurð skráð sem 80,1 kg. Númeraplatan er síðan geymd á svæði fullunninnar vöru, og á meðan á geymslutíma stendur, tapast einhver þyngd út í umhverfið.
 
@@ -60,7 +57,7 @@ Síðar, sem hluti af tiltektarferli sölupöntunar, er þyngd sömu númeraplö
 
 Í þessu tilfelli leiðréttir kerfið sjálfkrafa mismuninn með því að bóka færslu fyrir 0,3 kg sem vantar upp á.
 
-**Dæmi 2**
+### <a name="example-2"></a>Dæmi 2
 
 Í skilgreiningu sinni er afurð sett upp til að þola lágmarksþyngd sem nemur 8 kg og hámarksþyngd sem nemur 12 kg fyrir framleiðsluþyngdareininguna **Kassi**.
 
@@ -106,7 +103,7 @@ Að auki, þegar atriði er rakið með merkum er til breytan **Aðferð við a�
 **Þegar rakning á merki framleiðsluþyngdar er notað**, verður alltaf að stofna merki fyrir hverja framleiðsluþyngdareiningu sem tekið er á móti, og öll merki verða alltaf að tengjast þyngd.
 
 Til dæmis er **Kassi** framleiðsluþyngdareiningin og þú tekur á móti vörubretti með átta kössum. Í þessu tilfelli verður að búa til átta einkvæm merki fyrir framleiðsluþyngd og tengja verður þyngd við hvert merki. Það fer eftir framleiðsluþyngd afurðar á innleið, annaðhvort er hægt að sækja þyngd fyrir alla átta kassana og svo er meðalþyngd úthlutað á hvern kassa, eða hægt er að sækja þyngd fyrir hvern kassa fyrir sig.
-Þegar þú notar eiginleikann **Nota fyrirliggjandi merki framleiðsluþyngdar þegar framleiðslupantanir eru tilkynntar sem lokið** þar sem ferlið er virkjað í valmyndaratriði í fartæki, verða birgðir uppfærðar miðað við fyrirliggjandi upplýsingar um merki framleiðsluþyngdar. Þar af leiðandi gerir vöruhúsaforritið ekki kvaðningu um að sækja gögn um framleiðsluþyngdarmerkingu sem hluti af framleiðsluskýrslu sem lok aðgerðar.
+Þegar þú notar eiginleikann **Nota fyrirliggjandi merki framleiðsluþyngdar þegar framleiðslupantanir eru tilkynntar sem lokið** þar sem ferlið er virkjað í valmyndaratriði í fartæki, verða birgðir uppfærðar miðað við fyrirliggjandi upplýsingar um merki framleiðsluþyngdar. Þar af leiðandi gerir farsímaforrit vöruhúsakerfis ekki kvaðningu um að sækja gögn um framleiðsluþyngdarmerkingu sem hluti af framleiðsluskýrslu sem lok aðgerðar.
 
 **Þegar rakning á merki fyrir framleiðsluþyngd er ekki notuð** er hægt að sækja þyngdina fyrir hverja víddasamstæðu (til dæmis fyrir hverja númeraplötu og rakningarvídd). Að öðrum kosti er hægt að sækja þyngdina sem byggist á samanlögðu stigi, svo sem fimm númeraplötur (vörubretti).
 
@@ -194,7 +191,11 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 
 ### <a name="catch-weight-tags"></a>Merki framleiðsluþyngdar
 
-Merki framleiðsluþyngdar getur verið stofnað með því að nota ferli vöruhúsaforrits, getur verið stofnað handvirkt í skjámyndinni, eða getur verið stofnað með því að nota gagnaeiningarferli. Ef merki framleiðsluþyngdar er tengt við upprunaskjalslínu á innleið, t.d. innkaupapöntunarlínu, verður merkið skráð. Ef línan er notuð til vinnslu á útleið verður merkið uppfært eins og það er sent.
+Merki framleiðsluþyngdar getur verið stofnað með því að nota ferli farsímaforrit vöruhúsakerfis, getur verið stofnað handvirkt í skjámyndinni **Vöruhúsastjórnun > Fyrirspurnir og skýrslur > Merki framleiðsluþyngdar**, eða getur verið stofnað með því að nota gagnaeiningarferli. Ef merki framleiðsluþyngdar er tengt við upprunaskjalslínu á innleið, t.d. innkaupapöntunarlínu, verður merkið skráð. Ef línan er notuð til vinnslu á útleið verður merkið uppfært eins og það er sent. Hægt er að skoða öll skráningartilvik fyrir merki framleiðsluþyngdar í gegnum valkostinn **Skráning á merki framleiðsluþyngdar** á síðunni **Merki framleiðsluþyngdar**.
+
+Hægt er að nota valkostinn **Breyta merki sóttrar þyngdar** til að uppfæra þyngdargildið handvirkt fyrir merki framleiðsluþyngdar. Athugið að þyngdin fyrir lagerbirgðirnar verða ekki leiðréttar sem hluti af þessum handvirka ferli, en það er lítið mál að nota síðuna **Misræmi til staðar fyrir merktar vörur með framleiðsluþyngd** til að fletta upp á einhverju misræmi milli núverandi virkra merkja framleiðsluþyngdar og núverandi birgða.
+
+Aðrar handvirkar leiðir eru að **Skrá merki** í upprunaskjalslínu og **Skrá vinnu** gagnvart fyrirliggjandi vöruhúsavinnu.
 
 Auk þeirra takmarkana sem nú eiga við um afurðir framleiðsluþyngdar, hafa merktar afurðir framleiðsluþyngdar aðrar takmarkanir sem nú gilda.
 

@@ -2,11 +2,9 @@
 title: Viðburðir vöruhúsaforrits
 description: Þetta efnisatriði lýsir úrvinnslu á viðburðum vöruhúsaforrits sem notaðir eru til að vinna úr skilaboðum um viðburð vöruhúsaforrits sem hluti af runuvinnslu.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248644"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837394"
 ---
 # <a name="warehouse-app-event-processing"></a>Vinnsla viðburða í vöruhúsaforriti
 
 [!include [banner](../includes/banner.md)]
 
-Runuvinnslur sem keyra í Supply Chain Management geta notað gögn úr þessari biðröð til að vinna úr viðburðum sem vöruhúsaforritið gefur út til að bregðast við tilkynntum viðburðum eftir því sem þörf krefur. Þessi eiginleiki bætir viðeigandi viðburðum við biðröðina sem svar við tilteknum gerðum aðgerða sem starfsmenn sem nota forritið grípa til. Dæmi er þegar verið er að nota eiginleikann **Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti**, verða haus og línur flutningspöntunar stofnaðar og uppfærðar í bakvinnslunni þegar kerfið keyrir runuvinnsluna **Vinna úr viðburðum vöruhúsaforrits**.
+Runuvinnslur sem keyra í Supply Chain Management geta notað gögn úr þessari biðröð til að vinna úr viðburðum sem farsímaforrit vöruhúsakerfis gefur út til að bregðast við tilkynntum viðburðum eftir því sem þörf krefur. Þessi eiginleiki bætir viðeigandi viðburðum við biðröðina sem svar við tilteknum gerðum aðgerða sem starfsmenn sem nota forritið grípa til. Dæmi er þegar verið er að nota eiginleikann *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*, verða haus og línur flutningspöntunar stofnaðar og uppfærðar í bakvinnslunni þegar kerfið keyrir runuvinnsluna **Vinna úr viðburðum vöruhúsaforrits**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Virkja eiginleikann fyrir „Vinna úr viðburðum vöruhúsaforrits“
 
@@ -50,7 +48,7 @@ Setjið upp áætlaða runuvinnslu til að vinna úr viðburðum í vöruhúsafo
 
 ## <a name="query-warehouse-app-events"></a>Fyrirspurn um viðburði vöruhúsaforrits
 
-Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem vöruhúsaforritið býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
+Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem farsímaforrit vöruhúsakerfis býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
 
 ## <a name="the-standard-event-queue-process"></a>Hefðbundin vinnsla á viðburðaröð
 

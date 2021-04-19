@@ -1,12 +1,10 @@
 ---
 title: Úrræðaleit fyrir kostnaðarstjórnun
 description: Þetta efnisatriði lýsir því hvernig á að leysa vandamál sem kunna að koma upp á meðan unnið er með kostnaðarstjórnun.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262454"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834290"
 ---
 # <a name="troubleshoot-cost-management"></a>Úrræðaleit fyrir kostnaðarstjórnun
 
@@ -37,7 +35,7 @@ Eiginleikarnir [Skýrsla um aldursgreiningu birgða](inventory-aging-report-stor
 
 Millisamtölur geta valdið vandamálum þegar niðurstaðan er flutt út, sérstaklega ef notendur breyta færslustöðinni.
 
-Til að skoða millisamtölur er hægt að flytja niðurstöðuna út í Microsoft Excel. Að öðrum kosti ef þú vilt athuga millisamtölur innan Supply Chain Management skaltu nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja eiginleikana *Ný hnitanetsstjórnun* og *(Forskoðun) í hnitanetum* sem gefa upp mun sveigjanlegri leið til að sjá millisamtölu fyrir alla flokka eftir dálki. Nánari upplýsingar eru að finna í [Möguleikar hnitanets](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Til að skoða millisamtölur er hægt að flytja niðurstöðuna út í Microsoft Excel. Að öðrum kosti ef þú vilt athuga millisamtölur innan Supply Chain Management skaltu nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja eiginleikana *Ný hnitanetsstjórnun* og *Hópar í hnitanetum* sem gefa upp mun sveigjanlegri leið til að sjá millisamtölu fyrir alla flokka eftir dálki. Nánari upplýsingar eru að finna í [Möguleikar hnitanets](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Skýrsla um birgðavirði í geymslu styður ekki upplýsingar um fjárhagslykil
 

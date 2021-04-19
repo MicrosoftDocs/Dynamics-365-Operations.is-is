@@ -2,11 +2,9 @@
 title: Yfirlýt upplýsingasíðu afurða
 description: Þetta efnisatriði inniheldur yfirlit yfir upplýsingasíður afurða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4a61383c790b63aa1c07f7004f264495171441a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243836"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792220"
 ---
 # <a name="product-details-pages-overview"></a>Yfirlit fyrir upplýsingasíðu afurða
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði inniheldur yfirlit yfir upplýsingasíður afurða í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 PDP veitir nákvæmar upplýsingar um afurð og gerir viðskiptavinum kleift að velja afurðakosti eins og stærð, stíl og lit. PDP ætti að sýna allar vöruupplýsingar sem viðskiptavinur þarfnast til að taka ákvörðun um kaup.
 

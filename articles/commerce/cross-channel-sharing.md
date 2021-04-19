@@ -2,11 +2,9 @@
 title: Virkja og nota deilingu milli rása
 description: Þetta efnisatriði lýsir því hvernig á að virkja og nota samnýtingareiginleika milli rása í vefsmið Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207824"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799518"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Virkja og nota deilingu milli rása
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að virkja og nota samnýtingareiginleika milli rása í vefsmið Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Samnýting milli rása gerir söluaðilum kleift að endurnýta og samnýta efni á mörgum rásum svæðis. Þessi möguleiki er gagnlegur þegar rásir svæða eru með samhæft grunntungumál eða þegar þær eru með ýmislegt sameiginlegt efni.
 
