@@ -2,7 +2,6 @@
 title: Yfir/undir færslur
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að setja upp upplýsingar um reglur fyrir yfir-/undirfærslur þannig að kerfið geti ákvarðað hvernig á að stjórna yfirvinnslu og undirvinnslu á vörum við móttöku.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833738"
 ---
 # <a name="overunder-transactions"></a>Yfir/undir færslur
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þegar unnið er úr pöntunum í ferð býst kerfið við því að vörumagnið sem er móttekið í vöruhúsi á lokaáfangastað til notkunar samsvari því magni sem tilgreint er í innkaupapöntunarlínunum sem tengjast ferðinni. En þar sem nákvæmt magn í innkaupapöntunarlínunum er ekki alltaf móttekið í vöruhúsinu, skilgreinir einingin **Heildarkostnaður** safn af reglum sem eru notaðar til að meðhöndla yfirmóttöku og undirmóttöku á vörum. Þessar reglur eru sérstaklega mikilvægar vegna þess að upprunalega innkaupapöntunin hefur verið reikningsfærð og ekki er lengur hægt að breyta henni. Með því að setja upp upplýsingar um reglur yfir-/undirfærslu er kerfinu gert kleift að ákvarða hvernig á að stjórna yfirvinnslu og undirvinnslu á vörum við móttöku. Einnig er hægt að stjórna yfir- og undirbirgðum handvirkt með því að nota **Yfir/undirfærslur**.
 

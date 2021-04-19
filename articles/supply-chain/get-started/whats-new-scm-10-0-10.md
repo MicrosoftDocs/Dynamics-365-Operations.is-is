@@ -2,11 +2,9 @@
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.10. (maí 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.10.
 author: kamaybac
-manager: tfehr
 ms.date: 04/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 2ecdebf38800178ba4eb5e08f341eae37bdc65d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259020"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821202"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.10. (maí 2020)
 

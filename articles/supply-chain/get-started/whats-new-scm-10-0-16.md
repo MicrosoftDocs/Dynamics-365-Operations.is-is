@@ -2,11 +2,9 @@
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.16. (febrúar 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236076"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829981"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.16. (febrúar 2021)
 
@@ -35,11 +33,13 @@ ms.locfileid: "5236076"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
 - [Stillanlegt viðmót fyrir framkvæmd í vinnusal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-setup.md).
 
 - [Innbót birgðasýnileika fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Frekari upplýsingar er að finna í [Innbót fyrir sýnileika birgða](../inventory/inventory-visibility.md)
+
+- Samræmd númeraröð fyrir vinnslukenni<br> - Frekari upplýsingar er að finna í [Samræmd númeraröð fyrir vinnslukenni](../production-control/unified-job-ids.md).
 
 - [Staðfesting fyrir númeraplötur í upprunaskjalslínum](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir skilgreiningu vöruhúss](../warehousing/warehouse-configuration.md).
 
@@ -75,7 +75,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 - [Villuleita sölupantanir](../sales-marketing/troubleshooting-sales.md)
 - [Villuleita sölutilboð](../sales-marketing/troubleshooting-salesquotation.md)
 - [Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlegt vöruhúsakerfi](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Úrræðaleit vegna vandamála með tengingu í vöruhúsaforriti](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Úrræðaleit vegna vandamála með tengingu í farsímaforriti vöruhúsakerfis](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Úrræðaleit fyrir grunnstillingu vöruhúss](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Úrræðaleit fyrir áfyllingar vöruhúss](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Úrræðaleit fyrir uppsetningu vöruhúss](../warehousing/troubleshoot-warehouse-setup.md)

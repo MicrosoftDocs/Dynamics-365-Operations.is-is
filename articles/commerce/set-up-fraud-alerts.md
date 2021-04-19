@@ -2,11 +2,9 @@
 title: Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65e6e065317311395a5a5ca2b049d1c277aa5003
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264529"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793970"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 

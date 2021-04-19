@@ -2,11 +2,9 @@
 title: Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlega vöruhúsastjórnun
 description: Þetta efnisatriði lýsir því hvernig á að laga almenn vandamál sem kunna að koma upp við uppfærslu og flutning í ítarlega vöruhúsastjórnun.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208088"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826396"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlega vöruhúsastjórnun
 
@@ -34,11 +32,11 @@ ms.locfileid: "5208088"
 
 ### <a name="issue-description"></a>Lýsing á úrlausnaratriði
 
-Þessi villuboð birtast í vöruhúsaforriti vegna þess að sjálfsafgreiddum skírteinum er ekki treyst á Android 8 + í innanhússumhverfi.
+Þessi villuboð birtast í farsímaforriti vöruhúsakerfis vegna þess að sjálfsafgreiddum skírteinum er ekki treyst á Android 8 + í innanhússumhverfi.
 
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
-Nota ytri (opinberan) útgefanda vottorðs (CA). Lausn fyrir þetta vandamál er í boði í útgáfu 1.9.0.0 af vöruhúsaforritinu. Frekari upplýsingar um þetta vandamál og hvernig á að laga það er að finna á [Úrræðaleit vegna vandamála með tengingu í vöruhúsaforriti](troubleshoot-warehouse-app-connection.md).
+Nota ytri (opinberan) útgefanda vottorðs (CA). Lausn fyrir þetta vandamál er í boði í útgáfu 1.9.0.0 af vöruhúsaforritinu. Frekari upplýsingar um þetta vandamál og hvernig á að laga það er að finna á [Úrræðaleit vegna vandamála með tengingu í farsímaforriti vöruhúsakerfis](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Hvert er samþykkt ferli fyrir flutning úr grunnvöruhús í ítarlegt vöruhús?
 

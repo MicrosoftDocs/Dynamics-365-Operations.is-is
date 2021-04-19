@@ -1,12 +1,10 @@
 ---
 title: Virkar staðsetningar og eignir
 description: Þetta efni lýsir virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53091f2e3c159f73f11b3dfcefd597f2c1494d19
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816750"
 ---
 # <a name="functional-locations-and-assets"></a>Virkar staðsetningar og eignir
 

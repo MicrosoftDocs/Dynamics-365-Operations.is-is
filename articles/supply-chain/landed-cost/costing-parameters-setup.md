@@ -2,7 +2,6 @@
 title: Uppsetning gilda fyrir kostnaðarfæribreytu
 description: Þegar sett er upp eining heildarkostnaðar er hægt að skilgreina nokkur sett af algengum gildum sem verða í boði þegar ákveðnar gerðir af gildum kostnaðarfæribreyta eru valdar í öðrum hlutum forritsins. Í þessu efnisatriði er útskýrt hvernig á að setja upp þessi sett af gildum.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841936"
 ---
 # <a name="costing-parameter-values-setup"></a>Uppsetning gilda fyrir kostnaðarfæribreytu
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þegar einingin **Heildarkostnaður** er sett upp er hægt að skilgreina ýmis sett af algengum gildum og tengdar stillingar fyrir hvert gildi. Þessi gildi verða þá tiltæk þegar valdar eru tilteknar gerðir af gildum kostnaðarfæribreyta í öðrum hlutum forritsins. Í þessu efnisatriði er útskýrt hvernig á að setja upp þessi sett af gildum.
 

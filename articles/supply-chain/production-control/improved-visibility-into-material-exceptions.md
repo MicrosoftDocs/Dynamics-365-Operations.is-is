@@ -2,13 +2,11 @@
 title: Innsýn í efnisundantekningar
 description: Þetta efni lýsir því hvernig hægt er að fá betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246166"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831987"
 ---
 # <a name="visibility-into-material-exceptions"></a>Innsýn í efnisundantekningar
 
@@ -59,7 +57,11 @@ Ef uppskriftar- eða formúlulínur hafa ekki verið losaðar eða aðeins losa�
 
 Þegar uppskriftar- eða formúlulína er losuð, er henni bætt við annaðhvort nýja framleiðslubylgju eða fyrirliggjandi opna bylgju, allt eftir stillingu sniðmáts framleiðslubylgjunnar. Með stillingu bylgjusniðmátsins geturðu einnig sett upp bylgju þannig að hún sé sjálfkrafa unnin þegar uppskriftar- eða formúlulína er losuð. Þegar bylgjan er unninn er myndað vöruhúsaverk fyrir tiltekt hráefnis. Ef bylgjusniðmátið er stillt þannig að bylgjur séu ekki unnar þegar losun á sér stað, þá er verður bylgjan áfram í óunnu ástandi. Reiturinn **Óunnar bylgjur sem þarfnast athygli** sýna fjölda uppskriftar- og formúlulína sem hafa verið losaðar í vöruhúsið á óunnum bylgjum, og hafa hráefnisdagsetningu sem er fyrr en eða sú sama og vinnusvæðisdagsetningin. Línurnar verða einnig að vera notaðar af aðgerðartilfangi sem gildir um síu vinnusvæðisins.
 
-Þegar reiturinn er valinn er **Allar framleiðslubylgjur** síðan opnuð. Þessi síða er síuð út frá fjölda opinna bylgja sem innihalda bylgjulínur frá losuðum uppskriftar- og formúlulínum sem uppfylla viðmiðanirnar fyrir reitinn. Frá síðunni **Allar framleiðslubylgjur** geturðu handvirkt unnið bylgjuna.
+Þegar reiturinn er valinn opnast síðan **Allar framleiðslubylgjur**. Þessi síða er síuð út frá fjölda opinna bylgja sem innihalda bylgjulínur frá losuðum uppskriftar- og formúlulínum sem uppfylla viðmiðanirnar fyrir reitinn.
+
+### <a name="manually-maintain-production-waves"></a>Vinna handvirkt með framleiðslubylgjur
+
+Á síðunni **Allar framleiðslubylgjur** er hægt að nota hnapp á **Bylgja** flipanum á aðgerðasvæðinu til að handvirkt **Meðhöndla** og **Losa** bylgju. Einnig er hægt að nota valkostinn **Viðhalda framleiðslum** til að skoða og viðhalda gögnum **Framleiðsluuppskriftahópur**, sem er notaður til að meðhöndla bylgjuferlið.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Opin vöruhúsavinna sem þarf að athuga
 

@@ -2,11 +2,9 @@
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.12 (ágúst 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832203"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.12 (ágúst 2020)
 
@@ -47,9 +45,9 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 - [Innsýn í kjarna IoT-gervigreindar](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Frekari upplýsingar er að finna í [Heimasíða IoT-gervigreindar](../iot/iot-intelligence-home-page.md).
 
-- [Endurbætur á móttöku númeraplötu fyrir vöruhúsaforrit (framhald)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Frekari upplýsingar er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Endurbætur á móttöku númeraplötu fyrir vöruhúsaforrit (framhald)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Frekari upplýsingar er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Fjöldauppsetning fyrir Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Frekari upplýsingar er að finna í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehousing-app.md).
+- [Fjöldauppsetning fyrir Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Frekari upplýsingar er að finna í [Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis](../warehousing/onhand-cleanup.md).
 
