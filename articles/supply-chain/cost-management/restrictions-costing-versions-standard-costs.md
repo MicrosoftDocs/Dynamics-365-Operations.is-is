@@ -2,11 +2,9 @@
 title: Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
 description: Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað.
 author: AndersGirke
-manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -18,37 +16,37 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f8f5707b6f51372684606d135c0643b36e3a94f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245252"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821490"
 ---
-#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="d934d-103">Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað</span><span class="sxs-lookup"><span data-stu-id="d934d-103">Restrictions on costing versions for standard costs</span></span>
+#  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="58352-103">Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað</span><span class="sxs-lookup"><span data-stu-id="58352-103">Restrictions on costing versions for standard costs</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d934d-104">Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað.</span><span class="sxs-lookup"><span data-stu-id="d934d-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
+<span data-ttu-id="58352-104">Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað.</span><span class="sxs-lookup"><span data-stu-id="58352-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 
-<span data-ttu-id="d934d-105">Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fylgt:</span><span class="sxs-lookup"><span data-stu-id="d934d-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
+<span data-ttu-id="58352-105">Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fylgt:</span><span class="sxs-lookup"><span data-stu-id="58352-105">The following restrictions help guarantee adherence to standard costing principles:</span></span>
 
--  <span data-ttu-id="d934d-106">Gjöld verða að vera innifalinn í kostnaði vöru.</span><span class="sxs-lookup"><span data-stu-id="d934d-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="d934d-107">Gjöld vegna framleiddrar vöru standa fyrir afskrifaðan fastan kostnað í uppskriftum (BOM) og leiðarlýsingar.</span><span class="sxs-lookup"><span data-stu-id="d934d-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="d934d-108">Þess vegna verða gjöldin að vera innifalinn í einingarkostnaði.</span><span class="sxs-lookup"><span data-stu-id="d934d-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="d934d-109">Gjöldin vegna keyptra vara eru einnig innifalin í einingarkostnaði vörunnar.</span><span class="sxs-lookup"><span data-stu-id="d934d-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
+-  <span data-ttu-id="58352-106">Gjöld verða að vera innifalinn í kostnaði vöru.</span><span class="sxs-lookup"><span data-stu-id="58352-106">Charges must be included in an item's cost.</span></span> <span data-ttu-id="58352-107">Gjöld vegna framleiddrar vöru standa fyrir afskrifaðan fastan kostnað í uppskriftum (BOM) og leiðarlýsingar.</span><span class="sxs-lookup"><span data-stu-id="58352-107">The charges for a manufactured item represent the amortized constant costs in the bill of materials (BOM) and route information.</span></span> <span data-ttu-id="58352-108">Þess vegna verða gjöldin að vera innifalinn í einingarkostnaði.</span><span class="sxs-lookup"><span data-stu-id="58352-108">Therefore, the charges must be included in the unit cost.</span></span> <span data-ttu-id="58352-109">Gjöldin vegna keyptra vara eru einnig innifalin í einingarkostnaði vörunnar.</span><span class="sxs-lookup"><span data-stu-id="58352-109">The charges for a purchased item are also included in the item's unit cost.</span></span>
 
--  <span data-ttu-id="d934d-110">Útreikningur á staðalkostnaði framleiddrar vöru verður að byggja á kostnaðarfærslum í kostnaðarútgáfu fyrir staðalkostnað.</span><span class="sxs-lookup"><span data-stu-id="d934d-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="d934d-111">Annan uppruna kostnaðargagna er aðeins hægt að nota með kostnaðarútgáfu fyrir áætlaðan kostnað, eins og viðskiptasamningi um innkaupaverð fyrir keyptar vörur.</span><span class="sxs-lookup"><span data-stu-id="d934d-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="d934d-112">Annar uppruni kostnaðargagna er skilgreindur af flokki uppskriftarútreiknings.</span><span class="sxs-lookup"><span data-stu-id="d934d-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
+-  <span data-ttu-id="58352-110">Útreikningur á staðalkostnaði framleiddrar vöru verður að byggja á kostnaðarfærslum í kostnaðarútgáfu fyrir staðalkostnað.</span><span class="sxs-lookup"><span data-stu-id="58352-110">Calculation of standard costs for manufactured items must be based on the cost records in a costing version for standard costs.</span></span> <span data-ttu-id="58352-111">Annan uppruna kostnaðargagna er aðeins hægt að nota með kostnaðarútgáfu fyrir áætlaðan kostnað, eins og viðskiptasamningi um innkaupaverð fyrir keyptar vörur.</span><span class="sxs-lookup"><span data-stu-id="58352-111">Alternative sources of cost data can be used only with a costing version for planned costs, such as purchase price trade agreements for purchased items.</span></span> <span data-ttu-id="58352-112">Annar uppruni kostnaðargagna er skilgreindur af flokki uppskriftarútreiknings.</span><span class="sxs-lookup"><span data-stu-id="58352-112">Alternative sources of cost data are defined by the BOM calculation group.</span></span>
 
--  <span data-ttu-id="d934d-113">Útreikningar uppskrifta verður að framkvæma með eins stigs niðurbroti.</span><span class="sxs-lookup"><span data-stu-id="d934d-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
+-  <span data-ttu-id="58352-113">Útreikningar uppskrifta verður að framkvæma með eins stigs niðurbroti.</span><span class="sxs-lookup"><span data-stu-id="58352-113">BOM calculations must be performed in a single-level explosion mode.</span></span>
 
-<span data-ttu-id="d934d-114">Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað.</span><span class="sxs-lookup"><span data-stu-id="d934d-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="d934d-115">Hins vegar er ekki hægt að afrita kostnaðargögn vöru yfir í kostnaðarútgáfu sem inniheldur staðalkostnað, þar sem takmarkanirnar sem er lýst fyrr í þessu efnisatriði eiga ekki við áætlaðan kostnað.</span><span class="sxs-lookup"><span data-stu-id="d934d-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
+<span data-ttu-id="58352-114">Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað.</span><span class="sxs-lookup"><span data-stu-id="58352-114">The item cost data for standard costs can be copied to another costing version that contains standard costs or planned costs.</span></span> <span data-ttu-id="58352-115">Hins vegar er ekki hægt að afrita kostnaðargögn vöru yfir í kostnaðarútgáfu sem inniheldur staðalkostnað, þar sem takmarkanirnar sem er lýst fyrr í þessu efnisatriði eiga ekki við áætlaðan kostnað.</span><span class="sxs-lookup"><span data-stu-id="58352-115">However, the item cost data for planned costs can't be copied to a cost version that contains standard costs, because the restrictions that are listed earlier in this topic don't apply to planned costs.</span></span>
 
-<a name="related-topics"></a><span data-ttu-id="d934d-116">Tengd efnisatriði</span><span class="sxs-lookup"><span data-stu-id="d934d-116">Related topics</span></span>
+<a name="related-topics"></a><span data-ttu-id="58352-116">Tengd efnisatriði</span><span class="sxs-lookup"><span data-stu-id="58352-116">Related topics</span></span>
 --------
 
-[<span data-ttu-id="d934d-117">Yfirlit kostnaðarútgáfa</span><span class="sxs-lookup"><span data-stu-id="d934d-117">Costing versions overview</span></span>](costing-versions.md)
+[<span data-ttu-id="58352-117">Yfirlit kostnaðarútgáfa</span><span class="sxs-lookup"><span data-stu-id="58352-117">Costing versions overview</span></span>](costing-versions.md)
 
-[<span data-ttu-id="d934d-118">Uppfæra staðalkostnað í umhverfi sem er ekki fyrir framleiðslu</span><span class="sxs-lookup"><span data-stu-id="d934d-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
+[<span data-ttu-id="58352-118">Uppfæra staðalkostnað í umhverfi sem er ekki fyrir framleiðslu</span><span class="sxs-lookup"><span data-stu-id="58352-118">Update standard costs in a non-manufacturing environment</span></span>](update-standard-costs-non-manufacturing-environment.md)
 
-[<span data-ttu-id="d934d-119">Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur</span><span class="sxs-lookup"><span data-stu-id="d934d-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
+[<span data-ttu-id="58352-119">Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur</span><span class="sxs-lookup"><span data-stu-id="58352-119">Prepare to maintain standard costs for manufactured items</span></span>](update-standard-costs-manufacturing-environment.md)
 
 
 

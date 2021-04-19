@@ -2,11 +2,9 @@
 title: Hafist handa með kostnaðarbókhaldsþjónustu (einkaforskoðun)
 description: Þetta efnisatriði inniheldur leiðbeiningar varðandi leyfi og leiðbeiningar um uppsetningu á kostnaðarbókhaldsþjónustuna.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,102 +12,102 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bbf2df112657342245aca2bd02e06cee7e51ea82
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b6756e3745aa4596bd5d63ad15aaf4385cfc4813
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251051"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813196"
 ---
-# <a name="get-started-with-the-cost-accounting-service-private-preview"></a><span data-ttu-id="e6a22-103">Hafist handa með kostnaðarbókhaldsþjónustu (einkaforskoðun)</span><span class="sxs-lookup"><span data-stu-id="e6a22-103">Get started with the cost accounting service (private preview)</span></span>
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a><span data-ttu-id="eb313-103">Hafist handa með kostnaðarbókhaldsþjónustu (einkaforskoðun)</span><span class="sxs-lookup"><span data-stu-id="eb313-103">Get started with the cost accounting service (private preview)</span></span>
 
 [!INCLUDE [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> <span data-ttu-id="e6a22-104">Virkni sem getið er í þessu efnisatriði er tiltæk sem hluti af sérstakri prufuútgáfu.</span><span class="sxs-lookup"><span data-stu-id="e6a22-104">The functionality that is described in this topic is available as part of a private preview release.</span></span> <span data-ttu-id="e6a22-105">Efni þessa efnisatriðis og virknin sem þar er lýst geta breyst.</span><span class="sxs-lookup"><span data-stu-id="e6a22-105">The content of this topic and the functionality that it describes are subject to change.</span></span> <span data-ttu-id="e6a22-106">Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](../../fin-ops-core/fin-ops/get-started/one-version.md).</span><span class="sxs-lookup"><span data-stu-id="e6a22-106">For more information about preview releases, see [One version service updates FAQ](../../fin-ops-core/fin-ops/get-started/one-version.md).</span></span>
+> <span data-ttu-id="eb313-104">Virkni sem getið er í þessu efnisatriði er tiltæk sem hluti af sérstakri prufuútgáfu.</span><span class="sxs-lookup"><span data-stu-id="eb313-104">The functionality that is described in this topic is available as part of a private preview release.</span></span> <span data-ttu-id="eb313-105">Efni þessa efnisatriðis og virknin sem þar er lýst geta breyst.</span><span class="sxs-lookup"><span data-stu-id="eb313-105">The content of this topic and the functionality that it describes are subject to change.</span></span> <span data-ttu-id="eb313-106">Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](../../fin-ops-core/fin-ops/get-started/one-version.md).</span><span class="sxs-lookup"><span data-stu-id="eb313-106">For more information about preview releases, see [One version service updates FAQ](../../fin-ops-core/fin-ops/get-started/one-version.md).</span></span>
 
-<span data-ttu-id="e6a22-107">Kostnaðarbókhaldsþjónusta gerir þér kleift að framkvæma fjöldamörg birgðabókhöld í fjárhagi kostnaðarbókhalds sem þú hefur sett upp.</span><span class="sxs-lookup"><span data-stu-id="e6a22-107">The cost accounting service lets you do multiple inventory accounting in the cost accounting ledgers that you've set up.</span></span> <span data-ttu-id="e6a22-108">Þú tengir hvern fjárhag kostnaðarbókhalds við *reglu*.</span><span class="sxs-lookup"><span data-stu-id="e6a22-108">You associate each cost accounting ledger with a *convention*.</span></span> <span data-ttu-id="e6a22-109">Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:</span><span class="sxs-lookup"><span data-stu-id="e6a22-109">A convention is a collection of the following types of accounting policies:</span></span>
+<span data-ttu-id="eb313-107">Kostnaðarbókhaldsþjónusta gerir þér kleift að framkvæma fjöldamörg birgðabókhöld í fjárhagi kostnaðarbókhalds sem þú hefur sett upp.</span><span class="sxs-lookup"><span data-stu-id="eb313-107">The cost accounting service lets you do multiple inventory accounting in the cost accounting ledgers that you've set up.</span></span> <span data-ttu-id="eb313-108">Þú tengir hvern fjárhag kostnaðarbókhalds við *reglu*.</span><span class="sxs-lookup"><span data-stu-id="eb313-108">You associate each cost accounting ledger with a *convention*.</span></span> <span data-ttu-id="eb313-109">Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:</span><span class="sxs-lookup"><span data-stu-id="eb313-109">A convention is a collection of the following types of accounting policies:</span></span>
 
-- <span data-ttu-id="e6a22-110">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="e6a22-110">Cost object</span></span>
-- <span data-ttu-id="e6a22-111">Grunnmæling inntaks</span><span class="sxs-lookup"><span data-stu-id="e6a22-111">Input measurement basis</span></span>
-- <span data-ttu-id="e6a22-112">Áætlun kostnaðarflæðis</span><span class="sxs-lookup"><span data-stu-id="e6a22-112">Cost flow assumption</span></span>
-- <span data-ttu-id="e6a22-113">Kostnaðareining</span><span class="sxs-lookup"><span data-stu-id="e6a22-113">Cost element</span></span>
+- <span data-ttu-id="eb313-110">Kostnaðarhlutur</span><span class="sxs-lookup"><span data-stu-id="eb313-110">Cost object</span></span>
+- <span data-ttu-id="eb313-111">Grunnmæling inntaks</span><span class="sxs-lookup"><span data-stu-id="eb313-111">Input measurement basis</span></span>
+- <span data-ttu-id="eb313-112">Áætlun kostnaðarflæðis</span><span class="sxs-lookup"><span data-stu-id="eb313-112">Cost flow assumption</span></span>
+- <span data-ttu-id="eb313-113">Kostnaðareining</span><span class="sxs-lookup"><span data-stu-id="eb313-113">Cost element</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e6a22-114">Jafnvel eftir að þú hefur kveikt á kostnaðarbókhaldsþjónustunni geturðu samt gert birgðabókhald í Microsoft Dynamics 365 Supply Chain Management eins og áður.</span><span class="sxs-lookup"><span data-stu-id="e6a22-114">Even after you've turned on the cost accounting service, you can still do  inventory accounting in Microsoft Dynamics 365 Supply Chain Management, as usual.</span></span>
+> <span data-ttu-id="eb313-114">Jafnvel eftir að þú hefur kveikt á kostnaðarbókhaldsþjónustunni geturðu samt gert birgðabókhald í Microsoft Dynamics 365 Supply Chain Management eins og áður.</span><span class="sxs-lookup"><span data-stu-id="eb313-114">Even after you've turned on the cost accounting service, you can still do  inventory accounting in Microsoft Dynamics 365 Supply Chain Management, as usual.</span></span>
 
-<span data-ttu-id="e6a22-115">Kostnaðarbókhaldsþjónustan er viðbót.</span><span class="sxs-lookup"><span data-stu-id="e6a22-115">The cost accounting service is an add-in.</span></span> <span data-ttu-id="e6a22-116">Til að gera aðgerðir þess aðgengilegar verður þú að setja hana upp frá Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="e6a22-116">To makes its features available, you must install it from Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="e6a22-117">Þess vegna getur þú valið að meta það í prufuumhverfi áður en þú setur það í framleiðsluumhverfi.</span><span class="sxs-lookup"><span data-stu-id="e6a22-117">Therefore, you can choose to evaluate it in a test environment before you turn it on for production environments.</span></span>
+<span data-ttu-id="eb313-115">Kostnaðarbókhaldsþjónustan er viðbót.</span><span class="sxs-lookup"><span data-stu-id="eb313-115">The cost accounting service is an add-in.</span></span> <span data-ttu-id="eb313-116">Til að gera aðgerðir þess aðgengilegar verður þú að setja hana upp frá Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="eb313-116">To makes its features available, you must install it from Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="eb313-117">Þess vegna getur þú valið að meta það í prufuumhverfi áður en þú setur það í framleiðsluumhverfi.</span><span class="sxs-lookup"><span data-stu-id="eb313-117">Therefore, you can choose to evaluate it in a test environment before you turn it on for production environments.</span></span>
 
-<span data-ttu-id="e6a22-118">Kostnaðarbókhaldsþjónustan styður ekki sem stendur alla þá kostnaðarstjórnunareiginleika sem eru innbyggðir í Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="e6a22-118">The cost accounting service doesn't currently support all the cost management features that are built into Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="e6a22-119">Þess vegna er mikilvægt að þú metir hvort grunneiginleikarnir sem nú eru tiltækir uppfylli kröfur þínar.</span><span class="sxs-lookup"><span data-stu-id="e6a22-119">Therefore, it's important that you evaluate whether the set of features that is currently available will meet your requirements.</span></span>
+<span data-ttu-id="eb313-118">Kostnaðarbókhaldsþjónustan styður ekki sem stendur alla þá kostnaðarstjórnunareiginleika sem eru innbyggðir í Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="eb313-118">The cost accounting service doesn't currently support all the cost management features that are built into Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="eb313-119">Þess vegna er mikilvægt að þú metir hvort grunneiginleikarnir sem nú eru tiltækir uppfylli kröfur þínar.</span><span class="sxs-lookup"><span data-stu-id="eb313-119">Therefore, it's important that you evaluate whether the set of features that is currently available will meet your requirements.</span></span>
 
-## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a><span data-ttu-id="e6a22-120">Hvernig á að sækja kostnaðarbókhaldsþjónustu (einkaforskoðun)</span><span class="sxs-lookup"><span data-stu-id="e6a22-120">How to get the cost accounting service (private preview)</span></span>
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a><span data-ttu-id="eb313-120">Hvernig á að sækja kostnaðarbókhaldsþjónustu (einkaforskoðun)</span><span class="sxs-lookup"><span data-stu-id="eb313-120">How to get the cost accounting service (private preview)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e6a22-121">Til að nota kostnaðarbókhaldsþjónustuna verður þú að vera með LCS-virkt umhverfi með mikið framboð (ekki OneBox umhverfi) og þú verður að keyra útgáfu 10.0.11 af Dynamics 365 Supply Chain Management eða nýrri.</span><span class="sxs-lookup"><span data-stu-id="e6a22-121">To use the cost accounting service, you must have an LCS-enabled high-availability environment (not a OneBox environment), and you must be running Dynamics 365 Supply Chain Management version 10.0.11 or later.</span></span>
+> <span data-ttu-id="eb313-121">Til að nota kostnaðarbókhaldsþjónustuna verður þú að vera með LCS-virkt umhverfi með mikið framboð (ekki OneBox umhverfi) og þú verður að keyra útgáfu 10.0.11 af Dynamics 365 Supply Chain Management eða nýrri.</span><span class="sxs-lookup"><span data-stu-id="eb313-121">To use the cost accounting service, you must have an LCS-enabled high-availability environment (not a OneBox environment), and you must be running Dynamics 365 Supply Chain Management version 10.0.11 or later.</span></span>
 
-<span data-ttu-id="e6a22-122">Til að skrá sig fyrir einkasniðforskoðun kostnaðarbókhalds skulu notendur senda umhverfiskenni LCS í tölvupósti á [Kostnaðarbókhaldsþjónusta (einkaforskoðun)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29).</span><span class="sxs-lookup"><span data-stu-id="e6a22-122">To sign up for the cost accounting service private preview, please send your LCS environment ID by email to [Cost accounting service (private preview)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29).</span></span> <span data-ttu-id="e6a22-123">Þegar notandi er samþykktur fær hann sendan tölvupóst sem inniheldur beta-lykil fyrir kostnaðarbókhaldsþjónustu.</span><span class="sxs-lookup"><span data-stu-id="e6a22-123">On approving you for the program, we will send you a follow up email that contains a cost accounting service beta key.</span></span> <span data-ttu-id="e6a22-124">Þegar beta-lykllinn er móttekinn er hægt að halda áfram með því að [setja upp innbótina](#install).</span><span class="sxs-lookup"><span data-stu-id="e6a22-124">On receiving the beta key, you can proceed by [installing the add-in](#install).</span></span>
+<span data-ttu-id="eb313-122">Til að skrá sig fyrir einkasniðforskoðun kostnaðarbókhalds skulu notendur senda umhverfiskenni LCS í tölvupósti á [Kostnaðarbókhaldsþjónusta (einkaforskoðun)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29).</span><span class="sxs-lookup"><span data-stu-id="eb313-122">To sign up for the cost accounting service private preview, please send your LCS environment ID by email to [Cost accounting service (private preview)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29).</span></span> <span data-ttu-id="eb313-123">Þegar notandi er samþykktur fær hann sendan tölvupóst sem inniheldur beta-lykil fyrir kostnaðarbókhaldsþjónustu.</span><span class="sxs-lookup"><span data-stu-id="eb313-123">On approving you for the program, we will send you a follow up email that contains a cost accounting service beta key.</span></span> <span data-ttu-id="eb313-124">Þegar beta-lykllinn er móttekinn er hægt að halda áfram með því að [setja upp innbótina](#install).</span><span class="sxs-lookup"><span data-stu-id="eb313-124">On receiving the beta key, you can proceed by [installing the add-in](#install).</span></span>
 
-## <a name="licensing"></a><span data-ttu-id="e6a22-125">Leyfisveiting</span><span class="sxs-lookup"><span data-stu-id="e6a22-125">Licensing</span></span>
+## <a name="licensing"></a><span data-ttu-id="eb313-125">Leyfisveiting</span><span class="sxs-lookup"><span data-stu-id="eb313-125">Licensing</span></span>
 
-<span data-ttu-id="e6a22-126">Kostnaðarbókhaldþjónustan er háð leyfi ásamt stöðluðu eiginleikum birgðabókhalds sem eru í boði fyrir Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="e6a22-126">The cost accounting service is licensed together with the standard features of inventory accounting that are available for Supply Chain Management.</span></span> <span data-ttu-id="e6a22-127">Þú þarft ekki að kaupa viðbótarleyfi til að nota kostnaðarbókhaldsþjónustuna.</span><span class="sxs-lookup"><span data-stu-id="e6a22-127">You don't have to purchase an additional license to use the cost accounting service.</span></span>
+<span data-ttu-id="eb313-126">Kostnaðarbókhaldþjónustan er háð leyfi ásamt stöðluðu eiginleikum birgðabókhalds sem eru í boði fyrir Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="eb313-126">The cost accounting service is licensed together with the standard features of inventory accounting that are available for Supply Chain Management.</span></span> <span data-ttu-id="eb313-127">Þú þarft ekki að kaupa viðbótarleyfi til að nota kostnaðarbókhaldsþjónustuna.</span><span class="sxs-lookup"><span data-stu-id="eb313-127">You don't have to purchase an additional license to use the cost accounting service.</span></span>
 
-## <a name="install-the-add-in"></a><a name="install"></a><span data-ttu-id="e6a22-128">Setja upp innbótina</span><span class="sxs-lookup"><span data-stu-id="e6a22-128">Install the add-in</span></span>
+## <a name="install-the-add-in"></a><a name="install"></a><span data-ttu-id="eb313-128">Setja upp innbótina</span><span class="sxs-lookup"><span data-stu-id="eb313-128">Install the add-in</span></span>
 
-<span data-ttu-id="e6a22-129">Til að nota kostnaðarbókhaldsþjónustuna, skaltu setja upp viðbót kostnaðarbókhaldsþjónustu fyrir Supply Chain Management eins og lýst er í eftirfarandi aðferð.</span><span class="sxs-lookup"><span data-stu-id="e6a22-129">To use the cost accounting service, install the cost accounting service add-in for Supply Chain Management as described in the following procedure.</span></span>
+<span data-ttu-id="eb313-129">Til að nota kostnaðarbókhaldsþjónustuna, skaltu setja upp viðbót kostnaðarbókhaldsþjónustu fyrir Supply Chain Management eins og lýst er í eftirfarandi aðferð.</span><span class="sxs-lookup"><span data-stu-id="eb313-129">To use the cost accounting service, install the cost accounting service add-in for Supply Chain Management as described in the following procedure.</span></span>
 
-1. <span data-ttu-id="e6a22-130">[Skráning](#sign-up) fyrir kostnaðarbókhaldsþjónustu (einkasforskoðun).</span><span class="sxs-lookup"><span data-stu-id="e6a22-130">[Sign up](#sign-up) for the cost accounting service (private preview).</span></span>
+1. <span data-ttu-id="eb313-130">[Skráning](#sign-up) fyrir kostnaðarbókhaldsþjónustu (einkasforskoðun).</span><span class="sxs-lookup"><span data-stu-id="eb313-130">[Sign up](#sign-up) for the cost accounting service (private preview).</span></span>
 
-1. <span data-ttu-id="e6a22-131">Skráðu þig inn í LCS.</span><span class="sxs-lookup"><span data-stu-id="e6a22-131">Sign in to LCS.</span></span>
+1. <span data-ttu-id="eb313-131">Skráðu þig inn í LCS.</span><span class="sxs-lookup"><span data-stu-id="eb313-131">Sign in to LCS.</span></span>
 
-1. <span data-ttu-id="e6a22-132">Farið í **Stjórnun forskoðunareiginleika**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-132">Go to **Preview feature management**.</span></span>
+1. <span data-ttu-id="eb313-132">Farið í **Stjórnun forskoðunareiginleika**.</span><span class="sxs-lookup"><span data-stu-id="eb313-132">Go to **Preview feature management**.</span></span>
 
-1. <span data-ttu-id="e6a22-133">Veldu plústáknið (**+**).</span><span class="sxs-lookup"><span data-stu-id="e6a22-133">Select the plus sign (**+**).</span></span>
+1. <span data-ttu-id="eb313-133">Veldu plústáknið (**+**).</span><span class="sxs-lookup"><span data-stu-id="eb313-133">Select the plus sign (**+**).</span></span>
 
-1. <span data-ttu-id="e6a22-134">Sláðu inn beta-lykilinn fyrir viðbót kostnaðarbókhaldsþjónustu á svæðið **Kóði**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-134">In the **Code** field, enter your add-in beta key for the cost accounting service.</span></span> <span data-ttu-id="e6a22-135">(Þú hefðir átt að fá lykilinn þinn með tölvupósti.)</span><span class="sxs-lookup"><span data-stu-id="e6a22-135">(You should have received your key by email.)</span></span>
+1. <span data-ttu-id="eb313-134">Sláðu inn beta-lykilinn fyrir viðbót kostnaðarbókhaldsþjónustu á svæðið **Kóði**.</span><span class="sxs-lookup"><span data-stu-id="eb313-134">In the **Code** field, enter your add-in beta key for the cost accounting service.</span></span> <span data-ttu-id="eb313-135">(Þú hefðir átt að fá lykilinn þinn með tölvupósti.)</span><span class="sxs-lookup"><span data-stu-id="eb313-135">(You should have received your key by email.)</span></span>
 
-1. <span data-ttu-id="e6a22-136">Veldu síðan **Opna fyrir**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-136">Select **Unblock**.</span></span>
+1. <span data-ttu-id="eb313-136">Veldu síðan **Opna fyrir**.</span><span class="sxs-lookup"><span data-stu-id="eb313-136">Select **Unblock**.</span></span>
 
-1. <span data-ttu-id="e6a22-137">Opnaðu LCS-umhverfi þar sem þú vilt bæta við þjónustunni.</span><span class="sxs-lookup"><span data-stu-id="e6a22-137">Open the LCS environment where you want to add the service.</span></span>
+1. <span data-ttu-id="eb313-137">Opnaðu LCS-umhverfi þar sem þú vilt bæta við þjónustunni.</span><span class="sxs-lookup"><span data-stu-id="eb313-137">Open the LCS environment where you want to add the service.</span></span>
 
-1. <span data-ttu-id="e6a22-138">Farðu í **Fullar upplýsingar**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-138">Go to **Full details**.</span></span>
+1. <span data-ttu-id="eb313-138">Farðu í **Fullar upplýsingar**.</span><span class="sxs-lookup"><span data-stu-id="eb313-138">Go to **Full details**.</span></span>
 
-1. <span data-ttu-id="e6a22-139">Flettu niður að flýtiflipanum **Umhverfisinnbætur**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-139">Scroll down to the **Environment add-ins** FastTab.</span></span>
+1. <span data-ttu-id="eb313-139">Flettu niður að flýtiflipanum **Umhverfisinnbætur**.</span><span class="sxs-lookup"><span data-stu-id="eb313-139">Scroll down to the **Environment add-ins** FastTab.</span></span>
 
-1. <span data-ttu-id="e6a22-140">Veldu **Setja upp nýja innbót**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-140">Select **Install a new add-in**.</span></span>
+1. <span data-ttu-id="eb313-140">Veldu **Setja upp nýja innbót**.</span><span class="sxs-lookup"><span data-stu-id="eb313-140">Select **Install a new add-in**.</span></span>
 
-1. <span data-ttu-id="e6a22-141">Veljið **Kostnaðarbókhaldsþjónusta**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-141">Select **Cost accounting service**.</span></span>
+1. <span data-ttu-id="eb313-141">Veljið **Kostnaðarbókhaldsþjónusta**.</span><span class="sxs-lookup"><span data-stu-id="eb313-141">Select **Cost accounting service**.</span></span>
 
-1. <span data-ttu-id="e6a22-142">Fylgdu uppsetningarleiðbeiningunum og samþykktu skilmála og skilyrði.</span><span class="sxs-lookup"><span data-stu-id="e6a22-142">Follow the installation guide, and agree to the terms and conditions.</span></span>
+1. <span data-ttu-id="eb313-142">Fylgdu uppsetningarleiðbeiningunum og samþykktu skilmála og skilyrði.</span><span class="sxs-lookup"><span data-stu-id="eb313-142">Follow the installation guide, and agree to the terms and conditions.</span></span>
 
-1. <span data-ttu-id="e6a22-143">Velja **Setja upp**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-143">Select **Install**.</span></span>
+1. <span data-ttu-id="eb313-143">Velja **Setja upp**.</span><span class="sxs-lookup"><span data-stu-id="eb313-143">Select **Install**.</span></span>
 
-1. <span data-ttu-id="e6a22-144">Í flýtiflipanum **Viðbætur fyrir umhverfi** ættir þú að sjá að kostnaðarbókhaldsþjónustan er sett upp.</span><span class="sxs-lookup"><span data-stu-id="e6a22-144">On the **Environment add-ins** FastTab, you should see that the cost accounting service is being installed.</span></span> <span data-ttu-id="e6a22-145">Eftir nokkrar mínútur ætti staðan að breytast úr **Setur upp** í **Uppsett**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-145">After a few minutes, the status should change from **Installing** to **Installed**.</span></span> <span data-ttu-id="e6a22-146">(Hugsanlega verður þú að endurhlaða síðuna til að breytingin komi í ljós). Á þeim tímapunkti er kostnaðarbókhaldsþjónustan tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="e6a22-146">(You might have to refresh the page to see this change.) At that point, the cost accounting service is ready for use.</span></span>
+1. <span data-ttu-id="eb313-144">Í flýtiflipanum **Viðbætur fyrir umhverfi** ættir þú að sjá að kostnaðarbókhaldsþjónustan er sett upp.</span><span class="sxs-lookup"><span data-stu-id="eb313-144">On the **Environment add-ins** FastTab, you should see that the cost accounting service is being installed.</span></span> <span data-ttu-id="eb313-145">Eftir nokkrar mínútur ætti staðan að breytast úr **Setur upp** í **Uppsett**.</span><span class="sxs-lookup"><span data-stu-id="eb313-145">After a few minutes, the status should change from **Installing** to **Installed**.</span></span> <span data-ttu-id="eb313-146">(Hugsanlega verður þú að endurhlaða síðuna til að breytingin komi í ljós). Á þeim tímapunkti er kostnaðarbókhaldsþjónustan tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="eb313-146">(You might have to refresh the page to see this change.) At that point, the cost accounting service is ready for use.</span></span>
 
-## <a name="set-up-the-integration"></a><span data-ttu-id="e6a22-147">Setja upp samþættingu</span><span class="sxs-lookup"><span data-stu-id="e6a22-147">Set up the integration</span></span>
+## <a name="set-up-the-integration"></a><span data-ttu-id="eb313-147">Setja upp samþættingu</span><span class="sxs-lookup"><span data-stu-id="eb313-147">Set up the integration</span></span>
 
-<span data-ttu-id="e6a22-148">Til að setja upp samþættingu milli kostnaðarbókhaldsþjónustu og Dynamics 365 Supply Chain Management:</span><span class="sxs-lookup"><span data-stu-id="e6a22-148">To set up the integration between the cost accounting service and Dynamics 365 Supply Chain Management:</span></span>
+<span data-ttu-id="eb313-148">Til að setja upp samþættingu milli kostnaðarbókhaldsþjónustu og Dynamics 365 Supply Chain Management:</span><span class="sxs-lookup"><span data-stu-id="eb313-148">To set up the integration between the cost accounting service and Dynamics 365 Supply Chain Management:</span></span>
 
-1. <span data-ttu-id="e6a22-149">Farðu í **Kerfisstjórnun > Eiginleikastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-149">Go to **System administration > Feature Management**.</span></span>
+1. <span data-ttu-id="eb313-149">Farðu í **Kerfisstjórnun > Eiginleikastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="eb313-149">Go to **System administration > Feature Management**.</span></span>
 
-1. <span data-ttu-id="e6a22-150">Veldu **Leita að uppfærslum**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-150">Select **Check for updates**.</span></span>
+1. <span data-ttu-id="eb313-150">Veldu **Leita að uppfærslum**.</span><span class="sxs-lookup"><span data-stu-id="eb313-150">Select **Check for updates**.</span></span>
 
-1. <span data-ttu-id="e6a22-151">Opnaðu flipann **Allt** og leitaðu að eiginleika sem heitir *Kostnaðarbókhaldsþjónusta*.</span><span class="sxs-lookup"><span data-stu-id="e6a22-151">Open the **All** tab and search for the feature named *Cost accounting service*.</span></span>
+1. <span data-ttu-id="eb313-151">Opnaðu flipann **Allt** og leitaðu að eiginleika sem heitir *Kostnaðarbókhaldsþjónusta*.</span><span class="sxs-lookup"><span data-stu-id="eb313-151">Open the **All** tab and search for the feature named *Cost accounting service*.</span></span>
 
-1. <span data-ttu-id="e6a22-152">Veldu **Virkja núna**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-152">Select **Enable now**.</span></span>
+1. <span data-ttu-id="eb313-152">Veldu **Virkja núna**.</span><span class="sxs-lookup"><span data-stu-id="eb313-152">Select **Enable now**.</span></span>
 
-1. <span data-ttu-id="e6a22-153">Farðu í **Kostnaðarstjórnun > Kostnaðarbókhaldsþjónusta > Uppsetning > Þjónustubreytur kostnaðarbókhalds > Samþættingarbreytur**.</span><span class="sxs-lookup"><span data-stu-id="e6a22-153">Go to **Cost management > Cost accounting service > Setup > Cost accounting service parameters > Integrations parameters**.</span></span>
+1. <span data-ttu-id="eb313-153">Farðu í **Kostnaðarstjórnun > Kostnaðarbókhaldsþjónusta > Uppsetning > Þjónustubreytur kostnaðarbókhalds > Samþættingarbreytur**.</span><span class="sxs-lookup"><span data-stu-id="eb313-153">Go to **Cost management > Cost accounting service > Setup > Cost accounting service parameters > Integrations parameters**.</span></span>
 
-1. <span data-ttu-id="e6a22-154">Í **Kenni forrits** skal slá inn eftirfarandi kóða:</span><span class="sxs-lookup"><span data-stu-id="e6a22-154">In the **Application ID** field, enter the following code:</span></span><br> <span data-ttu-id="e6a22-155">08231eb2-a501-4edb-b3c5-aede5e5e0c3f</span><span class="sxs-lookup"><span data-stu-id="e6a22-155">08231eb2-a501-4edb-b3c5-aede5e5e0c3f</span></span>
+1. <span data-ttu-id="eb313-154">Í **Kenni forrits** skal slá inn eftirfarandi kóða:</span><span class="sxs-lookup"><span data-stu-id="eb313-154">In the **Application ID** field, enter the following code:</span></span><br> <span data-ttu-id="eb313-155">08231eb2-a501-4edb-b3c5-aede5e5e0c3f</span><span class="sxs-lookup"><span data-stu-id="eb313-155">08231eb2-a501-4edb-b3c5-aede5e5e0c3f</span></span>
 
-1. <span data-ttu-id="e6a22-156">Sláðu inn eftirfarandi vefslóð í svæðið **Endastöð gagnaþjónustu**:</span><span class="sxs-lookup"><span data-stu-id="e6a22-156">In the **Data service endpoint** field, enter the following URL:</span></span><br>https://operationsdataservice.operations365.dynamics.com/
+1. <span data-ttu-id="eb313-156">Sláðu inn eftirfarandi vefslóð í svæðið **Endastöð gagnaþjónustu**:</span><span class="sxs-lookup"><span data-stu-id="eb313-156">In the **Data service endpoint** field, enter the following URL:</span></span><br>https://operationsdataservice.operations365.dynamics.com/
 
-1. <span data-ttu-id="e6a22-157">Sláðu inn eftirfarandi vefslóð í svæðið **Endastöð kostnaðarbókhaldsþjónustu**:</span><span class="sxs-lookup"><span data-stu-id="e6a22-157">In the **Cost accounting service endpoint** field, enter the following URL:</span></span><br>https://costaccountingservice.operations365.dynamics.com/
+1. <span data-ttu-id="eb313-157">Sláðu inn eftirfarandi vefslóð í svæðið **Endastöð kostnaðarbókhaldsþjónustu**:</span><span class="sxs-lookup"><span data-stu-id="eb313-157">In the **Cost accounting service endpoint** field, enter the following URL:</span></span><br>https://costaccountingservice.operations365.dynamics.com/
 
-1. <span data-ttu-id="e6a22-158">Kostnaðarbókhaldsþjónustan er nú tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="e6a22-158">The cost accounting service is now ready for use.</span></span>
+1. <span data-ttu-id="eb313-158">Kostnaðarbókhaldsþjónustan er nú tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="eb313-158">The cost accounting service is now ready for use.</span></span>
 
-## <a name="related-resources"></a><span data-ttu-id="e6a22-159">Tengd tilföng</span><span class="sxs-lookup"><span data-stu-id="e6a22-159">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="eb313-159">Tengd tilföng</span><span class="sxs-lookup"><span data-stu-id="eb313-159">Related resources</span></span>
 
-[<span data-ttu-id="e6a22-160">Heimasíða kostnaðarbókhaldsþjónustu</span><span class="sxs-lookup"><span data-stu-id="e6a22-160">Cost accounting service home page</span></span>](cost-accounting-service-home.md)
+[<span data-ttu-id="eb313-160">Heimasíða kostnaðarbókhaldsþjónustu</span><span class="sxs-lookup"><span data-stu-id="eb313-160">Cost accounting service home page</span></span>](cost-accounting-service-home.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

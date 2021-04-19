@@ -2,11 +2,9 @@
 title: Greining algengra orsaka framleiðslufrávika
 description: Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
@@ -18,46 +16,46 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f36e482595cad49d1149873f8bcdd6a05a3287d5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f627cb1d15d0fa858abae588d149875967cff97c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229280"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813244"
 ---
-# <a name="common-sources-of-production-variances"></a><span data-ttu-id="c8638-103">Greining algengra orsaka framleiðslufrávika</span><span class="sxs-lookup"><span data-stu-id="c8638-103">Common sources of production variances</span></span>
+# <a name="common-sources-of-production-variances"></a><span data-ttu-id="5ffc7-103">Greining algengra orsaka framleiðslufrávika</span><span class="sxs-lookup"><span data-stu-id="5ffc7-103">Common sources of production variances</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c8638-104">Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="c8638-104">This article explains various typical sources of each type of production variance.</span></span> 
+<span data-ttu-id="5ffc7-104">Þessi grein útskýrir ýmis dæmigert uppruna á hverja tegund af fráviki í framleiðslu.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-104">This article explains various typical sources of each type of production variance.</span></span> 
 
-<span data-ttu-id="c8638-105">Hér eru sumar dæmigert uppruna á frávikum **lotustærð**:</span><span class="sxs-lookup"><span data-stu-id="c8638-105">Here are some typical sources of a **lot size** variance:</span></span>
+<span data-ttu-id="5ffc7-105">Hér eru sumar dæmigert uppruna á frávikum **lotustærð**:</span><span class="sxs-lookup"><span data-stu-id="5ffc7-105">Here are some typical sources of a **lot size** variance:</span></span>
 
--   <span data-ttu-id="c8638-106">Ógallað magn framleiðslupöntunar er annað en útreikningsmagn sem er notað í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="c8638-107">Magnið gefur grunninn fyrir afskriftir fasts kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-107">The quantity provides the basis for amortizing constant costs.</span></span>
--   <span data-ttu-id="c8638-108">Virði fasts kostnaðar í framleiðslupöntuninni getur verið ólíkt föstum kostnaði sem er notaður í stöðluðum kostnaðarútreikningi.</span><span class="sxs-lookup"><span data-stu-id="c8638-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="c8638-109">Fasts kostnaðar í framleiðslupöntuninni getur verið önnur út af nokkrar ástæðum.</span><span class="sxs-lookup"><span data-stu-id="c8638-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="c8638-110">Fastur kostnaður gæti til dæmis endurspeglað eftirfarandi þáttum:</span><span class="sxs-lookup"><span data-stu-id="c8638-110">For example, the constant costs might reflect the following factors:</span></span>
-    -   <span data-ttu-id="c8638-111">Handvirk breytingar í framleiðsluuppskrift eða leiða</span><span class="sxs-lookup"><span data-stu-id="c8638-111">Manual changes to the production bill of materials (BOM) or route</span></span>
-    -   <span data-ttu-id="c8638-112">Val á annarri uppskriftarútgáfu eða leiðarútgáfu þegar framleiðslupöntunin er stofnuð</span><span class="sxs-lookup"><span data-stu-id="c8638-112">The selection of a different BOM version or route version when you create the production order</span></span>
-    -   <span data-ttu-id="c8638-113">Áætlaðar skipulagsbreytingar á uppskriftarútgáfunni eða leiðarútgáfan sem er úthlutað á vöru</span><span class="sxs-lookup"><span data-stu-id="c8638-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
+-   <span data-ttu-id="5ffc7-106">Ógallað magn framleiðslupöntunar er annað en útreikningsmagn sem er notað í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-106">The good quantity for a production order differs from the calculation quantity that is used in the standard cost calculation.</span></span> <span data-ttu-id="5ffc7-107">Magnið gefur grunninn fyrir afskriftir fasts kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-107">The quantity provides the basis for amortizing constant costs.</span></span>
+-   <span data-ttu-id="5ffc7-108">Virði fasts kostnaðar í framleiðslupöntuninni getur verið ólíkt föstum kostnaði sem er notaður í stöðluðum kostnaðarútreikningi.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-108">The value of constant costs on the production order differs from the constant costs that are used in the standard cost calculation.</span></span> <span data-ttu-id="5ffc7-109">Fasts kostnaðar í framleiðslupöntuninni getur verið önnur út af nokkrar ástæðum.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-109">The constant costs on the production order can differ for several reasons.</span></span> <span data-ttu-id="5ffc7-110">Fastur kostnaður gæti til dæmis endurspeglað eftirfarandi þáttum:</span><span class="sxs-lookup"><span data-stu-id="5ffc7-110">For example, the constant costs might reflect the following factors:</span></span>
+    -   <span data-ttu-id="5ffc7-111">Handvirk breytingar í framleiðsluuppskrift eða leiða</span><span class="sxs-lookup"><span data-stu-id="5ffc7-111">Manual changes to the production bill of materials (BOM) or route</span></span>
+    -   <span data-ttu-id="5ffc7-112">Val á annarri uppskriftarútgáfu eða leiðarútgáfu þegar framleiðslupöntunin er stofnuð</span><span class="sxs-lookup"><span data-stu-id="5ffc7-112">The selection of a different BOM version or route version when you create the production order</span></span>
+    -   <span data-ttu-id="5ffc7-113">Áætlaðar skipulagsbreytingar á uppskriftarútgáfunni eða leiðarútgáfan sem er úthlutað á vöru</span><span class="sxs-lookup"><span data-stu-id="5ffc7-113">Planned engineering changes to the BOM version or route version that is assigned to the item</span></span>
 
-<span data-ttu-id="c8638-114">Hér eru sumar dæmigert uppruna á frávikum á **framleiðslukostnaði** :</span><span class="sxs-lookup"><span data-stu-id="c8638-114">Here are some typical sources of a **production price** variance:</span></span>
+<span data-ttu-id="5ffc7-114">Hér eru sumar dæmigert uppruna á frávikum á **framleiðslukostnaði** :</span><span class="sxs-lookup"><span data-stu-id="5ffc7-114">Here are some typical sources of a **production price** variance:</span></span>
 
--   <span data-ttu-id="c8638-115">Kostnaðarflokkur uppgefnu notkunarinnar í leiðaraðgerð (og verð hans) er annar en kostnaðarflokkurinn sem er notaður í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
--   <span data-ttu-id="c8638-116">Virkur kostnaður kostnaðarflokksverðsins er annar en kostnaðarflokksverðið sem er notað í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="5ffc7-115">Kostnaðarflokkur uppgefnu notkunarinnar í leiðaraðgerð (og verð hans) er annar en kostnaðarflokkurinn sem er notaður í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-115">The cost category (and cost category price) for the reported consumption of a routing operation differs from the cost category that is used in standard cost calculation.</span></span>
+-   <span data-ttu-id="5ffc7-116">Virkur kostnaður kostnaðarflokksverðsins er annar en kostnaðarflokksverðið sem er notað í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-116">The active cost for the cost category price differs from the cost category price that is used in standard cost calculation.</span></span>
 
-<span data-ttu-id="c8638-117">Hér eru sumar dæmigert uppruna á frávikum á **framleiðslumagni** :</span><span class="sxs-lookup"><span data-stu-id="c8638-117">Here are some typical sources of a **production quantity** variance:</span></span>
+<span data-ttu-id="5ffc7-117">Hér eru sumar dæmigert uppruna á frávikum á **framleiðslumagni** :</span><span class="sxs-lookup"><span data-stu-id="5ffc7-117">Here are some typical sources of a **production quantity** variance:</span></span>
 
--   <span data-ttu-id="c8638-118">Þú gerir yfirúthreyfing efnisíhlutar eða undirúthreyfing efnisíhlutar.</span><span class="sxs-lookup"><span data-stu-id="c8638-118">You over-issue or under-issue a material component.</span></span>
--   <span data-ttu-id="c8638-119">Þú gerir yfirtilkynningartími leiðaráðgerðar eða undirtilkynningartími leiðaraðgerðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-119">You over-report or under-report the time for a routing operation.</span></span>
--   <span data-ttu-id="c8638-120">Yfirinnhreyfing undirinnhreyfing ógallaðs magns yfirvörunnar samkvæmt pöntunarmagninu.</span><span class="sxs-lookup"><span data-stu-id="c8638-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="c8638-121">Hinsvegar, full úthreyfing íhluta og tilkynnt um aðgerðir samkvæmt pöntunarmagni framleiðslupöntunarinnar</span><span class="sxs-lookup"><span data-stu-id="c8638-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
+-   <span data-ttu-id="5ffc7-118">Þú gerir yfirúthreyfing efnisíhlutar eða undirúthreyfing efnisíhlutar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-118">You over-issue or under-issue a material component.</span></span>
+-   <span data-ttu-id="5ffc7-119">Þú gerir yfirtilkynningartími leiðaráðgerðar eða undirtilkynningartími leiðaraðgerðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-119">You over-report or under-report the time for a routing operation.</span></span>
+-   <span data-ttu-id="5ffc7-120">Yfirinnhreyfing undirinnhreyfing ógallaðs magns yfirvörunnar samkvæmt pöntunarmagninu.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-120">You over-receive or under-receive the good quantity of the parent item, relative to the order quantity.</span></span> <span data-ttu-id="5ffc7-121">Hinsvegar, full úthreyfing íhluta og tilkynnt um aðgerðir samkvæmt pöntunarmagni framleiðslupöntunarinnar</span><span class="sxs-lookup"><span data-stu-id="5ffc7-121">However, you issue components and report operations completely, based on the order quantity for the production order.</span></span>
 
-<span data-ttu-id="c8638-122">Hér eru sumar dæmigert uppruna á frávikum á **staðgengilsframleiðslu** :</span><span class="sxs-lookup"><span data-stu-id="c8638-122">Here are some typical sources of a **production substitution** variance:</span></span>
+<span data-ttu-id="5ffc7-122">Hér eru sumar dæmigert uppruna á frávikum á **staðgengilsframleiðslu** :</span><span class="sxs-lookup"><span data-stu-id="5ffc7-122">Here are some typical sources of a **production substitution** variance:</span></span>
 
--   <span data-ttu-id="c8638-123">Úthreyfing efnisíhlutar sem er ekki í framleiðsluuppskriftinni.</span><span class="sxs-lookup"><span data-stu-id="c8638-123">You issue a material component that isn't on the production BOM.</span></span>
--   <span data-ttu-id="c8638-124">Þú bætir Íhlut handvirkt við framleiðsluuppskriftina og tilkynnir þann íhlut sem notaðan.</span><span class="sxs-lookup"><span data-stu-id="c8638-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
--   <span data-ttu-id="c8638-125">Tilkynnt er um vöru sem notaða án þess að bæta henni handvirkt við framleiðsluuppskriftina</span><span class="sxs-lookup"><span data-stu-id="c8638-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
--   <span data-ttu-id="c8638-126">Aðgerð bætt handvirkt við framleiðsluleiðina og tilkynnt að sú aðgerð sé notuð.</span><span class="sxs-lookup"><span data-stu-id="c8638-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
--   <span data-ttu-id="c8638-127">Önnur uppskriftarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem uppskriftarútgáfan er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
--   <span data-ttu-id="c8638-128">Önnur leiðarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem leiðarútgáfa er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8638-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="5ffc7-123">Úthreyfing efnisíhlutar sem er ekki í framleiðsluuppskriftinni.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-123">You issue a material component that isn't on the production BOM.</span></span>
+-   <span data-ttu-id="5ffc7-124">Þú bætir Íhlut handvirkt við framleiðsluuppskriftina og tilkynnir þann íhlut sem notaðan.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-124">You manually add a component to the production BOM and report that component as consumed.</span></span>
+-   <span data-ttu-id="5ffc7-125">Tilkynnt er um vöru sem notaða án þess að bæta henni handvirkt við framleiðsluuppskriftina</span><span class="sxs-lookup"><span data-stu-id="5ffc7-125">You report an item as consumed but don't manually add it to the production BOM.</span></span>
+-   <span data-ttu-id="5ffc7-126">Aðgerð bætt handvirkt við framleiðsluleiðina og tilkynnt að sú aðgerð sé notuð.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-126">You manually add an operation to the production route and report that operation as consumed.</span></span>
+-   <span data-ttu-id="5ffc7-127">Önnur uppskriftarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem uppskriftarútgáfan er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-127">When you create the production order, you select a BOM version that differs from the BOM version that is used in the standard cost calculation.</span></span>
+-   <span data-ttu-id="5ffc7-128">Önnur leiðarútgáfa valin þegar framleiðsluuppskrift er stofnuð þar sem leiðarútgáfa er önnur en sú sem er notuð í útreikningi staðlaðs kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="5ffc7-128">When you create the production order, you select a route version that differs from the route version that is used in the standard cost calculation.</span></span>
 
 
 
