@@ -2,11 +2,9 @@
 title: Síðuyfirlit höfunda
 description: Þetta efnisatriði veitir yfirlit yfir höfundarsíðuna í Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211298"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799878"
 ---
 # <a name="authoring-page-overview"></a>Síðuyfirlit höfunda
 
@@ -29,8 +27,6 @@ ms.locfileid: "5211298"
  [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir höfundarsíðuna í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Hægt er að búa til vefsíður til að styðja við ýmsar þarfir fyrirtækja. Þær geta táknað heilt fyrirtæki, boðið upp á staka viðskiptarás eða miðað við ákveðinn markhóp eða hluta markhóps. Sem dæmi má nefna að fataframleiðandi gæti verið með vefsíðu sem sýnir öll vörumerkin sem hann á. Sami fataframleiðandi gæti þá haft sérstaka vefsíðu fyrir hvert af þessum vörumerkjum, og einnig sett af vefsíðum sem eru með lúxustísku, útitíska og barnatíska.
 

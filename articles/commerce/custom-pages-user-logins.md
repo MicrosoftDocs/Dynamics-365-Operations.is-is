@@ -2,11 +2,9 @@
 title: Setja upp sérsniðnar síður fyrir innskráningu notenda
 description: Þetta efnisatriði lýsir því hvernig á að búa til sérsmíðaðar síður í Microsoft Dynamics 365 Commerce sem meðhöndla sérstilltar innskráningar fyrir notendur Azure Active Directory (Azure AD) sem eru B2C leigjendur.
 author: brianshook
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477949"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799446"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
@@ -31,7 +29,12 @@ ms.locfileid: "5477949"
 
 Til að nota sérsniðnar síður sem eru gerðar í Dynamics 365 Commerce til að takast á við innskráningarflæði notenda verður þú að setja upp Azure AD stefnu sem vísað verður til í viðskiptaumhverfi. Þú getur stillt „Skráning og innskráning“, „Forstillingum breytt“ og „Aðgangsorð endurstillt“ Azure AD B2C stefnur með því að nota Azure AD B2C forrit. Síðan er hægt að vísa til Azure AD B2C leigjanda og stefnuheita við útvegunarferlið sem er gert fyrir viðskiptaumhverfið með því að nota Microsoft Dynamics Lifecycle Services (LCS).
 
-Hægt er að smíða sérsniðnar viðskiptasíður með því að nota innskráningu, skráningu, breytingu reikningssniðs eða endurstillingu lykilorðs. Síðan ætti að vísa í vefslóðir síðunnar sem eru birtar fyrir þessar sérsniðnu síður Azure AD B2C stefnuskilgreiningar í Azure gáttinni.
+Hægt er að smíða sérsniðnar viðskiptasíður með því að nota innskráningu, skráningu, breytingu reikningssniðs, endurstillingu lykilorðs eða almennar AAD-einingar. Síðan ætti að vísa í vefslóðir síðunnar sem eru birtar fyrir þessar sérsniðnu síður Azure AD B2C stefnuskilgreiningar í Azure gáttinni.
+
+> [!WARNING] 
+> Azure AD B2C mun hætta í gamla (eldra) notandaflæði frá 1. ágúst, 2021. Því ætti að áforma að yfirfæra notandaflæðin í nýju ráðlögðu útgáfuna. Nýja útgáfan býður upp á jafngilda eiginleika og nýja eiginleika.. Frekari upplýsingar eru í [Notandaflæði í Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+
+>Einingasafnið fyrir Commerce-útgáfu 10.0.15 eða nýrri ætti að nota með ráðlögðum B2C-notandaflæðum. Einnig er hægt að nota sjálfgefnar síður um notandareglur sem boðið er upp á í Azure AD B2C og leyfa auknar breytingar á bakgrunnsmynd, lógói og bakgrunnslit sem tengjast vörumerki fyrirtækis. Þótt hönnunarmöguleikarnir séu takmarkaðri bjóða sjálfgefnar síður um notandareglur upp á regluvirkni Azure AD B2C án þess að búa til eða skilgreina sérstakar sérstilltar síður. 
 
 ## <a name="set-up-b2c-policies"></a>Setja upp B2C reglur
 
@@ -45,7 +48,7 @@ Eftir að þú hefur sett upp þinn Azure AD B2C leigjanda og tengt hann við vi
 
 Fylgdu þessum skrefum til að stilla stefnuna „Skráning og innskráning“.
 
-1. Veldu **Nýtt notendaflæði** og síðan á flipanum **Ráðlagt** velurðu regluna **Skráning og innskráning**.
+1. Veldu **Nýtt notendaflæði** og síðan í flipanum **Skráning og innskráning** velurðu flipann **Ráðlagt** og síðan **Stofna**.
 1. Sláðu inn heiti fyrir regluna (t.d. **B2C\_1\_SignInSignUp**).
 1. Í hlutanum **Kennisveitendur** velurðu kennisveitendurna sem nota á fyrir regluna. Að lágmarki verður **Innskráning í gegnum tölvupóst** að vera valin.
 1. Í dálkinn **Innheimtueigind** skaltu velja gátreitina fyrir **Netfang**, **Fornafn** og **Eftirnafn**.
@@ -68,10 +71,10 @@ Fylgdu þessum skrefum til að stilla stefnuna „Skráning og innskráning“.
 
 Til að skilgreina regluna „Forstillingum breytt“ skal fylgja þessum skrefum.
 
-1. Veldu **Nýtt notendaflæði** og síðan á flipanum **Ráðlagt** velurðu regluna **Forstillingum breytt**.
+1. Veldu **Nýtt notendaflæði** og síðan í flipanum **Breyting prófíls** skaltu velja flipann **Ráðlagt** og síðan velja **Stofna**.
 1. Sláðu inn heiti fyrir regluna (t.d. **B2C\_1\_EditProfile**).
 1. Í hlutanum **Kennisveitendur** velurðu kennisveitendurna sem nota á fyrir regluna. Að lágmarki verður **Innskráning á staðbundin reikning** að vera valin.
-1. Í dálkinn **Innheimtueigind** skaltu velja gátreitina fyrir **Netföng** og **Eftirnafn**.
+1. Í dálknum **Innheimtueigind** skaltu velja gátreitina fyrir **Fornafn** og **Eftirnafn**.
 1. Í dálknum **Skilakrafa** skaltu velja gátreitina fyrir **Netföng**, **Fornafn**, **Kennisveitandi**, **Eftirnafn** og **Hlutakenni notanda**.
 1. Velja skal **Í lagi** til að stofna regluna.
 1. Tvísmelltu á nýja regluheitið og veldu síðan í yfirlitsglugganum **Eiginleikar**.
@@ -83,16 +86,10 @@ Til að skilgreina regluna „Forstillingum breytt“ skal fylgja þessum skrefu
 
 Til að skilgreina regluna „Aðgangsorð endurstillt“ skal fylgja þessum skrefum.
 
-1. Veldu **Nýtt notendaflæði** og síðan á flipanum **Forskoða** velurðu regluna **Aðgangsorð endurstill v1.1**.
-
-    ![V1.1 reglan fyrir endurstillingu aðgangsorðs valin á flipanum Forskoða](./media/B2C_ForgetPassword_Menu.png)
-
+1. Veldu **Nýtt notendaflæði** og því næst valkostinn **Endurstilling aðgangsorðs** og veldu flipann **Ráðlagt** og smelltu á **Stofna**.
 1. Sláðu inn heiti fyrir regluna (t.d. **B2C\_1\_ForgetPassword**).
 1. Í hlutanum **Kennisveitendur** velurðu **Endurstilla aðgangsorð með netfangi**.
 1. Í dálknum **Skilakrafa** velurðu gátreitina fyrir **Netföng**, **Fornafn**, **Eftirnafn** og **Hlutakenni notanda**.
-
-    ![Valdar kröfur](./media/B2C_ForgetPassword_Attributes.png)
-
 1. Velja skal **Í lagi** til að stofna regluna.
 1. Tvísmelltu á nýja regluheitið og veldu síðan í yfirlitsglugganum **Eiginleikar**.
 1. Stilltu valkostinn **Virkja JavaScript til að framfylgja blaðsíðuútliti (forsskoðun)** á **Á**.
@@ -101,16 +98,24 @@ Til að skilgreina regluna „Aðgangsorð endurstillt“ skal fylgja þessum sk
 
 ## <a name="build-the-custom-pages"></a>Smíða sérsniðnar síður
 
-Fylgdu þessum skrefum til að búa til sérsniðnar síður til að meðhöndla innskráningu notenda.
+Sérstakar Azure AD einingar eru innifaldar í Commerce til að smíða sérstilltar síður fyrir notandareglur Azure AD B2C. Hægt er að smíða síður sérstaklega fyrir hvert útlit af síðu yfir notandareglur með því að nota aðaleiningar Azure AD B2C sem lýst er hér að neðan. Einnig er hægt að nota eininguna **AAD almennt** fyrir öllu síðuútlit og reglur í Azure AD B2C (jafnvel fyrir valkosti síðuútlits innan reglna sem ekki eru gefnar upp hér að neðan). 
 
-1. Farðu á síðuna þína í höfundatólum verslunarinnar.
-1. Búðu til eftirfarandi fimm sniðmát og fimm blaðsíður:
+- Síðubundnar Azure AD einingar eru bundnar við atriði gagnainnsláttar sem sett eru fram af Azure AD B2C. Þessar einingar veita notendum meiri stjórn á því hvar hægt að staðsetja einingar á síðunum þeirra. Hins vegar kann að þurfa að smíða fleiri síður og viðbætur eininga til að gera grein fyrir frávikum sem eru utan við sjálfgefnu stillingarnar sem lýst er hér að neðan.
+- Einingin **AAD almennt** býr til „div“-eininguna fyrir Azure AD B2C til að setja fram allar einingar í útliti á síðu fyrir notandareglur, sem gefur B2C-aðgerðum á síðunni aukinn sveigjanleika en minni stjórnun á staðsetningu og stílmótun (þótt hægt sé að nota CSS til að passa við útlit og yfirbragð svæðisins).
 
-    - Sniðmátið **Innskráning** og síðu sem notar innskráningareininguna.
-    - Sniðmátið **Skráning** og síðu sem notar skráningareininguna.
+Þú getur búið til eina síðu með einingunni **AAD almennt** og notað hana fyrir allar síður yfir notandareglur eða hægt er að smíða ákveðnar síður með því að nota stakar Azure AD einingar fyrir innskráningu, skráningu, breytingu á prófíl, endurstillingu aðgangsorðs og staðfestingu á endurstillingu aðgangsorðs. Einni er hægt að nota blöndu af bæði, nota tilteknu Azure AD síðurnar fyrir síðuútlitin sem minnst er á hér að neðan og almennu AAD-einingasíðuna fyrir eftirstandandi síðuútlit innan þessara eða annarra síða fyrir notandareglur.
+
+Frekari upplýsingar um Azure AD einingarnar sem fylgja einingasafninu er að finna í [Síður og einingar fyrir auðkennisstjórnun](identity-mgmt-modules.md).
+
+Til að smíða sérstilltar síður með ákveðnum auðkenniseiningum til að sjá innskráningar notenda skal fylgja þessum skrefum.
+
+1. Opnaðu síðuna þína á svæðissmið Commerce.
+1. Búðu til eftirfarandi fimm sniðmát og síður (ef þau eru ekki þegar til staðar á vefsvæðinu þínu):
+    - Sniðmát og síðu **Innskráningar** sem nota innskráningareininguna.
+    - Sniðmát og síðu **Nýskráningar** sem nota nýskráningareininguna.
     - Sniðmátið **Aðgangsorð endurstillt** og síðu sem notar eininguna aðgangsorð endurstillt.
     - Sniðmátið **Staðfesting á endurstillingu aðgangsorðs** og síðu sem notar eininguna staðfesting á endurstillingu aðgangsorðs.
-    - Sniðmátið **Forstillingum breytt** og síðu sem notar eininguna lykilforstillingum breytt
+    - Sniðmátið **Forstillingum breytt** og síðu sem notar eininguna lykilforstillingum breytt.
 
 Fylgdu þessum leiðbeiningum þegar þú smíðar síðurnar:
 
@@ -119,7 +124,7 @@ Fylgdu þessum leiðbeiningum þegar þú smíðar síðurnar:
 - Eftir að síðurnar og vefslóðirnar eru birtar safnarðu vefslóðum sem verður að nota fyrir regluskilgreiningar Azure AD B2C. Viðskeytinu **?preloadscripts=true** verður bætt við hverja vefslóð þegar það er notað.
 
 > [!IMPORTANT]
-> Ekki endurnýta altækan hausa og síðufætur sem hafa tengda tengla. Vegna þess að þessar síður verða hýstar í Azure AD B2C lén þegar þau eru notuð, aðeins hreinar vefslóðir ættu að nota fyrir alla tengla.
+> Síður sem eru smíðaðar til að vera vísað á í Azure AD B2C eru þjónustaðar beint úr léni leigjanda Azure AD B2C. Ekki endurnýta altæka síðuhausa og síðufætur sem eru með afstæða tengla. Vegna þess að þessar síður verða hýstar í Azure AD B2C lén þegar þau eru notuð, aðeins hreinar vefslóðir ættu að nota fyrir alla tengla. Mælt er með því að búa til ákveðinn síðuhaus og síðufót með nákvæmum slóðum fyrir sérstilltar síður sem tengjast Azure AD með einhverjum einingum sem tengjast Commerce sem krefjast þess að tenging við Retail Server verði fjarlægð. Til dæmis ættu einingar fyrir eftirlæti, leitarstiku, innskráningartengil og körfu ekki að vera hafðar með á síðum sem verða notaðar í notandaflæði Azure AD B2C.
 
 ## <a name="configure-azure-ad-b2c-policies-with-custom-page-information"></a>Stilla Azure AD B2C reglur með sérsniðnum síðuupplýsingum 
 
@@ -133,51 +138,53 @@ Til að uppfæra regluna „Skráning og innskráning“ með sérsniðnum síð
 1. Veldu útlitið **Samræmd skráningar- eða innskráningarsíða**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
 1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/sign-in?preloadscripts=true``.
-1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
+1. Í reitnum **Útgáfa síðuútlits** skal velja útgáfu **2.1.0** eða nýrri (krefst einingasafns fyrir Commerce-útgáfu 10.0.15 eða nýrri).
+1. Veljið **Vista**.
 1. Veldu útlitið **Skráningarsíða staðbundins reiknings**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
 1. Í reitinn **Sérsniðin URI** slærðu inn alla skráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/sign-up?preloadscripts=true``.
-1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
+1. Í reitnum **Útgáfa síðuútlits** skal velja útgáfu **2.1.0** eða nýrri (krefst einingasafns fyrir Commerce-útgáfu 10.0.15 eða nýrri).
 1. Í hlutanum **Eiginleikar notenda**, fylgdu þessum skrefum:
+    1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Krefst staðfestingar**.
+    1. Fyrir eigindina **Netfang** er mælt með að halda sjálfgefna gildinu **Já** völdu í dálknum **Krefst staðfestingar**. Þessi valkostur tryggir að notendur sem skrá sig með tilteknu netfangi staðfesta að þeir eigi netfangið.
+    1. Fyrir eigindirnar **Netfang**, **Fornafn** og **Eftirnafn** skaltu velja **Nei** í dálknum **Valfrjálst**.
+1. Veljið **Vista**.
 
-    1. Fyrir eigindirnar **Netfang**, **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Krefst staðfestingar**.
-    1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Valfrjálst**.
-
-    ![Stillingar reglu fyrir skráningarsíðu staðbundinna reikninga](./media/B2C_SignUp_PageURLConfig.png)
+    ![Stillingar reglu fyrir skráningarsíðu staðbundinna reikninga](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Uppfærðu regluna „Forstillingum breytt“ með sérsniðnum síðuupplýsingum
 
 Til að uppfæra regluna „Forstillingum breytt“ með sérsniðnum síðuupplýsingum fylgirðu þessum skrefum.
 
 1. Í reglunni **Forstillingum breytt** sem þú stilltir áður skaltu velja í leiðsöguskjánum **Síðuútlit**.
-1. Veldu útlitið **Síðan Breyta forstillingum**.
+1. Veldu útlitið **Síða forstillingabreytingar** (gæti þurft að fletta niður og framhjá öðrum útlitsmöguleikum, fer eftir skjánum).
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
 1. Í reitinn **Sérsniðin URI** slærðu inn alla slóðina til að breyta forstillingum. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/profile-edit?preloadscripts=true``.
-1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
+1. Fyrir **Útgáfa síðuútlits** skal velja útgáfu **2.1.0** eða nýrri (krefst einingasafns fyrir Commerce-útgáfu 10.0.15 eða nýrri).
 1. Í hlutanum **Eiginleikar notenda**, fylgdu þessum skrefum:
-
-    1. Fyrir eigindirnar **Netfang**, **Fornafn** skaltu velja **Nei** í reitnum **Krefst staðfestingar**.
-    1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Valfrjálst**.
+    1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í dálknum **Valfrjálst**.
+    1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Krefst staðfestingar**.
+1. Veljið **Vista**.
 
 ### <a name="update-the-password-reset-policy-with-custom-page-information"></a>Uppfærðu regluna „Aðgangsorð endurstillt“ með sérsniðnum síðuupplýsingum
 
 Til að uppfæra regluna „Aðgangsorð endurstillt“ með sérsniðnum síðuupplýsingum fylgirðu þessum skrefum.
 
 1. Í reglunni **Aðgangsorð endurstillt** sem þú stilltir áður skaltu velja í leiðsöguskjánum **Síðuútlit**.
-1. Veldu útlitið **Ný aðgangsorðasíða**.
+1. Veldu útlitið **Síða gleymds aðgangsorðs**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla slóðina til að endurstilla aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/passwordreset?preloadscripts=true``.
-1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
-1. Veldu útlitið **Síðan Staðfesting á reikningi**.
-1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla stafestingarslóðina fyrir endurstillt aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
-1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
-
-
+1. Í reitinn **Sérsniðin URI** slærðu inn alla stafestingarslóðina fyrir endurstillt aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/password-reset-verification?preloadscripts=true``.
+1. Í reitnum **Útgáfa síðuútlits** skal velja útgáfu **2.1.0** eða nýrri (krefst einingasafns fyrir Commerce-útgáfu 10.0.15 eða nýrri).
+2. Veljið **Vista**.
+3. Veldu útlitið **Síða fyrir breytt aðgangsorð**.
+4. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
+5. Í reitinn **Sérsniðin URI** slærðu inn alla slóðina til að endurstilla aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/password-reset?preloadscripts=true``.
+6. Í reitnum **Útgáfa síðuútlits** skal velja útgáfu **2.1.0** eða nýrri (krefst einingasafns fyrir Commerce-útgáfu 10.0.15 eða nýrri).
+7. Veljið **Vista**.
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Sérsníða sjálfgefna textastrengi fyrir merki og lýsingar
 
-Í einingasafninu eru innskráningareiningar forfylltar með sjálfgefnum textastrengjum fyrir merki og lýsingu. Þú getur sérsniðið þessa strengi í hugbúnaðarþróunarbúnaðinum (SDK) með því að uppfæra gildin í global.json skránni fyrir innskráningarhlutann.
+Í einingasafninu eru innskráningareiningar forfylltar með sjálfgefnum textastrengjum fyrir merki og lýsingu. Hægt er að sérstilla strengina í eiginleikaglugga einingarinnar sem unnið er í. Fleiri strengir á síðunni (eins og textinn **Gleymdirðu aðgangsorðinu?** fyrir tengil eða textinn **Stofna reikning** sem kallar eftir aðgerð) krefjast þess að hugbúnaðarþróunarsett Commerce (SDK) verði notað og gildin í global.json-skránni verði uppfært fyrir innskráningareininguna.
 
 Til dæmis er sjálfgefinn texti fyrir tengilinn sem gleymdist lykilorð **Gleymt lykilorð?**. Eftirfarandi sýnir þennan sjálfgefna texta á innskráningarsíðunni.
 

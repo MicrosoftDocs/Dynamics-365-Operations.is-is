@@ -2,11 +2,9 @@
 title: Leiðir til að bæta við efni
 description: Í þessu efnisatriði er að finna yfirlit og tengla á það hvar og hvernig á að hefja efnisstjórnun með Microsoft Dynamics 365 Commerce verkfærasafni síðusmiðs.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797576"
 ---
 # <a name="ways-to-add-content"></a>Leiðir til að bæta við efni
 
 [!include [banner](includes/banner.md)]
 
 Í þessu efnisatriði er að finna yfirlit og tengla í fylgigögn um hvernig á að stjórna efni með Microsoft Dynamics 365 Commerce verkfærasafni vefsmiðs.
-
-## <a name="overview"></a>Yfirlit
 
 Það eru margar leiðir til að breyta útliti og innihaldi vefsvæðisins. Aðrir en forritarar geta útfært margar þessara breytinga í vefhöfundatólið fyrir byggingu vefsvæða sem fylgir með Dynamics 365 Commerce, eftir því hvaða stig sérsniðs vantar. Vefsvæðistólið gerir þér kleift að smíða sniðmát, velja þemu og velja og stilla einingar án þess að skrifa neinn kóða. Aftur á móti þarf forritunarhæfileika til að búa til nýtt þema eða einingu, vegna þess að nota verður hugbúnaðarþróunarbúnað rafrænna viðskipta (SDK) og Microsoft Dynamics virkjunarverkflæði fyrir Lifecycle Services (LCS).
 

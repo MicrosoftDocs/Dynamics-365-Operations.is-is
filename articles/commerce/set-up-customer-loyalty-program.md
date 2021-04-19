@@ -2,11 +2,9 @@
 title: Yfirlit yfir vildarkerfi
 description: Í þessu efni er fjallað um vildarkerfi í Dynamics 365 Commerce og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1697c377c8291190f27b2057463ddb98aac1f9b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25f02517bf333716bdb7c74ce1decebcd4e30c6d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264553"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801892"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 

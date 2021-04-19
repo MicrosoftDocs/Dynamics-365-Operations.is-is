@@ -1,12 +1,10 @@
 ---
-title: Skilgreining svæðaheita í vöruhúsaforriti
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management.
+title: Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
+description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232960"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808823"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Skilgreining svæðaheita í vöruhúsaforritinu
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management. 
+Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
 
 > [!NOTE]
-> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má finna í leiðsögn [Setja upp og skilgreina yfirlit vöruhúsaforrits](install-configure-warehousing-app.md).
+> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Farsímaforrit vöruhúsakerfis er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang farsímaforrit vöruhúsakerfis og hvernig þau eru notuð í Warehousing.
 
 ## <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 
@@ -142,7 +140,7 @@ Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefn
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Setja upp og stilla yfirlit vöruhúsaforrits](install-configure-warehousing-app.md)
+[Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

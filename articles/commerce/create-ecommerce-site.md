@@ -2,11 +2,9 @@
 title: Stofna svæði fyrir rafræn viðskipti
 description: Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 465154ef7209547481c8598d5eaefb434359b1fd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207979"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795788"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 

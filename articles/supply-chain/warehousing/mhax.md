@@ -2,7 +2,6 @@
 title: Viðmót efnismeðhöndlunarbúnaðar (MHAX)
 description: Þetta efnisatriði lýsir því hvernig á að setja upp viðmót efnismeðhöndlunarbúnaðar (MHAX) þannig að hægt sé að tengjast við ytra efnismeðhöndlunarkerfi (MH).
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571843"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810511"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Viðmót efnismeðhöndlunarbúnaðar (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Hægt er að nota *viðmót efnismeðhöndlunarbúnaðar* (MHAX) til tengja ytri efnismeðhöndlunarkerfi (MH) við vöruhús sem er stjórnað af ítarlegu vöruhúsakerfi (WMS) í Microsoft Dynamics 365 Supply Chain Management. Viðmótið á milli WMS og MH-kerfa samanstendur af tveimur biðröðum: ein fyrir tilvik á útleið (WMS to MH) og ein fyrir tilvik á innleið (MH til WMS). WMS-kerfið myndar tilvik á útleið út frá vinnulínum sem eru stofnaðar þegar ýmsar vinnur eru stofnaðar og framkvæmdarferlar. MH-kerfið athugar síðan reglulega WMS-kerfið fyrir nýjum tilvikum og vinnur úr svörunum. Þegar MH-kerfið hefur lokið við meðhöndlun tilvikanna í samræmi við verkleiðbeiningar, sendir það tilvik á innleið, svo sem vinnulínulok og of lítil tiltekt.
 

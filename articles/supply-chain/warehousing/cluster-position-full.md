@@ -2,11 +2,9 @@
 title: Staðsetning klasa er full
 description: Þetta efnisatriði veitir upplýsingar um eiginleikann fyrir fulla staðsetningu klasa. Þessi eiginleiki býður upp á aðra leið í stað ósveigjanlegar framkvæmdar á reglum um vinnuskiptingu þegar klasatiltekt er notuð, því að leyfð skekkjumörk rúmmálsins eru víðari fyrir gáma eða farm.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233008"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808847"
 ---
 # <a name="cluster-position-full"></a>Staðsetning klasa er full
 
@@ -213,7 +211,7 @@ Tvö vinnukenni ættu að hafa verið stofnuð, hvert þeirra með tveimur tilte
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Framkvæmd flæðis í fartæki - Uppsetning verkstaðfestingar fyrir afurðina
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi í vöruhúsi *61*.
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi í vöruhúsi *61*.
 1. Farið í **Á útleið \> stofnun klasatiltektar**.
 
     Síðan **VERK: Úthluta vinnu á klasa** birtist.

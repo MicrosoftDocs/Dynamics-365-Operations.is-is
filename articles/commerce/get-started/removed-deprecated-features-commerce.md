@@ -2,11 +2,9 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
-manager: AnnBe
 ms.date: 01/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 357f4673d77ee990c4e1b0ce84a704fd4d778402
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ccfbab6055b8b64ce0926cda04090583e0d7a6ae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240220"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797181"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -36,9 +34,6 @@ ms.locfileid: "5240220"
 > Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.17 útgáfu
-
-> [!Important]
-> Útgáfa 10.0.17 tiltæk sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="full-dataset-generation-interval-is-deprecated"></a>Tímabil myndunar fullbúins gagnasafns er úrelt
 

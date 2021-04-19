@@ -2,11 +2,9 @@
 title: Breyta síðu svæðis sem þegar er til
 description: Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6afd19a01520813e54871f4849aeb18f4424173c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223048"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803730"
 ---
 # <a name="modify-an-existing-site-page"></a>Breyta síðu svæðis sem þegar er til
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Þegar þú verður að breyta síðu er fyrsta skrefið að opna hana í ritlinum. Farðu á svæðið sem inniheldur síðuna þína og finndu síðan síðuna sem þú vilt á lista með síðum. Ef þú finnur ekki síðuna geturðu notað ríka leitarmöguleika höfundartækisins. Annaðhvort slærðu nákvæmlega inn nafn síðunnar eða sláðu inn fyrstu stafina í því og síðan stjörnu (\*). Síaður listi yfir síður birtist. Þú getur notað þennan lista til að finna síðuna sem þú vilt. Þegar þú hefur fundið rétta síðu skaltu velja heiti síðunnar til að opna síðuna í ritlinum.
 

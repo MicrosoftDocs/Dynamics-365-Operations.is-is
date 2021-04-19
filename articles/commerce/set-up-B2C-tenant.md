@@ -2,11 +2,9 @@
 title: Setja upp B2C-leigjanda í Commerce
 description: Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
-ms.date: 06/22/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478141"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793996"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -30,6 +28,12 @@ ms.locfileid: "5478141"
 Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
 
 Dynamics 365 Commerce notar Azure AD B2C til að styðja persónuskilríki notenda og staðfesting. Notandi getur skráð sig, skráð sig inn og endurstillt lykilorð sitt í gegnum þessa flæði. Azure AD B2C geymir viðkvæmar sannvottunarupplýsingar notanda, svo sem notandanafn og lykilorð. Notendaskráin í leigjanda B2C mun geyma annað hvort skrá yfir B2C staðbundna reikninga eða skrá yfir fyrirtækjasamfélag B2C. Þessar B2C skrár munu tengjast aftur viðskiptamannaskránni í Commerce-umhverfi.
+
+> [!WARNING] 
+> Azure AD B2C mun hætta í gamla (eldra) notandaflæði frá 1. ágúst, 2021. Því ætti að áforma að yfirfæra notandaflæðin í nýju ráðlögðu útgáfuna. Nýja útgáfan býður upp á jafngilda eiginleika og nýja eiginleika.. Einingasafnið fyrir Commerce-útgáfu 10.0.15 eða nýrri ætti að nota með ráðlögðum B2C-notandaflæðum. Frekari upplýsingar eru í [Notandaflæði í Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+ 
+ > [!NOTE]
+ > Matsumhverfi Commerce koma með fyrirframhlöðnum Azure AD B2C-leigjanda fyrir sýnikennslu. Ekki er krafist þess að hlaða eigin Azure AD B2C-leigjanda með neðangreindum skrefum fyrir matsumhverfi.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Búðu til eða tengdu fyrirliggjandi AAD B2C leigjanda í Azure-gáttinni
 
@@ -70,17 +74,21 @@ Eftirfarandi mynd sýnir dæmi um borða með Azure AD B2C **Úrræðaleit**.
 
 ## <a name="create-the-b2c-application"></a>Stofna B2C forrit
 
-Þegar B2C leigjandinn hefur verið stofnaður muntu búa til B2C forrit innan leigjandans til að hafa samskipti við aðgerðir Commerce.
+Þegar B2C leigjandinn hefur verið stofnaður muntu búa til B2C forrit innan nýja Azure AD B2C leigjandans til að eiga samskipti við Commerce.
 
 Til að stofna B2C forrit skal fylgja þessum skrefum.
 
-1. Í Azure-gáttinni skal velja **Applications(Legacy)** og síðan velja **Bæta við**.
-1. Undir **Heiti** slærðu inn heiti viðeigandi AAD B2C forrits.
-1. Undir **Vefforrit/Vef-API**, fyrir **Hafa vefforrit með/vef-API**, veldu **Já**.
-1. Fyrir **Leyfa óbeint flæði**, veldu **Já** (sjálfgefið gildi).
-1. Undir **Svarslóð**, sláðu inn sérstakar svarslóðir þínar. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær hér.
-1. Fyrir **Hafa native-bliðara með**, veldu **Nei** (sjálfgefið gildi).
-1. Velja **Stofna**.
+1. Í Azure-gáttinni skal velja **Skráning forrita** og því næst velja **Ný skráning**.
+1. Undir **Heiti** skal slá inn heiti sem gefa á þessu Azure AD B2C forriti.
+1. Undir **Studdar reikningsgerðir** skal velja **Reikningar í einhverjum kenniveitanda eða fyrirtækjaskrá (til að auðkenna notendur með notandaflæðum)**.
+1. Fyrir **Framsenda URI** skal færa inn sérstakar svarslóðir af gerðinni **Vefur**. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær.
+1. Fyrir **Heimildir** skal velja **Veita kerfisstjóra samþykki að heimildum openid og offline_access**.
+1. Veldu **Skrá**.
+1. Veljið nýlega stofnað forrit og farið í valmyndina **Sannvottun**. Hér er hægt að bæta við frekari **Framsendum URI** ef þörf krefur (nú eða seinna). Haldið áfram í næsta skref ef ekki er þörf á þessu sem stendur.
+1. Undir **Óbein heimild** skal velja bæði **Aðgangslykla** og **Auðkennislykla** til að virkja þá fyrir forritið. Veljið **Vista**.
+1. Farið í valmyndina **Yfirlit** í Azure-gáttinni og afritið **Forritskennið (biðlarakennið)**. Skrifið hjá ykkur þetta auðkenni fyrir síðari uppsetningarskref (vísað í það síðar sem **GUID biðlara**).
+
+Fyrir frekari tilvísun í forritsskráningu í Azure AD B2C skal skoða [Ný upplifun forritsskráninga fyrir Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Svarslóðir
 
@@ -102,7 +110,7 @@ Azure AD B2C býður upp á þrjár gerðir af grunnflæðum notenda:
 
 Þú getur valið að nota sjálfgefna flæði notenda frá Azure AD, sem birtir síðu sem hýst er af AAD B2C. Að öðrum kosti geturðu búið til HTML síðu til að stjórna útliti og viðmóti þessara reynsluflæði notenda. 
 
-Til að sérsníða stefnusíður notenda fyrir Dynamics 365 Commerce, sjáðu [Setja upp sérsniðnar síður fyrir notendanafn](custom-pages-user-logins.md). Sjá frekari upplýsingar í [Sérsniðið viðmót notendaupplifana í Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Til að sérsníða stefnusíður notenda með síðum smíðuðum í Dynamics 365 Commerce skal skoða [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md). Sjá frekari upplýsingar í [Sérsniðið viðmót notendaupplifana í Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Búðu til skráningu og skráðu þig inn í notendaflæðisstefnu
 
@@ -110,7 +118,7 @@ Til að stofna innskráningu og skrá inn notendaflæðisstefnu skal fylgja þes
 
 1. Veldu í Azure-gáttinni **Notendastreymi (reglur)** í vinstri glugganum.
 1. Á síðunni **Azure AD B2C - Notendastreymi (reglur)** velurðu **Nýtt notendaflæði**.
-1. Á flipanum **Ráðlagt**, velurðu **Skráðu þig og skráðu þig inn**.
+1. Veljið regluna **Nýskrá og innskrá** og því næst velja **Ráðlagða** útgáfu.
 1. Undir **Heiti** slærðu inn heiti stefnu. Þetta nafn mun birtast á eftir með forskeyti sem vefsíðan úthlutar (til dæmis „B2C_1_“).
 1. Undir **Kennisveitendur**, veldu viðeigandi gátreit.
 1. Undir **Fjölþættri sannvottun**, veldu viðeigandi val fyrir þitt fyrirtæki. 
@@ -140,9 +148,9 @@ Til að stofna notendaflæðisreglu forstillingabreytinga skal fylgja þessum sk
 
 1. Veldu í Azure-gáttinni **Notendastreymi (reglur)** í vinstri glugganum.
 1. Á síðunni **Azure AD B2C - Notendastreymi (reglur)** velurðu **Nýtt notendaflæði**.
-1. Á flipanum **Ráðlagt** velurðu **Forstillingum breytt**.
+1. Veljið **Forstillingum breytt** og því næst veljið **Ráðlagða** útgáfu.
 1. Undir **Heiti**, sláðu inn notendaflæði forstillingabreytingar. Þetta nafn mun birtast á eftir með forskeyti sem vefsíðan úthlutar (til dæmis „B2C_1_“).
-1. Undir **Kennisveitendur**, veldu **Innskráning á staðbundinn reikning**.
+1. Undir **Auðkennisveita** skal velja **Tölvupóstur innskráningar**.
 1. Undir **Eiginleikar notanda** skal velja eftirfarandi gátreiti:
     - **Netföng** (aðeins **Skilakrafa**)
     - **Fornafn** (**Innheimtueigind** og **Skila kröfu**)
@@ -161,7 +169,7 @@ Til að stofna notendaflæðisreglu endurstillingar aðgangsorðs skal fylgja þ
 
 1. Veldu í Azure-gáttinni **Notendastreymi (reglur)** í vinstri glugganum.
 1. Á síðunni **Azure AD B2C - Notendastreymi (reglur)** velurðu **Nýtt notendaflæði**.
-1. Á flipanum **Ráðlagt** velurðu **Aðgangsorð endurstillt**.
+1. Veljið **Endurstilling aðgangsorðs** og því næst veljið **Ráðlagða** útgáfu.
 1. Undir **Heiti**, slærðu inn heiti fyrir notandastreymi aðgangsorðs með lykilorði.
 1. Undir **Kennisveitendur** velurðu **Endurstilla aðgangsorð með netfangi**.
 1. Velja **Stofna**.
@@ -225,6 +233,9 @@ Eftirfarandi mynd sýnir dæmi um hvernig eigi að velja kennisveitendur á sí�
 
 Eftirfarandi mynd sýnir dæmi um sjálfgefinn innskráningarskjá með innskráningarhnappi fyrir kennitöluveitanda sýndan.
 
+> [!NOTE]
+> Ef notaðar eru sérstilltar síður sem eru innbyggðar í Commerce fyrir notandaflæðin verður að bæta hnöppunum fyrir kennitöluveitur við með því að nota stækkunareiginleikana í einingasafni Commerce. Auk þess, þegar forritin eru sett upp með ákveðinni kennitöluveitu, gætu strengir vefslóða eða skilgreininga verið í sumum tilfellum gert greinarmun á há- og lágstöfum. Frekari upplýsingar er að finna í tengingarleiðbeiningum kennitöluveitanda.
+ 
 ![Dæmi um sjálfgefinn innskráningarskjá með innskráningarhnappi fyrir kennitöluveitanda sýndan](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Uppfærðu höfuðstöðvar verslunar með nýju Azure AD B2C upplýsingum
@@ -250,12 +261,19 @@ Til að uppfæra höfuðstöðvar með nýjum Azure AD B2C upplýsingum, fylgdu 
 ### <a name="obtain-issuer-url"></a>Fá slóð útgefanda
 
 Fylgdu þessum skrefum til að fá vefslóð útgefanda kennisveitanda.
+1. Á Azure AD B2C síðu Azure-gáttarinnar skal fara í **Nýskrá og innskrá** notandaflæði.
+1. Veljið **Síðuútlit** í vinstri yfirlitsvalmyndinni, undir **Heiti útlits** skal velja **Samræmd síða nýskráningar og innskráningar** og veljið því næst **Keyra notandaflæði**.
+1. Gangið úr skugga um að forritið sé stillt á væntanlegt Azure AD B2C forrit sem búið var til hér að ofan og veljið síðan tengilinn undir hausnum **Keyra notandaflæði** sem inniheldur ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``.
+1. Síða lýsigagna er sýnd í vafraglugganum. Afritið slóð útgefanda kennitöluveitu (gildið fyrir **„útgefandi“**).
+   - Dæmi: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+ 
+**EÐA** : Til að setja saman sömu slóð lýsigagna handvirkt skal fara í gegnum eftirfarandi skref.
 
 1. Búðu til veffang lýsigagna á eftirfarandi sniði með B2C leigjanda þínum og stefnu: ``https://<B2CTENANTNAME>.b2clogin.com/<B2CTENANTNAME>.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``
     - Dæmi: ``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``.
 1. Sláðu inn veffang lýsigagna í veffangastiku vafrans.
 1. Í lýsigögnum, afritarðu veffang útgefanda kennisveitanda (gildið fyrir **"útgefandi"**).
-    - Dæmi: ``https://login.fabrikam.com/073405c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+    - Dæmi: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
 
 ## <a name="configure-your-b2c-tenant-in-commerce-site-builder"></a>Stilla B2C leigjanda þinn í Commerce vefsvæðishönnuði
 
@@ -350,11 +368,11 @@ Hægt er að bæta við valfrjálsum aukaforritareikningi í hlutanum **Notendur
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
-[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)Tengja svæði Dynamics 365 Commerce við netrás
+[Hlaða upp mörgum URL-framsendingum í einu](upload-bulk-redirects.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
-[Skilgreina marga B2C-leigjendur í Commerce-umhverfi](configure-multi-B2C-tenants.md)
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 

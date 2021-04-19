@@ -2,11 +2,9 @@
 title: Skoða áætlunarsögu og skipulagsskrár
 description: Þetta efni útskýrir hvernig á að skoða sögu áætlunarvinnsla sem fara af stað vegna virkni fínstillingar áætlunargerðar.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MPSPlanRegenerationJobList, MPSPlanRegenerationJobLogs
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7cf79b5754f507e90aeb501508d76c7afcf656a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1726d127883f9849fe87888134c0c174377ecf2b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239375"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813028"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Skoða áætlunarsögu og skipulagsskrár
 

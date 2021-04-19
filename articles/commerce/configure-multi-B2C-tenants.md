@@ -2,11 +2,9 @@
 title: Stilla marga B2C leigjendur í viðskiptaumhverfi
 description: Þetta efni lýsir því hvenær og hvernig á að setja upp margar á rás Microsoft Azure Active Directory (Azure AD) viðskipti til neytenda (B2C) leigjendur fyrir auðkenningu notenda í sérhæfðu umhverfi Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477757"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796100"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Stilla marga B2C leigjendur í viðskiptaumhverfi
 
@@ -55,10 +53,6 @@ Eftirfarandi mynd sýnir marga B2C leigjendur í viðskiptaumhverfi.
 
 Ef þú ákveður að fyrirtæki þitt þurfi sérstaka B2C leigjendur á hverja rás í sama viðskiptaumhverfi skaltu ljúka verklagsreglunum í eftirfarandi hlutum til að biðja um þennan eiginleika.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Biðja um að B2C á hverja rás verði virkt í umhverfi þínu
-
-Eins og er, ef þú vilt að sérstakir B2C leigjendur á hvern rás séu tiltækir í sama viðskiptaumhverfi, verður þú að leggja fram beiðni til Dynamics 365 Commerce. Fyrir frekari upplýsingar, sjá [Fáðu stuðning við Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md), eða ræddu þetta mál með tengiliðnum þínum um viðskiptalausnir.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>Stilla B2C leigjendur í umhverfi þínu
 
 Til að stilla B2C leigjendur í umhverfi þínu skaltu ljúka viðeigandi verklagsreglum í þessum kafla.
@@ -79,11 +73,11 @@ Til að bæta við Azure AD B2C leigjanda að umhverfi þínu, fylgdu þessum sk
     - **GUID biðlara**: Sláðu inn Azure AD B2C leigjandaauðkenni eins og það birtist í Azure vefsíðunni (ekki forritsauðkenni B2C leigjanda).
     - **Breyta auðkenni forstillingarreglu**: Sláðu inn stefnuskilríkið (nafn stefnunnar á Azure vefsíðunni).
 
-1. Þegar þú hefur lokið við að slá inn þessar upplýsingar skaltu velja **Í lagi** til að vista breytingarnar.
+1. Þegar þú hefur lokið við að slá inn þessar upplýsingar skaltu velja **Í lagi** til að vista breytingarnar. Nýi Azure AD B2C-leigjandinn ætti nú að birtast á listanum undir **Stjórna B2C forritum**.
 
 > [!NOTE]
 > Þú ættir að hafa reiti eins og **Umfang**, **Ógagnvirk reglukenni**, **Ógagnvirk biðlarakenni**, **Sérstillt lén innskráninga** og **Reglukenni skráningar** auða nema teymi Dynamics 365 Commerce leiðbeini þér að stilla þá.
-Nýi Azure AD B2C-leigjandinn ætti nú að birtast á listanum undir **Stjórna B2C forritum**.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Hafa umsjón með eða eyða Azure AD B2C-leigjanda
 
@@ -97,6 +91,7 @@ Nýi Azure AD B2C-leigjandinn ætti nú að birtast á listanum undir **Stjórna
 > Þegar leigjandi B2C er stilltur fyrir lifandi/birta síðu gætu notendur skráð sig með því að nota reikninga sem eru til staðar á leigjandanum. Ef þú eyðir stillta leigjanda í valmyndinni **Leigjanda stillingar \> B2C leigjandi**, fjarlægir þú félag þess B2C leigjanda frá vefsvæðum sem tengjast einhverjum farvegi leigjanda. Í þessu tilfelli gætu notendur þínir ekki lengur getað skráð sig inn á reikninga sína. Því skal gæta fyllstu varúðar þegar þú eyðir stilltum leigjanda.
 >
 > Þegar uppsettum leigjanda er eytt verður B2C leigjanda og gögnum haldið áfram, en viðskiptakerfisstillingu viðkomandi leigjanda verður breytt eða fjarlægt. Notendur sem reyna að skrá sig eða skrá sig inn á vefinn munu búa til nýja reikningsskrá í sjálfgefna eða nýlega tengda B2C leigjanda sem er stilltur fyrir rás vefsins.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Stilla rásina þína með B2C leigjanda
 
 1. Skráðu þig inn í vefsvæði byggingaraðila fyrir umhverfi þitt sem kerfisstjóri. Til að stilla Azure AD B2C leigjendur, þú verður að vera kerfisstjóri fyrir viðskiptaumhverfið.

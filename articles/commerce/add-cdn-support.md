@@ -2,11 +2,9 @@
 title: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 description: Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582720"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797840"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -41,11 +39,7 @@ Að auki er *tölfræðin* (JavaScript eða Cascading Style Sheets \[CSS\]-skrá
 
 ## <a name="set-up-ssl"></a>Setja upp SSL
 
-Til að hjálpa til við að tryggja að SSL sé sett upp og að tölfræði sé vistuð í skyndiminni verður að stilla CDN þannig að það sé tengt við hýsingarheitið sem Commerce myndaði fyrir umhverfi þitt. Þú verður einnig að vista eftirfarandi mynstur fyrir tölfræði í skyndiminni: 
-
-/\_msdyn365/\_scnr/\*
-
-Eftir að þú hefur úthlutað Commerce-umhverfi þínu á sérsniðna lénið sem er veitt, eða eftir að þú hefur gefið sérsniðna lénið fyrir umhverfi þitt með því að nota þjónustubeiðni, skaltu beina sérsniðna léninu á hýsingarheitið eða endapunktinn sem Commerce myndaði.
+Eftir að þú hefur úthlutað Commerce-umhverfi þínu á sérsniðna lénið sem er veitt, eða eftir að þú hefur gefið sérsniðna lénið fyrir umhverfi þitt með því að nota þjónustubeiðni, þarf að vinna með Commerce nýliðunarteyminu til að áætla DNS breytingarnar.
 
 Eins og áður var getið styður myndað hýsingarheiti eða endapunktur aðeins SSL-skírteini fyrir \*.commerce.dynamics.com. Það styður ekki SSL fyrir sérsniðin lén.
 
@@ -62,7 +56,7 @@ Uppsetningarferli CDN samanstendur af þessum almennu skrefum:
 
 1. Bæta við framvinnsluhýsli.
 1. Skilgreina bakvinnsluhóp.
-1. Settu upp reglur fyrir beina og skyndiminni.
+1. Setja upp reglur fyrir leiðir.
 
 ### <a name="add-a-front-end-host"></a>Bæta við framvinnsluhýsli
 
@@ -74,8 +68,9 @@ Upplýsingar um hvernig á að setja upp Azure Front Door Service, sjá [Stuttur
 
 Til að skilgreina bakvinnsluhóp í Azure Front Door Service skal fylgja þessum skrefum.
 
-1. Bætið **&lt;ecom-leigjanda-heiti&gt;.commerce.dynamics.com** við bakvinnsluhóp sem sérsniðinn hýsil sem er með auðan haus bakvinnsluhýsils.
+1. Bætið **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** við bakvinnsluhóp sem sérsniðinn hýsil sem er með bakvinnsluhaus sem er sá sami og **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. Undir **Álagsjöfnun** skaltu skilja eftir sjálfgefin gildi.
+1. Óvirkja ástandsskoðun fyrir bakvinnsluhóp.
 
 Eftirfarandi mynd sýnir svargluggann **Bæta við bakvinnslu** í Azure Front Door Service með hýsilheiti bakvinnslu slegið inn.
 
@@ -84,6 +79,10 @@ Eftirfarandi mynd sýnir svargluggann **Bæta við bakvinnslu** í Azure Front D
 Eftirfarandi mynd sýnir svargluggann **Bæta við bakvinnslu** í Azure Front Door Service með sjálfgefin gildi álagsjöfnunar.
 
 ![Svarglugginn „Bæta við bakvinnslu“ heldur áfram](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Gangið úr skugga um að **Heilbrigðiseftirlit** þegar eigin Azure Front Door Service er sett upp fyrir Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Settu upp reglur í Azure Front Door Service
 
@@ -100,24 +99,6 @@ Fylgdu þessum skrefum til að setja upp beinareglu í Azure Front Door Service.
 1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
 1. Stilltu valkostinn **Biðminnisvistun** á **Óvirkt**.
 
-Fylgdu þessum skrefum til að setja upp biðminnisreglu í Azure Front Door Service.
-
-1. Bæta við biðminnisreglu.
-1. Í reitinn **Heiti** skal færa inn **tölfræði**.
-1. Í reitnum **Samþykkt samskiptaregla** velurðu **HTTP og HTTPS**.
-1. Í reitnum **Framvinnsluhýslar** skaltu slá inn **dynamics-ecom-tenant-name.azurefd.net**.
-1. Undir **Mynstur til að passa**, í efri reitnum, **/\_msdyn365/\_scnr/\***.
-1. Undir **Upplýsingar um beini** stillirðu valkostinn **Gerð beinis** á **Áfram**.
-1. Í reitnum **Bakvinnslusafn** velurðu **ecom-backend**.
-1. Í reitahópnum **Samskiptareglur framsendingar** velurðu valkostinn **Jafna beiðni**.
-1. Stilltu valkostinn **Umrita vefslóð** á **Óvirkt**.
-1. Stilltu valkostinn **Biðminnisvistun** á **Óvirkt**.
-1. Í reitnum **Skyndiminnishegðun fyrirspurnstrengja** velurðu **Vista hverja einstaka vefslóð í skyndiminni**.
-1. Í reitahópnum **Breytileg þjöppun** velurðu valkostinn **Virkt**.
-
-Eftirfarandi mynd sýnir valmyndina **Bæta við reglu** í Azure Front Door Service.
-
-![Bættu við regluglugga](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Ef lénið sem notað verður er þegar virkt og komið í notkun skal stofna þjónustubeiðni úr reitnum **Stuðningur** í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) til að fá aðstoð vegna næstu skrefa. Frekari upplýsingar er að finna í [Fá stuðning fyrir Finance and Operations-forrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

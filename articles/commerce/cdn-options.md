@@ -2,7 +2,6 @@
 title: Valkostir innleiðingar á efnisbirtingarneti
 description: Í þessu efnisatriði er farið yfir mismunandi valmöguleika fyrir innleiðingu efnisbirtingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce-umhverfum. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
 author: BrianShook
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ae0769b7e19f80244186c51454444c499c5e497f
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582804"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800712"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Valkostir innleiðingar á efnisbirtingarneti
 

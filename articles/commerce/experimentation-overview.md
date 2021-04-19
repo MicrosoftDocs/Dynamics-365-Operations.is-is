@@ -2,11 +2,9 @@
 title: Tilraunir í Dynamics 365 Commerce
 description: Tilraunir gera þér kleift að stofna, breyta og stjórna síðuútliti og meðhöndla efni í vefsmiðnum. Stuðningur fyrir tilraunir er virkjaður fyrir síður rafrænna viðskipta og eininga innan síðu.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238607"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798988"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Tilraunir í Dynamics 365 Commerce
 Notið tilraunir í Dynamics 365 Commerce til að sannprófa tilgátur um árangur af síðum rafrænna viðskipta og takið ákvarðanir sem styðjast við gögn. Commerce styður A/B-prófun á síðum, einingum og brotum og gerir notanda kleift að mæla áhrif fyrirhugaðra breytinga á vefsvæði notanda.

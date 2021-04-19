@@ -2,11 +2,9 @@
 title: Vinna með forstillt útlit
 description: Þetta efnisatriði útskýrir hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2539880e76ffb1861e0d18227a935a2ef35c120
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce54be1032777ffcaac474773cdeeef3b9028110
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210876"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793922"
 ---
 # <a name="work-with-preset-layouts"></a>Vinna með forstillt útlit
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Áður en þú lýkur við ferlin í þessu efni skaltu passa að lesa [Forstillt og sérsniðið skipulag](templates-layouts-overview.md#preset-and-custom-layouts). Fyrir almenna yfirsýn skal sjá [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md).
 

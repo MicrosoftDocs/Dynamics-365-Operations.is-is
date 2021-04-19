@@ -2,11 +2,9 @@
 title: Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði
 description: Þetta efnisatriði lýsir hvernig á að stilla takmörk afurðarmagns fyrir B2B-vefsvæði rafrænna viðskipta.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9f14bc9aa6586e87f3e8ccb82e63d0ec2e46534
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211178"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799782"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði
 

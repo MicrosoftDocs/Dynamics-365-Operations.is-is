@@ -2,11 +2,9 @@
 title: Síður og einingar fyrir stjórnun reikninga
 description: Þetta efnisatriði lýsir síðum og einingum fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206632"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796295"
 ---
 # <a name="account-management-pages-and-modules"></a>Síður og einingar fyrir stjórnun reikninga
 
@@ -41,7 +39,7 @@ Lendingasíða reikningsstjórnunar notar eftirfarandi einingar:
 - **Almennir reitir reiknings** - Þessa einingu er hægt að nota til að útvega fyrirsagnir og tengla á reikningastjórnarsíður, svo sem „Pöntunarferill“ eða „Prófíllinn minn“. Hægt er að nota almenna reitaeiningu til að stilla reit fyrir hvaða síðu sem er. Í Fabrikam er þessi eining notuð fyrir tengilinn „Pöntunarferill“ og „Prófíllinn minn“ á lendingasíðu reikningsstjórnunar.
 - **Óskalistareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir hluti á óskalista viðskiptavinar. Til dæmis gæti hann fullyrt: „Þú ert með 10 atriði á óskalistanum þínum.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á óskalistasíðuna. 
 - **Netfangareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir netföng notandans. Til dæmis gæti hún fullyrt: „Þú ert með 2 netföng bætt við reikninginn þinn.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á notandanetfangasíðuna.
-- **Vildarreitur reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Þessir reitir eru með tvær stöður: Ein staða sýnir tengla til að taka þátt í vildarkerfi ef notandinn er ekki meðlimur nú þegar. Hin staðan sýnir tengla til að skoða síðu vildarupplyýsinga þegar notandinn er þegar meðlimur. Eiginleikar fela í sér fyrirsögnina, tengilinn „Skráning“ og tengilinn „Skoða hollustu“. Stilla ætti tengilinn „Skoða vildarupplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „Innskráning“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu. 
+- **Vildarreitur reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Þessi reitur er með tvær stöður: Ein staða sýnir tengla til að taka þátt í vildarkerfi ef notandinn er ekki meðlimur nú þegar. Hin staðan sýnir tengla til að skoða síðu vildarupplyýsinga þegar notandinn er þegar meðlimur. Eiginleikar fela í sér fyrirsögnina, tengilinn „Skráning“ og tengilinn „Skoða hollustu“. Stilla ætti tengilinn „Skoða vildarupplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „Innskráning“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu. 
 
 ### <a name="order-history-page"></a>Pöntunarferilssíða
 
@@ -51,9 +49,9 @@ Pöntunarferilsíðan notar pöntunarferilseininguna til að sýna allar nýlega
 
 Pöntunarupplýsingasíðan veitir ítarlegar upplýsingar um hverja pöntun og má nálgast af pöntunarferilssíðunni. Það notar pöntunarupplýsingaeininguna, sem krefst sölukennis eða færslukennis til að sækja pöntunarupplýsingarnar.
 
-### <a name="user-profile-page"></a>Notandaforstillingasíða
+### <a name="my-profile-page"></a>Forstillingarsíða mín
 
-Notandaforstillingasíðan sýnir upplýsingar um notandareikning, svo sem nafn notanda og netfang. Það notar upplýsingar um notandasnið og notendasnið til að breyta. Þrátt fyrir að ekki sé hægt að fjarlægja netfangið er hægt að breyta því. Notandasniðssíðan sýnir einnig óskir notenda sem gera notanda kleift að velja eða afþakka ákveðna eiginleika eins og að sérsníða meðmælalista. 
+Notandasíða mín sýnir upplýsingar um notandasíðu reikningsins þíns með einingu reikningsstillingar. Síðan sýnir netfangið sem er tengt við reikning notanda, auk kjörstillingar sem eru settar upp fyrir reikninginn. Ef sérstilltir eiginleika viðskiptavinar eru settir upp birtir eigindin „Viðbótarupplýsingar“ einnig þessa eiginleika. Notendur geta breytt nafni sínu, kjörstillingum eða viðbótarupplýsingum (ef þær eru til staðar).
 
 ### <a name="user-address-page"></a>Netfangssíða notanda
 

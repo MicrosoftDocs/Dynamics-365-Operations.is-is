@@ -2,11 +2,9 @@
 title: Bæta við nýrri síðu á svæði
 description: Þetta efnisatriði lýsir því hvernig á að bæta við nýrri svæðssíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4a2ecc3ef3ff3f708cec50e42777b50ec4576e25
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208040"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797552"
 ---
 # <a name="add-a-new-site-page"></a>Bæta við nýrri síðu á svæði
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að bæta við nýrri svæðssíðu í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Eftir að þú hefur búið til sniðmát og brot fyrir síðuna þína er næsta skref að byrja að búa til síður sem nota þau. Til að byrja verður þú að velja sniðmát eða skipulag, nafn á síðu og slóð síðu.
 

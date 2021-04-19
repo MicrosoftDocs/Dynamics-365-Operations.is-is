@@ -2,11 +2,9 @@
 title: Vinna með birtingarhópa
 description: Þetta efnisatriði lýsir eiginleikum birtingarhópa í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b623573f598f6b21291cafe95fa04e6777cffe11
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15ac04721e440dcd7c0f8984c14e86aa0f68963e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244840"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792316"
 ---
 # <a name="work-with-publish-groups"></a>Vinna með birtingarhópa
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir eiginleikum birtingarhópa í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Vefsíður rafrænna viðskipta eru stöðugt uppfærðar með nýju efni allt árið. Uppfærslur eru oft gefnar út í runum í kringum upptekna viðburði netverslana eins og frídaga, árstíðabundnar markaðsherferðir eða kynningar. Þessar uppfærslur krefjast þess oft að hópar innihalds á vefsíðu (til dæmis síður, myndir, brot og sniðmát) séu stigsettir, staðfestir og gefnir út samtímis í einni aðgerð.
 
