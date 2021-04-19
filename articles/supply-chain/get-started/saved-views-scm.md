@@ -2,11 +2,9 @@
 title: Stöðluð vistuð yfirlit fyrir Supply Chain Management
 description: Þetta efnisatriði lýsir stöðluðum vistuðum yfirlitum sem eru tiltæk og útskýrir hvernig á að gera þau virk.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500695"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821250"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management inniheldur nokkur vistuð yfirlit sem hægt er að kveikja á og nota eftir þörfum. Eitthvað af þessum stöðluðu vistuðum yfirlitum eru fínstillt og nefnd fyrir tiltekið hlutverk eða verkefni (til dæmis, „Gæðastjórnun“ eða „Móttöku“). Önnur eru fínstillt þannig að þau innihalda aðeins reiti og stillingar sem talnagögn Microsoft gefa til kynna að er oftast notað af viðskiptavinum. Þessi vistuðu yfirlit eru yfirleitt nefnd *einfölduð* yfirlit. Þetta efnisatriði lýsir stöðluðum vistuðum yfirlitum sem eru tiltæk og útskýrir hvernig á að gera þau virk og sérsníða þau.
 
@@ -82,14 +79,16 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu innk
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vistuð yfirlit fyrir einingu framleiðslustýringar
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu framleiðslustýringar.
 
 | Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
 |---|---|---|---|
-| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Upplýsingasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Tiltektarlistasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Listasíða framleiðslupantana | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
+| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
+| Upplýsingasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
+| Tiltektarlistasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
+| Listasíða framleiðslupantana | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vistuð yfirlit fyrir sölu- og markaðseininguna
 

@@ -2,7 +2,6 @@
 title: Vinnsla á vörum í flutningi
 description: Þetta efnisatriði útskýrir hvernig á að vinna með pantanir á vörum í flutningi. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi er hægt að reikningsfæra vörur áður en þær hafa verið mótteknar í vöruhúsi fyrir notkun.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500405"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823410"
 ---
 # <a name="goods-in-transit-processing"></a>Vinnsla á vörum í flutningi
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að vinna með pantanir á vörum í flutningi. Þessi gerð pöntunar er aðeins notuð af **Heildarkostnaður** einingunni. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi þarf ekki að bíða þar til vörur hafa verið mótteknar í vöruhúsinu áður en hægt er að reikningsfæra þær. Þess í stað eru vörurnar reikningsfærðar þegar þær fara úr vöruhúsi lánardrottins eða höfn upprunastað og fjármagnskostnaður er viðurkenndur þegar ferðin hefst. Þessi virkni gerir kleift að taka yfir eignarhald á birgðum með réttu vegna þess að vörur verða oft eign fyrirtækisins þegar þær fara frá sendingarhöfn.
 
@@ -135,7 +133,7 @@ Heildarkostnaður bætir eftirfarandi ferlum vinnustofnunar við valmyndaratrið
 
 Skilgreiningarstillingarnar fyrir þessi ferli líkjast stillingunum fyrir [móttökuferli innkaupapöntunar og stofnferli frágangsvinnu](https://technet.microsoft.com/library/dn553216.aspx). Hins vegar bætir ferlið *Móttaka og frágangur á vörum í flutningi* einnig við eftirfarandi reit.
 
-- **Virkja lok flutningagáms** – Ef þessi valkostur er stilltur á *Já*, þegar frágangsvinnu er lokið, mun vöruhúsaforritið bjóða upp á aukalegan valkost sem heitir **Lok flutningagáms**. Þegar sá valkostur er valinn verður starfsmaðurinn beðinn að staðfesta að gámnum sé lokið. Á þessu stigi verður unnið úr öllum of litlum móttökum sem undirfærslu.
+- **Virkja lok flutningagáms** – Ef þessi valkostur er stilltur á *Já*, þegar frágangsvinnu er lokið, mun farsímaforrit vöruhúsakerfis bjóða upp á aukalegan valkost sem heitir **Lok flutningagáms**. Þegar sá valkostur er valinn verður starfsmaðurinn beðinn að staðfesta að gámnum sé lokið. Á þessu stigi verður unnið úr öllum of litlum móttökum sem undirfærslu.
 
 ### <a name="location-directives"></a>Staðsetningarleiðbeiningar
 

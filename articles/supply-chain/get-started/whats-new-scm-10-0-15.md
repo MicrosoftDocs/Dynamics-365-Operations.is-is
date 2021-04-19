@@ -2,11 +2,9 @@
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.15 (janúar 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821154"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.15 (janúar 2021)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5258900"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
 - Stjórnun kvörðunareiningar í cloud og edge í keyrslu á vinnuálagi framleiðslu og vöruhúss<br> - Frekari upplýsingar eru í [Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsastjórnunar](../cloud-edge/cloud-edge-landing-page.md).
 

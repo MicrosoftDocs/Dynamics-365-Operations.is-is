@@ -1,12 +1,10 @@
 ---
-title: Móttaka númeraplötu í gegnum vöruhúsaforritið
-description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
+title: Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis
+description: Þetta efnisatriði útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245155"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823192"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Móttaka númeraplötu í gegnum vöruhúsaforritið
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit þannig að það styðji notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
+Þetta efnisatriði útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis þannig að það styðji notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 
 Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið stofnar sjálfkrafa ASN þegar ferli vöruhússtjórnunar eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
 
@@ -72,7 +70,7 @@ Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleik
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Sýna eða sleppa móttökuyfirlitssíðu
 
-Þú getur notað aðgerðina *Stjórna því hvort sýna skuli móttökuyfirlitssíðu í fartækjum* til að nýta sér viðbótar ítarlegt forritsflæði vöruhúss sem hluta af móttökuferli fyrir númeraplötur.
+Hægt er að nota eiginleikann *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* til að nýta sér ítarlegra flæði farsímaforrits vöruhúsakerfis sem hluta af móttöku númeraplötu.
 
 Þegar kveikt er á þessari aðgerð munu valmyndaratriðin í fartækinu fyrir móttöku númeraplötu eða móttöku og frágang númeraplötu veita stillinguna **Birta yfirlitssíðu móttöku**. Þessi stilling hefur eftirfarandi valkosti:
 

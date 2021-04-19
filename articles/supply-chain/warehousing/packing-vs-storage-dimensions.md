@@ -2,11 +2,9 @@
 title: Stilla mismunandi víddir fyrir pakka og geymslu
 description: Þetta efnisatriði sýnir hvernig á að tilgreina hvaða vinnslu (pökkun, geymsla eða földuð pökkun) hver tilgreind vídd er notuð fyrir.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501295"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818921"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Stilla mismunandi víddir fyrir pakka og geymslu
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sumar vörur eru pakkaðar eða geymdar á þann hátt að nauðsynlegt kann að vera að rekja efnislegar víddir á annan hátt fyrir hvert mismunandi ferli. Eiginleikinn *Afurðarvíddir pökkunar* gerir kleift að setja upp eina eða fleiri gerðir af víddum fyrir hverja afurð. Hver gerð víddar býður upp á efnislegar mælingar (þyngd, breidd, dýpt og hæð) og kemur með ferlið þar sem þessi gildi efnislegra mælinga eiga við. Þegar þessi eiginleiki er virkur styður kerfið eftirfarandi gerðir af víddum:
 

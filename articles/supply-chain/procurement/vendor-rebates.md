@@ -2,11 +2,9 @@
 title: Eftirágreiddur afsláttur lánardrottins
 description: Þetta efnisatriði veitir yfirlit yfir algengustu erkefni sem þú vilt hugsanlega vinna þegar þú vinnur með eftirágreiddur afsláttur lánardrottins. Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246598"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822468"
 ---
 # <a name="vendor-rebates"></a>Eftirágreiddur afsláttur lánardrottins
 

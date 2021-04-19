@@ -2,11 +2,9 @@
 title: Setja á vegg - setja í verslun
 description: Þetta efnisatriði veitir upplýsingar um aðgerðina Setja á vegg - setja í verslun. Þessi virkni gerir þér kleift að takast á við atburðarásir þar sem þú verður að sameina vöru á biðsvæði forpökkunar, byggt á stillanlegu skilyrði. Hún hjálpar til við að draga úr tiltektartímanum vegna þess að hún gerir kleift að tína á eina marknúmeraplötu og getur notað fleiri frágangsstaðsetningar en klasatiltektir.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823288"
 ---
 # <a name="put-to-wall---put-to-store"></a>Setja á vegg - setja í verslun
 
@@ -524,7 +522,7 @@ Nú þegar búið er að koma öllum birgðum fyrir í röðunarstaðsetningunni
 
 Ef loka á röðunarstaðsetningum handvirkt, verður valkosturinn **Loka sjálfkrafa röðun staðsetningar** fyrir flokkunarsniðmát á útleið að vera stillt á *Nei* og lokun verður að gera áður en hægt er að færa birgðir yfir á útskotssvæðið. Hægt er að loka stöðum á ýmsa vegu:
 
-- Um vöruhúsaforrit:
+- Í farsímaforriti vöruhúsakerfis:
 
     - Notandinn getur skannað eina vöruna sem er þegar í staðsetningunni og síðan valið **Loka** til að loka henni.
     - Ef notandi skannar gám sem þegar hefur verið raðað á gám, birtast villuboð. Notandinn getur samt haldið áfram að loka staðnum.

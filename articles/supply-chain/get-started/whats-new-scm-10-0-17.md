@@ -1,12 +1,10 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.17 (apríl 2021)
+title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.17. (apríl 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.17.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571813"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813172"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.17 (apríl 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.17. (apríl 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.17. Þessi útgáfa er með byggingarnúmer 10.0.761 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.17. Þessi útgáfa er með byggingarnúmer 10.0.761 og er fáanlegt á eftirfarandi hátt:
 
 - **Forútgáfa:** Febrúar 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Mars 2021
@@ -36,9 +33,9 @@ ms.locfileid: "5571813"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu.  Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
-Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikar á listanum eru hugsanlega enn í forútgáfu, þó flestir séu nú almennt tiltækir.
 
 ### <a name="asset-management"></a>Eignastýring
 
@@ -68,9 +65,13 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 - [Farsímaforrit vöruhúsakerfi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehouse-management-app.md) og [Notandastillingar fartækis](../warehousing/mobile-device-user-settings.md).
 
+- Tilkynningar bylgjukerslu<br> - Frekari upplýsingar er að finna í [Tilkynningar bylgjukerslu](../warehousing/wave-execution-notifications.md)
+
 ### <a name="manufacturing"></a>Framleiðsla
 
-- [Möguleikar eignastýringar í framkvæmdaviðmóti framleiðslugólfs](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Frekari upplýsingar er að finna á [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md).
+- [Möguleikar eignastýringar í framkvæmdaviðmóti framleiðslugólfs](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-configure.md).
+
+- Samræmd númeraröð fyrir vinnslukenni<br> - Frekari upplýsingar er að finna í 
 
 - [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Frekari upplýsingar er að finna í [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](../production-control/override-default-reservation-principle.md).
 

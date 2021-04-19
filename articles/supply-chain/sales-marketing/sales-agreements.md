@@ -2,11 +2,9 @@
 title: Yfirlit sölusamninga
 description: Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
 author: omulvad
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f13b925dc2d42c1a0d79b0bafb47e4280af7ff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47e8dc0c3244f07d3648c10ad26a92a923d3db77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231793"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817798"
 ---
 # <a name="sales-agreements-overview"></a>Yfirlit sölusamninga
 

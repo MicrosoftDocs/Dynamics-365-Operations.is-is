@@ -2,11 +2,9 @@
 title: Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 description: Þetta efnisatriði lýsir því hvernig á að setja upp sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk, svo hægt sé að nota mismunandi frátekningarreglur sjálfkrafa fyrir hverja vöru sem er hluti af formúlu framleiðsluuppskriftar eða runupöntunar.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501103"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814803"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Eiginleikinn *Hnekkja sjálfgefinni frátekningu framleiðslu* gerir kleift að stilla sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk. Mismunandi frátekningarreglur er þar af leiðandi hægt að nota sjálfkrafa fyrir hverja vöru sem er hluti af formúlu framleiðsluuppskriftar eða runupöntunar. Hægt er að velja hvort hver vörulíkanaflokkur eigi að hnekkja sjálfgefinni frátekningarreglu sem er stillt fyrir pöntun, og hvaða frátekningarreglu eigi að nota í staðinn (*handvirkt*, *mat*, *áætlanagerð*, *losun* eða *upphaf*).
 
