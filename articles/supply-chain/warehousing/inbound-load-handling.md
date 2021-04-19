@@ -2,11 +2,9 @@
 title: Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 description: Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235341"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835631"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -66,7 +64,7 @@ Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferði
 
 - **Valmynd fartækis sem er stillt til að styðja við móttöku farms**
 
-    [Vöruhúsaforritið](install-configure-warehousing-app.md) fyrir fartæki styður eftirfarandi stofnun verka:
+    [Farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md) fyrir fartæki styður eftirfarandi stofnun verka:
 
     - Móttaka farmvöru
     - Móttaka og frágangur farmvöru
@@ -285,7 +283,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
 Áður en starfsmaður vöruhúss getur notað fartæki til að skrá birgðir á innleið sem eru tengdar við álag verður þú að búa til valmyndaratriði fartækis í þeim tilgangi.
 
-Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfskraftur í vöruhúsi getur síðan valið valmyndaratriði í vöruhúsaforritinu.
+Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfskraftur í vöruhúsi getur síðan valið valmyndaratriði í farsímaforriti vöruhúsakerfis.
 
 1. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis** og gakktu úr skugga um að valmynd fartækisins innihaldi valmyndaratriði sem hefur eftirfarandi stillingar:
 

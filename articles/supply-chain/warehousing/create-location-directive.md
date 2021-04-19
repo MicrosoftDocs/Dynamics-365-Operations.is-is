@@ -2,11 +2,9 @@
 title: Vinna með staðsetningarleiðbeiningar
 description: Þetta efnisatriði útskýrir hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470520"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838395"
 ---
 # <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
@@ -152,7 +150,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
     > [!IMPORTANT]
     > Til að geta notað bæði frágang á mörgum vörum og einni birgðahaldseiningu þarf að tilgreina tvær línur sem eru með sama skipulag og uppsetningu, en stilla þarf valkostinn **Margar birgðahaldseiningar** á *Já* fyrir eina línu og *Nei* fyrir hinar. Þar af leiðandi þarf fyrir frágangsaðgerðir að hafa tvær eins staðsetningarleiðbeiningar, jafnvel þótt ekki þurfi að greina á milli einnar birgðahaldseiningar og margra birgðahaldseininga á verkkenni. Ef báðar þessar staðsetningarleiðbeiningar eru ekki settar upp birtast oft óvæntar staðsetningar viðskiptaferla frá notaðri staðsetningarleiðbeiningu. Nota þarf sams konar uppsetningu fyrir staðsetningarleiðbeiningar sem eru með **Verkgerðina** *tiltekt* ef þarf að vinna úr pöntunum sem innihalda margar birgðahaldseiningar.
 
-    Nota skal valkostinn **Margar birgðahaldseiningar** fyrir vinnulínur sem fást við fleiri en eitt vörunúmer. (Vörunúmerið verður autt í vinnulýsingunni og það verður sýnt sem **Mörg** á vinnslusíðunum í vöruhúsi forritsins.)
+    Nota skal valkostinn **Margar birgðahaldseiningar** fyrir vinnulínur sem fást við fleiri en eitt vörunúmer. (Vörunúmerið verður autt í vinnulýsingunni og það verður sýnt sem **Mörg** á vinnslusíðunum í farsímaforriti vöruhúsakerfis.)
 
     Í dæmigerðu sýnidæmi er vinnusniðmát sett upp þannig að það er með fleiri en eitt par af tiltekt/frágangi. Í þessu tilviki gæti verið gott að leita að tiltekinni geymslustaðsetningu til að nota fyrir línurnar með **Verkgerðina** *Frágangur*.
 
@@ -171,7 +169,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
     > [!NOTE]
     > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).
 
-- **Ráðstöfunarkóði** - Þessi reitur er notaður fyrir staðsetningarleiðbeiningar sem eru með verkbeiðnigerðina *Innkaupapantanir*, *Frágangur fullbúinnar vöru* eða *Skilapantanir* og verkgerðina *Frágangur*. Notið hann til að leiðbeina flæðinu til að nota tiltekna staðsetningarleiðbeiningu, allt eftir ráðstöfunarkóðanum sem starfskraftur valdi í vöruhúsaforriti. Til dæmis er hægt að beina skilavörum á eftirlitsstað áður en þeim er skilað í birgðir. Hægt er að tengja ráðstöfunarkóða við birgðastöðu. Á þennan hátt er hægt að nota hann til að breyta birgðastöðu sem hluta af móttökuferli. Þú getur til dæmis verið með ráðstöfunarkóða *QA* sem stillir birgðastöðuna á *QA*. Síðan er hægt að hafa sérstaka staðsetningarleiðbeiningu til að flytja birgðirnar á birgðageymslustaðsetningu.
+- **Ráðstöfunarkóði** - Þessi reitur er notaður fyrir staðsetningarleiðbeiningar sem eru með verkbeiðnigerðina *Innkaupapantanir*, *Frágangur fullbúinnar vöru* eða *Skilapantanir* og verkgerðina *Frágangur*. Notið hann til að leiðbeina flæðinu til að nota tiltekna staðsetningarleiðbeiningu, allt eftir ráðstöfunarkóðanum sem starfskraftur valdi í farsímaforrit vöruhúsakerfis. Til dæmis er hægt að beina skilavörum á eftirlitsstað áður en þeim er skilað í birgðir. Hægt er að tengja ráðstöfunarkóða við birgðastöðu. Á þennan hátt er hægt að nota hann til að breyta birgðastöðu sem hluta af móttökuferli. Þú getur til dæmis verið með ráðstöfunarkóða *QA* sem stillir birgðastöðuna á *QA*. Síðan er hægt að hafa sérstaka staðsetningarleiðbeiningu til að flytja birgðirnar á birgðageymslustaðsetningu.
 
     > [!NOTE]
     > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).

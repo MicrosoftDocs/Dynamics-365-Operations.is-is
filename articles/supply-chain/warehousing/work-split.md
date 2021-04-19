@@ -2,11 +2,9 @@
 title: Skipta vinnu
 description: Þetta efnisatriði veitir upplýsingar um virkni vinnuskiptingar. Þessi virkni gerir þér kleift að skipta stórum verkbeiðnum niður í nokkrar smærri verkbeiðnir sem síðan er hægt að úthluta á marga vöruhúsastarfskrafta. Á þennan hátt er hægt að velja sömu vinnu samtímis af nokkrum starfskröftum í vöruhúsi.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830763"
 ---
 # <a name="work-split"></a>Skipta vinnu
 
@@ -69,7 +67,7 @@ Eiginleikinn *Skipta verki* bætir eftirfarandi tveimur hnöppum við flipann **
 >
 > - Annar notandi er að skipta vinnunni. Ef reynt er að opna síðu skiptingar fyrir verk sem þegar verið að skipta af hálfu annars notanda, færðu eftirfarandi villuboð: „Verið er að skipta niður vinnu með auðkennið \#\#\#\#. Reyna skal aftur eftir smástund. Ef þessi skilaboð halda áfram að birtast skal hafa samband við yfirmann.
 
-Ný ástæða verklokunar, *Skipta verki*, gefur til kynna þegar verið er að skipta niður verkkenninu. Hún er sýnd bæði á síðunni **Skipta verki** og í vöruhúsaforritinu ef notandi reynir að keyra vinnu. Þegar lokunarástæður eru notaðar verður heiti reitsins **Lokuð bylgja** fyrir verkkennið breytt í **Lokað fyrir**.
+Ný ástæða verklokunar, *Skipta verki*, gefur til kynna þegar verið er að skipta niður verkkenninu. Hún er sýnd bæði á síðunni **Skipta verki** og í farsímaforrit vöruhúsakerfis ef notandi reynir að keyra vinnu. Þegar lokunarástæður eru notaðar verður heiti reitsins **Lokuð bylgja** fyrir verkkennið breytt í **Lokað fyrir**.
 
 ## <a name="initiate-a-work-split"></a>Hefja vinnuskipti
 
@@ -147,9 +145,9 @@ Til að ljúka skiptingu vinnu þarf að fjarlægja lokunarástæðuna *Skipta v
 
 Þegar lokunarástæðan *Skipta vinnu* hefur verið fjarlægð, verður hægt að keyra vinnuna í fartæki svo lengi sem staðan **Lokað fyrir** er stillt á *Nei* í verkkenninu.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Lokun notanda á vöruhúsaforriti
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Lokun á notandan í farsímaforriti vöruhúsakerfis
 
-Ef reynt er að nota vöruhúsaforritið til að keyra tiltekt fyrir verkkenni sem verið er að skipta, birtast eftirfarandi villuboð: „Verið er að skipta niður vinnu með auðkennið \#\#\#\#.“ Ef þessi skilaboð birtast skal velja **Hætta við**. Síðan er hægt að halda áfram með aðra vinnu.
+Ef reynt er að nota farsímaforrit vöruhúsakerfis til að keyra tiltekt fyrir verkkenni sem verið er að skipta, birtast eftirfarandi villuboð: „Verið er að skipta niður vinnu með auðkennið \#\#\#\#.“ Ef þessi skilaboð birtast skal velja **Hætta við**. Síðan er hægt að halda áfram með aðra vinnu.
 
 ## <a name="other-blocked-operations"></a>Aðrar lokaðar aðgerðir
 

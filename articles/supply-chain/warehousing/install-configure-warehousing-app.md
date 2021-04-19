@@ -2,11 +2,9 @@
 title: Setja upp og tengja vöruhúsaforrit
 description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit á fartækjum og grunnstilla það til að tengja það við Microsoft Dynamics 365 Supply Chain Management-umhverfið. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486978"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835568"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Setja upp og tengja vöruhúsaforrit
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þetta efnisatriði lýsir hvernig á að stilla eldra vöruhúsaforrit: Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir Vöruhúsakerfi skal skoða [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md).
+> Þetta efnisatriði lýsir hvernig á að stilla eldra vöruhúsaforrit (sem nú er úrelt): Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir Vöruhúsakerfi skal skoða [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Þetta efnisatriði lýsir hvernig á að stilla vöruhúsaforrit fyrir uppsetningu í skýi. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhúsaforrit fyrir virkjun á staðnum skaltu skoða [Vöruhús fyrir virkjun á staðnum](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

@@ -2,11 +2,9 @@
 title: Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
 description: Í þessu efnisatriði er að finna upplýsingar um getu vöruhúsapöntunar sem er notuð sem hluti vinnuálags einingarkvarða í vöruhúsi.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556363"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836687"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556363"
 
 *Vöruhúsapantanir* eru gerð pöntunar sem var stofnuð til að styðja uppsetningar á vöruhúsum miðstöðvar og einingarkvarða. Þær gera kleift að taka á móti birgðum þegar vinnuálag vöruhúss er keyrt í einingarkvarða. Þær eru aðeins notaðar með innkaupapöntunum.
 
-Vöruhúsapantanir eru notaðar sem hluti af vinnslu vöruhúsakerfis, t.d. þegar vöruhúsaforritið er notað til að skrá efnislegar lagerbirgðir við vinnslu á innkaupapöntun á innleið. Vöruhúsapantanir eru stofnaðar sem hluti af ferlinu *Losa í vöruhús* sem er í boði fyrir innkaupapantanir sem tilgreina vöruhús einingarkvarða og vörur sem gert er kleift að nota vöruhúsakerfisferli.
+Vöruhúsapantanir eru notaðar sem hluti af vinnslu vöruhúsakerfis, t.d. þegar farsímaforrit vöruhúsakerfis er notað til að skrá efnislegar lagerbirgðir við vinnslu á innkaupapöntun á innleið. Vöruhúsapantanir eru stofnaðar sem hluti af ferlinu *Losa í vöruhús* sem er í boði fyrir innkaupapantanir sem tilgreina vöruhús einingarkvarða og vörur sem gert er kleift að nota vöruhúsakerfisferli.
 
 > [!IMPORTANT]
 > Vöruhúsapantanir eru aðeins í boði í uppsetningum sem nota [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](cloud-edge-workload-warehousing.md).
@@ -70,7 +68,7 @@ Til að hætta við línur vöruhúsapöntunar skal fylgja þessum skrefum.
 
 ## <a name="monitor-a-warehouse-order"></a>Fylgjast með vöruhúsapöntun
 
-Í yfirlitinu **Línur vöruhúsapöntunar** er hægt að fylgjast með framvindu móttöku á innleið með því að fara yfir gildin í dálkinum **Magn sem er eftir til móttöku**. Til að skoða upplýsingar sem tengjast vinnu sem gerð er með vöruhúsaforritinu skal fylgja einu af þessum skrefum.
+Í yfirlitinu **Línur vöruhúsapöntunar** er hægt að fylgjast með framvindu móttöku á innleið með því að fara yfir gildin í dálkinum **Magn sem er eftir til móttöku**. Til að skoða upplýsingar sem tengjast vinnu sem gerð er með farsímaforriti vöruhúsakerfis skal fylgja einu af þessum skrefum.
 
 - Farið í **Vöruhúsakerfi \> Fyrirpurnir og skýrslur \> Línur vöruhúsapöntunar** og notið síuna til að finna línurnar sem leitað er að.
 - Opnið **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir** og opnið viðeigandi innkaupapöntun. Í hlutanum **Innkaupapöntunarlínur** skal velja eina eða fleiri línur og síðan á tækjastikunni skal velja **Vöruhús \> Færslur vöruhúsamóttöku**.

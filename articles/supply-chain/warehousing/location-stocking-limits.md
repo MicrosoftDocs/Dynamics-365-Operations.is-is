@@ -2,11 +2,9 @@
 title: Birgðamörk staðsetningar
 description: Þetta efnisatriði lýsir virkni fyrir birgðamörk staðsetningar.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216982"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831267"
 ---
 # <a name="location-stocking-limits"></a>Birgðamörk staðsetningar
 
@@ -83,7 +81,7 @@ Mismunandi mælieiningar afurðarafbrigða eru settar upp fyrir afurðirnar. Þe
 
 Þú munt fyrst fá magn af *4* af einingu *PL* í stærðinni *S*, og yfirfara staðsetningarlínur fyrir vinnuna sem er stofnuð. Þú munt síðan fá magn af *4* af einingu *PL* í stærðinni *L* og yfirfara staðsetningarlínustaðsetningar fyrir vinnuna sem er stofnuð.
 
-1. Í vöruhúsaforritinu skal skrá sig inn með því að nota *24* sem notandakenni og *1* sem aðgangsorð.
+1. Í farsímaforrit vöruhúsakerfis skal skrá sig inn með því að nota *24* sem notandakenni og *1* sem aðgangsorð.
 1. Veljið **Innleið** \> **Móttaka innkaupa**.
 1. Taka á móti *4* *stk* af vörunúmeri *D0013* í stærðinni *L*.
 1. Yfirfara vinnu frágangsvinnu sem var stofnuð. Þú ættir að sjá eftirfarandi niðurstöður:

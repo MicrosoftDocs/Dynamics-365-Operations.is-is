@@ -2,11 +2,9 @@
 title: Stilla skjá eldri keyrsla innan vöruhúss á fartæki
 description: Þetta efnisatriði lýsir því hvernig eigi að setja upp fartæki svo það birti lista yfir staðsetningar með eldri runum en núverandi staðsetning á vinnulínu.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f5317f15a7c7aad53971812e4b22f9e4be79d5c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5156b17b9eddc2c3127b6d91fd8cd7d519d240e8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251841"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838299"
 ---
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Stilla skjá eldri keyrsla innan vöruhúss á fartæki
 

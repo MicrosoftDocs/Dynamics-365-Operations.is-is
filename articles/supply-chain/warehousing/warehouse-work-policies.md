@@ -2,11 +2,9 @@
 title: Vinnureglur
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp vinnureglur.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248548"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838131"
 ---
 # <a name="work-policies"></a>Vinnureglur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp kerfið og vöruhúsaforritið þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þetta efnisatriði veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
+Þetta efnisatriði útskýrir hvernig á að setja upp kerfið og farsímaforrit vöruhúsakerfis þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þetta efnisatriði veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota vöruhúsaforritið. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
+Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota farsímaforrit vöruhúsakerfis. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
 
 > [!NOTE]
 > - Til að vinnuregla verði virk þarf að skilgreina að minnsta kosti eina staðsetningu fyrir hana í flýtiflipanum **Birgðastaðsetningar** á síðunni **Vinnureglur**. 
@@ -297,7 +295,7 @@ Ferli vöruhúsa innihalda ekki alltaf vöruhúsavinnu. Með því að skilgrein
 
 Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
 
-Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
+Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).
 

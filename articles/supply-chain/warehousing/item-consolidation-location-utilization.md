@@ -2,11 +2,9 @@
 title: Vörusameining - nýting á staðsetningu
 description: Í þessu efnisatriði er að finna upplýsingar um virkni sem auðveldar stjórnendum vöruhúss að skoða og sía rúmmálsnýtingu staðsetninga í öllu vöruhúsinu. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðu Vörusameiningar til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835573"
 ---
 # <a name="item-consolidation---location-utilization"></a>Vörusameining - nýting á staðsetningu
 
@@ -149,7 +147,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
 
 ## <a name="example-scenario"></a>Dæmi
 
-Eftirfarandi aðstæður notar vöruhúsaforritið í fartæki til að gera *leiðréttingu á* birgðum á tveimur staðsetningum í vöruhúsinu.
+Eftirfarandi aðstæður notar farsímaforrit vöruhúsakerfis til að gera *leiðréttingu á* birgðum á tveimur staðsetningum í vöruhúsinu.
 
 ### <a name="add-inventory-to-locations"></a>Bæta birgðum við staðsetningar
 

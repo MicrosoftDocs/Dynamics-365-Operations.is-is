@@ -2,11 +2,9 @@
 title: Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
 description: Þetta efnisatriði sýnir aðstæður þar sem losa þarf handvirkt eina eða fleiri sölulínur í vöruhúsið af síðunni „Losa í vöruhús“ og hnekkja þarf kerfisskilgreindri samstæðureglu sendingar áður en hún er losuð.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: be573f3a137fbd74ba2f5d8bb346e4bb9f9116c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcd619ad2906d4224966e2696712ed0e71886eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237108"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837490"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
 

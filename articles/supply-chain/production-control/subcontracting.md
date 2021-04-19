@@ -2,11 +2,9 @@
 title: Úthýsing
 description: Þetta efnisatriði aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255542"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825183"
 ---
 # <a name="subcontracting"></a>Úthýsing
 
@@ -210,7 +208,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 
     ![Tvö sett af verkum fyrir hráefnatiltekt á Verksíðunni](./media/subcontract22_work-page.png)
 
-26. Byrjaðu vöruhúsaforritið til að vinna úr vöruhúsaverkinu fyrir aðgerð 10.
+26. Opnaðu farsímaforrit vöruhúsakerfis til að vinna við vöruhúsaverkið fyrir aðgerð 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     - Í **Frá aðg. nr.** reitur, veljið **10**.
     - Í **Til aðg. nr.** reitur, veljið **10**.
 
-    ![Gildi stillt í Almenna flipanum](./media/subcontract23_start-dialog.png)
+    ![Gildi stillt í Almenna flipanum 1](./media/subcontract23_start-dialog.png)
 
 31. Veldu **Í lagi** til að loka svarglugganum **Opna** og fara aftur á síðuna **Allar framleiðslupantanir**.
 
     Taktu eftir að staðan á framleiðslupöntuninni er nú **Opin**. Sjálfvirk bókun á færslubók tiltektarlista notar efnin fyrir aðgerð 10. Sjálfvirk bókun á færslubók leiðarspjalda gerir grein fyrir tímanotkun fyrir aðgerð 10.
 
-32. Opnaðu vöruhúsaforritið til að vinna við vöruhúsaverkið fyrir aðgerð 20.
+32. Opnaðu farsímaforrit vöruhúsakerfis til að vinna við vöruhúsaverkið fyrir aðgerð 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     - Í **Magn** reitinn er fært inn **10**.
     - Stilltu valkostinn **Bóka tiltektarlistann núna** á **Nei**.
 
-    ![Gildi stillt í Almenna flipanum](./media/subcontract24_general-tab.png)
+    ![Gildi stillt í Almenna flipanum 2](./media/subcontract24_general-tab.png)
 
 35. Veldu **Í lagi** til að loka svarglugganum **Opna** og fara aftur á síðuna **Allar framleiðslupantanir**.
 

@@ -2,11 +2,9 @@
 title: Vinna með breytingar á hönnunarafurðum
 description: Þetta efnisatriði gefur upplýsingar um umsjón hönnunarbreytinga. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262334"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830029"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 

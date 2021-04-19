@@ -2,7 +2,6 @@
 title: Stillingum lánardrottins bætt við fyrir heildarkostnað
 description: Þetta efnisatriði lýsir nýjum reitum sem verið er að bæta við fyrirliggjandi síðu lánardrottna þegar Heildarkostnaður einingin er gerð virk. Þessir reitir eru notaðir til að setja upp lánardrottna sem verða notaðir með eiginleikum heildarkostnaðar.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8cc0622cd761a671ebb88addc36b777cfefb7dc7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3a288517f77d1618f94f8539506d01a108e63fa5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500911"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829763"
 ---
 # <a name="vendor-settings-added-for-landed-cost"></a>Stillingum lánardrottins bætt við fyrir heildarkostnað
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þegar einingin **Heildarkostnaður** er virkjaður er nokkrum nýjum reitum bætt við núverandi síðu **Lánardrottna**. Þessir reitir eru notaðir til að setja upp lánardrottna sem verða notaðir með eiginleikum heildarkostnaðar.
 

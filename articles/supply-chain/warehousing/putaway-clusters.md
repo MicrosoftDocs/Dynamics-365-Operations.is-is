@@ -2,11 +2,9 @@
 title: Frágangsklasar
 description: Frágangsklasar bjóða upp á leið til að tína margar númeraplötur samtímis og ganga síðan frá þeim á mörgum staðsetningum. Þeir geta verið mjög gagnlegir fyrir smásölufyrirtæki þar sem númeraplötur eru yfirleitt ekki heil bretti af birgðum.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228442"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840366"
 ---
 # <a name="putaway-clusters"></a>Frágangsklasar
 
@@ -230,7 +228,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Taka við og raða birgðum í klasa
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Í valmyndinni **Á innleið** skal velja **Taka á móti og raða klasa**.
 1. Í reitinn **Ponum** skal slá inn innkaupapöntunarnúmerið.
@@ -272,7 +270,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="put-the-cluster-away"></a>Ganga frá klasa
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Á valmyndinni **Á innleið** skal velja **Frágangur klasa**.
 1. Veljið **Klasakenni** og færið inn klasakennið sem var fært inn áður fyrir lokaða klasann.

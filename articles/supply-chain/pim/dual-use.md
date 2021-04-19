@@ -2,11 +2,9 @@
 title: Vörur tvíþætts notagildis
 description: Þetta efnisatriði útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem vörur með tvíþætt notagildi, geyma vottorðanúmer fyrir hverja viðeigandi afurð og land áfangastaðar, og prenta gild vottorðanúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a6cc730f8d672d906072a9b97b737dbdea9faf2d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15e8696b2bfa9f1df3cecd2d98b9ad2f6c5d6000
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243202"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829475"
 ---
 # <a name="dual-use-goods"></a>Vörur tvíþætts notagildis
 

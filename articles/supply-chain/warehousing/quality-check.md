@@ -2,11 +2,9 @@
 title: Gæðaskoðun
 description: Þetta efnisatriði veitir upplýsingar um eiginleika gæðastjórnunar. Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að gera stuttar skoðanir á staðnum á meðan þeir taka á móti vörum á svæði innhliðs.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838227"
 ---
 # <a name="quality-check"></a>Gæðaskoðun
 
@@ -301,7 +299,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
 #### <a name="receive-pallet-1"></a>Móttaka vörubrettis 1
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi fyrir vöruhús *51*. (Sláið inn *51* sem notandakennið og *1* sem aðgangsorðið.)
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi fyrir vöruhús *51*. (Sláið inn *51* sem notandakennið og *1* sem aðgangsorðið.)
 1. Farið í **Á innleið \> móttaka innkaupapöntunarlínu**.
 1. Í reitinn **PONUM** skal slá inn innkaupapöntunarnúmerið.
 1. Staðfestið innkaupapöntunarnúmerið.

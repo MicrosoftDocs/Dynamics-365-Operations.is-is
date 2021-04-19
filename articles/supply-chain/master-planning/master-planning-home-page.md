@@ -2,11 +2,9 @@
 title: Aðaláætlanagerð – heimasíða
 description: Aðaláætlanagerð gerir fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins.
 author: ShylaThompson
-manager: tfehr
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7829c09696fc5619f1652cbfbde5ae88eaa3ab32
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5056bc9ffa96e1a23e07582b1742e5b3bec12610
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224500"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833426"
 ---
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 

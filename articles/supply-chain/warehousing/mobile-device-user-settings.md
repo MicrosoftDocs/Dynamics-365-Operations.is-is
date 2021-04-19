@@ -2,11 +2,9 @@
 title: Notandastillingar fartækis
 description: Þetta efnisatriði útskýrir hvernig á að stjórna notendastillingum fartækis fyrir starfsmenn í vöruhúsi.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppDeviceBrand,WHSMobileAppUserDisplaySettings
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8090305c1b296d8a8a64df444abb1d1f2235aeee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501199"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837466"
 ---
 # <a name="mobile-device-user-settings"></a>Notandastillingar fartækis
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Nýja farsímaforritið fyrir Vöruhúsakerfi er með sértækar stillingar fyrir forrit sem hjálpa til við að bæta notandaupplifunina. Þar sem hægt er að nota forritið í tækjum með mismunandi skjástærð og grunnstillingar (svo sem spjaldtölva eða sími), er hægt að nota það til að stjórna miðlægt þessum stillingum úr Microsoft Dynamics 365 Supply Chain Management.
 

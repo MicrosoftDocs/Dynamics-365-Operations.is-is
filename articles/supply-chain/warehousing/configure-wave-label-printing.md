@@ -1,12 +1,10 @@
 ---
-title: Setja upp og nota prentun bylgjumerkja
+title: Prentun bylgjumerkis
 description: Þetta efnisatriði lýsir prentun bylgjumerkja og útskýrir hvernig á að setja hana upp.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211767"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840438"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Setja upp og nota prentun bylgjumerkja
+# <a name="wave-label-printing"></a>Prentun bylgjumerkis
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,5 +930,8 @@ Hægt er að skoða og endurprenta bylgjumerki á eftirfarandi síðum:
 
 Fyrir flestar af þessum síðum er hægt að finna viðeigandi virkni með því að velja **Bylgjumerki** í flokknum **Tengdar upplýsingar** í flipanum **Sendingar** á aðgerðasvæðinu.
 
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Endurprenta og ógilda bylgjumerki](reprint-and-void-wave-labels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

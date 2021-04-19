@@ -2,7 +2,6 @@
 title: Heildarkostnaður í samanburði við flutningsstjórnun
 description: 'Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: Flutningsstjórnun (TMS) og Heildarkostnað. Þetta efnisatriði tekur saman þá virkni sem einingarnar tvær eiga sameiginlegt og helsta muninn á þeim.'
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500719"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833858"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Heildarkostnaður í samanburði við flutningsstjórnun
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: **Flutningsstjórnun** (TMS) og **Heildarkostnað**. Þetta efnisatriði tekur saman þá virkni sem einingarnar tvær eiga sameiginlegt og helsta muninn á þeim. Hægt er að nota þessar upplýsingar til að ákveða hvor einingin hentar þínum viðskiptaháttum. Þú gætir fundið fyrir því að einhverjir viðskiptahættir virka betur með flutningsstjórnun á meðan aðrir virka best með heildarkostnaði. Því næst er hægt að nota eina einingu eða að sameina einingarnar tværm, allt eftir þörfum fyrirtækisins.
 
@@ -158,15 +156,15 @@ Bæði TMS og heildarkostnaður bjóða upp á virkni fyrir umsjón með móttö
 
 ### <a name="tms-receiving-by-container-features"></a>TMS móttaka eftir eiginleikum gáma
 
-TMS styður ASN á innleið, öll afbrigði móttöku í gegnum vöruhúsaforritið og allar móttökuaðferðir í gegnum biðlara Supply Chain Management.
+TMS styður ASN á innleið, öll afbrigði móttöku í gegnum farsímaforrit vöruhúsakerfis og allar móttökuaðferðir í gegnum biðlara Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Eiginleikar heildarkostnaðar fyrir gámamóttöku
 
 Til að styðja við móttöku eftir gámi stofnar heildarkostnaður færslur flutningsgáma og tengir innkaupapantanir við tiltekinn flutningsgám með því að nota gámakenni þess. Hægt er að nota sameiginlegan kostnað fyrir þennan flutningsgám og sundurliða hann þannig að hann tengist viðeigandi innkaupapöntunum.
 
-Hægt er að taka á móti gámum í heildarkostnaði í gegnum nýja gerð móttöku sem er þekkt sem *móttaka á vörum í flutningi* í gegnum komubækur eða í gegnum móttöku í fartæki. Þegar komubækur eru notaðar er hægt að frumstilla magnið úr flutningspöntuninni eða upprunalegri innkaupapöntunarlínu í gámnum. Heildarkostnaður býður upp á tvær vinnugerðir fyrir móttöku í gegnum vöruhúsaforritið.
+Hægt er að taka á móti gámum í heildarkostnaði í gegnum nýja gerð móttöku sem er þekkt sem *móttaka á vörum í flutningi* í gegnum komubækur eða í gegnum móttöku í fartæki. Þegar komubækur eru notaðar er hægt að frumstilla magnið úr flutningspöntuninni eða upprunalegri innkaupapöntunarlínu í gámnum. Heildarkostnaður býður upp á tvær vinnugerðir fyrir móttöku í gegnum farsímaforrit vöruhúsakerfis.
 
-Heildarkostnaður býður ekki upp á ASN fyrir rafræna vörumóttöku. Auk þess styður hann ekki flæði vöruhúsaforrits sem vinna úr móttöku farms, númeraplatna eða blandaðra númeraplatna.
+Heildarkostnaður býður ekki upp á ASN fyrir rafræna vörumóttöku. Auk þess styður hann ekki flæði farsímaforrit vöruhúsakerfis sem vinna úr móttöku farms, númeraplatna eða blandaðra númeraplatna.
 
 ## <a name="rate-shopping-by-vendor"></a>Leit að bestu töxtum eftir lánardrottni
 

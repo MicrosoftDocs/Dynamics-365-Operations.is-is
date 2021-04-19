@@ -2,11 +2,9 @@
 title: Úrræðaleit fyrir vöruhúsaaðgerðir á innleið
 description: Í þessu efnisatriði er því lýst hvernig á að laga vandamál sem kunna að koma upp þegar unnið er með vöruhúsaaðgerðir á innleið i Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250883"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828227"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Úrræðaleit fyrir vöruhúsaaðgerðir á innleið
 
@@ -65,5 +63,22 @@ Nýr eiginleiki fyrir meðhöndlun á innleið, *Umframmóttaka á hleðslumagni
 
 Frekari upplýsingar er að finna á [Bóka skráð afurðamagn á móti innkaupapöntunum](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Þegar pantanir á innleið eru skráðar birtast eftirfarandi villuskilaboð: „Magnið er ekki gilt fyrir einingu“.
+
+### <a name="issue-description"></a>Lýsing á úrlausnaratriði
+
+Ef reiturinn **Regla um flokkun númeraplötu** er stilltur á *Skilgreint af notanda* fyrir valmyndaratriði fartækis sem er notað til að skrá pantanir á innleið, koma upp villuboð („Magnið er ekki gilt“) og ekki verður hægt að ljúka skráningunni.
+
+### <a name="issue-cause"></a>Ástæða vandamáls
+
+Þegar *Skilgreint af notanda* er notað sem regla um flokkun númeraplötu, skiptir kerfið væntanlegum birgðum niður á aðskildar númeraplötur eins og röðunarflokkur einingar gefur til kynna. Ef runu- og raðnúmer eru notuð til að rekja vöruna sem tekið er á móti þarf að tilgreina magn hverrar runu eða raðnúmers fyrir hverja númeraplötu sem er skráð. Ef magnið sem er tilgreint fyrir númeraplötu er umfram magnið sem þarf enn að taka á móti fyrir núverandi víddir, koma upp villuboð.
+
+### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
+
+Þegar vara er skráð með því að nota valmyndaratriði fartækis þar sem reiturinn **Regla um flokkun númeraplötu** er stilltur á *Skilgreint af notanda*, gæti kerfið gert kröfu um að númeraplötunúmer, rununúmer eða raðnúmer verði staðfest eða slegin inn.
+
+Á staðfestingarsíðu númeraplötu sýnir kerfið magnið sem er úthlutað fyrir núverandi númeraplötu. Á staðfestingarsíðum rununúmers og raðnúmers sýnir kerfið magnið sem þarf enn að taka á móti á núverandi númeraplötu. Þar verður einnig reitur þar sem hægt er að slá inn magnið til að skrá fyrir þá samsetningu af númeraplötu og runu- eða raðnúmeri. Í þessu tilfelli skal ganga úr skugga um magnið sem verið er að skrá fyrir númeraplötuna fari ekki umfram magnið sem þarf enn að taka á móti.
+
+Ef verið er að búa til of margar númeraplötur við skráningu á pöntun á innleið verður hægt að breyta gildinu í reitnum **Regla um flokkun númeraplötu** í *Flokkun númeraplötu*, hægt verður að úthluta nýjum röðunarflokki einingar á vöruna eða hægt verður að gera valkostinn **Flokkun númeraplötu** fyrir röðunarflokk einingar óvirkan.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

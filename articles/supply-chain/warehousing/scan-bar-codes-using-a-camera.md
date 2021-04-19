@@ -1,12 +1,10 @@
 ---
-title: Skanna strikamerki með myndavél í vöruhúsaforriti
-description: Þetta efnisatriði útskýrir hvernig eigi að setja upp vöruhúsaforritið til að skanna strikamerki með því að nota myndavél á fartæki.
+title: Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
+description: Þetta efnisatriði útskýrir hvernig eigi að setja upp farsímaforrit vöruhúsakerfis til að skanna strikamerki með því að nota myndavél á fartæki.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
@@ -16,41 +14,38 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 28a49736f43bd2d3bfd4c6856f2f87079a005ba2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2f61f9c45b95b730a7f1743963658ec00abfbb56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239303"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831219"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Skanna strikamerki með myndavél í vöruhúsaforriti
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig eigi að setja upp vöruhúsaforritið til að skanna strikamerki með því að nota myndavél á fartæki. 
-
-## <a name="prerequisites"></a>Forkröfur
-Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af vöruhúsaforrit uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun forritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
+Þetta efnisatriði útskýrir hvernig eigi að setja upp farsímaforrit vöruhúsakerfis til að skanna strikamerki með því að nota myndavél á fartæki.
 
 ## <a name="setup"></a>Setja upp
-Í skjástillingum vöruhúsaforrits er hægt að velja hvort eigi að nota myndavélina til að skanna strikamerki. Ef þú virkjar **Nota myndavél sem skanna** getur þú notað myndavélina fyrir öll ílagssvæði sem eru með æskilegan ílagsham stilltan á **Skönnun**. 
 
-Til að stjórna því hvort ílagssvæði eigi að vera skannanlegt skal á síðunni **Reitaheiti vöruhúsaforrits** stilla **Æskilegan ílagsham** á **Skönnun**. Þegar þessi valkostur er valinn er hægt að nota myndavél sem skanna í vöruhúsaforritinu. Upplýsingar um hvernig eigi að skilgreina svæðaheita í vöruhúsi er hægt að finna í [Skilgreina svæðaheiti forrits í vöruhúsaforriti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Í skjástillingum farsímaforrits vöruhúsakerfis er hægt að velja hvort eigi að nota myndavélina til að skanna strikamerki. Ef þú virkjar **Nota myndavél sem skanna** getur þú notað myndavélina fyrir öll ílagssvæði sem eru með æskilegan ílagsham stilltan á **Skönnun**.
+
+Til að stjórna því hvort ílagssvæði eigi að vera skannanlegt skal á síðunni **Reitaheiti vöruhúsaforrits** stilla **Æskilegan ílagsham** á **Skönnun**. Þegar þessi valkostur er valinn er hægt að nota myndavél sem skanna í farsímaforrit vöruhúsakerfis. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="supported-bar-code-formats"></a>Studd snið strikamerkja
-Algengustu snið strikamerkja eru studd, þ.á.m. kóði 128, kóði 39, kóði 93, EAN-8, EAN-13, UPC-E, UPC-A og QR kóðar. 
+
+Algengustu snið strikamerkja eru studd, þ.á.m. kóði 128, kóði 39, kóði 93, EAN-8, EAN-13, UPC-E, UPC-A og QR kóðar.
 
 ## <a name="navigation"></a>Yfirlit
-Myndavélasíðan mun ræsast fyrir allar síður þar sem ílagssvæðið er með æskilegan ílagsham stilltan á skönnun. Þegar þú ert á síðu myndavélar skaltu nota eftirfarandi valmöguleika til að fletta:
-- Smellt er á hnappinn Til baka til að fara aftur á verk- og upplýsingasíðuna. 
-- Smellt er á blýantinn á verk- og upplýsingasíðunni til að fara á síðuna þar sem hægt er að færa innsláttinn inn handvirkt.
-- Smellt er á myndavélina á verk- og upplýsingasíðunni til að fara aftur á myndavélasíðuna. 
 
-| Verk- og upplýsingasíða | Myndavélasíða | 
-| :---------------------: | :--------------------: |
-| ![Síðan Dæmi um verkupplýsingar myndavélarskönnunar](./media/camera-scanning-example-task-detail-page50.png)          | ![Minni síða myndavélar dæmi um myndavélarskönnun](./media/camera-scanning-example-camera-page50.png)          |
+Myndavélasíðan mun ræsast fyrir allar síður þar sem færslureiturinn er með **Æskilega inntaksstilingu** stillta á *Skönnun*. Þegar þú ert á síðu myndavélar skaltu nota eftirfarandi valmöguleika til að fletta:
 
-Þegar smellt er á myndavélahnappinn á myndavélasíðunni mun hún sýnast deyfð á meðan reynt er að auðkenna strikamerki. Ef ekki er hægt að auðkenna strikamerki innan 5 sekúndna mun ferlið renna út á tíma og myndavélahnappurinn verður aftur tiltækur. Þá er aftur hægt að skanna strikamerki.
+- Bakkhnappurinn er valinn til að fara aftur á **verk- og upplýsingasíðuna**.
+- Veljið blýantinn á **verk- og upplýsingasíðunni** til að fara á síðuna þar sem hægt er að færa innsláttinn inn handvirkt.
+- Valin er myndavélin á **Verk- og upplýsingasíða** til að fara aftur á myndavélasíðuna.
+
+Þegar myndavélahnappurinn er valinn á myndavélasíðunni mun hann sýnast deyfður á meðan reynt er að auðkenna strikamerki. Ef ekki er hægt að auðkenna strikamerki innan 5 sekúndna mun ferlið renna út á tíma og myndavélahnappurinn verður aftur tiltækur. Þá er aftur hægt að skanna strikamerki.
 
 Þegar myndavél er beint að strikamerki skal staðsetja strikamerkið innan hornklofanna til að fá sem bestar niðurstöðu. Þegar tekst að skanna strikamerki er unnið úr niðurstöðunni og þér verður vísað yfir á næsta skref. Ef næsta skref inniheldur annað ílagssvæði með æskilegan ílagsham stilltan á skönnun mun myndavélasíðan ræsast á ný. Ef næsta skref er ekki skönnunarsvæði mun myndavélasíðan ekki ræsast.
 

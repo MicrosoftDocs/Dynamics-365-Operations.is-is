@@ -2,11 +2,9 @@
 title: Sending lítilla pakka
 description: Í þessu efnisatriði er að finna upplýsingar um eiginleika lítilla pakkasendinga (SPS). Þessi eiginleiki gerir Microsoft Dynamics 365 Supply Chain Management kleift að senda inn upplýsingar um pakkaða gáma til flutningsaðila og fá síðan merkimiða, flutningstaxta og rakningarnúmer aftur frá flutningsaðila.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501175"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831171"
 ---
 # <a name="small-parcel-shipping"></a>Sending lítilla pakka
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Eiginleiki lítilla pakkasendinga (SPS) gerir Microsoft Dynamics 365 Supply Chain Management kleift að eiga bein samskipti við farmflytjendur með því að bjóða upp á samskiptaramma í gegnum API flutningsaðila. Þessi virkni er gagnleg þegar einstakar sölupantanir eru sendar í gegnum flutningsfyrirtæki í stað þess að nota gámaflutning eða sendingar sem eru minni en fullhlaðinn trukkur (LTL).
 

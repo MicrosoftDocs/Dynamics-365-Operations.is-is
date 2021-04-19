@@ -2,11 +2,9 @@
 title: Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 description: Þetta efnisatriði veitir upplýsingar um einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240438"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836711"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 
@@ -124,10 +122,10 @@ Frekari upplýsingar eru í [upplýsingar um vinnuálag einingarkvarða í framl
 Fyrir vöruhúsakerfi, bjóða einingarkvarðar edge upp á eftirfarandi möguleika, jafnvel þegar edge-einingarnar eru ekki tengdar við skýið:
 
 - Úrvinnsla á völdum bylgjuaðferðum er virkjuð fyrir sölupantanir og eftirspurnaráfyllingu.
-- Starfskraftar í vöruhúsi geta keyrt vöruhúsavinnu sölu og eftirspurnaráfyllingar með vöruhúsaforritinu.
-- Starfskraftar í vöruhúsi geta spurst fyrir um lagerbirgðir með vöruhúsaforritinu.
-- Starfskraftar í vöruhúsi geta stofnað og keyrt birgðahreyfingar með vöruhúsaforritinu.
-- Starfskraftar í vöruhúsi geta skráð innkaupapantanir og sinnt frágangsvinnu með vöruhúsaforritinu.
+- Starfskraftar í vöruhúsi geta keyrt vöruhúsavinnu sölu og eftirspurnaráfyllingar með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta spurst fyrir um lagerbirgðir með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta stofnað og keyrt birgðahreyfingar með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta skráð innkaupapantanir og sinnt frágangsvinnu með farsímaforriti vöruhúsakerfis.
 
 Frekari upplýsingar er að finna í [upplýsingar um vinnuálag einingarkvarða í vöruhúsi](cloud-edge-workload-warehousing.md).
 

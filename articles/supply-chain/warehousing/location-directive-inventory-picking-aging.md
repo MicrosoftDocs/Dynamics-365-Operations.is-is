@@ -2,11 +2,9 @@
 title: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 description: Þetta efnisatriði útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt.
 author: mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 937af7e24fc72b5b8bc741857913899a239a64d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835535"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 
