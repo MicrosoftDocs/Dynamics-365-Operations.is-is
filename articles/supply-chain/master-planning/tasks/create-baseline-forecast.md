@@ -2,11 +2,9 @@
 title: Búa til grunnlínuspá
 description: Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota annað hvort spálíkön tímaraðar eða með því að afrita söguleg eftirspurn.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
@@ -15,71 +13,71 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f18da9563421e7e092869451376e53a450abdf7e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d89219d90ddff7cec70195025ffc361fb8101552
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246718"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841720"
 ---
-# <a name="create-a-baseline-forecast"></a><span data-ttu-id="583aa-103">Búa til grunnlínuspá</span><span class="sxs-lookup"><span data-stu-id="583aa-103">Create a baseline forecast</span></span>
+# <a name="create-a-baseline-forecast"></a><span data-ttu-id="bd664-103">Búa til grunnlínuspá</span><span class="sxs-lookup"><span data-stu-id="bd664-103">Create a baseline forecast</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="583aa-104">Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota annað hvort spálíkön tímaraðar eða með því að afrita söguleg eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="583aa-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="583aa-105">Þessi verklýsing sýnir hvernig á að stofna grunnlínuspá fyrir allar afurðir með því að nota eitt úthlutunarlykill vöru með því að afrita söguleg eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="583aa-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
+<span data-ttu-id="bd664-104">Skipuleggjandi framleiðslu getur stofna grunnlínuspá með því að nota annað hvort spálíkön tímaraðar eða með því að afrita söguleg eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="bd664-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="bd664-105">Þessi verklýsing sýnir hvernig á að stofna grunnlínuspá fyrir allar afurðir með því að nota eitt úthlutunarlykill vöru með því að afrita söguleg eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="bd664-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
 
 
-## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="583aa-106">Uppsetning vöruúthlutunarlykils</span><span class="sxs-lookup"><span data-stu-id="583aa-106">Set up an item allocation key</span></span>
-1. <span data-ttu-id="583aa-107">Fara í Aðaláætlanagerð > Uppsetning > Áætlunarhópar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="583aa-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
-2. <span data-ttu-id="583aa-108">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="583aa-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="583aa-109">Til dæmis, sía svæðið Heiti með virði '10'.</span><span class="sxs-lookup"><span data-stu-id="583aa-109">For example, filter on the Name field with a value of '10'.</span></span>
-    * <span data-ttu-id="583aa-110">Eftirspurnarspá keyrir milli lögaðila.</span><span class="sxs-lookup"><span data-stu-id="583aa-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="583aa-111">Þess vegna þarf að setja upp öll fyrirtæki sem á að mynda spár fyrir í eina áætlunarhóp innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="583aa-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
-3. <span data-ttu-id="583aa-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="583aa-112">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="583aa-113">Smellt er á úthlutunarlykla vöru</span><span class="sxs-lookup"><span data-stu-id="583aa-113">Click Item allocation keys.</span></span>
-    * <span data-ttu-id="583aa-114">Velja allar á úthlutunarlykla vöru sem á að stofna spá fyrir.</span><span class="sxs-lookup"><span data-stu-id="583aa-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
-5. <span data-ttu-id="583aa-115">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="583aa-115">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="583aa-116">Veljið D_Aloc úthlutunarlykil vöru.</span><span class="sxs-lookup"><span data-stu-id="583aa-116">Select D_Aloc item allocation key.</span></span>  
-6. <span data-ttu-id="583aa-117">Smellt er á >.</span><span class="sxs-lookup"><span data-stu-id="583aa-117">Click >.</span></span>
-7. <span data-ttu-id="583aa-118">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="583aa-118">Close the page.</span></span>
-8. <span data-ttu-id="583aa-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="583aa-119">Close the page.</span></span>
+## <a name="set-up-an-item-allocation-key"></a><span data-ttu-id="bd664-106">Uppsetning vöruúthlutunarlykils</span><span class="sxs-lookup"><span data-stu-id="bd664-106">Set up an item allocation key</span></span>
+1. <span data-ttu-id="bd664-107">Fara í Aðaláætlanagerð > Uppsetning > Áætlunarhópar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="bd664-107">Go to Master planning > Setup > Intercompany planning groups.</span></span>
+2. <span data-ttu-id="bd664-108">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="bd664-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="bd664-109">Til dæmis, sía svæðið Heiti með virði '10'.</span><span class="sxs-lookup"><span data-stu-id="bd664-109">For example, filter on the Name field with a value of '10'.</span></span>
+    * <span data-ttu-id="bd664-110">Eftirspurnarspá keyrir milli lögaðila.</span><span class="sxs-lookup"><span data-stu-id="bd664-110">Demand forecasting runs across legal entities.</span></span> <span data-ttu-id="bd664-111">Þess vegna þarf að setja upp öll fyrirtæki sem á að mynda spár fyrir í eina áætlunarhóp innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="bd664-111">That's why you need to set up all the companies for which you want to generate forecasts in one intercompany planning group.</span></span>  
+3. <span data-ttu-id="bd664-112">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="bd664-112">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="bd664-113">Smellt er á úthlutunarlykla vöru</span><span class="sxs-lookup"><span data-stu-id="bd664-113">Click Item allocation keys.</span></span>
+    * <span data-ttu-id="bd664-114">Velja allar á úthlutunarlykla vöru sem á að stofna spá fyrir.</span><span class="sxs-lookup"><span data-stu-id="bd664-114">Select all the item allocation keys for which you want to create forecasts.</span></span>  
+5. <span data-ttu-id="bd664-115">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="bd664-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="bd664-116">Veljið D_Aloc úthlutunarlykil vöru.</span><span class="sxs-lookup"><span data-stu-id="bd664-116">Select D_Aloc item allocation key.</span></span>  
+6. <span data-ttu-id="bd664-117">Smellt er á >.</span><span class="sxs-lookup"><span data-stu-id="bd664-117">Click >.</span></span>
+7. <span data-ttu-id="bd664-118">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="bd664-118">Close the page.</span></span>
+8. <span data-ttu-id="bd664-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="bd664-119">Close the page.</span></span>
 
-## <a name="set-up-the-demand-forecasting-parameters"></a><span data-ttu-id="583aa-120">Setja upp færibreytur eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="583aa-120">Set up the demand forecasting parameters</span></span>
-1. <span data-ttu-id="583aa-121">Fara í Aðaláætlanagerð > Uppsetning > Eftirspurnarspá > Færibreytur eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="583aa-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
-2. <span data-ttu-id="583aa-122">Útvíkka hlutann Færibreytur reiknirita fyrir spá.</span><span class="sxs-lookup"><span data-stu-id="583aa-122">Expand the Forecast algorithm parameters section.</span></span>
-3. <span data-ttu-id="583aa-123">Í stjórnunarstefnu Spármyndunar svæðinu, veljið 'Afrita yfir sögulega eftirspurn'.</span><span class="sxs-lookup"><span data-stu-id="583aa-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
-4. <span data-ttu-id="583aa-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="583aa-124">Click Save.</span></span>
+## <a name="set-up-the-demand-forecasting-parameters"></a><span data-ttu-id="bd664-120">Setja upp færibreytur eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="bd664-120">Set up the demand forecasting parameters</span></span>
+1. <span data-ttu-id="bd664-121">Fara í Aðaláætlanagerð > Uppsetning > Eftirspurnarspá > Færibreytur eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="bd664-121">Go to Master planning > Setup > Demand forecasting > Demand forecasting parameters.</span></span>
+2. <span data-ttu-id="bd664-122">Útvíkka hlutann Færibreytur reiknirita fyrir spá.</span><span class="sxs-lookup"><span data-stu-id="bd664-122">Expand the Forecast algorithm parameters section.</span></span>
+3. <span data-ttu-id="bd664-123">Í stjórnunarstefnu Spármyndunar svæðinu, veljið 'Afrita yfir sögulega eftirspurn'.</span><span class="sxs-lookup"><span data-stu-id="bd664-123">In the Forecast generation strategy field, select 'Copy over historical demand'.</span></span>
+4. <span data-ttu-id="bd664-124">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="bd664-124">Click Save.</span></span>
 
-## <a name="create-a-baseline-forecast"></a><span data-ttu-id="583aa-125">Búa til grunnlínuspá</span><span class="sxs-lookup"><span data-stu-id="583aa-125">Create a baseline forecast</span></span>
-1. <span data-ttu-id="583aa-126">Fara í Aðaláætlanagerð > Spá > Eftirspurnarspá > Mynda tölfræðilega grunnlínuspá.</span><span class="sxs-lookup"><span data-stu-id="583aa-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
-2. <span data-ttu-id="583aa-127">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="583aa-127">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="583aa-128">Ef þú ert með sölupantanir sem byrja frá 1. Janúar, 2015, færðu inn þessa dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="583aa-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="583aa-129">Ef ekki, skal færa inn fyrstu dagsetningu sölupantanirnar.</span><span class="sxs-lookup"><span data-stu-id="583aa-129">If you don't, enter the earliest date of your sales orders.</span></span>  
-3. <span data-ttu-id="583aa-130">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="583aa-130">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="583aa-131">Færið inn síðustu dagsetningu sölupantana þinna, til dæmis '2015-03-31'..</span><span class="sxs-lookup"><span data-stu-id="583aa-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
-4. <span data-ttu-id="583aa-132">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="583aa-132">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="583aa-133">Færðu inn '2015-04-01'.</span><span class="sxs-lookup"><span data-stu-id="583aa-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="583aa-134">Þessi dagsetning verður reiknaður sjálfvirkt sem upphafsdagsetning fyrir næsta tímaramma eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="583aa-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
-5. <span data-ttu-id="583aa-135">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="583aa-135">Expand the Records to include section.</span></span>
-6. <span data-ttu-id="583aa-136">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="583aa-136">Click Filter.</span></span>
-7. <span data-ttu-id="583aa-137">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="583aa-137">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="583aa-138">Merkja línuna þar sem Svæðið = áætlunarhóp innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="583aa-138">Mark the row where Field = Intercompany planning group.</span></span>  
-8. <span data-ttu-id="583aa-139">Í reitinn Skilyrði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="583aa-139">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="583aa-140">Færðu inn áætlunarhó innan samstæðu, t.d. 10, sem notað er í fyrsta verkefninu.</span><span class="sxs-lookup"><span data-stu-id="583aa-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
-9. <span data-ttu-id="583aa-141">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="583aa-141">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="583aa-142">Veljið línuna þar sem Svæðið = úthlutunarlykil Vöru.</span><span class="sxs-lookup"><span data-stu-id="583aa-142">Select the row where Field = Item allocation key.</span></span>  
-10. <span data-ttu-id="583aa-143">Í reitinn Skilyrði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="583aa-143">In the Criteria field, type a value.</span></span>
-11. <span data-ttu-id="583aa-144">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="583aa-144">Click OK.</span></span>
-12. <span data-ttu-id="583aa-145">Útvíkka hlutann Ítarlegar færibreytur.</span><span class="sxs-lookup"><span data-stu-id="583aa-145">Expand the Advanced parameters section.</span></span>
-13. <span data-ttu-id="583aa-146">Veljið 'Mánuð' í svæði spárrammi.</span><span class="sxs-lookup"><span data-stu-id="583aa-146">In the Forecast bucket field, select 'Month'.</span></span>
-14. <span data-ttu-id="583aa-147">Færa inn "3" í spátími svæði.</span><span class="sxs-lookup"><span data-stu-id="583aa-147">In the Forecast horizon field, enter '3'.</span></span>
-15. <span data-ttu-id="583aa-148">Í svæði Frysta tímamörk , færið inn '1'.</span><span class="sxs-lookup"><span data-stu-id="583aa-148">In the Freeze time fence field, enter '1'.</span></span>
-16. <span data-ttu-id="583aa-149">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="583aa-149">Click OK.</span></span>
+## <a name="create-a-baseline-forecast"></a><span data-ttu-id="bd664-125">Búa til grunnlínuspá</span><span class="sxs-lookup"><span data-stu-id="bd664-125">Create a baseline forecast</span></span>
+1. <span data-ttu-id="bd664-126">Fara í Aðaláætlanagerð > Spá > Eftirspurnarspá > Mynda tölfræðilega grunnlínuspá.</span><span class="sxs-lookup"><span data-stu-id="bd664-126">Go to Master planning > Forecasting > Demand forecasting > Generate statistical baseline forecast.</span></span>
+2. <span data-ttu-id="bd664-127">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="bd664-127">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="bd664-128">Ef þú ert með sölupantanir sem byrja frá 1. Janúar, 2015, færðu inn þessa dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="bd664-128">If you have sales orders starting from January 1, 2015, enter this date.</span></span> <span data-ttu-id="bd664-129">Ef ekki, skal færa inn fyrstu dagsetningu sölupantanirnar.</span><span class="sxs-lookup"><span data-stu-id="bd664-129">If you don't, enter the earliest date of your sales orders.</span></span>  
+3. <span data-ttu-id="bd664-130">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="bd664-130">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="bd664-131">Færið inn síðustu dagsetningu sölupantana þinna, til dæmis '2015-03-31'..</span><span class="sxs-lookup"><span data-stu-id="bd664-131">Enter the last date of your sales orders, for example '2015-03-31'.</span></span>  
+4. <span data-ttu-id="bd664-132">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="bd664-132">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="bd664-133">Færðu inn '2015-04-01'.</span><span class="sxs-lookup"><span data-stu-id="bd664-133">Enter '2015-04-01'.</span></span> <span data-ttu-id="bd664-134">Þessi dagsetning verður reiknaður sjálfvirkt sem upphafsdagsetning fyrir næsta tímaramma eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="bd664-134">This date will be automatically calculated as the start date of the next forecasting bucket.</span></span>  
+5. <span data-ttu-id="bd664-135">Útvíkka Færslur til að taka hluta.</span><span class="sxs-lookup"><span data-stu-id="bd664-135">Expand the Records to include section.</span></span>
+6. <span data-ttu-id="bd664-136">Smellt er á Síu.</span><span class="sxs-lookup"><span data-stu-id="bd664-136">Click Filter.</span></span>
+7. <span data-ttu-id="bd664-137">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="bd664-137">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="bd664-138">Merkja línuna þar sem Svæðið = áætlunarhóp innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="bd664-138">Mark the row where Field = Intercompany planning group.</span></span>  
+8. <span data-ttu-id="bd664-139">Í reitinn Skilyrði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bd664-139">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="bd664-140">Færðu inn áætlunarhó innan samstæðu, t.d. 10, sem notað er í fyrsta verkefninu.</span><span class="sxs-lookup"><span data-stu-id="bd664-140">Type the intercompany planning group, for example, 10, that you used in the first task.</span></span>  
+9. <span data-ttu-id="bd664-141">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="bd664-141">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="bd664-142">Veljið línuna þar sem Svæðið = úthlutunarlykil Vöru.</span><span class="sxs-lookup"><span data-stu-id="bd664-142">Select the row where Field = Item allocation key.</span></span>  
+10. <span data-ttu-id="bd664-143">Í reitinn Skilyrði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bd664-143">In the Criteria field, type a value.</span></span>
+11. <span data-ttu-id="bd664-144">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="bd664-144">Click OK.</span></span>
+12. <span data-ttu-id="bd664-145">Útvíkka hlutann Ítarlegar færibreytur.</span><span class="sxs-lookup"><span data-stu-id="bd664-145">Expand the Advanced parameters section.</span></span>
+13. <span data-ttu-id="bd664-146">Veljið 'Mánuð' í svæði spárrammi.</span><span class="sxs-lookup"><span data-stu-id="bd664-146">In the Forecast bucket field, select 'Month'.</span></span>
+14. <span data-ttu-id="bd664-147">Færa inn "3" í spátími svæði.</span><span class="sxs-lookup"><span data-stu-id="bd664-147">In the Forecast horizon field, enter '3'.</span></span>
+15. <span data-ttu-id="bd664-148">Í svæði Frysta tímamörk , færið inn '1'.</span><span class="sxs-lookup"><span data-stu-id="bd664-148">In the Freeze time fence field, enter '1'.</span></span>
+16. <span data-ttu-id="bd664-149">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="bd664-149">Click OK.</span></span>
 
-## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="583aa-150">Myndgera eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="583aa-150">Visualize the demand forecast</span></span>
-1. <span data-ttu-id="583aa-151">Fara í Aðaláætlanagerð > Spá > Eftirspurnarspá > Leiðrétt eftirspurnarspá.</span><span class="sxs-lookup"><span data-stu-id="583aa-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
-2. <span data-ttu-id="583aa-152">Í töflunni samanlagt yfirlit skal velja hólfið í línu 1 og dálki 2.</span><span class="sxs-lookup"><span data-stu-id="583aa-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="583aa-153">Þetta er annar mánuðinum sem búið er að stofna spá fyrir.</span><span class="sxs-lookup"><span data-stu-id="583aa-153">This is the second month for which you have created forecast.</span></span>
-3. <span data-ttu-id="583aa-154">Stilla QtyCell á '400'.</span><span class="sxs-lookup"><span data-stu-id="583aa-154">Set QtyCell to '400'.</span></span>
-    * <span data-ttu-id="583aa-155">Í reitnum, færa inn annað númer en það sem var spáð, til dæmis 400.</span><span class="sxs-lookup"><span data-stu-id="583aa-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
-4. <span data-ttu-id="583aa-156">handvirkar leiðréttingar voru gerðar á Spá.</span><span class="sxs-lookup"><span data-stu-id="583aa-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="583aa-157">Athugið myndræna tilkynning í næsta þrepi.</span><span class="sxs-lookup"><span data-stu-id="583aa-157">Notice the graphical indication in the next step.</span></span>
-5. <span data-ttu-id="583aa-158">Smellt er á Upplýsingar spárlínu</span><span class="sxs-lookup"><span data-stu-id="583aa-158">Click Forecast line details.</span></span>
-    * <span data-ttu-id="583aa-159">Á þessari síðu er hægt að sjá nákvæmnisgildi, söguleg eftirspurn og spár.</span><span class="sxs-lookup"><span data-stu-id="583aa-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="583aa-160">Hægt er að gera breytingar á spá einnig.</span><span class="sxs-lookup"><span data-stu-id="583aa-160">You can make changes to the forecast as well.</span></span>  
+## <a name="visualize-the-demand-forecast"></a><span data-ttu-id="bd664-150">Myndgera eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="bd664-150">Visualize the demand forecast</span></span>
+1. <span data-ttu-id="bd664-151">Fara í Aðaláætlanagerð > Spá > Eftirspurnarspá > Leiðrétt eftirspurnarspá.</span><span class="sxs-lookup"><span data-stu-id="bd664-151">Go to Master planning > Forecasting > Demand forecasting > Adjusted demand forecast.</span></span>
+2. <span data-ttu-id="bd664-152">Í töflunni samanlagt yfirlit skal velja hólfið í línu 1 og dálki 2.</span><span class="sxs-lookup"><span data-stu-id="bd664-152">In the aggregated view table, select the cell in row 1, column 2.</span></span> <span data-ttu-id="bd664-153">Þetta er annar mánuðinum sem búið er að stofna spá fyrir.</span><span class="sxs-lookup"><span data-stu-id="bd664-153">This is the second month for which you have created forecast.</span></span>
+3. <span data-ttu-id="bd664-154">Stilla QtyCell á '400'.</span><span class="sxs-lookup"><span data-stu-id="bd664-154">Set QtyCell to '400'.</span></span>
+    * <span data-ttu-id="bd664-155">Í reitnum, færa inn annað númer en það sem var spáð, til dæmis 400.</span><span class="sxs-lookup"><span data-stu-id="bd664-155">In the cell, enter a different number than the one that was forecasted, for example, 400.</span></span>  
+4. <span data-ttu-id="bd664-156">handvirkar leiðréttingar voru gerðar á Spá.</span><span class="sxs-lookup"><span data-stu-id="bd664-156">You have made a manual adjustment to the forecast.</span></span> <span data-ttu-id="bd664-157">Athugið myndræna tilkynning í næsta þrepi.</span><span class="sxs-lookup"><span data-stu-id="bd664-157">Notice the graphical indication in the next step.</span></span>
+5. <span data-ttu-id="bd664-158">Smellt er á Upplýsingar spárlínu</span><span class="sxs-lookup"><span data-stu-id="bd664-158">Click Forecast line details.</span></span>
+    * <span data-ttu-id="bd664-159">Á þessari síðu er hægt að sjá nákvæmnisgildi, söguleg eftirspurn og spár.</span><span class="sxs-lookup"><span data-stu-id="bd664-159">In this page, you can see the accuracy values, historical demand, and forecast.</span></span> <span data-ttu-id="bd664-160">Hægt er að gera breytingar á spá einnig.</span><span class="sxs-lookup"><span data-stu-id="bd664-160">You can make changes to the forecast as well.</span></span>  
 
 
 
