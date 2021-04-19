@@ -2,11 +2,9 @@
 title: Skilgreina starfsmann
 description: Þetta ferli sýnir hvernig á að skilgreina starfsmaður sem sölufulltrúa sem er hæfur fyrir sölulaun fyrir sölu á Sölustað.
 author: jblucher
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 120705200f223e31c72290059e8634e7db6f9fdd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 43e65de1fda223c2d0503848e7e57936898c1b73
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232618"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804066"
 ---
-# <a name="configure-a-worker"></a><span data-ttu-id="95426-103">Skilgreina starfsmann</span><span class="sxs-lookup"><span data-stu-id="95426-103">Configure a worker</span></span>
+# <a name="configure-a-worker"></a><span data-ttu-id="f4a47-103">Skilgreina starfsmann</span><span class="sxs-lookup"><span data-stu-id="f4a47-103">Configure a worker</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="95426-104">Þetta ferli sýnir hvernig á að skilgreina starfsmaður sem sölufulltrúa sem er hæfur fyrir sölulaun fyrir sölu á Sölustað.</span><span class="sxs-lookup"><span data-stu-id="95426-104">This procedure demonstrates how to configure a worker as a sales representative who is eligible for commission on sales in POS.</span></span> <span data-ttu-id="95426-105">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="95426-105">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="f4a47-104">Þetta ferli sýnir hvernig á að skilgreina starfsmaður sem sölufulltrúa sem er hæfur fyrir sölulaun fyrir sölu á Sölustað.</span><span class="sxs-lookup"><span data-stu-id="f4a47-104">This procedure demonstrates how to configure a worker as a sales representative who is eligible for commission on sales in POS.</span></span> <span data-ttu-id="f4a47-105">Þessi aðferð notar USRT sýnigögn fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="f4a47-105">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-commission-sales-group-for-the-worker"></a><span data-ttu-id="95426-106">Stofna söluflokk sölulauna fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="95426-106">Create a commission sales group for the worker</span></span>
-1. <span data-ttu-id="95426-107">Fara í Sölu og markaðssetningu > Þóknanir > Söluflokkar.</span><span class="sxs-lookup"><span data-stu-id="95426-107">Go to Sales and marketing > Commissions > Sales groups.</span></span>
-    * <span data-ttu-id="95426-108">Hægt er að úthluta starfsmenn á eina eða fleiri söluflokka.</span><span class="sxs-lookup"><span data-stu-id="95426-108">Workers can be assigned to one or more sales groups.</span></span> <span data-ttu-id="95426-109">Í POS, er hægt að velja alla söluflokka sem inniheldur starfskrafta úr aðsetursbók verslunarinnar.</span><span class="sxs-lookup"><span data-stu-id="95426-109">In POS, you can choose any sales group that contains workers from the store's address book.</span></span>  
-2. <span data-ttu-id="95426-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="95426-110">Click New.</span></span>
-3. <span data-ttu-id="95426-111">Í reitinn Hópur skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="95426-111">In the Group field, type a value.</span></span>
-4. <span data-ttu-id="95426-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="95426-112">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="95426-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="95426-113">Click Save.</span></span>
-6. <span data-ttu-id="95426-114">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="95426-114">On the Action Pane, click General.</span></span>
-7. <span data-ttu-id="95426-115">Smellt er á Sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="95426-115">Click Sales rep.</span></span>
-    * <span data-ttu-id="95426-116">Söluflokkur getur innihaldið fleiri en einn starfsmann.</span><span class="sxs-lookup"><span data-stu-id="95426-116">A sales group can contain more than one worker.</span></span> <span data-ttu-id="95426-117">Sölulaun má skipta á milli starfsmenn byggt á því hvernig þú skilgreina hluta sölulauna.</span><span class="sxs-lookup"><span data-stu-id="95426-117">Commissions can be split between workers based on how you define the commission share.</span></span>  
-8. <span data-ttu-id="95426-118">Sláið inn eða veldu gildi í reitnum heiti.</span><span class="sxs-lookup"><span data-stu-id="95426-118">In the Name field, enter or select a value.</span></span>
-9. <span data-ttu-id="95426-119">Færið númer inn í svæðið hlutur sölulauna.</span><span class="sxs-lookup"><span data-stu-id="95426-119">In the Commission share field, enter a number.</span></span>
-10. <span data-ttu-id="95426-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="95426-120">Click Save.</span></span>
-11. <span data-ttu-id="95426-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="95426-121">Close the page.</span></span>
-12. <span data-ttu-id="95426-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="95426-122">Close the page.</span></span>
+## <a name="create-a-commission-sales-group-for-the-worker"></a><span data-ttu-id="f4a47-106">Stofna söluflokk sölulauna fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="f4a47-106">Create a commission sales group for the worker</span></span>
+1. <span data-ttu-id="f4a47-107">Fara í Sölu og markaðssetningu > Þóknanir > Söluflokkar.</span><span class="sxs-lookup"><span data-stu-id="f4a47-107">Go to Sales and marketing > Commissions > Sales groups.</span></span>
+    * <span data-ttu-id="f4a47-108">Hægt er að úthluta starfsmenn á eina eða fleiri söluflokka.</span><span class="sxs-lookup"><span data-stu-id="f4a47-108">Workers can be assigned to one or more sales groups.</span></span> <span data-ttu-id="f4a47-109">Í POS, er hægt að velja alla söluflokka sem inniheldur starfskrafta úr aðsetursbók verslunarinnar.</span><span class="sxs-lookup"><span data-stu-id="f4a47-109">In POS, you can choose any sales group that contains workers from the store's address book.</span></span>  
+2. <span data-ttu-id="f4a47-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="f4a47-110">Click New.</span></span>
+3. <span data-ttu-id="f4a47-111">Í reitinn Hópur skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f4a47-111">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="f4a47-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f4a47-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="f4a47-113">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f4a47-113">Click Save.</span></span>
+6. <span data-ttu-id="f4a47-114">Smellið á „Almennt“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="f4a47-114">On the Action Pane, click General.</span></span>
+7. <span data-ttu-id="f4a47-115">Smellt er á Sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="f4a47-115">Click Sales rep.</span></span>
+    * <span data-ttu-id="f4a47-116">Söluflokkur getur innihaldið fleiri en einn starfsmann.</span><span class="sxs-lookup"><span data-stu-id="f4a47-116">A sales group can contain more than one worker.</span></span> <span data-ttu-id="f4a47-117">Sölulaun má skipta á milli starfsmenn byggt á því hvernig þú skilgreina hluta sölulauna.</span><span class="sxs-lookup"><span data-stu-id="f4a47-117">Commissions can be split between workers based on how you define the commission share.</span></span>  
+8. <span data-ttu-id="f4a47-118">Sláið inn eða veldu gildi í reitnum heiti.</span><span class="sxs-lookup"><span data-stu-id="f4a47-118">In the Name field, enter or select a value.</span></span>
+9. <span data-ttu-id="f4a47-119">Færið númer inn í svæðið hlutur sölulauna.</span><span class="sxs-lookup"><span data-stu-id="f4a47-119">In the Commission share field, enter a number.</span></span>
+10. <span data-ttu-id="f4a47-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f4a47-120">Click Save.</span></span>
+11. <span data-ttu-id="f4a47-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f4a47-121">Close the page.</span></span>
+12. <span data-ttu-id="f4a47-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f4a47-122">Close the page.</span></span>
 
-## <a name="assign-the-workers-default-sales-group"></a><span data-ttu-id="95426-123">Úthluta sjálfgefnum söluflokki starfsmanns</span><span class="sxs-lookup"><span data-stu-id="95426-123">Assign the workers default sales group</span></span>
-1. <span data-ttu-id="95426-124">Fara í Retail og Commerce > Starfsmenn > Starfsfólk.</span><span class="sxs-lookup"><span data-stu-id="95426-124">Go to Retail and Commerce > Employees > Workers.</span></span>
-2. <span data-ttu-id="95426-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="95426-125">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="95426-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="95426-126">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="95426-127">Smellið á flipann Commerce.</span><span class="sxs-lookup"><span data-stu-id="95426-127">Click the Commerce tab.</span></span>
-    * <span data-ttu-id="95426-128">Hægt er að úthluta starfsmanni á sjálfgefinn söluflokkur.</span><span class="sxs-lookup"><span data-stu-id="95426-128">A worker can be assigned to a default sales group.</span></span> <span data-ttu-id="95426-129">Sjálfgefinn Söluflokkur verður sjálfkrafa bætt við sölulínur í Sölustað ef valkosturinn er virkjaður í virknireglu fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="95426-129">The default sales group will be automatically added to sales lines in POS if the option is enabled in the functionality profile for the store.</span></span>  
-5. <span data-ttu-id="95426-130">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="95426-130">Click Edit.</span></span>
-6. <span data-ttu-id="95426-131">Færa inn eða veljið gildi í reitnum Sjálfgefinn flokkur.</span><span class="sxs-lookup"><span data-stu-id="95426-131">In the Default group field, enter or select a value.</span></span>
-7. <span data-ttu-id="95426-132">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="95426-132">Click Save.</span></span>
+## <a name="assign-the-workers-default-sales-group"></a><span data-ttu-id="f4a47-123">Úthluta sjálfgefnum söluflokki starfsmanns</span><span class="sxs-lookup"><span data-stu-id="f4a47-123">Assign the workers default sales group</span></span>
+1. <span data-ttu-id="f4a47-124">Fara í Retail og Commerce > Starfsmenn > Starfsfólk.</span><span class="sxs-lookup"><span data-stu-id="f4a47-124">Go to Retail and Commerce > Employees > Workers.</span></span>
+2. <span data-ttu-id="f4a47-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f4a47-125">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="f4a47-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="f4a47-126">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f4a47-127">Smellið á flipann Commerce.</span><span class="sxs-lookup"><span data-stu-id="f4a47-127">Click the Commerce tab.</span></span>
+    * <span data-ttu-id="f4a47-128">Hægt er að úthluta starfsmanni á sjálfgefinn söluflokkur.</span><span class="sxs-lookup"><span data-stu-id="f4a47-128">A worker can be assigned to a default sales group.</span></span> <span data-ttu-id="f4a47-129">Sjálfgefinn Söluflokkur verður sjálfkrafa bætt við sölulínur í Sölustað ef valkosturinn er virkjaður í virknireglu fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="f4a47-129">The default sales group will be automatically added to sales lines in POS if the option is enabled in the functionality profile for the store.</span></span>  
+5. <span data-ttu-id="f4a47-130">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="f4a47-130">Click Edit.</span></span>
+6. <span data-ttu-id="f4a47-131">Færa inn eða veljið gildi í reitnum Sjálfgefinn flokkur.</span><span class="sxs-lookup"><span data-stu-id="f4a47-131">In the Default group field, enter or select a value.</span></span>
+7. <span data-ttu-id="f4a47-132">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="f4a47-132">Click Save.</span></span>
 
 
 

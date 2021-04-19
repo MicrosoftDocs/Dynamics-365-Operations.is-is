@@ -2,11 +2,9 @@
 title: Bókun á sölu á netinu og greiðslur
 description: Þetta ferli fer í gegnum skilgreiningu og keyrslu runuvinnslu ítrekað til að stofna sölupantanir og greiðslur fyrir færslur smásöluverslunar á netinu.
 author: psimolin
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
@@ -16,98 +14,98 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e24c2be8a1b0da3c34919fdb44aa744f8e7fc87c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a2e482b0fb5f2cf67e687c2b278bc5b54ad09839
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215413"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802672"
 ---
-# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="423e5-103">Bókun á sölu á netinu og greiðslur</span><span class="sxs-lookup"><span data-stu-id="423e5-103">Posting of online sales and payments</span></span>
+# <a name="posting-of-online-sales-and-payments"></a><span data-ttu-id="c19df-103">Bókun á sölu á netinu og greiðslur</span><span class="sxs-lookup"><span data-stu-id="c19df-103">Posting of online sales and payments</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="423e5-104">Þetta ferli fer í gegnum skilgreiningu og keyrslu runuvinnslu ítrekað til að stofna sölupantanir og greiðslur fyrir færslur smásöluverslunar á netinu.</span><span class="sxs-lookup"><span data-stu-id="423e5-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span>
+<span data-ttu-id="c19df-104">Þetta ferli fer í gegnum skilgreiningu og keyrslu runuvinnslu ítrekað til að stofna sölupantanir og greiðslur fyrir færslur smásöluverslunar á netinu.</span><span class="sxs-lookup"><span data-stu-id="c19df-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span>
 
-<span data-ttu-id="423e5-105">Að birta sölu og greiðslur á netinu er tveggja þrepa ferli.</span><span class="sxs-lookup"><span data-stu-id="423e5-105">Posting online sales and payments is a two-stage process.</span></span>
+<span data-ttu-id="c19df-105">Að birta sölu og greiðslur á netinu er tveggja þrepa ferli.</span><span class="sxs-lookup"><span data-stu-id="c19df-105">Posting online sales and payments is a two-stage process.</span></span>
 
-- <span data-ttu-id="423e5-106">Dragðu færslugögn netviðskipta inn í HQ.</span><span class="sxs-lookup"><span data-stu-id="423e5-106">Pulling the online commerce transaction data in HQ.</span></span>
-- <span data-ttu-id="423e5-107">Samstilling pantana til að búa til sölupantanir í HQ.</span><span class="sxs-lookup"><span data-stu-id="423e5-107">Synchronizing orders to create sales orders in HQ.</span></span>
+- <span data-ttu-id="c19df-106">Dragðu færslugögn netviðskipta inn í HQ.</span><span class="sxs-lookup"><span data-stu-id="c19df-106">Pulling the online commerce transaction data in HQ.</span></span>
+- <span data-ttu-id="c19df-107">Samstilling pantana til að búa til sölupantanir í HQ.</span><span class="sxs-lookup"><span data-stu-id="c19df-107">Synchronizing orders to create sales orders in HQ.</span></span>
 
-<span data-ttu-id="423e5-108">Að draga færslugögn á netinu má gera annaðhvort handvirkt með því að keyra P-vinnslu eða með því að búa til endurtekna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="423e5-108">Pulling the online transaction data can be done either by manually running the P-job or by creating a recurrent batch job.</span></span>
+<span data-ttu-id="c19df-108">Að draga færslugögn á netinu má gera annaðhvort handvirkt með því að keyra P-vinnslu eða með því að búa til endurtekna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="c19df-108">Pulling the online transaction data can be done either by manually running the P-job or by creating a recurrent batch job.</span></span>
 
-### <a name="manually-running-the-p-job"></a><span data-ttu-id="423e5-109">Að keyra P-vinnsluna handvirkt</span><span class="sxs-lookup"><span data-stu-id="423e5-109">Manually running the P-job</span></span>
+### <a name="manually-running-the-p-job"></a><span data-ttu-id="c19df-109">Að keyra P-vinnsluna handvirkt</span><span class="sxs-lookup"><span data-stu-id="c19df-109">Manually running the P-job</span></span>
 
-1. <span data-ttu-id="423e5-110">Fara í Öll vinnusvæði > Upplýsingatækni Retail og Commerce.</span><span class="sxs-lookup"><span data-stu-id="423e5-110">Go to All workspaces > Retail and Commerce IT.</span></span>
-2. <span data-ttu-id="423e5-111">Smelltu á Dreifingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="423e5-111">Click Distribution schedule.</span></span>
-3. <span data-ttu-id="423e5-112">Veldu P-0001.</span><span class="sxs-lookup"><span data-stu-id="423e5-112">Select P-0001.</span></span>
-4. <span data-ttu-id="423e5-113">Stilltu gagnagrunnshópa rásar, ef þess þarf.</span><span class="sxs-lookup"><span data-stu-id="423e5-113">Adjust channel database groups, if required.</span></span>
-5. <span data-ttu-id="423e5-114">Smellt er á Keyra núna.</span><span class="sxs-lookup"><span data-stu-id="423e5-114">Click Run now.</span></span>
-6. <span data-ttu-id="423e5-115">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="423e5-115">Click Yes.</span></span>
+1. <span data-ttu-id="c19df-110">Fara í Öll vinnusvæði > Upplýsingatækni Retail og Commerce.</span><span class="sxs-lookup"><span data-stu-id="c19df-110">Go to All workspaces > Retail and Commerce IT.</span></span>
+2. <span data-ttu-id="c19df-111">Smelltu á Dreifingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="c19df-111">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="c19df-112">Veldu P-0001.</span><span class="sxs-lookup"><span data-stu-id="c19df-112">Select P-0001.</span></span>
+4. <span data-ttu-id="c19df-113">Stilltu gagnagrunnshópa rásar, ef þess þarf.</span><span class="sxs-lookup"><span data-stu-id="c19df-113">Adjust channel database groups, if required.</span></span>
+5. <span data-ttu-id="c19df-114">Smellt er á Keyra núna.</span><span class="sxs-lookup"><span data-stu-id="c19df-114">Click Run now.</span></span>
+6. <span data-ttu-id="c19df-115">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="c19df-115">Click Yes.</span></span>
 
-### <a name="scheduling-a-recurring-p-job"></a><span data-ttu-id="423e5-116">Tímasetning endurtekinna P-vinnsla</span><span class="sxs-lookup"><span data-stu-id="423e5-116">Scheduling a recurring P-job</span></span>
+### <a name="scheduling-a-recurring-p-job"></a><span data-ttu-id="c19df-116">Tímasetning endurtekinna P-vinnsla</span><span class="sxs-lookup"><span data-stu-id="c19df-116">Scheduling a recurring P-job</span></span>
 
-1. <span data-ttu-id="423e5-117">Fara í Öll vinnusvæði > Upplýsingatækni Retail og Commerce.</span><span class="sxs-lookup"><span data-stu-id="423e5-117">Go to All workspaces > Retail and Commerce IT.</span></span>
-2. <span data-ttu-id="423e5-118">Smelltu á Dreifingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="423e5-118">Click Distribution schedule.</span></span>
-3. <span data-ttu-id="423e5-119">Veldu P-0001.</span><span class="sxs-lookup"><span data-stu-id="423e5-119">Select P-0001.</span></span>
-4. <span data-ttu-id="423e5-120">Smelltu á Stofna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="423e5-120">Click Create batch job.</span></span>
-5. <span data-ttu-id="423e5-121">Smelltu á Keyra í bakgrunni.</span><span class="sxs-lookup"><span data-stu-id="423e5-121">Click Run in the background.</span></span>
-5. <span data-ttu-id="423e5-122">Virkjaðu Runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="423e5-122">Enable Batch processing.</span></span>
-6. <span data-ttu-id="423e5-123">Smelltu á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="423e5-123">Click Recurrence..</span></span>
-7. <span data-ttu-id="423e5-124">Velja Valkosturinn enginn valkostur um lokadag.</span><span class="sxs-lookup"><span data-stu-id="423e5-124">Select the No end date option.</span></span>
-8. <span data-ttu-id="423e5-125">Í Teljarareitnum slærðu inn millibil á milli keyrsla í mínútum.</span><span class="sxs-lookup"><span data-stu-id="423e5-125">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="423e5-126">Venjulega myndi þetta vera 5-10.</span><span class="sxs-lookup"><span data-stu-id="423e5-126">Typically this would be 5-10.</span></span>
-9. <span data-ttu-id="423e5-127">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-127">Click OK.</span></span>
-10. <span data-ttu-id="423e5-128">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-128">Click OK.</span></span>
+1. <span data-ttu-id="c19df-117">Fara í Öll vinnusvæði > Upplýsingatækni Retail og Commerce.</span><span class="sxs-lookup"><span data-stu-id="c19df-117">Go to All workspaces > Retail and Commerce IT.</span></span>
+2. <span data-ttu-id="c19df-118">Smelltu á Dreifingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="c19df-118">Click Distribution schedule.</span></span>
+3. <span data-ttu-id="c19df-119">Veldu P-0001.</span><span class="sxs-lookup"><span data-stu-id="c19df-119">Select P-0001.</span></span>
+4. <span data-ttu-id="c19df-120">Smelltu á Stofna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="c19df-120">Click Create batch job.</span></span>
+5. <span data-ttu-id="c19df-121">Smelltu á Keyra í bakgrunni.</span><span class="sxs-lookup"><span data-stu-id="c19df-121">Click Run in the background.</span></span>
+5. <span data-ttu-id="c19df-122">Virkjaðu Runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="c19df-122">Enable Batch processing.</span></span>
+6. <span data-ttu-id="c19df-123">Smelltu á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="c19df-123">Click Recurrence..</span></span>
+7. <span data-ttu-id="c19df-124">Velja Valkosturinn enginn valkostur um lokadag.</span><span class="sxs-lookup"><span data-stu-id="c19df-124">Select the No end date option.</span></span>
+8. <span data-ttu-id="c19df-125">Í Teljarareitnum slærðu inn millibil á milli keyrsla í mínútum.</span><span class="sxs-lookup"><span data-stu-id="c19df-125">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="c19df-126">Venjulega myndi þetta vera 5-10.</span><span class="sxs-lookup"><span data-stu-id="c19df-126">Typically this would be 5-10.</span></span>
+9. <span data-ttu-id="c19df-127">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-127">Click OK.</span></span>
+10. <span data-ttu-id="c19df-128">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-128">Click OK.</span></span>
 
-<span data-ttu-id="423e5-129">Hægt er að samstilla pantanir annaðhvort með því að keyra vinnsluna „Samstilla pantanir“ handvirkt eða með því að stofna endurtekna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="423e5-129">Orders can be synchronized either by manually running the "Synchronize orders"-job or by creating a recurring batch job.</span></span>
+<span data-ttu-id="c19df-129">Hægt er að samstilla pantanir annaðhvort með því að keyra vinnsluna „Samstilla pantanir“ handvirkt eða með því að stofna endurtekna runuvinnslu.</span><span class="sxs-lookup"><span data-stu-id="c19df-129">Orders can be synchronized either by manually running the "Synchronize orders"-job or by creating a recurring batch job.</span></span>
 
-### <a name="manually-running-order-synchronization"></a><span data-ttu-id="423e5-130">Handvirk keyrsla á samstillingu pöntunar</span><span class="sxs-lookup"><span data-stu-id="423e5-130">Manually running order synchronization</span></span> 
+### <a name="manually-running-order-synchronization"></a><span data-ttu-id="c19df-130">Handvirk keyrsla á samstillingu pöntunar</span><span class="sxs-lookup"><span data-stu-id="c19df-130">Manually running order synchronization</span></span> 
 
-<span data-ttu-id="423e5-131">Fylgdu þessum skrefum til að keyra starfið „Samstilla pantanir“ handvirkt einu sinni.</span><span class="sxs-lookup"><span data-stu-id="423e5-131">Follow these steps to manually run "Synchronize orders" job once.</span></span>
+<span data-ttu-id="c19df-131">Fylgdu þessum skrefum til að keyra starfið „Samstilla pantanir“ handvirkt einu sinni.</span><span class="sxs-lookup"><span data-stu-id="c19df-131">Follow these steps to manually run "Synchronize orders" job once.</span></span>
 
-1. <span data-ttu-id="423e5-132">Opna Öll vinnusvæði > Fjármál verslunar.</span><span class="sxs-lookup"><span data-stu-id="423e5-132">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="423e5-133">Smellt er á Samstilla pantanir</span><span class="sxs-lookup"><span data-stu-id="423e5-133">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="423e5-134">Í svæðinu stigveldi Fyrirtækis, veljið „Verslanir eftir Svæði”.</span><span class="sxs-lookup"><span data-stu-id="423e5-134">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
-    * <span data-ttu-id="423e5-135">Annað hvort velja ákveðna verslun á netinu, eða velja hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.</span><span class="sxs-lookup"><span data-stu-id="423e5-135">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="423e5-136">Smella á örina til að bæta vali.</span><span class="sxs-lookup"><span data-stu-id="423e5-136">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="423e5-137">Smella á Keyra í bakgrunni flipanum.</span><span class="sxs-lookup"><span data-stu-id="423e5-137">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="423e5-138">Afvirkjaðu Runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="423e5-138">Disable Batch processing</span></span>
-6. <span data-ttu-id="423e5-139">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="423e5-139">Click Recurrence.</span></span>
-7. <span data-ttu-id="423e5-140">Veldu valkostinn lok eftir</span><span class="sxs-lookup"><span data-stu-id="423e5-140">Select End After option</span></span>
-8. <span data-ttu-id="423e5-141">Í reitinn Lok eftir skal slá inn 1.</span><span class="sxs-lookup"><span data-stu-id="423e5-141">In the End After field, enter 1.</span></span>
-9. <span data-ttu-id="423e5-142">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-142">Click OK.</span></span>
-10. <span data-ttu-id="423e5-143">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-143">Click OK.</span></span>
+1. <span data-ttu-id="c19df-132">Opna Öll vinnusvæði > Fjármál verslunar.</span><span class="sxs-lookup"><span data-stu-id="c19df-132">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="c19df-133">Smellt er á Samstilla pantanir</span><span class="sxs-lookup"><span data-stu-id="c19df-133">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="c19df-134">Í svæðinu stigveldi Fyrirtækis, veljið „Verslanir eftir Svæði”.</span><span class="sxs-lookup"><span data-stu-id="c19df-134">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
+    * <span data-ttu-id="c19df-135">Annað hvort velja ákveðna verslun á netinu, eða velja hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.</span><span class="sxs-lookup"><span data-stu-id="c19df-135">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="c19df-136">Smella á örina til að bæta vali.</span><span class="sxs-lookup"><span data-stu-id="c19df-136">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="c19df-137">Smella á Keyra í bakgrunni flipanum.</span><span class="sxs-lookup"><span data-stu-id="c19df-137">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="c19df-138">Afvirkjaðu Runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="c19df-138">Disable Batch processing</span></span>
+6. <span data-ttu-id="c19df-139">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="c19df-139">Click Recurrence.</span></span>
+7. <span data-ttu-id="c19df-140">Veldu valkostinn lok eftir</span><span class="sxs-lookup"><span data-stu-id="c19df-140">Select End After option</span></span>
+8. <span data-ttu-id="c19df-141">Í reitinn Lok eftir skal slá inn 1.</span><span class="sxs-lookup"><span data-stu-id="c19df-141">In the End After field, enter 1.</span></span>
+9. <span data-ttu-id="c19df-142">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-142">Click OK.</span></span>
+10. <span data-ttu-id="c19df-143">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-143">Click OK.</span></span>
 
-### <a name="scheduling-recurring-order-synchronization"></a><span data-ttu-id="423e5-144">Tímasetning endurteknar pöntunarsamstillingar</span><span class="sxs-lookup"><span data-stu-id="423e5-144">Scheduling recurring order synchronization</span></span>
+### <a name="scheduling-recurring-order-synchronization"></a><span data-ttu-id="c19df-144">Tímasetning endurteknar pöntunarsamstillingar</span><span class="sxs-lookup"><span data-stu-id="c19df-144">Scheduling recurring order synchronization</span></span>
 
-<span data-ttu-id="423e5-145">Þetta ferli fer í gegnum skilgreiningu og keyrslu runuvinnslu ítrekað til að stofna sölupantanir og greiðslur fyrir færslur smásöluverslunar á netinu.</span><span class="sxs-lookup"><span data-stu-id="423e5-145">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="423e5-146">Þetta ferli notar sýnigögn fyrirtæki USRT.</span><span class="sxs-lookup"><span data-stu-id="423e5-146">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="c19df-145">Þetta ferli fer í gegnum skilgreiningu og keyrslu runuvinnslu ítrekað til að stofna sölupantanir og greiðslur fyrir færslur smásöluverslunar á netinu.</span><span class="sxs-lookup"><span data-stu-id="c19df-145">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="c19df-146">Þetta ferli notar sýnigögn fyrirtæki USRT.</span><span class="sxs-lookup"><span data-stu-id="c19df-146">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="423e5-147">Opna Öll vinnusvæði > Fjármál verslunar.</span><span class="sxs-lookup"><span data-stu-id="423e5-147">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="423e5-148">Smellt er á Samstilla pantanir</span><span class="sxs-lookup"><span data-stu-id="423e5-148">Click Synchronize orders.</span></span>
-3. <span data-ttu-id="423e5-149">Í svæðinu stigveldi Fyrirtækis, veljið „Verslanir eftir Svæði”.</span><span class="sxs-lookup"><span data-stu-id="423e5-149">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
-    * <span data-ttu-id="423e5-150">Annað hvort velja ákveðna verslun á netinu, eða velja hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.</span><span class="sxs-lookup"><span data-stu-id="423e5-150">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="423e5-151">Smella á örina til að bæta vali.</span><span class="sxs-lookup"><span data-stu-id="423e5-151">Click the arrow to add your selection.</span></span>  
-4. <span data-ttu-id="423e5-152">Smella á Keyra í bakgrunni flipanum.</span><span class="sxs-lookup"><span data-stu-id="423e5-152">Click the Run in the background tab.</span></span>
-5. <span data-ttu-id="423e5-153">Virkjaðu Runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="423e5-153">Enable Batch processing</span></span>
-6. <span data-ttu-id="423e5-154">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="423e5-154">Click Recurrence.</span></span>
-7. <span data-ttu-id="423e5-155">Velja Valkosturinn enginn valkostur um lokadag.</span><span class="sxs-lookup"><span data-stu-id="423e5-155">Select the No end date option.</span></span>
-8. <span data-ttu-id="423e5-156">Í Teljarareitnum slærðu inn millibil á milli keyrsla í mínútum.</span><span class="sxs-lookup"><span data-stu-id="423e5-156">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="423e5-157">Venjulega myndi þetta vera 2-20</span><span class="sxs-lookup"><span data-stu-id="423e5-157">Typically this would be 2-20</span></span>
-9. <span data-ttu-id="423e5-158">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-158">Click OK.</span></span>
-10. <span data-ttu-id="423e5-159">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="423e5-159">Click OK.</span></span>
+1. <span data-ttu-id="c19df-147">Opna Öll vinnusvæði > Fjármál verslunar.</span><span class="sxs-lookup"><span data-stu-id="c19df-147">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="c19df-148">Smellt er á Samstilla pantanir</span><span class="sxs-lookup"><span data-stu-id="c19df-148">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="c19df-149">Í svæðinu stigveldi Fyrirtækis, veljið „Verslanir eftir Svæði”.</span><span class="sxs-lookup"><span data-stu-id="c19df-149">In the Organization hierarchy field, select 'Stores by Region'.</span></span>
+    * <span data-ttu-id="c19df-150">Annað hvort velja ákveðna verslun á netinu, eða velja hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.</span><span class="sxs-lookup"><span data-stu-id="c19df-150">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="c19df-151">Smella á örina til að bæta vali.</span><span class="sxs-lookup"><span data-stu-id="c19df-151">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="c19df-152">Smella á Keyra í bakgrunni flipanum.</span><span class="sxs-lookup"><span data-stu-id="c19df-152">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="c19df-153">Virkjaðu Runuvinnslu</span><span class="sxs-lookup"><span data-stu-id="c19df-153">Enable Batch processing</span></span>
+6. <span data-ttu-id="c19df-154">Smellið á Endurtekning.</span><span class="sxs-lookup"><span data-stu-id="c19df-154">Click Recurrence.</span></span>
+7. <span data-ttu-id="c19df-155">Velja Valkosturinn enginn valkostur um lokadag.</span><span class="sxs-lookup"><span data-stu-id="c19df-155">Select the No end date option.</span></span>
+8. <span data-ttu-id="c19df-156">Í Teljarareitnum slærðu inn millibil á milli keyrsla í mínútum.</span><span class="sxs-lookup"><span data-stu-id="c19df-156">In the Count field, enter interval between the runs in minutes.</span></span> <span data-ttu-id="c19df-157">Venjulega myndi þetta vera 2-20</span><span class="sxs-lookup"><span data-stu-id="c19df-157">Typically this would be 2-20</span></span>
+9. <span data-ttu-id="c19df-158">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-158">Click OK.</span></span>
+10. <span data-ttu-id="c19df-159">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="c19df-159">Click OK.</span></span>
 
-## <a name="data-entities-involved-in-the-process"></a><span data-ttu-id="423e5-160">Gagnaeiningar sem taka þátt í ferlinu</span><span class="sxs-lookup"><span data-stu-id="423e5-160">Data entities involved in the process</span></span>
+## <a name="data-entities-involved-in-the-process"></a><span data-ttu-id="c19df-160">Gagnaeiningar sem taka þátt í ferlinu</span><span class="sxs-lookup"><span data-stu-id="c19df-160">Data entities involved in the process</span></span>
 
-- <span data-ttu-id="423e5-161">RetailTransactionTable</span><span class="sxs-lookup"><span data-stu-id="423e5-161">RetailTransactionTable</span></span>
-- <span data-ttu-id="423e5-162">RetailTransactionAddressTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-162">RetailTransactionAddressTrans</span></span>
-- <span data-ttu-id="423e5-163">RetailTransactionInfocodeTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-163">RetailTransactionInfocodeTrans</span></span>
-- <span data-ttu-id="423e5-164">RetailTransactionTaxTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-164">RetailTransactionTaxTrans</span></span>
-- <span data-ttu-id="423e5-165">RetailTransactionSalesTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-165">RetailTransactionSalesTrans</span></span>
-- <span data-ttu-id="423e5-166">RetailTransactionTaxMeasure</span><span class="sxs-lookup"><span data-stu-id="423e5-166">RetailTransactionTaxMeasure</span></span>
-- <span data-ttu-id="423e5-167">RetailTransactionDiscountTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-167">RetailTransactionDiscountTrans</span></span>
-- <span data-ttu-id="423e5-168">RetailTransactionTaxTransGTE</span><span class="sxs-lookup"><span data-stu-id="423e5-168">RetailTransactionTaxTransGTE</span></span>
-- <span data-ttu-id="423e5-169">RetailTransactionMarkupTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-169">RetailTransactionMarkupTrans</span></span>
-- <span data-ttu-id="423e5-170">RetailTransactionPaymentTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-170">RetailTransactionPaymentTrans</span></span>
-- <span data-ttu-id="423e5-171">RetailTransactionAttributeTrans</span><span class="sxs-lookup"><span data-stu-id="423e5-171">RetailTransactionAttributeTrans</span></span>
+- <span data-ttu-id="c19df-161">RetailTransactionTable</span><span class="sxs-lookup"><span data-stu-id="c19df-161">RetailTransactionTable</span></span>
+- <span data-ttu-id="c19df-162">RetailTransactionAddressTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-162">RetailTransactionAddressTrans</span></span>
+- <span data-ttu-id="c19df-163">RetailTransactionInfocodeTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-163">RetailTransactionInfocodeTrans</span></span>
+- <span data-ttu-id="c19df-164">RetailTransactionTaxTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-164">RetailTransactionTaxTrans</span></span>
+- <span data-ttu-id="c19df-165">RetailTransactionSalesTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-165">RetailTransactionSalesTrans</span></span>
+- <span data-ttu-id="c19df-166">RetailTransactionTaxMeasure</span><span class="sxs-lookup"><span data-stu-id="c19df-166">RetailTransactionTaxMeasure</span></span>
+- <span data-ttu-id="c19df-167">RetailTransactionDiscountTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-167">RetailTransactionDiscountTrans</span></span>
+- <span data-ttu-id="c19df-168">RetailTransactionTaxTransGTE</span><span class="sxs-lookup"><span data-stu-id="c19df-168">RetailTransactionTaxTransGTE</span></span>
+- <span data-ttu-id="c19df-169">RetailTransactionMarkupTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-169">RetailTransactionMarkupTrans</span></span>
+- <span data-ttu-id="c19df-170">RetailTransactionPaymentTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-170">RetailTransactionPaymentTrans</span></span>
+- <span data-ttu-id="c19df-171">RetailTransactionAttributeTrans</span><span class="sxs-lookup"><span data-stu-id="c19df-171">RetailTransactionAttributeTrans</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

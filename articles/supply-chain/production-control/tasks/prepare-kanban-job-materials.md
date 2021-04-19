@@ -2,11 +2,9 @@
 title: Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk
 description: Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
@@ -16,30 +14,30 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bde7a52e092723f9c6a686cb79080656c8de964c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 460d55a8c4b8a8401db7abc43721cf0d114c27c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204593"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807825"
 ---
-# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="5f710-103">Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk</span><span class="sxs-lookup"><span data-stu-id="5f710-103">Prepare a process kanban job when materials are available for the work cell</span></span>
+# <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="563ba-103">Undirbúa kanban-vinnslu ferlis þegar efni er tiltækt fyrir vinnuflokk</span><span class="sxs-lookup"><span data-stu-id="563ba-103">Prepare a process kanban job when materials are available for the work cell</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5f710-104">Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur.</span><span class="sxs-lookup"><span data-stu-id="5f710-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="5f710-105">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="5f710-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="5f710-106">Þetta verk er ætluð fyrir á starfsmaður á vél.</span><span class="sxs-lookup"><span data-stu-id="5f710-106">This task is intended for the machine operator.</span></span>
+<span data-ttu-id="563ba-104">Þetta verk leggur áherslu á undirbúning kanban-vinnslu þegar allt efni er tiltækt fyrir vinnuflokkur.</span><span class="sxs-lookup"><span data-stu-id="563ba-104">This task focuses on preparing a process kanban job when all materials are available for the work cell.</span></span> <span data-ttu-id="563ba-105">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="563ba-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="563ba-106">Þetta verk er ætluð fyrir á starfsmaður á vél.</span><span class="sxs-lookup"><span data-stu-id="563ba-106">This task is intended for the machine operator.</span></span>
 
-1. <span data-ttu-id="5f710-107">Fara í Kanban-spjald fyrir vinnslukenni verks</span><span class="sxs-lookup"><span data-stu-id="5f710-107">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="5f710-108">Í reitnum vinnuflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="5f710-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="5f710-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="5f710-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="5f710-110">Veljið vinnuflokkur 1250 og smella á í lagi.</span><span class="sxs-lookup"><span data-stu-id="5f710-110">Select work cell 1250 and click OK.</span></span>  
-4. <span data-ttu-id="5f710-111">Í listanum skal velja línu 4.</span><span class="sxs-lookup"><span data-stu-id="5f710-111">In the list, select row 4.</span></span>
-    * <span data-ttu-id="5f710-112">Í fyrirtæki sýnigögn Kanban 000329 í röð 4 er fyrsta vinnslan sem er enn ekki lokið enn.</span><span class="sxs-lookup"><span data-stu-id="5f710-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
-5. <span data-ttu-id="5f710-113">Víxla útvíkkun á liðnum tiltektarlisti.</span><span class="sxs-lookup"><span data-stu-id="5f710-113">Toggle the expansion of the Picking list section.</span></span>
-    * <span data-ttu-id="5f710-114">Staðfestið að birgðastaða sé tiltæk fyrir allar vörur í tiltektarlista.</span><span class="sxs-lookup"><span data-stu-id="5f710-114">Verify that the supply status is available for all items in the picking list.</span></span>  
-    * <span data-ttu-id="5f710-115">Ef valdar eru margar vinnslur tiltektarlista, sýna tiltektarlisti samtölu allra vara sem þarf fyrir valdar vinnslur.</span><span class="sxs-lookup"><span data-stu-id="5f710-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
-6. <span data-ttu-id="5f710-116">Smellt er á Undirbúa.</span><span class="sxs-lookup"><span data-stu-id="5f710-116">Click Prepare.</span></span>
-    * <span data-ttu-id="5f710-117">Undirbúningsferli er nú lokið.</span><span class="sxs-lookup"><span data-stu-id="5f710-117">The preparation process is now completed.</span></span> <span data-ttu-id="5f710-118">Valinn gátreitur fyrir allar línur í tiltektarlistanum tilgreinir birgðastaða er tiltekin.</span><span class="sxs-lookup"><span data-stu-id="5f710-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
+1. <span data-ttu-id="563ba-107">Fara í Kanban-spjald fyrir vinnslukenni verks</span><span class="sxs-lookup"><span data-stu-id="563ba-107">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="563ba-108">Í reitnum vinnuflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="563ba-108">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="563ba-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="563ba-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="563ba-110">Veljið vinnuflokkur 1250 og smella á í lagi.</span><span class="sxs-lookup"><span data-stu-id="563ba-110">Select work cell 1250 and click OK.</span></span>  
+4. <span data-ttu-id="563ba-111">Í listanum skal velja línu 4.</span><span class="sxs-lookup"><span data-stu-id="563ba-111">In the list, select row 4.</span></span>
+    * <span data-ttu-id="563ba-112">Í fyrirtæki sýnigögn Kanban 000329 í röð 4 er fyrsta vinnslan sem er enn ekki lokið enn.</span><span class="sxs-lookup"><span data-stu-id="563ba-112">In the clean demo company, Kanban 000329 in row 4 is the first job that is not completed yet.</span></span>  
+5. <span data-ttu-id="563ba-113">Víxla útvíkkun á liðnum tiltektarlisti.</span><span class="sxs-lookup"><span data-stu-id="563ba-113">Toggle the expansion of the Picking list section.</span></span>
+    * <span data-ttu-id="563ba-114">Staðfestið að birgðastaða sé tiltæk fyrir allar vörur í tiltektarlista.</span><span class="sxs-lookup"><span data-stu-id="563ba-114">Verify that the supply status is available for all items in the picking list.</span></span>  
+    * <span data-ttu-id="563ba-115">Ef valdar eru margar vinnslur tiltektarlista, sýna tiltektarlisti samtölu allra vara sem þarf fyrir valdar vinnslur.</span><span class="sxs-lookup"><span data-stu-id="563ba-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
+6. <span data-ttu-id="563ba-116">Smellt er á Undirbúa.</span><span class="sxs-lookup"><span data-stu-id="563ba-116">Click Prepare.</span></span>
+    * <span data-ttu-id="563ba-117">Undirbúningsferli er nú lokið.</span><span class="sxs-lookup"><span data-stu-id="563ba-117">The preparation process is now completed.</span></span> <span data-ttu-id="563ba-118">Valinn gátreitur fyrir allar línur í tiltektarlistanum tilgreinir birgðastaða er tiltekin.</span><span class="sxs-lookup"><span data-stu-id="563ba-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
 
 
 

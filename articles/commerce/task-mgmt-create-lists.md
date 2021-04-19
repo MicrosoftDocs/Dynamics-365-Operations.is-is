@@ -2,11 +2,9 @@
 title: Búðu til verkefnalista og bættu við verkum
 description: Þetta efnisatriði lýsir því hvernig á að stofna verkefnalista og bæta verkum við þá í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,80 +14,80 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: a0e49d1eced3bb62e78c630b137a5b86121682f3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477830"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795238"
 ---
-# <a name="create-task-lists-and-add-tasks"></a><span data-ttu-id="76c6c-103">Búa til verkefnalista og bæta við verkum</span><span class="sxs-lookup"><span data-stu-id="76c6c-103">Create task lists and add tasks</span></span>
+# <a name="create-task-lists-and-add-tasks"></a><span data-ttu-id="98677-103">Búa til verkefnalista og bæta við verkum</span><span class="sxs-lookup"><span data-stu-id="98677-103">Create task lists and add tasks</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="76c6c-104">Þetta efnisatriði lýsir því hvernig á að stofna verkefnalista og bæta verkum við þá í Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="76c6c-104">This topic describes how to create task lists and add tasks to them in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="98677-104">Þetta efnisatriði lýsir því hvernig á að stofna verkefnalista og bæta verkum við þá í Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="98677-104">This topic describes how to create task lists and add tasks to them in Microsoft Dynamics 365 Commerce.</span></span>
 
-<span data-ttu-id="76c6c-105">*Verk* skilgreinir tiltekið verk eða aðgerð sem einhver verður að ljúka á eða fyrir tiltekinn gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="76c6c-105">A *task* defines a specific piece of work or an action that someone must complete on or before a specified due date.</span></span> <span data-ttu-id="76c6c-106">Í Dynamics 365 Commerce getur verk innihaldið nákvæmar leiðbeiningar og upplýsingar um tengilið.</span><span class="sxs-lookup"><span data-stu-id="76c6c-106">In Dynamics 365 Commerce, a task can include detailed instructions and information about a contact person.</span></span> <span data-ttu-id="76c6c-107">Það getur einnig falið í sér hlekki á bakvinnsluaðgerðir, sölustaði (POS) eða vefsíður til að bæta framleiðni og veita það samhengi sem eigandi verkefna þarf til að ljúka verkinu á skilvirkan hátt.</span><span class="sxs-lookup"><span data-stu-id="76c6c-107">It can also include links to back-office operations, point of sale (POS) operations, or site pages, to help improve productivity and provide the context that the task owner requires to complete the task efficiently.</span></span>
+<span data-ttu-id="98677-105">*Verk* skilgreinir tiltekið verk eða aðgerð sem einhver verður að ljúka á eða fyrir tiltekinn gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="98677-105">A *task* defines a specific piece of work or an action that someone must complete on or before a specified due date.</span></span> <span data-ttu-id="98677-106">Í Dynamics 365 Commerce getur verk innihaldið nákvæmar leiðbeiningar og upplýsingar um tengilið.</span><span class="sxs-lookup"><span data-stu-id="98677-106">In Dynamics 365 Commerce, a task can include detailed instructions and information about a contact person.</span></span> <span data-ttu-id="98677-107">Það getur einnig falið í sér hlekki á bakvinnsluaðgerðir, sölustaði (POS) eða vefsíður til að bæta framleiðni og veita það samhengi sem eigandi verkefna þarf til að ljúka verkinu á skilvirkan hátt.</span><span class="sxs-lookup"><span data-stu-id="98677-107">It can also include links to back-office operations, point of sale (POS) operations, or site pages, to help improve productivity and provide the context that the task owner requires to complete the task efficiently.</span></span>
 
-<span data-ttu-id="76c6c-108">*Verkefnalisti* er safn verkefna sem þarf að ljúka sem hluta af viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="76c6c-108">A *task list* is a collection of tasks that must be completed as part of a business process.</span></span> <span data-ttu-id="76c6c-109">Til dæmis gæti verið til verkefnalisti sem nýr starfsmaður verður að fylla út í nýliðaþjálfun, verkefnalista fyrir gjaldkera sem vinna kvöldvaktir eða verkefnalista sem verður að ljúka til að undirbúa verslunina fyrir komandi frídaga.</span><span class="sxs-lookup"><span data-stu-id="76c6c-109">For example, there might be a task list that a new worker must complete during onboarding, a task list for cashiers who work evening shifts, or a task list that must be completed to prepare the store for an upcoming holiday season.</span></span> <span data-ttu-id="76c6c-110">Í Commerce er hægt að úthluta öllum verkefnalistum sem eru með dagsetningu til hvaða fjölda verslana eða starfsmanna sem er og hægt er að stilla það svo að það endurtaki sig.</span><span class="sxs-lookup"><span data-stu-id="76c6c-110">In Commerce, every task list that has a target date can be assigned to any number of stores or employees, and it can be configured to recur.</span></span>
+<span data-ttu-id="98677-108">*Verkefnalisti* er safn verkefna sem þarf að ljúka sem hluta af viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="98677-108">A *task list* is a collection of tasks that must be completed as part of a business process.</span></span> <span data-ttu-id="98677-109">Til dæmis gæti verið til verkefnalisti sem nýr starfsmaður verður að fylla út í nýliðaþjálfun, verkefnalista fyrir gjaldkera sem vinna kvöldvaktir eða verkefnalista sem verður að ljúka til að undirbúa verslunina fyrir komandi frídaga.</span><span class="sxs-lookup"><span data-stu-id="98677-109">For example, there might be a task list that a new worker must complete during onboarding, a task list for cashiers who work evening shifts, or a task list that must be completed to prepare the store for an upcoming holiday season.</span></span> <span data-ttu-id="98677-110">Í Commerce er hægt að úthluta öllum verkefnalistum sem eru með dagsetningu til hvaða fjölda verslana eða starfsmanna sem er og hægt er að stilla það svo að það endurtaki sig.</span><span class="sxs-lookup"><span data-stu-id="98677-110">In Commerce, every task list that has a target date can be assigned to any number of stores or employees, and it can be configured to recur.</span></span>
 
-<span data-ttu-id="76c6c-111">Bæði stjórnendur og starfsmenn geta búið til verkefnalista í bakvinnslu Commerce og síðan úthlutað þeim í safn verslana.</span><span class="sxs-lookup"><span data-stu-id="76c6c-111">Both managers and workers can create task lists in Commerce back office, and then assign them to a set of stores.</span></span>
+<span data-ttu-id="98677-111">Bæði stjórnendur og starfsmenn geta búið til verkefnalista í bakvinnslu Commerce og síðan úthlutað þeim í safn verslana.</span><span class="sxs-lookup"><span data-stu-id="98677-111">Both managers and workers can create task lists in Commerce back office, and then assign them to a set of stores.</span></span>
 
-## <a name="create-a-task-list"></a><span data-ttu-id="76c6c-112">Búa til verklista</span><span class="sxs-lookup"><span data-stu-id="76c6c-112">Create a task list</span></span>
+## <a name="create-a-task-list"></a><span data-ttu-id="98677-112">Búa til verklista</span><span class="sxs-lookup"><span data-stu-id="98677-112">Create a task list</span></span>
 
-<span data-ttu-id="76c6c-113">Til að stofna verklista skal fylgja þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="76c6c-113">To create a task list, follow these steps.</span></span>
+<span data-ttu-id="98677-113">Til að stofna verklista skal fylgja þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="98677-113">To create a task list, follow these steps.</span></span>
 
-1. <span data-ttu-id="76c6c-114">Farðu í **Retail og Commerce \> Verkefnisstjórn \> Stjórnun verkefnisstjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-114">Go to **Retail and Commerce \> Task management \> Task management administration**.</span></span>
-1. <span data-ttu-id="76c6c-115">Veldu **Nýtt** og sláðu síðan inn gildi í reitunum **Nafn**, **Lýsing** og **Eigandi**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-115">Select **New**, and then enter values in the **Name**, **Description**, and **Owner** fields.</span></span>
-1. <span data-ttu-id="76c6c-116">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-116">Select **Save**.</span></span>
+1. <span data-ttu-id="98677-114">Farðu í **Retail og Commerce \> Verkefnisstjórn \> Stjórnun verkefnisstjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="98677-114">Go to **Retail and Commerce \> Task management \> Task management administration**.</span></span>
+1. <span data-ttu-id="98677-115">Veldu **Nýtt** og sláðu síðan inn gildi í reitunum **Nafn**, **Lýsing** og **Eigandi**.</span><span class="sxs-lookup"><span data-stu-id="98677-115">Select **New**, and then enter values in the **Name**, **Description**, and **Owner** fields.</span></span>
+1. <span data-ttu-id="98677-116">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="98677-116">Select **Save**.</span></span>
 
-## <a name="add-tasks-to-a-task-list"></a><span data-ttu-id="76c6c-117">Bættu verkefnum við verkefnalista</span><span class="sxs-lookup"><span data-stu-id="76c6c-117">Add tasks to a task list</span></span>
+## <a name="add-tasks-to-a-task-list"></a><span data-ttu-id="98677-117">Bættu verkefnum við verkefnalista</span><span class="sxs-lookup"><span data-stu-id="98677-117">Add tasks to a task list</span></span>
 
-<span data-ttu-id="76c6c-118">Til að bæta verki við verklista skaltu fylgja þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="76c6c-118">To add tasks to a task list, follow these steps.</span></span>
+<span data-ttu-id="98677-118">Til að bæta verki við verklista skaltu fylgja þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="98677-118">To add tasks to a task list, follow these steps.</span></span>
  
-1. <span data-ttu-id="76c6c-119">Á flýtiflipanum **Verk** í fyrirliggjandi verkefnalista velurðu **Nýtt** til að bæta við verki.</span><span class="sxs-lookup"><span data-stu-id="76c6c-119">On the **Tasks** FastTab of an existing task list, select **New** to add a task.</span></span>
-1. <span data-ttu-id="76c6c-120">Í valmyndinni **Stofna nýtt verk** í reitnum **Heiti** er fært inn einkvæmt heiti fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="76c6c-120">In the **Create a new task** dialog box, in the **Name** field, enter a name for the task.</span></span>
-1. <span data-ttu-id="76c6c-121">Í reitinn **Mótfærsla gjalddaga frá markdegi** slærðu inn jákvætt eða neikvætt heiltölugildi.</span><span class="sxs-lookup"><span data-stu-id="76c6c-121">In the **Due data offset from target date** field, enter a positive or negative integer value.</span></span> <span data-ttu-id="76c6c-122">Til dæmis, sláðu inn **-2** ef verkefni ætti að vera lokið tveimur dögum fyrir gjalddaga verkefnalistans.</span><span class="sxs-lookup"><span data-stu-id="76c6c-122">For example, enter **-2** if the task should be completed two days before the task list's due date.</span></span>
-1. <span data-ttu-id="76c6c-123">Í reitinn **Athugasemdir** slærðu inn nákvæmar leiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="76c6c-123">In the **Notes** field, enter detailed instructions.</span></span>
-1. <span data-ttu-id="76c6c-124">Í reitinn **Tengiliður** slærðu inn heiti efnissérfræðings sem verkefnaeigandinn getur haft samband ef hann eða hún þarfnast hjálpar.</span><span class="sxs-lookup"><span data-stu-id="76c6c-124">In the **Contact person** field, enter the name of a subject matter expert that the task owner can contact if he or she needs help.</span></span>
-1. <span data-ttu-id="76c6c-125">Í reitinn **Verktengill** slærðu inn tengil, samkvæmt á eðli verksins.</span><span class="sxs-lookup"><span data-stu-id="76c6c-125">In the **Task link** field, enter a link, based on the nature of the task.</span></span>
+1. <span data-ttu-id="98677-119">Á flýtiflipanum **Verk** í fyrirliggjandi verkefnalista velurðu **Nýtt** til að bæta við verki.</span><span class="sxs-lookup"><span data-stu-id="98677-119">On the **Tasks** FastTab of an existing task list, select **New** to add a task.</span></span>
+1. <span data-ttu-id="98677-120">Í valmyndinni **Stofna nýtt verk** í reitnum **Heiti** er fært inn einkvæmt heiti fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="98677-120">In the **Create a new task** dialog box, in the **Name** field, enter a name for the task.</span></span>
+1. <span data-ttu-id="98677-121">Í reitinn **Mótfærsla gjalddaga frá markdegi** slærðu inn jákvætt eða neikvætt heiltölugildi.</span><span class="sxs-lookup"><span data-stu-id="98677-121">In the **Due data offset from target date** field, enter a positive or negative integer value.</span></span> <span data-ttu-id="98677-122">Til dæmis, sláðu inn **-2** ef verkefni ætti að vera lokið tveimur dögum fyrir gjalddaga verkefnalistans.</span><span class="sxs-lookup"><span data-stu-id="98677-122">For example, enter **-2** if the task should be completed two days before the task list's due date.</span></span>
+1. <span data-ttu-id="98677-123">Í reitinn **Athugasemdir** slærðu inn nákvæmar leiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="98677-123">In the **Notes** field, enter detailed instructions.</span></span>
+1. <span data-ttu-id="98677-124">Í reitinn **Tengiliður** slærðu inn heiti efnissérfræðings sem verkefnaeigandinn getur haft samband ef hann eða hún þarfnast hjálpar.</span><span class="sxs-lookup"><span data-stu-id="98677-124">In the **Contact person** field, enter the name of a subject matter expert that the task owner can contact if he or she needs help.</span></span>
+1. <span data-ttu-id="98677-125">Í reitinn **Verktengill** slærðu inn tengil, samkvæmt á eðli verksins.</span><span class="sxs-lookup"><span data-stu-id="98677-125">In the **Task link** field, enter a link, based on the nature of the task.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="76c6c-126">Þó að þú getir notað reitinn **Úthlutað á** til að úthluta verkum á einhvers meðan þú ert að búa til verkefnalista, mælum við með að þú forðist að úthluta verkefnum meðan verkefnalistinn er búinn til.</span><span class="sxs-lookup"><span data-stu-id="76c6c-126">Although you can use the **Assigned to** field to assign tasks to someone while you're creating a task list, we recommend that you avoid assigning tasks during task list creation.</span></span> <span data-ttu-id="76c6c-127">Í staðinn skaltu úthluta verkefnum þegar listinn hefur verið eintekinn fyrir stakar verslanir.</span><span class="sxs-lookup"><span data-stu-id="76c6c-127">Instead, assign the tasks after the list is instantiated for individual stores.</span></span>
+> <span data-ttu-id="98677-126">Þó að þú getir notað reitinn **Úthlutað á** til að úthluta verkum á einhvers meðan þú ert að búa til verkefnalista, mælum við með að þú forðist að úthluta verkefnum meðan verkefnalistinn er búinn til.</span><span class="sxs-lookup"><span data-stu-id="98677-126">Although you can use the **Assigned to** field to assign tasks to someone while you're creating a task list, we recommend that you avoid assigning tasks during task list creation.</span></span> <span data-ttu-id="98677-127">Í staðinn skaltu úthluta verkefnum þegar listinn hefur verið eintekinn fyrir stakar verslanir.</span><span class="sxs-lookup"><span data-stu-id="98677-127">Instead, assign the tasks after the list is instantiated for individual stores.</span></span>
 
-## <a name="use-task-links-to-help-improve-worker-productivity"></a><span data-ttu-id="76c6c-128">Notaðu verkefnatengla til að bæta framleiðni starfsmanna</span><span class="sxs-lookup"><span data-stu-id="76c6c-128">Use task links to help improve worker productivity</span></span>
+## <a name="use-task-links-to-help-improve-worker-productivity"></a><span data-ttu-id="98677-128">Notaðu verkefnatengla til að bæta framleiðni starfsmanna</span><span class="sxs-lookup"><span data-stu-id="98677-128">Use task links to help improve worker productivity</span></span>
 
-<span data-ttu-id="76c6c-129">Commerce gerir þér kleift að tengja verk við sérstakar POS-aðgerðir, eins og að keyra söluskýrslu, skoða þjálfunarmyndband á netinu fyrir nýja stefnu starfsmanna eða framkvæma bakvinnsluaðgerð.</span><span class="sxs-lookup"><span data-stu-id="76c6c-129">Commerce lets you link tasks to specific POS operations, such as running a sales report, viewing an online training video for new employee orientation, or performing a back-office operation.</span></span> <span data-ttu-id="76c6c-130">Þessi aðgerð hjálpar eigendum verkefna að fá þær upplýsingar sem þeir þurfa til að klára verkefni á skilvirkan hátt.</span><span class="sxs-lookup"><span data-stu-id="76c6c-130">This feature helps task owners get the information that they need to complete a task efficiently.</span></span>
+<span data-ttu-id="98677-129">Commerce gerir þér kleift að tengja verk við sérstakar POS-aðgerðir, eins og að keyra söluskýrslu, skoða þjálfunarmyndband á netinu fyrir nýja stefnu starfsmanna eða framkvæma bakvinnsluaðgerð.</span><span class="sxs-lookup"><span data-stu-id="98677-129">Commerce lets you link tasks to specific POS operations, such as running a sales report, viewing an online training video for new employee orientation, or performing a back-office operation.</span></span> <span data-ttu-id="98677-130">Þessi aðgerð hjálpar eigendum verkefna að fá þær upplýsingar sem þeir þurfa til að klára verkefni á skilvirkan hátt.</span><span class="sxs-lookup"><span data-stu-id="98677-130">This feature helps task owners get the information that they need to complete a task efficiently.</span></span>
 
-<span data-ttu-id="76c6c-131">Fylgdu þessum skrefum til að bæta við verkefnatenglum meðan þú býrð til verkefni.</span><span class="sxs-lookup"><span data-stu-id="76c6c-131">To add task links while you create a task, follow these steps.</span></span>
+<span data-ttu-id="98677-131">Fylgdu þessum skrefum til að bæta við verkefnatenglum meðan þú býrð til verkefni.</span><span class="sxs-lookup"><span data-stu-id="98677-131">To add task links while you create a task, follow these steps.</span></span>
 
-1. <span data-ttu-id="76c6c-132">Á flýtiflipanum **Verk** í fyrirliggjandi verkefnalista velurðu **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-132">On the **Tasks** FastTab of an existing task list, select **Edit**.</span></span>
-1. <span data-ttu-id="76c6c-133">Í glugganum **Breyta verki** í reitnum **Verkefnatengill** velurðu einn eða fleiri af eftirfarandi valkostum:</span><span class="sxs-lookup"><span data-stu-id="76c6c-133">In the **Edit task** dialog box, in the **Task link** field, select one or more of the following options:</span></span>
+1. <span data-ttu-id="98677-132">Á flýtiflipanum **Verk** í fyrirliggjandi verkefnalista velurðu **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="98677-132">On the **Tasks** FastTab of an existing task list, select **Edit**.</span></span>
+1. <span data-ttu-id="98677-133">Í glugganum **Breyta verki** í reitnum **Verkefnatengill** velurðu einn eða fleiri af eftirfarandi valkostum:</span><span class="sxs-lookup"><span data-stu-id="98677-133">In the **Edit task** dialog box, in the **Task link** field, select one or more of the following options:</span></span>
 
-    - <span data-ttu-id="76c6c-134">Veldu **Valmyndaratriði** til að stilla bakvinnslu, eins og „Vörusett”.</span><span class="sxs-lookup"><span data-stu-id="76c6c-134">Select **Menu item** to configure a back-office operation, such as "Product kits."</span></span>
-    - <span data-ttu-id="76c6c-135">Veldu **POS aðgerð** til að stilla POS aðgerð, eins og „Söluskýrslur”.</span><span class="sxs-lookup"><span data-stu-id="76c6c-135">Select **POS Operation** to configure a POS operation, such as "Sales reports."</span></span>
-    - <span data-ttu-id="76c6c-136">Veldu **Vefslóð** til að stilla fasta slóð.</span><span class="sxs-lookup"><span data-stu-id="76c6c-136">Select **URL** to configure an absolute URL.</span></span>
+    - <span data-ttu-id="98677-134">Veldu **Valmyndaratriði** til að stilla bakvinnslu, eins og „Vörusett”.</span><span class="sxs-lookup"><span data-stu-id="98677-134">Select **Menu item** to configure a back-office operation, such as "Product kits."</span></span>
+    - <span data-ttu-id="98677-135">Veldu **POS aðgerð** til að stilla POS aðgerð, eins og „Söluskýrslur”.</span><span class="sxs-lookup"><span data-stu-id="98677-135">Select **POS Operation** to configure a POS operation, such as "Sales reports."</span></span>
+    - <span data-ttu-id="98677-136">Veldu **Vefslóð** til að stilla fasta slóð.</span><span class="sxs-lookup"><span data-stu-id="98677-136">Select **URL** to configure an absolute URL.</span></span>
 
-<span data-ttu-id="76c6c-137">Eftirfarandi mynd sýnir val á verkstenglum í valmyndinni **Breyta verki**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-137">The following illustration shows the selection of task links in the **Edit task** dialog box.</span></span>
+<span data-ttu-id="98677-137">Eftirfarandi mynd sýnir val á verkstenglum í valmyndinni **Breyta verki**.</span><span class="sxs-lookup"><span data-stu-id="98677-137">The following illustration shows the selection of task links in the **Edit task** dialog box.</span></span>
 
 ![Val á verktenglum í glugganum Breyta verkefni](media/HQ-POS-Tasks-Linking.png)
 
-### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a><span data-ttu-id="76c6c-139">Stilltu POS-aðgerð svo hægt sé að tengja hana við verk</span><span class="sxs-lookup"><span data-stu-id="76c6c-139">Configure a POS operation so that it can be linked to a task</span></span>
+### <a name="configure-a-pos-operation-so-that-it-can-be-linked-to-a-task"></a><span data-ttu-id="98677-139">Stilltu POS-aðgerð svo hægt sé að tengja hana við verk</span><span class="sxs-lookup"><span data-stu-id="98677-139">Configure a POS operation so that it can be linked to a task</span></span>
 
-<span data-ttu-id="76c6c-140">Til að stilla POS-aðgerð svo hægt sé að tengja hana við verk fylgirðu þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="76c6c-140">To configure a POS operation so that it can be linked to a task, follow these steps.</span></span>
+<span data-ttu-id="98677-140">Til að stilla POS-aðgerð svo hægt sé að tengja hana við verk fylgirðu þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="98677-140">To configure a POS operation so that it can be linked to a task, follow these steps.</span></span>
 
-1. <span data-ttu-id="76c6c-141">Farðu í **Retail og Commerce \> Uppsetningu rásar \> Uppsetning POS \> POS \> POS-aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="76c6c-141">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS \> POS operations**.</span></span>
-1. <span data-ttu-id="76c6c-142">Veldu **Breyta**, finndu POS-aðgerðina og veldu síðan gátreitinn **Virkja verkefnisstjórnun** fyrir hana.</span><span class="sxs-lookup"><span data-stu-id="76c6c-142">Select **Edit**, find the POS operation, and then select the **Enable Task Management** check box for it.</span></span>
+1. <span data-ttu-id="98677-141">Farðu í **Retail og Commerce \> Uppsetningu rásar \> Uppsetning POS \> POS \> POS-aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="98677-141">Go to **Retail and Commerce \> Channel setup \> POS setup \> POS \> POS operations**.</span></span>
+1. <span data-ttu-id="98677-142">Veldu **Breyta**, finndu POS-aðgerðina og veldu síðan gátreitinn **Virkja verkefnisstjórnun** fyrir hana.</span><span class="sxs-lookup"><span data-stu-id="98677-142">Select **Edit**, find the POS operation, and then select the **Enable Task Management** check box for it.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="76c6c-143">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="76c6c-143">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="98677-143">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="98677-143">Additional resources</span></span>
 
-[<span data-ttu-id="76c6c-144">Yfirlit verkefnastjórnunar</span><span class="sxs-lookup"><span data-stu-id="76c6c-144">Task management overview</span></span>](task-mgmt-overview.md)
+[<span data-ttu-id="98677-144">Yfirlit verkefnastjórnunar</span><span class="sxs-lookup"><span data-stu-id="98677-144">Task management overview</span></span>](task-mgmt-overview.md)
 
-[<span data-ttu-id="76c6c-145">Skilgreina verkstýringu</span><span class="sxs-lookup"><span data-stu-id="76c6c-145">Configure task management</span></span>](task-mgmt-configure.md)
+[<span data-ttu-id="98677-145">Skilgreina verkstýringu</span><span class="sxs-lookup"><span data-stu-id="98677-145">Configure task management</span></span>](task-mgmt-configure.md)
 
-[<span data-ttu-id="76c6c-146">Úthluta verkefnalistum til verslana eða starfsmanna</span><span class="sxs-lookup"><span data-stu-id="76c6c-146">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+[<span data-ttu-id="98677-146">Úthluta verkefnalistum til verslana eða starfsmanna</span><span class="sxs-lookup"><span data-stu-id="98677-146">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
 
-[<span data-ttu-id="76c6c-147">Verkstjórnun á sölustað</span><span class="sxs-lookup"><span data-stu-id="76c6c-147">Task management in POS</span></span>](task-mgmt-POS.md)
+[<span data-ttu-id="98677-147">Verkstjórnun á sölustað</span><span class="sxs-lookup"><span data-stu-id="98677-147">Task management in POS</span></span>](task-mgmt-POS.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
