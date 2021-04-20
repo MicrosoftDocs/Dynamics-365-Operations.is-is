@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: Notkun Power Portal með gagnalíkani aðila
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Samþætting athugasemdar
                               href: data-entities/dual-write/notes-integration.md
                             - name: Vörpunartilvísun
@@ -714,6 +716,8 @@
               items:
                 - name: X++ og kembieiginleikar
                   href: dev-tools/new-x-debugger-features.md
+                - name: Visual Studio 2017 kröfur fyrir X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Kemba X++ kóða
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Dagsetningarvirkni
               href: dev-tools/date-effectivity.md
-            - name: Leyfisveiting óháðra hugbúnaðarsala
-              href: dev-tools/isv-licensing.md
-            - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Þróun fyrir óháða hugbúnaðarsala
+              items:
+                - name: Tengja X++ einingar við pakka með því að nota ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Leyfisveiting óháðra hugbúnaðarsala
+                  href: dev-tools/isv-licensing.md
+                - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Almenna persónuverndarreglugerðin (GDPR)
           items:
             - name: Yfirlit almennu persónuverndarreglugerðarinnar
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Samþætting Microsoft Power Platform
           items:
+            - name: Microsoft Power Platform samþætting við Finance and Operations
+              href: power-platform/overview.md
             - name: Sýndareiningar
               items:
-                - name: Microsoft Power Platform samþætting við Finance and Operations
-                  href: power-platform/overview.md
                 - name: Einingalíkön
                   href: power-platform/entity-modeling.md
                 - name: Líftímastjórnun forrits
@@ -1448,12 +1456,14 @@
               href: lifecycle-services/lcs-support.md
             - name: Yfirlit yfir þjónustu við Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Fá aðstoð fyrir Finance and Operations sem er notað af 21Vianet í Kína
+            - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
             - name: Setja upp tæknilegan stuðning fyrir Finance and Operations-forrit
               href: lifecycle-services/support-experience.md
             - name: Stjórna upplifun stuðnings fyrir Finance and Operations-forrit
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Framleiðslustuðningur og eftirlit
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Kerfisstjórnun
           items:
             - name: Kerfisstjórnun – heimasíða

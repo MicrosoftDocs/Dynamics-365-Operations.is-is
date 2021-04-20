@@ -72,7 +72,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar fyrir innleiðingu Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Finance and Operations forrit notuð af 21Vianet í Kína
+                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-forrit í Frakklandi
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Skilgreining og uppsetning Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
-                - name: Fjölvirkjun á íhlutum fyrir sjálfsafgreiðslu
+                - name: Fjölvirkjun á eldri sjálfsafgreiðsluhlutum
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Tilvik Commerce-íhluta fyrir greiningu og bilanaleit
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: Eining síðufótar
                       href: author-footer-module.md
+                - name: 'Síða, lýsigögn og forskriftareiningar'
+                  items:
+                    - name: Sjálfgefin síðueining
+                      href: default-page-module.md
+                    - name: Síðusamantektareiningar
+                      href: page-summary-module.md
+                    - name: Metatags-eining
+                      href: metatags-module.md
+                    - name: Ytri og innfelldar forskriftareiningar
+                      href: script-module.md
                 - name: Einingar upplýsingasíðu afurða
                   items:
                     - name: Kaupgluggaeining
@@ -2002,7 +2012,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Búa til „Opna í Excel“-upplifanir
+            - name: Opnun í Excel stofnuð
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
