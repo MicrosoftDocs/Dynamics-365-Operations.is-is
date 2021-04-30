@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813172"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907964"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.17. (apríl 2021)
 
@@ -33,65 +33,65 @@ ms.locfileid: "5813172"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu.  Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu.  Fylgið tenglunum á [útgáfuáætlunina](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
 Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikar á listanum eru hugsanlega enn í forútgáfu, þó flestir séu nú almennt tiltækir.
 
 ### <a name="asset-management"></a>Eignastýring
 
-- [Notið reglur fyrir flokkun verkbeiðna á meðan viðhaldsáætlun er keyrð](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Frekari upplýsingar eru í [Stofnun verkbeiðna](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
+- [Notið reglur fyrir flokkun verkbeiðna á meðan viðhaldsáætlun er keyrð](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Frekari upplýsingar eru í [Stofnun verkbeiðna](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
 
-- [Reikningsfæra viðskiptavini fyrir viðhaldsvinnu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Frekari upplýsingar er að finna í [Reikningur vegna viðhalds á eignum viðskiptavinar](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
+- [Reikningsfæra viðskiptavini fyrir viðhaldsvinnu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Frekari upplýsingar er að finna í [Reikningur vegna viðhalds á eignum viðskiptavinar](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
 
-- [Skipuleggja viðhald út frá uppsöfnuðum teljaragildum eignar](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Frekari upplýsingar eru í [Viðhaldsáætlanir](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
+- [Skipuleggja viðhald út frá uppsöfnuðum teljaragildum eignar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Frekari upplýsingar eru í [Viðhaldsáætlanir](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
 
 ### <a name="inventory-and-logistics"></a>Birgða- og vörustjórnun
 
-- [Samþættingarrammi fyrir efnismeðhöndlunarbúnað fyrir sjálfvirk vöruhúsaferli (áður MHAX)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Frekari upplýsingar eru í [Viðmót efnismeðhöndlunarbúnaðar (MHAX)](../warehousing/mhax.md).
+- [Samþættingarrammi fyrir efnismeðhöndlunarbúnað fyrir sjálfvirk vöruhúsaferli (áður MHAX)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Frekari upplýsingar eru í [Viðmót efnismeðhöndlunarbúnaðar (MHAX)](../warehousing/mhax.md).
 
-- [Heildarkostnaður](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Frekari upplýsingar eru í [Eining heildarkostnaðar](../landed-cost/landed-cost-overview.md).
+- [Heildarkostnaður](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Frekari upplýsingar eru í [Eining heildarkostnaðar](../landed-cost/landed-cost-overview.md).
 
-- [Pökkun samanborið við geymsluvíddir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Frekari upplýsingar er að finna í [Stilla mismunandi víddir fyrir pökkun og geymslu](../warehousing/packing-vs-storage-dimensions.md).
+- [Pökkun samanborið við geymsluvíddir](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Frekari upplýsingar er að finna í [Stilla mismunandi víddir fyrir pökkun og geymslu](../warehousing/packing-vs-storage-dimensions.md).
 
-- [Vistuð yfirlit fyrir birgðir og vörustjórnun](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
+- [Vistuð yfirlit fyrir birgðir og vörustjórnun](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
 
-- [Tímasetja stofnun vöruhúsavinnu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Frekari upplýsingar er að finna í [Áætla stofnun vinnu í bylgju](../warehousing/configure-wave-schedule-work-creation.md).
+- [Tímasetja stofnun vöruhúsavinnu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Frekari upplýsingar er að finna í [Áætla stofnun vinnu í bylgju](../warehousing/configure-wave-schedule-work-creation.md).
 
-- [Stilla sjálfgefnar fjárhagsvíddir fyrir fylgiskjöl endurmats á staðalkostnaði birgða](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Frekari upplýsingar eru í [Stjórna uppfærslum staðalkostnaðar](../cost-management/manage-standard-cost-updates.md).
+- [Stilla sjálfgefnar fjárhagsvíddir fyrir fylgiskjöl endurmats á staðalkostnaði birgða](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Frekari upplýsingar eru í [Stjórna uppfærslum staðalkostnaðar](../cost-management/manage-standard-cost-updates.md).
 
-- [Sending lítilla pakka (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Þekjutímamörk[Sending lítilla pakka](../warehousing/small-parcel-shipping.md).
+- [Sending lítilla pakka (SPS)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Þekjutímamörk[Sending lítilla pakka](../warehousing/small-parcel-shipping.md).
 
-- [Vöruhúsakeyrsla með einingarkvörðum í skýinu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Frekari upplýsingar er að finna í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) og [Vöruhúsapantanir fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-warehouse-order.md).
+- [Vöruhúsakeyrsla með einingarkvörðum í skýinu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Frekari upplýsingar er að finna í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) og [Vöruhúsapantanir fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-warehouse-order.md).
 
-- [Farsímaforrit vöruhúsakerfi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehouse-management-app.md) og [Notandastillingar fartækis](../warehousing/mobile-device-user-settings.md).
+- [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehouse-management-app.md) og [Notandastillingar fartækis](../warehousing/mobile-device-user-settings.md).
 
 - Tilkynningar bylgjukerslu<br> - Frekari upplýsingar er að finna í [Tilkynningar bylgjukerslu](../warehousing/wave-execution-notifications.md)
 
 ### <a name="manufacturing"></a>Framleiðsla
 
-- [Möguleikar eignastýringar í framkvæmdaviðmóti framleiðslugólfs](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-configure.md).
+- [Möguleikar eignastýringar í framkvæmdaviðmóti framleiðslugólfs](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-configure.md).
 
 - Samræmd númeraröð fyrir vinnslukenni<br> - Frekari upplýsingar er að finna í 
 
-- [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Frekari upplýsingar er að finna í [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](../production-control/override-default-reservation-principle.md).
+- [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Frekari upplýsingar er að finna í [Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu](../production-control/override-default-reservation-principle.md).
 
-- [Vistuð yfirlit fyrir framleiðslustýringu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
+- [Vistuð yfirlit fyrir framleiðslustýringu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
 
-- [Framkvæmd framleiðslu með einingarkvörðum í skýinu](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Frekari upplýsingar er að finna í [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- [Framkvæmd framleiðslu með einingarkvörðum í skýinu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Frekari upplýsingar er að finna í [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 ### <a name="planning"></a>Áætlun
 
-- [Stuðningur við þekjutímamörk fyrir fínstillingu skipulagningar](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Frekari upplýsingar eru í [Þekjutímamörk](../master-planning/planning-optimization/coverage-time-fence.md).
+- [Stuðningur við þekjutímamörk fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Frekari upplýsingar eru í [Þekjutímamörk](../master-planning/planning-optimization/coverage-time-fence.md).
 
-- [Stuðningur við undirlíkan fyrir spá fyrir fínstillingu skipulagningar](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Frekari upplýsingar eru í [Aðaláætlanagerð með eftirspurnarspám](../master-planning/planning-optimization/demand-forecast.md).
+- [Stuðningur við undirlíkan fyrir spá fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Frekari upplýsingar eru í [Aðaláætlanagerð með eftirspurnarspám](../master-planning/planning-optimization/demand-forecast.md).
 
-- [Stuðningur við innkaupabeiðni fyrir fínstillingu skipulagningar](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Frekari upplýsingar er að finna í [Innkaupabeiðnir](../master-planning/planning-optimization/purchase-requisitions.md).
+- [Stuðningur við innkaupabeiðni fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Frekari upplýsingar er að finna í [Innkaupabeiðnir](../master-planning/planning-optimization/purchase-requisitions.md).
 
-- [Vistuð yfirlit fyrir áætlaðar pantanir](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
+- [Vistuð yfirlit fyrir áætlaðar pantanir](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
 
 ### <a name="product-information-management"></a>Vöruupplýsingastjórnun
 
-- [Virkja breytingastjórnun á fyrirliggjandi afurðum](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Frekari upplýsingar eru í [Virkja breytingastjórnun á fyrirliggjandi afurðum](../engineering-change-management/change-management-existing-products.md).
+- [Virkja breytingastjórnun á fyrirliggjandi afurðum](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Frekari upplýsingar eru í [Virkja breytingastjórnun á fyrirliggjandi afurðum](../engineering-change-management/change-management-existing-products.md).
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -145,7 +145,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2021 útgáfu bylgju 1 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2021 útgáfu bylgju 1 áætlun](/dynamics365-release-plan/2021wave1/). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 

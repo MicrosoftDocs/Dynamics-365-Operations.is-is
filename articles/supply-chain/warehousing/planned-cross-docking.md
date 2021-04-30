@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810415"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911249"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -28,19 +28,21 @@ ms.locfileid: "5810415"
 
 Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi á innleið og tiltekt á útleið á birgðum sem þegar eru merktar fyrir pöntun á útleið. Þar af leiðandi er dregið úr fjölda skipta sem hreyft er við birgðum, þegar slíku er við komið. Þar að auki, vegna þess að minni samskipti eru við kerfið, eykst sparnaður á tíma og rými í vinnusal vöruhússins til muna.
 
-Áður en hægt er að keyra dreifingu frá dreifingarstöð verður notandinn að grunnstilla nýtt sniðmát fyrir dreifingu frá dreifingarstöð, þar sem birgðauppruni og önnur skilyrði fyrir dreifingu frá dreifingarstöð eru skilgreind. Þegar pöntunin á útleið er stofnuð verður línan að vera merkt á móti pöntun á innleið sem inniheldur sama atriði.
+Áður en hægt er að keyra dreifingu frá dreifingarstöð þarf að grunnstilla nýtt sniðmát fyrir dreifingu frá dreifingarstöð, þar sem birgðauppruni og önnur skilyrði fyrir dreifingu frá dreifingarstöð eru skilgreind. Þegar pöntunin á útleið er stofnuð verður línan að vera merkt á móti pöntun á innleið sem inniheldur sama atriði. Hægt er að velja reit leiðbeiningarkóða í sniðmáti dreifingar frá dreifingarstöð á svipaðan hátt og áfyllingar og innkaupapantanir eru settar upp.
 
 Þegar tekið er á móti pöntun á innleið, auðkennir dreifing frá dreifingarstöð sjálfkrafa þörfina fyrir dreifingu frá dreifingarstöð og býr til birgðahreyfingu fyrir það magn sem krafist er, miðað við uppsetningu staðsetningarleiðbeininga.
 
 > [!NOTE]
-> Birgðafærslur eru **ekki** óskráðar þegar hætt er við dreifingu frá dreifingarstöð, jafnvel þó að kveikt sé á stillingunni fyrir þennan eiginleika í færibreytum vöruhúsakerfisins.
+> Birgðafærslur eru *ekki* óskráðar þegar hætt er við dreifingu frá dreifingarstöð, jafnvel þó að kveikt sé á stillingunni fyrir þennan eiginleika í færibreytum vöruhúsakerfisins.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
 
 Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
 
 1. *Áætluð dreifing frá dreifingarstöð*
-2. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*
+1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*
+    > [!NOTE]
+    > Þessi eiginleiki virkjar reitinn **Leiðbeiningarkóði** til að vera tilgreindur í sniðmáti dreifingar frá drefingarstöð á svipaðan hátt og áfyllingarsniðmát eru sett upp. Að virkja þennan eiginleika kemur í veg fyrir að þú bætir við leiðbeiningarkóða í sniðmátslínur dreifingar frá dreifingarstöð fyrir síðustu *Frágangslínuna*. Þetta tryggir að hægt er að ákveða lokastaðsetningu frágangs meðan á stofnun vinnu stendur áður en vinnusniðmát eru tekin til greina.
 
 ## <a name="setup"></a>Setja upp
 
@@ -88,9 +90,9 @@ Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal
 
         Þessi valkostur skilgreinir hvort staðfest skuli aftur birgðir við afhendingu. Ef þessi valkostur er stilltur á *Já* er bæði hámarkstímagluggi og dagsetningabil lokadaga athugaðir.
 
-    - **Leiðbeiningarkóði** Hafðu þetta svæði autt
+    - **Leiðbeiningarkóði:** Hafðu þetta svæði autt
 
-        Þessi valkostur gerir kerfinu kleift að nota staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Hver leiðbeiningarkóði auðkennir einstakar staðsetningarleiðbeiningar.
+        Þessi valkostur er virkjaður af eiginleikanum *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*. Kerfið notar staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Ef leiðbeiningarkóði er stilltur leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða þegar vinna er búin til. Þannig er hægt að takmarka staðsetningarleiðbeiningar sem eru notaðar fyrir tiltekið sniðmát dreifingar frá dreifingarstöð.
 
     - **Staðfesta tímaglugga:** *Já*
 

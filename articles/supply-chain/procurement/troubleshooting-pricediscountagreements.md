@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811087"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908520"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Villuleita verð, afslætti, samninga og eftirágreiddan afslátt
 
@@ -37,7 +37,7 @@ Innkaupasamningur verður að vera tengdur við innkaupapöntun þegar innkaupap
 
 Skilaboðin eru ræst þegar einhverjum dagsetninganna eða færibreytanna er breytt. Tilgangur skilaboðanna er að ganga úr skugga um að þú gerir þér grein fyrir verðbreytingum sem geta átt sér stað vegna þessara breytinga.
 
-Skilaboðin eru kvaðning um mat á verðsamningi. Ítarlegri lýsingu má finna í [Reglur um mat á verðsamningi](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
+Skilaboðin eru kvaðning um mat á verðsamningi. Ítarlegri lýsingu má finna í [Reglur um mat á verðsamningi](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>Kvittun innkaupapöntunar inniheldur ekki öll gjöld.
 

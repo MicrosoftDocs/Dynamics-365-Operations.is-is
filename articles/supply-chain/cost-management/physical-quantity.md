@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52f39c18888b94b533743f546554d5cd1b2d56df
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 543253714b3cf318ad5f6092b190e777772f956f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832251"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910138"
 ---
 # <a name="inventory-object-values"></a>Gildi birgðahlutar
 
@@ -140,7 +140,7 @@ Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut. Hægt e
 
 [Kostnaðarfærslur](cost-entries.md)
 
-[Nýjungar og breytingar](../../fin-and-ops/get-started/whats-new-changed.md)
+[Nýjungar og breytingar](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 

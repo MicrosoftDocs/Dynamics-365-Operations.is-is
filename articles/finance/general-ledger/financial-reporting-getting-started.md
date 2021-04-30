@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811289"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897037"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
@@ -148,7 +148,7 @@ Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
 * Slökkvið á sprettigluggavörninni í vafranum.
 * Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.6.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
-* Ef verið er að nota Chrome vafra, verður að setja upp ClickOnce-viðauka til að sækja skýrslu Report Designer. Ef verið er að nota Chrome í huliðsstillingu skal ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Frekari upplýsingar um Chrome ClickOnce viðbótina er að finna í [Kerfisskilyrði fyrir uppsetningu í skýi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Ef verið er að nota Chrome vafra, verður að setja upp ClickOnce-viðauka til að sækja skýrslu Report Designer. Ef verið er að nota Chrome í huliðsstillingu skal ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Frekari upplýsingar um Chrome ClickOnce viðbótina er að finna í [Kerfisskilyrði fyrir uppsetningu í skýi](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Ef notað er Microsoft Edge með Chrome-vafra þarf ekki að setja upp ClickOnce viðbót fyrir Edge Chromium. Hins vegar verður að kveikja á valkostinum ClickOnce til að sækja valkostinn biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu.
      1. Opna nýjan vafraglugga í Microsoft Edge.
      2. Sláið inn **edge://flags** og veljið **Færa inn**.

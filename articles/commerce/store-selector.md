@@ -2,7 +2,8 @@
 title: Vista valeiningu
 description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798634"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853418"
 ---
 # <a name="store-selector-module"></a>Eining til að velja verslun
 
@@ -32,11 +33,32 @@ Viðskiptavinir geta notað valeiningu verslunar til að sækja vöru í valdri 
 
 Valeining verslunar leyfir notendum að slá inn staðsetningu (borg, ríki, aðsetur og svo framvegis) til að leita að verslunum innan leitarradíuss. Þegar einingin er opnuð í fyrsta skipti, notar hún staðsetningu á vafra viðskiptavinarins til að finna verslanir (ef samþykki er veitt).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Notkun verslunarvalseiningar í e-Commerce
+## <a name="store-selector-module-usage"></a>Notkun á valeiningu verslunar
 
 - Hægt er að nota valeiningu verslunar á upplýsingasíðu afurðar til að velja verslun til að sækja í.
 - Hægt er að nota valeiningu verslunar á körfusíðu til að velja verslun til að sækja í.
 - Hægt er að nota valeiningu verslunar á sjálfstæðri síðu sem sýnir allar tiltækar verslanir.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Uppsetning uppfyllingarflokks í Commerce Headquarters
+
+Til að verslunarvalið geti sýnt tiltækar verslanir þarf að setja upp uppfyllingarflokkinn í Commerce Headquarters. Frekari upplýsingar er að finna í [Setja upp uppfyllingarflokka](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Í uppfyllingarflokknum þarf auk þess að skilgreina lengdar- og breiddargráðu á staðsetningu verslunar í höfuðstöðvum.
+
+Til að færa inn gildi fyrir lengdar- og breiddargráðu fyrir staðsetningu verslunar í Commerce Headquarters skal fylgja þessum skrefum.
+
+1. Farið í **Birgðastjórnun \> Uppsetning \> Sundurliðun birgða**.
+1. Veljið staðsetningu vöruhúss á svæðinu vinstra megin.
+1. Í flýtiflipanum **Aðsetur** skal velja **Ítarlegt**.
+
+    ![Dæmi um verslunarupplýsingar í höfuðstöðvum](./media/Store-address.png)
+
+1. Á aðgerðarúðunni skal velja **Breyta**.
+1. Í flýtiflipanum **Almennt** skal færa inn gildi fyrir **Breiddargráðu** og **Lengdargráða**.
+
+    ![Dæmi um uppsetningu breiddargráðu og lengdargráðu fyrir verslun í höfuðstöðvum](./media/Store-latitude-longitude.png)
+
+1. Í aðgerðarúðunni skal velja **Vista**. 
 
 ## <a name="bing-maps-integration"></a>Samþætting Bing-korta
 
@@ -48,6 +70,7 @@ Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfa
 - Í leiðbeininguna **img-src** skal bæta við **&#42;.virtualearth.net**.
 - Í leiðbeininguna **script-src** skal **bæta við &#42;.bing.com, &#42;.virtualearth.net**.
 - Í leiðbeininguna **script style-src** skal bæta við **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Sækja í verslun
 

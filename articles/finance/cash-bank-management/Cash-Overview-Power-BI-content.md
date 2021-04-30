@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830593"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897453"
 ---
 # <a name="cash-overview-power-bi-content"></a>Yfirlit yfir reiðufé – Power BI-efni
 
@@ -38,7 +38,7 @@ Eftirfarandi uppsetningu þarf að vera lokið til að hægt sé að birta gögn
 2. Farðu í **Fjárhagur > Dagatöl > Fjárhagsdagatöl** til að staðfesta dagsetningar fjárhagsdagatala sem er úthlutað á virka tímabilið.
 3. Farðu í **Fjárhag> Uppsetning> Fjárhagur** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**.
 4. Skilgreindu gengi milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfismynt, og bókhaldsgjaldmiðil og bankagjaldmiðla. Til að gera þetta skaltu fara **Fjárhag> Gjaldmiðlar> Gengi gjaldmiðla**.
-5. Skilgreina og keyra sjóðstreymisspá. Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í [Sjóðstreymisspá](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Skilgreina og keyra sjóðstreymisspá. Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í [Sjóðstreymisspá](./cash-flow-forecasting.md). 
 6. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni

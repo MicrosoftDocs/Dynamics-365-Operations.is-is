@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840702"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907766"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
@@ -44,26 +44,26 @@ Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í töflunni **Teng
 
 ## <a name="the-invitation-process"></a>Boðsferlið
 
-Ef bjóða á fyrirliggjandi tengiliði í viðskiptavinagáttina skal fylgja skrefunum í [Bjóða tengiliðum í gáttirnar](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) í fylgiskjölum Power Apps-gátta.
+Ef bjóða á fyrirliggjandi tengiliði í viðskiptavinagáttina skal fylgja skrefunum í [Bjóða tengiliðum í gáttirnar](/powerapps/maker/portals/configure/invite-contacts) í fylgiskjölum Power Apps-gátta.
 
-Áður en viðskiptavini er boðið í viðskiptavinagáttina skal ganga úr skugga um að [tengiliðafærsla](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) viðskiptavinar sé til staðar og uppsett á eftirfarandi hátt:
+Áður en viðskiptavini er boðið í viðskiptavinagáttina skal ganga úr skugga um að [tengiliðafærsla](/powerapps/maker/portals/configure/configure-contacts) viðskiptavinar sé til staðar og uppsett á eftirfarandi hátt:
 
 1. Stillið reitinn **Fyrirtæki** á lögaðilann sem viðskiptavinurinn á að tilheyra í Supply Chain Management.
 2. Stillið reitinn **Lykilnúmer** á númer viðskiptavinalykilsins sem notandinn á að hafa í Supply Chain Management.
 
 Eftir að tengiliður er stofnaður ætti að vera hægt að sjá hann í Supply Chain Management.
 
-Frekari upplýsingar er að finna í [Skilgreina tengilið til að nota í gátt](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) í fylgiskjali Power Apps-gátta.
+Frekari upplýsingar er að finna í [Skilgreina tengilið til að nota í gátt](/powerapps/maker/portals/configure/configure-contacts) í fylgiskjali Power Apps-gátta.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Tilbúin vefhlutverk og heimildir tafla
 
-Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [töfluheimildum](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
+Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](/powerapps/maker/portals/configure/create-web-roles) og [töfluheimildum](/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
 
 ### <a name="out-of-box-web-roles"></a>Tilbúin vefhlutverk
 
 Þessi hluti útskýrir vefhlutverkin sem afhent eru með viðskiptavinagáttinni.
 
-Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota töfluheimildir fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
+Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota töfluheimildir fyrir gáttir](/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
 
 #### <a name="administrator"></a>Kerfisstjóri
 

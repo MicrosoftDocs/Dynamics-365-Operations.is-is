@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808919"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907620"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -40,7 +40,7 @@ Eftir að kveikt er á skilgreiningarlyklinum, þegar þú býrð til útgefna a
 - Setja upp einingarröðunarflokk þar sem framleiðsluþyngdareiningin er skilgreind sem minnsta birgðahaldseiningin (SKU).
 - Setja upp reglu um meðhöndlun vöru með framleiðsluþyngd.
 
-Nánari upplýsingar er að finna í [Uppsetning og viðhald á vörum fyrir framleiðsluþyngd](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Nánari upplýsingar er að finna í [Uppsetning og viðhald á vörum fyrir framleiðsluþyngd](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Leiðréttingar á færslu
 

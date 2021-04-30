@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e70d8fc62150d68503552754e94c7130d8960c76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8244d512c9e1236fc52cd4a91cdc78cc2b9b984
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802360"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893102"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (14. maí 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5802360"
 
 ## <a name="platform-changes"></a>Verkvangsbreytingar
 
-Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.10 af Finance and Operations -forritum (maí 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
+Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.10 af Finance and Operations -forritum (maí 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Tryggið að tínslulistar Dataverse séu í samræmi við fasttexta leyfa (436343)
 
@@ -116,7 +116,7 @@ Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

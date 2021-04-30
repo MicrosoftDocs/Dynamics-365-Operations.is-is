@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798418"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890126"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Leiðbeiningar um API-samþættingu á rakningakerfi umsækjanda
 
@@ -45,21 +45,21 @@ Frekari upplýsingar um uppsetningu og notkun ráðningarbeiðni og virkni umsæ
 
 Til að fá frekari almennar upplýsingar um Microsoft Dataverse vef-API skal sjá:
 
-- [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [Nota Microsoft Dataverse vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse leiðbeiningar þróunaraðila](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
+- [Nota Microsoft Dataverse vef-API](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse leiðbeiningar þróunaraðila](/powerapps/developer/data-platform)
 
-Ofangreind fylgigögn innihalda upplýsingar og leiðbeiningar þróunaraðila um notkun á Dataverse vef-API, svo sem [stjórnun sannvottunar](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [framkvæmd aðgerða](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [notkun Postman með API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) og [notkun breytingarrakningar eða Delta-tákns](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) með API.
+Ofangreind fylgigögn innihalda upplýsingar og leiðbeiningar þróunaraðila um notkun á Dataverse vef-API, svo sem [stjórnun sannvottunar](/powerapps/developer/data-platform/webapi/authenticate-web-api), [framkvæmd aðgerða](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [notkun Postman með API](/powerapps/developer/data-platform/webapi/use-postman-web-api) og [notkun breytingarrakningar eða Delta-tákns](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) með API.
 
 ### <a name="option-sets"></a>Safn valkosta
 
-Gagnalíkanið fyrir API-samþættingu ATS sem lýst er í þessu skjali inniheldur safn valkosta sem bjóða upp á númeruð gildi sem tengjast eiginleikum einingar. Frekari upplýsingar um hvernig nota skuli safn valkosta í Dataverse vef-API er að finna í [Búa til og uppfæra safn valkosta með vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). Safn valkosta er skilgreint fyrir hvert Dataverse-umhverfi.
+Gagnalíkanið fyrir API-samþættingu ATS sem lýst er í þessu skjali inniheldur safn valkosta sem bjóða upp á númeruð gildi sem tengjast eiginleikum einingar. Frekari upplýsingar um hvernig nota skuli safn valkosta í Dataverse vef-API er að finna í [Búa til og uppfæra safn valkosta með vef-API](/powerapps/developer/data-platform/webapi/create-update-optionsets). Safn valkosta er skilgreint fyrir hvert Dataverse-umhverfi.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Sýndartöflur fyrir Human Resources í Dataverse
 
 Endastöðvar fyrir API-Samþætting ATS nota verkvangsmöguleika sýndartöflunnnar fyrir Microsoft Dataverse. Sjálfgefið er að sýndartöflurnar og tengdu API-endastöðvarnar þeirra eru ekki uppsettar fyrir umhverfi Human Resources sem gerir fyrirtækjum kleift að ákveða hvaða OData-endastöðvar verða notaðar í umhverfinu. Til að nota API þarf að mynda sýndartöflur fyrir einingar Human Resources fyrir umhverfið. 
 
-Frekari upplýsingar um myndun sýndartaflna fyrir API er að finna í [Skilgreina Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Frekari upplýsingar um myndun sýndartaflna fyrir API er að finna í [Skilgreina Dataverse sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="data-model"></a>Gagnalíkan
 
@@ -134,8 +134,8 @@ Safn valkosta:
 ## <a name="see-also"></a>Sjá einnig
 
 [Ráða umsækjendur](hr-personnel-recruit.md)<br>
-[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Nota Microsoft Dataverse vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[Búa til og uppfæra söfn valkosta með vef-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Nota Microsoft Dataverse vef-API](/powerapps/developer/data-platform/webapi/overview)<br>
+[Búa til og uppfæra söfn valkosta með vef-API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

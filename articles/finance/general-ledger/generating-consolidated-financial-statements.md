@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826691"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897865"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Búa til samstæðureikningsskil
 
@@ -34,7 +34,7 @@ Einfaldasta aðferðin til að sameina með Financial reporting er að nota skip
 3. Búðu til skipurit sem inniheldur skýrslugerðarhnút fyrir hvert fyrirtæki sem þú notar í samstæðuskýrslum.
 
 > [!TIP]
-> Nánari upplýsingar um hvernig á að búa til og stjórna línuskilgreiningum, dálkskilgreiningum og skipuritum er að finna í [Fjárhagsskýrsluhlutar](../../dev-itpro/analytics/financial-report-components.md).
+> Nánari upplýsingar um hvernig á að búa til og stjórna línuskilgreiningum, dálkskilgreiningum og skipuritum er að finna í [Fjárhagsskýrsluhlutar](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 Eftirfarandi skýringarmynd sýnir hvernig hægt er að nota skilgreiningu skipurits í Financial reporting til að greina hvert fyrirtæki sem verður sameinað.
 

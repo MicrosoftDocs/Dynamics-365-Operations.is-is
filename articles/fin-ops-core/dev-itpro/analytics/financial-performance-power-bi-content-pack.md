@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743378"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893227"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com lausn fjárhagslegrar frammistöðu
 
@@ -85,7 +85,7 @@ Eftirfarandi einingar voru notaðar sem grunnurinn á PowerBI.com lausn **Fjárh
 - Fjárhagur
 - ChartofAccounts
 
-Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Reiknaðar mælieiningar eru notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efninu. Sjálfgefið er að efnið færir inn gögn fyrir síðustu þrjú árin og eitt komandi ár. Til að hafa viðbótarútreikning með á skýrslur og mælaborð er hægt að breyta [Microsoft Excel vinnubók](https://docs.microsoft.com/dynamics/s-e/). Þessi vinnubók er sjálfgefið gagnalíkan sem var notað til að stofna efnið.
+Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Reiknaðar mælieiningar eru notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efninu. Sjálfgefið er að efnið færir inn gögn fyrir síðustu þrjú árin og eitt komandi ár. Til að hafa viðbótarútreikning með á skýrslur og mælaborð er hægt að breyta [Microsoft Excel vinnubók](/dynamics/s-e/). Þessi vinnubók er sjálfgefið gagnalíkan sem var notað til að stofna efnið.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

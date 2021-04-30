@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823789"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897601"
 ---
 # <a name="electronic-messaging"></a>Rafræn skilaboð
 
@@ -29,7 +29,7 @@ Ríkisstjórnir og löggjafarvald í hinum ýmsu löndum og svæðum um allan he
 
 Virknin fyrir rafræn skilaboð í Finance styður ýmsa ferla rafrænnar samaðgerðar milli Finance og kerfanna sem ríkisstjórnir og löggjafarvald bjóða upp á hvað varðar skýrslugerð, afhendingu og móttöku á opinberum upplýsingum.
 
-Virknin fyrir rafræn skilaboð er samþætt við eininguna **Rafræn skýrslugerð**. Því er hægt að setja upp snið rafrænnar skýrslugerðar fyrir rafræn skilaboð. Frekari upplýsingar eru í [Rafræn skýrslugerð](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Virknin fyrir rafræn skilaboð er samþætt við eininguna **Rafræn skýrslugerð**. Því er hægt að setja upp snið rafrænnar skýrslugerðar fyrir rafræn skilaboð. Frekari upplýsingar eru í [Rafræn skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Rafræn skilaboð byggjast á eftirfarandi einingum:
 
@@ -56,7 +56,7 @@ Virkni rafrænna skilaboða styður eftirfarandi aðstæður:
 
 ## <a name="set-up-electronic-messaging"></a>Setja upp rafræn skilaboð
 
-Rafræn skilaboð auðveldað það að viðhalda mismunandi ferlum rafrænnar skýrslugerðar fyrir mismunandi skjalategundir. Í sumum flóknum aðstæðum eru rafræn skilaboð sett upp svo þau séu með samsetningu af mörgum skilaboðastöðum, stöðum skilaboðaatriða, aðgerðum, öðrum svæðum og keyranlegum klösum. Í þessum tilfellum er innflutningur á gagnaeiningapökkum í boði. Ef þessir gagnaeiningapakkar eru notaðir ætti að flytja þá inn í lögaðila með verkfæri gagnastjórnunar. Frekar upplýsingar um hvernig á að nota verkfæri gagnastjórnunar eru í [Gagnastjórnun](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Rafræn skilaboð auðveldað það að viðhalda mismunandi ferlum rafrænnar skýrslugerðar fyrir mismunandi skjalategundir. Í sumum flóknum aðstæðum eru rafræn skilaboð sett upp svo þau séu með samsetningu af mörgum skilaboðastöðum, stöðum skilaboðaatriða, aðgerðum, öðrum svæðum og keyranlegum klösum. Í þessum tilfellum er innflutningur á gagnaeiningapökkum í boði. Ef þessir gagnaeiningapakkar eru notaðir ætti að flytja þá inn í lögaðila með verkfæri gagnastjórnunar. Frekar upplýsingar um hvernig á að nota verkfæri gagnastjórnunar eru í [Gagnastjórnun](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Hægt er að setja upp virknina fyrir rafræn skilaboð handvirkt ef gagnaeiningapakki er ekki fluttur inn. Í þessu tilfelli þarf að setja upp eftirfarandi þætti:
 

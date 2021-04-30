@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753697"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894149"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
@@ -27,7 +27,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Það þarf að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
+Setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Það þarf að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Breytið fyrirliggjandi `AssetRollForwardService`-klasa og skrifið kóða til að setja upp sérstillta verksmiðjustaðsetningu fyrir keyrslu skýrslunnar. Takið eftir því að þegar sérstillt verksmiðjustaðsetning er búin til, er forritsstýrða færibreytan sem tilgreinir möppu viðtökustaðar keyrð í gegn. Á þennan hátt er þessi mappa viðtökustaðar notuð til að geyma myndaðar skrár.
 
     > [!NOTE] 
-    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) notuð við keyrslu.
+    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) notuð við keyrslu.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

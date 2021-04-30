@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823410"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909452"
 ---
 # <a name="goods-in-transit-processing"></a>Vinnsla á vörum í flutningi
 
@@ -40,7 +40,7 @@ Svo framarlega sem vörurnar eru í flutningi eru þær ekki í boði í birgðu
 
 Þegar valkosturinn **Stjórnun á vörum í flutningi** er stilltur á *Já* fyrir viðeigandi skrá notkunarskilmála eru vörunum komið fyrir í flutningsvöruhúsi. Þessi aðgerð er aðeins ræst ef ekki er unnið úr birgðamóttökunni áður en unnið er úr reikningnum. Þegar afhendingarskilmálar fyrir pöntun eru stilltir til að nota vörur í flutningi geta notendur ekki lengur bókað innhreyfingarskjal fyrir innkaupapöntunina. Villa kemur upp ef það er reynt. Villuboðin gefa upp að nota þurfi virkni fyrir vörur í flutningi til að halda áfram.
 
-Til að vinna með upplýsingar um afhendingarskilmála skal fara í **Innkaup og aðföng \> Uppsetning \> Dreifing \> Afhendingarskilmálar**. Eftirfarandi tafla lýsir reitunum sem einingin **Heildarkostnaður** bætir við síðuna **Afhendingarskilmálar** til að styðja virknina fyrir vörur í flutningi. Báðir reitirnir eru á flýtiflipanum **Almennt**. Frekari upplýsingar um aðra reiti á þessari síðu er að finna í [Afhendingarskilmálar (skjámynd)](https://technet.microsoft.com/library/aa575567.aspx).
+Til að vinna með upplýsingar um afhendingarskilmála skal fara í **Innkaup og aðföng \> Uppsetning \> Dreifing \> Afhendingarskilmálar**. Eftirfarandi tafla lýsir reitunum sem einingin **Heildarkostnaður** bætir við síðuna **Afhendingarskilmálar** til að styðja virknina fyrir vörur í flutningi. Báðir reitirnir eru á flýtiflipanum **Almennt**. Frekari upplýsingar um aðra reiti á þessari síðu er að finna í [Afhendingarskilmálar (skjámynd)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Svæði | lýsing |
 |---|---|
@@ -55,7 +55,7 @@ Heildarkostnaður bætir við tveimur nýjum gerðum af vöruhúsi: *vörur í f
 
 Vöruhús af gerðinni *vörur í flutningi* verður tengt við flutningsvöruhúsið og það vöruhús verður notað til að vinna úr vörum í vöruflutningspöntunum áður en þær eru mótteknar í vöruhúsi á lokaáfangastað. Almennt er eitt flutningsvöruhús nóg fyrir hvert svæði ef svæði og vöruhús eru einu birgðavíddirnar sem eru notaðar fyrir birgðastjórnun. Ef birgðavídd staðsetningar er einnig notuð þarf að setja upp flutningsvöruhús fyrir báðar samsetningarnar af svæði og vöruhúsi þannig að einnig hægt sé að tilgreina sjálfgefna staðsetningu.
 
-Til að vinna með stillingar á vörum í flutningi fyrir vöruhúsin skal fara í **Birgðastjórnun \> Uppsetning \> Sundurliðun birgða \> Vöruhús**. Eftirfarandi tafla lýsir reitunum sem einingin **Heildarkostnaður** bætir við síðuna **Vöruhús** til að styðja virknina fyrir vörur í flutningi. Báðir reitirnir birtast á flýtiflipanum **Almennt**. Frekari upplýsingar um aðra reiti á síðunni má finna í [Vöruhús (skjámynd)](https://technet.microsoft.com/library/aa620570.aspx).
+Til að vinna með stillingar á vörum í flutningi fyrir vöruhúsin skal fara í **Birgðastjórnun \> Uppsetning \> Sundurliðun birgða \> Vöruhús**. Eftirfarandi tafla lýsir reitunum sem einingin **Heildarkostnaður** bætir við síðuna **Vöruhús** til að styðja virknina fyrir vörur í flutningi. Báðir reitirnir birtast á flýtiflipanum **Almennt**. Frekari upplýsingar um aðra reiti á síðunni má finna í [Vöruhús (skjámynd)](/dynamicsax-2012//warehouses-form).
 
 | Svæði | lýsing |
 |---|---|
@@ -109,7 +109,7 @@ Einnig er hægt að taka á móti vörum með því að stofna komubók. Hægt e
     - **Stofna úr vörum í flutningi** – Stillið þennan valkost á *Já* til að taka magn úr völdum vöruflutningslínum fyrir valda ferð, gám eða fólíó.
     - **Stofna úr pöntunarlínum** – Stillið þennan valkost á *Já* til að stilla sjálfgefið magn í komubók úr innkaupapöntunarlínunum. Aðeins er hægt að stilla sjálfgefið magn í komubókina á þennan hátt ef magnið í innkaupapöntunarlínunni stemmir við magnið í vöruflutningspöntuninni.
 
-1. Meðhöndla komubók eins og lýst er í [Skrá innhreyfingu vöru með vörukomubók](https://technet.microsoft.com/library/aa571129.aspx).
+1. Meðhöndla komubók eins og lýst er í [Skrá innhreyfingu vöru með vörukomubók](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Komubókin er yfirleitt notuð í kringumstæðum þar sem staðsetningar og rakning runu/raðnúmers er notað, en vöruhúsið er ekki notað.
@@ -131,15 +131,14 @@ Heildarkostnaður bætir eftirfarandi ferlum vinnustofnunar við valmyndaratrið
 - Vörumóttaka á vörum í flutningi
 - Móttaka og frágangur á vörum í flutningi
 
-Skilgreiningarstillingarnar fyrir þessi ferli líkjast stillingunum fyrir [móttökuferli innkaupapöntunar og stofnferli frágangsvinnu](https://technet.microsoft.com/library/dn553216.aspx). Hins vegar bætir ferlið *Móttaka og frágangur á vörum í flutningi* einnig við eftirfarandi reit.
+Skilgreiningarstillingarnar fyrir þessi ferli líkjast stillingunum fyrir [móttökuferli innkaupapöntunar og stofnferli frágangsvinnu](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Hins vegar bætir ferlið *Móttaka og frágangur á vörum í flutningi* einnig við eftirfarandi reit.
 
 - **Virkja lok flutningagáms** – Ef þessi valkostur er stilltur á *Já*, þegar frágangsvinnu er lokið, mun farsímaforrit vöruhúsakerfis bjóða upp á aukalegan valkost sem heitir **Lok flutningagáms**. Þegar sá valkostur er valinn verður starfsmaðurinn beðinn að staðfesta að gámnum sé lokið. Á þessu stigi verður unnið úr öllum of litlum móttökum sem undirfærslu.
 
 ### <a name="location-directives"></a>Staðsetningarleiðbeiningar
 
-Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í flutningi* á síðuna **Staðsetningarleiðbeiningar**. Þessi gerð vinnupöntunar ætti að vera skilgreind á sama hátt og [vinnupöntunargerðir innkaupapantana](https://technet.microsoft.com/library/dn553184.aspx).
+Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í flutningi* á síðuna **Staðsetningarleiðbeiningar**. Þessi gerð vinnupöntunar ætti að vera skilgreind á sama hátt og [vinnupöntunargerðir innkaupapantana](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Vinnusniðmát
 
-Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í flutningi* á síðuna **Vinnusniðmát**. Þessi gerð vinnupöntunar ætti að vera skilgreind á sama hátt og [vinnusniðmát innkaupapöntunar](https://technet.microsoft.com/library/dn553184.aspx).
-
+Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í flutningi* á síðuna **Vinnusniðmát**. Þessi gerð vinnupöntunar ætti að vera skilgreind á sama hátt og [vinnusniðmát innkaupapöntunar](/dynamicsax-2012/appuser-itpro/create-a-work-template).

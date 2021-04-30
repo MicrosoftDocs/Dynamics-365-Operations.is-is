@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818624"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897913"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
 
@@ -41,7 +41,7 @@ Um leið og smellt er á tengilinn opnast AI Builder, þar sem hægt er að fá 
 
 Eftirfarandi upplýsingar birtast á síðunni sem opnast:
 
-- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Frekari upplýsingar um þessa Einkunn er að finna í hlutanum [Frammistaða spálíkans](https://docs.microsoft.com/ai-builder/prediction-performance) í fylgiskjölum AI Builder.
+- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Frekari upplýsingar um þessa Einkunn er að finna í hlutanum [Frammistaða spálíkans](/ai-builder/prediction-performance) í fylgiskjölum AI Builder.
 - Hlutinn **Áhrifamestu gögnin** sýnir hversu mikilvægar mismunandi innsláttargerðir gagna voru fyrir líkanið. Hægt er að meta þennan lista og samsvarandi prósentuhlutfall til að ákvarða hvort upplýsingarnar eru í samræmi við þekkingu þína á fyrirtækinu þínu og markaðinum.
 
     [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið](./media/models.png)](./media/models.png)

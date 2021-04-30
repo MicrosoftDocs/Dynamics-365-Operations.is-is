@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837658"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910402"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
@@ -33,7 +33,7 @@ Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyri
 > [!NOTE]
 > Upplýsingarnar um samstarf lánardrottna í þessu efnisatriði gildir aðeins um núverandi útgáfu Supply Chain Management. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um kerfiseininguna **Gátt lánardrottins** er að finna í [Samstarf með lánardrottnum í gegnum Gátt lánardrottins](collaborate-vendors-vendor-portal.md).
 
-Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
+Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Tilgreina upplýsingarnar sem eru sýndar lánardrottnum þegar þeir svara innkaupapöntunum
 

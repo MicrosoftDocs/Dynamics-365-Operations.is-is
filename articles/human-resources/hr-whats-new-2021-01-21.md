@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14df61a68ed402365bd26257cfc5e9b6b4c14db3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bf587933aa24e772e6cebca94ee6e8648ec7f10
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803370"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890676"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 21. janúar 2021
 
@@ -31,7 +31,7 @@ ms.locfileid: "5803370"
 
 Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
-Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 
 ## <a name="in-this-release"></a>Í þessari útgáfu
@@ -44,8 +44,8 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Verkvangsuppfærsla 10.0.16(40) | -- | [Verkvangsuppfærslur fyrir útgáfu 10.0.16 á forritum Finance and Operations (febrúar 2021)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16) |
-| Bættar verkflæðisbeiðnir og samþykktir | [Endurbætur á viðmóti fyrir verkflæði fyrirtækis- og starfsmannastjórnunar](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Verkvangsuppfærsla 10.0.16(40) | -- | [Verkvangsuppfærslur fyrir útgáfu 10.0.16 á forritum Finance and Operations (febrúar 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Bættar verkflæðisbeiðnir og samþykktir | [Endurbætur á viðmóti fyrir verkflæði fyrirtækis- og starfsmannastjórnunar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Uppfærslur á reglufylgni Affordable Care Act fyrir eyðublað 1095-C, eyðublað 1095-B og rafræna skýrslugerð í eldri fríðindum | -- | -- | 
 | Fríðindastjórnun styður nú skýrslugerð ACA-reglufylgni fyrir lögaðila í Bandaríkjunum | -- | [Mynda ACA-skýrslur í Fríðindastjórnun](hr-benefits-management-aca-reports.md) |
 | Fríðindastjórnun er nú með einingar fyrir lög fríðindahlutfalls og tvöföld lög fríðindahlutfalls  | -- | -- |
@@ -80,13 +80,13 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
-| Samþætting við LinkedIn Talent Hub | [Samþætting við LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Samþætta við LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-| Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks | [Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Grunnstilla færibreytur leyfis og fjarvista](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Veita frekari innsýn í leyfisstöðu| [Veita frekari innsýn í leyfisstöðu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Stjórna leyfi starfsmanns](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Stjórnendur geta sent ráðningarbeiðnir fyrir stöður | [Stjórnendur geta sent inn ráðningarbeiðni fyrir opnar stöður](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Bæta við ráðningarbeiðni](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Auknar notandaupplýsingar umsækjanda í starfsmannastjórnun | [Auknar notandaupplýsingar umsækjanda í starfsmannastjórnun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Bæta við eða breyta notandaupplýsingum umsækjanda](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Virkja einfaldar samþættingar með ráðningaraðilum | [Virkja einfaldar samþættingar með ráðningaraðilum](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Ráða umsækjendur](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](./hr-admin-teams-leave-app.md)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
+| Samþætting við LinkedIn Talent Hub | [Samþætting við LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Samþætta við LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+| Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks | [Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Grunnstilla færibreytur leyfis og fjarvista](./hr-leave-and-absence-parameters.md) |
+|Veita frekari innsýn í leyfisstöðu| [Veita frekari innsýn í leyfisstöðu](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Stjórna leyfi starfsmanns](./hr-leave-and-absence-manage-employee-leave.md) |
+| Stjórnendur geta sent ráðningarbeiðnir fyrir stöður | [Stjórnendur geta sent inn ráðningarbeiðni fyrir opnar stöður](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Bæta við ráðningarbeiðni](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Auknar notandaupplýsingar umsækjanda í starfsmannastjórnun | [Auknar notandaupplýsingar umsækjanda í starfsmannastjórnun](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Bæta við eða breyta notandaupplýsingum umsækjanda](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Virkja einfaldar samþættingar með ráðningaraðilum | [Virkja einfaldar samþættingar með ráðningaraðilum](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Ráða umsækjendur](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Væntanlegt
 | Eiginleiki | Upplýsingar |
@@ -94,20 +94,20 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 | Staðfesting í tölvupósti um fríðindaskráningu | Þessi eiginleiki býður upp á valkost til að senda staðfestingu í tölvupósti til starfsmanna þegar þeir skrá sig úr upplifunum fríðindaskráningar í sjálfsafgreiðslu starfsmanns. Frekari upplýsingar er að finna í [Grunnstilla færibreytur fríðindastjórnunar eftir fyrirtæki](hr-benefits-setup-parameters-per-company.md). |
 | Hæfni sem yfirmaður færir inn fyrir starfsmenn sína getur verið sjálfkrafa samþykkt af verkferlinu | Væntanlegt. |
 
-Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Uppfærsla hugtaka fyrir Microsoft Dataverse
 
-Tekur gildi í nóvember 2020, Common Data Service hefur verið endurnefnt [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Frekari upplýsingar er að finna í [opinberri tilkynningu](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) á Power Apps blogginu. Í samhengi við þessa nafnabreytingu hafa nokkur hugtök í Dataverse verið uppfærð. Sem dæmi er *eining* núna *tafla* og *svæði* er núna *dálkur*. Frekari upplýsingar eru í [Uppfærslur hugtaka](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+Tekur gildi í nóvember 2020, Common Data Service hefur verið endurnefnt [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). Frekari upplýsingar er að finna í [opinberri tilkynningu](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) á Power Apps blogginu. Í samhengi við þessa nafnabreytingu hafa nokkur hugtök í Dataverse verið uppfærð. Sem dæmi er *eining* núna *tafla* og *svæði* er núna *dálkur*. Frekari upplýsingar eru í [Uppfærslur hugtaka](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 Í þessari útgáfu hafa hugtök sem tengjast samþættingu Dynamics 365 Human Resources við Dataverse verið uppfærð í öllu forritinu til að endurspegla þessar breytingar. Til dæmis er skjámyndin **Common Data Service samþætting** orðin **Microsoft Dataverse samþætting**.
 
-Frekari upplýsingar um samþættingu Dynamics 365 Human Resources við Microsoft Dataverse er að finna í [Grunnstilla Microsoft Dataverse samþættingu](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) og [Grunnstilla Microsoft Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Frekari upplýsingar um samþættingu Dynamics 365 Human Resources við Microsoft Dataverse er að finna í [Grunnstilla Microsoft Dataverse samþættingu](./hr-admin-integration-common-data-service.md) og [Grunnstilla Microsoft Dataverse sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

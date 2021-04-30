@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794854"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892252"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
@@ -50,7 +50,7 @@ Sjálfgefið er að slökkt sé á samþættingu Dataverse í nýju umhverfi sem
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Get ég búið til nýja vörpun án þess að nota sniðmátin?
 
-Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Er hægt að varpa fjárhagsvíddum í flutning milli Human Resources og Finance?
 
@@ -145,7 +145,7 @@ Samþættingin við Finance er ferli í tveimur skrefum. Fyrst skaltu staðfesta
 
 Ef gögnin birtast ekki eins og búist er við í Dataverse skaltu staðfesta að einingin sé studd í samþættingunni. Til að bæta við viðbótargögnum í Dataverse verður breyting af hálfu Windows að gerast.
 
-Ef einingin er studd og gögnin eru tiltæk í Dataverse skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Ef einingin er studd og gögnin eru tiltæk í Dataverse skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance. Hvað ætti ég að gera?
 
@@ -172,15 +172,15 @@ Uppfæra gagnaeiningarnar í Finance með því að fara í **Gagnastjórnun \> 
 
 - Data Integrator (DI): 
 
-  - [Samþætta gögn í Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Samþætta gögn í Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Villumeðhöndlun og úrræðaleit Data Integrator](/powerapps/administrator/data-integrator-error-management)
 
-  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í Power Apps, Microsoft Power Automate og Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í Power Apps, Microsoft Power Automate og Dataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Stjórnun gagna:
 
-  - [Gagnastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Gagnastjórnun](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

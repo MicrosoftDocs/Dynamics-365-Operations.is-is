@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 869a2f83360c1d6515bbe2868f1450f76ff3a13f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749198"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909840"
 ---
 # <a name="create-alert-rules"></a>Stofna viðvörunarreglur
 
@@ -101,7 +101,7 @@ Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa á eyðubl
 2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Viðvaranir vegna breytinga virka ekki fyrir breytingar á runustöðu
-Viðvaranir vegna breytinga virka ekki með breytingum á runustöðu vegna þess að slökkt er á þeim vegna frammistöðu. Þess í stað ætti að setja upp **Runuviðvörun**. Frekari upplýsingar er að finna í [Setja upp viðvaranir fyrir skjámynd runuviðbótar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+Viðvaranir vegna breytinga virka ekki með breytingum á runustöðu vegna þess að slökkt er á þeim vegna frammistöðu. Þess í stað ætti að setja upp **Runuviðvörun**. Frekari upplýsingar er að finna í [Setja upp viðvaranir fyrir skjámynd runuviðbótar](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

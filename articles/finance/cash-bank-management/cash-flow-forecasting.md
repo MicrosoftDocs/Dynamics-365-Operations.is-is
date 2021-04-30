@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819651"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897405"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -144,7 +144,7 @@ Vinnusvæðið **Yfirlit yfir reiðufé – öll fyrirtæki** sýnir greiningar 
 
 Vinnusvæðið **Yfirlit yfir reiðufé – núverandi fyrirtæki** sýnir greiningar fyrir sjóðstreymisspá í skilgreindum bókhaldsgjaldmiðli fyrirtækisins. Bókhaldsgjaldmiðillinn sem er notaður fyrir greiningu er skilgreindur á síðunni **Fjárhagur**. Þetta vinnusvæði sýnir yfirlit yfir sjóðstreymisspár og stöðu bankareikninga núverandi fyrirtækis. Línurit yfir sjóðsinnstreymi og útstreymi gefur yfirlit yfir framtíðarhreyfingar lausafjár og stöðu í bókhaldsgjaldmiðli ásamt ítarlegum upplýsingum um spáðar færslur. Einnig má sjá spáðar gengisstöður.
 
-Sjá efnisatriðið [Sjóðsstreymi Power BI](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) fyrir frekari upplýsingar um greiningarspár fyrir sjóðsstreymi.
+Sjá efnisatriðið [Sjóðsstreymi Power BI](./cash-overview-power-bi-content.md) fyrir frekari upplýsingar um greiningarspár fyrir sjóðsstreymi.
 
 Þar að auki er hægt að skoða gögn sjóðstreymisspár fyrir tiltekna lykla, pantanir og vörur á eftirfarandi síðum:
 

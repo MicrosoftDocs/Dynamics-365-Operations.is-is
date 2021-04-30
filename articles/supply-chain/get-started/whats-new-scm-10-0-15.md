@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821154"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909968"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.15 (janúar 2021)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5821154"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
 - Stjórnun kvörðunareiningar í cloud og edge í keyrslu á vinnuálagi framleiðslu og vöruhúss<br> - Frekari upplýsingar eru í [Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsastjórnunar](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforritinu](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforritinu](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Sjálfgefnir svarreitir tilboðsbeiðni fyrir tilboð lánardrottins](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir beiðni um tilboð (tilboðsbeiðni)](../procurement/request-quotations.md).
+- [Sjálfgefnir svarreitir tilboðsbeiðni fyrir tilboð lánardrottins](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir beiðni um tilboð (tilboðsbeiðni)](../procurement/request-quotations.md).
 
-- [Innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Frekari upplýsingar eru í [Yfirlit yfir umsjón hönnunarbreytinga](../engineering-change-management/product-engineering-overview.md).
+- [Innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Frekari upplýsingar eru í [Yfirlit yfir umsjón hönnunarbreytinga](../engineering-change-management/product-engineering-overview.md).
 
-- [Leiðarvísar með blönduðum veruleika fyrir framleiðslu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Frekari upplýsingar er að finna í [Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika](../production-control/instruction-guides-in-production-overview.md).
+- [Leiðarvísar með blönduðum veruleika fyrir framleiðslu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Frekari upplýsingar er að finna í [Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika](../production-control/instruction-guides-in-production-overview.md).
 
-- [Ný upplifun notanda fyrir framkvæmd á framleiðslugólfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Frekari upplýsingar er að finna á [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md).
+- [Ný upplifun notanda fyrir framkvæmd á framleiðslugólfi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Frekari upplýsingar er að finna á [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md).
 
-- [Vinna úr viðburðum vöruhúsaforrits](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Frekari upplýsingar er að finna í [Úrvinnsla á tilviki vöruhúsaforrits](../warehousing/warehouse-app-events.md).
+- [Vinna úr viðburðum vöruhúsaforrits](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Frekari upplýsingar er að finna í [Úrvinnsla á tilviki vöruhúsaforrits](../warehousing/warehouse-app-events.md).
 
-- [Vistuð yfirlit fyrir síðu útgefinna afurða](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Frekari upplýsingar er að finna í [Vistuð yfirlit](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Vistuð yfirlit fyrir síðu útgefinna afurða](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Frekari upplýsingar er að finna í [Vistuð yfirlit](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - Skjal USMCA-upprunavottorðs<br> - Nánari upplýsingar eru í [USMCA-upprunavottorð](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 

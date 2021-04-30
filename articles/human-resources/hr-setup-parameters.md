@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd66cb4f5ac02407250e15ae134b36f5ccd4d290
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802408"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889933"
 ---
 # <a name="configure-human-resources-parameters"></a>Grunnstilla færibreytur Human Resources
 
@@ -92,7 +92,7 @@ Stillingarnar í flipanum **Númeraröð** ákvarða raðirnar sem verða notuð
 
 Til að vinna með tilvísanir númeraraða og kóða skal nota **Númeraraðir** listasíðu (valið er **fyrirtækisstjórnun > Númeraraðir > Númeraraðir**).
 
-Frekari upplýsingar er að finna í [Yfirlit númeraraða](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json).
+Frekari upplýsingar er að finna í [Yfirlit númeraraða](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 > [!NOTE]
 > Fjölda stunda sem er unnið má ekki fara yfir 1,250 og lengd ráðningar má ekki fara yfir 12 mánuði. Þessi hámarksgildi eru samkvæmt alríkislögum í Bandaríkjunum.

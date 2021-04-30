@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826420"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909502"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Uppsetning á aðstæðum fyrir IoT gervigreind
 
@@ -42,7 +42,7 @@ Aðstæðurnar **Niðurtími búnaðar** varpa **PartOut** merki til viðvöruna
 Til að skilgreina aðstæðurnar skaltu fylgja þessum skrefum.
 
 1. Skráðu þig inn í Supply Chain Management.
-2. Virkja eiginleikaflaggið IoT-gervigreind. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Virkja eiginleikaflaggið IoT-gervigreind. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Skilgreinið mælingarnar. Frekari upplýsingar eru í [Hvernig skal skilgreina mælingar](iot-metrics-setup.md#configure-metrics).
 4. Farðu í **Framleiðslustýring \> Uppsetning \> IoT-gervigreind \> Stjórnun aðstæðna**.
 6. Í reitnum **Niðurtími búnaðar** skal velja **Skilgreina** til að opna leiðsagnarforrit skilgreiningarinnar.

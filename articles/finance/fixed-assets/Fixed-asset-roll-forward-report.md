@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827098"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897673"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Skýrsla fyrir framlengingu eigna
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827098"
 
 **Framlenging eigna** skýrslan veitir á auðlesanlegu Microsoft Excel snið nákvæmar upplýsingar um gögn á eignum sem þú þarfnast fyrir tímabil lokunar, fjárhagsskýrslna og skattaskýrslna. Í skýrslunni eru upphafs- og lokastaða á eignum ásamt verðmætaskiptum á tímabilinu og öll ný eignakaup og afskráningar sem áttu sér stað á tímabilinu. Gögn eru tilkynnt um einstaka eignir og einnig er virði tekið saman fyrir eignaflokka og lögaðila.
 
-**Framlenging eigna** skýrslan notar ramma rafrænnar skýrslugerðar (ER). Áður en hægt er að keyra skýrsluna verður að flytja inn skilgreiningar á eignalíkaninu og framlagningu eigna frá Microsoft Dynamics Lifecycle Services (LCS). Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+**Framlenging eigna** skýrslan notar ramma rafrænnar skýrslugerðar (ER). Áður en hægt er að keyra skýrsluna verður að flytja inn skilgreiningar á eignalíkaninu og framlagningu eigna frá Microsoft Dynamics Lifecycle Services (LCS). Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 Þessi skýrsla er fáanleg í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 eða sem bráðabót fyrir Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017). Það verður að beita þremur bráðabótum á umhverfi sem er með júlí 2017 útgáfuna:
 

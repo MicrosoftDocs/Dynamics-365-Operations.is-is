@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: riluan
+ms.author: pacheren
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edbe92d009c77702a21d32afb5aebe93bc5e2ee0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97f1a30c541a302755826bb8f77205bc060ec159
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815381"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897187"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Vsk-greiðslur og sléttunarreglur
 
@@ -125,7 +125,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 - [Stofna VSK-greiðslu](tasks/create-sales-tax-payment.md)
 - [Stofna VSK-færslur í skjölum](tasks/create-sales-tax-transactions-documents.md)
 - [Skoða bókaðar VSK-færslur](tasks/view-posted-sales-tax-transactions.md)
-- [sléttunarvirkni](https://msdn.microsoft.com/library/aa850656.aspx)
+- [sléttunarvirkni](/previous-versions/dynamics/ax-2012/reference/aa850656(v=ax.60))
 
 
 
