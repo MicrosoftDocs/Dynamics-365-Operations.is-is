@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802288"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894607"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (6. október 2020)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802288"
 
 Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
-Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Í þessari útgáfu
 
@@ -42,7 +42,7 @@ Eftirfarandi eiginleiki er almennt aðgengilegur með þessar útgáfu.
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Frekari innsýn í leyfisdagatöl | [Veita frekari innsýn í yfirlit leyfisdagatala](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Skoða dagbækur hóps og fyrirtækis](hr-employee-self-service-calendar.md) |
+| Frekari innsýn í leyfisdagatöl | [Veita frekari innsýn í yfirlit leyfisdagatala](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Skoða dagbækur hóps og fyrirtækis](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -70,9 +70,9 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
-| Bættar verkflæðisbeiðnir og samþykktir | [Endurbætur á viðmóti fyrir verkflæði fyrirtækis- og starfsmannastjórnunar](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Sýndareiningar í Dataverse fyrir Human Resources | [Stækka Dynamics 365 Human Resources kjarnagögn í Dataverse](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Skilgreina Dataverse sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](./hr-admin-teams-leave-app.md)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
+| Bættar verkflæðisbeiðnir og samþykktir | [Endurbætur á viðmóti fyrir verkflæði fyrirtækis- og starfsmannastjórnunar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Sýndareiningar í Dataverse fyrir Human Resources | [Stækka Dynamics 365 Human Resources kjarnagögn í Dataverse](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Skilgreina Dataverse sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Væntanlegt
 
@@ -82,14 +82,14 @@ Eftirfarandi nýir eiginleikar munu koma í seinni útgáfum:
 
 - **Ástæðukóðar fyrir fríðindastjórnun**: Ástæðukóðar fyrir fríðindastjórnun verða brátt sameinaðir við tiltæka ástæðukóða í Human Resources. Ef ástæðukóðar voru stofnaðir í Fríðindastjórnun sem eru yfir 15 stafir að lengd þarf að breyta heiti ástæðukóðans í Fríðindastjórnun **Ástæðukóðar** skjámyndinni þannig að þeir eru 15 stafir eða minna. Þegar búið er að uppfæra heitið mun ástæðukóðinn birtast undir fyrirliggjandi skjámynd ástæðukóða í starfsmannastjórnun. Þessi breyting verður tiltæk í framtíðinni og mun ekki hafa áhrif á fyrirliggjandi virkni.
 
-- **Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda**: Til að styðja stjórnendur erum við að útvíkka möguleikana í sjálfsafgreiðslu stjórnanda. Við bætum við möguleikanum á að bæta sérstilltum tenglum við flipann **Teymið mitt**. Þessi eiginleiki er svipaður og eiginleiki sérstilltra tengla í **Upplýsingaflipanum mínum** í sjálfsafgreiðslu starfsmanns. Nánari upplýsingar er að finna í [Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda**: Til að styðja stjórnendur erum við að útvíkka möguleikana í sjálfsafgreiðslu stjórnanda. Við bætum við möguleikanum á að bæta sérstilltum tenglum við flipann **Teymið mitt**. Þessi eiginleiki er svipaður og eiginleiki sérstilltra tengla í **Upplýsingaflipanum mínum** í sjálfsafgreiðslu starfsmanns. Nánari upplýsingar er að finna í [Sérstilltir tenglar í sjálfsafgreiðslu stjórnanda](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
-Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2019 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2019 losunarbylgju 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources 2020 losunarbylgju 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

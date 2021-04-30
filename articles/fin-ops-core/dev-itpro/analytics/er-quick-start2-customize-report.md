@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743654"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891720"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
 
@@ -192,7 +192,7 @@ Bæta þarf við bankaupplýsingum fyrir lánardrottnalykil sem vísað verður 
 
 ### <a name="enter-a-vendor-payment"></a><a id="EnterVendorPayment"></a>Færa inn greiðslu lánardrottins
 
-Færa verður inn nýja lánardrottnagreiðslu með því að nota [greiðslutillaga](https://docs.microsoft.com/dynamics365/finance/accounts-payable/create-vendor-payments-payment-proposal).
+Færa verður inn nýja lánardrottnagreiðslu með því að nota [greiðslutillaga](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md).
 
 1. Farið í **Viðskiptaskuldir** \> **Greiðslur** \> **Greiðslubók lánardrottins**.
 2. Á síðunni **Greiðslubók lánardrottins** skal velja **Ný**.

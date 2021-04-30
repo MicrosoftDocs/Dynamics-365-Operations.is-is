@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832395"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899168"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832395"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Framkvæmd vöruhúss í einingarkvörðum
 
-Þessi eiginleiki gerir einingarkvörðum kleift að keyra valda ferla af möguleikum vöruhúsakerfisins. Einingarkvarðar í skýi keyra vinnuálagið í skýinu með því að nota úthlutaða úrvinnslugetu á völdu Microsoft Azure svæði. Fyrir einingarkvarða edge er hægt að keyra sumt vinnuálag út af fyrir sig á staðnum, jafnvel þótt einingarkvarðar séu tímabundið aftengdir skýinu.
+Þessi eiginleiki gerir einingarkvörðum kleift að keyra valda ferla af möguleikum vöruhúsakerfisins.
 
 Í þessu efnisatriði eru framkvæmdir vöruhúsakerfisins í vöruhúsi sem er skilgreint sem einingarkvarði þekktar sem *Framkvæmdakerfi vöruhúss* (*WES*).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Þú verður að vera með Dynamics 365 Supply Chain Management miðstöð og einingarkvarða sem hefur verið settur upp með vinnuálagi vöruhúsakerfisins. Frekari upplýsingar um skipulag og uppsetningarferli er að finna í [Einingarkvarðar fyrir ský og edge fyrir vinnuálag framleiðslu og vöruhúsakerfis](cloud-edge-landing-page.md).
+Þú verður að vera með Dynamics 365 Supply Chain Management miðstöð og einingarkvarða sem hefur verið settur upp með vinnuálagi vöruhúsakerfisins. Frekari upplýsingar um skipulag og uppsetningarferli er að finna í [Nota einingarkvarða til að stuðla að aukinni getu gagnvart vinnuálagi Supply Chain Management](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Hvernig WES-vinnuálagið virkar í einingarkvörðum
 
@@ -297,6 +297,8 @@ Nokkrar runuvinnslur keyra á bæði miðstöðinni og einingarkvörðum.
 - Töflufærslur bylgjuvinnslu
 - Skilaboðaúrvinnsla vöruhúsamiðstöðvar til kvörðunareiningar
 - Vinna úr beiðnum um magnuppfærslur fyrir vöruhúsapöntunarlínur
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

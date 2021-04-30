@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818681"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867448"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Stofna verk til að setja upp samþættingu gagna (forskoðun)
 
@@ -59,6 +59,7 @@ ms.locfileid: "5818681"
     1. Stofna gagnasamþættingarverk fyrir eftirfarandi sniðmát með því að nota tengingarsett sem var verið að stofna:
 
         - Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)
+            - Ef útgáfa 10.0.17 eð‘a nýrri er notuð þarf að nota sniðmát sem kallast Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops 10.0.17+).
         - Niðurstöður úr tímaröð sjóðsstreymis (CDS til Fin og Ops)
         - Niðurstöður tímaraðar fjárhagsáætlunar (CDS til Fin og Ops)
 

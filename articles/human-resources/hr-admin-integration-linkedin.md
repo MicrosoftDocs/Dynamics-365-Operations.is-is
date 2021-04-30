@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 208998b5c09416407612352da7a8ef5dd9491914
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805059"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889981"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
@@ -130,7 +130,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 ### <a name="create-the-table-in-dataverse"></a>Búa til töfluna í Dataverse
 
 > [!IMPORTANT]
-> Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur. Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur. Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 1. Í Human Resources skal opna síðuna **Dataverse-samþætting**.
 
@@ -189,7 +189,7 @@ Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafæ
 ## <a name="see-also"></a>Sjá einnig
 
 [Skilgreina Dataverse-sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Hvað er Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

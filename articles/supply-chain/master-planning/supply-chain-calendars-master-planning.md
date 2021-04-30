@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841768"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908372"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
@@ -90,7 +90,7 @@ Til að sýna dagsetningarnar þegar viðskiptavinur getur samþykkt afhendingar
 
 Athugið að ekki er mögulegt að hafa eitt dagatal á hvern viðskiptavin. Ef nauðsynlegt er að hafa með dagatal fyrir hvert aðsetur fyrir sig fyrir viðskiptavin er hægt að stofna einn viðskiptavin á hvert aðsetur og síðan úthluta honum viðeigandi dagatal. 
 
-Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Sendingadagatal fyrir lögaðila
 Til að sýna dagsetningarnar þar sem lögaðili getur sent vörur er hægt að setja upp sendingadagatal undir **Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar**. Veljið lögaðilann og bætið við dagatalinu í flipanum **Erlend viðskipti og vörustjórnun** í reitnum **Sendingadagatal**. Sendingadagatalið virkar sem uppruni sjálfgilda fyrir öll dagatöl vöruhúsa í lögaðilanum. 

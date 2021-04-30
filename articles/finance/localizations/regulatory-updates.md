@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822758"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890777"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822758"
 
 Þetta efnisatriði birtir regluuppfærslurnar sem eru fyrirhugaðar og útgefnar í Dynamics 365 Finance studdum staðfærslum. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Nánari upplýsingar um fyrirhugaðar og útgefnar landsbundna eiginleika er að finna í [Dynamics 365 og Power Platform útgáfuáætlunum](https://docs.microsoft.com/business-applications-release-notes/index).
+Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Nánari upplýsingar um fyrirhugaðar og útgefnar landsbundna eiginleika er að finna í [Dynamics 365 og Power Platform útgáfuáætlunum](/business-applications-release-notes/index).
 
 Microsoft reynir að innleiða nýjar kröfur um reglugerðir sem allra fyrst. Raunverulegur afhendingardagur fer eftir deginum sem lögin eru tilkynnt, tiltækileika á upplýsingum krafanna frá yfirvöldum á staðnum, framboði á sannvottunartólum og stærð og flækjustigi breytinganna.
 

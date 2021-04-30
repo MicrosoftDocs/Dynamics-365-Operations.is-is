@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839368"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908783"
 ---
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
@@ -43,7 +43,7 @@ Hægt er að komast í birgðabókhald og bókhald framleiðslu í gegnum vinnus
 
 Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntunar](production-order-cost-analysis.md) í framleiðslu- og runupöntunum ásamt [Bakfærslukostnaðaraðferð](backflush-costing.md) í lean-framleiðslu.
 
-[Kostnaðarstjórnun Power BI-efni](../../dev-itpro/analytics/cost-management-content-pack.md) veitir rekstrarfélagi innsýn í birgðir og birgðir fyrir verk í vinnslu (VÍV) og hvernig kostnaður flæðir í gegnum þær eftir flokki yfir tíma. Upplýsingarnar er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu
+[Kostnaðarstjórnun Power BI-efni](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) veitir rekstrarfélagi innsýn í birgðir og birgðir fyrir verk í vinnslu (VÍV) og hvernig kostnaður flæðir í gegnum þær eftir flokki yfir tíma. Upplýsingarnar er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu
 
 ### <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -57,7 +57,7 @@ Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntu
 
 #### <a name="blogs"></a>Blogg
 
-Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [Dynamics AX Manufacturing R&D Team blog](https://blogs.msdn.microsoft.com/axmfg) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team blog](https://blogs.msdn.microsoft.com/dynamicsaxscm). Þó svo sumar þessara færslna hafi verið skrifaðar fyrir eldri útgáfu Kostnaðarstjórnunar eiga sömu hugtök enn við og ferlin eru svipuð í nýjustu útgáfunni.
+Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [Dynamics AX Manufacturing R&D Team blog](/archive/blogs/axmfg/) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team blog](https://blogs.msdn.microsoft.com/dynamicsaxscm). Þó svo sumar þessara færslna hafi verið skrifaðar fyrir eldri útgáfu Kostnaðarstjórnunar eiga sömu hugtök enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 

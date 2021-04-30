@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839296"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881833"
 ---
 # <a name="archive-inventory-transactions"></a>Safnvista birgðafærslur
 
@@ -38,7 +38,7 @@ Ef `itemId` `inventDimId` samsetningin inniheldur aðeins eina kvittun eða úth
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Kveikja á eiginleikanum í kerfinu
 
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Safnvistun á birgðafærslum*.
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Safnvistun á birgðafærslum*. Ekki er hægt að slökkva á þessum eiginleika þegar hann hefur verið gerður virkur.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Það sem þarf að hafa í huga áður en birgðafærslur eru safnvistaðar
 

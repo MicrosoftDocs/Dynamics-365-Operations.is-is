@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752967"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908342"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -45,7 +45,7 @@ Til að fá frekari upplýsingar um hvernig á að nota Excel-innbótina skal ho
 2. Veljið **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
 3. Í Excel, veljið **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
-5. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá þig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Finance and Operations forritinu. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Upplýsingar um vafrann sem notaður er samkvæmt stýrikerfinu er að finna í [Vafrar sem Office-innbætur nota](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Til að ganga úr skugga um að innskráning hafi tekist skal staðfesta notandanafnið efst í hægra horni Excel-innbótarinnar. 
+5. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá þig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Finance and Operations forritinu. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Upplýsingar um vafrann sem notaður er samkvæmt stýrikerfinu er að finna í [Vafrar sem Office-innbætur nota](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Til að ganga úr skugga um að innskráning hafi tekist skal staðfesta notandanafnið efst í hægra horni Excel-innbótarinnar. 
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 
@@ -60,7 +60,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 
 6. Veljið **Í lagi** og svo **Já** til að staðfesta breytinguna. Excel-innbót endurræsist og hleður lýsigögnum.
 
-    Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum [Úrræðaleit](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) í þessu efnisatriði.
+    Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum [Úrræðaleit](../office-integration/use-excel-add-in.md#troubleshooting) í þessu efnisatriði.
 
 7. Veljið **Hönnun**. Excel-innbót sækir lýsigögn einingar.
 8. Velja **Bæta við töflu**. Listi yfir einingar birtist. Einingar eru taldar upp á sniðinu "Heiti – Merki".
@@ -138,7 +138,7 @@ Gögnin sem eru lesin inn í vinnubókina úr einu umhverfi er hægt að afrita 
 
 - **Hnappurinn Hlaða smáforrit er sýndur** - Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
 - **Ef þér berast „bönnuð“ skilaboð** - Ef þér berast „bönnuð“ skilaboð á meðan Excel-innbót er að hlaða lýsigögnum, er lykillinn sem er innskráður í Excel-innbót ekki með heimild til að nota markað þjónustu tilvik eða gagnagrunninum. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
-- **Auð vefsíða sýnd yfir í Excel** - Ef auð vefsíða opnast við innskráningarvinnslu, krefst lykillinn AD FS en útgáfa Excel sem keyrir á innbótinni er ekki nógu nýleg til að hlaða svarglugga innskráningar. Uppfæra útgáfu Excel sem verið er að nota til að leysa þetta vandamál. Til að uppfæra útgáfu Excel þegar þú ert í stóru fyrirtæki sem eru á frestaðri rás skal nota [Office uppsetningarverkfæri](https://technet.microsoft.com/library/jj219422.aspx) til að [fara úr frestaður rásar yfir í núverandi rás](https://technet.microsoft.com/library/mt455210.aspx).
+- **Auð vefsíða sýnd yfir í Excel** - Ef auð vefsíða opnast við innskráningarvinnslu, krefst lykillinn AD FS en útgáfa Excel sem keyrir á innbótinni er ekki nógu nýleg til að hlaða svarglugga innskráningar. Uppfæra útgáfu Excel sem verið er að nota til að leysa þetta vandamál. Til að uppfæra útgáfu Excel þegar þú ert í stóru fyrirtæki sem eru á frestaðri rás skal nota [Office uppsetningarverkfæri](/deployoffice/overview-office-deployment-tool) til að [fara úr frestaður rásar yfir í núverandi rás](/deployoffice/overview-update-channels).
 - **Þú færð tímalok á meðan þú ert að gefa út gagnabreytingar** – Ef upp koma skilaboð um tímalok á meðan reynt er að gefa út gagnabreytingar á einingu skal huga að því að draga úr runustærð birtingar fyrir vinnubókina sem um ræðir. Einingar sem ræsa mikið magn af rökum fyrir skráarbreytingar gætu þurft að uppfærslur verði sendar í smærri runum til að koma í veg fyrir tímalokanir.
 
 

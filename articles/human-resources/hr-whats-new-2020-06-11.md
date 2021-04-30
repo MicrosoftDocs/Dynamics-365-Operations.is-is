@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93858ede862c9a20d84952f9c4318acf07f1cabb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8265c0b6218f69b95f2729140aa303edeaa31443
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802336"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891938"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (11. júní 2020)
 
@@ -49,7 +49,7 @@ Eiginleiki gagnagrunnskladda gerir notendum kleift að ákvarða hvaða töflum 
 
 ## <a name="human-resources-application-in-teams"></a>Forrit „Human Resources“ í Teams
 
-Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar er að finna í [Forrit Human Resources í Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar er að finna í [Forrit Human Resources í Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Einingar gagnastjórnunarramma (DMF) fyrir fríðindastjórnun
  
@@ -99,7 +99,7 @@ Nýr valkostur verður í boði í færibreytum mannauðs til að uppfæra heiti
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

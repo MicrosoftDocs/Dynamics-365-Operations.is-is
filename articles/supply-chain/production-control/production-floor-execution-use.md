@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814657"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907718"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -136,7 +136,7 @@ Starfsmaðurinn velur þriðju vinnsluna í flipanum **Allar vinnslur** og velur
 
 ## <a name="working-on-indirect-activities"></a>Unnið í óbeinum verkþáttum
 
-Óbeinir verkþættir eru verkþættir sem tengjast framleiðslupöntun ekki með beinum hætti. Hægt er að skilgreina óbeina verkþætti á sveigjanlegan hátt eins og lýst er í [Setja upp óbeina verkþætti fyrir tíma og mætingu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Óbeinir verkþættir eru verkþættir sem tengjast framleiðslupöntun ekki með beinum hætti. Hægt er að skilgreina óbeina verkþætti á sveigjanlegan hátt eins og lýst er í [Setja upp óbeina verkþætti fyrir tíma og mætingu](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrirtækis og fundir eru flokkaðir sem óbeinn verkþáttur. Önnur hvor af eftirfarandi aðstæðum eiga við:
 

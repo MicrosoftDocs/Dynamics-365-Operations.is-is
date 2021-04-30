@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793826"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889837"
 ---
 # <a name="manage-features-in-human-resources"></a>Umsjón með eiginleikum í Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793826"
 
 Sem hluti af samfelldri kynningu okkar á nýrri afkastagetu fyrir Microsoft Dynamics 365 Human Resources, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Við veitum forskoðunareiginleika sem eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 
-Frekari upplýsingar um nýja eiginleika í Human Resources er að finna í [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Frekari upplýsingar um nýja eiginleika í Human Resources er að finna í [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Vinnusvæðið **Stjórnun eiginleika** býður upp á lista yfir eiginleika sem eru afhentir í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Vinnusvæðið **Stjórnun eiginleika** býður upp á lista yfir eiginleika sem eru afhentir í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Allar nýju aðgerðirnar eru áfram í forskoðun í að minnsta kosti 30 daga og venjulega 30-60 daga. Helstu eiginleikar eru venjulega fáanlegir í október og apríl ár hvert í kjölfar forskoðunartímabilsins. Um leið og þú sérð nýja möguleika í vinnusvæðinu **Stjórnun eiginleika** er hægt að kveikja á þeim. Sumar aðgerðir kunna að vera sjálfkrafa á.
 
@@ -93,6 +93,6 @@ Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þ
 ## <a name="see-also"></a>Sjá einnig
 
 - [Hvað er nýtt í Human Resources](hr-admin-whats-new.md)
-- [Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Útgáfuáætlanir Dynamics 365 og Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

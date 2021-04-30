@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801168"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889957"
 ---
 # <a name="configure-integration-with-finance"></a>Skilgreina samþættingu við Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801168"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](https://docs.microsoft.com/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
+Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
 
 ![Samþættingarflæði Human Resources til Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ Samþætting úr Human Resources til Finance reynir að samsvara gögnum sem byg
 
 Þetta vandamál getur orðið með **starfskrafti**, sem notar **starfsmannanúmer** til að gera samsvörun og **stöður**. Störf nota ekki númeraraðir. Þar af leiðandi, ef sama atvinnuskilríki er til staðar bæði í Human Resources og Finance, munu upplýsingar úr Human Resources yfirskrifa Dynamics 365 Finance upplýsingar. 
 
-Til að koma í veg fyrir vandamál með afritunarauðkenni geturðu annaðhvort bætt við forskeyti á [númeraröð](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), eða stilltu upphafsnúmer á númeraröðina sem er umfram svið hins kerfisins. 
+Til að koma í veg fyrir vandamál með afritunarauðkenni geturðu annaðhvort bætt við forskeyti á [númeraröð](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), eða stilltu upphafsnúmer á númeraröðina sem er umfram svið hins kerfisins. 
 
 Staðarauðkenni sem notað er fyrir heimilisfang starfsmanns er ekki hluti af númeraröð. Þegar samþætt er heimilisfang starfsmanns úr Human Resources til Finance, ef heimilisfang starfsmanns er þegar til í Finance, getur verið búið til afrit heimilisfang. 
 

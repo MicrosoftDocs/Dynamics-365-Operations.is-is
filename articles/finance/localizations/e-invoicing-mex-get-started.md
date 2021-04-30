@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840053"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894884"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
@@ -86,7 +86,7 @@ Hægt er að búa til nýja útgáfu ef til dæmis þarf að uppfæra vefslóði
 
     ![Síða sniðshönnuðar opnuð](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Notið síðuna **Sniðshönnuður** til að breyta og skoða skilgreiningar á skrá rafræns skýrslugerðarsniðs. Frekari upplýsingar er að finna í [Stofna skilgreiningar rafræns skjals](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Notið síðuna **Sniðshönnuður** til að breyta og skoða skilgreiningar á skrá rafræns skýrslugerðarsniðs. Frekari upplýsingar er að finna í [Stofna skilgreiningar rafræns skjals](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Síða sniðshönnuðar](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Til að setja upp rafræna reikningsfærslu í Finance þarf að ljúka þessum 
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Flytja inn gagnalíkan rafrænnar skýrslugerðar, gagnalíkanavörpun rafrænnar skýrslugerðar og skilgreiningar samhengis fyrir CFDI-reikninga
 
 1. Skráðu þig inn í Finance.
-2. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Á vinnusvæðinu **Rafræn skýrslugerð**, í hlutanum **Veitendur skilgreininga**, skal velja reitinn **Microsoft**. Gangið úr skugga um að þessi skilgreiningarveita sé stillt á **Virk**. Frekari upplýsingar um hvernig á að stilla veitu á **Virk** er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Veldu **Geymslur**.
 4. Veljið **Altæk tilföng \> Opna**.
 5. Flytjið inn **Reikningslíkan**, **Vörpun reikningslíkans**, **CFDI-reikningssnið (MX)**, **Snið afturköllunarbeiðni CFDI-reiknings (MX)** og **Afturköllunarsnið CFDI-reiknings (MX)**.
@@ -215,7 +215,7 @@ Við vinnslu CFDI-reikninga í Finance í gegnum rafræna reikningsfærslu er h�
 Þegar kveikt hefur verið á eiginleikanum **Samþætting á stillanlegri rafrænni reikningsfærslu**, verður ekki lengur hægt að nota ferlið **Útflutningur/innflutningur á rafrænum reikningi** (**Viðskiptakröfur \> Reikningar \> Rafrænir reikningar**) til að senda inn CFDI-reikninga. Því er skipt út fyrir nýtt ferli sem kallast **Senda inn rafræn skjöl**.
 
 > [!NOTE]
-> Áður en nýja ferlið **Senda inn rafræn skjöl** er notað skal ganga úr skugga um að uppsetningunni sem þarf fyrir rafræna mexíkóska reikninga sé lokið. Frekari upplýsingar er að finna í [CFDI-útlitsútgáfu 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Áður en nýja ferlið **Senda inn rafræn skjöl** er notað skal ganga úr skugga um að uppsetningunni sem þarf fyrir rafræna mexíkóska reikninga sé lokið. Frekari upplýsingar er að finna í [CFDI-útlitsútgáfu 3.3](./latam-mex-cfdi-3-3.md).
 
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Senda inn rafræn skjöl**.
 2. Fyrir fyrstu innsendingu á skjali skal alltaf stilla valkostinn **Senda skjöl inn aftur** á **Nei**. Ef senda þarf skjal inn aftur í gegnum þjónustuna skal stilla þennan valkost á **Já**.

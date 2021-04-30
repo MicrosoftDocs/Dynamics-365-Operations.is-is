@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751317"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893605"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -57,7 +57,7 @@ Sjálfgefin hegðun fyrir skilgreiningu sniðs rafrænnar skýrslugerðar veltur
 
 Í svarglugganum **Intrastat-skýrsla** á flipanum **Keyra í bakgrunni**, ef valkosturinn **Runuvinnsla** er stilltur á **Nei** er snið rafrænnar skýrslugerðar keyrt strax í gagnvirkri stillingu. Þegar þessari keyrslu er lokið er hægt að sækja tilbúið skjal á útleið.
 
-Ef valkosturinn **Runuvinnsla** er stilltur á **Já** er snið rafrænnar skýrslugerðar keyrt í stillingunni [runa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Viðeigandi runuvinnsla er stofnuð á grundvelli færibreytna sem tilgreindar eru í **Keyra í bakgrunni** flipa í flipanum í svarglugganum **Færibreytur rafrænnar skýrslugerðar** .
+Ef valkosturinn **Runuvinnsla** er stilltur á **Já** er snið rafrænnar skýrslugerðar keyrt í stillingunni [runa](../sysadmin/batch-processing-overview.md). Viðeigandi runuvinnsla er stofnuð á grundvelli færibreytna sem tilgreindar eru í **Keyra í bakgrunni** flipa í flipanum í svarglugganum **Færibreytur rafrænnar skýrslugerðar** .
 
 > [!NOTE]
 > Starfslýsing lætur vita um keyrslu á vörpun með sniði rafrænnar skýrslugerðar. Hún inniheldur einnig heiti rafræns skýrslugerðarhluts sem er keyrður.
@@ -70,7 +70,7 @@ Hægt er að fá upplýsingar um þetta starf á nokkrum stöðum:
 - Opnaðu **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Rafræn skýrslugerðarvinnsla** til að skoða stöðu áætlaðrar vinnslu og niðurstöður lokinna verka. Þegar vinnslunni er lokið skal velja **Sýna skrár** á síðunni **Rafræn skýrslugerðarvinnsla** til að fá skjal á útleið.
 
     > [!NOTE]
-    > Þetta skjal er vistað sem viðhengi núverandi vinnslufærslu og er stjórnað af ramma [Skjalastjórnun](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). [Skjalagerðin](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) sem er notuð til að vista ER gervinga af þessari gerð eru stilltir í [ER færibreytum](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Þetta skjal er vistað sem viðhengi núverandi vinnslufærslu og er stjórnað af ramma [Skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md). [Skjalagerðin](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) sem er notuð til að vista ER gervinga af þessari gerð eru stilltir í [ER færibreytum](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Á síðunni **Rafræn skýrslugerðarvinnsla** skal velja **Sýna skrár** til að skoða lista yfir hugsanlegar villur og viðvaranir sem komu fram við keyrslu.
 

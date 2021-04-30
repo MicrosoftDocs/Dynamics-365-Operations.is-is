@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835568"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909380"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Setja upp og tengja vöruhúsaforrit
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835568"
 > Þetta efnisatriði lýsir hvernig á að stilla eldra vöruhúsaforrit (sem nú er úrelt): Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir Vöruhúsakerfi skal skoða [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Þetta efnisatriði lýsir hvernig á að stilla vöruhúsaforrit fyrir uppsetningu í skýi. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhúsaforrit fyrir virkjun á staðnum skaltu skoða [Vöruhús fyrir virkjun á staðnum](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Þetta efnisatriði lýsir hvernig á að stilla vöruhúsaforrit fyrir uppsetningu í skýi. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhúsaforrit fyrir virkjun á staðnum skaltu skoða [Vöruhús fyrir virkjun á staðnum](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Vöruhúsaforritið er í boði í Google Play Store og Microsoft Store. Það er gefið út sem sjálfstæður hluti. Þess vegna þarf að sækja það í hvert tæki og stilla það svo á tengingu við Microsoft Dynamics 365 Supply Chain Management -umhverfið.
 
@@ -54,7 +54,7 @@ Notaðu einn eftirfarandi tengla til að sækja forritið:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Vöruhúsakerfi á Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 á Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Fyrir smærri uppsetningar er hægt að setja upp forritið úr viðkomandi verslun á hverju tæki og grunnstilla tenginguna sjálfkrafa í því umhverfi sem notað er. Í útgáfu 1.7.0.0 og nýrri útgáfum vöruhúsaforritsins er hins vegar hægt að gera uppsetningu og/eða grunnstillingu forrits sjálfvirka. Hugsanlega er þessi nálgun þægilegri ef verið er að vinna með mörg tæki og verið er að nota fartækjastjórnunar- og farsímaforritastjórnunarlausnir á borð við [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Upplýsingar um hvernig á að nota Intune til að bæta við forritum eru í [Bæta forritum við Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Fyrir smærri uppsetningar er hægt að setja upp forritið úr viðkomandi verslun á hverju tæki og grunnstilla tenginguna sjálfkrafa í því umhverfi sem notað er. Í útgáfu 1.7.0.0 og nýrri útgáfum vöruhúsaforritsins er hins vegar hægt að gera uppsetningu og/eða grunnstillingu forrits sjálfvirka. Hugsanlega er þessi nálgun þægilegri ef verið er að vinna með mörg tæki og verið er að nota fartækjastjórnunar- og farsímaforritastjórnunarlausnir á borð við [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Upplýsingar um hvernig á að nota Intune til að bæta við forritum eru í [Bæta forritum við Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Búa til vefþjónustuforrit í Azure Active Directory
 
@@ -89,11 +89,11 @@ Til að virkja vöruhúsaforritið til að eiga samskipti við tiltekin þjón S
 
 Frekari upplýsingar um hvernig vefþjónustuforrit eru sett upp eru í Azure AD, sjá eftirfarandi tilföng:
 
-- Leiðbeiningar um nota má Windows PowerShell til að setja upp vefþjónustuforrit í Azure AD er að finna í [hvernig á að nota: Azure PowerShell til að stofna þjónustueiningu með vottorði](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Leiðbeiningar um nota má Windows PowerShell til að setja upp vefþjónustuforrit í Azure AD er að finna í [hvernig á að nota: Azure PowerShell til að stofna þjónustueiningu með vottorði](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Tæmandi upplýsingar um hvernig á að stofna vefþjónustuforrit handvirkt í Azure AD er að finna í eftirfarandi efnisatriðum:
 
-    - [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Hvernig á að: Nota gáttina til að stofna Azure AD-forrit og þjónustueiningu með aðgang að tilföngum](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Hvernig á að: Nota gáttina til að stofna Azure AD-forrit og þjónustueiningu með aðgang að tilföngum](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Stofnaðu og skilgreindu notandareikning í Supply Chain Management
 
@@ -121,7 +121,7 @@ Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki vi
 
 Hægt er að nota vottorð sem leyniorð til að sanna auðkenni forrits þegar beðið er um tákn. Almennum hluta vottorðsins er hlaðið upp í forritaskráninguna í Azure-gáttinni en setja verður fullt vottorð upp á öllum tækjum sem eru með vöruhúsaforritið uppsett. Fyrirtækið er ábyrgt fyrir því að hafa umsjón með vottorðinu hvað varðar skipti og þess háttar. Hægt er að nota sjálfskráð vottorð en alltaf ætti að nota óframseljanleg vottorð.
 
-Nauðsynlegt er að gera vottorð aðgengilegt staðbundið á hverju tæki sem keyrir vöruhúsaforritið. Upplýsingar um hvernig á að stjórna vottorðum fyrir Intune-stýrð tæki, ef verið er að nota Intune, eru í [Nota vottorð fyrir sannvottun í Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Nauðsynlegt er að gera vottorð aðgengilegt staðbundið á hverju tæki sem keyrir vöruhúsaforritið. Upplýsingar um hvernig á að stjórna vottorðum fyrir Intune-stýrð tæki, ef verið er að nota Intune, eru í [Nota vottorð fyrir sannvottun í Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Grunnstilla forritið með því að flytja inn tengingarstillingar
 

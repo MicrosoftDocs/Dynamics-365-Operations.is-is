@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823861"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897309"
 ---
 # <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
 
@@ -83,17 +83,17 @@ Sjálfgefna víddin á færslubókarhausnum mun valda því að deild 023 verðu
 
 Aftur á móti, þegar línan er bókuð, er fasta víddin notuð, og línan er bókuð til deildar 022. Eftirfarandi myndskýring sýnir bókað fylgiskjal, þar sem fasta víddin er notuð fyrir sölureikninginn.
 
-[![Færslur fylgiskjals](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Færslur fylgiskjals með fastar víddir jafnað](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Dæmi 2
 
 Þetta dæmi notar sömu uppsetningu og það fyrsta. Við munum aftur á móti bæta við öðrum hluta og nota vídd deildarinnar sem afstemmingarvídd. Í eftirfarandi myndskýringu er **Deild** stillt sem afstemming fjárhagsvídd fyrir USMF fjárhaginn.
 
-[![Fjárhagur](./media/ledger.png)](./media/ledger.png)
+[![Teikning sem sýnir deild sem afstemmda fjárhagsvídd](./media/ledger.png)](./media/ledger.png)
 
 Þegar sami færslubókarhaus uppsetning er notuð og sama færslan er bókuð, er fasta víddin notuð fyrst. Síðan er afstemmingarrökleiðsla notuð til að hjálpa til við að tryggja að sérhver deild hafi afstemmda færslu. Eftirfarandi myndskýring sýnir fylgiskjalsfærslur sem innihalda afstemmingarfærsluna eftir að fasta víddin er virkjuð.
 
-[![Færslur fylgiskjals](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Dæmi 3
 
@@ -119,11 +119,11 @@ Sum af eftirfarandi tilföngum vísa til fyrri útgáfu af hugbúnaðinum. Stór
 
 [Yfirlit yfir bókhaldslykil](plan-chart-of-accounts.md) 
 
-[Skipulagning bókhaldslykla í AX 2012 blogg](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Þessi hlekkur fer til hluta 1 af sjö-hluta seríu.
+[Skipulagning bókhaldslykla í AX 2012 blogg](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Þessi hlekkur fer til hluta 1 af sjö-hluta seríu.
 
-[Sjálfgefni vídda í Dreifing á fjárhagsupphæð](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Sjálfgefni vídda í Dreifing á fjárhagsupphæð](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Sjálfgefni vídda í Víddir rammi](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Sjálfgefni vídda í Víddir rammi](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

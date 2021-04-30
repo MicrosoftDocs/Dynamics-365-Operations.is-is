@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94d76a9f6d4a3d7afcb9b85d961899880ca9fc75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793682"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893449"
 ---
 # <a name="authentication"></a>Sannvottun
 
@@ -82,7 +82,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Fyrir vefforrit, gefðu grunnslóð forritsins. Til dæmis, `http://localhost:31544` gæti verið slóðin fyrir vefforrit sem keyrir á vélinni þinni. Notendur nota síðan þessa slóð til að skrá sig inn á forrit á vefbiðlara.
         - Gefðu URI það fyrir opinbera viðskiptavini Azure AD notar til að skila svarbréfum. Sláðu inn gildi sem er sérstaklega við forritið þitt, svo sem `myapp://auth`.
 
-        Til að sjá ákveðin dæmi fyrir vefforrit eða innfædd forrit, sjáðu skyndistyrki í [Microsoft vettvangur (áður Azure Active Directory fyrir forritara)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Til að sjá ákveðin dæmi fyrir vefforrit eða innfædd forrit, sjáðu skyndistyrki í [Microsoft vettvangur (áður Azure Active Directory fyrir forritara)](/azure/active-directory/develop/#quickstarts).
 
 5. Undir **API leyfi**, veldu **Bæta við leyfi**. Síðan, á **Forritaskil sem samtökin mín nota** flipann, leitaðu að **Dynamics 365 Human Resources**, og bæta við **user\_impersonation** leyfi fyrir forritinu þínu. Auðkenni umsóknar um Human Resources er f9be0c49-aa22-4ec6-911a-c5da515226ff. Notaðu þetta auðkenni til að tryggja að þú hafir valið rétt forrit.
 

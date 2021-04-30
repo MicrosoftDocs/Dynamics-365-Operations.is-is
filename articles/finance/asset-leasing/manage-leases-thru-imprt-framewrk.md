@@ -2,11 +2,11 @@
 title: Vinna með leigusamninga í innflutningsramma leigusamnings
 description: Þetta efnisatriði útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum samtímis.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819795"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880911"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Vinna með leigusamninga í innflutningsramma leigusamnings
 
@@ -53,7 +53,7 @@ Samanburðaraðgerð gerir þér kleift að bera saman færslu sem þú ert að 
 > [!NOTE]
 > Samanburðarvirkni virkar ekki fyrir leigusamninga sem eru með **Bæta við færslu** gerð ferils, vegna þess að ekkert er til staðar til að bera saman við viðkomandi leigusamning.
 >
-> Til að bera saman marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið \> Bera saman** og velja **Bera saman**.
+> Til að bera saman marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið** og velja **Bera saman**.
 
 Fyrir hverja einingu er hægt að skoða mismuninn á því sem er í kerfinu og hvað er í sviðsetningartöflunum. Fyrir hverja einingu í sviðsetningartöflunum skal velja **Sjá mismun**. Svarglugginn sem birtist sýnir núverandi gildi og áætlað sviðsetningargildi.
 
@@ -62,17 +62,17 @@ Einnig er hægt að uppfæra sviðsetningargildið með því að breyta því �
 Hægt er að villuleita leigusamninga til að tryggja að hægt sé að færa færslurnar inn í kerfið villulaust. Áður en færsla leigusamnings er flutt keyrir kerfið nokkrar villuleitir til að tryggja að færslan verði flutt inn. Til að villuleita tiltekinn leigusamning skal velja **Villuleita**.
 
 > [!NOTE]
-> Til að villuleita marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið \> Villuleita** og velja **Bera saman**.
+> Til að villuleita marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið** og velja **Villuleita**.
 
 Til að vinna úr tilteknum leigusamningi skal velja **Flytja gögn leigusamnings** á síðunni **Flytja inn haus**. Þegar leigusamningur er fluttur framkvæmir kerfið aðgerðina sem er tilgreind í svæðinu **Gerð ferlis**.
 
 > [!NOTE]
-> Til að villuleita marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið \> Villuleita** og velja **Bera saman**.
+> Til að flytja marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið** og velja **Flytja**.
 
 Eftir að leigusamningar eru bornir saman er hægt að keyra skýrslu til að skoða mismuninn á hverjum leigusamningi sem er innifalinn í innflutningskenninu. Til að keyra þessa skýrslu fyrir einn leigusamning skal velja viðkomandi leigusamning í sviðsetningargögnum og velja svo **Bera saman og skoða skýrslu \> Skýrsla um mismun**.
 
 > [!NOTE]
-> Til að villuleita marga leigusamninga samtímis er farið í **Eignarleiga \> Fyrirspurnir og skýrslur \> Skýrsla um mismun** og velja **Bera saman**.
+> Til að bera saman marga leigusamninga samtímis er farið í **Eignarleiga \> Innflutningsrammi leigusamnings \> Reglubundið** og velja **Bera saman**. 
 
 ## <a name="set-up-update-fields"></a>Setja upp uppfærð svæði
 

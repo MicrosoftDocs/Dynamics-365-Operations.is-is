@@ -2,7 +2,7 @@
 title: SPLIT ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin SPLIT í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745594"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853444"
 ---
 # <a name="split-er-function"></a>SPLIT ER-aðgerð
 
@@ -80,9 +80,17 @@ Ef frumbreytan `input` er tóm er nýjum tómum lista skilað. Ef annaðhvort fr
 
 `SPLIT ("XAb aBy", "aB")` skilar nýjum lista sem samanstendur af þremur skrám sem eru með reitinn **Gildi** af gerðinni *Strengur*. Reiturinn **Gildi** í fyrstu skránni inniheldur textann **"X"**, reiturinn **Gildi** í annarri skránni inniheldur textann **"&nbsp;"**, og reiturinn **Gildi** í þriðju skránni inniheldur textann **"y"**. 
 
+## <a name="example-3"></a>Dæmi 3
+
+Hægt er að nota aðgerðina [INDEX](er-functions-list-index.md) til að fá aðgang að einstaka þáttum tiltekins innsláttarstrengs. Ef slegið er inn gagnaveitunni **MyList** af gerðinni **Reiknaður reitur** og segðin `SPLIT("abc", 1)` er skilgreind fyrir hann, skilar segðin `INDEX(MyList,2).Value` textanum **„b“**.
+
+## <a name="example-4"></a>Dæmi 4
+
+Aðgerðin [ENUMERATE](er-functions-list-enumerate.md) hjálpar einnig til við að fá aðgang að einstaka þáttum tiltekins innsláttarstrengs. Ef gagnaveitan **MyList** er slegin inn fyrst af gerðinni **Reiknaður reitur** og segðin `SPLIT("abc", 1)` er skilgreind fyrir hann og svo er slegið inn gagnaveituna **EnumeratedList** af gerðinni **Reiknaður reitur** og segðin `ENUMERATE(MyList)` er skilgreind fyrir hann, skilar segðin `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` textanum **„b“**.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Listavirkni](er-functions-category-list.md)
+[Listaaðgerðir](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

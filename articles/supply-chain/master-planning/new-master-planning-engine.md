@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823458"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907692"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 
@@ -63,8 +63,12 @@ Hægt er að biðja um undantekningu ef nauðsynlegt er að halda þarf áfram a
 
 Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma þar til undantekningin rennur út. Stjórnandi umhverfisins fær upplýsingar um hvenær áskildir eiginleikar eru tiltækir og þegar reynslutíminn hefst.
 
+Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Flæðirit undantekningar](media/exception-diagram.png "Flæðirit undantekningar")
+
 > [!NOTE]
-> Aðeins er hægt að biðja um undantekningu fyrir vinnsluumhverfi, ekki fyrir sandkassaumhverfi. Þegar þörf er á að slökkva á undantekningarvillu fínstillingar skipulagningar í innviðum sem þjónusta (IaaS) í sandkassaumhverfi skal keyra SQL-fyrirspurnina sem er til staðar í [Sandkassaumhverfum](#faq-sandbox).
+> Einungis er hægt að óska eftir undanþágu fyrir leigjendur sem eru með eða munu vera með vinnsluumhverfi, ekki fyrir leigjendur með eingöngu sandkassaumhverfi. Þegar þörf er á að slökkva á undantekningarvillu fínstillingar skipulagningar í innviðum sem þjónusta (IaaS) í sandkassaumhverfi skal keyra SQL-fyrirspurnina sem er til staðar í [Sandkassaumhverfum](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 

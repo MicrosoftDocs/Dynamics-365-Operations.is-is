@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813918"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908568"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Samþætta Dynamics 365 Supply Chain Management (eignastýringu) við Dynamics 365 Guides
 
@@ -30,12 +30,12 @@ Hægt er að samþætta eininguna **Eignastýring** í Microsoft Dynamics 365 Su
 - [Setja upp Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) útgáfa 10.0.9 eða nýrri.
 - [Kveikja á tvískiptum skrifum fyrir forrit Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Kveikja á forútgáfu](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) fyrir eiginleikann **MRGuidesFeature**. (Fyrir vinnsluumhverfi þarf fyrst að senda inn þjónustubeiðni til að leigjandanum þínum verði bætt við forútgáfuhópinn.)
-- [Kveikja á eftirfarandi skilgreiningarlyklum](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) á síðunni **Leyfisskilgreining**:
+- [Kveikja á eftirfarandi skilgreiningarlyklum](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) á síðunni **Leyfisskilgreining**:
 
     - Bandaður veruleiki eignarstýringar fyrir \> eignastýringu
     - Leiðarvísir blandaðs veruleika fyrir blandaðan veruleika \>
 
-- [Setja upp Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) útgáfa 200.0.0.96 eða nýrri.
+- [Setja upp Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) útgáfa 200.0.0.96 eða nýrri.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Nota Dynamics 365 Guides með eignastýringu
 
@@ -47,8 +47,8 @@ Til að tengja leiðarvísi við sniðmát viðhaldsgátlista skal fylgja þessu
 
 1. Búðu til leiðarvísi með því að nota Dynamics 365 Guides tölvuna og HoloLens forritin. Nánari upplýsingar um hvernig á að búa til leiðarvísi er að finna í eftirfarandi efnisatriðum:
 
-    - [Notaðu tölvuforritið til að búa til leiðarvísi](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [Nota HoloLens-forritið til að staðsetja heilmyndirnar](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Notaðu tölvuforritið til að búa til leiðarvísi](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [Nota HoloLens-forritið til að staðsetja heilmyndirnar](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. Í Supply Chain Management skal [búa til sniðmát viðhaldsgátlista](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Tengið leiðarvísinn sem var búinn til við línu viðhaldsgátlista í nýju sniðmáti viðhaldsgátlista:

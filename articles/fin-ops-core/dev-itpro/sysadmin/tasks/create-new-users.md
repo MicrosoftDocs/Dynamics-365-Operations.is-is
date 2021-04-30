@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745838"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907912"
 ---
 # <a name="create-new-users"></a>Búa til nýja notendur
 
@@ -29,10 +29,10 @@ ms.locfileid: "5745838"
 Upplýsingar um hvernig á að kaupa og veita leyfi fyrir Finance and Operations-forrit er að finna í [Leyfishandbók Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Úthluta leyfi til notanda
-Kerfisstjórar geta það [úthluta leyfi til notenda](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) í [stjórnunarmiðstöð Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Kerfisstjórar geta það [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) í [stjórnunarmiðstöð Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Bæta ytri notanda við Azure AD og úthluta leyfi 
-Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Flytja inn nýja notendur úr Azure AD 
 1. Farið í **Kerfisstjórnun** \> **Notandi** \> **Notendur**.
@@ -57,7 +57,7 @@ Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Direct
 7. Í reitnum **Fyrirtæki** skal velja sjálfgefið ræsingarfyrirtæki fyrir notanda. 
 8. Veljið **Vista**.
 
-Gildin fyrir kenni veitu og fjarmælingarkenni verða uppfærð samkvæmt kalli [Microsoft Graph](https://docs.microsoft.com/graph/overview) þegar skrá notanda er vistuð. Fjarmælingarkennið byggir á hlutarkenni/öryggiskenni notanda í Azure AD.
+Gildin fyrir kenni veitu og fjarmælingarkenni verða uppfærð samkvæmt kalli [Microsoft Graph](/graph/overview) þegar skrá notanda er vistuð. Fjarmælingarkennið byggir á hlutarkenni/öryggiskenni notanda í Azure AD.
 
 > [!NOTE]
 > Eftir að notanda hefur verið bætt við þarf að úthluta hlutverkum og fyrirtækjum eftir því sem við á. Nánari upplýsingar er að finna á [Úthluta notendum á öryggishlutverk](assign-users-security-roles.md). Einnig gæti verið nauðsynlegt að tengja notandann við **Einstakling** og uppfæra **Notandavalkosti**, t.d. tungumál.

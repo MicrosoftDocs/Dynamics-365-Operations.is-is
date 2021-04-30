@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794470"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891079"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Stofna deildir og setja þær inn í deildastigveldið
 
@@ -53,7 +53,7 @@ Til að bæta deild við stigveldi deildar, skal fylgja þessum skrefum:
 6.  Þegar þú ert tilbúinn, smellið á **Birta** í hönnuði stigveldis. Hægt er að færa inn gildisdagsetningu sem tilgreinir hvenær stigveldi skuli birt. Til dæmis til að bæta við nýjum deild við upphaf næsta almanaksárs, skal stilla gildisdagsetningu til 1. Janúar á nýja almanaksárinu. Breytingar á stigveldinu tekur gildi á þeim degi.
 
 ## <a name="steps-for-creating-a-department"></a>Skref til að búa til deild
-Sjá greinina [Skilgreina nýjar deildir](../fin-and-ops/hr/tasks/define-new-departments.md) fyrir skref fyrir skref aðferð til að búa til nýja deild. 
+Sjá greinina [Skilgreina nýjar deildir](./hr-personnel-define-departments.md) fyrir skref fyrir skref aðferð til að búa til nýja deild. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

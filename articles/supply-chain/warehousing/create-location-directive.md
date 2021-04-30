@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838395"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911297"
 ---
 # <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
@@ -44,8 +44,8 @@ Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi v
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
 1. Stofna vöruhús.
 1. Í flýtiflipanum **Vöruhús** skal stilla valkostinn **Nota ferli vöruhúsastjórnunar** á *Já*.
-1. Stofna staðsetningar, staðsetningargerðir, staðsetningarforstillingar og staðsetningarsnið. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Stofna svæði og svæðisflokka. Frekari upplýsingar er að finna í [Uppsetning vöruhúss](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) og [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Stofna staðsetningar, staðsetningargerðir, staðsetningarforstillingar og staðsetningarsnið. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Stofna svæði og svæðisflokka. Frekari upplýsingar er að finna í [Uppsetning vöruhúss](../../commerce/channels-setup-warehouse.md) og [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Verkbeiðnigerðir fyrir staðsetningarleiðbeiningar
 
@@ -143,7 +143,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
 - **Leiðbeiningarkóði** - Veljið kóða leiðbeiningarkóðann til að tengja við vinnusniðmát eða áfyllingarsniðmát. Á síðunni **Leiðbeiningarkóði** er hægt að stofna nýja kóða sem má nota til að tengja vinnusniðmát eða áfyllingarsniðmát við staðsetningarleiðbeiningar. Leiðbeiningarkóða er einnig hægt að nota til að koma á tengingu milli hvaða vinnusniðmátslínu sem er og staðsetningarleiðbeiningar (t.d. útskot eða geymslustað).
 
     > [!TIP]
-    > Ef leiðbeiningarkóði er stilltur leitar kerfið ekki í staðsetningarleiðbeiningum eftir raðnúmeri þegar búa þarf til vinnu. Þess í stað leitar það eftir leiðbeiningarkóða. Á þennan hátt er hægt að vera nákvæmari í sniðmáti staðsetningar sem er notað fyrir tiltekið skref í vinnusniðmáti, eins og skrefið fyrir geymslu á efni.
+    > Ef leiðbeiningarkóði er stilltur leitar kerfið ekki í staðsetningarleiðbeiningum eftir raðnúmeri þegar búa þarf til vinnu. Þess í stað leitar það eftir leiðbeiningarkóða. Á þennan hátt er hægt að vera nákvæmari í staðsetningarleiðbeiningum sem eru notaðar fyrir tiltekið skref í vinnusniðmáti, eins og skrefið fyrir geymslu á efni.
 
 - **Margar birgðahaldseiningar** – Stillið þennan valkost á *Já* til að virkja margar birgðaeiningar sem á að nota á staðsetningu. Til dæmis verður að virkja margar birgðahaldseiningar fyrir staðsetningu útskots. Ef margar birgðahaldseiningar eru virkjaðar verður frágangsstaðsetningin tilgreind í vinnu eins og ætlast er til. Hins vegar getur frágangsstaðsetningin aðeins höndlað frágang á mörgum vörum (ef vinna felur í sér mismunandi birgðahaldseiningar sem þarf að taka til og ganga frá). Hún getur ekki höndlað frágang á einni birgðahaldseiningu. Ef þessi valkostur er stilltur á *Nei* verður frágangsstaðsetningin aðeins tilgreind ef frágangurinn er með aðeins eina birgðahaldseiningu.
 
@@ -249,7 +249,7 @@ Fyrir þessa atburðarás verður þú að skilgreina tvær aðgerðir staðsetn
 
 ## <a name="next-step"></a>Næsta skref
 
-Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tilskipunarkóða með vinnusniðmátskóða fyrir vinnusköpun. Frekari upplýsingar er að finna í [Stýra vöruhúsavinnu með vinnusniðmátum og staðsetningarleiðbeiningum](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tilskipunarkóða með vinnusniðmátskóða fyrir vinnusköpun. Frekari upplýsingar er að finna í [Stýra vöruhúsavinnu með vinnusniðmátum og staðsetningarleiðbeiningum](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

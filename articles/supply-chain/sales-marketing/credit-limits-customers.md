@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824919"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908085"
 ---
 # <a name="credit-limits-for-customers"></a>Lánamark fyrir viðskiptavininn
 
@@ -90,7 +90,7 @@ Notið **Færibreytur viðskiptakrafna** til að tilgreina upplýsingarnar sem �
 
 **Hvar eru upplýsingar um notkun annars lánsfjár viðskiptavinar?**
 
-Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta** geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](https://technet.microsoft.com/library/hh209221.aspx).
+Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta** geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Upplýsingar um stöðu viðskiptavina og útistandandi fjárhæð eru reiknaðar þegar sölupantanir, fylgiseðlar og reikningar eru uppfærð, eftir því hvaða skjöl eru valin. Ef magn í skjalinu sem þú ert að vinna með myndi leiða til þess að farið sé yfir lánamark birtast skilaboð.
 

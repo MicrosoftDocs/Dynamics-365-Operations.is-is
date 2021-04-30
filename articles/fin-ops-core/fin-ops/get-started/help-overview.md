@@ -2,7 +2,7 @@
 title: Hjálparkerfi
 description: Í þessu efnisatriði er að finna yfirlit yfir hjálparkerfið fyrir Finance and Operations-forrit.
 author: edupont04
-ms.date: 05/11/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749829"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897817"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -161,7 +161,7 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 | [Docs.microsoft.com/fyrri útgáfur](/previous-versions/dynamics/) | Þetta vefsvæði hýsir efni frá fyrri útgáfum. |
 | [Samfélag Dynamics](https://community.dynamics.com/) | Þetta vefsvæði hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Þetta vefsvæði veitir upplýsingar um mat og sölu. |
-| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Þetta svæði hýsir þjálfunarefni, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Notendur kunna að þurfa að vera með þjónustuáætlun til að fá aðgang að einhverjum tilföngum á þessu svæði. |
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

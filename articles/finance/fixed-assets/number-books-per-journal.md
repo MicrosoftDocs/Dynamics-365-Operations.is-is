@@ -2,7 +2,7 @@
 title: Fjöldi bóka í hverri færslubók
 description: Í þessu efnisatriði er lýst venslum á milli færslubóka og eignabóka þegar eignakaup eða afskriftartillaga er stofnuð í gegnum runuvinnslu. Hægt er að skilgreina hámarksfjölda bóka sem eru innifaldar fyrir hver kaup og fyrir afskriftir.
 author: moaamer
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822034"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892408"
 ---
 # <a name="number-of-books-per-journal"></a>Fjöldi bóka í hverri færslubók
 

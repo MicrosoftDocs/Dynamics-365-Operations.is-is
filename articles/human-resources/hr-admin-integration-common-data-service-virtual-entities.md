@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805107"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890053"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Skilgreina Dataverse-sýndartöflur
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources er sýndargagnagjafi í Microsoft Dataverse. Hann b
 Til að virkja CRUD-aðgerðir í einingum Human Resources úr Dataverse þarf að bjóða upp á einingarnar sem sýndartöflur í Dataverse. Þetta gerir þér kleift að framkvæma CRUD-aðgerðir í Dataverse og Microsoft Power Platform á gögnum sem eru í Human Resources. Aðgerðirnar styðja einnig sannprófanir á viðskiptagrunni Human Resources til að tryggja heilleika gagna þegar gögn eru skrifuð í einingarnar.
 
 > [!NOTE]
-> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Tiltækar sýndartöflur fyrir Human Resources
 
@@ -51,7 +51,7 @@ Sýndartöflur fyrir Human Resources eru ekki þær sömu og venjulegu Dataverse
 Venjulegu töflurnar fyrir Human Resources eru myndaðar sérstaklega og unnið með þær í lausn HCM Common í Dataverse. Með venjulegum töflum eru gögnin geymd í Dataverse og þarfnast samstillingar við gagnagrunn Human Resources-forritsins.
 
 > [!NOTE]
-> Til að sjá lista yfir venjulegar Dataverse-töflur fyrir Human Resources skal fara í [Dataverse-töflur](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Til að sjá lista yfir venjulegar Dataverse-töflur fyrir Human Resources skal fara í [Dataverse-töflur](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Setja upp
 
@@ -71,7 +71,7 @@ Frekari upplýsingar um virkjun og óvirkjun eiginleika er að finna í [Vinna m
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Skrá forritið í Microsoft Azure
 
-Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðkenningarverkvangur Microsoft geti veitt sannvottunar- og leyfisþjónustu fyrir forritið og notendur. Frekari upplýsingar um skráningu forrita í Azure er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðkenningarverkvangur Microsoft geti veitt sannvottunar- og leyfisþjónustu fyrir forritið og notendur. Frekari upplýsingar um skráningu forrita í Azure er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 1. Opnið [Microsoft Azure-gáttina](https://portal.azure.com)
 
@@ -93,7 +93,7 @@ Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðken
 
 10. Gefið upp lýsingu, veljið tímalengd og veljið **Bæta við**.
 
-11. Skráið gildi fyrir leynilykil. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndartöflu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Skráðu gildi leyndarmálsins úr **Gildi** eiginleika töflunnar. Þessar upplýsingar verða færðar inn þegar á að [Skilgreina gagnagjafa sýndartöflu](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Gætið þess að taka niður gildi leynilykilsins að svo stöddu. Leynilykillinn er ekki sýndur aftur eftir að farið er af þessari síðu.
@@ -215,12 +215,11 @@ Hlðarsvæði sýnir nýjustu niðurstöður framkvæmdarinnar fyrir ferlið. H�
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hvað er Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Töflur í Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Yfirlit töflutengsla](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Stofna og breyta sýndartöflum sem innihalda gögn frá ytri gagnagjafa](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Hvað eru Power Apps-gáttir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Yfirlit yfir stofnun forrita í Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Hvað er Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Töflur í Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Yfirlit töflutengsla](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Stofna og breyta sýndartöflum sem innihalda gögn frá ytri gagnagjafa](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Hvað eru Power Apps-gáttir?](/powerapps/maker/portals/overview)<br>
+[Yfirlit yfir stofnun forrita í Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792026"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906650"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -38,6 +38,8 @@ Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í si
 
 > [!NOTE]
 > Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Commerce skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
+> 
+> Þegar afsláttarmiðinn er notaður í rás símavers þarf að velja hnappinn **Endurreikna** **(flipann Selja > Reikna > Endurreikna)** til að afslátturinn sem tengist afsláttarmiðanum sé notaður. Þetta viðbótarskref verður fjarlægt í útgáfum í framtíðinni.
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 

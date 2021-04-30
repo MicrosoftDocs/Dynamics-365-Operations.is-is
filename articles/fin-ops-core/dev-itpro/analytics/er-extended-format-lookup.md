@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753337"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893933"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leyfa notendum að setja upp tilvísun á ER snið þar sem spurt er um snið frá altæku geymslunni
 
@@ -30,7 +30,7 @@ Hægt er að nota ramma [Rafrænnar skýrslugerðar](general-electronic-reportin
 
 Venjulega verður þú að tilgreina hvaða ER snið verður að nota í ákveðnu viðskiptaferli. Til að gera það skaltu velja eitt ER snið í uppflettigrein sem er stillt sem hluti af viðskiptaferlum sem eru sértækir. Þessir uppflettingarreitir eru venjulega útfærðir með því að nota viðeigandi API í ER ramma. Fyrir frekari upplýsingar, sjá [ER ramma API - kóða til að sýna sniðkortagerð](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Til dæmis þegar þú stillir [færibreytur erlendra viðskipta](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters) þarftu að setja upp tilvísanir í einstök ER snið sem verða notuð til að búa til Intrastat yfirlýsinguna og stjórnunarskýrsluna fyrir Intrastat yfirlýsinguna. Skjámyndirnar hér að neðan sýna hvernig útlit reiturinn fyrir ER snið lítur út á síðunni **Færibreytur erlendra viðskipta**.
+Til dæmis þegar þú stillir [færibreytur erlendra viðskipta](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters) þarftu að setja upp tilvísanir í einstök ER snið sem verða notuð til að búa til Intrastat yfirlýsinguna og stjórnunarskýrsluna fyrir Intrastat yfirlýsinguna. Skjámyndirnar hér að neðan sýna hvernig útlit reiturinn fyrir ER snið lítur út á síðunni **Færibreytur erlendra viðskipta**.
 
 Þegar núverandi fjármálatilvik inniheldur engin snið rafrænnar skýrslugerðar fyrir Intrastat-viðskiptaferli verður þessi uppflettireitur auður.
 

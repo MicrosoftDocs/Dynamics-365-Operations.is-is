@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811511"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897333"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Tilvísanir í upprunalega reikninga í kreditnótum
 
@@ -30,7 +30,7 @@ ms.locfileid: "5811511"
 
 ## <a name="prerequisites"></a>Forkröfur
 
-- Á vinnusvæðinu **Eiginleikastjórnun** skal kveikja á eiginleikanum **Útlit kreditreikningsfærslu fyrir sölu- og verkreikningsskýrslur**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Á vinnusvæðinu **Eiginleikastjórnun** skal kveikja á eiginleikanum **Útlit kreditreikningsfærslu fyrir sölu- og verkreikningsskýrslur**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Skilgreina þarf prentsnið fyrir nauðsynleg skjöl í Prentstýring.
 
 Virknin sem lýst er í þessu efnisatriði gildir um eftirfarandi skjöl:

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801192"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890029"
 ---
 # <a name="configure-dataverse-integration"></a>Skilgreina Dataverse-samþættingu
 
@@ -30,7 +30,7 @@ ms.locfileid: "5801192"
 Þú getur kveikt eða slökkt á samþættingu á milli Microsoft Dataverse og Dynamics 365 Human Resources. Einnig er hægt að skoða samstillingarupplýsingar, hreinsa rakningargögn og endursamstilla töflu til að úrræðaleita vandamál með gögn milli umhverfanna tveggja.
 
 > [!NOTE]
-> Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 Þegar þú slekkur á samþættingu geta notendur gert breytingar á starfsmannahaldi eða Dataverse, en þessar breytingar eru ekki samstilltar milli umhverfisins tveggja.
 
@@ -124,8 +124,8 @@ Til að keyra fulla samstillingu á töflu milli Human Resources og Dataverse:
 [Dataverse töflur](hr-developer-entities.md)<br>
 [Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Algengar spurningar um sýndartöflur Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Hugtakauppfærslur](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Hugtakauppfærslur](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

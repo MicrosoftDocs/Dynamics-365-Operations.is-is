@@ -1,8 +1,8 @@
 ---
 title: Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð
-description: Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Microsoft Dynamics 365 Finance-lausnina.
+description: Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Dynamics 365 Finance.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750107"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893202"
 ---
-# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð
+# <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Microsoft Dynamics 365 Finance.
+Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Dynamics 365 Finance.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -45,7 +45,7 @@ Rafræn skýrslugerð (ER) er kerfi til að styðja lögboðin og landsértæk r
 
 - Gera sniðmát tiltækt þannig að hægt er að nota það í öðrum tilvikum:
 
-    - Umbreyta sniðmáti skjals sem var stofnað yfir í ER skilgreiningu og flytja afbrigði úr núverandi forritstilviki sem xml-pakka sem hægt er að geyma annaðhvort staðbundið eða í LCS.
+    - Umbreyta sniðmáti skjals sem var stofnað yfir í ER skilgreiningu og flytja afbrigði úr núverandi forritstilviki sem xml-pakka sem hægt er að geyma annaðhvort staðbundið eða í Lifecycle Services (LCS).
     - Umbreyta skilgreiningu ER í skjalasniðmát forrits.
     - Flytja inn xml-pakka sem geymdur er annað hvort staðbundið eða í LCS yfir í gildandi tilvik.
 
@@ -78,13 +78,24 @@ Af eftirfarandi ER-tengdum ástæðum er mælt með að hanna ER skilgreiningar 
 - Notendur í hlutverkum annaðhvort **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** geta breytt stillingum og keyrt þær vegna prófunar. Það getur valdið köllun eftir aðferðum flokka og töflum sem geta hugsanlega verið skaðleg fyrir viðskiptagögn og árangur af notkun tilviks.
 - Köllun eftir aðferðum flokka og tafla sem ER gagnagjafa fyrir ER skilgreiningar eru ekki takmarkaðar af aðgangsstað og skráðu efni fyrirtækis. Því geta notendur sem eru í hlutverkum **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** fengið aðgang að viðkvæmum gögnum fyrirtækis.
 
-Skilgreiningar rafrænar skýrslugerðar sem eru hannaðar í þróunarumhverfi má hlaða upp í prófunarumhverfi fyrir skilgreiningarmat (rétt samþætting vinnslu, nákvæmni niðurstaða og afköst) og gæðatryggingu, til dæmis réttmæti aðgangsheimilda sem eru knúin af hlutverkum, aðskilnaður á skyldum o.s.frv.. Hægt er að nota eiginleika til að skiptast á skilgreiningum rafrænnar skýrslugerðar í þessum tilgangi. Loks er hægt að hlaða upp sönnuðum skilgreiningum rafrænnar skýrslugerðar annaðhvort í LCS til að deila með áskrifendum þjónustu eða í framleiðsluumhverfi til innri notkunar, eins og sýnt er á eftirfarandi mynd.
+Skilgreiningar rafrænar skýrslugerðar sem eru hannaðar í þróunarumhverfi má [hlaða upp](#data-persistence-consideration) í prófunarumhverfi fyrir skilgreiningarmat (rétt samþætting vinnslu, nákvæmni niðurstaða og afköst) og gæðatryggingu, til dæmis réttmæti aðgangsheimilda sem eru knúin af hlutverkum, aðskilnaður á skyldum o.s.frv.. Hægt er að nota eiginleika til að skiptast á skilgreiningum rafrænnar skýrslugerðar í þessum tilgangi. Sannreyndar skilgreiningar rafrænnar skýrslugerðar er hægt að hlaða upp í LCS til að deila þeim með áskrifendum þjónustu eða [flytja inn](#data-persistence-consideration) í vinnsluumhverfi til innri nota.
 
 ![Lífsferill skilgreiningar rafrænnar skýrslugerðar](./media/ger-configuration-lifecycle.png)
 
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Taka til greina varanleika gagna
+
+Hægt er að [flytja inn](tasks/er-import-configuration-lifecycle-services.md) hverja mismunandi [útgáfu](general-electronic-reporting.md#component-versioning) fyrir sig af [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar í tilvikið þitt af Finance. Þegar ný útgáfa af skilgreiningu rafrænnar skýrslugerðar er flutt inn stjórnar kerfið innihaldi útgáfudraga fyrir þessa skilgreiningu:
+
+   - Þegar innflutt útgáfa er lægri en hæsta útgáfa þessarar skilgreiningar í núverandi tilviki af Finance mun innihald útgáfudraga þessarar skilgreiningar haldast óbreytt.
+   - Þegar innflutt útgáfa er hærri en önnur útgáfa þessarar skilgreiningar í núverandi tilviki af Finance verður innihald innfluttu útgáfunnar afritað í útgáfudrög þessarar skilgreiningar til að gera þér kleift að halda áfram að breyta síðustu loknu útgáfu.
+
+Ef þessi skilgreining er í eigu [skilgreiningarveitunnar](general-electronic-reporting.md#Provider) sem er virkjuð sem stendur, verða útgáfudrög þessarar skilgreiningar sýnileg þér í flýtiflipanum **Útgáfur** á síðunni **Skilgreiningar** (**Fyrirtækisstjórnun** > **Rafræn skýrslugerð** > **Skilgreiningar**). Hægt er að velja útgáfudrög skilgreiningarinnar og [breyta](er-quick-start2-customize-report.md#ConfigureDerivedFormat) innihaldi hennar með því að nota viðeigandi hönnuð rafrænnar skýrslugerðar. Þegar þú hefur breytt útgáfudrögum fyrir skilgreiningu rafrænnar skýrslugerðar mun innihald þeirra ekki lengur passa við innihald hæstu útgáfu þessarar skilgreiningar í núverandi tilviki af Finance. Til að koma í veg fyrir að breytingarnar tapist birtir kerfið villu um að innflutningurinn geti ekki haldið áfram vegna þess að útgáfa þessarar skilgreiningar er hærri en hæsta útgáfa þessarar skilgreiningar í núverandi tilviki af Finance. Þegar þetta gerist, til dæmis með sniðsskilgreiningunni **X**, birtist villan **Snið af útgáfu „X“ er ekki lokið**.
+
+Til að afturkalla breytingarnar sem þú kynntir í útgáfudrögum skal velja hæstu loknu eða deildu útgáfu af skilgreiningu rafrænnar skýrslugerðar í Finance í flýtiflipanum **Útgáfur** og síðan velja valkostinn **Sækja þessa útgáfu**. Innihald valinnar útgáfu er afritað í útgáfudrögin.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

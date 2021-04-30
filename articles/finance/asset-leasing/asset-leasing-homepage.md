@@ -2,11 +2,11 @@
 title: Heimasíða eignarleigu
 description: Í þessu efnisatriði er að finna yfirlit yfir skjöl Eignarleigu og tengla á tiltekin efnisatriði.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816149"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898111"
 ---
 # <a name="asset-leasing-home-page"></a>Heimasíða eignarleigu
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816149"
 
 Í þessu efnisatriði er að finna hjálparefni sem eru tiltæk fyrir Eignarleigu og eru með tengla á tiltekin efnisatriði. 
 
-Eignarleiga er víðtæk lausn til að hafa umsjón með, rekja og virkja sjálfkrafa fjárhagsfærslur fyrir leigðar eignir í Microsoft Dynamics 365 Finance. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.  
+Eignarleiga er víðtæk lausn til að hafa umsjón með, rekja og virkja sjálfkrafa fjárhagsfærslur fyrir leigðar eignir í Microsoft Dynamics 365 Finance. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
+
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 
 ## <a name="asset-leasing-topics"></a>Efni eignarleigu
 Eftirfarandi efnisatriði eru í boði til að aðstoða við skilgreiningu og notkun Eignarleigu. 
@@ -82,7 +84,7 @@ Eftirfarandi efnisatriði eru í boði til að aðstoða við skilgreiningu og n
 
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
 
 ### <a name="blogs"></a>Blogg
 

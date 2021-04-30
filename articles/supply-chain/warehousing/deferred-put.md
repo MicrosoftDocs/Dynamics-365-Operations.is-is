@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838323"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908012"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Frestuð vinnsla vöruhúsavinnu
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838323"
 
 Frestuð vinnsluvirkni gerir vöruhússtarfsmönnum kleift að halda áfram að vinna önnur verk meðan aðgerðin er unnin í bakgrunni. Frestuð vinnsla er gagnleg þegar vinna þarf margar vinnulínur og starfsmaðurinn getur látið vinna þá vinnu ósamstillta. Það er einnig gagnlegt þegar netþjónninn getur haft tilfallandi eða óáætlaða aukningu á vinnslutíma og aukinn vinnslutími getur haft áhrif á framleiðni notandans.
 
-Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Stilla vinnsluskilmála vinnu
 

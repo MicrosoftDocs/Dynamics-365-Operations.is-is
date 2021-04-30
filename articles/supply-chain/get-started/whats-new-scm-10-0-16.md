@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829981"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909920"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.16. (febrúar 2021)
 
@@ -33,17 +33,17 @@ ms.locfileid: "5829981"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [útgáfuáætlunina](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) til að sjá opinberar útgáfudagsetningar fyrir hvern eiginleika.
 
-- [Stillanlegt viðmót fyrir framkvæmd í vinnusal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-setup.md).
+- [Stillanlegt viðmót fyrir framkvæmd í vinnusal](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Frekari upplýsingar er að finna í [Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-setup.md).
 
-- [Innbót birgðasýnileika fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Frekari upplýsingar er að finna í [Innbót fyrir sýnileika birgða](../inventory/inventory-visibility.md)
+- [Innbót birgðasýnileika fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Frekari upplýsingar er að finna í [Innbót fyrir sýnileika birgða](../inventory/inventory-visibility.md)
 
 - Samræmd númeraröð fyrir vinnslukenni<br> - Frekari upplýsingar er að finna í [Samræmd númeraröð fyrir vinnslukenni](../production-control/unified-job-ids.md).
 
-- [Staðfesting fyrir númeraplötur í upprunaskjalslínum](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir skilgreiningu vöruhúss](../warehousing/warehouse-configuration.md).
+- [Staðfesting fyrir númeraplötur í upprunaskjalslínum](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir skilgreiningu vöruhúss](../warehousing/warehouse-configuration.md).
 
-- [Myndræn framsetning vöruhúss fyrir vinnuálag á útleið](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Frekari upplýsingar má finna í [Framsetning vinnuálags á útleið](../warehousing/outbound-workload-visualization.md)
+- [Myndræn framsetning vöruhúss fyrir vinnuálag á útleið](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Frekari upplýsingar má finna í [Framsetning vinnuálags á útleið](../warehousing/outbound-workload-visualization.md)
 
 Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
@@ -99,7 +99,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 

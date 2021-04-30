@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840101"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894778"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
 
@@ -201,7 +201,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
 Hægt er að senda skjölin inn handvirkt, út frá eftirspurn eftir skjölum rafrænna reikninga.
 
 > [!NOTE]
-> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Hafa skal í huga að einhver uppsetningarskref sem lýst er í því efnisatriði kunna að vera ekki í boði vegna virkjunar á rafrænni reikningsfærslu.
+> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](./emea-ita-e-invoices.md). Hafa skal í huga að einhver uppsetningarskref sem lýst er í því efnisatriði kunna að vera ekki í boði vegna virkjunar á rafrænni reikningsfærslu.
 
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Senda inn rafræn skjöl**.
 2. Fyrir fyrstu innsendingu á skjali skal stilla valkostinn **Senda skjöl inn aftur** á **Nei**. Ef senda þarf skjal inn aftur í gegnum þjónustuna skal stilla þennan valkost á **Já**.

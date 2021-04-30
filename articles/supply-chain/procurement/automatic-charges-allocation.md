@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841480"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910162"
 ---
 # <a name="automatic-allocation-of-charges"></a>Sjálfvirk úthlutun gjalda
 
@@ -144,7 +144,7 @@ Eftir að gjaldakóðar eru settir upp skal fylgja þessum skrefum til að skilg
     - **Svæði** og **Vöruhús** – Tilgreinið svæði og vöruhús ef aðeins á að nota gjöld fyrir tiltekið svæði og vörhús.
     - **Halda** - Veljið þennan gátreit til að halda færslugjöldunum eftir að reikningsfærslu er lokið, svo að gjaldið verið notað í hvert skipti sem nýr reikningur er stofnaður fyrir valinn viðskiptavinalykil.
 
-1. **Aðeins fyrir sölupantanir:** Ef á að reikna út stigskipt gjöld skal skoða [Stigskipt gjöld í sölupöntunum](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) til að fá upplýsingar.
+1. **Aðeins fyrir sölupantanir:** Ef á að reikna út stigskipt gjöld skal skoða [Stigskipt gjöld í sölupöntunum](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) til að fá upplýsingar.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Úthluta gjöldum úr hausnum í línu
 

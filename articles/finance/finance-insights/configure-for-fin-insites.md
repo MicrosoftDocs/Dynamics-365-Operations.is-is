@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818801"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908831"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Stillingar fyrir Fjármálainnsýn (forútgáfa)
 
@@ -69,7 +69,7 @@ Hægt er að ljúka við handvirk grunnstillingarskref sem fylgja, eða hægt er
     13. Veljið **Tilföng \> Allar eldri stillingar**.
     14. Á efstu yfirlitsstikunni skal velja **Stillingar** og síðan **Sérstillingar**.
     15. Veljið **Tilföng fyrir þróunaraðila**.
-    16. Stilla skal reitinn **Auðkenni tilvísunarupplýsingar tilviks** á gildi Dataverse-fyrirtækiskennis sem skráð var áður.
+    16. Afritið gildið **Dataverse kenni fyrirtækis**.
     17. Í veffangastikunni vafrans skal gera athugasemd við VEFSLÓÐINA fyrir Dataverse-fyrirtækið. Til dæmis gæti vefslóðin verið `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Ef ætlunin er að nota sjóðstreymisspár eða fjárhagsáætlunarspár skal fylgja þessum skrefum til að uppfæra skýringartextamörk fyrirtækisins í að minnsta kosti 50 megabæt (MB):
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Nota Windows PowerShell-forskrift](#tab/use-a-powershell-script)
 
-Boðið er upp á Windows PowerShell-forskrift þannig að auðvelt er að setja upp Azure-tilföng sem eru skilgreind í [Grunnstilla útflutning í Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Ef óskað er eftir því að setja upp handvirkt skal sleppa þessu ferli og halda áfram með ferlið í hlutanum [Handvirk uppsetning](#manual-setup).
+Boðið er upp á Windows PowerShell-forskrift þannig að auðvelt er að setja upp Azure-tilföng sem eru skilgreind í [Grunnstilla útflutning í Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Ef óskað er eftir því að setja upp handvirkt skal sleppa þessu ferli og halda áfram með ferlið í hlutanum [Handvirk uppsetning](#manual-setup).
 
 > [!NOTE]
 > Fylgið skrefunum hér að neðan til að keyra PowerShell-forskrift. Hugsanlega virkar ekki valkosturinn „Prófaðu þetta“ í Azure CLI eða ekki er hægt að keyra þessa forskrift á tölvunni.
 
-Fylgið eftirfarandi skrefum til að grunnstilla Azure með Windows PowerShell-forskriftinni. Réttindi til að búa til Azure-tilfangaflokk, Azure-tilföng og Azure AD-forrit þurfa að vera til staðar. Frekari upplýsingar um nauðsynlegar heimildir má finna á [Athuga Azure AD heimildir](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Fylgið eftirfarandi skrefum til að grunnstilla Azure með Windows PowerShell-forskriftinni. Réttindi til að búa til Azure-tilfangaflokk, Azure-tilföng og Azure AD-forrit þurfa að vera til staðar. Frekari upplýsingar um nauðsynlegar heimildir má finna á [Athuga Azure AD heimildir](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. Í [Azure-gátt](https://portal.azure.com) skal opna viðkomandi Azure-áskrift. Veljið **Cloud Shell**-hnappinn hægra megin við svæðið **Leita**.
 2. Veljið **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Grunnstilla einingaverslun
 
-Fylgið eftirfarandi skrefum til að setja upp einingaverslunina í Finance-umhverfinu.
-
-1. Opnið **Kerfisstjórnun\> Uppsetning\> Kerfisfæribreytur \> Gagnatengingar**.
-2. Stillið **Virkja Data Lake-samþættingu** á **Já**.
-3. Stillið eftirfarandi lyklageymslusvæði:
-
-    - **Forritskenni (biðlari)** – Sláið inn auðkenni forritsbiðlara sem var stofnaður áður.
-    - **Leynilykill forrits** – Sláið inn leynilykil sem vistaður var fyrir forritið sem stofnað var áður.
-    - **DNS-heiti** – Hægt er að finna heiti lénsheitakerfis á upplýsingasíðu forrits fyrir forritið sem var stofnað áður.
-    - **Leynilykilsheiti** – Sláið inn **geymsla-reikningur-tenging-strengur**.
 
 ## <a name="configure-the-data-lake"></a>Skilgreina Data Lake
 
@@ -991,6 +980,19 @@ Viðbótin verður sett upp innan fárra mínútna.
     | Leigjandakenni CDS (skráasafnskenni úr AAD)               | Auðkenni leigjanda Dataverse tilviksins Til að finna þetta gildi skal opna [Azure-gátt](https://portal.azure.com), **Azure Active Directory** og afrita gildi **leigjandakennis**. |
     | Veita notanda hlutarkenni sem er með stjórnandahlutverk | Auðkenni Azure AD-notandahlutarins í Dataverse. Þessi notandi verður að vera kerfisstjóri Dataverse-tilviks. Til að finna þetta gildi skal opna [Azure-gátt](https://portal.azure.com), opna **Azure Active Directory \> Notendur**, velja notandann og síðan, í **Auðkenni** , afrita gildið fyrir **Hlutarkenni**. |
     | Er þetta sjálfgefna CDS-umhverfið fyrir leigjandann?      | Ef Dataverse-tilvik var fyrsta framleiðslutilvikið sem var stofnað skal velja þennan gátreit. Ef Dataverse tilvik var búið til handvirkt skal hreinsa þennan gátreit. |
+
+## <a name="configure-the-entity-store"></a>Grunnstilla einingaverslun
+
+Fylgið eftirfarandi skrefum til að setja upp einingaverslunina í Finance-umhverfinu.
+
+1. Opnið **Kerfisstjórnun\> Uppsetning\> Kerfisfæribreytur \> Gagnatengingar**.
+2. Stillið **Virkja Data Lake-samþættingu** á **Já**.
+3. Stillið eftirfarandi lyklageymslusvæði:
+
+    - **Forritskenni (biðlari)** – Sláið inn auðkenni forritsbiðlara sem var stofnaður áður.
+    - **Leynilykill forrits** – Sláið inn leynilykil sem vistaður var fyrir forritið sem stofnað var áður.
+    - **DNS-heiti** – Hægt er að finna heiti lénsheitakerfis á upplýsingasíðu forrits fyrir forritið sem var stofnað áður.
+    - **Leynilykilsheiti** – Sláið inn **geymsla-reikningur-tenging-strengur**.
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

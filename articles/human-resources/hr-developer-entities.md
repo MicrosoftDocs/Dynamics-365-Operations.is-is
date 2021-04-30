@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793610"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893401"
 ---
 # <a name="dataverse-tables"></a>Dataverse töflur
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793610"
 Microsoft Dynamics 365 Human Resources notar Dataverse til að gera mögulegt atburðarás fyrir stækkun og samþættingu.
 
 > [!NOTE]
-> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Mannauðseiningar samsvara Dataverse töflum. Frekari upplýsingar um Dataverse (áður Common Data Service) og uppfærslur á hugtökum er að finna í [Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 Eftirfarandi Dataverse-töflur eru í boði sem byggja á einingum Human Resources.
 
@@ -181,8 +181,8 @@ Eftirfarandi Dataverse-töflur eru í boði sem byggja á einingum Human Resourc
 [Skilgreina Dataverse-samþættingu](hr-admin-integration-common-data-service.md)<br>
 [Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Algengar spurningar um sýndartöflur Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Hvað er Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Hugtakauppfærslur](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Hvað er Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Hugtakauppfærslur](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

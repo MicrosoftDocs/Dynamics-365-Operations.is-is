@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dc723728801909c67cb823a043a2ae3e7eaf9f05
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803874"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892204"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
 
@@ -38,7 +38,7 @@ ms.locfileid: "5803874"
 
 **Upplausn**
 
-Því miður geta notendur ekki breytt stærð textans á auðveldan hátt. Hins vegar er hægt að flytja stöðustigveldið út úr Human Resources og flytja það síðan inn í Microsoft Visio. Þrátt fyrir að eftirfarandi grein hafi verið skrifuð fyrir Microsoft Dynamics AX 2012, gildir ferlið samt sem áður fyrir Human Resources: [Flytja út stöðustigveldi í Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Því miður geta notendur ekki breytt stærð textans á auðveldan hátt. Hins vegar er hægt að flytja stöðustigveldið út úr Human Resources og flytja það síðan inn í Microsoft Visio. Þrátt fyrir að eftirfarandi grein hafi verið skrifuð fyrir Microsoft Dynamics AX 2012, gildir ferlið samt sem áður fyrir Human Resources: [Flytja út stöðustigveldi í Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Fylgið þessum skrefum til að flytja út í Visio.
 

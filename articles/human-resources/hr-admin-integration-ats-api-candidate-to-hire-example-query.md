@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795070"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893473"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Dæmi um fyrirspurn fyrir umsækjanda til ráðningar
 
@@ -27,7 +27,7 @@ ms.locfileid: "5795070"
 
 Í þessu efnisatriði er að finna einingu fyrir dæmi um fyrirspurn fyrir umsækjanda til ráðningar í Dynamics 365 Human Resources.
 
-Í þessu efnisatriði er að finna dæmi um hvernig hægt er nota *djúpa innslætti* til að búa til allar upplýsingar um færslu nýs umsækjanda í einni API-aðgerð. Frekari upplýsingar um djúpa innslætti er að finna í [Stofna tengdar einingafærslur í einni aðgerð](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Í þessu efnisatriði er að finna dæmi um hvernig hægt er nota *djúpa innslætti* til að búa til allar upplýsingar um færslu nýs umsækjanda í einni API-aðgerð. Frekari upplýsingar um djúpa innslætti er að finna í [Stofna tengdar einingafærslur í einni aðgerð](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 Einingin **mshr_hcmcandidatetohireentity** er einkvæm vegna tengsla hennar við eininguna **mshr_dirpersonentity**. Margir eiginleikarnir í **mshr_hcmcandidatetohireentity** (t.d. **mshr_firstname**, **mshr_lastname** og **mshr_birthdate**) eru fengnir frá færslunni **mshr_dirpersonentity**. Ef færsla nýs umsækjanda er bókuð í **mshr_hcmcandidatetohireentity** án þess að nota djúpan innslátt, er hægt að skilgreina gildi fyrir þessa eiginleika beint í færsluna **mshr_hcmcandidatetohireentity**. Tengda færslan **mshr_dirpersonentity** er stofnuð á óbeinan hátt með skilgreindu gildunum fyrir eiginleikana. Síðan er hægt að stofna aðrar tengdar einingafærslur (svo sem hæfni eða menntun) sem aðskilin API-köll.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832155"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909526"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.14. (nóvember 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5832155"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Þessi útgáfa inniheldur uppfærðan verkvang og almennar úrbætur, en enga nýja eiginleika sem eru sértækir fyrir Aðfangakeðjustjórnun. Frekari upplýsingar um væntanlegu eiginleikana er að finna á [Útgáfuáætlun](https://docs.microsoft.com/dynamics365/release-plans/) -svæðinu.
+Þessi útgáfa inniheldur uppfærðan verkvang og almennar úrbætur, en enga nýja eiginleika sem eru sértækir fyrir Aðfangakeðjustjórnun. Frekari upplýsingar um væntanlegu eiginleikana er að finna á [Útgáfuáætlun](/dynamics365/release-plans/) -svæðinu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -49,7 +49,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 

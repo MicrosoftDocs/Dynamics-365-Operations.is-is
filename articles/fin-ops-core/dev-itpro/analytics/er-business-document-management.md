@@ -2,7 +2,7 @@
 title: Yfirlit yfir stjórnun viðskiptaskjala
 description: Þetta efni veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunaraðgerð ER-ramma.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749538"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891306"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -45,9 +45,9 @@ Til að nota viðskiptaskjalastjórnun fyrir breytingar á sniðmátum á Excel-
 
 ## <a name="business-document-availability"></a>Framboð á viðskiptaskjölum
 
-Fyrir heildarlista yfir allar skýrslur sem áætlaðar eru fyrir október 2019 útgáfuna skal skoða [Skilgreinanleg skýrslugerð viðskiptaskjala í Word og Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Fyrir heildarlista yfir allar skýrslur sem áætlaðar eru fyrir október 2019 útgáfuna skal skoða [Skilgreinanleg skýrslugerð viðskiptaskjala í Word og Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Fyrir heildarlista yfir allar skýrslur sem áætlaðar eru fyrir október 2020 útgáfuna skal skoða [Skilgreinanleg viðskiptaskjöl – Word-sniðmát](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Fyrir heildarlista yfir allar skýrslur sem áætlaðar eru fyrir október 2020 útgáfuna skal skoða [Skilgreinanleg viðskiptaskjöl – Word-sniðmát](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Fleiri skýrslur verða í boði í síðari útgáfum. Sérstakar tilkynningar um viðbótarskýrslur verða sendar sérstaklega. Frekari upplýsingar um hvernig á að fara yfir lista yfir skýrslur sem eru í boði er að finna í kaflanum [Listi yfir skilgreiningar rafrænnar skýrslugerðar sem hafa verið gefnar út í Finance til að styðja skilgreinanleg viðskiptaskjöl](#list-of-configurations-cbd) hér að neðan.
 
@@ -272,7 +272,23 @@ Valkosturinn **Breyta sniðmáti** er í boði fyrir valið sniðmát. Þessi va
 
 ![Staðfesta upphaf breytingarferlis til að stofna nýtt sniðmát](./media/BDM-Overview-EditingTemplate4.png)
 
+Ef enginn veitandi er til staðar verður boðið upp á hann til að geta stofnað. Ef enginn virkur veitandi er til staðar verður boðið upp á hann til að velja hann fyrir virkjun.
+
+Til að búa til veitu skal breyta heiti veitunnar í reitnum **Heiti**, uppfæra veffang nýju veitunnar í reitnum **Veffang** og velja **Í lagi** til að staðfesta.
+
+   ![Stofna nýja veitu í BDM](./media/bdm_create_provider.png)
+
+Til að virkja núverandi veitanda skal velja heiti veitandans í reitnum **Skilgreiningarveitandi** og velja **Í lagi** til að stilla veitandann sem virkan.
+
+   ![Virkja veitu í BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Hvert BDM-sniðmát vísar í veituna sem höfund skilgreiningarinnar. Þess vegna þarf að hafa virka veitu fyrir sniðmátið.
+
+
 Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af núverandi og annarri veitu (Microsoft í þessu tilfelli) sem ekki er með neina endurskoðun. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
+
+
 
 ### <a name="start-editing-a-template"></a>Byrja á að breyta sniðmáti
 
@@ -419,7 +435,7 @@ Líklegast skráðir þú þig inn í núverandi tilvik forritsins í Azure AD-l
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Listi yfir skilgreiningar rafrænnar skýrslugerðar sem hafa verið gefnar út í Finance til að styðja skilgreinanleg viðskiptaskjöl
 
-Sífellt er verið að uppfæra [Listann](general-electronic-reporting.md#list-of-configurations) yfir skilgreiningar rafrænnar skýrslugerðar fyrir Finance. Opnið [Altæka geymsla](er-download-configurations-global-repo.md) til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru studdar. Hægt er að [sía](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) altæka geymslu til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru notaðar til að styðja skilgreinanleg viðskiptaskjöl.
+Sífellt er verið að uppfæra [Listann](general-electronic-reporting.md#list-of-configurations) yfir skilgreiningar rafrænnar skýrslugerðar fyrir Finance. Opnið [Altæka geymsla](er-download-configurations-global-repo.md) til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru studdar. Hægt er að [sía](../../../finance/localizations/enhanced-filtering-global-repo.md) altæka geymslu til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru notaðar til að styðja skilgreinanleg viðskiptaskjöl.
 
 ![Efni altækrar geymslu síað á síðu skilgreiningageymslu](./media/bdm-overview-filterglobalrepo.gif)
 

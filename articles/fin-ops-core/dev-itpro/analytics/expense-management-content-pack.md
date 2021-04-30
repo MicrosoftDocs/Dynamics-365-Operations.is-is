@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743508"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893253"
 ---
 # <a name="expense-management-power-bi-content"></a>Power BI-efni útgjaldastýringar
 
@@ -41,7 +41,7 @@ Tveir Power BI efnispakkar eru í boði til að nota með útgjaldastýringu í 
 Allar upphæðir eru sýndar í gjaldmiðli fyrirtækis. Gögn fyrir öll fyrirtæki eru sýnd, en ef þess gerist þörf er hægt að bæta við fyrirtækissíu. 
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
-Hægt er að finna Expense Admin Dashboard.pbix og Expense Personal Dashboard.pbix Power BI efni í samnýttu eignasafni í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Hægt er að finna Expense Admin Dashboard.pbix og Expense Personal Dashboard.pbix Power BI efni í samnýttu eignasafni í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Efnið er tiltækt á vinnusvæði útgjaldastýringar sem innfellt Power BI-efni. Hvaða eigandi kostnaðar sem er hefur aðgang að persónulegum útgjöldum, á meðan einungis starfsmenn og stjórnendur viðskiptaskulda hafa aðgang að efni kerfisstjóra til að skoða öll kostnaðargögn notanda.
 
 ## <a name="refreshing-the-power-bi-content"></a>Endurhleður Power BI efni

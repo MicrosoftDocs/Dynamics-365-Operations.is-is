@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840774"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909001"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Sérsníða og nota viðskiptavinagátt
 
@@ -33,14 +33,14 @@ Viðskiptavinagáttin býður upp á nokkrar tilbúnar vefsíður og aðgerðir.
 
 Eftirfarandi efnisatriði munu hjálpa til við að læra grunnatriði varðandi Power Apps-gáttir og hvernig hægt er að sérsníða gáttir:
 
-- [Vinna með sniðmát](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – Í þessu efnisatriði er boðið upp á almennt yfirlit um hvernig Power Apps-gáttar virka og hvernig hægt er að gera einfaldar sérstillingar á gáttum.
-- [Stjórna efni gáttar](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Þetta efnisatriði útskýrir hvernig hægt er að stjórna og sérsníða efnið sem er flett upp í gáttinni.
-- [Breyta CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Þetta efnisatriði hjálpar til við að gera flóknari sérsnið í notendaviðmóti gáttarinnar.
-- [Stofna þema fyrir gáttina](https://docs.microsoft.com/dynamics365/portals/create-theme) – Þetta efnisatriði hjálpar til við að stofna þema notandaviðmóts fyrir gáttina þína.
-- [Búa til og sýna efni gáttar á auðveldan hátt](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Þetta efnisatriði hjálpar til við að stjórna undirliggjandi gögnum og töflum sem eru notaðar í gáttinni.
-- [Skilgreina tengilið fyrir notkun á gátt](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Þetta efnisatriði útskýrir hvernig á að búa til og sérsníða notandahlutverk og hvernig öryggi og sannvottun virka í Power Apps gáttum.
-- [Skilgreina athugasemdir fyrir skjámyndir tafla og vefs í gáttum](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Þetta efnisatriði útskýrir hvernig á að bæta skjölum og viðbótargeymslum við gáttina.
-- [Villumeðhöndlun fyrir vefsvæði gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Þetta efnisatriði útskýrir hvernig á að skoða villuskráningar gáttar og geyma þær í blob-geymslureikningi Microsoft Azure.
+- [Vinna með sniðmát](/powerapps/maker/portals/work-with-templates) – Í þessu efnisatriði er boðið upp á almennt yfirlit um hvernig Power Apps-gáttar virka og hvernig hægt er að gera einfaldar sérstillingar á gáttum.
+- [Stjórna efni gáttar](/dynamics365/portals/manage-portal-content) – Þetta efnisatriði útskýrir hvernig hægt er að stjórna og sérsníða efnið sem er flett upp í gáttinni.
+- [Breyta CSS](/powerapps/maker/portals/edit-css) – Þetta efnisatriði hjálpar til við að gera flóknari sérsnið í notendaviðmóti gáttarinnar.
+- [Stofna þema fyrir gáttina](/dynamics365/portals/create-theme) – Þetta efnisatriði hjálpar til við að stofna þema notandaviðmóts fyrir gáttina þína.
+- [Búa til og sýna efni gáttar á auðveldan hátt](/dynamics365/portals/create-expose-portal-content) – Þetta efnisatriði hjálpar til við að stjórna undirliggjandi gögnum og töflum sem eru notaðar í gáttinni.
+- [Skilgreina tengilið fyrir notkun á gátt](/powerapps/maker/portals/configure/configure-contacts) – Þetta efnisatriði útskýrir hvernig á að búa til og sérsníða notandahlutverk og hvernig öryggi og sannvottun virka í Power Apps gáttum.
+- [Skilgreina athugasemdir fyrir skjámyndir tafla og vefs í gáttum](/powerapps/maker/portals/configure-notes) – Þetta efnisatriði útskýrir hvernig á að bæta skjölum og viðbótargeymslum við gáttina.
+- [Villumeðhöndlun fyrir vefsvæði gáttar](/powerapps/maker/portals/admin/view-portal-error-log) – Þetta efnisatriði útskýrir hvernig á að skoða villuskráningar gáttar og geyma þær í blob-geymslureikningi Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Sérsníða stofnferli pantana
 
@@ -88,7 +88,7 @@ Hér eru stöðluð skref til að senda inn pöntun úr viðskiptavinagátt.
 
 Til að tryggja liprari notendaupplifun fyllir viðskiptavinagáttin sjálfkrafa út gildin fyrir nokkra áskilda reiti. Þessi gildi eru byggð á upplýsingum í tengiliðafærslu viðskiptavinarins sem er að senda pöntunina.
 
-Fyrir hverja [tengiliðalínu](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) sem tilheyrir viðskiptavini sem notar viðskiptavinagáttina til að senda inn pantanir, verða gildi að vera tilgreind fyrir eftirfarandi áskilda reiti. Annars koma upp villur.
+Fyrir hverja [tengiliðalínu](/powerapps/maker/portals/configure/configure-contacts) sem tilheyrir viðskiptavini sem notar viðskiptavinagáttina til að senda inn pantanir, verða gildi að vera tilgreind fyrir eftirfarandi áskilda reiti. Annars koma upp villur.
 
 - **Fyrirtæki** – Lögaðili sem pöntunin tilheyrir
 - **Mögulegur viðskiptavinur** - Viðskiptavinalykill sem tengist pöntuninni
@@ -134,16 +134,16 @@ Fyrir vörur eru eftirfarandi dálkar nauðsynlegir:
 
 Ganga þarf úr skugga um að viðskiptavinargáttin sendi á einhvern hátt gildi fyrir alla þessa dálka.
 
-Ef bæta á dálkum við síðuna, eða fjarlægja dálka, sjá [Stofna eða breyta fljótlegri stofnun skjámynda fyrir einfalda upplifun gagnaskráningar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Ef bæta á dálkum við síðuna, eða fjarlægja dálka, sjá [Stofna eða breyta fljótlegri stofnun skjámynda fyrir einfalda upplifun gagnaskráningar](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Ef ætlunin er að breyta því hvernig dálkar eru forstilltir og hvernig gildi eru stillt þegar síðan er vistuð skal skoða eftirfarandi upplýsingar í fylgiskjölum Power Apps-gátta:
 
-- [Fylla út reiti fyrirfram](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Stilla gildi á vista](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Fylla út reiti fyrirfram](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Stilla gildi á vista](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Sérsníða heimasíðu
 
-Allar stýringar í gátt viðskiptavinar eru innbyggðar Power Apps-gáttastýringar. Hægt er að sérstilla þær með því að fylgja skrefunum í [Búa til síðu](https://docs.microsoft.com/powerapps/maker/portals/compose-page) í fylgiskjali Power Apps-gátta.
+Allar stýringar í gátt viðskiptavinar eru innbyggðar Power Apps-gáttastýringar. Hægt er að sérstilla þær með því að fylgja skrefunum í [Búa til síðu](/powerapps/maker/portals/compose-page) í fylgiskjali Power Apps-gátta.
 
 Eina sérstillta stýringin sem er í sniðmáti viðskiptavinagáttar er notuð til að búa til reitina á heimasíðunni.
 
@@ -151,7 +151,7 @@ Eina sérstillta stýringin sem er í sniðmáti viðskiptavinagáttar er notuð
 
 Til að breyta reitunum skal fylgja þessum skrefum.
 
-1. Opnið [Forrit gáttarstjórnunar](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Opnið [Forrit gáttarstjórnunar](/powerapps/maker/portals/configure/configure-portal).
 1. Á yfirlitssvæðinu vinstra megin er valið **Sniðmát pantana**.
 
     ![Yfirlitssvæði gáttarstjórnunar](media/customer-portal-nav.png "Yfirlitssvæði gáttarstjórnunar")
@@ -167,11 +167,11 @@ Til að breyta reitunum skal fylgja þessum skrefum.
 
 Frekari upplýsingar um hvernig hægt er að setja upp og sérsníða viðskiptavinagáttina eru í eftirfarandi tilföngum:
 
-- [Power Apps fylgiskjöl gátta](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps fylgiskjöl gátta](/powerapps/maker/portals/overview)
 - [Tvískrifuð fylgiskjöl](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Um stuðningstíma gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Uppfæra gátt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Flytja grunnstillingu gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Um stuðningstíma gáttar](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Uppfæra gátt](/powerapps/maker/portals/admin/upgrade-portal)
+- [Flytja grunnstillingu gáttar](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 fyrir forrit Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791534"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892276"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
@@ -39,7 +39,7 @@ Uppfærslur eru gefnar út með reglubundnum hætti fyrir öll umhverfi. Human R
 
 Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Resources veitir tvenns konar útgáfur:
 
-- **Þjónustuuppfærslur**: Uppfærslur verða á tveggja vinkna fresti sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi uppfærslur á palli þegar þær eru gefnar út. Sjá til að fá hugmynd um hvenær uppfærslur á verkvangi eru gefnar út [Tafla 3: Verkvangsútgáfur](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Uppfærslur á tveggja vikna fresti eru settar á svið alþjóðlegt útbreiðsla milli svæða. Nánari upplýsingar um uppfærslur á tveggja vikna fresti eru í [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Þjónustuuppfærslur**: Uppfærslur verða á tveggja vinkna fresti sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi uppfærslur á palli þegar þær eru gefnar út. Sjá til að fá hugmynd um hvenær uppfærslur á verkvangi eru gefnar út [Tafla 3: Verkvangsútgáfur](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Uppfærslur á tveggja vikna fresti eru settar á svið alþjóðlegt útbreiðsla milli svæða. Nánari upplýsingar um uppfærslur á tveggja vikna fresti eru í [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Öll studd gagnaver uppfæra á tveggja vikna fresti nema annað sé tekið fram. Bandaríkin, Ástralía, Evrópa, Bretland, Asía og Kanada eru með í uppfærslum á tveggja vikna fresti. 
 
@@ -71,11 +71,11 @@ Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 10. janúar 2022
 
 - [Dynamics 365 Human Resources leiðarvísir](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Útgáfuáætlanir Dynamics 365](/dynamics365/release-plans/)
 
 - [Nýjungar eða breytingar í Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Vandamálaleit í Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (aðeins fyrir villur sem tengjast verkvangi)
+- [Vandamálaleit í Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (aðeins fyrir villur sem tengjast verkvangi)
 
 - [Human Resources-bloggið](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 10. janúar 2022
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Forskoðaðu aðgerðir í sandkassaumhverfi
 
-Þú getur sannreynt forsýningaraðgerðir í sandkassaumhverfi áður en þú virkjar þá í framleiðsluumhverfi þínu. Nánari upplýsingar um virkjun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Þú getur sannreynt forsýningaraðgerðir í sandkassaumhverfi áður en þú virkjar þá í framleiðsluumhverfi þínu. Nánari upplýsingar um virkjun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Allar nýju aðgerðirnar eru áfram í forskoðun í að minnsta kosti 30 daga og venjulega 30-60 daga. Helstu eiginleikar eru venjulega fáanlegir í október og apríl ár hvert í kjölfar forskoðunartímabilsins. Um leið og þú sérð nýja möguleika í vinnusvæðinu Stjórnun eiginleika er hægt að kveikja á þeim. Sumar aðgerðir kunna að vera sjálfkrafa á.
 
@@ -101,9 +101,9 @@ Nánari upplýsingar um vistun á sandkassaumhverfi, sjá [Veita verk Human Reso
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Útgáfuáætlanir Dynamics 365 og Power Platform](/dynamics365/release-plans)</br>
 [Nýjungar eða breytingar í Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Reglur um stuðningstíma hugbúnaðar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Reglur um stuðningstíma hugbúnaðar](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753649"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894101"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Frestaðu framkvæmd raðarþátta á ER sniði
 
@@ -42,7 +42,7 @@ Valkosturinn **Frestuð framkvæmd** á ekki við um raðir sem hafa verið stil
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Dæmi: Frestaðu framkvæmd raðarþáttar á ER-sniði
 
-Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) getur stillt ER snið sem inniheldur röð frumefnis þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
+Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](../sysadmin/tasks/assign-users-security-roles.md) getur stillt ER snið sem inniheldur röð frumefnis þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 
 Hægt er að framkvæma þessum skrefum í **USMF** fyrirtæki í Microsoft Dynamics 365 Finance.
 

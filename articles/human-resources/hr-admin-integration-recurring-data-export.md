@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801120"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889861"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Búa til útflutningsforrit fyrir endurtekin gögn
 
@@ -43,12 +43,12 @@ ms.locfileid: "5801120"
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)**- Aðalgagnagjafi fyrir starfsmenn sem verða fluttir út.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** - Tæknin sem veitir skipulagningu og tímasetningu endurtekinna útflutnings.
 
-    - **[Tengi](https://docs.microsoft.com/azure/connectors/apis-list)** - Tæknin sem er notuð til að tengja rökfræðiforritið við nauðsynlega endapunkta.
+    - **[Tengi](/azure/connectors/apis-list)** - Tæknin sem er notuð til að tengja rökfræðiforritið við nauðsynlega endapunkta.
 
-        - [HTTP með Azure AD](https://docs.microsoft.com/connectors/webcontents/) tengi
-        - [OneDrive fyrir Business](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) tengi
+        - [HTTP með Azure AD](/connectors/webcontents/) tengi
+        - [OneDrive fyrir Business](/azure/connectors/connectors-create-api-onedriveforbusiness) tengi
 
-- **[DMF-pakki REST API](../dev-itpro/data-entities/data-management-api.md)** - Tæknin sem notuð er til að koma útflutningi af stað og fylgjast með framvindu þess.
+- **[DMF-pakki REST API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** - Tæknin sem notuð er til að koma útflutningi af stað og fylgjast með framvindu þess.
 - **[OneDrive fyrir viðskipti](https://onedrive.live.com/about/business/)** - Áfangastaðurinn fyrir útfluttu starfsmennina.
 
 ## <a name="prerequisites"></a>Forkröfur
@@ -84,11 +84,11 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
     ![Búðu til síðu með rökfræðiforriti](media/integration-logic-app-creation-1.png)
 
 2. Byrjaðu með autt rökfræðiforrit hjá Logic Apps Designer.
-3. Bættu við [Kveikja á endurkomuáætlun](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) til að keyra rökfræðiforritið á 24 tíma fresti (eða samkvæmt áætlun að eigin vali).
+3. Bættu við [Kveikja á endurkomuáætlun](/azure/connectors/connectors-native-recurrence) til að keyra rökfræðiforritið á 24 tíma fresti (eða samkvæmt áætlun að eigin vali).
 
     ![Endurtekinn svargluggi](media/integration-logic-app-recurrence-step.png)
 
-4. Kallaðu í [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API til að tímasetja útflutning á gagnapakkanum.
+4. Kallaðu í [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API til að tímasetja útflutning á gagnapakkanum.
 
     1. Notaðu aðgerðina **Kalla á HTTP-beiðni** frá HTTP með Azure AD-tengi.
 
@@ -122,13 +122,13 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
     > [!TIP]
     > Þú gætir viljað endurnefna hvert skref svo það sé meira máli en sjálfgefið nafn, **Kallaðu á HTTP beiðni**. Til dæmis er hægt að endurnefna þetta skref **ExportToPackage**.
 
-5. [Frumstilla breytu](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) til að geyma framkvæmdastöðuna á **ExportToPackage** beiðni.
+5. [Frumstilla breytu](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) til að geyma framkvæmdastöðuna á **ExportToPackage** beiðni.
 
     ![Frumstilla breytilega aðgerð](media/integration-logic-app-initialize-variable-step.png)
 
 6. Bíddu þar til framkvæmdastöðin fyrir gagnaútflutninginn er **Tókst**.
 
-    1. Bættu við [Þar til lykkja](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) sem er endurtekin þar til gildið breytan **ExecutionStatus** er **Tókst**.
+    1. Bættu við [Þar til lykkja](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) sem er endurtekin þar til gildið breytan **ExecutionStatus** er **Tókst**.
     2. Bættu við aðgerðinni **Töf** sem bíður í fimm sekúndur áður en hún kannar núverandi framkvæmdastöðu útflutningsins.
 
         ![Þangað til lykkjuílát](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
         > [!NOTE]
         > Stilltu mörkin við **15** til að bíða að hámarki 75 sekúndur (15 endurtekningar × 5 sekúndur) til að útflutningi verði lokið. Ef útflutningur þinn tekur lengri tíma, aðlagaðu mörkin eftir því sem við á.        
 
-    3. Bættu við aðgerðinni **Kalla á HTTP-beiðni** til að kalla í [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API, og stilltu breytuna **ExecutionStatus** til að fá svarið **GetExecutionSummaryStatus**.
+    3. Bættu við aðgerðinni **Kalla á HTTP-beiðni** til að kalla í [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API, og stilltu breytuna **ExecutionStatus** til að fá svarið **GetExecutionSummaryStatus**.
 
-        > Þetta sýnishorn gerir ekki villu við athugun. **GetExecutionSummaryStatus** API getur skilað afgreiðslustöðum sem ekki ná árangri (það er, aðrar stöður en **Tókst**). Nánari upplýsingar fást í fylgigögnum um [API](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
+        > Þetta sýnishorn gerir ekki villu við athugun. **GetExecutionSummaryStatus** API getur skilað afgreiðslustöðum sem ekki ná árangri (það er, aðrar stöður en **Tókst**). Nánari upplýsingar fást í fylgigögnum um [API](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus).
 
         - **Aðferð:** POST
         - **Vefslóð beiðninnar:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
 
 7. Sæktu niðurflutta slóð útflutts pakkans.
 
-    - Bættu við aðgerðinni **Kalla á HTTP beiðni** til að kalla í [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API.
+    - Bættu við aðgerðinni **Kalla á HTTP beiðni** til að kalla í [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API.
 
         - **Aðferð:** POST
         - **Vefslóð beiðninnar:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
 
 8. Sæktu útflutta pakkann.
 
-    - Bættu við HTTP-beiðninni **GET** (innbyggt [Aðgerð HTTP tengis](https://docs.microsoft.com/azure/connectors/connectors-native-http)) til að hlaða niður pakkanum af slóðinni sem var skilað í fyrra skrefi.
+    - Bættu við HTTP-beiðninni **GET** (innbyggt [Aðgerð HTTP tengis](/azure/connectors/connectors-native-http)) til að hlaða niður pakkanum af slóðinni sem var skilað í fyrra skrefi.
 
         - **Aðferð:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
         > [!NOTE]
         > Þessi beiðni þarf ekki frekari sannvottun vegna þess að slóðin sem **GetExportedPackageUrl** API skilar samanstendur af samnýttum undirskriftartákni sem veitir aðgang til að hlaða niður skránni.
 
-9. Vistaðu pakkann sem hlaðið var niður með því að nota [OneDrive fyrir viðskipti](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) tengi.
+9. Vistaðu pakkann sem hlaðið var niður með því að nota [OneDrive fyrir viðskipti](/azure/connectors/connectors-create-api-onedriveforbusiness) tengi.
 
-    - Bættu við aðgerðinni OneDrive fyrir viðskipti [Búðu til skrá](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file).
+    - Bættu við aðgerðinni OneDrive fyrir viðskipti [Búðu til skrá](/connectors/onedriveforbusinessconnector/#create-file).
     - Tengstu þínu OneDrive fyrir viðskiptareikning, eins og krafist er.
 
         - **Möppuslóð:** Mappa að eigin vali

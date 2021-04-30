@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791948"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857274"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -142,6 +142,9 @@ UWP, þegar um jaðartæki er að ræða, tengist stuðningi Windows fyrir Plug 
 ### <a name="keyboard-wedge"></a>Lyklaborðstenging
 
 Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
+
+> [!NOTE]
+> Þegar lyklaborðstenging við skanna er notuð á sölustað þarf að forrita hana til að senda boð til baka eða tilvik **Færslulykils** á eftir síðasta skannað staf. Ef þessi skilgreining er ekki gerð mun lyklaborðstenging við skanna ekki virka á réttan hátt. Skoðið fylgigögnin sem tækjaframleiðandi veitir til að fá upplýsingar um hvernig á að bæta við tilviki vegna boða sem send eru til baka.  
 
 ### <a name="native-printer"></a>Innbyggður prentari
 

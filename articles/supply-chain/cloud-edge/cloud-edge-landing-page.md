@@ -1,169 +1,195 @@
 ---
-title: Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
+title: Nota einingarkvarða til að stuðla að aukinni getu gagnvart vinnuálagi Supply Chain Management
 description: Þetta efnisatriði veitir upplýsingar um einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 author: cabeln
-ms.date: 10/06/2020
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: cabeln
-ms.search.validFrom: 2020-09-23
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c47088edd89413d196e904bc7eaa115585bf8464
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836711"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899144"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
+# <a name="use-scale-units-to-help-increase-resilience-for-supply-chain-management-workloads"></a>Nota einingarkvarða til að stuðla að aukinni getu gagnvart vinnuálagi Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Einingarkvarðar fyrir ský gerir kleift að dreifa vinnuálagi í vinnusal og vöruhúsi í mismunandi umhverfum. Þessi virkni getur hjálpað til við að auka afköst, koma í veg fyrir truflun á þjónustu og hámarkað uppitíma. Hún er veitt af eftirfarandi viðbótum:
+> [!IMPORTANT]
+> Boðið er upp á möguleika einingarkvarða fyrir Microsoft Dynamics 365 Supply Chain Management samkvæmt skilmálunum sem ná utan um notkun þjónustunnar. Nánari upplýsingar eru í [Microsoft Dynamics Lagalegar upplýsingar](https://go.microsoft.com/fwlink/?LinkID=290927).
+>
+> Með því að virkja einingarkvarða fyrir ský og edge, staðfestir þú að þú skiljir að sum gögn sem tengjast skilgreiningu og úrvinnslu einingarkvarða í skýi og edge kunni að vera geymd í gagnamiðstöðvum sem eru staðsettar í Bandaríkjunum. Frekari upplýsingar um úrvinnslu gagna fyrir einingarkvarða skýs og jaðars er að finna í hlutanum [Gagnavinnsla við stjórnun einingarkvarða](#data-processing-management) síðar í þessu efnisatriði.
 
-- Viðbót Cloud Scale Unit fyrir Dynamics 365 Supply Chain Management
-- Viðbót Edge Scale Unit fyrir Dynamics 365 Supply Chain Management
+## <a name="core-value-proposition-for-scale-units"></a>Helsti ávinningur einingarkvarða
 
 Fyrirtæki sem vinna með framleiðslu og dreifingu verða að geta keyrt helstu viðskiptaferla allan sólarhringinn án truflana og á eðlilegum hraða. Cloud and edge scale units gerir fyrirtækjum kleift að keyra mikilvægustu framleiðslu- og vöruhúsaferla án truflana, jafnvel þegar koma upp stöku vandamál tengd nettengingu eða biðtíma.
 
-## <a name="public-preview-information"></a>Upplýsingar um forútgáfu
+Einingarkvarðar fyrir ský gerir kleift að dreifa vinnuálagi í vinnusal og vöruhúsi í mismunandi umhverfum. Þessi virkni getur hjálpað til við að auka afköst, koma í veg fyrir truflun á þjónustu og hámarkað uppitíma. Boðið er upp á einingarkvarða í gegnum eftirfarandi innbætur fyrir áskriftina að Supply Chain Management:
 
-Forútgáfan býður upp á eitt umhverfi sem virkar sem miðstöð í skýi fyrir Dynamics 365 Supply Chain Management-umhverfið og eitt umhverfi sem virkar sem skýjaeiningarkvörðun.
+- Viðbót Cloud Scale Unit fyrir Dynamics 365 Supply Chain Management (*í boði frá apríl 2021*)
+- Viðbót Edge Scale Unit fyrir Dynamics 365 Supply Chain Management (*í boði fljótlega*)
 
-<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
-
-### <a name="preview-availability"></a>Skoða stöðu
-
-Forútgáfan fyrir cloud og edge scale units verður aðgengileg fyrir fyrirliggjandi viðskiptavini Supply Chain Management í október 2020.
-
-Til að fá aðgang að forútgáfu 10.0.15/verkvangsuppfærslu 39 fyrir uppsetningu í [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2) umhverfinu, þarftu að vera hluti af forskoðun snemmbúins aðgangs (einnig þekkt sem PEAP) fyrir Supply Chain Management. Hægt er að taka þátt í PEAP ef þú ert þegar meðlimur stærra [Dynamics Insider Program](https://experience.dynamics.com/insider). Veljið einfaldlega forritið sem heitir „Finance & Operations: Forskoða snemmbúinn aðgang (PEAP).“
-
-> [!IMPORTANT]
-> Möguleiki einingarkvarða fyrir Supply Chain Management er aðeins í boði ef þú samþykkir [Cloud + Edge forútgáfa fyrir Finance and Operations skilmála](https://Aka.ms/SCMCnETerms).
-
-### <a name="data-processing-for-the-preview"></a>Gagnavinnsla fyrir forútgáfuna
-
-Meðan opin forútgáfa stendur yfir verða sumar umsjónarþjónustur hýstar í Bandaríkjunum. Hins vegar, þegar eiginleikinn verður almennt í boði verða þessar umsjónarþjónustur í boði á öllum svæðum sem Supply Chain Management styður. Þetta hefur áhrif á flutning og geymslu stjórnunarupplýsinga sem stjórnandi einingarkvörðunar notar, þ.m.t.:
-
-- Heiti og auðkenni leigjenda
-- LCS-verkkenni
-- Tölvupóstur stjórnanda sem er notað fyrir innskráningu
-- Umhverfiskenni fyrir miðstöð og kvörðunareiningar
-- Skilgreiningar vinnuálags
-- Safnaðar mælingar (t.d. biðtími og gegnumstreymi) sem eru sýndar á greiningarsíðu vörpunar
-
-Gögnum sem flutt eru í og geymd í gagnamiðstöðvum Bandaríkjanna verður eytt þegar notkun á umhverfum forútgáfa er hætt.
-
-### <a name="sign-up-for-the-preview"></a>Skráðu þig fyrir forskoðun
-
-Til að skrá sig fyrir forútgáfu cloud og edge fyrir Supply Chain Management, verður fyrirtækið þitt að vera með lifandi skýjaumhverfi Supply Chain Management.
-
-Möguleikar einingarkvörðunar eru sem stendur í opinni forútgáfu. Þegar þú skráir þig, verður þú að nota notandareikning í tilteknum leigjanda. Einnig þarf að vera verkeigandi eða stjórnandi umhverfis í LCS fyrir virkt LCS-verk Dynamics 365 í þeim leigjanda.
-
-Þegar þú skráir þig fyrir forútgáfuna, velurðu leigjanda og ferð í gegnum innskráningarferlið. Um leið og Microsoft getur úthlutað forútgáfunni, færðu tölvupóst frá okkur með úthlutunarupplýsingum og kynningarkóðum fyrir tvö umhverfi (miðstöð og einingarkvarða) fyrir viðeigandi LCS-verk. Þá er hægt að setja upp umhverfin tvö sem 2 laga sandkassaumhverfi. Þessi umhverfi gilda í 60 daga frá stofndegi kynningarkóðans. Ekki ætti að nota umhverfin fyrr en skrefið sem lýst er í næstu efnisgrein er lokið.
-
-Þegar búið er að staðfesta hjá Microsoft að umhverfin tvö hafi verið sett upp með því að nota kynningarkóðana, verður annað umhverfanna skilgreint sem miðstöð og hitt skilgreint sem einingarkvarði. Síðan er hægt að skilgreina einingarkvarðana og setja upp vinnuálag valins vöruhúsakerfi og framleiðslu með því að nota [Gátt Scale Unit Manager](https://aka.ms/SCMSUM).
-
-Umhverfum forútgáfu verður eytt sjálfkrafa eftir 60 daga. Hins vegar gæti þeim verið eytt fyrr ef svo virðist sem þau séu ekki notuð. Þegar umhverfum forútgáfu hefur verið eytt, geturðu skráð þig og beðið eftir nýrri uppsetningu forútgáfu.
-
-Til að skrá sig fyrir forskoðuninni skaltu fara í [Gátt Scale Unit Manager](https://aka.ms/SCMSUM).
-
-### <a name="limitations-that-apply-during-the-preview-period"></a>Takmarkanir sem gilda meðan á forskoðunartímabilinu stendur
-
-> [!IMPORTANT]
-> Á upphafsstigi forskoðunaráætlunarinnar fyrir þennan eiginleika, styður Microsoft aðeins miðstöðvar sem eru með einingarkvarða í skýi, ekki miðstöðvar sem eru með einingarkvarða í edge. Edge-einingarkvarðar eru uppsettir á staðnum og verða væntanlega aðgengilegir á næsta stigi áætlunarinnar.
-
-Vegna þess að einingarkvarðar í skýi og edge eru forskoðunareiginleikar, er framboð á þjónustum þeim tengdum í boði í takmörkuðum löndum og svæðum. Með því að virkja einingarkvarða fyrir ský og edge, staðfestir þú að þú skiljir að sum gögn sem tengjast skilgreiningu og úrvinnslu einingarkvarða í skýi og edge kunni að vera geymd í gagnamiðstöðvum sem eru staðsettar í Bandaríkjunum. Með því að virkja einingarkvarða í skýi og edge, samþykkir þú einnig [Forskoðun skýs + Edge fyrir Finance and Operations skilmála](https://Aka.ms/SCMCnETerms). Frekari upplýsingar um einingarkvarða í skýi og edge er að finna í [fylgiskjöl](https://aka.ms/scmcne).
-
-Persónuvernd þín skiptir Microsoft máli. Til að fá nánari upplýsingar skaltu lesa [yfirlýsingu okkar um persónuvernd](https://aka.ms/privacy).
-
-> [!IMPORTANT]
-> Einhver viðskiptavirkni er ekki studd að fullu í opinni forútgáfu þegar vinnuálag er notað í einingarkvörðum. Frekari upplýsingar um hagnýtt vinnuálag er að finna í hlutunum síðar í þessu efnisatriði.
+Verið er að gefa út möguleika vinnuálags jafnt og þétt í gegnum stigvaxandi viðbætur.
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Einingarkvarðar og úthlutað vinnuálag
 
+Einingarkvarðar stækka umhverfi Supply Chain Management miðstöðvarinnar með því að bæta við úthlutaðri úrvinnslugetu. Hægt er að keyra einingarkvarða í skýinu. Að öðrum kosti er hægt að keyra þá í jaðrinum á vinnustaðnum.
+
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 með einingarkvörðum":::
 
-Einingarkvarðar stækka umhverfi Supply Chain Management miðstöðvarinnar með því að bæta við úthlutaðri úrvinnslugetu. Hægt er að keyra einingarkvarða í skýinu. Að öðrum kosti er hægt að keyra þá á staðbundinni starfsstöð. Hægt er að aftengja einingarkvarða tímabundið frá miðstöðvarumhverfinu. Þegar þeir eru tengdir fá einingarkvarðarnir allar upplýsingarnar sem þarf til að keyra úthlutaða úrvinnslu fyrir úthlutað vinnuálag.
+Einingarkvarðar bjóða upp á sveigjanleika, áreiðanleika og skölun fyrir úthlutað vinnuálag. Hægt er að aftengja tímabundið einingarkvarða jaðars frá umhverfi skýjamiðstöðvar og starfsfólk heldur áfram að vinna í úthlutuðu vinnuálagi í jaðrinum.
 
-:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Valkostir einingarkvarða í opinni forútgáfu":::
+*Vinnuálag* er skilgreint safn viðskiptavirkni sem hægt er að taka til greina og úthluta til einingarkvarða. Þótt búið sé að gefa út vinnuálagið fyrir vöruhúsakerfið, er vinnuálagið fyrir framkvæmd framleiðslu enn í forútgáfu.
 
-Fyrir opna forútgáfu er hægt að skilgreina umhverfi miðstöðvar með valið vinnuálag í einingarkvarða í skýinu með því að nota gátt Scale Unit Manager. Þátttakendur forskoðunar sem eru með aðgang að staðbundnum viðskiptagögnum (LBD) í umhverfi á staðnum geta einnig skilgreint LBD-umhverfið sem einingarkvarða edge.
+Hægt er að stilla umhverfi miðstöðvar og einingarkvarða skýs fyrir valið vinnuálag með því að nota [Stjórnandagátt einingarkvarða](https://sum.dynamics.com). Einnig er hægt að úthluta fleiri en einu vinnuálagi á hvern einingarkvarða. Frekari upplýsingar um skilyrði og takmarkanir einingarkvarða skýs í núverandi útgáfu er að finna í hlutanum [Skilyrði og takmarkanir einingarkvarða í skýi](#cloud-scale-unit-prerequisites) síðar í þessu efnisatriði.
 
-Vinnuálag er skilgreint safn viðskiptavirkni sem hægt er að taka til greina og úthluta til einingarkvarða. Sem stendur er til tvenns konar vinnuálag í forskoðun:
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Úthlutaðir möguleikar vinnuálags í vöruhúsakerfi í einingarkvarða
 
-- Framkvæmd framleiðslu
-- Vöruhúsakerfi
+Vinnuálag vöruhúsakerfisins er fyrsta dreifða vinnuálagið fyrir einingarkvarða sem hefur verið gefið út til almennrar notkunar.
 
-Hægt er að úthluta einu fyrir hvora gerð vinnuálags á hvern einingarkvarða. 
+Fyrir vöruhúsakerfi bjóða einingarkvarðar upp á eftirfarandi möguleika:
+
+- Kerfið getur unnið úr völdum bylgjuaðferðum fyrir sölupantanir og eftirspurnaráfyllingu.
+- Starfskraftar í vöruhúsi geta keyrt vöruhúsavinnu sölu og eftirspurnaráfyllingar með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta spurst fyrir um lagerbirgðir með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta stofnað og keyrt birgðahreyfingar með farsímaforriti vöruhúsakerfis.
+- Starfskraftar í vöruhúsi geta skráð innkaupapantanir og sinnt frágangsvinnu með farsímaforriti vöruhúsakerfis.
+
+Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Úthlutað vinnuálag fyrir framkvæmd framleiðslu í einingarkvarða
 
-Fyrir framkvæmd framleiðslu, bjóða einingarkvarðar edge upp á eftirfarandi möguleika, jafnvel þegar edge-einingarnar eru ekki tengdar við skýið:
+Fyrsta útgáfa vinnuálags framleiðslu er í forútgáfu og skilar eftirfarandi möguleikum:
 
 - Stjórnandi véla og eftirlitsmenn vinnusalar fá aðgang að framleiðsluáætlun.
 - Stjórnendur vél geta uppfært áætlunina með því að keyra afmarkað og verk framleiðsluferlis.
 - Umsjónarmaður vinnusalar getur breytt starfsáætluninni.
 - Starfskraftar geta opnað tíma og viðveru til innstimplunar og útstimplunar á jaðrinum til að tryggja réttan útreikning launa starfsmanna.
 
-Frekari upplýsingar eru í [upplýsingar um vinnuálag einingarkvarða í framleiðslu](cloud-edge-workload-manufacturing.md).
+Frekari upplýsingar eru í [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](cloud-edge-workload-manufacturing.md).
 
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Úthlutaðir möguleikar vinnuálags í vöruhúsakerfi í einingarkvarða
+## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Það sem hafa ber í huga áður en dreifð blönduð grannfræði er virkjuð fyrir Supply Chain Management
 
-Fyrir vöruhúsakerfi, bjóða einingarkvarðar edge upp á eftirfarandi möguleika, jafnvel þegar edge-einingarnar eru ekki tengdar við skýið:
+Með því að virkja dreifða, blandaða grannfræði er skýjaumhverfi Supply Chain Management breytt þannig að það virki eins og miðstöð. Einnig er hægt að tengja frekari umhverfi við sem eru skilgreind sem einingarkvarðar í skýinu eða jaðrinum.
 
-- Úrvinnsla á völdum bylgjuaðferðum er virkjuð fyrir sölupantanir og eftirspurnaráfyllingu.
-- Starfskraftar í vöruhúsi geta keyrt vöruhúsavinnu sölu og eftirspurnaráfyllingar með farsímaforriti vöruhúsakerfis.
-- Starfskraftar í vöruhúsi geta spurst fyrir um lagerbirgðir með farsímaforriti vöruhúsakerfis.
-- Starfskraftar í vöruhúsi geta stofnað og keyrt birgðahreyfingar með farsímaforriti vöruhúsakerfis.
-- Starfskraftar í vöruhúsi geta skráð innkaupapantanir og sinnt frágangsvinnu með farsímaforriti vöruhúsakerfis.
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Skilyrði og takmarkanir fyrir einingarkvarða
 
-Frekari upplýsingar er að finna í [upplýsingar um vinnuálag einingarkvarða í vöruhúsi](cloud-edge-workload-warehousing.md).
+Í núgildandi útgáfu fyrir einingarkvarða eru sumir möguleikar ekki enn tiltækir, en þeim gæti verið bætt við í væntanlegum útgáfum.
 
-## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Innleiða einingarkvarða fyrir umhverfi Supply Chain Management
+#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>Þú verður að vera með leyfi fyrir Supply Chain Management
 
-### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>Setja upp forútgáfu fyrir einingarkvarða í skýi og edge
+Til að geta tekið þátt í dreifðri grannfræði þarf að vera með leyfi fyrir Supply Chain Management. Núverandi skýjaumhverfi verður miðstöðin í blönduðu grannfræðinni. Hægt er að gefa upp bæði sandkassaumhverfi og framleiðsluumhverfi sem umhverfi miðstöðvar og hægt er að bæta við einingarkvörðum samkvæmt innbótunum sem þér áskotnast.
 
-Eftirfarandi mynd sýnir skráningu og flæði úthlutunar fyrir opna forútgáfu fyrir einingarkvarða í skýi.
+#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>Stjórna þarf núverandi verki í gegnum almenna fyrirtækisútgáfu af LCS
 
-:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Skráningarferli forútgáfu":::
+Núverandi verk Microsoft Dynamics Lifecycle Services (LCS) verður að uppfylla eftirfarandi kröfur útgáfunnar:
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Veljið LCS-verk leigjandans og ítarlegt forskoðunarferli
+- Stjórna þarf verkinu í gegnum almenna fyrirtækisútgáfu af LCS á [lcs.dynamics.com](https://lcs.dynamics.com).
+- Staðbundnar útgáfur af LCS (svo sem [eu.lcs.dynamics.com](https://eu.lcs.dynamics.com) og [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)) eru ekki studdar.
+- LCS-skýjaútgáfur yfirvalda eru ekki studdar.
+- Mooncake-útgáfa LCS er ekki studd.
 
-Í opnu forútgáfunni sýnir [Gátt Scale Unit Manager](https://aka.ms/SCMSUM) lista yfir leigjendur sem reikningurinn þinn er hluti af, og hvar þú ert eigandi eða stjórnandi umhverfis fyrir LCS-verk.
+#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Núverandi framleiðsluumhverfi verður að vera af sjálfsafgreiðslugerðinni í LCS
 
-Ef leigjandinn sem leitað er að er ekki á þessum lista skaltu fara í [LCS](https://lcs.dynamics.com/v2) og ganga úr skugga um að þú sért annaðhvort stjórnandi umhverfis eða verkeigandi LCS-verks fyrir þann leigjanda. Athugið að aðeins Azure Active Directory (Azure AD) reikningar frá völdum leigjanda mega ljúka skráningarferlinu.
-
-> [!NOTE]
-> Þegar búið er að gera breytingarnar á LCS, getur það tekið allt að 30 mínútur fyrir listann yfir leigjendur að sýna breytingarnar.
-
-Listinn sýnir skráningarstöðuna fyrir hvern leigjanda.
-
-:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Nýskráningarvalkostur fyrir leigjanda":::
-
-Veljið tengilinn **Smellið hér til að skrá sig** til að skrá LCS-leigjandann til þátttöku í forútgáfunni. Samþykkja verður skilmálana. Einnig þarf að gefa upp tölvupóstfang fyrirtækis þar sem Microsoft getur sent samskipti sem tengjast skráningarferli forskoðunar.
-
-:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Innsending nýskráningar fyrir leigjanda":::
-
-Microsoft mun fara yfir beiðnina og tilkynna um næstu skref með því að senda tölvupóst á netfangið sem gefið var upp á nýskráningareyðublaðinu.
-
-Þegar búið er að veita aðgang að forskoðunaráætluninni, færðu tvo kynningarkóða fyrir LCS-verkið þitt. Nú er hægt að nota þessa kynningarkóða il að setja upp tvö umhverfi í LCS. Umhverfin verða að nota PEAP-útgáfu 10.0.15 eða nýrri. Þegar búið er að nota kynningarkóðana skal láta Microsoft vita (í samræmi við leiðbeiningar) þannig að hægt sé að ljúka virkjun umhverfisins fyrir forskoðunareiginleikana. Microsoft lætur vita þegar þessu skilgreiningarskrefi er lokið.
-
-Nú er hægt að hefja skilgreiningu á einingarkvörðum og vinnuálagi í forskoðunarumhverfinu.
+Núverandi framleiðsluumhverfi verður að vera merkt með gerðinni **Sjálfsafgreiðsla** í LCS. Þessi gerð gefur til kynna að leigjanda LCS-verksins hafi þegar verið breytt þannig að hann styðji hýsingarlíkanið Azure Service Fabric.
 
 > [!IMPORTANT]
-> Þegar einingarkvarðar í skýi eru skilgreindir er hægt að [gera öll áskilin skref í gátt Scale Unit Manager](#scale-unit-manager-portal).
-<!-- 
-> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
+> Umhverfisgerðir sem keyra sem IaaS-þjónusta eru ekki studdar. Þessi umhverfi eru venjulega merkt með **Microsoft Managed** gerðinni í LCS. Ef þú ert með umhverfi af þessari gerð skaltu hafa samband við tengilið þinn hjá Microsoft til að komast að tímalínu á flutningi yfir í gerðina **Sjálfsafgreiðsla**.
+
+Microsoft er að vinna að því að flytja öll skýjaumhverfi Supply Chain Management úr IaaS-líkani í grannfræði sem hýst er í Service Fabric. Þessi flutningur eykur sveigjanleika og stuðlar að auðveldari þjónustustjórnun. Fyrir vikið verða uppsetningar- og viðhaldsaðgerðir hraðari. Einnig er verið að flytja þjónustuíhluti yfir í örþjónustur og hýsingarlíkan þjónustunnar mun [breytast](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) úr líkani sýndarvélar og yfir í létta hólfahönnun.
+
+Fyrir vikið mun sama hólfaða þjónustukerfi sem byggir á Service Fabric knýja bæði skýja- og jaðratilvik þjónustunnar burtséð frá því hvort tilvik sé miðstöð í skýinu eða einingarkvarði í skýinu eða jaðrinum.
+
+Áður en hægt er að færa sig yfir í blandaða grannfræði sem styður einingarkvarða, þarf að flytja leigjanda verksins yfir í líkanið sem Service Fabric hýsir. Auk þess þarf að breyta öllum umhverfum sem virka eins og miðstöð.
+
+> [!TIP]
+> Til að spyrjast fyrir um stöðu leigjanda LCS-verks skal fletta upp á gerð umhverfisins í [LCS](https://lcs.dynamics.com/) eða hafa samband við samstarfsaðila eða tengilið hjá Microsoft.
+
+#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Staðbundin umhverfi viðskiptagagna (á staðnum) eru ekki studd sem miðstöðvar fyrir einingarkvarða
+
+Innanhússumhverfi geta ekki virkað sem miðstöðvar fyrir einingarkvarða. Umhverfi miðstöðvar verður alltaf að vera hýst í skýinu.
+
+#### <a name="scale-unit-management-capabilities-are-limited"></a>Stjórnunarmöguleikar einingarkvarða eru takmarkaðir
+
+Stjórnunarmöguleikar sem geta hjálpað til við flutning vinnuálags eru takmarkaðir. Sumar stjórnunaraðgerðir eru ekki studdar í sjálfsafgreiðslu og hugsanlega þarf að óska eftir stuðningi í gegnum samstarfsaðila eða tengilið hjá Microsoft. Sem dæmi má nefna nokkrir flutningar vinnuálags á milli einingarkvarða og tímabundinna tilfallandi flutninga í alvarlegum aðstæðum.
+
+#### <a name="metrics-and-measurements-arent-yet-available"></a>Mælikvarðar og mælingar liggja ekki enn fyrir
+
+Mælikvarðar og mælingar sem geta hugsanlega hjálpað til við að velja forritið fyrir einingarkvarðana eru ekki enn í boði. Starfið með tengilið ykkar hjá Microsoft eða samstarfsaðila innleiðingar til að velja gagnlegasta forritið.
+
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Gagnavinnsla við stjórnun einingarkvarða
+
+Þegar umhverfi Dynamics 365 er virkjað til að styðja dreifða blandaða grannfræði fyrir einingarkvarða skýs og jaðra munu sumar stýringarþjónustur eingöngu verða hýstar í Bandaríkjunum rétt eins og fyrir LCS. Þessi hegðun hefur áhrif á flutning og geymslu einhverra stjórnunar- og grunnstillingarupplýsinga sem [Stjórnandagátt einingarkvarða](https://sum.dynamics.com) notar. Hér eru nokkur dæmi:
+
+- Heiti og auðkenni leigjenda
+- LCS-verkkenni
+- Netföng stjórnanda og verkeiganda sem notuð eru fyrir innskráningu
+- Umhverfiskenni fyrir miðstöð og einingarkvarða
+- Skilgreiningar vinnuálags, þ.m.t. heiti og aðsetur lögaðila og starfsstöðva, þannig að hægt sé að sýna grannfræði þína á landakorti
+- Uppsafnaðar mælingar (á borð við biðtíma og gegnumstreymi) sem verða sýndar á greiningarsíðu kortsins til að auðvelda þér að velja hagkvæmustu notkun einingarkvarðanna
+
+Gögnum sem eru flutt til og geymd í bandarískum gagnamiðstöðvum verður eytt í samræmi við reglur Microsoft um gagnavarðveislu. Persónuvernd þín skiptir Microsoft máli. Til að fá nánari upplýsingar skaltu lesa [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
+
+## <a name="onboarding-in-two-stages"></a>Innleiðing yfir tvö stig
+
+Ferlið við innleiðingu dreifðrar blandaðrar grannfræði felur í sér tvö stig. Á fyrsta stiginu þarf að staðfesta sérstillingar til að ganga úr skugga um að þær virki í dreifðri grannfræði sem er með einingarkvarða. Sandkassa- og framleiðsluumhverfi eru aðeins flutt á seinna stiginum.
+
+### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Stig 1: Meta sérstillingar í heildrænu þróunarumhverfi
+
+Áður en hafist er handa við að innleiða sandkassa- eða framleiðsluumhverfi er mælt með því að kanna einingarkvarða í þróunaruppsetningu, t.d. heildrænu umhverfi (einnig þekkt sem 1 lags umhverfi) þannig að hægt sé að staðfesta ferla, sérstillingar og lausnir. Á þessu stigi verða gögn og sérstillingar sett inn í heildræn umhverfi. Annað umhverfið tekur að sér hlutverk miðstöðvarinnar og hitt að sér hlutverk einingarkvarðans. Þessi uppsetning býður upp á bestu leiðina til að bera kennsl á og lagfæra vandamál. Nýjasta smíð snemmbúins aðgangs (PEAP) er einnig hægt að nota til að ljúka þessu stigi.
+
+Fyrir stig 1 skal nota [uppsetningarverkfæri einingarkvarða fyrir heildræn þróunarumhverfi](https://github.com/microsoft/SCMScaleUnitDevTools). Þessi verkfæri gera kleift að skilgreina miðstöð og einingarkvarða í einu eða tveimur aðskildum heildrænum umhverfum. Boðið er upp á verkfærin sem tvíundarútgáfu og í frumkóða í GitHub. Kynnið ykkur verkið wiki, sem inniheldur [Ítarlega notkunarleiðbeiningu](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) sem lýsir því hvernig verkfærin eru notuð.
+
+### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Stig 2: Sækja innbætur og setja inn í sandkassa- og framleiðsluumhverfi
+
+Til að innleiða eitt af sandkassa- eða framleiðslumhverfunum í nýju grannfræðina þarf að verða sér úti um viðbætur fyrir einn eða fleiri einingarkvarða (og fyrir einingarkvarða jaðars í framtíðinni). Innbæturnarr munu veita samsvarandi verk- og umhverfishólf í [LCS](https://lcs.dynamics.com/) þannig að hægt verði að setja upp umhverfi einingarkvarða.
+
+> [!NOTE]
+> Innbætur einingarkvarðans eru ekki tengdar við takmarkaðan fjölda notenda, en hvaða notandi sem er getur notað þær í núgildandi áskrift samkvæmt hlutverkunum sem stjórnandinn úthlutar.
+
+Boðið er upp á einingarkvarða í mörgum birgðahaldseiningum og valkostum verðlagningar. Þar af leiðandi er hægt að velja þann valkost sem hentar best áætluðu færslumagni á mánuði og kröfum um afköst.
+
+Birgðahaldseining á færslustigi er þekkt sem *Grunnur* og afkastameiri birgðahaldseiningin er þekkt sem *Venjuleg*. Hverri birgðahaldseiningu er hlaðið fyrirfram með tilteknum fjölda af mánaðarlegum færslum. Hins vegar er hægt að auka fjárhagsáætlun mánaðarlegra færslna með því bæta við gjaldfellingarinnbót fyrir hverja birgðahaldseiningu.
+
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Innbætur fyrir einingarkvarða í skýi":::
+
+> [!TIP]
+> Til að finna út hvaða stærð hentar best þínum kröfum skaltu starfa með samstarfsaðila þínum og Microsoft til að komast að mánaðarlegri færslustærð sem þú þarft á að halda.
+
+Kaup á hverri innbót einingarkvarða veitir þér ekki einungis mánaðarmagn af færslum heldur færðu einnig aðgang að tilteknum fjölda umhverfishólfa í LCS. Fyrir hverja innbót einingarkvarða í skýinu færðu aðgang að einu nýju framleiðsluhólfi og einu nýju sandkassahólfi. Á meðan á innleiðingarferlinu stendur verður nýju LCS-verki bætt við þessi hólf. Notkunarheimildir fyrir hólfin eru bundin þannig að nota þarf hólfin sem einingarkvarða sem eru með miðstöð í skýinu.
+
+Gjaldfellingarinnbætur veita þér ekki rétt á nýjum umhverfishólfum.
+
+Ef þú vilt fá fleiri sandkassaumhverfi geturðu keypt fleiri venjuleg sandkassahólf. Microsoft getur þá aðstoðað þig við að virkja þessi hólf sem einingakvarðar sandkassa fyrir blönduðu grannfræðina.
+
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Innleiða dreifða blandaða grannfræði fyrir Supply Chain Management
+
+### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Veljið leigjanda LCS-verks og ítarlegt innleiðingarferlið
+
+Þegar búið er að áætla hvernig innleiðingu dreifðrar blandaðrar grannfræði fyrir Supply Chain Management verður háttað, verður [Stjórnandagátt einingarkvarða](https://aka.ms/SCMSUM) notuð til að hefja innleiðingarferlið. Í gáttinni skal velja flipann **Leigjendur Dynamics 365**. Þessi flipi sýnir lista yfir leigjendur sem reikningurinn þinn er hluti af og þar sem þú ert eigandi eða stjórnandi umhverfis fyrir LCS-verk.
+
+Ef leigjandinn sem leitað er að er ekki á listanum skaltu fara í [LCS](https://lcs.dynamics.com/v2) og ganga úr skugga um að þú sért annaðhvort stjórnandi umhverfis eða verkeigandi LCS-verks fyrir þann leigjanda. Aðeins Azure Active Directory (Azure AD) reikningar frá völdum leigjanda mega ljúka skráningarferlinu.
+
+> [!NOTE]
+> Þegar búið er að gera breytingarnar á LCS gæti það tekið allt að 30 mínútur fyrir listann yfir leigjendur að sýna breytingarnar.
+
+Listinn sýnir innleiðingarstöðuna fyrir hvern leigjanda fyrir sig.
+
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Listi yfir leigjendur í flipa Dynamics 365-leigjenda":::
+
+Veljið **Smellið hér til að hefjast handa** til að óska eftir innleiðingu fyrir LCS-leigjandann. Samþykkja verður skilmálana. Einnig þarf að gefa upp tölvupóstfang fyrirtækis þar sem Microsoft getur sent samskipti sem tengjast nýliðunarferli.
+
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Innsending nýskráningar fyrir leigjanda":::
+
+Microsoft mun fara yfir beiðnina og tilkynna um næstu skref með því að senda tölvupóst á netfangið sem gefið var upp á nýskráningareyðublaðinu. Microsoft mun starfa náið með þér til að virkja einingarkvarða í blandaðri grannfræði fyrir rekstraraðstæður þínar.
+
+Þegar innleiðingu lýkur er hægt að nota gáttina til að skilgreina einingarkvarða og vinnuálag.
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Stjórna einingarkvörðum í skýi og vinnuálagi með gátt Scale Unit Manager
 
@@ -171,21 +197,15 @@ Farið í [Gátt Scale Unit Manager](https://aka.ms/SCMSUM) og skráið ykkur in
 
 :::image type="content" source="media/cloud_edge-Manage.png" alt-text="Stjórnun einingarkvarða og vinnuálags":::
 
-Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í þínu nærumhverfi, skal velja **Bæta við einingarkvörðum**. Í forskoðuninni ætti að birtast einingarkvarði í skýi sem þú settir upp fyrir einn af kynningarkóðunum sem þú fékkst sem hluti af áætlun forskoðunar.
+Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í áskrift þinni, skal velja **Bæta við einingarkvörðum**.
 
-<!--  [!IMPORTANT]
-> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
-
-Í flipanum **Skilgreint vinnuálag** skal nota hnappinn **Stofna vinnuálag** til að bæta vöruhúsakerfi eða vinnuálagi framleiðslu við einn einingarkvarðann. Fyrir hvert vinnuálag þarf að tilgreina samhengi ferlanna sem vinnuálagið verður í. Fyrir vinnuálag vöruhúsakerfis er samhengið tiltekið vöruhús á tilteknu svæði og lögaðila. Fyrir vinnuálag framkvæmdar í framleiðslu er samhengið tiltekið svæði í lögaðila.
+Í flipanum **Skilgreint vinnuálag** skal nota hnappinn **Stofna vinnuálag** til að bæta vinnuálagi vöruhúsakerfis við einn einingarkvarðann. Fyrir hvert vinnuálag þarf að tilgreina samhengi ferlanna sem vinnuálagið verður í. Fyrir vinnuálag vöruhúsakerfis er samhengið tiltekið vöruhús á tilteknu svæði og lögaðila.
 
 :::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Stofnun vinnuálags":::
 
-> [!IMPORTANT]
-> Gátt Scale Unit Manager í forskoðun leyfir þér ekki að fjarlægja vinnuálag úr einingarkvörðum eða taka úthlutun á einingarkvarða til baka úr miðstöð þegar búið er að úthluta. Ef nauðsynlegt er að fjarlægja úthlutun skal hafa samband við tengiliðinn sem sér um áætlun forskoðunar.
+> [!TIP]
+> Með tímanum verða stigvaxandi viðbótum bætt við stjórnunarviðmót einingarkvarða til að gera aðgerðir líftímastjórnunar auðveldari. Tilteknir möguleikar fyrir núverandi útgáfu eru skráðir í handbók innleiðingar sem er í boði fyrir viðskiptavini sem hafa hafið innleiðingu dreifingar blandaðrar grannfræði fyrir Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
 
-<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
-
-In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf0e2d90b07cb488429311d04dfbc4d1d3520842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b07bfb27bbe5e546dac9d72666b3225cc202670
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800094"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890700"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (16. september 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5800094"
 
 ## <a name="included-in-this-release"></a>Innifalið í þessari útgáfu
 
--  [Vistuð yfirlit - almennt framboð](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Frekari upplýsingar er að finna í [Vistuð yfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views). 
+-  [Vistuð yfirlit - almennt framboð](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Frekari upplýsingar er að finna í [Vistuð yfirlit](../fin-ops-core/fin-ops/get-started/saved-views.md). 
 
 - Skjámyndin **Stöðuaðgerðir** er með uppfært hnitanet vídda og nýjan svarglugga (469495).
 
@@ -76,21 +76,21 @@ ms.locfileid: "5800094"
 
 Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar má finna á
 
-- [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 1
-- [Forritið „Human Resources“ í Teams](https://go.microsoft.com/fwlink/?linkid=2127841) í Human Resources fylgiskjölum
+- [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 1
+- [Forritið „Human Resources“ í Teams](./hr-admin-teams-leave-app.md) í Human Resources fylgiskjölum
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Forritið Human Resources í forskoðunareiginleikum Teams
  
 -  **Tilkynningar**: Sendendur og samþykktaraðilar frítímabeiðni verða látnir vita í forriti Human Resources í Teams. Samþykktaraðilar geta samþykkt eða hafnað beiðnum um frí. Sendendur verða látnir vita hvort beiðnin hafi verið samþykkt eða henni hafnað. Frekari upplýsingar má finna á
-   - [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 2
-   - [Virkja tilkynningar fyrir forritið Human Resources í Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) í Human Resources fylgiskjölum
-   - [Kveikja eða slökkva á Teams tilkynningum fyrir einstaka notendur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) í Human Resources fylgiskjölum
-   - [Teams-tilkynningarnar](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) í Human Resources fylgiskjölum
-   - [Skoða frídagdagatal teymisins](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) í fylgiskjölum Human Resources
+   - [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+   - [Virkja tilkynningar fyrir forritið Human Resources í Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) í Human Resources fylgiskjölum
+   - [Kveikja eða slökkva á Teams tilkynningum fyrir einstaka notendur](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) í Human Resources fylgiskjölum
+   - [Teams-tilkynningarnar](./hr-teams-leave-app.md#respond-to-teams-notifications) í Human Resources fylgiskjölum
+   - [Skoða frídagdagatal teymisins](./hr-teams-leave-app.md#view-your-teams-leave-calendar) í fylgiskjölum Human Resources
  
 - **Frítímadagatal stjórnanda**: Stjórnendur geta séð samþykkt frí og frí sem bíður ákvörðunar fyrir beina undirmenn í dagatalsyfirliti. Þetta yfirlit veitir auðveldan skilning á því hvenær teymismeðlimir þeirra eru fjarri vinnu. Frekari upplýsingar má finna á
-   - [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 2
-   - [Skoða frídagdagatal teymisins](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) í fylgiskjölum Human Resources
+   - [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+   - [Skoða frídagdagatal teymisins](./hr-teams-leave-app.md#view-your-teams-leave-calendar) í fylgiskjölum Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig (477004)
 
@@ -98,7 +98,7 @@ Nýr valkostur er nú tiltækur til að staðsetja **Vinnuliðum sem úthlutað 
 
 Þessi eiginleiki er einnig fyrir verkflæðisvalkosti sem birtast í skjámyndunum starfsmannaaðgerðir. Verkflæðisvalkostur birtist einnig fyrir ofan flýtiflipa aðgerðarinnar fyrir flýtiaðgang. Frekari upplýsingar má finna á 
 
-- [Endurbætur á upplifun verkflæðis fyrir fyrirtæki og starfsfólk](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+- [Endurbætur á upplifun verkflæðis fyrir fyrirtæki og starfsfólk](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) í Dynamics 365 2020 útgáfutímabilsáætlun 2
 
 ![Vinnuliðir sem úthlutað er á mig](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -106,7 +106,7 @@ Nýr valkostur er nú tiltækur til að staðsetja **Vinnuliðum sem úthlutað 
 
 ### <a name="leave-and-absence-calendar"></a>Leyfis- og fjarvistadagatal
 
-Í þessari útgáfu eru fleiri dagatalsmöguleikar fyrir frítíma- og fjarvistadagatöl. Fyrir frekari upplýsingar, sjá [Skoða dagatöl hópa og fyrirtækja](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar).
+Í þessari útgáfu eru fleiri dagatalsmöguleikar fyrir frítíma- og fjarvistadagatöl. Fyrir frekari upplýsingar, sjá [Skoða dagatöl hópa og fyrirtækja](./hr-employee-self-service-calendar.md).
 
 ## <a name="coming-soon"></a>Væntanlegt
 
@@ -121,7 +121,7 @@ Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir ve
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

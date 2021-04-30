@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816629"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908444"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss. Til eru nokkrar forskilgreind skilgreiningarsniðmát sem hægt er að nota. Fyrir upplýsingar um hvernig á að nota þessi sniðmát, sjá [Sniðmát fyrir skilgreiningargögn](../../dev-itpro/data-entities/configuration-data-templates.md).
+Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss. Til eru nokkrar forskilgreind skilgreiningarsniðmát sem hægt er að nota. Fyrir upplýsingar um hvernig á að nota þessi sniðmát, sjá [Sniðmát fyrir skilgreiningargögn](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Atburðarás þar sem skilgreiningarsniðmát geta reynst hjálpleg
 
@@ -88,13 +88,13 @@ Fyrir þessa atburðarás eru skilgreining á uppsetningu fyrir vöruhús og sum
 4. Veldu **+ Bæta við skrá** og hlaða upp zip-skránni fyrir gagnapakkann.
 5. Velja **Innflutningur**. Í **Aukið** yfirlit geturðu notað **Sía** valkost til að fá snögglega yfirlit yfir vandamál sem kunna að eiga sér stað við innflutning.
 
-**Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../dev-itpro/data-entities/configuration-data-templates.md).
+**Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afrita skilgreiningar vöruhúss frá einu fyrirtæki til nýs fyrirtækis innan sama tilviks er hægt að horfa á þetta þriggja mínútna myndband á YouTube um [hvernig nota skuli vöruhúsasniðmát til að afrita skilgreininguna fyrir Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tengt efni
 
-[Sniðmát skilgreiningargagna](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Sniðmát skilgreiningargagna](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

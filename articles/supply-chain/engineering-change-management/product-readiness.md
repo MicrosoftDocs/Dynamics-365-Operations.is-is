@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842011"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909720"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
@@ -142,7 +142,7 @@ Stillið eftirfarandi reiti fyrir hverja línu sem er bætt við.
 | Fyrirt.   | Ef reiturinn **Framkvæma í** er stilltur á *Eitt fyrirtæki* skal velja fyrirtækið. |
 | Gerð eiganda | Veljið hvort undirbúningsathugun sem línan myndar eigi að úthluta á einstakling eða hóp. |
 | Eigandi | Velja skal einstaklinginn eða hópinn sem úthluta á athugun undirbúnings sem lína myndar á. |
-| Spurningalisti | Veljið spurningalistann sem á að nota fyrir gátlistann. Gátlistinn er staðbundinn gátlisti innan fyrirtækisins þar sem undirbúningsathugun er framkvæmd. Kerfið þarf að geta metið hvort gátlistanum hafi verið svarað rétt. Þess vegna þarf að setja upp gátlistann þannig að mat sé framkvæmt út frá réttum svörum. Frekari upplýsingar um hvernig á að stofna spurningalista er að finna í [Nota spurningalista](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) og tengdum efnisatriðum þess. |
+| Spurningalisti | Veljið spurningalistann sem á að nota fyrir gátlistann. Gátlistinn er staðbundinn gátlisti innan fyrirtækisins þar sem undirbúningsathugun er framkvæmd. Kerfið þarf að geta metið hvort gátlistanum hafi verið svarað rétt. Þess vegna þarf að setja upp gátlistann þannig að mat sé framkvæmt út frá réttum svörum. Frekari upplýsingar um hvernig á að stofna spurningalista er að finna í [Nota spurningalista](/dynamicsax-2012/appuser-itpro/using-questionnaires) og tengdum efnisatriðum þess. |
 | Sjálfvirkt samþykki | Færslur undirbúningsathugunar fela í sér gátreitinn **Samþykkt** sem tilgreinir samþykktarstöðuna. Veljið gátreitinn **Sjálfvirkt samþykki** fyrir athuganir sem á að stilla á samþykktar um leið og úthlutaður notandi lýkur þeim. Hreinsið þennan gátreit til að krefjast beins samþykkis sem viðbótarskrefs. |
 | Skylda | Veljið þennan gátreit fyrir athuganir sem notandi sem fékk hana úthlutaða verður að ljúka. Ekki er hægt að sleppa áskyldum athugunum. |
 

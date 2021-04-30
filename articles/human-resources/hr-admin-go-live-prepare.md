@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795142"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892754"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Undirbúningur fyrir keyrslu á Human Resources
 
@@ -43,7 +43,7 @@ ms.locfileid: "5795142"
 | 2 | Ljúka við og senda gátlista | Eftir að samþykkisprófun notanda er lokið | Samstarfsaðili/viðskiptavinur | Fylgja skal leiðbeiningunum í [Keyrslumat FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Verkmat (FastTrack) | Hönnuður FastTrack* | Hönnuður kemur með mat þegar gátlisti er móttekin og heldur áfram yfirferð þar til spurningum hefur verið svarað og flutningar eru tilbúnir ef það á við. |
 | 4 | Vinnustofa verks (FastTrack) | Hönnuður FastTrack* | |
-| 5 | Innflutningur gagnapakka | Fer eftir verkinu | Samstarfsaðili/viðskiptavinur | Fylgja skal leiðbeiningunum í [Yfirliti gagnastjórnunar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Innflutningur gagnapakka | Fer eftir verkinu | Samstarfsaðili/viðskiptavinur | Fylgja skal leiðbeiningunum í [Yfirliti gagnastjórnunar](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Vinnsla tilbúin | Þegar öllum fyrri skrefum er lokið | Samstarfsaðili/viðskiptavinur | Samstarfsaðili/viðskiptavinur getur tekið við stjórn vinnsluumhverfisins.|
 | 7 | Flutningsaðgerðir | Fer eftir verkinu | Samstarfsaðili/viðskiptavinur | |
 | 8 | Ljúka | Fer eftir verkinu | Viðskiptavinur | |
@@ -66,7 +66,7 @@ Gott er að ljúka við skrefin í aðferðinni eftir því sem innleiðingunni 
 
 - Mælt er með því að UAT-ferlið byrji á hreinu og fersku umhverfi þar sem gögnin úr GOLD-grunnstillingunni eru afrituð í umhverfið áður en UAT-ferlið er hafið. Mælt er með því að nota framleiðsluumhverfið sem GOLD-umhverfið fram að keyrslu, en á þeim tímapunkti verður umhverfið að framleiðsluumhverfi.
 - Prófunartilvik ná yfir allar kröfurnar. 
-- Prófaðu með því að nota flutt gögn. Þessi gögn ættu að innihalda aðalgögn, svo sem starfsmenn, störf og stöður. Taktu einnig með opnunarstöður eins og uppsöfnuð leyfi og fjarvistir. Að lokum skal taka með opnar færslur eins og gildandi fríðindaskráningar. Ljúkið prófun á öllum gagnagerðum, jafnvel þótt gagnasafninu sé ekki lokið. 
+- Prófaðu með því að nota flutt gögn. Þetta ætti að innihalda gögn á borð við starfskrafta, störf og stöður. Taktu einnig með opnunarstöður eins og uppsöfnuð leyfi og fjarvistir. Að lokum skal taka með opnar færslur eins og gildandi fríðindaskráningar. Ljúkið prófun á öllum gagnagerðum, jafnvel þótt gagnasafninu sé ekki lokið. 
 - Prófið með því að nota rétt öryggishlutverk (sjálfgefin hlutverk og sérstillt hlutverk) sem er úthlutað á notendur. 
 - Gakktu úr skugga um að lausnin samræmist öllum kröfum sem tengjast fyrirtæki og atvinnugrein. 
 - Skjalfestu alla eiginleika og fáðu samþykki frá viðskiptavininum. 
@@ -86,7 +86,7 @@ Gott er að ljúka við skrefin í aðferðinni eftir því sem innleiðingunni 
 
 ## <a name="fasttrack-go-live-assessment"></a>Keyrslumat FastTrack
 
-Viðskiptavinir sem uppfylla skilyrði FastTrack og eru í samvinnu við úrlausnarhönnuð FastTrack munu ljúka yfirferð á keyrslu með Microsoft FastTrack. Frekari upplýsingar er að finna í  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Viðskiptavinir sem uppfylla skilyrði FastTrack og eru í samvinnu við úrlausnarhönnuð FastTrack munu ljúka yfirferð á keyrslu með Microsoft FastTrack. Frekari upplýsingar er að finna í  [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Um átta vikum fyrir keyrslu mun FastTrack-teymið biðja þig um að fylla út [Gátlisti fyrir keyrslu](https://go.microsoft.com/fwlink/?linkid=2146013).
 

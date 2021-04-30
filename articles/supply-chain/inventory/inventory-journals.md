@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe02a7b785b7d53763f314eec4d9b23fe723173a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826036"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910186"
 ---
 # <a name="inventory-journals"></a>Birgðabækur
 
@@ -95,7 +95,7 @@ Gagnaeiningar styðja eftirfarandi gerðir af samþættingaraðstæðum:
 -    Samstillt þjónusta (OData)
 -  Ósamstillt samþætting
 
-Nánari upplýsingar er að finna í [Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md).
+Nánari upplýsingar er að finna í [Gagnaeiningar](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
 > Ekki eru allar birgðabækur Odata-virkar og er því ekki hægt að nota Excel-gagnatengið til að fá gögn birt, uppfærð og flutt aftur inn í Supply Chain Management. 
@@ -113,7 +113,7 @@ Annar munur milli gagnaeininga færslubókar er hæfnin til að nota samsettar e
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md)
+[Gagnaeiningar](../../fin-ops-core/dev-itpro/data-entities/data-entities.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

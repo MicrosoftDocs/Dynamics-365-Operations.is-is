@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36509cc5663073fd1e3b7f41a600c7816bfbdff6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4fbf3034805146c3900b46f5ccce76e63b0805a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791246"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893078"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 28. janúar 2021
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791246"
 
 Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
-Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 1 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 1 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Í þessari útgáfu
 
@@ -68,8 +68,8 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
-| Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks | [Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Grunnstilla færibreytur leyfis og fjarvista](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| Human Resources-forritið í Microsoft Teams | [Viðmót fyrir leyfi og fjarvistir starfsmanns í Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Forritið „Human Resources“ í Teams](./hr-admin-teams-leave-app.md)<br>[Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md) |
+| Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks | [Yfirlit stjórnanda milli fyrirtækja um leyfi til starfsfólks](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Grunnstilla færibreytur leyfis og fjarvista](./hr-leave-and-absence-parameters.md) |
 
 ## <a name="coming-soon"></a>Væntanlegt
 
@@ -78,20 +78,20 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 | Staðfesting í tölvupósti um fríðindaskráningu | Þessi eiginleiki býður upp á valkost til að senda staðfestingu í tölvupósti til starfsmanna þegar þeir skrá sig úr upplifunum fríðindaskráningar í sjálfsafgreiðslu starfsmanns. Þessi eiginleiki verður í boði 1. febrúar. Frekari upplýsingar er að finna í [Grunnstilla færibreytur fríðindastjórnunar eftir fyrirtæki](hr-benefits-setup-parameters-per-company.md). |
 | Hæfni sem yfirmaður færir inn fyrir starfsmenn sína getur verið sjálfkrafa samþykkt af verkferlinu | Væntanlegt. |
 
-Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Uppfærsla hugtaka fyrir Microsoft Dataverse
 
-Tekur gildi í nóvember 2020, Common Data Service hefur verið endurnefnt [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Frekari upplýsingar er að finna í [opinberri tilkynningu](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) á Power Apps blogginu. Í samhengi við þessa nafnabreytingu hafa nokkur hugtök í Dataverse verið uppfærð. Sem dæmi er *eining* núna *tafla* og *svæði* er núna *dálkur*. Frekari upplýsingar eru í [Uppfærslur hugtaka](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+Tekur gildi í nóvember 2020, Common Data Service hefur verið endurnefnt [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). Frekari upplýsingar er að finna í [opinberri tilkynningu](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) á Power Apps blogginu. Í samhengi við þessa nafnabreytingu hafa nokkur hugtök í Dataverse verið uppfærð. Sem dæmi er *eining* núna *tafla* og *svæði* er núna *dálkur*. Frekari upplýsingar eru í [Uppfærslur hugtaka](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 Í þessari útgáfu hafa hugtök sem tengjast samþættingu Dynamics 365 Human Resources við Dataverse verið uppfærð í öllu forritinu til að endurspegla þessar breytingar. Til dæmis er skjámyndin **Common Data Service samþætting** orðin **Microsoft Dataverse samþætting**.
 
-Frekari upplýsingar um samþættingu Dynamics 365 Human Resources við Microsoft Dataverse er að finna í [Grunnstilla Microsoft Dataverse samþættingu](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) og [Grunnstilla Microsoft Dataverse sýndartöflur](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Frekari upplýsingar um samþættingu Dynamics 365 Human Resources við Microsoft Dataverse er að finna í [Grunnstilla Microsoft Dataverse samþættingu](./hr-admin-integration-common-data-service.md) og [Grunnstilla Microsoft Dataverse sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

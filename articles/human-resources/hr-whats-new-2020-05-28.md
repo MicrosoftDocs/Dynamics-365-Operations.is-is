@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0e15891a2cb75851d195e08b87bbfc9efb78e66e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79026c6047f3a10366ef3b22d74caee13b371b66
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803394"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891962"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (28. maí 2020)
 
@@ -61,7 +61,7 @@ Nú er hægt að bæta viðhengjum við ferli fríðindaskráningar fyrir hverja
 
 ## <a name="human-resources-application-in-teams"></a>Forrit „Human Resources“ í Teams
 
-Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar er að finna í [Forrit Human Resources í Teams](https://go.microsoft.com/fwlink/?linkid=2127841). 
+Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar er að finna í [Forrit Human Resources í Teams](./hr-admin-teams-leave-app.md). 
 
 ## <a name="leave-suspension"></a>Frestun leyfis
 
@@ -107,7 +107,7 @@ DMF-eining er ekki til staðar fyrir uppsöfnun í bið.
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

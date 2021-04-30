@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825519"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909205"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -83,12 +83,12 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 ## <a name="prices-and-discounts"></a>Verð og afslættir
 -   [Innkaupasamningar](purchase-agreements.md)
 -   [Stofna innkaupasamning](tasks/create-purchase-agreement.md)
--   [Eftirágreiddur afsláttur lánardrottins](https://docs.microsoft.com/dynamics/s-e/) (hvítbók)
+-   [Eftirágreiddur afsláttur lánardrottins](/dynamics/s-e/) (hvítbók)
 
 ## <a name="product-receipt-and-invoicing"></a>Innhreyfingarskjal afurða og reikningur.
 -   [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
--   [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Bókunarreglur lánardrottins](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Yfirlit yfir lánardrottnareikninga](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Bókunarreglur lánardrottins](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 -   [Yfirlit yfir innkaup og aðföng](procurement-sourcing-overview.md)

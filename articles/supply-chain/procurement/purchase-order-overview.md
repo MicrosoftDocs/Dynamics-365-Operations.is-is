@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825327"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909132"
 ---
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
@@ -41,7 +41,7 @@ Eftirfarandi greinum veita yfirlit yfir mismunandi stigum Innkaupapöntun fer í
 -   [Stofna innkaupapantanir](purchase-order-creation.md)
 -   [Samþykkt og staðfesting innkaupapanta](purchase-order-approval-confirmation.md)
 -   [Innhreyfingarskjal jafnað við innkaupapantanir](product-receipt-against-purchase-orders.md)
--   [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Yfirlit yfir lánardrottnareikninga](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Gerðir innkaupapantana
 Það eru þrjár gerðir innkaupapantana. Þegar innkaupapöntun er stofnuð verður að tilgreina gerð. Hægt er að setja upp sjálfgefna pöntunargerð fyrir nýjar pantanir á **færibreytur Innkaupa og aðfanga** síðu.
@@ -85,7 +85,7 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 
 [Innhreyfingarskjal jafnað við innkaupapantanir](product-receipt-against-purchase-orders.md)
 
-[Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Yfirlit yfir lánardrottnareikninga](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

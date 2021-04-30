@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840221"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893803"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840221"
 
 Áður en hægt er að ljúka við skrefin í þessu efnisatriði þarf að ganga úr skugga um að eftirfarandi verkum sé lokið:
 
-- Stofna lyklageymslutilfang í Azure. Frekari upplýsingar er að finna í [Um Azure-lyklageymslu](https://docs.microsoft.com/azure/key-vault/general/overview).
-- Stofna Azure-geymslureikning (Blob-geymsla). Frekari upplýsingar er að finna í [Unnið með Azure-geymslureikning](https://docs.microsoft.com/azure/storage/blobs/).
+- Stofna lyklageymslutilfang í Azure. Frekari upplýsingar er að finna í [Um Azure-lyklageymslu](/azure/key-vault/general/overview).
+- Stofna Azure-geymslureikning (Blob-geymsla). Frekari upplýsingar er að finna í [Unnið með Azure-geymslureikning](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Yfirlit
 
@@ -83,4 +83,3 @@ ms.locfileid: "5840221"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

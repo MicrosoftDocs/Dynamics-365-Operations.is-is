@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832179"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909550"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.13 (október 2020)
 
@@ -33,23 +33,23 @@ ms.locfileid: "5832179"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótarskjöl sem eru tiltæk fyrir þennan eiginleika. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](/dynamics365/release-plans/). Viðbótartenglar benda á viðbótarskjöl sem eru tiltæk fyrir þennan eiginleika. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
-- [Breyta hugtaki „Afturköllun birgðalokunar“ í „Bakfæra birgðalokun“](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Frekari upplýsingar er að finna í [Birgðalokun](../cost-management/inventory-close.md).
+- [Breyta hugtaki „Afturköllun birgðalokunar“ í „Bakfæra birgðalokun“](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Frekari upplýsingar er að finna í [Birgðalokun](../cost-management/inventory-close.md).
 
-- [Staðfesta sendingar á útleið úr runuvinnslum](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Frekari upplýsingar er að finna á [Staðfesta sendingar á útleið úr runuvinnslum](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Staðfesta sendingar á útleið úr runuvinnslum](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Frekari upplýsingar er að finna á [Staðfesta sendingar á útleið úr runuvinnslum](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Úthlutun margra vinnuliða innkaupa](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Frekari upplýsingar er að finna á [Úthluta vinnuliðum í verkflæði](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Úthlutun margra vinnuliða innkaupa](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Frekari upplýsingar er að finna á [Úthluta vinnuliðum í verkflæði](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Færa inn raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Frekari upplýsingar er að finna í [Tilkynna sem lokið í verkspjaldstækinu](../production-control/report-finished-job-device.md).
+- [Færa inn raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Frekari upplýsingar er að finna í [Tilkynna sem lokið í verkspjaldstækinu](../production-control/report-finished-job-device.md).
 
-- [Nýjar birgðavíddir fyrir rakningu afurðarútgáfu og aukin stækkunarhæfni](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Frekari upplýsingar er að finna í [Afurðarvíddir](../pim/product-dimensions.md).
+- [Nýjar birgðavíddir fyrir rakningu afurðarútgáfu og aukin stækkunarhæfni](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Frekari upplýsingar er að finna í [Afurðarvíddir](../pim/product-dimensions.md).
 
-- [Frátekning ráðstafaðrar pöntunar byggð á númeraplötum](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Frekari upplýsingar er að finna í [Sveigjanleg frátekning númeraplötu](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Frátekning ráðstafaðrar pöntunar byggð á númeraplötum](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Frekari upplýsingar er að finna í [Sveigjanleg frátekning númeraplötu](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Yfirlit yfir tiltektarlínu vinnu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Yfirlit yfir tiltektarlínu vinnu](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Endurbætur á vinnureglu fyrir vinnu á innleið](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Frekari upplýsingar er að finna í [Vöruhúsareglur](../warehousing/warehouse-work-policies.md).
+- [Endurbætur á vinnureglu fyrir vinnu á innleið](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Frekari upplýsingar er að finna í [Vöruhúsareglur](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -65,7 +65,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753817"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894173"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð 
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
+Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
 
 Þegar lausn er skilgreind er hægt að stilla snið rafrænnar skýrslugerðar í aðgerðarhönnuði með því að bæta við rótareiningu af gerðinni **Mappa** til að þjappa saman efninu sem er myndað af einhverri faldaðri einingu. Þjöppunin virkar „í tæka tíð“ þannig að hægt sé að minnka hámarks minnisnotkun og stærð skráarinnar sem verður hlaðið niður.
 

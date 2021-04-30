@@ -2,7 +2,8 @@
 title: Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 description: Þetta efni útskýrir hvernig þú getur stillt ER-snið fyrir rafræna skýrslugerð til að nota færibreytur sem eru tilgreindar á lögaðila.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751179"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853494"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751179"
 
 ## <a name="overview"></a>Yfirlit
 
-Í mörgum af sniðmátum rafrænnar skýrslugerðar (ER) sem þú verður að hanna verður þú að sía gögn með því að nota mengi gilda sem eru sértæk fyrir hverja lögaðila í þínu tilviki (til dæmis, sett af skattakóða til að sía skattaviðskipti). Eins og er, þegar síun af þessu tagi er stillt á ER sniði, eru gildi sem eru háð lögaðilanum (til dæmis skattakóða) notuð í tjáningu á ER sniði til að tilgreina reglur um síun gagna. Þess vegna er ER sniðið gert sértækt fyrir lögaðila og til að mynda nauðsynlegar skýrslur verður þú að stofna afleidd afrit af upprunalegu ER sniði fyrir hvern lögaðila þar sem þú þarft að keyra ER snið. Breyta verður hverju afleiddu ER sniði til að koma sérstökum gildum lögaðila inn í það, endurreikna í hvert skipti sem upphaflega (grunn-) útgáfan er uppfærð, flytja úr prufuumhverfi og flytja inn í framleiðsluumhverfi þegar það verður sent til framleiðslu og svo framvegis. Þess vegna er viðhald þessarar gerðar á skilgreindri ER-lausn nokkuð flókið og tímafrekt af ýmsum ástæðum:
+Í mörgum af sniðmátum rafrænnar skýrslugerðar (ER) sem þú verður að hanna verður þú að sía gögn með því að nota mengi gilda sem eru sértæk fyrir hverja lögaðila í þínu tilviki (til dæmis, sett af skattakóða til að sía skattaviðskipti). Eins og er, þegar síun af þessu tagi er stillt á ER sniði, eru gildi sem eru háð lögaðilanum (til dæmis skattakóða) notuð í tjáningu á ER sniði til að tilgreina reglur um síun gagna. Þess vegna er ER sniðið gert sértækt fyrir lögaðila og til að mynda nauðsynlegar skýrslur verður þú að stofna afleidd afrit af upprunalegu ER sniði fyrir hvern lögaðila þar sem þú þarft að keyra ER snið. Breyta þarf hverju afleiddu sniði rafrænnar skýrslugerðar til fá gildi ákveðins lögaðila inn í það, endurreiknað í hvert sinn sem upprunaleg (grunn)útgáfan hefur verið uppfærð, flutt úr prófunarumhverfi og flutt inn í vinnsluumhverfi þegar nota þarf það í framleiðsluskyni og svo framvegis. Því er vinna við þessa gerð af skilgreindri lausn rafrænnar skýrslugerðar flókin og tímafrek af ýmsum ástæðum:
 
 -   Því fleiri sem lögaðilar eru, því meira verður að viðhalda skilgreiningum á ER sniði.
 -   Viðhald ER stillinga krefst þess að notendur fyrirtækja hafi ER þekkingu.
@@ -86,7 +87,7 @@ Næst skráðirðu þig inn á RCS tilvikið.
 
     ![Model.Data.Summary listi gagnaveitu skattfærsla](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Reiknaði reiturinn **Model.Data.Summary.Level** hefur verið stilltur þannig að hann inniheldur ER-segð. Athugaðu að skattakóðar (**VSK19**, **InVAT19**, **VSK7**, **InVAT7**, **THIRD** og **InVAT0**) eru harðkóðaðar í þessa stillingu. Þess vegna er þetta ER snið háð lögaðilanum þar sem þessir skattakóðar voru stilltir.
+    Reiknaði reiturinn **Model.Data.Summary.Level** hefur verið stilltur þannig að hann inniheldur ER-segð. Skattkóðar (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** og **InVAT0**) eru harðkóðaðir í þessari stillingu. Þess vegna er þetta ER snið háð lögaðilanum þar sem þessir skattakóðar voru stilltir.
 
     ![Model.Data.Summary.Level útreiknaður reitur með harðkóðuðum skattkóðum](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -135,7 +136,7 @@ Næst bætirðu við nýrri upptalningu á ER sniði. Gildi þessarar sniðuppta
 14. Veldu skrána **Engin skattlagning**.
 15. Smelltu í reitinn **Merki**.
 16. Veldu **Þýða**.
-17. Í glugganum **Textaþýðing** í reitnum **Merkimiði** skaltu slá inn **LBL_LEVELENUM_NO**.
+17. Á **Textaþýðing** svæðinu í **Kenni merkis** reitinn skal slá inn **LBL_LEVELENUM_NO**.
 18. Í reitnum **Texti á sjálfgefnu tungumáli** slærðu inn **Engin skattlagning**.
 19. Í reitnum **Tungumál** velurðu **DE**.
 20. Í reitinn **Þýddur texti** skal færa inn **keine Besteuerung**.
@@ -153,12 +154,12 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 1.  Á flipanum **Vörpun** velurðu **Bæta við**.
 2.  Veldu **Format enumeration\Lookup**.
 
-    Þú varst að auðkenna að hver regla sem notendur fyrirtækja tilgreina fyrir viðurkenningu á skattaþrepum muni skila gildi upptalningar á ER sniði. Taktu eftir að gagnagjafagerðina **Uppflettingu** er hægt að nálgast undir blokkunum **Gagnalíkan** og **Dynamics 365 for Operations** til viðbótar við blokkina **Tölusetning sniðs**. Þess vegna er hægt að nota ER-gagnalíkanatölusetningu og forritatölusetningu til að tilgreina gerð gilda sem er skilað fyrir gagnagjafa af þeirri gerð.
+    Þú varst að auðkenna að hver regla sem notendur fyrirtækja tilgreina fyrir viðurkenningu á skattaþrepum muni skila gildi upptalningar á ER sniði. Taktu eftir að gagnagjafagerðina **Uppflettingu** er hægt að nálgast undir blokkunum **Gagnalíkan** og **Dynamics 365 for Operations** til viðbótar við blokkina **Tölusetning sniðs**. Því er hægt að nota tölusetningar fyrir gagnalíkan rafrænnar skýrslugerðar og tölusetningar forrits til að tilgreina gerð gilda sem skilað er fyrir gagnagjafa af þeirri gerð. Frekari upplýsingar um gagnagjafana **Uppfletting** er að finna í [Skilgreina gagnagjafa uppflettingar til að nota eiginleika fyrir færibreytur forrits í rafrænni skýrslugerð](er-lookup-data-sources.md).
     
 3.  Í reitinn **Heiti** skal færa inn **Val**.
 4.  Í reitinn **Tölusetning sniðs** velurðu **Listi yfir skattlagningarstig**.
 
-    Þú varst að tilgreina að fyrir hverja reglu sem er tilgreind í þessum gagnagjafa, verður viðskiptanotandi að velja eitt af gildum sniðatölusetningarinnar **Listi yfir skattlagningarstig** sem skilað gildi.
+    Þú tilgreindir að fyrir hverja reglu sem er tilgreind í þessum gagnagjafa þurfi að velja eitt af gildunum í tölusetningarsniðinu **Listi yfir skattstig** sem skiluðu gildi.
     
 5.  Veldu **Breyta leit**.
 6.  Velja **Dálka**.
@@ -190,7 +191,7 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
     
     ![Sniðshönnuðarsíða með nýrri gagnaveitu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Athugaðu að mat á stilltum reglum veltur á gagnagerð reitanna sem hafa verið valdir til að skilgreina skilyrði þessara reglna. Þegar þú velur reit sem er stilltur sem reitur af annaðhvort gagnagerðinni **Tölulegt** eða **Dagsetning** munu viðmiðin verða frábrugðin viðmiðunum sem lýst var áðan fyrir gagnagerðina **Strengur**. Fyrir reitina **Tölulegt** og **Dagsetning** verður að tilgreina regluna sem gildissvið. Skilyrði reglunnar verður síðan talið fullnægt þegar gildi sem er sent til gagnagjafans er á skilgreindu sviðinu.
+    Mat á skilgreindum reglum fer eftir gagnagerð reitanna sem hafa verið valdir til að skilgreina skilyrði þessara reglna. Þegar þú velur reit sem er stilltur sem reitur af annaðhvort gagnagerðinni **Tölulegt** eða **Dagsetning** munu viðmiðin verða frábrugðin viðmiðunum sem lýst var áðan fyrir gagnagerðina **Strengur**. Fyrir reitina **Tölulegt** og **Dagsetning** verður að tilgreina regluna sem gildissvið. Skilyrði reglunnar verður síðan talið fullnægt þegar gildi sem er sent til gagnagjafans er á skilgreindu sviðinu.
     
     Eftirfarandi skýringarmynd sýnir dæmi um þessa gerð uppsetningar. Í viðbót við reitinn **Model.Data.Tax.Code** í gagnagerðinni **Strengur** er reiturinn **Model.Tax.Summary.Base** í gagnagerðinni **Rauntími** notaður til að tilgreina skilyrði fyrir uppflettingu gagnagjafa.
     
@@ -216,7 +217,7 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 2.  Veljið **Breyta**.
 3.  Smelltu í reitinn **Merki**.
 4.  Veldu **Þýða**.
-5.  Í glugganum **Textaþýðing** í reitnum **Merkimiði** skaltu slá inn **LBL_SELECTOR_DS**.
+5.  Á **Textaþýðing** svæðinu í **Kenni merkis** reitinn skal slá inn **LBL_SELECTOR_DS**.
 6.  Í reitinn **Texti á sjálfgefnu tungumáli** slærðu inn **Velja skattastig eftir skattakóða**.
 7.  Í reitnum **Tungumál** velurðu **DE**.
 8.  Í reitinn **Þýddur texti** slærðu inn **Steuerebene für Steuerkennzeichen auswählen**.
@@ -271,7 +272,7 @@ Næst verður þú að breyta fyrirliggjandi reiknuðum reit þannig að hann no
 
     ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
-    Taktu eftir að tjáning reitarins **Model.Data.Summary.Level** mun nú skila skattastiginu, byggt á skattakóða núverandi færslu og sett reglna sem viðskiptanotandi stillir í uppflettigagnagjafa **Model.Data.Selector**.
+    Takið eftir að segð reitsins **Model.Data.Summary.Level** mun nú skila skattlagningarstiginu út frá skattkóða gildandi færslu og reglusafni sem viðskiptanotandi skilgreinir í uppflettingargagnagjafa **Model.Data.Selector**.
     
 5.  Veljið **Vista**.
 6.  Lokaðu síðunni **Formúluhönnuður**.
@@ -287,26 +288,28 @@ Næst verður þú að breyta fyrirliggjandi reiknuðum reit þannig að hann no
 
 ## <a name="export-completed-version-of-modified-format"></a>Flyttu út fullkláraða útgáfu af breyttu sniði
 
-1.  Í stillingatrénu sniðmátið velurðu liðinn **Snið til að læra hvernig eigi að fletta upp LE-gögnum**.
+1.  Í skilgreiningatrénu skal velja atriðið **Snið til að læra hvernig á að fletta upp LE-gögnum**.
 2.  Í flýtiflipanum **Útgáfur** skal velja færsluna sem er með stöðuna **Lokið**.
 3.  Veldu **Gengi**.
 4.  Veldu **Flytja út sem XML-skrá**.
 5.  Veljið **Í lagi**.
-6.  Vafrinn halar niður skjalinu **Snið til að læra að fletta upp LE-gögnum.xml**. Geymið þessa skrá á staðnum.
+6.  Vafrinn sækir skrána **Snið til að læra hvernig á að fletta upp LE data.xml**. Geymið þessa skrá á staðnum.
 
-Endurtaktu skrefin í þessum hluta fyrir yfirliði sniðsins **Snið til að læra hvernig á að fletta upp LE-gögnum** og geyma eftirfarandi skrár á staðnum:
+Endurtakið skrefin í þessum hluta fyrir yfirvörur á sniðinu **Snið til að læra hvernig á að fletta upp LE-gögnum** og geymið eftirfarandi skrár staðbundið:
 
 -   Sniðmát til að læra færibreytur á köll.xml
 -   Veldu Vörpun til að læra færibreytur á köll.xml
 -   Líkan til að læra færibreytur á köll.xml
 
-Til að læra að nota skilgreint ER-snið **Snið til að læra hvernig á að fletta upp LE-gögnum** til að setja upp lögaðila sem eru háðir skattakóðum til að sía skattaviðskipti eftir mismunandi skattastigi, ljúktu við skrefin í efninu [Settu upp færibreytur ER sniðs á hvern lögaðila](er-app-specific-parameters-set-up.md).
+Til að læra hvernig á að nota skilgreinda rafræna skýrslugerðarsniðið **Snið til að læra hvernig á að fletta upp LE-gögnum** til að setja upp sett af skattkóðum sem tengjast lögaðila til að sía skattfærslur eftir mismunandi skattlagningarstigum, skal ljúka skrefunum í efnisatriðinu [Setja upp færibreytur rafræns skýrslugerðarsniðs fyrir hvern lögaðila](er-app-specific-parameters-set-up.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
-[Settu upp færibreytur ER sniðs á hvern lögaðila](er-app-specific-parameters-set-up.md)
+[Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila](er-app-specific-parameters-set-up.md)
+
+[Skilgreina gagnaveitu uppflettingar til að nota eiginleikann fyrir færibreytur sem eru sértækar fyrir rafræna skýrslugerð](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

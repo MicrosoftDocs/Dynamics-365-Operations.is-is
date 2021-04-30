@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821130"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910426"
 ---
 # <a name="inventory-visibility-add-in"></a>Innbót birgðasýnileika
 
@@ -39,7 +39,7 @@ Birgðasýnileiki býður upp á grunnstillingarvalkosti sem gerir því kleift 
 
 Setja þarf upp innbót birgðasýnileika með því að nota Microsoft Dynamics Lifecycle Services (LCS). LCS er samstarfsgátt sem býður upp á umhverfi ásamt safni af reglulega uppfærðum þjónustum sem hjálpa til við að stjórna líftíma forritsins fyrir Dynamics 365 Finance and Operations forritin þín.
 
-Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Forkröfur
 
@@ -48,10 +48,13 @@ Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](https://docs.
 - Fá LCS-innleiðingarverk með að minnsta kosti einu virku umhverfi í notkun.
 - Gangið úr skugga um að skilyrðum fyrir uppsetningu innbóta sem gefnar eru upp í [Yfirliti innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) sé lokið. Sýnileiki birgða krefst ekki tengingu tvöföldrar skráningar.
 - Hafa skal samskipti við teymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá eftirfarandi þrjár áskildar skrár:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
+- Fylgið leiðbeiningunum sem gefnar eru í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app) til að skrá forrit og bæta leyniorði biðlara við AAD undir áskriftinni að azure.
+    - [Skrá forrit](/azure/active-directory/develop/quickstart-register-app)
+    - [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - **Auðkenni forrits (biðlara)**, **Leyniorð biðlara** og **Leigjandakenni** verður notað í eftirfarandi skrefum.
 
 > [!NOTE]
 > Ríkin sem eru studd eins og er eru Kanada, Bandaríkin og Evrópusambandið (ESB).
@@ -64,7 +67,7 @@ Fylgdu þessum skrefum til að setja upp Dataverse.
 
 1. Bætið þjónustureglu við leigjandann:
 
-    1. Setjið upp Azure AD PowerShell-einingu v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir graf](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Setjið upp Azure AD PowerShell-einingu v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir graf](/powershell/azure/active-directory/install-adv2).
     1. Keyra eftirfarandi PowerShell-skipun.
 
         ```powershell
@@ -80,7 +83,12 @@ Fylgdu þessum skrefum til að setja upp Dataverse.
     1. Veljið **Nýtt**. Stilla forritskenni á *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (Auðkenni hlutar verður sjálfkrafa hlaðið þegar breytingarnar eru vistaðar.) Hægt er að sérstilla nafnið. Til dæmis er hægt að breyta því í *Birgðasýnileiki*. Þegar þessu er lokið skal velja **Vista**.
     1. Veljið **Úthluta hlutverki** og veljið því næst **Kerfisstjóri**. Ef til er hlutverk sem heitir **Common Data Service Notandi** skal líka velja það.
 
-    Frekari upplýsingar eru í [Stofna notanda forrits](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Frekari upplýsingar eru í [Stofna notanda forrits](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Ef sjálfgefna tungumálið er Dataverse ekki **enska**:
+
+    1. Farið í **Ítarleg stilling \> Stjórnun \> Tungumál**,
+    1. Veljið **Enska (LanguageCode=1033)** og veljið **Nota**.
 
 1. Flytjið inn `Inventory Visibility Dataverse Solution.zip` skrána sem inniheldur Dataverse skilgreiningar tengdra eininga og Power Apps:
 
@@ -158,12 +166,12 @@ Gangið úr skugga um að kveikt sé á eftirfarandi eiginleikum í umhverfi Sup
 
     Finnið Azure-svæði LCS-umhverfisins og færið síðan inn vefslóðina. Vefslóðin er með eftirfarandi skjámynd:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Í Evrópu verður umhverfið til dæmis með eina af eftirfarandi vefslóðum:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Eftirfarandi svæði eru í boði sem stendur.
 
@@ -212,13 +220,13 @@ Sækja merki öryggisþjónustu á eftirfarandi hátt:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Sækja merki öryggisþjónustu á eftirfarandi hátt:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Dæmi um beiðni
+
+Til viðmiðunar má nefna að hér er dæmi um http-beiðni, hægt er að nota hvaða verkfæri eða forritunarmál sem er til að senda þessa beiðni, t.d. ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Skilgreina API fyrir sýnileika birgða
 
@@ -338,7 +383,7 @@ Hér er dæmi um fyrirspurn um afurðina með lita- og stærðarsamsetningu.
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Hér er dæmi um fyrirspurn um afurðina með lita- og stærðarsamsetningu.
     "returnNegative": true
 }
 ```
+
+Fyrir reitinn `filters`, styður sem stendur aðeins `ProductId` mörg gildi. Ef `ProductId` er tómt fylki verða sendar fyrirspurnir á allar afurðir.
 
 #### <a name="custom-measurement"></a>Sérsniðin mæling
 

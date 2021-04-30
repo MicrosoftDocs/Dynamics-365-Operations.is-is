@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753577"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894077"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
 
@@ -38,7 +38,7 @@ Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt a�
 Sniðsþáttur rafrænnar skýrslugerðar fyrir lausnina verður að innihalda sniðseininguna **Excel\\Skrá** og sú sniðseining verður að vera tengd við Word-skjal sem verður notað sem sniðmát fyrir myndaðar skýrslur við keyrslu. Til að skilgreina sniðsþátt rafrænnar skýrslugerðar þarf að opna útgáfu [draga](general-electronic-reporting.md#component-versioning) fyrir stofnaða skilgreiningu rafrænnar skýrslugerðar í sniðshönnuði rafrænnar skýrslugerðar. Síðan skal bæta við einingunni **Excel\\Skrá**, hengja Word-sniðmátið við breytanlegt snið rafrænnar skýrslugerðar og tengja það sniðmát við eininguna **Excel\\Skrá** sem var bætt við.
 
 > [!NOTE]
-> Þegar sniðmát er hengt við þarf að nota [gerð skjals](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) sem var áður [skilgreind](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) í færibreytum rafrænnar skýrslugerðar til að vista sniðmát rafrænna skýrslugerðarsniða.
+> Þegar sniðmát er hengt við þarf að nota [gerð skjals](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) sem var áður [skilgreind](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) í færibreytum rafrænnar skýrslugerðar til að vista sniðmát rafrænna skýrslugerðarsniða.
 
 ![Sniðmát hengt við á síðu sniðshönnuðar](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Hægt er bæta við földuðum einingum **Excel\\Afmörkun** og **Excel\\Hólf**
 
 ![Földuðum einingum bætt við á síðu sniðshönnuðar](./media/er-design-configuration-word-image4.gif)
 
-Þegar breytingar á rafrænu skýrslugerðarsniði eru vistaðar á hönnunartíma verður stigveldi sniðsskipulags vistað í viðhengdu Word-sniðmáti sem [sérstilltur XML-hluti](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) sem heitir **Skýrsla**. Ná þarf í breytta sniðmátið, sækja það úr Finance, vista það staðbundið og opna það í skjáborðsforriti Word. Eftirfarandi mynd sýnir dæmi um sniðmát, sem vistað er staðbundið, fyrir stjórnunarskýrsluna sem inniheldur sérstillta XML-hlutann **Skýrsla**.
+Þegar breytingar á rafrænu skýrslugerðarsniði eru vistaðar á hönnunartíma verður stigveldi sniðsskipulags vistað í viðhengdu Word-sniðmáti sem [sérstilltur XML-hluti](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) sem heitir **Skýrsla**. Ná þarf í breytta sniðmátið, sækja það úr Finance, vista það staðbundið og opna það í skjáborðsforriti Word. Eftirfarandi mynd sýnir dæmi um sniðmát, sem vistað er staðbundið, fyrir stjórnunarskýrsluna sem inniheldur sérstillta XML-hlutann **Skýrsla**.
 
 ![Sýnishorn af skýrslusniðmáti forskoðað í skjáborðsforriti Word](./media/er-design-configuration-word-image5.gif)
 
-Þegar bindingar á sniðseiningunum **Excel\\Afmörkun** og **Excel\\Hólf** eru keyrðar á keyrslutíma munu gögn sem allar bindingar skila fara inn í myndað Word-skjal sem sjálfstæðir reitir í sérstillta XML-hlutanum **Skýrsla**. Til að slá inn gildin úr reitum sérsniðna XML-hlutans í mynduðu skjali þarf að bæta viðeigandi [efnisstýringu](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) Word við Word-sniðmátið til að þjóna hlutverki staðgengils fyrir gögn sem verður fyllt út í við keyrslu. Til að tilgreina hvernig fyllt er í efnisstýringar skal varpa allri efnisstýringu í viðeigandi reit sérstillta XML-hlutans **Skýrsla**.
+Þegar bindingar á sniðseiningunum **Excel\\Afmörkun** og **Excel\\Hólf** eru keyrðar á keyrslutíma munu gögn sem allar bindingar skila fara inn í myndað Word-skjal sem sjálfstæðir reitir í sérstillta XML-hlutanum **Skýrsla**. Til að slá inn gildin úr reitum sérsniðna XML-hlutans í mynduðu skjali þarf að bæta viðeigandi [efnisstýringu](/office/client-developer/word/content-controls-in-word) Word við Word-sniðmátið til að þjóna hlutverki staðgengils fyrir gögn sem verður fyllt út í við keyrslu. Til að tilgreina hvernig fyllt er í efnisstýringar skal varpa allri efnisstýringu í viðeigandi reit sérstillta XML-hlutans **Skýrsla**.
 
 ![Efnisstýringum bætt við og varpað í skjáborðsforrit Word](./media/er-design-configuration-word-image6.gif)
 

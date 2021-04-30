@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802456"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892130"
 ---
 # <a name="view-and-manage-address-changes"></a>Skoða og vinna með aðsetursbreytingar
 
@@ -125,9 +125,9 @@ Starfsmaður mannauðsmála getur skoðað og fylgst með breytingum á aðsetri
 Þegar reiturinn **Breytingar á aðsetri** er valinn, sýnir ný síða upplýsingarnar um allar breytingar á aðsetri. Hægt er að velja **Hafa seinni tíma breytingar á aðsetri með** ofarlega í hægra horninu til að sýna breytingar á aðsetri með dagsetningu fram í tímann.
 
 > [!NOTE]
-> Ef óskað er eftir að fá tilkynningu eða tölvupóst um þessar breytingar á aðsetri, er hægt að stofna nýja tilkynningarreglu í flipanum **Valkostir** á aðgerðasvæðinu. Frekari upplýsingar um tilkynningarreglur er að finna í [Stofna tilkynningarreglur](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Ef óskað er eftir að fá tilkynningu eða tölvupóst um þessar breytingar á aðsetri, er hægt að stofna nýja tilkynningarreglu í flipanum **Valkostir** á aðgerðasvæðinu. Frekari upplýsingar um tilkynningarreglur er að finna í [Stofna tilkynningarreglur](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Ef ætlunin er að skilgreina verkflæði fyrir breytingar á aðsetri er hægt að velja valkostinn **Senda út á við** í tilkynningarreglunni og nota síðan Power Automate til að kveikja á viðskiptatilvikinu og skilgreina verkflæði. Frekari upplýsingar er að finna í [Tilkynningar sem viðskiptatilvik](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Ef ætlunin er að skilgreina verkflæði fyrir breytingar á aðsetri er hægt að velja valkostinn **Senda út á við** í tilkynningarreglunni og nota síðan Power Automate til að kveikja á viðskiptatilvikinu og skilgreina verkflæði. Frekari upplýsingar er að finna í [Tilkynningar sem viðskiptatilvik](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

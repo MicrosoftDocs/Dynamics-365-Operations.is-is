@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27d9aead663da63b98cba249ef57f1324a145c34
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a82ff2b1faf99b7776fabb5fae3798b16f32b75
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790381"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892106"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (10. mars 2020)
 
@@ -103,7 +103,7 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747202"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890358"
 ---
 # <a name="workflow-faq"></a>Algengar spurningar um verkflæði
 
@@ -45,9 +45,9 @@ Hér eru nokkrur lykilatriði til að hafa í huga varðandi viðbót viðvarana
     - Í framtíðaruppfærslu munum við bæta við skilaboðum aðgerðarmiðstöðvar þannig að notanda sé úthlutað verkflæði. 
 - Tilkynningum bætt við verkflæði
     - Skilaboð aðgerðarmiðstöðvar geta verið stofnuð fyrir tiltekna notendur, eins og silkaboð stofnuð í verkflæði í X ++.
-    - [Verkflæði hafa viðskiptatilvik](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) sem viðskiptavinurinn gæti notað til að kveikja á flæði, hafa þær tilkynningar sem þeir leita að.   
+    - [Verkflæði hafa viðskiptatilvik](../../dev-itpro/business-events/business-events-workflow.md) sem viðskiptavinurinn gæti notað til að kveikja á flæði, hafa þær tilkynningar sem þeir leita að.   
 
-Tekið saman, ef notandi fær ekki rétta tilkynningu frá Aðgerðamiðstöð þegar þeim er úthlutað vinnulið verkflæðis, skal nota [Viðskiptatilvik verkflæðis](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) með Microsoft Power Automate til að veita frekari eða aðrar tilkynningar.
+Tekið saman, ef notandi fær ekki rétta tilkynningu frá Aðgerðamiðstöð þegar þeim er úthlutað vinnulið verkflæðis, skal nota [Viðskiptatilvik verkflæðis](../../dev-itpro/business-events/business-events-workflow.md) með Microsoft Power Automate til að veita frekari eða aðrar tilkynningar.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Af hverju er ritstjórinn á verkflæðinu ekki fær um að byrja undir AD FS?
 Þegar keyrt er undir Active Directory Federation Services (AD FS) í uppfærðu umhverfi, getur ritstjórinn á verkflæðinu átt í vandræðum með að byrja. Ef það gerist skaltu passa að slóðinni „https://dynamicsaxworkfloweditor/" hafi verið bætt við eiginleikann **Microsoft Dynamics 365 for Operations Innanhúss - Vinnuflæði - Native forrit** í ADFS-stillingum.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751233"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893579"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 
@@ -60,7 +60,7 @@ Ef skjalagerðin **Hvað sem er** er valin verður **Leita sjálfkrafa** sjálfk
     - Þegar aðgerðin **Senda** er gefin upp við keyrslu verður áfangastaðurinn **Tölvupóstur** fyrir rafræna skýrslugerð notaður.
     - Þegar aðgerðin **Prenta** er gefin upp við keyrslu verður áfangastaðurinn **Prentari** fyrir rafræna skýrslugerð notaður.
 
-Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** til að prenta [reikning með frjálsum texta](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) þegar hann er bókaður. Til að beina mynduðu skjali eitthvert þarf að skilgreina áfangastaði rafrænnar skýrslugerðar fyrir þetta snið rafrænnar skýrslugerðar. Til dæmis gæti þurft að skilgreina þessa áfangastaði rafrænnar skýrslugerðar til að framkvæma eftirfarandi fyrir myndað skjal:
+Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** til að prenta [reikning með frjálsum texta](../../../finance/accounts-receivable/create-free-text-invoice-new.md) þegar hann er bókaður. Til að beina mynduðu skjali eitthvert þarf að skilgreina áfangastaði rafrænnar skýrslugerðar fyrir þetta snið rafrænnar skýrslugerðar. Til dæmis gæti þurft að skilgreina þessa áfangastaði rafrænnar skýrslugerðar til að framkvæma eftirfarandi fyrir myndað skjal:
 
 - Safnvista skjalinu ef snið rafrænnar skýrslugerðar er keyrt en enginn aðgerðarkóði er gefinn upp (til dæmis þegar skjalið er sent rafrænt).
 - Forskoða skjalið í vafra þegar notandi framkvæmir aðgerðina **Skoða**.
@@ -82,7 +82,7 @@ Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að
 
 Þegar snið rafrænnar skýrslugerðar er keyrt, ef notandaaðgerðum hefur verið úthlutað af notendum sem eru með tilheyrandi [heimildir](electronic-reporting-destinations.md#security-considerations) til að breyta skilgreindum stillingum áfangastaðar við keyrslu, birtist svargluggi sem býður upp á möguleikann á því að breyta stillingum skilgreinds áfangastaðar. Þessi svargluggi er valfrjáls og útlit hans veltur á því hvernig kallið, sem rammi rafrænnar skýrslugerðar gerir til að keyra snið rafrænnar skýrslugerðar, hefur verið innleitt. Ef þessi svargluggi birtist verða áfangastaðir rafrænnar skýrslugerðar í honum virkjaðir samkvæmt aðgerð notanda sem er gefin upp.
 
-Eftirfarandi mynd sýnir dæmi um svargluggann **Áfangastaðir rafræns skýrslugerðarsniðs** sem birtist þegar reikningur með frjálsum texta er [bókaður](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) og rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt til að mynda þetta skjal ef aðgerðinni **Prentari** var úthlutað og áfangastaðir rafrænnar skýrslugerðar voru skilgreindir fyrir þetta snið eins og var sýnt fyrr í þessu efnisatriði.
+Eftirfarandi mynd sýnir dæmi um svargluggann **Áfangastaðir rafræns skýrslugerðarsniðs** sem birtist þegar reikningur með frjálsum texta er [bókaður](../../../finance/accounts-receivable/create-free-text-invoice-new.md) og rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt til að mynda þetta skjal ef aðgerðinni **Prentari** var úthlutað og áfangastaðir rafrænnar skýrslugerðar voru skilgreindir fyrir þetta snið eins og var sýnt fyrr í þessu efnisatriði.
 
 ![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar](./media/er-destination-action-dependent-02.gif)
 

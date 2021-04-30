@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: f21e9b94b5aa30b2cdb18692e8cc9c8d00f758d6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805035"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890077"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Fínstilla BYOD-runuvinnslur á áætlun
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði útskýrir hvernig á að fínstilla frammistöðu þegar þú ert að nota eiginleikann Koma með eigin gagnagrunn (BYOD). Frekari upplýsingar um BYOD er að finna á [Koma með eigin gagnagrunn (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+Þetta efnisatriði útskýrir hvernig á að fínstilla frammistöðu þegar þú ert að nota eiginleikann Koma með eigin gagnagrunn (BYOD). Frekari upplýsingar um BYOD er að finna á [Koma með eigin gagnagrunn (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Afkastaatriði fyrir gagnaútflutning
 
-Eftir að einingar eru birtar í viðtökugagnagrunni er hægt að nota útflutningseiginleikann á vinnusvæðinu **Gagnastjórnun** til að flytja gögn. Með útflutningseiginleikanum er hægt að skilgreina gagnahreyfingavinnslu sem inniheldur eina eða fleiri einingar. Frekari upplýsingar um gagnaútflutning er að finna í yfirlitinu [Yfirlit yfir inn- og útflutningsvinnslu gagna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Eftir að einingar eru birtar í viðtökugagnagrunni er hægt að nota útflutningseiginleikann á vinnusvæðinu **Gagnastjórnun** til að flytja gögn. Með útflutningseiginleikanum er hægt að skilgreina gagnahreyfingavinnslu sem inniheldur eina eða fleiri einingar. Frekari upplýsingar um gagnaútflutning er að finna í yfirlitinu [Yfirlit yfir inn- og útflutningsvinnslu gagna](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Hægt er að nota síðuna **Flytja út** til að flytja út gögn í mismunandi viðtökusniðmáta, svo sem aðskilin gildi fyrir kommu (CSV). Þessi síða styður einnig SQL-gagnagrunna sem annan áfangastað.
 
@@ -61,7 +61,7 @@ Fyrir bestu afköst skal ávallt nota valkostinn **Flytja út í runu** á síð
 
 Þegar einingu fyrir gagnaflutning er bætt við er hægt að velja stigvaxandi sendingu (útflutningu) eða fulla sendingu. Full sending eyðir öllum fyrirliggjandi færslum úr einingu í BYOD-gagnagrunninum. Hún setur síðan inn núverandi safn færslna úr mannauðseiningunni.
 
-Til að gera stigvaxandi dreifingu þarf að kveikja á breytingarakningu fyrir hverja einingu á síðunni **Einingar**. Frekari upplýsingar er að finna í [Virkja breytingarakningu fyrir einingar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Til að gera stigvaxandi dreifingu þarf að kveikja á breytingarakningu fyrir hverja einingu á síðunni **Einingar**. Frekari upplýsingar er að finna í [Virkja breytingarakningu fyrir einingar](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Ef valin er stigvaxandi sending er fyrsta sending alltaf full sending. SQL-rásir breytar frá fyrstu heildarsendingu. Þegar ný færsla er sett inn eða þegar færsla er uppfærð eða henni eytt kemur breytingin fram í viðtökueiningunni.
 
@@ -88,14 +88,14 @@ BYDO-eiginleikinn hefur eftirfarandi takmarkanir:
 
 **Vandamál:** Þegar full seding á sér stað fyrir einingu sést mikið safn færslna í BYOD þegar þú notar **val**. Þegar stigvaxandi sending er notuð sjást hins vegar aðeins nokkrar færslur í BYOD. Það virðist sem stigvaxandi sending hafi eytt öllum færslunum og aðeins bætt við breyttum færslum í BYOD.
 
-**Lausn:** Töflur SQL-breytingarakninga eru hugsanlega ekki í væntanlegri stöðu. Í tilvikum sem þessu er mælt með því að slökkt sé á breytingarakningu fyrir eininguna og kveikja síðan á henni aftur. Frekari upplýsingar er að finna í [Virkja breytingarakningu fyrir einingar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Lausn:** Töflur SQL-breytingarakninga eru hugsanlega ekki í væntanlegri stöðu. Í tilvikum sem þessu er mælt með því að slökkt sé á breytingarakningu fyrir eininguna og kveikja síðan á henni aftur. Frekari upplýsingar er að finna í [Virkja breytingarakningu fyrir einingar](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Yfirlit gagnastjórnunar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Koma með eigin gagnagrunn (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Yfirlit yfir inn- og útflutningsvinnslu gagna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Virkja rakningarbreytingu fyrir einingar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Yfirlit gagnastjórnunar](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Koma með eigin gagnagrunn (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Yfirlit yfir inn- og útflutningsvinnslu gagna](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Virkja rakningarbreytingu fyrir einingar](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

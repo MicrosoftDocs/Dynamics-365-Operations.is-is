@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803490"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891055"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Setja upp íhluti verks
 
@@ -86,7 +86,7 @@ Verkefnum starfs er viðhaldið með því að nota síðuna **Verkefni starfs**
 Þú notar Ábyrgðarsvið til að gefa til kynna starfshlutverk, ferli, afurðir og aðgerðir sem starfsmaður sem er í stöðu er ábyrgur fyrir í vinnslu. Til dæmis fyrir starf sem heitir "Bókari" gæti eitt svæði ábyrgðar verið "Fjárhagsleg skýrslugerð fyrir Afurð A". Ábyrgðarsviði er viðhaldið með því að nota síðuna **Ábyrgðarsvið** sem þú getur opnað með því að nota leitaraðgerð. Á síðunni **Ábyrgðarsvið** skal færa inn heiti og lýsingu á ábyrgðinni. Í svæðinu **athugasemd** er valfrjálst hægt að færa inn viðbótarupplýsingar. Hægt er að uppfæra athugasemdirnar fyrir tilgreint starf án þess að breyta athugasemdunum sem voru færðar inn hérna.
 
 ## <a name="steps-for-creating-a-job"></a>Skref til að stofna starf
-Sjá greinina [Skilgreina ný störf](../fin-and-ops/hr/tasks/define-new-jobs.md) fyrir skref fyrir skref aðferð til að stofna til nýtt starf. 
+Sjá greinina [Skilgreina ný störf](./hr-personnel-define-jobs.md) fyrir skref fyrir skref aðferð til að stofna til nýtt starf. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

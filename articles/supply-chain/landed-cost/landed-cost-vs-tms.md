@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833858"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909476"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Heildarkostnaður í samanburði við flutningsstjórnun
 
@@ -51,8 +51,8 @@ Flutningstjórnun og heildarkostnaður deila ekki tilvísunargögnum fyrir einin
 
 Eftirfarandi skýrslur virka ekki saman með eiginleika fyrir vörur í flutningi sem heildarkostnaður býður upp á:
 
-- [Heildarskýrsla vara í flutning innan samstæðu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Heildarskýrsla vara í flutning innan samstæðu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Heildarskýrsla vara í flutning innan samstæðu](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Heildarskýrsla vara í flutning innan samstæðu](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Þessar skýrslur gera ráð fyrir að vörur séu settar í flutning um leið og gefinn er út fylgiseðill sölu og þær færðar í birgðir úr flutningi við móttöku. Vörur í flutningi eru hins vegar ekki unnar á þennan hátt. Þannig að, ef vörur í flutningi og samstæðueiginleikar er notað saman, verða niðurstöður fyrir báðar þessar skýrslur rangar.
 

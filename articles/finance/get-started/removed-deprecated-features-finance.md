@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836914"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898288"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ ms.locfileid: "5836914"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+> Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.20 útgáfu
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Query Invoice Data Request (HU) sniðsstilling
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Ekki tekið með í meðhöndlun rafrænna skilaboða samaðgerðar með Ungverskt reikningskerfi á netinu |
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: frá 15. apríl 2022 hyggjumst við ekki lengur styðja „RTIR Query Invoice Data Request (HU)“ sniðsstillingu. |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.17 útgáfu
 

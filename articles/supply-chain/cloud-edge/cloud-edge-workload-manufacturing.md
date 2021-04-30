@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809783"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899096"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
 
@@ -29,9 +29,10 @@ ms.locfileid: "5809783"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Vinnuálag framkvæmd framleiðslu er í forskoðun eins og er.
 > Tiltekin virkni fyrirtækisins er ekki studd að fullu í almennu forskoðuninni þegar kvörðunareiningar skýja og jaðra eru notaðar.
 
-Við framkvæmd framleiðslu veita kvörðunareiningar skýja og jaðra eftirfarandi getu, jafnvel þegar kvörðunareiningarnar eru ekki tengdar við miðstöðina:
+Í framkvæmd framleiðslu bjóða einingarkvarðar upp á eftirfarandi möguleika:
 
 - Stjórnandi véla og eftirlitsmenn vinnusalar fá aðgang að framleiðsluáætlun.
 - Stjórnendur vél geta uppfært áætlunina með því að keyra afmarkað og verk framleiðsluferlis.
@@ -108,5 +109,6 @@ Yfirleitt eru áskilin ferli til keyrslu vinnuálags framkvæmdar framleiðslu k
 
 Vinnslan _Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar_ vinnur úr gögnum frá miðstöðinni til kvörðunareiningarinnar. Þessi vinnsla hefst sjálfkrafa um leið og vinnuálag framkvæmdar framleiðslu er keyrt. Hins vegar er hægt að keyra slíkt handvirkt hvenær sem er með því að opna **Framleiðslustýringu \> Reglubundin verk \> Stjórnun vinnuálags í bakvinnslu \> Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
