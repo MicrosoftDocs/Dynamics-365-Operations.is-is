@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a4266ee942f504ffa2f355959af8e3076984d83
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794998"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892300"
 ---
 # <a name="system-requirements"></a>Kerfiskröfur
 
@@ -53,17 +53,17 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 
 ## <a name="supported-microsoft-office-applications"></a>Studd Microsoft Office forrit
 
-* Til að keyra Microsoft Excel og Word innbætur verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu í [Úrrætðaleit samþættingar á Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Úrræðaleit fyrir Office-samþættingu").
+* Til að keyra Microsoft Excel og Word innbætur verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Sjá frekari upplýsingar um þarfir útgáfu í [Úrrætðaleit samþættingar á Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "Úrræðaleit fyrir Office-samþættingu").
 * Til að skoða skjöl sem eru mynduð af virkninni Flytja inn í Excel eða Flytja inn í Word verður að hafa Microsoft Office 2007 eða nýrri útgáfu uppsetta.
 
 ## <a name="regional-availability-languages-and-localization"></a>Svæði í boði, tungumál og staðfærsla
 
-Hægt er að hlaða niður PDF skrá yfir lönd, svæði og tungumál sem Human Resources styður á [Alþjóðlegt framboð á Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+Hægt er að hlaða niður PDF skrá yfir lönd, svæði og tungumál sem Human Resources styður á [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability). 
 
 > [!NOTE]
 > Á meðan notandaviðmót er staðfært á önnur tungumál eru öll gögn notanda geymd á því tungumáli sem þau voru færð inn á. Hægt er að búa til tölvupósta og sniðmát á öðrum tungumálum, en gögn á borð við upplýsingar um áætlanagerð eru einungis í boði á ensku sem stendur.
 
-Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðisbundnar sérstillingar, eða að finna lausnir fyrir land eða svæði sem Microsoft styður ekki sem stendur skaltu skoða [Alþjóðavæðing](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðisbundnar sérstillingar, eða að finna lausnir fyrir land eða svæði sem Microsoft styður ekki sem stendur skaltu skoða [Alþjóðavæðing](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

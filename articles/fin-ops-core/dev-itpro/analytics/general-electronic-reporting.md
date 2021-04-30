@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750059"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893178"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -183,11 +183,11 @@ Athugið að þessi gagnasafnsgerð er aðgengileg í eftirfarandi umhverfi:
 
 Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar](./electronic-reporting-import-ger-configurations.md).
 
-Gagnageymsla **RCS** veitir aðgang að lista yfir skilgreiningar á tilteknu tilviki [Skilgreiningarþjónustu (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sem var valið á skráningarstigi gagnageymslu. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik svo hægt sé að nota þær í rafrænni skýrslugerð.
+Gagnageymsla **RCS** veitir aðgang að lista yfir skilgreiningar á tilteknu tilviki [Skilgreiningarþjónustu (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sem var valið á skráningarstigi gagnageymslu. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik svo hægt sé að nota þær í rafrænni skýrslugerð.
 
 Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar frá RCS](./rcs-download-configurations.md).
 
-Gagnageymslan **Altæk geymsla** veitir aðgang að lista yfir skilgreiningar innan altækrar geymslu í [Skilgreiningarþjónustu](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Einungis er hægt að skrá þessa gerð af ER-gagnasafni fyrir Microsoft-þjónustuaðilann. Úr altækri geymslu er hægt að flytja nýjustu útgáfur af skilgreiningum rafrænnar skýrslugerðar inn í núverandi tilvik.
+Gagnageymslan **Altæk geymsla** veitir aðgang að lista yfir skilgreiningar innan altækrar geymslu í [Skilgreiningarþjónustu](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Einungis er hægt að skrá þessa gerð af ER-gagnasafni fyrir Microsoft-þjónustuaðilann. Úr altækri geymslu er hægt að flytja nýjustu útgáfur af skilgreiningum rafrænnar skýrslugerðar inn í núverandi tilvik.
 
 Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](./er-download-configurations-global-repo.md).
 

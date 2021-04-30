@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894699"
 ---
 # <a name="registration-ids"></a>Skráningarkenni
 
@@ -55,7 +55,7 @@ Skráningarflokkur er skráningarkenni lands/svæðis sem er samþykkt til nota 
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Slá inn skráningarkenni fyrir færslur altækrar aðsetursbókar
 
-Altæka aðsetursbókin (GAB) inniheldur samanteknar upplýsingar um aðsetur fyrir viðskiptavini, lánardrottna, tengiliði, viðskipatengsl og lögaðila. Frekari upplýsingar eru í [Yfirlit yfir altæka aðsetursbók](../../fin-and-ops/organization-administration/overview-global-address-book.md). Aðilafærslur í altæku aðsetursbókinni geta innihaldið eina eða fleiri aðsetursfærslur. Þessi aðsetur eru notuð í mismunandi tilgangi, svo sem vegna reikningsgerðar eða afhendingar. Hægt er að setja upp skráningarkenni fyrir upplýsingar um aðsetur fyrir viðskiptavini, lánardrottna, starfsfólk og lögaðila. Finndu aðila (lögaðila, lánardrottinn, viðskiptavin, starfsmann) sem þú vilt slá inn skráningarkenni fyrir og ​​smelltu síðan á **Skráningarkenni** á skjámyndum sem tengjast aðila, lögaðila, lánardrottni, viðskiptavini, starfsmanni til að opna síðuna **Stjórna heimilisföngum**. Á flipanum **Skattskráning** er smellt á **Bæta við** og færðar inn eftirfarandi upplýsingar um skráningarkenni.
+Altæka aðsetursbókin (GAB) inniheldur samanteknar upplýsingar um aðsetur fyrir viðskiptavini, lánardrottna, tengiliði, viðskipatengsl og lögaðila. Frekari upplýsingar eru í [Yfirlit yfir altæka aðsetursbók](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). Aðilafærslur í altæku aðsetursbókinni geta innihaldið eina eða fleiri aðsetursfærslur. Þessi aðsetur eru notuð í mismunandi tilgangi, svo sem vegna reikningsgerðar eða afhendingar. Hægt er að setja upp skráningarkenni fyrir upplýsingar um aðsetur fyrir viðskiptavini, lánardrottna, starfsfólk og lögaðila. Finndu aðila (lögaðila, lánardrottinn, viðskiptavin, starfsmann) sem þú vilt slá inn skráningarkenni fyrir og ​​smelltu síðan á **Skráningarkenni** á skjámyndum sem tengjast aðila, lögaðila, lánardrottni, viðskiptavini, starfsmanni til að opna síðuna **Stjórna heimilisföngum**. Á flipanum **Skattskráning** er smellt á **Bæta við** og færðar inn eftirfarandi upplýsingar um skráningarkenni.
 
 
 |Svæði                |lýsing                                                |

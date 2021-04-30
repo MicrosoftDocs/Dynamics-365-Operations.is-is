@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825207"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908036"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
@@ -31,7 +31,7 @@ ms.locfileid: "5825207"
 - **Innkaupapöntunum svarað** - Fylgjast með og bregðast við innkaupapöntunum.
 - **Lánardrottinn tilboð** - Skoða beiðnir um tilboð (BUT) og svara þeim með því að færa inn tilboð.
 - **Lánardrottnaupplýsingar** - Skoða og uppfæra lánardrottinssniðmát.
-- **Invoicing** - Vinna með reikninga. Þetta efnisatriði nær ekki yfir vinnusvæðið **Invoicing**. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Invoicing** - Vinna með reikninga. Þetta efnisatriði nær ekki yfir vinnusvæðið **Invoicing**. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Lánardrottnar geta líka fylgst með upplýsingum um vörusendingarbirgðir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822132"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898211"
 ---
 # <a name="budget-planning-overview"></a>Yfirlit fjárhagsáætlunargerðar
 
@@ -75,7 +75,7 @@ Eftirfarandi mynd sýnir dæmi þar sem höfuðstöðvar fyrirtækis áætla gru
 
 Á **stigveldi Fyrirtækis** síðu er hægt að tilgreina stigveldi fyrirtækis sem stigveldi fjárhagsáætlunargerðar fyrir hverju ferli fjárhagsáætlunargerðar. Stigveldi fjárhagsáætlunargerðar þarf ekki að samsvara stöðluðu stigveldi fyrirtækis sem notað er í öðrum tilgangi. Þar sem þetta stigveldið er notuð til að safna og dreifa gögn, gætirðu vijað nota annað skipulag. Í dæmaskema eru söludeildirnar undir stigi höfuðstöðvar sem inniheldur deildir fjárhagsáætlunar og fjármála. Skipanin sem er notuð til að stjórna aðgerðum fyrir söludeildirnar er líklega ólík þessu skipulagi. Aðeins eitt stigveldi fyrirtækis getur verið úthlutað á hvert ferli fjárhagsáætlunargerðar.
 
-Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Notandaöryggi
 
@@ -163,7 +163,7 @@ Auk dálka fyrir áætlunarupphæðir, er hægt að skilgreina dálka fyrir verk
 
 Fyrir t.d. skema, gætirðu viljað búa til dálka fyrir atburðarásina „PY Sala“, „Samninga“ og „Spá“. (Eftirfarandi mynd sýnir viðkomandi hluta skemans.) Síðan geturðu sundurgreint eina eða allar þessar aðstæður í aðskilda dálka fyrir hvern ársfjórðung fjárhagsárs, þannig að stjórnandi söludeildar getur nákvæmlega fært inn spárupphæðir fyrir hvert tímabil.
 
-[![Dálkar](./media/columns.png)](./media/columns.png)
+[![Lýsing á hlutum í skema til að bæta við dálkum](./media/columns.png)](./media/columns.png)
 
 Þú tilgreinir einnig hvort hægt sé að breyta hverri útlitseiningu (dálki), og hvort hún sé tiltæk í vinnublaðssniðmáti sem er stofnuð fyrir það útlit. Fyrir dæmaskemað, í útliti sem er notað fyrir stigið „Mat”, eru dálkarnir „Spár” breytanlegir, en dálkarnir „PY-sala” og „Samningar” eru skrifvarðir.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819281"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908929"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -79,7 +79,7 @@ Aðalaðgerðin og aukaaðgerðir verða að hafa sama aðgerðarnúmer (30 í f
 
 Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins vegar að þegar leið er ósamþykkt, eru allar tengdar leiðarútgáfur einnig ósamþykktar. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort hæg t sé að hætta við samþykkt leiða og hvort hægt sé að breyta samþykktum leiðum.  
 
-Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
@@ -185,7 +185,7 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="electronic-signatures"></a>Rafrænar undirskriftir
 
-Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Vörubreyting sem notar málastjórnun
 
@@ -253,7 +253,7 @@ Meðal vinnslugerðanna er hægt að finna skörun. Skörun gerir mismunandi vin
 
 - [Tilfangageta](resource-capabilities.md)
 
-- [Yfirlit yfir rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Yfirlit yfir rafræna undirskrift](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

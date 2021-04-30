@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753721"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894125"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
 
@@ -27,7 +27,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Þú verður að setja upp grannfræði sem styður samfellda smíði. (Nánari upplýsingar er að finna í [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Þú verður að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
+Þú verður að setja upp grannfræði sem styður samfellda smíði. (Nánari upplýsingar er að finna í [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Þú verður að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -53,7 +53,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 Til að tilgreina hvernig skjöl eru send sem snið rafrænnar skýrslugerðar myndar er nauðsynlegt að skilgreina [Viðtökustaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md). Í sérhverjum viðtökustað rafrænnar skýrslugerðar sem er skilgreindur til að geyma mynduð skjöl sem skrár, þarf að tilgreina gerð skjals fyrir skjalastjórnunarramma. Mismunandi skjalagerðir er hægt að nota til að senda skjöl sem mismunandi snið rafrænnar skýrslugerðar mynda.
 
-1. Bæta við nýrri [skjalagerð](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) fyrir snið rafrænnar skýrslugerðar sem þú bjóst til eða fluttir inn áður. Í skýringarmyndinni sem fylgir er skjalagerðin **FileX**.
+1. Bæta við nýrri [skjalagerð](../../fin-ops/organization-administration/configure-document-management.md) fyrir snið rafrænnar skýrslugerðar sem þú bjóst til eða fluttir inn áður. Í skýringarmyndinni sem fylgir er skjalagerðin **FileX**.
 2. Til að aðgreina þessa skjalategund frá öðrum skjalategundum skal hafa með tiltekið lykilorð í heitinu. Til dæmis, í skýringarmyndinni sem fylgir er heitið **(LOCAL) mappa**.
 3. Í reitnum **Klasi** skal tilgreina **Hengja skrá við**.
 4. Í reitnum **Flokkur** skal tilgreina **Skrá**.
@@ -117,14 +117,14 @@ Tilvikið **AttachingFile()** kemur upp þegar unnið er úr eftirfarandi viðt�
 
 ## <a name="configure-an-er-destination"></a>Skilgreina viðtökustað rafrænnar skýrslugerðar
 
-1. Skilgreina safnvistaðan viðtökustað fyrir einn af áðurnefndum þáttum (skrá, mappa, samruni eða viðhengi) í sniði rafrænnar skýrslugerðar sem var búinn til eða fluttur inn. Til leiðbeiningar skal sjá [Viðtökustaðir rafrænnar skýrslugerðar](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Skilgreina safnvistaðan viðtökustað fyrir einn af áðurnefndum þáttum (skrá, mappa, samruni eða viðhengi) í sniði rafrænnar skýrslugerðar sem var búinn til eða fluttur inn. Til leiðbeiningar skal sjá [Viðtökustaðir rafrænnar skýrslugerðar](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Notaðu gerð skjals sem þú bættir við á undan fyrir skilgreindan viðtökustað. (Fyrir dæmið í þessu efnisatriði er gerð skjals **FileX**.)
 
 ![Svargluggi áfangastaðastillinga](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Breyta frumkóða
 
-1. Bæta nýjum klasa við Microsoft Visual Studio verkið og skrifa kóða til að gerast áskrifandi að tilvikinu **AttachingFile()** sem var minnst á hér á undan. (Nánari upplýsingar um mynstur stækkunarhæfni sem er notað skal sjá [Svara með því að nota EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Til dæmis, í nýja klasanum, skrifa kóða sem framkvæmir eftirfarandi aðgerðir:
+1. Bæta nýjum klasa við Microsoft Visual Studio verkið og skrifa kóða til að gerast áskrifandi að tilvikinu **AttachingFile()** sem var minnst á hér á undan. (Nánari upplýsingar um mynstur stækkunarhæfni sem er notað skal sjá [Svara með því að nota EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Til dæmis, í nýja klasanum, skrifa kóða sem framkvæmir eftirfarandi aðgerðir:
 
     1. Geymið myndaðar skrár í möppu staðbundins skráakerfis á þjóninum sem keyrir AOS-þjónustu.
     2. Geymið aðeins þessar mynduðu skrár þegar nýja skjalagerðin (til dæmis gerðin **FileX** sem er með lykilorðið „(LOCAL)“ í heitinu) er notuð þegar skrá er hengd við færsluna í kladda fyrir vinnsluverk rafrænnar skýrslugerðar.

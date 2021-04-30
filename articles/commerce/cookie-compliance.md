@@ -2,7 +2,7 @@
 title: Kökusamræmi
 description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796028"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908185"
 ---
 # <a name="cookie-compliance"></a>Reglufylgni köku
 
@@ -50,6 +50,57 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 | x-ms-cpim-slice                             | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Notað til að viðhalda SSO-lotunni.                        |
 | x-ms-cpim-trans                             | Notað til að rekja færslur (fjöldi opinna flipa sem sannvottar vefsvæði viðskipta við neytanda (B2C)), þar með talið núverandi færslu. |
+| \_msdyn365___muid_                            | Notað ef tilraun er virkjuð fyrir umhverfið; notað sem userId í tilraunaskyni. |
+| \_msdyn365___exp_                             | Notað ef tilraun er virkjuð fyrir umhverfið; notað til að mæla álagsjöfnun afkasta.         |
+
+
+
+Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis munu kökurnar í eftirfarandi töflu einnig vera raktar í vafranum.
+
+
+| Lén                      | Kaka               | lýsing                                                  | Uppruni                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | Samstillir auðkenni LinkedIn auglýsinga                                      | LinkedIn-straumur og merki innsýnar                                |
+| .linkedin.com               | li_sugr                  | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .linkedin.com               | BizographicsOptOut       | Ákvarðar stöðu afþökkunar fyrir rakningu þriðja aðila.              | Stýringar LinkedIn-gests og afþökkunarsíður atvinnugreinar           |
+| .linkedin.com               | \_guid                    | Vafraauðkenni fyrir Google auglýsingar.                            | LinkedIn-straumur                                                |
+| .linkedin.com               | li_oatml                 | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
+| Ýmis lén fyrsta aðila | li_fat_id                | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
+| .adsymptotic.com            | U                        | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .linkedin.com                | bcookie                  | Auðkenni vafraköku                                            | Beiðnir til LinkedIn                                         |
+| .linkedin.com                | bscookie                 | Örugg vafraköka                                        | Beiðnir til LinkedIn                                         |
+| .linkedin.com               | lang                     | Lotur sjálfgefinn landsstaðall og tungumál.                                 | Beiðnir til LinkedIn                                         |
+| .linkedin.com                | lidc                     | Notað fyrir leiðir.                                             | Beiðnir til LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | Kaka áhorfendastjórnanda Adobe                                                     | Stilla fyrir samstillingu auðkennis                                              |
+| .linkedin.com               | \_ga                      | Google Analytics kaka                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics kaka                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics kaka                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Kaka inniheldur notandakenni þess sem er skráður inn.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Notað til að auðkenna vafrann sem er notaður til að tengjast við Facebook óháð því hver innskráður notandi er. | Facebook                                                             |
+| .facebook.com               | wd                       | Geymir víddir vafraglugga og er notað af Facebook til að fínstilla birtingu síðunnar. | Facebook                                                             |
+| .facebook.com               | xs                       | Tveggja stafa tala sem táknar lotunúmerið. Seinni hluti gildisins er leynilykill lotu. |  Facebook                                                            |
+| .facebook.com               | fr                       | Inniheldur einkvæman vafra og notandakenni, notað fyrir markmiðaðar auglýsingar. |  Facebook                                                            |
+| .facebook.com               | sb                       | Notað til að bæta Facebook vinatillögur.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Kaka inniheldur notandakenni þess sem er skráður inn.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Kaka inniheldur notandakenni þess sem er skráður inn.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Inniheldur notandakenni og tímastimpilinn þegar kakan var búin til. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      | Pinterest                                                             |
+| .pinterest.com              | Staðbundin geymsla            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Þjónustuaðilar          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki fyrir kökur á svæði notanda á vefsvæði e-Commerce 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840726"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907816"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Setja upp og uppfæra viðskiptavinagátt
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840726"
 
 Til að innleiða viðskiptavinagáttina þarf að hafa eftirfarandi leyfi:
 
-- **Power Apps gáttir** – Þetta leyfi þarf til að hýsa viðskiptavinagáttina. Gáttir fá leyfi samkvæmt notkun. Frekari upplýsingar er að finna í [Leyfiskröfur Power Apps-gátta](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Power Apps gáttir** – Þetta leyfi þarf til að hýsa viðskiptavinagáttina. Gáttir fá leyfi samkvæmt notkun. Frekari upplýsingar er að finna í [Leyfiskröfur Power Apps-gátta](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Tvöföld skrif** - Nauðsynlegt er að hafa réttu leyfin til að virkja tvöföld skrif fyrir töflur Supply Chain Management. Frekari upplýsingar er að finna í [kerfiskröfur fyrir tvöföld skrif](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Tengsl í tvöföldum skrifum og Power Apps-gáttum
@@ -40,7 +40,7 @@ Viðskiptavinagáttin er háð Power Apps-gáttum og tvöföldum skrifum eins og
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Nauðsynleg uppsetning til að virkja viðskiptavinagáttina
 
-Eftir að gengið hefur verið úr skugga um að nauðsynleg leyfi séu til staðar, er hægt að setja upp tvöföld skrif eins og lýst er í [leiðbeiningum um fyrstu samstillingu tvöfaldra skrifa](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Eftir að gengið hefur verið úr skugga um að nauðsynleg leyfi séu til staðar, er hægt að setja upp tvöföld skrif eins og lýst er í [leiðbeiningum um fyrstu samstillingu tvöfaldra skrifa](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Ganga skal úr skugga um að virkja eftirfarandi töfluvarpanir í tvöföldum skrifum:
 
@@ -74,14 +74,14 @@ Meiri virkni verður hugsanlega bætt við viðskiptavinagáttina síðar. Allar
 
 Til að komast að því hvernig á að setja upp og sérsníða viðskiptavinagáttina ætti að byrja á því að fara yfir eftirfarandi fylgiskjöl fyrir undirliggjandi tækni:
 
-- [Power Apps fylgiskjöl gátta](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps fylgiskjöl gátta](/powerapps/maker/portals/overview)
 - [Tvískrifuð fylgiskjöl](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Til að stjórna gáttunum á áhrifaríkan hátt þarf að skilja gáttir Power Apps og stuðningstíma Microsoft Dataverse. Frekari upplýsingar er að finna í eftirfarandi tilföngum:
 
-- [Um stuðningstíma gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Uppfæra gátt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Flytja grunnstillingu gáttar](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Um stuðningstíma gáttar](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Uppfæra gátt](/powerapps/maker/portals/admin/upgrade-portal)
+- [Flytja grunnstillingu gáttar](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 fyrir forrit Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

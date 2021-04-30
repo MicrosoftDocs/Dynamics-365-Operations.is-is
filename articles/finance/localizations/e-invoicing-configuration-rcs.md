@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840245"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897721"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
@@ -50,6 +50,14 @@ Að lokum styðja eiginleikarnir samskipti með skilaboðum við ytri vefþjónu
 
 Framboð á eiginleikum rafrænnar reikningsfærslu fer eftir landinu eða svæðinu. Þótt sumir eiginleikar séu almennt í boði eru aðrir í forútgáfu.
 
+#### <a name="generally-available-features"></a>Almennt tiltækir eiginleikar
+
+Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru almennt í boði.
+
+| Land/svæði | Heiti eiginleika                         | Viðskiptaskjal |
+|----------------|--------------------------------------|-------------------|
+| Egyptaland          | Egypskur rafrænn reikningur (EG) | Sölureikningar og verkreikningar |
+
 #### <a name="preview-features"></a>Forskoðunareiginleikar
 
 Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í forútgáfu sem stendur.
@@ -61,7 +69,6 @@ Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í for�
 | Brasilía         | Brasilískt NF-e (BR)                  | Fjárhagsskjalalíkan 55, leiðréttingarbréf, afturkallanir og fleygingar |
 | Brasilía         | Brasilískt NFS-e ABRASF Curitiba (BR) | Fjárhagsskjöl þjónustu |
 | Danmörk        | Danskur rafrænn reikningur (DK)       | Sölureikningar og verkreikningar |
-| Egyptaland          | Egypskur rafrænn reikningur (EG) | Sölureikningar og verkreikningar |
 | Eistland        | Eistneskur rafrænn reikningur (EE)     | Sölureikningar og verkreikningar |
 | Finnland        | Finnskur rafrænn reikningur (FI)      | Sölureikningar og verkreikningar |
 | Frakkland         | Franskur rafrænn reikningur (FR)       | Sölureikningar og verkreikningar |
@@ -202,6 +209,91 @@ Eftirfarandi tafla sýnir tiltækar aðgerðir og hvort þær eru almennt í bo�
 | Hringja í PAC-þjónustu í Mexíkó                      | Samþættið við mexíkóska PAC-þjónustu fyrir innsendingu CFDI.                      | Í kynningarútgáfu           |
 | Vinna úr svari                              | Greinið svarið sem var móttekið frá vefþjónustukalli.                     | Almennt tiltækt  |
 | Nota MS Power Automate                         | Samþættið við ferli sem er byggt inn í Microsoft Power Automate.                       | Í kynningarútgáfu           |
+
+### <a name="applicability-rules"></a>Gildissviðsreglur
+
+Gildissviðsreglur eru stillanleg ákvæði sem eru skilgreind á stigi rafræns reikningsfærslueiginleika. Reglurnar eru stilltar til að gefa samhengi fyrir framkvæmd rafrænna reikningsfærslueiginleika í gegnum safn af möguleikum rafrænnar reikningsfærslu.
+
+Þegar viðskiptaskjal úr Finance eða Supply Chain Management er sent inn til rafrænnar reikningsfærslur, inniheldur viðskiptaskjalið ekki neina beina tilvísun sem gerir safni af möguleikum rafrænnar reikningsfærslu kleift að kalla á ákveðinn eiginleika rafrænnar reikningsfærslu til að vinna úr innsendingunni.
+
+Engu að síður, þegar viðskiptaskjalið er skilgreint á viðeigandi hátt, inniheldur það nauðsynlega þætti sem gera rafrænni reikningsfærslu kleift að finna út hvaða eiginleika rafrænnar reikningsfærslu þarf að velja og síðan mynda rafrænan reikning.
+
+Gildissviðsreglur gerir safni af möguleikum rafrænnar reikningsfærslu kleift að finna nákvæmlega þá eiginleika rafrænnar reikningsfærslu sem þarf að nota til að vinna úr innsendingunni. Það er gert með því að samsvara innihald innsenda skjalsins við ákvæðin í gildissviðsreglunum.
+
+Til dæmis eru tveir eiginleikar rafrænnar reikningsfærslu með tengdum gildissviðsreglum settir upp í safn af möguleikum rafrænnar reikningsfærslu.
+
+| Eiginleiki rafrænnar reikningsfærslu | Gildissviðsreglur        |
+|------------------------------|--------------------------- |
+| A                            | <p>Land = BR</p><p>og</p><p>Lögaðili = BRMF</p>  |
+| V                            | <p>Land = MX</p><p>og</p><p>Lögaðili = MXMF</p>  |
+
+Ef viðskiptaskjal úr Finance eða Supply Chain Management er sent inn í safn af möguleikum rafrænnar reikningsfærslu inniheldur viðskiptaskjalið eftirfarandi eigindir sem fylltar eru út sem:
+
+- Land = BR
+- Lögaðili = BRMF
+
+Safn rafrænna reikningsfærslumöguleika mun velja rafrænan reikningsfærslueiginleika **A** til að vinna úr innsendingunni og mynda rafrænan reikning.
+
+Á sama hátt, ef viðskiptaskjalið inniheldur:
+
+- Land = MX
+- Lögaðili = MXMF
+
+Rafrænn reikningsfærslueiginleiki **B** er valinn til að mynda rafrænan reikning.
+
+Stilling á gildissviðsreglum má ekki vera tvíræð. Þetta þýðir að tveir eða fleiri eiginleikar rafrænnar reikningsfærslu mega ekki vera með sama ákvæðið, annars leiðir það til þess að ekkert er valið. Ef upp kemur tvítekning á eiginleikum rafrænnar reikningsfærslu, til að forðast tvíræðni, skal nota frekari ákvæði til gera safni rafrænna reikningsfærslumöguleika kleift að sjá muninn milli rafrænu reikningsfærslueiginleikanna.
+
+Skoðið t.d. rafræna reikningsfærslueiginleikann **C**. Þessi eiginleiki er afrit af rafrænum reikningsfærslueiginleika **A**.
+
+| Eiginleiki rafrænnar reikningsfærslu | Gildissviðsreglur        |
+|------------------------------|--------------------------- |
+| A                            | <p>Land = BR</p><p>og</p><p>Lögaðili = BRMF</p>  |
+| K                            | <p>Land = BR</p><p>og</p><p>Lögaðili = BRMF</p>  |
+
+Í þessu dæmi er eiginleiki **C** fyrir framan innsendingu viðskiptaskjals sem inniheldur eftirfarandi:
+
+- Land = BR
+- Lögaðili = BRMF
+
+Rafrænn reikningsmöguleiki getur ekki fundið út hvorn rafrænan reikningsfærslueiginleikann á að nota til að vinna úr innsendingunni vegna þess að innsendingarnar innihalda nákvæmlega sömu ákvæðin.
+
+Til að aðgreina eiginleikana tvo í gegnum gildissviðsreglur þarf að bæta nýju ákvæði við einn af eiginleikunum til að gera safni rafræns reikningsfærslumöguleika kleift að velja viðeigandi eiginleika rafrænnar reikningsfærslu.
+
+| Eiginleiki rafrænnar reikningsfærslu | Gildissviðsreglur        |
+|------------------------------|--------------------------- |
+| A                            | <p>Land = BR</p><p>og</p><p>Lögaðili = BRMF</p>  |
+| K                            | <p>Land = BR</p><p>og</p><p>Lögaðili = BRMF</p><p>og</p><p>Model=55</p>  |
+
+Til að styðja fleiri flóknari ákvæði eru eftirfarandi tilföng í boði:
+
+Röklegir virkjar:
+- Og
+- Eða
+
+Gerðir virknitákna:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Stærra en eða jafnt og
+- Minna en eða jafnt og
+- Contains
+- Byrjar á
+
+Gagnagerðir:
+- Strengur
+- Númer
+- Boole
+- Dagsetning
+- UUID
+
+Geta til að flokka og afflokka ákvæði.
+Dæmið lítur þannig út.
+
+| Eiginleiki rafrænnar reikningsfærslu | Gildissviðsreglur        |
+|------------------------------|--------------------------- |
+| K                            | <p>Land = BR</p><p>og</p><p>( Lögaðili = BRMF</p><p>eða</p><p>Model=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Skilgreiningarveitur
 

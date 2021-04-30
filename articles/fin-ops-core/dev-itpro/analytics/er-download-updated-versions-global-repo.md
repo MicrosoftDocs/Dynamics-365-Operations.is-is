@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753361"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893957"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753361"
 
 [Geymslur](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar eru notaðar til að samnýta [Skilgreiningar rafrænnar skýrslugerðar](general-electronic-reporting.md#Configuration). Hægt er að [flytja inn](download-electronic-reporting-configuration-lcs.md) skilgreiningar rafrænnar skýrslugerðar úr öðrum geymslum og yfir í tilvikið þitt af Microsoft Dynamics 365 Finance. Þegar skilgreiningar rafrænnar skýrslugerðar eru fluttar inn, geta [skilgreiningarveitur](general-electronic-reporting.md#Provider) gefið út nýjar [útgáfur](general-electronic-reporting.md#component-versioning) af geymslum þannig að hægt sé að deila þeim.
 
-Í þessu efnisatriði er útskýrt hvernig á að flytja inn uppfærðar útgáfur af Skilgreiningum rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Skilgreiningarþjónusta](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Í þessu efnisatriði er útskýrt hvernig á að flytja inn uppfærðar útgáfur af Skilgreiningum rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Skilgreiningarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Yfirfara tiltækar uppfærðar útgáfur
 

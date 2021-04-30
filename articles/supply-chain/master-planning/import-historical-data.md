@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816485"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908881"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Gögn flutt út fyrir eftirspurnarspár
 
@@ -41,7 +41,7 @@ Frekari upplýsingar um hvernig á að flytja inn gögn, þar á meðal hvernig 
 
 ## <a name="example"></a>Dæmi
 
-Hægt er að nota eftirfarandi skrá sem dæmi. Sæktu [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001. Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.
+Hægt er að nota eftirfarandi skrá sem dæmi. Sæktu [HistoricalDemandData](/dynamics/s-e/). Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001. Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.
 
 1. Velja fyrirtæki til að flytja söguleg eftirspurnargögn inn í.
 2. Opnaðu vinnusvæðið **Gagnastjórnun**.

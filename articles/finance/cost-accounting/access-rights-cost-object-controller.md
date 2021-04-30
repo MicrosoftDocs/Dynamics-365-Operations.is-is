@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810199"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897625"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Aðgangsréttindi fyrir stjórnborð kostnaðarhluta
 
@@ -62,10 +62,9 @@ Eftirfarandi dæmi sýnir hvernig víddarstigveldi getur litið út.
 
 Hægt er að nota flýtiflipann **Notendur** í stigveldishönnuði til að setja eitt eða fleiri notendakenni í hvern hnút.
 
-|                                   | Notendur            | Svið víddarstaks   |                         |
+|             Hnútar                 | Notendur            | Úr víddarstaki     |   Til víddarstaks   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Hnútar**                         | **Notandakenni**      | **Úr víddarstaki** | **Til víddarstaks** |
-| Fyrirtæki                      | Benjamin, Claire |                           |                         |
+| Stofnun/fyrirtæki                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Stjórnandi                 | Apríl            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Fjármál   | Alicia           | CC002                     | CC003                   |
 |                                   |                  | CC007                     | CC007                   |
@@ -95,14 +94,14 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
     - Myndræn Power BI gagnaframsetning sem er felld inn í Dynamics 365 Finance biðlarann
 
 > [!IMPORTANT]
-> - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Þetta efnisatriði sýnir nauðsynlegar forsendur þess að hægt sé að nota vinnusvæðið **Kostnaðarstýring**.
 
 Frekari upplýsingar
 
 - [Vinnusvæði kostnaðarstýringar](cost-control-workspace.md)
 - [Víddarstigveldi](dimension-hierarchy.md)
-- [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

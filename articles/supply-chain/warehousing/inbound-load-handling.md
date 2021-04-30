@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835631"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910016"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
 Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
 
-Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Yfirlit: Hvernig farmar á innleið er stofnaðir, skráðir og mótteknir
 
@@ -38,11 +38,11 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
 1. **Farmskrá á innleið er stofnuð til að áætla komuna og innihald hennar.**
 
-    Farmskrá á innleið táknar sendingu lánardrottins á einni eða fleiri innkaupapöntunum. Búist er við að farmurinn berist til vöruhússins sem ein efnisleg flutningseining (eins og flutningabíll). Farmskrá á innleið er notuð í skipulagsskyni og gerir samræmingaraðila flutninga kleift að fylgjast með framvindu farmsins frá lánardrottni. Hann er einnig notaður til að skrá magn pöntunarlínum og stjórna framvindu með aðgerðum vöruhúss, svo sem komu- og frágangsvinnu. Hægt er að búa til farm annaðhvort sjálfkrafa eða handvirkt og þeir geta verið byggðar á annaðhvort innkaupapöntun eða ítarlegri tilkynningu um sendingu (ASN) frá lánardrottni. Fyrir frekari upplýsingar, sjá [Stofna eða breyta farmi á innleið](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Farmskrá á innleið táknar sendingu lánardrottins á einni eða fleiri innkaupapöntunum. Búist er við að farmurinn berist til vöruhússins sem ein efnisleg flutningseining (eins og flutningabíll). Farmskrá á innleið er notuð í skipulagsskyni og gerir samræmingaraðila flutninga kleift að fylgjast með framvindu farmsins frá lánardrottni. Hann er einnig notaður til að skrá magn pöntunarlínum og stjórna framvindu með aðgerðum vöruhúss, svo sem komu- og frágangsvinnu. Hægt er að búa til farm annaðhvort sjálfkrafa eða handvirkt og þeir geta verið byggðar á annaðhvort innkaupapöntun eða ítarlegri tilkynningu um sendingu (ASN) frá lánardrottni. Fyrir frekari upplýsingar, sjá [Stofna eða breyta farmi á innleið](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Lánardrottinn staðfestir sendingu farms.**
 
-    Þegar lánardrottinn sendir farminn staðfestir flutningsstjórinn í móttöku vöruhússins sendingu farmsins. Ef móttökufyrirtækið notar eininguna **Flutningsstjórnun** mun staðfesting á sendingu á innleið kalla fram önnur ferli við stjórnun álags sem eru tengd farmi á innleið. Fyrir frekari upplýsingar, sjá [Staðfesta farm fyrir sendingu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Þegar lánardrottinn sendir farminn staðfestir flutningsstjórinn í móttöku vöruhússins sendingu farmsins. Ef móttökufyrirtækið notar eininguna **Flutningsstjórnun** mun staðfesting á sendingu á innleið kalla fram önnur ferli við stjórnun álags sem eru tengd farmi á innleið. Fyrir frekari upplýsingar, sjá [Staðfesta farm fyrir sendingu](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Farmurinn berst í vöruhús og starfsmenn skrá magn.**
 
