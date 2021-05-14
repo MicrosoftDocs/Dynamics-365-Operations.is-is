@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820860"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897011"
 ---
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
@@ -120,7 +120,7 @@ Eftirfarandi efnisatriði veita upplýsingar um uppgjör. Uppgjör er það ferl
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru áætlaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar eru áætlaðir. 
 
 #### <a name="blogs"></a>Blogg
 

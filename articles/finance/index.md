@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813484"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890330"
 ---
 # <a name="finance-home-page"></a>Heimasíða Finance
 
@@ -38,11 +38,11 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
         - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Útgjaldastýring](expense-management/expense-management.md)
-        - [Fjárhagsskýrslugerð](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Útgjaldastýring](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Fjárhagsskýrslugerð](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Eignir](fixed-assets/fixed-assets.md)
         - [Fjárhagur og fjárhagsskýrslugerð](general-ledger/general-ledger.md) 
-        - [Verkefnastjórnun og bókhald](project-management/overview-project-management-accounting.md)
+        - [Verkefnastjórnun og bókhald](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Hið opinbera](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
-Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og önnur fjármálatengd svið. Hjálparefni um sértækar aðgerðir fyrir lönd/svæði er að finna í kaflanum um [Staðfærslu- og eftirlitseiginleika.](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
+Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og önnur fjármálatengd svið. Hjálparefni um sértækar aðgerðir fyrir lönd/svæði er að finna í kaflanum um [Staðfærslu- og eftirlitseiginleika.](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
 
 ### <a name="additional-content"></a>Annað efni
 
@@ -73,6 +73,6 @@ Virkni aðfangakeðjustjórnar nær yfir hluta af ferlinu frá kaupum til greið
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
 
-Netnámskeið og þjálfun má finna í [Dynamics 365 Finance á Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Netnámskeið og þjálfun má finna í [Dynamics 365 Finance á Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

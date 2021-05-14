@@ -58,11 +58,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kaupa Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Grunnstilla vöruhús fyrir uppsetningu innanhúss
+                - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations forrit notuð af 21Vianet í Kína
+                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations-forrit í Frakklandi
+                - name: Finance and Operations forrit í Frakklandi
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nýjungar eða breytingar
               items:
@@ -72,12 +72,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.19 (júlí 2021)
+                      href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maí 2021)
                       href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (apríl 2021)
                       href: get-started/whats-new-scm-10-0-17.md
-                    - name: Supply Chain Management 10.0.16 (febrúar 2021)
-                      href: get-started/whats-new-scm-10-0-16.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -164,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Innfelld vinnuforrit frá Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Innfella forrit þriðja aðila
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Breyta dagsetningu lotu
@@ -179,7 +181,7 @@
                 - name: Hönnun fyrir Finance and Operations -forrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
-                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                  href: /dynamics365/fasttrack/
                 - name: Taka inn innleiðingarverk
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Umhverfisskipulagning
@@ -206,6 +208,64 @@
           items:
             - name: Altæk tilföng
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Staðfæringarþjónusta
+              items:
+                - name: Yfirlit yfir staðfæringarþjónustu
+                  href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Yfirlit Regulatory configuration service
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory configuration service – altækir eiginleikar
+                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory configuration service og hlaða þeim upp í altæka geymslu
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Rafræn reikningsfærsla
+                  items:
+                    - name: Yfirlit rafrænna reikningsfærslna
+                      href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Stjórnunarhlutar rafrænna reikningsfærslna
+                      href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Skilgreina rafrænar reikningsfærslur í Regulatory Configuration Services (RCS)
+                      href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Gefa út rafræna reikninga í Finance og Supply Chain Management
+                      href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Setja upp Azure-geymslureikning og lyklageymslu
+                      href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Hefjast handa
+                      items:
+                        - name: Hafist handa með stjórnun þjónustu rafrænna reikningsfærslna
+                          href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur
+                          href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Brasilíu
+                          href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
+                          href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
+                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
+                          href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Setja upp rafrænar reikningsfærslur
+                          href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Algengar spurningar um rafrænar reikningsfærslur
+                      href: ../finance/localizations/e-invoicing-faq.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Skattaútreikningur
+                  items:
+                    - name: Yfirlit skattaútreiknings
+                      href: ../finance/localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Hafist handa með skattaútreikning
+                      href: ../finance/localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
+                      href: ../finance/localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Bæta við gagnareitum í skattaskilgreiningum
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
+                      href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Mörg VSK-númer
+                      href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Setja upp umhverfi fyrir uppflettingar aðalgagna
+                      href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
             - name: Regluuppfærslur
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
             - name: Indland
@@ -224,12 +284,18 @@
           items:
             - name: Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
               href: cloud-edge/cloud-edge-landing-page.md
+            - name: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
+              href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-workload-warehousing.md
             - name: Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-warehouse-order.md
+            - name: Birgðaleiðrétting vöruhúss
+              href: cloud-edge/cloud-edge-warehouse-inventory-adjustment.md
+            - name: Skilaboð um skilaboðaúrvinnslu
+              href: cloud-edge/cloud-edge-message-processor-messages.md
         - name: Eignastýring
           items:
             - name: Yfirlit eignastýringar
@@ -1363,24 +1429,46 @@
                   href: inventory/tasks/set-up-item-arrival-overview-profile.md
             - name: Gæðastjórnun
               items:
-                - name: Gæðastjórnunaryfirlit
-                  href: inventory/enable-quality-management.md
-                - name: Gæðastjórnunarferli
+                - name: Stjórnunaryfirlit gæða og ósamkvæmni
                   href: inventory/quality-management-processes.md
-                - name: Gæðastjórnun fyrir vöruhúsaferli
-                  href: inventory/quality-management-for-warehouses-processes.md
-                - name: Stjórnun ósamkvæmi
-                  href: inventory/enable-nonconformance-management.md
-                - name: Setja upp forsendur fyrir stjórnun
-                  href: inventory/tasks/set-up-prerequisites-nonconformance-management.md
-                - name: Stofna og vinna úr samræmi
-                  href: inventory/tasks/create-process-non-conformance.md
-                - name: Biðgeymslupantanir
-                  href: inventory/quarantine-orders.md
-                - name: Setja upp gæðapantanir
-                  href: inventory/tasks/set-up-quality-orders.md
+                - name: Virkja og stilla stjórnunaryfirlit gæða og ósamkvæmni
+                  items:
+                    - name: Virkja stjórnun gæða og ósamkvæmni
+                      href: inventory/enable-quality-management.md
+                    - name: Prófunartæki gæðastjórnunar
+                      href: inventory/quality-test-instruments.md
+                    - name: Gæðastjórnunarprófanir
+                      href: inventory/quality-tests.md
+                    - name: Prófunarbreytur gæðastjórnunar
+                      href: inventory/quality-test-variables.md
+                    - name: Prófunarflokkar gæðastjórnunar
+                      href: inventory/quality-test-groups.md
+                    - name: Vöruflokkar gæðastjórnunar
+                      href: inventory/quality-groups.md
+                    - name: Vörusýnishorn gæðastjórnunar
+                      href: inventory/quality-item-sampling.md
+                    - name: Gæðatengingar
+                      href: inventory/quality-associations.md
+                    - name: Starfsmenn ábyrgir fyrir samþykki ósamkvæmni
+                      href: inventory/quality-responsible-workers.md
+                    - name: Ósamkvæmar vandamálagerðir
+                      href: inventory/quality-problem-types.md
+                    - name: Ósamkvæm biðgeymslusvæði
+                      href: inventory/quality-quarantine-zones.md
+                    - name: Ósamkvæmar greiningargerðir
+                      href: inventory/quality-diagnostic-types.md
+                    - name: Ósamkvæmniaðgerðir
+                      href: inventory/quality-operations.md
+                    - name: Ósamkvæm virknigjöld
+                      href: inventory/quality-charges.md
+                - name: Vinna með gæðapantanir
+                  href: inventory/quality-orders.md
                 - name: Kanna vörugæði
                   href: inventory/tasks/inspect-quality-goods.md
+                - name: Stofna og vinna úr ósamkvæmni
+                  href: inventory/tasks/create-process-non-conformance.md
+                - name: Vinna með biðgeymslupantanir
+                  href: inventory/quarantine-orders.md
                 - name: Birgðalæsing
                   href: inventory/inventory-blocking.md
                 - name: Stofna og vinna með birgðalæsingu
@@ -1511,8 +1599,8 @@
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Samþykkja tillögur
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Sjálfvirk staðfesting með fínstilling skipulagningar
-                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Staðfesta áætlaðar pantanir
+                  href: master-planning/planning-optimization/planned-order-firming.md
                 - name: Áætlanagerð með neikvæðu magni á lager
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Skoða áætlunarferil og skipulagsannála
@@ -1628,7 +1716,7 @@
                 - name: Kostnaðarstýring
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Útgjaldastýring
-                  href: ../finance/expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Birgðir á lager
                   href: inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Reikningssamþykktir
@@ -1636,11 +1724,11 @@
                 - name: Hópurinn minn
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Yfirlit yfir fartækjaforrit Project
-                  href: ../finance/project-management/project-mobile-application-overview.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Vinnustundafærsla verks
-                  href: ../finance/project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Project Timesheet
-                  href: ../finance/project-management/project-timesheet.md?toc=/dynamics365/supply-chain/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
                 - name: Samþykki innkaupapöntunar
                   href: procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sölupantanir
@@ -1657,7 +1745,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Búa til „Opna í Excel“-upplifanir
+            - name: Opnun í Excel stofnuð
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1923,12 +2011,18 @@
                   href: ../finance/accounts-payable/vendor-posting-profiles.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreiningar á beiðni lánardrottins
                   href: procurement/vendor-request-configurations.md
-                - name: Ráðstafanir vegna nýrra starfsmanna hjá lánardrottni
+                - name: Innleiðing lánardrottins
                   href: procurement/vendor-onboarding.md
                 - name: Samstarf lánardrottna með ytri lánardrottnum
                   href: procurement/vendor-collaboration-work-external-vendors.md
+                - name: Vinna með lánardrottnavottorð
+                  href: ../finance/public-sector/manage-vendor-certification.md
+                - name: Tegundabeiðnir frá lánardrottnum
+                  href: procurement/category-requests-from-vendors.md
                 - name: Samstarf lánardrottna með viðskiptavinum
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
+                - name: Vinna með bankareikningsupplýsingar lánardrottna
+                  href: ../finance/accounts-payable/maintain-vendor-bank-info.md
                 - name: Flytja inn vörulista lánardrottins
                   href: procurement/vendor-catalogs-import.md
                 - name: Setja upp ytri vörulista fyrir PunchOut e-procurement
@@ -1979,6 +2073,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Stofna forskilgreind afurðarafbrigði
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Stjórna mælieiningum
+                  href: pim/tasks/manage-unit-measure.md
                 - name: Umreikningur mælieiningar eftir afurðarafbrigði
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Stofna útgefna afurð fyrir stakt fyrirtæki
@@ -2141,6 +2237,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Skipulag afurðarlosunar
               href: engineering-change-management/release-product-structure.md
+            - name: Algengar spurningar um hönnunarbreytingar
+              href: engineering-change-management/change-management-faq.md
         - name: Framleiðslustýring
           items:
             - name: Yfirlit yfir framleiðsluferli
@@ -2167,8 +2265,6 @@
                       href: production-control/phantom-items.md
                     - name: Útreikningur uppskrifta
                       href: cost-management/bom-calculations.md
-                    - name: Stjórna mælieiningu
-                      href: pim/tasks/manage-unit-measure.md
                     - name: Færibreytur framleiðslu í framkvæmd framleiðslu
                       href: production-control/production-parameters-manufacturing-execution.md
                     - name: Rekstrartilföng
@@ -2849,6 +2945,10 @@
               href: transportation/tasks/load-template.md
             - name: Taxtaforstillingar
               href: transportation/tasks/setup-a-rating-profile.md
+            - name: LTL-klasar
+              href: transportation/ltl-class.md
+            - name: NMFC-kóðar
+              href: transportation/nmfc-codes.md
             - name: Setja upp eldsneytisvísi flutningsaðila
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Setja upp greiðslumáta flutnings
@@ -2937,6 +3037,8 @@
                   href: warehousing/location-product-dimension-mixing.md
                 - name: Frágangsklasar
                   href: warehousing/putaway-clusters.md
+                - name: Gæðastjórnun fyrir vöruhúsaferli
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Gæðaskoðun
                   href: warehousing/quality-check.md
                 - name: Úrræðaleit fyrir vöruhúsaaðgerðir á innleið
@@ -3069,6 +3171,8 @@
                       href: warehousing/manage-warehouse-workers.md
                     - name: Frestuð vinnsla vöruhúsavinnu
                       href: warehousing/deferred-put.md
+                    - name: Frestun á úrvinnslu handvirkrar aðgerðar birgðahreyfingar
+                      href: warehousing/deferred-processing-manual-inventory-movement.md
                 - name: Dreifing frá dreifingarstöð
                   items:
                     - name: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
@@ -3237,6 +3341,40 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Framlengja gagnaeiningar tiltækra birgða
               href: inventory/extend-on-hand-entities.md
+        - name: Úrræðaleit
+          items:
+            - name: Vöruhúsakerfi
+              items:
+                - name: Ekki er hægt að staðfesta sendingu vegna dagatalsvandamáls
+                  href: troubleshooting/warehousing/load-has-active-appo.md
+                - name: Ekki er hægt að staðfesta sendingu vegna ólokinnar vinnu eða vinnu sem vantar
+                  href: troubleshooting/warehousing/open-or-no-work-exis.md
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að ekki er búið að taka vörurnar til
+                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er núll
+                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er hærra en hlutfall ofafhendingar
+                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er hærra en hlutfall vanafhendingar
+                  href: troubleshooting/warehousing/quantity-exceeds-und.md
+                - name: Síðasta lokaða vinnulína verður að vera frágangur
+                  href: troubleshooting/warehousing/the-last-closed-work.md
+                - name: Þyngdarreitirnir í farmlínum stemma ekki við þyngdarreitina í farminum
+                  href: troubleshooting/warehousing/the-weight-fields-on.md
+                - name: Ekki er hægt að hreinsa upp bylgju
+                  href: troubleshooting/warehousing/wave-is-not-eligible.md
+                - name: Þyngd verður að vera jákvæð
+                  href: troubleshooting/warehousing/weight-must-be-posit.md
+                - name: Ekki er hægt að hætta við vinnu því hún er útilokuð
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
+                - name: Ekki er hægt að hætta við vinnu vegna stöðu
+                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
+                - name: Vinna er ekki útilokuð
+                  href: troubleshooting/warehousing/work-is-not-blocked.md
+                - name: Vinnan er áfram útilokuð
+                  href: troubleshooting/warehousing/work-remains-blocked.md
+                - name: Ekki er hægt að hætta við vinnu sem er skráð á notanda
+                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Hönnun og stjórnun Finance and Operations-forrita
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811311"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923026"
 ---
 # <a name="financial-reporting-faq"></a>Algengar spurningar um fjárhagsskýrslugerð 
 
-Þetta efnisatriði sýnir spurningar sem tengjast fjárhagsskýrslugerð sem aðrir notendur hafa lagt fram. 
+Þetta efnisatriði veitir svör við algengum spurningum um fjárhagsskýrslugerð. 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Hvernig takmarka ég aðgang að skýrslu með öryggistré?
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Hvernig takmarka ég aðgang að skýrslu með tréöryggi?
+Eftirfarandi dæmi sýnir hvernig hægt er að takmarka aðgang að skýrslu með öryggistré.
 
-Aðstæður: USMF-sýnifyrirtækið er með skýrslu efnahagsreiknings sem það vill ekki að allir notendur fjárhagsskýrslugerðar geti skoðað í D365. Lausn: Hægt er að nýta sér tréöryggi til að takmarka aðgang að einni skýrslu þannig að aðeins tilteknir notendur geti nálgast skýrsluna. 
+USMF-sýnifyrirtækið er með skýrslu efnahagsreiknings sem það vill ekki að allir notendur fjárhagsskýrslugerðar geti skoðað. Hægt er að nota öryggistré til að takmarka aðgang að einni skýrslu þannig að aðeins tilteknir notendur geti nálgast skýrsluna. Fylgdu eftirfarandi leiðbeiningum til að takmarka aðgang: 
 
-1.  Skrá inn í skýrsluhönnun fjárhagsskýrslna
+1. Skráðu þig inn í skýrsluhönnun fjárhagsskýrslna.
+2. Stofnaðu nýja trésskilgreiningu. Opnaðu **Skrá > Nýtt > Trésskilgreining**.
+3. Tvísmellið á línuna **Samantekt** í dálknum **Einingaröryggi**.
+4. Veldu **Notendur og hópar**.  
+5. Veldu notendur eða hópa sem þurfa aðgang að þessari skýrslu. 
+6. Veldu **Vista**.
+7. Í skýrsluskilgreiningu skal bæta við nýrri trésskilgreiningu.
+8. Í trésskilgreiningunni skal velja **Stilling**. Undir **Einingaval skipurits** skal velja **taka allar einingar með**.
 
-2.  Stofna nýja Trjáskilgreiningu (Skrá | Nýtt | Trjáskilgreining) a.    Tvísmellið á línu **Samantektar** í dálknum **Einingaröryggi**.
-  i.    Smellið á Notendur og hópar.  
-          1. Veljið notanda/notendur eða hóp sem vill fá aðgang að þessari skýrslu. 
-          
-[![skjár notanda](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Hvernig auðkenni ég lykla sem passa ekki við stöður?
 
-[![öryggisskjár](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+Ef þú ert með skýrslu sem er ekki með samsvarandi stöðu geturðu gert eftirfarandi til að auðkenna hvern lykil og hvert frávik. 
 
-  b.    Smelltu á **Vista**.
-  
-[![hnappur til að vista](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+**Skýrsluhönnun fjárhagsskýrslna**
+1. Í skýrsluhönnun fjárhagsskýrslna skal stofna nýja línuskilgreiningu. 
+2. Veljið **Breyta > Setja inn línur úr víddum**.
+3. Veljið **Aðallykill**.  
+4. Veljið **Í lagi**.
+5. Vistið línuskilgreininguna.
+6. Stofna nýja dálkskilgreiningu
+7. Stofna nýja skýrsluskilgreiningu.
+8. Veljið **Stillingar** og afveljið þennan valkost.  
+9. Mynda skýrslu. 
+10. Flytja skýrsluna út í Microsoft Excel.
 
-3.  Í skýrsluskilgreiningu skal bæta við nýrri trjáskilgreiningu
+**Dynamics 365 Finance** 
+1. Í Dynamics 365 Finance skal opna **Fjárhagur > Fyrirspurnir og skýrslur > Prófjöfnuður**.
+2. Stillið eftirfarandi færibreytur:
+   - **Frá dagsetningu** – Færið inn upphaf fjárhagsárs.
+   - **Að dagsetningu** – Færið inn dagsetninguna sem skýrslan er mynduð fyrir.
+   - **Fjárhagsvídd** – Stillið þetta svæði á **Aðallykill stilltur**.
+ 3. Veljið **Reikna út**.
+ 4. Flytja skýrsluna út í Microsoft Excel.
 
-[![trjáskilgreiningarsnið](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
-
-Svar.  Í trjáskilgreiningunni skal smella á stillingu og undir „Einingaval skipurits“ skal haka í „Taka allar einingar með“
-
-[![skjámynd einingavals skipurits](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Fyrir:** [![fyrir skjáskot](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Eftir:** [![eftir skjámynd](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Athugasemd: Ástæða ofangreindra skilaboða er að notandinn minn hefur ekki aðgang að þessari skýrslu eftir notkun Einingaröryggis
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Hvernig ákvarða ég hvaða reikningur/reikningar samsvara ekki stöðu minni í D365?
-
-Þegar þú ert með skýrslu sem passar ekki við það sem þú ættir að gera ráð fyrir í D365, þá eru hér nokkur skref sem þú gætir tekið til að bera kennsl á þessa reikninga og frávik. 
-
-### <a name="in-financial-reporter-report-designer"></a>Í skýrsluhönnun fjárhagsskýrslna
-
-1.  Búa til nýja línuskilgreiningu a.    Smella á Breyta | Setja inn línur úr víddum i.  Veljið MainAccount [![Veljið Main screen_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Smellið á „Í lagi“ b.    Vista línuskilgreiningu
-
-2.  Búa til nýja dálkskilgreiningu     [![Búa til nýja dálkskilgreiningu](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Búa til nýja skýrsluskilgreiningu a.    Smellið á Stillingar og takið hak af [![Stillingagluggi](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Mynda skýrslu 
-
-5.  Flytja út skýrslu í Excel.
-
-### <a name="in-d365"></a>Í D365: 
-1.  Smellið á Fjárhagur | Fyrirspurnir og skýrslur | Prófjöfnuður a.    Færibreytur i.  Frá dagsetningu: upphaf fjárhagsárs ii. Til dagsetningar: Dagsetning þar sem skýrslan var mynduð fyrir iii.    Fjárhagsvíddasamstæðan „Aðallyklasafn“ [![Skjámynd aðallykils](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Smellið á Reikna
-
-2.  Flytja út skýrslu í Excel
-
-Nú ætti að vera hægt að afrita gögnin úr Excel-skýrslu fjárhagsskýrslugerðar yfir í prófjafnaðarskýrslu D365 og bera saman dálka „Lokunarstöðu“.
-
+Nú ætti að vera hægt að afrita gögnin úr Excel-skýrslu fjárhagsskýrslugerðar yfir í prófjafnaðarskýrslu til að bera saman dálkana **Lokastaða**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

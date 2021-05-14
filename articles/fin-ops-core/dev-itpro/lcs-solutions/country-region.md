@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748466"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920858"
 ---
 # <a name="globalization-resources"></a>Altæk tilföng
 
 ## <a name="local-and-regional-deployments"></a>Staðbundin og svæðisbundin uppsetning
 Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við uppsetningu. Lítið á eftirfarandi tilföng sem kunna að eiga við um viðkomandi notanda:
 
-[Finance and Operations-forrit notuð af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations-forrit notuð af 21Vianet í Kína](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
@@ -60,7 +60,7 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 -   [Senda inn viðvaranir um eftirlitseiginleika fyrir tiltekin lönd/svæði](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Útgáfuáætlanir Dynamics 365
-[Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
+[Útgáfuáætlanir Dynamics 365](/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations nýjungar í forritum
 [„Nýjungar eða breytingar“ á heimasíðuFinance and Operations ](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum Finance and Operations-forrita.

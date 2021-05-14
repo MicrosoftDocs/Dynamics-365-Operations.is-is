@@ -1,6 +1,6 @@
 ---
 title: Eignir – heimasíða
-description: Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis.
+description: Eignir eru atriði sem eru einhvers virði og eru í eigu einstaklings eða fyrirtækis. Atriði eru t.d. byggingar, ökutæki, land og búnaður.
 author: ShylaThompson
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815669"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897989"
 ---
 # <a name="fixed-assets-home-page"></a>Eignir – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Eignir eru vörur sem bera virði á borð við byggingar, ökutæki, land og tækjabúnað í eigu einstaklings eða fyrirtækis. 
+Eignir eru atriði sem eru einhvers virði og eru í eigu einstaklings eða fyrirtækis. Atriði eru t.d. byggingar, ökutæki, land og búnaður. 
 
-Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og setja upp fjármögnunarþröskulda til að ákvarða afskriftir. Hægt er að reikna út breytingar á eignum en líka losna við þær. Þegar „Fjárhagur“ er notaður ásamt „Eignum“ er hægt að skoða núgildandi virði allra eigna. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Virkni „Eigna“ felur í sér marga af þessum stöðlum og reglum.
+Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og stilla eignafærsluþröskuld til að ákvarða afskriftir. Hægt er að reikna út breytingar á eignum en líka losna við þær. Þegar „Fjárhagur“ er notaður ásamt „Eignum“ er hægt að skoða núgildandi virði allra eigna. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Virkni „Eigna“ felur í sér marga af þessum stöðlum og reglum.
 
 [![Viðskiptaferli](./media/FA-process.PNG)](./media/FA-process.PNG)
 
@@ -38,7 +38,7 @@ Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan 
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
 
 #### <a name="blogs"></a>Blogg
 

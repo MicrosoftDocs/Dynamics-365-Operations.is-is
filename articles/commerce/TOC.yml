@@ -94,12 +94,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (júlí 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (maí 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (apríl 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (febrúar 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Innfelld vinnuforrit frá Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Innfella forrit þriðja aðila
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Breyta dagsetningu lotu
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Skilgreining og uppsetning Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
+                - name: Fjölvirkjun á innsigluðum íhlutum fyrir sjálfsafgreiðslu í Commerce
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Fjölvirkjun á eldri sjálfsafgreiðsluhlutum
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Tilvik Commerce-íhluta fyrir greiningu og bilanaleit
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Virkjun tækis á sérsniðnu Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Virkja Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
+                    - name: Stilla Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
                       href: aad-pos-logon.md
                     - name: Afurða- og viðskiptavinaleit á sölustaðnum
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Yfirlit yfir afslátt á afhendingu
                   href: retail-shipping-discount.md
+                - name: Skilgreina gjöf með innkaupatilboðum
+                  href: gift-with-purchase.md
                 - name: Setja upp afsláttarmiða
                   href: retail-coupons.md
                 - name: Birta afslátt á sölustað
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Samfelldniáætlanir fyrir sölu og vinnsla sölupantana
                   href: tasks/use-continuity-program.md
+                - name: Virkja innskráningartilkynningar viðskiptavinar á sölustað (POS)
+                  href: enable-customer-check-in.md
             - name: Skil
               items:
                 - name: Tengdar endurgreiðslur
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Afþakka söfnun aðgerðatilvika á vef
                   href: web-activity-opt-out.md
+                - name: Jafna stillingar mælieiningar
+                  href: unit-of-measure.md
             - name: Stjórna efni svæðis
               items:
                 - name: Leiðir til að bæta við efni
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Eining fyrir afhendingarupplýsingar
                       href: pickup-info-module.md
+                    - name: Innskráning í afhendingareiningu
+                      href: check-in-pickup-module.md
                     - name: Pöntunarupplýsingaeining
                       href: order-confirmation-module.md
                     - name: Gjafakortseining
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)'
               href: set-up-rfm-analysis.md
+            - name: Setja upp Microsoft Clarity í Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Staðfæring
           items:
             - name: Yfirlit fjárhagssamþættingar fyrir Commerce-rás
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Notandaskilgreint vottorðssnið fyrir smásöluverslanir
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Yfirlit Regulatory configuration service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory configuration service – altækir eiginleikar
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory configuration service og hlaða þeim upp í altæka geymslu
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: props.autogenerated.ts skrá einingar
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Forstillingar einingastillinga
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Þróa einingar
                   items:
                     - name: Búa til nýja einingu
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Bæta sérhnöppum við hausstiku sölustaðar
                   href: dev-itpro/pos-header-bar.md
+                - name: SDK sjálfstæðra umbúða sölustaða
+                  items:
+                    - name: Yfirlit sölustaðaviðbótar
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Hafist handa með sölustaðaviðbætur
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Stofna verk um viðbótarpakka fyrir sölustaði
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Stofna Modern POS viðbótar appx-skrá
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Kemba sölustaðaviðbót
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Stækkunarhæfni Hardware Station
               items:
                 - name: Hardware Station og stækkunarhæfni

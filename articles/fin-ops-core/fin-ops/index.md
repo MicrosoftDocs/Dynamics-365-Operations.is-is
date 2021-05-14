@@ -2,7 +2,7 @@
 title: Finance and Operations fylgiskjöl hugbúnaðar
 description: Fylgiskjöl fyrir Finance and Operations forrit.
 author: robinarh
-ms.date: 07/25/2019
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98b9b9e336af58f2223b8b8b47d9229d908c5616
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751827"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893499"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations fylgiskjöl hugbúnaðar
 
@@ -44,7 +44,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
  <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Innleiðing verkefnis</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Undirbúningur fyrir keyrslu</a></p>
 
@@ -76,7 +76,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Kostnaðarbókhald</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Eignir</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Fjárhagur</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Verkefnastjórnun</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Verkefnastjórnun</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Hið opinbera</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Svæðisbundnir eftirlitseiginleikar</a></p>
 
@@ -126,13 +126,13 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 </td>
 <td>
 <h3>Tengdar afurðir</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Símaver</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS og sölukerfi í skýinu</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Þróunaraðili viðskipta og stjórnun</p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Símaver</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS og sölukerfi í skýinu</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Þróunaraðili viðskipta og stjórnun</p>
 
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<h4><a href="/dynamics365/human-resources/">Dynamics 365 Human Resources</a></h4>
 <p><a href="../../human-resources/hr-admin-overview.md">Leiðbeiningar stjórnanda</a></p>
 <p><a href="../../human-resources/hr-developer-overview.md">Leiðbeiningar þróunaraðila</a></p>
 <p><a href="../../human-resources/hr-hrpro-overview.md">Notkunarleiðbeiningar</a></p>

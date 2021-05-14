@@ -14,12 +14,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.19 (júlí 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Verkvangsuppfærslur fyrir 10.0.17 (apríl 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Verkvangsuppfærslur fyrir 10.0.16 (febrúar 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -303,19 +303,19 @@
                         - name: Skilgreina samþættingu Project Service Automation
                           items:
                             - name: Yfirlit Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Færibreytur samþættingar Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Samstilla verksamninga og verk
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Samstilla verk verkefnis
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Samstilla flokka verkkostnaðar
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Samstilla verkáætlun og verkspár
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Samstilla rauntölur verks og færslubók verksamþættingar
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Notkun ytri vefþjónustu
               href: data-entities/consume-external-web-service.md
             - name: Rafræn skilaboð
@@ -691,7 +691,7 @@
                     - name: Búa til yfirlit yfir líkön og gagnalíkanseiningar
                       href: dev-tools/create-data-model-elements.md
                     - name: Leiðbeiningar um heiti viðbóta
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Slökkva á sérstillingu líkans og afskriftavirkni
                       href: dev-tools/lock-models.md
                 - name: Skýrsla um greiningu sérstillinga
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nýjungar eða breytingar í Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Þekkt vandamál
-                  href: lifecycle-services/known-issues.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Notkunarleiðbeiningar Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Nota Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
-            - name: Framkvæma villuleit á væntanlegum gildum
+            - name: Vinna með prófunardæmi í Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
+            - name: Sannprófa væntanleg gildi
               href: perf-test/rsat/rsat-validate-expected.md
-            - name: Samtvinnað prófunardæmi
+            - name: Samtvinna prófunardæmi
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afleidd prófunardæmi
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Uppfæra færibreytuskrár
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Kennsla fyrir Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Skilgreina notendur sem ekki eru stjórnendur
@@ -1580,11 +1582,13 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 uppfærsla - Uppfærslutékklisti fyrir gagnauppfærslu
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi með DACPAC-ferli
+                - name: AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi með DACPAC-ferli
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi
+                - name: Uppfæra úr AX 2012 – SQL-færslueftirlíking
+                  href: database/replication-setup.md
+                - name: AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi
                   href: migration-upgrade/upgrade-data-sandbox.md
-                - name: AX 2012 uppfærsla - Innanhússumhverfi
+                - name: AX 2012 uppfærsla – Innanhússumhverfi
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 uppfærsla - Flutningsprófun
                   href: migration-upgrade/upgrade-cutover-testing.md
