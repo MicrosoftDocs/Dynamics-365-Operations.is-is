@@ -1,8 +1,8 @@
 ---
 title: Nýjungar eða breytingar í Mannauði
-description: Í hverri viku leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Efnisatriðin sem eru skráð hér fjalla um breytingar sem gerðar eru í hverri viku.
+description: Á tveggja vikna fresti leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Efnisatriðin sem eru skráð hér fjalla um breytingar sem gerðar eru í hverri viku.
 author: andreabichsel
-ms.date: 09/01/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 4aaa52fa52964f68405596fd510a1aefca89edbf
+ms.sourcegitcommit: e24e335811727c4b12152323b2bcb25495c08c5b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892178"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934845"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nýjungar eða breytingar í Mannauði
 
@@ -47,8 +47,9 @@ Nánari upplýsingar um komandi eiginleika eða uppfærsluferlið fyrir Human Re
 
 ## <a name="human-resources-weekly-releases"></a>Vikulegar útgáfur á Human Resources
 
-Til að sjá hvað er nýtt eða breytt í hverri hálfsmánaðarlegri útgáfu af Human Resources skal sjá eftirfarandi greinar:
+Til að sjá hvað er nýtt eða breytt í hverri hálfsmánaðarlegri útgáfu af Human Resources skal sjá eftirfarandi efnisatriði:
 
+[19. apríl 2021](hr-whats-new-2021-04-19.md)</br>
 [5. apríl 2021](hr-whats-new-2021-04-05.md)</br>
 [22. mars 2021](hr-whats-new-2021-03-22.md)</br>
 [8. mars 2021](hr-whats-new-2021-03-08.md)</br>

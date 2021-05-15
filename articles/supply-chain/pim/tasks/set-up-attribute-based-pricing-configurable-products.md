@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833258"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921242"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir
 
@@ -28,17 +28,18 @@ ms.locfileid: "5833258"
 
 
 ## <a name="create-a-new-price-model"></a>Búa til nýtt verðlíkan
-1. Veldu **Skilgreining afurðarafbrigðislíkans** á heimasíðunni.
-2. Veldu **Afbrigðalíka afurðar** í kaflanum **Tenglar**.
-3. Á listanum velurðu línuna fyrir **Hágæða hátalara** en velur ekki tengilinn fyrir heitið.
-4. Í aðgerðarúðunni skal velja **Tegund**.
-5. Veldu **Verðlíkön**.
-6. Veljið **Nýtt**.
-7. Í reitinn **Verðlíkan** skal rita gildi. Notið nafn sem gerir auðvelt að bera kennsl á líkan.  
-8. Í reitinn **Lýsing** skal slá inn gildi.
-9. Veljið **Vista**.
+
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Á listanum velurðu línuna fyrir **Hágæða hátalara** en velur ekki tengilinn fyrir heitið.
+1. Í aðgerðarúðunni skal velja **Tegund**.
+1. Veldu **Verðlíkön**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Verðlíkan** skal rita gildi. Notið nafn sem gerir auðvelt að bera kennsl á líkan.  
+1. Í reitinn **Lýsing** skal slá inn gildi.
+1. Veljið **Vista**.
 
 ## <a name="add-price-elements"></a>Bæta við verðeiningum
+
 1. Veljið **Breyta**. Hver íhlutur í framleiðslulíkani getur haft grunnverð einingu og fjölda verðsegðarreglna. Einnig er hægt að bæta verði í mismunandi gjaldmiðlum.  
 2. Í reitinn **Grunnverðssegð** skal slá inn gildi. Til dæmis, skrifið 100. Grunnverðssegð getur verið tölugildi eða það getur verið samsett af útreikningi sem felur í sér eina eða fleiri eigindir.  
 3. Veljið **Bæta við**.

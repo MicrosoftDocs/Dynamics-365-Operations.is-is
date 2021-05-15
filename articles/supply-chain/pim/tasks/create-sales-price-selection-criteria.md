@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a616dcfdd755efc9bf0473e9239acb9127f11f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d22c3321beaa2667ee20bff00acd746714b993
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818158"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920532"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Stofna valskilyrði fyrir söluverð
 
@@ -26,30 +26,30 @@ ms.locfileid: "5818158"
 
 Þessi verklýsing sýnir hvernig á að stofna valskilyrði söluverðs fyrir eigindabyggð söluverðslíkön. Þetta ferli krefst þess að að minnsta kosti eitt afbrigðalíkan afurðar sé tiltækt. Þetta dæmi notar verðlíkanið fyrir söluverðslíkan hátalaralausnar í sýnigagnafyrirtækinu USMF. Venjulega notar framleiðslustjóri þetta ferli.
 
-
 ## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>Bæta við nýju skilyrði fyrir fyrirliggjandi söluverðlíkan
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smella á Afbrigðalíkan afurðar
-3. Á listanum velurðu línuna fyrir vörulíkan hátalaralausnar, en smelltu ekki á tengilinn fyrir heiti líkans.
-4. Í aðgerðasvæðinu er smellt á líkan.
-5. Smelltu á Skilyrði verðlíkans.
-6. Smellið á Nýtt.
-7. Í reitinn Heiti, slærðu inn „Customer group 10”.
+
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Á listanum velurðu línuna fyrir vörulíkan hátalaralausnar, en smelltu ekki á tengilinn fyrir heiti líkans.
+1. Í aðgerðarúðunni skal velja **Tegund**.
+1. Veljið **Skilyrði verðlíkans.**
+1. Veljið **Nýtt**.
+1. Í svæðið **Heiti**, slærðu inn Viðskiptavinaflokkur 10.
     * Heiti verðlíkans er notað til að finna undirliggjandi valskilyrði.  
-8. Í reitinn Verðlíkan skal slá inn eða veldu gildi.
-9. Í reitnum Gerð pöntunar velurðu Sölupöntun.
+1. Í reitinn **Verðlíkan** skal slá inn eða veldu gildi.
+1. Í reitnum **Gerð pöntunar** velurðu *Sölupöntun*.
     * Gerð pöntunar ákvarðar gagnagrunnsvæði sem eru tiltæk fyrir valfyrirspurn.  
-10. Færa skal inn dagsetningu í svæðinu Gildir frá.
-11. Í reitinn Fella úr gildi, skal færa inn dagsetningu.
-12. Smellið á „Vista“.
+1. Færa skal inn dagsetningu í svæðinu **Gildir frá**.
+1. Í reitinn **Fella úr gildi**, skal færa inn dagsetningu.
+1. Veljið **Vista**.
 
 ## <a name="create-the-query-for-the-selection-criteria"></a>Búa til fyrirspurn fyrir valskilyrði
-1. Smellið á „Breyta“.
-2. Í reitnum Tafla skal velja Viðskiptavini. 
-3. Í reitnum Reitur er valið Viðskiptamannsflokkur.
+
+1. Veljið **Breyta**.
+2. Í reitnum **Tafla** skal velja *Viðskiptavinir*.
+3. Í reitnum **Reitur** er valið *Viðskiptavinaflokkur*.
     * Í þessu dæmi notum við tiltekinn viðskiptavinaflokk fyrir valskilyrði.  
-4. Í reitnum Skilyrði er valið Customer group 10. 
-5. Smellið á „Í lagi“.
+4. Í reitnum **Skilyrði** er valið *Viðskiptavinaflokkur 10*.
+5. Veljið **Í lagi**.
 
 
 

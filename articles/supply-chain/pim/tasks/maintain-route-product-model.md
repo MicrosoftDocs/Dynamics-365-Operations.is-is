@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db87d0a26efa948a618344ed392ab638b8790
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45c6b1e6e75645bb17ce4defa0bca0e6d2131b6e
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817990"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921266"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Vinna með leið fyrir framleiðslulíkan
 
@@ -26,43 +26,43 @@ ms.locfileid: "5817990"
 
 Keyra þetta ferli krefst að afbrigðalíkan afurðar sé til staðar. Þetta ferli notar hágæða hátalara líkanið USMF sýnigögn fyrirtæki til að fara í gegnum ferlið.
 
-
 ## <a name="add-a-route-operation"></a>Bæta við leiðaraðgerð
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smella á Afbrigðalíkan afurðar
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
     * Veljið lok hágæða hátalara líkan fyrir þetta æfingu.  
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Útvíkka hlutann leiðaraðgerð.
-6. Smelltu á Bæta við.
-7. Í reitinn Heiti skal slá inn gildi.
-8. Sláið inn gildi í reitnum „Lýsing“.
-9. Smellið á „Vista“.
+1. Í listanum skal velja tengilinn í valinni línu.
+1. Útvíkka hlutann **Leiðaraðgerð**.
+1. Veljið **Bæta við**.
+1. Í reitinn **Heiti** skal slá inn gildi.
+1. Í reitinn **Lýsing** skal slá inn gildi.
+1. Veljið **Vista**.
 
 ## <a name="enter-route-operation-details"></a>Færa inn upplýsingar leiðaraðgerðar.
-1. Smellt er á leiðaraðgerð.
-2. Færa inn eða veljið gildi í svæðinu aðgerð.
-3. Í Aðg. Nei. færðu inn númer
+
+1. Veljið **Upplýsingar um leiðaraðgerð**.
+1. Færa inn eða veljið gildi í svæðinu **Aðgerð**.
+1. Í **Aðg.nr** færðu inn númer
     * Aðgerðarnúmer ákvarða the leiðarruna.  
     * Hver eiginleiki á leiðaaðgerð hægt að sækja fast gildi eða varpað á eigind. Vörpun eigind leiðir til þess að gildi er stillt sem hluti af skilgreiningu.  
-4. Í reitinn leiðaflokkur skal slá inn eða velja gildi.
+1. Í reitinn **Leiðaflokkur** skal slá inn eða velja gildi.
     * Leiðarflokkur ákvarðar nauðsynlegar hegðun fyrir kostnaðarútreikning, notkun og uppsetningu.  
-5. Smellið á flipann „Setja upp“.
-6. Smellt er á tímaflipann.
-7. Í svæðinu framleiðslumagn færðu inn númer
+1. Veljið flipann **Uppsetning**.
+1. Veljið flipann **Tímar**.
+1. Færið inn númer í reitinn **Vinnslumagn**.
     * Ákvarðað hversu verður að vinna við einni aðgerð.  
-8. Í reitinn klukkutímar/tími skal slá inn númer.
+1. Í reitinn **Klukkutímar/tími** skal slá inn númer.
     * Færið inn tímahlutfall.  
-9. Veljið gátreitinn stilla.
-10. Í reitinn keyrslutími skal slá inn númer.
+1. Veljið gátreitinn **Stilla**.
+1. Í reitinn **Keyrslutími** skal slá inn númer.
     * Ákvarða vinnslutíma fyrir það magn sem búið er að tilgreina.  
-11. Smellið á flipann tilfangaþörf.
-12. Smelltu á Bæta við.
-13. Í listanum skal merkja valda línu.
-14. Veljið valkost í svæðinu gerð krafna.
+1. Veldu flipann **Tilfangaþarfir**.
+1. Veljið **Bæta við**.
+1. Í listanum skal merkja valda línu.
+1. Veljið valkost í svæðinu **Gerð kröfu**.
     * Ákveða hvort eigi að tilgreina ákveðna tilföng eða getu sem búa verður yfir.  
-15. Sláið inn eða veldu gildi í reitnum kröfur.
-16. Smellið á „Í lagi“.
+1. Sláið inn eða veljið gildi í reitnum **Krafa**.
+1. Veljið **Í lagi**.
 
 
 

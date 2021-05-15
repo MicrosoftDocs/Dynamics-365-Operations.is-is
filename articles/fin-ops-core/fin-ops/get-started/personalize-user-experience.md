@@ -2,7 +2,7 @@
 title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744694"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944534"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -98,7 +98,7 @@ Að auki eru helstu tegundir sérstillinga tiltækar með því að hægrismella
 
 Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en það fer eftir einingunni. Til dæmis gæti eiginleikagluggi fyrir reit gert kleift að færa þann reit yfir á stjórnborð, og eiginleikagluggar fyrir einingar á sjálfgefnu stjórnborði gætu gert kleift að stofna nýtt sérstillt vinnusvæði.
 
-### <a name="the-personalization-toolbar"></a>Tækjastika sérstillinga
+### <a name="personalization-toolbar"></a>Verkfæraslá sérstillingar
 
 Ef ætlunin er að gera margar breytingar á síðu eða gera breytingar sem ekki eru í boði með öðrum leiðum (t.d. ef ætlunin er endurraða einingum), er hægt að nota tækjastikuna **Sérstilling**. Til að opna verkfæraslána **Sérstillingar** skaltu fylgja einu af þessum skrefum:
 
@@ -173,7 +173,90 @@ Einn ákveðinn sérstillingarmöguleiki sem er í boði í yfirlitinu er mögul
 
 ## <a name="sharing-personalizations"></a>Sérstillingar samnýttar
 
-Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Síðan er hægt að biðja aðra notendur um að flytja inn sérstillingarskrána. Að öðrum kosti getur þú gefið notanda, sem hefur stjórnunarheimildir, sérstillinguna þína. Þessi notandi getur síðan virkjað sérstillingarskrána þína í þágu margra notenda á sama tíma með því að nota stjórnendasíðuna **Sérstillingar**.
+Eftir að þú sérstillir síðu er hægt að nota nokkrar aðferðir til að deila sérstillingum þínum með öðrum notendum. Í eftirfarandi lista er aðferðunum raðaðar í þeirri röð frá þeirri sem helst er mælt með til þeirrar sem minnst er mælt með.
+
+1. Birta yfirlit fyrir notendum.
+2. Afrita yfirlit eða sérstillingar á notendur.
+3. Flytja yfirlit eða sérstillingar inn eða út.
+
+### <a name="publish-views-to-users"></a>Birta yfirlit fyrir notendum
+
+Ef kveikt er á eiginleikanum [Vistuð yfirlit](saved-views.md), og ef síðan styður yfirlit, er besta leiðin til að deila sérstillingum með öðrum notendum að birta yfirlit fyrir notendur sem hafa eitt eða fleiri öryggishlutverk. - Frekari upplýsingar er að finna í [Birta yfirlit](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Afrita yfirlit eða sérstillingar á notendur
+
+Ef slökkt er á eiginleikanum [Vistuð yfirlit](saved-views.md) eða ef síðan styður ekki yfirlit, er mælt með að deila sérstillingum með því að afrita þær á milli notenda. Þessi aðferð er einungis tiltæk fyrir notendur með tiltekin réttindi (til dæmis kerfisstjóra). Stjórnendur geta hins vegar flett upp tiltekinni sérstillingu notanda í kerfinu (þ.m.t. eigin yfirliti notandans ef er vistuð yfirlit eru virk) og afritað skilgreininguna hjá öðrum notendum.
+
+Ef vistuð yfirlit eru virk skal fylgja eftirfarandi skrefum til að afrita sérstillingar.
+
+1. Farið í **Kerfisstjórnun \> Uppsetning \> Sérstilling**.
+2. Fylgið eftirfarandi skrefum til að afrita eigin yfirlit:
+
+    1. Veljið **Yfirlitin mín**.
+    2. Á listanumskal velja viðeigandi yfilit.
+    3. Veljið **Afrita í notendur**.
+    4. Velja notendurna til að dreifa yfirlitum á.
+
+    Fylgið eftirfarandi skrefum til að afrita sérstillingar á síðum sem styðja ekki yfirlit:
+
+    1. Veldu **Notandastillingar**.
+    2. Veljið notandann sem er með sérstillinguna sem á að dreifa.
+    3. Veljið **Stjórna öllum sérstillingum**.
+    4. Á listanumskal velja viðeigandi sérstillingar.
+    5. Veljið **Afrita í notendur**.
+    6. Velja notendurna til að dreifa sérstillingum til.
+
+Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum til að afrita sérstillingar.
+
+1. Farið í **Kerfisstjórnun \> Uppsetning \> Sérstilling**.
+2. Veljið **Bæta við**.
+3. Velja notendurna til að dreifa sérstillingunni til.
+4. Veljið **Velja núverandi sérstillingar**.
+5. Finndu og veldu þá (staka) sérstillingu sem þú hefur áhuga á.
+6. Veljið **Í lagi**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Flytja yfirlit eða sérstillingar inn eða út
+
+Önnur leið til að deila sérstillingum er með útflutningi og innflutningi. Einstakir notendur, eða stjórnandi sem starfar fyrir þeirra hönd, geta notað þessa aðferð til að flytja út sérstillingar sínar eða yfirlit og síðan gefið öðrum notendum útflutningsskrána til að flytja inn. Einnig geta notendur gefið útfluttar sérstillingar sínar til notanda sem hefur stjórnunarréttindi og sá notandi getur síðan notað stjórnunarsíðu **Sérstillingar** til að beita sérstillingarskránni á marga notendur á sama tíma.
+
+#### <a name="export"></a>Flytja út
+
+Almennt er hægt að flytja út eitt eigið yfirlit eða sérstillingar með því að opna viðeigandi síðu, opna tækjastikuna **Sérstillingar** og velja síðan **Flytja út**. Nánari upplýsingar um tækjastikun er að finna í hlutanum [Tækjastika sérstillinga](#personalization-toolbar) fyrr í þessu efnisatriði. Ef [vistuð yfirlit](saved-views.md) eru virk er einnig hægt að fara í **Stillingar \> Valkostir fyrir notendur \> Sérstillingar** til að skoða lista yfir allar sérstillingar í kerfinu. Þaðan er hægt að velja yfirlit eða sérstillingar sem á að flytja út og síðan velja **Flytja út**.
+
+Auk þess geta stjórnendur flutt út sérstillingar annarra notenda á eftirfarandi hátt.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Á flipanum **Notendur** skal velja viðeigandi notanda.
+3. Finnið og veljið það útlit eða þá sérstillingu sem óskað er eftir.
+4. Velja **Flytja út**.
+
+#### <a name="import"></a>Flytja inn
+
+Til að flytja inn yfirlit eða sérstillingu er einfaldlega hægt að opna tækjastikuna **Sérstillingar** og velja **Flytja inn**. Auk þess geta stjórnendur flutt inn skrá og gefið hana strax til eins eða fleiri notenda.
+
+Ef vistuð yfirlit eru virk skal fylgja eftirfarandi skrefum.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Á Aðgerðasvæðinu skal velja **Flytja inn yfirlit \> Yfirlit notanda**.
+3. Veljið innflutningsstillingu:
+
+    - **Velja tiltekna notendur** – Gefðu völdum notendum yfirlit eða sérstillingu.
+    - **Flytja inn eins og það** er – Flytja inn yfirlitið eða sérstillinguna á sama notanda og flutti hana út.
+
+4. Veljið **Fletta** og finnið og veljið sérstillinguna sem á að flytja inn.
+5. Veljið **Næst**.
+6. Ef valið er **Veljið tiltekna notendur** í þrepi 3 skal velja þá notendur sem sérstillingin á að flytja inn á.
+7. Velja **Innflutningur**.
+8. Leysa árekstra eftir þörfum.
+
+Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Veljið **Bæta við**.
+3. Velja notendurna til að dreifa sérstillingunni til.
+4. Veljið **Flytja inn sérstillingar úr skrá**.
+5. Veljið **Fletta** og finnið og veljið sérstillinguna sem á að flytja inn.
+6. Veljið **Í lagi**.
 
 ## <a name="administration-of-personalizations"></a>Stjórnun sérstillinga
 
@@ -184,8 +267,11 @@ Fyrir viðskiptavini sem hafa kveikt á eiginleikanum **Vistuð yfirlit** skal s
 Fyrir viðskiptavini sem hafa ekki enn kveikt á eiginleikanum [Vistuð yfirlit](saved-views.md) hefur þessi síða fjóra flipa:
 
 - **Virkja** - Hægt er að flytja inn eða velja sérstillingu fyrir einn eða fleiri notendur. Til að virkja sérstillingu í þágu eins eða fleiri notenda, skal velja fyrst hlutverk og notendur sem hafa það hlutverk. Síðan skal velja annaðhvort fyrirliggjandi sérstillingu til að virkja í þágu valdra notenda, eða flytja inn sérstillingarskrá. Sérstillingin er sannprófuð og verður virkjuð í þágu allra valdra notenda næst þegar þeir opna völdu síðuna.
+
 - **Hreinsa** - Þú getur hreinsað allar sérstillingar fyrir síðu eða vinnusvæði fyrir einn eða fleiri notendur. Veldu fyrst síðu eða vinnusvæði til að sjá lista yfir notendur sem hafa notað sérstillingu á það. Veldu síðan þá notendur sem hreinsa skal sérstillingar síðu eða vinnusvæðis hjá og veldu **Hreinsa**. Allar sérstillingar sem völdu notendur hafa virkjað á valdri síðu eða vinnusvæði er eytt. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling var hins vegar var vistuð fyrir síðuna eða vinnusvæðið, er hægt að flytja þá sérstillingu inn aftur.
+
 - **Notendur** - Veldu notanda til að sjá lista yfir síður sem notandinn hefur sérstillt. Síðan geturðu kveikt eða slökkt á getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar notanda. Að auki geturðu endurstillt skýringartexta eiginleika fyrir notandann. Í þessu tilfelli, ef notandi hefur áður sagt upp öllum sprettigluggum sem kynna nýja eiginleika, munu þeir birtast aftur næst þegar notandinn lendir í þessum aðgerðum.
+
 - **Kerfi** - Einnig er hægt að slökkva á sérstillingum allra notendur kerfisins tímabundið. Í þessu tilfelli er öllum sérstillingum eytt fyrir alla notendur og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
 
 ## <a name="personalizing-inventory-dimensions"></a>Sérstilling birgðavídda

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890777"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941141"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -47,6 +47,7 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      Brasilía         |   2020. október      | 10.0.16      |   DRCST skýrsla SC - SEF 262/2020   |
 |      Brasilía         |   2020. október      | 10.0.16      |   SPED fjárhagur ICMS / IPI færsla C176   |
 |      Brasilía         |   2020. desember      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Auðkenning milliliðar stafræns verkvangs (uppfærslur útlits og villuleitarregla)   |
+|      Brasilía         |   2021. mars         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF layout 1.5.1
 |      Evrópa        |   2021. janúar       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Áhrif reglna Norður-Írlands á skýrslugerð fyrirtækja í ESB-ríkjum  |
 |      Þýskaland        |   2021. janúar       | 10.0.16HF      |   Tilkynningarsnið ELSTER UstVA VAT var víkkað út með tveimur nýjum reitum 37,50 fyrir afskrift skulda sem ekki eru innheimtar  |
 |      Þýskaland        |   2021. janúar       | 10.0.17      |   Breytingar á ELSTER VAT advance notification XML byggingu (UstVA)  |

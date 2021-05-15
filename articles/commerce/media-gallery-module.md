@@ -2,7 +2,8 @@
 title: Eining efnissafns
 description: Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802816"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937387"
 ---
 # <a name="media-gallery-module"></a>Eining efnissafns
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 
@@ -49,11 +51,13 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 |---------------|--------|-------------|
 | Uppruni myndar | **Síðuinnihald** eða **Afurðarkenni** | Sjálfgefið gildi er **Síðuinnihald**. Ef **Síðuinnihald** er notað, gerir einingin ráð fyrir því að síðan útvegi upplýsingar um afurðarkennið. Ef **Afurðarkenni** er valið, verður að útvega afurðarkennið fyrir mynd sem gildið á eiginleikanum **Afurðarkenni**. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.12. |
 | Afurðarauðkenni | Auðkenni afurðar | Þessi eiginleiki á aðeins við ef gildið á eiginleikanum **Uppruni myndar** er **Afurðarkenni**. |
-| Myndaaðdráttur | **Innfellt** eða **Hólf** | Þessi eiginleiki gerir notanda kleift að stækka myndir í einingu efnissafns. Hægt er að stækka myndir annaðhvort innan myndar eða í aðskildu hólfi við hliðina á myndinni. Þessi möguleiki er í boði í 10.0.12 |
-| Kvarði aðdráttar | Tugatala | Þessi eiginleiki tilgreinir kvarðahlutfallið fyrir aðdrátt mynda. Til dæmis ef gildið er stillt á **2,5** eru myndir stækkaðar 2,5 sinnum.|
-| Allur skjárinn | **Satt** eða **Ósatt** | Þessi eiginleiki tilgreinir hvort hægt er að skoða myndir á heilum skjá. Í heilskjásstillingu er einnig hægt að stækka myndir enn frekar ef kveikt er á aðdrættinum. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.13. |
+| Myndaaðdráttur | **Innfellt** eða **Hólf** | Þessi eiginleiki gerir notanda kleift að stækka myndir í einingu efnissafns. Hægt er að stækka myndir annaðhvort innan myndar eða í aðskildu hólfi við hliðina á myndinni. Þessi möguleiki er í boði í 10.0.12. |
+| Aðdráttarstuðull | Tugatala | Þessi eiginleiki tilgreinir kvarðahlutfallið fyrir aðdrátt mynda. Til dæmis ef gildið er stillt á **2,5** eru myndir stækkaðar 2,5 sinnum. |
+| Allur skjárinn | **Satt** eða **Ósatt** | Þessi eiginleiki tilgreinir hvort hægt er að skoða myndir á heilum skjá. Í heilskjásstillingu er einnig hægt að stækka myndir enn frekar ef kveikt er á aðdrættinum. Þessi möguleiki er í boði í Commerce-útgáfu 10.0.13. |
+| Gæði mynda með aðdrætti | Tala frá 1 til 100 sem táknar prósentuhlutfall og sem er valið með því að nota stýringu sleðastiku | Þessi eiginleiki skilgreinir myndgæði fyrir myndir í aðdrætti. Hægt er að stilla hann á 100 prósent til að tryggja að stækkuð mynd noti alltaf hæstu mögulegu upplausn. Þessi eiginleiki á ekki við um PNG-skrár vegna þess að þær nota taplaust snið. Þessi möguleiki er í boði í Commerce-útgáfu 10.0.19. |
 | Myndir | Myndir sem eru valdar úr miðlasafni vefsmiðs | Auk þess að vera myndþýddar frá afurð, er hægt að velja myndir fyrir einingu efnissafns. Þessum myndum verður bætt við allar afurðarmyndir sem eru í boði. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.12. |
 | Stefna smámynda | **Lóðrétt** eða **Lárétt** | Þessi eiginleiki tilgreinir hvort sýna eigi smámyndir í lóðréttri ræmu eða láréttri ræmu. |
+| Fela sniðmátsmyndir afurðar fyrir afbrigði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt**, þegar afbrigði er valið, eru myndir aðalsniðmátsins faldar nema afbrigði sé ekki með neinar myndir. Þessi eiginleiki hefur ekki áhrif á afurðir sem eru ekki með nein afbrigði. |
 
 Eftirfarandi mynd sýnir dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.
 

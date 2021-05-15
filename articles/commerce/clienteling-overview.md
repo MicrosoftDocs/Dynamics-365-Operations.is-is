@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800448"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937013"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -60,7 +60,7 @@ Söluaðilar geta einnig notað athugasemdir til að afla almennra viðskiptavin
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Samþætting með Dynamics 365 Customer Insights
 
-Með því að nota forrit Dynamics 365 Customer Insights geta smásalar safnað saman gögnum frá hinum ýmsu kerfum sem viðskiptavinir nota til að hafa samskipti við vörumerki smásalans. Þeir geta síðan notað þessi gögn til að búa til eina sýn á viðskiptavininn og öðlast innsýn. Samþætting Customer Insights við Commerce gerir smásölum kleift að velja eina eða fleiri ráðstafanir sem ætti að sýna á viðskiptavinaspjaldinu í viðskiptavinabókinni. Til dæmis geta smásalar notað gögnin í Customer Insights til að reikna „líkindin á svindli“ fyrir viðskiptavin og skilgreina „næst bestu aðgerðina“. Ef þessi gildi eru skilgreind sem ráðstafanir er hægt að sýna þau á viðskiptamannaspjaldinu og geta veitt söluaðilum mikilvægar upplýsingar. Nánari upplýsingar um Customer Insights eru í fylgiskjalinu [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview). Fyrir frekari upplýsingar um ráðstafanir, sjá [Ráðstafanir](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Með því að nota forrit Dynamics 365 Customer Insights geta smásalar safnað saman gögnum frá hinum ýmsu kerfum sem viðskiptavinir nota til að hafa samskipti við vörumerki smásalans. Þeir geta síðan notað þessi gögn til að búa til eina sýn á viðskiptavininn og öðlast innsýn. Samþætting Customer Insights við Commerce gerir smásölum kleift að velja eina eða fleiri ráðstafanir sem ætti að sýna á viðskiptavinaspjaldinu í viðskiptavinabókinni. Til dæmis geta smásalar notað gögnin í Customer Insights til að reikna „líkindin á svindli“ fyrir viðskiptavin og skilgreina „næst bestu aðgerðina“. Ef þessi gildi eru skilgreind sem ráðstafanir er hægt að sýna þau á viðskiptamannaspjaldinu og geta veitt söluaðilum mikilvægar upplýsingar. Nánari upplýsingar um Customer Insights eru í fylgiskjalinu [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview). Fyrir frekari upplýsingar um ráðstafanir, sjá [Ráðstafanir](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Settu upp viðskiptavinamiðlun
 
@@ -73,7 +73,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
 2. Kveiktu á eiginleikanum **Viðskiptavinir** með því að velja **Virkja núna**.
 3. Á síðunni **Commerce-færibreytur**, á flipanum **Númeraröð**, velurðu línuna **Kenni viðskiptavinarbókar**. Síðan, í reitnum **Kóði númeraraðar** skal velja númeraraðarkóða fyrir hverja tilvísun. Kerfið mun nota þessa númeraröð til að úthluta kenni á viðskiptavinabækur.
 4. Veljið **Vista**.
-5. Búðu til nýjan eigindahóp sem inniheldur eiginleika sem þú vilt ná fyrir viðskiptavini sem er stjórnað í viðskiptavinabókum. Fyrir leiðbeiningar skal sjá [Eigindi og eigindaflokkar](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Búðu til nýjan eigindahóp sem inniheldur eiginleika sem þú vilt ná fyrir viðskiptavini sem er stjórnað í viðskiptavinabókum. Fyrir leiðbeiningar skal sjá [Eigindi og eigindaflokkar](./attribute-attributegroups-lifecycle.md).
 
     - Skilgreindu nauðsynlega eiginleika sem **Hægt að fínstilla**. Sölufélagar geta síðan notað þessa eiginleika til að sía viðskiptavinabók sína.
     - Stilltu skjáröð fyrir þessa eiginleika. Þessi skjáröð ákvarðar hvaða eiginleikar ættu að birtast á viðskiptavinaspjaldinu í viðskiptavinabókinni. Skjáröð 1 er talin hærri en skjáröð 2. Þess vegna verður eigindin sem hefur skjáröð 1 sýnd á undan eigindinni sem hefur skjáröð 2.
@@ -103,18 +103,18 @@ Til að kveikja á samþættingu Customer Insights við Commerce verður þú a�
 
 Fylgdu þessum skrefum til að setja samþættinguna upp.
 
-1. Í Azure-gáttinni skal skrá nýtt forrit og skrifa niður heiti og kenni forritsins og leynilykilinn. Þessar upplýsingar verða notaðar fyrir auðkenningu á þjónustu-til-þjónustu milli Commerce og Customer Insights. Geymið leynilykilinn á öruggum stað vegna þess að það þarf að vista hann í lyklageymslunni. Fyrir eftirfarandi dæmi skal nota CI_Access_name, CI_Access_AppID, CI_Access_Secret fyrir heiti forritsins, forritskennið og leynilykilinn í þessari röð. Frekari upplýsingar er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+1. Í Azure-gáttinni skal skrá nýtt forrit og skrifa niður heiti og kenni forritsins og leynilykilinn. Þessar upplýsingar verða notaðar fyrir auðkenningu á þjónustu-til-þjónustu milli Commerce og Customer Insights. Geymið leynilykilinn á öruggum stað vegna þess að það þarf að vista hann í lyklageymslunni. Fyrir eftirfarandi dæmi skal nota CI_Access_name, CI_Access_AppID, CI_Access_Secret fyrir heiti forritsins, forritskennið og leynilykilinn í þessari röð. Frekari upplýsingar er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Passaðu að þú munir að breyta leyndarmálinu áður en það rennur út. Annars stöðvast samþættingin óvænt.
 
 2. Farið í tilvik Customer Insights og leitið að heiti forritsins sem stofnað var hér að ofan (í þessu dæmi „CI_Access_name“).
-3. Stofnið Azure-lyklageymsla og skrifið hjá ykkur heitið og vefslóðina (í þessu dæmi „KeyVaultName“, „KeyVaultURL“). Fyrir leiðbeiningar skal sjá [Stuttur leiðarvísir: Stilla og sækja leyndarmál úr Azure lyklageymslu með Azure vefsíðunni](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+3. Stofnið Azure-lyklageymsla og skrifið hjá ykkur heitið og vefslóðina (í þessu dæmi „KeyVaultName“, „KeyVaultURL“). Fyrir leiðbeiningar skal sjá [Stuttur leiðarvísir: Stilla og sækja leyndarmál úr Azure lyklageymslu með Azure vefsíðunni](/azure/key-vault/quick-create-portal).
 4. Vistið leynilykilinn (í þessu dæmi „CI_Access_Secret“) í geymslunni. Þegar þessi leynilykill er geymdur í geymslunni fær leynilykillinn heiti. Skrifið hjá ykkur heiti leynilykilsins (í þessu dæmi „SecretName“).
 5. Til að fá aðgang að leynilyklinum í Azure-lyklageymslunni þarf að stofna annað forrit með forritskenni og leynilykli (í þessum dæmi „KeyVault_Access_AppID“ and „KeyVault_Access_Secret“). Geymið leynilykilinn á öruggum stað því hann verður ekki sýndur aftur.
 6. Næst þarf að veita heimildir að forritinu til að fá aðgang að lyklageymslunni úr Commerce með API. Farið á síðu forritsins í Azure-gáttinni. Undir hlutanum **Stjórna** skal velja **API-heimildir**. Bætið við heimildinni til að fá aðgang að **Azure-lyklageymslu**. Fyrir þessa heimild skal velja **Aðgangsreglur**. Veljið sniðmátið sem **Stjórnun leynilykils** og veljið valkostina **Sækja**, **Listi**, **Dulráða** og **Dulrita**. 
 5. Í Commerce Headquarters skal fara í **Kerfisstjórnun \> Uppsetning \> Færibreytur lyklageymslu** og færa inn nauðsynlegar upplýsingar fyrir lyklageymsluna. Síðan, í reitnum **Biðlari lyklageymslu**, slærðu inn forritskennið sem þú notaðir í skrefi 4, svo að Commerce geti nálgast leyndarmál í lyklageymslunni.
-6. Til að bæta forritinu sem þú bjóst til í skrefi 1 við listann yfir örugg forrit (stundum kallað öruggur listi) skal fara í Customer Insights og velja aðganginn **Skoða** að forritinu. Fyrir leiðbeiningar skal sjá [Heimildir](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Til að bæta forritinu sem þú bjóst til í skrefi 1 við listann yfir örugg forrit (stundum kallað öruggur listi) skal fara í Customer Insights og velja aðganginn **Skoða** að forritinu. Fyrir leiðbeiningar skal sjá [Heimildir](/dynamics365/ai/customer-insights/pm-permissions).
 7. Á síðunni **Kerfisstjórnun > Uppsetning > Færibreytur lyklageymslu** í Commerce Headquarters skal uppfæra reitina eins og lýst er hér að neðan: 
 
 - **Vefslóð lyklageymslu**: „KeyVaultURL“ (úr skrefi 3 hér að ofan).

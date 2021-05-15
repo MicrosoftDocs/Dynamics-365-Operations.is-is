@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898288"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965311"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -104,7 +104,7 @@ ms.locfileid: "5898288"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.12 útgáfu
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Pólska SSRS skýrslur: VSK skrá yfir sölu, virðisaukaskattsskrá, ESB yfirlit virðisaukaskattsskrá - Tilvísun eiginleika PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Ekki úrelt: Pólskar SSRS skýrslur: VSK skrá yfir sölu, virðisaukaskattsskrá, ESB yfirlit virðisaukaskattsskrá - Tilvísun eiginleika PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -112,7 +112,7 @@ ms.locfileid: "5898288"
 | **Skipt út fyrir aðra eiginleika?**   | Já (Excel snið fyrir venjulega endurskoðunarskrá með virðisaukaskattsyfirlýsingu - JPK_VDEK) |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Hætt við: Fyrir 1. júlí 2021, ætlum við að styðja ekki lengur SSRS skýrslurnar: **Velta VSK skrá, Kaup VSK skrá, ESB yfirlit VSK skrá - Tilvísun eiginleika PL-00014**. Dæmi um Excel snið fyrir venjulega endurskoðunarskrá með virðisaukaskattsyfirlýsingu (JPK_VDEK) verður kynnt í staðinn. |
+| **Staða**                         | Ekki úrelt: Frá og með 27. apríl 2021 ætlum við að halda áfram að styðja SSRS-skýrslur: **Skrá yfir útskatt, skrá yfir innskatt, VSK-skrá samantektar ESB – Tilvísun eiginleika PL-00014**. Dæmi um Excel-snið fyrir venjulega endurskoðunarskrá með virðisaukaskattsyfirlýsingu (JPK_VDEK) hefur einnig verið kynnt. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.11 útgáfu
 

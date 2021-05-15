@@ -2,25 +2,25 @@
 title: Útreikningur á VSK-skatti í almennum færslubókarlínum
 description: Þetta efni útskýrir hvernig VSK-skattur er reiknaður fyrir mismunandi gerðir lykla (lánardrottna, viðskiptavina, fjárhag og verkefni) á almennum dagbókarlínum.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815333"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937307"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Útreikningur á VSK-skatti í almennum færslubókarlínum
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Farðu í **Fjárhag \> Bókhaldslykil \> Lyklar \> Aðallyklar** og veldu flýt
 
 ![Síða virðisaukaskattsfærslna](media/sales-tax-amount-sign.jpg)
 
-Eftirfarandi tafla sýnir almenna regluna til að ákvarða merki um VSK-skattsupphæðir í tímabundinni VSK-skattatöflu.
+Eftirfarandi tafla sýnir almennu regluna til að ákvarða stefnu VSK og merki VSK-upphæða í tímabundinni töflu virðisaukaskatts.
 
 | Upphæð færslubókarlínu | Stefna VSK  | Merki VSK-skattupphæðar |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Eftirfarandi tafla sýnir almenna regluna til að ákvarða merki um VSK-skattsu
 | Neikvætt            | Innskattur | Neikvætt              |
 | Neikvætt            | Útskattur    | Jákvætt              |
 
-Það er sérstök regla fyrir fylgiskjöl sem hafa aðeins línurnar **Verk** eða **Fjárhagur**, þegar VSK-skattshópur eða VSK-skattshópur vöru er valinn á línunni **Fjárhagur**. Þessari reglu er stjórnað af eiginleikanum Virkja sjálfstæðan útreikning á VSK-skatti fyrir almennar færslubækur. Þegar slökkt er á þessari aðgerð notar skattafjárhæðin í línunni **Fjárhagur** stefnuna debet/kredit í línunni **Verk**. Þegar kveikt er á þessari aðgerð notar skattafjárhæðin í línunni **Fjárhagur** sína eigin debet-/kreditstefnu. Eftirfarandi töflur sýna regluna fyrir hverja atburðarás. 
+Það er sérstök regla fyrir fylgiskjöl sem hafa aðeins línurnar **Verk** eða **Fjárhagur**, þegar VSK-skattshópur eða VSK-skattshópur vöru er valinn á línunni **Fjárhagur**. Þessari reglu er stjórnað af eiginleikanum **Virkja sjálfstæðan útreikning á VSK-skatti fyrir almennar færslubækur**. Þegar slökkt er á þessari aðgerð notar skattafjárhæðin í línunni **Fjárhagur** stefnuna debet/kredit í línunni **Verk**. Þegar kveikt er á þessari aðgerð notar skattafjárhæðin í línunni **Fjárhagur** sína eigin debet-/kreditstefnu. Eftirfarandi töflur sýna regluna fyrir hverja atburðarás. 
 
 **Regla þegar kveikt er á eiginleikanum**
 

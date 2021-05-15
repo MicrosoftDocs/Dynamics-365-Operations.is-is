@@ -2,7 +2,7 @@
 title: Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð (ER)
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota gagnagjafa þvert á fyrirtæki í rafrænni skýrslugerð.
 author: NickSelin
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 7528a84bae388dd8b159405043570b647d6e2cb4
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 25c665c797d0cea10cbe337e86be4a07f1f5074a
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753745"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944462"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð (ER)
 
@@ -72,8 +72,8 @@ Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeiningarnar, 
 
 Sæka eftirfarandi skrár til að ljúka verkefnaleiðbeiningunni:
 
-- [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessModel.xml](https://download.microsoft.com/download/4/2/5/4258f891-7054-4821-aedd-3721ba25fdd5/CrossCompanyDataAccessModel.xml)
+- [Skilgreining á líkani rafrænnar skýrslugerðar - CrossCompanyDataAccessFormat.xml](https://download.microsoft.com/download/3/2/1/321deb75-3ba9-4323-99bf-207a52c60b5c/CrossCompanyDataAccessFormat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

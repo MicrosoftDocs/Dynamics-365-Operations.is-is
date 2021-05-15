@@ -2,7 +2,7 @@
 title: Frestaðu framkvæmd raðarþátta á ER sniði
 description: Þetta efni útskýrir hvernig á að fresta framkvæmd raðarþáttar á rafrænni skýrslugerð (ER) sniði.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894101"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944510"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Frestaðu framkvæmd raðarþátta á ER sniði
 
@@ -57,14 +57,14 @@ Ef þú hefur ekki enn lokið dæminu í [Frestaðu framkvæmd XML-þátta á ER
 
 | Lýsing á efni            | Skrárnafn |
 |--------------------------------|-----------|
-| Skilgreining á gagnalíkani í ER    | [Líkan til að læra frestaða elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Stilling vörpunar ER-líkans | [Vörpun til að læra frestaða elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Skilgreining á gagnalíkani í ER    | [Líkan til að læra frestaða elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Stilling vörpunar ER-líkans | [Vörpun til að læra frestaða elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Áður en þú byrjar verður þú einnig að hlaða niður og vista eftirfarandi stillingar á sýnishornum ER lausnarinnar.
 
 | Lýsing á efni     |Skrárnafn |
 |-------------------------|----------|
-| ER Sníða skilgreiningu | [Sniðmát til að læra frestaða sequences.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER Sníða skilgreiningu | [Sniðmát til að læra frestaða sequences.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Flytja inn sýnishorn af ER-stillingum
 
@@ -169,7 +169,7 @@ Skoðaðu stillingar kortagerðarhlutans fyrir ER-gerðina sem er stilltur til a
 1. Á síðunni **Sniðshönnuður** skal velja **Keyra**.
 2. Sæktu skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Sótt skrá](./media/ER-DeferredSequence-Run.png)
+    ![Sótt skýrsluskráardæmi](./media/ER-DeferredSequence-Run.png)
 
 Taktu eftir að yfirlitslína 22 sýnir summuna af skattagildum fyrir unnar færslur. Vegna þess að sniðið er stillt til að nota **model.Data.Summary.Total** bindandi til að skila þessari fjárhæð, er summan reiknuð með því að kalla í uppsöfnunina **TotalSum** á gagnagjafann **Flokkað** af gerðinni *GroupBy* sem notar líkanavörpunina. Til að reikna þessa uppsöfnun endurtekur líkanavörpunin yfir allar færslur sem hafa verið valdar í gagnagjafanum **Síað**. Með því að bera saman framkvæmdartíma línanna 21 og 22 er hægt að ákvarða að útreikningur á summan hafi tekið 10 millisekúndur (ms). Með því að bera saman framkvæmdartíma línanna 2 og 21 er hægt að ákvarða að myndun á öllum færslulínum taki 7 ms. Þess vegna var krafist alls 17 ms.
 
@@ -202,7 +202,7 @@ Ef magn færslna er miklu stærra en rúmmálið í núverandi dæmi gæti samla
 12. Veldu **Vista** og síðan **Keyra**.
 13. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Sótt skrá](./media/ER-DeferredSequence-Run1.png)
+    ![Sótt skrá - Samanlögð skattagildi](./media/ER-DeferredSequence-Run1.png)
 
     Lína 21 inniheldur hlaupandi samtölu skattagilda sem eru reiknuð fyrir öll afgreidd viðskipti með því að nota myndaða framleiðsluna sem gagnagjafa. Þessi gagnagjafi hefst á byrjun skýrslunnar og heldur áfram í gegnum síðustu skattafærslu. Lína 22 inniheldur summan af skattagildum fyrir allar unnar færslur sem eru reiknaðar út í líkanavörpun með því að nota gagnagjafa af gerðinni *GroupBy*. Taktu eftir að þessi gildi eru jöfn. Þess vegna er hægt að nota samlagningu sem byggir á úttaki í staðinn fyrir **GroupBy**. Með því að bera saman framkvæmdartíma línanna 2 og 21 er hægt að ákvarða að myndun á öllum færslulínum og samlagningu taki 9 ms. Þess vegna er breytta sniðið um það bil tvisvar sinnum hraðara en upprunalega sniðið varðandi myndun sundurliðaðra lína og summan af skattagildum.
 
@@ -211,7 +211,7 @@ Ef magn færslna er miklu stærra en rúmmálið í núverandi dæmi gæti samla
 16. Veldu **Vista** og síðan **Keyra**.
 17. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Sótt skrá](./media/ER-DeferredSequence-Run2.png)
+    ![Skrá sótt með breyttri formúlu](./media/ER-DeferredSequence-Run2.png)
 
     Taktu eftir því að hlaupandi samtala skattagilda í síðustu upplýsingalínu færslu er nú jafnhá samtölu yfirlitslínunnar.
 
@@ -224,7 +224,7 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 3. Veldu **Vista** og síðan **Keyra**.
 4. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Sótt skrá](./media/ER-DeferredSequence-Run3.png)
+    ![Skrá sótt fyrir samtölu í skýrsluhaus](./media/ER-DeferredSequence-Run3.png)
 
     Taktu eftir að summan af skattagildum í yfirlitslínu 2 er nú jöfn 0 (núll), vegna þess að þessi summa er nú reiknuð út frá mynduðu úttaki. Þegar lína 2 er mynduð inniheldur myndað úttak ekki enn línur sem hafa upplýsingar um færslur. Þú getur stillt þetta snið til að fresta framkvæmd á raðþættinum **Skýrsla\\Línur\\Yfirlit** þar til að raðþátturinn **Skýrsla\\Línur\\Skrá** hefur verið keyrður fyrir allar skattafærslur.
 
@@ -238,7 +238,7 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 3. Veldu **Vista** og síðan **Keyra**.
 4. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Sótt skrá](./media/ER-DeferredSequence-Run4.png)
+    ![Skrá sótt - frestuð framkvæmd](./media/ER-DeferredSequence-Run4.png)
 
     Raðþátturinn **Skýrsla\\Línur\\Yfirlit** er nú aðeins keyrður þegar allir aðrir hlutir sem eru ívafðir undir yfirþættinum **Skýrsla\\Línur** hafa verið keyrðir. Þess vegna er hann keyrður þegar raðþátturinn **Skýrsla\\Línur\\Skrá** hefur verið keyrður fyrir allar skattafærslur í gagnagjafanum **model.Data.List**. Framkvæmdartímar lína 1, 2 og 3 og síðustu línunnar, 22, sýna þessa staðreynd.
 

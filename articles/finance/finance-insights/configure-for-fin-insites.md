@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908831"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941227"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Stillingar fyrir Fjármálainnsýn (forútgáfa)
 
@@ -42,228 +42,36 @@ Virkjaðu umhverfið með því að fylgja þessum skrefum.
 
 ## <a name="configure-dataverse"></a>Skilgreina Dataverse
 
-Hægt er að ljúka við handvirk grunnstillingarskref sem fylgja, eða hægt er að hraða skilgreiningarferlinu með því að nota Windows PowerShell-forskrift sem er gefin upp. Þegar PowerShell-forskrift hefur verið keyrð mun það gefa upp gildi sem eru notuð til að skilgreina Fjármálainnsýn. 
+Fylgið eftirfarandi skrefum til að stilla Dataverse fyrir Finance insights.
 
+1. Opnið síðu umhverfis í LCS og staðfestið að hlutinn **Power Platform samþætting** sé þegar uppsettur.
+    1. Ef hann er þegar uppsettur ætti heiti Dataverse umhverfisins sem tengt er við Dynamics 365 Finance umhverfið að vera sýnt. Afritið heiti Dataverse-umhverfisins.
+    2. Ef það er ekki sett upp skal fylgja eftirfarandi skrefum:
+        1. Veljið hnappinn **Uppsetning** í hlutanum Power Platform Samþætting. Það getur tekið allt að klukkustund að setja upp umhverfið.
+        2. Ef tókst að setja upp Dataverse-umhverfið ætti heiti Dataverse-umhverfisins sem tengt er við Dynamics 365 Finance-umhverfið að vera sýnt. Afritið heiti Dataverse-umhverfisins.
 > [!NOTE]
-> Opnaðu PowerShell í tölvunni til að keyra skriftuna. Þú gætir þurft PowerShell útgáfu 5. Valkosturinn „Prófaðu þetta“ í Microsoft Azure CLI virkar hugsanlega ekki.
+> Að lokinni uppsetningu umhverfisins **SKAL EKKI** velja hnappinn **Tengill á almenna gagnaþjónustu (CDS) fyrir forrit**. Þetta er ekki nauðsynlegt fyrir Finance insights og mun gera möguleikann á að ljúka við nauðsynlegar umhverfisviðbætur í LCS óvirkan.
 
-# <a name="manual-configuration-steps"></a>[Handvirk grunnstillingarskref](#tab/configuration-steps)
-
-1. Opnaðu [Power Platform stjórnendamiðstöð ](https://admin.powerplatform.microsoft.com/) og fylgdu þessum skrefum til að búa til nýtt Dataverse -umhverfi í sama Active Directory leigjanda:
+2. Opnaðu [Power Platform stjórnendamiðstöð ](https://admin.powerplatform.microsoft.com/) og fylgdu þessum skrefum til að búa til nýtt Dataverse -umhverfi í sama Active Directory leigjanda:
 
     1. Opnið síðuna **Umhverfi**.
 
         [![Umhverfissíða](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
-    2. Veljið **Nýtt umhverfi**.
-    3. Í reitnum **Gerð** skal velja **Sandkassi**.
-    4. Stillið **Búa til gagnagrunn** valkostinn á **Já**.
-    5. Veljið **Næst**.
-    6. Velja tungumál og gjaldmiðil fyrirtækisins.
-    7. Samþykkið sjálfgildin fyrir önnur svæði.
-    8. Veljið **Vista**.
-    9. Endurhlaða þarf síðuna **Umhverfi** .
-    10. Bíða skal þar til gildið fyrir reitinn **Staða** er uppfært í **Tilbúið**.
-    11. Skráið niður Dataverse kenni fyrirtækis.
-    12. Veljið umhverfi og svo **Stillingar**.
-    13. Veljið **Tilföng \> Allar eldri stillingar**.
-    14. Á efstu yfirlitsstikunni skal velja **Stillingar** og síðan **Sérstillingar**.
-    15. Veljið **Tilföng fyrir þróunaraðila**.
-    16. Afritið gildið **Dataverse kenni fyrirtækis**.
-    17. Í veffangastikunni vafrans skal gera athugasemd við VEFSLÓÐINA fyrir Dataverse-fyrirtækið. Til dæmis gæti vefslóðin verið `https://org42b2b3d3.crm.dynamics.com`.
+    2. Veljið Dataverse-umhverfið sem búið er til hér að ofan og veljið svo **Stillingar**.
+    3. Veljið **Tilföng \> Allar eldri stillingar**.
+    4. Á efstu yfirlitsstikunni skal velja **Stillingar** og síðan **Sérstillingar**.
+    5. Veljið **Tilföng fyrir þróunaraðila**.
+    6. Afritið gildið **Dataverse kenni fyrirtækis**.
+    7. Í veffangastikunni vafrans skal gera athugasemd við VEFSLÓÐINA fyrir Dataverse-fyrirtækið. Til dæmis gæti vefslóðin verið `https://org42b2b3d3.crm.dynamics.com`.
 
-2. Ef ætlunin er að nota sjóðstreymisspár eða fjárhagsáætlunarspár skal fylgja þessum skrefum til að uppfæra skýringartextamörk fyrirtækisins í að minnsta kosti 50 megabæt (MB):
+3. Ef ætlunin er að nota sjóðstreymisspár eða fjárhagsáætlunarspár skal fylgja þessum skrefum til að uppfæra skýringartextamörk fyrirtækisins í að minnsta kosti 50 megabæt (MB):
 
     1. Opnið [Power Apps-gáttina](https://make.powerapps.com)
     2. Veljið það umhverfi sem var stofnað og veljið síðan **Ítarlegar stillingar**.
     3. Veljið **Stillingar\> Skilgreining tölvupósts**.
     4. Breytið gildi **Hámarksstærð skráar** reitnum í **51.200**. (Gildið er gefið upp í kílóbætum \[KB\].)
     5. Veljið **Í lagi** til að vista breytingarnar.
-
-# <a name="windows-powershell-configuration-script"></a>[Forskrift Windows PowerShell-skilgreiningar](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
 
 ## <a name="configure-the-azure-setup"></a>Skilgreina Azure uppsetningu
 
@@ -295,11 +103,14 @@ Fylgið eftirfarandi skrefum til að grunnstilla Azure með Windows PowerShell-f
 
 1. Í [Azure-gátt](https://portal.azure.com) skal opna viðkomandi Azure-áskrift. Veljið **Cloud Shell**-hnappinn hægra megin við svæðið **Leita**.
 2. Veljið **PowerShell**.
-3. Búðu til geymslu, ef beðið er um að gera það. Því næst skal hlaða upp Windows PowerShell-forskrift á lotuna.
-4. Keyra forskrift.
-5. Fylgið kvaðningunum til að keyra forskriftina.
-6. Notið upplýsingar úr forskriftinni til að setja upp innbótina **Flytja út í Data Lake** í LCS.
-7. Notið upplýsingar úr forskriftinni til að virkja einingaverslunina á síðunni **Gagnatengingar** í Finance (**Kerfisstjórnun \> Kerfisfæribreytur \> Gagnatengingar**).
+3. Búðu til geymslu, ef beðið er um að gera það.
+4. Farið á flipann **Azure CLI** og veljið **Afrita**.  
+5. Opnið Notepad og límið inn forskrift PowerShell. Vistið skrána sem ConfigureDataLake.ps1.
+6. Hlaðið upp forskrift Windows PowerShell í lotuna með því að nota valkost valmyndar fyrir upphleðslu í Cloud Shell.
+7. Keyra skriftuna .\ConfigureDataLake.ps1.
+8. Fylgið kvaðningunum til að keyra forskriftina.
+9. Notið upplýsingar úr forskriftinni til að setja upp innbótina **Flytja út í Data Lake** í LCS.
+10. Notið upplýsingar úr forskriftinni til að virkja einingaverslunina á síðunni **Gagnatengingar** í Finance (**Kerfisstjórnun \> Kerfisfæribreytur \> Gagnatengingar**).
 
 ### <a name="manual-setup"></a>Handvirk uppsetning
 
@@ -975,24 +786,24 @@ Viðbótin verður sett upp innan fárra mínútna.
 
     | Virði                                                    | lýsing |
     |----------------------------------------------------------|-------------|
-    | CDS-vefslóð fyrirtækis                                     | Vefslóð Dataverse-fyrirtækis Dataverse-tilviksins. Til að finna þetta gildi skal opna [Power Apps-gátt](https://make.powerapps.com), velja hnappinn **Stillingar** (gírtáknið) efst til hægri, velja **Ítarlegar stillingar** og afrita vefslóðina. (Slóðin endar á „dynamics.com“.) |
-    | Auðkenni CDS-fyrirtækis                                               | Umhverfiskenni Dataverse tilviksins. Til að finna þetta gildi skal opna [Power Apps-gátt](https://make.powerapps.com), velja hnappinn **Stillingar** (gírtáknið) efst til hægri, velja **Sérstillingar \> Þróunartilföng \> Tilvísunarupplýsingar tilviks** og afrita gildið í **Auðkenni**. |
-    | Leigjandakenni CDS (skráasafnskenni úr AAD)               | Auðkenni leigjanda Dataverse tilviksins Til að finna þetta gildi skal opna [Azure-gátt](https://portal.azure.com), **Azure Active Directory** og afrita gildi **leigjandakennis**. |
-    | Veita notanda hlutarkenni sem er með stjórnandahlutverk | Auðkenni Azure AD-notandahlutarins í Dataverse. Þessi notandi verður að vera kerfisstjóri Dataverse-tilviks. Til að finna þetta gildi skal opna [Azure-gátt](https://portal.azure.com), opna **Azure Active Directory \> Notendur**, velja notandann og síðan, í **Auðkenni** , afrita gildið fyrir **Hlutarkenni**. |
-    | Er þetta sjálfgefna CDS-umhverfið fyrir leigjandann?      | Ef Dataverse-tilvik var fyrsta framleiðslutilvikið sem var stofnað skal velja þennan gátreit. Ef Dataverse tilvik var búið til handvirkt skal hreinsa þennan gátreit. |
-
+    | CDS-vefslóð fyrirtækis                                     | Vefslóð Dataverse fyrirtækisins afrituð að ofan. |
+    | Auðkenni CDS-fyrirtækis                                               | Kenni Dataverse fyrirtækisins afritað að ofan. |
+5. Virkið **Er þetta sjálfgefna umhverfið fyrir leigjandann þinn**.
+    
 ## <a name="configure-the-entity-store"></a>Grunnstilla einingaverslun
 
 Fylgið eftirfarandi skrefum til að setja upp einingaverslunina í Finance-umhverfinu.
 
 1. Opnið **Kerfisstjórnun\> Uppsetning\> Kerfisfæribreytur \> Gagnatengingar**.
-2. Stillið **Virkja Data Lake-samþættingu** á **Já**.
-3. Stillið eftirfarandi lyklageymslusvæði:
+2. Stillið eftirfarandi lyklageymslusvæði:
 
     - **Forritskenni (biðlari)** – Sláið inn auðkenni forritsbiðlara sem var stofnaður áður.
     - **Leynilykill forrits** – Sláið inn leynilykil sem vistaður var fyrir forritið sem stofnað var áður.
     - **DNS-heiti** – Hægt er að finna heiti lénsheitakerfis á upplýsingasíðu forrits fyrir forritið sem var stofnað áður.
     - **Leynilykilsheiti** – Sláið inn **geymsla-reikningur-tenging-strengur**.
+3. Virkið **Kveikja á samþættingu Data Lake**.
+4. Veljið **Prófa Azure-lyklageymslu** og staðfestið að engar villur séu til staðar.
+5. Veljið **Prófa Azure Storage** og staðfestið að engar villur séu til staðar.
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

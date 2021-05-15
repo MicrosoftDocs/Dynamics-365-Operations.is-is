@@ -2,7 +2,7 @@
 title: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að nota eiginleika fyrir rakningu afkasta í rafrænni skýrslugerð til að úrræðaleita vandamál er varða afköst.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754217"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944654"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -47,10 +47,10 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
 | Skrá                                  | Efni                               |
 |---------------------------------------|---------------------------------------|
-| Afkastarakning model.version.1     | [Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Afkastarakning metadata.version.1  | [Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Afkastarakning mapping.version.1.1 | [Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Afkastarakning format.version.1.1  | [Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Afkastarakning model.version.1     | [Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Afkastarakning metadata.version.1  | [Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Afkastarakning mapping.version.1.1 | [Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Afkastarakning format.version.1.1  | [Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
@@ -84,7 +84,7 @@ Til að vera tiltækt í uppflettingarreitnum **Annað** verður skjalagerð skj
 Gerum ráð fyrir að þú hafir byrjað að hanna nýja lausn rafrænnar skýrslugerðar til að búa til nýja skýrslu sem sýnir lánardrottnafærslur. Eins og er geturðu fundið færslurnar fyrir valinn lánardrottin á síðunni **Lánardrottnafærslur** (opnaðu **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar**, veldu lánardrottin og síðan, í aðgerðarúðunni, í flipanum **Lánardrottinn**, í flokknum **Færslur**, skal velja **Færslur**). Hins vegar viltu hafa allar lánardrottnafærslur á sama tíma í einu rafrænu skjali á XML-sniði. Þessi lausn mun samanstanda af nokkrum skilgreiningum rafrænnar skýrslugerðar sem innihalda nauðsynlegt gagnalíkan, lýsigögn, líkanavörpun og sniðseiningar.
 
 1. Skráðu þig inn á tilvik RCS sem hefur verið úthlutað fyrir fyrirtækið þitt.
-2. Í þessari leiðsögn býrðu til og breytir skilgreiningum fyrir sýnifyrirtækið **Litware, Inc.**. Gakktu því úr skugga um að þessari skilgreiningarveitu hafi verið bætt við RCS og verið valin sem virk. Fyrir leiðbeiningar skal sjá ferlið [Stofna skilgreiningarveitendur og merkja þá sem virka](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Í þessari leiðsögn býrðu til og breytir skilgreiningum fyrir sýnifyrirtækið **Litware, Inc.**. Gakktu því úr skugga um að þessari skilgreiningarveitu hafi verið bætt við RCS og verið valin sem virk. Fyrir leiðbeiningar skal sjá ferlið [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja reitinn **Skilgreiningar skýrslugerðar**.
 4. Á síðunni **Skilgreiningar**, skal flytja inn skilgreiningar rafrænnar skýrslugerðar sem voru sóttar sem forkröfur í RCS, í eftirfarandi röð: gagnalíkan, lýsigögn, líkanavörpun, snið. Fyrir hverja skilgreiningu skal fylgja þessum skrefum:
 
@@ -101,7 +101,7 @@ Gerum ráð fyrir að þú hafir lokið við að hanna fyrstu útgáfu af lausn 
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations
 
 1. Skráðu þig inn á forritstilvikið.
-2. Fyrir þessa leiðsögn flytur þú inn skilgreiningar úr RCS-tilvikinu þínu (þar sem þú hannar þætti rafrænnar skýrslugerðar) í tilvik (þar sem þú prófar og að lokum notar þær). Þess vegna verður þú að ganga úr skugga um að allir nauðsynlegir gervingar hafi verið undirbúnir. Til að fá leiðbeiningar skal sjá ferlið [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Skilgreiningarþjónustu reglugerðar (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Fyrir þessa leiðsögn flytur þú inn skilgreiningar úr RCS-tilvikinu þínu (þar sem þú hannar þætti rafrænnar skýrslugerðar) í tilvik (þar sem þú prófar og að lokum notar þær). Þess vegna verður þú að ganga úr skugga um að allir nauðsynlegir gervingar hafi verið undirbúnir. Til að fá leiðbeiningar skal sjá ferlið [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Skilgreiningarþjónustu reglugerðar (RCS)](rcs-download-configurations.md).
 3. Fylgið þessum skrefum til að flytja inn skilgreiningar úr RCS í forritið:
 
     1. Á vinnusvæðinu **Rafræn skýrslugerð**, í reitnum fyrir skilgreiningarveituna **Litware, Inc.**, skal velja **Geymslur**.

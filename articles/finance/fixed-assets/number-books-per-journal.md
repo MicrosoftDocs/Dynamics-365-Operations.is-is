@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892408"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944802"
 ---
 # <a name="number-of-books-per-journal"></a>Fjöldi bóka í hverri færslubók
 
@@ -47,9 +47,5 @@ Runuvinnslu útilokar lokaðar bækur. Í runuvinnslu fyrir afskrift er t.d. 10 
 Mörkin á fjölda bóka eru notuð ef tvítekin eignaauðkenni eru ekki til í sömu færslubók. Hins vegar ef eignaauðkennið er það sama og auðkenni bókarinnar, er hægt að fara umfram fjölda bóka fyrir hverja færslubók til að halda eignaauðkenninu í sömu færslubók.
 
 Til dæmis eru til 5001 eignaauðkenni, þrjár bækur eru tengdar við hvert auðkenni og hver eignabók er bókuð á sama bókunarlagið. Afskriftir eru keyrðar fyrir þrjá samfellda mánuði, án samantektar.  Afskriftarbókin verður stofnuð í gegnum runuvinnslu og kerfið býr til sjö færslubækur með 667 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Útkoman verður 2.001 bækur. Eftir þrjá mánuði verða því 6003 færslubókarlínur til að viðhalda sömu auðkennum eignar í sömu færslubók. Kerfið stofnar einnig eina færslubók með 332 eignaauðkennum og þremur bókum fyrir hvert auðkenni. Eftir þrjá mánuði verða línurnar 2.988.
-
-> [!NOTE] 
-> Ef færibreytan **Sundurliða afskriftir** er virk þegar verið er að stofna afskriftartillögu, þá hefur gildið í **Fjöldi bóka í hverri færslubók - AfskriftartillAGA** engin áhrif. Í þessu máli ER fjöldi bóka í færslubók 6000, sem eru innri skilgreindu mörkin.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

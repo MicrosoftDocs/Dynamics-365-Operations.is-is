@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890053"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935754"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Skilgreina Dataverse-sýndartöflur
 
@@ -102,27 +102,15 @@ Skrá þarf Human Resources tilvikið inn í Azure-gáttinni þannig að auðken
 
 Setja skal upp forritið Dynamics 365 HR Virtual Table í Power Apps-umhverfinu til að virkja lausnapakka sýndartöflunnar í Dataverse.
 
-1. Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
+1. Í Human Resources skal opna síðuna **Microsoft Dataverse-samþætting**.
 
-2. Í listanum **Umhverfi** er valið Power Apps-umhverfi sem tengist tilviki Human Resources.
+2. Veljið flipann **Sýndartöflur**.
 
-3. Í hlutanum **Tilföng** á síðunni skal velja **Dynamics 365-forrit**.
+3. Veljið **Setja upp sýndartöfluforrit**.
 
-4. Veljið aðgerðina **Setja upp forrit**.
+### <a name="configure-the-virtual-table-data-source"></a>Skilgreina gagnagjafa sýndartöflu
 
-5. Veljið **Dynamics 365 HR Virtual Table** og veljið **Áfram**.
-
-6. Yfirfara og merkja til að samþykkja þjónustuskilmála.
-
-7. Velja **Setja upp**.
-
-Uppsetningin tekur örfáar mínútur. Þegar henni lýkur skal halda áfram í næsta skref.
-
-![Setja upp forritið Dynamics 365 HR Virtual Table úr Power Platform-stjórnendamiðstöðinni](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Skilgreina gagnagjafa sýndartöflu 
-
-Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu. 
+Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu.
 
 1. Opna [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu
 4. Í **heilsulausnarmiðstöð** skal velja táknið **Ítarleg leit** efst til hægri á forritssíðunni.
 
 5. Á síðunni **Ítarleg leit**, í fellilistanum **Leita að**, skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
+
+   > [!NOTE]
+   > Uppsetning sýndartöfluforritsins úr fyrra uppsetningarskrefi getur tekið nokkrar mínútur. Ef **Finance and Operations Skilgreiningar sýndargagnagjafa** eru ekki í boði í listanum skal hinkra smástund og svo uppfæra listann.
 
 6. Veldu **Niðurstöður**.
 
@@ -186,7 +177,7 @@ Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 
 Þegar uppsetningu er lokið er hægt að velja sýndartöflurnar sem á að mynda og virkja í Dataverse-tilvikinu.
 
-1. Í Human Resources skal opna síðuna **Dataverse-samþætting**.
+1. Í Human Resources skal opna síðuna **Microsoft Dataverse-samþætting**.
 
 2. Veljið flipann **Sýndartöflur**.
 
@@ -197,7 +188,7 @@ Veitið heimildir fyrir tvö Azure AD-forrit í Human Resources:
 
 4. Velja **Búa til/uppfæra**.
 
-![Dataverse Samþætting](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse Samþætting](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Athuga myndunarstöðu töflu
 

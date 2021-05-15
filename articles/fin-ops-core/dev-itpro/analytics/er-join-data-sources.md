@@ -2,7 +2,7 @@
 title: Notaðu JOIN gagnaheimildir í ER-líkanavörpun til að fá gögn úr mörgum töflum forrita
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota gagnagjafa af JOIN-gerð í rafrænni skýrslugerð (ER).
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743978"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944723"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Notaðu JOIN gagnaheimildir til að fá gögn úr mörgum forritatöflum í líkanavörpun í rafrænni skýrslugerð (ER)
 
@@ -64,13 +64,13 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að einu af
 
 Einnig verður fyrst að ljúka við skrefin í ferlinu [Stofna skilgreiningarveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Fyrirfram verður þú einnig að sækja úr [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=000000) og vista staðbundið eftirfarandi sýnishorn af ER-stillingarskrám:
+Fyrirfram þarf einnig að sækja og vista eftirfarandi sýnishorn af skilgreiningarskrá rafrænnar skýrslugerðar:
 
 | **Lýsing á efni**  | **Skrárnafn**   |
 |--------------------------|-----------------|
-| Sýnishorn af stillingaskránni **ER-gagnalíkan** sem er notuð sem gagnagjafi fyrir dæmin.| [Model to learn JOIN data sources.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Sýnishorn af stillingaskránni **ER-líkanavörpun** sem innleiðir ER-gagnalíkanið fyrir dæmin. | [Vörpun til að læra JOIN gagnagjafa.útgáfu.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Sýnishorn af stillingaskrá **ER-sniðs**. Þessi skrá lýsir gögnum til að fylla út ER-sniðsíhlut fyrir dæmin. | [Sniðmát til að læra JOIN gagnagjafa.útgáfu.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Sýnishorn af stillingaskránni **ER-gagnalíkan** sem er notuð sem gagnagjafi fyrir dæmin.| [Model to learn JOIN data sources.version.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Sýnishorn af stillingaskránni **ER-líkanavörpun** sem innleiðir ER-gagnalíkanið fyrir dæmin. | [Vörpun til að læra JOIN gagnagjafa.útgáfu.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Sýnishorn af stillingaskrá **ER-sniðs**. Þessi skrá lýsir gögnum til að fylla út ER-sniðsíhlut fyrir dæmin. | [Sniðmát til að læra JOIN gagnagjafa.útgáfu.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Kveikja á stillingaveitu
 
@@ -123,18 +123,18 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 4. Veljið **Sýna upplýsingar**.
 5. Í skilgreiningatrénu stækkarðu gagnalíkansliðina **Set1** og **Set1.Details**:
 
-    1. Bindandi **Upplýsingar: Skráalisti = Útgáfur** gefur til kynna að liðurinn **Set1.Details** vera bundinn við gagnagjafann **Útgáfur** sem skilar gögnum um töfluna **ERSolutionVersionTable**. Hver skrá í þessari töflu táknar eina útgáfu af ER-stillingum. Innihald þessarar töflu er kynnt í flýtiflipanum **Útgáfur** á síðunni **Stillingar**.
+    1. Bindandi **Upplýsingar: Skráalisti = Útgáfur** gefur til kynna að liðurinn **Set1.Details** vera bundinn við gagnagjafann **Útgáfur** sem skilar gögnum um töfluna **ERSolutionVersionTable**. Hver skrá í þessari töflu táknar eina útgáfu af ER-stillingum. Efni þessarar töflu er kynnt í flýtiflipanum **Útgáfur** á síðunni **Skilgreiningar**.
     2. Bindandi **ConfigurationVersion: String = @. PublicVersionNumber** þýðir að gildi opinberu útgáfunnar af útgáfu hverrar ER-stillingar er tekið úr reitnum **PublicVersionNumber** í töflunni **ERSolutionVersionTable** og komið fyrir í liðnum **ConfigurationVersion**.
     3. Bindandi **ConfigurationTitle: String = @.'>Relations'.Solution.Name** gefur til kynna að nafn ER-stillingar sé tekið úr reitnum **Heiti** í töflunni **ERSolutionTable** sem metur með því að nota mörg-við-ein tengslin (**'>Relations'**) á milli taflanna **ERSolutionVersionTable** og **ERSolutionTable**. Heiti ER-stillinga núverandi forritstilviks eru sett fram í stillingatrénu á síðunni **Skilgreiningar**.
     4. Binding **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** þýðir að heiti skilgreiningaveitunnar sem á núverandi skilgreining er tekið úr reitnum **Heiti** í töflunni **ERVendorTable** sem metur með því að nota mörg-við-ein tengsl á milli taflanna **ERSolutionTable** og **ERVendorTable**. Heiti ER-skilgreiningaveita eru sett fram í stillingatrénu á síðunni **Skilgreiningar** í síðuhaus hverrar skilgreiningar. Finna má allan listann yfir veitendur ER-stillinga á töflusíðunni **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Veitandi skilgreiningar**.
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set1Review.PNG)
+    ![Hönnuðarsíða líkanavörpunar rafrænnar skýrslugerðar, listi yfir bundin atriði gagnalíkans](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Í skilgreiningartrénu stækkarðu gagnalíkansliðinn **Set1.Summary**:
 
     1. Binding **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** gefur til kynna að liðurinn **Set1.Summary.VersionsNumber** sé bundinn uppsöfnunarreitnum **VersionsNumber** í gagnagjafanum **VersionsSummary** af gerðinni **GroupBy** sem var skilgreindur til að skila fjölda skráa í töflunni **ERSolutionVersionTable** í gegnum gagnagjafann **Versions**.
 
-    ![GROUPBY færibreytusíða gagnagjafa](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Breyta færibreytusíðu „Flokka eftir“](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Lokið síðunni.
 
@@ -144,11 +144,11 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 
 1. Í skilgreiningatrénu stækkarðu gagnalíkansliðina **Set2** og **Set2.Details**. Bindingin **Upplýsingar: Færslulisti = Upplýsingar** gefur til kynna **að hluturinn Set2.Details** sé bundinn við gagnagjafann **Upplýsingar** sem er skilgreindur sem gagnagjafi gerðarinnar **Samtenging**.
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set2Review.PNG)
+    ![Hönnunarsíða líkanavörpunar rafrænnar skýrslugerðar sem sýnir útvíkkuð Set2:Record atriði gagnalíkans](./media/GER-JoinDS-Set2Review.PNG)
 
     Hægt er að bæta gagnagjafanum **Join** við gagnaheimild með því að velja gagnagjafann **Aðgerðir\Join**:
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Hönnuðarsíðan líkanavörpunar rafrænnar skýrslugerðar, Join-gagnagjafagerð](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Veldu gagnagjafann **Upplýsingar**.
 3. Veldu **Breyta** í glugganum **Gagnagjafar**.
@@ -196,21 +196,21 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 
     Þetta snið er hannað til að fylla út myndaða textaskrá með nýrri línu fyrir hverja útgáfu skilgreiningar á rafrænni skýrslugerð (**Útgáfuröð**). Hver mynduð lína inniheldur heiti skilgreiningarveitu sem á núverandi skilgreiningu, heiti skilgreiningarinnar og útgáfu skilgreiningarinnar aðskilin með semikommum. Lokalínan í myndaðri skrá mun innihalda fjölda uppgötvaðra útgáfa af ER stillingum (**Yfirlit** röð).
 
-    ![Síða ER-sniðshönnuðar](./media/GER-JoinDS-FormatReview.PNG)
+    ![Hönnunarsíða rafræns skýrslugerðarsniðs, sniðsflipi](./media/GER-JoinDS-FormatReview.PNG)
 
     Gagnagjafarnir **Gögn** og **Yfirlit** eru notaðir til að fylla út upplýsingar um stillingarútgáfu á myndaðri skrá:
 
     - Upplýsingar úr gagnalíkaninu **Set1** eru notaðar þegar þú velur gagnagjafann **Nei** fyrir **Val** á keyrslutíma í notandaglugganum þegar ER-snið er notað.
     - Upplýsingar úr gagnalíkaninu **Set2** eru notaðar þegar þú velur gagnagjafann **Já** fyrir **Val** á keyrslutíma í notandaglugganum þegar ER-snið er notað.
 
-    ![Síða ER-sniðshönnuðar](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Hönnunarsíða rafræns skýrslugerðarsniðs, vörpunarflipi](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Veljið **Keyra**.
 10. Veldu í glugganum **Nei** í reitnum **Nota JOIN gagnagjafa**.
 11. Veljið **Í lagi**.
 12. Fara yfir myndaðar skrá.
 
-    ![ER notendagluggasíða](./media/GER-JoinDS-Set1Run.PNG)
+    ![Rafrænar skýrslufæribreytur mynduðu skrá án þess að nota JOIN-gagnagjafa](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Greindu framkvæmdarakningu fyrir ER snið
 
@@ -224,7 +224,7 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
     - **ERSolutionTable** hefur verið kallað eins oft og þú ert með stillingar útgáfu færslur í töflunni **ERSolutionVersionTable**, meðan fjölda slíkra kallana gæti fækkað á tímum til að bæta árangur.
     - **ERVendorTable** hefur verið kallað tvisvar fyrir hverja skilgreiningarútgáfu skráa sem var uppgötvuð í töflunni **ERSolutionVersionTable**, meðan einnig væri hægt að fækka fjölda slíkra kallana.
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Tölfræði framkvæmdar á hönnunarsíðu líkanavörpunar rafrænnar skýrslugerðar](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Lokið síðunni.
 
@@ -236,7 +236,7 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 4. Veljið **Í lagi**.
 5. Fara yfir myndaðar skrá.
 
-    ![ER notendagluggasíða](./media/GER-JoinDS-Set2Run.PNG)
+    ![Rafrænar skýrslufæribreytur mynduðu skrá með því að nota JOIN-gagnagjafa](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Greindu framkvæmdarakningu fyrir ER snið
 
@@ -249,11 +249,11 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 
     - Gagnasafn forrita hefur verið kallað einu sinni til að fá skrár úr töflunum **ERVendorTable**, **ERSolutionTable** og **ERSolutionVersionTable** til að fá aðgang að áskildum reitum.
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Tölfræðiupplýsingar um afköst á hönnunarsíðu líkanavörpunar rafrænnar skýrslugerðar](./media/GER-JoinDS-Set2Run2.PNG)
 
     - Forritagagnagrunnur hefur verið kallaður einu sinni til að reikna út fjölda stillingarútgáfa með því að nota sameiningar sem voru stilltar í gagnagjafanum **Upplýsingar**.
 
-    ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Hönnunarsíða líkanavörpunar rafrænnar skýrslugerðar sem sýnir köll í gagnagrunn forrits](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Takmarkanir
 

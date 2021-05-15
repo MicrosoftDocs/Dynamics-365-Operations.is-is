@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799854"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936657"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
@@ -43,7 +43,7 @@ Til að kveikja á eiginleika rafrænna B2B-viðskiptamöguleika í Commerce Hea
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Búa til númeraröð og bæta henni við samnýttar viðskiptafæribreytur
 
-Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja. Nánari upplýsingar um númeraraðir er að finna í [Yfirlit númeraraða](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja. Nánari upplýsingar um númeraraðir er að finna í [Yfirlit númeraraða](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Til að búa til númeraröð og bæta henni við samnýttar viðskiptafæribreytur í Commerce Headquarters skal fylgja þessum skrefum.
 
@@ -136,7 +136,7 @@ Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgj
 
 [Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði](quantity-limits.md)
 
-[Yfirlit númeraraða](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Yfirlit númeraraða](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

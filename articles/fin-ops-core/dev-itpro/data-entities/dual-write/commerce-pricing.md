@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751435"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941167"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Notið Dynamics 365 Commerce-verðlagningarkerfi ásamt Dynamics 365 Sales
 
@@ -31,7 +31,7 @@ ms.locfileid: "5751435"
 
 Dynamics 365 Commerce -Verðlagningarvélin styður flestar aðstæður smásöluviðskipta til neytanda (B2C), svo sem verðlagningu á verslunarstigi, verðlagningar miðað við tengsl og vildarverð, blönduðum afslætti, magnafslætti og þröskuldarafslætti. Verðlagningarvélin notar flóknar reglur til að ákvarða besta verðið fyrir tiltekið tilboð eða pöntun.
 
-Þegar þú notar [Tvöfalda skráningu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) eru þrír valmöguleikar fyrir verðþarfir. Hægt er að nota fasta verðlagningu sem kemur úr verðlistanum í Dynamics 365 Sales, verðlagningarvélinni í Dynamics 365 Supply Chain Management eða verðlagningarvélinni í Dynamics 365 Commerce. Á meðal þessara valkosta hentar Commerce-verðlagningarvélin best fyrir B2C-aðstæður.
+Þegar þú notar [Tvöfalda skráningu](./dual-write-overview.md) eru þrír valmöguleikar fyrir verðþarfir. Hægt er að nota fasta verðlagningu sem kemur úr verðlistanum í Dynamics 365 Sales, verðlagningarvélinni í Dynamics 365 Supply Chain Management eða verðlagningarvélinni í Dynamics 365 Commerce. Á meðal þessara valkosta hentar Commerce-verðlagningarvélin best fyrir B2C-aðstæður.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Nota Commerce-vélverðlagningarvélina við sölu
 
@@ -42,7 +42,7 @@ Dynamics 365 Commerce -Verðlagningarvélin styður flestar aðstæður smásöl
 
 ## <a name="prerequisites"></a>Forkröfur
 
-- Áður en hægt er að nota Commerce-verðlagningarvél í sölu þarf að fylgja skrefunum í [Viðfang til sjóðstreymis við tvöfalda skráningu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
+- Áður en hægt er að nota Commerce-verðlagningarvél í sölu þarf að fylgja skrefunum í [Viðfang til sjóðstreymis við tvöfalda skráningu](./dual-write-prospect-to-cash.md).
 - Þú verður að slökkva á mati verðsamnings fyrir handvirkan innslátt með því að fylgja þessum skrefum:
 
     1. Í Commerce umhverfinu skal fara í **Viðskiptakröfur \> Uppsetning \> Færibreytur viðskiptakröfu**.
@@ -50,7 +50,7 @@ Dynamics 365 Commerce -Verðlagningarvélin styður flestar aðstæður smásöl
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Viðfang til sjóðstreymis í tvískiptingu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Viðfang til sjóðstreymis í tvískiptingu](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

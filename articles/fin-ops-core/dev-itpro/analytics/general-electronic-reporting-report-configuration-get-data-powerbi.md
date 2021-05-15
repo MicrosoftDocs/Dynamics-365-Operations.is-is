@@ -2,7 +2,7 @@
 title: Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
 description: Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilvikinu til Power BI-þjónustu.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750083"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944438"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
 
@@ -68,10 +68,10 @@ Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðg
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Nota skal gagnalíkan rafrænnar skýrslugerðar sem uppruna gagna.
 Nota skal gagnalíkan rafrænnar skýrslugerðar sem uppruna gagna sem verður notaður í Power BI-skýrslur. Þessi gagnalíkan er hlaðið upp úr skilgreiningagagnasafni rafrænnar skýrslugerðar. Nánari upplýsingar, sjá [Sækja skilgreiningar rafrænnar skýrslugerðar frá Lifecycle Services](download-electronic-reporting-configuration-lcs.md), eða spila **Rafræn skýrslugerð flytja inn skilgreiningu úr Lifecycle Services** leiðarvísi fyrir verk. Veljið **Intrastat** sem gagnalíkan sem hlaðið verður upp úr valinni skilgreiningagagnasafni rafrænnar skýrslugerðar. (Í þessu dæmi er útgáfa 1 af líkaninu notuð.) Svo er hægt að fara á **Intrastat** skilgreiningu líkans fyrir rafræna skýrslugerð á síðunni **Skilgreiningar**.
 
-[![Skilgreiningasíða](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Intrastat skilgreiningarlíkan rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Hanna skilgreiningu fyrir snið rafrænnar skýrslugerðar
-Þú þarft að stofna nýtt skilgreiningu sniðs rafrænnar skýrslugerðar sem notar **Intrastat** gagnalíkan sem gagnagjafi viðskiptagagna. Þessa sniðsskilgreiningu verður að mynda niðurstöður úttaks sem rafræn skjöl á OpenXML (Excel-skrá) sniði. Til að fá frekari upplýsingar skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk. Nefndu nýja skilgreiningu **aðgerðir Innflutnings / útflutnings**, eins og sýnt er í eftirfarandi dæmi. Notaðu [gögn rafrænnar skýrslugerðar - upplýsingar um innflutning og útflutning](https://go.microsoft.com/fwlink/?linkid=845208) Excel-skrá sem sniðmát þegar sniðið rafrænnar skýrslugerðar er hönnuð. (Upplýsingar um hvernig á að flytja inn sniðmát sniðs, spila leiðarvísi fyrir verk.)
+Þú þarft að stofna nýtt skilgreiningu sniðs rafrænnar skýrslugerðar sem notar **Intrastat** gagnalíkan sem gagnagjafi viðskiptagagna. Þessa sniðsskilgreiningu verður að mynda niðurstöður úttaks sem rafræn skjöl á OpenXML (Excel-skrá) sniði. Til að fá frekari upplýsingar skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk. Nefndu nýja skilgreiningu **aðgerðir Innflutnings / útflutnings**, eins og sýnt er í eftirfarandi dæmi. Notaðu [gögn rafrænnar skýrslugerðar - upplýsingar um innflutning og útflutning](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) Excel-skrá sem sniðmát þegar sniðið rafrænnar skýrslugerðar er hönnuð. (Upplýsingar um hvernig á að flytja inn sniðmát sniðs, spila leiðarvísi fyrir verk.)
 
 [![Skilgreining á aðgerðum innflutnings/útflutnings](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 1. Á síðunni **Skilgreiningar** (**Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð** &gt; **Skilgreiningar**), í grunnstillingatrénu, skal velja skilgreininguna **Aðgerðir innflutnings/útflutnings** sem stofnuð var áður.
 2. Breyta stöðu útgáfu 1.1 úr **Drög** að **Lokið** til að gera þessi snið tiltækar.
 
-    [![Skilgreiningasíða](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Skilgreining inn-/útflutningsaðgerða á skilgreiningarsíðunni](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Veljið lokna útgáfu skilgreiningarinnar **aðgerðir Innflutnings / útflutnings** og smelltu svo á **Keyra**. Athugið að skilgreindur áfangastaður notaður fyrir niðurstöður úttaks sem er mynduð í Excel-sniði.
 4. Setja **runuvinnslu** valkosturinn að **Já** til að keyra þessa skýrslu í fjarveruham.
@@ -187,11 +187,11 @@ Setja upp samþættingu við Power BI. Nánari upplýsingar, sjá [Skilgreina sa
 2. Velja skal **Upplýsingar um Innflutning og útflutning** Power BI skýrsluna sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu.
 3. Smellt er á vöru til að opna síðuna sem sýnir skýrslan sem þú hannaðir í Power BI.
 
-    [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Skýrsla með upplýsingum um innflutning og útflutning hönnuð í Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
+[Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 

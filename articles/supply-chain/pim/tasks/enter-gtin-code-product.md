@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818062"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921390"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Færa inn GTIN-kóða fyrir afurð
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818062"
 
 Gtin-kóðum er úthlutað af hálfu GS1-fyrirtækisins. Í þessu dæmi, verður að færa inn kóða fyrir afurðarnúmer M0001 í sýnigagnafyrirtækinu USMF.
 
-1. Smellið á Viðhald útgefinnar afurðar.
-2. Smella á Útgefnar afurðir.
-3. Útvíkka Upplýsingakassa mynd Afurðar.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Á Aðgerðasvæðinu skal smella á Stjórna birgðum.
-6. Smelltu á gtin-kóða.
-7. Smellt er á Nýtt.
-8. Í listanum skal merkja valda línu.
-9. Í reitinn eining skal slá inn eða velja gildi.
-10. Veljið valkost í reitnum GTIN-kóði.
-11. Í reitinn GTIN skal slá inn gildi.
-12. Lokið síðunni.
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Útvíkka reitinn **Mynd afurðar**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+1. Á Aðgerðasvæðinu skal velja **Stjórna birgðum.**
+1. Veljið **GTIN kóðar**.
+1. Veljið **Nýtt**.
+1. Í listanum skal merkja valda línu.
+1. Í reitinn **Eining** skal slá inn eða velja gildi.
+1. Veljið valkost í reitnum **GTIN-kóðar**.
+1. Í **GTIN-reitinn** skal slá inn gildi.
+1. Lokið síðunni.
 
 
 

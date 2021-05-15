@@ -2,7 +2,7 @@
 title: Gæðastjórnun fyrir vöruhúsaferli
 description: Þetta efnisatriði veitir upplýsingar um gæðastjórnun fyrir eiginleika vöruhúsaferlis. Þessi eiginleiki eykur getu gæðastjórnunar og gerir notendum kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834266"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956083"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -620,5 +620,8 @@ Starfsmenn í vöruhúsi geta nú tekið til gæðapöntunarverk með því að 
 > [!NOTE]
 > Hugleiddu að bæta færslu gæðaskoðunar á útleið við valmyndaratriði fartækis þar sem virkjunarkóðinn er *Sýna opinn verkefnalisti*. Sjá til dæmis valmyndaratriði fartækis sem kallast **Verkefnalisti** í sýnigögnum. Bættu fyrst vinnuklasanum *Gæðapöntun* við notandamiðað valmyndaratriði því að þessi vinnuklasi nauðsynlegur til að vinna birtist í verkefnalistanum. Bættu síðan vinnuklasanum *Gæðapöntun* við valmyndaratriðið **Verkefnalisti**. Notendur sem hafa aðgang að verkefnalistanum geta þá tekið til og unnið úr verkinu sem er sjálfkrafa búið til af staðfestingu gæðapöntunar.
 
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Stjórnunaryfirlit gæða og ósamkvæmni](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

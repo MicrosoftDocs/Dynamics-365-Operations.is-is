@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b75743a64fef53f79159a1476c99a7035b7e4f3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839174"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920086"
 ---
 # <a name="rebate-management-deals"></a>Tilboð fyrir stjórnun eftirágreidds afsláttar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Tilboð vegna stjórnunar eftirágreidds afsláttar eru notuð til að stjórna mismunandi aðferðum og grunnum til að reikna út eftirágreiddan afslátt og afnotagreiðslur. Þau fela í sér reglur um það sem er innifalið og ekki innifalið. Til eru þrjár gerðir tilboða fyrir stjórnun eftirágreidds afsláttar: eftirágreiddir afslættir viðskiptavinar, afnotagreiðslur viðskiptavinar og eftirágreiddir afslættir lánardrottins. Allar þrjár gerðirnar nota svipaðar stillingar. Þetta efnisatriði sýniur mismun þar sem hann er til staðar.
 

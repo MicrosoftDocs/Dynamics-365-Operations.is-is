@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b87b411ed24f89a674ec3fb7ac44d3ab1d8a720a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2cb9e33d7bab6ca9cd378ec40baa796d1a933ece
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819987"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921366"
 ---
 # <a name="create-a-product-configuration-model"></a>Stofna afbrigðalíkan afurðar
 
@@ -28,57 +28,59 @@ ms.locfileid: "5819987"
 
 
 ## <a name="create-a-product-model"></a>Stofna framleiðslulíkan
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smella á Afbrigðalíkan afurðar
-3. Smellt er á Nýtt.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Sláið inn gildi í reitnum „Lýsing“.
-6. Í reitnum Stefna leysis skal velja valkost.
+
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Heiti** skal slá inn gildi.
+1. Í reitinn **Lýsing** skal slá inn gildi.
+1. Í reitnum **Stefna leysis** skal velja valkost.
     * Leysisstefnu ákvarðar hvernig skorður í afbrigðalíkani afurðar sem byggir á skorðum eru unnar. Þetta val getur haft áhrif á afköst afbrigðalíkan afurðar.  
-7. Í reitinn Heiti skal slá inn gildi.
+1. Í reitinn **Heiti** skal slá inn gildi.
     * Rótaríhlutur stendur fyrir afbrigðalíkan afurðar, en einnig er hægt að nota það í öðrum vörulíkan.  
-8. Smellið á „Í lagi“.
-9. Veljið valkost í svæðinu skilgreiningar Endurnýtingu .
+1. Veljið **Í lagi**.
+1. Veljið valkost í svæðinu **Endurnota skilgreiningar**.
     * Ef færibreytan endurnýtingu skilgreiningar er stillt á Já, mun kerfið leita að eins skilgreiningar eftir hverja stillingarlotu og nota aftur ef nákvæm samsvörun finnst.  
 
 ## <a name="add-attributes"></a>Bæta við eigindum
-1. Útvíkka hlutann eigindir.
-2. Smelltu á Bæta við.
+
+1. Stækka hlutann **Eigindir**.
+2. Veljið **Bæta við**.
 3. Í listanum skal merkja valda línu.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Í reitinn Heiti leysis skal slá inn gildi.
+4. Í reitinn **Heiti** skal slá inn gildi.
+5. Í reitinn **Heiti leysis** skal slá inn gildi.
     * Heiti Leysara er notaður af skorðu leysara afurðaafbrigðastillis. Hún má ekki innihalda bil eða sérstafir nema _ (undirstriki).  
-6. Sláið inn gildi í reitnum „Lýsing“.
+6. Í reitinn **Lýsing** skal slá inn gildi.
     * Texti lýsingar birtist notandanum skilgreiningu og þar af leiðandi getur þjónað sem hjálp í að velja rétt gildi eigindar.  
-7. Færa inn eða veljið gildi í svæðinu gerð eigindar.
+7. Færa inn eða veljið gildi í svæðinu **Gerð eigindar**.
     * Gerð eigindar ákvarðar hvaða gildi eru tiltæk fyrir eigindina.  
-8. Velja skal gátreit Taka í endurnýtingu .
+8. Veljið gátreitinn **Taka í endurnýtingu**.
     * Þessi valkostur er aðeins tiltækur þegar valkosturinn Endurnýtingu skilgreininga er valin. Að hafa eigind með í gátreit Endurnýta þýðir að þessi eigind verður athuguð þegar kerfið leitar að nákvæm samsvörun.  
 
 ## <a name="add-subcomponents"></a>Bæta við undiríhlutir
-1. Stækkaðu hlutann undiríhlutir.
-2. Smelltu á Bæta við.
+
+1. Stækkaðu hlutann **Undiríhlutir**.
+2. Veljið **Bæta við**.
 3. Í listanum skal merkja valda línu.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Í reitinn Heiti leysis skal slá inn gildi.
-6. Sláið inn gildi í reitnum „Lýsing“.
-7. Færa inn eða veljið gildi í svæðinu íhlutur.
+4. Í reitinn **Heiti** skal slá inn gildi.
+5. Í reitinn **Heiti leysis** skal slá inn gildi.
+6. Í reitinn **Lýsing** skal slá inn gildi.
+7. Færa inn eða veljið gildi í svæðinu **Íhlutur**.
     * Hver undirþáttagerð verður að vísa í íhlutarskilgreiningu. Þessi hönnun styður endurnýtanlegu íhluti og tryggir að þegar íhlutur hefur verið skilgreint er hægt að nota í mörg framleiðslulíkön.  
-8. Smellið á „Vista“.
-9. Smellt er á uppskriftarlínuupplýsingar.
+8. Veljið **Vista**.
+9. Veljið **Upplýsingar um uppskriftarlínu**.
     * Upplýsingar um uppskriftalínuskjámyndina gera notandanum kleift að velja viðeigandi eiginleika fyrir undiríhlutina. Hægt er að gefa hverjum eiginleika fast gildi eða varpa honum á eigind. Að varpa á eigind leiðir til að Uppskrift línueiginleika fær mismunandi gildi eftir því hvað var valið í skilgreiningarhlutanum.  
-10. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
+10. Í reitinn **Vörunúmer** skal slá inn eða velja gildi.
     * Hver undirþáttagerð táknar skilgreinanleg afurðarsniðmát með skorðuskilgreiningartækni. Tilvísun er gerð með vörunúmeri.  
-11. Veljið gátreitinn stilla.
-12. Velja skal Já í Útreiknings reitnum.
+11. Veljið gátreitinn **Stilla**.
+12. Velja skal **Já** í reitnum **Útreikningur**.
     * Stilla valkost útreiknings tryggir að afurðin verða teknar með við útreikning kostnaðar fyrir afurðina.  
-13. Smellið á flipann „Setja upp“.
-14. Veljið gátreitinn stilla.
-15. Færið inn númer í reitnum „Magn“.
+13. Veljið flipann **Uppsetning**.
+14. Veljið gátreitinn **Stilla**.
+15. Í reitnum **Magn** slærðu inn tölu.
     * Magn svæðið ákvarðar hversu mikið þessarar afurðar verður að nota í skilgreindu vörunni.  
-16. Veljið gátreitinn stilla.
-17. Í reitinn Á röð skal slá inn númer.
-18. Smellið á „Í lagi“.
+16. Veljið gátreitinn **Stilla**.
+17. Í reitinn **Á raðir** skal slá inn númer.
+18. Veljið **Í lagi**.
 
 
 

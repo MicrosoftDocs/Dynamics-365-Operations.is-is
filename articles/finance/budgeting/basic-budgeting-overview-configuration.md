@@ -1,8 +1,8 @@
 ---
 title: Yfirlit fjárhagsáætlunar
 description: Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Finance and Operations eða hlaða þeim inn úr forriti óháðs aðila.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827459"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960050"
 ---
 # <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
@@ -71,7 +71,7 @@ Virkni sem kynnt var í Microsoft Dynamics 365 Finance útgáfu 10.0.7 (janúar 
 
 Eina aðgerð **Færslur í fjárhagsskrá fyrir magn** gerir þér kleift að birta færslu í fjárhagsáætlunarskrá með upphæðum sem eingöngu eru magn. Til dæmis gætirðu bókað fjárhagsáætlunarfærslu með magninu 32 og verðinu núll, sem skilar sér í upphæðinni núll. Síðan geturðu notað þetta magn í tengslum við fjárhagsskýrslu til að ákvarða verð á magni. Athugaðu að engar fyrirspurnir eða skýrslur voru uppfærðar sem hluti af þessum eiginleika; aðgerðin gerir þér aðeins kleift að bóka upphæðina núll.
 
-Eiginleikinn **Færslur í fjárhagsáætlunarskrá sem eru í vanskilum af fjárhæðargerð** gerir kleift að sjálfgefna upphæðargerðin í færslu í fjárhagsáætlunarskrá sé önnur upphæðargerð en kostnaður. Færslulínan í fjárhagsáætlunarskránni verður núna sjálfkrafa kostnaður þegar aðalreikningagerðin er kostnaður; verður sjálfkrafa tekjur þegar aðalreikningsgerðin er kostnaður; og verður sjálfkrafa kostnaður fyrir allar aðrar lyklagerðir.
+Eiginleikinn **Færslur í fjárhagsáætlunarskrá sem eru í vanskilum af fjárhæðargerð** gerir kleift að sjálfgefna upphæðargerðin í færslu í fjárhagsáætlunarskrá sé önnur upphæðargerð en kostnaður. Færslulínan í fjárhagsáætlunarskránni verður núna sjálfkrafa kostnaður þegar aðallykilgerðin er kostnaður; hún verður sjálfkrafa tekjur þegar aðallykilgerðin er tekjur; og hún verður sjálfkrafa kostnaður fyrir allar aðrar lyklagerðir.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Nota vinnusvæði og fyrirspurnarsíður til að rekja fjárhagsáætlun samanborið við rauntölur
 Fjárhagsáætlunarstjóri getur farið yfir gildandi stöðu í fjárhagsáætlunar í vinnusvæðinu **Fjárhagsáætlanir og spár**. Fliparnir **Kostnaður yfir fjárhagsáætlun** og **Tekjur undir fjárhagsáætlun** veita fljótlegt yfirlit yfir samsetningar fjárhagsvídda þar sem markmið fjárhagsáætlunar nást ekki eða eru að nálgast þröskuld. Hægt er að sérsníða þröskuldsprósenta fjárhagsáætlunar og fjárhagsvíddasamstæður sem notaðir eru á þessum flipa með því að smella **Grunnstilla eigin vinnusvæði**. Hægt er að smella á **Stjórnendur eininga** til að sjá starfsmenn sem bera ábyrgð á tiltekinum samsetningum fjárhagsvíddar sem valdar eru á þessum flipum. Til dæmis, ef þú sérð að kostnaðaráætlun Aðgerðadeildar mun yfir þröskuld fjárhagsáætlunar, er auðveldlega hægt að finna og hafa samband við rekstrarstjóra deildar til að fjalla um vandamálið. 

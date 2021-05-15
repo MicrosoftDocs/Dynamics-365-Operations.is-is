@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8935213c4629de408a48df5e54a2122324e1b3e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fbfb754459fad1f3b1509f4f9c65c20e0385b013
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823933"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944714"
 ---
 # <a name="reclassify-fixed-assets"></a>Endurflokka eignir
 
@@ -27,11 +27,25 @@ Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að ú
 
 Þegar eign er endurflokkuð:
 
-* Allar bækur fyrirliggjandi eigna eru stofnaðar fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða bókanna fyrir upprunalegu eignina er Lokað. 
+- Allar bækur fyrirliggjandi eigna eru stofnaðar fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða bókanna fyrir upprunalegu eignina er Lokað. 
 
-* Nýju bækur nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í reitnum **Kaupdagsetning**. Dagsetningin í svæði **Dagsetning afskriftarkeyrslu** er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið **Dagsetningin þegar afskriftir voru síðast keyrðar** dagsetningu endurflokkunarinnar. 
+- Nýju bækur nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í reitnum **Kaupdagsetning**. Dagsetningin í svæði **Dagsetning afskriftarkeyrslu** er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið **Dagsetningin þegar afskriftir voru síðast keyrðar** dagsetningu endurflokkunarinnar. 
 
-* Hætt er við fyrirliggjandi eignafærslur upprunalegu eignarinnar og þær myndaðar aftur fyrir nýju eignina.
+- Hætt er við fyrirliggjandi eignafærslur upprunalegu eignarinnar og þær myndaðar aftur fyrir nýju eignina.
+
+- Þegar eign með færslu hefur verið endurflokkuð birtir kerfið skilaboð í **aðgerðamiðstöðinni** um að millifærslu hafi ekki verið lokið meðan á endurflokkunarferlinu stóð. Nauðsynlegt er að ljúka flutningsfærslu til að færa fyrirliggjandi endurflokkunarfærslu í viðeigandi fjárhagsvídd. 
+
+   Meðan á endurflokkunarferlinu stendur keyrir kerfið eftirfarandi aðgerðir til að endurflokka eignastöðuna frá upprunalegu eigninni yfir á nýju eignina. 
+   
+   - Endurflokkunarferlið afritar gögnin úr upprunalegu eignabókinni í nýju eignabókina.
+
+   - Í endurflokkunarfærslunni eru notaðar upplýsingar úr upprunalegu bókuðu kaupunum sem innihalda upplýsingar um fjárhagsvídd sem eru innifaldar í eignaflutningsfærslunni.  
+   
+   - Á sama tíma snýr endurflokkunarferlið við upphaflegu eignakaupunum og eignaflutningsfærslunni. 
+
+Eftirfarandi mynd og aðferð gefur dæmi um endurflokkunarferlið. 
+
+[![Mynd sem sýnir endurflokkunarferlið](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Fylgið þessum skrefum til að endurflokka eign:
 
@@ -42,7 +56,7 @@ Fylgið þessum skrefum til að endurflokka eign:
     * Ef nýr eignaflokkur er festur við númeraröð er svæði **Nýtt eignanúmer** uppfærður með númer úr númeraröð nýtt eignaflokkur. Annars er svæðið **Nýtt eignanúmer** uppfært með númeri úr númeraröð sem er sett upp á síðunni **Færibreytur eigna**. Ef númeraröð er ekki sett upp á síðunni **Færibreytur eigna** skal slá inn númerið í svæðinu **Nýtt eignanúmer**.  
 5. Í svæði **Dagsetning endurflokkunar** skal slá inn dagsetning.
 6. Í reitinn **fylgiskjalaruna** skal slá inn eða velja gildi.
-7. Smellt er á **OK**.
+7. Veljið **Í lagi**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

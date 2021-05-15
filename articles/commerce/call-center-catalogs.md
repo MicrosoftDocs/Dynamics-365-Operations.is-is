@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799650"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936883"
 ---
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
@@ -39,7 +39,7 @@ Markaðsfyrirtæki sem selja beint til neytenda eru mjög upptekin af því að 
 
 Farðu í **Retail og Commerce** \> **Vörulistar og vöruúrval** \> **Allir vörulistar** til að grunnstilla vörulistann þinn.
 
-Þegar þú býrð til nýjan vörulista þarftu fyrst að tengja vörulistann við einn eða fleiri sölurásir. Þetta er gert í **Commerce rásir** flýtiflipanum á **Uppsetning vörulista** skjámyndinni. Smella á **Bæta við** og velja einn eða fleiri sölurásir. Aðeins er hægt að nota vörur sem tengjast [vöruúrval](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) völdu rásarinnar þinnar þegar þú býrð til vörulistann.
+Þegar þú býrð til nýjan vörulista þarftu fyrst að tengja vörulistann við einn eða fleiri sölurásir. Þetta er gert í **Commerce rásir** flýtiflipanum á **Uppsetning vörulista** skjámyndinni. Smella á **Bæta við** og velja einn eða fleiri sölurásir. Aðeins er hægt að nota vörur sem tengjast [vöruúrval](/dynamics365/unified-operations/retail/assortments) völdu rásarinnar þinnar þegar þú býrð til vörulistann.
 
 Til að bæta vöru við vörulista þarf yfirlitsstigveldi að vera valið. Yfirlitsstigveldið mun styðja við skipan flokkanna fyrir vörulistann. Þú verður að velja úr einu af yfirlitsstigveldunum sem tengjast smásölurásunum sem eru valdar á flýtiflipanum **Commerce-sölurás** á síðunni **Vörulisti**. Ef yfirlitsrás var ekki tengd við rás áður skal fara í **Retail og Commerce** \> **Rásaruppsetning** \> **Rásarflokkar og afurðareigindir** til að tengja sjálfgildi yfirlitsstigveldis við sérhverja sölurás þína.
 

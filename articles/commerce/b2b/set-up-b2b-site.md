@@ -2,7 +2,8 @@
 title: Setja upp B2B svæði fyrir rafræn viðskipti
 description: Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu (tenging á milli fyrirtækja) á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799758"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937507"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Setja upp B2B svæði fyrir rafræn viðskipti
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstilla verkflæði fyrir B2B-notendur. Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce. Það fer í gegnum einingar og stillingar svæða sem þarf að skilgreina til að virkja aðstæður sem tengjast B2B.
 
@@ -283,9 +285,35 @@ Til að búa til upplýsingasíðu reiknings í svæðissmið skal fylgja þessu
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
 1. Birtið vefslóð fyrir síðuna.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Bæta einingu hraðviðbótar við körfusíðuna
+
+Eining hraðviðbótar býður upp á leið til að bæta mörgum vörum strax við körfuna með því að nota vörukennin (einnig þekkt sem birgðahaldseining \[SKU\] kenni). Eining hraðviðbótar er bætt við körfusíðu svæðis.
+
+Fylgja skal eftirfarandi skrefum til að bæta einingu hraðviðbótar við vefsmið Commerce.
+
+1. Opnið **Sniðmát** og veljið sniðmát fyrir körfusíðu vefsvæðisins.
+1. Veljið **Breyta**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Bæta við einingu** er einingin **Hraðviðbót** valin og síðan **Í lagi**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Opnaðu **Síður** og veldu körfusíðu vefsvæðisins þíns.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Í eiginleikaglugganum fyrir eininguna **Hólf**, undir **Breidd**, skal velja **Fylla hólf**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Bæta við einingu** er einingin **Hraðviðbót** valin og síðan **Í lagi**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
+
+> [!NOTE] 
+> Hraðviðbótareiningin er í boði frá og með Commerce útgáfu 10.0.17. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit einingasafns](../starter-kit-overview.md)
+
+[Uppfærslur á SDK og einingasafni](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Síðuyfirlit höfunda](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Til að búa til upplýsingasíðu reiknings í svæðissmið skal fylgja þessu
 
 [Eining fyrir bálk með efni](../add-hero-module.md)
 
-[Vörusafn](../product-collection-module-overview.md)
+[Afurðasafnseining](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

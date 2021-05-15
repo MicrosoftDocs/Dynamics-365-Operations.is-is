@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797258"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936805"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Stjórna eigindum og eigindaflokkum
 
@@ -101,7 +101,7 @@ Hér eru eftirstandandi valkostir fyrir lýsigögn eiginda á síðunni **Eigind
 
 Þessum valkostum var upphaflega ætlað að bæta leitarvirknina fyrir netverslunina. Þó að Commerce feli ekki í sér netverslun beint úr kassanum, þá felur það í sér eCommerce Publishing Software Development Kit (SDK). Viðskiptavinir geta notað SDK til að setja afurðir inn í leitaratriðaskrá að eigin vali. Þótt afurðargögnin séu flutt inn ætti viðskiptavinurinn samt að geta greint leitanleg gögn, gögn sem hægt er að spyrjast fyrir um og svo framvegis. Þannig geta þeir byggt upp sem hagkvæmasta atriðaskrá til að tryggja að þeir vísi aðeins í eigindir sem *að þeirra mati* ættu að vera atriðaskráðar.
 
-Til að fá upplýsingar um tilgang hinna valkostanna, sjá [Yfirlit yfir leitarskema í SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+Til að fá upplýsingar um tilgang hinna valkostanna, sjá [Yfirlit yfir leitarskema í SharePoint Server 2013](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Síustillingar fyrir eigindir
 

@@ -2,7 +2,7 @@
 title: Stjórnunarhlutar rafrænna reikninga
 description: Í þessu efnisatriði er að finna upplýsingar um hlutana sem tengjast stjórnun á rafrænni reikningsfærslu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840029"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963192"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Stjórnunarhlutar rafrænna reikninga
 
@@ -85,12 +85,14 @@ Hægt er að stjórna þjónustuumhverfum í gegnum stöðuna. Mögulegir valkos
 Rafræn reikningsfærsluþjónusta ber ábyrgð á því að geyma öll viðskiptagögn í Azure-tilföngum sem fyrirtækið á. Til að tryggja að þjónustan virki rétt og að öll viðskiptagögnin sem þarf fyrir og eru búin til af rafrænni reikningsfærslu er aðeins opnuð af viðbótinni, þarf að stofna tvö aðaltilföng Azure:
 
 - Azure-geymslureikningur (Blob-geymsla) sem geymir rafræna reikninga
-- Azure-lyklageymsla sem geymir vottorð og URI geymslureikningsins
+- Azure-lyklageymsla sem geymir vottorð og URI geymslureikningsins.
 
-> [!NOTE]
-> Úthluta verður tiltekinni lyklageymslu viðskiptavinar sem er sérstaklega notað með rafrænni reikningsfærslu.
 
-Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
+Úthluta þarf sérstakri lyklageymslu og geymslureikningi viðskiptavinar sérstaklega til að nota með rafrænni reikningsfærslu. Frekari upplýsingar er að finna í [Stofna Azure-geymslureikning og lyklageymslu](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Til að fylgjast með ástandi lyklageymslunnar og fá tilkynningar skal skilgreina Azure Monitor fyrir lyklageymslu. Með því að virkja innskráningu lyklageymslu er hægt að fylgjast með hvernig, hvenær og hver opnar lyklageymsluna. Frekari upplýsingar er að finna í [Fylgjast með Azure-lyklageymslu og senda út tilkynningar](/azure/key-vault/general/alert) og [Hvernig á að virkja innskráningu lyklageymslu](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Best er að breyta leynilyklunum með reglulegu millibili. Frekari upplýsingar er að finna í [Fylgigögn leynilykla](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Notendur
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817678"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951960"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 
@@ -62,7 +62,7 @@ ms.locfileid: "5817678"
 
 ## <a name="process-rebate-claims"></a>Vinna úr kröfur um eftirágreiddan afslátt
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala- og markaðssetning > Eftirágreiddir afslættir > Eftirágreiddur afsláttur**.
-    - síða Eftirágreiddir Afslættir þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna kröfur um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin US-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF-000001 .   
+    - Síða eftirágreiddra afslátta þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna úr kröfum um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin US-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF-000001 .   
     - Fyrsta lína stendur fyrir kröfu um eftirágreiddan afslátt fyrir 800 USD sem er byggð á sölu 40 eininga afurðar T0020, reiknaður sem 20 USD á hverja einingu. Þetta uppfyllir skilyrði fyrir fyrsta hlé í magni í samning um eftirágreiddan afslátt.  
     - Önnur kröfu er fyrir 2,400 USD sem er byggð á sölu 60 eininga afurðar T0020 reiknaður 40 USD á hverja einingu samkvæmt seinni hlé í magni í samningnum.  
     - Báðar kröfurnar eru í stöðunni „Til útreiknings”. Þetta þýðir að þær séu tengd við samning sem rekur afköst í sölu viðskiptavinar með reglulegu millibili og að þær verða að vera reiknuð aftur á lykil fyrir sölu umfang heildarsölu innan viðkomandi tímabils.   

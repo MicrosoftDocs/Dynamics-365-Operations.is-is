@@ -2,7 +2,7 @@
 title: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með rafrænni reikningsfærslu fyrir Egyptaland í Finance and Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: abae35db7e37e65950c05c8e21b8e8555edbf3be
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840197"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920782"
 ---
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Egyptaland. Efnisatriðið leiðir þig í gegnum skilgreiningarskrefi sem eru landsmiðuð í Regulatory Configuration Services (RCS) og bætast ofan á skrefin sem lýst er í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
 

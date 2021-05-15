@@ -2,7 +2,8 @@
 title: Nota birgðastillingar
 description: Í efnisatriði er fjallað um birgðastillingar og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b2c44eb5ece74de15e22180abc6d9d0448ab401b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dd3db0039525c18521ad6a42b2f281976b7b236a
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798890"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937411"
 ---
 # <a name="apply-inventory-settings"></a>Nota birgðastillingar
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Í efnisatriði er fjallað um birgðastillingar og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
 
@@ -39,12 +41,17 @@ Dynamics 365 Commerce leggur mat á lagerstöðu fyrir afurðir. Upplýsingar um
 
 ## <a name="inventory-settings"></a>Birgðastillingar
 
-Í Commerce eru birgðastillingar skilgreindar í **Stillingar svæðis \> Viðbætur \> Birgðastjórnun** í svæðissmið. Til eru fjórar birgðastillingar en ein þeirra er úreld:
+Í Commerce eru birgðastillingar skilgreindar í **Stillingar svæðis \> Viðbætur \> Birgðastjórnun** í svæðissmið. Til eru fimm birgðastillingar en ein þeirra er úreld:
 
 - **Virkja birgðaathugun í forriti** – Þessi stilling kveikir á birgðaathugun afurðar. Einingarnar kaupgluggi og sækja í verslun athuga þá birgðir afurðar og leyfa að afurð sé bætt í körfuna aðeins ef birgðir eru til staðar.
 - **Birgðastaða byggir á** – Þessi stilling skilgreinir hvernig birgðastöður eru reiknaðar. Tiltæk gildi eru **Samtals tiltækt**, **Efnislegt magn tiltækt** og **Þröskuldur fyrir ekki til á lager**. Í Commerce er hægt að skilgreina birgðaþröskuld og birgðabil fyrir hverja afurð og flokk. API-birgðir skila birgðaupplýsingum um afurð fyrir bæði eiginleikann **Samtals tiltækt** og **Efnislegt magn tiltækt**. Smásöluaðilinn ákveður hvort nota eigi **Samtals tiltækt** eða **Efnislegt magn tiltækt** til að ákvarða birgðatalninguna og samsvarandi bil fyrir „til á lager“ og „ekki til á lager“ stöðurnar.
 
     Gildið **Þröskuldur fyrir ekki til á lager** í stillingunni **Birgðastaða byggir á** er gamalt, úrelt gildi. Þegar það er valið er birgðatalningin ákvörðuð út frá niðurstöðum gildisins **Samtals tiltækt**, en þröskuldurinn er skilgreindur af talnastillingunni **Þröskuldur fyrir ekki til á lager** sem er útskýrð seinna. Þessi þröskuldsstilling á við um allar afurðir á svæði rafrænna viðskipta. Ef birgðir eru undir þröskuldstölunni er litið á að afurð sé ekki til á lager. Annars er það talið til á lager. Möguleikar gildisins **Þröskuldur fyrir ekki til á lager** eru takmarkaðir og ekki er mælt með því að það sé notað í útgáfu 10.0.12 eða síðar.
+
+- **Birgðastig fyrir mörg vöruhús** – Þessi stilling gerir kleift að reikna birgðastöðuna gagnvart sjálfgefnu vöruhúsi eða mörgum vöruhúsum. Valkosturinn **Byggt á einu vöruhúsi** mun reikna út birgðastöðuna út frá sjálfgefna vöruhúsinu. Einnig getur svæði rafrænna viðskipta bent á mörg vöruhús til að auðvelda uppfyllingu. Í því tilfelli er valkosturinn **Byggt á samtölu fyrir vöruhús sendingar og afhendingar** notaður til að gefa til kynna birgðaframboð. Til dæmis þegar viðskiptavinur kaupir vöru og velur „sendingu“ sem afhendingarmátann, varan getur verið send frá einhverju vöruhúsi í uppfyllingarflokknum sem er með birgðir á lausu. Upplýsingasíða afurðar (PDP) mun sýna skilaboðin „Á lager“ fyrir sendingu ef eitthvert vöruhús sendingar í uppfyllingarflokknum er með birgðir. 
+
+> [!IMPORTANT] 
+> Stillingin **Birgðastaða fyrir mörg vöruhús** er í boði frá og með Commerce-útgáfu 10.0.19. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Birgðasvið** – Þessi stilling skilgreinir birgðasviðin sem skilaboð eru sýnd fyrir í einingum svæðis. Það gildir aðeins ef annaðhvort gildið **Samtals tiltækt** eða gildið **Efnislegt magn tiltækt** er valið fyrir stillinguna **Birgðastaða byggist á**. Tiltæk gildi eru **Allt**, **Litlar birgðir og ekki til á lager** og **Ekki til á lager**.
 
@@ -61,15 +68,15 @@ Dynamics 365 Commerce leggur mat á lagerstöðu fyrir afurðir. Upplýsingar um
 
 Einingarnar kaupgluggi, óskalisti, verslunarval, karfa og körfutákn nota birgðastillingar til að sýna birgðasviðin og skilaboðin.
 
-Eftirfarandi mynd sýnir dæmi um upplýsingasíðu afurðar sem sýnir á lager („Tiltækt“) skilaboðin.
+Í dæminu á eftirfarandi mynd sýnir PDP lagerskilaboð („Tiltækt“).
 
 ![Dæmi um upplýsingasíðu afurðar sem er með skilaboðin á lager](./media/pdp-InStock.png)
 
-Eftirfarandi mynd sýnir dæmi um upplýsingasíðu afurðar sem sýnir „ekki til á lager“ skilaboðin.
+Í dæminu á eftirfarandi mynd sýnir PDP skilaboðin „Ekki til á lager“.
 
 ![Dæmi um upplýsingasíðu afurðar sem er með skilaboðin ekki til á lager](./media/pdp-outofstock.png)
 
-Eftirfarandi mynd sýnir dæmi um körfu sem sýnir skilaboðin til á lager („Tiltækt“).
+Í dæminu á eftirfarandi mynd sýnir karfa lagerskilaboð („Tiltækt“).
 
 ![Dæmi um körfueiningu sem er með skilaboðin til á lager](./media/cart-instock.png)
 

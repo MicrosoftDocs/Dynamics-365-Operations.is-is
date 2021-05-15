@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889789"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963216"
 ---
 # <a name="provision-human-resources"></a>Ráðstafa mannauði
 
@@ -55,6 +55,9 @@ Nokkur atriði sem hafa áhrif á hvort nota eigi fleiri umhverfi eða ekki eru 
 Til að nota LCS til að stjórna Human Resources umhverfi þínu, þarftu fyrst að búa til LCS-verk.
 
 1. Skráðu þig inn á [LCS](https://lcs.dynamics.com/Logon/Index) með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Human Resources.
+
+   > [!NOTE]
+   > Til að tryggja árangursríka úthlutun verður reikningurinn sem þú notar til að úthluta umhverfi Human Resources að vera úthlutað á annaðhvort hlutverkið **Kerfisstjóri** eða **Kerfisstillir** í Power Apps-umhverfinu sem tengist umhverfi Human Resources. Frekari upplýsingar um úthlutun öryggishlutverka til notenda í Power Platform er að finna í [Skilgreina öryggi notanda við tilföng](https://docs.microsoft.com/power-platform/admin/database-security).
 
 2. Velja skal plúsmerki (**+**) til að stofna verk.
 
@@ -115,13 +118,30 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
    
     - **Prófunarumhverfi** - Þessi umhverfi eru búin til með lokadagsetningu. Þegar umhverfið rennur út verður það og öll tilvik Human Resources innan þess fjarlægð sjálfkrafa.
    
-    - **Óstudd svæði** Að svo stöddu er Human Resources aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu, Bretlandi, Ástralíu, Kanada og Asíu.
-
-    > [!NOTE]
-    > Starfsumhverfi er staðsett á sama svæði þar sem Power Apps umhverfi er veitt. Ekki er hægt að flytja Human Resources umhverfi til annars svæðis.
+    - **Óstudd svæði** - Umhverfið verður að vera á studdri staðsetningu. Frekari upplýsingar er að finna í [Landfræðilegar staðsetningar sem eru studdar](hr-admin-setup-provision.md#supported-geographies).
 
 6. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
- 
+
+### <a name="supported-geographies"></a>Studdar staðsetningar
+
+Human Resources styður eftirfarandi landfræðilegar staðsetningar eins og er:
+
+- Bandaríkin
+- Evrópa
+- Bretland
+- Ástralía
+- Kanada
+- Asía 
+
+Þegar Human Resources umhverfi er stofnað er Power Apps valið sem umhverfi til að tengja við Human Resources umhverfið. Umhverfi Human Resources er síðan úthlutað á sömu Azure-staðsetningu og valið Power Apps-umhverfi. Hægt er að velja hvar umhverfi Human Resources og gagnagrunnur eru efnislega til staðar með því að velja landafræðilega staðsetningu þegar Power Apps-umhverfið er búið til sem verður tengt við umhverfi Human Resources.
+
+Hægt er að velja *Landfræðilega staðsetningu* Azure þar sem umhverfinu er úthlutað, en ekki er hægt að velja tiltekið *svæði* Azure. Sjálfvirkni ákvarðar tiltekna svæðið innan landfræðilegrar staðsetningar þar sem umhverfið er stofnað til að fínstilla álagsjöfnun og afköst. Upplýsingar um landfræðilegar staðsetningar og svæði Azure er að finna í fylgigögnum á [Landfræðilegar staðsetningar Azure](https://azure.microsoft.com/global-infrastructure/geographies).
+
+Gögnin fyrir umhverfi Human Resources mun alltaf verið haldið innan staðsetningar Azure þar sem það er búið til. Hins vegar verður það ekki alltaf í sama Azure-svæðinu. Í tilgangi endurheimtar eftir áfall verða gögnin afrituð á bæði aðalsvæði Azure og varasvæði innan staðsetningarinnar.
+
+ > [!NOTE]
+ > Ekki er hægt að flytja Human Resources-umhverfi frá einu Azure-svæði til annars.
+
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
 
 Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Þú verður að veita sérstaklega aðgang til viðbótarnotenda forritsins. Þú verður að bæta við notendum og úthluta þeim viðeigandi hlutverkum í umhverfi Human Resources. Altæki stjórnandinn, sem virkjaði Human Resources, verður einnig að ræsa bæði Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur. Þar til þetta gerist munu aðrir notendur ekki geta opnað Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

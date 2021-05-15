@@ -2,7 +2,7 @@
 title: Vinna með beiðnir um leyfi og fjarvistir
 description: Skoða og samþykkja beiðnir um leyfi og fjarvistir í Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790741"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924804"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Vinna með beiðnir um leyfi og fjarvistir
 
@@ -31,9 +31,20 @@ Stjórna fríbeiðnum úr vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** í D
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** velurðu **Hópurinn minn**.
 
-2. Undir **Upplýsingar um hópinn minn**, veldu flipann **Leyfi og fjarvera**. 
+2. Undir **Upplýsingar um hópinn minn**, veldu flipann **Leyfi og fjarvera**.
 
 3. Skoðaðu og samþykktu tímalengdabeiðnir liðsmanna þinna eftir þörfum.
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Forskoðun) Endurbætur á upplifun verkflæðis leyfisbeiðni
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+Þessi forskoðunareiginleiki býður upp á eftirfarandi viðbætur:
+
+- Hægt er að velja margar leyfisbeiðnir og framkvæma sömu aðgerðina á þeim öllum.
+- Borðinn þvert yfir toppinn og nýr verkflæðishnappur á síðunni sýna aðgerðirnar sem hægt er að gera á leyfisbeiðnum.
+
+![Stjórnunarreynsla](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

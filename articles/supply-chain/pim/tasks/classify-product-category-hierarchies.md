@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d37644d9dd124e8894197c56cc585cc6f805b54
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06735ce7c876234da263316a6481781f8baa9edd
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820179"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921088"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Flokka afurð með flokkastigveldi
 
@@ -27,18 +27,17 @@ ms.locfileid: "5820179"
 
 Þetta efni lýsir því hvernig á að flokka vöru með tegundastigveldum. Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmt af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
 
-1. Veldu **Viðhald útgefinnar afurðar**.
-2. Veldu **Allar losaðar afurðir**.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í aðgerðasvæðinu velurðu **Afurð.**
-5. Veldu **Afurðarflokka**.
-6. Veljið **Nýtt**.
-7. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
-8. Í reitnum **Flokkur** færirðu inn eða velur gildi.
-9. Veljið **Nýtt**.
-10. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
-11. Í reitnum **Flokkur** færirðu inn eða velur gildi.
-12. Lokið síðunni.
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+1. Í aðgerðasvæðinu velurðu **Afurð.**
+1. Veldu **Afurðarflokka**.
+1. Veljið **Nýtt**.
+1. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
+1. Í reitnum **Flokkur** færirðu inn eða velur gildi.
+1. Veljið **Nýtt**.
+1. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
+1. Í reitnum **Flokkur** færirðu inn eða velur gildi.
+1. Lokið síðunni.
 
 
 

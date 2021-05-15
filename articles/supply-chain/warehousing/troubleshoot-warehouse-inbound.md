@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828227"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920988"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Úrræðaleit fyrir vöruhúsaaðgerðir á innleið
 
@@ -56,7 +56,7 @@ Microsoft hefur metið þetta mál og hefur ákvarðað að þetta sé takmörku
 
 ### <a name="issue-resolution"></a>Úrlausn úrlausnaratriðis
 
-Nýr eiginleiki fyrir meðhöndlun á innleið, *Umframmóttaka á hleðslumagni*, lagar þetta vandamál. Til að kveikja á þessum eiginleika skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eftirfarandi eiginleikum (í þeirri röð sem þeir eru sýndir).
+Nýr eiginleiki fyrir meðhöndlun á innleið, *Umframmóttaka á hleðslumagni*, lagar þetta vandamál. Til að kveikja á þessum eiginleika skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið og kveikja á eftirfarandi eiginleikum (í þeirri röð sem þeir eru sýndir).
 
 1. Tengja birgðafærslur innkaupapöntunar við farm
 1. Umframmóttaka á hleðslumagni

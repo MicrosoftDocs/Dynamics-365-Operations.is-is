@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897817"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923447"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -39,7 +39,7 @@ Notendur eftirfarandi forrita geta fengið aðgang að samhengishjálp og öðru
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
-Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) er sjálfgefinn uppruni fyrir fylgiskjöl fyrir áður skráð forrit. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
+Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) er sjálfgefinn uppruni fyrir fylgiskjöl fyrir áður skráð forrit. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
 
 - **Aðgangur að nýjasta efninu** – svæðið gefur Microsoft hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Þess vegna er auðvelt að fá aðgang að nýjustu tækniupplýsingum.
 - **Efni sem er skrifað af sérfræðingum** – Aðilar samfélagsins, hvort sem þeir starfa hjá Microsoft eða ekki, geta lagt fram efni á vefsvæðið.
@@ -50,7 +50,7 @@ Hægt er að finna efni á docs.microsoft.com með því að nota hvaða leitarv
 
 Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna efnisins á docs.microsoft.com skaltu nota eftirfarandi tengil:
 
-[RSS-straumur](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
@@ -73,7 +73,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 Myndbandið [Hvernig á að leggja sitt af mörkum til skjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í rás Microsoft Dynamics 365 á YouTube.
 
-Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](https://docs.microsoft.com/contribute), sem er birt af teyminu sem bjó til docs.microsoft.com vefsvæðið.
+Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](/contribute), sem er birt af teyminu sem bjó til docs.microsoft.com vefsvæðið.
 
 > [!NOTE]
 > Við samþykkjum aðeins framlög á ensku efni okkar eins og stendur.
@@ -155,12 +155,13 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 | Svæði | lýsing |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Þetta vefsvæði hýsir eða tengir í fylgiskjöl afurðar fyrir Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Þetta vefsvæði er ókeypis Microsoft netnámskeiðssvæði. |
+| [Microsoft Learn](/learn/) | Þetta vefsvæði er ókeypis Microsoft netnámskeiðssvæði. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Þetta vefsvæði veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna verkum úr aðgerðum forsölu og framkvæmdar. Þetta er gagnlegt í öllum áföngum framkvæmdar. |
 | [Stuðningsblogg](https://aka.ms/AXSupportBlog) | Þetta vefsvæði veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuveri. |
 | [Docs.microsoft.com/fyrri útgáfur](/previous-versions/dynamics/) | Þetta vefsvæði hýsir efni frá fyrri útgáfum. |
 | [Samfélag Dynamics](https://community.dynamics.com/) | Þetta vefsvæði hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Þetta vefsvæði veitir upplýsingar um mat og sölu. |
+
 
 
 

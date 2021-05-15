@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9b37ffe1f3c13672bfed29918bfc6d108b0eaea
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f11043005ba6ec32b81b923aa78248100134c130
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744640"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923376"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
 
@@ -37,6 +37,4 @@ Eftirfarandi efnisatriði veita upplýsingar um fjarlægða eða úrelta eiginle
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Úreldingar í Microsoft Power Platform
 Eftirfarandi efnisatriði veita upplýsingar úreldingu í Microsoft Power Platform:
 
-- [Mikilvægar breytingar (afskriftir) væntanlegar í Power Apps, Power Automate og viðskiptavinaforritum](https://docs.microsoft.com/power-platform/important-changes-coming)
-
-
+- [Mikilvægar breytingar (afskriftir) væntanlegar í Power Apps, Power Automate og viðskiptavinaforritum](/power-platform/important-changes-coming)

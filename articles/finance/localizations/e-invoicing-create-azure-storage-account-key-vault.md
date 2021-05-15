@@ -2,7 +2,7 @@
 title: Setja upp Azure-geymslureikning og lyklageymslu
 description: Í þessu efnisatriði er útskýrt hvernig á að stofna Azure-geymslureikning og lyklageymslu.
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893803"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963240"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
@@ -80,6 +80,10 @@ ms.locfileid: "5893803"
 11. Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.
 12. Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu. Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.
 
+> [!NOTE]
+> Fyrir viðbótaröryggi á geymslureikningi skal skilgreina Azure Defender fyrir geymslu.
+> 
+> Frekari upplýsingar er að finna í [Kynning á Azure Defender fyrir geymslu](/azure/security-center/defender-for-storage-introduction).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

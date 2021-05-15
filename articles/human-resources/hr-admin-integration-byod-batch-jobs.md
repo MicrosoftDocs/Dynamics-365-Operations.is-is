@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890077"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951933"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Fínstilla BYOD-runuvinnslur á áætlun
 
@@ -89,6 +89,12 @@ BYDO-eiginleikinn hefur eftirfarandi takmarkanir:
 **Vandamál:** Þegar full seding á sér stað fyrir einingu sést mikið safn færslna í BYOD þegar þú notar **val**. Þegar stigvaxandi sending er notuð sjást hins vegar aðeins nokkrar færslur í BYOD. Það virðist sem stigvaxandi sending hafi eytt öllum færslunum og aðeins bætt við breyttum færslum í BYOD.
 
 **Lausn:** Töflur SQL-breytingarakninga eru hugsanlega ekki í væntanlegri stöðu. Í tilvikum sem þessu er mælt með því að slökkt sé á breytingarakningu fyrir eininguna og kveikja síðan á henni aftur. Frekari upplýsingar er að finna í [Virkja breytingarakningu fyrir einingar](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Millistigstöflur hreinsast ekki
+
+**Vandamál:** Þegar millistig er notað fyrir verkið hreinsast millistigstöflurnar ekki á réttan hátt. Gögnin í töflunum halda síðan áfram að vaxa, sem leiðir til vandamála með afköst.
+
+**Lausn:** Ferlinum er viðhaldið í sjö daga í millistigstöflunni. Gögn eldri en sjö dagar eru hreinsuð sjálfkrafa úr millistigstöflunni af runuvinnslunni **Hreinsun millistigs innflutnings/útflutnings**. Ef þetta verk festist hreinsast töflurnar ekki á réttan hátt. Ef þessi runuvinnsla er endurræst mun ferlið halda áfram og hreinsa millistigstöfluna sjálfkrafa.
 
 ## <a name="see-also"></a>Sjá einnig
 

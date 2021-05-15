@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754801"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923308"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -140,7 +140,7 @@ Eiginleikastjórnun gerir þér kleift að stjórna eiginleikunum sem eru gefnir
 
 ## <a name="new-features-are-optional-for-12-months"></a>Nýir eiginleikar eru valfrjálsir í 12 mánuði
 
-Þegar nýr léttvægur eiginleiki er settur upp verður hann valfrjáls yfir 12 mánaða tímabil. Þetta gefur þér og fyrirtækinu þínu tíma til að gera áætlun um hvenær eigi að taka upp eiginleikann og prófa hann í daglegum aðgerðum. Nánari upplýsingar má finna í [Algengar spurningar um uppfærsluþjónustu One Version](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Þegar nýr léttvægur eiginleiki er settur upp verður hann valfrjáls yfir 12 mánaða tímabil. Þetta gefur þér og fyrirtækinu þínu tíma til að gera áætlun um hvenær eigi að taka upp eiginleikann og prófa hann í daglegum aðgerðum. Nánari upplýsingar má finna í [Algengar spurningar um uppfærsluþjónustu One Version](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Að nota eiginleikastjórnun til að kveikja á eiginleika óháðs hugbúnaðarsala eða sérsniðnum eiginleikum
 
@@ -161,7 +161,7 @@ Stefnan er sú að allir nýir eiginleikar verði valdir fyrir 12 mánaða tíma
 Tímasetning uppfærslu er breytileg, tímasetning á uppfærslu umhverfis er breytileg og viðskiptavinir geta valið um að sleppa sumum uppfærslum. Fyrir vikið er erfitt að ákveða tilteknar dagsetningar. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Hvar er fylgiskjal fyrir eiginleika sem gerðir eru áskildir? 
-Þetta fylgiskjal kemur frá forritsteyminu. Oft verður þess getið í [Fjarlægðir eða úreltir eiginleikar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Þetta fylgiskjal kemur frá forritsteyminu. Oft verður þess getið í [Fjarlægðir eða úreltir eiginleikar](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Er tilkynning um vöru eða merki um að eiginleiki verði áskilið virkjaður? 
 Tilkynningakerfi sem tengist því að gera eiginleika áskilinn er ekki til í dag.

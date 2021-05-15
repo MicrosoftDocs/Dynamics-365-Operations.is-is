@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857371"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941084"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -52,11 +52,11 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
 
 2. Skráðu þig inn á [Microsoft Azure](https://portal.azure.com/).
 
-3. Stofnið [tilfangaflokk](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Stofnið [tilfangaflokk](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Búið til [geymslureikning](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) í tilfangaflokknum sem var stofnaður.
+4. Búið til [geymslureikning](/azure/storage/common/storage-account-create?tabs=azure-portal) í tilfangaflokknum sem var stofnaður.
 
-5. Stofnið [gagnasmiðju](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) í ofangreindum tilfangaflokki sem var stofnaður.
+5. Stofnið [gagnasmiðju](/azure/data-factory/quickstart-create-data-factory-portal) í ofangreindum tilfangaflokki sem var stofnaður.
 
 6. Opnið gagnasmiðjuna og veljið reitinn **Stýra og fylgjast með**.
 
@@ -81,7 +81,7 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
     FO Linked Service_properties_type Properties_service Principal Id | Tilgreinið biðlarakenni forritsins.
     Dynamics Crm Linked Service_properties_type Properties_username | Notandanafnið sem á að tengja Dynamics.
 
-    Frekari upplýsingar er að finna í [Úthluta sniðmáti forðastjóra handvirkt fyrir hvert umhverfi](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Tengdir þjónustueiginleikar](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) og [Afrita gögn með Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Frekari upplýsingar er að finna í [Úthluta sniðmáti forðastjóra handvirkt fyrir hvert umhverfi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Tengdir þjónustueiginleikar](/azure/data-factory/connector-dynamics-ax#linked-service-properties) og [Afrita gögn með Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Eftir uppsetningu skal staðfesta gagnasöfnin, gagnaflæðið og tengda þjónustu gagnasmiðjunnar.
 
@@ -158,7 +158,7 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
 8. Flytjið inn nýjar færslur **Aðila** í Finance and Operations-forritinu.
 
     + Sækið `FONewParty.csv`-skrána úr Azure Blob geymslu. Slóðin er `partybootstrapping/output/FONewParty.csv`.
-    + Umbreytið `FONewParty.csv`-skránni í Excel-skrá og flytjið Excel-skrána inn í Finance and Operations-forritið.  Ef csv-innflutningurinn virkar fyrir þig, þá geturðu flutt csv-skrá beint inn. Innflutningurinn gæti tekið nokkrar klukkustundir að keyra, en það fer allt eftir gagnamagninu. Frekari upplýsingar er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Umbreytið `FONewParty.csv`-skránni í Excel-skrá og flytjið Excel-skrána inn í Finance and Operations-forritið.  Ef csv-innflutningurinn virkar fyrir þig, þá geturðu flutt csv-skrá beint inn. Innflutningurinn gæti tekið nokkrar klukkustundir að keyra, en það fer allt eftir gagnamagninu. Frekari upplýsingar er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../data-import-export-job.md).
 
     ![Flytja inn Datavers-aðilafærslur](media/data-factory-import-party.png)
 

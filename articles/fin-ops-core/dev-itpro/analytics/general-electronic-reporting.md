@@ -2,7 +2,7 @@
 title: Yfirlit yfir rafræna skýrslugerð (ER)
 description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893178"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944366"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -236,7 +236,7 @@ Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER hönnun sni
 
 Hægt er að nota sniðshönnun fyrir rafræna skýrslugerð til að búa til rafræn skjöl á vinnublaðssniðinu OPENXML. 
 
-Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) . Notaðu Excel-skrána [Sniðmát fyrir greiðsluskýrslu (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) sem sniðmát, sem hluta af verkefnaleiðbeiningunum við að flytja inn snið.
+Til að kynna þér aðstæðurnar í smáatriðum skaltu Spila **ER stofna skilgreiningu fyrir skýrslur í OPENXML-sniði** leiðarvísi fyrir verk (hluti af **7.5.4.3 Acquire/Develop IT service/solution components (10677)** viðskiptaferli) . Notaðu Excel-skrána [Sniðmát fyrir greiðsluskýrslu (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) sem sniðmát, sem hluta af verkefnaleiðbeiningunum við að flytja inn snið.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Að búa til stillingu til að mynda rafræn skjöl á Word-skjalssniðinu.
 
@@ -244,8 +244,8 @@ Hægt er að nota sniðshönnun fyrir rafræna skýrslugerð til að búa til ra
 
 Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Rafræn skýrslugerð - Hannaðu stillingu til að búa til skýrslur á Microsoft WORD sniðinu (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi Word-skrár sem sniðmát fyrir snið rafrænnar skýrslugerðar, sem hluta af verkleiðbeiningunum fyrir innflutning á sniðmáti.
 
-- [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Afmarkað sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Afmarkað sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Að búa til stillingu til að flytja inn gögn úr rafrænum skjölum á innleið
 
@@ -253,10 +253,10 @@ Hægt er að nota sniðshönnun í rafrænni skýrslugerð til að lýsa rafræn
 
 Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Stofnaðu nauðsynlegar stillingar í rafrænni skýrslugerð til að flytja inn gögn úr utanaðkomandi skrá (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa íhluti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi skrár til að spila þessar leiðbeiningar:
 
-- [Stilling á gagnalíkani í rafrænni skýrslugerð (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Sniðsskilgreining í rafrænni skýrslugerð (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Sýnishorn af skjali á innleið á XML-sniði (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Sýnishorn af vinnubók til að stýra gögnum skjala á innleið (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Stilling á gagnalíkani í rafrænni skýrslugerð (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [Sniðsskilgreining í rafrænni skýrslugerð (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [Sýnishorn af skjali á innleið á XML-sniði (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [Sýnishorn af vinnubók til að stýra gögnum skjala á innleið (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Geyma hannaðan sniðsþátt í skilgreiningarsniði
 

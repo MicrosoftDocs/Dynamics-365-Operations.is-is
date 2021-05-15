@@ -2,7 +2,7 @@
 title: Biðja um frí
 description: Biðja um frí í Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790693"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924855"
 ---
 # <a name="request-time-off"></a>Biðja um frí
 
@@ -45,7 +45,7 @@ ms.locfileid: "5790693"
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Bæta viðhengi við fyrirliggjandi beiðni
 
-Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðhengi. Einnig er hægt að sjá allar tengdar beiðnir fyrir tiltekna dagsetningu. 
+Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðhengi. Einnig er hægt að sjá allar tengdar beiðnir fyrir tiltekna dagsetningu.
 
 ## <a name="view-leave-balances"></a>Skoða leyfisstöður
 
@@ -58,6 +58,20 @@ Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðheng
 1. Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.
 
 2. Veldu til að skoða samþykktar frestbeiðnir þínar **Samþykkt frí**. Veldu til að skoða bíðandi fríbeiðnir þínar **Beiðnir um frí**.
+
+## <a name="cancel-time-off-requests"></a>Hætta við beiðnir um frí
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Skoða frí** í reitnum **Staða frítíma**.
+
+2. Í skjámyndinni **Frí** skal velja eina eða fleiri beiðnir um frí sem hætta á við.
+
+3. Veljið hnappinn **Hætta við**.
+
+4. Á svæðinu **Upplýsingar um afturköllun** skal færa inn athugasemd og síðan velja **Senda inn**.
+
+   ![Hætta við leyfisbeiðni](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

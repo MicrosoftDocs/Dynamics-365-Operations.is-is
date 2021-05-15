@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830029"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954646"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -139,13 +139,14 @@ Meðan farið er yfir beiðir um breytingu, á aðgerðasvæðinu, í flipanum *
 
 Eins og lýst er í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md), er mismunandi hvaða afurðargögnum hægt er að breyta, en það fer eftir gerð lögaðila sem unnið er í (hönnunarfyrirtæki eða rekstrarfyrirtæki). Reglur um eignarétt gagna eiga einnig við um hönnunarbreytingapantanir. Þess vegna fer það eftir lögaðilanum, þar sem hönnunarbreytingapöntun er stofnuð, hvers konar breytingar hægt er að gera. Hér eru nokkur dæmi:
 
-- Fyrir hönnunarbreytingapantanir í **hönnunarfyrirtæki** er hægt að gera einfaldar breytingar á hönnunargögnum. Til dæmis er hægt að búa til nýjar útgáfur af afurð, breyta skipulagi afurðar í gegnum uppskriftina og breyta eigindargildum hönnunar. Fyrir hverja afurð skal velja eitt eftirfarandi gilda í reitnum **Áhrif**:
+- Fyrir hönnunarbreytingapantanir í *hönnunarfyrirtæki* er hægt að gera einfaldar breytingar á hönnunargögnum. Til dæmis er hægt að búa til nýjar útgáfur af afurð, breyta skipulagi afurðar í gegnum uppskriftina og breyta eigindargildum hönnunar. Fyrir hverja afurð skal velja eitt eftirfarandi gilda í reitnum **Áhrif**:
 
     - **Ekkert** – Uppfæra fyrirliggjandi afurðarútgáfu (uppfærsla innan útgáfu).
     - **Ný útgáfa** – Stofna nýja útgáfu sem byggir á valinni afurðarútgáfu.
-    - **Ný afurð** – Stofna alveg nýja afurð eða afurðarafbrigði sem byggir á valinni afurðarútgáfu.
+    - **Ný afurð** – Stofna alveg nýja afurð sem byggir á valinni afurðarútgáfu.
+    - **Nýtt afbrigði** – Stofna nýtt afbrigði sem byggir á valdri afurðarútgáfu. Upplýsingar um uppskriftina og leiðina verða afritaðar.
 
-- Í hönnunarbreytingapöntunum í **rekstrarfyrirtæki** er hægt að breyta skipulagsgögnum afurðarinnar. Til dæmis er hægt að bæta við fyrirliggjandi uppskrift með stillingum fyrir innkaupum, bæta við staðbundnum leiðum eða staðbundnar uppskriftir og jafnvel bæta við uppskrift með því að bæta við nýjum uppskriftarlínum fyrir staðbundið efni umbúða, smurvökva eða leiðbeiningar á staðbundnu tungumáli. Viðbætur sem notendur gera í rekstrarfyrirtækinu verður viðhaldið þegar nýjar uppfærslur eru sendar frá hönnunarfyrirtækinu. Frekari upplýsingar er að finna í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md).
+- Í hönnunarbreytingapöntunum í *rekstrarfyrirtæki* er hægt að breyta skipulagsgögnum afurðarinnar. Til dæmis er hægt að bæta við fyrirliggjandi uppskrift með stillingum fyrir innkaupum, bæta við staðbundnum leiðum eða staðbundnar uppskriftir og jafnvel bæta við uppskrift með því að bæta við nýjum uppskriftarlínum fyrir staðbundið efni umbúða, smurvökva eða leiðbeiningar á staðbundnu tungumáli. Viðbætur sem notendur gera í rekstrarfyrirtækinu verður viðhaldið þegar nýjar uppfærslur eru sendar frá hönnunarfyrirtækinu. Frekari upplýsingar er að finna í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md).
 
     Þegar unnið er úr hönnunarbreytingapöntunum í hönnunarfyrirtækinu, eru afurðirnar aðeins búnar til og/eða uppfærðar í hönnunarfyrirtækinu. Þess vegna, ef einnig á að uppfæra aðalgögn afurðar, þarf einnig að losa afurðirnar til rekstrarfyrirtækja.
 

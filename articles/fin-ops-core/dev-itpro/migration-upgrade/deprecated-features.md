@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745264"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921424"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -37,7 +37,7 @@ ms.locfileid: "5745264"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
 
@@ -147,7 +147,7 @@ ms.locfileid: "5745264"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Stilling á haus með öðrum Dynamics- og Office-vörum. Nánari upplýsingar er að finna í [Uppfæra yfirlitsstiku sem er samstillt við Office-hausinn](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Ástæða úreldingar/fjarlægingar** | Stilling á haus með öðrum Dynamics- og Office-vörum. Nánari upplýsingar er að finna í [Uppfæra yfirlitsstiku sem er samstillt við Office-hausinn](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 24 var fyrst kynnt til sögunnar endurhönnuð yfirlitsstika sem býður upp á leit. |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
@@ -161,7 +161,7 @@ ms.locfileid: "5745264"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Eldri hegðun á sjálfvirkum aðgerðum í hnitanetum leiðir til óvænts dálks sem er með sjálfgefinn aðgerðartengil eftir að dálkar hnitanets hafa verið endurraðaðir með sérstillingum. Nýi eiginleikinn fyrir fasta sjálfgefna aðgerð leiðréttir þetta. Frekari upplýsingar er að finna í [Fastar sjálfgefnar aðgerðir í hnitanetum](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Ástæða úreldingar/fjarlægingar** | Eldri hegðun á sjálfvirkum aðgerðum í hnitanetum leiðir til óvænts dálks sem er með sjálfgefinn aðgerðartengil eftir að dálkar hnitanets hafa verið endurraðaðir með sérstillingum. Nýi eiginleikinn fyrir fasta sjálfgefna aðgerð leiðréttir þetta. Frekari upplýsingar er að finna í [Fastar sjálfgefnar aðgerðir í hnitanetum](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Skipt út fyrir aðra eiginleika?**   | Fyrst í verkvangsuppfærslu 21 var eiginleikinn „fastar sjálfgefnar aðgerðir“ kynntur til sögunnar. Hægt er að virkja þennan eiginleika á síðunni **Valkostir afkastagetu biðlara**. |
 | **Afurðasvæði sem haft er áhrif á**         | Hnitanet í vefbiðlaranum |
 | **Dreifingarvalkostur**              | Allir |
@@ -172,7 +172,7 @@ ms.locfileid: "5745264"
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Síunarmöguleikinn „er einn af“ var endurhannaður í verkvangsuppfærslu 22 með það í huga að hann yrði eini „er einn af“ síunarmöguleikinn. |
-| **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 22 var fyrst boðið upp á endurbætur á síunarmöguleikanum „er einn af“ á síðunni **Valkostir afkastagetu biðlara**. Frekari upplýsingar er að finna í [Fínstillt „er ein af“ upplifun með síu](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 22 var fyrst boðið upp á endurbætur á síunarmöguleikanum „er einn af“ á síðunni **Valkostir afkastagetu biðlara**. Frekari upplýsingar er að finna í [Fínstillt „er ein af“ upplifun með síu](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Frá og með apríl 2020 verður upplifunin „er ein af“ sjálfgefin hegðun, án úrræða til að fara aftur í eldri hegðun. |
@@ -1333,7 +1333,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 
 ### <a name="virtual-company-accounts"></a>Sýndarreikningsskil
 
-Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn sýndarfyrirtæki gerði notendum mögulegt að setja upp töflur sem mátti deila með hóp fyrirtækja. Fyrir lýsingu á aðgerðinni sjá [reikningsskil og sýndarreikningsskil](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Eiginleikinn vinnur með því að flokka töflur í söfn sem tilheyra sýndarfyrirtæki, sem eru hópar af fyrirliggjandi "raunverulegum" fyrirtæki. Fyrirspurnir eru stofnaðar svo að öll fyrirtæki í sýndarfyrirtækinu hafi aðgang að gögnum í töflum tengdra töflusafna.
+Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn sýndarfyrirtæki gerði notendum mögulegt að setja upp töflur sem mátti deila með hóp fyrirtækja. Fyrir lýsingu á aðgerðinni sjá [reikningsskil og sýndarreikningsskil](../../fin-ops/get-started/ax4-content-retired.md). Eiginleikinn vinnur með því að flokka töflur í söfn sem tilheyra sýndarfyrirtæki, sem eru hópar af fyrirliggjandi "raunverulegum" fyrirtæki. Fyrirspurnir eru stofnaðar svo að öll fyrirtæki í sýndarfyrirtækinu hafi aðgang að gögnum í töflum tengdra töflusafna.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

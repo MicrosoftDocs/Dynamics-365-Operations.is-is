@@ -1,5 +1,5 @@
 ---
-title: Vinnusvæði reikningsfærslu lánardrottins
+title: Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
 description: Þetta efnisatriði útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837258"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954136"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Vinnusvæði reikningsfærslu lánardrottins
+# <a name="vendor-invoice-automation-workspace"></a>Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "5837258"
 
 ## <a name="overview"></a>Yfirlit
 
-**Reikningsfærsla lánardrottins** vinnusvæðið sýnir upplýsingar sem tengjast meðhöndlun reikninga lánardrottins. Þar er að finna yfirlitið **Mín vinna** og síðuna **Greiningar - Öll fyrirtæki**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar - Öll fyrirtæki** notar möguleika Power BI til að sýna myndefni sem tengjast reikningum lánardrottna.
+Vinnusvæðið **Sjálfvirkni reikninga lánardrottins** sýnir upplýsingar sem tengjast vinnslu seljanda reiknings. Þar er að finna yfirlitið **Mín vinna** og síðuna **Greiningar - Öll fyrirtæki**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar - Öll fyrirtæki** notar möguleika Power BI til að sýna myndefni sem tengjast reikningum lánardrottna.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Setja upp vinnusvæði til að sýna Power BI efni
 
-Ljúka verður við þessa uppsetningu áður en hægt er að sýna gögn í myndrænni framsetningu Power BI á vinnusvæðinu **Reikningsfærsla lánardrottins**.
+Ljúka verður við þessa uppsetningu áður en hægt er að sýna gögn í myndrænni framsetningu Power BI á vinnusvæðinu **Sjálfvirkni reikninga lánardrottins**.
 
 1. Á vinnusvæðinu **Eiginleikastjórnun** skal sía listann til að finna eiginleikann **Sjálfvirkni reiknings lánardrottins**.
 3. Veldu **Virkja núna**.
@@ -54,7 +54,7 @@ Til að skoða upplýsingarnar sem birtast á vinnusvæðinu þarf að vera með
 
 ### <a name="company-selection"></a>Val fyrirtækis
 
-Þegar kveikt er á eiginleikanum **Gera reikninga lánardrottna sjálfvirka** birtist reiturinn **Fyrirtæki** efst á vinnusvæðinu. Valið í reitnum **Fyrirtæki** hefur áhrif á allar upplýsingar sem sýndar eru á vinnusvæðinu. Yfirlit sýnir sjálfgefið upplýsingar fyrir fyrirtækið sem þú skráðir þig inn í. Með því að velja annað fyrirtæki í reitnum **Fyrirtæki** geturðu sýnt upplýsingar fyrir það fyrirtæki á vinnusvæðinu. Síðan er hægt að velja reit á vinnusvæðinu til að fara á tengda síðu í völdu fyrirtæki.
+Þegar kveikt er á eiginleikanum **Sjálfvirkni reikninga lánardrottins** birtist reiturinn **Fyrirtæki** efst á vinnusvæðinu. Valið í reitnum **Fyrirtæki** hefur áhrif á allar upplýsingar sem sýndar eru á vinnusvæðinu. Yfirlit sýnir sjálfgefið upplýsingar fyrir fyrirtækið sem þú skráðir þig inn í. Með því að velja annað fyrirtæki í reitnum **Fyrirtæki** geturðu sýnt upplýsingar fyrir það fyrirtæki á vinnusvæðinu. Síðan er hægt að velja reit á vinnusvæðinu til að fara á tengda síðu í völdu fyrirtæki.
 
 ### <a name="summary-tiles"></a>Samantektarreitir
 

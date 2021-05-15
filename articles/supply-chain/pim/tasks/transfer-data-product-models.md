@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799e7bce1ce7fd2d912b2ff5f97da61123f7293a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825495"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920632"
 ---
 # <a name="transfer-data-for-product-models"></a>Flytja gögn fyrir vörulíkan
 
@@ -26,14 +26,12 @@ ms.locfileid: "5825495"
 
 Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan. Þessi aðferð notar hágæða hátalara líkanið í USMF sýnigögn fyrirtæki til að sýna hvernig á að flytja út gögn fyrir þetta líkan.
 
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smella á Afbrigðalíkan afurðar
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
     * Veljið hágæða hátalara líkan fyrir þetta ferli.  
-4. Í aðgerðasvæðinu er smellt á líkan.
-5. Smellt er á Útflutning vörulíkans.
+1. Í aðgerðarúðunni skal velja **Tegund**.
+1. Veljið **Útflutningur vörulíkans**.
     * Niðurhalshegðun er breytileg frá vafra til vafra allt eftir því hvernig öryggisstillingar eru sett upp.  
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

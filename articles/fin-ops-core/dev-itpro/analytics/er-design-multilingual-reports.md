@@ -2,7 +2,7 @@
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753553"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951986"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -158,6 +158,31 @@ Rafræn skýrslugerð styður mismunandi leiðir til að tilgreina tungumál fyr
 - **Skilgreint við keyrslu** - Búa til skýrslu á tungumáli sem tilgreint er við keyrslu. Ef þetta gildi er valið, í reitnum **Tungumál**, skal skilgreina segð rafrænnar skýrslugerðar sem skilar tungumálakóðanum fyrir tungumálið, á borð við tungumál samsvarandi viðskiptavinar.
 
     ![Tilgreina í aðgerðarhönnuði rafrænnar skýrslugerðar skilgreint tungumál við keyrslu sem tungumál myndaðrar skýrslu](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Menningarbundið snið
+
+Rafræn skýrslugerð styður mismunandi leiðir til að tilgreina menningu fyrir myndaða skýrslu. Þess vegna er hægt að nota menningarbundið snið fyrir dagsetningu, tíma og tölugildi. Þegar snið rafrænnar skýrslugerðar er hannað er hægt í flipanum **Snið**, í reitnum **Kjörstillingar menningar**, að velja eitt af eftirfarandi gildum fyrir hvern sniðsþátt af gerðinni **Almenn\\Skrá**, **Excel\\Skrá**, **PDF\\Skrá** eða **PDF\\Samruni**:
+
+- **Kjörstilling notanda** – Sníðið gildin samkvæmt æskilegri menningu notanda. Sú menning er skilgreind í reitnum **Dagsetning, tími og talnasnið** í flipanum **Kjörstillingar** á síðunni **Valkostir notanda**.
+
+    ![Að skilgreina æskilega menningu notanda sem menningu myndaðrar skýrslu í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Skilgreint skilmerkilega** – Sníðið gildin samkvæmt menningunni sem er tilgreind á hönnunartíma.
+
+    ![Að skilgreina menninguna sem er tilgreind á hönnunartíma sem menningu myndaðrar skýrslu í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Skilgreint á keyrslutíma** – Sníðið gildin samkvæmt menningunni sem er tilgreind við keyrslu. Ef þetta gildi er valið, í flipanum **Vörpun**, í reitnum **Dagsetning, tími og talnasnið**, skal skilgreina segð rafrænnar skýrslugerðar sem skilar mennignarkóðanum fyrir menninguna, á borð við menningu samsvarandi viðskiptavinar.
+
+    ![Að skilgreina menninguna sem er skilgreind á keyrslutíma sem menningu myndaðrar skýrslu í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Hluti rafrænnar skýrslugerðar sem þú skilgreinir ákveðna menningu fyrir gæti innihaldið undirhluta rafrænnar skýrslugerðar sem voru skilgreindir til að fylla í textagildi. Menning yfirhlutans er sjálfkrafa notuð til að sníða gildi þessara hluta. Hægt er að nota eftirfarandi innbyggðar aðgerðir rafrænnar skýrslugerðar til að skilgreina bindingar fyrir þessa hluta og nota aðra menningu fyrir snið gilda:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Í útgáfu 10.0.20 og síðar er landsstaðall sniðshluta af gerðunum **Almenn\\Skrá** og **Excel\\Skrá** notaður til að sníða gildin við [Umbreytingu PDF-skjals](electronic-reporting-destinations.md#OutputConversionToPDF) á mynduðu skjali.
 
 ## <a name="translation"></a>Þýðing
 

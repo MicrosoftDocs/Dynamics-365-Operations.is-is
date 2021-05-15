@@ -1,8 +1,8 @@
 ---
 title: Kanna vörugæði
-description: Þetta efni útskýrir hvernig á að vinna úr gæðapöntun.
+description: Í þessu efnisatriði er lýst hvernig á að vinna úr gæðapöntunum.
 author: perlynne
-ms.date: 08/01/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e7156e5c57d5f983564cc966b4108f1180ff8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec67e7864db12178c0f3cfe8b93d510a46e8a0d4
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825916"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956135"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Kanna vörugæði
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að vinna úr gæðapöntun. Hægt er að keyra þessari handbók sýnigögn fyrirtækisins USMF. Áður en byrjað er á þessu dæmaferli, þarf að staðfesta innkaupapöntun „000016” og bóka innhreyfingarskjal afurða. Þetta stofna sjálfkrafa gæðapöntun. Gæðaeftirlit eru yfirleitt framkvæmd með því að starfsmaður á sviði gæða.
+Í þessu efnisatriði er lýst hvernig á að vinna úr gæðapöntunum. Gæðaskoðanir eru vanalega gerðar af gæðastarfsmanni.
 
+Ef stöðluð sýnigögn eru uppsett er hægt að nota þau til að ljúka ferlunum í þessu efnisatriði. Til að nota sýnigögnin skal velja lögaðilann *USMF* áður en hafist er handa. Þú verður síðan að staðfesta innkaupapöntun *000016* og bóka innhreyfingarskjal afurðar. Gæðapöntun myndast sjálfkrafa.
 
-## <a name="select-a-quality-order"></a>Velja gæðapöntun.
-1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastjórnun > Reglubundin verkefni > Gæðastjórnun > Gæðapantanir**.
-2. Veljið gæðapöntun var stofnuð áður en þetta ferli er hafið.  
+## <a name="step-1-select-a-quality-order"></a>Skref 1: Velja gæðapöntun
 
-## <a name="record-test-results"></a>Skrá niðurstöðu prófunar
+Fylgja skal eftirfarandi skrefum til að velja gæðapöntun.
+
+1. Farðu í **Birgðastjórnun \> Reglubundin verk \> Gæðastjórnun \> Gæðapantanir**.
+1. Veldu gæðapöntunina sem var búin til áður en þú hófst þetta ferli.
+
+## <a name="step-2-record-test-results"></a>Skref 2: Skrá niðurstöður prófunar
+
+Fylgja skal eftirfarandi skrefum til að skrá niðurstöður prófunar.
+
 1. Veldu **Niðurstöður**.
-2. Veljið **Breyta**.
-3. Í reitnum **Niðurstöðumagn** skal slá inn tölu.
-4. Í reitnum **Útkoma** velurðu skrána sem óskað er eftir af fellilistanum.  
-- Í þessu dæmi niðurstaðan er byggt á fyrirframskilgreindu útkomu. Vanalega væri skráð nákvæmari niðurstöður prófana, til dæmis stærð eða öðrum vídd.  
-5. Veljið **Vista**.
-6. Lokið síðunni.
+1. Veljið **Breyta**.
+1. Í reitnum **Niðurstöðumagn** skal slá inn tölu.
+1. Í reitnum **Útkoma** skal velja æskilega skrá. Í þessu dæmi byggist niðurstaðan á fyrirframskilgreindri útkomu. Yfirleitt er skráð ítarlegri niðurstaða prófunar á borð við stærð eða aðra mælivídd.
+1. Veljið **Vista**.
+1. Lokið síðunni.
 
-## <a name="validate-the-quality-order"></a>Villuprófa gæðapöntunina
+## <a name="step-3-validate-the-quality-order"></a>Skref 3: Staðfesta gæðapöntunina
+
+Til að staðfesta gæðapöntunina skal fylgja eftirfarandi skrefum.
+
 1. Veldu **Staðfesta**.
-2. Í reitnum **Staðfest af** veldu notandann sem framkvæmir skoðunina í fellivalmyndinni.  
-3. Smellið á **Velja**.
-4. Veljið **Í lagi**.
-5. Lokið síðunni.
-
-
+1. Í reitnum **Staðfest af** skal velja notandann sem sér um skoðunina.
+1. Veljið **Velja**.
+1. Veljið **Í lagi**.
+1. Lokið síðunni.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

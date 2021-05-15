@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836399"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919942"
 ---
 # <a name="create-a-new-trade-agreement"></a>Stofna nýja verðsamning
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836399"
 
 Þetta ferli sýnir hvernig á að stofna viðskiptasamningur þar sem þú skráir inn nýtt söluverð afurðar sem þú hefur ákvarðað með tilteknum viðskiptavin. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Ef þú ert að nota eigin gögn, þarftu áður en byrjað er að þessari handbók að ganga úr skugga um að heiti færslubókar fyrir Verðsamningur er til staðar þar sem Sjálfgefinn tengsl er stillt á "Verð (sala)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Stofna og bóka nýja færslubók verðsamnings
+
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðsstarf > Verð og afslættir > Færslubækur verðsamninga**.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
@@ -58,22 +58,26 @@ ms.locfileid: "5836399"
 20. Smellt er á **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Skoða viðskiptasamninga fyrir afurð
+
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Útgefnar afurðir**.
 2. Finna og velja vöru sem verð hefur nýlega verið uppfært verð, á listanum.
 3. Í **Aðgerðasvæðinu** smellirðu á **Selja**.
 4. Smelltu á **Skoða viðskiptasamninga**.
     
-    Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.    
+    Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.
 
 5. Lokið síðunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="whitepaper"></a>Hvítbók
+
 Frekari upplýsingar er að hlaða niður eftirfarandi hvítbók (skrifuð til að styðja AX2012, en gildir einnig fyrir Dynamics 365 Supply Chain Management)
-- [Viðskiptasamningar](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Viðskiptasamningar](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Samfélagsblogg
+
 - [Söluverð í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

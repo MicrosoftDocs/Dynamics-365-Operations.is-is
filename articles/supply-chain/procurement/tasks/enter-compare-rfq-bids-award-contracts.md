@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811991"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920582"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
@@ -32,7 +32,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Færa inn svar sem lánardrottin
 
-1. Í yfirlitinu skal velja **Tilboð lánardrottins**.
+1. Farið í **Samstarf lánardrottna \> Vinnusvæði \> Tilboð lánardrottins**.
 2. Í listanum **Nýtt boð um kauptilboð** skal finna tilboðsbeiðni sem var send rétt í þessu. Velja skal tilboðsbeiðnina til að fara yfir það sem óskað eftir.
 3. Velja skal **Viðhengi tilboðsbeiðni** til að yfirfara öll viðhengi sem var bætt við.
 4. Velja skal **Tilboð** til að gera reitina breytanlega. Takið eftir að reiturinn **Framvinda tilboðs** er stilltur á **Lánardrottinn er að uppfæra**.

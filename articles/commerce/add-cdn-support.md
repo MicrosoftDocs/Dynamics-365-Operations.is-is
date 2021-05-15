@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797840"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936831"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -47,7 +47,7 @@ Eins og áður var getið styður myndað hýsingarheiti eða endapunktur aðein
 
 Hægt er að nota hvaða CDN-þjónustu sem er með Commerce-umhverfi. Hér eru tvö dæmi:
 
-- **Microsoft Azure Útidyraþjónusta** - Azure CDN-lausnin. Fyrir frekari upplýsingar um Azure útidyraþjónustu, sjá [Þjónustuskjöl Azure Front Service](https://docs.microsoft.com/azure/frontdoor/).
+- **Microsoft Azure Útidyraþjónusta** - Azure CDN-lausnin. Fyrir frekari upplýsingar um Azure útidyraþjónustu, sjá [Þjónustuskjöl Azure Front Service](/azure/frontdoor/).
 - **Akamai Dynamic Site Accelerator** - Sjá frekari upplýsingar í [Dynamic Site Accelerator](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>Uppsetning CDN
@@ -62,7 +62,7 @@ Uppsetningarferli CDN samanstendur af þessum almennu skrefum:
 
 Hægt er að nota hvaða CDN þjónustu sem er, en til dæmis í þessu efni er Azure Front Door Service notað. 
 
-Upplýsingar um hvernig á að setja upp Azure Front Door Service, sjá [Stuttur leiðarvísir: Búðu til útidyr fyrir víðfáanlegt altækt vefforrit](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
+Upplýsingar um hvernig á að setja upp Azure Front Door Service, sjá [Stuttur leiðarvísir: Búðu til útidyr fyrir víðfáanlegt altækt vefforrit](/azure/frontdoor/quickstart-create-front-door).
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Skilgreina bakvinnsluhóp í Azure Front Door Service
 
@@ -115,7 +115,7 @@ Eftirfarandi mynd sýnir valmyndina **Sérsniðin lén HTTPS** í Azure Front Do
 
 ![Sérsniðin lén HTTPS valmynd](./media/Custom_Domain_HTTPS.png)
 
-Ítarlegar leiðbeiningar um hvernig skuli bæta sérsniðnu léni við Azure Front Door er að finna í [Bæta sérsniðnu léni við Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+Ítarlegar leiðbeiningar um hvernig skuli bæta sérsniðnu léni við Azure Front Door er að finna í [Bæta sérsniðnu léni við Front Door](/azure/frontdoor/front-door-custom-domain).
 
 CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það með Commerce síðunni þinni.
 

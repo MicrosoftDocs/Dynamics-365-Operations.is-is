@@ -4,18 +4,17 @@ description: Þetta efnisatriði lýsir virkni aðila og altækrar aðsetursbók
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e7bec58f8094a1448017822e7d8840368cc482b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
+ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750789"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937887"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -23,166 +22,283 @@ ms.locfileid: "5750789"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Aðili og altæk aðsetursbók eru hugtök í forritum Finance and Operations. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum **Aðila** eins og heiti, tungumáli, tengiliðum og aðsetrum. Þegar gildi eiginleika breytist á einum stað breytist það á öllum stöðum þar sem **Aðilinn** kemur við sögu.
+*Aðili* og *altæk aðsetursbók* eru hugtök í forritum Finance and Operations. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum aðila eins og heiti, tungumáli, tengiliðum og aðsetrum. Því næst, þegar eiginleikagildi er breytt á einum stað, sést breytingin á öllum stöðum þar sem aðilinn kemur við sögu.
 
 ## <a name="party"></a>Aðili
 
-*Aðili* er einstaklingur eða fyrirtæki sem stundar viðskipti. Með því að nota aðilahugtakið getur einstaklingur eða fyrirtæki spilað fleiri en eitt hlutverk (starfsmaður, viðskiptavinur, lánardrottinn eða tengiliður) í viðskiptum. Hlutverkið byggir á samhenginu og tilgangi. Hér eru nokkur dæmi úr tveimur skálduðum fyrirtækum, Contoso og Fabrikam.
+Aðili er einstaklingur eða fyrirtæki sem stundar viðskipti. Þegar aðilahugtakið er notað getur einstaklingur eða fyrirtæki spilað fleiri en eitt hlutverk í viðskiptum (t.d. starfsmaður, viðskiptavinur, lánardrottinn eða tengiliður). Hlutverkið byggir á samhenginu og tilgangi. Hér eru nokkur dæmi um hlutverk frá tveimur upphugsuðum fyrirtækjum, Contoso og Fabrikam:
 
-+ **Starfskraftur**: Starfsmaður. Sem dæmi, starfsmaður Contoso.
-+ **Lánardrottinn**: Fyrirtæki birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Ef til dæmis Fabrikam selur Contoso varning þá er Fabrikam í hlutverki lánardrottins.
-+ **Tengiliður**: Einstaklingur til að hafa samband við. Ef til dæmis Contoso kaupir varning af Fabrikam myndi starfsmaður Contoso hafa samband við tengilið hjá Fabrikam.
-+ **Viðskiptavinur**: Viðskiptavinur er einstaklingur eða fyrirtæki sem kaupir hluti frá fyrirtæki. Til dæmis ef Contoso kaupir varning af Fabrikam þá er Contoso viðskiptavinur Fabrikam.
++ **Starfskraftur** – Starfsmaður. Sem dæmi má nefna starfsmann Contoso.
++ **Lánardrottinn** – Fyrirtæki birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Ef Fabrikam selur til dæmis birgðir til Contoso er Fabrikam lánardrottinn Contoso.
++ **Tengiliður** – Einstaklingur til að hafa samband við. Ef til dæmis Contoso kaupir varning af Fabrikam myndi starfsmaður Contoso hafa samband við tengilið hjá Fabrikam.
++ **Viðskiptavinur** – Einstaklingur eða fyrirtæki sem kaupir hluti frá fyrirtæki. Til dæmis ef Contoso kaupir varning af Fabrikam þá er Contoso viðskiptavinur Fabrikam.
 
 Aðilalíkanið er oft notað til að tákna miðlungsflókin eða flókin tengsl milli fyrirtækja og fólks, sérstaklega þegar aðili spilar fleiri en eitt hlutverk. Hér eru nokkur algeng dæmi:
 
 + Aðili getur bæði verið viðskiptavinur og lánardrottinn. Til dæmis gæti Fabrikam í Norður-Ameríku selt Contoso rafmagnsvíra og keypt samsetta hátalara af Contoso. Í Evrópu selur Fabrikam hluti til Contoso en kaupir ekkert af Contoso.
 + Aðili getur verið bæði starfsmaður og viðskiptavinur. Til dæmis kaupir starfsmaður Contoso raftæki af Contoso til persónulegra nota.
-+ Það geta verið ýmis konar tengsl milli einstaklings og fyrirtækis. Til dæmis getur Fabrikam útvegað sérfræðiþjónustu og ræður samræmingaraðila staðsetningar. Samræmingaraðilinn tengir sérfræðinginn við verkbeiðnir frá nokkrum viðskiptavinum Fabrikam. Contoso er einn viðskiptavinalykill. Þegar Contoso þarf á sérfræðingi að halda hefur Contoso samband við samfræðingaraðilann sem þá kemur beiðninni áleiðis. Samræmingaraðilinn sér um beiðnir fyrir alla viðskiptavini og býr til margs konar tengsl.
++ Það geta verið margs konar tengsl milli einstaklings og fyrirtækis. Til dæmis getur Fabrikam útvegað sérfræðiþjónustu og ræður samræmingaraðila staðsetningar. Samræmingaraðilinn tengir sérfræðingana við verkbeiðnir frá nokkrum viðskiptavinum Fabrikam. Contoso er einn af viðskiptavinum Fabrikam. Þegar Contoso krefst sérfræðiþjónustu hefur það samband við samræmingaraðilann sem greiðir þá úr beiðninni. Vegna þess að samræmingaraðilinn sér um beiðnir fyrir alla viðskiptavini þá er um margs konar tengsl að ræða.
 
-Eftirfarandi mynd sýnir gagnalíkan fyrir aðila:
+Eftirfarandi skýringarmynd sýnir gagnalíkan fyrir aðila.
 
 ![Gagnamódel fyrir aðila](media/party-gab-image1.png)
 
-> [!Tip]
-> Þegar reynt er að búa til nýja reikningsfærslu skal nota reitinn „Aðili“ til að leita að færslunni eftir heiti. Ef þú finnur færsluna þarftu aðeins að velja hana. Forritið fyllir sjálfkrafa út öll gögnin frá aðilanum. Ekki þarf að slá inn alla áskilda reiti. Þessa hegðun er hægt að finna í tilbúnum sniðum reiknings, tengiliðar og lánardrottins.
+> [!TIP]
+> Þegar reynt er að búa til nýja reikningsfærslu skal nota reitinn **Aðili** til að leita að færslunni eftir heiti. Á þennan hátt þarftu bara að velja færsluna ef þú finnur hana. Forritið fyllir þá sjálfkrafa út öll gögnin frá aðilanum. Ekki þarf að stilla alla nauðsynlega reiti handvirkt. Þessa hegðun er hægt að finna á tilbúnum síðunum **Reikningur**, **Tengiliður** og **Lánardrottinn**.
 
-Ekki eru öllu aðilahlutverk Finance and Operations-forrita studd með tvöfaldri skráningu. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Tvöföld skrif styðja ekki öll hlutverk aðila í Finance and Operations-forritum. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Altæk aðsetursbók
 
 Altæka aðsetursbókin er skráasafn yfir póstföng og rafræn aðsetur fyrirtækja og einstaklinga sem stunda viðskipti.
 
-Altæka aðsetursbókin geymir og meðhöndlar mörg póstföng og rafræn aðsetur eftir þörfum. Gerum til dæmis ráð fyrir því að Fabrikam eigi bensínstöðvar á 50 staðsetningum. Hver staður er með eigið póstfang, netfang og símanúmer. Aðalbensínstöðin fær rukkun vegna allra kaupa í viðskiptaskyni, en kaupin eru send beint á bensínstöðina sem óskaði eftir kaupunum. Altæka aðsetursbókin geymir aðalbensínstöðina sem reikningsheimilisfangið og allar bensínstöðvar sem heimilisfang viðtakanda fyrir Fabrikam. Hægt er að vista aðsetrin í eitt skipti og sækja þau eftir þörfum fyrir tilboð og pantanir.
+Altæka aðsetursbókin geymir og meðhöndlar mörg póstföng og rafræn aðsetur eftir þörfum. Til dæmis á Fabrikam bensínstöðvar á 50 staðsetningum. Hver staður er með eigið póstfang, netfang og símanúmer. Aðalbensínstöðin fær rukkun vegna allra kaupa í viðskiptaskyni, en sent er beint á bensínstöðina sem óskaði eftir kaupunum. Altæka aðsetursbókin geymir aðalbensínstöðina sem reikningsheimilisfangið fyrir Fabrikam og geymir hverja bensínstöð fyrir sig sem heimilisfang viðtakanda. Heimilisföngin er hægt að geyma í eitt skipti og síðan sækja þau þegar þarf að nota þau vegna beiðna eða pantana.
 
-Einstaklingur eða fyrirtæki geta gegnt fleiri en einu hlutverki eftir því hvert samhengi viðskiptanna er. Þegar svo á við gætu póstföngin og rafrænu aðsetrin verið þau sömu. Í þessu tilviki ætti breyting á aðsetri í einu hlutverki að birtast í hinu hlutverkinu og öfugt. Altæka aðsetursbókin geymir og sér um aðsetrin alls staðar.
+Það fer eftir viðskiptasamhenginu hvort einstaklingur eða fyrirtæki gegni fleiri en einu hlutverki og sama póstfangið og rafræna heimilisfangið kann að vera notað fyrir öll hlutverkin. Í þessu tilviki ætti breyting á aðsetri í einu hlutverki að birtast í öllum hinum hlutverkunum. Altæka aðsetursbókin geymir og sér um aðsetrin alls staðar.
+
+Eftirfarandi skýringarmynd sýnir gagnalíkanið fyrir altæku aðsetursbókina.
 
 ![Gagnalíkan fyrir altæka aðsetursbók](media/party-gab-image2.png)
 
-## <a name="contacts"></a>Tengiliðir
+## <a name="contact"></a>Tengiliður
 
-Í forritum viðskiptavinar er *Tengiliður* einstaklingur. Hinsvegar hefur taflan **Tengiliður** verið yfirhlaðin til að tákna einstakling, notanda í gátt, B2C-viðskiptavin eða lánardrottin. Framsetningin er óbein og ekki er hægt að greina muninn án þess að kíkja á tengdar færslur. Taflan **Tengiliður** hefur verið takmörkuð við 1:1 vensl við töfluna **Reikningur**. Sem hluti af aðilalíkani og líkani altækrar aðsetursbókar kynnir tvöföld skráning sérstaka eiginleika til sögunnar fyrir flokkun og tvöföld skráning leyfir N:N vensl milli einstaklings sem er **Tengiliður** og fyrirtækis (reikningseining eða lánardrottnaeining).
+Í forritum viðskiptavinar er tengiliður einstaklingur. Hinsvegar hefur taflan **Tengiliður** verið yfirhlaðin til að tákna einstakling, notanda í gátt, B2C-viðskiptavin eða lánardrottin. Framsetningin er óbein og ekki er hægt að gera greinarmun nema með því að skoða viðeigandi færslur. Taflan **Tengiliður** hefur verið takmörkuð við bein tengsl við töfluna **Reikningur**. Sem hluti af aðilalíkani og líkani altækrar aðsetursbókar kynnir tvöföld skráning sérstaka eiginleika til sögunnar fyrir flokkun og tvöföld skráning leyfir margs konar (N:N) vensl milli einstaklings og fyrirtækis (einingin **Reikningur** eða **Lánardrottinn**).
 
 Til eru tvær gerðir **Tengiliður** lína:
 
-+ Strikaður tengiliður – Lína tengiliðar með áskildu gildi í reitnum **Fyrirtæki**.
-+ Óstrikaður tengiliður – Lína tengiliðar með reitinn **Fyrirtæki** auðan.
++ **Strikaður tengiliður** – **Tengiliðalína** þar sem reiturinn **Fyrirtæki** er með áskilið gildi.
++ **Óstrikaður tengiliður** – **Tengiliðalína** þar sem reiturinn **Fyrirtæki** er autt.
 
-Taflan **Tengiliðir** getur geymt þessar gerðir af línum:
+Taflan **Tengiliður** getur geymt eftirfarandi gerðir af línum.
 
-Gerð línu | lýsing
----|---
-Einstaklingur sem er viðskiptavinur, til dæmis seljanlegur tengiliður eða B2C-viðskiptavinur. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já**.
-Einstaklingur sem er lánardrottinn, til dæmis lánardrottinn sem er einkafyrirtæki. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er lánardrottinn** er stilltur á **Já**.
-Einstaklingur sem er bæði viðskiptavinur og lánardrottinn. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já** og reiturinn **Er lánardrottinn** er stilltur á **Já**. Einstaklingur getur bæði verið framleiðandi fyrir eina afurð og neytandi annarrar afurðar. Bæði Finance and Operations-forrit og tvöföld skráning styðja þessi vensl.
-Einstaklingur sem er tengiliður fyrir fyrirtæki en er ekki viðskiptavinur eða lánardrottinn. | Óstrikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er auður og reiturinn **Er viðskiptavinur** er stilltur á **Nei** og reiturinn **Er lánardrottinn** er stilltur á **Nei**.
+| Gerð línu | lýsing |
+|----------|-------------|
+| Einstaklingur sem er viðskiptavinur (til dæmis seljanlegur tengiliður eða B2C-viðskiptavinur) | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já**. |
+| Einstaklingur sem er lánardrottinn (til dæmis lánardrottinn sem er einkafyrirtæki) | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er lánardrottinn** er stilltur á **Já**. |
+| Einstaklingur sem er bæði viðskiptavinur og lánardrottinn. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já** og reiturinn **Er lánardrottinn** er stilltur á **Já**. Einstaklingur getur bæði verið framleiðandi fyrir eina afurð og neytandi annarrar afurðar. Bæði Finance and Operations-forrit og tvöföld skráning styðja þessi vensl. |
+| Einstaklingur sem er tengiliður fyrir fyrirtæki en er ekki viðskiptavinur eða lánardrottinn | Óstrikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er auður og reiturinn **Er viðskiptavinur** er stilltur á **Nei** og reiturinn **Er lánardrottinn** er stilltur á **Nei**. |
 
-## <a name="contact-for-party"></a>Tengiliður fyrir aðila
+## <a name="contact-for-party-table"></a>Taflan tengiliður fyrir aðila
 
-**Tengiliður fyrir aðila** geymir og sér um N:N vensl milli **Reikningslína** og **Tengliðalína**. Hann getur síað strikaðar línur **Tengiliðar** frá óstrikuðum línum og tengt eingöngu óstrikaðar **Tengiliðalínur** við línur **Reiknings** eða **Lánardrottins**.
+Taflan **Tengiliður fyrir aðila** geymir og sér um N:N vensl milli **Reikningslína** og **Tengliðalína**. Hún getur síað strikaðar línur **Tengiliðar** frá óstrikuðum línum og tengt eingöngu óstrikaðar **Tengiliðalínur** við línur **Reiknings** eða **Lánardrottins**.
 
-Til dæmis eru Natasha Jones og Miguel Reyes dýralæknar sem bjóða upp á umönnun fyrir bóndabæi á sínu svæði. Natasha þjónustar Seattle og Miguel þjónustar Kent. Í forriti viðskiptavinar eru bóndabæirnir sýndir sem viðskiptavinir og dýralæknarnir sem tengiliðir. Ein **Tengiliðafærsla** fyrir Natasha tengist öllum bóndabæjum sem Natasha vinnur með. Á sama hátt er ein **Tengiliðafærsla** fyrir Miguel sem tengist öllum bóndabæjum sem Miguel vinnur með.
+Til dæmis eru Natasha Jones og Miguel Reyes dýralæknar sem bjóða upp á umönnun fyrir bóndabæi á sínu svæði. Natasha þjónustar Seattle og Miguel þjónustar Kent. Í forriti viðskiptavinar eru bóndabæirnir sýndir sem viðskiptavinir og dýralæknarnir eru sýndir sem tengiliðir. Ein **Tengiliðafærsla** fyrir Natasha tengist öllum bóndabæjum sem Natasha vinnur með. Á sama hátt er ein **Tengiliðafærsla** fyrir Miguel sem tengist öllum bóndabæjum sem Miguel vinnur með.
 
-Þessi vensl eru geymd í töflunni **Tengiliður fyrir aðila**. Hægt er að finna upplýsingarnar í tilbúnu skjámyndunum:
+Þessi vensl eru geymd í töflunni **Tengiliður fyrir aðila**. Upplýsingarnar er að finna á tilbúnu síðunum **Reikningur**, **Tengiliður** og **Lánardrottinn**:
 
-+ Þegar þú ert í skjámyndinni **Reikningur** er til staðar flipi sem heitir **Tengdir tengiliðir**. Notið þennan flipa til að tengja einn eða fleiri tengiliði við **Reikningur** línu. Í þessari skjámynd er tengiliði úthlutað fyrir fyrirtæki. Þegar tengiliðum hefur verið úthlutað er hægt að velja einn sem aðaltengilið fyrir þann reikning. Með því að nota skjámyndina **Flýtistofnun** er aðeins hægt að velja tengilið. Það sama á við þegar skjámyndin **Lánardrottinn** er notuð og færslugerðin er **Fyrirtæki**.
-+ Þegar skjámyndin **Tengiliður** er opin og línan er viðskiptavinur eða lánardrottinn eða bæði (strikaður tengiliður) er flipi sem heitir **Tengdir tengiliðir**. Notið þennan flipa til að tengja einn eða fleiri tengiliði. Í þessari skjámynd er tengiliði úthlutað fyrir B2C-viðskiptavin eða lánardrottin. Þegar tengiliðum hefur verið úthlutað er hægt að velja einn sem aðaltengilið. Með því að nota skjámyndina **Flýtistofnun** er aðeins hægt að velja tengilið.
-+ Þegar skjámyndin **Tengiliður** er opin og línan er tengiliður (óstrikaður tengiliður) er flipi sem heitir **Tengd fyrirtæki**. Notið þennan flipa til að tengja einn eða fleiri viðskiptavini eða lánardrottna. Í þessari skjámynd er viðskiptavini eða lánardrottni úthlutað á undirliggjandi tengilið. Viðskiptavinurinn eða lánardrottinn getur verið fyrirtæki, einstaklingur eða bæði. Aðeins er hægt að velja eitt gildi úr svæðunum fjórum á sama tíma.
++ Á síðunni **Reikningur** er hægt að nota flipann **Tengdir tengiliðir** til að tengja einn eða fleiri tengiliði við línuna **Reikningur**. Á þennan hátt er tengiliðum úthlutað fyrir fyrirtæki. Síðan er hægt að velja einn tengilið sem aðaltengilið fyrir reikninginn. Ef síðan **Flýtistofnun** er notuð er aðeins hægt að velja tengilið. Það sama á við þegar síðan **Lánardrottinn** er notuð og færslugerðin er **Fyrirtæki**.
++ Á síðunni **Tengiliður**, þegar línan er viðskiptavinur, lánardrottinn eða bæði (strikaður tengiliður), er hægt að nota flipann **Tengdir tengiliðir** til að tengja einn eða fleiri tengiliði. Á þennan hátt er tengiliðum úthlutað fyrir B2C-viðskiptavin eða lánardrottin. Síðan er hægt að velja einn tengilið sem aðaltengilið. Ef síðan **Flýtistofnun** er notuð er aðeins hægt að velja tengilið.
++ Á síðunni **Tengiliður**, þegar línan er einstaklingur sem tengiliður (óstrikaður tengiliður), er hægt að nota flipann **Tengd fyrirtæki** til að tengja einn eða fleiri viðskiptavini eða lánardrottna. Á þennan hátt er viðskiptavinum eða lánardrottnum úthlutað á undirliggjandi tengiliði. Viðskiptavinurinn eða lánardrottinn getur verið fyrirtæki, einstaklingur eða bæði. Aðeins er hægt að velja gildi í einum af þeim fjórum reitum í einu:
 
-    ![Tengd fyrirtæki flipinn](media/party-gab-image3.png)
+    + Ef gildi er valið í reitnum **Kenni aðila** er öllum hlutverkum úthlutað á undirliggjandi tengilið fyrir valdan aðila.
+    + Ef gildi er valið í reitnum **Tengdur tengiliður** er verið að velja strikaðan tengilið af gerðinni **Einstaklingur**.
+    + Ef gildi er valið í reitnum **Tengdur reikningur** eða **Tengdur lánardrottinn** er verið að velja fyrirtæki.
 
-    + Ef **Kenni aðila** er valið, þá verður undirliggjandi tengiliði úthlutað á öll hlutverkin fyrir valinn aðila.
-    + Ef valið er **Tengdur tengiliður**, þá er strikaður tengiliður valinn sem er af gerðinni einstaklingur.
-    + Ef valið er **Tengdur reikningur** eða **Lánardrottinn**, þá er fyrirtæki valið.
+    ![Flipinn tengd fyrirtæki á tengiliðasíðunni](media/party-gab-image3.png)
 
-    Burtséð frá valinu, þá eru tengslin stofnuð á stigi aðilans og á við um öll hlutverk aðilans og geymd í einingunni „Tengiliður fyrir aðila“.
+    Burtséð frá valinu, þá eru tengslin stofnuð á stigi aðilans og á við um öll hlutverk aðilans og geymd í einingunni **Tengiliður fyrir aðila**.
 
-> [!Note]
-> Birtingarheiti fyrir töfluna **Tengiliður fyrir aðila** í forriti viðskiptavinar er **Tengiliður fyrir viðskiptavin/lánardrottin**.
+> [!NOTE]
+> Birtingarheiti fyrir töfluna **Tengiliður fyrir aðila** í forritum viðskiptavinar er **Tengiliður fyrir viðskiptavin/lánardrottin**.
 
-Þegar **Tengliðalína** er opnuð þar sem **Er viðskiptavinur** er **Nei** og **Er lánardrottinn** er **Nei** sést flipinn **Tengd fyrirtæki**. Notið þennan flipa til að tengja eitt eða fleiri fyrirtæki viðskiptavinar eða lánardrottins við tengiliðinn.
+Þegar línan **Tengiliður** er opnuð þar sem bæði reiturinn **Er viðskiptavinur** og **Er lánardrottinn** eru stilltir á **Nei** verður flipinn **Tengd fyrirtæki** sýndur. Notið þennan flipa til að tengja einn eða fleiri viðskiptavini eða lánardrottna við tengiliðinn.
 
-Þegar lína **Tengiliðar** er opnuð þar sem **Er viðskiptavinur** er **Já** eða **Er lánardrottinn** er **Já** sést flipinn **Tengdir tengiliðir**. Notið þennan flipa til að tengja einn eða fleiri tengiliði.
+Þegar **Tengiliðalína** er opnuð þar sem annaðhvort reiturinn **Er viðskiptavinur** eða **Er lánardrottinn** er stilltur á **Já** verður flipinn **Tengdir tengiliðir** sýndur. Notið þennan flipa til að tengja einn eða fleiri tengiliði.
 
-## <a name="postal-address"></a>Póstaðsetur
+## <a name="postal-addresses"></a>Póstföng
 
-Nýr flipi sem kallast **Aðsetur** hefur verið bætt við skjámyndirnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. **Aðsetrin** fyrir stuðning N aðsetra með því að nota hnitanet eins og sýnt er á þessari mynd:
+Nýr **Aðsetursflipi** hefur verið bætt við síðurnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. Þessi flipi styður mörg póstföng með því að nota hnitanet eins og sýnt er á eftirfarandi mynd.
 
-![Hnitanet fyrir póstfang](media/party-gab-image4.png)
+![Hnitanet fyrir póstföng](media/party-gab-image4.png)
 
-+ Dálkurinn **Hlutverk póstfangs** sýnir tilgang aðsetursins.
-+ Dálkurinn **Er aðal** sýnir aðalaðsetrið.
-+ Dálkurinn **Númer aðseturs** sýnir röð aðsetursins.
-+ Hnappurinn **+ Nýtt aðsetur** gerir kleift að búa til nýtt aðsetur. Hægt er að stofna eins mörg heimilisföng og þörf er á.
+Netið inniheldur eftirfarandi dálka:
 
-Reitirnir **Aðsetur 1** og **Aðsetur 2** í flipanum **Samantekt** í skjámyndinni **Reikningur** samsvarar aðsetrunum **Afhending** og **Reikningur**.
++ **Hlutverk póstfangs** – Tilgangur póstfangsins.
++ **Er aðalaðsetur** – Gildi sem tilgreinir hvort aðsetur er aðalaðsetur.
++ **Númer aðseturs** – Röð aðseturs.
 
-![Samantektarflipi fyrir póstfang](media/party-gab-image5.png)
+Hægt er að nota hnappinn **Nýtt aðsetur** fyrir ofan hnitanetið til að búa til eins mörg póstföng eins og þörf er á.
 
-Reitirnir **Aðsetur 1**, **Aðsetur 2** og **Aðsetur 3** í flipanum **Samantekt** í skjámyndinni **Tengiliður** samsvarar aðsetrunum **Viðskipti**, **Afhending** og **Reikningur**.
+Reitirnir **Aðsetur 1** og **Aðsetur 2** í flipanum **Samantekt** á síðunni **Reikningur** samsvarar aðsetrunum **Afhending** og **Reikningur**.
 
-## <a name="electronic-address"></a>Rafrænt aðsetur
+![Samantektarflipi fyrir póstföng](media/party-gab-image5.png)
 
-Nýr flipi sem kallast **Rafræn aðsetur** hefur verið bætt við skjámyndirnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. **Aðsetrin** fyrir stuðning N aðsetra með því að nota hnitanet eins og sýnt er á þessari mynd:
+Reitirnir **Aðsetur 1**, **Aðsetur 2** og **Aðsetur 3** í flipanum **Samantekt** á síðunni **Tengiliður** samsvarar aðsetrunum **Viðskipti**, **Afhending** og **Reikningur**.
 
-![Hnitanet fyrir rafrænt aðsetur](media/party-gab-image6.png)
+## <a name="electronic-addresses"></a>Rafræn aðsetur
 
-+ Dálkurinn **Gerð** sýnir gerð aðsetursins.
-+ Dálkurinn **Er aðal** sýnir aðalaðsetrið.
-+ Dálkurinn **Tilgangur** sýnir tilgang rafræna aðsetursins.
-+ **+ Nýtt rafrænt aðsetur** gerir kleift að búa til nýtt aðsetur. Hægt er að stofna eins mörg heimilisföng og þörf er á.
+Nýr flipi **Rafræns aðseturs** hefur verið bætt við síðurnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. Þessi flipi styður mörg rafræn aðsetur með því að nota hnitanet eins og sýnt er á eftirfarandi mynd.
 
-Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir rafræns aðseturs og póstfangs fjarlægðir úr öðrum flipum, t.d. flipunum **Samantekt** og **Upplýsingar**.
+![Hnitanet fyrir rafræn aðsetur](media/party-gab-image6.png)
 
-## <a name="setup-instructions"></a>Leiðbeiningar um uppsetningu
+Netið inniheldur eftirfarandi dálka:
 
-Ef þú ert núverandi viðskiptavinur tvöfaldrar skráningar þá þarf að fara eftir eftirfarandi uppsetningarleiðbeiningum. Annars er hægt að sleppa þessun hluta.
++ **Gerð** – Gerð rafræns heimilisfangs.
++ **Er aðalaðsetur** Gildi sem tilgreinir hvort aðsetur er aðalaðsetur.
++ **Tilgangur** – Tilgangur rafræna aðsetursins.
 
-1. Stöðvið eftirfarandi varpanir vegna þess að ekki er þörf á þeim lengur. Þess í stað skal keyra vörpunina Tengiliðir V2 (msdyn_contactforparties).
+Hægt er að nota hnappinn **Nýtt rafrænt aðsetur** fyrir ofan hnitanetið til að búa til eins mörg aðsetur eins og þörf er á.
+
+Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**).
+
+## <a name="setup"></a>Setja upp
+
+1. Setjið upp nýjustu útgáfu (2.2.2.60 eða nýrri) af [Niðurröðunarþjónusta tvöföldrar skráningar](https://aka.ms/dual-write-app).
+
+2. Setjið upp [Lausn tvöfaldrar skráningar á aðila og altækri aðsetursbók](https://aka.ms/dual-write-gab).
+
+3. Stöðvið eftirfarandi varpanir vegna þess að ekki er þörf á þeim lengur. Keyrðu `Contacts V2 (msdyn_contactforparties)` kortið í staðinn.
 
     + CDS Tengiliðir V2 og Tengiliðir (eiga við um tengiliði viðskiptavinar)
     + CDS Tengiliðir V2 og Tengiliðir (eiga við um tengiliði lánardrottins)
 
-2. Eftirfarandi einingavarpanir eru uppfærðar fyrir aðilavirknina þannig að nota þarf nýjustu útgáfu af þessum vörpunum.
+4. Eftirfarandi einingavarpanir eru uppfærðar fyrir aðilavirknina þannig að nota þarf nýjustu útgáfu af þessum vörpunum.
 
-Varpa | Uppfæra þessa útgáfu | Breytingar
----|---|---
-Viðskiptavinir V3 (lyklar) | 1.0.0.5 |Fjarlægði reitina PartyNumber og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar o.s.frv.
-Viðskiptavinir V3 (tengiliðir) | 1.0.0.5 | Fjarlægði reitina PartyNumber og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar o.s.frv.
-Lánardrottnar V2 (msdyn_vendors) | 1.0.0.6 | Fjarlægði reitina PartyNumber og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar o.s.frv.
-CDS-sölutilboðshaus (tilboð) | 1.0.0.6 | Skipti út tengiliðnum fyrir ContactforParty-tilvísun.
-Sölureikningshausar V2 (invoices) | 1.0.0.4 | Skipti út tengiliðnum fyrir ContactforParty-tilvísun.
-Hausar CDS-sölupöntunar (sölupantanir) | 1.0.0.5 | Skipti út tengiliðnum fyrir ContactforParty-tilvísun.
-Tengiliðir V2 (msdyn_contactforparties) | 1.0.0.2 | Þetta er nýtt kort. Fyrir fyrri útgáfur aðilalausnarinnar skal ganga úr skugga um að uppfæra þessa vörpun í nýjustu útgáfuna eins og minnst er á.
-Staðsetningar póstfanga CDS-aðila (msdyn_partypostaladdresses) | 1.0.0.1  | Þetta er ný vörpun sem bætt er við sem hluti af fyrri forskoðunarútgáfu aðila.
-CDS-póstfangsferill V2 (msdyn_postaladdresses) | | Þetta er ný vörpun sem bætt er við sem hluti af fyrri forskoðunarútgáfu aðila.
-Staðsetningar CDS-póstfanga (msdyn_postaladdresscollections) | | Þetta er ný vörpun sem bætt er við sem hluti af fyrri forskoðunarútgáfu aðila.
-Tengiliðir aðila V3(msdyn_partyelectronicaddresses) | | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    Varpa | Uppfæra þessa útgáfu | Breytingar
+    ---|---|---
+    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Customers V3 (accounts)` | 1.0.0.5 |Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
+    `Customer V3 (contacts)` | 1.0.0.5 | Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
+    `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
+    `CDS Sales quotation headers (quotes)` | 1.0.0.7 | Skipti út tengiliðnum fyrir `ContactforParty`-tilvísun.
+    `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Skipti út tengiliðnum fyrir `ContactforParty`-tilvísun.
+    `CDS Sales order headers (salesorders)` | 1.0.0.5 | Skipti út tengiliðnum fyrir `ContactforParty`-tilvísun.
+    `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Salutations (msdyn_salutations)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+
+5. Áður en ofangreind kort eru keyrð verður að uppfæra samþættingarlyklana handvirkt eins og lýst er í eftirfarandi skrefum. Veldu síðan **Vista**.
+
+    | Varpa | Lyklar |
+    |-----|------|
+    | Lykill |  accountnumber [Lykilnúmer]<br>msdyn_company.cdm_companycode [Fyrirtæki (Fyrirtækjakóði)] |
+    | Tengiliður | msdyn_contactpersonid [Reikningsnúmer/kenni tengiliðs]<br>msdyn_company.cdm_companycode [Fyrirtæki (Fyrirtækjakóði)] |
+    | Tengiliður fyrir viðskiptavin/lánardrottin | msdyn_contactforpartynumber [Tengiliður fyrir aðilanúmer]<br>msdyn_associatedcompanyid.cdm_companycode [Tengt fyrirtæki (fyrirtækjakóði)] |
+    | Lánardrottinn | msdyn_vendoraccountnumber [Númer lánardrottnalykils]<br>msdyn_company.cdm_companycode [Fyrirtæki (Fyrirtækjakóði)]|
+
+6. Í Dataverse hefur hámarksfjöldi stafa fyrir greiningarreglu afritunar aukist úr 450 í 700 stafi. Þetta hámark gerir þér kleift að bæta einum eða fleiri lyklum við greiningarreglur afritunar. Víkkið út greiningarreglu afritunar fyrir töfluna **Lyklar** með því að stilla eftirfarandi reiti.
+
+    | Svæði | Virði |
+    |-------|-------|
+    | Nafn | Reikningar með sama reikningsheiti. |
+    | lýsing | Greinir reikningsfærslur sem eru með sömu gildin í eigind reikningsheitis. |
+    | Gerð grunnfærslu | Lykill |
+    | Samsvörun færslugerðar | Lykill |
+    | Heiti reiknings (reitur) | Nákvæm samsvörun |
+    | Fyrirtæki (reitur) | Nákvæm samsvörun |
+    | Venslagerð (reitur) | Nákvæm samsvörun |
+    | Aðilakenni (reitur) | Nákvæm samsvörun |
+    | Velja (reit) | (Autt) |
+
+    ![Afritaregla fyrir reikninga](media/duplicate-rule-1.PNG)
+
+7. Víkkið út greiningarreglu afritunar fyrir töfluna **Tengiliðir** með því að stilla eftirfarandi reiti.
+
+    | Svæði | Virði |
+    |-------|-------|
+    | Nafn | Tengiliðir með sama fornafn og eftirnafn. |
+    | lýsing | Greina tengiliðafærslur sem hafa sömu gildi í reitunum Fornafn og Eftirnafn. |
+    | Gerð grunnfærslu | Tengiliður |
+    | Samsvörun færslugerðar | Tengiliður |
+    | Fornafn (reitur) | Nákvæm samsvörun |
+    | Eftirnafn (reitur) | Nákvæm samsvörun |
+    | Fyrirtæki (reitur) | Nákvæm samsvörun |
+    | Aðilakenni (reitur) | Nákvæm samsvörun |
+    | Velja (reit) | (Autt) |
+
+    ![Afritunarregla fyrir tengiliði](media/duplicate-rule-2.PNG)
+
+8. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín.
+
+9. Keyrðu kortin í eftirfarandi röð. Ef villa kemur upp sem segir „Staðfesting verks mistókst. Vantar reit áfangastaðar...“, opnaðu þá kortið og veldu **Endurhlaða töflum**. Keyrðu svo kortið.
+
+    Finance and Operations-forritið | Forrit viðskiptavinatengsla  
+    ----------------------------|------------------------
+    [CDS-aðilar](mapping-reference.md#220) | msdyn_parties
+    [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn_postaladdresscollections
+    [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn_postaladdresses
+    [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn_partypostaladdresses
+    [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses
+    [Viðskiptavinir V3](mapping-reference.md#101) | lyklar
+    [Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir
+    [Lánardrottnar V2](mapping-reference.md#202) | msdyn_vendors
+    [Titlar tengiliðar](mapping-reference.md#223) | msdyn_salescontactpersontitles
+    [Kveðjuorð](mapping-reference.md#222) | msdyn_complimentaryclosings
+    [Ávörp](mapping-reference.md#228) | msdyn_salutations
+    [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn_decisionmakingroles
+    [Starfshlutverk](mapping-reference.md#225) | msdyn_employmentjobfunctions
+    [Stig viðskiptavildar](mapping-reference.md#226) | msdyn_loyaltylevels
+    [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn_personalcharactertypes
+    [Tengiliðir V2](mapping-reference.md#221) | msdyn_contactforparties
+    [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð
+    [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders
+    [Sölureikningshausar V2](mapping-reference.md#118) | reikningar
+
+> [!Note]
+> `CDS Contacts V2 (contacts)` kortið er kortið sem var stöðvað í skrefi 1. Þegar reynt er að keyra önnur kort gætu þessi tvö kort birst í listanum yfir háða. Ekki keyra þessi kort.
+
+> [!Note]
+> Ef aðilabók og altæk aðsetursbók eru uppsettar þarf að slökkva á viðbótinni sem heitir `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Ef lausn aðilabókar og altækrar aðsetursbókar er fjarlægð þarf að endurvirkja viðbótina.
+
+> [!Note]
+> Ekki ætti að nota reitinn `msdyn_*partynumber` (textareitur í einni línu) sem er með í töflunum **Reikningur**, **Tengiliður** og **Lánardrottinn** frá og með þessu. Heiti merkis er með forskeytið **(Úrelt)** til glöggvunar. Í staðinn skal nota **msdyn_partyid** reitinn. Þessi reitur er leit í **msdyn_party** töflunni.
+
+> Töfluheiti | Gamall reitur | Nýr reitur
+> --------|-------|--------
+> Lykill | `msdyn_partynumber` | `msdyn_partyid`
+> Tengiliður | `msdyn_partynumber` | `msdyn_partyid`
+> msdyn_vendor | `msdyn_vendorpartynumber` | `msdyn_partyid`
 
 ## <a name="templates"></a>Sniðmát
 
 Safn af töflukortum vinna saman fyrir samskipti aðila og altækrar aðsetursbókar eins og sýnt er í eftirfarandi töflu.
 
-Finance and Operations-forritið | Forrit viðskiptavinatengsla     | lýsing
-----------------------------|-----------------------------|------------
-[Titlar tengiliðar](mapping-reference.md#223) | msdyn_salescontactpersontitles |
-[Viðskiptavinir V3](mapping-reference.md#101) | lyklar |
-[Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir |
-[CDS-aðilar](mapping-reference.md#220) | msdyn_parties |
-[Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn_partypostaladdresses |
-[CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn_postaladdresses |
-[Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn_postaladdresscollections |
-[CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð |
-[Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders |
-[Kveðjuorð](mapping-reference.md#222) | msdyn_complimentaryclosings |
-[Tengiliðir V2](mapping-reference.md#221) | msdyn_contactforparties |
-[Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn_decisionmakingroles |
-[Starfshlutverk](mapping-reference.md#225) | msdyn_employmentjobfunctions |
-[Stig viðskiptavildar](mapping-reference.md#226) | msdyn_loyaltylevels |
-[Tengiliðir aðila V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses |
-[Persónubundnar manngerðir](mapping-reference.md#227) | msdyn_personalcharactertypes |
-[Sölureikningshausar V2](mapping-reference.md#118) | reikningar |
-[Ávörp](mapping-reference.md#228) | msdyn_salutations |
-[Lánardrottnar V2](mapping-reference.md#202) | msdyn_vendors |
+| Finance and Operations-forritið | Forrit viðskiptavinatengsla | lýsing |
+|----------------------------|-------------------------|-------------|
+| [Titlar tengiliðar](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Viðskiptavinir V3](mapping-reference.md#101) | lyklar |
+| [Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir |
+| [CDS-aðilar](mapping-reference.md#220) | msdyn\_parties |
+| [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð |
+| [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders |
+| [Kveðjuorð](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Tengiliðir V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Starfshlutverk](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Stig viðskiptavildar](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Sölureikningshausar V2](mapping-reference.md#118) | reikningar |
+| [Ávörp](mapping-reference.md#228) | msdyn\_salutations |
+| [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_vendors |
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).
+
+## <a name="known-issues-and-limitations"></a>Þekkt vandamál og takmarkanir
+
++ Í Finance and Operations-forritum, þegar viðskiptavinur er stofnaður ásamt aðsetri og það vistað, er hugsanlegt að aðsetrið samstillist ekki við töfluna **Aðsetur**. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
++ Í Finance and Operations-forritum, þegar færsla viðskiptavinar er með aðalaðsetri og nýr tengiliður er stofnaður fyrir þann viðskiptavin, þá erfir tengiliðafærslan aðalaðsetur frá tengdri færslu viðskiptavinar. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvöföld skráning er virkjuð eru tengiliðir viðskiptavina sem eru erfðir með aðalaðsetri úr Finance and Operations-forritinu samstilltir við Dataverse ásamt aðsetri þeirra.
++ Rafræn heimilisföng úr `msdyn_partyelectronicaddress`-töflunni flæða ekki yfir í reiti rafræns aðseturs í töflunum **Reikningur** og **Tengiliður**. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Ekki verður skrifað yfir fyrirliggjandi gögn í reitum rafræns aðseturs í töflunum **Reikningur** og **Tengiliður**.
++ Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
++ Í Finance and Operations-forritum er hægt að stofna tengiliðafærslu úr skjámyndinni **Bæta við tengilið**. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
+
+    ![Þekkt vandamál með Bæta við tengilið](media/party-gab-contact-issue.png)
+
++ **Upphafleg samstilling** styður ekki tímareitina **Tiltækt frá** og **Tiltækt til** í **ContactForParty** vegna þess að DIXF breytir gildinu í streng í stað heiltölu. Breytingin leiðir til villunnar `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
++ Þegar póstfang er notað af fleiri en einni ástæðu, til dæmis heimilisfang fyrirtækjasamskipta og reikningsheimilisfang, skal það birtast sem `Business;Invoice` eins og sýnt er á eftirfarandi mynd. Ef bili er bætt við á milli gildanna kemur upp villa.
+
+    ![Þekkt vandamál með heimilisfang](media/party-gab-address-issue.png)
+
++ Ekki er hægt að færa inn póstfang fram í tímann með því að nota Finance and Operations-forrit með tvöfaldri skráningu vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef fært er inn póstfang dagsett fram í tímann með því að nota Finance and Operations-forrit, samstillist það að fullu við Dataverse og aðsetrið mun sjást strax í notandaviðmótinu. Allar uppfærslur á þessari færslu leiða til villu þar sem hún er með framvirka dagsetningu en ekki líðandi dagsetningu í Finance and Operations-forritinu.

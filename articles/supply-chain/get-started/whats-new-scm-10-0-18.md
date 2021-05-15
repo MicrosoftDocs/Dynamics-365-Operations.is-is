@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.18 (maí 2021)
+title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.18 (maí 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909354"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934968"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.18 (maí 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.18 (maí 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.18. Þessi útgáfa er með byggingarnúmer 10.0.793 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.18. Þessi útgáfa er með byggingarnúmer 10.0.793 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** mars 2021
 - **Almennt framboð losunar (sjálfvirk uppfærsla):** Apríl 2021
@@ -43,9 +42,17 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [út
 
 - [Stjórnun endurgreiðslu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Frekari upplýsingar er að finna í [Yfirlit kerfiseininga stjórnunar eftirágreidds afsláttar](../rebate-management/rebate-management-overview.md).
 
+- [Uppsetningarregla gagnaeiningar sölu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Skráning skilapöntunarlínu ásamt nákvæmum aukastöfum með og án framleiðsluþyngdar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Smellt er einu sinni á Staðfesting sölupöntunar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Eyðingarregla frá sölupöntunar- til innkaupapöntunarlínu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Einfaldara viðmót aðeins fyrir inn- og útstimplun (betrumbætur fyrir [Bætt keyrsluviðmót framleiðslugólfs fyrir framleiðslu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-configure.md).
 
-Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. 
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 

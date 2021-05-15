@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62d789edea1bcce544693046d47d52473e2280f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820131"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921060"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Stofna strikamerki fyrir afurð
 
@@ -26,19 +26,18 @@ ms.locfileid: "5820131"
 
 Þetta efni sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Veldu **Viðhald vöru** á heimasíðunni.
-2. Farðu í **Vörur > Útgefnar vörur** undir hlutanum **Tenglar**.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Í þessu dæmi skal velja vörunúmerið **M0001.**
-4. Á Aðgerðasvæðinu skal velja **Stjórna birgðum.**
-5. Veldu **Strikamerki**.
-6. Veljið **Nýtt**.
-7. Merktu valda röð sem er búin til á listanum hér að neðan.
-8. Í reitnum **Uppsetning strikamerkis** slærðu inn eða velur gildi.
-9. Í reitnum **Strikamerki** slærðu inn eða velur gildi.
-10. Í reitnum **Strikamerki** slærðu inn gildi.  
-11. Í reitnum **Magn** slærðu inn tölu.
-12. Veljið **Vista**.
-13. Lokið síðunni. 
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Í þessu dæmi skal velja vörunúmerið **M0001.**
+1. Á Aðgerðasvæðinu skal velja **Stjórna birgðum.**
+1. Veldu **Strikamerki**.
+1. Veljið **Nýtt**.
+1. Merktu valda röð sem er búin til á listanum hér að neðan.
+1. Í reitnum **Uppsetning strikamerkis** slærðu inn eða velur gildi.
+1. Í reitnum **Strikamerki** slærðu inn eða velur gildi.
+1. Í reitnum **Strikamerki** slærðu inn gildi.  
+1. Í reitnum **Magn** slærðu inn tölu.
+1. Veljið **Vista**.
+1. Lokið síðunni. 
 
 
 

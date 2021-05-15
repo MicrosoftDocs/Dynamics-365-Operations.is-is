@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752181"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923569"
 ---
 # <a name="human-resources-overview"></a>Yfirlit Human Resources
 
@@ -42,38 +42,38 @@ Hægt er að nota „Mannauður“ til að ljúka þessum verkum:
 
 Þegar unnið er með „Mannauður“ þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf í mannauðsstjórnuninni. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
 
-- [Skipuleggja starfsmenn með því að nota deildir, störf og stöður](../../../talent/departments-jobs-positions.md)
-- [Uppsetning sérstakra mannauðsfæribreytna fyrir fyrirtæki](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Setja upp færibreytur mannauðs (HR) á milli lögaðila](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Skipuleggja starfsmenn með því að nota deildir, störf og stöður](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Uppsetning sérstakra mannauðsfæribreytna fyrir fyrirtæki](../../../human-resources/hr-setup-parameters.md)
+- [Setja upp færibreytur mannauðs (HR) á milli lögaðila](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Ráðning og umbun starfsmanna
 
 Ráðningarverk stýra því hvað birtist í auglýsingum um opnar stöður og koma að gagni við meðhöndlun umsókna um störf. Hægt er að nota þau til að rekja viðbrögð við auglýstum störfum fyrir tiltekið ráðningarverk eða tiltekna umsækjendur og uppfæra stöðu auglýstra starfa. Einnig er hægt að ráða einn umsækjanda eða stjórna fjöldaráðningarverkum sem fela í sér ráðningu fjölda starfskrafta, t.d. til að anna árstíðabundnum þörfum.
 
 - [Stjórna ráðningarferlum](manage-recruiting-process.md)
-- [Fjöldaráðningarverk](mass-hire-projects.md) 
+- [Fjöldaráðningarverk](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
 
-- [Launafyrirkomulag](../../../talent/compensation-plans.md)
-- [Launafyrirkomulag fastra launa stofnað](../../../talent/create-fixed-compensation-plans.md)
-- [Launafyrirkomulag breytilegra launa](../../../talent/create-variable-compensation-plans.md)
+- [Launafyrirkomulag](../../../human-resources/hr-compensation-overview.md)
+- [Launafyrirkomulag fastra launa stofnað](../../../human-resources/hr-compensation-fixed-plans.md)
+- [Launafyrirkomulag breytilegra launa](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Þróa og þjálfa starfsmenn
 
 Hægt er að veita starfsfólki stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur sem gera starfsmönnum kleift að öðlast viðeigandi hæfni áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
-- [Árangursstjórnun](../../../talent/performance-management-overview.md)
-- [Samþætting hæfni starfsfólks við rekstrarþarfir](../../../talent/skills.md)
-- [Uppsetning námskeiða](../../../talent/courses.md)
+- [Árangursstjórnun](../../../human-resources/hr-develop-performance-management-overview.md)
+- [Samþætting hæfni starfsfólks við rekstrarþarfir](../../../human-resources/hr-develop-skills.md)
+- [Uppsetning námskeiða](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Stofnun og viðhald fríðinda
 
 Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fríðindaáætlunum á borð við heilbrigðistryggingar og eftirlaunasjóði. Einnig er hægt að stjórna fríðindum á borð við lánsáætlanir þar sem fyrirtækið lánar starfsmönnum sínum hluti, t.d. tölvur og síma.
 
-- [Skilgreina og stjórna fríðindaáætlun](../../../talent/manage-benefit-program.md)
-- [Stefnur um hæfni til fríðinda](../../../talent/benefit-eligibility-policies.md)
-- [Stjórna atriðum sem eru lánaðar til starfskrafta](../../../talent/loan-items.md)
+- [Skilgreina og stjórna fríðindaáætlun](../../../human-resources/hr-benefits-management-overview.md)
+- [Stefnur um hæfni til fríðinda](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [Stjórna atriðum sem eru lánaðar til starfskrafta](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
@@ -87,10 +87,10 @@ Microsoft Dynamics AX getur hjálpað þér við að viðhalda öruggu vinnuumhv
 
 Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ýmissa nota. Spurningalistaeiginleikinn gerir þér kleift að hanna og búa til spurningalista. Þegar spurningalisti er tilbúinn er hægt að dreifa honum á alla eða tiltekinn svarenda. Þegar svarendur hafa lokið við að fylla spurningarlistann út er farið yfir svörin og niðurstöðurnar greindar.
 
-- [Spurningarlistar](../../../talent/questionnaires.md)
-- [Hanna spurningalista](../../../talent/design-questionnaires.md)
-- [Dreifa spurningalistum á ákveðnum tímum](../../../talent/distribute-questionnaires.md)
-- [Yfirferð og mat á niðurstöðum spurningalista](../../../talent/evaluate-questionnaire-results.md)
+- [Spurningarlistar](../../../human-resources/hr-learning-questionnaires.md)
+- [Hanna spurningalista](../../../human-resources/hr-learning-design-questionnaires.md)
+- [Dreifa spurningalistum á ákveðnum tímum](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [Yfirferð og mat á niðurstöðum spurningalista](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

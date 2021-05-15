@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821009"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936731"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
@@ -42,7 +42,7 @@ Smásalar geta notað pantanir viðskiptavina til að lágmarka tapaða sölu se
 
 ### <a name="configure-modes-of-delivery"></a>Skilgreina afhendingarmáta
 
-Til að nota pantanir viðskiptavina þarf að skilgreina afhendingarmáta sem verslunarrásin getur notað. Skilgreina þarf að minnsta kosti einn afhendingarmáta sem hægt er að nota þegar pöntunarlínur eru sendar til viðskiptavinar úr verslun. Einnig þarf að skilgreina að minnsta kosti einn afhendingarmáta fyrir sóttar vörur sem hægt er að nota þegar pöntunarlínur eru sóttar í versluninni. Afhendingarmátar eru skilgreindir á síðunni **Afhendingarmáti** í Commerce Headquarters. Frekari upplýsingar um uppsetningu afhendingarmáta fyrir viðskiptarásir er að finna í [Skilgreina afhendingarmáta](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Til að nota pantanir viðskiptavina þarf að skilgreina afhendingarmáta sem verslunarrásin getur notað. Skilgreina þarf að minnsta kosti einn afhendingarmáta sem hægt er að nota þegar pöntunarlínur eru sendar til viðskiptavinar úr verslun. Einnig þarf að skilgreina að minnsta kosti einn afhendingarmáta fyrir sóttar vörur sem hægt er að nota þegar pöntunarlínur eru sóttar í versluninni. Afhendingarmátar eru skilgreindir á síðunni **Afhendingarmáti** í Commerce Headquarters. Frekari upplýsingar um uppsetningu afhendingarmáta fyrir viðskiptarásir er að finna í [Skilgreina afhendingarmáta](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Síða afhendingarmáta](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pan
 - **Prósenta afpöntunargjalds** – Ef nota á gjald þegar hætt er við pöntun viðskiptavinar, skal skilgreina upphæð þess gjalds.
 - **Kóði afpöntunargjalds** – Tilgreinið gjaldakóða viðskiptakrafa sem á að nota þegar afpöntunargjald er notað fyrir viðskiptavinapantanir í gegnum sölustað sem hætt er við. Gjaldakóðinn skilgreinir fjárhagsbókunarrökin fyrir afpöntunargjaldið.
 - **Kóði sendingargjalds** – Ef valkosturinn **Nota ítarleg sjálfvirk gjöld** er stilltur á **Já**, hefur þessi færibreytustilling engin áhrif. Ef þessi valkostur er stilltur á **Nei** verða notendur beðnir um að færa handvirkt inn sendingargjald þegar pantanir viðskiptavina eru stofnaðar á sölustað. Notið þessa færibreytu til að varpa gjaldakóða viðskiptakrafa sem verður notaður á pantanir þegar notendur færa inn sendingargjald. Gjaldakóðinn skilgreinir fjárhagsbókunarrökin fyrir sendingargjaldið.
-- **Nota ítarleg sjálfvirk gjöld** - Stillið þennan valkost á **Já** til að nota sjálfvirk gjöld sem kerfið reiknar út þegar pantanir viðskiptavina eru stofnaðar á sölustað. Hægt er að nota þessi sjálfvirku gjöld til að reikna út sendingargjöld eða önnur gjöld sem tengjast pöntun eða vöru. Frekari upplýsingar um hvernig setja á upp og nota ítarleg sjálfvirk gjöld er að finna í [Ítarleg sjálfvirk gjöld fyrir omni-rás](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Nota ítarleg sjálfvirk gjöld** - Stillið þennan valkost á **Já** til að nota sjálfvirk gjöld sem kerfið reiknar út þegar pantanir viðskiptavina eru stofnaðar á sölustað. Hægt er að nota þessi sjálfvirku gjöld til að reikna út sendingargjöld eða önnur gjöld sem tengjast pöntun eða vöru. Frekari upplýsingar um hvernig setja á upp og nota ítarleg sjálfvirk gjöld er að finna í [Ítarleg sjálfvirk gjöld fyrir omni-rás](./omni-auto-charges.md).
 
 ![Flipi viðskiptavinapantana á færibreytusíðu Commerce](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Uppfæra útlit færsluskjás á sölustað
 
-Gangið úr skugga um að [skjáútlit](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) sölustaðar sé skilgreindur til að styðja stofnun og stjórnun á pöntunum viðskiptavina og að allar nauðsynlegar aðgerðir sölustaðar séu skilgreindar. Hér eru nokkrar aðgerðir sölustaðar sem mælt er með til að styðja rétt við stofnun og stjórnun viðskiptavinapöntunar:
+Gangið úr skugga um að [skjáútlit](./pos-screen-layouts.md) sölustaðar sé skilgreindur til að styðja stofnun og stjórnun á pöntunum viðskiptavina og að allar nauðsynlegar aðgerðir sölustaðar séu skilgreindar. Hér eru nokkrar aðgerðir sölustaðar sem mælt er með til að styðja rétt við stofnun og stjórnun viðskiptavinapöntunar:
 - **Senda allar afurðir** – Þessi aðgerð er notuð til að tilgreina að allar línur í færslukörfunni verði sendar á áfangastað.
 - **Senda valdar afurðir** – Þessi aðgerð er notuð til að tilgreina að valdar línur í færslukörfunni verði sendar á áfangastað.
 - **Sækja allar afurðir** – Þessi aðgerð er notuð til að tilgreina að allar línur í færslukörfunni verði sóttar á valdri staðsetningu verslunar.
 - **Sækja valdar afurðir** – Þessi aðgerð er notuð til að tilgreina að valdar línur í færslukörfunni verði sóttar á valdri staðsetningu verslunar.
 - **Taka allar afurðir strax** – Þessi aðgerð er notuð til að tilgreina að allar línur í færslukörfunni verða teknar um leið. Ef þessi aðgerð er notuð á sölustað verður pöntun viðskiptavinar breytt í staðgreiðslufærslu.
-- **Taka valdar vörur strax** - Þessi aðgerð er notuð til að tilgreina að viðskiptavinurinn taki með sér valdar línur í færslukörfunni við greiðslu. Þessi aðgerð er aðeins gagnleg í atburðarás [blandaðrar pöntunar](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Taka valdar vörur strax** - Þessi aðgerð er notuð til að tilgreina að viðskiptavinurinn taki með sér valdar línur í færslukörfunni við greiðslu. Þessi aðgerð er aðeins gagnleg í atburðarás [blandaðrar pöntunar](./hybrid-customer-orders.md).
 - **Afturkalla pöntun** – Þessi aðgerð er notuð til að leita að og sækja pantanir viðskiptavina þannig að notendur sölustaðar geti breytt, hætt við eða framkvæmt uppfyllingaraðgerðir á þeim eins og þörf er á.
 - **Breyta afhendingarmáta** - Hægt er að nota þessa aðgerð til að breyta á fljótlegan hátt afhendingarmáta fyrir línur sem eru þegar skilgreindar fyrir sendingu, án þess að gera kröfu um að notendur fari í gegnum flæðið „senda allar afurðir“ eða „senda valdar afurðir“ aftur.
 - **Hnekking innborgunar** – Hægt er að nota þessa aðgerð til að breyta upphæð innborgunar sem viðskiptavinurinn greiðir fyrir valda pöntun viðskiptavinar.
@@ -128,7 +128,7 @@ Gangið úr skugga um að [skjáútlit](https://docs.microsoft.com/dynamics365/c
 Smásölupantanir sem annaðhvort eru stofnaðar á netrásinni eða verslunarrásinni er hægt að endurkalla og breyta í gegnum sölustað eftir þörfum.
 
 > [!IMPORTANT]
-> Ekki er hægt að breyta öllum smásölupöntunum í gegnum forrit sölustaðar. Pantanir sem stofnaðar eru í símaversrás er ekki hægt að breyta í gegnum sölustað ef kveikt er á stillingunni [Virkja lok pöntunar](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) fyrir símaversrásina. Til að tryggja rétta úrvinnslu á greiðslu, þarf að breyta pöntunum sem gerðar voru í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ í gegnum símaversforritið í Commerce Headquarters.
+> Ekki er hægt að breyta öllum smásölupöntunum í gegnum forrit sölustaðar. Pantanir sem stofnaðar eru í símaversrás er ekki hægt að breyta í gegnum sölustað ef kveikt er á stillingunni [Virkja lok pöntunar](./set-up-order-processing-options.md#enable-order-completion) fyrir símaversrásina. Til að tryggja rétta úrvinnslu á greiðslu, þarf að breyta pöntunum sem gerðar voru í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ í gegnum símaversforritið í Commerce Headquarters.
 
 Í útgáfu 10.0.17 og nýrri geta notendur breytt tilheyrandi pöntunum í gegnum forrit sölustaðar jafnvel þótt pöntunin sé uppfyllt að hluta til. Hins vegar er ekki hægt að breyta pöntunum í gegnum sölustað sem hafa verið reikningsfærðar að fullu. Til að virkja þennan möguleika skal kveikja á eiginleikanum **Breyta pöntunum á sölustað sem hafa verið uppfylltar að hluta til** á vinnusvæðinu **Eiginleikastjórnun**. Ef þessi eiginleiki er ekki virkur eða ef verið er að nota útgáfu 10.0.16 eða eldri, geta notendur aðeins breytt pöntunum viðskiptavinar á sölustað ef pöntunin er opin að fullu. Auk þess, ef eiginleikinn er virkur, er hægt að takmarka hvaða verslanir geta breytt pöntunum sem eru uppfylltar að hluta til. Hægt er að skilgreina valkostinn til að slökkva á þessum möguleika fyrir tilteknar verslun í gegnum **Virkniforstillingar** undir flýtiflipanum **Almennt**.
 
@@ -153,7 +153,7 @@ Smásölupantanir sem annaðhvort eru stofnaðar á netrásinni eða verslunarr�
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Gengið frá sendingu viðskiptavinapöntunar eða afhendingu á sölustað
 
-Eftir að pöntun er stofnuð verða vörurnar sóttar af viðskiptavininum á staðsetningu verslunar eða sendar, en það fer eftir skilgreiningu pöntunarinnar. Frekari upplýsingar um þetta ferli er að finna í fylgiskjölunum [uppfylling pöntunar í verslun](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Eftir að pöntun er stofnuð verða vörurnar sóttar af viðskiptavininum á staðsetningu verslunar eða sendar, en það fer eftir skilgreiningu pöntunarinnar. Frekari upplýsingar um þetta ferli er að finna í fylgiskjölunum [uppfylling pöntunar í verslun](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Ósamstillt færsluflæði fyrir pantanir viðskiptavinar
 

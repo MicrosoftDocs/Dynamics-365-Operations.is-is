@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833450"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935810"
 ---
 # <a name="improve-master-planning-performance"></a>Bæta frammistöðu aðaláætlunargerðar
 
@@ -79,14 +79,14 @@ Færibreytan **Notkun skyndiminnis** gerir þér kleift að breyta röðunarferl
 
 ### <a name="number-of-orders-in-firming-bundle"></a>Fjöldi pantana í staðfestingarbúnti
 
-Færibreyta **Fjöldi pantana í staðfestingarbúnti** tilgreinir heildarfjölda pantana sem verða unnar í einu af hverjum þræði/runu. Hún veldur samhliðun ferlis sjálfvirkar staðfestingar.
+Færibreyta **Fjöldi pantana í staðfestingarbúnti** tilgreinir heildarfjölda pantana sem verða unnar í einu af hverjum þræði/runu. Slíkt veldur samhliða vinnslu í ferli sjálkrafa staðfestingar.
 
-Þú getur stillt færibreytuna **Fjöldi pantana í staðfestingarbúnti** í hlutanum **Frammistaða** á flipanum **Almennt** á síðunni **Færibreytur aðaláætlanagerðar** (**Aðaláætlanagerð \> Uppsetning \> Færibreytur aðaláætlanagerðar**). Samhliðun ferlis sjálfvirkrar staðfestingar er byggð á pöntunum sem verður að vinna saman. Til dæmis, ef þessi færibreyta er stillt á **50** mun hver þráður eða runuverk tína til 50 pantanir í einu og vinna þær saman. Við mælum með að þú notir happa- og glappaferlið til að finna besta gildið. Hins vegar getur þú notað eftirfarandi formúlu til að reikna út upphafsgildi:
+Þú getur stillt færibreytuna **Fjöldi pantana í staðfestingarbúnti** í hlutanum **Frammistaða** á flipanum **Almennt** á síðunni **Færibreytur aðaláætlanagerðar** (**Aðaláætlanagerð \> Uppsetning \> Færibreytur aðaláætlanagerðar**). Samhliða vinnsla í ferli sjálkrafa staðfestingar byggir á pöntunum sem þarf að vinna úr saman. Til dæmis, ef þessi færibreyta er stillt á **50** mun hver þráður eða runuverk tína til 50 pantanir í einu og vinna þær saman. Við mælum með að þú notir happa- og glappaferlið til að finna besta gildið. Hins vegar getur þú notað eftirfarandi formúlu til að reikna út upphafsgildi:
 
 (Fjöldi pantana á búnt) = (Fjöldi eftirspurnarþátta ÷ Fjöldi þráða)
 
 > [!NOTE]
-> Ef þú stillir færibreytuna **Fjöldi pantana í staðfestingarbúnti** á **0** (núll) mun engin samhliðun verða á ferli sjálfvirkrar staðfestingar. Allt ferlið mun keyra á einu runuverki og hafa uppsafnaðan keyrslutíma. Þess vegna mun keyrslutími aðaláætlanagerðar aukast. Af þessum sökum mælum við með því að þú stillir þessa færibreytu á gildi sem er hærra en **0** (núll).
+> Ef þú stilltir færibreytuna **Fjöldi pantana í staðfestingarbúnti** á **0** (núll) munu engar samhliða vinnslur á ferli sjálfkrafa staðfsetingar eiga sér stað. Allt ferlið mun keyra á einu runuverki og hafa uppsafnaðan keyrslutíma. Þess vegna mun keyrslutími aðaláætlanagerðar aukast. Af þessum sökum mælum við með því að þú stillir þessa færibreytu á gildi sem er hærra en **0** (núll).
 
 ### <a name="time-fences"></a>Tímamörk
 

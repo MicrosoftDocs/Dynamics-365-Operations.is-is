@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 53a24866786f209a1d0f6932bb4f782bf936bd21
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e255c60889fdb49dfd8a1fd01be839b6405b02c6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819257"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919870"
 ---
 # <a name="process-review-and-post-rebates"></a>Meðhöndla, yfirfara og bóka eftirágreiddan afslátt
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að vinna úr tilboðum eftirágreidds afsláttar, reikna út afslættina, fara yfir færslurnar sem eru búnar til, bóka færslur og fara yfir bókanirnar.
 

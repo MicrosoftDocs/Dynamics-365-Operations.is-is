@@ -2,7 +2,7 @@
 title: Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði
 description: Þetta efnisatriði lýsir því hvernig skýrslusnið sem voru hönnuð til að mynda skýrslur sem Excel-vinnubækur geta verið skilgreind til að búa til skýrslur sem Word-skjöl.
 author: NickSelin
-ms.date: 01/11/2021
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891696"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944293"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði
 
@@ -36,8 +36,8 @@ Til að ljúka þessum ferlum þarf fyrst að fylgja skrefunum í verkleiðbeini
 
 Einnig þarf að hlaða niður og vista eftirfarandi sniðmát staðbundið fyrir sýnishorn skýrslu:
 
-- [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
-- [Bundið sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Bundið sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611 (nóvember 2016).
 

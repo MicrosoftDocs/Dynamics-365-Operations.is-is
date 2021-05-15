@@ -2,7 +2,7 @@
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751001"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937331"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -161,19 +161,7 @@ Til að flýta fyrir innflutningi gagna er hægt að virkja samhliða vinnslu á
     - Færðu inn færslufjölda innflutningsmarka til innflutnings á svæðinu **Færslufjöldi innflutningsmarka**. Þetta ákvarðar færslufjöldann sem á að vinna úr þræði. Ef skrá er með 10K færslur þýðir færslufjöldinn 2500 með verkfjölda 4 að hver þráður vinnur úr 2500 færslum.
     - Sláðu inn fjölda innflutningsverka á svæðið **Fjöldi innflutningsverka**. Þetta má ekki fara yfir hámark runuþráða sem úthlutað er til lotuvinnslu í **Kerfisstjórnun \>Grunnstilling netþjóns**.
 
-## <a name="clean-up-the-staging-tables"></a>Hreinsa sviðsetningartöflurnar
-Frá og með uppfærslu 29 á palli hefur þessari aðgerð verið úrelt. Þessu er skipt út fyrir nýja útgáfu af starfssöguhreinsunaraðgerðum sem lýst er hér að neðan.
-
-Þú getur hreinsað sviðsetningartöflur með því að nota eiginleikann **Hreinsun sviðsetningar** í vinnusvæðinu **Gagnastjórnun**. Þú getur notað eftirfarandi valkosti til að velja hvaða færslur skuli eytt úr hvaða sviðsetningartöflu:
-
-- **Eining**- Ef aðeins eining er gefin upp verður öllum færslum úr sviðsetningartöflu þeirrar einingar eytt. Veldu þennan möguleika til að hreinsa öll gögnin fyrir eininguna þvert á öll gögn og störf.
-- **Vinnslukenni** – Ef aðeins er valið vinnslukenni verður öllum skrám fyrir allar einingar í valinni vinnslu eytt úr viðeigandi sviðsetningartöflum.
-- **Gagnaverkefni**- Ef aðeins gagnaverkefni er valið eru allar skrár fyrir alla aðila og yfir öll störf fyrir valið gagnaverkefni eytt.
-
-Þú getur einnig sameinað valkostina til að takmarka enn frekar skráarsettið sem er eytt.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Atvinnusaga hreinsun (fæst í uppfærslu pallsins 29 og nýrri)
-
+## <a name="job-history-clean-up"></a>Hreinsun vinnsluferils 
 Nota verður starfshreinsunarreynslu í gagnastjórnun til að skipuleggja reglubundna hreinsun á framkvæmdarsögunni. Þessi aðgerð kemur í stað fyrri hreinsunaraðgerða sviðsetningarborðsins, sem nú er úrelt. Eftirfarandi töflur verða hreinsaðar upp með hreinsunarferlinu.
 
 -   Allar stigatöflur

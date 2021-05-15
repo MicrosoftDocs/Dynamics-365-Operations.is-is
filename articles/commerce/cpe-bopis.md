@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795956"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936912"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 
@@ -29,7 +29,7 @@ ms.locfileid: "5795956"
 
 ## <a name="prerequisite"></a>Skilyrði
 
-Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](./cpe-post-provisioning.md).
 
 Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá upphafi til enda geturðu notað þetta efnisatriði til að gera BOPIS atburðarás virka.
 
@@ -37,7 +37,7 @@ Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá 
 
 ### <a name="configure-modern-pos"></a>Grunnstilla Modern sölustað
 
-BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þetta efnisatriði útskýrir hvernig á að stilla BOPIS fyrir Windows og Android biðlara. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þetta efnisatriði útskýrir hvernig á að stilla BOPIS fyrir Windows og Android biðlara. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Opnaðu **Smásala og viðskipti \> Uppsetning rásar \> Uppsetning sölustaðar \> Afgreiðslukassar**.
 2. Veldu skráningu **SANFRAN-5** og veldu síðan **Breyta**.
@@ -87,7 +87,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Búðu til pöntun í netverslun til að sækja í verslun
 
-1. Farðu á slóðina sem þú tilgreindir í skrefinu [Frumstilla rafræn viðskipti](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) við grunnstillingu umhverfisins.
+1. Farðu á slóðina sem þú tilgreindir í skrefinu [Frumstilla rafræn viðskipti](./provisioning-guide.md#initialize-e-commerce) við grunnstillingu umhverfisins.
 2. Veldu hlut og veldu **Setja í körfu**.
 3. Veldu innkaupapokasíðuna og smelltu á **Sækja þetta** fyrir pöntunarlínuna sem þú varst að bæta við.
 4. Í svargluggann **Velja verslun** slærðu inn **San Francisco** og smelltu síðan á **Leitarhnappinn**.
@@ -112,7 +112,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Samstilltu pantanir á netinu við skrifstofuna
 
-Frekari upplýsingar um hvernig á að samstilla pantanir á netinu er að finna í [Bókun á netsölu og -greiðslum](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Frekari upplýsingar um hvernig á að samstilla pantanir á netinu er að finna í [Bókun á netsölu og -greiðslum](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Sækja pöntun í verslunina
 
@@ -148,19 +148,19 @@ Hvað öll almenn vandamál varðar, ættir þú fyrst að skoða tilvikaannála
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
-[Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyen-greiðslutengill](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Adyen-greiðslutengill](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Vista netgreiðslumáta með Adyen-tengli](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Vista netgreiðslumáta með Adyen-tengli](./dev-itpro/adyen-connector-listpi.md)
 
-[Greiðsluyfirlit Omni-rásar](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Greiðsluyfirlit Omni-rásar](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

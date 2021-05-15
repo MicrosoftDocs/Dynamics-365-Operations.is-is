@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 826cee7b1e30020aec99f6148dd9ab16f126c417
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7917f36d8ff3c1ae2d37c5390806ef82771b5211
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839126"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920038"
 ---
 # <a name="rebate-management-module-overview"></a>Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Hægt er að nota eininguna **Stjórnun eftirágreidds afsláttar** til að búa til samninga, tilboð eða samkomulag milli fyrirtækisins og viðskiptavina eða lánardrottna þess þannig að hægt sé að reikna út eftirágreidda afslætti, lækkanir og afnotagreiðslur. Stjórnun eftirágreidds afsláttar rekur og vinnur með færslur eftirágreidds afsláttar og lækkunar á miðlægri staðsetningu þar sem notendur geta á skilvirkan hátt búið þær til, farið yfir þær og unnið úr þeim.
 

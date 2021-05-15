@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748746"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923481"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 
@@ -134,7 +134,7 @@ Fyrir AD FS stærðarþörf skal sjá [Fylgiskjöl fyrir afkastagetu þjóns AD
 
 ## <a name="environment-orchestrator"></a>Environment Orchestrator
 
-Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar er að finna í [Skipuleggðu og undirbúðu virkjun á sjálfstæðum Service Fabric klasa](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar er að finna í [Skipuleggðu og undirbúðu virkjun á sjálfstæðum Service Fabric klasa](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sýndaruppsetning og ofáskrift
 
