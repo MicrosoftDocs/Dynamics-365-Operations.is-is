@@ -1,8 +1,8 @@
 ---
 title: Stofna og viðhalda á birgðalæsing
-description: Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða.
+description: Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834002"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956159"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="f525a-103">Stofna og viðhalda á birgðalæsing</span><span class="sxs-lookup"><span data-stu-id="f525a-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="b3caf-103">Stofna og viðhalda á birgðalæsing</span><span class="sxs-lookup"><span data-stu-id="b3caf-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f525a-104">Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða.</span><span class="sxs-lookup"><span data-stu-id="f525a-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="f525a-105">Hægt er að keyra ferlið sýnigögn fyrirtækisins USMF með dæmagildum sem eru sýndar.</span><span class="sxs-lookup"><span data-stu-id="f525a-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="f525a-106">Þú þarft að hafa vöru á lager raunbirgðum tiltækt áður en byrjað er að þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="f525a-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="b3caf-104">Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið.</span><span class="sxs-lookup"><span data-stu-id="b3caf-104">This topic describes how to use an inventory blocking to prevent physical on-hand inventory from being reserved by other outbound source documents.</span></span> <span data-ttu-id="b3caf-105">Áður en hafist er handa við ferlin í þessu efnisatriði verður þú að vera með vöru þar sem efnislegar lagerbirgðir eru í boði.</span><span class="sxs-lookup"><span data-stu-id="b3caf-105">Before you start the procedures in this topic, you must have an item that physical on-hand inventory is available for.</span></span>
 
+## <a name="block-inventory"></a><span data-ttu-id="b3caf-106">Birgðum læst</span><span class="sxs-lookup"><span data-stu-id="b3caf-106">Block inventory</span></span>
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="f525a-107">Stofna birgðalæsing</span><span class="sxs-lookup"><span data-stu-id="f525a-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="f525a-108">Í **skoðunarrúðunni** ferðu í **Kerfiseiningar > Birgðastýring > Reglubundin verk > Birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="f525a-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="f525a-109">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="f525a-109">Click **New**.</span></span>
-3. <span data-ttu-id="f525a-110">Í reitnum **Vörunúmer** skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f525a-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="f525a-111">Veljið vöruna sem á að velja af listanum.</span><span class="sxs-lookup"><span data-stu-id="f525a-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="f525a-112">Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka.</span><span class="sxs-lookup"><span data-stu-id="f525a-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="f525a-113">Ef þú ert að nota USMF er hægt að velja vöru M9201.</span><span class="sxs-lookup"><span data-stu-id="f525a-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="f525a-114">Í reitnum **Magn** slærðu inn tölu.</span><span class="sxs-lookup"><span data-stu-id="f525a-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="f525a-115">Ef þú ert að nota vöru M9201, þarf að velja minna en 200.</span><span class="sxs-lookup"><span data-stu-id="f525a-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="f525a-116">Útvíkkaðu flýtiflipann **Birgðavíddir**.</span><span class="sxs-lookup"><span data-stu-id="f525a-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="f525a-117">Í reitnum **Vöruhús** skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="f525a-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="f525a-118">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f525a-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="f525a-119">Ef þú ert að nota M9201 vöru er hægt að velja vöruhús 51.</span><span class="sxs-lookup"><span data-stu-id="f525a-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="f525a-120">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="f525a-120">Click **Save**.</span></span>
+<span data-ttu-id="b3caf-107">Fylgið eftirfarandi skrefum til að stofna birgðalokunarskrá svo birgðir séu lokaðar.</span><span class="sxs-lookup"><span data-stu-id="b3caf-107">To create an inventory blocking record so that inventory is blocked, follow these steps.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="f525a-121">Uppfæra skilyrðum fyrir birgðalæsing</span><span class="sxs-lookup"><span data-stu-id="f525a-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="f525a-122">Á flýtiflipanum **Almennt**, í reitnum **Magn** skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="f525a-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="f525a-123">Uppfæra magnsvæði birgða til að endurspegla magn til að loka.</span><span class="sxs-lookup"><span data-stu-id="f525a-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="f525a-124">Í reitnum **Væntanleg dagsetning** skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="f525a-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="f525a-125">Þú vilt kannski tilgreina þegar búist er við að læstar birgðir verða tiltækar til frátektar með því að úthluta væntanleg dagsetning..</span><span class="sxs-lookup"><span data-stu-id="f525a-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="f525a-126">Ef Áætlað innhreyfingar valkostur er valinn fyrir við birgðalæsing, eins og hann er sjálfgefinn þegar handvirkt við er stofnuð lokun, þessi dagsetning birtist á áætlaðrar færslu.</span><span class="sxs-lookup"><span data-stu-id="f525a-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="f525a-127">Smellt er á **Vista**.</span><span class="sxs-lookup"><span data-stu-id="f525a-127">Click **Save**.</span></span>
+1. <span data-ttu-id="b3caf-108">Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-108">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="b3caf-109">Í aðgerðarúðunni velurðu **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-109">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="b3caf-110">Í haus nýju lokunarfærslunnar á að setja **Vörunúmer** reitinn á vöruna sem á að loka á og slá inn lýsingu.</span><span class="sxs-lookup"><span data-stu-id="b3caf-110">On the header of the new blocking record, set the **Item number** field to the item that you want to block, and enter a description.</span></span>
+1. <span data-ttu-id="b3caf-111">Í flýtiflipanum **Almennt**, í reitnum **Magn**, skal færa inn vörufjöldann sem á að læsa.</span><span class="sxs-lookup"><span data-stu-id="b3caf-111">On the **General** FastTab, in the **Quantity** field, enter the number of items to block.</span></span>
+1. <span data-ttu-id="b3caf-112">Í flýtiflipanum **Birgðavíddir** skal tilgreina svæðið og vöruhúsið þar sem vörurnar sem á að læsa eru staðsettar.</span><span class="sxs-lookup"><span data-stu-id="b3caf-112">On the **Inventory dimensions** FastTab, specify the site and warehouse where the items that you want to block are currently located.</span></span>
+1. <span data-ttu-id="b3caf-113">Í aðgerðarúðunni skal velja **Vista**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-113">On the Action Pane, select **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="f525a-128">Fjarlægja birgðalæsingu</span><span class="sxs-lookup"><span data-stu-id="f525a-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="f525a-129">Í **aðgerðasvæðinu** er smellt á **Eyða**.</span><span class="sxs-lookup"><span data-stu-id="f525a-129">On the **Action Pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="f525a-130">Smellið á **Já**.</span><span class="sxs-lookup"><span data-stu-id="f525a-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="f525a-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="f525a-131">Close the page.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="b3caf-114">Uppfæra skilyrðum fyrir birgðalæsing</span><span class="sxs-lookup"><span data-stu-id="b3caf-114">Update the conditions of the inventory blocking</span></span>
 
+<span data-ttu-id="b3caf-115">Fylgið eftirfarandi skrefum til að uppfæra birgðalokunarfærslu.</span><span class="sxs-lookup"><span data-stu-id="b3caf-115">To update an inventory blocking record, follow these steps.</span></span>
 
+1. <span data-ttu-id="b3caf-116">Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-116">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="b3caf-117">Á listasvæðinu skal velja lokunarfærsluna sem á við.</span><span class="sxs-lookup"><span data-stu-id="b3caf-117">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="b3caf-118">Breyta færslunni eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b3caf-118">Edit the record as required.</span></span> <span data-ttu-id="b3caf-119">Til dæmis væri hægt að breyta gildinu í reitnum **Væntanleg dagsetning** til að tilgreina hvenær læstar birgðir verða væntanlega aðgengilegar fyrir frátekningu.</span><span class="sxs-lookup"><span data-stu-id="b3caf-119">For example, you might change the value of the **Expected date** field to indicate when the blocked inventory is expected to become available for reservation.</span></span> <span data-ttu-id="b3caf-120">Ef valkosturinn **Áætluð innhreyfing** er valinn mun dagsetningin birtast á væntanlegri færslu.</span><span class="sxs-lookup"><span data-stu-id="b3caf-120">If the **Expected receipts** option is selected, the date will appear on the expected transaction.</span></span> <span data-ttu-id="b3caf-121">(Valkosturinn **Væntanlegar innhreyfingar** er sjálfgefið valinn þegar lokunarfærsla er stofnuð handvirkt.)</span><span class="sxs-lookup"><span data-stu-id="b3caf-121">(The **Expected receipts** option is selected by default when you manually create a blocking record.)</span></span>
+1. <span data-ttu-id="b3caf-122">Í aðgerðarúðunni skal velja **Vista**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-122">On the Action Pane, select **Save**.</span></span>
+
+## <a name="unblock-inventory"></a><span data-ttu-id="b3caf-123">Birgðir opnaðar</span><span class="sxs-lookup"><span data-stu-id="b3caf-123">Unblock inventory</span></span>
+
+<span data-ttu-id="b3caf-124">Fylgja skal eftirfarandi skrefum til að fjarlægja birgðalokunarfærslu þannig að birgðir séu opnaðar.</span><span class="sxs-lookup"><span data-stu-id="b3caf-124">To remove an inventory blocking record so that inventory is unblocked, follow these steps.</span></span>
+
+1. <span data-ttu-id="b3caf-125">Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-125">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="b3caf-126">Á listasvæðinu skal velja lokunarfærsluna sem á við.</span><span class="sxs-lookup"><span data-stu-id="b3caf-126">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="b3caf-127">Á aðgerðasvæðinu skal velja **Eyða**.</span><span class="sxs-lookup"><span data-stu-id="b3caf-127">On the Action Pane, select **Delete**.</span></span>
+1. <span data-ttu-id="b3caf-128">Þú færð kvaðningu um að staðfesta aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="b3caf-128">You're prompted to confirm the operation.</span></span> <span data-ttu-id="b3caf-129">Veldu **Já** til að halda áfram.</span><span class="sxs-lookup"><span data-stu-id="b3caf-129">Select **Yes** to continue.</span></span>
+1. <span data-ttu-id="b3caf-130">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b3caf-130">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
