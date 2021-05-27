@@ -333,7 +333,7 @@
                   href: asset-management/setup-for-objects/counters.md
                 - name: Færibreytur eignastýringar
                   href: asset-management/setup-for-objects/enterprise-asset-management-parameters.md
-                - name: Lífferilsstöður eigna
+                - name: Líftímastöður eigna
                   href: asset-management/setup-for-objects/object-stages.md
                 - name: Þjónustustig eigna
                   href: asset-management/setup-for-objects/object-priorities.md
@@ -365,9 +365,7 @@
                   href: asset-management/objects/object-specification-overview.md
             - name: Uppsetning fyrir viðhaldsbeiðnir
               items:
-                - name: Viðhaldsbeiðnir
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Lífsferilsstöður viðhaldsbeiðni
+                - name: Líftímastöður viðhaldsbeiðni
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Gerðir viðhaldsbeiðna
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -1533,7 +1531,7 @@
                   href: inventory/reserve-inventory-quantities.md
                 - name: Frátekning sömu runu fyrir sölupöntun
                   href: sales-marketing/reserve-same-batch-sales-order.md
-            - name: Birgðastjórnun
+            - name: Birgðastýring
               items:
                 - name: Birgðalokun
                   href: cost-management/inventory-close.md
@@ -2229,7 +2227,7 @@
               href: engineering-change-management/engineering-versions-product-category.md
             - name: Virkja breytingastjórnun á fyrirliggjandi afurðum
               href: engineering-change-management/change-management-existing-products.md
-            - name: Lífferilsstaða afurðar og færslur
+            - name: Líftímastaða afurðar og færslur
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Vinna með breytingar á hönnunarafurðum
               href: engineering-change-management/engineering-change-management.md
@@ -2873,7 +2871,7 @@
                           href: service-management/reverse-changes-in-a-dispatch-board.md
                         - name: Sjá þjónustupantanir sem ekki hafa verið sendar
                           href: service-management/view-undispatched-service-orders.md
-                        - name: 'Breyta þjónustuuppskrift '
+                        - name: Breyta þjónustuuppskrift
                           href: service-management/modify-service-bom.md
                     - name: Veita þjónustu
                       items:
@@ -3189,7 +3187,7 @@
                       href: inventory/inventory-blocking.md
                     - name: Regluleg talning
                       href: warehousing/cycle-counting.md
-                    - name: 'Skilgreina reglulega talningu '
+                    - name: Skilgreina reglulega talningu
                       href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
                     - name: Hlutastaðsetning reglulegrar talningar
                       href: warehousing/partial-location-cycle-counting.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Úrræðaleit
           items:
+            - name: Kostnaðarstjórnun
+              items:
+                - name: Vantar reitarstillingar á afritun vörulínuflokka á annan lögaðila
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Skýrslan „Óbeinn kostnaður í vinnslu“ inniheldur framleiðslupantanir sem var eytt
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Uppsöfnuð innkaup bókuð með upphæð núll fyrir innhreyfingarskjal afurðar með núllvirði
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Efnislega mótteknar innkaupapantanir birtast ekki í skýrslu birgðalokunar
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Engin frá-dagsetning er í flipa virkra verða á síðu vöruverðs
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Birgðastjórnun
+              items:
+                - name: Margar birgðafærslur fyrir rununúmer án „Við efnislega uppfærslu“
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Að afturkalla skýrslu sem lokið býr til óvænta opna færslu
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Ekki tókst að sýna nýjar athugasemdir sem hengdar eru við færslubók í skýrslu tiltektarlista
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: Magn í biðgeymslupöntun í vinnslu uppfærist ekki þegar pöntuninni er skipt niður
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Reiturinn „Síðasti prófunardagur“ uppfærist ekki þegar margar gæðapantanir eru stofnaðar
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: Þegar magn framleiðsluþyngdar er skipt niður er lágmarksmagn í stað nafnmagns notað
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Aðaláætlanagerð
+              items:
+                - name: Unnið er úr beint afleiddum staðfestum pöntunum með verkflæði endurskoðunar
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Aðaláætlanagerð býr til áætlaðar pantanir fyrir skuggaafurðir
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Áætluð innkaupapöntun stofnuð þegar innkaup eru til innan neikvæðra daga
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Ekki tókst að hlaða upp kostnaðarverðinu í færslum eftirspurnarspár
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Ekki er hægt að fjarlægja vídd eftirspurnarspár vöruhúss úr spárlínum
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Innkaup
+              items:
+                - name: Ekki er hægt að reikningsfæra sölupöntun sem snýr að viðskiptavini í VEL-fyrirtækinu
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Ekki er hægt að bæta línu við innkaupabeiðni eftir að óskað hefur verið eftir breytingu
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Afurðaupplýsingastjórnun
+              items:
+                - name: Ekki er hægt að nota sniðmát til að búa til útgefna vöru
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Ekki er hægt að flytja inn vöru með V2-einingu útgefinna afurða
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Innkaupapantanir sýna ekki þýddan vörutexta
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Framleiðslustýring
+              items:
+                - name: Ekki er farið eftir stillingum losunarreglu í uppskriftarlínum
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Rununúmer er hreinsað við val á nýju lotukenni
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Síðbúið val ekki virt þegar framleiðslupantanir eru endurstilltar í gegnum runuvinnslu
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Notendur geta afturkallað efnislínur fyrir afurðir sem búið er að tilkynna sem lokið
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Villa við bókun skýrslu sem lokinni færslubók
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Vöruhúsið í færslubók tiltektarlista er ekki uppfært í uppskriftarlínu
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Stjórnun eftirágreidds afsláttar
+              items:
+                - name: Uppsöfnun eftirágreiddra afslátta með vöruflokkum eftirágreiddra afslátta mistekst
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Sala og markaðsstarf
+              items:
+                - name: Kerfisstjórar geta ekki aflétt biðstöðu pöntunar vegna þess að þeir hafa ekki heimild til þess
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Flutningsstjórnun
+              items:
+                - name: Aðeins er hægt að bæta aðallyklinum við sem kreditlykli vegna afstemmingar
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Vöruhúsakerfi
               items:
+                - name: Villa kemur upp þegar staðsetning er valin við skráningu tiltektarlista
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: Pökkunarstöðin sýnir ekki athugasemdir afurðar
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: Staðsetningarforstilling leyfir ekki neikvæða birgðaskráningu en neikvæð lagerstaða er leyfð
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Aðeins eitt merki prentast fyrir marga vinnuhausa í einni innhreyfingu
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Ekki er hægt að staðfesta sendingu vegna dagatalsvandamáls
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Ekki er hægt að staðfesta sendingu vegna ólokinnar vinnu eða vinnu sem vantar
