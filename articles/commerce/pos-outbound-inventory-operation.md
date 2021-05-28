@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795646"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022732"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Birgðaaðgerð á útleið á sölustað
 
@@ -71,7 +71,7 @@ Runuvinnslurnar sem þú býrð til verða notuð til að vinna úr skjölum sem
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Forsenda: Bættu aðgerð á útleið við POS skjámyndina
 
-Áður en fyrirtækið getur notað virknina aðgerð á útleið verður það að stilla POS-aðgerðina **Aðgerð á útleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
+Áður en fyrirtækið getur notað virknina aðgerð á útleið verður það að stilla POS-aðgerðina **Aðgerð á útleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842058"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016957"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Líftímastöður afurðar og færslur
 
@@ -74,5 +74,24 @@ Eftirfarandi reitir eru tiltækir fyrir hvert ferli sem er skráð á flýtiflip
 
 Þegar þú bætir við fleiri reglum um líftímastöðu sem sérstillingar er hægt að skoða þessar reglur í notandaviðmótinu (UI) með því að velja **Uppfæra ferli** á efra svæðinu. Hnappurinn **Uppfæra ferli** er aðeins tiltækur fyrir stjórnendur.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Líftímastöður fyrirútgefnar afurðir og afurðarafbrigði
+
+Fyrir vöru sem hefur afbrigði (aðal og afbrigði) verður varan (aðal) með líftímastöðu og hvert afbrigði getur einnig verið með mismunandi líftímastöðu.
+
+Ef lokað er á afbrigðið eða vöruna í tilteknum ferlum verður einnig lokað á ferlið. Til að ákvarða hvort ferli sé lokað mun kerfið því framkvæma eftirfarandi athuganir:
+
+- Fyrir vélstýrðar vörur:
+  - Ef núverandi hönnunarútgáfa er lokuð skal loka ferlinu.
+  - Ef núverandi afbrigði er lokað skal loka ferlinu.
+  - Ef losuð vara er lokuð skaltu loka ferlinu.
+- Fyrir staðlaðar afurðir:
+  - Ef núverandi afbrigði er lokað skal loka ferlinu.
+  - Ef losuð vara er lokuð skaltu loka ferlinu.
+
+Gefum okkur til dæmis að aðeins eigi að selja eitt afbrigði (rautt) af tiltekinni vöru (bolur) og loka fyrir sölu á öllum öðrum afbrigðum í bili. Þú gætir útfært þetta með eftirfarandi uppsetningu:
+
+- Tilgreindu líftímastöðu vörunnar sem leyfir ferlið. Til dæmis getur þú úthlutað vörunni (bolnum) líftímastöðunni *Seljanleg* sem leyfir viðskiptaferlið *Sölupöntun*.
+- Tilgreindu líftímastöðu fyrir seljanlegt afbrigði sem leyfir ferlið. Einnig er t.d. hægt að úthluta rauða afbrigðinu líftímastpðunni *Seljanlegt*.
+- Öll önnur afbrigði verða úthlutuð í aðra líftímastöðu þar sem ferlið er lokað. Til dæmis, úthlutaðu hvíta afbrigðinu (og öllum öðrum afbrigðum) líftímastöðunni *Ekki seljanlegt*, sem lokar fyrir viðskiptaferlið *Sölupöntun*.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834597"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026206"
 ---
 # <a name="set-up-postdated-checks"></a>Setja upp fyrirframdagsettar ávísanir
 
@@ -53,7 +53,11 @@ Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn U
     * Veldu reikninginn sem er notaður til að draga reikningsupphæðina frá.  
 18. Smelltu á Vista.
 19. Lokið síðunni.
-
-
+> [!NOTE]
+> Til að geta birt fyrirframgreidda ávísun á bankareikning þegar lotudagurinn er hærri en eða jafn og gjalddaginn verður þú að virkja eiginleikann **Staðfesting gjalddaga fyrir bókun greiðslubókar með fyrirframdagsettum ávísunum á bankareikning**. Þessi valkostur leyfir þér að bóka greiðslubækur fyrir lánardrottna og viðskiptavini með fyrirframdagsettum ávísunum þegar setudagsetning kemur á eftir eða á sömu dagsetningu og gjalddagi.
+> 
+> Þegar **Greiðslumáti** er stilltur (**Viðskiptakröfur > Greiðsluuppsetning > Greiðsluhættir**), skal ekki fylla út **Millilykill**. Í þessu tilviki er mótlykillinn fylltur út með bankareikningnum sem er settur upp í **Greiðslumáti**.
+>  
+> Þegar eiginleikinn er virkur og lotudagsetningin er lægri en gjalddagi birtast eftirfarandi villuskilaboð þegar greiðslubók er bókuð „Gjalddagi verður að vera á undan eða með sömu dagsetningu og setudagsetningin ef gerð mótlykils er banki“. Ef eiginleikinn er ekki virkur er hægt að birta greiðslubók með fyriframdagsettri ávísun þegar lotudagurinn er lægri en gjalddaginn.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

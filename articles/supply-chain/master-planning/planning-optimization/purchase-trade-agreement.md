@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961706"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015902"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Áætlanagerð með innkaupaverðsamningum
 
@@ -67,7 +67,7 @@ Eftir að kerfið er undirbúið eins og lýst er í hlutanum á undan, ætti a�
 1. Endurtakið þetta ferli fyrir hverja viðeigandi afurð.
 
 > [!NOTE]
-> Fínstilling áætlanagerðar styður innkaupasamninga með mörgum gjaldmiðlum. Þegar leitað er að viðskiptasamningi með valkostinum **Lægsta einingaverð** mun kerfið taka til greina línur innkaupasamnings með mismunandi gjaldmiðlum svo lengi sem að gengi hafi verið skilgreint á milli gjaldmiðils viðskiptasamningslínu og bókhaldsgjaldmiðils lögaðilans. Annars verður litið framhjá viðskiptasamningslínunni og villa kemur fram við aðaláætlanagerð. Því mun aðaláætlanagerð innihalda upplýsingar frá öllum viðeigandi línum innkaupasamnings þar sem hægt verður að umreikna verðin í bókhaldsgjaldmiðilinn.
+> Fínstilling áætlanagerðar styður innkaupasamninga með mörgum gjaldmiðlum. Þegar leitað er að viðskiptasamningi með valkostinum **Lægsta einingaverð** mun kerfið taka til greina línur innkaupasamnings með mismunandi gjaldmiðlum svo lengi sem að gengi hafi verið skilgreint á milli gjaldmiðils viðskiptasamningslínu og bókhaldsgjaldmiðils lögaðilans. Annars verður litið framhjá viðskiptasamningslínunni og villa kemur fram við aðaláætlanagerð. Því mun aðaláætlanagerð innihalda upplýsingar frá öllum viðeigandi línum innkaupasamnings þar sem hægt verður að umreikna verðin í bókhaldsgjaldmiðilinn. Mikilvægt er að athuga að rúnareglur verða ekki teknar með við viðskiptasamninginn og línuverðsbreytingar.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Dæmi um hvernig fínstilling áætlanagerðar finnur lánardrottin og afhendingartíma
 

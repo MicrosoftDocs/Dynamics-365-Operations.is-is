@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804332"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018955"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
@@ -70,7 +70,7 @@ Runuvinnslurnar sem þú býrð til verða notuð til að vinna úr skjölum sem
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Forsenda: Bættu aðgerð á innleið við POS skjámyndina
 
-Áður en fyrirtækið getur notað virknina aðgerð á heimleið verður það að stilla POS-aðgerðina **Aðgerð á innleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
+Áður en fyrirtækið getur notað virknina aðgerð á heimleið verður það að stilla POS-aðgerðina **Aðgerð á innleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -159,9 +159,9 @@ Aðgerðin virðir stillingar **Auð innhreyfing heimil** á geymsluvíddina **S
 
 Þessi eiginleiki virkar aðeins fyrir móttöku innkaupapantana. Ekki er hægt að taka á móti vörum gegn flutningspöntunum þegar vörur voru ekki áður pantaðar og sendar úr vöruhúsi á útleið.
 
-Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
+Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](../supply-chain/procurement/purchase-order-approval-confirmation.md) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
 
-Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
+Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
 
 Ef **Bæta línum við innkaupapöntun við móttöku sölustaðar** er virkt og notandi tekur á móti með **Aðgerð á innleið** á sölustað, ef notandi skannar eða slær inn strikamerki eða vörunúmer sem ekki hefur verið skráð sem vara á innkaupapöntuninni, en er viðurkennd sem gild vara, fær notandinn skilaboð um að bæta vörunni við innkaupapöntunina. Ef notandinn bætir vörunni við innkaupapöntunina er magnið sem fært er inn í **Móttaka núna** talið pöntunarmagn fyrir innkaupapöntunarlínuna.
 

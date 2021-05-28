@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800384"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027457"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Skilgreina og vinna með símaverspantanir í bið
 
@@ -53,7 +53,7 @@ Eftir að biðupplýsingarnar eru færðar inn og vistaðar getur notandinn loka
 
 Ef kveikt er á **Virkja lok pöntunar** flaggi á símaversrásinni, þarf ekki að virkja greiðslu fyrir pöntun sem er sett í bið. Hins vegar fyrir sölupöntun sem ekki er settir í bið, geta notendur ekki yfirgefið síðu sölupöntunarfærslu fyrr en greiðsla er virkjuð. Auðvitað verður greiðslu krafist áður en losað er um biðstöðu pöntunarinnar.
 
-Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
+Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Skoða og stjórna pöntunum sem eru í bið
 

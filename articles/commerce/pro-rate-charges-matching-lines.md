@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791055"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018607"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Hlutfallsskipting hausagjalda á samsvarandi sölulínur
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791055"
 
 Þetta efnisatriði lýsir virkninni fyrir flokkun á sjálfvirkum gjöldum á hausstigi og hlutfallsskipting þeirra á sölulínur Commerce. Þessi virkni er tiltæk fyrir færslur sem eru búnar til á sölustað (POS) í Retail útgáfu 10.0.1 og sölur sem eru búnar til í símaveri í Retail útgáfu 10.0.2.
 
-Þessi virkni er aðeins tiltæk ef kveikt er á eiginleikanum [ítarleg sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) með því að nota valkostinn á síðunni **Færibreytur Commerce**. Auk þess má nota ítarlega reikningsaðferð fyrir sjálfvirk gjöld eingöngu fyrir sölupantanir sem eru búnar til í gegnum Commerce-rásir (POS, símaver og verkvang rafrænna viðskipta Dynamics).
+Þessi virkni er aðeins tiltæk ef kveikt er á eiginleikanum [ítarleg sjálfvirk gjöld](/dynamics365/unified-operations/retail/omni-auto-charges) með því að nota valkostinn á síðunni **Færibreytur Commerce**. Auk þess má nota ítarlega reikningsaðferð fyrir sjálfvirk gjöld eingöngu fyrir sölupantanir sem eru búnar til í gegnum Commerce-rásir (POS, símaver og verkvang rafrænna viðskipta Dynamics).
 
 Þessi nýja virkni veitir fyrirtækjum meiri sveigjanleika í því hvernig sjálfvirk gjöld á hausstigi eru reiknuð og notuð í sölufærslum.
 
@@ -38,7 +38,7 @@ ms.locfileid: "5791055"
 
 Til dæmis eru sjálfvirk gjöld fyrir hausstig skilgreind fyrir flutningsmáta **99** og flutningsmáta **11**. Sölupöntun er búin til og flutningsmátinn **99** er skilgreindur í pöntunarhaus. Hins vegar eru nokkrar sölulínur settar upp þannig að þær eru fluttar með því að nota flutningsmátann **11**. Í þessu tilfelli eru aðeins gjöld á hausstigi sem eru tengd við flutningsmátann **99** tekin til greina og notuð í sölupöntun.
 
-Í Commerce eru gjöld hausstigs með viðbótar eiginleika sem gerir þér kleift að skilgreina [skilgreinda stigskiptingu gjalds](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) sem byggist á virði pöntunar. Til dæmis, ef virði pöntunar er á milli $50,00 og $200,00, gæti fyrirtæki viljað innheimta farmgjald sem nemur $5,00. Hins vegar, ef virði pöntunar er á milli $200,01 og $500,00 getur farmgjaldið numið $4,00.
+Í Commerce eru gjöld hausstigs með viðbótar eiginleika sem gerir þér kleift að skilgreina [skilgreinda stigskiptingu gjalds](/dynamics365/unified-operations/retail/configure-call-center-delivery) sem byggist á virði pöntunar. Til dæmis, ef virði pöntunar er á milli $50,00 og $200,00, gæti fyrirtæki viljað innheimta farmgjald sem nemur $5,00. Hins vegar, ef virði pöntunar er á milli $200,01 og $500,00 getur farmgjaldið numið $4,00.
 
 Sum fyrirtæki vilja njóta góðs af stigskiptum útreikningi á gjaldi sem er boðið upp á með gjöldum á hausstigi. Hins vegar, í tilfellum sem fela í sér blandaðan flutningsmáta, þarf einnig að ganga úr skugga um að gjöldin sem eru reiknuð séu byggð á samsvörun við flutningsmátann sem er skilgreindur í hverri sölulínu fyrir sig.
 
@@ -72,7 +72,7 @@ Sölupöntun er stofnuð í símaverinu og flutningsmátinn er stilltur á **99*
 
 Í þessari atburðarás er heildarpöntunin metin samkvæmt töflu fyrir sjálfvirk gjöld fyrir flutningsmátann **99**. Heildarsamtala allra sölulína er notuð til að ákvarða samsvarandi stig í skilgreiningu fyrir sjálfvirkt gjald og þetta gjald notað á hausstigi pöntunar. Í þessu dæmi er samtala pöntunar $165,00 og farmgjaldið er $15,00 er notað í pöntunarhaus. Aldrei er vísað í eða sjálfvirk gjöld notuð sem eru skilgreind fyrir flutningsmátann **11**.
 
-Í þessari atburðarás, ef viðskiptavinur skilar sumum vörunum í pöntuninni og ef [gjaldakóðinn hefur verið skilgreindur svo hann verði endurgreiddur](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2) er heildargjald á hausstigi notað kerfisbundið á endurgreiðsluna, jafnvel þótt aðeins sumar vörurnar hafi verið skilað.
+Í þessari atburðarás, ef viðskiptavinur skilar sumum vörunum í pöntuninni og ef [gjaldakóðinn hefur verið skilgreindur svo hann verði endurgreiddur](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2) er heildargjald á hausstigi notað kerfisbundið á endurgreiðsluna, jafnvel þótt aðeins sumar vörurnar hafi verið skilað.
 
 ### <a name="scenario-2"></a>Aðstæður 2
 

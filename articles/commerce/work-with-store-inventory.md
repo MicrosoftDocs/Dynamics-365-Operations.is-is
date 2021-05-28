@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64106cb1aeea01f1f227247d32b8b1dfdea98362
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793874"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020196"
 ---
 # <a name="commerce-inventory-management"></a>Birgðastjórnun Commerce
 
@@ -39,11 +39,11 @@ Commerce-forritin sem keyra í CSU styðja ekki eftirfarandi rakningarvíddir:
 
 - Forrit sölustaðar getur boðið upp á takmarkaðan stuðning fyrir eftirfarandi víddir. POS getur sjálfkrafa fært inn sumar þessara vídda í birgðafærslum, byggt á skilgreiningu vöruhúss eða uppsetningu verslunar. POS styður hins vegar ekki víddirnar að fullu eins og þær eru studdar ef sölufærsla er slegin handvirkt inn í Commerce Headquarters. 
 
-- **Staðsetning vöruhúss** – þegar þær nota nýja [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) og [aðgerð á útleið](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) geta notendur sölustaðaaðgerða valið staðsetningu vöruhúsabirgða til að taka á móti vörum í eða sent vörur út frá. Ef þeir nota úreltu aðgerðina **tiltekt og móttaka**, er takmarkaður staðsetningarstuðningur í boði fyrir móttöku og flutning á útleið. Þessi stuðningur er aðeins tiltækur ef hægt er að nota valkostinn **Nota vöruhúsakerfisferli** fyrir vöruna og vöruhús verslunarinnar. Ekki er hægt að nota birgðastaðsetningu með aðgerðina **birgðatalning** eða **birgðauppfletting**.
+- **Staðsetning vöruhúss** – þegar þær nota nýja [aðgerð á innleið](./pos-inbound-inventory-operation.md) og [aðgerð á útleið](./pos-outbound-inventory-operation.md) geta notendur sölustaðaaðgerða valið staðsetningu vöruhúsabirgða til að taka á móti vörum í eða sent vörur út frá. Ef þeir nota úreltu aðgerðina **tiltekt og móttaka**, er takmarkaður staðsetningarstuðningur í boði fyrir móttöku og flutning á útleið. Þessi stuðningur er aðeins tiltækur ef hægt er að nota valkostinn **Nota vöruhúsakerfisferli** fyrir vöruna og vöruhús verslunarinnar. Ekki er hægt að nota birgðastaðsetningu með aðgerðina **birgðatalning** eða **birgðauppfletting**.
 
-- **Númeraplata** – númeraplötur gilda aðeins þegar valkosturinn **Nota vöruhúsakerfisferli** hefur verið virkjaður fyrir vöruna og vöruhús verslunar. Á sölustað, ef tekið er á móti birgðum í vöruhúsi verslunar með því að nota **aðgerð á innleið** eða **Tiltekt og móttaka** þar sem ferli vöruhúsakerfis hefur verið virkjað, og ef staðsetningu sem valin er til að taka á móti vörunni er tengd við staðsetningarforstillingu sem krefst stjórnunar á númeraplötu, bætir forrit sölustaðar kerfisbundið númeraplötu við móttökulínuna. Sölustaðarnotendur geta ekki breytt eða stjórnað þessum gögnum númeraplötu. Ef þörf er á fullri stjórnun á númeraplötum er mælt með því að verslunin noti [vöruhúsaforrit](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) eða biðlara bakvinnslu til að stjórna móttöku á þessum vörum.
+- **Númeraplata** – númeraplötur gilda aðeins þegar valkosturinn **Nota vöruhúsakerfisferli** hefur verið virkjaður fyrir vöruna og vöruhús verslunar. Á sölustað, ef tekið er á móti birgðum í vöruhúsi verslunar með því að nota **aðgerð á innleið** eða **Tiltekt og móttaka** þar sem ferli vöruhúsakerfis hefur verið virkjað, og ef staðsetningu sem valin er til að taka á móti vörunni er tengd við staðsetningarforstillingu sem krefst stjórnunar á númeraplötu, bætir forrit sölustaðar kerfisbundið númeraplötu við móttökulínuna. Sölustaðarnotendur geta ekki breytt eða stjórnað þessum gögnum númeraplötu. Ef þörf er á fullri stjórnun á númeraplötum er mælt með því að verslunin noti [vöruhúsaforrit](../supply-chain/warehousing/install-configure-warehousing-app.md) eða biðlara bakvinnslu til að stjórna móttöku á þessum vörum.
 
-- **Raðnúmer** – sölustaðarforrit býður upp á takmarkaðan stuðning við skráningu á einu raðnúmeri í sölufærslulínu fyrir pantanir sem eru stofnaðar á sölustað og taka með raðaðar vörur. Þetta raðnúmer er ekki sannprófað gagnvart skráðum raðnúmerum sem eru nú þegar í birgðum. Ef sölupöntun er stofnuð í rás símavers eða uppfyllt í gegnum ERP og mörg raðnúmer eru skráð á staka sölulínu í uppfyllingarferlinu í ERP, verður ekki hægt að nota eða sannprófa þessi raðnúmer ef unnið er úr skilum á sölustað fyrir þessa pöntun. Þegar birgðir hafa verið mótteknar með aðgerðinni **aðgerð á innleið** geta notendur [skráð inn eða staðfest raðnúmerin sem eru móttekin](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Raðnúmer** – sölustaðarforrit býður upp á takmarkaðan stuðning við skráningu á einu raðnúmeri í sölufærslulínu fyrir pantanir sem eru stofnaðar á sölustað og taka með raðaðar vörur. Þetta raðnúmer er ekki sannprófað gagnvart skráðum raðnúmerum sem eru nú þegar í birgðum. Ef sölupöntun er stofnuð í rás símavers eða uppfyllt í gegnum ERP og mörg raðnúmer eru skráð á staka sölulínu í uppfyllingarferlinu í ERP, verður ekki hægt að nota eða sannprófa þessi raðnúmer ef unnið er úr skilum á sölustað fyrir þessa pöntun. Þegar birgðir hafa verið mótteknar með aðgerðinni **aðgerð á innleið** geta notendur [skráð inn eða staðfest raðnúmerin sem eru móttekin](./pos-serialized-items.md).
 
 - **Runukenni** – Forrit sölustaðar býður upp á takmarkaðan stuðning í uppgjörsbókun ef runustýrð vara er seld, en notendur sölustaðar geta ekki skilgreint runukennið sem var selt eða sótt þegar forrit sölustaðar var notað.
 
@@ -56,11 +56,11 @@ Commerce-forritin sem keyra í CSU styðja ekki eftirfarandi rakningarvíddir:
 
 ## <a name="purchase-orders"></a>Innkaupapantanir
 
-Innkaupabeiðnir eru stofnaðar í Commerce Headquarters. Ef vöruhús verslunar er tekin með í haus innkaupapöntunar eða á innkaupapöntunarlínum er hægt að taka á móti línunum í versluninni með aðgerðinni [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) á sölustað. 
+Innkaupabeiðnir eru stofnaðar í Commerce Headquarters. Ef vöruhús verslunar er tekin með í haus innkaupapöntunar eða á innkaupapöntunarlínum er hægt að taka á móti línunum í versluninni með aðgerðinni [aðgerð á innleið](./pos-inbound-inventory-operation.md) á sölustað. 
 
 ## <a name="transfer-orders"></a>Flutningspantanir
 
-Hægt er að stofna flutningspantanir í Commerce Headquarters eða í gegnum annað hvort [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) eða [aðgerð á útleið](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) í sölustað. Notið **aðgerð á innleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar í verslun frá öðru vöruhúsi eða geymslustað. Notaðu **aðgerð á útleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar úr versluninni í annað vöruhús eða geymslustað. Eftir að flutningspöntun fyrir verslun er stofnuð getur þessi verslun stjórnað móttöku birgða fyrir flutningspöntunina í gegnum **aðgerð á innleið** á sölustað. Ef verslunin er að senda birgðir á aðra staðsetningu, er **aðgerð á útleið** á sölustaðnum notuð til að stjórna sendingu á útleið í þessari verslun.
+Hægt er að stofna flutningspantanir í Commerce Headquarters eða í gegnum annað hvort [aðgerð á innleið](./pos-inbound-inventory-operation.md) eða [aðgerð á útleið](./pos-outbound-inventory-operation.md) í sölustað. Notið **aðgerð á innleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar í verslun frá öðru vöruhúsi eða geymslustað. Notaðu **aðgerð á útleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar úr versluninni í annað vöruhús eða geymslustað. Eftir að flutningspöntun fyrir verslun er stofnuð getur þessi verslun stjórnað móttöku birgða fyrir flutningspöntunina í gegnum **aðgerð á innleið** á sölustað. Ef verslunin er að senda birgðir á aðra staðsetningu, er **aðgerð á útleið** á sölustaðnum notuð til að stjórna sendingu á útleið í þessari verslun.
 
 ## <a name="stock-counts"></a>Birgðatalning
 
@@ -68,7 +68,7 @@ Birgðatalningar geta verið annaðhvort áætlaðar eða óskipulagðar. Áætl
 
 ## <a name="inventory-lookup"></a>Birgðauppfletting
 
-Núverandi afurðarmagn á lager fyrir margar verslanir og vöruhús er hægt að skoða á síðunni **Uppfletting á birgðum**. Til viðbótar við núverandi magn á lager er hægt að skoða magn sem tiltækt er að lofa í framtíðinni (ATP) fyrir hverja verslun. Veldu verslunina til að skoða ATP-magn fyrir og veldu síðan **Sýna tiltækileika verslunar**. Upplýsingar um skilgreiningarvalkostina sem eru í boði er að finna í [Reikna út birgðaframboð fyrir smásölurásir](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+Núverandi afurðarmagn á lager fyrir margar verslanir og vöruhús er hægt að skoða á síðunni **Uppfletting á birgðum**. Til viðbótar við núverandi magn á lager er hægt að skoða magn sem tiltækt er að lofa í framtíðinni (ATP) fyrir hverja verslun. Veldu verslunina til að skoða ATP-magn fyrir og veldu síðan **Sýna tiltækileika verslunar**. Upplýsingar um skilgreiningarvalkostina sem eru í boði er að finna í [Reikna út birgðaframboð fyrir smásölurásir](./calculated-inventory-retail-channels.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

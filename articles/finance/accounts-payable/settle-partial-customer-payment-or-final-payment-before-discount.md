@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 692a958840ab5c403575edc1da210002c368a084
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a7d13b533cda70dba432b2de20a65d6dcedb6863
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830689"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028084"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Jafna hlutagreiðslu og lokagreiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -61,14 +61,14 @@ Arnie smellir á **staðgreiðsluafsláttur** flipa til að skoða afsláttarupp
 | 7/25/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Hlutagreiðsla með því að nota síðuna færa inn greiðslur viðskiptavinar
-Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þessa greiðslu er smellir Apríl ekki á **Línur**. Í staðinn hann skráir greiðslu með því að stofna nýja greiðslubók og síðan opna á **færa Inn greiðslur viðskiptavina** síðu. Hann færir inn upplýsingar um greiðslu og merkir reikninginn sem hann færði inn. Þegar Arnie færir **500,00** sem upphæð færir hann einnig **500,00** í á **Upphæð til greiðslu** í hnitanetinu. Þar sem Fabrikam leyfir staðgreiðsluafslátt á hlutagreiðslur sér að hlutfallslegur staðgreiðsluafsláttur uppá 5.05 var einnig tekinn. Útreikningur fyrir þetta afsláttur er 500.00 ÷ 0.99 × 0.01 = 5.05. (Í þessum útreikningi 500,00 er deilt með 0.99, vegna þess að afsláttur 1 prósent. Þess vegna er greiðir viðskiptavinur 99 prósent af reikningi. Niðurstaðan er síðan margfaldað með afsláttarprósenta 1 prósent eða 0,01. Ef viðskiptavinurinn tekur fullt afsláttur 10,00, þarf að jafna upphæð sem er 990.00.) Afsláttarupplýsingarnar birtist í hnitaneti neðst á síðunni **Færa inn greiðslur viðskiptavina**.
+Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þessa greiðslu er smellir Apríl ekki á **Línur**. Í staðinn skráir Arnie greiðslu með því að stofna nýja greiðslubók og síðan opna á **færa Inn greiðslur viðskiptavina** síðu. Arnie færir inn upplýsingar um greiðslu og merkir reikninginn sem hann færði inn. Þegar Arnie færir inn **500,00** sem upphæð færir hann einnig **500,00** í **Upphæð til greiðslu** í hnitanetinu. Þar sem Fabrikam leyfir staðgreiðsluafslátt á hlutagreiðslur sér Arnie að hlutfallslegur staðgreiðsluafsláttur uppá 5.05 var einnig tekinn. Útreikningur fyrir þetta afsláttur er 500.00 ÷ 0.99 × 0.01 = 5.05. (Í þessum útreikningi 500,00 er deilt með 0.99, vegna þess að afsláttur 1 prósent. Þess vegna er greiðir viðskiptavinur 99 prósent af reikningi. Niðurstaðan er síðan margfaldað með afsláttarprósenta 1 prósent eða 0,01. Ef viðskiptavinurinn tekur fullt afsláttur 10,00, þarf að jafna upphæð sem er 990.00.) Afsláttarupplýsingarnar birtist í hnitaneti neðst á síðunni **Færa inn greiðslur viðskiptavina**.
 
 | Upphæð staðgreiðsluafsláttar sem á að veita | Notaður staðgreiðsluafsláttur | Upphæð til greiðslu |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Hlutagreiðsla með því að nota færslubókarlínur
-Í stað þess að opna **færa Inn greiðslur viðskiptavina** síðu í greiðslubók getur Arnie smellt á **Línur** til að færa inn greiðslu. Greiðslubók birtist, þar sem Arnie getur færa inn línu fyrir viðskiptavin 4028. Síðan opnar Arnie síðuna **Jafna færslur** svo að hann geti merkt reikninginn fyrir jöfnun. Arnie merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í **500,00**. Aftur, sér hann að gildið í á **upphæð staðgreiðsluafsláttar** er **10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **5.05**. Þess vegna er Arnie að jafna 505.05 fyrir þennan reikning.
+Í stað þess að opna **færa Inn greiðslur viðskiptavina** síðu í greiðslubók getur Arnie smellt á **Línur** til að færa inn greiðslu. Greiðslubók birtist, þar sem Arnie getur færa inn línu fyrir viðskiptavin 4028. Síðan opnar Arnie síðuna **Jafna færslur** svo Arnie geti merkt reikninginn fyrir jöfnun. Arnie merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í **500,00**. Aftur, Arnie sér að gildið í **upphæð staðgreiðsluafsláttar** er **10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **5.05**. Þess vegna er Arnie að jafna 505.05 fyrir þennan reikning.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -100,7 +100,7 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 5,00      |
 
-Arnie Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð í færslubók og þá bókar Arnie færslubókina. Hann getur endurskoða viðskiptavinafærslur á í **viðskiptavinafærslur** síðu. Á þessari síðu sér Arnie að reikningurinn hefur stöðuna 500,00. Hann sér einnig greiðslu uppá 495.00 og afsláttur 5,00.
+Arnie Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð í færslubók og þá bókar Arnie færslubókina. Arnie getur endurskoðað viðskiptavinafærslur á í **viðskiptavinafærslur** síðu. Á þessari síðu sér Arnie að reikningurinn hefur stöðuna 500,00. Arnie sér einnig greiðslu uppá 495.00 og afsláttur 5,00.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -109,7 +109,7 @@ Arnie Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð �
 | DISC-10010 |  Staðgreiðsluafsláttur   | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Greiðsla eftirstandandi upphæðar
-viðskiptavinur 4028 greiðir eftirstandandi upphæð 495.00 á Júlí 8, sem er innan tímabils staðgreiðsluafsláttar. Arnie stofnar greiðslubók á 8 Júlí og merkir færsluna til jöfnunar. hann sér að Upphæðin sem þarf að jafna er 495.00 . Gildið í á **Áætlaður staðgreiðsluafsláttur** er **5,00** því 5,00 afslátturinn var áður tekinn af.
+viðskiptavinur 4028 greiðir eftirstandandi upphæð 495.00 á Júlí 8, sem er innan tímabils staðgreiðsluafsláttar. Arnie stofnar greiðslubók á 8 Júlí og merkir færsluna til jöfnunar. Arnie sér að Upphæðin sem þarf að jafna er 495.00 . Gildið í á **Áætlaður staðgreiðsluafsláttur** er **5,00** því 5,00 afslátturinn var áður tekinn af.
 
 |   &nbsp;                | &nbsp; |
 |-------------------------|--------|

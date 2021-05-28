@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794020"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028156"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Endurbætur á sölustað fyrir raðaðar afurðir
 
@@ -30,7 +30,7 @@ Byggt á stillingum í Commerce Headquarters er hægt að flokka vörur sem anna
 
 ## <a name="pos-improvements"></a>POS endurbætur
 
-- **Ekki er krafist raðnúmera fyrr en við kaup** - Áður þurfti gjaldkeri að bæta raðnúmeri við viðskipti fyrir raðaðar vörur. Þetta var vandamál ef gjaldkerar og söluaðilar höfðu tækifæri til að selja viðbótarvörur. Fram að greiðslustigi voru vörur oft uppfærðar í körfu. Í hvert skipti sem gjaldkeri bætti við nýrri vöru spurði kerfið hann eða hana því um raðnúmerið. Svargluggi raðnúmera inniheldur hnappinn **Bæta við síðar**. Þess vegna geta söluaðilar bætt hlut við færslu og veitt raðnúmerið síðar. Söluaðilar geta á fljótlegan hátt bætt við og skipt út röðuðum vörum í körfunni og gefið svo upp raðnúmerið rétt fyrir útskráningu. Ef raðnúmer er ekki veitt fyrir hvaða röðuðu vöru sem er fær gjaldkeri sem reynir að ljúka við viðskiptin villuboð. Þessi skilaboð segja að gjaldkeri þurfi að gefa upp raðnúmer sem vantar áður en hann eða hún getur haldið áfram.
+- **Ekki er krafist raðnúmera fyrr en við kaup** - Áður þurfti gjaldkeri að bæta raðnúmeri við viðskipti fyrir raðaðar vörur. Þetta var vandamál ef gjaldkerar og söluaðilar höfðu tækifæri til að selja viðbótarvörur. Fram að greiðslustigi voru vörur oft uppfærðar í körfu. Í hvert skipti sem gjaldkeri bætti við nýrri vöru spurði kerfið hann því um raðnúmerið. Svargluggi raðnúmera inniheldur hnappinn **Bæta við síðar**. Þess vegna geta söluaðilar bætt hlut við færslu og veitt raðnúmerið síðar. Söluaðilar geta á fljótlegan hátt bætt við og skipt út röðuðum vörum í körfunni og gefið svo upp raðnúmerið rétt fyrir útskráningu. Ef raðnúmer er ekki veitt fyrir hvaða röðuðu vöru sem er fær gjaldkeri sem reynir að ljúka við viðskiptin villuboð. Þessi skilaboð segja að gjaldkeri þurfi að gefa upp raðnúmer sem vantar áður en hann getur haldið áfram.
 
     Fyrir hverja röðuðu vöru þar sem raðnúmeri var sleppt birtist athugasemd undir færslulínunni. Þessi athugasemd segir að raðnúmer hafi ekki verið gefið upp fyrir vöruna. Því getur gjaldkeri fljótt fundið vörur án raðnúmers.
 

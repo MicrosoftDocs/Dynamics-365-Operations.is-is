@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938487"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015952"
 ---
 # <a name="category-requests-from-vendors"></a>Tegundabeiðnir frá lánardrottnum
 
@@ -36,10 +36,7 @@ Eftir að kveikt er á eiginleikanum er enn hægt að bæta innkaupaflokkum hand
 
 Áður en lánardrottin getur unnið með tegundabeiðnir þarf að setja þær upp fyrir samstarf lánardrottna.
 
-Lánardrottinn verður að hafa að minnsta kosti einn notanda lánardrottnasamstarfs. Aðeins lánardrottnar sem eru með eitt eða bæði eftirfarandi öryggishlutverk geta stofnað og sent inn tegundabeiðnir:
-
-- Tengiliður lánardrottins (ytri)
-- Kerfisstjóri lánardrottins (ytri)
+Lánardrottinn verður að hafa að minnsta kosti einn notanda lánardrottnasamstarfs. Aðeins notendur söluaðila með *Kerfisstjóri lánardrottins (ytriytri)* geta búið til og sent inn beiðnir um flokka.
 
 Frekari upplýsingar, sjá [Setja upp og vinna með samstarf lánardrottna](set-up-maintain-vendor-collaboration.md).
 

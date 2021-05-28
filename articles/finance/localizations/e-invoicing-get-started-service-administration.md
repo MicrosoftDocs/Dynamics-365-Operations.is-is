@@ -2,7 +2,7 @@
 title: Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með rafrænni reikningsfærslu.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840149"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980976"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 
@@ -33,10 +33,10 @@ ms.locfileid: "5840149"
 - Þú verður að hafa aðgang að reikningi á Microsoft Dynamics Lifecycle Services (LCS).
 - Þú verður að vera með LCS-verk sem inniheldur útgáfu 10.0.17 eða nýrri af Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Þar að auki verða þessi forrit að vera sett upp á einni af eftirfarandi Azure-staðsetningum:
 
-    - Austurhluti Bandaríkjanna
-    - Vesturhluti Bandaríkjanna
-    - Norðurhluti Evrópusambandsins
-    - Vesturhluti Evrópusambandsins
+    - Bandaríkin
+    - Evrópa
+    - Bretland
+    - Asía
 
 - Þú verður að hafa aðgang að reikningnum þínum hjá Dynamics 365 Regulatory Configuration Services (LCS).
 - Þú verður að virkja altækan eiginleika fyrir RCS-reikninginn þinn í eiginleikastjórnun. Frekari upplýsingar er að finna í [Regulatory Configuration Services (RCS) – Altækir eiginleikar](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ ms.locfileid: "5840149"
 
 1. Skráðu þig inn á LCS-reikninginn þinn.
 2. Veldu reitinn **Stjórnun forskoðunareiginleika**.
-3. Í hlutanum **Opnir forskoðunareiginleikar** skal velja **Þjónusta rafrænnar reikningsfærslu**.
+3. Í hlutanum **Opnir forskoðunareiginleikar** skal velja **Rafræn reikningsfærsla**.
 4. Gangið úr skugga um að valkosturinn **Virkja forskoðunareiginleika** sé stilltur á **Já**.
-5. Á LCS-stjórnborðinu skal velja LCS-uppsetningarverkið. LCS-verkið verður að vera í gangi.
-7. Í flipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
-8. Veljið **Þjónusta rafrænnar reikningsfærslu**.
+5. Á stjórnborði LCS-verkefnisins skal velja LCS-verkefni.
+6. Í LCS verkefninu, á stjórnborði LCS umhverfisins, skaltu velja uppsetningarverkefni LCS. LCS-uppsetningarverkið verður að vera í gangi.
+7. Í flipanum **Power Platform Samþætting** í **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+8. Velja **Rafræn reikningsfærsla**.
 9. Í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
 10. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
 11. Farið yfir skilmálana og veljið því næst gátreitinn.
@@ -65,10 +66,10 @@ ms.locfileid: "5840149"
 
     | Gagnamiðstöð Azure-staðsetningar | URI fyrir endastöð þjónustu                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Austurhluti Bandaríkjanna                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Vesturhluti Bandaríkjanna                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Norðurhluti Evrópusambandsins                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Vesturhluti Evrópusambandsins                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Bandaríkin              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Evrópa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Bretland             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Asía                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Gangið úr skugga um að reiturinn **Forritsauðkenni** sé stilltur á **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gildið er fast.
 5. Í reitinn **LCS-umhverfiskenni** skal færa inn auðkenni LCS-umhverfis.
@@ -152,12 +153,12 @@ ms.locfileid: "5840149"
 1. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
 2. Í flipanum **Innsendingarþjónusta**, í reitinn **Vefslóð fyrir endastöð þjónustu** skal slá inn viðeigandi endastöð þjónustu fyrir Azure-staðfestinguna þína eins og sýnt er í eftirfarandi töflu.
 
-    | Gagnamiðstöð Azure-staðsetningar | ULR endastöð þjónustu                                                       |
+    | Gagnamiðstöð Azure-staðsetningar | URI fyrir endastöð þjónustu                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Austurhluti Bandaríkjanna                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Vesturhluti Bandaríkjanna                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Norðurhluti Evrópusambandsins                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Vesturhluti Evrópusambandsins                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Bandaríkin              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Evrópa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Bretland             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Asía                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Í reitinn **Umhverfi** skal færa inn heiti á þjónustuumhverfi sem er birt í rafrænni reikningsfærslu.
 4. Veljið **Vista** og lokið síðan skjámyndinni.

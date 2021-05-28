@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792872"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019934"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Stafræn gjafakort rafrænna viðskipta
 
@@ -51,12 +51,12 @@ Stafrænar afurðir gjafakorta ættu að vera skilgreindar í Commerce Headquart
 
     ![Reitur gjafakortsafurðar í Commerce Headquarters](./media/PostGiftcard.png)
 
-- Ef gjafakort verður að styðja margar fyrirframskilgreindar upphæðir (til dæmis, $25, $50 og $100) ætti að nota víddina **Stærð** til að setja upp þessar fyrirframskilgreindu upphæðir. Hver fyrirframskilgreind upphæð verður afbrigði. Frekari upplýsingar er að finna í [Afurðarvíddir](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Ef gjafakort verður að styðja margar fyrirframskilgreindar upphæðir (til dæmis, $25, $50 og $100) ætti að nota víddina **Stærð** til að setja upp þessar fyrirframskilgreindu upphæðir. Hver fyrirframskilgreind upphæð verður afbrigði. Frekari upplýsingar er að finna í [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Ef viðskiptavinir verða að geta tilgreint sérstaka upphæð fyrir gjafakort skal fyrst setja upp afbrigði sem leyfir sérsniðna upphæð. Næst er afurðin opnuð á síðunni **Útgefnar afurðir í flokki** og síðan, í flýtiflipanum **Commerce**, skal stilla reitinn **Slá inn verð** á **Verður að slá inn nýtt verð** eins og sýnt er á eftirfarandi mynd. Þessi stilling tryggir að viðskiptavinir geti fært inn verð þegar þeir fletta upp afurðinni á upplýsingasíðu hennar.
 
     ![Reitur fyrir innslátt verðs í Commerce Headquarters](./media/KeyInPrice.png)
 
-- Afhendingarmáti fyrir stafrænt gjafakort verður að vera stilltur á **Rafrænn**. Á síðunni **Afhendingarmáti** (**Smásala og viðskipti \> Uppsetning rásar \> Afhendingarmáti**) skal velja afhendingarmátann **Rafrænn** á listasvæðinu og síðan bæta stafrænni gjafakortsafurð við hnitanetið í flýtiflipanum **Afurðir** eins og sýnt er á eftirfarandi mynd. Frekari upplýsingar er að finna í [Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Afhendingarmáti fyrir stafrænt gjafakort verður að vera stilltur á **Rafrænn**. Á síðunni **Afhendingarmáti** (**Smásala og viðskipti \> Uppsetning rásar \> Afhendingarmáti**) skal velja afhendingarmátann **Rafrænn** á listasvæðinu og síðan bæta stafrænni gjafakortsafurð við hnitanetið í flýtiflipanum **Afurðir** eins og sýnt er á eftirfarandi mynd. Frekari upplýsingar er að finna í [Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Stafrænar gjafakortsafurðir á síðu afhendingarmáta í Commerce Headquarters](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Til að skilgreina sérsniðna upphæð fyrir stafrænt gjafakort í Commerce-ve
 
 [Stofna nýja afurð í Commerce](create-new-product-commerce.md)
 
-[Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Afurðarvíddir](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Setja upp forstillingu tilkynningar í tölvupósti](email-notification-profiles.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910426"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017007"
 ---
 # <a name="inventory-visibility-add-in"></a>Innbót birgðasýnileika
 
@@ -41,20 +41,23 @@ Setja þarf upp innbót birgðasýnileika með því að nota Microsoft Dynamics
 
 Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Forkröfur
+### <a name="inventory-visibility-add-in-prerequisites"></a>Skilyrði innbótar birgðasýnileika
 
 Áður en þú setur upp innbót birgðasýnileika þarftu að gera eftirfarandi:
 
 - Fá LCS-innleiðingarverk með að minnsta kosti einu virku umhverfi í notkun.
 - Gangið úr skugga um að skilyrðum fyrir uppsetningu innbóta sem gefnar eru upp í [Yfirliti innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) sé lokið. Sýnileiki birgða krefst ekki tengingu tvöföldrar skráningar.
 - Hafa skal samskipti við teymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá eftirfarandi þrjár áskildar skrár:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
+- Hafa skal samband við teymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá pakka Package Deployer pakka. Þessar pakkar geta verið notaðar af almennu verkfæri Package Deployer.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (þessi pakki inniheldur allar breytingarnar í `InventoryServiceBase`-pakkanum ásamt aukalegum forritsþáttum notendaviðmótsins)
 - Fylgið leiðbeiningunum sem gefnar eru í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app) til að skrá forrit og bæta leyniorði biðlara við AAD undir áskriftinni að azure.
-    - [Skrá forrit](/azure/active-directory/develop/quickstart-register-app)
-    - [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - **Auðkenni forrits (biðlara)**, **Leyniorð biðlara** og **Leigjandakenni** verður notað í eftirfarandi skrefum.
+  - [Skrá forrit](/azure/active-directory/develop/quickstart-register-app)
+  - [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - **Auðkenni forrits (biðlara)**, **Leyniorð biðlara** og **Leigjandakenni** verður notað í eftirfarandi skrefum.
 
 > [!NOTE]
 > Ríkin sem eru studd eins og er eru Kanada, Bandaríkin og Evrópusambandið (ESB).
@@ -63,18 +66,49 @@ Ef einhverjar spurningar vakna um þessi skilyrði er hægt að hafa samband vi�
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Setja upp Dataverse
 
-Fylgdu þessum skrefum til að setja upp Dataverse.
+Til að setja upp Dataverse til að nota með birgðasýnileika þarf fyrst að undirbúa skilyrðin og síðan ákveða hvort eigi að setja upp Dataverse með annaðhvort verkfæri Package Deployer eða með því að flytja lausnirnar inn handvirkt (ekki þarf að gera bæði). Setjið svo upp innbót birgðasýnileika Eftirfarandi undirhlutar lýsa því hvernig á að ljúka hverju verki fyrir sig.
 
-1. Bætið þjónustureglu við leigjandann:
+#### <a name="prepare-dataverse-prerequisites"></a>Undirbúa skilyrði Dataverse
 
-    1. Setjið upp Azure AD PowerShell-einingu v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir graf](/powershell/azure/active-directory/install-adv2).
-    1. Keyra eftirfarandi PowerShell-skipun.
+Áður en hafist er handa við uppsetningu Dataverse skal bæta þjónustureglu við leigjandann með því að gera eftirfarandi:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Setjið upp Azure AD PowerShell-einingu v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir graf](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Keyra eftirfarandi PowerShell-skipun:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Setja upp Dataverse með verkfæri Package Deployer
+
+Þegar skilyrðin eru á sínum stað skal nota eftirfarandi ferli ef ætlunin er að setja upp Dataverse með verkfæri Package Deployer. Skoðið næsta hluta til að fá upplýsingar um hvernig á að flytja inn lausnirnar á handvirkan hátt í staðinn (ekki gera bæði).
+
+1. Setjið upp verkfæri þróunaraðila eins og lýst er í [Sækja verkfæri frá NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. Byggt á viðskiptaþörfunum skal velja `InventoryServiceBase` eða `InventoryServiceApplication`-pakka.
+
+1. Flytjið inn lausnirnar:
+    1. Fyrir `InventoryServiceBase` pakkann:
+        - Afþjappa `InventoryServiceBase.PackageDeployer.zip`
+        - Finnið möppu `InventoryServiceBase`, skrá `[Content_Types].xml`, skrá `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`, skrá `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` og skrá `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - Afritið allar þessar möppur og skrár í `.\Tools\PackageDeployment`-skráasafnið sem var búið til þegar verkfæri þróunaraðila voru sett upp.
+    1. Fyrir `InventoryServiceApplication` pakkann:
+        - Afþjappa `InventoryServiceApplication.PackageDeployer.zip`
+        - Finnið möppu `InventoryServiceApplication`, skrá `[Content_Types].xml`, skrá `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`, skrá `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` og skrá `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - Afritið allar þessar möppur og skrár í `.\Tools\PackageDeployment`-skráasafnið sem var búið til þegar verkfæri þróunaraðila voru sett upp.
+    1. Framkvæma `.\Tools\PackageDeployment\PackageDeployer.exe`. Fylgið leiðbeiningunum á skjánum til að flytja inn lausnirnar.
+
+1. Úthlutið notanda forritsins öryggishlutverkum.
+    1. Opnið vefslóð Dataverse umhverfisins.
+    1. Farið í **Ítarleg stilling\> Kerfi \> Öryggi \> Notendur** og finnið notanda sem kallast **# InventoryVisibility**.
+    1. Veljið **Úthluta hlutverki** og veljið því næst **Kerfisstjóri**. Ef til er hlutverk sem heitir **Common Data Service Notandi** skal líka velja það.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Setjið upp Dataverse handvirkt með því að flytja inn lausnir
+
+Þegar skilyrðin eru á sínum stað skal nota eftirfarandi ferli ef ætlunin er að setja upp Dataverse með því að flytja inn lausnir á handvirkan hátt. Skoðið hlutann hér á undan fyrir upplýsingar um hvernig á að nota verkfæri Package Deployer í staðinn (ekki gera bæði).
 
 1. Stofnið forritsnotanda fyrir birgðarsýnileika í Dataverse:
 

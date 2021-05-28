@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 401fb9af5d2d50a14c288363af3e0b814dcbf7c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793970"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018542"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
@@ -34,13 +34,13 @@ ms.locfileid: "5793970"
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Kveikja á eiginleika fyrir svikaathugun
 
-Til að nota eiginleika fyrir svikaathugun verður þú að stilla **Virkja lok pöntunar** valmöguleikann á rásinni á **Já** þegar símaversrásin er [skilgreind](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Þegar kveikt er á lokum pöntunar, verða notendur símavers að velja **Ljúka** á sölupöntunarsíðunni fyrir allar sölupantanir sem eru búnar til. Ljúka aðgerðin veldur því að **Sölupöntunarsamantekt** síðan opnast. Eftir að notendur hafa slegið inn nauðsynleg greiðslugögn á **Sölupöntunarsamantekt** síðunni skal velja **Senda inn** til að ljúka pöntuninni. Þegar pöntunin er send inn er kveikt á svikaathuguninni og allir reglur sem eru virkir í kerfinu eru sjálfkrafa sannprófaðar.
+Til að nota eiginleika fyrir svikaathugun verður þú að stilla **Virkja lok pöntunar** valmöguleikann á rásinni á **Já** þegar símaversrásin er [skilgreind](/dynamics365/unified-operations/retail/set-up-order-processing-options). Þegar kveikt er á lokum pöntunar, verða notendur símavers að velja **Ljúka** á sölupöntunarsíðunni fyrir allar sölupantanir sem eru búnar til. Ljúka aðgerðin veldur því að **Sölupöntunarsamantekt** síðan opnast. Eftir að notendur hafa slegið inn nauðsynleg greiðslugögn á **Sölupöntunarsamantekt** síðunni skal velja **Senda inn** til að ljúka pöntuninni. Þegar pöntunin er send inn er kveikt á svikaathuguninni og allir reglur sem eru virkir í kerfinu eru sjálfkrafa sannprófaðar.
 
-Notendur símavers geta einnig handvirkt sett sölupantanir í bið til að gera svikakönnun áður en þeir velja **Senda inn**. Til að setja sölupöntun handvirkt í bið, á **Sölupöntunarsamantekt** síðunni skaltu velja **Í bið** \> **Handvirk bið vegna svika**. Þú ert þá beðinn um að slá inn athugasemd til að útskýra ástæður þínar fyrir að setja pöntunina í bið. Þessi athugasemd munu birtast í [Pantanir í bið](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) vinnusvæði til að veita samhengi við notandann sem skoðar pantanir sem eru í bið til að ákvarða hvort pöntunin skuli losuð.
+Notendur símavers geta einnig handvirkt sett sölupantanir í bið til að gera svikakönnun áður en þeir velja **Senda inn**. Til að setja sölupöntun handvirkt í bið, á **Sölupöntunarsamantekt** síðunni skaltu velja **Í bið** \> **Handvirk bið vegna svika**. Þú ert þá beðinn um að slá inn athugasemd til að útskýra ástæður þínar fyrir að setja pöntunina í bið. Þessi athugasemd munu birtast í [Pantanir í bið](/dynamics365/unified-operations/retail/work-with-order-holds) vinnusvæði til að veita samhengi við notandann sem skoðar pantanir sem eru í bið til að ákvarða hvort pöntunin skuli losuð.
 
 Til viðbótar við að grunnstilla **Virkja lok pöntunar** valkost á rásinni, verður þú að grunnstilla eiginleika svikaathugunar í færibreytur símavers. Farið í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Á **Færibreytur símavers** síðunni, á **Biðstöður** flipanum, stilltu **Svikaathugun** valkosturinn á **Já**.
 
-Á **Biðstöður** flipanum ættir þú einnig að skilgreina þá [Biðkóðar](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) sem verður beitt í pöntun sem er annaðhvort handvirkt eða sjálfkrafa sett í bið til svikaathugunar. Stilltu biðkóðana í **Handvirk bið sökum svika** og **Biðkóði sökum svika** reitina. Þú gætir þótt gagnlegt að búa til tvo einstaka biðkóða, þannig að notendur sem vinna í vinnusvæði fyrir bið geta auðveldlega afmarkað og greint sjálfvirka bið frá handvirkri bið.
+Á **Biðstöður** flipanum ættir þú einnig að skilgreina þá [Biðkóðar](/dynamics365/unified-operations/retail/work-with-order-holds) sem verður beitt í pöntun sem er annaðhvort handvirkt eða sjálfkrafa sett í bið til svikaathugunar. Stilltu biðkóðana í **Handvirk bið sökum svika** og **Biðkóði sökum svika** reitina. Þú gætir þótt gagnlegt að búa til tvo einstaka biðkóða, þannig að notendur sem vinna í vinnusvæði fyrir bið geta auðveldlega afmarkað og greint sjálfvirka bið frá handvirkri bið.
 
 Til að eiginleikinn fyrir svikaathugun sé skilvirkur, verður þú einnig að stilla **Lágmarksfjöldi stiga** reitinn. Sérhver svikaviðmiðun og regla sem er skilgreind í kerfinu hefur ákveðinn fjölda stiga. Þegar sölupöntun er skoðuð fyrir sviksamsvörun, ef ein eða fleiri samsvörun finnast, eru stigin bætt saman til að gefa pöntunina heildarfjölda svikastiga. Ef heildarfjöldi svikastiga fyrir pöntun fer yfir gildi **Lágmarksfjöldi stiga** reitsins er pöntunin sjálfkrafa sett í bið. Þú getur valið aðra stigatengda reiti á **Biðstöður** flipanum til að skilgreina tölvupóstsskorið, símaskorið, póstnúmeraskorið og útvíkkað póstnúmeraskorið. Ef þú tilgreinir ekki skor fyrir neina af þessum föstu svikaviðmiðum þegar þú skilgreina þær á **Föst svikaviðmið** síðunni mun kerfið ákvarða skorin með því að nota sjálfgefið skor sem þú tilgreinir á **Biðtímar** flipanum á **Færibreytur símavers** síðunni.
 
@@ -65,7 +65,7 @@ Pöntunin er vistuð, en **Ekki setja í ferli** flaggið er stillt á hana. Þe
 
 Til að skoða og stjórna pöntununum sem eru í bið fyrir svikakönnun skaltu fara í **Retail og Commerce** \> **Viðskiptavinir** \> **Pantanir í bið**. Á síðunni **Pantanir í bið** skal velja færslu í listanum og smella svo á **Pöntun í bið** til að sjá frekari upplýsingar sem innihalda ástæðuupplýsingar. Á flipanum **Upplýsingar um svik** er hægt að skoða kerfisbundin svikaviðmið sem fundust fyrir pöntunina og stigin sem voru notuð. Ef pöntunin var sett í bið handvirkt er hægt að skoða allar athugasemdir sem notandinn sem setti pöntunina í bið sló inn með því að skoða **Athugasemdir um svik** hlutann í flýtiflipanum **Athugasemdir**.
 
-Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](/dynamics365/unified-operations/retail/work-with-order-holds).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

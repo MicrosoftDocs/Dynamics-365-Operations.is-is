@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814297"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027795"
 ---
 # <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
@@ -37,9 +37,9 @@ Fabrikam starfar með marga lögaðila og starfsmenn á öllum stöðum í heimi
 
 Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverkum að uppfylla þessi markmið:
 
--   Ken er eftirlitsmaður fyrir fyrirtækið Fabrikam. Hann getur hjálpað fólki í fyrirtækinu að greina og laga vandamál við pöntun, móttöku og greiðslu á vörum (vörur og þjónusta) frá lánardrottnum.
+-   Ken er eftirlitsmaður fyrir fyrirtækið Fabrikam. Ken getur hjálpað fólki í fyrirtækinu að greina og laga vandamál við pöntun, móttöku og greiðslu á vörum (vörur og þjónusta) frá lánardrottnum.
 -   Phyllis og Apríl eru aðalbókarar í deild lánadrottna fyrir bandarískt útibú Fabrikam. Þær geta framfylgt stefnu fyrirtækisins og gengið úr skugga um að reikningar séu aðeins greiddir eftir jöfnun þeirra við innkaupapöntun og innhreyfingar á vörum og þjónustu, þar sem við á.
--   Tony er framleiðslustjóri fyrir bandarískt útibú Fabrikam. Hann og annað starfsfólk framleiðslu geta tryggt að vörur séu mótteknar eins og þær voru pantaðar frá lánardrottnum og eru teknir með þannig að við starfsfólks hafa hvað þeir verða að hafa til að sinna starfi sínu.
+-   Tony er framleiðslustjóri fyrir bandarískt útibú Fabrikam. Tony og annað starfsfólk framleiðslu geta tryggt að vörur séu mótteknar eins og þær voru pantaðar frá lánardrottnum og eru teknir með þannig að við starfsfólks hafa hvað þeir verða að hafa til að sinna starfi sínu.
 
 ### <a name="prerequisites"></a>Forkröfur
 
@@ -51,13 +51,13 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
     | Vörunúmer                 | Magn | Einingarverð | Nettóupphæð | Gjaldakóði        | Gildi gjalds |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron vél | 5        | 8.000,00   | 40.000,00  | Sending og afgreiðsla | 3.000,00      |
+    | 1500 – CNC Milicron vél | 5        | 8.000,00   | 40.000,00  | Sending og afgreiðsla | 3,000.00      |
 
 -   Arnie, starfsmaður viðskiptakrafa hjá Contoso, fer yfir sendingar vikunnar. Arnie velur sendingarfærslur til að reikningsfæra Fabrikam fyrir afhendingu CNC Milicron Vélar. Arnie setur með gjöld fyrir sending og afgreiðslu. Fabrikam mun telja að gjöldin séu hluti af kostnaði eignarinnar.
 
 ### <a name="scenario"></a>Aðstæður
 
-1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Hann færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
+1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Sammy færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
     -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 Finance. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
@@ -66,7 +66,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 
-| Vara                        | Magn | Einingarverð | Nettóupphæð |
+| vara                        | Magn | Einingarverð | Nettóupphæð |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron vél | 5        | 8.100,00   | 40,500.00  |
 | Sending og afgreiðsla       |          |            | 4,000.00   |
@@ -87,7 +87,7 @@ Samantekt: Ken er eftirlitsmaður við höfuðstöðvar fyrirtækis lögaðila s
 Rúmmál og upphæðir eru litlar og vandræði hafa verið með afhendingardagsetningu frá sumum lánardrottnum í Malasíu. Þess vegna stillir Cassie stýringar fyrir samsetningar á tiltekinni vöru og lánardrottni sem keyptar eru í Malasíu á þríhliða jöfnun. 
 
 Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverkum að uppfylla þessi markmið:
--   Ken er eftirlitsmaður fyrir fyrirtækið Fabrikam. Hann getur hjálpað fólki í fyrirtækinu að greina og laga vandamál við pöntun, móttöku og greiðslu á vörum (vörur og þjónusta) frá lánardrottnum.
+-   Ken er eftirlitsmaður fyrir fyrirtækið Fabrikam. Ken getur hjálpað fólki í fyrirtækinu að greina og laga vandamál við pöntun, móttöku og greiðslu á vörum (vörur og þjónusta) frá lánardrottnum.
 -   Cassie er bókari fyrir útibú Fabrikam í Malasíu. Hún getur framfylgt stefnu fyrirtækisins og gengið úr skugga um að reikningar séu aðeins greiddir eftir jöfnun þeirra við línur innkaupapöntunar og innhreyfingarskjöl sem sýna vörur og þjónustu. Hún getur einnig hækkað stig stýringar í þríhliða jöfnun fyrir tilteknar vörur til að stýra rekstrarkostnaði.
 
 ### <a name="prerequisites"></a>Forkröfur
@@ -115,7 +115,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 
-| Vara                  | Magn | Einingarverð | Nettóupphæð |
+| vara                  | Magn | Einingarverð | Nettóupphæð |
 |-----------------------|----------|------------|------------|
 | PH2500 - Tölva     | 2        | 2.500,00   | 5.000,00   |
 | MM01 – Þráðlaus mús | 2        | 41.00      | 82.00      |

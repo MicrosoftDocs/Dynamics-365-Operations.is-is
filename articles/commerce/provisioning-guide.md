@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 19cedf01d1b916de785454d55448f41d1f5db1df
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792292"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022423"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Úthluta Dynamics 365 Commerce matsumhverfi
 
@@ -76,7 +76,7 @@ Til að stofna nýtt verk í LSC skal fylgja þessum skrefum.
 
 ### <a name="add-the-azure-connector"></a>Bættu Azure-tengingunni við
 
-Til að bæta Azure-tengingunni við LCS-verk skal fylgja skrefunum í [Ljúka innleiðingarferli Azure Resource Manager](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
+Til að bæta Azure-tengingunni við LCS-verk skal fylgja skrefunum í [Ljúka innleiðingarferli Azure Resource Manager](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
 
 ### <a name="deploy-the-environment"></a>Virkjaðu umhverfið
 
@@ -180,9 +180,9 @@ Til að halda áfram að úthluta og grunnstilla Commerce-matsumhverfið skal sk
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
-[Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (ský)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (ský)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 

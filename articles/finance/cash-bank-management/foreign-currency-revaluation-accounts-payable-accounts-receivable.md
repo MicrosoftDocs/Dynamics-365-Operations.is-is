@@ -1,6 +1,6 @@
 ---
 title: Endurmat á gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
-description: Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum.
+description: Þetta efnisatriði gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815909"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026158"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Endurmat á gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
 
 [!include [banner](../includes/banner.md)]
 
-Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum. 
+Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þetta efnisatriði gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum. 
 
 Fræðilegt gildi, eða bókað virði, opinnar færslu í erlendum gjaldmiðlum breytist með tímanum vegna gengisbreytinga. Til uppfæra gildi opinna færslna viðskiptaskuldir og viðskiptakröfur, skal keyra ferlið endurmat á erlendum gjaldmiðli. Endurmat á erlendum gjaldmiðli er hægt að keyra bæði fyrir viðskiptakröfur og viðskiptaskuldir Ferlið notar á nýtt gengi til að endurmeta opnar upphæðir, eða ójafnaðar upphæðir, á tiltekinni dagsetningu. Mismunur á milli upphaflegu bókaðar upphæðir og endurmetnu upphæðir veldur óinnleystum hagnaði eða tapi fyrir hverja opna færslu. Undirbækur viðskiptaskulda og viðskiptakrafa er síðan uppfærð til að endurspegla óinnleystan hagnaður eða tap, og bókhaldsfærsla er bókuð í fjárhag.
 
@@ -55,7 +55,7 @@ Skrá er haldin yfir hvert skipti sem endurmat á erlendum gjaldmiðli er keyrð
     -   **Bókun** – Bókunarregla viðskiptavinafærslunnar er notuð.
     -   **Velja** – færið inn bókunarregluna á svæðinu **bókunarregla**.
 -   **Bókunarregla** - **velja** er valið í svæðinu **Nota bókunarreglu úr** ákvarðar bókunarreglan sem þú færir inn í þessum reit bókunarreglu færslu fyrir endurmat á erlendum gjaldmiðli.
--   **Fjárhagsvíddir** - fjárhagsvíddarinnar sem eru bókaðar á bókhaldsfærslur fyrir færslur fyrir endurmat á erlendum gjaldmiðli.
+-   **Fjárhagsvíddir** - Fjárhagsvíddarinnar sem eru bókaðar á bókhaldsfærslur fyrir færslur fyrir endurmat á erlendum gjaldmiðli. Fjárhagslegar víddir eru ekki staðfestar gagnvart reglum fyrir lykilskipulag. Lykilskipulag sem var í gildi þegar reikningarnir voru bókaðir er hugsanlega ekki sú sama og reglurnar sem voru í gildi þegar endurmatinu var lokið. Það er enginn kostur til að velja ákveðnar fjárhagslegar víddir í endurmatsferlinu og því er sleppt við staðfestingu á lykilskipulagi.  
     -   **Ekkert** – Engar fjárhagsvíddir eru bókaðar. Ef þú ert með áskilda fjárhagsvídd í lykilskipulagi þínu, er endumatsferlið samt keyrt og stofnar bókhaldsfærslur sem hafa engar fjárhagsvíddir. Þér mun berast viðvörunarskilaboð fyrst, þannig að hægt er að hætta við endurmatið.
     -   **Tafla** fjárhagsvíddir viðskiptavinalykils eða lánardrottnalykils eru bókaðar á færslur fyrir endurmat á erlendum gjaldmiðli.
     -   **Bókun** fjárhagsvíddir færslunnar sem er verið að endurmeta eru bókaðar á færslur fyrir endurmat á erlendum gjaldmiðli. Sjálfgefið er að fjárhagsvíddir úr fjárhagslykli AR/AP upprunalegra færsla verða notaðar fyrir AR/AP aðallykil fyrir endurmatsfærsluna, og fjárhagsvíddir úr fjárhagslykli eigna/kostnaðar/tekna fyrir upprunalegu færsluna verða notaðar fyrir óinnleystan aðallykil hagnaðar/taps/ fyrir endurmatsfærsluna.

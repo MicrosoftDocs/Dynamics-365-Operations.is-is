@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 39135111a8e7bf16d1e56ca42726ae8a8e130c5d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b1b004d7a910e3b53eb584dbceb4d52d41fe409
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798682"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022684"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Vinna með raðaðar vörur á sölustaðnum
 
@@ -130,9 +130,9 @@ Prófanir á raðnúmerum munu einnig eiga sér stað þegar notandi framkvæmir
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Birgðaaðgerð á innleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
+[Birgðaaðgerð á innleið á sölustað](./pos-inbound-inventory-operation.md)
 
-[Birgðaaðgerð á útleið á sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+[Birgðaaðgerð á útleið á sölustað](./pos-outbound-inventory-operation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

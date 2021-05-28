@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920956"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021370"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Stuðningur skattaeiginleika fyrir flutningspantanir
 
@@ -41,7 +40,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
 
 1. Á síðunni **Skattaeiginleikar**, í flipanum **Útgáfur**, skal velja drög að eiginleikaútgáfu og síðan velja **Breyta**.
 
-    ![Breyta valið](../media/image1.png)
+    ![Breyta valið](../media/tax-feature-support-01.png)
 
 2. Á síðunni **Uppsetning skattaeiginleika**, í flipanum **Skattkóðar**, skal velja **Bæta við** til að stofna nýja skattkóða. Fyrir þetta dæmi eru þrír skattkóðar stofnaður: **NL-Exempt**, **BE-RC-21** og **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         4. Veljið **Bæta við** í töflunni **Taxti**.
         5. Skiptið **Er undanskilið** í **Já** í hlutanum **Almennt**.
 
-        ![Skattkóði NL-Exempt](../media/image2.png)
+        ![Skattkóði NL-Exempt](../media/tax-feature-support-02.png)
 
     - Þegar flutningspöntun er móttekin í belgísku vöruhúsi er leið bakfærðs gjalds notað með því að nota skattkóðana **BE-RC-21** og **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         6. Skiptið **Er bakfært gjald** í **Já** í hlutanum **Almennt**.
         7. Veljið **Vista**.
 
-        ![BE-RC-21 skattkóði fyrir bakfærð gjöld](../media/image3.png)
+        ![BE-RC-21 skattkóði fyrir bakfærð gjöld](../media/tax-feature-support-03.png)
         
         Búið til skattkóðann **BE-RC+21**.
         1. Veljið **Bæta við**, sláið inn **BE-RC-21** í reitinn **Skattkóði**.
@@ -77,7 +76,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         5. Sláið inn **21** í reitinn **Skatthlutfall**.
         6. Veljið **Vista**.
 
-        ![BE-RC+21 skattkóði fyrir bakfærð gjöld](../media/image4.png)
+        ![BE-RC+21 skattkóði fyrir bakfærð gjöld](../media/tax-feature-support-04.png)
 
 3. Skilgreinið gildissvið skattkóðanna.
 

@@ -2,7 +2,6 @@
 title: Vista valeiningu
 description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853418"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021465"
 ---
 # <a name="store-selector-module"></a>Eining til að velja verslun
 
@@ -62,7 +61,7 @@ Til að færa inn gildi fyrir lengdar- og breiddargráðu fyrir staðsetningu ve
 
 ## <a name="bing-maps-integration"></a>Samþætting Bing-korta
 
-Valeining verslunar er samþætt við [REST forritunarviðmót Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/) til að nota landkóðun og sjálfvirkar tillögur Bing. API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. API-landkóðun er notuð til að umbreyta staðsetningu í gildi breiddar- og lengdargráða. Samþætting við API fyrir sjálfvirkar tillögur er notuð til að sýna leitartillögur þegar notendur slá inn staðsetningar í leitarreitinn.
+Valeining verslunar er samþætt við [REST forritunarviðmót Bing-korta](/bingmaps/rest-services/) til að nota landkóðun og sjálfvirkar tillögur Bing. API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. API-landkóðun er notuð til að umbreyta staðsetningu í gildi breiddar- og lengdargráða. Samþætting við API fyrir sjálfvirkar tillögur er notuð til að sýna leitartillögur þegar notendur slá inn staðsetningar í leitarreitinn.
 
 Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfarandi vefslóðir séu leyfðar í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar fyrir vefsvæðið (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Valeining verslunar styður stillinguna **Sækja í verslun** sem sýnir lista y
 
 Hægt er að bæta valeiningu verslunar við kaupgluggaeiningu á upplýsingasíðu afurðar til að sýna verslanir þar sem boðið er upp á að sækja vöruna. Það er einnig hægt að bæta við körfu mát. Í slíku tilfelli sýnir valeining verslunar valkosti til að sækja fyrir hverja vörulínu í körfunni. Einnig er hægt að bæta verslunarvaleiningunni við aðrar síður eða einingar með viðbótum og sérstillingum.
 
-Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig að afhendingarmátann **sækja** er notað. Annars verður einingin ekki sýnd á síðum afurða. Frekari upplýsingar um hvernig á að skilgreina afhendingarmáta er að finna í [Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig að afhendingarmátann **sækja** er notað. Annars verður einingin ekki sýnd á síðum afurða. Frekari upplýsingar um hvernig á að skilgreina afhendingarmáta er að finna í [Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Eftirfarandi mynd sýnir dæmi um verslunarvalseiningu sem er notuð á PDP.
 
 ![Dæmi um verslunarvalseiningu sem notuð er á PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Í útgáfu 10.0.16 og nýrri er hægt að virkja nýja eiginleika sem gerir fyrirtæki kleift að skilgreina marga afhendingarmáta fyrir viðskiptavini.  Ef þessi eiginleiki er virkur er verslunarval og aðrar einingar í e-Commerce endurbættar til að leyfa kaupandanum að velja úr hugsanlega mörgum valkostum fyrir afhendingarmáta ef það er skilgreint.  Frekari upplýsingar um þennan eiginleika má finna í [þessum fylgigögnum](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Í útgáfu 10.0.16 og nýrri er hægt að virkja nýja eiginleika sem gerir fyrirtæki kleift að skilgreina marga afhendingarmáta fyrir viðskiptavini.  Ef þessi eiginleiki er virkur er verslunarval og aðrar einingar í e-Commerce endurbættar til að leyfa kaupandanum að velja úr hugsanlega mörgum valkostum fyrir afhendingarmáta ef það er skilgreint.  Frekari upplýsingar um þennan eiginleika má finna í [þessum fylgigögnum](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Finna verslanir
 
@@ -157,11 +156,11 @@ Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir
 
 [Stutt kynning á körfu og greiðsluferli](quick-tour-cart-checkout.md)
 
-[Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Stjórna Bing-kortum fyrir þitt fyrirtæki](dev-itpro/manage-bing-maps.md)
 
-[REST API Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/)
+[REST API Bing-korta](/bingmaps/rest-services/)
 
 [Kortaeining](map-module.md)
 

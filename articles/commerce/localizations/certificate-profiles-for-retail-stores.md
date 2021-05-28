@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798862"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020314"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Notandaskilgreint vottorðssnið fyrir smásöluverslanir
 
@@ -79,7 +79,7 @@ Eftirfarandi ferli lýsir hvernig setja á upp vottorðssnið. Áður en vottor�
 - **Vottorð lyklageymslu** - Þessi reitur er áskilinn ef reiturinn **Gerð staðsetningar** er stilltur á **Lyklageymsla**. Notið hann til að tilgreina leynilykil vottorðs í lyklageymslu.
 
     > [!NOTE]
-    > Áður en vottorð lyklageymslu er notað í vottorðssniðum, skal fyrst hlaða upp vottorði í lyklageymsluna og fylgja leiðbeiningunum í [Setja upp biðlara Azure-lyklageymslu](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Áður en vottorð lyklageymslu er notað í vottorðssniðum, skal fyrst hlaða upp vottorði í lyklageymsluna og fylgja leiðbeiningunum í [Setja upp biðlara Azure-lyklageymslu](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Heiti verslunar** – Þessi reitur er valfrjáls og er aðeins aðgengilegur ef reiturinn **Gerð staðsetningar** er stilltur á **Staðbundið vottorð**. Notið hann til að tilgreina sjálfgefið heiti verslunar sem á að nota til að leita að staðbundnum vottorðum.
 - **Staðsetning verslunar** – Þessi reitur er valfrjáls og er aðeins aðgengilegur ef reiturinn **Gerð staðsetningar** er stilltur á **Staðbundið vottorð**. Notið hann til að tilgreina sjálfgefna staðsetningu verslunar sem á að nota til að leita að staðbundnum vottorðum.

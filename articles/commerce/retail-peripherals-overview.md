@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857274"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018832"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -158,7 +158,7 @@ Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgrei
 
 ### <a name="dedicated"></a>Sérnýtt
 
-Modern POS viðskiptavinir fyrir Windows og Android fela í sér **Sérnýtt** eða innbyggðar vélbúnaðarstöðvar. Þessir viðskiptavinir geta haft samskipti beint við jaðartæki með viðskiptatækni sem er innbyggð í forritin. Forritið Android styður aðeins nettæki. Fyrir frekari upplýsingar um jaðarstuðning við Android skaltu fara í greinnina [Setja upp forrit POS Hybrid á Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Modern POS viðskiptavinir fyrir Windows og Android fela í sér **Sérnýtt** eða innbyggðar vélbúnaðarstöðvar. Þessir viðskiptavinir geta haft samskipti beint við jaðartæki með viðskiptatækni sem er innbyggð í forritin. Forritið Android styður aðeins nettæki. Fyrir frekari upplýsingar um jaðarstuðning við Android skaltu fara í greinnina [Setja upp forrit POS Hybrid á Android og iOS](./dev-itpro/hybridapp.md).
 
 Til að nota sérnýtta vélbúnaðarstöð skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir forrit Windows eða Android. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Ræstu Mdoern POS án peningaskúffu og notaðu aðgerðina **Stjórna vélbúnaðarstöðvum** til að kveikja á getu vélbúnaðarstöðvarinnar, sérnýtt vélbúnaðarstöð verður sjálfgefið virk. Næst skaltu skrá þig út úr Modern POS, skráðu þig svo aftur inn og opnaðu vakt og jaðartæki sem eru samsett í vélbúnaðar sniðinu verða nothæf. 
 
@@ -199,7 +199,7 @@ Nánari upplýsingar er að finna í [Skilgreina, setja upp og virkja Modern POS
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Uppsetning og skilgreining á Modern POS fyrir Android og iOS
 
-Nánari upplýsingar er að finna í [Setja upp POS Hybrid-forrit í Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Nánari upplýsingar er að finna í [Setja upp POS Hybrid-forrit í Android og iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Uppsetning og skilgreining á OPOS-tæki
 
@@ -494,7 +494,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Android með (innbyggðri) IPS vélbúnaðarstöð
 
-**Nýtt fyrir 10.0.8** - Epson netprentarar og peningaskúffur tengdir þessum prenturum í gegnum DK-tengi eru nú studdir fyrir Modern POS fyrir Android-forrit. Nánari upplýsingar er að finna í greininni [Setja upp forrit POS Hybrid á Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Nýtt fyrir 10.0.8** - Epson netprentarar og peningaskúffur tengdir þessum prenturum í gegnum DK-tengi eru nú studdir fyrir Modern POS fyrir Android-forrit. Nánari upplýsingar er að finna í greininni [Setja upp forrit POS Hybrid á Android og iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með ráðstafaða „samnýtta” IIS vélbúnaðarstöð
 
@@ -614,6 +614,9 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 | Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi   |
 | Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
 | HP           | F7M67AA  | OPOS      | Rafhlöðu USB             |
+
+> [!NOTE]
+> Star TSP 100 prentarinn er ekki studdur fyrir innbyggða vélbúnaðarstöðina. Innbyggða vélbúnaðarstöðin notar 64-bita ferli sem er ekki samhæft við núverandi Star TP 100 rekla. 
 
 #### <a name="bar-code-scanner"></a>Strikamerkjaskanni
 

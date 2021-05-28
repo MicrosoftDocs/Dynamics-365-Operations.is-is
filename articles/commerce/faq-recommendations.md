@@ -16,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b3db432ae10139bcd8ee400b0bbc1173e33ef206
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792416"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019812"
 ---
 # <a name="product-recommendations-faq"></a>Algengar spurningar um afurðaráðleggingar
 
@@ -68,7 +68,7 @@ Ef þú verður að hindra að hlutur verði uppgötvaður í versluninni, verð
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Hvernig bæti ég lista við netverslunarsíðu?
 
-Nánari upplýsingar um hvernig á að bæta við afurðatillögusíðum við vefverslunina þína, sjá [Bæta afurðatillögulistum við síður](add-reco-list-to-page.md).
+Nánari upplýsingar um hvernig á að bæta við afurðatillögusíðum við vefverslunina þína, sjá [Bæta afurðatillögulistum við síður](./product-recommendations.md).
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Hvernig get ég virkjað tillögur fyrir POS?
 

@@ -2,11 +2,9 @@
 title: Ákvæði Microsoft Teams frá Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir því hvernig á að úthluta Microsoft Teams með því að nota fyrirtækisgögn frá Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908905"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022447"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Ákvæði Microsoft Teams frá Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Til að hlaða upp fyrirtækisstigveldi Commerce í Teams skal fylgja þessum sk
     
 1. Í Commerce Headquarters skal fara í **Smásala og viðskipti \> Uppsetning rásar \> Microsoft Teams Samþættingarskilgreining**.
 1. Veljið **Sækja markstigveldi** og veljið því næst **Smásöluverslanir eftir svæði** til að sækja CSV-skrá með gildum sem eru aðskilin með kommu fyrir stigveldi fyrirtækisins.
-1. Setjið upp einingu Microsoft Teams PowerShell með því að fylgja skrefunum í [Setja upp Microsoft Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Setjið upp einingu Microsoft Teams PowerShell með því að fylgja skrefunum í [Setja upp Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
 1. Þegar beðið er um það í glugga Teams PowerShell skal skrá sig inn í gegnum stjórnendareikninginn fyrir leigjanda Azure AD.
-1. Fylgið skrefunum í [Setja upp markstigveldi teymisins](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) til að hlaða upp CSV-skránni fyrir markstigveldið.
+1. Fylgið skrefunum í [Setja upp markstigveldi teymisins](/microsoftteams/set-up-your-team-hierarchy) til að hlaða upp CSV-skránni fyrir markstigveldið.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Staðfesta að stigveldi fyrirtækisins hafi verið hlaðið upp í Teams
 

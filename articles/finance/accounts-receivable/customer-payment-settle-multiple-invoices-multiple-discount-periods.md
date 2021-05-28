@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819915"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027747"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Nota eina greiðslu til að jafna reikninga sem ná yfir margar afsláttartímabil
 
@@ -66,7 +66,7 @@ Ef Arnie stofnar greiðslubók til að jafna að fullu þessar reikninga á 1. j
 | Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Hlutauppgjör á 29. júní
-viðskiptavinurinn 4032 getur greitt hluta af upphæð eins og helming hvers reiknings. Arnie stofnar greiðslu fyrir viðskiptavin 4032 og opnar svo **Jafna færslur** síðuna. Á **Jafna færslur** síðu Arnie merkir allar þrjár reikningslínur fyrir jöfnun: Í hverri línu, færir hann inn upphæðin til jöfnunar, byggt á leiðbeiningunum sem viðskiptavinar veitti. Þegar Arnie velur línu, hann sér afsláttarupphæð fyrir þess línu og upphæð staðgreiðsluafsláttar sem er tekin. Þar sem viðskiptavinurinn greiðir hálft reiknings, sér Arnie að gildi í svæðinu **upphæð staðgreiðsluafsláttar** fyrir er FTI-10042 er **20,00**, en gildið í á **staðgreiðsluafsláttur tekinn** er **10,00**. Greiðsluupphæðin er 1.485,00
+viðskiptavinurinn 4032 getur greitt hluta af upphæð eins og helming hvers reiknings. Arnie stofnar greiðslu fyrir viðskiptavin 4032 og opnar svo **Jafna færslur** síðuna. Á **Jafna færslur** síðu Arnie merkir allar þrjár reikningslínur fyrir jöfnun: Í hverri línu, færir Arnie inn upphæðin til jöfnunar, byggt á leiðbeiningunum sem viðskiptavinar veitti. Þegar Arnie velur línu sér Arnie afsláttarupphæð fyrir þess línu og upphæð staðgreiðsluafsláttar sem er tekin. Þar sem viðskiptavinurinn greiðir hálft reiknings, sér Arnie að gildi í svæðinu **upphæð staðgreiðsluafsláttar** fyrir er FTI-10042 er **20,00**, en gildið í á **staðgreiðsluafsláttur tekinn** er **10,00**. Greiðsluupphæðin er 1.485,00
 
 | Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ viðskiptavinurinn 4032 getur greitt hluta af upphæð eins og helming hvers rei
 | Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie getur einnig færa handvirkt greiðsluupphæð 1,485.00 áður en hann opnar fyrir **Jafna færslur** síðu. Ef Arnie færir greiðsluupphæðina handvirkt og merkir síðan allar færslur þrjár en hann leiðrétta ekki að gildið í **Upphæðin til jöfnunar** svæði fyrir hverja færslu hann fær eftirfarandi skilaboð þegar hann lokar síðu:
+Arnie getur einnig færa handvirkt greiðsluupphæð 1,485.00 áður en hann opnar síðuna **Jafna færslur**. Ef Arnie færir greiðsluupphæðina inn handvirkt og merkir síðan allar færslur þrjár en leiðréttir ekki að gildið í **Upphæð til jöfnunar** reitinn fyrir hverja færslu hann fær eftirfarandi skilaboð þegar hann lokar síðu:
 
 > Heildarupphæð merktra færslna er ekki sú sama og færslubókarupphæð. Á að breyta færslubók upphæð?
 
-Ef Arnie vill að greiðsluupphæðin sé aðeins 1,485.00 hann smellir **Nei** og bókar síðan færslubók. Færslurnar eru jafnaðar á eftirfarandi hátt:
+Ef Arnie vill að greiðsluupphæðin sé aðeins 1.485,00 smellir hann á **Nei** og bókar síðan færslubókina. Færslurnar eru jafnaðar á eftirfarandi hátt:
 
 1.  Reikningur FTI-10040 er jafnaður að fullu fyrir 1.000,00, þar sem hann var færður inn þann 15. Maí og er elsti reikningur. Enginn staðgreiðsluafsláttur er tekinn. Eftirstandandi upphæð á greiðslufærslu er 485,00.
 2.  Reikningur FTI-10041 er alls ekki jafnaður. Reikningar FTI-10041 og FTI-10042 voru færðir inn á sömu dagsetningu. Hins vegar er 1 prósent afsláttur tiltækur fyrir reikning FTI-10041 og býðst 2 prósent staðgreiðsluafsláttur fyrir reikning FTI-10042 Því betri afsláttur er fyrir reikning FTI-10042 eru eftirstandandi 485,00 jöfnuð með reikningi FTI-10042

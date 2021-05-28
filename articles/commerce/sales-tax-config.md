@@ -2,7 +2,6 @@
 title: Skilgreina söluskatt fyrir pantanir á netinu
 description: Þetta efnisatriði veitir yfirlit yfir val á VSK-flokki fyrir mismunandi gerðir pantana á netinu í Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8df939c1a566fb63bc53e455cc6c2aa85956ac79
-ms.sourcegitcommit: 583801af75c50915ea5ffc60e831fb617d045533
+ms.openlocfilehash: fff4f39703a146412b460dacc3805fde097ab756
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853812"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021441"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Skilgreina söluskatt fyrir pantanir á netinu
 
@@ -41,7 +40,7 @@ Almennt séð miðast skattar fyrir pantanir á netinu sem senda á heimilisfön
 
 ### <a name="order-pick-up-in-store"></a>Pöntun sótt í verslun
 
-Þegar pöntun er skilgreind í pöntunarlínu sem sótt í verslun eða afhent í bíl, verður notaður skattflokkur verslunarinnar þar sem pöntunin er sótt. Frekari upplýsingar um hvernig á að setja upp virðisaukaskatta fyrir tilgreinda verslun er að finna í [Stilla aðra skattvalkosti fyrir verslanir](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+Þegar pöntun er skilgreind í pöntunarlínu sem sótt í verslun eða afhent í bíl, verður notaður skattflokkur verslunarinnar þar sem pöntunin er sótt. Frekari upplýsingar um hvernig á að setja upp virðisaukaskatta fyrir tilgreinda verslun er að finna í [Stilla aðra skattvalkosti fyrir verslanir](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ## <a name="customer-account-based-taxes-for-online-orders"></a>Skattar sem byggja á viðskiptavinalykli fyrir pantanir á netinu
 
@@ -71,15 +70,15 @@ Eftirfarandi tafla útskýrir hvort skattar sem byggja á staðsetningu eða ska
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
+[Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
-[Yfirlit virðisaukaskatts](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
+[Yfirlit virðisaukaskatts](../finance/general-ledger/indirect-taxes-overview.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[Útreikningsaðferðir VSK í upprunareitnum](https://docs.microsoft.com/dynamics365/finance/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/commerce/toc.json) 
+[Útreikningsaðferðir VSK í upprunareitnum](../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[ Úthlutun og hnekking virðisaukaskatts](https://docs.microsoft.com/dynamics365/supply-chain/procurement/tasks/sales-tax-assignment-overrides?toc=/dynamics365/commerce/toc.json) 
+[ Úthlutun og hnekking virðisaukaskatts](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
-[Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða](https://docs.microsoft.com/dynamics365/finance/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/commerce/toc.json) 
+[Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða](../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=%2fdynamics365%2fcommerce%2ftoc.json) 
 
 [Reikna út skattundanþágu](tax-exempt-price-inclusive.md) 
 

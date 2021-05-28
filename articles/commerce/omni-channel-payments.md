@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b99b5f7b5b972d41e0831995bde69e9041369b9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791127"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028012"
 ---
 # <a name="omni-channel-payments-overview"></a>Greiðsluyfirlit Omni-rásar
 
@@ -43,11 +43,11 @@ ms.locfileid: "5791127"
 
 Almennt séð lýsir hugtakið *greiðslur omni-rásar* möguleikanum á því að búa til pöntun í einni rás og uppfylla hana í annarri rás. Lykillinn að notendaþjónustu vegna greiðslu omni-rásar er að halda utan um greiðsluupplýsingar ásamt öðrum upplýsingum um pöntunina og síðan nota þessar greiðsluupplýsingar þegar kallað er aftur á pöntunina eða unnið úr henni í annarri rás. Gott dæmi er atburðarásin „Kaupa á netinu, sækja í verslun“. Í þessari atburðarás er greiðsluupplýsingum bætt við þegar pöntun er búin til á netinu. Síðan er kallað aftur á þær á sölustað til að innheimta greiðslukort viðskiptavinar þegar sótt er. 
 
-Hægt er að innleiða allar atburðarásir sem lýst er í þessu efnisatriði með því að nota staðlað þróunartól greiðsluhugbúnaðar (SDK) sem Commerce býður upp á. [Dynamics 365-greiðslutengill fyrir Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) býður upp á tilbúna innleiðingu á öllum atburðarásum sem lýst er hér. 
+Hægt er að innleiða allar atburðarásir sem lýst er í þessu efnisatriði með því að nota staðlað þróunartól greiðsluhugbúnaðar (SDK) sem Commerce býður upp á. [Dynamics 365-greiðslutengill fyrir Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) býður upp á tilbúna innleiðingu á öllum atburðarásum sem lýst er hér. 
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Sérhverri atburðarás sem lýst er í þessu efnisatriði þarf á greiðslutengli að halda sem styður greiðslur omni-rásar. Tilbúinn Ayden-tengil er einnig hægt að nota vegna þess að hann styður atburðarásirnar sem eru tiltækar í gegnum Payments SDK. Frekari upplýsingar um hvernig á að innleiða greiðslutengla og almennt um Retail SDK er að finna á [Heimasíða Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Sérhverri atburðarás sem lýst er í þessu efnisatriði þarf á greiðslutengli að halda sem styður greiðslur omni-rásar. Tilbúinn Ayden-tengil er einnig hægt að nota vegna þess að hann styður atburðarásirnar sem eru tiltækar í gegnum Payments SDK. Frekari upplýsingar um hvernig á að innleiða greiðslutengla og almennt um Retail SDK er að finna á [Heimasíða Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Studdar útgáfur
 
@@ -57,14 +57,14 @@ Greiðslumöguleikar omni-rásar sem er lýst í þessu efnisatriði voru gefnar
 
 Payments SDK reiðir sig á tvö sett af forritunarviðmótum fyrir greiðslur. Fyrra sett af forritunarviðmóti kallast **iPaymentProcessor**. Það er notað til að innleiða greiðslutengla fyrir „kort ekki til staðar“ sem hægt er að nota í símaveri og með verkvangi Microsoft Dynamics rafrænna viðskipta. Frekari upplýsingar um viðmótið **iPaymentProcessor** er að finna í hvítbókinni [Innleiða greiðslutengil og greiðslutæki](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf), sem sér um greiðslur. 
 
-Seinna sett af forritunarviðmóti kallast **iNamedRequestHandler**. Það styður innleiðingu á greiðslusamþættingum „kort til staðar“ sem nota posa. Frekari upplýsingar um viðmótið **iNamedRequestHandler** er að finna í [Stofna greiðslusamþættingu fyrir greiðslustöð](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+Seinna sett af forritunarviðmóti kallast **iNamedRequestHandler**. Það styður innleiðingu á greiðslusamþættingum „kort til staðar“ sem nota posa. Frekari upplýsingar um viðmótið **iNamedRequestHandler** er að finna í [Stofna greiðslusamþættingu fyrir greiðslustöð](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Uppsetning og skilgreining
 
 Eftirfarandi hlutar og uppsetningarskref eru nauðsynleg:
 
-- **Samþætting rafrænna viðskipta:** Samþætting við Commerce er nauðsynleg til að styðja atburðarásir þar sem pöntunin á upptök sín í netverslun. Nánari upplýsingar um SDK-rafræn viðskipti í Retail skal sjá [Þróunartól hugbúnaðar (SDK) fyrir verkvang rafrænna viðskipta](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Í sýniútgáfuumhverfi styður tilvísun netverslunar atburðarásir fyrir greiðslu omni-rásar. 
-- **Skilgreining netgreiðslna:** Uppsetning á netrás verður að innihalda tengil sem hefur verið uppfærður til að styðja greiðslur omni-rásar. Að öðrum kosti er hægt að nota tilbúinn greiðslutengil. Frekari upplýsingar um hvernig á að skilgreina Adyen-greiðslutengil fyrir netverslanir er að finna í [Adyen-greiðslutengill](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Til viðbótar við uppsetningarskref rafrænna viðskipta sem er lýst í þessu efnisatriði verður færibreytan **Leyfa að vista greiðsluupplýsingar í rafrænum viðskiptum** að vera stillt á **Rétt** í stillingum fyrir Adyen-tengil. 
+- **Samþætting rafrænna viðskipta:** Samþætting við Commerce er nauðsynleg til að styðja atburðarásir þar sem pöntunin á upptök sín í netverslun. Nánari upplýsingar um SDK-rafræn viðskipti í Retail skal sjá [Þróunartól hugbúnaðar (SDK) fyrir verkvang rafrænna viðskipta](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Í sýniútgáfuumhverfi styður tilvísun netverslunar atburðarásir fyrir greiðslu omni-rásar. 
+- **Skilgreining netgreiðslna:** Uppsetning á netrás verður að innihalda tengil sem hefur verið uppfærður til að styðja greiðslur omni-rásar. Að öðrum kosti er hægt að nota tilbúinn greiðslutengil. Frekari upplýsingar um hvernig á að skilgreina Adyen-greiðslutengil fyrir netverslanir er að finna í [Adyen-greiðslutengill](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Til viðbótar við uppsetningarskref rafrænna viðskipta sem er lýst í þessu efnisatriði verður færibreytan **Leyfa að vista greiðsluupplýsingar í rafrænum viðskiptum** að vera stillt á **Rétt** í stillingum fyrir Adyen-tengil. 
 - **Skilgreining á greiðslum omni-rásar:** í bakvinnslunni skal opna **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**. Síðan, í flipanum **Greiðslur á omni-rás**, skal stilla valkostinn **Nota greiðslur á omni-rás** á **Já**. Í Commerce, útgáfum 10.0.12 og nýrri, er þessi stilling á vinnusvæðinu **Eiginleikastjórnun**. Veljið eiginleikann **Greiðslur á Omni-rás** og smellið á **Virkja núna**. 
 - **Greiðsluþjónustur:** Símaverið notar sjálfgefinn greiðslutengil á síðunni **Greiðsluþjónustur** til að vinna úr greiðslum. Til að styðja við atburðarásir á borð við „Kaupa í símaveri, sækja í verslun“ verður þessi sjálfgefni greiðslutengill að vera Adyen-greiðslutengill eða greiðslutengill sem uppfyllir kröfur innleiðingar fyrir greiðslur á omni-rás.
 - **EFT-þjónusta:** Greiðslur í gegnum posa verða að vera settar upp í flýtiflipanum **EFT-þjónusta** fyrir vélbúnaðarsniðið. Adyen-tengillinn styður tilbúnar atburðarásir fyrir greiðslur á omni-rás. Aðra greiðslutengla sem styðja viðmótið **iNamedRequestHandler** er einnig hægt að nota ef þeir styðja greiðslur omni-rásar.
@@ -219,7 +219,7 @@ Ekki er hægt að nota sum kort fyrir greiðslur á omni-rás vegna þess að þ
 
 ### <a name="using-a-different-card"></a>Notkun á öðru korti
 
-Viðskiptavinur sem kemur í verslun til að sækja pöntun hefur möguleikann á því að nota annað kort. Þegar gjaldkeri fær kvaðninguna **Nota tiltækan greiðslumáta** þegar pöntun er sótt, getur hann eða hún spurt hvort viðskiptavinur vilji nota sama kortið. Ef viðskiptavinur hefur glatað kortinu sem var notað til að búa til pöntunina og vill greiða hana með öðru korti getur gjaldkerinn valið **Nota annan greiðslumáta**. Ef viðskiptavinur kemur aftur síðar til að sækja fleiri vörur fyrir sömu pöntunina, ef upprunaleg kortaheimild er enn í gildi, getur gjaldkerinn spurt hvort viðskiptavinurinn vilji nota þetta kort.
+Viðskiptavinur sem kemur í verslun til að sækja pöntun hefur möguleikann á því að nota annað kort. Þegar gjaldkeri fær kvaðninguna **Nota tiltækan greiðslumáta** þegar pöntun er sótt, getur hann spurt hvort viðskiptavinur vilji nota sama kortið. Ef viðskiptavinur hefur glatað kortinu sem var notað til að búa til pöntunina og vill greiða hana með öðru korti getur gjaldkerinn valið **Nota annan greiðslumáta**. Ef viðskiptavinur kemur aftur síðar til að sækja fleiri vörur fyrir sömu pöntunina, ef upprunaleg kortaheimild er enn í gildi, getur gjaldkerinn spurt hvort viðskiptavinurinn vilji nota þetta kort.
 
 ### <a name="invalid-authorizations"></a>Ógildar heimildir
 
@@ -231,9 +231,9 @@ Ef kortið sem var notað til að búa til pöntun er ekki lengur í gildi, þeg
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
-- [Algengar spurningar um greiðslur](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Dynamics 365-greiðslutengill fyrir Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [Algengar spurningar um greiðslur](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [Dynamics 365-greiðslutengill fyrir Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](./cpe-bopis.md)
 
 
 

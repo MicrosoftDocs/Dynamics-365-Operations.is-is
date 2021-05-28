@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791896"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021489"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
@@ -38,9 +38,9 @@ ms.locfileid: "5791896"
 
 ### <a name="plan-worker-schedules"></a>Áætla áætlanir starfsmanns
 
-- Nota forstillingar með vinnuáætlun Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](https://technet.microsoft.com/library/aa551234.aspx).
+- Nota forstillingar með vinnuáætlun Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](https://technet.microsoft.com/library/aa496971.aspx).
+Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Commerce-sértæk skilgreining
 
@@ -135,7 +135,7 @@ Notandi Commerce fylgist með verkflæðið til að reikna, samþykkja og flytja
 - Fjöldaútstimplun
 - Skrá Fjarvist
 
-Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).
+Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

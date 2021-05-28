@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d4bb8ce1abc07bc57e90e893e7e327761131d52a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795214"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028108"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 
@@ -127,7 +127,7 @@ Hægt er að nota reitina **Textar** og **Athugasemdir** til að bæta við text
 
 #### <a name="text"></a>Texti
 
-Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir skref í Verkefnaleiðbeiningum. Þessi staðsetning er fyrir textann sem notandinn að lesa áður en hann eða hún lýkur við skrefið.
+Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir skref í Verkefnaleiðbeiningum. Þessi staðsetning er fyrir textann sem notandinn að lesa áður en hann lýkur við skrefið.
 
 #### <a name="notes"></a>Athugasemdir
 
@@ -135,7 +135,7 @@ Texti sem færður er inn reitinn **Texti** birtist *undir* texta um skref í Ve
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp í Retail Modern POS og sölukerfi í skýinu
 
-Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [Tengt við hjálparkerfið](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Commerce og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
+Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [Tengt við hjálparkerfið](../fin-ops-core/fin-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Commerce og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
 
 [![Hnappurinn Hjálp](./media/help.jpg)](./media/help.jpg)
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791079"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022473"
 ---
 # <a name="e-commerce-site-overview"></a>Yfirlit yfir svæði fyrir rafræn viðskipti
 
@@ -37,11 +37,11 @@ ms.locfileid: "5791079"
 
 Aðeins er hægt að setja upp eina netverslunarrás áður en hafist er handa við Dynamics 365 Commerce. Hins vegar getur eitt svæði fyrir rafræn viðskipti sýnt margar netverslanir. Ef margar netverslanir eru til dæmis settar upp til að styðja við ólík landsvæði er hægt að nota eitt sett af síðum fyrir rafræn viðskipti til að veita upplifanir sem eru skilgreindar með hverri verslun fyrir sig. Nánari upplýsingar um hvernig á að stilla vefsíðu til að styðja margar netverslanir er að finna í [Tengja netsvæði við rás](associate-site-online-store.md).
 
-Eftir að netverslun hefur verið sett upp er hægt að tengja hana við Dynamics 365 Commerce-vefsvæði sem mun þjóna sem netverslun þín. Nánari upplýsingar um netverslanir og hvernig á að setja þær upp er að finna í [Setja upp netverslanir](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Eftir að netverslun hefur verið sett upp er hægt að tengja hana við Dynamics 365 Commerce-vefsvæði sem mun þjóna sem netverslun þín. Nánari upplýsingar um netverslanir og hvernig á að setja þær upp er að finna í [Setja upp netverslanir](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Uppsetning á nýjum leigjanda rafrænna viðskipta
 
-Við ræsingu á svæði fyrir rafræn viðskipti er beðið um lénsheiti. Frekari upplýsingar um lén í Commerce er að finna í [Skilgreina lénsheiti](configure-your-domain-name.md) og [Lén í Dynamics 365 Commerce](domains-commerce.md). Þegar setja á upp nýjan leigjanda rafrænna viðskipta með [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) skal fylgja skrefunum í [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md). Þegar lokið er við að setja upp nýjan leigjanda rafrænna viðskipta, verður tengill útvegaður á Commerce Site Builder. Síðan er hægt að nota Commerce Site Builder til að frumstilla og grunnstilla svæði fyrir rafræn viðskipti.
+Við ræsingu á svæði fyrir rafræn viðskipti er beðið um lénsheiti. Frekari upplýsingar um lén í Commerce er að finna í [Skilgreina lénsheiti](configure-your-domain-name.md) og [Lén í Dynamics 365 Commerce](domains-commerce.md). Þegar setja á upp nýjan leigjanda rafrænna viðskipta með [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) skal fylgja skrefunum í [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md). Þegar lokið er við að setja upp nýjan leigjanda rafrænna viðskipta, verður tengill útvegaður á Commerce Site Builder. Síðan er hægt að nota Commerce Site Builder til að frumstilla og grunnstilla svæði fyrir rafræn viðskipti.
 
 ## <a name="initialize-your-e-commerce-site"></a>Ræsa svæðið þitt fyrir rafræn viðskipti
 

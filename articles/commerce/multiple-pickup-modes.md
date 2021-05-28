@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796878"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020652"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Virkja marga afhendingamáta fyrir pantanir viðskiptavinar
 
@@ -82,7 +82,7 @@ Engin frekari skref eru nauðsynleg á síðum rafrænna viðskipta til að gera
 
 ## <a name="considerations-for-distributed-order-management"></a>Það sem skal hafa í huga varðandi dreifingarstjórnun pöntunar
 
-Eiginleikar [dreifingarstjórnunar pöntunar (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) í Commerce hunsa allar sölulínur sem eru merktar að verði sóttar í verslun. Þessir eiginleikar hafa verið uppfærðir til að tryggja að sölulínur sem eru tengdar við skilgreinda afhendingarmáta fyrir sóttar pantanir líti framhjá DOM-reglunni og verði ekki endurúthlutaðar á nýtt vöruhús uppfyllingar.
+Eiginleikar [dreifingarstjórnunar pöntunar (DOM)](./dom.md) í Commerce hunsa allar sölulínur sem eru merktar að verði sóttar í verslun. Þessir eiginleikar hafa verið uppfærðir til að tryggja að sölulínur sem eru tengdar við skilgreinda afhendingarmáta fyrir sóttar pantanir líti framhjá DOM-reglunni og verði ekki endurúthlutaðar á nýtt vöruhús uppfyllingar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

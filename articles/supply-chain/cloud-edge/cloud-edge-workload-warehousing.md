@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944414"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980950"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -58,7 +58,10 @@ Einingarkvarðarnir eiga eftirfarandi gögn:
   - **Flutningspantanir** (aðeins á útleið með einfaldri tiltektar- og hleðsluvinnu)
 
 - **Móttökugögn vöruhúsapöntunar** - Þessi gögn eru aðeins notuð fyrir innkaupapantanir sem eru losaðar til vöruhúss.
-- **Gögn númeraplötu** - Númeraplötur er hægt að stofna í miðstöðinni og einingarkvarða. Búið er að úthluta meðhöndlun á árekstrum. Athugið að þessi gögn eru ekki bundin við vöruhús.
+- **Gögn númeraplötu** - Númeraplötur er hægt að stofna bæði í miðstöðinni og einingarkvarða. Sérstök árekstrameðferð er veitt. 
+
+    > [!IMPORTANT]
+    > Númeraplötugögn eru ekki sértæk fyrir vöruhús. Ef sama númer númeraplötunnar verður búið til bæði á miðstöðinni og einingakvarða í sama samstillingarhring mun næsta samstilling mistakast. Ef þetta gerist skaltu opna **Kerfisstjórnun > Fyrirspurnir > Fyrirspurnir um vinnuálag > Tvíteknar færslur** þar sem hægt er að skoða og sameina gögnin.
 
 ## <a name="outbound-process-flow"></a>Vinnsluflæði á útleið
 

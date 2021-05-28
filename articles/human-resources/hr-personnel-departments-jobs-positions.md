@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803586"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027891"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
 
@@ -120,7 +120,7 @@ Hvert stöðu hefur lengd tímans sem staðan er virk. Þessi tímalengd kallast
 
 Stöður eru mikilvægar einingar í lægri stig í stigveldi fyrirtækis. Í skjámyndinni Stöðu er hægt að tilgreina staða sem sú staða veitir skýrslur til. Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður. Til dæmis stöðu "Bókari-A" veitir skýrslur til "Yfirmaður bókhalds" Kim Akers er úthlutað á stöðu "Yfirmaður bóhalds" og Sanjay Patel er úthlutað á stöðu "Bókari-A". Þetta þýðir að Sanjay Patel sendir skýrslur til Kim Akers. 
 
-Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Lori Penor framkvæmdarstjóri hjá Adventure Works og er úthlutað á stöðu "framkvæmdarstjóri". Lori stjórnar þróun afurðar sem er notuð til að hreinsa búnað. Lori þarf bókara hjálpa henni með fjármálum til að þróa afurðar. Því hefur hún ráðið Sanjay Patel til að vera bókari hennar.. Sanjay sendir skýrslur beint til Kim Akers, en vinnur einnig með Lori Penor á hans vinnu tengdri fjármálum til að vöru til að hreinsa búnað. 
+Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Lori Penor framkvæmdarstjóri hjá Adventure Works og er úthlutað á stöðu "framkvæmdarstjóri". Lori stjórnar þróun afurðar sem er notuð til að hreinsa búnað. Lori þarf bókara hjálpa með fjármál til að þróa afurðar. Því hefur hún ráðið Sanjay Patel til að vera bókarinn. Sanjay sendir skýrslur beint til Kim Akers, en vinnur einnig með Lori Penor á hans vinnu tengdri fjármálum til að vöru til að hreinsa búnað. 
 
 Fyrir fyrra dæmi, myndir þú ljúka eftirfarandi verkefnum til að stilla upp vinnutengslum milli Sanjay Patel og Lori Penor:
 1.  Búa til sérsniðnar stöðu fyrir gerð stigveldis sem heitir "Widget" til að búa til stigveldi sem felur í sér stöðu sem bera ábyrgð fyrir að vinna á vöru til að hreinsa búnað..

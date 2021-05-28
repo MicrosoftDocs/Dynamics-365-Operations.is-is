@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1296dc994e43d75fd9b834acf345134494b4810
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835173"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027505"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum
 
@@ -39,7 +39,7 @@ Viðskiptavinur 4035 er með reikning fyrir 1.000,00 og kreditnótu fyrir 100,00
 | CCRN-10050 | Kreditnóta      | 6/28/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Jafna kreditnótuna við reikning
-Úr **viðskiptavinafærslur** síðuna opnar Arnie **Jafna færslur** síðu. Hann getur nota í **Jafna færslur** síðu til að jafna reikninginn og kreditnótu. Hluti af jöfnunarferlið er að hann skoðar dagsetningar staðgreiðsluafslátts og upphæðir. Merkir tvær skjöl og síðan smellir **Bóka** til að jafna færslur. Það Er afsláttur -1.00 á kreditnótu, þar sem Fabrikam leyfir afslátt á kreditnótum.
+Úr **viðskiptavinafærslur** síðuna opnar Arnie **Jafna færslur** síðu. Arnie getur nota í **Jafna færslur** síðu til að jafna reikninginn og kreditnótu. Hluti af jöfnunarferlinu er að Arni skoðar dagsetningar staðgreiðsluafslátts og upphæðir. Arnie merkir tvö skjöl og smellir svo á **Bóka** til að jafna færslur. Það Er afsláttur -1.00 á kreditnótu, þar sem Fabrikam leyfir afslátt á kreditnótum.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal    | Reikningur | Dagsetning      | Gjalddagi  | Reikningur  | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

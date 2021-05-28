@@ -5,7 +5,6 @@ author: sndray
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: e0d13a2de9acaa8b1c896e130b4dabb222e45dcb
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881423"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022812"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Staðgreiðsluskattsskýrsla fyrir Egyptaland (EG-00005)
 
@@ -114,7 +113,7 @@ Ljúkið eftirfarandi skrefum til að mynda skattskýrsluna.
 1. Farið í **Skattur** > **Skattframtöl** > **Staðgreiðsluskattur** > **Greiðsla staðgreiðsluskatts*.
 2. Veljið jöfnunartímabilið og veljið síðan upphafsdagsetningu fyrir skýrsluna. 
 3. Færið inn færsludagsetningu og veljið svo **Í lagi**.
-4. Í svarglugganum sem opnast skal velja eina eða fleiri gerðir eyðublaðs **Eyðublað nr. 41 **, **Eyðublað nr. 11**, eða **Ekkert**. Ef **Ekkert** er valið mun stöðluð skýrsla vera búin til. 
+4. Í svarglugganum sem opnast skal velja eina eða fleiri gerðir eyðublaðs **Eyðublað nr. 41**, **Eyðublað nr. 11**, eða **Ekkert**. Ef **Ekkert** er valið mun stöðluð skýrsla vera búin til. 
 5. Veljið tungumálið. Allar skýrslur eru þýddar á **en-us** og **ar-eg**.
 6. Færið inn útibú og heiti bankans þar sem skattgreiðslan verður innt af hendi.
 7. Veljið tegund viðskipta og sláið svo inn ávísun og skjalanúmer. 

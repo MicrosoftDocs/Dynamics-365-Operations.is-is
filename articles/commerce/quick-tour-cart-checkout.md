@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792244"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027940"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
@@ -83,7 +83,7 @@ Viðskiptavinur getur lokið greiðsluferli sem gestanotandi eða sem innskráð
 
 ### <a name="order-summary"></a>Samantekt pöntunar
 
-Afgreiðsla sýnir yfirlit yfir línuritin í körfunni, svo að viðskiptavinurinn geti staðfest pöntunina áður en hann eða hún leggur hana fram. Ekki er hægt að breyta línum atriðunum meðan á greiðsluferlinu stendur. Hins vegar er tengill á körfuna til staðar ef notandinn vill fara til baka og breyta línuliðum.
+Afgreiðsla sýnir yfirlit yfir línuritin í körfunni, svo að viðskiptavinurinn geti staðfest pöntunina áður en hann leggur hana fram. Ekki er hægt að breyta línum atriðunum meðan á greiðsluferlinu stendur. Hins vegar er tengill á körfuna til staðar ef notandinn vill fara til baka og breyta línuliðum.
 
 Eftir að viðskiptavinurinn hefur sent frá sér sendingar- og innheimtuupplýsingar endurspeglar pöntunaryfirlitið þá upphæð sem er gjaldfærð eftir að vildarpunkta, gjafakort og aðrar greiðslur hefur verið beitt.
 

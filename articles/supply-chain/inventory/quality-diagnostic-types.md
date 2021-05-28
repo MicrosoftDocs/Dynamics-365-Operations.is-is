@@ -2,11 +2,9 @@
 title: Gerðir greininga fyrir ósamkvæmni
 description: Í þessu efnisatriði er lýst hvernig eigi að nota og búa til greiningartegundir sem hægt er að nota með ósamkvæmi.
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestDiagnosticType, InventTestCorrection
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19fcd57e28efabd6ca32c444ab961b876bde424d
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: b7a5c593f1d9e8f7a77f693f6e652e9355a985fb
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956693"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022277"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>Gerðir greininga fyrir ósamkvæmni
 

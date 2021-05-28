@@ -1,6 +1,6 @@
 ---
 title: Biðlari rýfur tengingu
-description: Þessi grein útskýrir hvað eigi að gera ef viðskiptamaður aftengist umhverfi sínu og veit ekki hvers vegna.
+description: Þessi útskýrir hvað eigi að gera ef viðskiptamaður aftengist umhverfi sínu og veit ekki hvers vegna.
 author: andreabichsel
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9ec43ad0a7d121eb247d81d4b506556a0fa2214
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db0e8efec1a5a6f01c9b7c4d9334a959fc42886b
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794902"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027988"
 ---
 # <a name="client-disconnects"></a>Biðlari rýfur tengingu
 

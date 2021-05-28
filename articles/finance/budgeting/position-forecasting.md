@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827340"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028228"
 ---
 # <a name="position-forecasting"></a>Stöðuspá
 
@@ -67,9 +67,9 @@ Fyrirtæki Jodi veitir þjálfunarafslátt upp á 5% af grunnlaunum starfsmanns.
 
 Jodi vill ekki að stjórnendur breyti upphæð fríðinda. Þess vegna velur hún **Ekki heimila kostnaðarbreytingar** í reitnum **Hnekking spástöðu**. Fyrirtækið vill að þessum kostnaðuri sé úthlutað jafnt í hverjum mánuði. Þess vegna velur Jodi **Ársfjórðungslega** í reitnum **Úthlutunaraðferð**. 
 
-Næst bætir Jodi við línu kostnaðarútreikningsins, stillir dagsetningar og aðallykil og færir inn **5,00** í prósentum. Fyrirtækið hennar er með þak upp á 5,000 USD ári fyrir þessi fríðindi. Þess vegna færir Jodi upphæðina inn sem árleg mörk. 
+Næst bætir Jodi við línu kostnaðarútreikningsins, stillir dagsetningar og aðallykil og færir inn **5,00** í prósentum. Fyrirtækið er með þak upp á 5.000 USD ári fyrir þessi fríðindi. Þess vegna færir Jodi upphæðina inn sem árleg mörk. 
 
-Loks bætir Jodi við öllum kostnaðareiningum tekna sem eru notaðar fyrir grunnlaun og sem grundvöllur útreiknings. Núna er kostnaðareining fjárhagsáætlunar hennar tilbúin til notkunar.
+Loks bætir Jodi við öllum kostnaðareiningum tekna sem eru notaðar fyrir grunnlaun og sem grundvöllur útreiknings. Núna er kostnaðareining fjárhagsáætlunar tilbúin til notkunar.
 
 ### <a name="compensation-groups"></a>Launaflokkar
 
@@ -137,7 +137,7 @@ Línur kostnaðareiningar fjárhagsáætlunar verður einnig að endurreikna þe
 
 **Dæmi** 
 
-Fyrirtækið íhugar tvo valkosti til að draga úr kostnaði við stöðu endurskoðanda. Einn valkostur er að ljúka stöðunni hluta ársins. Annar valkostur er að breyta stöðunni í hálfan vinnudag fyrir allt árið. Brad hefur stofnað spástöðu fyrir núverandi stöðu bókhaldara í grunnlínuaðstæðum. Hann afritar þessa grunnlínuspá í aðstæður A, stillir dagsetningu starfsloka á 31. maí og endurreiknar. Síðan afritar Brad grunnlínuspána í aðstæður B, breytir FTE-gildinu í **0,50** og endurreiknar. Brad hefur nú þrjár útgáfur sem hvert um sig hefur kostnaðarsamtölur sem hafa verið samstilltar við valkosti hans.
+Fyrirtækið íhugar tvo valkosti til að draga úr kostnaði við stöðu endurskoðanda. Einn valkostur er að ljúka stöðunni hluta ársins. Annar valkostur er að breyta stöðunni í hálfan vinnudag fyrir allt árið. Brad hefur stofnað spástöðu fyrir núverandi stöðu bókhaldara í grunnlínuaðstæðum. Brad afritar þessa grunnlínuspá í aðstæður A, stillir dagsetningu starfsloka á 31. maí og endurreiknar. Síðan afritar Brad grunnlínuspána í aðstæður B, breytir FTE-gildinu í **0,50** og endurreiknar. Brad hefur nú þrjár útgáfur sem hvert um sig hefur kostnaðarsamtölur sem hafa verið samstilltar við valkosti hans.
 
 #### <a name="assigning-a-compensation-group"></a>Úthlutun launaflokks
 

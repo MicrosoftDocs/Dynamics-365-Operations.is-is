@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818753"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028204"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Niðurstöður vélnámslíkana (forskoðun)
 
@@ -63,7 +63,7 @@ Til að reyna að svara þessari spurningu þarf að skoða nákvæmni á einfal
 
 Annan þátt er vert að skoða. Sjáið fyrir ykkur aðstæður þar sem læknisfræðilegt próf er notað til að greina sjúkdóm hjá sjúklingi. Þetta vandamál er flokkunarvandamál með tveimur útkomum þar sem jákvæð niðurstaða gefur til kynna að sjúklingurinn er með sjúkdóminn. Í þessu tilfelli verður að hugsa um áhrif eftirfarandi villna:
 
-- Rangar jákvæðar greiningar, þar sem prófið segir að sjúklingur sé með sjúkdóminn, en hann er ekki með hann í raun
+- Rangar jákvæðar greiningar, þar sem prófið segir að sjúklingur sé með sjúkdóminn, en hann er ekki með hann í raun.
 - Rangar neikvæðar greiningar, þar sem prófið segir að sjúklingur sé ekki með sjúkdóminn, en hann er í raun með hann
 
 Augljóslega eru báðar gerið villu óæskilegar, en hvor er það verri? Aftur, það veltur á ýmsu. Ef um er að ræða lífshættulegan sjúkdóma sem þarfnast snöggrar meðferðar, fær lágmörkun á röngum neikvæðum greiningum (vonandi fylgt eftir með frekari prófum) forgang. Í öðrum, ekki eins mikilvægum aðstæðum, gætu hönnuðir líkansins vilja lágmarka rangar jákvæðar greiningar í staðinn. Burtséð frá því, þá er ásættanleg niðurstaða sú að til að ákvarða gæði líkansins á árangursríkan hátt þarf að fá meiri upplýsingar en nákvæmnismæling veitir.

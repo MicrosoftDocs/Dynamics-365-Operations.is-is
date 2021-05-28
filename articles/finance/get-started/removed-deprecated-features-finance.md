@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965311"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980898"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ ms.locfileid: "5965311"
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.20 útgáfu
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Query Invoice Data Request (HU) sniðsstilling
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>RTIR Query Invoice Data Request (HU) sniðsstilling rafrænnar skýrslugerðar
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ ms.locfileid: "5965311"
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: frá 15. apríl 2022 hyggjumst við ekki lengur styðja „RTIR Query Invoice Data Request (HU)“ sniðsstillingu. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>„Frönsk FEC-endurskoðunarskrá“ snið rafrænnar skýrslugerðar fyrir Frakkland undir skilgreiningarsniðinu „Þýsk endurskoðunarskrá“.
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýtt snið „FEC endurskoðunarskrá (FR)“ |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Niðurfelling: 1. maí 2022 styðjum við ekki lengur skilgreiningarsnið „Frönsk FEC-endurskoðunarskrá“ snið rafrænnar skýrslugerðar fyrir Frakkland undir skilgreiningarsniðinu „Þýsk endurskoðunarskrá“. Nýtt snið FEC endurskoðunarskráar (FR) er kynnt í staðinn undir „Gagnaútflutningslíkan“. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.17 útgáfu
 

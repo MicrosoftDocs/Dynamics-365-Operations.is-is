@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799132"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027601"
 ---
 # <a name="enable-location-based-store-detection"></a>Virkja greiningu á verslun eftir staðsetningu
 
@@ -31,7 +31,7 @@ Staðsetningartengd verslunargreining í Commerce gerir þér kleift að veita v
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Ef þú kveikir á staðsetningarbyggðri greiningaraðgerðar verslunar eru upplýsingar úr vafra viðskiptavinarins sendar til Microsoft staðsetningarþjónustu. Þessar upplýsingar eru síðan notaðar til að veita viðskiptavininum efni sem skiptir máli fyrir staðsetningu hans. Bæði upplýsingar sem sendar eru úr vafra viðskiptavinarins og staðsetningarupplýsingum sem skilað er til viðskiptavinarins eru háðar persónuverndarstefnu og reglum um samræmi við fótspor.
+Ef þú kveikir á staðsetningarbyggðri greiningaraðgerðar verslunar eru upplýsingar úr vafra viðskiptavinarins sendar til Microsoft staðsetningarþjónustu. Þessar upplýsingar eru síðan notaðar til að veita viðskiptamanninum efni sem tengist staðsetningu viðskiptamannsins. Bæði upplýsingar sem sendar eru úr vafra viðskiptavinarins og staðsetningarupplýsingum sem skilað er til viðskiptavinarins eru háðar persónuverndarstefnu og reglum um samræmi við fótspor.
 
 ## <a name="turn-on-location-based-store-detection"></a>Kveiktu á greiningu á verslun eftir staðsetningu
 

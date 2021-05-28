@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800880"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027771"
 ---
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
@@ -38,7 +38,7 @@ Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hl
 
 ### <a name="describe-vesting-rules"></a>Lýsing veitireglna
 
-Fyrirtæki geta valið um að setja upp **veitireglur**. Veitireglur lýsa hvernig úthluta á breytilegri umbun yfir tíma. Til dæmis getur veitingarregla mælt fyrir um að starfsmaður fái 25 prósent af heildarlaunum hans eða hennar á hverju ári næstu fjögur árin. Veitireglur eru aðeins til upplýsingar.
+Fyrirtæki geta valið um að setja upp **veitireglur**. Veitireglur lýsa hvernig úthluta á breytilegri umbun yfir tíma. Til dæmis getur veitingarregla mælt fyrir um að starfsmaður fái 25 prósent af heildarlaunum sínum á hverju ári næstu fjögur árin. Veitireglur eru aðeins til upplýsingar.
 
 ## <a name="variable-compensation-plans"></a>Launafyrirkomulög breytilegra uppbóta
 **Launafyrirkomulag breytilegra uppbóta** inniheldur reglur, útreikningsaðferðir og sjálfgefin gildi fyrir útreikning breytilegra uppbóta fyrir skráða starfsmenn. Þegar launafyrirkomulag breytilegra uppbóta er stofnað verður að ákvarða gerð breytilegrar uppbóta. Gerð breytilegrar uppbótar ákvarðar hvort kerfið reiknar gjaldmiðilsupphæð eða fjölda eininga sem umbun. Einnig þarf að velja útreikningsaðferð:
