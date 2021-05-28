@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Endurbætur á reiðufjárstjórnun
                       href: cash-mgmt.md
-                    - name: Uppfletting birgða á sölustaðnum
-                      href: product-variants-POS.md
                     - name: Gera hlé á og halda áfram með færslur á sölustaðnum
                       href: pos-suspend-recall-transactions.md
                     - name: Virkni sölustaðar án tengingar
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Reikna tiltækar birgðir fyrir smásölurásir
                       href: calculated-inventory-retail-channels.md
+                    - name: Birgðauppfletting á sölustað
+                      href: pos-inventory-lookup-operation.md
                 - name: Innkaupapantanir
                   items:
                     - name: Yfirlit yfir innkaupapöntun
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Stofna verk um viðbótarpakka fyrir sölustaði
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Stofna Modern POS viðbótar appx-skrá
+                    - name: Stofna .appx-skrá fyrir viðbótarpakka Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Kemba sölustaðaviðbót
+                    - name: Kemba sölustaðaviðbætur
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Viðbótarpakki og uppsetning
+                      items:
+                        - name: Stofna viðbótarpakka Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Kóðaundirritun fyrir viðbótarpakka Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Stofna viðbótarpakka sölukerfis í skýinu
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Flytja viðbót sölustaðar yfir í sjálfstætt pakkalíkan
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Þróunarleiðbeiningar sölustaðarviðbótar
+                      items:
+                        - name: Grunnatriði sölustaðarviðbótar
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Búa til sérstillt yfir í sölustað
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Nota stýringar sölustaðar í viðbótum
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Verkefni
+                          items:
+                            - name: Nota Knockout.js í sölustaðarviðbótum
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Nota sérstillt headless Commerce API
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Stækkunarhæfni Hardware Station
               items:
                 - name: Hardware Station og stækkunarhæfni

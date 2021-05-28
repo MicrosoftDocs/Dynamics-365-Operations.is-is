@@ -84,7 +84,7 @@
               href: dev-tools/version-models-build.md
         - name: Samþætting gagna
           items:
-            - name: Velja stefnu fyrir samþættingu gagna (innflutning/útflutning)
+            - name: Samþætting milli Finance and Operations forrita og þjónustu þriðju aðila
               href: data-entities/integration-overview.md
             - name: Takmörkun byggð á forgangi
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Búa til skráningar með skráningarsniðmátum
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Samþætting gagna með Dataverse
+                - name: Gagnasamþætting
                   items:
-                    - name: Yfirlit yfir samþættingu gagna með Dataverse
-                      href: data-entities/data-integration-cds.md
-                    - name: Tvöföld skrif – samþætting
+                    - name: Skilgreina PTC-aðstæður
                       items:
-                        - name: Tvöföld skrif – heimasíða
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Nýjungar eða breytingar í tvöföldum skrifum
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Tvöföld skrif – yfirlit
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Tvöföld skrif – uppsetning
-                          items:
-                            - name: Kerfiskröfur fyrir tvöföld skrif
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Leiðsögn fyrir uppsetningu tvöfaldra skrifa
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Hvað skal hafa í huga við fyrstu samstillingu
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
-                              items:
-                                - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Kerfiskröfur og forsendur
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Hvernig á að nota leiðsagnarforrit fyrir tvöföld skrif til að tengja umhverfin þín
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Kveikja á vörpun eininga fyrir tvöföld skrif
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Setja upp vörpun fyrir stöðureit sölupöntunar
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Umsjón með tvöföldum skrifum
-                          items:
-                            - name: Sérstilling á vörpun eininga og reita
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Unnið með mörg einingakort
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Umsjón með villum og viðvörunartilkynningum
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Líftímastjórnun forrits
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Vörpun hugtaka á milli forrita
-                          items:
-                            - name: Samþætt aðalsniðmát viðskiptavinar
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Samþætting lánardrottna
-                              items:
-                                - name: Samþætt lánardrottinssniðmát
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Skipta á milli lánardrottnahönnunar
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Vildarkort og vildarpunktar viðskiptavinar
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Samþætting afurða
-                              items:
-                                - name: Samræmd afurðaupplifun
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Samþætt svæði og vöruhús
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Samþætting fyrirtækis
-                              items:
-                                - name: Fyrirtækishugtak í Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Frumstilla fyrirtækisgögn
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Stigveldi fyrirtækis í Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Fjármála- og skattagögn
-                              items:
-                                - name: Aðgangur að tilvísunargögnum um fjármál og skatta
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Samþættur fjárhagur
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Samþætt aðalsniðmát skatta
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Samþætta innkaup í Supply Chain Management við Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Samstilla eftirspurn við verðlagningarkerfi Supply Chain Management
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Viðfang til sjóðstreymis í tvöföldum skrifum
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Nota Dynamics 365 Commerce-verðlagningarkerfi ásamt Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Eignir til þjónustu innanhúss
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Birgðir til ráðstöfunar
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Samþættur starfskraftur, starf og staða'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Altæk aðila- og aðsetursbók
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Notkun Power Portal með gagnalíkani aðila
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Samþætting athugasemdar
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Vörpunartilvísun
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Notendaþjónusta fyrir tvöföld skrif
-                          items:
-                            - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Úrræðaleit
-                              items:
-                                - name: Staðfesta stillingu tvöfaldrar skráningar í Finance and Operations forritum og Dataverse
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Leysa úr vandamálum við fyrstu uppsetningu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Leysa úr vandamálum við fyrstu samstillingu
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Leysa úr vandamálum við samstillingu í beinni
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Leysa úr vandamálum tengdum lausnavitund
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Almenn úrræðaleit
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Algengar spurningar um tvöföld skrif
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Samþætting við Power Platform
+                        - name: Viðfang til sjóðstreymis
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Samstilling sölupantana beint milli Sales og Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Skilgreina samþættingu við Field Service
                       items:
-                        - name: Skilgreina PTC-aðstæður
-                          items:
-                            - name: Viðfang til sjóðstreymis
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Samstilla hausa og línur sölutilboðs beint úr Sales í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Samstilling sölupantana beint milli Sales og Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Skilgreina samþættingu við Field Service
-                          items:
-                            - name: Yfirlit yfir skilgreiningu á samþættingu við Field Service
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Samstilla verklista úr Finance and Operations í Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Samstilla vöruhús úr Finance and Operations í Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Skilgreina samþættingu Project Service Automation
-                          items:
-                            - name: Yfirlit Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Færibreytur samþættingar Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Samstilla verksamninga og verk
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Samstilla verk verkefnis
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Samstilla flokka verkkostnaðar
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Samstilla verkáætlun og verkspár
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Samstilla rauntölur verks og færslubók verksamþættingar
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Yfirlit yfir skilgreiningu á samþættingu við Field Service
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Samstilla verklista úr Finance and Operations í Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Samstilla vöruhús úr Finance and Operations í Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Skilgreina samþættingu Project Service Automation
+                      items:
+                        - name: Yfirlit Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Færibreytur samþættingar Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Samstilla verksamninga og verk
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Samstilla verk verkefnis
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Samstilla flokka verkkostnaðar
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Samstilla verkáætlun og verkspár
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Samstilla rauntölur verks og færslubók verksamþættingar
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Notkun ytri vefþjónustu
               href: data-entities/consume-external-web-service.md
             - name: Rafræn skilaboð
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Úrræðaleit fyrir umhverfi sem sett eru upp með sjálfsafgreiðslu uppsetningar
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Algengar spurningar um áætlað viðhald í sjálfsafgreiðsluumhverfi
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Ljúka innleiðingu Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute og Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Microsoft Power Platform samþætting við Finance and Operations
               href: power-platform/overview.md
+            - name: Tvöföld skrif
+              items:
+                - name: Tvöföld skrif – heimasíða
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Nýjungar eða breytingar í tvöföldum skrifum
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Tvöföld skrif – yfirlit
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Tvöföld skrif – uppsetning
+                  items:
+                    - name: Kerfiskröfur fyrir tvöföld skrif
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Leiðsögn fyrir uppsetningu tvöfaldra skrifa
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Hvað skal hafa í huga við fyrstu samstillingu
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                      items:
+                        - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Kerfiskröfur og forsendur
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Hvernig á að nota leiðsagnarforrit fyrir tvöföld skrif til að tengja umhverfin þín
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Kveikja á vörpun eininga fyrir tvöföld skrif
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Setja upp vörpun fyrir stöðureit sölupöntunar
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Umsjón með tvöföldum skrifum
+                  items:
+                    - name: Sérstilling á vörpun eininga og reita
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Unnið með mörg einingakort
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Umsjón með villum og viðvörunartilkynningum
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Líftímastjórnun forrits
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Vörpun hugtaka á milli forrita
+                  items:
+                    - name: Samþætt aðalsniðmát viðskiptavinar
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Samþætting lánardrottna
+                      items:
+                        - name: Samþætt lánardrottinssniðmát
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Skipta á milli lánardrottnahönnunar
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Vildarkort og vildarpunktar viðskiptavinar
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Samþætting afurða
+                      items:
+                        - name: Samræmd afurðaupplifun
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Samþætt svæði og vöruhús
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Samþætting fyrirtækis
+                      items:
+                        - name: Fyrirtækishugtak í Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Frumstilla fyrirtækisgögn
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Stigveldi fyrirtækis í Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Fjármála- og skattagögn
+                      items:
+                        - name: Aðgangur að tilvísunargögnum um fjármál og skatta
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Samþættur fjárhagur
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Samþætt aðalsniðmát skatta
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Samþætta innkaup í Supply Chain Management við Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Samstilla eftirspurn við verðlagningarkerfi Supply Chain Management
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Viðfang til sjóðstreymis í tvöföldum skrifum
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Nota Dynamics 365 Commerce-verðlagningarkerfi ásamt Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Eignir til þjónustu innanhúss
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Birgðir til ráðstöfunar
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Samþættur starfskraftur, starf og staða'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Altæk aðila- og aðsetursbók
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Notkun Power Portal með gagnalíkani aðila
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Samþætting athugasemdar
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Vörpunartilvísun
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Notendaþjónusta fyrir tvöföld skrif
+                  items:
+                    - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Úrræðaleit
+                      items:
+                        - name: Staðfesta stillingu tvöfaldrar skráningar í Finance and Operations forritum og Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Leysa úr vandamálum við fyrstu uppsetningu
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Leysa úr vandamálum við fyrstu samstillingu
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Leysa úr vandamálum við samstillingu í beinni
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Leysa úr vandamálum tengdum lausnavitund
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Almenn úrræðaleit
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Algengar spurningar um tvöföld skrif
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Sýndareiningar
               items:
+                - name: Yfirlit sýndareininga
+                  href: power-platform/virtual-entities-overview.md
                 - name: Einingalíkön
                   href: power-platform/entity-modeling.md
                 - name: Líftímastjórnun forrits
