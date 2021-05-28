@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (apríl 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (febrúar 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Uppgjör hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Fyrirframgreiðslur viðskiptavinar
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Endurgreiðsla til viðskiptavina
                   href: accounts-receivable/reimburse-customers.md
                 - name: Greiðslur viðskiptavinar fyrir hlutaupphæð
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Aldursgreiningarmynd viðskiptavinar
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Aldursgreiningarskýrsla viðskiptavinar
               href: accounts-receivable/customer-aging.md
             - name: Stofna afskriftabók fyrir viðskiptavin
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Stofnun fjárhagsáætlunar úr færslulyklum og samtölulyklum
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Greinargerð fjárhagsáætlunar
+              href: budgeting/budget-narrative.md
             - name: Sniðmát fjárhagsáætlunargerðar fyrir Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: Stækka útlit fjárhagsáætlunargerðar
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Úrræðaleit
+              items:
+                - name: Breyta bókhalds- eða skýrslugjaldmiðli
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Breyta eða endurúthluta fjárhagsdagatali
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Afturkalla stillingar á færslubókum og línum
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Opnar innistæður vantar í árslokalokun
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Fjárhagsskýrslugerð
           items:
             - name: Hafist handa með fjárhagsskýrslugerð
@@ -1648,11 +1662,19 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf skattauppgjör
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinf Yfirlit
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Setja upp rafræn skilaboð
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Setja upp skattabækur
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Tilvik
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED-fjárhagsúrlausn 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: SPED-fjárhagur 2020 – viðbótarupplýsingar ICMA-ST fyrir SPED-fjárhagsuppsetningu 014
+                - name: SPED-fjárhagur 2020 – viðbótarupplýsingar ICMS-ST fyrir SPED-fjárhagsuppsetningu 014
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED-fjárhagur – útlit 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: Algengar spurningar um VSK-reikninga viðskiptavinar
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: GB/T 24589-2010 útflutningur
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: Tékkland
               items:
                 - name: Tékkland
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Númeraröð reikninga og fylgiskjala
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Búa til staðlaða endurskoðunarskrá fyrir frakkland (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Endurskoðunarskrá fyrir Frakkland
+                  items:
+                    - name: Endurskoðunarskrá fyrir Frakkland (FEC) yfirlit
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: Skilyrði fyrir myndun FEC-endurskoðunarskráar í Frakklandi
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: Skipulag Finance-gagnagjafa fyrir FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Undirbúðu umhverfið þitt til að búa til FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: Mynda FEC í Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Lyklayfirlit viðskiptavina og lánardrottna
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Daglegur vaxtaútreikningur fyrir gjaldfallnar greiðslur og eingreiðsla reiknings og innheimtubréfs
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Flutningur fjármagnsvara til eignar
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: TDS fyrir Indland
+                  items:
+                    - name: Yfirlit yfir frádreginn skatt á upprunastað (TDS) fyrir Indland
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: Grunnuppsetning TDS
+                      items:
+                        - name: Stilla TDS færibreytur
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: Setja upp TDS fjárhagslykla
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: Setja upp TDS-skráningarnúmer fyrir lögaðila
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: Setja upp yfirvöld staðgreiðsluskatts fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Setja upp skatthluta fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Setja upp jöfnunartímabil staðgreiðsluskatts fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: Skrá vottorðanúmer TDS-skattaívilnunar
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: Stilla TDS-færibreytur í viðskiptaskuldum og viðskiptakröfum
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: Setja upp greiðsluáætlanir með TDS-úthlutun
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: Setja upp greiðsluþóknanir fyrir TDS-greiðslur til yfirvalda
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'Uppsetning á TDS-flokki, PAN- og TAN-upplýsingum fyrir lánardrottna og viðskiptavini'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: Formúluhönnuður og vikmörk fyrir TDS-útreikning
+                      items:
+                        - name: Formúluhönnuður fyrir TDS-útreikninga
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Viðmiðunarmörk og undantekningarmörk
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: TDS-útreikningur á reikningum
+                      items:
+                        - name: TDS-útreikningur á reikningum
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: Reikna út TDS á reikningum með færslubókum
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: Reikna út TDS-reikninga með skjámynd innkaupapöntunar eða sölupöntunar
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: TDS-útreikningur á reikningum af síðu reiknings með frjálsum texta
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Aðgerð skiptingar á reikningi
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: TDS-útreikningur á greiðslum og eigin víxlum
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: TDS-útreikningur á færslum innan samstæðu
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: TDS uppgjörsferli
+                      items:
+                        - name: TDS-útreikningur á greiðslum og eigin víxlum
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: TDS-útreikningur á færslum innan samstæðu
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: TDS uppgjörsferli
+                          items:
+                            - name: Keyra reglubundið uppgjörsferli TDS
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: Gera upp TDS-greiðslur hjá TDS-lánardrottnayfirvaldi og mynda TDS challan
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: Skoða bókaðar TDS-greiðslur og færslur fyrir TDS-jöfnunartímabil
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: Skrá og uppfæra númer og dagsetningar TDS-vottorða
+                          items:
+                            - name: Skrá endurheimtanlegt vottorðanúmer TDS
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu
