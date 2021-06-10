@@ -2,7 +2,7 @@
 title: Kökusamræmi
 description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908185"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088388"
 ---
 # <a name="cookie-compliance"></a>Reglufylgni köku
 
@@ -52,8 +52,7 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 | x-ms-cpim-trans                             | Notað til að rekja færslur (fjöldi opinna flipa sem sannvottar vefsvæði viðskipta við neytanda (B2C)), þar með talið núverandi færslu. |
 | \_msdyn365___muid_                            | Notað ef tilraun er virkjuð fyrir umhverfið; notað sem userId í tilraunaskyni. |
 | \_msdyn365___exp_                             | Notað ef tilraun er virkjuð fyrir umhverfið; notað til að mæla álagsjöfnun afkasta.         |
-
-
+| d365mkt                                       | Notað ef staðsetningarmiðuð greining til að fylgjast með IP-tölu notanda fyrir tillögur um staðsetningu verslunar er virkjuð í vefsmið Commerce á **Stillingar svæðis > Almennt > Virkja staðsetningarmiðaða greiningu á verslun**.      |
 
 Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis munu kökurnar í eftirfarandi töflu einnig vera raktar í vafranum.
 

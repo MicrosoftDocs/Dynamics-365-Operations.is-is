@@ -1,8 +1,8 @@
 ---
 title: fjárhagsskýrslur Prófjafnaðar
 description: Þessi grein lýsir sjálfgefnum skýrslum fyrir prófjöfnuði. Hún lýsir einnig einingum sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslum eftir þörfum.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816932"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103659"
 ---
 # <a name="trial-balance-financial-reports"></a>fjárhagsskýrslur Prófjafnaðar
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816932"
 
 Þessi grein lýsir sjálfgefnum skýrslum fyrir prófjöfnuði. Hún lýsir einnig einingum sem tengjast þessum skýrslum og hvernig hægt er að breyta skýrslum eftir þörfum. 
 
-<a name="default-trial-balance-reports"></a>Skýrslur fyrir sjálfgefinn prófjöfnuð
------------------------------
+## <a name="default-trial-balance-reports"></a>Skýrslur fyrir sjálfgefinn prófjöfnuð
 
 Þrjár prófjöfnuð skýrslur eru tiltækar í fjárhagsskýrslu.
 
@@ -47,6 +46,9 @@ Fjárhagsskýrslur prófjöfnuðar nota eftirfarandi grunneiningar.
 | Ítarlegur prófjöfnuður - Sjálfgefið               | prófjöfnuður - sjálfgefið | Ítarlegur prófjöfnuður - Sjálfgefið               |
 | Samantekt á prófjöfnuði - Sjálfgefið                | prófjöfnuður - sjálfgefið | Samantekt á prófjöfnuði - Sjálfgefið                |
 | Samantekt á Prófjöfnuði Ári til Árs – Sjálfgefin | prófjöfnuður - sjálfgefið | Samantekt á Prófjöfnuði frá Ári til Árs – Sjálfgefin |
+
+> [!NOTE] 
+> Þegar skýrslan **Prófjöfnuður** er keyrð í fjárhagsskýrslugerð skal ganga úr skugga um að velja gátreitina fyrir **Birta línur með engum upphæðum** og **Birta skýrslur með engum virkum línum** í flipanum **Stillingar**.
 
 ### <a name="row-definition"></a>Skilgreining línu
 
@@ -94,10 +96,7 @@ Hver skýrslu prófjöfnuðar notar mismunandi dálkskilgreiningu. Þessar dálk
     -   **FD** – Fjárhagsgögn sem inniheldur aðeins debet fyrir síðasta ár
     -   **FD** – Fjárhagsgögn sem inniheldur aðeins kredit fyrir síðasta ár
 
-
-
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlitssíða fjárhagsskýrslugerðar](financial-reporting-getting-started.md)
 

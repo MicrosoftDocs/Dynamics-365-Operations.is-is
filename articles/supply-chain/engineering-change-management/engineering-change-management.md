@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954646"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115000"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -92,9 +92,13 @@ Flýtiflipinn **Afurðir** gerir þér kleift að sýna hverja afurð sem verðu
 
 Flýtiflipinn **Gagnagjafi** gerir kleift að rekja upprunastað breytingabeiðninnar. Hann er gagnlegur ef til dæmis á að skoða hvort breytingabeiðnin hafi verið stofnuð úr sölupöntun, hver stofnaði hana og hvaða í hvaða fyrirtæki hún var stofnuð.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Mat lagt á áhrif breytingabeiðninnar á reksturinn
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Mat lagt á áhrif breytingabeiðninnar á reksturinn og senda tilkynningar
 
-Þegar beiðni um breytingu er yfirfarin er hægt að leita að tengslum. Á þennan hátt er hægt að meta áhrif umbeðinnar breytingar á opnum færslum, svo sem sölupantanir, framleiðslupantanir og lagerbirgðir.
+Þegar beiðni um breytingu er yfirfarin er hægt að leita að tengslum. Á þennan hátt er hægt að meta áhrif umbeðinnar breytingar á opnum færslum, svo sem sölupantanir, framleiðslupantanir og lagerbirgðir. Þegar farið er yfir breytingarbeiðnir er hægt að senda tilkynningar til þeirra aðila sem bera ábyrgð á að sinna ýmsum tegundum tengdra pantana.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Farðu yfir viðkomandi færslur, lokaðu á valdar færslur og sendu tilkynningar
+
+Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á valdar færslur og senda tengdar tilkynningar.
 
 1. Farið í **Umsjón hönnunarbreytinga \> Almennt \> Umsjón hönnunarbreytinga \> Beiðnir um breytingu á hönnun**.
 1. Annaðhvort opnið fyrirliggjandi breytingabeiðni eða veljið **Ný** á aðgerðasvæðinu til að stofna nýja breytingabeiðni.
@@ -103,7 +107,30 @@ Flýtiflipinn **Gagnagjafi** gerir kleift að rekja upprunastað breytingabeiðn
     - **Leita** - Skannar allar opnar færslur og opnar síðan svargluggann **Rekstraráhrif á opnar færslur**, sem sýnir allar færslur sem verða fyrir áhrifum vegna breytingarinnar.
     - **Skoða fyrri leit** - Opnið svargluggann **Rekstraráhrif á opnar færslur**, sem sýnir niðurstöður fyrri leitar. (Ekki er leitað að nýju.)
 
-1. Ef vandamálið sem krefst breytinga er aðkallandi, er hægt að loka fyrir opnar færslur eða tilkynna nota sem er ábyrgur með því að nota hnappana á tækjastikunni í svarglugganum **Rekstraráhrif á opnar færslur**.
+1. Svarglugginn **Rekstraráhrif á opnar færslur** býður upp á nokkra flipa sem sýna lista yfir færslur af tiltekinni gerð sem verða fyrir áhrifum (**Sölupantanir**, **Innkaupapantanir**, **Framleiðslupantanir**, **Birgðir** o.s.frv.). Í hverjum flipa kemur einnig fram fjöldi viðkomandi færslna af þeirri gerð. Veldu flipa til að skoða viðeigandi lista.
+1. Til að vinna með færslu í listanum skal velja hana og síðan einn af eftirfarandi hnöppum á verkfærastikunni:
+
+    - **Skoða færslu** – Opna valda færslu.
+    - **Útiloka pöntun** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda sölupöntun.
+    - **Útiloka línu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda innkaupapöntunarlínu.
+    - **Senda ábyrgðarmanni tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingar til notandans sem er settur sem ábyrgur fyrir valda sölupöntun.
+    - **Senda pöntunaraðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem pöntunaraðili fyrir valda innkaupapöntun.
+    - **Tilkynna framleiðslu** – Þessi hnappur er aðeins á flipanum **Framleiðslupantanir**. Ólíkt sölu- og innkaupapantanum hafa framleiðslupantanir ekki einn einasta notanda sem er valinn sem ábyrgur fyrir þeim frá upphafi til enda. Í staðinn eigna ýmsir umsjónaraðilar eða skipuleggjendur sér tiltekið svæði eða tiltekinn hluta framleiðslunnar (til dæmis ákveðin tilföng eða tilfangaflokka). Þegar þú velur þennan hnapp fá fyrir vikið allir notendur sem bera ábyrgð tilföngum sem tengjast valinni framleiðslupöntun tilkynningu um breytingar.
+    - **Senda undirbúningsaðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Innkaupabeiðnir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem undirbúningsaðili fyrir valda innkaupabeiðni.
+    - **Tilkynna ábyrgðarmanni sölu** – Þessi hnappur er aðeins á flipanum **Tilboð**. Veldu það til að senda tilkynningu um breytingu til notandans sem er valinn sem ábyrgur fyrir valið tilboð.
+    - **Úrkast** - Þennan hnapp er aðeins hægt að nálgast á flipanum **Birgðir**. Veldu það til að rýra valdar birgðir.
+    - **Skoða feril** – Opna feril yfir aðgerðir sem gerðar hafa verið á völdu færslunni með því að nota svargluggann **Rekstraráhrif á opnar færslur**. (Ferillinn sýnir til dæmis hvort tilkynningar hafa verið sendar eða færslur hafa verið lokaðar.) 
+    - **Skoða allar færslur** – Opna heildarlista yfir allar færslur, ekki bara opnar færslur.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
+
+Þú getur lesið og unnið úr breytingartilkynningunum sem þú færð á eftirfarandi hátt:
+
+- Nema þegar um er að ræða framleiðslupantanir, tilkynningar um breytingar sem þú berð ábyrgð á birtast í aðgerðamiðstöðinni. Hnappurinn **Sýna skilaboð** (bjöllutáknið) hægra megin á yfirlitsstikunni gefur til kynna hvenær skilaboð eru tiltæk fyrir núverandi notanda í aðgerðamiðstöðinni. Veljið hnappinn **Sýna skilaboð** til að opna aðgerðamiðstöðina og fara yfir skilaboðin.
+- Til að skoða allar framleiðslupantanir þar sem tilkynning um hönnun hefur verið send skal fara í **Framleiðslupantanir \> Framleiðslupantanir \> Allar framleiðslupantanir**. Því næst skal á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Beiðni um hönnunarbreytingu**, velja **Tilkynningar um hönnun** til að opna síðuna **Tilkynningar um hönnun**.
+- Fyrir framleiðslupantanir er hægt að velja að skoða aðeins tilkynningar um breytingar sem eiga við um framleiðslutilföngin sem þú hefur umsjón með. Á vinnusvæðinu **Stjórnun á framleiðslugólfi**, á aðgerðasvæðinu, skal velja **Skilgreina eigið vinnusvæði** til að sía síðuna þannig að hún sýni aðeins upplýsingar um framleiðslueiningar, flokka og/eða tilföng sem þú hefur umsjón með. Í hlutanum **Samantekt** sýnir reitur sem heitir **Framleiðslupantanir með breyttum afurðum** fjöldann af tilkynningum sem passa við síustillingarnar. Veldu þennan reit til að opna síðuna **Tilkynningar um hönnun** sem sýnir heildarlista yfir færslur sem uppfylla skilyrði síunnar.
+
+Þegar þú ert að fara yfir tilkynningar um framleiðslupantanir á síðunni **Tilkynningar um hönnun** geturðu notað tengla til að fara á tengdar breytingapantanir eða framleiðslupantanir með því að velja dálkagildi eða nota tengdar skipanir á aðgerðasvæðinu. Eftir að þú hefur lokið við að meta breytingu og eftir að þú hefur hætt við eða breytt framleiðslupöntunum eftir þörfum geturðu merkt tilkynningu sem leysta. Í aðgerðasvæðinu er síðan smellt á **Leysa úr**. Tilkynningin er fjarlægð úr öllum yfirlitum notenda.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Stofna breytingapöntun úr breytingabeiðni
 

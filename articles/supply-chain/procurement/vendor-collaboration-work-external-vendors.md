@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910402"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103097"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
@@ -240,7 +240,7 @@ Fyrir opinbera geiranum, útvíkkuð virkni gerir tilboðsbeiðnatilfelli kleift
 - Lína útgefinna tilboðsbeiðna
 - Viðhengi hausa útgefinna tilboðsbeiðna
 
-Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Supply Chain Management, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann eða hún að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
+Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Supply Chain Management, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
 
 Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið til margar tölvupóstsniðmát. Þessar tölvupóstsniðmát geta innihaldið bæði fastan texta og eftirfarandi skiptitákn. Táknunum verður skipt út fyrir samhengisháð gildi þegar tölvupóstur er búinn til.
 

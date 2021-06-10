@@ -2,13 +2,12 @@
 title: Stjórna leyfisbeiðnum í Teams
 description: Þetta efnisatriði sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources forritinu í Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953413"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097260"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -33,21 +32,13 @@ Dynamics 365 Human Resources -forritið í Microsoft Teams gerir þér kleift a�
 
 Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni.
 
-1. Í Microsoft Teams skal velja sporbauginn.
-
-   ![Sporbaugur fyrir Human Resources Teams-forrit fyrir leyfi](./media/hr-teams-leave-app-ellipses.png)
+1. Í Microsoft Teams skal fara á lista yfir forrit.
  
 2. Leitið að Dynamics 365 Human Resources og veljið síðan reitinn **Human Resources**.
 
-   ![Human Resources-spjald fyrir Human Resources Teams-forrit fyrir leyfi](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Veljið hnappinn **Bæta við** til að setja upp forritið.
 
-   ![Uppsetning Human Resources Teams-forrits fyrir leyfi](./media/hr-teams-leave-app-in-store.png)
-
 Ef forritið skráir þig ekki sjálfkrafa inn skaltu velja flipann **Stillingar** til að skrá þig inn.
-
-![Stillingaflipi Human Resources Teams-forrits fyrir leyfi](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Ef þú sérð ekki innskráningarglugga skaltu athuga vafrastillingarnar þínar til að leyfa sprettiglugga. 
@@ -61,20 +52,24 @@ Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að
 
 Þegar forritið hefur verið sett upp birtast boð með upplýsingar um þær aðgerðir sem þjarkinn getur gripið til.
 
-![Opnunarkveðja Human Resources Teams-þjarkaforrits fyrir leyfi](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Hugsanlega þarf að skrá sig inn við fyrstu samskipti við þjarkann. Ef þú sérð ekki innskráningarglugga skaltu athuga vafrastillingarnar þínar til að leyfa sprettiglugga.
 
 Hægt er að spyrja þjarkann um að:
 
-- Hefja leyfisbeiðni fyrir notanda.
+- Skoða núgildandi leyfisstöðu þína. Til dæmis er hægt að senda skilaboð sem segja „Skoða leyfisstöður“.
+
+- Hefja leyfisbeiðni fyrir notanda. Til dæmis geturðu sent skilaboð sem segja „Taka frí“ eða „Mig langar að taka frí næsta fimmtudag og föstudag“ til að vera nákvæmari þegar óskað er eftir leyfi fyrir leyfisgerðina frí. 
 
   ![Hefja beiðni um leyfi í Teams spjalli](./media/hr-teams-leave-app-initiate.png)
 
 - Spjallarinn mun fylla út leyfibeiðni fyrir þig. Veljið **Biðja um frí** til að biðja um og breyta upplýsingum um beiðnina.
 
-  ![Breyta upplýsingum leyfisbeiðni](./media/hr-teams-leave-app-details.png)
+   Ef óskað er eftir að senda inn leyfisbeiðnir fyrir margar leyfisgerðir fyrir sömu dagsetninguna skal velja valkostinn **Degi skipt með** í valmyndinni **Fleiri valkostir**. 
+
+   Ef þú velur leyfi í hálfan dag þegar eining leyfisbeiðni er í dögum er hægt að tilgreina hvort beðið sé um frí fyrri hluta dags eða þann seinni með því að velja valkostinn **Skilgreining á hálfum degi** í valmyndinni **Fleiri valkostir**.
+   
+   ![Skilgreiningar hálfs dags](./media/HalfDayDefinitions.png)
 
 - Þegar búið er að breyta upplýsingunum um leyfisbeiðni skal velja **Senda** til að senda þær til samþykkis.
 
@@ -91,42 +86,36 @@ Flipinn **Frí** býður upp á skoðun:
 - Fríbeiðnir
 
 - Drög að leyfisbeiðnum
-
-![Fríflipi fyrir fríforrit Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Búa til nýja beiðni
 
 1. Til að stofna nýja leyfisbeiðni skal velja **Ný beiðni**.
 
-   ![Ný beiðni fyrir Human Resources Teams-forrit fyrir leyfi](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Sláðu inn daginn eða dagana þar sem þú vilt taka frí og veldu svo **Bæta við**.
 
-   ![Bæta við fríi Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Bæta við fríi Human Resources Teams-forriti fyrir leyfi](./media/TimeOffHours.png)
 
 3. Slá inn ástæðukóða, ef við á. Einnig skal færa inn athugasemdir og bæta við viðhengjum.
 
-4. Þegar búið er að færa inn upplýsingar skal slá inn **Senda** til að senda hana til samþykkis. Einnig er hægt að slá inn **Vista sem drög** til að gera þetta síðar.
+4. Veljið valkostinn **Degi skipt með** úr valmyndinni **Fleiri valkostir** ef ætlunin er að senda inn margar færslur leyfisbeiðni fyrir sama daginn fyrir mismunandi leyfisgerðir.
+
+5. Veljið valkostinn **Skilgreining á hálfum degi** til að tilgreina hvort ætlunin sé að biðja um frí fyrri hluta dags eða seinni hluta dags. Þessi valkostur er í boði þegar eining leyfisbeiðni er í dögum og upphæðin sem beðið er um er 0,5 dagar.
+
+6. Þegar upplýsingar hafa verið færðar inn skal ýta á **Senda inn** til að senda þetta inn til samþykktar. Einnig er hægt að færa inn **Vista sem drög** til að koma aftur síðar.
 
 ### <a name="manage-draft-requests"></a>Stjórna dragabeiðnum
 
 1. Veljið flipann **Drög**.
 
-   ![Dragaflipi í Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Veldu blýantinn til að breyta beiðninni eða ruslið til að eyða henni.
 
 3. Gerið nauðsynlegar breytingar. Þegar búið er að færa inn upplýsingar skal slá inn **Senda** til að senda hana til samþykkis. Einnig er hægt að velja **Vista sem drög** til að gera þetta síðar.
-
-   ![Breyta drögum í Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Bregðast við tilkynningum Teams
 
 Þegar þú eða starfskraftur sem þú ert samþykktaraðili fyrir sendir beiðni um leyfi fyrir færðu senda tilkynningu í Human Resources forritinu í Teams. Hægt er að velja tilkynninguna til að skoða hana. Tilkynningar birtast einnig á svæðinu **Spjall**.
 
 Ef notandi er samþykkjandi er hægt að velja **Samþykkja** eða **Neita** í tilkynningunni. Einnig er hægt að búa til valfrjáls skilaboð.
-
-![Senda beiðni um tilkynningar í forritinu Human Resources Teams](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Senda upplýsingar um væntanlegt frí til samstarfsfólks
 
@@ -138,15 +127,9 @@ Eftir að Human Resources er sett upp fyrir Teams er auðveldlega hægt að send
 
 2. Veljið leyfisbeiðnina sem á að deila. Ef óskað er eftir að deila drögum að leyfisbeiðni skal byrja á því að velja **Drög**.
 
-   ![Velja beiðni um væntanlegt frí til að deila](./media/hr-teams-leave-app-chat-search.png)
-
 Leyfisbeiðnin mun birtast í spjallinu.
 
-![Leyfisbeiðnispjald Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-Ef drög að beiðni var deilt mun þau birtast sem drög:
-
-![Drög að leyfisbeiðnispjaldi Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+Ef drög að beiðni var deilt mun þau birtast sem drög.
 
 ## <a name="view-your-teams-leave-calendar"></a>Skoða frídagatal teymisins
 
@@ -156,14 +139,12 @@ Ef þú ert yfirmaður með beina undirmenn getur þú skoðað samþykkt frí h
 
 2. Veldu **Team dagatal**. Dagatalið birtir samþykkt frí og frí í bið fyrir beina undirmenn þína.
 
-   ![Skoða dagatal í Human Resources Teams-forriti](./media/hr-teams-leave-app-view-calendar.png)
-
    > [!NOTE]
    > Ef ekki er hægt að sjá hópdagatalið skal biðja kerfisstjóra um að virkja það. Frekari upplýsingar eru í [Setja upp](hr-admin-teams-leave-app.md#install-and-setup).
 
 ## <a name="supported-languages"></a>Studd tungumál
 
- Forritið Dynamics 365 Human Resources í Teams styður eftirfarandi tungumál:
+Forritið Dynamics 365 Human Resources í Teams styður eftirfarandi tungumál:
 
 | Landstaðalskenni | Tungumál |
 | --- | --- |

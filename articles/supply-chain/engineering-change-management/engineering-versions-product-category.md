@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920158"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115146"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Hönnunarútgáfur og flokkar hönnunarafurðar
 
@@ -48,7 +48,8 @@ Yfirleitt er reglan *Form-hæfi-virkni* notuð til að ákveða hvort breyting �
 - Hönnunarfyrirtækið sem stofnaði og á afurðina (Frekari upplýsingar er að finna í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md).)
 - Tengd hönnunarskjöl, t.d. samsetningarleiðbeiningar, notkunarleiðbeiningar, myndir og tenglar
 - Hönnunareigindir (Frekari upplýsingar er að finna í [Hönnunareigindir og leit að hönnunareigind](engineering-attributes-and-search.md).)
-- Uppskriftir hönnunar
+- Uppskrift fyrir hönnunarafurðir
+- Formúlur fyrir meðhöndlun á framleiðsluvörum
 - Leiðir hönnunar
 
 Hægt er að uppfæra þessi gögn í fyrirliggjandi útgáfu eða stofna nýja útgáfu með því að nota *pöntun hönnunarbreytingar*. (Frekari upplýsingar er að finna í [Stjórna breytingum á hönnunarafurðum](engineering-change-management.md).) Ef ný útgáfa afurðar er stofnuð, afritar kerfið öll gögn sem tengjast hönnuninni yfir í þessa nýju útgáfu. Síðan er hægt að breyta gögnunum fyrir þessa nýju útgáfu. Á þennan hátt er hægt að fylgjast með tilteknum gögnum fyrir hverja útgáfu fyrir sig. Til að bera saman muninn á samfelldum útgáfum hönnunar, skal skoða pöntun hönnunarbreytingar sem inniheldur gerð breytinga sem gefa til kynna allar breytingar.
@@ -110,6 +111,8 @@ Stillið eftirfarandi reiti í flýtiflipanum **Upplýsingar** í flokki hönnun
 | Svæði | lýsing |
 |---|---|
 | Gerð afurðar | Veljið hvort flokkurinn eigi við um afurðir eða þjónustu. |
+| Gerð framleiðslu | Þetta svæði birtist aðeins þegar þú hefur virkjað [breytingastjórnun formúlu](manage-formula-changes.md) í kerfinu. Veldu þá gerð framleiðslu sem þessi hönnunarafurðategund á við um:<ul><li>**Áætlunarvara** – Notaðu þennan hönnunarflokk til að gera breytingastjórnun formúlu fyrir skipulagsatriði. Áætlunarvörur nota formúlur. Þau líkjast formúluatriðum en eru eingöngu notuð til að framleiða aukaafurðir og hliðarafurðir, ekki lokaafurðir. Formúlur eru notaðar við framleiðsluferlið.</li><li>**Uppskrift** – Notaðu þennan hönnunarflokk til að hafa umsjón með hönnunarafurðum sem nota ekki formúlur og innihalda yfirleitt (en ekki endilega) uppskriftir.</li><li>**Formúla** – Notaðu þennan hönnunarflokk til að gera breytingastjórnun formúlu fyrir tilbúnar afurðir. Þessir hlutir verða með formúlu en ekki uppskrift. Formúlur eru notaðar við framleiðsluferlið.</li></ul> |
+| Þyngd afurðar | Þessi valkostur birtist aðeins þegar þú hefur virkjað [breytingastjórnun formúlu](manage-formula-changes.md) í kerfinu. Hann er aðeins tiltækur þegar reiturinn **Framleiðslugerð** er stilltur á *Áætlunarvöru* eða *Formúlu*. Stilltu þennan valkost á *Já* ef þú ætlar að nota þennan hönnunarflokk til að hafa umsjón með vörum sem þurfa stuðning framleiðsluþyngdar. |
 | Rekja útgáfu í færslum | Veljið hvort stimpla eigi útgáfu afurðarinnar í öllum færslum (áhrif á vörustjórnun). Ef þú til dæmis rekur útgáfuna í færslum mun hver sölupöntun sýna hvaða tiltekna útgáfa afurðarinnar var seld í þeirri sölupöntun. Ef útgáfan er ekki rakin í færslum mun sölupöntun ekki sýna hvaða tiltekna útgáfa var seld. Þess í stað sýna þær alltaf nýjustu útgáfuna.<ul><li>Ef þessi valkostur er stilltur á *Já* verður afurðarsniðmát stofnað fyrir afurðina og sérhver útgáfa afurðarinnar verður afbrigði sem notar afurðarvíddina *útgáfa*. Reiturinn **Undirgerð afurðar** er sjálfkrafa stilltur á *Afurðarsniðmát* og í reitnum **Afurðavíddaflokkur** þarf að velja afurðavíddaflokk þar sem vídd *útgáfunnar* er virk. Aðeins afurðavíddaflokkar þar sem *útgáfa* er virk vídd verða sýndir. Hægt er að stofna nýja afurðarvíddaflokka með því að velja hnappinn **Breyta** (blýantstákn).</li><li>Ef þessi valkostur er stilltur á *Nei* verður afurðarvíddin *útgáfa* ekki notuð. Þú getur síðan valið hvort þú vilt búa til afurð eða afurðarsniðmát sem notar aðrar víddir.</li></ul><p>Þessi valkostur er oft notaður fyrir afurðir sem hafa kostnaðarmismun á milli útgáfna, eða afurðir þar sem mismunandi skilyrði eiga við í samanburði við viðskiptavininn. Þess vegna er mikilvægt að gefa til kynna hvaða útgáfa var notuð í hverri færslu.</p> |
 | Undirgerð afurðar | Veljið hvort flokkurinn geymi afurðir eða afurðarsniðmát. Fyrir afurðarsniðmát verða afurðarvíddir notaðar.
 | Afurðavíddaflokkur | Stillingin **Rekja útgáfur í færslum** auðveldar þér að velja afurðarvíddaflokk. Ef þú gafst upp að þú vildir rekja útgáfu í færslum, verða afurðavíddaflokkar þar sem víddin *útgáfa* er notuð sýndir. Annars verða aðeins sýndir afurðavíddaflokkar þar sem víddin *útgáfa* er ekki notuð. |
@@ -139,7 +142,10 @@ Fyrir hverja línu sem bætt er við hnitanetið skal stilla eftirfarandi reiti.
 
 ### <a name="readiness-policy-fasttab"></a>Flýtiflipi undirbúningsreglu
 
-Notið reitinn **Undirbúningsregla afurðar** til að velja undirbúningsregluna sem á við um afurðir sem tilheyra þessum flokki. Frekari upplýsingar er að finna í [Undirbúningur afurðar](product-readiness.md).
+Notaðu reitinn **Undirbúningsregla afurðar** til að velja undirbúningsregluna sem á að nota fyrir afurðir sem eru búnar til samkvæmt þessum hönnunarflokki. Frekari upplýsingar er að finna í [Undirbúningur afurðar](product-readiness.md).
+
+> [!NOTE]
+> Reiturinn **Undirbúningsregla afurðar** virkar örlítið öðruvísi ef kveikt hefur verið á eiginleikanum *Undirbúningsathuganir afurðar* í kerfinu. (Sá eiginleiki gerir kleift að nota undirbúningsreglur fyrir staðlaðar afurðir \[aðrar en hönnunarafurðir\]). Frekari upplýsingar eru í [Tilgreindu undirbúningsreglur fyrir hefðbundnar afurðir og hönnunarafurðir](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Flýtiflipi útgáfureglu
 

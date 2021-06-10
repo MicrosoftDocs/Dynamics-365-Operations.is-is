@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039928"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123363"
 ---
 # <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039928"
 Í þessu efnisatriði er að finna upplýsingar um aldursgreiningarmynd viðskiptavinar. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti. Hægt er að stofna færslur aldursgreiningarmynda fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp.
 
 Upplýsingar úr aldursgreiningarmyndum eru sýndar á listasíðunni **Aldursgreindar stöður** og á síðunni **Innheimtur**. Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna **Aldursgreindar stöður**. Listasíðan sýnir aðeins viðskiptavini sem aldursgreiningarmynd hefur verið stofnuð fyrir.
+
+Vinnusvæðið **Skuldir og innheimta viðskiptavinar** sýnir einnig aldursgreiningu viðskiptavinar. Frekari upplýsingar er að finna í [Skulda- og innheimtuumsjón Power BI Efni](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Til að draga úr þeim tíma sem þarf til að búa til aldursgreiningarmynd skal kveikja á eiginleikanum **Aukin afköst við aldursgreiningu viðskiptavinar** á vinnusvæðinu **Eiginleikastjórnun**. Notið hins vegar ekki viðskiptavinahópa þegar kveikt er á þessum eiginleika. Ef viðskiptavinahópur er valinn mun eiginleikinn ekki virka, en enn verður hægt að búa til aldursgreiningarmynd.
@@ -62,4 +64,3 @@ Mælt er með því að tímasetja þessa vinnslu til að keyra hana í runu.
 > [!NOTE]
 > Til að stuðla að auknum runuafköstum þegar aldursgreiningarmyndir eru búnar til skal færa inn númer í reitinn **Hámarksfjöldi runuverka** í flýtiflipanum **Sjálfgefnar innheimtur** í flipanum **Innheimtur** á síðunni **Færibreytur viðskiptakrafa**. Í reitnum **Aldursgreina stöður viðskiptavina** er mælt með að byrja á sjálfgefna gildinu **100** og síðan leiðrétta gildið til að hámarka vinnslu fyrir kringumstæðurnar.
 
-Vinnusvæðið **Skuldir og innheimta viðskiptavinar** sýnir einnig aldursgreiningu viðskiptavinar. Frekari upplýsingar er að finna í [Skulda- og innheimtuumsjón Power BI Efni](credit-collections-power-bi.md).

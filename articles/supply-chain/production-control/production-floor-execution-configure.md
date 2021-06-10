@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814731"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115024"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -71,6 +71,14 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 
 - Virkni eignarstýringar fyrir viðmót framkvæmdar á framleiðslugólfi
 
+### <a name="enable-job-search"></a>Virkja starfaleit
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Gerir notendum kleift að bæta leitarreit við verklista. Starfskraftar geta fundið tiltekið starf með því að slá inn auðkenni starfsins eða finna öll störf fyrir tiltekna pöntun með því að slá inn kenni pöntunarinnar. Starfskraftar geta slegið inn kennið með því að nota lyklaborð eða með því að skanna strikamerki. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Verkleit fyrir keyrsluviðmót framleiðslugólfs
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Vinna með skilgreiningar á keyrslum framleiðslugólfs
 
 Til að stofna og vinna með tækjastillingar skal fara í **Framleiðslustýringu \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**. Síðan **Grunnstilla framkvæmd á framleiðslugólfi** sýnir lista yfir fyrirliggjandi skilgreiningar. Á þessari síðu er hægt að framkvæma eftirfarandi aðgerðir:
@@ -81,10 +89,11 @@ Til að stofna og vinna með tækjastillingar skal fara í **Framleiðslustýrin
 Næst skal stilla hinar ýmsu stillingar fyrir valda tækisskilgreiningu. Eftirfarandi reitir eru tiltækir:
 
 - **Aðeins inn- og útstimplun** - Stillið þennan valkost á *Já* til að búa til einfaldara viðmót sem býður upp á inn- og útstimplunarvirkni. Þetta óvirkjar flesta aðra valmöguleika á þessari síðu. Fjarlægja verður allar færslubókarlínur úr **Flipavali** áður en hægt er að virkja þennan valkost.
+- **Virkja leit** - Stilltu þennan valkost á *Já* til að taka leitarreit með á verkefnalistann. Starfskraftar geta fundið tiltekið starf með því að slá inn auðkenni starfsins eða finna öll störf fyrir tiltekna pöntun með því að slá inn kenni pöntunarinnar. Starfskraftar geta slegið inn kennið með því að nota lyklaborð eða með því að skanna strikamerki.
 - **Tilkynna magn við útstimplun** - Stillið þennan valkost á *Já* til að biðja starfsmenn að senda inn athugasemd um verk í vinnslu við útstimplun. Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn ekki beðnir um þetta.
 - **Læsa starfsmanni** - Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn skráðir strax út eftir að þeir eru búnir að gera skráningu (t.d. nýtt verk). Tækið fer síðan aftur á innskráningarsíðuna. Þegar þessi valkostur er stilltur á *Já* haldast starfsmenn innskráðir í verkspjaldstækinu. Hins vegar getur starfsmaður skráð sig út handvirkt svo annar starfsmaður geti skráð sig inn á meðan verkspjaldstækið er keyrt áfram undir sama notandareikningi kerfisins. Nánari upplýsingar um þessar gerðir reikninga er að finna í [Úthlutaðir notendur](config-job-card-device.md#assigned-users).
 - **Nota rauntíma skráningar** - Stillið þetta á *Já* til að stilla tímann fyrir hverja nýja skráningu þannig að hún jafngildi þeim tíma þegar starfsmaðurinn sendi inn skráninguna. Þegar þessi valkostur er stilltur á *Nei* er innskráningartíminn notaður í staðinn. Þú vilt yfirleitt stilla þennan valkost á *Já* ef þú hefur stillt valkostina **Læsa starfsmanni** og/eða **Einn starfsmaður** á *Já* þar sem starfsmenn eru oft innskráðir í lengri tíma.
-- **Einn starfsmaður** - Stillið þennan valkost á *Já* ef aðeins einn starfsmaður notar hvert verkspjaldstæki þar sem þessi skilgreining er virk. Þegar þessi valkostur er stilltur á *Já* er valkosturinn **Loka á starfsmann** sjálfkrafa stilltur á *Já*. Að auki fjarlægir þessi valkostur kröfu (og getu) um að starfsmaður skrái sig inn með kortakenni (eða sambærilegu auðkenni). Þess í stað skráir starfsmaðurinn sig inn í Microsoft Dynamics 365 Supply Chain Management með reikningi kerfisnotanda sem er tengdur við *tímaskráðan starfsmann* (úr töflunni *starfsmenn*) og skráist inn í verkspjaldstækið sem þessi starfsmaður á sama tíma.
+- **Einn starfsmaður** - Stillið þennan valkost á *Já* ef aðeins einn starfsmaður notar hvert verkspjaldstæki þar sem þessi skilgreining er virk. Þegar þessi valkostur er stilltur á *Já* er valkosturinn **Loka á starfsmann** sjálfkrafa stilltur á *Já*. Að auki fjarlægir þessi valkostur kröfu (og getu) um að starfsmaður skrái sig inn með kortakenni (eða sambærilegu auðkenni). Þess í stað skráir starfsmaðurinn sig inn í Microsoft Dynamics 365 Supply Chain Management með reikningi kerfisnotanda sem er tengdur við *tímaskráðan starfskraft* (úr töflunni *starfskraftar*) og skráist inn í verkspjaldstækið sem þessi starfsmaður á sama tíma.
 - **Leyfa að læsa snertiskjá** - Stillið þennan valkost á *Já* til að leyfa starfsmönnum að læsa snertiskjá verkspjaldstækis svo þeir geti þrifið hann. Þegar þessi valkostur er stilltur á *Já* er hnappi **Læsa skjá fyrir hreinsun** bætt við inn á innskráningarsíðu tækisins. Þegar starfsmaður velur þennan hnapp læsist snertiskjárinn tímabundið til að koma í veg fyrir óvæntan innslátt. Niðurteljari er einnig sýndur. Starfsmaðurinn getur þá þrifið skjáinn og tækið með góðu móti. Þegar niðurtalningu er lokið aflæsist snertiskjárinn sjálfkrafa.
 - **Lengd skjálæsingar** - Þegar valkosturinn **Leyfa læsingu snertiskjás** er stilltur á *Já* skal nota þennan valkost til að tilgreina fjölda sekúndna sem snertiskjárinn á að vera læstur vegna þrifa. Tímalengd verður að vera 5 til 120 sekúndur.
 - **Mynda númeraplötu** - Stillið þennan valkost á *Já* til að mynda nýja númeraplötu í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Númeraplötunúmerið er myndað úr númeraröð sem er sett upp á síðunni **Færibreytur vöruhúsakerfis**. Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn að tilgreina fyrirliggjandi númeraplötu þegar þeir tilkynna lok.

@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 4276e33f3df60bedcd2b056dababc280ccb96b4a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890748"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058465"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -77,7 +76,7 @@ Markmið hafa oft mælanlegur niðurstöður. Hægt er að bæta við mælingu t
 
 Frammistöðubókin mun innihalda aðgerðir sem veita yfirmanni þínum frekari upplýsingar um hvernig þú getur náð markmiðinu þínu. Ef þú hefur tengt frammistöðubók við markmið birtist hún í **Aðgerðir** hlutanum í markmiðinu. Einnig er hægt að bæta við nýja frammistöðubók úr **frammistöðumarkmið** síða. Þessi frammistöðubók verður sjálfkrafa tengd við markmiðið. 
 
-Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú fest það í **Viðhengi** hlutanum í **frammistöðumarkmið** síðu. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala. 
+Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú fest það í **Viðhengi** í hluta **frammistöðumarkmið** síðunnar. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala. 
 
 Þú getur stofnað sniðmát úr markmiði og notað sniðmát til að búa til ný markmið sem byggð eru á sniðmátinu. Þegar sniðmát er stofnað í markmiði eru lýsing, umræðuefni og markmið mælingar vistaðar. Hins vegar, allar raunmælingar, lokadagsetningar, og efnisatriði ummæli eru fjarlægt.
 

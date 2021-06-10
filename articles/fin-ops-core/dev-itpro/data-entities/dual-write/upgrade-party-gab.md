@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018313"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112674"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018313"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[Sniðmát Azure Data Factory](https://aka.ms/dual-write-gab-adf) hjálpar til við að uppfæra fyrirliggjandi töflugögn **Lykils**, **Tengiliðar** og **Lánardrottins** í tvöfaldri skráningu í aðilalíkanið og líkan altækrar aðsetursbókar. Sniðmátið afstemmir gögnin úr bæði Finance and Operations-forritum og forritum viðskiptavinar. Undir lok ferlisins verða reitirnir **Aðili** og **Tengiliður** fyrir **Aðilafærslur** búnir til og tengdir við færslur **Lykils**, **Tengiliðar** og **Lánardrottins** í forritum viðskiptavinar. .csv skrá (`FONewParty.csv`) er mynduð til að stofna nýjar **Aðilafærslur** í Finance and Operations-forritinu. Í þessu efnisatriði er að finna leiðbeiningar um notkun Data Factory-sniðmáts og uppfærslu gagnanna.
+[Microsoft Azure Data Factory sniðmát](https://aka.ms/dual-write-gab-adf) hjálpar til við að uppfæra fyrirliggjandi töflugögn **Lykils**, **Tengiliðar** og **Lánardrottins** í tvöfaldri skráningu í aðilalíkanið og líkan altækrar aðsetursbókar. Sniðmátið afstemmir gögnin úr bæði Finance and Operations-forritum og forritum viðskiptavinar. Undir lok ferlisins verða reitirnir **Aðili** og **Tengiliður** fyrir **Aðilafærslur** búnir til og tengdir við færslur **Lykils**, **Tengiliðar** og **Lánardrottins** í forritum viðskiptavinar. .csv skrá (`FONewParty.csv`) er mynduð til að stofna nýjar **Aðilafærslur** í Finance and Operations-forritinu. Í þessu efnisatriði er að finna leiðbeiningar um notkun Data Factory-sniðmáts og uppfærslu gagnanna.
 
 Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og það er. Ef sérstillingar eru fyrir hendi fyrir **Lykil**, **Tengilið** og **Lánardrottin** þarf að breyta sniðmátinu samkvæmt eftirfarandi leiðbeiningum.
 
-> [!Note]
-> Sniðmátið hjálpar til við að uppfæra eingöngu gögn **Aðila**. Í síðari útgáfu verða póstföng og rafræn heimilisföng höfð með.
+> [!NOTE]
+> Sniðmátið uppfærir aðeins **Aðili** gögn. Í síðari útgáfu verða póstföng og rafræn heimilisföng höfð með.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Þessar forkröfur eru nauðsynlegar:
+Eftirfarandi forsendur eru nauðsynlegar til að uppfæra í altæka aðila- og aðsetursbókarlíkanið:
 
 + [Azure-áskrift](https://portal.azure.com/)
 + [Aðgangur að sniðmáti](https://aka.ms/dual-write-gab-adf)
-+ Þú ert núverandi viðskiptavinur tvöföldrar skráningar.
++ Þú verður að vera núverandi viðskiptavinur tvöfaldrar skráningar.
 
 ## <a name="prepare-for-the-upgrade"></a>Uppfærsla undirbúin
+Eftirfarandi aðgerðir eru nauðsynlegar til að undirbúa uppfærsluna:
 
-+ **Full samstilling**: Bæði umhverfinu eru samstillt að fullu fyrir **Lykil (viðskiptavinur)**, **Tengilið** og **Lánardrottin**.
++ **Full samstilling**: Bæði umhverfin eru í fullri samstillingarstöðu fyrir **Lykil (viðskiptavinur)**, **Tengilið** og **Lánardrottin**.
 + **Samþættingarlyklar**: Töflur **Lykils (viðskiptavinur)**, **Tengiliðar** og **Lánardrottins** í forritum viðskiptavinar nota tilbúna samþættingarlykla sem fylgja með. Ef samþættingarlyklarnir voru sérstilltir þarf að sérstilla sniðmátið.
 + **Aðilanúmer**: Allar færslur **Lykils (viðskiptavinar)**, **Tengiliðar** og **Lánardrottins** sem verða uppfærðar eru með númer **Aðila**. Færslur án númers **Aðila** verða hunsaðar. Ef uppfæra á þær færslur skal bæta númeri **Aðila** við þær áður en uppfærsluferlið er sett í gang.
-+ **Stöðvun kerfis**: Í uppfærsluferlinu þarf að slökkva á nettengingu fyrir bæði umhverfi Finance and Operations og umhverfi viðskiptavinar.
-+ **Skyndimynd**: Takið skyndimyndir af bæði forritum Finance and Operations og viðskiptavinar. Notið skyndimyndirnar til að endurheimta fyrri stöðu ef á þarf að halda.
++ **Stöðvun kerfis**: Í uppfærsluferlinu þarf að slökkva á nettengingu fyrir bæði Finance and Operations umhverfi  og umhverfi viðskiptavinar.
++ **Skyndimynd**: Takið skyndimyndir af bæði Finance and Operations-forritum og forritum viðskiptavinar. Notið skyndimyndirnar til að endurheimta fyrri stöðu ef á þarf að halda.
 
 ## <a name="deployment"></a>Nýting
 
@@ -78,15 +79,19 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
     FO Linked Service_properties_type Properties_tenant | Tilgreinið upplýsingar um leigjanda (heiti léns eða leigjandakenni) sem forritið heyrir undir.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | Tilgreinið biðlarakenni forritsins.
-    Dynamics Crm Linked Service_properties_type Properties_username | Notandanafnið sem á að tengja Dynamics.
+    Dynamics Crm Linked Service_properties_type Properties_username | Notandanafnið sem á að tengja Dynamics 365.
 
-    Frekari upplýsingar er að finna í [Úthluta sniðmáti forðastjóra handvirkt fyrir hvert umhverfi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Tengdir þjónustueiginleikar](/azure/data-factory/connector-dynamics-ax#linked-service-properties) og [Afrita gögn með Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Vísað er í eftirfarandi efnisatriði fyrir frekari upplýsingar: 
+    
+    - [Úthluta sniðmáti forðastjóra á handvirkan hátt fyrir hvert umhverfi](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Tengdir þjónustueiginleikar](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Afrita gögn með Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Eftir uppsetningu skal staðfesta gagnasöfnin, gagnaflæðið og tengda þjónustu gagnasmiðjunnar.
 
    ![Gagnasafn, gagnaflæði og tengd þjónusta](media/data-factory-validate.png)
 
-11. Farið í **Stjórna**. Undir **Tengingar** skal velja **Tengd þjónusta**. Veljið **DynamicsCrmLinkedService**. Á skjámyndinni **Breyta tengdri þjónustu (Dynamics CRM)** skal færa inn eftirfarandi gildi:
+11. Farið í **Stjórna**. Undir **Tengingar** skal velja **Tengd þjónusta**. Veljið **DynamicsCrmLinkedService**. Á skjámyndinni **Breyta tengdri þjónustu (Dynamics CRM)** skal færa inn eftirfarandi gildi.
 
     Svæði | Virði
     ---|---
@@ -102,7 +107,7 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
 
 ## <a name="run-the-template"></a>Keyra sniðmátið
 
-1. Stöðvið eftirfarandi tvöfalda skráningu **Lykils**, **Tengiliðar** og **Lánardrottins** með Finance and Operations-forritinu.
+1. Stöðvið eftirfarandi tvöfalda skráningu vörpunar **Lykils**, **Tengiliðar** og **Lánardrottins** með Finance and Operations-forritinu.
 
     + Viðskiptavinir V3 (lyklar)
     + Viðskiptavinir V3 (tengiliðir)
@@ -123,7 +128,7 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
     + Hlutverk ákvarðanatöku
     + Stig viðskiptavildar
 
-5. Í forriti viðskiptavinar skal slökkva á eftirfarandi viðbótarskrefum.
+5. Í forriti viðskiptavinar skal slökkva á eftirfarandi skrefum viðbótar:
 
     + Reikningsuppfærsla
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: Uppfærsla reiknings
@@ -157,7 +162,7 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
 8. Flytjið inn nýjar færslur **Aðila** í Finance and Operations-forritinu.
 
     + Sækið `FONewParty.csv`-skrána úr Azure Blob geymslu. Slóðin er `partybootstrapping/output/FONewParty.csv`.
-    + Umbreytið `FONewParty.csv`-skránni í Excel-skrá og flytjið Excel-skrána inn í Finance and Operations-forritið.  Ef csv-innflutningurinn virkar fyrir þig, þá geturðu flutt csv-skrá beint inn. Innflutningurinn gæti tekið nokkrar klukkustundir að keyra, en það fer allt eftir gagnamagninu. Frekari upplýsingar er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../data-import-export-job.md).
+    + Umbreytið `FONewParty.csv`-skránni í Excel-skrá og flytjið Excel-skrána inn í Finance and Operations-forritið. Ef csv-innflutningurinn virkar fyrir þig, þá geturðu flutt csv-skrána beint inn. Innflutningurinn gæti tekið nokkrar klukkustundir að keyra, en það fer allt eftir gagnamagninu. Frekari upplýsingar er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../data-import-export-job.md).
 
     ![Flytja inn Datavers-aðilafærslur](media/data-factory-import-party.png)
 
@@ -198,4 +203,4 @@ Ef engar sérstillingar eru til staðar er hægt að nota sniðmátið eins og �
 
 ## <a name="learn-more-about-the-template"></a>Frekari upplýsingar um sniðmátið
 
-Hægt er að finna athugasemdir um sniðmátið í skránni [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Þú getur fengið viðbótarupplýsingar um sniðmátið í [Upplýsingaskrá með athugasemdum við sniðmát Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
