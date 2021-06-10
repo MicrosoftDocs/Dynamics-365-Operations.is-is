@@ -2,7 +2,7 @@
 title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744616"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050557"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -126,17 +126,26 @@ Til að birta yfirlit skal fylgja þessum skrefum:
 5. **Uppfæra 10.0.17 eða nýrri:** Ef kveikt er á eiginleikanum **(Forskoðun) Stuðningur fyrir þýðingar fyrir yfirlit fyrirtækis** er hægt að bæta við þýðingum fyrir heiti yfirlitsins á eins mörgum tungumálum og fyrirtækið þarf með því að velja hnappinn **Þýðingar** við hliðina á **Heiti**. Heiti yfirlitsins verður þá sýnt notendum á þeirra tungumáli. Einnig er hægt að stilla sjálfgefið tungumál til að tilgreina þýðinguna sem verður sýnd notendum sem eru að keyra tungumál sem engin þýðing er skilgreind fyrir.
 5. Valfrjálst: Færið inn lýsingu á yfirlitinu þannig að notendur sem fá þetta yfirlit skilji betur tilgang þess. 
 6. Ákveðið hvort birta eigi yfirlitið sem sjálfgefið yfirlit fyrir valda notendur. Þegar yfirlit er gert að sjálfgefnu yfirliti, sjá notendur það í næsta skipti sem þeir opna marksíðuna. Einu, altæku sjálfgefnu yfirliti fyrir hvern valinn notanda verður breytt. Hins vegar geta notendur ennþá breytt sjálfgefnu yfirliti sínu eftir birtingu.
-7. Bættu öryggishlutverkum við sem samsvara notendunum sem fá þetta yfirlit. 
-8. Ákveðið hvort birta eigi yfirlitin undirhlutverkum fyrir hvert öryggishlutverk sem er valið. Ef það er gert skal velja gátreitinn **Hafa með undirhlutverk** í línunni fyrir viðeigandi öryggishlutverk. Athugið að þessi gátreitur er ekki tiltækur fyrir hlutverk sem eru ekki með undirhlutverk.
-9. Bættu við lögaðilum sem þetta yfirlit ætti að vera tiltækt fyrir. 
-10. Velja **Birta**.
+
+    > [!NOTE]
+    > Hafðu eftirfarandi í huga þegar þú birtir yfirlit sem sjálfgefið yfirlit: 
+    > -  Ef öllum eða sumum lögaðilum er birt yfirlit sem sjálfgefið yfirlit, er einu, **altæku** sjálfgefnu yfirliti breytt fyrir alla valda notendur. 
+    > -  Ef notandi er með hlutverk þar sem mörg yfirlit eru birt sem sjálfgefið yfirlit, verður síðasta yfirlitið sem birtist notað sjálfgefið yfirlit notandans. 
+
+8. Bættu öryggishlutverkum við sem samsvara notendunum sem fá þetta yfirlit. 
+9. Ákveðið hvort birta eigi yfirlitin undirhlutverkum fyrir hvert öryggishlutverk sem er valið. Ef það er gert skal velja gátreitinn **Hafa með undirhlutverk** í línunni fyrir viðeigandi öryggishlutverk. Athugið að þessi gátreitur er ekki tiltækur fyrir hlutverk sem eru ekki með undirhlutverk.
+10. Bættu við lögaðilum sem þetta yfirlit ætti að vera tiltækt fyrir. 
+
+    > [!NOTE]
+    > Hafa skal eftirfarandi væntingar í huga þegar lögaðila er birt yfirlit.
+    > 
+    > Ef yfirlit er birt í lögaðila, en það er ekki birt sem sjálfgefið yfirlit, sjá notendur yfirlitið fyrst í yfirlitsvalinu aðeins fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum.
+
+11. Velja **Birta**.
 
 Athugið að í sumum umhverfum getur tekið smástund (allt að klukkustund) áður en notendur sjá birt yfirlit.
 
-> [!NOTE]
-> Hafa skal eftirfarandi væntingar í huga þegar lögaðila er birt yfirlit, eða þegar yfirlit er birt sem sjálfgefið yfirlit.
-> - Ef öllum eða sumum lögaðilum er birt yfirlit sem sjálfgefið yfirlit, er einu, altæku sjálfgefnu yfirliti breytt fyrir alla valda notendur. Ef notandi er með hlutverk þar sem mörg yfirlit eru birt sem sjálfgefið yfirlit, verður síðasta yfirlitið sem birtist notað sjálfgefið yfirlit notandans. 
-> - Ef yfirlit er birt í lögaðila, en það er ekki birt sem sjálfgefið yfirlit, sjá notendur yfirlitið fyrst í yfirlitsvalinu aðeins fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Breyta útgefnu yfirliti
 

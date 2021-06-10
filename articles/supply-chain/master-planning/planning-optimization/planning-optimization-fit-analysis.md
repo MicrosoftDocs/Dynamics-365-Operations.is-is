@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812980"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049437"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -89,13 +89,13 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Áætlanir sem fela í sér röðun: _\#_ | Þessi eiginleiki í bið. Sem stendur er röðun hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | Október 2021 - apríl 2022 |
 | Framleiðsla | Útgefnar framleiðslupantanir sem ekki er byrjað á, þar sem áætluð byrjun er á undan deginum í dag: _\#_ | Þessi eiginleiki í bið. Eins og er, ef framleiðslupöntun seinkar, mun aðaláætlanagerð gera ráð fyrir því að henni verði lokið í dag. Þetta á við um útgefnar framleiðslupantanir þar sem afhendingardagsetning er í fortíðinni, en hefur ekki verið lokið. | Október 2021 - apríl 2022 |
 | Framleiðsla | Tímasett tilföng með takmarkaða getu: _\#_ | Þessi eiginleiki í bið. Sem stendur eru tilföng sem áætluð eru með takmarkaðri getu hunsuð þegar fínstilling áætlanagerðar er virk. Áætlanagerð byggist á sjálfgefnum afhendingartíma afurðarinnar. | Óendanlegt: júní 2021, Endanlegt: Október 2021 |
-| Framleiðsla | Leiðir notaðar við áætlanagerð: _\#_ | Þessi eiginleiki í bið. Sem stendur eru leiðir hunsaðar þegar fínstilling áætlanagerðar er virk. Sjálfgefinn afhendingartími afurðarinnar er notaður. | 2021. júní |
+| Framleiðsla | Leiðir notaðar við áætlanagerð: _\#_ | Þessi eiginleiki í bið. Sem stendur eru leiðir hunsaðar þegar fínstilling áætlanagerðar er virk. Sjálfgefinn afhendingartími afurðarinnar er notaður. | Júlí 2021 |
 | Framleiðsla | Frátekningaraðferð sölulínu með frátekningu: _\#_ | Frátekning sölulínu sem notar útþenslu er ekki studd þegar fínstilling áætlanagerðar er virk. | 2021. október |
 | Framleiðsla | Áætlanagerð með frátekningu framleiðslupantana: _\#_ | Áætlanagerð sem notar útþenslu framleiðslupantana er ekki studd þegar fínstilling áætlanagerðar er virk. Hægt er að áætla hverja framleiðslupöntun fyrir sig. | 2021. október |
 | Beiðnir um tilboð | Aðaláætlanir með beiðnir um tilboð virkar: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki litið á tilboðsbeiðnir sem eftirspurn þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | Október 2021 - apríl 2022 |
 | Innkaupabeiðnir | Aðaláætlanir með virkar innkaupabeiðnir: _\#_ | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Innkaupabeiðnir](purchase-requisitions.md) | Stutt |
-| Öryggismörk | Þekjuflokkar með öryggismörk: _\#_ | Þessi eiginleiki er nú studdur að hluta. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl 2021 |
-| Öryggismörk | Aðaláætlanir með öryggismörk: _\#_ | Þessi eiginleiki er nú studdur að hluta. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl 2021 |
+| Öryggismörk | Þekjuflokkar með öryggismörk: _\#_ | Þessi eiginleiki er nú studdur að hluta. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl - október 2021 |
+| Öryggismörk | Aðaláætlanir með öryggismörk: _\#_ | Þessi eiginleiki er nú studdur að hluta. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) | Mörk innhreyfinga: Studd. Endurpöntunarmörk og úthreyfingamörk: apríl - október 2021 |
 | Uppfylling öryggisbirgða | Vöruþekjufærslur með „Uppfylla lágmark“ annað en „Dagurinn í dag + öflunartími“: _\#_ | Fínstilling áætlanagerðar notar alltaf *Dagurinn í dag + öflunartími*. Þessi breyting er gerð til að undirbúa einfalda uppsetningu áætlanagerðar í framtíðinni og til að veita niðurstöður sem hægt er að nýta sér. Ef öflunartíminn er ekki hafður með í öryggisbirgðum, verða alltaf tafir á áætluðum pöntunum sem búnar eru til fyrir núverandi lágar lagerbirgðir vegna afhendingartíma. Þessi hegðun getur valdið verulegum truflunum og óæskilegum áætluðum pöntunum. Besta er að breyta stillingunni þannig að *Dagurinn í dag + öflunartími* er notaður. Uppfæra aðalgögn til að forðast viðvaranir. | Á ekki við |
 | Sölutilboð | Aðaláætlanir með virk sölutilboð: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | Október 2021 - apríl 2022 |
 | Endingartími | Aðaláætlanir með virkan endingartíma: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til endingartíma þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2021. október |
