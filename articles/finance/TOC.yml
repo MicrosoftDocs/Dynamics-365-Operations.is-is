@@ -72,6 +72,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (júlí 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (júlí 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (maí 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Opnar innistæður vantar í árslokalokun
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Opna sniðmát fyrir fjárhagsbók í Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Fjárhagsskýrslugerð
           items:
             - name: Hafist handa með fjárhagsskýrslugerð
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Mörg VSK-númer
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Setja upp umhverfi fyrir uppflettingar aðalgagna
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Mörg VSK-númer
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
+                      items:
+                        - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Skýrslugerð Hollands
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: ESB-sölulisti
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
             - name: Ástralía
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Virkja magnrunuvinnslu fyrir GSTR-skýrslur
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Úrræðaleit vöru- og þjónustuskatts
+                          items:
+                            - name: Röng skattupphæð eftir útreikning
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Villur í skattskilgreiningum
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Skattur er ekki reiknaður
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: Það tekur lengri tíma en búist var við að virkja jöfnunarreglurnar
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans-eða fylgiskjal var ekki búið til
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Skattafærslukenni er rangt
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Beinir skattar
                   items:
                     - name: Staðgreiðsluskattur á Indlandi
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Endurskoðunarskrá (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: VSK-skýrsla (Holland)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Noregur
               items:
                 - name: Yfirlit yfir Noreg
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Endurbætur á rakningu niðurstaðna myndaðra rafræn skýrslna og samanburður við grunngildi
+                    - name: Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Sjálfvirk prófun með rafrænni skýrslugerð
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

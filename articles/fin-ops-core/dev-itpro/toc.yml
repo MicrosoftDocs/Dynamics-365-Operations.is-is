@@ -14,7 +14,9 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
-                - name: Verkvangsuppfærslur fyrir 10.0.19 (júlí 2021)
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (júlí 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nýjungar eða breytingar í Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Notkunarleiðbeiningar Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Innleiðing verks
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Líftímastjórnun forrits
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Eigandi teymis tilgreindur af notanda
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Aftengja og endurtengja umhverfi fyrir tvöföld skrif
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Vörpun hugtaka á milli forrita
                   items:
                     - name: Samþætt aðalsniðmát viðskiptavinar
@@ -1158,14 +1162,16 @@
                   href: power-platform/application-lifecycle-management.md
                 - name: Tilvísun stjórnanda Finance and Operations og Dataverse
                   href: power-platform/admin-reference.md
-                - name: Power Apps-gáttir með Finance and Operations
+                - name: Power Apps gáttir með Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Algengar spurningar um sýndareiningar Finance and Operations
+                - name: Finance and Operations Algengar spurningar um sýndareiningar
                   href: power-platform/faq.md
             - name: Innbætur
               items:
                 - name: Yfirlit innbóta
                   href: power-platform/add-ins-overview.md
+            - name: Reglur og samskipti
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Fartækjaverkvangur
           items:
             - name: Tilföng fartækjaverkvangs

@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 20. maí 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3. maí 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19. apríl 2021
@@ -785,8 +787,14 @@
           items:
             - name: Árangursstjórnunaryfirlit
               href: hr-develop-performance-management-overview.md
-            - name: Raða saman hæfni vinnuafls
-              href: hr-develop-skills.md
+            - name: Hæfni
+              items:
+                - name: Skilgreina hæfni
+                  href: hr-develop-skills.md
+                - name: Slá inn hæfni
+                  href: hr-develop-enter-skills.md
+                - name: Kortleggja hæfni
+                  href: hr-develop-map-skills.md
             - name: Bæta við frammistöðubókina þína
               href: hr-develop-add-performance-journal.md
             - name: Búa til markmið
