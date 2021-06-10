@@ -7,31 +7,30 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4adab0225190b4dea5213dccf297eaab33efc863
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c0da21c0074468c5942bf853df701151ef7ee95
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021321"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055077"
 ---
-# <a name="generate-payroll-entities"></a><span data-ttu-id="eedf3-103">Mynda launaeiningar</span><span class="sxs-lookup"><span data-stu-id="eedf3-103">Generate payroll entities</span></span>
+# <a name="generate-payroll-entities"></a><span data-ttu-id="9289a-103">Mynda launaeiningar</span><span class="sxs-lookup"><span data-stu-id="9289a-103">Generate payroll entities</span></span>
 
-<span data-ttu-id="eedf3-104">Notið þessa OData-aðgerð til að mynda einingar sem þarf fyrir launasamþættingu.</span><span class="sxs-lookup"><span data-stu-id="eedf3-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="eedf3-105">Ef einhverjar breytingar eru gerðar á þessum einingum í Human Resources, t.d. sérstilltum reitum bætt við, verður hægt að kalla aftur á þessa aðgerð til að endurhlaða lýsigögn hverrar einingar.</span><span class="sxs-lookup"><span data-stu-id="eedf3-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="eedf3-106">Svarið inniheldur auðkenni aðgerðar sem hægt er að fylgjast með þannig að vitað sé hvenær myndunferlinu lýkur.</span><span class="sxs-lookup"><span data-stu-id="eedf3-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
+<span data-ttu-id="9289a-104">Notið þessa OData-aðgerð til að mynda einingar sem þarf fyrir launasamþættingu.</span><span class="sxs-lookup"><span data-stu-id="9289a-104">Use this OData function to generate the entities needed for payroll integration.</span></span> <span data-ttu-id="9289a-105">Ef einhverjar breytingar eru gerðar á þessum einingum í Human Resources, t.d. sérstilltum reitum bætt við, verður hægt að kalla aftur á þessa aðgerð til að endurhlaða lýsigögn hverrar einingar.</span><span class="sxs-lookup"><span data-stu-id="9289a-105">If any changes are made to these entities in Human Resources, such as adding custom fields, this function can be called again to refresh the metadata of each entity.</span></span> <span data-ttu-id="9289a-106">Svarið inniheldur auðkenni aðgerðar sem hægt er að fylgjast með þannig að vitað sé hvenær myndunferlinu lýkur.</span><span class="sxs-lookup"><span data-stu-id="9289a-106">The response contains an operation ID that you can monitor so you know when the generation process has completed.</span></span>
 
-<span data-ttu-id="eedf3-107">**Beiðni**</span><span class="sxs-lookup"><span data-stu-id="eedf3-107">**Request**</span></span>
+<span data-ttu-id="9289a-107">**Beiðni**</span><span class="sxs-lookup"><span data-stu-id="9289a-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 ```
 
-<span data-ttu-id="eedf3-108">**body**</span><span class="sxs-lookup"><span data-stu-id="eedf3-108">**body**</span></span>
+<span data-ttu-id="9289a-108">**body**</span><span class="sxs-lookup"><span data-stu-id="9289a-108">**body**</span></span>
 
 ```json
 {
@@ -39,7 +38,7 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-<span data-ttu-id="eedf3-109">**Svar**</span><span class="sxs-lookup"><span data-stu-id="eedf3-109">**Response**</span></span>
+<span data-ttu-id="9289a-109">**Svar**</span><span class="sxs-lookup"><span data-stu-id="9289a-109">**Response**</span></span>
 
 ```json
 {
@@ -47,17 +46,17 @@ GET [Organizaton URI]/api/data/v9.1/RefreshHumanResourcesVirtualEntities
 }
 ```
 
-## <a name="review-payroll-entities"></a><span data-ttu-id="eedf3-110">Yfirfara launaeiningar</span><span class="sxs-lookup"><span data-stu-id="eedf3-110">Review payroll entities</span></span>
+## <a name="review-payroll-entities"></a><span data-ttu-id="9289a-110">Yfirfara launaeiningar</span><span class="sxs-lookup"><span data-stu-id="9289a-110">Review payroll entities</span></span>
 
-<span data-ttu-id="eedf3-111">Notið þetta API til að sækja lista yfir einingarnar sem tekist hefur að mynda og eru tilbúnar til notkunar.</span><span class="sxs-lookup"><span data-stu-id="eedf3-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
+<span data-ttu-id="9289a-111">Notið þetta API til að sækja lista yfir einingarnar sem tekist hefur að mynda og eru tilbúnar til notkunar.</span><span class="sxs-lookup"><span data-stu-id="9289a-111">Use this API to retrieve a list of the entities that have been successfully generated and are ready for use.</span></span>
 
-<span data-ttu-id="eedf3-112">**Beiðni**</span><span class="sxs-lookup"><span data-stu-id="eedf3-112">**Request**</span></span>
+<span data-ttu-id="9289a-112">**Beiðni**</span><span class="sxs-lookup"><span data-stu-id="9289a-112">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hrvirtualentitycatalogs?$filter=mshr_hasbeengenerated eq true
 ```
 
-<span data-ttu-id="eedf3-113">**Svar**</span><span class="sxs-lookup"><span data-stu-id="eedf3-113">**Response**</span></span>
+<span data-ttu-id="9289a-113">**Svar**</span><span class="sxs-lookup"><span data-stu-id="9289a-113">**Response**</span></span>
 
 ```json
 {
