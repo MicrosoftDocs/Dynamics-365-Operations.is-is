@@ -72,7 +72,9 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (júlí 2021)
+                    - name: Supply Chain Management 10.0.20 (júlí 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (apríl 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maí 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Uppsetning fyrir verkbeiðni
               items:
-                - name: 'Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar'
+                - name: 'Flokkar, afbrigði, viðskipti og gátlistar fyrir gerðir viðhaldsverks'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Líftímastöður verkbeiðni
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Endurbætur á rakningu niðurstaðna myndaðra rafræn skýrslna og samanburður við grunngildi
+                    - name: Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Sjálfvirk prófun með rafrænni skýrslugerð
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,9 +2227,11 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Hönnunarútgáfur og flokkar hönnunarafurðar
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Stjórna breytingum í formúlum og innihaldi þeirra
+              href: engineering-change-management/manage-formula-changes.md
             - name: Virkja breytingastjórnun á fyrirliggjandi afurðum
               href: engineering-change-management/change-management-existing-products.md
-            - name: Líftímastaða afurðar og færslur
+            - name: Lífferilsstaða afurðar og færslur
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Vinna með breytingar á hönnunarafurðum
               href: engineering-change-management/engineering-change-management.md
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Samræmd númeraröð fyrir vinnslukenni
               href: production-control/unified-job-ids.md
+            - name: Kalla fram sjálfvirkni ferilflæðis til að stofna gæðapantanir
+              href: production-control/process-automation-quality-orders.md
             - name: Afmörkuð framleiðsla
               items:
                 - name: Vinna með aðalgögn framleiðslu
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
                           href: production-control/production-floor-execution-use.md
-                        - name: Notandaviðmót stjórnar stíl fyrir framleiðslugólf
+                        - name: Hanna keyrsluviðmót framleiðslugólfsins
                           href: production-control/production-floor-execution-styles.md
                     - name: Skilgreina verkspjald fyrir tæki
                       href: production-control/config-job-card-device.md
@@ -3141,9 +3147,9 @@
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: Sviðsmynd 1 - sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: Sviðsmynd 2 - sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
+                    - name: Sviðsmynd 2 - sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: Sviðsmynd 3 - sameina sendingar með því að nota „Losa í vöruhús“ á vinnusvæði farmáætlunar
+                    - name: Sviðsmynd 3 - sameina sendingar með því að nota „Losun í vöruhús“ á vinnusvæði hleðsluáætlunar
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: Sviðsmynd 4 - sameina sendingar með því að nota samstæðuvinnusvæði sendinga
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
+                    - name: Skilgreina reiti fyrir Warehouse Management farsímaforritið
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Uppsetning fartækja fyrir vöruhúsavinnu
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Úthluta skrefatáknum og titlum
+                      href: warehousing/step-icons-titles.md
                     - name: Vinnsla viðburða í vöruhúsaforriti
                       href: warehousing/warehouse-app-events.md
-                    - name: Móttaka númeraplötu með farsímaforriti vöruhúsakerfis
+                    - name: Móttaka númeraplötu með Warehouse Management farsímaforritinu
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3359,37 +3367,41 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Að afturkalla skýrslu sem lokið býr til óvænta opna færslu
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Ekki tókst að sýna nýjar athugasemdir sem hengdar eru við færslubók í skýrslu tiltektarlista
+                - name: Skýrsla tiltektarlista sýnir ekki nýjar athugasemdir sem hengdar eru við færslubók
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: Magn í biðgeymslupöntun í vinnslu uppfærist ekki þegar pöntuninni er skipt niður
                   href: troubleshooting/inventory/quantity-on-a-start.md
                 - name: Reiturinn „Síðasti prófunardagur“ uppfærist ekki þegar margar gæðapantanir eru stofnaðar
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: Þegar magn framleiðsluþyngdar er skipt niður er lágmarksmagn í stað nafnmagns notað
+                - name: Þegar magn framleiðsluþyngdar er skipt niður er lágmarksmagn notað í stað nafnmagns
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Aðaláætlanagerð
               items:
                 - name: Unnið er úr beint afleiddum staðfestum pöntunum með verkflæði endurskoðunar
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Ekki er hægt að sía atriði aðaláætlanagerðar eftir gildum tengds þekjuflokks
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Aðaláætlanagerð býr til áætlaðar pantanir fyrir skuggaafurðir
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Áætluð innkaupapöntun stofnuð þegar innkaup eru til innan neikvæðra daga
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Ekki tókst að hlaða upp kostnaðarverðinu í færslum eftirspurnarspár
+                - name: Ekki er hægt að uppfæra spá um einingarkostnað þegar þú flytur inn færslur eftirspurnarspár
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Ekki er hægt að fjarlægja vídd eftirspurnarspár vöruhúss úr spárlínum
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: Beðið er um að vista vöruþekjustillingar þrátt fyrir að þú hafir ekki gert neinar breytingar
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Innkaup
               items:
-                - name: Ekki er hægt að reikningsfæra sölupöntun sem snýr að viðskiptavini í VEL-fyrirtækinu
+                - name: Þú getur ekki reikningsfært sölupöntun sem snýr að viðskiptavini
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Ekki er hægt að bæta línu við innkaupabeiðni eftir að óskað hefur verið eftir breytingu
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Afurðaupplýsingastjórnun
               items:
-                - name: Ekki er hægt að nota sniðmát til að búa til útgefna vöru
+                - name: Þú getur ekki notað sniðmát til að búa til útgefna vöru
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Ekki er hægt að flytja inn vöru með V2-einingu útgefinna afurða
+                - name: Þú getur ekki flutt inn vöru með því að nota V2-einingu útgefinna afurða
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Innkaupapantanir sýna ekki þýddan vörutexta
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Notendur geta afturkallað efnislínur fyrir afurðir sem búið er að tilkynna sem lokið
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Villa við bókun skýrslu sem lokinni færslubók
+                - name: Villa þegar skýrsla er bókuð sem lokuð færslubók
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Vöruhúsið í færslubók tiltektarlista er ekki uppfært í uppskriftarlínu
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3427,7 +3439,7 @@
                   href: troubleshooting/warehousing/packing-station-not-.md
                 - name: Staðsetningarforstilling leyfir ekki neikvæða birgðaskráningu en neikvæð lagerstaða er leyfð
                   href: troubleshooting/warehousing/location-profile-set.md
-                - name: Aðeins eitt merki prentast fyrir marga vinnuhausa í einni innhreyfingu
+                - name: Aðeins eitt merki hefur verið prentað fyrir marga vinnuhausa í einni innhreyfingu
                   href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Ekki er hægt að staðfesta sendingu vegna dagatalsvandamáls
                   href: troubleshooting/warehousing/load-has-active-appo.md
@@ -3453,7 +3465,7 @@
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
                 - name: Ekki er hægt að hætta við vinnu vegna stöðu
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Vinna er ekki útilokuð
+                - name: Vinnan er ekki útilokuð
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: Vinnan er áfram útilokuð
                   href: troubleshooting/warehousing/work-remains-blocked.md

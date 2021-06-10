@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017056"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085475"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Breyta bókhalds- eða skýrslugjaldmiðli
 
@@ -31,12 +31,12 @@ ms.locfileid: "6017056"
 Þú vilt breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu. Þetta á sér yfirleitt stað við eftirfarandi aðstæður:
 
 - Rangur bókhalds- eða skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp. Nú viltu breyta þeim gjaldmiðli.
-- Enginn skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp. (Skýrslugjaldmiðill er valfrjáls.) Þú vilt nú bæta við skýrslugjaldmiðli.
+- Skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp en fyrirtækið vilja nú fjarlægja skýrslugjaldmiðilinn.
+- Fyrirtækið er að uppfæra eða flytja sig yfir í Microsoft Dynamics 365 Finance og vill breyta bókhalds- eða skýrslugjaldmiðlinum.
 
 Samtök sem notuðu ekki áður möguleikann á tvöföldum gjaldmiðli vill byrja að nota hann. Þetta vandamál á sér yfirleitt stað við eftirfarandi aðstæður.
 
-- Skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp en fyrirtækið vilja nú fjarlægja skýrslugjaldmiðilinn.
-- Fyrirtækið er að uppfæra eða flytja sig yfir í Microsoft Dynamics 365 Finance og vill breyta bókhalds- eða skýrslugjaldmiðlinum.
+- Enginn skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp. (Skýrslugjaldmiðill er valfrjáls.) Þú vilt nú bæta við skýrslugjaldmiðli.
 
 ## <a name="resolution"></a>Lausn
 
