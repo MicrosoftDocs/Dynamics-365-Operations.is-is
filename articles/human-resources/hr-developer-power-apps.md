@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5032c0996ef0dfb80a129deb32b4526794ca228
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b1ebe17063d954b52a0607d39e3ea08518adb89
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892154"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057599"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Stækka með Power Apps og Power Automate
 
@@ -45,7 +44,7 @@ Forritið **Samþætting við Microsoft 365** er hægt að nota til að draga ú
 
 Þú getur lengt þetta forrit fyrir aðrar aðstæður. Til dæmis er hægt að nota það til að sýna upplýsingar um frí hóps, viðburði dagatals og alla viðburði sem tengjast hópnum.
 
-Til að hlaða niður forritinu **Samþætting við Microsoft 365 Power Automate** skaltu fara í [Samþætting við Microsoft 365 ](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
+Til að hlaða niður forritinu **Samþætting við Microsoft 365 Power Automate** skaltu fara í [Samþætting við Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate - SQL Connect og framkvæmd
 

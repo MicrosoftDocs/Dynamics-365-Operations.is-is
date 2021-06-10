@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814827"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103000"
 ---
 # <a name="pay-based-on-registrations"></a>Laun byggð á skráningum
 
@@ -39,7 +39,7 @@ ms.locfileid: "5814827"
 
 ## <a name="the-use-of-flex-time"></a>Notkun sveigjanlegs tíma
 
-Tímabil sveigjanlegs tíma eru sett upp í tímaforstillingum sem notaðar eru í Tími og viðvera. Það eru til tvær sveigjanlegar forstillingargerðir: **Sveigjanlegur+** og **Sveigjanlegur-**. Þegar starfsmaður skráir tíma á tímabilinu Sveigjanlegur+, er staða sveigjanlegs tíma starfsmanns aukin um klukkustundirnar sem var unnið. Starfsmaður fær enga uppbót fyrir klukkustundirnar sem unnið var á tímabilinu Sveigjanlegur+. Hins vegar getur starfsmaður tekið frí á meðan á tímabilinu Sveigjanlegur- stendur og fengið það bætt með klukkustundunum sem eru á sveigjanleikastöðu hans eða hennar. Þess vegna lítur kerfið á frítíma á sveigjanlegum tímabilum sem fjarvist.
+Tímabil sveigjanlegs tíma eru sett upp í tímaforstillingum sem notaðar eru í Tími og viðvera. Það eru til tvær sveigjanlegar forstillingargerðir: **Sveigjanlegur+** og **Sveigjanlegur-**. Þegar starfsmaður skráir tíma á tímabilinu Sveigjanlegur+, er staða sveigjanlegs tíma starfsmanns aukin um klukkustundirnar sem var unnið. Starfsmaður fær enga uppbót fyrir klukkustundirnar sem unnið var á tímabilinu Sveigjanlegur+. Hins vegar getur starfsmaður tekið frí á meðan á tímabilinu Sveigjanlegur- stendur og fengið það bætt með klukkustundunum sem eru á sveigjanleikastöðu hans. Þess vegna lítur kerfið á frítíma á sveigjanlegum tímabilum sem fjarvist.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Tilfelli byggð á sveigjanlegum tímabilum
 
@@ -57,7 +57,7 @@ Tilfellin tvö sem fylgja eru byggð á sveigjanlegri forstillingu sem táknar v
 | Stimpla út     | 15:30 | 15:30 | Mánudagur  |
 | Yfirvinna     | 15:30 | 06:00 | Þriðjudagur |
 
-### <a name="scenario-1-a-worker-registers-clock-in-during-a-flex-period-and-clock-out-during-a-flex--period"></a>Tilfelli 1: Starfsmaður stimplar sig inn á tímabili sveiganlegs+ og stimplar sig út á tímabili sveigjanlegs-
+### <a name="scenario-1-a-worker-registers-clock-in-during-a-flex-period-and-clock-out-during-a-flex--period"></a>Tilfelli 1: Starfsmaður stimplar sig inn á Sveiganlegt+ tímabilinu og stimplar sig út á Sveigjanlegt- tímabilinu.
 
 Skráning starfsmannsins fyrir daginn lítur svona út.
 
@@ -77,7 +77,7 @@ Til að skilja þetta tilfelli, sjá eftirfarandi reiti.
 
 #### <a name="calculation-of-flex"></a>Útreikningur á Sveigjanlegum+
 
-Samkvæmt forstillingu sveigjanlegs er tíminn á milli kl. 06:00 og 07:00 tímabilið Sveigjanlegur+. Þess vegna, ef starfsmaður stimplar sig inn klukkan 06:30, fær hann 0,5 klst. Þessum tímafjölda er bætt við sveigjanlegan reikning starfsmannsins.
+Samkvæmt forstillingu sveigjanlegs er tíminn á milli kl. 06:00 og 07:00 tímabilið Sveigjanlegur+. Ef starfskraftur stimplar sig þannig inn klukkan 06:30, fær hann 0,5 klst. Þessum tímafjölda er bætt við sveigjanlegan reikning starfsmannsins.
 
 #### <a name="calculation-of-flex-"></a>Útreikningur á Sveigjanlegum-
 
@@ -116,11 +116,11 @@ Eftir að búið er að reikna út færslubókarskráningu á síðunni **Samþy
 
 #### <a name="calculation-of-flex"></a>Útreikningur á Sveigjanlegum+
 
-Samkvæmt forstillingu sveigjanlegs er tíminn á milli kl. 06:00 og 07:00 tímabilið Sveigjanlegur+. Þess vegna, ef starfsmaður stimplar sig inn klukkan 06:30, fær hún 0,5 klst. af Sveigjanlegum+ tíma inn á sveigjanleikastöðu sína.
+Samkvæmt forstillingu sveigjanlegs er tíminn á milli kl. 06:00 og 07:00 tímabilið Sveigjanlegur+. Ef starfskraftur stimplar sig þannig inn klukkan 06:30, fær hann 0,5 klst. af Sveigjanlegum+ tíma inn á sveigjanleikastöðu sína.
 
 #### <a name="calculation-of-flex-"></a>Útreikningur á Sveigjanlegum-
 
-Sveigjanlegur- er ekki reiknaður vegna þess að starfsmaðurinn vinnur á tímabilinu Sveigjanlegur-. Sveigjanlegur- er reiknaður aðeins ef starfsmaður er fjarverandi á tímabilinu Sveigjanlegur-. Frá sjónarhorni greiðslu, ef starfsmaður vinnur á tímabilinu Sveigjanlegur- fær hún launataxta sem er skilgreindur fyrir staðaltíma. Ef starfsmaðurinn er fjarverandi á tímabilinu Sveigjanlegur- eru 45 mínúturnar dregnar frá sveigjanlegum reikningi hennar.
+Sveigjanlegur- er ekki reiknaður vegna þess að starfsmaðurinn vinnur á tímabilinu Sveigjanlegur-. Sveigjanlegur- er reiknaður aðeins ef starfsmaður er fjarverandi á tímabilinu Sveigjanlegur-. Frá sjónarhorni greiðslu, ef starfsmaður vinnur á tímabilinu Sveigjanlegur- fær launataxta sem er skilgreindur fyrir staðaltíma. Ef starfsmaðurinn er fjarverandi á tímabilinu Sveigjanlegur- eru 45 mínúturnar dregnar frá sveigjanlegum reikningi hans.
 
 #### <a name="calculation-of-time"></a>Útreikningur á tíma
 
@@ -168,9 +168,9 @@ Til að grunnstilla kerfið til að greina almennilega á milli staðaltíma og 
 
 Á síðunni **Færibreytur útreikninga** skal velja **Yfirvinna** sem gerð lýsingar fyrir forstillingu og stilla valkostinn **Launatími** á **Nei** eins og sýnt er hér.
 
-| Skráð lýsing | Gerð lýsingar fyrir forstillingu | Útreikningur   |     | Greiddur         |     |
+| Skráð lýsing | Gerð lýsingar fyrir forstillingu | Útreikningur   | Stilling | Greiddur         | Stilling |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Vinnutími       | Yfirvinna                   | Staðaltími | Já | Launatími     | Númer  |
+| Vinnutími       | Yfirvinna                   | Staðaltími | Já | Launatími     | Ekkert  |
 |                    |                            | Launatími      | Já | Yfirvinnutími | Já |
 
 Eftir að þú hefur stillt færibreytur útreiknings myndast eftirfarandi launaliðir.
@@ -526,7 +526,7 @@ Hér er launaliðurinn sem fylgir eftir að skráningar eru fluttar.
 
 ### <a name="scenario-4-the-worker-clocks-in-late-and-clocks-out-after-the-planned-clock-out-time-during-an-overtime-period"></a>Sýnishorn 4: Starfsmaðurinn stimplar sig seint inn og stimplar sig út eftir áætlaðan útstimplunartíma á yfirvinnutímabili
 
-Starfsmaðurinn stimplar sig seint inn kl. 09:30 og síðan, til að bæta upp fyrir seina mætingu, vinnur hann yfirvinnu og stimplar sig út kl. 17:00. Vegna þess að starfsmaðurinn kom seint og bætti það upp með því að vinna lengur, vill fyrirtækið ekki veita starfsmanninum yfirvinnulaun fyrir vinnustundirnar sem hann starfaði milli áætlaðs útstimplunartíma kl. 15:30 og raunverulegs útstimplunartíma kl. 17:00, jafnvel þó að þetta tímabil sé skilgreint sem yfirvinna í tímaforstillingu.
+Starfsmaðurinn stimplar sig seint inn kl. 09:30 og síðan, til að bæta upp fyrir seina mætingu, vinnur yfirvinnu og stimplar sig út kl. 17:00. Vegna þess að starfsmaðurinn kom seint og bætti það upp með því að vinna lengur, vill fyrirtækið ekki veita starfsmanninum yfirvinnulaun fyrir vinnustundirnar sem hann starfaði milli áætlaðs útstimplunartíma kl. 15:30 og raunverulegs útstimplunartíma kl. 17:00, jafnvel þó að þetta tímabil sé skilgreint sem yfirvinna í tímaforstillingu.
 
 Til að takast á þetta er hægt að setja upp fjarvistarkóðann til að draga frá yfirvinnutímanum með þeim vinnustundum sem fóru í óleyfilega fjarvist starfsmanns á sama degi. Veldu **Tími og viðvera** &gt; **Uppsetning** &gt; **Flokkar** &gt; **Fjarvistaflokkar** og veldu gátreitinn **Frádráttur yfirvinnu** til að draga frá yfirvinnu sem nemur vinnustundum af óleyfilegri fjarvist.
 
@@ -559,7 +559,7 @@ Hins vegar, ef gátreiturinn **Frádráttur yfirvinnu** er hreinsaður fyrir val
 
 Eftirfarandi dæmi sýnir hvernig hægt er að draga af sveigjanlegum reikningi starfsmanns með því að umbreyta fjarvistartímabilinu í tímabil Sveigjanlegs-.
 
-Starfsmaðurinn stimplar sig inn kl. 07:00 og stimplar sig út kl. 13:00. Hún hefur gert samkomulag við sinn yfirmann sína um að hún geti farið heim um helgina ef hún dregur þessar vinnustundir frá sveigjanlegum reikningi sínum. Þegar starfsmaður stimplar sig út kl. 13:00 er hún beðin um að velja fjarvistarkóða vegna þess að tímabil fjarvistar sem eftir er af þeim hluta vinnudagsins sem verður fyrir áhrifum er ekki innan áætlaðs tímabils Sveigjanlegs-. Til að umbreyta það sem eftir er af vinnudeginum í Sveigjanlegan-, getur starfsmaður valið fjarvistarkóða sem er settur upp til að draga frá sveigjanlegum reikningi hennar.
+Starfsmaðurinn stimplar sig inn kl. 07:00 og stimplar sig út kl. 13:00. Starfsmaðurinn er með samkomulag um að hann geti farið heim yfir helgina ef hann dregur þessa tíma af sveigjanlega reikningnum sínum. Þegar starfsmaður stimplar sig út kl. 13:00 er hann beðin um að velja fjarvistarkóða vegna þess að tímabil fjarvistar sem eftir er af þeim hluta vinnudagsins sem verður fyrir áhrifum er ekki innan áætlaðs tímabils Sveigjanlegs-. Til að umbreyta það sem eftir er af vinnudeginum í sveigjanlegan-, getur starfsmaður valið fjarvistarkóða sem er settur upp til að draga frá sveigjanlegum reikningi hans.
 
 Til að minnka stöðuna á sveigjanlegum vinnustundum fyrir starfsmenn sem skrá fjarvist á vinnudegi skal velja **Tími og viðvera** &gt; **Uppsetning** &gt; **Flokkar** &gt; **Fjarvistarflokkar** og velja gátreitinn **Minnka sveigjanlegan**.
 

@@ -1,7 +1,7 @@
 ---
 title: Taka þyngd og rúmmál gáms með í hleðslu
 description: Í þessu efnisatriði er lýst hvernig eigi að setja upp og nota virkni til að taka með þyngd gáms og rúmtak í farmi.
-author: pjacobse
+author: Henrikan
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: henrikan
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d747d2cdafeedf77b8b2df1cbc8debdc0675729
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9196e9c4ce1a8aa629400b8bf379e7164a797b85
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824053"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102640"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Taka þyngd og rúmmál gáms með í hleðslu
 
@@ -39,7 +39,7 @@ Virknin til að taka með þyngd og rúmmál gáms í farmi gildir í flutningss
 
 Fjöldi gáma sem koma til greina fyrir farm er reiknað út frá þyngd og rúmmáli gáms og nýtingarhlutfalli gáms.
 
--   Til að stilla þyngd og rúmmál fyrir gám skal smella á  **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámagerð**.
+-   Til að stilla þyngd og rúmmál fyrir gám skal smella á **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámagerð**.
 
 -   Til að stilla gámanýtingarhlutfallið, smelltu á **Vöruhúsastjórnun** \> **Uppsetning** \> **Gámar** \> **Gámaflokkar** og sláðu síðan inn gildi í reitinn **Nýtingarhlutfall gáms**.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 58cdfcf67ab774bbc119f2507920f1fb1d7a562c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824775"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102807"
 ---
 # <a name="trade-allowance-management"></a>Stjórnun afsláttar
 
@@ -171,7 +171,7 @@ Til að samþykkja smásölutilvik af gerðinni **Eingreiðsla** skaltu velja at
 
 ## <a name="settle-the-deduction-that-is-due-and-the-customer-short-pay-by-using-the-deduction-workbench"></a>Gerðu upp frádráttinn sem er á gjalddaga og skammtímagreiðslu viðskiptavinar með því að nota Frádráttarvinnusvæðið
 
-Oft, í aðdraganda endurgreiðslna, velja viðskiptavinir að skammtímagreiða valda reikninga. Til að koma í veg fyrir vandamál við afstemmingu á greiðslu, skráir starfsmaður viðskiptakrafna þessar skammtímagreiðslur sem frádrætti þegar hann eða hún skráir raunverulegar greiðslur viðskiptavinar. Síðan, á Frádráttarvinnusvæðinu, er auðveldlega hægt að jafna þessa frádrætti viðskiptavinar á móti kröfuupphæðum fyrirtækis sem eru komnar á gjalddaga.
+Oft, í aðdraganda endurgreiðslna, velja viðskiptavinir að skammtímagreiða valda reikninga. Til að koma í veg fyrir vandamál við afstemmingu á greiðslu, skráir starfsmaður viðskiptakrafna þessar skammtímagreiðslur sem frádrætti þegar hann skráir raunverulegar greiðslur viðskiptavinar. Síðan, á Frádráttarvinnusvæðinu, er auðveldlega hægt að jafna þessa frádrætti viðskiptavinar á móti kröfuupphæðum fyrirtækis sem eru komnar á gjalddaga.
 
 Til að skrá skammtímagreiðslu viðskiptavinar í greiðslubókinu skaltu velja **Viðskiptakröfur** \> **Greiðslur** \> **Greiðslubók** og búa til nýja greiðslubók. Í aðgerðasvæðinu er síðan smellt á **Frádrættir**. Á síðunni **Frádráttur** er hægt að búa til og fylgjast með upphæðinni sem var skammtímagreidd.
 

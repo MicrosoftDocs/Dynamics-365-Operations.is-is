@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832971"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088466"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Tvöfaldur gjaldeyrisstuðningur fyrir virðisaukaskatt
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Nánari upplýsingar um tvískiptan gjaldmiðil er að finna í [Tvöfaldur gjal
 Sem afleiðing af stuðningi við tvískipta gjaldmiðla eru tveir nýir möguleikar fáanlegir í eiginleikastjórnun: 
 
 - Umreikningur virðisaukaskatts (nýtt í útgáfu 10.0.13)
+- Færið inn fjárhagsvíddir á rekstrarlykla í raunverulegri leiðréttingu gjaldmiðils fyrir uppgjör virðisaukaskatts (nýtt í útgáfu 10.0.17)
 
-Tvöfaldur gjaldmiðilsstuðningur við virðisaukaskatta tryggir að skattar eru reiknaðir nákvæmlega í skattagjaldmiðlinum og að uppgjörsstaða virðisaukaskatts er reiknuð nákvæmlega bæði í bókhaldsgjaldmiðli og skýrslugjaldmiðli. 
+Stuðningur við tvöfaldan gjaldmiðil fyrir virðisaukaskatt tryggir að skattar séu rétt reiknaðir í gjaldmiðli skatts og að uppgjörsstaða virðisaukaskattsins sé reiknuð nákvæmlega í bæði bókhaldsgjaldmiðlinum og skýrslugjaldmiðlinum.
 
 ## <a name="sales-tax-conversion"></a>Umskráning virðisaukaskatts
 
@@ -88,6 +89,10 @@ Hægt er að stilla þessa færibreytu út frá samræmiþörf skattayfirvalda.
 
 Til að koma í veg fyrir fyrri atburðarás mælum við með því að breyta þessu færibreytugildi á nýju (hreinu) skattuppgjörstímabili sem ekki inniheldur óuppgerðar skattafærslur. Til að breyta þessu gildi á miðju skattauppgjörstímabili, vinsamlegast keyrðu forritið „Jafna og bóka virðisaukaskatt” fyrir núverandi skattauppgjörstímabil áður en þú breytir þessu færibreytugildi.
 
+Þessi eiginleiki bætir við bókhaldsfærslum sem skýra hagnað og tap vegna gengi gjaldmiðla. Færslurnar verða gerðar á rekstrarlyklum raunverulegrar leiðréttingar gjaldmiðils þegar endurmat fer fram við uppgjör á virðisaukaskatti. Nánari upplýsingar er að finna í hlutanum [Sjálfvirk jöfnun skattuppgjörs í skýrslugjaldmiðli](#tax-settlement-auto-balance-in-reporting-currency) síðar í þessu efnisatriði.
+
+> [!NOTE]
+> Við uppgjör eru upplýsingar um fjárhagsvíddir teknar úr VSK-lyklum, sem eru efnahagslyklar, og færðar í rekstrarlykla raunverulegrar gjaldmiðlaleiðréttingar, sem eru rekstraryfirlitslyklar. Vegna þess að takmarkanir á virði fjárhagsvídda er mismunandi á milli efnahagslykla og rekstraryfirlitslykla, getur villa komið upp í uppgjörs- og bókunarferli virðisaukaskatts. Til að forðast að breyta lykilskipulagi er hægt að kveikja á eiginleikanum „Fylla út fjárhagsvíddir í efnahags-/rekstrarlykla raunverulegra leiðréttingar gjaldmiðils fyrir uppgjör virðisaukaskatts“. Þessi eiginleiki mun þvinga frávik á fjárhagsvíddum í rekstrarlykla gjaldmiðilsleiðréttingar. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Rekja skattaupphæð skýrslugjaldmiðils
 
@@ -107,14 +112,14 @@ Fyrir skatt sem eingöngu er vistaður í töflunni TAXUNCOMMITTTED en ekki enn 
 
 Ef skattauppgjör er ekki jafnað í skýrslugjaldmiðli af einhverri ástæðu, svo sem að slóð umreiknings virðisaukaskatts er „Bókhaldsgjaldmiðill“, eða gengisbreyting er á einu skattjöfnunartímabili, þá myndar kerfið sjálfkrafa bókhaldsfærslur til að leiðrétta frávik skattupphæðar og mótfærir það gegn innleystum gengishagnaði/taplykli, sem er skilgreindur í fjárhagsgrunni.
 
-Notaðu fyrra dæmið til að sýna fram á þennan eiginleika, gerðu ráð fyrir að gögnin í TAXTRANS töflunni við bókun séu eftirfarandi.
+Með því að nota fyrra dæmið til að sýna notkun þessa eiginleika skulum við gera ráð fyrir gögnin í TAXTRANS-töflunni við bókun er eftirfarandi.
 
 | Færibreytur umreiknings á virðisaukaskatti | Færslugjaldmiðill (EUR) | Bókhaldsgjaldmiðill (USD) | Skýrslugjaldmiðill (GBP) | Skattagjaldmiðill (GBP) |
 | ------------------------------- | -------------------------- | ------------------------- | ------------------------ | ------------------ |
 | Bókhaldsgjaldmiðill             | 100                        | 111                       | 83                       | **83.25**          |
 | Skýrslugjaldmiðill              | 100                        | 111                       | 83                       | **83**             |
 
-Þegar þú keyrir uppgjörsáætlun virðisaukaskatts í lok mánaðarins verður bókhaldsfærslan eftirfarandi:
+Þegar uppgjörsáætlun virðisaukaskatts er keyrð við mánaðarlok verður bókhaldsfærslan eftirfarandi.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Aðstæður: umreikningur virðisaukaskatts = „Bókhaldsgjaldmiðill”
 
 | Aðallykill           | Færslugjaldmiðill (GBP) | Bókhaldsgjaldmiðill (USD) | Skýrslugjaldmiðill (GBP) |

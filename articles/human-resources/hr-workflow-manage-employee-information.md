@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b76adc228a949d334213eda605972f062aa0e46b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: aba7627877cd9b79dce5930e528f892e2d80baac
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791270"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058753"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Nota verkflæði til að haga starfsmannaupplýsingum
 
@@ -63,7 +62,7 @@ Til að grunnstilla grunnverkflæði sem ræsist þegar starfsmenn biðja um bre
 
 8.  Lokið öllum viðbótarleiðbeiningum (engar aðrar viðvaranir eiga að vera til).
 9.  Smellið á **Vista og loka**. Virkja nýja verkflæðið þegar svarglugginn opnast og velja **Gera virka**.
-10. Fara í **Mannauð**&gt;**Stöður**&gt;**Stigveldisgerðir stöðu**.
+10. Fara í **Mannauð** &gt; **Stöður** &gt; **Stigveldisgerðir stöðu**.
 11. Velja **Fylki**.
 12. Bæta við verkflæðinu **Auðkennisnúmer starfsmanns** við listann.
 

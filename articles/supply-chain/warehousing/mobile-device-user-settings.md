@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837466"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049293"
 ---
 # <a name="mobile-device-user-settings"></a>Notandastillingar fartækis
 
@@ -94,3 +94,8 @@ Fylgið eftirfarandi skrefum til að búa til og stjórna eigin tegundum og ger�
 
     - **Kenni tækjategundar** – Kenni tækjagerðinnar, svo sem *Surface Book 2*.
     - **Lýsing** – Hægt er að færa inn lýsingu til að aðstoða við að aðgreina kenni gerða.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md)
+- [Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið](step-icons-titles.md)

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f3066741781bd9058e09d7f577a35df4c9b453d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21a77a0289055285f47323803a484c012e662e3a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819209"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102735"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
 
@@ -68,7 +68,7 @@ Dálkinum **Er með samingsuppruna** hefur verið bætt við töfluna **Reikning
 **Reikningsdagsetning** er áskilinn reitur í Supply Chain Management. Þess vegna verður dálkurinn að hafa gildi í Field Service áður en samstillingin er gerð. Til að uppfylla þessa kröfu er eftirfarandi reglu bætt við:
 
 - Ef dálkurinn **Reikningsdagsetning** er auður á töflunni **Reikningur** (það er ef hann hefur ekkert gildi) er hann stilltur á núverandi dagsetningu þegar reikningslínu sem er upprunnin úr samningi er bætt við.
-- Notandi getur breytt dálkinum **Reikningsdagsetning**. Hins vegar, þegar notandi reynir að vista reikning sem er upprunninn úr samningi, fær hann eða hún viðskiptaferilsvillu ef dálkurinn **Reikningsdagsetning** er auður á reikningi.
+- Notandi getur breytt dálkinum **Reikningsdagsetning**. Hins vegar, þegar notandi reynir að vista reikning sem er upprunninn úr samningi, fær hann viðskiptaferilsvillu ef dálkurinn **Reikningsdagsetning** er auður á reikningi.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
@@ -100,11 +100,11 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Samkomulagsreikningar (Field Service til Supply Chain Management): Reikningshausar
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu fyrir reikningshausa](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Samkomulagsreikningar (Field Service til Supply Chain Management): Reikningslínur
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+[![Sniðmátsvörpun í Gagnasamþættingu fyrir reikningslínur](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

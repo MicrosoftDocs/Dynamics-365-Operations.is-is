@@ -2,7 +2,7 @@
 title: Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 description: Þetta efnisatriði útskýrir hvernig skilgreina á rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897721"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075144"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
@@ -194,6 +194,8 @@ Eftirfarandi listar sýna skilgreiningar rafræns skýrslugerðarsniðs sem eru 
 
 - Sölureikningur (ES)
 - Verkreikningur (ES)
+
+Auk tilbúinna skilgreininga á rafrænu skýrslugerðarsniði sem eru í boði í rafrænu reikningsfærsluþjónustunni, er einnig hægt að búa til sínar eigin skilgreiningar á rafrænu skýrslugerðarsniði. Hins vegar styðja sniðsskilgreiningarnar, sem eru gerðar til að nota með eiginleikum rafrænnar reikningsfærslu, ekki beina tilvísun í töflur Finance og Supply Chain Management eða samsvarandi lýsigögn. Aðeins tilvísanir í vörpun ER-líkans eru studdar.
 
 ### <a name="actions"></a>Aðgerðir
 

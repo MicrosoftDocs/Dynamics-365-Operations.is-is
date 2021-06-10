@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836783"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102975"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
@@ -30,7 +30,7 @@ ms.locfileid: "5836783"
 
 Hægt er að nota viðhaldsbeiðnir ef viðhaldsstarfsmenn eða framleiðsluaðilar uppgötva að búnaður þarfnast viðgerðar, en ekki er hægt að gera viðgerðirnar strax.
 
-**Dæmi:** Á meðan viðhaldsstarfsmaður er að gera við, uppgötvar hún að þjónusta verður aðra eign á sama stað. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þess vegna býr hún til viðhaldsbeiðni um eignina og slærð inn stutta lýsingu á vandamálinu.
+**Dæmi:** Á meðan viðhaldsstarfskraftur sinnir viðgerðum uppgötvar hann að þjónusta þarf aðra eign á sömu staðsetningu. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þeir stofna því viðhaldsbeiðni á eigninni og skrá stutta lýsingu á vandamálinu.
 
 Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægra megin við síðuna **Allar eignir** eða **Virkar eignir** (**Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem eru tengdar við valda eign.
 

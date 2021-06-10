@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3ff153d9c16b219158c12f4bb49eb0a0c5d401ac
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910040"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102903"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -83,7 +83,7 @@ Velja sniðmát fyrir tilkynningu í tölvupósti sem er sent til lánardrottna 
 - %Lokadagur Tími%
 - %Date%
 
-% Ástæða skila kauptilboðs % og % Ástæða fyrir breytingum % tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann eða hún lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir %Breytingar gerðar af% og %Company% tákn eru sjálfkrafa tekin úr tilboðsbeiðni. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
+%Ástæða skila kauptilboðs% og %Ástæða fyrir breytingum% tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir %Breytingar gerðar af% og %Company% tákn eru sjálfkrafa tekin úr tilboðsbeiðni. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
 Ef á að hætta í BUT eftir að það hefur verið sent, er hægt að gera það frá RFQ-verkinu. Fyrir afturköllun á sniðmáti fyrir tölvupóst er þess krafist að senda tilkynningu afturköllunar til tengiliðs lánardrottins. Sniðmátið verður að vera valið á síðunni **Færibreytur innkaupa og aðfanga**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
 

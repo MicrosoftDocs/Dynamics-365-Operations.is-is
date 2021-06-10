@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910234"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103047"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -28,7 +28,7 @@ ms.locfileid: "5910234"
 
 Á svipaðan hátt er ekki hægt að taka frá sérstakar númeraplötur fyrir afurðir í sölupöntunum þegar þessar afurðir eru tengdar við sjálfgefið frátekningarstigveldi.
 
-Þetta efnisatriði lýsir frátekningarreglu birgða sem gerir þessum fyrirtækjum kleift að taka frá ákveðnar runur eða númeraplötur, jafnvel þegar afurðirnar eru tengdar frátekningarstigveldi *Runa fyrir neðan\[staðsetningu\]*“.
+Þetta efnisatriði lýsir frátekningarreglu birgða sem gerir þessum fyrirtækjum kleift að taka frá ákveðnar runur eða númeraplötur, jafnvel þegar afurðirnar eru tengdar frátekningarstigveldi *Runa fyrir neðan\[staðsetningu\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Frátekningarstigveldi birgða
 
@@ -176,7 +176,7 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
 
     - Eftir að vinna er búin til, birgðir hlutarins þar sem **Tilvísun** reiturinn er stilltur á **Pöntunarbundin frátekt** er fjarlægður. Birgðafærslan þar sem **Tilvísun** reiturinn er stilltur á **Vinna** geymir nú líkamlegan fyrirvara á öllum birgðastærðum magnsins.
 
-        Vöruhúsaaðgerðir geta haldið áfram til að sjá um framkvæmd verksins á venjulegan hátt. Leiðbeiningarnar í farsímanum munu hins vegar leiðbeina starfsmanni að velja ákveðið lotunúmer. Í vöruhúsumhverfi þar sem staðsetningar eru stjórnaðar með leyfi fyrir skiltum, eftir að starfsmaður hefur náð staðsetningu sem geymir sömu framleiðslulotu á mörgum skiltum, þá getur hann eða hún valið af hvaða skilti sem er ekki þegar frátekinn (til dæmis með annarri pöntun- skuldbundinn fyrirvara eða vinnu sem er upprunnin í fyrirvara af þeirri gerð.)
+        Vöruhúsaaðgerðir geta haldið áfram til að sjá um framkvæmd verksins á venjulegan hátt. Leiðbeiningarnar í farsímanum munu hins vegar leiðbeina starfsmanni að velja ákveðið lotunúmer. Í vöruhúsaumhverfum þar sem staðsetningar eru númeraplötustýrðar, eftir að starfsmaður kemur á staðsetningu sem geymir rununa á mörgum númeraplötum, getur hann valið úr einhverri númeraplötu sem ekki er þegar frátekin (til dæmis með annarri frátekningu á ráðstafaðri pöntun eða vinnu sem verður til út frá frátekningu að þessari gerð.)
 
         Ef það reynist óframkvæmanlegt að velja frá þeim stað sem er tilgreindur á vinnulínunni geta rekstraraðilar vörugeymslu notað eina af eftirfarandi aðgerðum til að beina því að velja ákveðna lotu frá þægilegri stað:
 
@@ -452,7 +452,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Ekki tiltækt</td>
 <td>
 <ol>
-<li>Veljið valmyndaratriðið <strong>Fullt</strong> í  farsímaforriti vöruhúsakerfis þegar tiltektarverk er hafið.</li>
+<li>Veljið valmyndaratriðið <strong>Fullt</strong> í farsímaforriti vöruhúsakerfis þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Veldu fjölda</strong> reitinn, sláðu inn hluta magns af nauðsynlegu valinu til að gefa til kynna fullan afköst.</li>
 </ol>
 </td>

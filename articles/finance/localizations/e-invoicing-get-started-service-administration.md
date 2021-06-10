@@ -2,7 +2,7 @@
 title: Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með rafrænni reikningsfærslu.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980976"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092407"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 
@@ -44,18 +44,14 @@ ms.locfileid: "5980976"
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Setja upp innbótina fyrir microservices í Lifecycle Services
 
-1. Skráðu þig inn á LCS-reikninginn þinn.
-2. Veldu reitinn **Stjórnun forskoðunareiginleika**.
-3. Í hlutanum **Opnir forskoðunareiginleikar** skal velja **Rafræn reikningsfærsla**.
-4. Gangið úr skugga um að valkosturinn **Virkja forskoðunareiginleika** sé stilltur á **Já**.
-5. Á stjórnborði LCS-verkefnisins skal velja LCS-verkefni.
-6. Í LCS verkefninu, á stjórnborði LCS umhverfisins, skaltu velja uppsetningarverkefni LCS. LCS-uppsetningarverkið verður að vera í gangi.
-7. Í flipanum **Power Platform Samþætting** í **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
-8. Velja **Rafræn reikningsfærsla**.
-9. Í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
-10. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
-11. Farið yfir skilmálana og veljið því næst gátreitinn.
-12. Velja **Setja upp**.
+1. Skráðu þig inn á LCS-reikninginn þinn og veldu LCS-verkefni á stjórnborði LCS-verkefnisins.
+2. Í verkefninu, á stjórnborði umhverfisins, skaltu velja uppsetningarverkefni LCS. Verkefnið sem þú velur verður að vera í gangi.
+3. Í flipanum **Power Platform Samþætting** í **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+4. Velja **Rafræn reikningsfærsla**.
+5. Í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
+6. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
+7. Farið yfir skilmálana og veljið því næst gátreitinn.
+8. Velja **Setja upp**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Setja upp færibreytur fyrir RCS-samþættingu við rafræna reikningsfærslu

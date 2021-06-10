@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: afffdfba965806d18b148c77774a31bbb3c0c46c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7628f2fc3d3a7e5bb1175edf59f856bc40f9b987
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831771"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102831"
 ---
 # <a name="flex-groups"></a>Sveigjanleikaflokkar
 
@@ -103,7 +103,7 @@ Starfskrafturinn tengist sveigjanleikaflokki sem hefur eftirfarandi grunnstillin
 - **Lágmarks launagerð:** 1302
 - **Stuðull launagerðar:** -1,0
 
-Líkt og munurinn á milli sveigjanlegs reiknings starfskrafts og leyfilegs sveigjanlegs hámarks bendir til, hefur starfskrafts farið yfir leyfilegt hámark því sem nemur 4,0 klst.
+Líkt og munurinn á milli sveigjanlegs reiknings starfskrafts og leyfilegs sveigjanlegs hámarks bendir til, hefur starfskraftur farið yfir leyfilegt hámark um sem nemur 4,0 klst.
 
 Þegar umsjónarmaður launa flytur launagögn starfskrafts með því að keyra verkið **Flutningur launa** eða **Leiðrétting sveigjanleika** eru eftirfarandi leiðréttingar gerðar:
 

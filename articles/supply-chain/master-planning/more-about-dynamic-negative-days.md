@@ -1,27 +1,21 @@
 ---
 title: Neikvæðir dagar og gagnvirkir neikvæðir dagar
 description: Þetta umræðuefni veitir upplýsingar um neikvæða daga og kvika neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907742"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097235"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neikvæðir dagar og gagnvirkir neikvæðir dagar
 
@@ -45,7 +39,7 @@ ms.locfileid: "5907742"
 - Sýndarafurðarvaran er með sex daga afhendingartíma kaupa.
 - Á degi núll (1. janúar) er birgðastigið fyrir sýndarafurðarvöruna 0 (núll).
 - Á degi núll (1. janúar) færðu sölupöntun fyrir magn 10 af sýndarafurðarvörunni.
-- Á degi sjö (7. janúar) er fyrirliggjandi innkaupapöntun fyrir magn 10 af sýndarafurðarvörunni.
+- Á degi sjö (8. janúar) er fyrirliggjandi innkaupapöntun fyrir magn 10 af sýndarafurðarvörunni.
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
@@ -112,7 +106,7 @@ Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vö
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
-![Myndrænt yfirlit yfir aðstæður 1](./media/negative-days-8.png)
+![Myndrænt yfirlit yfir aðstæður 2](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Mál A: Neikvæðar dagar eru færri en afhendingartími vörunnar
 
@@ -157,7 +151,7 @@ Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vö
 - Sýndarafurðarvaran er með sex daga afhendingartíma kaupa.
 - Á degi núll (1. janúar) eru birgðarnar fyrir sýndarafurðarvöruna 0 (núll).
 - Á sjöunda degi (8. janúar), sem er utan afhendingartíma vörunnar, færðu sölupöntun fyrir 10 af sýndarafurðarvvörunni.
-- Á degi 10 (11. janúar) er innkaupapöntun fyrir magn 10 af sýndarafurðarvörunni.
+- Á degi tíu (11. janúar) er boðið upp á innkaupapöntun fyrir magn 10 af DemoProduct.
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
@@ -219,8 +213,8 @@ Ef þú stillir neikvæða daga á **0** (núll) og notar ekki kvika neikvæða 
 - Sýndarafurðarvaran er með sex daga afhendingartíma kaupa.
 - Á degi núll (1. janúar) eru birgðarnar fyrir sýndarafurðarvöruna 0 (núll).
 - Á degi núll (1. janúar) færðu sölupöntun fyrir magn 10 af sýndarafurðarvörunni.
-- Á degi 10 (10. janúar) færðu sölupöntun fyrir magn 10 af sýndarafurðarvörunni.
-- Á degi 12 (12. janúar) er innkaupapöntun fyrir magn 10 af sýndarafurðarvörunni.
+- Á degi níu (10. janúar) þú færð boðið upp á sölupöntun fyrir magn 10 af DemoProduct.
+- Á degi ellefu (12. janúar) er boðið upp á innkaupapöntun fyrir magn 10 af DemoProduct.
 - Neikvæðir dagar eru stilltir á **20**, sem er miklu hærra en afhendingartími vöru.
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist.
@@ -229,7 +223,7 @@ Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist.
 
 MRP framleiðir eftirfarandi niðurstöður.
 
-![Niðurstöður](./media/negative-days-20.png)
+![Dæmi um leitarniðurstöður 1](./media/negative-days-20.png)
 
 Í framangreindri skjámynd er þarfadagsetning sölupöntunar 9. janúar í stað 10. janúar. Þar sem skjámyndin var tekin árið 2015, þegar 10. janúar var laugardagur, ætti þarfadagsetning pöntunarinnar að vera vinnudagurinn á undan, sem var föstudaginn 9. janúar.
 
@@ -239,7 +233,7 @@ Niðurstöðurnar eru ekki rangar, en keyrslutíminn fyrir MRP gæti verið leng
 
 Ef þú dregur úr neikvæðum dögum í tölu sem er nær afhendingartíma vörunnar og þú notar kvika neikvæða daga, framleiðir MRP eftirfarandi niðurstöður.
 
-![Niðurstöður](./media/negative-days-21.png)
+![Dæmi um leitarniðurstöður 2](./media/negative-days-21.png)
 
 MRP býr til tillögu sem er fest við fyrstu sölupöntunina. Síðan, eins og búist er við, er seinni sölupöntunin fest við fyrirliggjandi innkaupapöntun á grundvelli stillinga neikvæðra dagsetninga. Þessi áætlanagerð er einnig rétt og keyrslutíminn fyrir MRP gæti verið styttri. Í þessu máli er ekki nauðsynlegt að skilja og vita hvernig á að vinna með aðgerðaskilaboðunum.
 

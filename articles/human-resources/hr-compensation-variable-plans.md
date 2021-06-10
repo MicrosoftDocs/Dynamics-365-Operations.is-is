@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 9fbdefcf50c77b1741564924606ff0823fb10ba5
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027771"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055509"
 ---
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
@@ -49,7 +48,7 @@ Fyrirtæki geta valið um að setja upp **veitireglur**. Veitireglur lýsa hvern
 Upphæð breytilegrar umbunar er hægt að byggja á annað hvort hlutfalli af reglulegum grunntekjum starfsmanns eða ákveðnum fjölda eininga.
 
 -   Velja skal **Prósenta af grunni** valkost til að færa inn sjálfgefna prósentu og tilgreinið°hvort grunnurinn eigi að vera fastur launataxti starfsmannsins eða stýripunktur fyrir launastig starfsmannsins. Launastig er stillt á starf starfsmanns. Einn af tilvísunarpunktunum úr launafyrirkomulagi má stilla sem the stýripunkt á launafyrirkomulagi fastra launa. Kerfið mun nota launastig úr starfi starfsmanns og millivísa það með stýripunkti sem er skráður í launafyrirkomulag fastra launa starfsmanns til að finna stýripunkt fyrir upphæð launastigs starfsmannsins. Upphæð stýripunktsins verður svo notuð í staðinn fyrir fasta launataxta starfsmanns sem grunn fyrir umbunina.
--   Velja skal valkostinn **Fjölda eininga** til að færa inn sjálfgefinn fjölda eininga, gildi hverrar einingar og gjaldmiðil einingarvirðisins ef launafyrirkomulag er ekki-staðgreiðsluumbun (t.d. 200 einingar af birgðum sem eru metnar á 40 USD), eða einungis einingafjölda sé launafyrirkomulag staðgreiðsluumbun. Fyrir staðgreiðsluumbun fær starfsmaður tiltekinn fjölda eininga af gjaldmiðli sem notaður er fyrir launafyrirkomulag fastra launa hans (t.d. 500 einingar af 1 USD).  Beina tengslastýringu má nota til að tilgreina hvort það er bein vörpun milli gildi einingu og fjölda eininga. Þegar áætlun breytilegra uppbóta er byggð á reiðufé með því að nota fjölda eininga er þessi valkostur sjálfkrafa læstur á **Já**, og einingarvirðið er **1,0000**.
+-   Velja skal valkostinn **Fjölda eininga** til að færa inn sjálfgefinn fjölda eininga, gildi hverrar einingar og gjaldmiðil einingarvirðisins ef launafyrirkomulag er ekki-staðgreiðsluumbun (t.d. 200 einingar af birgðum sem eru metnar á 40 USD), eða einungis einingafjölda sé launafyrirkomulag staðgreiðsluumbun. Fyrir staðgreiðsluumbun fær starfsmaður tiltekinn fjölda eininga af gjaldmiðli sem notaður er fyrir launafyrirkomulag fastra launa hans (t.d. 500 einingar af 1 USD). Beina tengslastýringu má nota til að tilgreina hvort það er bein vörpun milli gildi einingu og fjölda eininga. Þegar áætlun breytilegra uppbóta er byggð á reiðufé með því að nota fjölda eininga er þessi valkostur sjálfkrafa læstur á **Já**, og einingarvirðið er **1,0000**.
 
 Í stillingunni **Ráðningarregla** er hægt að tilgreina hvort°allir starfsmenn eigi að fá sömu hækkun, án tillits til dagsetningarinnar sem þeir voru ráðnir (**Ráðningarregla** = **Ekkert**), eða hvort starfsmenn eigi að fá prósentu umbunar á grundvelli tímalengdar í starfi í ferlinu (**Ráðningarregla** = **Prósent**). 
 

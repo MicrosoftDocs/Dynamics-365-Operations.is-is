@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909001"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102688"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Sérsníða og nota viðskiptavinagátt
 
@@ -44,7 +44,7 @@ Eftirfarandi efnisatriði munu hjálpa til við að læra grunnatriði varðandi
 
 ## <a name="customize-the-order-creation-process"></a>Sérsníða stofnferli pantana
 
-Þegar notandi sendir inn pöntun með því að nota viðskiptavinagáttina er pöntunin sjálfkrafa samstillt við viðeigandi Dynamics 365 Supply Chain Management-umhverfi. Vegna þess að notandinn er ytri viðskiptavinur eru einhverjar nauðsynlegar upplýsingar faldar fyrir honum eða henni. Þessar upplýsingar verða sjálfkrafa fylltar út þegar skjámyndin er send inn.
+Þegar notandi sendir inn pöntun með því að nota viðskiptavinagáttina er pöntunin sjálfkrafa samstillt við viðeigandi Dynamics 365 Supply Chain Management-umhverfi. Vegna þess að notandinn er ytri viðskiptavinur eru einhverjar nauðsynlegar upplýsingar faldar fyrir honum. Þessar upplýsingar verða sjálfkrafa fylltar út þegar skjámyndin er send inn.
 
 Þessi hluti sýnir hvernig á að setja upp tengiliði til að komast hjá villum. Þar eru reitir útskýrðir sem eru sjálfkrafa stilltir og útskýrt hvernig hægt er að breyta gildi þessara reita ef þörf krefur.
 
@@ -82,7 +82,7 @@ Hér eru stöðluð skref til að senda inn pöntun úr viðskiptavinagátt.
 1. Þegar búið er að bæta við vörum skal velja **Næst** á síðunni **Vörur**.
 1. Síðan **Pöntunarupplýsingar** sýnir samantekt pöntunar. Yfirfarið upplýsingar um innihald pöntunar og afhendingar. Ef allt lítur rétt út skal velja **Senda** til að senda pöntunina.
 
-    ![Pöntunarupplýsingasíða](media/customer-portal-order-submit.png "Pöntunarupplýsingasíða")
+    ![Upplýsingasíða lokinnar pöntunar](media/customer-portal-order-submit.png "Upplýsingasíða lokinnar pöntunar")
 
 ### <a name="standard-data-setup"></a>Stöðluð gagnauppsetning
 

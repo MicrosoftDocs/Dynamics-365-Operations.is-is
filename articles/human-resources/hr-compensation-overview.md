@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793754"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058921"
 ---
 # <a name="compensation-plans"></a>Launafyrirkomulag
 
@@ -37,7 +36,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 -   Starfsmaðurinn verður að hafa virka stöðuverkefni.
 -   Starfsmaðurinn verður að uppfylla skilyrðin sem eru skilgreind af hæfnisreglum fyrir launafyrirkomulag.
 
-## <a name="compensation-setup"></a> Uppsetning launa.
+## <a name="compensation-setup"></a>Uppsetning launa
 Í eftirfarandi töflu er listi yfir þætti launaferlis sem geta verið sambyggt uppsetningu launafyrirkomulags fyrirtækisins.
 
 <table>
@@ -82,7 +81,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Greiðslutíðni</td>
-<td>Greiðslutíðni er notuð til að skilgreina tímabilið sem laun eru greidd fyrir.   Til dæmis auðveldar greiðslutíðni að skilja hvort launaupphæðin er tilgreindur sem árleg laun eða launataxti á klukkustund. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr  greiðslutíðni fyrir mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaups yfir í árleg greiðslutíðni.</td>
+<td>Greiðslutíðni er notuð til að skilgreina tímabilið sem laun eru greidd fyrir.  Til dæmis auðveldar greiðslutíðni að skilja hvort launaupphæðin er tilgreindur sem árleg laun eða launataxti á klukkustund. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr  greiðslutíðni fyrir mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaups yfir í árleg greiðslutíðni.</td>
 </tr>
 <tr class="odd">
 <td>Launasvæði</td>
@@ -127,7 +126,7 @@ Vinnslutilvik reiknar út launaupplýsingar fyrir tilgreint tímabil handa öllu
 
 Í hvert sinn vinnslutilvik er keyrt er launatilvik stofnað.  Launatilvik innihalda niðurstöðu launavinnslu fyrir hvern starfsmann sem hafður var með í vinnslutilvikinu.  Þegar útreikningar eru réttir er hægt að hlaða launatilvikinu til að uppfæra launafærslur fyrir starfsmenn sem verða fyrir áhrifum af vinnslutilvikið.
 
-## <a name="recommendations"></a> Ráðleggingar
+## <a name="recommendations"></a>Ráðleggingar
 Þegar vinnslutilvik hefur verið keyrt, geturðu stungið uppá leiðréttingar á verðleikahækkun starfsmanns eða umbunarupphæð út frá reiknuðum leiðbeiningar á vinnslutilvikinu. Til að gera tillögur fyrir starfsmenn, verður að virkja tillögur þegar launafyrirkomulag eru sett upp eða þegar sett er upp vinnslutilvikið.
 
 
