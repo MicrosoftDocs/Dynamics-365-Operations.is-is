@@ -1,5 +1,5 @@
 ---
-title: Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
+title: Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
 description: Þetta efnisatriði sýnir aðstæður þar sem losa þarf handvirkt eina eða fleiri sölulínur í vöruhúsið af síðunni „Losa í vöruhús“ og hnekkja þarf kerfisskilgreindri samstæðureglu sendingar áður en hún er losuð.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dcd619ad2906d4224966e2696712ed0e71886eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6928375c88a199bd9c6b48f05b38343463762920
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837490"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117010"
 ---
-# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
+# <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
 
 [!include [banner](../includes/banner.md)]
 

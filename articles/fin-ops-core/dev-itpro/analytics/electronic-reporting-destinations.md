@@ -2,7 +2,7 @@
 title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Í þessu efnisatriði er að finna upplýsingar um stjórnun á áfangastöðum rafrænnar skýrslugerðar, gerðir studdra áfangastaða og öryggissjónarmið.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893605"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085501"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -199,6 +199,34 @@ Ef skilgreining rafrænnar skýrslugerðar er búin til á Excel-sniði og ætlu
 > Valin síðustefna er notuð á allar ER stillingar sem eru búnar til á Excel sniði og síðan breytt í PDF snið.
 >
 > Ef skilgreining rafrænnar skýrslugerðar á Word-sniði er breytt í PDF-snið, verður snúningur PDF-skjalsins tekinn frá Word-skjalinu.
+
+## <a name="output-unfolding"></a>Framsetning úttaks
+
+Þegar viðtökustaður er skilgreindur fyrir hlutinn **Mappa** í rafræna skýrslugerðarsniðinu, er hægt að tilgreina hvernig úttak hlutarins er skilað á skilgreindan viðtökustað.
+
+### <a name="make-output-unfolding-available"></a>Gera framsetningu úttaks aðgengilegan
+
+Til að gera valkost á framsetningu úttaks aðgengilegan í núverandi tilviki af Finance skal opna vinnusvæðið **Eiginleikastjórnun** og kveikja á eiginleikanum **Leyfa skilgreiningu áfangastaða rafrænnar skýrslugerðar til að senda innihald möppu sem aðskildar skrár**.
+
+### <a name="applicability"></a>Gildissvið
+
+Aðeins er hægt að skilgreina framsetningu úttaks fyrir sniðshluta af gerðinni **Mappa**. Þegar hafist er handa við að skilgreina **Möppuhlutann** verður flýtiflipinn **Almennt** í boði á síðunni **Viðtökustaður rafrænnar skýrslugerðar**. 
+
+### <a name="use-the-output-unfolding-option"></a>Nota framsetningarvalkost úttaks
+
+Í flýtiflipanum **Almennt**, í reitnum **Senda möppu sem**, skal velja eitt af eftirfarandi gildum:
+
+- **ZIP-safnskrá** – Afhenda myndaða skrá sem zip-skrá.
+- **Aðskildar skrár** – Afhenda allar skrár myndaðrar zip-skráar sem einstaka skrá.
+
+    > [!NOTE]
+    > Þegar **Aðskildar skrár** er valið er myndað úttak safnað í minni á þjöppuðu formi. Þar af leiðandi gildir [hámarksstærð skráar](er-compress-outbound-files.md) fyrir þjappað úttak þegar raunveruleg skráarstærð fer yfir þessi mörk. Mælt er með því að velja þetta gildi þegar búist er við því að stærð myndaðs úttaks verði of stórt.
+
+[![Skilgreina viðtökustað fyrir hlut möppusniðs](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Takmarkanir
+
+Ef reiturinn **Senda möppu sem** er stilltur á **Aðskildar skrár** fyrir **Möppuhluta** sem inniheldur annan faldaðan **Möppuhluta** er stilllingin ekki notuð endurkvæmt á faldaða **Möppuhluta**.
 
 ## <a name="security-considerations"></a>Öryggisatriði
 

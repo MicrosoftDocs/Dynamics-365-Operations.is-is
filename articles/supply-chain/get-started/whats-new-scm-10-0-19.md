@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.19 (júlí 2021)
+title: Forskoðun Dynamics 365 Supply Chain Management 10.0.19 (júní 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961682"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114976"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.19 (júlí 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.19 (júní 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ ms.locfileid: "5961682"
 
 - **Forskoðun útgáfu:** Apríl 2021
 - **Almennt framboð losunar (handvirk uppfærsla):** Júní 2021
-- **Almennt framboð losunar (sjálfvirk uppfærsla):** Júlí 2021
+- **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Júní 2021
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Meiri upplýsingar* eru tenglar á tengd skjöl.
+Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl.
 
 Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar |
 |---|---|---|
-| Birgða- og vörustjórnun | [Fínstilling á útflutningi gagnaeiningar tengiliðar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Ekki tiltækt* |
+| Birgða- og vörustjórnun | [Fínstilling á útflutningi gagnaeiningar tengiliðar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Þegar þessi eiginleiki er virkur, leiða breytingar á gögnum sem vísað er til ekki til þess að tengdir tengiliðir verði teknir með í næsta stigvaxandi útflutningi. Þegar þessi eiginleiki er gerður óvirkur leiða breytingar á gögnum sem vísað er í til þess að tengdir tengiliðir verði teknir með í næsta stigvaxandi útflutningi. |
 | Birgða- og vörustjórnun | [Smávægilegar endurbætur fyrir keyrsluhæfni vöruhúss með kvarðaeiningum](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Skilaboð um skilaboðaúrvinnslu](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Birgðaleiðrétting vöruhúss](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Birgða- og vörustjórnun | [Flettivirkni fyrir reiti upphafsorða og lokaorða skjala á sölutilboðssíðu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Ekki tiltækt* |
+| Birgða- og vörustjórnun | [Flettivirkni fyrir reiti upphafsorða og lokaorða skjala á sölutilboðssíðu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Þessi eiginleiki bætir við uppflettivirkni fyrir reitina **Skjalakynning** og **Skjalaniðurstaða** á síðunni **Sölutilboð**.<br><br>Þessi eiginleiki er sjálfgefið virkur. |
 | Birgða- og vörustjórnun | [Vöruhúsakeyrsla með jaðareiningakvörðum á sérsniðnum vélbúnaði](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Framleiðsla | [Framkvæmd framleiðslu með jaðareiningakvörðum á sérsniðnum vélbúnaði](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Áætlun | [Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Þessi eiginleiki virkjar afkastaáætlun með ótakmörkuðum afköstum fyrir finstillingu skipulagningar. Án þessa eiginleika fá áætlaðar framleiðslupantanir afhendingartímann sinn frá afhendingartíma á birgðum útgefinna afurða burtséð frá tímamörkum áætlanagerðarinnar. |
 | Áætlun | Fyrirspurnarbyggð staðfesting áætlaðrar pantanar | [Staðfesta áætlaðar pantanir](../master-planning/planning-optimization/planned-order-firming.md) |
 | Vöruupplýsingastjórnun | [Endurbætur á tillögusíðu afbrigðis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Stofna forskilgreind afurðarafbrigði](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
+
+Í eftirfarandi töflu er listi yfir eiginleikaviðbætur í þessari útgáfu. Hver þeirra býður upp á stigvaxandi viðbót á fyrirliggjandi eiginleika. Þær eru aðeins viðbætur og eru því ekki skráðar í [útgáfuáætluninni](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). En til að tryggja að þessar viðbætur stangist ekki á við núverandi sérstillingar eða kjörstillingar er sjálfgefið slökkt á þeim öllum (nema annað sé tekið fram). Ef nota á einhvern þessara eiginleika þarf að virkja þá sérstaklega í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
+|---|---|---|
+| Sala og markaðsstarf | Endurbætur á afköstum hreinsunar á söluferli | Hreinsun söluferils getur tekið langan tíma ef hún er sjaldan keyrð í umhverfum þar sem er mikið um söluuppfærslur. Til að stytta tímann og auka áreiðanleikann mun þessi eiginleiki skipta hreinsun niður í runur og keyra þær í stuttan tíma í einu. Ef mögulegt mun geta gagnagrunnsins vera notuð til að lágmarka læsingu og forðast að sameina færslutöflur við hreinsun. |
+| Sala og markaðsstarf | Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu fyrir pantanir innan samstæðu | Þessi eiginleiki gerir kleift að stjórna því hvað gerist fyrir reitargildi sölu- og innkaupadagsetninga þegar beinar afhendingar innan samstæðu eru notaðar. Hægt er að velja hvort kerfið uppfæri umbeðnar dagsetningar eða sleppi því að uppfæra þær. Ef uppfærslunni er sleppt munu umbeðnar dagsetningar sýna það sem viðskiptavinurinn hefur óskað eftir. Ef uppfærslur eru virkjaðar munu umbeðnar dagsetningar (þegar stjórnun afhendingardagsetningar er notuð) aðeins sýna í upphafi það sem viðskiptavinurinn hefur óskað eftir. Stjórnun afhendingardags, þegar hann er annar en *Enginn*, mun hnekkja því sem var óskað eftir í upphafi. Hægt er að stjórna þessum valkosti með nýju stillingunni **Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu** í stillingum lánardrottins eða viðskiptavinar innan samstæðu.<br><br>Ef slökkt er á eiginleikanum mun kerfið skrifa yfir umbeðna móttökudagsetningu á upprunalegum sölupöntunum samkvæmt reglu um stjórnun afhendingardagsetningar, en umbeðin flutningsdagsetning helst óbreytt. |
+| Vöruhúsakerfi | Slétta magn niður í næstu sölueiningu við losun í vöruhús | Þessi eiginleiki bætir við valkosti sem getur takmarkað pöntunarmagn við losun í vöruhús. Þegar hann er virkur verður pöntunarmagn sléttað niður í næstu heilu sölueiningu og losun á pöntunum sem innihalda magn sem nemur minna en einni sölueiningu verður hafnað. |
+| Vöruhúsakerfi | Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirtækið | Við virkjun á þessum eiginleika verður bylgjuaðferðin *Áætla stofnun vinnu* skilgreind til að keyra samhliða í öllum lögaðilum. Nokkrar stillingar í viðbót verða einnig fyrir áhrifum. Fyrir ítarlegar upplýsingar skal skoða [Áætla stofnun vinnu í bylgju](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -62,7 +74,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Verkvangsuppfærslur fyrir útgáfu 10.0.19 á forritum Finance and Operations (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.19 í Finance and Operations-forritum (júní 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923539"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111725"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -31,6 +31,19 @@ ms.locfileid: "5923539"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Tilkynning um úreldingu eiginleika tekur gildi í maí 2021
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalization portal í Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að afnema Globalization gáttina í LCS þar sem þessi eiginleiki hefur komið í stað annarrar LCS-byggðrar þjónustu. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, þessum eiginleika er skipt út fyrir LCS [Vandamálaleit](../lifecycle-services/issue-search-lcs.md) og [Innsendingarþjónustu vegna lögboðinnar viðvörunar Dynamics](../lcs-solutions/submit-localization-alerts.md). |
+| **Afurðasvæði sem haft er áhrif á**         | Staðfæringargátt í LCS|
+| **Dreifingarvalkostur**              | Uppsetning skýs |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í maí 2022. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Eiginleiki fjarlægður frá og með 28. janúar 2021
 
@@ -48,7 +61,7 @@ ms.locfileid: "5923539"
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.17 á forritum Finance and Operations
 
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -56,7 +69,7 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Visual Studio 2017 kemur í stað Visual Studio 2015 sem uppsett og áskild útgáfa. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt. Við uppfærslu verða fyrri verkfæri X++ fjarlægð úr Visual Studio 2015 og uppfærðu verkfærin verða ekki sett upp í Visual Studio 2015. Hýst smíði verður ekki fyrir áhrifum. Fyrir sýndarvélar smíðar þarf sölukeðja smíðar (skilgreining smíðar) að vera uppfærð handvirkt til að breyta tengslum úr MSBuild 14.0 (Visual Studio 2015) í MSBuild 15.0 (Visual Studio 2017) eins og lýst er í [Uppfæra eldri sölukeðju í Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+| **Staða**                         | Við uppfærslu verða fyrri verkfæri X++ fjarlægð úr Visual Studio 2015 og uppfærðu verkfærin verða ekki sett upp í Visual Studio 2015. Hýst smíði verður ekki fyrir áhrifum. Fyrir sýndarvélar smíðar þarf sölukeðja smíðar (skilgreining smíðar) að vera uppfærð handvirkt til að breyta tengslum úr MSBuild 14.0 (Visual Studio 2015) í MSBuild 15.0 (Visual Studio 2017) eins og lýst er í [Uppfæra eldri sölukeðju í Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Notandapersóna notanda 
 
@@ -76,7 +89,7 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt. Áætlað er að allur EP-kóði verði fjarlægður í október 2021 útgáfu. |
+| **Staða**                         | Úrelt: Áætlað er að allur EP-kóði verði fjarlægður í október 2021 útgáfu. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.15 á forritum Finance and Operations
 
@@ -88,7 +101,7 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
 | **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur |
 | **Dreifingarvalkostur**              | Allir|
-| **Staða**                         | Úrelt. Internet Explorer 11 verður ekki stutt eftir ágúst 2021.|
+| **Staða**                         | Úrelt: Internet Explorer 11 verður ekki stutt eftir ágúst 2021.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio -viðbót til að nota flýtileiðréttingar
@@ -181,9 +194,9 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Nánari upplýsingar er að finna í [Skilgreining Azure Active Directory Skilyrðisbundinn aðgangur](/appcenter/general/configuring-aad-conditional-access).|
 | **Afurðasvæði sem haft er áhrif á**         | Öryggi |
 | **Dreifingarvalkostur**              | Ský |
-| **Staða**                         | **Úrelt:** Þessi eiginleiki er að fullu úreltur fyrir uppsetningar sjálfsafgreiðslu. |
+| **Staða**                         | Úrelt: Þessi eiginleiki er að fullu úreltur fyrir uppsetningar sjálfsafgreiðslu. |
 
-### <a name="visual-studio-2015"></a>Visual Studio2015
+### <a name="visual-studio-2015"></a>Visual Studio 2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -201,7 +214,7 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Þessi þýðingarvilla kemur í staðinn fyrir viðvörun þýðandans.  |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | **Úrelt:** Viðvörunin er þýðingartímavilla í framtíðinni með uppfærslum á verkvangi fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
+| **Staða**                         | Úrelt: Viðvörun þýðanda er villa í verkvangsuppfærslu fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV leyfi búin til með því að nota endamerkja reikniritið SHA1
 
@@ -211,7 +224,7 @@ ms.locfileid: "5923539"
 | **Skipt út fyrir aðra eiginleika?**   | Já. Notaðu Windows PowerShell til að búa til leyfi. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | <strong>Afskrifað:</strong> ISV leyfi sem voru búin til með því að nota endamerkja reiknirit SHA1. Þessi reiknirit voru háð vottorðum sem voru búin til með því að nota gagnaforritið MakeCert og sú veita hefur verið úrelt.<p><strong>Afskrifað:</strong> Notkun SHA1 í öryggisskyni eða endamerkja tilgangi. SHA1 hættir að virka snemma árs 2021. Þess vegna ætti það ekki að nota það lengur.<p><strong>Fjarlægt:</strong> Stuðningur við flutningslagöryggi (TLS) 1.0 og TLS 1.1 komandi eða sendar beiðnir. |
+| **Staða**                         | Afskrifað: ISV leyfi sem voru búin til með því að nota endamerkja reiknirit SHA1. Þessi reiknirit voru háð vottorðum sem voru búin til með því að nota gagnaforritið MakeCert og sú veita hefur verið úrelt.<br><br>Afskrifað: Notkun SHA1 í öryggisskyni eða endamerkja tilgangi. SHA1 hættir að virka snemma árs 2021. Þess vegna ætti það ekki að nota það lengur.<br><br>Fjarlægt: Stuðningur við flutningslagöryggi (TLS) 1.0 og TLS 1.1 komandi eða sendar beiðnir. |
 
 ## <a name="platform-update-32"></a>Update 32 fyrir verkvang
 

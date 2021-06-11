@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841262"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111695"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um móttekna greiðslu fyrir vörur og þjónustu. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þeir geta verið byggðir á innkaupapöntunum fyrir tilteknar vörur og þjónustu.
 
@@ -71,7 +73,9 @@ Eftirfarandi eru nokkrar leiðir til að koma í veg fyrir að reikningi sé sen
 
 - **Reikningur inniheldur óúthlutuð gjöld.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningurinn sé með óúthlutuð gjöld svo viðkomandi geti leiðrétt reikninginn áður en hann er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar það eru óúthlutuð gjöld á reikningi lánardrottins** á síðunni **Eiginleikastjórnun**.
 
-- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningur með tvítekið númer hafi fundist svo viðkomandi geti leiðrétt hann áður en hann er sendur aftur í verkflæði. Þessi viðvörun verður birt þegar færibreytan **Athuga notað reikningsnúmer** í viðskiptaskuldum er stillt á **Hafna afriti**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.  
+- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá sem sendi inn reikninginn mun fá skilaboð um að reikningur með tvítekið númer hafi fundist. Hægt er að leiðrétta tvítekna númerið áður en reikningurinn er endursendur í vinnuflæðið. Þessi viðvörun verður birt þegar færibreytan **Athuga notað reikningsnúmer** í viðskiptaskuldum er stillt á **Hafna afriti**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.
+
+- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Sá sem sendir inn reikninginn eða reynir að birta hann fær skilaboð um að magnið sé ekki jafnt. Skilaboðin bjóða upp á tækifæri til að leiðrétta gildi áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Loka fyrir bókun og innsendingu á reikningum lánardrottna í verkflæði** á síðu **Eiginleikastjórnar** og kveikt er á breytu **Loka fyrir bókun og innsendingu í verkflæði** á síðunni **Færibreytur viðskiptaskulda**.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Jafna lánardrottnareikninga við innhreyfingarskjöl afurða
 

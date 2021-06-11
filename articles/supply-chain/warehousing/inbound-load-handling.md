@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910016"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103169"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -127,7 +127,7 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir reitinn **Ofmótt
 | Virði | lýsing |
 |---|---|
 | Leyfa | Starfsmenn geta skráð móttöku magns sem fer yfir það óskráða magn sem eftir er fyrir valinn farm, en aðeins ef samtals skráður magn er ekki meira en magn innkaupapöntunarlínunnar sem er tengt farminum (eftir leiðréttingu fyrir prósentu ofafhendingar) . |
-| Útiloka | <p>Starfsmenn geta ekki skráð móttöku magns sem er meira en eftirstandandi óskráð magn fyrir valinn farm (eftir leiðréttingu fyrir hlutfall ofafhendingar). Starfsmaður sem reynir að skrá móotökurnar mun fá villu og getur ekki haldið áfram fyrr en viðkomandi skráir magn sem er jafnt eða minna en það sem eftir er af óskráðu álagsmagni.</p><p>Sjálfgefið er að gildi ofafhendingarhlutfalls á farmlínu sé afritað úr tengdri innkaupapöntunarlínu. Þegar reiturinn <b>Ofmóttaka farms</b> er stilltur á <i>Loka fyrir</i> notar kerfið prósentugildi ofafhendingar til að reikna út heildarmagn sem hægt er að skrá fyrir farmlínu. Samt sem áður er hægt að skrifa yfir það gildi fyrir einstaka farma eftir þörfum. Þessi hegðun verður viðeigandi við móttöku flæðis þar sem sumu eða öllu umframmagninu sem táknar hlutfall ofarhendingar pöntunarlínunnar er dreift óhóflega á marga farma. Eftirfarandi er dæmi um aðstæður:</p><ul><li>Það er margir farmar fyrir eina innkaupapöntunarlínu.</li><li>Innkaupapöntunarlínan er með ofafhendingarhlutfall sem er hærra en 0 (núll).</li><li>Magn hefur þegar verið skráð á móti einum eða fleiri farmi án þess að taka tillit til hlutfalls ofafhendingar.</li><li>Magnið ofafhendingar berst í síðasta farminum.</li></ul><p>Í þessari atburðarás er aðeins hægt að nota fartæki til að skrá umframmagn fyrir síðasta farm ef umsjónarmaður vöruhúss eykur hlutfall ofafhendingar fyrir viðkomandi farmlínu úr sjálfgefnu gildi í gildi sem er nógu stórt til að full ofafhending geti vera skráð með endanlegum farmi.</p> |
+| Útiloka | <p>Starfsmenn geta ekki skráð móttöku magns sem er meira en eftirstandandi óskráð magn fyrir valinn farm (eftir leiðréttingu fyrir hlutfall ofafhendingar). Starfsmaður sem reynir að skrá kvittanirnar fær villu og getur ekki haldið áfram fyrr en hann hefur skráð magn sem jafngildir eða er lægra en eftirstöðvar óskráðs hleðslumagns.</p><p>Sjálfgefið er að gildi ofafhendingarhlutfalls á farmlínu sé afritað úr tengdri innkaupapöntunarlínu. Þegar reiturinn <b>Ofmóttaka farms</b> er stilltur á <i>Loka fyrir</i> notar kerfið prósentugildi ofafhendingar til að reikna út heildarmagn sem hægt er að skrá fyrir farmlínu. Samt sem áður er hægt að skrifa yfir það gildi fyrir einstaka farma eftir þörfum. Þessi hegðun verður viðeigandi við móttöku flæðis þar sem sumu eða öllu umframmagninu sem táknar hlutfall ofarhendingar pöntunarlínunnar er dreift óhóflega á marga farma. Eftirfarandi er dæmi um aðstæður:</p><ul><li>Það er margir farmar fyrir eina innkaupapöntunarlínu.</li><li>Innkaupapöntunarlínan er með ofafhendingarhlutfall sem er hærra en 0 (núll).</li><li>Magn hefur þegar verið skráð á móti einum eða fleiri farmi án þess að taka tillit til hlutfalls ofafhendingar.</li><li>Magnið ofafhendingar berst í síðasta farminum.</li></ul><p>Í þessari atburðarás er aðeins hægt að nota fartæki til að skrá umframmagn fyrir síðasta farm ef umsjónarmaður vöruhúss eykur hlutfall ofafhendingar fyrir viðkomandi farmlínu úr sjálfgefnu gildi í gildi sem er nógu stórt til að full ofafhending geti vera skráð með endanlegum farmi.</p> |
 | Eingöngu útiloka fyrir lokaðar hleðslur | Starfsmenn geta ofmóttekið magn úr farmlínum fyrir opna farma, en ekki fyrir farma sem hafa stöðuna _Móttekið_. |
 
 > [!NOTE]
@@ -216,7 +216,7 @@ Til að bóka innhreyfingarskjal afurða á viðbótar skráðu farmmagni á mó
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Settu skráð magn af síðunni Innkaupapöntun
 
-Til að bóka innhreyfingarskjal afurða á skráðu magni af síðunni **Innkaupapöntun** lýkur notandanum eftirfarandi verkum áður en viðkomandi velur aðgerðina **Innhreyfingarskjal afurða**:
+Til að bóka skráð magn vegna innhreyfingarskjals afurðar á síðunni **Innkaupapöntun**, lýkur notandi við eftirfarandi verk áður en hann velur aðgerðina **Innhreyfingarskjal afurðar**:
 
 - Stilltu reitinn **Magn** í kaflanum **Færibreytur** á flipanum **Stillingar** á _Skráð magn_.
 - Í reitinn **Innhreyfingarskjal afurðar** slærðu inn þau númer innkaupapantana sem eru innifalin í bókuninni.
@@ -347,7 +347,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
 1. Haltu áfram að fara í gegnum verkflæðið, láttu alla aðra reiti vera auða eða stilltu á sjálfgefin gildi, þar til tækið þitt upplýsir þig um að verkinu sé lokið.
 
-Farmmóttökuverkinu er nú lokið og móttökustarfsmaður getur haldið áfram í næsta verkefni sitt. Samt sem áður munu móttökustarfsmenn vöruhúsa endurskoða farmskrána og geta séð að móttekið magn var minna en áætlað magn. Þeir munu síðan ljúka eftirfarandi ferli með því að nota vefþjóninn.
+Móttökuverki hleðslu er nú lokið og starfsmaður móttöku getur farið í næsta verk. Samt sem áður munu móttökustarfsmenn vöruhúsa endurskoða farmskrána og geta séð að móttekið magn var minna en áætlað magn. Þeir munu síðan ljúka eftirfarandi ferli með því að nota vefþjóninn.
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Finndu álagið sem þú hefur nýlega fengið á listanum. (Þú gætir þurft að velja gátreitinn **Sýning lokuð** til að fela farma á innleið sem hafa farmstöðuna _Sent_ .) Veldu síðan tengilinn í dálkinum **Kenni farms** til að opna farminn.

@@ -1,7 +1,7 @@
 ---
 title: Runulosun flutningspantana sem eru fráteknar að hluta
 description: Í þessu efnisatriði er lýst hvernig eigi að setja upp aog jafna runulosun hlutafrátekinna flutningspantana úr fartæki.
-author: pjacobse
+author: perlynne
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7802fe379941b915450b7c60c1187187038c95f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb72da0e73c7626e8771c6d89b497c1e983c31ff
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837514"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103121"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Runulosun flutningspantana sem eru fráteknar að hluta
 
@@ -44,7 +44,7 @@ Tilgreina þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir �
 
 -   Til að stofna uppfyllingarreglur fyrir flutningspantanir og sölupantanir er smellt á **Vöruhúsastjórnun** \> **Uppsetning** \> **Losa í vöruhús** \> **Uppfyllingarregla**, og stofnaðu svo uppfyllingarreglu með því að færa inn nafn og lýsingu.
 
--   Til að tilgreina uppfyllingartíðni, gildisgerð og skilaboð sem birtast ef uppfyllingarreglur eru brotnar, smelltu á  **Vöruhúsakerfi** \> **Uppsetning** \> **Losa í vöruhús** \> **uppfyllingarregla**, og stiltu svo reitina **uppfyllingartíðni**, **gerð gildis**, og **skilaboð vegna brota á uppfyllingu**.
+-   Til að tilgreina uppfyllingartíðni, gildisgerð og skilaboð sem birtast ef uppfyllingarreglur eru brotnar, smelltu á **Vöruhúsakerfi** \> **Uppsetning** \> **Losa í vöruhús** \> **uppfyllingarregla**, og stiltu svo reitina **uppfyllingartíðni**, **gerð gildis**, og **skilaboð vegna brota á uppfyllingu**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Stilla þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir
 
@@ -58,9 +58,9 @@ Runuvinnsla er notuð til að losa pantanir í vöruhús í runum. Færibreytur 
 
 Færibreytan **Magn** tilgreinir hvort losa á í runu allt magnið eða efnislega frátekið magn. Færibreytan **Leyfa losun pantana sem hafa verið losaðar að hluta** ákvarðar hvort pantanir í runu á að samþykkja eða hafna ef þær voru losaðar að hluta fyrr.
 
--   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** skal smella á  **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
+-   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** skal smella á **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
 
--   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** fyrir sölupantanir skal smella á  **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
+-   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** fyrir sölupantanir skal smella á **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

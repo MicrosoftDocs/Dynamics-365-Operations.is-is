@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947521"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115050"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -50,16 +50,21 @@ Fyrst skal kveikja á eiginleikunum með því að fylgja þessum skrefum.
 
 1. Farðu í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið.
 1. Athuga með uppfærslur.
-1. Kveikið á eiginleikanum sem kallast **Umsjón hönnunarbreytinga**.
-1. Ef nota á þetta skal einnig kveikja á eiginleikanum sem kallast **Útgáfa afurðarvíddar**.
+1. Kveikið á eiginleikanum sem kallast *Umsjón hönnunarbreytinga*.
+1. Ef nota á þetta skal einnig kveikja á eiginleikanum sem kallast *Útgáfa afurðarvíddar*.
 
 Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skrefum.
 
 1. Setjið kerfið í viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
 1. Víkkið út hnútinn **Viðskipti**
-1. Virkið skilgreiningarlykilinn fyrir aðaleiginleikann með því að velja gátreitinn **Stjórnun hönnunarbreytingar**. (Ekki er nauðsynlegt að stækka hnútinn nema ef einnig á að slökkva á einum eða báðum undireiginleikum hans.)
-1. Ef einnig á að nota vídd útgáfunnar skal þá velja gátreitinn **Afurðarvídd - Útgáfa**. (Þessi gátreitur er neðar á listanum, ekki faldaður undir hnútnum **Stjórnun hönnunarbreytinga**.)
+1. Virkið skilgreiningarlykilinn fyrir aðaleiginleikann með því að velja gátreitinn **Stjórnun hönnunarbreytingar**.
+1. Stækkaðu hnútinn **Umsjón hönnunarbreytinga** og veldu eða hreinsaðu eftirfarandi gátreiti eftir þörfum (eftir því hvaða eiginleika á að nota):
+
+    - **Leit að eigind** – Veldu þennan gátreit til að virkja [leitareiginleika eigindar](engineering-attributes-and-search.md). Við mælum með því að þessi eiginleiki sé virkur en hægt er að hreinsa þennan gátreit ef ekki á að nota hann.
+    - **Breytingastjórnun fyrir framleiðsluferli** – Veldu þennan gátreit ef þú vilt nota eiginleika fyrir umsjón hönnunarbreytinga til að stjórna breytingum í formúlum fyrir framleiðsluferli. Ef þú þarft ekki að stjórna formúlum geturðu hreinsað þennan gátreit. Frekari upplýsingar eru í [Stjórna breytingum á formúlum og innihaldsefnum þeirra](manage-formula-changes.md)
+
+1. Ef einnig á að nota vídd útgáfunnar skal velja gátreitinn **Afurðarvídd - Útgáfa**. (Þessi gátreitur er neðar á listanum, ekki faldaður undir hnútnum **Stjórnun hönnunarbreytinga**.)
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]

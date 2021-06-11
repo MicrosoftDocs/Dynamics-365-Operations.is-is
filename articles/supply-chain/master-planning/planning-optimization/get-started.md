@@ -2,7 +2,7 @@
 title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907668"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103594"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -58,7 +58,7 @@ Til að nota Fínstilling skipulagningar verður að ganga úr skugga um að ker
 
 - Nauðsynlegt er að keyra Supply Chain Management á öflugu LCS virkt umhverfi, á stigi 2 eða hærra (ekki OneBox-umhverfi), með Dynamics 365 Supply Chain Management útgáfu 10.0.7 eða nýrri. Ef reynt er að setja upp viðbótina í OneBox-umhverfi verður uppsetningunni ekki lokið og því verður að hætta við uppsetninguna.
 
-- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Frekari upplýsingar er að finna [Forsendur fyrir uppsetningu viðbóta](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) og [Setja upp innbætur](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Frekari upplýsingar er að finna í [Microsoft Power Platform samþætting við Finance and Operations forrit](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Virkja leyfi Fínstillingar skipulagningar
 

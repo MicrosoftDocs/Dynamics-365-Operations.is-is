@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019495"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103629"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -77,6 +77,7 @@ Til að staðfesta áætlaðar pantanir handvirkt skal finna og velja áætlaða
 
     - **Flokka eftir lánardrottnum** – Stillið þennan valkost á *Já* til að flokka áætlaðar innkaupapantanir og stofna eina innkaupapöntun á hvern lánardrottin við staðfestingu. Að öðrum kosti er hægt að stofna eina innkaupapöntun sem er með eina línu fyrir hverja áætlaða pöntun.
     - **Flokka eftir kaupendaflokki** – Stillið þennan valkost á *Já* til að flokka áætlaðar innkaupapantanir og stofna eina innkaupapöntun sem sameinar lánardrottin og kaupendaflokk. Til að nota þennan valkost verður einnig að stilla valkostinn **Flokka eftir lánardrottnum** á *Já*.
+    - **Flokka eftir innkaupasamningi** – Stilltu þennan valkost á *Já* til að flokka áætlaðar innkaupapantanir sem eru með sama lánardrottin og fyrirliggjandi innkaupasamningar og stofna eina innkaupapöntun fyrir hvern innkaupasamning. Þessi valkostur er sjálfkrafa virkur þegar **Flokka eftir lánardrottnum** er virkur. Til að nota **Flokka eftir innkaupasamningi** verður að stilla **Finna innkaupasamning** á *Já* á síðunni **Færibreytur aðaláætlanagerðar**.
     - **Flokka eftir tímabili** (í hlutanum **Innkaupapantanir**) – Velja tímabilið sem flokka á áætlaðar innkaupapantanir eftir. Til að nota þennan valkost verður einnig að velja valkostinn **Flokka eftir lánardrottnum**.
     - **Flokka eftir tímabili** (í hlutanum **Flutningar**) – Veljið tímabilið sem flokka á áætlaðar flutningspantanir eftir. Pantanirnar verða flokkaðar samkvæmt gildunum **Frá vöruhúsi** og **Til vöruhúss**.
 

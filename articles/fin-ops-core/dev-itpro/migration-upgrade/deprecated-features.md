@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921424"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112622"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -104,6 +104,39 @@ ms.locfileid: "5921424"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Þann 1. október 2020, stefnum við að því að styðja ekki lengur við **Innlenda skattaskýrslu - Tilvísun eiginleika IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>Tilkynning um úreldingu í október 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Flæðirit í viðskiptaferlavinnslu
+
+<table>
+<tbody>
+<tr>
+<td><strong>Ástæða úreldingar/fjarlægingar</strong></td>
+<td>Við erum að afskrifa flæðirit í Viðskiptaferlavinnslu (BPM) vegna þess að eldri hönnun olli litlum notum.</td>
+</tr>
+<tr>
+<td><strong>Skipt út fyrir aðra eiginleika?</strong></td>
+<td>Nr</td>
+</tr>
+<tr>
+<td><strong>Svæði sem verða fyrir áhrifum</strong></td>
+<td>Viðskiptaferlavinnsla</td>
+</tr>
+<tr>
+<td><strong>Staða</strong></td>
+<td>Úrelt: Gert er ráð fyrir að flæðirit skýringarmyndar í BPM verði fjarlægt í febrúar 2020. Eftirfarandi aðgerðir verða ekki tiltækar:
+<ul>
+<li>Öll flæðirit verða skrifvarin og ekki hægt að breyta þeim. Eiginleikar forms sem tengjast flæðiritaraðgerðum verða einnig ekki tiltækir. Þessi flæðirit eru bæði með sjálfgefnum flæðiritum sem eru sjálfkrafa mynduð og sérsniðin flæðirit sem er breytt miðað við þessi sjálfgefnu flæðirit.</li>
+<li>Öll stig ferlisins verða skrifvarin og ekki hægt að breyta þeim.</li>     
+<li>Eldri eiginleikinn hæfni/gloppugreining verður ekki tiltækur. Þess vegna verður enginn gloppulisti búinn til sjálfkrafa eða fáanlegur til útflutnings.
+<p><strong>Athugasemd:</strong> Þessi aðgerð hafði áður verið úrelt og skipt út fyrir Microsoft Azure DevOps-samþættingar.</p>
+</li>
+<li>Útgáfusaga flæðiritsins verður ekki tiltæk.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 með verkvangsuppfærslu 29
 
