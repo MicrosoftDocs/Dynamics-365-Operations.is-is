@@ -2,91 +2,69 @@
 title: Uppsetning tvöfaldra skrifa úr Lifecycle Services
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp tengingu tvöfaldrar skráningar úr Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748542"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103570"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="f0e9b-103">Uppsetning tvöfaldra skrifa úr Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="f0e9b-103">Dual-write setup from Lifecycle Services</span></span>
+# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="ffcdb-103">Uppsetning tvöfaldra skrifa úr Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="ffcdb-103">Dual-write setup from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="f0e9b-104">Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="f0e9b-104">This topic explains how to set up a dual-write connection between a new Finance and Operations environment and a new Dataverse environment from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="ffcdb-104">Í þessu efnisatriði er útskýrt hvernig á að virkja tvöfalda skráningu úr Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="ffcdb-104">This topic explains how to enable dual-write from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="f0e9b-105">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="f0e9b-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="ffcdb-105">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="ffcdb-105">Prerequisites</span></span>
 
-<span data-ttu-id="f0e9b-106">Þú verður að vera stjórnandi til að setja upp tvískipt tengingu.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-106">You must be an admin to set up a dual-write connection.</span></span>
+<span data-ttu-id="ffcdb-106">Ljúka verður við Power Platform samþættinguna eins og lýst er í eftirfarandi efnum:</span><span class="sxs-lookup"><span data-stu-id="ffcdb-106">You must complete the Power Platform integration as described in the following topics:</span></span>
 
-+ <span data-ttu-id="f0e9b-107">Þú verður að hafa aðgang að leigjandanum.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-107">You must have access to the tenant.</span></span>
-+ <span data-ttu-id="f0e9b-108">Þú verður að vera stjórnandi í bæði umhverfi Finance and Operations og umhverfi Dataverse.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-108">You must be an admin in both Finance and Operations environments and Dataverse environments.</span></span>
++ [<span data-ttu-id="ffcdb-107">Power Platform Samþætting - Virkja við uppsetningu umhverfis</span><span class="sxs-lookup"><span data-stu-id="ffcdb-107">Power Platform Integration - Enable during environment deployment</span></span>](../../power-platform/overview.md#enable-during-environment-deployment)
++ [<span data-ttu-id="ffcdb-108">Power Platform samþætting - Setja upp eftir uppsetningu umhverfis</span><span class="sxs-lookup"><span data-stu-id="ffcdb-108">Power Platform integration - Set up after environment deployment</span></span>](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a><span data-ttu-id="f0e9b-109">Setja upp tvískipt tengingu</span><span class="sxs-lookup"><span data-stu-id="f0e9b-109">Set up a dual-write connection</span></span>
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a><span data-ttu-id="ffcdb-109">Setja upp tvöfalda skráningu fyrir ný Dataverse umhverfi</span><span class="sxs-lookup"><span data-stu-id="ffcdb-109">Set up dual-write for new Dataverse environments</span></span>
 
-<span data-ttu-id="f0e9b-110">Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-110">Follow these steps to set up the dual-write connection.</span></span>
+<span data-ttu-id="ffcdb-110">Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni **Upplýsingar um umhverfi**:</span><span class="sxs-lookup"><span data-stu-id="ffcdb-110">Follow these steps to set up dual-write from LCS **Environment Details** page:</span></span>
 
-1. <span data-ttu-id="f0e9b-111">Í LCS skaltu fara í verkið.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-111">In LCS, go to your project.</span></span>
-2. <span data-ttu-id="f0e9b-112">Veldu **Stilla** til að beita nýju umhverfi.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-112">Select **Configure** to deploy a new environment.</span></span>
-3. <span data-ttu-id="f0e9b-113">Veldu útgáfuna.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-113">Select the version.</span></span> 
-4. <span data-ttu-id="f0e9b-114">Veldu grannfræði.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-114">Select the topology.</span></span> <span data-ttu-id="f0e9b-115">Ef aðeins ein grannfræði er tiltæk er hún sjálfkrafa valin.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-115">If only one topology is available, it's automatically selected.</span></span>
-5. <span data-ttu-id="f0e9b-116">Ljúktu við fyrstu skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-116">Complete the first steps in the **Deployment settings** wizard.</span></span>
-6. <span data-ttu-id="f0e9b-117">Á flipaum **Dataverse** fylgirðu einu af eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="f0e9b-117">On the **Dataverse** tab, follow one of these steps:</span></span>
+1. <span data-ttu-id="ffcdb-111">Á síðunni **Upplýsingar um umhverfi** skal stækka hlutann **Power Platform Samþætting**.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-111">On the **Environment Details** page, expand the **Power Platform Integration** section.</span></span>
 
-    - <span data-ttu-id="f0e9b-118">Ef umhverfið Dataverse er þegar veitt fyrir leigjanda þinn getur þú valið það.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-118">If a Dataverse environment is already provisioned for your tenant, you can select it.</span></span>
+2. <span data-ttu-id="ffcdb-112">Veljið hnappinn **Notkun tvöfaldrar skráningar**.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-112">Select the **Dual-write application** button.</span></span>
 
-        1. <span data-ttu-id="f0e9b-119">Stillið valkostinn **Stilla Dataverse** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-119">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="f0e9b-120">Í dálkinum **Tiltæk umhverfi** skal velja umhverfið sem á að samþætta við Finance and Operations gögnin.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-120">In the **Available environments** column, select the environment to integrate with your Finance and Operations data.</span></span> <span data-ttu-id="f0e9b-121">Listinn inniheldur öll umhverfi þar sem þú hefur stjórnunarréttindi.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-121">The list includes all environments where you have admin privileges.</span></span>
-        3. <span data-ttu-id="f0e9b-122">Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-122">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+    ![Power Platform samþætting](media/powerplat_integration_step2.png)
 
-        ![Flipinn Dataverse þegar umhverfið Dataverse er þegar veitt fyrir leigjandann](../dual-write/media/lcs_setup_1.png)
+3. <span data-ttu-id="ffcdb-114">Farið yfir skilmálana og veljið því næst **Skilgreina**.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-114">Review the terms and conditions, and then select **Configure**.</span></span>
 
-    - <span data-ttu-id="f0e9b-124">Ef leigjandi þinn er ekki þegar með Dataverse umhverfi verður nýtt umhverfi veitt.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-124">If your tenant doesn't already have a Dataverse environment, a new environment will be provisioned.</span></span>
+4. <span data-ttu-id="ffcdb-115">Veldu **Í lagi** til að halda áfram.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-115">Select **OK** to continue.</span></span>
 
-        1. <span data-ttu-id="f0e9b-125">Stillið valkostinn **Stilla Dataverse** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-125">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="f0e9b-126">Slá inn heiti fyrir umhverfi Dataverse.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-126">Enter a name for the Dataverse environment.</span></span>
-        3. <span data-ttu-id="f0e9b-127">Veldu svæðið til að dreifa umhverfinu á.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-127">Select the region to deploy the environment in.</span></span>
-        4. <span data-ttu-id="f0e9b-128">Veldu sjálfgefið tungumál og gjaldmiðil fyrir umhverfið.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-128">Select the default language and currency for the environment.</span></span>
+5. <span data-ttu-id="ffcdb-116">Hægt er að fylgjast með framvindunni með því að endurhlaða upplýsingasíðu umhverfis með reglulegu millibili.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-116">You can monitor the progress by periodically refreshing the environment details page.</span></span> <span data-ttu-id="ffcdb-117">Uppsetning tekur yfirleitt innan við 30 mínútur.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-117">Setup typically takes 30 minutes or less.</span></span>  
 
-            > [!NOTE]
-            > <span data-ttu-id="f0e9b-129">Þú getur ekki breytt tungumálinu og gjaldmiðlinum seinna.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-129">You can't change the language and currency later.</span></span>
+6. <span data-ttu-id="ffcdb-118">Þegar uppsetningunni er lokið koma upp skilaboð þar sem látið er vita hvort ferlið hafi tekist eða ef villa kom upp.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-118">When the setup is complete, a message will inform you if the process was successful or if there was a failure.</span></span> <span data-ttu-id="ffcdb-119">Ef uppsetningin mistókst birtast tengd villuboð.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-119">If the setup failed, then a related error message is displayed.</span></span> <span data-ttu-id="ffcdb-120">Þú verður að laga allar villur sem kunna að vera til staðar áður en þú ferð í næsta skref.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-120">You must fix any errors before moving to the next step.</span></span>
 
-        5. <span data-ttu-id="f0e9b-130">Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-130">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="ffcdb-121">Veljið **Tengja við Power Platform umhverfi** til að búa til tengingu milli Dataverse og núverandi gagnagrunna umhverfis.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-121">Select **Link to Power Platform environment** to create a link between Dataverse and the current environment's databases.</span></span> <span data-ttu-id="ffcdb-122">Þetta tekur yfirleitt innan við 5 mínútur.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-122">This typically takes less than 5 minutes.</span></span>
 
-        ![Dataverse flipann þegar leigjandi þinn er ekki þegar með Dataverse umhverfi](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið":::
 
-7. <span data-ttu-id="f0e9b-132">Ljúktu við eftirstandandi skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-132">Complete the remaining steps in the **Deployment settings** wizard.</span></span>
-8. <span data-ttu-id="f0e9b-133">Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-133">After the environment has a status of **Deployed**, open the environment details page.</span></span> <span data-ttu-id="f0e9b-134">Kaflinn **Power Platform Samþætting** sýnir heiti Finance and Operations umhverfisins og Dataverse umhverfis sem er tengt.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-134">The **Power Platform Integration** section shows the names of the Finance and Operations environment and the Dataverse environment that are linked.</span></span>
+8. <span data-ttu-id="ffcdb-124">Þegar tengingin er komin verður tengill sýndur.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-124">When the linking is complete, a hyperlink is displayed.</span></span> <span data-ttu-id="ffcdb-125">Notið tengilinn til að skrá ykkur inn á stjórnunarsvæði tvöfaldrar skráningar í Finance and Operations umhverfinu.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-125">Use the link to sign in to the dual-write administration area in the Finance and Operations environment.</span></span> <span data-ttu-id="ffcdb-126">Þaðan er hægt að setja upp einingavarpanir.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-126">From there, you can set up entity mappings.</span></span>
 
-    ![Power Platform Hluti samþættingar](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a><span data-ttu-id="ffcdb-127">Setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi</span><span class="sxs-lookup"><span data-stu-id="ffcdb-127">Set up dual-write for an existing Dataverse environment</span></span>
 
-9. <span data-ttu-id="f0e9b-136">Stjórnandi í Finance and Operations umhverfi verður að skrá sig inn á LCS og velja **Hlekkur á CDS fyrir forrit** til að ljúka við tengilinn.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-136">An admin of the Finance and Operations environment must sign in to LCS and select **Link to CDS for Apps** to complete the link.</span></span> <span data-ttu-id="f0e9b-137">Umhverfisupplýsingasíðan sýnir upplýsingar um tengilið stjórnanda.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-137">The environment details page shows the admin's contact information.</span></span>
+<span data-ttu-id="ffcdb-128">Til að setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi þarf að stofna Microsoft [þjónustubeiðni](../../lifecycle-services/lcs-support.md).</span><span class="sxs-lookup"><span data-stu-id="ffcdb-128">To set up dual-write for an existing Dataverse environment, you must create a Microsoft [support ticket](../../lifecycle-services/lcs-support.md).</span></span> <span data-ttu-id="ffcdb-129">Beiðnin verður að innihalda:</span><span class="sxs-lookup"><span data-stu-id="ffcdb-129">The ticket must include:</span></span>
 
-    <span data-ttu-id="f0e9b-138">Eftir að hlekknum er lokið er staðan uppfærð til **Umhverfistengingu lokið**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-138">After the link is completed, the status is updated to **Environment linking successfully completed**.</span></span>
-
-10. <span data-ttu-id="f0e9b-139">Til að opna vinnusvæðið **Sameining gagna** í Finance and Operations umhverfi og stjórna sniðmátunum sem eru í boði, veldu **Hlekkur á CDS fyrir forrit**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-139">To open the **Data integration** workspace in the Finance and Operations environment and control the templates that are available, select **Link to CDS for Apps**.</span></span>
-
-    ![Tengill á CDS fyrir forritahnapp í Power Platform samþættingarhlutanum](../dual-write/media/lcs_setup_4.png)
++ <span data-ttu-id="ffcdb-130">Finance and Operations umhverfiskennið.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-130">Your Finance and Operations environment ID.</span></span>
++ <span data-ttu-id="ffcdb-131">Heiti umhverfis í Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-131">Your environment name from Lifecycle Services.</span></span>
++ <span data-ttu-id="ffcdb-132">Fyrirtækiskennið Dataverse eða umhverfiskennið Power Platform úr Power Platform stjórnendamiðstöðinni.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-132">The Dataverse organization ID or Power Platform Environment ID from Power Platform Admin Center.</span></span> <span data-ttu-id="ffcdb-133">Í beiðninni skal biðja um að kennið verði tilvikið sem notað er fyrir Power Platform samþættingu.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-133">In your ticket, request that the ID be the instance used for Power Platform integration.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f0e9b-141">Þú getur ekki aftengt umhverfi með því að nota LCS.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-141">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="f0e9b-142">Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.</span><span class="sxs-lookup"><span data-stu-id="f0e9b-142">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
-
-
+> <span data-ttu-id="ffcdb-134">Þú getur ekki aftengt umhverfi með því að nota LCS.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-134">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="ffcdb-135">Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.</span><span class="sxs-lookup"><span data-stu-id="ffcdb-135">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
