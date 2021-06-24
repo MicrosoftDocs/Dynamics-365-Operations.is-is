@@ -94,7 +94,7 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (júlí 2021)
+                    - name: Commerce 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (júní 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -240,11 +240,11 @@
               items:
                 - name: Yfirlit yfir skipulag Dynamics 365 Commerce
                   href: commerce-architecture.md
-                - name: Dynamics 365 Commerce sannvottunarflæði
+                - name: Sannvottunarflæði fyrir Dynamics 365 Commerce
                   href: arch-auth-flow.md
-                - name: Dynamics 365 Commerce útgáfukröfur íhlutar
+                - name: Útgáfukröfur íhlutar fyrir Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Skipulag Commerce Scale Unit
+                - name: Skipulag viðskiptakerfis án framvinnslu
                   href: dev-itpro/retail-server-architecture.md
                 - name: Velja grannfræði í verslun
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,9 +258,9 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Skipulag Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Útgáfuskipulag netverslunar
+                - name: Birta netverslunarrás
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Retail Channel Performance Power BI efni
+                - name: Efni Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)
                   href: dev-itpro/PA-DSS-Certification.md
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: Notendaþjónusta vegna greiðslu með „Veski“
                       href: wallets.md
+                    - name: Ítarlegar greiðslur í greiðsluferli í netverslun
+                      href: dev-itpro/enhanced-sca.md
                     - name: Algengar spurningar um greiðslur
                       href: dev-itpro/payments-retail.md
                 - name: Tölvupóstur og tilkynningar
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: Samfelldniáætlanir fyrir sölu og vinnsla sölupantana
                   href: tasks/use-continuity-program.md
-                - name: Virkja innskráningartilkynningar viðskiptavinar á sölustað (POS)
+                - name: Virkja innskráningartilkynningar viðskiptavinar á sölustað
                   href: enable-customer-check-in.md
-            - name: Skil
+            - name: Skil og endurgreiðsla
               items:
+                - name: Stofna skil á sölustað
+                  href: POS-returns.md
+                - name: Skila raðnúmerastýrðum afurðum á sölustað
+                  href: POS-serial-returns.md
                 - name: Tengdar endurgreiðslur
                   href: dev-itpro/linked-refunds.md
                 - name: Sala og skil á afurðum sem ekki eru í úrvali verslunar
@@ -1228,8 +1234,10 @@
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory configuration service – altækir eiginleikar
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory configuration service og hlaða þeim upp í altæka geymslu
+                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service og hlaða þeim upp í altæka geymslu
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
@@ -1238,6 +1246,8 @@
               items:
                 - name: Staðfæring Commerce fyrir Brasilíu
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Setja upp og virkja staðfæringu Commerce fyrir Brasilíu
+                  href: localizations/latam-bra-deployment.md
             - name: Austur-Evrópa
               items:
                 - name: Algengt
@@ -1962,13 +1972,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Mynda reikningssnið með frjálsum texta sem hægt er að prenta út
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Hönnun skilvirkra lausna fyrir rafræna skýrslugerð
+                  items:
+                    - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að leita að vandamálum sem tengjast afköstum
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Leita að vandamálum sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórnun viðskiptaskjala (BDM)
                   items:
-                    - name: BDM-yfirlit
+                    - name: Yfirlit viðskiptaskjalastjórnunar
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                    - name: Nýtt notandaviðmót fyrir skjöl í stjórnun BDM
+                    - name: Nýtt notandaviðmót fyrir skjöl í stjórnun viðskiptaskjala
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
                     - name: Breyta sniðmátum viðskiptaskjala í BDM
                       items:
@@ -2390,15 +2404,15 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Hlaða niður dæmum og pökkum af GitHub og NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
-                - name: Algengar spurningar Retail SDK
+                - name: Algengar spurningar fyrir Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Stækkunarhæfni sölustaðar
               items:
-                - name: Útlitshönnun sölustaðarskjás
+                - name: Útlit sölustaðarskjás
                   href: pos-screen-layouts.md
-                - name: Store Commerce forritið í Microsoft Dynamics 365 Commerce
+                - name: Store Commerce-forrit í Microsoft Dynamics 365 Commerce
                   href: dev-itpro/store-commerce.md
-                - name: Opna vefslóð í sölustað
+                - name: Opna vefslóð á sölustað
                   href: Open-URL-in-POS.md
                 - name: Setja upp útlitshönnuð sölustaðar
                   href: install-pos-layout-designer.md

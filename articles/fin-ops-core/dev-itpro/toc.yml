@@ -12,9 +12,9 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nýjungar eða breytingar í uppfærslum á verkvangi
               items:
-                - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
+                - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (júlí 2021)
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -848,14 +848,12 @@
                       href: extensibility/compatibility-checker-tool.md
             - name: Afköst
               items:
-                - name: Taka rakningar með Trace-þáttara
+                - name: Rakningar með Trace-þáttara
                   href: perf-test/trace-trace-tutorial.md
-                - name: Einstaklingsprófun með verkskráningu og SDK fyrir afköst
+                - name: Einstaklingsprófun með SDK fyrir afköst og verkskráningu
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Fjölnotendaprófun SDK-afkasta með staðbundinni prófunarstýringu
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Fjölnotendaprófun með SDK fyrir afköst og Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Fjölnotendaprófun með SDK fyrir afköst
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: Leiðarvísir úrræðaleitar fyrir prófun með SDK fyrir afköst
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: SDK fyrir afköst og fjölnotendaprófun í innanhússumhverfi
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Búa til runuvinnslur
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Virkja sjálfvirkar tilraunir á runuvinnslum
+                  href: sysadmin/retryable-batch.md
                 - name: Afrita runuvinnslu
                   href: sysadmin/copy-batch-job.md
                 - name: Virk runutímabil
@@ -1584,19 +1584,17 @@
                   href: migration-upgrade/analyze-code-upgrade.md
                 - name: AX 2012 uppfærsla - Nota sýniútgáfuumhverfi til greiningar
                   href: migration-upgrade/analysis-sandbox.md
-                - name: AX 2012 uppfærsla - Gagnauppfærsla í þróunarumhverfi
+                - name: AX 2012 uppfærsla – Gagnauppfærsla í þróunarumhverfum
                   href: migration-upgrade/data-upgrade-2012.md
-                - name: AX 2012 uppfærsla - Uppfærslutékklisti fyrir gagnauppfærslu
+                - name: AX 2012 uppfærsla – Uppfærslugátlisti fyrir gagnauppfærslu
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi með DACPAC-ferli
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Uppfæra úr AX 2012 – SQL-færslueftirlíking
                   href: database/replication-setup.md
-                - name: AX 2012 uppfærsla – Gagnauppfærsla í sandkassaumhverfi
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Uppfæra úr AX 2012 – Gagnauppfærsla í sjálfsafgreiðsluumhverfum
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 uppfærsla – Innanhússumhverfi
                   href: migration-upgrade/on-prem-upgrade-2012.md
-                - name: AX 2012 uppfærsla - Flutningsprófun
+                - name: AX 2012 uppfærsla – Flutningsprófun
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 uppfærsla - verk eftir uppfærslu
                   href: migration-upgrade/app-validation-process.md
