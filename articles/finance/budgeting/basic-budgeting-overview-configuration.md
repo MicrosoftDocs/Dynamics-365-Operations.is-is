@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960050"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187941"
 ---
 # <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960050"
 
 Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Finance and Operations eða hlaða þeim inn úr forriti óháðs aðila.
 
-<a name="overview"></a>Yfirlit
---------
+## <a name="overview"></a>Yfirlit
 
 Samþykktri fjárhagsáætlun fyrir lögaðila er viðhaldið í skjalinu sem kallast *færsla í fjárhagsáætlunarskrá*. Línur í skjali færslu í fjárhagsáætlunarskrá eru þekktar sem færslur *fjárhagsáætlunarlykils* og innihalda upplýsingar um fjárhagsvídd, dagsetningar og upphæðir samþykktrar fjárhagsáætlunar. Skjal færslu fjárhagsáætlunarskrár er samþætt við grundvallarfjárhagsskýrslur og fyrirspurnarsíður þar sem raunverulegar fjárhagsupphæðir eru bornar saman við upphæðir fjárhagsáætlunar. 
 

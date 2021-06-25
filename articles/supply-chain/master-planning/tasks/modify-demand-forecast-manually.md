@@ -1,5 +1,5 @@
 ---
-title: Breyta eftirspurnarspá handvirkt
+title: 'Leiðbeiningar: Breyta eftirspurnarspá handvirkt'
 description: Í þessu efnisatriði er útskýrt hvernig á að breyta spá fyrir vöru
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889025"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224011"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Breyta eftirspurnarspá handvirkt
+# <a name="guide-modify-a-demand-forecast-manually"></a>Leiðbeiningar: Breyta eftirspurnarspá handvirkt
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig á að breyta spá fyrir vöru. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir framleiðslustjóri
+Þessi verklýsing sýnir hvernig á að breyta spá fyrir vöru. Þetta ferli er ætluð fyrir framleiðslustjóri
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Breyta spá fyrir valda vöru
 
@@ -36,9 +36,9 @@ Til að breyta spá fyrir valið atriði:
 1. Fyllið út í önnur svæði eftir þörfum.
 1. Í aðgerðaglugganum velurðu **Vista**.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Breyta spá fyrir eina eða fleiri vörur Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Breyta spá fyrir eina eða fleiri vörur með Microsoft Excel
 
-Til að breyta spá fyrir eina eða fleiri vörur Microsoft Excel:
+Til að breyta spá fyrir eina eða fleiri vörur með Microsoft Excel:
 
 1. Gerið eitt af eftirfarandi:
     - Farið á síðuna **Eftirspurnarspá** fyrir einhverja vöru (skiptir ekki máli hvaða vöru) eins og lýst er í fyrri hlutanum.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920110"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188850"
 ---
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
@@ -43,8 +43,7 @@ Eftirfarandi tafla sýnir flutningsstjórnunarvélar sem eru tiltækar.
 | **Gerð farmbréfs**            | Staðlar farmreikning og línur farmbréfs og er notað fyrir sjálfvirka samsvörun farmbréfs.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Hvað véla verður að vera skilgreind til að meta sendingu?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Hvað véla verður að vera skilgreind til að meta sendingu?
 
 Til að meta sendingu með því að nota tiltekna flutningsaðila, þarf að skilgreina margar flutningsstjórnunarvélar. **Taxtavél** er nauðsynleg, en aðrar flutningsstjórnunarvélar kunna að vera nauðsynlegar til að styðja við **Taxtavél**. Til dæmis er hægt að nota **taxtavélina** til að sækja gögn úr **akstursvél** til að reikna út taxta á grundvelli vegalengdar milli uppruna- og áfangastaðar.
 
@@ -62,8 +61,7 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 |  <em>MileageEngineCode</em>  |                       Kílómetravélakóði sem auðkennir skráningu kílómetravélar í gagnagrunninum.                        |
 | <em>Kostnaðarskiptingarvél</em> |                        Almennur vélakóða sem auðkennir kostnaðarskiptingarvél í gagnagrunninum.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
 
 Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í Supply Chain Management geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796415"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193156"
 ---
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 
@@ -33,7 +33,7 @@ Pöntunaruppfyllingaraðgerðin í sölustaðnum veitir eitt vinnusvæði í sö
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Ná í samræmda pöntunaruppfyllingu á sölustaðnum
 
-Pöntunaruppfyllingu, [Aðgerðarnúmer 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
+Pöntunaruppfyllingu, [Aðgerðarnúmer 928](pos-operations.md), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
 
 Pöntunaruppfyllingaraðgerðin hefur ekki sína eigin heimild út-úr-kassanum, en í framtíðinni munu notendur geta notað **Leyfa að sækja pöntun** heimildina til að hefja aðgerðina frá sölustað.
 
@@ -93,7 +93,7 @@ Eftir að pöntun hefur verið samþykkt geta línur verið valdar og merktar se
 
 Tiltektarlista er hægt að prenta á sölustað til að aðstoða starfsmenn við að framkvæma tiltektarferli. Starfsmaður sem framkvæmir tiltekt getur haft með sér prentaðan tiltektarlista og um leið og vörur eru teknar til, merkir starfsmaðurinn þær sem tilteknar á tiltektarlistanum.
 
-Snið fyrir tiltektarlista er skilgreint í Commerce og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Snið fyrir tiltektarlista er skilgreint í Commerce og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](receipt-templates-printing.md).
 
 Ef línur eru valdar og tiltektarlisti er prentaður fyrir þær línur, eru þær sjálfkrafa uppfærðir með **Tiltekt** stöðu.
 
@@ -119,7 +119,7 @@ Pöntunarlínur geta verið pakkaðar hvenær sem er eftir að pöntunarlínan h
 - **Afleidd staða:** Pakkað eða að hluta til pakkað
 - **Afleidd staða bakvinnslu:** Afhent eða að hluta til afhent
 
-Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint í Commerce og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint í Commerce og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](receipt-templates-printing.md).
 
 **Aðgerð: Merkja sem pakkað**
 

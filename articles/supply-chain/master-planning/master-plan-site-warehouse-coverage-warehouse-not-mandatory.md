@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8350646e70c7ea7d705a69ecb52f389e829a0fc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b6b9814a0a5a069d945c7888da17348ecfe4d4a7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833474"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187531"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Aðaláætlanagerð fyrir svæðis og vöruhúsatryggingu, vöruhús ekki áskilið
 
@@ -45,8 +45,7 @@ Eftirfarandi myndræn framsetning sýnir hvernig aðaláætlanagerð fer fram. F
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum](master-plan-multisite-functionality.md)
 

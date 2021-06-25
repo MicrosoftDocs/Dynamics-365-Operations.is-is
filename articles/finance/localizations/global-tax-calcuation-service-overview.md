@@ -2,7 +2,7 @@
 title: Skattaútreikningur (forskoðun)
 description: Þetta efnisatriði skýrir heildarumfang og eiginleika skattaútreikningsgetu.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b26472e195d9bdbba340a118c106de1a4dc79b34
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9daa6e001200d03a2639974fb6de618d77ddf09d
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021933"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184102"
 ---
 # <a name="tax-calculation-preview"></a>Skattaútreikningur (forskoðun)
 
@@ -31,6 +31,9 @@ ms.locfileid: "6021933"
 Skattaútreikningur er þjónusta með stillanlegri þjónustu fyrir marga notendur sem gerir altæku skattkerfi kleift að einfalda skattaákvörðun og útreikning og gera það sjálfvirkt. Skattvélin er fullkomlega stillanleg. Einingarnar sem hægt er að stilla fela í sér, en takmarkast ekki við, skattalega gagnalíkansins, skattkóða, fylkisins fyrir skattskyldu og formúlu skattútreiknings. Skattkerfið keyrir á Microsoft Azure verkvangi og býður upp á nútímatækni og sveigjanleika.
 
 Skattútreikningur er samþættur við Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
+
+> [!IMPORTANT]
+> Þegar skattaútreikningsþjónustan er virkjuð gætu sumar aðgerðir á tengdum gögnum verið framkvæmdar í gagnamiðstöð annarri en gagnamiðstöðinni sem heldur utan um þjónustugögnin. Yfirfarið [Skilmálana](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) áður en skattaútreikningsþjónustan er virkjuð. Persónuvernd þín er okkur mikilvæg. Frekari upplýsingar má finna í [tilkynningu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Skattaútreikningur er skattakerfi frá Microsoft sem býður upp á mikinn sveigjanleika. Það getur hjálpað þér að framkvæma eftirfarandi verk:
 

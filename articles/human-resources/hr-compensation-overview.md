@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058921"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189602"
 ---
 # <a name="compensation-plans"></a>Launafyrirkomulag
 
@@ -121,8 +121,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 ## <a name="process-events"></a>Vinnslutilvik
 Vinnslutilvik reiknar út launaupplýsingar fyrir tilgreint tímabil handa öllum starfsmönnum sem eru skráðir í eina eða fleiri fastar eða breytilegar launafyrirkomulag. Hægt er að keyra vinnslutilvik endurtekið, til að prófa eða uppfæra útreiknaðar launaniðurstöður.
 
-<a name="compensation-events"></a>Launatilvik
--------------------
+## <a name="compensation-events"></a>Launatilvik
 
 Í hvert sinn vinnslutilvik er keyrt er launatilvik stofnað.  Launatilvik innihalda niðurstöðu launavinnslu fyrir hvern starfsmann sem hafður var með í vinnslutilvikinu.  Þegar útreikningar eru réttir er hægt að hlaða launatilvikinu til að uppfæra launafærslur fyrir starfsmenn sem verða fyrir áhrifum af vinnslutilvikið.
 

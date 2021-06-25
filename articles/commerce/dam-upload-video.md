@@ -2,7 +2,7 @@
 title: Hlaða upp myndskeiðum
 description: Þetta efnisatriði lýsir því hvernig hægt er að hlaða upp myndböndum í vefsíðuhönnuði í Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799206"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224539"
 ---
 # <a name="upload-videos"></a>Hlaða upp myndskeiðum
 
@@ -35,7 +35,7 @@ Margmiðlunarsafn vefsíðuhönnuðar Commerce gerir þér kleift að hlaða upp
 Þegar myndskeiði er hlaðið inn er hægt að tilgreina eftirfarandi upplýsingar.
 
 - **Titill, lýsing, lykilorð**: Lýsigögn myndbandsins.
-- **Mynda lokaða myndatexta sjálfvirkt**: Tilgreinir hvort mynda eigi myndatexta sjálfkrafa fyrir myndbandið.
+- **Mynda lokaða myndatexta sjálfvirkt**: Tilgreinir hvort mynda eigi myndatexta sjálfkrafa fyrir myndbandið (aðeins enska er studd). 
 - **Lokaður myndatexti**: Tilgreinir lokaða myndatexta sem nota á.
 - **Venjulegt hljóð**: Tilgreinir venjulegt hljóðrás sem á að nota.
 - **Smámynd**: Tilgreinir smámynd fyrir myndbandið. Ef hún er ekki tilgreind verður hún mynduð sjálfkrafa.

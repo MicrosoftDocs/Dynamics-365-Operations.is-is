@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835221"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189470"
 ---
 # <a name="set-up-collections"></a>Setja upp innheimtu
 
@@ -40,8 +40,7 @@ ms.locfileid: "5835221"
 
 Nánar er fjallað um þessi atriði í öllu þessu efni. 
 
-<a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
 
 Setja upp skilgreiningu aldurstímabils Skilgreining aldurstímabils skilgreinir dálka sem á að birtast í **Aldursgreindar stöður**, **innheimtuverkþætti**, og **innheimtumál** listasíðum. Hann skilgreinir einnig tímabil sem birtast í **innheimtur** síðu. Ef hópur viðskiptamanna er uppsettur, er skilgreining aldurstímabils fyrir hópinn notuð. Ef engir hópar eru settir upp, er sjálfgefin skilgreining aldurstímabils sem er tilgreind í **færibreytur viðskiptakrafa** skjámynd notuð. Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í **Skilgreining aldurstímabils** síðu er notað.
 

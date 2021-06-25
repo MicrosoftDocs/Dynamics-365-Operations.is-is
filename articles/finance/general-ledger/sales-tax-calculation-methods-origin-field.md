@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815357"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189374"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
@@ -52,8 +52,7 @@ Ef nettóupphæðin er 10,00 þá er Gjald 1 1,00 (10,00 x 10%) og Gjald 2 2,00 
 | Aðeins er hægt að nota einn VSK-kóða með Uppruna = Prósenta af brúttóupphæð fyrir færslu. Ef fleiri en einn slíkur skattkóði er ákvarðaður fyrir færslu birtist villa um að ekki sé hægt að reikna út virðisaukaskatt. |
 
 
-<a name="percentage-of-sales-tax"></a>Prósenta af VSK
------------------------
+## <a name="percentage-of-sales-tax"></a>Prósenta af VSK
 
 Þegar Prósenta af virðisaukaskatti er valin í reitnum Uppruni er virðisaukaskattur reiknaður sem prósenta af virðisaukaskatti sem valinn er í reitnum VSK á VSK. Virðisaukaskattur sem er valinn í reitnum VSK á VSK er reiknaður fyrst. Seinni virðisaukaskatturinn er síðan reiknaður á grunni fyrri virðisaukaskattsins.
 ### <a name="example"></a>Dæmi
@@ -119,8 +118,7 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum](marginal-base-field.md)
 

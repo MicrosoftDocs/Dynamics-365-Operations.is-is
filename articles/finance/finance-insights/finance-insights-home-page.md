@@ -2,7 +2,7 @@
 title: Heimasíða Fjármálainnsýnar (forskoðun)
 description: Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086990"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222511"
 ---
 # <a name="finance-insights-home-page-preview"></a>Heimasíða Fjármálainnsýnar (forskoðun)
 
@@ -68,7 +68,9 @@ Breytingar verða gerðar á Microsoft Dynamics 365 Finance, Microsoft Dynamics 
 
 ## <a name="configure-finance-insights"></a>Grunnstilla fjármálainnsýn
 
-Þú verður að ljúka við tiltekin skilgreiningarskref áður en þú getur notað Fjármálainnsýn. Frekari upplýsingar um hvernig skilgreina skal Fjármálainnsýn er að finna í [Stillingar fyrir Fjármálainnsýn](configure-for-fin-insites.md).
+Þú verður að ljúka við tiltekin skilgreiningarskref áður en þú getur notað Fjármálainnsýn. Frekari upplýsingar um hvernig á að skilgreina Fjármálainnsýn er að finna í:
+  - Fyrir útgáfur 10.0.19 og eldri: [Skilgreining fyrir Fjármálainnsýn- útgáfur 10.0.19 og eldri](configure-for-fin-insites.md).
+  - Fyrir útgáfur 10.0.20 og nýrri: [Skilgreining fyrir Fjármálainnsýn (forútgáfa) - útgáfur 10.0.20 og nýrri](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Stofna verk til að setja upp samþættingu gagna
 
@@ -84,10 +86,7 @@ Ef verið er að nota sýnigögn til að prófa greiðsluspá viðskiptavinar g�
 Til að virkja greiðsluspár viðskiptavinar verður þú að ljúka nokkrum skrefum til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að búa til spár um það hvenær viðskiptavinir eru líklegir til að greiða útistandandi reikninga, og hvenær líklegt er að tilteknir reikningar verði greiddir. Frekari upplýsingar og sértæk skref sem verður að ljúka er að finna í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Virkja sjóðstreymisspá
-Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að mynda sjóðsstreymisspár. Frekari upplýsingar og sértæk skref sem verður að ljúka við er að finna í [Virkja sjóðsstreymisspá](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Setja upp og nota sjóðsstreymisspá
-Frekari upplýsingar um hvernig á að setja upp og nota sjóðsstreymisspá er að finna í [Virkja sjóðstreymisspá](enable-cash-flow-forecasting.md). Frekari upplýsingar um hvernig á að nota þennan eiginleika er að finna í [Sjóðstreymisspá](cash-flow-forecast-intro.md).
+Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að mynda sjóðsstreymisspár. Frekari upplýsingar og sértæk skref sem verður að ljúka við er að finna í [Virkja sjóðsstreymisspá](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Virkja drög að fjárhagsáætlun
 
@@ -111,14 +110,12 @@ Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat 
 
 - Frekari upplýsingar um nýja eiginleika sjóðsstreymisspár er að finna í [Sjóðstreymisspá](cash-flow-forecast-intro.md).
 - Upplýsingar um innflutning ytri gagna sem skal taka með í sjóðsstreymisspá er að finna í [Nota ytri gögn við sjóðsstreymisspár](external-data-in-cash-flow.md). 
-- Frekari upplýsingar um hvernig á að nota vélnámslíkan til að varpa sjóðsstreymi til lengri tíma er að finna í [Yfirlit yfir sjóðsstreymisspá](cash-position.md).
+- Upplýsingar um hvernig á að nota vélnámslíkan til að varpa sjóðsstreymi til skemmri tíma er að finna í [Reiðufjárstöðu](cash-position.md).
 - Frekari upplýsingar um hvernig sjóðsstreymisstöður og sjóðsstreymisspár eru vistaðar sem skyndimyndir og bera skyndimynd saman við raunverulega stöðu er að finna í [Yfirlit yfir skyndimyndir](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Notkun fjárhagsáætlunar
 
 Frekari upplýsingar um hvernig stofnun fjárhagsáætlunar er flýtt er að finna í [Drög að fjárhagsáætlunum](budget-proposals.md). 
-
-Sýnigögn fyrir drög að fjárhagsáætlun:
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

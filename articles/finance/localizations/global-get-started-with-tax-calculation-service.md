@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060564"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216720"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Hafist handa með skattaútreikningi (forútgáfa)
 
@@ -58,7 +58,7 @@ ms.locfileid: "6060564"
 Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þarf að ljúka þessu ferli einu sinni og hægt er að ljúka því í hvaða lögaðila sem er í RCS.
 
 1. Skráðu þig inn í [RCS](https://marketing.configure.global.dynamics.com/).
-2. Í Finance, á vinnusvæðinu **Rafræn skýrslugerð**, skal bæta við nýrri skilgreiningarveitu. Notið heiti fyrirtækisins sem heiti veitunnar. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Á vinnusvæðinu **Rafræn skýrslugerð**, skal bæta við nýrri skilgreiningarveitu. Notið heiti fyrirtækisins sem heiti veitunnar. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Veljið skilgreiningarveituna sem var stofnuð og veljið síðan **Stilla sem virkt**.
 4. Veljið skilgreiningarveituna **Microsoft** og veljið því næst **Geymslur**.
 5. Í reitnum **Gerð** skal velja **Altæk**.

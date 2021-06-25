@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 9707a1f8a90a615dbc8f34f4bb1f05d34d8fe7f3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908233"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188411"
 ---
 # <a name="mobile-app-home-page"></a>Heimasíða fartækjaforrits
 
@@ -27,8 +27,7 @@ ms.locfileid: "5908233"
 
 Þessi efnisgrein lýsir **Finance and Operations (Dynamics 365)** fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 
-<a name="overview"></a>Yfirlit
---------
+## <a name="overview"></a>Yfirlit
 
 Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum. Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum. Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:
 

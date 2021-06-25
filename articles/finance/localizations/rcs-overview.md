@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: Í þessu efnisatriði er sýnt yfirlit yfir möguleika Regulatory Configuration Service (RCS) og útskýrt hvernig á að nálgast þessa þjónustu.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019395"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216563"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS er almennt í boði á eftirfarandi svæðum:
 
 Fyrir heildarlista yfir svæði skal skoða [Dynamics 365 og Power Platform: Aðgengileiki, staðsetning gagna, tungumál og staðfærsla](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>Sjálfgefið fyrirtæki RCS
+
+Virkni hönnunartíma sem er notuð í RCS er samnýtt í öllum fyrirtækjum. Engin virkni miðast við ákveðið fyrirtæki. Þess vegna er mælt með að nota eitt fyrirtæki, **DAT**, sem RCS-umhverfi.
+
+Í sumum aðstæðum gæti verið sniðugt að láta snið rafrænnar skýrslugerðar nota færibreytur sem tengjst tilteknum lögaðila. Aðeins í þessum tilfellum ætti að nota val á sjálfgefnu fyrirtæki. Til dæmis sjá [Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md).
+
 ## <a name="related-rcs-documentation"></a>Tengd RCS-fylgigögn
 
-Frekari upplýsingar um tengda þætti er að finna í eftirfarandi fylgigögnum:
+Frekari upplýsingar um tengda þætti er að finna í eftirfarandi efnisatriðum:
+
+- **RCS:**
+
+    - [Stofna skilgreiningar rafrænnar skýrslugerðar í RCS og hlaða þeim upp í altæka geymslu](rcs-global-repo-upload.md)
 
 - **Altæk geymsla:**
 
@@ -70,7 +80,20 @@ Frekari upplýsingar um tengda þætti er að finna í eftirfarandi fylgigögnum
     - [Aukin síun í altækri geymslu](enhanced-filtering-global-repo.md)
     - [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [Hætta með skilgreiningar í altækri geymslu](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) úrelding á geymslu](rcs-lcs-repo-dep-faq.md)
 
 - **Altækur eiginleiki:**
 
     - [Regulatory Configuration Service (RCS) – altækur eiginleiki](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>Úrræðaleit vegna RCS-nýskráningar
+
+Þegar þú skráir þig fyrir RCS af þjónustusíðunni gæti komið upp vandamál sem tengist Azure Active Directory (Azure AD). Villuboðin sem koma upp gefa til kynna að slökkt er á skráningu fyrir RCS og kveikja þarf á henni áður en hægt er að klára skráningarferlið.
+
+![Villuboð RCS-skráningar](media/01_RCSSignUpError.jpg)
+
+Vandamálið kemur upp vegna þess að lokað er fyrir skráningu á tilfallandi áskriftum og virkja þarf eiginleikann `AllowAdHocSubscriptions` í leigjandanum. 
+
+- Ef tæknideildin stjórnar Azure-leigjendum fyrirtækisins skal hafa samband við þá deild og láta vita af vandanum.
+- Ef þú berð ábyrgð á umsjón leigjenda Azure getur þú leyst úr vandamálunum með því að fylgja skrefunum í [Hvað er nýskráning í sjálfsafgreiðslu fyrir Azure Active Directory](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings).

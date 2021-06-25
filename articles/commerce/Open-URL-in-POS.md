@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796463"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193204"
 ---
-# <a name="open-url-in-pos"></a>Opna vefslóð í POS
+# <a name="open-url-in-pos"></a>Opna vefslóð í sölustað
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að skilgreina hnapp í Retail-sölustað (POS) til að opna vefslóð. Þessi eiginleiki krefst ekki sérstillingar á kóða og einhver sem ekki er í hlutverki þróunaraðila getur stillt hann. 
+Þetta efnisatriði lýsir því hvernig hægt er að skilgreina hnapp í Dynamics 365 Commerce-sölustað (POS) til að opna vefslóð. Þessi eiginleiki krefst ekki sérstillingar á kóða og einhver sem ekki er í hlutverki þróunaraðila getur stillt hann. 
 
 Þessi eiginleiki leyfir stillingu á hnapp í POS með hönnuði hnappahnits til að opna vefslóð. Sem stendur er þetta stutt í eftirfarandi stillingum:
 
@@ -46,15 +46,15 @@ Opnun vefslóðar innan POS er sem stendur aðeins stutt fyrir Modern POS í Win
 
 Þessi eiginleiki leyfir þér einnig að tilgreina slóðir sem ekki eru vefslóðir til að opna native-forrit. Til dæmis er hægt að tilgreina samskiptareglur slóðar, eins og MailTo, SIP, IM eða MSTEAMS, sem native-forrit á tæki hýsils getur síðan meðhöndlað. Til að virkja þetta verður að stilla vefslóðina með því að velja valkostinn **Opna í nýjum glugga**.
 
-- Fyrir Windows-tölvur skal skoða [Flytja út eða flytja inn sjálfgefnar forritatengingar](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) til að stilla sjálfgefnar tengingar samskiptareglu ef verið er að setja upp tölvuna með DISM (meðhöndlun afritsmynda).
-- Ef MDM er notað, t.d. Intune til að stjórna Windows-tölvunni, skal skoða [CSP-regla - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Ef þú ert þróunaraðili að smíða sérsniðna vefsíðu skaltu skoða [Ræsa sjálfgefið forrit fyrir URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Fyrir Windows-tölvur skal skoða [Flytja út eða flytja inn sjálfgefnar forritatengingar](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) til að stilla sjálfgefnar tengingar samskiptareglu ef verið er að setja upp tölvuna með DISM (meðhöndlun afritsmynda).
+- Ef MDM er notað, t.d. Intune til að stjórna Windows-tölvunni, skal skoða [CSP-regla - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Ef þú ert þróunaraðili að smíða sérsniðna vefsíðu skaltu skoða [Ræsa sjálfgefið forrit fyrir URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Opna native-forrit án vandkvæða
 
 Windows, iOS og Android leyfa einnig ræsingu forrita án vandkvæða, sem byggist á samskiptareglutengingu forrits. Ef forritið þitt er ekki þegar stillt til að meðhöndla ræsingu úr vafra, gæti verið að þu þurfir þróunaraðila til að stilla þetta.
 
-- Fyrir Windows skal skoða [Virkja forrit fyrir vefsíður sem nota URI-forritarekla](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Fyrir Windows skal skoða [Virkja forrit fyrir vefsíður sem nota URI-forritarekla](/windows/uwp/launch-resume/web-to-app-linking).
 - Fyrir iOS skal skoða [Altækir tenglar fyrir þróunaraðila](https://developer.apple.com/ios/universal-links/).
 - Fyrir Android, sjá [Meðhöndlun Android forritatengla](https://developer.android.com/training/app-links/).
 

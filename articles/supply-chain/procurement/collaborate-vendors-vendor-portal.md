@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910066"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189669"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
@@ -92,8 +92,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 |                           Þú sendir nýja útgáfu af Innkaupapöntuninni á Gátt lánardrottins.                            |                                                                                                                                                                    Nýja útgáfan er skráð í Gátt lánardrottins og stöðu er breytt í <strong>Í Ytri Yfirferð</strong>.                                                                                                                                                                     |
 |                                Lánardrottinn samþykkir nýju útgáfuna.                                 |                                                                                                                                                     Stöðu er breytt í <strong>Staðfest</strong>, annað hvort sjálfvirkt eða þegar svarið kemur frá lánardrottni og síðan er Innkaupapöntunin staðfest.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md)
 

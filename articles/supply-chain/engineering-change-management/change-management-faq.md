@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018686"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187272"
 ---
 # <a name="engineering-change-management-faq"></a>Algengar spurningar um flipa umsjónar hönnunarbreytinga
 
@@ -46,7 +46,7 @@ Mun auðveldar er að hafa umsjón með þessum valkosti vegna þess að ef ætl
 
 Flest fyrirtæki velja þennan valkost þar sem hann býður upp á útgáfu- og breytingastjórnun en bætir ekki við aukakostnaði við rakningu útgáfunnar í hverri færslu, í birgðastjórnun og við aðaláætlanagerð.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Hvaða reitir eru afritaðir í útgefna vörusniðmátið?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Hvaða reitir eru afritaðir úr útgefna atriðasniðmátinu?
 
 Þegar hönnunarfyrirtæki stofnar hönnunarafurð er afurðin stofnuð sem útgefin afurð í hönnunarfyrirtækinu. Útgefin afurð sem er stofnuð er byggð á *útgefnum vörusniðmátum* sem eru valin. (Sniðmátið fyrir útgefna afurð er sjálft fyrirliggjandi losuð afurð.) Sniðmát útgefinnar afurðar er einnig notað þegar afurðin er losuð til rekstrarfyrirtækis. Í hverju tilviki skilgreinir útgefið vörusniðmát flest reitargildin fyrir útgefna afurð og þessi gildi koma frá tengdu síðunni **Upplýsingar um útgefnar afurðir**.
 

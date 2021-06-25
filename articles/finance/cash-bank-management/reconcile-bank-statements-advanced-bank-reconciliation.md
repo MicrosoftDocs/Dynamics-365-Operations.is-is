@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835005"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188591"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835005"
 
 Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.  
 
-<a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
 
 Þú flytja inn bankayfirlit þitt með því að nota í **flytja Inn yfirlit** aðgerð á **Bankayfirlit** síðuna. Bankareikningurinn er auðkennd í bankayfirliti með samsetningu gilda sem stillt eru í upplýsingar bankareiknings. Þessi gildi hafa nafn banka, bankareikningsnúmer, leiðarnúmer, auðkenniskóði banka (SWIFT) , og alþjóðlegt bankareikningsnúmer (IBAN). 
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018387"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186787"
 ---
 # <a name="note-integration"></a>Samþætting athugasemdar
 
@@ -122,5 +122,9 @@ Samþætting athugasemdar inniheldur safn af töfluvörpunum sem vinnur saman í
 | [Viðhengd skjöl lánardrottins](mapping-reference.md#231) | Skýringar | Fyrirtæki sem nota venjulegan texta og vefslóðir til að sækja upplýsingar um lánardrottna (bæði fyrir fyrirtæki og einstaklinga). |
 | [Viðhengt skjal fyrir sölupöntunarhaus](mapping-reference.md#229) | Skýringar | Fyrirtæki sem nota venjulegan texta og vefslóðir til að sækja upplýsingar um sölupantanir. |
 | [Viðhengd skjöl fyrir haus innkaupapöntunar](mapping-reference.md#232) | Skýringar | Fyrirtæki sem nota venjulegan texta og vefslóðir til að sækja upplýsingar um innkaupapantanir. |
+
+## <a name="limitations"></a>Takmarkanir
+
+Þegar athugasemdalausnin hefur verið uppsett er ekki hægt að fjarlægja hana. 
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).

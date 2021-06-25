@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835197"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188711"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Setja upp vaxtastig fyrir vaxtakóða
 
@@ -90,7 +90,6 @@ Settar eru upp upplýsingar um afmörkun sem hér segir.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Dæmi 2: Vextir eftir afmörkun = Dagar
---------------------------------------------------
 
 Hægt er að setja upp vaxtakóðann sem metur vexti einu sinni fyrir 15. hvern dag sem reikningurinn er umfram gjalddaga færslunnar. Óskað er eftir að byggja útreikning á upphæðargildi vaxta, samkvæmt skrefskiptum dagabilum. Gildi vaxta verður 10,00 á 15 daga á fyrstu 60 dögunum, 15,00 á 15 daga á dögum 61 til 90 og 20,00 á 15 daga frá deginum 91 og síðar. Gildi svæða fyrir vaxtakóða eru sett upp á eftirfarandi hátt.
 
@@ -111,7 +110,6 @@ Settar eru upp upplýsingar um afmörkun sem hér segir.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Dæmi 3: Vextir eftir afmörkun = mánuðir
-----------------------------------------------------
 
 Hægt er að setja upp vaxtakóðann sem metur vexti einu sinni fyrir hvern mánuð sem reikningurinn er umfram gjalddaga færslunnar. Óskað er eftir að byggja útreikning á prósentugildi vaxta, samkvæmt skrefskiptum mánaðarbilum. Vaxta gildi verður 1,5 prósent hvern mánuð fyrir fyrstu þrjá gjaldfallna mánuðina, 2,0 prósent fyrir næstu þrjá mánuði og 2,5 prósent á mánuði fyrir hvern mánuð umfram fyrstu sex mánuði. Gildi svæða fyrir vaxtakóða eru sett upp á eftirfarandi hátt.
 

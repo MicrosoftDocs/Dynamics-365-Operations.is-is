@@ -2,7 +2,7 @@
 title: Nota ytri gögn við sjóðsstreymisspár (forskoðun)
 description: Þetta efnisatriði lýsir uppsetningarskrefunum sem þarf að ljúka til að hægt sé að færa ytri gögn inn eða flytja það inn í sjóðstreymisspár.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897889"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186691"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Nota ytri gögn við sjóðsstreymisspár (forskoðun)
 
@@ -57,9 +57,5 @@ Til viðbótar, ef nauðsynlegt er að setja uppsetningargögn úr einu umhverfi
 
 - Uppsetning ytri uppruna sjóðstreymisspár
 - Lögaðilauppsetning ytri uppruna sjóðstreymisspár
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

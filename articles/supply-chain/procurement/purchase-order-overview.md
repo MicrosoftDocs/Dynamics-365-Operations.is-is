@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 77410fd131ecdcb05b682ac4660ec8c453b75218
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909132"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188222"
 ---
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
@@ -76,8 +76,7 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 -   **Staðfesta** – Þessi staða er úthlutað eftir að pöntun hefur verið staðfest. Venjulega er þessi staða síðustu stöðu samþykkis sem úthlutað er pöntun.
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna innkaupapantanir](purchase-order-creation.md)
 

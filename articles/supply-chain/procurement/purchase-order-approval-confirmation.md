@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825423"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188290"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Samþykkt og staðfesting innkaupapanta
 
@@ -83,8 +83,7 @@ Til að hætta við allt magn á innkaupalínu ættir þú að hætta við magn 
 
 Ef innkaupapöntun er undir breytingastjórnun verður að leggja fram allar breytingar, svo sem afturköllun á pöntun eða eftirstöðvar afhendingar, til verkflæðiskerfisins og samþykkja áður en hægt er að ljúka ferlinu og hægt er að uppfæra birgðafærslurnar sem felldar niður.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 84ee7c82fa6aaa819798f4bc052b12b06a51c025
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796511"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193072"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Velja á milli Modern POS (MPOS) og Cloud POS
 
@@ -57,7 +57,7 @@ Commerce styður eftirfarandi valkosti fyrir sölustað (POS):
 MPOS á Windows, IOS eða Android tæki er forrit sem er pakkað, sett upp og þjónustað á því tæki.
 
 - **Windows** - MPOS fyrir Windows forritið inniheldur alla forritakóðann og innfelldan Commerce-keyrslutíma (CRT). 
-- **iOS/Android** – Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Commerce Scale Unit. Frekari upplýsingar, sjá [Yfirlit Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Commerce Scale Unit. Frekari upplýsingar, sjá [Yfirlit Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +79,11 @@ Skalaeining viðskiptanna er hluti sem hýsir CRT. CRT inniheldur allan viðskip
 
 #### <a name="offline-mode"></a>Ótengdur hamur
 
-MPOS fyrir Windows styður ótengdan ham. Í ótengdum ham getur POS áfram unnið með sölu jafnvel þótt það sé aftengt frá Commerce Scale Unit. Síðan hægt að samstilla það með rásargagnagrunninum þegar tenging er endurheimt. MPOS notar eigið innleitt tilvik af CRT og notar tímabundið eigin staðbundna gagnaveitu (ótengdur SQL gagnagrunnur þjóns). Sjá [POS virkni án nettengingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality) til að fá nánari upplýsingar um virkni án nettengingar.
+MPOS fyrir Windows styður ótengdan ham. Í ótengdum ham getur POS áfram unnið með sölu jafnvel þótt það sé aftengt frá Commerce Scale Unit. Síðan hægt að samstilla það með rásargagnagrunninum þegar tenging er endurheimt. MPOS notar eigið innleitt tilvik af CRT og notar tímabundið eigin staðbundna gagnaveitu (ótengdur SQL gagnagrunnur þjóns). Sjá [POS virkni án nettengingar](pos-offline-functionality.md) til að fá nánari upplýsingar um virkni án nettengingar.
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS jaðarbúnaður/vélbúnaður íhugunarefni
 
-Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Aðeins MPOS fyrir Windows styður bein samskipti við þessi tæki. MPOS fyrir Windows Síma, IOS eða Android, og Cloud POS krefst vélbúnaðarstöðvar til að fá aðgang að þessum tækjum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun. Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Aðeins MPOS fyrir Windows styður bein samskipti við þessi tæki. MPOS fyrir Windows Síma, IOS eða Android, og Cloud POS krefst vélbúnaðarstöðvar til að fá aðgang að þessum tækjum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun. Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Umhugsunarefni fyrir innleiðingu
 
@@ -100,7 +100,7 @@ Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og
     Þessir tveir valkostir útiloka ekki hvorn annan. Fyrir sem áreiðanlegasta grannfræði, geta smásalar virkjað staðbundið RSSU til að þurfa ekki að vera eins háðir nettengingu eða Azure framboði, og þeir geta einnig virkjað POS afgreiðslukassa þar sem ótengdur hamur er settur í gang ef vandamál koma upp varðandi staðbundinn þjón eða net.
 
 - **Vélbúnaður tæki/jaðartæki** - Einn mikilvægur þáttur í Retail POS kerfi er hæfni þess til að nota POS jaðartæki eins og prentara, reiðufjárskúffur og greiðslustöðvar. Þó að allar tiltækar POS valkostir geti notað jaðartæki, styður aðeins MPOS fyrir Windows þau beint. Fyrir öll önnur forrit þarf eina eða fleiri vélbúnaðarstöðvar. Þrátt fyrir að þessi nálgun bætir sveigjanleika, verða fleiri einingar að vera uppsett, grunnstilltir og þjónustaðir.
-- **Kerfisskilyrði** - Kerfisskilyrðin fyrir POS forritið eru mismunandi. Vertu viss um að athuga nýjustu upplýsingar áður en þú velur. Til dæmis, vegna þess að CPOS keyrir í vafra styður það fjölbreyttar stýrikerfi. Fyrir frekari upplýsingar um kerfisskilyrði, sjá [Kerfisskilyrði fyrir uppsetningu í skýi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
+- **Kerfisskilyrði** - Kerfisskilyrðin fyrir POS forritið eru mismunandi. Vertu viss um að athuga nýjustu upplýsingar áður en þú velur. Til dæmis, vegna þess að CPOS keyrir í vafra styður það fjölbreyttar stýrikerfi. Fyrir frekari upplýsingar um kerfisskilyrði, sjá [Kerfisskilyrði fyrir uppsetningu í skýi](../fin-ops-core/fin-ops/get-started/system-requirements.md).
 - **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp MPOS á hvert afgreiðslukassa og virkjar ótengdan ham, og setur einnig upp samnýttar vélbúnaðarstöðvar, eykur þú mjög fjölda endastöðva sem þarf að stjórna.
 
 

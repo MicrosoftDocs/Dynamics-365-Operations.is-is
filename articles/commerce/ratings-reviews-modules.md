@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792148"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193283"
 ---
 # <a name="ratings-and-reviews-modules"></a>Einkunna- og umsagnaeiningar
 
@@ -54,7 +54,11 @@ Eftirfarandi mynd sýnir hvernig glugginn **Bæta við einingu** birtir einingar
 
 Í einingunni skrifa umsögn inniheldur hnappurinn **Skrifa umsögn** sem gerir notendum kleift að skrá sig inn, úthluta mati og skrifa umsögn um vöru. Þessi eining gerir notendum einnig kleift að breyta einkunn eða umsögn sem þeir sendu inn áður. Þessi eining birtist venjulega fyrir ofan einingarnar stuðlarit einkunna og lista yfir afurðaumsagnir á PDP.
 Eftirfarandi mynd sýnir valmyndina **Skrifa umsögn** sem birtist þegar viðskiptavinur velur **Skrifa umsögn**. Viðskiptavinurinn getur notað þennan glugga til að leggja fram mat og umsögn.
-![Skrifaðu umsagnarglugga](media/rnr-eCommerce-write-review-module.png) Eftirfarandi tafla sýnir eiginleikann fyrir eininguna skrifa umsögn sem þarf að stilla í höfundatólinu.
+
+![Skrifaðu umsagnarglugga](media/rnr-eCommerce-write-review-module.png)
+
+Eftirfarandi tafla sýnir eiginleikann fyrir eininguna skrifa umsögn sem þarf að stilla í höfundatólinu.
+
 | Nafn eiginleika | Virði        | Lýsing á eiginleika                 |
 |---------------|--------------|--------------------------------------|
 | Nafn          | Skrifa umsögn | Heiti einingarinnar skrifa umsögn. |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816533"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189717"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -88,8 +88,7 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarsp�
 - **Árstíðarbundin vísbending**: Fyrir árstíðabundin gögn, gefðu vísbendingu um spárlíkanið til að bæta nákvæmni spárinnar. Snið: heiltala tala, sem táknar fjölda ramma sem eftirspurnarmynstur endurtekur sig. Til dæmis skaltu slá inn „6“ fyrir gögn sem endurtaka sig á 6 mánaða fresti.
 - **Prósentuhlutfall stærðar í prófunarsetti**: Hlutfall sögulegra gagna sem nota á sem prófunarsett fyrir útreikning á nákvæmni spár. 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit eftirspurnarspár](introduction-demand-forecasting.md)
 

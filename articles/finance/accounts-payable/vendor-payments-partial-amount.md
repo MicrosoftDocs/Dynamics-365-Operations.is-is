@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841214"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189518"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Greiðslur lánardrottins fyrir hlutaupphæð
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841214"
 
 Stundum þarf að framkvæma greiðslu til lánardrottins sem er minni en upphæð reiknings. Þessi grein lýsir mismunandi valkostum til að meðhöndla þær aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins. 
 
-<a name="cash-discount-amounts"></a>Upphæðir staðgreiðsluafsláttar
----------------------
+## <a name="cash-discount-amounts"></a>Upphæðir staðgreiðsluafsláttar
 
 Lánardrottinn getur boðið þér staðgreiðsluafslátt fyrir greiðslu á reikning fyrir gjalddaga. Til dæmis færður er inn reikningur fyrir 100,00 sem tilgreinir 2 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 10 daga. Skilmálar gjalddaga eru 30 dagar. Ef greiðslutillaga notar staðgreiðsluafslátt sem skilyrði fyrir því að velja reikning og ef tillagan er keyrð á eða á undan dagsetningu staðgreiðsluafsláttar er reikningurinn valinn til greiðslu og greiðsla er stofnuð fyrir 98,00. Einnig er hægt að taka staðgreiðsluafslátt fyrir eingreiðslu sem var stofnuð handvirkt.
 

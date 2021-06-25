@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826372"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193619"
 ---
 # <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826372"
 
 Bókunarreglur viðskiptavina stýra bókun á viðskiptavinafærslum í fjárhag.
 
-<a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
--------------------------
+## <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
 Bókunarreglur viðskiptavina gera það mögulegt að úthluta fjárhagslykla og skjalastillingar fyrir alla viðskiptavini, hóp af viðskiptavinum eða einn viðskiptavin. Þessar stillingar verður notuð þegar stofnaðar eru sölupantanir, reikningur með frjálsum texta, staðgreiðslur, innheimtubréf og vaxtanótur. Fyrir sumar færslur geturðu valið bókunarreglu sem er frábrugðin og sem hefur forgang fram yfir bókunarregluna sem er sett upp fyrir færslur í þessar skjámynd. 
 
@@ -118,7 +117,6 @@ Ef óskað er eftir að allar færsla viðskiptavinar hafi sömu bókunarregluna
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Töfluskorður**
 

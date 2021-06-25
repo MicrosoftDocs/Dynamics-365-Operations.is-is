@@ -2,7 +2,7 @@
 title: Niðurstöður vélnámslíkana (forskoðun)
 description: Í þessu efnisatriði er fjallað um fylkisrugling, flokkunarvandamál og nákvæmni í vélnámslíkönum. Markmiðið er að auka skilning á nákvæmni í niðurstöðum vélnámsspár.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028204"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193541"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Niðurstöður vélnámslíkana (forskoðun)
 
@@ -129,16 +129,12 @@ Til að einfalda útreikningana voru sýnisfylki smíðuð til að passa við ra
 
 Frekari upplýsingar um hvernig þessi útreikningur virkar er að finna í sklearn.metrics flokkunarskýrslunni fyrir líkan 1. Stigin þrjú: „Á réttum tíma“, „Seint“ og „Mjög seint“ eru sýnd í línunum sem eru merktar 1, 2 og 3. Fjölvameðaltalið er aðeins meðaltalið í dálknum „f1-stig“.
 
-|           | nákvæmni | afturkalla   | F1-stig |
+| &nbsp;    | nákvæmni | afturkalla   | F1-stig |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Eins og þessar niðurstöður sýna eru líkönin tvö með næstum sömu nákvæmnisstigin fyrir F1-fjölva. Í þessu og mörgum öðrum tilvikum veitir F1 nákvæmni betri vísbendingu um getu líkans. Hvað varðar nákvæmni, túlkun niðurstaðanna krefst þess að þú skiljir hvað er mikilvægast að hafa í huga í líkaninu.
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

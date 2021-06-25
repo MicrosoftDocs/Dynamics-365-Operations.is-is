@@ -2,7 +2,7 @@
 title: Virkja drög að fjárhagsáætlun (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að virkja eiginleikann Drög að fjárhagsáætlun í Fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e90a1a2f2a8e7808f03ce9a6ee58c027bd48d8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 948a3e051e5964c5c773cefd90c8587cf833a450
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818705"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222535"
 ---
 # <a name="enable-budget-proposals-preview"></a>Virkja drög að fjárhagsáætlun (forskoðun)
 
@@ -34,7 +34,7 @@ ms.locfileid: "5818705"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
 
     > [!NOTE]
-    > Ef verið er að setja upp Microsoft Dynamics 365 Finance sem Service Fabric-uppsetningu er hægt að sleppa þessu skrefi. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef eiginleikinn er ekki sýnilegur í vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál kemur upp þegar reynt er að kveikja á honum skal senda tölvupóst á [Teymi forskoðinar forritsins Fjárhagsinnsýnar](mailto:fiap@microsoft.com).
+    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>.
 
 2. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
 
@@ -42,9 +42,5 @@ ms.locfileid: "5818705"
     2. Leitið að **Drög að fjárhagsáætlun** og kveikið á þessum eiginleika.
 
 3. Farið í **Fjárhagsáætlanir \> Uppsetning \> grunnáætlanagerð \> Drög að fjárhagsáætlun (forskoðun)** og veljið **Virkja eiginleika**.
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839198"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189893"
 ---
 # <a name="use-tracing-for-explosion"></a>Nota rakningu fyrir niðurbrot
 
@@ -38,8 +38,7 @@ Með því að gera rakningu, er°hægt að skoða upplýsingar um þætti sem h
 
 Hægt er að skoða upplýsingar um framvirka samninga og aðgerðir fyrir valda pöntun. Á v **Niðurbrot** síðunni er hægt að sjá upplýsingar um rakningu í flipanum **Útskýring** í efri rúðunni. Rakning á sér stað þegar pöntun er brotin niður. Til að hefja rakningu fyrir pöntun, smellið á **Uppfæra**, og veljið því næst gátreitinn **Leyfa rakningu**. Hægt er að nota svæðið **Finna texta** til að leita að sérstökum upplýsingum í kladdanum. Leitarniðurstöður eru auðkenndar í trénu.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit aðaláætlana](master-plans.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 610e8c58975a02cf6a4b3c4f79639d94ae8c3d9b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818489"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193831"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
@@ -65,9 +65,9 @@ Ef fjárhagsár er valið eru eftirfarandi valkostir tiltækir á svæðinu tím
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Dæmi: Línuleg afskrift af óbreytt eign
 Segjum sem svo að eignin hafi eftirfarandi eiginleika:
 
-|                     |        |
+| Eiginleikar      | Virði  |
 |---------------------|--------|
-| Kaupverð    | 11.000 |
+| Kaupverð    | 11,000 |
 | Hrakvirði       | 1.000  |
 | Afskriftargrundvöllur   | 10.000 |
 | Líftími í árum  | 5      |

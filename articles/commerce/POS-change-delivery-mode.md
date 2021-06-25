@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd69d82536047c06e94ba4a7e860ef54680619a4
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796391"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193132"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Breyta afhendingarmáta í POS
 
@@ -31,7 +31,7 @@ ms.locfileid: "5796391"
 
 Breytingarháttur afhendingaraðgerðar veitir þér möguleika á að breyta afhendingarháttum fyrir eina eða fleiri sölulínur fyrir sendingu í POS viðskiptunum. Í fyrri útgáfum af viðskiptum varstu að fara í gegnum það í heild sinni **Senda allt** eða **Senda valið** stillingar streyma ef þú vilt breyta afhendingarháttum á núverandi línu sem var stillt til sendingar. Þetta ferli var tímafrekt og gæti valdið slysni breytingum á uppruna afhendingar eða afhendingardögum fyrir línuna. Hin nýja virkni býður upp á aðra aðferð til að uppfæra skilvirkni á þessum sölulínum á skilvirkan hátt.
 
-Nánari upplýsingar um hvernig á að bæta aðgerð við hnapp á POS hnapparitinu, sjá [Skjáuppsetning fyrir sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+Nánari upplýsingar um hvernig á að bæta aðgerð við hnapp á POS hnapparitinu, sjá [Skjáuppsetning fyrir sölustað](pos-screen-layouts.md).
 
 Eftir að þessi aðgerð er stillt í POS, þegar þú velur **Breyta afhendingaraðferð**, verður þér kynnt listasíða sem gerir þér kleift að velja línurnar í viðskiptunum sem þú vilt breyta afhendingarháttum fyrir. Þú getur valið nokkrar eða allar línurnar, eða lokað án þess að gera neinar breytingar. Sölulínurnar sem áður voru stilltar til sendingar eru einu línurnar á listanum sem þú getur breytt. Ef þú vilt breyta línu sem er ætluð til afhendingar eða flutnings í skip, verður þú að nota **Senda allt** eða **Senda valið** aðgerðir. Hins vegar, ef þú vilt breyta línu sem er tilgreind sem sending í pallbíll eða flutning, verður þú að nota **Sækja allt**, **Sækja valið**, **Framkvæma allt** eða **Framkvæma valið** aðgerðir.
 

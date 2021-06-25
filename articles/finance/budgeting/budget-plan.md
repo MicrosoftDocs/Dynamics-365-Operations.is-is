@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822228"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188022"
 ---
 # <a name="budget-planning"></a>Fjárhagsáætlunargerð
 
@@ -34,8 +34,7 @@ Markmið þessarar kennslu er að veita leiðsögn í fyrir skoðun á uppfærsl
 - Nota úthlutanir til að lagfæra gögn fjárhagsáætlunarskjals
 - Breyta gögnum fjárhagsáætlunarskjals í Excel 
 
-<a name="prerequisites"></a>Forkröfur 
-------------------
+## <a name="prerequisites"></a>Forkröfur 
 
 Fyrir þetta kennsluefni þarf að fá aðgang að umhverfi Microsoft Dynamics 365 Finance með sýnigögnum Contoso og fá stjórnendaréttindi fyrir þetta tilvik. Ekki nota í einkavafra, - það þarf að skrá sig út úr hvaða reikningi sem er í vafranum ef þörf krefur og skrá svo inn með notendaheimildum kerfisstjóra. Við innskráningu **VERÐUR** að haka í gátreitinn „Halda mér innskráðum“. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í forrit er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á „Skrá inn“ í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í gátreitinn „Halda mér innskráðri/-um“. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
 

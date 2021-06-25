@@ -2,7 +2,7 @@
 title: Virkja greiðsluspár viðskiptavinar (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 05/27/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0f972b6f3c0c7c4fcf69b3644a5e73d863cd817d
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897357"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222587"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Virkja greiðsluspár viðskiptavinar (forskoðun)
 
@@ -34,10 +34,10 @@ ms.locfileid: "5897357"
 
 1. Notaðu upplýsingar úr umhverfissíðunni í Microsoft Dynamics Lifecycle Services (LCS) til að tengjast aðaltilviki Azure SQL fyrir þetta umhverfi. Keyrið eftirfarandi Transact-SQL (T-SQL) skipun til að kveikja á flugi fyrir sandkassaumhverfa. (Hugsanlega þarf að kveikja á aðgangi að IP-tölu notanda í LCS áður en hægt er að fjartengjast við AOS \[Application Object Server\].)
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED, PARTITION) VALUES ('PayPredEnableFeature', 1, 5637144576)`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('PayPredEnableFeature', 1)`
 
     > [!NOTE]
-    > Ef verið er að setja upp Microsoft Dynamics 365 Finance sem Service Fabric-uppsetningu er hægt að sleppa þessu skrefi. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>.
+    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>. 
 
 2. Kveikja á innsýnareiginleika greiðslu viðskiptavinar:
 
@@ -84,10 +84,5 @@ ms.locfileid: "5897357"
 Almenn forskoðun Fjármálainnsýnar er í boði til prufuuppsetningar í Bandaríkjunum, Evrópu og Bretlandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
 
 Aðeins er hægt og aðeins skal kveikja á eiginleikum almennrar forskoðunar í tveggja laga sandkassaumhverfi. Uppsetningar- og gervigreindarlíkön sem eru stofnuð í sandkassaumhverfi eru ekki hægt að flytja yfir í vinnsluumhverfi. Frekari upplýsingar er að finna í [Viðbótarnotkunarskilmálum fyrir Microsoft Dynamics 365 forskoðanir](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

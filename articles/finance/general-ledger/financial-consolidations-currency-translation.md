@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811362"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193906"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
@@ -165,7 +165,8 @@ Viðskiptavinir sem nota Financial reporting fyrir fjárhagssamstæður og umrei
 - **Einfaldaður umreikningur gjaldmiðils** - Eftir lágmarksuppsetningu í Finance getur þú umreiknað allar skýrslur Financial reporting yfir í hvaða skýrslugjaldmiðil sem er sem hefur verið settur upp. Að auki getur þú sett upp ótakmarkaðan fjölda skýrslugjaldmiðla.
 - **Bóka losanir í uppruna** - Þú getur búið til og prentað losunarskýrslu til að staðfesta losunarfærslur. Þú getur síðan bókað allar nýjar losanir sem staðlaðar færslur innan samstæðu. Þú getur einnig notað losunarlögaðila fyrir hvaða færslu sem er sem þú vilt ekki hafa í lögaðilum þínum.
 
-## <a name="supported-consolidation-scenarios"></a>Studdar aðstæður samstæðu
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Studdar aðstæður sameiningar fyrir fjárhagsskýrslugerð
+
 Hér eru nokkrar samstæðuaðstæður sem Financial reporting styður:
 
 - Samstæður á einu eða mörgum stigum yfir lögaðila

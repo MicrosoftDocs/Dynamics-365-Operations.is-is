@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076598"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193978"
 ---
 # <a name="enter-skills"></a>Slá inn hæfni
 
@@ -77,7 +77,7 @@ Til að slá inn færni án þess að þurfa samþykki þarf að stofna verkflæ
 
 15. Veljið **Loka**, veljið **Verkflæði** í brauðmylsnuvinnusvæðinu og veljið því næst **Vista og loka**.
 
-Frekari upplýsingar um stofnun verkflæðis er að finna í [Yfirlit yfir verkflæðiskerfi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json).
+Frekari upplýsingar um stofnun verkflæðis er að finna í [Yfirlit yfir verkflæðiskerfi](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="enter-skills-for-a-worker"></a>Slá inn hæfni starfsmanns
 

@@ -2,7 +2,7 @@
 title: Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 description: Þetta efnisatriði tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi.
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923481"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168730"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 
@@ -131,6 +131,8 @@ Fyrir AD FS stærðarþörf skal sjá [Fylgiskjöl fyrir afkastagetu þjóns AD
 ## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services þjónn
 
 Í almennri útgáfu er aðeins hægt að virkja einn SSRS hnút. Fylgstu með SSRS hnútnum þínum við prófun og fjölgaðu tiltækum kjörnum fyrir SSRS eftir þörfum. Gakktu úr skugga um að þú hafir fyrirframgerðan aukahnút tiltækan á sýndarhýsli sem er öðruvísi en SSRS VM. Þetta er mikilvægt ef upp kemur vandamál með sýndarvél sem hýsir SSRS eða sýndarhýsilinn. Ef þetta er tilfellið þyrfti að skipta þeim út.
+
+Frá og með útgáfu 10.0.17 er mögulegt að skilgreina frekari SSSR-hnúta til að öðlast mikinn tiltækileika. Frekari upplýsingar er að finna í [Skilgreina mikinn tiltækileika fyrir SQL Server Reporting Services (SSRS) hnúta](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Environment Orchestrator
 

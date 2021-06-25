@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831243"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189945"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Áfylling með afturkölluðum kanban
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831243"
 Þetta efnisatriði lýsir því hvernig kanban-úttekt er notað fyrir áfyllingu hráefnis fyrir framleiðslu.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Verkflæði fyrir áfyllingu hráefnis sem notast við kanban-úttekt
--------------------------------------------------------------------
 
 Nota má kanban-úttekt til að færa kanban einnar vöru á milli vöruhúsa og afurðastaðsetninga þar sem hráefnið er notað. Kanban-úttekt styður dráttarlausnir fyrir áfyllingu hráefnis, þar sem dráttarmerki er nauðsynlegt til að setja af stað framboð fyrir tiltekna eftirspurn. 
 

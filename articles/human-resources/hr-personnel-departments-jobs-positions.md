@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058825"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189751"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
 
@@ -42,8 +42,7 @@ Eftirfarandi dæmi er notuð til að sýna hugtök sem lýst er í þessari grei
 |**Mannauður**|Yfirmaður mannauðs (miðja)|Yfirmaður mannauðs|
 
 
- <a name="departments"></a>Deildir
-------------
+##  <a name="departments"></a>Deildir
 
 Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis sem ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu- eða bókhald. Deild er notuð til að gefa skýrslu um rekstrarsvið og borið ábyrgð á hagnaði og tapi. Einnig gæti deild innifalið hóp af kostnaðarstaði. Sala, bókhalds og mannauður eru nokkur dæmi um deildir innan fyrirtækis.
 
@@ -96,8 +95,7 @@ Notið vinnslugerð til að flokka svipuð störf í flokka. Vinnslugerð rétt 
 
 Nota Ábyrgðarsvið til að gefa til kynna starfshlutverk, ferli, afurðir og aðgerðir sem starfsmaður í stöðu er ábyrgur fyrir í vinnslu. Dæmi um ábyrgðarsvið fyrir vinnslu með yfirskriftinni "Bókari" gæti verið "Fjárhagsleg skýrslugerð fyrir Afurð A".
 
-<a name="positions"></a>Stöður
-----------
+## <a name="positions"></a>Stöður
 
 Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis eru stöðu "Sölustjóri (Austur-)," einungis eitt af stöðum sem tengjast verkinu. Stöður eru til í deild og er úthlutað á starfsmenn.
 ### <a name="position-creation-and-maintenance"></a>stofnun Staða og viðhald

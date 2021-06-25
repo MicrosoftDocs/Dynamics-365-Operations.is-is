@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112622"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193567"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -92,7 +92,7 @@ ms.locfileid: "6112622"
 | **Skipt út fyrir aðra eiginleika?**   | Nr |
 | **Afurðasvæði sem haft er áhrif á**         | Ítölsk staðsetning |
 | **Dreifingarvalkostur**              | Öll |
-| **Staða**                         | Úrelt: Þann 1. október 2020, stefnum við að því að styðja ekki lengur við **Bannskýrslu (IT) - Tilvísun eiginleika IT-00001**. |
+| **Staða**                         | Úrelt: Fyrir 1. október 2020 munum við ekki lengur að styðja þessa skýrslu. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Innlend skattaskýrsla - Tilvísunar eiginleika IT-00003
 
@@ -365,6 +365,16 @@ Eiginleiki til að búa til sniðmát fyrir nýjar skattskrár hagnaðar. Þessi
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Fjarlægt frá og með Finance and Operations 8.1. með verkvangsuppfærslu 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Laun og mannauður fyrir Rússland
+Rússnesk eining til að halda utan um upplýsingar starfsmannastjórnunar, upplýsingar um vinnukort starfsmanna, launabókhald og gerð launayfirlits. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Launaskrá er ekki með í alþjóðlegri stefnu Dynamics 365-safnsins. Samstarfsaðilar og óháðir hugbúnaðarsalar eru í kjörstöðu til að bjóða upp launatengdar aðgerðir sem falla undir staðbundnar reglugerðir og skattauppfærslur.|
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert|
+| **Afurðasvæði sem haft er áhrif á**         | Stjórnun launa og mannauðs í Rússlandi |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er ein af komandi uppfærslum á 10.0 útgáfunni. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 með verkvangsuppfærslu 15
 Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu. Verkvangsuppfærsla 15 er uppsöfnuð og inniheldur nýja eða breytta eiginleika frá verkvangsuppfærslu 13, verkvangsuppfærslu 14 og verkvangsuppfærslu 15.

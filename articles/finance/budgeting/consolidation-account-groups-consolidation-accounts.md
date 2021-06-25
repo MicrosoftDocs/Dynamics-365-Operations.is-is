@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827362"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189422"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Flokkar samstæðulykla og viðbótar samstæðulyklar
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827362"
 
 Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 Finance.
 
-<a name="consolidation-account-groups"></a>Flokkar samstæðulykla
-----------------------------
+## <a name="consolidation-account-groups"></a>Flokkar samstæðulykla
 
 Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Oftast stendur flokkur samstæðulykla fyrir stjórnvaldatilskipaðan bókhaldslykil eða varpar lyklum á flokka sem eru skilgreindir eftir höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn og heiti.
 

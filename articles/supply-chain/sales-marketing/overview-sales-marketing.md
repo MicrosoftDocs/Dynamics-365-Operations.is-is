@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810871"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188126"
 ---
 # <a name="sales-and-marketing-overview"></a>Yfirlit yfir sölu og markaðsstörf
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810871"
 
 Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu.
 
-<a name="marketing"></a>Kynning
----------
+## <a name="marketing"></a>Kynning
 
 Þú notar markaðsherferð og starfsemi til að finna og byggja upp sambönd við mögulega viðskiptavini, þannig að fyrstu samskipti geta þróast í sölusambönd. Eftirfarandi flæði sýnir viðskiptaferli sölu- og markaðsstarfs. [![Viðskiptaferli fyrir markaðssetningu](./media/marketing01.jpg)](./media/marketing01.jpg)
 

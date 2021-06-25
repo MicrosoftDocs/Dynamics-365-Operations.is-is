@@ -1,8 +1,8 @@
 ---
 title: Uppsetning eigna
 description: Þetta efnisatriði veitir yfirlit yfir uppsetningu á einingunni Eignir.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818537"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216587"
 ---
 # <a name="set-up-fixed-assets"></a>Uppsetning eigna
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir uppsetningu á einingunni **Eignir**.
+Þetta efnisatriði veitir yfirlit yfir uppsetningu á einingunni **Eignir**. 
 
-## <a name="overview"></a>Yfirlit
-
-Færibreytur stjórna almennri hegðun innan eignar.
-
-Eignaflokkar leyfa þér að flokka eignunum og tilgreina sjálfgefnar eigindir fyrir hverja eign sem er úthlutað á flokk. Bókum er úthlutað á eignaflokka. Bækur rekja fjárhagslegu virði eignar yfir tíma með því að nota skilgreiningu afskriftir sem tilgreind er í afskriftareglu.
+Færibreytur stjórna almennri hegðun innan eignar. Eignaflokkar leyfa þér að flokka eignunum og tilgreina sjálfgefnar eigindir fyrir hverja eign sem er úthlutað á flokk. Bókum er úthlutað á eignaflokka. Bækur rekja fjárhagslegu virði eignar yfir tíma með því að nota skilgreiningu afskriftir sem tilgreind er í afskriftareglu.
 
 Eignir eru úthlutaðar flokki þar sem þær eru stofnaðar. Að sjálfgefnu eru bækur úthlutað eignaflokki sem er svo úthlutað á eign. Bækur sem eru skilgreind til að bóka í fjárhaginn tengjast bókunarreglu. Fjárhagslyklar eru skilgreindir fyrir hverja bók í bókunarreglu og eru notaðir þegar eignafærslur eru bókaðir.
 
@@ -49,6 +45,8 @@ Eftir að setja upp afskriftareglur, verður að stofna nauðsynleg bækur fyrir
 Aðalafskriftaregla er úthlutað á hvert bók. Bækur hafa einnig afskriftareglu umskipta, ef þessa gerð forstillingar á við. Til að láta hafa eignabók sjálfkrafa með í keyrslum afskrifta, þarf að virkja á **Reikna afskrift** valkostur. Ef þessi valkostur er ekki virkur fyrir eign sleppir afskriftartillagan eigninni.
 
 Einnig hægt að setja upp afleiddar bækur. Tilgreindar afleiddar færslur eru bókaðar á móti afleiddu bókunum sem nákvæm afrit af aðalfærslunni. Þar af leiðandi eru afleiddra færslna yfirleitt settir upp fyrir kaup og losanir, en ekki fyrir afskriftarfærslur. Nánari upplýsingar um það eru í [Setja upp virðislíkön](tasks/set-up-value-models.md).
+
+Valkostur á síðunni **Færibreytur eigna** gerir kleift að kveikja eða slökkva á læsingaraðgerðinni. Þessi eiginleiki er virkjaður á **Vinnusvæði eiginleikastjórnunar**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Bókunarreglur eigna
 
@@ -73,6 +71,8 @@ Síðasta skrefið er að uppfæra færibreytur eigna.
 **Fjármögnunarþröskuldi** svæði ákvarðar eignir sem eru afskrifaðar. Ef innkaupalína er valin sem föst eign, en hún uppfyllir ekki tilgreindum fjármögnunarþröskuldi, er eign enn stofnaðar eða uppfærðar, en **Reikna afskrift** valkostur er stilltur á **Nei**. Þess vegna verður eignin ekki afskrifuð sjálfkrafa sem hluti af afskriftartillögunum.
 
 Einn mikilvægur valkostur er nefndur **Stofna sjálfvirkt leiðrétta afskriftaupphæðir með losun**. Þegar þessi valkostur er stilltur á **Já** er afskrift eignar sjálfvirkt leiðrétt, byggt á afskriftirnar afskriftar við losun eignar. Annar valkostur gerir þér kleift að draga staðgreiðsluafslátt frá kaupupphæðinni þegar þú kaupir eign með því að reikning lánardrottins.
+
+Færibreytan **Læsa eignabókum í afskriftabók** gerir kleift að læsa eignabókum í afskriftabók. Þegar afskriftarfærslur eru bókaðar mun kerfið ganga úr skugga um að sömu eignabókinni hafi ekki verið bætt við fleiri en eina afskriftabók. Ef svo er verður eignabókinni læst og bókunin stöðvuð. Ef auðkenni eignabókar er í læstri færslubók verður hún aflæst sjálfkrafa þegar bókun lýkur fyrir upprunalegu færslubókina. Einnig er hægt að læsa færslubókinni handvirkt. 
 
 Í flýtiflipi **Innkaupapantanir** er hægt er skilgreina hvernig eignir eigi að vera stofnaðar sem hluti af innkaupaferli. Fyrsti valkostur er nefndur **Leyfa eignakaup frá innkaupum**. Ef þessu valkostur er stilltur á **Já**, eiga eignakaup á sér stað þegar reikningur er bókaður. Ef þessi valkostur er stilltur á **Nei** er enn hægt að setja eign á innkaupapöntunina (IP) og reikning, en kaupin verða ekki bókuð. Bókun verður að framkvæma sem sérstakt skref úr færslubók eignar. Valkosturinn **Stofna eign við bókun innhreyfingarskjals afurða eða reiknings** gerir þér kleift að stofna nýja eign "fyrirvaralaust" við bókun. Þess vegna þarf eignin ekki að vera uppsett sem eign fyrir færsluna. Síðasta valkostinum **Gá að stofnun eigna við innfærslu lína**, á einungis við innkaupabeiðnir.
 

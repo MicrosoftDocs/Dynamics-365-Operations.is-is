@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0e01881a6b68526479d27014d49a718069cffc9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14f0e480b93e663f81db5a1edb2ae71b559bb05e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815885"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188561"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Úrræðaleit vegna innflutnings bankayfirlitsskrár
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815885"
 
 Það er mikilvægt að bankayfirlitsskránni frá bankanum samsvari útliti sem Microsoft Dynamics 365 Finance styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu.
 
-<a name="what-is-the-error"></a>Hver er villan?
-------------------
+## <a name="what-is-the-error"></a>Hver er villan?
 
 Þegar þú hefur reynt að flytja inn bankayfirlitsskránni, skaltu fara í vinnslusögu gagnastjórnunar og í Gögn og upplýsingar um framkvæmd til að finna villuna. Villan getur hjálpað til með því vísa til yfirlits, stöðu eða uppgjörslínu. Hins vegar er ólíklegt að hún veiti nægar upplýsingar til að auðvelda að auðkenna svæði eða einingu sem veldur vandamálinu.
 

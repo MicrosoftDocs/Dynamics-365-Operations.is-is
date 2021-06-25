@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937887"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216613"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -143,16 +143,22 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
 ## <a name="setup"></a>Setja upp
 
-1. Setjið upp nýjustu útgáfu (2.2.2.60 eða nýrri) af [Niðurröðunarþjónusta tvöföldrar skráningar](https://aka.ms/dual-write-app).
+1. Opna umhverfi í forriti viðskiptavinar.
 
-2. Setjið upp [Lausn tvöfaldrar skráningar á aðila og altækri aðsetursbók](https://aka.ms/dual-write-gab).
+2. Setjið upp nýjustu útgáfu (2.2.2.60 eða nýrri) af [Niðurröðunarþjónusta tvöföldrar skráningar](https://aka.ms/dual-write-app).
 
-3. Stöðvið eftirfarandi varpanir vegna þess að ekki er þörf á þeim lengur. Keyrðu `Contacts V2 (msdyn_contactforparties)` kortið í staðinn.
+3. Setjið upp [Lausn tvöfaldrar skráningar á aðila og altækri aðsetursbók](https://aka.ms/dual-write-gab).
+
+4. Opnið fjármála- og rekstrarforritið. Farið í gagnastjórnunareininguna og veljið flipa tvöföldrar skráningar. Stjórnunarsíða tvöföldrar skráningar opnast.
+
+5. Setjið á báðar lausnir sem settar voru upp í skrefum 2 og 3 með aðgerðinni [Nota lausn](link-your-environment.md).
+
+6. Stöðvið eftirfarandi varpanir vegna þess að ekki er þörf á þeim lengur. Keyrðu `Contacts V2 (msdyn_contactforparties)` kortið í staðinn.
 
     + CDS Tengiliðir V2 og Tengiliðir (eiga við um tengiliði viðskiptavinar)
     + CDS Tengiliðir V2 og Tengiliðir (eiga við um tengiliði lánardrottins)
 
-4. Eftirfarandi einingavarpanir eru uppfærðar fyrir aðilavirknina þannig að nota þarf nýjustu útgáfu af þessum vörpunum.
+7. Eftirfarandi einingavarpanir eru uppfærðar fyrir aðilavirknina þannig að nota þarf nýjustu útgáfu af þessum vörpunum.
 
     Varpa | Uppfæra þessa útgáfu | Breytingar
     ---|---|---
@@ -176,7 +182,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
 
-5. Áður en ofangreind kort eru keyrð verður að uppfæra samþættingarlyklana handvirkt eins og lýst er í eftirfarandi skrefum. Veldu síðan **Vista**.
+8. Áður en ofangreind kort eru keyrð verður að uppfæra samþættingarlyklana handvirkt eins og lýst er í eftirfarandi skrefum. Veldu síðan **Vista**.
 
     | Varpa | Lyklar |
     |-----|------|
@@ -185,7 +191,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     | Tengiliður fyrir viðskiptavin/lánardrottin | msdyn_contactforpartynumber [Tengiliður fyrir aðilanúmer]<br>msdyn_associatedcompanyid.cdm_companycode [Tengt fyrirtæki (fyrirtækjakóði)] |
     | Lánardrottinn | msdyn_vendoraccountnumber [Númer lánardrottnalykils]<br>msdyn_company.cdm_companycode [Fyrirtæki (Fyrirtækjakóði)]|
 
-6. Í Dataverse hefur hámarksfjöldi stafa fyrir greiningarreglu afritunar aukist úr 450 í 700 stafi. Þetta hámark gerir þér kleift að bæta einum eða fleiri lyklum við greiningarreglur afritunar. Víkkið út greiningarreglu afritunar fyrir töfluna **Lyklar** með því að stilla eftirfarandi reiti.
+9. Í Dataverse hefur hámarksfjöldi stafa fyrir greiningarreglu afritunar aukist úr 450 í 700 stafi. Þetta hámark gerir þér kleift að bæta einum eða fleiri lyklum við greiningarreglur afritunar. Víkkið út greiningarreglu afritunar fyrir töfluna **Lyklar** með því að stilla eftirfarandi reiti.
 
     | Svæði | Virði |
     |-------|-------|
@@ -201,7 +207,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
     ![Afritaregla fyrir reikninga](media/duplicate-rule-1.PNG)
 
-7. Víkkið út greiningarreglu afritunar fyrir töfluna **Tengiliðir** með því að stilla eftirfarandi reiti.
+10. Víkkið út greiningarreglu afritunar fyrir töfluna **Tengiliðir** með því að stilla eftirfarandi reiti.
 
     | Svæði | Virði |
     |-------|-------|
@@ -217,9 +223,9 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
     ![Afritunarregla fyrir tengiliði](media/duplicate-rule-2.PNG)
 
-8. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín.
+11. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín.
 
-9. Keyrðu kortin í eftirfarandi röð. Ef villa kemur upp sem segir „Staðfesting verks mistókst. Vantar reit áfangastaðar...“, opnaðu þá kortið og veldu **Endurhlaða töflum**. Keyrðu svo kortið.
+12. Keyrðu kortin í eftirfarandi röð. Ef villa kemur upp sem segir „Staðfesting verks mistókst. Vantar reit áfangastaðar...“, opnaðu þá kortið og veldu **Endurhlaða töflum**. Keyrðu svo kortið.
 
     Finance and Operations-forritið | Forrit viðskiptavinatengsla  
     ----------------------------|------------------------

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839150"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190089"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839150"
 
 Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 
-<a name="introduction"></a>Inngangur
-------------
+## <a name="introduction"></a>Inngangur
 
 Dreifing frá dreifingarstöð úr framleiðslu í úthliðsstaðsetningu á við um framleiðendur sem framleiða mikið magn og vilja helst senda lokaafurð um leið og hún er skráð sem fullunnin úr framleiðslulínum. Tilgangurinn er að senda afurðir til dreifingarstöðva sem eru staðsettar eftir óskum viðskiptavinar, frekar en að safna upp birgðum á framleiðslustöð.
 

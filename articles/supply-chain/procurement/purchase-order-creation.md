@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909157"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188246"
 ---
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
 
@@ -80,8 +80,7 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 Þú gætir þurft að fresta lokun Innkaupapöntunar. Til dæmis gætirðu þurft aukalegar upplýsingar um afurðir eða þjónustu, eða gæti þurft að fá heimild fyrir eyðsla. Það eru nokkrar aðferðir til að halda aftur pöntun. Til dæmis er hægt að bíða með að staðfesta pöntunina. Einnig, ef verkflæði breytingastjórnunar er í notkun, ekki senda pöntun til samþykktar. Ef verður að útiloka allar pantanir fyrir tiltekinn lánardrottin, er einnig hægt að merkja lánardrottins sem **í bið** fyrir vinnslu í lánardrottinssniðmát. Einnig eru aðstæður sem gætu komið í veg fyrir vinnsu pöntunar. Til dæmis, vinnslu gæti verið stöðvuð ef farið hefur verið fram yfir lánamark, eða ef nauðsynlegt áætlunarfjármagn  eru ekki tiltæk.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811775"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190113"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Uppskriftir og formúlur
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811775"
 
 Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
 
-<a name="bills-of-materials"></a>Uppskriftir
-------------------
+## <a name="bills-of-materials"></a>Uppskriftir
 
 Uppskrift (BOM) skilgreinir þá íhluti sem þarf til að framleiða vöru. Íhluti geta verið hráefni, næstum tilbúinar afurðir eða innihaldsefni. Í sumum tilvikum, má vísað í þjónustu í Uppskrift. Hins vegar lýsa Uppskriftir yfirleitt á *efnistilföng* sem krafist er.  
 

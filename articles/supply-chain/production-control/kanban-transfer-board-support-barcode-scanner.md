@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825868"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190065"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825868"
 
 Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
 
-<a name="registration-modes"></a>Skráningarhamar
-------------------
+## <a name="registration-modes"></a>Skráningarhamar
 
 Á **skráning Skanna** flýtiflipa er hægt að velja skráningarham sem stýrir aðgerðinni þegar kanban-spjaldnúmer er skannað eða númerið slegið handvirkt inn í númerareit kanban-spjalds.
 
@@ -42,8 +41,7 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 | Velja                | Skráir númer kanban-spjalds og velja vinnsluna sem vísað var í sjálfkrafa í kanban-lista |
 
  
-<a name="registration-mode-select"></a>Velja skráningarham
-------------------------
+## <a name="registration-mode-select"></a>Velja skráningarham
 
 Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
 

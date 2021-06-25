@@ -2,7 +2,7 @@
 title: Stofna verk til að setja upp samþættingu gagna (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að stofna erk til að setja upp samþættingu gagna.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867448"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186469"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Stofna verk til að setja upp samþættingu gagna (forskoðun)
 
@@ -67,10 +67,5 @@ ms.locfileid: "5867448"
 
 > [!NOTE]
 > Ef áskildar einingar eru ekki til staðar í CDS skal fara í **Skuldir og innheimta > Uppsetning > Fjármálainnsýn > Færibreytur fjármálainnsýnar**, virkja eiginleikann „Greiðsluspár viðskiptavinar“ og smella á hnappinn **Búa til spárlíkan**. Þegar innleiðingu á AI-líkani er lokið (tókst eða mistókst) eru CDS-einingarnar sem nauðsynlegar eru fyrir samþættingu settar upp í í CDS.
-
-## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Nota greiðsluspár viðskiptavinar (forskoðun)
 description: Þetta efnisatriði fer með þig í gegnum áskildar forsendur og áskilin skref til að nota prufuútgáfu Fjármálainnsýnar.
 author: ShivamPandey-msft
-ms.date: 11/16/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897793"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186565"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Nota greiðsluspár viðskiptavinar (forskoðun)
 
@@ -103,10 +103,5 @@ Ef nákvæmnin telst ekki vera fullnægjandi skaltu velja tengilinn **Auka nákv
 Almenn forskoðun Fjármálainnsýnar er í boði til uppsetningar í Bandaríkjunum, Evrópu og Bretlandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
 
 Aðeins er hægt og aðeins skal kveikja á eiginleikum almennrar forskoðunar í tveggja laga sandkassaumhverfi. Uppsetningar- og gervigreindarlíkön sem eru stofnuð í sandkassaumhverfi eru ekki hægt að flytja yfir í vinnsluumhverfi. Frekari upplýsingar er að finna í [Viðbótarnotkunarskilmálum fyrir Microsoft Dynamics 365 forskoðanir](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

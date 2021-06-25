@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908929"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188935"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908929"
 
 Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður.
 
-<a name="overview"></a>Yfirlit
---------
+## <a name="overview"></a>Yfirlit
 
 Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Supply Chain Management samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 

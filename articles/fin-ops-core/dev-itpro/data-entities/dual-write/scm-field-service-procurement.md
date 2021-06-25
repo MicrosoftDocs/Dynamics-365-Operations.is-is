@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941110"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219788"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Samstilling innkaupa milli Supply Chain Management og Field Service
 
@@ -196,23 +196,10 @@ Eftirfarandi sniðmát eru í boði fyrir samþættingu á fylgiskjölum sem ten
 
 | Birgðakeðjustjórnun | Field Service | lýsing |
 |---|---|---|
-| Haus innkaupapöntunar V2 | msdyn\_Purchaseorders | Þessi tafla inniheldur dálka sem tákna haus innkaupapöntunarinnar. |
-| Eining innkaupapöntunarlínu | msdyn\_PurchaseOrderProducts | Þessi tafla inniheldur línur sem tákna línur í innkaupapöntun. Afurðarnúmerið er notað fyrir samstillingu. Þetta auðkennir afurðina sem birgðahaldseiningu, þ.m.t. afurðarvíddir. Frekari upplýsingar um samþættingu afurðar Dataverse má finna í [Samræmd afurðaupplifun](product-mapping.md). |
-| Haus afurðarkvittunar | msdyn\_purchaseorderreceipts | Þessi tafla inniheldur hausa innhreyfingarskjals afurða sem eru stofnaðir þegar innhreyfingarskjöl afurða eru bókuð í Supply Chain Management. |
-| Lína innhreyfingarskjals | msdyn\_purchaseorderreceiptproducts | Þessi tafla inniheldur innhreyfingarskjalslínur afurðar sem eru stofnaðar þegar innhreyfingarskjal afurðar er bókað í Supply Chain Management. |
-| Eining mjúkeyðingar innkaupapöntunarlínu | msdyn\_purchaseorderproducts | Þessi tafla inniheldur upplýsingar um innkaupapöntunarlínur sem eru mjúkeyddar. Aðeins er hægt að mjúkeyða innkaupapöntunarlínu í Supply Chain Management þegar innkaupapöntunin hefur verið staðfest eða samþykkt ef kveikt er á breytingastjórnun. Línan er til í gagnagrunni Supply Chain Management og er merkt sem **IsDeleted**. Fyrst að Dataverse er ekki með mjúkeyðingu skilgreinda, er mikilvægt að þessar upplýsingar séu samstilltar við Dataverse. Á þennan hátt er hægt að eyða línum, sem eru mjúkeyddar í Supply Chain Management, sjálfkrafa úr Dataverse. Í slíku tilfelli er reglan til að eyða línu í Dataverse staðsett í Supply Chain Management Extended. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Haus innkaupapöntunar V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Þessi tafla inniheldur dálka sem tákna haus innkaupapöntunarinnar. |
+| [Eining innkaupapöntunarlínu](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Þessi tafla inniheldur línur sem tákna línur í innkaupapöntun. Afurðarnúmerið er notað fyrir samstillingu. Þetta auðkennir afurðina sem birgðahaldseiningu, þ.m.t. afurðarvíddir. Frekari upplýsingar um samþættingu afurðar Dataverse má finna í [Samræmd afurðaupplifun](product-mapping.md). |
+| [Haus afurðarkvittunar](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Þessi tafla inniheldur hausa innhreyfingarskjals afurða sem eru stofnaðir þegar innhreyfingarskjöl afurða eru bókuð í Supply Chain Management. |
+| [Lína innhreyfingarskjals](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Þessi tafla inniheldur innhreyfingarskjalslínur afurðar sem eru stofnaðar þegar innhreyfingarskjal afurðar er bókað í Supply Chain Management. |
+| [Eining mjúkeyðingar innkaupapöntunarlínu](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Þessi tafla inniheldur upplýsingar um innkaupapöntunarlínur sem eru mjúkeyddar. Aðeins er hægt að mjúkeyða innkaupapöntunarlínu í Supply Chain Management þegar innkaupapöntunin hefur verið staðfest eða samþykkt ef kveikt er á breytingastjórnun. Línan er til í gagnagrunni Supply Chain Management og er merkt sem **IsDeleted**. Fyrst að Dataverse er ekki með mjúkeyðingu skilgreinda, er mikilvægt að þessar upplýsingar séu samstilltar við Dataverse. Á þennan hátt er hægt að eyða línum, sem eru mjúkeyddar í Supply Chain Management, sjálfkrafa úr Dataverse. Í slíku tilfelli er reglan til að eyða línu í Dataverse staðsett í Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

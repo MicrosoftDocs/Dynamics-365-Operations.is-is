@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891794"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224035"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 
@@ -285,7 +285,7 @@ Til að halda áfram skal sleppa næsta ferli, [Stofna nýjan skilgreiningu gagn
 
 Staða á útgáfu 1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lokið**. Ekki er lengur hægt að breyta útgáfu 1. Þessi útgáfa inniheldur skilgreinda gagnalíkanið og er hægt að nota sem grunninn fyrir aðrar skilgreiningar rafrænnar skýrslugerðar. Útgáfa 2 af þessari skilgreiningu er stofnuð og er með stöðuna **Drög**. Hægt er að breyta þessari útgáfu til að leiðrétta gagnalíkanið **Spurningalisti**.
 
-![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-model-configuration.png)
+![Útgáfur breytanlegrar skilgreiningar á skilgreiningarsíðunni](./media/er-quick-start1-model-configuration.png)
 
 Frekari upplýsingar um útgáfustjórnun fyrir skilgreiningar rafrænnar skýrslugerðar er að finna í [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ Eftirfarandi mynd sýnir myndaða skýrslu á Excel-sniði þar sem spurningunum
 
 Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lokið**. Ekki er lengur hægt að breyta útgáfu 1.1. Þessi útgáfa inniheldur skilgreinda sniðið og er hægt að nota til að prenta sérsniðnu skýrsluna. Útgáfa 1.2 af þessari skilgreiningu er stofnuð og er með stöðuna **Drög**. Hægt er að breyta þessari útgáfu til að leiðrétta snið skýrslunnar **Spurningalisti**.
 
-![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-format-configuration.png)
+![Breytanleg skilgreining rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Skilgreinda sniðið er hönnunin þín á skýrslunni **Spurningalisti** og hefur engin tengsl við sérstaka Finance-gervinga.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814585"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188150"
 ---
 # <a name="production-process-overview"></a>Yfirlit yfir framleiðsluferli
 
@@ -74,8 +74,7 @@ Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar ge
 12. **Tímabilslokuin** – Sumar kostnaðarbókhaldsreglur, eins og reglubundið meðaltal, til baka kostnaðarútreikningur, FIFO eða LIFO krefjast reglubundnar aðgerðir til að loka birgðum eða fjárhagstímabil. Yfirleitt, reynir kerfið að skrá allt efni og tilfanganotkun og einnig leiðréttingar á birgðum og rýrnun, áður en tímabili er lokað. Þessi skýrsla er yfirleitt gerð með því að nota birgðahreyfingabækur eða færslubækur birgðaleiðréttinga. Markmiðið er að meta fjárhagslega frammistöðu rekstrareininga á hverju tímabili. Í sumum tilfellum, þegar langtíma framleiðslupantanir eru notaðar sem ná yfir fjárhagsskýrslutímabil, eru framleiðslubækur notaðar til að tilkynna framvindu framleiðslu og tilfanganotkun í lok tímabils.
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Endurgjöf um framleiðslu](production-feedback.md)
 

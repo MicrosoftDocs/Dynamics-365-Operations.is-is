@@ -2,26 +2,21 @@
 title: Framleiðsluáætlun
 description: Þetta efnisatriði lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota fínstillingu skipulagningar.
 author: ChristianRytt
-ms.date: 12/15/2020
+ms.date: 06/01/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839224"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129754"
 ---
 # <a name="production-planning"></a>Framleiðsluáætlun
 
@@ -79,11 +74,44 @@ Hægt er að nota síðuna **Niðurbrot** til að greina eftirspurnina sem þarf
 
 ## <a name="filters"></a><a name="filters"></a>Síur
 
-Fyrir aðstæður áætlanagerðar sem fela í sér framleiðslu er mælt með að forðast síaðar keyrslur aðaláætlanagerðar. Til að tryggja að fínstilling skipulagningar sé með upplýsingarnar sem þarf til að fá út rétta útkomu við útreikning þarf að hafa með allar afurðir sem á einhvern hátt tengjast afurðunum í öllu skipulagi uppskriftar fyrir áætluðu pöntunina.
+Til að tryggja að fínstilling skipulagningar sé með upplýsingarnar sem þarf til að fá út rétta útkomu við útreikning þarf að hafa með allar afurðir sem á einhvern hátt tengjast afurðunum í öllu skipulagi uppskriftar fyrir áætluðu pöntunina. Fyrir aðstæður áætlanagerðar sem fela í sér framleiðslu er mælt með að forðast síaðar keyrslur aðaláætlanagerðar.
 
-Þó að háðar undireiningar séu sjálfkrafa greindar og hafðar með í keyrslum aðaláætlanagerðar þegar innbyggð aðaláætlunarvél er notuð, þá framkvæmir fínstilling skipulagningar ekki þessi aðgerð.
+Þó að háðar undireiningar séu sjálfkrafa greindar og hafðar með í keyrslum aðaláætlanagerðar þegar innbyggð aðaláætlunarvél er notuð, þá framkvæmir fínstilling skipulagningar ekki þessi aðgerð eins og er.
 
-Til dæmis ef einn bolti úr skipulagi uppskriftar fyrir afurð A er einnig notaður til að framleiða afurð B, þá verður að hafa með allar afurðir í skipulagi uppskriftar fyrir afurðir A og B í síuninni. Það getur verið mjög flókið að ganga úr skugga um að allar afurðir séu hluti af síunni og þar af leiðandi er mælt með að forðast keyrslur á síaðri aðaláætlanagerð þegar framleiðslupantanir eru hafðar með.
+Til dæmis ef einn bolti úr skipulagi uppskriftar fyrir afurð A er einnig notaður til að framleiða afurð B, þá verður að hafa með allar afurðir í skipulagi uppskriftar fyrir afurðir A og B í síuninni. Það getur verið mjög flókið að ganga úr skugga um að allar afurðir séu hluti af síunni og þar af leiðandi er mælt með að forðast keyrslur á síaðri aðaláætlanagerð þegar framleiðslupantanir eru hafðar með. Annars koma óæskilegar niðurstöður út úr aðaláætlanagerðinni.
 
+### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Ástæður til að forðast síaðar keyrslur aðaláætlanagerðar
+
+Þegar keyrð er síuð aðaláætlanagerð fyrir afurð ber fínstilling skipulagningar (ólíkt innbyggðri aðaláætlunarvél) ekki kennsl á allar undirafurðir og hráefni í skipulagi uppskriftar fyrir þessa afurð og hefur þær því ekki með í keyrslu aðaláætlanagerðar. Þótt fínstilling skipulagningar greinir fyrsta stigið í skipulagi uppskriftar fyrir afurðina, hleður hún ekki neinum afurðarstillingum (á borð við sjálfgefinni pöntunargerð eða vöruþekju) úr gagnagrunninum.
+
+Í fínstillingu skipulagningar er gögnum fyrir keyrsluna hlaðið á undan og setur á síurnar. Þetta þýðir að ef undirafurð eða hráefni sem er hluti af tiltekinni afurð er ekki hluti af síunni, verða upplýsingar um hana ekki sóttar fyrir keyrsluna. Auk þess, ef undirafurðin eða hráefnið er einnig haft með í annarri afurð, þá myndi síuð keyrsla sem inniheldur aðeins upprunalega afurð og þætti hennar fjarlægja fyrirliggjandi áætlaða eftirspurn sem var búin til fyrir þessa aðra afurð.
+
+Þessi rök geta valdið því að síaðar aðaláætlunarkeyrslur skili óvæntum niðurstöðum. Í eftirfarandi hlutum eru gefin upp dæmi sem sýna óvæntu niðurstöðurnar sem gætu komið upp.
+
+### <a name="example-1"></a>Dæmi 1
+
+Fullunnin vara *FG* samanstendur af eftirfarandi þáttum:
+
+- Hráefni *R*
+- Undirvara *S1*, sem samanstendur af undirvöru *S2*
+
+Lagerbirgðir eru til staðar fyrir hráefnið *R* en undirafurðin *S1* er ekki til staðar í birgðunum.
+
+Þegar gerð er síuð keyrsla aðaláætlanagerðar fyrir fullunna vöru *FG* kemur út áætluð framleiðslupöntun fyrir fullunnu vöruna *FG*, áætluð innkaupapöntun fyrir hráefnið *R* og áætluð innkaupapöntun fyrir undurafurðina *S1*. Þetta er óæskileg niðurstaða vegna þess að fínstilling skipulagningar hefur hunsað fyrirliggjandi framboð á hráefninu *R* og framleiða þarf undirafurðina *S1* með því að nota *S2* frekar en að panta beint. Þetta gerðist vegna þess að fínstilling skipulagningar er aðeins með lista yfir þættina fyrir fullunna vöru *FG* án tengdra upplýsinga, eins og núverandi framboð á þáttum hennar eða sjálfgefnum pöntunarstillingum.
+
+### <a name="example-2"></a>Dæmi 2
+
+Með hliðsjón af fyrra dæmi notar aukaleg fullunnin vara *FG2* einnig undirafurðina *S1*. Áætluð pöntun er til fyrir fullunna vöru *FG2* og áætluð eftirspurn er til fyrir alla þætti hennar, þ.m.t. *S1*.
+
+Þú ákveður að leysa úr óæskilegum niðurstöðum á síaðri keyrslu aðaláætlanagerðar úr fyrra dæminu með því að bæta öllum undirafurðunum og hráefnunum úr skipulagi uppskriftar á fullunninni vöru *FG* við síuna og síðan keyra fulla endurmyndun.
+
+Þegar full endurmyndun er keyrð eyðir kerfið öllum fyrirliggjandi niðurstöðum fyrir allar innifaldar afurðir og endurgerir síðan niðurstöðurnar samkvæmt nýju útreikningunum. Þetta þýðir að fyrirliggjandi áætlaðri eftirspurn eftir afurð *S1* er eytt og síðan endurgerð þar sem aðeins er tekið tillti til krafna fullunninnar vöru *FG* á meðan kröfur fullunninnar vöru *FG2* eru hunsaðar. Þetta gerist vegna þess að þegar fínstilling skipulagningar er keyrð felur hún ekki í sér áætlaða eftirspurn annarra áætlaðra framleiðslupantana&mdash;aðeins áætlaða eftirspurn sem myndast þegar keyrslan er notuð.
+
+> [!NOTE]
+> Ef fyrirliggjandi áætluð pöntun á fullunninni vöru *FG2* er með stöðuna *Samþykkt*, þá verður samþykkt áætluð eftirspurn höfð með jafnvel þótt yfirafurðinni sé ekki bætt við síuna.
+
+Þar af leiðandi, nema öllum þáttum fullunninnar vöru *FG* er bætt við, er fullunnin vara *FG2* og allar aðrar afurðir sem þessir þættir eru hluti af (ásamt þáttum þeirra), mun síuð keyrsla aðaláætlanagerðar skila óæskilegum niðurstöðum.
+
+Það getur verið mjög flókið að ganga úr skugga um að allar afurðir séu hluti af síunni og þar af leiðandi er mælt með að forðast keyrslur á síaðri aðaláætlanagerð þegar framleiðslupantanir eru hafðar með.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

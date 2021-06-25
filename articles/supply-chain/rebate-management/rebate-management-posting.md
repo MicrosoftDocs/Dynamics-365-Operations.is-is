@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020412"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216744"
 ---
 # <a name="rebate-management-posting-setup"></a>Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar
 
@@ -43,7 +43,7 @@ Eftirfarandi tafla lýsir stillingunum sem eru í boði í haushluta hverrar bó
 | lýsing | Færið inn lýsingu á reglunni. |
 | Kerfiseining | Veljið gerð eftirágreiddra afslátta og afnotagreiðslna sem reglan tengist (*Viðskiptavinur* eða *Lánardrottinn*). |
 | Gerð | Veljið tegund reglu (*Eftirágreiddur afsláttur* eða *Afnotagreiðsla*). |
-| Greiðslugerð | <p>Þessi reitur ákvarðar sniðið á úttaki bókaðs eftirágreidds afsláttar.<p><p>Þegar reiturinn **Gerð** er stilltur á *Eftirágreiddur afsláttur* eru eftirfarandi gildi í boði:</p><ul><li>*Ekkert* – Engin sjálfgefin bókunargerð er til staðar. Þess vegna verður að skilgreina gerðina þegar úrvinnsla fer fram.</li><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottin greiðslunnar sem er settur upp í viðskiptavini eftirágreidds afsláttar stofnaður.</li><li>*Frádráttur viðskiptavinar* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skattleggja frádrátt viðskiptavinareiknings* – Þegar eftirágreiddur afsláttur er bókaður verður stofnaður reikningur með frjálsum texta fyrir viðskiptavin eftirágreidds afsláttar.</li><li>*Kostnaður við vörumerki* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li></ul><p>Þegar reiturinn **Gerð** er stilltur á *Afnotagreiðsla* eru eftirfarandi gildi í boði:</p><ul><li>*Ekkert* – Engin sjálfgefin bókunargerð er til staðar. Þess vegna verður að skilgreina gerðina þegar úrvinnsla fer fram.</li><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li></ul><p>Frekari upplýsingar eru í hlutanum [Greiðslugerðir](#payment-types) sem kemur í kjölfarið. |
+| Greiðslugerð | <p>Þessi reitur ákvarðar sniðið á úttaki bókaðs eftirágreidds afsláttar.<p><p>Þegar reiturinn **Gerð** er stilltur á *Eftirágreiddur afsláttur* eru eftirfarandi gildi í boði:</p><ul><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottin greiðslunnar sem er settur upp í viðskiptavini eftirágreidds afsláttar stofnaður. Þegar eftirágreiddur afsláttur lánardrottins er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li><li>*Frádráttur viðskiptavinar* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skattleggja frádrátt viðskiptavinareiknings* – Þegar eftirágreiddur afsláttur er bókaður verður stofnaður reikningur með frjálsum texta fyrir viðskiptavin eftirágreidds afsláttar.</li><li>*Kostnaður við vörumerki* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li></ul><p>Þegar reiturinn **Gerð** er stilltur á *Afnotagreiðsla* eru eftirfarandi gildi í boði:</p><ul><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li></ul><p>Frekari upplýsingar eru í hlutanum [Greiðslugerðir](#payment-types) sem kemur í kjölfarið. |
 | Fyrirt.   | Veljið fyrirtækið (lögaðilann) sem úthlutunum verður safnað í og kröfur greiddar frá. |
 
 ### <a name="payment-types"></a>Greiðslugerðir

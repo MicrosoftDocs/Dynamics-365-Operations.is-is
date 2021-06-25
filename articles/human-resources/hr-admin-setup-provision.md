@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053660"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193725"
 ---
 # <a name="provision-human-resources"></a>Ráðstafa mannauði
 
@@ -56,7 +56,7 @@ Til að nota LCS til að stjórna Human Resources umhverfi þínu, þarftu fyrst
 1. Skráðu þig inn á [LCS](https://lcs.dynamics.com/Logon/Index) með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Human Resources.
 
    > [!NOTE]
-   > Til að tryggja árangursríka úthlutun verður reikningurinn sem þú notar til að úthluta umhverfi Human Resources að vera úthlutað á annaðhvort hlutverkið **Kerfisstjóri** eða **Kerfisstillir** í Power Apps-umhverfinu sem tengist umhverfi Human Resources. Frekari upplýsingar um úthlutun öryggishlutverka til notenda í Power Platform er að finna í [Skilgreina öryggi notanda við tilföng](https://docs.microsoft.com/power-platform/admin/database-security).
+   > Til að tryggja árangursríka úthlutun verður reikningurinn sem þú notar til að úthluta umhverfi Human Resources að vera úthlutað á annaðhvort hlutverkið **Kerfisstjóri** eða **Kerfisstillir** í Power Apps-umhverfinu sem tengist umhverfi Human Resources. Frekari upplýsingar um úthlutun öryggishlutverka til notenda í Power Platform er að finna í [Skilgreina öryggi notanda við tilföng](/power-platform/admin/database-security).
 
 2. Velja skal plúsmerki (**+**) til að stofna verk.
 

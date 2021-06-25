@@ -1,8 +1,8 @@
 ---
-title: Stillingar fyrir Fjármálainnsýn (forútgáfa)
-description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn.
+title: Stilling fyrir fjármálainnsýn - útgáfur fram að 10.0.19
+description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn fyrir útgáfur fram að 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941227"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186421"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Stillingar fyrir Fjármálainnsýn (forútgáfa)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941227"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> Eftirfarandi ferli við uppsetningu fjármálainnsýnar gilda fyrir Microsoft Dynamics 365 Finance útgáfur fram að 10.0.19. Til að setja upp fjármálainnsýn á útgáfu 10.0.20 og nýrri skal sjá [Stilling fjármálainnsýnar (forútgáfa) - útgáfur 10.0.20 og nýrri](configure-for-fin-insites-PubPrvw.md).
+
 Fjármálainnsýn sameinar virkni Microsoft Dynamics 365 Finance við Microsoft Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtækið. Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn.
 
 ## <a name="deploy-dynamics-365-finance"></a>Virkja Dynamics 365 Finance
@@ -38,7 +41,7 @@ Virkjaðu umhverfið með því að fylgja þessum skrefum.
 
 1. Í Microsoft Dynamics Lifecycle Services (LCS) skal búa til eða uppfæra Dynamics 365 Finance umhverfi. Umhverfið krefst forritsútgáfu 10.0.11/Verkvangsuppfærslu 35 eða nýrra.
 2. Umhverfið verður að vera vel tiltækt í Sandbox. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Ef verið er að nota Contoso-sýnigögnin þarf viðbótarsýnigögn til að nota greiðsluspá viðskiptavinar, sjóðstreymisspár og fjárhagsáætlunarspár. 
+3. Ef þú ert að stilla fjármálainnsýn í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi til að spár virki. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso sýnigögnin innihalda ekki næg söguleg gögn til að hægt sé að þjálfa spálíkanið á fullnægjandi hátt. 
 
 ## <a name="configure-dataverse"></a>Skilgreina Dataverse
 

@@ -2,7 +2,7 @@
 title: Virkja marga afhendingamáta fyrir pantanir viðskiptavinar
 description: Þetta efnisatriði útskýrir virkni í Microsoft Dynamics 365 Commerce sem gerir þér kleift að stofna viðskiptavinapantanir fyrir það sem er sótt í verslun.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020652"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216768"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Virkja marga afhendingamáta fyrir pantanir viðskiptavinar
 
@@ -38,7 +38,7 @@ Eftir að kveikt er á eiginleikanum **Stuðningur fyrir margar afhendingarstill
 
 Reitirnir **Afhendingarmáti fyrir sótt** og **Rafrænn afhendingarmáti** og valkosturinn **Sýna aðeins valmöguleika flutningsmáta fyrir sendingar pantana** hafa verið færðir yfir í þennan flýtiflipa.
 
-Áður en hægt er að skilgreina fleiri afhendingarmáta fyrir sóttar pantanir Þarf að skilgreina afhendingarmátana. Á síðunni **Afhendingarmáti** í Commerce Headquarters skal bæta við afhendingarmátanum sem á að vera afhendingarmáti fyrir það sem er sótt. Gangið úr skugga um að skilgreiningunni sé lokið að fullu. Til dæmis skal ganga úr skugga um að afhendingarmáti sé tengdur við viðeigandi rásir og vörur. Þegar því er lokið skal keyra verkið **Vinna úr afhendingarmáta** til að stofna tengslin milli afhendingarmáta, rása og vara. Þegar verkinu er lokið skal opna síðuna **Dreifingaráætlun** í Commerce Headquarters og keyra dreifingarverkið **1120** til að tryggja að viðeigandi gagnagrunnar Commerce-rásar séu uppfærðir með nýrri skilgreiningu á afhendingarmáta.
+Áður en hægt er að skilgreina fleiri afhendingarmáta fyrir sóttar pantanir Þarf að skilgreina afhendingarmátana. Á síðunni **Afhendingarmáti** í Commerce Headquarters skal bæta við afhendingarmátanum sem á að vera afhendingarmáti fyrir það sem er sótt. Gangið úr skugga um að skilgreiningunni sé lokið að fullu. Ef til dæmis boðið er upp á afhendingu út í bíl sem afhendingarmáta fyrir kaupendur á netinu í ákveðnum verslunum þarf að stofna nýjan afhendingarmáta í þessu skyni. Hægt er að búa til þennan afhendingarmáta með því að nota „afhending út í bíl“ sem lýsingu. Þú vilt síðan tryggja að afhendingarmátanum „afhending út í bíl“ sé varpað í allar viðskiptarásirnar sem geta boðið upp á hann, þar á meðal netverslanir sem gætu boðið upp á þennan valkost og einstakar verslunarrásir sem bjóða upp á þessa afgreiðsluaðferð. Einnig verður að tengja afhendingarmáta við afurðir. Ef það eru ákveðnar afurðir sem ekki er hægt að afgreiða með því að nota „afhending út í bíl“ í þessu dæmi þarf að tryggja að slíkar vörur séu útilokaðar. Þegar búið er að bæta við nýjum afhendingarmátum skal keyra verkið **Vinna úr afhendingarmátum** til að stofna tengslin milli afhendingarmáta, rása og vara. Þegar verkinu er lokið skal opna síðuna **Dreifingaráætlun** í Commerce Headquarters og keyra dreifingarverkið **1120** til að tryggja að viðeigandi gagnagrunnar Commerce-rásar séu uppfærðir með nýrri skilgreiningu á afhendingarmáta.
 
 ![Dæmi um skilgreiningu afhendingarmáta fyrir sótta pöntun fyrir utan verslun](media/pickupmodes.png)
 

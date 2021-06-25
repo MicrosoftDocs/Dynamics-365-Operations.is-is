@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2780edc75891d565a184135d6a915a0e6f8504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d64729d6da5c57267d6d62274cce496888548d7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839078"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189993"
 ---
 # <a name="order-entry-deadlines"></a>Tímamörk skráningar pantana
 
@@ -99,8 +99,7 @@ Eftirfarandi tafla sýnir lokadag fyrir skráningu pantana fyrir A og B-setur um
 
 **Athugasemd** Ef leiðrétting fyrir birtusparnaðartíma er virk, eru lokadagur fyrir skráningu pantana leiðréttir eftir því.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Afhendingaráætlanir](delivery-schedules.md)
 

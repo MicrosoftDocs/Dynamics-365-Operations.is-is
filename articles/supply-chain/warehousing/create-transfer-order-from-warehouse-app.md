@@ -1,6 +1,6 @@
 ---
 title: Stofna flutningspantanir úr vöruhúsaforriti
-description: Í þessu efnisatriði er því lýst hvernig á að stofna og vinna úr flutningspöntunum úr farsímaforriti vöruhúsakerfis
+description: Í þessu efnisatriði er því lýst hvernig á að stofna og vinna úr flutningspöntunum úr farsímaforriti Warehouse Management
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838371"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164847"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Stofna flutningspantanir úr vöruhúsaforriti
 
 [!include [banner](../includes/banner.md)]
 
-Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti vöruhúsakerfis. Starfskrafturinn byrjar á því að velja vöruhús áfangastaðar og síðan geta þeir skannað eina eða fleiri númeraplötur með því að nota forritið til að bæta númeraplötum við flutningspöntunina. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur.
+Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti Warehouse Management. Starfskrafturinn byrjar á því að velja vöruhús áfangastaðar og síðan geta þeir skannað eina eða fleiri númeraplötur með því að nota forritið til að bæta númeraplötum við flutningspöntunina. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur.
 
 ## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Gera notendum kleift að stofna flutningspantanir úr eiginleika vöruhúsaforrits
 
@@ -48,7 +48,7 @@ Hér eru almennar leiðbeiningar til að setja upp valmyndaratriði fartækis ti
 1. Veljið **Nýtt** til að bæta við nýju valmyndaratriði. Stilltu síðan eftirfarandi til að hefjast handa:
 
     - **Heiti valmyndaratriðis** - Úthlutið heiti eins og það á að birtast í Supply Chain Management.
-    - **Titill** - Úhlutið heiti valmyndar eins og það á að birtast starfmönnum í farsímaforriti vöruhúsakerfis.
+    - **Titill** - Úhlutið heiti valmyndar eins og það á að birtast starfmönnum í farsímaforriti Warehouse Management.
     - **Stilling** - Stillið á *Óbeint* (þetta valmyndaratriði mun ekki búa til verk).
     - **Verkþáttarkóði** - Stillið á *Stofna flutningspöntun úr númeraplötum* til að gera starfsmanni vöruhúss kleift að stofna flutningspöntun sem byggir á einni eða fleiri skönnuðum númerplötum.
 
@@ -72,7 +72,7 @@ Hér eru almennar leiðbeiningar til að setja upp valmyndaratriði fartækis ti
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Flutningspöntun stofnuð sem byggir á númeraplötum
 
-Farsímaforrit vöruhúsakerfis er með einfalt ferli til þess að stofna flutningspantanir sem byggja á númeraplötum. Til að gera þetta gerir starfsmaðurinn eftirfarandi með því að nota farsímaforrit vöruhúsakerfis:
+Farsímaforrit Warehouse Management er með einfalt ferli til þess að stofna flutningspantanir sem byggja á númeraplötum. Til að gera þetta gerir starfsmaðurinn eftirfarandi með því að nota farsímaforrit Warehouse Management:
 
 1. Stofnið flutningspöntunina og auðkennið vöruhús áfangastaðar.
 1. Auðkennið hverja númeraplötu sem á að senda.
@@ -256,9 +256,9 @@ Fyrir uppgefið dæmi eru tvö **Tilvik vöruhúss** (*Stofna flutningspöntun* 
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Spyrjast fyrir um tilvik vöruhúsaforrits
 
-Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem farsímaforrit vöruhúsakerfis býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
+Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem farsímaforrit Warehouse Management býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
 
-Tilviksskilaboðin *Stofna flutningspöntun* fá stöðuna *Í bið*, sem þýðir að runuvinnslan **Vinna úr viðburðum vöruhúsaforrits** mun ekki taka til og vinna úr skilaboðum tilvika. Um leið og tilviksskilaboð uppfærast í stöðuna *Í biðröð* mun runuvinnslan vinna úr tilvikunum. Þetta gerist á sama tíma og stofnun tilviksins *Ljúka flutningspöntun* (þegar starfmaður velur hnappinn **Ljúka við pöntun** í farsímaforriti vöruhúsakerfis). Þegar búið er að vinna úr tilviksskilaboðunum *Stofna flutningspöntun*, er staðan uppfærð í *Lokið* eða *Tókst ekki*. Þegar staðan *Ljúka flutningspöntun* er uppfærð í *Lokið*, er öllum tengdum tilvikum eytt úr biðröðinni.
+Tilviksskilaboðin *Stofna flutningspöntun* fá stöðuna *Í bið*, sem þýðir að runuvinnslan **Vinna úr viðburðum vöruhúsaforrits** mun ekki taka til og vinna úr skilaboðum tilvika. Um leið og tilviksskilaboð uppfærast í stöðuna *Í biðröð* mun runuvinnslan vinna úr tilvikunum. Þetta gerist á sama tíma og stofnun tilviksins *Ljúka flutningspöntun* (þegar starfmaður velur hnappinn **Ljúka við pöntun** í farsímaforriti Warehouse Management). Þegar búið er að vinna úr tilviksskilaboðunum *Stofna flutningspöntun*, er staðan uppfærð í *Lokið* eða *Tókst ekki*. Þegar staðan *Ljúka flutningspöntun* er uppfærð í *Lokið*, er öllum tengdum tilvikum eytt úr biðröðinni.
 
 Þar sem runuvinnslan mun ekki vinna úr **Tilviki vöruhúsaforrits** fyrir stofnun flutningspöntunargagna áður en skilaboðin eru uppfærð í stöðuna *Í biðröð*, þarf að fletta upp á umbeðnum flutningspöntunarnúmerum sem hluti af reitnum **Kennimerki**. Reiturinn **Kennimerki** er í haus síðunnar **Tilvik vöruhúsaforrits**.
 
@@ -274,11 +274,11 @@ Frekari upplýsingar er að finna í [Úrvinnsla á tilviki vöruhúsaforrits](w
 
 Í þessari atburðarás kom eftirfarandi fram:
 
-1. Með því að nota farsímaforrit vöruhúsakerfis var valmyndaratriði valið sem notar verkþáttarkóðann **Stofna flutningspöntun úr númeraplötum**.
+1. Með því að nota farsímaforrit Warehouse Management var valmyndaratriði valið sem notar verkþáttarkóðann **Stofna flutningspöntun úr númeraplötum**.
 1. Forritið bað um að valið yrði vöruhús áfangastaðar fyrir flutningspöntunina. Upprunavöruhúsið er alltaf það sem notandi er skráður inn á sem starfsmaður.
 1. Við val á vöruhúsi áfangastaðar tók kerfið frá auðkennisnúmeri fyrir komandi flutningspöntun (byggt á númeraröð flutningspöntunar sem skilgreind er í kerfinu) en stofnaði ekki flutningspöntunina enn sem komið er.
 1. Þegar númeraplatan *NP10* var skönnuð, sem inniheldur lagerbirgðir sem á að flytja í nýja vöruhúsið, var **Tilviki vöruhúsaforrits** bætt við biðröð tilvika sem á að vinna síðar. Vöruhúsatilvikið innihélt skilaboð um skönnunina, þ.m.t. ætlað flutningspöntunarnúmer.
-1. Í farsímaforriti vöruhúsakerfis, þegar hnappurinn **Ljúka við pöntun** er valinn, er nýtt tilvik vöruhúsaforrits **Ljúka flutningspöntun** stofnað og tengt fyrirliggjandi tilvik, **Stofna flutningspöntun**, breytti stöðunni í **Í biðröð**.
+1. Í farsímaforriti Warehouse Management, þegar hnappurinn **Ljúka við pöntun** er valinn, er nýtt tilvik vöruhúsaforrits **Ljúka flutningspöntun** stofnað og tengt fyrirliggjandi tilvik, **Stofna flutningspöntun**, breytti stöðunni í **Í biðröð**.
 1. Í bakvinnslunni er náði **Runuvinnsla fyrir úrvinnslu á tilvikum vöruhúsaforrits** í tilvikið **Í biðröð** og safnaði lagerbirgðum sem tengjast skannaðri númeraplötu. Byggt á lagerbirgðum, var færsla raunverulegrar flutningspöntunar og tengdar línur stofnað. Vinnslan fyllti einnig út reitinn **Regla um sendingu á útleið** fyrir flutningspöntunina með gildinu sem byggir á skilgreindri aðferð *Losa og staðfesta sendingu* og tengdi númeraplötuna við línurnar fyrir aðferðina **Leitt af númerplötu**.
 1. Byggt reitargildinu **Regla um sendingu á útleið** fyrir flutningspöntunarlínuna, leiddi fyrirspurnin **Runuvinnsla sjálfvirkrar losunar á flutningspöntunum** nú til losunar á flutningspöntuninni til sendingarvöruhússins. Og vegna uppsetningarinnar fyrir notað **Bylgjusniðmát**, **Vinnusniðmát**, og **Staðsetningarleiðbeiningar**, fékk vinnan sjálfvikar úrvinnslur sem leiddi til þess að **Hleðslustaða** var uppfærð í *Hlaðið*.
 1. **Runuvinnsla á úrvinnslu sendingar á útleið** er keyrð fyrir hleðsluna, sem leiðir til þess að flutningspöntunin verður send og fyrirframtilkynning um sendingu verður búin til.
@@ -292,13 +292,13 @@ Frekari upplýsingar er að finna í [Úrvinnsla á tilviki vöruhúsaforrits](w
 
 Virkja þarf eiginleikinn *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*. Frekari upplýsingar er að finna í [Virkja stofnun flutningspantana úr vöruhúsaforriti](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-management-mobile-app-processes"></a>Ferli farsímaforrits vöruhúsakerfis
+### <a name="warehouse-management-mobile-app-processes"></a>Ferli farsímaforrits Warehouse Management
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Hvers vegna get ég ekki séð valmyndarhnappinn „Ljúka við pöntun“?
 
 Úthluta þarf að minnsta kosti einni númeraplötu á flutningspöntunina.
 
-#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Geta nokkrir fleiri en einn notandi farsímaforrit vöruhúsakerfis bætt númeraplötum við sömu flutningspöntunina á sama tíma?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Geta nokkrir fleiri en einn notandi farsímaforrit Warehouse Management bætt númeraplötum við sömu flutningspöntunina á sama tíma?
 
 Já, margir starfsmenn vöruhúss geta skannað númeraplötur í sömu flutningspöntunina.
 
@@ -310,11 +310,11 @@ Nie, aðeins er hægt að bæta númeraplötu við eina flutningspöntun í einu
 
 Nei, ekki er hægt að bæta fleiri númeraplötum við flutningspöntun sem er með tilvikið **Ljúka flutningspöntun** í vöruhúsaforritinu.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hvernig get ég fundið fyrirliggjandi flutningspantanir sem á að nota með hnappnum „Velja flutningspöntun“ í farsímaforriti vöruhúsakerfis, ef pöntunin hefur enn ekki verið stofnuð í bakvinnslukerfinu?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hvernig get ég fundið fyrirliggjandi flutningspantanir sem á að nota með hnappnum „Velja flutningspöntun“ í farsímaforriti Warehouse Management, ef pöntunin hefur enn ekki verið stofnuð í bakvinnslukerfinu?
 
 Sem stendur er ekki hægt að fletta upp flutningspöntum í forritinu, en hægt er að finna númer flutningspantana á síðunni **Tilvik vöruhúsaforrits**. Frekari upplýsingar er að finna í [Spyrjast fyrir um tilvik vöruhúsaforrits](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Get ég valið handvirkt númer flutningspöntunar sem á að nota úr farsímaforriti vöruhúsakerfis?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Get ég valið handvirkt númer flutningspöntunar sem á að nota úr farsímaforriti Warehouse Management?
 
 Aðeins sjálfkrafa mynduð flutningspöntunarnúmer í gegnum númeraraðir eru studdar.
 
@@ -330,7 +330,6 @@ Flutningspantanirnar eru búnar til án þess að nota möguleikann **Stýring a
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Get ég notað númeraplötu með neikvæðar efnislegar birgðir?
 
-Eiginleikinn styður aðeins jákvætt efnislegt magn á lager. Gakktu úr skugga um að þú sért með jákvætt efnislegt magn á lager í vöruhúsinu og birgðastöðu áður en þú úthlutar númeraplötum á flutningspöntun.
-
+Eiginleikinn styður aðeins jákvætt efnislegt magn á lager á stigi númeraplötu, en hægt er að vera með neikvætt efnislegt magn á hærri stigum vöruhúss og birgðastöðu þegar númeraplötum er úthlutað á flutningspantanir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

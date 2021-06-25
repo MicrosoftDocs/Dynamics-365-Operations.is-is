@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897285"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187795"
 ---
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897285"
 
 Þetta efnisatriði lýsir því hvernig eigi að skoða fjárhagsskýrslur. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 
-<a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
-----------------------------
+## <a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
 
 ## <a name="open-a-financial-report"></a>Popna fjárhagsskýrslu
 Til að opna skýrslu, veljið heiti skýrslu. Í fyrsta sinn sem skýrsla er opnað, er hún sjálfvirkt mynduð fyrir fyrri mánuð. Til dæmis, ef skýrsla er opnuð í fyrsta sinn í Ágúst 2015 er hún mynduð fyrir 31. Júlí 2015. Eftir að skýrsla er opnuð er hægt að hefja skoðun á henni með þvi að kafa niður í sértæka gagnahluta og breyta valkostum skýrslu.
@@ -76,8 +75,7 @@ Eftir að þú hefur lokið við stillingar á valkostum prentunar skaltu smella
 ## <a name="export-a-financial-report"></a>Flytja út fjárhagsskýrslu
 Til að flytja út fjárhagsskýrslu, á Aðgerðasvæðinu skal smellt á **Birta**. Skýrslan er flutt út í Microsoft Excel og vafrinn biður þig að opna eða vista útfluttar skrár. útflutningsstillingar sem eru skilgreindar í skýrsluhönnuninni eru notaðar fyrir útfluttar skýrslu.    
 
-<a name="additional-resources"></a>Frekari tilföng
---------
+## <a name="additional-resources"></a>Frekari tilföng
 
 [Fjárhagsskýrslugerð](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

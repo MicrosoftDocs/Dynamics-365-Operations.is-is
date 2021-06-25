@@ -9,6 +9,7 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -16,17 +17,16 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f7ff7ea28f8417d4c35f87e0d8fef46d647f42e4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019103"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193673"
 ---
 # <a name="commerce-home-page"></a>Heimasíða Commerce
 
 [!include [banner](includes/banner.md)]
-
 
 Dynamics 365 Commerce – byggir á margreyndum eiginleikum Dynamics 365 Retail – skilar lausn fyrir alhliða samskipti sem sameinar bakvinnslu, verslun, þjónustuver og stafræna upplifun. Dynamics 365 Commerce gerir þér kleift að byggja upp hollustu vörumerkis með persónulegum viðskiptum við viðskiptavini, auka tekjur með bættri framleiðni starfsmanna, hámarka rekstur til að draga úr kostnaði og auka skilvirkni framboðs keðjunnar og skila á endanum betri viðskiptaniðurstöðum.
 
@@ -38,21 +38,23 @@ Dynamics 365 Commerce – byggir á margreyndum eiginleikum Dynamics 365 Retail 
 
 - **Sveigjanleg og snjöll allsherjarupplifun:** Sameinaðu efnislega og stafræna verslun með því að veita viðskiptavinum stöðuga reynslu í gegnum skýjaleit og uppgötvun, afurðaumsagnir, óskalista, birgðir, gjafakort og hollustu. Leyfðu viðskiptavinum að kaupa hvenær, hvernig og hvar þeir vilja, í hvaða tæki sem er - um leið og þú býður upp á nútímalegan greiðslumáta og vöruöflun eða afhendingu.
 
-- **Einfaldaðar aðgerðir með gervigreind í skýinu:** Keyrðu reynslu af heildarviðskiptum og samþættar, fínstilltar bakvinnsluaðgerðir með inngróinni, umfangsmikilli og samhengisvitandi skýjagreind. Notaðu háþróaðan varning, birgðastjórnun, dreifða pöntunarstjórnun og verðlagningu og kynningu til að koma á nýjungum og vera á undan í samkeppni. Fáðu innsæi með því að sjá og greina ítarleg og stöðug gögn yfir alla þætti fyrirtækisins. Notaðu gervigreindardrifna tækni til að bjóða upp á aðgengilegar vefsíður, vernda fyrirtæki þitt gegn greiðslusvikum og breyta notandamynduðu efni á árangursríkan hátt, eins og einkunnir og umsagnir. 
+- **Einfaldaðar aðgerðir með gervigreind í skýinu:** Keyrðu reynslu af heildarviðskiptum og samþættar, fínstilltar bakvinnsluaðgerðir með inngróinni, umfangsmikilli og samhengisvitandi skýjagreind. Notaðu háþróaðan varning, birgðastjórnun, dreifða pöntunarstjórnun og verðlagningu og kynningu til að koma á nýjungum og vera á undan í samkeppni. Fáðu innsæi með því að sjá og greina ítarleg og stöðug gögn yfir alla þætti fyrirtækisins. Notaðu gervigreindardrifna tækni til að bjóða upp á aðgengilegar vefsíður, vernda fyrirtæki þitt gegn greiðslusvikum og breyta notandamynduðu efni á árangursríkan hátt, eins og einkunnir og umsagnir.
 
 ## <a name="core-concepts-and-tasks"></a>Grunnhugtök og verk
 
 Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
+
 - [Skilgreina forskoðunarumhverfi fyrir Commerce](provisioning-guide.md)
 - [Arkitektúr í Commerce](./commerce-architecture.md)
 - [Setja upp rásirnar þínar](channels-overview.md)
-- [Markaðssetning á afurðunum þínum og þjónustu](set-up-retail-products.md)
+- [Markaðssetja afurðir þínar og þjónustu](set-up-retail-products.md)
 - [Hafa umsjón með pöntununum þínum](Order-fulfillment-overview.md)
 - [Vinna með viðskiptavini þína](set-up-customer-loyalty-program.md)
 - [Haltu utan um fjármálin](retail-statements.md)
 - [Vinna með svæðið þitt fyrir rafræn viðskipti](online-store-overview.md)
 - [Svikavörn](dev-itpro/DFP.md)
-- [Viðskiptaþróun og stækkunarhæfni](dev-itpro/dev-retail-home-page.md)
+- [Þróun og stækkunarhæfni Commerce](dev-itpro/dev-retail-home-page.md)
 
+## <a name="elearning-courses"></a>Rafræn námskeið
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Netnámskeið og þjálfun má finna í [Dynamics 365 Commerce á Microsoft Learn](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path).

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812683"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187968"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>kerfisskilgreindar og notandaskilgreindar taflaskorður.
 
@@ -57,8 +57,7 @@ Kerfisskilgreind töfluskorða stpfmar gagnvirkri vörpun á milli gerð eiginda
 
 Áður en töfluskorðu getur tekið gildi í afbrigðalíkani afurðar, verður töfluskorðunni að vera innifalin í skorðu í einum af íhlutum líkans. Ferlið er að stofna nýja skorðu, velja gerð töfluskorðu og veljið síðan skilgreiningu töfluskorðu sem nota á. Loks, öll svæði í töfluskorðunni verða að varpa eigindum í afbrigðalíkani afurðar.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit afbrigðalíkön afurðar](product-configuration-models.md)
 

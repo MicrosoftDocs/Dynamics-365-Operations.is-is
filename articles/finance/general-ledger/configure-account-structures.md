@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7565dac61546ba87f5bf4605d3c6beceef7ac980
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 22123eb7a46910a2bc68a85b57271cfa2f3eb41e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821890"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193807"
 ---
 # <a name="configure-account-structures"></a>Skilgreina lykilskipulög
 
@@ -46,9 +46,9 @@ Til að sýna bestu starfsvenjur við uppsetningu lykilskipulags skulum við ger
 
 **Skipulag rekstrarreiknings**
 
-|Aðallykill          | Viðskiptaeining    |Deild          | Kostnaðarstaður    |
-|----------------------|-----------|----------------------|-----------|
-|400000..999999 | *;” “|*;” “|*;” “|*;” “|
+|Aðallykill          | Viðskiptaeining    |Deild          | Kostnaðarstaður    | &nbsp; |
+|----------------------|------------------|--------------------|-----------|---|
+|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
 
 **Ítarleg regla til að bæta við viðskiptavini**
 

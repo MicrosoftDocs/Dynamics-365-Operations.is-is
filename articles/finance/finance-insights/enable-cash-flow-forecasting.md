@@ -2,7 +2,7 @@
 title: Virkja sjóðstreymisspá (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum „Sjóðstreymisspár“ í fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818729"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222559"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Virkja sjóðstreymisspá (forskoðun)
 
@@ -37,7 +37,7 @@ ms.locfileid: "5818729"
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Ef verið er að setja upp Microsoft Dynamics 365 Finance sem Service Fabric-uppsetningu er hægt að sleppa þessu skrefi. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikana á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á þeim skal hafa samband við <fiap@microsoft.com>.
+    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>.
   
 2. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
 
@@ -60,10 +60,5 @@ ms.locfileid: "5818729"
     2. Veljið **Stofna spálíkan**.
 
 Frekari upplýsingar um afkastagetu sjóðstreymisspár er að finna í [Sjóðstreymisspár](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Tilkynning um persónuvernd
-
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

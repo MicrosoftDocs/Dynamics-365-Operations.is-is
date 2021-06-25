@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825447"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188272"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
@@ -102,8 +102,7 @@ Ef þú stofnar innkaupapöntun innan samstæðu sem notar samstæðusölupöntu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Fjárhagsvíddir á innkaupasamningum
 Hægt er að afrita fjárhagsvíddir á skjalahausa eða á einstaka línur í innkaupasamningi. Ef þú breytir víddum í haus þjónustusamnings eða samningslínu hefur breytingin ekki áhrif á neinar losaðar pantanir, en hún kemur fram á öllum nýjum pöntunum.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna innkaupasamning](tasks/create-purchase-agreement.md)
 

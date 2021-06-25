@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73f16b00f2af884387e0b135f3b220179eecad86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a3f4729a8a788f4f5b2b2e9923f515b86590b946
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822444"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188809"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 
@@ -31,8 +31,7 @@ ms.locfileid: "5822444"
 Vinnusvæðið **Reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga í kerfið með því að nota getu verkflæðis.
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 
 ### <a name="summary-tiles"></a>Samantektarreitir
 

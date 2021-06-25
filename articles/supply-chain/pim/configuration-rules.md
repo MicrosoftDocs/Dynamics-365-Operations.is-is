@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829571"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190185"
 ---
 # <a name="configuration-rules"></a>Afbrigðareglur
 
@@ -36,8 +36,7 @@ Síðari breytingar á skilgreiningarreglum hafa ekki áhrif á fyrirliggjandi s
 
 **Ábending:** Fyrir aðferðina **Velja** eru afleiddi skilgreiningaflokkurinn, vörunúmer og skilgreining sjálfkrafa valin. Fyrir aðferðina **Afvelja** er ekki hægt að velja afleidda skilgreiningaflokkinn, vörunúmer og skilgreiningu.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir afurðarafbrigði sem byggja á víddum](dimension-based-product-configuration.md)
 

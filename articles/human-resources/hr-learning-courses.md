@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054020"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190233"
 ---
 # <a name="set-up-training-courses"></a>Uppsetning námskeiða
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054020"
 
 Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
 
- <a name="set-up-prerequisites"></a>Uppsetningarforkröfur
----------------------
+##  <a name="set-up-prerequisites"></a>Uppsetningarforkröfur
 
 Eftirfarandi upplýsingar þarf og setja verður upp áður en hægt er að stofna námskeið.
 -   **Námskeiðsgerðir**
@@ -127,8 +126,7 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 ## <a name="course-participants"></a>Þátttakendur á námskeiði
 Þátttakendur á námskeiði eru starfsmenn sem taka þátt í þjálfunarnámskeiði eða atburði. Aðeins er hægt að skrá þátttakendur í opin námskeið. Lágmarks og hámarksfjöldi þátttakenda sem hægt er að skrá á námskeið er skilgreindur á flýtiflipanum **Almennt** í skjámyndinni **Námskeið**.
 
-<a name="workflow"></a>Verkflæði
---------
+## <a name="workflow"></a>Verkflæði
 
 Starfsmenn sem skrá sig á námskeið gegnum í **Starfsmanns sjálfsafgreiðsla** síðu geta verið með skráningu beint í gegnum verkflæði fyrir samþykki. Þú getur úthlutað verkflæði fyrir námskeið í flýtiflipanum **Almennt** á síðunni **Námskeið**.
 

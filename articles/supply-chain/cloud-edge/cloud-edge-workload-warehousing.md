@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980950"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184023"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -71,7 +71,7 @@ Miðstöðin á eftirfarandi gögn:
 - Úthlutun pöntunar og hleðsluvinnsla á útleið
 - Ferli losunar í vöruhús, stofnun sendingar, bylgjustofnun og bylgjulok
 
-Einingarkvarðarnir eiga raunverulegu bylgjuvinnsluna (á borð við verkúthlutun, áfyllingarvinnu og eftirspurnarvinnu) þegar bylgja hefur verið losuð. Starfskraftar í vöruhúsi geta þar af leiðandi unnið úr vinnu á útleið með farsímaforriti vöruhúsakerfis sem er tengt við einingarkvarðann.
+Einingarkvarðarnir eiga raunverulegu bylgjuvinnsluna (á borð við verkúthlutun, áfyllingarvinnu og eftirspurnarvinnu) þegar bylgja hefur verið losuð. Starfskraftar í vöruhúsi geta þar af leiðandi unnið úr vinnu á útleið með farsímaforriti Warehouse Management sem er tengt við einingarkvarðann.
 
 ![Vinnsluflæði bylgju](./media/wes-wave-processing-ga.png "Vinnsluflæði bylgju")
 
@@ -103,7 +103,7 @@ Skrá verður inn á miðstöðina til að nota ferlið *Losa í vöruhús*. Far
 
 Þegar **Sjálfvirk losun innkaupapantana** er notuð er hægt að velja tilteknar innkaupapöntunarlínur sem byggja á fyrirspurn. Dæmigerð atburðarás væri að setja upp endurtekna runuvinnslu sem losar allar staðfestar innkaupapöntunarlínur sem búist er við að berist næsta dag.
 
-Starfskrafturinn getur keyrt móttökuferlið með farsímaforriti vöruhúsakerfis sem er tengt við einingarkvarðann. Gögnin eru svo skráð af einingarkvarðanum og tilkynnt gagnvart vöruhúsapöntun á innleið. Stofnun og vinnsla frágangs sem fylgir í kjölfarið verður einnig meðhöndluð af einingarkvarðanum.
+Starfskrafturinn getur keyrt móttökuferlið með farsímaforriti Warehouse Management sem er tengt við einingarkvarðann. Gögnin eru svo skráð af einingarkvarðanum og tilkynnt gagnvart vöruhúsapöntun á innleið. Stofnun og vinnsla frágangs sem fylgir í kjölfarið verður einnig meðhöndluð af einingarkvarðanum.
 
 Ef þú ert ekki að nota ferlið *losa í vöruhús* og ert þar af leiðandi ekki að nota *vöruhúsapantanir*, getur miðstöðin unnið úr móttöku vöruhúss og úrvinnslu vinnu á eigin vegum úr einingarkvörðum.
 
@@ -150,7 +150,7 @@ Eftirfarandi verkbeiðnigerðir eru studdar fyrir vinnuálag WES sem stendur í 
 Engar aðrar úrvinnslur á upprunaskjalagerðum eða vöruhúsavinnu eru studdar sem stendur í einingakvörðum. Til dæmis, fyrir WES-vinnuálag í einingakvarða, er ekki hægt að framkvæma móttökuferli flutningspöntunar (innhreyfingar flutnings), þetta þarf tilvik miðstöðvar að vinna úr.
 
 > [!NOTE]
-> Valmyndaratriði og hnappar fartækis fyrir óstuddar aðgerðir eru ekki sýnd í _Farsímaforriti vöruhúsakerfis_ þegar það er tengt við uppsetningu einingarkvarða.
+> Valmyndaratriði og hnappar fartækis fyrir óstuddar aðgerðir eru ekki sýnd í _Farsímaforriti Warehouse Management_ þegar það er tengt við uppsetningu einingarkvarða.
 
 > [!WARNING]
 > Þegar vinnuálag er notað í einingarkvarða er ekki hægt að keyra óstudd ferli fyrir það tiltekna vöruhús í miðstöðinni. Töflurnar sem eru síðar í þessu efnisatriði lýsa studdum eiginleikum.
@@ -180,7 +180,7 @@ Eftirfarandi virkni vöruhúsastjórnunar er ekki studd eins og er fyrir vinnuá
 - Vinnsla vöruhúsavinnu með sérsniðnum vinnugerðum
 - Vinnsla vöruhúsavinnu með athugasemdum sendingar
 - Vinna vinnslu í vöruhúsi með efnismeðhöndlun/warehouse automation
-- Notkun á mynd afurðarsniðmátsgagna (til dæmis farsímaforrit vöruhúsakerfis)
+- Notkun á mynd afurðarsniðmátsgagna (til dæmis farsímaforrit Warehouse Management)
 
 > [!WARNING]
 > Sumar vöruhúsaaðgerðir verða ekki í boði fyrir vöruhús sem keyra vinnuálag vöruhúsakerfisins í einingarkvarða og eru ekki heldur studdar í vinnuálagi miðstöðvar eða einingarkvarða.
@@ -289,14 +289,15 @@ Eftirfarandi tafla sýnir hvaða eiginleikar vöruhúsaaðgerða og meðhöndlun
 | Breyta vinnuhópi á vinnu                           | Já | Já                          |
 | Hætta við vinnu                                        | Já | Já                          |
 
-
 ### <a name="production"></a>Framleiðsla
 
-Framleiðsluaðstæður vöruhúsakerfis eru ekki studdar sem stendur í vinnuálagi einingarkvarða eins og tilgreint er í eftirfarandi töflu.
+Eftirfarandi tafla dregur saman hvaða framleiðsluaðstæður vöruhúsakerfi eru (og eru ekki) studdar eins og er í vinnuálagi einingakvarða.
 
 | Vinna | Stöð | Vinnuálag WES í einingarkvarða |
 |---------|-----|------------------------------|
-| <p>Öll vöruhúsakerfisferli sem tengjast framleiðslu. Hér eru nokkur dæmi:</p><li>Losa í vöruhús</li><li>Bylgjuvinnsla framleiðslu</li><li>Tiltekt hráefnis</li><li>Frágangur RAF og fullunninna vara</li><li>Frágangur aukaafurða og hliðarafurða</li><li>Kanban-frágangur</li><li>Kanban-tiltekt</li><li>Hefja framleiðslupöntun</li><li>Framleiðslurýrnun</li><li>Síðasta bretti framleiðslu</li><li>Skrá efnisnotkun</li><li>Tæma kanban</li></ul> | Já | Ekkert |
+| Tilkynna sem lokið og frágangur tilbúinna afurða | Já | Já |
+| Frágangur aukaafurða og hliðarafurða | Já | Já |
+| <p>Öll önnur vöruhúsakerfisferli sem tengjast framleiðslu, þ.m.t.:</p><li>Losa í vöruhús</li><li>Bylgjuvinnsla framleiðslu</li><li>Tiltekt hráefnis</li><li>Kanban-frágangur</li><li>Kanban-tiltekt</li><li>Hefja framleiðslupöntun</li><li>Framleiðslurýrnun</li><li>Síðasta bretti framleiðslu</li><li>Skrá efnisnotkun</li><li>Tæma kanban</li></ul> | Já | Ekkert |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Vinna með einingarkvörðum fyrir WES
 

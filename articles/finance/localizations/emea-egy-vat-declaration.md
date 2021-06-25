@@ -2,7 +2,7 @@
 title: Vsk-skýrsla fyrir Egyptaland
 description: Þetta efnisatriði útskýrir hvernig á að skilgreina og mynda eyðublað VSK-framtals fyrir Egyptaland.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021957"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186615"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Vsk-skýrsla fyrir Egyptaland (EG-00002)
 
@@ -85,6 +85,7 @@ Skýrslur sölu- og innkaupabóka fyrir Egyptaland innihalda dálkasafn sem sams
 - **VATRateTypeLookup** > Dálkur B: Skattgerð
 - **VATRateTypeLookup** > Dálkur C: Gerð töfluatriðis
 - **PurchaseOperationTypeLookup** > Dálkur A: Tegund skjals
+- **CustomerTypeLookup** > Dálkur A: Gerð skjals
 - **SalesOperationTypeLookup** > Dálkur N: Gerð aðgerðar
 - **SalesItemTypeLookup** > Dálkur O: Tegund atriðis
 
@@ -98,6 +99,8 @@ Ljúkið eftirfarandi skrefum til að setja upp mismunandi uppflettingar sem not
 6. Endurtakið skref 3-5 fyrir allar tiltækar uppflettingar.
 7. Veljið **Bæta við** til að taka með síðustu færslulínuna og í dálknum **Niðurstaða uppflettingar** skal velja **Á ekki við**. 
 8. Í dálkunum sem eru eftir skal velja **Ekki autt**. 
+9. Í reitnum **Staða** skal velja **Lokið**.
+10. Veljið **Vista** og lokið síðan skjámyndinni **Sértækar færibreytur forrits**.
 
 > [!NOTE]
 > Þegar síðustu færslunni er bætt við, **Á ekki við**, er eftirfarandi regla skilgreind: Þegar VSK-flokkur, VSK-flokkur vöru, skattkóði og heiti sem notað er sem frumbreyta uppfyllir ekki neina af fyrri reglum, verða færslurnar ekki hafðar með í VSK-bók útskatts. Þótt þessi regla sé ekki notuð þegar skýrsla er búin til, þá hjálpar hún til við að koma í veg fyrir villur í myndun skýrslu þegar skilgreiningu reglu vantar.
@@ -138,7 +141,7 @@ Eftirfarandi töflur eru dæmi um tillögu að skilgreiningu fyrir útskýrðar 
 | Þjónustur       | 7    | VAT_SERV                | *Ekki autt* | SaleExempt            |
 | Þjónustur       | 8    | VAT_SERV                | *Ekki autt* | SalesExemptCreditNote |
 | Leiðréttingar    | 9    | *Autt*                 | VAT_ADJ     | Sala                 |
-| Leiðréttingar    | 10   | *Autt*                 | VAT_ADJ     | Innkaup              |
+| Leiðréttingar    | 10   | *Autt*                 | VAT_ADJ     | SalesCreditNote       |
 | Ekki tiltækt | 11   | *Ekki autt*             | *Ekki autt* | *Ekki autt*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Eftirfarandi töflur eru dæmi um tillögu að skilgreiningu fyrir útskýrðar 
 | Vörur                  | 1    | VAT_GOODS               | *Ekki autt* | Innkaup                 |
 | Vörur                  | 2    | VAT_GOODS               | *Ekki autt* | PurchaseCreditNote       |
 | Þjónustur               | 3    | VAT_SERV                | *Ekki autt* | Innkaup                 |
-| Þjónustur               | 4    | VAT_SERV                | *Ekki autt*  | PurchaseCreditNote       |
+| Þjónustur               | 4    | VAT_SERV                | *Ekki autt* | PurchaseCreditNote       |
 | Vél og búnaður  | 5    | VAT_M&E                 | *Ekki autt* | Innkaup                 |
 | Vél og búnaður  | 6    | VAT_M&E                 | *Ekki autt* | PurchaseCreditNote       |
 | Vélarhlutar         | 7    | VAT_PARTS               | *Ekki autt* | Innkaup                 |
 | Vélarhlutar         | 8    | VAT_PARTS               | *Ekki autt* | PurchaseCreditNote       |
 | Undanþágur             | 9    | VAT_EXE                 | *Ekki banki*  | PurchaseExempt           |
 | Undanþágur             | 10   | VAT_EXE                 | *Ekki autt* | PurchaseExemptCreditNote |
-| Ekki tiltækt         | 11   | *Autt*                 | VAT_ADJ     | *Ekki autt*              |
-| Ekki tiltækt         | 12   | *Ekki autt*             | *Ekki autt* | *Ekki autt*              |
-| Ekki tiltækt         | 13   | *Autt*                 | *Ekki autt* | *Ekki autt*              |
+| Ekki tiltækt         | 11   | *Ekki autt*             | *Ekki autt* | *Ekki autt*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Eftirfarandi töflur eru dæmi um tillögu að skilgreiningu fyrir útskýrðar 
 | Leiðréttingar    | 9    | *Autt*          | VAT_ADJ     | PurchaseCreditNote       |
 | Leiðréttingar    | 10   | *Autt*          | VAT_ADJ     | Innkaup                 |
 | Ekki tiltækt | 11   | *Ekki autt*      | *Ekki autt* | *Ekki autt*              |
+
+**CustomerTypeLookup**
+
+|    Niðurstaða uppflettingar    | Lína | VSK-flokkur |
+|---------------------|------|-----------------|
+| Stofnun/fyrirtæki        |  1   | VAT_LOCAL       |
+| Stofnun/fyrirtæki        |  2   | VAT_EXPORT      |
+| Stofnun/fyrirtæki        |  3   | VAT_EXE         |
+| Lokaneytandi      |  4   | VAT_FINALC      |
+| Opinbert fyrirtæki |  5   | VAT_PUBLIO      |
+| Á ekki við      |  6   | *Ekki autt*     |
 
 **VATRateTypeLookup**
 

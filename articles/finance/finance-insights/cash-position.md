@@ -2,7 +2,7 @@
 title: Reiðufjárstaða (forskoðun)
 description: Þetta efnisatriði lýsir því hvernig eiginleikinn fyrir sjóðstreymisspá spáir fyrir um reiðufjárstöðu fyrirtækis á tilteknum tímum. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123391"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186493"
 ---
 # <a name="cash-position-preview"></a>Reiðufjárstaða (forskoðun)
 
@@ -48,6 +48,5 @@ Til að vista og breyta sjóðsstöðu skal búa til skyndimynd. Frekari upplýs
 
 #### <a name="privacy-notice"></a>Tilkynning um persónuvernd
 Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

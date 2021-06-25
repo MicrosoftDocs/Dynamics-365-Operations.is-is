@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835269"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188687"
 ---
 # <a name="sepa-direct-debit-overview"></a>Yfirlit yfir SEPA beint debet
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835269"
 
 Í Einni Evru Greiðslur Svæði (SEPA) er sett upp með Evrópska Þóknun og ákvarðar hverng sem teljast rafrænar greiðslur innanlands, land/svæði þar sem einstaka viðskiptum eða fyrirtækisins og bankans er staðsettur. Það er enginn mismunur innanlandsgreiðslur og landamæri greiðslur. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) sem og Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>Hvert er markmiðið SEPA beint debet?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>Hvert er markmiðið SEPA beint debet?
 
 SEPA-beingreiðsla leyfir lánardrottins til að safna fjármagn frá bankareikningi viðskiptavinar, svo lengi sem undirrituð umboðið hefur verið veitt af viðskiptavini til lánardrottins. Viðskiptavinurinn skrifar umboð heimilar lánardrottins til að safna greiðslu og instructs banka viðskiptavinar til greiðslu í innheimtu. 
 

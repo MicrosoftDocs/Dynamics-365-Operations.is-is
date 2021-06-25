@@ -2,7 +2,7 @@
 title: Yfirlit yfir skyndimyndir (forskoðun)
 description: Þetta efnisatriði lýsir skyndimyndeiginleikanum sem gerir notanda kleift að vista sjóðsstreymisspá fyrir greiningu eða samanburð við rauntölur síðar. Þegar búið er að mynda sjóðsstreymisspá er hægt að vista þá spá sem „skyndimynd“. Síðan er hægt að nota skjámyndirnar til að breyta lyklunum sem voru teknir með í spánni eða bera spá í skyndimynd saman við rauntölur.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827243"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186591"
 ---
 # <a name="snapshots-overview-preview"></a>Yfirlit yfir skyndimyndir (forskoðun)
 
@@ -42,9 +42,5 @@ Hægt er að breyta sjóðsinnstreymi og -útstreymi í skyndimynd hvenær sem e
 Til að bera saman margar skyndimyndir skal velja **Bera saman skyndimyndir**. Hægt er að bera saman tvær skyndimyndir í einu. Veljið tvær skyndimyndir til að bera saman og svo **Í lagi**. Á síðunni **Bera saman skyndimyndir** birtist samanburður á völdum skyndimyndum. Í töflunni á efri hluta síðunnar er að sjá samanburð á sjóðsinnstreymi og ráðstöfun handbærs fjár og stöðum í banka á þeim tímabilum sem skarast á milli skyndimyndanna tveggja. Hnitanetið í neðri hlutanum sýnir nákvæman samanburð á spánum tveimur fyrir hverja greiðslugetu. Dálkurinn **Frávik** á hnitanetinu sýnir muninn á milli staða á tímabili.
 
 Til að bera saman raunverulegar fjárhagsniðurstöður við spá sem var vistuð sem skyndimynd skal velja **Bera saman við rauntölur**. Á síðunni **Bera saman skyndimynd** birtist samanburður á raunupphæðum og spánni. Í töflunni á efri hluta síðunnar er að sjá samanburð á sjóðsinnstreymi og ráðstöfun handbærs fjár og stöðum í banka á þeim tímabilum sem skarast á milli skyndimyndanna tveggja. Hnitanetið á neðri hlutanum sýnir nákvæman samanburð á raunstöðu á hverju tímabili og spástöðu fyrir hverja greiðslugetuupphæð. Dálkurinn **Frávik** á hnitanetinu sýnir muninn á milli raunstöðu á tímabili og spástöðu.
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (júlí 2021)
+title: Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123415"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187627"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (júlí 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123415"
 Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.20. Þessi útgáfa er með byggingarnúmer 10.0.886 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** maí 2021
-- **Almennt framboð losunar (handvirk uppfærsla):** Júní 2021
+- **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Júlí 2021
 - **Almennt framboð losunar (sjálfvirk uppfærsla):** Júlí 2021
+
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 

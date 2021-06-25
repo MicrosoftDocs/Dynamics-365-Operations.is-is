@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835485"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189494"
 ---
 # <a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835485"
 
 Bókunarreglur lánardrottins stýra bókun á færslum lánardrottins í fjárhag.
 
-<a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
------------------------
+## <a name="vendor-posting-profiles"></a>Bókunarreglur lánardrottna
 
 Bókunarreglur lánardrottina gera þér kleift að úthluta fjárhagslyklum og skjalastillingum á alla lánardrottna, hóp af lánardrottnum eða einn lánardrottinn. Þessar stillingar verður notaðar þegar þú stofnar innkaupapantanir, lánardrottnalykla og staðgreiðslur. Fyrir sumar færslur geturðu valið bókunarreglu sem er frábrugðin og sem hefur forgang fram yfir bókunarregluna sem er sett upp fyrir færslur í þessar skjámynd. Sjálfgefin bókunarregla er skilgreind á flýtiflipanum **Fjárhagur og Virðisaukaskattur** á síðunni **Færibreytur viðskiptaskulda**. Sjálfgefin bókunarregla er síðan sjálfvirkt tekin með í haus nýrra skjala þar sem hægt er að breyta henni í aðra bókunarreglu ef þörf krefur.
 

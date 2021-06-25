@@ -16,12 +16,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdbe74f2f71d0fbd3c237cceb6b184747636e9a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d9d828e2413a20c4e61d162a31d3c2ed2b18718b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821490"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187675"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
 
@@ -39,8 +39,7 @@ Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fyl
 
 Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað. Hins vegar er ekki hægt að afrita kostnaðargögn vöru yfir í kostnaðarútgáfu sem inniheldur staðalkostnað, þar sem takmarkanirnar sem er lýst fyrr í þessu efnisatriði eiga ekki við áætlaðan kostnað.
 
-<a name="related-topics"></a>Tengd efnisatriði
---------
+## <a name="related-topics"></a>Tengd efnisatriði
 
 [Yfirlit kostnaðarútgáfa](costing-versions.md)
 

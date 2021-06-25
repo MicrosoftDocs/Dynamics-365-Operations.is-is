@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837178"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188759"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Um bókhaldsfærslur dreifingar og undirbókar færslna fyrir reikninga með frjálsum texta
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837178"
 
 Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert verður grein fyrir upphæð, eins og hvernig gert verður grein fyrir tekjur, skatta eða gjöld á reikningi með frjálsum texta Hver upphæð sem verður að gera grein fyrir þegar reikningur með frjálsum texta er skráður mun hafa eina eða fleiri dreifingar á fjárhagsupphæð.
 
-<a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
-------------------------
+## <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
 Hægt er að nota eftirfarandi hnappanna í reikningur með frjálsum texta síðunni reikningur lánardrottins til að skoða og mögulega breyta, dreifingar á fjárhagsupphæð síða fyrir hverja upphæð á reikningur með frjálsum texta.
 

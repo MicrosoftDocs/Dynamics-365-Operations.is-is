@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 834dc64ce531fb614bc7836e0def16f27ecf5e18
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835125"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188639"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Setja upp og vinna með endurtekna reikninga
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835125"
 
 Í þessari grein er því lýst hvernig endurtekinn reikningur er sett upp og unnið. Þú getur notað endurtekinn reikningur ef þú þarft að senda viðskiptavinur reikning fyrir sama upphæð reglulega.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Stofna sniðmát fyrir endurtekna textareikninga
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>Stofna sniðmát fyrir endurtekna textareikninga
 
 Til að reikningsfæra viðskiptavini fyrir sömu þjónustu reglulega, verður að skilgreina sniðmát textareiknings sem hægt er að endurnýta til að stofna reikninga. Sniðmátið inniheldur eftirfarandi upplýsingar:
 
@@ -52,13 +51,11 @@ Viðskiptavinur getur haft mörg sniðmát sem hafa mismunandi tíðnir.
 ## <a name="generate-the-recurring-invoices"></a>Búa til endurtekna reikninga
 Á síðunni **Endurteknir reikningar** er verk sem vinnur úr endurteknum reikningum. Þú tilgreinir dagsetningu reiknings og sniðmát til að mynda reikninga úr. Reikningar verða myndaðir og úthlutað á eitt kenni endurtekningar fyrir hvern flokk af reikningum sem eru unnir.
 
-<a name="post-recurring-free-text-invoices"></a>Bóka endurtekna textareikninga
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>Bóka endurtekna textareikninga
 
 Eftir að endurteknir reikningar eru búnir til birtast kenni endurtekinna reikninga í bókunarverki á síðunni **Endurteknir reikningar**. Hægt er að skoða alla reikninga fyrir kenni endurtekningar með því að smella á tengilinn. Við endurskoðun reikninga fyrir kenni endurtekningar er hægt að eyða einstökum reikningum. Endurtekningarstillingar viðskiptavinar verða endurstilltar fyrir sniðmátið, þannig að hægt er að endurmynda það síðar. Hægt er að bóka einn, marga eða alla reikninga fyrir endurtekningu. Ef verkflæði eru virkjuð þarf að smella á **Senda** áður en hægt er að bóka reikninga.
 
-<a name="print-recurring-free-text-invoices"></a>Prenta endurtekna textareikninga
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>Prenta endurtekna textareikninga
 
 Eftir að endurteknir reikningar hafa verið bókaðir er hægt að prenta reikningana úr listasíðu textareikningsins. Hægt er að prenta reikninga sem eru valdar, eða hægt er að velja bil reikninga sem á að prenta.
 

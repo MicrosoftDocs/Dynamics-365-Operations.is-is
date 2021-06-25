@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947545"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193231"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5947545"
 
 ### <a name="job-card-device"></a>Verkspjaldstæki
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Ástæða úreldingar/fjarlægingar** | Verið er að skipta út [verkspjaldstækinu](../production-control/config-job-card-device.md) fyrir nýtt [keyrsluviðmót framleiðslugólfs](../production-control/production-floor-execution-configure.md). |
 | **Skipt út fyrir aðra eiginleika?**   | Já, skipta á út [verkspjaldstækinu](../production-control/config-job-card-device.md) fyrir nýtt [keyrsluviðmót framleiðslugólfs](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ ms.locfileid: "5947545"
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Vöruhúsaforrit (vöruhúsaforritið)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frá apríl 2021 er *Dynamics 365 for Finance and Operations - Vöruhús* (þetta vöruhúsaforrit) úrelt og það verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
 | **Skipt út fyrir aðra eiginleika?**   | Já, skipt út fyrir nýtt farsímaforrit vöruhúsakerfis. |
@@ -62,7 +62,7 @@ ms.locfileid: "5947545"
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 stuðningi við Dynamics 365 hefur verið hætt
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
@@ -72,7 +72,7 @@ ms.locfileid: "5947545"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Notkun á aðaláætlunarvél fyrir innbyggða Supply Chain Management fyrir framleiðsluaðstæður
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Til að auka afköst og draga úr álagi SQL-gagnagrunns við keyrslu aðaláætlunar er verið að skipta út grunnstillingu á Supply Chain Management vél fyrir fínstilling áætlanagerðar. Fínstilling áætlanagerðar gerir kleift að keyra hraða áætlanagerð sem jafnvel er hægt að framkvæma á skrifstofutíma. Þetta gerir skipuleggjendum kleift að bregðast tafarlaust við breytingum á eftirspurn eða áætlunarfæribreytum. |
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
@@ -84,7 +84,7 @@ ms.locfileid: "5947545"
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Notkun á aðaláætlunarvél fyrir innbyggða Supply Chain Management fyrir dreifingaraðstæður
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Til að auka afköst og draga úr álagi SQL-gagnagrunns við keyrslu aðaláætlunar er verið að skipta út grunnstillingu á Supply Chain Management vél fyrir fínstilling áætlanagerðar. Fínstilling áætlanagerðar gerir kleift að keyra hraða áætlanagerð sem jafnvel er hægt að framkvæma á skrifstofutíma. Þetta gerir skipuleggjendum kleift að bregðast tafarlaust við breytingum á eftirspurn eða áætlunarfæribreytum. |
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |

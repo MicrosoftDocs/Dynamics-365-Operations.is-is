@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807849"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188489"
 ---
 # <a name="vendor-portal-user-security"></a>Öryggi notanda í gátt lánardrottins
 
@@ -40,8 +40,7 @@ Virknin gátt Lánardrottins hefur verið skipt út fyrir virknina aukið samsta
 
 Ef sami einstaklingur krefst aðgangs að gátt lánardrottins fyrir marga lánardrottna (kannski fyrir mismunandi lögaðila) verður hver notendareikningur þess einstaklings að vera tengdur sama skráðum tengilið. Hlutverkið **Lánardrottinn (ytri)** inniheldur alla grunngetu sem þarf til að nota aðgerðirnar sem eru tiltækar í gátt lánardrottins. Þessi uppsetning hjálpar til við að tryggja að samræmt notendaviðmót sem ytri notandinn sér leggi aðeins áherslu á ætlaðar aðstæður.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Samstarf með lánardrottnum í gegnum gátt lánardrottins](collaborate-vendors-vendor-portal.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822904"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187998"
 ---
 # <a name="overhead-calculation"></a>Útreikningur fastakostnaður
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822904"
 
 Þetta efnisatriði lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði.
 
-<a name="term-definition"></a>Skýrsluskilgreining
----------------
+## <a name="term-definition"></a>Skýrsluskilgreining
 
 Stjórnunarkostnaður er sá kostnaður sem stofnað er til fyrir rekstur fyrirtækis, en sem ekki er hægt að rekja beint til neinna sérstakrar starfsemi, vöru eða þjónustu. Stjórnunarkostnaður veitir mikilvægan stuðning við myndun hagnaðarmyndandi verkþátta. Hér eru nokkur dæmi um skilyrði:
 

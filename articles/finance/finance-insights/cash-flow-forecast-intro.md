@@ -2,7 +2,7 @@
 title: Sjóðstreymispá (forútgáfa)
 description: Þetta efnisatriði lýsir eiginleika sjóðsstreymisspár.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811412"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186541"
 ---
 # <a name="cash-flow-forecast-preview"></a>Sjóðstreymispá (forútgáfa)
 
@@ -62,9 +62,5 @@ Sjóðstreymisspáin í Dynamics 365 Finance mun gera fyrirtækinu kleift að um
 Nýr flipi á síðunni **Uppsetning sjóðstreymisspár** gerir notendum kleift að hafa stjórn á því hvaða fjárhagsvíddir eru notaðar fyrir síun í vinnusvæðinu **Sjóðsstreymisspá**. Þessi flipi mun aðeins birtast þegar eiginleiki sjóðstreymisspár er virkur. 
 
 Á flipanum **Víddir** skal velja víddir af listanum sem á að nota fyrir síun og nota örvalyklana til að fara þá í dálkinn til hægri. Aðeins er hægt að velja tvær víddir til að sía spárgögn sjóðstreymisspár. 
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

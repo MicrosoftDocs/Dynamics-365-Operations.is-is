@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821938"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189022"
 ---
 # <a name="balance-sheet-financial-reports"></a>Fjárhagsskýrslur efnahagsreikninga
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821938"
 
 Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum. 
 
-<a name="default-balance-sheet-reports"></a>Sjálfgefnar skýrslur efnahagsreikninga
------------------------------
+## <a name="default-balance-sheet-reports"></a>Sjálfgefnar skýrslur efnahagsreikninga
 
 Það eru tvær sjálfgefnar skýrslur efnahagsreikninga. Í einni skýrslunni er köflunum staflað. Í hinni skýrslunni eru kaflarnir hlið við hlið.
 
@@ -68,8 +67,7 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlitssíða fjárhagsskýrslugerðar](financial-reporting-getting-started.md)
 

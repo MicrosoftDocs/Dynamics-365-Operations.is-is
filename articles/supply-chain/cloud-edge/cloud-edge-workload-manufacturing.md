@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899096"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183997"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
 
@@ -72,6 +72,7 @@ Hægt er að keyra eftirfarandi verk framkvæmdar framleiðslu á vinnuálagi þ
 - Tilkynna rýrnun
 - Óbeinn verkþáttur
 - Hlé
+- Tilkynna sem lokið og ganga frá (krefst þess að þú keyrir einnig vinnuálag vöruhúsakeyrslu á einingakvarðanum þínum, sjá einnig [Tilkynna sem lokið og ganga frá á einingakvarða](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Unnið með vinnuálag framkvæmdar framleiðslu í miðstöðinni
 
@@ -108,6 +109,26 @@ Yfirleitt eru áskilin ferli til keyrslu vinnuálags framkvæmdar framleiðslu k
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Skilaboðaúrvinnsla framleiðslumiðstöðvar til vinnslu kvörðunareiningar
 
 Vinnslan _Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar_ vinnur úr gögnum frá miðstöðinni til kvörðunareiningarinnar. Þessi vinnsla hefst sjálfkrafa um leið og vinnuálag framkvæmdar framleiðslu er keyrt. Hins vegar er hægt að keyra slíkt handvirkt hvenær sem er með því að opna **Framleiðslustýringu \> Reglubundin verk \> Stjórnun vinnuálags í bakvinnslu \> Skilaboðaúrvinnsla framleiðslumiðstöðvar til kvörðunareiningar**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Tilkynna sem lokið og ganga frá á einingakvarða
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Í núverandi útgáfu eru aðgerðirnar tilkynna sem lokið og frágangur (fyrir tilbúnar afurðir, aukaafurðir og hliðarafurðir) studdar af [vinnuálagi vöruhúsakeyrslu](cloud-edge-workload-warehousing.md) (ekki vinnuálagi framleiðslukeyrslu). Til að nota þessa virkni þegar tengst er við einingakvarða þarf því að gera eftirfarandi:
+
+- Settu upp bæði vinnuálag vöruhúsakeyrslu og vinnuálag framleiðslukeyrslu í einingakvarðanum.
+- Notaðu farsímaforrit Warehouse Management til að skrá sem tilbúið og vinna úr frágangsverkinu. Keyrsluviðmót framleiðslugólfs styður ekki þessi ferli eins og er.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

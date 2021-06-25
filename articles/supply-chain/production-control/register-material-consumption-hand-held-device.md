@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814537"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189643"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Skrá efnisnotkun með fartæki
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814537"
 
 Þetta efnisatriði lýsir verkflæði sem gerir kleift að skrá hráefnanotkun í framleiðslu með því að nota lófatæki.
 
-<a name="introduction"></a>Inngangur
-------------
+## <a name="introduction"></a>Inngangur
 
 Þessi verkflæði er við hæfi ef strangar kröfur eru um rekjanleika efnis. Í þeim tilvikum verður að skrá nákvæman tíma og magn í hráefnanotkun svo hægt sé að viðhalda rekjanleika þeirra. Það má bera þetta ferli saman við bakfærslukostnaðaraðferðir, þar sem það líður ákveðinn tími milli skráningar og þegar raunveruleg notkun á sér stað. Þetta skýrir hvers vegna er ekki hægt að nota áætlun fyrir sjálfvirka notkun fyrir sum hráefni sem hafa kröfu um rekjanleika. Lítum á einfalt dæmi sem útskýrir hvernig á að setja upp verkflæði til að virkja skráningu hráefnisnotkunar í framleiðslu með handfrjálsu tæki. [![setja upp verkflæði til að virkja skráningu hráefnisnotkunar með handfrjálsu tæki](./media/scenario3.png)](./media/scenario3.png)
 

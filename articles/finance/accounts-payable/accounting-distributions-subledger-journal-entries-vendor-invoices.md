@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820985"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189094"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Dreifing á fjárhagsupphæð og færslur færslubókar fyrir reikninga lánardrottna
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820985"
 
 Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert verður grein fyrir upphæð, eins og hvernig kostnaður, skatta eða gjöld verður að teknir með á reikningi lánardrottins. Hvert upphæð sem verður að vera teknir með þegar reikningur lánardrottins er skráð mun hafa eina eða fleiri dreifingar á fjárhagsupphæð. 
 
-<a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum 
--------------------------
+## <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum 
 
 Hægt er að nota eftirfarandi hnappanna í   síðunni reikningur lánardrottins til að skoða og mögulega breyta, dreifingar á fjárhagsupphæð síða fyrir hverja upphæð á reikningi lánardrottins.
 -   **Dreifa upphæðum** – Skoða og breyta fjárhagsupphæðum fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni VSK-færsla eða síðunni Gjaldfærslur.
@@ -227,8 +226,7 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 </table>
 
 
-<a name="distributing-taxes"></a>Dreifing skatta
-------------------
+## <a name="distributing-taxes"></a>Dreifing skatta
 
 Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa verið reiknaðir. Til að reikna virðisaukaskatt, verður að ljúka eitt af eftirtöldum verkefnum í síðunni reikningur lánardrottins.
 -   Skoða samtölu reiknings.

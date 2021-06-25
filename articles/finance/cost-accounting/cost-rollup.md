@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815765"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189046"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
@@ -149,8 +149,7 @@ Hægt er að setja upp reglur kostnaðarúthlutunar sem hér segir.
 | CC001                                | Samtala         | **Mannauðsþjónusta**        |
 | CC002                                | Samtala         | **Fjármálaþjónusta** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Svona flæðir kostnaður milli kostnaðarstaða 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Svona flæðir kostnaður milli kostnaðarstaða 
 
 Ef þú vilt vita hvernig kostnaður flæðir milli kostnaðarstaða í fyrirtækinu getur þú stofnað kostnaðareiningar af gerðinni **Auka** fyrir hvern kostnaðarstað. Þessar kostnaðareiningar verða þá notaðar til að flytja stöður milli kostnaðarstaða meðan á útreikningi á sameiginlegum kostnaði stendur.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980898"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184126"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -65,7 +65,7 @@ ms.locfileid: "5980898"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Dynamics 365 Finance, Supply Chain Management og Project Operations vörur|
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Frá 1. apríl, 2022, hyggjumst við hætta stuðningi við Microsoft Dynamics Lifecycle Services (LCS) gagnageymslu sem geymsluvalkost fyrir stillingar rafrænnar skýrslugerðar. Nýjar Microsoft skilgreiningar rafrænnar skýrslugerðar verða aðeins birtar fyrir niðurhal úr altæku geymslunni. Hægt er að opna altæku geymsluna úr Dynamics 365 og RCS. Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Staða**                         | Úrelt: Frá 1. apríl, 2022, hyggjumst við hætta stuðningi við Microsoft Dynamics Lifecycle Services (LCS) gagnageymslu sem geymsluvalkost fyrir stillingar rafrænnar skýrslugerðar. Nýjar Microsoft skilgreiningar rafrænnar skýrslugerðar verða aðeins birtar fyrir niðurhal úr altæku geymslunni. Hægt er að opna altæku geymsluna úr Dynamics 365 og RCS. Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) og [Regulatory Configuration Service – geymsluafskrift Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.16 útgáfu
 

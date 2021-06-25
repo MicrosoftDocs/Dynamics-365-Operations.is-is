@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815933"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188465"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Kreditbréf og innflutningssafn
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815933"
 
 Þessi grein veitir almennar upplýsingar Um kreditbréf og innflutningssafn. Báðar tegundir bankaskjala eru oft notuð fyrir kaup og sölu á vörum yfir alþjóðleg landamæri.
 
-<a name="letters-of-credit"></a>Kreditbréf
------------------
+## <a name="letters-of-credit"></a>Kreditbréf
 
 Kreditbréf eru notuð fyrir alþjóðlegar færslur til að tryggja að greiðslur verða greiddar. Skjalaupplýsingar um kreditbréf er samning sem er gefið út af banka, sem bankinn samþykkir til að tryggja að greiðslur fyrir hönd kaupanda, ef skilmálum samningsins milli seljanda og kaupanda eru uppfyllt. Athugið að einnig er vísað til kreditbréfs sem viðskiptaskjals (DC).
 
