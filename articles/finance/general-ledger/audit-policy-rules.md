@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821986"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187869"
 ---
-# <a name="audit-policy-rules"></a><span data-ttu-id="feec9-106">Reglur endurskoðunarstefnu</span><span class="sxs-lookup"><span data-stu-id="feec9-106">Audit policy rules</span></span>
+# <a name="audit-policy-rules"></a><span data-ttu-id="7c0ea-106">Reglur endurskoðunarstefnu</span><span class="sxs-lookup"><span data-stu-id="7c0ea-106">Audit policy rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="feec9-107">Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reikninga lánardrottna og innkaupapantanir til að tryggja að þeir samræmast stefnureglur sem eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="feec9-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="feec9-108">Allar reglur sem eru tengd við endurskoðunarstefnu eru rekin í runuham, samkvæmt áætlun sem þú tilgreinir.</span><span class="sxs-lookup"><span data-stu-id="feec9-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="feec9-109">Hver stefnuregla er tilvik af stefnureglugerð.</span><span class="sxs-lookup"><span data-stu-id="feec9-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="feec9-110">Fyrir hverja stefnureglugerð aðeins einn stefnureglu getur verið virk í einu.</span><span class="sxs-lookup"><span data-stu-id="feec9-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
+<span data-ttu-id="7c0ea-107">Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reikninga lánardrottna og innkaupapantanir til að tryggja að þeir samræmast stefnureglur sem eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="7c0ea-108">Allar reglur sem eru tengd við endurskoðunarstefnu eru rekin í runuham, samkvæmt áætlun sem þú tilgreinir.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="7c0ea-109">Hver stefnuregla er tilvik af stefnureglugerð.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="7c0ea-110">Fyrir hverja stefnureglugerð aðeins einn stefnureglu getur verið virk í einu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 
-<a name="queries-and-query-types"></a><span data-ttu-id="feec9-111">Fyrirspurnir og gerðir fyrirspurna</span><span class="sxs-lookup"><span data-stu-id="feec9-111">Queries and query types</span></span>
------------------------
+## <a name="queries-and-query-types"></a><span data-ttu-id="7c0ea-111">Fyrirspurnir og gerðir fyrirspurna</span><span class="sxs-lookup"><span data-stu-id="7c0ea-111">Queries and query types</span></span>
 
-<span data-ttu-id="feec9-112">Þegar regla endurskoðunarstefnu er stofnuð þarf fyrst að velja stefnureglugerð.</span><span class="sxs-lookup"><span data-stu-id="feec9-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="feec9-113">Gerð reglu tilgreinir fyrirspurn Hugbúnaðarhlutatrénu (AOT) til að nota sem upphafspunkt fyrir þá reglu.</span><span class="sxs-lookup"><span data-stu-id="feec9-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="feec9-114">Það skilgreinir einnig fyrirspurn ferðar til nota fyrir stefnureglu.</span><span class="sxs-lookup"><span data-stu-id="feec9-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="feec9-115">Fyrirspurnin ákvarðar upprunaskjalið sem metur síðan til stefnuregluna.</span><span class="sxs-lookup"><span data-stu-id="feec9-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="feec9-116">Það skilgreinir einnig reiti í upprunaskjali sem auðkenna bæði lögaðila og dagsetningu til að nota þegar skjöl eru valin til endurskoðunar.</span><span class="sxs-lookup"><span data-stu-id="feec9-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="feec9-117">Gerð fyrirspurnar stýrir sjálfgefið svæði í fyrirspurnarskjámynd og í síðunni regla endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="feec9-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="feec9-118">Eftirfarandi tafla sýnir gerðir fyrirspurn sem er tiltækt fyrir reglur endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="feec9-118">The following table shows the query types that are available for audit policy rules.</span></span>
+<span data-ttu-id="7c0ea-112">Þegar regla endurskoðunarstefnu er stofnuð þarf fyrst að velja stefnureglugerð.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="7c0ea-113">Gerð reglu tilgreinir fyrirspurn Hugbúnaðarhlutatrénu (AOT) til að nota sem upphafspunkt fyrir þá reglu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="7c0ea-114">Það skilgreinir einnig fyrirspurn ferðar til nota fyrir stefnureglu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="7c0ea-115">Fyrirspurnin ákvarðar upprunaskjalið sem metur síðan til stefnuregluna.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="7c0ea-116">Það skilgreinir einnig reiti í upprunaskjali sem auðkenna bæði lögaðila og dagsetningu til að nota þegar skjöl eru valin til endurskoðunar.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="7c0ea-117">Gerð fyrirspurnar stýrir sjálfgefið svæði í fyrirspurnarskjámynd og í síðunni regla endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="7c0ea-118">Eftirfarandi tafla sýnir gerðir fyrirspurn sem er tiltækt fyrir reglur endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-118">The following table shows the query types that are available for audit policy rules.</span></span>
 
 <table>
 <colgroup>
@@ -41,61 +40,60 @@ ms.locfileid: "5821986"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="feec9-119">Gerð fyrirspurnar</span><span class="sxs-lookup"><span data-stu-id="feec9-119">Query type</span></span></th>
-<th><span data-ttu-id="feec9-120">Tilgangur</span><span class="sxs-lookup"><span data-stu-id="feec9-120">Purpose</span></span></th>
-<th><span data-ttu-id="feec9-121">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="feec9-121">More information</span></span></th>
+<th><span data-ttu-id="7c0ea-119">Gerð fyrirspurnar</span><span class="sxs-lookup"><span data-stu-id="7c0ea-119">Query type</span></span></th>
+<th><span data-ttu-id="7c0ea-120">Tilgangur</span><span class="sxs-lookup"><span data-stu-id="7c0ea-120">Purpose</span></span></th>
+<th><span data-ttu-id="7c0ea-121">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="7c0ea-121">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="feec9-122">Skilyrðisbundið</span><span class="sxs-lookup"><span data-stu-id="feec9-122">Conditional</span></span></td>
-<td><span data-ttu-id="feec9-123">Meta uppruna eigindir skjals gagnvart tilgreindum gildum.</span><span class="sxs-lookup"><span data-stu-id="feec9-123">Evaluate source document attributes against specified values.</span></span></td>
+<td><span data-ttu-id="7c0ea-122">Skilyrðisbundið</span><span class="sxs-lookup"><span data-stu-id="7c0ea-122">Conditional</span></span></td>
+<td><span data-ttu-id="7c0ea-123">Meta uppruna eigindir skjals gagnvart tilgreindum gildum.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-123">Evaluate source document attributes against specified values.</span></span></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="feec9-124">Samanlagt</span><span class="sxs-lookup"><span data-stu-id="feec9-124">Aggregate</span></span></td>
-<td><span data-ttu-id="feec9-125">Meta margar upprunaskjöl eða línur upprunaskjals gagnvart stefnureglu með söfnun tölulegt gildi.</span><span class="sxs-lookup"><span data-stu-id="feec9-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
+<td><span data-ttu-id="7c0ea-124">Samanlagt</span><span class="sxs-lookup"><span data-stu-id="7c0ea-124">Aggregate</span></span></td>
+<td><span data-ttu-id="7c0ea-125">Meta margar upprunaskjöl eða línur upprunaskjals gagnvart stefnureglu með söfnun tölulegt gildi.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="feec9-126">Sýnishorn</span><span class="sxs-lookup"><span data-stu-id="feec9-126">Sampling</span></span></td>
-<td><span data-ttu-id="feec9-127">Veljið handahófi tilgreindri prósentu af upprunaskjöl til að meta brot á reglum.</span><span class="sxs-lookup"><span data-stu-id="feec9-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
-<td><span data-ttu-id="feec9-128">Þegar þessi valkostur er valinn, skaltu nota síðuna regla endurskoðunarstefnu til að tilgreina hlutfall skjala til að velja af handahófi fyrir endurskoðun.</span><span class="sxs-lookup"><span data-stu-id="feec9-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
+<td><span data-ttu-id="7c0ea-126">Sýnishorn</span><span class="sxs-lookup"><span data-stu-id="7c0ea-126">Sampling</span></span></td>
+<td><span data-ttu-id="7c0ea-127">Veljið handahófi tilgreindri prósentu af upprunaskjöl til að meta brot á reglum.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
+<td><span data-ttu-id="7c0ea-128">Þegar þessi valkostur er valinn, skaltu nota síðuna regla endurskoðunarstefnu til að tilgreina hlutfall skjala til að velja af handahófi fyrir endurskoðun.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="feec9-129">Afrita</span><span class="sxs-lookup"><span data-stu-id="feec9-129">Duplicate</span></span></td>
-<td><span data-ttu-id="feec9-130">Meta upprunaskjöl til að ákvarða hvort þau innihalda tvíteknar færslur í tilgreindu svæðin.</span><span class="sxs-lookup"><span data-stu-id="feec9-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
-<td><span data-ttu-id="feec9-131">Þegar þessi valkostur er valinn, skaltu nota síðuna regla endurskoðunarstefnu til að tilgreina fjölda daga til að bæta við upphaf dagsetningabils skjalavals þegar skjöl eru metin fyrir tvíteknar færslur.</span><span class="sxs-lookup"><span data-stu-id="feec9-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
+<td><span data-ttu-id="7c0ea-129">Afrita</span><span class="sxs-lookup"><span data-stu-id="7c0ea-129">Duplicate</span></span></td>
+<td><span data-ttu-id="7c0ea-130">Meta upprunaskjöl til að ákvarða hvort þau innihalda tvíteknar færslur í tilgreindu svæðin.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
+<td><span data-ttu-id="7c0ea-131">Þegar þessi valkostur er valinn, skaltu nota síðuna regla endurskoðunarstefnu til að tilgreina fjölda daga til að bæta við upphaf dagsetningabils skjalavals þegar skjöl eru metin fyrir tvíteknar færslur.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="feec9-132">Listaleit</span><span class="sxs-lookup"><span data-stu-id="feec9-132">List search</span></span></td>
-<td><span data-ttu-id="feec9-133">Meta upprunaskjöl fyrir tilteknar einingar.</span><span class="sxs-lookup"><span data-stu-id="feec9-133">Evaluate source documents for specific entities.</span></span></td>
-<td><span data-ttu-id="feec9-134">Rót skjalið fyrirspurnarinnar tilgreinir skjalið sem er endurskoðuð.</span><span class="sxs-lookup"><span data-stu-id="feec9-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="feec9-135">Fyrirspurnin verður að vera listafyrirspurn sem inniheldur tilvísun í the dirpartytable-töflu.</span><span class="sxs-lookup"><span data-stu-id="feec9-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="feec9-136">Hægt er að nota þennan valkost aðeins með eftirfarandi fyrirspurnir AOT:</span><span class="sxs-lookup"><span data-stu-id="feec9-136">This option can be used only with the following AOT queries:</span></span>
+<td><span data-ttu-id="7c0ea-132">Listaleit</span><span class="sxs-lookup"><span data-stu-id="7c0ea-132">List search</span></span></td>
+<td><span data-ttu-id="7c0ea-133">Meta upprunaskjöl fyrir tilteknar einingar.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-133">Evaluate source documents for specific entities.</span></span></td>
+<td><span data-ttu-id="7c0ea-134">Rót skjalið fyrirspurnarinnar tilgreinir skjalið sem er endurskoðuð.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="7c0ea-135">Fyrirspurnin verður að vera listafyrirspurn sem inniheldur tilvísun í the dirpartytable-töflu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="7c0ea-136">Hægt er að nota þennan valkost aðeins með eftirfarandi fyrirspurnir AOT:</span><span class="sxs-lookup"><span data-stu-id="7c0ea-136">This option can be used only with the following AOT queries:</span></span>
 <ul>
-<li><span data-ttu-id="feec9-137"><span class="ui">AuditPolicyExpenseList</span> (Kostnaðarskýrsla vaktaðra starfsmanna)</span><span class="sxs-lookup"><span data-stu-id="feec9-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
-<li><span data-ttu-id="feec9-138"><span class="ui">AuditPolicyPurchList</span> (Innkaupapöntun vaktaðra lánardrottna)</span><span class="sxs-lookup"><span data-stu-id="feec9-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
-<li><span data-ttu-id="feec9-139"><span class="ui">AuditPolicyVendInvoiceList</span> (reikningur vaktaðra lánardrottna)</span><span class="sxs-lookup"><span data-stu-id="feec9-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
+<li><span data-ttu-id="7c0ea-137"><span class="ui">AuditPolicyExpenseList</span> (Kostnaðarskýrsla vaktaðra starfsmanna)</span><span class="sxs-lookup"><span data-stu-id="7c0ea-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
+<li><span data-ttu-id="7c0ea-138"><span class="ui">AuditPolicyPurchList</span> (Innkaupapöntun vaktaðra lánardrottna)</span><span class="sxs-lookup"><span data-stu-id="7c0ea-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
+<li><span data-ttu-id="7c0ea-139"><span class="ui">AuditPolicyVendInvoiceList</span> (reikningur vaktaðra lánardrottna)</span><span class="sxs-lookup"><span data-stu-id="7c0ea-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
 </ul>
-<span data-ttu-id="feec9-140">Þegar þessi valkostur er valinn skal tilgreina vaktaðar einingar í síðunni regla endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="feec9-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
+<span data-ttu-id="7c0ea-140">Þegar þessi valkostur er valinn skal tilgreina vaktaðar einingar í síðunni regla endurskoðunarstefnu.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="feec9-141">Lykilorðaleit</span><span class="sxs-lookup"><span data-stu-id="feec9-141">Keyword search</span></span></td>
-<td><span data-ttu-id="feec9-142">Meta upprunaskjöl til að ákvarða hvort þau innihalda tiltekin orð.</span><span class="sxs-lookup"><span data-stu-id="feec9-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
-<td><span data-ttu-id="feec9-143">Þegar þessi valkostur er valinn skal færa inn orð til að leita að í regla endurskoðunarstefnu síða.</span><span class="sxs-lookup"><span data-stu-id="feec9-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="feec9-144">Síðan Regla endurskoðunarstefnu inniheldur einnig valkosti sem leyfa þér að tilgreina töflur og reiti til að meta fyrir orð sem þú slóst inn.</span><span class="sxs-lookup"><span data-stu-id="feec9-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
+<td><span data-ttu-id="7c0ea-141">Lykilorðaleit</span><span class="sxs-lookup"><span data-stu-id="7c0ea-141">Keyword search</span></span></td>
+<td><span data-ttu-id="7c0ea-142">Meta upprunaskjöl til að ákvarða hvort þau innihalda tiltekin orð.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
+<td><span data-ttu-id="7c0ea-143">Þegar þessi valkostur er valinn skal færa inn orð til að leita að í regla endurskoðunarstefnu síða.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="7c0ea-144">Síðan Regla endurskoðunarstefnu inniheldur einnig valkosti sem leyfa þér að tilgreina töflur og reiti til að meta fyrir orð sem þú slóst inn.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="common-parameters"></a><span data-ttu-id="feec9-145">Algengar færibreytur</span><span class="sxs-lookup"><span data-stu-id="feec9-145">Common parameters</span></span>
-<span data-ttu-id="feec9-146">Allar stefnureglur um tiltekna endurskoðunarstefnu deila sömu runufæribreytum og sama dagsetningarbili skjalavals.</span><span class="sxs-lookup"><span data-stu-id="feec9-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="feec9-147">Þessar færibreytur eru tilgreindar fyrir reglu í á Aukavalkostir síða.</span><span class="sxs-lookup"><span data-stu-id="feec9-147">These parameters are specified for the policy in the Additional options page.</span></span>
+## <a name="common-parameters"></a><span data-ttu-id="7c0ea-145">Algengar færibreytur</span><span class="sxs-lookup"><span data-stu-id="7c0ea-145">Common parameters</span></span>
+<span data-ttu-id="7c0ea-146">Allar stefnureglur um tiltekna endurskoðunarstefnu deila sömu runufæribreytum og sama dagsetningarbili skjalavals.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="7c0ea-147">Þessar færibreytur eru tilgreindar fyrir reglu í á Aukavalkostir síða.</span><span class="sxs-lookup"><span data-stu-id="7c0ea-147">These parameters are specified for the policy in the Additional options page.</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="feec9-148">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="feec9-148">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="7c0ea-148">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="7c0ea-148">Additional resources</span></span>
 
-<span data-ttu-id="feec9-149">[Brot á endurskoðunarstefnu og tilvik](audit-policy-violations-cases.md)
-[Skilgreina endurskoðunarstefnu fyrir upprunaskjöl](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="feec9-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
+<span data-ttu-id="7c0ea-149">[Brot á endurskoðunarstefnu og tilvik](audit-policy-violations-cases.md)
+[Skilgreina endurskoðunarstefnu fyrir upprunaskjöl](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="7c0ea-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
 [Define audit policies for source documents](tasks/define-audit-policies-source-documents.md)</span></span>
 
 
