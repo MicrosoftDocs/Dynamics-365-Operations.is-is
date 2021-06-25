@@ -72,13 +72,11 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (júlí 2021)
+                    - name: Finance 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (júlí 2021)
+                    - name: Finance 10.0.19 (júní 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (maí 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (apríl 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Grunnstilling og stjórnun
               items:
-                - name: Grunnstilla Finance-innsýn
+                - name: Stilla Finance insights fyrir opna útgáfu
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: Grunnstilla Finance insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Virkja greiðsluspár viðskiptavinar
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1462,13 +1462,15 @@
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service – altækir eiginleikar
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory configuration service og hlaða þeim upp í altæka geymslu
+                    - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service og hlaða þeim upp í altæka geymslu
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Rafræn reikningsfærsla
                   items:
-                    - name: Yfirlit rafrænna reikningsfærslna
+                    - name: Yfirlit rafrænnar reikningsfærslu
                       href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Stjórnunarhlutar rafrænna reikningsfærslna
+                    - name: Stjórnunarhlutar rafrænnar reikningsfærslu
                       href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Skilgreina rafrænar reikningsfærslur í Regulatory Configuration Services (RCS)
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -1476,9 +1478,11 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Setja upp Azure-geymslureikning og lyklageymslu
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: Notkunarstjórnunaryfirlit
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Hefjast handa
                       items:
-                        - name: Hafist handa með stjórnun þjónustu rafrænna reikningsfærslna
+                        - name: Hafist handa með stjórnun þjónustu rafrænnar reikningsfærslu
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: Skattafærslukenni er rangt
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: Rang reitagildi í GSTR-skýrslu
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: Rangt reitgildi í reikningsbók eða fylgiskjali
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: Rangur fjárhagslykill í fylgiskjali
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: Opna hönnuð fyrir núverandi skattaskilgreiningar
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: Færslur og reitir birtast ekki í GSTR-skýrslunni
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: Villa í skattjöfnunarreglu þegar skattauppgjör er keyrt
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: Beinir skattar
                   items:
                     - name: Staðgreiðsluskattur á Indlandi
                       items:
-                        - name: Taka með vöru- og þjónustuskatt við útreikning frádreginna skatta
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: Taka með vöru- og þjónustuskatt við innheimtu skattinnheimtu
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Algengar spurningar um skattþrep
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: Staðgreiðsluskattur á vörusölu
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: Staðgreiðsluskattur fyrir Indland
+                          items:
+                            - name: Staðgreiðsluskattur á vörusölu
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: Taka með vöru- og þjónustuskatt við útreikning skattinnheimtu
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS fyrir Indland
+                          items:
+                            - name: Yfirlit yfir frádreginn skatt á upprunastað (TDS) fyrir Indland
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: Taka með vöru- og þjónustuskatt við útreikning frádreginna skatta
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: Grunnuppsetning TDS
+                              items:
+                                - name: Stilla TDS færibreytur
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: Setja upp TDS fjárhagslykla
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: Setja upp TDS-skráningarnúmer fyrir lögaðila
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Setja upp yfirvöld staðgreiðsluskatts fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Setja upp skatthluta fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Setja upp jöfnunartímabil staðgreiðsluskatts fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: Skrá vottorðanúmer TDS-skattaívilnunar
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: Stilla TDS-færibreytur í viðskiptaskuldum og viðskiptakröfum
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: Setja upp greiðsluáætlanir með TDS-úthlutun
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: Setja upp greiðsluþóknanir fyrir TDS-greiðslur til yfirvalda
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'Uppsetning á TDS-flokki, PAN- og TAN-upplýsingum fyrir lánardrottna og viðskiptavini'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: Formúluhönnuður og vikmörk fyrir TDS-útreikning
+                                  items: null
+                                - name: Formúluhönnuður fyrir TDS-útreikninga
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: Viðmiðunarmörk og undantekningarmörk
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: TDS-útreikningur á reikningum
+                              items:
+                                - name: TDS-útreikningur á reikningum
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: Reikna út TDS á reikningum með færslubókum
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: Reikna út TDS-reikninga með skjámynd innkaupapöntunar eða sölupöntunar
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: TDS-útreikningur á reikningum af síðu reiknings með frjálsum texta
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: Aðgerð skiptingar á reikningi
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: TDS-útreikningur á greiðslum og eigin víxlum
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: TDS-útreikningur á færslum innan samstæðu
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: TDS uppgjörsferli
+                              items:
+                                - name: TDS-útreikningur á greiðslum og eigin víxlum
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: TDS-útreikningur á færslum innan samstæðu
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: Keyra reglubundið uppgjörsferli TDS
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: Gera upp TDS-greiðslur hjá TDS-lánardrottnayfirvaldi og mynda TDS-greiðslukvittun
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: Skoða bókaðar TDS-greiðslur og færslur fyrir TDS-jöfnunartímabil
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: Eignir
                   items:
                     - name: Yfirlit yfir indverskar eignir
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Flutningur fjármagnsvara til eignar
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: TDS fyrir Indland
-                  items:
-                    - name: Yfirlit yfir frádreginn skatt á upprunastað (TDS) fyrir Indland
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: Grunnuppsetning TDS
+                    - name: Skrá og uppfæra númer og dagsetningar TDS-vottorða
                       items:
-                        - name: Stilla TDS færibreytur
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: Setja upp TDS fjárhagslykla
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: Setja upp TDS-skráningarnúmer fyrir lögaðila
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: Setja upp yfirvöld staðgreiðsluskatts fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Setja upp skatthluta fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Setja upp jöfnunartímabil staðgreiðsluskatts fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerðina
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: Skrá vottorðanúmer TDS-skattaívilnunar
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: Stilla TDS-færibreytur í viðskiptaskuldum og viðskiptakröfum
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: Setja upp greiðsluáætlanir með TDS-úthlutun
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: Setja upp greiðsluþóknanir fyrir TDS-greiðslur til yfirvalda
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'Uppsetning á TDS-flokki, PAN- og TAN-upplýsingum fyrir lánardrottna og viðskiptavini'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: Formúluhönnuður og vikmörk fyrir TDS-útreikning
-                      items:
-                        - name: Formúluhönnuður fyrir TDS-útreikninga
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: Viðmiðunarmörk og undantekningarmörk
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: TDS-útreikningur á reikningum
-                      items:
-                        - name: TDS-útreikningur á reikningum
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: Reikna út TDS á reikningum með færslubókum
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: Reikna út TDS-reikninga með skjámynd innkaupapöntunar eða sölupöntunar
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: TDS-útreikningur á reikningum af síðu reiknings með frjálsum texta
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: Aðgerð skiptingar á reikningi
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: TDS-útreikningur á greiðslum og eigin víxlum
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: TDS-útreikningur á færslum innan samstæðu
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: TDS uppgjörsferli
-                      items:
-                        - name: TDS-útreikningur á greiðslum og eigin víxlum
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: TDS-útreikningur á færslum innan samstæðu
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: TDS uppgjörsferli
-                          items:
-                            - name: Keyra reglubundið uppgjörsferli TDS
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: Gera upp TDS-greiðslur hjá TDS-lánardrottnayfirvaldi og mynda TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: Skoða bókaðar TDS-greiðslur og færslur fyrir TDS-jöfnunartímabil
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: Skrá og uppfæra númer og dagsetningar TDS-vottorða
-                          items:
-                            - name: Skrá endurheimtanlegt vottorðanúmer TDS
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: Skrá endurheimtanlegt vottorðanúmer TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu
@@ -4165,13 +4181,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Mynda reikningssnið með frjálsum texta sem hægt er að prenta út
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Hönnun skilvirkra lausna fyrir rafræna skýrslugerð
+                  items:
+                    - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að leita að vandamálum sem tengjast afköstum
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: Leita að vandamálum sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Stjórnun viðskiptaskjala (BDM)
                   items:
-                    - name: BDM-yfirlit
+                    - name: Yfirlit viðskiptaskjalastjórnunar
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Nýtt notandaviðmót fyrir skjöl í stjórnun BDM
+                    - name: Nýtt notandaviðmót fyrir skjöl í stjórnun viðskiptaskjala
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
                     - name: Breyta sniðmátum viðskiptaskjala í BDM
                       items:
