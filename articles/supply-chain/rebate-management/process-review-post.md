@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020532"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270762"
 ---
 # <a name="process-review-and-post-rebates"></a>Meðhöndla, yfirfara og bóka eftirágreiddan afslátt
 
@@ -55,9 +55,9 @@ Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Reikna ú
 1. Veljið línuna fyrir hvert tilboð sem á að vinna úr (eða opnið tilboðið sem á að vinna úr).
 1. Á aðgerðasvæðinu, í flipanum **Tilboð fyrir stjórnun eftirágreidds afsláttar**, í flokknum **Búa til**, skal velja eina af eftirfarandi skipunum:
 
-    - **Vinna úr \> úthlutun** – Úthlutið safn af uppsöfnunum fyrir hvert tilboð eftirágreidds afsláttar sem á við, en ekki bóka það.
+    - **Vinna úr \> úthlutun** – Úthlutið safn af uppsöfnunum fyrir hvert tilboð eftirágreidds afsláttar sem á við, en ekki bóka það. Þetta valmyndaratriði er ekki í boði fyrir tilboð þar sem reiturinn **Úttak eftirágreidds afsláttar** er stilltur á *Vara*.
     - **Vinna úr \> stjórnunar eftirágreidds afsláttar** – Vinnið úr færsluröð sem gefur upp virði eftirágreidds afsláttar fyrir hvert tilboð.
-    - **Vinna úr \> afskrift** – Bakfærið áður bókaðar færslur til að afskrifa þær þannig að hægt sé að reikna út nýjar tilboðsfærslur eftirágreidds afsláttar.
+    - **Ferli \> Afskrift** – Fyrir hverja upprunafærslu eftirágreidds afsláttar og tiltekins tímabils skal vinna úr frávikum milli upphæðanna sem voru bókaðar fyrir úthlutun og fyrir stjórnunar eftirágreidds afsláttar. Þetta valmyndaratriði er ekki í boði fyrir tilboð þar sem reiturinn **Úttak eftirágreidds afsláttar** er stilltur á *Vara*.
 
 1. Í svarglugganum sem birtist skal stilla reitina **Frá dagsetning** og **Til dagsetning** til að skilgreina dagsetningabil útreikningsins.
 1. Veljið **Í lagi** til að keyra útreikninginn.
@@ -70,9 +70,9 @@ Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Reikna ú
 1. Í flýtiflipanum **Stjórnun eftirágreidds afsláttar** skal velja línuna fyrir hverja tilboðslínu sem á að vinna úr.
 1. Í tækjastiku flýtiflipans **Stjórnun eftirágreidds afsláttar** skal velja eina af eftirfarandi skipunum. (Þessar skipanir eru aðeins í boði fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína*.)
 
-    - **Vinna úr \> úthlutun** – Úthlutið safn af uppsöfnunum fyrir hverja tilboðslínu sem á við, en ekki bóka þær.
+    - **Vinna úr \> úthlutun** – Úthlutið safn af uppsöfnunum fyrir hverja tilboðslínu sem á við, en ekki bóka þær. Þetta valmyndaratriði er ekki í boði fyrir tilboð þar sem reiturinn **Úttak eftirágreidds afsláttar** er stilltur á *Vara*.
     - **Vinna úr \> stjórnunar eftirágreidds afsláttar** – Vinnið úr færsluröð sem gefur upp virði eftirágreidds afsláttar fyrir hverja tilboðslínu.
-    - **Vinna úr \> afskrift** – Bakfærið áður bókaðar færslur til að afskrifa þær þannig að hægt sé að reikna út nýjar tilboðsfærslur eftirágreidds afsláttar.
+    - **Ferli \> Afskrift** – Fyrir hverja upprunafærslu eftirágreidds afsláttar og tiltekins tímabils skal vinna úr frávikum milli upphæðanna sem voru bókaðar fyrir úthlutun og fyrir stjórnunar eftirágreidds afsláttar. Þetta valmyndaratriði er ekki í boði fyrir tilboð þar sem reiturinn **Úttak eftirágreidds afsláttar** er stilltur á *Vara*. 
 
 1. Í svarglugganum sem birtist skal stilla reitina **Frá dagsetning** og **Til dagsetning** til að skilgreina dagsetningabil útreikningsins.
 1. Veljið **Í lagi** til að keyra útreikninginn.
@@ -115,26 +115,26 @@ Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Reikna ú
         - **Stilla óinnheimt \> Allt** – Merkja allar færslur sem óinnheimtar.
         - **Stilla óinnheimt \> Valið** – Merkja valdar færslur sem óinnheimtar.
 
-    - Til að bóka kröfu fyrir eina eða fleiri línur skal velja línurnar sem eiga við og síðan á aðgerðasvæðinu velja **Bóka**. (Hnappurinn **Bóka** er aðeins í boði fyrir færslur eftirágreidds afsláttar. Hann er ekki í boði fyrir úthlutunar- og afskriftafærslur.) Í svarglugganum **Bóka** eru reitirnir **Frá dagsetning** og **Til dagsetning** fylltir út sjálfkrafa. Stilltu **Bókunardagsetning** reitinn og veldu svo **Í lagi**.
+    - Veljið **Bóka** á aðgerðasvæðinu til að bóka kröfuna fyrir allar línur sem eiga við. Ef kröfuferli er notað (þegar valkosturinn **Nota kröfuferli** er virkjaður á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar**) eru eingöngu línurnar sem merktar eru **Til innheimtu** bókaðar. Annars eru allar upprunafærslur fyrir valda færslu eftirágreidds afsláttar bókaðar. Hnappurinn **Bóka** er aðeins í boði fyrir færslur eftirágreidds afsláttar. Hann er ekki í boði fyrir úthlutun og afskriftafærslur. Í svarglugganum **Bóka** eru reitirnir **Frá dagsetning** og **Til dagsetning** fylltir út sjálfkrafa. Stilltu **Bókunardagsetning** reitinn og veldu svo **Í lagi**.
     - Til að stilla upphæðina sem birtist fyrir allar opnar eða óbókaðar færslur skal velja færsluna og síðan fylgja einu af þessum skrefum:
 
         - Breyttu gildinu í **Leiðrétt upphæð** reitnum.
         - Á aðgerðasvæðinu skal velja **Stilla leiðréttingu**. Í felliglugganum sem birtist skal því næst slá inn gildi í reitinn **Leiðrétt upphæð**.
 
 > [!NOTE]
-> Þegar unnið er úr næsta tímabili mun færslulistinn innihalda óinnheimtar færslur frá fyrri bókun ásamt nýjum færslum fyrir valið tímabil.
+> Ef kröfuferli er notað, þegar unnið er úr næsta tímabili, mun færslulistinn innihalda óinnheimtar færslur frá fyrri bókun ásamt nýjum færslum fyrir valið tímabil.
 
 ## <a name="post-rebates-transactions"></a>Bóka endurgreiðslufærslur
 
-Til að bóka virði eftirágreiddra afslátta og lækkana þarf að keyra bókunarferlið nema kerfið hafi verið sett upp til að bóka það sjálfkrafa.
+Til að bóka virði úthlutunar, upphæð fyrir stjórnunar eftirágreidds afsláttar og afskrift þarf að keyra bókunarferlið. Bókunarferlið merkir úthlutun, stjórnunar eftirágreidds afsláttar og afskriftafærslur sem bókaðar og býr til markfærsluna. Ef ekki þarf að yfirfara markfærsluna er hægt að setja upp þessar færslur þannig að þær verði bókaðar sjálfkrafa.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Setja upp kerfið til að bóka allar færslur sjálfkrafa
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Setja upp kerfið til að bóka allar markfærslur sjálfkrafa
 
-Til að setja upp kerfi til að bóka allar færslur um leið og þær eru myndaðar skal kveikja á valkostinum **Bóka færslubækur sjálfkrafa** og/eða **Bóka reikninga með frjálsum texta sjálfkrafa** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar**. Frekari upplýsingar er að finna í [Færibreytur stjórnunar eftirágreidds afsláttar](rebate-management-parameters.md).
+Til að setja upp kerfi til að bóka allar markfærslur um leið og þær eru myndaðar af bókunarúthlutun, upphæð fyrir stjórnun eftirágreidds afsláttar og afskrift skal kveikja á valkostinum **Bóka færslubækur sjálfkrafa** og/eða **Bóka reikninga með frjálsum texta sjálfkrafa** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar**. Frekari upplýsingar er að finna í [Færibreytur stjórnunar eftirágreidds afsláttar](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Bóka færslur fyrir allar línur fyrir eitt eða fleiri tilboð
 
-Ef ekki er verið að nota sjálfvirka bókun þegar búið er að vinna úr tilboðum sem eiga við skal fylgja þessum skrefum til að fara yfir og bóka myndaðar færslur fyrir allar línur fyrir eitt eða fleiri tilboð.
+Þegar búið er að vinna úr tilboðum sem eiga við skal fylgja þessum skrefum til að fara yfir og bóka myndaðar færslur fyrir allar línur fyrir eitt eða fleiri tilboð.
 
 1. Opnið viðeigandi [listasíðu yfir tilboð eftirágreidds afsláttar](rebate-management-deals.md) fyrir tilboðsgerðina sem á að vinna með.
 1. Veljið línuna fyrir hvert tilboð sem á að bóka (eða opnið tilboðið sem á að bóka).
@@ -149,7 +149,7 @@ Ef ekki er verið að nota sjálfvirka bókun þegar búið er að vinna úr til
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Bóka færslur fyrir eina eða fleiri tilteknar tilboðslínur fyrir valið tilboð
 
-Ef ekki er verið að nota sjálfvirka bókun þegar búið er að vinna úr tilboðum sem eiga við skal fylgja þessum skrefum til að fara yfir og bóka myndaðar færslur fyrir eina eða fleiri tilteknar tilboðslínur fyrir valið tilboð.
+Þegar búið er að vinna úr tilboðum sem eiga við skal fylgja þessum skrefum til að fara yfir og bóka myndaðar færslur fyrir eina eða fleiri tilteknar tilboðslínur fyrir valið tilboð. Þetta ferli á aðeins við fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína*.
 
 1. Opnið viðeigandi [listasíðu yfir tilboð eftirágreidds afsláttar](rebate-management-deals.md) fyrir tilboðsgerðina sem á að vinna með.
 1. Opnaðu tilboðið sem er með línu sem þú vilt bóka færslur fyrir.
@@ -174,7 +174,7 @@ Ef ekki er verið að nota sjálfvirka bókun þegar búið er að vinna úr til
     - Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Bóka \> Stjórnun eftirágreidds afsláttar** til að bóka tiltækar færslur eftirágreidds afsláttar sem hafa verið stofnaðar.
     - Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Bóka \> Afskrift** til að bóka tiltækar afskriftafærslur sem hafa verið stofnaðar.
 
-1. Í svarglugganum sem birtist í flýtiflipanum **Færibreytur**, í hlutanum **Tímabil**, skal stilla reitinn **Bókunardagsetning**. Síðan skal stilla reitina **Frá dagsetning** og **Til dagsetning** til að skilgreina dagsetningabil fyrir færslurnar sem þarf að bóka. 
+1. Í svarglugganum sem birtist í flýtiflipanum **Færibreytur**, í hlutanum **Tímabil**, skal stilla reitinn **Bókunardagsetning**. Síðan skal stilla reitina **Frá dagsetning** og **Til dagsetning** til að skilgreina dagsetningabil fyrir færslurnar sem þarf að bóka.
 1. Í hlutanum **Tímabil tryggingar** skal stilla reitina **Frá dagsetning** og **Til dagsetning** til að skilgreina dagsetningabilið fyrir tryggingar sem þarf að bóka.
 1. Í flýtiflipanum **Færslur til að taka með** er hægt að setja upp síur til að takmarka safn tilboða sem runuvinnslan vinnur úr. Þessar stillingar virka á sama hátt og þær virka fyrir aðrar gerðir af runuvinnslum.
 1. Í flýtiflipanum **Keyra í bakgrunni** er hægt að setja upp valkosti runuvinnslu og áætlanagerðar eftir þörfum. Þessar stillingar virka á sama hátt og þær virka fyrir aðrar gerðir af runuvinnslum.
@@ -182,17 +182,17 @@ Ef ekki er verið að nota sjálfvirka bókun þegar búið er að vinna úr til
 
 ## <a name="review-rebate-management-journals"></a>Yfirfara færslubækur fyrir stjórnunar eftirágreidds afsláttar
 
-Þegar færslurnar hafa verið bókaðar er hægt að fara yfir færslubækurnar, skjölin eða vörurnar. Markfærslurnar fyrir eftirágreidda afslætti og afnotagreiðslur byggja á greiðslugerðinni sem er stillt í bókunarreglu og úttaksgerð eftirágreidds afsláttar. Ef úttak eftirágreidds afsláttar er til dæmis stillt á *Vara* verður sölupöntun stofnuð og hægt er að skoða hana í gegnum markfærslurnar. Annars, ef greiðslan er sett upp til að nota viðskiptaskuldir, verður lánardrottnareikningur fyrir lánardrottin sem settur er upp fyrir viðskiptavin stofnaður fyrir eftirágreidda afslætti viðskiptavinar.
+Þegar færslurnar hafa verið bókaðar er hægt að fara yfir færslubækurnar, skjölin eða vörurnar. Markfærslurnar fyrir eftirágreidda afslætti og afnotagreiðslur byggja á greiðslugerðinni sem er stillt í bókunarreglu og úttaksgerð eftirágreidds afsláttar. Til dæmis ef úttak eftirágreidds afsláttar er stillt á *Vöru* verður sölupöntun stofnuð fyrir eftirágreiddan afslátt viðskiptavinar og innkaupapöntun verður stofnuð fyrir eftirágreiddan afslátt lánardrottins. Þessar pantanir má skoða í gegnum markfærslurnar. Annars, ef greiðslan er sett upp til að nota viðskiptaskuldir, verður lánardrottnareikningur fyrir lánardrottin sem settur er upp fyrir viðskiptavin stofnaður fyrir eftirágreidda afslætti viðskiptavinar.
 
 Til að yfirfara færslur færslubókar sem tengjast tilboði fyrir stjórnunar eftirágreidds afsláttar skal fylgja þessum skrefum.
 
 1. Opnið viðeigandi [listasíðu yfir tilboð eftirágreidds afsláttar](rebate-management-deals.md) fyrir tilboðsgerðina sem á að vinna með.
 1. Veljið tilboðið til að skoða færslur í færslubók fyrir.
-1. Á aðgerðasvæðinu, í flipanum **Tilboð fyrir stjórnun eftirágreidds afsláttar**, í flokknum **Færslur**, skal annaðhvort velja **Færslur** eða **Færslur eftirágreidds afsláttar** eftir því hvaða færslugerð á að skoða.
+1. Á aðgerðasvæðinu, í flipanum **Tilboð fyrir stjórnun eftirágreidds afsláttar**, í flokknum **Færslur**, skal annaðhvort velja **Færslur** eða **Ábyrgðarfærslur** eftir því hvaða færslugerð á að skoða.
 1. Gangið úr skugga um að reiturinn **Sýna** sé stilltur á *Allt* eða *Bókað*.
 1. Finnið og veljið færslusafnið sem á að skoða og því næst, á aðgerðasvæðinu, skal velja einn af eftirfarandi hnöppum. (Þessir hnappar eru aðeins tiltækir þegar viðeigandi bókanir eru til staðar fyrir valið færslusafn.)
 
     - **Markfærslur** – Farið yfir viðeigandi færslubækur og aðrar skjalagerðir sem voru myndaðar af völdu tilboði.
-    - **Vörur** – Farið yfir viðeigandi vörur sem voru myndaðar af völdu tilboði.
+    - **Vörur** – Farið yfir viðeigandi sölupantanir eða innkaupapantanir sem voru myndaðar af völdu tilboði.
 
 1. Listi yfir viðeigandi færslubækur, skjöl eða vörur birtist. Til að skoða frekari upplýsingar um einhverja færslubók, skjal eða vöru skal velja línu þess og síðan á aðgerðasvæðinu skal velja **Skoða upplýsingar**.

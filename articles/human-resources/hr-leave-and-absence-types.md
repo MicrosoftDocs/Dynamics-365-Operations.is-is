@@ -2,7 +2,7 @@
 title: Grunnstilla gerðir leyfis og fjarvista
 description: Settu upp tegundir orlofs sem starfsmenn geta tekið í Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056613"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271128"
 ---
 # <a name="configure-leave-and-absence-types"></a>Grunnstilla gerðir leyfis og fjarvista
 
@@ -71,7 +71,7 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
    
  3. Stillið **Yfirfærð leyfisgerð** fyrir leyfisgerð. Þegar þessi valkostur er valinn verða allar yfirfærðar stöður fluttar í tilgreinda gerð leyfis. Yfirfærsluleyfisgerðin þarf einnig að vera með í áætlun um leyfi og fjarveru. 
  
- 4. Skilgreinið **Gildistímareglur** fyrir leyfisgerðina. Þegar þessi valkostur er skilgreindur er hægt að velja einingu daga eða mánaða og stilla tímalengd gildistímans. Einnig er hægt að stilla gildisdagsetningu gildistímareglunnar. Gildisdagsetningin er notuð til að ákvarða hvenær á að hefja keyrslu runuvinnslunnar sem vinnur úr gildistíma leyfis eða dagsetninguna þegar reglan tekur gildi. Sjálfur gildistíminn gerist alltaf á upphafsdegi leyfisáætlunarinnar þegar runuvinnslan er stillt á vinnslu. Til dæmis getur upphafsdagur áætlunarinnar verið 1/1/2020, en reglan var ekki búin til fyrr en 1/6/2020. Með því að stilla gildisdagsetninguna á 1/6/2020 verður reglan afgreidd í upphafi næsta árs, þ.e. 1/1/2021. Allar leyfisstöður sem eru til staðar þegar gildistíminn rennur út verða dregnar frá leyfisgerðinni og teknar inn í leyfsstöðuna. 
+4. Skilgreinið **Gildistímareglur** fyrir leyfisgerðina. Þegar þessi valkostur er skilgreindur er hægt að velja einingu daga eða mánaða og stilla tímalengd gildistímans. Gildisdagsetning gildistímareglu er notuð til að ákvarða hvenær á að hefja keyrslu runuvinnslunnar sem vinnur úr gildistíma leyfis eða dagsetninguna þegar reglan tekur gildi. Gildistíminn mun alltaf sjást í upphafsdagsetningu uppsafnaðs tímabils. Ef til dæmis upphafsdagur uppsöfnunartímabils er 3. ágúst 2021 og gildistímareglan var sett á 6 mánuði, verður reglan unnin með hliðsjón af lokadeginum frá upphafsdegi uppsöfnunartímabilsins, þannig að hún yrði framkvæmd 3. febrúar 2022. Allar leyfisstöður sem eru til staðar þegar gildistíminn rennur út verða dregnar frá leyfisgerðinni og teknar inn í leyfsstöðuna.
  
 ## <a name="see-also"></a>Sjá einnig
 
@@ -79,6 +79,7 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 - [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
 - [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md)
 - [Fresta leyfi](hr-leave-and-absence-suspend-leave.md)
+- [Búa til verkflæði fyrir beiðni um kaup og sölu á leyfisdögum](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

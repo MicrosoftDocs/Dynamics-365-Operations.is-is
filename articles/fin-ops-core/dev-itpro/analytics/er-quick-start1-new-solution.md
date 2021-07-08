@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224035"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304394"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 
@@ -185,7 +185,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagn
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Flytja inn nýja skilgreiningu gagnalíkans
 
-1. Sæktu skrána [Spurningalistar model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistaðu hana á staðbundinni tölvu.
+1. Sæktu skrána [Spurningalistar model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) og vistaðu hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
@@ -300,7 +300,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagn
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Flytja inn nýja skilgreiningu líkanavörpunar
 
-1. Sækið skrána [Spurningalistar mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Spurningalistar mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
@@ -366,7 +366,7 @@ Skilgreina þarf gagnagjafa til að fá aðgang að forritstöflum sem innihalda
     2. Veljið **Bæta við**.
     3. Í glugganum, í reitinn **Heiti**, skal slá inn **\$ResultGroup**.
     4. Veljið **Breyta formúlu**.
-    5. Í [Formúluritill rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md), í reitinn **Formúla**, skal færa inn **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** til að nota [slóðina](er-formula-language.md#paths) á tengslin „frá einu í margt“ milli taflanna KMCollection og KMQuestionResultGroup.
+    5. Í [Formúluritill rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md), í reitinn **Formúla**, skal færa inn **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** til að nota [slóðina](er-formula-language.md#Paths) á tengslin „frá einu í margt“ milli taflanna KMCollection og KMQuestionResultGroup.
     6. Veljið **Vista** og lokið formúluritlinum.
     7. Veljið **Í lagi** til að bæta við nýja reiknaða reitnum.
 
@@ -547,7 +547,7 @@ Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **L
 
 Rammi rafrænnar skýrslugerðar notar fyrirframskilgreind sniðmát til að búa til skýrslur á Microsoft Office-sniði (Excel-vinnubækur eða Word-skjöl). Á meðan nauðsynleg skýrsla er búin til, er sniðmát fyllt út með nauðsynlegum gögnum samkvæmt skilgreindu gagnaflæði. Þess vegna þarf fyrst að hanna sniðmát fyrir sérsniðnu skýrsluna. Þetta sniðmát verður að vera hannað sem Excel-vinnubók, skipulag þess sem stendur fyrir útlit sérsniðinnar skýrslu. Gefa þarf öllum Excel-atriðum heiti sem ætlunin er að fylla út í með nauðsynlegum gögnum.
 
-1. Sækið skrána [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) og vistið hana á staðbundinni tölvu.
 2. Opnið skrána í Excel og farið yfir skipulag vinnubókarinnar.
 
 Eins og eftirfarandi mynd sýnir hefur sótt sniðmát verið hannað til að prenta tilgreinda spurningalista sem birta spurningar spurningalistans ásamt viðeigandi svörum.
@@ -572,7 +572,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn hannaða skilgreiningu s
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Flytja inn hannaða skilgreiningu sniðs
 
-1. Sækið skrána [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.

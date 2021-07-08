@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Verkvangsuppfærslur fyrir 10.0.17 (apríl 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -278,6 +276,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Gera einingaverslun tiltæka sem Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Breyta gögnum í Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Aðgerðir í flutningi gagnagrunns
           items:
             - name: Yfirlit

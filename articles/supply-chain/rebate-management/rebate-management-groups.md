@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020484"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271078"
 ---
-# <a name="rebate-management-groups"></a>Hópa fyrir stjórnun eftirágreidds afsláttar
+# <a name="rebate-management-groups"></a>Hópar fyrir stjórnun eftirágreidds afsláttar
 
 [!include [banner](../includes/banner.md)]
 
-Hópar geta keyrt áfram útreikninga lækkunar. Hægt er að búa til hópa fyrir stjórnun eftirágreidds afsláttar fyrir viðskiptavini, lánardrottna og vörur. Hægt er að hengja þá við aðalfærslu.
+Hópar geta keyrt útreikninga á eftirágreiddum afslætti. Hægt er að búa til hópa fyrir stjórnun eftirágreidds afsláttar fyrir viðskiptavini, lánardrottna og vörur. Hægt er að hengja þá við aðalfærslu.
 
 ## <a name="rebate-management-customer-groups"></a>Viðskiptavinahópar fyrir stjórnun eftirágreidds afsláttar
 
@@ -49,10 +49,9 @@ Til að skoða, bæta við eða fjarlægja lánardrottna fyrir valinn hóp skal 
 1. Farið í **Stjórnun eftirágreidds afsláttar \> Uppsetning hóps fyrir stjórnun eftirágreidds afsláttar \> Viðskiptavinaflokkar**.
 1. Veljið hópinn sem á að stjórna.
 1. Í aðgerðarúðunni skal velja **Viðskiptavinir**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir viðskiptavini sem eru þegar meðlimir í völdum hópi.
-1. Til að bæta nýjum viðskiptavini við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta nýjum viðskiptavini við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Viðskiptavinalykill** – Veljið kenni viðskiptavinalykils.
-    - **Heiti** – Sláið inn heiti og/eða lýsingu á viðskiptavininum.
 
 1. Til að fjarlægja viðskiptavin úr hópnum skal velja viðskiptavin og velja svo **Eyða** á aðgerðasvæðinu.
 
@@ -61,10 +60,9 @@ Til að skoða, bæta við eða fjarlægja hópverkefni fyrir valinn viðskiptav
 1. Farðu í **Viðskiptakröfur \> Viðskiptavinir \> Alla viðskiptavini**.
 1. Veljið viðskiptavin til að vinna með.
 1. Á aðgerðasvæðinu, í flipanum **Viðskiptavinur**, í flokknum **Stjórnun eftirágreidds afsláttar**, skal velja **Hópar fyrir stjórnun eftirágreidds afsláttar**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir hópa sem valinn viðskiptavinur tilheyrir.
-1. Til að bæta viðskiptavininum við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta viðskiptavininum við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Hópur fyrir stjórnun eftirágreidds afsláttar** – Veljið hópinn til að bæta viðskiptavini við hann.
-    - **Lýsing** – Sláið inn lýsingu á hópnum (til dæmis til að útskýra af hverju viðskiptavinurinn er meðlimur í honum).
 
 1. Til að fjarlægja viðskiptavin úr hópi skal velja hópinn og velja síðan **Eyða** á aðgerðasvæðinu.
 
@@ -88,10 +86,9 @@ Til að skoða, bæta við eða fjarlægja lánardrottna fyrir valinn hóp skal 
 1. Farið í **Stjórnun eftirágreidds afsláttar \> Uppsetning hóps fyrir stjórnun eftirágreidds afsláttar \> Lánardrottnaflokkar**.
 1. Veljið hópinn sem á að stjórna.
 1. Á aðgerðasvæðinu velurðu **Lánardrottnar**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir lánardrottna sem eru þegar meðlimir í völdum hópi.
-1. Til að bæta nýjum lánardrottni við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta nýjum lánardrottni við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Lánardrottnalykill** – Veljið kenni lánardrottnalykils.
-    - **Heiti** – Sláið inn heiti og/eða lýsingu á lánardrottni.
 
 1. Til að fjarlægja lánardrottin úr hópnum skal velja lánardrottin og velja svo **Eyða** á aðgerðasvæðinu.
 
@@ -100,10 +97,9 @@ Til að skoða, bæta við eða fjarlægja hópverkefni fyrir valinn lánardrott
 1. Farið í **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar**.
 1. Veljið lánardrottin til að vinna með.
 1. Á aðgerðasvæðinu, í flipanum **Lánardrottinn**, í flokknum **Stjórnun eftirágreidds afsláttar**, skal velja **Hópar fyrir stjórnun eftirágreidds afsláttar**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir hópa sem valinn lánardrottinn tilheyrir.
-1. Til að bæta lánardrottni við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta lánardrottni við hópinn skal velja **Nýr** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Hópur fyrir stjórnun eftirágreidds afsláttar** – Veljið hópinn til að bæta lánardrottni við hann.
-    - **Lýsing** – Sláið inn lýsingu á hópnum (til dæmis til að útskýra af hverju lánardrottinn er meðlimur í honum).
 
 1. Til að fjarlægja lánardrottin úr hópi skal velja hópinn og velja síðan **Eyða** á aðgerðasvæðinu.
 
@@ -127,10 +123,9 @@ Til að skoða, bæta við eða fjarlægja vörur fyrir valinn hóp skal fylgja 
 1. Farið í **Stjórnun eftirágreidds afsláttar \> Uppsetning hóps fyrir stjórnun eftirágreidds afsláttar \> Vöruflokkar**.
 1. Veljið hópinn sem á að stjórna.
 1. Á aðgerðasvæðinu skal velja **Vörur**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir vörur sem eru þegar meðlimir í völdum hópi.
-1. Til að bæta nýrri vöru við hópinn skal velja **Ný** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta nýrri vöru við hópinn skal velja **Ný** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Vörureikningur** – Veljið kenni vörureiknings.
-    - **Heiti afurðar** – Sláið inn heiti og/eða lýsingu á vörunni.
 
 1. Til að fjarlægja vöru úr hópi skal velja vöruna og velja **Eyða** á aðgerðasvæðinu.
 
@@ -139,10 +134,9 @@ Til að skoða, bæta við eða fjarlægja hópverkefni fyrir valda vöru skal f
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Veljið vöruna til að vinna með.
 1. Á aðgerðasvæðinu, í flipanum **Afurð**, í flokknum **Stjórnun eftirágreidds afsláttar**, skal velja **Hópar fyrir stjórnun eftirágreidds afsláttar**. Síðan **Hópar fyrir stjórnun eftirágreidds afsláttar** birtist og sýnir lista yfir hópa sem valin vara tilheyrir.
-1. Til að bæta vöru við hópinn skal velja **Ný** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
+1. Til að bæta vöru við hópinn skal velja **Ný** á aðgerðasvæðinu til að bæta línu við hnitanetið. Stillið svo eftirfarandi reit fyrir nýju línuna:
 
     - **Hópur fyrir stjórnun eftirágreidds afsláttar** – Veljið hópinn til að bæta vöru við hann.
-    - **Lýsing** – Sláið inn lýsingu á hópnum (til dæmis til að útskýra af hverju varan er meðlimur í honum).
 
 1. Til að fjarlægja vöru úr hópi skal velja hópinn og velja **Eyða** á aðgerðasvæðinu.
 

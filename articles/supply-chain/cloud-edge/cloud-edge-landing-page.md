@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938301"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261747"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938301"
 > [!IMPORTANT]
 > Boðið er upp á möguleika einingarkvarða fyrir Microsoft Dynamics 365 Supply Chain Management samkvæmt skilmálunum sem ná utan um notkun þjónustunnar. Nánari upplýsingar eru í [Microsoft Dynamics Lagalegar upplýsingar](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Með því að virkja einingarkvarða fyrir ský og edge, staðfestir þú að þú skiljir að sum gögn sem tengjast skilgreiningu og úrvinnslu einingarkvarða í skýi og edge kunni að vera geymd í gagnamiðstöðvum sem eru staðsettar í Bandaríkjunum. Frekari upplýsingar um úrvinnslu gagna fyrir einingarkvarða skýs og jaðars er að finna í hlutanum [Gagnavinnsla við stjórnun einingarkvarða](#data-processing-management) síðar í þessu efnisatriði.
+> Þegar einingarkvarðar fyrir ský og edge eru virkjaðir verður þú beðin(n) að staðfesta að þú skiljir að sum gögn sem tengjast skilgreiningu og úrvinnslu einingarkvarða í skýi og edge kunni að vera geymd í gagnamiðstöðvum sem eru staðsettar í Bandaríkjunum. Frekari upplýsingar um úrvinnslu gagna fyrir einingarkvarða skýs og jaðars er að finna í hlutanum [Gagnavinnsla við stjórnun einingarkvarða](#data-processing-management) síðar í þessu efnisatriði.
 
 ## <a name="core-value-proposition-for-scale-units"></a>Helsti ávinningur einingarkvarða
 

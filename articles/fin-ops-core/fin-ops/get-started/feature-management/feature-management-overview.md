@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923308"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270814"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -160,8 +160,8 @@ Stefnan er sú að allir nýir eiginleikar verði valdir fyrir 12 mánaða tíma
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Af hverju er ekki til sérstök „áskilin dagsetning virkjunar“? 
 Tímasetning uppfærslu er breytileg, tímasetning á uppfærslu umhverfis er breytileg og viðskiptavinir geta valið um að sleppa sumum uppfærslum. Fyrir vikið er erfitt að ákveða tilteknar dagsetningar. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Hvar er fylgiskjal fyrir eiginleika sem gerðir eru áskildir? 
-Þetta fylgiskjal kemur frá forritsteyminu. Oft verður þess getið í [Fjarlægðir eða úreltir eiginleikar](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Hvar eru fylgigögnin fyrir eiginleika sem eru áskildir? 
+Þessi fylgigögn koma frá hverju teymi Dynamics 365-forrita fyrir sig. Oft eru þessir eiginleikar nefndir í [Uppfærslur á eiginleikastöðum biðlara ](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) eða [Fjarlægðir eða úreltir eiginleikar](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Er tilkynning um vöru eða merki um að eiginleiki verði áskilið virkjaður? 
 Tilkynningakerfi sem tengist því að gera eiginleika áskilinn er ekki til í dag.

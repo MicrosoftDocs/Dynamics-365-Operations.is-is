@@ -2,7 +2,7 @@
 title: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að nota eiginleika fyrir rakningu afkasta í rafrænni skýrslugerð til að úrræðaleita vandamál er varða afköst.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944654"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295574"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -119,12 +119,27 @@ Samsvarandi útgáfur af skilgreiningum gagnalíkans og líkanavörpunar eru flu
 2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 3. Í svarglugganum **Færibreytur notanda**, í hlutanum **Rakning keyrslu**, skal fylgja þessum skrefum:
 
-    1. Í reitnum **Snið framkvæmdarakningar** skal velja **Kemba rakningasnið** til að byrja að safna saman upplýsingum um framkvæmd á sniði rafrænnar skýrslugerðar. Þegar þetta gildi er valið safnar afkastarakningin upplýsingum um tímann sem eftirfarandi aðgerðir taka:
+    1. Í reitnum **Snið framkvæmdarakningar** skal tilgreina snið fyrir myndaða afkastarakningu sem upplýsingar um framkvæmd eru geymdar í fyrir snið rafrænnar skýrslugerðar og einingar vörpunar:
 
-        - Að keyra hvern gagnagjafa í líkanavörpuninni sem er kallað á til að ná í gögn
-        - Úrvinnsla á öllum sniðsatriðum til að færa gögn inn í frálagið sem myndast
+        - **Snið kembirakningar** – Veljið þetta gildi ef ætlunin er að keyra á gagnvirkan hátt snið rafrænnar skýrslugerðar sem er með stuttan keyrslutíma. Söfnun á upplýsingum um framkvæmd á sniði rafrænnar skýrslugerðar fer þá í gang. Þegar þetta gildi er valið safnar afkastarakningin upplýsingum um tímann sem eftirfarandi aðgerðir taka:
 
-        Notaður er reiturinn **Snið framkvæmdarakningar** til að tilgreina snið fyrir myndaða afkastarakningu sem upplýsingar um framkvæmd eru geymdar í fyrir snið rafrænnar skýrslugerðar og einingar vörpunar. Með því að velja **Kemba sniðsrakningu** sem gildið geturðu greint innihald rakningarinnar í aðgerðarhönnuði rafrænnar skýrslugerðar og séð snið rafrænnar skýrslugerðar eða einingar vörpunar sem minnst er á í rakningunni.
+            - Að keyra hvern gagnagjafa í líkanavörpuninni sem er kallað á til að ná í gögn
+            - Úrvinnsla á öllum sniðsatriðum til að færa gögn inn í frálagið sem myndast
+
+            Ef valið er gildið **Snið kembirakningar** er hægt að greina innihald rakningar í aðgerðarhönnuði rafrænnar skýrslugerðar. Þar er hægt að skoða snið rafrænnar skýrslugerðar eða vörpunareiningar sem minnst er á í rakningunni.
+
+        - **Snið uppsafnaðrar rakningar** – Veljið þetta gildi ef ætlunin er að keyra snið rafrænnar skýrslugerðar sem er með langan keyrslutíma í runustillingu. Söfnun á uppsöfnuðum upplýsingum um framkvæmd á sniði rafrænnar skýrslugerðar fer þá í gang. Þegar þetta gildi er valið safnar afkastarakningin upplýsingum um tímann sem eftirfarandi aðgerðir taka:
+
+            - Að keyra hvern gagnagjafa í líkanavörpuninni sem er kallað á til að ná í gögn
+            - Að keyra hvern gagnagjafa í sniðsvörpuninni sem er kallað á til að ná í gögn
+            - Úrvinnsla á öllum sniðsatriðum til að færa gögn inn í frálagið sem myndast
+
+            Gildið **Snið uppsafnaðrar rakningar** er í boði í Microsoft Dynamics 365 Finance útgáfu 10.0.20 og nýrri.
+
+            Í hönnuði rafræns skýrslugerðarsniðs og hönnuði líkanavörpunar rafrænnar skýrslugerðar er hægt að skoða heildartíma keyrslunnar fyrir stakan hlut. Auk þess inniheldur rakningin upplýsingar um framkvæmdina, t.d. keyrslufjölda og lágmarks- og hámarkstíma einnar keyrslu.
+
+            > [!NOTE]
+            > Þessari rakningu er safnað samkvæmt slóð rakinna hluta. Því gæti verið að tölfræðin sé röng þegar stök yfireining hlutar inniheldur nokkrar undireiningar hluta, eða þegar nokkrar undireiningar hluta eru með sama heiti.
 
     2. Stillið eftirfarandi valkosti á **Já** til að safna saman ákveðnum upplýsingum um framkvæmdina á líkanavörpun rafrænnar skýrslugerðar og sniðseiningum rafrænnar skýrslugerðar:
 

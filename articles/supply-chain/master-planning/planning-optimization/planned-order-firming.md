@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193882"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271209"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -123,8 +123,6 @@ Tímamörk sjálfvirkrar staðfestingar eru skilgreind eftir fjölda daga sem sl
 Ef öll áðurnefnd tímamörk eru stillt á *0* (núll) verður slökkt á sjálfvirkri staðfestingu fyrir viðeigandi vörur.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Staðfesta áætlaðar pantanir með fyrirspurn
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Staðfesting byggð á fyrirspurn gerir kleift að áætla staðfestingu byggt á skilyrði sem er skilgreint fyrirfram. Ólíkt sjálfvirkri staðfestingu leyfir staðfesting sem byggð er á fyrirspurn sjálfvirka staðfestingu á mismunandi undirsöfnum pantana á ólíkum tímapunktum. Auk þess er hægt að nota annaðhvort handvirkar eða sjálfvirkar aðgerðir til að staðfesta mismunandi gerðir áætlaðra pantana. Einnig er hægt að forskoða hvaða staðfestar pantanir eru valdar samkvæmt stillingunum þínum. Þess vegna er hægt að staðfesta að valið uppfylli væntingar þínar.
 

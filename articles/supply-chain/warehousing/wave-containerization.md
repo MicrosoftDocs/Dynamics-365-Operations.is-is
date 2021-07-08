@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019052"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292738"
 ---
 # <a name="containerization"></a>Gámun
 
@@ -108,6 +108,8 @@ Til að setja upp gámaröðunarsniðmát skal fylgja þessum skrefum.
 
       - **Pakka í alla opna gáma** – Kerfið metur hvort úthlutunarlína passar í hvaða gám sem var búin til í gámunarferlinu.
       - **Pakka aðeins í núverandi gám** – Kerfið metur einungis hvort úthlutunarlína passar í nýlegustu gáma sem búnir voru til.
+
+    Frekari upplýsingar og dæmi sem sýna hvernig á að vinna með pökkunaraðferðir gáma er að finna í [Pökkunaraðferðir gáma](container-packing-strategy-overview.md).
 
 1. Til að setja upp reglur fyrir pökkun úthlutunarlína í gámum skal velja **Blöndun rökfræðiskila**. Til dæmis er hægt að búa til reglu sem leyfir starfsmönnum að pakkar úthlutunarlínum fyrir tvær mismunandi vörur í sama gámnum. Til að skilgreina blöndunarreglu skal fylgja þessum skrefum:
 

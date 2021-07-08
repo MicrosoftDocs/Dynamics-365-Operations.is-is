@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821250"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270660"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
 
@@ -79,16 +79,14 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu innk
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vistuð yfirlit fyrir einingu framleiðslustýringar
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu framleiðslustýringar.
 
 | Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
 |---|---|---|---|
-| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
-| Upplýsingasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
-| Tiltektarlistasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
-| Listasíða framleiðslupantana | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | (Forútgáfa) Vistuð yfirlit fyrir framleiðslustýringu |
+| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
+| Upplýsingasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
+| Tiltektarlistasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
+| Listasíða framleiðslupantana | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vistuð yfirlit fyrir sölu- og markaðseininguna
 

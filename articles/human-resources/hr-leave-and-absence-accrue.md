@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059474"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303465"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -104,11 +104,9 @@ Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagse
 
 2. Undir **Stjórna leyfi**, veldu **Eyða úttekt leyfisuppsöfnunar**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Forútgáfa) Endurskoðun færslu fyrir uppsafnað leyfi
+## <a name="leave-accrual-transaction-auditing"></a>Endurskoðun færslu fyrir uppsafnað leyfi
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Þessi forskoðunareiginleiki hjálpar stjórnendum leyfis og fjarvista að skilja betur uppsafnaðar færslur leyfa og fjarvista sem tengjast frítímastöðu starfsmanns fyrir tiltekna leyfisgerð.
+Þessi eiginleiki hjálpar stjórnendum leyfis og fjarvista að skilja betur uppsafnaðar færslur leyfa og fjarvista sem tengjast frítímastöðu starfsmanns fyrir tiltekna leyfisgerð.
 
 Til að skoða færsluupplýsingar:
 

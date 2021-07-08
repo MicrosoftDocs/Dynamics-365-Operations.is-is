@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103594"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301675"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -109,6 +109,8 @@ Stilling á valkostinum **Nota fínstillingu skipulags** ákvarðar hvaða áæt
 
 - **Já** - Fínstilling skipulags er notuð við aðaláætlungargerð.
 - **Nei** - Innbyggða áætlunarvélin Supply Chain Management er notuð til aðaláætlunargerðar.
+
+Þessi stilling gildir um alla lögaðila (fyrirtæki). Ekki er hægt að nota fínstillingu skipulagningar í sumum lögaðilum og innbyggða aðaláætlanagerð í öðrum lögaðilum.
 
 > [!NOTE]
 > Ef fyrirliggjandi runuvinnslur áætlunargerðar sem voru stofnuð fyrir innbyggðu áætlunarvélina Supply Chain Management eru sett af stað á meðan valkosturinn **Nota fínstillingu skipulagningar** er stilltur á **Já** munu þær vinnslur ekki takast.

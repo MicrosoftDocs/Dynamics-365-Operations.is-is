@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908881"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301651"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Gögn flutt út fyrir eftirspurnarspár
 
@@ -39,26 +39,6 @@ Til að nota gagnaeininguna verður að hafa annað hvort Microsoft Excel-skrá 
 
 Frekari upplýsingar um hvernig á að flytja inn gögn, þar á meðal hvernig á að hreinsa gögn eftir innflutning, má finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) og tengd efnisatriði.
 
-## <a name="example"></a>Dæmi
-
-Hægt er að nota eftirfarandi skrá sem dæmi. Sæktu [HistoricalDemandData](/dynamics/s-e/). Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001. Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.
-
-1. Velja fyrirtæki til að flytja söguleg eftirspurnargögn inn í.
-2. Opnaðu vinnusvæðið **Gagnastjórnun**.
-3. Veljið reitinn **Flytja inn**.
-4. Færið inn heiti fyrir innflutningsverkið, t.d. **Flytja inn sögulega eftirspurn fyrir vöruna D0001**.
-5. Í reitinn **Snið upprunagagna** skal velja skráarsnið skráarinnar sem þú ert að flytja inn. Til þess að flytja inn skrána HistoricalDemandData í þessu dæmi skal velja **CSV**.
-6. Í reitinn **Heiti Einingar** skal velja **Söguleg ytri eftirspurn**.
-7. Vistaðu skrána í tölvunni og hladdu henni svo upp.
-8. Velja **Innflutningur**.
-9. Síðan **Samantekt framkvæmdar** opnast sjálfkrafa. Sannprófaðu innfluttu gögnin á síðunni.
-
-Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda eftirspurnarspá.
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-
-[Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)  
-[Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Sjá einnig [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

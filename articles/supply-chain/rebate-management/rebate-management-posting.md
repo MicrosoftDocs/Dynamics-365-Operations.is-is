@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216744"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271006"
 ---
 # <a name="rebate-management-posting-setup"></a>Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar
 
@@ -41,7 +41,7 @@ Eftirfarandi tafla lýsir stillingunum sem eru í boði í haushluta hverrar bó
 |---|---|
 | Bókunarregla |  Slá inn einkvæmt heiti fyrir forstillinguna. |
 | lýsing | Færið inn lýsingu á reglunni. |
-| Kerfiseining | Veljið gerð eftirágreiddra afslátta og afnotagreiðslna sem reglan tengist (*Viðskiptavinur* eða *Lánardrottinn*). |
+| Kerfiseining | Veljið eininguna sem eftirágreiddir afslættir og afnotagreiðslur prófílsins eru tengd við (*Viðskiptavinur* eða *Lánardrottinn*). |
 | Gerð | Veljið tegund reglu (*Eftirágreiddur afsláttur* eða *Afnotagreiðsla*). |
 | Greiðslugerð | <p>Þessi reitur ákvarðar sniðið á úttaki bókaðs eftirágreidds afsláttar.<p><p>Þegar reiturinn **Gerð** er stilltur á *Eftirágreiddur afsláttur* eru eftirfarandi gildi í boði:</p><ul><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottin greiðslunnar sem er settur upp í viðskiptavini eftirágreidds afsláttar stofnaður. Þegar eftirágreiddur afsláttur lánardrottins er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li><li>*Frádráttur viðskiptavinar* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skattleggja frádrátt viðskiptavinareiknings* – Þegar eftirágreiddur afsláttur er bókaður verður stofnaður reikningur með frjálsum texta fyrir viðskiptavin eftirágreidds afsláttar.</li><li>*Kostnaður við vörumerki* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður frádráttarbók viðskiptavinar fyrir viðskiptavin eftirágreidds afsláttar stofnuð.</li></ul><p>Þegar reiturinn **Gerð** er stilltur á *Afnotagreiðsla* eru eftirfarandi gildi í boði:</p><ul><li>*Greiða með viðskiptaskuldum* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li><li>*Skýrslugjöf* – Þegar eftirágreiddur afsláttur er bókaður verður lánardrottnareikningur fyrir lánardrottnalykil eftirágreidds afsláttar stofnaður.</li></ul><p>Frekari upplýsingar eru í hlutanum [Greiðslugerðir](#payment-types) sem kemur í kjölfarið. |
 | Fyrirt.   | Veljið fyrirtækið (lögaðilann) sem úthlutunum verður safnað í og kröfur greiddar frá. |
@@ -66,7 +66,7 @@ Eftirfarandi tafla lýsir stillingunum sem eru í boði í haushluta hverrar bó
 > Hafið eftirfarandi punkta í huga þegar [Tilboð fyrir stjórnun eftirágreidds afsláttar](rebate-management-deals.md) er sett upp:
 >
 > - Fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Tilboð* er ekki hægt að nota kvikan tilboðslykil við bókun. Þú verður að nota tilgreindan reikning viðskiptamanns eða lánardrottins.
-> - Fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína* er hægt að nota bókunarreglu sem jafnast inn á kvikan tilboðslykil í tilboðslínunni vegna þess að viðskiptavinurinn er stilltur fyrir hverja tilboðslínu.
+> - Fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína* er hægt að nota bókunarreglu sem jafnast inn á kvikan tilboðslykil í tilboðslínunni vegna þess að viðskiptavinurinn eða lánardrottinn er stilltur fyrir hverja tilboðslínu.
 
 ## <a name="posting-fasttab"></a>Flýtiflipinn Bókun
 
@@ -74,15 +74,15 @@ Eftirfarandi tafla lýsir reitunum sem eru tiltækir í flýtiflipanum **Bókun*
 
 | Svæði | lýsing |
 |---|---|
-| Kredit gerð | Veljið hvort kreditfæra eigi fjárhagslykil, eða viðskiptavin eða lánardrottin. |
-| Kreditreikningur | Lykillinn þar sem kreditupphæðir eru bókaðar á þegar úthlutanir á eftirágreiddum afslætti fara fram. Þessi lykill verður einnig notaður sem debetlykill þegar eftirágreiddur afsláttur er bókaður til að kreditfæra viðskiptavininn. |
+| Kredit gerð | Veljið hvort kreditfæra eigi fjárhagslykil eða viðskiptavin. Ef reiturinn **Greiðslugerð** í hausnum er stilltur á *Skattleggja frádrátt viðskiptavinareiknings* verður þessi reitur stilltur á *Fjárhagslykill*. Fyrir eftirágreidda afslætti lánardrottins er þessi reitur stilltur á *Fjárhagslykill*. |
+| Kreditreikningur | Veldu lykilinn þar sem kreditupphæðir eru bókaðar á þegar úthlutanir á eftirágreiddum afslætti fara fram. Þessi lykill verður einnig notaður sem mótlykill þegar eftirágreiddur afsláttur er bókaður til að kreditfæra viðskiptavininn eða debetfæra lánardrottin. |
 | Nafn færslubókar<br>(Í hlutanum **Úthlutun**) | Veljið heiti færslubókar sem á að nota til að skrá bókaða úthlutun. |
 | Gerð | Veljið hvort eigi að bóka eftirágreiddan afslátt á fjárhagslykil, eða viðskiptavin eða lánardrottin. Ef reiturinn **Greiðslugerð** í hausnum er stilltur á *Skattleggja frádrátt viðskiptavinareiknings* verður þessi reitur stilltur á *Viðskiptavinur/Lánardrottinn*. |
-| Nota uppruna lykils | <p>Veljið eitt af eftirfarandi gildum:</p><ul><li>*Enginn* – Ef þetta gildi er valið þarf að tilgreina lykil í reitnum **Lykill eftirágreidds afsláttar**.</li><li>*Tilboðslykill* – Notið viðskiptavina- eða lánardrottnalykil sem er tilgreindur í línu eftirágreidds afsláttar. Þetta gildi er aðeins hægt að velja fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína* og tilboðslínurnar þar sem reiturinn **Kóði lykils** er stilltur á *Tafla*. Það gildir ekki um bókunarreglur vegna afnotagreiðslu viðskiptavinar.</li></ul> |
+| Nota uppruna lykils | <p>Veljið eitt af eftirfarandi gildum:</p><ul><li>*Fastur lykill* – Ef þetta gildi er valið þarf að tilgreina lykil í reitnum **Lykill eftirágreidds afsláttar**.</li><li>*Lykill tilboðslínu* – Notið viðskiptavina- eða lánardrottnalykil sem er tilgreindur í línu eftirágreidds afsláttar. Þetta gildi er aðeins hægt að velja fyrir tilboð þar sem reiturinn **Afstemma eftir** er stilltur á *Lína* og tilboðslínurnar þar sem reiturinn **Kóði lykils** er stilltur á *Tafla*. Það gildir ekki um bókunarreglur vegna afnotagreiðslu viðskiptavinar eða eftirágreiddra afslátta lánardrottins sem byggja á sölupöntunum.</li></ul> |
 | Lykill eftirágreidds afsláttar | Lykillinn þar sem raunverulegur kostnaður eftirágreiddra afslátta verður bókaður. |
-| Nafn færslubókar<br>(Í hlutanum **Stjórnun eftirágreidds afsláttar**) | Veljið heiti færslubókar sem á að nota til að bóka kreditnótu fyrir upphæð eftirágreidds afsláttar fyrir viðskiptavininn. Þessi reitur er ekki í boði þegar reiturinn **Greiðslugerð** í hausnum er stilltur á *Skattleggja frádrátt viðskiptavinareiknings*. |
+| Nafn færslubókar<br>(Í reitahópnum **Stjórnun eftirágreidds afsláttar**) | Veljið heiti færslubókar sem á að nota til að bóka kreditnótu fyrir upphæð eftirágreidds afsláttar fyrir viðskiptavininn eða lánardrottinn. Þessi reitur er ekki í boði þegar reiturinn **Greiðslugerð** í hausnum er stilltur á *Skattleggja frádrátt viðskiptavinareiknings*. Fyrir eftirágreidda afslætti viðskiptavinar verða færslubókarheiti af færslubókargerðinni *Daglegt* í boði. Fyrir afnotagreiðslur viðskiptavinar og eftirágreidda afslætti lánardrottins verða færslubókarheiti af færslubókargerðinni *Skráning reiknings frá lánardrottni* í boði. |
 | VSK-flokkur vöru | Tilgreinið hvort eftirágreiddur afsláttur sé skattskyldur. |
-| Nafn færslubókar<br>(Í hlutanum **Afskrifa**) | Ef eftirágreiddur afsláttur sem er bókaður jafngildir ekki úthlutuninni verður hægt að afskrifa mismuninn. Veljið heiti færslubókar sem á að nota til að skrá bókaða afskrift. |
+| Nafn færslubókar<br>(Í reitahópnum **Afskrifa**) | Ef eftirágreiddur afsláttur sem er bókaður jafngildir ekki úthlutuninni verður hægt að afskrifa mismuninn. Veljið heiti færslubókar sem á að nota til að skrá bókaða afskrift. |
 
 ## <a name="posting-by-company-fasttab"></a>Flýtiflipi bókunar eftir fyrirtæki
 
@@ -92,6 +92,6 @@ Notið hnappana á tækjastikunni til að bæta fyrirtækjum við hnitanetið e�
 
 Veljið línuna fyrir hvert fyrirtæki og færið svo inn eftirfarandi upplýsingar með því að nota reitina fyrir neðan hnitanetið:
 
-- **Debetgerð** – Veldu hvort skuldfæra eigi fjárhagslykil, eða viðskiptavin eða lánardrottinn.
+- **Debetgerð** – Veljið hvort skuldfæra eigi fjárhagslykil eða lánardrottin. Fyrir eftirágreidda afslætti viðskiptavinar er þessi reitur stilltur á *Fjárhagslykil*.
 - **Debetlykill** – Færið inn lykilinn sem debetupphæðin er bókuð á þegar úthlutanir eftirágreidds afsláttar fara fram.
 - **Aðallykill** – Veljið aðallykil fyrir afskriftir.

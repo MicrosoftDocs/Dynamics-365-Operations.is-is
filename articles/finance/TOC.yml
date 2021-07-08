@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Algengar spurningar um fjárhagsskýrslugerð
               href: general-ledger/financial-reporting-faq.md
-        - name: Fjármálainnsýn
+        - name: Finance insights
           items:
-            - name: Heimasíða Fjarmálainnsýnar
+            - name: Heimasíða Finance insights
               href: finance-insights/finance-insights-home-page.md
             - name: Grunnstilling og stjórnun
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Stofna verk til að setja upp samþættingu gagna
                   href: finance-insights/create-data-integrate-project.md
-            - name: Nota Finance-innsýn
+            - name: Nota Finance insights
               items:
                 - name: Drög að fjárhagsáætlunum
                   href: finance-insights/budget-proposals.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service og hlaða þeim upp í altæka geymslu
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service – eyða RCS-umhverfi
+                      href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Rafræn reikningsfærsla
@@ -1518,12 +1520,16 @@
                       items:
                         - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
-                        - name: Skýrslugerð Hollands
+                        - name: Skýrslugerð fyrir Holland
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ESB-sölulisti
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Skýrslugerð fyrir Bretland
+                          items:
+                            - name: Undirbúa samþættingu við MTD fyrir VSK
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
             - name: Ástralía
@@ -3172,10 +3178,12 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Skattskrár sjóðstreymis
                       href: localizations/rus-cash-flow-tax-registers.md
-                    - name: Skrár skilgreindra útgjalda
+                    - name: Skrár skilgreinds kostnaðar
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Skattskrár og afskriftir viðskiptaskulda
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Frátektir tapaðrar viðskiptakröfu í viðskiptakröfum
+                      href: localizations/rus-bad-debts.md
             - name: Sádi-Arabía
               items:
                 - name: Yfirlit yfir Sádi-Arabíu
@@ -3262,7 +3270,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Víddir skattstofu
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: VSK-skýrsla
+                - name: VSK-söluskýrsla
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: VSK-meðaltal fyrir innkaupafærslur
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
@@ -3288,12 +3296,10 @@
                       href: localizations/tasks/gb-00002-sales-order.md
                     - name: Setja upp VSK-flokka vara fyrir bakfærð gjöld
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                    - name: 'Seta upp afurðaflokka, reglur og færibreytur bakfærðra gjalda'
+                    - name: 'Seta upp vöruflokka, reglur og færibreytur bakfærðra gjalda'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Uppsetning VSK-flokka fyrir bakfærð gjöld
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Stafrænir skattar fyrir VSK
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Skýrsla um greiðsluhætti
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Bandaríkin
@@ -3665,11 +3671,17 @@
               items:
                 - name: Formúlutungumál
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Studdar gagnagerðir fyrir formúlur í rafrænni skýrslugerð
+                  items:
+                    - name: Frumstæðar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Samsettar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Aðgerðir
                   items:
-                    - name: Gamur
+                    - name: Gámur
                       items:
-                        - name: Gamaaðgerðir
+                        - name: Gámaaðgerðir
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Hanna snið rafrænnar skýrslugerðar til að mynda skjöl á útleið á mismunandi sniðum
               items:
+                - name: Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að mynda skjöl á Excel-sniði á útleið
                   items:
                     - name: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Dæmi um myndun skýrslna á OPENXML-sniði
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Forritsuppfærsla 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Forritsuppfærsla 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
-                    - name: Úthluta stofnun á endastað rafrænnar skýrslugerðar til sérstilltrar verksmiðju á áfangastað
+                    - name: Úthluta stofnun á áfangastað rafrænnar skýrslugerðar á sérstillta verksmiðju á áfangastað
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: Keyra gildi gagnaveitu í gerð innsláttarfæribreytu notanda úr frumkóða
+                    - name: Innleiða sérsniðinn áfangastað fyrir skjöl sem eru mynduð
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Fartækjaforrit
           items:

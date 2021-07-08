@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216843"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306416"
 ---
 # <a name="inventory-forecasts"></a>Birgðaspár
 
@@ -353,20 +353,46 @@ Notið þetta ferli til að stofna spáfærslulínur. Hægt er að afrita, breyt
 1. Notið hlutann **Fjárhagsvíddir** til að uppfæra fjárhagsvíddir spárlína. Veljið fjárhagsvíddir sem á að breyta og sláið síðan inn gildi sem á að nota á valdar víddir.
 1. Veldu **Í lagi** til að gera breytinguna.
 
-## <a name="run-forecast-planning"></a>Keyra spáráætlun
+## <a name="use-forecasts-with-master-planning"></a>Nota spár með aðaláætlanagerð
 
-Þegar búið er setja inn eftirspurnarspá og/eða framboðsspá er hægt að keyra spáráætlun til að reikna brúttóþörf á efnum og afköstum og útbúa áætlaðar pantanir.
+Eftir að þú hefur slegið inn spá um eftirspurn og/eða framboð getur þú tekið spána með í áætlanagerð til að taka tillit til væntanlegrar eftirspurnar og/eða framboðs í keyrslu áætlanagerðar. Þegar spár eru teknar með í aðaláætlanagerð eru brúttóþarfir fyrir efni og afkastagetu reiknaðar og áætlaðar pantanir eru myndaðar.
 
-1. Farið í **Aðaláætlanagerð \> Spá \> Spáráætlun**.
-1. Í reitnum **Spáráætlun** skal velja spáráætlun.
-1. Virkið **Rekja vinnslutíma** til að skrá vinnslutíma fyrir hvert áætlunarverk.
-1. Í svæðinu **Fjölda þráða** skal færa inn gildi. (Frekari upplýsingar er að finna í [Bæta frammistöðu aðaláætlanagerðar](master-planning-performance.md).)
-1. Í reitinn **Athugasemd** skal færa inn texta til að halda utan um nauðsynlegar viðbótarupplýsingar.
-1. Í flýtiflipanum **Færsla sem hafa á með** skal velja **Sía** til að takmarka val á vörum.
-1. Í flýtiflipanum **Keyra í bakgrunni** skal tilgreina færibreytur rununnar.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Setja upp aðaláætlun með birgðaspá
+
+Til að setja upp aðaláætlun þannig að hún taki með birgðaspá skal fylgja þessum skrefum.
+
+1. Farið í **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Aðaláætlanir**.
+1. Veljið fyrirliggjandi áætlun eða stofna nýja áætlun.
+1. Á flýtiflipanum **Almennt** stillirðu eftirfarandi reiti:
+
+    - **Spárlíkan** – Veljið spálíkanið sem á að nota. Þetta líkan verður tekið með þegar framboðstillögur eru myndaðar fyrir núverandi aðaláætlun.
+    - **Taka með framboðsspá** – Stillið þennan valkost á *Já* til að taka með framboðsspá í gildandi aðaláætlun. Ef hann er stilltur á *Nei* eru færslur framboðsspár ekki teknar með í aðaláætluninni.
+    - **Taka með eftirspurnarspá** – Stillið þennan valkost á *Já* til að taka með eftirspurnarspá í gildandi aðaláætlun. Ef það er stillt á *Nei* eru eftirspurnarspárfærslur ekki teknar með í aðaláætluninni.
+    - **Aðferð sem er notuð til að minnka spárþarfir** -Veljið aðferðina sem á að nota til að minnka spárþarfir. Frekari upplýsingar er að finna í [Minnkunarlyklar samkvæmt spá](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Á flipanum **Tímamörk í dögum** er hægt að stilla eftirfarandi reiti til að tilgreina tímabilið sem spáin er höfð með í:
+
+    - **Spáráætlun** – Stillið þennan valkost á *Já* til að hnekkja tímamörkum spáráætlunarinnar sem eiga uppruna sinn í einstökum þekjuflokkum. Stillið þetta á *Nei* til að nota gildin úr einstökum þekjuflokkum fyrir núverandi aðaláætlun.
+    - **Spátímatímabil** – Ef **Spáráætlun** valkosturinn er stilltur á *Já* skal tilgreina dagafjöldann (frá deginum í dag) sem á að nota eftirspurnarspá fyrir.
+
+    > [!IMPORTANT]
+    > Valkosturinn **Spáráætlun** er ekki enn studdur í fínstillingu skipulagningar.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Keyra aðaláætlun sem inniheldur birgðaspá
+
+Til að keyra aðaláætlun sem inniheldur birgðaspá skal fylgja þessum skrefum.
+
+1. Farið í **Aðaláætlanagerð \> Vinnusvæði \> Aðaláætlanagerð**.
+1. Í reitinn **Aðaláætlun** skal færa inn eða velja aðaláætlun sem var sett upp í ferlinu hér á undan.
+1. Í reitnum **Aðaláætlanagerð** skal velja **Keyra**.
+1. Í svarglugganum **Aðaláætlanagerð** skal stilla valkostinn **Rekja vinnslutíma** á *Já*.
+1. Í reitinn **Fjöldi þráða** skal færa inn tölu.
+1. Á flýtiflipanum **Færslur til að hafa með** velurðu **Sía**.
+1. Venjulegur svargluggi fyrirspurnarritils birtist. Í flipanum **Svið** skal velja línuna þar sem reiturinn **Reitur** er stilltur á *Vörunúmer*.
+1. Í reitnum **Skilyrði** skal velja vörunúmerið sem hafa á með í áætluninni.
 1. Veljið **Í lagi**.
 
-Til að skoða reiknaðar þarfir skal opna síðuna **Brúttóþörf**. Til dæmis á síðunni **Útgefnar afurðir**, í flipanum **Áætlun**, í hlutanum **Kröfur**, skal velja **Brúttóþörf**.
+Til að skoða reiknaðar þarfir skal opna síðuna **Brúttóþörf**. Til dæmis á síðunni **Útgefnar afurðir**, á aðgerðasvæðinu, í flipanum **Áætlun**, í hópnum **Kröfur**, skal velja **Brúttóþörf**.
 
 Til að skoða áætlaðar pantanir sem eru útbúnar er farið í **Aðaláætlanagerð \> Almennar \> Áætlaðar pantanir** og velja viðeigandi spárætlun.
 
@@ -376,5 +402,6 @@ Til að skoða áætlaðar pantanir sem eru útbúnar er farið í **Aðaláætl
 - [Uppsetning eftirspurnarspár](demand-forecasting-setup.md)
 - [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)
 - [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
+- [Aðaláætlanagerð með eftirspurnarspám](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020460"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271054"
 ---
 # <a name="rebate-management-module-overview"></a>Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
 
@@ -70,7 +70,7 @@ Hægt er að skilgreina eftirágreidda afslætti út frá mörgum mismunandi fæ
 
 Einnig er hægt að lækka útkomu útreiknings á eftirágreiddum afslætti af hálfu annarra eftirágreiddra afslátta eftir því hvort eftirágreiddur afsláttur er settur upp til að gera útreikning út frá nettóupphæðinni.
 
-Hjá lánardrottni geta eftirágreiddir afslættir reiknað út verðið byggt á fyrst inn, fyrst út (FIFO) reglunni, síðasta innkaupaverði, meðaltali innkaupaverðs eða söluverði.
+Hjá lánardrottni geta eftirágreiddir afslættir sem byggja á sölupöntunum reiknað út verðið byggt á fyrst inn, fyrst út (FIFO) reglunni, síðasta innkaupaverði, meðaltali innkaupaverðs eða söluverði.
 
 ## <a name="rebate-target-transactions"></a>Markfærslur eftirágreidds afsláttar
 
@@ -84,11 +84,12 @@ Fjárhagslegar niðurstöður ákvarðast af greiðslugerðinni sem samkomulagin
 
 Samsetning tengdra tilboða, tíðni útreikninga, grunnur útreiknings og útreikningsaðferðin sem er valið sker úr um nákvæmni útreikninga eftirágreidds afsláttar. Hægt er að nota úthlutanir eftirágreidds afsláttar til að safna upp bókuðu og innheimtu virði.
 
-Hægt er að hafa umsjón með úthlutunum daglega eða mánaðarlega. Hinsvegar getur virknin úthlutað eða greitt eftirágreiddan afslátt eða tekið við greiðslu vegna hans eins oft og þörf er á. Notendur geta á einfaldan hátt breytt áætlun eða greiðsluupphæðum hvenær sem er við greiðslu.
+Úthlutunum er hægt að stjórna daglega, vikulega, mánaðarlega eða samkvæmt sérstilltu tímabili. Hinsvegar getur virknin úthlutað eða greitt eftirágreiddan afslátt eða tekið við greiðslu vegna hans samkvæmt skilgreindri tíðni sem er af sömu lengd eða lengri en tíðni úthlutunar. Afskrift notar sömu tíðni og eftirágreiddur afsláttur. Notendur geta á einfaldan hátt breytt áætlun eða greiðsluupphæðum hvenær sem er við greiðslu.
 
-Notendur þurfa ekki lengur að afgreiða tilboð eða úthlutanir í tveimur skrefum. Úthlutanir og afskriftir eru bókaðar beint í fjárhag. Auk þess er hægt að búa til kreditnótur sjálfkrafa. Þar af leiðandi er full samþætting við viðskiptaskuldir og viðskiptakröfur. Við úrvinnslu taka útreikningar mið af uppgjörsafsláttum, greiddum reikningum, viðskiptaafsláttum og fyrirliggjandi kreditnótum til að tryggja nákvæman útreikning á upphæðum og virði.
+Notendur þurfa ekki lengur að afgreiða tilboð eða úthlutanir í tveimur skrefum. Úthlutanir og afskriftir eru bókaðar beint í fjárhag. Auk þess er hægt að búa til kreditnótur sjálfkrafa. Þar af leiðandi er full samþætting við viðskiptaskuldir og viðskiptakröfur. Við úrvinnslu geta útreikningar tekið mið af uppgjörsafsláttum, greiddum reikningum, viðskiptaafsláttum og fyrirliggjandi kreditnótum til að tryggja nákvæman útreikning á upphæðum og virði.
 
-Þegar eftirágreiddir afslættir eru reiknaðir út býr ferlið til færslur sem hægt er að yfirfara áður en er bókað. Síðan er hægt að búa til færslubók, kreditnótu eða debetfærslu. Aðskilið ferli bókar færslur eftirágreidds afsláttar og frádráttar. Hægt er að sækja skýrslu með lista yfir uppgjör og færslur til að tryggja reglufylgni, árangur og gegnsæi.
+Þegar eftirágreiddir afslættir eru reiknaðir út býr ferlið til færslur sem hægt er að yfirfara áður en er bókað. Aðskilið ferli bókar færslur eftirágreidds afsláttar. Síðan er hægt að búa til færslubók, kreditnótu eða debetfærslu við bókun á framlögðum færslum. Hægt er að sækja skýrslu með lista yfir uppgjör og færslur til að tryggja reglufylgni, árangur og gegnsæi.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Tryggðar afnotagreiðslur
 
