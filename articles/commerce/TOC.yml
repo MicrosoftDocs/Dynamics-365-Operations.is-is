@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (maí 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (apríl 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Útgáfukröfur íhlutar fyrir Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Skipulag viðskiptakerfis án framvinnslu
+                - name: Skipulag viðskipta án framvinnslu
                   href: dev-itpro/retail-server-architecture.md
                 - name: Velja grannfræði í verslun
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Setja upp og virkja staðfæringu Commerce fyrir Brasilíu
                   href: localizations/latam-bra-deployment.md
+                - name: NFC-e fjárhagsskjalavirkni í Commerce-sölustað fyrir Brasilíu
+                  href: localizations/latam-bra-nfce.md
+                - name: Stjórna upplýsingum um viðskiptavin í sölustað fyrir Brasilíu
+                  href: localizations/latam-bra-customer-information.md
+                - name: Afturköllun og skil á NFC-e skjölum í Commerce-sölustað fyrir Brasilíu
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: Skráningu frestað á NFC-e skjölum útgefnum í viðbúnaðarstillingu utan nets
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Birta brasilísk fjárhagsskjöl í gegnum smásöluuppgjör í Commerce Headquarters
+                  href: localizations/latam-bra-retail-statements.md
             - name: Austur-Evrópa
               items:
                 - name: Algengt
@@ -1458,11 +1466,17 @@
               items:
                 - name: Formúlutungumál
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Studdar gagnagerðir fyrir formúlur í rafrænni skýrslugerð
+                  items:
+                    - name: Frumstæðar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Samsettar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Aðgerðir
                   items:
-                    - name: Gamur
+                    - name: Gámur
                       items:
-                        - name: Gamaaðgerðir
+                        - name: Gámaaðgerðir
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/commerce/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/commerce/toc.json
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Forritsuppfærsla 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Forritsuppfærsla 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
-                    - name: Úthluta stofnun á endastað rafrænnar skýrslugerðar til sérstilltrar verksmiðju á áfangastað
+                    - name: Úthluta stofnun á áfangastað rafrænnar skýrslugerðar á sérstillta verksmiðju á áfangastað
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Keyra gildi gagnaveitu í gerð innsláttarfæribreytu notanda úr frumkóða
+                - name: Innleiða sérsniðinn áfangastað fyrir skjöl sem eru mynduð
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) farsímaforrit
           items:
@@ -2622,7 +2640,7 @@
                   href: troubleshoot/restrict-access-storefront.md
                 - name: Innskráningartengill vísar aftur á svæði fyrir rafræn viðskipti
                   href: troubleshoot/sign-in-redirects-back.md
-                - name: Færslur viðskiptavinar birtast ekki í höfuðstöðvum Commerce
+                - name: Færslur viðskiptavinar birtast ekki í Commerce Headquarters
                   href: troubleshoot/customer-record-not-appearing.md
                 - name: Valkosturinn Sækja þetta birtist ekki
                   href: troubleshoot/pickup-store-link-missing.md

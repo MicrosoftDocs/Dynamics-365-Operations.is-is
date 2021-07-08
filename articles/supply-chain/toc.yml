@@ -74,12 +74,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: Supply Chain Management 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (apríl 2021)
+                    - name: Supply Chain Management 10.0.19 (júní 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maí 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (apríl 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -294,7 +292,7 @@
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
             - name: Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-workload-manufacturing.md
-            - name: Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
+            - name: Vörhúsakerfi fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-workload-warehousing.md
             - name: Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
               href: cloud-edge/cloud-edge-warehouse-order.md
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nota vinnusvæði kostnaðarstýringar fyrir fartækjaforrit Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Altækt birgðabókhald
+          items:
+            - name: Altækt birgðabókhald –heimasíða
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Hafist handa með altækt birgðabókhald
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Viðskiptaskjöl sem studd eru af altæku birgðabókhaldi
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Virkja Power BI fyrir altækt birgðabókhald
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Viðteknar reglur
+              href: global-inventory-accounting/conventions.md
+            - name: Fjárhagur altæks birgðabókhalds
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kostnaðarstjórnun
           items:
             - name: Kostnaðarstjórnun – heimasíða
@@ -873,11 +885,17 @@
               items:
                 - name: Formúlutungumál
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Studdar gagnagerðir fyrir formúlur í rafrænni skýrslugerð
+                  items:
+                    - name: Frumstæðar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Samsettar gagnagerðir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aðgerðir
                   items:
-                    - name: Gamur
+                    - name: Gámur
                       items:
-                        - name: Gamaaðgerðir
+                        - name: Gámaaðgerðir
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Base64StringToContainer
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/supply-chain/toc.json
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Forritsuppfærsla 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Forritsuppfærsla 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Úthluta stofnun á endastað rafrænnar skýrslugerðar til sérstilltrar verksmiðju á áfangastað
+                    - name: Úthluta stofnun á áfangastað rafrænnar skýrslugerðar á sérstillta verksmiðju á áfangastað
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Keyra gildi gagnaveitu í gerð innsláttarfæribreytu notanda úr frumkóða
+                - name: Innleiða sérsniðinn áfangastað fyrir skjöl sem eru mynduð
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Birgðastjórnun
           items:
@@ -1589,10 +1611,12 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Aðaláætlanagerð með eftirspurnarspá
                   href: master-planning/planning-optimization/demand-forecast.md
-                - name: Áætlanagerð með innkaupaverðsamningum
+                - name: Aðaláætlanagerð með innkaupaverðsamningum
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Öryggismörk
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Vikmörk tafar (neikvæður dagafjöldi)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Innkaupabeiðnir
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Framleiðsluáætlun
@@ -1603,9 +1627,11 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Útiloka afurðir með tilteknar líftímastöður afurðar
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Áfyllingaraðferðir og magnbreyting
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Þekjutímamörk
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Samþykkja tillögur
+                - name: Samþykkja áætlaðar pantanir
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Staðfesta áætlaðar pantanir
                   href: master-planning/planning-optimization/planned-order-firming.md
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Flytja inn ASN á innleið í gegnum V2 gagnaeininguna
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
@@ -3215,7 +3243,9 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Skilgreina hlutastaðsetningu reglulegrar talningar
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                    - name: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
+                    - name: Dæmi um reglulega talningu
+                      href: warehousing/cycle-counting-scenarios.md
+                    - name: Hreinsunarvinnsla lagerbirgðafærslna í vöruhúsakerfi
                       href: warehousing/onhand-cleanup.md
                     - name: Birgðabækur
                       href: inventory/inventory-journals.md
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Úrræðaleit fyrir vöruhúsavinnu
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Vöruhúsaforritið
+              items:
+                - name: Uppsetning og notkun fartækja
+                  items:
+                    - name: Nýjungar eða breytingar í Warehouse Management farsímaforriti
+                      href: warehousing/whats-new-wma.md
+                    - name: Setja upp og tengja farsímaforrit Warehouse Management
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Setja upp og tengja vöruhúsaforrit
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Skanna strikamerki með myndavél í Warehouse Management farsímaforriti
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Úrræðaleit fyrir tengivandamál Warehouse Management farsímaforrits
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Setja upp reiti og valmyndir fyrir fartæki
+                  items:
+                    - name: Skilgreina reiti fyrir Warehouse Management farsímaforritið
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Uppsetning fartækja fyrir vöruhúsavinnu
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Móttaka númeraplötu með Warehouse Management farsímaforriti
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
+                      href: warehousing/pick-line-overview.md
+                    - name: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Móttaka blandaðrar númeraplötu í fartæki
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Stilla „Birta eldri keyrslur“ innan vöruhúss á fartæki
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Taka til elstu runu í fartæki
+                      href: warehousing/pick-oldest-batch.md
+                - name: Notandastillingar fartækis
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Vinnsla viðburða í vöruhúsaforriti
+                  href: warehousing/warehouse-app-events.md
+                - name: Sérstilla vöruhúsaforritið
+                  items:
+                    - name: Vinna úr leiðbeiningaramma
+                      href: warehousing/process-guide-framework.md
+                    - name: Úthluta skrefatáknum og titlum
+                      href: warehousing/step-icons-titles.md
             - name: Uppsetning vöruhúss
               items:
                 - name: Skilgreining vöruhúss
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Prentun bylgjumerkis
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Áætla prentun bylgjumerkis í bylgju
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Gámun
                           href: warehousing/wave-containerization.md
+                        - name: Pökkunarstefnur gáms
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Uppfæra sendingar sjálfkrafa
                       href: warehousing/auto-update-shipment.md
                     - name: Stofna staðsetningarforstillingu
@@ -3309,47 +3389,9 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Úrræðaleit fyrir grunnstillingu vöruhúss
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Setja upp og skilgreina farsímaforrit vöruhúsakerfis
-                  items:
-                    - name: Setja upp og tengja farsímaforrit vöruhúsakerfis
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Notandastillingar fartækis
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Setja upp og tengja vöruhúsaforrit
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Skilgreina reiti fyrir Warehouse Management farsímaforritið
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Uppsetning fartækja fyrir vöruhúsavinnu
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Úthluta skrefatáknum og titlum
-                      href: warehousing/step-icons-titles.md
-                    - name: Vinnsla viðburða í vöruhúsaforriti
-                      href: warehousing/warehouse-app-events.md
-                    - name: Móttaka númeraplötu með Warehouse Management farsímaforritinu
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
-                      href: warehousing/pick-line-overview.md
-                    - name: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Móttaka blandaðrar númeraplötu í fartæki
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Stilla skjá eldri keyrsla innan vöruhúss á fartæki
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Tína elstu runu í fartæki
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Vinna úr leiðbeiningaramma
-                      href: warehousing/process-guide-framework.md
-                    - name: Úrræðaleit fyrir tengingarvandamál farsímaforrits vöruhúsakerfis
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Uppfærsla og flutningur
                   items:
-                    - name: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
+                    - name: Uppfæra ferli vöruhúsakerfis úr Microsoft Dynamics AX 2012 í Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
                     - name: Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlegt vöruhúsakerfi
                       href: warehousing/troubleshoot-warehouse-upgrade-migration.md
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Aðaláætlanagerð
               items:
+                - name: Villa kemur upp við keyrslu á innbyggðri aðaláætlunarvél
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Vara má ekki hafa uppskrift eða formúlu
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Færibreytur fyrir aðaláætlun eru ekki til
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: Tímasetja þarf framleiðslutillöguna áður en hægt er að staðfesta hana
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Afurð er í bið fyrir færslur
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Valið formúlunúmer er ekki samþykkt fyrir runupöntun.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Kóði lánardrottins er ekki heimilaður fyrir tiltekna afurð og dagsetningu
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Lánardrottinn er ekki tilgreindur þegar áætlaðar pantanir eru staðfestar
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Unnið er úr beint afleiddum staðfestum pöntunum með verkflæði endurskoðunar
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Ekki er hægt að sía atriði aðaláætlanagerðar eftir gildum tengds þekjuflokks
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Vöruhúsakerfi
               items:
+                - name: Innhreyfingarskjöl afurða sem hætt hefur verið við uppfæra ekki færslustöðu í „Skráð“
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Sléttun aukastafa á efnislegu uppfærslumagni er röng
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Efnislegar eftirstöðvar í einingunni verða að vera annað en núll
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: Tiltektarmagn er ekki nægjanlegt við myndun fylgiseðils
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: Magn fer yfir umframafhendingarprósentu við myndun fylgiseðils
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: Magnið sem reynt er að uppfæra er meira en móttekið/afhent magn
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: Magn fer yfir undirafhendingarprósentu við myndun fylgiseðils
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Villa kemur upp þegar staðsetning er valin við skráningu tiltektarlista
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: Pökkunarstöðin sýnir ekki athugasemdir afurðar
