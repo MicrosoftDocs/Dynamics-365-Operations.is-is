@@ -2,7 +2,7 @@
 title: Grunnstilla taxta
 description: Verð í Microsoft Dynamics 365 Human Resources skilgreina hve mikið vinnuveitendur og starfsmenn leggja sitt af mörkum til fríðinda.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054981"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266658"
 ---
 # <a name="configure-rates"></a>Grunnstilla taxta
 
@@ -46,7 +46,7 @@ Notaðu taxta til að ákvarða hversu mikið launþegar og vinnuveitendur grei�
    | **Lok gildistíma** | Lokadagur hlutfallsins. 12/31/2154 (sem táknar aldrei) er sjálfgildið. |
    | **Nota lög** | Lagið sem á að nota við útreikning á fríðindum. Stakt lag fyrir eins stigs fríðindahlutfall eða tvöfalt stig fyrir tveggja laga fríðindahlutfall. Dæmi um tvöfalt stig er flokkaupplýsingar byggðar á kyni og aldri. |
    | **Greiðslutíðni** | Greiðslutíðni sem ákvarðar hversu oft iðgjaldahlutfall er greitt til bótaaðila. Til dæmis, ef greiðslutíðni er mánaðarlega, þá er ávinningshlutfall mánaðarlega greiðslufjárhæðin. |
-   | **Jöfnun greiðslutíðni** | Aðferðin til að námunda hlutfallið: Stöðluð eða stytt. |
+   | **Jöfnun greiðslutíðni** | Aðferðirnar við sléttun á hlutfalli eru: staðlað, stytt, venjulegt, niður á við og upp á við. </br></br><ul><li>**Staðlað** - Alltaf slétta upp. Til dæmis munu 10,611 slétta í 10,62. -10,231 sléttar að -10,23. </li><li>**Stytt** - Alltaf slétta niður. Til dæmis mun 10,619 slétta í 10,61. -10.231 sléttar í -10.24. </li><li>**Venjulegt** - Gildi aukastafa sem enda á 5 eða hærri tölu sem sléttast burt frá núlli. Gildi aukastafa sem enda á 4 eða minna munu sléttast í núll. Til dæmis munu 10,615 slétta í 10,62. -10,235 sléttar í -10,24. 10,614 sléttar í 10,61. -10.234 sléttar í -10.23. </li><li>**Niður á við** - Slétta að núlli. Til dæmis mun 10,619 slétta í 10,61. -10,231 sléttar að -10,23. </li><li>**Upp á við** - Slétta frá núlli. Til dæmis mun 10,619 slétta í 10,62. -10.231 sléttar í -10.24. |
    | **Upphæð starfsmanns fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |
    | **Upphæð vinnuveitanda fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |
    | **Upphæð starfsmanns fyrir reykingamann** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |

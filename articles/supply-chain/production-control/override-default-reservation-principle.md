@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814803"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270788"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Eiginleikinn *Hnekkja sjálfgefinni frátekningu framleiðslu* gerir kleift að stilla sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk. Mismunandi frátekningarreglur er þar af leiðandi hægt að nota sjálfkrafa fyrir hverja vöru sem er hluti af formúlu framleiðsluuppskriftar eða runupöntunar. Hægt er að velja hvort hver vörulíkanaflokkur eigi að hnekkja sjálfgefinni frátekningarreglu sem er stillt fyrir pöntun, og hvaða frátekningarreglu eigi að nota í staðinn (*handvirkt*, *mat*, *áætlanagerð*, *losun* eða *upphaf*).
 
@@ -37,7 +36,7 @@ Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltekt
 Áður en hægt er að nota eiginleikann verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Framleiðslustýring*
-- **Heiti eiginleika:** *(Forskoðun) Hnekkja sjálfgefinni framleiðslufrátekningu*
+- **Heiti eiginleika:** *Hnekkja sjálfgefinni framleiðslufrátekningu*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Úthluta reglu framleiðslufrátekningar á vörulíkanaflokk
 
