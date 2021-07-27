@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261911"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338230"
 ---
 # <a name="finance-insights-home-page-preview"></a>Heimasíða Fjármálainnsýnar (forskoðun)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261911"
 
 Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum. Þegar þessir nýju eiginleikar eru sameinaðir sjálfvirkni í greiðslum lánardrottna og innheimtu, veita þeir fjölbreytt og snjallt fjármálakerfi sem styður við ákvörðunartöku og hjálpar til við að grípa til aðgerða til að bregðast við núverandi og væntanlegum viðskiptaáskorunum á skilvirkan hátt.
 
-Forskoðun Fjármálainnsýnar er í boði til prufuuppsetningar í Bandaríkjunum, Evrópu og Bretlandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
-
-Aðeins er hægt að kveikja á forskoðunaraðgerðum í tveggja laga sandkassaumhverfi. Uppsetningar- og gervigreindarlíkön sem eru stofnuð í sandkassaumhverfi eru ekki hægt að flytja yfir í vinnsluumhverfi. Frekari upplýsingar er að finna í [Viðbótarnotkunarskilmálum fyrir Microsoft Dynamics 365 forskoðanir](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> Forskoðun fjármálainnsýnar er í boði til uppsetningar í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Asíu og Kyrrahafseyjum, Ástralíu og Nýja-Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði. Til að virkja fjármálainnsýn í vinnsluumhverfum ætti að virkja möguleikann [Flytja út í Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) fyrst í vinnsluumhverfinu.
 
 > [!NOTE]
 > Boðið er upp á þessa virkni sem safn af forútgáfum eiginleika. Sem forútgáfa eiginleika ættirðu ekki að nota vélnámslíkönin til að keyra eða hafa áhrif á viðskiptaákvarðanir eða tillögur um fjárhagsáætlun. Notkun þín á þessum eiginleika fer eftir [Viðbótarskilmálum um notkun](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Fylltu út [samninginn um forskoðun Dynamics 365 Finance Fjármálainnsýnar](h
 
 ### <a name="system-requirements"></a>Kerfiskröfur
 
-Tveggja laga sandkassaumhverfi (margir kassar) er áskilið við forskoðun Fjármálainnsýnar. Nánari bakgrunnsupplýsingar um umhverfi, sjá [Umhverfisskipulag](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+Tveggja laga umhverfi (margir kassar) er áskilið við forskoðun Fjármálainnsýnar. Nánari bakgrunnsupplýsingar um umhverfi, sjá [Umhverfisskipulag](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Skilyrði samkvæmt útgáfu
 
@@ -55,8 +56,6 @@ Tveggja laga sandkassaumhverfi (margir kassar) er áskilið við forskoðun Fjá
 ### <a name="historical-data-requirements"></a>Skilyrði um eldri gögn
 
 Að minnsta kosti eitt ár af reikningum viðskiptavina er nauðsynlegt til að þjálfa vélnámslíkanið sem er notað fyrir eiginleikann greiðsluspá viðskiptavinar.
-
-Sýnigögn eru tiltæk fyrir sýnikerfi með Contoso-sýnigagnasafnið.
 
 ### <a name="role-and-permission-requirements"></a>Skilyrði um hlutverk og heimildir
 

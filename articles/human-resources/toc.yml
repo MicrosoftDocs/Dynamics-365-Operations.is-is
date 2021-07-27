@@ -355,6 +355,8 @@
           items:
             - name: Kynning
               href: hr-admin-integration-ats-api-introduction.md
+            - name: Sannvottun frá þjóni til þjóns fyrir ATS-samþættingu
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Ráðningarbeiðni og tengdar einingar
               items:
                 - name: Ráðningarbeiðni
@@ -443,17 +445,41 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Mynda og yfirfara launaaðila
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Starfsmaður á launaskrá
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Heimilisfang starfskrafts á launaskrá
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Launafyrirkomulag fastra launa
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Launastöðuvinnsla
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Launastaða
-              href: hr-admin-integration-payroll-api-payroll-position.md
-    - name: Notkunarleiðbeiningar
+            - name: Samþættingarfæribreytur launaskrár
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Einingar launaskrár
+              items:
+                - name: Starfsmaður á launaskrá
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Heimilisfang starfskrafts á launaskrá
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Launafyrirkomulag fastra launa
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Launafyrirkomulag breytilegra launa
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Launastaða
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Launastöðuvinnsla
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Einingar sem tengjast leyfum og fjarvistum
+              items:
+                - name: Leyfisstaða
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Tegund leyfis
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Leyfisbeiðni
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Valkostasett
+              items:
+                - name: Kyn
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Nei Já
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Tegund umbunar
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Gerð ferlis
+                  href: hr-admin-integration-payroll-api-process-type.md
+    - name: Notandahandbók
       items:
         - name: Yfirlit
           href: hr-hrpro-overview.md
@@ -599,6 +625,8 @@
           items:
             - name: Skipuleggja starfsfólk
               href: hr-personnel-departments-jobs-positions.md
+            - name: Vinnusvæði Starfsmannastjórnunar
+              href: hr-personnel-personnel-management-workspace.md
             - name: Setja upp íhluti verks
               href: hr-personnel-jobs.md
             - name: Skilgreina deildir
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Skilgreina störf
               href: hr-personnel-define-jobs.md
+            - name: Stöður
+              href: hr-personnel-positions.md
             - name: Búa til dagatal fyrir vinnutíma
               href: hr-personnel-create-working-time-calendar.md
             - name: Ráða umsækjendur
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Takmarka breytingu persónulegra upplýsinga
               href: hr-employee-self-service-restrict-editing.md
+        - name: Nota verkflæðiskerfið
+          items:
+            - name: Yfirlit yfir verkflæðiskerfi
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kerfisskipulag verkflæðis
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Verkflæðiseiningar
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Verkflæðisaðgerðir
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Stofna verkflæði
+              items:
+                - name: Yfirlit yfir stofnun verkflæðis
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina verkflæðiseiginleika
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina handvirk verk
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina sjálfvirk verk
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina samþykktarferli
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina samþykktarskref
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina skoðunarmenn útgjalda
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina handvirkar ákvarðanir
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina skilyrtar ákvarðanir
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina hliðstæða verkþætti
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina hliðstæð útibú
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina verkflæði línuatriða
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skilgreina runuvinnslu skilaboðaferlis fyrir verkflæði sem mikilvægt
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Úthluta vinnuliðum í verkflæði
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skoða verkflæðissögu
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skilgreina kerfið til að senda tölvupósta tengda verkflæði til notenda
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Verkflæðisgerðir
+              items:
+                - name: Verkflæðisgerð búin til
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Gátlisti verkflæðisgerðar
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til verkflæðisflokk
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til fyrirspurn fyrir verkflæðisgerð
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til nýja verkflæðisgerð
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til klasa fyrir verkflæðiskjal
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til SubmitToWorkflow-klasa
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Tengja verkflæðisskjalaklasa við verkflæðisgerð
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skýrsla um verkflæðisgerðir
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Algengar spurningar um verkflæði
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

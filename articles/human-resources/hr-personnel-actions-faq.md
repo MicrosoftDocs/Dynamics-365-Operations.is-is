@@ -2,7 +2,7 @@
 title: Algengar spurningar um aðgerðir starfsfólks
 description: Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054549"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333020"
 ---
 # <a name="personnel-actions-faq"></a>Algengar spurningar um aðgerðir starfsfólks
 
@@ -42,7 +42,7 @@ Til eru tvær gerðir aðgerða starfsfólks:
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Hvað á stöðu aðgerða starfsfólks sannvottunarskemanu þau?
 Starfsfólksaðgerðir geta haft eftirfarandi stöður:
 
-- **Drög** – Sé verkflæði notað hefur aðgerðin ekki verið send. Ef verkflæðinu er ekki notað aðgerð hefur ekki verið lokið.
+- **Drög** - Ef verkflæði er notað hefur aðgerð ekki verið send inn. Ef verkflæði er ekki notað er aðgerðinni ekki lokið.
 - **Í yfirferð** – Starfsfólksaðgerðin hefur verið send í verkflæði en verkflæði er ekki lokið.
 - **Samþykkt, bíður** – Verkflæðinu er lokið en breytingarnar eru enn í vinnslu. Hætt við - Hætt var við verkflæðið eða starfsfólksaðgerðin afturkölluð. Hafnað - Beiðni um aðgerð var hafnað af samþykkjanda.
 - **Aðgerð í vinnslu** – Aðgerðarbeiðnin hefur verið samþykkt og breytingarnar eru í vinnslu.
@@ -51,7 +51,7 @@ Starfsfólksaðgerðir geta haft eftirfarandi stöður:
 - **Hafnað** – Aðgerðarbeiðni var hafnað af samþykkjanda.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Get ég eytt aðgerðar starfsfólks?
-Já, þú getur eytt aðgerðum starfsfólks sem hafa stöðuna **Drög**, **Villa**, **Mistókst**, or **Hætt við**.
+Já, þú getur eytt aðgerðum starfsfólks sem hafa stöðuna **Drög**, **Villa**, **Mistókst**, or **Hætt við**. Þú getur eytt starfsmannaaðgerðum sem eru með stöðuna **Lokið** aðeins ef búið er að stilla valkostinn **Leyfa eyðingu lokinna aðgerða starfskrafts** á **Já** á síðunni **Samnýttar færibreytur fyrir mannauð**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Hvað er hraðasta leið til að athuga stöðu beiðni um aðgerð starfsfólks?
 Opnaðu einhverja listasíðu starfsfólksaðgerða og veldu starfsfólksaðgerð.
@@ -66,9 +66,9 @@ Ef beiðni um aðgerð starfsfólks mistekst, skal fylgja þessum skrefum til a�
 > 3. Leystu villuna og smelltu svo á **Ljúka** eða **Senda**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Hvað gerist aðgerð starfsfólks sem notar verkflæði þegar lokalínu samþykktarferlisins er lokið?
-Ef engar villur eru á aðgerð starfsfólks verður aðeins til lestrar. (Hægt er að skoða sögu á listasíðunni **Allar aðgerðir starfsmanns** en ekki er hægt að breyta starfsfólksaðgerðinni.) Þegar staða starfsfólksaðgerðar er **Lokið** hefur staða eða skrá starfsmanns þegar verið uppfærð. Til að skoða breytingar sem voru gerðar skaltu opna listasíðuna **Stöður** eða **Starfskraftar**.
+Ef engar villur eru á aðgerð starfsfólks verður aðeins til lestrar. (Hægt er að skoða ferilinn á listasíðunni **Allar aðgerðir starfsmanna** en ekki er hægt að breyta starfsmannaaðgerðum.) Þegar staða starfsmannaaðgerðar er **Lokið** hefur staðan eða skrá starfsmanns þegar verið uppfærð. Til að skoða breytingar sem voru gerðar skaltu opna listasíðuna **Stöður** eða **Starfskraftar**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Hvers vegna fæ ég eftirfarandi villu þegar ég færi inn núllgildi inn í svæðið Laun? „Gildið er utan gildra marka - það verður að vera á milli og 0,00 og 0,00“
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Hvers vegna fæ ég eftirfarandi villu þegar ég færi inn núllgildi inn í svæðið Laun? „Gildið er utan gildra marka - það verður að vera á milli 0,00 og 0,00“
 Þessi boð berast þér vegna þess að reiturinn Stig í skjámyndinni Starf er auður fyrir starfið sem tengist valdri stöðu.
 
 Til að lagfæra þessa villu, skal fylgja þessum skrefum:
@@ -80,10 +80,10 @@ Til að lagfæra þessa villu, skal fylgja þessum skrefum:
 > 5. Veldu stig í reitnum Stig.
 > 6. Lokaðu síðunni Starf.
 > 7. Lokaðu síðunni Staða.
-> 8. Farðu aftur í flipann Laun á síðunni Starfskraftur og veldu Föst laun.  Veldu Ný og skráðu stöðu starfsmanns í reitnum Staða.  Færðu inn gildi í reitinn Áætlun og færðu svo inn laun starfsmannsins í reitinn Launataxti.
+> 8. Farðu aftur í flipann Laun á síðunni Starfskraftur og veldu Föst laun.  Veldu Nýtt og færðu inn stöðu starfsmanns í stöðureitinn.  Færðu inn gildi í áætlunarreitinn og færðu síðan inn laun starfsmanns í reit launataxta.
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Af hverju get ég ekki breytt upphafsdagsetningu í haus starfsmannaaðgerðarskjámyndar?
-Ekki er hægt að breyta gildisdagsetningu þar sem svæðið er fyllt með dagsetningu nýjustu röklegt fyrir gerðina aðgerð.
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Af hverju get ég ekki breytt gildisdagsetningu í haus skjámyndar fyrir starfsmannaaðgerðina?
+Ekki er hægt að breyta gildisdagsetningu þar sem reiturinn er fylltur út með rökréttustu dagsetninguna fyrir gerð aðgerðar.
 
 Dæmi:
 

@@ -2,11 +2,11 @@
 title: Setja upp íhluti verks
 description: Þessi grein lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: anbichse
 ms.search.scope: Human Resources
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dc3cec4880fdcb4d4f8d54b03037f738d2a57a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d4e24e64f3fece0807df8fbf4fb206c4588c9332
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056570"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333094"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Setja upp íhluti verks
 
@@ -37,12 +37,17 @@ Sumar starfsupplýsingar, eins og starfsheiti, gerð og aðgerð, eru dagsetning
 
 Viðhalda starfsheitum með því að nota síðuna **Titlar** sem þú getur opnað með því að nota leitaraðgerð. Á síðunni **Titlar** skal færa inn þá titla sem þú ætlar að nota fyrir störfin.
 
-## <a name="job-types"></a>Vinnslugerðir
+## <a name="job-types"></a>Starfsgerðir
 Þú notar vinnslugerð til að flokka svipuð störf í flokka. Starfstegundir eru ekki áskildar. Hins vegar ef ætlunin er að nota vinnslugerðir þegar setja á upp hæfnireglur fyrir greiðsluáætlunarstjórnun ætti að setja upp vinnslugerðir áður en hægt er að setja upp störf. Sum dæmi um starfstegundir eru Fullt starf og Hlutastarf, eða Laun og Tímakaup. Starfstegundum er viðhaldið með því að nota síðuna **Vinnslugerð**. Á síðunni **Starfsgerðir** skal færa inn heiti og lýsingu á starfsgerðinni. Í reitnum **Staða undanþágu** velurðu einn af eftirfarandi valkostum til að tilgreina þá stöðu undanþágu Fair Labor Standards Act (FLSA) starfa sem hafa þessa starfsgerð:
 
 -   **Undanþága** – Störf eru undanþegin yfirvinnu undir FLSA.
 -   **Ekki undanþága** – Störf eru ekki undanþegin yfirvinnu undir FLSA.
 -   **Á ekki við** – FLSA á ekki við.
+
+## <a name="job-family"></a>Starfasafn
+Starfasafn er hópur af störfum sem fela í sér svipaða vinnu og krefjast svipaðrar þjálfunar, hæfni, þekkingu og reynslu. Hægt er að tengja starfasafn við vinnu í flýtiflipanum **Flokkun starfs** á síðunni **Störf** og í flýtiflipanum **Almennt** á síðunni **Allar stöður**. Starfasöfn geta verið víðtæk eða sértæk eftir því hverjar kröfur fyrirtækis og skýrslugerðar er. Nokkur dæmi um víðtæk starfasöfn eru **Faglært vinnuafl** og **Ófaglært vinnuafl**. Nokkur dæmi um sértæk starfasöfn eru **Bókhald**, **Framleiðsla** og **Sala**.
+
+Vinnið með starfasöfnum með því að nota síðuna **Starfasafn** sem þú getur opnað með því að nota leitaraðgerðina. Á síðunni **Starfasafn** skal færa inn einkvæmt heiti fyrir safnið og færa inn nákvæma lýsingu á því starfinu.
 
 ## <a name="job-functions"></a>Starfshlutverk
 Starfshlutverk lýsa hástigs virkt flokkar og tengdum hástigs skyldur. Starfshlutverk eru ekki áskilin. Þú getur notað starfshlutverk ásamt vinnslugerð til að afmarka launafyrirkomulag við tilteknar vinnslur. Þú tengir starfshlutverk og vinnslugerð við launafyrirkomulag með því að setja upp hæfnisreglur á síðunni **Hæfnisreglur**. Síðan er hægt að festa hóp stiga við launafyrirkomulag sem eiga við um tilgreinda samsetningu vinnslugerðar og starfshlutverka sem þú hefur skilgreint til og með hæfniregla. (Þessir eiginleikar eiga við um bæði launafyrirkomulagi fastra launa og breytileg uppbót áætlun.) Hins vegar ef þú ætlar að nota starfshlutverk þegar hæfnisreglur eru settar upp fyrir launafyrirkomulag þarf að setja upp starfshlutverk áður en þú setur upp störf. Eftirfarandi tafla sýnir dæmi um starfshlutverk.
@@ -53,6 +58,14 @@ Starfshlutverk lýsa hástigs virkt flokkar og tengdum hástigs skyldur. Starfsh
 | Bókhaldari    | Sérfræðingar        |
 
 Starfstegundum er viðhaldið með því að nota síðuna **Starfshlutverk**. Á síðunni **Starfshlutverk** skal færa inn staðfestingarkóða og stutta lýsingu á starfshlutverk.
+
+## <a name="compensation"></a>Laun
+Til að úthluta launafyrirkomulagi fastra launa á starfsmann sem er með stöðu í starfi þarf að stilla launastig starfsins. Launastigið er notað þegar lágmarks-, miðlungs- og hámarksupphæð eru stilltar í launaskipulagi (launahniti). Þegar fyrirkomulag fastra launa er stofnað er launaskipulagið valið. Launaskipulagið inniheldur einnig launastigið. Þegar þú velur launafyrirkomulag fastra launa fyrir starfsmann, á eru launastigin sem eru í boði háð starfinu sem staða starfsmanns tengist. Frekari upplýsingar um hvernig á að setja upp laun er að finna í [Launafyrirkomulag](hr-compensation-overview.md).
+
+## <a name="job-skills"></a>Hæfni fyrir starf
+Starfshæfni lýsir þeirri hæfni sem er nauðsynleg til að gegna starfi. Hæfnistig verður að tengjast hverri starfshæfni. Hæfnistigin eru skilgreind af notendum. Þau gefa til kynna stig þekkingar eða reynslu sem þarf fyrir hæfnina. Til dæmis gætu fyrirtæki sett upp tölugildi, til dæmis 1 til 5, þar sem **1** gefur til kynna byrjanda og **5** gefur til kynna sérfræðing. Einnig gætu fyrirtæki sett upp stig sem eru merkt **Byrjandi**, **Miðlungs** eða **Sérfræðingur**. Eftir að hæfnisstigið er stillt er einnig hægt að stilla mikilvægi hæfninnar. Ef t.d. er gerð krafa um að endurskoðandi hafi góða þekkingu á Microsoft Excel er hægt að búa til hæfni sem kallast **Þekking á Excel**. Hæfnisstigið er svo hægt að stilla á **Miðlungs** og mikilvægið er hægt að stilla á **Mest**.
+
+Hægt er að nota hæfnina í starfi í hæfnisskrá. Hæfnisskrá getur borið saman hæfnigrunn sem þarf fyrir starfið og hæfnina sem tengist starfskrafti. Hún getur þá ákvarðað samsvörunarprósentu sem byggir á skörun á hæfni. Frekari upplýsingar um hæfnisskrá er að finna í [Skilgreina hæfni](hr-develop-skills.md). 
 
 ## <a name="job-tasks"></a>Verkefni starfs
 Verkhlutar sem lýsa grunnatriðum verkefnis sem starfskraftur sem er í stöðu fyrir vinnsla verður að ljúka. Sama verkefni starfs er hægt að bæta við mörg störf og í stöður fyrir þau störf sem nota þau verkefni. Eftirfarandi tafla sýnir dæmi um verkefni starfs.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222613"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309666"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Stilling fjármálainnsýnar fyrir opna forútgáfu (forútgáfa) - útgáfa 10.0.20 og nýrri
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222613"
 Fjármálainnsýn sameinar virkni Microsoft Dynamics 365 Finance við Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtækið. Í þessu efnisatriði er útskýrt hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað möguleikana sem eru tiltækir í opinni forútgáfu fjármálainnsýnar.
 
 > [!NOTE]
-> Skrefum skilgreiningarinnar sem lýst í þessu efnisatriði eiga aðeins við um útgáfu 10.0.20 og nýrri af Finance. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.18](configure-for-fin-insites.md).
+> Skrefum skilgreiningarinnar sem lýst í þessu efnisatriði eiga aðeins við um útgáfu 10.0.20 og nýrri af Finance. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Uppsetning Finance
 
@@ -748,6 +748,8 @@ Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 2. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 3. Veljið innbótina **Fjármálainnsýn**.
 4. Samþykkið skilmálana og veljið svo **Setja upp**.
+
+Það gæti tekið nokkrar mínútur að setja innbótina upp.
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

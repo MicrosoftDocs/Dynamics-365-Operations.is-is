@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026206"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309767"
 ---
 # <a name="set-up-postdated-checks"></a>Setja upp fyrirframdagsettar ávísanir
 
@@ -58,6 +58,7 @@ Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn U
 > 
 > Þegar **Greiðslumáti** er stilltur (**Viðskiptakröfur > Greiðsluuppsetning > Greiðsluhættir**), skal ekki fylla út **Millilykill**. Í þessu tilviki er mótlykillinn fylltur út með bankareikningnum sem er settur upp í **Greiðslumáti**.
 >  
-> Þegar eiginleikinn er virkur og lotudagsetningin er lægri en gjalddagi birtast eftirfarandi villuskilaboð þegar greiðslubók er bókuð „Gjalddagi verður að vera á undan eða með sömu dagsetningu og setudagsetningin ef gerð mótlykils er banki“. Ef eiginleikinn er ekki virkur er hægt að birta greiðslubók með fyriframdagsettri ávísun þegar lotudagurinn er lægri en gjalddaginn.    
+> Þegar eiginleikinn er virkur og lotudagsetningin er lægri en gjalddagi birtast eftirfarandi villuskilaboð þegar greiðslubók er bókuð „Gjalddagi verður að vera á undan eða með sömu dagsetningu og setudagsetningin ef gerð mótlykils er banki“. Ef eiginleikinn er ekki virkur er hægt að birta greiðslubók með fyriframdagsettri ávísun þegar lotudagurinn er lægri en gjalddaginn.
+> Þessi eiginleiki er tiltækur í útgáfu 10.0.21 og nýrri.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
