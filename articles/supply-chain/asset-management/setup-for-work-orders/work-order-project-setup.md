@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 19cdc33fcc9d1293b235facbaffd1ccf62875217
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808233"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360054"
 ---
 # <a name="work-order-project-setup"></a>Verkuppsetning verkbeiðni
 
@@ -69,15 +69,15 @@ Uppsetningin gerir ráð fyrir fullkominni samþættingu við eininguna **Verkef
 
     Sjálfgefið er að upphafsdagsetningin sé dagsetningin þegar þú bætir verkbeiðniverkinu við síðuna. Því er stjórnað af reitnum **Gildir frá** sem er falinn sjálfgefið. Til að sýna reitinn **Gildir frá** velurðu **Skoða** \> **Allt**. Þú getur síðan notað reitinn **Gildir frá** ásamt reitnum **Lokadagsetning** til að setja upp takmarkaðan gildistíma verkbeiðnaverksins.
 
-    ![Síðan Verkuppsetning verkbeiðna](media/17-setup-for-work-orders.png)
+    ![Síða fyrir verkuppsetningu verkbeiðni.](media/17-setup-for-work-orders.png)
 
 6. Á flipanum **Verkefnahópur** velurðu **Bæta við**.
 7. Í reitnum **Verkbeiðni** velurðu gerð verkbeiðni.
 8. Ef þú vilt að tenging verkefnahópsins sé nákvæmari skaltu velja eignategundina í reitnum **Gerð eigna** eða eign í reitnum **Eign**.
 9. Í reitnum **Verkefnahópur** velurðu verkefnahópinn sem ætti að tengjast gerð verkbeiðninnar. Til dæmis kann gerð verkbeiðni sem er nefnd **Forvirkt viðhald** verið tengd verkefnahópi sem er nefndur **Fyrra viðh.** eða **Innra**. Að öðrum kosti, kann gerð verkbeiðni **Fjárfesting** sem er notuð við verkbeiðnir sem tengjast fjárfestingum og fastafjármunum að tengjast verkefnahópi sem nefndur er **Fjárfesta** eða **Fjárfesting**.
-10. Veljið **Vista**.
+10. Veldu **Vista**.
 
-![Síðan Verkuppsetning verkbeiðna, Bæta við vinnupöntun](media/18-setup-for-work-orders.png)
+![Síða fyrir verkuppsetningu verkbeiðni, Bæta við verkbeiðni.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Í hvert skipti sem verkbeiðnilína er búin til leitar Eignastjórnun að verkefnahópi sem ætti að tengjast verkbeiðniverkefninu. Leitin er byggð á uppsetningunni sem lýst er í þessu efni. Sérhver verkefnahópur er með tilheyrandi verkefnisgerð. Verkefnahópar sem hafa verkgerðina **Tími og efni** eða **Fast verð** gilda aðeins fyrir eignir sem tengjast viðskiptamannareikningi.

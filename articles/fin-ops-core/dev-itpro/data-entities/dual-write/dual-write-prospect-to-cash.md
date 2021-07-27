@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754089"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361398"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -33,7 +33,7 @@ Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskipt
 
 Í viðmótum forritsins geturðu fengið aðgang að vinnslustöðum og reikningsupplýsingum í rauntíma. Þess vegna geturðu auðveldlega stjórnað aðgerðum eins og afurðabirgðum, meðhöndlun birgða og uppfyllingu í Supply Chain Management, án þess að þurfa að endurstofna tilboð og pantanir.
 
-![Tvískipt gagnaflæði í viðfang til sjóðstreymis](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Tvískipt gagnaflæði í viðfang til sjóðstreymis.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finna í [Samþætt aðalsniðmát viðskiptavinar](customer-mapping.md). Frekari upplýsingar um samþættingu afurðar er að finna í [Samræmd afurðarupplifun](product-mapping.md).
 
@@ -48,7 +48,7 @@ Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finn
 
 Í Sölu ferðu í **Stillingar \> Stjórnun \> Kerfisstillingar \> Sala** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
-- Kerfisvalkosturinn **Nota reikningskerfi verðs** er stilltur á **Já**.
+- Kerfisvalkosturinn **Nota verðútreikning kerfis** er stilltur á **Já**.
 - **Reikningsaðferð reikningsafslátta** dálkurinn er stilltur á **Línuatriði**.
 
 ### <a name="sites-and-warehouses"></a>Svæði og vöruhús

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751155"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351891"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
@@ -49,7 +49,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
     
     Eftirfarandi mynd sýnir stillingarnar sem þú verður að hafa þegar þú ert búin/n.
 
-    ![Skilgreiningarsíða í ER](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![Skilgreiningarsíða í ER.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>Setja upp færibreytur fyrir fyrirtækið DEMF
 
@@ -59,7 +59,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 2.  Í stillingatrénu sniðmátið velurðu sniðmátið **Snið til að læra hvernig eigi að fletta upp LE-gögnum**.
 3.  Á Aðgerðarrúðunni, á flipanum **Stillingar** í flokkinum **Umsóknarbundnar færibreytur** veljið **Uppsetning**.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Á síðunni **Forritsbundnar færibreytur** er hægt að stilla reglurnar fyrir gagnagjafann **Val** í sniðinu **Snið til að læra hvernig á að fletta upp LE-gögnum**.
     
@@ -75,14 +75,14 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 
     Uppflettan sýnir lista yfir skattakóða fyrir val. Þessum lista er skilað af gagnagjafanum **Model.Data.Tax** sem hefur verið stilltur á grunn ER sniði. Vegna þess að þessi gagnagjafi inniheldur reitinn **Heiti** birtist nafn sérhvers skattakóða í leitinni.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Veldu skattakóðann **VAT19** tax code.
 8.  Í reitnum **Niðurstöður uppflettinar** í nýju skránni velurðu fellilistaörina til að opna leitina. Leitin sýnir lista yfir gildi fyrir TaxationLevel snið upptalningar fyrir val.
 
     Athugaðu að ef þýska er valin sem æskilegt tungumál notandans sem þú ert skráður inn sem, þá verða merkimiðar gildanna í uppflettingu á þýsku, að því tilskildu að þau hafi verið þýdd á grunn ER sniði. Að auki, ef merkimiði uppflettingargagnaheimildar hefur verið þýddur mun sá merkimiði birtast á æskilegu tungumáli notandans á flipanum **Uppflettingar**.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Veldu gildið **Regluleg skattlagning**.
 
@@ -120,7 +120,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
     
     Með því að bæta þessari skrá við skilgreinirðu eftirfarandi reglu: Alltaf þegar skattakóði sem er samþykktur sem frumbreyta uppfyllir engar af áðurnefndum reglum mun gagnagjafi uppflettingar skila **Annað** sem umbeðnu skattlagningarstigi.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Í reitnum **Staða** skal velja **Lokið**.
 
@@ -144,7 +144,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 6.  Veldu skattakóðann **InVAT7**.
 7.  Á aðgerðarrúðunni, á flipanum **VSK-kóði**, í hópnum **Fyrirspurnir**, velurðu **Bókaður virðisaukaskattur** til að skoða upplýsingar um skatthlutfall og beitt skatthlutfall á hvern skattakóða.
 
-    ![Síðan Bókaður virðisaukaskattur](./media/GER-AppSpecParms-Statement.PNG)
+    ![Síðan Bókaður virðisaukaskattur.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Lokið síðunni Bókaður virðisaukaskattur.
 
@@ -160,7 +160,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 
     Núna sýnir uppflettingin lista yfir skattakóða fyrir **USMF** fyrirtækjaskatt fyrir val.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Veldu skattakóðann **EXEMPT**.
 9.  Í reitnum **Niðurstaða uppflettingar** í nýju skránni velurðu gildið **Engin skattlagning**.
@@ -168,9 +168,9 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 11. Í reitnum **Kóði** í nýju skránni velurðu valkostinn **\*Ekki autt\***.
 12. Í reitnum **Niðurstaða uppflettingar** í nýju skránni velurðu gildið **Regluleg skattlagning**.
 13. Í reitnum **Staða** skal velja **Lokið**.
-14. Veljið **Vista**.
+14. Veldu **Vista**.
 
-    ![Síðan ER-forritsbundnar færibreytur](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. Lokaðu síðunni **Forritsbundnar færibreytur**.
 
@@ -225,13 +225,13 @@ Sambandi á milli ER sniðs og forritasértækum færibreyta þess er komið á 
 
 1.  Annaðhvort endurnýtirðu núverandi valmyndaratriðið **ERSolutionAppSpecificParametersDesigner** eða útfærir þitt eigið valmyndaratriði **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Síðan Visual Studio](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Síðan Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Fylgið einu af eftirfarandi skrefum:
 
     1.  Búðu til nýjan hnapp fyrir valmyndaratriðið og tengdu hann við samsvarandi skrá úr töflunni **ERSolutionTable** með því að stilla eiginleikann **Gagnagjafi** á **ERSolutionTable**.
     
-        ![Síðan Visual Studio](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Síðan Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Búðu til einfaldan hnapp og hnekktu eiginleikanum **Smellt** eins og sýnt er í eftirfarandi dæmi.
     

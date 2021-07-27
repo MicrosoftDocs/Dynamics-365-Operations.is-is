@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055101"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360593"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu v
 
 5. Á **Dynamics 365 Human Resources** síðunni skal velja umhverfið sem á að tengja LinkedIn Talent Hub við og síðan velja **Tengill**.
 
-    ![Innleiðing LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![Innleiðing LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Aðeins er hægt að tengja við umhverfi þar sem notandareikningurinn er með stjórendaaðgang að bæði umhverfi Human Resources og tengdu Power Apps-umhverfi. Ef engin umhverfi eru skráð á síðu Human Resources skal ganga úr skugga um að þú sért með heimiluð umhverfi Human Resources í leigjandanum og að notandinn sem þú skráðir inn á tengda síðu sé með stjórnendaheimildir fyrir bæði umhverfi Human Resources og Power Apps-umhverfi.
@@ -91,7 +91,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 
 6. Notið fellivalmyndina fyrir ofan listann til að breyta yfirlitinu úr sjálfgefnu yfirliti **Virkjaðir notendur** í **Forritsnotendur**.
 
-    ![Yfirlit forritsnotenda](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Yfirlit forritsnotenda.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Á tækjastikunni skal velja **Nýr**.
 
@@ -163,7 +163,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
     - Í reitinn **Staðsetning** skal færa inn staðsetninguna þar sem starfsmaðurinn verður.
     - Færðu inn eða staðfestu netfang starfsmannsins.
 
-![Flytja yfir á HRIS-svæðið í LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Flytja yfir á HRIS-svæðið í LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Ljúka við innleiðingu í Human Resources
 

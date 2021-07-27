@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359838"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Samstilla verklista úr Supply Chain Management við Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5828491"
 
 Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla verk úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
-[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að keyra samstillingu verka úr Supply Chain Management í Field Service.
@@ -63,7 +63,7 @@ Virkja rakningarbreytingu fyrir verk gagnaeiningar.
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Verk (Supply Chain Management við Field Service): Projects
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSProject1.png)](./media/FSProject1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSProject1.png)](./media/FSProject1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829379"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357000"
 ---
 # <a name="hazardous-materials-overview"></a>Yfirlit hættulegra efna
 
@@ -27,7 +28,7 @@ Til að fylgja eftir reglum um sendingar og flutninga verða fyrirtæki sem send
 
 Eftirfarandi skýringarmynd sýnir skrefin sem þarf til að setja upp og nota eiginleika hættulegra efna.
 
-![Uppsetning og notkun á eiginleika hættulegra efna](media/hazmat-overview.png "Uppsetning og notkun á eiginleika hættulegra efna")
+![Uppsetning og notkun á eiginleika hættulegra efna.](media/hazmat-overview.png "Uppsetning og notkun á eiginleika hættulegra efna")
 
 Eiginleiki hættulegra efna er settur upp í afurðaupplýsingastjórnun og býður upp á skjöl sem hægt er að prenta í gegnum vöruhúsakerfi. Almennt séð eru þessi svæði þar af leiðandi tvö helstu svæðin þar sem þú ferð yfir, setur upp og notar þessa virkni eiginleikans:
 

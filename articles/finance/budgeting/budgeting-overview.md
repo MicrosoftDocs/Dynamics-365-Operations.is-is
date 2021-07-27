@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187917"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355701"
 ---
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
@@ -32,7 +34,7 @@ ms.locfileid: "6187917"
 
 Áætlanaferli tilfanga fyrir fyrirtæki samanstendur yfirleitt af áætlun, fjárhagsáætlun og spárverkþáttum.
 
-[![Íhlutir fyrir fjárhagsáætlun](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Virkniþættir fjárhagsáætlana.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Ferli fyrir bæði langtímaáætlanagerð og árlega fjárhagsáætlunargerð eru studd gegnum skjal fjárhagsáætlunargerðar. Fjárhagsáætlunarskjöl eru vel samþætt við Microsoft Excel. Notendur geta skilgreint ótakmarkaðar peningalegar og magnbundnar aðstæður og geta einnig skilgreint stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði fjárhagsáætlunaraðferðir að ofan og niður eða að neðan og upp. Þegar fjárhagsáætlun hefur verið búin til og samþykkt í forritinu er henni breytt yfir í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri til að viðhalda fjárhagsáætluninni og til að halda upphæðum rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoða upphaflegar fjárhagsáætlanir og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkjað fjárhagsáætlunarstýringu. Stig stýringar fer eftir fyrirtækjamenningu og aldri fyrirtækisins. Nýlegri fyrirtæki gætu látið áætlunina vera „eins og hún er“ og sýnt frekar viðbrögð en gagnvirkni þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gætu virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt.
 
@@ -46,7 +48,7 @@ Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem sta
 -   [Sniðmát fjárhagsáætlunargerðar fyrir Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Fjárhagsáætlunarverkfæri
-[![Fjárhagsáætlunarverkfæri](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Fjárhagsáætlunarverkfæri.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Hægt er að fá frekari eiginleika fyrir skipulagningu og fjárhagsáætlunargerð sem eru samþættir við fjárhagsáætlanir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346203"
 ---
 # <a name="work-hour-control"></a>Stjórnun vinnustunda
 
@@ -66,7 +66,7 @@ Skjámyndin hér að neðan sýnir dæmi um útreikning á **Stjórnun eignastun
 - Reiturinn **Raunverulegar stundir** sýnir bókaðar stundir vegna verkbeiðna. 
 - Reiturinn **Ráðstafaðar stundir** sýnir heildarmagn stunda sem fyrirtækið þitt skuldbindur sig til vegna verkbeiðna.
 
-![Dæmi um útreikning á stjórnun eigna tíma](media/04-controlling-and-reporting.png)
+![Dæmi um útreikning á tímastjórnun eignar.](media/04-controlling-and-reporting.png)
 
 Önnur leið til að gera stundaútreikning er að velja margar eignir í **Allar eignir** eða **Virkar eignir**. Smelltu síðan á hnappinn **Stundastjórnun** á flýtiflipanum **Almennt**. Valdar eignir eru sjálfkrafa settar inn í reitnum **Eignir** á flýtiflipanum **Færslur til að taka með**. Smelltu á **Í lagi** í glugganum **Stjórnun eignastunda** og útreikningur fyrir valdar eignir er sýndur. Sama ferli er hægt að gera fyrir virkar staðsetningar í **Allar virkar staðsetningar** eða **Virkar virkar staðsetningar**, og vegna verkbeiðna í **Allar verkbeiðnir** eða **Virkar vinnupantanir**.
 

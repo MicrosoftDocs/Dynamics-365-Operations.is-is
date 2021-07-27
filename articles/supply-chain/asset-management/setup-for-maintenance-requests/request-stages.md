@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808689"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360947"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Lífsferilsstöður viðhaldsbeiðni
 
@@ -48,7 +48,7 @@ Líftímastöður viðhaldsbeiðna skilgreinir stigin sem beiðni getur farið �
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímastöður viðhaldsbeiðna**.
 
-![Síðan Lífsferilsstöður viðhaldsbeiðni](media/02-setup-for-requests.png)
+![Síða fyrir líftímastöður viðhaldsbeiðni.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Líftímastöður viðhaldsbeiðna, líftímastöðuhópar og tegundir eru tengdar og notaðar á sama hátt og líftímastöður verkbeiðni, líftímastöðuhópar og tegundir. 
@@ -66,9 +66,9 @@ Eftir að þú ert búinn að búa til lífsferilstig sem nauðsynleg eru fyrir 
 
 5. Á flýtiflipanum **Líftímastöður** velurðu þær líftímastöður sem ætti að vera með í líftímalíkani:
 
-    - Til að hafa líftímastöðu með fyrir líftímalíkanið skaltu velja það í **Eftirstandandi líftímastöður** kafla og veldu síðan hægri örvarhnappinn ![Hægri ör](media/03-setup-for-requests.png) til að færa það til **Valdar líftímastöður**.
-    - Til að hafa allar tiltækar líftímastöður með fyrir líftímalíkanið velurðu hnappinn **Velja allar tiltækar stöður** ![Velja allar tiltækar stöður](media/04-setup-for-requests.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
-    - Til að fjarlægja líftímastöðu úr líftímalíkani skaltu velja það í **Valdar líftímastöður** kafla og veldu síðan vinstri örvarhnappinn ![Vinstri ör](media/05-setup-for-requests.png) til að færa það til **Eftirstandandi líftímastöður**.
+    - Til að hafa með líftímastöðu í líkani líftímastöðu skal velja það í hlutanum **Eftirstöðvar líftímastaða** og síðan velja hægri örvarhnappinn ![Hægri ör.](media/03-setup-for-requests.png) til að færa það í hlutann **Valdar líftímastöður**.
+    - Til að taka með allar tiltækar líftímastöður í líkani líftímastöðu skal velja hnappinn **Velja allar tiltækar stöður** ![Velja allar tiltækar stöður.](media/04-setup-for-requests.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
+    - Til að fjarlægja líftímastöðu úr líkani líftímastöðu skal velja hana í hlutanum **Líftímastöður valdar** og síðan velja vinstri örvarhnappinn ![Vinstri ör.](media/05-setup-for-requests.png) til að færa það í hlutann **Eftirstandandi líftímastöður**.
 
 6. Á flýtiflipanum **Almennt**, reitirnir í **Uppfærslur** kaflinn skiptir máli ef þú notar viðgerð á geymslu.
 
@@ -77,7 +77,7 @@ Eftir að þú ert búinn að búa til lífsferilstig sem nauðsynleg eru fyrir 
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímalíkön viðhaldsbeiðna**.
 
-![Síðan Líftímalíkön viðhaldsbeiðni](media/06-setup-for-requests.png)
+![Síðan fyrir líftímalíkön viðhaldsbeiðni.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

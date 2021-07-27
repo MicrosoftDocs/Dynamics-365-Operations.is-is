@@ -2,7 +2,7 @@
 title: Körfutáknseining
 description: Þetta efni fjallar um körfutáknseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,31 +14,43 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5ff514f07e8b31abe79775e5011bd3f1b24b2935
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e0238e9d464fc1d44cbc5091638ac7270d5b6ae3
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793082"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479305"
 ---
 # <a name="cart-icon-module"></a>Körfutáknseining
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um körfutáknseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 Körfutákneiningin táknar körfuna í hauseiningu síðunnar og sýnir fjölda af vörum í körfunni. Körfutáknseiningin birtir einnig yfirlit yfir körfu (einnig þekkt sem smákarfa) þegar músin sveimar yfir körfutákninu. Smákarfan veitir notanda yfirlit yfir hluti í körfunni án þess að þurfa að fara á körfusíðuna. Að auki gerir það notandanum einnig kleift að fara beint á greiðslusíðu ef viðkomandi er ánægður með yfirlitið. Þetta dregur úr fjölda síðnaferða og gerir afgreiðsluna hraðari. 
 
-> [!NOTE]
-> Stuðningur við fyrir körfueiningu er tiltækur í Dynamics 365 Commerce útgáfu 10.0.11.
-
 Eftirfarandi mynd sýnir dæmi um einingu körfutákns sem sýnir smákörfu í Fabrikam-fyrirsögninni.
 
-![Dæmi um körfutáknseiningu](./media/ecommerce-Minicart.PNG)
+![Dæmi um körfutáknseiningu.](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
 - **Sýna smákörfu** - Þegar satt gerir þessi eiginleiki kleift að birta yfirlit yfir körfu (smákörfu) þegar músin sveimar yfir körfutákninu. Þessi virkni er aðeins studd fyrir skjáborðsgáttir.
+
+## <a name="module-properties-in-the-adventure-works-theme"></a>Eiginleikar einingar í þema Adventure Works
+
+Í þema Adventure Works inniheldur körfutáknseiningin tvö aukaleg hólf fyrir smákörfuna. Þessi hólf eru tekin með í viðbót einingaskilgreiningar.
+
+- **Kynningartilboð í tómri körfu** – Þetta hólf notar einingu efnisbálks. Þegar karfan er tóm er tilgreind eining efnisbálks sýnd. Hægt er að nota einingu efnisbálksins fyrir kynningartilboð, markaðsefni og tengla á flokkasíður til að aðstoða viðskiptavini með áframhaldandi verslunarferli.
+- **Kynningarefni** – Hægt er að nota þetta hólf til að sýna kynningartilboð, svo sem „Ókeypis sending á pöntunum yfir $100.“ Hægt er að nota einingar efnisbálks, textabálks og myndalista í hólfi kynningarefnis.
+
+Eftirfarandi mynd sýnir dæmi um einingu körfutákns í þema Adventure Works sem sýnir kynningarefni í smákörfunni.
+
+![Dæmi um körfutáknseiningu í þema Adventure Works](./media/AW_minicart.PNG)
+
+> [!IMPORTANT]
+> Hólf í þema Adventure Works eru í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Bæta körfutáknseiningu við síðu
 

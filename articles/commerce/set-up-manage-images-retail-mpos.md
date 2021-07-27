@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e066deedcdb02237d6f492047e19100255dab84e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bd33158514de149ecc7da5823c799dd567aeee13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357835"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Setja upp og stjórna myndum fyrir Modern POS (MPOS)
 
@@ -46,11 +46,11 @@ Myndir sem birtast í Modern POS (MPOS) verður að vera hýst í ytra kerfi, ut
 1. Opna Commerce-gátt höfuðstöðvar.
 2. Smellið á **Retail og Commerce** &gt; **Rásaruppsetning** &gt; **Forstillingar rásar**.
 
-    [![Yfirlit](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Fletting.](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. Í forstilling rásar sem verslunin notar fyrir MPOS, uppfærðu **grunnvefslóð Miðla** reitinn með Grunnvefslóð miðlaþjónsins eða CDN. Grunnvefslóð (url) er fyrsti hluti Vefslóð sem eru sameiginlegar öllum myndamöppur úr mismunandi einingum.
 
-    [![Notandasíða rásar](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Notandasíða rásar.](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Skilgreina sniðmát miðla fyrir einingu
 
@@ -68,7 +68,7 @@ Myndir sem birtast í Modern POS (MPOS) verður að vera hýst í ytra kerfi, ut
 8. Keyra samstillingarvinnslu til að færa nýja sniðmátið í gagnagrunn rásar þannig að MPOS geti notað sniðmátið til að fá aðgang að myndirnar.
 9. Til að uppfæra miðlasniðmát fyrir vörulistamyndir rásarmegin skal gæta þess að keyra **Vörulistavinnsla 1150** úr **Upplýsingatækni í Retail og Commerce** &gt; **Dreifingaráætlun**.
 
-    [![Skilgreina svarglugga fyrir sniðmát miðla](./media/catalog1.png)](./media/catalog1.png)
+    [![Skilgreina svarglugga fyrir sniðmát miðla.](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Forskoðun myndar af stigi einingar
 
@@ -77,7 +77,7 @@ Myndir sem birtast í Modern POS (MPOS) verður að vera hýst í ytra kerfi, ut
 3. Hægt er að nota **Bæta við** og **Fjarlægja** hnappana til að breyta handvirkt slóðin sem er byggð á óbeina sniðmátinu og notað fyrir tiltekna mynd. Nánari upplýsingar er að finna í hlutanum [Skrifa yfir sniðmát miðils fyrir afurðaeiningar](#overwriting-the-media-template-for-entity-items) síðar í þessari grein.
 4. Eftir hefur verið lokið forskoðun myndar og gera breytingar sem þarf, byrja MPOS tilvik fyrir viðkomandi verslun og sjá hvort myndir í vörulista eru sýndar.
 
-    [![Svargluggi mynda](./media/catalog4.png)](./media/catalog4.png)
+    [![Svargluggi mynda.](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Hægt er að nota sömu aðferð fyrir allar fimm einingar sem eru studdar: Starfsmann, Viðskiptavin, Vörulista, Tegund og Afurðir. "vörulistaafurðir" (afurðir sem eru sett á stigi vörulista) og "Rásarafurða" (afurðir sem eru sett á stigi rásar) nota sniðmát miðilsins sem er sett upp fyrir Afurðareiningar. Fyrir Afurðasniðmát miðla er hægt að velja fjölda afurðamynda til að sýna fyrir hverja afurð. Einnig er hægt að stilla sjálfgefna mynd fyrir tiltekna vöru. Á þennan hátt er hægt að koma í veg fyrir að autt myndir í MPOS og hjálp til að stjórna hvaða mynd er notað sem sjálfgefin mynd fyrir afurðavara. Í eftirfarandi dæmi hefur hverja afurð fimm myndir og fyrsta mynd er stillt sem sjálfgefin mynd. Afurðarafbrigði eru meðhöndlaðar á sama hátt og aðalafurð. Skrárheiti myndskráa ættu að byggja á afurðarnúmer. Sumir stafir eru einnig ekki hafðir með á meðan skrárheiti er mynduð. Því er gott að staðfesta skrárheiti með því að nota **Mynda Vefslóðir mynda fyrir Excel** hluta. Sjá kaflann [Yfirskrifa með því að nota Breyta í Excel](#overwrite-by-using-edit-in-excel) síðar í þessari grein.
@@ -108,7 +108,7 @@ Eins og þú lærðir í fyrri hluta, styður miðlasniðmát fyrir tiltekna ein
 
     Nú sérðu forskoðun á vefslóðum mynda sem voru búnir til samkvæmt síðasta vistaða miðla sniðmáti.
 
-    [![Búa til vefslóðir myndar fyrir Excel flýtiflipa eftir að Búa til hefur verið valið](./media/excel2.png)](./media/excel2.png)
+    [![Búa til vefslóðir myndar fyrir Excel flýtiflipa eftir að Búa til hefur verið valið.](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > Vefslóðir sem eru myndaðar fyrir Excel nota slóð og reglur sniðmáts fyrir miðil sem er skilgreindur. Þessar reglur eru innihalda reglur fyrir skrárheiti. Ætlast er til að þú hafir setja upp efnislegar myndir utan Commerce, og myndirnar er hægt að sækja úr Vefslóðir sem eru fengin úr sniðmáti miðla sem eru skilgreindar áður. Hægt er að skrifa yfir þessar afleiddar Vefslóðir með því að nota Breyta í Excel eiginleikann.
@@ -117,17 +117,17 @@ Eins og þú lærðir í fyrri hluta, styður miðlasniðmát fyrir tiltekna ein
 6. Eftir að Microsoft Excel vinnublaðið er opnað, er smellt á **Kveikja á breytingu** þegar um er beðið.
 7. Þegar um er beðið, smellið á **Treysta þessari viðbót** í hægri rúðunni og bíða eftir að viðbótin ljúka uppsetningunni.
 
-    [![Treysta þessari innbót](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Treysta þessari innbót.](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Ef beðið er um á innskráningu, færið inn skilríki sem er notuð til að skrá sig í HQ (höfuðstöðvar).
 
-    [![Kvaðning um innskráningu](./media/excel5.png)](./media/excel5.png)
+    [![Kvaðning um innskráningu.](./media/excel5.png)](./media/excel5.png)
 
 9. Eftir að skrá inn ætti að vera unnt að sjá lista yfir Vefslóðir mynda fyrir mismunandi færslur í vörulista.
 10. Þú breyta, bæta við og fjarlægja vefslóðir mynda fyrir ýmsar einingaafurðir.
 11. Fyrir allar einingar nema Afurðir er hægt að yfirskrifa Vefslóðir mynda. Breyta fyrirliggjandi Vefslóð myndar , þannig að það notar nýja áfangastað Vefslóðar myndarinnar og uppfæra skrárheiti með nýja skráarnafn fyrir myndaskrá. Skrárnafn verður að vera einkvæmt til að aðstoða við að tryggja að færslan sé einkvæm.
 
-    [![Skrifa yfir Vefslóðir myndar í Excel](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Skrifa yfir Vefslóðir myndar í Excel.](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Þegar skrifað er yfir myndir vefslóða fyrir afurðaeiningar með því að nota Breyta í Excel-virkni eða síðuna vörueining, sýnir MPOS alltaf vefslóðir mynda miðlasniðmáts ásamt yfirskrifuðum vefslóðum mynda.
@@ -153,11 +153,11 @@ Fyrir allar einingar nema Afurðir er hægt að yfirskrifa vefslóð myndar fyri
 3. Ef þessari mynd á að birtast í MPOS fyrir vörulistinn, er hægt að setja hana sem sjálfgefna mynd.
 4. Smelltu á **Í lagi**. Vefslóð myndar uppfærist fyrir þessa vörulistamynd og forskoðun birtist.
 
-    [![Vefslóð uppfærð í svarglugga nýrrar myndar](./media/preview3.png)](./media/preview3.png)
+    [![Vefslóð uppfærð í svarglugga nýrrar myndar.](./media/preview3.png)](./media/preview3.png)
 
 5. Einnig er hægt að skoða forskoðun myndar fyrir öll yfirskrifað Vefslóðir myndar á **Vörulistamyndir** galleríssíðu.
 
-    [![Vörulistamyndir galleríssíðu](./media/preview-4.png)](./media/preview-4.png)
+    [![Vörulistamyndir galleríssíðu.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > Eins og er birtir galleríið ekki forskoðun myndar fyrir miðilssniðmát fyrir vefslóðir myndar. Fyrir einingar Vörulista, Starfsmaður, Viðskiptavinur og Tegund , ef notandinn veitir sérstaklega Vefslóð með þessari síðu er mælt með því að tilgreina hvaða mynd er sjálfgefna myndin, þar sem biðlarar Commerce Scale Unit sýna aðeins eina mynd fyrir hvern Vörulista, Viðskiptavinur, Starfsmann og Tegund. Ef notanda ekki tilgreina sjálfgefna mynd, kerfið ákvarðar sjálfgefna mynd og senda hana til kallara Commerce-þjónustu (MPOS eða Ecommerce).
@@ -172,7 +172,7 @@ Til að Skrifa yfir vefslóð myndar fyrir myndir vörulistaafurðarinnar, verð
 4. Smellið á **Bæta við**, og skrifa yfir vefslóð myndar með nýja vefslóð.
 5. Smelltu á **Í lagi**. Þú sérð nú forskoðun á ný mynd og hægt er að stilla hana sem sjálfgefna mynd.
 
-    [![Forskoðun á mynd í svarglugga nýrrar myndar](./media/cat3.png)](./media/cat3.png)
+    [![Forskoðun á mynd í svarglugga nýrrar myndar.](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Eftir myndtengingu við flokk verður að birta rás og keyra Rásarvinnsluna til að aðstoða við að tryggja að breytingarnar séu birtar í gagnagrunn rásar.
@@ -193,7 +193,7 @@ Myndir afurðar sem þarf að nota í ótengdum ham má setja upp með því að
 6. Á meðan MPOS er í tengdum ham, keyrðu vörulistavinnslu í HQ til að tryggja að gögnin séu send að minnsta kosti einu sinni í ótengdur gagnagrunnur
 7. Setja MPOS í Ótengda stillingu. Þú ættir að sjá mynd sem hlaðið er upp fyrir tiltekna vöru í HQ.
 
-    [![Mynd afurðar í stillingu án tengingar](./media/offline1.png)](./media/offline1.png)
+    [![Mynd afurðar í stillingu án tengingar.](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Setja upp myndir vörulista, tegund, starfsmanna og viðskiptavina sem birtast í Ótengda stillingu fyrir MPOS
 
@@ -205,7 +205,7 @@ myndir Vörulista, tegund, starfsmanni og viðskiptavinarins sem verður notaðu
 4. Keyra vörulistavinnslu. Þessi mynd verður nú notuð Ótengd mynd fyrir þennan vörulista í MPOS.
 5. Fylgja svipuð ferli fyrir aðrar einingar eins og Tegunda, Starfsmanna og Viðskiptavina.
 
-    [![Mynd án nettengingar](./media/offline2.png)](./media/offline2.png)
+    [![Mynd án nettengingar.](./media/offline2.png)](./media/offline2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

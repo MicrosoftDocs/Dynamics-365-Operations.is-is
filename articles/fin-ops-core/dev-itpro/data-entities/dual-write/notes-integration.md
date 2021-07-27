@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186787"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358980"
 ---
 # <a name="note-integration"></a>Samþætting athugasemdar
 
@@ -51,23 +51,23 @@ Til að búa til athugasemd í forriti viðskiptavinar og því næst samstilla 
 1. Í forriti viðskiptavinar skal opna reikningsfærslu viðskiptavinar.
 2. Á svæðinu **Tímalína** skal velja plúsmerkið (**+**) og síðan velja **Athugasemd** til að búa til athugasemd.
 
-    ![Athugasemd búin til í forriti viðskiptavinar](media/notes-ce-1.png)
+    ![Athugasemd búin til í forriti viðskiptavinar.](media/notes-ce-1.png)
 
 3. Færið inn titil og lýsingu og veljið síðan **Bæta við athugasemd**.
 
-    ![Titill og lýsing færð inn](media/notes-ce-2.png)
+    ![Titill og lýsing færð inn.](media/notes-ce-2.png)
 
     Nýja athugasemdin bætist við tímalínu viðskiptavinar.
 
-    ![Ný athugasemd á tímalínu viðskiptavinar](media/notes-ce-3.png)
+    ![Ný athugasemd á tímalínu viðskiptavinar.](media/notes-ce-3.png)
 
 4. Skráið ykkur inn í Finance and Operations-forritið og opnið sömu viðskiptavinafærsluna. Takið eftir að hnappurinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu gefur til kynna að færslan sé með viðhengi.
 
-    ![Tilkynning um viðhengi](media/notes-ce-4.png)
+    ![Tilkynning um viðhengi.](media/notes-ce-4.png)
 
 5. Veljið hnappinn **Viðhengi** til að opna síðuna **Viðhengi**. Athugasemdin sem var búin til ætti að finnast í forriti viðskiptavinar.
 
-    ![Athugasemd úr forriti viðskiptavinar](media/notes-ce-5.png)
+    ![Athugasemd úr forriti viðskiptavinar.](media/notes-ce-5.png)
 
 Allar uppfærslur á athugasemdinni eru samstilltar fram og til baka milli Finance and Operations-forritsins og forrits viðskiptavinar.
 
@@ -79,21 +79,21 @@ Til að búa til athugasemd í Finance and Operations-forriti og því næst sam
 
 1. Í Finance and Operations-forritinu, á síðunni **Viðhengi**, skal velja **Ný** \> **Athugasemd**.
 
-    ![Athugasemd búin til í Finance and Operations-forritinu](media/notes-fo-1.png)
+    ![Athugasemd búin til í Finance and Operations-forritinu.](media/notes-fo-1.png)
 
 2. Færið inn titil og leiðbeiningar í stuttu máli og veljið síðan **Vista**.
 
-    ![Titill og leiðbeiningar færðar inn](media/notes-fo-2.png)
+    ![Titill og leiðbeiningar færðar inn.](media/notes-fo-2.png)
 
 3. Uppfærið færsluna í forriti viðskiptavinar. Nýja athugasemdin ætti að sjást í tímalínunni.
 
-    ![Ný athugasemd á tímalínunni í forriti viðskiptavinar](media/notes-fo-3.png)
+    ![Ný athugasemd á tímalínunni í forriti viðskiptavinar.](media/notes-fo-3.png)
 
 Hægt er að flokka athugasemd sem annaðhvort innri eða ytri.
 
 - Í Finance and Operations-forritinu, á síðunni **Viðhengi**, skal opna athugasemdina og síðan í reitnum **Takmörkun** skal velja **Innri** eða **Ytri**.
 
-    ![Takmörkunarreitur](media/notes-fo-4.png)
+    ![Takmörkunarreitur.](media/notes-fo-4.png)
 
 Einnig er hægt að búa til vefslóð.
 
@@ -101,13 +101,13 @@ Einnig er hægt að búa til vefslóð.
 2. Færið inn titil og vefslóð.
 3. Í reitnum **Takmörkun** skal velja **Innri** eða **Ytri**.
 
-    ![Vefslóð búin til í Finance and Operations-forritinu](media/notes-fo-5.png)
+    ![Vefslóð búin til í Finance and Operations-forritinu.](media/notes-fo-5.png)
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
     Þar sem forrit viðskiptavina eru ekki með vefslóðargerð, er vefslóðin samþætt með tvöfaldri skráningu sem athugasemd.
 
-    ![Vefslóð sem birtist sem athugasemd í forriti viðskiptavinar](media/notes-ce-6.png)
+    ![Vefslóð sem birtist sem athugasemd í forriti viðskiptavinar.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Skráarviðhengi eru ekki studd.

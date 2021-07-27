@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963240"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357415"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
@@ -49,7 +49,7 @@ ms.locfileid: "5963240"
 5. Veljið **Bæta við reglu** til að bæta við geymdri aðgangsreglu.
 6. Stillið reitina **Kennimerki** og **Aðgangsheimildir** eftir því sem við á. Í reitnum **Aðgangsheimildir** á að velja allar aðgangsheimildir.
 
-    ![Aðgangsheimild Blob-geymslu veitt](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Aðgangsheimild Blob-geymslu veitt.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Færið inn upphafs-og lokadagsetningar. Lokadagsetningin á að vera fram í tímann.
 8. Veljið **Í lagi** til að vista regluna og vistið síðan breytingarnar í geymsluna.
@@ -57,7 +57,7 @@ ms.locfileid: "5963240"
 10. Hægrismellið á geymsluna og veljið síðan **Fá undirskrift samnýtts aðgangs**.
 11. Í svarglugganum **Undirskrift samnýtts aðgangs** skal afrita og vista gildin í reitnum **URI**. Þetta gildi verður notað í næsta ferli og verður vísað til þess sem *URI-undirskrift samnýtts aðgangs*.
 
-    ![URI-gildin valin og afrituð](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![URI-gildið valið og afritað.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Setja skal upp lyklageymslu til að geyma URI geymslureiknings
 
@@ -69,11 +69,11 @@ ms.locfileid: "5963240"
 6. Setja upp aðgangsregluna til að veita rafrænu reikningsfærslunni rétt öryggisstig aðgangs að leynilyklinum sem var búinn til. Opnið **Stillingar \> Aðgangsregla** og veljið **Bæta við aðgangsreglu**.
 7. Stillið aðgangsheimildir leynilykils fyrir aðgerðirnar **Fá** og **Listi**.
 
-    ![Veita aðgang að þjónustu](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Veita aðgang að þjónustu.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. Stillið heimildir vottorðsins fyrir aðgerðirnar **Fá** og **Listi**.
 
-    ![Vottorðsheimildir veittar](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Vottorðsheimild veitt.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. Í reitnum **Velja aðalreikning** skal velja **Ekkert valið**.
 10. Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Þjónusta rafrænnar reikningsfærslu**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015854"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360401"
 ---
 # <a name="set-up-consignment"></a>Uppsetning vörusendingar
 
@@ -61,7 +61,7 @@ Lánardrottinn, US-104 getur fylgjast með uppfærslu með því að nota **vör
 
 **Eigandi** víddin er notuð til að aðskilja upplýsingar um hvaða er í eigu lánardrottins og sem er í eigu lögaðila sem tekur á móti. Áfyllingarpöntunarlínur vörusendingar hafa stöðuna **Opin pöntun** eins lengi og heildarmagn lína hefur ekki verið móttekinn eða hætt við. Þegar allt magnið hefur verið tekið á móti eða afturkallaðar, er stöðunni breytt í **Lokið**. Efnislegar lagerbirgðir sem tengjast áfyllingarpöntun vörusendingar má skrá með skráningarferli sem og ferli fyrir uppfærslu innhreyfingarskjal afurða. Hægt að gera skráningu sem hluti af komuferli vöru eða með því að uppfæra pöntunarlínurnar handvirkt. Þegar Uppfærsluferli innhreyfingarskjals Afurða er notuð, er færsla gerð í færslubók innhreyfingarskjala afurða, sem er hægt að nota til að staðfesta móttöku á vörum til lánardrottna.
 
-[![Áfyllingarpantanir vörusendingar](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Áfyllingarpantanir vörusendingar.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Færslubók eignarhaldsbreytingar birgða
 
@@ -74,7 +74,7 @@ Einu birgðafærslur sem eru stofnaðar eru þær sem tengjast bókaðri færslu
 
 Ekki er hægt að uppfæra magn í innkaupapöntunarlínum vörusendingar eftir að pöntun hefur verið stofnað.
 
-[![Færslubók eignarhaldsbreytingar birgða](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Færslubók eignarhaldsbreytingar birgða.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Samstarf lánardrottna í ferli vörusendingar
 
@@ -90,13 +90,13 @@ Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lán
 
 Til að skrá efnislegar vörusendingabirgðir á innleið, þarf að skilgreina lánardrottinseiganda. Þetta er gert á **eigandi birgða** síðuna. Þegar velja **lánardrottnalykil** myndar þetta sjálfgefin gildi fyrir **Heiti** og **Eigandi** svæðum. Gildið í **Eiganda** svæði verður sýnilegt til lánadrottna, svo þú gætir viljað breyta þeim, ef nöfn á lánardrottnalykill eru ekki auðvelt fyrir utanaðkomandi fólki til að bera kennsl á. Mögulegt er að breyta á **Eigandi** svæði, en aðeins fram að þeim punkti þegar vista á **eigandi birgða** færslan. Í **Heiti** svæði er fyllt út með nafn þess aðila sem lánardrottnalykill er tengd við, og þessu er ekki hægt að breyta.
 
-[![Birgðaeigendur](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Birgðaeigendur.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Rakningarvíddarflokkur
 
 Vörur sem nota á í ferli vörusendingar verður að tengjast við **rakningarvíddarflokkur** þar sem víddin **Eigandi** er stillt á **Virk**. Vídd eiganda hefur ávallt **Efnislegar birgðir** og **Fjárhagslegar birgðir** valkostir valinn. **Þekjuáætlun eftir vídd** er aldrei valin.
 
-[![Rakningarvíddarflokkur](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Rakningarvíddarflokkur.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

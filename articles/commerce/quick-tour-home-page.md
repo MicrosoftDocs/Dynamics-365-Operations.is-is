@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792196"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352013"
 ---
 # <a name="home-page-overview"></a>Yfirlit heimasíðu
 
@@ -31,7 +32,7 @@ Heimasíðan er sjálfgefna vefsíðan sem kaupendur fara á þegar þeir heims�
 
 Eftirfarandi mynd sýnir dæmi um heimasíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
-![Dæmi um heimasíðu](./media/Homepage2.PNG)
+![Dæmi um heimasíðu.](./media/Homepage2.PNG)
 
 Efst á heimasíðunni er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á heimasíðunni er síðufótur sem inniheldur fljótlega tengla á ýmis efni sem kaupendur gætu haft áhuga á.
 
@@ -41,13 +42,13 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
     Eftirfarandi mynd sýnir dæmi um heimasíðu þar sem fyrsta atriðið í aðalhlutanum er hetjuuppsetning á innihaldsbálkseiningu sem er nefnd „Nýkomið”.
 
-    ![Dæmi um hetjueiningu](./media/Hero.PNG)
+    ![Dæmi um hetjueiningu.](./media/Hero.PNG)
 
 - **Eiginleiki** – Eiginleikauppsetning innihaldsbálkseiningar er notuð til að markaðssetja vörur eða kynningar með blöndu af myndum og texta. Hægt er að nota eiginleikauppsetningar sjálfstætt eða hýsa þær í hringekjueiningu.
 
     Eftirfarandi skýringarmynd sýnir dæmi um eiginleikauppsetningu á innihaldsbálkseiningu á heimasíðu.
 
-    ![Dæmi um eiginleikaeiningar](./media/Feature.PNG)
+    ![Dæmi um eiginleikaeiningar.](./media/Feature.PNG)
 
 - **Reitur** - Reitauppsetning á innihaldsbálkseiningu er notuð til að sýna margar vörur eða vöruflokk með því að nota blöndu af myndum og texta í margdálka útliti. Í myndskreytingu heimasíðunnar sem birtist fyrr í þessu efni er reitauppsetning notuð fyrir þriggja dálka útlit varanna í **Versla konur**, **Versla karlmenn** og **Versla aukabúnað**.
 - **Myndspilari** – Hægt er að nota myndspilarann til að sýna myndefni á heimasíðunni. Myndskreytingin á heimasíðu sem birtist fyrr í þessu efni inniheldur myndspilaraeiningu.
@@ -56,7 +57,7 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
     Eftirfarandi mynd sýnir dæmi um afurðatillögueiningar á heimasíðu.
 
-    ![Dæmi um afurðatillögueiningar](./media/Recommendations.PNG)
+    ![Dæmi um afurðatillögueiningar.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Hægt er að nota allar einingarnar sem eru taldar upp hér á hvaða síðu sem er. Hins vegar er staðsetning þeirra á heimasíðunni mikilvæg vegna þess að sú síða er þar sem viðskiptavinir hafa samskipti við síðuna þína fyrst.

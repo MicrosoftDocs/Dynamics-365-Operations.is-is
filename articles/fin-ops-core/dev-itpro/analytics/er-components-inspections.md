@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357667"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -242,7 +242,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
-    ![X-svæði og heiltölugagnagerð bætt við gangalíkanstréð á síðu gagnalíkans](./media/er-components-inspections-01.png)
+    ![X-svæði og heiltölugagnagerð bætt við gangalíkanstréð á síðu gagnalíkans.](./media/er-components-inspections-01.png)
 
 3. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
 4. Gefið nýja gagnagjafanum heitið **Y** og skilgreinið hann þannig að hann innihaldi segðina `INTVALUE(100)`.
@@ -250,17 +250,17 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 6. Í hönnuði gagnalíkansins skal breyta gagnagerðinni fyrir reitinn **X** úr **Heiltala** í **Int64**.
 7. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Að villuleita breytanlegan íhlut líkanavörpunar á síðunni Hönnuður líkanavörpunar](./media/er-components-inspections-01.gif)
+    ![Að villuleita breytanlegan íhlut líkanavörpunar á síðunni Hönnuður líkanavörpunar.](./media/er-components-inspections-01.gif)
 
 8. Veljið **Villuleita** til að skoða íhlut líkanavörpunar af valinni skilgreiningu rafrænnar skýrslugerðar á síðunni **Skilgreiningar**.
 
-    ![Hlutur líkanavörpunar á skilgreiningarsíðunni skoðaður](./media/er-components-inspections-01a.png)
+    ![Hlutur líkanavörpunar á skilgreiningarsíðunni skoðaður.](./media/er-components-inspections-01a.png)
 
 9. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að gildið af gerðinni **Heiltala** sem `INTVALUE(100)` segðin af **Y** gagnagjafanum skilar, geti ekki verið vistað í gagnalíkansreit **X** af gerðinni **Int64**.
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra snið sem er skilgreint til að nota líkanavörpunina.
 
-![Keyrsluvillur á sniðshönnunarsíðunni](./media/er-components-inspections-01b.png)
+![Keyrsluvillur á sniðshönnunarsíðunni.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -290,7 +290,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 6. Í sniðsskipulagstrénu skal breyta gagnagerð sniðseiningar **Y** úr **Heiltala** í **Int64**.
 7. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Að villuleita samhæfisgerð á sniðshönnunarsíðunni](./media/er-components-inspections-02.gif)
+    ![Að villuleita samhæfisgerð á sniðshönnunarsíðunni.](./media/er-components-inspections-02.gif)
 
 8. Athugið að staðfestingarvilla kemur upp. Skilaboðin segja til um að skilgreinda segðin geti aðeins samþykkt **Int64** gildi. Þess vegna getur gildið fyrir gagnalíkansreit **X** af gerðinni **Heiltala** ekki verið slegið inn í sniðseiningu **Y**.
 
@@ -317,7 +317,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 1. Byrjaðu að skilgreina íhluti gagnalíkans rafrænnar skýrslugerðar og líkanavörpunar rafrænnar skýrslugerðar samtímis.
 2. Í gagnalíkanstrénu skal bæta við reit sem er nefndur **X** og velja **Heiltölu** sem gagnagerðina.
 
-    ![Gagnalíkanstré með X-reit og gagnagerðina heiltala á gagnalíkanssíðunni](./media/er-components-inspections-01.png)
+    ![Gagnalíkanstré með X-reit og gagnagerðina heiltala á gagnalíkanssíðunni.](./media/er-components-inspections-01.png)
 
 3. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Reiknaður reitur**.
 4. Gefið nýja gagnagjafanum heitið **Y** og skilgreinið hann þannig að hann innihaldi segðina `INTVALUE(100)`.
@@ -325,7 +325,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 6. Í hönnuði líkanavörpunar, á svæði **gagnagjafa**, skal eyða gagnagjafanum **Y**.
 7. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Breytanlegur íhlutur líkanavörpunar rafrænnar skýrslugerðar á hönnunarsíðu líkanavörpunar skoðaður](./media/er-components-inspections-03.gif)
+    ![Breytanlegur íhlutur líkanavörpunar rafrænnar skýrslugerðar á hönnunarsíðu líkanavörpunar skoðaður.](./media/er-components-inspections-03.gif)
 
 8. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að bindingin á gagnalíkansreit **X** inniheldur slóðina sem vísar til gagnagjafa **Y**, en þessi gagnagjafi finnst ekki.
 
@@ -359,13 +359,13 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda `FILTER(Vendor, Vendor.AccountNum="US-101")`-segðinni í gagnagjafanum **Lánardrottinn** fyrirspurn.
 
-    ![Staðfestir að hægt sé að senda fyrirspurn á segðina á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-04.gif)
+    ![Staðfestir að hægt sé að senda fyrirspurn á segðina á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-04.gif)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Lánardrottinn** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða segð gagnagjafans **FilteredVendor** í beina SQL-strenginn.
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra snið sem er skilgreint til að nota líkanavörpunina.
 
-![Keyrsluvillur sem koma upp þegar breytanlegt snið sniðshönnunarsíðunnar er keyrt](./media/er-components-inspections-04a.png)
+![Keyrsluvillur sem koma upp þegar breytanlegt snið sniðshönnunarsíðunnar er keyrt.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -396,23 +396,23 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     - Veljið **Trans** gagnagjafann sem uppruna færslna sem á að flokka.
     - Í reitnum **Staðsetning keyrslu** skal velja **Fyrirspurn** til að tilgreina að ætlunin sé að keyra þennan gagnagjafa á gagnagrunnsstigi.
 
-    ![Gagnagjafi skilgreindur á færibreytusíðunni „Breyta Flokka eftir“](./media/er-components-inspections-05a.gif)
+    ![Gagnagjafi skilgreindur á færibreytusíðunni „Breyta Flokka eftir“.](./media/er-components-inspections-05a.gif)
 
 6. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda skilgreindum gagnagjafa **GroupedTrans** fyrirspurn.
 7. Breytið gagnagjafanum **Trans** með því að bæta við földuðum reit af gerðinni **Reiknaður reitur** til að fá stytt númer lánardrottnalykils.
 8. Gefið nýja gagnagjafanum heitið **$AccNumber** og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Trans.AccountNum)`.
 
-    ![Gagnagjafi skilgreindur á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-05a.png)
+    ![Gagnagjafi skilgreindur á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-05a.png)
 
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda skilgreindum gagnagjafa **GroupedTrans** fyrirspurn.
 
-    ![Staðfestir íhlut líkanavörpunar rafrænnar skýrslugerðar og staðfestir að hægt sé að senda fyrirspurn á gagnagjafann GroupedTrans á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-05b.png)
+    ![Staðfestir íhlut líkanavörpunar rafrænnar skýrslugerðar og staðfestir að hægt sé að senda fyrirspurn á gagnagjafann GroupedTrans á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-05b.png)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Trans** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða kallið í gagnagjafann **FilteredVendor** í beina SQL-strenginn.
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra snið sem er skilgreint til að nota líkanavörpunina.
 
-![Keyrsluvillur sem eiga sér stað þegar viðvörun er hunsuð á sniðshönnunarsíðu](./media/er-components-inspections-05c.png)
+![Keyrsluvillur sem eiga sér stað þegar viðvörun er hunsuð á sniðshönnunarsíðu.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -448,21 +448,21 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     2. Bætið við gagnagjafanum **Vendor.FilteredTrans** sem annað safn af færslum sem á að tengja. Veljið **INNER** sem gerðina.
     3. Í reitnum **Keyra** skal velja **Fyrirspurn** til að tilgreina að ætlunin sé að keyra þennan gagnagjafa á gagnagrunnsstigi.
 
-    ![Gagnagjafi skilgreindur á hönnunarsíðu töflutengingar](./media/er-components-inspections-06a.gif)
+    ![Gagnagjafi skilgreindur á hönnunarsíðu töflutengingar.](./media/er-components-inspections-06a.gif)
 
 10. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda skilgreindum gagnagjafa **JoinedList** fyrirspurn.
 11. Breytið segðinni á gagnagjafa **Vendor.FilteredTrans** úr `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` í `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda skilgreindum gagnagjafa **JoinedList** fyrirspurn.
 
-    ![Villuleitið breytanlegum hlutum líkanavörpunar og staðfestið að hægt sé að senda gagnagjafanum JoinedList fyrirspurn á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-06b.png)
+    ![Villuleitið breytanlegum hlutum líkanavörpunar og staðfestið að hægt sé að senda gagnagjafanum JoinedList fyrirspurn á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-06b.png)
 
 13. Takið eftir að villa við villuleit kemur upp vegna þess að ekki er hægt að þýða segð gagnagjafans **Vendor.FilteredTrans** í beint SQL-kall. Þar að auki leyfir beint SQL-kall ekki kallið fyrir gagnagjafann **JoinedList** að vera þýtt yfir í beinan SQL-streng.
 
-    ![Keyrsluvillur úr mislukkaðri villuleit á gagnagjafa JoinedList á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-06c.png)
+    ![Keyrsluvillur úr mislukkaðri villuleit á gagnagjafa JoinedList á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-06c.png)
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra snið sem er skilgreint til að nota líkanavörpunina.
 
-![Kleyra breytanlegt snið á sniðshönnunarsíðu](./media/er-components-inspections-06e.png)
+![Keyra breytanlegt snið á sniðshönnunarsíðu.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -474,7 +474,7 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 Breytið segðinni á gagnagjafa **Vendor.FilteredTrans** úr `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` og aftur í `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` eins og viðvörunin ráðleggur.
 
-![Uppfærð segð gagnagjafa á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-06d.png)
+![Uppfærð segð gagnagjafa á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Valkostur 2
 
@@ -497,11 +497,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 9. Gefið nýja gagnagjafanum heitið **FilterVendor** og skilgreinið hann þannig að hann innihaldi segðina `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07a.png)
+    ![Skoða breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-07a.png)
 
 11. Takið eftir að viðvaranir villuleitar ráðleggja að nota aðgerðina **FILTER** í staðinn fyrir aðgerðina **WHERE** fyrir gagnagjafana **FilteredVendor** og **FilteredTrans**.
 
-    ![Tillaga um að nota FILTER-aðgerðina í stað Where-aðgerðarinnar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07b.png)
+    ![Tillaga um að nota FILTER-aðgerðina í stað Where-aðgerðarinnar á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -509,7 +509,7 @@ Veljið **Laga** til að skipta sjálfkrafa út aðgerðinni **WHERE** fyrir að
 
 Annars er líka hægt að velja línuna fyrir ákveðna viðvörun í hnitanetinu og síðan velja **Laga það sem er valið**. Í þessu tilviki er segðinni sjálfkrafa aðeins breytt í gagnagjafanum sem er minnst á í valinni viðvörun.
 
-![Veljið Laga til að skipta út where-aðgerðinni sjálfkrafa fyrir filter-aðgerðina á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-07c.png)
+![Veljið Laga til að skipta út where-aðgerðinni sjálfkrafa fyrir filter-aðgerðina á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Handvirk lausn
 
@@ -530,11 +530,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 7. Gefið nýja gagnagjafanum heitið **FilteredVendorTrans** og skilgreinið hann þannig að hann innihaldi segðina `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Skoðar breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-08a.png)
+    ![Skoðar breytanlegan íhlut líkanavörpunar á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-08a.png)
 
 9. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin ráðleggja að nota aðgerðina **ALLITEMSQUERY** í staðinn fyrir aðgerðina **ALLITEMS** fyrir gagnagjafann **FilteredVendorTrans**.
 
-    ![Tillaga um að nota ALLITEMSQUERY-aðgerðina í stað ALLITEMS-aðgerðarinnar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-08b.png)
+    ![Tillaga um að nota ALLITEMSQUERY-aðgerðina í stað ALLITEMS-aðgerðarinnar á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -542,7 +542,7 @@ Veljið **Laga** til að skipta sjálfkrafa út aðgerðinni **ALLITEMS** fyrir 
 
 Annars er líka hægt að velja línuna fyrir ákveðna viðvörun í hnitanetinu og síðan velja **Laga það sem er valið**. Í þessu tilviki er segðinni sjálfkrafa aðeins breytt í gagnagjafanum sem er minnst á í valinni viðvörun.
 
-![Laga valið á hönnunarsíðu líkanavörpunar valið](./media/er-components-inspections-08c.png)
+![Laga valið á hönnunarsíðu líkanavörpunar valið.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Handvirk lausn
 
@@ -563,7 +563,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **Heiti**.
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **AccountNumber**.
 
-    ![Földum reitum bætt við gagnalíkanssíðuna](./media/er-components-inspections-09a.png)
+    ![Földum reitum bætt við gagnalíkanssíðuna.](./media/er-components-inspections-09a.png)
 
 6. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 7. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
@@ -577,7 +577,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     - Binda **FilteredVendor.AccountNum** við **Vendor.AccountNumber**.
     - Bindið **FilteredVendor.'name()'** við **Vendor.name**.
 
-    ![Atriði gagnalíkans bundin við hönnunarsíðu líkanavörpunar](./media/er-components-inspections-09b.png)
+    ![Atriði gagnalíkans bundin við hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-09b.png)
 
 13. Í tré sniðsskipulags skal bæta við eftirfarandi atriðum til að mynda skjal á útleið á XML-sniði sem inniheldur upplýsingar um lánardrottin:
 
@@ -595,15 +595,15 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 15. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Sniðseiningar sem bundnar voru við gagnagjafa á sniðshönnunarsíðunni villuleitaðar](./media/er-components-inspections-09c.png)
+    ![Sniðseiningar sem bundnar voru við gagnagjafa á sniðshönnunarsíðunni villuleitaðar.](./media/er-components-inspections-09c.png)
 
 16. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að villan gæti verið út af skilgreindum sniðshlutunum **Uppgjör\\Aðili\\Heiti** og **Uppgjör\\Aðili\\AccountNum** við keyrslu ef listinn `model.Vendor` er tómur.
 
-    ![Villa við villuleit um hugsanlega villu vegna skilgreindra sniðshluta](./media/er-components-inspections-09d.png)
+    ![Villa við villuleit um hugsanlega villu vegna skilgreindra sniðshluta.](./media/er-components-inspections-09d.png)
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð, valið er **Keyra** til að keyra sniðið og lykilnúmerið er valið fyrir lánardrottin sem er ekki til. Vegna þess að umbeðinn lánardrottinn er ekki til verður listinn `model.Vendor` tómur (þ.e. hann mun ekki innihalda neinar færslur).
 
-![Keyrsluvillur sem gerast við keyrslu sniðsvörpunar](./media/er-components-inspections-09e.png)
+![Keyrsluvillur sem gerast við keyrslu sniðsvörpunar.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -615,7 +615,7 @@ Fyrir valda línu í hnitanetinu í flipanum **Viðvaranir** er hægt að velja 
 
 Hægt er að binda sniðseininguna **Uppgjör\\Aðili\\Heiti** við gagnagjafaatriðið `model.Vendor`. Við keyrslu kallar þessi binding fyrst á gagnagjafann `model.Vendor`. Þegar `model.Vendor` skilar tómum færslulista, eru földuðu sniðseiningarnar ekki keyrðar. Þess vegna koma engar viðvaranir villuleitar upp fyrir þessa sniðsskilgreiningu.
 
-![Sniðseiningin bundin við atriði gagnagjafa á sniðshönnunarsíðunni](./media/er-components-inspections-09e.gif)
+![Sniðseiningin bundin við atriði gagnagjafa á sniðshönnunarsíðunni.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Valkostur 2
 
@@ -626,7 +626,7 @@ Breytið bindingu sniðseiningarinnar **Uppgjör\\Aðili\\Heiti** úr `model.Ven
 
 Þess vegna birtast engar viðvaranir villuleitar fyrir sniðseininguna **Uppgjör\\Aðili\\Heiti** þegar hún er bundin við `FIRSTORNULL(model.Vendor).Name` segðina.
 
-![Breytt binding leysir úr viðvörunum villuleitar á sniðshönnunarsíðunni](./media/er-components-inspections-09f.gif)
+![Breytt binding leysir úr viðvörunum villuleitar á sniðshönnunarsíðunni.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Valkostur 3
 
@@ -653,17 +653,17 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 7. Gefið nýja gagnagjafanum heitið **FilteredVendor** og skilgreinið hann þannig að hann innihaldi segðina `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Merkið skilgreinda gagnagjafann **Lánardrottinn** sem vistun í skyndiminni.
 
-    ![Grunnstilling hlut líkanavörpunar á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-10a.gif)
+    ![Grunnstilling á hlut líkanavörpunar á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-10a.gif)
 
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![FILTER-aðgerðin sem er notuð fyrir gagnagjafa lánardrottins í skyndiminni á hönnunarsíðu líkanavörpunar villuleituð](./media/er-components-inspections-10a.png)
+    ![FILTER-aðgerðin sem er notuð fyrir gagnagjafa lánardrottins í skyndiminni á hönnunarsíðu líkanavörpunar villuleituð.](./media/er-components-inspections-10a.png)
 
 10. Athugið að staðfestingarvilla kemur upp. Skilaboðin gefa til kynna að ekki sé hægt að nota aðgerðina **FILTER** á gagnagjafanum **Lánardrottinn** sem vistaður er í skyndiminni.
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra sniðið.
 
-![Keyrsluvilla sem kemur upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni](./media/er-components-inspections-10b.png)
+![Keyrsluvilla sem kemur upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Sjálfvirk lausn
 
@@ -694,7 +694,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **Heiti**.
     - Bætið við földum reit af gerðinni **Strengur** og gefið honum heitið **AccountNumber**.
 
-    ![Földuðum reitum bætt við lánardrottnaatriðið á gagnalíkanssíðunni](./media/er-components-inspections-11a.png)
+    ![Földuðum reitum bætt við lánardrottnaatriðið á gagnalíkanssíðunni.](./media/er-components-inspections-11a.png)
 
 6. Í hönnuði líkanavörpunar, á svæðinu **Gagnagjafar**, skal bæta við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
 7. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um VendTable-töfluna.
@@ -710,7 +710,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
     > [!NOTE]
     > Gagnalíkansreiturinn **Vendor.name** helst óbundinn.
 
-    ![Atriði gagnalíkans bundin við skilgreinda gagnagjafa og atriði gagnalíkans sem helst óbundið á hönnunarsíðu líkanavörpunar](./media/er-components-inspections-11b.png)
+    ![Atriði gagnalíkans bundin við skilgreinda gagnagjafa og atriði gagnalíkans sem helst óbundið á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-11b.png)
 
 13. Í tré sniðsskipulags skal bæta við eftirfarandi atriðum til að mynda skjal á útleið á XML-sniði sem inniheldur upplýsingar um lánardrottin sem spurst er fyrir um:
 
@@ -729,15 +729,15 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 15. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Hlutur rafræns skýrslugerðarsniðs villuleitaður á sniðshönnunarsíðunni](./media/er-components-inspections-11c.png)
+    ![Hlutur rafræns skýrslugerðarsniðs villuleitaður á sniðshönnunarsíðunni.](./media/er-components-inspections-11c.png)
 
 16. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin segja að gagnagjafareiturinn **model.Vendor.Name** sé ekki bundinn við neinn gagnagjafa í líkanavörpuninni sem er skilgreind til að vera notuð af sniðinu. Þess vegna er ekki víst að sniðseiningin **Uppgjör\\Aðili\\Heiti** verður fyllt út við keyrslu og undantekning keyrslu gæti komið upp.
 
-    ![Hlutur rafræns skýrslugerðarsniðs villuleitaður á sniðshönnunarsíðunni](./media/er-components-inspections-11d.png)
+    ![Hlutur rafræns skýrslugerðarsniðs villuleitaður á sniðshönnunarsíðunni.](./media/er-components-inspections-11d.png)
 
 Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð og valið er **Keyra** til að keyra sniðið.
 
-![Breytanlegt snið keyrt á sniðshönnunarsíðu](./media/er-components-inspections-11e.png)
+![Breytanlegt snið keyrt á sniðshönnunarsíðu.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -766,7 +766,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 5. Í einingunni **Excel\\skrá** skal velja vinnubókarskrá A.
 6. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Villuleita breytanlegan sniðshlut vinnubókarskrá á sniðshönnunarsíðunni](./media/er-components-inspections-12a.gif)
+    ![Villuleita breytanlegan sniðshlut vinnubókarskrá á sniðshönnunarsíðunni.](./media/er-components-inspections-12a.gif)
 
 7. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin gefa til kynna að vinnubókarskráin B.xlsx sé ekki tengd við neina íhluti og að hún verði fjarlægð þegar búið er að breyta stöðunni á útgáfu skilgreiningarinnar.
 
@@ -794,11 +794,11 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 4. Bætið einingu **Excel\\hólf** **Titill** sem faldaða einingu einingarinnar **Skýrsla**. Í reitinn **Excel-afmörkun** skal slá inn **ReportTitle**.
 5. Veljið **Villuleita** til að skoða breytanlegan sniðshlut á síðunni **Sniðshönnuður**.
 
-    ![Faldaðar einingar og reitir á sniðshönnunarsíðunni villuleitað](./media/er-components-inspections-13a.png)
+    ![Faldaðar einingar og reitir á sniðshönnunarsíðunni villuleitað.](./media/er-components-inspections-13a.png)
 
 6. Takið eftir að viðvörun vegna villuleitar á sér stað. Skilaboðin gefa til kynna að heitið **ReportTitle** sé ekki til í vinnublaði **Sheet1** í Excel-sniðmátinu sem verið er að nota.
 
-    ![Viðvörun villuleitar um að heitið ReportTitle sé ekki til í Sheet1 í Excel-sniðmáti](./media/er-components-inspections-13b.png)
+    ![Viðvörun villuleitar um að heitið ReportTitle sé ekki til í Sheet1 í Excel-sniðmáti.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 

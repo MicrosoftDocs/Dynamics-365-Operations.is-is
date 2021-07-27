@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: efa85c4a3371bb5096df1a56d818527156654279
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303245"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357216"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Vinna með beiðnir um leyfi og fjarvistir
 
@@ -41,7 +41,7 @@ Stjórna fríbeiðnum úr vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** í D
 - Hægt er að velja margar leyfisbeiðnir og framkvæma sömu aðgerðina á þeim öllum.
 - Borðinn þvert yfir toppinn og nýr verkflæðishnappur á síðunni sýna aðgerðirnar sem hægt er að gera á leyfisbeiðnum.
 
-![Stjórnunarreynsla](media/hr-leave-and-absence-manager-experience.png)
+![Stjórnunarreynsla.](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

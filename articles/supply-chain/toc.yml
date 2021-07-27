@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Setja upp rafrænar reikningsfærslur
@@ -775,7 +773,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Skjalaskýrslugerð og prentun
               items:
-                - name: Yfirlit Document Reporting Services
+                - name: Yfirlit greiningarþjónustu skjala
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Studdar leturgerðir
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
@@ -1605,8 +1603,10 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Hafist handa með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/get-started.md
-                - name: Samræmisgreining á fínstillingu áætlanagerðar
+                - name: Samræmisgreining á fínstillingu skipulagningar
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Færibreytur ekki notaðar af fínstillingu skipulagningar
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Nota síur á áætlun
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Aðaláætlanagerð með eftirspurnarspá
@@ -1621,6 +1621,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Framleiðsluáætlun
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Röðun með ótakmarkaða getu
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Birgðamerking með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/marking.md
                 - name: Áætlanagerð innan samstæðu
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Skilgreina samþykktarskref
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Skilgreina skoðunarmenn útgjalda
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Skilgreina handvirkar ákvarðanir
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Skilgreina skilyrtar ákvarðanir

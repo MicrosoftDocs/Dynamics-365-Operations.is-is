@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360377"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -81,7 +81,7 @@ Til að staðfesta áætlaðar pantanir handvirkt skal finna og velja áætlaða
     - **Flokka eftir tímabili** (í hlutanum **Innkaupapantanir**) – Velja tímabilið sem flokka á áætlaðar innkaupapantanir eftir. Til að nota þennan valkost verður einnig að velja valkostinn **Flokka eftir lánardrottnum**.
     - **Flokka eftir tímabili** (í hlutanum **Flutningar**) – Veljið tímabilið sem flokka á áætlaðar flutningspantanir eftir. Pantanirnar verða flokkaðar samkvæmt gildunum **Frá vöruhúsi** og **Til vöruhúss**.
 
-    ![Flýtiflipi færibreyta í svarglugga staðfestingar](./media/manual-firming.png "Flýtiflipi færibreyta í svarglugga staðfestingar")
+    ![Flýtiflipi færibreyta í svarglugga staðfestingar.](./media/manual-firming.png "Flýtiflipi færibreyta í svarglugga staðfestingar")
 
 1. Í flýtiflipanum **Keyra í bakgrunni** skal setja upp vinnsluna þannig að hún keyri í runustillingu. Hins vegar er ekki skynsamlegt að setja upp endurtekna áætlun við handvirka staðfestingu. Reitirnir virka rétt eins og þeir virka fyrir aðrar gerðir [bakgrunnsvinnsla](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management. Við handvirka staðfestingu vinnur runuvinnslan aðeins úr völdum áætluðum pöntunum. Það mun ekki vinna neinar pantanir sem passa við síurnar sem eru notaðar á síðunni.
 1. Veldu **Í lagi** til að gera stillingarnar virkar og búa til staðfestu pantanirnar.
@@ -140,15 +140,15 @@ Fylgið eftirfarandi skrefum til að staðfesta áætlaða pöntun með staðfes
     - **Staðfesting tímamarka í dögum fram í tíma** – Veljið hversu langt fram í tímann á að reikna samkvæmt aðaláætlanagerð ýmsar kröfur og annað sem þarf að hafa í huga.
     - **Staðfesting tímamarka í dögum aftur í tíma** – Veljið hversu langt aftur í tímann á að reikna samkvæmt aðaláætlanagerð ýmsar kröfur og annað sem þarf að hafa í huga.
 
-    ![Flýtiflipi færibreyta í svarglugga staðfestingar áætlaðrar pöntunar](./media/planned-order-firming-main-1.png "Flýtiflipi færibreyta í svarglugga staðfestingar áætlaðrar pöntunar")
+    ![Flýtiflipi færibreyta í svarglugga staðfestingar áætlaðrar pöntunar.](./media/planned-order-firming-main-1.png "Flýtiflipi færibreyta í svarglugga staðfestingar áætlaðrar pöntunar")
 
 1. Til að tilgreina hvaða færslur á að hafa með í pöntuninni skal velja hnappinn **Sía** í flýtiflipanum **Færslur til að taka með**. Hefðbundin svargluggi fyrirspurnar birtist þar sem hægt er að skilgreina valskilyrði, röðunarskilyrði og tengingar. Reitirnir virka á sama hátt og fyrir aðrar gerðir fyrirspurna í Supply Chain Management. Reitir hér eru skrifvarðir og sýna gildi sem tengjast fyrirspurninni.
 
-    ![Færslur til að taka með í flýtiflipanum í svarglugga fyrir staðfestingu áætlaðrar pöntunar](./media/planned-order-firming-main-2.png "Færslur til að taka með í flýtiflipanum í svarglugga fyrir staðfestingu áætlaðrar pöntunar")
+    ![Færslur til að taka með í flýtiflipanum í svarglugga fyrir staðfestingu áætlaðrar pöntunar.](./media/planned-order-firming-main-2.png "Færslur til að taka með í flýtiflipanum í svarglugga fyrir staðfestingu áætlaðrar pöntunar")
 
 1. Veljið **Forskoða** til að forskoða innihald staðfestrar pötntunar sem byggir á stillingunum fram að þessu. Listi yfir áætlaðar pantanir sem verða staðfestar birtist sem skilaboð. Síðan er hægt að laga stillingar eins og þörf er á þar til forsýningin sýnir staðfesta pöntun eins og ætlast var.
 
-    ![Dæmi um forskoðun staðfestrar pöntunar](./media/planned-order-firming-preview.png "Dæmi um forskoðun staðfestrar pöntunar")
+    ![Dæmi um forskoðun staðfestrar pöntunar.](./media/planned-order-firming-preview.png "Dæmi um forskoðun staðfestrar pöntunar")
 
     > [!WARNING]
     > Þessi eiginleiki staðfestir allar áætlaðar pantanir sem uppfylla síuskilyrðin. Of víðtæk staðfesting áætlaðra pantana getur leitt til þess að mikill fjöldi óþarfa innkaupa-, flutnings- og framleiðslupantana verði stofnaðar. Áður en haldið er áfram skal ávallt nota hnappinn **Forskoða** til að staðfesta færslurnar sem verða hafðar með.

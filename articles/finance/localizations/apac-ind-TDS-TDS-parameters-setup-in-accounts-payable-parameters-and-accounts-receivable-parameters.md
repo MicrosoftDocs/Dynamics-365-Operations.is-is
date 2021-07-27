@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023328"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358219"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Stilla TDS-færibreytur í viðskiptaskuldum og viðskiptakröfum
 
@@ -36,14 +36,14 @@ ms.locfileid: "6023328"
     - **Aldrei** – TDS-hópurinn er ekki uppfærður í pöntunarlínunum þegar hann er uppfærður í pöntunarhausnum.
     - **Alltaf** – TDS-hópurinn uppfærist sjálfkrafa á pöntunarlínunum þegar hann uppfærist í pöntunarhausnum.
     - **Spurning** – Notendur fá skilaboð þar sem þeir eru beðnir um að uppfæra TDS hópinn á pöntunarlínunum.
-4. Veljið **Í lagi**.
+4. Veldu **Í lagi**.
 
-    [![Svargluggi fyrir uppfærslu afurða](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Svargluggi fyrir uppfærslu pöntunarlína.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Opnið **Skattur \> Uppsetning \> Færibreytur \> Færibreytur viðskiptaskulda**.
 6. Á flipanum **Almennt** á flýtiflipanum **Skipting á grundvelli afhendingarupplýsinga** skal stilla valkostinn **Innhreyfingarskjal** á **Já** til að birta og skipta innhreyfingarskjali með mismunandi heimilisföngum og skattreikningsnúmerum (TAN). Ef þessi valkostur er stilltur á **Nei** er ekki hægt að bóka fylgiseðil með öðru heimilisfangi og skattareikningsnúmerum.
 7. Stillið valkostinn **Reikningur** á **Já** til að bóka og skipta innkaupareikningi með öðru heimilsföngum og skattareikningsnúmerum.
 
-    [![Skipting á grundvelli afhendingarupplýsinga](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Flýtiflipi fyrir skiptingu á grundvelli afhendingarupplýsinga.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Lokið síðunni.

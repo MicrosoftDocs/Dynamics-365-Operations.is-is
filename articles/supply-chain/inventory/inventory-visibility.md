@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017007"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358099"
 ---
 # <a name="inventory-visibility-add-in"></a>Innbót birgðasýnileika
 
@@ -143,7 +143,7 @@ Til að setja upp Dataverse til að nota með birgðasýnileika þarf fyrst að 
 
             Frekari upplýsingar um þessa breytu er að finna í hlutanum [Setja upp samþættingu fyrir Sýnileika birgða](#setup-inventory-visibility-integration) seinna í þessu efnisatriði.
 
-        ![Ræsing skilgreiningar](media/configuration-trigger.png "Ræsing skilgreiningar")
+        ![Ræsing skilgreiningar.](media/configuration-trigger.png "Ræsing skilgreiningar")
 
     1. Veljið **Kveikja á**.
 
@@ -157,7 +157,7 @@ Til að setja upp innbót birgðasýnileika skal gera eftirfarandi:
 1. Á heimasíðu umhverfisins skal fletta niður á hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting** þar sem hægt er að finna heiti Dataverse-umhverfisins.
 1. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 
-    ![Heimasíða umhverfis í LCS](media/inventory-visibility-environment.png "Heimasíða umhverfis í LCS")
+    ![Heimasíða umhverfis í LCS.](media/inventory-visibility-environment.png "Heimasíða umhverfis í LCS")
 
 1. Veldu tengilinn **Setja upp nýja innbót**. Listi yfir tiltækar innbætur opnast.
 1. Velja **Sýnileiki birgða** í listanum.
@@ -166,7 +166,7 @@ Til að setja upp innbót birgðasýnileika skal gera eftirfarandi:
     - **Auðkenni AAD-forritsins (biðlara)**
     - **AAD-leigjandakenni**
 
-    ![Uppsetningarsíða innbótar](media/inventory-visibility-setup.png "Uppsetningarsíða innbótar")
+    ![Uppsetningarsíða innbótar.](media/inventory-visibility-setup.png "Uppsetningarsíða innbótar")
 
 1. Samþykktu skilmálana með því að velja gátreitinn **Skilmálar**.
 1. Velja **Setja upp**. Staða innbótarinnar birtist sem **Er í uppsetningu**. Þegar henni er lokið skal uppfæra síðuna til að sjá stöðuna breytast í **Uppsett**.

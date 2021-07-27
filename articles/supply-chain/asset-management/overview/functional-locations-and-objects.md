@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351586"
 ---
 # <a name="functional-locations-and-assets"></a>Virkar staðsetningar og eignir
 
@@ -34,13 +34,13 @@ ms.locfileid: "5816750"
 
 Eignastjórnun er samþætt óaðfinnanlega við nokkrar einingar við önnur forrit Finance and Operations. Eftirfarandi mynd sýnir viðmót við aðrar einingar.
 
-![Skýringarmynd sem sýnir hvernig eignastjórnun tengist öðrum einingum](media/01-overview-image.png)
+![Skýringarmynd sem sýndir hvernig viðmót eignastýringar tengist öðrum einingum.](media/01-overview-image.png)
 
 Eignastjórnun gerir þér kleift að stjórna og framkvæma öll verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu. Þessi búnaður inniheldur vélar, framleiðslutæki og farartæki. Eignastjórnun styður einnig lausnir í fjölmörgum atvinnugreinum.
 
 Eftirfarandi mynd sýnir yfirlit yfir helstu virkni sem fellur undir eignastýringu.
 
-![Skýringarmynd sem sýnir helstu virkni í eignastýringu](media/02-overview-image.png)
+![Skýringarmynd sem sýnir helstu virkni í eignastýringu.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Virkar staðsetningar og eignir
 
@@ -50,11 +50,11 @@ Eignakostnaður fylgir alltaf staðsetningu eignarinnar. Með öðrum orðum, ef
 
 Hvernig þú byggir stigveldi þitt yfir virkar staðsetningar fer eftir kröfum fyrirtækisins um viðhald á innri búnaði eða þjónustu við viðskiptavini. Eftirfarandi mynd sýnir dæmi um virkar staðsetningar sem eru byggðir á landfræðilegum stöðum.
 
-![Skýringarmynd sem sýnir virkar staðsetningar út frá landfræðilegum stöðum](media/03-overview-image.png)
+![Skýringarmynd sem sýnir virkar staðsetningar á landfræðilegum staðsetningum.](media/03-overview-image.png)
 
 Eftirfarandi mynd sýnir dæmi um virkar staðsetningar sem eru byggðir á viðskiptavinum.
 
-![Skýringarmynd sem sýnir virkar staðsetningar út frá viðskiptavinum](media/04-overview-image.png)
+![Skýringarmynd sem sýnir virkar staðsetningar byggðar á viðskiptavinum.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

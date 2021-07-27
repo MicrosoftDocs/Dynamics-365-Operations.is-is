@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360899"
 ---
 # <a name="phantom-items"></a>Skuggavörur
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814779"
 
 Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu. Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð H og hluta F og G og (b) leiðarskjalið fyrir afurðir H og hluta F.
 
-![Afurð H og hluti F](media/product-H-part-F.png)
+![Afurð H og hluti F.](media/product-H-part-F.png)
 
 
 Þessi skýringarmynd sýnir dæmi um skipulag uppskriftar á tveimur stigum. Lokaafurð H táknar afurð fyrir samsetningu tækis. Samsetning tækis samanstendur af tveimur hlutum, rafeiningu (F) sem er með tvo efnisþætti (A og B) og hópur umbúða (G) sem einnig er með tvo efnisþætti (C og D). Annað efni (E) er notað við almenna samsetningu tækis.
 
-![Afurð H og hluti F](media/product-H-part-B.png)
+![Afurð H og hluti F.](media/product-H-part-B.png)
 
 Framangreind skýringarmynd sýnir hönnunaruppskrift fyrir afurð H. Þessi uppbygging veitir góða yfirsýn yfir hluta og íhluti fyrir heildarsamsetningu tækis. Þótt hönnuðir afurða gætu viljað sjá uppskriftina með þessum hætti, getur hins vegar verið að þessi uppbygging sýni ekki á réttan hátt hvernig tækið er sett upp í vinnusal. 
 
@@ -53,23 +53,23 @@ Umbreytingin á milli hönnunaruppskriftar og framleiðsluuppskriftar virkjuð m
 ## <a name="multilevel-phantom-bom-structures"></a>Uppbygging skuggauppskriftar á mörgum stigum
 Hægt er að nota skuggalínugerð í marglaga hönnunaruppskrift eins og sýnt er á eftirfarandi skýringarmynd. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G, og (b) leiðarskjalið fyrir hluta E og F og afurð G. 
 
-![Afurð G og hluti F með leiðarskjölum](media/product-G-route-sheet-G.png)
+![Afurð G og hluti F með leiðarskjölum.](media/product-G-route-sheet-G.png)
 
 
 Eftirfarandi skýringarmynd sýnir framleiðsluuppskriftina og leiðarskjalið ef uppskriftarlínur fyrir hluta E og F eru stilltar þannig að línugerðin sé skuggalínugerð. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G, og (b) leiðarskjalið fyrir afurð G.
 
-![Afurð G](media/product-G.png)
+![Afurð G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Skugga- og leiðanet
 Einnig er hægt að nota skuggauppskriftir fyrir uppskrift sem hefur leiðanet. Í leiðaneti eru ein eða fleiri aðgerðir keyrðar samhliða. Eftirfarandi skýringarmynd sýnir dæmi um leiðanet sem er notað í uppskrift á mörgum stigum. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G og hluta F, og (b) leiðarskjalið fyrir afurð G og hluta F, sem er með leiðanet.
 
-![Afurð G og hluti F](media/product-G-part-F.png)
+![Afurð G og hluti F.](media/product-G-part-F.png)
 
 
 Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð G og hluta F og (b) leiðarskjalið fyrir afurð G og hluta F.
 
-![Afurð G og hluti F með leiðarskjölum](media/product-G-part-F-with-route-sheet.png)
+![Afurð G og hluti F með leiðarskjölum.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

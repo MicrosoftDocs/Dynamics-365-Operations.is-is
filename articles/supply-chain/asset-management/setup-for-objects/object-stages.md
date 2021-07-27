@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360102"
 ---
 # <a name="asset-lifecycle-states"></a>Lífferilsstöður eigna
 
@@ -61,9 +61,9 @@ Eftir að þú hefur búið til tilskildar líftímastöður eigna geturðu sett
 
 5. Á flýtiflipanum **Líftímastöður** velurðu þær líftímastöður eigna sem ætti að vera með í líftímalíkani eigna:
 
-    - Til að nota líftímastöðu fyrir líkanið skaltu velja það í **Eftirstandandi líftímastöður** kafla og veldu síðan hægri örvarhnappinn ![Hægri ör](media/15-setup-for-objects.png) til að færa það til **Valdar líftímastöður**.
-    - Til að nota allar tiltækar líftímastöður fyrir líkanið velurðu hnappinn **Allar tiltækar líftímastöður** ![Allar tiltækar líftímastöður](media/20-setup-for-objects.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
-    - Til að fjarlægja líftímastöðu úr líkani skaltu velja það í **valdar líftímastöður** kafla og veldu síðan vinstri örvarhnappinn ![Vinstri ör](media/16-setup-for-objects.png) til að færa það til **Eftirstandandi líftímastöður**.
+    - Til að nota líftímastöðu fyrir líkanið skal velja það í hlutanum **Eftirstöðvar líftímastaða** og síðan velja hægri örvarhnappinn ![Hægri ör.](media/15-setup-for-objects.png) til að færa það í hlutann **Valdar líftímastöður**.
+    - Til að nota allar tiltækar líftímastöður fyrir líkanið skal velja hnappinn **Allar tiltækar líftímastöður** ![Allar tiltækar líftímastöður](media/20-setup-for-objects.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
+    - Til að fjarlægja líftímastöðu úr líkaninu skal velja hana í hlutanum **Líftímastöður valdar** og síðan velja vinstri örvarhnappinn ![Vinstri ör.](media/16-setup-for-objects.png) til að færa það í hlutann **Eftirstandandi líftímastöður**.
 
 6. Veldu **Uppfærslur á líftímastöðu** til að skilgreina líftímastöður eignar sem geta fylgt valinni líftímastöðu.
 7. Þú notar flýtiflipann **Eignarstaða** ef þú annast eignir sem þú færð til viðgerðar. Í hlutanum **Innleið/útleið**, getur þú valið líftímastöður eigna til að gefa til kynna verkflæði eignar sem þú færð til viðgerðar. Ef þú býður upp á eignir til viðskiptavina eða deilda, í **Lán** kafla, getur þú valið líftímastöðu fyrir lánaeignir.

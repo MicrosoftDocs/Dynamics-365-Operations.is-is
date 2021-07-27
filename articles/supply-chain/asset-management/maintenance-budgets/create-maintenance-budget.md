@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836759"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361187"
 ---
 # <a name="create-maintenance-budgets"></a>Stofna fjárhagsáætlanir viðhalds
 
@@ -50,7 +50,7 @@ Fjárhagsáætlanir viðhalds eru byggðar á kostnaðargerðum sem notaðar eru
     > [!NOTE]
     > Þegar þú hefur samþykkt fjárhagsáætlun viðhalds geturðu ekki endurútreiknað eða aðlagað tengdar línur á síðunni **Fjárhagsáætlunarlínur viðhalds** nema að þú fjarlægir samþykkið fyrst. Til að fjarlægja samþykki á fjárhagsáætlun viðhalds skaltu velja hana á síðunni **Fjárhagsáætlanir viðhalds** og velja síðan **Samþykkja**. Síðan, í valmyndinni **Samþykkja fjárhagsáætlun** skaltu velja **Í lagi**.
 
-![Fjárhagsáætlanir viðhalds](media/01-maintenance-budgets.png)
+![Fjárhagsáætlanir viðhalds.](media/01-maintenance-budgets.png)
 
 Einnig er hægt að stofna nýja fjárhagsáætlun viðhalds með því að afrita fyrirliggjandi fjárhagsáætlun. Á síðunni **Fjárhagsáætlanir viðhalds** velurðu fjárhagsáætlun til að afrita og síðan **Afrita**. Þessi aðferð er gagnleg ef þú hefur til dæmis búið til fjárhagsáætlun í einn mánuð og vilt afrita hana á aðra mánuði.
 

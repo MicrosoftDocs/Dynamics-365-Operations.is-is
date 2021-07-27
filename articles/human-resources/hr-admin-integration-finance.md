@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360641"
 ---
 # <a name="configure-integration-with-finance"></a>Skilgreina samþættingu við Finance
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055125"
 
 Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
 
-![Samþættingarflæði Human Resources til Finance](./media/hr-admin-integration-finance-flow.png)
+![Samþættingarferli Human Resources til Finance.](./media/hr-admin-integration-finance-flow.png)
 
 Lausn Human Resources til Finance veitir eftirfarandi tegundir samstillingar gagna:
 
@@ -253,6 +253,6 @@ Staðarauðkenni sem notað er fyrir heimilisfang starfsmanns er ekki hluti af n
 
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþáttara. 
 
-![Vörpun sniðmáts](./media/IntegrationMapping.png)
+![Vörpun sniðmáts.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

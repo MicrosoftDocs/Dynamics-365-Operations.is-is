@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0ea0fc8d50c25312b184ec1d3bd613695870d121
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2d098f323d58bf3233a83655b213afe131ae3f36
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792560"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349281"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Kynna afbrigði og ljúka tilraun
 
 Þetta efnisatriði lýsir því hvernig á að koma afbrigðum á framfæri sem skiluðu bestum árangri í tilrauninni og hvernig á að ljúka við tilraunina. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum.
 
-[ ![Ferli tilraunanotanda - Yfirfara og ljúka](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
+[ ![Tilraunaferli notanda - Yfirfara og ljúka.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
 Þegar þú hefur [keyrt tilraunina þína](experimentation-run-monitor.md) og safnað fullnægjandi gögnum til að ákveða hvaða afbrigði þú vilt nota á virka vefsvæðinu þínu, munt þú koma afbrigðinu á framfæri og ljúka við tilraunina.
 

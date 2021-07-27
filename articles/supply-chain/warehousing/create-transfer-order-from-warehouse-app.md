@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164847"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343626"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Stofna flutningspantanir úr vöruhúsaforriti
 
@@ -95,7 +95,7 @@ Til að vinna í gegnum þetta dæmi með því að nota ráðlögð gildi, þar
 
 Þú ert smásali og ert með margar númeraplötur, sem hver inniheldur blöndu af vörum sem eru staðsettar á tiltekinni staðsetningu í einu af vöruhúsunum þínum (*Vöruhús 51*). Þig langar til að virkja ferlið sem gerir starfsmönnum kleift að stofna flutningspöntun á annað vöruhús (*Vöruhús 61*) fyrir safn af skönnuðum númeraplötum. Þú munt sjálfkrafa uppfæra sendingu flutningspöntunarinnar um leið og síðasta númeraplata pöntunarinnar hefur verið auðkennd.
 
-![Dæmi um sjálfvirkt flutningspöntunarferli](media/create-transfer-order-from-app-example.png "Dæmi um sjálfvirkt flutningspöntunarferli")
+![Dæmi um sjálfvirkt flutningspöntunarferli.](media/create-transfer-order-from-app-example.png "Dæmi um sjálfvirkt flutningspöntunarferli")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Stofna valmyndaratriði fartækis til að stofna flutningspantanir
 

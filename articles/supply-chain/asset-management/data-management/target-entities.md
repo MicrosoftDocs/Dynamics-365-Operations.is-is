@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838635"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346179"
 ---
 # <a name="target-entities"></a>Markeiningar
 
@@ -34,13 +34,13 @@ ms.locfileid: "5838635"
 
 2. Í hlutanum **Innflutningur / útflutningur** skaltu smella á **Gagnaeiningar**. 
 
-    ![Mynd 1](media/01-data-management.png)
+    ![Mynd 1.](media/01-data-management.png)
 
 3. Á síðunni **Markeiningar** skaltu leita að "eignastýringu" í síunni og ýta á Enter til að sjá lista yfir þá aðila sem tengjast eignastýringu.
 
     Myndin hér að neðan sýnir nokkrar af eignastýringareiningunum.
 
-   ![Mynd 2](media/02-data-management.png)
+   ![Mynd 2.](media/02-data-management.png)
 
 4. Veldu aðila og smelltu á **Breyta markvörpun**.
 
@@ -48,7 +48,7 @@ ms.locfileid: "5838635"
 
     Á myndinni hér að neðan er birting á reitum sem tengjast eignategundunum.
 
-    ![Mynd 3](media/03-data-management.png)
+    ![Mynd 3.](media/03-data-management.png)
 
 
 

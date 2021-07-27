@@ -2,7 +2,7 @@
 title: Myndspilaraeining
 description: Þetta efni fjallar um myndspilaraeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797408"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479281"
 ---
 # <a name="video-player-module"></a>Myndspilaraeining
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um myndspilaraeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ Myndbandsspilaeiningin styður einnig aðrar hljóðrásir. Þegar myndskeiði e
 
 Eftirfarandi mynd sýnir dæmi um myndspilaraeiningu á heimasíðu.
 
-![Dæmi um myndspilaraeiningu](./media/ecommerce-videoplayer.PNG)
+![Dæmi um myndspilaraeiningu.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Eiginleikar myndspilaraeiningar
 
 | Nafn eiginleika         | Virði                               | lýsing |
 |-----------------------|-------------------------------------|-------------|
+| Haus               | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina, en breyta má merkinu til að uppfylla kröfur um aðgengi. |
+| Sniðinn texti             | Texti efnisgreinar | Einingin styður málsgreinatexta með ríku textasniði. Stuðningur er við nokkra grunntextaeiginleika, eins og tengla og feitletrun, undirstrikun og skáletrun texta. Sumum af þessum eiginleikum er hægt að hnekkja með síðuþema sem er beitt á eininguna. |
+| Tengill                  | Tenglatexti, vefslóð tengils, ARIA-merki (Accessible Rich Internet Applications) og valið **Opnaðu hlekk í nýjum flipa** | Einingin styður einn eða fleiri „kalla til aðgerða“ tengla. Ef tengli er bætt við þarf tenglatexta, vefslóð og ARIA-merki. ARIA-merki ættu að vera lýsandi til að uppfylla kröfur um aðgengi. Hægt er að stilla tengla þannig að þeir séu opnaðir á nýjum flipa. |
+| Texti efnis              | Fyrirsögn, texti eða tenglar | Hægt er að bæta við öðru samhengi fyrir myndspilaraeininguna, svo sem nafni höfundar eða hönnuðar eða tenglum á persónuleg blogg. |
 | Sjálfvirk spilun             | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er myndskeiðið sjálfkrafa spilað. |
 | Þagga                  | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er skrúfað fyrir hljóðið. Fyrir þennan spilara er sjálfgildið **Ósatt**. Í Chrome-vafranum er sjálfvirk spilun myndskeiða sjálfgefið þögguð og hljóðið er aðeins spilað ef notandinn spilar myndbandið handvirkt. |
 | Lykkja                  | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er myndskeiðið endurtekið í lúppu. |
@@ -58,6 +63,9 @@ Eftirfarandi mynd sýnir dæmi um myndspilaraeiningu á heimasíðu.
 | Stýringar myndspilara | **Satt** eða **Ósatt**               | Þegar gildið er stillt á **Satt** eru öll stjórntæki myndbandsspilarans sýnd. Þessar stjórntæki fela í sér spilunar- og hléhnappa, framvinduvísir og valkosti fyir lokaða myndatexta. |
 | Fela forsíðumynd     | **Satt** eða **Ósatt**               | Myndskeið getur verið með plakatramma. Þegar gildið þessa eiginleika er stillt á **Satt** er plakatramminn falinn. |
 | Sniðmátsstig            | Tölugildi frá **0** til og með **100** | Sniðmátið sem er beitt á myndskeiðið til útlitshönnun. |
+
+> [!IMPORTANT]
+> Eiginleikarnir **Fyrirsögn**, **Ríkur texti**, **Tengill** og **Undirtexti** eru í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Bæta við myndspilaraeiningu á síðu
 

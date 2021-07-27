@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357643"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð 
 
@@ -55,7 +55,7 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
 1. [Keyra innflutt snið](er-defer-xml-element.md#run-the-imported-format).
 2. Takið eftir að stærð myndaða skjalsins á XML-sniði er 3 KB.
 
-    ![Forskoðun á ósamþjöppuðu skjali á útleið](./media/er-compress-outbound-files1.png)
+    ![Forskoðun á ósamþjöppuðu skjali á útleið.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Breyta sniðinu til að þjappa mynduðu úttaki
 
@@ -80,7 +80,7 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
     > [!NOTE] 
     > Þjöppunarhlutfall XML-skrárinnar sem þessi zip-skrá inniheldur er 87 prósent. Þjöppunarhlutfallið veltur á gögnunum sem verið er að þjappa.
 
-    ![Forskoðun á þjöppuðu skjali á útleið](./media/er-compress-outbound-files2.png)
+    ![Forskoðun á þjöppuðu skjali á útleið.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Ef [endastaður](electronic-reporting-destinations.md) rafrænnar skýrslugerðar fyrir sniðseininguna sem myndar úttak (einingin **Skýrsla** í þessu dæmi), verður þjöppun úttaksins sleppt.

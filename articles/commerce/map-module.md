@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344075"
 ---
 # <a name="map-module"></a>Kortaeining
 
@@ -38,13 +38,13 @@ Kortaeining vinnur með verslunarvalseiningunni til að ákvarða landfræðileg
 
 Eftirfarandi mynd sýnir dæmi um kortaeiningu sem er notuð á staðsetningarsíðu verslunar.
 
-![Dæmi um verslunarvalseiningu](./media/ecommerce-Storelocator.PNG)
+![Dæmi um verslunarvalseiningu.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
 | Nafn eiginleika             | Virði                 | lýsing |
 |---------------------------|-----------------------|-------------|
-| Yfirskrift | Texti | Fyrirsögn einingarinnar. |
+| Haus | Texti | Fyrirsögn einingarinnar. |
 | Valkostir teiknibólu: Sjálfgefið tákn | Mynd | Myndatákn teiknibólunnar sem er notaðfyrir verslanir sem sjást á korti. |
 | Valkostir teiknibólu: Virkt tákn | Mynd | Myndatákn teiknibólunnar sem er notað fyrir verslun sem er valin á korti. |
 | Valkostir teiknibólu: Sjálfgefinn litur tákns | Stafastrengur | Textinn eða sextándakerfisgildið fyrir litinn á teiknibólutákni á korti. |

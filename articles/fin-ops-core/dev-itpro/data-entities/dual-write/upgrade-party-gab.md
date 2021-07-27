@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112674"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346547"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -89,7 +89,7 @@ Eftirfarandi aðgerðir eru nauðsynlegar til að undirbúa uppfærsluna:
 
 10. Eftir uppsetningu skal staðfesta gagnasöfnin, gagnaflæðið og tengda þjónustu gagnasmiðjunnar.
 
-   ![Gagnasafn, gagnaflæði og tengd þjónusta](media/data-factory-validate.png)
+   ![Gagnasafn, gagnaflæði og tengd þjónusta.](media/data-factory-validate.png)
 
 11. Farið í **Stjórna**. Undir **Tengingar** skal velja **Tengd þjónusta**. Veljið **DynamicsCrmLinkedService**. Á skjámyndinni **Breyta tengdri þjónustu (Dynamics CRM)** skal færa inn eftirfarandi gildi.
 
@@ -154,7 +154,7 @@ Eftirfarandi aðgerðir eru nauðsynlegar til að undirbúa uppfærsluna:
 
 7. Í gagnasmiðjunni skal keyra sniðmátið með því að velja **Ræsa núna** eins og sýnt er á eftirfarandi mynd. Þetta ferli gæti tekið nokkrar klukkustundir að ljúka allt eftir því hvert gagnamagnið er.
 
-    ![Setja keyrslu af stað](media/data-factory-trigger.png)
+    ![Setja keyrslu af stað.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Ef sérstillingar eru fyrir hendi fyrir **Reikning**, **Tengilið** og **Lánardrottin**, þá þarf að breyta sniðmátinu.
@@ -164,7 +164,7 @@ Eftirfarandi aðgerðir eru nauðsynlegar til að undirbúa uppfærsluna:
     + Sækið `FONewParty.csv`-skrána úr Azure Blob geymslu. Slóðin er `partybootstrapping/output/FONewParty.csv`.
     + Umbreytið `FONewParty.csv`-skránni í Excel-skrá og flytjið Excel-skrána inn í Finance and Operations-forritið. Ef csv-innflutningurinn virkar fyrir þig, þá geturðu flutt csv-skrána beint inn. Innflutningurinn gæti tekið nokkrar klukkustundir að keyra, en það fer allt eftir gagnamagninu. Frekari upplýsingar er að finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../data-import-export-job.md).
 
-    ![Flytja inn Datavers-aðilafærslur](media/data-factory-import-party.png)
+    ![Flytja inn Datavers-aðilafærslur.](media/data-factory-import-party.png)
 
 9. Í forritum viðskiptavinar skal kveikja á eftirfarandi viðbótarskrefum:
 
@@ -199,7 +199,7 @@ Eftirfarandi aðgerðir eru nauðsynlegar til að undirbúa uppfærsluna:
 3. Gagnasmiðjan keyrir samkvæmt csv-skránum sem eru afmarkaðar með kommu. Ef reitargildi er með kommu getur það haft áhrif á niðurstöðurnar. Fjarlægja þarf kommurnar.
 4. Flipinn **Eftirlit** veitir upplýsingar um öll skref og afgreidd gögn. Veljið tiltekið skref til að kemba þau.
 
-    ![Eftirlitsflipi](media/data-factory-monitor.png)
+    ![Eftirlitsflipi.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Frekari upplýsingar um sniðmátið
 
