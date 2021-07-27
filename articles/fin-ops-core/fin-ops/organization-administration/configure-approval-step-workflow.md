@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350695"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Grunnstilla samþykktarskref í verkflæði
 
@@ -156,7 +156,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
 
     - **Stakur samþykktaraðili** - aðgerðin fyrir skjalið ákveðin af fyrsta aðilanum sem bregst við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja er sú fyrsta sem bregst við skjalinu þá er hennar aðgerð notuð fyrir skjalið. Ef Brynja hafnar skjalinu þá er því hafnað og sent tilbaka til Samúels. Þegar Brynja samþykkir skjalið er það sent til Önnu til samþykktar.
 
-        ![Verkflæði sem er með samþykktarferli](./media/workflow_multipleusersinstep.gif)
+        ![Verkflæði sem er með samþykktarferli.](./media/workflow_multipleusersinstep.gif)
 
     - **Meirihluti samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar flestir af samþykktaraðilum bregðast við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið.
 

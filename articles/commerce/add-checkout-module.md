@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347591"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
@@ -33,7 +33,7 @@ Greiðsluferliseining er sérstakur gámur sem hýsir allar einingar sem þarf t
 
 Eftirfarandi mynd sýnir dæmi um greiðsluferliseiningu Fabrikam á greiðsluferlissíðu.
 
-![Dæmi um greiðsluferliseiningu](./media/Checkout.PNG)
+![Dæmi um greiðsluferliseiningu.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Eiginleikar greiðsluferliseiningar
 
@@ -52,13 +52,13 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um sendingaraðseturseiningu á greiðsluferlissíðu.
 
-    ![Dæmi um sendingaraðseturseiningu](./media/ecommerce-shippingaddress.PNG)
+    ![Dæmi um sendingaraðseturseiningu.](./media/ecommerce-shippingaddress.PNG)
 
 - **Afhendingarvalkostir** – Þessi eining gerir viðskiptavini kleift að velja afhendingarmáta fyrir pöntun. Frekari upplýsingar um þessa einingu er að finna í [Eining afhendingarvalkosta](delivery-options-module.md).
 
     Eftirfarandi mynd sýnir dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.
  
-    ![Dæmi um einingu afhendingarvalkosts](./media/ecommerce-deliveryoptions.PNG)
+    ![Dæmi um einingu afhendingarvalkosts.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Gámur í greiðsluferlishlutanum** - Þessi eining er gámur sem þú getur sett margar einingar í til að stofna hluta innan greiðsluferlisflæðisins. Til dæmis er hægt að setja allar greiðslutengdar einingar í þennan gám til að láta þær birtast sem einn hluta. Þessi eining hefur aðeins áhrif á skipulag flæðisins.
 
@@ -70,7 +70,7 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu.
 
-    ![Dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu](./media/ecommerce-payments.PNG)
+    ![Dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu.](./media/ecommerce-payments.PNG)
 
 - **Upplýsingar um tengiliði** - Þessi eining gerir viðskiptavini kleift að bæta við eða breyta tengiliðaupplýsingum (netfangi) fyrir pöntun.
 
@@ -80,7 +80,7 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um skilmála á greiðsluferlissíðu.
 
-    ![Dæmi um skilmála á greiðsluferlissíðu](./media/ecommerce-checkout-terms.PNG)
+    ![Dæmi um skilmála á greiðsluferlissíðu.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 

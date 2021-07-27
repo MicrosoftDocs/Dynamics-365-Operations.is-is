@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022473"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353013"
 ---
 # <a name="e-commerce-site-overview"></a>Yfirlit yfir svæði fyrir rafræn viðskipti
 
@@ -47,7 +47,7 @@ Við ræsingu á svæði fyrir rafræn viðskipti er beðið um lénsheiti. Frek
 
 Þegar þú ræsir Commerce Site Builder í LCS birtist vefsíðan **Svæði** um leið. Á þessari síðu birtast tvö forstillt vefsvæði, **sjálfgefið** og **Fabrikam** eins og sýnt er í dæminu á skýringarmyndinni hér á eftir.
 
-![Svæðasíða í Commerce Site Builder](media/e-commerce-site-01.png)
+![Svæðasíða í Commerce Site Builder.](media/e-commerce-site-01.png)
 
 Þegar eitt af þessum svæðum er valið er beðið um að velja lénsheiti, sjálfgefna netverslunarrás, studd tungumál fyrir valda rás og vefslóð. Hægt er að hafa vefslóðina auða ef aðeins ein rás er notuð. Hægt er að skilgreina fleiri netverslunarrásir eða tungumál síðar í Commerce Site Builder. Hver viðbótarleið eða tungumál mun krefjast einkvæmrar slóðar. Til dæmis eru netrásir tengdar við eitt svæði og lénsheitið fyrir svæðið er `www.fabrikam.com`. Í slíku tilviki getur vefslóð einnar rásarinnar verið sjálfgefna gildið sem hefur enga vefslóð (`https://www.fabrikam.com`) og seinni rásina er hægt að stilla á nýja vefslóð eins og **site2** með vefslóðina `https://www.fabrikam.com/site2`. Á eftirfarandi skýringarmynd er sýnt dæmi um svarglugga ræsingar vefsvæðis í Commerce Site Builder.
 
@@ -57,17 +57,17 @@ Síðan **Svæði** inniheldur einnig hnappinn **Nýtt vefsvæði**. Svargluggin
 
 Eftir að nýtt svæði er frumstillt opnast **Heimasíða** Commerce Page Builder. Þessi síða innheldur tengla á algengar aðgerðir og leiðbeiningar eins og kemur fram í dæminu á skýringarmyndinni hér á eftir.
 
-![Tenglar á heimasíðu í Commerce Site Builder](media/e-commerce-site-03.png)
+![Tenglar á heimasíðu í Commerce Site Builder.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Breyta netverslunarrásum eða bæta netverslunarrásum við vefsvæði í e-Commerce
 
 Þegar búið er að stofna svæði fyrir rafræn viðskipti er hægt að breyta rásinni sem henni tengist með því að fylgja eftirfarandi skrefum í [Tengja svæði rafrænna viðskipta við netrás](associate-site-online-store.md). Dæmið sem kemur fram á skýringarmyndinni hér á eftir sýnir hvernig hægt er að breyta númeri sjálfgefinnar rásar rekstrareiningar (OUN) á síðunni **Rás** (**Stillingar vefsvæðis \> Rásir**). Þegar búið er að gera breytingu skal ganga úr skugga um að velja **Vista og birta**. Á þennan hátt er tryggt að breytingin birtist.
 
-![Rásarsíða í Commerce Site Builder](media/e-commerce-site-04.png)
+![Rásarsíða í Commerce Site Builder.](media/e-commerce-site-04.png)
 
 Hægt er að bæta við nýjum rásum með því að velja **Bæta við rás**. Til að bæta nýjum tungumálum við rásina skal velja rásina og síðan velja **Bæta við stað** í svarglugganum sem birtist. Áður en staðir geta birst í svarglugganum verða þeir að vera forskilgreindir fyrir netverslunarrásina í Commerce Headquarters.
 
-![Svargluggi rásar í Commerce Site Builder](media/e-commerce-site-05.png)
+![Svargluggi rásar í Commerce Site Builder.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Setja upp Azure B2C-leigjanda
 

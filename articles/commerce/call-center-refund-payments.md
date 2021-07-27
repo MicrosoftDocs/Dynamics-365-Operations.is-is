@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799590"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351370"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Úrvinnsla endurgreiðslu í símaverum
 
@@ -37,7 +37,7 @@ Símaverið notar greiðslumáta upprunalegrar pöntunar til að ákvarða grei�
 
     Eftirfarandi mynd sýnir skilgreininguna fyrir aðstæður þar sem viðskiptavinur skilar afurðum úr sölupöntun sem er tengd við Bandaríkjadal og sem var upphaflega greidd með því að nota venjulegu greiðslugerðina eða ávísun. Í þessum aðstæðum fær viðskiptavinur endurgreitt í gegnum kerfismyndaða endurgreiðsluávísun. Greiðslumátinn **REF-CHK** fyrir viðskiptakröfur hefur verið skilgreindur sem greiðslugerð endurgreiðsluávísunar.
 
-    ![Skilgreining endurgreiðslumáta símavers fyrir upprunalegar greiðslur sem voru venjulegar eða með ávísun](media/callcenterrefundmethods.png)
+    ![Skilgreining endurgreiðslumáta símavers fyrir upprunalegar greiðslur sem voru venjulegar eða með ávísun.](media/callcenterrefundmethods.png)
 
 - **Kreditkort** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með kreditkorti, notar regla símavers um endurgreiðslur sama upprunalega kreditkortið á skilapöntunina.
 - **Vildarkort** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með vildarkorti viðskiptavinar, notar regla símavers um endurgreiðslur sama vildarkortið fyrir endurgreiðsluna.
@@ -48,7 +48,7 @@ Ef greiðslugerð upprunalegrar pöntunar er óþekkt af einhverri ástæðu, e�
 
 Eftirfarandi mynd sýnir reitinn **Greiðslumáti** í flipanum **Vöruskilaheimild/skil** á síðunni **Færibreytur símavers**.
 
-![Reitur greiðslumáta í flipa vöruskilaheimildar/skila á færibreytusíðu símavers](media/callcenterrefundparameters.png)
+![Reitur greiðslumáta í flipa vöruskilaheimildar/skila á færibreytusíðu símavers.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Reglur um úrvinnslu endurgreiðslu sem lýst var hér á undan eiga einnig við um pantanir eða pöntunarlínur sem notandi símavers hættir við í Commerce Headquarters. Ef afturköllun pöntunar eða tiltekinna pöntunarlína veldur ofgreiðslum, verða sömu reglur notaðar til að búa til endurgreiðslulínur.
@@ -82,7 +82,7 @@ Stillingin **Já** fyrir valkostinn **Nota kredit** er aðeins í boði þegar s
 > [!NOTE]
 > Fyrir skilapöntun sem er ekki með tengda skiptipöntun mun stilling á **Já** fyrir valkostinn **Nota kredit** ekki hafa nein áhrif á greiðslureglu skilapöntunar vegna þess að þessi stilling á aðeins við um skiptipantanir.
 
-![Nota reit kreditgreiðsluaðferðar í flipa vöruskilaheimildar/skila á færibreytusíðu símavers](media/callcenterrefundparameters1.png)
+![Nota reit kreditgreiðsluaðferðar í flipa vöruskilaheimildar/skila á færibreytusíðu símavers.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Ef notendur sem stofna áætlun skiptipantana til að nota valkostinn **Nota kredit**, ættu þeir ekki að keyra aðgerðina **Ljúka** fyrir skilapöntunina fyrr en þeir stilla valkostinn **Nota kredit** á **Já**. Þegar aðgerðin **Ljúka** er keyrð, er endurgreiðslan reiknuð út og notuð í skilasölupöntuninni. Allar tilraunir til að stilla valkostinn **Nota kredit** á **Já** þegar útreikningur og notkun endurgreiðslu setur ekki af stað endurútreikning endurgreiðslunnar og greiðslumátinn sem er valinn í reitnum **Nota kreditgreiðsluaðferð** verður ekki notaður. Ef nota þarf valkostinn **Nota kredit** í þessu samhengi, verður notandinn að eyða skiptipöntuninni og vöruskilaheimildinni og byrja síðan upp á nýtt og stofna nýja vöruskilaheimild. Að þessu sinni þarf notandinn að ganga úr skugga um að valkosturinn **Nota kredit** sé stilltur á **Já** áður en aðgerðin **Ljúka** er keyrð.
@@ -91,14 +91,14 @@ Stillingin **Já** fyrir valkostinn **Nota kredit** er aðeins í boði þegar s
 
 Þó svo að regla símavers ákvarðar á kerfisbundinn hátt greiðslumáta endurgreiðslu eins og lýst er fyrr í þessu efnisatriði, gætu notendur stundum viljað hnekkja þessum greiðslum. Til dæmis gæti notandi breytt eða fjarlægt fyrirliggjandi endurgreiðslulínur og sett inn nýjar greiðslulínur. Aðeins notandi, sem er með réttar hnekkingarheimildir, getur breytt endurgreiðslum sem kerfið reiknar út. Þessar heimildir geta verið skilgreindar á síðunni **Hnekkingarheimildir** í Smásala og viðskipti. Til að hnekkja endurgreiðslu verður notandinn að vera tengdur við öryggishlutverk þar sem valkosturinn **Leyfa aðra greiðslu** er stilltur á **Já** á síðunni **Hnekkingarheimildir**.
 
-![Leyfa annan greiðslukost á síðu hnekkingarheimilda](media/overridepermissions.png)
+![Leyfa annan greiðslukost á síðu hnekkingarheimilda.](media/overridepermissions.png)
 
 Annars getur fyrirtækið stillt valkostinn **Leyfa að hnekkja greiðslu** á **Já** í flipanum **Vöruskilaheimild/skil** á síðunni **Færibreytur símavers**. Í þessu tilfelli verður að velja hnekkingarkóða öryggis í reitnum **Hnekkingarkóði öryggis**. Hnekkingarkóði öryggis er kóði úr bók- og tölustöfum sem þarf að stýra utan frá vegna þess að notendur geta ekki skoðað hann í Commerce Headquarters þegar hann hefur verið stilltur. Hnekkingarkóði öryggis á aðeins að vera á vitorði fárra traustra lykilstarfsmanna í fyrirtæki. Þegar valkosturinn **Leyfa að hnekkja greiðslu** er stilltur á **Já**, ef einhverjir notendur sem ekki eru með réttar hlutverkaheimildir reyna að breyta greiðslumáta skilapöntunar, munu þeir hafa möguleikann á því að slá inn hnekkingarkóða öryggis. Ef þeir vita hann ekki, eða ef yfirmaður eða umsjónaraðili geta ekki slegið hann inn á tilheyrandi síðu, verður ekki hægt að hnekkja greiðslumáta endurgreiðslunnar.
 
 > [!NOTE]
 > Ef hnekkingarkóði öryggis er týndur eða gleymdur þarf fyrirtækið að endurstilla hann með því að skilgreina nýjan hnekkingarkóða öryggis í reitnum **Hnekkingarkóði öryggis** í flipanum **Vöruskilaheimild/skil** á síðunni **Færibreytur símavers**.
 
-![Færibreytur fyrir hnekkingu greiðslumáta í flipa vöruskilaheimildar/skila á færibreytusíðu símavers](media/overridepaymentparameter.png)
+![Færibreytur fyrir hnekkingu greiðslumáta í flipa vöruskilaheimildar/skila á færibreytusíðu símavers.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Áður en fyrirtæki reyna að hnekkja endurgreiðslum sem nota kreditkort sem greiðslugerð, ættu þau að ganga úr skugga um að þjónustuaðili kreditkorta leyfi ótengd skil. Margir þjónustuaðilar krefjast þess að endurgreiðslur verði bókaðar aftur á upprunalegt kort. Allar tilraunir til að gefa út endurgreiðslu á kort sem ekki er með fyrri úthlutanir getur valdið villum við bókun hjá þjónustuaðilanum.

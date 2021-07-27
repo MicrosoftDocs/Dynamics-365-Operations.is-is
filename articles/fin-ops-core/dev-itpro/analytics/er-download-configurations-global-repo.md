@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351747"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu
 
@@ -40,7 +40,7 @@ ms.locfileid: "5893981"
 3. Í **veitandi skilgreininga** hlutanum, veljið gluggareitinn **Microsoft**
 3. Í reitnum **Microsoft** skal velja **Geymslur**.
 
-    ![Vinnusvæði rafrænnar skýrslugerðar](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Vinnusvæði rafrænnar skýrslugerðar.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Á síðunni **Gagnageymslur skilgreininga**, í hnitanetinu, skal velja fyrirliggjandi gagnageymslu af gerðinni **LCS**. Ef þessi gagnasafn birtist ekki í hnitanetinu skal fylgja þessum skrefum:
 
@@ -52,7 +52,7 @@ ms.locfileid: "5893981"
 
 5. Smellið á **Opna** til að skoða lista yfir skilgreiningar rafrænnar skýrslugerðar fyrir valda gagnageymslu.
 
-    ![Gagnageymslusíða skilgreininga](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Gagnageymslusíða skilgreininga.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Flytja inn eina skilgreiningu
 
@@ -63,7 +63,7 @@ ms.locfileid: "5893981"
     > [!NOTE]
     > Hnappurinn **Flytja inn** er ekki tiltækur fyrir útgáfur skilgreininga rafrænnar skýrslugerðar sem þegar eru til staðar í núverandi fjármálatilviki.
 
-    ![Síðan Skilgreiningagagnasafn](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Gagnageymslusíða skilgreiningar.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Flytja inn síaðar skilgreiningar
 
@@ -77,7 +77,7 @@ ms.locfileid: "5893981"
 4. Í flýtiflipanum **Skilgreiningar** skal velja **Flytja inn** til að sækja síaðar skilgreiningar úr altæku geymslunni í núverandi tilvik.
 5. Í flýtiflipanum **Skilgreiningar** skal velja **Endurstilla síu** til að hreinsa tilgreind skilyrði vals.
 
-    ![Síðan Skilgreiningagagnasafn](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Gagnageymslusíða skilgreiningar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Það fer eftir stillingum rafrænnar skýrslugerðar hvernig skilgreiningar eru villuleitaðar eftir að þær eru fluttar inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Áður en hægt er að nota innflutta útgáfu skilgreingar þarf að leysa úr vandamálunum. Frekari upplýsingar er að finna í lista yfir tengd tilföng í þessu efnisatriði.

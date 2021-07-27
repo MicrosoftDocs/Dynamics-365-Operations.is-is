@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791703"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354566"
 ---
 # <a name="configure-task-management"></a>Skilgreina verkstjórnun
 
@@ -44,7 +44,7 @@ Fylgdu þessum skrefum til að stilla verkefnastjórnunarheimildir fyrir verslun
 
 Eftirfarandi skýringarmynd sýnir hvernig á að stilla verkefnastjórnunarheimildir fyrir verslunarstjóra.
 
-![Stilling verkefnastjórnunarheimilda fyrir verslunarstjóra](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Stilling verkefnastjórnunarheimilda fyrir verslunarstjóra.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Stilla heimildir fyrir starfsmenn
 
@@ -78,7 +78,7 @@ Til að skilgreina POS-tilkynningar fyrir verk skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir aðgerðina **Verkefnisstjórn** á síðunni **POS aðgerðir**.
 
-![Aðgerðastjórnunaraðgerð á POS aðgerðarsíðunni](media/HQ-POS-Tasks-Notifications.png)
+![Aðgerð verkstjórnunar á aðgerðasíðu sölustaðar.](media/HQ-POS-Tasks-Notifications.png)
 
 Nánari upplýsingar um hvernig á að stilla POS tilkynningar, sjá [Sýna pöntunartilkynningar í sölustað (POS)](notifications-pos.md).
 
@@ -95,11 +95,11 @@ Til að stilla reitinn **Verk** á heimasíðu POS forrita fylgirðu þessum skr
 
 Eftirfarandi mynd sýnir dæmi um reitinn **Verk** á heimasíðu POS.
 
-![Verkreitur á POS heimasíðu](media/POS-home-screen-tasks-button-image.png)
+![Verkreitur á heimasíðu sölustaðar.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit verkefnastjórnunar](task-mgmt-overview.md)
+[Yfirlit verkstjórnunar](task-mgmt-overview.md)
 
 [Búa til verkefnalista og bæta við verkum](task-mgmt-create-lists.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345865"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
 
@@ -57,7 +57,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 
 Grunnlínugildinu hefur verið bætt við fyrir valið snið **Snið til að læra ER-grunnlínur** en reglum grunnlína hefur ekki enn verið bætt við fyrir þessa grunnlínu.
 
-![Síða grunnlína rafræns skýrslugerðarsniðs. engar reglur enn sem komið er](media/GER-BaselineSample-AddBaseline2.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
+![Síða grunnlína rafræns skýrslugerðarsniðs, engar reglur enn sem komið er.](media/GER-BaselineSample-AddBaseline2.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 ### <a name="make-a-new-baseline-rule"></a>Gera nýja grunnlínureglu
 
@@ -70,7 +70,7 @@ Grunnlínugildinu hefur verið bætt við fyrir valið snið **Snið til að læ
 7. Veljið **Í lagi**.
 8. Veldu **Grunnlínur**.
 
-    ![Síður grunnlína rafræns skýrslugerðarsniðs, grunnlínur valdar](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
+    ![Síður grunnlína rafræns skýrslugerðarsniðs, grunnlínur valdar.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
     Mynduð skrá á útleið hefur verið sjálfvirkt tengd við grunnlínu framkvæmds ER-sniðs. Grunnlínureglunni hefur verið sjálfkrafa bætt við þessa grunnlínu og inniheldur einnig tilvísun í viðhengda skrá.
 
@@ -110,14 +110,14 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 13. Veldu **Vista** og síðan **Prófa**.
 14. Veldu **Prófa** aftur til að endurprófa skilgreinda segð.
 
-    ![Síðan Formúluhönnuður](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Skjámynd af síðunni Formúluhönnuður")
+    ![Síðan Formúluhönnuður.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Skjámynd af síðunni Formúluhönnuður")
 
     > [!NOTE]
     > Flipinn **Prófa niðurstöðu** sýnir að skilgreind segð skilar mismunandi dagsetningu og tíma í hvert skipti sem það er kallað.
 
 15. Lokaðu síðunni **Formúluhönnuður** og veldu síðan **Vista**.
 
-    ![Síða sniðshönnuðar](media/GER-BaselineSample-FormatMappingDesign2.PNG "Skjámynd af síðunni Sniðmátahönnuður")
+    ![Síða sniðshönnuðar.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Skjámynd af síðunni Sniðmátahönnuður")
 
 16. Lokaðu síðunni **Sniðshönnuður**.
 
@@ -128,15 +128,15 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 3. Í lista yfir grunnlínur skaltu velja grunnlínuna sem er skilgreint fyrir sniðið **Snið til að læra ER-grunnlínur**.
 4. Á flýtiflipanum **Grunnlínur** velurðu **Eyða** til að fjarlægja grunnlínuregluna sem þú hefur stillt áður.
 
-![Síða grunnlína rafræns skýrslugerðarsniðs, eytt](media/GER-BaselineSample-AddBaseline3.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
+![Síða grunnlína rafræns skýrslugerðarsniðs, eytt.](media/GER-BaselineSample-AddBaseline3.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Skilgreindu skipti fyrir bindingu á hönnuðu ER-sniði
 
 1. Á síðunni **Skilgreiningar**, á flýtiflipanum **Endurnýjanir** velurðu **Velja íhluti**.
 2. Í íhlutatré sniðmáta víkkarðu út **Úttak**, síðan **Úttak\\Skjal** og velur síðan hakreitinn fyrir **Úttak\\Skjal\\ProcessingDateTime**.
-3. Veljið **Í lagi**.
+3. Veldu **Í lagi**.
 
-![Síða grunnlína rafræns skýrslugerðarsniðs, íhlutir](media/GER-BaselineSample-AddBaseline4.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
+![Síða grunnlína rafræns skýrslugerðarsniðs, íhlutir.](media/GER-BaselineSample-AddBaseline4.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 Íhluta valins ER-sniðs hefur verið bætt við lista yfir íhluti á flýtiflipanum **Endurnýjanir**. Þegar ER-grunnsniðið er keyrt í kembiham mun bindingu sniðsins fyrir hvern íhluta verða skipt út fyrir bindinguna sem er sýnd í dálkinum **Binding**. Til að breyta sjálfgefinni bindingu fyrir íhluti sem er skráður á flýtiflipanum **Endurnýjanir** velurðu **Breyta**.
 
@@ -144,7 +144,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 
 Fylgdu leiðbeiningunum í „Dæmi: Gera skilgreiningu grunnlínureglna sjálfvirka“ sem er fyrr í þessu efni. Tilkynning varar við því að skrá á útleið hafi verið mynduð með því að nota grunnlínustillingar og að þvinguð endurnýjun á bindingum sniðs hafi átt sér stað.
 
-![Síðan Tilkynning um stillingar](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Skjámynd af tilkynningu á síðunni Skilgreiningar")
+![Tilkynning á skilgreiningasíðunni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Skjámynd af tilkynningu á síðunni Skilgreiningar")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Hindraðu viðvaranir um að endurnýjun á bindingum sniðs
 
@@ -192,11 +192,11 @@ Til að flytja út grunnstillingar skaltu á síðunni **Grunnlínusnið rafræn
 
 Til að flytja inn grunnlínustillingar úr staðbundið vistaðri XML-skrá skaltu á síðunni **Grunnlínur rafrænnar skýrslugerðar** velja **Flytja inn** og síðan **Skoða** til að velja XML-skrána.
 
-![Svarglugginn Flytja inn grunnstillingar](media/GER-BaselineSample-ImportBaseline1.PNG "Skjámynd af svarglugganum Innflutningur á grunnlínustillingum")
+![Svarglugginn Flytja inn grunnlínustillingar.](media/GER-BaselineSample-ImportBaseline1.PNG "Skjámynd af svarglugganum Innflutningur á grunnlínustillingum")
 
 Til að flytja inn grunnlínustillingar úr XML-skrá sem er geymd á Microsoft SharePoint-þjóni, byggð á núverandi skjalastjórnunarstillingum og völdum skjalategundum, skaltu á síðunni **Grunnlínur rafræns skýrslugerðarsniðs** velja **Flytja inn úr uppruna**. Veldu síðan gerð skjalsins og XML-skrána. Tilskilin skjalagerð til að fá aðgang að SharePoint-möppunni verður að vera skilgreind fyrirfram.
 
-![Flytja inn úr svarglugga uppruna](media/GER-BaselineSample-ImportBaseline2.PNG "Skjámynd af svarglugganum Innflutningur úr uppruna")
+![Svarglugginn Flytja inn úr uppruna.](media/GER-BaselineSample-ImportBaseline2.PNG "Skjámynd af svarglugganum Innflutningur úr uppruna")
 
 > [!NOTE]
 > Þú getur notað verkskráningu til að skrá skrefin til að velja nauðsynlega skjalagerð og skráarheiti í svarglugganum **Flytja inn úr uppruna**. Þannig geturðu haldið nauðsynlegum grunnlínustillingum á SharePoint-þjóninum og flutt þær síðan sjálfvirkt inn með því að spila verkskráninguna þegar þú keyrir sjálfvirk próf með því að nota Regression Suite Automation Tool.

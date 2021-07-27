@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346497"
 ---
 # <a name="integrated-vendor-master"></a>Samþætt lánardrottinssniðmát
 
@@ -39,11 +39,11 @@ Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem v
 
 Ef ekki á að geyma lánardrottnagögn í tölfunni **Lykill/tengiliður** í Dataverse geturðu notað nýju lánardrottnahönnunina.
 
-![Gagnaflæði lánardrottins](media/dual-write-vendor-data-flow.png)
+![Gagnaflæði lánardrottins.](media/dual-write-vendor-data-flow.png)
 
 Ef halda á áfram að geyma lánardrottnagögn í töflunni **Lykill/tengiliður** geturðu notað auknu lánardrottnahönnunina. Til að nota aukna lánardrottnahönnun verður þú að stilla verkflæði lánardrottins í tvískiptu lausnarpakkanum. Fyrir frekari upplýsingar, sjá [Skipta á milli lánardrottnahönnunar](vendor-switch.md).
 
-![Útvíkkað gagnaflæði lánardrottins](media/dual-write-vendor-detail.jpg)
+![Útvíkkað gagnaflæði lánardrottins.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Ef þú ert að nota Power Apps-gáttir fyrir lánardrottna með sjálfsafgreiðslu geta lánardrottnaupplýsingar streymt beint í forrit Finance and Operations.

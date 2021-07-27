@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343815"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Skattur er bókaður í rangan fjárhagslykil í fylgiskjalinu
 
@@ -30,26 +30,26 @@ Meðan á bókun stendur gæti skattur verið bókaður á rangan fjárhagslykil
 
 1. Á síðunni **Fylgiskjalafærslur** skal velja færsluna sem vinna á með og velja síðan **Bókaður virðisaukaskattur**.
 
-    [![Hnappur bókaðs virðisaukaskatts á síðunni fyrir fylgiskjalsfærslu](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Hnappur bókaðs virðisaukaskatts á síðunni fyrir fylgiskjalsfærslu.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Farið yfir gildið í reitnum **VSK-kóði**. Í þessu dæmi er það **VSK 19**.
 
-    [![Reiturinn VSK-kóði á síðunni Bókaður virðisaukaskattur](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Reiturinn VSK-kóði á síðunni Bókaður virðisaukaskattur.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Athugaðu fjárhagsbókunarflokk skattkóðans
 
 1. Farið í **Skattur** \> **Óbeinir skattar** \> **Söluskattur** \> **Söluskattflokkur**.
 2. Finndu og veldu skattkóðann og farðu síðan yfir gildið í reitnum **Fjárhagsbókunarflokkur**. Í þessu dæmi er það **VSK**.
 
-    [![Reitur fjárhagsbókunarflokks á síðu VSK-kóða](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Reitur fjárhagsbókunarflokks á síðu VSK-kóða.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. Gildið í svæðinu **Fjárhagsbókunarflokkur** er tengill. Veldu tengilinn til að skoða upplýsingar um stillingar hópsins. Einnig er hægt að velja og halda niðri (eða hægrismella) í reitnum og velja síðan **Skoða upplýsingar**.
 
-    [![Skoða upplýsingar um skipun](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Skoða upplýsingar um skipun.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. Í reitnum **Útskattur** skal staðfesta að reikningsnúmerið sé rétt samkvæmt færslugerðinni. Ef svo er ekki skal velja rétta lykilinn sem á að bóka á. Í þessu dæmi er virðisaukaskattur sölupöntunarinnar færður á virðisaukaskattslyjkil 222200.
 
-    [![Reitur útskatts á síðu fjárhagsbókunarflokks](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Reitur útskatts á síðu fjárhagsbókunarflokks.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     Í eftirfarandi töflu má finna upplýsingar um hvert svæði á síðunni **Fjárhagsbókunarflokkar**.
 
@@ -71,11 +71,11 @@ Meðan á bókun stendur gæti skattur verið bókaður á rangan fjárhagslykil
 
 1. Fyrir sölupöntun skal bæta rofstað við í aðferðunum **Tax::saveAndPost()** and **Tax::post()**. Takið eftir gildi **\_ledgerDimension**.
 
-    [![Dæmi um kóða sölupöntunar sem er með rofstað](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Dæmi um kóða sölupöntunar sem er með rofstað.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Fyrir innkaupapöntun skal bæta við rofstað við **TaxPost::saveAndPost()** og **TaxPost::postToTaxTrans()** aðferðirnar. Takið eftir gildi **\_ledgerDimension**.
 
-    [![Dæmi um kóða innkaupapöntunar sem er með rofstað](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Dæmi um kóða innkaupapöntunar sem er með rofstað.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Keyrðu eftirfarandi SQL-fyrirspurn til að finna birtingargildi reikningsins í gagnagrunninum, byggt á færslukenninu sem er vistað í fjárhagsvíddinni.
 
@@ -83,7 +83,7 @@ Meðan á bókun stendur gæti skattur verið bókaður á rangan fjárhagslykil
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Birta gildi færsluauðkennisins](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Birta gildi færsluauðkennisins.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Skoðaðu kallastakka til að finna hvar **_ledgerDimension** gildinu er úthlutað. Vanalega er gildið frá **TmpTaxWorkTrans**. Í þessu tilviki ætti að bæta rofstað við **TmpTaxWorkTrans::insert()** og **TmpTaxWorkTrans::update()** til að sjá hvar gildinu er úthlutað.
 

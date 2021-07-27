@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216613"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346621"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -41,7 +41,7 @@ Aðilalíkanið er oft notað til að tákna miðlungsflókin eða flókin tengs
 
 Eftirfarandi skýringarmynd sýnir gagnalíkan fyrir aðila.
 
-![Gagnamódel fyrir aðila](media/party-gab-image1.png)
+![Gagnamódel fyrir aðila.](media/party-gab-image1.png)
 
 > [!TIP]
 > Þegar reynt er að búa til nýja reikningsfærslu skal nota reitinn **Aðili** til að leita að færslunni eftir heiti. Á þennan hátt þarftu bara að velja færsluna ef þú finnur hana. Forritið fyllir þá sjálfkrafa út öll gögnin frá aðilanum. Ekki þarf að stilla alla nauðsynlega reiti handvirkt. Þessa hegðun er hægt að finna á tilbúnum síðunum **Reikningur**, **Tengiliður** og **Lánardrottinn**.
@@ -58,7 +58,7 @@ Altæka aðsetursbókin geymir og meðhöndlar mörg póstföng og rafræn aðse
 
 Eftirfarandi skýringarmynd sýnir gagnalíkanið fyrir altæku aðsetursbókina.
 
-![Gagnalíkan fyrir altæka aðsetursbók](media/party-gab-image2.png)
+![Gagnalíkan fyrir altæka aðsetursbók.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Tengiliður
 
@@ -94,7 +94,7 @@ Til dæmis eru Natasha Jones og Miguel Reyes dýralæknar sem bjóða upp á um�
     + Ef gildi er valið í reitnum **Tengdur tengiliður** er verið að velja strikaðan tengilið af gerðinni **Einstaklingur**.
     + Ef gildi er valið í reitnum **Tengdur reikningur** eða **Tengdur lánardrottinn** er verið að velja fyrirtæki.
 
-    ![Flipinn tengd fyrirtæki á tengiliðasíðunni](media/party-gab-image3.png)
+    ![Flipinn tengd fyrirtæki á tengiliðasíðunni.](media/party-gab-image3.png)
 
     Burtséð frá valinu, þá eru tengslin stofnuð á stigi aðilans og á við um öll hlutverk aðilans og geymd í einingunni **Tengiliður fyrir aðila**.
 
@@ -109,7 +109,7 @@ Til dæmis eru Natasha Jones og Miguel Reyes dýralæknar sem bjóða upp á um�
 
 Nýr **Aðsetursflipi** hefur verið bætt við síðurnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. Þessi flipi styður mörg póstföng með því að nota hnitanet eins og sýnt er á eftirfarandi mynd.
 
-![Hnitanet fyrir póstföng](media/party-gab-image4.png)
+![Hnitanet fyrir póstföng.](media/party-gab-image4.png)
 
 Netið inniheldur eftirfarandi dálka:
 
@@ -121,7 +121,7 @@ Hægt er að nota hnappinn **Nýtt aðsetur** fyrir ofan hnitanetið til að bú
 
 Reitirnir **Aðsetur 1** og **Aðsetur 2** í flipanum **Samantekt** á síðunni **Reikningur** samsvarar aðsetrunum **Afhending** og **Reikningur**.
 
-![Samantektarflipi fyrir póstföng](media/party-gab-image5.png)
+![Samantektarflipi fyrir póstföng.](media/party-gab-image5.png)
 
 Reitirnir **Aðsetur 1**, **Aðsetur 2** og **Aðsetur 3** í flipanum **Samantekt** á síðunni **Tengiliður** samsvarar aðsetrunum **Viðskipti**, **Afhending** og **Reikningur**.
 
@@ -129,7 +129,7 @@ Reitirnir **Aðsetur 1**, **Aðsetur 2** og **Aðsetur 3** í flipanum **Samante
 
 Nýr flipi **Rafræns aðseturs** hefur verið bætt við síðurnar **Reikningur**, **Tengiliður** og **Lánardrottinn**. Þessi flipi styður mörg rafræn aðsetur með því að nota hnitanet eins og sýnt er á eftirfarandi mynd.
 
-![Hnitanet fyrir rafræn aðsetur](media/party-gab-image6.png)
+![Hnitanet fyrir rafræn aðsetur.](media/party-gab-image6.png)
 
 Netið inniheldur eftirfarandi dálka:
 
@@ -205,7 +205,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     | Aðilakenni (reitur) | Nákvæm samsvörun |
     | Velja (reit) | (Autt) |
 
-    ![Afritaregla fyrir reikninga](media/duplicate-rule-1.PNG)
+    ![Afritunarregla fyrir lykla.](media/duplicate-rule-1.PNG)
 
 10. Víkkið út greiningarreglu afritunar fyrir töfluna **Tengiliðir** með því að stilla eftirfarandi reiti.
 
@@ -221,7 +221,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     | Aðilakenni (reitur) | Nákvæm samsvörun |
     | Velja (reit) | (Autt) |
 
-    ![Afritunarregla fyrir tengiliði](media/duplicate-rule-2.PNG)
+    ![Afritunarregla fyrir tengiliði.](media/duplicate-rule-2.PNG)
 
 11. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín.
 
@@ -300,11 +300,11 @@ Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skránin
 + Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
 + Í Finance and Operations-forritum er hægt að stofna tengiliðafærslu úr skjámyndinni **Bæta við tengilið**. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
 
-    ![Þekkt vandamál með Bæta við tengilið](media/party-gab-contact-issue.png)
+    ![Þekkt vandamál með Bæta við tengilið.](media/party-gab-contact-issue.png)
 
 + **Upphafleg samstilling** styður ekki tímareitina **Tiltækt frá** og **Tiltækt til** í **ContactForParty** vegna þess að DIXF breytir gildinu í streng í stað heiltölu. Breytingin leiðir til villunnar `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Þegar póstfang er notað af fleiri en einni ástæðu, til dæmis heimilisfang fyrirtækjasamskipta og reikningsheimilisfang, skal það birtast sem `Business;Invoice` eins og sýnt er á eftirfarandi mynd. Ef bili er bætt við á milli gildanna kemur upp villa.
 
-    ![Þekkt vandamál með heimilisfang](media/party-gab-address-issue.png)
+    ![Þekkt vandamál með heimilisfang.](media/party-gab-address-issue.png)
 
 + Ekki er hægt að færa inn póstfang fram í tímann með því að nota Finance and Operations-forrit með tvöfaldri skráningu vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef fært er inn póstfang dagsett fram í tímann með því að nota Finance and Operations-forrit, samstillist það að fullu við Dataverse og aðsetrið mun sjást strax í notandaviðmótinu. Allar uppfærslur á þessari færslu leiða til villu þar sem hún er með framvirka dagsetningu en ekki líðandi dagsetningu í Finance and Operations-forritinu.

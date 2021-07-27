@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799012"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349401"
 ---
 # <a name="enrich-a-category-landing-page"></a>Bæta lendingarsíðu flokks
 
@@ -31,7 +31,7 @@ Commerce býður upp á sjálfgefna áfangasíðu flokks sem er notuð þegar fl
 
 Í staðinn fyrir að nota sjálfgefna flokkasíðuna gætirðu viljað nota „auðgað“ áfangasíðu flokks sem hefur meira efni og sértækari þætti. Dæmigert auðgun gæti falið í sér að bæta flokkasértæku markaðsefni á flokksíðuna. Þetta efni gæti falið í sér vöruflokka þvert á flokka fyrir krosssölu, ritstjórnarlista, myndir, myndskeið og annan texta. Þú getur annaðhvort breytt sjálfgefnu flokkasíðunni eða skilgreint aðra flokkasíðu fyrir ákveðinn flokk.
 
-![Bætt lendingarsíða flokks](./media/CategoryLandingPages.png)
+![Bætt lendingarsíða flokks.](./media/CategoryLandingPages.png)
 
 Í svæðissmið Commerce inniheldur síðan **Vörur** lista yfir flokka frá rásinni sem er úthlutað á svæðið. Ef staðan **Auðgað** er valin fyrir flokksíðu hefur sú flokksíða verið auðguð. Að öðrum kosti er sjálfgefna flokkasíðan og innihaldið notað fyrir flokkinn. Þú getur forskoðað bæði auðgaðar og óauðgaðar flokkasíður fyrir flokk með því að velja flokksheitið.
 

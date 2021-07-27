@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837802"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343677"
 ---
 # <a name="schedule-maintenance-plans"></a>Tímasetja viðhaldsáætlanir
 
@@ -52,14 +52,14 @@ Skipulagning forvirks viðhalds býr til dagatalsfærslur á eignum, byggt á vi
 
 5. Smelltu á **Í lagi** til að hefja myndun á viðhaldsskemafærslum á eignum. Myndaðar færslur verða sýndar á listasíðunni **Öll viðhaldsskemu**. Eftirfarandi mynd sýnir dæmi um gluggann **Tímasetja viðhaldsáætlanir**.
 
-![Mynd 1](media/09-preventive-maintenance.png)
+![Mynd 1.](media/09-preventive-maintenance.png)
 
 - Í glugganum **Skipuleggja viðhaldsáætlanir** er hægt að setja upp runuvinnslur á flýtiflipanum **Keyra í bakgrunni** til að mynda sjálfkrafa dagatalsfærslur með reglulegu millibili.  
 - Þegar þú áætlar fyrirbyggjandi viðhald verða viðhaldsskemalínur með áætluðum upphafsdegi og tíma sem er á undan dagsetningu og tíma kerfisins ekki búin til.  
 
 Myndin hér að neðan gefur myndræna mynd af tímabyggðum útreikningi á viðhaldsáætlun.  
 
-![Mynd 2](media/10-preventive-maintenance.jpg)
+![Mynd 2.](media/10-preventive-maintenance.jpg)
 
 Varðandi teljarabyggðar viðhaldsáætlanir: Á myndunum hér að neðan eru sýndar tvær mismunandi teljaraskráningarlotur. Þær eru byggðar á viðhaldsáætlun sem sett var upp fyrir eignina „V0001“ og búist við að eignin (bíll) gangi u.þ.b. 2.000 km í hverjum mánuði.
 
@@ -69,9 +69,9 @@ Varðandi teljarabyggðar viðhaldsáætlanir: Á myndunum hér að neðan eru s
 
 Dæmin sem lýst er hér sýna að allar gagnaskráningar sem gerðar hafa verið á eign sýna þróun sem lýsir sliti á eigninni. Sú þróun er notuð sem útreikningsgrundvöllur þegar áætlun um viðhaldsáætlun er gerð.
 
-![Mynd 3](media/11-preventive-maintenance.png)
+![Mynd 3.](media/11-preventive-maintenance.png)
 
-![Mynd 4](media/12-preventive-maintenance.png)
+![Mynd 4.](media/12-preventive-maintenance.png)
 
 
 

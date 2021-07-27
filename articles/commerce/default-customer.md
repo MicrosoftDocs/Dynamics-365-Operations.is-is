@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799180"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349603"
 ---
 # <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
@@ -47,7 +47,7 @@ Til að stofna viðskiptavinaflokk, skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir nokkra stillta viðskiptavinahópa.
 
-![Viðskiptavinaflokkar](media/customer-groups.png)
+![Viðskiptavinaflokkar.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Stofna aðsetursbók viðskiptavinar
 
@@ -63,7 +63,7 @@ Til að stofna aðsetursbók viðskiptavina skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir dæmi um aðsetursbók.
 
-![Aðsetursbók](media/address-book.png)
+![Aðsetursbók.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
@@ -86,11 +86,11 @@ Til að stofna sjálfgefinn viðskiptavin skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir dæmi um stofnun viðskiptavinr.
 
-![Stofnun sjálfvirks viðskiptavinar](media/default-customer-creation.png)
+![Stofnun sjálfvirks viðskiptavinar.](media/default-customer-creation.png)
 
 Eftirfarandi mynd sýnir sjálfgefna stillingu viðskiptavina.
 
-![Dæmi um stillingu viðskiptavinar](media/default-customer-configuration1.png)
+![Dæmi um stillingu viðskiptavinar.](media/default-customer-configuration1.png)
 
 Flest sjálfgefin gildi á skjá viðskiptavinarins geta verið áfram, en tveimur gildum ætti að breyta.
 
@@ -100,13 +100,13 @@ Flest sjálfgefin gildi á skjá viðskiptavinarins geta verið áfram, en tveim
 
 Eftirfarandi mynd sýnir dæmi um stillingu viðskiptavinr.
 
-![Dæmi um stillingu viðskiptavinar](media/default-customer-configuration2.png)
+![Dæmi um stillingu viðskiptavinar.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
-[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

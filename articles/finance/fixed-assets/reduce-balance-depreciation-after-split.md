@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356776"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Afskrift lækkandi stöðu eftir skipti
 
@@ -37,7 +37,7 @@ Eftirfarandi skilyrði eru til dæmis í gildi:
 - Afskrift fyrsta fjárhagsárs jafngildir $18.000, mánaðarleg afskrift samsvarar $150 og eignin er síðan afskrifuð fram í nóvember 2019 að upphæð $738,75.
 - Í nóvember 2019 er 80 prósentum af eigninni skipt í aðra eign.
 
-[![Afskrift lækkandi stöðu eftir skipti](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Afskrift lækkandi stöðu eftir skipti.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Upphæðin til afskriftar fyrir upprunalegu eignina er $1.822,25. Þessi upphæð samsvarar BNV áður en skipt færsla er bókuð ($9111,25), auk kaupleiðréttingar sem er mynduð við bókun á skiptifærslunni (-$8000), auk afskriftarleiðréttingarinnar sem er mynduð við skiptifærsluna ($711). Þess vegna er afskriftin fyrir annað ár (1.822,25 × 18 prósent) ÷ 12 = $27,33.
 

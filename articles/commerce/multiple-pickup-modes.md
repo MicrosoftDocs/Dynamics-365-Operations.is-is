@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 9516e9e1bd9725e8bd2eec81c5e2b70c8257bc7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216768"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353133"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Virkja marga afhendingamáta fyrir pantanir viðskiptavinar
 
@@ -32,7 +32,7 @@ Til að nota þessa virkni þarf að kveikja á eiginleikanum **Stuðningur fyri
 
 Í Commerce Version 10.0.15 og eldri geta fyrirtæki aðeins skilgreint einn afhendingarmáta sem merktan afhendingarmáta. Þessi skilgreining er gerð á síðunni **Færibreytur Commerce**. Í útgáfu 10.0.16 og síðar, þegar kveikt er á eiginleikanum **Stuðningur fyrir margar afhendingarstillingar**, er afhendingarmátinn sem var áður skilgreindur sem afhendingarstillingin á síðunni **Færibreytur Commerce** sjálfkrafa afritaður í nýju skilgreininguna fyrir afhendingarstillingar.
 
-![Afhendingarmátar á færibreytusíðu Commerce](media/multiplepickupparameter.png)
+![Afhendingarmátar á færibreytusíðu Commerce.](media/multiplepickupparameter.png)
 
 Eftir að kveikt er á eiginleikanum **Stuðningur fyrir margar afhendingarstillingar**, er hægt að skilgreina marga afhendingarmáta í hnitanetinu **Afhendingarmáti fyrir sótt** í flýtiflipanum **Afhendingarmátar** í flipanum **Pantanir viðskiptavinar** á síðunni **Færibreytur Commerce**.
 
@@ -40,7 +40,7 @@ Reitirnir **Afhendingarmáti fyrir sótt** og **Rafrænn afhendingarmáti** og v
 
 Áður en hægt er að skilgreina fleiri afhendingarmáta fyrir sóttar pantanir Þarf að skilgreina afhendingarmátana. Á síðunni **Afhendingarmáti** í Commerce Headquarters skal bæta við afhendingarmátanum sem á að vera afhendingarmáti fyrir það sem er sótt. Gangið úr skugga um að skilgreiningunni sé lokið að fullu. Ef til dæmis boðið er upp á afhendingu út í bíl sem afhendingarmáta fyrir kaupendur á netinu í ákveðnum verslunum þarf að stofna nýjan afhendingarmáta í þessu skyni. Hægt er að búa til þennan afhendingarmáta með því að nota „afhending út í bíl“ sem lýsingu. Þú vilt síðan tryggja að afhendingarmátanum „afhending út í bíl“ sé varpað í allar viðskiptarásirnar sem geta boðið upp á hann, þar á meðal netverslanir sem gætu boðið upp á þennan valkost og einstakar verslunarrásir sem bjóða upp á þessa afgreiðsluaðferð. Einnig verður að tengja afhendingarmáta við afurðir. Ef það eru ákveðnar afurðir sem ekki er hægt að afgreiða með því að nota „afhending út í bíl“ í þessu dæmi þarf að tryggja að slíkar vörur séu útilokaðar. Þegar búið er að bæta við nýjum afhendingarmátum skal keyra verkið **Vinna úr afhendingarmátum** til að stofna tengslin milli afhendingarmáta, rása og vara. Þegar verkinu er lokið skal opna síðuna **Dreifingaráætlun** í Commerce Headquarters og keyra dreifingarverkið **1120** til að tryggja að viðeigandi gagnagrunnar Commerce-rásar séu uppfærðir með nýrri skilgreiningu á afhendingarmáta.
 
-![Dæmi um skilgreiningu afhendingarmáta fyrir sótta pöntun fyrir utan verslun](media/pickupmodes.png)
+![Dæmi um skilgreiningu afhendingarmáta fyrir sótta pöntun fyrir utan verslun.](media/pickupmodes.png)
 
 Þegar búið er að skilgreina fleiri afhendingarmáta skal bæta þeim við hnitanetið **Afhendingarmáti fyrir sótt** á síðunni **Færibreytur Commerce**. Keyrið síðan viðeigandi dreifingarvinnslur til að uppfæra viðeigandi gagnagrunna Commerce-rásar með breytingu á skilgreiningu.
 
@@ -69,11 +69,11 @@ Engin frekari skref eru nauðsynleg á síðum rafrænna viðskipta til að gera
 
 - Í rafrænum viðskiptarásum geta kaupendur valið hvaða sóttan afhendingarmáta sem er í boði. Til dæmis skilgreinir smásali tvo afhendingarmáta (sótt í verslun eða fyrir utan verslun), báðir skilgreindir í hnitanetinu **Afhendingarmáti fyrir sótt** og báðir eru í gildi fyrir rás pöntunaruppfyllingar og vöruna sem kaupandinn er að kaupa á þessu augnabliki. Í þessu tilvikum getur kaupandi valið æskilega afhendingu. Valinn afhendingarmáti fyrir pöntun sem er sótt verður afhendingarmátinn sem er tengdur við sölupöntunarlínuna þegar pöntunin er stofnuð í Commerce Headquarters.
 
-    ![Að velja í rafrænum viðskiptum hvernig á að sækja pöntun](media/pickupecommerce.png)
+    ![Að velja hvernig sækja á vöru í rafrænum viðskiptum.](media/pickupecommerce.png)
 
 - Í verslunarrásum, ef viðskiptavinapöntun sem á að sækja er stofnuð í forriti sölustaðar, er sölufulltrúinn beðinn um að velja úr tiltækum afhendingarmátum fyrir pöntun sem á að sækja, ef einhverjir hafa verið skilgreindir. Ef aðeins einn gildur afhendingarmáti er tiltækur fyrir rásina og vöruna, er sölufulltrúinn ekki beðinn um að velja hann. Þess í stað er tiltækur afhendingarmáti sjálfkrafa notaður fyrir pöntunarlínurnar.
 
-    ![Að velja í forriti sölustaðar hvernig á að sækja pöntun](media/pickuppos.png)
+    ![Að velja hvernig sækja á vöru í forriti sölustaðar.](media/pickuppos.png)
 
 - Á rásum símavers, þegar notendur stofna pantanir sem verða sóttar, geta þeir valið handvirkt hvaða skilgreindan afhendingarmáta sem er sem tengist rás símaversins. Kerfið staðfestir síðan að hægt sé að nota valdan afhendingarmáta þegar varan sem tengd er við hann er pöntuð. Þegar valinn er í rásum símavers afhendingarmáti fyrir pöntun sem verður sótt, verða sölupöntunarlínurnar að vera tengdar við gilt vöruhús verslunar. Ef vöruhús án verslunar er skilgreint í sölulínu símavers verður ekki hægt að stilla á sóttan afhendingarmáta fyrir þá sölulínu.
 - Sölufulltrúar geta notað aðgerðina **Afturköllun pöntunar** eða **Uppfylling pöntunar** í forriti sölustaðar til að sækja lista yfir pantanir eða pöntunarlínur fyrir sótta pöntun. Ef sölufulltrúi notar fyrirframskilgreinda leitarsíu til að sýna allar pantanir sem verða sóttar í núverandi verslun, er fyrirspurnunum breytt til að tryggja að leitarniðurstöðurnar innihaldi allar gjaldgengar pantanir sem nota einhvers konar afhendingarmáta fyrir sótta pöntun. Notendur sölustaðar geta einnig notað fyrirliggjandi síur til að þrengja listann yfir pantanir niður í tiltekinn afhendingarmáta sóttrar pöntunar. Til dæmis geta þeir sýnt aðeins pantanir fyrir sótt fyrir utan verslun.

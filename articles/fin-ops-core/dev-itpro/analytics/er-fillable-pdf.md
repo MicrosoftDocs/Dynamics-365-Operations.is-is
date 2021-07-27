@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355419"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 
@@ -115,11 +115,11 @@ Næst, í skilgreiningu á sniði rafrænnar skýrslugerðar sem var stofnað, �
 
 Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir fyrstu síðu skýrslunnar.
 
-![Sniðmát 1](media/rcs-ger-filloutpdf-template1.png)
+![Sniðmát 1.](media/rcs-ger-filloutpdf-template1.png)
 
 Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrslunnar.
 
-![Sniðmát 2](media/rcs-ger-filloutpdf-template2.png)
+![Sniðmát 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Á síðunni **Skilgreiningar** skal velja **Hönnuður**.
 2. Veljið **Bæta við rót**.
@@ -144,9 +144,9 @@ Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrsl
 
     Ef þessi valkostur er stilltur á **Nei** verða nauðsynlegar sniðseiningar rafrænnar skýrslugerðar búnar til sem flatur listi yfir einingar sem eru faldaðar undir sniðseiningunni **PDF-skrá** sem er búin til.
 
-12. Veljið **Í lagi**.
+12. Veldu **Í lagi**.
 
-    ![Flytja inn úr svarglugga PDF](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Flytja inn úr svarglugga PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Í trénu skal víkka út **Frálag**.
 
@@ -176,7 +176,7 @@ Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrsl
 
     Takið eftir því að innflutta PDF-skjalið er hengt við breytt snið rafrænnar skýrslugerðar.
 
-    ![Forskoðun PDF-viðhengis](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Forskoðun PDF-viðhengis.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Haldið áfram að hanna þetta snið með því að flytja inn næsta PDF-sniðmát, bæta við nauðsynlegum bindingum við gagnagjafa og svo framvegis.
 20. Veljið **Vista**.
@@ -215,7 +215,7 @@ Næst skal flytja inn sýnishornið af sniði rafrænnar skýrslugerðar sem var
 1. Á síðunni **Sniðshönnuður** skal velja flipann **Vörpun**.
 2. Í trénu skal víkka út **Síðuvíxl \> Síður**.
 
-    ![Síða formúluhönnuðar þar sem líkanstré er víkkað út](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Síða formúluhönnuðar þar sem líkanstré er víkkað út.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Athugið eftirfarandi upplýsingar:
 
@@ -238,7 +238,7 @@ Næst skal flytja inn sýnishornið af sniði rafrænnar skýrslugerðar sem var
 
     Takið eftir að eigindin **Heiti** fyrir þessa sniðseiningu er skilgreind sem **Leiðrétting 1**. Takið einnig eftir að segðin **Heiti** fyrir sniðseininguna er skilgreind sem **Paging.FldName(„Correction“,\@.Number)**.
 
-![Sniðshönnuður þar sem vörpun er valin](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Sniðshönnuður þar sem vörpun er valin.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Takið eftir því að sniðseiningin **Reitur** er notuð til að fylla út stakan reit af útfyllanlegu PDF-skjali sem er skilgreint sem sniðmát af yfireiningu sniðseiningarinnar **PDF-skrá**. Binding sniðseiningarinnar **PDF-skrá** eða földuðum einingum hennar, ef hún er með faldaðar einingar, tilgreinir gildið sem er fært inn í samsvarandi PDF-reiti. Hægt er að nota mismunandi eiginleika sniðseiningarinnar **Reitur** til að tilgreina hvaða PDF-reit er fylltur út af stakri sniðseiningu:
 
@@ -275,7 +275,7 @@ Næst verður hlaðið inn sýnishorninu **Intrastat (flutt inn úr Excel)** fyr
 
     Þegar valkosturinn **Sjálfgefið fyrir líkanavörpun** er stilltur á **Já** er innflutta sniðið **Intrastat (flytja inn úr Excel)** fyrir rafræna skýrslugerð úthlutað sem sjálfgefinn gagnagjafi fyrir sniðsskilgreininguna **Intrastat-skýrsla (PDF)**. Síðan, þegar sniðsskilgreiningin **Intrastat-skýrsla (PDF)** er keyrð, mun innihald Excel-vinnubókar sem er þáttað af sniðinu **Intrastat (flutt inn úr Excel)** fyrir rafræna skýrslugerð líkja eftir færslum erlendra viðskipta sem þarf að gefa skýrslu um. Eftirfarandi skýringarmynd sýnir dæmi um Excel-vinnubók.
 
-    ![Excel-vinnubók með sýnigögn](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Excel-vinnubók með sýnigögn.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Keyra skilgreiningu sniðs
 
@@ -289,11 +289,11 @@ Næst verður hlaðið inn sýnishorninu **Intrastat (flutt inn úr Excel)** fyr
 
 Eftirfarandi skýringarmynd sýnir dæmi um fyrstu síðu skýrslunnar sem er búin til.
 
-![Fyrsta síða myndaðrar skýrslu](media/rcs-ger-filloutpdf-generatedreport.png)
+![Fyrsta síða myndaðrar skýrslu.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um aðra síðu skýrslunnar sem er búin til.
 
-![Önnnur síða myndaðrar skýrslu](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Önnnur síða myndaðrar skýrslu.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

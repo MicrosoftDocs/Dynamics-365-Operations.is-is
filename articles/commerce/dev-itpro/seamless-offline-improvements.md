@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019958"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348269"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Þægilegur rofi án nettengingar fyrir gjafakorta- og kreditreikningsaðgerðir
 
@@ -36,7 +36,7 @@ Hins vegar, ef POS tapar tengingu eftir að gjafakorti hefur verið bætt við f
 
 Til að virkja virknina að ljúka gjafakortafærslum þegar skipt hefur verið í stillingu án nettengingar ferðu í flipann **Bókun** á síðunni **Færibreytur Commerce**. Á þeim flipa finnurðu flýtiflipann **Gjafakort** og stillir **Leyfa að vinna úr færslum á gjafakorti án tengingar** á **Já**.
 
-![Gjafakortastilling án nettengingar](../media/gift.png)
+![Gjafakortastilling án nettengingar.](../media/gift.png)
 
 Færibreytur Commerce eru venjulega í skyndiminni. Þess vegna getur þetta tekið allt að sólarhring að taka gildi eftir að stilling þessa stika er uppfærð og dreifingaráætlunin er hafin til að samstilla breytinguna við rásina. Til að virkja breytinguna strax skaltu endurstilla Microsoft Internet Information Services (IIS).
 
@@ -46,7 +46,7 @@ Eins og innri gjafakort er kreditreikningum miðlægt viðhaldið í Commerce He
 
 Til að virkja virknina að ljúka kreditreikningsfærslum þegar skipt hefur verið í stillingu án nettengingar ferðu í flipann **Bókun** á síðunni **Færibreytur Commerce**. Á þeim flipa finnurðu flýtiflipann **Kreditreikningur** og stillir **Leyfa að vinna úr kreditreikningsfærslum án tengingar** á **Já**.
 
-![Kreditreikningsstillingar án nettengingar](../media/creditmemo.png)
+![Kreditreikningsstillingar án nettengingar.](../media/creditmemo.png)
 
 Færibreytur Commerce eru venjulega í skyndiminni. Þess vegna getur þetta tekið allt að sólarhring að taka gildi eftir að stilling þessa stika er uppfærð og dreifingaráætlunin er hafin til að samstilla breytinguna við rásina. Til að virkja breytinguna strax skaltu endurstilla IIS.
 

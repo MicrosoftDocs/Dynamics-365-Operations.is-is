@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355036"
 ---
 # <a name="overhead-calculation"></a>Útreikningur fastakostnaður
 
@@ -48,7 +48,7 @@ Stjórnunarkostnaður er sá kostnaður sem stofnað er til fyrir rekstur fyrirt
 
 Útreikningur fastakostnaðar er keyrður óháð því hver útgáfan er. Þess vegna er hægt að reikna út áætlaða útgáfu á undan raunútgáfu. Útreikningur fastakostnaðar samanstendur af fjórum skrefum, eins og sýnt er á eftirfarandi mynd. Í hverju skrefi er færslubókarhaus stofnaður með bókarfærslum. Þessi færslubókarhaus geymir inntaksgögn fyrir hvert útreikningsþrep. Stefnur og reglur eru notaðar í hverri færslulínu og kostnaðarfærslur eru myndaðar sem úttak. Þess vegna hefurðu ávallt fullan rekjanleika. 
 
-[![Útreikningur fastakostnaðar](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Útreikningur fastakostnaðar.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Reikna og úthluta sameiginlegur kostnaði vegna rafmagns
 Í Fjárhagsbókhaldi er ákveðinn kostnaður, eins og rafmagn, skráður sem eingreiðsla. Þar af leiðandi er nákvæmar innsýn rekstrarfélags ekki veitt fyrir kostnaðarbókhald. Í kostnaðarbókhaldi verður kostnaður að flæða í gegnum fyrirtækiseiningar til að veita rétta innsýn rekstrarfélags þvert á allar fyrirtækiseiningar og stig. Þetta flæði verður að byggja á annaðhvort nákvæmri færslu notkunar eða sanngjarnri matsreglu. Í fjárhagnum er hægt að bóka rafmagnskostnað eins og sýnt er í eftirfarandi töflu.
@@ -618,7 +618,7 @@ Nánari upplýsingar er að finna í [Framkvæma útreikning fastakostnaðar](co
 
 Úthlutun er notuð til að úthluta stöðu kostnaðarhlutar í öðrum kostnaðarhlutum með því að nota úthlutunargrunn. Finance styður gagnvirka úthlutunaraðferð. Í gagnvirkri úthlutunaraðferð er sú sameiginlega þjónusta sem hjálparkostnaðarhlutir skiptast á viðurkennd að fullu. Kerfið ákvarðar sjálfkrafa rétta röð til að framkvæma úthlutun eftir. Stöðu kostnaðarhluta er úthlutað með einum úthlutunargrunni. Úthlutanir þvert á víddir kostnaðarhluta og viðkomandi stök þeirra eru studdar. Úthlutun pöntunarinnar er stjórnað af stýrieiningu kostnaðar. 
 
-[![Gagnkvæm aðferð](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Gagnkvæm aðferð.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Tilgreinið kostnaðarúthlutun
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921218"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353541"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Umreikningur mælieiningar eftir afurðarafbrigði
 
@@ -56,7 +56,7 @@ Til að skilgreina afurðarsniðmát til að styðja umbreytingu eininga á hver
     - **Afurð** – Ef þú velur þetta gildi getur þú sett upp umreikning eininga fyrir afurðarsniðmát. Þessi umreikningur eininga verður notaður til vara fyrir öll afurðarafbrigði sem enginn umreikningur eininga er skilgreindur fyrir.
     - **Afurðarafbrigði** – ef þetta gildi er valið er hægt að setja upp umreikning eininga fyrir tilgreint afurðarafbrigði. Notaðu reitinn **Afurðarafbrigði** til að velja afbrigðið.
 
-    ![Nýjum umreikningi eininga bætt við](media/uom-new-conversion.png "Nýjum umreikningi eininga bætt við")
+    ![Nýjum umreikningi eininga bætt við.](media/uom-new-conversion.png "Nýjum umreikningi eininga bætt við")
 
 1. Notaðu önnur svæði sem eru gefin upp til að setja upp umreikning eininga.
 1. Veljið **Í lagi** til að vista nýja umreikning eininga.

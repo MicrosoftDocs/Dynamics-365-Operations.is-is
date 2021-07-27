@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346299"
 ---
 # <a name="dataverse-tables"></a>Dataverse töflur
 
@@ -152,27 +152,27 @@ Eftirfarandi Dataverse-töflur eru í boði sem byggja á einingum Human Resourc
 
 ### <a name="worker"></a>Starfsmaður
 
-![Starfsmaður](./media/HCMCommon-worker-entity-diagram.png)
+![Starfskraftur.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Starf og starfstaða
 
-![Starf og starfstaða](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Starf og starfsstaða.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
 ### <a name="benefits"></a>Fríðindi
 
-![Fríðindi](./media/HCMCommon-benefits-entity-diagram.png)
+![Fríðindi.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Laun
 
-![Laun](./media/HCMCommon-compensation-entity-diagram.png)
+![Laun.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Hætta
+### <a name="leave"></a>Orlof
 
-![Hætta](./media/HCMCommon-leave-entity-diagram.png)
+![Leyfi.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Vinnudagatal
 
-![Vinnudagatal](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Vinnudagatal.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

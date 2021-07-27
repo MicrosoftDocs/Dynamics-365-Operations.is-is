@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025449"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353781"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Birgðaleit á sölustað
 
@@ -45,7 +45,10 @@ Fyrir einstaka afurð býður aðgerð birgðauppflettingar upp á listayfirlit 
 
 Listayfirlit yfir staðsetningar inniheldur allar verslanir og vöruhús sem eru skilgreind í uppfyllingarflokkunum sem núverandi verslun er tengd við eins og sýnt er í eftirfarandi myndadæmi.
 
-![Listayfirlit yfir aðgerð birgðauppflettingar](media/inventory-lookup-list-view.png)
+![Listayfirlit yfir aðgerð birgðauppflettingar.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Gakktu úr skugga um að núverandi verslun þín sé með í tilheyrandi uppfyllingarhópum.
 
 Eftirfarandi aðgerðir eru í boði á forritastiku sölustaðar:
 
@@ -65,7 +68,7 @@ Eftirfarandi aðgerðir eru í boði á forritastiku sölustaðar:
 - **Bæta við færslu** - Þessi aðgerð bætir afurðinni við körfuna og vísar notandanum á færsluskjáinn.
 
 > [!NOTE]
-> Fyrir röðun eftir staðsetningu er fjarlægð milli staðsetningar og núverandi verslunar ákvörðuð út frá hnitum (lengdar- og breiddargráðu) sem skilgreind eru í Commerce Headquarters. Fyrir verslun eru staðsetningarupplýsingar skilgreindar í aðalaðsetri rekstrareiningarinnar sem tengist versluninni. Fyrir vöruhús án verslunar eru staðsetningarupplýsingarnar skilgreindar í aðsetri vöruhúss. Ef núverandi verslun er ekki með hnit skilgreind á réttan hátt mun valkostur röðunar eftir staðsetningu sýna núverandi verslun efst í listanum og síðan raða öðrum staðsetningum eftir heiti.
+> Fyrir röðun eftir staðsetningu er fjarlægð milli staðsetningar og núverandi verslunar ákvörðuð út frá hnitum (lengdar- og breiddargráðu) sem skilgreind eru í Commerce Headquarters. Fyrir verslun eru staðsetningarupplýsingar skilgreindar í aðalaðsetri rekstrareiningarinnar sem tengist versluninni. Fyrir vöruhús án verslunar eru staðsetningarupplýsingarnar skilgreindar í aðsetri vöruhúss. Ef núverandi verslun er ekki með hnit skilgreind mun valkostur röðunar eftir staðsetningu sýna núverandi verslun efst í listanum og síðan raða öðrum staðsetningum eftir heiti.
 
 > [!NOTE]
 > Aðgerðirnar **Sýna framboð verslunar**, **Sýna staðsetningu verslunar**, **Sækja í verslun** og **Senda afurð** eru ekki í boði fyrir staðsetningar án verslunar.
@@ -76,7 +79,7 @@ Fyrir aðalafurðir með afbrigði býður aðgerð birgðauppflettingar einnig 
 
 Eftirfarandi myndadæmi sýnir fylkisyfirlit birgðauppflettingar á sölustað.
 
-![Fylkisyfirlit aðgerðar birgðauppflettingar](media/inventory-lookup-matrix-view.png)
+![Fylkisyfirlit aðgerðar birgðauppflettingar.](media/inventory-lookup-matrix-view.png)
 
 Í fylkisyfirlitinu stendur hvert hólf fyrir ákveðið afbrigði og sýnir gildi lagerbirgða (efnislega tiltækar) niðri í hægra horninu auk gilda fyrir **frátekið** (efnislega frátekið) og **pantað** (samtals pantað) uppi í vinstra horninu. Eftirfarandi tafla útskýrir merkingu á hinum ýmsu lagergildum.
 
@@ -103,7 +106,7 @@ Notendur sölustaðar geta nálgast aðgerð birgðauppflettingar af annarri sí
 
 Eftirfarandi myndadæmi sýnir niðurstöður birgðauppflettingar af PDF á sölustað.
 
-![Birgðauppfletting af upplýsingasíðu afurðar](media/inventory-lookup-from-product-details-page.png)
+![Birgðauppfletting af upplýsingasíðu afurðar.](media/inventory-lookup-from-product-details-page.png)
 
 Á PDP aðalafurðar er hægt að nota aðgerðina **Skoða öll afbrigði** á forritastikunni til að ræsa fylkisyfirlit birgðauppflettingar sem sýnir upplýsingar um birgðaframboð fyrir núverandi verslun fyrir öll afbrigði afurðar. Fyrir staka afurð sýnir PDP gildi lagerbirgða (tiltækar efnislega) fyrir þá afurð fyrir núverandi verslun. Auk þess er hægt að velja tengilinn **Birgðir annarra verslana** til að ræsa aðgerð uppflettingar til að athuga birgðaframboð afurðar í öðrum verslunum og vöruhúsum.
 

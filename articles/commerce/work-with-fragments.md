@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350209"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
@@ -62,7 +62,7 @@ Til að umbreyta áður stilltri einingu í endurnýtanlegt brot í Commerce sí
 1. Í svargluggann **Vista sem brot** skal færa inn heiti fyrir síðubrotið.
 1. Veldu **Í lagi** til að vista einingastillinguna sem brot sem hægt er að bæta við aðrar síður.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Stofna nýtt brot
 
@@ -73,7 +73,7 @@ Til að búa til nýtt brot í vefsmið Commerce skal fylgja þessum skrefum.
 1. Veldu tegund einingar fyrir brotið þitt.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Með því að velja almenna gámaeiningagerð færðu mestan sveigjanleika þegar þú þarft að uppfæra og stilla brotið þitt seinna.
 
@@ -88,14 +88,14 @@ Til að breyta broti milli rása í vefsmið Commerce skal fylgja þessum skrefu
 1. Á yfirlitssvæðinu vinstra megin eða beint á sjónrænum síðuhönnuði skal velja gám eða hólf þar sem bæta á undireiningunum við.
 1. Veljið úrfellingarmerkið (**...**) við hliðina á heiti gámsins eða hólfsins.  Ef sjónrænn síðuhönnuður er notaður, skal velja plústáknið (**+**).  
 1. Veljið **Bæta við broti**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Ef geymirinn eða hólfið styður ekki nýjar undireiningar er valkosturinn **Bæta broti** ekki tiltækur.
     
 1. Í svarglugganum **Velja brot** skal leita að og velja brot til að bæta við. Ef engin tiltæk brot eru tilgreind gætirðu fyrst þurft að búa til brot úr einingagerð sem valinn gámur eða hólf styður.
 1. Veldu brotið sem þú vilt til að bæta því við gám eða hólf á síðunni þinni.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Einingarnar sem eru leyfðar í gámi eða hólfi eru skilgreindar af sniðmáti síðunnar eða eigin skilgreiningum eininganna.

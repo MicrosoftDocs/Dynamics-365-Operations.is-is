@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270886"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350475"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reikna tiltækar birgðir fyrir smásölurásir
 
@@ -105,7 +105,7 @@ Einingarnar kaupgluggi, verslunarval, óskalisti, karfa og körfutákn í Commer
 
 Þegar útreikningur rásarhliða er rétt stilltur og stjórnað á réttan hátt getur það gefið áreiðanlegra mat á núverandi birgðum verslunar, vegna þess að hann notar viðskiptagögnin sem eru í gagnagrunni Commerce-rásar, en Headquarters hafa ef til vill ekki ennþá upplýsingar um það. Til dæmis, ef þú notar núverandi rauntíma þjónustukall til að leita að birgðum í POS, mun Headquarters líklega ekki enn hafa upplýsingar um reiðufé og sölu sem bara átti sér stað fyrir vöru. Þess vegna mun verðmæti lagerbirgða sem Headquarters skilar fyrir þá afurð líklega fara yfir raunverulegar lagerbirgðir verslunarinnar um eina einingu. Hins vegar, ef þú notar útreikninga í rásinni er hægt að færa sölu í reiðufé inn í útreikninginn og draga frá því lagervirði sem er sýnt. Þrátt fyrir að gildin sem bæði útreikningur í rásinni og rauntíma þjónustukall veitir séu aðeins mat á lagerbirgðum er mun líklegra að gildið sem útreikningur í rásinni veitir sé rétt fyrir núverandi verslun.
 
-Til að skilgreina sölustaðaraðgerðina **Birgðauppfletting** í höfuðstöðvum til að nota reikniaðgerð rásar og slökkva á þjónustuköllum í rauntíma skal fylgja þessum skrefum.
+Til að skilgreina aðgerðina **Birgðauppfletting** á sölustað í Commerce Headquarters til að nota útreikningsreglu rásar og slökkva á símtölum í rauntímaþjónustu þarf fyrst að virkja eiginleikann **Fínstilltur útreikningur á framboði afurðar** á vinnusvæðinu **Eiginleikastjórnun** í Commerce Headquarters og síðan fylgja þessum skrefum.
 
 1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**.
 1. Veldu virkniforstillingu.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347809"
 ---
 # <a name="process-collection-letters-example"></a>Dæmi um úrvinnslu innheimtubréfs
 
@@ -40,7 +40,7 @@ Til að hefjast handa skal fara í **Viðskiptakröfur \> Viðskiptavinir \> All
 
 Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær myndu birtast á síðunni **Innheimtubréf**. 
 
-[![Innheimtubréfaröð sett upp](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Innheimtubréfaröð sett upp.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Nú þarf að stilla þessar tvær færibreytur sem eru nauðsynlegar fyrir þetta dæmi.
 
@@ -49,7 +49,7 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
     1. Í flipanum **Innheimtur** skal stilla valkostinn **Hunsa greiðslur og kreditnótur þegar kóði innheimtubréfs er reiknaður út** á **Já**.
     2. Ganga skal úr skugga um að reiturinn **Stofna innheimtubréf eftir** sé stilltur á **Viðskiptavinur**.
 
-    [![Færibreytur viðskiptakrafna settar upp fyrir innheimtu skulda](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Færibreytur viðskiptakrafna settar upp fyrir innheimtu skulda.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Farið í **Viðskiptakröfur \> Reikningar \> Allir reikningar með frjálsum texta**, veljið **Nýr** og fylgið því næst þessum skrefum:
 
@@ -74,7 +74,7 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
 5. Endurtakið skref 4, en færið inn **-200,00** í reitinn **Einingarverð**.
 6. Farið í **Viðskiptakröfur \> Viðskiptavinir \> Allir viðskiptavinir** og veljið viðskiptavininn **US-045**. Á aðgerðasvæðinu skal síðan velja **Færslur \> Færslur** til að fara yfir færslur viðskiptavina sem voru bókaðar hér áður.
 
-    [![Bókaðar færslur viðskiptavina yfirfarnar](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Bókaðar færslur viðskiptavina yfirfarnar.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Nú þarf að stofna innheimtubréf fyrir viðskiptavin US-045.
 
@@ -93,7 +93,7 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
 
     1. Athugið að kóði innheimtubréfs í bæði haus og færslulínum er **Innheimtubréf 1** vegna þess að þetta er fyrsta innheimtubréfið í röðinni. (Til að skoða færslulínur gæti þurft að velja flýtiflipann **Færslur**.)
 
-   [![Staðfesting á því að sami kóði innheimtubréfs komi fram í haus og í línum](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Staðfesting á því að sami kóði innheimtubréfs komi fram í haus og í línum.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Á aðgerðasvæðinu skal velja **Bóka**.
     3. Í reitinn **Bókunardagssetning** skal færa inn **1/19/2021**.
@@ -115,7 +115,7 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
 
     1. Takið eftir að kóði innheimtubréfs í hausnum er **Innheimtubréf 1**. Kóðinn í færslulínunum er hins vegar **Innheimtubréf 2**.
 
-   [![Staðfestir að mismunandi kóðar innheimtubréfs koma fram í haus og línum](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Staðfestir að mismunandi kóðar innheimtubréfs koma fram í haus og línum.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Kóðarnir eru ólíkir vegna þess að valkosturinn **Hunsa greiðslur og kreditnótur þegar kóði innheimtubréfs er reiknaður út** er stilltur á **Já**.
 
@@ -123,7 +123,7 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
 
 11. Farið í **Skuldir og innheimta \> Uppsetning \> Færibreytur viðskiptakrafna** og því næst í flipanum **Innheimtur** skal stilla valkostinn **Hunsa greiðslur og kreditnótur þegar kóði innheimtubréfs er reiknaður út** á **Nei**.
 
-    [![Hunsa greiðslur og kreditnótur stillt þegar valkostur fyrir útreikning innheimtubréfakóða er stilltur á nei](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Hunsa greiðslur og kreditnótur stillt þegar valkostur fyrir útreikning innheimtubréfakóða er stilltur á nei.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Nú þarf að stofna innheimtubréf aftur fyrir viðskiptavin US-045.
 
@@ -140,6 +140,6 @@ Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær mynd
 
 13. Farið í **Skuldir og innheimta \> Innheimtubréf \> Yfirfara og vinna úr innheimtubréfum** og takið eftir því að kóði innheimtubréfs bæði í haus og færslulínum er **Innheimtubréf 2**.
 
-    [![Sýnir aftur að sami kóði innheimtubréfs komi fram í haus og í línum](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Sýnir aftur að sami kóði innheimtubréfs komi fram í haus og í línum.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Sami kóðinn kemur fram á báðum stöðum vegna þess að valkosturinn **Hunsa greiðslur og kreditnótur þegar kóði innheimtubréfs er reiknaður út** er stilltur á **Nei**.

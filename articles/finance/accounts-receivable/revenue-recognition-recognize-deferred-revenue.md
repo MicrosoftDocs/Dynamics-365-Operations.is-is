@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8d9b5e1248497ec74e1c7125b2395c0ed4c825c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cafe28e0aa71d623a728829ff1bf71bef5a132b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820522"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347201"
 ---
 # <a name="recognize-deferred-revenue"></a>Skrá frestaðar tekjur
 
@@ -36,7 +36,7 @@ Tvær leiðir eru til að nálgast upplýsingar um tekjuskráningaráætlunina.
 - Hægt er að opna tekjuskráningaráætlunina beint úr reikningsfærðri sölupöntun. Í þessu tilviki eru upplýsingarnar í tekjuáætluninni síaðar til að sýna aðeins upplýsingar fyrir völdu sölupöntunina. Þessi nálgun er gagnleg þegar verið er að staðfesta upplýsingar um áætlun fyrir sölupöntun.
 - Hægt er að opna tekjuskráningaráætlunina af síðunni **Tekjuskráning \> Reglubundin verkefni**. Þessi nálgun er oft notuð þegar tekjur eru skráðar við lok tímabils. Þegar síðan er fyrst opnuð birtast engar upplýsingar. Nota skal síurnar fyrir ofan hnitanetið til að skilgreina skilyrði fyrir upplýsingar um áætlun sem á að sýna. Hægt er að sía eftir reikningsdagsetningum með því að færa inn dagsetningabil, sölupöntun, viðskiptavin, verkkenni eða stöðu.
 
-[![Mynd af síðunni Tekjuáætlanir](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![Mynd af síðunni Tekjuáætlanir.](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Flýtiflipinn **Fjárhagsvídd** fyrir neðan hnitanetið sýnir fjárhagsvíddir sölupöntunarlínunnar. Þessar víddir voru teknar til greina við bókun á frestuðum tekjum. Þær eru einnig teknar til greina þegar tekjurnar eru skráðar. Víddargildin sem eru notuð ráðast af lykilskipulagi sem er úthlutað á aðallykla fyrir tekjur og frestaðar tekjur.
 
@@ -46,7 +46,7 @@ Hægt er að skrá tekjur með því að nota ferlið **Stofna færslubók** á 
 
 Til að skilgreina skilyrði fyrir val og bókun tekna skal velja **Stofna færslubók** til að opna svargluggann **Stofna færslubók**.
 
-[![Stofna valkosti færibreyta færslubókar](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![Stofna valkosti færibreyta færslubókar.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 Í svarglugganum skal nota valkostina í reitahópnum **Dagsetning vinnslu** til að skilgreina bókunardagsetninguna sem er notuð þegar tekjur eru skráðar. Ef **Valin dagsetning** er valið er hægt að færa inn bókunardagsetningu í reitinn **Færsludagsetning**. Ef **Dagsetning tekjuáætlunar** er valið er færsludagsetningin ekki notuð. Þess í stað verður gildið í reitnum **Skráningardagsetning** fyrir hverja línu áætlunarinnar notað sem bókunardagsetning.
 
@@ -56,11 +56,11 @@ Næst skal færa inn „frá og með“ dagsetninguna fyrir skráðar tekjur í 
 
 Eftir að ferlið hefur verið keyrt eru línurnar í áætluninni sem voru fluttar í færslubókina merktar sem **Unnið**. Flaggið **Unnið** gefur til kynna að línurnar hafi verið færðar yfir í færslubókina, en hægt er að bóka eða afbóka þær. Flaggið **Unnið** er áfram til staðar eftir að tekjuskráningarbókin hefur verið bókuð. Ef tekjuskráningarfærslubókinni er eytt, eða ef línu er eytt, er flaggið **Unnið** fjarlægt. Þannig er hægt að skrá línuna þegar ferlið **Stofna færslubók** er keyrt aftur.
 
-[![Síða tekjuskráningaráætlana](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![Síða tekjuskráningaráætlana.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 Á síðunni **Tekjuskráningarbók** (**Tekjuskráning \> Færslubókarfærslur \> Tekjuskráningarbók**) skal opna **Línur** til að skoða upplýsingar um hvað er verið að skrá. Aðskilin færsla er alltaf stofnuð fyrir hverja línu áætlunarinnar sem er verið að skrá, jafnvel þótt allar línur séu bókaðar á sömu dagsetningu með því að nota sömu fjárhagslykla.
 
-[![Síða færslubókarfylgiskjals](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![Síða færslubókarfylgiskjals.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 Dálkurinn **Lykill** sýnir fjárhagslykil frestaðra tekna. Ekki er hægt að breyta þessum fjárhagslykli. Þessi takmörkun hjálpar til við að tryggja að réttur fjárhagslykill frestaðra tekna sé losaður. Þessi fjárhagslykill er ekki sannprófaður gagnvart lykilskipulaginu vegna þess að hann kann að hafa breyst frá því að síðasta bókun á fjárhagslykli frestaðra tekna átti sér stað.
 
@@ -82,7 +82,7 @@ Sumar breytingar eru leyfðar í línum áætlunarinnar. Eftirfarandi reitum er 
 
 - **Í bið** – Hægt er að stilla eða hreinsa þetta flagg áður en unnið er úr línunni. Til að hreinsa flaggið skal velja línuna og því næst velja **Fjarlægja bið**. Ekki er hægt að skrá tekjur í línum sem eru í bið. Hægt er að setja línur sjálfkrafa í bið ef tekjuáætlunin er sett upp fyrir sjálfvirkar biðstöður.
 
-    [![Tekjuáætlanir - breyta áætlunarlínum](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Tekjuáætlanir – breyta áætlunarlínum.](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Skráningardagsetning** – Hægt er að breyta skráningardagsetningu áður en unnið er úr línunni. Þegar ferlið sem stofnar færslubókina fyrir tekjuskráningu er keyrt er dagsetning færð inn í reitinn **Skrá tekjur frá og með dagsetningu**. Þessi dagsetning er borin saman við dagsetninguna í reitnum **Skráningardagsetning** til að ákvarða hvaða línur eigi að skrá.
 - **Upphæð til losunar** – Hægt er að breyta upphæðinni sem verður losuð áður en unnið er úr línunni. Hægt er að lækka upphæð tekna sem er skráð, en það er ekki hægt að auka hana. Þessi reitur gerir fyrirtæki kleift að skrá hluta tekna á skráningardagsetningunni. Ef upphæðinni er breytt sýnir upphæðin í reitnum **Eftirstandandi upphæð** hversu miklar tekjur þarf samt að skrá.
@@ -94,18 +94,18 @@ Upplýsingar um tekjuáætlun eru búnar til samkvæmt tekjuáætlun sem er úth
 
 Til að breyta áætluninni skaltu velja áætlunarlínu fyrir vöruna sem þú ert að breyta. Á eftirfarandi skýringarmynd er valin lína fyrir vöru S0008 sem var bókuð með 12 mánaða tekjuáætlun. Þegar valið er **Uppfæra samningsskilmála** sýnir svargluggi upphafs- og lokadagsetningar samningsins og tekjuáætlunina.
 
-[![Upphafs- og lokadagsetningar samnings](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![Upphafs- og lokadagsetningar samnings.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 Breyta skal upphafs- og lokadagsetningum samningsins þannig að þær endurspegli rétt dagsetningabil. Þegar dagsetningabili er breytt verður gildið í reitnum **Fjöldi tilvika** að samsvara tekjuáætlun sem skilgreind hefur verið í kerfinu. Í þessu dæmi, þar sem samningnum var breytt í 24 mánaða samning, verður að setja upp 24 mánaða tekjuáætlun. Þar sem 24 mánaða tekjuáætlun er til staðar er hún sjálfkrafa færð inn og hægt er að breyta samningnum. Ef ekki er til staðar tekjuáætlun með samsvarandi fjölda tilvika er ekki hægt að breyta samningnum. Eftir að samningsskilmálar og tekjuáætlun hafa verið uppfærð eftir þörfum skal velja **Í lagi** í svarglugganum til að vista breytingarnar.
 
-[![Dagsetningabil uppfærðs samnings](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![Dagsetningabil uppfærðs samnings.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 Breytingar á samningnum hafa eftirfarandi áhrif á upplýsingar tekjuáætlunar:
 
 - Ef engar tekjur hafa verið skráðar fyrir afurðina eru allar upplýsingar fyrri áætlunar fjarlægðar og þeim skipt út fyrir upplýsingar nýju tekjuáætlunarinnar. Til dæmis var vara S0008 upphaflega með 12 línur í upplýsingum áætlunar. Þessar 12 línur eru fjarlægðar og þeim skipt út fyrir 24 línur, samkvæmt nýju tekjuáætluninni.
 - Ef tekjur hafa verið skráðar fyrir afurðina voru einhverjar tekjur ranglega skráðar vegna þess að skráningin var byggð á rangri tekjuáætlun. Bakfæra þarf þessar línur og skrá aftur út frá nýju áætluninni. Í þessu tilfelli eru nýjar tekjuáætlunarlínur stofnaðar sem eru með neikvæðar tölur á upphaflegri skráningardagsetningu. Nýjar línur eru svo stofnaðar til að skrá upphæðina sem byggjast á nýju tekjuáætluninni. Til dæmis þann 8. ágúst 2019 voru tekjur skráðar sem nemur $10,53. Þann 8. september 2019 voru tekjur skráðar sem nemur $13,16. Þar af leiðandi eru tvær nýjar línur stofnaðar á sömu dagsetningunum. Ein lína er fyrir -$10,53 og hin línan er fyrir -$13,16. Tuttugu og fjórar nýjar línur eru síðan stofnaðar og frestuðum heildartekjum að upphæð $160,61 er úthlutað á milli þeirra. Hægt er að bóka bakfærslulínur með því að keyra ferli **Stofna færslubók**.
 
-[![Tekjuskráningaráætlun](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+[![Tekjuskráningaráætlun.](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

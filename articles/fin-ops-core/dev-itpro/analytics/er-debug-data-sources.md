@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: fe3e6a4223fc8b26e523a982a2e1752a34b370de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 86551cfeda1e4204c91b0534cda563012191e25c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753673"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348117"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu
 
@@ -64,7 +64,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 1. Fylgja skal leiðbeiningunum í [Viðauki 3](#appendix3) í þessu efnisatriði til að vinna úr lánardrottnagreiðslum.
 
-    ![Greiðsluferli lánardrottins í vinnslu](./media/er-data-debugger-process-payment.png)
+    ![Greiðsluferli lánardrottins í vinnslu.](./media/er-data-debugger-process-payment.png)
 
 2. Hlaða niður og vista zip-skrána í staðbundnu tölvunni.
 3. Útvíkkið **ISO20022 Credit transfer.xml** greiðsluskrána úr zip-skránni.
@@ -72,7 +72,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
     Í greiðsluskránni inniheldur alþjóðlegt bankareikningsnúmer (IBAN-kóði) bankareiknings lánardrottins ekki nein bil. Því er það frábrugðið gildinu sem var [slegið inn](#enteredIBANcode) á síðunni **Bankareikningar**.
 
-    ![IBAN-kóði án bila](./media/er-data-debugger-payment-file.png)
+    ![IBAN-kóði án bila.](./media/er-data-debugger-payment-file.png)
 
     Hægt er að nota kembiforrit fyrir gagnagjafa rafrænnar skýrslugerðar til að finna út hvaða íhlutir rafrænnar skýrslugerðarlausnar eru notaðir til að stytta bil í IBAN-númerinu.
 
@@ -85,14 +85,14 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
     > [!NOTE]
     > Þessi breyta er notendasértæk og fyrirtækjasértæk.
 
-    ![Svarglugginn Notandafæribreytur](./media/er-data-debugger-user-parameters.png)
+    ![Svarglugginn Notandafæribreytur.](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Vinna úr greiðslu lánardrottins fyrir kembileit
 
 1. Fylgja skal leiðbeiningunum í [Viðauki 3](#appendix3) í þessu efnisatriði til að vinna úr lánardrottnagreiðslum.
 2. Í skilaboðaglugganum skal velja **Já** til að staðfesta að þú viljir rjúfa úrvinnslu lánardrottnagreiðslu og í staðinn hefja kembingu á gagnagjafa á síðunni **Kemba gagnagjafa**.
 
-    ![Staðfestingarboðsreitur](./media/er-data-debugger-start-debugging.png)
+    ![Staðfestingarboðsreitur.](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Kembigagnaveitur sem eru notaðar í greiðsluvinnslu
 
@@ -115,7 +115,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 7. Veldu **Útvíkka allt**.
 
-    ![Gildi IBAN-reits í líkanavörpun](./media/er-data-debugger-debugging-model-mapping.png)
+    ![Gildi IBAN-reits í líkanavörpun.](./media/er-data-debugger-debugging-model-mapping.png)
 
     Eins og sjá má er líkanavörpunin ekki ábyrg fyrir styttingu á bilum því að IBAN-númerið sem hún skilar fyrir bankareikning lánardrottins inniheldur bil. Þess vegna verður að halda áfram með kembingu gagnaveitu.
 
@@ -130,7 +130,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 7. Veldu **Sækja gildi**.
 8. Veldu **Útvíkka allt**.
 
-    ![Gildi IBAN-reitsins í vörpun sniðs](./media/er-data-debugger-debugging-format-mapping.png)
+    ![Gildi IBAN-reitsins í vörpun sniðs.](./media/er-data-debugger-debugging-format-mapping.png)
 
     Eins og sjá má eru gagnagjafar sniðsvörpunar ekki ábyrgir fyrir styttingu á bilum því að IBAN-númerið sem þeir skila fyrir bankareikning lánardrottins inniheldur bil. Þess vegna verður að halda áfram með kembingu gagnaveitu.
 
@@ -142,7 +142,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 4. Víkkaðu sniðseiningar til að velja **ISO20022CTReports** \> **XMLHeader** \> **Skjal** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** og veldu svo **Sækja gildi**.
 5. Veldu **Útvíkka allt**.
 
-    ![Gildi IBAN-reitsins á sniðinu](./media/er-data-debugger-debugging-format.png)
+    ![Gildi IBAN-reitsins á sniðinu.](./media/er-data-debugger-debugging-format.png)
 
    Eins og sjá má er sniðsbindingin ekki ábyrg fyrir styttingu á bilum því að IBAN-númerið sem hún skilar fyrir bankareikning lánardrottins inniheldur bil. Þess vegna er einingin **BankIBAN** skilgreind til að nota umbreytingu sniðs sem styttir bil.
 
@@ -154,13 +154,13 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 2. Á síðunni **Grunnstillingar** skal velja **Greiðslulíkan** \> **ISO20022 Kreditfærsla**.
 3. Veldu **Hönnuður** og víkkaðu svo einingarnar til að velja **Skjal** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![BankIBAN eining á síðunni Sniðshönnuður](./media/er-data-debugger-referred-transformation.png)
+    ![BankIBAN eining á síðunni Sniðshönnuður.](./media/er-data-debugger-referred-transformation.png)
 
     Eins og sjá má er einingin **BankIBAN** skilgreind til að nota umbreytinguna **fjarlægja það sem er ekki bók- eða tölustafir**.
 
 4. Veljið flipann **Umbreytingar**.
 
-    ![Umbreytingarflipi fyrir eininguna BankIBAN](./media/er-data-debugger-transformation.png)
+    ![Umbreytingarflipi fyrir eininguna BankIBAN.](./media/er-data-debugger-transformation.png)
 
     Eins og sjá má er umbreytingin **fjarlægja það sem er ekki bók- eða tölustafir** skilgreind til að nota segð sem styttir bil í textastrengnum sem gefinn er upp.
 
@@ -168,7 +168,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 Þegar skilgreind eru útgáfudrög að sniði rafrænnar skýrslugerðar sem hægt er að keyra beint úr aðgerðarhönnuði, er hægt að fá aðgang að kembiforriti gagnagjafans með því að velja **Hefja kembingu** í aðgerðasvæðinu.
 
-![Ræsihnappur kembingar á síðu aðgerðarhönnuðar](./media/er-data-debugger-run-from-designer.png)
+![Ræsihnappur kembingar á síðu aðgerðarhönnuðar.](./media/er-data-debugger-run-from-designer.png)
 
 Sniðsvörpun og sniðþættir í sniði rafrænnar skýrslugerðar sem verið er að breyta eru tiltækir fyrir kembingu.
 
@@ -176,7 +176,7 @@ Sniðsvörpun og sniðþættir í sniði rafrænnar skýrslugerðar sem verið e
 
 Þegar skilgreind er líkanavörpun rafrænnar skýrslugerðar sem hægt er að keyra á síðunni **Líkanavörpun**, er hægt að fá aðgang að kembiforriti gagnagjafans með því að velja **Hefja kembingu** á aðgerðasvæðinu.
 
-![Ræsihnappur fyrir kembingu á hönnunarsíðu líkanavörpunar](./media/er-data-debugger-run-from-designer-mapping.png)
+![Ræsihnappur fyrir kembingu á hönnunarsíðu líkanavörpunar.](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Líkanavörpunaríhlutur vörpunar rafrænnar skýrslugerðar sem verið er að breyta er tiltækur fyrir kembingu.
 
@@ -186,7 +186,7 @@ Líkanavörpunaríhlutur vörpunar rafrænnar skýrslugerðar sem verið er að 
 
 Ef ætlunin er að nota lausn rafrænnar skýrslugerðar til að búa til rafræna greiðsluskrá fyrir lánardrottnagreiðslu sem unnið er úr, er hægt að [sækja](download-electronic-reporting-configuration-lcs.md) greiðslusnið **ISO20022-kreditfærsla** rafrænnar skýrslugerðar sem er í boði í samnýttu eignasafni í Microsoft Dynamics Lifecycle Services (LCS) eða í Altæku geymslunni.
 
-![Innflutningur greiðslusniðs rafrænnar skýrslugerðar á síðu skilgreiningageymslu](./media/er-data-debugger-import-from-repo.png)
+![Innflutningur greiðslusniðs rafrænnar skýrslugerðar á síðu skilgreiningageymslu.](./media/er-data-debugger-import-from-repo.png)
 
 Til viðbótar við valið snið rafrænnar skýrslugerðar verða eftirfarandi [skilgreiningar](general-electronic-reporting.md#Configuration) að vera sjálfkrafa fluttar inn í Microsoft Dynamics 365 Finance tilvikið sem hluti af lausn **ISO20022-kreditfærslu** rafrænnar skýrslugerðar:
 
@@ -197,7 +197,7 @@ Til viðbótar við valið snið rafrænnar skýrslugerðar verða eftirfarandi 
 
 Hægt er að finna þessar skilgreiningar á síðunni **Skilgreiningar** fyrir ramma rafrænnar skýrslugerðar (**Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**).
 
-![Skilgreiningar fluttar inn á síðunni Skilgreiningar](./media/er-data-debugger-configurations.png)
+![Skilgreiningar fluttar inn á síðunni Skilgreiningar.](./media/er-data-debugger-configurations.png)
 
 Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þarf að hlaða þeim niður handvirkt úr samnýttu eignasafni LCS á sama hátt og greiðslusnið **ISO20022-kreditfærslu** rafrænnar skýrslugerðar var hlaðið niður.
 
@@ -213,7 +213,7 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 
     Takið eftir því að reiturinn **Greiðslur** í gagnalíkaninu er bundinn gagnagjafanum **\$notSentTransactions** sem skilar lista yfir greiðslulínur lánardrottna sem verið er að vinna úr.
 
-    ![Greiðslureitur á síðunni Hönnuður líkanavörpunar](./media/er-data-debugger-model-mapping.png)
+    ![Greiðslureitur á síðunni Hönnuður líkanavörpunar.](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Fara yfir vörpun sniðs
 
@@ -224,7 +224,7 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 
     Takið eftir að **Skjal** \> **CstmrCdtTrfInitn** \> **PmtInf** eining **ISO20022CTReports** \> **XMLHeader** skrárinnar tengist **\$PaymentByDebtor** gagnagjafa sem er stilltur í hópfærslur á reitnum **Greiðslur** í gagnagjafa.
 
-    ![PmtInf-eining á síðunni Sniðshönnuður](./media/er-data-debugger-format-mapping.png)
+    ![PmtInf-eining á síðunni Sniðshönnuður.](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Yfirfara snið
 
@@ -234,7 +234,7 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 
     Takið eftir að sniðsstillingin undir **Skjal** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** er stillt á að setja inn IBAN-númer reiknings lánardrottins í greiðsluskrána.
 
-    ![BankIBAN eining á síðunni Sniðshönnuður](./media/er-data-debugger-format.png)
+    ![BankIBAN eining á síðunni Sniðshönnuður.](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>Viðauki 2: Skilgreina Viðskiptaskuldir
 
@@ -243,9 +243,9 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 1. Farið í **Viðskiptaskuldir** \> **Lánardrottnar** \> **Allir lánardrottnar**.
 2. Velja skal lánardrottin **DE-01002** og síðan, á aðgerðasvæðinu, í flipanum **Lánardrottinn**, í flokknum **Uppsetning**, skal velja **Bankareikningar**.
 3. Á flipanum **Auðkenni** í reitnum **IBAN** <a name="enteredIBANcode"></a>skal slá inn **GB33 BUKB 2020 1555 5555 55**.
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
-![IBAN-reitur stilltur á bankareikningssíðu lánardrottins](./media/er-data-debugger-iban.png)
+![IBAN-reitur stilltur á bankareikningssíðu lánardrottins.](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Setja upp greiðslumáta
 
@@ -253,9 +253,9 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 2. Veljið greiðslumátann **SEPA CT**.
 3. Í flipanum **Skráasnið**, í hlutanum **Skráasnið**, skal stilla valkostinn **Almennt rafrænt útflutningssnið** á **Já**.
 4. Í **Útflutningssnið skilgreiningarsvæðinu** skal velja **ISO20022 Kreditfærsla** snið fyrir rafræna skýrslugerð.
-5. Veljið **Vista**.
+5. Veldu **Vista**.
 
-![Stillingar skráarsniðs á síðunni Greiðsluháttur](./media/er-data-debugger-payment-method.png)
+![Stillingar skráarsniðs á síðunni Greiðsluháttur.](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Bæta við greiðslu lánardrottins
 
@@ -265,9 +265,9 @@ Ef einhverjar fyrri uppgefnar skilgreiningar vantar í skilgreiningartrénu þar
 4. Í reitnum **Reikningur** velurðu lánardrottinn **DE-01002**.
 5. Í reitnum **Debet** skal slá inn gildi.
 6. Í reitnum **Greiðsluháttur** skal velja **SEPA CT**.
-7. Veljið **Vista**.
+7. Veldu **Vista**.
 
-![Lánardrottnagreiðslu bætt við síðu lánardrottnagreiðslna](./media/er-data-debugger-payment-journal.png)
+![Lánardrottnagreiðslu bætt við síðu lánardrottnagreiðslu.](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>Viðauki 3: Meðhöndla greiðslu lánardrottins
 

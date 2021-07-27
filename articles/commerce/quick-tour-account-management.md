@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027964"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352061"
 ---
 # <a name="account-management-pages-overview"></a>Yfirlit yfir síður fyrir stjórnun reikninga
 
@@ -35,7 +36,7 @@ Reikningsstjórnunarsíður leyfa viðskiptavinum að skoða upplýsingar sem te
 
 Eftirfarandi mynd sýnir dæmi um lendingarsíðu reikningsstjórnunar.
 
-![Sæmi um lendingasíðu fyrir stjórnun reikninga](./media/Account-Management.PNG)
+![Dæmi um lendingarsíðu fyrir stjórnun reikninga.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Forstillingarsíða mín
 
@@ -43,7 +44,7 @@ Síðan **Mínar forstillingar** sýnir reikningsupplýsingar viðskiptavinarins
 
 Eftirfarandi mynd sýnir dæmi um **Notandaupplýsingarnar mínar** sem var byggð á með einingarsafninu.
 
-![Dæmi um síðuna Mínar forstillingar](./media/Account-Management-MyProfile.PNG)
+![Dæmi um síðuna Mínar forstillingar.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Síðan Heimilisföng
 
@@ -51,7 +52,7 @@ Síðan **Heimilisföng** gerir viðskiptavininum kleift að bæta við netföng
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Heimilisföng**.
 
-![Dæmi um síðuna Heimilisföng](./media/Account-Management-Address.png)
+![Dæmi um síðuna Heimilisföng.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pöntunarferill og síður um pöntunarupplýsingar
 
@@ -59,11 +60,11 @@ Síðan **Pöntunarferill** sýnir yfirlit yfir allar pantanir sem viðskiptavin
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Pöntunarferill**.
 
-![Dæmi um síðu pöntunarferils](./media/Account-Management-OrderHistory.PNG)
+![Dæmi um síðu pöntunarferils.](./media/Account-Management-OrderHistory.PNG)
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Pöntunarupplýsingar**.
 
-![Dæmi um síðu pöntunarupplýsinga](./media/Account-Management-OrderDetails.PNG)
+![Dæmi um síðu pöntunarupplýsinga.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Síðan Vildarkerfi
 
@@ -71,7 +72,7 @@ Síðan **Vildaráætlun** gerir viðskiptavininum kleift að gerast aðili að 
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðuna **Vildarkerfi**.
 
-![Dæmi um síðu vildarkerfis](./media/Account-Management-Loyalty.PNG)
+![Dæmi um síðu vildarkerfis.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Síða óskalista
 
@@ -79,7 +80,7 @@ Síðan **Óskalisti** sýnir lista yfir þá hluti sem viðskiptavinurinn hefur
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðuna **Óskalisti**.
 
-![Dæmi um óskalistasíðu](./media/Account-Management-Wishlist.PNG)
+![Dæmi um óskalistasíðu.](./media/Account-Management-Wishlist.PNG)
 
 Nánari upplýsingar um reikningastjórnunareiningar og hvernig á að skrifa þær, sjá [Reikningsstjórnun](account-management.md).
 

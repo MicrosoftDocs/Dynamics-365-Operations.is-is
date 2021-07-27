@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355533"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Aðferð við hálfsársafskriftir
 
@@ -36,7 +36,7 @@ Fyrsta þjónustuári lýkur í desember 2020, sem þýðir að lok fimm ára l�
 > Árleg afskrift 50.000/5 = 10.000 mánaðarleg afskrift 10.000/12 = 833,33 <br>
 > Fyrsta ársafskrift 10.000/2 = 5.000 og síðari mánaðarleg afskrift 5.000/9 = 555,56
 
-   [![Afskriftaráætlun fyrir hálfs ára afskriftarreglu](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Afskriftaráætlun fyrir hálfs ára afskriftarreglu.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Útvíkkuð afskriftartímabil sem er bætt við með hálfs ára reglu bjóða upp á nákvæmari úthlutanir afskrifta. Sex mánaða reglan endurspeglar jafnari afskriftarkostnað, sem er gagnlegt fyrir skýrslugerð í rekstraryfirliti.
 

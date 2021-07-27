@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 65c174896bbee07514285d4d19e1693c13dd9697
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db58e3d1a6665d15ad2f3ac25612ecbf448a9c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021517"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344197"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Viðmót efnismeðhöndlunarbúnaðar (MHAX)
 
@@ -29,7 +29,7 @@ Hægt er að nota *viðmót efnismeðhöndlunarbúnaðar* (MHAX) til tengja ytri
 
 Eftirfarandi mynd sýnir ýmsar einingar og röðina sem unnið er úr í þegar MHAX-samþættingu er notuð.
 
-![MHAX-hlutir og samskipti](media/mhax-components.png "MHAX-hlutir og samskipti")
+![MHAX-hlutir og samskipti.](media/mhax-components.png "MHAX-hlutir og samskipti")
 
 Hér er útskýring á samskiptum sem birtast í fyrri mynd:
 

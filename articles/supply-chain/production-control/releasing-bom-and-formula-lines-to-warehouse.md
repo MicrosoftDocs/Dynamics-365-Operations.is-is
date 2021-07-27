@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811679"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350547"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
@@ -61,7 +61,7 @@ Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framle
 
 Eftirfarandi mynd sýnir framleiðslupöntun sem hefur tvær vinnslur, 10 og 20, sem dekka samsetninguna og pökkun fyrir framleiðslupöntunina. Hver vinnsla er sett upp til að nota magn efnis. Í þessari mynd eru tímamörk losunar sem táknað er með græna örina undir tímalínunni jafngildir fjölda daga sem hefur verið tilgreint í **(LessThanDate ())** viðmiðuninni. Til dæmis, **(LessThanDate (2))** gefur til kynna að vinnslan ætti að leita að ólosuðu magni aðeins innan tímamarka upp á tvo daga.
 
-![Dæmi um framleiðslupöntun sem hefur tvær runuvinnslur](media/bach-job-setup.PNG)
+![Dæmi um framleiðslupöntun sem hefur tvær runuvinnslur.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Losun efnis fyrir hverja aðgerðarnúmer eða í hlutfalli við magn fullunninnar vöru
 
@@ -78,7 +78,7 @@ Til að stjórna þeim aðgerðum sem efnið ætti að vera losað til, notaðu 
 
 Eftirfarandi mynd sýnir framleiðslupantanir sem hefur tvær aðgerðir, 10 og 20. Í þessu dæmi, ef þú takmarkar losun við aðgerð 10, verður aðeins efni M9203 losað.
 
-![Dæmi um losun efnis fyrir hvert aðgerðarnúmer](media/two-operations.PNG)
+![Dæmi um losun efnis fyrir hvert aðgerðarnúmer.](media/two-operations.PNG)
 
 Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube-myndband um [endurbætur á losunarferli framleiðslupöntunar](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

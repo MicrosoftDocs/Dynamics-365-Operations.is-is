@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936805"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346805"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Stjórna eigindum og eigindaflokkum
 
@@ -70,7 +70,7 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
     - Skírið eina gerð eigindar **Umgjörð** og bætið við eftirfarandi gildum: **Sporaskja**, **Ferningur** og **Rétthyrningur**.
     - Skírið hina gerð eigindar **Vörumerki sólgleraugna** og bætið við eftirfarandi gildum: **Ray ban**, **Aviator** **Oakley**.
 
-![Gerðir eiginda](media/AttributeType.png)
+![Gerðir eiginda.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Setja upp eigind
 
@@ -79,7 +79,7 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
 3. Stofnið eigind með heitinu **Gler**.
 4. Stillið svæðið **Gerð eigindar** á **Umgjörð**.
 
-![Eigindir](media/Attribute.png)
+![Eigindir.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Lýsigögn eiginda
 
@@ -134,7 +134,7 @@ Síðan **Kjörstillingar á síubirtingu** inniheldur eftirfarandi svæði:
     - 200 – 500
     - 500 eða fleiri
 
-![Síustillingar eigindar](media/AttributeFilterSettings.PNG)
+![Síustillingar eigindar.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Eigindaflokkar
 
@@ -142,7 +142,7 @@ Eftir að eigindir hafa verið skilgreindar er hægt að úthluta þeim í eigin
 
 Þú getur einnig stillt sjálfgildi fyrir eigindir sem eru í eigindaflokk. Til dæmis er bætt við eigind fyrir lit í eigindaflokki og **Blár** er valinn sem sjálfgildi eigindar. Í þessu tilviki, þegar eigindaflokknum er bætt við söluafurð sem inniheldur lit sem eina af eigindum sínum, birtist **Blár** sem sjálfgefinn litur fyrir þá afurð.
 
-![Eigindaflokkar](media/AttributeGroup.png)
+![Eigindaflokkar.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Stofna eigindahóp
 
@@ -155,7 +155,7 @@ Eftir að eigindir hafa verið skilgreindar er hægt að úthluta þeim í eigin
 
 Einn eða fleiri eigindaflokkar geta tengst tegundahnútum í eftirfarandi gerðum af flokkastigveldi söluafurða: Stigveldi Commerce afurða, stigveldi fyrir skoðunarflokk rásar og tegundastigveldi viðbótarafurðar. Þegar afurðir hafa verið flokkaðar, erfa þær eigindir sem eru innifaldar í eigindaflokkunum.
 
-![Afurðastigveldi – Eigindaflokkar afurðar](media/AGRetailProdHierarchy.PNG)
+![Afurðastigveldi – Eigindaflokkar afurðar.](media/AGRetailProdHierarchy.PNG)
 
 Fylgdu þessum leiðbeiningum til að úthluta eigindahópum í flokka í stigveldi Commerce afurðar.
 
@@ -200,7 +200,7 @@ Einn eða fleiri eigindaflokkar geta tengst einni eða fleiri söluverslunum í 
     3. Veljið tegundahnútinn **Tískufylgihlutir**, veljið flokkinn **Tískasólgleraugu** og síðan á flýtiflipanum **Afurðareigindir rásar** skal velja **Taka með eigind** fyrir hverja eigind.
     4. Veljið tegundahnútinn **Herraklæðnaður**, veljið flokkinn **Buxur** og síðan á flýtiflipanum **Afurðareigindir rásar** skal velja **Taka með eigind** fyrir hverja eigind.
 
-![Tegundir rása og afurðareigindir – Eigindaflokkar](media/CCPAttrGrp.png)
+![Tegundir rása og afurðareigindir – Eigindaflokkar.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Hnekkja eigindagildum
 
@@ -214,7 +214,7 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 4. Veljið nauðsynlega afurð í hnitanetinu. Í aðgerðarúðunni á flipanum **Afurð** í flokknum **Uppsetning** skal velja **Afurðareigindir**.
 5. Velja skal eigind á svæðinu til vinstri og síðan uppfæra gildi þess á svæðinu til hægri.
 
-![Upplýsingasíða afurðar – flokkar afurðareigindar](media/ProdDetailsProdAttrValues.png)
+![Upplýsingasíða afurðar – flokkar afurðareigindar.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Hnekkja skal eigindagildum afurða í vörulista
 
@@ -233,7 +233,7 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
     > [!NOTE]
     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar eiga þær við um allar söluafurðir.
 
-![Vörulisti yfir eigindaflokka afurðar](media/CatalogProdAttrValues.png)
+![Vörulisti yfir eigindaflokka afurðar.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Hnekkja skal eigindagildum afurða í rás
 

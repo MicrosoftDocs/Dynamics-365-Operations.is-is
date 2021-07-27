@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347711"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Bæta frammistöðu röðunarvélar
 
@@ -66,11 +66,11 @@ Sem dæmi skal hafa í huga leið sem birtist í eftirfarandi töflu og mynd, se
 | 10 | Auka&nbsp;1 | | | | 1 | 20 |
 | 20 | Aðal | | 3.00 | 1.00 | 3 | 0 |
 
-![Dæmi um skýringarmynd leiðar](media/scheduling-engine-route.png "Skýringarmynd með dæmi um leið")
+![Dæmi um skýringarmynd leiðar.](media/scheduling-engine-route.png "Skýringarmynd með dæmi um leið")
 
 Þegar þetta er sent til vélarinnar, er því skipt niður á átta vinnslur eins og sýnt er í eftirfarandi skýringarmynd (veljið myndina til að stækka hana).
 
-[![Verk röðunarvélar](media/scheduling-engine-jobs.png "Verk röðunarvélar")](media/scheduling-engine-jobs-large.png)
+[![Verk röðunarvélar](media/scheduling-engine-jobs.png „Verk röðunarvélar.“](media/scheduling-engine-jobs-large.png)
 
 Staðlaður tengill á milli tveggja vinnsla er `FinishStart`, sem þýðir að lokatími einnar vinnu verður að vera á undan upphafstíma annarrar vinnu. Vegna þess að uppsetningin verður að vera framkvæmd af sama tilfangi sem síðar gerir ferlið, eru `OnSameResource` takmarkanir á milli þeirra. Milli vinnsla fyrir fyrstu og aðra aðgerð fyrir 10, eru `StartStart` og `FinishFinish` tenglar, sem þýðir að vinnslurnar verða að báðar að hefjast og enda á sama tíma og það eru `NotOnSameResource` takmarkanir, sem kemur í veg fyrir sama tilfangið fyrir fyrsta og annað.
 

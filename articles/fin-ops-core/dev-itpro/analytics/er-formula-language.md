@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355395"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formúlutungumál í rafrænni skýrslugerð
 
@@ -117,15 +117,15 @@ Ef aðferðir gagnagjafa forrits hafa breytur er eftirfarandi málskipan notuð 
 
 Ef slóð skipulögð gagnaheimild byrjar með „at“ merki (@), þá er það afstæður slóð. Merkið „at“ er sýnt í stað þess hluta sem eftir er af algeru slóð stigveldisins tréskipulags sem er notað. Eftirfarandi skýringarmynd sýnir dæmi. Hér sýnir algilda slóðin `Ledger.'accountingCurrency()'` að gildi bókhaldsgjaldmiðils úr gagnagjafanum **Fjárhagur** er skráð í reitinn **AccountingCurrency** í gagnalíkaninu.
 
-![Dæmi um algilda slóð á hönnuðarsíðu ER-líkanavörpunar](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Dæmi um fulla vefslóð á hönnuðarsíðu líkanavörpunar rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Dæmið á eftirfarandi mynd sýnir hvernig tengd slóð er notuð. Tengda slóðin `@.AccountNum` sýnir að reiturinn **AccountNum** í gagnagjafanum **Intrastat** (sem birtist einu stigi fyrir ofan reitinn **AccountNum** í stigveldistré gagnalíkansins) er notaður til að skrá reikningsnúmer viðskiptavinar eða lánardrottins í reitinn **AccountNum** í gagnalíkaninu.
 
-![Dæmi um tengda slóð á hönnuðarsíðu ER-líkanavörpunar](./media/ER-FormulaLanguage-RelativePath1.png)
+![Dæmi um afstæða vefslóð á hönnuðarsíðu líkanavörpunar rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Það sem eftir er af algildu slóðinni er einnig sýnt í [ER-formúluritill](general-electronic-reporting-formula-designer.md).
 
-![Eftirstandandi hluti af algildu slóðinni á hönnunarsíðu ER-formúlu](./media/ER-FormulaLanguage-RelativePath2.png)
+![Eftirstandandi hluti af afstæðri vefslóð á hönnuðarsíðu formúlu rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Frekari upplýsingar er að finna í [Nota tengda slóð í gagnabindingu líkana rafrænnar skýrslugerðar](relative-path-data-bindings-er-models-format.md).
 

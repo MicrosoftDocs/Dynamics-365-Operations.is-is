@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271402"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350329"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Nota stillingar mælieiningar
 
@@ -32,7 +32,7 @@ Hægt er að selja vöru í mismunandi einingum, eins og „hver“, „par“ o
 
 Í dæminu á eftirfarandi mynd hefur verið stillt á vöru í mælieiningu **ea** (hverjr) í Commerce Headquarters.
 
-![Dæmi um vöru sem er stillt með mælieiningu í Commerce Headquarters](./media/Productunit-headquarters.PNG)
+![Dæmi um vöru sem er stillt með mælieiningu í Commerce Headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Stuðningur við að sækja og sýna mælieininguna er tiltækur frá og með Commerce útgáfu 10.0.19.
@@ -54,11 +54,11 @@ Einingar sem nota mælieiningarstillingarnar eru kaupkassar, óskalisti, karfa, 
 
 Í dæminu á eftirfarandi mynd sýnir upplýsingar um afurð (PDP) mælieininguna (**ea**) fyrir vöru.
 
-![Dæmi um vörusafnseiningu sem sýnir mælieininguna](./media/Productunit-PDP.png)
+![Dæmi um vörusafnseiningu sem sýnir mælieininguna.](./media/Productunit-PDP.png)
 
 Í dæminu á eftirfarandi mynd sýnir vörusafnseining mælieininguna (**ea**) fyrir vöru.
 
-![Dæmi um vörusafnseiningu sem sýnir mælieininguna](./media/Productunit-productcollection.png)
+![Dæmi um vörusafnseiningu sem sýnir mælieininguna.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

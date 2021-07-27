@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353891"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
@@ -38,7 +38,7 @@ Myndbandið [Bjóða viðskiptavinum að skrá sig og nota viðskiptavinagáttin
 
 Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í töflunni **Tengiliðir** í Microsoft Dataverse. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
 
-![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
+![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar.](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
 
 Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja töfluvörpunina **Tengiliðir** í tvíritun.
 

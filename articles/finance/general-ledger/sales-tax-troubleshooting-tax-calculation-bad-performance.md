@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020140"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352835"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Framkvæmd skattaútreiknings hefur áhrif á færslur
 
@@ -36,7 +36,7 @@ Stundum verður færsla fyrir áhrifum af afkastavandamálum skattaútreiknings.
 - Margar lotur vinna úr sama skattaútreikningi á færslu samtímis.
 - Færslan hefur margar línur og yfirlitin eru uppfærð í rauntíma. Til dæmis er reiturinn **Reiknuð upphæð virðisaukaskatts** á síðunni **Almenn færslubók** uppfærður í rauntíma þegar reitum línu er breytt.
 
-   [![Reitur reiknaðrar upphæðar virðisaukaskatts á síðu fylgiskjals færslubókar](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Reitur reiknaðrar upphæðar virðisaukaskatts á síðu fylgiskjals færslubókar.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Séu einhverju þessara skilyrða til staðar skal fresta skattútreikningnum.
 
@@ -53,11 +53,11 @@ Farið yfir tímalínu kallstaflans til að ákvarða hvort eftirfarandi vandam�
 
 - Færslan veldur því að kerfið hættir að svara þar til lotunni lýkur. Þess vegna getur færslan ekki reiknað út niðurstöður skatts. Eftirfarandi skýringarmynd sýnir skilaboðagluggann „Lotu lauk“ sem þú fékkst.
 
-    [![Skilaboð fyrir lok lotu](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Skilaboð fyrir lok lotu.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - Aðferðir **TaxUncommitted** taka lengri tíma en aðrar aðferðir. Á eftirfarandi mynd tekur til dæmis aðferðin **TaxUncommitted::updateTaxUncommitted()** 43.347,42 sekúndur, en hinar aðferðirnar taka 0,09 sekúndur.
 
-    [![Tímalengd aðferðar](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Tímalengd aðferðar.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Sérstilling og kallað í skattaútreikning
 

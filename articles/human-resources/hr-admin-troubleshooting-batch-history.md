@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053492"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344665"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Fínstilltu árangur með sjálfvirkum hreinsunarverkum
 
@@ -41,25 +41,25 @@ Tímasettu sjálfvirkt verkefni til að hreinsa úr sögu runuvinnslu. Við mæl
 
 2. Á slánni **Leita** slærðu inn **Hreinsun á sögu runuvinnslu**.
 
-   ![Leita að hreinsun runuvinnsluferlis](media/talent-batch-history-cleanup-search-bar.png)
+   ![Leita að hreinsun á runuvinnsluferli.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. Í **Sögutakmörkun (í dögum)** skaltu færa inn **30**.
 
-   ![Stilltu sögutakmörkun í 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Setja takmörkun ferils á 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Veldu **Keyra í bakgrunni** og veldu síðan **Endurtekning**.
 
-   ![Stilla endurtekningu](media/talent-batch-history-cleanup-recurrence.png)
+   ![Stilltu endurtekningu.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Undir **Skilgreina endurtekningu** stillirðu **Upphafsdag** og **Upphafstíma** til að eiga sér stað utan vinnutíma eða um helgar og velur síðan **ENGIN LOKADAGS.**. 
 
-   ![Skilgreindu upphafsdag og -tíma endurtekningar](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Skilgreina upphafsdagsetningu og tíma endurtekningar.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Undir **ENDURTEKNINGARMYNSTUR** velurðu **Dagar** og stillir **ENDURTAKA EFTIR TILTEKIÐ BIL** á **7**.
 
-   ![Stilltu hreinsun til að endurtaka vikulega](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Stilla hreinsun þannig að hún endurtaki sig vikulega.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
-7. Veljið **Í lagi**.
+7. Veldu **Í lagi**.
 
 8. Breyta öðrum breytum undir **Keyra í bakgrunni** eftir þörfum og veldu síðan **Í lagi**.
 
