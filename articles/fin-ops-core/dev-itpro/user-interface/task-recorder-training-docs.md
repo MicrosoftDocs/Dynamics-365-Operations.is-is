@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a2bc5aa1080709931b3aa71c548a7bf2fb9b1192
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188076"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354294"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Búa til fylgiskjöl eða þjálfun með verkskráningu
 
@@ -62,21 +62,21 @@ Hvort sem verið er að stofna nýtt verkskráning eða byggja skráningu þína
 
 Þetta er breytingarúðunni sem þú sérð hvenær athugasemd er bætt við á meðan þú stofnar skráningu. Færa inn titil athugasemdar í **Titill**. 
 
-[![Breyti glugganum með athugasemdartilkynningu](./media/screen1.png)](./media/screen1.png) 
+[![Glugga með athugasemd titils breytt.](./media/screen1.png)](./media/screen1.png) 
 
 Svona lítur athugasemd titils út í talblöðrunni í verkefnaleiðbeiningar. 
 
-[![Útlit titilsritunar í verkefnahandbók](./media/screen2.png)](./media/screen2.png)
+[![Framsetning athugasemdar titils í verkleiðbeiningu.](./media/screen2.png)](./media/screen2.png)
 
 -   **Titill**: athugasemdarskýring birtist eftir textaþrepið sem verkskráning myndar sjálfkrafa. Í verkefnaleiðbeiningar hún verður aðeins sýnilegur ef notandi smellir á **Sýna fleiri** tengil í talblöðru verkefnaleiðbeininga. Notið þessa gerð skýringar til að lýsa því sem notandi þarf að vita að ljúka við skref.
 
 Þetta er breytingarúðunni sem þú sérð hvenær athugasemd er bætt við á meðan þú stofnar skráningu. Færa inn athugasemdaskýringu í **Athugasemdir:**. 
 
-[![Að breyta rúðunni með athugasemd í athugasemdareitnum](./media/screen3.png)](./media/screen3.png) 
+[![Að breyta rúðunni með athugasemd í athugasemdareitnum.](./media/screen3.png)](./media/screen3.png) 
 
 Svona lítur athugasemdarskýring út í talblöðrunni í verkefnaleiðbeiningum.
 
-[![Útlit athugasemdaritunar í verkefnahandbók](./media/screen4.png)](./media/screen4.png)
+[![Framsetning athugasemdaritun í verkleiðbeiningu.](./media/screen4.png)](./media/screen4.png)
 
 -   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt; **Verkskráning** &lt; **Bæta við upplýsingaskrefi.** Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan við forritið eða til að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
 

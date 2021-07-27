@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822540"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354109"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Setja upp æskilega viðhaldsstarfskrafta
 
@@ -59,7 +59,7 @@ Forgangsviðhaldsstarfsmaður eða starfsmannahópur getur verið skyldur einum 
 
     [!NOTE] Almennt þegar valinn viðhaldsstarfsmaður er valinn meðan á tímasetningu vinnu stendur fer eignastýring í gegnum allar **Forgangsstarfsmenn viðhalds** skrár til að leita að mögulegri samsvörun, athugaðu alltaf sérstaka samsetningu fyrst. Ef engin samsvörun er að finna, er „sjálfgefna“ skráin með valinu í annaðhvort reitnum **Forgangshópur starfsmanna viðhalds** eða reitnum **Forgangsstarfsmaður viðhalds** notuð.
 
-![Mynd 1](media/02-work-order-scheduling.png)
+![Mynd 1.](media/02-work-order-scheduling.png)
 
 Þú getur líka sett upp *ábyrga* viðhaldsstarfsmenn sem hægt er að velja þegar viðhaldsbeiðni eða verkbeiðni er búin til. Hægt er að breyta valinu í **Öllum verkbeiðnum** og **Öllum viðhaldsbeiðnum**, ef þess þarf. Nánari upplýsingar er að finna í [Ábyrgir viðhaldsstarfsmenn](../setup-for-maintenance-requests/responsible-workers.md).
 

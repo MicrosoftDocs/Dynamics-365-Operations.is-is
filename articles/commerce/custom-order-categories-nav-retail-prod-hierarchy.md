@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937063"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349675"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Breyta röðun fyrir smásölueiningar
 
@@ -51,9 +51,9 @@ Stuðningur við röðun ýmissa smásöluaðila hefur verið aukinn. Þessi stu
 
 Skjápöntunin fyrir yfirlitsstigveldi rásar mun endurspeglast í aðalstöðvum fyrir stigveldi afurðar netverslunar og losaðar afurðir eftir flokkum.
 
-![Sérsniðin afurðastigveldi flokkuð með neikvæðum gildum](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Afurðarstigveldi raðað með neikvæðum gildum.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Losaðar afurðir eftir flokkum sérraðað eftir afurðastigveldi](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Losaðar afurðir eftir flokki raðað út frá afurðastigveldinu.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Skilgreindu birtingarröð fyrir flokka í yfirlitsstigveldi rásar
 
@@ -77,11 +77,11 @@ Skjápöntunin fyrir yfirlitsstigveldi rásar mun endurspeglast í aðalstöðvu
 
 Birtingarröð fyrir yfirlitsstigveldi rásarinnar endurspeglast í aðalstöðvum, vörulista og rásum.
 
-![Sérröðun yfirlitsstigveldis rásar](./media/ChannelNavCustomSorted.png)
+![Sérstillt röðun á yfirlitsstigveldi rásar.](./media/ChannelNavCustomSorted.png)
 
-![Yfirlitsstigveldi vörulista sérflokkuð eftir yfirlitsstigveldi rásarinnar](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Sérstillt röðun á yfirlitsstigveldi vörulista samkvæmt yfirlitsstigveldi rásar.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![Sölustaður með sérsniðnum flokkum](./media/POSChannelCategoriesCustomSorted.png)
+![Sölustaður með sérstillta röðun flokka.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Sjálfgefið er að slökkt sé á sérröðunarstillingunni. Til að læra hvernig á að kveikja á þessum eiginleika og öðrum eiginleikum skal sjá [Eiginleikastjórnun](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).

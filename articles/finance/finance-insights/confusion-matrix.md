@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193541"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349059"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Niðurstöður vélnámslíkana (forskoðun)
 
@@ -34,7 +34,7 @@ ms.locfileid: "6193541"
 
 Til dæmis getur markmiðið verið að spá fyrir um hvort gæludýr sé hundur eða köttur byggt á líkamlegum eigindum og hegðunarmáta. Ef þú ert með tilraunagagnasafn sem inniheldur 30 hunda og 20 ketti, gæti ruglingsfylkið verið í líkingu við eftirfarandi mynd.
 
-![Dæmi um spá á tegund](media/species-prediction-matrix.png)
+![Dæmi um spá á tegund.](media/species-prediction-matrix.png)
 
 Tölurnar í grænu reitunum tákna réttar spár. Eins og sjá má spáði líkanið hærri prósentu af raunverulegum köttum rétt. Auðvelt er að reikna út heildarnákvæmni líkansins. Í þessu tilvikum er það 42 ÷ 50 eða 0,84.
 
@@ -44,7 +44,7 @@ Flestar umræður um ruglingsfylkið snúast um tvíundarflokkara eins og í fyr
 
 Næst athugum við flokkunarvandamál fyrir fjármálaaðstæður sem er með þrjár stöður. Líkanið spáir fyrir um hvort reikningur viðskiptavinar verði greiddur tímanlega, of seint eða mjög seint. Sem dæmi, af 100 prufureikningum eru 50 greiddir á tíma, 35 of seint og 15 mjög seint. Í þessu tilfelli gæti líkan framleidd ruglingsfylki sem svipar til eftirfarandi myndar.
 
-![Gerð 1](media/payment-prediction-matrix.png)]
+![Gerð 1.](media/payment-prediction-matrix.png)]
 
 Ruglingsfylki veitir umtalsvert meiri upplýsingar en einföld nákvæmnismæling. Það er samt sem áður frekar auðvelt að skilja það. Ruglingsfylki segir til um hvort þú sért með gagnasafn í jafnvægi þar sem úttaksklasarnir eru með svipaða fjölda. Fyrir aðstæður margra klasa segir það til um hversu langt frá spáin var þegar úttaksklasarnir eru raðnúmer, eins og í fyrrgreindu dæmi um greiðslur viðskiptavinar.
 
@@ -55,7 +55,7 @@ Vegna þess að nákvæmni er auðveld mæling til að skilja, er hún góður u
 
 Til að fá dýpri þekkingu eru hinsvegar nokkrar áskoranir sem tengjast nákvæmni sem þarf að hafa í huga. Notagildi mælingarinnar fer eftir eðli vandamálsins. Spurning sem kemur oft upp í sambandi við afköst líkansins er: „Hversu gott er líkanið?“ En þeirri spurningu er ekki auðsvarað. Íhugið eftirfarandi ruglingsfylki (líkan 2).
 
-![Dæmi um greiðsluspá með stærra sýni](media/payment-prediction-matrix-2.png)
+![Dæmi um greiðsluspá með stærra sýni.](media/payment-prediction-matrix-2.png)
 
 Skyndiútreikningur sýnir að nákvæmni þessa líkans er (70 + 10 + 3) ÷ 100 eða 0,83. Á yfirborðinu virðist þessi útkoma vera betri en niðurstöður fyrir fyrra fjölflokka líkanið (líkan 1) sem var með nákvæmni upp á 0,73. En er þetta betra?
 
@@ -87,7 +87,7 @@ Eftirfarandi tafla tekur saman þessa reglu fyrir ruglingsfylkin í þessu efnis
 
 Áður en hægt er að skilgreina F1 nákvæmni þarf að kynna tvo frekari mælikvarða: samkvæmni og endurkall. Samkvæmni gefur til kynna hversu mörgum af heildarfjölda spáa sem eru tilgreindar sem jákvæðar eru rétt úthlutaðar. Þessi mæling er einnig þekkt sem jákvætt spágildi. Afturköllun er heildarfjöldi raunverulegum jákvæðum málum sem var spáð rétt. Þessi mæling er einnig þekkt sem næmni.
 
-[![Réttar niðurstöður vs. rangar niðurstöður](./media/tn-fn.png)](./media/tn-fn.png)
+[![Réttar niðurstöður vs. rangar niðurstöður.](./media/tn-fn.png)](./media/tn-fn.png)
 
 Í ruglingsfylkinu í fyrrgreindri mynd eru þessar mælingar reiknaðar á eftirfarandi hátt:
 
@@ -100,7 +100,7 @@ F1-mælingin sameinar samkvæmni og afturköllun. Niðurstaðan er þýtt meðal
 
 Lítum á dæmi. Fyrr í þessu efnisatriði kom fram dæmi um líkan sem spáði því hvort dýr væri hundur eða köttur. Myndin er endurtekin hér.
 
-[![Dæmi um spá á tegund (endurtekið)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Dæmi um spá á tegund (endurtekið).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 Hér eru niðurstöðurnar ef „hundur“ er notaður sem jákvæða svarið.
 
@@ -114,9 +114,9 @@ Eins og sjá má er F1-gildið á milli gildanna fyrir samkvæmni og afturköllu
 
 Hlutinn [Nákvæmni líkans](#model-accuracy) í þessu efnisatriði bar saman eftirfarandi tvö ruglingsfylki. Þrátt fyrir að fyrsta líkanið hafði lægri nákvæmni var það gagnlegra líkan vegna þess að það sýndi meiri framför en sjálfgefin ágiskun um greiðslu á réttum tíma.
 
-![Dæmi um greiðsluspá í samanburði við rauntölur](media/payment-prediction-matrix.png)
+![Dæmi um greiðsluspá í samanburði við rauntölur.](media/payment-prediction-matrix.png)
 
-![Dæmi um greiðsluspá með stærra sýni (endurtekið)](media/payment-prediction-matrix-2.png)
+![Dæmi um greiðsluspá með stærra sýni (endurtekið).](media/payment-prediction-matrix-2.png)
 
 Við skulum skoða mismun þessara tveggja líkana þegar F1 stig er notað. F1-stigaþátturinn í samkvæmni og afturköllun fyrir hvert stig og F1-fjölvareikningurinn finnur meðaltal F1-stiga fyrir allar stöðurnar til að ákveða heildarstig F1. Til eru önnur F1-afbrigði, en hagstæðara er að taka tillit til fjölvaútgáfunnar, ef öllum þremur stigunum er gefið jafnmikið vægi.
 

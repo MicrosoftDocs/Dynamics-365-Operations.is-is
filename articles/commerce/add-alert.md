@@ -2,7 +2,7 @@
 title: Auglýsingaborðaeining
 description: Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796247"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479353"
 ---
 # <a name="promo-banner-module"></a>Tilboðsborðaeining
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -46,7 +47,7 @@ Hægt er að nota auglýsingaborða í haus síðunnar til að sýna kynningar e
 
 Eftirfarandi mynd sýnir dæmi um tilboðsborða.
 
-![Dæmi um einingu tilboðsborða](./media/ecommerce-Promobanner.PNG)
+![Dæmi um einingu tilboðsborða.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Eiginleikar auglýsingaborðaeiningar
 
@@ -59,6 +60,10 @@ Eftirfarandi mynd sýnir dæmi um tilboðsborða.
 | Sýna myndaræmuflipa     | **Satt** eða **Ósatt**              | Gildi sem gefur til kynna hvort sýna ætti myndaræmuflipana svo viðskiptavinir geti flett handvirkt í gegnum marga borðahluti. |
 | Textajöfnun            | **Hægri**, **Vinstri** eða **Miðja** | Textajöfnunin í auglýsingaborðaeiningunni. |
 | Tengill                      | Slóð                              | Slóðin fyrir valfrjálsan tengil. |
+|Textajöfnun             | **Hægri**, **Vinstri** eða **Miðja** | Þessi eiginleiki er í boði sem þemaviðbót við þema Adventure Works. Hann gerir notanda kleift að stilla af textann í auglýsingaborðanum. |
+
+> [!IMPORTANT]
+> Þema Adventure Works er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Bæta auglýsingaborðaeiningu við síðu 
 
@@ -78,7 +83,6 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 
 > [!NOTE]
 > Auglýsingaborði er venjulega notaður í hólfi síðuhausa eða hólfi undirhauss.
-
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

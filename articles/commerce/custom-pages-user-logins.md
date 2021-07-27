@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936781"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349651"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
@@ -40,7 +40,7 @@ Hægt er að smíða sérsniðnar viðskiptasíður með því að nota innskrá
 
 Eftir að þú hefur sett upp þinn Azure AD B2C leigjanda og tengt hann við viðskiptaumhverfi þitt ferðu á síðuna **Azure AD B2C** í Azure gáttinni og síðan á valmyndinni undir **Stefnur** velurðu **Notendastreymi (reglur)**.
 
-![Skipunin Notandaflæði (stefna) í valmyndinni](./media/B2C_CustomPage_PoliciesMenu.png)
+![Skipunin Notandaflæði (stefna) í valmyndinni.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Þú getur nú stillt innskráninguna "Skráðu þig inn og skráðu þig inn", "Prófíklippingu" og "Lykilorð endurstillt" innskráningarflæði notenda.
 
@@ -54,13 +54,13 @@ Fylgdu þessum skrefum til að stilla stefnuna „Skráning og innskráning“.
 1. Í dálkinn **Innheimtueigind** skaltu velja gátreitina fyrir **Netfang**, **Fornafn** og **Eftirnafn**.
 1. Í dálknum **Skilakrafa** skaltu velja gátreitina fyrir **Netföng**, **Fornafn**, **Kennisveitandi**, **Eftirnafn** og **Hlutakenni notanda**.
 
-    ![Eiginleikar og kröfur valdar](./media/B2C_SignInSignUp_Attributes.png)
+    ![Eigindir og kröfur valdar.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Velja skal **Í lagi** til að stofna regluna.
 1. Tvísmelltu á nýja regluheitið og veldu síðan í yfirlitsglugganum **Eiginleikar**.
 1. Stilltu valkostinn **Virkja JavaScript til að framfylgja blaðsíðuútliti (forsskoðun)** á **Á**.
 
-    ![Eiginleikasíða fyrir nýju regluna](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Eiginleikasíða fyrir nýju regluna.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Vísað verður að fullu til heitis reglunnar í viðskiptaumhverfi. (Forskeytið **B2C\_1\_** verður með í tilvísuninni.) Ekki er hægt að endurnefna reglur eftir að þær eru búnar til. Ef þú ert að skipta út núverandi reglu fyrir viðskiptaumhverfi þitt geturðu eytt upprunalegu reglunni og byggt upp nýja reglu með sama heiti. Að öðrum kosti, ef umhverfið hefur þegar verið útvegað, geturðu sent nýja regluheitið í gegnum þjónustubeiðni.
@@ -148,9 +148,9 @@ Til að uppfæra regluna „Skráning og innskráning“ með sérsniðnum síð
     1. Fyrir eigindirnar **Fornafn** og **Eftirnafn** skaltu velja **Nei** í reitnum **Krefst staðfestingar**.
     1. Fyrir eigindina **Netfang** er mælt með að halda sjálfgefna gildinu **Já** völdu í dálknum **Krefst staðfestingar**. Þessi valkostur tryggir að notendur sem skrá sig með tilteknu netfangi staðfesta að þeir eigi netfangið.
     1. Fyrir eigindirnar **Netfang**, **Fornafn** og **Eftirnafn** skaltu velja **Nei** í dálknum **Valfrjálst**.
-1. Veljið **Vista**.
+1. Veldu **Vista**.
 
-    ![Stillingar reglu fyrir skráningarsíðu staðbundinna reikninga](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Stillingar reglu fyrir skráningarsíðu staðbundinna reikninga.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Uppfærðu regluna „Forstillingum breytt“ með sérsniðnum síðuupplýsingum
 
@@ -188,11 +188,11 @@ Til að uppfæra regluna „Aðgangsorð endurstillt“ með sérsniðnum síðu
 
 Til dæmis er sjálfgefinn texti fyrir tengilinn sem gleymdist lykilorð **Gleymt lykilorð?**. Eftirfarandi sýnir þennan sjálfgefna texta á innskráningarsíðunni.
 
-![Sjálfgefinn texti fyrir tengilinn við gleymt lykilorð á innskráningarsíðunni](./media/B2C_SignUp_ModuleFace.png)
+![Sjálfgefinn texti fyrir tengilinn við gleymt lykilorð á innskráningarsíðunni.](./media/B2C_SignUp_ModuleFace.png)
 
 Í global.json skrá fyrir innskráningareiningu einingasafnsins er hægt að breyta textanum í **Manstu ekki aðgangsorðið?** eins og sýnt er á eftirfarandi teikningu.
 
-![Uppfærður tenglatexti í global.json skránni í einingunni](./media/B2C_CustomizingStringsForModule.png)
+![Uppfærður tenglatexti í global.json skránni í einingunni.](./media/B2C_CustomizingStringsForModule.png)
 
 Þegar búið er að uppfæra global.json-skrá og birta breytingarnar birtist nýr tengill í innskráningareiningunni í bæði verslun og á innskráningarsíðunni.
 

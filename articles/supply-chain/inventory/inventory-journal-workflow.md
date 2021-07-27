@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826012"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354762"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
@@ -55,7 +55,7 @@ Til að stofna samþykktarverkflæði birgðabókar:
     - **Uppskriftabók birgða**
     - **Birgðaleiðréttingabók**
 
-    ![Svarglugga fyrir stofnun verkflæðis](media/journal-workflow-create-workflow.png "Svarglugginn „Stofna verkflæði“")
+    ![Svarglugga fyrir stofnun verkflæðis.](media/journal-workflow-create-workflow.png "Svarglugginn „Stofna verkflæði“")
 
 1. Forrit verkflæðisritils ræsist í tækinu þínu. (Þú gætir verið beðinn um að samþykkja þessa aðgerð.) Notaðu hana til að hanna verkflæðið þitt eftir þörfum. Frekari upplýsingar um hvernig á að nota verkflæðisritilinn er að finna í [Yfirlit verkflæðiskerfis](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Þegar búið er að vista og loka forriti verkflæðisritilsins verður að velja hvort virkja eigi þessa verkflæðisútgáfu eða halda henni óvirkri.
@@ -73,7 +73,7 @@ Að tengja verkflæði birgðabókar við birgðabókarheiti:
 1. Veljið heiti færslubókar úr listadálknum til að opna stillingasíðuna.
 1. Í flýtiflipanum **Almennt** skal stilla **Samþykktarverkflæði** á **Já**. Ef beðið er um að samþykkja aðgerðina skal velja **Já**.
 
-    ![Úthluta verkflæði á heiti færslubókar](media/journal-workflow-journal-name.png "Úthluta verkflæði á færslubókarheiti")
+    ![Úthluta verkflæði á heiti færslubókar.](media/journal-workflow-journal-name.png "Úthluta verkflæði á færslubókarheiti")
 
 1. Opnið fellilistann **Verkflæði** og veljið viðeigandi verkflæði. Listinn sýnir hvert virkt verkflæði sem stofnað hefur verið með því að nota forrit verkflæðisritilsins.
 
@@ -87,7 +87,7 @@ Að tengja verkflæði birgðabókar við birgðabókarheiti:
 1. Ljúka skal færslubókinni eftir þörfum.
 1. Þegar búið er að stofna eða opna birgðabók með samþykktarverkflæði sem tengist henni, verður hnappurinn **Verkflæði** virkur á aðgerðasvæðinu. Þegar notandi er reiðubúinn að senda færslubókina í samþykki skal velja hnappinn **Verkflæði** til að opna fellilistaglugga og velja síðan **Senda inn**. Samþykktarbeiðnin fer þá á viðeigandi samþykktaraðila, sem fær tilkynningu með tilkynningaraðferðinni sem skilgreind er fyrir verkflæðið.
 
-    ![Senda færslubók til samþykktar](media/journal-workflow-inventory-journal.png "Að senda færslubók til samþykktar")
+    ![Senda færslubók til samþykktar.](media/journal-workflow-inventory-journal.png "Að senda færslubók til samþykktar")
 
 Til að afturkalla samþykktarbeiðni, skal opna viðeigandi færslubók og velja hnappinn **Verkflæði** og síðan velja **Afturkalla**. Þetta endurstillir verkflæðið.
 

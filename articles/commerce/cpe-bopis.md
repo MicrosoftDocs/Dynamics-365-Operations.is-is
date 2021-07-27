@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 5f96302735e8aa1acf5c81992cb4cb49ff4a03ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936912"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352495"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 
@@ -54,7 +54,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 4. Veldu **Hlaða niður** og veldu því næst **Retail Modern POS**. 
 5. Þegar niðurhal á **ModernPOSSetup.exe** skránni er lokið skaltu velja **Opna skrá**.
 
-    ![Opna skrá](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Opin skrá.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Veldu **Áfram** til að fara í gegnum uppsetningarferlið. Þegar uppsetningunni er lokið skaltu velja **Loka**.
 

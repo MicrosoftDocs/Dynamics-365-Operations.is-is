@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881037"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350185"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Notandaviðmót Microsoft Office-stíls í Stjórnun viðskiptaskjala
 
@@ -51,18 +51,18 @@ Fylgdu þessum skrefum til að kveikja á þessum eiginleika fyrir alla lögaði
 
 1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
 
-    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template1.png)
+    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala.](./media/BDM_overview_new_template1.png)
 
 2. Í flipanum **Velja** skal velja skjalið til að nota sem sniðmát og síðan velja **Stofna skjal**.
 
-    ![Gluggi viðskiptaskjala](./media/BDM_overview_new_template2.png)
+    ![Gluggi viðskiptaskjala.](./media/BDM_overview_new_template2.png)
 
 3. Í nýja glugganum, í reitnum **Titill**, breytirðu titlinum eins og þú þarfnast. Titiltextinn er notaður til að nefna nýju skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Drög að þessari skilgreiningu (**Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)**) sem munu innihalda breytt sniðmát og verða notuð til að keyra þetta ER-snið fyrir núverandi notanda. Hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
 4. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður sjálfkrafa stofnað.
 5. Í reitnum **Athugasemd** skaltu uppfæra athugasemdinar fyrir breytanlega endurskoðun sem verður sjálfkrafa stofnuð.
 6. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
-    ![Gluggi skjalagerðar](./media/BDM_overview_new_template3.png)
+    ![Stofngluggi skjalagerðar.](./media/BDM_overview_new_template3.png)
 
 Hnappurinn **Nýtt skjal** er notaður til að búa til og breyta sniðmáti á ER-sniði sem annar veitandi veitir. Í þessu dæmi er veitan Microsoft. Þegar þú velur **Nýtt skjal** geturðu skoðað öll sniðmát sem eru í eigu núverandi og annarra veitenda. Eftir að þú velur sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
@@ -71,16 +71,16 @@ Fylgið þessum skrefum til að veita nauðsynlegar upplýsingar áður en snið
 
 1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
 
-    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template1.png)
+    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala.](./media/BDM_overview_new_template1.png)
     
 2. Á síðunni **Búa til nýtt sniðmát**, í flipanum **Hlaða upp**, í flipanum **Sniðmát**, skal velja **Fletta** til að finna og velja Excel-skrána sem á að nota sem sniðmát. Í hlutanum **Sniðmát** er sjálfkrafa fyllt inn í reitina **Titill** og **Lýsing**. Þeir tilgreina heiti og lýsingu á nýrri skilgreiningu rafræns skýrslugerðarsniðs sem er sjálfkrafa búið til. Hægt er að breyta þessum reitum eftir þörfum.
 3. Í hlutanum **Skjalagerð**, í reitnum **Heiti**, skal tilgreina gerð viðskiptaskjalsins. Þetta gildi verður notað til að leita að réttri gagnaveitu (þ.e. skilgreiningu rafræns skýrslugerðarlíkans).
 
-    ![Sniðmátsflipinn](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Sniðmátsflipi.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Í flipanum **Gagnaveita**, í flýtiflipanum **Sía**, skal velja **Nota síu**. Í hlutanum **Gagnaveita**, er fyllt inn sjálfkrafa í reitinn **Heiti** eða hægt er að velja gildi handvirkt. Hægt er að nota síuna til að leita að viðeigandi heiti gagnaveitu eftir heiti, lýsingu, lands-/svæðiskóða og gerð viðskiptaskjals.
 
-    ![Flipi gagnaveitu](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Gagnagjafaflipi.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > Flýtiflipinn **Sía** er notuð til að leita að réttri gagnaveitu (þ.e. skilgreiningu rafræns skýrslugerðarlíkans). Hægt er að breyta öllum síureitum til að finna hentugustu gagnaveituna fyrir skjalið sem hlaðið er upp.
@@ -89,7 +89,7 @@ Fylgið þessum skrefum til að veita nauðsynlegar upplýsingar áður en snið
     
 5. Í flipanum **Vörpun** skal velja **Greina sjálfvirkt**. Reiturinn **Skilgreining rótar** er sjálfkrafa fylltur út eða hægt er að velja gildi handvirkt. Þessi flipi sýnir endavörpun eininganna úr sniðmátinu og líkaninu.
 
-    ![Vörpunarflipi](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Vörpunarflipi.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > Vörpunin í hlutanum **Skipulag sniðmáts** notar fulla samsvörun á merkjum eða lýsingum í gagnaveitunni á tungumáli notanda og í heiti hólfs í sniðmátinu.
@@ -102,11 +102,11 @@ Ef ekki er til nein veita í rafrænni skýrslugerð er hægt að búa hana til.
 
 - Til að búa til veitu skal breyta heiti veitunnar í reitnum **Heiti**, uppfæra veffang nýju veitunnar í reitnum **Veffang** og velja **Í lagi** til að staðfesta.
 
-    ![Stofna nýja veitu í BDM](./media/bdm_create_provider.png)
+    ![Stofna nýja veitu í BDM.](./media/bdm_create_provider.png)
     
 - Til að virkja núverandi veitu skal velja heiti veitunnar í reitnum **Skilgreiningarveita** og velja **Í lagi** til að stilla veituna sem virka.
 
-    ![Virkja veitu í BDM](./media/bdm_choose_provider.png)
+    ![Virkja veitu í BDM.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Hvert BDM-sniðmát vísar í veituna sem höfund skilgreiningarinnar. Þess vegna þarf að hafa virka veitu fyrir sniðmátið.

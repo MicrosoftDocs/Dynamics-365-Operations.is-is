@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355347"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
 
@@ -43,13 +43,13 @@ Sjálfgefið gildi *klasa* er **núll**.
 
 Eftirfarandi mynd sýnir hvernig gagnagjafanum **Kerfisupplýsingar(xInfo)** af **Klasagerðinni** er bætt við til að búa til tilvik **xInfo** forritsklasans og kalla á **productName()** aðferðar hans til að fá heiti núverandi forrits. Heiti núverandi forrits er sótt á keyrslutíma með því að keyra `xInfo.productName` bindinguna sem var stillt fyrir reitinn **Hugbúnaðarheiti(SoftwareName)** í gagnalíkani rafrænnar skýrslugerðar. Þessi binding kallar á `productName()` aðferð **xInfo** forritsklasans sem er sýndur í núverandi líkanavörpun sem gagnagjafann **Kerfisupplýsingar(xInfo)**.
 
-[![Gagnagjafi klasa skilgreindur í hönnuði líkanavörpunar rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Gagnagjafi klasa skilgreindur í hönnuði líkanavörpunar rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 Eftirfarandi skýringarmynd sýnir hvernig snið rafrænnar skýrslugerðar er stillt til að setja uppgefið heiti forrits í mynduð skjöl. Reiturinn **Hugbúnaðarheiti(SoftwareName)** í notuðu gagnalíkaninu var bundinn við **Strengjahlutann** sem er faldaður undir XML-eininguna **softwareUsed** í sniði rafrænnar skýrslugerðar. Heiti núverandi forrits er því sett við keyrslu í XML-eininguna **softwareUsed** í myndað skjal á XML-sniði.
 
-[![Skipulag rafræns skjals á útleið skilgreint í sniði rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Skipulag rafræns skjals á útleið skilgreint í sniði rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
-## <a name="container"></a><a name="container"></a>Gamur
+## <a name="container"></a><a name="container"></a>Gámur
 
 Gagnagerðin *geymsla* geymir tvíundarefni. *Geymslugildi* er hægt að nota til að koma tilteknum upplýsingum úr geymslu til myndaðs skjals. Í ramma rafrænnar skýrslugerðar er þessi gagnagerð oft notuð til að koma miðlunarefni á borð við merki fyrirtækis í mynduð skjöl.
 
@@ -60,7 +60,7 @@ Sjálfgefið gildi *geymslu* er **núll**.
 
 Á eftirfarandi mynd er sýnt hvernig reiturinn **Bitmap(mynd)** af gerðinni *Geymsla* er bundinn við gagnalíkansreitinn **Merki** í af gerðinni **Geymsla** í líkanavörpun **Sölureiknings**. Þessi binding gerir merki fyrirtækisins aðgengilegt fyrir hvaða snið rafrænnar skýrslugerðar sem er hannað fyrir rótarskilgreininguna **SalesInvoice** og notar þessa líkanavörpun á keyrslutíma.
 
-[![Reitur af geymslugerðinni bundinn í hönnuði líkanavörpunar rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Reitur af geymslugerðinni bundinn í hönnuði líkanavörpunar rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Færsla
 
@@ -109,7 +109,7 @@ Sjálfgildi *hlutarins* er **núll**.
 
 Eftirfarandi mynd sýnir hvernig gagnagjafanum **ReportDataContract** af gerðinni *Hlutur* er bætt við til að senda upplýsingar um myndaðan reikning frá upprunakóða yfir í líkanavörpun **Verkreiknings**. Sem dæmi er texti reikningstilviks sendur sem hluti af samhengi framkvæmdarinnar. Þessi texti er fenginn úr upprunakóðanum við keyrslu með því að keyra `ReportDataContract.parmInvoiceInstanceText` bindinguna sem var stillt fyrir **Athugasemdasvæðið** í líkanavörpun rafrænnar skýrslugerðar. Þessi binding kallar á `parmInvoiceInstanceText()` aðferð **PSAProjInvoiceContract** forritsklasans sem er sýndur í núverandi líkanavörpun sem gagnagjafinn **ReportDataContract**.
 
-[![Gagnagjafi hlutar skilgreindur í hönnuði líkanavörpunar rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Gagnagjafi hlutar skilgreindur í hönnuði líkanavörpunar rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Til að komast að því hvernig á að senda upplýsingar um samhengi keyrslu frá upprunakóða til virkrar lausnar rafrænnar skýrslugerðar skal skoða [Þróa forritsgervinga til að kalla á hannaða skýrslu](er-quick-start1-new-solution.md#DevelopCustomCode).
 

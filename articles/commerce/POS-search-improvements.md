@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796367"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345161"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -36,7 +36,7 @@ Sjálfgefið er að vöruleitir séu gerðar á vöruúrvali verslunar. Þessi t
 
 Á síðunni **Breyta verslun** geta starfsmenn auðveldlega valið hvaða verslun sem er, eða þeir geta leitað að vörum í öllum verslunum.
 
-![Vörulistanum breytt](./media/Changecatalog.png "Vörulistanum breytt")
+![Vörulistanum breytt.](./media/Changecatalog.png "Vörulistanum breytt")
 
 Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 
@@ -59,7 +59,7 @@ Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 - Smásöluaðilar geta skilgreint vöruleit til að sýna leitartillögur þegar notendur slá inn vöruheiti. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
 - Vöruleit reikniritin leitar nú einnig að leitarorðum í eiginleikanum **Leita í heiti** fyrir vöruna.
 
-![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
+![Afurðatillögur.](./media/Productsuggestions.png "Afurðatillögur")
 
 ## <a name="customer-search"></a>Viðskiptavinaleit
 
@@ -83,7 +83,7 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 
 Kenni viðskiptavinar er ekki sýnt fyrir viðskiptavini sem aðrir lögaðilar spyrjast fyrir um vegna þess að ekkert kenni viðskiptavinar hefur verið stofnað fyrir þá aðila í núverandi fyrirtæki. Hins vegar, ef starfsmaður opnar síðuna með viðskiptavinarupplýsingum, býr kerfið sjálfkrafa til viðskiptavinarkenni fyrir aðila og tengir einnig aðsetursbækur viðskiptavina verslunar við viðskiptavininn. Þess vegna verður viðskiptavinurinn sýnilegur í staðbundnum leitum sem eru gerðar síðar.
 
-![Altæk viðskiptavinaleit](./media/Globalcustomersearch.png "Altæk viðskiptavinaleit")
+![Altæk viðskiptavinaleit.](./media/Globalcustomersearch.png "Altæk viðskiptavinaleit")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Frekari leitareiginleikar staðbundins viðskiptavinar
 
@@ -94,11 +94,11 @@ Kenni viðskiptavinar er ekki sýnt fyrir viðskiptavini sem aðrir lögaðilar 
 
 Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar leitað í einum eiginleika viðskiptavinar, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
 
-![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
+![Flýtileiðir viðskiptavinaleitar.](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
 
 Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna síðuna **Færibreytur Commerce** í Commerce og síðan á flipanum **POS leitarskilyrði** eru öll skilyrði valin sem eiga að birtast sem flýtileiðir.
 
-![Skilgreina flýtileiðir leitar](./media/ConfigureShortcutsAX.png "Skilgreina flýtileiðir leitar")
+![Skilgreina flýtileiðir leitar.](./media/ConfigureShortcutsAX.png "Skilgreina flýtileiðir leitar")
 
 > [!NOTE]
 > Ef þú bætir við of mörgum flýtileiðum verður fellivalmyndin á leitarstikunni í POS ofhlaðin og það getur haft áhrif á reynslu starfsmanns af leitinni. Við mælum með að þú bætir aðeins við eins mörgum flýtileiðum og nauðsynlegt er.

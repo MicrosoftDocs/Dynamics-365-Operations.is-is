@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224097"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355323"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Frumstæðar gagnagerðir studdar fyrir formúlur rafrænnar skýrslugerðar
 
@@ -112,13 +112,13 @@ Hægt er að nota *fasttexta* forrits í segðum af hvaða líkanavörpun og sni
 
 Eftirfarandi mynd sýnir hvernig hægt er að bæta fasttextalíkaninu **CustVendCorrectiveReasonCode** við breytanlegt gagnalíkan rafrænnar skýrslugerðar.
 
-[![Fasttextalíkan skilgreint í hönnuði gagnalíkans rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Fasttextalíkan skilgreint í hönnuði gagnalíkans rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Hægt er að nota *fasttextalíkan* í segðum í hvaða líkanavörpun og sniði sem er í rafrænni skýrslugerð sem voru búnar til undir gagnalíkani þar sem *fasttextinn* var kynntur.
 
 Eftirfarandi mynd sýnir hvernig hægt er að bæta fasttextasniðinu **Listi yfir undirflokka á bakfærðu gjaldi Natura** við breytanlegt snið rafrænnar skýrslugerðar.
 
-[![Fasttextasnið skilgreint í sniðshönnuði rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Fasttextasnið skilgreint í sniðshönnuði rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Aðeins er hægt að nota *fasttextasnið* í segðum rafræns skýrslugerðarsniðs þar sem *fasttextinn* var kynntur.
 
@@ -126,15 +126,15 @@ Nota þarf viðeigandi gerð af gagnagjöfum rafrænnar skýrslugerðar til að 
 
 - Hægt er að nálgast fasttexta forrits með gagnagjöfunum **Dynamics 365 for Operations \ Fasttexti** og **Almennt \ Innsláttarfæribreytur notanda**. Eftirfarandi mynd sýnir hvernig hægt er að bæta við breytanlegt snið rafrænnar skýrslugerðar gagnagjöfunum **appenumNoYes** og **uipNoYes** sem vísa til **NoYes** fasttexta forrits.
 
-    [![Gagnagjöfum fasttexta forrits bætt við í sniðshönnuði rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Gagnagjöfum fasttexta forrits bætt við í sniðshönnuði rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Hægt er að nálgast fasttexta gagnagjafa með því að nota gagnagjafana **Gagnalíkan \ Fasttexti** og **Gagnalíkan \ Innsláttarfæribreytur notanda fasttexta**. Eftirfarandi mynd sýnir hvernig hægt er að bæta við breytanlegt snið rafrænnar skýrslugerðar gagnagjafanum **CustVendCorrectiveReasonCode** sem vísar til **CustVendCorrectiveReasonCode** fasttexta forrits.
 
-    [![Gagnagjöfum fasttexta líkans bætt við í sniðshönnuði rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Gagnagjöfum fasttexta líkans bætt við í sniðshönnuði rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Hægt er að nálgast fasttextasnið með því að nota gagnagjafana **Snið \ Fasttexti** og **Snið \ Innsláttarfæribreytur notanda fasttexta**. Eftirfarandi mynd sýnir hvernig hægt er að bæta við breytanlegt snið rafrænnar skýrslugerðar gagnagjafanum **NaturaReverseCharge** sem vísar til **Undirflokka bakfærðs gjalds Natura** fasttextasniðs.
 
-    [![Gagnagjöfum fasttextasniðs bætt við í sniðshönnuði rafrænnar skýrslugerðar](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Gagnagjöfum fasttextasniðs bætt við í sniðshönnuði rafrænnar skýrslugerðar.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 *Fasttexti* hefur engar óbeina umreikninga. Hins vegar er hægt að nota umbreytingaraðgerðina [TEXT](er-functions-text-text.md) til að umbreyta *fasttexta* í textastreng. Þessi umbreyting er ekki háð tungumáli. Til að komast að því hvernig á að tengja gildi *fasttexta* við viðeigandi merki ákveðins tungumáls skal skoða dæmin um notkun á aðgerðunum [LISTOFFIELDS](er-functions-list-listoffields.md) and [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md).
 

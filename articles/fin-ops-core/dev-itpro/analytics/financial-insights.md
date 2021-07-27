@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193751"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345813"
 ---
 # <a name="financial-analysis"></a>Fjármálagreining
 
@@ -60,7 +60,7 @@ Til að koma fram á fjárhagsskýrslu og vera með í ýmsum öðrum myndefnum,
 ## <a name="entity-store"></a>Einingaverslun
 Gögnin fyrir **Fjármálagreining** eru tekin úr einingaversluninni (**Kerfisstjórnun** \> **Uppsetning** \> **Einingaverslun**). Ef þú opnar **CFO-yfirlitið** eða vinnusvæði **Fjármálagreining** og eftirfarandi viðvörunarboð birtast í myndefnunum, verður þú að uppfæra einingarnar.
 
-![Viðvörun](./media/Cantdisplay.png)
+![Viðvörun.](./media/Cantdisplay.png)
 
 Þú verður að uppfæra eftirfarandi einingar til að sjá gögn í **Fjármálagreining** vinnsvæði:
 
@@ -124,7 +124,7 @@ Notendur geta afmarkað skýrsluna með því að nota **Síu** gluggann til vin
 - **Síur á myndrænu stigi** - Þessar síur eru aðeins notaðar á valið myndefni. Þessar síur eru notaðar ofan á síur á síðustigi.
 - **Köfunarsía** - Þessi sía afmarkar "uppsprettu" myndefnis sem er beitt á núgildandi myndefni þegar þú kafar frá uppsprettu myndefnisins til núverandi myndefnis.
 
-![Síuvalkostir](./media/filter.png)
+![Síuvalkostir.](./media/filter.png)
 
 Til að fjarlægja tiltekið síugildi velurðu strokleðurtáknið við hliðina á því. Ekki fjarlægja síu með því að velja X. Ef þú velur X verður svæðið sem þú ert að sía á fjarlægt sem síuvalkostur. Ef þú fjarlægir óvart svæði frá síunni skaltu loka vinnusvæðinu og opna það síðan aftur. Sjálfgefnar stillingar síu verða aftur settar á.
 
@@ -169,25 +169,25 @@ Mismunandi stig borunar eru í boði í gegnum Power BI. Hvert stig hefur annað
 
 Í eftirfarandi myndum er yfirlýsing **Prófjafnaðar** dregin saman í hæsta stigveldi línunnar, aðalyklagerðina.
 
-![Yfirlýsing um prófjöfnuð](./media/trial-balance.png)
+![Yfirlýsing um prófjöfnuð.](./media/trial-balance.png)
 
 Til að skoða næsta stig stigveldisins, tegundir aðallykla, getur þú stillt **Kafa í** reitinn sem **Línur** og valið síðan **Stækka** hnappinn (þriðji hnappurinn eftir Kafa í reitinn). Þú sérð nú allar helstu tegundir aðallykla stækkaðar. Eins og er leyfir Power BI þér ekki að stækka aðeins eina línu eða dálk en sjá samt allar aðrar línur eða dálka.
 
-![Prófjöfnuður kafað niður á línur](./media/trial-balance2.png)
+![Prófjöfnuður kafað niður á línur.](./media/trial-balance2.png)
 
 Til að víkka út til aðallykla allra línanna geturðu aftur notað **Stækka** hnappinn. Hins vegar, til að bora niður í aðallyklana fyrir aðeins eina línu skaltu fyrst velja **Bora í** hnappinn (staka örin sem bendir niður hægra megin í glugganum) og veldu síðan línuna til að bora niður í. Eftirfarandi mynd sýnir niðurstöðurnar þegar línan **Sölur** er valin eftir að **Bora niður** hnappurinn hefur verið valinn.
 
-![Útvíkkunarhnappur prófjöfnuðar](./media/trial-balance3.png)
+![Útvíkkunarhnappur prófjöfnuðar.](./media/trial-balance3.png)
 
 Eftir að þú hefur borað niður í einni línu þarf að smella oft til að fara aftur í fullan prófjöfnuð. **Kafa upp** hnappurinn (fyrsti hnappurinn eftir **Kafa** í svæði) kafar aðeins upp í samhengi við **Sölu** flokkinn, eins og sýnt er á eftirfarandi mynd.
 
-![Hnappur til að kafa upp á prófjöfnuð](./media/trial-balance4.png)
+![Hnappur til að kafa upp á prófjöfnuð.](./media/trial-balance4.png)
 
 Þú getur haldið áfram að nota **Kafa upp** hnappinn til að fara aftur á hæsta stigi samantektar í línum.
 
 Power BI hefur einnig hnapp sem leyfir þér að fara á næsta stig í stigveldinu (seinni hnappurinn eftir **Kafa niður** reitinn). Áhrif þessa hnapps eru frábrugðin áhrifum **Stækka** hnappsins (þriðja hnappurinn eftir **Kafa í** reitinn), sem er notaður til að stækka stigveldið. Þegar þú dregur út stigveldið er stigveldinu viðhaldið í skýrslunni. Til dæmis, eins og sýnt var áður, ef dregur út aðallyklagerðina, sérðu enn helstu aðallyklagerðir í skýrslunni. Hins vegar, þegar þú ferð á næsta stig í stigveldinu, sýnir skýrslan ekki lengur yfireininguna í stigveldinu, eins og sýnt er í eftirfarandi mynd.
 
-![Prófjöfnuður kafað aftur](./media/trial-balance5.png)
+![Prófjöfnuður kafað aftur.](./media/trial-balance5.png)
 
 Til að sjá færsluupplýsingar um samanteknar stöður á bak, getur þú valið sumar fjárhæðir til að bora aftur í Financial and Operations.
 
@@ -226,7 +226,7 @@ Eins og er styðja fjárhagsskýrslurnar ekki stigveldi fyrirtækis, sem gerir �
 ## <a name="data-limitations"></a>Takmarkanir á gögnum
 Myndefni fjárhagsskýrslna hefur takmörk á fjölda lína sem hægt er að sýna. Nú er hámarkið stillt á 30.000. Ef þú ert yfir þessum mörkum mun myndefnið sýna viðvörunartákn til að tilkynna þér um þetta ástand.
 
-![Takmarkanir á gögnum](./media/data-limit.png)
+![Takmarkanir á gögnum.](./media/data-limit.png)
 
 Ef farið er yfir hámarkið verða samtölurnar sem birtast í fjárhagsskýrslunni rangar, því ekki voru allar línurnar hlaðnir inn í myndefnið.
 

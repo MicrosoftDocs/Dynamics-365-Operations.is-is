@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750485"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350257"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Uppfæra skipan sniðmáts viðskiptaskjals 
 
@@ -58,7 +58,7 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 
     Nýja sniðmátið er opnað fyrir breytingar í Excel Online innbyggðu stýringunni á sniðmátssíðu.
 
-[![Nota vinnusvæði stjórnunar vinnuskjala til að hefja breytingar á sniðmáti viðskiptaskjals](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Nota vinnusvæði stjórnunar vinnuskjala til að hefja breytingar á sniðmáti viðskiptaskjals.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Yfirfara núverandi byggingu breytanlegs sniðmáts
 
@@ -68,7 +68,7 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 4. Á glugganum **Skipulag sniðmáts** skal stækka **Skýrsla \> Reikningur \> rptHeader \> rptHeaderPart1**.
 5. Takið eftir að, í sniðmátsuppbyggingu í Finance, er **rptHeaderCompLogo**-varan birt sem undireining **Skýrsla \> Reikningur \> rptHeader \> rptHeaderPart1**.
 
-[![Vinnusvæði viðskiptaskjalastjórnunar notað til að yfirfara núverandi uppbyggingu breytanlegs sniðmáts](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Vinnusvæði viðskiptaskjalastjórnunar notað til að yfirfara núverandi uppbyggingu breytanlegs sniðmáts.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Uppfæra skipan sniðmáts viðskiptaskjals með því að eyða mynd
 
@@ -85,7 +85,7 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 4. Á glugganum **Skipulag sniðmáts** skal stækka **Skýrsla \> Reikningur \> rptHeader \> rptHeaderPart1**.
 5. Takið eftir því að **rptHeaderCompLogo** varan er ekki lengur með í sniðmátsuppbyggingu í Finance.
 
-[![Nota vinnusvæði stjórnunar vinnuskjala til að eyða mynd úr sniðmáti viðskiptaskjals](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Nota vinnusvæði stjórnunar vinnuskjala til að eyða mynd úr sniðmáti viðskiptaskjals.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Uppfæra skipan sniðmáts viðskiptaskjals með því að bæta við mynd
 
@@ -97,7 +97,7 @@ Ljúkið eftirfarandi ferli í [Yfirlit yfir stjórnun viðskiptaskjala](er-busi
 6. Á glugganum **Skipulag sniðmáts** skal stækka **Skýrsla \> Reikningur \> rptHeader \> rptHeaderPart1**.
 7. Takið eftir að nýja myndin er nú tekin með sem vara í sniðmátsuppbyggingu í Finance.
 
-[![Nota vinnusvæði stjórnunar vinnuskjala til að bæta mynd við sniðmát viðskiptaskjals](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Nota vinnusvæði stjórnunar vinnuskjala til að bæta mynd við sniðmát viðskiptaskjals.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Tengdir tenglar
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351915"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 
@@ -78,17 +78,17 @@ Næst skráðirðu þig inn á RCS tilvikið.
 
     ER-sniðmátið **Snið til að læra færibreytur á köll** er hannað til að búa til skattayfirlit á XML sniði sem sýnir nokkur stig skattheimtu (venjuleg, lækkuð og engin). Hvert stig hefur mismunandi fjölda smáatriða.
 
-    ![Mörg stig af sniði rafrænnar skýrslugerðar, snið til að læra færibreytusímtöl](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Mörg stig af sniði rafrænnar skýrslugerðar, snið til að læra færibreytusímtöl.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Á flipanum **Vörpun** stækkarðu liðina **Líkan**, **Gögn** og **Yfirlit**.
 
     Gagnagjafinn **Model.Data.Summary** skilar lista yfir skattfærslur. Þessar færslur eru teknar saman eftir skattkóðum. Fyrir þessa gagnaheimild hefur reiknaði reiturinn **Model.Data.Summary.Level** verið stilltur til að skila kóðanum fyrir skattlagningarstig hverrar samandreginnar skráar. Fyrir alla skattakóða sem hægt er að sækja úr gagnagjafanum **Model.Data.Summary** á keyrslutíma skilar reiknaði reiturinn skattlagningarstigskóðanum (**Regluleg**, **Lækkuð**, **Engin** eða **Annað**) sem textagildi. Reiknaði reiturinn **Model.Data.Summary.Level** er notaður til að sía skrár úr gagnagjafanum **Model.Data.Summary** og slá inn síuð gögn í hvern XML-þátt sem táknar skattlagningarstig með því að nota reitina **Model.Data2.Level1**, **Model.Data2.Level2** og **Model.Data2.Level3**.
 
-    ![Model.Data.Summary listi gagnaveitu skattfærsla](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![Model.Data.Summary listi gagnaveitu skattfærsla.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Reiknaði reiturinn **Model.Data.Summary.Level** hefur verið stilltur þannig að hann inniheldur ER-segð. Skattkóðar (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** og **InVAT0**) eru harðkóðaðir í þessari stillingu. Þess vegna er þetta ER snið háð lögaðilanum þar sem þessir skattakóðar voru stilltir.
 
-    ![Model.Data.Summary.Level útreiknaður reitur með harðkóðuðum skattkóðum](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Model.Data.Summary.Level útreiknaður reitur með harðkóðuðum skattkóðum.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Til að styðja við annað sett af skatt kóða fyrir hvern lögaðila verður þú að fylgja þessum skrefum:
 
@@ -128,7 +128,7 @@ Næst bætirðu við nýrri upptalningu á ER sniði. Gildi þessarar sniðuppta
 12. Veldu aftur **Bæta við**.
 13. Í reitinn **Heiti** skal færa inn **Annað**.
 
-    ![Ný færsla á síðunni tölusetningar sniðs](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Ný færsla á síðunni tölusetningar sniðs.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Vegna þess að notendur fyrirtækja gætu notað mismunandi tungumál til að tilgreina skattalög sem eru háð lögaðilum, mælum við með að þú þýðir gildi þessarar talningar yfir á tungumálin sem eru stillt sem ákjósanleg tungumál fyrir þá notendur í Finance.
 
@@ -141,9 +141,9 @@ Næst bætirðu við nýrri upptalningu á ER sniði. Gildi þessarar sniðuppta
 20. Í reitinn **Þýddur texti** skal færa inn **keine Besteuerung**.
 21. Veldu **Þýða**.
 
-    ![Textaþýðingar renna út](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Textaþýðingar renna út.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
-22. Veljið **Vista**.
+22. Veldu **Vista**.
 23. Lokaðu síðunni **Tölusetningar sniða**.
 
 ### <a name="add-a-new-lookup-data-source"></a>Bættu við nýjum gagnagjafa
@@ -168,13 +168,13 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 10. Veldu liðinn **Model.Data.Tax.Code**.
 11. Veldu hnappinn **Bæta við** (hægri örin).
 
-    ![Dálkar renna út](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Dálkar renna út.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Þú varst að tilgreina að fyrir hverja reglu sem er tilgreind í þessum gagnagjafa fyrir viðurkenningu á skattaþrepum, verður viðskiptanotandi að velja einn af skattakóðunum sem skilyrði. Listinn yfir skattakóða sem viðskiptanotandinn getur valið verður skilað af gagnagjafanum **Model.Data.Tax**. Vegna þess að þessi gagnaheimild inniheldur reitinn **Heiti** verður heiti skattakóðans sýnt fyrir hvert skattakóðagildi í uppflettingu sem er kynnt viðskiptanotanda.
     
-12. Veljið **Í lagi**.
+12. Veldu **Í lagi**.
 
-    ![Hönnunarsíða leitar](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Hönnunarsíða leitar.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Notendur fyrirtækja geta bætt við mörgum reglum sem skrám yfir þessa gagnaheimild. Hver skrá verður tölusett með línukóða. Reglur verða metnar til að auka línufjölda.
 
@@ -188,13 +188,13 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 
     Taktu eftir að þú bætir við nýjum gagnagjafa sem skilar skattstigi sem gildi sniðatölusetningarinnar **Listi yfir skattastig** fyrir alla skattakóða sem er sendur til gagnaheimildarinnar sem frumgildi fyrir færibreytuna **Kóði** af gagnagerðinni **Strengur**.
     
-    ![Sniðshönnuðarsíða með nýrri gagnaveitu](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Sniðshönnuðarsíða með nýrri gagnaveitu.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Mat á skilgreindum reglum fer eftir gagnagerð reitanna sem hafa verið valdir til að skilgreina skilyrði þessara reglna. Þegar þú velur reit sem er stilltur sem reitur af annaðhvort gagnagerðinni **Tölulegt** eða **Dagsetning** munu viðmiðin verða frábrugðin viðmiðunum sem lýst var áðan fyrir gagnagerðina **Strengur**. Fyrir reitina **Tölulegt** og **Dagsetning** verður að tilgreina regluna sem gildissvið. Skilyrði reglunnar verður síðan talið fullnægt þegar gildi sem er sent til gagnagjafans er á skilgreindu sviðinu.
     
     Eftirfarandi skýringarmynd sýnir dæmi um þessa gerð uppsetningar. Í viðbót við reitinn **Model.Data.Tax.Code** í gagnagerðinni **Strengur** er reiturinn **Model.Tax.Summary.Base** í gagnagerðinni **Rauntími** notaður til að tilgreina skilyrði fyrir uppflettingu gagnagjafa.
     
-    ![Hönnunarsíða leitar með viðbótardálkum](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Hönnunarsíða leitar með viðbótardálkum.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Þar sem reitirnir **Model.Data.Tax.Code** og **Model.Tax.Summary.Base** eru valdir fyrir þennan uppflettingargagnagjafa verður sérhver regla þessa gagnagjafa stillt á eftirfarandi hátt:
     
@@ -221,9 +221,9 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 7.  Í reitnum **Tungumál** velurðu **DE**.
 8.  Í reitinn **Þýddur texti** slærðu inn **Steuerebene für Steuerkennzeichen auswählen**.
 9.  Veldu **Þýða**.
-10. Veljið **Í lagi**.
+10. Veldu **Í lagi**.
 
-    ![Eiginleiki gagnagjafa, renna út](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Eiginleiki gagnagjafa, renna út.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Bættu við nýjum reit til að nota stillta uppflettingu
 
@@ -236,12 +236,12 @@ Næst bætirðu við nýjum gagnagjafa til að tilgreina hvernig notendur fyrirt
 7.  Í reitinn **Formúla** slærðu inn **Model.Selector (Model.Data.Summary.Code)**.
 8.  Veljið **Vista**.
 
-    ![Adding Model.Selector(Model.Data.Summary.Code) á síðu Formúluhönnuðarins](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Adding Model.Selector(Model.Data.Summary.Code) á síðu Formúluhönnuðarins.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Lokið síðunni **Formúluritill**.
-10. Veljið **Í lagi**.
+10. Veldu **Í lagi**.
 
-    ![Sniðshönnuður með nýrri viðbættri formúlu](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Sniðshönnuður með nýrri viðbættri formúlu.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Athugaðu að reiknaði reiturinn **LevelByLookup** sem þú bættir við mun skila skattastiginu sem gildi sniðaupptalningarinnar **Listi yfir skattastig** fyrir hverja samantekna skrá skattafærslna. Skattakóði skrárinnar verður sendur til uppflettigagnagjafans **Model.Selector** og reglurnar fyrir þennan gagnagjafa verða notaðar til að velja rétt skattlagningarstig.
 
@@ -269,7 +269,7 @@ Næst verður þú að breyta fyrirliggjandi reiknuðum reit þannig að hann no
 
 4.  Í ritinn **Formúla** slærðu inn **CASE(@.LevelByLookup, TaxationLevel. 'Regular taxation', 'Regular', TaxationLevel.'Reduated taxation ',' Reduced ', TaxationLevel.'No taxation', 'None', 'Other')**.
 
-    ![Síða ER-aðgerðahönnuður](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Takið eftir að segð reitsins **Model.Data.Summary.Level** mun nú skila skattlagningarstiginu út frá skattkóða gildandi færslu og reglusafni sem viðskiptanotandi skilgreinir í uppflettingargagnagjafa **Model.Data.Selector**.
     

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744664"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348656"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Gagnafræðileg próf með gögnum með Regression Suite Automation Tool
 
@@ -30,7 +30,7 @@ ms.locfileid: "5744664"
 - ATL rammi
 - Regression Suite Automation Tool (RSAT)
 
-[![Próf flokkunarpýramída](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Próf flokkunarpýramída.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Yfirlit
 -   **SysTest umgjörð** - SysTest umgjörðin er áreiðanleg til að skrifa einingapróf. Vegna þess að einingapróf eru venjulega að prófa aðferð eða aðgerð, ættu þau alltaf að vera gögn samnýtt og aðeins háð innsláttargögnum sem eru til staðar sem hluti af prófinu.
@@ -42,7 +42,7 @@ ms.locfileid: "5744664"
     - O Sláðu inn sérstök auðkenni, svo sem reikningsnúmer, í gegnum númeraröðina eða með því að nota Microsoft Excel-aðgerðir eins og =TEXT(NOW(),"yyyymmddhhmm"). Þessi aðgerð mun veita einstakt númer á hverri mínútu, sem gerir þér kleift að fylgjast með þegar aðgerðin átti sér stað. Þetta er hægt að nota fyrir breytur eins og móttökunúmer vöru og reikningsnúmer lánardrottins. Þessar prófanir halda áfram að vinna í sama gagnagrunni aftur og aftur, án þess að þurfa neina endurreisn.
     - Stilltu alltaf **Breyta stillingu** umhverfisins á **Lesa** eða **Breyta** sem fyrsta prófatilvikið vegna þess að sjálfgefinn valkostur er **Sjálfvirkt**. Valkostirnir **Sjálfvirkt** nota alltaf fyrri stillingu og geta valdið óáreiðanlegum prófum. 
  
-    [![Valkostasíða, afkastaflipi](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Valkostasíða, afkastaflipi.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Staðfesta aðeins eftir að þú síar á tiltekin viðskipti í stað almennrar staðfestingar. Til dæmis, fyrir fjölda færslna, síaðu að viðskiptanúmerinu eða viðskiptadeginum þannig að löggildingin útiloki öll önnur viðskipti. 
     - Ef þú ert að athuga jafnvægi viðskiptavina eða fjárhagsáætlunarprófun skaltu vista gildi fyrst og bæta síðan við viðskiptagildi þínu til að staðfesta væntanlega niðurstöðu í stað þess að staðfesta fast væntanlegt gildi. 

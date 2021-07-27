@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800422"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352665"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
@@ -41,7 +41,7 @@ Samsvörun leitar og afköst eru lykilatriði í alhliða upplifun, því uppgö
 
 Eftirfarandi mynd sýnir dæmi um dæmigerða virkni vafra og leitar.
 
-![Leita á lendingasíðu](./media/SearchLanding.png)
+![Leita á lendingasíðu.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Hliðarflakk og yfirlit yfir val 
 
@@ -51,7 +51,7 @@ Með því að nota hliðarleiðsögn er hægt að stilla mismunandi hreinsara f
 
 Eftirfarandi mynd sýnir dæmi þar sem hliðarleiðsögn er notuð við leit.
 
-![Yfirlit yfir val](./media/ChoiceSummary.png)
+![Yfirlit yfir val.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Heildstæð sjálfvirkni
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce styður einnig virkni fyrir samsvörun leitarorða í ýms
 
 Eftirfarandi mynd sýnir dæmi þar sem verið er að nota heildstæða sjálfvirkni.
 
-![heildstæð sjálfvirkni](./media/ImmersiveAutoSuggestUX.png)
+![heildstæð sjálfvirk tillaga.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Raða
 
@@ -69,7 +69,7 @@ Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, 
 
 >[!NOTE]
 >Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
-![Færibreytur skilgreininga fyrir leit í skýinu](./media/CloudPoweredSearchConfigurationParameters.png)
+![Færibreytur skilgreininga fyrir leit í skýinu.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

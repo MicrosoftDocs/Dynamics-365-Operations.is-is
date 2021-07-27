@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792930"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348243"
 ---
 # <a name="create-and-update-store-hours"></a>Búa til og uppfæra afgreiðslutíma verslunar
 
@@ -49,14 +49,14 @@ Fylgja skal þessum skrefum til að skilgreina afgreiðslutíma.
     > [!NOTE]
     > Þú getur búið til mörg sniðmát sem hafa skarandi upphafs- og lokadagsetningar. Þess vegna getur þú til dæmis skilgreint afgreiðslutíma fyrir verslanir á mismunandi tímabeltum.
 
-    ![Bættu við bilglugga](../dev-itpro/media/Storehours1.png "Bættu við bilglugga")
+    ![Svarglugginn Bæta við sviði.](../dev-itpro/media/Storehours1.png "Bættu við bilglugga")
 
 4. Tengdu sniðmát afgreiðslutíma við verslanirnar þar sem það verður notað. Í glugganum **Velja fyrirtækjahnúta** velurðu verslanir, svæði og fyrirtæki sem sniðmátið ætti að vera tengt við.
 
     - Aðeins er hægt að tengja eitt sniðmát afgreiðslutíma við hverja verslun.
     - Notaðu örvahnappana til að velja verslanir, svæði eða fyrirtæki. Dagatalið verður aðgengilegt í verslunum eða verslunarhópum og það verður sýnilegt á sölustað til viðmiðunar.
 
-    ![Svarglugginn Veljið fyrirtækjahnúta](../dev-itpro/media/Storehours2.png "Svarglugginn Veljið fyrirtækjahnúta")
+    ![Svarglugginn Velja fyrirtækjahnúta.](../dev-itpro/media/Storehours2.png "Svarglugginn Veljið fyrirtækjahnúta")
 
 5. Á síðunni **Dreifingaráætlun** keyrirðu vinnslurnar **1070** og **1090** til að gera verslunartímann aðgengilegan sölustað.
 
@@ -75,7 +75,7 @@ Fylgdu þessum skrefum til að bæta afgreiðslutíma við prentuðu POS kvittan
 
 Kvittanir á sölustað innihalda nú afgreiðslutímann. Ef einhverjir frídagar voru með í sniðmátinu eru þeir sýndir á kvittuninni.
 
-![Kvittunardæmi](../dev-itpro/media/Storehours3.png "Kvittunardæmi")
+![Dæmi um kvittun.](../dev-itpro/media/Storehours3.png "Kvittunardæmi")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

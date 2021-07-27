@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015879"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344245"
 ---
 # <a name="maintenance-requests"></a>Viðhaldsbeiðnir
 
@@ -40,7 +40,7 @@ Hægt er að búa til viðhaldsbeiðnir fyrir hverja eign í eignastýringu. Hæ
 
 Veldu til að skoða viðhaldsbeiðnir **Eignastýring** \> **Sameiginlegt** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir**, **Virkar viðhaldsbeiðnir**, eða **Beiðnir mínar um viðhald á staðsetningu minni**. Hver listasíða sýnir nokkrar upplýsingar sem tengjast viðhaldsbeiðni.
 
-![Skoða viðhaldsbeiðnir](media/01-manage-maintenance-requests.png)
+![Skoða viðhaldsbeiðnir.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Notaðu listasíðuna **Beiðnir mínar um viðhald á staðsetningu minni** til að skoða lista yfir viðhaldsbeiðnir sem innihalda annaðhvort virka staði sem þú ert skyldur sem starfsmaður eða eignir sem eru settar upp á starfrænum stöðum sem þú ert skyldur sem starfsmaður. (Sjá upplýsingar um hvernig á að setja upp starfshætti á viðhaldsstarfsmönnum [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md) .)
@@ -49,7 +49,7 @@ Veldu til að skoða viðhaldsbeiðnir **Eignastýring** \> **Sameiginlegt** \> 
 
 Til að opna smáatriðið yfir plötuna á listasíðunni **Allar viðhaldsbeiðnir** velurðu tengil í hnitalínuyfirlitinu í dálkinum **Viðhaldsbeiðni**.
 
-![Skoða upplýsingar um viðhaldsbeiðni](media/02-manage-maintenance-requests.png)
+![Skoða upplýsingar um viðhaldsbeiðni.](media/02-manage-maintenance-requests.png)
 
 Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla lýsir stuttlega hnöppunum sem tengjast eignastýringu.
 

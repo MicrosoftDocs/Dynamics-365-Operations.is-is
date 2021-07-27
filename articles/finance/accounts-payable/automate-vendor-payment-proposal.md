@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820812"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350647"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Gera greiðslutillögur lánardrottins sjálfvirkar
 
@@ -97,11 +97,11 @@ Mælt er með því að lagt sé mat á hvort sjálfvirknin komi til með að ga
 
 Þegar röð sjálfvirkrar greiðslutillögu lánardrottins er búin til birtast tilfelli hverrar greiðslu í vikulegu yfirliti sjálfvirkniferlisins. Fyrir lánardrottnagreiðslur hefur vikulegu yfirliti sjálfvirkniferlisins verið bætt við bæði vinnusvæðið **Lánardrottnagreiðslur** og síðuna **Sjálfvirkni ferlis**.
 
-[![Vikulegt yfirlit sjálfvirkniferlis á vinnusvæði lánardrottnagreiðslna](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Vikulegt yfirlit sjálfvirkniferlis á vinnusvæði lánardrottnagreiðslna.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 Vikulegt yfirlit sjálfvirkniferlis á vinnusvæðinu **Lánardrottnagreiðslur** sýnir aðeins sjálfvirkar greiðslutillögur lánardrottins. Það sýnir öll greiðslutilfelli vikunnar, fyrir alla lögaðila sem innskráður notandi er með öryggisheimildir fyrir. Til dæmis, ef starfsmaður viðskiptaskulda ber ábyrgð á greiðslum í USMF og USSI fyrirtækjunum mun hann sjá tilfelli sjálfvirkrar greiðslutillögu lánardrottins fyrir þessi tvö fyrirtæki en engin önnur.
 
-[![Vikulegt yfirlit sjálfvirkniferlis fyrir USMF og USSI fyrirtækin](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Vikulegt yfirlit sjálfvirkniferlis fyrir USMF og USSI fyrirtækin.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Hvert tilfelli sýnir fyrirtækið sem greiðslubókin var eða verður stofnuð í. Ef greiðslur eru stofnaðar með miðstýrðum greiðslum er fyrirtækið sem sýnt er það fyrirtæki sem greiðslurnar verða stofnaðar í. Tilfellið sýnir ekki endilega hvaða reikningar fyrirtækisins verða greiddir.
 

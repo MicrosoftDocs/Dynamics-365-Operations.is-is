@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352423"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Stofna nýja afurð í Commerce
 
@@ -49,13 +49,13 @@ Afurð er fyrst og fremst skilgreind af afurðarnúmeri, heiti og lýsingu. Hins
 
 Eftirfarandi mynd sýnir dæmi um afurð sem er bætt við.
 
-![Stofna afurð](media/create-new-product.png)
+![Stofna afurð.](media/create-new-product.png)
 
 Þegar afurð er bætt við er hægt að stilla viðbótargögn fyrir hana, svo sem **Afurðarlýsing**, **Afbrigðaflokkar**, **Víddarflokkar**, **Afurðaeigindir** og **Skyldar afurðir**.
 
 Eftirfarandi mynd sýnir viðbótarupplýsingar afurðar.
 
-![Upplýsingar um afurð](media/create-new-product-2.png)
+![Upplýsingar um afurð.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Stofna afurðarafbrigði
 
@@ -74,23 +74,23 @@ Til að selja afurð verður hún fyrst að verða gefin út til lögaðila.
 
 1. Af afurðasíðunni velurðu **Losa afurðir**.
 
-    ![Losa afurð](media/create-new-product-3.png)
+    ![Losa afurð.](media/create-new-product-3.png)
 
 1. Veldu afurðina til að losa og veldu síðan **Næst**.
 
-    ![Veldu afurð til að losa](media/create-new-product-4.png)
+    ![Veldu afurð til að losa.](media/create-new-product-4.png)
 
 1. Veldu flokk afurðarafbrigða til að losa og veldu síðan **Næst**.
 
-    ![Veldu afbrigði til að losa](media/create-new-product-5.png)
+    ![Veldu afbrigði til að losa.](media/create-new-product-5.png)
 
 1. Veldu lögaðilann og veldu síðan **Næst**.
 
-    ![Velja lögaðila](media/create-new-product-6.png)
+    ![Veldu lögaðila.](media/create-new-product-6.png)
 
 1. Veljið **Ljúka**.
 
-    ![Ljúktu losun afurðar](media/create-new-product-7.png)
+    ![Ljúktu losun afurðar.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Samskipaðu losaða afurð
 
@@ -105,13 +105,13 @@ Til að selja afurð verður hún fyrst að verða gefin út til lögaðila.
 
 Eftirfarandi mynd sýnir dæmi um stillingu á losaðri afurð.
 
-![Samskipaðu losaða afurð](media/create-new-product-8.png)
+![Skilgreina losaða afurð.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna lögaðila](channels-legal-entities.md)
 
-[Stofna afbrigðaflokk](create-variant-group.md) 
+[Búa til afbrigðaflokk](create-variant-group.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

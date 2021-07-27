@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345381"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
@@ -66,13 +67,13 @@ Hér eru nokkrar samstæðuaðstæður sem Consolidate á netinu styður:
 ## <a name="legal-entity-setup"></a>Uppsetning lögaðila
 Áður en þú vinnur úr samstæðu verður þú að setja upp lögaðila. Hægt er að keyra samstæðu eins oft og þörf krefur og öll gögn verða umreiknuð úr bókhaldsgjaldmiðli upprunafyrirtækis yfir í gjaldmiðilinn sem er skilgreindur fyrir samstæðufyrirtækið. Fyrir eftirfarandi skipulagseiningar fyrirtækis, ef þú verður fyrst að umreikna öll norður-amerísk fyrirtæki í Bandaríkjadali (USD) og síðan í evrur (EUR), gjaldmiðil móðurfyrirtækis, verður þú þar af leiðandi að hafa að minnsta kosti tvö samstæðufyrirtæki.
 
-![Skipulag fyrirtækis](./media/organizational-structure.png "Skipulag fyrirtækis")
+![Uppbyggingar fyrirtækis.](./media/organizational-structure.png "Skipulag fyrirtækis")
 
 Í fyrri skipulagseiningum fyrirtækis verður þú að hafa lögaðili fyrir norður-amerísku samstæðuna, vegna þess að samstæður sameinast alltaf út frá bókhaldsgjaldmiðli upprunafyrirtækisins til gjaldmiðils samstæðufyrirtækisins. Í dæminu, ef öll fyrirtæki eru hluti af einni samstæðu, verður mexíkóska dótturfélagið umreiknað úr mexíkóskum pesóum (MXN) yfir í EUR, ekki frá MXN til USD til EUR.
 
 Þegar þú býrð til lögaðilann getur þú tilgreint hvort fyrirtækið sé notað fyrir bæði samstæðuferlið og losunarferlið, eða notað aðeins fyrir einn af þessum ferlum. Í eftirfarandi skýringarmynd er fyrirtækið notað fyrir báða ferlana. Athugaðu að þú getur ekki sent daglegar færslubækur í samstæðufyrirtæki, en þú getur bókað þær í losunarfyrirtæki. Því gætirðu viljað hafa losunarfyrirtæki sér.
 
-![Lögaðili sem er notaður bæði til sameiningar og útrýmingar](./media/sep-elimination-company.png "Lögaðili sem er notaður bæði til sameiningar og útrýmingar")
+![Lögaðili sem er notaður fyrir bæði samstæðu og losun.](./media/sep-elimination-company.png "Lögaðili sem er notaður bæði til sameiningar og útrýmingar")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Flokkar aðallykla og samstæðulykla
 Eitt sem þú þarft að ákveða er hvernig þú vilt sameina bókhaldslyklana þína. Í samstæðuferlinu hefur þú þrjá möguleika til að sameina aðallykla.
@@ -81,11 +82,11 @@ Fyrsta kosturinn er að nota aðallykla frá upprunafyrirtækjum. Í þessu tilf
 
 Önnur kosturinn er að tilgreina sjálfgefinn samstæðulykil á síðunni **Aðallykill**. Lyklinum verður síðan varpað á samstæðulykilinn. Þessi valkostur getur verið gagnlegur þegar þú ert með mismunandi bókhaldslykla eða verður að varpa á töflu sem er skilgreind af höfuðstöðvunum.
 
-![Sjálfgefinn samstæðulykill sem tilgreindur er á Aðalreikningssíðunni](./media/main-accounts.png "Sjálfgefinn samstæðulykill sem tilgreindur er á Aðalreikningssíðunni")
+![Sjálfgefinn samstæðulykill tilgreindur á síðu aðallykla.](./media/main-accounts.png "Sjálfgefinn samstæðulykill sem tilgreindur er á Aðalreikningssíðunni")
 
 Þriðji kosturinn er að nota flokka samstæðulykla. Hægt er að skilgreina eins marga flokka samstæðulykla eftir þörfum. Síðan á síðunni **Viðbótarupplýsingar um samstæðulykla** varpar þú bara aðallyklinum frá bókhaldslyklunum yfir á lykilinn sem þú þarfnast fyrir þann flokk.
 
-![Vörpun á síðunni Viðbótarupplýsingar samstæðureikninga](./media/additional-consolidation-accounts.png "Vörpun á síðunni Viðbótarupplýsingar samstæðureikninga")
+![Vörpun á síðunni fyrir viðbótarsamstæðulykla.](./media/additional-consolidation-accounts.png "Vörpun á síðunni Viðbótarupplýsingar samstæðureikninga")
 
 ## <a name="consolidating-online"></a>Samþætting á netinu
 Til að læra hvernig á að slá inn upplýsingar um samstæðu á netinu skal sjá [Sameiningar fjárhags á netinu](./consolidate-online.md).
@@ -97,7 +98,7 @@ Til að læra hvernig á að slá inn upplýsingar um samstæðu á netinu skal 
 - Endurskoða listasíðuna **Prófjöfnuður** í samstæðufyrirtækinu.
 - Í listanum yfir samstæðufærslur á síðunni **Samstæður** skal skoða stður sem eru búnar til eftir dagsetningu fyrir hvert upprunafyrirtæki fyrir hvert tímabil.
 
-    ![Sameiningarfærslur á síðunni Sameiningar](./media/managing-consolidation-transactions.png "Sameiningarfærslur á síðunni Sameiningar")
+    ![Samstæðufærslur á samstæðusíðunni.](./media/managing-consolidation-transactions.png "Sameiningarfærslur á síðunni Sameiningar")
 
 Til að keyra samstæðuna aftur er einfaldlega hægt að vinna úr samstæðunni. Einnig er hægt að velja fyrst **Fjarlægja færslur** á síðunni **Samstæður**.
 Í tilvikinu eru stöður á samstæðureikningnum þínum ekki rétt, hægt er að leiðrétta þessar stöður með því að nota síðuna **Leiðréttingar á lokunartímabili**.
@@ -118,7 +119,7 @@ Hægt er að finna uppsetningu fyrir losanir á svæðinu **Setja upp** í einin
 
 Þú getur stillt dagsetninguna þegar losunarreglan tekur gildi og dagsetninguna þegar hún rennur út, eins og þú þarfnast. Ef þú vilt að losunarreglan sé aðgengileg í losunartillöguferlinu verður þú að stilla valkostinn **Virk** á **Já**. Veldu heiti færslubókar af gerðinni **Losun**.
 
-![Grunneiginleikar brotthvarfsreglu](./media/ledger-elimination-rule-journal.png "Grunneiginleikar brotthvarfsreglu")
+![Grunneiginleikar losunarreglu.](./media/ledger-elimination-rule-journal.png "Grunneiginleikar brotthvarfsreglu")
 
 Þegar þú hefur skilgreint grunneiginleika skaltu velja **Línur** til að skilgreina raunverulegar úrvinnslureglur. Þú hefur tvo kosti í boði fyrir losun, að losa upphæð nettóbreytingar eða skilgreina fasta upphæð.
 
@@ -126,7 +127,7 @@ Veldu upprunalykla. Þú getur notað stjörnu (\*) sem algildistaf. Til dæmis 
 
 Þegar þú hefur valið upprunalykil skaltu nota reitinn **Lýsing á lykli** til að tilgreina lykilinn sem er notaður í viðtökufyrirtæki. Veldu **Uppruni** til að nota sama aðallykilinn sem er skilgreindur í upprunalegum lykli. Ef þú velur **Notandaskilgreint** verður þú að tilgreina viðtökulykil.
 
-![Síðan Losunarreglulína fjárhags](./media/ledger-elimination-rule-line.png "Síðan Losunarreglulína fjárhags")
+![Losunarreglulína fjárhags.](./media/ledger-elimination-rule-line.png "Síðan Losunarreglulína fjárhags")
 
 Reiturinn **Víddarskilgreining** virkar eins og reiturinn **Lýsing á lykli**. Veldu **Uppruni** til að nota sömu víddir í viðtökufyrirtækinu og í upprunafyrirtækinu. Ef þú velur **Notandaskilgreint** þarftu að tilgreina víddir í viðtökufyrirtæki með því að velja **Víddir viðtökustaðar**. Veldu síðan upprunavíddir og fjárhagsvíddir og gildi sem eru notuð sem uppruni losunar.
 

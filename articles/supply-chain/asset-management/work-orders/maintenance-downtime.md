@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344617"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Niðurtími vegna viðhalds fyrir verkbeiðnir
 
@@ -45,7 +45,7 @@ ms.locfileid: "5813726"
 
 Myndin hér að neðan sýnir dæmi um síðuna **Ástæðukóðar niðurtíma vegna viðhalds**.
 
-![Mynd 1](media/15-work-orders.png)
+![Mynd 1.](media/15-work-orders.png)
 
 Þegar þú hefur búið til þá ástæðukóða niðurtíma vegna viðhalds sem þú vilt nota, getur þú búið til skráningar á niðurtími vegna viðhalds fyrir verkbeiðnir og eignir.
 
@@ -71,15 +71,15 @@ Myndin hér að neðan sýnir dæmi um síðuna **Ástæðukóðar niðurtíma v
 
 Eftirfarandi skýringarmynd hér að neðan sýnir dæmi um skráningu á niðurtíma vegna viðhalds.
 
-![Mynd 2](media/16-work-orders.png)
+![Mynd 2.](media/16-work-orders.png)
 
 Dagatalið sem notað er til að reikna út skráningu niðurtíma vegna viðhalds fer eftir vali þínu við uppsetningu eigna og færibreytur. Ef tilföng eru valin á eign í reitnum **Tilföng** á flýtiflipanum **Föst eign** á síðunni **Allar eignir** er datalið sem sett var upp fyrir tengdan tilfangahóp notað, eins og sýnt er á myndinni hér á eftir.
 
-![Mynd 3](media/17-work-orders.png)
+![Mynd 3.](media/17-work-orders.png)
 
 Ef engin tilföng eru valin á eigninni er staðlað dagatal sem valið er á síðunni **Færibreytum eignastýringar** notað, eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Mynd 4](media/18-work-orders.png)
+![Mynd 4.](media/18-work-orders.png)
 
 Til að sjá yfirlit yfir allar skráningar á niðurtíma vegna viðhalds smellirðu á **Eignastjórnun fyrirtækja** > **Fyrirspurnir** > **Niðurtími vegna viðhalds**.
 

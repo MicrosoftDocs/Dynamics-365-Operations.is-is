@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350499"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -45,7 +45,7 @@ Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eð
 
 Einföld leið er raðbundin og er aðeins einn byrjunarreitur fyrir leiðina.  
 
-[![Einföld leið](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Einföld leið.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar, myndar Supply Chain Management sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
 
@@ -53,7 +53,7 @@ Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýring
 
 Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er hægt að skilgreina leiðir sem hafa marga upphafspunkta og aðgerðir sem hægt er að keyra samhliða.  
 
-[![Leiðanet](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Leiðarnet.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
@@ -64,7 +64,7 @@ Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er h
 
 Stundum er samsetningar margra rekstrartilfönga sem hafa mismunandi eiginleika krafist til að framkvæma aðgerð. Til dæmis getur samsetning aðgerða útheimt vél, verkfæri og einn starfsmann fyrir hverjar tvær vélar til að hafa umsjón með aðgerðinni. Þetta dæmi er hægt að setja upp í líkan með því að nota samhliða aðgerðir þar sem ein aðgerð er skráð sem aðalaðgerðin og hinar eru aukaáherslu.  
 
-[![Leið sem hefur aðal-og aukaaðgerðir](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Leið sem hefur aðal- og aukaaðgerðir.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Yfirleitt stendur aðalaðgerðin fyrir tilfangaflöskuháls og ákvarðar keyrslutíma fyrir aukaaðgerðir. Hins vegar við röðun sem felur í sér takmarkaðra getu, verða tilföng sem eru áætluð fyrir bæði aðalaðgerðina og aukaaðgerðir að vera tiltæk og hafa frjálsa afkastagetu á sama tíma.  
 

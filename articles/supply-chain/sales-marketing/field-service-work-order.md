@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824967"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345549"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5824967"
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vinnupantanir í Dynamics 365 Field Service við sölupantanir í Dynamics 365 Supply Chain Management.
 
-[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
@@ -245,31 +245,31 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
 Sía: (msdyn_systemstatus ne 690970005) og (msdyn_systemstatus ne 690970000) og (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderServiceLineEstimate
 
 Síða: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og (msdyn_linestatus eq 690970000) og (msdynce_headersystemstatus ne 690970004)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderServiceLineUsed
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004))
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderProductLineEstimate
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) og (msdyn_allocated eq true)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderProductLineUsed
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004) eða (msdyn_allocated ne true))
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797648"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347515"
 ---
 # <a name="content-block-module"></a>Eining fyrir bálk með efni
 
@@ -46,15 +46,15 @@ Að auki getur þemað afhjúpað mismunandi eiginleika fyrir hvert skipulag. Þ
 
 Eftirfarandi mynd sýnir dæmi um innihaldsbálkseiningu með hetjuuppsetningu.
 
-![Dæmi um hetjueiningu](./media/Hero.PNG)
+![Dæmi um hetjueiningu.](./media/Hero.PNG)
 
 Eftirfarandi mynd sýnir dæmi um innihaldsbálkseiningu með eiginleikauppsetningu.
 
-![Dæmi um eiginleikaeiningar](./media/Feature.PNG)
+![Dæmi um eiginleikaeiningar.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Eiginleikar innihaldsbálks
 
-| Nafn eiginleika  | Gildi | Lýsing |
+| Nafn eiginleika  | Gildi | lýsing |
 |----------------|--------|-------------|
 | Mynd          | Myndaskrá | Hægt er að nota mynd til að sýna vöruna eða auglýsa. Hægt er að hlaða mynd inn í myndasafnið eða nota núverandi mynd. |
 | Fyrirsögn        | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Sérhver hetjueining getur haft fyrirsögn. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |

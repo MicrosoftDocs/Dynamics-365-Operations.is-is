@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804430"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352301"
 ---
 # <a name="enable-personalized-recommendations"></a>Kveikja á sérsniðnum tillögum
 
@@ -50,7 +50,7 @@ Fylgdu þessum skrefum til að kveikja á persónuaðlögun.
 1. Velja eiginleikann **Sérsniðnar afurðarráðleggingar**.
 1. Á svæðinu **Sérsniðnar afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á aðlögun](./media/FeatureManagement_Personalized.PNG)
+![Kveikt á sérstillingu.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Þegar þú kveikir á sérsniðinni er ferlið við að búa til sérsniðna vöru meðmæla lista byrjað. Allt að einn dagur gæti verið nauðsynlegur áður en þessir listar eru tiltækir og sýnilegir á netinu og í POS.
@@ -73,7 +73,7 @@ Eftir að kveikt er á sérstillingu geta smásalar sýnt kaupendum persónulega
 
 Eftirfarandi mynd sýnir dæmi um „Tillögur fyrir þig“ á netverslunarsíðu.
 
-![Listar yfir „Tillögur fyrir þig“ á netinu](./media/picksforyou.png)
+![Listi yfir „Tillögur fyrir þig“ á netinu.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Listar með „Mælt með fyrir viðskiptavini“ í POS
 
@@ -81,7 +81,7 @@ Til að auka upplifun viðskiptavinarins geta smásalar sérsniðið núverandi 
 
 Eftirfarandi mynd sýnir dæmi um „Mælt með fyrir viðskiptavini“ á afgreiðslukassa.
 
-![Listinn Mællt með fyrir viðskiptavini í POS](./media/picksonpos.png)
+![Listinn Mælt með fyrir viðskiptavini í POS.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Notaðu persónugervingu á fyrirliggjandi meðmæla lista
 
@@ -89,7 +89,7 @@ Söluaðilar geta beitt sérsniðum á fyrirliggjandi ráðleggingalista, svo se
 
 Til dæmis hefur skráður notandi þegar keypt svarta úrið og brúnu vinnuskóna sem birtast á listanum „Vinsælt - sjálfgildi“ á eftirfarandi mynd. Þess vegna mun notandinn sjá nýjar vörur í stað þessara vara, eins og sýnt er í listanum „Vinsælt - sérsniðið“.
 
-![Að beita sérsniðum](./media/applypersonalization.png)
+![Að beita sérsniðum.](./media/applypersonalization.png)
 
 Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalista í vefsvæðishönnuði Commerce.
 
@@ -99,7 +99,7 @@ Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalist
 1. Í **Veldu stillingu vörulistans** valmynd, undir **Gerð**, veldu gerð listans.
 1. Veldu **Notaðu sérsnið** merktu við reitinn og veldu síðan **Í lagi**.
 
-    ![Notkun sérsniðs á vinsældalista](./media/ApplyPersonalizationToTrending.PNG)
+    ![Notkun sérsniðs á vinsældalista.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Vistaðu síðuna, ljúktu við að breyta því og birtu hana síðan. Eftir að síðunni er birt munu innskráðir notendur sjá sérsniðna vinsældalista.
 

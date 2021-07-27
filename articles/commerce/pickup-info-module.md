@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353805"
 ---
 # <a name="pickup-information-module"></a>Eining fyrir afhendingarupplýsingar
 
@@ -40,7 +40,7 @@ Skilgreina verður tímahólf sóttra pantana fyrir viðeigandi verslanir í Com
 
 Eftirfarandi skýringarmynd sýnir dæmi um val á tímahólfi á einingu afhendingarupplýsinga á greiðsluferlissíðu.
 
-![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
@@ -56,7 +56,7 @@ Leiðbeiningar um hvernig bæta skuli einingu afhendingarupplýsinga við greið
 
 Eftirfarandi mynd sýnir dæmi um útskráningarsíðu e-Commerce sem inniheldur tímahólf fyrir línuvörur afhendingar.
 
-![Dæmi um greiðsluferlissíðu e-Commerce sem inniheldur tímahólf fyrir línuatriði](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Dæmi um greiðsluferlissíðu e-Commerce sem inniheldur tímahólf fyrir línuatriði.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

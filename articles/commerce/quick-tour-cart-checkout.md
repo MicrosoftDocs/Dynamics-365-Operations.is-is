@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027940"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352037"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
@@ -37,7 +38,7 @@ Körfusíðan virkar sem innkaupapokinn og inniheldur alla hluti sem hafa verið
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
-![Dæmi um körfusíðu](./media/cart2.PNG)
+![Dæmi um körfusíðu.](./media/cart2.PNG)
 
 Meginhlutinn af körfusíðunni sýnir hluti sem viðskiptavinur hefur bætt við körfuna. Allur viðeigandi afsláttur er sýndur. Þessir afslættir innihalda flókna afslátt. Sem dæmi má nefna „Kauptu 3 hluti og fáðu 10% afslátt“ eða „Kauptu flösku og bakpoka til að fá 10% afslátt.“ Pöntunarsamantektareiningin sýnir upphæðina sem er gjaldfærð eftir að afslætti, flutningum, sköttum og svo framvegis hefur verið beitt. Það er einnig til kynningarkóðaeining sem gerir viðskiptavininum kleift að beita eða fjarlægja kynningarkóða.
 
@@ -53,7 +54,7 @@ Greiðslusíðan er þar sem viðskiptavinir slá inn upplýsingarnar sem þarf 
 
 Eftirfarandi mynd sýnir dæmi um útskráningarsíðu sem var byggð með einingasafni.
 
-![Dæmi um greiðslusíðu](./media/Checkout.PNG)
+![Dæmi um greiðslusíðu.](./media/Checkout.PNG)
 
 Meginhluti greiðslusíðunnar er þar sem öllum pöntunarupplýsingum er safnað. Þessar upplýsingar fela í sér póstfang, afhendingarmöguleika og greiðsluupplýsingar. Kassi hefur skref fyrir skref flæði, vegna þess að upplýsingarnar verða að vera færðar í ákveðna röð til að vinna úr. Til dæmis verður að færa inn flutningsfangið áður en hægt er að reikna út flutningskostnaðinn og heimila greiðsluna.
 

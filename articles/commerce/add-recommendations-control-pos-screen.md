@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797480"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348345"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Bæta tillögum við færsluskjáinn
 
@@ -43,7 +43,7 @@ Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Commerce
 6. Þegar þú skráir þig inn birtist síða sem er svipuð þeirra sem er fyrir neðan. Útlitið verður mismunandi eftir þeim sérstillingum sem voru gerðar fyrir verslunina.
 
 
-    [![Útlitshönnuður](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Útlitshönnuður.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Veldu valkost skjás
 
@@ -58,11 +58,11 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 1. Dragðu úr hæð upplýsingasvæðis færslulína svo að það sé í sömu hæð og svæði viðskiptamanns til vinstri .
 
 
-    [![Hæð á upplýsingasvæði fyrir færslulínur minnkuð](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hæð á upplýsingasvæði fyrir færslulínur minnkuð.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Frá valmynd til vinstri skal draga og sleppa ráðleggingarstýringu á milli upplýsingasvæðis færslulína og hnappahnita í neðst á miðjan færsluskjáinn. Breyta stærð stýringar svo að hún passi í það bil.
 
-    [![Ráðleggingarstýringu bætt við útlitið](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Ráðleggingarstýringu bætt við útlitið.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
@@ -77,13 +77,13 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 2. Smelltu á **Sérstilla**.
 
-    [![Sérstilling - Svargluggi flipastýringar](./media/pic-5.png)](./media/pic-5.png)
+    [![Sérstilling - Svargluggi flipastýringar.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Smellt er á **Nýr flipi**.
 4. Finndu nýja flipann sem þú varst að bæta við. Hugsanlega þarf að skruna niður.
 5. Í fellilistanum **Efni** skal velja **Ráðlögð afurð**.
 
-    [![Val á vörum sem mælt er með í efnisreitnum](./media/pic-6.png)](./media/pic-6.png)
+    [![Val á vörum sem mælt er með í efnisreitnum.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Í svæðinu **Merki** skal færa inn heiti á ráðleggingaflipanum. Færðu til dæmis inn „Ráðlagðar afurðir“.
 7. Í svæðinu **Mynd** velurðu myndina sem á að birtast á flipanum.

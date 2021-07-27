@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359102"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Söluverð sem byggir á eigind fyrir afurðarafbrigði með skorðum
 
@@ -33,7 +33,7 @@ Sjálfgefinn gjaldmiðill valinn:
 1. Opnið flipann **Líkön afurðarafbrigða sem byggja á skorðum**.
 1. Opnið fellilistann **Sjálfgefinn gjaldmiðill** og veljið gjaldmiðilinn.
 
-    ![Veljið sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum](media/prod-config-currency.png "Stilla sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum")
+    ![Veljið sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum.](media/prod-config-currency.png "Stilla sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum")
 
 1. Ef á að hengja við Excel-skrá með sundurliðun á verði fyrir allar pöntunar- og tilboðslínur, skal í hlutanum **Verðlíkan** stilla **Hengja við** á *Já*.
 
@@ -60,7 +60,7 @@ Eftirfarandi dæmi sýnir grunnverð á fastri tölu sem nemur 899,95 EUR, sem h
 - Fyrir rósaviðaráferð á skáp skal bæta við 119,95 EUR.
 - Bætið við 12,95 EUR fyrir hverja einingu af hæð hátalara.
 
-![Dæmi um verðlíkan](media/prod-config-rules-example.png "Dæmi um verðlíkan")
+![Dæmi um verðlíkan.](media/prod-config-rules-example.png "Dæmi um verðlíkan")
 
 ## <a name="add-support-for-multiple-currencies"></a>Bæta við stuðningi fyrir marga gjaldmiðla
 
@@ -81,7 +81,7 @@ Sérstöku verði bætt við viðbótargjaldmiðil:
 
 Í dæminu hér að neðan er _EUR_ sjálfgefni gjaldmiðillinn og _USD_ hefur verið bætt við sem viðbótargjaldmiðill.
 
-![Dæmi um líkan með mörgum gjaldmiðlum](media/prod-config-rules-currency-example.png "Dæmi um líkan með mörgum gjaldmiðlum")
+![Dæmi um líkan með mörgum gjaldmiðlum.](media/prod-config-rules-currency-example.png "Dæmi um líkan með mörgum gjaldmiðlum")
 
 > [!NOTE]
 > Ekki er hægt að bæta við segðarreglum sem eru einkvæmar fyrir gjaldmiðil sem ekki er sjálfgefinn. Til að stofna segðarreglur sem ættu aðeins að eiga við um gjaldmiðil annan en sjálfgefna gjaldmiðilinn, skal setja verð segðar fyrir sjálfgefna gjaldmiðilinn á núll. Setjið síðan á viðeigandi segð fyrir gjaldmiðilinn sem ekki er sjálfgefinn.
@@ -93,11 +93,11 @@ Til að prófa hvernig söluverðin virka í skilgreiningarlotu skal opna breyti
 - Notið skilgreiningarstillingarnar sem boðið er upp á hér til að velja valkosti afurðar og skoðið svo áhrifin sem þeir hafa á gildið sem sýnt fyrir **Verð og sendingardagsetning**.
 - Veljið **Skoða verðsundurliðun** til að hlaða niður Excel-skjali sem sýnir ítarlegar upplýsingar um hvernig verðið var reiknað út.
 
-![Afurðarlíkanið prófað](media/prod-config-test.png "Vörulíkanið prófað")
+![Vörulíkanið prófað.](media/prod-config-test.png "Vörulíkanið prófað")
 
 Sóttur töflureiknir sýnir bæði heildargildið og framlagið sem prósentu fyrir hverja virka verðeiningu. Ef búið er að stilla valkostinn **Hengja við** fyrir verðlíkanið á síðunni **Færibreytur vöruupplýsingastjórnunar**, verður þetta Excel-skjal hengt við pöntunina eða tilboðslínuna.
 
-![Excel-töflureiknir sem sýnir sundurliðun verðs](media/prod-config-excel-example.png "Excel-töflureiknir sem sýnir sundurliðun verðs")
+![Excel-töflureiknir sem sýnir sundurliðun verðs.](media/prod-config-excel-example.png "Excel-töflureiknir sem sýnir sundurliðun verðs")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Setja upp valskilyrði fyrir verðlíkön
 
@@ -116,7 +116,7 @@ Valskilyrði fyrir verðlíkön sett upp:
     - **Gildir frá** - Tilgreinið fyrsta daginn þegar fyrirspurnin tekur gildi.
     - **Gildir til** - Tilgreinið síðasta daginn sem fyrirspurnin gildir.
 
-    ![Skilyrði verðlíkans](media/prod-config-price-model-criteria.png "Skilyrði verðlíkans")
+    ![Skilyrði verðlíkans.](media/prod-config-price-model-criteria.png "Skilyrði verðlíkans")
 
 1. Veljið línuna fyrir fyrirspurnina sem á að skilgreina og veljið síðan **Breyta** á **Aðgerðarsvæðinu**. Svargluggi fyrirspurnarhönnuðar opnast. Hann virkar eins og flestir fyrirspurnarhönnuðir í Supply Chain Management. Notið hann til að skilgreina skilyrðin þar sem verðlíkanið fyrir línuna sem var valin á að gilda um.
 
@@ -137,7 +137,7 @@ Lokaskrefið er að tilgreina söluverð sem byggir á eigind fyrir útgáfu afu
 1. Veljið afbrigðalíkan afurðar sem við á.
 1. Á aðgerðasvæðinu skal opna flipann **Líkan** og í flokknum **Upplýsingar um vörulíkan** skal velja **Útgáfur**.
 1. Síðan **Útgáfur** opnast. Gangið úr skugga um að **Verðlagningaraðferð** sé stillt á **Byggir á eigind**.
-    ![Stilla aðferð verðlagningar svo hún byggi á eigind](media/prod-config-versions.png "Stilla aðferð verðlagningar svo hún byggi á eigind")
+    ![Stilla aðferð verðlagningar svo hún byggi á eigind.](media/prod-config-versions.png "Stilla aðferð verðlagningar svo hún byggi á eigind")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

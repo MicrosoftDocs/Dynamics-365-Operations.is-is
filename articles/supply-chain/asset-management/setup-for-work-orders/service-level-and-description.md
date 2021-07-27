@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808257"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356465"
 ---
 # <a name="service-level-and-description"></a>Þjónustustig og lýsing
 
@@ -43,9 +43,9 @@ ms.locfileid: "5808257"
 6. Til að stilla upphafstíma fyrir verkbeiðnina, auk upphafsdagsetningar, skaltu stilla valkostinn **Stilla upphafstíma** á **Já**. Sláðu síðan upphafstímann inn í reitinn **Upphafstími**. Ef þú stillir möguleikann á **Nei** er núverandi tími dags notaður.
 7. Í reitinn **Lokadagur** slærðu inn fjölda daga til að skilgreina tímabilið þegar verkbeiðni skal ljúka. Fjöldi daga er reiknaður úr upphafsdagsetningu verkbeiðninnar. Til dæmis, ef verkbeiðnin skal ljúka innan viku frá upphafsdegi hennar, sláðu þá inn **7**.
 8. Til að stilla lokatíma fyrir verkbeiðnina, auk lokadagsetningar, skaltu stilla valkostinn **Stilla lokatíma** á **Já**. Sláðu síðan lokastímann inn í reitinn **Lokatími**. Ef þú stillir möguleikann á **Nei** er núverandi tími dags notaður.
-9. Veljið **Vista**.
+9. Veldu **Vista**.
 
-![Síðan Þjónustustig verkbeiðna](media/19-setup-for-work-orders.png)
+![Þjónustustigsíða verkbeiðni.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Stofna lýsingu
 

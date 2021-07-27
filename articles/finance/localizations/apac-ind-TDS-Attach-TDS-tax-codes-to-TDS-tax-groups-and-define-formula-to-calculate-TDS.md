@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358483"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
 
@@ -33,7 +33,7 @@ Fylgið þessum skrefum til að setja upp TDS-skattflokk, hengja TDS-skattkóða
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Staðgreiðsluskattsflokkar**.
 
-    [![Síða staðgreiðsluskattsflokka](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Síða staðgreiðsluskattsflokka.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Á aðgerðasvæðinu skal velja **Nýtt** til að stofna staðgreiðsluskattsflokk fyrir TDS og færa inn nauðsynlegar upplýsingar.
 3. Í reitnum **Skattgerð** skal velja **TDS**.
@@ -43,7 +43,7 @@ Fylgið þessum skrefum til að setja upp TDS-skattflokk, hengja TDS-skattkóða
 7. Til að koma í veg fyrir að skattflokkurinn verði reiknaður út í færslum skal velja gátreitinn **Undanþága**.
 8. Á aðgerðasvæðinu skal velja **Hönnuður** til að opna formúluhönnuðinn svo þú getir skilgreint formúluna fyrir útreikning á TDS fyrir TDS-skattflokkinn. Á síðunni **Hönnuður** sýnir flipinn **Skattar** TDS-skattkóðana sem hafa verið valdir fyrir TDS-skattflokkinn.
 
-    [![Hönnuðarsíða](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Hönnuðarsíða.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Í flipanum **Útreikningur** skal velja **Alt+N** til að stofna línu. Reiturinn **Kenni** sýnir sjálfkrafa myndað forgangskenni fyrir TDS-útreikning.
 10. Í reitnum **Skattkóði** skal velja TDS-skattkóðann til að skilgreina formúluna fyrir hann. Allir TDS-skattkóðarnir sem hafa verið valdir fyrir TDS-skattflokkinn er hægt að velja í þessum reit.
