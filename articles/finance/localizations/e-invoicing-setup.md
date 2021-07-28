@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348487"
 ---
 # <a name="set-up-electronic-invoicing"></a>Setja upp rafrænar reikningsfærslur
 
@@ -37,7 +37,7 @@ Stillanleikinn reiðir sig á skilgreiningu rafræns skýrslugerðarsniðs sem l
 
 Eftirfarandi mynd sýnir helstu þættina í eiginleika rafrænnar reikningsfærslu.
 
-![Yfirlit yfir eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Yfirlit yfir eiginleika rafrænnar reikningsfærslu.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Vegna frávika í reikningssniðum og aðgerðarflæði, gæti uppsetning eiginleikans verið breytileg eftir löndum eða svæðum, eða vegna viðskiptakrafa.
 
@@ -50,7 +50,7 @@ Ljúka þarf uppsetningarferlinu í RCS-umhverfinu. Fylgið eftirfarandi skrefum
 3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja **Flytja inn** til að flytja inn skilgreiningu á gagnalíkani rafrænnar skýrslugerðar úr altæku geymslunni.
 4. Veljið **Bæta við** til að stofna eiginleika rafrænnar reikningsfærslu. Annaðhvort er hægt að stofna eiginleikann frá grunni eða búa hann til út frá fyrirliggjandi eiginleika rafrænnar reikningsfærslu.
 
-    ![Bæta við eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Bæta við eiginleika rafrænnar reikningsfærslu.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Þegar nýr eiginleiki rafrænnar reikningsfærslu er stofnaður fylgir honum nýtt útgáfunúmer og sjálfgefin staða hans er stillt á **Drög**.
@@ -63,21 +63,21 @@ Fylgið þessum skrefum til að bæta sniðum rafrænnar skýrslugerðar við ei
 
 1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Skilgreiningar**, skal velja **Bæta við** til að bæta við skilgreiningum á skráarsniði rafrænnar skýrslugerðar fyrir eiginleika rafrænnar reikningsfærslu.
 
-    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu bætt við.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Þegar eiginleiki rafrænnar reikningsfærslu er búinn til frá grunni, þarf að bæta handvirkt við öllum skilgreiningum á skráarsniði rafrænnar skýrslugerðar. Þegar eiginleiki rafrænnar reikningsfærslu er búinn til út frá fyrirliggjandi eiginleika, eru skilgreiningar á skráarsniði rafrænnar skýrslugerðar sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærslu.
 
 2. Veljið **Breyta** til að opna síðuna **Sniðshönnuður** þar sem hægt er að breyta skilgreiningu á skráarsniði rafrænnar skýrslugerðar.
 
-    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Skilgreiningum á eiginleika rafrænnar reikningsfærslu breytt.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Þegar sniðinu er breytt breytist staða skilgreiningarinnar í **Drög**.
 
 3. Notið síðuna **Sniðshönnuður** til að breyta skilgreiningu skráarsniðsins. Frekari upplýsingar er að finna í [Stofna skilgreiningar rafræns skjals](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Síða sniðshönnuðar](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Síða sniðshönnuðar.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Uppsetning eiginleika
 
@@ -87,18 +87,18 @@ Fylgið þessum skrefum til að bæta uppsetningum eiginleika við eiginleika ra
 
 1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við** til að bæta uppsetningum eiginleika við eiginleika rafrænnar reikningsfærslu.
 
-    ![Uppsetningum á eiginleika rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Uppsetningum á eiginleika rafrænnar reikningsfærslu bætt við.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Þegar eiginleiki rafrænnar reikningsfærslu er búinn til frá grunni, þarf að bæta handvirkt við öllum uppsetningum eiginleika sem þörf er á. Þegar eiginleiki rafrænnar reikningsfærslu er búinn til út frá fyrirliggjandi eiginleika, eru allar uppsetningar eiginleika sjálfkrafa búnar til vegna þess að þær erfast frá upprunalegum eiginleika rafrænnar reikningsfærslur.
 
 2. Veljið **Breyta** til að breyta uppsetningu eiginleikaútgáfu.
 
-    ![Uppsetningum á breytingum eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Uppsetningum á breytingum eiginleika rafrænnar reikningsfærslu.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Notið síðuna **Uppsetning eiginleikaútgáfu** til að skilgreina aðgerðir, gildissviðsreglur og breytur.
 
-    ![Aðgerðir, gildissviðsreglur og breytur](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Aðgerðir, gildissviðsreglur og breytur.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Aðgerðir
 
@@ -113,7 +113,7 @@ Hver aðgerð inniheldur fyrirframskilgreindan lista yfir færibreytur sem eru n
 - Veljið **Ný** eða **Eyða** til að bæta við nýjum aðgerðum eða eyða fyrirliggjandi aðgerðum.
 - Veljið **Upp** eða **Niður** til að færa valdar aðgerðir upp eða niður í hnitanetinu og breyta þannig röðinni sem þær eru keyrðar í. Aðgerðir eru keyrðar í þeirri röð sem þær birtast í hnitanetinu, ofan frá og niður.
 
-![Aðgerðum stjórnað](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Aðgerðum stjórnað.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í flipanum **Aðgerðir**.
 
@@ -129,7 +129,7 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í flipanum **Aðgerðir**.
 
 Flýtiflipinn **Færibreytur** sýnir færibreyturnar fyrir aðgerðina sem er valin í flýtiflipanum **Aðgerðir**.
 
-![Flýtiflipi færibreyta](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Flýtiflipi færibreyta.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í flipanum **Færibreytur**.
 
@@ -259,20 +259,20 @@ Gildissviðsreglur gera þér kleift að búa til röklegar reglur sem ákveða 
 
 1. Á síðunni **Uppsetning á útgáfu eiginleika**, í flipanum **Gildissviðsreglur**, skal velja **Ný** til að bæta við gildissviðsreglu.
 
-    ![Stjórnun gildissviðsreglna](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Stjórnun gildissviðsreglna.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Í hnitanetinu skal velja ákvæðin sem á að flokka saman.
 3. Velja **Flokka ákvæði**.
 
-    ![Ákvæði flokkuð](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Ákvæði flokkuð.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Þegar ákvæði eru flokkuð er nýjum dálki bætt við hnitanetið. Þessi dálkur tilgreinir rökvirkinn fyrir flokkuð ákvæði.
 
-    ![Rökvirkirinn fyrir flokkuð ákvæði](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Rökvirkirinn fyrir flokkuð ákvæði.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Til að afturkalla flokkun á ákvæðum skal velja flokkuð ákvæði sem á að taka úr flokkun og síðan velja **Afturkalla flokkun ákvæðis**.
 
-![Flokkun ákvæða afturkölluð](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Flokkun ákvæða afturkölluð.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Þegar flokkun ákvæðis er afturkölluð skal alltaf byrja á innsta flokkunarstiginu.
@@ -294,7 +294,7 @@ Hægt er að búa til breytur og nota þær síðan sem innsláttargildið fyrir
 
 - Á síðunni **Uppsetning á útgáfu eiginleika**, í flipanum **Breytur**, skal velja **Ný** eða **Eyða** til að stjórna breytum.
 
-    ![Að stjórna breytum](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Að stjórna breytum.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í flipanum **Breytur**.
 
@@ -310,7 +310,7 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í flipanum **Breytur**.
 
 - Á síðunni **Uppsetning á útgáfu eiginleika**, á aðgerðasvæðinu, skal velja **Villuleita** til að villuleita uppsetningu á útgáfu eiginleikans.
 
-   ![Villuleitarhnappurinn valinn](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Villuleitarhnappurinn valinn.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Villuleitin athugar samræmi allrar skilgreiningarinnar. Ef til dæmis tiltekin færibreyta fyrir aðgerð er áskilin en gildi hennar er autt, ber villuleitin kennsl á þetta ósamræmi og upp kemur villa.
 
@@ -323,7 +323,7 @@ Fylgið þessum skrefum til að virkja umhverfi rafrænnar reikningsfærslu fyri
 1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Umhverfi**, skal velja **Virkja** til að bæta við umhverfi rafrænnar reikningsfærslu.
 2. Í reitinn **Gildir frá** skal færa inn dagsetninguna þegar nýja umhverfið tekur gildi.
 
-![Virkjun umhverfis rafrænnar reikningsfærslu](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Virkjun umhverfis rafrænnar reikningsfærslu.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Fyrirtæki
 

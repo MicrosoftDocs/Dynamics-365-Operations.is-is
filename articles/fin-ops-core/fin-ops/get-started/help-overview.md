@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923447"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373368"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -35,7 +37,7 @@ Notendur eftirfarandi forrita geta fengið aðgang að samhengishjálp og öðru
 
 Í öllum þessum forritum er hægt að fá aðgang að hjálp fyrir tiltekna vöru af svæðinu **Hjálp**.
 
-![Hjálparsvæði](./media/help-pane-ops-help.png)
+![Hjálparsvæði.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
@@ -46,12 +48,23 @@ Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) e
 
 Hægt er að finna efni á docs.microsoft.com með því að nota hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á vefsvæðum, svo sem **site:docs.microsoft.com dynamics 365 „leitarorð“**.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
+<!--## Get notified about changes through an RSS feed
 
-Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna efnisins á docs.microsoft.com skaltu nota eftirfarandi tengil:
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
 Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.
@@ -60,7 +73,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 2. Byrjið að færa inn athugasemdir og smellið síðan á **Senda inn ábendingu**.
 
-    ![Setja inn ummæli](./media/feedback.png)
+    ![Setja inn ummæli.](./media/feedback.png)
 
 > [!NOTE]
 > Ef senda á inn athugasemdir um fylgiskjöl þarf að skrá sig inn með GitHub-reikningi. Frekari upplýsingar er að finna í [Uppsetning og stjórnun GitHub-forstillingar](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -84,11 +97,11 @@ Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með �
 
 Microsoft gaf út verkleiðbeiningar fyrir afurðarútgáfur í desemberútgáfu 2017 Dynamics 365 for Finance and Operations. Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](#accessing-task-guides-from-the-help-pane) í þessu efnisatriði lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
-![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
+![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
 
 Til að byrja gagnvirka leiðsögn skal velja **Opna verkefnaleiðbeiningar** neðst á rúðunni **Hjálp**. Svartur bendill sýnir hvar á að fara fyrst. Fylgja skal leiðbeiningunum sem birtast í notendaviðmótinu og færa inn gögn samkvæmt leiðbeiningum.
 
-![Fyrirmæli um skref í verkefnaleiðbeiningum](./media/task-guide-step-1-ops.png)
+![Fyrirmæli um skref í verkefnaleiðbeiningum.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg. Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.
@@ -101,7 +114,7 @@ Hægt er að nota verkskráningu til að stofna eigin sérsniðnar verkefnaleið
 
 Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er hægt að ýta á **Ctrl+Shift+?**. Í báðum tilvikum opnast **Hjálparsvæði**. Í **Hjálp** er hægt að opna efnisatriði eða verkleiðbeiningar sem eiga við um reiti afurðarinnar sem notandi er staddur í.
 
-![Hjálparsvæði](./media/help-pane-ops-help.png)
+![Hjálparsvæði.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Opna hjálparefni af hjálparsvæðinu
 
@@ -118,13 +131,13 @@ Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er h�
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna **hjálparsvæðið** og velja flipann **Verkefnaleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Eftir að smellt er á verkleiðbeiningar á svæðinu **Hjálp** sýnir **hjálparsvæðið** skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar.
 
-![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
+![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Hvar eru þýddu verkefnaleiðbeiningarnar fyrir Microsoft-söfn?
 

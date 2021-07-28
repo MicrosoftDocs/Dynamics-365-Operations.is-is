@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352591"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Grunnstilla rás til að nota skoðunarstigveldi rásar
 
@@ -45,7 +45,7 @@ Fylgdu þessum skrefum til að stilla rásina til að nota stigveldi rásarinnar
 
 Eftirfarandi myndi sýnir hvernig stilla skuli rás til að nota stigveldi rásarinnar.
 
-![Dæmi um rásaskilgreiningu](media/configure-channel-hierarchy-1.png)
+![Dæmi um rásaskilgreiningu.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Stilla eigind lýsigagna
 
@@ -61,7 +61,7 @@ Til að stilla lýsigögn eigindar skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um eiginleika rásafurða sem eru stilltir á hnút rásaflokks.
 
-![Rásareigindir á hnút rásaflokks](media/configure-channel-hierarchy-2.png)
+![Rásareigindir á hnút rásaflokks.](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Birta breytingar
 
@@ -74,11 +74,11 @@ Til að birta breytingar skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir hvernig á að birta uppfærslur á rásum.
 
-![Birta uppfærslur rásar](media/configure-channel-hierarchy-3.png)
+![Birta uppfærslur rásar.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Stofna yfirlitsstigveldi rásar](create-channel-hierarchy.md)
+[Búa til skoðunarstigveldi rásar](create-channel-hierarchy.md)
 
 
 

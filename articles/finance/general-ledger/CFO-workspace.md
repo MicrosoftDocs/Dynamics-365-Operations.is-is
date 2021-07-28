@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360713"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Bæta fjárhagsvíddum við CFO vinnusvæðið
 
@@ -45,14 +45,14 @@ ms.locfileid: "5823837"
 11. Breyta **Þverlæg afmörkun leið** gildinu í **Stakur**.
 12. Velja bæði **Virkja þessi vensl** og **Gera ráð fyrir tilvísandi áreiðanleika**, veljið **Í lagi** og veljið síðan **Loka**.
 
-    [![Stofna vensl](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Stofna vensl.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. Í listanum **Reitir** ættirðu að sjá töfluna og tiltækar fjármálavíddir. Dragðu fjárhagsvíddirnar sem þú vilt yfir í skýrsla-stig afmarkanirnar.
 14. Vista breytingarnar.
 15. Í Hugbúnaðarhlutatrénu (AOT) skal hægri-smella á þitt verkefni og velja síðan **Samstilla**.
 16. Smíðaðu þitt verkefni og opnaðu svo forritið til að skoða niðurstöðurnar.
 
-    [![Vinnusvæði lokið](./media/workspace.png)](./media/workspace.png)
+    [![Vinnusvæði lokið.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

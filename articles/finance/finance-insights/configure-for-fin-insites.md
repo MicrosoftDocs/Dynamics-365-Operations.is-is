@@ -1,6 +1,6 @@
 ---
-title: Stilling fyrir fjármálainnsýn - útgáfur fram að 10.0.19
-description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn fyrir útgáfur fram að 10.0.19.
+title: Stillingar fyrir Fjármálainnsýn - á undan útgáfu 10.0.19
+description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn fyrir útgáfur á undan 10.0.19.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186421"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357439"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Stillingar fyrir Fjármálainnsýn (forútgáfa)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Stillingar fyrir Fjármálainnsýn fyrir einkaforskoðun (forútgáfu) - á undan útgáfu 10.0.19
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186421"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Eftirfarandi ferli við uppsetningu fjármálainnsýnar gilda fyrir Microsoft Dynamics 365 Finance útgáfur fram að 10.0.19. Til að setja upp fjármálainnsýn á útgáfu 10.0.20 og nýrri skal sjá [Stilling fjármálainnsýnar (forútgáfa) - útgáfur 10.0.20 og nýrri](configure-for-fin-insites-PubPrvw.md).
+> Eftirfarandi ferli við uppsetningu fjármálainnsýnar gilda fyrir Microsoft Dynamics 365 Finance á undan útgáfu 10.0.19. Til að setja upp fjármálainnsýn á útgáfu 10.0.20 og nýrri skal sjá [Stilling fjármálainnsýnar (forútgáfa) - útgáfur 10.0.20 og nýrri](configure-for-fin-insites-PubPrvw.md).
 
 Fjármálainnsýn sameinar virkni Microsoft Dynamics 365 Finance við Microsoft Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtækið. Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn.
 
@@ -59,7 +59,7 @@ Fylgið eftirfarandi skrefum til að stilla Dataverse fyrir Finance insights.
 
     1. Opnið síðuna **Umhverfi**.
 
-        [![Umhverfissíða](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Umhverfissíða.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Veljið Dataverse-umhverfið sem búið er til hér að ofan og veljið svo **Stillingar**.
     3. Veljið **Tilföng \> Allar eldri stillingar**.
@@ -792,6 +792,8 @@ Viðbótin verður sett upp innan fárra mínútna.
     | CDS-vefslóð fyrirtækis                                     | Vefslóð Dataverse fyrirtækisins afrituð að ofan. |
     | Auðkenni CDS-fyrirtækis                                               | Kenni Dataverse fyrirtækisins afritað að ofan. |
 5. Virkið **Er þetta sjálfgefna umhverfið fyrir leigjandann þinn**.
+
+Það gæti tekið nokkrar mínútur að setja innbótina upp.
     
 ## <a name="configure-the-entity-store"></a>Grunnstilla einingaverslun
 

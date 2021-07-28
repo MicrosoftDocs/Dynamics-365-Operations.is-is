@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7bdd292893ee42d49bdf977a55d8b10896ca1cd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bb9d0e96f8bbdb49408b232eb0405a22d6f478bb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792440"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349209"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Fara yfir stöðu tilraunar
 Mörg skref fylgja því að setja upp og keyra tilraun í Dynamics 365 Commerce. Upplýsingar um tilraunaferlið er að finna í [Tilraunagerð í Dynamics 365 Commerce](experimentation-overview.md).
@@ -41,7 +41,7 @@ Til að sjá hvar tilraun er í ferlinu skal velja **Tilraunir** í vinstra yfir
 
 Skýringarmyndin hér að neðan sýnir bæði settin af stöðum og hvernig þau tengjast hvort öðru.
 
-[ ![Stöður tilraunavinnu](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+[ ![Stöður tilraunavinnu.](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

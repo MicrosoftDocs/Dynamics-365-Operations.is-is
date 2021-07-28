@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fc9b330926dfc12890d0bc32e68b4b531616fc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909035"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357553"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Setja upp kennslu fyrir Regression Suite Automation Tool
 
@@ -67,22 +67,22 @@ RSAT notar Azure Devops fyrir prófunartilvikið og stjórnun prófunarpakkans, 
 - Ekki eyða neinni stöðu í gerð vinnuliðar.
 - Ekki bæta neinum skyldusvæðum við gerð vinnuliðar.
 
-![Villuboð með lista yfir bestu starfsvenjur](./media/setup_rsa_tool_02.png)
+![Villuboð með lista yfir bestu starfsvenjur.](./media/setup_rsa_tool_02.png)
 
 Að öðrum kosti mælum við með því að þú stofnir nýtt Azure DevOps-verk fyrir þetta kennsluefni. Nánari upplýsingar er að finna í [Vandamál við samstillingu við BPM með sérsniðnu Azure DevOps (VSTS) ferlissniði](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/).
 
 1. Opnaðu Azure DevOps-slóðina (`https://dev.azure.com/<Azure DevOps Name>`).
 2. Veldu **Stofna verk** efst í hægra horninu á síðunni Azure DevOps.
 
-    ![Stofna verkhnapp](./media/setup_rsa_tool_03.png)
+    ![Stofna verkhnapp.](./media/setup_rsa_tool_03.png)
 
 3. Fylltu út í eftirfarandi reiti og veldu síðan **Stofna**:
 
-    - **Verknafn**
+    - **Heiti verks**
     - **Útgáfustjórnun** - Veldu **Team Foundation útgáfustjórnun**. Athugaðu að sjálfgefinn valkostur, **Git**, er ekki studdur.
     - **Ferli vinnuliða**
 
-    ![Stofnaðu nýjan svarglugga verks](./media/setup_rsa_tool_04.png)
+    ![Stofna nýjan svarglugga verks.](./media/setup_rsa_tool_04.png)
 
 ### <a name="create-a-personal-access-token"></a>Stofna aðgangsmerki notanda
 
@@ -90,11 +90,11 @@ Að öðrum kosti mælum við með því að þú stofnir nýtt Azure DevOps-ver
 
 1. Veldu notandasíðutáknið efst í hægra horni síðunnar fyrir Azure DevOps verkið og veldu síðan **Öryggi**.
 
-    ![Öryggisskipun](./media/setup_rsa_tool_05.png)
+    ![Öryggisskipun.](./media/setup_rsa_tool_05.png)
 
 2. Í vinstri glugganum, undir **Öryggi** velurðu **Aðgangsmerki notanda**. Veldu síðan **Nýtt tákn**.
 
-    ![Hnappurinn Nýtt tákn á flipanum Aðgangsmerki í Notendastillingum](./media/setup_rsa_tool_06.png)
+    ![Hnappurinn Nýtt tákn á flipanum Aðgangsmerki í Notendastillingum.](./media/setup_rsa_tool_06.png)
 
 3. Fylltu út í eftirfarandi reiti og veldu síðan **Stofna**:
 
@@ -102,12 +102,12 @@ Að öðrum kosti mælum við með því að þú stofnir nýtt Azure DevOps-ver
     - **Gildistími (UTC)** – Veldu **Sérskilgreint** og notaðu síðan dagsetningavalið til að velja síðustu tiltæku dags.
     - **Umfang** - Veldu valkostinn **Ótakmarkaður aðgangur**.
 
-    ![Stofnaðu nýjan svarglugga aðgangsmerkis notanda](./media/setup_rsa_tool_07.png)
+    ![Stofnaðu nýjan svarglugga aðgangsmerkis notanda.](./media/setup_rsa_tool_07.png)
 
     > [!NOTE]
     > Skráðu niður aðgangsmerkið sem er stofnað. Þú þarft það síðar þegar þú setur upp RSAT-skilgreiningu.
 
-    ![Aðgangsmerki notanda](./media/setup_rsa_tool_08.png)
+    ![Aðgangsmerki notanda.](./media/setup_rsa_tool_08.png)
 
 ## <a name="configure-the-lcs-project"></a>Skilgreina LCS-verk
 
@@ -123,11 +123,11 @@ Fyrir LCS-verkefnið er hægt að nota núverandi innleiðingu viðskiptavina e�
 1. Farðu í LCS-innleiðingarverk.
 2. Veldu hnappinn **Stillingar** (gírtáknið) efst í hægra horni síðunnar og veldu síðan **Tungumálaval**.
 
-    ![Uppfæra stillingar tungumáls](./media/setup_rsa_tool_09.png)
+    ![Uppfæra stillingar tungumáls.](./media/setup_rsa_tool_09.png)
 
 3. Í reitnum **Valið tungumál** velurðu **Enska (Bandaríkin)** og síðan velurðu **Vista**.
 
-    ![Flipinn Tungumálaval í Notendastillingum](./media/setup_rsa_tool_10.png)
+    ![Flipinn Tungumálaval í Notandastillingum.](./media/setup_rsa_tool_10.png)
 
 ### <a name="configure-lcs-to-connect-to-the-azure-devops-project"></a>Skilgreina LCS til að tengjast við Azure DevOps-verk
 
@@ -136,67 +136,67 @@ Ef þú stofnaðir nýtt Azure DevOps-verk áður skaltu skilgreina LCS-verkið 
 1. Farðu í LCS-innleiðingarverk.
 2. Veldu hnappinn **Valmynd** og veldu síðan **Verkefnisstillingar**.
 
-    ![Skipun fyrir verkstillingar](./media/setup_rsa_tool_11.png)
+    ![Skipun fyrir verkstillingar.](./media/setup_rsa_tool_11.png)
 
 3. Í vinstri glugganum skaltu velja **Visual Studio Team Services** og síðan **Setja upp Visual Studio Team Services**.
 
-    ![Flipinn Visual Studio Team Services í verkstillingum](./media/setup_rsa_tool_12.png)
+    ![Flipinn Visual Studio Team Services í verkstillingum.](./media/setup_rsa_tool_12.png)
 
 4. Í reitnum **Azure DevOps vefslóð vefsvæðis** skaltu slá inn slóðina að vefsvæði Azure DevOps. Í reitnum **Aðgangsmerki notanda** skaltu slá inn aðgangsmerki notanda sem var stofnað áður.
 
     > [!NOTE]
     > Þótt VSTS sé núna þekkt sem Azure DevOps skaltu nota gömlu vefslóðina til að tengja LCS við Azure DevOps-verkið. Til dæmis er Azure DevOps-vefslóðin sem er notuð í þessu kennsluatriði `https://dev.azure.com/D365FOFastTrack/`. En í eftirfarandi skýringarmynd er hún slegin inn sem `https://D365FOFastTrack.visualstudio.com/`.
 
-    ![Skref 1 í uppsetningu á Visual Studio Team Services](./media/setup_rsa_tool_13.png)
+    ![Skref 1 í uppsetningu á Visual Studio Team Services.](./media/setup_rsa_tool_13.png)
 
 5. Veldu **Haltu áfram**.
 6. Í reitnum **Visual Studio Team Services-verk** velurðu VSTS-verk á valinni vefslóð til að tengja við LCS-verkið. Reiturinn **Vinna úr sniðmáti** er sjálfgefið stilltur á **Agile**. Fyrir sérsniðið sniðmát skaltu fara yfir leiðbeiningar á bestu venjum í kaflanum [Stofna nýtt Azure DevOps-verk](#create-a-new-azure-devops-project). Veldu síðan **Halda áfram**.
 
-    ![Skref 2 í uppsetningu á Visual Studio Team Services](./media/setup_rsa_tool_14.png)
+    ![Skref 2 í uppsetningu á Visual Studio Team Services.](./media/setup_rsa_tool_14.png)
 
 7. Farðu yfir stillingar þínar og veldu síðan **Vista**.
 
-    ![Skref 3 í uppsetningu á Visual Studio Team Services](./media/setup_rsa_tool_15.png)
+    ![Skref 3 í uppsetningu á Visual Studio Team Services.](./media/setup_rsa_tool_15.png)
 
 8. Veldu **Heimila** til að heimila LCS að aðgang að skilgreindu svæði Azure DevOps fyrir þína hönd og til að kveikja á eiginleikum sem samþættast VSTS.
 
-    ![Hnappurinn Heimila](./media/setup_rsa_tool_16.png)
+    ![Hnappurinn Heimila.](./media/setup_rsa_tool_16.png)
 
 9. Skilaboðagluggi birtist og þar stendur, „Þér verður beint yfir á ytra svæði til að heimila LCS að tengja við Visual Studio Team Services fyrir hönd notanda. Á að halda áfram?“ Velja skal **Já**.
 
-    ![Skilaboðagluggi](./media/setup_rsa_tool_17.png)
+    ![Skilaboðagluggi.](./media/setup_rsa_tool_17.png)
 
 10. Veljið **Samþykkja**.
 
-    ![Heimila aðgang](./media/setup_rsa_tool_18.png)
+    ![Heimila aðgang.](./media/setup_rsa_tool_18.png)
 
 11. Ef þú ert hefur heimild sem notandi ættir notandaviðmótið að skila þér aftur á síðuna LCS-verkefnastillingar.
 
-    ![Heimilaður notandi](./media/setup_rsa_tool_19.png)
+    ![Heimilaður notandi.](./media/setup_rsa_tool_19.png)
 
 ### <a name="create-a-new-bpm-library"></a>Stofna nýtt BPM-safn
 
 1. Farðu í LCS-innleiðingarverk.
 2. Veldu hnappinn **Valmynd** og veldu síðan **Viðskiptaferlavinnsla**.
 
-    ![Skipun Viðskiptaferlavinnslu](./media/setup_rsa_tool_20.png)
+    ![Skipun Viðskiptaferlavinnslu.](./media/setup_rsa_tool_20.png)
 
 3. Veldu **Nýtt safn**.
 
-    ![Hnappurinn Nýtt safn](./media/setup_rsa_tool_21.png)
+    ![Hnappurinn Nýtt safn.](./media/setup_rsa_tool_21.png)
 
 4. Í reitnum **Heiti safns** slærðu inn heiti og velur síðan **Stofna**. Fyrir þetta kennsluefni skaltu nefna BPM-safnið **RSAT**.
 
-    ![Stofnaðu nýjan svarglugga safns](./media/setup_rsa_tool_22.png)
+    ![Stofnaðu nýjan svarglugga safns.](./media/setup_rsa_tool_22.png)
 
 5. Opnaðu nýtt **RSAT** BPM-safn.
 6. Veldu ferlið **Sýnisviðskiptaferli** og síðan velurðu til hægri **Breyta ham**.
 
-    ![Hnappurinn Breyta ham](./media/setup_rsa_tool_23.png)
+    ![Hnappurinn Breytingastilling.](./media/setup_rsa_tool_23.png)
 
 7. Breyttu gildi bæði reitarins **Heiti** og reitarins **Lýsing** í **Stofna afurð**. Veldu síðan **Vista**.
 
-    ![Reitirnir Heiti og Lýsing](./media/setup_rsa_tool_24.png)
+    ![Reitirnir Heiti og Lýsing.](./media/setup_rsa_tool_24.png)
 
 ## <a name="environment"></a>Umhverfi
 
@@ -219,14 +219,14 @@ Notandinn verður að hafa stjórnandaréttindi á þessu umhverfi.
 2. Farðu í **Kerfisstjórnun \> Uppsetning \> Kerfisfæribreytur**.
 3. Á flipanum **Hjálp**, í reitnum **Hjálparskilgreiningar Lifecycle Services** velurðu viðkomandi LCS-verk (**RSAT** fyrir þetta kennsluefni).
 
-    ![Reiturinn Hjálparskilgreiningar Lifecycle Services á flipanum Hjálp](./media/setup_rsa_tool_25.png)
+    ![Reiturinn Hjálparskilgreiningar Lifecycle Services í hjálparflipanum.](./media/setup_rsa_tool_25.png)
 
     BPM-söfn eru fyllt út undir viðeigandi LCS-verki.
 
 4. Veljið **Vista**.
 5. Þú gætir þurft að endurræsa vafrann til að sjá uppfært hjálparefni.
 
-    ![Tilkynning um að endurræsingu á vafranum](./media/setup_rsa_tool_26.png)
+    ![Tilkynning um endurræsingu vafrans.](./media/setup_rsa_tool_26.png)
 
 ## <a name="task-recordings"></a>Verkskráning
 
@@ -240,11 +240,11 @@ Stofnaðu samsvarandi verkskráningu sem hægt er að festa við hið einfaldað
 1. Opna á biðlarann.
 2. Í aðalyfirlitinu skaltu velja hnappinn **Stillingar** (gírtáknið) og síðan **Verkskráningu**.
 
-    ![Velja Verkskráningu á stillingavalmynd](./media/setup_rsa_tool_27.png)
+    ![Velja Verkskráningu á stillingavalmynd.](./media/setup_rsa_tool_27.png)
 
 3. Veldu **Stofna skráningu**.
 
-    ![Hnappurinn Stofna skráningu](./media/setup_rsa_tool_28.png)
+    ![Hnappurinn Stofna skráningu.](./media/setup_rsa_tool_28.png)
 
 4. Fylltu út reitina **Heiti skráningar** og **Lýsing skráningar** og veldu síðan **Ræsa**.
 
@@ -252,42 +252,42 @@ Stofnaðu samsvarandi verkskráningu sem hægt er að festa við hið einfaldað
 
 5. Skráðu skrefin til að stofna afurð. Þegar því er lokið skaltu velja **Hættu** til að stöðva skráningu.
 
-    ![Skref til að stofna afurð](./media/setup_rsa_tool_30.png)
+    ![Skref til að stofna afurð.](./media/setup_rsa_tool_30.png)
 
 6. Veldu **Vista í Lifecycle Services**.
 
-    ![Vista færsluskráningu í Lifecycle Services](./media/setup_rsa_tool_31.png)
+    ![Vista verkskráningu í Lifecycle Services.](./media/setup_rsa_tool_31.png)
 
     Upplýsingar um söfn er hlaðið úr LCS.
 
-    ![Hleður safnupplýsingum](./media/setup_rsa_tool_32.png)
+    ![Hleður safnupplýsingum.](./media/setup_rsa_tool_32.png)
 
 7. Veldu BPM-safn til að tengja við verkskráninguna. Fyrir þetta kennsluefni skaltu velja BPM-safnið **RSAT** sem var stofnað áður og síðan viðskiptaferlið **Stofna afurð** undir því. Veljið síðan **Í lagi**.
 
-    ![Tengja verkskráningu við BPM-safn og viðskiptaferli](./media/setup_rsa_tool_33.png)
+    ![Tengja verkskráningu við BPM-safn og viðskiptaferli.](./media/setup_rsa_tool_33.png)
 
     Skilaboðin „Vistað í Lifecycle Services“ birtast.
 
-    ![Skilaboð um árangursríka vistun í LCS](./media/setup_rsa_tool_34.png)
+    ![Skilaboð um árangursríka vistun í LCS.](./media/setup_rsa_tool_34.png)
 
 8. Ef þú vilt vista verkskráningu á staðnum og hlaða henni síðan inn í BPM í gegnum LCS skaltu fylgja þessum skrefum:
 
     1. Þegar skáningu er lokið skaltu velja **Vista á þessa tölvu**.
 
-        ![Vista í þessari tölvu](./media/setup_rsa_tool_35.png)
+        ![Vista í þessari tölvu.](./media/setup_rsa_tool_35.png)
 
     2. Í tilkynningastiku vafrans skaltu velja **Vista** eða **Vista sem** til að vista skrána staðbundið á tölvuna.
 
-        ![Tilkynningastika](./media/setup_rsa_tool_36.png)
+        ![Tilkynningastika.](./media/setup_rsa_tool_36.png)
 
     3. Farðu í BPM-safnið **RSAT** og veldu viðskiptaferlið sem á að vista verkskráninguna gegn.
     4. Á flipanum **Yfirlit** velurðu **Hlaða upp**.
 
-        ![Hnappurinn Hlaða upp](./media/setup_rsa_tool_37.png)
+        ![Hnappurinn Hlaða upp.](./media/setup_rsa_tool_37.png)
 
     5. Veldu **Fletta** og veldu .axtr skrána sem þú vistaðir áður. Veldu síðan **Hlaða upp**.
 
-        ![Veldu .axtr skrá til að hlaða upp](./media/setup_rsa_tool_38.png)
+        ![Veldu .axtr skrá til að hlaða upp.](./media/setup_rsa_tool_38.png)
 
 ### <a name="test-the-synchronization-from-bpm-to-azure-devops"></a>Prófaðu samstillingu úr BPM við Azure DevOps
 
@@ -299,36 +299,36 @@ Núna þegar verkskráning er tengd viðskiptaferlinu verður þú að sannreyna
 1. Farðu í BPM-safnið og opnaðu **RSAT**-safnið sem var áður stofnað.
 2. Veldu úrfellingarhnappinn (**...**) og veldu **VSTS-samstillingu**.
 
-    ![VSTS-samstillingarskipun í úrfellingarvalmyndinni](./media/setup_rsa_tool_39.png)
+    ![VSTS-samstillingarskipun í úrfellingarvalmyndinni.](./media/setup_rsa_tool_39.png)
 
     Eftir að VSTS-samstillingu er lokið birtist flipinn **Þarfir** vinstra megin og inniheldur samsvarandi Azure DevOps-vinnulið.
 
     > [!NOTE]
     > Vinnuliðurinn sem er stofnaður í Azure DevOps mun hafa heiti BPM-safnsins sem titilforskeyti.
 
-    ![Flipinn Þarfir](./media/setup_rsa_tool_40.png)
+    ![Flipinn Þarfir.](./media/setup_rsa_tool_40.png)
 
 3. Endurhlaðið síðuna.
 4. Veldu úrfellingarhnappinn (**...**). Þú munt sjá viðbótarvalkost, **Samstilla prófunartilvik**. Veldu þennan valkost.
 
-    ![Dæmi um samstillingarskipun í úrfellingarvalmyndinni](./media/setup_rsa_tool_41.png)
+    ![Dæmi um samstillingarskipun í úrfellingarvalmyndinni.](./media/setup_rsa_tool_41.png)
 
     > [!NOTE]
     > Ef valkosturinn **Samstilla prófunartilvik** er ekki tiltækur eftir að endurhleðslu síðunnar skaltu fara á heimasíðuna fyrir BPM og velja **Samstilla prófunartilvik** fyrir allt safnið. Þannig þvingar þú í raun samstillingu á allt safnið.
     >
-    > ![Valið Samstillt prófunardæmi fyrir allt safnið](./media/setup_rsa_tool_42.png)
+    > ![Valið Samstillt prófunardæmi fyrir allt safnið.](./media/setup_rsa_tool_42.png)
 
     Þegar samstillinu prófunardæma er lokið er nýtt prófunardæmi stofnað á flipanum **Þarfir**.
 
-    ![Nýtt prófunardæmi á flipanum Þarfir](./media/setup_rsa_tool_43.png)
+    ![Nýtt prófunardæmi í flipanum Þarfir.](./media/setup_rsa_tool_43.png)
 
 5. Farðu í Azure DevOps-verkið og veldu **Spjöld \> Vinnuliðir**.
 
-    ![Vinnuliðaskipun undir Spjöldum](./media/setup_rsa_tool_44.png)
+    ![Vinnuliðaskipun undir Spjöldum.](./media/setup_rsa_tool_44.png)
 
 6. Staðfestu að vinnuliðurinn og prófunardæmin sem þú voru stofnuð með BPM-samstillingu séu til.
 
-    ![Vinnuliður og prófunardæmi](./media/setup_rsa_tool_45.png)
+    ![Vinnuliður og prófunardæmi.](./media/setup_rsa_tool_45.png)
 
 ## <a name="install-and-configure-rsat"></a>Setja upp og skilgreina RSAT
 
@@ -354,16 +354,16 @@ Til að virkja sannvottun verðurðu að mynda og setja upp vottorð á sömu t�
     > [!NOTE]
     > Passaðu að slá inn **certlm.msc**, ekki **certmgr.msc**, vegna þess að vottorðin eru geymd á tölvunni þinni.
 
-    ![D365 Sjálfvirkt vottorð prófunarvottorðs](./media/setup_rsa_tool_46.png)
+    ![D365 Sjálfvirkt vottorð prófunarvottorðs.](./media/setup_rsa_tool_46.png)
 
 3. Hægri-smelltu á vottorðið og veldu síðan **Afrita**.
 4. Farðu í **Trusted Root Certification Authorities \> Vottorð**.
 
-    ![Vottorðamappa undir möppunni Trusted Root Certification Authorities](./media/setup_rsa_tool_47.png)
+    ![Vottorðamappa undir möppunni Trusted Root Certification Authorities.](./media/setup_rsa_tool_47.png)
 
 5. Í valmyndinni **Aðgerð** velurðu **Líma** til að afrita vottorðið á staðsetninguna **Trusted Root Certification Authorities**.
 
-    ![Líma-skipun í aðgerðavalmyndinni](./media/setup_rsa_tool_48.png)
+    ![Líma skipun í aðgerðavalmyndina.](./media/setup_rsa_tool_48.png)
 
 6. Til að fá fingrafar af uppsettu vottorði, en án bila eða sérstafa, skaltu opna gluggann Windows PowerShell sem stjórnandi og keyra eftirfarandi skipanir.
 
@@ -384,11 +384,11 @@ Til að virkja sannvottun verðurðu að mynda og setja upp vottorð á sömu t�
 1. Stofnaðu Remote Desktop Protocol (RDP)-tengingu við AOS-tölvuna. Skráningarupplýsingar eru tiltækar á umhverfisupplýsingasíðunni í LCS.
 2. Opnaðu Microsoft Internet Information Services (IIS) og finndu **AOSService** á listanum yfir vefsvæði.
 
-    ![AOSService á lista yfir vefsvæði](./media/setup_rsa_tool_49.png)
+    ![AOSService á lista yfir vefsvæði.](./media/setup_rsa_tool_49.png)
 
 3. Hægrismellið á **Skoða** til að opna möppuna **\<Drive\>: \\AosService\\WebRoot**. Finndu skrána **wif.config**.
 
-    ![Skráin Wif.config í möppunni WebRoot](./media/setup_rsa_tool_50.png)
+    ![Skráin Wif.config í möppunni WebRoot.](./media/setup_rsa_tool_50.png)
 
 4. Uppfærðu skrána **wif.config** með því að bæta við nýrri heimildarfærslu fyrir vottorðið og heiti heimildar, eins og sýnt er í eftirfarandi dæmi.
 
@@ -434,11 +434,11 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 1. Farðu á <https://www.microsoft.com/download/details.aspx?id=57357> og veldu **Sækja**.
 2. Veldu allar skrárnar og veldu síðan **Næst**.
 
-    ![Val á öllum skrám](./media/setup_rsa_tool_51.png)
+    ![Allar skrár valdar.](./media/setup_rsa_tool_51.png)
 
 3. Tvísmelltu á .msi-pakkann til að keyra uppsetningarforritið. Þegar uppsetningu er lokið skaltu síðan velja **Ljúka**.
 
-    ![RSAT Installer-skrá](./media/setup_rsa_tool_52.png)
+    ![RSAT Installer-skrá.](./media/setup_rsa_tool_52.png)
 
 ### <a name="install-selenium-and-browser-drivers"></a>Settu upp Selenium og vafradrif
 
@@ -453,46 +453,46 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 1. Farðu í Azure DevOps-verkið og veldu **Prófunaráætlanir**.
 
-    ![Skipunin Prófunaráætlanir](./media/setup_rsa_tool_53.png)
+    ![Skipun um að prófa áætlanir.](./media/setup_rsa_tool_53.png)
 
 2. Veldu **Ný prófunaráætlun**.
 
-    ![Hnappurinn Ný prófunaráætlun](./media/setup_rsa_tool_54.png)
+    ![Hnappurinn Ný prófunaráætlun.](./media/setup_rsa_tool_54.png)
 
 3. Fylltu út reitinn **Heiti** og veldu síðan **Stofna**. Fyrir þetta kennsluefni skaltu nefna prófunaráætlunina **RSAT-prófunaráætlun**.
 
-    ![Svarglugginn Ný prófunaráætlun](./media/setup_rsa_tool_55.png)
+    ![Svarglugginn Ný prófunaráætlun.](./media/setup_rsa_tool_55.png)
 
 4. Veldu plústáknið (**+**) og veldu síðan **Fast safn** til að stofna fast safn undir nýrri prófunaráætlun. Nefndu nýja prófunarsafnið **T01 - Gera á lager**.
 
     > [!NOTE]
     > Einnig er hægt að stofna safn byggt á fyrirspurnum, ef þú vilt að nýju prófunardæmin úr BPM verði sjálfkrafa dregin inn í RSAT-prófunarpakka.
 
-    ![Stofna fast safn](./media/setup_rsa_tool_56.png)
+    ![Stofna fast safn.](./media/setup_rsa_tool_56.png)
 
 ### <a name="attach-test-cases-to-test-suites"></a>Hengdu prófunardæmi við prófunarpakka
 
 1. Veldu **Bæta við núverandi** hægra megin til að bæta núverandi prófunardæmum við prófunarpakkann.
 
-    ![Bæta fyrirliggjandi hnappi við](./media/setup_rsa_tool_57.png)
+    ![Bæta fyrirliggjandi hnappi við.](./media/setup_rsa_tool_57.png)
 
 2. Á síðunni **Bæta prófunardæmum við safn** velurðu **Keyra fyrirspurn** og síðan velurðu prófunardæmi til að bæta við prófunarpakkann. Fyrir þetta kennsluefni skaltu velja prófunardæmið **Stofna nýja vöru**. Veldu síðan **Bæta við prófunardæmum** í neðra hægra horninu á síðunni (þessi hnappur er ekki sýndur í eftirfarandi mynd).
 
-    ![Hnappurinn Keyra fyrirspurn](./media/setup_rsa_tool_58.png)
+    ![Hnappurinn Keyra fyrirspurn.](./media/setup_rsa_tool_58.png)
 
     Prófunardæminu er bætt við prófunarpakkann **T01-Gera í lager**.
 
-    ![Prófunardæmi bætt við prófunarpakkann](./media/setup_rsa_tool_59.png)
+    ![Prófunardæmi bætt við prófunarpakkann.](./media/setup_rsa_tool_59.png)
 
-### <a name="configure-rsat"></a>Stilla RSAT
+### <a name="configure-rsat"></a>Grunnstilla RSAT
 
 1. Opnaðu RSAT.
 
-    ![RSAT-tákn](./media/setup_rsa_tool_60.png)
+    ![RSAT-tákn.](./media/setup_rsa_tool_60.png)
 
 2. Þú færð viðvörunarskilaboð þar sem stendur „Regression Suite Automation Tool krefst Selenium, viltu sækja það sjálfvirkt og setja upp núna?“ Velja skal **Já**.
 
-    ![Viðvörunarskilaboð um að Regression Suite Automation Tool krefjist Selenium](./media/setup_rsa_tool_61.png)
+    ![Viðvörunarskilaboð um að Regression Suite Automation Tool krefjist Selenium.](./media/setup_rsa_tool_61.png)
 
 3. Veldu hnappinn **Stillingar** (gírtáknið) efst í hægra horninu og fylltu síðan út eftirfarandi reiti í valmyndinni sem birtist:
 
@@ -506,7 +506,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
         > [!NOTE]
         > Til að finna hýsilheiti og heiti SOAP-hýsils skaltu opna IIS Manager, hægri-smella á **Vefsvæði \> AOSService** og velja síðan **Breyta bindingum**. Gildin í dálknum **Heiti hýsils** veita þér hýsilheitið og heiti SOAP-hýsils (heiti SOAP-hýsils er með viðskeytið **soap** í vefslóðinni).
 
-        ![Hýsilheiti og heiti SOAP-hýsils í dálkinum Heiti hýsils](./media/setup_rsa_tool_63.png)
+        ![Hýsilheiti og heiti SOAP-hýsils í dálkinum Heiti hýsils.](./media/setup_rsa_tool_63.png)
 
     - **Notandaheiti stjórnanda** – Skráðu netfang stjórnanda í prófunarumhverfi.
     - **Fingrafar** - Sláðu inn fingrafar auðkenningarvottorðsins, eins og lýst er hér að framan í þessu kennsluefni.
@@ -520,7 +520,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **Tímalok prófunaraðgerða** – Þessi reitur stýrir tímalokum í mínútum fyrir biðlarabeiðnir í umhverfi Finance and Operation. Yfirleitt ætti sjálfgefið gildi (2 mínútur) að vera nóg. Hinsvegar þegar um er að ræða hægari umhverfi gætirðu viljað hækka gildið ef villur sem tengjast tímalokum eiga sér stað.
     - **Heiti fyrirtækis** – Skráðu heiti fyrirtækis sem á að nota sem sjálfgefið fyrirtæki þegar Excel-færibreytuskrár eru stofnaðar. Þú getur breytt fyrirtækinu seinna með því að breyta Excel-færibreytuskránni.
 
-    ![Svargluggi stillinga](./media/setup_rsa_tool_62.png)
+    ![Svargluggi stillinga.](./media/setup_rsa_tool_62.png)
 
 4. Veldu **Nota** til að nota og vista stillingarnar.
 
@@ -532,15 +532,15 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 1. Veldu **Sækja** til að sækja prófunaráætlunina **RSAT-prófunaráætlun** úr Azure DevOps-verkinu.
 
-    ![Hnappurinn Sækja](./media/setup_rsa_tool_64.png)
+    ![Hnappurinn hlaða niður.](./media/setup_rsa_tool_64.png)
 
 2. Veldu prófunardæmið **Stofna nýja vöru** úr prófunarpakkanum og veldu síðan **Nýtt \> Mynda prófunarkeyrslu- og færibreytuskrár**.
 
-    ![Skipunin Mynda prófunarkeyrslu og færibreytuskrár í nýju valmyndinni](./media/setup_rsa_tool_65.png)
+    ![Skipunin Mynda prófunarkeyrslu og færibreytuskrár í nýju valmyndinni.](./media/setup_rsa_tool_65.png)
 
     Excel-færibreytuskráin er stofnuð í staðbundnu möppunni sem þú tilgreindir í RSAT-skilgreiningunni (til dæmis, **C:\\Temp\\RegressionTool**).
 
-    ![Excel-færibreytuskrá stofnuð](./media/setup_rsa_tool_66.png)
+    ![Excel-færibreytuskrá stofnuð.](./media/setup_rsa_tool_66.png)
 
 3. Ef þú vilt vista breytuskrár skaltu velja **Hlaða upp**. Sjálfvirkniskrám prófunar allra valda prófana er hlaðið upp á Azure DevOps fyrir seinni tíma notkun. (Þessar skrár innihalda Excel-færibreytuskrár prófana.)
 
@@ -553,33 +553,33 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **.xlsx** – Excel-færibreytuskrá
     - **.xml** – Skráningarskrá
 
-    ![Skrár á flipanum Viðhengi](./media/setup_rsa_tool_67.png)
+    ![Skrár í viðhengisflipanum.](./media/setup_rsa_tool_67.png)
 
 5. Veldu prófunardæmið sem á að keyra og veldu síðan **Keyra**.
 
     > [!NOTE]
     > Áður en þú keyrir prófunardæmi og ef þú ert að nota Internet Explorer sem vafra, skaltu passa að skjáborðsupplausn þín sé stillt á **100%** í **Windows skjástillingar \> Kvarði og útlit**. Ef þú getur ekki breytt þessari stillingu á sýndarvél (VM) skaltu breyta henni á biðlaranum (fartölvu) sem þú ert að reyna að komast í VM af. Upplausnarstillingarnar erfast síðan með stillingum VM-skjásins.
 
-    ![Skjáborðsupplausn stillt á 100%](./media/setup_rsa_tool_68.png)
+    ![Skjáborðsupplausn stillt á 100%.](./media/setup_rsa_tool_68.png)
 
 6. Ef vafrareklarnir eru ekki settir upp í kerfinu birtast viðvörunarskilaboðin „Þessi aðgerð krefst \<browser name\>-rekils. Viltu sækja hann sjálfvirkt og setja upp núna?“ Velja skal **Já**.
 
-    ![Viðvörunarboð fyrir Internet Explorer](./media/setup_rsa_tool_69.png)
+    ![Viðvörunarboð fyrir Internet Explorer.](./media/setup_rsa_tool_69.png)
 
-    ![Viðvörunarboð fyrir Chrome](./media/setup_rsa_tool_70.png)
+    ![Viðvörunarboð fyrir Chrome.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
     > Ef þú er að nota Chrome sem vafra og færð villuboð sem segir að setan hafi ekki verið stofnuð vegna þess að útgáfan Chrome sé ekki rétt skaltu sækja nýjasta Chrome-drifið frá <http://chromedriver.chromium.org/downloads> í möppuna **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Almennt\\Ytra\\Selenium**.
 
-    ![Villuboð fyrir Chrome](./media/setup_rsa_tool_71.png)
+    ![Villuboð fyrir Chrome.](./media/setup_rsa_tool_71.png)
 
     Prófunardæmið er keyrt og reiturinn **Niðurstaða** er uppfærður.
 
-    ![Uppfæra niðurstöðusvæðið](./media/setup_rsa_tool_72.png)
+    ![Uppfæra niðurstöðusvæðið.](./media/setup_rsa_tool_72.png)
 
     Ef þú hefur fylgt þessu kennsluefni eins og það er skrifað, þá mun prófunardæmið **Stofna nýja vöru** ekki takast, vegna þess að það verkskráningin fyrir stofnun vöru vistaði vöruheitið sem harðkóðað gildi. Ef þú endurkeyrir sama prófunardæmið ættirðu að fá villuskilaboð vegna þess að varan er þegar til.
 
-    ![Niðurstöðureitur stilltur á Stóðst ekki](./media/setup_rsa_tool_72.png)
+    ![Niðurstöðureitur stilltur á Tókst ekki.](./media/setup_rsa_tool_72.png)
 
 ### <a name="view-the-test-results"></a>Skoða prófunarniðurstöður
 
@@ -587,38 +587,38 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     Þú fékkst villuboð.
 
-    ![Villuboð](./media/setup_rsa_tool_73.png)
+    ![Villuboð.](./media/setup_rsa_tool_73.png)
 
 2. Veldu **Upplýsingar** til að skoða öll villuboðin.
 
-    ![Öll villuboðin](./media/setup_rsa_tool_74.png)
+    ![Öll villuboðin.](./media/setup_rsa_tool_74.png)
 
 3. Til að skoða nákvæma útgáfu af villuskilaboðum í Azure DevOps skaltu velja **Opna í Azure DevOps**. Í Azure DevOps geturðu skoðað stöðu prófunardæmisins og upplýsingar villuboða.
 
-    ![Upplýsingar villuboða í Azure DevOps](./media/setup_rsa_tool_75.png)
+    ![Upplýsingar villuboða í Azure DevOps.](./media/setup_rsa_tool_75.png)
 
 4. Til að skoða niðurstöðurnar beint í Azure DevOps-verkinu skaltu fara í **Prófunaráætlanir \> Prófunaráætlanir \> Keyrslur**. Tvísmelltu á prófunarkeyrsluna sem þú vilt sjá meiri upplýsingar um.
 
-    ![Listi yfir prófanir í Azure DevOps](./media/setup_rsa_tool_76.png)
+    ![Listi yfir keyrslur í Azure DevOps.](./media/setup_rsa_tool_76.png)
 
 5. Flipinn **Keyra samantekt** gefur til kynna að prófunardæmið hafi ekki tekist en hann veitir ekki raunverulegu villuboðin. Til að skoða sundurliðuð villuboð velurðu flipann **Prófunarniðurstöður**.
 
-    ![Flipinn Keyra samantekt](./media/setup_rsa_tool_77.png)
+    ![Flipinn Keyra samantekt.](./media/setup_rsa_tool_77.png)
 
     Flipinn **Prófunarniðurstöður** veitir upplýsingar um prófunardæmið, ásamt útkomunni og villuboðunum.
 
-    ![Flipinn Niðurstöður prófunar](./media/setup_rsa_tool_78.png)
+    ![Flipinn Niðurstöður prófunar.](./media/setup_rsa_tool_78.png)
 
 6. Tvísmelltu á viðeigandi skrá til að skoða upplýsingar villuboða.
 
-    ![Upplýsingar villuboða](./media/setup_rsa_tool_79.png)
+    ![Upplýsingar villuboða.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
     > Öll villuskilaboð eru einnig tiltæk staðbundið í **C:\\Notendur\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
 
 7. Þú getur einnig flutt út niðurstöður prófunarkeyrslu úr prófunaráætlunarstiginu með því að velja **Flytja út**.
 
-    ![Flytur út prófunaráætlun](./media/setup_rsa_tool_80.png)
+    ![Flytur út prófunaráætlun.](./media/setup_rsa_tool_80.png)
 
 ### <a name="modify-the-excel-parameter-file"></a>Breyta Excel-færibreytuskrá
 
@@ -636,23 +636,23 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     > [!NOTE]
     > Í viðbót við flipann **Almennt** inniheldur Excel-færibreytuskráin gagnaflipa fyrir hverja síðu sem prófið heimsækir.
 
-    ![Reiturinn Afurðarnúmer](./media/setup_rsa_tool_81.png)
+    ![Reiturinn Afurðarnúmer.](./media/setup_rsa_tool_81.png)
 
 4. Veldu **Vista** og lokaðu síðan Excel-skjalinu.
 5. Veldu **Hlaða upp** til að vista Excel-færibreytuskrá á Azure DevOps.
 
-    ![Upphleðsla skráar tókst](./media/setup_rsa_tool_82.png)
+    ![Upphleðsla skráar tókst.](./media/setup_rsa_tool_82.png)
 
     > [!NOTE]
     > Til að keyra prófdæmi í tilteknu notendasamhengi skaltu slá inn netfang notanda í reitnum **Prófa notanda** á flipnum **Almennt** í Excel-færibreytuskránni. Í nýjustu útgáfunni af RSAT hefur útlit reitanna í Excel-færibreytuskránni verið uppfærð, en hugtakið er enn það sama.
     >
-    > ![Reiturinn Prófa notanda](./media/setup_rsa_tool_83.png)
+    > ![Reiturinn Prófa notanda.](./media/setup_rsa_tool_83.png)
 
 ### <a name="validate-the-results"></a>Sannprófa niðurstöður
 
 - Veldu **Keyra** til að endurkeyra prófunardæmið og sannprófa að prófunardæmið hafi staðist. Þú getur skoðað niðurstöðurnar eins og lýst er í kaflanum [Skoða prófunarniðurstöður](#view-the-test-results).
 
-    ![Niðurstöðureitur stilltur á Stóðst](./media/setup_rsa_tool_84.png)
+    ![Niðurstöðureitur stilltur á Stóðst.](./media/setup_rsa_tool_84.png)
 
 ### <a name="chaining-of-test-cases"></a>Keðja prófunardæma
 
@@ -666,27 +666,27 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 2. Veldu hnappinn **Stillingar** (gírtáknið) og síðan **Verkskráningu**.
 3. Veldu **Breyta skráningu**.
 
-    ![Hnappurinn Breyta skráningu](./media/setup_rsa_tool_85.png)
+    ![Hnappurinn Breyta skráningu.](./media/setup_rsa_tool_85.png)
 
 4. Veldu **Opna úr Lifecycle Services**.
 
-    ![Opna úr hnappnum Lifecycle Services](./media/setup_rsa_tool_86.png)
+    ![Hnappurinn Opna úr Lifecycle Services.](./media/setup_rsa_tool_86.png)
 
 5. Veldu **Velja Lifecycle Services-safnið**.
 
-    ![Veldu hnappinn Lifecycle Services-safnið](./media/setup_rsa_tool_87.png)
+    ![Hnappurinn Velja Lifecycle Services-safnið.](./media/setup_rsa_tool_87.png)
 
     BPM-söfn eru sótt úr LCS.
 
-    ![Hleður BPM-söfnum](./media/setup_rsa_tool_88.png)
+    ![Hleður BPM-söfnum.](./media/setup_rsa_tool_88.png)
 
 6. Eftir að BPM-söfn hafa verið sótt úr LCS skaltu velja **RSAT** BPM-safnið og viðskiptaferlið **Stofna nýja vöru** sem verkskráningin var tengd við. Veljið síðan **Í lagi**.
 
-    ![Val á BPM-safn og viðskiptaferli](./media/setup_rsa_tool_89.png)
+    ![Val á BPM-safni og viðskiptaferli.](./media/setup_rsa_tool_89.png)
 
 7. Heiti viðeigandi verkskráningar er slegið inn í reitinn **Heiti skráningar**. Velja **Ræsa**.
 
-    ![Heiti verkskáningarinnar í reitnum Heiti skráningar](./media/setup_rsa_tool_90.png)
+    ![Heiti verkskáningarinnar í reitnum Heiti skráningar.](./media/setup_rsa_tool_90.png)
 
 8. Farðu í **Afurðaupplýsingastjórnun \> Afurðir** og veldu **Nýtt** til að opna síðuna þar sem upphafleg verkskráning, **Stofna afurð**, var skráð.
 9. Veldu **Setja inn skref**.
@@ -694,15 +694,15 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
     > [!NOTE]
     > Nýja skrefið er sett inn á **eftir** skrefinu sem þú valdir í glugganum.
 
-    ![Hnappurinn Setja inn skref](./media/setup_rsa_tool_91.png)
+    ![Hnappurinn Setja inn skref.](./media/setup_rsa_tool_91.png)
 
 10. Hægrismelltu á reitinn **Afurðarnúmer** og veldu síðan **Verkskráning \> Afrita**.
 
-    ![Afrita skipun](./media/setup_rsa_tool_92.png)
+    ![Afrita skipun.](./media/setup_rsa_tool_92.png)
 
 11. Nýju skrefi er bætt í glugganum. Skráðu niður gildið í reitnum **Afurðarnúmer** vegna þess að þú þarft það síðar.
 
-    ![Nýju skrefi bætt við](./media/setup_rsa_tool_93.png)
+    ![Nýju skrefi bætt við.](./media/setup_rsa_tool_93.png)
 
 12. Veldu **Breytingum lokið**.
 13. Veldu **Vista í Lifecycle Services** og tengdu nýja verkskráningu við sama BPM-safnið og viðskiptaferlið sem upphafleg verkskráning var tengd við. Nánari upplýsingar er að finna í kaflanum [Stofna verkskráningu og vista hana í BPM-safnið](#create-a-task-recording-and-save-it-to-the-bpm-library).
@@ -714,7 +714,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 
 16. Veldu **Breyta** til að opna nýja Excel-færibreytuskrána. Þú munt sjá nýja færslu **Vistuð breyta** í línu 9. Þessi breyta, **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**, er vistuð í XML-skrá verkskráningarinnar og hana má nota í síðari prófanir.
 
-    ![Vistuð breytufærsla](./media/setup_rsa_tool_94.png)
+    ![Vistuð breytufærsla.](./media/setup_rsa_tool_94.png)
 
 #### <a name="create-a-new-test-case"></a>Stofna nýtt prófunardæmi
 
@@ -722,7 +722,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 2. Veldu ferlið **Sýnisstuðningsviðskiptaferli** og síðan velurðu til hægri **Breyta ham**.
 3. Breyttu gildi bæði reitarins **Heiti** og reitarins **Lýsing** í **Losa afurð**. Veldu síðan **Vista**.
 
-    ![Heiti og lýsingu breytt í Losa afurð](./media/setup_rsa_tool_95.png)
+    ![Heiti og lýsingu breytt í Losa afurð.](./media/setup_rsa_tool_95.png)
 
 #### <a name="create-a-new-task-recording-that-has-a-validate-function"></a>Stofna nýja verkskráningu sem er með staðfestingaraðgerð
 
@@ -731,21 +731,21 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
     > [!NOTE]
     > Fyrir keðjuð prófunardæmi mælum við alltaf með að þú finnir eða síir fyrir skrána sem þú þarfnast með því að *rita gildið handvirkt inn í reitinn*. Þannig getur verkfærið ákvarðað skrána sem nota verður aðgerðin við í síðara prófunardæminu.
 
-    ![Ný verkskráning sem er með staðfestingaraðgerð](./media/setup_rsa_tool_96.png)
+    ![Ný verkskráning sem er með staðfestingaraðgerð.](./media/setup_rsa_tool_96.png)
 
     Þegar afurðin er fundin með því að nota flýtiafmörkun, en áður en þú velur **Losa afurðir**, staðfestirðu gildi reitsins **Afurðarnúmer** til að ganga úr skugga um að afurðakennið sé það afurðakenni sem var búið til áður, eins og skýringarmyndin á undan sýnir. Til að staðfesta gildi skaltu hægrismella á reitinn **Afurðarnúmer** og velja síðan **Verkskráning \> Staðfesta \> Núverandi gildi**.
 
-    ![Staðfesting á núvarndi gildi](./media/setup_rsa_tool_97.png)
+    ![Staðfesting á núverandi gildi.](./media/setup_rsa_tool_97.png)
 
 #### <a name="save-the-task-recording-to-bpm"></a>Vistaðu verkskráninguna í BPM
 
 1. Þegar verkskráningunni er lokið skaltu velja **Vista í Lifecycle Services**.
 
-    ![Vista lokna verkskráningu í Lifecycle Services](./media/setup_rsa_tool_98.png)
+    ![Vista lokna verkskráningu í Lifecycle Services.](./media/setup_rsa_tool_98.png)
 
 2. Upplýsingar um söfn er hlaðið úr LCS.
 
-    ![Hleður safnsupplýsingum úr LCS](./media/setup_rsa_tool_99.png)
+    ![Hleður upplýsingum um safn úr LCS.](./media/setup_rsa_tool_99.png)
 
 3. Veldu BPM-safn til að tengja við verkskráninguna. Fyrir þetta kennsluefni skaltu velja BPM-safnið **RSAT** sem var stofnað áður og síðan viðskiptaferlið **Losa afurð** undir því. Veljið síðan **Í lagi**.
 
@@ -763,22 +763,22 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 3. Á síðunni **Bæta prófunardæmum við í safn** velurðu **Keyra fyrirspurn**.
 4. Veldu nýja prófunardæmið sem var búið til fyrir **Losa afurð** og veldu síðan **Bæta við prófunardæmum** neðst í hægra horni síðunnar (þessi hnappur er ekki sýndur á eftirfarandi mynd).
 
-    ![Síðan Bæta prófunardæmum við safn](./media/setup_rsa_tool_100.png)
+    ![Síðan Bæta prófunardæmum við pakka.](./media/setup_rsa_tool_100.png)
 
     Núna er prófunarsafnið með tvö prófunardæmi.
 
-    ![Tvö prófunardæmi í prófunarpakkanum](./media/setup_rsa_tool_101.png)
+    ![Tvö prófunardæmi í prófunarpakkanum.](./media/setup_rsa_tool_101.png)
 
 #### <a name="load-test-cases-into-rsat"></a>Hlaða prófunardæmum í RSAT
 
 1. Opnaðu RSAT og veldu **Sækja**.
 2. Prófunardæmunum hefur verið hlaðið og þú færð viðvörun sem segir: „Þessi aðgerð mun skrifa yfir Excel-prófgagnaskrár, staðbundnar breytingar munu glatast. Á að halda áfram?“ Veldu **Já** til að uppfæra Excel-færibreytuskrár í staðbundna kerfinu en ekki Excel-færibreytuskrár sem var hlaðið upp í Azure DevOps.
 
-    ![Þessi aðgerð mun skrifa yfir Excel-prófunargagnaskrár](./media/setup_rsa_tool_102.png)
+    ![Þessi aðgerð mun skrifa yfir Excel-prófunargagnaskrár.](./media/setup_rsa_tool_102.png)
 
     Báðum prófunardæmunum hefur verið hlaðið, ásamt Excel-færibreytuskránni fyrir fyrsta prófunardæmið. Þar sem þú valdir **Hlaða upp** í síðustu keyrslunni eru færibreytuskrárnar dregnar úr Azure DevOps.
 
-    ![Prófunardæmum hlaðið](./media/setup_rsa_tool_103.png)
+    ![Prófunardæmum hlaðið.](./media/setup_rsa_tool_103.png)
 
 3. Veldu aðeins annað prófunardæmið og veldu síðan **Nýtt \> Mynda prófunarkeyrslu og færibreytuskrár**.
 
@@ -787,7 +787,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 1. Veldu aðeins annað prófdæmið og veldu síðan **Breyta** til að opna samsvarandi Excel-færibreytuskrá.
 2. Afritaðu vistaða breytu **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** (sjá kaflann [Breyta núverandi verkskráningu til að stofna vistaða breytu](#modify-an-existing-task-recording-to-create-a-saved-variable)) úr fyrsta prófunardæminu inn í alla reiti þar sem afurðarnúmerið er notað. Í þessu dæmi afritar þú breytu inn í reitina **Afurðarnúmer** og **Staðfesta afurðarnúmer** á blaðinu **EcoResProductListPage**.
 
-    ![Reitirnir Afurðarnúmer og Staðfesta afurðarnúmer](./media/setup_rsa_tool_104.png)
+    ![Reitirnir Afurðarnúmer og Staðfesta afurðarnúmer.](./media/setup_rsa_tool_104.png)
 
     > [!NOTE]
     > Aðeins er hægt að láta breytur ganga áfram á milli prófana í sömu prófunarkeyrslu. Heiti breytanna verða að stemma nákvæmlega.
@@ -800,7 +800,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 1. Veldu bæði prófunardæmin og veldu síðan **Keyra**.
 2. Staðfestu að bæði prófunardæmin hafi staðist.
 
-    ![Niðurstöðureiturinn stilltur á staðist fyrir bæði prófunardæmin](./media/setup_rsa_tool_105.png)
+    ![Niðurstöðureiturinn stilltur á staðist fyrir bæði prófunardæmin.](./media/setup_rsa_tool_105.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

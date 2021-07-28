@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349627"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
@@ -44,7 +46,7 @@ Smásalar geta notað pantanir viðskiptavina til að lágmarka tapaða sölu se
 
 Til að nota pantanir viðskiptavina þarf að skilgreina afhendingarmáta sem verslunarrásin getur notað. Skilgreina þarf að minnsta kosti einn afhendingarmáta sem hægt er að nota þegar pöntunarlínur eru sendar til viðskiptavinar úr verslun. Einnig þarf að skilgreina að minnsta kosti einn afhendingarmáta fyrir sóttar vörur sem hægt er að nota þegar pöntunarlínur eru sóttar í versluninni. Afhendingarmátar eru skilgreindir á síðunni **Afhendingarmáti** í Commerce Headquarters. Frekari upplýsingar um uppsetningu afhendingarmáta fyrir viðskiptarásir er að finna í [Skilgreina afhendingarmáta](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Síða afhendingarmáta](media/customer-order-modes-of-delivery.png)
+![Síða afhendingarmáta.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Setja upp uppfyllingarflokka
@@ -53,7 +55,7 @@ Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pan
 
 Í Commerce-útgáfu 10.0.12 og síðar geta fyrirtæki skilgreint hvort hægt sé að nota vöruhúsið eða samsetningar vöruhúss og verslanir sem eru skilgreindar í uppfyllingarflokkum fyrir sendingar, sótt eða bæði sendingar og sótt. Þetta gerir kleift að auka sveigjanleika fyrir fyrirtækið til að ákvarða hvaða vöruhús má velja þegar stofnuð er viðskiptavinapöntun fyrir vörur til að senda í samanburði við hvaða verslanir má velja þegar stofnuð er viðskiptavinapöntun fyrir vörur til að sækja. Til að nota þessa stillingarmöguleika skal kveikja á eiginleikanum **Geta til að tilgreina staðsetningar sem „Sending“ eða „Afhending“ í uppfyllingarflokki**. Ef vöruhús sem er tengt við uppfyllingarflokk er ekki verslun er aðeins hægt að skilgreina það sem sendingarstað. Ekki er hægt að nota það þegar pantanir sem á að afhenda eru skilgreindar á sölustað.
 
-![Síða uppfyllingarflokka](media/customer-order-fulfillment-group.png)
+![Síða uppfyllingarflokka.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Skilgreina stillingar rásar
 
@@ -65,7 +67,7 @@ Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pan
 - **Nota skatt áfangastaðar** – Þessi valkostur gefur til kynna hvort heimilisfang viðtakanda sé notað til að ákvarða skattflokkinn sem á að nota fyrir pöntunarlínur sem eru sendar á heimilisfang viðskiptavinar.
 - **Nota skatt viðskiptavinar** – Þessi valkostur gefur til kynna hvort skattflokkurinn sem skilgreindur er fyrir heimilisfang viðskiptavinar sé notaður til skattleggja pantanir viðskiptavina sem eru stofnaðar á sölustað fyrir sendingu til heimilis viðskiptavinar.
 
-![Uppsetning verslunarrásar á verslunarsíðum](media/customer-order-all-stores.png)
+![Uppsetning verslunarrásar á verslunarsíðum.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Setja upp færibreytur viðskiptavinapantana
 
@@ -80,7 +82,7 @@ Sumar verslunar- eða vöruhúsastaðsetningar geta hugsanlega ekki uppfyllt pan
 - **Kóði sendingargjalds** – Ef valkosturinn **Nota ítarleg sjálfvirk gjöld** er stilltur á **Já**, hefur þessi færibreytustilling engin áhrif. Ef þessi valkostur er stilltur á **Nei** verða notendur beðnir um að færa handvirkt inn sendingargjald þegar pantanir viðskiptavina eru stofnaðar á sölustað. Notið þessa færibreytu til að varpa gjaldakóða viðskiptakrafa sem verður notaður á pantanir þegar notendur færa inn sendingargjald. Gjaldakóðinn skilgreinir fjárhagsbókunarrökin fyrir sendingargjaldið.
 - **Nota ítarleg sjálfvirk gjöld** - Stillið þennan valkost á **Já** til að nota sjálfvirk gjöld sem kerfið reiknar út þegar pantanir viðskiptavina eru stofnaðar á sölustað. Hægt er að nota þessi sjálfvirku gjöld til að reikna út sendingargjöld eða önnur gjöld sem tengjast pöntun eða vöru. Frekari upplýsingar um hvernig setja á upp og nota ítarleg sjálfvirk gjöld er að finna í [Ítarleg sjálfvirk gjöld fyrir omni-rás](./omni-auto-charges.md).
 
-![Flipi viðskiptavinapantana á færibreytusíðu Commerce](media/customer-order-parameters.png)
+![Flipi viðskiptavinapantana á færibreytusíðu Commerce.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Uppfæra útlit færsluskjás á sölustað
 
@@ -95,7 +97,7 @@ Gangið úr skugga um að [skjáútlit](./pos-screen-layouts.md) sölustaðar s�
 - **Breyta afhendingarmáta** - Hægt er að nota þessa aðgerð til að breyta á fljótlegan hátt afhendingarmáta fyrir línur sem eru þegar skilgreindar fyrir sendingu, án þess að gera kröfu um að notendur fari í gegnum flæðið „senda allar afurðir“ eða „senda valdar afurðir“ aftur.
 - **Hnekking innborgunar** – Hægt er að nota þessa aðgerð til að breyta upphæð innborgunar sem viðskiptavinurinn greiðir fyrir valda pöntun viðskiptavinar.
 
-![Aðgerðir á færsluskjá sölustaðar](media/customer-order-screen-layout.png)
+![Aðgerðir á færsluskjá sölustaðar.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Vinna með pantanir viðskiptavina á sölustað
 

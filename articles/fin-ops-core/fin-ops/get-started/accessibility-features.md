@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5e9d1f33102ed08d9e5c486d4d1490d4b278a28e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744124"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360300"
 ---
 # <a name="accessibility-features"></a>Aðgengiseiginleikar
 
@@ -58,7 +58,7 @@ Einn valmöguleiki er að notað lyklaborðið. Ýttu á Ctrl+F6 til að færa f
 
 Einnig hægt að keyra aðgerðina meira beint. Hvaðan sem er á síðunni, styddu á Ctrl+Úrfellingarmerki (') til að sýna leitarreitinn fyrir aðgerðir.
 
-![Leitarreitur fyrir aðgerðir](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Leitarreitur fyrir aðgerðir")
+![Leitarreitur fyrir aðgerðir.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Leitarreitur fyrir aðgerðir")
 
 Í leitarreitinn skal rita orð sem lýsa aðgerðinni. Aðgerðin er gerð tiltæk og þú getur keyrt hana beint. Til dæmis, með því að slá inn **tölvupóstur**, **tilkynn** (hluti úr orði) eða **skrá**, getur þú „hoppað" í Skrá tilkynninga í tölvupósti virknina.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: f15deae8a2b457548606616dd540f71a505f727a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357096"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -123,7 +123,7 @@ Til að skoða færsluupplýsingar fyrir tiltekna uppsafnaða upphæð skal velj
 - Upplýsingar um uppsöfnunartímabil og taxta
 - Allar breytingar gerðar á stillingum leyfisáætlunar
 
-![Birta endurskoðun færslu fyrir uppsafnað leyfi](media/hr-leave-and-absence-accrue-audit.png)
+![Birta endurskoðun færslu fyrir uppsafnað leyfi.](media/hr-leave-and-absence-accrue-audit.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

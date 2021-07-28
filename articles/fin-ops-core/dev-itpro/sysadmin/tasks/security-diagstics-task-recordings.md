@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358550"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Öryggisgreining fyrir verkskráningu
 
@@ -39,7 +39,7 @@ ms.locfileid: "5745766"
 
 4. Í reitinn **Notandakenni** skal velja notanda. Ef notandinn hefur ekki heimild fyrir sum valmyndaratriði mun reiturinn **Vantar heimildir** uppfærast í **Já**.
   
-  ![Upplýsingasíða um öryggisvalmyndaratriði](../media/Security-Menu-Item-Details.png)
+  ![Upplýsingasíða um öryggisvalmyndaratriði.](../media/Security-Menu-Item-Details.png)
 
 5. Veljið **Bæta við tilvísun** til að sjá lista yfir öryggishlutina, þar á meðal hlutverk, skyldur og réttindi sem veita heimildina sem vantar.
 6. Velja öryggishlut af listanum:

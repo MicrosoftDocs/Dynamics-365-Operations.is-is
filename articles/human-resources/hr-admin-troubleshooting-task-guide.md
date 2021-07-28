@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a18bb14ba8c3c926065c97b0ee26c38ee86ded2
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 46532fce05b7faf15b3dc2e843dcd93a976c0da1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357266"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Vista verkefnaleiðbeiningar í LCS og spila þær aftur
 
@@ -52,7 +52,7 @@ Fylgja skal þessum skrefum til að vista verkskráningu í LCS.
 10. Búið til verkskráningu.
 11. Þegar þessu er lokið skal velja **Vista í Lifecycle Services**.
 
-    ![Vista í Lifecycle Services](media/task-guides.png)
+    ![Vista í Lifecycle Services.](media/task-guides.png)
 
 12. Veljið BPM-safnið og hnútinn þar sem vista á verkskráninguna.
 

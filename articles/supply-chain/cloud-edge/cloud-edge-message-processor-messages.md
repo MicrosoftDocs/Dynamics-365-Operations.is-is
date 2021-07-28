@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271102"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350571"
 ---
 # <a name="message-processor-messages"></a>Skilaboð um skilaboðaúrvinnslu
 
@@ -88,15 +88,15 @@ Sem hluti af virkjunarferlinu verður þér leiðbeint um hvernig á að tilgrei
 
 1. Í [Power Automate](https://preview.flow.microsoft.com) skal búa til nýtt sjálfvirkt skýjaflæði fyrir flæðisræsinguna **Þegar viðskiptatilvik á sér stað - Forrit Fin & Ops (Dynamics 365)** og í kjölfarið fylgja skrefin **Þátta JSON** og **Senda tölvupóst** eins og sýnt er á eftirfarandi mynd.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate sjálfvirkt skýjaflæði":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate sjálfvirkt skýjaflæði.":::
 
 1. Í skrefinu **Þegar viðskiptatilvik á sér stað** er hægt að fletta upp eða færa inn miðstöðina **Tilvik** sem fylgir á eftir **Flokknum** og síðan **Viðskiptatilvikið** *Skilaboð skilaboðaúrvinnslu meðhöndluð* eins og sýnt er á eftirfarandi mynd.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Þegar skref viðskiptaviðburðar á sér stað":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Þegar skref viðskiptaviðburðar á sér stað.":::
 
 1. Fyrir skrefið **Þátta JSON** skal færa inn **Skema** sem skilgreinir stækkaða reiti. Hægt er að nota valkostinn *Sækja skema* á síðunni **Efnisskrá viðskiptatilvika** í Supply Chain Management eða byrja á því að líma inn textadæmi skema. Þessi dæmatexti er gefinn eftir eftirfarandi skýringarmynd.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Þátta JSON-skref":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Þátta JSON-skref.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Sem hluti af virkjunarferlinu verður þér leiðbeint um hvernig á að tilgrei
 
 1. Í skrefinu **Senda tölvupóst** er hægt að velja einstaka reiti eða byrja á því að líma dæmið um meginmál tölvupósts í reitinn **Meginmál**. Þetta dæmi er gefið eftir eftirfarandi skýringarmynd.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate skref tölvupóstssendingar":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate skref tölvupóstssendingar.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811183"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361067"
 ---
 # <a name="asset-fault-cost-control"></a>Kostnaðarstýring eignavillu
 
@@ -56,7 +56,7 @@ ms.locfileid: "5811183"
 - Reiturinn **Raunkostnaður** sýnir bókaðan kostnað vegna verkbeiðna. 
 - Reiturinn **Ráðstafaður kostnaður** sýnir heildarkostnað sem fyrirtækið þitt skuldbindur sig til vegna verkbeiðna.
 
-    ![Mynd 1](media/05-controlling-and-reporting.png)
+    ![Mynd 1.](media/05-controlling-and-reporting.png)
 
 Upplýsingar um hvernig setja skuli upp bilanir er að finna í efnisatriðinu [Bilanastjórnun](../setup-for-work-orders/fault-management.md).
 

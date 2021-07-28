@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7c4f1306faa2c0ae02fee48449839db4ff0907ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187411"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348393"
 ---
 # <a name="explosion-of-a-bom-version"></a>Niðurbrot uppskriftarútgáfu
 
@@ -34,7 +34,7 @@ Niðurbrot eftirspurnar í uppskriftarútgáfunni býr til eftirspurn fyrir hver
 -   Svæðisvíddin er skylda og hana þarf að færa inn í færslu eftirspurnar.
 -   Svæðisvíddin er samræmd. Þess vegna er svæðið fyrir neðra-stigs eftirspurn hið sama og svæðið í upprunalegu eftirspurnarfærslunni.
 
-Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunargerð. ![Niðurbrot eftirspurnar með útgáfu uppskriftar](./media/multisitedemandexplosionscenariousingbomversion.gif)
+Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunargerð. ![Niðurbrot eftirspurnar með útgáfu uppskriftar.](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

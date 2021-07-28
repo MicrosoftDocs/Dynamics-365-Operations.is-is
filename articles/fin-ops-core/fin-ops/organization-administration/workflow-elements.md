@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747152"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348554"
 ---
 # <a name="workflow-elements"></a>Verkflæðiseiningar
 
@@ -60,7 +60,7 @@ Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einin
 
 Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala.
 
-![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif)
+![Verkflæði með línuatriðum.](./media/workflow_lineitemworkflow.gif)
 
 Í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:
 

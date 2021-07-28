@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792776"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356855"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -34,7 +34,7 @@ DOM hámarkar uppfyllingu pöntunar yfir mörg flókin kerfi og ferla. DOM reið
 
 Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
-![Ferli sölupöntunar í samhengi við DOM-staðalinn](./media/flow.png "Ferli sölupöntunar í samhengi við DOM-staðalinn")
+![Ferli sölupöntunar í samhengi við DOM-staðalinn.](./media/flow.png "Ferli sölupöntunar í samhengi við DOM-staðalinn")
 
 ## <a name="set-up-dom"></a>Setja upp DOM
 
@@ -200,7 +200,7 @@ Við vinnslu tekur DOM tillit til pöntunar og pöntunarlína eins og hér er l�
 
 DOM velur staðsetningu sem er næst afhendingaraðsetri viðskiptavinar eftir að það beitir reglum, birgðatakmörkunum og hámörkun.
 
-![Skilyrði sölupöntunar](./media/ordercriteria.png "Skilyrði sölupöntunar")
+![Skilyrði sölupöntunar.](./media/ordercriteria.png "Skilyrði sölupöntunar")
 
 ## <a name="results-of-dom-runs"></a>Niðurstöður DOM-keyrslna
 

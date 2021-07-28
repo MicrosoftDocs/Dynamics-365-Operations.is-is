@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791680"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354614"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Til að sannreyna að undirvinnslan **RetailProductRating** sé til fylgirðu þ
 
 Eftirfarandi mynd sýnir dæmi um undirvinnsluupplýsingar í Commerce.
 
-![Upplýsingar um undirvinnsluna RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Upplýsingar um undirvinnsluna RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Ef þú finnur ekki undirvinnsluna **RetailProductRating** gæti verið að þú hafir þegar keyrt vinnsluna **Samstilla afurðaeinkunnir** og vinnsluna **1040 CDX** áður en þú frumstilltir Commerce-verkraðara. Í þessu tilfelli skaltu fylgja þessum skrefum til að keyra vinnsluna **Full samstilling gagna**.
@@ -83,7 +83,7 @@ Til að flytja afurðaeinkunnir inn í Commerce úr einkunna- og umsagnaþjónus
 
 Eftirfarandi mynd sýnir dæmi um stillingar runuvinnslu í Commerce.
 
-![Stilling á runuvinnslunni Samstilla afurðaeinkunnir](media/rnr-hq-batchjob-recurrence.png)
+![Stilling á runuvinnslunni Samstilla afurðaeinkunnir.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Staðfestu að runuvinnslan fyrir samstillingu afurðaeinkunna hafi gengið
 
@@ -95,7 +95,7 @@ Til að sannreyna að runuvinnslan **Samstilla afurðaeinkunnir** hafi tekist sk
 
 Eftirfarandi mynd sýnir dæmi um upplýsingar um runuvinnsluna í Commerce þegar áætlað er að runuvinnslan gangi með tveggja tíma millibili.
 
-![Upplýsingar um runuvinnsluna Samstilla afurðaeinkunnir](media/rnr-hq-batchjob-status-checking.png)
+![Upplýsingar um runuvinnsluna Samstilla afurðaeinkunnir.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Gerðu afurðaeinkunnir tiltækar í POS
 
@@ -113,15 +113,15 @@ Til að kveikja á afurðaeinkunnum á sölustað skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um stillingu Commerce-færibreytanna til að kveikja á afurðaeinkunnum á sölustað.
 
-![Stillingar Commerce-færibreytanna fyrir afurðaeinkunnir á sölustað](media/rnr-hq-enable-ratings-in-pos.png)
+![Stillingar Commerce-færibreytanna fyrir afurðaeinkunnir á sölustað.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á sölustað.
 
-![Afurðaeinkunnir á sölustað](media/rnr-pos-catalog-ratings.png)
+![Afurðaeinkunnir á sölustað.](media/rnr-pos-catalog-ratings.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á rásum símavera.
 
-![Afurðaeinkunnir í rás símaþjónustuvers](media/rnr-call-center-ratings.png)
+![Afurðaeinkunnir í rás símaþjónustuvers.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

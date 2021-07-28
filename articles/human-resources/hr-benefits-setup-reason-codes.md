@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056349"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360545"
 ---
 # <a name="set-up-reason-codes"></a>Setja upp ástæðukóða
 
@@ -56,15 +56,15 @@ Borði birtist á síðunni **Tenglar** á vinnusvæðinu **Fríðindastjórnun*
 
 1. Veljið **Ástæðukóðar** fyrir upplýsingar um stöðu flutnings.
 
-   [![Ástæðukóðar](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Ástæðukóðar.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Veljið ástæðukóða sem ekki tókst að flytja.
 
-   [![Staða á flutningi ástæðukóða](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Staða á flutningi ástæðukóða.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Veljið **Yfirfæra ástæðukóða**.
 
-   [![Yfirfæra ástæðukóða](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Yfirfæra ástæðukóða.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. Í glugganum **Yfirfærsla ástæðukóða fríðinda** eru tvær möguleikar á vörpun í ástæðukóða starfsmannastjórnunar:
 
@@ -73,10 +73,10 @@ Borði birtist á síðunni **Tenglar** á vinnusvæðinu **Fríðindastjórnun*
      > Aðeins er hægt að nota fyrirliggjandi ástæðukóða í starfsmannastjórnun ef annar ástæðukóði fríðindastjórnunar hefur ekki enn verið færður í hana.
    - Til að stofna nýjan ástæðukóða í starfsmannastjórnun skal slá nýjan inn í **Nýr ástæðukóði** og síðan færa inn lýsingu í **Ný lýsing**.
 
-   [![Varpa í ástæðukóða starfsmannastjórnunar](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Varpa í ástæðukóða starfsmannastjórnunar.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Þegar ástæðukóðar hafa verið fluttir yfir í starfsmannastjórnun er möguleikinn á að nota þá í fríðindastjórnun sjálfkrafa stilltur á **Já**.
 
-[![Nota ástæðukóða í fríðindastjórnun](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Nota ástæðukóða í fríðindastjórnun.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

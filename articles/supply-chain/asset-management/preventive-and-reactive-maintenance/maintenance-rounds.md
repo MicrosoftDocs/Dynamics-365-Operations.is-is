@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361043"
 ---
 # <a name="maintenance-rounds"></a>Viðhaldslotur
 
@@ -80,7 +80,7 @@ ms.locfileid: "5825735"
 
 Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár eignir.
 
-![Mynd 1](media/13-preventive-maintenance.png)
+![Mynd 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Tímasetja viðhaldslotur
@@ -106,9 +106,9 @@ Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár e
 
 Myndirnar tvær hér að neðan sýna tímaáætlun í glugganum **Tímasetja viðhaldslotur** og viðhaldsskemalínur búnar til í **Öll viðhaldsskemu** miðað við þá áætlunarvinnslu.
 
-![Mynd 2](media/14-preventive-maintenance.png)
+![Mynd 2.](media/14-preventive-maintenance.png)
 
-![Mynd 3](media/15-preventive-maintenance.png)
+![Mynd 3.](media/15-preventive-maintenance.png)
 
 - Þegar verkbeiðnir eru búnar til handvirkt á eignum sem falla undir ábyrgð lánadrottins er sýndur gluggi til að gera notandanum grein fyrir ábyrgðinni. Þá er hægt að hætta við að búa til verkbeiðnina. Hætt er við athugun á ábyrgðartengslum vegna verkbeiðna sem eru búnar til sjálfkrafa.  
 - Þú getur sett upp runuvinnslu á flýtiflipanum **Keyra í bakgrunni** til að skipuleggja lotur með reglulegu millibili.  

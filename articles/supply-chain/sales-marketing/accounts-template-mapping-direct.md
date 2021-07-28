@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fff9171966045e9dad5f2c70087a568cfa075e43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 270d83552a3e35042c32cb85888439d40068ff0c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908133"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355950"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Samstilla lykla beint úr Sales við viðskiptavini í Supply Chain Management
 
@@ -38,7 +38,7 @@ ms.locfileid: "5908133"
 
 Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik Supply Chain Management og Sales.  Prospect to cash sniðmát sem eru í boði með gagnasamþættingu leyfir flæði gagna um reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantana og sölureikningagagna milli Supply Chain Management og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Supply Chain Management og Sales.
 
-[![Gagnaflæði í Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gagnaflæði í Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
@@ -99,7 +99,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 > [!NOTE]
 > Vörpunin sýnir hvaða dálkupplýsingar verða samstilltar úr Sales í Supply Chain Management.
 
-![Sniðmátsvörpun í Gagnasamþættingu](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Sniðmátsvörpun í Gagnasamþættingu.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 

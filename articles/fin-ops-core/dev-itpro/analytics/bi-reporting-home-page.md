@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754495"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354416"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Skýrslugerð og greining með heimasíðu Power BI
 
@@ -35,9 +37,9 @@ ms.locfileid: "5754495"
 ## <a name="analytical-workspaces"></a>Greiningarvinnusvæði
 Vinnuvæði geta notað vandaða upplýsingagrafík og sjónrænt efni sem Microsoft Power BI styður. Þessi upplýsingagrafík og þetta sjónræna efni felur í sér margar stýringar sem eru veittar af þriðju aðilum. Þess vegna geta vinnusvæði veitt notendum mjög sjónræna og gagnvirka upplifun.
 
-Notendur geta átt samskipti við gögnin með því að smella á eða snerta sjónrænt efni á síðunni. Þeir geta séð orsök og afleiðingu, og framkvæmt einfaldar hvað-ef aðgerðir án þess að yfirgefa vinnusvæðið. Þökk sé mögnuðu og gagnvirku sjónrænu efni geta notendur þínir skemmt sér við að kanna gögn og uppgötva falda leitni.
+Notendur geta átt samskipti við gögnin með því að smella á eða snerta sjónrænt efni á síðunni. Þeir geta séð orsök og afleiðingu, og framkvæmt einfaldar hvað-ef aðgerðir án þess að yfirgefa vinnusvæðið. Þökk sé gagnvirku sjónrænu efni geta notendur skemmt sér við að kanna gögn og uppgötva falda leitni.
 
-![Dæmi um Power BI á vinnusvæði](./media/Power-BI-in-D365-Workspace.png)
+![Dæmi um Power BI á vinnusvæði.](./media/Power-BI-in-D365-Workspace.png)
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
@@ -50,18 +52,18 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 ## <a name="business-documents-and-printing"></a>Viðskiptaskjöl og útprentun
 Skýrslugerðarlausnir eru oft notaðar til að fanga og miðla upplýsingum um viðskiptafærslur. Þess vegna þarf skýrslugerðarlausn að geta komið viðskiptagögnum á áþreifanlegt form með því að nota fyrirliggjandi tæki, eins og nettengda prentara. Dæmi um viðskiptaskjöl innihalda sölureikninga, viðskiptavinayfirlit og ávísanir.
 
-[![Dæmi um viðskiptaskjöl](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Dæmi um viðskiptaskjöl.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
-- [Document Reporting Services](document-reporting-services.md)
+- [Greiningarþjónusta skjala](document-reporting-services.md)
 - [Yfirlit skjalaprentunar](print-documents.md)
 - [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið er verkfærið sem þú notar til að skilgreina rafræn skjalasnið sem uppfylla lagaskilyrði mismunandi landa eða svæða. Á meðal forrita rafrænnar skýrslugerðar eru fjárhagsleg endurskoðun, skattskýrslur og rafræn reikningsfærsla.
 
-[![Dæmi um rafræna skýrslugerð](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Dæmi um rafræna skýrslugerð.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
@@ -72,7 +74,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 ## <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 Staðlaðar fjárhagsskýrslur sem nota sjálfgefnar tegundir aðallykla eru veittar. Þú getur notað skýrsluhönnuðinn til að búa til eða breyta hefðbundnum fjárhagsskýrslum, eins og tekjuyfirlitum og efnahagsreikningum. Þú getur deilt niðurstöðunum með öðrum meðlimum í fyrirtækinu. Dæmi um fjárhagsskýrslugerð eru efnahagsreikningar, sjóðstreymi og samantekt á prófjöfnuði milli ára.
 
-[![Dæmi um fjárhagsskýrslugerð](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Dæmi um fjárhagsskýrslugerð.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 

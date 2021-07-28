@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796149"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352615"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
@@ -65,11 +65,11 @@ Hægt er að grunnstilla gjöld þannig að þau eru sett á tiltekinn afhending
 
 Fyrirtæki grunnstilla oft stigskipt gjöld. Í því tilviki er sú upphæð sem viðskiptavinir greiða fyrir afhendingu byggð á pöntunarvirði. Til að grunnstilla stigskipt gjöld skal slá inn gildi í **Frá upphæð** og **Til upphæðar** reitina auk þess að ákvarða gjaldið sjálft í **Virði gjalda** reitnum. Til dæmis, fyrir pantanir sem hafa minna virði en 50 USD, rukkar smásöluaðili 5,95 USD fyrir flutninga á jörðu niðri. Fyrir pantanir sem hafa virði sem er jafnt og eða meira en 50 USD, en minna en 100 USD, rukkar smásöluaðili 7,95 USD. Að lokum, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, rukkar smásöluaðili engin flutningsgjöld. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
 
-![Föst stigskipt gjöld dæmi](media/fixedtieredcharges.png)
+![Dæmi um föst stigskipt gjöld.](media/fixedtieredcharges.png)
 
 Þú getur notað blöndu af flokkum fyrir gjöld, allt eftir þörfum fyrirtækisins. Til dæmis, fyrir allar pantanir sem hafa virði sem er minna en 100 USD, er fast flutningsgjald upp á 9,95 USD. Þá, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, eru afhendingargjöld reiknuð með 5% hlutfalli af pöntunarvirði. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
 
-![Blönduð stigskipt gjöld dæmi](media/mixedtieredcharges.png)
+![Dæmi um blönduð stigskipt gjöld.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Virkja afhendingarmáta meðan á pöntunarfærslu stendur í símaveri
 
