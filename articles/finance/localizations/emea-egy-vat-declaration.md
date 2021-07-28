@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186615"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349898"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Vsk-skýrsla fyrir Egyptaland (EG-00002)
 
@@ -77,7 +77,7 @@ Færibreytur tiltekins forrits gera kleift að setja skilyrði um hvernig skattf
 
 Skýrslur sölu- og innkaupabóka fyrir Egyptaland innihalda dálkasafn sem samsvara tilteknum flokkunum á færslum af gerðinni aðgerðir, afurðir og skjöl sem miðast við Egyptaland. Í stað þess að taka þessar nýju flokkanir sem ný innsláttargögn þegar færslurnar eru bókaðar munu flokkanirnar verða ákvarðaðar samkvæmt mismunandi uppflettingum sem kynntar eru í **Skilgreiningar** > **Setja upp færibreytur tiltekins forrits** > **Uppsetning** til að uppfylla kröfur VSK-skýrslna fyrir Egyptaland. 
 
-![Síða sértækra færibreyta fyrir forrit](media/egypt-vat-declaration-setup1.png)
+![Síða sértækra færibreyta fyrir forrit.](media/egypt-vat-declaration-setup1.png)
 
 Þessar eftirfarandi skilgreiningar uppflettingar eru notaðar til að flokka færslurnar í skýrslum VSK-bóka útskatts og innskatts:
 
@@ -206,7 +206,7 @@ Til að mynda skýrslu VSK-framtalseyðublaðs á Microsoft Excel-sniði skal sk
 2. Í flipanum **Virðisaukaskattur**, í hlutanum **Valkostir skatts**, í reitnum **Sniðsvörpun VSK-skýrslu**, skal velja **VSK-skýrsla Excel (EG)**. Ef reiturinn er skilinn eftir auður verður stöðluð VSK-skýrsla búin til á SSRS-sniði.
 3. Veljið **Tegundastigveldið**. Þessi flokkur gerir vörukóðanum í færsluflipa erlendra viðskipta kleift að leyfa notendum að velja og flokka vörur og þjónustu. Lýsing á þessari flokkun kemur fram í skýrslum sölu- og innkaupafærslna. Þessi flokkun er valfrjáls.
 
-![Framtalseyðublað](media/egypt-vat-declaration-setup2.png)
+![Framtalseyðublað.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Búa til skýrslu VSK-skila

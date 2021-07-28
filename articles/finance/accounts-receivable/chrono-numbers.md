@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838862"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350073"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Skjöl og fylgiskjöl númeruð eftir tímaröð
 
@@ -69,7 +69,7 @@ Til að skilgreina númeraraðir skal fara í **Fyrirtækisstjórnun** > **Núme
 
 Tilgreinið fyrirtæki fyrir hverja númeraröð. Hlutar númeraraðanna verða að vera skilgreindir þannig að þeir bjóði upp á rétta tímaröð fyrir tímabil. Til dæmis geta heiti hlutanna innihaldið sérstakt forskeyti sem vísar í tiltekið tímabil.
 
-![Uppsetning númeraraðar](media/chrono-num-sequence.jpg)
+![Uppsetning númeraraðar.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Skilgreina númeraraðaflokka
 
@@ -77,7 +77,7 @@ Til að skilgreina númeraraðaflokka skal fara í **Viðskiptakröfur** > **Upp
 
 Fyrir hvern flokk, í hlutanum **Tilvísun**, skal velja eina af studdu skjalatilvísununum og í reitnum **Númeraraðarkóði** skal vísa í númeraröð sem var áður búin til fyrir tilheyrandi tímabil.
 
-![Uppsetning númeraraðaflokks](media/chrono-num-sequence-group.jpg)
+![Uppsetning númeraraðaflokks.](media/chrono-num-sequence-group.jpg)
 
 Á svipaðan hátt skal skilgreina númeraraðaflokka í einingunum **Viðskiptaskuldir** og **Verkefnastjórnun og bókhald**.
 
@@ -85,7 +85,7 @@ Fyrir hvern flokk, í hlutanum **Tilvísun**, skal velja eina af studdu skjalati
 
 Til að skilgreina tímaröð númeraraðaflokka skal fara í **Fyrirtækisstjórnun** > **Númeraraðir** > **Númeraraðaflokkar í tímaröð**. Skilgreinið skilyrði númeraraðaflokks þegar hann tekur gildi.
 
-![Uppsetning númera í tímaröð](media/chrono-num-sequence-group-period.jpg)
+![Uppsetning númera í tímaröð.](media/chrono-num-sequence-group-period.jpg)
 
 | Svæði            | lýsing                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Til að skilgreina tímaröð númeraraðaflokka skal fara í **Fyrirtækisstjó
 ## <a name="document-posting"></a>Bókun skjals
 Þegar skjal er bókað er viðeigandi númeraraðaflokki úthlutað á skjalið byggt á bókunardagsetningu skjals og síðan notaður til að mynda skjalanúmer byggt á greindri númeraröð. Kerfið býður upp á skilaboð varðandi úthlutun númeraraðarflokks.
 
-![Skjalnúmer](media/chrono-num-sequence-fti.jpg)
+![Skjalanúmer.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Í sumum löndum er þegar búið að innleiða ákveðna reglu fyrir númerasetningu skjala. Í slíku tilfelli mun regla tiltekins lands hnekkja eiginleikanum **Tölusetning í tímaröð**.

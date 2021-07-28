@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754039"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350861"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
 
@@ -68,7 +68,7 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 *Upprunareitur sem vantar \<field name\> í skemanu.*
 
-![Dæmi um villuboð vantar upprunadálk](media/error_missing_field.png)
+![Dæmi um villuboð vegna upprunadálks sem vantar.](media/error_missing_field.png)
 
 Til að laga málið skaltu fyrst fylgja þessum skrefum til að ganga úr skugga um að dálkarnir séu í töflunni.
 

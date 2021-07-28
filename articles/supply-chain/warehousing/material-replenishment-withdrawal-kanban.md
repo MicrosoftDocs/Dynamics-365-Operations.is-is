@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356928"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Áfylling með afturkölluðum kanban
 
@@ -35,7 +35,7 @@ Nota má kanban-úttekt til að færa kanban einnar vöru á milli vöruhúsa og
 
 Eftirfarandi dæmi sýnir dráttaráfyllingarkerfi þar sem dráttarkerfi setur af stað stofnun á kanban til áfyllingar á hráefni fyrir framleiðsluferli. 
 
-[![Dráttarmerki setur af stað stofnun á kanban til áfyllingar á hráefni fyrir framleiðsluferli](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Togmerki ræsir stofnun á kanban til að fylla á efni fyrir framleiðsluferli.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban úttektar
 2.  Kanban „frá“ staðsetningu og frágangsstaðsetningu fyrir vöruhúsavinnu
@@ -72,7 +72,7 @@ Ef fjarlægðin milli vöruhúsastaðsetninga og staðsetningar framleiðsluinnt
 
 Í eftirfarandi dæmi er flutningsverkþáttur kanban-úttektar skilgreindur þannig að hann flytjist milli tveggja staðsetninga í sama vöruhúsinu. Flutningsverkþáttur kanban-úttektar er settur þannig upp að honum sé lokið sjálfkrafa. 
 
-[![Flutningsverkþætti er sjálfkrafa lokið þegar tiltektarvinna kanbans er yfirstaðin](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Flutningsverkþáttur er sjálfkrafa lokið þegar unnið er úr kanban-tiltekt.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Samnýtt vöruhús fyrir hráefni og framleiðslu
 2.  Vöruhúsastaðsetningar fyrir hráefni

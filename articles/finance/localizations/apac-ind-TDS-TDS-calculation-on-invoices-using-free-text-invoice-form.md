@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7d551a8ba6ba9ca282fd9de3fa7d7c7303e394ed
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 702fffa6b958e5cec26029bd5a12d01b0467ee6d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023334"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358291"
 ---
 # <a name="tds-calculation-on-invoices-from-the-free-text-invoice-page"></a>TDS-útreikningur á reikningum af síðu reiknings með frjálsum texta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023334"
 
 1. Fara í **Viðskiptakröfur \> Reikningar \> Allir reikningar með frjálsum texta**.
 
-    [![Síða reiknings með frjálsum texta](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
+    [![Síða reiknings með frjálsum texta.](./media/apac-ind-TDS-57-1.png)](./media/apac-ind-TDS-57-1.png)
 
 2. Veljið **Nýr** til að stofna nýjan reikning með frjálsum texta og færið inn nauðsynlegar upplýsingar.
 3. Veljið flipann **Reikningur**. Í hlutanum **Staðgreiðsluskattsflokkur** sýnir reiturinn **Eðli skattgreiðanda** eðli skattgreiðendaflokks viðskiptavinar.

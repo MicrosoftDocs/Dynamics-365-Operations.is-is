@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023315"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348910"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Setja upp jöfnunartímabil staðgreiðsluskatts fyrir TDS-skattgerðina
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023315"
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Jöfnunartímabil staðgreiðsluskatts**.
 
-    [![Jöfnunartímabilssíða staðgreiðsluskatts](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Jöfnunartímabilssíða staðgreiðsluskatts.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Í reitnum **Skattgerð** skal velja **TDS** til að setja upp uppgjörstímabil staðgreiðsluskatts fyrir skattgerð TDS.
 3. Veldu **Nýtt** til að búa til nýja línu.
@@ -47,6 +47,6 @@ ms.locfileid: "6023315"
     > [!NOTE]
     > Til að keyra reglulega TDS uppgjörsferlið skaltu fara í **Fjárhagur \> Reglubundið \> Staðgreiðsluskattur \> Greiðsla staðgreiðsluskatts**.
 
-    [![Greiðslusíða staðgreiðsluskatts](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Greiðslusíða staðgreiðsluskatts.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Lokið síðunni.

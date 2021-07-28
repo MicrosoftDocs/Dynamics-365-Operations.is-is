@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797282"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348708"
 ---
 # <a name="assortment-management"></a>Stjórn vöruúrvals
 
@@ -35,27 +35,27 @@ Heildarsamsetning afurða í rás er ákvörðuð af útgefnu vöruúrvali sem e
 
 Í eftirfarandi dæmi er einkvæmt vöruúrval skilgreint fyrir hverja verslun. Í þessu tilviki er aðeins afurð 1 í boði í verslun 1 og aðeins afurð 2 er í boði í verslun 2.
 
-![Hver vara er í boði í einni verslun](./media/Managing-assortments-figure1.png)
+![Hver vara er í boði í einni verslun.](./media/Managing-assortments-figure1.png)
 
 Til að bjóða upp á afurð 2 í verslun 1 geturðu bætt afurðinni við vöruúrval 1.
 
-![Vara 2 bætt við vöruúrval 1](./media/Managing-assortments-figure2.png)
+![Vöru 2 bætt við vöruúrval 1.](./media/Managing-assortments-figure2.png)
 
 Að öðrum kosti er hægt að bæta verslun 1 við vöruúrval 2.
 
-![Verslun 1 bætt við vöruúrval 2](./media/Managing-assortments-figure3.png)
+![Verslun 1 bætt við vöruúrval 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 
 Í tilfellum þar sem margar rásir deila sama vöruúrvalinu er hægt að skilgreina vöruúrvalið með því að nota stigveldi fyrirtækis fyrir Commerce úrval. Þegar hnútum frá þessu stigveldi er bætt við verða allar rásir í þessum hnút og undirhnútum innifaldar.
 
-![Stigveldi fyrirtækis](./media/Managing-assortments-figure4.png)
+![Stigveldi fyrirtækis.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Afurðartegundir
 
 Á svipaðan hátt er hægt að bæta við afurðaflokkum með því að nota stigveldi afurðartegunda á afurðasíðunni. Þú getur skilgreint vöruúrval með því bæta við einum eða fleiri hnútum tegundastigveldis. Í þessu tilfelli mun vöruúrvalið innihalda allar afurðir í þessum tegundarhnút og undirhnútum hans.
 
-![Afurðartegundir](./media/Managing-assortments-figure5.png)
+![Afurðartegundir.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Útilokaðar afurðir eða tegundir
 
@@ -64,7 +64,7 @@ Til viðbótar við að innihalda afurðir og tegundir í vöruúrvali er hægt 
 > [!NOTE]
 > Ef afurð er bæði innifalinn og útilokuð í einu eða fleiri gerðum vöruúrvals samkvæmt skilgreiningu, verður afurðin alltaf talin útilokuð.
 
-![Útilokuð vara](./media/Managing-assortments-figure6.png)
+![Útilokuð vara.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Alþjóðlegar og útgefnar afurðir
 

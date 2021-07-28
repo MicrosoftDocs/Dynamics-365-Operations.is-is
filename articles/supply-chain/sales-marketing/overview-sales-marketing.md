@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188126"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359862"
 ---
 # <a name="sales-and-marketing-overview"></a>Yfirlit yfir sölu og markaðsstörf
 
@@ -29,18 +31,18 @@ Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gög
 
 ## <a name="marketing"></a>Kynning
 
-Þú notar markaðsherferð og starfsemi til að finna og byggja upp sambönd við mögulega viðskiptavini, þannig að fyrstu samskipti geta þróast í sölusambönd. Eftirfarandi flæði sýnir viðskiptaferli sölu- og markaðsstarfs. [![Viðskiptaferli fyrir markaðssetningu](./media/marketing01.jpg)](./media/marketing01.jpg)
+Þú notar markaðsherferð og starfsemi til að finna og byggja upp sambönd við mögulega viðskiptavini, þannig að fyrstu samskipti geta þróast í sölusambönd. Eftirfarandi flæði sýnir viðskiptaferli sölu- og markaðsstarfs. [![Viðskiptaferli fyrir markaðssetningu.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Vensl
 
-Í sölu og markaðssetningu, fyrstu samskipti sem þú hefur við mögulega viðskiptavini geta komið í ýmsum aðstæðum. Til dæmis, þú gætir finna tilvonandi viðskiptavini meðan þú ert að mæta á viðskiptasýningu, eða þú gætir hafa mögulega verið með gott forskot eftir póstlistaherferð fyrirtækis þíns. Það er mjög mikilvægt að skilja flæði einingar aðila áður en sá aðili verður viðskiptavinur. Eftirfarandi mynd sýnir á flæði í samböndum aðila þegar hugsanlegur viðskiptavinur verður raunverulegur viðskiptavinur. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Í sölu og markaðssetningu, fyrstu samskipti sem þú hefur við mögulega viðskiptavini geta komið í ýmsum aðstæðum. Til dæmis, þú gætir finna tilvonandi viðskiptavini meðan þú ert að mæta á viðskiptasýningu, eða þú gætir hafa mögulega verið með gott forskot eftir póstlistaherferð fyrirtækis þíns. Það er mjög mikilvægt að skilja flæði einingar aðila áður en sá aðili verður viðskiptavinur. Eftirfarandi mynd sýnir á flæði í samböndum aðila þegar hugsanlegur viðskiptavinur verður raunverulegur viðskiptavinur. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Herferðir
 
 Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Supply Chain Management er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
-Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)
+Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Sölutilboð
 

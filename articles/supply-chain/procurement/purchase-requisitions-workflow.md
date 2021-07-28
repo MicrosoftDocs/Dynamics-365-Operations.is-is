@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353469"
 ---
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
@@ -51,7 +51,7 @@ Eftirfarandi skýringarmynd sýnir hvernig innkaupabeiðni getur fara í gegnum 
 -   **Innkaupaaðilinn** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
 -   **Stjórnandi umsækjanda** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
 
-![endurskoðunarferli fyrir verkflæði innkaupabeiðni](./media/purchreqworkflowoverview_submission.gif)  
+![Endurskoðunarferli fyrir verkflæði innkaupabeiðni.](./media/purchreqworkflowoverview_submission.gif)  
 Í þessu dæmi fylgir verkflæðiferlið fyrir innkaupabeiðni þessum skrefum:
 
 1.  Undirbúningsaðili sendir innkaupabeiðni til yfirferðar
@@ -74,7 +74,7 @@ Eftirfarandi dæmi sýnir hvernig einstakar innkaupabeiðnilínur má setja í l
 -   **Deildarstjórinn**– notandinn sem framkvæmir yfirferð á útgjöldum og getur samþykkja skjalið.
 -   **Hópstjórinn** – notandinn sem framkvæmir endurskoðun fyrir undirskriftarvald og getur samþykkja skjalið.
 
-![endurskoðunarferli fyrir Verkflæði innkaupabeiðnilína](./media/purchreqlineworkflowoverview.gif)  
+![Endurskoðunarferli fyrir Verkflæði innkaupabeiðnilína.](./media/purchreqlineworkflowoverview.gif)  
 Í þessu dæmi inniheldur verkflæðiferlið fyrir innkaupabeiðnilínur þessi skrefum:
 
 1.  Undirbúningsaðili sendir innkaupabeiðni til yfirferðar Hverri lína er sett í leið til yfirlesara sem er skilgreindur í verkflæðisferlinu.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 3340ea07414eb92997ab4a9d6fa46cd075f8f9db
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ea0f60424ff1ee40a4231aa9cc129bb942fca519
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021008"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353565"
 ---
 # <a name="landed-cost-parameters-setup"></a>Uppsetning á færibreytum heildarkostnaðar
 
@@ -31,7 +31,7 @@ Notuð er síðan **Færibreytusíða heildarkostnaðar** til að setja á upp a
 
 Til að vinna með færibreyturnar skal fara í **Heildarkostnaður \> Uppsetning \> Færibreytur heildarkostnaðar** og síðan stilla reitina eins og lýst er í eftirfarandi undirhlutum.
 
-![Færibreytusíða heildarkostnaðar](media/landed-cost-parameters.png "Færibreytusíða heildarkostnaðar")
+![Færibreytusíða heildarkostnaðar.](media/landed-cost-parameters.png "Færibreytusíða heildarkostnaðar")
 
 ## <a name="general-tab"></a>Almennt
 

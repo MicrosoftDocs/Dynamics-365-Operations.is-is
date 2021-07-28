@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349011"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
 
@@ -33,32 +33,32 @@ ms.locfileid: "6186739"
 
 Á síðunni **Færibreytur Fjármálainnsýnar** í Microsoft Dynamics 365 Finance, birtist tengillinn **Auka nákvæmni líkans** við hlið nákvæmniseinkunnarinnar.
 
-[![Tengill til að auka nákvæmni líkans](./media/prediction-model.png)](./media/prediction-model.png)
+[![Tengill til að auka nákvæmni líkans.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Um leið og smellt er á tengilinn opnast AI Builder, þar sem hægt er að fá frekari upplýsingar um núverandi líkan og frekari skref til að bæta líkanið. Skýringarmyndin hér á eftir sýnir síðuna sem opnast.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Eftirfarandi upplýsingar birtast á síðunni sem opnast:
 
 - Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Frekari upplýsingar um þessa Einkunn er að finna í hlutanum [Frammistaða spálíkans](/ai-builder/prediction-performance) í fylgiskjölum AI Builder.
 - Hlutinn **Áhrifamestu gögnin** sýnir hversu mikilvægar mismunandi innsláttargerðir gagna voru fyrir líkanið. Hægt er að meta þennan lista og samsvarandi prósentuhlutfall til að ákvarða hvort upplýsingarnar eru í samræmi við þekkingu þína á fyrirtækinu þínu og markaðinum.
 
-    [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið](./media/models.png)](./media/models.png)
+    [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið.](./media/models.png)](./media/models.png)
 
 - Í hlutanum **Frammistaða** skal velja **Skoða frekari upplýsingar** til að fá frekari upplýsingar um einkunnina önnur atriði. Frekari upplýsingar á eftirfarandi skýringarmynd sýna að líkanið notar minni upplýsingar en ráðlagt er. Þar af leiðir sendi kerfið frá sér viðvörunarboð.
 
-    [![Viðvaranir um frammistöðu líkansins](./media/details.png)](./media/details.png)
+    [![Viðvaranir um frammistöðu líkansins.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Nánari skoðun
 
 Nákvæmni er ágætis viðmið til að meta líkan í upphafi og frammistöðueinkunn veitir ágætis yfirsýn en hins vegar býður AI Builder upp á ítarlegri mæligildi til að nota við slíkt mat. Til að hlaða niður frekari upplýsingum í hlutanum **Frammistaða** skal smella á hnappinn úrfellingarhnappinn (**...**) við hliðina á hnappinum **Nota líkan** og síðan velja **Hlaða niður ítarlegri mæligildum**.
 
-[![Skipunin um að hlaða niður ítarlegri mæligildum](./media/performance.png)](./media/performance.png)
+[![Skipunin um að hlaða niður ítarlegri mæligildum.](./media/performance.png)](./media/performance.png)
 
 Eftirfarandi skýringarmynd sýnir sniðið sem hægt er að hlaða niður gögnunum í.
 
-[![Snið gagna sem hlaðið er niður](./media/data-format.png)](./media/data-format.png)
+[![Snið gagna sem hlaðið er niður.](./media/data-format.png)](./media/data-format.png)
 
 Þegar greina á niðurstöðurnar frekar er skoðun á „ruglingsfylkinu“ ágætis byrjunarreitur. Hér eru til dæmis gögnin sem eru sýnd fyrir þetta mæligildi í skýringarmyndinni hér á undan.
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349329"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Tilraunir í Dynamics 365 Commerce
 Notið tilraunir í Dynamics 365 Commerce til að sannprófa tilgátur um árangur af síðum rafrænna viðskipta og takið ákvarðanir sem styðjast við gögn. Commerce styður A/B-prófun á síðum, einingum og brotum og gerir notanda kleift að mæla áhrif fyrirhugaðra breytinga á vefsvæði notanda.
@@ -39,7 +39,7 @@ Hægt er að búa til, breyta og stjórna síðu og meðhöndlun efnis sem þekk
 ## <a name="experimentation-lifecycle"></a>Stuðningstími tilraunar
 Uppsetning tilraunar, stofnun afbrigða og keyrsla tilraunar er endurtekið ferli. Skýringarmyndin hér á eftir sýnir stuðningstíma tilraunarinnar í Commerce og þjónustu þriðja aðila. 
 
-[ ![Stuðningstími tilraunar](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Stuðningstími tilraunar.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Til að fá frekari upplýsingar um hvert skref í tilraunaferlinu skal skoða eftirfarandi efnisatriði.
 - [Auðkenna tilgátu og ákvarða mælieiningar fyrir tilraun](experimentation-identify.md)

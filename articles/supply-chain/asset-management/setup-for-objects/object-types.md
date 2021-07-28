@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347165"
 ---
 # <a name="asset-types"></a>Eignagerðir
 
@@ -45,9 +45,9 @@ Fyrir hverja eignategund er hægt að búa til afbrigði af skipulagi eignategun
 7. Veljið **Vista**.
 8. Á flýtiflipanum **Gerðir viðhaldsverka** velurðu þær gerðir viðhaldsverka sem eiga að tengjast eignagerðinni:
 
-    - Til að velja gerð viðhaldsverks skaltu velja það í reitnum **Eftirstandandi gerðir viðhaldsverka** og veldu síðan hægri örvarhnappinn ![Hægri örvarhnappur](media/29-setup-for-objects.png) til að færa það í kaflann **Valdar gerðir viðhaldsverka**.
-    - Til að velja allar tiltækar gerðir viðhaldsverka velurðu hnappinn ![Áfram allar örvar](media/30-setup-for-objects.png). Allar gerðir viðhaldsverka eru fluttar úr reitnum **Eftirstandandi gerðir viðhaldsverka** í reitinn **Valdar gerðir viðhaldsverka**.
-    - Til að hætta við valið á gerð viðhaldsverks skaltu velja hana í reitnum **Valdar gerðir viðhaldsverka** og veldu síðan vinstri örvarhnappinn ![Vinstri örvarhnappur](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi gerðir viðhaldsverka**.
+    - Til að velja gerð viðhaldsverks skal velja hana í reitnum **Eftirstandandi gerðir viðhaldsverka** og síðan velja hægri örvarhnappinn ![Hægri örvarhnappur.](media/29-setup-for-objects.png) til að færa hana í hlutann **Valdar gerðir viðhaldsverka**.
+    - Til að velja allar tiltækar gerðir viðhaldsverks skal velja ![Örina framsenda allt.](media/30-setup-for-objects.png) hnappur. Allar gerðir viðhaldsverka eru fluttar úr reitnum **Eftirstandandi gerðir viðhaldsverka** í reitinn **Valdar gerðir viðhaldsverka**.
+    - Til að hætta við val á gerð viðhaldsverks skal velja hana í reitnum **Valdar gerðir viðhaldsverka** og síðan velja vinstri örvarhnappinn ![Vinstri örvarhnappur.](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi gerðir viðhaldsverks**.
 
 9. Þú getur einnig valið teljarana sem ættu að tengjast eignategundinni. Á flýtiflipanum **Teljarar** gerirðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Nánari upplýsingar um uppsetningu á teljurum er að finna í [Teljarar](counters.md).
 10. Þú getur einnig valið eigindagerðir sem ættu að tengjast eignategundinni. Á flýtiflipanum **Eigindagerðir**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Til að búa til ákjósanlegustu röð eigindategunda skaltu velja eigindategundina **Valdar eigindagerðir** reitinn og notaðu upp örina og örvatakkana til að færa hann. Röð eigindagerða verður sýnd á eignum sem nota þessa eignategund. Nánari upplýsingar um eignareigindirnar, sjá [Gerðir viðhaldseiginda](../setup-for-functional-locations/specification-types.md).

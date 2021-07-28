@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85f6188bff4d3535369e4af145f8f55a3263c4a3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794164"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352229"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -46,7 +46,7 @@ Verðflokkar eru í kjarna verð- og afsláttarstjórnunar í Commerce. Verðflo
 
 Eftirfarandi mynd sýnir hvernig verðflokkar eru notaðir. Taktu eftir, í þessari skýringarmynd, að „Verðflokkur“ er bókstaflega í miðju verðlagningar- og afsláttarstjórnunar. Viðskiptaeiningarnar sem þú getur notað til að stjórna mismunarverði og afsláttum eru til vinstri og raunveruleg verð- og afsláttarfærslur eru til hægri.
 
-![Verðflokkar](./media/PriceGroups.png "Verðflokkar")
+![Verðflokkar.](./media/PriceGroups.png "Verðflokkar")
 
 Þegar verðflokkur er stofnaður ætti ekki að nota einn verðflokk fyrir margar gerðir viðskiptaeininga. Annars getur verið erfitt að ákvarða hvers vegna tiltekið verð eða afsláttur er notaður á færslu.
 

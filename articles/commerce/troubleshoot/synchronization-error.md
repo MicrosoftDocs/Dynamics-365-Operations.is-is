@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021128"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350355"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Samstillingarvilla pöntunar tengist sjálfgefinni greiðsluþjónustu
 
@@ -32,9 +32,9 @@ ms.locfileid: "6021128"
 
 Eftirfarandi villuboð birtast þegar netpöntun er samstillt: „Sjálfgefin greiðsluþjónusta fyrir kreditkortafærslur þarf að vera til staðar.“
 
-![Villa vegna þess að sjálfgefna greiðsluþjónustu vantar](media/default-payment-method-error.jpg)
+![Villa vegna þess að sjálfgefna greiðsluþjónustu vantar.](media/default-payment-method-error.jpg)
 
-## <a name="resolution"></a>Upplausn
+## <a name="resolution"></a>Lausn
 
 ### <a name="confirm-or-set-the-default-payment-service-in-commerce-headquarters"></a>Staðfesta eða stilla sjálfgefna greiðsluþjónustu í höfuðstöðvum Commerce
 

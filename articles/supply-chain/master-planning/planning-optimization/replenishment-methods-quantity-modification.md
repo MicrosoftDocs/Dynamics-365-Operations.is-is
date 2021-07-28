@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261697"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347759"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Áfyllingaraðferðir og magnbreyting
 
@@ -34,11 +34,11 @@ Hægt er að nota eftirfarandi þekjukóða í fínstillingu skipulagningar:
 
 - **Tímabil** – Áfyllingaraðferðin sameinar alla eftirspurn fyrir tímabil í eina pöntun fyrir afurðina. Pöntunin verður áætluð fyrir fyrsta dag tímabilsins og magn hennar mun uppfylla nettóþarfir á settu tímabili. Tímabilið hefst á fyrstu eftirspurn eftir afurðinni og nær yfir skilgreinda tímalengd. Næsta tímabil hefst með næstu þörfum eftir afurðinni. Þekjukóði *tímabilsins* er oft notaður fyrir ófyrirsjáanlega birgðanotkun, árstíðabundnar afurðir eða dýrar afurðir. Eftirfarandi skýringarmynd sýnir dæmi.
 
-    ![Dæmi um notkun tímabilsþekjukóða](./media/coverage-code-period.png "Dæmi um notkun tímabilsþekjukóða")
+    ![Dæmi um notkun tímabilsþekjukóða.](./media/coverage-code-period.png "Dæmi um notkun tímabilsþekjukóða")
 
 - **Þörf** – Í áfyllingaraðferðinni stofnar kerfið áætlaða innkaupa-, flutnings- eða framleiðslupöntun eftir þörfum afurðarinnar. Þessi aðferð er notuð fyrir dýrar afurðir þar sem eftirspurnin er breytileg. Þekjukóði *þarfa* er oft notaður í aðstæðum stillanlegrar afurðar eða framleiðslu eftir pöntun. Eftirfarandi skýringarmynd sýnir dæmi.
 
-    ![Dæmi um notkun á þekjukóða þarfa](./media/coverage-code-requirement.png "Dæmi um notkun á þekjukóða þarfa")
+    ![Dæmi um notkun á þekjukóða þarfa.](./media/coverage-code-requirement.png "Dæmi um notkun á þekjukóða þarfa")
 
 - **Lágm./Hám.** – Áfyllingaraðferðin byggir á birgðastöðunni. Hún skilgreinir áfyllingu birgða upp að tilteknu stigi þegar fyrirséð lagerstaða er undir tilteknum þröskuldi. Áfyllingarmagnið verður munurinn á milli hámarksstigs og spáðs stigs lagermagns. *Lágm./hám.* þekjukóðinn er oft notaður fyrir fyrirséða birgðanotkun, vinsælar afurðir eða ódýrari afurðir. Eftirfarandi skýringarmynd sýnir dæmi.
 

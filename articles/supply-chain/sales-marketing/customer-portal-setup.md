@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353915"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Setja upp og uppfæra viðskiptavinagátt
 
@@ -34,7 +34,7 @@ Til að innleiða viðskiptavinagáttina þarf að hafa eftirfarandi leyfi:
 
 Viðskiptavinagáttin er háð Power Apps-gáttum og tvöföldum skrifum eins og sýnt er á eftirfarandi mynd.
 
-![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
+![Tengsl viðskiptavinagáttar.](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
 Ólíkt öðrum eiginleikum frá Supply Chain Management er sniðmát viðskiptavinagáttar að finna í Power Apps-gáttum. Þess vegna takmarkast viðskiptavinagáttin við virknina og möguleikana sem boðið er upp á af Power Apps-gáttum og töflunum í tvöföldum skrifum.
 

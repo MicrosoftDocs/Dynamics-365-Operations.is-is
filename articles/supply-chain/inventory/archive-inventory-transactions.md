@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345525"
 ---
 # <a name="archive-inventory-transactions"></a>Safnvista birgðafærslur
 
@@ -64,7 +64,7 @@ Fylgið eftirfarandi skrefum til að halda áfram að safnvista birgðafærslur.
 
     Síðan **Safnvistun á birgðafærslum** birtist og sýnir lista yfir eldri safnferlisfærslur.
 
-    ![Safnvistunarsíða birgðafærslna](media/archive-inventory-empty.png "Safnvistunarsíða birgðafærslna")
+    ![Safnvistunarsíða birgðafærslna.](media/archive-inventory-empty.png "Safnvistunarsíða birgðafærslna")
 
 1. Í aðgerðasvæði skal velja **Safnvistun á birgðafærslum** til að safnvista birgðafærslur.
 1. Í svarglugganum **Safnvistun á birgðafærslum** á **Færibreytur** flýtiflipanum, skal stilla eftirfarandi reiti:
@@ -72,7 +72,7 @@ Fylgið eftirfarandi skrefum til að halda áfram að safnvista birgðafærslur.
     - **Upphafsdagsetning í lokuðu fjárhagstímabili** – Veljið fyrstu dagsetningu færslu sem á að taka með í safninu.
     - **Lokadagsetning í lokuðu fjárhagstímabili** – Veljið síðustu dagsetningu færslu sem á að taka með í safninu.
 
-    ![Svargluggi safnvistunar á birgðafærslum](media/archive-inventory-dates.png "Svargluggi safnvistunar á birgðafærslum")
+    ![Svargluggi safnvistunar á birgðafærslum.](media/archive-inventory-dates.png "Svargluggi safnvistunar á birgðafærslum")
 
     > [!NOTE]
     > Aðeins er hægt að velja tímabil sem uppfylla [Skilyrði](#prerequisites).
@@ -87,7 +87,7 @@ Fylgið eftirfarandi skrefum til að halda áfram að safnvista birgðafærslur.
 
 **Safnvistun á birgðafærslum** sýnir allan safnvistunarferil þinn. Hver lína í hnitanetinu sýnir upplýsingar á borð við dagsetninguna þegar safnið var búið til, notandann sem stofnaði það og stöðu þess.
 
-![Safnvistunarferill á síðunni Safnvistun á birgðafærslum](media/archive-inventory-full.png "Safnvistunarferill á síðunni Safnvistun á birgðafærslum")
+![Safnvistunarferill á síðunni Safnvistun á birgðafærslum.](media/archive-inventory-full.png "Safnvistunarferill á síðunni Safnvistun á birgðafærslum")
 
 Í fellilistanum efst á síðunni skal velja eitt af eftirfarandi gildum til að sía safnvistanir sem eru sýndar í hnitanetinu:
 
@@ -109,7 +109,7 @@ Tækjastikan fyrir ofan hnitanetið býður upp á eftirfarandi hnappa sem hægt
 
 - **Safnvistaðar færslur** – Skoða allar upplýsingar um valið safn. Síðan **Safnvistaðar færslur** sem birtist sýnir allar færslurnar í safninu.
 
-    ![Síða safnvistaðra færslna](media/archive-inventory-transactions.png "Síða safnvistaðra færslna")
+    ![Síða safnvistaðra færslna.](media/archive-inventory-transactions.png "Síða safnvistaðra færslna")
 
     Til að skoða frekari upplýsingar um tiltekna færslu á síðunni **Safnvistaðar færslur** skal velja hana í hnitanetinu og síðan á aðgerðasvæðinu skal velja **Upplýsingar um safnvistaða færslu**. Síðan **Upplýsingar um safnvistaða færslu** sem birtist sýnir upplýsingar á borð við fjárhagsbókun, tengdar tilvísanir undirbókar og fjárhagsvíddir.
 

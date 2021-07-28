@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348758"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 
@@ -65,7 +65,7 @@ Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma
 
 Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Flæðirit undantekningar](media/exception-diagram.png "Flæðirit undantekningar")
+![Flæðirit undantekningar.](media/exception-diagram.png "Flæðirit undantekningar")
 
 > [!NOTE]
 > Einungis er hægt að óska eftir undanþágu fyrir leigjendur sem eru með eða munu vera með vinnsluumhverfi, ekki fyrir leigjendur með eingöngu sandkassaumhverfi. Þegar þörf er á að slökkva á undantekningarvillu fínstillingar skipulagningar í innviðum sem þjónusta (IaaS) í sandkassaumhverfi skal keyra SQL-fyrirspurnina sem er til staðar í [Sandkassaumhverfum](#faq-sandbox).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093921"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351658"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti
 
@@ -137,20 +137,20 @@ Hægt er að tilgreina reglur með mörgum skilyrðum. Þegar mörg skilyrði er
 
 Til dæmis er reglan **Virkir starfsmenn** að ofan gerð úr eftirfarandi skilyrði. Til að starfsmaðurinn geti verið gjaldgengur samkvæmt reglunni **Virkir starfsmenn** verður starfsmaðurinn að vera ráðinn í lögaðila USMF *og* vera með starfsstöðuna fullt starf.  
 
-![Skilyrði í gjaldgengisreglu](media/CriteriaWithinAnEligibilityRule.png) 
+![Skilyrði í gjaldgengisreglu.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Mörg skilyrði innan viðmiða
 
 Það er hægt að útvíkka reglurnar enn frekar til að nota mörg skilyrði innan eins skilyrðis. Starfsmaðurinn verður að uppfylla minnst eitt skilyrði til að vera gjaldgengur. Til að nota dæmið hér að ofan er hægt að útvíkka regluna **Virkir starfsmenn** enn frekar til að taka einnig með starfsmenn sem eru ráðnir í hlutastarf. Þess vegna verður starfsmaðurinn nú að vera starfsmaður í USMF *og* annaðhvort starfsmaður í fullu starfi eða í hlutastarfi.  
 
-![Mörg skilyrði innan viðmiðs](media/MultipleConditionsWithinCriteria.png) 
+![Mörg skilyrði innan viðmiðs.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Hæfnisskilyrði innan viðmiðs sérstillts reits 
 Svipað og hér að ofan er hægt að nota sérstillta reiti þegar hæfnisreglur og vinna er búið til á sama hátt. Til dæmis gæti verið gott að bjóða starfsmönnum í Fargo og Kaupmannahöfn sem vinna heima fyrir endurgreiðslu á netinu, þar sem netkostnaður er hærri á þeim stöðum. Til að gera þetta skal búa til tvo sérstillta reiti: **Staðsetning skrifstofu** (tínslulisti) og **Vinn heima** (gátreitur). Búa síðan til reglu sem nefnist **Starfsmenn WFH**. Skilyrðið fyrir regluna er þar sem **Staðsetning skrifstofu = Fargo** eða **Kaupmannahöfn** *og* þar sem **Vinn heima = Já**.
 
 Setja þyrfti upp sérstilltar hæfnisreglur eins og gefið er til kynna á eftirfarandi mynd. 
 
-![Hæfnisskilyrði innan skilyrðis sérstillts reits](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Hæfnisskilyrði innan skilyrðis sérstillts reits.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Skilgreina búnt
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022812"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349874"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Staðgreiðsluskattsskýrsla fyrir Egyptaland (EG-00005)
 
@@ -103,7 +103,7 @@ Til að mynda skýrslur VSK-framtalseyðublaðs í Microsoft Excel skal skilgrei
 2. Í flipanum **Staðgreiðsluskattur**, í reitnum **Vörpun skýrslusniðs fyrir staðgreiðsluskatt**, skal velja **Staðgreiðsluskattsskýrsla Excel (EG)**. Ef reiturinn er skilinn eftir auður verður stöðluð VSK-skýrsla búin til á SSRS-sniði.
 
 
-![Framtalseyðublað](media/egypt-wht-declaration-setup1.png)
+![Framtalseyðublað.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Mynda eyðublöð staðgreiðsluskýrslu
 Ferlið við að undirbúa og senda inn eyðublað staðgreiðsluskýrslu fyrir tiltekið tímabil er byggt á staðgreiðsluskattsfærslum sem bókaðar eru við uppgjörs- og bókunarvinnu skattgreiðslu. Frekari upplýsingar um altækan staðgreiðsluskatt er að finna í [Altækur staðgreiðsluskattur](../general-ledger/global-withholding-tax-overview.md).

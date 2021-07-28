@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941056"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350813"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
@@ -38,7 +38,7 @@ ms.locfileid: "5941056"
 
 Eftir að þú hefur gert kortlagningarsniðmát virkt ætti staða korta að vera **Í keyrslu**. Ef staðan er **Ekki í gangi** geta villur komið upp við fyrstu samstillingu. Til að skoða villurnar velurðu flipann **Upphaflegar samstillingarupplýsingar** á síðunni **Tvöfalt skrif**.
 
-![Villa í flipa upphaflegra samstillingarupplýsinga](media/initial_sync_status.png)
+![Villa í flipa upphaflegra samstillingarupplýsinga.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Þú getur ekki lokið fyrstu samstillingu: 400 Bad Request
 
@@ -85,7 +85,7 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 1. Innskráning í forritið Finance and Operations.
 2. Á síðunni **Azure Active Directory forrit** eyðirðu **DtAppID** biðlaranum og bætir honum síðan við aftur.
 
-![DtAppID-biðlari á lista yfir Azure AD-forrit](media/aad_applications.png)
+![DtAppID-biðlari á lista yfir Azure AD-forrit.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Villur sjálfstilvísunar eða hringtilvísunar við fyrstu samstillingu
 
@@ -115,11 +115,11 @@ Ef einhverjar línur í töflu lánardrottins eru með gildi í dálkunum **Prim
     2. Leitið að **primarycontactperson** til að finna upprunadálkinn **PrimaryContactPersonId**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
-        ![Eyða dálkinum PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Eyða dálkinum PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Endurtakið þessi skref til að eyða dálkinum **InvoiceVendorAccountNumber**.
 
-        ![Eyða dálkinum InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Eyða dálkinum InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Vistið breytingarnar í vörpunina.
 
@@ -129,11 +129,11 @@ Ef einhverjar línur í töflu lánardrottins eru með gildi í dálkunum **Prim
     2. Veljið töfluna **Lánardrottnar V2**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
-        ![Valkostur breytingarakningar valinn](media/selfref_options.png)
+        ![Valkostur breytingarakningar valinn.](media/selfref_options.png)
 
     4. Veljið **Gera breytingarakningu óvirka**.
 
-        ![Gera breytingarakningu óvirka valið](media/selfref_tracking.png)
+        ![Gera breytingarakningu óvirka valið.](media/selfref_tracking.png)
 
 3. Keyrið upphaflega samstillingu fyrir vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)**. Upphafleg samstilling ætti að keyra með góðum árangri án nokkurra villna.
 4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**. Samstilla verður þessa vörpun ef á að samstilla dálk aðaltengiliða í töflu lánardrottins, því einnig þarf að gera upphaflega samstillingu fyrir tengiliðalínurnar.
@@ -162,11 +162,11 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
     2. Leitið að **contactperson** til að finna upprunadálkinn **ContactPersonID**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
-        ![Dálkinum ContactPersonID eytt](media/cust_selfref3.png)
+        ![Dálkinum ContactPersonID eytt.](media/cust_selfref3.png)
 
     4. Endurtakið þessi skref til að eyða dálkinum **InvoiceAccount**.
 
-        ![Dálkinum InvoiceAccount eytt](media/cust_selfref4.png)
+        ![Dálkinum InvoiceAccount eytt.](media/cust_selfref4.png)
 
     5. Vistið breytingarnar í vörpunina.
 
@@ -176,11 +176,11 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
     2. Veljið töfluna **Viðskiptavinir V3**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
-        ![Valkostur breytingarakningar valinn](media/selfref_options.png)
+        ![Valkostur breytingarakningar valinn.](media/selfref_options.png)
 
     4. Veljið **Gera breytingarakningu óvirka**.
 
-        ![Gera breytingarakningu óvirka valið](media/selfref_tracking.png)
+        ![Gera breytingarakningu óvirka valið.](media/selfref_tracking.png)
 
 3. Keyrið upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Upphafleg samstilling ætti að keyra með góðum árangri án nokkurra villna.
 4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**.
@@ -196,7 +196,7 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
 
         Eftirfarandi skýringarmynd sýnir verk sem uppfærir **CustomerAccount** og **ContactPersonId**.
 
-        ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId](media/cust_selfref6.png)
+        ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId.](media/cust_selfref6.png)
 
     2. Bætið skilyrði fyrirtækis við síuna Dataverse megin þannig að einungis línur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**. 
 
@@ -204,7 +204,7 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
 
         Ef ekki er slegin inn síufyrirspurn fyrir **\_msdyn\_fyrirtæki\_gildi** verða allar línurnar samstilltar.
 
-        ![Síufyrirspurn bætt við](media/cust_selfref7.png)
+        ![Síufyrirspurn bætt við.](media/cust_selfref7.png)
 
     Upphaflegri samstillingu línanna er nú lokið.
 

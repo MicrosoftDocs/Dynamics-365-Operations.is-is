@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350025"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Virkja frestun skattaútreiknings á dagbókum
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er a�
 1. Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.
 2. Á flipanum **VSK-skattur** á flýtiflipanum **Almennt** skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af almennum fjárhagsfæribreytum](media/delayed-tax-calculation-gl.png)
+![Mynd af fjárhagsfæribreytum.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarheitis
 
 1. Farðu í **Fjárhag \> Færslubókaruppsetning \> Færslubókarheiti**.
 2. Á flýtiflipanum **Almennt**, í kaflanum **VSK-skattur**, skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af færslubókanöfnum](media/delayed-tax-calculation-journal-name.png)
+![Mynd af færslubókarheitum.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarhauss
 
@@ -61,7 +61,7 @@ Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er a�
 3. Veldu heiti færslubókar.
 4. Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af síðu almennrar færslubókar](media/delayed-tax-calculation-journal-header.png)
+![Mynd á síðu færslubókar.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

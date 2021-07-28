@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352471"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Búa til skoðunarstigveldi rásar
 
@@ -49,7 +49,7 @@ Fylgdu þessum skrefum til að stofna yfirlitsstigveldi rásar.
 
 Eftirfarandi mynd sýnir dæmi um rótarhnút.
 
-![Dæmi um rótarhnút](media/create-channel-hierarchy-1.png)
+![Dæmi um rótarhnút.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Stofnun yfirlitsflokkahnúta
 
@@ -65,7 +65,7 @@ Fylgdu þessum skrefum til að búa til fleiri yfirlitsflokkahnúta til að ták
 
 Eftirfarandi mynd sýnir dæmi um yfirlitsstigveldi rásar sem er lokið.
 
-![Dæmi um rásarstigveldi](media/create-channel-hierarchy-2.png)
+![Dæmi um rásarstigveldi.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Bæta afurðum við flokkshnúta
 
@@ -81,7 +81,7 @@ Fylgdu þessum skrefum til að bæta afurðum við flokkahnúta.
 
 Eftirfarandi mynd sýnir dæmi um hnút með afurðum sem er bætt við.
 
-![Afurðum bætt við flokkshnút](media/create-channel-hierarchy-3.png)
+![Afurðum bætt við flokkshnút.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Bættu afurðareigindahópum við flokkshnúta
 
@@ -97,7 +97,7 @@ Til að bæta afurð og eigindahóp við flokkshnút skaltu fylgja þessum skref
 
 Eftirfarandi mynd sýnir dæmi um hnút með afurðareigindir sem er bætt við.
 
-![Eigindaflokkar afurðar á hnút](media/create-channel-hierarchy-4.png)
+![Eigindaflokkar afurðar á hnút.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

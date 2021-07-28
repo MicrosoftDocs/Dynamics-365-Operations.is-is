@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791166"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355453"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Stofna og uppfæra tímabil afhendingar til viðskiptavinar
 
@@ -34,7 +34,7 @@ Tímahólfsaðgerðin býður smásölum upp á leið til að skilgreina tímah�
 
 Eftirfarandi mynd sýnir dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta.
 
-![Dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Eiginleikar tímahólfs
 
@@ -60,7 +60,7 @@ Tímahólf er skilgreint með eftirfarandi eiginleikum:
 - **Virkir dagar** – Tilgreinið daga vikunnar þegar tímahólf afhendingar eru virk. Þessi eiginleiki gerir söluaðila kleift að skilgreina dagana þegar hann vill þjónusta pantanir sem verða sóttar.
 - **Smásölurásir** - Tilgreinið smásölurásir. Hvert tímahólf er hægt að tengja við eina eða fleiri smásöluverslanir. Hægt er að stofna eina eða fleiri tímahólfsfærslur, allt eftir opnunartíma hverrar verslunar, og tengja við rásina. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Aðeins er hægt að grunnstilla eitt tímasniðmát fyrir hverja rás. Þessar rásir innihalda verslanir á staðnum, símaver, farsíma og netverslunarsíður.
 
@@ -85,14 +85,14 @@ Til að skilgreina eiginleika tímahólfsins í Commerce Headquarters skal fylgj
     > [!NOTE]
     > Hægt er að búa til mörg sniðmát en aðeins má tengja eitt sniðmát við eina rás eða verslun.
 
-    ![Svargluggi fyrir Pöntun sótt - Tímastillingar](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Svargluggi fyrir Pöntun sótt - Tímastillingar.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Þegar þessu er lokið skal velja **Í lagi**.
 1. Ef tímahólf yfir daginn eru breytileg skal búa til fleiri færslur í flýtiflipanum **Pöntun sótt - Tímastillingar** til að ganga úr skugga um að dagsetningar og tímar skarist ekki.
 1. Í flýtiflipanum **Smásölurásir** skal velja **Bæta við** til að tengja sniðmát tímahólfs við verslanir eða rásir þar sem það verður notað.
 1. Í svarglugganum **Veljið fyrirtækjahnúta** skal nota örvarhnappana til að velja (eða hreinsa valið á) verslanir, svæði og fyrirtæki sem sniðmátið á að tengjast.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Þegar þessu er lokið skal velja **Í lagi**.
 1. Á síðunni **Dreifingaráætlun** skal keyra verkin **1070** og **1135** til að samstilla gögn til rásanna.
@@ -103,7 +103,7 @@ Til að skilgreina eiginleika tímahólfsins í Commerce Headquarters skal fylgj
 
 Eftirfarandi mynd sýnir dæmi um val á tímahólfi fyrir pöntun sölustaðar.
 
-![Dæmi um val á tímahólfi fyrir sölustaðarpöntun](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Dæmi um val á tímahólfi fyrir sölustaðarpöntun.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Val á tímahólfi fyrir pantanir rafrænna viðskipta
 
@@ -114,13 +114,13 @@ Upplýsingar um hvernig hægt er að gera val á tímahólfi aðgengilegt fyrir 
 
 Eftirfarandi mynd sýnir dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið.
 
-![Dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Val tímahólfs fyrir pantanir símavers
 
 Í símaforriti símavers geta fulltrúar símavers valið móttökuverslunina eða staðsetningu, ásamt dagsetningu og tímahólf sem auðkenndt er á eftirfarandi mynd.
 
-![Dæmi um pöntun símavers þar sem tímahólf hefur verið valið](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Dæmi um pöntun símavers þar sem tímahólf hefur verið valið.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085501"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351153"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -62,7 +62,7 @@ Ef valkosturinn **Runuvinnsla** er stilltur á **Já** er snið rafrænnar skýr
 > [!NOTE]
 > Starfslýsing lætur vita um keyrslu á vörpun með sniði rafrænnar skýrslugerðar. Hún inniheldur einnig heiti rafræns skýrslugerðarhluts sem er keyrður.
 
-[![Keyrir snið rafrænnar skýrslugerðar](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Snið rafrænnar skýrslugerðar keyrt.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Hægt er að fá upplýsingar um þetta starf á nokkrum stöðum:
 
@@ -74,17 +74,17 @@ Hægt er að fá upplýsingar um þetta starf á nokkrum stöðum:
 
 - Á síðunni **Rafræn skýrslugerðarvinnsla** skal velja **Sýna skrár** til að skoða lista yfir hugsanlegar villur og viðvaranir sem komu fram við keyrslu.
 
-    [![Skoða starfalista rafrænnar skýrslugerðar](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![Starfalisti rafrænnar skýrslugerðar yfirfarinn.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Notandaskilgreind hegðun
 
 Á síðunni **Viðtökustaður rafrænnar skýrslugerðar** er hægt að hnekkja sjálfgefinni hegðun fyrir stillingar. Innfluttar skilgreiningar eru ekki sýnd á þessari síðu fyrr en þú velur **Nýtt** og síðan, í reitnum **Tilvísun** skal velja skilgreiningu til að stofna stillingar fyrir áfangastað fyrir.
 
-[![Velja skilgreiningu í svæðinu Tilvísun](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Velja skilgreiningu í svæðinu Tilvísun.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Eftir að þú hefur búið til tilvísun geturðu búið til skráarmiðstöð fyrir sérhvert heiti úttaksþáttar **Möppu** eða **Skráar** af tilvísuðu ER-sniði.
 
-[![Stofnun viðtöðustaðar skráar](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Viðtökustaður skráar búinn til.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Því næst, í svarglugganum **Stillingar fyrir áfangastað** geturðu virkjað og afvirkjað staka áfangastaði fyrir áfangastað skráar. **Stillingar** hnappinn er notuð til að stjórna áfangastaði fyrir valinn áfangastað skrár. Í **stillingar fyrir Áfangastað** svarglugganum er hægt að stjórna hvern ákvörðunarstað sérstaklega með því að stilla **Virkt** valkost fyrir hana.
 
@@ -92,7 +92,7 @@ Eftir að þú hefur búið til tilvísun geturðu búið til skráarmiðstöð 
 
 Til dæmis er hægt að nota þessa getu til að stilla skrá áfangastaða fyrir skráhluta sem er notaður til að búa til skjal á útleið á Excel sniði. Einn ákvörðunarstaður ([Skjalasafn](er-destination-type-archive.md)) er hægt að stilla til að geyma upprunalegu Excel skrána í skjalasafni ER-starfa og á öðrum ákvörðunarstað ([Netfang](er-destination-type-email.md)) er hægt að stilla til að samtímis [umbreyta](#OutputConversionToPDF) Excel-skjalið á PDF snið og senda PDF-skjalið með tölvupósti.
 
-[![Stilla marga áfangastaði fyrir staka sniðeiningu](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Stilla marga áfangastaði fyrir staka sniðeiningu.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Þegar snið rafrænnar skýrslugerðar er keyrt verða allir áfangastaðir sem voru skilgreindir fyrir íhluti sniðsins alltaf keyrðir. Að auki, í Finance **útgáfu 10.0.17 og nýrri**, hefur virkni áfangastaða rafrænnar skýrslugerðar verið bætt og gerir notanda nú kleift að skilgreina mismunandi safn staðsetninga fyrir eitt snið rafrænnar skýrslugerðar. Þessi skilgreining merkir hvert safn sem skilgreint fyrir tiltekna aðgerð notanda. API rafrænnar skýrslugerðar hefur verið [stækkað](er-apis-app10-0-17.md) þannig að hægt sé að bjóða upp á aðgerð sem notandi framkvæmir með því að keyra snið rafrænnar skýrslugerðar. Aðgerðarkóðinn sem er veittur er sendur til áfangastaða rafrænnar skýrslugerðar. Hægt er að keyra mismunandi áfangastaði fyrir snið rafrænnar skýrslugerðar, sem fer eftir aðgerðarkóðanum sem gefinn er upp. Frekari upplýsingar er að finna í [Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar sk�
 
 Þegar þú stillir skrá áfangastaða fyrir valið snið stillirðu þær fyrir allt sniðið.
 
-[![Skilgreiningartengill](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Skilgreiningartengill.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Á sama tíma gætir þú átt margar [útgáfur](general-electronic-reporting.md#component-versioning) af því sniði sem hefur verið flutt inn í núverandi tilviki Finance. Þú getur skoðað þau ef þú velur tengilinn **Stillingar** sem er í boði þegar þú velur reitinn **Tilvísun**.
 
-[![Útgáfur grunnstillingarinnar](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Útgáfur grunnstillingarinnar.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Sjálfgefið er að stilla áfangastaði er aðeins beitt þegar þú keyrir ER sniðútgáfu sem hefur annaðhvort stöðuna **Lokið** eða **Deilt**. Hins vegar verður þú stundum að nota stillta áfangastaði þegar drög að útgáfu ER sniðs er keyrt. Til dæmis, þú breytir drög að útgáfu af sniðinu þínu, og þú vilt nota stillta áfangastaði til að prófa hvernig mynda framleiðsla verður afhent. Fylgdu þessum skrefum til að beita ákvörðunarstöðum fyrir ER snið þegar drög að útgáfu eru keyrð.
 
@@ -128,7 +128,7 @@ Sjálfgefið er að stilla áfangastaði er aðeins beitt þegar þú keyrir ER 
 2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 3. Stilltu valkostinn **Nota áfangastaði fyrir drög** á **Já**.
 
-[![Valkosturinn Nota áfangastaði fyrir drög](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Valkosturinn Nota áfangastaði fyrir stöðu draga.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Til að nota drög útgáfu af ER sniði verður þú að merkja ER sniðið í samræmi við það.
 
@@ -136,11 +136,11 @@ Til að nota drög útgáfu af ER sniði verður þú að merkja ER sniðið í 
 2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 3. Stillið valkostinn **Keyra stillingar** á **Já**.
 
-[![Keyra stillingarvalkost](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Valkostur fyrir keyrslu stillingar.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Eftir að þú hefur lokið þessari uppsetningu verður valkosturinn **Keyra drög** í boði fyrir ER-snið sem þú breytir. Stilltu þennan valkost á **Já** til að byrja að nota drög að sniðinu þegar sniðið er keyrt.
 
-[![Valkosturinn Keyra drög](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Valkosturinn Keyra drög.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Villumeðhöndlun ákvörðunarstaðar
 
@@ -148,7 +148,7 @@ Venjulega er ER snið keyrt innan gildissviðs ákveðins viðskiptaferlis. Hins
 
 Til dæmis stillirðu greiðsluvinnslu lánardrottins þannig að **ISO20022 lánaflutningur** ER snið er keyrt til að búa til greiðsluskrá og viðbótargögn (til dæmis fylgibréf og eftirlitsskýrsla). Ef aðeins ætti að líta á greiðslu sem afgreidda með góðum árangri ef fylgibréfið er afhent með tölvupósti, verður þú að velja gátreitinn **Hætta að vinna við bilun** fyrir hlutann **CoveringLetter** í viðeigandi skráarstað, eins og sýnt er á eftirfarandi mynd. Í þessu tilfelli verður staða greiðslunnar sem er valin til vinnslu breytt úr **Ekkert** í **Sent** aðeins þegar fylgibréfið sem er búið til er samþykkt til afhendingar hjá tölvupóstveitunni sem er stilltur í Finance-tilvikinu.
 
-[![Stilla ferlismeðhöndlun fyrir bilun viðtökustaðar skráa](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Stilla ferlismeðhöndlun fyrir bilun viðtökustaðar skráa.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Ef þú hreinsar gátreitinn **Hætta að vinna við bilun** fyrir hlutann **CoveringLetter** í áfangastaðnum, mun greiðsla teljast hafa tekist jafnvel þó að upplýsingabréf hafi ekki borist í tölvupósti. Stöðu greiðslunnar verður breytt úr **Ekkert** í **Sent** jafnvel þó ekki sé hægt að senda fylgibréf vegna þess að til dæmis vantar póstfang viðtakanda eða sendanda eða rangt.
 
@@ -160,7 +160,7 @@ Hægt er að nota valkost PDF-umbreytingar til að breyta úttaki í Microsoft O
 
 Til að gera PDF umbreytingarvalkostinn tiltækan í núverandi tilviki Finance, opnaðu vinnusvæðið **Stjórnun eiginleika** og kveiktu á eiginleikanum **Umbreyta skjölum á útleið í rafrænni skýrslugerð úr Microsoft Office-sniði á PDF**.
 
-[![Kveikt á PDF umbreytingu skjala á útleið í Stjórnun eiginleika](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Kveikt á PDF umbreytingu skjala á útleið í eiginleikastjórnun.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Gildissvið
 
@@ -185,13 +185,13 @@ Aðeins algengar leturgerðir Windows-stýrikerfisins eru notaðar til að umbre
 
 Til að kveikja á PDF-ummyndun fyrir skráarstað, veldu gátreitinn **Umbreyta í PDF**.
 
-[![Kveikt á PDF-ummyndun fyrir skráarstað](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Kveikt á PDF-ummyndun fyrir skráarstað.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Veldu síðu stefnu fyrir PDF umbreytingu</a>
 
 Ef skilgreining rafrænnar skýrslugerðar er búin til á Excel-sniði og ætlunin er að breyta því í PDF-skjal, er hægt að tilgreina hvernig síðan á að snúa í PDF-skjalinu. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
 
-[![Val á síðustefnu fyrir PDF-umbreytingu](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Val á síðustefnu fyrir PDF-umbreytingu.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Til að hafa möguleikann á því að velja hvernig PDF-síða á að snúa þarf að setja upp Finance-útgáfu 10.0.10 eða nýrri.
@@ -222,7 +222,7 @@ Aðeins er hægt að skilgreina framsetningu úttaks fyrir sniðshluta af gerði
     > [!NOTE]
     > Þegar **Aðskildar skrár** er valið er myndað úttak safnað í minni á þjöppuðu formi. Þar af leiðandi gildir [hámarksstærð skráar](er-compress-outbound-files.md) fyrir þjappað úttak þegar raunveruleg skráarstærð fer yfir þessi mörk. Mælt er með því að velja þetta gildi þegar búist er við því að stærð myndaðs úttaks verði of stórt.
 
-[![Skilgreina viðtökustað fyrir hlut möppusniðs](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Skilgreina viðtökustað fyrir hlut möppusniðs.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Takmarkanir
 

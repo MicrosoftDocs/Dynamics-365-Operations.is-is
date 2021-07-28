@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347117"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
@@ -56,7 +56,7 @@ Aðeins er hægt að skipuleggja verkbeiðnir með líftímastöðu verkbeiðni 
 
 *Dæmi:* Á myndinni hér að neðan mun formúlan sem sett er inn í reitnum **Vænt upphaf** mynda tímasetningar verkbeiðna fyrir allar verkbeiðnir með áætlaðan upphafsdag eftir viku héðan í frá og síðar. Þessi formúla kann að vera gagnleg þegar þú keyrir tímasetningu verkbeiðni en þú vilt ganga úr skugga um að verkbeiðnum sem áætlaðar eru næstu 5-6 daga sé ekki endurraðað.
 
-![Mynd 1](media/03-work-order-scheduling.png)
+![Mynd 1.](media/03-work-order-scheduling.png)
 
 Gerð verkbeiðni sem tengist verkbeiðnunum getur sett upp tímasetningu fyrir einn viðhaldsstarfsmann (skiptihnappurinn **Eignastjórnun** > **Uppsetning** > **Verkbeiðnir** > **Gerðir verkbeiðna** > **Einn viðhaldsstarfsmaður** stilltur á „Já“). Þetta þýðir að ef tegund verkbeiðni er notuð í verkbeiðni er skiptihnappurinn **Einn viðhaldsstarfsmaður** sjálfkrafa stilltur á „Já“ á upplýsingasíðunni **Allar verkbeiðnir** > sýninni **Haus** > flýtiflipanum **Tímasetja**. Meðan á verkbeiðniröðun stendur verða öllum verkbeiðniverkum sem eru stofnuð í verkbeiðninni raðað á sama viðhaldsstarfsmann. Ef þess er þörf geturðu breytt valinu á skiptihnappnum **Einn viðhaldsstarfsmaður** í **Öllum verkbeiðnum** til að leyfa tímasetningu nokkurra starfsmanna eða eins starfsmanns í verkbeiðniverkunum.
 

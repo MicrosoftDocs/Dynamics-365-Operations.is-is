@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352713"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
@@ -65,7 +65,7 @@ Reglan um beina jöfnun er sú sama og notuð er fyrir vegið meðaltal í fyrri
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal beinnar jöfnunar án Taka efnislegt virði með](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Vegið meðaltal beinnar jöfnunar án Taka efnislegt virði með.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -99,7 +99,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um samantekna beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal samantekinnar jöfnunar án Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Vegið meðaltal samantekinnar jöfnunar án Taka efnislegt virði með.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -128,7 +128,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun með valkosti Hafa með efnislegt virði. 
 
-![Vegið meðaltal beinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Vegið meðaltal beinnar jöfnunar með Taka efnislegt virði með.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -161,7 +161,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal samantekinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Vegið meðaltal samantekinnar jöfnunar með Taka efnislegt virði með.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -209,7 +209,7 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess að merkja við birgðalíkan vegins meðaltals. 
 
-![Vegið meðaltal með Merking](./media/weightedaveragewithmarking.gif) 
+![Vegið meðaltal með Merkingu.](./media/weightedaveragewithmarking.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.

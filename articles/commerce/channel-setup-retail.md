@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937535"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346059"
 ---
 # <a name="set-up-a-retail-channel"></a>Setja upp smásölurás
 
@@ -50,11 +50,11 @@ Dynamics 365 Commerce styður margar smásölurásir. Meðal þessara smásölur
 
 Eftirfarandi mynd sýnir stofnun nýrrar smásölurásar.
 
-![Ný smásölurás](media/channel-setup-retail-1.png)
+![Ný smásölurás.](media/channel-setup-retail-1.png)
 
 Eftirfarandi mynd sýnir dæmi um smásölurás.
 
-![Dæmi um smásölurás](media/channel-setup-retail-2.png)
+![Dæmi um smásölurás.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Aðrar stillingar
 
@@ -64,7 +64,7 @@ Að auki, sjá [Skjáupplýsingar fyrir sölustað (POS)](pos-screen-layouts.md)
 
 Eftirfarandi mynd sýnir dæmi um uppsetningarstillingu smásölurásar.
 
-![Dæmi um stillingu smásölurásar](media/channel-setup-retail-3.png)
+![Dæmi um stillingu smásölurásar.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Viðbótaruppsetning grunnrásar
 
@@ -74,7 +74,7 @@ Viðbótarupplýsingar sem krafist er fyrir uppsetningu netrásar fela í sér u
 
 Eftirfarandi mynd sýnir ýmsa viðbótaruppsetningarvalkosti smásölurásar á flipanum **Setja upp**.
 
-![Setja upp rás](media/channel-setup-retail-4.png)
+![Setja upp rás.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -89,7 +89,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-retail-5.png)
+![Dæmi um greiðslumáta.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Setja upp skilgreiningar reiðufjár
 
@@ -98,7 +98,7 @@ Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
 Eftirfarandi mynd sýnir dæmi um skilgreingingu reiðufjár.
 
-![Uppsetning á skilgreiningu reiðufjár](media/channel-setup-retail-6.png)
+![Uppsetning á skilgreiningu reiðufjár.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 
@@ -112,7 +112,7 @@ Fylgdu þessum skrefum til að breyta eða bæta við afhendingarmáta.
 
 Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
-![Setja upp afhendingarmáta](media/channel-setup-retail-7.png)
+![Setja upp afhendingarmáta.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Setja upp tekju-/útgjaldalykil
 
@@ -129,7 +129,7 @@ Til að setja upp tekju-/útgjaldalykil skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um tekju-/útgjaldalykil.
 
-![Setja upp tekju-/útgjaldalykla](media/channel-setup-retail-8.png)
+![Setja upp tekju-/útgjaldalykla.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Setja upp hluta
 
@@ -155,7 +155,7 @@ Til að setja upp úthlutun uppfyllingarflokks skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um uppstillingu úthlutunar uppfyllingarflokks.
 
-![Setja upp úthlutanir uppfyllingarflokks](media/channel-setup-retail-9.png)
+![Setja upp úthlutanir uppfyllingarflokks.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Setja upp öryggishólf
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799914"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349699"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kveikja á og grunnstilla sjálfvirk gjöld eftir rás
 
@@ -66,7 +66,7 @@ Fylgdu þessum skrefum til að tengja sjálfgefið stigveldi við skipulag stigv
 1. Í aðgerðarúðunni velurðu **Keyra núna**.
 1. Endurtaktu tvö síðustu skref til að keyra vinnslurnar **1070** (**Stilling rásar**) og **1110** (**Altækar stillingar**).
 
-![Stillingar tilgangs gjalda stigveldis fyrirtækis í Retail](media/Auto-charges-org-hierarchy-purpose.png)
+![Stillingar tilgangs gjalda stigveldis fyrirtækis í Retail.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Skilgreina sjálfvirkt gjald eftir rás
 
@@ -86,7 +86,7 @@ Fylgdu þessum skrefum til að skilgreina sjálfvirka gjaldtöku eftir rás í C
 1. Í aðgerðarúðunni velurðu **Keyra núna**.
 1. Endurtaktu tvö síðustu skref til að keyra vinnslurnar **1070** (**Stilling rásar**) og **1110** (**Altækar stillingar**).
     
-![Sjálfvirk gjöld skilgreind eftir rás](media/Auto-charges-line-charge-by-channel.png)
+![Sjálfvirk gjöld skilgreind eftir rás.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -94,7 +94,7 @@ Eftirfarandi dæmi sýnir skrefin sem þarf til að stilla vöru þannig að end
 
 Fyrirtækið skilgreinir gjaldakóða sem nefndur er **ENDURVINNA** eins og sýnt er á eftirfarandi mynd.
 
-![Gjaldakóðinn ENDURVINNA](media/Auto-charges-charge-code.png)
+![Gjaldakóðinn ENDURVINNA.](media/Auto-charges-charge-code.png)
 
 Sjálfvirkt gjald er stofnað á línustiginu. Það hefur eftirfarandi stillingu:
 
@@ -112,13 +112,13 @@ Sjálfvirk gjaldalína er stofnuð. Það hefur eftirfarandi stillingu:
 - Reiturinn **Flokkur** er stilltur **Fast**.
 - Reiturinn **Gjöld** er stilltur á **$6,25**.
 
-![Stillingar sjálfvirku gjaldalínunnar og sjálfvirku gjaldalínunnar](media/Auto-charges-recyclingfee-line-fee.png)
+![Stillingar sjálfvirku gjaldalínunnar og sjálfvirku gjaldalínunnar.](media/Auto-charges-recyclingfee-line-fee.png)
 
 Í POS-forritinu er sölupöntun stofnuð í verslunarrásinni í **San Fransiskó**. Línan **Gjöld** sýnir endurvinnslugjald upp á **$6,25**.
 
 Með því að velja **Færslukosti \> Gjöld \> Stjórna gjöldum** í POS-forritinu geturðu skoðað gjaldakóðann og lýsingu fyrir endurvinnslugjaldið.
 
-![Endurvinnslugjald í POS-forritinu](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Endurvinnslugjald í POS-forritinu.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

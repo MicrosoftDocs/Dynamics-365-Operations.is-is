@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018979"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356800"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Safnvistun útprentaðra reikninga viðskiptavina með tætigildum
 
@@ -60,5 +60,5 @@ Hægt er að bóka og prenta út alla frjálsa texta, viðskiptavini og verkreik
 
 Opnið síðuna **Viðhengi** fyrir prentaðan reikning. Í flýtiflipanum **Viðhengi**, í reitahópnum **Frekari upplýsingar**, í reitnum **Tætinúmer skjals**, skal leita að geymdu tætigildi sem var reiknað út fyrir prentaðan reikning.
 
-![Tætinúmer viðhengis](media/attach-hash-num.jpg)
+![Tætinúmer viðhengis.](media/attach-hash-num.jpg)
 

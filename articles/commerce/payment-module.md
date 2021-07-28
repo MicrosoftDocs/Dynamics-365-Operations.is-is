@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804480"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352325"
 ---
 # <a name="payment-module"></a>Greiðslueining
 
@@ -46,9 +46,9 @@ Adyen-greiðslutengillinn styður einnig öfluga sannvottun viðskiptavinar (SCA
 
 Eftirfarandi skýringarmynd sýnir dæmi um einingar gjafakorts, vildarpunkta og Adyen greiðslueiningar á greiðsluferlissíðu.
 
-![Dæmi um gjafakort, vildarpunkta og Adyen greiðslueiningar á greiðsluferlissíðu](./media/ecommerce-payments.PNG)
+![Dæmi um gjafakort, vildarpunkta og Adyen-greiðslueiningar á greiðsluferlissíðu.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365-greiðslutengill fyrir PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector fyrir PayPal
 
 Frá og með Commerce Release 10.0.14 er greiðslueiningin einnig samþætt við Dynamics 365 greiðslutengil fyrir PayPal. Frekari upplýsingar um hvernig setja á upp og skilgreina greiðslutengil er að finna í [Greiðslutengill Dynamics 365 fyrir PayPal](paypal.md).
  
@@ -59,10 +59,10 @@ Frá og með Commerce Release 10.0.14 er greiðslueiningin einnig samþætt við
 PayPal-greiðslutengill þarf ekki reikningsaðseturseiningu vegna þess að allar upplýsingar varðandi reikninga eru afgreiddar af PayPal innan viðeigandi IFrame. Hins vegar eru einingar heimilisfangs viðtakanda og afhendingarvalkosta áskildar.
 
 Eftirfarandi skýringarmynd sýnir dæmi um tvær greiðslueiningar á síðu greiðsluferils, ein eining skilgreind með Adyen-greiðslutenglinum og önnur eining skilgreind með PayPal-greiðslutenglinum.
-![Dæmi um Adyen-greiðslu og PayPal-einingar á afgreiðslusíðu](./media/ecommerce-paypal.png)
+![Dæmi um Adyen-greiðslu og PayPal-einingar á afgreiðslusíðu.](./media/ecommerce-paypal.png)
 
 Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnum. 
-![Dæmi um Paypal iframe á afgreiðslusíðu](./media/ecommerce-paypal-iframe.png)
+![Dæmi um Paypal iframe á afgreiðslusíðu.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Eiginleikar greiðslueiningar
 
@@ -76,7 +76,7 @@ Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnu
 |Er aðalgreiðsla|  **Satt** eða **Ósatt** | Ef **Satt** verða öll villuboð mynduð úr aðalgreiðslutenglinum á síðu greiðsluferlisins. Þegar bæði Adyen- og PayPal-greiðslutenglarnir eru skilgreindir skal stilla Adyen á **Satt**, en slíkum eiginleika við Commerce útgáfu 10.0.14.|
 
 Skýringarmyndin hér á eftir sýnir dæmi um gildið **Studdir greiðslumátar** stillt á „PayPal“ í skilgreiningu greiðslutengilsins í Commerce Headquarters.
-![Dæmi um studda greiðslumáta í Commerce Headquarters](./media/ecommerce-paymenttendertypes.png)
+![Dæmi um studda greiðslumáta í Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Póstfang greiðanda
 

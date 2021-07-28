@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809735"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344545"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO (síðast inn - fyrst út) með efnislegu virði og marki
 
@@ -53,7 +53,7 @@ Eftirfarandi dæmi sýna áhrif þess að nota LIFO með þremur mismunandi skil
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega, 15,00 USD. Eftirfarandi sýnidæmi sýnir áhrif birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notaður. 
 
-![LIFO án Taka efnislegt virði með](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO án Taka efnislegt virði með.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -89,7 +89,7 @@ Færsla 6a verður leiðrétt að innhreyfingarfærslu 4b. Kerfið mun ekki jafn
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. 
 
-![LIFO með Taka efnislegt virði með](./media/lifowithincludephysicalvalue.gif) 
+![LIFO með Taka efnislegt virði með.](./media/lifowithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -133,7 +133,7 @@ Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagsl
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. 
 
-![LIFO með Merking](./media/lifowithmarking.gif) 
+![LIFO með merkingu.](./media/lifowithmarking.gif) 
 
 **Lykill að skýringarmynd**
 

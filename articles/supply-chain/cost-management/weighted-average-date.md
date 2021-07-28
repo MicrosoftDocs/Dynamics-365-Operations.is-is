@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821298"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343701"
 ---
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
@@ -39,7 +39,7 @@ Vegið meðaltal = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q
 
 Við birgðalokun er útreikningur framkvæmdur á hverjum degi í lokunartímabilinu, eins og sýnt er í eftirfarandi dæmi. 
 
-![Daglegt útreikningalíkan dagsetningar vegins meðaltals](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Daglegt útreikningalíkan dagsetningar vegins meðaltals.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Birgðafærslur sem fara úr birgðum, þar á meðal sölupantanir, birgðabækur og framleiðslupantanir, munu eiga sér stað á áætluðu kostnaðarverði á dagsetningu bókunarinnar. Þetta áætlaða kostnaðarverð kallast einnig meðalkostnaðarverð. Á degi birgðalokunar greinir kerfið birgðafærslur fyrir fyrri tímabil, fyrri daga og núverandi dag. Greiningin er notuð til að ákvarða hvaða eftirfarandi lokunaraðferð eigi að nota:
 
@@ -72,7 +72,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   2b. Fjárhagsleg úthreyfing birgða uppfærð fyrir magnið 2 með kostnaðinn USD 10,00 hver.
 -   3. Birgðalokun var framkvæmd með því að nota beina jöfnun til að jafna fjárhagslega innhreyfingu birgða í fjárhagslega úthreyfingu birgða.
 
-![Bein jöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Bein jöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd:**
 
@@ -126,7 +126,7 @@ Kerfið myndar og bókar samanteknu birgðaflutningafærsluna. Einnig jafnar ker
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins **Taka efnislegt virði með**. 
 
-![Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -175,7 +175,7 @@ Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er 
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega og efnislega á 27,50 USD. Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess að merkja við birgðalíkan vegins meðaltals.
 
-![Vegið meðaltal dagsetningar með merkingu](./media/weightedaveragedatewithmarking.gif) 
+![Vegið meðaltal dagsetningar með merkingu.](./media/weightedaveragedatewithmarking.gif) 
 
 **Lykill að skýringarmynd:**
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018734"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360207"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Hætta með skilgreiningar í altækri geymslu RCS
 
@@ -45,7 +45,7 @@ Til að hætta að nota skilgreininguna skal ljúka eftirfarandi skrefum.
 2. Stillið færibreytuna **Hætta að nota** á **Já**.
 3. Veljið **Í lagi** til að hætta að nota skilgreiningarnar. Fyllt verður í reitinn **Dagsetning niðurfellingar** þegar breytingarnar eru vistaðar.
 
-![Upplýsingar um niðurfellingu skilgreiningar](media/Discontinue-details-2.png)
+![Upplýsingar um niðurfellingu skilgreiningar.](media/Discontinue-details-2.png)
   
 Hægt er að snúa skilgreiningu aftur í **Samnýtt** eða breyta upplýsingum um niðurfellingu hvenær sem er. Ef skilgreining er samnýtt skal tilgreina dagsetningu fyrir **Stutt fram til** og allar aðrar upplýsingar sem tengjast niðufrfellingunni til að gefa til kynna áform um niðurfellingar í framtíðinni.
 

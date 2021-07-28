@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893957"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351723"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
 
@@ -41,11 +41,11 @@ ms.locfileid: "5893957"
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Flytja inn uppfærslur fyrir skilgreiningarútgáfur**.
 
-    ![Skilgreiningasíða staðfæringar](./media/er-download-updated-versions-global-repo1.png)
+    ![Skilgreiningasíða staðfæringar.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Í svarglugganum **Flytja inn uppfærslur fyrir skilgreiningarútgáfur rafrænnar skýrslugerðar**, í reitnum **Keyrsluháttur** skal velja **Sýna aðeins uppfærslur sem eru í boði**. Veljið síðan **Í lagi**. 
 
-    ![Reitur keyrsluháttar stilltur á Sýna aðeins uppfærslur sem eru í boði](./media/er-download-updated-versions-global-repo2.png)
+    ![Reitur keyrsluháttar stilltur á Sýna aðeins uppfærslur sem eru í boði.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Farið yfir skilaboðin sem berast. Þessi skilaboð veita eftirfarandi upplýsingar um skilgreiningar rafrænnar skýrslugerðar í núverandi Fjármálatilviki og hvernig það er í samanburði við efnið í altæku geymslunni:
 
@@ -72,14 +72,14 @@ ms.locfileid: "5893957"
 4. Í svarglugganum **Flytja inn uppfærslur fyrir skilgreiningarútgáfur rafrænnar skýrslugerðar**, í reitnum **Keyrsluháttur**, skal velja **Flytja inn nýjustu uppfærslurnar** til að flytja inn nýjustu útgáfur skilgreininga rafrænnar skýrslugerðar úr altæku geymslunni og yfir í núverandi Fjármálatilvik.
 5. Til að áætla runuvinnslu fyrir innflutninginn, í flýtiflipanum **Keyra í bakgrunni**, skal stilla valkostinn **Runuvinnsla** á **Já**. Ef ætlunin er að endurtaka innflutninginn reglulega skal skilgreina nauðsynlega endurtekningu.
 
-    ![Reitur keyrsluháttar stilltur á Flytja inn nýjustu uppfærslur](./media/er-download-updated-versions-global-repo5.png)
+    ![Reitur keyrsluháttar stilltur á Flytja inn nýjustu uppfærslur.](./media/er-download-updated-versions-global-repo5.png)
 
-6. Veljið **Í lagi**.
+6. Veldu **Í lagi**.
 7. Til að fá upplýsingar um það hvaða skilgreiningarútgáfur hafa verið fluttar inn skal fylgja einu af þessum skrefum:
 
     - Ef verið er að keyra innflutninginn gagnvirkt í stað þess að nota runuvinnslu, skal yfirfara skilaboðin sem eru móttekin.
 
-        ![Skilaboð sem berast við gagnvirka innflutningskeyrslu](./media/er-download-updated-versions-global-repo6.png)
+        ![Skilaboð sem berast við gagnvirka innflutningskeyrslu.](./media/er-download-updated-versions-global-repo6.png)
 
     - Fylgdu þessum skrefum ef þú keyrir innflutninginn í runustillingu:
 
@@ -87,7 +87,7 @@ ms.locfileid: "5893957"
         2. Finnið og veljið verkið **Flytja inn uppfærslur fyrir skilgreiningarútgáfur rafrænnar skýrslugerðar** og síðan, á aðgerðasvæðinu, í flipanum **Runuvinnsla**, skal velja **Runuvinnsluferill** til að skoða verkferilinn.
         3. Á síðunni **Runuvinnsluferill** skal velja **Kladdi**. Því næst, í skilaboðunum sem birtast, skal velja tengilinn **Upplýsingar um skilaboð** til að skoða verkkladdann.
 
-        ![Verkkladdi](./media/er-download-updated-versions-global-repo7.png)
+        ![Verkkladdi.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Ekki er mælt með því að áætla endurtekna runuvinnsla til að flytja inn uppfærðar útgáfur af skilgreiningum rafrænnar skýrslugerðar beint úr altæku geymslunni og yfir í vinnsluumhverfi, því að innfluttar útgáfur verður hægt að nota um leið. Þess í stað skal nota þessa nálgun til að setja upp útgáfur af skilgreiningum rafrænnar skýrslugerðar í sandkassaumhverfi. Hægt er að meta þær í sandkassaumhverfinu áður en þær eru virkjaðar í vinnsluumhverfi.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753602"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348045"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Fela Word-efnisstýringar í mynduðum skýrslum
 
@@ -63,7 +63,7 @@ Einnig þarf að hlaða niður og vista eftirfarandi sniðmát fyrir sýnishorn 
     > [!NOTE]
     > Endurtekna efnisstýringin er merkt af lyklinum **SummaryLines** sem passar við reit sérsniðna XML-hlutans sem hefur verið varpað í.
 
-    ![Útlit Word-sniðmáts](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Útlit Word-sniðmáts.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Velja fyrirliggjandi grunnstilling skýrsla í Rafræn skýrslugerð
 
@@ -98,7 +98,7 @@ Núna er skráin SampleVendPaymDocReportBounded.docx notuð sem sniðmát til a�
 7. Veljið **Í lagi**.
 8. Í svargluggann **Rafrænar skýrslufæribreytur** skal velja **Í lagi** og greina myndað úttak.
 
-    ![Greiðslur til úrvinnslu á greiðslusíðu lánardrottins](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Greiðslur til úrvinnslu á greiðslusíðu lánardrottins.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Úttakið er sýnt á Word-sniði og inniheldur samantektarhlutann.
 
@@ -149,7 +149,7 @@ Ef ætlunin er að fela samantektarhlutann í mynduðu skjali, samkvæmt beiðni
 
 9. Smellið á **Vista** til að vista breytingarnar á breytanlega sniðinu.
 
-    ![Myndað úttak á Word-sniði](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Myndað úttak á Word-sniði.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Keyra breytta sniðið til að búa til Word-úttak
 
@@ -163,7 +163,7 @@ Ef ætlunin er að fela samantektarhlutann í mynduðu skjali, samkvæmt beiðni
 8. Í svarglugganum **Rafrænar skýrslufæribreytur**, í reitnum **Fela samantektarhluta**, skal velja **Já**.
 9. Veljið **Í lagi** og skoðið myndað úttak.
 
-    ![Myndað úttak á Word-sniði](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Myndað úttak á Word-sniði.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Takið eftir að úttakið inniheldur ekki samantektarhlutann vegna þess að hann hefur verið falinn.
 

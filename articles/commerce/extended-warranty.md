@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792464"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353829"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Búa til og skilgreina framlengdar ábyrgðir
 
@@ -81,7 +81,7 @@ Til að búa til vöruábyrgð í Commerce skal fylgja þessum skrefum.
 
     Fyrir tveggja ára ábyrgð skal til dæmis stilla reitinn **Tímaeining** á **Ár** og reitinn **Tímalengd** á **2**. Einnig er hægt að stilla reitinn **Tímaeining** á **Mánuður/mánuðir** og reitinn **Tímalengd** á **24** eins og sýnt er á eftirfarandi skýringarmynd.
 
-    ![Upplýsingasíða afurðar fyrir vöruábyrgð](./media/ew-time-properties.png)
+    ![Upplýsingasíða afurðar fyrir vöruábyrgð.](./media/ew-time-properties.png)
 
 1. Veljið **Vista** til að vista vöruábyrgðina.
 1. Losa afurð með ábyrgð til fyrirtækisins svo að hægt sé að selja hana. Frekari upplýsingar er að finna í [Setja upp smásöluafurðir](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Til að búa til vöruábyrgð í Commerce skal fylgja þessum skrefum.
 
     Eftirfarandi skýringarmynd sýnir til dæmis að reiturinn **Grunnur verðbils** er stilltur á **Grunnverð**, reiturinn **Lægri mörk** er stilltur á $500 og reiturinn **Efri mörk** er stilltur á $1000.
     
-    ![Upplýsingasíða um losaðar afurðir fyrir vöruábyrgð](./media/ew-release-product-details.png)
+    ![Upplýsingasíða um losaðar afurðir fyrir vöruábyrgð.](./media/ew-release-product-details.png)
 
 1. Komið vöruábyrgðinni fyrir í rásinni þar sem hún verður seld. Frekari upplýsingar er að finna í [Setja upp vöruúrval](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Tvær aðgerðir sölustaðar gera sölufulltrúum kleift að selja ábyrgðarv�
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðu afgreiðslukassa þar sem beðið er um að bæta við vöruábyrgð fyrir núverandi kaup á ábyrgðarhæfri vöru.
 
-![Dæmi um kvaðningu um að bæta við vöruábyrgð fyrir núverandi kaup](./media/ew-sell-warranty.png)
+![Dæmi um kvaðningu um að bæta við vöruábyrgð fyrir núverandi kaup.](./media/ew-sell-warranty.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um eiginleikann að bæta við vöruábyrgð fyrir ábyrgðarhæfa vöru sem var áður seld.
 
-![Dæmi um eiginleikann að bæta við vöruábyrgð fyrir áður selda ábyrgðarhæfa vöru](./media/ew-add-warranty-existing.png)
+![Dæmi um eiginleikann að bæta við vöruábyrgð fyrir áður selda ábyrgðarhæfa vöru.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Vinna úr ábyrgðarfærslum
 

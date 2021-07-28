@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745690"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343935"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
 
@@ -32,7 +32,7 @@ ms.locfileid: "5745690"
 
 Finance and Operations-forrit innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [https://docs.microsoft.com/dynamics365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
 
-[![Högun Hjálpar](./media/help-architecture.png)](./media/help-architecture.png)
+[![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Hjálparkerfi vörunnar sækir greinar á docs.microsoft.com og önnur tengd vefsvæði. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ Hjálparkerfi vörunnar sækir greinar á docs.microsoft.com og önnur tengd vef
 > - Til að grunnstilla hjálpina þarf notandi að skrá sig inn með því að nota lykil hjá sama leigjanda og leigjandanum þar sem forritið er virkjað.
 > - Ekki er hægt að tengja LCS-safn úr tilviki forritsins sem er keyrt á staðbundnu sýndardrifi (VHD).
 
-[![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Til að skilgreina verkefnaleiðbeiningar fyrir lausn skal fylgja þessum skrefum á síðunni **Kerfisfæribreytur**.
 
 > [!IMPORTANT]
 > Í fyrsta skipti er sem þú opnar flipann **Hjálp** verður þú að tengjast Lifecycle Services. Gætið þess að velja tengil í miðri skjámyndinni, bíða eftir tengingu, loka svarglugga og velja **Í lagi** til að komast á síðuna **Kerfisfæribreytur**.
 >
-> [![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png "Tengjast við LCS")](./media/connect-to-lcs-crop.png)
+> [![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png „Tengjast við LCS.“](./media/connect-to-lcs-crop.png)
 
 1. Veljið Lifecycle Services verk til að tengjast.
 2. Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
