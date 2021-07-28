@@ -932,6 +932,8 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Nota birgðastillingar
                   href: inventory-settings.md
+                - name: Nota stillingar fyrir Bæta afurð við körfu
+                  href: add-cart-settings.md
                 - name: Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
                   href: search-engine-optimization-considerations.md
                 - name: Stjórna öryggisreglu fyrir efni (CSP)
@@ -1016,6 +1018,10 @@
                       href: customize-site-navigation.md
                     - name: Búa til síðuvefslóð
                       href: create-page-URL.md
+                - name: Adventure Works-þema
+                  items:
+                    - name: Yfirlit Adventure Works-þema
+                      href: adventure-works-theme.md
             - name: Stjórna stafrænum eignum
               items:
                 - name: Yfirlit stjórnunar stafrænna eigna
@@ -1070,6 +1076,16 @@
                       href: add-hero-module.md
                     - name: Myndspilaraeining
                       href: add-video-player.md
+                    - name: Eining fyrir virka mynd
+                      href: active-image-module.md
+                    - name: Eining myndalista
+                      href: image-list-module.md
+                    - name: Eining gagnvirks eiginleika
+                      href: interactive-feature-module.md
+                    - name: Áskriftareining
+                      href: subscribe-module.md
+                    - name: Eining bútalista
+                      href: tile-list-module.md
                 - name: Einingar síðuhauss og síðufótar
                   items:
                     - name: Eining síðuhauss
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Rússland
+              items:
+                - name: Staðfæring Commerce fyrir Rússland
+                  href: localizations/rus-commerce-localization.md
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
@@ -1356,7 +1376,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Skjalaskýrslugerð og prentun
               items:
-                - name: Yfirlit Document Reporting Services
+                - name: Yfirlit greiningarþjónustu skjala
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
                 - name: Studdar leturgerðir
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina samþykktarskref
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skilgreina skoðunarmenn útgjalda
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina handvirkar ákvarðanir
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina skilyrtar ákvarðanir
@@ -2558,6 +2580,8 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Viðbætur fyrir gagnagrunna rása
                   href: dev-itpro/channel-db-extensions.md
+                - name: Fjarlægja viðbætur Cloud Scale Unit
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: Virkja sérstillta CDX-samstillingu gegnum viðbót
                   href: dev-itpro/cdx-extensibility.md
                 - name: Skilgreina og stilla pöntunareigindir

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: fd33b1775afefed798f1e9bb7601f4112222c430
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023329"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358267"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Uppsetning á TDS-flokki, PAN- og TAN-upplýsingum fyrir lánardrottna og viðskiptavini
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023329"
 
 1. Farið í **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar** eða **Viðskiptakröfur \> Viðskiptavinir \> Allir viðskiptavinir**.
 
-    [![Síða allra lánardrottna](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
+    [![Síða allra lánardrottna.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 
 2. Á aðgerðasvæðinu skal velja **Nýr** til að búa til lánardrottin eða viðskiptavin og færa inn nauðsynlegar upplýsingar. Einnig er hægt að velja núverandi lánardrottin eða viðskiptavin.
 3. Í flýtiflipanum **Reikningur og afhending**, í hlutanum **Staðgreiðsluskattur**, skal stilla valkostinn **Reikna staðgreiðsluskatt** á **Já** til að reikna staðgreiðsluskatt, TDS eða skatt dreginn frá upprunalegri færslu (TCS) fyrir lánardrottin eða viðskiptavin.
@@ -60,7 +60,7 @@ ms.locfileid: "6023329"
     - Staðaryfirvald
     - Aðrir
 
-    [![Flýtiflipi skattaupplýsinga](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
+    [![Flýtiflipi skattaupplýsinga.](./media/apac-ind-TDS-56.png)](./media/apac-ind-TDS-56.png)
 
 9. Á aðgerðasvæðinu, í flipanum **Lánardrottinn**, í flokknum **Skráning**, skal velja **Skráningarkenni** til að opna síðuna **Stjórna aðsetrum**.
 10. Á síðunni **Stjórna aðsetrum**, í flýtiflipanum **Skattaupplýsingar**, skal velja **Bæta við** eða **Breyta** til að opna síðuna **Stjórna skattaupplýsingum** þar sem hægt er að vinna með færslu skattskráningar.

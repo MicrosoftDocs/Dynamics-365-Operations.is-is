@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351514"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Nota fartækjavinnusvæði eignastýringar
 
@@ -47,7 +47,7 @@ Til að gera eiginleika eignastýringar tiltæka í Finance and Operations (Dyna
 1. Í Supply Chain Management skal velja hnappinn **Stillingar** (tannhjólið efst í hægra horninu) og síðan velja **Fartækjaforrit** í valmyndinni.
 1. Í svarglugganum **Stjórna fartækjaforriti** skal finna reitinn **Eignastýring**. Ef hann inniheldur textann „Í lýsigögnum - ekki birt“ hefur vinnusvæðið ekki enn verið birt. Ef hann inniheldur textann „Í lýsigögnum - birt“ hefur vinnusvæðið þegar verið birt og hægt er að sleppa því sem eftir er af þessu ferli.
 
-    ![Stjórna svarglugga fyrir farsímaforrit](media/mobile-workspaces.png "Stjórna svarglugga fyrir farsímaforrit")
+    ![Svarglugginn Stjórna fartækjaforriti.](media/mobile-workspaces.png "Stjórna svarglugga fyrir farsímaforrit")
 
 1. Velja skal reitinn **Eignastýring** og síðan velja **Birta** í tækjastikunni. Eftir nokkrar sekúndur ætti að berast tilkynning sem segir til um að vinnusvæði hafi verið birt. Þar að auki ætti textinn í reitnum að breytast í „Í lýsigögnum - birt.“
 
@@ -60,22 +60,22 @@ Til að gera eiginleika eignastýringar tiltæka í Finance and Operations (Dyna
 
 1. Opnið forritið Finance and Operations (Dynamics 365). Innskráningarsíðan ætti að birtast. Í reitinn **Innskráning** skal færa inn vefslóð Supply Chain Management eða velja nýlega vefslóð úr listanum **Nýleg umhverfi** og síðan pikka á **Tengja**.
 
-    ![Innskráningarsíða](media/mobile-app-sign-in.png "Innskráningarsíða")
+    ![Innskráningarsíða.](media/mobile-app-sign-in.png "Innskráningarsíða")
 
 1. Ef notandi er beðinn um að staðfesta tenginguna skal velja gátreitinn **Ég skil** og síðan flipann **Tengja**.
 1. Á síðunni **Velja reikning** skal nota Microsoft-reikninginn til að skrá sig inn í farsímaforritið.
 
     Síðan **Vinnusvæði** birtist. Hún sýnir öll fartækjavinnusvæði sem hafa verið gefin út af tilviki Supply Chain Management.
 
-    ![Listi vinnusvæða](media/mobile-app-workspaces.png "Listi vinnusvæða")
+    ![Listi vinnusvæða.](media/mobile-app-workspaces.png "Listi vinnusvæða")
 
 1. Ef breyta þarf lögaðilanum (fyrirtækinu) skal pikka á valmyndarhnappinn (stundum kallaður hamborgarinn eða hamborgarahnappurinn) efst í vinstra horninu og síðan pikka á **Breyta fyrirtæki**.
 
-    ![Lögaðila breytt](media/mobile-app-change-comp.png "Breying lögaðila")
+    ![Breyting lögaðila.](media/mobile-app-change-comp.png "Breying lögaðila")
 
 1. Á síðunni **Vinnusvæði** skal velja vinnusvæðið sem ætlunin er að vinna með til að opna það.
 
-    ![Fartækjavinnusvæði eignastýringar](media/mobile-app-asset-workspace.png "Fartækjavinnusvæði eignastýringar")
+    ![Fartækjavinnusvæði eignastýringar.](media/mobile-app-asset-workspace.png "Fartækjavinnusvæði eignastýringar")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Vinna með fartækjavinnusvæði eignastýringar
 

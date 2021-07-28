@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941030"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350960"
 ---
 # <a name="company-concept-in-dataverse"></a>Fyrirtækishugtak í Dataverse
 
@@ -43,7 +43,7 @@ Vegna þess að rekstrareining og fyrirtæki eru ekki sambærileg hugtök er ekk
 
 Eftirfarandi skýringarmynd sýnir dæmi um þessa gagnauppsetningu í Dataverse.
 
-![Uppsetning gagna í Dataverse](media/dual-write-company-1.png)
+![Uppsetning gagna í Dataverse.](media/dual-write-company-1.png)
 
 Í þessari grunnstillingu eru færslur sem tengjast USMF fyrirtækinu í eigu teymis sem tengist USMF rekstrareiningunni í Dataverse. Því geta notendur sem hafa aðgang að viðskiptaeiningunni í gegnum öryggishlutverk sem er stillt á sýnileika viðskiptaeiningarstigs nú séð línurnar. Eftirfarandi dæmi sýnir hvernig hægt er að nota teymi til að veita réttan aðgang að þessum línum.
 
@@ -52,21 +52,21 @@ Eftirfarandi skýringarmynd sýnir dæmi um þessa gagnauppsetningu í Dataverse
 + "USMF Sales" teymið er tengt við USMF viðskiptadeildina sem áður var nefnd.
 + Þess vegna geta meðlimir í "USMF sölu" teyminu séð hvaða reikning sem er í eigu "USMF DW" notandans, sem hefði komið frá USMF fyrirtækjatöflunni í Finance and Operations.
 
-![Hvernig hægt er að nota teymi](media/dual-write-company-2.png)
+![Hvernig hægt er að nota teymi.](media/dual-write-company-2.png)
 
 Eins og myndin hér að ofan sýnir er þessi 1:1 kortlagning milli rekstrareiningar, fyrirtækis og teymis aðeins upphafspunktur. Í þessu dæmi er ný „eining“ í Evrópu búin til handvirkt í Dataverse sem yfireining bæði fyrir DEMF og ESMF. Þessi nýja rótarviðskiptaeining er ekki skyld tvöföldum skrifum. Hins vegar er hægt að nota hana til að veita meðlimum „EUR Sales“ teymisins aðgang að reikningsgögnum bæði í DEMF og ESMF með því að stilla sýnileika gagna á **Yfir-/undir-BU** í tilheyrandi öryggishlutverki.
 
 Lokaumfjöllunarefnið er hvernig tvöföld skráning ákvarðar hvaða eigendahóp hún á að úthluta línum á. Hegðuninni er stjórnað af töflunni **Sjálfgefið eigendateymi** í cdm\_Fyrirtæki línunni. Þegar cdm\_fyrirtækjalína er virkjuð fyrir tvískrif býr viðbót sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum dálkinn **Sjálfgefið eigendateymi**. Stjórnandi getur breytt þessum dálki í annað gildi. Stjórnandi getur þó ekki hreinsað dálkinn svo framarlega sem taflan er virk fyrir tvöfalda skráningu.
 
 > [!div class="mx-imgBorder"]
-![Sjálfgefinn dálkur eigendahóps](media/dual-write-default-owning-team.jpg)
+![Sjálfgefinn dálkur eigendahóps.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fyrirtækjaskrár og ræsibönd
 
 Dataverse-samþætting færir fyrirtækjajöfnun með því að nota auðkenni fyrirtækisins til að randa gögn. Eins og eftirfarandi mynd sýnir eru allar fyrirtækistöflur útvíkkaðar þannig til að þær séu með margt-í-eitt (N:1) vensl við töfluna cdm\_Fyrirtæki.
 
 > [!div class="mx-imgBorder"]
-![N:1 vensl milli fyrirtækjasértakrar töflunnar og töflunnar cdm_Company](media/dual-write-bootstrapping.png)
+![N:1 vensl milli fyrirtækjasértakrar töflunnar og töflunnar cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Gildi lína verður skrifvarið eftir að fyrirtæki hefur verið bætt við og það vistað. Þess vegna ættu notendur að gæta þess að þeir velja rétt fyrirtæki.
 + Aðeins línur sem eru með fyrirtækisgögn eru hæfar fyrir tvöfalda skráningu milli forrits og Dataverse.
@@ -98,7 +98,7 @@ Dataverse-samþætting færir fyrirtækjajöfnun með því að nota auðkenni f
 
 Til að nota síun sem byggir á samhengi fyrirtækisins í sérsniðnum skjámyndum eða í sérsniðnum uppflettidálkum sem bætt hefur verið við staðlaðar skjámyndir, skal opna skjámyndina og nota hlutann **Síun á tengdum færslum** til að nota fyrirtækissíuna. Þetta verður að stilla fyrir hvern uppflettidálk sem krefst síunar sem byggir á undirliggjandi fyrirtæki fyrir uppgefna röð. Stillingin er sýnd fyrir **Lykil** á eftirfarandi mynd.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Nota samhengi fyrirtækis":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Nota samhengi fyrirtækis.":::
 
 
 

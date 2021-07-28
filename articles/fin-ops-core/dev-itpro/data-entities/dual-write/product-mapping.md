@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358594"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -33,15 +33,15 @@ ms.locfileid: "6306390"
 
 Hérna er vöruupplýsingamódelið úr Sales.
 
-![Gagnamódel fyrir vörur í CE](media/dual-write-product-4.jpg)
+![Gagnamódel fyrir vörur í CE.](media/dual-write-product-4.jpg)
 
 Hérna er vöruupplýsingamódelið úr forritum Finance and Operations.
 
-![Gagnamódel fyrir vörur í Finance and Operations](media/dual-write-products-5.jpg)
+![Gagnamódel fyrir vörur í Finance and Operations.](media/dual-write-products-5.jpg)
 
 Þessi tvö afurðalíkön hafa verið samþætt í Dataverse eins og sýnt er hér að neðan.
 
-![Gagnamódel fyrir vörur í forritum Dynamics 365](media/dual-write-products-6.jpg)
+![Gagnamódel fyrir vörur í forritum Dynamics 365.](media/dual-write-products-6.jpg)
 
 Töflukort með tvöfaldri skráningu fyrir afurðir eru hönnuð fyrir gagnaflæði í eina átt, nærri í rauntíma frá Finance and Operations -forritum til Dataverse. Samt sem áður hafa vöruinnviðir verið opnaðir svo að hún verði tvíátta ef þess er krafist. Þó að hægt sé að sérsníða það er það á þína ábyrgð, þar sem Microsoft mælir ekki með þessari aðferð.
 
@@ -86,7 +86,7 @@ Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt e
 - **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein lína á hvert afbrigði búin til í afurðatöflunni. Þessi lína inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í töflunni **msdyn\_sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Dataverse um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
 - **Einkvæmar afurðir** vísa til allra undirgerðaafurða afurðanna og allra afurðaafbrigðanna. 
 
-![Gagnamódel fyrir afurðir](media/dual-write-product.png)
+![Gagnamódel fyrir afurðir.](media/dual-write-product.png)
 
 Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrsta verðlistann með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögatöflunnar þinnar þar sem varan er gefin út í forriti Finance and Operations. Ef engin verðlisti er til staðar fyrir tiltekinn gjaldmiðil verður verðlisti sjálfkrafa búinn til og afurðinni verður úthlutað á hann. 
 
@@ -112,7 +112,7 @@ Samstilling afurða gerist frá Finance and Operations-forritinu til Dataverse. 
 
 Afurðavíddir eru einkenni sem auðkenna afurðarafbrigði. Fjórar vöruvíddir (Litur, Stærð, Stíll og Stilling) er einnig varpað á Dataverse til að skilgreina afbrigði afurða. Eftirfarandi mynd sýnir gagnalíkanið fyrir afurðavíddina Litur. Sama líkani er beitt á stærðir, stíl og stillingar. 
 
-![Gangalíkan fyrir afurðavíddir](media/dual-write-product-two.png)
+![Gangalíkan fyrir afurðavíddir.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurð
 
 Mælieiningarnar og umreikningur á þeim eru aðgengilegar í Dataverse eftir gagnalíkaninu sem sýnt er á myndinni.
 
-![Gagnalíkan fyrir mælieiningu](media/dual-write-product-three.png)
+![Gagnalíkan fyrir mælieiningu.](media/dual-write-product-three.png)
 
 Mælieiningin er samþætt á milli forrita Finance and Operations og annarra forrita Dynamics 365. Fyrir hvern einingaflokk í forriti Finance and Operations er einingahópur búinn til í forriti Dynamics 365, sem hefur að geyma einingar sem tilheyra einingaflokknum. Sjálfgefin grunneining er einnig búin til fyrir hvern einingahóp. 
 

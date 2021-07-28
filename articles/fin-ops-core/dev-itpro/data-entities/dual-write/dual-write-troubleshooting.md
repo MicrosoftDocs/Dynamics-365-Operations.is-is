@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350741"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -44,16 +44,16 @@ Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp laus
 
 1. Sæktu nýjustu pakkaskrá lausnarinnar af Yammer.com. Eftir að zip-skráin hefur verið sótt skaltu hægrismella á hana og velja **Eiginleikar**. Veldu gátreitinn **Opna fyrir** og veldu síðan **Beita**. Ef þú sérð ekki gátreitinn **Opna fyrir** er zip-skráin þegar aflæst og þú getur sleppt þessu skrefi.
 
-    ![Svargluggi eiginleika](media/unblock_option.png)
+    ![Svargluggi eiginleika.](media/unblock_option.png)
 
 2. Opnaðu zip-skrána með pakkanum og afritaðu allar skrárnar í möppuna **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Límdu allar afritaðar skrár í möppuna **Verkfæri** í verkfærinu Package Deployer. 
 4. Keyrðu **PackageDeployer.exe** til að velja Dataverse umhverfið og setja upp lausnirnar.
 
-    ![Innihald möppunnar Verkfæri](media/paste_copied_files.png)
+    ![Innihald verkfæramöppunnar.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 

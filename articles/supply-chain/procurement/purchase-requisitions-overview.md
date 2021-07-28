@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188198"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349795"
 ---
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
@@ -47,7 +49,7 @@ Hægt er að skilgreina verkflæðisferli innkaupabeiðni til að beina innkaupa
 
 Eftirfarandi skýringarmynd sýnir stöðurnar sem eru úthlutaðar á innkaupabeiðni og innkaupabeiðnilínu þar sem þau fara gegnum ferlið verkflæði.  
 
-[![Haus og línustöður innkaupabeiðni](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Haus og línustöður innkaupabeiðni.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Vensl hauss og línustöðu innkaupabeiðni
 
@@ -179,7 +181,7 @@ Til að stofna innkaupabeiðnilínur sem eru ekki hæfar fyrir sameiningu eftirs
 
 Ferlið við sameiningu eftirspurnar hefst á tímapunkti þegar innkaupabeiðni hefur verið samþykkt í verkflæði og frátektir fjárhagsáætlunar og verið er að skrá áætlaðar fjárúthlutanir ef fjárhagsáætlunarstýring er skilgreint fyrir þitt fyrirtæki. Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir sameiningu eftirspurnar.  
 
-[![Flæði ferla fyrir sameining eftirspurnar](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Flæði ferla fyrir sameiningu eftirspurnar.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 

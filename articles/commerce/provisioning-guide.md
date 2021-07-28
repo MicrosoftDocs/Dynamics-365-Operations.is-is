@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022423"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352085"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Úthluta Dynamics 365 Commerce matsumhverfi
 
@@ -90,16 +90,16 @@ Til að virkja umhverfið skaltu fylgja þessum skrefum.
 1. Í reitnum **Útgáfa forrits**, veldu nýjustu útgáfuna. Ef þú hefur sérstaka þörf fyrir að velja aðra forritsútgáfu en nýjustu útgáfuna skaltu ekki velja útgáfu áður **10.0.14**.
 1. Í reitnum **Útgáfa verkvangs**, notarðu verkvangsútgáfuna sem er sjálfkrafa valin fyrir forritsútgáfuna sem þú valdir. 
 
-    ![Val á forrita- og verkvangsútgáfum](./media/project1.png)
+    ![Val á forrita- og verkvangsútgáfum.](./media/project1.png)
 
 1. Veljið **Næst**.
 1. Veldu **Kynning** grannfræði umhverfis.
 
-    ![Val á grannfræði umhverfis 1](./media/project2.png)
+    ![Val á grannfræði umhverfis 1.](./media/project2.png)
 
 1. Á síðunni **Setja upp umhverfi** slærðu inn umhverfisheiti. Hafðu ítarlegar stillingar óbreyttar.
 
-    ![Setja upp umhverfissíðu](./media/project4.png)
+    ![Setja upp umhverfissíðu.](./media/project4.png)
 
 1. Stilltu VM stærð eftir þörfum. (Við mælum með VM birgðaeiningunni \[SKU\] **D13 v2**.)
 1. Skoðaðu verðlagningu og leyfisskilmála og veldu síðan gátreitinn til að gefa til kynna að þú samþykki þá.

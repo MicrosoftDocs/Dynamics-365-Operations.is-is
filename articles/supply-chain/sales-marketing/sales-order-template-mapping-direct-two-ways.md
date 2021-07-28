@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f0e26c63635179dc4c145f8d08e85fd110d9caac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 63363678cb34af97781830d36d94fac1a7415394
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360875"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Samstilling sölupantana beint á milli Sales og Supply Chain Management
 
@@ -35,7 +35,7 @@ ms.locfileid: "5817774"
 
 Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik Supply Chain Management og Sales. Prospect to cash sniðmát sem eru í boði með gagnasamþættingu leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantana og sölureikningagagna milli Supply Chain Management og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Supply Chain Management og Sales.
 
-[![Gagnaflæði í Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gagnaflæði í Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
@@ -189,23 +189,23 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderLine
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
-[Prospect to cash](prospect-to-cash.md)
+[Viðfang til sjóðstreymis](prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

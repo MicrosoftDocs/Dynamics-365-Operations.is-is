@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356831"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæð
 
 Eftirfarandi mynd sýnir úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan. 
 
-![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi ef úthlutun hefur þegar átt sér stað. Til að stofna þjónustubeiðni í LCS skaltu í umhverfinu þínu fara í **Stuðningur \> Vandamál varðandi stuðning** og velja **Senda inn tilvik**.
 
@@ -56,7 +56,7 @@ Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhve
 
 Eftirfarandi mynd sýnir svargluggann **Setja upp svæðið þitt** fyrir svæði sem heitir „sjálfgefið“ þegar þú ferð inn á svæðið í fyrsta skipti í vefsmiðnum.
 
-![**Setja upp svæðið þitt** svargluggi](./media/Domains_SetupyoursiteScreen.png)
+![**Setja upp svæðið þitt** svargluggi.](./media/Domains_SetupyoursiteScreen.png)
 
 Glugginn **Velja lén** gerir þér kleift að tengja eitt af studdu hýsilheitunum, sem gefin er upp fyrir svæðið þitt í LCS, við svæðið þitt í vefsmiðnum.
 
@@ -79,11 +79,11 @@ Að öðrum kosti, ef þú bættir við slóðinni „fabrikam“ við sömu upp
 
 Eftirfarandi mynd sýnir svargluggann **Ný vefslóð** í vefsmiðnum með auðkennt dæmi um vefslóð. 
 
-![**Ný vefslóð** svargluggi í vefsmið](./media/Domains_PageSetup2a.png)
+![**Ný vefslóð** svargluggi í vefsmið.](./media/Domains_PageSetup2a.png)
 
 Eftirfarandi mynd sýnir síðuna **Vefslóðir** í vefsmiðnum með auðkenndu dæmi um vefslóð í listanum.
 
-![Keyra valkost notendaflæðis í stefnuflæði](./media/Domains_URLsInSiteBuilder2a.png)
+![Keyra valkost notendaflæðis í stefnuflæði.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Lén í vefsmiðnum
 

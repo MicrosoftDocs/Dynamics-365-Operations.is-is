@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792340"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352133"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Bæta afurðaráðleggingum við sölustað
 
@@ -39,7 +39,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
 
     - Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
 
-    [![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)
+    [![Meðmæli á upplýsingasíðu afurðar.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Á síðunni **Færsla**:
 
@@ -48,7 +48,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
     > [!NOTE]
     > Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 Commerce. Sleppa verður stýringunni **Ráðleggingar** á síðuna **Færsla**.
 
-    [![Meðmæli á færslusíðunni](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Meðmæli á færslusíðunni.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Skilgreina Commerce til að virkja ráðleggingar sölustaðar
 

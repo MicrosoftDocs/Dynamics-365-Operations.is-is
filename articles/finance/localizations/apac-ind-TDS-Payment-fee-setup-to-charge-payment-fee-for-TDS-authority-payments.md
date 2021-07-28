@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023343"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358435"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Setja upp greiðsluþóknanir fyrir TDS-greiðslur til yfirvalda
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023343"
 
 1. Farið í **Viðskiptaskuldir \> Greiðsluuppsetning \> Greiðsluþóknun**.
 
-    [![Síða greiðsluþóknunar](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Síða greiðsluþóknunar.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Veljið **Ný** til að stofna nýja greiðsluþóknun og færið inn nauðsynlegar upplýsingar.
 3. Í reitnum **Gerð þóknunar** skal velja gerð greiðsluþóknunar:
@@ -46,7 +46,7 @@ ms.locfileid: "6023343"
 5. Færið inn aðrar áskildar upplýsingar.
 6. Á aðgerðasvæðinu skal velja **Uppsetning greiðsluþóknunar** til að opna síðuna **Uppsetning greiðsluþóknunar** þar sem hægt er að setja upp greiðsluþóknanir fyrir ýmsar samsetningar banka, greiðslumáta, greiðsluupplýsinga, gjaldmiðla og dagsetningarbila.
 
-    [![Uppsetningarsíða greiðsluþóknunar](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Uppsetningarsíða greiðsluþóknunar.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Í flipanum **Yfirlit**, í reitnum **Flokkanir**, skal tilgreina hvaða banka er verið að setja upp greiðsluþóknun fyrir:
 
@@ -64,7 +64,7 @@ ms.locfileid: "6023343"
 15. Í reitnum **Gjaldmiðill þóknunar** skal tilgreina gjaldmiðilskóðann fyrir þóknunina.
 16. Veljið flipann **Almennt** til að skoða eða breyta upplýsingunum fyrir valinn bankareikning.
 
-    [![Almennt](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Almennt flipi.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Í reitnum **Lágmark** skal færa inn lágmarksupphæð færslu sem virkjar þóknunina.
 17. Í reitnum **Hámark** skal færa inn hámarksupphæð færslu sem virkjar þóknunina.
@@ -74,7 +74,7 @@ ms.locfileid: "6023343"
 21. Í reitnum **VSK-flokkur vöru** skal velja VSK-flokk vöru sem nota á við útreikning á virðisaukaskatti vöru fyrir upphæð þóknunar.
 22. Veljið flipann **Tímabil**. 
 
-    [![Tímabilsflipi](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Tímabilsflipi.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Í reitnum **Dagar** skal færa inn fjölda daga á milli bókunardagsetningu (afsláttardagsetningu) greiðslunnar og gjalddaga eigin víxla.
 24. Í reitnum **Prósenta/upphæð** skal velja hvort hafi verið tilgreint prósenta eða ákveðin upphæð.

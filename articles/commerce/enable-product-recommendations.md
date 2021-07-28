@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019860"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349473"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
@@ -68,7 +68,7 @@ Til að kveikja á afurðatillögum skal fylgja þessum skrefum.
 1. Veljið eiginleikann **Afurðaráðleggingar**.
 1. Á eiginleikasvæðinu **Afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á tillögum](./media/FeatureManagement_Recommendations.PNG)
+![Kveikt á tillögum.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Þetta ferli hefur ferlið við að mynda afurðatillögulista. Það getur tekið nokkrar klukkustundir áður en listarnir verða tiltækir og sjást á sölustað (POS) eða í Dynamics 365 Commerce.

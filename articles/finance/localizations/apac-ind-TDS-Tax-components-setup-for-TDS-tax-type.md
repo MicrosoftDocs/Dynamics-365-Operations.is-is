@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023323"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358171"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Setja upp skatthluta fyrir TDS-skattgerðina
 
@@ -33,7 +33,7 @@ Fylgið þessum skrefum til að setja upp TDS-hluta.
 
 1. Farið í **Skattur \> Uppsetning \> Staðgreiðsluskattur \> Staðgreiðsluskattshlutar**.
 
-    [![Síða staðgreiðsluskattshluta](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Síða staðgreiðsluskattshluta.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Í reitnum **Skattgerð** skal velja **TDS** til að setja upp staðgreiðsluskattshluta fyrir skattgerð TDS.
 3. Veldu **Nýtt** á aðgerðasvæðinu til að búa til línu.
@@ -50,7 +50,7 @@ Fylgið þessum skrefum til að setja upp TDS-hluta.
 
     Ef til dæmis upphæð undantekningarmarka er 5000, þá er TDS reiknaðu í tiltekinni reikningslínu ef upphæð reikningslínunnar fer yfir 5000 (með öðrum orðum, ef hún er 5001 eða hærri).
 
-    [![Þröskuldssíða](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Þröskuldssíða.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Upphæð undantekningarmarka verður að vera minni en eða jafnt og upphæð marka.
@@ -66,6 +66,6 @@ Fylgið þessum skrefum til að setja upp TDS-hluta.
 
 14. Veljið **Í lagi** til að afrita og stofna TDS-hluta fyrir hinn flokk TDS-hluta á síðunni **Staðgreiðsluskattshlutar**.
 
-    [![Svargluggi afritunar staðgreiðsluskattshluta](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Svargluggi afritunar staðgreiðsluskattshluta.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Lokið síðunni.

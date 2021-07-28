@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055005"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361227"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Búa til útflutningsforrit fyrir endurtekin gögn
 
@@ -63,13 +63,13 @@ ms.locfileid: "6055005"
 
 Lokið rökfræðiforrit mun líkjast eftirfarandi mynd.
 
-![Yfirlit yfir rökfræðiforrit](media/integration-logic-app-overview.png)
+![Yfirlit yfir rökfræðiforrit.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Skref 1: Búðu til gagnaútflutningsverkefni í mannauðsmálum
 
 Í Human Resources skaltu búa til gagnaútflutningsverkefni sem flytur starfsfólk út. Nefnið verkefnið **Flytja út starfskrafta**, og passaðu að valkosturinn **Mynda gagnapakka** sé stilltur á **Já**. Bættu við einni heild (**Starfskraftur**) í verkið og veldu sniðið sem á að flytja út í. (Microsoft Excel snið er notað í þessari kennslu.)
 
-![Verkefni útflutnings starfsmanna](media/integration-logic-app-export-workers-project.png)
+![Gagnaverk vegna útflutnings starfsmanns.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Mundu heiti gagnaútflutningsverksins. Þú þarft það þegar þú býrð til rökfræðiforritið í næsta skrefi.
@@ -80,12 +80,12 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
 
 1. Búðu til rökfræðiforrit í Azure-gáttinni.
 
-    ![Búðu til síðu með rökfræðiforriti](media/integration-logic-app-creation-1.png)
+    ![Stofnsíða rökfræðiforrits.](media/integration-logic-app-creation-1.png)
 
 2. Byrjaðu með autt rökfræðiforrit hjá Logic Apps Designer.
 3. Bættu við [Kveikja á endurkomuáætlun](/azure/connectors/connectors-native-recurrence) til að keyra rökfræðiforritið á 24 tíma fresti (eða samkvæmt áætlun að eigin vali).
 
-    ![Endurtekinn svargluggi](media/integration-logic-app-recurrence-step.png)
+    ![Endurtekinn svargluggi.](media/integration-logic-app-recurrence-step.png)
 
 4. Kallaðu í [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API til að tímasetja útflutning á gagnapakkanum.
 
@@ -97,7 +97,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
         > [!NOTE]
         > Mannauðsþjónustan býður ekki enn upp á tengi sem afhjúpar öll API sem samanstanda af REST API fyrir DMF pakka, svo sem **ExportToPackage**. Í staðinn verður þú að hringja í API með því að nota hráar HTTPS beiðnir í gegnum HTTP með Azure AD-tengi. Þetta tengi notar Azure Active Directory (Azure AD) fyrir sannvottun og heimild til Human Resources.
 
-        ![HTTP með Azure AD-tengi](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP með Azure AD-tengli.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Skráðu þig inn í mannauðsumhverfið þitt í gegnum HTTP með Azure AD-tengi.
     3. Settu upp HTTP **POST** beiðni um að kalla í **ExportToPackage** DMF REST API.
@@ -116,21 +116,21 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
             }
             ```
 
-        ![Bjóddu aðgerð á HTTP beiðni](media/integration-logic-app-export-to-package-step.png)
+        ![Kalla fram aðgerð HTTP-beiðni.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Þú gætir viljað endurnefna hvert skref svo það sé meira máli en sjálfgefið nafn, **Kallaðu á HTTP beiðni**. Til dæmis er hægt að endurnefna þetta skref **ExportToPackage**.
 
 5. [Frumstilla breytu](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) til að geyma framkvæmdastöðuna á **ExportToPackage** beiðni.
 
-    ![Frumstilla breytilega aðgerð](media/integration-logic-app-initialize-variable-step.png)
+    ![Frumstilla breytilega aðgerð.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Bíddu þar til framkvæmdastöðin fyrir gagnaútflutninginn er **Tókst**.
 
     1. Bættu við [Þar til lykkja](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) sem er endurtekin þar til gildið breytan **ExecutionStatus** er **Tókst**.
     2. Bættu við aðgerðinni **Töf** sem bíður í fimm sekúndur áður en hún kannar núverandi framkvæmdastöðu útflutningsins.
 
-        ![Þangað til lykkjuílát](media/integration-logic-app-until-loop-step.png)
+        ![Þar til geymsla endurtekur sig.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Stilltu mörkin við **15** til að bíða að hámarki 75 sekúndur (15 endurtekningar × 5 sekúndur) til að útflutningi verði lokið. Ef útflutningur þinn tekur lengri tíma, aðlagaðu mörkin eftir því sem við á.        
@@ -146,9 +146,9 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
             > [!NOTE]
             > Þú gætir þurft að slá inn gildið **Meginmál beiðninnar** annaðhvort í kóðaskjá eða í aðgerðir ritstjóra í hönnuðinum.
 
-        ![Bjóddu aðgerð á HTTP 2 beiðni](media/integration-logic-app-get-execution-status-step.png)
+        ![Kalla fram aðgerð HTTP-beiðni 2.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Stilla aðgerð breytu](media/integration-logic-app-set-variable-step.png)
+        ![Stilla aðgerð breytu.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > Gildið fyrir aðgerðina **Stilla breytu** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) mun vera frábrugðið gildi fyrir meginmálsgildið **Kalla á HTTP beiðni 2**, jafnvel þó að hönnuðurinn sýni gildin á sama hátt.
@@ -161,7 +161,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
         - **Vefslóð beiðninnar:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Meginmál beiðnar:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Aðgerðin GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Aðgerðin GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Sæktu útflutta pakkann.
 
@@ -173,7 +173,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
             > [!NOTE]
             > Þú gætir þurft að slá inn gildið **URI** annaðhvort í kóðaskjá eða í aðgerðir ritstjóra í hönnuðinum.
 
-        ![Aðgerðin HTTP GET](media/integration-logic-app-download-file-step.png)
+        ![Aðgerðin HTTP GET.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Þessi beiðni þarf ekki frekari sannvottun vegna þess að slóðin sem **GetExportedPackageUrl** API skilar samanstendur af samnýttum undirskriftartákni sem veitir aðgang til að hlaða niður skránni.
@@ -187,7 +187,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
         - **Skráarnafn:** starfskraftur\_package.zip
         - **Skráarefni:** Meginmál úr fyrra skrefi (kvikt efni)
 
-        ![Stofna skráaraðgerð](media/integration-logic-app-create-file-step.png)
+        ![Aðgerðin Stofna skrá.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Skref 3: Prófaðu rökfræðiforritið
 
@@ -197,7 +197,7 @@ Ef tilkynnt er um bilun í einhverju skrefi, veldu misheppnaða skref hönnuðar
 
 Eftirfarandi mynd sýnir hvernig Logic Apps Designer lítur út þegar öll skref í rökfræðiforritinu ganga vel.
 
-![Árangursrík rökfræðiforrit keyrt](media/integration-logic-app-successful-run.png)
+![Árangursrík keyrsla rökfræðiforrits.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Samantekt
 

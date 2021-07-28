@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37efef723a7ca5e5f2333ff41cdf8351156e9bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 393239571de8a8d845107a8a8a151748c6b963c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355998"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Um FIFO með merkingu og efnislegt virði
 
@@ -51,7 +51,7 @@ Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru �
 
 Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu færslnanna. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. 
 
-![FIFO án efnistlegs virðis](./media/fifowithoutincludephysicalvalue.gif) 
+![FIFO án Taka efnislegt virði með.](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -83,7 +83,7 @@ Ef reiturinn **Taka efnislegt virði með** er valinn fyrir vöru í skjámyndin
 
 Færsla 5b verður jöfnuð við innhreyfingarfærslu 1b. Það verður neikvæð jöfnun upp á 11,25 USD til þessarar úthreyfingarfærslu. Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. 
 
-![FIFO með Taka efnislegt virði með](./media/fifowithincludephysicalvalue.gif) 
+![FIFO með Taka efnislegt virði með.](./media/fifowithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -115,7 +115,7 @@ Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfær
 
 Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. 
 
-![FIFO með Merking](./media/fifowithmarking.gif) 
+![FIFO með Merking.](./media/fifowithmarking.gif) 
 
 **Lykill að skýringarmynd**
 

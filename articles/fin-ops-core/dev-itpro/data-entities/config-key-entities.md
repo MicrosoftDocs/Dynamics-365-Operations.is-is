@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: bdb90f8d629a026a84f8c65e7e95b589169a3e4d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a9e5204c2bb9c0a58b2e4e223a4a3d2d09d53659
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356264"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Skilgreiningarlyklar og gagnaeiningar
 
@@ -52,24 +52,24 @@ Eftirfarandi tafla útlistar hvernig gildi skilgreiningarlykils á mismunandi þ
 ### <a name="entity-list-refresh"></a>Endurnýja einingalista
 Þegar einingalistinn er endurnýjaður smíðar rammi gagnastjórnunar upp lýsigögn skilgreiningarlykils til að nota á keyrslutíma. Þessi lýsigögn eru smíðuð með rökfræðinni sem lýst er hér að ofan. Við mælum eindregið með því að þú bíðir eftir endurnýjun á einingalistanum ljúki áður en þú notar verk og einingar í gagnastjórnunarrammanum. Ef þú bíður ekki getur verið að uppfærsla á lýsigögnum skilgreiningarlykils séu ekki uppfærð og það getur leitt til óvæntra útkoma. Þegar einingalistinn er endurnýjaður birtist eftirfarandi skilaboð á listasíðu einingar.
 
-![Endurnýja einingalista](./media/Entity_refresh_list.png)
+![Endurnýja einingalista.](./media/Entity_refresh_list.png)
 
 ### <a name="data-entity-list-page"></a>Listasíða gagnaeiningu
 Listasíða gagnaeiningu í vinnurými gagnastjórnunar sýnir stillingar skilgreiningarlykla fyrir einingarnar. Byrjaðu á þessari síðu til að skilja áhrif skilgreiningarlykla á gagnaeininguna.
 
 Þessar upplýsingar eru sýndar með því að nota lýsigögnin sem eru búin til á meðan einingar eru endurnýjaðar. Dálkur skilgreiningarlykilsins birtir heiti skilgreiningarlykilsins sem tengist gagnaeiningunni. Ef þessi dálkur er auður þýðir það að enginn skilgreiningarlykill er tengdur við gagnaeininguna. Stöðudálkur skilgreiningarlykils sýnir stöðu skilgreiningarlykilsins. Ef hann er með merkimiða þýðir það að lykillinn sé virkur. Ef hann er tómur þýðir það annaðhvort að lykillinn sé óvirkur eða enginn lykill tengdur.
 
-![Listasíða gagnaeiningar](./media/Data_entity_list_page.png)
+![Listasíða gagnaeiningar.](./media/Data_entity_list_page.png)
 
 ### <a name="target-fields"></a>Markreitir
 Næsta skref er að bora í gagnaeininguna til að skoða áhrif skilgreiningarlykla á töflur og reiti. Sniðmát markreita fyrir gagnaeiningar sýnir skilgreiningarlykil og upplýsingar um stöðu lykils fyrir töflur og reiti í gagnaeiningunni sem eiga við. Ef sjálf gagnaeiningin hefur skilgreiningarlykilinn sinn óvirkan birtist viðvörunarskilaboð þar sem fram kemur að töflurnar og reitirnir í markreitunum fyrir þessa einingu munu alls ekki vera aðgengilegir, óháð stöðu skilgreiningarlykils þeirra.
 
-![Markreitir](./media/Target_fields_1.png)
+![Markreitir.](./media/Target_fields_1.png)
 
 ### <a name="child-entities"></a>Undireiningar 
 Vissar einingar hafa aðrar einingar sem gagnagjafa eða eru samsettar gagnaeiningar: upplýsingar skilgreiningarlykla fyrir þessar einingar eru sýndar í sniðmáti Child einingar. Notaðu þetta sniðmát á svipaðan hátt og listasíðu eininganna sem lýst er hér að ofan. Sniðmát markreitsins fyrir child eininguna hegðar sér einnig eins og lýst er hér að ofan.
 
-![Markreitir](./media/Target_fields_2.png)
+![Markreitir.](./media/Target_fields_2.png)
 
 ### <a name="using-data-entities"></a>Notkun gagnaeininga
 Eftir að hafa skilið full áhrif skilgreiningarlykla, ef einhver, á gagnaeiningarnar sem þú vilt nota, geturðu nú haldið áfram að nota gagnaeiningarnar með því að bæta þeim við gagnaverk. 
@@ -91,7 +91,7 @@ Notkun á lýsigögnum skilgreiningarlykils sem eru búin til á meðan einingal
 ### <a name="managing-configuration-key-changes"></a>Stjórna breytingum á skilgreiningarlykli
 Hvenær sem þú uppfærir skilgreiningarlykla á einingunni, á sviði töflu eða reita, verður einingalistinn í ramma gagnastjórnunar að endurnýjast. Þetta ferli tryggir að ramminn taki upp nýjustu stillingar skilgreiningarlykils. Þar til einingalistinn er endurnýjaður birtist eftirfarandi viðvörun á listasíðu einingar. Uppfærðar breytingar á skilgreiningarlykli munu taka gildi strax eftir að einingalistinn er endurnýjaður. Við mælum með því að þú sannprófir núverandi gagnaverk og störf til að ganga úr skugga um að þau virka eins og búist er við eftir að breytingar á skilgreiningarlyklunum hafa verið gerðar.
 
-![Markreitir](./media/Target_fields_3.png)
+![Markreitir.](./media/Target_fields_3.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

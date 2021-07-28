@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350936"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -82,13 +82,13 @@ Nokkrar takmarkanir eru til staðar:
 
 Eftir að flutningi er lokið geta stjórnendur stillt nákvæmni gjaldmiðilsins. Opnið **Stillingar \> Stjórnun** og veljið **Kerfisstillingar**. Síðan skal, í flipanum **Almennt**, breyta gildinu á dálknum **Stilla nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu í öllu kerfinu** eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Kerfisstillingar fyrir gjaldmiðil](media/currency-system-settings.png)
+![Kerfisstillingar fyrir gjaldmiðil.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Viðskiptastjórnun: Gjaldmiðlar
 
 Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en fyrir nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu, er hægt að breyta henni. Opnið **Stillingar \> Viðskiptastjórnun**, veljið **Gjaldmiðlar** og veljið gjaldmiðilinn sem á að breyta. Stillið síðan dálkinn **Nákvæmni gjaldmiðils** á þann fjölda aukastafa sem sóst er eftir eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Stillingar gjaldmiðils fyrir ákveðinn stað](media/specific-currency.png)
+![Stillingar gjaldmiðils fyrir ákveðinn stað.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>töflur: Gjaldmiðilsdálkur
 

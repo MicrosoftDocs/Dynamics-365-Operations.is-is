@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8dab12213e9730e72aede70c5b5d1368ef77664e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 382780405b2496cc655451790ef4a99ef60ba129
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053540"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354253"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Villuleita greiningarskýrslur
 
@@ -41,7 +41,7 @@ Skýrslur Microsoft Power BI eru endurnýjaðar á fjögurra klukkustunda fresta
 1. Finnið verkið **Framkvæma mælingu** í listanum.
 1. Veljið **Breyta** efst á síðunni og stillið áætlaðan upphafsdag/tíma á gildi sem endurnýjar greiningarnar nær núgildandi tíma.
 
-![Runuvinnslur](media/batch-jobs.png)
+![Runuvinnslur.](media/batch-jobs.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

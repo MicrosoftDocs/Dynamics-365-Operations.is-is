@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796076"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352543"
 ---
 # <a name="configure-ratings-and-reviews"></a>Skilgreina einkunnir og umsagnir
 
@@ -46,7 +46,7 @@ Fylgdu þessum skrefum til að stilla vefsíðu til að sýna einkunnir og umsag
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Skilgreining svæðis til að sýna einkunnir og umsagnir](media/rnr-eCommerce-site-appsettings.png)
+![Skilgreining svæðis til að sýna einkunnir og umsagnir.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Tengja vörueinkunn við umsagnarhlutann í PDP
 
@@ -60,7 +60,7 @@ Til að tengja vörueinkunn við hlutann **Umsagnir** í PDP fylgirðu þessum s
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Tenging afurðaeinkunnar við umsagnarhlutann í PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Tenging afurðaeinkunnar við umsagnarhlutann í PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Stilltu hlekkinn fyrir persónuverndar- og stefnusíðuna
 
@@ -75,7 +75,7 @@ Til að stilla hlekkinn fyrir persónuverndar- og stefnusíðuna skaltu fylgja �
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Stilling tengils fyrir persónuverndar- og stefnusíðuna](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Stilling tengils fyrir persónuverndar- og stefnusíðuna.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Stilla einkunnir og endurskoða einingar á upplýsingasíðum
 

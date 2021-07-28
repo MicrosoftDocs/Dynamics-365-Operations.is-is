@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023324"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360217"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
 
@@ -33,7 +33,7 @@ Fylgið þessum skrefum til að uppfæra vottorðanúmerin og dagsetningarnar fy
 
 1. Farið í **Skattur \> Skattskýrslur \> Staðgreiðsluskattur \> Uppfæra vottorð**.
 
-    [![Síða vottorðauppfærslu](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Síða vottorðauppfærslu.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Á síðunni **Uppfæra vottorð**, í hlutanum **Velja**, í reitnum **Skattgerð**, skal velja **TDS**.
 3. Í reitnum **Vottorðanúmer** skal velja TDS-vottorðanúmer viðskiptavinar eða lánardrottins.
@@ -60,4 +60,4 @@ Fylgið þessum skrefum til að uppfæra vottorðanúmerin og dagsetningarnar fy
 8. Veljið **Uppfæra** til að uppfæra reitina **Númer vottorðs** og **Dagsetning vottorðs** fyrir TDS-færslur í neðra hnitanetinu.
 10. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Endurheimtanlegt vottorð** og veljið **Fyrirspurn** til að skoða uppfærðar færslulínur sem eru með nýju vottorðanúmerin á síðunni **Vottorðafærslur**.
 
-    [![Færslusíða vottorðs](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Færslusíða vottorðs.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

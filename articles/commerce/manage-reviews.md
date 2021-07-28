@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352399"
 ---
 # <a name="manage-ratings-and-reviews"></a>Stjórna einkunnum og umsögnum
 
@@ -45,7 +45,7 @@ Til að lesa umsögn í vefsmið Commerce skal fylgja þessum skrefum.
 
 Viðbótarsíur gera þér kleift að takmarka umsagnir eftir tímabili, einkunn, rás eða áhyggjustöðu (tekin niður, svarað eða tilkynnt).
 
-![Heimasíða breytingar](media/rnr-moderation-home.png) 
+![Heimasíða breytingar.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Svara umsögn 
 
@@ -59,7 +59,7 @@ Til að svara umsögn í vefsmið Commerce skal fylgja þessum skrefum.
 1. Sláðu inn svartexta og nafn sem ætti að sýna fyrir svarandann. Sjálfgefið svar svarandsins er **Stjórnandi**.
 1. Þegar því er lokið skal velja **Bóka svar**.
 
-![Svar við umsögn](media/rnr-moderation-response.png) 
+![Svar við umsögn.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Fjarlægja umsögn 
 
@@ -82,7 +82,7 @@ Til að finna og eyða gögnum viðskiptavinar í vefsmið Commerce skal fylgja 
 1. Ef viðskiptavinurinn hefur einhverjar umsagnaraðgerðir (til dæmis, endurskoða innsendingar, atkvæði um hjálpsemi umsagna annars viðskiptavinar eða athugasemdir um umsögn annars viðskiptavinar) eru niðurstöðurnar sýndar. Fyrir hvern lið er hnappurinn **Eyða**.
 1. Fyrir hvert atriði sem þarf að eyða velurðu **Eyða**. Þegar þú færð kvaðningu um staðfestingu skaltu velja **Já**. 
     
-![Eyðing á gögnum viðskiptavinar](media/rnr-moderation-delete-reviews.png) 
+![Eyðing á gögnum viðskiptavinar.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Það getur tekið allt að sjö daga þar til gögn eru fjarlægð að fullu úr kerfinu. Stjórendur ættu að tilkynna viðskiptavinum um þessa seinkun.
@@ -106,19 +106,19 @@ Til að skoða mynstur einkunna og umsagna í vefsmið Commerce skal fylgja þes
 1. Farðu í **Heim \> Umsagnir \> Skýrslugerð**.
 1. Veldu **PowerBI sniðmát** til að hlaða niður sniðmátinu.
 
-    ![Sækja Power BI-sniðmátið](media/rnr-moderation-reports.png) 
+    ![Sækja Power BI-sniðmátið.](media/rnr-moderation-reports.png) 
 
 1. Opnaðu sniðmátið sem hlaðið var niður með því að nota Power BI forritð. Lokaðu glugganum **Aðgangur að vefefni** sem birtist og lokaðu síðan villunni "Endurnýja" sem birtist.
 1. Farðu í **Heim**, veldu **Breyta fyrirspurnum** og veldu síðan **Stillingar gagnagjafa**.
 1. Í valmyndinni **Stillingar gagnagjafa** velurðu **Breyta gjafa**.
 1. Í reitinn **Vefslóð** slærðu inn slóð umsagnargagnanna sem þú sóttir í fyrra ferli (til dæmis, **c:\\reviews\\ReviewsData.csv**).
 
-    ![Vefslóðareitur í svarglugganum með kommuaðgreindum gildum](media/rnr-powerbi-datasource-settings.png) 
+    ![Vefslóðareitur í svarglugganum með kommuaðgreindum gildum.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Veldu **Í lagi** og veldu síðan **Beita breytingum**. Það mun taka eina til tvær mínútur að nota breytingarnar á gagnagjafa.
 1. Veldu **Þróunarblað** til að skoða einkunnir og rifja upp þróun.
 
-    ![Einkunna- og umsagnaþróun](media/rnr-powerbi-dashboard-template.png) 
+    ![Einkunna- og umsagnaþróun.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

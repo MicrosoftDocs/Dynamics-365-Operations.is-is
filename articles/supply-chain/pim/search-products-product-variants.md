@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359982"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Leita að afurðir og afurðarafbrigði við skráningu pantana
 
@@ -58,7 +58,7 @@ Ef þú slærðu inn 'háta 05' kemur engum niðurstöðum. Þetta er því leit
 Hægt er að takmarka fjölda leitarniðurstöður með því að nota **Fjöldi niðurstaðna** á **Sölu og markaðssetningar &gt; Uppsetning &gt; Leit &gt; Leitarfæribreytur** síðunni. Ef svæðið er stillt á 0, verður allar leitarniðurstöður skilað. Ef þetta er stillt á 10, til dæmis, mun hún skila að hámarki 10 leitarniðurstöður.
 
 ## <a name="configure-the-product-search"></a>Skilgreina leit að afurð
-Áður en hægt er að nota afurða og leitareiginleika afurðarafbrigðis, skal fylgja þessum skrefum til að skilgreina leit að afurðar. [![3 skref til að skilgreina afurðarleit search\_AXAppFall ](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Áður en hægt er að nota afurða og leitareiginleika afurðarafbrigðis, skal fylgja þessum skrefum til að skilgreina leit að afurðar. [![3 skref til að skilgreina afurðarleit search\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1. skref: Hafa með allar viðeigandi afurð og auðkenni afurðarafbrigðis og víddir í leitarskilyrði
 

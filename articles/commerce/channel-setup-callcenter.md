@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800664"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351201"
 ---
 # <a name="set-up-a-call-center-channel"></a>Uppsetning símaversrásar
 
@@ -54,11 +54,11 @@ Til að stofna og stilla nýja rás símavers fylgirðu þessum skrefum.
 
 Eftirfarandi mynd sýnir stofnun nýrrar símaversrásar.
 
-![Ný rás símavers](media/channel-setup-callcenter-1.png)
+![Ný rás símavers.](media/channel-setup-callcenter-1.png)
 
 Eftirfarandi mynd sýnir dæmi um símaversrás.
 
-![Dæmi um rás símavers](media/channel-setup-callcenter-2.png)
+![Dæmi um rás símavers.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Viðbótaruppsetning grunnrásar
 
@@ -66,7 +66,7 @@ Viðbótarupplýsingar sem krafist er fyrir uppsetningu símaversrásar fela í 
 
 Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta** og **Greiðslumáta** á flipanum **Setja upp**.
 
-![Viðbótar uppsetningaraðgerðir símaversrásar](media/channel-setup-callcenter-3.png)
+![Viðbótar uppsetningaraðgerðir símaversrásar.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -81,7 +81,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-callcenter-payments.png)
+![Dæmi um greiðslumáta.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 
@@ -97,7 +97,7 @@ Fylgdu þessum skrefum til að breyta eða bæta við afhendingaraðferð sem á
 
 Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
-![Setja upp afhendingarmáta](media/channel-setup-retail-7.png)
+![Setja upp afhendingarmáta.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Setja upp rásarnotendur
 

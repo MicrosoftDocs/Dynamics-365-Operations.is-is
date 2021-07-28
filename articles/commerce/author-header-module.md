@@ -2,7 +2,7 @@
 title: Fyrirsagnareining
 description: Þetta efnisatriði nær yfir hauseiningar og lýsir því hvernig á að búa til síðuhausa í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799913"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479257"
 ---
 # <a name="header-module"></a>Eining síðuhauss
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði nær yfir hauseiningar og lýsir því hvernig á að búa til síðuhausa í Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ Hausaeiningin inniheldur svæðismerki, tengla á yfirlitsstigveldið, tengla á
 
 Eftirfarandi mynd sýnir dæmi um fyrirsagnareiningu á heimasíðu.
 
-![Dæmi um fyrirsagnareiningu](./media/ecommerce-header.png)
+![Dæmi um fyrirsagnareiningu.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Eiginleikar fyrirsagnareiningar
 
@@ -58,9 +59,16 @@ Eftirfarandi einingar er hægt að nota í fyrirsagnareiningu:
 - **Verslunarval** - Hægt er að taka verslunarvaleininguna með í verslunarvali í haus. Það gerir notendum kleift að fletta og finna nærliggjandi verslanir. Einnig er hægt að tilgreina forgangsverslun. Þessi verslun verður síðan sýnd í hausnum. Þegar verslunarvalseiningin er tekin með í haus einingar verður **Stillingar** eiginleiki hennarað vera stilltur á **Finna verslanir**. Frekari upplýsingar er að finna í [Verslunarvalseining](store-selector.md).
 
 > [!NOTE]
-> - Stuðningur við notkun körfueiningar í hauseiningum er tiltækur í Dynamics 365 Commerce útgáfu 10.0.11.
-> - Stuðningur við notkun svæðisvalseiningar í hauseiningum er tiltækur í Dynamics 365 Commerce útgáfu 10.0.14.
-> - Stuðningur við notkun verslunarvalseiningar í hauseiningum er tiltækur í Dynamics 365 Commerce útgáfu 10.0.15.
+> - Stuðningur við notkun körfueiningar í hauseiningum er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.11.
+> - Stuðningur við notkun svæðisvalseiningar í hauseiningum er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.14.
+> - Stuðningur við notkun verslunarvalseiningar í hauseiningum er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Hauseining í þema Adventure Works
+
+Í þema Adventure Works styður hauseiningin eiginleikann **Fartækjalógó**. Þessi eiginleiki gerir kleift að tilgreina lógó fyrir glugga fartækis. Eiginleikinn **Fartækjalógó** er í boði sem viðbót einingaskilgreiningar.
+
+> [!IMPORTANT]
+> Þema Adventure Works er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Búa til hausbrot fyrir síðu
 

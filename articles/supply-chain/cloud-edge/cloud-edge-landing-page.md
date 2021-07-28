@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354810"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 
@@ -41,7 +41,7 @@ Verið er að gefa út möguleika vinnuálags jafnt og þétt í gegnum stigvaxa
 
 Einingarkvarðar stækka umhverfi Supply Chain Management miðstöðvarinnar með því að bæta við úthlutaðri úrvinnslugetu. Hægt er að keyra einingarkvarða í skýinu. Að öðrum kosti er hægt að keyra þá í jaðrinum á vinnustaðnum.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 með einingarkvörðum":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 með einingarkvörðum.":::
 
 Einingarkvarðar bjóða upp á sveigjanleika, áreiðanleika og skölun fyrir úthlutað vinnuálag. Hægt er að aftengja tímabundið einingarkvarða jaðars frá umhverfi skýjamiðstöðvar og starfsfólk heldur áfram að vinna í úthlutuðu vinnuálagi í jaðrinum.
 
@@ -157,7 +157,7 @@ Boðið er upp á einingarkvarða í mörgum birgðahaldseiningum og valkostum v
 
 Birgðahaldseining á færslustigi er þekkt sem *Grunnur* og afkastameiri birgðahaldseiningin er þekkt sem *Venjuleg*. Hverri birgðahaldseiningu er hlaðið fyrirfram með tilteknum fjölda af mánaðarlegum færslum. Hins vegar er hægt að auka fjárhagsáætlun mánaðarlegra færslna með því bæta við gjaldfellingarinnbót fyrir hverja birgðahaldseiningu.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Innbætur fyrir einingarkvarða í skýi":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Innbætur fyrir einingarkvarða í skýi.":::
 
 > [!TIP]
 > Til að finna út hvaða stærð hentar best þínum kröfum skaltu starfa með samstarfsaðila þínum og Microsoft til að komast að mánaðarlegri færslustærð sem þú þarft á að halda.
@@ -181,11 +181,11 @@ Ef leigjandinn sem leitað er að er ekki á listanum skaltu fara í [LCS](https
 
 Listinn sýnir innleiðingarstöðuna fyrir hvern leigjanda fyrir sig.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Listi yfir leigjendur í flipa Dynamics 365-leigjenda":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Listi yfir leigjendur í flipa Dynamics 365-leigjenda.":::
 
 Veljið **Smellið hér til að hefjast handa** til að óska eftir innleiðingu fyrir LCS-leigjandann. Samþykkja verður skilmálana. Einnig þarf að gefa upp tölvupóstfang fyrirtækis þar sem Microsoft getur sent samskipti sem tengjast nýliðunarferli.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Innsending nýskráningar fyrir leigjanda":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Innsending nýskráningar fyrir leigjanda.":::
 
 Microsoft mun fara yfir beiðnina og tilkynna um næstu skref með því að senda tölvupóst á netfangið sem gefið var upp á nýskráningareyðublaðinu. Microsoft mun starfa náið með þér til að virkja einingarkvarða í blandaðri grannfræði fyrir rekstraraðstæður þínar.
 
@@ -195,13 +195,13 @@ Microsoft mun fara yfir beiðnina og tilkynna um næstu skref með því að sen
 
 Farið í [Gátt Scale Unit Manager](https://aka.ms/SCMSUM) og skráið ykkur inn með leigjandareikningnum. Á síðunni **Skilgreina einingarkvarða** er hægt að bæta við umhverfi miðstöðvar ef það er ekki þegar í boði. Síðan er hægt að velja miðstöðina sem á að skilgreina með einingarkvörðum og vinnuálagi.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Stjórnun einingarkvarða og vinnuálags":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Stjórnun einingarkvarða og vinnuálags.":::
 
 Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í áskrift þinni, skal velja **Bæta við einingarkvörðum**.
 
 Í flipanum **Skilgreint vinnuálag** skal nota hnappinn **Stofna vinnuálag** til að bæta vinnuálagi vöruhúsakerfis við einn einingarkvarðann. Fyrir hvert vinnuálag þarf að tilgreina samhengi ferlanna sem vinnuálagið verður í. Fyrir vinnuálag vöruhúsakerfis er samhengið tiltekið vöruhús á tilteknu svæði og lögaðila.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Stofnun vinnuálags":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Stofnun vinnuálags.":::
 
 > [!TIP]
 > Með tímanum verða stigvaxandi viðbótum bætt við stjórnunarviðmót einingarkvarða til að gera aðgerðir líftímastjórnunar auðveldari. Tilteknir möguleikar fyrir núverandi útgáfu eru skráðir í handbók innleiðingar sem er í boði fyrir viðskiptavini sem hafa hafið innleiðingu dreifingar blandaðrar grannfræði fyrir Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

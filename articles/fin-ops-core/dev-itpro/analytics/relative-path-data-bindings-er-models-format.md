@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350161"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Notaðu viðeigandi slóð í gagnabindingum ER-líkana og sniða
 
@@ -31,20 +31,20 @@ Verkfærið Rafræn skýrslugerð (ER) gerir notendum kleift að skilgreina skip
 
 Til að bæta notagildi vörpunarhönnuða rafrænnar skýrslugerðar er búið að gefa út eiginleikann [tengd slóð](er-formula-language.md#relative-path). Sjálfgefið er að slökkt sé á framsetningarvalkosti viðkomandi slóðar fyrir öll ný tilvik forritsins þar sem ER-hönnunarreynsla er virkjuð (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Við innleiddum færibreytu viðkomandi slóðar þannig að notendur geta haldið áfram að nota alla slóðina þegar unnið er með þessa kynningu á ER-bindingum.
 
-[![Færibreytur notanda](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Færibreytur notanda.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Þegar slökkt er á notkunarfæribreytum viðkomandi slóðar kemur einn @ stafur í stað slóðar á yfirvöru í bindingu núverandi líkanareiningar. Öll bindandi slóðin verður styttri, sem gerir alla vörpunina augljósari og auðveldari í skilningi. Í flestum tilfellum þarf ekki frekari skrun í ER-hönnuði til að skoða allar bindingar gagnalíkansins.
 
-[![Hönnun fyrir vörpun gagnalíkans](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Hönnun fyrir vörpun gagnalíkans.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Þegar þú byrjar uppsetningu á nýrri ER-segð þarftu aðeins að slá inn einn staf til að skilgreina bindingu við reit yfirvörunnar.
 
-[![Formúluhönnuður](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Formúluhönnuður.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Þegar þú ákveður að breyta gagnagjafa yfiratriðis með algildri slóðarnotkun þarftu endurbinda þessi líkansatriði, ásamt öllum földuðum atriðum, í nýjan gagnagjafa. Þegar slökkt er á notkun viðkomandi slóðar og þú velur nýjam gagnagjafa til að binda við yfiratriði, er þér boðið upp á valkost til að tengja sjálfkrafa allar faldaðar einingar þessa yfiratriðis með einum smelli.
 
-[![Skilaboðin Skipta um slóð sem er þegar til staðar](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Skilaboðin Skipta um slóð sem er þegar til staðar.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Ef þú staðfestir endurheimt á földuðum atriðum verður nýtt yfiratriði sett í slóð hvers faldaðs atriðis sem inniheldur fyrirliggjandi yfiratriði.
 Þessi eiginleiki brýtur ekki eldra samhæfi ER-rammans. Allar áður uppsettar ER-skilgreiningar munu virka með þessum nýja eiginleika og engar uppfærslur eða umreikningar verða nauðsynleg.

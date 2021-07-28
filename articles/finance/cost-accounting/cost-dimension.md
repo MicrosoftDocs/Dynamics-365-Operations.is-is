@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09dd9e2d648bec32d1504175dbb1470751e5c915
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355180"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Stofna víddir og flytja inn víddarstök
 
@@ -36,7 +36,7 @@ Kostnaðarbókhald er sjálfstæð eining sem krefst notkunar gagna úr öðrum 
 
 Eftirfarandi útlínumynd sýnir víddirnar sem eru notaðar við Kostnaðarbókhald.
 
-[![Kostnaðarbókhaldsvíddir](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Kostnaðarbókhaldsvíddir.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Eftir að gögn eru flutt inn í Kostnaðarbókhald getur þú nota þau til að byggja ýmis sjónarhorn sem veita innsýn til stjórnenda á öllum stigum fyrirtækis. Eftirfarandi efnisatriði veita upplýsingar um stofnun vídda og innflutning víddarstaka. 
 

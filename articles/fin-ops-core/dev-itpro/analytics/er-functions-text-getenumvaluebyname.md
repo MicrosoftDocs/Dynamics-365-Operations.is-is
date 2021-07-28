@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352939"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER-aðgerð
 
@@ -62,7 +62,7 @@ Engin undantekning er gerð ef gildið *Enum* er ekki að finna með því að n
 
 Í eftirfarandi mynd er **ReportDirection** upptalningin kynnt í gagnalíkani. Athugaðu að merki eru skilgreind fyrir tölusetningargildin.
 
-![Tiltæk gildi fyrir tölusetningu gagnalíkans](./media/ER-data-model-enumeration-values.PNG)
+![Tiltæk gildi fyrir tölusetningu gagnalíkans.](./media/ER-data-model-enumeration-values.PNG)
 
 Eftirfarandi mynd sýnir þessar upplýsingar:
 
@@ -70,7 +70,7 @@ Eftirfarandi mynd sýnir þessar upplýsingar:
 - Segðin `$IsArrivals` er hönnuð til að nota líkanatölusetningarbyggðan gagnagjafa **$Direction** sem færibreytu þessarar aðgerðar.
 - Gildi þessarar samanburðarsegðar er **TRUE**.
 
-![Dæmi um tölusetningu gagnalíkans](./media/ER-data-model-enumeration-usage.PNG)
+![Dæmi um tölusetningu gagnalíkans.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Dæmi 2
 
@@ -78,14 +78,14 @@ Aðgerðirnar `GETENUMVALUEBYNAME` og [`LISTOFFIELDS`](er-functions-list-listoff
 
 Á eftirfarandi mynd er gagnagjafinn **TransType** kynntur í líkanavörpun. Þessi gagnagjafi vísar í forritstölusetningu **LedgerTransType**.
 
-![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 Eftirfarandi mynd sýnir gagnagjafann **TransTypeList** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi er skilgreindur út frá **TransType** tölusetningu forrits. `LISTOFFIELDS`-aðgerðin er notuð til að skila öllum gildum tölusetningar sem lista yfir færslur sem innihalda reiti. Á þennan hátt verða upplýsingar um sérhvert gildi tölusetningar sýndar.
 
 > [!NOTE]
 > **EnumValue** gildið er skilgreint fyrir **TransTypeList** gagnagjafann með því að nota `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`-segðina. Þessi reitur skilar gildi tölusetningar fyrir hverja færslu í þessum lista.
 
-![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi skilar lánardrottnafærslum úr forritstöflu **VendTrans**. Fjárhagsgerð hverrar færslu er skilgreind eftir gildinu á reitnum **TransType**.
 
@@ -94,11 +94,11 @@ Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líka
 >
 > Reiturinn **TransTypeTitle** er bundinn við **LedgerType** reit gagnalíkans sem gerir kleift að nota þessar upplýsingar í öllum sniðum rafrænnar skýrslugerðar sem notar gagnalíkanið sem upprunastað gagna.
 
-![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 Eftirfarandi mynd sýnir hvernig hægt er að nota [kembiforrit gagnagjafans](er-debug-data-sources.md) til að prófa skilgreinda líkanavörpun.
 
-![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 **LedgerType** reitur gagnalíkans sýnir merki af færslugerðum eins og búist var við.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019447"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350403"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Setja upp þróunarumhverfi rafrænna viðskipta til að kemba lag 1 af sýndarvél Retail Server
 
@@ -38,13 +38,13 @@ Lag 1 umhverfi Microsoft Dynamics 365 Commerce eru yfirleitt notuð fyrir Commer
 
 Eftirfarandi mynd sýnir dæmi um villu sem gæti komið upp þegar afbrigði er valið á upplýsingasíðu afurðar.
 
-![Villa þegar afbrigði er valið á upplýsingasíðu afurðar](media/unhandled-rejection-error.jpg)
+![Villa þegar afbrigði er valið á upplýsingasíðu afurðar.](media/unhandled-rejection-error.jpg)
 
 Eftirfarandi mynd sýnir dæmi um svipaða villu í verkfærum kembiforrits í vafra (F12 forritunarverkfæri). Villuboðin minnast á brot á öryggisleiðbeiningu efnisins.
 
-![Villa í verkfærum kembiforrits](media/debugger-tools-error.JPG)
+![Villa í verkfærum kembiforrits.](media/debugger-tools-error.JPG)
 
-## <a name="resolution"></a>Upplausn
+## <a name="resolution"></a>Lausn
 
 ### <a name="disable-the-content-security-policy-for-the-site-in-commerce-site-builder"></a>Gera öryggisreglu efnis óvirka fyrir svæðið í vefsmið Commerce
 

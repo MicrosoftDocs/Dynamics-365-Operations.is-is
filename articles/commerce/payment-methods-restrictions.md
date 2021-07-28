@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804528"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352349"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Takmarka greiðslumáta fyrir skil án kvittunar
 
@@ -38,7 +38,7 @@ Til að setja upp greiðslumáta verður eftirfarandi verkefnum að vera lokið.
 3. Setja upp greiðsluhætti verslunar. Tengið greiðslumáta við hverja verslun og færið síðan inn stillingar fyrir einstakar verslanir fyrir hvern greiðslumáta verslunar.
 4. Setja upp kortagreiðsluhætti fyrir verslanir. Ljúkið kortauppsetningu fyrir alla greiðsluhætti korts sem verslunin tekur á móti.
 
-![Uppsetning verslunar](media/NoReceiptReturns1.png "Uppsetning smásöluverslunar") 
+![Uppsetning verslunar.](media/NoReceiptReturns1.png "Uppsetning smásöluverslunar") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Takmarka greiðslumáta fyrir skil án kvittunar
@@ -49,12 +49,12 @@ Sjálfgefið gildi á valkostinum er **Nei**, sem tryggir að greiðslumátinn s
 
 Þegar **Takmarka endurgreiðslur án kvittunar** er stillt á **Já** verður valinn greiðslumáti ekki leyfður fyrir endurgreiðslur. 
 
-![Greiðslumáti í verslun](media/NoReceiptReturns3.png "Greiðslumáti viðskiptakrafna") 
+![Greiðslumáti í verslun.](media/NoReceiptReturns3.png "Greiðslumáti viðskiptakrafna") 
 
 > [!NOTE]
 > Þegar gjaldkeri velur greiðslumáta sem takmarkar endurgreiðslu án kvittunar birtist skilaboð til að staðfesta viðeigandi greiðslumáta.
 
-![Viðunandi greiðslumátar](media/NoReceiptReturns4.png "Viðunandi greiðslumátar") 
+![Viðunandi greiðslumátar.](media/NoReceiptReturns4.png "Viðunandi greiðslumátar") 
 
 Ef færsla er bæði með endurgreiðslu með kvittun og án kvittunar, verður ekki farið eftir skilmálum takmörkunar vegna þess að færslan verður verkflæði endurgreiðslu með kvittun. 
 

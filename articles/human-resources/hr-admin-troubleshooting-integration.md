@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053396"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357290"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
@@ -37,7 +37,7 @@ Nei. Ef notanda Human Resources er breytt gæti samþætting milli Human Resourc
 | --- | --- | --- | --- |
 | Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Sjálfgefnar stillingar fyrir notanda Talent-forrits](media/DynamicsApplicationUser.png)
+![Sjálfgefnar stillingar fyrir notanda Talent-forrits.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Eru öll gögn samstillt eða bara sumar gagnaeiningar?
 
@@ -57,7 +57,7 @@ Sem stendur eru fjárhagsvíddir ekki í Dataverse og eru þar af leiðandi ekki
 
 Fyrir gögn sem eru í Finance en eru ekki til í Human Resources, skal tengja kerfin tvö saman með **Skilgreina tengla** í Human Resources.
 
-![Varpa fjárhagsvíddum](media/MapFinancialDimensions.png)
+![Varpa fjárhagsvíddum.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Stundum þegar ég flyt inn starfsmenn fara þeir í óvirka starfskrafta í Finance. Af hverju?
 
@@ -71,14 +71,14 @@ Samstilling gagna fylgir framkvæmdaráætlun. Samþættingin mun taka upp skrá
 
 Með því að nota „Ítarleg fyrirspurn“ geturðu síað og mótað upprunagögn áður en þau eru send inn í staðsetninguna.
 
-![Ítarleg fyrirspurn virkra starfskrafta](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Ítarleg fyrirspurn virkra starfskrafta.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance fyrir tiltekna einingu?
 
 Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í töflu Dataverse verða fyllt út í Human Resources.
 Hægt er að fylla út viðbótargögn í gegnum Power Apps.
 
-![Bæta við eða fjarlægja reiti í eða úr samþættingarverki](media/SpecifyFieldsIncludedInIntegration.png)
+![Bæta við eða fjarlægja reiti í eða úr samþættingarverki.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Ég setti upp samþættingu sem runuvinnslu en Human Resources missti tengingu við kerfi áfangastaðar. Hvernig get ég sent sama sett af breytingum til kerfi áfangastaðar?
 
@@ -126,21 +126,21 @@ Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 
 
 1. Sæktu vísi verksins úr Data Integrator (í þessu dæmi er hann „9“).
 
-    ![Sæktu vísi verks úr Data Integrator](media/CaptureTaskIndex.png)
+    ![Sæktu vísi verks úr Data Integrator.](media/CaptureTaskIndex.png)
 
 2. Rektu tíma framkvæmdar fyrir verkið.
 
-    ![Rektu tíma framkvæmdar fyrir verk](media/CaptureTimeOfExecution.png)
+    ![Rektu tíma framkvæmdar fyrir verk.](media/CaptureTimeOfExecution.png)
 
 3. Í Fjármálum skaltu bera kennsl á vísitölu - 1. Í þessu dæmi passar verkið með viðskeytið „8“ og tíma framkvæmdar með vísi „0“ við tíma framkvæmdar í skrefi 2.
 
-    ![Auðkenna vísi](media/IdentifyIndex.png)
+    ![Auðkenna vísi.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Eftir að hafa samþætt Human Resources og Finance, fæ ég ekki séð Human Resources-gögnin mín í Finance. Hvað geri ég?
 
 Samþættingin við Finance er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Human Resources-gögnin séu uppfærð og tiltæk í Dataverse. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í Power Apps með því að líta á gögnin innan gagnataflanna.
 
-![Gögn í Dataverse](media/DataInCDS.png)
+![Gögn í Dataverse.](media/DataInCDS.png)
 
 Ef gögnin birtast ekki eins og búist er við í Dataverse skaltu staðfesta að einingin sé studd í samþættingunni. Til að bæta við viðbótargögnum í Dataverse verður breyting af hálfu Windows að gerast.
 
@@ -165,7 +165,7 @@ Gakktu einnig úr skugga um að þú veljir rétta lögaðila fyrir tengda tengi
 
 Uppfæra gagnaeiningarnar í Finance með því að fara í **Gagnastjórnun \> Færibreytur ramma \> Einingastillingar \> Uppfæra einingalista.** Þetta ætti að taka nokkrar mínútur að klárast, síðan ættir þú að sjá þessar varpanir. Þetta mál kemur upp þegar ný verkefni eru búin til.
 
-![Vörpun reita vantar](media/MissingFieldMapping.png)
+![Vörpun reits sem vantar.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

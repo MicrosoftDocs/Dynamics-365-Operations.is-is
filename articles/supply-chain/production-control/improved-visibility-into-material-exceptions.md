@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: beacff21c6468e9c4b387a654e95f25572c0ede9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348369"
 ---
 # <a name="visibility-into-material-exceptions"></a>Innsýn í efnisundantekningar
 
@@ -37,7 +37,7 @@ Fyrir alla þrjá reiti, er hráefnisdagsetning uppskriftarlína (BOM) og formú
 
 Í eftirfarandi mynd táknar bláa stöngin framleiðsluverk sem er áætlað á tilfang. Áætlað er að verkið hefjast 1. maí 2017 (2017/05/01). Þessi dagsetning er hráefnisdagsetningin. Með öðrum orðum verður það efni sem eru úthlutað á verkið á uppskriftar- og formúlulínunum að vera tilbúið á þessum degi. Hinn dagsetning í myndinni, 6. maí 2017 (2017/05/06), táknar dagsetningu vinnusvæðisins. Í þessu dæmi er hráefnisdagsetningin fyrr en vinnusvæðisdagsetningin. Þess vegna er dagsetningin þegar notkun hráefnisins átti að hefjast liðin, og uppskriftar- og formúlulínurnar uppfylla viðmiðanirnar sem kalla á athygli.
 
-![Dæmi um framleiðsluverk þar sem dagsetning hráefnisins er fyrr en dagsetning vinnusvæðis](./media/improved-visibility.png)
+![Dæmi um framleiðsluverk þar sem dagsetning hráefnisins er fyrr en dagsetning vinnusvæðis.](./media/improved-visibility.png)
 
 ## <a name="unreleased-material-lines-needing-attention"></a>Óútgefnar efnislínur sem þarf að athuga
 

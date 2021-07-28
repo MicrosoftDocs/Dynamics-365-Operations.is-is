@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052266"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353663"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Búa til ACA-tilkynningar í fríðindastjórnun
 
@@ -48,11 +48,11 @@ Affordable Care-tryggingaflokkar auðvelda þér að stjórna þessum upplýsing
 
 1. Á vinnusvæðinu **Fríðindastjórnun** skal velja **Affordable Care-tryggingaflokk**.
 
-    ![Val á Affordable Care-tryggingaflokk](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Val á Affordable Care-tryggingaflokk.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Velja skal **Nýr** til að stofna nýjan Affordable Care-tryggingaflokk eða **Breyta** til að breyta fyrirliggjandi flokki.
 
-    ![Að velja nýjan eða breyta](./media/hr-benefits-management-aca-new.png)
+    ![Að velja nýtt eða breytt.](./media/hr-benefits-management-aca-new.png)
 
 3. Stilltu eftirfarandi reiti.
 
@@ -67,9 +67,9 @@ Affordable Care-tryggingaflokkar auðvelda þér að stjórna þessum upplýsing
     | Flokkur gildir frá | Fyrsta gilda dagsetning þessarar færslu. |
     | Flokkur gildir | Síðasta gilda dagsetning þessarar færslu. Ef engin lokadagsetning er til staðar skal slá inn **Aldrei**. |
 
-    ![Stofnun þekjuflokks](./media/hr-benefits-management-aca-new-group.png)
+    ![Stofnun þekjuflokks.](./media/hr-benefits-management-aca-new-group.png)
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
 ### <a name="assign-multiple-employees-to-an-affordable-care-coverage-group"></a>Úthluta mörgum starfsmönnum á Affordable Care-tryggingaflokk
 
@@ -77,11 +77,11 @@ Affordable Care-tryggingaflokkar auðvelda þér að stjórna þessum upplýsing
 2. Veljið flokkinn sem úthluta á starfsmönnum í.
 3. Veljið **Fjöldaúthlutun**.
 
-    ![Fjöldaúthlutun valin](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Fjöldaúthlutun valin.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Veljið starfsmenn af listanum og veljið síðan **Úthluta**.
 
-    ![Völdum starfsmönnum úthlutað í flokkinn](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Völdum starfsmönnum úthlutað í flokk.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Vinna með margar útgáfur af tryggingarmöguleikum
 
@@ -111,14 +111,14 @@ Til að færa inn undantekningar fyrir gildi Affordable Care-tryggingaflokks ska
 2. Veljið starfsmanninn í listanum.
 3. Í flipanum **Starf**, í hlutanum **Frekari upplýsingar**, skal velja **Affordable Care-trygging**.
 
-    ![Valkostum breytt fyrir einn starfsmann](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Valkostum breytt fyrir einn starfsmann.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Veljið **Breyta**.
 5. Fyrir hvern mánuð sem krefst breytinga skal velja gátreitinn **Hnekkja sjálfgildi** og síðan breyta hinum gildunum eftir þörfum.
 
-    ![Sjálfgefnum gildum hnekkt](./media/hr-benefits-management-aca-override-default.png)
+    ![Sjálfgefnum gildum hnekkt.](./media/hr-benefits-management-aca-override-default.png)
 
-6. Veljið **Vista**.
+6. Veldu **Vista**.
 
 ## <a name="report-health-care-coverage"></a>Tilkynna heilbrigðistryggingu
 
@@ -131,9 +131,9 @@ Til að gefa til kynna hvort tilkynna verður fríðindaáætlun skal fylgja þe
 3. Veljið **Breyta**.
 4. Stillið valkostinn **Tilkynningarskylt samkvæmt Affordable Care Act** á **Já**.
 
-    ![Skráning sjúkratrygginga](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Sjúkratrygging tilkynnt.](./media/hr-benefits-management-aca-report-coverage.png)
 
-5. Veljið **Vista**.
+5. Veldu **Vista**.
 
 Ef starfsmaður velur heilbrigðistryggingu fyrir skjólstæðing er tryggingartímabil skjólstæðingsins ákvarðað af dagsetningunni þegar hann var skráður eða fjarlægður. Tryggingadagsetningar fyrir skjólstæðing eru sjálfkrafa reiknaðar út frá tímabilinu þegar skjólstæðingurinn var tryggður og virkur í áætlun á skráningarárinu.
 
@@ -147,23 +147,23 @@ Hægt er að búa til eyðublöðin ACA 1095-B og 1095-C og síðan dreifa þeim
     > [!NOTE]
     > Ef eyðublað 1095-C er prentað fyrir fleiri en 500 starfsmenn, færðu fleiri en eina PDF-skrá afhenta. Mælt er með því að auka gildið í reitnum **Hámarksstærð skráar í megabætum** á síðunni **Færibreytur skjalastjórnunar** í **150**. (Til að opna þessa síðu á fljótlegan hátt er hægt að nota leitarsvæðið á yfirlitsstikunni.)
     >
-    > ![Hámarksstærð skráar breytt](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Hámarksstærð skráar breytt.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Til að athuga stöðu skýrslnanna og skoða þær skal nota leitarsvæðið á yfirlitsstikunni til að opna síðuna **Rafræn skýrslugerðarvinnsla**.
 
-    ![Leitað að síðu rafrænnar skýrslugerðarvinnslu](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Leitað að síðu rafrænnar skýrslugerðarvinnslu.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Veljið skýrslurnar sem á að skoða og veljið síðan **Sýna skrár**.
 
-    ![Skrár sýndar](./media/hr-benefits-management-aca-show-files.png)
+    ![Skrár sýndar.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Veljið **Opna**.
 
-    ![Skrá opnuð](./media/hr-benefits-management-aca-open-file.png)
+    ![Skrá opnuð.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Úr tilkynningastikunni sem birtist neðst í vafraglugganum skal opna zip-skrána og síðan velja skýrsluna. Hægt er að skoða eða prenta út PDF-skrána.
 
-    ![Sýnishorn af eyðublaði 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Sýnishorn af eyðublaði 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Skoða upplýsingar um ACA-tryggingu
 
@@ -178,7 +178,7 @@ Til að skoða þessar upplýsingar skal fylgja þessum skrefum.
 1. Á vinnusvæðinu **Fríðindastjórnun** skal velja **Affordable Care-trygging fyrir starfsmann**.
 2. Í reitnum **Heiti flokks** skal velja flokk.
 
-    ![ACA-trygging skoðuð](./media/hr-benefits-management-aca-view-coverage.png)
+    ![ACA-trygging skoðuð.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Ef einhverjum sjálfgefnum gildum úr Affordable Care-tryggingaflokknum hefur verið hnekkt, birtist stjarna við hliðina á gildinu sem var breytt. Ef gildin fyrir alla 12 mánuðina eru þau sömu og hefur ekki verið hnekkt birtist gildið í dálknum **Allir 12 mánuðirnir**.
 
@@ -198,11 +198,11 @@ Til að flytja út einhvern listanna í Microsoft Excel skal fylgja þessum skre
 
 Ef þarf að tilkynna tryggða einstaklinga vegna þess að þú býður upp á sjálfstryggða tryggingu, er hægt að skoða skjólstæðinga sem eru tryggðir undir fríðindaáætlunum sem eru merktar sem **ACA-tilkynningaskylt**. Á aðgerðasvæðinu skal velja **Skoða tryggingar skjólstæðinga**.
 
-![Tryggingar skjólstæðinga skoðaðar](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Tryggingar skjólstæðinga skoðaðar.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Upplýsingar um tryggingu skjólstæðinga starfsmanns eru sýndar.
 
-![Tryggingar skjólstæðinga](./media/hr-benefits-management-aca-dependents.png)
+![Tryggingar skjólstæðinga.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > Síðan sýnir aðeins fríðindaáætlanir sem eru merktar sem **ACA-tilkynningaskyldar**.

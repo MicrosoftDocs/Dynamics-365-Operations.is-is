@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102807"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359534"
 ---
 # <a name="trade-allowance-management"></a>Stjórnun afsláttar
 
@@ -59,7 +59,7 @@ Afsláttarsamningur er hvatningaráætlun þar sem viðskiptavinum, sem ná mark
 
 Sjóðum sem er úthlutað í afsláttarsamninga eru skráðir á síðunni **Sjóðir**. Til að opna síðuna **Sjóðir** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Sjóðir** \> **Sjóðir**.
 
-![Síðan Sjóðir](./media/trade-allowance-management-funds-page.png "Síðan Sjóðir")
+![Sjóðssíða.](./media/trade-allowance-management-funds-page.png "Síðan Sjóðir")
 
 Á síðunni **Sjóðir** er hægt að skoða upplýsingar um kynningarsjóði.
 
@@ -75,7 +75,7 @@ Eftir að skilgreiningin á sjóðnum er til staðar, er næsta skref í áætla
 
 Afsláttarsamningar eru skráðir á síðunni **Afsláttarsamningar**. Til að opna síðuna **Afsláttarsamningar** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Afsláttarsamningar**.
 
-![Síðan Afsláttarsamningar](./media/trade-allowance-management-agreements-page.png "Síðan Afsláttarsamningar")
+![Síða afsláttarsamninga.](./media/trade-allowance-management-agreements-page.png "Síðan Afsláttarsamningar")
 
 #### <a name="header"></a>Haus
 
@@ -103,7 +103,7 @@ Flipinn **Smásölutilvik** sýnir gerðir tilvika sem falla undir samning. Til 
 
 Þegar þú velur smásölutilvik og velur síðan flipann **Upphæðir**, finnast upplýsingar um viðburðinn.
 
-![Línur afsláttarsamninga](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamninga")
+![Afsláttarsamningslínur.](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamninga")
 
 Í kaflanum **Afsláttarlínur** tilgreinir þú magn eða upphæð á einhverju bili sem viðskiptavinurinn þarf að ná svo skilgreiningar fái umbunina.
 

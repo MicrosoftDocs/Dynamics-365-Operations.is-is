@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WorkGuidesManufacturing
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 61943
+ms.custom:
+- "61943"
+- intro-internal
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 15595c46f9d6ff91f6fd618859e9f059ae88bd78
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354013"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika
 
@@ -57,7 +59,7 @@ Eftirfarandi undirkaflar lýsa nokkrum völdum aðstæðum þar sem fyrirtæki �
 
 ### <a name="assembly"></a>Smölun
 
-![Nota leiðbeiningar í samsetningarverkum](media/instruction-guides-hero-assembly.png "Nota leiðarvísa í þjónustuverkum")
+![Nota leiðbeiningar í samsetningarverkum.](media/instruction-guides-hero-assembly.png "Nota leiðarvísa í þjónustuverkum")
 
 Leiðbeiningar í samsetningaraðgerðum sýna starfsmönnum þau verkfæri og hluta sem þeir þurfa á að halda og hvernig á að nota það í raunverulegum aðstæðum við vinnu.
 
@@ -65,7 +67,7 @@ Framleiðslustjórar geta búið til og úthlutað leiðsögn, til dæmis fyrir 
 
 ### <a name="service"></a>Þjónusta
 
-![Nota leiðarvísa í þjónustuverkum](media/instruction-guides-hero-service.png "Nota leiðarvísa í þjónustuverkum")
+![Nota leiðarvísa í þjónustuverkum.](media/instruction-guides-hero-service.png "Nota leiðarvísa í þjónustuverkum")
 
 Bjóða tæknimönnum upp á leiðsagnir á vinnusvæðinu og koma þannig í veg fyrir þörfina á því að tímasetja frekari heimsóknir.
 
@@ -73,7 +75,7 @@ Bjóða tæknimönnum upp á leiðsagnir á vinnusvæðinu og koma þannig í ve
 
 ### <a name="quality"></a>Gæði
 
-![Nota leiðarvísa í vinnu gæðaeftirlits](media/instruction-guides-hero-quality.png "Nota leiðarvísa í vinnu gæðaeftirlits")
+![Nota leiðarvísa í vinnu gæðaeftirlits.](media/instruction-guides-hero-quality.png "Nota leiðarvísa í vinnu gæðaeftirlits")
 
 Komið með nýja ferla og tryggið aukið samræmi með því að breyta þekkingu starfsmanna í endurtekið verkfæri.
 
@@ -81,13 +83,13 @@ Gæðastjórar geta úthlutað leiðbeiningum, t.d. á [afurðir](../../commerce
 
 ### <a name="certifications"></a>Vottanir
 
-![Nota leiðbeiningar fyrir verk sem tengjast vottun](media/instruction-guides-hero-certification.png "Nota leiðbeiningar fyrir verk sem tengjast vottun")
+![Nota leiðbeiningar fyrir verk sem tengjast vottun.](media/instruction-guides-hero-certification.png "Nota leiðbeiningar fyrir verk sem tengjast vottun")
 
 Gangið úr skugga um að sérhver starfsmaður uppfylli strangar kröfur með því að finna út hver þarf hjálp og hvar.
 
 ### <a name="safety"></a>Öryggi
 
-![Nota leiðarvísa í öryggisleiðbeiningum](media/instruction-guides-hero-safety.png "Nota leiðarvísa í öryggisleiðbeiningum")
+![Nota leiðarvísa í öryggisleiðbeiningum.](media/instruction-guides-hero-safety.png "Nota leiðarvísa í öryggisleiðbeiningum")
 
 Gefið fyrirmæli sem fara í gegnum hættuleg ferli í sýnidæmi áður en það er reynt við raunverulegar aðstæður. Með blönduðum veruleika geta starfsmenn öðlast reynslu af hættulegum ferlum í sýnidæmi.
 
@@ -119,9 +121,9 @@ Til að bjóða upp á eiginleikann í kerfinu, þarf að virkja skilgreiningarl
 
 Til skilgreina hvernig leiðsagnir birtast í vinnusal skal fara í **Blandaður veruleiki \> Dynamics 365 Guides \> Skilgreina samþættingu leiðsagna**.
 
-![Skilgreina samþættingu leiðsagna fyrir framleiðslu](media/instruction-guides-configure-integration.png "Skilgreina samþættingu leiðsagna fyrir framleiðslu")
+![Skilgreina samþættingu leiðsagna fyrir framleiðslu.](media/instruction-guides-configure-integration.png "Skilgreina samþættingu leiðsagna fyrir framleiðslu")
 
-Stilltu eftirfarandi reiti:
+Stilltu eftirfarandi svæði:
 
 - **Microsoft Dataverse URL** - Tilgreindu URL fyrir Microsoft Dataverse umhverfi þar sem þú býrð til leiðarvísa. Sniðið er „contoso.crm4.dynamics.com“, þar sem fyrsti hluti URL er yfirleitt nefndur eftir fyrirtækinu (svo sem „contoso.“), annar hlutinn er sértækur fyrir gagnasvæði í umhverfinu (svo sem „crm4.“), og síðasti hlutinn er lénið (t.d. „dynamics.com“). Ein leið til að finna rétt URL er að fara á [Home.Dynamics.com](https://home.dynamics.com/) og opna síðan Guides forritið. Þegar Guides opnast birtist URL í veffangastiku vafrans (aðeins skal taka grunnslóðina, sem ætti að líkjast fyrra dæmi). Þetta gildi er notað til að setja saman slóð fyrir leiðsagnirnar og verður kóðað inn í QR-kóðana.
 - **Stærð QR-kóða** - Stillið myndastærð QR-kóðans. Við mælum með því að velja stærð sem fyllir stærstan hluta skjásins, en ekki meira. Oftast er *15* gott gildi.
@@ -136,7 +138,7 @@ Stilltu eftirfarandi reiti:
 
 Notið síðuna **Allar leiðsagnir** til að sjá lista yfir allar tiltækar leiðsagnir í fyrirtækinu og allar úthlutanir á framleiðsluferli og tilföng. Til að opna hana skal fara í **Blandaður veruleiki \> Leiðsagnir \> Allar leiðsagnir**. Efst í listanum eru allar tiltækar leiðsagnir sýndar og hægt er að nota reitinn hér til að sía listann. Neðst í listanum eru allar úthlutaðar leiðsagnir sýndar og tækjastika er í boði til að stjórna þeim.
 
-![Stjórna leiðarvísum](media/instruction-guides-allguides.png "Stjórna leiðarvísum")
+![Stjórna leiðarvísum.](media/instruction-guides-allguides.png "Stjórna leiðarvísum")
 
 Eftirfarandi kaflar lýsa þeim tegundum hluta sem hægt er að úthluta leiðarvísa á. Í hverjum úthlutuðum leiðarvísi eru leiðbeiningar sem eru sjálfkrafa hengdar við viðeigandi framleiðsluverk sem verða í boði í vinnusalnum.
 
@@ -157,7 +159,7 @@ Leiðarvísi bætt við tilfang:
 1. Stækkið flýtiflipann **Tengdir leiðarvísar**.
 1. Veljið **Bæta við** úr tækjastikunni **Tengdir leiðarvísar**. Nýrri línu er bætt við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta. Ef til er mikill fjöldi leiðarvísa, er hægt að sía listann til að finna þann sem verið er að leita að.
-    ![Stjórna leiðarvísum](media/instruction-guides-allguides.png "Stjórna leiðarvísum")
+    ![Stjórna leiðarvísum.](media/instruction-guides-allguides.png "Stjórna leiðarvísum")
 
 ## <a name="associate-a-guide-to-a-resource-group"></a><a name="resource-groups"></a>Tengja leiðarvísi við tilfangaflokk
 
@@ -178,7 +180,7 @@ Til að bæta leiðarvísi við tilfangaflokk:
 1. Stækkið flýtiflipann **Tengdir leiðarvísar**.
 1. Veljið **Bæta við** úr tækjastikunni **Tengdir leiðarvísar**. Nýrri línu er bætt við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta. Ef til er mikill fjöldi leiðarvísa, er hægt að sía listann til að finna þann sem verið er að leita að.
-    ![Leiðarvísi bætt við tilfangaflokk](media/instruction-guides-resourcegroup.png "Leiðarvísi bætt við tilfangaflokk")
+    ![Leiðarvísi bætt við tilfangaflokk.](media/instruction-guides-resourcegroup.png "Leiðarvísi bætt við tilfangaflokk")
 
 ## <a name="associate-a-guide-to-a-released-product"></a><a name="released-products"></a>Tengja leiðarvísi við útgefna afurð
 
@@ -198,7 +200,7 @@ Leiðarvísi bætt við útgefna afurð:
 1. Síðan **Tengdir leiðarvísar** opnast fyrir valda afurð.
 1. Veljið **Bæta við** á aðgerðasvæðinu til að bæta nýrri línu við hnitanetið. 
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við útgefna afurð](media/instruction-guides-ReleasedProduct-AddGuides.png "Leiðarvísi bætt við útgefna afurð")
+    ![Leiðarvísi bætt við útgefna afurð.](media/instruction-guides-ReleasedProduct-AddGuides.png "Leiðarvísi bætt við útgefna afurð")
 
 ## <a name="associate-a-guide-to-a-formula"></a><a name="formulas"></a>Tengja leiðarvísi við formúlu
 
@@ -223,7 +225,7 @@ Leiðarvísi bætt við formúlu:
 1. Stækkið flýtiflipann **Tengdir leiðarvísar**.
 1. Veljið **Bæta við** úr tækjastikunni **Tengdir leiðarvísar**. Nýrri línu er bætt við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við formúlu](media/instruction-guides-Formula.png "Leiðarvísi bætt við formúlu")
+    ![Leiðarvísi bætt við formúlu.](media/instruction-guides-Formula.png "Leiðarvísi bætt við formúlu")
 
 ## <a name="associate-a-guide-to-a-formula-version"></a><a name="formula-versions"></a>Tengja leiðarvísi við formúluútgáfu
 
@@ -248,11 +250,11 @@ Leiðarvísi bætt við formúluútgáfu:
 1. Opnið flipann **Haus** fyrir ofan efsta flýtiflipann.
 1. Í flýtiflipanum **Formúluútgáfur** skal velja útgáfuna sem úthluta á leiðarvísi á.
 1. Í tækjastikunni **Formúluútgáfur** skal velja **Tengdir leiðarvísar**.
-    ![Opna leiðarvísana sem tengjast valdri formúluútgáfu](media/instruction-guides-FormulaVersion.png "Opna leiðarvísana sem tengjast valdri formúluútgáfu")
+    ![Opna leiðarvísana sem tengjast valdri formúluútgáfu.](media/instruction-guides-FormulaVersion.png "Opna leiðarvísana sem tengjast valdri formúluútgáfu")
 1. Síðan **Tengdir leiðarvísar** opnast fyrir formúluútgáfuna.
 1. Veljið **Bæta við** á aðgerðasvæðinu til að bæta nýrri línu við hnitanetið. 
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við formúluútgáfu](media/instruction-guides-FormulaVersionAddGuide.png "Leiðarvísi bætt við formúluútgáfu")
+    ![Leiðarvísi bætt við formúluútgáfu.](media/instruction-guides-FormulaVersionAddGuide.png "Leiðarvísi bætt við formúluútgáfu")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials"></a><a name="bom"></a>Bæta leiðarvísi við uppskriftir
 
@@ -275,7 +277,7 @@ Leiðarvísi bætt við uppskrift:
 1. Stækkið flýtiflipann **Tengdir leiðarvísar**.
 1. Veljið **Bæta við** úr tækjastikunni **Tengdir leiðarvísar**. Nýrri línu er bætt við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við uppskrift](media/instruction-guides-BOM.png "Leiðarvísi bætt við uppskrift")
+    ![Leiðarvísi bætt við uppskrift.](media/instruction-guides-BOM.png "Leiðarvísi bætt við uppskrift")
 
 ## <a name="associate-a-guide-to-a-bill-of-materials-version"></a><a name="bom-versions"></a>Bæta leiðarvísi við uppskriftarútgáfu
 
@@ -297,11 +299,11 @@ Til að bæta við leiðarvísinum fyrir uppskriftarútgáfu:
 1. Opnið flipann **Haus** fyrir ofan efsta flýtiflipann.
 1. Í flýtiflipanum **Uppskriftaútgáfur** skal velja útgáfuna sem úthluta á leiðarvísi á.
 1. Í tækjastikunni **Uppskriftaútgáfur** skal velja **Tengdir leiðarvísar**.
-    ![Opna leiðarvísana sem tengjast valdri uppskriftarútgáfu](media/instruction-guides-BOMVersion.png "Opna leiðarvísana sem tengjast valdri uppskriftarútgáfu")
+    ![Opna leiðarvísana sem tengjast valdri uppskriftarútgáfu.](media/instruction-guides-BOMVersion.png "Opna leiðarvísana sem tengjast valdri uppskriftarútgáfu")
 1. Síðan **Tengdir leiðarvísar** opnast fyrir uppskriftarútgáfuna.
 1. Veljið **Bæta við** á aðgerðasvæðinu til að bæta nýrri línu við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við uppskriftarútgáfu](media/instruction-guides-BOMVersionAddGuide.png "Leiðarvísi bætt við uppskriftarútgáfu")
+    ![Leiðarvísi bætt við uppskriftarútgáfu.](media/instruction-guides-BOMVersionAddGuide.png "Leiðarvísi bætt við uppskriftarútgáfu")
 
 ## <a name="associate-a-guide-to-a-route"></a><a name="routes"></a>Tengja leiðarvísi við leið
 
@@ -322,7 +324,7 @@ Leiðarvísi bætt við leið:
 1. Stækkið flýtiflipann **Tengdir leiðarvísar**.
 1. Veljið **Bæta við** úr tækjastikunni **Tengdir leiðarvísar**. Nýrri línu er bætt við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við leið](media/instruction-guides-Route.png "Leiðarvísi bætt við leið")
+    ![Leiðarvísi bætt við leið.](media/instruction-guides-Route.png "Leiðarvísi bætt við leið")
 
 ## <a name="associate-a-guide-to-a-route-version"></a><a name="route-versions"></a>Tengja leiðarvísi við leiðarútgáfu
 
@@ -340,11 +342,11 @@ Leiðarvísi bætt við leiðarútgáfu:
 1. Opnið leiðina sem á að úthluta leiðarvísi á.
 1. Í flýtiflipanum **Útgáfur** skal velja útgáfuna sem úthluta á leiðarvísi á.
 1. Í tækjastikunni **Útgáfur** skal velja **Tengdir leiðarvísar**.
-    ![Opna leiðarvísana sem tengjast valdri leiðarútgáfu](media/instruction-guides-RouteVersion.png "Opna leiðarvísana sem tengjast valdri leiðarútgáfu")
+    ![Opna leiðarvísana sem tengjast valdri leiðarútgáfu.](media/instruction-guides-RouteVersion.png "Opna leiðarvísana sem tengjast valdri leiðarútgáfu")
 1. Síðan **Tengdir leiðarvísar** opnast fyrir uppskriftarútgáfuna.
 1. Veljið **Bæta við** á aðgerðasvæðinu til að bæta nýrri línu við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta.
-    ![Leiðarvísi bætt við leiðarútgáfu](media/instruction-guides-RouteVersionAddGuide.png "Leiðarvísi bætt við leiðarútgáfu")
+    ![Leiðarvísi bætt við leiðarútgáfu.](media/instruction-guides-RouteVersionAddGuide.png "Leiðarvísi bætt við leiðarútgáfu")
 
 ## <a name="associate-a-guide-to-a-route-operation-relation"></a><a name="route-operation-relations"></a>Tengja leiðarvísi við tengsl leiðaraðgerðar
 
@@ -367,8 +369,8 @@ Leiðarvísi bætt við tengsl leiðaraðgerðar:
 1. Síðan **Upplýsingar um leið** opnast fyrir valda leið.
 1. Í efsta hnitanetinu skal velja aðgerðina sem á að fá leiðsögn.
 1. Í neðsta hnitanetinu skal velja sértæk tengsl (eða almennu tengslin **Allt**).
-    ![Velja aðgerð og síðan tengsl](media/instruction-guides-RouteOperationRelation.png "Velja aðgerð og síðan tengsl")
-1. Fyrir ofan neðsta hnitanetið skal opna flipann **Tengdir leiðarvísar**. ![Flipinn tengdir leiðarvísar](media/instruction-guides-RouteOperationRelation-AddGuide.png "Flipi tengdra leiðarvísa")
+    ![Velja aðgerð og síðan tengsl.](media/instruction-guides-RouteOperationRelation.png "Velja aðgerð og síðan tengsl")
+1. Fyrir ofan neðsta hnitanetið skal opna flipann **Tengdir leiðarvísar**. ![Flipinn tengdir leiðarvísar.](media/instruction-guides-RouteOperationRelation-AddGuide.png "Flipi tengdra leiðarvísa")
 1. Veljið **Bæta við** í tækjastikunni efst í neðsta hnitanetinu til að bæta nýrri línu við hnitanetið.
 1. Fyrir nýju línuna skal nota fellilistann í dálkinum **Heiti** til að velja leiðarvísinn sem á að úthluta. Það sem eftir er af línunni skal velja gátreitinn fyrir hvert samhengi þar sem valinn leiðarvísir á að vera tiltækur.
 
@@ -379,11 +381,11 @@ Leiðarvísi bætt við tengsl leiðaraðgerðar:
 
 Þegar starfsmaður opnar verklista í keyrsluviðmóti vinnusalar, finnur Supply Chain Management viðeigandi leiðarvísa fyrir verkin sem sýnd eru. Notið hnappinn **Leiðarvísar** til að skoða viðeigandi leiðarvísa.
 
-![Leiðarvísishnappur í keyrsluviðmóti vinnusalar](media/instruction-guides-Shopfloor1.png "Leiðarvísishnappur í keyrsluviðmóti vinnusalar")
+![Leiðarvísishnappur í keyrsluviðmóti vinnusalar.](media/instruction-guides-Shopfloor1.png "Leiðarvísishnappur í keyrsluviðmóti vinnusalar")
 
 Síðan skal setja á HoloLens og fá aðgang að viðkomandi leiðarvísi með því að skanna QR-kóðann og virkja leiðarvísinn.
 
-![QR-kóði til að fá aðgang að leiðsögnum með því að nota HoloLens](media/instruction-guides-Shopfloor2.png "QR-kóði til að fá aðgang að leiðsögnum með því að nota HoloLens")
+![QR-kóði til að fá aðgang að leiðsögnum með því að nota HoloLens.](media/instruction-guides-Shopfloor2.png "QR-kóði til að fá aðgang að leiðsögnum með því að nota HoloLens")
 
 ## <a name="resolving-the-logic-for-selecting-guides"></a><a name="logic"></a>Að leysa úr reglunni fyrir val á leiðarvísum
 
@@ -406,7 +408,7 @@ Hægt er að bæta leiðarvísum við eftirfarandi framleiðslugögn:
 - Ef leiðarútgáfa eða framleiðsluútgáfa er hengd við framleiðslupöntun, þá verða allir leiðarvísar sem hengdir eru við þessa útgáfu, og einnig leiðarvísar sem hengdir eru við yfirleið þessara útgáfu, sýndir í verkinu.
 - Ef mörg tengsl leiðaraðgerða eru skilgreind sem innihalda tengslin *Allt* og leiðarvísum er úthlutað á þau, verða aðeins leiðarvísarnir úr sértækustu tengslunum sýndir fyrir verkið.  
 
-![Skýringarmynd um úrlausn viðeigandi leiðarvísa](media/instruction-guides-Resolve.png "Skýringarmynd um úrlausn viðeigandi leiðarvísa")
+![Skýringarmynd um úrlausn viðeigandi leiðarvísa.](media/instruction-guides-Resolve.png "Skýringarmynd um úrlausn viðeigandi leiðarvísa")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

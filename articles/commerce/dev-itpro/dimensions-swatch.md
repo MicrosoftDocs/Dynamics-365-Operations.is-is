@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117228"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353863"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Stilla afurðarvíddargildi þannig að þau birtist sem sýnishorn
 
@@ -39,11 +39,11 @@ Birtingareiginleiki vídda sem sýnishorn gerir Commerce kleift að nota sextán
 
 Eftirfarandi mynd sýnir dæmi þar sem litir birtast sem litaspjald á upplýsingasíðu afurðar í Commerce.
 
-![Dæmi um liti sem sýndir eru sem litaspjald á upplýsingasíðu afurðar](../dev-itpro/media/swatch_pdp.png)
+![Dæmi um liti sem sýndir eru sem litaspjald á upplýsingasíðu afurðar.](../dev-itpro/media/swatch_pdp.png)
 
 Eftirfarandi mynd sýnir dæmi þar sem litir birtast sem litaspjald á listasíðu leitarniðurstaðna í Commerce.
 
-![Dæmi um liti sem sýndir eru sem litaspjald á listasíðu leitarniðurstaðna](../dev-itpro/media/swatch_searchresults.PNG)
+![Dæmi um liti sem sýndir eru sem litaspjald á listasíðu leitarniðurstaðna.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Virkja birtingareiginleika vídda sem sýnishorn í Commerce Headquarters
 
@@ -57,15 +57,15 @@ Skilgreininguna er hægt að gera á einhverju eftirfarandi stigi:
 
 - **Vídd** – Opnið síðuna fyrir vídd í Commerce Headquarters með því að leita að **Lit**, **Stærð** eða **Stíl**. Á hverri síðu er listi yfir víddargildin. Hægt er að stýra birtingarröðun, sextándakerfiskóða og vefslóðargildum mynda. Eftirfarandi mynd sýnir dæmi um stillingar á síðunni **Litir**.
 
-    ![Dæmi um skilgreiningu víddar á litasíðunni](../dev-itpro/media/swatch_Color.PNG)
+    ![Dæmi um skilgreiningu víddar á litasíðunni.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Víddaflokkur** – Í Dynamics 365 Commerce er hægt að nota eiginleikann **RefinerGroup** til að stofna víddaflokka. Ef víddaflokkar eru skilgreindir skal opna viðeigandi síðu með því að leita að **Litaflokki**, **Stærðarflokki** eða **Stílflokki**. Á hverri síðu er hægt að stjórna flokkagildum sextándakerfiskóða, myndavefslóðar og afmörkunar. Eftirfarandi mynd sýnir dæmi um stillingar á síðunni **Litaflokkar**.
 
-    ![Dæmi um skilgreiningu víddar á síðu litaflokks](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Dæmi um skilgreiningu víddar á síðu litaflokks.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Afurðarvídd (við stofnun afurðar)** – Þegar ný afurð er stofnuð er hægt að nota síðuna **Afurðarvíddir** til að slá inn víddargildin. Fyrir núverandi afurðir er mögulega búið að stilla reitina **Sextándakerfiskóði**, **URL** (fyrir myndir) og **RefinerGroup**. Þó er hægt að breyta gildinu eins og nauðsynlegt er. Eftirfarandi mynd sýnir dæmi um skilgreiningu á síðunni **Afurðarvíddir**.
 
-    ![Dæmi um skilgreiningu víddar á síðu afurðarvídda](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Dæmi um skilgreiningu víddar á síðu afurðarvídda.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Ferlið við stjórnun skilgreininga á sextándakerfiskóða og myndavefslóðar fylgir sama mynstrinu og er notað til að stjórna birtingarröð vídda.
@@ -76,7 +76,7 @@ Fyrir flestar litastærðir ætti að gefa upp litagildi sextándakerfiskóða �
 
 Eftirfarandi mynd sýnir dæmi þar sem litavíddir eru skilgreindar með því að nota gildi sextándakerfiskóða.
 
-![Dæmi um skilgreiningu víddar sem notar sextándakerfiskóða](../dev-itpro/media/swatch_color_hexcode.png)
+![Dæmi um skilgreiningu víddar sem notar sextándakerfiskóða.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Skilgreina víddargildi með myndavefslóðum
 
@@ -86,13 +86,13 @@ Hlaða verður upp hverri mynd í vefsmið Commerce og birta hana. Færið síð
 
 Eftirfarandi mynd sýnir dæmi þar sem vefslóðir mynda eru notaðar í skilgreiningu á síðunni **Litir**.
 
-![Dæmi um skilgreiningu víddar sem notar vefslóðir mynda](../dev-itpro/media/swatch_color_urls.PNG)
+![Dæmi um skilgreiningu víddar sem notar vefslóðir mynda.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Hægt er að nota sniðmát miðils til að skilgreina vefslóðir mynda, rétt eins og hægt er að gera fyrir myndir afurða og flokka. Þegar myndir eru hlaðnar upp í vefsmið þarf að vera samræmi í venjum skráarheita og skráarslóða.
 
 Eftirfarandi mynd sýnir dæmi þar sem vefslóðir mynda eru notaðar í skilgreiningu á sniðmáti miðils.
 
-![Dæmi um skilgreiningu á sniðmáti miðils](../dev-itpro/media/swatch_media_template.PNG)
+![Dæmi um skilgreiningu á sniðmáti miðils.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Skilgreina víddargildi með bæði sextándakerfiskóðum og myndavefslóðum
 
@@ -100,7 +100,7 @@ Fyrir flestar litavíddir er hægt að skilgreina bæði sextándakerfiskóða o
 
 Eftirfarandi mynd sýnir dæmi þar sem bæði sextándakerfiskóðar og vefslóðir mynda eru notaðar í skilgreiningu á síðunni **Litir**.
 
-![Dæmi um skilgreiningu víddar sem notar bæði sextándakerfiskóða og vefslóðir mynda](../dev-itpro/media/swatch_color_hexandimage.png)
+![Dæmi um skilgreiningu víddar sem notar bæði sextándakerfiskóða og vefslóðir mynda.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Skilgreina afmörkunarflokka
 
@@ -110,7 +110,7 @@ Ef víddargildi lita eru til dæmis „blár“, „bláköflóttur“, „tær 
 
 Dæmið í eftirfarandi mynd sýnir venslin milli eiginleikanna **Litur** og **RefinerGroup** í Commerce Headquarters.
 
-![Dæmi um stjórnun afmörkunarflokks](../dev-itpro/media/swatch_refiner_group.png)
+![Dæmi um stjórnun afmörkunarflokks.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Stjórna myndum í Commerce Site Builder
 
@@ -118,7 +118,7 @@ Ef vefslóðir mynda eru notaðar fyrir einhver víddargildi þarf að hlaða sa
 
 Eftirfarandi mynd sýnir dæmi þar sem svarglugginn **Hlaða upp skrám** er notaður til að hlaða upp myndum í miðlasafn vefsmiðs. Hún undirstrikar flokkana **Stærð**, **Litur** og **Stíll** sem er hægt að velja.
 
-![Dæmi um flokka myndaskráa við upphleðslu í miðlasafn vefsmiðs](../dev-itpro/media/swatch_sitebuilder.png)
+![Dæmi um flokka myndaskráa við upphleðslu í miðlasafn vefsmiðs.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Virkja birtingu sýnishorns á síðum rafrænna viðskipta
 

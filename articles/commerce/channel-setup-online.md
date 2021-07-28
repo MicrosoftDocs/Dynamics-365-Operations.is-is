@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936945"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351177"
 ---
 # <a name="set-up-an-online-channel"></a>Setja upp netrás
 
@@ -55,11 +55,11 @@ Til að stofna og stilla nýja netrás fylgirðu þessum skrefum.
 
 Eftirfarandi mynd sýnir stofnun nýrrar netrásar.
 
-![Ný netrás](media/channel-setup-online-1.png)
+![Ný netrás.](media/channel-setup-online-1.png)
 
 Eftirfarandi mynd sýnir dæmi um netrás.
 
-![Dæmi um netrás](media/channel-setup-online-2.png)
+![Dæmi um netrás.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Setja upp tungumál
 
@@ -75,7 +75,7 @@ Ef netverslunarsíðan mun styðja mörg tungumál skaltu stækka hlutann **Tung
 
 Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta**, **Greiðslumáta** og **Úthlutanir uppfyllingarflokks** á flipanum **Setja upp**.
 
-![Viðbótar uppsetningaraðgerðir netrásar](media/channel-setup-online-3.png)
+![Viðbótar uppsetningaraðgerðir netrásar.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -90,7 +90,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-retail-5.png)
+![Dæmi um greiðslumáta.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 
@@ -104,7 +104,7 @@ Fylgdu þessum skrefum til að breyta eða bæta við afhendingarmáta.
 
 Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
-![Setja upp afhendingarmáta](media/channel-setup-retail-7.png)
+![Setja upp afhendingarmáta.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Setja upp úthlutun uppfyllingarflokks
 
@@ -118,13 +118,13 @@ Til að setja upp úthlutun uppfyllingarflokks skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um uppstillingu úthlutunar uppfyllingarflokks.
 
-![Setja upp úthlutun uppfyllingarflokks](media/channel-setup-retail-9.png)
+![Setja upp úthlutun uppfyllingarflokks.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
-[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
 
 [Setja upp smásölurás](channel-setup-retail.md)
 

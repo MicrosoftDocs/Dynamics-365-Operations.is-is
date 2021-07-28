@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dc73f1bde3407c144dc1cd48283385c19713430e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747736"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349085"
 ---
 # <a name="workflow-system-overview"></a>Yfirlit yfir verkflæðiskerfi
 
@@ -39,7 +41,7 @@ Workflow er kerfi sem keyrir á Application Object Server (AOS). Verkflæðisker
 
 Verkflæði endurspeglar viðskiptaferli. Það skilgreinir hvernig skjal flæðir eða hreyfist gegnum kerfið með því að sýna hver verður að ljúka verki, taka ákvörðun eða samþykkja skjal. Til dæmis sýnir eftirfarandi teikning verkflæði fyrir kostnaðarskýrslur.
 
-![Verkflæði með einingum sem hefur verið úthlutað til notenda](./media/workflow_user.gif)
+![Verkflæði með einingum sem hefur verið úthlutað til notenda.](./media/workflow_user.gif)
 
 Til að skilja þetta verkflæði betur er gert ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 7,000 USD. Í þessari lýsingu þarf Ivan að endurskoða kvittanirnar sem Sam sendi til hans. Síðan verða Frank og Sue að samþykkja kostnaðarskýrsluna. Gerum nú ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 11.000. Í þessari lýsingu verður Ivan að endurskoða kvittanirnar og Frank, Sue og Ann að samþykkja kostnaðarskýrsluna.
 

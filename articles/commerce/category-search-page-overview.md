@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794350"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351274"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
 
@@ -31,7 +31,7 @@ ms.locfileid: "5794350"
 
 Sjálfgefin lendingasíða flokks er sú síðu sem notendur vefsíðna eru venjulega færðir til þegar þeir velja flokk í yfirlitsstigveldi. Flokkasíðan gerir þér kleift að fletta og einnig er hægt að flokka og fínstilla flokkaðar vörur.
 
-![Sjálfgefin lendingarsíða flokks](./media/SimpleCategoryLandingDressCategory.png)
+![Sjálfgefin lendingarsíða flokks.](./media/SimpleCategoryLandingDressCategory.png)
 
 Efst á síðunni er haus sem sýnir alla vöruflokka og aðrar síður sem vörustjórinn hefur flokkað. Stillingar eru gerðar sem hluti af stillingum yfirlitsstigveldis rásar. Neðst á síðunni er fótur sem inniheldur fljótlega tengla á ýmis efni sem kaupandi gæti haft áhuga á.
 
@@ -55,7 +55,7 @@ Eftirfarandi þættir eru nauðsynlegir fyrir flokk:
 
 Ef þú vilt að lendingasíða flokks hafi sérsniðnari reynslu fyrir ákveðinn flokk geturðu „auðgað“ lendingarsíðuna fyrir þann flokk. Til dæmis er hægt að bæta við markaðssetningarmyndbandi og sögufrásögn í flokknum til að ná athygli kaupandans. Sjá frekari upplýsingar [Bæta lendingarsíðu flokks](enrich-category-page.md).
 
-![Bætt lendingarsíða flokks](./media/CategoryLandingPages.png)
+![Bætt lendingarsíða flokks.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Niðurstöðusíður sjálfvirkra uppástungna og leitar
 
@@ -69,11 +69,11 @@ Hér eru nokkrar af þeim tegundum tillagna sem gætu verið sýndar:
 - **Afurðir** veita beina tengla á upplýsingasíðu afurða.
 - **Leitartillögur fyrir víðtækan flokk** skráir ýmsa flokka og lætur notendur leita að leitarorðinu í tilteknum flokki.
 
-![Heildstæð sjálfvirkni](./media/ImmersiveAutoSuggestUX.png)
+![Heildstæð sjálfvirk tillaga.](./media/ImmersiveAutoSuggestUX.png)
 
 Þegar notendur velja eitt af lykilorðum eða víðtækum leitarflokkum í leitartillögum eða ef það eru engar tillögur að leitarorðinu sem þeir slá inn, er þeim vísað á leitarniðurstöðusíðuna. Notendur geta síðan flett, flokkað og betrumbætt lista yfir leitarniðurstöður til að finna þá vöru sem óskað er.
 
-![Leitarlending](./media/SearchLanding.png)
+![Leitarlending.](./media/SearchLanding.png)
 
 Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 
@@ -94,7 +94,7 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 
 >[!NOTE]
 >Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
-![Færibreytur skilgreininga fyrir leit í skýinu](./media/CloudPoweredSearchConfigurationParameters.png)
+![Færibreytur skilgreininga fyrir leit í skýinu.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

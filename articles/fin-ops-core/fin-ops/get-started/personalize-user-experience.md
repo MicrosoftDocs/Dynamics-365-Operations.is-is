@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944534"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348680"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -85,7 +85,7 @@ Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á s
 
 Að auki eru helstu tegundir sérstillinga tiltækar með því að hægrismella á einingu og síðan velja **Sérsníða**. (Athugið að ekki er hægt að sérsníða allar einingar á síðunni.) Þegar þessi sérstillingaraðferð er notuð birtist *eiginleikagluggi* einingarinnar.
 
-![Sérsníða eiginleika í einingu](./media/cli-element-property-window.png)
+![Sérsníða eiginleika í einingu.](./media/cli-element-property-window.png)
 
 Þú getur notað eiginleikagluggann til að sérsníða einingu á eftirfarandi hátt:
 
@@ -107,7 +107,7 @@ Ef ætlunin er að gera margar breytingar á síðu eða gera breytingar sem ekk
 - Veldu **Sérsníða þessa síðu** í flokknum **Sérsníða** á flipanum **Valkostir** í aðgerðaglugga einhverrar síðu.
 - Veldu hnappinn **Stillingar** (gírtáknið) á leitarstikunni og veldu síðan **Sérsníða**.
 
-[![Verkfæraslá sérstillingar](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Verkfæraslá sérstillingar.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Farið um síðuna
 
@@ -147,7 +147,7 @@ Fyrir sumar síður sem innihalda lista er sérstillingaraðgerðin **Bæta við
 > [!NOTE]
 > Ef kveikt er á eiginleikanum [Vistaðar skoðanir](saved-views.md) er efnið sem þú ýtir á vinnusvæði beintengt við yfirlit. Fyrirspurn yfirlitsins er notuð til að sækja gögn í vinnusvæðinu og samsvarandi reitur eða tengill í vinnusvæðinu opnar síðuna í það yfirlit, þannig að fyrirspurn yfirlitsins og sérstillingarnar eru notaðar þar. Ef yfirlitið er uppfært verða samsvarandi einingar vinnusvæðis leiðréttar í nýju skilgreininguna á yfirliti.
 
-[![Bæta við vinnusvæði](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Bæta við vinnusvæði.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Til að bæta lista við vinnusvæði skal fyrst flokka eða afmarka listann á síðunni þannig að hún birti upplýsingarnar eins og þú vilt að þær birtist á vinnusvæðinu. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Velja vinnusvæði, og svo, í **Framsetning** reitnum skal velja **Listi**. Eftir að þú velur **Grunnstilla** birtist gluggi þar sem þú getur valið dálkana sem eiga að birtast á listanum í vinnusvæðinu. Þú getur einnig tilgreint merkið sem er notað fyrir listann á vinnusvæðinu.
 - Til að bæta við flís á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hann birti gögnin sem þú vilt að séu samantekin eða vilt fá skjótan aðgang að. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Velja vinnusvæði og svo í reitnum **Framsetning** skal velja **Flís**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir reit á vinnusvæðinu. Þú getur einnig tilgreint hvort flísin ættu að sýna fjölda. Eftir að reitum er bætt við vinnusvæðið geturðu valið það til að opna núverandi síðu úr vinnusvæðinu. Þú getur síðan skoðað afmarkaðan lista sem er tengdur reitnum.

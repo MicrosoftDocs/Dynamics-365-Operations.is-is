@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115192"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353989"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Kalla fram sjálfvirkni ferilflæðis til að stofna gæðapantanir
 
@@ -30,7 +30,7 @@ Sniðmát sjálfvirknivæðingar fyrir Supply Chain Management sem hægt er að 
 
 Til að fá yfirlit yfir þennan eiginleika og möguleika hans skal sjá eftirfarandi myndband: [Nota RPA til að stofna gæðapöntun í Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Valmögulegar sjálfvirkni með RPA](media/rpa-automation-options.png "Valmögulegar sjálfvirkni með RPA")
+![Valmögulegar sjálfvirkni með RPA.](media/rpa-automation-options.png "Valmögulegar sjálfvirkni með RPA")
 
 Sniðmátslausnin Power Automate inniheldur sjálfvirknivæðingu í skýi og sjálfvirknivæðingu borðtölvu sem gera stofnun gæðapantana sjálfvirka í Supply Chain Management.
 
@@ -38,7 +38,7 @@ Hægt er að hefja sjálfvirknina til að bregðast við mörgum tilvikum og mer
 
 Færibreytur lausnar eru teknar með til að stilla sjálfvirknina fyrir tiltekið notkunartilfelli í framleiðslustöð.
 
-![Stofna gæðapöntun](media/rpa-create-quality-roder.png "Stofna gæðapöntun")
+![Stofna gæðapöntun.](media/rpa-create-quality-roder.png "Stofna gæðapöntun")
 
 Fyrir ítarlegar leiðbeiningar um hvernig á að hlaða niður, setja upp og nota sýnishornalausnina fyrir sjálfvirkni á stofnun gæðapöntunar skal skoða [Gera stofnun gæðapöntunar sjálfvirka í Dynamics 365 Supply Chain Management með tölvustýrðri sjálfvirkni á ferlum með því að nota Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

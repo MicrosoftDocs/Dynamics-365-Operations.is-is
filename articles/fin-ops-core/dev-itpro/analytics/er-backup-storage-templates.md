@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743848"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351843"
 ---
 # <a name="backup-storage-of-er-templates"></a>Afritunargeymsla ER-sniðmáta
 
@@ -65,19 +65,19 @@ Til að setja upp **Keyra sjálfkrafa aðferðina við að endurheimta skemmd sn
 > [!NOTE]
 > Þessi færibreyta er skilgreind sem notandi forrita og skráð sem fyrirtækjasértæk.
 
-![Skilgreiningarsíða í ER](./media/GER-BackupTemplates-1.png)
+![Skilgreiningarsíða ER.](./media/GER-BackupTemplates-1.png)
 
 Eftirfarandi mynd sýnir dæmi um skilaboðin sem birtast þegar færibreytan **Keyra ferlið sjálfkrafa til að endurheimta brotin sniðmát í runu** er stillt á **Kveikt**.
 
-![Greiðslubókarsíða lánardrottins](./media/GER-BackupTemplates-2.png)
+![Greiðslubókarsíða lánardrottins.](./media/GER-BackupTemplates-2.png)
 
 Eftirfarandi mynd sýnir runuvinnsluna **Endurheimta biluð sniðmát úr innri afritun gagnagrunnsins** á síðunni **Runuvinnsla**.
 
-![Síða runuvinnslu](./media/GER-BackupTemplates-3.png)
+![Síða runuvinnslu.](./media/GER-BackupTemplates-3.png)
 
 Framkvæmdaskrá yfir lokna runuvinnslu **Endurheimta biluð sniðmát úr innri afritun gagnagrunnsins** inniheldur upplýsingar um sniðmát sem hafa verið endurheimt frá varabúnaðargeymslustað yfir á aðalgeymslustað.
 
-![Síða runuvinnslusögu](./media/GER-BackupTemplates-4.png)
+![Síða runuvinnslusögu.](./media/GER-BackupTemplates-4.png)
 
 Sjálfgefið er að kveikt er á ferlinu við að búa sjálfkrafa til afrit af sniðmátum sem búa í skilgreiningum á ER-sniðmátum. Til að hætta að taka afrit af sniðmátum stillirðu valkostinn **Hætta að gera afrit af sniðmáti** á **Já** á flipanum **Viðhengi** á síðunni **Rafrænar breytur**. Hægt er að opna þessa síðu úr vinnusvæðinu **Rafræn skýrslugerð**.
 
@@ -85,7 +85,7 @@ Ef þú stillir valkostinn **Hætta að búa til afrit af sniðmátum** á **Já
 
 Ef umhverfi er uppfært í Finance and Operations útgáfa 10.0.5 (október 2019) og ætlunin er að fara í nýtt umhverfi sem inniheldur skilgreiningar fyrir snið rafrænnar skýrslugerðar sem hægt er að keyra skal velja **Fylla út geymslu öryggisafrita** á síðunni **Rafrænar skýrslugerðarfæribreytur** áður en flutningurinn á sér stað. Þessi hnappur hefur ferlið við að stofna afrit af öllum tiltækum sniðmátum svo hægt sé að geyma þau í varabúnaðargeymslu ER fyrir sniðmát.
 
-![Síða rafrænna skýrslufæribreyta](./media/GER-BackupTemplates-5.png)
+![Færibreytusíða rafrænnar skýrslugerðar.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Handvirk endurheimt
 

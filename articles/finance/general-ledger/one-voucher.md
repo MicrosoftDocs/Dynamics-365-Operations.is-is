@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356704"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -33,18 +33,18 @@ Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðs
 
 - Setjið upp færslubókarheitið (**Fjárhagur** \> **Uppsetning færslubókar** \> **Færslubókarheiti**) þannig að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjalsnúmer**. Sérhverri línu sem bætt er við færslubókina er nú að finna í sama fylgiskjalinu. Því er hægt að færa inn fylgiskjalið sem marglínu fylgiskjal, sem lykil/mótlykil í sömu línunni eða sem samsetningu.
 
-    [![Stök lína](./media/same-line.png)](./media/same-line.png)
+    [![Stök lína.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > Skilgreiningu á Einu fylgiskjali nær **ekki** yfir tilvik þar sem færslubókarheiti eru sett upp eins og **Eitt fylgiskjalsnúmer eingöngu**, en notandinn færir þá inn fylgiskjal sem inniheldur aðeins fjárhagslyklagerðir. Í þessu efnisatriði þýðir Eitt fylgiskjal að það sé Eitt fylgiskjal sem inniheldur fleiri en einn seljanda, viðskiptavin, banka, eign eða verk.
 
 - Sláið inn marglínu fylgiskjal þar sem enginn mótlykill er.
 
-    [![Marglínu fylgiskjal](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Marglínu fylgiskjal.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Sláið inn fylgiskjal þar sem bæði lykillinn og mótlykillinn innihalda lyklagerð undirbókar, svo sem **lánardrottinn**/**lánardrottinn**, **viðskiptavinur**/**viðskiptavinur**, **lánardrottinn**/**viðskiptavinur** eða **banki**/**banki**.
 
-    [![Fylgiskjal undirbókar](./media/subledger.png)](./media/subledger.png)
+    [![Fylgiskjal undirbókar.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Vandamál varðandi eitt fylgiskjal
 
@@ -52,11 +52,11 @@ Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum
 
 Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 
-[![Dæmi um fylgiskjal með mörgum línum](./media/example.png)](./media/example.png)
+[![Dæmi um fylgiskjal með mörgum línum.](./media/example.png)](./media/example.png)
 
 Þá er búin til skýrslan **Útgjöld lánardrottins** á vinnusvæðinu **Fjármálainnsýn**. Í þessari skýrslu eru reikningsstöður kostnaðarlykla flokkaðir af lánardrottnaflokk og síðan lánardrottni. Við gerð skýrslunnar getur kerfið ekki ákvarðað hvaða lánardrottnaflokkar/lánardrottnar stofnuðu til kostnaðarins 250,00. Færsluupplýsingar vantar og þess vegna gerir kerfið ráð fyrir að fyrsti lánardrottin sem finnst í fylgiskjalinu hafi stofnað til 250,00. Þess vegna er 250,00 kostnaður, sem er hluti af stöðu aðallykils 600120, sýndur undir þeim lánardrottnaflokki/lánardrottni. Hins vegar er mjög líklegt að fyrsti lánardrottininn í fylgiskjalinu sé ekki rétti lánardrottininn. Þess vegna er skýrslan líklega rangt.
 
-[![Kostnaðarskýrsla eftir lánardrottni](./media/expenses.png)](./media/expenses.png)
+[![Kostnaðarskýrsla eftir lánardrottni.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Framtíð eins fylgiskjals
 

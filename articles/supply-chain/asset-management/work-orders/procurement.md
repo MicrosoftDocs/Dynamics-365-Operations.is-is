@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842226"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352763"
 ---
 # <a name="procurement"></a>Innkaup
 
@@ -36,7 +36,7 @@ Listasíðan **Innkaupabeiðni verkbeiðni** (**Eignastjórnun** > **Sameiginleg
 
 Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaupabeiðni verkbeiðni**.
 
-![Mynd 1](media/08-work-orders.png)
+![Mynd 1.](media/08-work-orders.png)
 
 
 Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaup verkbeiðni**) sýnir lista yfir innkaupapantanir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaup verkbeiðni** til að framkvæma ýmsar aðgerðir:
@@ -47,7 +47,7 @@ Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **
 
 Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaup verkbeiðni**.
 
-![Mynd 2](media/09-work-orders.png)
+![Mynd 2.](media/09-work-orders.png)
 
 
 Á bæði listasíðunni **Innkaup verkbeiðni** og listasíðunni **Innkaupabeiðni verkbeiðni** birtist tákn sem tengist stjórnun á afhendingardegi hægra megin við hverja línu. Ef táknið sýnir upphrópunarmerki í rauðum hring þýðir það að afhending á tengdri innkaupapöntun eða innkaupabeiðni kann að tefjast.
@@ -93,7 +93,7 @@ Til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupapöntunar
 
 Myndin hér að neðan sýnir dæmi um síðuna **Innkaupapöntun** með áherslu á **Verkþáttarnúmer**.
 
-![Mynd 3](media/10-work-orders.png)
+![Mynd 3.](media/10-work-orders.png)
 
 Á sama hátt, til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupabeiðnilínu verkbeiðni, á listasíðunni **Innkaupabeiðni verkbeiðni**, skaltu velja innkaupabeiðniskrána og síðan, í dálkinum **Innkaupabeiðni**, velurðu hlekkinn fyrir innkaupabeiðnina. Þú getur fundið reitinn **Verkþáttarnúmer** á flipanum **Verk** á flýtiflipanum **Línulýsing**.
 

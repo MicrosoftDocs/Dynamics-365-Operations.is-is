@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795430"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357811"
 ---
 # <a name="shipping-address-module"></a>Sendingaraðseturseining
 
@@ -37,13 +37,13 @@ Hægt er að skilgreina snið sendingaraðseturs í Commerce Headquarters fyrir 
 
 Eftirfarandi mynd sýnir dæmi um nýja einingu sendingaraðseturs á greiðsluferlissíðu.
 
-![Dæmi um einingu sendingaraðseturs á greiðsluferlissíðu](./media/ecommerce-shippingaddress.PNG)
+![Dæmi um einingu sendingaraðseturs á greiðsluferlissíðu.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
 | Nafn eiginleika | Gildi | lýsing |
 |---------------|--------|-------------|
-| Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Valfrjáls fyrirsögn fyrir einingu sendingaraðseturs. |
+| Haus | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Valfrjáls fyrirsögn fyrir einingu sendingaraðseturs. |
 | Sýna aðsetursgerð | **Satt** eða **Ósatt** | Ef þessi valfrjálsi eiginleiki er stilltur á **Satt**, verður gerð aðseturs, t.d. **Heimili** eða **Fyrirtæki** sýnt. Ef engin aðsetursgerð er tilgreind verður aðsetrið sjálfkrafa vistað sem **Gerð**=**Annað**. |
 | Kveikja á sjálfvirkum tillögum| **Satt** eða **Ósatt** | Ef þessi valfrjálsa eiginleiki er stilltur á **Satt** verða tillögur að sjálfvirkum aðsetrum veittar. Þessar tillögur eru knúnar af Bing-kortum. Frekari upplýsingar um hvernig setja á upp samþættingu Bing-korta á svæðinu er að finna í [Verslunarvalseining](store-selector.md). Þessi eiginleiki er í boði frá og með Commerce útgáfu 10.0.15.|
 |Valkostir fyrir sjálfvirkar tillögur| Númer| Ef sjálfvirkar aðseturstillögur eru virkar er hægt að tilgreina frekari valmöguleika, svo sem hámarksfjölda tillagna sem ætti að gefa upp.|

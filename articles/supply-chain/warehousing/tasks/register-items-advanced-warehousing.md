@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830835"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358003"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
 
@@ -53,14 +53,14 @@ Eftirfarandi aðstæður sýna hvernig á að stofna síðuhaus í komubók vör
 1. Stillið **Reikningsnúmer** á *1001*.
 1. Stillið **Númer** á númer innkaupapöntunarinnar sem var tengd fyrir þessa æfingu.
 
-    ![Vörukomubók](../media/item-arrival-journal-header.png "Vörukomubók")
+    ![Vörukomubók.](../media/item-arrival-journal-header.png "Vörukomubók")
 
 1. Veldu **Í lagi** til að búa til færslubókarhausinn.
 1. Í hlutanum **Færslubókarlínur** skal velja **Bæta við línu** og færa inn eftirfarandi gögn:
     - **Vörunúmer** – Stillið á *M9200*. **Svæðið**, **Vöruhúsið** og **Magnið** verður stillt út frá birgðafærslugögnunum fyrir 10 bretti (1000 ea.).
     - **Staðsetning** – stillt á  *001*. Þessi tiltekna staðsetning rekur ekki númeraplötur.
 
-    ![Lína vörukomubókar](../media/item-arrival-journal-line.png "Lína vörukomubókar")
+    ![Lína vörukomubókar.](../media/item-arrival-journal-line.png "Lína vörukomubókar")
 
     > [!NOTE]
     > Reiturinn **Dagsetning** ákvarðar dagsetninguna sem verður að skrá magn á lager fyrir þessa vöru í birgðum.  
