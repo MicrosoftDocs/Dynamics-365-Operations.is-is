@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11f5a77dc9d36436c8ab3e0634dc98aa5d2f35ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825663"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347141"
 ---
 # <a name="fault-management"></a>Villustjórnun
 
@@ -106,7 +106,7 @@ Fylgdu þessum skrefum til að búa til lista yfir bilunargerðir sem hægt er a
 
 7. Veldu **Vista** til að vista breytingarnar.
 
-![Síða bilunarhönnuðar](media/21-setup-for-work-orders.png)
+![Síða bilanahönnuðar.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Stofna orsakir bilunar
 

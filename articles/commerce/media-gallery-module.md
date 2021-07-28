@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271281"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346717"
 ---
 # <a name="media-gallery-module"></a>Eining efnissafns
 
@@ -41,7 +41,7 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 
 Í dæminu á eftirfarandi skýringarmynd, kaupgluggi á upplýsingasíðu afurðar hýsir afurðarmyndir með því að nota einingu efnissafns.
 
-![Dæmi um kaupglugga á upplýsingasíðu afurðar sem hýsir afurðarmyndir með því að nota einingu efnissafns](./media/ecommerce-pdp-buybox.PNG)
+![Dæmi um kaupglugga á upplýsingasíðu afurðar sem hýsir afurðarmyndir með því að nota einingu efnissafns.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Eiginleikar efnissafns
 
@@ -59,11 +59,11 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 
 Eftirfarandi mynd sýnir dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.
 
-![Dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt](./media/ecommerce-media-zoom.png)
+![Dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.](./media/ecommerce-media-zoom.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um einingu efnissafns sem er með sérvaldar myndir (þ.e. tilteknar myndir eru ekki háðar afurðarkenni eða síðuinnihaldi).
 
-![Dæmi um einingu efnissafns sem er með sérvaldar myndir](./media/ecommerce-media-curated.PNG)
+![Dæmi um einingu efnissafns sem er með sérvaldar myndir.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 

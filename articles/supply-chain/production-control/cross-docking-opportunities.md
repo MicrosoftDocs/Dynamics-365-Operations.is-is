@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190089"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347687"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
@@ -42,7 +42,7 @@ Afurð er tilkynnt sem lokið hjá staðsetningu framleiðslufrálags (3) og sta
 -   Ef eftirvagni hefur þegar verið úthlutuð staðsetningin, þá verður vörubílstjóranum sagt að hlaða afurðinni beint á eftirvagninn.
 -   Ef ekki er fyrirhuguð aðgerð til að flytja afurðina verður starfsmaður lyftarans sagt að koma afurðinni fyrir á staðsetningu í innra vöruhúsi (5).
 
-[![tækifærisdreifing frá dreifingarstöð](./media/scenario1.png)](./media/scenario1.png)
+[![tækifærisdreifing frá dreifingarstöð.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Skilgreining dreifingar frá dreifingarstöð
 Dreifing frá dreifingarstöð er skilgreind í **vinnureglum**. Vinnuregla inniheldur verkbeiðnigerð, staðsetningu og afurð. Í eftirfarandi dæmi er dreifing frá dreifingarstöð skilgreind fyrir afurð X og staðsetningu Y.

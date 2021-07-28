@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344271"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Samþætta Dynamics 365 Supply Chain Management (eignastýringu) við Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Til að tengja leiðarvísi við sniðmát viðhaldsgátlista skal fylgja þessu
     1. Í flýtiflipanum **Línur viðhaldsgátlista** skal velja línuna sem á að tengjast leiðarvísinum.
     1. Í flýtiflipanum **Tengdir leiðarvísar** skal velja **Bæta við leiðarvísi**.
 
-        ![Tengja leiðarvísi við línu viðhaldsgátlista](media/am-guides-integration-add-guide.png "Tengja leiðarvísi við línu viðhaldsgátlista")
+        ![Tengja leiðarvísi við línu viðhaldsgátlista.](media/am-guides-integration-add-guide.png "Tengja leiðarvísi við línu viðhaldsgátlista")
 
     1. Í reitnum **Heiti** skal velja leiðarvísi og síðan velja **Vista**.
 
-        ![Velja leiðarvísi í reitnum Heiti](media/am-guides-integration-select-guide.png "Velja leiðarvísi í reitnum Heiti")
+        ![Velja leiðarvísi í reitnum Heiti.](media/am-guides-integration-select-guide.png "Velja leiðarvísi í reitnum Heiti")
 
 1. Tengið sniðmát viðhaldsgátlista við gerð verks:
 
     1. [Búa til gerð viðhaldsverks](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) eða velja fyrirliggjandi gerð viðhaldsverks.
     1. Á aðgerðasvæðinu skal velja **Sjálfgefnar gerðir viðhaldsverks**.
 
-        ![Hnappur fyrir sjálfgefna gerð viðhaldsverks](media/am-guides-integration-job-defaults.png "Hnappur sjálfgildis gerða viðhaldsverks")
+        ![Hnappur fyrir sjálfgefna gerð viðhaldsverks.](media/am-guides-integration-job-defaults.png "Hnappur sjálfgildis gerða viðhaldsverks")
 
     1. Stofnaðu línu og veldu síðan **Vista**.
 
-        ![Stofna línu](media/am-guides-integration-add-line.png "Stofna línu")
+        ![Stofna línu.](media/am-guides-integration-add-line.png "Stofna línu")
 
     1. Á aðgerðasvæðinu skal velja **Viðhaldsgátlisti**.
 
-        ![Viðhaldsgátlistahnappur](media/am-guides-integration-maintenance-checklist.png "Viðhaldsgátlistahnappur")
+        ![Viðhaldsgátlistahnappur.](media/am-guides-integration-maintenance-checklist.png "Viðhaldsgátlistahnappur")
 
     1. Í flýtiflipanum **Viðhaldsgátlisti** skal bæta við línu og síðan breyta gildinu í reitnum **Gerð** í **Sniðmát**.
 
-        ![Breyta gildisgerð](media/am-guides-integration-checklist-lines.png "Breyta gildisgerð")
+        ![Breyta gildisgerð.](media/am-guides-integration-checklist-lines.png "Breyta gildisgerð")
 
     1. Í flýtiflipanum **Upplýsingar um línu**, í reitnum **Sniðmát**, skal velja sniðmátið sem þú tengdir leiðarvísinn við og velja síðan **Vista**.
 
-        ![Velja sniðmát](media/am-guides-integration-checklist-line-details.png "Velja sniðmát")
+        ![Velja sniðmát.](media/am-guides-integration-checklist-line-details.png "Velja sniðmát")
 
 1. [Búa til verkbeiðni](work-orders/manually-created-workorders.md#create-work-order) og veldu síðan gerð viðhaldsverks sem notar sniðmát viðhaldsgátlista sem þú tengdir leiðarvísinn við. Leiðarvísirinn tengist sjálfkrafa verkbeiðninni.
 
-    ![Velja gerð viðhaldsverks](media/am-guides-integration-create-work-order.png "Velja gerð viðhaldsverks")
+    ![Velja gerð viðhaldsverks.](media/am-guides-integration-create-work-order.png "Velja gerð viðhaldsverks")
 
 1. Skoðaðu leiðarvísinn sem tengist verkbeiðni og starfmönnum:
 
@@ -95,11 +95,11 @@ Til að tengja leiðarvísi við sniðmát viðhaldsgátlista skal fylgja þessu
     1. [Opnaðu viðhaldsgátlistann](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) fyrir verkbeiðnina.
     1. Veldu gátlistalínu til að sjá tengdan leiðarvísi.
 
-        ![Leiðarvísir sem tengist gátlistalínu](media/am-guides-integration-show-guide.png "Leiðbeiningar sem tengjast gátlistalínu")
+        ![Leiðarvísir sem tengist gátlistalínu.](media/am-guides-integration-show-guide.png "Leiðbeiningar sem tengjast gátlistalínu")
 
     1. Opna leiðarvísi á HoloLens.
 
-        ![Opna leiðarvísi á HoloLens](media/am-guides-integration-hololens-select.png "Opna leiðarvísi á HoloLens")
+        ![Opna leiðarvísi á HoloLens.](media/am-guides-integration-hololens-select.png "Opna leiðarvísi á HoloLens")
 
 > [!NOTE]
 > Einnig er hægt að tengja leiðarvísi beint í viðhaldsgátlista verkbeiðni eða verkgerðar.

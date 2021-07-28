@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893202"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345739"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
 
@@ -80,7 +80,7 @@ Af eftirfarandi ER-tengdum ástæðum er mælt með að hanna ER skilgreiningar 
 
 Skilgreiningar rafrænar skýrslugerðar sem eru hannaðar í þróunarumhverfi má [hlaða upp](#data-persistence-consideration) í prófunarumhverfi fyrir skilgreiningarmat (rétt samþætting vinnslu, nákvæmni niðurstaða og afköst) og gæðatryggingu, til dæmis réttmæti aðgangsheimilda sem eru knúin af hlutverkum, aðskilnaður á skyldum o.s.frv.. Hægt er að nota eiginleika til að skiptast á skilgreiningum rafrænnar skýrslugerðar í þessum tilgangi. Sannreyndar skilgreiningar rafrænnar skýrslugerðar er hægt að hlaða upp í LCS til að deila þeim með áskrifendum þjónustu eða [flytja inn](#data-persistence-consideration) í vinnsluumhverfi til innri nota.
 
-![Lífsferill skilgreiningar rafrænnar skýrslugerðar](./media/ger-configuration-lifecycle.png)
+![Lífsferill skilgreiningar rafrænnar skýrslugerðar.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Taka til greina varanleika gagna
 

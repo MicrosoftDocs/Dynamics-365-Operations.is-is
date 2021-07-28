@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d92427c1aeee92921b5b817b67530cf8aeddbbfb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744028"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344298"
 ---
 # <a name="configure-and-filter-workspaces"></a>Skilgreining og síun vinnusvæða
 
@@ -32,11 +32,11 @@ ms.locfileid: "5744028"
 
 Hægt er að breyta útlit og hegðun sumra vinnusvæða með uppfærslu stillinga sem eiga við allt vinnusvæðið. Þegar það er hægt að skilgreina vinnusvæði, inniheldur Aðgerðarúðu hnapp sem leiðbeinir um að smellt er á hann til að gera breytingar á skilgreiningu. Til dæmis í eftirfarandi skýringarmynd nefnist hnappurinn **Grunnstilla eigin vinnusvæði**.
 
-[![skilgreina-og-sía-vinnusvæði](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
+[![skilgreina-og-sía-vinnusvæði.](./media/configure-and-filter-workspaces.png)](./media/configure-and-filter-workspaces.png)
 
 Þegar smellt er á hnappinn birtist svargluggi, þar sem hægt er að breyta forskilgreindu stillingum fyrir vinnusvæðið. Tilteknar stillingar í þessum svarglugga eru mismunandi eftir vinnusvæðum og fara eftir ákveðnum stýringum og viðskiptagögnum sem eru tiltæk á vinnusvæðinu.
 
-[![skilgreina-mín-vinnusvæði](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
+[![skilgreina-mín-vinnusvæði.](./media/configure-my-workspace.png)](./media/configure-my-workspace.png)
 
 ## <a name="filtering-a-workspace"></a>Síun vinnusvæðis
 
@@ -46,11 +46,11 @@ Mörg vinnusvæða leyfa þér að sía efni sem birtist í þeim. Stýringar se
 
 Hægt er að sía allt vinnusvæðið með því að nota síu á allt vinnusvæðið. Sía fyrir allt vinnusvæðið verður í efra vinstra horni vinnusvæðisins. Val á tilteknu gildi í fellilista veldur því að innihald vinnusvæðisins er síað út frá því vali.
 
-[![vinnusvæði-sía](./media/workspace-filter.png)](./media/workspace-filter.png)
+[![vinnusvæði-sía.](./media/workspace-filter.png)](./media/workspace-filter.png)
 
 Þegar smellt er til að opna síu eru nokkrir valkostir boðnir.
 
-[![vinnusvæði-sía-útvíkkað](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
+[![vinnusvæði-sía-útvíkkað.](./media/workspace-filter-expanded.png)](./media/workspace-filter-expanded.png)
 
 Veljið valkost til að sía vinnusvæðis byggt á valkostinn.
 
@@ -58,7 +58,7 @@ Veljið valkost til að sía vinnusvæðis byggt á valkostinn.
 
 Ef einstaka hluta vinnusvæðisins eru með síum, er hægt að sía hverjum hluta sérstaklega. Í eftirfarandi skýringarmynd er sía (svæðið sem inniheldur texta &quot;Sía") dæmi um reitarsíu með frjálsum texta.
 
-[![vinnusvæði-hluti-síur](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
+[![vinnusvæði-hluti-síur.](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Eins og með síu alls vinnusvæðis þarf að velja eða færa inn gildi til að sía efni hlutans.
 

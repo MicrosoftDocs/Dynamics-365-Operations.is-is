@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755253"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347949"
 ---
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
@@ -174,7 +174,7 @@ Notið formúlu fyrir línusamtölu til að bæta við eða draga frá upphæði
 
 Í eftirfarandi dæmi vill notandi koma í veg fyrir prentun haussins og undirstrikana í línunni **Reiðufé alls** vegna þess að hvorugur lausafjárreikninganna sýndi neina virkni. Þess vegna, í línu 220 (sem, eins og **---**--- sniðkóði gefur til kynna, er sniðmátslína) í **Tengdar formúlur/línur/einingar** dálki, færir hann inn **250**, sem er línukóði upphæðarlínunnar sem á að fela.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Grunnlínan valin fyrir dálkútreikning
 Í vensluðu skipuriti eru einni eða fleiri grunnlínum úthlutað í línuskilgreiningu með því að nota **CBR**-kóða (Change Base Row). Síðan er vísað til grunnlínu með útreikningi í skilgreiningu dálks. Hér eru nokkur dæmi um CBR-útreikninga:
@@ -399,7 +399,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 2. Tvísmellið á hólfið í dálkinum **Tengill í fjárhagsvíddir**.
 3. Í svarglugganum **Víddir** er tvísmellt á hólf undir víddarheitinu.
 4. Í svarglugganum fyrir víddina skal velja **Stakur eða svið**.
-5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](media/browse.gif "Fletta")til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
+5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta.](media/browse.gif "Fletta") til að leita að tiltækum víddum. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
 6. Smellið á **Í lagi** til að loka svarglugganum fyrir víddina. Uppfærða víddin eða sviðið er birt í svarglugganum **Víddir**.
 7. Smellt er á **Í lagi** til að loka svarglugganum **Víddir**.
 
@@ -476,7 +476,7 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 
 | Vara                | Lýsing |
 |---------------------|-------------|
-| Stakur eða svið | Í reitnum **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn ![Fletta](media/browse.gif "Fletta") til að fletta yfir í reikning. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
+| Stakur eða svið | Í reitinn **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn til að ![fletta.](media/browse.gif "Fletta") til að fletta í reikningum. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
 | Víddargildissamstæða | Sláið heiti víddargildissamstæðu inn í reitinn **Heiti**. Til að búa til, breyta, afrita eða eyða samstæðu skal smella á **Vinna með samstæður víddargilda**. **Formúla** reiturinn er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 | Samtölur reikninga   | Í reitnum **Heiti** skal slá inn heiti reiknings eða fletta yfir í vídd samtölureikninga. Reiturinn fyrir **formúlu** er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 

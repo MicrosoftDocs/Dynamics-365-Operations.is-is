@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345501"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -73,7 +73,7 @@ Miðstöðin á eftirfarandi gögn:
 
 Einingarkvarðarnir eiga raunverulegu bylgjuvinnsluna (á borð við verkúthlutun, áfyllingarvinnu og eftirspurnarvinnu) þegar bylgja hefur verið losuð. Starfskraftar í vöruhúsi geta þar af leiðandi unnið úr vinnu á útleið með farsímaforriti Warehouse Management sem er tengt við einingarkvarðann.
 
-![Vinnsluflæði bylgju](./media/wes-wave-processing-ga.png "Vinnsluflæði bylgju")
+![Vinnsluflæði bylgju.](./media/wes-wave-processing-ga.png "Vinnsluflæði bylgju")
 
 ### <a name="process-work-and-ship"></a>Vinna úr vinnu og senda
 
@@ -81,7 +81,7 @@ Um leið og lokavinnsla vinnu kemur birgðum fyrir á lokaáfanga sendingarstað
 
 Um leið og miðstöðin hefur uppfært færslurnar í *Tekið til* getur hún unnið úr staðfestingu á sendingu á útleið og tengdum fylgiseðlum sölu eða sendingu flutningspöntunar fyrir hleðsluna.
 
-![Vinnsluflæði á útleið](./media/WES-outbound-processing-19.png "Vinnsluflæði á útleið")
+![Vinnsluflæði á útleið.](./media/WES-outbound-processing-19.png "Vinnsluflæði á útleið")
 
 ## <a name="inbound-process-flow"></a>Vinnsluflæði á innleið
 
@@ -107,11 +107,11 @@ Starfskrafturinn getur keyrt móttökuferlið með farsímaforriti Warehouse Man
 
 Ef þú ert ekki að nota ferlið *losa í vöruhús* og ert þar af leiðandi ekki að nota *vöruhúsapantanir*, getur miðstöðin unnið úr móttöku vöruhúss og úrvinnslu vinnu á eigin vegum úr einingarkvörðum.
 
-![Vinnsluflæði á innleið](./media/wes-inbound-ga.png "Vinnsluflæði á innleið")
+![Vinnsluflæði á innleið.](./media/wes-inbound-ga.png "Vinnsluflæði á innleið")
 
 Þegar framkvæmdar eru skráningar á innleið í gegnum móttökuferli vöruhúsaforrits gagnvart vöruhúsapöntun einingakvarðans, mun vinnuálag einingakvarðans senda miðstöðinni merki um að uppfæra tengdar færslur innkaupapöntunarlínu í *Skráðar*. Um leið og þessu er lokið er hægt að keyra innhreyfingarskjal innkaupapöntunar í miðstöðinni.
 
-![Vinnsluflæði á innleið](./media/WES-inbound-processing-19.png "Vinnsluflæði á innleið")
+![Vinnsluflæði á innleið.](./media/WES-inbound-processing-19.png "Vinnsluflæði á innleið")
 
 ## <a name="supported-processes-and-roles"></a>Studdar vinnslur og hlutverk
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219788"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346595"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Samstilling innkaupa milli Supply Chain Management og Field Service
 
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Supply Chain Management býður upp á öfluga innkaupavi
 
 Eftirfarandi mynd sýnir töflur í báðum kerfum og hvernig þeim er varpað hvort í annað. Innkaupapantanir í Field Service vísa í línu *reiknings* en innkaupapantanir í Supply Chain Management vísa aftur á móti í línu *lánardrottins*. Til að leysa úr samþættingu notar tvöföld skráning vísun til að tengja línur *lánardrottins* við línur *reiknings*. Frekari upplýsingar er að finna í [Samþætt lánardrottinssniðmát](vendor-mapping.md).
 
-![Varpanir fyrir innkaup](media/scm-field-service-tables.png)
+![Varpanir fyrir innkaup.](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Forkröfur
 

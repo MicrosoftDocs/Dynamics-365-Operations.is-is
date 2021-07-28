@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344689"
 ---
 # <a name="configure-dataverse-integration"></a>Skilgreina Dataverse-samþættingu
 
@@ -48,15 +48,15 @@ Sjálfgefið er að slökktu sé á samþættingu gagna milli Human Resources og
 
 1. Í mannauðssíðunni þar sem þú vilt skoða eða stilla stillingar fyrir samþættingu við Dataverse, veldu reitinn **Kerfisstjórnun**.
 
-    [![Reiturinn Kerfisstjórnun](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Reitur kerfisstjórnunar.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Veldu flipann **Tenglar**.
 
-    [![Tegnlaflipi](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Tenglaflipi.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Undir **Sameiningar**, veldu **Dataverse stillingar**.
 
-    [![Dataverse skilgreiningartengill](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Dataverse skilgreiningartengill.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Kveiktu eða slökktu á samþættingu gagna milli mannauðs og Dataverse
 
@@ -67,7 +67,7 @@ Sjálfgefið er að slökktu sé á samþættingu gagna milli Human Resources og
 
 - Til að slökkva á samþættingu skaltu stilla valkostinn á **Nei**.
 
-[![Kveikt eða slökkt á Dataverse samþættingu](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![Kveikt eða slökkt á Dataverse samþættingunni.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Við mælum eindregið með því að slökkva á Dataverse-samþættingu þegar gagnasamþættingarverk er framkvæmt. Stórar upphleðslur gagna geta haft umtalsverð áhrif á afköst. Til dæmis getur upphleðsla á 2000 starfsmönnum tekið nokkrar klukkustundir þegar kveikt er á samþættingu, og innan við klukkustund þegar slökkt er á henni. Tölurnar sem gefnar eru upp í þessu dæmi eru til sýnis eingöngu. Tíminn sem það nákvæmlega tekur að flytja inn færslur getur verið mjög breytilegur vegna ýmissa þátta.
@@ -98,7 +98,7 @@ Ef þú lendir í vandræðum við samstillingu gagna milli mannauðs og Dataver
 
 - Til að fjarlægja tengingu á færslu Human Resources og Dataverse-línu skal velja töfluna í reitnum **Dataverse-tafla** og síðan velja **Hreinsa rakningarupplýsingar**.
 
-[![Hreinsun rakningarupplýsinga](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Hreinsa rakningarupplýsingar.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Til að keyra fulla samstillingu á töflunni eftir að rakning er hreinsuð skal sjá næsta skref.
 
@@ -116,7 +116,7 @@ Til að keyra fulla samstillingu á töflu milli Human Resources og Dataverse:
 
 2. Veldu **Samstilla núna**.
 
-[![Keyri fulla samstillingu](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Keyra fulla samstillingu.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830763"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344147"
 ---
 # <a name="work-split"></a>Skipta vinnu
 
@@ -51,7 +51,7 @@ Eiginleikinn *Skipta verki* bætir eftirfarandi tveimur hnöppum við flipann **
 - **Skipta verki** – Skipta núverandi vinnukenni niður í mörg smærri vinnukenni sem mismunandi starfskraftar geta unnið úr.
 - **Hætta við lotu verkskiptingar** - Hættir við lotu verkskiptingar og gerir verk tiltækt fyrir úrvinnslu.
 
-![Hnappar fyrir Skipta verki og Hætta við lotu verkskiptingar](media/Work_split_buttons.png "Hnappar fyrir Skipta verki og Hætta við lotu verkskiptingar")
+![Hnappar fyrir Skipta verki og Hætta við lotu verkskiptingar.](media/Work_split_buttons.png "Hnappar fyrir Skipta verki og Hætta við lotu verkskiptingar")
 
 > [!IMPORTANT]
 > Hnappurinn **Skipta verki** verður ekki í boði ef einhver eftirfarandi skilyrða eru uppfyllt:
@@ -94,7 +94,7 @@ Til að skipta vinnu skal fylgja þessum skrefum.
 
     Reiturinn **Ástæða fyrir vinnulokun** fyrir núverandi vinnu verður stilltur á *Skipta vinnu* og lokað verður fyrir vinnuna.
 
-    ![Ástæða lokunar](media/Blocking_reason.png "Ástæða lokunar")
+    ![Ástæða lokunar.](media/Blocking_reason.png "Ástæða lokunar")
 
 1. Veljið línurnar sem á að fjarlægja úr núverandi vinnukenni og bætið við nýtt vinnunkenni. Eftirfarandi tilvik gerast:
 

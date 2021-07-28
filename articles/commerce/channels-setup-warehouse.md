@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800496"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345985"
 ---
 # <a name="warehouse-set-up"></a>Uppsetning vöruhúss
 
@@ -45,7 +45,7 @@ Fylgdu þessum skrefum til að stilla vöruhús.
 
 Eftirfarandi mynd sýnir dæmi um vöruhússvæði.
 
-![Dæmi um vöruhússvæði](media/warehouse-site.png)
+![Dæmi um vöruhússvæði.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Setja upp vöruhús
 
@@ -98,7 +98,7 @@ Fylgdu þessum skrefum til að setja upp birgðastaðsetningar vöruhúss fyrir 
     
 Eftirfarandi mynd sýnir uppsetning birgðastaðsetningar vöruhúss í San Francisco.
 
-![Dæmi um uppsetningu birgðastaðsetningar](media/warehouse-inventory-locations.png)
+![Dæmi um uppsetningu birgðastaðsetningar.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Lokin uppsetning vöruhúss
 
@@ -121,13 +121,13 @@ Fylgið eftirfarandi skrefum til að ljúka uppsetningu vöruhúss.
 
 Eftirfarandi mynd sýnir upplýsingar um stillt vöruhús.
 
-![Dæmi stillt vöruhús](media/warehouse-sample.png)
+![Dæmi um skilgreint vöruhús.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir vöruhúsakerfi](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
 

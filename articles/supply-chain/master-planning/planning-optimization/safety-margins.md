@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908294"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347735"
 ---
 # <a name="safety-margins"></a>Öryggismörk
 
@@ -41,7 +41,7 @@ Tilgangurinn með öryggismörkum er að virkja uppsetningu sem býður upp á e
 
 Eftirfarandi mynd sýnir hvernig þessi öryggismörk eiga við yfir tíma.
 
-![Öryggismörk](media/safety-margins-1.png)
+![Öryggismörk.](media/safety-margins-1.png)
 
 Öll mörk eru skilgreind í dögum. Sjálfgefið gildi, *0* (núll), gefur til kynna að engin mörk eru notuð. Ef mörg mörk eru sett upp, bætast þau öll við heildartímann frá *pöntunardagsetningu* birgða til *þarfadagsetningar* eftirspurnar. Til dæmis er uppsetning ekki með neinn afhendingartíma og allar þrjár gerðirnar af mörkum eru stilltar á einn dag. Í slíku tilfelli verða þrír dagar á milli dagsetningar birgðapöntunar og þarfadagsetningar eftirspurnar, þannig að ef pöntunardagsetningin er 1. júlí verður dagsetning þarfa 4. júlí.
 
@@ -51,7 +51,7 @@ Mörk innhreyfinga er líklega mest notuð af öllum þremur öryggismörkunum. 
 
 Eftirfarandi mynd sýnir mörk innhreyfinga.
 
-![Mörk innhreyfinga](media/safety-margins-2.png)
+![Mörk innhreyfinga.](media/safety-margins-2.png)
 
 Mörk innhreyfinga er yfirleitt notuð sem biðtími til að tryggja að tími gefist til vöruhúsaskráningar eða annarra tímafrekra ferla sem eru ekki hluti af almennum afhendingartíma í kerfinu. Fyrir innkaup er einn ávinningur sá að *afhendingardagur* innkaupapöntunarinnar er færður fram eftir þörfum. Ef afhendingartími er aukinn í stað þess að nota öryggismörk verður lánardrottinn samt beðinn um að afhenda á síðustu stundu.
 
@@ -66,7 +66,7 @@ Athugið að mörk innhreyfinga eru ekki notuð þegar lagerbirgðir eru notaði
 
 Eftirfarandi mynd sýnir endurpöntunarmörkin.
 
-![Endurpöntunarmörk](media/safety-margins-3.png)
+![Endurpöntunarmörk.](media/safety-margins-3.png)
 
 Endurpöntunarmörkum er bætt við á undan afhendingartíma vörunnar fyrir allar áætlaðar pantanir á meðan aðaláætlanagerð stendur. Þess vegna tryggir það frekari tíma til að leggja fram birgðapöntun. Þessi mörk eru yfirleitt notuð sem biðtími til að tryggja tíma fyrir samþykktarferli eða aðra innri ferla sem eru nauðsynlegir við stofnun birgðapantana. Endurpöntunarmörkin eru sett á milli *pöntunardagsetningar* birgða og *upphafsdagsetningar*.
 
@@ -77,7 +77,7 @@ Endurpöntunarmörkum er bætt við á undan afhendingartíma vörunnar fyrir al
 
 Eftirfarandi mynd sýnir mörk úthreyfinga.
 
-![Mörk úthreyfinga](media/safety-margins-4.png)
+![Mörk úthreyfinga.](media/safety-margins-4.png)
 
 Mörk úthreyfinga eru dregin frá eftirspurnardagsetningu þarfa í aðaláætlanagerð. Það tryggir að þú hafir tíma til að bregðast við og senda eftirspurnarpantanir á innleið. Þessi mörk eru yfirleitt notuð sem biðtími til að tryggja tíma fyrir sendingu og tengda vöruhúsaferli á útleið.
 
@@ -165,7 +165,7 @@ Eftirfarandi mynd sýnir fylki sem tekur saman hvaða dagatöl eiga við þegar 
 - **Vöruhús (VH):** Gulur
 - **Lánardrottinn (L):** Blár
 
-[![Yfirlit uppsetningar dagatals - fylki](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Yfirlit uppsetningar dagatals - fylki.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Reiknar seinkun
 
@@ -173,7 +173,7 @@ Allar þrjár gerðir öryggismarka eru höfð með þegar kerfið ákveður hvo
 
 Til dæmis er vara með afhendingartíma upp á einn dag og innhreyfingarmörk upp á þrjá daga. Sölupöntun fyrir þessa vöru er stillt eins og krafist í dag. Í slíku tilfelli er töfin reiknuð sem *afhendingartími* + *mörk innhreyfinga* = fjórir dagar. Þess vegna, ef í dag er 14. ágúst, leiðir fjögurra daga töf til afhendingar þann 18. ágúst. Eftirfarandi mynd sýnir þetta dæmi.
 
-![Dæmi um útreikning á töfum](media/safety-margins-delays.png)
+![Dæmi um útreikning á töfum.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

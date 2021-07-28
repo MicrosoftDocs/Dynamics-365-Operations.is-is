@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 252829ac2d070833023f1b49aef615cc376f37b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117084"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344641"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tegundir viðhaldsstarfa, flokkar, afbrigði, viðskipti og gátlistar
 
@@ -54,7 +54,7 @@ Fyrst seturðu upp nauðsynlega tegundaflokka viðhaldsverka, tegundaafbrigði v
 
     Eftir að þú hefur tengt tegundaflokka viðhaldsverka við gerðir viðhaldsverka sýnir reiturinn **Vinnslugerðir** fjölda tegunda viðhaldsverka sem tengjast þessum tegundaflokkum viðhaldsverka.
 
-![Síðan Tegundaflokkar viðhaldsverka](media/01-setup-for-work-orders.png)
+![Síða yfir flokka af viðhaldsverkgerðum.](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Búðu til tegundaafbrigði viðhaldsverks
 
@@ -68,7 +68,7 @@ Fyrst seturðu upp nauðsynlega tegundaflokka viðhaldsverka, tegundaafbrigði v
 
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Vinnslugerðir** fjölda tegunda viðhaldsverka sem hefur verið bætt við þetta tegundafbrigði viðhaldsverka.
 
-![Síðan Tegundaafbrigði viðhaldsverka](media/02-setup-for-work-orders.png)
+![Síða með afbrigði af viðhaldsvinnslugerðum.](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Stofnaðu viðskipti viðhaldsverks
 
@@ -89,7 +89,7 @@ Fyrst seturðu upp nauðsynlega tegundaflokka viðhaldsverka, tegundaafbrigði v
 
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Vottorð** fjölda vottorða sem hefur verið bætt við þessi viðskipti með viðhaldsverk.
 
-![Síðan Viðskipti viðhaldsverka](media/03-setup-for-work-orders.png)
+![Viðskiptasíða viðhaldsvinnslu.](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Búðu til breytu fyrir viðhaldsgátlista
 
@@ -110,7 +110,7 @@ Fyrst seturðu upp nauðsynlega tegundaflokka viðhaldsverka, tegundaafbrigði v
 6. Í reitnum **Gildi** skal slá inn gildislýsingu.
 7. Í reitnum **Niðurstaða** skal velja niðurstöðu fyrir línuna.
 
-![Síðan Breytur viðhaldsgátlista](media/04-setup-for-work-orders.png)
+![Breytusíða viðhaldsgátlista.](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Búðu til sniðmát fyrir viðhaldsgátlista
 
@@ -139,7 +139,7 @@ Sniðmát viðhaldsgátlista er hægt að nota sem sameiginlegan hóp verka sem 
 
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Athuganir** heildarfjölda gátlistalína í sniðmátinu þínu. Þetta númer inniheldur ívafðar línur í öllum fyrirliggjandi sniðmátum sem þú hefur vísað í í sniðmátinu.
 
-![Síðan Sniðmát viðhaldsgátlista](media/05-setup-for-work-orders.png)
+![Sniðmátssíða viðhaldsgátlista.](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Stofnaðu gerð viðhaldsverks
 
@@ -162,7 +162,7 @@ Sniðmát viðhaldsgátlista er hægt að nota sem sameiginlegan hóp verka sem 
 
 11. Á flýtiflipanum **Gerðir eigna** geturðu bætt eignategundum við gerð viðhaldsverka.
 
-![Síðan Gerðir viðhaldsverka](media/06-setup-for-work-orders.png)
+![Síða viðhaldsverkgerða.](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Búðu til sjálfgefnar tegundir viðhaldsverka og tengdar spár, gátlista viðhalds, verkfæri, lýsingu og viðhengi
 
@@ -231,7 +231,7 @@ Sniðmát viðhaldsgátlista er hægt að nota sem sameiginlegan hóp verka sem 
 31. Til að afrita sjálfgefna gerð viðhaldsverka yfir í aðra sjálfgefna gerð viðhaldsverka skaltu velja sjálfgefna línu gerðar viðhaldsverka til að afrita aðra uppsetningu, velja **Afrita uppsetningu** og veldu síðan sjálfgefna gerð viðhaldsverkefna sem á að afrita.
 32. Til að skoða lista yfir eignir, viðhaldsáætlanir eða viðhaldsumferðir sem eru að nota sjálfgefna línu gerðar viðhaldsverka skaltu velja þá línu og síðan **Notað af**.
 
-![Síðan Tegundasjálfgildi viðhaldsverka](media/07-setup-for-work-orders.png)
+![Síða með sjálfgefnum viðhaldsverkgerðum.](media/07-setup-for-work-orders.png)
 
 Þegar kerfið velur fyrirliggjandi gerðarsjálfgildi viðhaldsverks sem ætti að nota í verkbeiðnilínu er valið byggt á eigninni og tengdri uppstillingu eignagerðar. Eignastýring fer í gegnum allar sjálfgefnar færslur viðhaldsverka sem eru tengdar þeirri gerð viðhaldsverka sem tengist eignategundinni til að leita að mögulegri samsvörun. Það athugar alltaf sértækustu samsetninguna fyrst. Með öðrum orðum, til að finna sértækustu samsetninguna leitar Eignastjórnun fyrst að hugsanlegri samsvörun fyrir reitinn **Viðskipti**. Ef engin samsvörun er fundin, skoðar hún hvort samsvörun sé fyrir reitinn **Afbrigði af viðhaldsstörfum**. Ef engin samsvörun finnst leitar hún að samsvörun fyrir reitinn **Tegund viðhaldsverks**, og svo framvegis (**Viðskipti**, síðan **Tegundaafbrigði viðhaldsverka**, síðan **Gerð viðhaldsverks**, síðan **Eignir**, síðan **Tegund**, síðan **Framleiðandi** og loks **Gerð eigna**). Ef engin samsvörun finnst er sjálfgefna skráin þar sem aðeins gerð viðhaldsverkefna er valin notuð.
 
@@ -252,7 +252,7 @@ Eftir að þú hefur búið til nauðsynlegar sjálfgefnar samsetningar á gerð
 4. Veldu samsetningu á gerð viðhaldsverka til að sjá tengda uppsetningu fyrir viðhaldsgátlista, spár og verkfæri. Kaflinn **Upplýsingar** á flýtiflipanum **Sjálfgefin tegund viðhaldsverka** sýnir fjölda tengdra gátlista viðhalds, spáðra klukkustunda, vara og svo framvegis, sem tengjast valinni samsetningu á gerðum viðhaldsverka.
 5. Til að skoða upplýsingar um valda gerð viðhaldsverka velurðu **Gerðir viðhaldsverka**.
 
-![Síðan Gerðir eignaviðhaldsverka](media/08-setup-for-work-orders.png)
+![Síða viðhaldsverkgerða eignar.](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Sjálfvirk uppfærsla á spám um gerðir viðhaldsverka
 

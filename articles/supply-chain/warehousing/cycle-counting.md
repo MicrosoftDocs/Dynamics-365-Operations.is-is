@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838347"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345259"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -34,7 +34,7 @@ Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endursko�
 2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Dynamics 365 Supply Chain Management með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
 3.  **Leysa mismun í talningargildi** - Eftir reglulega talningu, munu allar vörur sem hafa mismunandi talningargildi hafa stöðuna **Bíður yfirferðar** í skjámyndinni **Allt**. Hægt er að leysa úr þessum mismun á síðunni **Vinna reglulegrar talningar bíður yfirferðar**.
 
-Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinnsluflæði fyrir reglulega talningu](./media/performcyclecountinginawarehouselocation.jpg)
+Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinna flæði fyrir reglulega talningu.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Skilyrði fyrir reglulega talningu
 Eftirfarandi tafla sýnir skilyrði sem verða að vera til staðar áður en byrjað er á reglulegri talningu.

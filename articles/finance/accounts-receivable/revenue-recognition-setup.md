@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837154"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345627"
 ---
 # <a name="revenue-recognition-setup"></a>Uppsetning tekjuskráningar
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ Stillingar tekjuskráningar eru skilgreindar í flipanum **Tekjuskráning** á s
     - Stillið þennan valkost á **Nei** til að takmarka bókun leiðréttingarfærslu við fjárhag. Þegar þessi valkostur er stilltur á **Nei** eru engin önnur skjöl stofnuð í Viðskiptakröfur fyrir leiðréttingu innri bókhalds. Þegar reikningur er greiddur notar uppgjörsferlið gömlu bókhaldsfærsluna til að bóka alla staðgreiðsluafslætti eða innleystan hagnað eða tap.
     - Stilla skal þennan valkost á **Já** til að sjálfkrafa stofna bakfærsluskjal og nýjan reikning fyrir leiðréttingarfærsluna í viðskiptakröfum. Þar sem þessi leiðrétting er leiðrétting á innra bókhaldi eru nýju skjölin hvorki send til viðskiptavinar né hann látinn vita af þeim. Bakfærsluskjalið er jafnað við upprunalegan reikning og nýr leiðréttur reikningur er greiddur af viðskiptavininum. Athugið að öll þrjú skjölin eru sýnd á skýrslum, eins og á yfirliti viðskiptavinar.
 
-[![Upplýsingar um uppsetningu](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Upplýsingar um uppsetningu.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Tekjuáætlanir
 
@@ -82,7 +82,7 @@ Ef tekjur eru skráðar eftir þáttaskilum er mælt með því að stofna tekju
 
 Tekjuáætlanir eru stofnaðar á síðunni **Tekjuáætlanir** (**Tekjuskráning \> Uppsetning \> Tekjuáætlanir**).
 
-[![Tekjuáætlanir](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Tekjuáætlanir.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Sláið inn lýsandi gildi í reitina **Tekjuáætlun** og **Lýsing**. Eftirfarandi viðbótarstillingar eru notaðar til að stofna tekjuáætlunina þegar reikningurinn er bókaður.
 
@@ -104,7 +104,7 @@ Sláið inn lýsandi gildi í reitina **Tekjuáætlun** og **Lýsing**. Eftirfar
 
 Velja skal hnappinn **Sundurliðun tekjuáætlunar** til að skoða almenn tímabil og prósenturnar sem eru skráðar á hverju tímabili. Sjálfgefið er að gildinu **Skrá prósentu** sé skipt jafnt á milli fjölda tímabila. Ef skráningargrunnurinn er stilltur á annaðhvort **Mánaðarlega** eða **Tilvik** er hægt að breyta skráðri prósentu. Við breytingu á skráðri prósentu koma upp viðvörunarboð um að samtalan jafngildi ekki 100 prósentum. Ef þú færð skilaboðin er hægt að halda áfram að breyta línum. Hins vegar verður heildarupphæðin að vera jöfn 100 áður en síðunni er lokað.
 
-[![Sundurliðun tekjuáætlunar](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Sundurliðun tekjuáætlunar.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Uppsetning birgða
 
@@ -139,7 +139,7 @@ Hægt er að setja upp vöruflokka og útgefnar afurðir með því að nota ann
 
 Þegar búið er að skilgreina stillingar fyrir útgefna afurð þarf að skilgreina handvirkt tekjuupphæð með því að færa inn gangvirði eða miðgildi verðs (ef miðgildisaðferð verðs er notuð) á síðuna **Tekjuupphæðir** (opna skal **Tekjuskráning \> Uppsetning \> Uppsetning birgða \> Útgefnar afurðir** og síðan, á aðgerðasvæðinu, í flipanum **Selja**, í flokknum **Tekjuskráning**, skal velja **Tekjuupphæðir**).
 
-[![Tekjuupphæðir](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Tekjuupphæðir.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 Tekjuupphæðin sem er skilgreind handvirkt á þessari síðu er notuð til að ákvarða úthlutun tekjuupphæðar á hverja sölupöntun sem byggir á skilyrðinu sem skilgreint er. Hvert skilyrði er borið saman við sölupöntunarlínuna til að ákvarða tekjuupphæðina sem á að nota í úthlutunarferlinu.
 
@@ -181,7 +181,7 @@ Einnig þarf að setja upp tekjuskráningu fyrir hluta, rétt eins og þeir vær
 
 Hlutunum verður þá að vera úthlutað til yfirbúnt-/yfiruppskriftarvöru á síðunni **Uppskriftarútgáfur** (opna skal **Tekjuskráning \> Uppsetning \> Birgða- og afurðauppsetning \> Útgefnar afurðir** og síðan, á aðgerðasvæðinu, í flipanum **Hanna**, í flokknum **Uppskrift**, skal velja **Uppskriftarútgáfur**). Frekari upplýsingar er að finna í leiðbeiningum um uppsetningu uppskrifta.
 
-[![Útgefnar afurðir, uppskriftaáætlanir](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Útgefnar afurðir, uppskriftaáætlanir.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Ef yfirvara búnts og búnthlutar eru stilltir á úthlutun verður tekjuupphæðum búnts dreift á milli hlutanna samkvæmt prósentuhluta tekna þeirra.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822832"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345477"
 ---
 # <a name="year-end-activities-faq"></a>Algengar spurningar um verkþætti árslokunar 
 
@@ -29,7 +29,7 @@ ms.locfileid: "5822832"
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Fjárhagur: Hvernig veit ég að við erum að keyra árslokalokun en ekki að afturkalla árslokalokun?
 Við höfum séð fyrirtæki reyna að keyra lokun í árslok en voru í staðinn að afturkalla árslokalokun. Ef árslokalokun gengur mjög hratt fyrir sig eða hún býr ekki til opnunarstöður skal villuleita stillinguna **Afturkalla fyrri lokun** í **Lokun í árslok** (**Fjárhagur > Tímabil lokunar > Lokun í árslok > Keyra fjárhagslokun**). 
 
-[![Keyrsla árslokalokunar í samanburði við afturköllun árslokalokun](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Keyrsla lokunar í árslok í samanburði við afturköllun lokunar í árslokalok.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Ef valkosturinn **Afturkalla fyrri lokun** er stilltur á **Já** er verið að afturkalla fyrri árslokalokun. Þegar afturköllun er keyrð verður öllum færslum lokunar- og opnunarstöðu eytt rétt eins og árslokalokun hafi aldrei verið keyrð. Fylgiskjölunum er eytt. Lokun í árslok verður ekki keyrð aftur sjálfkrafa. Hefja þarf ferlið aftur og í þetta skipti breyta **Afturkalla fyrri lokun** í **Nei**. 
 
@@ -39,11 +39,11 @@ Ef valkosturinn **Afturkalla fyrri lokun** er stilltur á **Já** er verið að 
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Fjárhagur: Hver er munurinn á því að afturkalla og eyða færibreytum fjárhags fyrir lokun í árslok?
 Ruglingur getur orðið vegna mismunarins milli færibreytunnar **Afturkalla fyrri lokun**, sem er í glugganum **Lokun í árslok**, og færibreytunnar **Eyða lokunarfærslum árs í millifærslu** í fjárhag (**Fjárhagur > Tímabil lokunar > Lokun í árslok > Keyra fjárhagslokun**).  
 
-[![Munurinn á því að afturkalla og eyða færibreytum fjárhags fyrir lokun í árslok](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Munurinn á því að afturkalla og eyða færibreytum fjárhags fyrir lokun í árslok.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
 Veljið **Afturkalla fyrri lokun** í fellivalmynd svargluggans þegar lokunarferli í árslok er keyrt til að eyða öllum færslum lokunar- og opnunarstöðu rétt eins og lokun í árslok hafi aldrei verið keyrð. Fylgiskjölunum verður eytt. Lokun í árslok verður ekki keyrð aftur sjálfkrafa. Til að keyra lokun í árslok þarf að hefja þetta ferli aftur og í þetta skipti breyta **Afturkalla fyrri lokun** í **Nei** (**Fjárhagur > Fjárhagsuppsetning > Fjárhagsfæribreytur**). 
 
-[![Stillingar fjárhagsfæribreytu](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Stillingar fjárhagsfæribreytu.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
 Færibreytan **Eyða lokunarfærslum árs í millifærslu** í fjárhag er aðeins notuð þegar lokun í árslok er keyrð (ekki afturkölluð) (valkosturinn **Afturkalla fyrri lokun** er stilltur á **Nei**). Ef færibreytan er stillt á **Já** verður öllum færslum lokunar- og opnunarstöðu eytt og lokun í árslok verður keyrð á nýjan leik. Þetta ferli er notað þegar fyrirtækið vill að allar færslur, þ.m.t. leiðréttingar frá síðustu árslokalokun, verði bókaðar í einni bókhaldsfærslu fyrir færslur lokunar- og opnunarstöðu. 
 
@@ -60,7 +60,7 @@ Hægt er að gera nokkrar breytingar til að bæta frammistöðu við lokun í �
 
 Óþörfu víddasamstæðurnar hafa áhrif á runuvinnsluna **BudgetDimensionFocusInitializeBalance** (**Fjárhagur > Bókhaldslykill > Víddir > Fjárhagsvíddasamstæður**).
 
-[![Samstæður fjárhagsvídda](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Fjárhagsvíddasamstæður.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Sniðmátsskilgreining árslokalokunar
 Sniðmát árslokalokunar gerir fyrirtækjum kleift að velja fjárhagsvíddarstigið sem vinna á með þegar stöður hagnaðar og taps eru fluttar í óráðstafað eigið fé. Stillingarnar gera fyrirtækinu kleift að vinna með ítarlegar fjárhagsvíddir (**Loka öllum**) þegar stöðurnar eru fluttar í óráðstafað eigið fé eða velja að taka saman upphæðirnar í eitt víddargildi (**Loka einni**). Hægt er að skilgreina þetta fyrir hverja fjárhagsvídd. Frekari upplýsingar um þessar stillingar er að finna í efnisatriðinu [Lokun í árslok](year-end-close.md).
@@ -72,14 +72,14 @@ Ef búið er að uppfæra í útgáfu 10.0.13 eða nýrri frá síðasta skipti 
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Fjárhagur – Hvað gerir Tímabil lokunar – Lokun í árslok?
  
-[![Tímabil lokunar, árslokalokun](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Tímabil lokunar, árslokalokun.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða (nýr eiginleiki)
 Nýjum eiginleika sem var bætt við í útgáfu 10.0.16 bætir afköst við lokun í árslok og samstæðuferli. Eiginleikinn er með heiti, Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða Þessi eiginleiki breytir því hvernig víddasamstæður eru endurbyggðar þannig að þær verða aðeins endurbyggðar fyrir viðeigandi tímaramma. Í fyrri útgáfum voru víddasamstæður endurbyggðar fyrir allar dagsetningar. Ef þú ert til dæmis að loka árinu 2020 mun kerfið aðeins endurbyggja stöðuna fyrir færslur innan fjárhagsársins 2020. Ef verið er að keyra sameiningu fyrir tímabilið frá 1. nóvember 2020 til 30. nóvember 2020 mun kerfið aðeins endurbyggja stöðurnar fyrir það tímabil.
 
 Þar sem litið er á þennan eiginleika sem breytingu sem getur valdið bilun þarf að virkja hann með því að nota vinnusvæðið **Eiginleikastjórnun**.
  
-[![Árslokalokun](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Árslokalokun.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2020?
 
@@ -114,15 +114,15 @@ Nr. Reglubundin 1099-uppfærsla er gerð fyrir einn lánardrottin í einu. Ef þ
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Viðskiptaskuldir: 1099 – „Endurreikna núverandi 1099-upphæðir“ gagnvart „Uppfæra allt“ í 1099-uppfærsluforritinu.
 Gátreiturinn **Endurreikna núverandi 1099-upphæðir** endurstillir 1099-upphæðina í samtals greidd gildi þegar hann er notaður í tengslum við gátreitinn **Uppfæra allt**. 
 
-[![Færslur 1099-skatteyðublaðs: Áður en reglubundin uppfærsla er keyrð](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![Færslur 1099-skatteyðublaðs: Áður en reglubundin uppfærsla er keyrð.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 Gátreiturinn **Endurreikna núverandi 1099-upphæðir** er aðeins notaður þegar það eru 1099-gildi að hluta til á reikningnum eða ef honum var breytt á 1099-skatteyðublaðinu. Ímyndaðu þér til dæmis að þú sért með reikning upp á 1000 Bandaríkjadali, en notandinn slær handvirkt 1099-upphæð inn á reikninginn sem nemur 500 Bandaríkjadölum.
 
-[![Færslur 1099-skatteyðublaðs: Merkir bæði Uppfæra allt og Endurreikna núverandi 1099-upphæðir](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![Færslur 1099-skatteyðublaðs: Merkir bæði Uppfæra allt og Endurreikna núverandi 1099-upphæðir.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Þegar þetta er greitt verða 500 Bandaríkjadalir 1099-upphæðin sem verður greidd. Ef reglubundinn endurútreikningur er gerður mun kerfið breyta 1099-upphæðinni í 1000 Bandaríkjadali, sem er heildargreiðslan.
 
-[![Færslur 1099-skatteyðublaðs: Eftir reglubundna 1099-keyrslu](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Færslur 1099-skatteyðublaðs: Eftir reglubundna 1099-keyrslu.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Viðskiptaskuldir: 1099 – Stofna handvirkt 1099-færslur
 Fyrirtæki gæti þurft að stofna 1099-færslur handvirkt sem ekki eru tengdar reikningi. Hægt er að bæta við handvirkum 1099-færslum með því að fara í **Viðskiptaskuldir > Reglubundin verk > 1099-skatteyðublað > Jöfnun lánardrottins á 1099-eyðublöðum**. Veljið hnappinn **Handvirkar 1099-færslur**. 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4d0a298a8f782ae318971e99c03e864fa5a4ef88
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187699"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343651"
 ---
 # <a name="production-order-cost-analysis"></a>Kostnaðargreining framleiðslupöntunar
 
@@ -41,7 +41,7 @@ Frávikin endurspegla samanburð á skráðum verkþáttum framleiðslu og útre
 
 Eftirfarandi skýringarmynd sýnir fjögur frávik sem útskýra mismuninn á milli raunkostnaðar framleiðslupöntunar og útreiknaðs kostnaðar innan kostnaðarfærslu vörunnar þegar lokið var við framleiðslupöntunina. 
 
-![Frávik sem útskýra mismun í lokinni framleiðslupöntun](./media/control.jpg) 
+![Frávik sem útskýra mismun í lokinni framleiðslupöntun.](./media/control.jpg) 
 
 Hægt er að greina framleiðslufrávik með því að nota síðuna **Frávik** eða skýrsluna **Framleiðslufrávik**. Notið valkosti um birtingu til að skoða einstök frávik eftir vöru og rekstrartilföngum, eða eftir kostnaðarflokki. Reglur um niðurbrot kostnaðar innan birgðafæribreyta ákvarðar hvort að frávikin verða rakin eftir kostnaðarflokki. Einnig er hægt að nota sýnimöguleikana **ein**, **margar**, og **samtals** til að skoða samantekt frávika. Nákvæmar upplýsingar um frávik hjálpa við að skilja orsakir hvers fráviks. Til þess að sjá fyrir frávik áður en lokið er við framleiðslupöntun, greinið hinar nákvæmu upplýsingar sem eru gefnar í skýrslunni **Kostnaðaráætlun og kostnaðarútreikningur**.
 

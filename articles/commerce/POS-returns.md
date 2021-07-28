@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129814"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345185"
 ---
 # <a name="create-returns-in-pos"></a>Stofna skil á sölustað
 
@@ -48,7 +48,7 @@ Ef færsla eða pöntun finnst sem passar við leitarskilyrðið birtist síðan
 
 Fyrir hverja pöntunarlínu í listanum yfir vörur sem hægt er að skila sýnir sölustaður upplýsingar um upprunalegt magn innkaupa og magn allra skila sem hefur verið unnið úr. Skilamagnið sem notandi slær inn fyrir pöntunarlínu verður að vera minna en eða jafnt og gildið í reitnum **Hægt að skila**.
 
-![Síða afurða sem hægt er að skila](media/returnslist.png)
+![Síða afurða sem hægt er að skila.](media/returnslist.png)
 
 Við úrvinnslu á skilum, ef notandi er með efnislegu afurðina og sú afurð er með strikamerki, getur notandinn skannað strikamerkið til að skrá skilin. Hver skönnun á strikamerkinu eykur skilamagnið um eitt stykki. Ef strikamerkið er hinsvegar með innfellt magn verður magnið fært inn í reitinn **Skilað núna**.
 
@@ -97,6 +97,13 @@ Ef upplýsingar rásar eru ekki þær nýjustu af einhverjum ástæðum og unni�
 
 > [!NOTE]
 > Þegar kveikt er á eiginleikanum **Upplifun samræmdrar skilavinnslu á sölustað** munu nýir valfrjálsir eiginleikar sem styðja staðfestingu á skilum á raðaðri afurð verða tiltækir. Frekari upplýsingar er að finna í [Skila raðnúmerastýrðum afurðum á sölustað](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Virkja viðeigandi skattaútreikning fyrir skil á hluta af magni
+
+Þessi eiginleiki tryggir að þegar pöntun er skilað með því að nota marga reikninga verði skattar að lokum jafnir þeirri skattupphæð sem var upprunalega innheimt.
+1.  Farðu á vinnusvæðið **Eiginleikastjórnun** og leitaðu að **Virkja viðeigandi skattaútreikning fyrir skil á hluta af magni**.
+2.  Veldu **Virkja viðeigandi skattaútreikning fyrir skil á hluta af magni** og smelltu á **Virkja**.
+
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345889"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að útiloka BOM-stafi í mynduðum skrám
 
@@ -29,14 +29,14 @@ Hægt er að hanna [Rafræna skýrslugerðar](general-electronic-reporting.md)[l
 > [!NOTE]
 > Ef sniðið inniheldur rangt kóðunarheiti kemur upp villa þegar breytingarnar eru vistaðar í stillingum sniðsins.
 
-![Rótareiningu bætt við síðu sniðshönnuðar](./media/er-suppress-bom-characters-image1.gif)
+![Rótareiningu bætt við síðu sniðshönnuðar.](./media/er-suppress-bom-characters-image1.gif)
 
 Ef **UTF-8**, **UTF-16** eða **UTF-32** er tilgreint sem kóðunin verður valkosturinn **Útiloka BOM-stafi** tiltækur. Stillið þennan valkost á **Já** til að útiloka [BOM-stafi](/globalization/encoding/byte-order-mark) í skrám á útleið sem eru myndaðar við keyrslu þegar breytanlegt snið rafrænnar skýrslugerðar er keyrt.
 
 > [!NOTE]
 > Ef reiturinn **Kóðun** er skilinn eftur auður verður sjálfgefna kóðunin **UTF-8** notuð.
 
-![Valkostur útilokunar BOM-stafa stilltur á síðu sniðshönnuðar](./media/er-suppress-bom-characters-image2.gif)
+![Valkostur útilokunar BOM-stafa stilltur á síðu sniðshönnuðar.](./media/er-suppress-bom-characters-image2.gif)
 
 Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúkið sem dæmi við skrefin í efnisatriðinu [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md). Þegar búið er að ljúka við skrefin í hlutanum [Breyta sniði þannig að útreikningurinn byggist á mynduðu úttaki](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) í því efnisatriði skal fylgja þessum viðbótarskrefum.
 
@@ -59,7 +59,7 @@ Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúkið se
 
     Fyrsti munurinn sem tekið verður eftir er skráarhausinn. Skráin SampleXmlReport.xml inniheldur BOM-staf þar sem skráin SampleXmlReport (1).xml gerir ekki.
 
-    ![Myndaðar skrár bornar saman með forriti samanburðarskráar](./media/er-suppress-bom-characters-image3.png)
+    ![Myndaðar skrár bornar saman með forriti samanburðarskráar.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

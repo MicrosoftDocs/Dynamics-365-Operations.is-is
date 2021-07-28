@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345235"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
 
@@ -46,11 +46,11 @@ Afurðarsíur bjóða upp á allt að 10 **Síuheiti**, sem eru fasttextagildi (
 1. Veljið gildi í reitnum **Síuheiti**.
 1. Sláið inn gildi í reitinn **Síukóði**.
 
-    ![Uppsetning afurðarsíu](media/Product_Filters10.png "Uppsetning afurðarsíu")
+    ![Uppsetning afurðarsíu.](media/Product_Filters10.png "Uppsetning afurðarsíu")
 
 1. Í reitnum **Lýsing** er fært inn heiti fyrir kóðann. Til dæmis gæti *Kóði 2* táknað lánardrottna. Síðan er hægt að stofna afurðassíu fyrir tiltekinn lánardrottin eða hóp lánardrottna. Nánari upplýsingar eru í hlutanum [Setja upp síukóða lánardrottins](#vendor-product-filters) seinna í þessu efnisatriði.
 
-    ![Sett afurðarsía](media/Product_Filters.png "Sett afurðarsía")
+    ![Safn afurðarsía.](media/Product_Filters.png "Sett afurðarsía")
 
 ## <a name="set-up-product-filter-groups"></a>Skrá afurðasíuflokka
 
@@ -69,7 +69,7 @@ Til að setja upp síuflokka skal fylgja þessum skrefum:
 1. Í svæðinu **Vöruflokkur** skal velja vöruflokkinn sem afurðarsían á að gilda um.
 1. Í reitunum **Kóði 1** til **Kóði 10** skal velja síukóðana sem á að hafa með í flokknum eins og þörf er á.
 
-    ![Vöruflokkur](media/ProdFilterGroup.png "Vöruflokkur")
+    ![Vöruflokkur.](media/ProdFilterGroup.png "Vöruflokkur")
 
 > [!NOTE]
 > Ef upp koma villuboð þegar síðunni er lokað er hugsanlegt að það vanti uppsetningu kóða. Á síðunni **Vöruflokkar** er hægt að gera kóðana áskilda fyrir vöruflokk með því að velja gátreitina **Úthluta síukóða 1 fyrir vöruflokkinn**, **Úthluta síukóða 2 fyrir vöruflokkinn** og svo framvegis.
@@ -88,7 +88,7 @@ Til að setja upp síukóða í vöruflokkum, skal fylgja þessum skrefum:
 
     Til að uppfæra útgefna afurð skal opna síðuna **Upplýsingar um útgefnar afurðir** og síðan á aðgerðasvæðinu skal velja **Breyta**. Síurnar sem tengjast kóðum verða svo sýnilegar á flýtiflipanum **Vöruhús**.
 
-    ![Vöruflokkar](media/ItemGroup10.png "Vöruflokkar")
+    ![Vöruflokkar.](media/ItemGroup10.png "Vöruflokkar")
 
 1. Í hlutanum **Sía fyrir vöruflokk** skal velja gátreitina fyrir síurnar sem verða að passa við síuflokkinn til að verða sjálfgefinn síuflokkur fyrir vöru.
 

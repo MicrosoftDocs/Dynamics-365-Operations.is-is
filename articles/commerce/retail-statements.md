@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791922"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345007"
 ---
 # <a name="retail-statements"></a>Smásöluuppgjör
 
@@ -31,7 +31,7 @@ ms.locfileid: "5791922"
 
 Eftirfarandi skýringarmynd sýnir uppgjörsbókunarferlið. Í þessu ferli eru færslur sem eru skráðar á sölustað sendar til biðlara með því að nota verkraðara Commerce. Eftir að biðlari tekur við færslunum, er hægt að stofna, reikna og bóka færsluuppgjör fyrir verslunina.
 
-[![Uppgjörsbókunarferli](./media/retail-statements.png)](./media/retail-statements.png)
+[![Uppgjörsbókunarferli.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Stofna og bóka uppgjör
 

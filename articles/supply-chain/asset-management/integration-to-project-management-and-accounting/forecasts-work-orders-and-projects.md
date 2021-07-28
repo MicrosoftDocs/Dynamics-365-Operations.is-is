@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345429"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Spár, verkbeiðnir og verk
 
@@ -58,13 +58,13 @@ Sumar þessara upplýsinga er hugsanlega ekki að finna í vinnupöntun. Þess v
 
 Til dæmis, á eftirfarandi mynd, vegna þess hvernig eignategundin **Vörubíll vél** er sett upp, verður hver vinnupöntunarvinna sem er búin til með eignategundinni **Vörubíll vél** að vera undirverkefni verkefnis ID 000186.
 
-![Mynd 1](media/01-integration-to-pma.png)
+![Mynd 1.](media/01-integration-to-pma.png)
 
 Tilgangurinn með auðkenni verkefnisins í vinnupöntunarstörfinu, og tilheyrandi athafnanúmeri, er að rekja kostnað sem er tengdur vinnu pöntunarstarfinu og eigninni sem er valin á það, í einingunni **Verkefnisstjórnun og bókhald**. (Til að skoða auðkenni verkefnisins og aðgerðarnúmerið, veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** og veldu síðan verkbeiðnina. Á flýtiflipanum **Línulýsing** sýnir reiturinn **Verkkenni** auðkenni verksins og reiturinn **Aðgerðarnúmer** sýnir númer aðgerðar.) Sjá frekari upplýsingar um kostnaðarstýringu í eignastýringu [Stjórnun kostnaðar og dagsetningar](../controlling-and-reporting/cost-and-date-control.md).
 
 Eftirfarandi mynd sýnir myndrænt yfirlit yfir verkbeiðniverk og skyldar aðgerðir verkefnis.
 
-![Mynd 2](media/02-integration-to-pma.png)
+![Mynd 2.](media/02-integration-to-pma.png)
 
 Þegar ný verkbeiðnivinnsla er mynduð í verkbeiðni er verkbeiðniverk sjálfkrafa búið til fyrir vinnsluna. Fjárhagslegar víddir eignarinnar sem tengjast vinnslu á verkbeiðni eru sjálfkrafa fluttar yfir í verkbeiðniverkið.
 
@@ -86,17 +86,17 @@ Til að tryggja að líftímastöður verkbeiðna og tengdra verkstiga á verkbe
 
 Eftirfarandi myndir sýna tengingar milli verkhópa í verkbeiðni, tengdar verkgerðir, verkstig og líftímastöður verkbeiðna.
 
-![Mynd 3](media/03-integration-to-pma.png)
+![Mynd 3.](media/03-integration-to-pma.png)
 
-![Mynd 4](media/04-integration-to-pma.png)
+![Mynd 4.](media/04-integration-to-pma.png)
 
-![Mynd 5](media/05-integration-to-pma.png)
+![Mynd 5.](media/05-integration-to-pma.png)
 
 Nánari upplýsingar um hvernig setja skal upp verk verkbeiðna er að finna í [Verkuppsetning verkbeiðni](../setup-for-work-orders/work-order-project-setup.md). Upplýsingar um hvernig skal stofna líftímastöður verkbeiðna er að finna í [Líftímastöður verkbeiðna](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Eftirfarandi mynd sýnir myndrænt yfirlit yfir hin ýmsu verkefni sem eru búin til í einingunni **Eignastýring** til að gera samþættingu við eininguna **Verkefnisstjórnun og bókhald**. Það sýnir einnig verkferla sem verkefnin tengjast.
 
-![Mynd 6](media/06-integration-to-pma.png)
+![Mynd 6.](media/06-integration-to-pma.png)
 
 
 

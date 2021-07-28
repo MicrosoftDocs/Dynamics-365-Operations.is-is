@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866303"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345787"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skilgreiningar skipurits í fjárhagsskýrslum
 
@@ -170,23 +170,23 @@ Hér er Uppbygging einingar skipurits í eftirfarandi skipuriti:
 - Eining skipurits á læsta upplýsingastigi (Home Sales, Auto Sales, Client Services, og Operations) stendur fyrir deildir í fjárhagsgögnunum. Þessar einingar skipuritsins eru í skyggða svæðinu í skipuritinu.
 - Samantektareiningar á hærri stigum taka saman upplýsingar frá upplýsingaeiningum.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso Bygging samantektarskýrslu - Dæmi 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Uppbygging einingar skipurits - dæmi 2
 
 Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er skipt niður í viðskiptaaðgerðir.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso Bygging samantektarskýrslu - Dæmi 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga
 
 Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugga. Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir.
 
-[![Setja inn einingar skipurits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Setja inn einingar skipurits.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 skipuritsskilgreining sem verður til er raðað eftir viðskiptaeining, og svo eftir kostnaðarstað og svo eftir deild. Vídd fyrir fimmtu eining skipurits er **Viðskiptaeining = \[001\], Kostnaðarstaður =\[\], Deild = \[022\]** og auðkennir eining skipurits fyrir lykla sem tengjast viðskiptaeiningu 001 og deild 022.
 
-[![Mynd af skýrslutrénu](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Mynd af skýrslutrénu.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Dæmi um samantekt gagna
 
@@ -194,11 +194,11 @@ Eftirfarandi dæmi sýna mögulegar upplýsingar sem eru notaðar í skipuritssk
 
 #### <a name="example-1"></a>Dæmi 1
 
-[![Samantekt margra fyrirtækja](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Samantekt margra fyrirtækja.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Dæmi 2
 
-[![Samantekt deilda þvert á fyrirtæki](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Samantekt deilda þvert á fyrirtæki.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

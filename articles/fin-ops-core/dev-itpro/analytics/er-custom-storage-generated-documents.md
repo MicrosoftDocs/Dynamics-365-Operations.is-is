@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348165"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
 
@@ -39,7 +39,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 Í núverandi grannfræði, [stofnarðu nýtt snið rafrænnar skýrslugerðar](tasks/er-format-configuration-2016-11.md) til að mynda skjöl sem áformað er að bæta við sérsniðinn geymslustað. Annars [flytja núverandi snið rafrænnar skýrslugerðar inn í þessa grannfræði](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Síða sniðshönnuðar](media/er-extend-file-storages-format.png)
+![Síða sniðshönnuðar.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Snið rafrænnar skýrslugerðar sem þú býrð til eða flytur inn verður að innihalda að minnsta kosti eina af eftirfarandi sniðseiningum:
@@ -58,7 +58,7 @@ Til að tilgreina hvernig skjöl eru send sem snið rafrænnar skýrslugerðar m
 3. Í reitnum **Klasi** skal tilgreina **Hengja skrá við**.
 4. Í reitnum **Flokkur** skal tilgreina **Skrá**.
 
-![Síðan Gerðir skjala](media/er-extend-file-storages-document-type.png)
+![Síða skjalagerðar.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Gerðir skjala miðast við fyrirtæki. Til að nota snið rafrænnar skýrslugerðar með skilgreindum viðtökustað í mörgum fyrirtækjum verður að skilgreina aðskilda gerð skjals í hverju fyrirtæki fyrir sig.
@@ -113,14 +113,14 @@ Tilvikið **AttachingFile()** kemur upp þegar unnið er úr eftirfarandi viðt�
 - **Safnvista** - Þegar þessi viðtökustaður er notaður er búin til ný færsla í töflunni ERFormatMappingRunJobTable fyrir það snið rafrænnar skýrslugerðar sem er keyrt. Svæðið **Safnvistað** í þessari færslu er stillt á **Ósatt**. Ef keyrsla á sniði rafrænnar skýrslugerðar tekst er myndaða skjalið hengt við þessa færslu og tilvikið **AttachingFile()** kemur upp. Gerð skjals sem er valið í þessum viðtökustað rafrænnar skýrslugerðar ákvarðar geymslustaðinn fyrir viðhengda skrá (Microsoft Azure Geymsla eða Microsoft SharePoint mappa).
 - **Safnvistun vinnslu** - Þegar þessi viðtökustaður er notaður er búin til ný færsla í töflunni ERFormatMappingRunJobTable fyrir það snið rafrænnar skýrslugerðar sem er keyrt. Svæðið **Safnvistað** í þessari færslu er stillt á **Satt**. Ef keyrsla á sniði rafrænnar skýrslugerðar tekst er myndaða skjalið hengt við þessa færslu og tilvikið **AttachingFile()** kemur upp. Gerð skjals sem er skilgreind í færibreytum rafrænnar skýrslugerðar ákvarðar geymslustaðinn fyrir viðhengda skrá (Azure-geymsla eða SharePoint mappa).
 
-![Síða rafrænna skýrslufæribreyta](media/er-extend-file-storages-parameters.png)
+![Færibreytusíða rafrænnar skýrslugerðar.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Skilgreina viðtökustað rafrænnar skýrslugerðar
 
 1. Skilgreina safnvistaðan viðtökustað fyrir einn af áðurnefndum þáttum (skrá, mappa, samruni eða viðhengi) í sniði rafrænnar skýrslugerðar sem var búinn til eða fluttur inn. Til leiðbeiningar skal sjá [Viðtökustaðir rafrænnar skýrslugerðar](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Notaðu gerð skjals sem þú bættir við á undan fyrir skilgreindan viðtökustað. (Fyrir dæmið í þessu efnisatriði er gerð skjals **FileX**.)
 
-![Svargluggi áfangastaðastillinga](media/er-extend-file-storages-destination.png)
+![Svargluggi áfangastaðastillinga.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Breyta frumkóða
 

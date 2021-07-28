@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 89fe41d7ce57b584be34b156696b4044c4571afe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347273"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>Endurgreiðslu skilapöntunar er hafnað
 
@@ -34,9 +34,9 @@ Endurgreiðslu er hafnað þegar kreditkortið sem er notað til að reikningsf�
 
 Upplýsingar um greiðsluheimildina mun innihalda eftirfarandi villuboð: „Adyen gateway SendRequest() mistókst með stöðuna 'InternalServerError‘.22144; Auðu svari skilað úr Adyen.(22001);“
 
-![Villa vegna hafnaðrar endurgreiðslu skilapöntunar](media/refund-order-decline.jpg)
+![Villa vegna hafnaðrar endurgreiðslu skilapöntunar.](media/refund-order-decline.jpg)
 
-## <a name="resolution"></a>Upplausn
+## <a name="resolution"></a>Lausn
 
 ### <a name="enable-blind-returns-in-adyen"></a>Virkja blind skil í Adyen
 

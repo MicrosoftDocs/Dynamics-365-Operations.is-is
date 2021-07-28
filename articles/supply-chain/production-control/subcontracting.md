@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37a82a2bf9fc73b81e5a61b120e7bed73b8c4521
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825183"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346131"
 ---
 # <a name="subcontracting"></a>Úthýsing
 
@@ -39,7 +39,7 @@ ms.locfileid: "5825183"
 
 Eftirfarandi skýringarmynd sýnir aðgerðirnar þrjár og efnisþættina sem voru notaðir.
 
-![Aðgerðirnar „Fyrirfram samsetning“, „Húðun“ og „Ljúka“ og efnisþættirnir sem eru notaðir](./media/subcontract01_operations-materials.png)
+![Aðgerðirnar „Fyrirfram samsetning“, „Húðun“ og „Ljúka“ og efnisþættirnir sem eru notaðir.](./media/subcontract01_operations-materials.png)
 
 ## <a name="setup"></a>Setja upp
 
@@ -52,41 +52,41 @@ Eftirfarandi skýringarmynd sýnir aðgerðirnar þrjár og efnisþættina sem v
 1. Veldu **Afurðaupplýsingastjórnun \> Afurðir \> Losaðar afurðir** til að opna síðuna **Upplýsingar um losaðar afurðir**.
 2. Í flýtisíureitnum skal slá inn **D8100** til að finna fyrirliggjandi afurð.
 
-    ![Síun á losaðri afurð D8100 á síðunni „Upplýsingar um losaðar afurðir“](./media/subcontract02_filtering-released-products.png)
+    ![Síun á losaðri afurð D8100 á síðunni „Upplýsingar um losaðar afurðir“.](./media/subcontract02_filtering-released-products.png)
 
 3. Á aðgerðasvæðinu, í flipanum **Hanna**, skal velja **Leið** til að opna síðuna **Leið**.
 
     Síðan **Leið** sýnir átta leiðarútgáfur fyrir losaða afurð D8100. Átta leiðarútgáfunum er skipt niður á fjórar leiðir á svæði 1 og á svæði 5. Leið 000400 er notuð fyrir kostnað, leið 00041 er notuð þegar húðunaraðgerðin er innri aðgerð og leið 00042 er notuð þegar húðunaraðgerðin er utanaðkomandi aðgerð.
 
-    ![Átta leiðarútgáfur á leiðarsíðunni](./media/subcontract03_route-page.png)
+    ![Átta leiðarútgáfur á leiðarsíðunni.](./media/subcontract03_route-page.png)
 
 4. Í efri rúðunni, í hnitanetinu **Útgáfur**, skal velja leiðarútgáfu **00042** fyrir svæði **5**.
 5. Í neðri rúðunni, í flipanum **Yfirlit** skal velja aðgerð **20** (**Cbnt Ctsc**) í hnitanetinu.
 
-    ![Aðgerð 20 fyrir leiðarútgáfu 00042 fyrir svæði 5 er valið](./media/subcontract04_route-version-operation.png)
+    ![Aðgerð 20 fyrir leiðarútgáfu 00042 fyrir svæði 5 er valið.](./media/subcontract04_route-version-operation.png)
 
 6. Veldu flipann **Almennt**.
 
     Athugaðu að reiturinn **Leiðargerð** er stilltur á **Lánardrottinn**. Þetta gildi gefur til kynna að aðgerð 20 (Cbnt CtSc) er aðgerð undirverktaka.
 
-    ![Reitur leiðargerðar er stilltur á Lánardrottinn í flipanum Almennt](./media/subcontract05_general-tab.png)
+    ![Reitur leiðargerðar er stilltur á Lánardrottin í flipanum Almennt.](./media/subcontract05_general-tab.png)
 
 7. Veldu flipann **Tilfangaþarfir**.
 
     Eiginleikar verða notaðir til að finna viðeigandi tilfang meðan á framleiðsluröðun stendur. Fyrir aðgerð 20 (Cbnt CtSc), athugaðu að tilfang sem hefur tvenns konar eiginleika, **Húðun** og **Húðuð box**, er krafist.
 
-    ![Eiginleikarnir Húðun og Húðað box á flipa tilfangaþarfa](./media/subcontract06_resource-requirements-tab.png)
+    ![Eiginleikarnir Húðun og Húðað box á flipa tilfangaþarfa.](./media/subcontract06_resource-requirements-tab.png)
 
 8. Veldu **Viðeigandi tilföng** til að opna svargluggann **Viðeigandi tilföng**.
 
     Þrjú tilföng finnast sem samsvara tilfangaþörfum fyrir aðgerðina. Taktu eftir að tilföng 8851 og 8852 eru af gerðinni **Lánardrottinn**.
 
-    ![Þrjú viðeigandi tilföng í svarglugganum Viðeigandi tilföng](./media/subcontract07_applicable-resources-dialog.png)
+    ![Þrjú viðeigandi tilföng í svarglugganum Viðeigandi tilföng.](./media/subcontract07_applicable-resources-dialog.png)
 
 9. Veldu **Í lagi** til að loka svarglugganum **Viðeigandi tilföng** og fara aftur á síðuna **Leið**.
 10. Lokaðu síðunni **Leið** til að fara aftur á síðuna **Upplýsingar um losaðar afurðir**.
 
-    ![Upplýsingasíða um losaðar afurðir](./media/subcontract08_released-product-details-page.png)
+    ![Upplýsingasíða um losaðar afurðir.](./media/subcontract08_released-product-details-page.png)
 
 11. Á aðgerðasvæðinu, í flipanum **Hanna**, skal velja **Uppskriftarútgáfur** til að opna síðuna **Uppskriftarútgáfur**.
 
@@ -94,7 +94,7 @@ Eftirfarandi skýringarmynd sýnir aðgerðirnar þrjár og efnisþættina sem v
 
     Athugaðu að vara S8050 er afurð af vörugerðinni **Þjónusta**. Þessi vara táknar úthýstu vinnuna.
 
-    ![Fjórar uppskriftarútgáfur á útgáfusíðu uppskriftar](./media/subcontract09_bom-versions-page.png)
+    ![Fjórar uppskriftarútgáfur á útgáfusíðu uppskriftar.](./media/subcontract09_bom-versions-page.png)
 
 12. Á flýtiflipanum **Uppskriftarlínur** skal velja **Breyta** til að opna svargluggann **Breyta uppskriftarlínu**.
 
@@ -102,7 +102,7 @@ Eftirfarandi skýringarmynd sýnir aðgerðirnar þrjár og efnisþættina sem v
 
     Takið eftir að uppskriftarlínan er tengd við húðunaraðgerðina með aðgerðarnúmerinu (í þessu tilviki 20).
 
-    ![Breyta svarglugga uppskriftarlínu](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Svarglugginn Breyta uppskriftarlínu.](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Stofna aðgangsorð fyrir starfsmenn í vöruhúsi
 
@@ -111,7 +111,7 @@ Eftirfarandi skýringarmynd sýnir aðgerðirnar þrjár og efnisþættina sem v
 1. Veldu **Vöruhúsakerfi \> Uppsetning \> Starfsmaður** til að opna síðuna **Verknotendur**.
 2. Á flýtiflipanum **Notendur** skal velja línuna fyrir notanda **51**.
 
-    ![Verknotendasíða](./media/subcontract11_work-users-page.png)
+    ![Verknotendasíða.](./media/subcontract11_work-users-page.png)
 
 3. Veldu **Endurstilla aðgangsorð**.
 4. Í reitunum **Aðgangsorð** og **Staðfesta aðgangsorð** skal slá inn **1**.
@@ -126,14 +126,14 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 1. Veldu **Framleiðslustýring \> Framleiðslupantanir \> Allar framleiðslupantanir** til að opna síðuna **Allar framleiðslupantanir**.
 2. Á aðgerðasvæðinu skal velja **Ný framleiðslupöntun** til að opna svargluggann **Stofna framleiðslupöntun**.
 
-    ![Svarglugginn „Stofna framleiðslupöntun“](./media/subcontract12_create-production-order-dialog.png)
+    ![Svarglugginn Stofna framleiðslupöntun.](./media/subcontract12_create-production-order-dialog.png)
 
 3. Í svæðið **Vörunúmer** veldu **D8100**.
 4. Eftir að þú velur vörunúmer birtast reitir fyrir birgðavíddir. Í reitnum **Litur** er valið **Króm**.
 
     Skilaboðagluggi birtist sem spyr hvort ætti að setja inn virkar útgáfur fyrir uppskrift og leið.
 
-    ![Skilaboðagluggi](./media/subcontract13_message-box.png)
+    ![Skilaboðagluggi.](./media/subcontract13_message-box.png)
 
 5. Velja skal **Já**. 
 
@@ -149,15 +149,15 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     > [!NOTE]
     > Fyrir bæði uppskrift og leið er útgáfa 000042 notuð til að úthýsa húðun á boxinu á lánardrottin US-801.
 
-    ![Gildi stillt í svarglugganum „Stofna framleiðslupöntun“](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Gildi stillt í svarglugganum Stofna framleiðslupöntun.](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Veldu **Stofna** til að búa til framleiðslupöntun og fara aftur á síðuna **Allar framleiðslupantanir**.
 
-    ![Ný framleiðslupöntun á síðunni „Allar framleiðslupantanir“](./media/subcontract15_new-production-order.png)
+    ![Ný framleiðslupöntun á síðunni Allar framleiðslupantanir](./media/subcontract15_new-production-order.png)
 
 10. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun** skal velja **Áætlun** til að opna svargluggann **Áætlun**.
 
-    ![Svarglugginn Áætlun](./media/subcontract16_estimate-dialog.png)
+    ![Svargluggi áætlunar.](./media/subcontract16_estimate-dialog.png)
 
 11. Veldu **Í lagi** til að staðfesta áætlunina og fara aftur á síðuna **Allar framleiðslupantanir**.
 
@@ -168,7 +168,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 
     Athugaðu að fyrir þjónustuvöru S8050 er tilvísun í framleiðslupöntunina sem var búin til þegar framleiðslupöntunin var áætluð.
 
-    ![Uppskriftarlínur framleiðslupöntunar á uppskriftarsíðunni](./media/subcontract17_production-order-bom-lines.png)
+    ![Uppskriftarlínur framleiðslupöntunar á uppskriftarsíðunni.](./media/subcontract17_production-order-bom-lines.png)
 
 13. Lokaðu síðunni **Uppskrift** til að fara aftur á síðuna **Framleiðslupantanir**.
 14. Á aðgerðasvæðinu í flipanum **Tímasetja** skal velja **Tímasetja verk** til að opna svargluggann **Vinnsluröðun**.
@@ -177,24 +177,24 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     - Í reitnum **Röðunarstefna** er valið **Áfram frá morgundegi**.
     - Stilltu valkostinn **Takmörkuð geta** á **Já**.
 
-    ![Svargluggi vinnsluröðunar](./media/subcontract18_job-scheduling-dialog.png)
+    ![Svargluggi vinnsluröðunar.](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Veldu **Í lagi** til að loka svarglugganum **Vinnsluröðun** og fara aftur á síðuna **Allar framleiðslupantanir**.
 17. Á aðgerðasvæðinu, í flipanum **Tímasetja** skal velja **Gantt** til að opna síðuna **Gantt-rit - tilfangayfirlit**.
 
     Gantt-ritið veitir sjónrænt yfirlit yfir hvernig framleiðsluverkin eru áætluð á tilföngunum. Taktu eftir því að utanaðkomandi húðunaraðgerðin samanstendur af þremur verkum: vinnsluverki, flutningsverki og biðtímaverki.
 
-    ![Gantt-rit á Gantt-ritinu - Yfirlitssíða tilfanga](./media/subcontract19_gantt-chart.png)
+    ![Gantt-rit á Gantt-ritinu - Yfirlitssíða tilfanga.](./media/subcontract19_gantt-chart.png)
 
 18. Lokaðu síðunni **Gantt-rit - tilfangayfirlit** til að fara aftur á síðuna **Allar framleiðslupantanir**.
 19. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun** skal velja **Losa** til að opna svargluggann **Losa**.
 
-    ![Svarglugginn Losa](./media/subcontract20_release-dialog.png)
+    ![Svarglugginn Losa.](./media/subcontract20_release-dialog.png)
 
 20. Velja skal **Í lagi** til að loka svarglugganum **Losa**.
 21. Veldu **Framleiðslustýring \> Reglubundin verkefni \> Losa í vöruhús \> Sjálfvirk losun á uppskriftar- og formúlulínum** til að opna svargluggann **Sjálfvirk losun uppskriftar og formúlulína**.
 
-    ![Svarglugginn Sjálfvirk losun uppskriftar og formúlulína](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Svarglugginn Sjálfvirk losun uppskriftar og formúlulína.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Veldu **Í lagi** til að keyra Sjálfvirk losun á verki uppskriftar og formúlulína.
 
@@ -206,7 +206,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 
     Taktu eftir að síðan sýnir tvö sett af verkum fyrir tiltekt á hráefni. Fyrra verkið er fyrir efni M8100 og M8101. Aðgerð 10 notar þessa efnisþætti. Seinna verkið er fyrir efni M8202 og M8250. Aðgerð 20 notar þessa efnisþætti, sem er úthýsta aðgerðin.
 
-    ![Tvö sett af verkum fyrir hráefnatiltekt á Verksíðunni](./media/subcontract22_work-page.png)
+    ![Tvö sett af verkum fyrir hráefnatiltekt á Verksíðunni.](./media/subcontract22_work-page.png)
 
 26. Opnaðu farsímaforrit vöruhúsakerfis til að vinna við vöruhúsaverkið fyrir aðgerð 10.
 
@@ -220,7 +220,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     - Í **Frá aðg. nr.** reitur, veljið **10**.
     - Í **Til aðg. nr.** reitur, veljið **10**.
 
-    ![Gildi stillt í Almenna flipanum 1](./media/subcontract23_start-dialog.png)
+    ![Gildi stillt í Almenna flipanum 1.](./media/subcontract23_start-dialog.png)
 
 31. Veldu **Í lagi** til að loka svarglugganum **Opna** og fara aftur á síðuna **Allar framleiðslupantanir**.
 
@@ -238,7 +238,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
     - Í **Magn** reitinn er fært inn **10**.
     - Stilltu valkostinn **Bóka tiltektarlistann núna** á **Nei**.
 
-    ![Gildi stillt í Almenna flipanum 2](./media/subcontract24_general-tab.png)
+    ![Gildi stillt í Almenna flipanum 2.](./media/subcontract24_general-tab.png)
 
 35. Veldu **Í lagi** til að loka svarglugganum **Opna** og fara aftur á síðuna **Allar framleiðslupantanir**.
 
@@ -247,57 +247,57 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 36. Á aðgerðasvæðinu, í flipanum **Skoða**, skal velja **Tínslulisti** til að opna síðuna **Tínslulisti**.
 37. Veldu tínslulistann sem ekki er bókaður og veldu síðan færslubókarnúmerið til að skoða færslubókarlínurnar.
 
-    ![Færslubókarlínur á síðu tínslulista](./media/subcontract25_picking-list.png)
+    ![Færslubókarlínur á síðu tínslulista.](./media/subcontract25_picking-list.png)
 
 38. Í aðgerðasvæðinu skal velja **Prenta** \> **Skýrsla tínslulista** til að opna svargluggann **Skýrsla tínslulista**.
 39. Stilltu valkostinn **Nota útlit fylgiseðils** á **Já**.
 
-    ![Svarglugginn Skýrsla tínslulista](./media/subcontract26_picking-list-report-dialog.png)
+    ![Svarglugginn Skýrsla tínslulista.](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Veldu **Í lagi** til að búa til skýrslu fyrir **Tínslulista**.
 
     Í þessu tilfelli er fylgiseðill lánardrottins prentaður út frá færslubók tiltektarlista framleiðslunnar. Fylgiseðillinn tilgreinir þau efni sem eru send til lánardrottins sem mun sjá um húðunaraðgerðina.
 
-    ![Skýrsla tiltektarlista](./media/subcontract27_picking-list-report.png)
+    ![Skýrsla tiltektarlista.](./media/subcontract27_picking-list-report.png)
 
 41. Lokaðu skýrslunni **Tínslulisti** til að fara aftur á síðuna **Tínslulisti**.
 42. Á aðgerðasvæðinu skal velja **Bóka** til að opna svargluggann **Bóka færslubók**.
 
-    ![Svarglugginn Bóka færslubók](./media/subcontract28_post-journal-dialog.png)
+    ![Svarglugginn Bóka færslubók.](./media/subcontract28_post-journal-dialog.png)
 
 43. Veldu **Í lagi** til að loka svarglugganum **Bóka færslubók**.
 44. Opna innkaupapöntunina.
 
-    ![Síða innkaupapöntunar](./media/subcontract29_purchase-order-page.png)
+    ![Síða innkaupapöntunar.](./media/subcontract29_purchase-order-page.png)
 
 45. Á aðgerðasvæðinu, í flipanum **Innkaup**, skal velja **Staðfesta**.
 46. Veldu **Bóka** til að opna svargluggann **Bóka færslubók**.
 47. Veldu **Í lagi** til að loka svarglugganum **Bóka færslubók** og fara aftur á síðuna **Innkaupapöntun**.
 48. Breyttu einingarverðinu úr **33** í **40**.
 
-    ![Breyting á einingarverði á síðu innkaupapöntunar](./media/subcontract30_unit-price.png)
+    ![Breyting á einingarverði á síðu innkaupapöntunar.](./media/subcontract30_unit-price.png)
 
 49. Staðfestu innkaupapöntunina aftur.
 50. Innhreyfingarskjal.
 
-    ![Svarglugginn Bókun innhreyfingarskjals](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Svarglugginn Bókun innhreyfingarskjals.](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Innkaupareikningur.
 52. Uppfærðu samsvörunarstöðuna.
 
-    ![Reikningssíða lánardrottins](./media/subcontract32_vendor-invoice-page.png)
+    ![Reikningssíða lánardrottins.](./media/subcontract32_vendor-invoice-page.png)
 
 53. Bóka sem lokið.
 
-    ![Svarglugginn Bóka sem lokið](./media/subcontract33_report-as-finished-dialog.png)
+    ![Svarglugginn Bóka sem lokið.](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Lok.
 
-    ![Svarglugginn Lok](./media/subcontract34_end-dialog.png)
+    ![Svarglugginn Lok.](./media/subcontract34_end-dialog.png)
 
 55. Kostnaðarsamanburður.
 
-    ![Gröf kostnaðarsamanburðar](./media/subcontract35_cost-comparison-charts.png)
+    ![Gröf kostnaðarsamanburðar.](./media/subcontract35_cost-comparison-charts.png)
 
 Vantar uppsetningu í gögnum.
 

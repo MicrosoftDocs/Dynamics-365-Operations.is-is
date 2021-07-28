@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 79300c84b07db23ad387e0f3e475ca1707c79548
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347369"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Greiðslur eru sjálfkrafa jafnaðar áður en pantanir eru reikningsfærðar eða sendar
 
@@ -43,12 +43,12 @@ Til að skilgreina handvirka úthlutun fyrir greiðslur rafrænna viðskipta í 
 1. Á efstu yfirlitsstikunni skal velja **Reikningur** og síðan **Stillingar**.
 1. Í reitnum **Seinka úthlutun** skal velja **handvirkt**.
 
-    ![Stilling Seinka úthlutun í Adyen-gáttinni](media/adyen-capture-delay.jpg)
+    ![Stilling fyrir Seinka úthlutun í Adyen-gáttinni.](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Úthlutun Adyen-greiðslu](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[Dynamics 365-greiðslutengill fyrir Adyen](../dev-itpro/adyen-connector.md)
+[Dynamics 365 Payment Connector fyrir Adyen](../dev-itpro/adyen-connector.md)
 
 [Setja upp Adyen-greiðslutengil fyrir Dynamics 365](https://docs.adyen.com/plugins/microsoft-dynamics)

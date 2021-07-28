@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796487"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345209"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
@@ -72,14 +72,14 @@ Hnappar sölustaðar geta nú sýnt fjölda til að auðvelda starfsmönnum að 
 
 Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönnuðar.
 
-![Stillingar fyrir lifandi efni í hönnuður hnappatafla](./media/ButtonGridDesigner.png "Stillingar fyrir lifandi efni í hönnuður hnappatafla")
+![Stillingar fyrir lifandi efni í hönnuður hnappatafla.](./media/ButtonGridDesigner.png "Stillingar fyrir lifandi efni í hönnuður hnappatafla")
 
 Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú skaltu nota Edge-vafra, opna síðuna **Skjáútlit**, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti.
 
-![Finndu skjáinn sem POS notar](./media/Choose_screen_layout.png "Finndu skjáútlitið")
+![Finndu skjáinn sem POS notar.](./media/Choose_screen_layout.png "Finndu skjáútlitið")
 
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 
-![Beint efni á hnöppum sölustaðar](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
+![Beint efni á hnöppum sölustaðar.](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d6e7b0ad4fe0723575a0ec55a9b02d110568db58
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346779"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
@@ -31,7 +31,7 @@ Neðanmálseiningin er sérstakur gámur sem er notaður til að hýsa einingarn
 
 Eftirfarandi mynd sýnir dæmi um neðanmálseiningu á síðu svæðis.
 
-![Dæmi um neðanmálseiningu](./media/ecommerce-footer.PNG)
+![Dæmi um neðanmálseiningu.](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Eiginleikar neðanmálseiningar 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049317"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346083"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -78,28 +78,28 @@ Til að virkja farsímaforrit Vöruhúsakerfis til að eiga samskipti við tilte
 1. Færið inn heiti og aðgangsorð notanda með aðgang að Azure-áskrift.
 1. Í Azure-gáttinni, á vinstra yfirlitssvæðinu, skal velja **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Ganga skal úr skugga um að unnið sé með tilvik Azure AD sem eru notuð af Supply Chain Management.
 1. Á listanum **Stjórna** skal velja **Forritsskráningar**.
 
-    ![Skráning forrits](media/app-connect-azure-register.png "Skráning forrits")
+    ![Skráning forrits.](media/app-connect-azure-register.png "Skráning forrits")
 
 1. Á tækjastikunni skal velja **Ný skráning** til að opna leiðsögnina **Skrá forrit**.
 1. Slá skal inn heiti fyrir forritið, velja **Aðeins lyklar í skráasafni þessa fyrirtækis** og síðan velja **Skrá**.
 
-    ![Skrá leiðsagnarforritið](media/app-connect-azure-register-wizard.png "Skrá leiðsagnarforrit")
+    ![Skrá leiðsagnarforrit.](media/app-connect-azure-register-wizard.png "Skrá leiðsagnarforrit")
 
 1. Nýja forritaskráningin er opnuð. Munið gildi **Kenni forrits (biðlari)** því það þarf að nota það síðar. Þetta auðkenni verður nefnt síðar í þessu efnisatriði sem *biðlarakennið*.
 
-    ![Kenni forrits (biðlari)](media/app-connect-azure-app-id.png "Kenni forrits (biðlari)")
+    ![Kenni forrits (biðlara).](media/app-connect-azure-app-id.png "Kenni forrits (biðlari)")
 
 1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Frekari upplýsingar er að finna í hlutanum [Sannvotta með vottorði eða leyniorði biðlara](#authenticate) síðar í þessu efnisatriði.)
 
     - **Hlaða upp vottorði** – Hlaða upp vottorði til að nota sem leyniorð. Við mælum með þessari nálgun vegna þess að hún er öruggari og getur einnig verið sjálfvirk að fullu. Ef verið er að nota farsímaforrit Vöruhúsakerfis á Windows-tækjum skal skrá niður gildið **Fingrafar** sem er sýnt eftir að búið er að hlaða upp vottorðinu. Þú þarft þetta gildi þegar þú grunnstillir vottorð í Windows-tækjum.
     - **Nýtt leyniorð biðlara** – Stofnið lykil með því að slá inn lyklalýsingu og lengd í hlutanum **Aðgangsorð** og veljið **Bæta við**. Taktu afrit af lyklinum og geymdu það á öruggum stað.
 
-    ![Vottorð og leyniorð](media/app-connect-azure-authentication.png "Vottorð og leyniorð")
+    ![Vottorð og leyniorð.](media/app-connect-azure-authentication.png "Vottorð og leyniorð")
 
 Frekari upplýsingar um hvernig vefþjónustuforrit eru sett upp eru í Azure AD, sjá eftirfarandi tilföng:
 
@@ -119,7 +119,7 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
     1. Stofna notanda.
     1. Úthluta fartækjanotanda í vöruhúsi.
 
-    ![Úthluta fartækjanotanda í vöruhúsi](media/app-connect-app-users.png "Úthluta fartækjanotanda í vöruhúsi")
+    ![Úthluta fartækjanotanda í vöruhúsi.](media/app-connect-app-users.png "Úthluta fartækjanotanda í vöruhúsi")
 
 1. Tengið Azure AD-forritið við notanda farsímaforrits vöruhúsakerfis:
 
@@ -127,7 +127,7 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
     1. Stofna línu.
     1. Færa skal inn biðlarakennið sem skráð var niður í hlutanum á undan, gefa því heiti og velja notandann sem var stofnaður. Við mælum með því að öll tækin þín séu merkt. Ef tæki týnist, þá er lítið mál að fjarlægja aðgang þess að Supply Chain Management á þessari síðu.
 
-    ![Azure Active Directory-forrit](media/app-connect-aad-apps.png "Forrit Azure Active Directory")
+    ![Azure Active Directory-forrit.](media/app-connect-aad-apps.png "Forrit Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sannvotta með því að nota vottorð eða leyniorð biðlara
 
@@ -213,30 +213,30 @@ Fylgið eftirfarandi skrefum til að flytja inn tengingarstillingar úr skrá e�
 
 1. Ræsið farsímaforrit vöruhúsakerfisins í fartækinu. Í fyrsta skipti sem forritið ræsist birtast opnunarskilaboð. Veljið **Velja tengingu**.
 
-    ![Opnunarkveðja](media/app-configure-welcome-screen.png "Opnunarkveðja")
+    ![Opnunarkveðja.](media/app-configure-welcome-screen.png "Opnunarkveðja")
 
 1. Ef verið er að flytja inn tengistillingar úr skrá og sjálfgefið heiti og staðsetning var notuð þegar skráin var vistuð, þá kann að vera að forritið hafi þegar fundið skrána. Í þessu tilvikum skal fara næst í skref 4. Að öðrum kosti skal velja **Setja upp tengingu** og fara síðan í þriðja skref.
 
-    ![Setja upp tengingu](media/app-configure-set-up-connection.png "Setja upp tengingu")
+    ![Setja upp tengingu.](media/app-configure-set-up-connection.png "Setja upp tengingu")
 
 1. Í svarglugganum **Uppsetning tengingar** skal velja **Bæta við úr skrá** eða **Bæta við úr QR-kóða**, allt eftir því hvernig á að flytja inn stillingarnar:
 
     - Ef verið er að flytja inn tengistillingarnar úr skrá skal velja **Bæta við úr skrá**, fletta skránni upp á staðbundnu tæki og velja hana. Ef valin staðsetning er sérsniðin mun forritið geyma hana og nota sjálfkrafa næst.
     - Ef verið er að flytja inn tengingarstillingarnar með því að skanna QR-kóða skal velja **Bæta við úr QR-kóða**. Forritið biður um heimild til að nota myndavél tækisins. Þegar heimild hefur verið veitt er myndavélin ræst þannig að hægt er að nota hana fyrir skönnun. Erfitt getur reynst að ná réttri skönnun en það veltur á gæðum myndavélar tækisins og því hversu flókinn QR-kóðinn er. Í því tilviki þarf að reyna að minnka flækjustig QR-kóðans með því að mynda aðeins eina tengingu á hvern QR-kóða. (Eins og er er aðeins hægt að nota myndavél tækisins til að skanna QR-kóðann.)
 
-    ![Uppsetningarvalmynd tengingar](media/app-configure-connection-setup-flyout.png "Uppsetningarvalmynd tengingar")
+    ![Uppsetningarvalmynd tengingar.](media/app-configure-connection-setup-flyout.png "Uppsetningarvalmynd tengingar")
 
 1. Þegar tengistillingar hafa verið hlaðnar er valin tenging sýnd.
 
-    ![Tengistillingum hlaðið](media/app-configure-select-connection.png "Tengistillingum hlaðið")
+    ![Tengistillingum hlaðið.](media/app-configure-select-connection.png "Tengistillingum hlaðið")
 
 1. Ef þú ert að nota Android tæki og notar vottorð fyrir sannvottun birður tækið þig um að velja vottorðið.
 
-    ![Velja vottorðskvaðningu á Android-tæki](media/app-configure-select-certificate.png "Velja vottorðskvaðningu í Android-tæki")
+    ![Velja vottorðskvaðningu á Android-tæki.](media/app-configure-select-certificate.png "Velja vottorðskvaðningu í Android-tæki")
 
 1. Forritið tengist þjóni Supply Chain Management og sýnir innskráningarsíðuna.
 
-    ![Innskráningarsíða](media/app-configure-sign-in-page.png "Innskráningarsíða")
+    ![Innskráningarsíða.](media/app-configure-sign-in-page.png "Innskráningarsíða")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Skilgreina forritið handvirkt
 
@@ -246,15 +246,15 @@ Ef hvorki skrá né QR-kóði er til staðar er hægt að skilgreina forritið h
 1. Ef forritið er ræst í **Sýnistillingu** skal velja **Tengistillingar**. Ef síðan **Innskráning** birtist þegar forritið er ræst skal velja **Breyta tengingu**.
 1. Veljið **Setja upp tengingu**.
 
-    ![Setja upp tengingu](media/app-configure-set-up-connection.png "Setja upp tengingu")
+    ![Setja upp tengingu.](media/app-configure-set-up-connection.png "Setja upp tengingu")
 
 1. Veljið **Setja inn handvirkt**.
 
-    ![Uppsetningarvalmynd tengingar](media/app-configure-connection-setup-flyout.png "Uppsetningarvalmynd tengingar")
+    ![Uppsetningarvalmynd tengingar.](media/app-configure-connection-setup-flyout.png "Uppsetningarvalmynd tengingar")
 
     Síðan **Ný tenging** birtist og sýnir stillingarnar sem þarf til að færa handvirkt inn tengiupplýsingarnar.
 
-    ![Handvirk tengisvæði](media/app-configure-input-manually.png "Handvirkir tengireitir")
+    ![Handvirk tengisvæði.](media/app-configure-input-manually.png "Handvirkir tengireitir")
 
 1. Færi inn eftirfarandi upplýsingar:
 

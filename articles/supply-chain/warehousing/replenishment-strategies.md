@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814513"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344474"
 ---
 # <a name="replenishment-strategies"></a>Áfyllingaráætlanir
 
@@ -45,7 +45,7 @@ Háannatími er eitt dæmi um aðstæður þar sem áætlunin *Hámarksafkastage
 
 Til að opna sniðmátin skal fara í **Vöruhúsakerfi \> Uppsetningu \> Áfylling \> Áfyllingarsniðmát**. Í hlutanum **Yfirlit** skaltu velja eða stofna eftirspurnaráfyllingu bylgju þar sem svæðið **Gerð áfyllingar** er stillt á *Eftirspurn bylgju*. Síðan skal setja upp áfyllingarsniðmátslínur í hlutanum **Upplýsingar um áfyllingarsniðmát**. Fyrir hverja línu á svæðinu **Áfyllingaráætlun** skal velja áfyllingaráætlun sem ætlunin er að nota.
 
-![Sniðmátsíða áfyllingar](media/ReplenTempWaveDmdMaxLocCap.png "Sniðmátsíða áfyllingar")
+![Sniðmátssíða áfyllingar.](media/ReplenTempWaveDmdMaxLocCap.png "Sniðmátsíða áfyllingar")
 
 Þegar dálkurinn **áfyllingaráætlunar** birtist ekki í hnitanetinu í hlutanum **Upplýsingar um áfyllingarsniðmát** verður að ganga úr skugga um að kveikt hafi verið á eiginleikanum og gerð áfyllingar á völdu áfyllingarsniðmáti sé *Eftirspurn bylgju*.
 
@@ -85,7 +85,7 @@ Ef áfyllingaráætlun er stillt á *Hámarksafkastageta staðsetningar* í sta�
 - **Áfyllingarvinna 1:** Taka til 4 box á biðstaðsetningu og setja þau í tiltekt staðsetningar-001.
 - **Áfyllingarvinna 2:** Taka til 5 box á biðstaðsetningu og setja þau í tiltekt staðsetningar-002.
 
-[![Dæmi 1](media/ReplenTemp_example_1.png "Dæmi 1")](media/ReplenTemp_example_1_large.png)
+[![Dæmi 1.](media/ReplenTemp_example_1.png "Dæmi 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Dæmi 2
 
@@ -109,7 +109,7 @@ Miðað við stillingu valkostarins **Leyfa** á staðsetningarleiðbeiningum fy
 
 Niðurstöðurnar eru ólíkar miðað við tiltækar upplýsingar þegar vinnan er stofnuð. Þegar **Leyfa að skipta** er stillt á *Já* á staðsetningarleiðbeiningum fyrir tiltekt áfyllingar, færðu að vita að þú fannst 160 stk. Þess vegna er hægt að stofna vinnu fyrir það magn. Hins vegar, þegar valkosturinn **Leyfa** er stilltur á *Nei* getur þú ekki vitað um að 160 stk eru til staðar. Vegna þess að aukamagnið sem ákveðið var að fylla á voru 3 box er hægt að sleppa þessu aukamagni og reyna upprunalega magnið að nýju.
 
-[![Dæmi 2](media/ReplenTemp_example_2.png "Dæmi 2")](media/ReplenTemp_example_2_large.png)
+[![Dæmi 2.](media/ReplenTemp_example_2.png "Dæmi 2")](media/ReplenTemp_example_2_large.png)
 
 Þar af leiðandi til að fá hámarksmagn á áfyllingarstaðsetningar, skal stilla valkostinn **Leyfa að skipta** á *Já* á staðsetningarleiðbeiningum fyrir áfyllingu tiltektar.
 

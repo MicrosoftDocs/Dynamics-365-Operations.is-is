@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344883"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -56,14 +56,14 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
 Hver afkastarakning rafrænnar skýrslugerðar sem er búin til í forritinu er geymd sem viðhengi skráar fyrir aðgerðarskráningu. Rammi skjalastjórnunar (DM) er notaður til að stjórna þessum viðhengjum. Skilgreina verður færibreytur rafrænnar skýrslugerðar fyrirfram til að tilgreina skjalagerð skjalastjórnunar sem á að nota til að hengja afkastarakningar við. Í vinnusvæðinu **Rafræn skýrslugerð** velurðu **Rafrænar skýrslufæribreytur**. Síðan, á síðunni **Færibreytur rafrænnar skýrslugerðar**, í flipanum **Viðhengi**, í reitnum **Annað**, skal velja skjalagerð skjalastjórnunar til að nota fyrir afkastarakningar.
 
-![Síða rafrænna skýrslufæribreyta](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Færibreytusíða rafrænnar skýrslugerðar.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Til að vera tiltækt í uppflettingarreitnum **Annað** verður skjalagerð skjalastjórnunar að vera skilgreind á eftirfarandi hátt á síðunni **Skjalagerðir** (**Fyrirtækisstjórnun \> Skjalastjórnun \> Skjalagerðir**):
 
 - **Klasi:** Hengja skrá við
 - **Flokkur:** Skrá
 
-![Síðan Gerðir skjala](./media/GER-PerfTrace-DM-DocumentType.png)
+![Síða skjalategunda.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Valin skjalagerð verður að vera tiltæk í öllum fyrirtækjum í núverandi tilviki vegna þess að viðhengi skjalastjórnunar miðast við fyrirtæki.
@@ -72,7 +72,7 @@ Til að vera tiltækt í uppflettingarreitnum **Annað** verður skjalagerð skj
 
 Afkastarakningar rafrænnar skýrslugerðar sem eru myndaðar verða fluttar inn í RCS til greiningar með því að nota sniðshönnuð rafrænnar skýrslugerðar og hönnuð fyrir vörpun rafrænnar skýrslugerðar. Vegna þess að afkastarakningar rafrænnar skýrslugerðar eru geymdar sem viðhengi fyrir skrá aðgerðarskráningar sem tengist sniði rafrænnar skýrslugerðar er nauðsynlegt að skilgreina færibreytur RCS fyrirfram til að tilgreina skjalagerð skjalastjórnunar sem á að nota til að hengja afkastarakningar við. Í tilfelli RCS sem hefur verið úthlutað fyrir fyrirtækið þitt, á vinnusvæðinu **Rafræn skýrslugerð**, skal velja **Rafrænar skýrslugerðarfæribreytur**. Síðan, á síðunni **Færibreytur rafrænnar skýrslugerðar**, í flipanum **Viðhengi**, í reitnum **Annað**, skal velja skjalagerð skjalastjórnunar til að nota fyrir afkastarakningar.
 
-![Síða rafrænna skýrslugerðarfæribreyta í RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Síða rafrænna skýrslugerðarfæribreyta í RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Til að vera tiltækt í uppflettingarreitnum **Annað** verður skjalagerð skjalastjórnunar að vera skilgreind á eftirfarandi hátt á síðunni **Skjalagerðir** (**Fyrirtækisstjórnun \> Skjalastjórnun \> Skjalagerðir**):
 
@@ -90,9 +90,9 @@ Gerum ráð fyrir að þú hafir byrjað að hanna nýja lausn rafrænnar skýrs
 
     1. Í aðgerðarúðunni skal velja **Skipta út \> Hlaða úr XML-skrá**.
     2. Veljið **Vafra** til að velja viðeigandi skrá fyrir nauðsynlega skilgreiningu rafrænnar skýrslugerðar á XML-sniði.
-    3. Veljið **Í lagi**.
+    3. Veldu **Í lagi**.
 
-    ![Skilgreiningarsíða í RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Skilgreiningarsíða í RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Keyra lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
@@ -109,7 +109,7 @@ Gerum ráð fyrir að þú hafir lokið við að hanna fyrstu útgáfu af lausn 
     3. Í flýtiflipanum **Skilgreiningar** skal velja skilgreininguna **Snið afkastarakningar**.
     4. Í flýtiflipanum **Útgáfur** skal velja útgáfuna **1.1** af valdri skilgreiningu og síðan velja **Flytja inn**.
 
-    ![Síðan Skilgreiningagagnasafn](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Gagnageymslusíða skilgreiningar.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Samsvarandi útgáfur af skilgreiningum gagnalíkans og líkanavörpunar eru fluttar inn sjálfvirkt sem forkröfur fyrir innflutta skilgreiningu á sniði rafrænnar skýrslugerðar.
 
@@ -156,7 +156,7 @@ Samsvarandi útgáfur af skilgreiningum gagnalíkans og líkanavörpunar eru flu
     > [!NOTE]
     > Færibreyturnar í svarglugganum **Færibreytur notanda** eru sérstaklega fyrir notandann og núverandi fyrirtæki.
 
-    ![Svarglugginn Notandafæribreytur](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Svarglugginn Notandafæribreytur.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Keyra snið rafrænnar skýrslugerðar
 
@@ -177,11 +177,11 @@ Afkastarakningar eru aftengdar frá upprunasniði rafrænnar skýrslugerðar og 
 2. Á síðunni **Keyrslukladdar rafrænnar skýrslugjafar**, í vinstri rúðunni, í reitnum **Heiti skilgreiningar**, skal velja **Snið afkastarakningar** til að finna kladdafærslur sem framkvæmdin hefur búið til í skilgreiningunni **Snið afkastarakningar**.
 3. Veljið hnappinn **Viðhengi** (bréfaklemmutáknið) efst í hægra horni síðunnar eða ýtið á **Ctrl+Shift+A**.
 
-    ![Hnappur viðhengis í keyrslukladdasíðu rafrænnar skýrslugerðar](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Hnappur viðhengis í keyrslukladdasíðu rafrænnar skýrslugerðar.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Á síðunni **Viðhengi fyrir keyrslukladda rafrænnar skýrslugerðar**, í aðgerðarúðunni, skal velja **Opna** til að ná í afkastarakninguna sem zip-skrá og geyma hana staðbundið.
 
-    ![Viðhengi fyrir keyrslukladda rafrænnar skýrslugerðar](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Viðhengi fyrir keyrslukladda rafrænnar skýrslugerðar.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > Rakningin sem er búin til er með tilvísun í upprunaskýrslu rafrænnar skýrslugerðar í gegnum einkvæmt kennimerki skýrslu aðeins á sniðinu **GUID**. Númeraúthlutun fyrir útgáfu sniðsins er ekki tekin með í reikninginn.
@@ -196,9 +196,9 @@ Takið eftir að tengingin milli afkastarakningar sem hefur verið búin til fyr
 4. Á síðunni **Sniðshönnuður**, í aðgerðarúðunni, skal velja **Afkastarakning**.
 5. Í svarglugganum **Stillingar fyrir niðurstöðu afkastarakningar** skal velja **Flytja inn afkastarakningu**.
 6. Veldu **Fletta** til að velja þjöppuðu skrána sem þú fluttir áður út.
-7. Veljið **Í lagi**.
+7. Veldu **Í lagi**.
 
-    ![Svargluggi stillinga fyrir niðurstöðu afkastarakningar í RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Svargluggi stillinga fyrir niðurstöðu afkastarakningar í RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Nota afkastarakningu fyrir greiningu í RCS - framkvæmd sniðs
 
@@ -209,7 +209,7 @@ Takið eftir að tengingin milli afkastarakningar sem hefur verið búin til fyr
     - Raunverulegur tími sem fór í að færa gögn inn í myndað frálag með því að nota sniðsatriðið
     - Sami tími sýndur sem prósenta af heildartímanum sem fór í að búa til allt frálagið
 
-    ![Síða sniðshönnuðar í RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Síða sniðshönnuðar í RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Lokaðu síðunni **Sniðshönnuður**.
 
@@ -232,7 +232,7 @@ Takið eftir því að rafræn skýrslugerð segir þér að núverandi líkanav
 - Eitt kall er framkvæmt til að færa upplýsingar um hverja færslu inn í gagnalíkanið, sem byggist á skilgreindum bindingum.
 - Eitt kall er framkvæmt til að færa reiknaðan fjölda færslna á hvern lánardrottin inn í gagnalíkanið.
 
-![Skilaboð um tvítekna gagnagrunnsbeiðni á hönnunarsíðu líkanavörpunar í RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Skilaboð um tvítekna gagnagrunnsbeiðni á hönnunarsíðu líkanavörpunar í RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 Gildið **\[Q:530\]** gefur til kynna að kallað var á VendTrans-töfluna 530 sinnum til að skila færslu úr þeirri töflu yfir í VendTable/\<Relations/VendTrans.VendTable\_AccountNum gagnagjafann. Gildið **\[530\]** gefur til kynna að kallað var á VendTable/\<Relations/VendTrans.VendTable\_AccountNum gagnagjafann 530 sinnum til að skila færslu úr þeim gagnagjafa og færa inn upplýsingarnar úr henni inn í gagnalíkanið.
 
@@ -240,7 +240,7 @@ Við mælum með að þú notir vistun í skyndiminni fyrir VendTable/\<Relation
 
 Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTypeList gagnagjafann. Þessi gagnagjafi er notaður til að tengja hvert gildi tölusetningarinnar **LedgerTransType** við merkið sitt. Með því að nota þennan gagnagjafa geturðu fundið viðeigandi merki og fært það inn í gagnalíkanið fyrir hverja lánardrottnafærsla. Núverandi fjöldi kalla á þennan gagnagjafa (9027) er frekar hár fyrir 265 færslur.
 
-![Hönnunarsíða líkanavörpunar í RCS sýnir 9027 köll á gagnagjafa](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Hönnunarsíða líkanavörpunar í RCS sýnir 9027 köll á gagnagjafa.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Bæta líkanavörpun á grundvelli upplýsinga úr framkvæmdarakningu
 
@@ -253,7 +253,7 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
     3. Stækkið atriðið **VendTable**, stækkið listann yfir einn í mörg tengsl fyrir VendTable gagnagjafann (atriðið **\<Tengsl**) og veljið atriðið **VendTrans.VendTable\_AccountNum**.
     4. Veljið **Skyndiminni**.
 
-    ![Uppsetning á vistun í skyndiminni til að hjálpa til við að koma í veg fyrir tvítekin köll](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Uppsetning á vistun í skyndiminni til að hjálpa til við að koma í veg fyrir tvítekin köll.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Fylgið þessum skrefum til að færa LedgerTransTypeList gagnagjafann inn í umfang VendTable gagnagjafans:
 
@@ -274,7 +274,7 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
     3. Veljið atriðið **VendTable.\$TransType**.
     4. Veljið **Skyndiminni**.
 
-    ![Uppsetning á vistun í skyndiminni fyrir reitinn $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Uppsetning á vistun í skyndiminni fyrir reitinn $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Fylgið þessum skrefum til að breyta reitnum **\$TransTypeRecord** svo hann byrji að nota skyndiminni reitsins **\$TransType**:
 
@@ -329,19 +329,19 @@ Endurtakið skrefin í hlutanum [Nota afkastarakningu fyrir greiningu í RCS - L
 
 Takiði eftir að leiðréttingar sem voru gerðar á líkanavörpun hafa eytt tvíteknum fyrirspurnum til gagnagrunns. Fjöldi kalla í gagnagrunnstöflur og gagnagjafa fyrir þessa líkanavörpun hefur einnig verið fækkað. Afköst á allri lausn rafrænnar skýrslugerðar hefur þar af leiðandi verið endurbætt.
 
-![Rakningarupplýsingar fyrir VendTable gagnagjafann á hönnunarsíðu líkanavörpunar í RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Rakningarupplýsingar fyrir VendTable gagnagjafann á hönnunarsíðu líkanavörpunar í RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Í rakningarupplýsingunum gefur gildið **\[12\]** fyrir VendTable gagnagjafa til kynna að kallað hafi verið á þennan gagnagjafa 12 sinnum. Gildið **\[Q:6\]** gefur til kynna að sex köll hafi verið þýdd yfir á gagnagrunnsköll til VendTable-töflunnar. Gildið **\[C:6\]** gefur til kynna að færslurnar sem voru sóttar úr gagnagrunninum hafi verið skyndiminni og unnið hafi verið úr sex öðrum köllum með því að nota skyndiminnið.
 
 Athugið að fjöldi kalla á LedgerTransTypeList gagnagjafann hefur fækkað úr 9027 í 240.
 
-![Rakningarupplýsingar fyrir LedgerTransTypeList gagnagjafann á hönnunarsíðu líkanavörpunar í RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Rakningarupplýsingar fyrir LedgerTransTypeList gagnagjafann á hönnunarsíðu líkanavörpunar í RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Farðu yfir framkvæmdarrakningu í forritinu
 
 Auk RCS kunna sumar útgáfur að bjóða upp á möguleika fyrir hönnunarupplifun á ramma rafrænnar skýrslugerðar. Þessar útgáfur eru með valkostinn **Virkja hönnunarsnið** sem hægt er að kveikja á. Hægt er að finna þennan valkost í flipanum **Almennt** á síðunni **Rafrænar skýrslugerðarfæribreytur** sem hægt er að opna úr vinnusvæðinu **Rafræn skýrslugerð**.
 
-![Kveiktu á hönnunarstillingarvalkosti á síðunni Færibreytur rafrænnar skýrslugerðar](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Kveiktu á hönnunarstillingarvalkosti á síðunni Færibreytur rafrænnar skýrslugerðar.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Ef þú notar eina af þessum útgáfum geturðu greint upplýsingar á mynduðum afkastarakningum beint í forritinu. Ekki þarf að flytja þær út úr forritinu og flytja inn í RCS.
 
@@ -359,7 +359,7 @@ Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-fo
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar.
 
-![Upplýsingar um frammistöðurakningu í PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Upplýsingar um frammistöðurakningu í PerfView.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Notaðu ytri verkfæri til að endurskoða framkvæmdarspor sem inniheldur gagnagrunnsfyrirspurnir
 
@@ -375,7 +375,7 @@ Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem 
     - Stilltu valkostinn **Safna saman tölfræði um fyrirspurnir** á **Já**.
     - Stillið valkostinn **Rekja fyrirspurn** á **Já**.
 
-    ![Svæði keyrslurakningar, svargluggi fyrir færibreytur notanda](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Svæði keyrslurakningar, svargluggi fyrir færibreytur notanda.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
 
@@ -383,7 +383,7 @@ Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-fo
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar. Þessi rakning inniheldur núna upplýsingar um SQL-gagnagrunnsaðgang við framkvæmd ER-sniðsins.
 
-![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

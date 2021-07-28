@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944366"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345691"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -101,7 +103,7 @@ Sniðsþáttur gerir þér kleift að hengja við tilteknar skrár sem hægt er 
 
 Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 
-[![Gagnaflæði fyrir sniðsþætti á útleið](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Gagnaflæði fyrir sniðsþætti á útleið.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Til að keyra eina sniðsskilgreiningu fyrir rafræna skýrslugerð og búa til rafrænt skjal til að senda út verður þú að auðkenna vörpun skilgreiningarsniðsins.
 
@@ -115,7 +117,7 @@ Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Ske
 
 Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 
-[![Gagnaflæði fyrir sniðsþætti á innleið](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Gagnaflæði fyrir sniðsþætti á innleið.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Til að keyra eina sniðsskilgreiningu til að flytja gögn úr rafrænu skjali á innleið, verður að auðkenna tilætlaða vörpun skilgreiningarsniðsins og einnig samþættingarstað vörpunar líkans. Hægt er að nota sömu vörpun líkans og áfangastaði með mismunandi sniðum fyrir mismunandi gerðir skjala á innleið.
 
@@ -290,7 +292,7 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 
 Sífellt er verið að uppfæra Listann yfir skilgreiningar rafrænnar skýrslugerðar fyrir Finance. Opnið [Altæka geymsla](er-download-configurations-global-repo.md) til að fara yfir lista yfir skilgreiningar rafrænnar skýrslugerðar sem eru studdar. Í flýtiflipanum **Upplýsingar um niðurfellingu** er hægt að fara yfir upplýsingar um skilgreiningar sem hætt hefur verið við eða sem ekki er verið að viðhalda. 
 
-![Efni altækrar geymslu síað á síðu skilgreiningageymslu](./media/er-overview-03.gif)
+![Efni altækrar geymslu síað á síðu skilgreiningageymslu.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
