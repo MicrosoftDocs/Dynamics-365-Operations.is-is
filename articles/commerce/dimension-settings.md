@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356903"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Nota skjástillingar fyrir afurðavíddir
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce styður stærð, stíl og litvíddir til að greina afurð
 
 Í vefsmið Commerce eru víddastillingar skilgreindar á **Stillingar svæðis \> Viðbætur \> Stillingar víddar**. Eftirfarandi skýringarmynd sýnir dæmi um víddastillingar í vefsmið.
 
-![Dæmi um svæðisstillingar í vefsmið Commerce](./dev-itpro/media/swatch_site_settings.PNG)
+![Dæmi um svæðisstillingar í vefsmið Commerce.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Tvær víddarsamstæður eru tiltækar:
 
@@ -41,13 +41,13 @@ Tvær víddarsamstæður eru tiltækar:
 
     Eftirfarandi mynd sýnir dæmi þar sem upplýsingasíða afurðar á svæði fyrir rafræn viðskipti inniheldur sýnishorn lita og stærða. Í þessu dæmi er sextándakerfiskóði skilgreindur fyrir litavíddina. Því eru sýnishorn sýnd sem litir. Hinsvegar er hvorki sextándakerfiskóði né myndaslóð stillt fyrir stærðarvíddina. Því er texti sýndur.
 
-    ![Dæmi um litavíddina sem sýnd er sem sýnishorn á upplýsingasíðu afurðar á rafrænu svæði viðskipta](./dev-itpro/media/swatch_pdp.png)
+    ![Dæmi um litavíddina sem sýnd er sem sýnishorn á upplýsingasíðu afurðar á rafrænu svæði viðskipta.](./dev-itpro/media/swatch_pdp.png)
 
 - **Víddir til að birta í afurðarspjaldi** – Tilgreinið hvaða víddir eigi að birtast á afurðarspjöldum sem eru sýnd í listum og á listasíðum. Áður en vídd getur birst á afurðarspjaldi þarf að virkja þessa stillingu fyrir þá vídd. Stillingin **Víddir til að birta sem mynd** ætti einnig að vera virk. Hegðun sýnishornavals á afurðarspjöldum er fínstillt fyrir litavíddina. Fyrir aðrar víddir gæti skoðunarviðbót verið nauðsynleg til að sérstilla hegðun sýnishornavals.
 
     Eftirfarandi mynd sýnir dæmi þar sem listasíða á svæði rafrænna viðskipta inniheldur afurðarspjöld sem eru með litaspjöld.
 
-    ![Dæmi um litavíddina sem sýnd er sem litaspjald á listasíðu svæðis fyrir rafræn viðskipti](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Dæmi um litavíddina sem sýnd er sem litaspjald á listasíðu svæðis fyrir rafræn viðskipti.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Upplýsingar um hvernig á að stilla víddir afurða þannig að þau eru birt sem sýnishorn á vefsíðum er að finna í [Stilla afurðarvíddargildi þannig að þau birtist sem sýnishorn](./dev-itpro/dimensions-swatch.md).
 

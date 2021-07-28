@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826739"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355581"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samruni virðislíkön eigna og afskriftarbækur
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826739"
 
 Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
 
-Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Bók sem samruni virðislíkans og afskriftarbókar](./media/fixed-assets.png)](./media/fixed-assets.png) Vegna þessa samruna, geturðu nú notað eitt sett af síðum, fyrirspurnir og skýrslur fyrir öll eignaferli. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
+Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Virkni Bókar sem samruni virðislíkans og afskriftarbókar.](./media/fixed-assets.png)](./media/fixed-assets.png) Vegna þessa samruna, geturðu nú notað eitt sett af síðum, fyrirspurnir og skýrslur fyrir öll eignaferli. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
 
 ## <a name="setup"></a>Uppsetning
 Sjálfgefið er að bækur bóka bæði í fjárhag (GL) og undirbók eignar. Bækur hafa nýja **Bóka í fjárhag** valkost sem gerir kleift að gera bókun á Fjárhag óvirka og bóka aðeins í undirbók eignar. Þessi virkni svipar fyrri hegðun bókana fyrir afskriftabækur. Uppsetning heiti færslubóka hefur nýja bókunarlag sem nefnist Ekkert. Þessi bókunarlag var bætt sérstaklega við fyrir eignafærslur. Til að bóka færslur fyrir bækur sem ekki bóka í fjárhag, verður að nota heiti færslubókar sem er með bókunarlag stillt á **Ekkert**.

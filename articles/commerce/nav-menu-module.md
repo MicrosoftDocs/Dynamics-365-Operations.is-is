@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353109"
 ---
 # <a name="navigation-menu-module"></a>Eining yfirlitsvalmyndar
 
@@ -33,7 +33,7 @@ Aðaltilgangurinn einingar yfirlitsvalmyndar er að leyfa notendum vefsvæða a�
 Hægt er að bæta einingu yfirlitsvalmyndar í hauseiningu síðu. Í Fabrikam-þema sýnir yfirlitsvalmynd sjálfgefið tvö stig. Í Upphafsþema sýnir yfirlitsvalmynd sjálfgefið tvö stig. Til að breyta fjölda stiga er skoðunarviðbót nauðsynleg við þemað.
 
 Eftirfarandi mynd sýnir dæmi um yfirlitsvalmynd fyrir Fabrikam-svæðið með tveimur stigum tegundastigveldis og nokkrum föstum valmyndaratriðum.
-![Dæmi um einingu yfirlitsvalmyndar](./media/ecommerce-header.png)
+![Dæmi um einingu yfirlitsvalmyndar.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Eiginleikar einingar yfirlitsvalmyndar
 
@@ -50,7 +50,7 @@ Eftirfarandi mynd sýnir dæmi um yfirlitsvalmynd fyrir Fabrikam-svæðið með 
 | Rótarvalmynd | strengur | Hægt er að nota þennan eiginleika til að skilgreina texta fyrir sérstillta rót ef **Sýna rótarvalmynd** eiginleikinn er stillt á **Satt**. |
 
 Eftirfarandi mynd sýnir dæmi um tegund myndar sem birtist á yfirlitsvalmyndinni fyrir Fabrikam-svæðið.
-![Dæmi um einingu yfirlitsvalmyndar með flokkamyndum](./media/ecommerce-categoryimages.PNG)
+![Dæmi um einingu yfirlitsvalmyndar með flokkamyndum.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Bæta einingu yfirlitsvalmyndar við hauseiningu
 

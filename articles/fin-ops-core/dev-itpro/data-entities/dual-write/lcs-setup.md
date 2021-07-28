@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359364"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
 
@@ -40,7 +40,7 @@ Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni 
 
 2. Veljið hnappinn **Notkun tvöfaldrar skráningar**.
 
-    ![Power Platform samþætting](media/powerplat_integration_step2.png)
+    ![Power Platform Samþætting.](media/powerplat_integration_step2.png)
 
 3. Farið yfir skilmálana og veljið því næst **Skilgreina**.
 
@@ -52,7 +52,7 @@ Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni 
 
 7. Veljið **Tengja við Power Platform umhverfi** til að búa til tengingu milli Dataverse og núverandi gagnagrunna umhverfis. Þetta tekur yfirleitt innan við 5 mínútur.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið.":::
 
 8. Þegar tengingin er komin verður tengill sýndur. Notið tengilinn til að skrá ykkur inn á stjórnunarsvæði tvöfaldrar skráningar í Finance and Operations umhverfinu. Þaðan er hægt að setja upp einingavarpanir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816884"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356677"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Staðgreiðsluskattur í innkaupafærslum
 
@@ -64,15 +64,15 @@ Sjálfgefinn staðgreiðsluskattsflokkur og staðgreiðsluskattflokkur vöru ver
 
 Tímabundin upphæð staðgreiðsluskatts er í boði í reitnum **Leiðréttur staðgreiðsluskattur** í flipanum **Samtölur** á síðunni **Innkaupapöntun**.
 
-![Staðgreiðsluskattur er hafður með í innkaupapöntuninni](media/withholding-tax-adjusted.png)
+![Staðgreiðsluskattur er hafður með í innkaupapöntuninni.](media/withholding-tax-adjusted.png)
 
 Staðgreiðsluskattur er reiknaður í **Greiðslubók lánardrottins**. Hægt er að leiðrétta viðeigandi staðgreiðsluskattskóða handvirkt rétt eins og raunverulegum upphæðum staðgreiðsluskatts í flipanum **Staðgreiðsluskattur** á síðunni **Jafna færslur**.
 
-![Staðgreiðslu er hægt að leiðrétta handvirkt á síðu færslujöfnunar](media/withholding-tax-vendor-payment-tab.png)
+![Staðgreiðslu er hægt að leiðrétta handvirkt á síðu færslujöfnunar.](media/withholding-tax-vendor-payment-tab.png)
 
 Afleidd upphæð staðgreiðsluskatts verður dregin frá lánardrottnagreiðslunni og bókuð í **Staðgreiðsluskattslykli** í tengdu fylgiskjali.
 
-![Staðgreiðsluskattslykill sem sýnir tengt fylgiskjal](media/withholding-tax-adjusted.png)
+![Staðgreiðsluskattslykill sem sýnir tengt fylgiskjal.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

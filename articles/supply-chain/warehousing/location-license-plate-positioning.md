@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831387"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359764"
 ---
 # <a name="location-license-plate-positioning"></a>Númeraplötustaða staðsetningar
 
@@ -88,7 +88,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
 1. Veldu **Númeraplötu** og veldu svo **Bæta við töflutengingu**.
 1. Í listanum yfir töflur sem birtist velur þú í dálknum **Tengsl** velur þú **Númeraplötustaða staðsetningar (númeraplata)**. Veldu síðan **Velja** til að bæta **Númeraplötustöðu staðsetningar** við töflutenginguna **Birgðavíddir**.
 
-    ![Töflutengingar](media/LpTableJoin.png "Töflutengingar")
+    ![Töflutengingar.](media/LpTableJoin.png "Töflutengingar")
 
 1. Veldu **Í lagi** til að staðfesta uppfærðar töflutengingar og loka fyrirspurnarritlinum.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn** til að opna fyrirspurnarritilinn að nýju.
@@ -100,7 +100,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
     - **Svæði:** *Númeraplötustaða*
     - **Skilyrði:** *1*
 
-    ![Nýtt svið](media/LpPositionCriteria.png "Nýtt svið")
+    ![Nýtt svið.](media/LpPositionCriteria.png "Nýtt svið")
 
 1. Smelltu á **Í lagi** til að vista breytingarnar og loka fyrirspurnarritlinum.
 
@@ -275,7 +275,7 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
 1. Á síðunni **Skanna vinnuauðkenni / kenni númeraplötu** skaltu smella á svæðið **Auðkenni** og síðan slá inn auðkenni sölulínunnar.
 1. Taktu eftir að tiltektin segir þér til að taka til vöru *A0002* úr staðsetningu *01A01R1S2B*. Þú færð þessar leiðbeiningar vegna þess að vara *A0002* er á númeraplötunni sem er í stöðu *1* á þeirri staðsetningu.
 
-    ![Staðsetning stöðu 1](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
+    ![Staðsetning á stöðu 1.](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
 
 1. Sláðu inn auðkenni númeraplötunnar sem þú bjóst til fyrir staðsetningu og fylgdu síðan leiðbeiningunum til að velja sölupöntunina.
 

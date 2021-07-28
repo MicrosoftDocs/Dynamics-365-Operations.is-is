@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750887"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351050"
 ---
 # <a name="er-migration-cleanup"></a>Hreinsun flutnings rafrænnar skýrslugerðar 
 
@@ -30,11 +30,11 @@ ms.locfileid: "5750887"
 
 Ef reynt er að keyra snið rafrænnar skýrslugerðar sem notar sniðmát til að búa til viðskiptaskjöl á sér stað undantekning og tilkynnt er um sniðmátið sem vantar. Þér er einnig bent á að nota hreinsunarvalkost fyrir flutning rafrænnar skýrslugerðar til að eyða og síðan flytja aftur inn skilgreiningu á sniði rafrænnar skýrslugerðar sem inniheldur sniðmátið.
 
-[![Keyrir snið rafrænnar skýrslugerðar](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Snið rafrænnar skýrslugerðar keyrt.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Þú færð svipaða villu ef þú ferð yfir á síðuna **Skilgreiningar** (**Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**) og í skilgreiningartrénu skaltu reyna að eyða skilgreiningu á sniði rafrænnar skýrslugerðar sem notar sniðmát.
 
-[![Eyðing á sniði rafrænnar skýrslugerðar](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Eyðing á sniði rafrænnar skýrslugerðar.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Ljúkið eftirfarandi skrefum til að leysa úr vandamálum með sniðmát rafrænnar skýrslugerðar sem ekki er hægt að opna.
 
@@ -50,7 +50,7 @@ Ljúkið eftirfarandi skrefum til að leysa úr vandamálum með sniðmát rafr�
 >
 > Ef valkosturinn **Hreinsun flutnings** er notaður til að eyða skilgreiningu á sniði rafrænnar skýrslugerðar þegar sniðmátið sem vísað er í er tiltækt í Blob-geymslunni, er aðeins hægt að eyða tengdum gervingum skilgreiningar í gagnagrunni forritsins. Efnislega skráin í sniðmátinu í Blob-geymslunni verður þar áfram. Ekki er lengur leyfilegt að skrifa yfir skrár í Blog-geymslunni. Nánari upplýsingar eru í [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Þar að auki er ekki lengur hægt að flytja aftur inn eyddar skilgreiningar með því að nota hreinsun flutnings í þessu umhverfi. Til að leysa þetta vandamál þarf að finna samsvarandi skrá í Blob-geymslu og eyða henni handvirkt.
 
-[![Flytja inn snið rafrænnar skýrslugerðar](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Flytja inn snið rafrænnar skýrslugerðar.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Svipað vandamál getur komið upp ef forritstilvikið er flutt á aðra staðsetningu sem hefur verið notuð sem flutningsmarkmið oftar en einu sinni og þar sem Blob-geymslan inniheldur nú þegar sniðmátsskrár rafrænnar skýrslugerðar.
 

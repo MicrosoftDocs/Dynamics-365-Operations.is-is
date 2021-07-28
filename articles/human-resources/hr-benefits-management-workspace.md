@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193432"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353615"
 ---
 # <a name="benefits-management-workspace"></a>Vinnusvæði fríðindastjórnunar
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193432"
 Þetta efnisatriði lýsir **Fríðindastjórnun** vinnusvæðinu í Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Til að skoða **Fríðindastjórnun** vinnusvæðið verður fyrst að virkja eiginleikann **(Forskoðun) Vinnusvæði fríðindastjórnunar** í eiginleikastjórnun. Frekari upplýsingar um hvernig forskoðunareiginleikar eru virkjaðir er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).<br><br>![Virkja vinnusvæði fríðindastjórnunar](./media/hr-benefits-management-workspace-enable.png)
+> Til að skoða **Fríðindastjórnun** vinnusvæðið verður fyrst að virkja eiginleikann **(Forskoðun) Vinnusvæði fríðindastjórnunar** í eiginleikastjórnun. Frekari upplýsingar um hvernig forskoðunareiginleikar eru virkjaðir er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).<br><br>![Virkja vinnusvæði fríðindastjórnunar.](./media/hr-benefits-management-workspace-enable.png)
 
 Vinnusvæðið **Fríðindastjórnun** veitir yfirlit yfir fríðindaatriði sem þú þarft að skoða. Á þessari síðu er hægt að sjá:
 
@@ -43,13 +43,13 @@ Vinnusvæðið **Fríðindastjórnun** veitir yfirlit yfir fríðindaatriði sem
 - Starfskraftar með virka viðburði
 - Starfsmenn með opnar skráningar sem hafa ekki enn skráð sig fyrir neinum áætlunum
 
-![Vinnusvæði fríðindastjórnunar](./media/hr-benefits-management-workspace.png)
+![Vinnusvæði fríðindastjórnunar.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Skoða aðgerðaatriði
 
 Hægt er að skoða aðgerðaatriðin með því að velja reit eða flipa. Ef flipi er valinn er hægt að skoða og velja starfsmenn á síðu vinnusvæðisins.
 
-![Aðgerðaratriði](./media/hr-benefits-management-workspace-action-items.png)
+![Aðgerðaratriði.](./media/hr-benefits-management-workspace-action-items.png)
 
 Ef þú velur spjald ferðu á síðuna fyrir það svæði. Til dæmis ef einhver af þessum reitum sem birtast á síðunni **Fríðindaáætlun starfsmanna** eru valdir, síaðir fyrir starfsmenn, þarf að grípa til aðgerða:
 
@@ -58,21 +58,21 @@ Ef þú velur spjald ferðu á síðuna fyrir það svæði. Til dæmis ef einhv
 - **Skráður í fríðindi**
 - **Nýr starfsmaður ekki skráður**
 
-![Fríðindaáætlanir starfskrafts](./media/hr-benefits-management-workspace-plans.png)
+![Fríðindaáætlanir starfskrafts.](./media/hr-benefits-management-workspace-plans.png)
 
 Ef reitirnir **Virkir viðburðir** eða **Viðburðir í framtíðinni** eru valdir verður farið yfir á lista yfir virka viðburði og viðburði í framtíðinni.
 
-![Viðburðir](./media/hr-benefits-management-workspace-life-events.png)
+![Viðburðir.](./media/hr-benefits-management-workspace-life-events.png)
 
 ## <a name="processing"></a>Í vinnslu
 
 Til að vinna úr hæfi skráningar, viðburðum eða uppfærslur á taxtabreytingum skal velja viðeigandi atriði á yfirlitsstikunni.
 
-![Í vinnslu](./media/hr-benefits-management-workspace-processing.png)
+![Í vinnslu.](./media/hr-benefits-management-workspace-processing.png)
 
 Til að skoða vinnu niðurstaðna skal velja **Vinna niðurstöður** á síðunni.
 
-![Vinna niðurstöður](./media/hr-benefits-management-workspace-process-results.png)
+![Vinna úr niðurstöðum.](./media/hr-benefits-management-workspace-process-results.png)
 
 Frekari upplýsingar um meðhöndlun fríðinda eru í:
 
@@ -86,13 +86,13 @@ Frekari upplýsingar um meðhöndlun fríðinda eru í:
 
 Til að skoða annað fríðindatímabil skal velja það úr fellilistanum **Tímabil**.
 
-![Breyta tímabili](./media/hr-benefits-management-workspace-period.png)
+![Breyta tímabili.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Skoða fleiri valkosti
 
 Til að skoða nánari upplýsingar og aðgerðir sem hægt er að nota skal velja **Tenglar**.
 
-![Tenglar](./media/hr-benefits-management-workspace-links.png)
+![Tenglar.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

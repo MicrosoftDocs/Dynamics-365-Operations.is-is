@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359412"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði
 
@@ -54,14 +54,14 @@ Einnig þarf að hlaða niður og vista eftirfarandi sniðmát staðbundið fyri
 5. Veljið **Hönnuður**.
 6. Athugið að á síðunni **Sniðshönnuður** gefur titill á einingu rótarsniðs til kynna að Excel-sniðmátið sé í notkun sem stendur.
 
-![Núverandi skilgreining valin](../media/er-design-configuration-word-2016-11-image01.gif)
+![Núverandi skilgreining valin.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>Fara yfir sótt Word-sniðmát
 
 1. Í Word-skjáborðsforritinu skal opna sniðmátsskrána **SampleVendPaymDocReport.docx** sem var sótt hér áður.
 2. Gangið úr skugga um að sniðmátið innihaldi aðeins útlit skjalsins sem á að mynda sem úttak rafrænnar skýrslugerðar.
 
-![Útlit Word-sniðmátsins í skjáborðsforritinu](../media/er-design-configuration-word-2016-11-image02.png)
+![Útlit Word-sniðmátsins í skjáborðsforritinu.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Skipta Excel-sniðmáti út fyrir Word-sniðmát og bæta við sérsniðnum XML-hluta
 
@@ -84,7 +84,7 @@ Núna er Excel-skjal notað sem sniðmát til að mynda úttak í OPENXML-sniði
 
 9. Athugið að titill á einingu rótarsniðs gefur til kynna að Word-sniðmátið sé í notkun sem stendur.
 
-    ![Excel-sniðmáti skipt út fyrir Word-sniðmát og sérsniðnum XML-hluta bætt við](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Excel-sniðmáti skipt út fyrir Word-sniðmát og sérsniðnum XML-hluta bætt við.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Í flipanum **Snið** skal velja **Viðhengi**.
 
@@ -110,7 +110,7 @@ Ef þú kannast við ferlið við hönnun Word-skjala sem snið sem innihalda [e
 1. Í Word-skjáborðsforritinu skal opna sniðmátsskrána **SampleVendPaymDocReportBounded.docx**.
 2. Gangið úr skugga um að sniðmátið innihaldi útlit skjalsins sem á að mynda sem úttak rafrænnar skýrslugerðar. Efnisstýringarnar sem eru notaðar sem staðgenglar fyrir gögn sem rafræn skýrslugerð færir inn í þetta sniðmát við keyrslu byggjast á vörpunum sem eru skilgreindar milli eininga sérsniðna XML-hlutans **Skýrsla** og efnisstýringar Word-skjalsins.
 
-![Forskoða Word-sniðmát í skjáborðsforritinu](../media/er-design-configuration-word-2016-11-image04.png)
+![Forskoða Word-sniðmát í skjáborðsforritinu.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Hlaða upp Word-sniðmáti þar sem sérsniðnum XML-hluta er varpað í efnisstýringar
 
@@ -144,7 +144,7 @@ Til að keyra útgáfudrög breytanlega sniðsins þarf að gera það [keyranle
 3. Á síðunni **Greiðslur lánardrottna** skal velja allar línur í hnitanetinu.
 4. Veljið **Greiðslustaða** \> **Engin**.
 
-    ![Greiðslur til úrvinnslu á greiðslusíðu lánardrottins](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Greiðslur til úrvinnslu á greiðslusíðu lánardrottins.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Á aðgerðasvæðinu skal velja **Búa til greiðslur**.
 6. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
@@ -156,7 +156,7 @@ Til að keyra útgáfudrög breytanlega sniðsins þarf að gera það [keyranle
 7. Í **Svargluggi rafrænna skýrslufæribreyta** velurðu **Í lagi**.
 8. Myndað úttak er sett fram í Word-snið og inniheldur upplýsingar um unnar greiðslur. Greina myndað úttak.
 
-    ![Myndað úttak á Word-sniði](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Myndað úttak á Word-sniði.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

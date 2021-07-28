@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824895"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359606"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Samþættingu við yfirlit yfir Microsoft Dynamics 365 Field Service
 
@@ -34,7 +34,7 @@ Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþætting
 
 Samþætting field service byggir ofan á fyrirliggjandi prospect-to-cash virknina.
 
-![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/field-service-integration.png)
+![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/field-service-integration.png)
 
 Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management einblínir á að gera kleift að reikningsfæra vinnupantanir og samninga frá Field Service til Supply Chain Management. Studda flæðið byrjar í Field Service, þar sem upplýsingar frá vinnupöntunum eru samstilltar við Supply Chain Management sem sölupantanir. Í Supply Chain Management eru sölupantanir innheimtir til að búa til reikningsgögn. Að auki eru upplýsingarnar frá samþykktum reikningum Field Service samstilltar við Supply Chain Management. Gagnasamþætting Microsoft Dynamics 365 samstillir gögn með sérsniðnum verkum. Hægt er að nota stöðluð sniðmát til að búa til sérsniðin samþættingarverk þar sem hægt er að varpa stöðluðum og sérsniðnum dálkum og töflum , til að aðlaga samþættinguna og uppfylla sérstakar þarfir.
 
@@ -58,7 +58,7 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 - Verkefni Supply Chain Management tengd verkbeiðnir Dynamics 365 Field Service
 - Dynamics 365 Field Service vinnupantanir með tengli við verk Supply Chain Management, nota þetta verknúmer á sölupöntun til að gera reikningsfærslu úr verkinu mögulega. 
 
-![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSv2overview.png)
+![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Seinni áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu við eftirfarandi sniðmát:
 - Vöruhús (Framboðsstjórnun að sviði þjónustu) - Vöruhús frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 

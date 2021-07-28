@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350789"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
@@ -73,21 +73,21 @@ Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfe
 
 Þú gætir fengið villuboð „Slæm beiðni“ sem líkjast eftirfarandi dæmi þegar þú býrð til gögn í forriti Finance and Operations.
 
-![Dæmi um villuboðin Bad Request](media/error_record_id_source.png)
+![Dæmi um villuboðin Bad Request.](media/error_record_id_source.png)
 
 Til að laga málið verður þú að úthluta réttu öryggishlutverki til teymis kortlagða Dynamics 365 Sales eða Dynamics 365 Customer Service til að gera það sem vantar réttindi.
 
 1. Í forriti Finance and Operations finnurðu viðskiptaeininguna sem er varpað í gagnasamsetningar tengingarsettinu.
 
-    ![Fyrirtækjavörpun](media/mapped_business_unit.png)
+    ![Fyrirtækjavörpun.](media/mapped_business_unit.png)
 
 2. Skráðu þig inn í umhverfið í líkanadrifna forritinu í Dynamics 365, farðu í **Stilling \> Öryggi** og finndu hóp varpaðrar viðskiptaeiningar.
 
-    ![Hópur varpaðrar viðskiptaeiningar](media/setting_security_page.png)
+    ![Hópur varpaðrar viðskiptaeiningar.](media/setting_security_page.png)
 
 3. Opnaðu síðuna fyrir hópinn sem á að breyta og veldu síðan **Stjórna hlutverkum** til að opna valmyndina **Stjórna hóphlutverkum**.
 
-    ![Hnappurinn Stjórna hlutverkum](media/manage_team_roles.png)
+    ![Hnappurinn Stjórna hlutverkum.](media/manage_team_roles.png)
 
 4. Úthlutið hlutverkið sem er með les-/skrifheimild fyrir viðeigandi töflur og veljið síðan **Í lagi**.
 

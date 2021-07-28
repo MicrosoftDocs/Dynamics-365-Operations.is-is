@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838131"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353373"
 ---
 # <a name="work-policies"></a>Vinnureglur
 
@@ -200,7 +200,7 @@ Innkaupapöntunin er nú móttekin en engin vinna er tengd henni. Lagerbirgðir 
 
 Í eftirfarandi dæmi eru tvær framleiðslupantanir, *PRD 001* og *PRD 002*. Framleiðslupöntunin *PRD-001* hefur aðgerðar sem nefnist *Samsetningu*, þar sem afurð *SC1* verið skráð sem lokið á staðsetningu *001*. Framleiðslupöntunin *PRD 002* hefur aðgerðar sem nefnist *Málun* og notar afurð *SC1* frá staðsetningu *001*. Framleiðslupöntunin *PRD-002* notar einnig *RM1* hráefni úr staðsetningunni *001*. Hráefni *RM1* er geymt á staðsetningu vöruhúss *BULK-001* og verður tínt yfir á staðsetningu *001* af vöruhúsavinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar *PRD 002 framleiðsla* er losuð.
 
-[![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Reglur vöruhúsavinnu.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Þegar ætlunin er að skilgreina vinnureglu vöruhúss fyrir þetta sýnidæmi ætti að hafa eftirfarandi punkta í huga:
 

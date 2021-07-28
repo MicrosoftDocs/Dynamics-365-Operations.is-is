@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020604"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350379"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Tengill innskráningar framsendir aftur á svæði rafrænna viðskipta
 
@@ -43,7 +43,7 @@ Til að staðfesta að svarvefslóð sé rétt skilgreind í forriti Azure AD B2
 1. Veljið forritið sem var búið til við uppsetningu Azure AD B2C uppsetningu.
 1. Undir **Svarslóð** skal ganga úr skugga um listinn innihaldi færslur fyrir bæði vefslóð svæðisins og vefslóð sem rafræn viðskipti mynda eins og sýnt er í dæminu á eftirfarandi skýringarmynd.
 
-    ![Færslur svarslóðar Azure AD B2C](media/aad-b2c-reply-url.jpg)
+    ![Færslur svarslóðar Azure AD B2C.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > Bæði vefslóð svæðisins og mynduð vefslóð rafrænna viðskipta verða að vera á gildu sniði vefslóðar sem inniheldur ekki línubil fyrir framan og aftan.

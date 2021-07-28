@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800688"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351226"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Bæta rás við stigveldi fyrirtækis
 
@@ -44,7 +44,7 @@ Fylgdu þessum skrefum til að velja stigveldi.
 
 Eftirfarandi mynd sýnir upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi.
 
-![Upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi](media/channel-add-to-org-hierarchy-1.png)
+![Upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Bæta rás við stigveldishnút
 
@@ -58,17 +58,17 @@ Til að bæta rás við stigveldishnút skaltu fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir hvernig á að velja rás til að bæta við stigveldishnút.
 
-![Veldu rás til að bæta við stigveldishnút](media/channel-add-to-org-hierarchy-2.png)
+![Veldu rás til að bæta við stigveldishnút.](media/channel-add-to-org-hierarchy-2.png)
 
 Eftirfarandi mynd sýnir stigveldi með ýmsum rásum bætt við.
 
-![Stigveldi með ýmsum rásum bætt við](media/channel-add-to-org-hierarchy-3.png)
+![Stigveldi með ýmsum rásum bætt við.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
-[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
 
 [Yfirlit yfir fyrirtæki og fyrirtækjastigveldi](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 

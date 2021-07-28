@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 0ad2a86fbc17f107a065330a56da6cdcca69e172
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027723"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352567"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Stilla marga B2C leigjendur í viðskiptaumhverfi
 
@@ -49,7 +49,7 @@ Oft, þegar hver rás eða síða er meðhöndluð sem sérstök viðskipti, er 
 
 Eftirfarandi mynd sýnir marga B2C leigjendur í viðskiptaumhverfi.
 
-![Margir B2C leigjendur í viðskiptaumhverfi](media/MultiB2C_In_Environment.png)
+![Margir B2C leigjendur í viðskiptaumhverfi.](media/MultiB2C_In_Environment.png)
 
 Ef þú ákveður að fyrirtæki þitt þurfi sérstaka B2C leigjendur á hverja rás í sama viðskiptaumhverfi skaltu ljúka verklagsreglunum í eftirfarandi hlutum til að biðja um þennan eiginleika.
 

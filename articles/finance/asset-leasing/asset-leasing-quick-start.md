@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892434"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360737"
 ---
 # <a name="asset-leasing-get-started"></a>Hafist handa með eignarleigu
 
@@ -35,7 +37,7 @@ Frekari upplýsingar varðandi bókhaldsstaðla er að finna í stöðluðum fyl
 ## <a name="asset-leasing-elements"></a>Eignaleiguþættir
 Eftirfarandi skýringarmynd sýnir helstu einingar viðskiptaferlis fyrir leigusamninga.
 
-[![Eignaleiguþættir](./media/overview-01.png)](./media/overview-01.png)
+[![Eignaleiguþættir.](./media/overview-01.png)](./media/overview-01.png)
 
 Leigð eign inniheldur eftirfarandi meginþætti:
 
@@ -54,7 +56,7 @@ Eignarleiga varpar upplýsingum um leigusamning, greiðsluáætlunum, upphafs- o
 
 Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðsluáætlun, flokkunarprófanir fyrir leigusamninga og leigubækur og samsvarandi bókhaldsfærslur.
 
-[![Leigusamningur, leigubók og greiðsluáætlun](./media/overview-02.png)](./media/overview-02.png)
+[![Leigusamningur, leigubók og greiðsluáætlun.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Leigubók** - Leigubókin inniheldur allar upplýsingar um leigusamninginn, svo sem leiguskilmála, gangvirði og leigugreiðslur. Þar er einnig að finna reikningsskilastaðalinn sem þú fylgir, gerð leigusamningsins og mörkin sem eru tekin til greina í flokkunarprófun leigusamningsins. Leigubókin inniheldur einnig leigufærslurnar sem voru bókaðar í fjárhag. 
   
@@ -117,7 +119,7 @@ Fyrsta tímabilið hefst á tímabili núll, ef tegund afborgunar er framsett af
 
 Flokkunarprófanir fela í sér flutning á eignarhaldi, kaupmöguleika, leigutíma, nettónúvirði og einstaka eign. Eftirfarandi skýringarmynd sýnir prófun leigusamningsflokkunar.
 
-[![Prófun leigusamningsflokkunar](./media/overview-03.png)](./media/overview-03.png)
+[![Prófun leigusamningsflokkunar.](./media/overview-03.png)](./media/overview-03.png)
 
 Hver gerð leigusamnings meðhöndlar bókhaldið á ólíkan hátt fyrir mismunandi leigufærslur. Færslurnar fela í sér upphaflega skráningu, vaxtakostnað, gjaldfallna greiðslu á leigu og afskrift leigusamnings og þær fylgja reikningsskilastöðlum sem þú fylgir (IFRS 16 eða ASC 842). Fjárhagslyklar eru skilgreindir samkvæmt bókunarreglu leigusamningsins fyrir hverja færslugerð og bókhaldsramma.
 
@@ -232,7 +234,7 @@ Ljúkið eftirfarandi skrefum til að stofna nýja leigu.
 
    Síðan **Greiðsluáætlun** sýnir greiðsluáætlanir í framtíðinni fyrir leigukenni. Veljið **Staðfesta áætlun** til að geta birt færslurnar **Upphafleg skráning**. 
 
-[![Aðgerð upphaflegrar skráningar](./media/overview-13.png)](./media/overview-13.png)
+[![Aðgerð upphaflegrar skráningar.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Veljið **Upphafleg skráning** til að stofna fyrstu skráningarbók. 
 
@@ -246,7 +248,7 @@ Ljúkið eftirfarandi skrefum til að stofna nýja leigu.
 
    Síðan **Afskriftaráætlun eignar** sýnir afskriftarfærslurnar fyrir valið leigukenni. 
 
-   [![Færslusíða afnotaréttar af eign](./media/overview-20.png)](./media/overview-20.png)
+   [![Færslusíða afnotaréttar af eign.](./media/overview-20.png)](./media/overview-20.png)
 
    Síðan **Færslur afnotaréttar af eign** sýnir upphaflega skráningu, uppsafnaðar afskriftir og eignastöðuna. 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097235"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354738"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neikvæðir dagar og gagnvirkir neikvæðir dagar
 
@@ -43,7 +43,7 @@ ms.locfileid: "6097235"
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
-![Myndrænt yfirlit yfir aðstæður 1](./media/negative-days-1.jpg)
+![Myndrænt yfirlit yfir aðstæður 1.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Mál A: Neikvæðar dagar eru færri en afhendingartími vörunnar
 
@@ -51,11 +51,11 @@ Ef þú stillir neikvæðu dagana á tölu sem er lægri en afhendingartími vö
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli A fyrir aðstæður 1](./media/negative-days-2.png)
+![Skjáskot af máli A fyrir aðstæður 1.](./media/negative-days-2.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál A fyrir aðstæður 1](./media/negative-days-3.png)
+![Myndrænt yfirlit yfir mál A fyrir aðstæður 1.](./media/negative-days-3.png)
 
 Ef þú lítur á MRP frammistöðu og áætlar óróleika , þá er frammistaða þessa máls ekki góð. MRP verður að búa til nýja tillögu og reikna út tafir og aðgerðir. Þessi verki eru tímafrek. Þetta mál bætir einnig tveimur færslum í viðbót við áætlunina. Á hinn bóginn er sölupöntuninni seinkað um aðeins sex daga, ekki sjö daga.
 
@@ -73,11 +73,11 @@ Tímamörk kvikra neikvæðra daga = Afhendingartími innkaupa + Tímamörk neik
 
 Þegar kvikir neikvæðir dagar eru notaðir eru tímamörkin sem MRP leitar að kvittunum núna 6 + 2 + 0 = 8 dagar. MRP finnur núverandi innkaupapöntun og festir sölupöntun við hana. Engar nýjar pantanatillögur eru stofnaðar. Þess vegna er keyrslutími fyrir MRP styttri. Eftirfarandi mynd sýnir netþarfir fyrir sýndarafurðarvöruna.
 
-![Nettó þarfir fyrir mál C fyrir aðstæður 1](./media/negative-days-4.png)
+![Nettóþarfir fyrir mál C fyrir aðstæður 1.](./media/negative-days-4.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál C fyrir aðstæður 1](./media/negative-days-5.png)
+![Myndrænt yfirlit yfir mál C fyrir aðstæður 1.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Mál D: Nota aðeins kvika neikvæða daga
 
@@ -85,11 +85,11 @@ Ef þú stillir neikvæða daga á **0** (núll) og notar aðeins tímamörk kvi
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli D fyrir aðstæður 1](./media/negative-days-6.png)
+![Skjáskot af máli D fyrir aðstæður 1.](./media/negative-days-6.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál D fyrir aðstæður 1](./media/negative-days-7.png)
+![Myndrænt yfirlit yfir mál D fyrir aðstæður 1.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Mál E: Notaðu bæði neikvæðu dagana sem eru hærri en tímamörk afhendingartími og tímamörk kvikra neikvæðra daga
 
@@ -106,7 +106,7 @@ Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vö
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
-![Myndrænt yfirlit yfir aðstæður 2](./media/negative-days-8.png)
+![Myndrænt yfirlit yfir aðstæður 2.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Mál A: Neikvæðar dagar eru færri en afhendingartími vörunnar
 
@@ -114,11 +114,11 @@ Ef þú stillir neikvæðu dagana á tölu sem er lægri en afhendingartími vö
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli A fyrir aðstæður 2](./media/negative-days-9.png)
+![Skjáskot af máli A fyrir aðstæður 2.](./media/negative-days-9.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál A fyrir aðstæður 2](./media/negative-days-10.png)
+![Myndrænt yfirlit yfir mál A fyrir aðstæður 2.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Mál B: Neikvæðar dagar eru fleiri en afhendingartími vörunnar
 
@@ -130,11 +130,11 @@ Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þ
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli C fyrir aðstæður 2](./media/negative-days-11.png)
+![Skjáskot af máli C fyrir aðstæður 2.](./media/negative-days-11.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál C fyrir aðstæður 2](./media/negative-days-12.png)
+![Myndrænt yfirlit yfir mál C fyrir aðstæður 2.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Mál D: Nota aðeins kvika neikvæða daga
 
@@ -155,7 +155,7 @@ Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vö
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir þessar aðstæður.
 
-![Myndrænt yfirlit yfir aðstæður 3](./media/negative-days-13.png)
+![Myndrænt yfirlit yfir aðstæður 3.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Mál A: Neikvæðar dagar eru færri en afhendingartími vörunnar
 
@@ -163,11 +163,11 @@ Ef þú stillir neikvæða daga á tölu sem er lægri en afhendingartími vöru
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli A fyrir aðstæður 3](./media/negative-days-14.png)
+![Skjáskot af máli A fyrir aðstæður 3.](./media/negative-days-14.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál A fyrir aðstæður 3](./media/negative-days-15.png)
+![Myndrænt yfirlit yfir mál A fyrir aðstæður 3.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Í framangreindri skjámynd er þarfadagsetning innkaupapöntunar 12. janúar. Þar sem skjámyndin var tekin árið 2015, þegar 11. janúar var sunnudagur, flutti MRP þarfadagsetningu á næsta vinnudag, sem var mánudaginn 12. janúar. Engu að síður hefur innkaupapöntunin afhendingu þann 11. janúar.
@@ -178,11 +178,11 @@ Ef þú stillir neikvæðu dagana á tölu sem er meira en afhendingartími vör
 
 Eftirfarandi skýringarmynd sýnir skyndimynd af þessu máli.
 
-![Skjámynd af máli B fyrir aðstæður 3](./media/negative-days-16.png)
+![Skjáskot af máli B fyrir aðstæður 3.](./media/negative-days-16.png)
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál B fyrir aðstæður 3](./media/negative-days-17.png)
+![Myndrænt yfirlit yfir mál B fyrir aðstæður 3.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Mál C: Gerðu sjálfvirka samsvörun á milli tímamarka vörunnar og tímamarka neikvæðra daga
 
@@ -192,7 +192,7 @@ Tímamörk kvikra neikvæðra daga eru núna 6 + 2 - 7 = 1 dagur. Hins vegar tel
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þessu máli.
 
-![Myndrænt yfirlit yfir mál C fyrir aðstæður 3](./media/negative-days-18.png)
+![Myndrænt yfirlit yfir mál C fyrir aðstæður 3.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Mál D: Nota aðeins kvika neikvæða daga
 
@@ -219,11 +219,11 @@ Ef þú stillir neikvæða daga á **0** (núll) og notar ekki kvika neikvæða 
 
 Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist.
 
-![Myndræn endurskoðun á dæminu](./media/negative-days-19.png)
+![Myndræn yfirferð á dæminu.](./media/negative-days-19.png)
 
 MRP framleiðir eftirfarandi niðurstöður.
 
-![Dæmi um leitarniðurstöður 1](./media/negative-days-20.png)
+![Dæmi um niðurstöður 1.](./media/negative-days-20.png)
 
 Í framangreindri skjámynd er þarfadagsetning sölupöntunar 9. janúar í stað 10. janúar. Þar sem skjámyndin var tekin árið 2015, þegar 10. janúar var laugardagur, ætti þarfadagsetning pöntunarinnar að vera vinnudagurinn á undan, sem var föstudaginn 9. janúar.
 
@@ -233,7 +233,7 @@ Niðurstöðurnar eru ekki rangar, en keyrslutíminn fyrir MRP gæti verið leng
 
 Ef þú dregur úr neikvæðum dögum í tölu sem er nær afhendingartíma vörunnar og þú notar kvika neikvæða daga, framleiðir MRP eftirfarandi niðurstöður.
 
-![Dæmi um leitarniðurstöður 2](./media/negative-days-21.png)
+![Dæmi um niðurstöður 2.](./media/negative-days-21.png)
 
 MRP býr til tillögu sem er fest við fyrstu sölupöntunina. Síðan, eins og búist er við, er seinni sölupöntunin fest við fyrirliggjandi innkaupapöntun á grundvelli stillinga neikvæðra dagsetninga. Þessi áætlanagerð er einnig rétt og keyrslutíminn fyrir MRP gæti verið styttri. Í þessu máli er ekki nauðsynlegt að skilja og vita hvernig á að vinna með aðgerðaskilaboðunum.
 

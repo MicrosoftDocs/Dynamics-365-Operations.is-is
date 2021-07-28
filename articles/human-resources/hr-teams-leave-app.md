@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097260"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356513"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -61,7 +61,7 @@ Hægt er að spyrja þjarkann um að:
 
 - Hefja leyfisbeiðni fyrir notanda. Til dæmis geturðu sent skilaboð sem segja „Taka frí“ eða „Mig langar að taka frí næsta fimmtudag og föstudag“ til að vera nákvæmari þegar óskað er eftir leyfi fyrir leyfisgerðina frí. 
 
-  ![Hefja beiðni um leyfi í Teams spjalli](./media/hr-teams-leave-app-initiate.png)
+  ![Hefja beiðni um leyfi í Teams-spjalli.](./media/hr-teams-leave-app-initiate.png)
 
 - Spjallarinn mun fylla út leyfibeiðni fyrir þig. Veljið **Biðja um frí** til að biðja um og breyta upplýsingum um beiðnina.
 
@@ -69,11 +69,11 @@ Hægt er að spyrja þjarkann um að:
 
    Ef þú velur leyfi í hálfan dag þegar eining leyfisbeiðni er í dögum er hægt að tilgreina hvort beðið sé um frí fyrri hluta dags eða þann seinni með því að velja valkostinn **Skilgreining á hálfum degi** í valmyndinni **Fleiri valkostir**.
    
-   ![Skilgreiningar hálfs dags](./media/HalfDayDefinitions.png)
+   ![Skilgreiningar hálfs dags.](./media/HalfDayDefinitions.png)
 
 - Þegar búið er að breyta upplýsingunum um leyfisbeiðni skal velja **Senda** til að senda þær til samþykkis.
 
-  ![Staðfesta leyfisbeiðni](./media/hr-teams-leave-app-submit.png)
+  ![Senda inn leyfisbeiðni.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Stjórna leyfi í Teams
 
@@ -93,7 +93,7 @@ Flipinn **Frí** býður upp á skoðun:
 
 2. Sláðu inn daginn eða dagana þar sem þú vilt taka frí og veldu svo **Bæta við**.
 
-   ![Bæta við fríi Human Resources Teams-forriti fyrir leyfi](./media/TimeOffHours.png)
+   ![Bæta við fríi Human Resources Teams-forriti fyrir leyfi.](./media/TimeOffHours.png)
 
 3. Slá inn ástæðukóða, ef við á. Einnig skal færa inn athugasemdir og bæta við viðhengjum.
 
@@ -123,7 +123,7 @@ Eftir að Human Resources er sett upp fyrir Teams er auðveldlega hægt að send
 
 1. Í hópi eða spjalli í Teams skal velja hnapp Human Resources fyrir neðan spjallgluggann.
 
-   ![Hnappur Human Resources fyrir neðan spjallglugga](./media/hr-teams-leave-app-chat-button.png)
+   ![Hnappur Human Resources fyrir neðan spjallglugga.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Veljið leyfisbeiðnina sem á að deila. Ef óskað er eftir að deila drögum að leyfisbeiðni skal byrja á því að velja **Drög**.
 
@@ -173,11 +173,11 @@ Ef þýðingar birtast ekki eins og búist er við skal ganga úr skugga um tung
 
 Í Teams skal skoða **Tungumál forrits** í **Stillingum**.
 
-![Teams stillingar](./media/hr-teams-leave-app-settings.png)
+![Teams-stillingar.](./media/hr-teams-leave-app-settings.png)
 
 Í Human Resources skal velja **Stillingar** og síðan velja **Valkostir notanda**. Gangið úr skugga um að reiturinn **Tungumál** samsvari reitnum **Tungumál forrits** í Teams.
 
-![Valkostir notenda mannauðs](./media/hr-teams-leave-app-user-options.png)
+![Valkostir notanda í Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Frekari upplýsingar er að finna í [Fá stuðning fyrir Finance and Operations-forrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

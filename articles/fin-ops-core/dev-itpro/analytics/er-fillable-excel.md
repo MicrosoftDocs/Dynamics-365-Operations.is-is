@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359030"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -39,7 +39,7 @@ Til að læra meira um þennan eiginleika skal fylgja skrefunum í efnisatriði 
 
 Til að skilgreina sniðsþátt rafrænnar skýrslugerðar skal velja **Hönnuður** á aðgerðasvæðinu og opna sniðsþátt rafrænnar skýrslugerðar fyrir breytingar í aðgerðarhönnuði rafrænnar skýrslugerðar.
 
-![Skilgreiningasíða](./media/er-excel-format-add-format.png)
+![Skilgreiningasíða.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Excel-skrárþáttur
 
@@ -47,14 +47,14 @@ Til að skilgreina sniðsþátt rafrænnar skýrslugerðar skal velja **Hönnuð
 
 Bæta þarf þætti **Excel\\-skráar** við skilgreint snið rafrænnar skýrslugerðar til að mynda skjal á útleið á Excel-sniði.
 
-![Excel\skráarþáttur](./media/er-excel-format-add-file-component.png)
+![Excel\skráarþáttur.](./media/er-excel-format-add-file-component.png)
 
 Til að tilgreina útlit skjals á útleið skal hengja Excel-vinnubók með .xlsx skrárendingu við þátt **Excel\\-skrárinnar** sem sniðmát fyrir skjöl á útleið.
 
 > [!NOTE]
 > Þegar sniðmát er handvirkt hengt við þarf að nota [gerð skjals](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) sem hefur verið skilgreind í þeim tilgangi í [færibreytum rafrænnar skýrslugerðar](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Viðhengi bætt við Excel\skráarþátt](./media/er-excel-format-add-file-component2.png)
+![Viðhengi bætt við Excel\skráarþátt.](./media/er-excel-format-add-file-component2.png)
 
 Til að tilgreina hvernig viðhengt sniðmát er fyllt út þegar skilgreint snið rafrænnar skýrslugerðar er keyrt þarf að bæta við földuðum þáttum **vinnublaðs**, **sviðs** og **hólfs** í þætti **Excel\\-skráar**. Hver faldaður þáttur þarf að vera tengdur við Excel-vöru.
 
@@ -62,7 +62,7 @@ Til að tilgreina hvernig viðhengt sniðmát er fyllt út þegar skilgreint sni
 
 Hægt er að velja **Flytja inn úr Excel** á flipanum **Innflutningur** á aðgerðasvæðinu til að flytja nýtt sniðmát inn í autt snið rafrænnar skýrslugerðar. Í þessu dæmi er þáttur **Excel\\-skráar** stofnaður sjálfkrafa og innflutta sniðmátið verður hengt við hann. Allir nauðsynlegir þættir rafrænnar skýrslugerðar verða einnig stofnaðir sjálfkrafa, samkvæmt lista yfir greindar Excel-vörur.
 
-![Val á „Flytja inn úr Excel“](./media/er-excel-format-import-template.png)
+![Val á „Flytja inn úr Excel“.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Ef stofna á valfrjálsa einingu fyrir **Vinnublað** á breytanlegu sniði rafrænnar skýrslugerðar þarf að stilla valkostinn **Stofna sniðseiningu Excel-vinnublaðs** á **Já**.
@@ -79,7 +79,7 @@ Hægt er að velja **Flytja inn úr Excel** á flipanum **Innflutningur** á að
 - Ef segð eiginleikans **Virkt** er skilgreind til að skila **Rétt** í keyrslu eða ef engin segð er skilgreind, verður viðeigandi vinnublað sett í myndaða skjalið.
 - Ef segð eiginleikans **Virkt** er skilgreind til að skila **Rangt** við keyrslu mun myndaða skjalið ekki innihalda vinnublað.
 
-![Dæmi um vinnublaðsþátt](./media/er-excel-format-sheet-component.png)
+![Dæmi um vinnublaðsþátt.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Sviðsþáttur
 
@@ -182,7 +182,7 @@ Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðge
 >
 > Ef breytanlegu sniði rafrænnar skýrslugerðar, var upphaflega í einingunum **Vinnublað** er mælt með því að stilla valkostinn **Stofna sniðseiningu Excel-vinnublaðs** á **Já** þegar flutt er inn uppfært sniðmát. Að öðrum kosti verða allar faldaðar einingar upprunalegu einingarinnar **Vinnublað** búnar til frá grunni. Af þeim ástæðum glatast allar bindingar endurstofnaðra sniðseininga í uppfærðu sniði rafrænnar skýrslugerðar.
 
-![Valkosturinn „Stofna sniðseiningu Excel-vinnublaðs“ í svarglugganum Uppfæra úr Excel](./media/er-excel-format-update-template.png)
+![Valkosturinn „Stofna sniðseiningu Excel-vinnublaðs“ í svarglugganum Uppfæra úr Excel.](./media/er-excel-format-update-template.png)
 
 Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í [Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 Þegar snið rafrænnar skýrslugerðar sem hægt er að breyta er sannprófað er samræmisathugun framkvæmd til að ganga úr skugga um að Excel-heitið sé til staðar í Excel-sniðmátinu sem er í notkun. Þú munt fá tilkynningu ef ósamræmi kemur upp. Boðið er upp á valkost til að lagfæra sum vandamál sjálfkrafa.
 
-![Staðfestingarvilluboð](./media/er-excel-format-validate.png)
+![Staðfestingarvilluboð.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Stjórnun útreiknings Excel-formúla
 
@@ -209,7 +209,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 1. Notið uppgefnar skilgreiningar rafrænnar skýrslugerðar til að [mynda](er-generate-printable-fti-forms.md) prentvænt reikningsskjal með frjálsum texta.
 2. Farið yfir síðufót myndaðs skjals. Takið eftir að hann inniheldur upplýsingar um núverandi blaðsíðutal og fjölda blaðsíðna í skjalinu.
 
-    ![Fara yfir síðufót myndaðs skjals á Excel-sniði](./media/er-fillable-excel-footer-1.gif)
+    ![Fara yfir síðufót myndaðs skjals á Excel-sniði.](./media/er-fillable-excel-footer-1.gif)
 
 3. Í sniðshönnuði rafrænnar skýrslugerðar skal [opna](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) sýnishorn af rafrænu skýrslugerðarsniði til að fara yfir.
 
@@ -222,7 +222,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
     - Annar **Strengjaþátturinn** fyllir í textann sem inniheldur núverandi blaðsíðutal og heildarfjölda síðna í núverandi skjali.
 
-    ![Fara yfir hlut síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni](./media/er-fillable-excel-footer-2.png)
+    ![Fara yfir hlut síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni.](./media/er-fillable-excel-footer-2.png)
 
 4. Sérstillið sýnishorn af sniði rafrænnar skýrslugerðar til að breyta núverandi síðufæti:
 
@@ -237,20 +237,20 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
         1. Bætið við **Strengjaþætti** sem jafnar úrvinnsludag hægra megin og sýnir það í 8 punkta stærð í leturgerðinni "Segoe UI Regular" (**"&R&"Segoe UI,Regular"&8"**).
         2. Bætið við **Strengjaþætti** sem fyllir í úrvinnsludaginn á sérstilltu sniði (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
 
-        ![Þáttur síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni yfirfarinn](./media/er-fillable-excel-footer-3.png)
+        ![Þáttur síðufótar í rafrænu skýrslugerðarsniði á sniðshönnunarsíðunni yfirfarinn.](./media/er-fillable-excel-footer-3.png)
 
     4. [Ljúkið](er-quick-start2-customize-report.md#CompleteDerivedFormat) útgáfudrögum af afleidda rafræna skýrslugerðarsniðinu **Sérsniðinn reikningur með frjálsum texta (Excel)**.
 
 5. [Skilgreinið](er-generate-printable-fti-forms.md#configure-print-management) prentstýringar til að nota afleidda rafræna skýrslugerðarsniðið **Sérstilltur reikningur með frjálsum texta (Excel)** í staðinn fyrir sýnishornið af sniði rafrænnar skýrslugerðar.
 6. Búið til prentvænt reikningsskjal með frjálsum texta og skoðið síðufótinn á myndaða skjalinu.
 
-    ![Síðufótur á mynduðu skjali skoðaður á Excel-sniði](./media/er-fillable-excel-footer-4.gif)
+    ![Síðufótur á mynduðu skjali skoðaður á Excel-sniði.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
-[Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði](tasks\er-design-reports-openxml-2016-11.md)
+[Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði](tasks\er-design-reports-openxml-2016-11.md)
 
 [Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát](modify-electronic-reporting-format-reapply-excel-template.md)
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356078"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
 
@@ -59,7 +61,7 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 4. Veljið eiginleikann **Útflutningur rafrænna reikninga (IT)** og síðan **Flytja inn**.
 
-![Eiginleiki fyrir útflutning rafrænna reikninga (IT) fluttur inn](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![Eiginleiki fyrir útflutning rafrænna reikninga (IT) fluttur inn.](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Þegar eiginleikinn **Útflutningur rafrænna reikninga (IT)** úr altæku geymslunni, eru allar stillingarnar sem lýst er í næsta hluta einnig fluttar inn.
 
@@ -67,13 +69,13 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 
 1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja **Ný**. 
 
-    ![Nýrri útgáfu rafrænnar reikningsfærslu bætt við](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Nýrri útgáfu rafrænnar reikningsfærslu bætt við.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Næst verða skilgreind snið rafrænnar skýrslugerðar sem tengjast eiginleika rafrænnar reikningsfærslu.
 
 2. Í flipanum **Skilgreiningar** skal velja **Bæta við** til að stjórna útgáfum skilgreininga.
 
-    ![Umsjón með skilgreiningarútgáfum fyrir eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![Umsjón með skilgreiningarútgáfum fyrir eiginleika rafrænnar reikningsfærslu.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Í þessu skrefi er bætt við og skilgreind snið rafrænnar skýrslugerðar fyrir mismunandi skrár sem notaðar eru til að flytja út ítalska rafræna reikninga. Fyrir ítalska FatturaPA rafræna reikninga skal nota annaðhvort hefðbundnar skilgreiningar eða sérstilltu skilgreiningarnar sem notaðar eru fyrir rafræna reikningsfærslu:
 
@@ -85,17 +87,17 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 3. Veljið ákveðna skráarskilgreiningu fyrir snið rafrænnar skýrslugerðar.
 4. Veljið **Breyta** eða **Skoða** til að opna síðuna **Sniðshönnuður**.
 
-    ![Síða sniðshönnuðar opnuð](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Síða sniðshönnuðar opnuð.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Notið síðuna **Sniðshönnuður** til að breyta og skoða skilgreiningar á skrá rafræns skýrslugerðarsniðs.
 
-    ![Síða sniðshönnuðar](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Síða sniðshönnuðar.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu
 
 - Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Uppsetningar**, skal velja **Bæta við**, **Eyða** eða **Breyta** til að stjórna uppsetningum á eiginleika rafrænnar reikningsfærslu.
 
-![Umsjón með uppsetningum á eiginleika rafrænnar reikningsfærslu](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![Umsjón með uppsetningum á eiginleika rafrænnar reikningsfærslu.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Í þessu skrefi eru skilgreind tilvik sem eiga við um rafræna reikninga, þar á meðal myndun XML-úttaksskráa á **FatturaPA** sniði og stafræna undirskrift (ef þess er krafist).
 
@@ -105,20 +107,20 @@ Við RCS-uppsetningu verður farið í gegnum þessi skref:
 2. Veljið **Breyta**.
 3. Á síðunni **Uppsetning á útgáfu eiginleika** skal velja flipann **Aðgerðir** til að stjórna lista yfir aðgerðir. Aðgerðir skilgreina lista yfir aðgerðir sem þarf að keyra í réttri röð til að ná fullri keyrslu á tilvikinu.
 
-    ![Flipinn Aðgerðir.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Aðgerðarflipi.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | Aðgerðarkenni | Heiti aðgerðar        | Aðgerðarlýsing                                     |
     |-----------|--------------------|--------------------------------------------------------|
-    | 1         | Breyta skjali | Stofnið XML-skrá fyrir rafrænan reikning á **FatturaPA** sniði. |
+    | 1         | Umbreyta skjali | Stofnið XML-skrá fyrir rafrænan reikning á **FatturaPA** sniði. |
     | 2         | Skrifa undir skjal      | Notið stafræna undirskrift á XML-skrána.             |
 
 4. Veljið flipann **Gildissviðsreglur** til að skoða og vinna með gildissviðsreglur. Gildissviðsreglur skilgreina samhengið þar sem aðgerðin verður framkvæmd.
 
-    ![Flipi fyrir gildissviðsreglur](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Flipi gildissviðsreglna.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Veljið flipann **Breytur** til að skoða og vinna með breyturnar.
 
-    ![Breytuflipi](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Breytuflipi.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Skilgreinið almennu breyturnar sem eru nauðsynlegar til að framkvæma aðgerðirnar.
 
@@ -133,7 +135,7 @@ Skrefin og stillingarnar sem eru nauðsynleg til að skilgreina uppsetningu á e
 3. Í reitnum **Gildir frá** skal velja dagsetninguna þegar nýja umhverfið tekur gildi.
 4. Veljið **Virkja**. 
 
-![Umhverfi rafrænnar reikningsfærslu virkjað](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![Umhverfi rafrænnar reikningsfærslu virkjað.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>Birta eiginleika rafrænnar reikningsfærslu
 
@@ -149,7 +151,7 @@ Hægt er að birta eiginleika rafrænnar reikningsfærslu með því að breyta 
 1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu**, í flipanum **Útgáfur**, skal velja útgáfu fyrir eiginleika rafrænnar reikningsfærslu sem er með stöðuna **Lokið**.
 2. Veljið **Breyta stöðu \> Birta**.
 
-![Stöðu eiginleika rafrænnar reikningsfærslu breytt](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![Stöðu eiginleika rafrænnar reikningsfærslu breytt.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Setja upp samþættingu rafrænnar reikningsfærslu í Finance
 
@@ -170,7 +172,7 @@ Við uppsetningu á Finance verður þessum verkum lokið:
 1. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
 2. Í flipanum **Eiginleikar** skal velja gátreitinn **Virkjað** í línunni fyrir tilvísun eiginleika **IT00036**.
 
-![Kveikt á eiginleika FatturaPA](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![Kveikt á eiginleika FatturaPA.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Skilgreina rafræn skjöl
 
@@ -185,7 +187,7 @@ Við uppsetningu á Finance verður þessum verkum lokið:
     - Fyrir **Reikningabók viðskiptavinar** skal velja **Samhengi viðskiptavinareiknings**.
     - Fyrir **Verkreikningur** skal velja **Samhengi verkreiknings**.
 
-![Svargerðir settar upp](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Svargerðir settar upp.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Rafræn reikningsfærsla í vinnslu
 
@@ -207,13 +209,13 @@ Hægt er að senda skjölin inn handvirkt, út frá eftirspurn eftir skjölum ra
 2. Fyrir fyrstu innsendingu á skjali skal stilla valkostinn **Senda skjöl inn aftur** á **Nei**. Ef senda þarf skjal inn aftur í gegnum þjónustuna skal stilla þennan valkost á **Já**.
 3. Í flýtiflipanum **Færslur til að taka með** skal velja **Sía** til að opna svargluggann **Fyrirspurn** þar sem hægt er að búa til fyrirspurn til að velja skjöl til innsendingar.
 
-![Svarglugginn fyrir innsendingu rafrænna skjala](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Svarglugginn fyrir innsendingu rafrænna skjala.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Síufyrirspurn
 
 1. Í svarglugganum **Fyrirspurn** skal skilgreina síuskilyrðin fyrir bæði sölureikninga og verkreikninga eða skilja skilyrðin eftir auð til að hafa með alla ósenda reikninga.
 
-    ![Síuskilyrði innsendingar stillt](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Síuskilyrði innsendingar stillt.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Veljið **Í lagi** til að loka svarglugganum **Fyrirspurn**.
 3. Veljið **Í lagi** til að senda inn valin skjöl.
@@ -227,13 +229,13 @@ Hægt er að skoða innsendingarkladda fyrir öll send skjöl.
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Innsendingarkladdi rafrænna skjala**.
 2. Í reitnum **Gerð skjals** skal velja **Reikningabók viðskiptavinar** eða **Verkreikningur** til að síða fyrir nauðsynleg rafræn skjöl.
 
-    ![Gerð skjals valin til að skoða innsendingarkladda](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Gerð skjals valin til að skoða innsendingarkladda.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     Gildið sem er sýnt í dálknum **Staða innsendingar** táknar stöðu innsendingarferlisins. Það gefur til kynna hvort ferlið hafið gengið samkvæmt skilgreiningu og hvort frekari aðgerða sé þörf.
 
 3. Á aðgerðasvæðinu skal velja **Fyrirspurnir \> Upplýsingar um sendingu** til að skoða upplýsingar um keyrslukladda innsendingar.
 
-    ![Skoða upplýsingar um innsendingarkladda](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Skoða upplýsingar um innsendingarkladda.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Í flýtiflipanum **Vinnsluaðgerðir** er hægt að skoða keyrslukladdann fyrir aðgerðirnar sem eru skilgreindar í útgáfu eiginleikans sem var sett upp í RCS. Dálkurinn **Staða** sýnir hvort tekist hafi að keyra aðgerðina.
 5. Í flýtiflipanum **Aðgerðaskrár** er hægt að skoða milliskrár sem voru myndaðar við keyrslu aðgerðanna. Hægt er að velja **Skoða** til að hlaða niður XML-úttaksskránni á **FatturaPA** sniði og skoða innihald hennar.

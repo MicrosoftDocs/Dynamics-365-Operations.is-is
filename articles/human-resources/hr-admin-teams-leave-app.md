@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357362"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053564"
 
 Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams gerir starfsmönnum kleift að biðja um frí og skoða upplýsinga um frítíma á fljótlegan hátt í Microsoft Teams. Starsmenn geta haft samband við þjarka til að óska eftir upplýsingum. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
 
-![Human Resources Teams þjarkaforrit fyrir leyfi](./media/hr-teams-leave-app-bot.png)
+![Human Resources Teams þjarkaforrit fyrir leyfi.](./media/hr-teams-leave-app-bot.png)
 
-![Fríflipi fyrir fríforrit Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Fríflipi fyrir frítímaforrit Human Resources Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Leyfisbeiðnispjald Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Leyfisbeiðnispjald Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Setja upp
 
@@ -57,11 +57,11 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 4. Á flipanum **Almennt** skal stilla **Kveikja á tilkynningum fyrir Teams-forritið** á **Já**.
 
-   ![Kveikja á tilkynningum fyrir Teams-forrit í kerfisfæribreytum](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Kveikja á tilkynningum fyrir Teams-forrit í kerfisfæribreytum.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Til að kveikja á tilkynningum Teams fyrir alla notendur skal velja **Já** þegar spurt er um það.
 
-   ![Virkja hóptilkynningar fyrir alla notendur](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Virkja Teams-tilkynningar fyrir alla notendur.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Kveikja eða slökkva á hóptilkynningum fyrir einstaka notendur
 
@@ -77,9 +77,9 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 5. Stillið **Kveikja á tilkynningum fyrir Teams-forritið** á **Já** til að virkja tilkynningar fyrir notandann eða **Nei** til að gera tilkynningar óvirkar fyrir notandann.
 
-   ![Kveikja á tilkynningum Teams-forrits á verkflæðisflipanum Valkostir notanda](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Kveikja á tilkynningum Teams-forrits á verkflæðisflipanum Valkostir notanda.](./media/hr-admin-teams-leave-app-notifications.png)
 
-6. Veljið **Vista**.
+6. Veldu **Vista**.
 
 ## <a name="supported-languages"></a>Studd tungumál
 

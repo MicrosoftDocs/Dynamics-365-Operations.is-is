@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816797"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356022"
 ---
 # <a name="inbound-and-outbound-assets"></a>Eignir á innleið og útleið
 
@@ -42,7 +42,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 3. Veldu **Uppfæra stöðu viðhaldsbeiðni**.
 4. Veldu **Á innleið** (eða aðra líftímastöðu sem þú hefur búið til fyrir eignir á innleið) og veldu síðan **Í lagi**.
 
-![Skráðu eignir sem á innleið](media/07-manage-maintenance-requests.png)
+![Skrá eignir sem á innleið.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Skrá eignir á innleið sem mótteknar
 
@@ -51,7 +51,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 3. Veldu **Taka á móti eignum**.
 4. Í reitnum **Móttekið** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á innleið**.
 
-![Skrá eignir á innleið sem mótteknar](media/08-manage-maintenance-requests.png)
+![Skrá eignir á innleið sem mótteknar.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Skráðu eignir sem á útleið
 

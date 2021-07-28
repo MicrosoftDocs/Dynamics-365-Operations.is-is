@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799107"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349425"
 ---
 # <a name="recall-order-operation-in-pos"></a>Afturkalla pöntunaraðgerð á sölustað
 
@@ -29,7 +29,7 @@ Til að virkja þessa virkni þarf að kveikja á eiginleikanum **Bætt afturkö
 
 Skilgreining á aðgerðarhnappnum **Endurkalla pöntun** gerir fyrirtækjum kleift að setja upp aðgerðina með fyrirframskilgreindri birtingu.
 
-![Grunnstilling hnappahnits](media/recallorderbuttongrid.png)
+![Grunnstilling hnappahnits.](media/recallorderbuttongrid.png)
 
 Birtingarkostir eru eftirfarandi:
 - **Ekkert** – Þessi valkostur setur upp aðgerðina án sérstakrar birtingar. Þegar notandi opnar aðgerðina með þessari skilgreiningu verða þeir beðnir um að leita og finna pantanir eða velja úr fyrirframskilgreindum pöntunarsíum.
@@ -42,11 +42,11 @@ Birtingarkostir eru eftirfarandi:
 - Veljið táknið **Leita að pöntunum** eða **Leita og sía** í AppBar til að nota síunaraðferðina til að hafa upp á pöntunum sem uppfylla síuskilyrðið.
 - Velja skal úr forskilgreindri síu úr fellivalmyndinni **Sýna pantanir** (pantanir til að uppfylla, pantanir til að sækja eða pantanir til að senda).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Eftir að leitarskilyrði er notað, birtir forritið lista yfir samsvarandi sölupantanir. Mikilvægt er að hafa í huga að þegar leitar-/síuvalkostir eru notaðir þurfa sóttar pantanir ekki að vera pantanir sem tengdar eru við núverandi verslun notanda. Þetta leitarferli mun sækja og sýna allar pantanir viðskiptavina sem passa við leitarskilyrðið jafnvel þótt pöntunin hafi verið stofnuð eða stillt á að vera uppfyllt af annarri verslun/rás eða staðsetningu vöruhúss.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Notandi getur valið pöntun á listanum til að skoða frekari upplýsingar. Upplýsingaspjaldið hægra megin á skjánum sýnir atriði valdrar pöntunar, þ.m.t. upplýsingar pöntunarlínu, upplýsingar um afhendingu og upplýsingar um uppfyllingu.
 

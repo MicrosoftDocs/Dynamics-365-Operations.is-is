@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09e0fc17a288a278b7b1feaba8c7b73425aa2d52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 164ae10eef8ef3692cd3a8b5232de64ec3d83b1b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808161"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354181"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Reikna álag á áætlaðar verkbeiðnir
 
@@ -48,7 +48,7 @@ Hægt er að reikna út álag á áætlaðar verkbeiðnir til að fá yfirsýn y
 
 Myndin hér að neðan sýnir niðurstöðu útreiknings sem spannaði þrjár vikur fyrir álagsgerðina **Frátekið**.
 
-![Mynd 1](media/08-work-order-scheduling.png)
+![Mynd 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 Ef þú velur álagsgerðina **Afkastageta** eða **Eftirstöðvar** fyrir útreikninginn mun sama niðurstaða birtast ef engir fyrirvarar hafa verið gerðir á tilföngunum á völdu tímabili.

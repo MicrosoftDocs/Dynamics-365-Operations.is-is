@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023338"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361287"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
 
@@ -31,7 +31,7 @@ Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað
 
 1. Farið í **Skattur \> Uppsetning \> Staðgreiðsluskattur \> Skýrslugerðarkóðar staðgreiðsluskatts**.
 
-    [![Síða skýrslugerðarkóða staðgreiðsluskatts](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Síða skýrslugerðarkóða staðgreiðsluskatts.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Í reitnum **Skattgerð** skal velja **TDS** til að skilgreina skýrslugerðarkóði staðgreiðsluskatts fyrir skattgerð TDS.
 3. Í reitnum **Staðgreiðsluþáttur** skal velja TDS-þáttinn sem kóði staðgreiðsluskattskýrslu er skilgreindur fyrir. Reiturinn **Hópur staðgreiðsluskattshluti** sýnir TDS-hlutahópinn sem tilgreindur er fyrir TDS-hlutann sem verið er að skilgreina.

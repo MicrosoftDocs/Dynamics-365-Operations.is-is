@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792848"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356879"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
@@ -33,7 +33,7 @@ Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ák
 
 Commerce felur í sér aðgerð sem ber nafnið „Skoða alla afslætti.“ Þessi aðgerð sýnir alla afslættina sem eru í gangi í verslun. Aðgerðina „Skoða alla afslætti“ er hægt að kortleggja á hnapp í sölustað (POS) og hægt er að bæta þeim hnapp við síðuna **Velkomin** eða síðuna **Færsla**. Eftirfarandi mynd sýnir dæmi um síðuna **Allir afslættir** sem opnast.
 
-![Síðan Allir afslættir](./media/View_all_discounts.png "Síðan Allir afslættir")
+![Síðan Allir afslættir.](./media/View_all_discounts.png "Síðan Allir afslættir")
 
 Til að sýna afslætti leitar kerfið eftir öllum afsláttum sem passa við eitt eða fleiri af eftirfarandi skilyrðum:
 
@@ -61,11 +61,11 @@ Eftirfarandi myndir sýna rökfræði sem ákvarðar hvaða afsláttur er sýndu
 
 Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða afslætti er stillt á **Besta verð og blanda innan forgangs, aldrei blandað yfir forgangsröðun**.
 
-![Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun](./media/Model_1.png "Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun").
+![Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun.](./media/Model_1.png "Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun").
 
 Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða afslætti er stillt á **Besta verð aðeins innan forgangs, alltaf blandað yfir forgangsröðun**.
 
-![Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun](./media/Model_2.png "Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun").
+![Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun.](./media/Model_2.png "Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

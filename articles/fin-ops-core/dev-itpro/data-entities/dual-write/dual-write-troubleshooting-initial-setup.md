@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350837"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Leysa úr vandamálum við fyrstu uppsetningu
 
@@ -42,7 +42,7 @@ ms.locfileid: "5753991"
 
 Villur á síðunni **Setja upp tengil á Dataverse** orsakast venjulega af ólokinni uppsetningu eða heimildavandamálum. Gakktu úr skugga um að öll ástandsskoðunin standist á síðunni **Setja upp tengil á Dataverse** eins og sýnt er á eftirfarandi mynd. Þú getur ekki tengt tvískipt skrif nema öll ástandsskoðunin standist.
 
-![Vel heppnuð ástandsskoðun](media/health_check.png)
+![Vel heppnuð ástandsskoðun.](media/health_check.png)
 
 Þú verður að hafa Azure AD leigjandastjóraskilríki til að tengja Finance and Operations og Dataverse umhverfin. Þegar búið er að tengja umhverfin geta notendur skráð sig inn með því að nota innskráningarupplýsingar sínar og uppfært fyrirliggjandi töflukort.
 
@@ -77,7 +77,7 @@ Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur
 4. Veldu fyrirtækið sem var tengt þegar þú stillir tvískipt skrif.
 5. Staðfestu að dálkurinn **Sjálfgefið eigendateymi** hefur gildi. Á eftirfarandi mynd er dálkurinn **Sjálfgefið eigendateymi** stilltur á **USMF tvöfalt skrif**.
 
-    ![Staðfestir sjálfgefið eigendateymi](media/default_owning_team.png)
+    ![Staðfestir sjálfgefið eigendateymi.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Finnið mörkin á fjölda lagtaflna eða fyrirtækja sem hægt er að tengja við tvöfalda skráningu
 

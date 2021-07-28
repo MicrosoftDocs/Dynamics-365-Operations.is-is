@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839608"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361115"
 ---
 # <a name="maintenance-plans"></a>Viðhaldsáætlanir
 
@@ -145,23 +145,23 @@ Hér að neðan er að finna dæmi um uppsetningu tímabyggðra og teljarabyggð
 
 **Dæmi 1 - Tímabyggð viðhaldsáætlunarlína:** Smurningarvinnslu má setja upp með föstu millibili sem kemur fyrir einu sinni í viku. Veldu í því skyni „Endurtekið frá áætlunardegi“ í reitnum **Gerð millibils**. Sjá dæmi í eftirfarandi mynd.
 
-![Þjónustuverk sett upp á föstu tímabili, einu sinni í viku](media/02-preventive-maintenance.png "Þjónustuverk sett upp á föstu tímabili, einu sinni í viku")
+![Þjónustuverk sett upp á föstu tímabili, einu sinni í viku.](media/02-preventive-maintenance.png "Þjónustuverk sett upp á föstu tímabili, einu sinni í viku")
 
 **Dæmi 2 - Tímabundin viðhaldsáætlunarlína:** Heimilt er að setja upp skoðunarverk til að framkvæma um það bil einu sinni í viku. Veldu í því skyni „Endurtekið frá síðustu verkbeiðni“ í reitnum **Gerð millibils**. Sjá dæmi í eftirfarandi mynd.
 
-![Eftirlitsverk sett upp framkvæmdar u.þ.b. einu sinni í viku](media/03-preventive-maintenance.png "Eftirlitsverk sett upp framkvæmdar u.þ.b. einu sinni í viku")
+![Eftirlitsverk sett upp framkvæmdar u.þ.b. einu sinni í viku.](media/03-preventive-maintenance.png "Eftirlitsverk sett upp framkvæmdar u.þ.b. einu sinni í viku")
 
 **Dæmi 3 - Teljarabyggð viðhaldsáætlunarlína:** Eftirfarandi myndræn skýringarmynd sýnir klukkutímateljara sem ný viðhaldsskemalína er stofnuð fyrir í hvert skipti sem 250 klukkustundir eru liðnar. Millibilstegund fyrir þessa teljaralínu er „Endurtekin frá upphafsdegi“. Upphafsdagsetningin er upphafsdagsetning tengdra eigna í upplýsingayfirlitinu **Allar eignir** \> flýtiflipanum **Viðhaldsáætlanir eignar** \> reitnum **Upphafsdagsetning** eða í upplýsingayfirlitinu **Virk staðsetning** \> flýtiflipanum **Viðhaldsáætlanir** \> reitnum **Upphafsdagsetning**. Þetta er dæmi um *fyrirbyggjandi* viðhaldsáætlun vegna þess að viðhaldsskemalínan er sjálfkrafa búin til í hvert skipti sem þröskuldinum (+ 250) er náð.
 
-![Tímateljari sem stofnar reglulega viðhaldsáætlunarlínur](media/04-preventive-maintenance.png "Tímateljari sem stofnar reglulega viðhaldsáætlunarlínur")
+![Tímateljari sem stofnar reglulega viðhaldsáætlunarlínur.](media/04-preventive-maintenance.png "Tímateljari sem stofnar reglulega viðhaldsáætlunarlínur")
 
 **Dæmi 4 - Teljarabyggð viðhaldsáætlunarlína:** Eftirfarandi myndræn skýringarmynd sýnir lækkun á teljaravirði, sem mælir slit á hemlapúða. Viðhaldsskemalína er búin til þegar teljaraskráning undir 20 mm er búin til á bremsuklossanum. Bilið fyrir þessa teljarabyggðu línu er „Þegar náð að neðan“ eða „Einu sinni frá síðasta upphafsdegi“. Þetta er dæmi um *viðbragðs* viðhaldsáætlun vegna þess að viðhaldsskemalínan er ekki búin til í fyrr en mæling undir 20 mm er skráð.
 
-![Lækkun á teljaragildi, mæling á sliti bremsuklossi](media/05-preventive-maintenance.png "Lækkun á teljaragildi, mæling á sliti bremsuklossa")
+![Lækkun á teljaragildi, mæling á sliti bremsuklossa.](media/05-preventive-maintenance.png "Lækkun á teljaragildi, mæling á sliti bremsuklossa")
 
 **Dæmi 5 - Teljarabyggð viðhaldsáætlunarlína:** Eftirfarandi myndræn skýringarmynd sýnir teljara með þröskuldinn -18 ° á Celsíus. Viðhaldsskemalína er búin til þegar teljaraskráning yfir -18 ° á Celsius er gerð. Millibilstegund fyrir þessa teljaralínu er „Þegar náð fyrir ofan“. Þetta er dæmi um *viðbragðs* viðhaldsáætlun vegna þess að viðhaldsskemalínan er ekki búin til í fyrr en mæling sem er hærri en -18 á Celsius er skráð.
 
-![Teljari með þröskuldi í -18° Celsius](media/06-preventive-maintenance.png "Teljari með þröskuldi í -18° Celsius")
+![Teljari með þröskuldi í -18° Celsius.](media/06-preventive-maintenance.png "Teljari með þröskuldi í -18° Celsius")
 
 - Þegar ný eign er stofnuð og sú eign notar eignagerð sem tengist viðhaldsáætlun, er viðhaldsáætlunin sjálfkrafa sett inn í flýtiflipann **Allir hlutir \> Viðhaldsáætlanir eignar**. Einnig, í **Sjálfgildi eignagerða**, á flýtiflipanum **Viðhaldsáætlanir**, verða skyldar viðhaldsáætlanir sjálfkrafa settar inn.
 - Ef þú bætir við eða fjarlægir eignategundir eða gerðir virkra staðsetningar í **Viðhaldsáætlunum** mun sú breyting aðeins endurspegla nýjar eignir sem stofnað var til eftir að þú gerðir breytinguna.
@@ -169,7 +169,7 @@ Hér að neðan er að finna dæmi um uppsetningu tímabyggðra og teljarabyggð
 
 Eftirfarandi mynd sýnir dæmi um viðhaldsáætlun „Vörubílaþjónusta“ á síðunni **Viðhaldsáætlanir**.
 
-![Dæmi um viðhaldsáætlun vörubílaþjónustu](media/07-preventive-maintenance.png "Dæmi um viðhaldsáætlun vörubílaþjónustu")
+![Dæmi um viðhaldsáætlun vörubílaþjónustu.](media/07-preventive-maintenance.png "Dæmi um viðhaldsáætlun vörubílaþjónustu")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Bættu viðhaldsáætlun við eign
 
@@ -187,7 +187,7 @@ Eftirfarandi mynd sýnir dæmi um viðhaldsáætlun „Vörubílaþjónusta“ �
 
 Eftirfarandi mynd sýnir dæmi um viðhaldsáætlanir settar upp á eign á síðunni **Allar eignir**.
 
-![Dæmi um uppsetningu viðhaldsáætlana á eign](media/08-preventive-maintenance.png "Dæmi um uppsetningu viðhaldsáætlana á eign")
+![Dæmi um uppsetningu viðhaldsáætlana á eign.](media/08-preventive-maintenance.png "Dæmi um uppsetningu viðhaldsáætlana á eign")
 
 <a id="counter-based-maintenance"></a>
 

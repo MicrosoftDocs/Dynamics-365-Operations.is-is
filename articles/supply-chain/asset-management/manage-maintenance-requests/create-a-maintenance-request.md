@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354906"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
@@ -50,9 +50,9 @@ Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægr
 
 10. Reiturinn **Raunverulegt upphaf** er sjálfkrafa stilltur á núverandi dagsetningu og tíma. Þó er hægt að breyta gildinu eftir þörfum.
 11. Í reitnum **Athugasemdir** slærðu inn allar viðbótar athugasemdir sem þarf.
-12. Veljið **Í lagi**.
+12. Veldu **Í lagi**.
 
-![Stofna viðhaldsbeiðni](media/03-manage-maintenance-requests.png)
+![Stofna viðhaldsbeiðni.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Síðari afgreiðsla beiðna um viðhald
 
@@ -67,7 +67,7 @@ Eftir að viðhaldsbeiðni er stofnuð, en áður en henni er breytt í vinnupö
 - Veldu gerð viðhaldsverks og, ef þessar upplýsingar eru viðeigandi, tengt afbrigði viðhaldsverks og ði og atvinnuverslun.
 - Í reitunum **Breidd** og **Lengdargráða** slærðu inn landfræðileg hnit. Öll hnit sem er bætt við viðhaldsbeiðni eru sjálfkrafa færð yfir í tengda verkbeiðni. 
 
-![Uppfæra viðhaldsbeiðni](media/04-manage-maintenance-requests.png)
+![Uppfæra viðhaldsbeiðni.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ef þú velur eign þegar þú býrð til viðhaldsbeiðni geturðu bætt einni villu við eignina. Eftir að viðhaldsbeiðnin hefur verið stofnuð geturðu bætt við fleiri göllum eftir þörfum. Til að bæta við göllum velurðu **Eignavilla** á síðunni **Allar viðhaldsbeiðnir**.

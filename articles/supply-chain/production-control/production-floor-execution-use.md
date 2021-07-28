@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349771"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -32,7 +32,7 @@ Keyrsluviðmót framleiðslugólfsins er fínstillt fyrir snertingaskipanir. Hö
 
 Eftir að tækið hefur verið undirbúið birtist innskráningarsíðan í því. Þessi síða sýnir upplýsingar um stöðu á vinnslum fyrir staðbundinn vinnuflokk. Þessar upplýsingar eru uppfærðar með reglulegu millibili. Á síðunni nota starfsmenn kortakennið til að skrá sig inn. Þótt starfsmenn séu ekki með notandareikning fyrir Supply Chain Management, verða þeir að vera með reikning *tímaskráðs starfsmanns* sem þeir geta notað þegar þeir skrá sig inn.
 
-![Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs](media/pfei-sign-in-page.png "Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs")
+![Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs.](media/pfei-sign-in-page.png "Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs")
 
 Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota viðmótið.
 
@@ -40,7 +40,7 @@ Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota
 
 Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
 
-![Flipi allra starfa](media/pfei-all-jobs-tab.png "Flipi allra starfa")
+![Flipi allra starfa.](media/pfei-all-jobs-tab.png "Flipi allra starfa")
 
 Vinnslulistinn er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
 
@@ -59,7 +59,7 @@ Vinnslulistinn er með eftirfarandi dálka. Tölurnar samsvara tölunum í síð
 
 Fliparnir **Virkar vinnslur** sýna lista yfir allar vinnslu sem innskráður starfsmaður hefur þegar byrjað á. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
 
-![Flipi fyrir virkar vinnslur](media/pfei-active-jobs-tab.png "Flipi fyrir virkar vinnslur")
+![Flipi fyrir virkar vinnslur.](media/pfei-active-jobs-tab.png "Flipi fyrir virkar vinnslur")
 
 Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
@@ -76,7 +76,7 @@ Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
 Flipinn **Vélin mín** gerir starfsmönnum kleift að velja eign sem er tengd við tilfang vélar innan síunnar sem er stillt í flipanum **Allar vinnslur**. Starfsmaðurinn getur síðan skoðað stöðu og ástand valinnar eignar með því að lesa gildi fyrir allt að fjóra valda teljara og lista yfir nýlegar viðhaldsbeiðnir og skráða niðurtíma. Starfsmaðurinn getur einnig beðið um viðhald fyrir valda eign og skráð og breytt niðurtíma vélar. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
  
-![Flipinn fyrir vélina mína](media/pfei-my-machine-tab.png "Flipinn fyrir vélina mína")
+![Flipinn fyrir vélina mína.](media/pfei-my-machine-tab.png "Flipinn fyrir vélina mína")
 
 Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
 
@@ -87,7 +87,7 @@ Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum
 
 1. **Stillingar** – Veljið tannhjólið til að opna svarglugga þar sem hægt er að velja hvaða teljara á að skoða fyrir valda eign vélar. Gildi fyrir þessa teljara eru sýnd efst í flipanum **Eignastýring**. Valmyndin **Stillingar** (sem sýnd er í eftirfarandi skjámynd) gerir notanda kleift að virkja allt að fjóra teljara. Fyrir hvern teljara sem á að virkja skal nota uppflettireitinn efst í glugganum til að velja teljara. Uppflettireiturinn sýnir alla teljarana sem tengjast eigninni sem valin er efst á síðunni **Eignastýring**. Stillið hvern teljara til að annaðhvort fylgjast með gildinu fyrir **Uppsafnað** eða síðasta gildi fyrir **Raungildi** fyrir teljarann. Til dæmis ef teljari er settur á sem fylgist með hversu margar klukkustundir vél hefur verið í notkun, þá ætti að stilla hann á **Uppsafnað**. Ef settur er á teljari til að mæla síðasta uppfærða hitastig eða þrýsting, þá ætti að stilla hann á **Raungildi**. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
 
-    ![Flipastillingar fyrir vélina mína](media/pfei-my-machine-tab-settings.png "Flipastillingar fyrir vélina mína")
+    ![Flipastillingar fyrir vélina mína.](media/pfei-my-machine-tab-settings.png "Flipastillingar fyrir vélina mína")
 
 1. **Biðja um viðhald** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að stofna viðhaldsbeiðni. Hægt er að skrifa lýsingu og athugasemd. Beiðnin verður send á notanda Supply Chain Management sem getur þá breytt viðhaldsbeiðninni í verkbeiðni viðhalds.
 1. **Skrá niðurtíma** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að skrá niðurtíma vélar. Hægt verður að velja ástæðukóða og slá inn dagsetningu/tímalengd niðurtímans. Skráning niðurtíma vélar er notuð til að reikna út skilvirkni á eign vélar.
@@ -98,7 +98,7 @@ Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum
 
 Starfsmenn hefja framleiðsluvinnu með því að velja vinnslu í flipanum **Allar vinnslur** og velja síðan **Hefja vinnslu** til að opna svargluggann **Hefja vinnslu**.
 
-![Svargluggi fyrir upphaf vinnslu](media/pfei-start-job-dialog.png "Svargluggi fyrir hefja verk")
+![Svargluggi fyrir upphaf vinnslu.](media/pfei-start-job-dialog.png "Svargluggi fyrir hefja verk")
 
 Starfsmenn nota svargluggann **Hefja vinnslu** til að staðfesta framleiðslumagnið og hefja síðan vinnsluna. Starfsmenn geta leiðrétt magnið með því að velja reitinn **Magn** og nota síðan talnaborðið sem birtist. Starfsmenn velja síðan **Hefja** til að byrja að vinna í vinnslunni. Svarglugginn **Hefja vinnslu** er lokaður og vinnslunni er bætt við flipann **Virkar vinnslur**.
 
@@ -108,13 +108,13 @@ Starfsmenn geta hafið vinnslu sem er með einhverja stöðu. Þegar starfsmaðu
 
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp vörumagnið sem valin vinnsla framleiddi í flipanum **Virkar vinnslur** og síðan velja **Gefa upp framvindu**. Síðan í svarglugganum **Gefa upp framvindu** færir starfsmaðurinn inn vörumagnið með því að nota talnaborðið. Magnið er autt að sjálfgefnu. Eftir að magn er fært inn getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
 
-![Svargluggi framvinduskýrslu](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
+![Svargluggi framvinduskýrslu.](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
 
 ## <a name="reporting-scrap"></a>Tilkynna rýrnun
 
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp rýrnun með því að velja flipann **Virkar vinnslur** og síðan velja **Gefa upp rýrnun**. Síðan í svarglugganum **Gefa upp rýrnun** færir starfsmaðurinn inn magn rýrnunar með því að nota talnaborðið. Starfsmaðurinn velur einnig ástæðu (*Engin*, *Vél*, *Notandi* eða *Efni*).
 
-![Svargluggi rýrnunarskýrslu](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
+![Svargluggi rýrnunarskýrslu.](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Vinnslu lokið og ný vinnsla hafin
 

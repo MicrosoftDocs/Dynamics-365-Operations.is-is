@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dad1cad6dcda1c7768f9be8bd7bd4426be7fbcbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815453"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358858"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Prenta VSK-greiðslu eftir kóðaskýrslu 
 
@@ -40,11 +40,11 @@ Til að prenta skýrsluna **VSK-greiðsla eftir kóða** ferðu í **Skattur** \
     - **Bókhaldsgjaldmiðill** - Prentaðu skýrlslufjárhæðirnar í bókhaldsgjaldmiðli.
     - **Gjaldmiðill VSK-kóða** - Prentaðu skýrslufjárhæðirnar í gjaldmiðlum VSK-kóða.
 
-    ![Svarglugginn VSK-greiðsla eftir kóða](media/Sales-tax-payment-by-code.png)
+    ![Svarglugginn VSK-greiðsla eftir kóða.](media/Sales-tax-payment-by-code.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um skýrsluna sem er búin til. Skýrslan sýnir að skýrslukóðinn **101** er með gjaldmiðilinn **EUR** ef reiturinn **VSK-gjaldmiðill** er stilltur á **EUR** fyrir VSK-kóðann sem skýrslukóðanum er úthlutað á.
 
-![Dæmi um VSK-greiðslu eftir kóðaskýrslu](media/Sales-tax-payment-by-code-2.png)
+![Dæmi um VSK-greiðslu eftir kóðaskýrslu.](media/Sales-tax-payment-by-code-2.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

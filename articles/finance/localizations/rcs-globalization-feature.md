@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7faa9a3cf6a29d8ed126cfcb0e2902b2016d03ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822782"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358147"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) – altækir eiginleikar
 
@@ -53,7 +53,7 @@ Eftirfarandi ferli útskýra hvernig notandi í RCS getur bætt við altækum ei
 1. Í RCS-tilvikinu skal velja reitinn **Eiginleikastjórnun**.
 2. Á vinnusvæðinu **Eiginleikastjórnun** skal velja **Altækir eiginleikar** í listanum og síðan velja **Virkja núna**.
 
-    ![Altækir eiginleikar í eiginleikastjórnun](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Altækir eiginleikar í eiginleikastjórnun.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Altækir eiginleikar
 
@@ -67,11 +67,11 @@ Til að nota altækan eiginleika verður fyrst að flytja hann inn úr altæku g
 1. Gangið úr skugga um að kveikt sé á eiginleikanum **Altækir eiginleikar** í eiginleikastjórnun eins og lýst er hér á undan í þessu efnisatriði.
 2. Opnið nýja vinnusvæðið **Altækir eiginleikar** og síðan, undir **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
 
-    ![Vinnusvæði altækra eiginleika](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Vinnusvæði altækra eiginleika.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     Síðan **Eiginleikar rafrænnar reikningsfærslu** opnast.
 
-    ![Eiginleikasíða rafrænnar reikningsfærslu](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![Eiginleikasíða rafrænnar reikningsfærslu.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Bæta við afleiddum altækum eiginleika
 
@@ -79,27 +79,27 @@ Hægt er að bæta við nýjum altækum eiginleika með því að notast við fy
 
 1. Veljið **Flytja inn** til að opna síðuna **Flytja inn eiginleika úr altækri geymslu**.
 
-    ![Flytja inn eiginleika af síðu altækrar geymslu](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Flytja inn eiginleika af síðu altækrar geymslu.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Veljið **Samstilla** til að fá nýjustu eiginleikana.
 
     Samstillti listinn inniheldur eiginleika sem eru tiltækir annaðhvort vegna þess að þeir voru gefnir út af Microsoft eða vegna þess að þeim var deilt með öðrum skilgreiningarveitum.
 
-    ![Samstilltur listi yfir eiginleika](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Samstilltur listi yfir eiginleika.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Í listanum skal velja eiginleikana sem á að flytja inn og síðan velja **Flytja inn**. Þú færð skilaboð þegar valdir eiginleikar hafa verið fluttir inn.
 
-    ![Skilaboð um lokinn innflutning](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Skilaboð um lokinn innflutning.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Veljið **Bæta við** og síðan í fellilista svarglugga skal velja valkostinn **Byggt á fyrirliggjandi útgáfu**.
 5. Færið inn heiti og lýsingu á eiginleikanum.
 6. Í lista yfir tiltæka eiginleika skal velja grunnútgáfu eiginleikans og síðan velja **Stofna eiginleika**.
 
-    ![Afleiddum eiginleika bætt við](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Afleiddum eiginleika bætt við.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     Eiginleikinn sem bætt var við er stofnaður og er með stöðuna **Drög**.
 
-    ![Afleiddur eiginleiki sem er með stöðuna drög](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Afleiddur eiginleiki sem er með stöðuna drög.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Yfirfara skal íhluti eiginleika til að ákvarða hvort uppfærslur eru nauðsynlegar:
 
@@ -120,7 +120,7 @@ Hægt er að bæta við nýjum altækum eiginleika með því að búa hann til 
 2. Færið inn heiti og lýsingu á eiginleikanum.
 3. Veljið **Stofna eiginleika**.
 
-    ![Nýjum eiginleika bætt við](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Nýjum eiginleika bætt við.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. Í flipanum **Útgáfur** skal velja dagsetningu fyrir **Gildir frá** og síðan velja **Breyta stöðu** til að ljúka við eiginleikann. Hægt er að bjóða upp á fullkláraða eiginleika fyrir tiltekið umhverfi til að hægt sé að nota þá í altækri þjónustu, eða hægt er að birta þá í altæku geymslunni.
 
@@ -176,7 +176,7 @@ Eftirtaldar aðgerðir eru í boði fyrir uppsetningar eiginleika:
     - Gildissviðsreglur
     - Breytur
 
-![Uppsetningarsíða eiginleikaútgáfu](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Uppsetningarsíða eiginleikaútgáfu.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Umhverfi
 
@@ -193,7 +193,7 @@ Fylgið eftirfarandi skrefum til að samnýta altæka eiginleika með ytra fyrir
 2. Í flipanum **Fyrirtæki** skal velja **Samnýta með** og síðan, í fellilistaglugganum, skal færa inn lénsheiti fyrirtækisins.
 3. Veldu **Deila**.
 
-    ![Samnýta eiginleika með fyrirtæki](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Samnýta eiginleika með fyrirtæki.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 Eiginleikanum er deilt með ytra fyrirtækinu og er aðgengilegur fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja hann inn í tilvik fyrirtækisins í RCS eða Dynamics 365 Finance svo hægt sé að nota hann.
 
@@ -201,7 +201,7 @@ Eiginleikanum er deilt með ytra fyrirtækinu og er aðgengilegur fyrir það fy
 
 Hægt er að endurreikna grunn afleidds altæks eiginleika yfir í nýja eða uppfærða útgáfu grunneiginleikans. Á þennan hátt er hægt að uppfæra breytingar sem hafa átt sér stað í grunnútgáfunni sjálfkrafa. Uppfærð útgáfa grunneiginleika er stofnuð af upprunalegri skilgreiningarveitu og hún er síðan gefin út eða samnýtt.
 
-![Uppfærð útgáfa grunneiginleika](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Uppfærð útgáfa grunneiginleika.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Til dæmis, ef ætlunin er að endurgera afleidda útgáfu eiginleika sem var stofnuð þarf fyrst að sækja nýjustu útgáfuna aðgerðarinnar með því að flytja hana inn úr altæku geymslunni.
 
@@ -209,23 +209,23 @@ Til dæmis, ef ætlunin er að endurgera afleidda útgáfu eiginleika sem var st
 2. Veljið **Samstilla** til að fá nýjustu eiginleikana.
 3. Í listanum yfir eiginleika skal velja eiginleikana sem á að flytja inn og síðan velja **Flytja inn**.
 
-    ![Nýjasta útgáfa eiginleika flutt inn](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Nýjasta útgáfa eiginleika flutt inn.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Í listanum yfir eiginleika skal velja eiginleikann sem á að endurreikna grunn fyrir.
 5. Í flipanum **Útgáfa** skal velja **Ný** til að búa til drög að útgáfu.
 
-    ![Ný drög að útgáfu búin til](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Ný drög að útgáfu búin til.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Veldu **Endurreikna grunn**.
 7. Í svarglugganum **Endurreikna grunn** skal velja nýjustu útgáfu eiginleikans til að endurreikna til.
 
-    ![Gluggi fyrir endurreikning grunns](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Gluggi fyrir endurreikning grunns.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
-8. Veljið **Í lagi**.
+8. Veldu **Í lagi**.
 9. Farið yfir íhluti eiginleikans og gerið allar nauðsynlegar breytingar.
 10. Veljið **Breyta stöðu** til að ljúka við eiginleika með endurreiknaðan grunn. Þegar endurreikning grunns er lokið er hægt að framkvæma fleiri aðgerðir. Til dæmis er hægt að gefa út eiginleikann og gera hann tiltækan til að nota í altækri þjónustu.
 
-    ![Eiginleikastaða uppfærð í Lokið](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Eiginleikastaða uppfærð í Lokið.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Stilla umhverfi fyrir altæka eiginleika
 
@@ -233,13 +233,13 @@ Notendur altækrar þjónustu geta stjórnað umhverfinu til að setja upp altæ
 
 1. Á vinnusvæðinu **Altækir eiginleikar**, undir **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
 
-    ![Vinnusvæði altækra eiginleika](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Vinnusvæði altækra eiginleika.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Veljið **Færibreytur lyklageymslu** og veljið síðan **Nýr** til að búa til leynilykil Azure-lyklageymslu.
 3. Sláið inn heiti og lýsingu fyrir lyklageymsluna og síðan, í reitnum **Lyklageymsla**, skal slá inn vefslóðina sem auðkennir tilfang lyklageymslunnar í Azure.
 4. Í flýtiflipanum **Vottorð** skal velja **Bæta við** til að bæta vottorðinu við og færa inn heiti og lýsingu fyrir hvert vottorð.
 
-    ![Vottorði bætt við](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Vottorði bætt við.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Velja skal **Nýtt** til að stofna nýtt umhverfi.
 6. Færa skal inn heiti, lýsingu og samnýtt leynitákn undirskriftar fyrir aðgang sem þarf fyrir geymsluna.
@@ -248,7 +248,7 @@ Notendur altækrar þjónustu geta stjórnað umhverfinu til að setja upp altæ
 9. Endurtakið skref 7 og 8 til að bæta við fleiri notendum.
 10. Veljið **Gefa út** til að gefa út umhverfið.
 
-    ![Útgefið umhverfi](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Útgefið umhverfi.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

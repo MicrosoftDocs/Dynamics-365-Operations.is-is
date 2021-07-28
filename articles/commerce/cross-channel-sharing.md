@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799518"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349723"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Virkja og nota deilingu milli rása
 
@@ -48,15 +48,15 @@ Til að virkja samnýtingu milli rása í vefsmið Commerce skal fylgja þessum 
 1. Farið í **Svæðisstillingar \> Eiginleikar**.
 1. Stillið valkostinn fyrir eiginleikann **Milli rása** á **Kveikt**.
 
-    ![Kveikt á valkosti milli rása í vefsmið Commerce](./media/enabling-cross-channel-sharing.png)
+    ![Kveikt á valkosti milli rása í vefsmið Commerce.](./media/enabling-cross-channel-sharing.png)
 
 Þegar deiling milli rása er virkjuð, birtast upplýsingar um millirásir í hlutanum **Rásir** í **Svæðisstillingar \> Eiginleikar** eins og dæmið í eftirfarandi mynd sýnir.
 
-![Upplýsingar um rásir sýnilegar eftir að samnýting milli rása er virkjuð](./media/channels-cross-channel.png)
+![Upplýsingar um rásir sýnilegar eftir að samnýting milli rása er virkjuð.](./media/channels-cross-channel.png)
 
 Að auki, þegar búið er að virkja samnýtingu milli rása, verður reiturinn **Rás** uppi hægra megin í vefsmið Commerce með valkostinn **Netverslun milli rása** sem hægt er að nota til að stjórna efni milli rása eins og sýnt er í eftirfarandi mynd.
 
-![Valkostur netverslunar milli rása í reit rásar þegar deiling milli rása hefur verið virkjuð](./media/cross-channel-dropdown.png)
+![Valkostur netverslunar milli rása í reit rásar þegar deiling milli rása hefur verið virkjuð.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Búa til og nota efni milli rása
 
