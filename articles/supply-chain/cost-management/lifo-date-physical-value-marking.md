@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821538"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344569"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO dagsetning með efnislegt virði og merkingu
 
@@ -55,7 +55,7 @@ Eftirfarandi dæmi sýna áhrifin þess að nota LIFO dagsetningu með þremur m
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega á 15,00 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo-dagsetningar þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. ![LIFO dagsetning með Taka efnislegt virði með](./media/lifodatewithoutincludephysicalvalue.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo-dagsetningar þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. ![LIFO dagsetning með Taka efnislegt virði með.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -90,7 +90,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega á 20,00 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar **Taka efnislegt virði með** valkosturinn er notuð. ![LIFO dagsetning með Taka efnislegt virði með](./media/lifodatewithincludephysicalvalue.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar **Taka efnislegt virði með** valkosturinn er notuð. ![LIFO dagsetning með Taka efnislegt virði með.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -136,7 +136,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega og efnislega á 27,50 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á milli úthreyfinga og innhreyfinga er notuð. ![LIFO dagsetning með Merking](./media/lifodatewithmarking.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á milli úthreyfinga og innhreyfinga er notuð. ![LIFO dagsetning með Merking.](./media/lifodatewithmarking.gif) 
 
 **Lykill að skýringarmynd**
 

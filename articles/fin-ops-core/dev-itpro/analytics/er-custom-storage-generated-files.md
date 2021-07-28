@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894149"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348141"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
@@ -41,7 +41,7 @@ Hægt er að ljúka verkunum í þessu efnisatriði í fyrirtækinu **USMF**.
 
 Til að mynda skjölin sem ætlunin er að bæta sérstilltum geymslustað við, skal [flytja inn](er-download-configurations-global-repo.md) skilgreininguna **Framlenging eigna** fyrir rafrænt skýrslugerðarsnið í núverandi grannfræði.
 
-![Síðan Skilgreiningagagnasafn](./media/er-custom-storage-generated-files-import-format.png)
+![Gagnageymslusíða skilgreiningar.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Keyra skýrsla fyrir framlengingu eigna
 
@@ -50,9 +50,9 @@ Til að mynda skjölin sem ætlunin er að bæta sérstilltum geymslustað við,
 3. Í reitinn **Til dagsetningar** skal slá inn **31/1/2017** (31. janúar 2017).
 4. Í **Gjaldmiðilsreitnum** skal velja **Bókhaldsgjaldmiðil**.
 5. Í reitnum **Sniðsvörpun** skal velja **Framlenging eigna**.
-6. Veljið **Í lagi**.
+6. Veldu **Í lagi**.
 
-![Keyrslugluggi fyrir skýrslu um framlengingu eigna](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Keyrslugluggi fyrir skýrslu um framlengingu eigna.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Í Microsoft Excel skal fara yfir skjal á útleið sem er myndað og tilbúið til niðurhals. Þessi hegðun er [sjálfgefin hegðun](electronic-reporting-destinations.md#default-behavior) fyrir snið rafrænnar skýrslugerðar þar sem engir [viðtökustaðir](electronic-reporting-destinations.md) eru skilgreindir og er keyrt í gagnvirkri stillingu.
 

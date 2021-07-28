@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750565"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352913"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Gagnasniðmát með mörgum vinnublöðum
 
@@ -32,13 +32,13 @@ Við skulum taka dæmi þar sem ein Excel-skrá með vinnublöðum sem kallast *
 
 Ef þú skráir til viðbótar aðra einingu **Vöruhús** án þess að fara úr **Bæta við skrá** skráarsniðinu, þá mun vinnublaðsleitin leyfa þér að velja vinnublaðið **Vöruhús** án þess að þurfa að hlaða skránni upp aftur. Eina ástæðan fyrir því að hlaða inn nýjum skrá væri ef **Vöruhús** gögnin voru í annarri skrá.
 
-![Mörg vinnublöð](./media/AddFileMultipleWorkSheets.png)
+![Mörg vinnublöð.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Festa vinnublað til einingarvörpunar
 
 Vörpun vinnublaðsins til gagnaeiningar í innflutningsverkinu er hægt að festa frá hnitanetinu. **Vinnublað** dálkurinn í hnitanetinu sýnir vinnublaðið úr skránni sem var varpað. Þú getur valið annað vinnublað úr fellilistanum. Ef valið vinnublað er þegar varpað í einingu í gagnaverkinu biður kerfið þig um að staðfesta breytingarnar. Við mælum með að þú festir allar varpanir í hnitanetinu.
 
-![Uppfæra vörpun vinnublaðs](./media/UpdateMappings.png)
+![Uppfæra vörpun vinnublaðs.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Endurvarpa á nýja skrá
 

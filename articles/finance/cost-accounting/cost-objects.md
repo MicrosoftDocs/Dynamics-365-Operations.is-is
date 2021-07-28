@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d91fc52b184fda73fcf36175598aa514945db48
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355132"
 ---
 # <a name="cost-object-dimensions"></a>Víddir kostnaðarhluta
 
@@ -34,7 +34,7 @@ Kostnaðarhlutur getur verið hvaða gerð hlutar sem á að áætla, úthluta k
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Víddir kostnaðahluta og víddarstök kostnaðareiningar.
 Kostnaðarhlutir eru þekkt sem *víddir kostnaðarhlutar*. Eftir að búið er að ákvarða hvaða til hvaða einingar vídd kostnaðareiningar vísar til, verður að tilgreina einstaka víddargildi eða flytja þær inn í kostnaðarbókhald úr öðrum upprunakerfum. Einstaka víddargildi kallast *víddarstök kostnaðarhlutar*. T.d. á að nota fjárhagsvídd sem nefnist kostnaðarstað sem vídd kostnaðarhlutar. Til að sjá hvernig kostnaður streymir til stakar kostnaðarstaðir, þarf að flytja inn víddarstök kostnaðarhlutar. Í þessu tilfelli eru víddarstök kostnaðarhlutar hin raunverulega kostnaðarstöðum, eins og sala, Framleiðslu, Stjórnun og Landfræðilegum staðsetningar. Eftirfarandi skjámyndir sýna dæmi um kostnaðarstaður sem vídd kostnaðarhlutar með hennar raunverulegu kostnaðarstaður sem víddarstök kostnaðahlutar. 
 
-[![Skjámynd sem sýnir kostnaðarstaði sem vídd kostnaðarhlutar](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Skjámynd sem sýnir kostnaðarstaði sem vídd kostnaðarhlutar.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Flytja inn víddarstök kostnaðarhlutar með gagnatengjum.
 Til þess að auðvelda innflutningi víddarstök kostnaðarhlutar, notarðu gagnatengi til að sækja gildi úr einingum sem á að nota sem víddir kostnaðarhlutar. Þú getur notað for-uppsett gagnatengi eða sérsniðin gagnatengi sem þú byggir sjálfur.

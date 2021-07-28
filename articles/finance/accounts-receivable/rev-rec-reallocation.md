@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356126"
 ---
 # <a name="revenue-recognition-reallocation"></a>Endurúthlutun tekjuskráningar
 
@@ -48,7 +48,7 @@ Vegna þess að hægt er að endurúthluta sölupöntun sem er reikningsfærð a
 
 Hvert fyrirtæki fyrir sig verður að ákveða hvort leiðréttingin eigi að uppfæra fjárhag eða hvort hún eigi einnig að uppfæra viðskiptakröfur. Ákvörðunin sem er tekin ákvarðar viðeigandi stillingu á valkostinum **Bóka leiðréttingar reiknings á viðskiptakröfur** í flipanum **Tekjuskráning** á síðunni **Fjárhagsfæribreytur** (**Tekjuskráning \> Uppsetning \> Fjárhagsfæribreytur**). Viðeigandi stilling veltur á tilteknum aðstæðum. Fyrir frekari upplýsingar um mögulegar aðstæður skal nota tenglana í hlutanum [Aðstæður endurúthlutunar](#scenarios-for-reallocation) síðar í þessu efnisatriði.
 
-[![Tekjuskráningarflipi á síðu fjárhagsfæribreyta](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Tekjuskráningarflipi á síðunni Fjárhagsfæribreytur.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Ef valkosturinn **Bóka leiðréttingar reiknings á viðskiptakröfur** er stilltur á **Já** verður niðurstaða endurúthlutunarferlisins eftirfarandi:
 
@@ -76,7 +76,7 @@ Eins og hefur verið minnst á er hægt að uppfæra fjárhag eingöngu, eða up
 
 Til að hefja endurúthlutunarferlið skal velja **Endurúthluta verði með nýjum pöntunarlínum** í einhverri sölupöntun sem þarf að endurúthluta. Einnig er hægt að fara í **Tekjuskráning \> Reglubundin verk \> Endurúthluta verði með nýjum pöntunarlínum** og síðan færa inn viðeigandi síur eins og viðskiptavinalykilinn.
 
-[![Endurúthluta verði með nýrri síðu pöntunarlína](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Endurúthluta verði með nýrri síðu pöntunarlína.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 Efra hnitanetið á síðunni **Endurúthluta verði með nýjum pöntunarlínum** heitir **Sala**. Þar er að finna sölupantanir fyrir viðskiptavinina. Velja skal sölupantanirnar sem þarf að endurúthluta. Ekki er hægt að velja sölupantanir verks vegna þess að ekki er hægt að endurúthluta þeim. Ekki er heldur hægt að velja sölupantanir sem eru þegar komnar með kenni endurúthlutunar þar sem aðeins má endurúthluta sölupöntunum sem tilheyra ekki verki einu sinni. Ef sölupöntun er með kenni endurúthlutunar hefur annar notandi þegar merkt hana til endurúthlutunar.
 
@@ -86,11 +86,11 @@ Eftir að lokið er við að velja nauðsynlegar sölupöntunarlínur skal nota 
 
 - **Uppfæra endurúthlutun** – Reikna skal nýju tekjuupphæðina fyrir valdar sölupöntunarlínur. Ef lína var fjarlægð eða hætt var við hana verður endurúthlutun aðeins gerð fyrir núverandi línur sem voru valdar. Eftirfarandi mynd sýnir dæmi um sölupöntunarlínur áður en endurúthlutunin er uppfærð.
 
-    [![Sölupöntunarlínur áður en endurúthlutun er uppfærð](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Sölupöntunarlínur áður en endurúthlutun er uppfærð.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Nýju tekjuupphæðirnar eru sýndar í dálknum **Endurúthlutuð upphæð** í hnitanetinu **Línur**. Á þessu stigi hefur endurúthlutun verið unnin en ekki er búið að reikna hana út. Eftirfarandi mynd sýnir dæmi um sölupöntunarlínur þegar endurúthlutunin hefur verið uppfærð.
 
-    [![Sölupöntunarlínur þegar endurúthlutun hefur verið uppfærð](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Sölupöntunarlínur þegar endurúthlutun hefur verið uppfærð.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Vinna úr** – Vinna úr eða bóka endurúthlutaðar tekjuupphæðir. Þegar þessi hnappur hefur verið valinn er engin leið til að afturkalla endurúthlutun. Ef ekki var valið **Uppfæra endurúthlutun** áður en **Vinna úr** er valið, verður endurúthlutunin keyrð sjálfkrafa.
 
@@ -100,7 +100,7 @@ Eftir að lokið er við að velja nauðsynlegar sölupöntunarlínur skal nota 
 - **Væntanlegt fylgiskjal** – Sýnir forskoðun bókhaldsfærslna sem hafa verið stofnaðar fyrir allar sölupöntunarlínur sem hafa verið reikningsfærðar. Ef engar línur hafa verið reikningsfærðar verður ekkert sýnt. Ef ekki var valið **Uppfæra endurúthlutun** áður en **Væntanlegt fylgiskjal** er valið, verður endurúthlutunin keyrð sjálfkrafa.
 - **Endurúthlutun tekna** – Opna síðu sem sýnir úthlutun tekjuupphæðar fyrir allar valdar línur. Ekki er hægt að breyta neinum upplýsingum á síðunni. Hún sýnir línuupphæðirnar sem voru notaðar til að gera endurúthlutunina.
 
-    [![Línuupphæðir sem voru notaðar fyrir endurúthlutun](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Línuupphæðir sem voru notaðar fyrir endurúthlutun.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Endurstilla gögn fyrir valinn viðskiptavin** – Ef endurúthlutunarferlið hófst en var ekki klárað skal aðeins hreinsa gögnin í endurúthlutunartöflunni fyrir valinn viðskiptavin. Til dæmis ef þú merkir margar sölupöntunarlínur til endurúthlutunar, skilur síðuna eftir opna án þess að velja **Vinna úr** og svo rennur síðan út á tíma. Þá haldast sölupöntunarlínurnar merktar og þær verða ekki aðgengilegar öðrum notanda til að ljúka endurúthlutunarferlinu. Síðan gæti jafnvel verið auð þegar hún er opnuð. Í þessum aðstæðum er hægt að nota hnappinn **Endurstilla gögn valins viðskiptavinar** til að hreinsa óunnar sölupantanir þannig að annar notandi geti lokið endurúthlutunarferlinu.
 

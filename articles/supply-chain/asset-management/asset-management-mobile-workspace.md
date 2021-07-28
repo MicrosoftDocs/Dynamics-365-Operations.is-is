@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360126"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Nota fartækjavinnusvæði eignastýringar
 
@@ -60,7 +60,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-    ![Velja vinnusvæði](media/am-mobile-01.png "Velja vinnusvæði")
+    ![Velja vinnusvæði.](media/am-mobile-01.png "Velja vinnusvæði")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Skoða úthlutuð verkbeiðniverk í dagbókaryfirliti.
 
@@ -90,7 +90,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Velja **Ekkert**.
 
-    ![Skjámyndin Bæta við línu](media/am-mobile-03.png "Skjámyndin Bæta við línu")
+    ![Skjámyndin Bæta við línu.](media/am-mobile-03.png "Skjámyndin Bæta við línu")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Bættu viðhengi við vinnslu verkbeiðni
@@ -112,7 +112,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Velja **Ekkert**.
 
-    ![Skoða og bæta við viðhengjum fyrir verk í verkbeiðni](media/am-mobile-04.png "Skoða og bæta við viðhengjum fyrir verk í verkbeiðni")
+    ![Skoða og bæta við viðhengjum fyrir verk í verkbeiðni.](media/am-mobile-04.png "Skoða og bæta við viðhengjum fyrir verk í verkbeiðni")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Skoða viðhaldsgátlista í vinnslu verkbeiðni
 
@@ -129,7 +129,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Veldu bakkhnappinn (**<**) til að snúa til baka á fyrri síðuna.
 
-    ![Viðhaldsgátlisti og upplýsingar um línu](media/am-mobile-05.png "Viðhaldsgátlisti og upplýsingar um línu")
+    ![Viðhaldsgátlisti og upplýsingar um línu.](media/am-mobile-05.png "Viðhaldsgátlisti og upplýsingar um línu")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Skoða og uppfæra eignateljara í vinnslu á verkbeiðni
 
@@ -146,7 +146,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Sláðu inn nýtt teljaragildi og veldu **Lokið**.
 
-    ![Skoða og uppfæra eignateljara](media/am-mobile-06.png "Skoða og uppfæra eignateljara")
+    ![Skoða og uppfæra eignateljara.](media/am-mobile-06.png "Skoða og uppfæra eignateljara")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Skráðu notkun í vinnslu á verkbeiðni
 
@@ -178,7 +178,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
     1. Færðu inn **Kostnaðarverð** fyrir kostnaðarskráningu.
     1. Velja **Ekkert**.
 
-    ![Uppfæra færslubók verkbeiðni](media/am-mobile-07.png "Uppfæra færslubók verkbeiðni")
+    ![Uppfæra færslubók verkbeiðni.](media/am-mobile-07.png "Uppfæra færslubók verkbeiðni")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Uppfærðu líftímastöðu í verkbeiðni
 
@@ -194,7 +194,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Velja **Ekkert**.
 
-    ![Uppfærðu líftímastöðu í verkbeiðni](media/am-mobile-08.png "Uppfærðu líftímastöðu í verkbeiðni")
+    ![Uppfæra líftímastöðu í verkbeiðni.](media/am-mobile-08.png "Uppfærðu líftímastöðu í verkbeiðni")
 
 ## <a name="create-a-maintenance-request"></a>Stofna viðhaldsbeiðni
 
@@ -216,7 +216,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Velja **Ekkert**.
 
-    ![Stofna viðhaldsbeiðni](media/am-mobile-09.png "Stofna viðhaldsbeiðni")
+    ![Stofna viðhaldsbeiðni.](media/am-mobile-09.png "Stofna viðhaldsbeiðni")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Bættu viðhengi við viðhaldsbeiðni
 
@@ -236,7 +236,7 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 1. Velja **Ekkert**.
 
-    ![Bæta viðhengi við viðhaldsbeiðni](media/am-mobile-10.png "Bæta viðhengi við viðhaldsbeiðni")
+    ![Bæta viðhengi við viðhaldsbeiðni.](media/am-mobile-10.png "Bæta viðhengi við viðhaldsbeiðni")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

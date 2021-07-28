@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825543"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354157"
 ---
 # <a name="dispatch-work-order"></a>Senda verkbeiðni
 
@@ -52,7 +52,7 @@ ms.locfileid: "5825543"
 
 Myndin hér að neðan sýnir dæmi um sendingarval í glugganum **Áætla verkbeiðni**.
 
-![Mynd 1](media/04-work-order-scheduling.png)
+![Mynd 1.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Ef þú vilt eyða áætlun í vinnupöntun velurðu verkbeiðnina í **Allar verkbeiðnir** og smellir síðan á **Eyða áætlun** á flipanum **Almennt**. Mundu að uppfæra handvirkt líftímastöðu verkbeiðni ef þú eyðir áætluninni.

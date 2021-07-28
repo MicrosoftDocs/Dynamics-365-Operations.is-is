@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822468"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344221"
 ---
 # <a name="vendor-rebates"></a>Eftirágreiddur afsláttur lánardrottins
 
@@ -53,7 +53,7 @@ Samningur um eftirágreiddur afsláttur við lánardrottinn er heimild um samnin
 
 Til að opna síðuna **Samningar um eftirágreiddan afslátt til lánardrottis** skal velja **Innkaup og aðföng** &gt; **Eftirágreiddur afsláttur lánardrottins** &gt; **Samningar um eftirágreiddan afslátt**.
 
-![Innkaupasamningur](media/purchase-agreement.PNG)
+![Innkaupasamningur.](media/purchase-agreement.PNG)
 
 Á síðunni **Samningar um eftirágreiddan afslátt** er hægt að skoða upplýsingar um umsamin ákvæði í samningi við lánardrottinn.
 
@@ -129,7 +129,7 @@ Endurgreiðslukröfur sem eru myndaðar tákna framtíðargreiðslur sem hægt e
 
     Færslubók fyrir uppsafnaðan eftirágreiddan afslátt er bókuð fyrir upphæð aflsáttar. Þessi bókun skuldfærir reikning móttekins eftirágreidds afsláttar lánardrottins fyrir væntanlegri kreditupphæð lánardrottins og gjaldfærir reiknings greidds eftirágreidds afsláttar.
 
-    ![Skilaboð](media/message.png)
+    ![Skilaboð.](media/message.png)
 
 5. Í endurgreiðslulistanum skaltu velja línuna og síðan, á aðgerðarúðunni, velja **Færslur eftirágreidds afsláttar** til að sjá og fletta í bókarkeyrslunni fyrir þessa endurgreiðslubókun.
 

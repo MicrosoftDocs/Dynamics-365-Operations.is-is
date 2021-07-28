@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058561"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360569"
 ---
 # <a name="payroll-integration-api-introduction"></a>Kynning á API launasamþættingar
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058561"
 
 Þetta skjal lýsir API Dynamics 365 Human Resources launasamþættingar. API virkjar einfaldaða heildarsamþættingu á milli Human Resources og launakerfa samstarfsaðila. Samþætta upplifunin hefst í Human Resources með upplýsingar um forstillingu starfsmanns, laun og frádrátt og framlag. Þegar starfsmaður er ráðinn og færðar er inn nauðsynleg forstilling og launaupplýsingar í Human Resources, sækir launakerfið þessar upplýsingar til að nota þegar unnið er úr launum. Allar uppfærslur sem gerðar eru á upplýsingum um starfsmann eða laun eru einnig sóttar til að nota í síðari launakeyrslum.
 
-![Flæði launasamþættingar](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Flæði launasamþættingar.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Til að virkja samþættinguna hefur Human Resources bætt við eftirfarandi þáttum:
 
@@ -60,7 +60,7 @@ Frekari upplýsingar um myndun sýndartaflna fyrir API er að finna í [Skilgrei
 
 Eftirfarandi skýringarmynd sýnir vensl innan API. Nokkrar gerðir eru með ytri lykla fyrir aðrar fyrirliggjandi einingar í Human Resources sem ekki eru sýndar hér. Í þessu skjali eru upplýsingar um einingar sem eiga sérstaklega við samþættingaraðstæður launa. Hins vegar eru margar aðrar einingar í Dataverse vef-API fyrir Human Resources sem kunna einnig að skipta máli fyrir samþættingu þína. Vísað er í sumar þessara eininga í tengslum ytri lykla eða skoðunareiginleikum.
 
-![Gagnalíkan API-samþættingar launa](media/hr-admin-payroll-api-data-model.png)
+[![Gagnalíkan API-samþættingar launa.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Starfsmaður á launaskrá og tengdar einingar
 
@@ -68,7 +68,8 @@ Einingar:
 
 - [Starfsmaður á launaskrá](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Heimilisfang starfskrafts á launaskrá](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Launafyrirkomulag fastra launa](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Launafyrirkomulag fastra launa](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Launafyrirkomulag breytilegra launa](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Launastöðuvinnsla](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Launastaða](hr-admin-integration-payroll-api-payroll-position.md)
 

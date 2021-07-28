@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 604b9e14d7a218ab75ebeff5b686f380ef88b34e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829523"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354690"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Yfirlit yfir víddarbyggðar skilgreiningar fyrir afurð
 
@@ -66,7 +68,7 @@ Skilgreiningarleiðinni ákvarðar röð skilgreiningarflokka, eins og þær bir
 Skilgreiningarreglur tákna mekanisma til að tryggja að afurð sem er í einumafbrigðisflokk í Uppskrift framkalli annað hvort meðtalningu eða útilokun fyrir vöru í mismunandi afbrigðisflokkum í sömu uppskrift.
 
 ## <a name="product-modeling-process"></a>Ferli vörulíkanagerðar
-Eðlileg röðun til að byggja vörulíkan fyrir afurð sem byggist á víddum byrjar á skilgreiningu viðeigandi afbrigðisflokka. Það er mikilvægt að tryggja að allar afurðir sem verður notaður í Uppskriftinni hafa verið losaðar í fyrirtækið sem vörulíkan er búið til fyrir. Með þessum einingum á sínum stað, getur notandi stofna Uppskrift og úthluta afbrigðisflokka á allar viðeigandi uppskriftalínur. Þegar Uppskrift er lokið er hægt að skilgreina afbrigðisleið skilgreinda fyrir röðun á afbrigðisflokkum í viðeigandi númeraröð. [![Víddarmiðað vörulíkanaferli](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Ef það er vitað um afurðir úr mismunandi afbrigðisflokkum sem annað hvort verður eða má ekki nota saman, er hægt að stofna afbrigðareglur sem munu framfylgja þessum afurðavenslum. Eftir að uppskrift hefur verið tengd við afurðarsniðmát sem byggist á víddum í gegnum uppskriftarútgáfu og bæði hafa verið samþykktar og virkjaðar, er hægt að stofna afurðarafbrigði og færa inn heiti fyrir hvert afbrigði. Hægt er að skilgreina afbrigði áður en neinar færslur eru mynduðar eða það er gert þegar þörf fyrir ákveðið afbrigði á sér stað.
+Eðlileg röðun til að byggja vörulíkan fyrir afurð sem byggist á víddum byrjar á skilgreiningu viðeigandi afbrigðisflokka. Það er mikilvægt að tryggja að allar afurðir sem verður notaður í Uppskriftinni hafa verið losaðar í fyrirtækið sem vörulíkan er búið til fyrir. Með þessum einingum á sínum stað, getur notandi stofna Uppskrift og úthluta afbrigðisflokka á allar viðeigandi uppskriftalínur. Þegar Uppskrift er lokið er hægt að skilgreina afbrigðisleið skilgreinda fyrir röðun á afbrigðisflokkum í viðeigandi númeraröð. [![Víddarmiðað vörulíkanaferli.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Ef það er vitað um afurðir úr mismunandi afbrigðisflokkum sem annað hvort verður eða má ekki nota saman, er hægt að stofna afbrigðareglur sem munu framfylgja þessum afurðavenslum. Eftir að uppskrift hefur verið tengd við afurðarsniðmát sem byggist á víddum í gegnum uppskriftarútgáfu og bæði hafa verið samþykktar og virkjaðar, er hægt að stofna afurðarafbrigði og færa inn heiti fyrir hvert afbrigði. Hægt er að skilgreina afbrigði áður en neinar færslur eru mynduðar eða það er gert þegar þörf fyrir ákveðið afbrigði á sér stað.
 
 ### <a name="suggested-use"></a>Notkun sem mælt er með
 

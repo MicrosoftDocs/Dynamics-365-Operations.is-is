@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d780c7a52570e8e8dbd0c42c6d1aa8e41d2d4819
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 164926714717addc486a69f4ae913dcef2bc4c41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809879"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361146"
 ---
 # <a name="asset-management-overview"></a>Yfirlit eignastýringar
 
@@ -32,7 +32,7 @@ Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í
 
 Myndin hér að neðan er mynd af viðmóti við aðrar einingar í Finance and Operations.
 
-![Yfirlit yfir hvernig eignastjórnun samþættist](media/overview-integrate2.jpg)
+![Yfirlit yfir samþættingu eignastýringar.](media/overview-integrate2.jpg)
 
 Eignastýring gerir þér kleift að stjórna og framkvæma verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu, til dæmis vélar, framleiðslutæki og farartæki. Eignastjórnun styður lausnir í fjölmörgum atvinnugreinum.
 

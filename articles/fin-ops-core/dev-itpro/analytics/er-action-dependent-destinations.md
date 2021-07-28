@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358670"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 
@@ -69,11 +69,11 @@ Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frj�
 
 Eftirfarandi mynd sýnir hvernig hægt er að ná þessu fram með því að skilgreina áfangastaði rafrænnar skýrslugerðar sem safn stakra viðtökufærslna þegar hver færsla er skilgreind fyrir eina aðgerð notanda:
 
-![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir eina aðgerð notanda](./media/er-destination-action-dependent-01.png)
+![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir eina aðgerð notanda.](./media/er-destination-action-dependent-01.png)
 
 Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að skilgreina áfangastaði rafrænnar skýrslugerðar sem safn stakra viðtökufærslna þegar hver færsla er skilgreind fyrir einn áfangastað:
 
-![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir einn áfangastað](./media/er-destination-action-dependent-01a.png)
+![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir einn áfangastað.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Ef aðgerðarkóði er gefinn upp fyrir keyrslu rafræns skýrslugerðarsniðs, en engir áfangastaðir hafa verið skilgreindir fyrir þann aðgerðarkóða, verður [sjálfgefinn](electronic-reporting-destinations.md#default-behavior) áfangastaður notaður.
@@ -84,7 +84,7 @@ Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að
 
 Eftirfarandi mynd sýnir dæmi um svargluggann **Áfangastaðir rafræns skýrslugerðarsniðs** sem birtist þegar reikningur með frjálsum texta er [bókaður](../../../finance/accounts-receivable/create-free-text-invoice-new.md) og rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt til að mynda þetta skjal ef aðgerðinni **Prentari** var úthlutað og áfangastaðir rafrænnar skýrslugerðar voru skilgreindir fyrir þetta snið eins og var sýnt fyrr í þessu efnisatriði.
 
-![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar](./media/er-destination-action-dependent-02.gif)
+![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Ef skilgreindir voru áfangastaðir rafrænnar skýrslugerðar fyrir marga þætti í rafræna skýrslugerðarsniðinu sem er keyrt verður boðið upp á sérstakan valkost fyrir hvern skilgreindan þátt rafræna skýrslugerðarsniðsins.
@@ -103,7 +103,7 @@ Fylgið þessum skrefum til að staðfesta aðgerðarkóða notanda sem gefinn e
 6. Á síðunni **Kembikladdar skilgreiningar** skal sía keyrslukladda rafrænnar skýrslugerðar til að finna kladdann fyrir keyrslu rafræna skýrslugerðarsniðsins.
 7. Farið yfir kladdafærslurnar sem verða að innihalda færsluna sem geymir uppgefinn aðgerðarkóða notanda ef einhver aðgerð hefur verið gefin upp fyrir keyrslu rafræna skýrslugerðarsniðsins.
 
-    ![Síða keyrslukladda rafrænnar skýrslugerðar sem inniheldur upplýsingar um aðgerðarkóða notanda sem hefur verið gefinn upp fyrir síaða keyrslu rafræns skýrslugerðarsniðs](./media/er-destination-action-dependent-03.png)
+    ![Síða keyrslukladda rafrænnar skýrslugerðar sem inniheldur upplýsingar um aðgerðarkóða notanda sem hefur verið gefinn upp fyrir síaða keyrslu rafræns skýrslugerðarsniðs.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Listi yfir viðskiptaskjöl (bylgja 1)</a>
 

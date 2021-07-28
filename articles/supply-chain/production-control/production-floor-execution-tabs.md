@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814681"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347663"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
 
@@ -32,7 +32,7 @@ Hægt er að hanna efni í notandaviðmóti fyrir hverja skilgreiningu sem noten
 
 Hverjum flipa er skipt í fjóra kafla, eins og sýnt er á eftirfarandi mynd.
 
-![Flipaútlit](media/pfe-tab-layout.png "Flipaútlit")
+![Flipaútlit.](media/pfe-tab-layout.png "Flipaútlit")
 
 Eftirfarandi einingar eru sýndar á mynd:
 
@@ -47,7 +47,7 @@ Til að stofna og skilgreina nýjan flipa skal fylgja þessum skrefum:
 
 1. Veljið **Hanna flipa** á aðgerðasvæði til að opna síðuna **Hanna flipa**.
 
-    ![Síðan „Hanna flipa“](media/pfe-design-tabs.png "Síðan Hanna flipa")
+    ![Síða hönnunarflipa.](media/pfe-design-tabs.png "Síðan Hanna flipa")
 
 1. Veljið **Nýtt** á aðgerðasvæðinu.
 
@@ -67,7 +67,7 @@ Eftir að þú hefur hannað alla flipana sem þú þarft er hægt að tengja þ
 
 1. Farið í **Framleiðslustýring \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**.
 
-    ![Grunnstilla framkvæmd á framleiðslugólfi](media/pfe-config-prod-floor-execution.png "Grunnstilla framkvæmd á framleiðslugólfi")
+    ![Grunnstilla framkvæmd á framleiðslugólfi.](media/pfe-config-prod-floor-execution.png "Grunnstilla framkvæmd á framleiðslugólfi")
 
 1. Í flýtiflipanum **Val á flipa** skal velja **Bæta við**.
 

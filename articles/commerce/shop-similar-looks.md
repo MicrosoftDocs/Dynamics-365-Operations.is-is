@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795382"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357763"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Virkja tillögur um að kaupa svipaða vöru
 
@@ -68,7 +68,7 @@ Til að virkja tillögueiginleikann „versla svipaða vöru“ í Commerce Head
 
 Eftirfarandi mynd sýnir eiginleikann **Versla svipaðar vörur** á síðunni **Eiginleikastjórnun** í Commerce Headquarters.
 
-![Eiginleikinn „versla svipaðar vörur“ á síðu eiginleikastjórnunar í Commerce Headquarters](./media/enableshopsimilarlooks.png)
+![Eiginleikinn „versla svipaðar vörur“ á síðu eiginleikastjórnunar í Commerce Headquarters.](./media/enableshopsimilarlooks.png)
 
 Eftir að undanfarandi verkum hefur verið lokið eru afgreiðslukassar sjálfkrafa stækkaðir með samhengissvæði **Versla svipaðar vörur**. Með því að velja **Skoða meira** getur notendum afgreiðslukassa verið vísað á síðu „versla svipaðar vörur“ sem hægt er að sía enn frekar.
 
@@ -88,7 +88,7 @@ Til að bæta hnappnum **Versla svipaðar vörur** við upplýsingasíðu afurð
 
 Eftirfarandi mynd sýnir gátreitinn **Virkja tengil til að kaupa svipaða vöru** og hnappinn **Versla svipaðar vörur** á dæmi um upplýsingasíðu afurðar í svæðishönnuði.
 
-![Gátreiturinn „Virkja tengil til að kaupa svipaða vöru“ og hnappurinn „Versla svipaðar vörur“ á upplýsingasíðu afurðar í svæðishönnuði](./media/SSLecomtooling.png)
+![Gátreiturinn „Virkja tengil til að kaupa svipaða vöru“ og hnappurinn „Versla svipaðar vörur“ á upplýsingasíðu afurðar í svæðishönnuði.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897577"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355084"
 ---
 # <a name="dimension-hierarchy"></a>Víddarstigveldi
 
@@ -39,7 +39,7 @@ Víddarstigveldi eru notuð á mismunandi stöðum í kostnaðarbókhaldi. Vídd
 
 Hér er dæmi um víddastigveldi.
 
-![Dæmi um víddastigveldi](./media/dimension-hierarchy.png)
+![Dæmi um víddastigveldi.](./media/dimension-hierarchy.png)
 
 Hægt er að stofna víddastigveldi fyrir eftirfarandi gerðir vídda:
 
@@ -80,7 +80,7 @@ Víddastigveldi stofnast sem trjáskipulag með vensl hnúta og leaf-hnúta.
 
 Lítið fyrirtæki hefur eftirfarandi fyrirtækisskipulagið, þar sem Fjármál og mannauður eru deildir undir Stjórnun og Samsetningarinnar og Umbúðir eru deildir í Framleiðslu.
 
-![Dæmi um skipulag fyrirtækis](./media/dimension-hierarchy-org.png)
+![Dæmi um skipulag fyrirtækis.](./media/dimension-hierarchy-org.png)
 
 Vídd kostnaðarhluta stendur fyrir alla kostnaðarstaði í fyrirtækinu.
 

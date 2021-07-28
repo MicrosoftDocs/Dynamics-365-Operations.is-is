@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937013"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352689"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -68,7 +70,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
 
 1. Í vinnusvæðinu **Stjórnun eiginleika** síarðu eiginleikana með einingunni **Smásala og viðskipti**.
 
-    ![Viðskiptavinir í lista yfir eiginleika fyrir eininguna Commerce](./media/Enable_clienteling.png "Viðskiptavinir í lista yfir eiginleika fyrir eininguna Smásala og viðskipti")
+    ![Viðskiptavinir í lista yfir eiginleika fyrir eininguna Commerce.](./media/Enable_clienteling.png "Viðskiptavinir í lista yfir eiginleika fyrir eininguna Smásala og viðskipti")
 
 2. Kveiktu á eiginleikanum **Viðskiptavinir** með því að velja **Virkja núna**.
 3. Á síðunni **Commerce-færibreytur**, á flipanum **Númeraröð**, velurðu línuna **Kenni viðskiptavinarbókar**. Síðan, í reitnum **Kóði númeraraðar** skal velja númeraraðarkóða fyrir hverja tilvísun. Kerfið mun nota þessa númeraröð til að úthluta kenni á viðskiptavinabækur.
@@ -83,7 +85,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
 
 6. Á síðunni **Commerce-færibreytur**, á flipanum **Viðskiptavinir**, í reitnum **Eigindahópur viðskiptavinarbókar**, veldu eigindahópinn sem þú bjóst til.
 
-    ![Eigindahópur viðskiptavinabókar valinn](./media/Client%20book%20attributes.png "Eigindahópur viðskiptavinabókar valinn")
+    ![Eigindahópur viðskiptavinabókar valinn.](./media/Client%20book%20attributes.png "Eigindahópur viðskiptavinabókar valinn")
 
 7. Til að fanga athafnir sem eiga sér stað í POS skaltu skilgreina aðgerðategundirnar á síðunni **Gerðir verkþátta** (**Retail og Commerce \> Viðskiptavinir \> Gerðir verkþátta**).
 
@@ -95,7 +97,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
 
 Eftir að þú hefur lokið þessu ferli geta söluaðilar opnað upplýsingasíðu viðskiptavinar í POS og bætt við viðskiptavini í viðskiptavinabók sína, skoðað og náð verkþáttum og athugasemdum fyrir viðskiptavini og miðað út viðskiptavini með því að nota eigind viðskiptavina og viðskiptavinarbókar til að sía viðskiptavinabók. Eftirfarandi skýringarmynd sýnir dæmi um viðskiptavinabók.
 
-![Dæmi um viðskiptavinabók](./media/client_book.png "Dæmi um viðskiptavinabók")
+![Dæmi um viðskiptavinabók.](./media/client_book.png "Dæmi um viðskiptavinabók")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Kveiktu á samþættingu Customer Insights við Commerce
 

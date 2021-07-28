@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796971"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346669"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Leiðrétta niðurstöður afurðartillagna sem byggjast á AI-ML
 
@@ -51,7 +51,7 @@ Afurðalistinn „Vinsælt” er með tvær færibreytur sem hægt er að breyta
 
 Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 
-![Dæmi um sjálfgefna færibreytu fyrir mest selt](./media/examplebestsellingparameters.PNG)
+![Dæmi um sjálfgefna færibreytu fyrir söluhæstu vörurnar.](./media/examplebestsellingparameters.PNG)
 
 1. **Láta fylgja með nýjar sölu frá síðustu X dögum** - Sölufærslur sem hafa orðið innan tiltekins fjölda daga fyrir núverandi dagsetningu má nota til að panta afurðirnar. Sjálfgefið gildi hér að ofan bendir til þess að öll innkaup, sem gerð hafa verið á vöru síðustu 30 daga, verði notuð til að ákvarða staðsetningu vörunnar í lista yfir mest seldar afurðir. 
 
@@ -65,13 +65,13 @@ Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 1.  Til að bæta afurðum við töfluna skaltu velja **Bæta við línu**. 
 1.  Undir vöru dálki, leitaðu að vöru eftir **Nafn** eða **Vörunúmer.**
 
-    ![Dæmi um leit að vöru á Nýja vörulistanum](./media/examplenewlistconfiguration1.png)
+    ![Dæmi um leit að vöru á Nýja vörulistanum.](./media/examplenewlistconfiguration1.png)
 
 1.  Veldu einn af tveimur valkostum undir dálknum Línugerð:
     -   **Hafa með** - þvingar afurð fremst á listanum
     -   **Útiloka** - fjarlægir afurð frá því að birtast á listanum
     
-    ![Dæmi um að taka með eða útiloka vöru frá Nýja vörulistanum](./media/examplenewlistconfiguration2.png)
+    ![Dæmi um að taka með eða útiloka vöru frá Nýja vörulistanum.](./media/examplenewlistconfiguration2.png)
 
 1.  Ef **Sýna röð** er breytt breytir það röðinni sem afurðir merktar **hafa með** birtast í á listanum.
     - Ef tvær vörur hafa sama gildi **birta röð**, þá getur endanleg röð þessara tveggja niðurstaðna verið frábrugðin bakforritinu.
@@ -87,11 +87,11 @@ Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 Fylgdu þessum skrefum til að bæta við eða fjarlægja niðurstöður fyrir grunnafurð handvirkt:
 1.  Velja **Grunnafurð**. 
 1.  Undir dálkinum **Afurð** leitarðu að afurð eftir **Heiti** eða **Vörunúmeri.**
-![Dæmi um leit að afurð á listanum Oft keypt saman](./media/exampleFBTlistconfiguration1.png)
+![Dæmi um leit að afurð á listanum Oft keypt saman.](./media/exampleFBTlistconfiguration1.png)
 1. Veldu einn af tveimur valkostum undir dálknum **Línugerð**:
     - **Hafa með** - þvingar afurð fremst á listanum
     - **Útiloka** - fjarlægir afurð frá því að birtast á listanum     
-![Dæmi um að hafa með eða útiloka afurð á listanum Oft keypt saman](./media/exampleFBTlistconfiguration2.png)
+![Dæmi um að hafa með eða útiloka afurð á listanum Oft keypt saman.](./media/exampleFBTlistconfiguration2.png)
 1.  Til að fjarlægja vörur af töflunni: veldu línuna sem á að fjarlægja og veldu Fjarlægja.
 
 

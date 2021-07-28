@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346275"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Fínstilla Dataverse sýndartöflufyrirspurnir
 
@@ -50,13 +50,13 @@ Dæmi þar sem þú gætir séð þessi áhrif er í fyrirspurnum gegn starfsman
 - **Fyrirspurnin rann út á tíma**: Þessi fyrirspurn gæti runnið út á tíma og skilað eftirfarandi villu: „Náð var í merki til að kalla á Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError.“
 - **Óvænt villa**: Fyrirspurnin gæti skilað villu af gerðinni 400 með eftirfarandi skilaboðum: „Óvænt villa kom upp.“
 
-  ![Villugerð 400 á HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Villugerð 400 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Takmörkun**: Fyrirspurnin kann að ofnota tilföng netþjóns og orðið fyrir takmörkunum. Í slíku tilfelli skilar fyrirspurnin eftirfarandi villu: „Náð var í merki til að kalla á Finance and Operations, en Finance and Operations skilaði villu af gerðinni 429.“ Frekari upplýsingar um takmörkun í Human Resources er að finna í [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md).
 
-  ![Villugerð 429 á HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Villugerð 429 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
-## <a name="resolution"></a>Upplausn
+## <a name="resolution"></a>Lausn
 
 ### <a name="limit-the-number-of-columns-included-in-your-data-query"></a>Takmarka dálkafjölda í gagnafyrirspurninni
 
@@ -96,7 +96,7 @@ Ef þú finnur fyrir einhverjum af áðurnefndum vísbendingum um hæga keyrslu 
 2. Í glugganum **Sækja gögn** skal slá inn **Common Data Service** í leitarreitinn, velja **Common Data Service** tengilinn og velja **Tengja**.
 3. Í reitinn **Vefslóð þjóns** í Common Data Service-glugganum skal slá inn URI fyrirtækisins fyrir Dataverse-umhverfið og velja **Í lagi**.
   
-   ![Sláðu inn URI fyrir Dataverse umhverfið þitt](./media/PowerBIDataverseURLSetup.png)
+   ![Sláðu inn URI fyrir Dataverse umhverfið þitt.](./media/PowerBIDataverseURLSetup.png)
   
 4. Í skoðunarglugganum skal stækka hnútinn **Einingar**.
 5. Í leitarreitnum skal færa inn **mshr_hcmworkerbaseentity** og velja eininguna.
@@ -113,7 +113,7 @@ Ef þú finnur fyrir einhverjum af áðurnefndum vísbendingum um hæga keyrslu 
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Uppfæra fyrirspurnina í ítarlegum ritli fyrir Power Query-ritil](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Uppfæra fyrirspurnina í ítarlegum ritli fyrir Power Query-ritil.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Velja **Ekkert**.
 
@@ -138,7 +138,7 @@ Ef til dæmis einn af gagnareitunum, sem hafðir eru með á síðu í forritinu
 
 Hægt er að nota [Power Apps Fylgjast með](/powerapps/maker/monitor-overview) til að tryggja að aðeins dálkarnir sem þú þarft séu teknir með í fyrirspurnina til að sækja gögnin fyrir Power App. Hægt er að skoða vefslóðina sem smíðuð er fyrir getRows-aðgerðina til að tryggja að dálkarnir sem valdir hafa verið fyrir forritið verði ákjósanlegir til að sækja gögnin.
 
-![Nota Power Apps eftirfylgni til að greina getData-aðgerðina](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Nota Power Apps eftirfylgni til að greina getData-aðgerðina.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Sía gagnafyrirspurnina
 

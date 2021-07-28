@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 712f3e7cdfb8d521ae2afb59d90bc5102da53cb7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9be41f459b8ec8ca8ccad2360218b32299cb319e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813388"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354930"
 ---
 # <a name="asset-loans"></a>Eignarlán
 
@@ -44,7 +44,7 @@ Ef fyrirtæki þitt fær eignir til viðgerðar- eða viðhaldsstarfa frá anna�
 
 Til að skoða lista yfir allar eignir sem þú hefur lánað til annarra staða eða viðskiptavina skaltu velja **Eignastýring** \> **Sameiginlegt** \> **Eignalán** \> **Öll eignalán**. Ef gátreiturinn **Klárað** er valinn fyrir eign hefur eignin verið skráð sem skilað til fyrirtækisins.
 
-![Vinna með viðhaldsbeiðnir](media/06-manage-maintenance-requests.png)
+![Vinna með viðhaldsbeiðnir.](media/06-manage-maintenance-requests.png)
 
 Á síðunni **Virk eignalán** geturðu skoðað lista yfir allar lánaeignir sem hefur ekki enn verið skilað til fyrirtækisins.
 

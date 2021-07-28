@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754599"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354446"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
@@ -54,11 +54,11 @@ Fylgdu þessum skrefum til að bæta við .pbix-skrá sem Visual Studio gerving 
 3. Í svarglugganum **Bæta við nýju atriði**, undir **Aðgerðagervingar**, velurðu sniðmátið **Tilföng**.
 4. Færðu inn heiti sem verður notað til að vísa til skýrslunnar í X++ lýsigögnum, og smelltu svo á **Bæta við**.
 
-    ![Bættu við svarglugga fyrir Nýtt atriði](media/analytical-workspace-add.png)
+    ![Bættu við svarglugga fyrir Nýtt atriði.](media/analytical-workspace-add.png)
 
 5. Finndu .pbix skrána sem inniheldur skilgreininguna á greiningarskýrslunnu og smelltu síðan á **Opna**.
 
-    ![Veldu svarglugga Tilfangaskrár](media/analytical-workspace-select-resource.png)
+    ![Veldu svarglugga Tilfangaskrár.](media/analytical-workspace-select-resource.png)
 
 Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi geturðu fellt skýrslurnar inn í vinnusvæði og bætt við beinum tenglum með því að nota valmyndaratriði.
 
@@ -67,7 +67,7 @@ Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi getur�
 
 Eftirfarandi skýringarmynd sýnir hvernig skjámyndin **FMClerkWorkspace** lítur út í hönnuðinum í Microsoft Visual Studio.
 
-![FMClerkWorkspace skjámynd fyrir breytingar](media/analytical-workspace-definition-before.png)
+![FMClerkWorkspace skjámynd fyrir breytingar.](media/analytical-workspace-definition-before.png)
 
 Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir vinnusvæðið **Stjórnun bókana**.
 
@@ -92,7 +92,7 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 
 Eftirfarandi skýringarmynd sýnir hvernig hönnunin lítur út eftir að breytingarnar eru gerðar.
 
-![FMClerkWorkspace eftir breytingar](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace eftir breytingar.](media/analytical-workspace-definition-after.png)
 
 Nú þegar þú hefur bætt við skjámyndarstýringunum sem verða notaðar til að fella inn vinnusvæðisskýrsluna, verður þú að skilgreina stærð yfirstýringarinnar svo hún ráði við útlitið. Sjálfgefið er að bæði síðan **Síurúða** og síðan **Flipi** verða sýnilegar á skýrslunni. Hins vegar er hægt að breyta sýnileika þessara stýringa eftir þörfum fyrir markneytanda skýrslunnar.
 
@@ -142,7 +142,7 @@ Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar ský
 
 Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja innfellda skýrsluyfirlitsstýringu. Eftirfarandi skýringarmynd sýnir hvernig vinnusvæðið lítur út eftir að breytingarnar eru gerðar.
 
-![Skýrsla felld inn í vinnusvæðið](media/analytical-workspace-final.png)
+![Skýrsla felld inn í vinnusvæðið.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Hægt að opna fyrirliggjandi rekstraryfirlit með því að nota vinnusvæðisflipana fyrir neðan titil síðunnar.

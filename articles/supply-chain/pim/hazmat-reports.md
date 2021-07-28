@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820323"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347021"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Fyrirspurnir og skýrslur um hættuleg efni
 
@@ -29,7 +29,7 @@ Allar þessar skýrslur, nema skýrslan **Fjölþættur hættulegur varningur**,
 
 Eftirfarandi mynd sýnir röð verkþátta sem eiga sér stað þegar kerfið myndar skýrslur fyrir hættuleg efni.
 
-![Röð verkþátta fyrir skýrslur fyrir hættuleg efni](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
+![Röð verkþátta fyrir skýrslur fyrir hættuleg efni.](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Setja upp skýrslur fyrir hættuleg efni
 

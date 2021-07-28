@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358123"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -41,7 +43,7 @@ RCS býður upp á eftirfarandi möguleika:
 
 Þú getur skráð þig fyrir eða skráð þig inn í RCS af síðunni [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
 
-![Nýskráning/innskráning í RCS](media/202103_RCS%20Marketing%20page_updated_1.jpg)
+![Nýskráning/innskráning í RCS.](media/202103_RCS%20Marketing%20page_updated_1.jpg)
 
 Á síðunni **Regulatory Configuration Service** skal yfirfara og samþykkja viðbótarskilmálana fyrir notkun á þjónustunni og síðan velja einn af eftirfarandi hnöppum:
 
@@ -91,7 +93,7 @@ Frekari upplýsingar um tengda þætti er að finna í eftirfarandi efnisatriðu
 
 Þegar þú skráir þig fyrir RCS af þjónustusíðunni gæti komið upp vandamál sem tengist Azure Active Directory (Azure AD). Villuboðin sem koma upp gefa til kynna að slökkt er á skráningu fyrir RCS og kveikja þarf á henni áður en hægt er að klára skráningarferlið.
 
-![Villuboð RCS-skráningar](media/01_RCSSignUpError.jpg)
+![Villuboð RCS-skráningar.](media/01_RCSSignUpError.jpg)
 
 Vandamálið kemur upp vegna þess að lokað er fyrir skráningu á tilfallandi áskriftum og virkja þarf eiginleikann `AllowAdHocSubscriptions` í leigjandanum. 
 

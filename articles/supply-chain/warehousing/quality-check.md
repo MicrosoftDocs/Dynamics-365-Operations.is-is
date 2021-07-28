@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838227"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358051"
 ---
 # <a name="quality-check"></a>Gæðaskoðun
 
@@ -310,7 +310,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
     Síðan **Gæðaskoðun** sem birtist er með enga innsláttarreiti. Hún er aðeins með staðfestingarhnappinn (gátmerki) neðst og valmyndarhnappinn (**≡**) efst. (Valmyndarhnappurinn er stundum kallaður hamborgari eða hamborgarahnappur.) Til að flýta fyrir gæðaskoðunarferlinu, þegar brettið stenst gæðaskoðun, staðfestir notandinn bara síðuna **Gæðaskoðun**.
 
-    ![Gæðaskoðunarsíða](media/quality-check.png "Gæðaskoðunarsíða")
+    ![Gæðaskoðunarsíða.](media/quality-check.png "Gæðaskoðunarsíða")
 
 1. Veljið staðfestingarhnappinn til að samþykkja gæðaskoðun fyrir bretti 1 úr línu 1.
 

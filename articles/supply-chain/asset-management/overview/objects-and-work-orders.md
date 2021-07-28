@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fe5523edf46712b17aa7abcad50da44c3eaffd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4be7d3b77f72a9d79047d31b46dcabcb2bf09d12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816767"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351562"
 ---
 # <a name="assets-and-work-orders"></a>Eignir og verkbeiðnir
 
@@ -32,23 +32,23 @@ ms.locfileid: "5816767"
 
 Ýmis gögn, svo sem vöruupplýsingar og eignaskilgreining, og nauðsynlegar viðhaldsáætlanir eru settar upp um hverja eign. Eftirfarandi mynd sýnir yfirlit yfir eignargögn og tengingu eigna við starfstegundir. Rauður texti er notaður fyrir dæmi sem sýna arf og háð.
 
-![Skýringarmynd sem sýnir eignargögn sem tengjast vinnslugerðum](media/05-overview-image.png)
+![Skýringarmynd sem sýnir gögn um eign sem tengjast vinnslugerðum.](media/05-overview-image.png)
 
 Sérhver verkbeiðni er með gerð af verkbeiðni, svo fyrirbyggjandi viðhald, úrbótaviðhald eða skoðun. Verkbeiðnin inniheldur eitt eða fleiri störf í verkbeiðni. Sérhver starf í verkbeiðni skilgreinir starf sem þarf að framkvæma á eign og tengda starfstegund. Dæmi um skyldar starfstegundir eru 10.000 km, 50.000 km, 1 árs yfirferð og öryggisskoðun. Ein verkpöntun getur tengst mörgum eignum.
 
 Eftirfarandi mynd sýnir yfirlit yfir lykilgögnin í verkbeiðni.
 
-![Skýringarmynd sem sýnir lykilgögn í verkbeiðni](media/06-overview-image.png)
+![Skýringarmynd sem sýnir lykilgögn í verkbeiðni.](media/06-overview-image.png)
 
 Verkbeiðnin getur verið tengt annarri verkbeiðni og starfstegundir geta innihaldið störf sem hafa náð árangri sem skapa verkbeiðni. Almennt eru engin háð á milli verkbeiðna. Þess vegna geta þeir breytt líftímastöðum verkbeiðni og hægt er að skipuleggja þær óháð hvor annarri.
 
 Verkbeiðnir geta verið búnar til á ýmsa vegu sem tengjast lagfærandi, fyrirbyggjandi eða viðbrögðum viðhaldi. Einnig er hægt að stofna verkbeiðnir handvirkt. Eftirfarandi mynd sýnir yfirlit yfir ferlið við sjálfvirka eða handvirka stofnun verkbeiðna.
 
-![Skýringarmynd sem sýnir sjálfvirka eða handvirka stofnun verkbeiðna](media/07-overview-image.png)
+![Skýringarmynd sem sýnir sjálfvirka eða handvirka stofnun verkbeiðni.](media/07-overview-image.png)
 
 Nokkrum skrefum verður að vera lokið þegar þú vilt skipuleggja og keyra viðhaldsstörf í verkbeiðni. Eftirfarandi mynd sýnir yfirlit yfir vinnslu fyrir verkbeiðni.
 
-![Skýringarmynd sem sýnir yfirlit yfir vinnslu á verkbeiðni](media/08-overview-image.png)
+![Skýringarmynd sem sýnir yfirlit yfir vinnslu verkbeiðni.](media/08-overview-image.png)
 
 > [!NOTE]
 > Almennt þegar þú vinnur í Dynamics 365 Supply Chain Management og einingunni **Eignastýring** velurðu **Nýtt** til að búa til nýja skrá, velur **Breyta** til að uppfæra fyrirliggjandi skrá og þú velur **Vista** til að vista ný eða breytt gögn.

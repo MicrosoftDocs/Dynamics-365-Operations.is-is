@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f38b01d94fd2efcce5de210f77124fdc24be6e39
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50ace9a2f8f5fa39dc927e11f0acd707167ef126
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346227"
 ---
 # <a name="register-consumption"></a>Skrá notkun
 
@@ -54,7 +54,7 @@ ms.locfileid: "5837898"
 
 Skjámyndin hér að neðan sýnir dæmi um skráningu klukkutíma og vöru í verkbeiðni í **Verkbeiðnifærslubókum**.
 
-![Mynd 1](media/01-consumption.png)
+![Mynd 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Skiptu tíma á verkbeiðnum með nokkrum verkbeiðniverkum
@@ -73,13 +73,13 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 
 6. Settu fjölda vinnutíma sem á að skipta í reitnum **Klukkutímar**.
 
-    ![Mynd 2](media/02-consumption.png)
+    ![Mynd 2.](media/02-consumption.png)
 
 7. Smellt er á **OK**.
 
 *Dæmi:* Í skjámyndinni hér að neðan eru dagbókarlínur fyrir verkbeiðni sem innihalda þrjú verkbeiðniverk. Fyrstu línunni, sem hefur að geyma þrjá vinnutíma, hefur verið skipt og er einn vinnutími skráður í hvert verkbeiðniverk. Eftir að þriggja tíma skráningarlínur eru búnar til ákveður þú hvað þú átt að gera við upphaflegu klukkutímaskráningarlínuna (fyrsta línan í dæminu). Þú getur haldið því eins og það er eða eytt því. 
 
-![Mynd 3](media/03-consumption.png)
+![Mynd 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Fjárhagsvíddir á notkunarskráningum
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103169"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359788"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -30,7 +30,7 @@ Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda
 
 Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið sem er með innkaupapöntunarmagn þegar þeir berast í vöruhúsið.
 
-![Ferlið við meðhöndlun farms á innleið](media/inbound-process.png "Ferlið við meðhöndlun farms á innleið")
+![Meðhöndlunarferli farms á innleið.](media/inbound-process.png "Ferlið við meðhöndlun farms á innleið")
 
 1. **Lánardrottinn staðfestir innkaupapöntunina.**
 
@@ -293,7 +293,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
     Þú getur haft allar aðrar stillingar sem sjálfgefin gildi.
 
-    ![Stillingar valmyndaratriðis fartækis](media/inbound-mobile-menu-items.png "Stillingar valmyndaratriðis fartækis")
+    ![Stillingar á valmyndaratriði fartækis.](media/inbound-mobile-menu-items.png "Stillingar valmyndaratriðis fartækis")
 
     Nánari upplýsingar um hvernig skuli setja upp valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
     - Á flýtiflipanum **Farmur** er reiturinn **Farmstaða** stilltur á _Opið_.
     - Í hlutanum **Farmlínur** er ein lína þar sem reiturinn **Magn** er stilltur á _10_ og reiturinn **Magn vinnusköpunar** er stilltur á _0_ (núll).
 
-    ![Upplýsingar um hleðslu](media/inbound-load-details.png "Upplýsingar um hleðslu")
+    ![Upplýsingar um hleðslu.](media/inbound-load-details.png "Upplýsingar um hleðslu")
 
 1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Staðfesta \> Sending á innleið**. Taktu eftir að **Farmstaða** hefur breyst í _Sent_.
 1. Skrifaðu hjá þér gildið **Kenni farms**, svo að þú getir notað það í næsta ferli.

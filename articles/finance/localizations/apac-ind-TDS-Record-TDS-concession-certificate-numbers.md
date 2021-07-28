@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023316"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358387"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>Skrá vottorðanúmer TDS-skattaívilnunar
 
@@ -33,7 +33,7 @@ ms.locfileid: "6023316"
 2. Í reitnum **Skattgerð** skal velja **TDS** til að setja upp ívilnunarvottorð fyrir skattgerð TDS.
 3. Í flipanum **Yfirlit** skal velja **Alt+N** til að stofna línu.
 
-    [![Haus nýju línunnar](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Haus nýju línunnar.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Í reitnum **Staðgreiðsluskattskóði** skal velja TDS-skattkóða sem ívilnunarvottorð eru gefin út fyrir. Reiturinn **Heiti staðgreiðsluskattskóða** sýnir heiti TDS-skattkóðans.
 5. Í reitunum **Frá dagsetningu** og **Til dagsetningar** skal skilgreina gildistímabil fyrir ívilnunarvottorðið sem notar TDS skattkóðann til að reikna út TDS fyrir lánardrottinn á sérstökum grunni.
@@ -50,6 +50,6 @@ ms.locfileid: "6023316"
 
 11. Í reitnum **Vottorð** skal færa inn númer vottorð TDS-ívilnana.
 
-    [![Vottorðsflýtiflipi](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Vottorðsflýtiflipi.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Lokið síðunni.

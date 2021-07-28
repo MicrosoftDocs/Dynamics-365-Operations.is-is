@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357519"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Kennsla í Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ RSAT gerir þér kleift að nota sömu verkefnaskráningu með mörgum prófatil
 
 Þennan eiginleika er hægt að nota til að staðfesta hvort aðgerð hafi átt sér stað. Til dæmis, þegar framleiðslupöntun er stofnuð, áætluð og síðan hafin sýnir forritið skilaboðin „Production - Start“ til að tilkynna þér að framleiðslupöntun hafi verið hafin.
 
-![Framleiðsla – Ræsa tilkynningu](./media/use_rsa_tool_05.png)
+![Framleiðsla – Ræsa tilkynningu.](./media/use_rsa_tool_05.png)
 
 Þú getur valið þessi skilaboð í gegnum RSAT með því að slá inn skilaboðartexta á flipann **MessageValidation** í Excel-færibreytuskránni fyrir viðeigandi skráningu.
 
-![Flipinn Sannprófun skilaboða](./media/use_rsa_tool_06.png)
+![Flipinn Sannprófun skilaboða.](./media/use_rsa_tool_06.png)
 
 Þegar prófunardæmið hefur verið keyrt eru skilaboðin í Excel-færibreytuskránni borin saman við skilaboðin sem birtast. Ef skilaboðin stemma ekki mun prófunardæmið ekki takast.
 
@@ -104,11 +104,11 @@ RSAT gerir þér kleift að nota sömu verkefnaskráningu með mörgum prófatil
 
 Eftirfarandi mynd sýnir flæðið fyrir þessar aðstæður.
 
-![Flæði fyrir kynningaraðstæður](./media/use_rsa_tool_14.png)
+![Flæði fyrir kynningaraðstæður.](./media/use_rsa_tool_14.png)
 
 Eftirfarandi mynd sýnir stigveldi viðskiptaferla fyrir þessa atburðarás í LCS Viðskiptaferlavinnslu.
 
-![Viðskiptaferli fyrir kynningaraðstæður](./media/use_rsa_tool_15.png)
+![Viðskiptaferli fyrir kynningaraðstæður.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Stjórnunarstefna – Lykilnám
 

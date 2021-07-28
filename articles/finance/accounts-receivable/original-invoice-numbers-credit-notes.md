@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897333"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347835"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Tilvísanir í upprunalega reikninga í kreditnótum
 
@@ -51,7 +51,7 @@ Fylgið þessum skrefum til að stilla færibreytur sem stýra því hvort tilv�
 1. Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur viðskiptakröfu**.
 2. Í flipanum **Uppfærslur**, í flýtiflipanum **Reikningur**, skal stilla valkostinn **Nota útlit kreditreikningsfærslu í sölu- og verkreikningaskýrslum** á **Já**.
 
-![Færibreytur viðskiptakrafna skilgreindar](media/original-invoice-number-in-credit-note.jpg)
+![Færibreytur viðskiptakrafna skilgreindar.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Skilgreina tilvísanir í upprunalega reikninga
 
@@ -65,7 +65,7 @@ Notið eftirfarandi ferli til að skilgreina tilvísanir í upprunalega reikning
 4. Á aðgerðasvæðinu, í flipanum **Reikningur**, í flokknum **Aðgerðir**, skal velja **Kreditreikningsfærsla**.
 5. Færið inn tilvísunina í upprunalegan reikning og veljið ástæðu leiðréttingarinnar.
 
-![Tilvísun fyrir reikning með frjálsum texta skilgreind](media/reference-original-invoice-FTI.jpg)
+![Tilvísun fyrir reikning með frjálsum texta skilgreind.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Kreditnóta viðskiptavina
 
@@ -74,7 +74,7 @@ Notið eftirfarandi ferli til að skilgreina tilvísanir í upprunalega reikning
 3. Á aðgerðasvæðinu, í flipanum **Selja**, í flokknum **Kreditnóta**, skal velja **Kreditnóta**.
 4. Færið inn ástæðu leiðréttingarinnar. Tilvísun í upprunalegan reikning er komið fyrir sjálfkrafa.
 
-![Tilvísun fyrir sölupöntun skilgreind](media/reference-original-invoice-SO.jpg)
+![Tilvísun fyrir sölupöntun skilgreind.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Kreditnóta verks
 
@@ -84,13 +84,13 @@ Notið eftirfarandi ferli til að skilgreina tilvísanir í upprunalega reikning
 4. Veljið **Kreditreikningsfærsla**.
 5. Færið inn ástæðu leiðréttingarinnar. Tilvísun í upprunalegan reikning er komið fyrir sjálfkrafa.
 
-![Tilvísun fyrir verkreikning skilgreind](media/reference-original-invoice-project.jpg)
+![Tilvísun fyrir verkreikning skilgreind.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Kreditnótur prentaðar
 
 Þegar kreditnótur með frjálsum texta, fyrir viðskiptavini og verk eru prentaðar munu þær innihalda tilvísunina í upprunalegan reikning og ástæðu leiðréttingar.
 
-![Prentuð kreditnóta](media/credit-note-FTI.jpg)
+![Prentuð kreditnóta.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Gangið úr skugga um að prentvæn snið skjalanna séu rétt skilgreind með það í huga að tilvísanir í upprunalega reikninga verði prentaðar.

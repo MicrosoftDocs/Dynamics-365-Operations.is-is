@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751633"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347877"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
@@ -58,7 +58,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Tvísmellið á skýrsluhóp til að breyta.
 3. Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
-4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](media/save.gif "Vista")á tækjastikunni.
+4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista.](media/save.gif "Vista") á tækjastikunni.
 
 > [ATHUGASEMD] Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
 
@@ -66,7 +66,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Opnið skýrsluhópinn sem á að mynda.
-3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](media/generate-report.gif "Búa til skýrslu")til að búa til skýrslur.
+3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu.](media/generate-report.gif "Búa til skýrslu") til að útbúa skýrslur.
 
 ### <a name="delete-a-report-group"></a>Skýrsluhópi eytt
 

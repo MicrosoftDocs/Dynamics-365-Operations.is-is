@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353061"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
@@ -43,7 +43,7 @@ Með eiginleika ítarlegra sjálfvirkra gjalda geta POS-notendur haft kerfisbund
 
 Á síðunni **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Færibreytur Commerce** skal fara í flipann **Pantanir viðskiptavinar**. Í flýtiflipanum **Gjöld** skal stilla **Nota ítarleg sjálfvirk gjöld** á **Já**.
 
-![Færibreyta ítarlegra sjálfvirkra gjalda](media/advancedchargesparameter.png)
+![Færibreyta ítarlegra sjálfvirkra gjalda.](media/advancedchargesparameter.png)
 
 Þegar ítarleg sjálfvirk gjöld eru virkjuð verða notendur ekki lengur beðnir um að slá inn sendingargjald handvirkt á afgreiðslukassa þegar þeir stofna viðskiptavinapöntunina „senda allt“ eða „senda valið“. Gjaldfærslur vegna pantana sölustaðar eru reiknaðar kerfisbundið og þeim bætt við POS-færslu (ef samsvarandi tafla sjálfvirkra gjalda passar við skilyrði pöntunarinnar sem er stofnuð eða finnst). Notendur geta einnig bætt við eða viðhaldið gjöldum hauss eða línustigs handvirkt í gegnum nýlega viðbættum POS-aðgerðum sem hægt er að bæta við skjáútlit sölustaðar.
 
@@ -86,7 +86,7 @@ Skilgreindu tvö mismunandi sjálfvirk gjöld á hausstigi. Skilgreindu eitt fyr
 
 Fyrir sendingargjöld á landi, í línuhlutanum á síðunni **Sjálfvirk gjöld** skaltu skilgreina gjald sem verður notað fyrir pantanir á milli $0,01 og $100 sem $10.00. Búðu til aðra gjaldalínu til að gefa til kynna að pantanir sem eru yfir $100,01 verði án gjalds.
 
-![Dæmi um tvær sjálfvirkar gjaldatöflur](media/headerchargesexample.png)
+![Dæmi um tvær sjálfvirkar gjaldatöflur.](media/headerchargesexample.png)
 
 Fyrir sendingargjöld í flugi, í línuhlutanum í skjámynd sjálfvirkra gjalda, skaltu skilgreina gjald sem nemur $20.00 sem verður notað fyrir allar pantanir (fyrir virði á bilinu $0,01 til $9.999.999).
 
@@ -116,7 +116,7 @@ Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
 
 Stilltu fellivalmyndina **Stig** á **Lína** og búðu til nýja færslu sjálfvirkra gjalda fyrir alla viðskiptavini og fyrir tiltekna vöru eða vöruflokk þar sem stofngjöldin vera innheimt.
 
-![Dæmi um sjálfvirka gjaldatöflu með eitt línustig](media/linechargesexample.png)
+![Dæmi um sjálfvirka gjaldatöflu með eitt línustig.](media/linechargesexample.png)
 
 Sendu gjöldin í Commerce Scale Unit/gagnagrunn rásar þannig að POS geti nýtt þær með því að keyra vinnsluna **1040 dreifingaráætlun**.
 
@@ -136,7 +136,7 @@ Söluaðili gerir undantekningu frá dæmigerðum ferlum með því að bjóða 
 
 Gakktu úr skugga um að gjaldakóðinn sem verður notaður í þessari atburðarás hafi verið rétt stilltur með því að fara í **Viðskiptakröfur \> Uppsetning gjalda \> Gjöld** til að skilgreina viðeigandi gjaldakóða fyrir þessa atburðarás.
 
-![Dæmi um gjöld](media/chargesexample.png)
+![Dæmi um gjöld.](media/chargesexample.png)
 
 Ef gjaldið telst vera „sending“ tengt gjaldi í þeim tilgangi að senda tengda afslætti eða kynningar skal stilla **Sendingargjald** í gjaldakóðanum á **Já**. Ef einnig er leyft kerfisbundið að endurgreiða þetta gjald við vinnslu á færsluskilum í POS-forritinu skal stilla **Endurgreiðanlegt** á **Já**. Flaggið **Endurgreiðanlegt** á einungis við þegar færibreytan **Nota ítarleg sjálfvirk gjöld** er stillt á **Já**.
 

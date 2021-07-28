@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751657"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359006"
 ---
 # <a name="generate-printable-fti-forms"></a>Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
 
@@ -77,7 +77,7 @@ Til að búa til eyðublöð reikninga með frjálsum texta með því að nota 
 3. Veldu skjalastigið til að tilgreina umfang reikninga til vinnslu.
 4. Veldu snið rafrænnar skýrslugerðar fyrir tiltekið skjalastig.
 
-![Uppsetning á prentstýringu](media/FTIbyGER-PMSetting.png)
+![Uppsetning á prentstýringu.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Aðeins snið rafrænnar skýrslugerðar sem nota rótarlýsinguna **FreeTextInvoice** af gagnalíkaninu **CustomersInvoicing** birtast í reitnum **Uppfletting skýrslusniðs** fyrir valið snið.
@@ -87,9 +87,9 @@ Eyðublöð reikninga með frjálsum texta eru mynduð í ramma rafrænnar skýr
 
 Til að búa til eyðublöð reikninga með frjálsum texta er hægt að velja reikninga annaðhvort eftir sviði eða með vali. 
 
-![Val reiknings](media/FTIbyGER-InvoiceSelection.png)
+![Val reiknings.](media/FTIbyGER-InvoiceSelection.png)
 
-![Forskoðun reiknings](media/FTIbyGER-InvoiceExcelPreview.png)
+![Forskoðun reiknings.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Þegar þú notar snið rafrænnar skýrslugerðar til að prenta eyðublöð reikninga með frjálsum texta á þennan hátt, eru sjálfgefnir viðtökustaðir fyrir skrár rafrænnar skýrslugerðar notaðir. Ekki er hægt að breyta viðtökustaðnum. Frekari upplýsingar um hvernig á að grunnstilla viðtökustaði rafrænnar skýrslugerðar fyrir ramma rafænnar skýrslugerðar er að finna í [Viðtökustaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ Til að búa til eyðublöð reikninga með frjálsum texta er hægt að velja r
 > - **Heiti:** ERFormatDestinationRuntimeMaintain
 > - **Merkimiði:** Vinna með viðtökustað rafræns skýrslugerðarsniðs við keyrslu
 
-![Viðtökustaður rafrænnar skýrslugerðar](media/FTIbyGER-ERFileDestinationSetting.png)
+![Viðtökustaður rafrænnar skýrslugerðar.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Viðtökustaðir rafræns skýrslugerðarsniðs](media/FTIbyGER-ERFileDestinationUsage.png)
+![Viðtökustaður rafræns skýrslugerðarsniðs.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 Rammi rafrænnar skýrslugerðar styður nú eftirfarandi viðtökustaði fyrir mynduð skjöl:
 
@@ -128,7 +128,7 @@ Rammi rafrænnar skýrslugerðar styður nú eftirfarandi viðtökustaði fyrir 
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Eiginleikar sem eru innleiddir í sýnishorn fyrir snið rafrænnar skýrslugerðar
 Í sýnishorninu af skilgreiningu sniðs fyrir rafræna skýrslugerð er Excel-skrá notuð sem sniðmát til að búa til eyðublöð reikninga með frjálsum texta.
 
-![Sniðshönnuður](media/FTIbyGER-ERFormat.png)
+![Sniðshönnuður.](media/FTIbyGER-ERFormat.png)
 
 Eins og er styður þetta sýnishorn af sniði fyrir rafræna skýrslugerð eftirfarandi eiginleika til að búa til eyðublöð reikninga með frjálsum texta:
 
@@ -179,7 +179,7 @@ Auk eyðublaðs fyrir myndaðan reikning er hægt að mynda gíróseðla á efti
 - Fyrir lögaðilann sem notar samhengi lands/svæðis fyrir Finnland og sem hefur að minnsta kosti einn bankareikning sem merktur er sem **Gíróreikningur** og **Bankastrikamerki**. 
 - Fyrir reikning sem er merktur eins og krafist er fyrir **Finnskt** tengda greiðsluviðhengið.
 
-![Gíróseðill](media/FTIbyGER-GiroSlip.PNG)
+![Gíróseðill.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > Sýnishorn fyrir snið rafrænnar skýrslugerðar hefur verið skilgreint til að valfrjálst mynda gíróseðil í aðskilda vinnublaðinu.
@@ -194,7 +194,7 @@ Notaðu eftirfarandi þætti af sýnishorni af sniði rafrænnar skýrslugerðar
 - Efnistexta tölvupósts er hægt að nálgast með eftirfarandi segð rafrænnar skýrslugerðar: **Emailing.TxtToUse.Subject**.
 - Meginmál tölvupósts er hægt að nálgast með eftirfarandi segð rafrænnar skýrslugerðar: **Emailing.TxtToUse.Body**.
 
-![Stillingar viðtökustaðar](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Stillingar viðtökustaðar.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 Sjálfgefinn efnistexti og meginmál tölvupósts er skilgreint í sýnishorninu af sniði rafrænnar skýrslugerðar. Tungumálið fer eftir merkjum sniðsins. Þessi sjálfgefni texti verður notaður fyrir tölvupósta ef sérsniðið sniðmát fyrir tölvupóst fyrirtækis sem er með fyrirfram skilgreinda auðkennið **ERFTITMP** hefur ekki verið bætt við.
 
@@ -203,9 +203,9 @@ Sjálfgefinn efnistexti og meginmál tölvupósts er skilgreint í sýnishorninu
 
 Ef sniðmát fyrir tölvupóst fyrirtækis sem er með fyrirfram skilgreinda auðkennið **ERFTITMP** hefur verið bætt við fyrir lögaðilann sem verið er að meðhöndla reikning fyrir, verður sniðmátið fyrir efnistexta og meginmál tölvupósts notað til að búa til tölvupóstinn. 
 
-![Sniðmát tölvupósts fyrirtækis](media/FTIbyGER-EmailTemplate.png)
+![Sniðmát tölvupósts fyrirtækis.](media/FTIbyGER-EmailTemplate.png)
 
-![Hlaða upp sniðmát fyrir tölvupóst](media/FTIbyGER-EmailTemplateBody.png)
+![Hlaða upp sniðmát fyrir tölvupóst.](media/FTIbyGER-EmailTemplateBody.png)
 
 Segð rafrænnar skýrslugerðar **Emailing.TxtToUse.Subject** fyrir sýnishorn af sniði rafrænnar skýrslugerðar er skilgreint til að taka við af öllum tilvikum staðgengilsins %1 eftir reikningskenninu sem unnið er úr.
 
@@ -218,10 +218,10 @@ Segðin **Emailing.TxtToUse.Body** sýnishornasniðsins er skilgreind fyrir efti
 - „%5“ er skipt út fyrir starfsheiti á tengiliði fyrirtækis.
 - „%6“ er skipt út fyrir netfang tengiliðar fyrirtækis.
 
-![Netfang](media/FTIbyGER-Email.PNG)
+![Tölvupóstur.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
