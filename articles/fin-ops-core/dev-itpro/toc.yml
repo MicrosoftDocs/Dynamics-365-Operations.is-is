@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Algengar spurningar um áætlað viðhald í sjálfsafgreiðsluumhverfi
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Rekstrarsamfella og endurheimt eftir áföll
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Ljúka innleiðingu Azure Resource Manager
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute og Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Nota uppfærslur og viðbætur fyrir Commerce Scale Unit (ský)
                   href: deployment/Update-retail-channel.md
+                - name: Sjálfvirk uppfærsla fyrir Commerce Scale Unit (ský)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Frumstilla Commerce Scale Unit (ský)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Flytja rásir á að annað Commerce Scale Unit
@@ -390,8 +392,10 @@
                   items:
                     - name: Yfirlit yfir uppsetningu á staðnum
                       href: deployment/on-premises-overview.md
-                    - name: Áætlun og undirbúningur fyrir uppsetningu innanhúss
+                    - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
                       href: deployment/plan-onprem-deployment.md
+                    - name: Hugbúnaður sem styður við Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-compatibility.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Sannvottun í Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Skilgreina heildrænt þróunarumhverfi
                   href: dev-tools/configure-developer-vm.md
-                - name: Stofna nýja notendur á þróunarvélum
-                  href: dev-tools/enable-development-machine.md
                 - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Altæk aðila- og aðsetursbók
                       href: data-entities/dual-write/party-gab.md
-                    - name: Notkun Power Portal með gagnalíkani aðila
+                    - name: Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 uppfærsla - Keyrsla
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Uppfæra úr AX 2012 – algengar spurningar um gagnauppfærslu
+                  href: migration-upgrade/upgrade-faq.md
                 - name: Breytingar sem hafa áhrif á uppfærslu úr AX 2012
                   items:
                     - name: Gera skiltákn bókhaldslykils einkvæmt

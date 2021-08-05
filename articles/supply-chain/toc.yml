@@ -76,8 +76,6 @@
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (júní 2021)
                       href: get-started/whats-new-scm-10-0-19.md
-                    - name: Supply Chain Management 10.0.18 (maí 2021)
-                      href: get-started/whats-new-scm-10-0-18.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -2001,9 +1999,7 @@
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Stofna innkaupapöntun fyrir einskiptisbirgi
                   href: procurement/tasks/create-purchase-order-one-time-supplier.md
-                - name: Stofna úttektarpöntun innkaupa þegar innkaupapöntun er búin til
-                  href: procurement/tasks/create-purchase-release-order-creating-purchase-order.md
-                - name: Stofna úttektarpöntun innkaupa úr innkaupasamningi
+                - name: Nota innkaupasamning þegar innkaupapöntun er stofnuð
                   href: procurement/tasks/create-purchase-release-order-purchase-agreement.md
                 - name: Stofna innkaupaskilapöntun
                   href: procurement/tasks/create-purchase-return-order.md

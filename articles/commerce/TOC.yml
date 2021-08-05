@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (júní 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (maí 2021)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Setja upp sérsniðnar síður fyrir innskráningu notenda
                   href: custom-pages-user-logins.md
+                - name: Kveikja á sjálfvirkri tengingu auðkennisskráa við viðskiptavinalykla
+                  href: identity-record-linking.md
                 - name: Skilgreina marga B2C-leigjendur í Commerce-umhverfi
                   href: configure-multi-B2C-tenants.md
                 - name: Lén í Dynamics 365 Commerce
@@ -1022,6 +1022,8 @@
                   items:
                     - name: Yfirlit Adventure Works-þema
                       href: adventure-works-theme.md
+                    - name: Setja upp Adventure Works-þemað
+                      href: install-adventure-works.md
             - name: Stjórna stafrænum eignum
               items:
                 - name: Yfirlit stjórnunar stafrænna eigna

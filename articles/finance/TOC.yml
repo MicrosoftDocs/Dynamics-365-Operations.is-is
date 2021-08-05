@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (júní 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (maí 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Skýrsla um þjónustu á milli landa
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Innkaupagjöld
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Barein
               items:
                 - name: Yfirlit fyrir Barein
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Mynda ESB Intrastat-skattskýrslu
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Franskt Intrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Ítalskt Intrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Skýrslur birgðabókar
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Lokadagsetningar reikningsútgáfu
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Undirbúa JPK-V7M skýrslugjöf
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M skýrslugjöf
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Upplýsingar um tilteknar viðskiptaaðstæður í JPK-V7M skýrslur
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Katar
               items:
                 - name: Yfirlit fyrir Katar
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Frátektir tapaðrar viðskiptakröfu í viðskiptakröfum
                       href: localizations/rus-bad-debts.md
+                    - name: Útreikningur á skattskuldum og -inneignum
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Sádi-Arabía
               items:
                 - name: Yfirlit yfir Sádi-Arabíu
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Hannaðu snið rafrænnar skýrslugerðar til að búa til Excel-skýrslu með innfelldum myndum í síðuhausum eða síðufótum
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Útiloka uppskriftarstafi í mynduðum skrám

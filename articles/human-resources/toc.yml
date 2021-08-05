@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 12. júlí 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22. júní 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20. maí 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Algengar spurningar um keyrslu
           href: hr-admin-go-live-faq.md
+        - name: Algengar spurningar um samþættingu tölvukerfa í Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Skjalatilföng
           items:
             - name: Hjálparkerfi
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Vinna úr launafyrirkomulagi
               href: hr-compensation-process.md
+            - name: Merkja starfsmann sem er tilbúinn fyrir laungreiðslur
+              href: hr-compensation-payroll.md
         - name: Umsjón með fríðindum
           items:
             - name: Fríðindastjórnun
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Grunnstilla gerðir viðburða
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Stofna gerðir áætlana
+                    - name: Yfirlit áætlunargerðar
                       href: hr-benefits-setup-plan-types.md
                     - name: Setja upp ástæðukóða
                       href: hr-benefits-setup-reason-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Skoða dagatöl hóps og fyrirtækis
               href: hr-employee-self-service-calendar.md
+            - name: Skilgreina hlutverk fjarvistastjórnanda
+              href: hr-configure-absence-manager.md
             - name: Stjórna reglum fyrir kaup og sölu á leyfisdögum
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Búa til verkflæði fyrir kaup og sölu leyfisdaga
