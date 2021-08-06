@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301747"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641057"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.20. Þessi útgáfa er með byggingarnúmer 10.0.886 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.20. Þessi útgáfa er með byggingarnúmer 10.0.886 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** maí 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Júlí 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Ágúst 2021
 
-
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
 Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl.
 
-Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir.
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar |
 |---|---|---|
@@ -49,7 +47,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 | Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
-| Áætlanagerð | Neikvæðir dagar fyrir fínstillingu skipulagningar | Þessi forskoðunareiginleiki gerir fínstillingu skipulagningar kleift að taka til greina vikmörk tafa út frá færibreytunni **Neikvæðir dagar** sem skilgreind er í þekjuflokkum. |
+| Áætlanagerð | Neikvæðir dagar fyrir fínstillingu skipulagningar | Þessi eiginleiki gerir fínstillingu skipulagningar kleift að taka til greina vikmörk tafa út frá færibreytunni **Neikvæðir dagar** sem skilgreind er í þekjuflokkum. |
 | Áætlanagerð | Samhliða heimild leiðréttrar eftirspurnarspár | Þessi eiginleiki býður upp á samhliða heimild leiðréttrar eftirspurnarspár úr síðunni **Leiðrétt eftirspurnarspá**. Tilgangurinn með þessum eiginleika er að auka afköst þegar gefin er heimild fyrir miklum fjölda spáa. Þegar heimild er gefin getur notandinn tilgreint **fjölda þráða** í svarglugga heimildar. |
 | Áætlanagerð | (Forútgáfa) Runuhæf staðfesting og sameining fyrir áætlaðar runupantanir magns og pakka | Þessi eiginleiki gerir þér kleift að nota runuvinnslur til að staðfesta og sameina áætlaðar magn- og pakkapantanir. |
 | Framleiðslustýring | Afrita almennar leiðir | Þessi eiginleiki bætir afritunaraðgerð leiðar sem gerir notendum kleift að afrita leiðir sem tengjast ekki vöru. Hann gerir kerfinu kleift að uppfæra allar viðeigandi upplýsingar (svo sem svæði, leiðaflokk, tilfangaþörf og ýmsa tíma) þegar afritunaraðgerð leiðar hefur verið notuð til að skrifa yfir leið sem ekki er enn búið að úthluta á vöru. |
@@ -75,7 +73,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Verkvangsuppfærslur fyrir útgáfu 10.0.20 á forritum Finance and Operations (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Verkvangsuppfærslur fyrir útgáfu 10.0.20 á forritum Finance and Operations (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

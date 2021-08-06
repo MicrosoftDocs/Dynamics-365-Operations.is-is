@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271156"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641081"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -70,8 +70,6 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 - Virkni eignarstýringar fyrir viðmót framkvæmdar á framleiðslugólfi
 
 ### <a name="enable-job-search"></a>Virkja starfaleit
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Gerir notendum kleift að bæta leitarreit við verklista. Starfskraftar geta fundið tiltekið starf með því að slá inn auðkenni starfsins eða finna öll störf fyrir tiltekna pöntun með því að slá inn kenni pöntunarinnar. Starfskraftar geta slegið inn kennið með því að nota lyklaborð eða með því að skanna strikamerki. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

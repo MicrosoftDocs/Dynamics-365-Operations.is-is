@@ -1,8 +1,8 @@
 ---
 title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglubundnar uppfærslur á Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-ms.date: 02/04/2021
+author: VStamberg
+ms.date: 07/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: b6519465ca4e205eb86a595f82ce1278a9a90ce2
+ms.sourcegitcommit: bf2daeccbe3f2826e734f409bfc823820144aa23
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129778"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617968"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -39,51 +39,34 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 
 |Land|Útgáfudagur|Losunarútgáfa|Regluuppfærsla|
 |--------------------|---------------|-------|-------| 
-|      Brasilía         |   Maí 2021, desember 2020      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006 - Auðkenning milliliðar stafræns verkvangs (uppfærslur útlits og villuleitarregla)   |
+|      Ástralía         |   2021. júní      | 10.0.21      |   AU - Skýrslugerðarreikningur greiðslutíma 2020 fyrir Microsoft Dynamics 365 Finance   |
+|      Brasilía         |   Maí 2021, febrúar 2021      | 10.0.20, 10.0.19      |   NF-e NT2020.006 - Auðkenning milliliðar stafræns verkvangs (uppfærslur útlits og villuleitarregla)   |
 |      Brasilía         |   2021. mars         | 10.0.19         |    SPED REINF layout 1.5.1  |
-|      Brasilía         |   2021. febrúar         | 10.0.18         |    SPED Fiscal 015 - RS reglur |
-|      Brasilía         |   2021. mars         | 10.0.17 HF       |    NFS-e - Brasilísk Þjónusta (borg) rafrænn reikningur  |
 |      Brasilía         |   2021. apríl         | 10.0.20        |    SPED ECD útlit 9  |
 |      Brasilía         |   2021. maí         | 10.0.20         |    SPED-framlag - Útgáfuleiðbeiningar 1.34  |
-|      Egyptaland         |   2021. febrúar         | 10.0.17         |    Eyðublað og skýrslur VSK-skila  |
-|      Egyptaland        |   2021. febrúar         | 10.0.17         |    Skilgreining reikningsútlits  |
-|      Egyptaland         |   2021. febrúar         | 10.0.17         |    Eyðublað staðgreiðsluskýrslu 41  |
-|      Egyptaland         |   2021. febrúar         | 10.0.17         |    Eyðublað staðgreiðsluskýrslu 11  |
-|      Egyptaland         |   2021. febrúar         | 10.0.17         |    Tilvísanir í upprunalega reikninga í kreditnótum  |
-|      Evrópa        |   2021. janúar       | 10.0.17      |   Brexit - Áhrif reglna Norður-Írlands á skýrslugerð fyrirtækja í ESB-ríkjum  |
-|      Frakkland        |   2021. mars       | 10.0.18      |   Smásala - Vottuð uppfærsla sölustaðarkerfi - Dynamics 365 Commerce  |
+|      Brasilía         |   2021. júní         | 10.0.21         |    SPED ECF - Útlit 7  |
+|      Brasilía         |   2021. maí         | 10.0.20         |    NF-e NT2020.005  v1.10 - Villuleitarreglur og uppfærslur PED ECF - Útlit 7  |
+|      Brasilía         |   2021. maí         | 10.0.21         |    SPED Reinf 1.5.1 - Breytingar á vefþjónustumáta EVENT 5011  |
 |      Frakkland        |   2021. apríl       | 10.0.20      |   Betrumbættur útflutningur á geymslu franskra gagna (FEC)  |
-|      Þýskaland        |   2021. janúar       | 10.0.17      |   Breytingar á ELSTER VAT advance notification XML byggingu (UstVA)  |
 |      Þýskaland        |   2021. mars       | 10.0.19      |   GDPDU-viðbætur fyrir eignatöflu og færslur  |
 |      Þýskaland        |   2021. apríl       | 10.0.20HF      |   Breytingar á sniði rafrænnar reikningsfærslu (xRechnung) í Þýskalandi frá 2021  |
-|      Altæk        |   2021. janúar       | 10.0.17      |   Staðgreiðsluskattur á línustigi  |
-|      Altæk        |   2021. janúar       | 10.0.17      |   Greiðsla staðgreiðsluskatts  |
-|      Altæk        |   2021. janúar       | 10.0.17      |   Staðgreiðsluskattur í sölupöntunum  |
-|      Altæk        |   2021. janúar       | 10.0.17      |   Mörk staðgreiðsluskatts á reikningsupphæð  |
-|      Altæk        |   2021. janúar       | 10.0.17      |   Staðfesting á útgáfu reikningsdagsetningar eftir að fylgiseðill hefur verið birtur og gerður tiltækur fyrir öll lönd  |
-|      Ungverjaland        |   2021. febrúar       | 10.0.17HF, 10.0.18      |   Reikningsfærslukerfi á netinu v.3.0  |
-|      Indland         |   2021. febrúar      | 10.0.17HF, 10.0.18      |   VÞS rafrænir reikningar: Upplýsingar um eWay-reikning  |
-|      Indland         |   2021. mars      | 10.0.17HF, 10.0.18HF, 10.0.19      |   VÞS rafrænir reikningar: Útflutningspantanir, ákvarðaður útflutningur, SEZ  |
-|      Indland         |   2021. mars      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Dynamics QR-kóði á B2C-reikningi  |
+|      Indland         |   2021. mars      | 10.0.19      |   VÞS rafrænir reikningar: Útflutningspantanir, ákvarðaður útflutningur, SEZ  |
+|      Indland         |   2021. mars      | 10.0.19      |   Dynamics QR-kóði á B2C-reikningi  |
+|      Indland         |   2021. júní      | 10.0.21      |   Ný API-útgáfa fyrir rafrænan reikning (v.1.04)  |
 |      Ítalía         |   2021. mars      | 10.0.19      |   Sniðsbreytingar reikningasamskipta (Esterometro) v.2.1.1  |
-|      Ítalía        |   2021. maí      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Smásala - Dæmi um uppfærslu á samþættingu strimlaprentara til að styðja XML RT 2.0  |
+|      Ítalía        |   2021. maí      | 10.0.19      |   Smásala - Dæmi um uppfærslu á samþættingu strimlaprentara til að styðja XML RT 2.0  |
 |      Ítalía         |   2021. mars      | 10.0.19      |   Smásala - Virkja reikninga smásölu sem brjóta gegn bókun í tímaröð  |
 |      Ítalía         |   2021. febrúar      | 10.0.19      |   Einkvæm vottun - 2021  |
-|      Lettland         |   2020. desember      | 10.0.17      |   Intrastat-snið er uppfært frá og með 2021  |
-|      Litháen         |   2021. mars      | 10.0.18      |   SAF-T skýrsluútgáfa 2.01  |
-|      Mexíkó         |   2020. desember      | 10.0.17      |   Eigind „Monto“ uppfærslu |
-|      Holland         |   2020. desember      | 10.0.17     |   Ný útgáfa af Hollenskri skattflokkun NT15 |
-|      Pólland          |   2021. janúar     | 10.0.17     |   Pólland: JPK_KR (SAF-bókhaldsbækur) skýringar, gildistaka frá janúar 2021 |
-|      Rússland          |   2021. janúar     | 10.0.17    |   Nýtt snið skattskýrslu fyrir eignir (tæknileg útgáfa 5.07 í stað 5.06) fyrir 2020-skýrsluna|
+|      Óman         |   2021. júní      | 10.0.21      |   VSK-skýrsla  |
+|      Pólland          |   2021. júní     | 10.0.21     |   JPK_V7M (VDEK) - Endurbætur á framvindumerkingum |
+|      Pólland          |   Júlí 2021     | 10.0.21     |   JPK-V7M nýjar reglur um útfyllingu frá og með júlí 2021 |
 |      Rússland          |   2021. mars     | 10.0.19    |   Eignaskattskýrsla 2020 verður að sýna árlegt meðalvirði á færanlegum fastafjármunum|
 |      Rússland          |   2021. mars     | 10.0.19HF    |   Útgáfa 5.09 af skattskýrslu hagnaðar fyrir uppgjör árið 2020|
 |      Rússland          |   2021. mars     | 10.0.19    |   Tilskipun yfirvalda N 2200 21.12.2020 eyðublað 4, nýtt sýnishorn af flutningsreikningi nauðsynlegt|
-|      Spánn          |   Nóvember 2020     | 10.0.17    |   SII uppfærsluprófun og villur v. 2.1 (Bis) frá 1. janúar 2021|
-|      Taíland          |   2021. febrúar     | 10.0.17HF    |   Staðgreiðslueyðublað Por Ngor Dor 53, 3 og 2 |
+|      Rússland          |   2021. júní     | 10.0.21HF, 10.0.20HF, 10.0.19 HF    |   Breytingar á útprentanlegum útlitum reikninga og leiðréttum reikningum|
+|      Spánn          |   Júlí 2021     | 10.0.21    |    OSS / IOSS aðstæður - ClaveRegimenEspecialOTrascendencia = 17- KB4623605|
+|      Svíþjóð          |   Júlí 2021     | 10.0.21    |    VSK-skýrslusnið, þ.m.t. upphæðir bakfærðra gjalda|
 |      Sameinuðu arabísku furstadæmin   |   2021. maí     | 10.0.20    |   Bókun greiðslubókar með fyrirframdagsettum ávísunum á bankareikning |
-|      Bretland         |   2020. desember     | 10.0.17    |   Skattskráning fyrirtækis á reikningum viðskiptavina (Brexit - Northern Ireland Protocol)|
-|      Bretland          |   2020. desember     | 10.0.17    |   Brexit - Áhrif reglna Norður-Írlands á viðskipti fyrirtækja á bæði GB og NI|
-|      Bretland          |   2021. mars     | 10.0.18    |   MTD VSK> breytt orðalag í forskoðun prentunar (reitir 2,8,9) 2021|
 
 
 

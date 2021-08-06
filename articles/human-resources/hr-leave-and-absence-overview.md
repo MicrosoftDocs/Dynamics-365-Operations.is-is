@@ -2,7 +2,7 @@
 title: Yfirlit yfir leyfi og fjarvistir
 description: Í Dynamics 365 Human Resources býður vinnusvæði leyfis og fjarvista upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339716"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639487"
 ---
 # <a name="leave-and-absence-overview"></a>Yfirlit yfir leyfi og fjarvistir
 
@@ -35,6 +35,7 @@ Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum miki
 - [Grunnstilla færibreytur leyfis og fjarvista](hr-leave-and-absence-parameters.md)
 - [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md)
 - [Stofna verkflæði fyrir beiðni um leyfi](hr-leave-and-absence-workflow.md)
+- [Sérstilla hlutverk fjarvistastjórnanda](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Stofnun og umsjón með orlofsáætlunum
 
@@ -50,8 +51,9 @@ Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum miki
 
 Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim í **Sjálfsafgreiðsla starfsmanna** vinnusvæði.
 
-[Biðja um frí](hr-employee-self-service-request-time-off.md)
-[Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
+- [Biðja um frí](hr-employee-self-service-request-time-off.md)
+- [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
+- [Skilgreina hlutverk fjarvistastjórnanda](hr-configure-absence-manager.md)
 
 
 

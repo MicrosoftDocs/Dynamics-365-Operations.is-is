@@ -2,7 +2,7 @@
 title: Algengar spurningar um endurstillingar gagnaskemmu
 description: Þetta efnisatriði veitir svör við nokkrum algengum spurningum um endurstillingar gagnaskemmu.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266610"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638268"
 ---
 # <a name="data-mart-resets-faq"></a>Algengar spurningar um endurstillingar gagnaskemmu
 
@@ -37,6 +37,9 @@ Ef ein eða fleiri eftirfarandi fullyrðinga eiga við um aðstæður þínar ge
 
 - Gagnagrunnur forritsins var endurheimtur.
 - Þjónustubeiðni var opnuð og tæknimaður hjá notendaþjónustu hefur sagt þér að endurstilla gagnaskemmuna sem hluti af skrefi úrræðaleitar.
+ 
+> [!NOTE]
+> Vinnslan við að endurstilla gagnaskemmu verður fyrir áhrifum af fjölda fjárhagsbóka og fjárhagsáætlunarfærslna í gagnagrunninum. Það fer eftir færslufjöldanum í kerfinu, en endurstilling gagnaskemmu getur tekið allt niður í 15 mínútur að klárast eða allt upp í fjórar klukkustundir. Ef endurstillingin tekur hins vegar lengri tíma en fjórar klukkustundir er mælt með því að hafa samband við notendaþjónustuna.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Hvenær á ekki að endurstilla gagnaskemmu?
 

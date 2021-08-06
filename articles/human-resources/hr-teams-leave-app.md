@@ -2,7 +2,7 @@
 title: Stjórna leyfisbeiðnum í Teams
 description: Þetta efnisatriði sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources forritinu í Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356513"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639439"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -166,6 +166,10 @@ Ef þú átt í vandræðum með að skrá þig inn í eða nota forritið Human
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ekki er hægta að skrá inn í forritið „Human Resources“ í Teams
 
 Ef þú getur ekki skráð þig inn í forritið er hugsanlegt að reikningurinn sem þú notar til að skrá þig inn í Microsoft Teams sé ekki tengdur við starfsmannafærslu í Dynamics 365 Human Resources. Hafa skal samskipti við kerfisstjóra til að tryggja að starfsmannafærslan sé rétt tengd.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Get ekki fundið Dynamics 365 Human Resources umhverfið í stillingum
+
+Ef þú getur ekki valið rétt Dynamics 365 umhverfi gæti verið að notandafærslan hafi ekki verið rétt samstillt. Hafa skal samband við kerfisstjóra til að stofna notandafærsluna aftur og tengja hana við innskráningarupplýsingar notanda. Reyndu svo að skrá þig inn forrit Human Resources fyrir Microsoft Teams nokkrum mínútum síðar.
 
 ### <a name="translations-dont-display-correctly"></a>Þýðingar birtast ekki rétt
 

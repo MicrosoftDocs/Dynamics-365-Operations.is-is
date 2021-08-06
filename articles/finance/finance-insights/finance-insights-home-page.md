@@ -2,7 +2,7 @@
 title: Heimasíða Fjármálainnsýnar (forskoðun)
 description: Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2086a33285d9a529480c5f34fb048105e65c2046
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338230"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638515"
 ---
 # <a name="finance-insights-home-page-preview"></a>Heimasíða Fjármálainnsýnar (forskoðun)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum. Þegar þessir nýju eiginleikar eru sameinaðir sjálfvirkni í greiðslum lánardrottna og innheimtu, veita þeir fjölbreytt og snjallt fjármálakerfi sem styður við ákvörðunartöku og hjálpar til við að grípa til aðgerða til að bregðast við núverandi og væntanlegum viðskiptaáskorunum á skilvirkan hátt.
 

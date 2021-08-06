@@ -1,8 +1,8 @@
 ---
-title: Stofna gerðir áætlana
+title: Yfirlit áætlunargerðar
 description: Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057863"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558274"
 ---
-# <a name="create-plan-types"></a>Stofna gerðir áætlana
+# <a name="plan-type-overview"></a>Yfirlit áætlunargerðar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar. Til dæmis, áætlunartegund Grunnlífsins myndi hafa tegundar kóðans Líf vegna þess að hún er eins konar líftryggingaráætlun og verður að vera í samræmi við reglur sem settar voru fyrir gerð kóða lífsins. Önnur áætlunartegund gæti verið viðbótarlíf, einnig með tegundar kóða kóða Líf.
+Áætlun gerð er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar. Til dæmis mun áætlunargerðin **Grunnlíf** fá kóðann **Líf** í áætlunargerðina vegna þess að hún er tegund af líftryggingu og verður að falla undir reglur sem hafa verið settar fram fyrir áætlunargerðarkóðann **Líf**. Önnur áætlunargerð gæti verið **Viðbótarlíf**. Þessi áætlunargerð mun einnig fá áætlunargerðarkóðann **Líf**.
 
 Hver áætlunartegund gefur til kynna hvort starfsmaður geti skráð sig í eina áætlun af sinni gerð eða margfeldi. Til dæmis væri starfsmaður líklega fær um að skrá sig í bæði grunnlífið og viðbótarlífsstefnurnar af áætluninni Líf. Starfsmanni væri líklega leyft að skrá sig í eina stefnu af gerðinni Medical.
 
 Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort tengiliðir séu styrkþegar eða á framfæri. Til dæmis, grunnlífsáætlunartegund myndi hafa rétthafa, en grunnlæknisfræðileg áætlunartæki væru á framfæri. Í sumum tilvikum er ekki víst að nein persónuleg tengsl séu í áætlun. Til dæmis sveigjanlegur útgjaldareikningur eða bílastæðagreiðsla.
 
 Áætlunartegundir geta skilgreint valkosti umfjöllunar. Valkostir umfjöllunar eru skilgreindir í formi umfjöllunarvalkostar. Með umfjöllunarvalkosti er hægt að tilgreina fjárhæð bóta eða þá tengiliði sem eiga kost á áætlunartegundinni. Til dæmis, ef samskiptategundin er bótaþegi, ætti umfjöllunarvalkosturinn að skilgreina skilmála þess sem styrkþeginn er hæfur til að fá þegar fríðindin eru nýtt. Ef tengiliðategundin er háð, ætti umfjöllunarvalkosturinn að skilgreina samband milli háðs og starfsmanns. 
+
+> [!IMPORTANT]
+> Eyðublaðið inniheldur helstu gögn sem hafa áhrif á valkosti sem eru tiltækir þegar nýtt fríðindaáætlun er búin til:
+>
+> - **Kóði áætlunargerðar** – Þessi reitur hefur áhrif á það sem er sýnt í flipanum **Skilgreining** þegar raunveruleg fríðindi eru sett upp.  
+> - **Samhliða skráning** – Þessi reitur ákvarðar hvort margar skráningar eru leyfðar. (Fyrir sjúkratryggingu er reiturinn yfirleitt stilltur á **Ein skráning**.)
+> - **Gerð tengiliðar** – Þessi reitur gerir kleift að bæta aðstandendum eða tryggingarþegum við áætlun. Ef hann er stilltur á **Ekkert** munu starfsmenn sem skrá sig fyrir fríðindum ekki möguleikann á að velja annaðhvort tryggingarþega eða aðstandanda.
+> - **Tryggingarvalkostir** – Notaðu þennan reit til að tengja tryggingarvalkostina við áætlunargerðirnar. Hann skilgreinir annaðhvort einstaklingana sem falla undir þessa áætlunargerð eða tryggingaupphæðirnar sem eru í boði fyrir þessa áætlunargerð. Til dæmis er hægt að tilgreina að trygging vegna sjúkratryggingar verði eingöngu í boði fyrir starfsmanninn, starfsmanninn og einn annan einstakling eða starfsmanninn og fjölskylduna hans.
+
+## <a name="create-plan-types"></a>Stofna gerðir áætlana
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Áætlunargerðir**.
 

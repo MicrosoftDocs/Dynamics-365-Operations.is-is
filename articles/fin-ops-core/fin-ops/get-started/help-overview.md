@@ -2,7 +2,7 @@
 title: Hjálparkerfi
 description: Í þessu efnisatriði er að finna yfirlit yfir hjálparkerfið fyrir Finance and Operations-forrit.
 author: edupont04
-ms.date: 04/14/2021
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
-ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
+ms.openlocfilehash: e0ba083c64c840e17bf2fba982b2686c8a47e097
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373368"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646514"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -30,7 +30,7 @@ ms.locfileid: "6373368"
 
 Notendur eftirfarandi forrita geta fengið aðgang að samhengishjálp og öðru efni sem byggist á sama hjálparkerfi:
 
-- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
@@ -48,23 +48,23 @@ Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) e
 
 Hægt er að finna efni á docs.microsoft.com með því að nota hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á vefsvæðum, svo sem **site:docs.microsoft.com dynamics 365 „leitarorð“**.
 
-<!--## Get notified about changes through an RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
 
-To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
+Til að gerast áskrifandi að RSS-straumi fyrir allar uppfærslur sem gerðar eru á efninu á docs.microsoft.com í öllum Finance and Operations-forritum, skal nota eftirfarandi tengil:
 
-[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
+[RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+> RSS-straumurinn skilar lista yfir 100 nýjustu uppfærslur á efnisatriðum. Listanum er ekki raðað eftir dagsetningu.  
 
-Alternatively, you can subscribe to an RSS feed by app:
+Einnig er hægt að gerast áskrifandi að RSS-straumi með forriti:
 
 - [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
 - [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
 - [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
-COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
+- [Aðfangakeðja](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Mannauður](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
 Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.

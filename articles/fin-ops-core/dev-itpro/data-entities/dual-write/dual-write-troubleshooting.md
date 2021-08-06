@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350741"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542492"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -61,14 +61,14 @@ Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp laus
 
 Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
-1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Kerfi** veldu **Stjórnun**.
+1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Kerfi** velurðu **Stjórnun**.
 2. Á síðunni **Stjórnun** skal velja **Kerfisstillingar**.
 3. Á flipanum **Sérsnið**, í dálkinum **Viðbót og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
 
 
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
-1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Sérstillingar** veldu **Rakningarkladdi viðbóta**.
+1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Sérstilling** velurðu **Viðbót rakningarkladda**.
 2. Findu rakningarkladda þar sem dálkurinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
 

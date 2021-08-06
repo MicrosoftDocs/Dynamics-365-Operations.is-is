@@ -2,7 +2,7 @@
 title: Yfirlit yfir þema Adventure Works
 description: Í þessu efnisatriði er sýnt yfirlit yfir þema Adventure Works og því lýst hvernig á að nota það á síðum svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479474"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655633"
 ---
 # <a name="adventure-works-theme-overview"></a>Yfirlit yfir þema Adventure Works
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Í þessu efnisatriði er sýnt yfirlit yfir þema Adventure Works og því lýst hvernig á að nota það á síðum svæða í Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce er með þema fyrir rafræn viðskipti sem heitir Adventure Works. Þema Adventure Works sýnir íþrótta- og afþreyingarvörur og er fínstillt inn á ríka og aukna frásagnarupplifun. Það býður upp á nýstárlega framsetningu, ný útlit og hreyfimyndir til að skapa lifandi upplifun á netverslun fyrir viðskiptavini rafrænna viðskipta.
 
-Þema Adventure Works býður upp á eftirfarandi ný verkflæði:
+## <a name="trial-environments-in-commerce"></a>Prófunarumhverfi í Commerce
 
-- Myndspilarareiningin styður nú fyrirsögn, efnisgrein og tengla fyrir frekari frásagnir.
-- Aðgerðin til að bæta í körfu ræsir smákörfuna í staðinn fyrir að senda tilkynningu.
+Til að sjá hvernig þema Adventure Works lítur út þegar það er tekið í notkun fyrir B2C- og B2B-vefsvæði skal fara á eftirfarandi prófunarsvæði:
+
+- [Adventure Works – B2C-svæði](https://www.adventure-works.com/)
+- [Adventure Works – B2B-svæði](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Möguleikar í þema
+
+Þema Adventure Works býður upp á eftirfarandi nýja möguleika:
+
+- Myndspilarareiningin styður nú fyrirsögn, efnisgrein og tengil fyrir frekari frásagnir.
+- Breytingar á efni í hreyfimynd eru betri.
+- Aðgerðin „bæta í körfu“ ræsir smákörfuna í staðinn fyrir að senda tilkynningu.
 - Skyndiskoðunareiningin er gluggi sem kemur fram á bæði gluggum í tölvu og farsíma.
-- Tóm karfa getur nú sýnt kynningartilboð.
+- Það eru komin ný útlit fyrir síður vefsvæðisins. 
+- Hægt er að stilla markaðsefni fyrir körfuna og smákörfuna þegar þær eru tómar.
+- Smákarfan getur sýnt markaðstengd skilaboð, t.d. „Ókeypis sending á pöntunum yfir $50.“
+- Lýsingarspjöld eru búin til á leitar- og flokkasíðum.
 
-Þemað Adventure Works inniheldur eftirfarandi frásagnareiningar í einingasafni Commerce:
+Þema Adventure Works inniheldur nú eftirfarandi frásagnareiningar í einingasafni Commerce:
 
-- Reitalistaeining
-- Gagnvirk eiginleikaeining
-- Áskriftareining
-- Virk myndeining
-- Myndalistaeining
+- [Eining bútalista](tile-list-module.md)
+- [Eining gagnvirks eiginleika](interactive-feature-module.md)
+- [Eining fyrir virka mynd](active-image-module.md)
+- [Áskriftareining](subscribe-module.md)
+- [Eining myndalista](image-list-module.md)
 
 Þema Adventure Works er gagnvirkt og býður upp á hámarksupplifun fyrir borðtölvur, farsíma og spjaldtölvur.
 
@@ -78,11 +90,15 @@ Jafnframt fela aðrar einingar í sér viðbætur einingaskilgreiningar. Til dæ
 
 Frekari upplýsingar um viðbætur þema er að finna í [Þemaviðbætur](e-commerce-extensibility/theme-module-extensions.md).
 
+## <a name="install-the-adventure-works-theme"></a>Setja upp Adventure Works-þemað
+
+Frekari upplýsingar um hvernig setja á upp þema Adventure Works er að finna í [Setja upp þema Adventure Works](install-adventure-works.md).
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit einingasafns](starter-kit-overview.md)
 
-[Reitalistaeining](tile-list-module.md)
+[Eining bútalista](tile-list-module.md)
 
 [Gagnvirk eiginleikaeining](interactive-feature-module.md)
 

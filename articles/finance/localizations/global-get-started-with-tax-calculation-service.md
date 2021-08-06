@@ -2,7 +2,7 @@
 title: Hafist handa með skattaútreikning
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp skattaútreikning.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336657"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644975"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Hafist handa með skattaútreikningi (forútgáfa)
 
@@ -58,15 +58,16 @@ ms.locfileid: "6336657"
 Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þarf að ljúka þessu ferli einu sinni og hægt er að ljúka því í hvaða lögaðila sem er í RCS.
 
 1. Skráðu þig inn í [RCS](https://marketing.configure.global.dynamics.com/).
-2. Á vinnusvæðinu **Rafræn skýrslugerð**, skal bæta við nýrri skilgreiningarveitu. Notið heiti fyrirtækisins sem heiti veitunnar. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Veljið skilgreiningarveituna sem var stofnuð og veljið síðan **Stilla sem virkt**.
-4. Veljið skilgreiningarveituna **Microsoft** og veljið því næst **Geymslur**.
-5. Í reitnum **Gerð** skal velja **Altæk**.
-6. Veljið **Opna**.
-7. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
-8. Veljið nýjustu útgáfuna og svo **Flytja inn**.
-9. Farið aftur á vinnusvæðið **Altækir eiginleikar (forskoðun)**, veljið **Eiginleikar**, veljið reitinn **Skattaútreikningur**, og veljið því næst **Bæta við**.
-10. Velja eina af eftirfarandi gerðum eiginleika:
+2. Á vinnusvæðinu **Eiginleikastjórnun** skal velja og virkja eiginleikann **Altækir eiginleikar**.
+3. Á vinnusvæðinu **Rafræn skýrslugerð**, skal bæta við nýrri skilgreiningarveitu. Notið heiti fyrirtækisins sem heiti veitunnar. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Veljið skilgreiningarveituna sem var stofnuð og veljið síðan **Stilla sem virkt**.
+5. Veljið skilgreiningarveituna **Microsoft** og veljið því næst **Geymslur**.
+6. Í reitnum **Gerð** skal velja **Altæk**.
+7. Veljið **Opna**.
+8. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
+9. Veljið nýjustu útgáfuna og svo **Flytja inn**.
+10. Farið aftur á vinnusvæðið **Altækir eiginleikar**, veljið **Eiginleikar**, veljið reitinn **Skattaútreikningur**, og veljið því næst **Bæta við**.
+11. Velja eina af eftirfarandi gerðum eiginleika:
 
     - **Nýr eiginleiki** – Búa til uppsetningu eiginleika sem er með tómt innihald.
     - **Byggt á fyrirliggjandi eiginleika** – Búa til eiginleika úr fyrirliggjandi eiginleika og afrita innihaldið úr fyrirliggjandi eiginleikauppsetningu.

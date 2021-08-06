@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303563"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560075"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 22. júní 2021
 
@@ -44,7 +44,7 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 | --- | --- | --- |
 | Eiginleiki fyrir tilkynningu til notenda starfsmanna án atvinnu - Þegar ítarlegur aðgangur er á og slökkt er á eiginleikanum **Skoða alla starfsmenn án atvinnu** í eiginleikastjórnun birtist borði í skjámynd starfsmanna án atvinnu. Borðinn beinir notandanum á að kveikja á eiginleikanum **Skoða alla starfskrafta án starfs**. | Ekki tiltækt| [Starfskraftar án starfs](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Stuðningur sérstilltra reita fyrir hæfnireglu fríðindastjórnunar | [Stuðningur við sérstillta reiti fyrir vinnslu á hæfni](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Stilla hæfnisreglur](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Endurskoðun færslu fyrir uppsafnað leyfi | Ekki tiltækt | [Endurskoðun færslu fyrir uppsafnað leyfi](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Endurskoðun færslu fyrir uppsafnað leyfi | Ekki tiltækt | [Endurskoðun færslu fyrir uppsafnað leyfi](hr-leave-and-absence-accrue.md)|
 | Viðbætur á upplifun verkflæðis fyrir leyfi og fjarvistir | [Viðbætur á upplifun verkflæðis fyrir leyfi og fjarvistir](https://go.microsoft.com/fwlink/?linkid=2147528) | [Biðja um frí](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar

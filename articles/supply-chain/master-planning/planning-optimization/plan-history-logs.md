@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187248"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646488"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Skoða áætlunarsögu og skipulagsskrár
 
@@ -34,6 +34,19 @@ Til að skoða sögu fyrir áætlun, opnaðu áætlunina með því að fara til
 Verkferillinn fyrir keyrslur aðaláætlanagerðar á fínstillingu skipulagningar geymir að hámarki 60 færslur fyrir hverja aðaláætlun. Í hvert sinn sem nýr útreikningur aðaláætlanagerð verður elstu ferilfærslu áætlunarinnar eytt.
 
 Auk þess að sjá upphafstíma og stöðu á vinnslum geturðu skoðað kladda fyrir tiltekna vinnslu. Í kladdanum eru viðbótarupplýsingar og viðvaranir. Ekki eru allar vinnslur með kladda. Til að skoða kladda fyrir vinnslu velurðu **Kladdi**. Kladdafærslur eru aðeins geymdar í 30 daga frá deginum sem verkið klárast og er eytt sjálfkrafa eftir það.
+
+Ef valkosturinn **Runuvinnsla** í flýtiflipanum **Keyra í bakgrunni** var virkjaður þegar vinnsla aðaláætlanagerðar var sett upp, sýnir kladdi runuvinnslu frekari upplýsingar um viðvaranir og villur sem komu upp í keyrslu aðaláætlanagerðar. Til dæmis eru villur sjálfvirkrar staðfestingar aðeins fangaðar í runuvinnslukladdanum. Þær eru ekki sýndar í klöddum á síðunni **Ferill**.
+
+Til að skoða villur sjálfvirkrar staðfestingar og aðrar viðvaranir eða villur sem komu upp í keyrslu aðaláætlanagerðar skal fylgja þessum skrefum.
+
+1. Farðu í **Kerfisstjórnun \> Fyrirspurnir \> Runuvinnslur**.
+1. Finndu og veldu færsluna sem stendur fyrir keyrslu aðaláætlanagerðar sem þú hefur áhuga á. (Til dæmis gæti gildi reitsins **Lýsing vinnslu** byrjað á *Aðaláætlanagerð*.)
+1. Fylgdu einu af þessum skrefum, eftir því hvort þú ert að nota *endurbætta skjámynd* eða *eldri (óendurbætta) skjámynd* fyrir síðuna **Runuvinnslur**:
+
+    - Ef þú ert að nota endurbættu skjámyndina: Veldu **Runuvinnsluferil** á aðgerðasvæðinu. Því næst, á síðunni **Runuvinnsluferill**, skal velja **Kladdi** á aðgerðasvæðinu.
+    - Ef þú notar eldri skjámynd: Á aðgerðasvæðinu, í flipanum **Runuvinnsla**, skal nota **Kladdi**.
+
+1. Veldu **Upplýsingar um skilaboð** til að opna gluggann **Upplýsingar um skilaboð** þar sem þú getur skoðað allar viðvaranir og villur sem voru fangaðar í vinnslunni.
 
 ## <a name="related-resources"></a>Tengd tilföng
 

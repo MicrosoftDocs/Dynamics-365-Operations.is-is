@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350837"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542416"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Leysa úr vandamálum við fyrstu uppsetningu
 
@@ -71,7 +71,7 @@ Fylgdu þessum skrefum til að veita samþykki í forriti.
 
 Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur við stillingar stofnuð í Dataverse umhverfi. Sjálfgefið er að þessi fyrirtæki séu skrifvarin og eiginleikinn **IsDualWriteEnable** stilltur á **True**. Að auki eru sjálfgefnir eigendur viðskiptaeininga og teymi stofnuð og fela í sér nafn fyrirtækisins. Áður en þú kveikir á kortunum skaltu ganga úr skugga um að sjálfgefinn eigandi hópsins sé tilgreindur. Til að finna töfluna **Companies (CDM\_Company)** fylgirðu þessum skrefum.
 
-1. Veldu síuna í efra hægra horninu í líkansdrifna forritinu í Dynamics 365.
+1. Í forriti viðskiptavinar skal velja síuna efst í hægra horninu.
 2. Í fellilistanum velurðu **Fyrirtæki**.
 3. Veldu **Keyra** til að sjá niðurstöðurnar.
 4. Veldu fyrirtækið sem var tengt þegar þú stillir tvískipt skrif.

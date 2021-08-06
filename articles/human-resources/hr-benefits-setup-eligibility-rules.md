@@ -2,7 +2,7 @@
 title: Grunnstilla hæfnireglur og valkosti
 description: Settu hæfisreglur og valkosti í fríðindastjórnun hjá Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,31 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351658"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558370"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti
+# <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Eftir að þú hefur stillt nauðsynlegar breytur fyrir fríðindastjórnun í Microsoft Dynamics 365 Human Resources, getur þú búið til hæfisreglur, knippi, tímabil og forrit sem þú verður að tengja við fríðindaáætlanir þínar.
+Þegar þú hefur stillt nauðsynlegar færibreytur fyrir fríðindastjórnun geturðu stofnað hæfnireglur, búnt, tímabil og áætlunarpakka sem þú munt tengja við fríðindaáætlanirnar þínar.
+
+Hæfnisreglur eru notaðar til að ákvarða hvort starfsmenn uppfylli skilyrði áætlunar. Starfsmenn þurfa að uppfylla skilyrði a.m.k. einnar reglu til að teljast gjaldgengir fyrir fríðindi. Til dæmis ertu með tvær reglur um áætlun. Fyrsta reglan (lína 1) segir að gerð starfsmanns verði að vera **Starfsmaður**. Önnur reglan (lína 2) segir að starfsmaðurinn verði að vera í fullu starfi. Starfsmenn sem uppfylla reglu 1 eru því gjaldgengir þótt þeir séu einungis í hlutastarfi.
+
+Það er hinsvegar hægt að setja upp eina reglu sem er með mörg skilyrði. Þá þurfa starfsmenn að uppfylla öll skilyrði reglunnar til að teljast gjaldgengir í fríðindum. Til dæmis ertu með reglu sem heitir **Starfsmaður í fullu starfi**. Þessi regla segir að gerð starfsmanns verður að vera **Starfsmaður** *og* starfsmaðurinn verður að vera í fullu starfi. Því þurfa starfsmenn að uppfylla bæði skilyrði reglunnar til að vera gjaldgengir.
+
+> [!IMPORTANT]
+> Að minnsta kosti ein hæfnisregla verður að vera tengd við fríðindaáætlun. Hægt er að tengja margar reglur við fríðindi.
 
 ## <a name="create-an-eligibility-rule"></a>Stofna hæfnireglu
 
 Hæfisreglur skilgreina hvaða starfsmenn geta skráð sig í hverja bótaáætlun. Eftir að þú hefur skilgreint hæfisreglur, úthlutarðu þeim í fríðindaáætlun. Síðan er hægt að vinna úr hæfi innritunar til að sjá hvaða starfsmenn eru gjaldgengir í hverja áætlun. 
 
-Meðan á opinni innritun stendur geta starfsmenn valið bótaráætlanir. Ef þeir eru ekki gjaldgengir í bótaáætlun sem byggist á hæfisreglum eftir að þeir eru þegar skráðir, eru þeir ekki sjálfkrafa skráðir. Venjulega, þegar viðburður á sér stað sem hefur áhrif á hæfi áætlunar, er byrjað á innritunartímabili fyrir starfsmanninn til að velja áætlanir sem þeir eiga rétt á. 
+Meðan á opinni innritun stendur geta starfsmenn valið bótaráætlanir. Ef þeir uppfylla ekki skilyrði fríðindaáætlunar miðað við reglur um gjaldgengi eftir að þeir hafa þegar verið skráðir, eru þeir ekki sjálfkrafa afskráðir. Venjulega, þegar viðburður á sér stað sem hefur áhrif á hæfi áætlunar, er byrjað á innritunartímabili fyrir starfsmanninn til að velja áætlanir sem þeir eiga rétt á. 
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Hæfisreglur og valkostir**.
 
@@ -46,15 +53,15 @@ Meðan á opinni innritun stendur geta starfsmenn valið bótaráætlanir. Ef þ
    | **Lýsing** | Lýsing á hæfnisreglunni. |
    | **Gildir frá dagsetningu og tíma** | Upphafsdagur hæfisreglunnar. | 
    | **Gildir til dagsetningu og tíma** | Lokadagur hæfisreglunnar. |
-   | **Gerð notandastarfsmanns** | Tilgreinir hvort nota eigi starfsmann starfsmannsins tegund hæfisreglunnar. |
+   | **Gerð notandastarfsmanns** | Tilgreinir hvort nota eigi gerð starfsmannsins í hæfnisreglu fríðinda. |
    | **Gerð starfskrafts** | Verkamannategundin, ef **Notaðu tegund starfsmanna** rofi er stillt á **Já**. |
-   | **Nota stöðu starfsmanns** | Tilgreinir hvort nota eigi starfsstöðu starfsmannsins í hæfisreglu fríðinda. |
-   | **Staða** | Starfsmannastaðan, ef **Nota stöðu starfsmanna** rofi er stillt á **Já**. Ef **Nota stöðu starfsmanna** rofi er stillt á **Nei** er reiturinn ekki notaður. |
-   | **Nota starfsgrein** | Tilgreinir hvort nota eigi gildi starfsmannsins **Atvinnuflokkur** sem hluta af hæfisreglu fríðinda. | 
-   | **Starfsgrein** | Starfsmannaflokkur starfsmanns ef **Notaðu atvinnuflokk** rofi er stillt á **Já**. |
-   | **Nota nýja ráðningarreglu** | Tilgreinir hvort nota eigi nýtt gildi leigutíma á nýjum leigutíma sem hluta af hæfisreglunni fyrir bætur. |
+   | **Nota stöðu starfsmanns** | Tilgreinir hvort nota eigi ráðningarstöðu starfsmannsins í hæfnisreglu fríðinda. |
+   | **Staða** | Starfsmannastaðan, ef **Nota stöðu starfsmanna** rofi er stillt á **Já**. Ef hnappurinn **Nota stöðu starfsmanns** er stilltur á **Nei** er reiturinn ekki notaður. |
+   | **Nota starfsgrein** | Tilgreinir hvort nota eigi starfsmannagildið **Starfsgrein** sem hluta af hæfnisreglu fríðinda. | 
+   | **Starfsgrein** | Starfsgrein starfsmannsins ef hnappurinn **Nota starfsgrein** er stilltur á **Já**. |
+   | **Nota nýja ráðningarreglu** | Tilgreinir hvort nota eigi nýtt gildi ráðningartímabils fyrir nýja ráðningu sem hluta af hæfnisreglu fríðinda. |
    | **Skráningartímabil** | Tímabilið þegar nýskráning á leigu er leyfð. Ef þú stillir þetta einnig í færibreytur, hefur færibreytustillingin forgang fram yfir þessa. |
-   | **Nota fyrri stöðu á vinnumarkaði** | Tilgreinir hvort nota eigi fyrri atvinnustöðu starfsmanns sem hluta af hæfisreglu fríðinda. Til dæmis er hægt að tilgreina hæfisreglu sem afsalar biðtíma umfjöllunar fyrir alla starfsmenn sem hafa farið úr stöðunni **Sagt upp** í stöðuna **Ráðin(n)** innan 90 daga frá fyrri atvinnu þeirra. |
+   | **Nota fyrri stöðu á vinnumarkaði** | Tilgreinir hvort nota eigi fyrri starfsstöðu starfsmanns sem hluta af hæfnisreglu fríðinda. Til dæmis er hægt að tilgreina hæfisreglu sem afsalar biðtíma umfjöllunar fyrir alla starfsmenn sem hafa farið úr stöðunni **Sagt upp** í stöðuna **Ráðin(n)** innan 90 daga frá fyrri atvinnu þeirra. |
 
 4. Undir **Viðbótarskilyrði** skal velja eftirfarandi valkosti og bæta við upplýsingum eftir þörfum.
 
@@ -72,7 +79,7 @@ Meðan á opinni innritun stendur geta starfsmenn valið bótaráætlanir. Ef þ
    | **Gjaldgengar starfstöður** | Tilgreinir stöðugerð eða -gerðir sem fullnægja hæfisreglunni. Til dæmis í fullu starfi. |
    | **Hæft ástand** | Tilgreinir fylki eða héruð sem fullnægja hæfisreglunni. Til dæmis Norður-Dakóta í Bandaríkjunum eða Breska Kólumbía, Kanada. |
    | **Gjaldgengir ráðningarskilmálar** | Tilgreinir ráðningarskilmála sem fullnægja hæfisreglunni. Til dæmis, að vild eða hópsamningur. |
-   | **Gjaldgengt verkalýðsfélag** | Tilgreinir aðild að verkalýðsfélagi sem fullnægir hæfisreglunni. Til dæmis Forklift Drivers of America. </br></br>Þegar nothæfisregla sem byggir á stéttarfélagi er notuð verður verkalýðsfélagaskrá að hafa lokadaginn byggð. Þú getur ekki skilið það eftir autt. |
+   | **Gjaldgengt verkalýðsfélag** | Tilgreinir aðild að verkalýðsfélagi sem fullnægir hæfisreglunni. Til dæmis Forklift Drivers of America.</br></br>Þegar notuð er hæfnisregla stéttarfélags verður stéttarfélagsfærsla starfsmannsins að vera með lokadagsetninguna útfyllta. Ekki má skilja hana eftir auða. |
    | **Hæfur vísir póstnúmers** | Tilgreinir póstnúmerin sem fullnægja hæfisreglunni. Til dæmis 58104. |
 
 5. Undir **Viðbótarupplýsingar** er hægt að skoða eftirfarandi viðbótarupplýsingar.
@@ -131,7 +138,7 @@ Eftirfarandi hlutar útskýra hvernig unnið er úr hæfi fríðinda.
 ![Starfsmaðurinn þarf annaðhvort að uppfylla kröfur starfagerðarinnar eða regluna um virka starfsmenn.](media/RulesAssignedToAPlan.png)
  
 ### <a name="criteria-within-an-eligibility-rule"></a>Skilyrði í gjaldgengisreglu 
-Innan reglu eru skilyrði reglunnar skilgreind. Í dæminu hér að ofan eru skilyrði reglunnar **Starfsgerð** þar sem starfsgerð = Stjórnendur. Því verður starfsmaðurinn að vera stjórnandi til að vera gjaldgengur. Þetta er regla þar sem aðeins eitt skilyrði er til staðar innan reglunnar.
+Innan reglu eru skilyrði reglunnar skilgreind. Í dæminu hér að ofan eru viðmið reglunnar **Starfsgerð** þar sem starfsgerð = Stjórnendur. Því verður starfsmaðurinn að vera stjórnandi til að vera gjaldgengur. Þetta er regla þar sem aðeins eitt skilyrði er til staðar innan reglunnar.
 
 Hægt er að tilgreina reglur með mörgum skilyrðum. Þegar mörg skilyrði eru skilgreind í hæfnisreglu verður starfsmaður að uppfylla öll skilyrðin í reglunni til að hafa rétt á fríðindaáætluninni. 
 
@@ -170,7 +177,7 @@ Búnt eru mengi tengdra bótaáætlana. Þú getur notað bótaknippi til að h�
    | --- | --- |
    | **Búnt** | Einkvæmt kennimerki fyrir búntið. |
    | **Lýsing** | Lýsing á búnti. |
-   | **Næstefsta stig** | Gefur til kynna hvort eitt af áætlunum í búntinu verði að vera merkt sem aðalskipulagið. Velja þarf aðalskipulagið við opna skráningu sem hluta af búntinu áður en bótarekandinn getur staðfest fríðindaval starfsmannsins. |
+   | **Næstefsta stig** | Gefur til kynna hvort eitt af áætlunum í búntinu verði að vera merkt sem aðalskipulagið. Velja skal aðaláætlunina við opna skráningu sem hluta af búntinu áður en stjórnandi fríðinda getur staðfest fríðindaval starfsmannsins. |
    | **Gildir frá dagsetningu og tíma** | Dagsetning og tími þegar búntið verður virkt. |
    | **Gildir til** | Dagsetningin sem búntið rennur út. Sjálfgildið er 12/31/2154, sem táknar aldrei. |
 
@@ -200,7 +207,7 @@ Tímabil skilgreina hvenær fríðindi eru í gildi og hvenær starfsmenn mega s
 
 ## <a name="use-a-flex-credit-program"></a>Nota sveigjanlega útgjaldaáætlun
 
-Þú getur notað flex kredit forrit til að skrá starfsmenn í bætur samkvæmt fyrirfram ákveðnum fjölda sveigjanlegra eininga. Starfsmenn geta valið hvernig þeir eiga að úthluta sveigjanlegum einingum. Til dæmis, ef starfsmaður fellur undir sjúkratryggingaráætlun maka síns, gæti verið að hann vilji nota inneignina sem þeir hefðu annars notað á heilsuvernd gagnvart öðrum bótum.
+Þú getur notað flex kredit forrit til að skrá starfsmenn í bætur samkvæmt fyrirfram ákveðnum fjölda sveigjanlegra eininga. Starfsmenn geta valið hvernig þeir eiga að úthluta sveigjanlegum einingum. Ef starfsmaður er til dæmis tryggður í sjúkratryggingu maka síns gæti hann viljað nota inneignina sem hann hefði annars notað í sjúkratryggingu í önnur fríðindi.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Hæfisreglur og valkostir**.
 
@@ -213,12 +220,12 @@ Tímabil skilgreina hvenær fríðindi eru í gildi og hvenær starfsmenn mega s
    | Auðkenni fríðindaútgjalda | Einstakt auðkenni Flex Credit áætlunarinnar. |
    | Lýsing | Lýsing á flex kredit forritinu. | 
    | Dagsetning frá | Dagsetningin þegar flex-lánsfjáráætlunin verður virk. |
-   | Lokadagsetning | Lokadagsetningin þegar flex-lánsfjáráætlunin. Þú getur skilið eftir sjálfgefið gildi (12/31/2154) til að gefa til kynna að flex kredit forritið sé ekki með áætlaðan lokun. |
+   | Lokadagsetning | Lokadagsetningin þegar flex-lánsfjáráætlunin. Þú getur skilið sjálfgefna gildið eftir (12/31/2154) til að gefa til kynna að áætlunarpakki sveigjanlegrar inneignar sé ekki með áætlaðan gildistíma. |
    | Útgjaldavirði samtals | Fjöldi eininga sem hver starfsmaður verður að nota fyrir fríðindi sín. |
    | Hlutfallsskiptaregla | Reglan sem nota á til að pródata flex-einingar þegar starfsmaður er ráðinn á miðju flex-lánstímabilinu. </br></br><ul><li>**Enginn** - Starfsmaðurinn fær engin sveigjanleiki ef þeir eru ráðnir eftir að tímabil lánsfjárlána hefst.</li><li>**Full inneign** - Starfsmaðurinn fær alla upphæð sveigjanlegra eininga, óháð því hvenær þeir eru ráðnir.</li><li>**Hlutfallsskipta** - Starfsmaðurinn fær hlutfallslegt magn af flex-einingum miðað við upphafsdag.</li></ul> |
    | Hlutfallsskiptaformúla sveigjanlegra útgjalda | Reglan sem nota á til að pródata flex-einingar fyrir starfsmenn sem eru ráðnir á miðju fríðindatímabili fyrir flex-lánstímabilið. Ræktunin byggist á upphafsdegi ráðningarinnar. Þessi reitur er aðeins notaður ef þú velur það **Hlutfallsskipta** í reitnum **Hlutfallsregla**. </br></br><ul><li>**Daglega** - Hlutfallsskiptir fjölda sveigjanlegra eininga sem starfsmaður fær til dags. Heildarfjöldi sveigjanlegra eininga er deilt með fjölda daga á tímabilinu. Til dæmis, ef fríðindatímabil þitt er 400 dagar, mun kerfið skipta heildarfjölda sveigjanlegra eininga um 400 til að reikna út fjölda sveigjanlegra eininga sem starfsmenn fá á dag.</li><li>**Núverandi mánuður** - Hlutfallsskiptir fjölda sveigjanlegra eininga sem starfsmaður fær til mánaðarstigs, námundaður að núverandi mánuði. Heildarfjöldi sveigjanlegra eininga er deilt með fjölda mánaða á tímabilinu. Til dæmis, ef fríðindatímabil þitt er 15 mánuðir, mun kerfið skipta heildarfjölda sveigjanlegra eininga um 15 til að reikna út fjölda sveigjanlegra eininga sem starfsmenn fá á mánuði.</li><li>**Næsti mánuður** - Hlutfallsskiptir fjölda sveigjanlegra eininga sem starfsmaður fær til mánaðarstigs, námundaður að næsta mánuði. Heildarfjöldi sveigjanlegra eininga er deilt með fjölda mánaða á tímabilinu. Til dæmis, ef fríðindatímabil þitt er 15 mánuðir, skiptir kerfið heildarfjölda sveigjanlegra eininga um 15 til að reikna út fjölda sveigjanlegra eininga sem starfsmenn fá á mánuði.</li></ul> |
    
-   Vertu viss um að hver bótaáætlun er skráð í aðeins eitt flex-lánakerfi á hverju bótatímabili. Annars mun kerfið ekki vita hvaða flex credit forrit sem á að nota til að veita flex credits og þú lendir í vandræðum. 
+   Vertu viss um að hver bótaáætlun er skráð í aðeins eitt flex-lánakerfi á hverju bótatímabili. Að öðrum kosti veit kerfið ekki hvaða áætlunarpakka sveigjanlegrar inneignar eigi að nota til að bjóða upp á sveigjanlega inneign og vandamál munu koma upp. 
 
 ## <a name="configure-programs"></a>Stilla forrit
 

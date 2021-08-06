@@ -2,24 +2,24 @@
 title: Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 description: Þetta efnisatriði lýsir því hvernig stjórnendur geta bætt við, breytt og eytt notendum samstarfsaðila á rafrænum B2B-vefsvæðum.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936657"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655607"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
@@ -67,7 +67,7 @@ Til að samþykkja og setja upp stjórnendanotanda samstarfsaðila í Commerce H
 
 1. Farið í **Upplýsingatækni smásölu og viðskipta \> Dreifingaráætlun** og keyrið vinnsluna **1010** (**Viðskiptavinir**) til að færa nýlega stofnaða viðskiptavinafærslu og stigveldisfærslu viðskiptavinar í gagnagrunn rásarinnar.
 
-Þegar beiðnin er samþykkt og viðskiptavinafærslan og stigveldisfærsla viðskiptavinar eru samstilltar við gagnagrunnsrásina, getur beiðandinn skráð sig inn á rafræna B2B-vefsvæðið með netfanginu sem hann gaf upp þegar hann sendin inn beiðnina. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn.
+Þegar beiðnin er samþykkt og viðskiptavinafærslan og stigveldisfærsla viðskiptavinar eru samstilltar við gagnagrunnsrásina, getur beiðandinn skráð sig inn á rafræna B2B-vefsvæðið með netfanginu sem hann gaf upp þegar hann sendin inn beiðnina. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Til að gera kleift að tengja færslu auðkennisveitu (Azure AD B2C) við B2B-viðskiptavinafærslu sem var stofnuð við nýskráningu eða innskráningu skal fylgja leiðbeiningunum í [Gera kleift að tengja sjálfvirkt auðkennisfærslur við viðskiptavinalykla](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Fleiri notendur samstarfsaðila teknir inn
 
@@ -83,7 +83,7 @@ Til að taka fleiri notendur samstarfsaðila inn á rafrænt B2B-vefsvæðið sk
 
 1. Keyrið vinnsluna **1010** (**Viðskiptavinir**) til að samstilla nýjan notanda samstarfsaðila við gagnagrunnsrásina.
 
-Þegar færsla viðskiptavinar er samstillt er staða notandans á rafræna B2B-vefsvæðinu stillt á **Virkur** og nýi notandinn getur skráð sig inn á rafræna B2B-vefsvæðið með netfanginu sínu. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn.
+Þegar færsla viðskiptavinar er samstillt er staða notandans á rafræna B2B-vefsvæðinu stillt á **Virkur** og nýi notandinn getur skráð sig inn á rafræna B2B-vefsvæðið með netfanginu sínu. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Til að gera kleift að tengja færslu auðkennisveitu (Azure AD B2C) við B2B-viðskiptavinafærslu sem var stofnuð við nýskráningu eða innskráningu skal fylgja leiðbeiningunum í [Gera kleift að tengja sjálfvirkt auðkennisfærslur við viðskiptavinalykla](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Breyta notandaupplýsingum samstarfsaðila
 

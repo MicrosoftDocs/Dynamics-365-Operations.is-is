@@ -2,7 +2,7 @@
 title: Bæta spálíkanið (forskoðun)
 description: Þetta efnisatriði lýsir eiginleikum sem hægt er að nota til að bæta afköst spálíkana.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 376e48a442f5a1b459077fb7a0d52faf974a792f
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355677"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638417"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Bæta spálíkanið (forskoðun)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir eiginleikum sem hægt er að nota til að bæta afköst spálíkana. Þú byrjar á því að bæta líkanið á vinnusvæðinu **Greiðsluspár viðskiptavinar** í Microsoft Dynamics 365 Finance. Umbótaskrefunum er svo lokið í AI Builder.
 

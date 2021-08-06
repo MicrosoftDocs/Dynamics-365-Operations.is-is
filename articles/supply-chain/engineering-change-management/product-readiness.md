@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115074"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641157"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
@@ -177,8 +177,6 @@ Til að úthluta undirbúningsreglu á hönnunarflokk skal fylgja eftirfarandi s
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Undirbúningsathuganir á stöðluðum afurðum
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Hægt er að virkja undirbúningsathuganir afurðar fyrir staðlaðar afurðir (aðrar en hönnunarafurðir) með því að kveikja á eiginleikanum *Undirbúningsathuganir afurðar* í eiginleikastjórnun. Þessi eiginleiki gerir nokkrar smávægilegar breytingar á kerfi undirbúningsathugunar þannig að það styðji staðlaðar afurðir.
 

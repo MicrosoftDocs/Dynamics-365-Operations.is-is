@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314286"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538855"
 ---
 # <a name="payroll-employee"></a>Starfsmaður á launaskrá
 
@@ -32,15 +32,19 @@ Efnislegt heiti: mshr_payrollemployeeentity.
 
 Þessi eining veitir upplýsingar um starfsmanninn. Stilla þarf [samþættingarfæribreytur launaskrár](hr-admin-integration-payroll-api-parameters.md) áður en þessi eining er notuð.
 
+>[!IMPORTANT] 
+>Reitirnir **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** og **NameValidTo** verða ekki lengur í boði í þessari einingu. Þetta er til að tryggja að aðeins ein gild dagsetning sé á bak við gagnagjafa þessarar einingar, sem er **HcmEmployment** með reitunum **EmploymentStartDate** og **EmploymentEndDate**.
+
+>Þessir reitir verða tiltækir í **DirPersonNameHistoricalEntity**, sem var gefið út í verkvangsuppfærslu 43. Það eru OData-tengsl frá **PayrollEmployeeEntity** til **DirPersonNameHistoricalEntity** í reitnum **Einstaklingur**. Að öðrum kosti er hægt að spyrjast fyrir um **DirPersonNameHistoricalEntity** með beinum hætti í gegnum OData með opinbera heitinu **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Eiginleikar
 
 | Eiginleiki<br>**Efnislegt heiti**<br>**_Gerð_** | Nota | lýsing |
 | --- | --- | --- |
 | **Númer starfsmanns**<br>mshr_personnelnumber<br>*Strengur* | Lesa eingöngu<br>Krafa | Einkvæmt númer starfsmanns. |
 | **Aðalsvæði**<br>mshr_primaryfield<br>*Strengur* | Krafa<br>Búið til af kerfi |  |
-| **Eftirnafn**<br>mshr_lastname<br>*Strengur* | Skrifvarið<br>Krafa | Eftirnafn starfsmanns. |
 | **Kenni lögaðila**<br>mshr_legalentityID<br>*Strengur* | Lesa eingöngu<br>Krafa | Tilgreinir lögaðilann (fyrirtækið). |
-| **Gildir frá**<br>mshr_namevalidfrom<br>*Mótfærð dagsetning og tími* | Lesa eingöngu <br>Krafa | Dagsetningin sem starfsmannaupplýsingarnar gilda frá.  |
 | **Kyn**<br>mshr_gender<br>[Valkostir mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Lesa eingöngu<br>Krafa | KynKyn starfsmannsins. |
 | **Einingarkenni launa starfsmanns**<br>mshr_payrollemployeeentityid<br>*GUID* | Krafa<br>Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna starfsmann á einkvæman hátt. |
 | **Upphafsdagur starfs**<br>mshr_employmentstartdate<br>*Mótfærð dagsetning og tími* | Lesa eingöngu<br>Krafa | Upphafsdagsetning starfs starfsmanns. |
@@ -50,8 +54,6 @@ Efnislegt heiti: mshr_payrollemployeeentity.
 | **Gildir til**<br>mshr_namevalidto<br>*Mótfærð dagsetning og tími* |  Lesa eingöngu<br>Krafa | Dagsetningin sem starfsmannaupplýsingarnar gilda til. |
 | **Fæðingardagur**<br>mshr_birthdate<br>*Mótfærð dagsetning og tími* | Lesa eingöngu <br>Krafa | Fæðingardagur starfsmanns |
 | **Auðkennisnúmer til**<br>mshr_identificationnumber<br>*Strengur* | Lesa eingöngu <br>Krafa |Auðkennisnúmerið sem er skilgreint fyrir starfsmanninn.  |
-| **Fornafn**<br>mshr_firstname<br>*Strengur* | Lesa eingöngu<br>Krafa | Fornafn starfsmanns. |
-| **Millinafn**<br>mshr_middlename<br>*Strengur* | Lesa eingöngu<br>Krafa |Millinafn starfsmanns.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Dæmi um fyrirspurn fyrir starfsmann á launaskrá
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

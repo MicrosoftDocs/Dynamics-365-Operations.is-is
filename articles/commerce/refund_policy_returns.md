@@ -2,7 +2,7 @@
 title: Búa til og uppfæra reglu um skil og endurgreiðslur fyrir rás
 description: Þetta efni útskýrir hvernig á að setja upp skil og endurgreiðslu stefnu fyrir rás.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345109"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558298"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Búa til og uppfæra reglu um skil og endurgreiðslur fyrir rás
 
@@ -36,12 +36,21 @@ Umfang stefnunnar er sem stendur takmarkað við að setja greiðslutilboð sem 
 
 ## <a name="enable-return-policy"></a>Virkja skilareglu
 
-Gerðu eftirfarandi til að virkja skilareglu rásarvirkninnar:
+Til að virkja skilareglu rásar í Commerce Headquarters skal fylgja þessum skrefum.
 
 1. Farðu í vinnusvæðið **Eiginleikastjórnun** í Dynamics 365 Commerce.
 1. Leitaðu að eiginleikanum **Virkja skilareglur rása** á listanum yfir heiti eiginleika.
 1. Veldu **Virkja núna**.
-1. Á síðunni **Dreifingaráætlun** skal keyra vinnsluna **1110** (altæka skilgreiningu) til að dreifa eiginleikabreytingunni. 
+1. Á síðunni **Dreifingaráætlun** skal keyra vinnsluna **1110** (altæka skilgreiningu) til að dreifa eiginleikabreytingunni.
+
+## <a name="initialize-the-commerce-scheduler"></a>Frumstilla Commerce-verkraðara
+
+Þegar eiginleikinn **Virkja skilareglur rásar** hefur verið virkjaður þarf að frumstilla Commerce-verkraðara til að tryggja að nýjum breytingum á gagnagrunni eiginleiki verði bætt við í gegnum Commerce Data Exchange (CDX) samstillingu. 
+
+Til að frumstilla Commerce-verkraðara í Commerce Headquarters skal fylgja þessum skrefum.
+
+- Opnið **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Commerce-verkraðari \> Frumstilla Commerce-verkraðara**. Að öðrum kosti geturðu leitað að „Frumstilla Commerce-verkraðara.“
+- Í svarglugganum **Frumstilla Commerce-verkraðara** skal tryggja að valkosturinn **Eyða fyrirliggjandi stillingum** sé stilltur á **Nei** og veldu síðan **Í lagi**.
 
 ## <a name="configure-return-policy"></a>Stilla skilareglu
 

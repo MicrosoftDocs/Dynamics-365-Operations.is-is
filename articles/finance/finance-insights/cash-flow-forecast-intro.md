@@ -2,7 +2,7 @@
 title: Sjóðstreymispá (forútgáfa)
 description: Þetta efnisatriði lýsir eiginleika sjóðsstreymisspár.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3f16c8471123969443af52ff9bed7fc017b8e9c2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f4b48122ea54c201888d71afb5fb731ebcab230d
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339216"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638777"
 ---
 # <a name="cash-flow-forecast-preview"></a>Sjóðstreymispá (forútgáfa)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sjóðstreymi er nauðsynlegt fyrir öll fyrirtæki. Jafnvel arðbær fyrirtæki geta staðið frammi fyrir gjaldþroti ef þau hafa ekki nægt sjóðstreymi. Sjóðstreymisspáreiginleikinn í fjármálainnsýn getur auðveldað fyrirtækjum að fylgjast með og stjórna sjóðsstöðu með árangursríkum hætti. Þessi eiginleiki notar vélnám til að hjálpa fyrirtækjum að spá fyrir um sjóðstreymi sem eru nákvæmari en þau hafa áður verið. Það getur einnig hjálpað stjórnendum að taka ákvarðanir sem hámarka tækifæri eftir núverandi reiðufjárstöðu þeirra. 
 

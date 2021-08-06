@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815717"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645373"
 ---
 # <a name="fixed-asset-transaction-options"></a>Eignafærslukostir
 
@@ -46,7 +46,7 @@ Til að bóka kaupfærslu fyrir fyrirliggjandi eign skal tilgreina eignanúmer, 
 ## <a name="general-ledger"></a>Fjárhagur
 Allar gerðir eignafærsla má bóka í síðunni almenn færslubók. Einnig er hægt að nota færslubækur í eignum til að bóka eignafærslur.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Valkostir innfærslu á eignafærslugerðum
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Valkostir innfærslu á eignafærslugerðum
 
 
 | Færslugerð                    | Kerfi                   | Valréttarsamningar                                   |
@@ -61,10 +61,20 @@ Allar gerðir eignafærsla má bóka í síðunni almenn færslubók. Einnig er 
 | ** **                               | Fjárhagur           | Almenn færslubók                           |
 | ** **                               | Viðskiptakröfur      | Reikningur með frjálsum texta                         |
 
-
 Eftirstöðvar eignar á afskriftartímabili eru ekki uppfærðar þegar færslubókarlína afskriftarfærslugerðar er búin til handvirkt eða flutt inn í gegnum gagnaeiningu. Þetta gildi er uppfært þegar ferli afskriftartillögu er notað til að búa til færslubókarlínu.
 
 Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Færslur sem krefjast mismunandi fylgiskjalsnúmera
+
+Eftirtaldar eignafærslur munu nota mismunandi fylgiskjalsnúmer:
+
+- Viðbótarkaup eru gerð á eign og „vinna upp" afskrift er reiknuð út.
+- Eign er skipt.
+- Breytur til að reikna afskriftir við förgun er kveikt á og þá er eignin fargað.
+- Þjónustudagsetning eignar er fyrir kaupdagsetningu. Þar af leiðandi er leiðrétting afskriftar bókuð.
+
+> [!NOTE]
+> Þegar þú færir inn færslur skaltu ganga úr skugga um að allar færslurnar gildi um sömu eignina. Fylgiskjal verður ekki bókað ef það inniheldur fleiri en eina fasta eign, jafnvel þó að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjal** á síðunni **Færslubókaheiti** í fjárhag. Ef þú setur fleiri en eina fasta eign í fylgiskjalið færðu upp skilaboðin „Aðeins má vera ein eignafærsla á hvert fylgiskjal“ og þú munt ekki geta sent fylgiskjalið.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Stofna tryggingarvalkosti
 description: Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055581"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558226"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun. Til dæmis gætu umfjöllunarkostirnir falið í sér **Aðeins starfsmaður** vegna læknisáætlunar, eða **2x laun** vegna líftryggingaráætlunar. Þegar það er skilgreint geturðu notað valkosti um umfjöllun um fríðindi. Þú getur tengt valkost við eina eða fleiri áætlanir.
+Tryggingarvalkostir ákvarða hverjir eiga að vera tryggðir eða hve mikil trygging er í boði í tryggingaráætlun. Fyrir sjúkraáætlun gætirðu t.d. verið með valkostinn **eingöngu starfsmaður**, valkostinn **starfsmaður + 1** og valkostinn **fjölskylda**. Fyrir líftryggingu er hægt að bjóða upp á tryggingu fyrir **1 x laun** eða **2 x laun**.
 
-Þegar þú hefur skilgreint umfjöllunarvalkostina skaltu hengja þá við gerð bótaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Umfjöllunarvalkostir sem tengjast áætlunartegundum eru tiltækir öllum áætlunum sem eru búnar til með þeirri áætlunartegund. 
+Eftir að fríðindavalkostir hafa verið skilgreindir er hægt að endurnýta þá. Þú getur tengt valkost við eina eða fleiri áætlanir.
 
+> [!IMPORTANT]
+> Þegar þú hefur skilgreint tryggingarvalkosti skaltu hengja þá við gerð fríðindaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Tryggingarvalkostir sem eru tengdir áætlunargerð eru í boði fyrir allar áætlanir af þeirri gerð sem er stofnuð.
+
+## <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Tryggingarvalkostir**.
 
 2. Veljið **Nýtt**.
@@ -40,9 +44,9 @@ Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunar
    | --- | --- |
    | **Tryggingarvalkostur** | Einkvæmt heiti tryggingarkosts. |
    | **Lýsing** | Lýsing á tryggingarvalkostinum. |
-   | **Tryggingarkóði** | Tryggingarkóðar úthluta lágmarks- og hámarksfjárhæðum fyrir hverja hæfa tegund þeirra sem fjallað er um. Tryggingarkóði gefur til kynna hverjir eru tryggðir eða umfang tryggingr sem leyfilegt er fyrir áætlunartegund. Þú getur tjáð tryggingna sem dollara eða prósentu. Dæmi:</br></br>- **Emp+1** - til að vera hæfur verður starfsmaðurinn að vera valinn einn háður (ef fleiri en einn eru valdir, þá fullnægir hann ekki lengur).</br></br>- **Emp+fjölskylda** - til að vera hæfur verður starfsmaður að velja að minnsta kosti tvo á framfæri. |
+   | **Tryggingarkóði** | Tryggingarkóðar úthluta lágmarks- og hámarksfjárhæðum fyrir hverja hæfa tegund þeirra sem fjallað er um. Tryggingarkóði gefur til kynna hverjir eru tryggðir eða umfang tryggingr sem leyfilegt er fyrir áætlunartegund. Þú getur tjáð tryggingna sem dollara eða prósentu. Dæmi:<ul><li>**Starfsm+1** – Til að vera hæfur verður starfsmaðurinn að hafa valið einn tengdan einstakling (ef fleiri en einn er valinn er hann ekki lengur gjaldgengur).</li><li>**Starfsm+fjölskylda** – Til að vera hæfur verður starfsmaðurinn að hafa valið að minnsta kosti tvo tengda einstaklinga.</li></ul> |
    | **Hámarksfjöldi** | Hámarksfjöldi skjólstæðinga. |
-   | **Staða** | Staða tryggingravalkosts. Ef staða tryggingarvalkostsins er stillt á Óvirk er ekki hægt að velja tryggingarvalkostinn á áætlunartegundum. |
+   | **Staða** | Staða tryggingravalkosts. Ef staða tryggingarvalkosts er stillt á Óvirk verður ekki hægt að velja tryggingarvalkostinn í áætlunargerðum. |
    | **Prósenta** | Prósentuupphæðin. Þessi reitur er aðeins virkur ef% x Laun var valið í reitnum tryggingarkóða. |
    | **Deilir** | Skiptingin sem á að nota við útreikninginn þegar þú velur tryggingarkóðann% x laun. |
    | **Lágmarksprósentuhlutfall** | Lágmarksprósentan þegar þú velur prósentu tryggingarkóða. |

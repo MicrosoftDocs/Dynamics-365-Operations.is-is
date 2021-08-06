@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350789"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542516"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
 
@@ -81,7 +79,7 @@ Til að laga málið verður þú að úthluta réttu öryggishlutverki til teym
 
     ![Fyrirtækjavörpun.](media/mapped_business_unit.png)
 
-2. Skráðu þig inn í umhverfið í líkanadrifna forritinu í Dynamics 365, farðu í **Stilling \> Öryggi** og finndu hóp varpaðrar viðskiptaeiningar.
+2. Skráðu þig inn í umhverfið í forriti viðskiptavinar, farðu í **Stilling \> Öryggi** og finndu hóp varpaðrar viðskiptaeiningar.
 
     ![Hópur varpaðrar viðskiptaeiningar.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Til að laga málið verður þú að úthluta réttu öryggishlutverki til teym
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Ekki tókst að mynda farm fyrir eininguna CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Stofnun farms tókst ekki með villunni Ógilt URI: URI er tómt."}\],"isErrorCountUpdated":true}*
 
-Svona lítur villan út í líkanadrifnu forritinu í Dynamics 365:
+Svona lítur villan út í forriti viðskiptavinar:
 
 *Óvænt villa kom upp úr ISV kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Keyra): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki á fullnægjandi hátt eftir nokkurn tíma, eða ekki tókst að koma á tengingu vegna þess að tengdur hýsill svaraði ekki*
 
@@ -125,6 +123,5 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Dataverse eða forritsslóð. Eyða öllum tvíteknum línum sem benda á ranga Dataverse vefslóð. Eyðið samsvarandi línum í tölfunum DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION.
 4. Stöðvaðu töfluvörpunina og endurræstu hana
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

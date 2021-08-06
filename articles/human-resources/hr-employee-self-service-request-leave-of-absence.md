@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056325"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639415"
 ---
 # <a name="request-a-leave-of-absence"></a>Beiðni um fjarvist
 
@@ -48,6 +48,10 @@ Hægt er að senda inn beiðni um fjarvist og sjá stöðu leyfisbeiðna í Dyna
 1. Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.
 
 2. Til að skoða beiðnir um fjarvist skal velja **Skoða fjarvistir**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Innflutningur á leyfisbeiðnum úr öðrum kerfum eða eldri kerfum
+
+Til að flytja inn leyfisbeiðnir úr öðrum kerfum þarf að fara í gegnum hefðbundið verkflæði til að búa til viðeigandi leyfisfærslur. Einnig er hægt að flytja inn bankafærslur leyfis og leyfisbeiðnir í lokinni stöðu. Athugið að bankafærslur leyfis eru ekki sjálfkrafa búnar til ef þú flytur aðeins inn leyfisbeiðnir.
 
 ## <a name="see-also"></a>Sjá einnig
 

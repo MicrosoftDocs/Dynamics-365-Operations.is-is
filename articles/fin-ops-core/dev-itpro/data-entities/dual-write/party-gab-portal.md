@@ -1,6 +1,6 @@
 ---
-title: Notkun Power Portal með gagnalíkani aðila
-description: Þetta efnisatriði lýsir breytingum á vefhlutverkum Power Portal vegna gagnalíkans aðila í tvöfaldri skráningu.
+title: Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
+description: Þetta efnisatriði lýsir breytingum á vefhlutverkum fyrir Microsoft Power Apps-gáttir vegna gagnalíkans aðilans í tvöfaldri skráningu.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358618"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542564"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Notkun Power Portal með gagnalíkani aðila
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
 [!INCLUDE[rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Útgáfa tvöfaldrar skráningar niðurröðunarþjónustu, útgáfa 2.0.999.0 og nýrri, inniheldur breytingar gagnalíkans á aðila- og altækri tengiliðaskrá fyrir reikninginn og tengiliðatöflur. Breytingarnar gera tengls við marga möguleg sem styðja ítarleg viðskiptaumhverfi. Þessar breytingar eru ekki studdar af vefhlutverkum vefgáttar, þar á meðal viðskiptavinagátt, sem eru sendar eins og þær eru eða sem voru til staðar í umhverfinu áður en sett var upp tvöföld skráning. Til að vefhlutverkin virki sem skyldi er nauðsynlegt að búa til nýtt vefhlutverk með nýja gagnalíkaninu. 
+Útgáfa tvöfaldrar skráningar niðurröðunarþjónustu, útgáfa 2.0.999.0 og nýrri, inniheldur breytingar gagnalíkans á aðila- og altækri tengiliðaskrá fyrir reikninginn og tengiliðatöflur. Breytingarnar gera tengls við marga möguleg sem styðja ítarleg viðskiptaumhverfi. Þessar breytingar eru ekki studdar af vefhlutverkum vefgáttar, þar á meðal viðskiptavinagátt, sem eru sendar eins og þær eru eða sem voru til staðar í umhverfinu áður en sett var upp tvöföld skráning. Til að vefhlutverkin virki sem skyldi er nauðsynlegt að búa til ný vefhlutverk með nýja gagnalíkaninu. 
 
 Með öðrum orðum hafa töflurnar breyst en töfluheimildir í viðskiptavinagáttinni hafa ekki breyst. Þetta efnisatriði útskýrir hvernig á að búa til nýtt vefhlutverk sem virka með nýja ítarlega gagnalíkaninu.
 
@@ -44,13 +44,13 @@ Fylgið þessum skrefum til að búa til þessar nýju töfluheimildir:
 
     Búa þarft til þrjár nýjar heimildir:
 
-    + Tenging tengiliðs við aðila
-    + Tenging aðila að reikningi
-    + Reikningur til að panta tengingu
+    + **Tengiliður** í töflutengingu **Aðila**
+    + **Aðili** í töflutengingu **Lykils**
+    + **Lykill** í töflutengingu **Pöntunar**
 
 4. Búa til og vista nýja heimild fyrir tengingu tengiliðs við aðila og stilla þessar færibreytur:
 
-    + **Heiti**: Tenging aðila að reikningi (eða eigið val)
+    + **Heiti**: **Aðili** í töflutengingu **Lykils** (eða eigið val)
     + **Töfluheiti**: msdyn_contactforparty
     + **Vefsvæði**: Gátt viðskiptavinar
     + **Umfang**: Tengiliður

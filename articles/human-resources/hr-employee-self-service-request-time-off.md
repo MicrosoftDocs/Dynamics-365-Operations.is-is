@@ -2,7 +2,7 @@
 title: Biðja um frí
 description: Biðja um frí í Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/21/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da04e3f93f381fbe25c7e1ed117b7ce10e8b04e9
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357192"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639559"
 ---
 # <a name="request-time-off"></a>Biðja um frí
 
@@ -41,6 +41,8 @@ ms.locfileid: "6357192"
 5. Sláðu inn upplýsingar í **Athugasemd**, ef þess er þörf.
 
 6. Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína. Annars skaltu velja **Vista uppkast**.
+
+Starfsmenn sem senda inn nýja leyfisbeiðni geta valið úr mismunandi leyfisgerðum til að setja saman leyfsbeiðnina. Allar leyfisgerðir sem eru valdar sem hluti af einni leyfisbeiðni eiga að vera með sömu leyfiseininguna. Starfsmenn geta skoðað leyfiseininguna fyrir hverja leyfisgerð í skjámyndinni **Beiðni um frí**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Bæta viðhengi við fyrirliggjandi beiðni
 
