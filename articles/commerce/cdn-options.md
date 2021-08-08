@@ -2,7 +2,7 @@
 title: Valkostir innleiðingar á efnisbirtingarneti
 description: Í þessu efnisatriði er farið yfir mismunandi valmöguleika fyrir innleiðingu efnisbirtingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce-umhverfum. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351250"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657120"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Valkostir innleiðingar á efnisbirtingarneti
 
@@ -50,7 +50,7 @@ Frekari upplýsingar um hvernig setja á upp tilvik Azure Front Door fyrir svæ�
 
 | VIÐF | Gallar |
 |------|------|
-| <ul><li>Tilvikið er innifalið í kostnaði Commerce.</li><li>Vegna þess að Commerce-teymið stjórnar tilvikinu þarf minna viðhald og boðið er upp á uppsetningarleiðbeiningar.</li><li>Tölvukerfi hýst af Azure er stillanlegt, öruggt og áreiðanlegt.</li><li>SSL-vottorð krefst uppsetningar í eitt skipti og er sjálfkrafa endurnýjað.</li><li>Commerce-teymið fylgist með villum og frávikum í tilvikinu.</li></ul> | <ul><li>EF WAF er ekki stutt.</li><li>Engar sérstakar sérstillingar eða breytingar á stillingum eru til staðar.</li><li>Tilvikið er háð Commerce-teyminu hvað varðar uppfærslur og breytingar.</li><li>Sérstakt tilvik af Azure Front Door er nauðsynlegt fyrir apex-lén og leggja þarf aukavinnu í að samþætta apex-lén við Azure DNS.</li><li>Viðskiptavinurinn fær engar fjarmælingar á svörum á sekúndu (RPS) eða villutíðni.</li></ul> |
+| <ul><li>Tilvikið er innifalið í kostnaði Commerce.</li><li>Vegna þess að Commerce-teymið stjórnar tilvikinu þarf minna viðhald og boðið er upp á uppsetningarleiðbeiningar.</li><li>Tölvukerfi hýst af Azure er stillanlegt, öruggt og áreiðanlegt.</li><li>SSL-vottorð krefst uppsetningar í eitt skipti og er sjálfkrafa endurnýjað.</li><li>Commerce-teymið fylgist með villum og frávikum í tilvikinu.</li></ul> | <ul><li>WAF er ekki stutt.</li><li>Engar sérstakar sérstillingar eða breytingar á stillingum eru til staðar.</li><li>Tilvikið er háð Commerce-teyminu hvað varðar uppfærslur og breytingar.</li><li>Sérstakt tilvik af Azure Front Door er nauðsynlegt fyrir apex-lén og leggja þarf aukavinnu í að samþætta apex-lén við Azure DNS.</li><li>Viðskiptavinurinn fær engar fjarmælingar á svörum á sekúndu (RPS) eða villutíðni.</li></ul> |
 
 Eftirfarandi mynd sýnir hönnun Azure Front Door-tilviks sem Commerce útvegar.
 
@@ -74,7 +74,7 @@ Eftirfarandi mynd sýnir tölvukerfi Commerce sem inniheldur tilvik Azure Front 
 
 | VIÐF | Gallar |
 |------|------|
-| <ul><li>Þessi valkostur er gagnlegur þegar núverandi lén eru þegar hýst í ytra CDN.</li><li>CDN keppinautar (til dæmis Akamai) kunna að hafa fleiri WAF-möguleika.</li></ul> | <ul><li>Annar samningur og viðbótarkostnaður er nauðsynlegur.</li><li>SSL gæti sett á viðbótarkostnað.</li><li>Þar sem þjónustan er aðskilin frá skýjaskipulagi Azure, verður að hafa umsjón með öðru kerfi.</li><li>Þjónustan gæti krafist lengri fjárfestingu á tíma í uppsetningu endastöðvar og öryggis.</li><li>Þjónustan er sjálfstýrð.</li><li>Þjónustunni fylgir eigið eftirlit.</li></ul> |
+| <ul><li>Þessi valkostur er gagnlegur þegar núverandi lén eru þegar hýst í ytra CDN.</li><li>WAF: Fer eftir ytri þjónustuaðila.</li></ul> | <ul><li>Annar samningur og viðbótarkostnaður er nauðsynlegur.</li><li>SSL gæti sett á viðbótarkostnað.</li><li>Þar sem þjónustan er aðskilin frá skýjaskipulagi Azure, verður að hafa umsjón með öðru kerfi.</li><li>Þjónustan gæti krafist lengri fjárfestingu á tíma í uppsetningu endastöðvar og öryggis.</li><li>Þjónustan er sjálfstýrð.</li><li>Þjónustunni fylgir eigið eftirlit.</li></ul> |
 
 Eftirfarandi mynd sýnir tölvukerfi Commerce sem inniheldur ytri CDN-þjónustu.
 

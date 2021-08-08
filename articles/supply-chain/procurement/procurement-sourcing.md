@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337930"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647207"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -76,13 +76,12 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Stofna endurtekna innkaupapöntun](tasks/create-repeat-purchase-order.md)
 -   [Stofna innkaupapöntun úr sölupöntun](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Innkaupapöntun fyrir eins skiptis birgi](tasks/create-purchase-order-one-time-supplier.md)
--   [Stofna innkaupapöntun með afhendingaráætlun.](tasks/create-purchase-order-delivery-schedule.md)
--   [Stofnun innkaupaskilapöntunar](tasks/create-purchase-return-order.md)
--   [Stofna úttektarpöntun innkaupa úr innkaupasamningi](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Stofna úttektarpöntun innkaupa þegar innkaupapöntun er búin til](tasks/create-purchase-release-order-creating-purchase-order.md)
+-   [Stofna innkaupapöntun með afhendingaráætlun](tasks/create-purchase-order-delivery-schedule.md)
+-   [Stofna innkaupaskilapöntun](tasks/create-purchase-return-order.md)
+-   [Nota innkaupasamning þegar innkaupapöntun er stofnuð](tasks/create-purchase-release-order-purchase-agreement.md)
 -   [Stofna áfyllingarpöntun vörusendingar](../inventory/tasks/create-consignment-replenishment-order.md)
 
-## <a name="prices-and-discounts"></a>Verð og afslættir
+## <a name="prices-and-discounts"></a>Verð og afsláttur
 -   [Innkaupasamningar](purchase-agreements.md)
 -   [Stofna innkaupasamning](tasks/create-purchase-agreement.md)
 -   [Eftirágreiddur afsláttur lánardrottins](/dynamics/s-e/) (hvítbók)

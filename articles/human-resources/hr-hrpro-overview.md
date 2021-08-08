@@ -2,7 +2,7 @@
 title: Yfirlit
 description: Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að setja upp Human Resources, setja upp bætur og bætur fyrir starfsmenn þína og stjórna vinnuafli þínu.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338055"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639511"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -101,7 +101,8 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 [Skoða greiningu á leyfum og fjarvistum](hr-leave-and-absence-analytics.md)</br>
 [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)</br>
 [Biðja um frí](hr-employee-self-service-request-time-off.md)</br>
-[Skoða dagbækur hóps og fyrirtækis](hr-employee-self-service-calendar.md)</br>
+[Skoða dagatöl hóps og fyrirtækis](hr-employee-self-service-calendar.md)</br>
+[Sérstilla hlutverk fjarvistastjórnanda](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>Þróa starfsmenn
 

@@ -4,24 +4,17 @@ description: Þetta efni lýsir samþættingu viðskiptavinaupplýsinga milli Fi
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8f85759f650e1c0e2a1d228b6429d218edac8ef4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350912"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542540"
 ---
 # <a name="integrated-customer-master"></a>Samþættur aðalviðskiptavinur
 
@@ -29,8 +22,7 @@ ms.locfileid: "6350912"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Hægt er að ná góðum tökum á gögnum viðskiptavina í fleiri en einu Dynamics 365 forriti. Til dæmis getur viðskiptavinarlína átt uppruna í söluverkþætti í Dynamics 365 Sales (líkanaknúið forrit í Dynamics 365) eða þá að lína getur átt uppruna sinn í smásöluaðgerð Dynamics 365 Commerce (Finance and Operations-forrit). Óháð því hvaðan viðskiptavinagögnin eiga uppruna sinn eru þau samofin bak við tjöldin. Innbyggður viðskiptavinameistari veitir þér sveigjanleika til að ná góðum tökum á gögnum viðskiptavina í hvaða Dynamics 365 forriti sem er og gefur yfirgripsmikla sýn yfir viðskiptavininn í Dynamics 365 forritssvítunni.
+Hægt er að ná góðum tökum á gögnum viðskiptavina í fleiri en einu Dynamics 365 forriti. Til dæmis getur viðskiptavinarlína átt uppruna í söluaðgerð í Dynamics 365 Sales (forriti viðskiptavinar) eða lína getur átt uppruna sinn í smásöluaðgerð í Dynamics 365 Commerce (fjármála- og rekstrarforrit). Óháð því hvaðan viðskiptavinagögnin eiga uppruna sinn eru þau samofin bak við tjöldin. Innbyggður viðskiptavinameistari veitir þér sveigjanleika til að ná góðum tökum á gögnum viðskiptavina í hvaða Dynamics 365 forriti sem er og gefur yfirgripsmikla sýn yfir viðskiptavininn í Dynamics 365 forritssvítunni.
 
 ## <a name="customer-data-flow"></a>Gagnaflæði viðskiptavinar
 
@@ -50,43 +42,18 @@ Viðskiptavini er hægt að flokka í stórum dráttum í tvær gerðir: viðski
 
 Viðskiptavinagögn innihalda allar upplýsingar um viðskiptavininn, svo sem viðskiptavinahópinn, heimilisföng, tengiliðaupplýsingar, greiðslusnið, reikningssnið og vildarstöðu. Safn af töflukortum vinna saman í gagnasamskiptum viðskiptavinar, eins og sýnt er í eftirfarandi töflu.
 
-Finance and Operations-smáforrit | Önnur Dynamics 365 forrit         | Lýsing
+Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla         | lýsing
 ----------------------------|---------------------------------|------------
-Tengiliðir fyrir skuldatryggingu V2             | tengiliðir                        | Þetta sniðmát samstillir allar aðal-, aðrar og þriðju tengiliðaupplýsingar, bæði fyrir viðskiptavini og framleiðendur.
-Viðskiptavinaflokkar             | msdyn_customergroups            | Þetta sniðmát samstillir upplýsingar um hóp viðskiptavina.
-Greiðslumáti viðskiptavinar     | msdyn_customerpaymentmethods    | Þetta sniðmát samstillir upplýsingar um greiðslumáta viðskiptavina.
-Viðskiptavinir V3                | lyklar                        | Þetta sniðmát samstillir aðalupplýsingar viðskiptavina fyrir viðskiptamenn og fyrirtækjaviðskiptavini.
-Viðskiptavinir V3                | tengiliðir                        | Þetta sniðmát samstillir aðalgögn viðskiptavina fyrir neytendur og endanotendur.
-Viðskeyti nafna                | msdyn_nameaffixes               | Þetta sniðmát samstillir tilvísunargögn nafnaviðskeyta, bæði fyrir viðskiptavini og lánardrottna.
-Greiðsludagalínur CDS V2    | msdyn_paymentdaylines           | Þetta sniðmát samstillir tilvísunargögn greiðsludagalína, bæði fyrir viðskiptavini og lánardrottna.
-Greiðsludagar CDS            | msdyn_paymentdays               | Þetta sniðmát samstillir tilvísunargögn greiðsludaga, bæði fyrir viðskiptavini og lánardrottna.
-Greiðsluáætlunarlínur      | msdyn_paymentschedulelines      | Samstillir tilvísunargögn greiðsluáætlunarlína, bæði fyrir viðskiptavini og lánardrottna.
-Greiðsluáætlun            | msdyn_paymentschedules          | Þetta sniðmát samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
-Greiðsluskilmálar            | msdyn_paymentterms              | Þetta sniðmát samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping contacts contacts](includes/CDSContactsV2-contacts.md)]
-
-[!include [mapping customer group](includes/CustCustomerGroup-msdyn-customergroups.md)]
-
-[!include [mapping customer payment method](includes/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
-
-[!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
-
-[!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
-
-[!include [mapping payment day lines](includes/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
-
-[!include [mapping payment days](includes/PaymentDaysCds-msdyn-paymentdays.md)]
-
-[!include [mapping payment schedule lines](includes/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
-
-[!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
-
-[!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
+[Tengiliðir fyrir skuldatryggingu V2](mapping-reference.md#115) | tengiliðir | Þetta sniðmát samstillir allar aðal-, aðrar og þriðju tengiliðaupplýsingar, bæði fyrir viðskiptavini og framleiðendur.
+[Viðskiptavinaflokkar](mapping-reference.md#126) | msdyn_customergroups | Þetta sniðmát samstillir upplýsingar um hóp viðskiptavina.
+[Greiðslumáti viðskiptavinar](mapping-reference.md#127) | msdyn_customerpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta viðskiptavina.
+[Viðskiptavinir V3](mapping-reference.md#101) | lyklar | Þetta sniðmát samstillir aðalupplýsingar viðskiptavina fyrir viðskiptamenn og fyrirtækjaviðskiptavini.
+[Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir | Þetta sniðmát samstillir aðalgögn viðskiptavina fyrir neytendur og endanotendur.
+[Viðskeyti nafna](mapping-reference.md#155) | msdyn_nameaffixes | Þetta sniðmát samstillir tilvísunargögn nafnaviðskeyta, bæði fyrir viðskiptavini og lánardrottna.
+[Greiðsludagalínur CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Þetta sniðmát samstillir tilvísunargögn greiðsludagalína, bæði fyrir viðskiptavini og lánardrottna.
+[Greiðsludagar CDS](mapping-reference.md#158) | msdyn_paymentdays | Þetta sniðmát samstillir tilvísunargögn greiðsludaga, bæði fyrir viðskiptavini og lánardrottna.
+[Greiðsluáætlunarlínur](mapping-reference.md#159) | msdyn_paymentschedulelines | Samstillir tilvísunargögn greiðsluáætlunarlína, bæði fyrir viðskiptavini og lánardrottna.
+[Greiðsluáætlun](mapping-reference.md#160) | msdyn_paymentschedules | Þetta sniðmát samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
+[Greiðsluskilmálar](mapping-reference.md#161) | msdyn_paymentterms | Þetta sniðmát samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
