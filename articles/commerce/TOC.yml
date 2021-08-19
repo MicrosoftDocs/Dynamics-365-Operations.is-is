@@ -94,6 +94,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (október 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (júní 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Sleppa svarglugganum „Breyta gjalddaga“ á sölustað
                       href: dev-itpro/skip-change-due.md
-                    - name: Adyen-greiðslutengill
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector fyrir Adyen
+                      items:
+                        - name: Yfirlit Dynamics 365 Payment Connector fyrir Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Setja upp Dynamics 365 Payment Connector fyrir Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Algengar spurningar um Dynamics 365 Payment Connector fyrir Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Úrræðaleit fyrir Dynamics 365 Payment Connector fyrir Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Vista netgreiðslumáta með Adyen-tengli
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Öflug sannvottun viðskiptavinar (SCA) með Adyen-tengli
@@ -1182,6 +1192,10 @@
               items:
                 - name: Búa til skýrslur fyrir netrás
                   href: generate-reports.md
+            - name: Markhópur
+              items:
+                - name: 'Markhópur eftir tæki, markaðssvæði og staðsetningu'
+                  href: targeting-overview.md
             - name: Tilraunir
               items:
                 - name: Tilraunir í Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Staðfæring Commerce fyrir Rússland
                   href: localizations/rus-commerce-localization.md
+                - name: Setja upp staðfæringu Commerce fyrir Rússland
+                  href: localizations/rus-commerce-setup.md
+                - name: Fyrirframgreiðslur í Commerce fyrir Rússland
+                  href: localizations/rus-commerce-prepayments.md
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
