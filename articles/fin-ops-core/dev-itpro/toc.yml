@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.21 (október 2021)
+                  href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
@@ -446,7 +448,9 @@
                       href: deployment/onprem-adfscompatibility.md
                     - name: Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum
                       href: lifecycle-services/pre-post-scripts.md
-                    - name: Uppfæra staðbundinn eftirlitsbúnað
+                    - name: Skilgreiningar uppsetningar fyrir umboðsmann á staðnum
+                      href: deployment/onprem-localagent-options.md
+                    - name: Uppfæra umboðsmann á staðnum
                       href: lifecycle-services/update-local-agent.md
                 - name: Úrræðaleit
                   items:
