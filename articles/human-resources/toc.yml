@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 26. júlí 2021
+          href: hr-whats-new-2021-07-26.md
         - name: 12. júlí 2021
           href: hr-whats-new-2021-07-12.md
         - name: 22. júní 2021
@@ -27,38 +29,38 @@
           href: hr-whats-new-2021-01-28.md
         - name: 21. janúar 2021
           href: hr-whats-new-2021-01-21.md
-        - name: 2. desember 2020
-          href: hr-whats-new-2020-12-02.md
-        - name: 22. október 2020
-          href: hr-whats-new-2020-10-22.md
-        - name: 6. október 2020
-          href: hr-whats-new-2020-10-06.md
-        - name: 26. september 2020
-          href: hr-whats-new-2020-09-26.md
-        - name: 16. september 2020
-          href: hr-whats-new-2020-09-16.md
-        - name: 3. september 2020
-          href: hr-whats-new-2020-09-03.md
-        - name: 20. ágúst 2020
-          href: hr-whats-new-2020-08-20.md
-        - name: 6. ágúst 2020
-          href: hr-whats-new-2020-08-06.md
-        - name: 23. júlí 2020
-          href: hr-whats-new-2020-07-23.md
-        - name: 8. júlí 2020
-          href: hr-whats-new-2020-07-08.md
-        - name: 25. júní 2020
-          href: hr-whats-new-2020-06-23.md
-        - name: 11. júní 2020
-          href: hr-whats-new-2020-06-11.md
-        - name: 28. maí 2020
-          href: hr-whats-new-2020-05-28.md
-        - name: 14. maí 2020
-          href: hr-whats-new-2020-05-14.md
-        - name: 1. maí 2020
-          href: hr-whats-new-2020-05-01.md
         - name: Safnvistaðar nýjungar 2020
           items:
+            - name: 2. desember 2020
+              href: hr-whats-new-2020-12-02.md
+            - name: 22. október 2020
+              href: hr-whats-new-2020-10-22.md
+            - name: 6. október 2020
+              href: hr-whats-new-2020-10-06.md
+            - name: 26. september 2020
+              href: hr-whats-new-2020-09-26.md
+            - name: 16. september 2020
+              href: hr-whats-new-2020-09-16.md
+            - name: 3. september 2020
+              href: hr-whats-new-2020-09-03.md
+            - name: 20. ágúst 2020
+              href: hr-whats-new-2020-08-20.md
+            - name: 6. ágúst 2020
+              href: hr-whats-new-2020-08-06.md
+            - name: 23. júlí 2020
+              href: hr-whats-new-2020-07-23.md
+            - name: 8. júlí 2020
+              href: hr-whats-new-2020-07-08.md
+            - name: 25. júní 2020
+              href: hr-whats-new-2020-06-23.md
+            - name: 11. júní 2020
+              href: hr-whats-new-2020-06-11.md
+            - name: 28. maí 2020
+              href: hr-whats-new-2020-05-28.md
+            - name: 14. maí 2020
+              href: hr-whats-new-2020-05-14.md
+            - name: 1. maí 2020
+              href: hr-whats-new-2020-05-01.md
             - name: 13. apríl 2020
               href: hr-whats-new-2020-04-13.md
             - name: 3. apríl 2020
@@ -473,6 +475,10 @@
                   href: hr-admin-integration-payroll-api-leave-type.md
                 - name: Leyfisbeiðni
                   href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Einingar sem tengjast fríðindum
+              items:
+                - name: Fríðindaáætlun starfskrafts á launaskrá
+                  href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
             - name: Valkostasett
               items:
                 - name: Kyn
@@ -483,7 +489,11 @@
                   href: hr-admin-integration-payroll-api-award-type.md
                 - name: Gerð ferlis
                   href: hr-admin-integration-payroll-api-process-type.md
-    - name: Notandahandbók
+                - name: Umfang gerðar fríðindaáætlunar
+                  href: hr-admin-integration-payroll-api-benefit-plan-type-cover.md
+                - name: Staða fríðindaáætlunar starfsmanns
+                  href: hr-admin-integration-payroll-api-benefit-employee-plan-status.md
+    - name: Notkunarleiðbeiningar
       items:
         - name: Yfirlit
           href: hr-hrpro-overview.md
