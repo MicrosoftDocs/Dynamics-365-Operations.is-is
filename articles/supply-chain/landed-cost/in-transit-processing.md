@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744799"
 ---
 # <a name="goods-in-transit-processing"></a>Vinnsla á vörum í flutningi
 
@@ -104,6 +104,7 @@ Einnig er hægt að taka á móti vörum með því að stofna komubók. Hægt e
 1. Opnið ferð, gám eða fólíó.
 1. Á aðgerðasvæðinu, í flipanum **Stjórna**, í flokknum **Aðgerðir**, skal velja **Stofna komubók**.
 1. Í svarglugganum **Stofna komubók** skal stilla eftirfarandi gildi:
+
     - **Frumstilla magn** – Stillið þennan valkost á *Já* til að stilla magnið úr magni í sendingu. Ef þessi valkostur er stilltur á *Nei* er ekkert sjálfgefið magn stillt í línum fyrir vörur í flutningi.
     - **Stofna úr vörum í flutningi** – Stillið þennan valkost á *Já* til að taka magn úr völdum vöruflutningslínum fyrir valda ferð, gám eða fólíó.
     - **Stofna úr pöntunarlínum** – Stillið þennan valkost á *Já* til að stilla sjálfgefið magn í komubók úr innkaupapöntunarlínunum. Aðeins er hægt að stilla sjálfgefið magn í komubókina á þennan hátt ef magnið í innkaupapöntunarlínunni stemmir við magnið í vöruflutningspöntuninni.
@@ -140,4 +141,21 @@ Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í f
 
 ### <a name="work-templates"></a>Vinnusniðmát
 
+Þessi hluti lýsir eiginleikum sem einingin **Heildarkostnaður** bætir við vinnusniðmát.
+
+#### <a name="goods-in-transit-work-order-type"></a>Verkbeiðnigerð fyrir vörur í flutningi
+
 Heildarkostnaður bætir við nýrri vinnupöntunargerð sem heitir *Vörur í flutningi* á síðuna **Vinnusniðmát**. Þessi gerð vinnupöntunar ætti að vera skilgreind á sama hátt og [vinnusniðmát innkaupapöntunar](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Byrjunarmerkisbil
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Hægt er að stilla vinnusniðmát sem eru með verkbeiðnigerðina *Vörur í flutningi* til að skipta vinnuhausum. Á síðunni **Vinnusniðmát** skaltu fylgja einum af þessum skrefum.
+
+- Í flipanum **Almennt** fyrir sniðmátið skal stilla hámarksstærð vinnuhausa. Þessi hámarksgildi virka á sama hátt og fyrir vinnusniðmát innkaupapantana. (Frekari upplýsingar er að finna í [vinnusniðmát innkaupapöntunar](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Notið hnappinn **Vinnuhausaskil** til að skilgreina hvenær kerfið á að búa til nýja vinnuhausa út frá reitum sem eru notaðir fyrir flokkun. Til að búa til dæmis til vinnuhaus fyrir hvert geymslukenni skal velja **Breyta fyrirspurn** á aðgerðasvæðinu og bæta síðan reitnum **Geymslukenni** við flipann **Flokkun** í fyrirspurnarritli. Hægt er að velja reiti sem bætt er við flipann **Flokkun** sem *flokkunarreiti*. Til að stilla flokkunarreiti skal velja **Vinnuhausaskil** á aðgerðasvæði og síðan, fyrir hvern reit sem á að nota sem flokkunarsvæði, Veljið gátreitinn í dálkinum **Flokka eftir þessum reit**.
+
+Heildarkostnaður [býr til umframfærslu](over-under-transactions.md) ef skráð magn fer yfir upprunalegt pöntunarmagn. Þegar vinnuhaus er lokið uppfærir kerfið stöðu birgðafærslna fyrir aðalpöntunarmagnið. Það uppfærir þó fyrst magnið sem tengt er umframfærslunni eftir að aðalmagni hefur allt verið keypt.
+
+Ef þú hættir við vinnuhaus fyrir umframfærslu sem þegar hefur verið skráð er umframfærslan fyrst minnkuð um því sem nemur magninu sem hætt var við. Þegar að umframmagnið hefur verið lækkað í magnið 0 (núll) er færslan fjarlægð og allt aukamagn er afskráð í aðalpöntunarmagninu.

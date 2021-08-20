@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716493"
 ---
 # <a name="rebate-management-deals"></a>Tilboð fyrir stjórnun eftirágreidds afsláttar
 
@@ -102,6 +102,7 @@ Tilboð vegna stjórnunar eftirágreidds afsláttar eru notuð til að stjórna 
         - *Allt* – Tilboðslínan á við um allar vörur.
 
     - **Vöruvensl** Ef valið var *Tafla* í reitnum **Vörukóði** skal velja vöruna sem tilboðslínan á við um. Ef valið var *Hópur* skal velja vöruhópinn. Ef valið var *Allt* verður þessi reitur ekki tiltækur.
+    - **Tegund einingar** – Veldu tegund einingar sem á við um vörulínuna (*Birgðaeining* eða *Þyngd afurðar, eining*). Athugið að þessi reitur gæti verið auður fyrir eldri færslur. Í þessu tilfelli er gert ráð fyrir *Birgðaeining*.
     - **(Færibreytur birgðastjórnunar)** – Í reitunum sem eftir eru í tilboðslínunni skal tilgreina gildi fyrir færibreytur birgðastjórnunar sem verða notaðar til að skilgreina vörurnar sem hafðar eru með í tilboðinu (t.d. vörustærð, lit, stíl, svæði og vöruhús). Til að bæta við eða fjarlægja víddirnar skal velja **Birta víddir** á aðgerðasvæðinu.
 
 1. Í aðgerðarúðunni skal velja **Vista**.

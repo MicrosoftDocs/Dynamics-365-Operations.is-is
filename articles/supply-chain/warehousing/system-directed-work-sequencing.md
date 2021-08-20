@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e349df6b7e2a627562c65b961385625b0ad95b5423fa25b9139af3a8a227321b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733325"
 ---
 # <a name="system-directed-work-sequencing"></a>Kerfisstýrð vinnuröðun
 
@@ -140,7 +140,7 @@ Til að vinna í gegnum aðstæðurnar með því að nota gildin sem eru kynnt 
 
 ### <a name="location-directives"></a>Staðsetningarleiðbeiningar
 
-Ef þú ert að nota sjálfgefin Contoso gögn þarf ekki að breyta fyrirspurninni um aðgerðir í staðsetningarleiðbeiningum. Hins vegar, til að ganga úr skugga um að staðsetningarleiðbeiningarnar fangi atriðin í sölupöntunum þegar þú notar aðgerðina í umhverfi sem ekki er frá Contoso skaltu búa til nýjar staðsetningarleiðbeiningar. Fylgdu þessum skrefum til að staðfesta stillingarnar í sýniútgáfuumhverfinu.
+Ef þú ert að nota sjálfgefin Contoso-gögn þarf ekki að breyta fyrirspurninni um aðgerðir í staðsetningarleiðbeiningum. Hins vegar, til að ganga úr skugga um að staðsetningarleiðbeiningarnar fangi atriðin í sölupöntunum þegar þú notar aðgerðina í umhverfi sem ekki er frá Contoso skaltu búa til nýjar staðsetningarleiðbeiningar. Fylgdu þessum skrefum til að staðfesta stillingarnar í sýniútgáfuumhverfinu.
 
 1. Farðu í **Vöruhúsakerfi** \> **Uppsetning** \> **Staðsetningarleiðbeiningar**.
 1. Í reitnum **Gerð verkbeiðni** velurðu *Sölupantanir*.

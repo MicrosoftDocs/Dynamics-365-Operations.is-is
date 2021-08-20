@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740696"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -142,7 +142,7 @@ Eftirfarandi verkbeiðnigerðir eru studdar fyrir vinnuálag WES sem stendur í 
 
 - Sölupantanir
 - Flutningsútgáfa
-- Áfylling
+- Áfylling (að undanskildum hráefnum fyrir framleiðslu)
 - Birgðahreyfing
 - Regluleg talning
 - Innkaupapantanir (tengdar við vöruhúsapantanir)
@@ -298,6 +298,7 @@ Eftirfarandi tafla dregur saman hvaða framleiðsluaðstæður vöruhúsakerfi e
 | Tilkynna sem lokið og frágangur tilbúinna afurða | Já | Já |
 | Frágangur aukaafurða og hliðarafurða | Já | Já |
 | <p>Öll önnur vöruhúsakerfisferli sem tengjast framleiðslu, þ.m.t.:</p><li>Losa í vöruhús</li><li>Bylgjuvinnsla framleiðslu</li><li>Tiltekt hráefnis</li><li>Kanban-frágangur</li><li>Kanban-tiltekt</li><li>Hefja framleiðslupöntun</li><li>Framleiðslurýrnun</li><li>Síðasta bretti framleiðslu</li><li>Skrá efnisnotkun</li><li>Tæma kanban</li></ul> | Já | Ekkert |
+| Áfylling hráefnis | Ekkert | Ekkert |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Vinna með einingarkvörðum fyrir WES
 
