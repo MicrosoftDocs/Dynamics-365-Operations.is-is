@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780675"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 
@@ -102,7 +102,7 @@ Núverandi framleiðsluumhverfi verður að vera merkt með gerðinni **Sjálfsa
 > [!IMPORTANT]
 > Umhverfisgerðir sem keyra sem IaaS-þjónusta eru ekki studdar. Þessi umhverfi eru venjulega merkt með **Microsoft Managed** gerðinni í LCS. Ef þú ert með umhverfi af þessari gerð skaltu hafa samband við tengilið þinn hjá Microsoft til að komast að tímalínu á flutningi yfir í gerðina **Sjálfsafgreiðsla**.
 
-Microsoft er að vinna að því að flytja öll skýjaumhverfi Supply Chain Management úr IaaS-líkani í grannfræði sem hýst er í Service Fabric. Þessi flutningur eykur sveigjanleika og stuðlar að auðveldari þjónustustjórnun. Fyrir vikið verða uppsetningar- og viðhaldsaðgerðir hraðari. Einnig er verið að flytja þjónustuíhluti yfir í örþjónustur og hýsingarlíkan þjónustunnar mun [breytast](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) úr líkani sýndarvélar og yfir í létta hólfahönnun.
+Microsoft er að vinna að því að flytja öll skýjaumhverfi Supply Chain Management úr IaaS-líkani í grannfræði sem hýst er í Service Fabric. Þessi flutningur eykur sveigjanleika og stuðlar að auðveldari þjónustustjórnun. Fyrir vikið verða uppsetningar- og viðhaldsaðgerðir hraðari. Einnig er verið að flytja þjónustuíhluti yfir í örþjónustur og hýsingarlíkan þjónustunnar mun [breytast](/virtualization/windowscontainers/about/containers-vs-vm) úr líkani sýndarvélar og yfir í létta hólfahönnun.
 
 Fyrir vikið mun sama hólfaða þjónustukerfi sem byggir á Service Fabric knýja bæði skýja- og jaðratilvik þjónustunnar burtséð frá því hvort tilvik sé miðstöð í skýinu eða einingarkvarði í skýinu eða jaðrinum.
 

@@ -2,7 +2,7 @@
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720085"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nýir eiginleikar, lagfæringar og bætur í útgáfu 2.0.7.0
+
+- Bætti kafla við síðuna **Um** sem athugar nýjust útgáfur forritsins.
+- Gerði það auðveldara að strjúka milli síðna.
+- Breytti tákninu fyrir hækkandi/lækkandi hnappinn í verkefnalistanum.
+- Minnkaði spássíurnar á **Upplýsingaspjaldinu** til að gera kleift að koma meiri upplýsingum á það.
+- Notaði ýmsar endurbætur á afköstum til að draga úr vandamálinu varðandi að forritið hægi á sér með tímanum.
+- Ef það eru fleiri stýringar en sem komast fyrir á skjánum, sem leiðir til síðuskiptinga, flettir snúningsstýringin ekki á sama hátt og síðan.
+- Forgangsraðaðu þannig að síðasta skannaða gildið sjáist á undan verkreitnum, þannig að ef það gildið skarast verður verkreiturinn minnkaður.
+- Ýmis vandamál sem ollu því að kerfið fraus hafa verið löguð.
+- Texti á ýmsum stöðum er ekki lengur skorinn á sumum tungumálum.
+- Forritið keyrir nú sjálfgefið á öllum skjánum.
+- Lagaði vandamál sem olli því stöku sinnum að skannanir voru hunsaðar á aðalsíðunni með ákveðnum tækjum.
+
+### <a name="known-issues-in-version-2070"></a>Þekkt vandamál í útgáfu 2.0.7.0
+
+- Á sumum tækjum færðu eftirfarandi villuboð þegar þú ræsir forritið eða hefur verk: „Finn ekki hentugt yfirlit fyrir uppgefna stærð.“ Ef þú sérð þessi villuboð á einhverjum af tækjunum þínum verður þú að niðurfæra fartækjaforrit Warehouse Management í útgáfu 2.0.6.0 á því tæki og bíða með að uppfæra þar til næsta útgáfa af forritinu er gefin út.
 
 ## <a name="version-2060"></a>Útgáfa 2.0.6.0
 

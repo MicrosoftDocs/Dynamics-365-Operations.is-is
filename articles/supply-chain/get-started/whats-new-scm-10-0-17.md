@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760515"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.17. (apríl 2021)
 
@@ -52,6 +52,8 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 - [Heildarkostnaður](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Frekari upplýsingar eru í [Eining heildarkostnaðar](../landed-cost/landed-cost-overview.md).
 
 - [Pökkun samanborið við geymsluvíddir](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Frekari upplýsingar er að finna í [Stilla mismunandi víddir fyrir pökkun og geymslu](../warehousing/packing-vs-storage-dimensions.md).
+
+- [Samhliða bylgjuúthlutun](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/parallel-wave-allocation)<br> - Frekari upplýsingar er að finna í [Bylgjuúthlutun](../warehousing/wave-allocation-method.md).
 
 - [Vistuð yfirlit fyrir birgðir og vörustjórnun](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Frekari upplýsingar er að finna í [Stöðluð vistuð yfirlit fyrir Supply Chain Management](saved-views-scm.md).
 

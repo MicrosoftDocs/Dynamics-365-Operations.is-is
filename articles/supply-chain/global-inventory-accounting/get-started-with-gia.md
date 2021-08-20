@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336980"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773297"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
@@ -42,7 +42,7 @@ Eins og er styður altækt birgðabókhald ekki alla eiginleika kostnaðarstjór
 > [!IMPORTANT]
 > Til að nota altækt birgðabókhald verður þú að vera með stöðugt LCS-virkjað umhverfi (ekki OneBox-umhverfi). Auk þess þarf að keyra Supply Chain Management útgáfu 10.0.19 eða nýrri.
 
-Til að skrá sig fyrir opinni forútgáfu altæks birgðabókhalds skal senda LCS-umhverfiskennið í tölvupósti á [Teymi altæks birgðabókhalds](mailto:GlobalInventoryAccounting@service.microsoft.com). Þegar þú hefur fengið samþykki fyrir forritinu mun teymið senda þér eftirfylgnipóst sem inniheldur beta-lykil altæks birgðabókhalds og endastöðvar þjónustunnar. Þegar þú hefur fengið beta-lykilinn geturðu [sett upp innbótina](#install).
+Til að skrá sig fyrir opinni forútgáfu altæks birgðabókhalds skal senda LCS-umhverfiskennið í tölvupósti á [Teymi altæks birgðabókhalds](mailto:GlobalInvAccount@microsoft.com). Þegar þú hefur fengið samþykki fyrir forritinu mun teymið senda þér eftirfylgnipóst sem inniheldur beta-lykil altæks birgðabókhalds og endastöðvar þjónustunnar. Þegar þú hefur fengið beta-lykilinn geturðu [sett upp innbótina](#install).
 
 ## <a name="licensing"></a>Leyfisveiting
 

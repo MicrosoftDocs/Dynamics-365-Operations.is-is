@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730011"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -117,6 +117,9 @@ Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal
     - **Raðnúmer:** *1*
     - **Birgðauppruni:** *Innkaupapöntun*
 
+> [!NOTE]
+> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin fyrir sniðmát dreifingarstöðvar er aðeins með töfluna *InventTable* (vörur) og innri tengdu töfluna *WHSInventTable* (vörur vöruhúss). Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
+
 ### <a name="create-a-work-class"></a>Stofna vinnuklasa
 
 1. Fara í **Vöruhúsastjórnun \> Uppsetning \> Vinna \> Vinnuklasar**.
@@ -151,6 +154,9 @@ Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal
     - **Auðkenni vinnuklasa:** *Dreifing frá dreifingarstöð*
 
 1. Veldu **Vista** og staðfestu að hakað sé í gátreitinn **Gilt** fyrir sniðmát *51 dreifingar frá dreifingarstöð*.
+1. Valfrjálst: Veldu **Breyta fyrirspurn** ef þú vilt stilla skilyrði til að stjórna því hvenær og hvar vinnusniðmátið er notað.
+
+    Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið vinnusniðmát er notað. Þú getur til dæmis tilgreint að aðeins sé hægt að nota sniðmát til að virka á ákveðinni staðsetningu. Ef þú vilt að vinnusniðmátið dreifingarstöðvar sé notað á ákveðinni staðsetningu þarftu að sía reitinn **Upphafsstaðsetning**, ekki reitinn **Staðsetning**, vegna þess að stofnun vinnu fyrir ferli á innleið (innkaup, dreifing og áfylling) hefst frá og með frágangslínunni. Þegar vinnan er búin til stillir staðsetningarleiðbeiningin reitinn **Staðsetning** á frágangsstaðsetninguna. Hinsvegar er staðsetning tiltektar geymd í reitnum **Upphafsstaðsetning**.
 
 > [!NOTE]
 > Vinnuklasakenni fyrir vinnugerðir *Tiltektar* og *Frágangs* verða að vera eins.

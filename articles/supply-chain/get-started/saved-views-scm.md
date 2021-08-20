@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728628"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
 
@@ -77,6 +77,18 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu innk
 | Upplýsingar um innkaupapöntun | Fjármálastjórnun | Þetta einfalda yfirlit er fínstillt til að framkvæma fjárhagstengdar aðgerðir, t.d. reikningsfærslur og athugun á verði, samtölum og gjöldum. | Vistuð yfirlit fyrir framleiðslupantanir |
 | Upplýsingar um innkaupapöntun | Samþykki pöntunar | Þetta einfalda yfirlit er fínstillt fyrir samþykkt innkaupapantana. | Vistuð yfirlit fyrir framleiðslupantanir |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Vistuð yfirlit fyrir kerfiseiningu Vöruupplýsingastjórnunar
+
+Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu Afurðaupplýsingastjórnun eininguna.
+
+| Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
+|---|---|---|---|
+| Listi losaðra afurða | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistuð yfirlit fyrir útgefnar afurðir |
+| Upplýsingar um losaðar afurðir | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistuð yfirlit fyrir útgefnar afurðir |
+| Upplýsingar um losaðar afurðir | Stjórnun upplýsinga um afurðastjórnun | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun upplýsinga um afurðastjórnun. | Vistuð yfirlit fyrir útgefnar afurðir |
+| Upplýsingar um losaðar afurðir | Stjórnun kaupupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun kauptengdra upplýsinga um afurðir. | Vistuð yfirlit fyrir útgefnar afurðir |
+| Upplýsingar um losaðar afurðir | Stjórnun söluupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun sölutengdra upplýsinga um afurðir. | Vistuð yfirlit fyrir útgefnar afurðir |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Vistuð yfirlit fyrir einingu framleiðslustýringar
 
 Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu framleiðslustýringar.
@@ -110,8 +122,8 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einigu Vöru
 | Allar sendingar | Vinnsla á innleið | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir til að vinna úr sendingum á innleið. | Vistuð yfirlit fyrir úrvinnslu sendingar |
 | Allar sendingar | Vinnsla á útleið | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir til að vinna úr sendingum á útleið. | Vistuð yfirlit fyrir úrvinnslu sendingar |
 | Allar bylgjur | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir bylgjuvinnslu |
-| Vinnusvæði hleðsluáætlunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir vinnusvæði vinnuáætlunar |
-| Upplýsingar um starf | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir upplýsingasíðu vinnu |
+| Vinnusvæði hleðsluáætlunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir vinnusvæði hleðsluáætlunar |
+| Upplýsingar um starf | Einfaldað | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistað yfirlit fyrir upplýsingasíðu vinnu |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
