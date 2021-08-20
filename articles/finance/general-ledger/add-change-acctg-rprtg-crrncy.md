@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 1fd641d4f60d8ff9710c89f43777f7fd8f378dbc6c73d773ac103f9d9f68e60e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770594"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Breyta bókhalds- eða skýrslugjaldmiðli
 
@@ -63,7 +63,7 @@ Fylgdu þessum skrefum til að afrita uppsetningu og aðalgögn úr núverandi l
 
 1. Opnaðu **Vinnusvæði \> Gagnastjórnun**.
 2. Veldu **Sniðmát** undir flokknum **Innflutningur/útflutningur**.
-3. Gangið úr skugga um að sniðmát séu tiltæk. Ef engin sniðmát eru í boði skaltu velja **Hlaða sjálfgefnum sniðmátum** og hinkra á meðan sniðmátin eru búin til.
+3. Gakktu úr skugga um að sniðmát séu tiltæk. Ef engin sniðmát eru í boði skaltu velja **Hlaða sjálfgefnum sniðmátum** og hinkra á meðan sniðmátin eru búin til.
 4. Farðu aftur á vinnusvæðið **Gagnastjórnun**.
 5. Veldu **Afrita yfir í lögaðila**.
 6. Færðu inn heiti og lýsingu flokksins.
@@ -71,7 +71,7 @@ Fylgdu þessum skrefum til að afrita uppsetningu og aðalgögn úr núverandi l
 8. Í flýtiflipanum **Marklögaðilar** skaltu velja **Stofna lögaðila** til að stofna nýjan lögaðila sem þú getur afritað gögn upprunalögaðilans í. Veldu **Velja fyrirliggjandi** til að afrita gögn í lögaðila sem er til staðar.
 9. Valfrjálst: Stilltu reitinn **Afrita númeraraðir** á **Já**. (Mælt er með þessu skrefi þegar gögnin eru afrituð.)
 10. Í **Valdar einingar** svæðinu skaltu velja **Bæta við sniðmáti**.
-11. Velja sniðmátið sem á að nota. Tillögur að sniðmátum fyrir nýjan lögaðila eru m.a. **025 - Fjárhagur** og **Fjármál**. Við ráðleggjum þér að fara yfir öll hin sniðmátin sem eru í boði til að finna út hvort einhver þeirra uppfylli kröfur þínar.
+11. Velja sniðmátin sem á að nota. Tillögur að sniðmátum fyrir nýjan lögaðila eru m.a. **025 - Fjárhagur** og **Fjármál**. Við ráðleggjum þér að fara yfir öll hin sniðmátin sem eru í boði til að finna út hvort einhver þeirra uppfylli kröfur þínar.
 12. Veldu **Afrita í lögaðila** til að hefja runuvinnslu sem býr til valdar einingar og afritar þær í marklögaðilann.
 13. Eftir að ferlinu er lokið, en áður en færslur eru bókaðar, skaltu fara í fjárhaginn og uppfæra bókhalds- og skýrslugjaldmiðla eins og lýst var fyrr í þessu efnisatriði.
 
