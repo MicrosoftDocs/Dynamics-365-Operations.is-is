@@ -72,6 +72,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (október 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (júní 2021)
@@ -1601,9 +1603,11 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Hafist handa með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/get-started.md
-                - name: Samræmisgreining á fínstillingu skipulagningar
+                - name: Útgáfuferli og útgáfuferill fínstillingar áætlanagerðar
+                  href: master-planning/planning-optimization/release-process.md
+                - name: Samræmisgreining á fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Færibreytur ekki notaðar af fínstillingu skipulagningar
+                - name: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Nota síur á áætlun
                   href: master-planning/planning-optimization/plan-filters.md
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Þekjutímamörk
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Nettóþörf og þarfarakning með fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Samþykkja áætlaðar pantanir
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Staðfesta áætlaðar pantanir
@@ -1707,8 +1713,10 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Skoða áætlaða eftirspurn á útleið innan samstæðu
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Vinna með birgjum innri aðfangakeðju
+                - name: Vinna með viðskiptavinum innri aðfangakeðju
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Spá
               items:
                 - name: Eftirspurnar- og birgðaspá
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: Stofna beiðni um tilboð
                   href: procurement/tasks/create-request-quotation.md
+                - name: Lokuð tilboð fyrir tilboðsbeiðnir
+                  href: procurement/sealed-bidding.md
                 - name: Stofna beiðni sem notar tilboðsbeiðni
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Stofna aðferð við stigagjöf fyrir tilboðsbeiðnir
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Skipulag afurðarlosunar
               href: engineering-change-management/release-product-structure.md
+            - name: Búa til vöruvíddasamsetningar fyrir hönnunarafurðir
+              href: engineering-change-management/engineering-variants.md
             - name: Algengar spurningar um hönnunarbreytingar
               href: engineering-change-management/change-management-faq.md
         - name: Framleiðslustýring
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: Uppsetning og stilling einingar fyrir stjórnun eftirágreidds afsláttar
               items:
+                - name: Virkja einingu fyrir stjórnun eftirágreidds afsláttar fyrir kerfið þitt
+                  href: rebate-management/rebate-management-enable.md
                 - name: Færibreytur fyrir stjórnun eftirágreidds afsláttar
                   href: rebate-management/rebate-management-parameters.md
                 - name: Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Meðhöndla, yfirfara og bóka eftirágreiddan afslátt'
               href: rebate-management/process-review-post.md
+            - name: Stjórna frádrætti með frádráttarvinnusvæði
+              href: rebate-management/deduction-workbench.md
         - name: Sala og markaðsstarf
           items:
             - name: Yfirlit yfir sölu og markaðsstörf
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Meðhöndla yfir-/undirfærslur
               href: landed-cost/over-under-transactions.md
+            - name: Uppfæra rakningu fyrir frágang
+              href: landed-cost/update-tracking-putaway.md
             - name: Fyrirspurnir um heildarkostnað
               href: landed-cost/landed-cost-inquiries.md
             - name: Skýrslur heildarkostnaðar
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Kerfisstýrð klasatiltekt
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Umframtiltekt fyrir sölupantanir og flutningspantanir
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Stilla mismunandi víddir fyrir pakka og geymslu
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Staðfesting lotu og númeraplötu
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Vöruhúsakerfi
               items:
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að viðskiptavinur er í bið
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: Ekki er hægt að staðfesta sendingu vegna þess að farmlínur eru með magnið núll
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: Ekki er hægt að uppfæra farmlínu vegna þess að magn sem losnar yrði neikvætt
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Innhreyfingarskjöl afurða sem hætt hefur verið við uppfæra ekki færslustöðu í „Skráð“
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: Sléttun aukastafa á efnislegu uppfærslumagni er röng
