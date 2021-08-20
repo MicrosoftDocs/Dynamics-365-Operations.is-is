@@ -2,7 +2,7 @@
 title: Algengar spurningar um fjárhagsskýrslugerð
 description: Þetta efnisatriði veitir svör við nokkrum algengum spurningum um fjárhagsskýrslugerð.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733612"
 ---
 # <a name="financial-reporting-faq"></a>Algengar spurningar um fjárhagsskýrslugerð
 
@@ -77,5 +77,29 @@ Skilaboðin gefa til kynna að vandamál hafi komið upp þegar kerfið reyndi a
 
 - Farðu yfir samþættingarstöðu gagnanna með því að fara í **Verkfæri \> Samþættingarstaða** í Report Designer. Ef samþættingunni er ekki lokið skaltu bíða þar til henni líkur. Reyndu svo að gera það aftur sem þú varst að gera þegar skilaboðin birtust.
 - Hafðu samband við notendaþjónustu til að finna vandamálið og lagfæra það. Það kann að vera ósamræmi í gögnum í kerfinu. Tæknimenn hjá notendaþjónustu geta aðstoðað þig við að finna vandamálið á þjóninum og þau tilgreindu gögn sem kunna að þarfnast uppfærslu.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Hvernig hefur val á umreikningi sögulegs gengis áhrif á útkomu skýrslunnar?
+
+Sögulegt gengi er yfirleitt notað fyrir reikninga með óráðstöfuðu eigin fé, varanlegum rekstrarfjármunum og eigin fé. Sögulegt gengi gæti verið áskilið, í samræmi við reglur frá Fjárhagsreikningsskilaráði (FASB) eða settar reikningsskilareglur (GAAP). Nánari upplýsingar eru í [Gjaldmiðilsgeta í fjárhagsskýrslugerð](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Hversu margar tegundir af gjaldmiðilsgengi eru til?
+
+Það eru þrjár tegundir:
+
+- **Núverandi gengi** – Þessi tegund er venjulega notuð með efnahagsreikningum. Það er oftast kallað *stundargengi* og getur verið gengi síðasta dags mánaðarins eða á öðrum fyrirframákveðnum degi.
+- **Meðalgengi** – Þessi tegund er venjulega notuð með rekstrarreikningum (tap/hagnaður). Hægt er að stilla meðalgengi til að fá ýmist einfalt meðaltal eða vegið meðaltal.
+- **Sögulegt gengi** – Þessi tegund er yfirleitt notuð fyrir reikninga með óráðstöfuðu eigin fé, varanlegum rekstrarfjármunum og eigin fé. Þessir reikningar gætu verið áskildir í samræmi við FASB- eða GAAP-reglur.
+
+## <a name="how-does-historical-currency-translation-work"></a>Hvernig virkar sögulegur umreikningur gjaldmiðils?
+
+Gengi fylgir færsludagsetningunni. Því er hver færsla fyrir sig umreiknuð í samræmi við gengið sem á best við.
+
+Við sögulegan umreikning gjaldmiðils má nota forreiknaða stöðu tímabils í stað færsluupplýsinga. Þetta er ólíkt því sem gert er við umreikning núverandi gengis.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Hvernig hefur sögulegur umreikningur gjaldmiðils áhrif á afkomu?
+
+Þegar gögn í skýrslum eru uppfærð gæti orðið töf þar sem endurreikna þarf upphæðir með því að skoða færsluupplýsingar. Þessi töf kemur í hvert skipti sem gengið er uppfært eða fleiri færslur eru bókaðar. Sem dæmi má nefna að ef þúsundir af lyklum eru uppsettir til að gera sögulegan umreikning nokkrum sinnum á dag gæti orðið töf í allt að eina klukkustund áður en gögnin í skýrslunni eru uppfærð. Ef þetta eru hins vegar fáir tilteknir lyklar verður vinnslutími fyrir uppfærslu skýrslugagna aðeins nokkrar mínútur eða minna.
+
+Að sama skapi verða framkvæmdir aukaútreikningar á færslum þegar skýrslur eru búnar til með því að nota umreikning gjaldmiðils fyrir sögulega lykla. Tími við skýrslumyndun getur orðið meira en tvöfalt lengri, allt eftir fjölda lykla.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
