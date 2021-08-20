@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773538"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.19 (júní 2021)
 
@@ -35,6 +35,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar |
 |---|---|---|
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Samþykkja og vista sendar bankaupplýsingar lánardrottins](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Vinna með bankareikningsupplýsingar lánardrottna](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Birgða- og vörustjórnun | [Fínstilling á útflutningi gagnaeiningar tengiliðar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Þegar þessi eiginleiki er virkur, leiða breytingar á gögnum sem vísað er til ekki til þess að tengdir tengiliðir verði teknir með í næsta stigvaxandi útflutningi. Þegar þessi eiginleiki er gerður óvirkur leiða breytingar á gögnum sem vísað er í til þess að tengdir tengiliðir verði teknir með í næsta stigvaxandi útflutningi. |
 | Birgða- og vörustjórnun | [Smávægilegar endurbætur fyrir keyrsluhæfni vöruhúss með kvarðaeiningum](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Skilaboð um skilaboðaúrvinnslu](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Birgðaleiðrétting vöruhúss](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Birgða- og vörustjórnun | [Flettivirkni fyrir reiti upphafsorða og lokaorða skjala á sölutilboðssíðu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Þessi eiginleiki bætir við uppflettivirkni fyrir reitina **Skjalakynning** og **Skjalaniðurstaða** á síðunni **Sölutilboð**.<br><br>Þessi eiginleiki er sjálfgefið virkur. |

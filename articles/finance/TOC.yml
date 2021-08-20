@@ -72,6 +72,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (október 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (júní 2021)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Opna sniðmát fyrir fjárhagsbók í Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Af hverju er ekki hægt að afturkalla þessa færslu?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Fjárhagsskýrslugerð
           items:
             - name: Hafist handa með fjárhagsskýrslugerð
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Búa til nýjan eiginleika fyrir rafræna reikningsfærslu
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Brasilíu
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Nota rafræna reikningsfærsluþjónustu til að flytja inn reikninga lánardrottins
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Setja upp rafrænar reikningsfærslur
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Algengar spurningar um rafrænar reikningsfærslur
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Hafist handa með skattaútreikning
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: Rök fyrir gildissvið virðisaukaskatts og VSK-flokk
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Reikna skatt ofan á verð þegar „Verð eru með sköttum“ er virkt
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Bæta við gagnareitum í skattaskilgreiningum
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
@@ -1528,6 +1540,10 @@
                       items:
                         - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Skýrslugerð fyrir Frakkland
+                          items:
+                            - name: VSK-skýrsla
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Skýrslugerð fyrir Holland
                           items:
                             - name: VSK-skýrsla
@@ -1544,14 +1560,18 @@
               items:
                 - name: Yfirlit yfir Ástralíu
                   href: localizations/australia.md
+                - name: Bankaskráarsnið fyrir ástralska banka
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: Viðskiptaskýrsla (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Bæta við skýrslureitum og búa til viðskiptaskýrslu (BAS)
                   href: localizations/tasks/add-bas-report-boxes.md
                 - name: Afskriftir lágvirðissafns
                   href: localizations/apac-aus-low-value-pool-depreciation.md
-                - name: Setja upp ástæðukóða fyrir BAS
+                - name: Setja upp ástæðukóða fyrir viðskiptaskýrslu
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Skema fyrir skýrslugerð greiðslutíma
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Austurríki
               items:
                 - name: Yfirlit yfir Austurríki
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: Finance and Operations rekið af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Val á reikningsflokkum fyrir kínverskar fylgiskjalsgerðir
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Samanburður uppskrifta
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Kínverskt stigveldi bókhaldslykla
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: VSK-skýrsla (Tékkland)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Bankatákn fyrir bankareikninga
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: VSK innan bandalagsins
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Árslokalokun
                   href: localizations/emea-cze-hun-year-end.md
             - name: Danmörk
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Mynda ESB Intrastat-skattskýrslu
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Franskt Intrastat
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Ítalskt Intrastat
-                      href: localizations/emea-ita-intrastat.md
                 - name: Skýrslur birgðabókar
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Lokadagsetningar reikningsútgáfu
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Franskur víxill og eigin víxill
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Franskt Intrastat
+                  href: localizations/emea-fra-intrastat.md
                 - name: NAF-kóðar og Siret-númer
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: Setja upp NAF-kóða og Siret-númer
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Uppfæra greiðslumáta fyrir viðskiptavin
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2-skýrsla
                   href: localizations/emea-fra-das2-report.md
             - name: Þýskaland
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Rafræn innsending VSK-skýrslu (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Intrastat í Þýskalandi
+                  href: localizations/emea-deu-intrastat.md
                 - name: VSK-skýrsla fyrir Þýskaland
                   href: localizations/emea-de-vat-declaration.md
                 - name: Skýrsla um rafræna reikninga viðskiptavinar
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Uppsetning rafrænna skattskýrslna
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: Prentun sérstaks miða fyrir kreditreikninga úr sölu
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Ungverjaland
               items:
                 - name: Yfirlit yfir Ungverjaland
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Endurbætur á notagildi bankagagna
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Ítalskt Intrastat
+                  href: localizations/emea-ita-intrastat.md
                 - name: Ýmis gjöld á hvert kílógramm í Intrastat-skattskýrslu
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Viljayfirlýsingar - reikningsfæra venjulega útflutningsaðila
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Stöðluð endurskoðunarskrá fyrir skattaupplýsingar (SAF-T) fyrir Litháen
                   href: localizations/emea-ltu-saf-t.md
+                - name: Setja upp flutningsskjöl fyrir vöruflutninga innan fyrirtækis
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Malasía
               items:
                 - name: Yfirlit yfir Malasíu
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Skipta gengismun viðskiptaskulda/viðskiptakrafa
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: Setja upp og nota PKWiU-kóða fyrir Pólland
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Undirbúa JPK-V7M skýrslugjöf
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: JPK-V7M skýrslugjöf
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Upplýsingar um tilteknar viðskiptaaðstæður í JPK-V7M skýrslur
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'Yfirlit yfir VSK-skýrslu ásamt afgreiðslukössum (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: Undirbúa JPK-V7M skýrslugjöf
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: JPK-V7M skýrslugjöf
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Upplýsingar um tilteknar viðskiptaaðstæður í JPK-V7M skýrslu
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Katar
               items:
                 - name: Yfirlit fyrir Katar
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Skattaútreikningur
                   items:
+                    - name: Búa til skattskrár og færslubók skattskrár
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Kostnaðar- og tekjukóðar
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Skattskrár eigna
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Útreikningur á skattskuldum og -inneignum
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Skattskrár vöruflutninga
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Aðrar skattskrár
+                      href: localizations/rus-other-tax-registers.md
             - name: Sádi-Arabía
               items:
                 - name: Yfirlit yfir Sádi-Arabíu
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: VSK-söluskýrsla
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: VSK-meðaltal fyrir innkaupafærslur
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Staðgreiðsluskattur
                   href: localizations/apac-tha-withholding-tax.md
             - name: Sameinuðu arabísku furstadæmin (UAE)

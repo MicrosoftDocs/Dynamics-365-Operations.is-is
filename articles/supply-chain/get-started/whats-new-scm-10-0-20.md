@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773514"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 
@@ -47,7 +47,6 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 | Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
-| Áætlanagerð | Neikvæðir dagar fyrir fínstillingu skipulagningar | Þessi eiginleiki gerir fínstillingu skipulagningar kleift að taka til greina vikmörk tafa út frá færibreytunni **Neikvæðir dagar** sem skilgreind er í þekjuflokkum. |
 | Áætlanagerð | Samhliða heimild leiðréttrar eftirspurnarspár | Þessi eiginleiki býður upp á samhliða heimild leiðréttrar eftirspurnarspár úr síðunni **Leiðrétt eftirspurnarspá**. Tilgangurinn með þessum eiginleika er að auka afköst þegar gefin er heimild fyrir miklum fjölda spáa. Þegar heimild er gefin getur notandinn tilgreint **fjölda þráða** í svarglugga heimildar. |
 | Áætlanagerð | (Forútgáfa) Runuhæf staðfesting og sameining fyrir áætlaðar runupantanir magns og pakka | Þessi eiginleiki gerir þér kleift að nota runuvinnslur til að staðfesta og sameina áætlaðar magn- og pakkapantanir. |
 | Framleiðslustýring | Afrita almennar leiðir | Þessi eiginleiki bætir afritunaraðgerð leiðar sem gerir notendum kleift að afrita leiðir sem tengjast ekki vöru. Hann gerir kerfinu kleift að uppfæra allar viðeigandi upplýsingar (svo sem svæði, leiðaflokk, tilfangaþörf og ýmsa tíma) þegar afritunaraðgerð leiðar hefur verið notuð til að skrifa yfir leið sem ekki er enn búið að úthluta á vöru. |
