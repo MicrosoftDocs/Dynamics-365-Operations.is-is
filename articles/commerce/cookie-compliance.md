@@ -2,7 +2,7 @@
 title: Kökusamræmi
 description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/01/2021
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
-ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "6333070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747698"
 ---
 # <a name="cookie-compliance"></a>Reglufylgni köku
 
@@ -54,6 +54,10 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 | \_msdyn365___muid_                            | Notað ef tilraun er virkjuð fyrir umhverfið; notað sem notandakenni í tilraunaskyni. | 1 ár |
 | \_msdyn365___exp_                             | Notað ef tilraun er virkjuð fyrir umhverfið; notað til að mæla álagsjöfnun afkasta.         | 1 klukkustund |
 | d365mkt                                       | Notað ef staðsetningarmiðuð greining til að fylgjast með IP-tölu notanda fyrir tillögur um staðsetningu verslunar er virkjuð í vefsmið Commerce á **Stillingar svæðis \> Almennt \> Virkja staðsetningarmiðaða greiningu á verslun**.      | 1 klukkustund |
+| \_msdyn365___tuid_                           | Notað aðeins ef tilraunir eru virkjaðar fyrir umhverfi; býr til GUID til að nota sem notandaauðkenni. Gildi breytist ef innskráningarstaða breytist.      | 1 ár |
+| \_msdyn365___aud_0                          | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+| \_msdyn365___aud_1                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+| \_msdyn365___aud_2                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
 
 Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis munu kökurnar í eftirfarandi töflu einnig vera raktar í vafranum.
 

@@ -2,7 +2,7 @@
 title: Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 description: Þetta efnisatriði útskýrir hvernig skilgreina á rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757975"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
@@ -46,21 +46,13 @@ Eiginleikarnir styðja líka aðstæður þar sem reglufylgni við forskriftir s
 
 Að lokum styðja eiginleikarnir samskipti með skilaboðum við ytri vefþjónustur sem eru hýstar annaðhvort af skattyfirvöldum eða viðurkenndum aðila, og beiðnir um heimild eða samþykktarstimpil í rafrænum reikningi.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Framboð á eiginleikum rafrænnar reikningsfærslu
+## <a name="availability-of-electronic-invoicing-features"></a>Framboð á eiginleikum rafrænnar reikningsfærslu
 
 Framboð á eiginleikum rafrænnar reikningsfærslu fer eftir landinu eða svæðinu. Þótt sumir eiginleikar séu almennt í boði eru aðrir í forútgáfu.
 
-#### <a name="generally-available-features"></a>Almennt tiltækir eiginleikar
+### <a name="generally-available-features"></a>Almennt tiltækir eiginleikar
 
 Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru almennt í boði.
-
-| Land/svæði | Heiti eiginleika                         | Viðskiptaskjal |
-|----------------|--------------------------------------|-------------------|
-| Egyptaland          | Egypskur rafrænn reikningur (EG) | Sölureikningar og verkreikningar |
-
-#### <a name="preview-features"></a>Forskoðunareiginleikar
-
-Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í forútgáfu sem stendur.
 
 | Land/svæði | Heiti eiginleika                         | Viðskiptaskjal |
 |----------------|--------------------------------------|-------------------|
@@ -68,29 +60,39 @@ Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í for�
 | Belgía        | Belgískur rafrænn reikningur (BE)      | Sölureikningar og verkreikningar |
 | Brasilía         | Brasilískt NF-e (BR)                  | Fjárhagsskjalalíkan 55, leiðréttingarbréf, afturkallanir og fleygingar |
 | Brasilía         | Brasilískt NFS-e ABRASF Curitiba (BR) | Fjárhagsskjöl þjónustu |
+| Brasilía         | Brasilískur NF-e innflutningur úr tölvupósti (BR) | Fjármálaskjal, líkan 55 |
 | Danmörk        | Danskur rafrænn reikningur (DK)       | Sölureikningar og verkreikningar |
+| Egyptaland          | Egypskur rafrænn reikningur (EG)     | Sölureikningar og verkreikningar |
 | Eistland        | Eistneskur rafrænn reikningur (EE)     | Sölureikningar og verkreikningar |
 | Finnland        | Finnskur rafrænn reikningur (FI)      | Sölureikningar og verkreikningar |
 | Frakkland         | Franskur rafrænn reikningur (FR)       | Sölureikningar og verkreikningar |
 | Þýskaland        | Þýskur rafrænn reikningur (DE)       | Sölureikningar og verkreikningar |
 | Ítalía          | FatturaPA (IT)                       | Sölureikningar og verkreikningar |
-| Mexíkó         | Mexíkóskt CFDI (MX)                    | Sölureikningar, fylgiseðlar, birgðaflutningar, greiðsluuppfyllingar og afturkallanir |
 | Holland    | Hollenskur rafrænn reikningur (NL)        | Sölureikningar og verkreikningar |
 | Noregur         | Norskur rafrænn reikningur (NO)    | Sölureikningar og verkreikningar |
 | Spánn          | Spænskur rafrænn reikningur (ES)      | Sölureikningar og verkreikningar |
 | Evrópa         | PEPPOL rafrænn reikningur            | PEPPOL sölureikningar og verkreikningar |
+| Evrópa         | PEPPOL reikningur lánardrottins                | PEPPOL flytja inn reikninga lánardrottins |
+
+### <a name="preview-features"></a>Forskoðunareiginleikar
+
+Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru í forútgáfu sem stendur.
+
+| Land/svæði | Heiti eiginleika                         | Viðskiptaskjal |
+|----------------|--------------------------------------|-------------------|
+| Mexíkó         | Mexíkóskt CFDI (MX)                    | Sölureikningar, fylgiseðlar, birgðaflutningar, greiðsluuppfyllingar og afturkallanir |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Skilgreinanlegir þættir fyrir eiginleika rafrænnar reikningsfærslu
 
 Eiginleikar rafrænnar reikningsfærslu samanstanda af eftirfarandi flokkum skilgreinanlegra þátta:
 
-- **Snið** – Snið gera þér kleift að skilgreina hvað rafrænnar reikningsfærslu verður að mynda þegar rafrænt skjal verður að rafrænum reikningi. Snið fela í sér skilgreiningu sniðs fyrir rafrænan reikning og fyrir skrár og skilaboð sem eru notuð til að senda inn beiðnir og taka við svörum þegar samskipti við ytri vefþjónustu eru nauðsynleg.
-- **Aðgerðir** – Aðgerðir gera þér kleift að skilgreina hvernig rafræn reikningsfærsla myndar umbreytingu á rafrænu skjali sem Finance and Supply Chain Management sendu inn í rafrænan reikning.
-- **Gildissviðsreglur** – Gildissviðsreglur gera þér kleift að skilgreina samhengið sem rafræn reikningsfærsla verður að hafa í huga til að vinna úr eiginleika rafrænnar reikningsfærslu.
-- **Breytur** – Breytur gera þér kleift að skilgreina stuðninginn við smíði á rökum skilgreiningar. Breytur geta virkað sem innsláttur gilda til að framkvæma tiltekna aðgerð. Þær geta líka virkað sem skipti á gildum milli Finance and Supply Chain Management og rafrænnar reikningsfærslu.
-- **Líkanavörpun rafræns skjals** – Líkanavörpun rafræns skjals gerir þér kleift að skilgreina líkanavörpun rafrænnar skýrslugerðar. Líkanavörpunin skilgreinir gagnavörpun á útdrætti reiknings sem er felldur inn í rafræna reikningsfærslu þegar rafræn skjöl eru send inn.
-- **Samhengislíkan reiknings** – Samhengislíkan reiknings gerir þér kleift að skilgreina samhengislíkan reiknings í rafrænni skýrslugerð og ákveða samhengi eiginleika rafrænnar reikningsfærslu.
-- **Svargerðir** – Svargerðir gera þér kleift að skilgreina hvað rafræn reikningsfærsla þarf að uppfæra í Finance and Supply Chain Management eftir úrvinnslu á rafræna reikningnum.
+- **Snið**: Snið gera þér kleift að skilgreina hvað rafrænnar reikningsfærslu verður að mynda þegar rafrænt skjal verður að rafrænum reikningi. Snið fela í sér skilgreiningu sniðs fyrir rafrænan reikning og fyrir skrár og skilaboð sem eru notuð til að senda inn beiðnir og taka við svörum þegar samskipti við ytri vefþjónustu eru nauðsynleg.
+- **Aðgerðir**: Aðgerðir gera þér kleift að skilgreina hvernig rafræn reikningsfærsla myndar umbreytingu á rafrænu skjali sem Finance and Supply Chain Management sendu inn í rafrænan reikning.
+- **Gildissviðsreglur**: Gildissviðsreglur gera þér kleift að skilgreina samhengið sem rafræn reikningsfærsla verður að hafa í huga til að vinna úr eiginleika rafrænnar reikningsfærslu.
+- **Breytur**: Breytur gera þér kleift að skilgreina stuðninginn við smíði á rökum skilgreiningar. Breytur geta virkað sem innsláttur gilda til að framkvæma tiltekna aðgerð. Þær geta líka virkað sem skipti á gildum milli Finance and Supply Chain Management og rafrænnar reikningsfærslu.
+- **Líkanavörpun rafræns skjals**: Líkanavörpun rafræns skjals gerir þér kleift að skilgreina líkanavörpun rafrænnar skýrslugerðar. Líkanavörpunin skilgreinir gagnavörpun á útdrætti reiknings sem er felldur inn í rafræna reikningsfærslu þegar rafræn skjöl eru send inn.
+- **Samhengislíkan reiknings**: Samhengislíkan reiknings gerir þér kleift að skilgreina samhengislíkan reiknings í rafrænni skýrslugerð og ákveða samhengi eiginleika rafrænnar reikningsfærslu.
+- **Svargerðir**: Svargerðir gera þér kleift að skilgreina hvað rafræn reikningsfærsla þarf að uppfæra í Finance and Supply Chain Management eftir úrvinnslu á rafræna reikningnum.
 
 ### <a name="formats"></a>Snið
 
@@ -204,10 +206,10 @@ Eftirfarandi tafla sýnir tiltækar aðgerðir og hvort þær eru almennt í bo�
 | Aðgerð                                        | lýsing                                                                  | Til ráðstöfunar         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Breyta skjali                            | Keyrið rafrænt skýrslugerðarsnið til að breyta skjalinu.                   | Almennt tiltækt  |
-| Skrifa undir xml-skjal                             | Undirritið XML-skjöl með stafrænni undirskrift.                                   | Í kynningarútgáfu           |
-| Undirrita JSON-skjal fyrir egypsk skattyfirvöld | Undirritið JSON-skjöl með stafrænni undirskrift fyrir egypsk skattyfirvöld.       | Almennt tiltækt  |
+| Skrifa undir xml-skjal                             | Undirritið XML-skjöl með stafrænni undirskrift.                                   | Almennt tiltækt  |
+| Undirrita json-skjal fyrir egypsk skattyfirvöld | Undirritið JSON-skjöl með stafrænni undirskrift fyrir egypsk skattyfirvöld.       | Almennt tiltækt  |
 | Samþætta við egypska ETA-þjónustu           | Hefjið samskipti við egypsk skattyfirvöld.                                     | Almennt tiltækt  |
-| Hringja í SEFAZ-þjónustu í Brasilíu                  | Samþættið við brasilíska SEFAZ-þjónustu fyrir innsendingu fjárhagsskjals.       | Í kynningarútgáfu           |
+| Hringja í SEFAZ-þjónustu í Brasilíu                  | Samþættið við brasilíska SEFAZ-þjónustu fyrir innsendingu fjárhagsskjals.       | Almennt tiltækt  |
 | Hringja í PAC-þjónustu í Mexíkó                      | Samþættið við mexíkóska PAC-þjónustu fyrir innsendingu CFDI.                      | Í kynningarútgáfu           |
 | Vinna úr svari                              | Greinið svarið sem var móttekið frá vefþjónustukalli.                     | Almennt tiltækt  |
 | Nota MS Power Automate                         | Samþættið við ferli sem er byggt inn í Microsoft Power Automate.                       | Í kynningarútgáfu           |

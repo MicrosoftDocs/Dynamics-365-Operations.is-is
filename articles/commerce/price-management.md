@@ -2,7 +2,7 @@
 title: Stjórnun smásöluverðs
 description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 05/28/2020
+ms.date: 07/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759286"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -214,20 +214,21 @@ Microsoft SQL Server Express er oft notaður fyrir gagnagrunnarásir vegna kostn
 
 Ef þú vinnur með bæði innifaldar og undanskildar gerðir af sköttum er mjög mikilvægt að setja rétt verð vegna þess að heildarupphæðin sem viðskiptavinurinn greiðir mun breytast ef stillingin **Verð með söluskatti** á rásinni er breytt.
 
-## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Mismunur á smásöluverði og verði sem snýr ekki að smásölu
+## <a name="differences-between-commerce-pricing-and-non-commerce-pricing"></a>Mismunur verðlagningar í Commerce og utan þess
 
 Ein verðlagningarvél er notuð til að reikna verð yfir allar rásir: símaver, smásöluverslun og vefverslanir. Þetta hjálpar til við að virkja atburðarásir sameinaðra viðskipta.
 
-Verðlagning er hönnuð til að vinna með smásölueiningar í stað eininga sem snúa ekki að smásölu. Nánar tiltekið er hún hönnuð til að setja verð eftir verslun, ekki eftir vöruhúsi.
+Verðlagning er hönnuð til að vinna með Commerce einingar í stað eininga utan þess. Nánar tiltekið er hún hönnuð til að setja verð eftir verslun, ekki eftir vöruhúsi.
 
-Verðlagningarvélin **styður ekki** eftirfarandi verðlagningareiginleika:
+Commerce verðlagningarvélin **styður ekki** eftirfarandi verðlagningareiginleika:
 
 - Það er ekki stutt að setja verð eftir geymsluvídd vefsvæða eða vefsvæðis og vörugeymslu. Ef þú tilgreinir aðeins vídd vefsvæðis á viðskiptasamningunum, þá mun verðlagningarvélin hunsa vefinn og beita viðskiptasamningnum á allar síður. Ef þú tilgreinir bæði svæði og vöruhús, þá er hegðunin óskilgreind/óprófuð vegna þess að búast má við að smásalar noti vöruhópana til að stjórna verði fyrir hverja verslun/vöruhús.
 - Eigindabyggð verðlagning ekki studd.
 - Gegnumferð lánardrottnaafsláttar er ekki studd.
+- Almennur gjaldmiðilseiginleiki er ekki studdur, þ.e. þó að viðskiptasamningur sé með kveikt á **Nota almennan gjaldmiðil**, verður þessi viðskiptasamningur samt aðeins talinn gildur fyrir þann gjaldmiðil sem er skilgreindur á viðskiptasamningnum.
 - Stöðluð verðlagningarvél Supply Chain Management styður verðútreikninginn sem byggir á „Umbeðin sendingardagsetning“ og „Umbeðin móttökudagsetning“ ásamt deginum í dag. Hins vegar styður smásöluverðlagning ekki þessi gildi. Ástæðan er sú að fyrir B2C-aðstæður gera viðskiptavinir ekki ráð fyrir að umbeðinn afhendingardagur hafi áhrif á vöruverðið. Í sumum tilfellum eru smásalar með reikniaðgerðir fyrir bæði B2B og B2C. Fyrir B2B-reikniaðgerðir er algengt að breyta verðum samkvæmt afhendingardögum. Þessir smásöluaðilar geta notað verðlagningu Supply Chain Management fyrir B2B-viðskiptin og smásöluverðlagningu fyrir B2C-viðskiptin. Verðlagning í smásölu kemur aðeins til sögunnar ef notanda forritsins er bætt við sem notanda símavers, þannig að smásöluaðilar geta úthlutað ákveðnum notendum sem vinna með verðlagningu Supply Chain Management og úthlutað nokkrum sem vinna verðlagningu í smásölu, þ.e. þessum notendum ætti að bæta við sem notendum símavers. Þar að auki verður að vera kveikt á eiginleikanum **Nota daginn í dag fyrir verðútreikning** í hlutanum **Commerce-færibreytur > verðlagning og afslættir > Ýmislegt**. Með þessum hætti er hægt að halda áfram að nota gildi fyrir færibreytu viðskiptakrafna fyrir umbeðna sendingardagsetningu eða umbeðna móttökudagsetningu fyrir verðlagningu Supply Chain Management, en verðlagning í smásölu notar áfram daginn í dag fyrir verðútreikning.
 
-Að auki **aðeins** verðlagningarvél styður eftirfarandi verðlagningareiginleika:
+Að auki **aðeins** styður Commerce verðlagningarvél aðeins eftirfarandi verðlagningareiginleika:
 
 - Verð er byggt á vöruvíddum, raðað frá mest sértæka verðafbrigðinu til minnst sértæka verðafbrigðisins á verði vörusniðmáts. Verð sem er stillt með því að nota tvær vöruvíddir (t.d. lit og stærð) er notað á undan verð isem er stillt með því að nota aðeins eina vöruvídd (t.d. stærð).
 - Hægt er að nota sama verðflokk til að stjórna verðlagningu og afsláttum.
@@ -236,7 +237,7 @@ Að auki **aðeins** verðlagningarvél styður eftirfarandi verðlagningareigin
 
 Verð er einn mikilvægasti þátturinn sem stýrir ákvörðun á innkaupum að gera fyrir marga viðskiptavini, og margir viðskiptavinir bera saman verð á ýmsum síðum áður en þeir kaupa nokkuð. Til að tryggja að söluaðilar bjóði upp á samkeppnishæf verð verða þeir að fylgjast grannt með samkeppnisaðilum og auglýsa oft sig. Til að auðvelda þessum söluaðilum að laða að viðskiptavini, er mjög mikilvægt að afurðaleit, vafraeiginleikinn, listar og upplýsingasíða afurðar sýni nákvæmustu verðin.
 
-Í væntanlegri útgáfu Commerce, mun forritunarviðmótið (API) **GetActivePrices** skila verðum sem innihalda einfalda afslætti (t.d. staka línuafslætti sem eru ekki háðir öðrum vörum í körfunni). Á þennan hátt eru verðin sem eru sýnd nálægt raunverulegri upphæð sem viðskiptavinur greiðir fyrir vörurnar. Þetta API mun innihalda allar gerðir af einföldum afsláttum sem miðast við: afslætti tengsla, hollustu, vörulista og rásar. Að auki skilar API upplýsingum um heiti og gjaldgengi notaðra afslátta svo söluaðilar geti boði upp á ítarlegri lýsingar á verðinu og skapað óþreyju ef gjaldgengur afsláttur rennur brátt út.
+Forritunarviðmótið (API) **GetActivePrices** í Commerce skilar verðum sem innihalda einfalda afslætti (t.d. staka línuafslætti sem eru ekki háðir öðrum vörum í körfunni). Á þennan hátt eru verðin sem eru sýnd nálægt raunverulegri upphæð sem viðskiptavinur greiðir fyrir vörurnar. Þetta API inniheldur allar gerðir af einföldum afsláttum sem miðast við: afslætti tengsla, hollustu, vörulista og rásar. Að auki skilar API upplýsingum um heiti og gjaldgengi notaðra afslátta svo söluaðilar geti boði upp á ítarlegri lýsingar á verðinu og skapað óþreyju ef gjaldgengur afsláttur rennur brátt út.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

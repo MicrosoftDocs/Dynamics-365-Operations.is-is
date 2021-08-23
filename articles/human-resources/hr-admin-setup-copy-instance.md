@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740840"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
@@ -52,9 +52,9 @@ Eftirfarandi atburðir eiga sér stað þegar þú afritar gagnagrunn Human Reso
 
 - Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þar af leiðandi verða öll skjöl og sniðmát sem eru hengd við ekki afrituð og verða áfram í upprunaumhverfinu.
 
-- Allir notendur nema stjórnandi og aðrar notendareikningar innri þjónustu verða gerðir óvirkir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
+- Allir notendur nema þeir sem eru með „kerfisstjóra“ öryggishlutverkið og aðra aðganga notenda að innri þjónustu verða ekki tiltækir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
 
-- Stjórnandi notandinn verður að gera nauðsynlegar stillingarbreytingar, svo sem aftur að tengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
+- Allir notendur með öryggishlutverk „kerfisstjóra“ verða að gera nauðsynlegar breytingar á stillingum, svo sem að endurtengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
 
 ## <a name="copy-the-human-resources-database"></a>Afritaðu gagnagrunn Human Resources
 
@@ -111,7 +111,7 @@ Sumar þessara eininga eru ekki afritaðar vegna þess að þær eru háðar til
 
 Einnig breytast eftirfarandi stöður þegar tilvik er afritað:
 
-- Allir notendur nema stjórnandi eru stilltir á **Avirkjað**.
+- Allir notendur nema þeir sem hafa öryggishlutverkið „Kerfisstjóri“ eru stilltir á **Óvirkt**.
 
 - Allar runuvinnslur nema nokkrar kerfisvinnslur eru stilltar á **Halda eftir**.
 

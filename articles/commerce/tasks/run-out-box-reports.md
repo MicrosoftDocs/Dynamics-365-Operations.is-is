@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 27dc29109693c06913c8107e27e79a48cf2c9db7146ff3a5919305366641af3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774462"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Búa til og keyra forsniðnar skýrslur
 
@@ -36,7 +36,7 @@ Sýnigögn gögn fyrirtækisins til að stofna þetta skráning er USRT. Þessi 
 4. Dagsetning er rituð í reitinn Frá dags.
 5. Í reitinn Til dagsetningar skal slá inn dagsetningu.
 6. Í reitnum rás skal smella á fellilistahnappinn til að opna leitina.
-7. Veljið 'Contoso smásala\Contoso Retail USA\Central\Houston', í trénu.
+7. Í trénu skal velja 'Contoso Retail\Contoso Retail USA\Central\Houston'.
     * Þetta sýnir sem sjálfgefið stigveldi fyrirtækis fyrir Commerce skýrslugerðar.   Fara á fyrirtækisstjórnun > fyrirtæki > stigveldi Fyrirtækis í upplýsingarskyni og velja skýrslugerð Commerce og undir Tengdar stigveldi, athuga stigveldisheiti sem Sjálfgefna dálkurinn er skráð. Sem hluti af sýnigögn (notað fyrir þennan verkskráningu) tekurðu eftir, Verslanir eftir Svæði er sjálfgefið stigveldi fyrirtækis fyrir skýrslugerðar.     
 8. Smellt er á Í lagi.
 9. Í reitnum Skoða skal velja valkost.
@@ -48,7 +48,7 @@ Sýnigögn gögn fyrirtækisins til að stofna þetta skráning er USRT. Þessi 
 2. Dagsetning er rituð í reitinn Frá dags.
 3. Í reitinn Til dagsetningar skal slá inn dagsetningu.
 4. Í reitnum rás skal smella á fellilistahnappinn til að opna leitina.
-5. Veljið 'Contoso Retail\Contoso Retail USA\West\Seattle', í trénu.
+5. Í trénu skal velja 'Contoso Retail\Contoso Retail USA\West\Seattle'.
     * Þetta sýnir sem sjálfgefið stigveldi fyrirtækis fyrir Commerce skýrslugerðar. Fara á fyrirtækisstjórnun > fyrirtæki > stigveldi Fyrirtækis í upplýsingarskyni og velja skýrslugerð Commerce og undir Tengdar stigveldi, athuga stigveldisheiti sem Sjálfgefna dálkurinn er skráð. Sem hluti af sýnigögn (notað fyrir þennan verkskráningu) tekurðu eftir, Verslanir eftir Svæði er sjálfgefið stigveldi fyrirtækis fyrir skýrslugerðar.     
 6. Smellt er á Í lagi.
 7. Smellt er á Í lagi.

@@ -2,7 +2,7 @@
 title: Eining efnissafns
 description: Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733198"
 ---
 # <a name="media-gallery-module"></a>Eining efnissafns
 
@@ -56,6 +56,10 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 | Myndir | Myndir sem eru valdar úr miðlasafni vefsmiðs | Auk þess að vera myndþýddar frá afurð, er hægt að velja myndir fyrir einingu efnissafns. Þessum myndum verður bætt við allar afurðarmyndir sem eru í boði. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.12. |
 | Stefna smámynda | **Lóðrétt** eða **Lárétt** | Þessi eiginleiki tilgreinir hvort sýna eigi smámyndir í lóðréttri ræmu eða láréttri ræmu. |
 | Fela sniðmátsmyndir afurðar fyrir afbrigði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt**, þegar afbrigði er valið, eru myndir aðalsniðmátsins faldar nema afbrigði sé ekki með neinar myndir. Þessi eiginleiki hefur ekki áhrif á afurðir sem eru ekki með nein afbrigði. |
+| Uppfæra efni á vali fjárhagsvídda | **Satt** eða **Ósatt** | Ef þessi eign er stillt á **Satt** verða myndir í efnissafninu uppfærðar þegar einhver vídd (svo sem litur, stíll eða stærð) er valin og ef mynd er tiltæk. Þessi eiginleiki hjálpar til við að einfalda upplifun í vafra því ekki þarf að velja allar víddir vöru til að hægt sé að uppfæra samsvarandi mynd. Þessi eign er í boði á flipanum **Ítarlegt**. |
+
+> [!IMPORTANT]
+> **Uppfæra efni á vali fjárhagsvídda** eiginleikinn er í boði í Commerce-útgáfu 10.0.21. Það krefst þess að Commerce einingasafnspakki 9.31 útgáfa sé settur upp.
 
 Eftirfarandi mynd sýnir dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.
 

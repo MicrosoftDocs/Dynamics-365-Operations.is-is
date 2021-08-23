@@ -2,7 +2,7 @@
 title: Fá aðstoð fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
 description: Í þessu efni er útskýrt hvernig skal fá hjálp varðandi forrit Finance and Operations eða Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713335"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Fá aðstoð fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
 
@@ -48,7 +48,7 @@ ms.locfileid: "5753879"
 <td>Í <a href="https://lcs.dynamics.com/">LCS</a> skal nota verkfærið <strong>Vandamálaleit</strong> til að leita með skjótum hætti í Microsoft Þekkingargrunni (KB) að greinum, bráðabótum og hjáleiðum í sambandi við skráð vandamál. Þú getur séð hvaða skráðu vandamál eru í lagfæringarferli fyrir tiltekið aðgerðarsvæði og hvaða vandamál hafa þegar verið leyst. Frekari upplýsingar eru í <a href="issue-search-lcs.md">Vandamálaleit (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Náðu í stuðning í forriti.</td>
+<td>Fáðu aðstoð í Finance and Operations forritinu.</td>
 <td>Velja skal hnappinn <strong>Hjálp</strong> (<strong>?</strong>) efst í hægra horninu í forritinu og síðan velja <strong>Notendaþjónusta</strong>. Vandamál eru tilkynnt í flipanum <strong>Virk vandamál</strong> í LCS. Þar geta stjórnendur ákvarðað hvort þeir eigi að veita aðstoð innan fyrirtækisins eða senda vandamálið til Microsoft.</td>
 </tr>
 <tr>
