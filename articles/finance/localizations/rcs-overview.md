@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8d7020ff1ad1beb06ff7a9ce217f39993c6eceec
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
+ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358123"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "7012014"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -49,6 +49,9 @@ RCS býður upp á eftirfarandi möguleika:
 
 - **Nýskráðu** þig ef þú ert að nota þjónustuna í fyrsta skipti og ert að nota netfang fyrirtækis til að úthluta þjónustuumhverfi fyrirtækisins
 - **Innskráðu** þig þú hefur skráð þig fyrir þjónustunni áður og vilt opna umhverfi fyrirtækisins
+
+> [!NOTE] 
+> Þegar þú hefur skráð þig mælum við með því að þú bætir öðrum SysAdmin-notanda við RCS-umhverfið. Þessi notandi fær stöðuna annar stjórnandi fyrir umhverfið. Þetta hjálpar til við að veita stöðugleika fyrir aðgang að RCS-umhverfinu, þar sem hlutverk SysAdmin er að hafa umsjón með notendum fyrir það umhverfi. Þú getur bætt við notendum með því að nota **RCS vinnusvæði > Kerfisstjórnun**.
 
 ## <a name="regional-availability"></a>Svæði í boði
 

@@ -1,8 +1,8 @@
 ---
 title: Lán í biðstöðu fyrir sölupantanir
 description: Þetta efni lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723968"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Lán í biðstöðu fyrir sölupantanir
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efni lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið. Reglur um útilokun á lánamálum geta átt við um einstaka viðskiptavini eða hóp viðskiptavina. Reglur um útilokun skilgreina svör við eftirfarandi kringumstæðum:
 
@@ -41,6 +42,11 @@ Að auki eru tvær breytur sem stjórna viðbótar atburðarásum sem loka fyrir
 
 Þegar viðskiptavinur hefst söluviðskipti eru upplýsingarnar um sölupöntunina skoðaðar á móti settum hindrunarreglum sem leiðbeina ákvörðun um hvort veita skuli lánstraust til viðskiptavinarins eða ekki og leyfa sölunni að halda áfram. Þú getur einnig skilgreint útilokanir sem munu hnekkja reglum um hindrun og leyfa vinnslu á sölupöntun. Þú getur sett upp hindrunarreglur og útilokunarreglur á síðunni **Lánastjórnun > Uppsetning > Uppsetning lánaumsýslu > Lokunarreglur**.
 
+Frá og með útgáfu 10.0.21 hafa lokunarreglur í Credit Management verið endurskoðaðar á eftirfarandi hátt, til að veita meiri sveigjanleika:
+
+- Hægt hefur verið að óska eftir framlengingu svo að hægt sé að búa til eigin lokunarreglur.
+- Gátreiturinn **Losa sölupöntun** er nú tiltækur fyrir allar lokunarreglur. Áður var hann aðeins í boði fyrir lokunarreglur sölupöntunar. Þegar þessi gátreitur er valinn mun lokunarreglan losa sölupöntunina án þess að líta til annarra reglna sem geta lokað fyrir sölupantanir. Þessi gátreitur er aðeins tiltækur fyrir reglugerðina **Útilokun**.
+
 ### <a name="days-overdue"></a>Dagar í vanskilum
 
 Opnaðu flipann **Vanskiladagar** ef hindrunarreglan gildir um viðskiptavini með einn eða fleiri reikninga sem hafa verið í vanskilum í tiltekinn fjölda daga.
@@ -57,7 +63,7 @@ Opnaðu flipann **Vanskiladagar** ef hindrunarreglan gildir um viðskiptavini me
 5. Veljið **Gerð gildis**. Sjálfgefna færslan er fastur fjöldi daga. Ef þú ert að búa til útilokun geturðu tilgreint fastan fjölda daga eða upphæð í staðinn. 
 6. Sláðu inn fjölda daga **Í vanskilum** sem verður leyft fyrir valda útilokunarreglu áður en pöntun er sett á lánstrauststjórn til endurskoðunar. Fjöldi vanskiladaga táknar viðbótarfjölda biðdaga sem bætast við fjölda daga umfram gjalddaga greiðslu sem reikningurinn getur haft áður en hann er talinn í vanskilum. Ef þú tilgreindir **Gildisgerð** sem upphæð fyrir útilokun, sláðu síðan inn fjárhæð og gjaldmiðil fyrir þá upphæð.
 
-### <a name="accounts-status"></a>Bókhaldsstaða
+### <a name="account-status"></a>Staða reiknings
 
 Opnaðu flipann **Staða reiknings** ef hindrunarreglan á við um viðskiptavin með valinn stöðu reikningsins.
 1. Velja gerð reglunnar sem verið er að setja upp.  **Lokun** mun búa til reglu sem lokar fyrir pöntun. **Útilokun** stofnar reglu sem útilokar reglu frá að loka fyrir pöntun. 
@@ -102,7 +108,7 @@ Opnaðu flipann **Vanskilaupphæð** ef hindrunarreglan á við um viðskiptavin
    - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
    - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
 5. Sláðu inn **Vanskilaupphæð** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar til endurskoðunar. 
-6. Veldu **Gildisgerð** sem skilgreinir þá tegund verðmæta sem verður notuð til að prófa einnig hversu mikið af lánamörkum hefur verið notað. Lokunarreglur krefjast prósentu en útilokun getur verið með fasta fjárhæð eða prósentu. Þröskuldurinn tengist lánamörkum.
+6. Veldu **Gildisgerð** sem skilgreinir þá tegund verðmæta sem verður notuð til að prófa einnig hversu mikið af lánamörkum hefur verið notað. Lokunarreglur og útilokunarreglur heimila aðeins prósentuhlutfall fyrir of **Gjaldfallin upphæð**. Þröskuldurinn tengist lánamörkum.
 7. Sláðu inn gildið fyrir **Viðmiðunarmörk lána** fyrir valda reglu áður en viðskiptavinur heldur úti lánstrausti. Þetta getur verið upphæð eða prósentutala byggð á gildistegundinni sem valin er í gildistegundinni.
 8. Reglan athugar að farið hafi verið fram yfir **Vanskilaupphæð** og **Viðmiðunarmörk lána**. 
 
@@ -122,8 +128,6 @@ Veldu **Sölupöntun** ef hindrunarreglan á við um verðmæti sölupöntunarin
    - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
    - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
 5. Sláðu inn **Sölupöntunarupphæð** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar. 
-
-Reglan um sölupöntun felur í sér viðbótarstillingu sem gengur framhjá öllum öðrum reglum. Til að búa til útilokun sem sleppir sölupöntuninni án þess að taka gildi aðrar reglur, veldu gátreitinn **Losa sölupöntun** á útilokunarlínu.
 
 ### <a name="credit-limit-used"></a>Lánamark notað
 

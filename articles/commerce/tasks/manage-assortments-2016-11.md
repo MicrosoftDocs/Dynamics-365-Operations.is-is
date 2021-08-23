@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2321c78ba50ba0bfc996e8bd4e96cfbd0843ec45
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 91d5b7077b033514f699c0393ec151d82dae5bf2551546c7371cb934273310e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769296"
 ---
 # <a name="manage-assortments-november-2016"></a>Stjórna úrvali (Nóvember 2016)
 
@@ -40,9 +40,9 @@ ms.locfileid: "5796755"
 6. Dagsetning er rituð í reitinn lokadagur.
 7. Víkka út hlutann Commerce-rásir.
 8. Smellið á „Bæta við línu“.
-9. Veljið "Contoso Retail\Electronics\Boston", í trénu.
+9. Í trénu skal velja 'Contoso Retail\Electronics\Boston'.
 10. Smelltu á Bæta við.
-11. Smellið á „Í lagi“.
+11. Smellt er á Í lagi.
 12. Víkka út hlutann Afurðir.
 13. Smellið á „Bæta við línu“.
 14. Sláið inn eða veldu gildi í reitnum flokkur.

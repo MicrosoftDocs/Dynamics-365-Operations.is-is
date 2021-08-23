@@ -2,7 +2,7 @@
 title: Prófun á sérsniðnu vottorði NF-e
 description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að virkja og nota sérsniðið vottorð NF-e.
 author: gionoder
-ms.date: 10/06/2020
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 895513f51798a797ebf59f8a5be4f5cde006726d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8144e16b127bdbe954ef44f52c5ac71689a2036e6085e9a4ccc8bb17f91ae9b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755592"
 ---
-# <a name="nf-e-custom-certificate-validation"></a>Prófun á sérsniðnu vottorði NF-e
+# <a name="nf-e-custom-certificate-validation"></a>Staðfesting sérsniðins NF-e vottorðs
 
 [!include [banner](../includes/banner.md)]
 
-Þegar kveikt er á sannprófunareiginleika fyrir sérsniðið vottorð NF-e, heimilar sérsniðin sannprófun tengingu við vefþjónustur. Þessi tenging er nauðsynleg til að flytja NF-e og taka á móti heimild frá SEFAZ.
+Sjálfgefið er slökkt á eiginleikanum **Tilgangur með sannvottun þjóns** úr vottorðinu sem er gefið út af brasilískum vottunaraðila rótarvottorðs og kveikja verður handvirkt á honum. Í sumum tilvikum getur sjálfvirk uppfærsla á vottorði skipt yfir þannig að þessi eiginleiki verði ekki lengur virkur. Ef þetta gerist hefur það áhrif á TLS-tenginguna og er þá ekki lengur hægt að treysta henni. Möguleikinn á að gefa út Brazilian electronic fiscal document model 55 (NF-e) í vinnsluumhverfum fyrir fylkin Minas Gerais (MG) og Paraná (PR).
 
-Eiginleikinn **Tilgangur með sannvottun þjóns** úr vottorðinu V5 er gefinn út af brasilískum vottunaraðila rótarvottorðs. Sjálfgefið er að slökkt sé á þessum eiginleika og nauðsynlegt er að virkja hann handvirkt. Í sumum tilvikum getur sjálfvirk uppfærsla á vottorði skipt yfir þannig að þessi eiginleiki verði ekki lengur virkur. Ef þetta gerist hefur það áhrif á TLS-tenginguna og er þá ekki lengur hægt að treysta henni. Möguleikinn á að gefa út NF-e í vinnsluumhverfum fyrir fylkin Minas Gerais (MG) og Paraná (PR) verður einnig fyrir áhrifum.
-
-Þessi uppfærsla opnar á aðra lausn fyrir prófun vottorðs, sem þýðir að það er mögulegt að koma á öruggum samskiptum.
-
-
-
+Til að virkja endurbót fyrir **NF-e sérsniðna staðfestingu** skal fara **í Eiginleikastjórnun**. Þessi eiginleiki leyfir aðra lausn fyrir V5 og V10 staðfestingar vottorðs og leyfir áreiðanlega tengingu við vefþjónusturnar, sem er skilyrði fyrir örugga sendingu NF-e og móttöku heimildar frá SEFAZ.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

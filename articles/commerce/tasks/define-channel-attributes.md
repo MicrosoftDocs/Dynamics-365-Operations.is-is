@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726408"
 ---
 # <a name="define-channel-attributes"></a>Skilgreina eigindir rásar
 
@@ -30,8 +30,8 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
 
 ## <a name="define-channel-product-attribute"></a>Skilgreina Afurðareigindir rásar
 1. Fara í Retail og Commerce > Rás uppsetning > Tegundir rása og afurðaeigindir.
-2. Veljið "Contoso Retail\Fashion\Houston", í trénu.
-3. Smellið á „Breyta“.
+2. Í trénu skal velja 'Contoso Retail\Fashion\Houston'.
+3. Smella á Breyta.
 4. Færa inn eða veljið gildi í svæðinu tegundastigveldi.
     * Stigveldi flettinga verður notað fyrir að fletta í afurðina innan fyrirtækisins rásir.  
 5. Útvíkka hlutann eigindaflokkur.
