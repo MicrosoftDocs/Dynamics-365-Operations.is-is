@@ -1,8 +1,8 @@
 ---
 title: Uppsetning tvöfaldra skrifa úr Lifecycle Services
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp tengingu tvöfaldrar skráningar úr Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729044"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
 
@@ -66,5 +66,18 @@ Til að setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi �
 
 > [!NOTE]
 > Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.
+
+## <a name="linking-mismatch"></a>Linking mismatch
+
+Mögulegt er að LCS-umhverfi þitt sé tengt við eitt Dataverse tilvik en umhverfi tvöfaldrar skráningar er tengt við annað Dataverse tilvik. Þetta misræmi í tengingu getur valdið óvæntri hegðun og það gæti endað með því að gögn verði send í rangt umhverfi. Það umhverfi sem mælt er með að nota fyrir tvöfalda skráningu er það sem er búið til sem hluti af Power Platform samþættingu og til lengri tíma litið verður þetta eina leiðin til að koma á tengli milli umhverfa.
+
+Ef umhverfið þitt er með misræmi í tengingu sýnir LCS viðvörun á upplýsingasíðu umhverfisins svipað og „Microsoft hefur greint að umhverfið þitt er tengt í gegnum tvöfalda skráningu við annan viðtökustað en er tilgreindur í Power Platform samþættingu, sem ekki er mælt með“:
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform misræmi í tengli samþættingar.":::
+
+Ef þessi villa kemur upp eru tvær leiðir í boði eftir því hverjar þarfir þínar eru:
+
++ [Aftengja og endurtengja umhverfi fyrir tvöföld skrif (endurstilla eða breyta tengingu)](relink-environments.md#scenario-reset-or-change-linking) eins og tilgreint á upplýsingasíðu LCS-umhverfisins. Þetta er ákjósanlegur valkostur vegna þess að þú getur keyrt hann án notendaþjónustu Microsoft.  
++ Ef þú vilt halda tenglinum í tvöföldum skrifum geturðu beðið notendaþjónustu Microsoft um hjálp við að breyta Power Platform samþættingu til að nota fyrirliggjandi Dataverse umhverfið eins og fjallað er um í hlutanum hér á undan.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

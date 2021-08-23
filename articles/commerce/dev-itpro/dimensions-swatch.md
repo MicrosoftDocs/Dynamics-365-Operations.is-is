@@ -2,7 +2,7 @@
 title: Stilla afurðarvíddargildi þannig að þau birtist sem sýnishorn
 description: Í þessu efnisatriði er lýst hvernig skilgreina afurðarvíddargildi sem sýnishorn í miðstöð Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764615"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Stilla afurðarvíddargildi þannig að þau birtist sem sýnishorn
 
@@ -46,7 +46,7 @@ Eftirfarandi mynd sýnir dæmi þar sem litir birtast sem litaspjald á listasí
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Virkja birtingareiginleika vídda sem sýnishorn í Commerce Headquarters
 
-Til að virkja birtingareiginleika vídda sem sýnishorn í Commerce Headquarters skal fara í **Vinnusvæði \> Eiginleikastjórnun** og kveikja á eiginleikanum **Virkja stuðning við mynd fyrir afurðarvíddargildi**. Þegar þessi eiginleikafáni er virkjaður eru þremur nýjum reitum bætt við fyrir hverja vídd í viðeigandi töflum í Commerce Headquarters: **Sextándakerfiskóði**, **URL** (fyrir myndir) og **RefinerGroup**.
+Til að virkja birtingareiginleika vídda sem sýnishorn í Commerce Headquarters skal fara í **Vinnusvæði \> Eiginleikastjórnun** og kveikja á eiginleikanum **Virkja virkni til að tákna víddir sem sýnishorn**. Þegar þessi eiginleikafáni er virkjaður eru þremur nýjum reitum bætt við fyrir hverja vídd í viðeigandi töflum í Commerce Headquarters: **Sextándakerfiskóði**, **URL** (fyrir myndir) og **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Skilgreining víddargilda í Commerce Headquarters
 
@@ -125,9 +125,22 @@ Eftirfarandi mynd sýnir dæmi þar sem svarglugginn **Hlaða upp skrám** er no
 
 Auk þess ætti að virkja eiginleikann **Hafa afurðareigindir með í leitarniðurstöðum** fyrir einingar leitarniðurstaðna. Ef svæðið notar sérstilltar flokkasíður ætti að uppfæra einingar leitarniðurstaðna sem eru notaðar á þessum síðum þannig að eiginleikinn **Hafa afurðareigindir með í leitarniðurstöðum** sé virkjaður. Frekari upplýsingar er að finna í [Leitarniðurstöðueining](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Vitneskja um birgðir í sýnishornum
+
+Sýnishorn eru með valfrjálsan möguleikia á því að sýna birgðaframboð á afurðarafbrigði litar eða víddar. Til dæmis er vara seld í mörgum stærðum en sumar stærðir eru ekki til á lager. Í þessu tilviki eru sýnishornin fyrir vörur sem ekki eru til á lager sýndar á annan hátt til að gefa til kynna að þær séu ekki tiltækar. Þessi möguleiki hjálpar til við að fækka smellum viðskiptavina sem þarf til að komast að afurðaframboði.
+
+Hægt er að stilla birgðaframboðseiginleika sýnishorns til notkunar á upplýsingasíðum afurðar og listasíðum leitar eða flokks þar sem sýnishorn eru sýnd. Til að virkja hann þarf að stilla á eiginleikann **Uppfæra efni fyrir víddarval** á **Satt** í [efnissafnseiningunni](../media-gallery-module.md). Sú stilling gerir kleift að uppfæra myndir úr efnissafni þegar víddir eru valdar. 
+
+> [!IMPORTANT]
+> Þessi birgðaframboðseiginleiki sýnishorns er í boði frá og með Commerce-útgáfu 10.0.21. Það krefst þess að Commerce einingasafnspakki 9.31 útgáfa sé settur upp.
+
+Eftirfarandi skýringarmynd sýnir dæmi um birgðavitneskju í sýnishorni stærðar á upplýsingasíðu afurðar.
+
+![Dæmi um birgðavitneskju í sýnishorni stærðar á upplýsingasíðu afurðar](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Sýna sýnishorn á sölustað og öðrum rásum
 
-Sem stendur er Commerce ekki með tilbúna uppsetningu sem styður birtingu sýnishorna á sölustað og í öðrum rásum. Hins vegar er hægt að innleiða virkni fyrir birtingu sýnishorns sem viðbót sem gerir að verkum að API rása skilar sextándakerfiskóðum og myndavefslóðum sem þarf til að birta sýnishorn.
+Sem stendur er Commerce ekki með tilbúna uppsetningu sem styður birtingu sýnishorna á sölustað og í öðrum rásum. Hins vegar er hægt að innleiða virkni fyrir birtingu sýnishorns sem viðbót vegna þess að API-rás skilar sextándakerfiskóðum og myndavefslóðum sem þarf til að birta sýnishorn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
