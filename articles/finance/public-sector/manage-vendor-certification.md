@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736113"
 ---
 # <a name="maintain-vendor-certification"></a>Vinna með lánardrottnavottorð
 
@@ -23,13 +23,20 @@ ms.locfileid: "6270505"
 
 Þetta efnisatriði lýsir þeim skrefum sem lánardrottnar geta notað til að viðhalda vottunum sínum með **Samvinnusvæði lánardrottins**. Dæmi um vottanir gæti verið Woman Business Enterprise (WBE) eða Leadership in Energy and Environment Design (LEED) fyrirtæki. Lánardrottnar þurfa að fylla út upplýsingar um vottorð í vinnusvæðið **Lánardrottnaupplýsingar**. Þaðan velja lánardrottnar **Frekari upplýsingar** og velja svo **Vottanir**.
 
+## <a name="turn-on-the-vendor-certification-feature"></a>Kveiktu á vottunareiginleika lánardrottins
+
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining** - *Lánardrottnar*
+- **Heiti eiginleika** - *Virkjið vottunarstjórnun lánardrottnasamstarfs*
+
 ## <a name="add-a-new-certification"></a>Bæta við nýju vottorði
 
 Til að bæta við nýrri vottun skal velja hnappinn **Bæta við** sem er fyrir ofan hnitanetið **Vottun** á vinnusvæðinu **Upplýsingar um lánardrottin**. Færi inn eftirfarandi upplýsingar:
- 
+
 - Vottunarnúmer
 - Gerð vottunar
-- Vottunarfyrirtæki 
+- Vottunarfyrirtæki
 - Dagsetning vottorðs
 - Skuldafjárhæð, ef við á
 - Dagsetning frá
@@ -42,9 +49,9 @@ Vottorð sem eru slegin inn af lánardrottnum þínum á þessari síðu verður
 
 Seljendur geta breytt eða eytt vottorðum eftir þörfum.
 
-## <a name="vendor-collaboration-generated-certification-records"></a>Vottunarfærslur fyrir samstarf lánardrottna 
- 
+## <a name="vendor-collaboration-generated-certification-records"></a>Vottunarfærslur fyrir samstarf lánardrottna
+
 Eftir að vottunarupplýsingum hefur verið bætt við af lánardrottni verða upplýsingarnar sýnilegar á síðunni **Mynduð vottorð fyrir samstarf lánardrottna**. Til að opna síðuna skaltu fara í **Reikningar til greiðslu > Fyrirspurnir > Seljendaskýrslur Samstarf > seljanda framleiddi vottanir**. Sjálfgefið er að allar nýjar eða breyttar vottunarskrár sýnilegar. Greiðslumaður viðskiptaskulda getur skoðað breytingarnar og staðfest upplýsingarnar í staðfestingarferli þeirra. Þegar upplýsingarnar hafa verið staðfestar er hægt að velja vottunarfærsluna sem er á síðunni og merkja sem yfirfarna. Ef færslan er merkt sem yfirfarin verður hún fjarlægð úr sjálfgefnum lista.
- 
-Allar vottunarbreytingar eru sýnilegar á síðnnu **Mynduð vottorð fyrir samstarf lánardrottna**. Ef breyting er ekki birt á síðunni er hægt að skoða hana með því að stilla síur fyrir lánardrottnalykil, gildisdag eða velja hvort taka eigi með upplýsingar um vottunarbreytingar sem hafa verið skoðaðar. 
+
+Allar vottunarbreytingar eru sýnilegar á síðnnu **Mynduð vottorð fyrir samstarf lánardrottna**. Ef breyting er ekki birt á síðunni er hægt að skoða hana með því að stilla síur fyrir lánardrottnalykil, gildisdag eða velja hvort taka eigi með upplýsingar um vottunarbreytingar sem hafa verið skoðaðar.
 

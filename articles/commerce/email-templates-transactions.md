@@ -2,7 +2,7 @@
 title: Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 description: Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718708"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce býður upp á lausn til að senda tölvupóst til að láta viðskiptavini vita af færslutilvikum (til dæmis þegar pöntun er send inn, pöntun er tilbúin til afhendingar eða pöntun hefur verið send). Þetta efnisatriði lýsir skrefum til að búa til, hlaða upp og skilgreina sniðmát fyrir tölvupóst sem eru notuð til að senda færslutengdan tölvupóst.
 
@@ -79,26 +77,33 @@ Eftirfarandi staðgenglar sækja og sýna gögn sem eru skilgreind á stigi söl
 | Staðgengilsheiti     | Staðgengilsgildi                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | Nafn viðskiptavinarins sem sendi inn pöntunina.               |
-| salesid              | Sölukenni pöntunar.                                   |
-| deliveryaddress      | Afhendingaraðsetur fyrir sendar pantanir.                     |
 | customeraddress      | Aðsetur viðskiptavinarins.                                 |
 | customeremailaddress | Netfangið sem viðskiptavinurinn færði inn við greiðsluferli.     |
+| salesid              | Sölukenni pöntunar.                                   |
+| orderconfirmationid  | Krossrásarkennið sem var búið til við stofnun pöntunar. |
+| channelid            | Kenni smásölu- eða netrásar sem pöntunin fór í gegnum. |
+| deliveryname         | Nafnið sem er tilgreint fyrir afhendingaraðsetrið.        |
+| deliveryaddress      | Afhendingaraðsetur fyrir sendar pantanir.                     |
 | deliverydate         | Afhendingardagsetning.                                           |
 | shipdate             | Sendingardagsetning.                                               |
 | modeofdelivery       | Afhendingarmáti pöntunarinnar.                              |
+| ordernetamount       | Heildarupphæðin fyrir pöntunina, að frádregnum heildarskatti.         |
+| afsláttur             | Heildarafsláttur pöntunarinnar.                            |
 | Gjöld              | Heildargjöld fyrir pöntunina.                             |
 | Skattur                  | Heildarskattur fyrir pöntunina.                                 |
 | samtala                | Heildarupphæð pöntunarinnar.                              |
-| ordernetamount       | Heildarupphæðin fyrir pöntunina, að frádregnum heildarskatti.         |
-| afsláttur             | Heildarafsláttur pöntunarinnar.                            |
 | storename            | Heiti verslunarinnar þaðan sem pöntunin er upprunnin.            |
 | storeaddress         | Aðsetur verslunarinnar þaðan sem pöntunin er upprunnin.              |
 | storeopenfrom        | Opnunartími verslunarinnar þaðan sem pöntunin er upprunnin.         |
 | storeopento          | Lokunartími verslunarinnar þaðan sem pöntunin er upprunnin.         |
-| pickupstorename      | Heiti verslunarinnar þar sem pöntunin verður sótt.     |
-| pickupstoreaddress   | Aðsetur verslunarinnar þar sem pöntunin verður sótt.  |
-| pickupopenstorefrom  | Opnunartími verslunarinnar þar sem pöntunin verður sótt. |
-| pickupopenstoreto    | Lokunartími verslunarinnar þar sem pöntunin verður sótt. |
+| pickupstorename      | Heiti verslunarinnar þar sem pöntunin verður sótt.\* |
+| pickupstoreaddress   | Aðsetur verslunarinnar þar sem pöntunin verður sótt.\* |
+| pickupopenstorefrom  | Opnunartími verslunarinnar þar sem pöntunin verður sótt.\* |
+| pickupopenstoreto    | Lokunartími verslunarinnar þar sem pöntunin verður sótt.\* |
+| pickupchannelid      | Rásarauðkenni verslunar sem er tilgreint fyrir afhendingarmáta.\* |
+| packingslipid        | Auðkenni fylgiseðilsins sem var búinn til þegar línum í pöntun var pakkað.\* |
+
+\* Þessir staðgenglar skila aðeins gögnum þegar þeir eru notaðir fyrir tilkynningagerðina **Pöntun tilbúin til afhendingar**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Staðgenglar pöntunarlínu (sölulínustig)
 
@@ -106,7 +111,10 @@ Eftirfarandi staðgenglar sækja og sýna gögn fyrir einstakar afurðir (línur
 
 | Staðgengilsheiti               | Staðgengilsgildi |
 |--------------------------------|-------------------|
-| productid                      | Afurðakennið fyrir línuna. |
+| productid                      | <p>Kenni afurðarinnar. Þetta auðkenni tekur til afbrigða.</p><p><strong>Athugasemd:</strong> Þessi staðgengill hefur verið afskráður í hag **línuproductrecid**.</p> |
+| lineproductrecid               | Kenni afurðarinnar. Þetta auðkenni tekur til afbrigða. Það auðkennir hlut á afbrigðastigi. |
+| lineitemid                     | Vörustigsauðkenni afurðarinnar. (Þetta auðkenni tekur ekki til afbrigða.) |
+| lineproductvariantid           | Kenni afurðarinnar eða afurðarafbrigðisins. |
 | lineproductname                | Nafn vörunnar. |
 | lineproductdescription         | Lýsing á afurðinni. |
 | linequantity                   | Fjöldi eininga sem voru pantaðar fyrir línuna, auk mælieiningarinnar (til dæmis **ea** eða **par**). |
@@ -125,6 +133,8 @@ Eftirfarandi staðgenglar sækja og sýna gögn fyrir einstakar afurðir (línur
 | linedeliverydate               | Afhendingardagsetning línunnar. |
 | linedeliverymode               | Afhendingarmáti fyrir línuna. |
 | linedeliveryaddress            | Afhendingaraðsetur fyrir línuna. |
+| linepickupdate                 | Afhendingardagur sem viðskiptavinur tilgreindi, fyrir pantanir sem nota afhendingarmáta. |
+| linepickuptimeslot             | Afhendingartímabilið sem viðskiptavinur tilgreindi, fyrir pantanir sem nota afhendingarmáta. |
 | giftcardnumber                 | Gjafakortsnúmer, fyrir afurðir af gerðinni gjafakort. |
 | giftcardbalance                | Staða gjafakorts, fyrir afurðir af gerðinni gjafakort. |
 | giftcardmessage                | Gjafakortsskilaboð, fyrir afurðir af gerðinni gjafakort. |

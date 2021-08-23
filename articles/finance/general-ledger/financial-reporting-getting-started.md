@@ -2,7 +2,7 @@
 title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748211"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
@@ -47,7 +47,7 @@ Til að stofna og búa til fjárhagsskýrslur fyrir lögaðila, verður að setj
 -   Bókhaldslykill
 -   Gjaldmiðill
 -   Bóka færslu á að minnsta kosti einum reikningi
--   MainAccount er skráð í völdum dálki í **Fjárhagur > Uppsetning fjárhags > Uppsetning fjárhagsskýrslugerðar**
+-   MainAccount er skráð í dálknum **Valið** á síðunni **Uppsetning reikningsskila** (**Fjárhagur > Fjárhagsuppsetning > Uppsetning reikningsskila**)
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Veita öryggisaðgang að Financial Reporting
 Fjárhagsleg skýrslugerð aðgerðir eru tiltækar fyrir notendur sem hafa fengið viðeigandi réttindi og skyldur úthlutað gegnum öryggishlutverk þeirra. Eftirfarandi kaflar telja upp þessi réttindi og skyldur, ásamt tengdum hlutverkum.
@@ -79,7 +79,7 @@ Fjárhagsleg skýrslugerð aðgerðir eru tiltækar fyrir notendur sem hafa feng
 | Mynda fjárhagsskýrslur            | Mynda fjárhagsskýrslur            | Forstjóri, framkvæmdastjóri, bókhaldari                                                            |
 | Skoða fjárhagsskýrslur                | Yfirfara fjárhagslega frammistöðu          | Ekki úthlutað                                                                   |
 
-Eftir að°notanda er bætt við eða hlutverki er breytt, á notandinn að geta opnað fjárhagsskýrslugerð innan nokkrar mínútur. 
+Eftir að notanda er bætt við eða hlutverki er breytt, á notandinn að geta opnað fjárhagsskýrslugerð innan nokkrar mínútur. 
 
 > [!NOTE]
 > Hlutverkið sysadmin er bætt við öll hlutverk í fjárhagsskýrslugerð.
@@ -165,10 +165,47 @@ Vandamál 2: Notanda hefur ekki verið úthlutað nauðsynlegum heimildum til a�
   Ef annar notandi getur opnað skýrsluhönnun skal velja **Verkfæri** og síðan velja **Samþættingarstaða**. Staðfestið að samþættingarvörpunin „Fyrirtækjanotendaveita til fyrirtækis“ hafi keyrt vegna þess að þér var úthlutað réttindum til að nota Financial Reporting. 
 * Hugsanlegt er að önnur villa hafi komið í veg fyrir að **Samþætting Dynamics-notanda við Financial Reporting-notanda** hafi náð að klárast. Eða að hugsanlega hafi endurstilling gagnaskemmu hafi verið sett af stað og ekki lokið enn, eða að önnur kerfisvilla hafi komið upp. Reynið að keyra ferlið aftur síðar. Hafið samband við kerfisstjóra ef vandamálið er viðvarandi.
 
-Vandamál 3: Þú getur haldið áfram framhjá ClickOnce innskráningarsíðu skýrsluhönnunar, en getur ekki lokið innskráningu innan skýrsluhönnunar. 
+Vandamál 3: Þú getur haldið áfram framhjá innskráningarsíðu **ClickOnce Report Designer**, en getur ekki lokið innskráningu innan Report Designer. 
 
-* Tíminn sem stilltur er á staðbundinni tölvu þegar þú slærð inn innskráningarupplýsingarnar þínar verður að vera innan fimm mínútna af tímanum á netþjóni Financial Reporting. Ef það er mismunur upp á meira en fimm mínútur mun kerfið ekki leyfa innskráningu. 
-* Í slíku tilfelli er mælt með því að virkja Windows-valkostinn um að stilla tíma tölvunnar sjálfkrafa. 
+* Tíminn sem stilltur er á staðbundinni tölvu þegar þú skráir þig inn í kerfið má ekki vera lengra en fimm mínútur frá tímanum í netþjóni fjárhagsskýrslugerðar. Ef það er mismunur upp á meira en fimm mínútur mun kerfið ekki leyfa þér að skrá þig inn. 
+* Ef tíminn á tölvunni þinni er annar en tíminn á netþjóni fjárhagsskýrslugerðar mælum við með því að virkja valkost Windows um að stilla tíma tölvunnar sjálfkrafa. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>Úrræðaleita vandamál varðandi Report Designer með viðburðarskoðun
+
+Viðburðaskoðarinn er notaður til að greina nokkur vandamál sem geta komið upp við notkun fjárhagsskýrslugerðar. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Hvað gerist þegar vandamál koma upp varðandi tengingar við fjárhagsskýrslugerð? 
+
+Hér eru nokkur skref sem þú getur tekið til að gera samtal þitt við notendaþjónustu Microsoft skilvirkara og fundið lausn mála á fljótlegri hátt. 
+ 
+Eftirfarandi skref fara í gegnum ferlið við að kveikja á skilaboðum viðburðarskoðunar fyrir fjárhagsskýrslugerð. Kladdarnir sem viðburðarskoðunin býr til auðvelda tæknimönnum hjá notendaþjónustunni að koast að rót vandans varðandi tenginguna á fljótlegan hátt. Sendu inn afrit af þessum klöddum ásamt miðanum þínum þegar þú hefur samband við notendaþjónustuna.
+
+> 1.    Afritaðu skrána RegisterETW.zip í vinnutölvu biðlarans (helst borðtölvu) og dragðu út [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster).
+
+> 2.    Gakktu úr skugga um að viðburðarskoðun Windows sé lokuð.
+
+> 3.    Opnaðu skipanakvaðningu Administrator PowerShell og farðu í skráasafnið þar sem RegisterETW.ps1 er staðsett.
+
+> 4.    Keyrðu eftirfarandi skipun: .\RegisterETW.ps1
+   
+   Vel heppnað úttak í PowerShell verður staðfest með skilaboðunum **Forskrift RegisterETW lokið**.
+Opnaðu viðburðaskoðarann aftur og þú munt nú sjá þessa kladda undir **Microsoft > Dynamics**: * MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. Endurgerðu málið í Report Designer.
+   
+> 6. Flyttu út MR-Logger viðburði með því að nota viðburðarskoðun.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Úrræðaleita vandamál varðandi tengingu við fjárhagsskýrslugerð
+
+Vandamál: Þú færð villuna „Ekki tókst að koma á tengingu við netþjón fjárhagsskýrslugerðar“.
+
+* Finndu út hvort vandamálið komi upp í netvöfrum Chrome og Edge.
+* Ef vandamálið kemur aðeins upp í öðrum vafranum gæti það verið vandamál varðandi ClickOnce. 
+* Þegar þú færð villuboð um tengingu skaltu velja **Próf** til að prófa tenginguna til að sjá hvaða skilaboð birtast. 
+* Vandamálið gæti verið afleiðing þess að annar notandi hafi ekki aðgang að fjárhagsskýrslugerð. Ef notandi hefur ekki aðgang fær hann skilaboð um að hann hafi ekki heimild.
+* Ef vandamálið kemur upp í mörgum vöfrum skaltu ganga úr skugga um að tímaklukkan í vinnutölvunni sé stillt á sjálfvirka stillingu.
+* Starfaðu með notanda sem er með réttindi öryggisstjóra í Dynamics 365 Finance og stjórnandaréttindi í léni kerfisins til að skrá þig inn í vinnutölvuna til að sjá hvort hann geti tengst. Ef viðkomandi getur tengst gæti málið tengst netheimildum.
+* Slökktu tímabundið á eldvegg í vinnutölvunni. Ef þú getur síðan tengst Report Designer tengist vandamálið eldveggnum þínum. Starfaðu með tæknideild fyrirtækisins til að leysa úr vandamálinu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Skoða fjárhagsskýrslur](view-financial-reports.md)

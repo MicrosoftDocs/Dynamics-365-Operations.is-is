@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abc8dc112ab577ddcbd208f898a8d4e487bc2998
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d35504ab2fe6b8143d040bda505a904ab179b6137472073d788515f392faaef9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827771"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722888"
 ---
 # <a name="research-or-resolve-exceptions"></a>Rannsaka eða leysa úr undantekningum
 
@@ -62,7 +62,7 @@ Sannprófun á reikningsjöfnun notar ekki reikningsreglur lánardrottins, en er
 3. Í reitinn Heiti skal slá inn gildi.
 4. Sláið inn gildi í reitnum „Lýsing“.
 5. Útvíkka eða draga saman hlutann fyrirtækisregla
-6. Veljið 'Contoso Entertainment System USA', í trénu.
+6. Í trénu skal velja 'Contoso Entertainment System USA'.
 7. Smelltu á Bæta við.
 8. Útvíkka eða draga saman hlutann stefnuregla.
 9. Smellt er á Stofna stefnureglu.

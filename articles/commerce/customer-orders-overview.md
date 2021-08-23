@@ -2,7 +2,7 @@
 title: Pantanir viðskiptavina á sölustað
 description: Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar á sölustað. Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755084"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
@@ -132,6 +132,10 @@ Smásölupantanir sem annaðhvort eru stofnaðar á netrásinni eða verslunarr�
 > [!IMPORTANT]
 > Ekki er hægt að breyta öllum smásölupöntunum í gegnum forrit sölustaðar. Pantanir sem stofnaðar eru í símaversrás er ekki hægt að breyta í gegnum sölustað ef kveikt er á stillingunni [Virkja lok pöntunar](./set-up-order-processing-options.md#enable-order-completion) fyrir símaversrásina. Til að tryggja rétta úrvinnslu á greiðslu, þarf að breyta pöntunum sem gerðar voru í símaversrás og sem nota aðgerðina „Virkja lok pöntunar“ í gegnum símaversforritið í Commerce Headquarters.
 
+> [!NOTE]
+> Mælt er með því að þú breytir ekki pöntunum og tilboðum á sölustað sem notandi annar en í símaveri stofnar í Commerce Headquarters. Þessar pantanir og tilboð nota ekki verðlagningarkerfi Commerce, þannig að ef því er breytt á sölustað mun verðlagningarkerfi Commerce endurverðleggja þau.
+
+
 Í útgáfu 10.0.17 og nýrri geta notendur breytt tilheyrandi pöntunum í gegnum forrit sölustaðar jafnvel þótt pöntunin sé uppfyllt að hluta til. Hins vegar er ekki hægt að breyta pöntunum í gegnum sölustað sem hafa verið reikningsfærðar að fullu. Til að virkja þennan möguleika skal kveikja á eiginleikanum **Breyta pöntunum á sölustað sem hafa verið uppfylltar að hluta til** á vinnusvæðinu **Eiginleikastjórnun**. Ef þessi eiginleiki er ekki virkur eða ef verið er að nota útgáfu 10.0.16 eða eldri, geta notendur aðeins breytt pöntunum viðskiptavinar á sölustað ef pöntunin er opin að fullu. Auk þess, ef eiginleikinn er virkur, er hægt að takmarka hvaða verslanir geta breytt pöntunum sem eru uppfylltar að hluta til. Hægt er að skilgreina valkostinn til að slökkva á þessum möguleika fyrir tilteknar verslun í gegnum **Virkniforstillingar** undir flýtiflipanum **Almennt**.
 
 
@@ -142,7 +146,23 @@ Smásölupantanir sem annaðhvort eru stofnaðar á netrásinni eða verslunarr�
 5. Ljúkið við breytingarferlið með því að velja greiðsluaðgerð.
 6. Til að fara úr breytingaferlinu án þess að vista breytingar er hægt að nota aðgerðina **Ógilda færslu**.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Verðáhrif þegar pöntunum er breytt
 
+Þegar pantanir gerðar á sölustað eða Commerce-svæði rafrænna viðskipta samþykkja þeir ákveðna upphæð. Þessi upphæð felur í sér verð og gæti líka falið í sér afslátt. Viðskiptavinur sem leggur inn pöntun og hefur síðan síðar samband við símaverið til að breyta þeirri pöntun (til dæmis til að bæta við annarri vöru) mun hafa sérstakar væntingar varðandi notkun afsláttar. Jafnvel þótt kynningartilboð á núverandi pöntunarlínum hafi runnið út gerir viðskiptavinurinn ráð fyrir að afslættirnir sem voru upphaflega settir á þessar línur haldi gildi sínu. En ef enginn afsláttur var í gildi þegar pöntunin var upphaflega gerð, en settur hefur verið afsláttur síðan þá mun viðskiptavinurinn búast við því að breytta pöntunin fái nýja afsláttinn. Annars gæti viðskiptavinurinn einfaldlega hætt við fyrirliggjandi pöntun og stofnað nýja pöntun þar sem nýi afslátturinn er notaður. Eins og þessar aðstæður sýna verður að varðveita verð og afslætti sem viðskiptavinir hafa skuldbundið sig til að greiða. Á sama tíma verða notendur sölustaðar og símavers að hafa sveigjanleika til að endurreikna verð og afslætti fyrir sölupöntunarlínur eftir þörfum.
+
+Þegar pantanir eru innkallaðar og þeim breytt á sölustað eru verð og afslættir fyrirliggjandi pöntunarlína talin „læst“. Með öðrum orðum breytast þær ekki, jafnvel þótt hætt sé við sumar pöntunarlínur eða þeim breytt, eða nýjum pöntunarlínum bætt við. Til að breyta verðum og afsláttum í núverandi sölulínum verður notandinn sölustaðar að velja **Endurreikna**. Verðlásinn er síðan fjarlægður úr fyrirliggjandi pöntunarlínum. Hinsvegar var þessi möguleiki ekki til staðar í símaverinu á undan Commerce-útgáfu 10.0.21. Þess í stað leiddu allar breytingar á pöntunarlínum til þess að verð og afslættir voru endurreiknuð.
+
+Í útgáfu 10.0.21 af Commerce er nýr eiginleiki sem kallast **Koma í veg fyrir óviljandi verðútreikning á viðskiptapöntunum** í boði á vinnusvæðinu **Eiginleikastjórnun**. Sjálfgefið er kveikt á þessum eiginleika. Þegar kveikt er honum er nýr eiginleiki, **Verð læst**, í boði fyrir allar rafrænar viðskiptapantanir. Eftir að pöntun er sótt fyrir pantanir sem eru gerðar í hvaða rás sem er, er þessi eiginleiki sjálfkrafa virkjaður (þ.e. gátreiturinn er valinn) fyrir allar pöntunarlínurnar. Verðlagningarkerfi Commerce útilokar síðan þessar pöntunarlínur frá öllum útreikningum verðs og afsláttar. Ef pöntuninni er breytt verða pöntunarlínurnar því sjálfkrafa undanskildar frá verð- og afsláttarútreikningi. Notendur símavers geta hinsvegar gert eiginleikann óvirka (þ.e. hreinsað gátreitinn) fyrir allar pöntunarlínur og valið síðan **Endurreikna** til að taka fyrirliggjandi pöntunarlínur með í verðútreikninga.
+
+Jafnvel þótt notendur símavers noti handvirkan afslátt á fyrirliggjandi sölulínu verða þeir að slökkva á eiginleikanum **Verð læst** fyrir sölulínurnar áður en þeir nota handvirka afsláttinn.
+
+Notendur símvers geta einnig slökkt á eiginleikanum **Verð læst** fyrir margar pöntunarlínur í einu með því að velja **Fjarlægja verðlæsingu** í flokknum **Reikna** í flipanum **Selja** á aðgerðasvæðinu á síðunni **Sölupöntun**. Í þessu tilfelli er verðlæsingin fjarlægð úr öllum pöntunarlínum nema línum sem ekki er hægt að breyta (m.ö.o. línum sem hafa stöðuna **Reikningsfært að hluta til** eða **Reikningsfært**). Því næst, eftir að breytingum á pöntuninni er lokið og þær hafa verið sendar inn, er verðlæsingin sett aftur á allar pöntunarlínurnar.
+
+> [!IMPORTANT]
+> Þegar kveikt er á eiginleikanum **Koma í veg fyrir óviljandi verðútreikning á viðskiptapöntunum** verður uppsetning verðsamningsmats hunsað í verkflæði verðlagningar. Með öðrum orðum sýna svargluggar verðsamningsmats ekki hlutann **Verðbundið**. Þessi hegðun á sér stað vegna þess að bæði uppsetning verðsamningsmats og eiginleiki verðlæsingar eru með svipaðan tilgang: að koma í veg fyrir óviljandi verðbreytingar. Hinsvegar lagast notendaupplifun fyrir verðsamningsmat ekki vel að stórum pöntunum þar sem notendur verða að velja eina eða fleiri pöntunarlínur fyrir endurverðlagningu.
+
+> [!NOTE]
+> Aðeins er hægt að slökkva á eiginleikanum **Verð læst** fyrir eina eða fleiri valdar línur þegar einingin **Símaver** er notuð. Hegðun sölustaðar helst óbreytt. Með öðrum orðum geta notendur sölustaðar ekki aflæst verðum fyrir valdar pöntunarlínur. Hinsvegar geta þeir valið **Endurreikna** til að fjarlægja verðlæsinguna úr öllum fyrirliggjandi pöntunarlínum.
 
 ### <a name="cancel-a-customer-order"></a>Hætta við pöntun viðskiptavinar
 
