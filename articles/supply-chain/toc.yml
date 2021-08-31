@@ -222,11 +222,31 @@
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Supply Chain Management
+                      items:
+                        - name: Sækja skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Flytja inn skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Altæk geymsla (GR)
+                      items:
+                        - name: Flytja inn skilgreiningar úr GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Aukin síun til að finna skilgreiningar í GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hlaða skilgreiningum upp í GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: Deila skilgreiningum í altækri geymslu
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Ljúka skilgreiningum í RCS altækri geymslu
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Rafræn reikningsfærsla
                   items:
                     - name: Yfirlit rafrænnar reikningsfærslu
                       href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Stjórnunarhlutar rafrænnar reikningsfærslu
+                    - name: Stjórnunarhlutar rafrænna reikningsfærslna
                       href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Skilgreina rafrænar reikningsfærslur í Regulatory Configuration Services (RCS)
                       href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Flytja inn skilgreiningar (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: Altækir eiginleikar í RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Supply Chain Management
-                      items:
-                        - name: Sækja skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Flytja inn skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Altæk geymsla (GR)
-                      items:
-                        - name: Flytja inn skilgreiningar úr GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Aukin síun til að finna skilgreiningar í GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Hlaða skilgreiningum upp í GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Deila skilgreiningum í GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Ljúka skilgreiningum í RCS altækri geymslu
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Stuttir leiðarvísar
               items:
                 - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
@@ -1574,7 +1570,19 @@
             - name: Safnvista birgðafærslur
               href: inventory/archive-inventory-transactions.md
             - name: Innbót fyrir sýnileika birgða
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Yfirlit viðbótar fyrir sýnileika birgða
+                  href: inventory/inventory-visibility.md
+                - name: Setja upp sýnileika birgða
+                  href: inventory/inventory-visibility-setup.md
+                - name: Stilla sýnileika birgða
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Frátekningar sýnilegra birgða
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Power APP fyrir sýnileika birgða
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: Opin API fyrir sýnileika birgða
+                  href: inventory/inventory-visibility-api.md
         - name: IoT gervigreind
           items:
             - name: IoT gervigreind – heimasíða
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: Samræmisgreining á fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Munur á innbyggðu aðalskipulagi og fínstillingu skipulagningar
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Nota síur á áætlun
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Opnun í Excel stofnuð
+            - name: Opna í algengar spurningar um Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: Stofna beiðni um tilboð
                   href: procurement/tasks/create-request-quotation.md
-                - name: Lokuð tilboð fyrir tilboðsbeiðnir
-                  href: procurement/sealed-bidding.md
                 - name: Stofna beiðni sem notar tilboðsbeiðni
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Stofna aðferð við stigagjöf fyrir tilboðsbeiðnir
@@ -3301,17 +3309,21 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Setja upp og tengja vöruhúsaforrit
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Skanna strikamerki með myndavél í Warehouse Management farsímaforriti
+                    - name: Stuðningur við strikamerki fartækis
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Skanna strikamerki með myndavél í farsímaforriti Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Úrræðaleit fyrir tengivandamál Warehouse Management farsímaforrits
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Setja upp reiti og valmyndir fyrir fartæki
                   items:
-                    - name: Skilgreina reiti fyrir Warehouse Management farsímaforritið
+                    - name: Skilgreina reiti fyrir farsímaforrit Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Uppsetning fartækja fyrir vöruhúsavinnu
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Móttaka númeraplötu með Warehouse Management farsímaforriti
+                    - name: Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
+                      href: warehousing/mobile-app-titles-instructions.md
+                    - name: Móttaka númeraplötu með farsímaforriti Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Vinnsla viðburða í vöruhúsaforriti
                   href: warehousing/warehouse-app-events.md
-                - name: Sérstilla vöruhúsaforritið
+                - name: Víkka vöruhúsaferli farsíma
                   items:
                     - name: Vinna úr leiðbeiningaramma
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Skipulag skjalaleiðar fyrir númeraplötumerki
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Stuðningur við strikamerki í fartæki
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1-strikamerki og QR-kóðar
+                      href: warehousing/gs1-barcodes.md
                     - name: Setja upp vöruhús fyrir flutningspantanir
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Úrræðaleit fyrir grunnstillingu vöruhúss

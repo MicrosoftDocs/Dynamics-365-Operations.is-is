@@ -1166,10 +1166,12 @@
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
                 - name: Afturkalla stillingar á færslubókum og línum
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
-                - name: Opnar innistæður vantar í árslokalokun
+                - name: Opnunarstöður vantar í lokun í árslok
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Opna sniðmát fyrir fjárhagsbók í Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Villa í dagbókarfærslu vegna ójafnvægis
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Af hverju er ekki hægt að afturkalla þessa færslu?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Fjárhagsskýrslugerð
@@ -1482,11 +1484,31 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Finance
+                      items:
+                        - name: Sækja skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Flytja inn skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Altæk geymsla (GR)
+                      items:
+                        - name: Flytja inn skilgreiningar úr GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Aukin síun til að finna skilgreiningar í GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Hlaða skilgreiningum upp í GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Deila skilgreiningum í altækri geymslu
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Ljúka skilgreiningum í RCS altækri geymslu
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Rafræn reikningsfærsla
                   items:
                     - name: Yfirlit rafrænnar reikningsfærslu
                       href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Stjórnunarhlutar rafrænnar reikningsfærslu
+                    - name: Stjórnunarhlutar rafrænna reikningsfærslna
                       href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Skilgreina rafrænar reikningsfærslur í Regulatory Configuration Services (RCS)
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Yfirlit skattaútreiknings
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Hafist handa með skattaútreikning
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Rök fyrir gildissvið virðisaukaskatts og VSK-flokk
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: Reikna skatt ofan á verð þegar „Verð eru með sköttum“ er virkt
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Bæta við gagnareitum í skattaskilgreiningum
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Setja upp umhverfi fyrir uppflettingar aðalgagna
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Mörg VSK-númer
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
+                    - name: Uppsetning
                       items:
+                        - name: Hafist handa með skattaútreikning
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Setja upp umhverfi fyrir uppflettingar aðalgagna
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Ákvörðun
+                      items:
+                        - name: Rök fyrir gildissvið virðisaukaskatts og VSK-flokk
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Útreikningur
+                      items:
+                        - name: Reikna skatt ofan á verð þegar „Verð eru með sköttum“ er virkt
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Sléttunarreglur skattaútreiknings
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Margar VSK-skráningar
+                      items:
+                        - name: Mörg VSK-númer
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Skýrslugerð fyrir Frakkland
                           items:
                             - name: VSK-skýrsla
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Skýrslugerð fyrir Holland
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ESB-sölulisti
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Svissnesk skýrsla
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Skýrslugerð fyrir Bretland
                           items:
                             - name: Undirbúa samþættingu við MTD fyrir VSK
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Virkja skattaútreikning fyrir flutningspöntun
+                      items:
+                        - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Viðbót
+                      items:
+                        - name: Bæta við gagnareitum í skattaskilgreiningum
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
             - name: Ástralía
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Setja upp NF-e-færibreytur fyrir fjárhagsstofnun
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.005 – Útlit og staðfesting uppfærslna í rafræna fjárhagsskjalinu (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – Stafrænn verkvangur sölu frá þriðja aðila fyrir NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 – Skattafríðindi og reglur um undanþágu fyrir NF-e/NFC-e
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Skattafærslur
                           items:
-                            - name: Vöru- og þjónustuskattur TDS af greiðslu fyrir vörur og þjónustu
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Innkaupafærslur
                               items:
                                 - name: Kaup frá óskráðum lánardrottnum
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: Fyrirframgreiðslur lánardrottins þar sem bakfærð gjöld eru til staðar
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: Vöru- og þjónustuskattur TDS af greiðslu fyrir vörur og þjónustu
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: Vöru- og þjónustuskattur TCS af greiðslu fyrir vörur og þjónustu
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Sölufærslur
                               items:
                                 - name: Sala skattlagðra vara til neytenda
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Flytja eignir
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Sameinuð prenteyðublöð fyrir eignir
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Fyrirspurnir og skýrslur
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Engar verðmætar eignir og vinnuföt
                       items:
                         - name: Engar verðmætar eignir (NVFA) (Rússland)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Bókhald vegna vinnufatnaðar / sérstaks útbúnaðar (Rússland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Sameinuð prenteyðublöð fyrir eignir
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Viðskiptaskuldir og viðskiptakröfur
                   items:
                     - name: Leiðréttingar kreditnótu (Rússland)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Svissneskir QR-reikningar
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Taíland
               items:
                 - name: Yfirlit yfir Taíland
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Flytja inn skilgreiningar (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: Altækir eiginleikar í RCS
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Finance
-                      items:
-                        - name: Sækja skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Flytja inn skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Altæk geymsla (GR)
-                      items:
-                        - name: Flytja inn skilgreiningar úr GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Aukin síun til að finna skilgreiningar í GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Hlaða skilgreiningum upp í GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Deila skilgreiningum í GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Ljúka skilgreiningum í RCS altækri geymslu
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Stuttir leiðarvísar
               items:
                 - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Opnun í Excel stofnuð
+            - name: Opna í algengar spurningar um Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

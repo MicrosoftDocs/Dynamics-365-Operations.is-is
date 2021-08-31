@@ -256,7 +256,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Skipulag Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Birta netverslunarrás
+                - name: Birta vörulista netverslunar
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Efni Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -1268,6 +1268,26 @@
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Commerce
+                  items:
+                    - name: Sækja skilgreiningar úr RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Flytja inn skilgreiningar úr RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Altæk geymsla (GR)
+                  items:
+                    - name: Flytja inn skilgreiningar úr GR
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Aukin síun til að finna skilgreiningar í GR
+                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Hlaða skilgreiningum upp í GR
+                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                    - name: Deila skilgreiningum í altækri geymslu
+                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ljúka skilgreiningum í RCS altækri geymslu
+                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
@@ -1315,6 +1335,12 @@
                 - name: Afgreiðslukassavirkni
                   href: localizations/emea-fra-cash-registers.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
+                  href: localizations/emea-fra-fi-deployment.md
+                - name: Staðfesting á skjalasafni og heilleika gagna
+                  href: localizations/emea-fra-fiscal-archive.md
+                - name: Flytja úr eldri virkni fyrir Frakkland
+                  href: localizations/emea-fra-fi-migration.md
+                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldri)
                   href: localizations/emea-fra-deployment.md
             - name: Þýskaland
               items:
@@ -1350,6 +1376,8 @@
               items:
                 - name: Staðfæring Commerce fyrir Rússland
                   href: localizations/rus-commerce-localization.md
+                - name: Einfaldað aðseturssnið fyrir viðskiptavin í Commerce POS fyrir Rússland
+                  href: localizations/rus-simplified-address.md
                 - name: Setja upp staðfæringu Commerce fyrir Rússland
                   href: localizations/rus-commerce-setup.md
                 - name: Fyrirframgreiðslur í Commerce fyrir Rússland
@@ -1860,30 +1888,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Flytja inn skilgreiningar (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Services (RCS)
-                  items:
-                    - name: Altækir eiginleikar í RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Commerce
-                      items:
-                        - name: Sækja skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Flytja inn skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Altæk geymsla (GR)
-                      items:
-                        - name: Flytja inn skilgreiningar úr GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Aukin síun til að finna skilgreiningar í GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                        - name: Hlaða skilgreiningum upp í GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                        - name: Deila skilgreiningum í GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                        - name: Ljúka skilgreiningum í RCS altækri geymslu
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Stuttir leiðarvísar
               items:
                 - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
@@ -2112,7 +2116,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Opnun í Excel stofnuð
+            - name: Opna í algengar spurningar um Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Sniðmátum bætt við valmyndina „Opna línur í Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
@@ -2360,6 +2364,8 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Setja upp Azure-lyklageymslu fyrir örugga lyklastjórnun
                       href: e-commerce-extensibility/set-up-key-vault.md
+                    - name: Stofna beiðni um viðbót fyrir sölukeðju
+                      href: e-commerce-extensibility/request-pipeline-hook.md
                 - name: Þróa gagnaaðgerðir
                   items:
                     - name: Yfirlit yfir gagnaaðgerðir
@@ -2422,6 +2428,12 @@
                   items:
                     - name: Skilgreina og virkja tengla
                       href: e-commerce-extensibility/connectors.md
+                - name: Afköst
+                  items:
+                    - name: Stilla skyndiminni fyrir síður
+                      href: e-commerce-extensibility/page-caching.md
+                    - name: Skyndiminni gagnaaðgerðatilviks
+                      href: e-commerce-extensibility/instance-cache.md
                 - name: Fjarmælingar og greiningar
                   items:
                     - name: Skráning fjarmælinga

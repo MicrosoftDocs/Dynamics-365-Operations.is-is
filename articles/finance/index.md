@@ -2,7 +2,7 @@
 title: Heimasíða Finance
 description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika í Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779423"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394564"
 ---
 # <a name="finance-home-page"></a>Heimasíða Finance
 
@@ -35,6 +35,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
     :::column:::
         - [Viðskiptaskuldir](accounts-payable/accounts-payable.md) 
         - [Viðskiptakröfur](accounts-receivable/accounts-receivable.md)
+        - [Eignarleiga](asset-leasing/asset-leasing-homepage.md)
         - [Fjárhagsáætlanir](budgeting/budgeting-overview.md) 
         - [Reiðufjár- og bankastjórnun](cash-bank-management/cash-bank-management.md)
         - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
         - [Útgjaldastýring](/dynamics365/project-operations/prod-exp/expense-management)
         - [Fjárhagsskýrslugerð](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Eignir](fixed-assets/fixed-assets.md)
+        - [Finance insights](finance-insights/finance-insights-home-page.md)
         - [Fjárhagur og fjárhagsskýrslugerð](general-ledger/general-ledger.md) 
         - [Verkefnastjórnun og bókhald](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Hið opinbera](public-sector/public-sector-functionality.md) 
@@ -58,12 +60,9 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Financials-bloggið](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Microsoft Dynamics Operations-samstarfsaðilabloggið](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
-### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari aðstoð er í boði í verkleiðbeiningum í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
-
 ### <a name="videos"></a>Myndbönd
 
-Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
