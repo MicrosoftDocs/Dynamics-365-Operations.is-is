@@ -4,24 +4,17 @@ description: Þetta efni veitir upplýsingar um almenna úrræðaleit um samþæ
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4adc2d83667a05d14a26ace23e5bd8026df4b5f
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736303"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380213"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -29,31 +22,10 @@ ms.locfileid: "6736303"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
 Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
-
-## <a name="when-you-try-to-install-the-dual-write-package-by-using-the-package-deployer-tool-no-available-solutions-are-shown"></a>Þegar þú reynir að setja upp pakka fyrir tvöföld skrif með því að nota verkfærið Package Deployer eru engar fáanlegar lausnir sýndar
-
-Sumar útgáfur af verkfærinu Package Deployer eru ósamrýmanlegar með tvískiptu lausnarpakkanum. Til að setja upp pakkann svo vel sé skaltu passa að nota [útgáfu 9.1.0.20](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.20) eða nýrri af verkfærinu Package Deployer.
-
-Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp lausnarpakkann með því að fylgja þessum skrefum.
-
-1. Sæktu nýjustu pakkaskrá lausnarinnar af Yammer.com. Eftir að zip-skráin hefur verið sótt skaltu hægrismella á hana og velja **Eiginleikar**. Veldu gátreitinn **Opna fyrir** og veldu síðan **Beita**. Ef þú sérð ekki gátreitinn **Opna fyrir** er zip-skráin þegar aflæst og þú getur sleppt þessu skrefi.
-
-    ![Svargluggi eiginleika.](media/unblock_option.png)
-
-2. Opnaðu zip-skrána með pakkanum og afritaðu allar skrárnar í möppuna **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
-
-    ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
-
-3. Límdu allar afritaðar skrár í möppuna **Verkfæri** í verkfærinu Package Deployer. 
-4. Keyrðu **PackageDeployer.exe** til að velja Dataverse umhverfið og setja upp lausnirnar.
-
-    ![Innihald verkfæramöppunnar.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
@@ -74,18 +46,17 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Kveiktu á kembiforriti til að leysa vandamál samstillingar í beinni í forritum Finance and Operations
 
-**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri Tvíritaðar villur sem eiga uppruna sinn í Dataverse geta birst í Finance and Operations forritinu. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
+**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri
 
-1. Allar verkefnisstillingar í forritum Finance and Operations eru með eiginleikann **IsDebugMode** í töflunni **DualWriteProjectConfiguration**. Opnaðu töfluna **DualWriteProjectConfiguration** með því að nota Excel-viðbótina.
+Tvíritunarvillur sem eiga uppruna sinn í Dataverse geta komið fram í forriti Finance and Operations. Til að virkja fjölorða skráningu fyrir villurnar skal fylgja þessum skrefum:
 
-    > [!TIP]
-    > Auðveld leið til að opna töfluna er að kveikja á stillingunni **Hönnun** í Excel-viðbótinni og síðan bætt við **DualWriteProjectConfigurationEntity** í vinnublaðið. Nánari upplýsingar eru í [Opna töflugögn í Excel og uppfæra þau með Excel-innbót](../../office-integration/use-excel-add-in.md).
-
-2. Stilltu eiginleikann **IsDebugMode** á **Já** fyrir verkið.
-3. Keyrðu atburðarásina sem er að búa til villur.
-4. Fjölorðir kladdar eru fáanlegir í töflunni DualWriteErrorLog. Notaðu eftirfarandi slóð til að fletta upp gögnum í vafra töflunnar (skipta út **XXX** eftir atvikum):
-
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
+1. Fyrir allar skilgreiningar verks í Finance and Operations forriti er flagg **IsDebugMode** í töflunni **DualWriteProjectConfiguration**.
+2. Opnaðu **DualWriteProjectConfiguration** með Excel-innbótinni. Til að nota innbótina skaltu virkja hönnunarsnið í Finance and Operations Excel-innbótinni og bæta **DualWriteProjectConfiguration** við vinnublaðið. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
+3. Stilltu **IsDebugMode** á **Já** í verkinu.
+4. Keyrðu atburðarásina sem er að búa til villur.
+5. Fjölorða kladdar eru geymdir í töflunni **DualWriteErrorLog**.
+6. Til að fletta upp gögnum á töfluvafra skal nota eftirfarandi tengil: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, sem kemur í staðinn fyrir `999` eftir þörfum.
+7. Uppfærðu aftur eftir [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe) sem er í boði fyrir uppfærslur á verkvangi 37 og síðar. Ef þú ert með þessa lagfæringu uppsetta þá sækir kembistillingin fleiri kladda.  
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Athugaðu samstillingarvillur á sýndarvélinni fyrir forritið Finance and Operations
 
@@ -116,10 +87,28 @@ Fylgdu þessum skrefum til að skoða rakningarkladdann.
 Þegar búin er til sölupöntun í Dynamics 365 Sales og smellt er á **+ Bæta við afurðum** kanntu að fara á eyðublað Dynamics 365 Project Operations pöntunarlínu. Ekki er hægt að skoða **Upplýsingar** sölupöntunarlínu úr þeirri skjámynd. Valkosturinn fyrir **Upplýsingar** birtist ekki í fellivalmyndinni fyrir neðan **Ný pöntunarlína**. Þetta gerist vegna þess að Project Operations hefur verið sett upp í umhverfi þínu.
 
 Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
+
 1. Fara í töfluna **Pöntunarlína**.
-2. Finndu **Upplýsingar** undir skjámyndum. 
-3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**. 
+2. Finndu **Upplýsingar** undir skjámyndum.
+3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**.
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
 
+## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Hvernig á að virkja og vista netrakningu þannig að hægt verði að hengja rakningar við þjónustubeiðni
+
+Þjónustudeildin gæti þurft að fara yfir netrakningar til að  úrræðaleita sum vandamál. Til að búa til netrakningu skal fylgja þessum skrefum:
+
+### <a name="chrome"></a>Chrome
+
+1. Í opna flipanum skal ýta á **F12** eða velja **Verkfæri þróunaraðila** til að opna verkfæri þróunaraðila.
+2. Opnaðu flipann **Netkerfi** og sláðu inn **integ** í textasíureitinn.
+3. Keyrðu aðstæðurnar og fylgstu með beiðnunum sem eru skráðar inn.
+4. Hægrismelltu á færslurnar og veldu **Vista allt sem HAR með efni**.
+
+### <a name="microsoft-edge"></a>Microsoft Edge
+
+1. Í opna flipanum skal ýta á **F12** eða velja **Verkfæri þróunaraðila** til að opna verkfæri þróunaraðila.
+2. Opnaðu flipann **Netkerfi**.
+3. Keyrðu aðstæðurnar.
+4. Veldu **vista** til að flytja út niðurstöður sem HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
-description: Þessi grein útskýrir hvernig á að leysa mál þar sem nöfn einstaklinga og stöður eru styttar þegar viðskiptamenn skoða stöðustigveldið í Microsoft Dynamics 365 Human Resources. Stýfing á texta getur gert það erfitt að taka skjámynd eða prenta stigveldið.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Í þessu efnisatriði er útskýrt hvernig á að laga vandann varðandi stytt heiti einstaklinga og staða í stöðustigveldinu í Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779327"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413536"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
 
@@ -43,7 +43,7 @@ Fylgið þessum skrefum til að flytja út í Visio.
 
 1. Opnaðu í Human Resources **Stöður** listasíðu.
 
-    Til að bæta frekar upplýsingum við skipurit fyrirtækis skal bæta reitum við listann **Stöður** svo þeir séu tiltækir þegar leiðsagnarforritið er notað síðar í þessu ferli.
+    Til að bæta frekar upplýsingum við skipurit fyrirtækis skal bæta reitum við listann **Stöður** svo þeir séu tiltækir þegar **Leiðsagnarforrit skipurits** er notað síðar í þessu ferli.
 
 2. Í aðgerðasvæðinu skal velja hnappinn **Opna í Microsoft Office** og síðan, undir **Flytja út í Excel**, skal velja **Stöður**. Einnig er hægt að ýta á Ctrl+T.
 

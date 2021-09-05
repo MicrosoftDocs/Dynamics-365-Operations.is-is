@@ -1,8 +1,8 @@
 ---
-title: Skilgreina Dataverse-sýndartöflur
-description: Þetta efnisatriði sýnir hvernig á að skilgreina sýndartöflur fyrir Dynamics 365 Human Resources. Búið til og uppfærið fyrirliggjandi sýndartöflur og greinið tiltækar töflur sem hafa verið búnar til.
-author: andreabichsel
-ms.date: 01/25/2021
+title: Stilla Dataverse sýndartöflur
+description: Í þessu efnisatriði er sýnt hvernig á að skilgreina, mynda og uppfæra núverandi sýndartöflur og greining gerð á mynduðum og tiltækum töflum fyrir Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721608"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414665"
 ---
-# <a name="configure-dataverse-virtual-tables"></a>Skilgreina Dataverse-sýndartöflur
+# <a name="configure-dataverse-virtual-tables"></a>Stilla Dataverse sýndartöflur
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -140,6 +140,9 @@ Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu
 
      >[!NOTE]
      >Gætið þess að taka „**/**“ stafinn með í lok vefslóðarinnar til að forðast villu.
+
+     >[!NOTE]
+     >Markvefslóðin ákvarðar umhverfi Human Resources sem sýndartöflurnar benda á fyrir gögn. Ef þú býrð til sandkassaumhverfi með því að búa til afrit af vinnsluumhverfinu þínu skaltu uppfæra þetta gildi í nafnabil vefslóðar fyrir nýja sandkassaumhverfið. Þetta tryggir að sýndartöflurnar séu tengdar við gögn sandkassaumhverfisins frekar en að halda áfram að benda á vinnsluumhverfið.
 
    - **Auðkenni leigjanda**: Azure Active Directory (Azure AD) leigjandakenni.
 

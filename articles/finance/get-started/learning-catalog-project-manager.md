@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716622"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402177"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Námslisti fyrir stjórnendur innleiðingarverka sem vinna með Dynamics 365 Finance
 
@@ -61,7 +61,6 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Hvernig á að uppfæra í 7.2 (júlí 2017) frá 7.0 (RTW)/7.1 (útgáfa 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Í þessari lotu munum við útskýra hvernig á að uppfæra úr Dynamics 365 Finance and Operations umsókn v7.0 (RTW) og v7.1 (1611) til v7.2 (júlí 2017). Við gerum greinilega greinarmun á Live viðskiptavinum og áframhaldandi verkefnum (enn ekki í beinni). | Tæknital (hljóðritað vefnámskeið) | 58 mínútur |
 | [Finance and Operations: Uppfærsla úr 7.x í 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Vinsamlegast farðu með okkur í næsta tæknispalli okkar þar sem við munum taka uppfærsluferlið 7.X til 8.X. Við munum ræða ýmsar sviðsmyndir og skref til að framkvæma til að uppfæra kóða og uppfæra gögn. Við munum einnig fjalla um atburðarás beiðni um stækkun og hvernig eigi að hækka þau þar sem við á. 1. hluti af 2. | Tæknital (hljóðritað vefnámskeið) | 61 mínútur |
 | [Uppfærsla AX2012 í Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Þetta tæknispjall mun veita yfirlit um hvernig á að uppfæra kóða og gögn frá Dynamics AX 2012 til Dynamics 365 for Operations. | Tæknital (hljóðritað vefnámskeið) | 45 mínútur |
-| [Valkostir skýrslugerðar í Dynamics 365 for Operations (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | Í þessari lotu verður fjallað um ýmis sviðsmynd prentunar í D365 fyrir aðgerðir, þar á meðal ráð og brellur fyrir umboðsaðili skjalsleiðar. | Tæknital (hljóðritað vefnámskeið) | 60 mínútur |
 | [Valkostir greiningar- og skýrslugerðar, prentunar og eftirlitsbúnaðar skjalasendingar](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Taktu þátt í þessu tæknispjalli um tvö tengd málefni. Fyrst ræðum við um mynstur og verkfæri greiningar- og skýrslulausna fyrir Dynamics 365 for Finance and Operations, Enterprise Edition. Í öðru lagi ræðum við um prentaðstæður og eftirlitsbúnað skjalasendingar. | Tæknital (hljóðritað vefnámskeið) | 45 mínútur |
 | [Námskeið MB-300T01-A: Algengar aðgerðir í Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | Á þessu námskeiði er fjallað um algengar aðgerðir í Microsoft Dynamics 365 for Finance and Operations. | Leiðbeinandi í eigin persónu eða þjálfun á netinu, kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
 | [Námskeið MB-300T02-A: Grunnstillingar í Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | Á þessu námskeiði er fjallað um grunnstillingarverkefni fyrir Microsoft Dynamics 365 for Finance and Operations. | Leiðbeinandi í eigin persónu eða þjálfun á netinu, kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
@@ -93,6 +92,5 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Próf MB-300: Microsoft Dynamics 365 Unified Operations Kjarni](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: notaðu algengar virkni- og útfærslutæki; stilla öryggi, ferla og valkosti; framkvæma flutninga gagna; og staðfesta og styðja lausnina. | Próf, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-310: Microsoft Dynamics 365 for Finance and Operations, Fjármál](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: setja upp og stilla fjármálastjórnun; stjórna og beita sameiginlegum ferlum; innleiða og hafa umsjón með viðskiptakröfum sem eiga að greiða og eiga við; og hafa umsjón með fjárlagagerð og fastafjármunum. | Próf, kostnaður er breytilegur eftir svæðum |
 | [Microsoft vottað: Dynamics 365 for Finance and Operations, Fjármál hagnýtur ráðgjafi](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft vottað: Dynamics 365 for Finance and Operations, Fjármál Virkir ráðgjafar sameina alþjóðlegt fjármál og rekstur og gera sjálfvirkan verkefni og verkflæði, hagræða pöntun viðskiptavina, sölu, reikninga og skýrslugerð. | Vottorð, kostnaður er breytilegur eftir svæðum |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

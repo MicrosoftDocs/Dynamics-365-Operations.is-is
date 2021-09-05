@@ -1,8 +1,8 @@
 ---
 title: Eignafærslukostir
 description: Þetta efnisatriði lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764264"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344691"
 ---
 # <a name="fixed-asset-transaction-options"></a>Eignafærslukostir
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 
@@ -58,14 +59,16 @@ Allar gerðir eignafærsla má bóka í síðunni almenn færslubók. Einnig er 
 | Afskrift                        | Eignir             | Eignir                              |
 |                                     | Fjárhagur           | Almenn færslubók                           |
 | Losun                            | Eignir             | Eignir                              |
-| ** **                               | Fjárhagur           | Almenn færslubók                           |
-| ** **                               | Viðskiptakröfur      | Reikningur með frjálsum texta                         |
+|                                     | Fjárhagur           | Almenn færslubók                           |
+|                                     | Viðskiptakröfur      | Textareikningur                         |
 
-Eftirstöðvar eignar á afskriftartímabili eru ekki uppfærðar þegar færslubókarlína afskriftarfærslugerðar er búin til handvirkt eða flutt inn í gegnum gagnaeiningu. Þetta gildi er uppfært þegar ferli afskriftartillögu er notað til að búa til færslubókarlínu.
+Eftirstandandi gildi er ekki uppfært fyrir afskriftartímabil eignar þegar færslubókarlína fyrir gerð afskriftartímabils er stofnuð handvirkt eða flutt inn gegnum gagnaeiningu. Eftirstandandi gildi er uppfært þegar ferli afskriftartillögu er notað til að búa til færslubókarlínu.
 
 Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Færslur sem krefjast mismunandi fylgiskjalsnúmera
+Kerfið kemur í veg fyrir bókun afskriftar tvisvar sinnum á sama tímabilið tvisvar sinnum. Ef til dæmis tveir notendur stofna aðskildar afskriftartillögur fyrir janúar verður afskrift fyrri notandans bókuð í fyrri færslubókina. Þegar seinni notandinn bókar afskrift í seinni færslubókinni athugar kerfið dagsetninguna sem afskrift var síðast keyrð og mun ekki bóka afskrift fyrir sama tímabilið í annað sinn.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Færslur sem krefjast mismunandi fylgiskjalsnúmers
 
 Eftirtaldar eignafærslur munu nota mismunandi fylgiskjalsnúmer:
 

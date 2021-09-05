@@ -2,7 +2,7 @@
 title: Flettingaleit
 description: Flettingaleit - Þetta efnisatriði útskýrir hvernig skuli nota leitarvirknina til að fara inn á síður.
 author: aneesmsft
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82c7bf17eaf0276c448223182b4268a50addb37f1ff115fec0223bc3313905e5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30b56287520bb3536b250a886e74e6cbe30b412
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749605"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344399"
 ---
 # <a name="navigation-search"></a>Flettingaleit
 
@@ -34,7 +34,7 @@ Til að Nota þessa aðgerð þarf að smella á í **Leit** teiknið til að bi
 > [!NOTE]
 > Reiturinn **Leit** hjálpar til við að leita og fletta að síðum. Það ekki gagnast við að finna ákveðna gögn eða aðgerðir.
 
-[![search-box.](media/navigation-search.png "Leitargluggi")
+![search-box.](media/navigation-search.png "Leitargluggi")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Að fara á ákveðna síðu á fljótlegan hátt
 

@@ -1,8 +1,8 @@
 ---
 title: Vinna úr viðburðum
 description: Í líftíma starfsmannsins í Microsoft Dynamics 365 Human Resources, getur hver starfsmaður lent í ýmsum breytingum á atburði í lífinu.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6bfbb9e31a7d8973c2b993f3792a7216f41924e0ff4c24b08c0dd954ab327c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 688a47d77dbd75ecd12af23f22a1d401703ed672
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775018"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417549"
 ---
 # <a name="process-life-events"></a>Vinna úr viðburðum
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í líftíma starfsmannsins í Microsoft Dynamics 365 Human Resources, getur hver starfsmaður lent í ýmsum breytingum á atburði í lífinu. Til dæmis hjónaband, breyting á atvinnu eða breyting á skjólstæðingi/rétthafi. Til að nota atburði í lífinu verður þú að virkja lífatburði á formi hagur breytur, setja upp gerðir atburða fyrir líf og setja upp val á atburði fyrir áætlunartegundir.
+Í líftíma starfsmannsins í Microsoft Dynamics 365 Human Resources, getur hver starfsmaður lent í ýmsum breytingum á atburði í lífinu. Til dæmis hjónaband, breyting á atvinnu eða breyting á skjólstæðingi/rétthafi. Til að nota viðburði þarftu að virkja viðburði á síðunni **Færibreytur fríðinda** skal setja upp gerðir viðburða og setja upp valkosti viðburða fyrir áætlunargerðir.
 
 Áður en þú getur afgreitt atburði í lífinu verður þú að hafa þegar rekið opna skráningu amk einu sinni á ráðningartíma. Í Bandaríkjunum er opin innritun venjulega einu sinni á ári. Utan Bandaríkjanna kann að vera opin innritun við ráðningu. Starfsmaður þarf ekki að velja bótaáætlun til að lífatburðir verði afgreiddir, en þeir þurfa að hafa verið með í opinni skráningarvinnslu. 
 

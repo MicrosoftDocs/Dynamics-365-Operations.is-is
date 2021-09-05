@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764885"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402226"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Námskrá fyrir stjórnendur Dynamics 365 Supply Chain Management
 
@@ -61,6 +61,14 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Finance and Operations: Uppfærsla úr 7.x í 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Vinsamlegast farðu með okkur í næsta tæknispalli okkar þar sem við munum taka uppfærsluferlið 7.X til 8.X. Við munum ræða ýmsar sviðsmyndir og skref til að framkvæma til að uppfæra kóða og uppfæra gögn. Við munum einnig fjalla um atburðarás beiðni um stækkun og hvernig eigi að hækka þau þar sem við á. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
 | [Hvernig á að uppfæra í 7.2 (júlí 2017) frá 7.0 (RTW)/7.1 (útgáfa 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Í þessari lotu munum við útskýra hvernig á að uppfæra úr Dynamics 365 Finance and Operations umsókn v7.0 (RTW) og v7.1 (1611) til v7.2 (júlí 2017). Við gerum greinilega greinarmun á Live viðskiptavinum og áframhaldandi verkefnum (enn ekki í beinni). | Ókeypis upptaka af vefráðstefnu | 58 mínútur |
 | [Uppfærsla AX2012 í Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Þetta tæknispjall mun veita yfirlit um hvernig á að uppfæra kóða og gögn frá Dynamics AX 2012 til Dynamics 365 for Operations. | Ókeypis upptaka af vefráðstefnu | 45 mínútur |
+| [AX2009 til Dynamics 365 for Operations Flutningsverkfæri (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Þessi fundur mun fjalla um verkfæri sem eru tiltæk til að aðstoða þig við að flytja frá AX2009 til D365 fyrir aðgerðir. | Ókeypis upptaka af vefráðstefnu | 55 mínútur |
+| [AX2009 Migration Tool](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Þessi fundur mun fjalla um verkfæri sem eru tiltæk til að aðstoða þig við að flytja frá AX2009 til D365 fyrir aðgerðir. | Ókeypis upptaka af vefráðstefnu | 55 mínútur |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Efni | lýsing | Snið | Lengd |
+|---------|-------------|--------|--------|
+| [Setja upp stjórnun hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Framleiðendur í dag krefjast öflugrar afurðagagnastjórnunar, útgáfustjórnunar og breytingastjórnun hönnunar til að ná árangri í heimi með stöðugt minnkandi líftíma, auknum kröfum um gæði og áreiðanleika og aukna áherslu á vöruöryggi. Kynntu þér hvernig á að setja upp umsjón hönnunarbreytinga í þessari námsleið. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 
 ## <a name="servicing"></a>Þjónusta<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Finance and Operations: Eiginleikastjórnun (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Tæknifræðingur um reynslu af lögun stjórnunar. Það býður upp á vinnusvæði þar sem þú getur skoðað, gert kleift, slökkt á og skipulagt aðgerðir sem hafa verið afhentar í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Mætum á þennan fund til að sjá hvað er skilað í 10.0.3 og áætlanir okkar um framtíðarútgáfur. | Ókeypis upptaka af vefráðstefnu | 47 mínútur |
 | [Finance and Operations: Þjónusta, stuðningur og viðhald framleiðslu (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tæknital um hvernig á að duga, viðhalda og þjónusta þína Dynamics 365 for Finance and Operations framleiðsluumhverfi. | Ókeypis upptaka af vefráðstefnu | 53 mínútur |
 | [Finance and Operations: Microsoft stýrir stöðugum uppfærslum (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Stöðugur taktur uppfærslu fyrir Finance and Operations er hafin! Vinsamlegast farðu með okkur á þessari klukkustund til að ræða stöðugt uppfærslur frá Microsoft, notendaupplifunina sem þegar er til í Lifecycle Services og væntanlegar uppfærslur. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
+| [Finance and Operations: Microsoft stýrir stöðugum uppfærslum: Hvað er nýtt - 1. nóvember 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Á þessari klukkustund munum við ræða uppfærslur á Microsoft Managed Continuous update cadence auk kíkja á notendaupplifunina í Lifecycle Services. | Ókeypis upptaka af vefráðstefnu | 59 mínútur |
 | [Stöðugar uppfærslur frá Microsoft: Hvað er nýtt (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Á þessari klukkustund munum við útskýra hvað er nýtt síðan fyrstu tilkynningar okkar um Microsoft Stýrð stöðugar uppfærslur. Við munum ræða tíðni uppfærslna, hvernig við höfum brugðist við dýrmætum athugasemdum þínum um ferlið og kíktu á væntanlega notendaupplifun Lifecycle Services, þar sem þú getur stjórnað uppfærslunum þínum. | Ókeypis upptaka af vefráðstefnu | 56 mínútur |
 | [Stöðugar uppfærslur frá Microsoft (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Við munum ræða áætlanir Microsoft um að halda kerfinu þínu uppfærð með nýjustu útgáfunni. Við munum fjalla um tímalínur, töfra fyrir meiriháttar og minni háttar uppfærslur, fyrirhugaðar verklagsreglur, afleiðingar og hvað þú ættir að gera til að ná sem bestum árangri. | Ókeypis upptaka af vefráðstefnu | 62 mínútur |
 | [Vöktun, hagræðingaráðgjafi og gagnrýninn KB (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Við munum ræða eftirlitsviðbúnað og það sem Microsoft fylgist með fyrir þig í framleiðsluumhverfi þínu, hagræðingaráðgjafa og hvernig hægt er að lengja það, upplifunina „Critical X ++“ í LCS og bestu leiðirnar fyrir valkostinn „Tilkynntu framleiðslustöðvun“ í LCS. | Ókeypis upptaka af vefráðstefnu | 40 mínútur |
@@ -86,6 +95,5 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni  | lýsing  | Snið  |
 |----------|--------------|---------|
 | [Dynamics 365 grundvallaratriði](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Sýndu fram á að þú skilur Microsoft Dynamics 365, Power Platform, hugmyndirnar um skýið, leyfismöguleika, og valkosti uppsetningar og útgáfu. | Próf, kostnaður er breytilegur eftir svæðum |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

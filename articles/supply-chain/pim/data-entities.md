@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747914"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344759"
 ---
 # <a name="product-data-entities"></a>Afurðagagnaeiningar
 
@@ -41,7 +41,7 @@ Til að flytja afurðagögn inn og út verður að nota gagnaeiningar. Eftirfara
 | Seljanlegar útgefnar afurðir | `EcoResSellableReleasedProductEntity` | Þessi eining er notuð til að flytja aðeins út seljanlegar vörur. Seljanlegar vörur eru vörur sem hafa þær upplýsingar sem þær þurfa til að vera notaðar í sölupöntun. Sama regla gildir þegar vara er villuleituð með því að nota **Villuleita** virknina á síðunni **Útgefnar afurðir**. |
 | Útgefnar einkvæmar afurðir V2 | `EcoResDistinctProductV2Entity` | Þessi eining er notuð til að flytja út einkvæmar afurðir. Þessar einkvæmu afurðir geta verið afurðir, undirafurðir og afurðaafbrigði. |
 | Útgefin afurðarsniðmát V2 | `EcoResProductMasterV2Entity` | Þessi eining er notuð til að flytja inn og flytja út afurðarsniðmát. Hún er ekki virkjuð fyrir gagnastjórnun. |
-| Atriði - strikamerki | `EcoResProductBarcodeEntityV3` | Þessi eining er notuð til að flytja út afurðir og strikamerki. Þessi eining leyfir ekki breytingarakningu, uppfærslur eða eyðingu. Til að nota breytingarrakningu, uppfærslur, eða eyðingu á strikamerkjum skal nota eininguna **Atriði - strikamerkjatengsl**. |
+| Atriði - strikamerki | `EcoResProductBarcodeEntityV3` | Þessi eining er notuð til að flytja út afurðir og strikamerki. Þessi eining leyfir ekki breytingarakningu, uppfærslur eða eyðingu. Til að nota breytingarakningu, uppfærslur eða eyðingu á strikamerkjum skal nota eininguna **Atriði - Strikamerkjatengsl**. |
 | Atriði - strikamerkjatengsl | `EcoResProductBarcodeAssociationEntity` | Þessi eining er notuð til að flytja út afurðir og strikamerki. Þar er hægt að breyta rakningu, uppfærslum og eyðingu. Til að nota eininguna verður að virkja eiginleikann *Atriði - endurbætur strikamerkis* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Einingarlykill hennar er `AssociationID` sem myndar tengslin milli strikamerkis og afurðar. Til að bæta við stuðningi fyrir þennan hnapp verður taflan `InventitemBarcodeAssociation` fyllt út fyrir fyrirliggjandi strikamerkjagögn vöru þegar kveikt er á eiginleikanum. Taflan er fyllt út með runuvinnslu og ef strikamerkjataflan er með mikið magn af færslum gæti það tekið nokkurn tíma að keyra runuvinnsluna. Þess vegna mælum við með því að eiginleikinn verði virkjaður (og þar af leiðandi runuvinnslan) á hentugum tíma. |
 | Lífferilsstaða afurðar | `EcoResProductLifecycleSateEntity` | Þessi eining er notuð til að flytja inn og flytja út mismunandi líftímastöður afurðar sem hægt er að úthluta afurð. |
 

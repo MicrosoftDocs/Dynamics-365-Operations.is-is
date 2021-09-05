@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b337e80db6d47354dc187477832add370a164172
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760539"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402202"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Námslisti fyrir stjórnendur innleiðingarverka sem vinna með Dynamics 365 Supply Chain Management
 
@@ -27,8 +27,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
-| Efni | lýsing  | Snið  | Lengd    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| Efni | lýsing | Snið | Lengd |
+|---------|-------------|--------|--------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
 | [Hafist handa með Finance and Operations forritum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations forrit styðja fyrirtæki við að stjórna fjármálum sínum á alþjóðavísu, rekstrarferlum og straumlínulagaðri birgðakeðju til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum í að vinna með Finance and Operations forrit verður þú að kynna þér eiginleika þeirra og virkni, óháð hlutverki þeirra. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
@@ -38,8 +38,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="core-platform-knowledge"></a>Þekking á algerlega vettvangi<a name="core-platform-knowledge"></a>
 
-| Efni  | lýsing  | Snið   | Lengd    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Efni | lýsing | Snið | Lengd |
+|---------|-------------|--------|--------|
 | [Nota Lifecycle Services til að handa og áætla innleiðingu á Finance and Operations-forritum](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) er vinnusvæði þar sem viðskiptavinir og samstarfsaðilar þeirra nota í sameiningu til að stjórna Finance and Operations-forritum, verkum frá forsölu til innleiðingarþrepsins og að lokum til framleiðsluumhverfisins. Það býður upp á tékklista og tæki sem hjálpa þér að stjórna verkefninu, þar á meðal fyrirfram byggja upp aðferðafræði til að hjálpa við framkvæmd og reglulega uppfærða þjónustu. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Grunnstillið fyrirtækið í Finance and Operations forritum](/learn/paths/configure-your-organization-finance-ops/) | Sem starfandi ráðgjafi sem notar Finance and Operations-forritin verður þú að skilja hvernig eigi að setja upp fyrirtæki fyrir viðskiptavininn þinn. Þessi námsleið sýnir þér meðal annars hvernig á að setja upp lögaðila, innleiða öryggisstillingar, sérsníða notendaviðmót notenda, hanna og smíða farsímaforrit og innleiða sameiginlega samþættingu. | Ókeypis, sjálfstýr skref á námsleið | 12 klst. |
 | [Flytja gögn og gefa út með Finance and Operations forritum](/learn/paths/migrate-data-go-live-finance-operations/) | Sem starfandi ráðgjafi verður þú að skilja hvernig á að undirbúa gögn viðskiptavinarins fyrir flutning, vinna með gagnastjórnun og framkvæma samþykkisprófun notanda til að vera í beinni með Finance and Operations-forritum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
@@ -69,8 +69,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="supply-chain-management"></a>Birgðakeðjustjórnun<a name="supply-chain-management"></a>
 
-| Efni  | lýsing  | Snið | Lengd    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Efni | lýsing | Snið | Lengd |
+|---------|-------------|--------|--------|
 | [Stilla og hafa umsjón með vörum og birgðum í Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Afurðarupplýsingar eru stoðir fyrir birgðakeðju og smásöluforrit í öllum greinum. Í ýmsum kerfum viðskiptalausna eru afurðaháðar upplýsingar og skilgreiningar nauðsynlegar til stýringar á viðskiptaferlum sem tengjast tilteknum afurðum, afurðafjölskyldum, uppskrift og afurðaflokkum. Birgðaskýrslur sýna hversu mikið birgðir þú ert með á mismunandi vegu og munu útskýra hvernig á að vera skilvirkari í birgðafjárfestingum þínum. | Ókeypis, sjálfstýr skref á námsleið | 6 klst. |
 | [Stilla og hafa umsjón með innkaupum og lánardrottnum í Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Ferlið við að finna og vinna með söluaðilum, kaupa vörur og tryggja gæði vöru og þjónustu eru allir mikilvægir þættir sem hafa áhrif á orðspor og árangur fyrirtækisins. | Ókeypis, sjálfstýr skref á námsleið | 6 klst. |
 | [Stilla og vinna með vöruhússtjórnun í Dynamics 365 for Finance and Operations](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Vöruhúsastjórnun í Dynamics 365 for Finance and Operations hjálpar til við að fínstilla og hagræða vöruferlum í samræmi við einstaklingsbundnar þarfir þínar og veitir innsýn í birgðum þínum og tækjum til að auka ánægju viðskiptavina og draga úr kostnaði. | Ókeypis, sjálfstýr skref á námsleið | 5 klst. |
@@ -86,8 +86,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="manufacturing"></a>Framleiðsla<a name="manufacturing"></a>
 
-| Efni  | lýsing  | Snið    | Lengd    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Efni | lýsing | Snið | Lengd |
+|---------|-------------|--------|--------|
 | [Stilltu og notaðu afmarkaða framleiðslu í Dynamics 365 Supply Chain Management](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Ef fyrirtæki framleiðir eingöngu einfaldar vörur er hægt að skipuleggja framleiðslu handvirkt með réttum efnisafriti (BOM) hlutum sem koma á framleiðslugólfið, á réttum tíma og á réttri auðlind. Sem starfandi ráðgjafi fyrir framleiðslu þarftu að vita hvernig á að stilla Dynamics 365 for Finance and Operations fyrir stakar framleiðslu, svo að viðskiptavinur þinn geti framkvæmt og stjórnað framleiðslulotunni. | Ókeypis, sjálfstýr skref á námsleið | 9 klst. |
 | [Stilltu og notaðu lean-framleiðslu í Dynamics 365 Supply Chain Management](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Lean framleiðslu er ferð til stöðugra endurbóta. Markmiðið er að framleiða nákvæmlega það sem viðskiptavinurinn vill, hvenær viðskiptavinurinn vill það og gera það efnahagslega. Hægt er að nota lean-framleiðsla í semeinuðum (blönduðum ham) framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir. Lean-framleiðsla í Dynamics 365 for Finance and Operations samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum. | Ókeypis, sjálfstýr skref á námsleið | 6.5 klst. |
 | [Stilltu og notaðu ferlisframleiðslu í Dynamics 365 Supply Chain Management](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | Aðferðarframleiðsla tengist formúlum og framleiðsluuppskriftum, öfugt við stakar framleiðslu, sem nota stakar einingar og efnisvíxla. Vinnsluframleiðsla er notuð í framleiðsluumhverfi þar sem framleiðslu er lokið í lotu eða hálf samfelldum ferlum. | Ókeypis, sjálfstýr skref á námsleið | 6 klst. |
@@ -98,13 +98,12 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="exams"></a>Próf<a name="exams"></a>
 
-| Efni  | lýsing  | Snið   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------|
+| Efni | lýsing | Snið |
+|---------|-------------|--------|
 | [Microsoft vottað: Dynamics 365 for Finance and Operations, Framleiðslu hagnýtur ráðgjafi Supply Chain Management](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft vottað: Dynamics 365 for Finance and Operations, Supply Chain Management Virkir ráðgjafar hagræða kostnaðarbókhaldi, birgðastjórnun, skipulagningu skipulagningar og vöruhúsastjórnun fyrir viðskiptavini sína. | Vottorð, kostnaður er breytilegur eftir svæðum |
 | [Microsoft vottað: Dynamics 365 for Finance and Operations, Framleiðslu hagnýtur ráðgjafi](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsoft vottað: Dynamics 365 for Finance and Operations, Framleiðsla hagnýtra ráðgjafa samþætt stafræn og líkamleg kerfi; bæta sýnileika, framleiðslu skilvirkni og sveigjanleika; og lækka kostnað fyrir viðskiptavini sína. | Vottorð, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-300: Microsoft Dynamics 365 Unified Operations Kjarni](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: notaðu algengar virkni- og útfærslutæki; stilla öryggi, ferla og valkosti; framkvæma flutninga gagna; og staðfesta og styðja lausnina. | Próf, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-320: Microsoft Dynamics 365 for Finance and Operations, Framleiðslu](/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: setja upp og stilla framleiðslu; búa til og stjórna framleiðslu og halla pöntunum; og búa til, vinna úr og stjórna framleiðslulotapöntunum. | Próf, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: framkvæma stjórnun vöruupplýsinga; framkvæma birgðastjórnun; innleiða og stjórna aðfangakeðjuferlum; og innleiða vöruhúsastjórnun og flutningastjórnun og framkvæma viðskiptaferla. | Próf, kostnaður er breytilegur eftir svæðum |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

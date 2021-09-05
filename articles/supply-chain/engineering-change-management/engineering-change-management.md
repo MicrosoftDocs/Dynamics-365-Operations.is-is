@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714331"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384586"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -113,16 +113,16 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
     - **Skoða færslu** – Opna valda færslu.
     - **Útiloka pöntun** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda sölupöntun.
     - **Útiloka línu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda innkaupapöntunarlínu.
-    - **Senda ábyrgðarmanni tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingar til notandans sem er settur sem ábyrgur fyrir valda sölupöntun.
-    - **Senda pöntunaraðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem pöntunaraðili fyrir valda innkaupapöntun.
-    - **Tilkynna framleiðslu** – Þessi hnappur er aðeins á flipanum **Framleiðslupantanir**. Ólíkt sölu- og innkaupapantanum hafa framleiðslupantanir ekki einn einasta notanda sem er valinn sem ábyrgur fyrir þeim frá upphafi til enda. Í staðinn eigna ýmsir umsjónaraðilar eða skipuleggjendur sér tiltekið svæði eða tiltekinn hluta framleiðslunnar (til dæmis ákveðin tilföng eða tilfangaflokka). Þegar þú velur þennan hnapp fá fyrir vikið allir notendur sem bera ábyrgð tilföngum sem tengjast valinni framleiðslupöntun tilkynningu um breytingar.
-    - **Senda undirbúningsaðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Innkaupabeiðnir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem undirbúningsaðili fyrir valda innkaupabeiðni.
-    - **Tilkynna ábyrgðarmanni sölu** – Þessi hnappur er aðeins á flipanum **Tilboð**. Veldu það til að senda tilkynningu um breytingu til notandans sem er valinn sem ábyrgur fyrir valið tilboð.
+    - **Senda ábyrgðarmanni tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingar til notandans sem er settur sem ábyrgur fyrir valda sölupöntun. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
+    - **Senda pöntunaraðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem pöntunaraðili fyrir valda innkaupapöntun. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
+    - **Tilkynna framleiðslu** – Þessi hnappur er aðeins á flipanum **Framleiðslupantanir**. Ólíkt sölu- og innkaupapantanum hafa framleiðslupantanir ekki einn einasta notanda sem er valinn sem ábyrgur fyrir þeim frá upphafi til enda. Í staðinn eigna ýmsir umsjónaraðilar eða skipuleggjendur sér tiltekið svæði eða tiltekinn hluta framleiðslunnar (til dæmis ákveðin tilföng eða tilfangaflokka). Þegar þú velur þennan hnapp fá fyrir vikið allir notendur sem bera ábyrgð tilföngum sem tengjast valinni framleiðslupöntun tilkynningu um breytingar. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
+    - **Senda undirbúningsaðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Innkaupabeiðnir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem undirbúningsaðili fyrir valda innkaupabeiðni. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
+    - **Tilkynna ábyrgðarmanni sölu** – Þessi hnappur er aðeins á flipanum **Tilboð**. Veldu það til að senda tilkynningu um breytingu til notandans sem er valinn sem ábyrgur fyrir valið tilboð. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
     - **Úrkast** - Þennan hnapp er aðeins hægt að nálgast á flipanum **Birgðir**. Veldu það til að rýra valdar birgðir.
     - **Skoða feril** – Opna feril yfir aðgerðir sem gerðar hafa verið á völdu færslunni með því að nota svargluggann **Rekstraráhrif á opnar færslur**. (Ferillinn sýnir til dæmis hvort tilkynningar hafa verið sendar eða færslur hafa verið lokaðar.) 
     - **Skoða allar færslur** – Opna heildarlista yfir allar færslur, ekki bara opnar færslur.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
 
 Þú getur lesið og unnið úr breytingartilkynningunum sem þú færð á eftirfarandi hátt:
 

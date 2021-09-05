@@ -2,7 +2,7 @@
 title: Fjármálagreining
 description: Fjármálagreining notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767828"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416306"
 ---
 # <a name="financial-analysis"></a>Fjármálagreining
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767828"
 > - **Síða** - Flipi í einni .pbix skrá. Hver síða getur innihaldið eitt eða fleiri myndefni.
 > - **Myndefni** - Stök uppspretta af gögnum, svo sem kort, KPI, graf, fylki eða fjárhagsskýrslu. Síðan sem hefur fjárhagsskýrslu sem myndefni getur ekki haft önnur myndefni vegna stærðar þeirra gagna sem er verið að birta.
 
-Eins og er, er **Fjármálagreining** notað til að skoða gögn fyrir annaðhvort virka lögaðila eða alla lögaðila. Í framtíðarútgáfum mun vinnusvæðið þróast í svæði þar sem þú getur notað Power BI til að breyta og búa til myndefni.
+Vinnusvæðið **Fjármálagreining** leggur áherslu á að leyfa þér að sjá og sía gögn um fyrirliggjandi skýrslur. Hægt er að bæta nýjum myndrænum þáttum við vinnusvæðið **Fjármálagreining**. Vinnusvæðið **Fjármálagreining** er í boði fyrir núverandi fyrirtæki ásamt öllum fyrirtækjum til að sýna gögn fyrir alla lögaðila óháð því hvaða hlutverk lögaðilarnir hafa aðgang að.
 
-Vinnusvæði **CFO-yfirlits** sýnir sömu myndefni og **Fjármálagreining**, en leggur áherslu á að leyfa þér að skoða og sía gögnin á núverandi skýrslum. Í framtíðarútgáfum muntu geta bætt við nýju myndefni við vinnusvæði **Fjármálagreiningar**. Nýja myndefnið gæti einnig verið tiltækt á vinnusvæðum sem leggja áherslu á önnur hlutverk, svo sem verkefnastjóra eða stjóra viðskiptaskulda. Vinnusvæði **CFO-yfirlits** heldur áfram að sýna gögn fyrir alla lögaðila, óháð lögaðilunum sem hlutverkið hefur aðgang að.
+- [Bættu við eða breyttu Power BI myndrænum framsetningum á stjórnborðinu þínu](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-uppsetning
 **Fjárhagur**

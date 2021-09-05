@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31b1d9e26a5c21a6be5fd89992316e1d6e657c183a71d5155d8d76e83362c845
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9f9504ec87fd58bbf685519108477a48055da93
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721152"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344151"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
 
@@ -50,7 +50,7 @@ ms.locfileid: "6721152"
 <tbody>
 <tr class="odd">
 <td>Æskilegur ílagshamur</td>
-<td>Þessi valkostur skilgreinir hvort sýna eigi skönnunarreit eða ílagsreit fyrir handvirka færslu fyrir valið heiti reitar. Þetta er gagnlegt til að auðkenna reiti eftir því hvort strikamerki eru notuð fyrir reitinn. <strong>Athugasemd:</strong> Fyrir reitarheiti með æskilegan ílagsham stilltan á <strong>Skönnun</strong> er hægt að færa inn upplýsingar handvirkt ef strikamerkið er ólæsilegt eða skemmt.</td>
+<td>Þessi valkostur skilgreinir hvort sýna eigi skönnunarreit eða ílagsreit fyrir handvirka færslu fyrir valið heiti reitar. Þetta er gagnlegt til að aðgreina reiti eftir því hvort strikamerki eru notuð fyrir reitinn. <strong>Athugasemd:</strong> Fyrir reitarheiti með æskilega innsláttarstillingu stillta á <strong>Skönnun</strong> er hægt að færa inn upplýsingar handvirkt ef strikamerki er ólæsilegt eða skemmt.</td>
 </tr>
 <tr class="even">
 <td>Inntaksgerð</td>

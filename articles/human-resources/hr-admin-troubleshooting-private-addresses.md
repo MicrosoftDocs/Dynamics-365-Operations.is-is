@@ -1,8 +1,8 @@
 ---
 title: Aðgangur að einkaaðsetrum eftir öryggishlutverki
-description: Þessi grein útskýrir hvernig á að leysa vandamál þar sem viðskiptamaður fær ekki aðgang að einkaaðsetrum.
-author: andreabichsel
-ms.date: 11/02/2018
+description: Þetta efnisatriði útskýrir hvernig á að leysa það þegar viðskiptamaður fær ekki aðgang að einkaaðsetrum.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21919e0bf75a5a47fc64b87410ccd75ff34259fb1c8c2bc1aa82318dcd0572b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b96733946e4ef79de244730d0c442b9900426c1
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719117"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413340"
 ---
-# <a name="access-to-private-addresses-by-security-role"></a>Aðgangur að einkaaðsetrum í gegnum öryggishlutverk
+# <a name="access-to-private-addresses-by-security-role"></a>Aðgangur að einkaaðsetrum eftir öryggishlutverki
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

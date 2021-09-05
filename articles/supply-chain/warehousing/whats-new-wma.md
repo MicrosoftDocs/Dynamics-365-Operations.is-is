@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720085"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386100"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720085"
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Útgáfa 2.0.9.0
+
+Þessi útgáfa lagar vandamál þar sem forritið gæti frosið ef notendur fletta upp efst í listanum.
+
+## <a name="version-2080"></a>Útgáfa 2.0.8.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Stuðningi bætt við fyrir [eiginleika skrefaleiðbeininga](mobile-app-titles-instructions.md) sem var kynntur í útgáfu 10.0.21 af Supply Chain Management.
+- Vísbending í hreyfimynd bætt við til að sýna notendum að þeir geta lokað yfirlögnum með því að strjúka niður.
+- Stuðningi bætt við fyrir aðgerðalykla á aðgerðalistum og valmyndum. Notendur geta haldið niðri hvaða aðgerðalykli sem er í þrjár sekúndur til að fá lista yfir tiltækar skipanir.
+- Lagaði vandamál sem leiddi til þess að eftirfarandi villuboð voru sýnd í sumum tækjum: „Ekki er hægt að finna hentugt yfirlit fyrir tilgreinda stærð.“
+- Lagaði vandamál þar sem heilskjásstilling virkaði ekki alltaf þegar skjályklaborðið var notað.
+- Lagaði vandamál þar sem strok á síðu virkaði ekki í Windows-tækjum.
+- Ýmis vandamál sem ollu því að kerfið fraus hafa verið löguð.
+
+## <a name="version-2070"></a>Útgáfa 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nýir eiginleikar, lagfæringar og bætur í útgáfu 2.0.7.0
 

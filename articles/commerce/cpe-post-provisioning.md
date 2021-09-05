@@ -2,7 +2,7 @@
 title: Skilgreina Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742441"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416480"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
 
@@ -128,7 +128,7 @@ Til að keyra heildarsamstillingu gagna í Commerce skal fylgja þessum skrefum 
 Til að framkvæma prófunarviðskipti á vefnum geturðu notað eftirfarandi prufukreditkortaupplýsingar:
 
 - **Kortanúmer:** 4111-1111-1111-1111
-- **Gildistími:** 10/20
+- **Gildistími:** 10/30
 - **Sannprófunargildi korts (CVV)-kóði:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Til að framkvæma prófunarviðskipti á vefnum geturðu notað eftirfarandi pr
 Þegar úthlutunar- og grunnstillingarskrefum er lokið er hægt að byrja að nota matsumhverfið. Notið vefslóð Commerce-vefsmiðins til að fara í höfundarviðmótið. Notið vefslóð Commerce-vefsvæðis til að fara á vefviðmót viðskiptavinar smásölu.
 
 Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal skoða [Grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið](cpe-optional-features.md).
+
+> [!NOTE]
+> Matsumhverfi Commerce koma með forhlöðnum Azure Active Directory (Azure AD) B2C-leigjanda fyrir sýnikennslu. Ekki er krafist þess að skilgreina eigin Azure AD B2C-leigjanda fyrir matsumhverfi. Ef þú ert hinsvegar að skilgreina matsumhverfið til að nota þinn eigin Azure AD B2C-leigjanda skaltu ganga úr skugga um að bæta við ``https://login.commerce.dynamics.com/_msdyn365/authresp`` sem svörunarvefslóð í Azure AD B2C-forritinu gegnum Azure -gáttina.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -159,6 +162,8 @@ Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal sk
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

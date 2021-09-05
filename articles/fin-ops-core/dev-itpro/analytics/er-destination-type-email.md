@@ -2,7 +2,7 @@
 title: Tölvupóstur ER-gerð áfangastaðar
 description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769320"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343861"
 ---
 # <a name="email-er-destination-type"></a>Tölvupóstur ER-gerð áfangastaðar
 
@@ -53,9 +53,22 @@ Til að senda eina eða fleiri úttaksskrár með tölvupósti skal fylgja þess
 
 ## <a name="configure-an-email-destination"></a>Skilgreina áfangastað tölvupósts
 
-Hægt að tilgreina sendanda og efni tölvupósts og breyta efni og meginmáli tölvupóstskilaboðanna. Hægt er að setja upp fastatexta fyrir efni og meginmál tölvupósts eða hægt er að nota [formúlur](er-formula-language.md) fyrir rafræna skýrslugerð til að gagnvirkt stofna texta tölvupósts.
+### <a name="email-content"></a>Efni tölvupósts
 
-Sjálfgefið er að tölvupóstur sé sendur fyrir hönd núverandi notanda. Til að tilgreina annan tölvupóstsendanda þarf að stilla reitinn **Frá**.
+Þú getur breytt efni og meginmáli tölvupóstskilaboðanna.
+
+Í reitinn **Efni** skal færa inn efni tölvupóstsins sem á að birtast í efnisreit rafrænna skilaboða sem eru búin til við keyrslu. Í reitinn **Meginmál** skal færa inn texta fyrir meginmál tölvupóstsins sem á að birtast á svæði meginmáls rafrænna skilaboða. Hægt er að setja upp fastan texta fyrir efni og meginmál tölvupósts eða hægt er að nota [formúlur](er-formula-language.md) fyrir rafræna skýrslugerð til að gagnvirkt stofna texta tölvupósts við keyrslu. Skilgreind formúla verður að skila gildi af gerðinni [Strengur](er-formula-supported-data-types-primitive.md#string).
+
+Meginmál tölvupóstsins er skrifaður á texta- eða HTML-sniði eftir því hvert tölvupóstforritið er. Hægt er að nota allar útlit, stíl og vörumerki sem HTML og stölluð stílblöð (CSS) leyfa.
+
+> [!NOTE]
+> Tölvupóstforrit nota útlit og stíltakmarkanir sem gætu krafist leiðréttingar í HTML og CSS sem er notað fyrir meginmál skilaboðanna. Við mælum með því að notandi kynni sér bestu starfsvenjur þegar HTML er búið til sem flest tölvupóstforrit styðja.
+>
+> Notaðu rétta kóðun til að framkvæma flutning til baka eftir því hvert snið meginmálsins er. Frekari upplýsingar er að finna í skilgreiningu fyrir gagnagerðina [Strengur](er-formula-supported-data-types-primitive.md#string).
+
+### <a name="email-addresses"></a>Netföng
+
+Hægt er að tilgreina senda og viðtakendur tölvupóstsins. Tölvupóstur er sjálfgefið sendur fyrir hönd núverandi notanda. Til að tilgreina annan tölvupóstsendanda þarf að stilla reitinn **Frá**.
 
 > [!NOTE]
 > Þegar áfangastaður tölvupósts er stilltur er reiturinn **Frá** aðeins sýnilegur notendum sem er með `ERFormatDestinationSenderEmailConfigure` öryggisréttindi, **Stilla netfang sendanda fyrir áfangastað rafræns skýrslugerðarsniðs**.

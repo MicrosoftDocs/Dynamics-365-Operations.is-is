@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4811c65a32e27668d1247086d962366eb8369d5e9fe28a105e1d6a020bca325d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd55d433b0961b8b210b9c28d7340ff880635a85
+ms.sourcegitcommit: 3af457fc216bd0020843291ca57fd379acb53c96
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737750"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7392475"
 ---
 # <a name="associate-fixed-assets-with-leases"></a>Tengja eignir við leigu
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Efnið útskýrir hvernig á að tengja fyrirliggjandi eign við nýja leigu. Þegar eign er tengd við leigu verður eignarvirði afnotaréttar af eign (ROU) við fyrstu viðurkenningu kaupverð eignarinnar.
 
@@ -49,8 +50,18 @@ Efnið útskýrir hvernig á að tengja fyrirliggjandi eign við nýja leigu. Þ
 
 Nú er hægt að afskrifa eignina með því að nota staðlaða afskriftarvirkni í eignum. Frekari upplýsingar um afskriftir eru í [Afskriftaaðferðir og hefðir](../fixed-assets/depreciation-methods-conventions.md).
 
+Þegar leigusamningur tengist eign verður reiturinn **Líftími** í eignabókinni uppfærður til að passa við lægsta gildið úr eftirfarandi skilyrði: 
+
+ - Nýtingartími eignar
+ - Leigutíminn fyrir tilheyrandi leigubók
+
+Ef reiturinn **Eignarhald flutt** er stilltur á **Já** fyrir leigubókina mun gildið í reitnum **Líftími** alltaf vera nýtingartími eignarinnar. 
+ 
+Líftíminn verður uppfærður í hvert skipti sem leigusamningnum er breytt til að tryggja að afnotaréttur af eign sé úreltur á tímabili leigusamningsins, eins og hann væri úreltur í eignarleigu.
+
 > [!NOTE]
 > Ef eign er tengd við leigusamning eru hnapparnir **Afskrift eigna** og **Virðisrýrnun leigusamnings** óvirkir í eignarleigu. Hægt er að skoða færslur fyrir afskriftir eigna og virðisrýrnun leigusamninga úr eignum. Hnappurinn **Eignarfærslur**, sem opnar fyrirspurnarskjámynd er einnig gerður óvirkur. Einnig er hægt að opna **Eignarfærslur** fyrirspurnarskjámyndina í Eignir.  
 
+Síðurnar **Eignir** og **Eignabók** munu sýna leigukennið sem tengist eign. Ef eign tengist leigusamningi verður leigukennið og lýsing leigusamningsins sýnt í flýtiflipanum **Upplýsingar um leigusamning** á síðunni **Eignir**. Fyrir eignabækur sem tengjast leigubókum munu reitirnir **Leigukenni**, **Lýsing á leigusamningi** og **Gerð bókar** sýna upplýsingar fyrir valda eignabók í flýtiflipanum **Upplýsingar um leigusamning** til að gefa til kynna að hún tengist leigubók.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

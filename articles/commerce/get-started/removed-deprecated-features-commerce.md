@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740408"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386742"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ ms.locfileid: "6740408"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.21 útgáfu
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK dreift með því að nota Lifecycle Services
+
+Retail SDK er sent í Lifecycle Services (LCS). Þessi dreifingarmáti er úreltur í útgáfu 10.0.21. Í framhaldinu verða tilvísunarpakkar fyrir Retail SDK, söfn og sýnishorn birt í opinberum geymslum á GitHub.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Retail SDK er sent í LCS. LCS-ferlið tekur nokkrar klukkustundir og það þarf að endurtaka ferlið fyrir hverja uppfærslu. Í framhaldinu verða tilvísunarpakkar fyrir Retail SDK, söfn og sýnishorn birt í opinberum geymslum á GitHub. Auðvelt er að nota dæmi viðbóta og tilvísunarpakka og uppfærslurnar taka aðeins nokkrar mínútur. |
+| **Skipt út fyrir aðra eiginleika?**   |  [Sækja sýnishorn Retail SDK og tilvísunarpakka úr GitHub og NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Afurðasvæði sem haft er áhrif á**         | Retail SDK |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður SDK sem er sent með sýndarvélum LCS fjarlægt í október 2022. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Virkjanlegur pakki smásölu og sameinuð uppsetningarforrit sölustaðar, vélbúnaðarstöðvar og Cloud Scale Unit
+
+Virkjanlegir pakkar smásölu myndaðir með Retail SDK MSBuild eru úreltir í 10.0.21. Í framhaldinu skaltu nota Cloud Scale Unit (CSU) pakkann fyrir viðbætur Cloud Scale Unit (Commerce Runtime, gagnagrunn rásar, Headless Commerce API, greiðslur og sölustað í skýi). Notaðu eingöngu uppsetningarforrit vegna stækkunar fyrir sölustað, vélbúnaðarstöð og sjálfhýst Cloud Scale Unit.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Virkjanlegur pakki smásölu er sameinaður pakki sem inniheldur heilt safn af stækkunarpökkum og uppsetningarforritum. Þessi sameinaði pakki gerir uppsetninguna flókna þar sem CSU-viðbætur fara í Cloud Scale Unit og uppsetningarforrit eru notuð í verslunum. Uppsetningarforritin fela í sér viðbótina og grunnafurðina, sem gerir uppfærslurnar erfiðar. Við hverja uppfærslu þarf að sameina kóða og búa til pakka. Til að einfalda þetta ferli eru stækkunarpakkarnir nú aðskildir í hluta fyrir einfaldari uppsetningu og stjórnun. Með nýju aðferðinni eru viðbætur og uppsetningarforrit grunnafurðar aðskilið og er hægt að þjónusta og uppfæra sjálfstætt án kóðasamruna eða endurpökkunar.|
+| **Skipt út fyrir aðra eiginleika?**   | CSU-viðbætur, uppsetningarforrit sölustaðarviðbótar, uppsetningarforrit vegna stækkunar vélbúnaðarstöðvar |
+| **Afurðasvæði sem haft er áhrif á**         | Dynamics 365 Commerce viðbót og uppsetning |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður stuðningur við að setja upp RetailDeployablePackage í LCS fjarlægður í október 2022. |
+
+Frekari upplýsingar má finna á
+
++ [Búa til aðskilinn pakka fyrir Commerce Cloud Scale Unit (SCU)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Stofna viðbótarpakka Modern POS](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [Samþætta POS við nýjan vélbúnað](../dev-itpro/hardware-device-extension.md)
++ Dæmi um kóða
+    + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU og vélbúnaðarstöð](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln og CloudPOs.sln í Retail SDK.
+
+Þróun á viðbót sölustaðar með ModernPos.sln, CloudPOs.sln, POS.Extension.csproj og POS-möppuna er úrelt í útgáfu 10.0.21. Í framhaldinu skaltu nota sjálfstæða SDK-pökkun fyrir POS fyrir viðbætur við POS.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Í eldri útgáfum af Retail SDK, ef það eru POS-viðbætur, þarf kóðasamruna og endurpökkun til að uppfæra nýjustu útgáfu af POS. Samruni kóðans var tímafrekt uppfærsluferli og það þurfti að halda utan um allt Retail SDK í gagnageymslunni. Þú þurftir einnig að safna saman kjarnaverkum POS.App. Með því að nota sjálfstæða pökkunarlíkanið þarftu aðeins að halda utan um viðbótina þína. Það er jafn auðvelt að uppfæra í nýjustu útgáfuna af POS-viðbót eins og að uppfæra þá útgáfu af NuGet pakkanum sem verkið þitt notar. Hægt er að setja upp viðbætur sjálfstætt og þjónustur nota uppsetningarforrit viðbótarinnar. Hægt er að setja upp grunn POS og halda utan um hann sjálfstætt og ekki þarf kóðasamruna eða endurpökkun með grunnuppsetningarforritinu eða kóða. |
+| **Skipt út fyrir aðra eiginleika?**   | [Sjálfstæð pökkun SDK fyrir POS](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Afurðasvæði sem haft er áhrif á**         | Dynamics 365 Commerce POS-viðbót og uppsetning |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður stuðningur við sameinaða POS-pakka og viðbótarlíkan með ModernPos.Sln, CloudPOs.sln og Pos.Extensons.csproj í Retail SDK fjarlægður í október 2022. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.17 útgáfu
 

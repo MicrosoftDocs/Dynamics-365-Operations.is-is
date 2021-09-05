@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 81aac53cca91a75cde811c314bd6f7039852d32505fe6540921e17f3d1bbc7ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 98d6ceb794716f39c6ae47b300bdb7618a8e688b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739311"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345229"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
 
@@ -55,7 +55,7 @@ Fylgið þessum skrefum til að setja upp TDS-skattflokk, hengja TDS-skattkóða
     > [!NOTE]
     > Ekki er hægt að stilla reitinn **Skattskyldur stofn** á **Án brúttóupphæðar** fyrir TDS-skattkóðann sem er með forgangskenni upp á **1**.
 
-12. TDS-útreikningurinn byggir á formúlunni sem er skilgreind í reitnum **Segð útreiknings** fyrir hvern skattkóða sem er hengdur við TDS-skattflokkinn. Veljið hnappinn fyrir plúsmerkið (**+**), mínusmerkið (**-**), margföldunarmerkið (**\**_) eða deilingarmerkið (_*/**) til að færa inn útreikningssegðina fyrir valinn TDS-skattkóða í reitnum **Segð útreiknings**.
+12. TDS-útreikningurinn byggir á formúlunni sem er skilgreind í reitnum **Segð útreiknings** fyrir hvern skattkóða sem er hengdur við TDS-skattflokkinn. Veljið hnappinn fyrir plúsmerkið (+), mínusmerkið (-), margföldunarmerkið (\*) eða deilingarmerkið (/) til að færa inn útreikningssegðina fyrir valinn TDS-skattkóða í reitnum **Segð útreiknings**.
 
     > [!NOTE]
     > Ekki er hægt að skilgreina neina útreikningssegð fyrir TDS-skattkóða sem er með forgangskennið **1**.

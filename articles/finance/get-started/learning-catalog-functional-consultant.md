@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763095"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402374"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Námslisti fyrir hagnýta ráðgjafa Dynamics 365 Finance
 
@@ -34,6 +34,7 @@ Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir 
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
 | [Hafist handa með Finance and Operations forritum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations forrit styðja fyrirtæki við að stjórna fjármálum sínum á alþjóðavísu, rekstrarferlum og straumlínulagaðri birgðakeðju til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum í að vinna með Finance and Operations forrit verður þú að kynna þér eiginleika þeirra og virkni, óháð hlutverki þeirra. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Hafist handa með Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Með Dynamics 365 Intelligent Order Management geta viðskiptavinir stjórnað skipulagi pantana í gegnum uppfyllingu. Þessir möguleikar gera fyrirtækjum kleift að skipuleggja flæði pantana yfir mismunandi verkvanga og forrita. | Ókeypis námseining á netinu á eigin hraða | 30 mínútur |
 | [Áður en þú kaupir](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Athugaðu ítarlegu leiðbeiningarnar hvort sem þú ert enn að velta fyrir þér Finance and Operations eða hefur þegar ákveðið að kaupa það. | Fylgiskjöl | |
 | [Útgáfuáætlun](/dynamics365/release-plans/) | Kynntu þér nýjustu getu og aukahluti í Dynamics 365 | Fylgigögn | |
 
@@ -41,6 +42,7 @@ Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir 
 
 | Efni  | lýsing | Snið  | Lengd    |
 |----------|-------------|---------|-----------|
+| [Nota Success by Design for Dynamics 365 lausnir](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 það er hannað til að hjálpa viðskiptavinum og samstarfsaðilum að ná góðum tökum á innleiðingu Dynamics 365 lausna. Til að afhenda þessa þjónustulausn ættu hönnuðir að nota Success by Design. Á þessari námsleið er fjallað um Success by Design hugtök. | Ókeypis námseining á netinu á eigin hraða | 12 klst. |
 | [Nota Lifecycle Services til að handa og áætla innleiðingu á Finance and Operations-forritum](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) er vinnusvæði þar sem viðskiptavinir og samstarfsaðilar þeirra nota í sameiningu til að stjórna Finance and Operations-forritum, verkum frá forsölu til innleiðingarþrepsins og að lokum til framleiðsluumhverfisins. Það býður upp á tékklista og tæki sem hjálpa þér að stjórna verkefninu, þar á meðal fyrirfram byggja upp aðferðafræði til að hjálpa við framkvæmd og reglulega uppfærða þjónustu. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Grunnstillið fyrirtækið í Finance and Operations forritum](/learn/paths/configure-your-organization-finance-ops/) | Sem starfandi ráðgjafi sem notar Finance and Operations-forritin verður þú að skilja hvernig eigi að setja upp fyrirtæki fyrir viðskiptavininn þinn. Þessi námsleið sýnir þér meðal annars hvernig á að setja upp lögaðila, innleiða öryggisstillingar, sérsníða notendaviðmót notenda, hanna og smíða farsímaforrit og innleiða sameiginlega samþættingu. | Ókeypis, sjálfstýr skref á námsleið | 12 klst. |
 | [Flytja gögn og gefa út með Finance and Operations forritum](/learn/paths/migrate-data-go-live-finance-operations/) | Sem starfandi ráðgjafi verður þú að skilja hvernig á að undirbúa gögn viðskiptavinarins fyrir flutning, vinna með gagnastjórnun og framkvæma samþykkisprófun notanda til að vera í beinni með Finance and Operations-forritum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
@@ -102,6 +104,5 @@ Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir 
 | [Microsoft vottað: Dynamics 365 for Finance and Operations, Fjármál hagnýtur ráðgjafi](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft vottað: Dynamics 365 for Finance and Operations, Fjármál Virkir ráðgjafar sameina alþjóðlegt fjármál og rekstur og gera sjálfvirkan verkefni og verkflæði, hagræða pöntun viðskiptavina, sölu, reikninga og skýrslugerð. | Vottorð, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-300: Microsoft Dynamics 365 Unified Operations Kjarni](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: notaðu algengar virkni- og útfærslutæki; stilla öryggi, ferla og valkosti; framkvæma flutninga gagna; og staðfesta og styðja lausnina. | Próf, kostnaður er breytilegur eftir svæðum |
 | [Próf MB-310: Microsoft Dynamics 365 for Finance and Operations, Fjármál](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Þetta próf mælir getu þína til að framkvæma eftirfarandi tæknileg verkefni: setja upp og stilla fjármálastjórnun; stjórna og beita sameiginlegum ferlum; innleiða og hafa umsjón með viðskiptakröfum sem eiga að greiða og eiga við; og hafa umsjón með fjárlagagerð og fastafjármunum. | Próf, kostnaður er breytilegur eftir svæðum |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

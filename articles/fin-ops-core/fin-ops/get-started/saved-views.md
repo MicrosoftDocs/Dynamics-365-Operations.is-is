@@ -2,7 +2,7 @@
 title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: dd658aeb8964907fe9f950fe2a6474c5df7e80b74986ddf332286a2f89bc0aeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752302"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344345"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Inngangur
 
@@ -48,6 +48,8 @@ Til eru tvær stærðir á yfirlitsvali:
  
 Ef heiti yfirlits er valið opnast yfirlitsvalið og sýnir lista yfir tiltæk yfirlit fyrir síðuna.
 
+**Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið tiltæk yfirlit í tveimur hlutum. Fyrri hlutinn sýnir öll yfirlit sem tengjast núverandi lögaðila og seinni hlutinn sýnir yfirlit sem eru í boði fyrir alla lögaðila. Fyrsti hlutinn er aðeins sýnilegur ef til eru yfirlit sérstaklega fyrir lögaðila fyrir síðuna.
+
 - **Staðlað Yfirlit** – **Staðlaða** yfirlitið er tilbúið yfirlit síðunnar, þar sem engar sérstillingar eru gerðar.
 - **Persónulegt yfirlit** - Yfirlit án hengiláss standa fyrir persónulegu yfirlitin þín. Þetta eru yfirlit sem þú hefur annaðhvort búið til eða stjórnandi hefur gefið þér þau.
 - **Læst yfirlit**: Sum yfirlit (eins og **Staðlaða** yfirlitið og öll yfirlit sem eru gefin út fyrir hlutverkið þitt) eru með hengilástákn við hliðina á þeim í yfirlitsvalinu. Þetta tákn gefur til kynna að þú getur ekki breytt þessum yfirlitum. Hins vegar verða breytingar sem endurspegla síðunotkun sjálfkrafa vistaðar. Þessar breytingar fela í sér breytingar á breidd dálka í hnitaneti og breytingar á útvíkkaðri og samandreginni stöðu flýtiflipa. Engu að síður, ef þú ert með sérstillingaréttindi geturðu notað aðgerðina **Vista sem** til að gera persónulegt yfirlit sem er byggt á læstu yfirliti.
@@ -68,15 +70,18 @@ Ef þú vilt vista þessar breytingar skaltu fylgja þessum skrefum.
 3. Til að búa til nýtt yfirlit:
 
     1. Veljið **Vista sem**. 
-    2. Færið inn heiti yfirlits (valkvætt) og lýsingu.
-    3. Veljið **Vista**.
+    2. Á svæðinu **Vista yfirlit sem** skal færa inn heiti og valfrjálst lýsingu fyrir yfirlitið.
+    3. Ef þú vilt að þetta yfirlit sé sjálfgefna yfirlitið þitt skaltu velja **Festa sem sjálfgefið**. Frekari upplýsingar um sjálfgefin yfirlit er að finna í hlutanum [Breyting á sjálfgefnu yfirliti](#changing-the-default-view) sem fylgir. 
+    4. **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** getur þú valið hvort þú viljir að þetta yfirlit sé tiltækt fyrir alla lögaðila eða aðeins undirsafn þeirra.
+    5. Veldu **Vista**.
 
 ## <a name="changing-the-default-view"></a>Breyting á sjálfgefnu yfirliti
 
 Sjálfgefið yfirlit er yfirlitið sem kerfið reynir að opna þegar síðan er opnuð. Stilla ætti sjálfgefna yfirlitið sem er búist er við að verði oftast notað. 
 
 > [!NOTE]
-> Það er eitt, altækt sjálfgefið yfirlit yfir öll fyrirtæki. Ef sjálfgefna yfirlitinu er breytt, verður það yfirlit opnað að sjálfgefnu, óháð lögaðilanum sem er notaður hverju sinni. 
+> - Í grunneiginleikanum **Vistuð yfirlit** er eitt altækt sjálfgefið yfirlit fyrir alla lögaðila. Ef sjálfgefna yfirlitinu er breytt, verður það yfirlit opnað að sjálfgefnu, óháð lögaðilanum sem er notaður hverju sinni.
+> - **Útgáfa 10.0.21 eða síðar:** Þegar kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** getur hver lögaðili haft sitt eigið sjálfgefna yfirlit fyrir hverja síðu.
 
 Til að breyta sjálfgefnu yfirliti fyrir síðu skal fylgja þessum skrefum:
 
@@ -86,20 +91,23 @@ Til að breyta sjálfgefnu yfirliti fyrir síðu skal fylgja þessum skrefum:
 
 Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista sem**), er hægt að gera þetta nýja yfirlit að sjálfgefna yfirlitinu með því að stilla valkostinn **Festa sem sjálfgefið** áður en yfirlitið er vistað.
 
-Athugið að í sumum tilfellum keyrir fyrirspurnin ekki sem tengist sjálfgefnu yfirliti þegar síða er opnuð í fyrsta skipti. Til dæmis ef síðan er opnuð í gegnum reit, verður fyrirspurn reitsins keyrð, óháð fyrirspurninni sem tengist sjálfgefna yfirlitinu. Þar að auki, ef síða er opnuð sem er með **Staðlað** yfirlit sem er þegar með skilgreinda fyrirspurn, verður upprunalega fyrirspurnin keyrð í staðinn fyrir fyrirspurn sjálfgefna yfirlitsins. Í slíku tilfelli birtist upplýsingaboð þegar yfirlitinu er hlaðið inn. Ef skipt er á milli yfirlita eftir að síðunni hefur verið hlaðið inn, ætti fyrirspurn um yfirlit að geta keyrt eðlilega. Í útgáfu 10.0.10 og síðar verða upplýsingaboðin sem birtast með innfelldri aðgerð sem gerir kleift að hlaða beint inn fyrirspurn sjálfgefins yfirlits.
+> [!WARNING]
+> Í sumum tilfellum keyrir fyrirspurnin ekki sem tengist sjálfgefnu yfirliti þegar síða er opnuð í fyrsta skipti. Til dæmis ef síðan er opnuð í gegnum reit, verður fyrirspurn reitsins keyrð, óháð fyrirspurninni sem tengist sjálfgefna yfirlitinu. Þar að auki, ef síða er opnuð sem er með **Staðlað** yfirlit sem er þegar með skilgreinda fyrirspurn, verður upprunalega fyrirspurnin keyrð í staðinn fyrir fyrirspurn sjálfgefna yfirlitsins. Í slíku tilfelli birtist upplýsingaboð þegar yfirlitinu er hlaðið inn. Ef skipt er á milli yfirlita eftir að síðunni hefur verið hlaðið inn, ætti fyrirspurn um yfirlit að geta keyrt eðlilega. Í útgáfu 10.0.10 og síðar verða upplýsingaboðin sem birtast með innfelldri aðgerð sem gerir kleift að hlaða beint inn fyrirspurn sjálfgefins yfirlits.
 
 ## <a name="managing-personal-views"></a>Umsjón með persónulegum yfirlitum
 
 Svarglugginn **Stjórna yfirlitum mínum** veitir þér grunnmöguleika á umsjón með persónulegum yfirlitum þínum og röð á yfirlitum í yfirlitsvalinu. Til að opna þessa síðu skal velja heiti yfirlits til að opna fellivalmynd yfirlitsvals og velja **Fleiri** og síðan velja **Stjórna yfirlitunum mínum**.
 
+**Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir hlutinn **Yfirlitin mín** í svarglugganum **Stjórna yfirlitum mínum** tiltæk yfirlit fyrir síðuna í hlutum. Öll yfirlit sem eiga sérstaklega við fyrir núverandi lögaðila eru sýnd í þeirra eigin hluta. Hlutinn **Altæk yfirlit** er alltaf sýndur þannig að hægt er að stjórna yfirlitunum sem eru í boði fyrir síðuna í öllum lögaðilum. 
+
 Fyrir lista yfir tiltæk yfirlit fyrir þessa síðu eru eftirfarandi aðgerðarsafn í boði.
 
-- **Breyta sjálfgefnu yfirliti** - Notið aðgerðina **Festa sem sjálfgefið** til að gera núgildandi valið yfirlit að sjálfgefnu yfirliti fyrir þessa síðu.
+- **Breyta sjálfgefnu yfirliti** - Notið aðgerðina **Festa sem sjálfgefið** til að gera núgildandi valið yfirlit að sjálfgefnu yfirliti fyrir þessa síðu. Ef kveikt er á eiginleikanum **Flytja inn stuðning lögaðila fyrir vistuð yfirlit** gerir hlutinn **Altæk yfirlit** þér kleift að búa til yfirlit að sjálfgefnu yfirliti fyrir annaðhvort núverandi lögaðila eða alla lögaðila.
 - **Endurraða yfirlitunum þínum** - Notið aðgerðirnar **Færa upp** og **Færa niður** til að endurraða yfirlitunum þínum í ákveðna röð.
 - **Endurnefna yfirlit** - Notið aðgerðina **Endurnefna** til að breyta heiti á núverandi völdu persónulegu yfirliti. Slökkt er á þessari aðgerð fyrir læst yfirlit. 
 - **Eyða yfirliti**: Notið aðgerðina **Eyða** til að eyða fyrir fullt og allt valið yfirlit af síðunni. Það er engin leið til að endurheimta yfirlit eftir að það er fjarlægt.
 
-Allar breytingar gerðar á þessum svarglugga taka gildi eftir að hnappurinn **Vista** er valinn.
+Allar breytingar gerðar í þessum svarglugga taka gildi eftir að hnappurinn **Uppfæra** er valinn.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum
 
@@ -128,24 +136,28 @@ Til að birta yfirlit skal fylgja þessum skrefum:
 6. Ákveðið hvort birta eigi yfirlitið sem sjálfgefið yfirlit fyrir valda notendur. Þegar yfirlit er gert að sjálfgefnu yfirliti, sjá notendur það í næsta skipti sem þeir opna marksíðuna. Einu, altæku sjálfgefnu yfirliti fyrir hvern valinn notanda verður breytt. Hins vegar geta notendur ennþá breytt sjálfgefnu yfirliti sínu eftir birtingu.
 
     > [!NOTE]
-    > Hafðu eftirfarandi í huga þegar þú birtir yfirlit sem sjálfgefið yfirlit: 
-    > -  Ef öllum eða sumum lögaðilum er birt yfirlit sem sjálfgefið yfirlit, er einu, **altæku** sjálfgefnu yfirliti breytt fyrir alla valda notendur. 
-    > -  Ef notandi er með hlutverk þar sem mörg yfirlit eru birt sem sjálfgefið yfirlit, verður síðasta yfirlitið sem birtist notað sjálfgefið yfirlit notandans. 
+    > Hafðu eftirfarandi  hegðun í huga þegar þú birtir yfirlit sem sjálfgefið yfirlit:
+    >
+    > - Ef þú birtir yfirlit sem sjálfgefið yfirlit í sumum eða öllum lögaðilum gerist eftirfarandi hegðun:
+    >
+    >    - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** verður staka, altæka sjálfgefna yfirlitinu breytt fyrir hvern marknotanda. 
+    >    - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** og þú birtir yfirlitið í undirsafni lögaðila verður sjálfgefna yfirlitinu fyrir þessa lögaðila breytt fyrir alla marknotendur.
+    >
+    > - Ef notandi er með hlutverk þar sem mörg yfirlit eru birt sem sjálfgefið yfirlit, verður síðasta yfirlitið sem birtist notað sjálfgefið yfirlit notandans. 
 
 8. Bættu öryggishlutverkum við sem samsvara notendunum sem fá þetta yfirlit. 
 9. Ákveðið hvort birta eigi yfirlitin undirhlutverkum fyrir hvert öryggishlutverk sem er valið. Ef það er gert skal velja gátreitinn **Hafa með undirhlutverk** í línunni fyrir viðeigandi öryggishlutverk. Athugið að þessi gátreitur er ekki tiltækur fyrir hlutverk sem eru ekki með undirhlutverk.
 10. Bættu við lögaðilum sem þetta yfirlit ætti að vera tiltækt fyrir. 
 
     > [!NOTE]
-    > Hafa skal eftirfarandi væntingar í huga þegar lögaðila er birt yfirlit.
-    > 
-    > Ef yfirlit er birt í lögaðila, en það er ekki birt sem sjálfgefið yfirlit, sjá notendur yfirlitið fyrst í yfirlitsvalinu aðeins fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum.
+    > Hafðu eftirfarandi hegðun í huga þegar þú birtir yfirlit til tiltekins lögaðila, en þú birtir ekki það yfirlit sem sjálfgefið yfirlit:
+    >
+    > - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** sýnir yfirlitsval notandans fyrir síðuna í upphafi aðeins yfirlitið fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum.
+    > - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið aðeins yfirlitið fyrir tiltekna lögaðila.
 
 11. Velja **Birta**.
 
 Athugið að í sumum umhverfum getur tekið smástund (allt að klukkustund) áður en notendur sjá birt yfirlit.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Breyta útgefnu yfirliti
 
@@ -193,6 +205,7 @@ Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett a
 Notendur sem hafa aðgang að síðunni **Sérstilling** geta einnig flutt inn eigin yfirlit eða yfirlit fyrirtækis með því að nota hnappinn **Flytja inn yfirlit** á aðgerðasvæðinu. Fyrir yfirlit fyrirtækis er hægt að velja **Birta strax** til að gera yfirlitin tiltæk notendum án frekari augljósrar birtingar.
 
 ## <a name="known-issues"></a>Þekkt vandamál
+
 Listi yfir þekkt vandamál með vistuð yfirlit er að finna í [Búa til skjámyndir sem nýta vistuð yfirlit til fullnustu](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
@@ -232,5 +245,11 @@ Fyrir síður sem eru með stórt yfirlitsval (bæði er hægt að vista sérsti
 - Ef farið er á síðu frá reit verður fyrirspurn reitsins keyrð óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. Ef þú stofnaðir þann reit eftir að skoðanir hafa verið virkjaðar mun val á reit opna síðuna með skjánum sem tengist þeim reit.
 - Ef farið er á síðu og sá upphafspunktur inniheldur fyrirspurn, mun upprunaleg fyrirspurn keyra í stað fyrirspurnar sjálfgefins yfirlits. Þú ættir að vera látin/n vita þegar þetta gerist með upplýsandi skilaboðum þegar yfirlitið er að hlaðast inn. Einnig er hægt að staðfesta með því að skipta yfir í þetta yfirlit eftir að síðan hleðst inn, því að þetta ætti að leyfa keyrslu á fyrirspurn yfirlits óháð öðru.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Af hverju er yfirlit sem var birt fyrir tiltekinn lögaðila sýnilegt í öllum lögaðilum?
+
+Ef þú birtir yfirlit til tiltekins lögaðila, en þú birtir ekki það yfirlit sem sjálfgefið yfirlit, gerist eftirfarandi hegðun:
+
+- Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** sýnir yfirlitsval notandans fyrir síðuna í upphafi aðeins yfirlitið fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum. Þessi hegðun á sér stað vegna þess að notendur fá sitt eigið persónulega afrit af birtu yfirliti þegar því er hlaðið og persónuleg yfirlit eru altæk.
+- **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið aðeins yfirlitið fyrir tiltekna lögaðila. Þessi hegðun á sér stað vegna þess að eiginleikinn gerir kleift að tengja yfirlit (þ.m.t. persónuleg yfirlit) við tiltekna lögaðila.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

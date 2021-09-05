@@ -1,8 +1,8 @@
 ---
 title: Velja tækni við samþættingu gagna
-description: Þessi grein veitir upplýsingar um samþættingu við gögn sem stjórnað er af Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Þessi efnisatriði gefur upplýsingar um samþættingu við gögn sem Human Resources stjórnar.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720469"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414715"
 ---
 # <a name="choose-a-data-integration-technology"></a>Velja tækni við samþættingu gagna
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720469"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Þessi grein veitir upplýsingar um samþættingu við gögn sem stjórnað er af Dynamics 365 Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
+Þessi efnisatriði gefur upplýsingar fyrir samþættingu við gögn sem Dynamics 365 Human Resources stjórnar. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
 
 ## <a name="data-integration-background"></a>Bakgrunnur gagnasamþættingar
 
 Viðskiptagögn eru lykileign sem gerir fyrirtæki þitt einstakt. Gögn fyrirtækisins eru mjög dýrmæt. Þú getur notað venslin milli gagna sem safnað er í öllu fyrirtæki þínu til að bæta viðskiptaferla og viðskiptagreind í öllum fyrirtækjum þínum. Við leggjum okkur fram um að veita greiðan, öruggan og stöðugan aðgang að viðskiptagögnum þínum hvað sem kerfið kemur frá.
 
-Sögulega hefur verið erfitt að samþætta gögn milli margra kerfa.
-Microsoft tekur skref til að auðvelda samþættingu gagna og stórt skref í átt að því markmiði er náð með [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Sögulega hefur verið erfitt að samþætta gögn milli margra kerfa. Microsoft tekur skref til að auðvelda samþættingu gagna og stórt skref í átt að því markmiði er náð með [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources er að gera Dataverse að völdu almenningsviðmóti fyrir gögn í Human Resources. Með tímanum gerum við ráð fyrir að öll mikilvægustu gögn sem stjórnað er af Human Resources verði afhjúpuð í Dataverse. Við mælum með Dataverse sem valin tækni fyrir flest samþætt forrit.
 
@@ -47,7 +46,7 @@ Eftirfarandi kaflar lýsa mismunandi gagnaaðlögunartækni sem hægt er að not
 
 ### <a name="dataverse-tables"></a>Dataverse töflur
 
-Dataverse er ákjósanlegt almenningsgagnaviðmót Human Resources. Það þróaðist úr Dynamics 365 XRM verkvanginum, sem er notaður af lausnum [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
+Dataverse er ákjósanlegt almenningsgagnaviðmót Human Resources. Það er afsprengi Dynamics 365 XRM verkvangsins, sem er notaður af lausnum [Dynamics 365 Customer Engagement](/dynamics365/?panel=customer-engagement#pivot=business-apps).
 
 Dataverse býður upp á verkvang og API fyrir gagnatöflur. Þegar þú setur upp Human Resources tengist það tilviki Dataverse. Einingar fyrir gögn Human Resources eru settar upp í það tilvik Dataverse. Töflurnar og gögnin þeirra eru tiltæk öllum forritum sem hægt er að tengjast við Dataverse tilvikið. Mannauður samstillir gögn til og frá Dataverse töflunum.
 

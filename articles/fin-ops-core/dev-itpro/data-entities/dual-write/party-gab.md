@@ -2,19 +2,19 @@
 title: Aðili og altæk aðsetursbók
 description: Þetta efnisatriði lýsir virkni aðila og altækrar aðsetursbókar tvöfaldrar skráningar.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729777"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386686"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -139,7 +139,10 @@ Netið inniheldur eftirfarandi dálka:
 
 Hægt er að nota hnappinn **Nýtt rafrænt aðsetur** fyrir ofan hnitanetið til að búa til eins mörg aðsetur eins og þörf er á.
 
-Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**).
+Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**). Samskiptaupplýsingar sem birtast í flipanum **Upplýsingar** eru skrifvarin afrit af rafrænu aðalaðsetri eins og aðalsímanúmeri, aðalnetfangi, aðalsíma, aðalfaxnúmeri og aðalaðgangs að Twitter. Í hæfnisferlinu getur þú gefið bæði upp símanúmer á vinnustað og farsímanúmer. Símanúmer fyrirtækis telst aðalsími ef **IsMobile=Nei** og farsímanúmer telst aukasími ef **IsMobile=Já**.
+
+> [!TIP]
+> Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að vistfangagögn séu samstillt við Finance and Operations forrit.
 
 ## <a name="setup"></a>Setja upp
 
@@ -249,13 +252,11 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders
     [Sölureikningshausar V2](mapping-reference.md#118) | reikningar
 
-> [!Note]
+> [!NOTE]
 > `CDS Contacts V2 (contacts)` kortið er kortið sem var stöðvað í skrefi 1. Þegar reynt er að keyra önnur kort gætu þessi tvö kort birst í listanum yfir háða. Ekki keyra þessi kort.
-
-> [!Note]
+>
 > Ef aðilabók og altæk aðsetursbók eru uppsettar þarf að slökkva á viðbótinni sem heitir `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Ef lausn aðilabókar og altækrar aðsetursbókar er fjarlægð þarf að endurvirkja viðbótina.
-
-> [!Note]
+>
 > Ekki ætti að nota reitinn `msdyn_*partynumber` (textareitur í einni línu) sem er með í töflunum **Reikningur**, **Tengiliður** og **Lánardrottinn** frá og með þessu. Heiti merkis er með forskeytið **(Úrelt)** til glöggvunar. Í staðinn skal nota **msdyn_partyid** reitinn. Þessi reitur er leit í **msdyn_party** töflunni.
 
 > Töfluheiti | Gamall reitur | Nýr reitur
@@ -296,7 +297,6 @@ Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skránin
 
 + Í Finance and Operations-forritum, þegar viðskiptavinur er stofnaður ásamt aðsetri og það vistað, er hugsanlegt að aðsetrið samstillist ekki við töfluna **Aðsetur**. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
 + Í Finance and Operations-forritum, þegar færsla viðskiptavinar er með aðalaðsetri og nýr tengiliður er stofnaður fyrir þann viðskiptavin, þá erfir tengiliðafærslan aðalaðsetur frá tengdri færslu viðskiptavinar. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvöföld skráning er virkjuð eru tengiliðir viðskiptavina sem eru erfðir með aðalaðsetri úr Finance and Operations-forritinu samstilltir við Dataverse ásamt aðsetri þeirra.
-+ Rafræn heimilisföng úr `msdyn_partyelectronicaddress`-töflunni flæða ekki yfir í reiti rafræns aðseturs í töflunum **Reikningur** og **Tengiliður**. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Ekki verður skrifað yfir fyrirliggjandi gögn í reitum rafræns aðseturs í töflunum **Reikningur** og **Tengiliður**.
 + Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
 + Í Finance and Operations-forritum er hægt að stofna tengiliðafærslu úr skjámyndinni **Bæta við tengilið**. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
 

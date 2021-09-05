@@ -1,8 +1,8 @@
 ---
 title: Kerfiskröfur
-description: Þessi grein lýsir kröfum fyrir Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Þetta efnisatriði sýnir kerfiskröfur fyrir Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ef0176926fd6c5c5d2bc852080dde5273d05d0f2edd20e091d97c71e503dce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15770595a0639c03df1138ec25010ca8168bd9a8
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761093"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393474"
 ---
 # <a name="system-requirements"></a>Kerfiskröfur
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein lýsir kröfum fyrir Microsoft Dynamics 365 Human Resources. Það gefur líka upp löndin og svæðin þar sem Human Resources er tiltækt og upplýsingar um tungumál og staðfæringar fyrir gögn Human Resources.
+Þetta efnisatriði sýnir kerfiskröfur fyrir Microsoft Dynamics 365 Human Resources. Það gefur líka upp löndin og svæðin þar sem Human Resources er tiltækt og upplýsingar um tungumál og staðfæringar fyrir gögn Human Resources.
 
 ## <a name="supported-web-browsers"></a>Studdir vafrar
 
-Human Resources er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgreindum stýrikerfum: 
+Notendur geta opnað Microsoft Dynamics 365 Human Resources með því að nota einhvern af eftirfarandi netvöfrum sem keyra í tilgreindum stýrikerfum: 
 
 *   Microsoft Edge (nýjasta almenna útgáfa) á Windows-10
 *   Internet Explorer 11 á Windows 10, Windows 8.1 eða Windows 7
@@ -39,14 +39,17 @@ Human Resources er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgrein
 
 Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. 
 
-> [!NOTE]
-> * Til að sækja myndir sem eru myndaðar úr Verkskráningu og hafa þær með í Microsoft Word-skjöl, verður að hafa viðauka við Króm uppsett. 
-> * Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Microsoft Edge og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce-forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
-> * Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
->   Netþarfir
-> * Human Resources er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Human Resources. Mælt er með er prófað biðtíma á netinu á [www.azurespeed.com](https://www.azurespeed.com "Azure biðtímapróf").
-> * Bandvíddarþarfir fyrir Human Resources fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
-> 
+## <a name="special-considerations"></a>Sérstök umhugunsarefni
+
+* Til að virkja verkskráningu til að sækja skjámyndir og hafa þær með í Microsoft Word skjölum sem eru búin til þarftu að setja upp forútgáfu Chrome-viðbótar.
+* Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Microsoft Edge og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce-forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
+* Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
+
+## <a name="network-requirements"></a>Netþarfir
+
+* Human Resources er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Human Resources. Mælt er með er prófað biðtíma á netinu á [www.azurespeed.com](https://www.azurespeed.com "Azure biðtímapróf").
+* Bandvíddarþarfir fyrir Human Resources fara eftir aðstæðum. Dæmigerðar aðstæður krefjast bandvíddar sem er meira en 50 kílóbæti á sekúndu (KBps).
+ 
 > [!WARNING]
 > Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Human Resources fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
 
@@ -63,6 +66,5 @@ Hægt er að hlaða niður PDF skrá yfir lönd, svæði og tungumál sem Human 
 > Á meðan notandaviðmót er staðfært á önnur tungumál eru öll gögn notanda geymd á því tungumáli sem þau voru færð inn á. Hægt er að búa til tölvupósta og sniðmát á öðrum tungumálum, en gögn á borð við upplýsingar um áætlanagerð eru einungis í boði á ensku sem stendur.
 
 Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðisbundnar sérstillingar, eða að finna lausnir fyrir land eða svæði sem Microsoft styður ekki sem stendur skaltu skoða [Alþjóðavæðing](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

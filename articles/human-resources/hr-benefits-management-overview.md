@@ -1,8 +1,8 @@
 ---
 title: Yfirlit fríðindastjórnunar
-description: Yfirlit yfir eiginleika stjórnunar fríðinda í Dynamics 365 Human Resources. Bjóddu starfsmönnum þínum framlengda valkosti með auðveldri notkun á netinu.
-author: andreabichsel
-ms.date: 07/13/2021
+description: Í þessu efnisatriði er að finna yfirlit yfir fríðindastjórnun í Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719144"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417410"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Fríðindastjórnun í Microsoft Dynamics 365 Human Resources veitir þér sveigjanlega lausn sem styður fjölbreytt úrval af kostum. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
+Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Fríðindastjórnun í Microsoft Dynamics 365 Human Resources býður upp á sveigjanlega lausn sem styður fjölbreytta fríðindavalkosti. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
 
 - Auknar fríðindaáætlanir gera þér kleift að búa til og hafa umsjón með einstökum fríðindaáætlunum og styðja flóknar töflur um fríðindahlutfall og ívafin stig. Þú getur auðveldlega búið til fríðindaáætlanir, knippi og sjálfvirkar innritunarreglur til að auðvelda starfsmannaupplifun.
 - Flex lánstraust forrit gera þér kleift að styðja við starfslok og aðra atburði í lífinu.
@@ -37,13 +37,13 @@ Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðin
 Ef þú vilt fá aðgang að kynningargögnum þarftu að dreifa sandkassumhverfinu þínu á nýjan leik.
 
 > [!NOTE]
-> Nú er hægt að sérsníða skjámyndir fríðindastjórnunar. Nú er hægt að bæta sérstilltum reitum sem tengjast tryggingarhlutföllum í skjámyndinni **Tryggingarvalkostur** fyrir fríðindaáætlanir. Frekari upplýsingar um hvernig unnið er með sérstillta reiti er að finna í [Sérstilltir reitir](hr-developer-custom-fields.md).
+> Nú er hægt að sérsníða síður fríðindastjórnunar. Hægt er að bæta sérstilltum reitum sem tengjast tryggingarhlutföllum á síðunni **Tryggingarvalkostur** fyrir fríðindaáætlanir. Frekari upplýsingar um hvernig unnið er með sérstillta reiti er að finna í [Sérstilltir reitir](hr-developer-custom-fields.md).
 >
 > ![Sérstilltir reitir fríðindastjórnunar](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Virkja fríðindastjórnun
 
-Þetta efnisatriði lýsir því hvernig á að kveikja á eiginleikum í Human Resources. Það segir einnig til um hvaða núgildandi eiginleikum í Human Resources er skipt út fyrir Fríðindastjórnun eða hvaða eiginleikar eru gerðir óvirkir eftir að þú kveikir á Fríðindastjórnun.
+Þetta efnisatriði lýsir því hvernig á að kveikja á eiginleikum í Human Resources. Það útskýrir einnig hvaða núgildandi eiginleikum í Human Resources er skipt út fyrir Fríðindastjórnun og hvaða eiginleikar eru gerðir óvirkir eftir að þú kveikir á Fríðindastjórnun.
 
 > [!IMPORTANT]
 > ÞEgar þú hefur virkjað fríðindastjórnun í umhverfi **Framleiðslu** er ekki hægt að afvirkja hana. Við mælum með að virkja og prófa ávinning stjórnunar í umhverfinu **Sandkassi** áður en það er gert kleift í umhverfi **Framleiðslu**. Það er verulegur munur á gamall fríðindavirkni og nýrrar virkni stjórnunar fríðinda sem krefst viðbótaruppsetningar og ætti að prófa áður en þeir eru settir í framleiðslu.

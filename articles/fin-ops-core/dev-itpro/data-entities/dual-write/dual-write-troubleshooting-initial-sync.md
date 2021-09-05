@@ -4,24 +4,17 @@ description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga va
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736375"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416982"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
@@ -46,7 +39,7 @@ Eftir að þú hefur gert kortlagningarsniðmát virkt ætti staða korta að ve
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra vörpun og upphafssamstillingu:
 
-*(\[Villa í beiðni\], fjartengdur þjónn skilaði villu: (400) Villa í beiðni.), villa kom upp í AX útflutningi*
+*(\[Villa í beiðni\], fjartengdur þjónn skilaði villu: (400) Villa í beiðni.), villa kom upp í AX útflutningi.*
 
 Hér er dæmi um full villuboð.
 
@@ -198,7 +191,7 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
 
         ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId.](media/cust_selfref6.png)
 
-    2. Bætið skilyrði fyrirtækis við síuna Dataverse megin þannig að einungis línur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**. 
+    2. Bætið skilyrði fyrirtækis við síuna Dataverse megin þannig að einungis línur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**.
 
         > [ATHUGASEMD] Ef síuhnappurinn er ekki til staðar skal stofna þjónustubeiðni til að biðja gagnasamþættingarteymið um að virkja síugetu leigjandans.
 
@@ -210,5 +203,36 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
 
 8. Í forritinu Finance and Operations skal kveikja aftur á rakningu breytinga fyrir töfluna **Viðskiptavinir V3**.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Upphafleg mistök við samstillingu á tengingum með fleiri en 10 uppsláttarreitum
+
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra fyrstu samstillingu bilana í vörpunum **Viðskiptavinir V3 -  Lyklar**, **Sölupantanir** eða einhverri vörpun með fleiri en 10 uppflettireiti:
+
+*CRMExport: Framkvæmd pakka lokið. Villa í lýsingu 5 Tilraunir til að sækja gögn úr https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$ orderby=accountnumber asc mistókst.*
+
+Vegna takmörkunar á uppflettingu fyrirspurnarinnar mistekst upphafleg samstilling þegar vörpun einingarinnar inniheldur fleiri en 10 uppflettingar. Nánari upplýsingar er að finna í [Sækja tengdar töflufærslur með fyrirspurn](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
+
+Til að laga þetta vandamál skal fylgja þessum skrefum:
+
+1. Fjarlægðu valfrjálsa uppflettireiti úr vörpunareiningu tvöfaldrar skráningar þannig að fjöldi uppflettinga sé 10 eða færri.
+2. Vistaðu vörpunina og gerðu fyrstu samstillinguna.
+3. Þegar upphafleg samstilling fyrir fyrsta skrefið hefur tekist skaltu bæta við eftirstandandi uppflettireitum og fjarlægja uppflettireiti sem þú samstilltir í fyrsta skrefinu. Gakktu úr skugga um að fjöldi uppflettisvæða sé 10 eða færri. Vistaðu vörpunina og keyrðu fyrstu samstillinguna.
+4. Endurtaktu skrefin þar til allir uppflettireitir hafa verið samstilltir.
+5. Bættu öllum uppflettireitunum aftur við vörpunina, vistaðu hana og keyrðu hana með **Sleppa upphaflegri samstillingu**.
+
+Þetta ferli virkjar vörpun fyrir samstillingu í rauntíma.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Þekkt vandamál við fyrstu samstillingu á póstföngum aðila og rafrænum aðsetrum aðila
+
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra upphaflega vörpun á póstföngum aðila og rafrænum aðsetrum aðila:
+
+*Númer aðila fannst ekki í Dataverse.*
+
+Það er svið sett á **DirPartyCDSEntity** í Finance and Operations forritum sem síar aðila af gerðinni **Einstaklingur** og **Fyrirtæki**. Þar af leiðandi mun upphafleg samstilling vörpunarinnar **CDS-aðilar – msdyn_parties** ekki samstilla aðila af annarri gerð, þ.m.t. **Lögaðili** og **Rekstrareining**. Þegar upphafleg samstilling er keyrð fyrir **Póstföng CDS-aðila (msdyn_partypostaladdresses)** eða **Tengiliðir aðila V3 (msdyn_partyelectronicaddresses)** gæti komið upp villa.
+
+Við erum að vinna að lagfæringu til að fjarlægja svið fyrir gerð aðila í Finance and Operations einingunni þannig að aðilar af öllum gerðum geti samstillst við Dataverse.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Eru einhver vandamál varðandi frammistöðu við keyrslu á upphaflegri samstillingu fyrir gögn viðskiptavinar eða tengiliðar?
+
+Ef þú hefur keyrt upphaflega samstillingu fyrir gögn **Viðskiptavinar** og hefur varpanir **Viðskiptavinar** í gangi og keyrir síðan upphaflega samstillingu fyrir gögn **Tengiliðar** gætu komið upp vandamál við innsetningar og uppfærslur á töflunum **LogisticsPostalAddress** og **LogisticsElectronicAddress** fyrir aðsetur **Tengiliðar**. Sömu altæku töflur póstfangs og rafræns aðseturs eru raktar fyrir **CustCustomerV3Entity** og **VendVendorV2Entity** og tvöföld skráning reynir að búa til fleiri fyrirspurnir til að skrifa gögn á hina hliðina. Ef þú hefur þegar keyrt upphaflega samstillingu fyrir **Viðskiptavin** skaltu stöðva samsvarandi vörpun á meðan þú keyrir upphaflega samstillingu fyrir gögn **Tengiliðar**. Gerðu það sama fyrir gögn **Lánardrottins**. Þegar upphaflegri samstillingu er lokið er hægt að keyra allar varpanir með því að sleppa upphaflegu samstillingunni.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

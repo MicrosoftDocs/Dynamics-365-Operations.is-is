@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773538"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384660"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.19 (júní 2021)
 
@@ -41,7 +41,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 | Birgða- og vörustjórnun | [Flettivirkni fyrir reiti upphafsorða og lokaorða skjala á sölutilboðssíðu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Þessi eiginleiki bætir við uppflettivirkni fyrir reitina **Skjalakynning** og **Skjalaniðurstaða** á síðunni **Sölutilboð**.<br><br>Þessi eiginleiki er sjálfgefið virkur. |
 | Birgða- og vörustjórnun | [Vöruhúsakeyrsla með jaðareiningakvörðum á sérsniðnum vélbúnaði](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Framleiðsla | [Framkvæmd framleiðslu með jaðareiningakvörðum á sérsniðnum vélbúnaði](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Áætlun | [Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Þessi eiginleiki virkjar afkastaáætlun með ótakmörkuðum afköstum fyrir finstillingu skipulagningar. Án þessa eiginleika fá áætlaðar framleiðslupantanir afhendingartímann sinn frá afhendingartíma á birgðum útgefinna afurða burtséð frá tímamörkum áætlanagerðarinnar. |
+| Áætlun | [Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Röðun með ótakmarkaða getu](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Áætlun | Fyrirspurnarbyggð staðfesting áætlaðrar pantanar | [Staðfesta áætlaðar pantanir](../master-planning/planning-optimization/planned-order-firming.md) |
 | Vöruupplýsingastjórnun | [Endurbætur á tillögusíðu afbrigðis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Stofna forskilgreind afurðarafbrigði](../pim/tasks/create-predefined-product-variants.md) |
 

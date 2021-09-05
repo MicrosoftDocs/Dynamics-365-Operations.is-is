@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751099"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344979"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -51,6 +51,9 @@ Til að sjá útkomu samræmisgreiningar á fínstillingu skipulagningar skal fa
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Yfirlit yfir mögulegar niðurstöður samræmisgreiningar
 
 Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna eftir samræmisgreiningu. Númeramerkjum (_\#_) verður skipt út fyrir númer sem tilgreinir fjölda færslna sem eru með uppgefið vandamál. Eiginleikar sem eru studdir eða í forútgáfu eru tiltækir með útgáfu 10.0.9 eða nýrri (nema hærra útgáfunúmer sé skráð í dálkinn „Væntanlegt framboð“).
+
+> [!NOTE]
+> Ekki er hægt að bera kennsl á ósamræmi í samræmisgreiningu fínstillingar áætlanagerðar. Frekari upplýsingar er að finna í [Munur á milli hefðbundinnar aðaláætlanagerðar og fínstillingar áætlanagerðar](planning-optimization-differences-with-built-in.md).
 
 | Eiginleiki | Uppgefið vandamál | Skýring | Væntanlegt framboð |
 | --- | --- | --- | --- |
@@ -106,7 +109,11 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 
 [Hafist handa með fínstillingu áætlanagerðar](get-started.md)
 
-[Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
+[Munur á milli hefðbundinnar aðaláætlanagerðar og fínstillingar áætlanagerðar](planning-optimization-differences-with-built-in.md)
+
+[Færibreytur ekki notaðar af fínstillingu áætlanagerðar](not-used-parameters.md)
+
+[Skoða áætlunarferil og skipulagsannála](plan-history-logs.md)
 
 [Nota síur á áætlun](plan-filters.md)
 

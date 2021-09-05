@@ -1,12 +1,12 @@
 ---
-title: Skattaútreikningur (forskoðun)
+title: Yfirlit skattaútreiknings
 description: Þetta efnisatriði skýrir heildarumfang og eiginleika skattaútreikningsgetu.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775095"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394587"
 ---
-# <a name="tax-calculation-preview"></a>Skattaútreikningur (forskoðun)
+# <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ Skattaútreikningur er þjónusta með stillanlegri þjónustu fyrir marga noten
 Skattútreikningur er samþættur við Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
 
 > [!IMPORTANT]
-> Þegar skattaútreikningsþjónustan er virkjuð gætu sumar aðgerðir á tengdum gögnum verið framkvæmdar í gagnamiðstöð annarri en gagnamiðstöðinni sem heldur utan um þjónustugögnin. Yfirfarið [Skilmálana](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) áður en skattaútreikningsþjónustan er virkjuð. Persónuvernd þín er okkur mikilvæg. Frekari upplýsingar má finna í [tilkynningu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Þegar skattaútreikningur er virkjaður gætu sumar aðgerðir á tengdum gögnum verið framkvæmdar í gagnamiðstöð annarri en gagnamiðstöðinni sem heldur utan um þjónustugögnin. Yfirfarið [Skilmálana](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) áður en skattaútreikningur er virkjaður. Persónuvernd þín er okkur mikilvæg. Frekari upplýsingar má finna í [tilkynningu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-Skattaútreikningur er skattakerfi frá Microsoft sem býður upp á mikinn sveigjanleika. Það getur hjálpað þér að framkvæma eftirfarandi verk:
+Skattaútreikningur er skattakerfi frá Microsoft sem býður upp á mikinn sveigjanleika og getur hjálpað þér að framkvæma eftirfarandi verk:
 
-- Grunnstilla skattaútreikning með Regulatory Configuration Service (RCS). RCS er endurbætt útgáfa af hönnuði rafrænnar útgáfu og er fáanleg sem sjálfstæð þjónusta.
-- Grunnstilla skattafylki til að ákvarða sjálfkrafa skattkóða og taxta.
-- Grunnstilla skattafylki til að ákvarða sjálfkrafa skattskráningarnúmerið.
-- Grunnstilla hönnuð skattaútreiknings til að skilgreina formúlur og skilyrði.
-- Deildu skattákvörðun og útreikningslausn á milli lögaðila.
+- Ákvarða sjálfkrafa rétta söluskattshópinn, söluskattshópinn og skattkóða í gegnum aukið ákvörðunarferli.
+- Styðjast við mörg skattskrárnúmer hjá einum lögaðila og ákveða sjálfkrafa rétt skattskrárnúmer fyrir skattskyld viðskipti.
+- Styðja skattákvörðun, útreikning, bókun og uppgjör vegna flutningspantana.
+- Skilgreindu stillanlegar formúlur og skilyrði skattaútreikninga fyrir þínar tilteknu viðskiptaþarfir.
+- Deildu skattákvörðun og útreikningslausn á milli lögaðila til að vista aðgerðir og koma í veg fyrir villur.
+- Styddu ákvarðanir skattskráningarnúmers viðskiptavinar og lánardrottins.
+- Styðja ákvörðun listakóða.
+- Styddu við færibreytur skattaútreiknings á stigi skattaumdæmis.
 
-Til að nota skattaútreikningsþjónustu skal setja upp innbótina fyrir skattaútreikningsþjónustu ur verkefninu í Microsoft Dynamics Lifecycle Services (LCS). Ljúkið síðan uppsetningunni í RCS og virkið skattútreikningaþjónustuna í Finance and Supply Chain Management. Frekari upplýsingar eru í [Hafist handa með skattþjónustu](./global-get-started-with-tax-calculation-service.md).
+Til að nota skattaútreikning skal setja upp innbót skattaútreikningsins úr verkefninu í Microsoft Dynamics Lifecycle Services. Ljúkið síðan uppsetningunni í [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) og gerið skattaútreikning virkan í Finance and Supply Chain Management. Frekari upplýsingar eru í [Hafist handa með skattþjónustu](global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Til ráðstöfunar
 
-Skattaútreikningur er aðeins í boði í sandkassaumhverfi og til valinna viðskiptavina í gegnum almenna forútgáfu. Að lokum mun hún verða aðgengileg öllum viðskiptavinum og í framleiðsluferli.
+Skattaútreikningur er almennt aðgengilegur öllum viðskiptavinum í framleiðsluumhverfi frá og með útgáfu 10.0.21.
 
-Nýjir eiginleikar verða áfram kynntir til sögunnar og þess vegna þarf að gæta þess að skoða nýjustu fylgiskjöl til að fá upplýsingar um umfang studdra eiginleika.
+Áfram verður boðið upp á nýja eiginleika. Athugaðu nýjustu útgáfuáætlun með reglulegu millibili til að fá upplýsingar um umfang studdra eiginleika.
 
-Skattaútreikningur er í boði á eftirfarandi staðsetningum Azure. Hún verður einnig í boði á fleiri Azure-landsvæðum í samræmi við þarfir viðskiptavina:
+Skattaútreikningur er í boði á eftirfarandi staðsetningum Azure. Fleiri Azure-staðsetningum verður bætt við eftir því hverjar þarfir viðskiptavinanna eru.
 
-- Bandaríkin
+- Asía og Kyrrahaf
+- Ástralía
+- Kanada
 - Evrópa
+- Japan
+- Bretland
+- Bandaríkin
 
 > [!NOTE]
-> Skattaútreikningur styður ekki uppsetningu Dynamics 365 á staðnum. Hún styður einnig ekki fyrri útgáfur, eins og Dynamics AX 2012.
+> Skattaútreikningur styður ekki eldri útgáfu af Dynamics 365, svo sem Dynamics AX 2012 eða uppsetningu á staðnum af Dynamics 365.
 
-## <a name="feature-highlights"></a>Helstu atriði eiginleika
+## <a name="data-flow"></a>Gagnaflæði
 
-- Stillanlegt skattafylki til að ákvarða og reikna út skatt sjálfkrafa
-- Stuðningur fyrir mörg skattskráningarnúmer
-- Stuðningur flutningspöntunar fyrir skattákvörðun og útreikning
-- Stuðningur flutningspöntunar fyrir ákvörðun margra skattnúmera
+Hér er útlistun á gagnaflæðisferlinu fyrir tTax-útreikning. 
+
+1. Í RCS skaltu skoða og flytja inn skilgreiningar á líkönum skattskyldra skjala og skilgreiningar líkanavörpunar. Ef þú verður að stækka skilgreiningar fyrir ítarlegri aðstæður skaltu skoða [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
+2. Í RCS skaltu búa til eða vinna með skattaeiginleika. Þú getur notað skattaeiginleika til að vinna með skatthlutföll og gildissviðsreglur skatts.
+3. Eftir að uppsetningu skattaeiginleika er lokið skaltu befa út skattaskilgreiningarnar og skattaeiginleikana úr RCS í altæku geymsluna.
+4. Í Finance skaltu velja hvaða útgáfu af uppsetningu skattaeiginleika á að nota fyrir tiltekinn lögaðila.
+5. Í Finance og Supply Chain Management skaltu stýra aðgerðum eins og venjulega. Þegar skattaútreiknings er þörf mun biðlarinn safna upplýsingum úr færslunni, eins og sölupöntun eða innkaupapöntun og pakka upplýsingunum saman innihaldi. Þá verður send beiðni um að reikna skattinn.
+6. Skattaútreikningsbeiðni berst frá viðskiptavini og útreikningi er lokið. Skattaniðurstöðunni er þá skilað til biðlarans.
+7. Biðlari Dynamics 365 fær skattaniðurstöðuna og birtir skattaútreikninginn á síðu söluskatts.
 
 ## <a name="supported-transactions"></a>Studdar færslur
 
-Lögaðili og færsluhirðir geta gert skattaútreikning virkan. Eftirfarandi færslur eru studdar:
+Hægt er að virkja skattaútreikning eftir færslum. 
 
-- Söluferli
+Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.21: 
+
+- Sala
 
     - Sölutilboð
     - Sölupöntun
@@ -83,7 +98,7 @@ Lögaðili og færsluhirðir geta gert skattaútreikning virkan. Eftirfarandi f�
     - Ýmis hausgjöld
     - Ýmis línugjöld
 
-- Innkaupaferli
+- Innkaup
 
     - Innkaupapöntun
     - Staðfesting
@@ -100,10 +115,36 @@ Lögaðili og færsluhirðir geta gert skattaútreikning virkan. Eftirfarandi f�
     - Ýmis hausgjöld fyrir beiðni um tilboð
     - Ýmis línugjöld fyrir beiðni um tilboð
 
-- Birgðavinnsla
+- Birgðir
 
     - Flutningspantanir - senda
     - Móttaka flutningspöntunar
+
+## <a name="supported-countriesregions"></a>Studd lönd/svæði
+
+Hægt er að virkja skattaútreikning eftir lögaðila. 
+
+Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.21:
+
+- Austurríki
+- Belgía
+- Danmörk
+- Eistland
+- Finnland
+- Frakkland
+- Þýskaland
+- Ungverjaland
+- Ísland
+- Ítalía
+- Lettland
+- Litháen
+- Holland
+- Noregur
+- Pólland
+- Svíþjóð
+- Sviss
+- Bretland
+- Bandaríkin
 
 ## <a name="related-resources"></a>Tengd tilföng
 

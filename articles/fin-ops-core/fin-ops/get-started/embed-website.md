@@ -2,7 +2,7 @@
 title: Innfella forrit þriðja aðila
 description: Þetta efnisatriði útskýrir hvernig á að innfella forrit þriðja aðila til að auka virkni vörunnar.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737800"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345411"
 ---
 # <a name="embed-third-party-apps"></a>Innfella forrit þriðja aðila
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit frá þriðja aðila sem virka ásamt Finance and Operations forritum. Til að bjóða upp á hnökralausari notendaupplifun er hægt að nota eiginleikann **(Forútgáfa) Heilsíðuforrit** til að fella þessi forrit þriðja aðila beint inn í Finance and Operations-forritin (svo lengi sem forrit þriðja aðila leyfa innfellingu). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
+Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit frá þriðja aðila sem virka ásamt Finance and Operations forritum. Til að bjóða upp á hnökralausari notendaupplifun er hægt að nota eiginleikann **Heilsíðuforrit** til að fella þessi forrit þriðja aðila beint inn í Finance and Operations-forritin (svo lengi sem forrit þriðja aðila leyfa innfellingu). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
 
-Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **(Forútgáfa) Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar þeim aðferðum sem notaðar eru til að fella inn vinnusvæðaforrit úr Microsoft Power Apps í Finance and Operations-forrit.
+Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar þeim aðferðum sem notaðar eru til að fella inn vinnusvæðaforrit úr Microsoft Power Apps í Finance and Operations-forrit.
 
 - Fellið forritið eða vefsvæðið inn í fyrirliggjandi síðu sem síðu á nýjum flipa (snúningsflipa, flýtiflipa, blaði eða vinnusvæði).
 - Búið til nýja heilsíðuupplifun fyrir forritið eða vefsvæðið úr stjórnborðinu.
@@ -64,7 +64,7 @@ Notið þessa aðferð til að bæta við síðu sem er til í kerfinu með innf
 Notið þetta ferli ef forritið sem ætlunin er að fella inn er ekki tengt núverandi síðu eða ef ætlunin er einfaldlega að hafa heilsíðuupplifun fyrir forritið inni í Finance and Operations-forritinu.
 
 1. Opnið stjórnborð.
-2. Veljið og haldið (eða hægrismellið) síðunni, veljið **Sérstilla** og veljið því næst **Bæta við síðu**.
+2. Veljið og haldið inni stjórnborðinu (eða hægrismellið á það), veljið **Sérstilla** og veljið því næst **Bæta við síðu**.
 3. Á svæðinu **Bæta við síðu** skal velja **Vefsvæði**.
 4. Grunnstilla innfellt forrit:
 
@@ -82,9 +82,9 @@ Notið þetta ferli ef forritið sem ætlunin er að fella inn er ekki tengt nú
 
 Þegar forrit hefur verið innfellt með því að nota eina af aðferðunum sem lýst er í hlutunum hér á undan gæti verið góð hugmynd að deila yfirlitinu með öðrum notendum í kerfinu. Ein af eftirfarandi aðferðum er notuð til að deila innfelldu forriti:
 
-- **Birta yfirlitið (ráðlagt):** Ef innfellda forritið hefur verið vistað í yfirlit, er ráðlagða og æskilega leiðin til að deila því sú að birta yfirlitið þeim notendum sem eru með tilskilin öryggishlutverk. Það tryggir að allir notendur sem eru með öryggishlutverk sem birta yfirlitið beinist að komi til með að sjá forritið í Finance and Operations-forritum. Frekari upplýsingar um hvernig á að birta yfirlit er að finna í [Yfirlit birt](saved-views.md#publishing-views).
+- **Birta yfirlitið (ráðlagt):** Ef innfellda forritið hefur verið vistað í yfirlit, er ráðlagða og æskilega leiðin til að deila því sú að birta yfirlitið þeim notendum sem eru með tilskilin öryggishlutverk í lögaðilunum. Í þessu tilviki munu aðeins þeir notendur sem óskað er eftir sjá innfellt forrit á þeirri síðu. Frekari upplýsingar um hvernig á að birta yfirlit er að finna í [Yfirlit birt](saved-views.md#publishing-views).
 
-    Einnig er hægt að birta forrit sem hefur verið fellt inn sem heilsíðuupplifun úr stjórnborðinu. Á stjórnborðinu skal velja og halda niðri (eða hægrismella) reitnum sem tengist forritinu, velja **Sérstilla** og síðan velja **Birta síðu**. Sem stendur er aðeins hægt að birta öryggishlutverkum. Hins vegar verður bætt við möguleikanum á að birta lögaðilum áður en eiginleikinn verður almennt í boði.
+    Einnig er hægt að birta forrit sem hefur verið fellt inn sem heilsíðuupplifun úr stjórnborðinu. Á stjórnborðinu skal velja og halda niðri (eða hægrismella) reitnum sem tengist forritinu, velja **Sérstilla** og síðan velja **Birta síðu**. Upplifun sem líkist *Birtingu yfirlita* er sýnd og þú getur valið öryggishlutverkin til að birta í. Í uppfærslu 10.0.21 eða nýrri, ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit**, getur þú einnig gefið forritið út í þeim lögaðilum sem þú vilt.
 
 - **Afrita sérstillinguna:** Fyrir síður sem styðja ekki yfirlit (t.d. svargluggar eða vinnusvæði), eða fyrir upplifun heilsíðuforrits, er hægt að afrita sérstillinguna til viðeigandi notenda. Frekari upplýsingar eru í [Sérstillingar samnýttar](personalize-user-experience.md#sharing-personalizations).
 

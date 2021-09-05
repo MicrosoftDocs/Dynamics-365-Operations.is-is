@@ -2,26 +2,19 @@
 title: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
 description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál með tvískrifunareiningunni í forritum Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720737"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380141"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
 
@@ -46,7 +39,6 @@ Ef þú getur ekki opnað síðuna **Tvöfalt skrif** með því að velja reiti
 
 *Kóði svörunarstöðu bendir ekki til árangurs: 401 (Óheimilt)*
 
-
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Villa þegar þú opnar tvískipt notendaviðmót
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að komast í tvískipt skrif úr vinnusvæðinu **Gagnastjórnun**:
@@ -61,7 +53,11 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 Þú gætir lent í eftirfarandi villu þegar þú tengir eða býrð til kort:
 
-*Stöðukóði svars gefur ekki til kynna að hafi tekist: 403 (tokenexchange).<br> Lotukenni: \<your session id\><br> Kenni rótarvirkni: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Dataverse-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Sérhver notandi með hlutverk kerfisstjóra í bæði Finance and Operations-forritum og Dataverse getur tengt umhverfin. Eingöngu notandinn sem setti upp tengingu tvöfaldrar skráningar getur bætt við nýjum töfluvörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
 
@@ -75,16 +71,29 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu netsporið svo að gagnasamstillingarteymið geti merkt kortin sem **Ekki í gangi** í bakvinnslunni.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>Villa við að reyna að hefja töfluvörpun
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>Villur við að reyna að hefja töfluvörpun
 
-Þú gætir fengið villu eins og eftirfarandi þegar þú reynir að stilla þessa stöðu vörpunar á **Í gangi**:
+### <a name="unable-to-complete-initial-data-sync"></a>Ekki er hægt að ljúka upphaflegri gagnasamstillingu
+
+Þú gætir fengið villu eins og eftirfarandi þegar þú reynir að keyra upphaflega gagnasamstillingu:
 
 *Ekki tókst að ljúka upphaflegir samstillingu gagna. Villa: tvískipt skrif tókust ekki - skráning viðbótar mistókst: Get ekki búið til lýsigögn fyrir uppflettingu tvískiptra skrifa. Tilvísun í villuhlut ekki stillt á tilvik hlutar.*
 
-Lagfæringin á þessari villu fer eftir orsök villunnar:
+Þegar þú reynir að stilla stöðu vörpunar á **Í gangi** gætir þú fengið þessa villu. Lagfæringin fer eftir orsök villunnar:
 
 + Ef vörpunin er með háðar varpanir skaltu ganga úr skugga um að virkja háðar varpanir fyrir þessa töfluvörpun.
 + Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef það vantar dálk í Finance and Operations-forritið skaltu fylgja eftirfarandi skrefum í hlutanum [Vandamál vegna töfludálka sem vantar í varpanir](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Villa vegna misræmis í útgáfu og lausnir tvöfaldrar skráningar uppfærðar
+
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra töfluvörpunina:
+
++ *Viðskiptavinaflokkar (msdyn_customergroups) : Tvöföld skrif tókust ekki - Dynamics 365 for Sales lausn „Dynamics365Company“ er með misræmi í útgáfu. Útgáfa „2.0.2.10“ Áskilin útgáfa: „2.0.133“*
++ *Dynamics 365 for Sales lausn „Dynamics365FinanceExtended“ er með misræmi í útgáfu. Útgáfa: „1.0.0.0“ Áskilin útgáfa: „2.0.227“*
++ *Dynamics 365 for Sales lausn „Dynamics365FinanceAndOperationsCommon“ er með misræmi í útgáfu. Útgáfa: „1.0.0.0“ Áskilin útgáfa: „2.0.133“*
++ *Dynamics 365 for Sales lausn „CurrencyExchangeRates“ er með misræmi í útgáfu. Útgáfa: „1.0.0.0“ Áskilin útgáfa: „2.0.133“*
++ *Dynamics 365 for Sales lausn „Dynamics365SupplyChainExtended“ er með misræmi í útgáfu. Útgáfa: „1.0.0.0“ Áskilin útgáfa: „2.0.227“*
+
+Til að laga vandamálið skal uppfæra lausnir tvöföldrar skráningar í Dataverse. Gakktu úr skugga um að uppfæra í nýjustu lausnina sem passar við nauðsynlega útgáfu af lausn.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

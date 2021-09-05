@@ -1,6 +1,6 @@
 ---
 title: Greiðsluyfirlit lánardrottins
-description: Þessi leiðarvísir fyrir verk fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu.
+description: Þetta ferli fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu.
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721828"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394439"
 ---
 # <a name="vendor-payment-overview"></a>Greiðsluyfirlit lánardrottins
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi leiðarvísir fyrir verk fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
+Þetta ferli fer í gegnum ýmsar aðferðir sem eru notuð til að stofna greiðslur lánardrottna, þar á meðal hvernig á að nota greiðslutillögu eða færa handvirkt inn eingreiðslu. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptaskuldir > Greiðslur > Greiðslubók**.
 2. Smellt er á **Nýtt**.
 3. Veljið greiðslubók þar sem á að vista greiðslur lánardrottna. 
 4. Veljið færslubók eða færa það handvirkt inn.
 5. Smellið á **Línur**.
-6. Í **aðgerðaglugganum** smellirðu á **Greiðslutillaga**.
+6. Á **Aðgerðasvæðinu** skal smella á **Greiðslutillaga**.
 7. Smelltu á **Stofna greiðslutillögu**. Greiðslutillaga er fyrirspurn notuð til að velja reikninga til greiðslu. Hægt er að breyta lista yfir reikninga til greiðslu áður en þú stofnar eða myndar greiðslur lánardrottins.
 8. Velja reikninga til greiðslu samkvæmt gjalddaga, staðgreiðsluafslátt, eða bæði. 
 9. Færið inn dagsetningu til að bera saman við gjalddaga eða staðgreiðsluafslátt. 

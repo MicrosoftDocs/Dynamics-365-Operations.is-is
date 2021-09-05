@@ -2,7 +2,7 @@
 title: Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að skilgreina gagnaveitur uppflettingar í rafrænum skýrslugerðarsniðum til að forritstengdar færibreytur rafrænnar skýrslugerðar.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723190"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343430"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð 
 
@@ -69,7 +69,7 @@ Hægt er að setja upp reglur uppflettingar fyrir valið snið rafrænnar skýrs
 Eftirfarandi skýringarmynd sýnir hvernig hægt er að skilgreina `Model.Data.Summary.LevelByLookup` gagnaveitu af gerðinni **Reiknaður reitur** til að kalla á skilgreinda gagnaveitu **Uppflettingar** sem gefur upp nauðsynlegar færibreytur. Til að vinna úr þessu kalli á keyrslutíma fer rafræn skýrslugerð í gegnum listann yfir skilgreindar reglur í skilgreindri röð til að hafa upp á fyrstu reglunni sem uppfyllir uppgefin skilyrði. Í þessu dæmi er það reglan sem inniheldur skattkóðann sem samsvarar þeirri sem gefin er upp. Þar af leiðandi finnst hentugasta reglan og tölusetningargildinu sem er skilgreint fyrir fundnu regluna er skilað af þessari gagnaveitu.
 
 > [!NOTE]
-> Undantekning á sér stað þegar engin viðeigandi regla finnst. Til að koma í veg fyrir þessar undanþágur skal skilgreina frekari reglur neðst í reglulistanum til að sjá um tilfelli þegar óskilgreint gildi eða ekkert gildi er gefið upp. Notið valkostina **\*Ekki autt\*** og **\*Autt\***.  
+> Undantekning á sér stað þegar engin viðeigandi regla finnst. Til að koma í veg fyrir þessar undanþágur skal skilgreina frekari reglur neðst í reglulistanum til að sjá um tilfelli þegar óskilgreint gildi eða ekkert gildi er gefið upp. Notið valkostina **\*Ekki autt**\* og **\*Autt**\*.  
 >
 > ![Bæta við gagnaveitu til að kalla á skilgreinda gagnaveitu uppflettingar.](./media/er-lookup-data-sources-img7.png)
 

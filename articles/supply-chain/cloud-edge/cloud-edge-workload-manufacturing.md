@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721464"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345300"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
 
@@ -44,7 +44,7 @@ ms.locfileid: "6721464"
 
 Eins og eftirfarandi skýringarmynd sýnir er stuðningstíma framleiðslu skipt í þrjá áfanga: *Áætlun*, *Keyrslu* og *Lok*.
 
-[![Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað](media/mes-phases.png „Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað.“](media/mes-phases-large.png)
+[![Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað](media/mes-phases.png "Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað.")](media/mes-phases-large.png)
 
 Áfanginn _Áætlun_ felur í sér skilgreiningu afurðar, áætlanagerð, stofnun og áætlun afurðar og losun. Útgáfuskrefið tilgreinir skiptin úr áfanganum _Áætlun_ yfir í áfangann _Keyrsla_. Þegar framleiðslupöntun er losuð verða verk framleiðslupöntunar sýnileg á framleiðslugólfinu og tilbúnar til framkvæmdar.
 
@@ -54,7 +54,7 @@ Eins og eftirfarandi skýringarmynd sýnir er stuðningstíma framleiðslu skipt
 
 Eins og sýnt er á eftirfarandi skýringarmynd, þegar notast er við kvörðunareiningar, er áfanganum _Keyrsla_ skipt niður sem aðskilið vinnuálag.
 
-[![Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar](media/mes-phases-workloads.png „Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar.“](media/mes-phases-workloads-large.png)
+[![Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar](media/mes-phases-workloads.png "Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar.")](media/mes-phases-workloads-large.png)
 
 Líkanið færist nú frá stakri uppsetningu yfir í líkan sem er byggt á miðstöðinni og kvörðunareiningunum. Áfangarnir _Áætlun_ og _Lok_ keyra sem aðgerðir bakvinnslu á miðstöðinni og vinnuálag framkvæmdar framleiðslu er keyrð á kvörðunareiningunum. Gögn eru flutt á ósamstilltan hátt á milli miðstöðvarinnar og kvörðunareininganna.
 

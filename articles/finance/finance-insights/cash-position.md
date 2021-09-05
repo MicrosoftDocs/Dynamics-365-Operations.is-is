@@ -1,5 +1,5 @@
 ---
-title: Reiðufjárstaða (forskoðun)
+title: Staða reiðufjár
 description: Þetta efnisatriði lýsir því hvernig eiginleikinn fyrir sjóðstreymisspá spáir fyrir um reiðufjárstöðu fyrirtækis á tilteknum tímum. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 457dd34a2ccddce0e94f956ba2b854c27a270f13341047e508ac702aa1281d25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717474"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386315"
 ---
-# <a name="cash-position-preview"></a>Reiðufjárstaða (forskoðun)
+# <a name="cash-position"></a>Staða reiðufjár
 
 [!include [banner](../includes/banner.md)]
 

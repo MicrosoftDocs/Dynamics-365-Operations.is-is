@@ -2,7 +2,7 @@
 title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719302"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344375"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -169,7 +169,7 @@ Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar forritið
 Einn ákveðinn sérstillingarmöguleiki sem er í boði í yfirlitinu er möguleikinn á því að bæta við reitum. 
 
 - Ef slökkt er á eiginleikanum **Heilsíðuforrit** er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við vinnusvæði**. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Einnig er hægt að bæta listum, reitum og tenglum við vinnusvæðið, eins og lýst er í hlutanum [Bæta reitum, listum og tenglum við vinnusvæði](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) í þessu efnisatriði.
-- Ef kveikt er á eiginleikanum **Heilsíðuforrit**, er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við forriti**. Í svarglugganum skal velja hvort bæta eigi reiti við nýtt vinnusvæði eða reiti sem er með efni frá Power Apps eða vefsvæði. Fylgið því næst skrefunum til að skilgreina valkostina sem voru valdir. Nýr reitur er búinn til neðst í yfirlitinu. 
+- Ef kveikt er á eiginleikanum **Heilsíðuforrit**, er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við forriti**. Í svarglugganum skal velja hvort bæta eigi reiti við nýtt vinnusvæði eða reiti sem er með efni frá Power Apps eða vefsvæði. Fylgið því næst skrefunum til að skilgreina valkostina sem voru valdir. Nýr reitur er búinn til neðst í yfirlitinu. Frekari upplýsingar um hvernig á að bæta við, breyta, eyða og deila þessum innfelldu forritum er að finna í [Innfelld vinnuforrit frá Power Apps](embed-power-apps.md) og [Innfella forrit þriðja aðila](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Sérstillingar samnýttar
 

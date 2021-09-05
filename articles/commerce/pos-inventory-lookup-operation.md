@@ -2,7 +2,7 @@
 title: Birgðaleit á sölustað
 description: Í þessu efnisatriði er því lýst hvernig á að nota aðgerð birgðauppflettingar í Dynamics 365 Commerce sölustað til að skoða stöðu lagerbirgða á afurðum í verslunum og vöruhúsum.
 author: boycezhu
-ms.date: 05/11/2021
+ms.date: 08/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: b697583f2ebf9950ad805d4f415dafb2c891de8052d4a47563b048059475030f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745333"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343837"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Birgðaleit á sölustað
 
@@ -52,13 +52,15 @@ Listayfirlit yfir staðsetningar inniheldur allar verslanir og vöruhús sem eru
 
 Eftirfarandi aðgerðir eru í boði á forritastiku sölustaðar:
 
-- **Raða** – Þessi aðgerð gerir notanda sölustaðar kleift að raða gögnum í listayfirlitinu út frá ýmsum skilyrðum. Röðun eftir staðsetningu er sjálfgefinn valkostur röðunar. 
-  - **Landfræðileg staðsetning** (frá næstu staðsetningu til þeirrar fjarlægustu, miðað við núverandi verslun)
-  - **Heiti** (í hækkandi eða lækkandi röð)
-  - **Verslunarnúmer** (í hækkandi eða lækkandi röð)
-  - **Birgðir** (í lækkandi röð)
-  - **Frátekið** (í lækkandi röð)
-  - **Pantað** (í lækkandi röð)
+- **Raða** – Þessi aðgerð gerir notanda sölustaðar kleift að raða gögnum í listayfirlitinu út frá ýmsum skilyrðum. Röðun eftir staðsetningu er sjálfgefinn valkostur röðunar.
+
+    - **Landfræðileg staðsetning** (frá næstu staðsetningu til þeirrar fjarlægustu, miðað við fjarlægð núverandi verslunar)
+    - **Heiti** (í hækkandi eða lækkandi röð)
+    - **Verslunarnúmer** (í hækkandi eða lækkandi röð)
+    - **Birgðir** (í lækkandi röð)
+    - **Frátekið** (í lækkandi röð)
+    - **Pantað** (í lækkandi röð)
+
 - **Sía** - Þessi aðgerð gerir notanda sölustaðar kleift að skoða síuð gögn fyrir tiltekna staðsetningu.
 - **Sýna framboð verslunar** - Þessi aðgerð gerir notanda sölustaðar kleift að skoða magn sem má lofa (ATP) fyrir afurð í valdri verslun.
 - **Sýna staðsetningu verslunar** - Þessi aðgerð opnar aðskilda síðu til að sýna kortayfirlit, aðsetur og opnunartíma verslunar fyrir valda verslun.
@@ -68,9 +70,8 @@ Eftirfarandi aðgerðir eru í boði á forritastiku sölustaðar:
 - **Bæta við færslu** - Þessi aðgerð bætir afurðinni við körfuna og vísar notandanum á færsluskjáinn.
 
 > [!NOTE]
-> Fyrir röðun eftir staðsetningu er fjarlægð milli staðsetningar og núverandi verslunar ákvörðuð út frá hnitum (lengdar- og breiddargráðu) sem skilgreind eru í Commerce Headquarters. Fyrir verslun eru staðsetningarupplýsingar skilgreindar í aðalaðsetri rekstrareiningarinnar sem tengist versluninni. Fyrir vöruhús án verslunar eru staðsetningarupplýsingarnar skilgreindar í aðsetri vöruhúss. Ef núverandi verslun er ekki með hnit skilgreind mun valkostur röðunar eftir staðsetningu sýna núverandi verslun efst í listanum og síðan raða öðrum staðsetningum eftir heiti.
-
-> [!NOTE]
+> Röðun eftir staðsetningu sem var kynnt í útgáfu 10.0.17 af Commerce sýnir núverandi verslun efst. Fyrir aðrar staðsetningar er fjarlægð milli staðsetningar og núverandi verslunar ákvörðuð út frá hnitum (lengdar- og breiddargráðu) sem skilgreind eru í Commerce Headquarters. Fyrir verslun eru staðsetningarupplýsingar skilgreindar í aðalaðsetri rekstrareiningarinnar sem tengist versluninni. Fyrir vöruhús án verslunar eru staðsetningarupplýsingarnar skilgreindar í aðsetri vöruhúss. Fyrir útgáfu 10.0.17 sýnir listayfirlitið alltaf núverandi verslun efst og raðar öðrum staðsetningum í stafrófsröð.
+>
 > Aðgerðirnar **Sýna framboð verslunar**, **Sýna staðsetningu verslunar**, **Sækja í verslun** og **Senda afurð** eru ekki í boði fyrir staðsetningar án verslunar.
 
 ## <a name="inventory-lookup-matrix-view-for-variants"></a>Fylkisyfirlit birgðauppflettingar fyrir afbrigði
@@ -124,7 +125,5 @@ Hægt er að stilla aðgerð birgðauppflettingar þannig að hún birtist sem t
 [Sjónrænar skilgreiningar fyrir notandaviðmót sölustaðar](pos-screen-layouts.md)
 
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

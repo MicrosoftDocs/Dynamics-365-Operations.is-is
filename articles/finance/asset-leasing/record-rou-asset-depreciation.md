@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778363"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345371"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Skrá afskriftir afnotaréttar af eign (forskoðun)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaréttur af eign afskrifuð mánaðarlega. Þetta efnisatriði útskýrir hvernig á að stofna bókarfærsluna fyrir afskriftir. Afskrift debetfærir fjárhagslykil kostnaðar og kreditfærir uppsafnaða afskrift fjárhagslykils, byggt á uppsetningu bókunarreglu og gerðar leigusamnings. Hægt er að stofna þessar færslur fyrir hvern leigusamning, en einnig er hægt að stofna þær fyrir marga leigusamninga með því að nota runubókarvirkni.
 
@@ -36,6 +38,9 @@ Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaré
 
 2. Veljið afskriftartímabil og síðan **Stofna færslubók**. Þú færð skilaboð sem segir til um að færslubókin sem verður notuð til að skrá afskriftir hafi verið stofnuð.
 3. Veljið **Færslubækur \> Eignarleigufærslubækur** til að opna **Eignaleigufærslubók** , þar sem hægt er að skoða færslubókarfærsluna fyrir afskriftakostnað sem var stofnaður.
+
+   Kerfið læsir tilteknum fjármálareitum frá því að vera breytt til að koma í veg fyrir frávik á milli færslanna og áætlana. Sumir reitir sem eru læstir eru m.a.: **Lykill**, **Upphæðir**, **Fjárhagsvíddir**, **Gjaldmiðill** og **Færslugerð**. Auk þess getur þú ekki bætt við eða eytt færslulínum færslubókar í neinum færslum eignarleigubókar því það gæti valdið frávikum á milli áætlana og færslnanna.
+
 4. Veljið bókarfærsluna og síðan **Bóka** til að skrá afskriftafærsluna í fjárhag.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Útreikningur á kostnaði við afskriftir eigna fyrir rekstrarleigusamninga

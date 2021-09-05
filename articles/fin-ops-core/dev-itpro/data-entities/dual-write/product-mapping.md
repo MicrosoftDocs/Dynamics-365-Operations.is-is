@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423448"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -81,9 +81,9 @@ Finance and Operations-smáforrit | Önnur Dynamics 365 forrit | lýsing
 
 ![Gagnamódel fyrir afurðir.](media/dual-write-product.png)
 
-Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrsta verðlistann með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögatöflunnar þinnar þar sem varan er gefin út í forriti Finance and Operations. Ef engin verðlisti er til staðar fyrir tiltekinn gjaldmiðil verður verðlisti sjálfkrafa búinn til og afurðinni verður úthlutað á hann.
+Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrsta verðlistann með sama gjaldmiðil og er notaður í forriti viðskiptavinar og raðar heiti verðlista eftir stafrófsröð. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögatöflunnar þinnar þar sem varan er gefin út í forriti Finance and Operations. Ef engin verðlisti er til staðar fyrir tiltekinn gjaldmiðil verður verðlisti sjálfkrafa búinn til og afurðinni verður úthlutað á hann.
 
-Núverandi innleiðing á viðbótum tvöfaldrar skráningar sem tengir sjálfgefinn verðlista við uppflettieininguna fyrir gjaldmiðilinn sem tengist Finance and Operations-forritinu og finnur fyrsta verðlistann í forriti viðskiptavinar með því að nota stafrófsröð á heiti verðlistans. Til að stilla sjálfgefinn verðlista fyrir tiltekinn gjaldmiðil þegar margir verðlistar eru til fyrir þann gjaldmiðil þarf að uppfæra heiti verðlistans í heiti sem kemur á undan öllum öðrum verðlistum í stafrófsröð fyrir þennan sama gjaldmiðil.
+Núverandi innleiðing á viðbótum tvöfaldrar skráningar sem tengir sjálfgefinn verðlista við uppflettieininguna fyrir gjaldmiðilinn sem tengist Finance and Operations-forritinu og finnur fyrsta verðlistann í forriti viðskiptavinar með því að nota stafrófsröð á heiti verðlistans. Til að stilla sjálfgefinn verðlista fyrir tiltekinn gjaldmiðil þegar margir verðlistar eru til fyrir þann gjaldmiðil þarf að uppfæra heiti verðlistans í heiti sem kemur á undan öllum öðrum verðlistum í stafrófsröð fyrir þennan sama gjaldmiðil. Ef hún er ekki með neinn verðlista fyrir tiltekinn gjaldmiðil er nýr búinn til.
 
 Sjálfgefið er að vörur úr forritum Finance and Operations eru samstilltar við önnur Dynamics 365 forrit með stöðuna **Drög**. Til að samstilla vöruna við stöðuna **Virkt**, svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**.
 

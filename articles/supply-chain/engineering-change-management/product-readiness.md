@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723552"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415322"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð. Ef til er opin undirbúningsathugun fyrir afurð, verður ekki hægt að losa afurðina eða nota hana í færslum.
+Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð. Ef til er opin undirbúningsathugun fyrir afurð verður ekki hægt að nota afurðina í færslum.
 
-Gátreiturinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu er aðeins í boði þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Á þeim tímapunkti er hægt að losa afurðina, útgáfuna eða afbrigðið í annað fyrirtæki og nota í færslum. Hægt er að búa til undirbúningsathuganir fyrir nýjar afurðir, ný afbrigði og nýjar hönnunarútgáfur.
+Gátreiturinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu er aðeins í boði þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Á þeim tímapunkti er hægt að nota afurðina, útgáfuna eða afbrigðið í færslum. Hægt er að búa til undirbúningsathuganir fyrir nýjar afurðir, ný afbrigði og nýjar hönnunarútgáfur.
 
 Einnig er hægt að beita undirbúningsathugunum á hefðbundnar (ekki hönnunarvörur) vörur. Nánari upplýsingar er að finna í hlutanum [Undirbúningsathuganir á hefðbundnum vörum](#standard-products) síðar í þessu efnisatriði.
 

@@ -2,7 +2,7 @@
 title: Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 description: Í þessu efnisatriði eru gefnar upplýsingar um útgáfuferlið og útgáfusöguna fyrir fínstilling áætlanagerðar.
 author: crytt
-ms.date: 7/28/2021
+ms.date: 8/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 64c8cd3ed6ff522a9ef90831ae502c5d50fbc05816aaa764d2a8e122934fc2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcd18341629afcf3092a457ae711e27b0bbfeb2a
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722392"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394415"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 
@@ -33,7 +33,8 @@ Umhverfi sem nota fínstillingu áætlanagerðar sjálfkrafa fá nýjustu útgá
 
 | Breytingar | Eiginleikastjórnunarupplýsingar | Útgáfudagur |
 |---|---|---|
-| <p>Kröfur um tilfangagerð fyrir áætlanagerð ótakmarkaðrar afkastagetu</p><p>Skilvirkni tilfanga og skilvirkni dagatals fyrir áætlanagerð ótakmarkaðrar afkastagetu</p><p>Frekari upplýsingar er að finna í [Röðun með ótakmarkaða getu](infinite-capacity-planning.md). | <p>Í boði í eiginleikastjórnun frá og með útgáfu 10.0.20.</p><p>Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*</p> | 6. júlí 2021 |
-| Almennar gæðabætingar | Engin eiginleikastjórnun er nauðsynleg. | 6. júlí 2021 |
+| <p>Reitnum **Afhendingartími** var bætt við áætlaðar pantanir.</p><p>Almenn afköst, gæði og betri stöðugleiki.</p> | Engin eiginleikastjórnun er nauðsynleg. | 16. ágúst 2021 |
+| <p>Bættar kröfur um tilfangagerð fyrir áætlanagerð ótakmarkaðrar afkastagetu.</p><p>Bætt skilvirkni tilfanga og skilvirkni dagatals fyrir áætlanagerð ótakmarkaðrar afkastagetu.</p><p>Frekari upplýsingar er að finna í [Röðun með ótakmarkaða getu](infinite-capacity-planning.md). | <p>Í boði í eiginleikastjórnun frá og með útgáfu 10.0.20.</p><p>Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*</p> | 6. júlí 2021 |
+| Almennar gæðabætingar. | Engin eiginleikastjórnun er nauðsynleg. | 6. júlí 2021 |
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

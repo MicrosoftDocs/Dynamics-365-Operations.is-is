@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782348"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384612"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -150,7 +150,7 @@ Hægt er að flytja inn tengingarstillingar annaðhvort úr skrá eða QR-kóða
 | ConnectionName | Tilgreindu heiti tengistillinga. Hámarkslengd er 20 stafir. Vegna þess að þetta gildi er einkvæmt kennimerki fyrir tengistillingu skal ganga úr skugga um að það sé einkvæmt á listanum. Ef tenging sem er með sama heiti er þegar til í tækinu verður henni hnekkt af stillingunum úr innfluttu skránni. |
 | ActiveDirectoryClientAppId | Tilgreinið auðkenni biðlarans sem skráð var þegar verið var að setja upp Azure AD í hlutanum [Stofna vefþjónustuforrit í Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Tilgreina rótarvefslóð fyrir Supply Chain Management. |
-| ActiveDirectoryTenant | Tilgreinið Azure AD leigjanda sem á að nota með net fyrir Supply Chain Management. Gildið er á sniðinu `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Eftirfarandi er dæmi: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Tilgreindu Azure AD lénsheiti sem á að nota með netþjón Supply Chain Management. Gildið er á sniðinu `https://login.windows.net/<your-Azure-AD-domain-name>`. Eftirfarandi er dæmi: `https://login.windows.net/contosooperations.onmicrosoft.com`. Frekari upplýsingar um hvernig á að finna Azure AD lénsheitið þitt eru í [Finna mikilvæg auðkenni fyrir notanda](/partner-center/find-ids-and-domain-names). |
 | Fyrirt.   | Tilgreinið lögaðilann í Supply Chain Management sem forritið á að tengjast við. |
 | ConnectionType | (Valfrjálst) Tilgreinið hvort tengistillingin eigi að nota vottorð eða leyniorð biðlara til að tengjast umhverfi. Gild gildi eru *"certificate"* og *"clientsecret"*. Sjálfgefið gildi er *"certificate"*.<p>**Athugið:** ekki er hægt að flytja inn leyniorð biðlara.</p> |
 | IsEditable | (Valfrjálst) Tilgreinið hvort forritsnotandinn eigi að geta breytt tengistillingunni. Gild gildi eru *„rétt“* og *„rangt“*. Sjálfgefið gildi er *„rétt“*. |
@@ -268,7 +268,7 @@ Ef hvorki skrá né QR-kóði er til staðar er hægt að skilgreina forritið h
         > [!IMPORTANT]
         > Ekki enda þetta gildi á skástriki (/).
 
-    - **Active Directory leigjanda** – Færið inn þann Azure AD leigjanda sem á að nota með netþjóni Supply Chain Management. Gildið er á sniðinu `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Eftirfarandi er dæmi: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Active Directory leigjandi** – Færðu inn Azure AD lénsheitið sem á að nota með netþjóni Supply Chain Management. Gildið er á sniðinu `https://login.windows.net/<your-Azure-AD-domain-name>`. Eftirfarandi er dæmi: `https://login.windows.net/contosooperations.onmicrosoft.com`. Frekari upplýsingar um hvernig á að finna Azure AD lénsheitið þitt eru í [Finna mikilvæg auðkenni fyrir notanda](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > Ekki enda þetta gildi á skástriki (/).

@@ -1,8 +1,8 @@
 ---
 title: Yfirlit áætlunargerðar
-description: Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423345"
 ---
 # <a name="plan-type-overview"></a>Yfirlit áætlunargerðar
 
@@ -32,10 +32,10 @@ Hver áætlunartegund gefur til kynna hvort starfsmaður geti skráð sig í ein
 
 Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort tengiliðir séu styrkþegar eða á framfæri. Til dæmis, grunnlífsáætlunartegund myndi hafa rétthafa, en grunnlæknisfræðileg áætlunartæki væru á framfæri. Í sumum tilvikum er ekki víst að nein persónuleg tengsl séu í áætlun. Til dæmis sveigjanlegur útgjaldareikningur eða bílastæðagreiðsla.
 
-Áætlunartegundir geta skilgreint valkosti umfjöllunar. Valkostir umfjöllunar eru skilgreindir í formi umfjöllunarvalkostar. Með umfjöllunarvalkosti er hægt að tilgreina fjárhæð bóta eða þá tengiliði sem eiga kost á áætlunartegundinni. Til dæmis, ef samskiptategundin er bótaþegi, ætti umfjöllunarvalkosturinn að skilgreina skilmála þess sem styrkþeginn er hæfur til að fá þegar fríðindin eru nýtt. Ef tengiliðategundin er háð, ætti umfjöllunarvalkosturinn að skilgreina samband milli háðs og starfsmanns. 
+Áætlunartegundir geta skilgreint valkosti umfjöllunar. Valkostir tryggingar eru skilgreindir á síðunni **Tryggingarvalkostir**. Með umfjöllunarvalkosti er hægt að tilgreina fjárhæð bóta eða þá tengiliði sem eiga kost á áætlunartegundinni. Til dæmis, ef samskiptategundin er bótaþegi, ætti umfjöllunarvalkosturinn að skilgreina skilmála þess sem styrkþeginn er hæfur til að fá þegar fríðindin eru nýtt. Ef tengiliðategundin er háð, ætti umfjöllunarvalkosturinn að skilgreina samband milli háðs og starfsmanns. 
 
 > [!IMPORTANT]
-> Eyðublaðið inniheldur helstu gögn sem hafa áhrif á valkosti sem eru tiltækir þegar nýtt fríðindaáætlun er búin til:
+> Síðan inniheldur helstu gögn sem hafa áhrif á valkosti sem eru tiltækir þegar nýtt fríðindaáætlun er búin til:
 >
 > - **Kóði áætlunargerðar** – Þessi reitur hefur áhrif á það sem er sýnt í flipanum **Skilgreining** þegar raunveruleg fríðindi eru sett upp.  
 > - **Samhliða skráning** – Þessi reitur ákvarðar hvort margar skráningar eru leyfðar. (Fyrir sjúkratryggingu er reiturinn yfirleitt stilltur á **Ein skráning**.)

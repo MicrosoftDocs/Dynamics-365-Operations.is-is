@@ -1,8 +1,8 @@
 ---
 title: Vinna úr fríðindahæfni
-description: Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782073"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417485"
 ---
 # <a name="process-enrollment-eligibility"></a>Vinna úr fríðindahæfni
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
+Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla hæfis fyrir innritun**.
 
@@ -49,15 +49,15 @@ ms.locfileid: "6782073"
 
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
-4. Veljið **Í lagi**.
+4. Veldu **Í lagi**.
 
 ## <a name="view-process-results"></a>Skoða niðurstöður vinnslu
 
-Þessi grein útskýrir hvernig á að skoða niðurstöður vinnslu.
+Þetta efnisatriði útskýrir hvernig á að skoða niðurstöður hæfnisferlis.
 
 1.  Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Niðurstöður vinnslu**.
 
-2.  Í forminu **Afgreiða niðurstöður** eru eftirfarandi reitir tilgreindir:
+2.  Á síðunni **Vinna úr niðurstöðum** eru eftirfarandi reitir tilgreindir:
 
    | Svæði | lýsing |
    | --- | --- |

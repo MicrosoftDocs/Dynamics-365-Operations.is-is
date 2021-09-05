@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763693"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388934"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Búa til og uppfæra reglu um skil og endurgreiðslur fyrir rás
 
@@ -42,15 +42,6 @@ Til að virkja skilareglu rásar í Commerce Headquarters skal fylgja þessum sk
 1. Leitaðu að eiginleikanum **Virkja skilareglur rása** á listanum yfir heiti eiginleika.
 1. Veldu **Virkja núna**.
 1. Á síðunni **Dreifingaráætlun** skal keyra vinnsluna **1110** (altæka skilgreiningu) til að dreifa eiginleikabreytingunni.
-
-## <a name="initialize-the-commerce-scheduler"></a>Frumstilla Commerce-verkraðara
-
-Þegar eiginleikinn **Virkja skilareglur rásar** hefur verið virkjaður þarf að frumstilla Commerce-verkraðara til að tryggja að nýjum breytingum á gagnagrunni eiginleiki verði bætt við í gegnum Commerce Data Exchange (CDX) samstillingu. 
-
-Til að frumstilla Commerce-verkraðara í Commerce Headquarters skal fylgja þessum skrefum.
-
-- Opnið **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Commerce-verkraðari \> Frumstilla Commerce-verkraðara**. Að öðrum kosti geturðu leitað að „Frumstilla Commerce-verkraðara.“
-- Í svarglugganum **Frumstilla Commerce-verkraðara** skal tryggja að valkosturinn **Eyða fyrirliggjandi stillingum** sé stilltur á **Nei** og veldu síðan **Í lagi**.
 
 ## <a name="configure-return-policy"></a>Stilla skilareglu
 

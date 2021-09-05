@@ -2,7 +2,7 @@
 title: Setja upp fjármálasamþættingu fyrir Commerce-rásir
 description: Þetta efnisatriði veitir leiðbeiningar um uppsetningu á virkni fjárhagssamþættingar fyrir Commerce-rásir.
 author: josaw
-ms.date: 02/01/2019
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,28 +14,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fb48eb93d8cf4f26174441de65c0b105c5e8774c2030e844ec7bd1352bff64b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38ad2cc3dc7e511ac6e2ac9484d10ebd2d1d425d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719897"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343314"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Setja upp fjármálasamþættingu fyrir Commerce-rásir
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Inngangur
-
 Þetta efnisatriði veitir leiðbeiningar um uppsetningu á virkni fjárhagssamþættingar fyrir Commerce-rásir. Nánari upplýsingar um fjárhagssamþættingu er að finna í [Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir](fiscal-integration-for-retail-channel.md).
 
 Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 
-1. Grunnstilla fjárhagstengla sem tákna fjárhagstæki eða þjónustu sem er notuð til fjárhagsskráningar, t.d. strimlaprentarar.
-2. Grunnstilla skjalaveitur sem mynda fjárhagsskjöl sem verða skráð í fjárhagstækjum eða þjónustu af fjárhagstenglum.
-3. Grunnstilla skráningarferli fjárhags sem skilgreinir röð fjárhagsskráningarskrefa og fjárhagstenglana og fjárhagsskjalaveiturnar sem eru notaðar í hverju skrefi.
-4. Úthluta skráningarferli fjárhags til POS-virknireglna.
-5. Úthluta tækniforstillingum tengils til vélbúnaðarsniðs.
+- Grunnstilla fjárhagstengla sem tákna fjárhagstæki eða þjónustu sem er notuð til fjárhagsskráningar, t.d. strimlaprentarar.
+- Grunnstilla skjalaveitur sem mynda fjárhagsskjöl sem verða skráð í fjárhagstækjum eða þjónustu af fjárhagstenglum.
+- Grunnstilla skráningarferli fjárhags sem skilgreinir röð fjárhagsskráningarskrefa og fjárhagstenglana og fjárhagsskjalaveiturnar sem eru notaðar í hverju skrefi.
+- Úthluta skráningarferli fjárhags til POS-virknireglna.
+- Úthluta tækniforstillingum tengils til vélbúnaðarsniðs.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Setja upp skráningarferli fjárhags
 
@@ -49,12 +47,12 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
         - Flokksnúmer fjárhagstengils
         - Númer skráningarferlis
 
-    2. Á síðunni **Færibreytur Commerce** skal skilgreina númeraröðina fyrir númer tækniforstillingar fjárhags.
+    1. Á síðunni **Færibreytur Commerce** skal skilgreina númeraröðina fyrir númer tækniforstillingar fjárhags.
 
     > [!NOTE]
     > Númeraraðir eru valfrjálsar. Hægt er að búa til númer fyrir allar samþættingar fjárhags annaðhvort með númeraröðum eða handvirkt.
 
-2. Hlaða upp grunnstillingum fyrir fjárhagstengla og fjárhagsskjalaveitur.
+1. Hlaða upp grunnstillingum fyrir fjárhagstengla og fjárhagsskjalaveitur.
 
     Fjárhagsskjalaveita ber ábyrgð á því að mynda fjárhagsskjöl sem tákna færslur og tilvik sem eru skráð í POS á sniði sem er einnig notað í samskiptum við fjárhagstæki eða þjónustu. Til dæmis gæti fjárhagsskjalaveita myndað framsetningu á fjárhagskvittun á XML-sniði.
 
@@ -65,22 +63,22 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
         > [!TIP]
         > Með því að velja **Skoða** er hægt að skoða allar virknir og tækniforstillingar sem tengjast núverandi fjárhagstengli.
 
-    2. Á síðunni **Fjárhagsskalaveitur** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Fjárhagsskjalaveitur**) skal hlaða upp XML-skilgreiningu fyrir hvert tæki eða þjónustu sem er áætlað að nota.
+    1. Á síðunni **Fjárhagsskalaveitur** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Fjárhagsskjalaveitur**) skal hlaða upp XML-skilgreiningu fyrir hvert tæki eða þjónustu sem er áætlað að nota.
 
         > [!TIP]
         > Með því að velja **Skoða** er hægt að skoða allar virkniforstillingar sem tengjast núverandi fjárhagsskjalaveitu.
 
-    Fyrir dæmi um grunnstillingar á fjárhagstenglum og fjárhagsskjalaveitum skal sjá [Dæmi um samþættingu fjárhags í Retail SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-retail-sdk).
+    Fyrir dæmi um grunnstillingar á fjárhagstenglum og fjárhagsskjalaveitum skal sjá [Dæmi um samþættingu fjárhags í Commerce SDK](fiscal-integration-for-retail-channel.md#fiscal-integration-samples-in-the-commerce-sdk).
 
     > [!NOTE]
     > Gagnavörpun er talin hluti af fjárhagsskjalaveitu. Til að setja upp mismunandi gagnavörpun fyrir sama tengilinn (til dæmis samkvæmt staðbundnum reglugerðum), ættir þú að búa til mismunandi fjárhagsskjalsveitur.
 
-3. Búðu til virkniforstillingar tengils og tækniforstillingar tengils.
+1. Búðu til virkniforstillingar tengils og tækniforstillingar tengils.
 
     1. Á síðunni **Virkniforstillingar tengils** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Virkniforstillingar tengils**) skal stofna virkniforstillingu tengils fyrir hverja samsetningu af fjárhagstengli og fjárhagsskjalsveitu sem tengist þessum fjárhagstengli.
 
         1. Veldu heiti tengils.
-        2. Veldu skjalsveitu.
+        1. Veldu skjalsveitu.
 
         Hægt er að breyta færibreytum gagnavörpunar í tækniforstillingu tengils. Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í grunnstillingu fjárhagsskjalsveitu skal velja **Uppfæra**.
 
@@ -95,39 +93,39 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
         > [!NOTE]
         > Virkniforstillingar tengils eru sértækar fyrirtæki. Ef ætlunin er að nota sömu samsetningu af fjárhagstengli og fjárhagsskjalsveitu í mismunandi fyrirtækjum ætti að stofna virkniforstillingu tengils fyrir hvert fyrirtæki fyrir sig.
 
-    2. Á síðunni **Tækniforstillingar tengils** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Tækniforstillingar tengils**) skal stofna tækniforstillingu tengils fyrir hvern fjárhagstengil fyrir sig.
+    1. Á síðunni **Tækniforstillingar tengils** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Tækniforstillingar tengils**) skal stofna tækniforstillingu tengils fyrir hvern fjárhagstengil fyrir sig.
 
         1. Veldu heiti tengils.
-        2. Veldu gerð tengils. Fyrir tæki sem eru tengd við vélbúnaðarstöð skal velja **Staðbundið**.
+        1. Veldu gerð tengils. Fyrir tæki sem eru tengd við vélbúnaðarstöð skal velja **Staðbundið**.
 
             > [!NOTE]
             > Einungis staðbundnir tenglar eru studdir enn sem komið er.
 
         Hægt er að breyta færibreytum í flipunum **Tæki** og **Stillingar** í tækniforstillingu tengils. Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í grunnstillingu fjárhagstengils skal velja **Uppfæra**. Á meðan verið er að hlaða nýrri útgáfu af XML-skilgreiningu færðu skilaboð um verið sé að nota núverandi fjárhagstengil eða fjárhagsskjal. Þetta ferli hnekkir ekki handvirkum breytingum sem voru gerðar áður í virkniforstillingum tengils og tækniforstillingum tengils. Til að setja á sjálfvirkt safn af færibreytum fyrir nýja grunnstillingu, á síðunni **Virkniforstillingar tengils** eða síðunni **Tækniforstillingar tengils**, skal velja **Uppfæra**.
 
-4. Búa til fjárhagstenglahópa.
+1. Búa til fjárhagstenglahópa.
 
     Fjárhagstenglahópur sameinar virkniforstillingar fjárhagstengla sem framkvæma eins aðgerðir og eru notaðar í sama skrefi í skráningarferli fjárhags. Til dæmis, ef hægt er að nota nokkrar gerðir af strimlaprenturum í verslun, er hægt að sameina fjárhagstengla fyrir þessa strimlaprentara í fjárhagstenglahópi.
 
     1. Á síðunni **Fjárhagstenglahópur** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Fjárhagstenglahópar**) skal stofna nýjan fjárhagstenglahóp.
-    2. Bæta virkniforstillingum við tenglahópinn. Í flipanum **Virkniforstillingar** skal velja **Bæta við** og velja forstillingarnúmer. Hver fjárhagstengill í tenglahópi getur aðeins haft eina virkniforstillingu.
-    3. Til að hætta notkun á virkniforstillingu skal stilla valkostinn **Slökkva** á **Já**. Þessi breyting hefur aðeins áhrif á núverandi tenglahóp. Þú getur haldið áfram að nota sömu virkniforstillingu í öðrum tenglahópum.
+    1. Bæta virkniforstillingum við tenglahópinn. Í flipanum **Virkniforstillingar** skal velja **Bæta við** og velja forstillingarnúmer. Hver fjárhagstengill í tenglahópi getur aðeins haft eina virkniforstillingu.
+    1. Til að hætta notkun á virkniforstillingu skal stilla valkostinn **Slökkva** á **Já**. Þessi breyting hefur aðeins áhrif á núverandi tenglahóp. Þú getur haldið áfram að nota sömu virkniforstillingu í öðrum tenglahópum.
 
-5. Búa til skráningarferli fjárhags.
+1. Búa til skráningarferli fjárhags.
 
     Skráningarferli fjárhags er skilgreint eftir röð skráningarskrefanna og tenglahópnum sem notaður er í hverju skrefi.
 
     1. Á síðunni **Skráningarferli fjárhags** (**Retail og Commerce \> Uppsetning rásar \> Skráningarferli fjárhags \> Skráningarferli fjárhags**) skal stofna nýja færslu fyrir hvert einkvæmt ferli fjárhagsskráningar.
-    2. Bæta við skráningarskrefum við ferlið:
+    1. Bæta við skráningarskrefum við ferlið:
 
         1. Veljið **Bæta við**.
-        2. Veldu gerð fjárhagstengils.
-        3. Í reitnum **Flokksnúmer** skal velja viðeigandi flokk fjárhagstengils.
+        1. Veldu gerð fjárhagstengils.
+        1. Í reitnum **Flokksnúmer** skal velja viðeigandi flokk fjárhagstengils.
 
-6. Úthluta einingum úr skráningarferli fjárhags til POS-virknireglur.
+1. Úthluta einingum úr skráningarferli fjárhags til POS-virknireglur.
 
     1. Á síðunni **POS-virknireglur** (**Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> POS-virknireglur \> Virknireglur**) skal úthluta skráningarferli fjárhags til POS-virknireglu. Veldu **Breyta** og síðan, í flipanum **Skráningarferli fjárhags**, í reitnum **Númer ferlis** skal velja ferli.
-    2. Á síðunni **Vélbúnaðarregla sölustaðar** (**Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> POS-virknireglur \> Vélbúnaðarreglur**) skal úthluta tækniforstillingum til vélbúnaðarreglu. Veldu **Breyta**, bættu við línu á flipann **Jaðarbúnaður fjárhags** og síðan, í reitnum **Númer forstillingar** skal velja tækniforstillingu tengils.
+    1. Á síðunni **Vélbúnaðarregla sölustaðar** (**Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> POS-virknireglur \> Vélbúnaðarreglur**) skal úthluta tækniforstillingum til vélbúnaðarreglu. Veldu **Breyta**, bættu við línu á flipann **Jaðarbúnaður fjárhags** og síðan, í reitnum **Númer forstillingar** skal velja tækniforstillingu tengils.
 
     > [!NOTE]
     > Þú getur bætt nokkrum tækniforstillingum við sömu vélbúnaðarforstillinguna. Hins vegar ætti vélbúnaðarforstilling eða POS-virkniregla aðeins að vera með eina skörun við einhvern tengilhóp fjárhags.
@@ -139,7 +137,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
     - Fjárhagsskjalaveitan notar stillingar gagnavörpunar frá grunnstillingu fjárhagsskjalaveitunnar til að umbreyta gögnum færslu/tilviks á borð við skatta og greiðslur á meðan fjárhagsskjal er myndað.
     - Þegar fjárhagsskjalaveitan myndar fjárhagsskjal getur fjárhagstengillinn annaðhvort sent það til fjárhagstækis eins og það er, eða þáttað það og umbreytt því í röð skipana í forritunarviðmóti (API) tækis, háð því hvernig samskiptum er háttað.
 
-7. Á síðunni **Skráningarferli fjárhags** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Skráningarferli fjárhags**) skal velja **Villuleita** til að villuleita skráningarferli fjárhags.
+1. Á síðunni **Skráningarferli fjárhags** (**Retail og Commerce \> Uppsetning rásar \> Samþætting fjárhags \> Skráningarferli fjárhags**) skal velja **Villuleita** til að villuleita skráningarferli fjárhags.
 
     Við mælum með að þú keyrir þessa tegund af villuleit í eftirfarandi tilvikum:
 
@@ -147,7 +145,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
     - Eftir að þú hefur gert breytingar á núverandi skráningarferli fjárhags og þessar breytingar gætu valdið því að annar fjárhagstengill sé valinn við keyrslu (til dæmis ef þú breytir tengilhópnum fyrir skref í skráningarferli fjárhags, virkjar virkniforstillingu tengils í tengilhóp eða bætir nýrri virkniforstillingu við tengilhóp).
     - Eftir að þú hefur gert breytingar á úthlutun á tækniforstillingum tengils til vélbúnaðarforstillinga.
 
-8. Á síðunni **Dreifingaráætlun** skal keyra verkin **1070** og **1090** til að flytja gögn til gagnagrunns rásarinnar.
+1. Á síðunni **Dreifingaráætlun** skal keyra verkin **1070** og **1090** til að flytja gögn til gagnagrunns rásarinnar.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Setja upp fjárhagstexta fyrir afslætti
 
@@ -156,11 +154,11 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 - Fyrir handvirka afslætti sem eru notaðir á sölustað ætti að stilla fjárhagstexta fyrir upplýsingakóðann eða flokk upplýsingakóða sem er tilgreindur sem upplýsingakóðinn **Afurðarafsláttur** í virknireglu sölustaðar.
 
     1. Á síðunni **Flokkur fjárhagstengils** skal velja **Texti fyrir fjárhagskvittun**.
-    2. Í flipanum **Upplýsingakóðar** skal velja **Bæta við** og velja upplýsingakóða eða flokk upplýsingakóða.
-    3. Í **Númer upplýsingakóða** skal velja gildi.
-    4. Í reitnum **Númer undirkóða** skal velja gildi ef krafist er undirkóða fyrir valinn upplýsingakóða.
-    5. Í reitnum **Texti fyrir fjárhagskvittun** skal tilgreina fjárhagstexta sem á að prenta á fjárhagskvittun.
-    6. Stilltu valkostinn **Prenta innslátt notanda á fjárhagskvittun** á **Já** til að hnekkja textanum á fjárhagskvittun með upplýsingum sem notandi slær inn handvirkt á sölustaðnum. Þessi valkostur gildir aðeins um upplýsingakóða sem eru með gerð innsláttar sem **Texti**.
+    1. Í flipanum **Upplýsingakóðar** skal velja **Bæta við** og velja upplýsingakóða eða flokk upplýsingakóða.
+    1. Í reitnum **Númer upplýsingakóða** skal velja gildi.
+    1. Í reitnum **Númer undirkóða** skal velja gildi ef krafist er undirkóða fyrir valinn upplýsingakóða.
+    1. Í reitnum **Texti fyrir fjárhagskvittun** skal tilgreina fjárhagstexta sem á að prenta á fjárhagskvittun.
+    1. Stilltu valkostinn **Prenta innslátt notanda á fjárhagskvittun** á **Já** til að hnekkja textanum á fjárhagskvittun með upplýsingum sem notandi slær inn handvirkt á sölustaðnum. Þessi valkostur gildir aðeins um upplýsingakóða sem eru með gerð innsláttar sem **Texti**.
 
     > [!NOTE]
     > Hægt er að tilgreina fjárhagstexta fyrir ýmsa upplýsingakóða til að styðja við aðstæður þar sem flokkar upplýsingakóða, tengdir upplýsingakóðar og ræstir upplýsingakóðar eru notaðir. Við þessar aðstæður mun fjárhagskvittunin innihalda fjárhagstexta fyrir alla upplýsingakóða sem eru tengdir við færslulínuna þar sem afslátturinn var notaður.
@@ -168,8 +166,8 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 - Fyrir afslætti sem miðast við rásir skal skilgreina fjárhagstexta fyrir afsláttarkennið.
 
     1. Á síðunni **Flokkur fjárhagstengils** skal velja **Texti fyrir fjárhagskvittun**.
-    2. Í flipanum **Afslættir** skal velja **Bæta við** og velja afsláttarkenni.
-    3. Í reitnum **Texti fyrir fjárhagskvittun** skal tilgreina fjárhagstexta sem á að prenta á fjárhagskvittun.
+    1. Í flipanum **Afslættir** skal velja **Bæta við** og velja afsláttarkenni.
+    1. Í reitnum **Texti fyrir fjárhagskvittun** skal tilgreina fjárhagstexta sem á að prenta á fjárhagskvittun.
 
     > [!NOTE]
     > Ef nokkrir afslættir eru notaðir fyrir sömu færslulínuna mun fjárhagskvittunin innihalda fjárhagstexta frá öllum afsláttum sem eru tengdir við þessa færslulínu.
@@ -187,8 +185,8 @@ Valkostir villumeðhöndlunar sem eru í boði í samþættingu fjárhags eru st
     > [!NOTE]
     > Ef færibreytan **Halda áfram á villu** er virkjuð eru færibreyturnar **Leyfa að sleppa** og **Leyfa að merkja sem skráð** sjálfkrafa gerðar óvirkar.
 
-2. Valkostirnir **Sleppa** og **Merkja sem skráð** í svarglugga villumeðhöndlunar krefjast heimildarinnar **Leyfa að sleppa skráningu eða merkja sem skráð**. Þar af leiðandi, á síðunni **Heimildaflokkar** (**Retail og Commerce \> Starfsmenn \> Heimildaflokkar**) skal virkja heimildina **Leyfa að sleppa skráningu eða merkja sem skráð**.
-3. Valkostirnir **Sleppa** og **Merkja sem skráð** leyfa notendum að slá inn viðbótarupplýsingar þegar fjárhagsskráningin mistekst. Til að bjóða upp á þessa virkni ættir þú að tilgreina upplýsingakóðana **Sleppa** og **Merkja sem skráð** í fjárhagstenglahóp. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
+1. Valkostirnir **Sleppa** og **Merkja sem skráð** í svarglugga villumeðhöndlunar krefjast heimildarinnar **Leyfa að sleppa skráningu eða merkja sem skráð**. Þar af leiðandi, á síðunni **Heimildaflokkar** (**Retail og Commerce \> Starfsmenn \> Heimildaflokkar**) skal virkja heimildina **Leyfa að sleppa skráningu eða merkja sem skráð**.
+1. Valkostirnir **Sleppa** og **Merkja sem skráð** leyfa notendum að slá inn viðbótarupplýsingar þegar fjárhagsskráningin mistekst. Til að bjóða upp á þessa virkni ættir þú að tilgreina upplýsingakóðana **Sleppa** og **Merkja sem skráð** í fjárhagstenglahóp. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
 
     > [!NOTE]
     > Virkniræsingin **Afurð** er ekki studd fyrir upplýsingakóðana sem eru notaðir fyrir **Sleppa** og **Merkja sem skráð** í fjárhagstenglaflokkum.
@@ -201,7 +199,7 @@ Valkostir villumeðhöndlunar sem eru í boði í samþættingu fjárhags eru st
     > - **Fjárhagsskjal** - Áskilið skjal sem ætti að skrá (t.d. fjárhagskvittun).
     > - **Skjal sem ekki er fjárhagsskjal** - Viðbótarskjal fyrir færsluna eða tilvikið (t.d. gjafakort).
 
-4. Ef notandinn verður að geta haldið áfram til að vinna úr fyrirliggjandi aðgerð (t.d. stofnun eða frágang á færslu) eftir að villa í ástandsskoðun kemur upp, ættir þú virkja heimildina **Leyfa að sleppa villu í ástandsskoðun** á síðunni **Heimildaflokkar** (**Retail og Commerce \> Starfsmenn \> Heimildaflokkar**). Frekari upplýsingar um ástandsskoðunarferli er að finna í [Ástandsskoðun fjárhagsskráningar](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+1. Ef notandinn verður að geta haldið áfram til að vinna úr fyrirliggjandi aðgerð (t.d. stofnun eða frágang á færslu) eftir að villa í ástandsskoðun kemur upp, ættir þú virkja heimildina **Leyfa að sleppa villu í ástandsskoðun** á síðunni **Heimildaflokkar** (**Retail og Commerce \> Starfsmenn \> Heimildaflokkar**). Frekari upplýsingar um ástandsskoðunarferli er að finna í [Ástandsskoðun fjárhagsskráningar](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
 
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Setja upp X/Z-skýrslur fjárhags úr POS
 
@@ -210,9 +208,9 @@ Til að gera kleift að keyra X/Z-skýrslur úr POS ættir þú að bæta nýjum
 - Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sölustaðaraðgerðum við POS-útlit með hnappahnitshönnuði](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
 
     1. Veldu útlitið til að uppfæra. 
-    2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag X**.
-    3. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag Z**.
-    4. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingar til gagnagrunns rásarinnar.
+    1. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag X**.
+    1. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag Z**.
+    1. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingar til gagnagrunns rásarinnar.
 
 ## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Virkja handvirka framkvæmd frestaðrar fjárhagsskráningu
 
@@ -221,8 +219,8 @@ Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þ�
 - Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sölustaðaraðgerðum við POS-útlit með hnappahnitshönnuði](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
 
     1. Veldu útlitið til að uppfæra.
-    2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Ljúka skráningarferli fjárhags**.
-    3. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.
+    1. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Ljúka skráningarferli fjárhags**.
+    1. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

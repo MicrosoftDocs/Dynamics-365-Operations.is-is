@@ -2,7 +2,7 @@
 title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
-ms.date: 08/02/2021
+ms.date: 08/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 517411512760374f1d1fd3b8ea3615563c47202c2e847569d00cb17a94657630
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
+ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012038"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7391209"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 
@@ -29,17 +29,18 @@ ms.locfileid: "7012038"
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Október 2021
 
 ## <a name="known-deployment-issue"></a>Þekkt vandamál við innleiðingu
+
 Við uppsetningu útgáfu 10.0.21 á IaaS gætir þú fengið eftirfarandi viðvörun vegna uppsetningar:
 
 **Viðvaranakóði:** 95017
 
-**Viðvörunarboð:** Forskrift [SetupDiagnostics] tókst ekki að keyra á móti sýndarvél
+**Viðvörunarboð:** Ekki tókst að keyra forskrift \[SetupDiagnostics\] á móti sýndarvél
 
-Uppsetningin mun virka þrátt fyrir viðvörunina, en eftirfarandi þekkt vandamál geta komið upp í Lifecycle Services (LCS):
+Uppsetningin mun virka þrátt fyrir viðvörunina. En eftirfarandi þekkt vandamál geta hinsvegar komið upp í Lifecycle Services (LCS):
 
--   Á síðunni **Eftirlit með umhverfi** mun tengillinn **Skoða ítarlegar upplýsingar um útgáfu** ekki birtast þannig að þú getur ekki séð tilteknar útgáfur af uppsettum einingum í umhverfinu þínu. Án þessara gagna gætu næstu bráðabætur mislukkast vegna þess að ferlið sem setur á bráðabæturnar notar þessi gögn til að staðfesta að skilyrði einingaútgáfunnar séu uppfyllt. Þar sem ekki er hægt að nota PEAP/forútgáfusmíð í framleiðslu eða nota bráðabætur, ættu áhrifin að vera minniháttar.
--   Fliparnir **Afkastavísar** og **Yfirlitsgreining** á síðunni **Eftirlit með umhverfi** undir SQL-innsýn munu ekki sýna nein gögn. Allir aðrir eiginleikar **eftirlits með umhverfi** munu virka sem skyldi.
--   Ekki verður hægt að fara á síðuna **Full kerfisgreining**. Tilheyrandi gögn um stöðu innheimtukeyrslna að næturlagi og vandamál sem reglur hennar finna munu ekki heldur koma fram.
+- Á síðunni **Eftirlit með umhverfi** mun tengillinn **Skoða ítarlegar upplýsingar um útgáfu** ekki birtast þannig að þú getur ekki séð tilteknar útgáfur af uppsettum einingum í umhverfinu þínu. Án þessara gagna gætu næstu bráðabætur mislukkast vegna þess að ferlið sem setur á bráðabæturnar notar þessi gögn til að staðfesta að skilyrði einingaútgáfunnar séu uppfyllt. Þar sem ekki er hægt að nota PEAP/forútgáfusmíð í framleiðslu eða nota bráðabætur, ættu áhrifin að vera minniháttar.
+- Fliparnir **Afkastavísar** og **Yfirlitsgreining** á síðunni **Eftirlit með umhverfi** undir SQL-innsýn munu ekki sýna nein gögn. Allir aðrir eiginleikar **eftirlits með umhverfi** munu virka sem skyldi.
+- Ekki verður hægt að fara á síðuna **Full kerfisgreining**. Tilheyrandi gögn um stöðu innheimtukeyrslna að næturlagi og vandamál sem reglur hennar finna munu ekki heldur koma fram.
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
@@ -52,10 +53,10 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Innbót fjárhags altæks birgðabókhalds fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Altækt birgðabókhald –heimasíða](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Bóka breytingar á lager með kóðum sem eru tengdir við mótlykla](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Ástæðukóðar fyrir birgðatalningu](../warehousing/reason-codes-for-counting-journals.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Regla um útflutning gagna sem sölutilboð vísar í](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Veldu hvort breytingar á gögnum sem tilboð vísa í munu valda því að þessi tilboð (eða línur) verða höfð með í næsta stigvaxandi útflutningi. Stigvaxandi útflutningur þinn mun ganga hraðar fyrir sig ef þú velur að setja ekki inn slík tilboð eða línur.<br><br>Þessi eiginleiki bætir stillingu sem heitir **Sleppa gögnum sem sölutilboð vísar í við breytingarrakningu** við síðuna **Færibreytur viðskiptakrafna**. |
-| Birgða-&nbsp;og&nbsp;vörustjórnun | [Skanna strikamerki í vöruhúsinu með GS1-sniðsstöðlum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | *Væntanlegt*<!-- KFM: Add doc link when ready. --> |
-| Birgða-&nbsp;og&nbsp;vörustjórnun | Innsiglað tilboð <!-- KFM: Add RP link when available --> | *Væntanlegt*<!-- KFM: Add doc link when ready. --> |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Skanna strikamerki í vöruhúsinu með GS1-sniðsstöðlum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-strikamerki og QR-kóðar](../warehousing/gs1-barcodes.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Mjúk frátekning fyrir innbót birgðasýnileika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Frátekningar sýnilegra birgða](../inventory/inventory-visibility-reservations.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Betrumbætur á frádrætti og framleiðsluþyngd fyrir stjórnun eftirágreidds afsláttar](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Stjórna frádráttum með frádráttarvinnusvæðinu](../rebate-management/deduction-workbench.md )<br><br>[Meðhöndla, yfirfara og bóka eftirágreiddan afslátt](../rebate-management/process-review-post.md)<br><br>[Tilboð fyrir stjórnun eftirágreidds afsláttar](../rebate-management/rebate-management-deals.md) |
-| Birgða-&nbsp;og&nbsp;vörustjórnun | [Leiðbeiningar fyrir skref vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | *Væntanlegt*<!-- KFM: Add doc link when ready --> |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Leiðbeiningar fyrir skref vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Uppfærslur á vinnuhléi og rakningu fyrir heildarkostnað](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Uppfæra rakningu fyrir frágang](../landed-cost/update-tracking-putaway.md )<br><br>[Vinnsla á vörum í flutningi](../landed-cost/in-transit-processing.md) |
 | Áætlanagerð | [Neikvæðir dagar fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Vikmörk tafar (neikvæður dagafjöldi)](../master-planning/planning-optimization/delay-tolerance.md) |
 
@@ -66,9 +67,9 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 | Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
 | Kostnaðarstýring | Ítarlegar upplýsingar um ferli birgðalokunar | Þessi forskoðunareiginleiki gerir þér kleift að skoða ferli birgðalokunar á ítarlegan hátt. |
-| Áætlanagerð | (Forútgáfa) Forgangsraðaður stuðningur við MRP fyrir fínstillingu skipulagningar | Þessi forútgáfa af eiginleika fínstillingar skipulagningar gerir aðaláætlunargerð virka sem er keyrð með forgangi áætlanagerðar með endurpöntunarmarki. Auðkenndar breytingar fela í sér: Reitinn **Forgangur í áætlanagerð** í sölupöntunarlínum, innkaupapöntunarlínum, eftirspurnarspá og áætluðum pöntunum, nýjan valkost þekjukóða; reitinn **Vöruþekju** fyrir endurpöntunarmark; skjámyndir fyrir uppsetningu aðaláætlanagerðar til að stýra uppsetningu forgangs í áætlunargerð; og reglu um útreikning fínstillingar skipulagningar til að stilla og virða forgang í áætlanagerðinni. |
 | Innkaup og aðföng | Koma í veg fyrir ofnotkun almennra frátekta fjárhagsáætlunar þegar margar innkaupabeiðnir eru í verkflæði | Þessi forútgáfa af eiginleikanum bætir villuleit þegar notendur senda inn og samþykkja innkaupabeiðnir sem eru umfram stöðu almennrar frátektar fjárhagsáætlunarlínu. Þetta hjálpar til við að koma í veg fyrir ofnotkun almennra frátekta fjárhagsáætlunar þegar margar innkaupabeiðnir eru í verkflæði. |
 | Framleiðslustýring | Sýna öll raðnúmer, rununúmer og númeraplötunúmer í keyrsluviðmóti framleiðslugólfsins | Þessi eiginleiki býður upp á bætta upplifun til að skoða lista yfir raðnúmer, runu og númeraplötunúmer í keyrsluviðmóti framleiðslugólfsins. Skjárinn breytist úr spjaldyfirliti með takmörkuðum fjölda stafa í listayfirlit sem hefur nægilegt pláss til að sýna öll gildin. Listinn gefur einnig möguleika á að leita að tilteknum tölum. |
+| Sala og markaðsstarf | Takmarka fjölda sölupantana sem hægt er að velja fyrir bókun | Þessi eiginleiki gerir þér kleift að skilgreina hámarksfjölda sölupantana sem hægt er að velja þegar staðfestingar, tiltektarlistar, fylgiseðlar og reikningar á listasíðu sölupantana eru bókuð. Kveikt er á því sjálfkrafa. Eiginleikinn bætir stillingu sem kallast **Hámarksfjöldi sölupantana fyrir bókun** við síðuna **Færibreytur viðskiptakrafna**. Nýja stillingin er sjálfgefið stillt á gildið *100*. Eiginleikinn stuðlar að bættum afköstum á listasíðu sölupantana þegar umtalsverður fjöldi sölupantana er valinn. Það hefur engin áhrif á fjölda sölupantana sem hægt er að afgreiða með reglubundnu verkefni. |
 | Vöruhúsakerfi | Aftengja frágangsvinnu frá ASN (tilkynningum um sendingu) | Þessi eiginleiki er áskilinn til að senda og taka við tilkynningum um sendingu þegar þú keyrir vinnuálag vöruhúsakerfis á kvörðunareiningu (sem hluta af blandaðri grannfræðilegri dreifingu). Hann bætir við nýrri töflu gagnagrunns sem geymir upplýsingar um frágangsvinnu. Áður voru þessar upplýsingar geymdar í töflum sem einnig voru notaðar fyrir ASN. |
 | Vöruhúsakerfi | Setja blandaðar einingar í hólf | Leyfir kerfinu að raða atriðum í staðsetningar sem innihalda blandaðar einingar (eins og bæði kassa og box). Fyrir hverja línu hólfasniðmátsins gerir þessi eiginleiki þér kleift að velja hvort línan ætti að raða atriðum í staðsetningar með blönduðum einingum eða samskonar einingum. |
 | Vöruhúsakerfi | Notaðu hraðvirkara API fyrir lokun/enduropnun gáma í pökkunarstöð | Þegar þessi eiginleiki er virkjaður eru búnar til birgðafærslur sem tengjast gámum með léttvægu ferli sem eykur afköst lokunar eða opnunar gáma við úrvinnslu handvirkra pökkunarstöðva. |

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd37c98b64e6074d54b40e20f87f24912abcdd75575aa92e1e2b7345d3cce5a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ccf2a78a5ffdb95b334f751944fdd010bf8cbf01
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730478"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345198"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Hafist handa með rafrænr reikningsfærslur fyrir Brasilíu 
 
@@ -55,7 +55,7 @@ Ljúkið þessum skrefum áður en uppsetning forritsins er virkjuð í forriti 
 
 Þessi hluti tengist **Landsháð grunnstilling á uppsetningu forrits** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
 
-1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla*.
+1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Brasilískt NF-e (BR)** sem sé valinn.
 3. Í flipanum **Útgáfa** skal staðfesta að útgáfan **Drög** sé valin.
 4. Í flipanum **Uppsetningar** skal velja **Uppsetning forrits** og í reitnum **Tengt forrit** skal velja forritið þangað sem á að setja upp.

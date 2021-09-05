@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720599"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343657"
 ---
 # <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
@@ -38,7 +38,7 @@ Samþykktri fjárhagsáætlun fyrir lögaðila er viðhaldið í skjalinu sem ka
 
 -   Færðu handvirkt inn upplýsingar um skjal á síðunni **Færslur fjárhagsáætlunarskrár**.
 -   Notaðu sniðmátið Microsoft Excel sem hægt er að opna með því að smella á hnappinn **Opna í Excel** á síðunni **Færslur fjárhagsáætlunarskrár**.
--   Nota skal **færslur fjárhagsáætlunarlykils** gagnaeiningu í gagnastjórnun til að flytja inn færslur fjárhagsáætlunarskrár. Þú ættir að íhuga að nota þennan greiðslumáta og kveikja á **Byggt á safni** **vinnslu** færibreytu þegar þarf að flytja margar fjárhagsáætlunarfærslur inn í kerfið.
+-   Nota skal **færslur fjárhagsáætlunarlykils** gagnaeiningu í gagnastjórnun til að flytja inn færslur fjárhagsáætlunarskrár. Ætti að íhuga að nota þennan greiðslumáta og kveikja á **Byggt á safni vinnslu** færibreytu þegar þarf að flytja margar fjárhagsáætlunarfærslur inn í kerfið.
 -   Ef fyrirtækið notar aðgerðir fjárhagsáætlunargerðar til að útbúa fjárhagsáætlunargögn, er hægt að nota reglubundna vinnslu **Mynda færslu í fjárhagsáætlunarskráar**.
 
 Færslu fjárhagsáætlunarskrár telst lokið þegar stöður fjárhagsáætlunar hafa verið uppfærðar. Á síðunni **Færslur fjárhagsáætlunarskrár** er smellt á **Uppfæra innistæður fjárhagsáætlunar** fyrir valda færslu fjárhagsáætlunarskrár eða margar færslur. Þegar búið er að uppfæra stöður fjárhagsáætlunar, breytist staða færslu fjárhagsáætlunarskrár í **Lokið**. Ekki má enduropna lokna færslu fjárhagsáætlunarskrár fyrir breytingar. Þess vegna, ef leiðrétta þarf fjárhagsáætlunargögnin verður að stofna nýja færslu fjárhagsáætlunarskrár í stað þess að leiðrétta gögnin í lokinni færslu fjárhagsáætlunarskrár.
@@ -50,7 +50,7 @@ Næst, ef reglur eru til staðar sem stjórna samþykki á færslum fjárhagsá�
 
 Á síðunni **Fjárhagsáætlunarvídir** verður að velja fjárhagsvíddir sem eru notaðar fyrir fjárhagsáætlun, byggðar á víddum sem notaðar eru í bókhaldslyklinum. Hægt er velja allar fjárhagsvíddir eða undirflokk þeirra fyrir fjárhagsáætlun.
 
-Skilgreina *fjárhagsáætlunarlíkan* sem samsvarar öllum eða sumum fjárhagsáætlunum. Hægt er að nota eitt fjárhagsáætlunarlíkan fyrir allar færslur fjárhagsáætlunarskrár. Einnig er hægt að stofna aðskild líkön sem byggja á gerð fjárhagsáætlunar, landfræðilegri staðsetningu eða einhverjum öðrum hætti sem fjárhagsáætlun kann að vera flokkuð. 
+Skilgreina *fjárhagsáætlunarlíkan* sem samsvarar öllum eða sumar fjárhagsáætlunum. Hægt er að nota eitt fjárhagsáætlunarlíkan fyrir allar færslur fjárhagsáætlunarskrár. Einnig er hægt að stofna aðskild líkön sem byggja á gerð fjárhagsáætlunar, landfræðilegri staðsetningu eða einhverjum öðrum hætti sem fjárhagsáætlun kann að vera flokkuð. 
 
 > [!NOTE] 
 > Ef fjárhagsáætlunarstýring er notuð er aðeins hægt að tengja eitt fjárhagsáætlunarlíkan við tiltekið tímabil fjárhagsáætlunar. 

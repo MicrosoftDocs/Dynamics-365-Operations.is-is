@@ -1,8 +1,8 @@
 ---
-title: Vista verkleiðbeiningar í LCS og spila þær aftur
-description: Þessi grein útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
+description: Þetta efnisatriði útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8cf6338e17c9d4f0f50e5c36291ce4f81800f76951e873f2e0cf435cc3cc97e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42fad014590abebf159b71227a44eb8df60bf05e
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713079"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416882"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Vista verkefnaleiðbeiningar í LCS og spila þær aftur
 

@@ -1,8 +1,9 @@
 ---
 title: Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir
 description: Í þessu efnisatriði er að finna yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Commerce.
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733942"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343288"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Inngangur
+Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Commerce. 
 
-Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Commerce. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá sölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu:
+Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá sölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu:
 
 - Skrá sölu á fjármálatæki sem tengist sölustað (POS), svo sem strimlaprentara og prentun á fjármálakvittun fyrir viðskiptavin.
 - Senda inn upplýsingar á öruggan hátt sem tengjast sölu og skilum sem er lokið í Retail POS til utanaðkomandi vefþjónustu sem er starfrækt af skattyfirvöldum.
 - Hjálpar til við að tryggja stöðugleika sölufærslugagna með stafrænum undirskriftum.
 
-Virkni fjárhagssamþættingar er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Commerce-íhlutum og er hluti af þróunarpakka hugbúnaðarins (SDK). Nánari upplýsingar um dæmi fjárhagssamþættingar er að finna í [Dæmi um fjárhagssamþættingu í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Skipulag Retail hugbúnaðarþróunarsetts (SDK)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Virkni fjárhagssamþættingar er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Commerce-íhlutum og er hluti af þróunarpakka hugbúnaðarins (SDK). Nánari upplýsingar um sýnishorn fjárhagssamþættingar er að finna í [Sýnishorn fjárhagssamþættingar í Commerce SDK](#fiscal-integration-samples-in-the-commerce-sdk). Upplýsingar um hvernig skuli setja upp og nota Commerce SDK er að finna í [Hugbúnaðarþróunarpakki fyrir Retail (SDK)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Til að styðja við aðrar aðstæður sem ekki eru studdar af sýnishorni fjárhagssamþættingar, til að samþætta Retail POS við önnur fjárhagstæki eða þjónustur, eða til að ná utan um kröfur annarra landa eða svæða, verður þú annaðhvort að stækka núverandi sýnishorn fjárhagssamþættingar eða stofna nýtt sýnishorn með því að nota núverandi sýnishorn sem dæmi.
 
@@ -55,13 +56,13 @@ Fjárhagsskráningarferli fyrir tiltekinn afgreiðslukassa er skilgreint af sams
 Í eftirfarandi dæmi er sýnt dæmigert framkvæmdaflæði fyrir fjárhagstæki. Flæðið byrjar með tilviki á sölustaðnum (til dæmis frágang á sölufærslu) og útfærir eftirfarandi skref:
 
 1. Sölustaðurinn biður um fjárhagsskjal frá CRT.
-2. CRT ákvarðar hvort núverandi tilvik krefjist fjárhagsskráningar.
-3. Byggt á stillingum fjárhagsskráningarferlis, CRT ber kennsl á fjárhagstengil og samsvarandi fjárhagsskjalsveitu til að nota fyrir fjárhagsskráninguna.
-4. CRT keyrir fjárhagsskjalsveitu sem býr til fjárhagsskjal (t.d. XML-skjal) sem táknar færsluna eða tilvikið.
-5. Sölustaðurinn sendir fjárhagsskjalið sem CRT undirbýr til vélbúnaðarstöðvar.
-6. Vélbúnaðarstöðin keyrir fjárhagstengilinn sem vinnur úr fjárhagsskjalinu og kemur því til fjárhagstækis eða þjónustu.
-7. Sölustaðurinn greinir svarið frá fjárhagstækinu eða þjónustunni til að ákvarða hvort fjárhagsskráningin hafi tekist.
-8. CRT vistar svarið í gagnagrunn rásar.
+1. CRT ákvarðar hvort núverandi tilvik krefjist fjárhagsskráningar.
+1. Byggt á stillingum fjárhagsskráningarferlis, CRT ber kennsl á fjárhagstengil og samsvarandi fjárhagsskjalsveitu til að nota fyrir fjárhagsskráninguna.
+1. CRT keyrir fjárhagsskjalsveitu sem býr til fjárhagsskjal (t.d. XML-skjal) sem táknar færsluna eða tilvikið.
+1. Sölustaðurinn sendir fjárhagsskjalið sem CRT undirbýr til vélbúnaðarstöðvar.
+1. Vélbúnaðarstöðin keyrir fjárhagstengilinn sem vinnur úr fjárhagsskjalinu og kemur því til fjárhagstækis eða þjónustu.
+1. Sölustaðurinn greinir svarið frá fjárhagstækinu eða þjónustunni til að ákvarða hvort fjárhagsskráningin hafi tekist.
+1. CRT vistar svarið í gagnagrunn rásar.
 
 ![Lausnarskema.](media/emea-fiscal-integration-solution.png "Lausnarskema")
 
@@ -117,6 +118,8 @@ Fjárhagsfærsla geymir eftirfarandi upplýsingar:
 - Staða fjárhagsskráningar: **Lokið** fyrir heppnaða skráningu, **Sleppt** ef notandinn valdi vakostinn **Sleppa** fyrir skráningu sem mistókst, eða **Merkt sem skráð** ef notandinn valdi valkostinn **Merkja sem skráð**.
 - Færslur upplýsingakóða sem tengjast valdri fjárhagsfærslu. Til að skoða færslur upplýsingakóða í flýtiflipanum **Fjárhagsfærslur** skal velja fjárhagsfærslu sem er með stöðuna **Sleppt** eða **Merkt sem skráð** og síðan velja **Færslur upplýsingakóða**.
 
+Með því að velja **Útvíkkuð gögn** er einnig hægt að skoða nokkra eiginleika fjárhagsfærslunnar. Listi yfir eiginleika sem hægt er að skoða á sérstaklega við um virkni fjárhagsskráningar sem myndaði fjárhagsfærsluna. Til dæmis er hægt að skoða stafræna undirskrift, raðnúmer, fingrafarsvottorð, auðkenni fyrir algrím tætigildis og aðra eiginleika fjárhagsfærslna fyrir stafræna undirritunaraðgerð fyrir Frakkland.
+
 ## <a name="fiscal-texts-for-discounts"></a>Fjárhagstextar fyrir afslætti
 
 Sum lönd eða svæði gera sérstakar kröfur um viðbótartexta sem þarf að prenta á fjárhagskvittanir þegar mismunandi afslættir eru notaðir. Virknin fyrir fjárhagssamþættingu gerir þér kleift að setja upp sérstakan texta fyrir afslátt sem prentast á eftir afsláttarlínu á fjárhagskvittun. Fyrir handvirka afslætti er hægt að stilla fjárhagstexta fyrir upplýsingakóðann sem er tilgreindur sem upplýsingakóðinn **Afurðarafsláttur** í virknireglu sölustaðar. Nánari upplýsingar um hvernig á að setja upp fjárhagstexta fyrir afslætti er að finna í [Uppsetning fjárhagstexta fyrir afslætti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
@@ -128,26 +131,29 @@ Virknin fyrir fjárhagssamþættingu styður myndun á uppgjör í lok dags sem 
 - Bæta ætti nýjum hnöppum sem keyra samsvarandi aðgerðir við skjáútlit POS. Nánari upplýsingar er að finna í [Setja upp X/Z-skýrslur fjárhags úr POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - Í sýnishorni fjárhagssamþættingar ætti að samsvara þessar aðgerðir við samsvarandi aðgerðir í fjárhagstækinu.
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Sýnishorn fjárhagssamþættingar í Retail SDK
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Sýnishorn fjárhagssamþættingar í Commerce SDK
 
-Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retail SDK:
+Eftirfarandi sýnishorn fjárhagssamþættingar eru í boði sem stendur í Commerce SDK:
 
-- [Dæmi um samþættingu strimlaprentara fyrir Ítalíu](emea-ita-fpi-sample.md)
-- [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)
-- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki](emea-aut-fi-sample.md)
-- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland](emea-cze-fi-sample.md)
+- [Dæmi um samþættingu strimlaprentara fyrir Ítalíu](./emea-ita-fpi-sample.md)
+- [Dæmi um samþættingu strimlaprentara fyrir Pólland](./emea-pol-fpi-sample.md)
+- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki](./emea-aut-fi-sample.md)
+- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland](./emea-cze-fi-sample.md)
 - [Dæmi um samþættingu stjórntækja fyrir Svíþjóð](./emea-swe-fi-sample.md)
 - [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Þýskaland](./emea-deu-fi-sample.md)
 
-Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
+Eftirfarandi virkni fjárhagssamþættingar er einnig innleidd með því að nota ramma fjárhagssamþættingar, en hann kemur beint úr kassanum og er ekki hafður með í Commerce SDK:
 
+- [Fjárhagsskráning fyrir Brasilíu](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [Stafræn undirskrift fyrir Frakkland](./emea-fra-cash-registers.md)
 
-- [Stafræn undirskrift fyrir Frakkland](emea-fra-cash-registers.md)
-- [Stafræn undirskrift fyrir Noreg](emea-nor-cash-registers.md)
+Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Commerce SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
 
-Eftirfarandi eldri virkni fjárhagssamþættingar sem er fáanleg í Retail SDK notar ekki ramma fjárhagssamþættingar og verður úrelt í síðari uppfærslum:
+- [Stafræn undirskrift fyrir Noreg](./emea-nor-cash-registers.md)
+
+Eftirfarandi eldri virkni fjárhagssamþættingar sem er í boði í Commerce SDK notar ekki ramma fjárhagssamþættingar og verður gerð úreld í síðari uppfærslum:
 
 - [Dæmi um samþættingu stjórntækja fyrir Svíþjóð (eldra)](./retail-sdk-control-unit-sample.md)
-
+- [Stafræn undirskrift fyrir Frakkland (eldra)](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

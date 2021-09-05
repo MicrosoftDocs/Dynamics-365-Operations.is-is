@@ -1,6 +1,6 @@
 ---
 title: Stofna sölupantanareikninga
-description: Þessi leiðarvísi fyrir verk lýsir reikningsfærslu sölupöntunar, þar á meðal sameiningu reikninga og runuvinnslu.
+description: Þetta efnisatriði lýsir því hvernig á að reikningsfæra sölupöntun, þ.m.t. sameina reikninga og runuvinnslu.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771825"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394611"
 ---
 # <a name="create-sales-order-invoices"></a>Stofna sölupantanareikninga
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi leiðarvísi fyrir verk lýsir reikningsfærslu sölupöntunar, þar á meðal sameiningu reikninga og runuvinnslu. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
+Þetta efnisatriði lýsir því hvernig á að reikningsfæra sölupöntun, þ.m.t. sameina reikninga og runuvinnslu. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Stofna reikning úr sölupöntun
 1. Farðu í **Sloðunarrúða > Kerfiseiningar > viðskiptakröfur > Pantanir > Sendar en óreikningsfærðar sölupantanir**.
 2. Veljið sölupöntun af listanum. 
-3. Í **aðgerðasvæðinu** er smellt á **Reikningur > Mynda > Reikningur**. Athugið að þessi sölupöntun hefur margir fylgiseðlar tengjast. Það mun einungis sýna orðið <multiple> í stað númer fylgiseðils.  
+3. Í **aðgerðasvæðinu** er smellt á **Reikningur > Mynda > Reikningur**. Athugið að þessi sölupöntun hefur margir fylgiseðlar tengjast. Það mun einungis sýna orðið *mörg* í stað númer fylgiseðils.  
 4. Útvíkkaðu hlutann **Færibreytur**.
     - Bókun verður að vera stillt á Já til að bóka reikninginn. Einnig er hægt að slökkva á bókun og prenta bara reikning. Hins vegar hægt að gera sömu niðurstöðu með því að stofna bráðabirgðareikninginn í stað reiknings.  
     - Þessi valkostur er notaður fyrir runuvinnslu. Fyrirspurnin er keyrð þegar runuvinnsla er keyrð.

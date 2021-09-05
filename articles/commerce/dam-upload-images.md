@@ -2,7 +2,7 @@
 title: Hlaða upp myndum
 description: Þetta efnisatriði lýsir hvernig á að hlaða upp myndum á Microsoft Dynamics 365 Commerce svæðasmið.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423256"
 ---
 # <a name="upload-images"></a>Hlaða upp myndum
 
@@ -52,10 +52,17 @@ Sjálfgefin nafngiftarvenja er breytileg eftir flokknum:
 - Flokkamyndir ættu að heita „**/Categories/\{CategoryName\}.png**”
 - Viðskiptavinamyndir ættu að heita „**/Customers/\{CustomerNumber\}.jpg**”
 - Starfsmannamyndir ættu að heita „**/Workers/\{WorkerNumber\}.jpg**”
-- Afurðamyndir ættu að heita „**/Products/\{ProductNumber\}_000_001.png**”
+- Afurðamyndir ættu að heita "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 er röð myndarinnar og hún getur verið 001, 002, 003, 004 eða 005
 - Afuðaraðbrigðamyndir ættu að heita „**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**“
-    - Til dæmis: 93039 \^ \^ 2 \^ Svart \^_000_001.png
+    - Til dæmis: 93039 \^ &nbsp;\^ 2 \^ Svart \^\_000_001.png
+- Myndir afurðarafbrigðis með skilgreiningarvídd eiga að kallast „**/Products/\{ProductNumber\} \^ \{Skilgreining\}\_000_001.png**“
+    - Til dæmis 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Fyrir myndir afurðarafbrigðis, ef víddargildið er autt, þurfa að vera tvö bil á milli innskotsmerkjanna í skráarheitinu.
+
+Dæmin að ofan nota sjálfgefna skilgreiningu. Skiltáknið og víddirnar eru stillanleg og nákvæm krafa um nafngift getur verið breytileg eftir uppsetningum. Ein aðferð við að auðkenna nákvæma nafngiftarvenju sem er nauðsynleg er að nota stjórnborð þróunaraðila í vafranum til að skoða beiðni um mynd afurðarafbrigðis á meðan afurðarvíddunum á yfirborði upplýsingasíðu afurðar (PDP) er breytt.
 
 ## <a name="upload-an-image"></a>Hlaða upp mynd
 

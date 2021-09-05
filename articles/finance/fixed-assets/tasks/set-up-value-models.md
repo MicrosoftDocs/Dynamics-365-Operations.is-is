@@ -1,8 +1,8 @@
 ---
 title: Setja upp virðislíkön
 description: Þessi ferli sýnir hvernig á að stofna nýtt eignabók og tengja hana við eignaflokk.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741537"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344659"
 ---
 # <a name="set-up-value-models"></a>Setja upp virðislíkön
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Þessi ferli sýnir hvernig á að stofna nýtt eignabók og tengja hana við eignaflokk. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
-
 
 ## <a name="create-a-book"></a>Búa til bók
 1. Fara í Eignir > Uppsetning > Bækur.
@@ -48,9 +49,10 @@ ms.locfileid: "6741537"
 1. Smella á eignaflokkar.
 2. Færa inn eða veljið gildi í svæðinu eignaflokkur.
 3. Í reitinn líftími skal slá inn númer.
-    * Athugaðu að afskriftartímabils er reiknað eftir uppsetningu líftíma.  
-    * Er hægt að setja afskriftarreglan eins og krafist er hvað varðar skatta.  
 
+  - Afskriftarímabil eru reiknuð eftir að líftími eignarinnar er færður inn.  
+  - Hægt er að stilla þessa afskrifarvenju eins og þarf af skattalegum ástæðum.
+  - Fyrir eignir sem tengjast leigusamningum verður gildið í reitnum **Líftími** hnekkt af annaðhvort leigutímanum í eignabókinni eða nýtingartíma eignarinnar eftir því hvort er styttra. Ef reiturinn **Eignarhald flutt** er stilltur á **Já** fyrir leigubókina mun gildið í reitnum **Líftími** alltaf vera nýtingartími eignarinnar.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

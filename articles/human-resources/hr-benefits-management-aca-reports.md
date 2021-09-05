@@ -1,8 +1,8 @@
 ---
 title: Búa til tilkynningar um Affordable Care Act í fríðindastjórnun
-description: Þetta efnisatriði lýsir því hvernig fríðindastjórnun hjálpar til við að rekja upplýsingar sem er greint frá á eyðublaði 1095-B og eyðublaði 1095-C fyrir vinnuveitandaumboð Affordable Care Act (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: Þetta efnisatriði lýsir því hvernig fríðindastjórnun rekur upplýsingar sem er greint frá á eyðublaði 1095-B og eyðublaði 1095-C fyrir vinnuveitandaumboð Affordable Care Act (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727066"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416255"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Búa til ACA-tilkynningar í fríðindastjórnun
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Fríðindastjórnun hjálpar til við að rekja upplýsingar sem er greint frá á eyðublaði 1095-B og eyðublaði 1095-C fyrir vinnuveitandaumboð Affordable Care Act (ACA). Rétt eins og möguleiki ACA-skýrslugerðar í gamla vinnusvæðinu **Fríðindi**, á þessi virkni aðeins við um lögaðila í Bandaríkjunum.
+Fríðindastjórnun rekur upplýsingar sem er greint frá á eyðublaði 1095-B og eyðublaði 1095-C fyrir vinnuveitandaumboð Affordable Care Act (ACA). Rétt eins og möguleiki ACA-skýrslugerðar í gamla vinnusvæðinu **Fríðindi**, á þessi virkni aðeins við um lögaðila í Bandaríkjunum.
 
 Til að nota þessa virkni þarf fyrst að kveikja á **Ítarleg fríðindastjórnun**. Frekari upplýsingar, þar á meðal mikilvæg skilyrði fríðindastjórnunar, er að finna í [Virkja eða óvirkja fríðindastjórnun](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ Hægt er að búa til eyðublöðin ACA 1095-B og 1095-C og síðan dreifa þeim
 2. Breytið færibreytum eins og krafist er og veljið svo **Í lagi**.
 
     > [!NOTE]
-    > Ef eyðublað 1095-C er prentað fyrir fleiri en 500 starfsmenn, færðu fleiri en eina PDF-skrá afhenta. Mælt er með því að auka gildið í reitnum **Hámarksstærð skráar í megabætum** á síðunni **Færibreytur skjalastjórnunar** í **150**. (Til að opna þessa síðu á fljótlegan hátt er hægt að nota leitarsvæðið á yfirlitsstikunni.)
+    > Ef eyðublað 1095-C er prentað fyrir fleiri en 500 starfsmenn, færðu fleiri en eina PDF-skrá afhenta. Mælt er með því að auka gildið í reitnum **Hámarksstærð skráar í megabætum** á síðunni **Færibreytur skjalastjórnunar** í **150**. (Til að opna þessa síðu á fljótlegan hátt skal nota leitarsvæðið á yfirlitsstikunni.)
     >
     > ![Hámarksstærð skráar breytt.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

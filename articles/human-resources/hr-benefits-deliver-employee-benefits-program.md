@@ -1,8 +1,8 @@
 ---
 title: Leggja fram fríðindaáætlun starfsmanns
-description: Þessi grein sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Þetta efnisatriði sýnir hvernig á að stofna fríðindaeiningar sem verða notaðar þegar ný fríðindi eru stofnuð.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBen
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: eba305a6a5e1b32636e17bba090047d6167ecebd4f0fe49b17b5267c71b98773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3339464fb459461b1ad399868d9b1245263cef9
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757016"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416279"
 ---
 # <a name="deliver-employee-benefits-program"></a>Leggja fram fríðindaáætlun starfsmanns
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
+Þetta efnisatriði sýnir hvernig á að stofna fríðindaeiningar sem verða notaðar þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
 
 
 ## <a name="create-benefit-elements"></a>Stofna fríðindaeiningar

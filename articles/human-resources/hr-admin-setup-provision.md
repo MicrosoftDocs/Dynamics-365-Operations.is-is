@@ -1,8 +1,8 @@
 ---
 title: Úthluta Human Resources
-description: Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/14/2021
+description: Þetta efnisatriði útskýrir úthlutunarferli fyrir nýtt vinnsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756149"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393524"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756149"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 Human Resources. Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða samkomulag um skipulag fyrirtækis (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Human Resources og getur ekki lokið við skrefin í þessari grein, skaltu hafa samband við notendaþjónustu.
+Þetta efnisatriði útskýrir úthlutunarferli fyrir nýtt vinnsluumhverfi fyrir Microsoft Dynamics 365 Human Resources. 
 
-Til að byrja, þá ætti stjórnandi á heimsvísu að skrá sig inn í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) og búa til nýtt Human Resources verk. Nema vandamál tengd leyfisveitingu hindri þig frá því að úthluta Human Resources, er ekki þörf á aðstoð frá notendaþjónustu eða Dynamic Service Engineering (DSE) fulltrúum.
+## <a name="prerequisites"></a>Forkröfur
+
+Áður en hafist er handa við að úthluta nýju vinnsluumhverfi verða eftirfarandi skilyrði að vera til staðar:
+
+- Þú hefur keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða samkomulag um skipulag fyrirtækis (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Human Resources og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
+
+- Altækur stjórnandi hefur skráð sig inn í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) og búið til nýtt Human Resources verk. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Úthluta prófunarumhverfi Human Resources
 
@@ -42,7 +48,7 @@ Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takma
 
 Áður en fyrsta Human Resources-umhverfið er búið til ætti að kortleggja vel og vandlega þarfir umhverfisins fyrir verkið. Grunnáskrift að Human Resources felur í sér tvö umhverfi: vinnsluumhverfi og sandkassaumhverfi. Það fer eftir margbreytileika verksins hvort þurfi að kaupa fleiri sandkassaumhverfi til að styðja verkþætti verksins. 
 
-Nokkur atriði sem hafa áhrif á hvort nota eigi fleiri umhverfi eða ekki eru m.a. eftirfarandi:
+Hvað skal hafa í huga fyrir fleiri umhverfi:
 
 - **Gagnaflutningur**: Hugsanlega þarf að huga að viðbótarumhverfi fyrir gagnaflutningsaðgerðir svo hægt sé að nota sandkassaumhverfið sem vettvang prófunar í gegnum verkið. Að vera með viðbótarumhverfi gerir gagnaflutningsaðgerðum kleift að halda áfram á meðan prófanir og grunnstillingar gerast samtímis í öðru umhverfi.
 - **Samþætting**: Hugsanlega þarf annað umhverfi til að grunnstilla og prófa samþættingar. Þetta gæti falið í sér venjulega samþættingu á borð við samþættingar Ceridian Dayforce LinkedIn Talent Hub eða sérstilltar samþættingar á borð við launaskrár, rakningarkerfi umsækjanda eða fríðindakerfi og þjónustuaðilar.
@@ -50,10 +56,11 @@ Nokkur atriði sem hafa áhrif á hvort nota eigi fleiri umhverfi eða ekki eru 
 - **Fjölþrepa verk**: Hugsanlega þarf annað umhverfi til að styðja grunnstillingu, gagnaflutning, prófun eða aðra verkþætti í verkþrepi sem er áætlað eftir fyrstu keyrslu verksins.
 
  > [!IMPORTANT]
- > Mælt er með að nota vinnsluumhverfið í gegnum verkið sem umhverfi GOLD-grunnstillingar. Þetta er mikilvægt vegna þess að ekki er hægt að afrita sandkassaumhverfi í vinnsluumhverfi. Þar af leiðandi, þegar keyrsla er framkvæmd, er GOLD-umhverfið orðið vinnsluumhverfið og flutningsaðgerðir verða kláraðar í þessu umhverfi.</br></br>
- > Mælt er með að nota sandkassann eða annað umhverfi til að framkvæma hermiflutning á undan keyrslunni. Hægt er að gera þetta með því að uppfæra vinnsluumhverfið með GOLD-grunnstillingunni inn í sandkassaumhverfið.</br></br>
- > Mælt er með að halda utan um ítarlegan gátlista flutnings sem inniheldur alla gagnapakkana sem þarf til að flytja lokagögnin í vinnsluumhverfið á meðan flutningur keyrslunnar stendur yfir.</br></br>
- > Einnig er mælt með að nota sandkassaumhverfið í gegnum verkið sem prófunarumhverfi. Ef þörf er á fleiri umhverfum getur fyrirtækið keypt þau gegn viðbótarkostnaði.</br></br>
+ > Við mælum með eftirfarandi þegar þú veltir fyrir þér umhverfinu þínu:
+ > - Notaðu vinnsluumhverfið í gegnum verkið sem umhverfi GOLD-grunnstillingar. Þetta er mikilvægt vegna þess að ekki er hægt að afrita sandkassaumhverfi í vinnsluumhverfi. Þar af leiðandi, þegar keyrsla er framkvæmd, er GOLD-umhverfið orðið vinnsluumhverfið og flutningsaðgerðir verða kláraðar í þessu umhverfi.</br></br>
+ > - Notaðu sandkassann eða annað umhverfi til að framkvæma hermiflutning á undan keyrslunni. Hægt er að gera þetta með því að uppfæra vinnsluumhverfið með GOLD-grunnstillingunni inn í sandkassaumhverfið.</br></br>
+ > - Haltu utan um ítarlegan gátlista flutnings sem inniheldur alla gagnapakkana sem þarf til að flytja lokagögnin í vinnsluumhverfið á meðan flutningur keyrslunnar stendur yfir.</br></br>
+ > - Notaðu sandkassaumhverfið í gegnum verkið sem prófunarumhverfi. Ef þörf er á fleiri umhverfum getur fyrirtækið keypt þau gegn viðbótarkostnaði.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Búa til LCS-verk
 
@@ -86,7 +93,7 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Human Resources 
     > Ekki er hægt að breyta tilviksgerð Human Resources þegar hún hefur verið stillt. Gakktu úr skugga um að rétt tilviksgerð sé valin áður en haldið er áfram.</br></br>
     > Gerð Human Resources-tilviks er aðskilin frá tilviksgerð í Microsoft Power Apps-umhverfi, sem þú stillir í Power Apps Admin Center.
     
-3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Human Resources. Sýnigögn eru gagnleg fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi. Þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært núverandi uppsetningu seinna.
+3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prófunarumhverfi Human Resources. Sýnigögn eru gagnleg fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi. Þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært núverandi uppsetningu seinna.
 
 4. Human Resources er alltaf úthlutað inn í Microsoft Power Apps umhverfi, til að virkja Power Apps samþættingu og stækkunarhæfni. Lestu kaflann „Val á Power Apps umhverfi“ í þessari grein áður en þú heldur áfram. Ef þú ert ekki með Power Apps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð Power Apps. Fylgdu síðan skrefunum til að [Stofna Power Apps umhverfi](/powerapps/administrator/create-environment).
 
@@ -115,7 +122,7 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
 
 4. Gagnasamþætting og prófunaraðferðir ætti að hafa í huga, eins og Sandbox, UAT eða Framleiðsla. Hugsaðu vandlega út í afleiðingar uppsetningarinnar því að ekki er auðvelt að breyta því hvaða umhverfi Human Resources er varpað í Power Apps-umhverfi.
 
-5. Þú getur ekki notað eftirfarandi Power Apps-umhverfi fyrir Human Resources. Þau eru síuð úr lista yfir valkosti innan LCS:
+5. Ekki er hægt að nota eftirfarandi Power Apps umhverfi fyrir Human Resources. Þau eru síuð úr lista yfir valkosti innan LCS:
  
     - **Sjálfgefið Power Apps-umhverfi** - Þótt hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefnu Power Apps-umhverfi mælum við ekki með því að þau séu notuð með Human Resources. Allir leigunotendur hafa aðgang að Power Apps-umhverfinu og gætu óvart skemmt framleiðslugögn þegar þeir prófa og kanna með Power Apps eða Power Automate-samþættingar.
    
@@ -147,7 +154,7 @@ Gögnin fyrir umhverfi Human Resources mun alltaf verið haldið innan staðsetn
 
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
 
-Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Þú verður að veita sérstaklega aðgang til viðbótarnotenda forritsins. Þú verður að bæta við notendum og úthluta þeim viðeigandi hlutverkum í umhverfi Human Resources. Altæki stjórnandinn, sem virkjaði Human Resources, verður einnig að ræsa bæði Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur. Þar til þetta gerist munu aðrir notendur ekki geta opnað Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Þú verður að veita sérstaklega aðgang til viðbótarnotenda forritsins. Þú verður að bæta við notendum og úthluta þeim viðeigandi hlutverkum í umhverfi Human Resources. Frekari upplýsingar má finna í [Stofna nýja notendur](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

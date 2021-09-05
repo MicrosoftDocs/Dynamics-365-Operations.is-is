@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 757c8b9f2b57374e4b6d35c9be95b9e1dfe7f249c9ea903009cc26e16711bead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d14154cd2e9bd18a886ba490891a02afeb0b05
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713805"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344715"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Yfirlit yfir uppfærslu afskriftarbókar
 
@@ -42,7 +42,7 @@ Valkostur 1:  **Kerfisskilgreind númeraröð** - Þetta er sjálfgefin stilling
     -   Heiti fasta: **NumberSequenceDefaultParameterPrefix**
     -   Sjálfgefið gildi: "FADBUpgr"
 -   **Lengd bókstafa og talna** – Lengd hluta sem notar bókstafi og tölur fyrir númeraröð.
-    -   Heiti fasti: **NumberSequenceDefaultParameterAlpanumericLength**
+    -   Heiti fasta: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Sjálfgildi: 9
 -   **Upphafsnúmer** - fyrsta númer sem notað er í númeraröð.
     -   Heiti fasta: **NumberSequenceDefaultParameterStartNumber**
@@ -51,7 +51,7 @@ Valkostur 1:  **Kerfisskilgreind númeraröð** - Þetta er sjálfgefin stilling
 Möguleiki 2: **Fyrirliggjandi notandaskilgreindur númeraröð** - Þennan valkost gerir þér kleift að skilgreina númeraröðina sem nota á fyrir uppfærslu. Íhuga að nota þennan valkost ef þú þarft ítarlega skilgreiningu númeraraðar. Til að nota númeraröð, verður að breyta uppfærsluflokk ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans með eftirfarandi upplýsingar:
 
 -   **Númeraraðarkóði** – Kóði númeraraðar.
-    -   Heiti fasti: **NumberSequenceExistingCode**
+    -   Heiti fasta: **NumberSequenceExistingCode**
     -   Sjálfgildi: Engin sjálfgefin, þetta þarf að uppfæra fyrir númeraraðakóða.
 -   **Samnýttar númeraröð** – boole-gildi til að greina umfang númeraraðar. Notuð "satt" fyrir samnýttar númeraraðir þvert á öll fyrirtæki og "rangt" fyrir sviðs sem eru sértæk fyrir fyrirtæki. Þegar "rangt" er notað, verður númeraröð með tilgreindu heiti vera til staðar í hvert fyrirtæki sem inniheldur færslur í afskriftabók.lur í afskriftabók. Samnýtt númeraraðir eru til í hverri deildaskiptingu sem inniheldur færslur í afskriftarbók.
     -   Heiti fasti: **NumberSequenceExistingIsShared**
