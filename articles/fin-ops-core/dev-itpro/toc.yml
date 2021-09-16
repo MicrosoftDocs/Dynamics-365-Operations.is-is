@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nýjungar eða breytingar í uppfærslum á verkvangi
               items:
-                - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
+                - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.22 (nóvember 2021)
+                  href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.21 (október 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
@@ -590,24 +592,22 @@
                   href: dev-tools/update-development-tools.md
             - name: X++ forritunartungumál
               items:
-                - name: X++ og kembieiginleikar
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Visual Studio 2017 kröfur fyrir X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Kemba X++ kóða
-                  href: dev-tools/debug-xpp.md
-                - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
-                  href: dev-tools/event-handler-result-class.md
-                - name: Skrifa viðskiptagrunn með C# og X++ frumkóða
-                  href: dev-tools/write-business-logic.md
-                - name: Breytingar í X++ og X++ þýðanda
-                  href: dev-tools/programming-language-support.md
-                - name: LINQ-veita fyrir C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Skrifa reglur um bestu venjur
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Eiginleikar Forritaskoðara
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: X++ tungumálastuðningur
+                  items:
+                    - name: Visual Studio 2017 kröfur fyrir X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Kemba X++ kóða
+                      href: dev-tools/debug-xpp.md
+                    - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Skrifa viðskiptagrunn með C# og X++ frumkóða
+                      href: dev-tools/write-business-logic.md
+                    - name: LINQ-veita fyrir C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Skrifa reglur um bestu venjur
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Eiginleikar Forritaskoðara
+                      href: dev-ref/application-explorer-aot-properties.md
                 - name: Leiðbeiningar um X++ forritunarmálið
                   items:
                     - name: Yfirlit yfir leiðbeiningar um X++ forritunarmálið
@@ -652,7 +652,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Söfn
                           href: dev-ref/xpp-library-objects.md
-                        - name: Tilvik
+                        - name: Viðburðir og fulltrúar
                           href: dev-ref/xpp-events.md
                     - name: X++ gagnaval og beiting
                       items:
@@ -906,6 +906,8 @@
               href: dev-tools/date-effectivity.md
             - name: Þróun fyrir óháða hugbúnaðarsala
               items:
+                - name: Heimasíða óháðs hugbúnaðarsöluþróunaraðila
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Tengja X++ einingar við pakka með því að nota ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: Leyfisveiting óháðra hugbúnaðarsala
@@ -1018,6 +1020,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Fyrirspurnabók
               href: lifecycle-services/querycookbook.md
+            - name: Útrunnar áskriftir og eyðing gagna
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Yfirlit Dynamics 365 Translation Service
@@ -1048,6 +1052,8 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Hvað skal hafa í huga við fyrstu samstillingu
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Takmarkanir fyrir samstillingu í beinni
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
                     - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit

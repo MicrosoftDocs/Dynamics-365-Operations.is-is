@@ -6,11 +6,13 @@
           href: index.md
         - name: Hefjast handa
           items:
+            - name: Þjónustulýsing
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/supply-chain/toc.json
             - name: Áður en þú kaupir
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Skráðu þig fyrir prufuáskriftum
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Þjónustuuppfærslur fyrir One Version
+            - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
               items:
                 - name: Yfirlit yfir þjónustuuppfærslur fyrir „Ein útgáfa“
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,8 +72,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nýjungar eða breytingar í Supply Chain Management
                   items:
-                    - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
+                    - name: Nýjungar eða breytingar á upphafssíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.22 (nóvember 2021)
+                      href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (október 2021)
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (ágúst 2021)
@@ -212,15 +216,15 @@
               items:
                 - name: Yfirlit yfir staðfæringarþjónustu
                   href: ../finance/localizations/globalization-services-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory Configuration Service
+                - name: Regulatory configuration service (RCS)
                   items:
-                    - name: Yfirlit Regulatory configuration service
+                    - name: Regulatory configuration service (RCS) – yfirlit
                       href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory configuration service – altækir eiginleikar
+                    - name: Regulatory Configuration Service (RCS) – staðfæringareiginleikar
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service og hlaða þeim upp í altæka geymslu
+                    - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service (RCS) og hlaða þeim upp í altæka geymslu
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
+                    - name: Regulatory Configuration Service (RCS) – úrelding á geymslu Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Supply Chain Management
                       items:
@@ -302,9 +306,9 @@
                   items:
                     - name: Vörur í flutningi frá lánardrottni
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
-        - name: Ský og jaðar
+        - name: Dreifð blönduð grannfræði
           items:
-            - name: Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
+            - name: Einingakvarðar í dreifðri blandaðri grannfræði
               href: cloud-edge/cloud-edge-landing-page.md
             - name: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
               href: cloud-edge/cloud-edge-edge-scale-units-lbd.md
@@ -753,8 +757,6 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Kostnaðarstjórnunar Power BI-efnispakki
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Úrræðaleit fyrir kostnaðarstjórnun
-              href: cost-management/troubleshoot-costmanagement.md
         - name: Skýrslugerð og samþættingar Power BI
           items:
             - name: Skýrslugerð og greiningar með Power BI
@@ -1257,6 +1259,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Flytja inn skilgreiningar (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service (RCS) – yfirlit
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Supply Chain Management
+                      items:
+                        - name: Sækja skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Flytja inn skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Altæk geymsla (GR)
+                      items:
+                        - name: Flytja inn skilgreiningar úr GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Aukin síun til að finna skilgreiningar í GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Hlaða skilgreiningum upp í GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Deila skilgreiningum í GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Ljúka skilgreiningum í RCS altækri geymslu
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Stuttir leiðarvísar
               items:
                 - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
@@ -1313,10 +1339,14 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Breyta og keyra snið til að nota skjalastjórnunarskrár
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Kemba gagnagjafa
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Nota STRIKAMERKI til að búa til strikamerkismyndir
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Nota gagnagjafa fyrir GAGNASÖFNUN í sniðum rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Kemba gagnagjafa
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina vörpun líkana
                   items:
                     - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
@@ -1383,6 +1413,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Skilgreina áfangastaði sem eru háðir aðgerð
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Setja upp tilvísun í sniðum rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
@@ -1431,6 +1463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Forritsuppfærsla 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Forritsuppfærsla 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
@@ -1441,6 +1475,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Breyta kóða til að gera notendum kleift að skilgreina og nota nefnda áfangastaði rafrænnar skýrslugerðar
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: Birgðastjórnun
           items:
             - name: Birgðastjórnunaryfirlit
@@ -1547,8 +1583,6 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Birgðir á lager eftir fartækjavinnusvæði
                   href: inventory/inventory-on-hand-mobile-workspace.md
-                - name: Úrræðaleita birgðaaðgerðir
-                  href: inventory/troubleshoot-inventory-operations.md
             - name: Útleiðarferli
               items:
                 - name: Yfirlit útleiðarferlis
@@ -1569,18 +1603,18 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Safnvista birgðafærslur
               href: inventory/archive-inventory-transactions.md
-            - name: Innbót fyrir sýnileika birgða
+            - name: Innbót birgðasýnileika
               items:
                 - name: Yfirlit viðbótar fyrir sýnileika birgða
                   href: inventory/inventory-visibility.md
-                - name: Setja upp sýnileika birgða
+                - name: Setja upp birgðasýnileika
                   href: inventory/inventory-visibility-setup.md
                 - name: Stilla sýnileika birgða
                   href: inventory/inventory-visibility-configuration.md
+                - name: Nota forrit birgðasýnileika
+                  href: inventory/inventory-visibility-power-platform.md
                 - name: Frátekningar sýnilegra birgða
                   href: inventory/inventory-visibility-reservations.md
-                - name: Power APP fyrir sýnileika birgða
-                  href: inventory/inventory-visibility-power-platform.md
                 - name: Opin API fyrir sýnileika birgða
                   href: inventory/inventory-visibility-api.md
         - name: IoT gervigreind
@@ -1697,6 +1731,8 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: Dagatöl og aðaláætlanagerð
                   href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Leysa úr röðunarvélarvillunni „nægileg afköst fundust ekki“
+                  href: master-planning/not-enough-capacity-error-resolution.md
                 - name: Bæta frammistöðu aðaláætlunargerðar
                   href: master-planning/master-planning-performance.md
                 - name: Bæta frammistöðu röðunarvélar
@@ -1757,10 +1793,8 @@
                       href: master-planning/tasks/create-baseline-forecast.md
                 - name: Aðaláætlanagerð með spá
                   items:
-                    - name: Minnkunarlyklar spár
+                    - name: Minnkunarlyklar samkvæmt spá
                       href: master-planning/reduction-keys.md
-            - name: Úrræðaleit fyrir aðaláætlanagerð
-              href: master-planning/troubleshoot-masterplanning.md
         - name: Fartækjaforrit
           items:
             - name: Heimasíða fartækjaforrits
@@ -1963,8 +1997,6 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Verkflæði innkaupa og aðfanga
               href: procurement/procurement-sourcing-workflows.md
-            - name: Villuleita verkflæði innkaupa og aðfanga
-              href: procurement/troubleshoot-procurementworkflows.md
             - name: Innkaupavörulistar
               items:
                 - name: Yfirlit innkaupavörulista
@@ -2005,8 +2037,6 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Skrá vörumóttöku í innkaupapöntun
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
-                - name: Villuleita innkaupapantanir
-                  href: procurement/troubleshoot-purchaseorders.md
             - name: Stofnun innkaupapöntunar
               items:
                 - name: Innkaupapantanir búnar til handvirkt
@@ -2037,8 +2067,6 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Eftirágreiddur afsláttur lánardrottins
                   href: procurement/vendor-rebates.md
-                - name: 'Villuleita verð, afslætti, samninga og eftirágreiddan afslátt'
-                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Innkaupareglur
               items:
                 - name: Yfirlit yfir innkaupareglur
@@ -2053,8 +2081,6 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Yfirlit yfir lánardrottnareikninga
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Villuleita innhreyfingarskjöl og reikningsfærslur
-                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Stjórnun og samstarf lánardrottna
               items:
                 - name: Uppsetning og viðhald samstarfs lánardrottna
@@ -2109,6 +2135,8 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka
                   href: procurement/tasks/submit-approve-project-budget-revision.md
+            - name: Algengar spurningar um innkaup
+              href: procurement/procurement-faq.md
         - name: Afurðaupplýsingastjórnun
           items:
             - name: Yfirlit afurðarupplýsinga
@@ -2203,8 +2231,6 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Útreikningur uppskrifta
                   href: cost-management/bom-calculations.md
-                - name: Úrræðaleit fyrir afurðarupplýsingar
-                  href: pim/troubleshooting-productinformation.md
             - name: Afurðarafbrigði
               items:
                 - name: Yfirlit afurðarafbrigða
@@ -2263,12 +2289,12 @@
                       href: pim/tasks/maintain-route-product-model.md
                     - name: Söluverð sem byggð eru á eigindum fyrir afurðarafbrigði sem byggð eru á skorðum
                       href: pim/attribute-based-product-configurator.md
-                    - name: Samþykkja afbrigðalíkan afurða
+                    - name: Samþykkja afbrigðalíkan afurðar
                       href: pim/tasks/approve-product-configuration-model.md
-                    - name: Flytja gögn fyrir afurðarlíkön
+                    - name: Flytja gögn fyrir vörulíkön
                       href: pim/tasks/transfer-data-product-models.md
-                - name: Úrræðaleit fyrir afurðaafbrigðastilli
-                  href: pim/troubleshooting-productconfigurator.md
+            - name: Algengar spurningar um afurðaupplýsingastjórnun
+              href: pim/product-information-faq.md
         - name: Umsjón hönnunarbreytinga
           items:
             - name: Yfirlit yfir umsjón hönnunarbreytinga
@@ -2461,11 +2487,9 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Sveigjanleikaflokkar
                       href: production-control/time-attendance-flex-groups.md
-                - name: Úrræðaleit fyrir afmarkaða framleiðslu
-                  href: production-control/troubleshoot-discretemanufacturing.md
-            - name: Straumlínuframleiðsla
+            - name: Lean-framleiðsla
               items:
-                - name: Yfirlit yfir straumlínuframleiðslu
+                - name: Yfirlit yfir lean-framleiðslu
                   href: production-control/lean-manufacturing-overview.md
                 - name: Verkþáttarbyggð úthýsing
                   href: production-control/activity-based-subcontracting.md
@@ -2615,8 +2639,6 @@
                       href: production-control/consumption.md
                     - name: Framleiðslubókun
                       href: cost-management/production-posting.md
-                - name: Úrræðaleit fyrir framleiðsluferli
-                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Stjórnun eftirágreidds afsláttar
           items:
             - name: Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
@@ -2681,8 +2703,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Staðfesta sölupantanir
                   href: sales-marketing/tasks/confirm-sales-orders.md
-                - name: Villuleita sölupantanir
-                  href: sales-marketing/troubleshooting-sales.md
+                - name: Algengar spurningar um sölupantanir
+                  href: sales-marketing/sales-orders-faq.md
             - name: Sölusamningar
               items:
                 - name: Yfirlit sölusamninga
@@ -2705,8 +2727,6 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Stofna og breyta sölutilboðum
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-                - name: Villuleita sölutilboð
-                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Skil
               items:
                 - name: Söluvöruskil
@@ -3115,26 +3135,18 @@
                   href: inventory/quality-management-for-warehouses-processes.md
                 - name: Gæðaskoðun
                   href: warehousing/quality-check.md
-                - name: Úrræðaleit fyrir vöruhúsaaðgerðir á innleið
-                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Vöruhúsaaðgerðir á útleið
               items:
-                - name: Frátekningar í vöruhúsakerfi
-                  items:
-                    - name: Sveigjanleg frátektarregla á vídd vöruhúsastigs
-                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
-                    - name: Úrræðaleit fyrir frátekningar í vöruhúsakerfi
-                      href: warehousing/troubleshoot-warehouse-reservations.md
-                    - name: Úrræðaleit fyrir keyrslur vöruhúss og frátekningastigveldi raða
-                      href: warehousing/troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md
+                - name: Sveigjanleg frátektarregla á vídd vöruhúsastigs
+                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Losa í vöruhús
+                  href: warehousing/release-to-warehouse-process.md
                 - name: Losað að hluta og hlutaafhending
                   items:
                     - name: Hlutaafhending farmflutnings
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Keyrsla á flutningspöntunum sem eru fráteknar að hluta til
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-                    - name: Úrræðaleit fyrir losun að hluta og hlutaafhendingar
-                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Tiltekt og pökkun
                   items:
                     - name: Setja upp klasatiltekt
@@ -3177,8 +3189,6 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Myndræn framsetning vinnuálags á útleið
                       href: warehousing/outbound-workload-visualization.md
-                    - name: Úrræðaleit fyrir tiltekt og pöntun
-                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Áfylling
                   items:
                     - name: Yfirlit áfyllingar
@@ -3195,8 +3205,6 @@
                       href: warehousing/replenishment-strategies.md
                     - name: Áfylling yfir staðsetningargetu
                       href: warehousing/replenishment-over-location-capacity.md
-                    - name: Úrræðaleit fyrir áfyllingar vöruhúss
-                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Hleðsluáætlun og sendingar
                   items:
                     - name: Staðfesta og flytja
@@ -3209,8 +3217,6 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Sending lítilla pakka
                       href: warehousing/small-parcel-shipping.md
-                    - name: Úrræðaleit fyrir hleðsluáætlun og sendingar
-                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Samstæðureglur sendingar
                   items:
                     - name: Samstæðureglur sendingar
@@ -3231,8 +3237,6 @@
                   href: warehousing/wave-processing.md
                 - name: Endurprenta og ógilda bylgjumerki
                   href: warehousing/reprint-and-void-wave-labels.md
-                - name: Úrræðaleit fyrir vöruhúsaaðgerðir á útleið
-                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Þvert á vöruhúsaaðgerðir
               items:
                 - name: Vinnureglur vöruhúss
@@ -3297,13 +3301,11 @@
                       href: warehousing/work-split.md
                     - name: Viðmót efnismeðhöndlunarbúnaðar (MHAX)
                       href: warehousing/mhax.md
-                    - name: Úrræðaleit fyrir vöruhúsavinnu
-                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Vöruhúsaforritið
               items:
                 - name: Uppsetning og notkun fartækja
                   items:
-                    - name: Nýjungar eða breytingar í Warehouse Management farsímaforriti
+                    - name: Nýjungar eða breytingar í farsímaforriti Warehouse Management
                       href: warehousing/whats-new-wma.md
                     - name: Setja upp og tengja farsímaforrit Warehouse Management
                       href: warehousing/install-configure-warehouse-management-app.md
@@ -3313,8 +3315,6 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Skanna strikamerki með myndavél í farsímaforriti Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Úrræðaleit fyrir tengivandamál Warehouse Management farsímaforrits
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Setja upp reiti og valmyndir fyrir fartæki
                   items:
                     - name: Skilgreina reiti fyrir farsímaforrit Warehouse Management
@@ -3419,16 +3419,10 @@
                       href: warehousing/gs1-barcodes.md
                     - name: Setja upp vöruhús fyrir flutningspantanir
                       href: warehousing/transfer-orders-warehouse.md
-                    - name: Úrræðaleit fyrir grunnstillingu vöruhúss
-                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Uppfærsla og flutningur
                   items:
-                    - name: Uppfæra ferli vöruhúsakerfis úr Microsoft Dynamics AX 2012 í Finance and Operations
+                    - name: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
-                    - name: Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlegt vöruhúsakerfi
-                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
-                - name: Úrræðaleit fyrir uppsetningu vöruhúss
-                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Þróun Supply Chain Management
           items:
             - name: Leiðbeiningar fyrir þróun Gantt-stýringar
@@ -3441,6 +3435,14 @@
           items:
             - name: Kostnaðarstjórnun
               items:
+                - name: Ósamræmisskýrsla um aldursgreiningu birgða
+                  href: troubleshooting/costing/aging-report-discrepancies.md
+                - name: Viðvaranir eða villur þegar skipt er um stöðu fjárhagstímabils án lokunar birgða
+                  href: troubleshooting/costing/change-ledger-period-without-closing.md
+                - name: Virknigloppur á milli birgðavirðis/aldursgreiningarskýrslna og geymsluútgáfna þeirra
+                  href: troubleshooting/costing/function-gaps-storage-reports.md
+                - name: Árekstur við uppfærslu gerist þegar aðferð birgðamats er annaðhvort staðalkostnaður eða hlaupandi meðaltal
+                  href: troubleshooting/costing/update-conflict-standard-moving.md
                 - name: Vantar reitarstillingar á afritun vörulínuflokka á annan lögaðila
                   href: troubleshooting/costing/copying-item-model-groups.md
                 - name: Skýrslan „Óbeinn kostnaður í vinnslu“ inniheldur framleiðslupantanir sem var eytt
@@ -3453,6 +3455,20 @@
                   href: troubleshooting/costing/there-is-no-from-dat.md
             - name: Birgðastjórnun
               items:
+                - name: Ekki er hægt að finna felligluggann „Verkflæði“ fyrir birgðabækur
+                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
+                - name: Verkflæði birgðabókar klárast aldrei og ekki er hægt að vinna úr færslubókinni
+                  href: troubleshooting/inventory/cant-post-inventory-journal.md
+                - name: Birgðabókin er læst og runuvinnsla verkflæðis virkar ekki
+                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
+                - name: Eining og magn einingar virka ekki á réttan hátt í birgðabókinni
+                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
+                - name: Skilyrði verkflæðis birgðabókar gilda á færslubókarstigi en ekki á línustigi
+                  href: troubleshooting/inventory/journal-workflow-conditions.md
+                - name: Síusvæðið á listasíðu lagerstöðu virkar ekki sem skyldi
+                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
+                - name: Hámarksfjöldi aukastafa fyrir birgðahaldseininguna er 0
+                  href: troubleshooting/inventory/sku-max-decimals-zero.md
                 - name: Margar birgðafærslur fyrir rununúmer án „Við efnislega uppfærslu“
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Að afturkalla skýrslu sem lokið býr til óvænta opna færslu
@@ -3467,6 +3483,20 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Aðaláætlanagerð
               items:
+                - name: Niðurbrot uppskriftar hagar sér öðruvísi fyrir staðfestar og áætlaðar framleiðslupantanir
+                  href: troubleshooting/planning/bom-explosion-works-differently.md
+                - name: Seinkunargildið er ekki uppfært þegar þú enduráætlar áætlaða pöntun
+                  href: troubleshooting/planning/delay-value-not-updated.md
+                - name: Það tekur langan tíma að uppfæra áætlaðar pantanir
+                  href: troubleshooting/planning/planned-order-long-update.md
+                - name: Áætlaðar pantanir eru myndaðar fyrir vörur á lager með framleiðslupöntunum
+                  href: troubleshooting/planning/planned-orders-in-stock-items.md
+                - name: Framleiðsluröðun tekur ekki tillit til öryggismarka
+                  href: troubleshooting/planning/prod-schedule-safety-margins.md
+                - name: Aðaláætlanagerð áætlar meira en tiltæka afkastagetu
+                  href: troubleshooting/planning/respect-capacity-limitations.md
+                - name: Nægileg afköst fundust ekki
+                  href: troubleshooting/planning/not-enough-capacity-error.md
                 - name: Villa kemur upp við keyrslu á innbyggðri aðaláætlunarvél
                   href: troubleshooting/planning/deprecated-master-planning-error.md
                 - name: Vara má ekki hafa uppskrift eða formúlu
@@ -3499,12 +3529,68 @@
                   href: troubleshooting/planning/when-importing-to-th.md
             - name: Innkaup
               items:
-                - name: Þú getur ekki reikningsfært sölupöntun sem snýr að viðskiptavini
+                - name: Ein eða fleiri dreifingar á fjárhagsupphæð eru annaðhvort yfir- eða undirdreifðar
+                  href: troubleshooting/procurement/accounting-over-under-distributed.md
+                - name: Aðeins er hægt að ljúka innkaupapöntunaraðgerð fyrir fulldreifð línunúmer
+                  href: troubleshooting/procurement/action-requires-full-distribution.md
+                - name: Ekki er hægt að breyta upphafsdegi fyrir samþykktan lánardrottin
+                  href: troubleshooting/procurement/approved-vendor-effective-date.md
+                - name: Afturkallaðar innkaupapantanir birtast í listanum yfir drög á vinnusvæðinu
+                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
+                - name: Hægt er að bóka færslur á frestaðan fjárhagslykil
+                  href: troubleshooting/procurement/canceled-receipts-posted.md
+                - name: Ef hætt er við eftirstöðvar afhendingar verður innkaupapöntun flutt í stöðuna „Staðfest“
+                  href: troubleshooting/procurement/change-management-canceled-remainder.md
+                - name: Ekki er hægt að sameina mörg innhreyfingarskjöl í eina innkaupapöntun
+                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
+                - name: Sjálfgefinn skattflokkur og staðgreiðsluafsláttur eru ekki fyllt út í reikningslyklinum
+                  href: troubleshooting/procurement/default-tax-group-and-discount.md
+                - name: "Afhendingarheitið er\_ekki samstillt eftir að afhendingaraðsetri innkaupapöntunar er breytt"
+                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
+                - name: Undantekning á sér stað þegar reikningur lánardrottins er bókaður
+                  href: troubleshooting/procurement/invocation-target-exception.md
+                - name: Innfluttar innkaupapantanir sýna röng línunúmer
+                  href: troubleshooting/procurement/line-number-increments.md
+                - name: Hámarkið í innkaupasamningi gildir ekki í innkaupabeiðni
+                  href: troubleshooting/procurement/max-limit-on-requisition.md
+                - name: Villan „Tilvísun hlutar ekki stillt“ kemur upp við staðfestingu á innkaupapöntun
+                  href: troubleshooting/procurement/object-reference-not-set.md
+                - name: Dreifingar á fjárhagsupphæð eru annaðhvort yfir- eða undirdreifðar
+                  href: troubleshooting/procurement/over-under-distribution.md
+                - name: Ekki er hægt að bæta reitnum „Verðeining“ við síðuna „Innkaupasamningur“
+                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
+                - name: Innkaupapantanir endurspegla ekki tungumálastillingar lögaðilans
+                  href: troubleshooting/procurement/po-language.md
+                - name: Kvittun innkaupapöntunar inniheldur ekki öll gjöld
+                  href: troubleshooting/procurement/po-receipt-missing-charges.md
+                - name: Einingaverð á innkaupapöntunum eru ekki reiknuð út á grundvelli umreiknings einingar
+                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
+                - name: Ekki er kveikt á stillingunni „Bóka á gjaldalykil í fjárhag“
+                  href: troubleshooting/procurement/post-setting-turned-off.md
+                - name: Villa við endursendingu innkaupapöntunar í verkflæði eftir breytingu
+                  href: troubleshooting/procurement/resubmit-po-after-change.md
+                - name: Vandamál við umreikning gjaldmiðils í verðsamningi
+                  href: troubleshooting/procurement/trade-agreement-currencies.md
+                - name: Skilyrði verðsamnings eru ekki notuð á innfluttar pöntunarlínur
+                  href: troubleshooting/procurement/trade-agreement-not-applied.md
+                - name: Hægt er að stofna viðskiptasamninga úr tilboðsbeiðnum sem var hafnað
+                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
+                - name: Eftirágreiddur afsláttur lánardrottins er ekki uppsafnaður samkvæmt reikningum
+                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
+                - name: Fylgiskjalsnúmer innhreyfingarskjals er notað þótt fylgiskjal sé ekki myndað
+                  href: troubleshooting/procurement/voucher-number-consumed.md
+                - name: Ekki er hægt að reikningsfæra sölupöntun sem snýr að viðskiptavini
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Ekki er hægt að bæta línu við innkaupabeiðni eftir að óskað hefur verið eftir breytingu
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Afurðaupplýsingastjórnun
               items:
+                - name: Ekki er hægt að eyða útgefinni afurð
+                  href: troubleshooting/products/cant-delete-released-prod.md
+                - name: Heiltölur eru rangt sléttaðar þegar afbrigðalíkan afurðar er reiknað út
+                  href: troubleshooting/products/integers-incorrectly-rounded.md
+                - name: Skrifað er yfir vörutexta þegar vara er skilgreind í sölupöntunarlínu
+                  href: troubleshooting/products/text-overwritten-configured-item.md
                 - name: Þú getur ekki notað sniðmát til að búa til útgefna vöru
                   href: troubleshooting/products/apply-template-in-re.md
                 - name: Þú getur ekki flutt inn vöru með því að nota V2-einingu útgefinna afurða
@@ -3513,6 +3599,32 @@
                   href: troubleshooting/products/when-the-customer-ad.md
             - name: Framleiðslustýring
               items:
+                - name: Villa í útreikningi bakfærslukostnaðaraðferðar við birgðalokun
+                  href: troubleshooting/production/backflush-costing-calculation-error.md
+                - name: Ekki er hægt að ljúka við framleiðslupöntun vegna gildisvillu consumptionCost uppskriftar
+                  href: troubleshooting/production/bom-consumption-cost-error.md
+                - name: Ekki er hægt að setja inn uppskrift og leið þegar ný framleiðslupöntun er stofnuð
+                  href: troubleshooting/production/cant-insert-bom-route-number.md
+                - name: Fyrri verkum í vinnslu er lokið þegar hlutamagn er tilkynnt í síðasta verki
+                  href: troubleshooting/production/in-progress-jobs-ended.md
+                - name: Ekki er hægt að taka vöru RM frá að fullu þegar framleiðslupöntun er gefin út
+                  href: troubleshooting/production/item-rm-not-reserved.md
+                - name: Uppfærslan „Bóka sem tilbúið“ mistekst með villunni „magn vantar“
+                  href: troubleshooting/production/missing-report-finished-quantity.md
+                - name: Villa þegar færslubókin Bóka sem tilbúið er bókuð
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Villa við að breyta stöðu framleiðslupöntunar úr „Bókað sem tilbúið“ í „Lokið“
+                  href: troubleshooting/production/production-order-status-error.md
+                - name: Framleiðslupantanir eru ekki sýndar á síðunni „Merking“
+                  href: troubleshooting/production/production-orders-marking-page.md
+                - name: Tilfangaheiti er ekki uppfært eftir að nafni starfskrafts er breytt í aðsetursbók
+                  href: troubleshooting/production/resource-name-not-updated.md
+                - name: Villa um samtals gallalaust magn þegar reynt er að ljúka framleiðslupöntun
+                  href: troubleshooting/production/total-good-quantity-order-error.md
+                - name: Ekki er hægt að bera raðnúmer fullunninna vara saman við raðnúmer notaðra vara
+                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
+                - name: Ekki er hægt að taka frá eða losa verk vegna þess að ferli eru í notkun
+                  href: troubleshooting/production/warehouse-management-processes-used.md
                 - name: Ekki er farið eftir stillingum losunarreglu í uppskriftarlínum
                   href: troubleshooting/production/flushing-principle-n.md
                 - name: Rununúmer er hreinsað við val á nýju lotukenni
@@ -3531,6 +3643,18 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Sala og markaðsstarf
               items:
+                - name: Búntvara er ekki studd í samstæðuferli
+                  href: troubleshooting/sales/bundle-item-intercompany-process.md
+                - name: Ekki er hægt að hætta við samstæðuinnkaupapöntun sem er tengd við sölupöntun
+                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
+                - name: Ekki er hægt að fjarlægja frátekningar þegar hætt er við pöntun
+                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
+                - name: Ef tveir viðskiptasamningar eru til fyrir dagsetningar sem skarast er sá sami alltaf valinn
+                  href: troubleshooting/sales/same-trade-agreement-selected.md
+                - name: Ekki er hægt að breyta sölumagni þjónustuvöru í sölutilboðslínu
+                  href: troubleshooting/sales/service-item-sales-quantity.md
+                - name: Skattaupplýsingar eru ekki uppfærðar ef staðsetningu í sölupöntunarhaus er breytt
+                  href: troubleshooting/sales/tax-information-not-updated.md
                 - name: Ekki er hægt að minnka magnið þegar hætt er við sölupöntun
                   href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: Kerfisstjórar geta ekki aflétt biðstöðu pöntunar vegna þess að þeir hafa ekki heimild til þess
@@ -3541,6 +3665,90 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Vöruhúsakerfi
               items:
+                - name: Kvaðning sjálfvirkrar frátekningar fyrir rununúmer er sýnd jafnvel með tiltækum birgðum
+                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
+                - name: Ekki er hægt að opna fyrir tiltektarvinnu vegna ólokinnar áfyllingarvinnu
+                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
+                - name: Ekki er hægt að hætta við fylgiseðil eftir að hann hefur verið bókaður úr sölupöntun
+                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
+                - name: Ekki er hægt að færa númeraplötu ef raðnúmer er með auða úthreyfingu og auða innhreyfingu heimila
+                  href: troubleshooting/warehousing/cant-move-license-plate.md
+                - name: Ekki er hægt að flytja birgðir á staðsetningu sem er númeraplötustýrð
+                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
+                - name: Traustakkeri fyrir slóð vottorðs finnst ekki þegar forritstenging er sett upp
+                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                - name: Klasaforstilling finnst ekki
+                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
+                - name: Ekki er hægt að vinna úr leiðréttingu á fylgiseðli
+                  href: troubleshooting/warehousing/delivery-note-correction.md
+                - name: Villa við staðfestingu á sendingu eftir að hafa búið til flutningspöntun fyrir vöru með raðnúmer
+                  href: troubleshooting/warehousing/dimension-location-left-blank.md
+                - name: Bein afhending getur ekki sinnt úrvinnslu fyrir vöruhús virkjað af vöruhúsakerfi
+                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
+                - name: Birgðagerðir eru blandaðar þegar forstilling dreifingarstjórnunar er notuð
+                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
+                - name: Valkostur margra birgðahaldseininga metur ekki margar aðgerðir staðsetningarleiðbeininga
+                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
+                - name: Tiltektarvinna er ekki útbúin strax þegar farmur á útleið er losaður
+                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
+                - name: Villan „Ógild númeraplata“ þegar kenni númeraplötu er skannað í farsímaforritinu
+                  href: troubleshooting/warehousing/invalid-license-plate.md
+                - name: Birgðaeigandi er ekki leyfður þegar unnið er með hreyfingar í vöruhúsaforritinu
+                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
+                - name: Kerfið getur ekki uppfært birgðamagn vegna ófullnægjandi færslna
+                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
+                - name: Ekki er hægt að velja breytingu á birgðastöðu í vinnugerðardálknum
+                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
+                - name: Villan „Ógild númeraplata“ eða „Staðsetning“ þegar skannað er í farsímaforritinu
+                  href: troubleshooting/warehousing/license-plate-location-invalid.md
+                - name: Magn númeraplötu er ekki gilt þegar pantanir á innleið eru skráðar
+                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
+                - name: Villa við skilgreiningu á númeraplötu við staðfestingu á sendingu fyrir flutningspöntun
+                  href: troubleshooting/warehousing/license-plate-specified-location.md
+                - name: Ein línanna er þegar í farmi
+                  href: troubleshooting/warehousing/line-already-on-load.md
+                - name: Villa varðandi hleðsluþyngd og uppfærsla afturkölluð þegar vinnsla fer fram á milli staða
+                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
+                - name: Móttaka blandaðrar númeraplötu virkar ekki fyrir neinn ráðstöfunarkóða fyrir utan Kredit
+                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
+                - name: Aðeins er hægt að nota hlutverk kerfisstjóra til að fá aðgang að hermiforriti fartækis
+                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
+                - name: Vandamál við að flytja úr grunnvöruhúsi yfir í ítarlegt vöruhús
+                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
+                - name: Ekki fannst næg vinna fyrir klasa við notkun kerfisstýrðrar klasatiltektar
+                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
+                - name: Staða pöntunar er áfram „Losuð að hluta“ eftir að sölupöntunin hefur verið reikningsfærð
+                  href: troubleshooting/warehousing/order-status-partially-released.md
+                - name: Ekki er hægt að nota farsímaforrit Warehouse Management fyrir hlutatiltekt
+                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
+                - name: Virkja breytingu á birgðastöðu fyrir hlutamagnsverk
+                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
+                - name: Prenta út fylgiseðil eða pökkunarefni eftir vöruhúsi eða svæði
+                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
+                - name: Magn er ekki gilt þegar tiltektarverk með margar númeraplötur eru til á sama stað
+                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
+                - name: Magn er ekki gilt þegar tiltekt er skipt á milli margra runa
+                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
+                - name: Ekki er hægt að endurlosa farm sem var sendur að hluta til í vöruhúsið
+                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
+                - name: 'Kerfið getur ekki gengið frá bókunum vegna þess að 0,00 eru tiltæk í birgðum'
+                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
+                - name: Ekki er hægt að stofna farmlínu fyrir vöruskilapöntun vegna þess að birgðavíddir eru ógildar
+                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
+                - name: Ekki var hægt að losa sölupöntun með vöruhúsaaðgerðum á útleið
+                  href: troubleshooting/warehousing/sales-order-not-released.md
+                - name: Sending á farmi var staðfest en engar línur eru bókaðar
+                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
+                - name: Hólfasniðmát taka ekki tillit til lagerbirgða fyrir runu fyrir ofan vörur
+                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
+                - name: Ekki er hægt að losa farm fyrir hlutamagn með frátekningastigveldi runu fyrir ofan
+                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
+                - name: Óstaðfestar innkaupapantanir eru staðfestar eftir að uppfærsla innhreyfingarskjala afurða er keyrð
+                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
+                - name: Ekki er hægt að afturkalla frátekt í sölupöntunarlínu
+                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
+                - name: Traustakkeri fyrir slóð vottorðs fannst ekki við uppfærslu og flutning í vöruhúsakerfi
+                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Ekki er hægt að staðfesta sendingu vegna þess að viðskiptavinur er í bið
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Ekki er hægt að staðfesta sendingu vegna þess að farmlínur eru með magnið núll

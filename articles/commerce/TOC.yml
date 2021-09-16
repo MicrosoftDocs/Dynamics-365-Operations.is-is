@@ -6,11 +6,13 @@
           href: index.md
         - name: Hefjast handa
           items:
+            - name: Þjónustulýsing
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/commerce/toc.json
             - name: Áður en þú kaupir
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: Þjónustuuppfærslur fyrir One Version
+            - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
               items:
-                - name: Yfirlit yfir þjónustuuppfærslur fyrir „Ein útgáfa“
+                - name: Yfirlit yfir þjónustuuppfærslur fyrir One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Algengar spurningar um uppfærslureglur fyrir One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
@@ -94,6 +96,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.22 (nóvember 2021)
+                      href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (október 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (ágúst 2021)
@@ -254,11 +258,15 @@
                       href: dev-itpro/define-retail-channel-communications-cdx.md
                     - name: Úrræðaleit fyrir Commerce Data Exchange
                       href: dev-itpro/CDX-Troubleshooting.md
+                    - name: Raða Commerce Data Exchange pökkum eftir aðalvísi
+                      href: CDX-package-sort.md
                 - name: Skipulag Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Innleiðing og úrræðaleit Commerce utan nets
+                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Birta vörulista netverslunar
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Efni Retail Channel Performance Power BI
+                - name: Retail Channel Performance Power BI efni
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)
                   href: dev-itpro/PA-DSS-Certification.md
@@ -704,6 +712,10 @@
                   href: configure-ratings-reviews.md
                 - name: Samstilla afurðaeinkunnagjöf
                   href: sync-product-ratings.md
+                - name: Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda
+                  href: manual-publish-rating-reviews.md
+                - name: Algengar spurningar um einkunnir og umsagnir
+                  href: ratings-reviews-faq.md
             - name: Stjórna birgðum þínum
               items:
                 - name: Birgðir
@@ -754,9 +766,11 @@
                   href: multiple-pickup-modes.md
                 - name: Vinna úr afhendingu á pöntun viðskiptavinar á sölustað
                   href: process-order-pickup-POS.md
+                - name: Virkja uppflettingu pöntunar fyrir gestakaup
+                  href: order-lookup-guest.md
             - name: Sölupantanir
               items:
-                - name: Stofna símaverspantanir
+                - name: Stofna pantanir símavers
                   href: tasks/create-call-center-orders.md
                 - name: Sérstilla tölvupósta vegna færslna eftir afhendingarmáta
                   href: customize-email-delivery-mode.md
@@ -1146,6 +1160,8 @@
                       href: order-confirmation-module.md
                     - name: Gjafakortseining
                       href: add-giftcard.md
+                    - name: Uppflettieining pantana
+                      href: order-lookup-module.md
                 - name: Einingar til að finna verslun
                   items:
                     - name: Kortaeining
@@ -1174,6 +1190,8 @@
                       href: nav-menu-module.md
                     - name: Svæðisvalseining
                       href: site-selector.md
+                    - name: Eining lands-/svæðisvals
+                      href: country-region-picker-module.md
                 - name: Leitareiningar
                   items:
                     - name: Leitarniðurstöðueining
@@ -1194,8 +1212,10 @@
                   href: generate-reports.md
             - name: Markhópur
               items:
-                - name: 'Markhópur eftir tæki, markaðssvæði og staðsetningu'
+                - name: 'Tæki, markaður og landfræðileg miðun'
                   href: targeting-overview.md
+                - name: Setja upp landfræðilega greiningu og áframsendingu
+                  href: geo-detection-redirection.md
             - name: Tilraunir
               items:
                 - name: Tilraunir í Dynamics 365 Commerce
@@ -1258,15 +1278,15 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Notandaskilgreint vottorðssnið fyrir smásöluverslanir
               href: localizations/certificate-profiles-for-retail-stores.md
-            - name: Regulatory Configuration Service
+            - name: Regulatory configuration service (RCS)
               items:
-                - name: Yfirlit Regulatory configuration service
+                - name: Regulatory configuration service (RCS) – yfirlit
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory configuration service – altækir eiginleikar
+                - name: (RCS) Regulatory Configuration Service (RCS) – staðfæringareiginleikar
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service og hlaða þeim upp í altæka geymslu
+                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Service (RCS) og hlaða þeim upp í altæka geymslu
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                - name: Regulatory Configuration Service – geymsluafskrift Lifecycle Services
+                - name: Regulatory Configuration Service (RCS) – úrelding á geymslu Lifecycle Services
                   href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
                 - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Commerce
                   items:
@@ -1274,20 +1294,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Flytja inn skilgreiningar úr RCS
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Altæk geymsla (GR)
-                  items:
-                    - name: Flytja inn skilgreiningar úr GR
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-                      href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Aukin síun til að finna skilgreiningar í GR
-                      href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
-                    - name: Hlaða skilgreiningum upp í GR
-                      href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
-                    - name: Deila skilgreiningum í altækri geymslu
-                      href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Ljúka skilgreiningum í RCS altækri geymslu
-                      href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
+                    - name: Altæk geymsla (GR)
+                      items:
+                        - name: Flytja inn skilgreiningar úr GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Aukin síun til að finna skilgreiningar í GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Hlaða skilgreiningum upp í GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Deila skilgreiningum í altækri geymslu
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Ljúka skilgreiningum í RCS altækri geymslu
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
@@ -1888,6 +1908,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
                     - name: Flytja inn skilgreiningar (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory configuration service (RCS)
+                  items:
+                    - name: Regulatory configuration service (RCS) – yfirlit
+                      href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: Sækja skilgreiningar rafrænnar skýrslugerðar í Commerce
+                      items:
+                        - name: Sækja skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                        - name: Flytja inn skilgreiningar úr RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Altæk geymsla (GR)
+                      items:
+                        - name: Flytja inn skilgreiningar úr GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Aukin síun til að finna skilgreiningar í GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+                        - name: Hlaða skilgreiningum upp í GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                        - name: Deila skilgreiningum í GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: Ljúka skilgreiningum í RCS altækri geymslu
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/commerce/toc.json
             - name: Stuttir leiðarvísar
               items:
                 - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
@@ -1944,6 +1988,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
                         - name: Breyta og keyra snið til að nota skjalastjórnunarskrár
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nota STRIKAMERKI til að búa til strikamerkismyndir
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nota gagnagjafa fyrir GAGNASÖFNUN í sniðum rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Kemba gagnagjafa
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Nota STRIKAMERKI til að búa til strikamerkismyndir
@@ -2014,6 +2064,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina áfangastaði sem eru háðir aðgerð
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp tilvísun í sniðum rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
@@ -2062,6 +2114,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
                     - name: Forritsuppfærsla 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
+                    - name: Forritsuppfærsla 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
@@ -2072,6 +2126,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
+                - name: Breyta kóða til að gera notendum kleift að skilgreina og nota nefnda áfangastaði rafrænnar skýrslugerðar
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) farsímaforrit
           items:
             - name: Heimasíða fartækjaforrits
@@ -2456,10 +2512,6 @@
               items:
                 - name: Skipulag Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Væntanlegar breytingar í Retail SDK
-                  href: dev-itpro/UpcomingSDKChanges.md
-                - name: Þróun og ALM-breytingar frá útgáfu 10.0.10 til 10.0.13
-                  href: dev-itpro/dev-changes-10-13.md
                 - name: Setja upp sölukeðju fyrir sjálfstæðar umbúðir SDK
                   href: dev-itpro/build-pipeline.md
                 - name: Sameina byggingarkerfin fyrir Commerce og Finance and Operations
@@ -2586,9 +2638,7 @@
                   href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: Búa til API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og síðari)
                   href: dev-itpro/retail-server-icontroller-extension.md
-                - name: Búa til nýtt API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og fyrri)
-                  href: dev-itpro/retail-server-extension.md
-                - name: Retail Typescript og C#-staðgenglar
+                - name: Retail Typescript og C#-staðgengill
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Nota API fyrir Retail Server í ytri forritum
                   href: dev-itpro/consume-retail-server-api.md
@@ -2702,8 +2752,10 @@
                   href: troubleshoot/pickup-store-link-missing.md
                 - name: Smásöluverslun birtist ekki á verslunarlista
                   href: troubleshoot/pickup-store-missing.md
-                - name: Hægt er að skrá út vörur án birgða
+                - name: Vörur án birgðastöðu er hægt að skrá út
                   href: troubleshoot/items-without-inventory-checked-out.md
+                - name: Afmörkun einkunna birtist á síðum leitarniðurstaðna og flokka þegar lausn einkunna og umsagna er ekki virkjuð
+                  href: troubleshoot/hide-ratings-refiner.md
             - name: Úrræðaleit fyrir SDK
               items:
                 - name: Setja upp þróunarumhverfi fyrir rafræn viðskipti til að kemba fyrir Tier 1 Retail Server VM

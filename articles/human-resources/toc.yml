@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 23. ágúst 2021
+          href: hr-whats-new-2021-08-23.md
         - name: 9. ágúst 2021
           href: hr-whats-new-2021-08-09.md
         - name: 26. júlí 2021
@@ -541,8 +543,10 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
                 - name: Algengar spurningar um aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Skilgreina aðsetursbók
+                - name: Skilgreina aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stjórna eigendum staðsetningar
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
             - name: Verkflæðiskerfi
               items:
                 - name: Yfirlit yfir verkflæðiskerfi
