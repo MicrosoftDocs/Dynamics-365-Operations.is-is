@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 96a644bf129de6dd3f78098bcb6415d17058d6decbd7d904a99bb6f050d3a9e0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c30df23debed9e2ab90745e6ea9d0e6b8a05b6d5
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730443"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429268"
 ---
 # <a name="payroll-variable-compensation-plan"></a>Launafyrirkomulag breytilegra launa
 
@@ -36,44 +36,51 @@ Efnislegt heiti: mshr_payrollvariablecompensationawardentity.
 
 | Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | lýsing |
 | --- | --- | --- |
-| **Númer starfsmanns**</br>mshr_personnelnumber</br>*Strengur* | Lesa eingöngu</br>Krafa |Einkvæmt númer starfsmanns.  |
-| **Dagsetning umbunar**</br>mshr_awarddate</br>*Mótfærð dagsetning og tími* | Lesa eingöngu</br>Krafa | Dagsetning umbunar. |
-| **Tegund umbunar**</br>mshr_awardtype</br>*[Valmöguleikar mshr_HrmCompVarAwardEmplType](hr-admin-integration-payroll-api-award-type.md)* | Lesa eingöngu</br>Krafa | Gerð umbunar sem er skilgreind fyrir launafyrirkomulag breytilegra launa. |
-| **Gjaldmiðill**</br>mshr_unitcurrencycode</br>*Strengur* | Lesa eingöngu </br>Krafa |Gjaldmiðillinn sem er skilgreindur fyrir launafyrirkomulag breytilegra launa.   |
+| **Númer starfsmanns**</br>mshr_personnelnumber</br>*Strengur* | Lesa eingöngu | Einkvæmt númer starfsmanns.  |
+| **Dagsetning umbunar**</br>mshr_awarddate</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetning umbunar. |
+| **Tegund umbunar**</br>mshr_awardtype</br>*[Valmöguleikar mshr_HrmCompVarAwardEmplType](hr-admin-integration-payroll-api-award-type.md)* | Lesa eingöngu | Gerð umbunar sem er skilgreind fyrir launafyrirkomulag breytilegra launa. |
+| **Gjaldmiðill**</br>mshr_unitcurrencycode</br>*Strengur* | Lesa eingöngu |Gjaldmiðillinn sem er skilgreindur fyrir launafyrirkomulag breytilegra launa.   |
 | **Auðkenni fyrirkomulags fastra launa**</br>mshr_fixedplanid</br>*Strengur* | Lesa eingöngu | Launafyrirkomulag fastra launa sem er notað sem grunnur fyrir útreikninga umbunar. |
 | **Einingargildi**</br>mshr_awardamount</br>*Tugabrot* | Lesa eingöngu | Gildi einingarinnar |
 | **Gerð ferlis**</br>mshr_processtype</br>*[Valmöguleikar mshr_hrmCompProcessType](hr-admin-integration-payroll-api-process-type.md)* | Lesa eingöngu | Gerð ferlis. |
 | **Gerð launafyrirkomulags breytilegra launa**</br>Strengur</br>*mshr_typeid* | Lesa eingöngu | Gerð launafyrirkomulags breytilegra launa. |
 | **Auðkenni launafyrirkomulags breytilegra launa**</br>Strengur</br>*mshr_planid* | Lesa eingöngu | Auðkenni launafyrirkomulags breytilegra launa. |
+| **Fjöldi eininga**</br>Tugabrot</br>*mshr_numberofunits* | Lesa eingöngu | Einingafjöldi umbunar. |
 | **Aðalsvæði**</br>mshr_primaryfield</br>*GUID* | Lesa eingöngu</br>Búið til af kerfi. | |
-| **Kenni starfsmanns**</br>mshr_fk_employee_id_value</br>*GUID* | Lesa eingöngu</br>Krafa</br>Framandlykill:mshr_Employee_id of mshr_payrollemployeeentity entity  | Kenni starfsmanns. |
-| **Eining launafyrirkomulags breytilegra launa**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Krafa</br>Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna launafyrirkomulag á einkvæman hátt. |
+| **Eining launafyrirkomulags breytilegra launa**</br>mshr_payrollvariablecompensationawardentityid</br>*GUID* | Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna launafyrirkomulag á einkvæman hátt. |
 
+## <a name="relations"></a>Vensl 
+
+|Gildi eiginleika | Tengdur aðili | Yfirlitseiginleiki | Tegund innheimtu |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_VariableCompAward |
+| _mshr_fk_fixedcomp_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedComp_id | mshr_FK_PayrollFixedCompensationPlanEntity_VariableCompAward |
 
 ## <a name="example-query"></a>Dæmi um fyrirspurn
 
 **Beiðni**
 
 ```http
-GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000001'
+GET [Organizaton URI]/api/data/v9.1/mshr_payrollvariablecompensationawardentities?$filter=mshr_personnelnumber eq '000046'
 ```
 
 **Svar**
 
 ```json
 {
-    "mshr_personnelnumber": "000001",
+    "mshr_personnelnumber": "000046",
     "mshr_awarddate": "2015-01-15T00:00:00Z",
     "mshr_awardtype": 200000000,
     "mshr_unitcurrencycode": "USD",
     "mshr_fixedplanid": "",
-    "mshr_awardamount": 1,
+    "mshr_unitvalue": 1,
     "mshr_processtype": 200000003,
     "mshr_typeid": "Bonus",
     "mshr_planid": "MgBonus",
-    "mshr_primaryfield": "000001 | MgBonus | Bonus | 1/15/2015",
-    "_mshr_fk_employee_id_value": "00000655-0000-0000-adff-004105000000",
-    "mshr_payrollvariablecompensationawardentityid": "000001a1-0000-0000-adff-004105000000",
+    "mshr_numberofunits": 1500,
+    "mshr_primaryfield": "000046 | MgBonus | Bonus | 1/15/2015",
+    "_mshr_fk_employee_id_value": "00000666-0000-0000-daff-004105000000",
+    "mshr_payrollvariablecompensationawardentityid": "000001a4-0000-0000-0d00-005001000000",
     "_mshr_fk_fixedcomp_id_value": null
 }
 ```

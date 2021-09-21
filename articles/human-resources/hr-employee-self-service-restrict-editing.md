@@ -1,8 +1,8 @@
 ---
 title: Takmörkun á breytingu persónuupplýsinga
 description: Takmarka getu starfsmanna til að breyta tengiliðaupplýsingum í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 03/03/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87977ff004e0785ec1d31fe3abac2728f87e7083348895b58e58f46cd3e79925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c4a13818103434df5005ad2805ac2ea7495bb767
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748884"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431406"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Takmörkun á breytingu persónuupplýsinga
 
@@ -54,7 +54,7 @@ ms.locfileid: "6748884"
 
 Þegar búið er að takmarka starfsmenn frá því að bæta við eða breyta tengiliðaupplýsingum geta þeir séð upplýsingar en ekki breytt þeim.
 
-Í þessu dæmi, þar sem starfsmönnum er meinað að breyta tengiliðaupplýsingunum **Fyrirtæki**, geta þeir samt séð upplýsingarnar í sjálfsafgreiðslu starfsmanna:
+Í þessu dæmi, þar sem starfsmönnum er meinað að breyta tengiliðaupplýsingunum **Fyrirtæki**, geta þeir samt séð upplýsingarnar í **Sjálfsafgreiðslu starfsmanna**:
 
 ![Skoða upplýsingar tengiliðar.](./media/hr-employee-self-service-restrict-view.png)
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748860"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471645"
 ---
 # <a name="message-processor-messages"></a>Skilaboð um skilaboðaúrvinnslu
 
@@ -44,7 +44,7 @@ Hægt er að nota reitina efst á síðunni **Skilaboð skilaboðaúrvinnslu** t
   - *Í biðröð* – Skilaboðin eru tilbúin til vinnslu hjá skilaboðaúrvinnslunni.
   - *Meðhöndlað* – Skilaboðin voru unnin af skilaboðaforritinu.
   - *Hætt við* - Skilaboðin voru unnin en úrvinnsla mistókst.
-- **Efni skilaboða** – Þessi sía leitar að texta í öllu efni skilaboða. (Efni skilaboða er ekki sýnt í hnitanetinu.) Sían vinnur flest sértákn (á borð við „-“) sem bil og stafabilstákn sem Boole OR-virknitákn. T=Til dæmis þýðir þetta að ef leitað er að tilteknu `journalid` gildi sem jafngildir „USMF-123456“ mun kerfið finna öll skilaboð sem innihalda „USMF“ eða „123456“, sem verður líklega langur listi. Því væri betra að slá aðeins inn „123456“ því það skilar sértækari niðurstöðum.
+- **Efni skilaboða** – Þessi sía leitar að texta í öllu efni skilaboða. (Efni skilaboða er ekki sýnt í hnitanetinu.) Sían vinnur flest sértákn (á borð við „-“) sem bil og stafabilstákn sem Boole OR-virknitákn. Til dæmis þýðir þetta að ef leitað er að tilteknu `journalid` gildi sem jafngildir „USMF-123456“ mun kerfið finna öll skilaboð sem innihalda „USMF“ eða „123456“, sem verður líklega langur listi. Því væri betra að slá aðeins inn „123456“ því það skilar sértækari niðurstöðum.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Dæmi um skilaboðagerð: Beiðni um fjárhagslega uppfærslu birgðaleiðréttingar
 
@@ -65,7 +65,7 @@ Nákvæmar upplýsingar um skilaboð er hægt að finna með því að velja þa
 
 ## <a name="message-processor-batch-job"></a>Runuvinnsla skilaboðaúrvinnslu
 
-Þegar skýja- og jaðrauppsetning er keyrð verður kallað sjálfkrafa á runuvinnsluna *Skilaboðaúrvinnsla* þegar ný skilaboð eru búin til fyrir úrvinnsluna, þannig að ekki ætti að vera þörf á því að tímasetja þessa vinnslu handvirkt.
+Þegar dreifð blönduð grannfræði með einingakvörðum er keyrð verður kallað sjálfkrafa á runuvinnsluna *Skilaboðaúrvinnsla* þegar ný skilaboð eru búin til fyrir úrvinnsluna, þannig að ekki ætti að vera þörf á því að tímasetja þessa vinnslu handvirkt.
 
 Ef nauðsyn krefur er hægt að fá aðgang að runuvinnslunni með því að fara í **Kerfisstjórnun > Skilaboðaúrvinnsla > Skilaboðaúrvinnsla**.
 

@@ -2,7 +2,7 @@
 title: Setja upp B2C-leigjanda í Commerce
 description: Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344499"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466269"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce notar Azure AD B2C til að styðja persónuskilríki noten
 
 > [!TIP]
 > Þú getur verndað notendur síðunnar enn frekar og aukið öryggi Azure AD B2C-leigjenda þinna með Azure AD auðkennisvörn og skilyrtum aðgangi. Til að fara yfir möguleikana sem eru í boði fyrir Azure AD B2C Premium P1 og Premium P2 leigjendur skal skoða [Auðkennisvörn og skilyrtur aðgangur fyrir Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview).
+
+## <a name="dynamics-environment-prerequisites"></a>Forkröfur Dynamics-umhverfis
+
+Áður en hafist er handa skal ganga úr skugga um að Dynamics 365 Commerce umhverfi þitt og netverslunarrás séu stillt á viðeigandi hátt með því að uppfylla eftirfarandi forsendur.
+
+- Stilla gildið **AllowAnonymousAccess** fyrir aðgerðir sölustaðar á „1“ í Commerce-höfuðstöðvum:
+    1. Fara í **POS-aðgerðir**.
+    1. Í aðgerðanetinu er hægrismellt og valið **Sérstilla**.
+    1. Veljið **Bæta við reit**.
+    1. Á listanum yfir tiltæka dálka skal velja **AllowAnonymousAccess** dálkinn til að bæta honum við.
+    1. Veldu **Uppfæra**.
+    1. Fyrir aðgerðina **612** „Bæta við viðskiptavini“ skal breyta **AllowAnonymousAccess** í „1“.
+    1. Keyrðu **1090 (Skrár)** verkið.
+- Stillið eigind **Handvirkt** fyrir númeraraðarviðskiptavinalykilinn á **Nei** í Commerce-höfuðstöðvum:
+    1. Opnið **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Færibreytur \> Færibreytur viðskiptakrafna**.
+    1. Velja **númeraraðir**.
+    1. Tvísmelltu á gildið **Kóði númeraraðar** í **Viðskiptavinalykill**.
+    1. Á flýtiflipanum **Almennt** í númeraröðinni skal stilla **Handvirkt** á **Nei**.
+
+Eftir að Dynamics 365 Commerce umhverfið hefur verið tekið í notkun er einnig mælt með því [Frumstilla grunngögn](enable-configure-retail-functionality.md) í umhverfinu.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Búðu til eða tengdu fyrirliggjandi AAD B2C leigjanda í Azure-gáttinni
 

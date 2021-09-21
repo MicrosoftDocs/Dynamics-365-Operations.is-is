@@ -2,7 +2,7 @@
 title: Rafræn skilaboð
 description: Þetta efnisatriði veitir yfirlit og upplýsingar um uppsetningu fyrir rafræn skilaboð í Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768340"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478725"
 ---
 # <a name="electronic-messaging"></a>Rafræn skilaboð
 
@@ -57,6 +57,16 @@ Virkni rafrænna skilaboða styður eftirfarandi aðstæður:
 - Geyma og yfirfara allar skýrslur sem eru búnar til.
 - Geyma og yfirfara allar kladdaupplýsingar sem tengjast aðgerðum sem eru keyrðar fyrir skilaboð eða skilaboðaatriði.
 - Stjórna vinnslu í gegnum ýmsar stöður skilaboða og skilaboðaatriða.
+
+## <a name="security-privileges"></a>Öryggisréttindi
+
+Eftirfarandi öryggisréttindi eru í boði fyrir rafræn skilaboð.
+
+| Öryggisréttindi           | Aðgangsstig | Tengingar |
+|------------------------------|--------------|-------------|
+| Vinna með rafræn skilaboð | Þessi réttindi veita fullan aðgang að virkni rafrænna skilaboða. Ef þú ert með þessi réttindi getur þú sett upp rafræn skilaboð og keyrt alla úrvinnsluna. | Þessi réttindi eru innifalin í öryggisheimildinni **Vinna með VSK-færslur**. Sú aðgangsheimild er á móti einnig innifalin í öryggishlutverkinu **Bókhaldari**. |
+| Skoða rafræn skilaboð     | Þessi réttindi veita skrifvarinn aðgang að virkni rafrænna skilaboða. Ef þú ert með þessi réttindi getur þú skoðað stillingar rafrænna skilaboða og skilaboð. Hins vegar er ekki hægt að setja upp eða keyra neitt. | Þessi réttindi eru innifalin í öryggisheimildinni **Spyrjast fyrir um stöðu VSK-færslu**. Sú aðgangsheimild er á móti einnig innifalin í eftirfarandi öryggishlutverkum:<ul><li>Innheimtustjóri</li><li>Starfsmaður viðskiptakrafa</li><li>Viðskiptakröfustjóri</li><li>Skattaendurskoðandi</li><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Sölustjóri</li><li>Afgreiðslumaður viðskiptaskulda</li></ul> |
+| Keyra rafræn skilaboð  | Þessi réttindi veita aðeins aðgang að síðunum **Rafræn skilaboð** og **Rafræn skilaboðaatriði**. Ef þú ert með þessi réttindi getur þú keyrt alla úrvinnsluna sem kallað er á af þessum síðum. | Þessi réttindi eru innifalin í öryggisheimildinni **Stjórna rafrænum skilaboðum**. Sú aðgangsheimild er á móti einnig innifalin í öryggishlutverkinu **Stjórnandi rafrænna skilaboða**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Eftirlitseiginleikar ákveðins lands studdar af virkni rafrænna skilaboða
 

@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe40807338c32fbaff2df11975bbcb2d7fefeb842f5fd85d7421552556465178
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ac91dd1d3dfffbf98733bbd8fe8beda538250da
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718757"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473550"
 ---
 # <a name="configure-ratings-and-reviews"></a>Skilgreina einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að grunnstilla svæði fyrir rafræn viðskipti til að sýna einkunnir og umsagnir viðskiptavina í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Mat og umsagnir á vefsíðum um netverslun hjálpa viðskiptavinum að fræðast um vörur áður en þeir taka kaupákvörðun með því að sýna þeim hvað öðrum viðskiptavinum finnst um þessar vörur. Fyrir vefsíður í netverslun eru einkunnir og umsagnir einnig búnaður til að safna endurgjöf viðskiptavina um vörur. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712050"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474917"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.16. (febrúar 2021)
 
@@ -56,30 +56,6 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 - [Yfirlit yfir hættuleg efni](../pim/hazmat-overview.md) (og tengd efnisatriði)
 - [Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð](../master-planning/new-master-planning-engine.md)
 - [Viðbætur cXML-innkaupa](../procurement/purchasing-cxml-enhancements.md)
-- [Úrræðaleit fyrir kostnaðarstjórnun](../cost-management/troubleshoot-costmanagement.md)
-- [Úrræðaleit fyrir vöruhúsaaðgerðir á innleið](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Úrræðaleit fyrir hleðsluáætlun og sendingar](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Úrræðaleit fyrir aðaláætlanagerð](../master-planning/troubleshoot-masterplanning.md)
-- [Úrræðaleit fyrir vöruhúsaaðgerðir á útleið](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Úrræðaleit fyrir losun að hluta og hlutaafhendingar](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Úrræðaleit fyrir afurðaafbrigðastilli](../pim/troubleshooting-productconfigurator.md)
-- [Úrræðaleit fyrir afurðarupplýsingar](../pim/troubleshooting-productinformation.md)
-- [Villuleita verkflæði innkaupa og aðfanga](../procurement/troubleshoot-procurementworkflows.md)
-- [Villuleita innkaupapantanir](../procurement/troubleshoot-purchaseorders.md)
-- [Villuleita verð, afslætti, samninga og eftirágreiddan afslátt](../procurement/troubleshooting-pricediscountagreements.md)
-- [Villuleita innhreyfingarskjöl og reikningsfærslur](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Úrræðaleit fyrir afmarkaða framleiðslu](../production-control/troubleshoot-discretemanufacturing.md)
-- [Úrræðaleit fyrir tiltekt og pöntun](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Úrræðaleit fyrir framleiðsluferli](../production-control/troubleshoot-processmanufacturing.md)
-- [Úrræðaleit fyrir frátekningar í vöruhúsakerfi](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Villuleita sölupantanir](../sales-marketing/troubleshooting-sales.md)
-- [Villuleita sölutilboð](../sales-marketing/troubleshooting-salesquotation.md)
-- [Úrræðaleit fyrir uppfærslu og flutning yfir í ítarlegt vöruhúsakerfi](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Úrræðaleit vegna vandamála með tengingu í farsímaforriti vöruhúsakerfis](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Úrræðaleit fyrir grunnstillingu vöruhúss](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Úrræðaleit fyrir áfyllingar vöruhúss](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Úrræðaleit fyrir uppsetningu vöruhúss](../warehousing/troubleshoot-warehouse-setup.md)
-- [Úrræðaleit fyrir vöruhúsavinnu](../warehousing/troubleshoot-warehouse-work.md)
 - [Frágangsklasar](../warehousing/putaway-clusters.md)
 - [Áfyllingaráætlanir](../warehousing/replenishment-strategies.md)
 - [Skipta vinnu](../warehousing/work-split.md)

@@ -1,8 +1,8 @@
 ---
 title: Stofna afkomuendurskoðun
 description: Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732250"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431161"
 ---
 # <a name="create-performance-reviews"></a>Stofna afkomuendurskoðun
 
@@ -65,13 +65,13 @@ ms.locfileid: "6732250"
 30. Velja flipann **Einkunnir**.  
 
     - Flýtiflipinn **Upplýsingar um mat** leyfir starfsmönnum að gefa sjálfum sér einkunnir og stjórnanda að gefa starfsmanni einkunn. Ef vægi er notað, er gildi vægis fyrir stig er reiknað út sjálfkrafa.  
-    - Virkja færibreytustillingar fyrir starfsmanns til að sýna einkunnir starfsmanns til að skoða þennan hluta.  
+    - Til að sjá þennan hluta skal virkja færibreytustillingar til að sýna einkunnir starfsmanns á síðunni **Samnýttar færibreytur fyrir mannauð**.  
 
-31. Veldu flipann **Útskráningar**. Ef yfirferð notar verkflæði, munu samþykktir eingöngu birtast eftir að verkflæði er lokið. Ef engin verkflæði er notað, þá eru bæði starfsmanns og stjórnanda taldar upp hér. Áskilið gátreitur er valinn, byggt á stillingum fyrir gerð yfirferðar.  
+31. Veldu flipann **Útskráningar**. Ef yfirferð notar verkflæði, munu samþykktir eingöngu birtast eftir að verkflæði er lokið. Ef engin verkflæði er notað, þá eru bæði starfsmanns og stjórnanda taldar upp hér. **Áskilið** gátreitur er valinn fyrir **Staðfestingar**, byggt á stillingum fyrir gerð yfirferðar.  
 32. Veldu flipann **Almennt**.
 
     - Afkastatímabilið stofnar sjálfgefna upphafs- og lokadagsetningu. Þessum dagsetningum er hægt að breyta.  
-    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. **Tilbúið fyrir endurskoðun** heimilar aðeins stjórnanda að skoða og breyta endurskoðuninni. **Endanleg endurskoðun** staðan leyfir bæði starfsmanni og stjórnanda að skoða endurskoðunina og einnig að breyta henni ef sett upp í gerð endurskoðunar. Stöðurnar **Lokið** og **Hætt við** gera yfirferðina skrifvarða. Ef umsögn er **Hafnað** og hún send aftur til starfsmannsins geta bæði starfsmaðurinn og yfirmaður gert nauðsynlegar breytingar svo starfsmaðurinn geti sent hana aftur.
+    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. **Tilbúið fyrir endurskoðun** heimilar aðeins stjórnanda að skoða og breyta endurskoðuninni. Staðan **Lokaendurskoðun** leyfir bæði starfsmanni og stjórnanda að skoða og breyta endurskoðun ef valkosturinn **Leyfa breytingu í lokaendurskoðun** er valinn í endurskoðunargerðinni. Stöðurnar **Lokið** og **Hætt við** gera yfirferðina skrifvarða. Ef umsögn er **Hafnað** og hún send aftur til starfsmannsins geta bæði starfsmaðurinn og yfirmaður gert nauðsynlegar breytingar svo starfsmaðurinn geti sent hana aftur.
 
 33. Í reitinn **Yfirlit** skal slá inn gildi.
 34. Veldu flipann **Endurskoða**. Þegar yfirferðin fer í gegnum stöðurnar geta starfsmaður og stjórnandi bætt við athugasemdum fyrir hvert markmið eða hæfni.  

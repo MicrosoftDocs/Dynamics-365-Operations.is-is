@@ -2,7 +2,7 @@
 title: Setja upp Azure-geymslureikning og lyklageymslu
 description: Í þessu efnisatriði er útskýrt hvernig á að stofna Azure-geymslureikning og lyklageymslu.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a0fe265c75138f3ecfbf08de3c30b2c824463afc35414986e21c4a27bf84bb61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770537"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463858"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
@@ -43,9 +43,9 @@ ms.locfileid: "6770537"
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Setja upp Azure-geymslureikning til að fá URI geymslureiknings
 
 1. Opnið geymslureikninginn sem ætlunin er að nota með rafrænni reikningsfærslu.
-2. Farið í **Blog-þjónusta** \> **Geymsla** og stofnið nýja geymslu.
+2. Farið í **Gagnageymslu** > **Geymslur** og stofnið nýja geymslu.
 3. Sláið inn nafn geymslunnar og stillið reitinn **Almennt aðgangsstig** á **Einkaaðili (enginn nafnlaus aðgangur)**.
-4. Opnið geymsluna og farið í **Stillingar \> Aðgangsregla**.
+4. Opnið geymsluna og farið í **Stillingar** > **Aðgangsregla**.
 5. Veljið **Bæta við reglu** til að bæta við geymdri aðgangsreglu.
 6. Stillið reitina **Kennimerki** og **Aðgangsheimildir** eftir því sem við á. Í reitnum **Aðgangsheimildir** á að velja allar aðgangsheimildir.
 
@@ -53,11 +53,11 @@ ms.locfileid: "6770537"
 
 7. Færið inn upphafs-og lokadagsetningar. Lokadagsetningin á að vera fram í tímann.
 8. Veljið **Í lagi** til að vista regluna og vistið síðan breytingarnar í geymsluna.
-9. Farið aftur í geymslureikninginn og opnið **Geymsluskoðara (forútgáfa)**.
-10. Hægrismellið á geymsluna og veljið síðan **Fá undirskrift samnýtts aðgangs**.
-11. Í svarglugganum **Undirskrift samnýtts aðgangs** skal afrita og vista gildin í reitnum **URI**. Þetta gildi verður notað í næsta ferli og verður vísað til þess sem *URI-undirskrift samnýtts aðgangs*.
-
-    ![URI-gildið valið og afritað.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+9. Farið í **Stillingar** > **Samnýttir aðgangslyklar** og stillið gildin í reitnum. 
+10. Færið inn upphafs- og lokadagsetningar. Lokadagsetningin á að vera fram í tímann.
+11. Í reitnum **Heimildir** skal velja eftirfarandi heimildir: **Lesa**, **Bæta við**, **Búa til**, **Skrifa**, **Eyða** og **Listi**. 
+12. Veljið **Mynda SAS-merki og vefslóð**.
+13. Afritaðu og geymdu gildið í reitnum **Blob SAS-vefslóð**. Þetta gildi verður notað í næsta ferli og verður vísað til þess sem *URI-undirskrift samnýtts aðgangs*.
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Setja skal upp lyklageymslu til að geyma URI geymslureiknings
 
@@ -65,7 +65,7 @@ ms.locfileid: "6770537"
 2. Farið í **Stillingar** \> **Leynilyklar** og veljið síðan **Búa til/Flytja inn** til að stofna nýjan leynilykil.
 3. Á síðunni **Stofna leynilykil**, í reitnum **Valkostir upphleðslu**, skal velja **Handvirkt**.
 4. Færið inn heiti leynilykilsins. Þetta heiti verður notað við uppsetningu þjónustunnar í Regulatory Configuration Service (RCS) og verður vísað í það sem *leyniheiti lyklageymslu*.
-5. Í reitnum **Gildi** skal velja **URI-undirskrift samnýtts aðgangs** og veljið síðan **Stofna**.
+5. Í reitinn **Gildi** skal færa inn URI undirskrift samnýtts aðgangs sem þú afritaðir í fyrra ferlinu og veldu því næst **Búa til**.
 6. Setja upp aðgangsregluna til að veita rafrænu reikningsfærslunni rétt öryggisstig aðgangs að leynilyklinum sem var búinn til. Opnið **Stillingar \> Aðgangsregla** og veljið **Bæta við aðgangsreglu**.
 7. Stillið aðgangsheimildir leynilykils fyrir aðgerðirnar **Fá** og **Listi**.
 
@@ -77,7 +77,7 @@ ms.locfileid: "6770537"
 
 9. Í reitnum **Velja aðalreikning** skal velja **Ekkert valið**.
 10. Í svarglugganum **Aðalreikningur** skal velja aðalreikninginn með því að bæta við **Þjónusta rafrænnar reikningsfærslu**.
-11. Veljið **Bæta við** og veljið síðan **Vista breytingar lyklageymslu**.
+11. Veljið **Bæta við** og veljið síðan **Vista**.
 12. Á síðunni **Yfirlit** skal afrita **DNS-heiti** fyrir lyklageymslu. Þetta gildi verður notað við uppsetningu þjónustunnar í RCS og verður vísað í sem *URI lyklageymslu*.
 
 > [!NOTE]

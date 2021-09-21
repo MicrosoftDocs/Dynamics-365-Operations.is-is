@@ -2,7 +2,7 @@
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718430"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473406"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Yfirlit
 
@@ -229,10 +231,14 @@ Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengj
 - Gildi fyrir merki rafrænnar skýrslugerðar sem er tengt við eigindirnar **Merki** er vistað í reitnum **Merki** fyrir færsluna sem var skilað.
 - Gildi fyrir merki rafrænnar skýrslugerðar sem er tengt við eigindirnar **Lýsing** er vistað í reitnum **Lýsing** fyrir færsluna sem var skilað.
 
+## <a name="performance"></a><a name=performance></a>Afköst
+
+Þegar þú skilgreinir hlut rafræns skýrslugerðarsniðs til að búa til skýrslu á æskilegu [tungumáli](#language) eða til að flytja inn skjal á innleið þar sem innihaldið er þáttað eftir æskilegu tungumáli, mælum við með að þú virkir eiginleikann **Vista kjörtungumál núverandi notanda fyrir keyrslur rafrænna skýrslugerða í skyndiminni** á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops/get-started/feature-management/feature-management-overview.md). Þessi eiginleiki hjálpar til við að bæta afköst, sérstaklega fyrir þætti rafræns skýrslugerðarsniðs sem innihalda margar tilvísanir í merki í formúlum rafrænnar skýrslugerðar og bindingar og margar [villuleitarreglur](general-electronic-reporting-formula-designer.md#TestFormula) til að búa til skilaboð notanda á kjörtungumáli þínu.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
-- [Aðgerðir rafrænnar skýrslugerðar](er-formula-language.md#functions)
+- [Aðgerðir rafrænnar skýrslugerðar](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

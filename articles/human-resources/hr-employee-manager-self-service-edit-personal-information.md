@@ -1,8 +1,8 @@
 ---
 title: Breyta persónuupplýsingum
-description: Þessi grein lýsir því hvernig á að breyta persónulegum upplýsingum í sjálfsafgreiðslu starfsmanna og stjórnenda.
-author: andreabichsel
-ms.date: 03/19/2020
+description: Í þessari grein er lýst hvernig á að breyta persónuupplýsingum í sjálfsafgreiðslu starfsmanns og stjórnanda.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715896"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431463"
 ---
 # <a name="edit-personal-information"></a>Breyta persónuupplýsingum
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þú getur breytt persónuupplýsingum þínum í Dynamics 365 Human Resources í **Vinnusvæði sjálfsafgreiðslu starfsmanna**.
+Þú getur breytt persónuupplýsingum þínum í Dynamics 365 Human Resources á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns**.
 
 Persónuupplýsingarnar sem þú getur breytt eru:
 
@@ -40,7 +40,7 @@ Persónuupplýsingarnar sem þú getur breytt eru:
 >[!NOTE]
 >Hugsanlega er ekki hægt að breyta vissum gerðum persónulegra upplýsinga, t.d. upplýsingum um tengilið. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
 
-Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem geta séð persónuupplýsingar þínar.
+Færibreytur sem stilltar eru á síðunni **Færibreytur altækrar aðsetursbókar** ákvarða hvaða hlutverk geta séð persónuupplýsingar þínar.
 
 1. Í Human Resources velurðu **Sjálfsafgreiðsla starfsmanns**.
 

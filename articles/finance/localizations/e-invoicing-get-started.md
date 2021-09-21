@@ -2,7 +2,7 @@
 title: Hafist handa með rafrænar reikningsfærslur
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732982"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463841"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Hafist handa með rafrænar reikningsfærslur
 
@@ -40,14 +40,14 @@ ms.locfileid: "6732982"
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Flytja inn eiginleika rafrænnar reikningsfærslu úr skilgreiningarveitu Microsoft 
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
 3. Smellið á **Flytja inn** og veljið síðan **Samstilla**.
 4. Afmarkið dálkinn **Skilgreiningarveita** með **Microsoft**.
-5. Veljið heiti rafræns reikningsfærslueiginleika úr töflunni í upphafi þessa efnisatriðis og veljið síðan **Flytja inn**.
+5. Veljið heiti rafræns reikningsfærslueiginleika úr töflunni og veljið síðan **Flytja inn**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Stofna eiginleika rafrænnar reikningsfærslu undir þjónustuveitu fyrirtækisins
 
-1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
+1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækir eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Veljið **Bæta við** > **Byggt á fyrirliggjandi eiginleika** og í reitinn **Heiti** skal slá inn heiti á eiginleika rafrænnar reikningsfærslu.
 3. Í reitinn **Lýsing** skal slá inn lýsingu eiginleikans.
 4. Í **Reitur grunneiginleika** skal velja innfluttan eiginleika rafrænnar reikningsfærslu úr skilgreiningarveitu Microsoft.
@@ -113,7 +113,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Spænskur rafrænn reikningur (ES)      | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
     | PEPPOL rafrænn reikningur            | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
 
-7. Fyrir hvert töfluheiti sem er búið til skal velja og færa inn gildi fyrir samhengi samkvæmt eftirfarandi töflu.
+6. Fyrir hvert töfluheiti sem er búið til skal velja og færa inn gildi fyrir samhengi samkvæmt eftirfarandi töflu.
 
     | Heiti eiginleika                         | Viðskiptaskjal | Samhengi |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Spænskur rafrænn reikningur (ES)      | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
     | PEPPOL rafrænn reikningur            | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
 
-8. Fyrir hvert töfluheiti og samhengi skal velja og færa inn gildi fyrir vörpun á viðskiptaskjali samkvæmt eftirfarandi töflu.
+7. Fyrir hvert töfluheiti og samhengi skal velja og færa inn gildi fyrir vörpun á viðskiptaskjali samkvæmt eftirfarandi töflu.
 
     | Heiti eiginleika                         | Viðskiptaskjal | Vörpun viðskiptaskjals |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Nota eiginleika rafrænnar reikningsfærslu í tengt forrit
 
 1. Í flipanum **Útgáfur** skal velja útgáfu rafræns reikningsfærslueiginleika sem á að nota.
-4. Veljið **Nota**.
-5. Stillið valkostinn **Nota fyrir tengt forrit** á **Já**.
-6. Í reitinum **Tengja forrit** skal velja tenginguna sem tengist tilviki þínu af Finance eða Supply Chain Management.
-7. Stillið valkostinn **Nota fyrir þjónustuumhverfi** á **Nei**.
-10. Veljið **Í lagi**.
+2. Veljið **Nota**.
+3. Stillið valkostinn **Nota fyrir tengt forrit** á **Já**.
+4. Í reitinum **Tengja forrit** skal velja tenginguna sem tengist tilviki þínu af Finance eða Supply Chain Management.
+5. Stillið valkostinn **Nota fyrir þjónustuumhverfi** á **Nei**.
+6. Veljið **Í lagi**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Kveikja á eiginleika rafrænnar reikningsfærslu í Finance eða Supply Chain Management
 
@@ -213,7 +213,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
 ## <a name="issue-electronic-invoices"></a>Gefa út rafræna reikninga
 
 1. Farið í **Fyrirtækisstjórnun** \> **Reglubundið** \> **Rafræn skjöl** \> **Senda inn rafræn skjöl**.
-2. Í flýtiflipanum **Færsla sem hafa á með** skal velja **Sía**.
+2. Á flýtiflipanum **Færslur til að hafa með** velurðu **Sía**.
 3. Veljið **Bæta við** til að bæta töfluheiti við fyrirspurnarsíuna.
 4. Veljið töfluna sem inniheldur reikningana.
 

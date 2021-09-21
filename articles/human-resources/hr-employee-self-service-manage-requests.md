@@ -1,8 +1,8 @@
 ---
 title: Vinna með beiðnir um leyfi og fjarvistir
 description: Skoða og samþykkja beiðnir um leyfi og fjarvistir í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/21/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,27 +12,27 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 46b26a3c4f6594bf1e471f241307c2da55d805c65b038233520003db952a2f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0033196c445a59482798e89913bbb40303462e2b
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769660"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431291"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Vinna með beiðnir um leyfi og fjarvistir
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Stjórna fríbeiðnum úr vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** í Dynamics 365 Human Resources. Beiðnir kunna að vera einfaldar einsdags beiðnir eða beiðnir upp á marga daga sem innihalda margskonar gerðir af leyfi og fjarvistum. Ef verkflæði er ekki virkjað eru beiðnirnar samþykktar sjálfkrafa. Þegar verkflæði er virkjað getur samþykktin verið sjálfvirk eða krafist útskráningar, það fer eftir grunnstillingu verkflæðis.
+Umsjón með frítímabeiðnum af vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** í Dynamics 365 Human Resources. Beiðnir kunna að vera einfaldar einsdags beiðnir eða beiðnir upp á marga daga sem innihalda margs konar gerðir af leyfi og fjarvistum. Ef verkflæði er ekki virkjað eru beiðnirnar samþykktar sjálfkrafa. Þegar verkflæði er virkjað getur samþykktin verið sjálfvirk eða krafist útskráningar, það fer eftir grunnstillingu verkflæðis.
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** velurðu **Hópurinn minn**.
 
 2. Undir **Upplýsingar um hópinn minn**, veldu flipann **Leyfi og fjarvera**.
 
-3. Skoðaðu og samþykktu tímalengdabeiðnir liðsmanna þinna eftir þörfum.
+3. Skoðaðu og samþykktu frítímabeiðnir teymismeðlima þinna eftir því sem þörf krefur.
 
 ## <a name="leave-request-workflow-experience-enhancements"></a>Endurbætur á upplifun verkflæðis leyfisbeiðni
 

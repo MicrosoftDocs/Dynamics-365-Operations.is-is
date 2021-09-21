@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766149"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471837"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Búa til afbrigði fyrir hönnunarafurðir
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir hvernig á að búa til afbrigði fyrir hönnunarafurðir.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Kveikja á myndun afbrigðis fyrir hönnunarafurðir
+
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Umsjón hönnunarbreytinga*
+- **Heiti eiginleika:** *Afbrigði útbúið fyrir hönnunarafurðir*
+
+> [!IMPORTANT]
+> Eiginleikinn *Afbrigði útbúið fyrir hönnunarafurðir* verður sýnilegur í kerfinu þínu eingöngu eftir að þú virkjar skilgreiningarlykilinn *Umsjón hönnunarbreytinga*. Fyrir leiðbeiningar skal sjá [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Búa til eitt eða fleiri ný afbrigði af hönnunarafurð
 
@@ -38,10 +49,15 @@ Eftirfarandi ferli gefur dæmi um hvernig á að búa til nokkur afbrigði sem i
 1. Bæta við uppskriftum og bæta við leiðum á afbrigði eftir þörfum.
 1. Á aðgerðasvæðinu skal opna flipann **Afurð** og í flokknum **Afurðarsniðmát** skal velja **Afurðarvíddir**.
 1. Síðan **Afurðarvíddir** opnast. Þessi síða inniheldur flipa fyrir hverja tiltæka vídd. Á hverjum flipa skaltu bæta við röð fyrir hvert gildi sem þú munt styðja fyrir hverja viðeigandi vídd. (Í þessu dæmi getur þú bætt við línum í flipann **Litur** fyrir *Hvítt*, *Gult* og *Grænt*).
-1. Lokið síðunni og velja **Útgefin afurðarafbrigði**. Athugaðu að fyrsta útbúna afbrigðið (hvítt V-1) birtist.
-1. Smella á **Tillögur um afbrigði**.
-1. Kerfið leggur til afbrigði með þeim litagildum sem til eru (til dæmis hvítt V-1, gult V-1 og grænt V-1).
-1. Veldu afbrigðin sem stungið er upp á og veldu **Í lagi** til að gefa afbrigðin út í hönnunarfyrirtækinu. Athugið að eftirfarandi skilyrði eiga við: 
+1. Lokaðu síðunni og veldu síðan **Útgefin afurðarafbrigði**. Taktu eftir að fyrsta afbrigðið sem þú bjóst til (blátt V-1) birtist.
+1. Á aðgerðasvæðinu, í flipanum **Afurðarafbrigði**, skal velja **Tillögur um afbrigði**.
+1. Í svarglugganum **Tillögur um afbrigði** skal fylgja einu af þessum skrefum:
+
+    - Efst í svarglugganum er hluti fyrir hverja tiltæka vídd. Fyrir hverja vídd skal velja gátreitinn fyrir hvert gildi sem á að búa til tillögu um afbrigði fyrir og síðan velja **Leggja til** á tækjastikunni. Viðeigandi tillögum er bætt við hlutann **Afbrigði sem stungið er upp á**.
+    - Veldu **Stinga upp á öllu** á tækjastikunni til að búa til tillögur um afbrigði fyrir allar tiltækar samsetningar af víddargildum. Tillögunum er bætt við hlutann **Afbrigði sem stungið er upp á**.
+
+1. Í hlutanum **Afbrigði sem stungið er upp á** skal velja gátreitinn fyrir hvert afbrigði sem á að búa til. Veldu síðan **Búa til** til að búa til og losa valin afbrigði í hönnunarfyrirtækið. Eftirfarandi skilyrði eiga við:
+
     - Ekkert af þeim afbrigðum sem búin eru til verða með uppskrift eða leið.
     - Eiginleikar fyrir þessi afbrigði verða sjálfgefnir úr verkfræðiflokknum og verða ekki afritaðir úr fyrra afbrigði.
 

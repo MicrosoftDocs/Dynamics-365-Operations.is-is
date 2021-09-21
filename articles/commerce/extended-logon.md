@@ -1,8 +1,8 @@
 ---
 title: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
 description: Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748547"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478672"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
 
@@ -58,6 +58,8 @@ Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til s
 Til að eyða aukinni innskráningu sem er úthlutað á starfsmann, skal leita að starfsmanni með því að nota aðgerðina **Aukin innskráning**. Veljið notanda og smellið á **Hætta við úthlutun**. Öll útvíkkuð skilríki sem eru tengd við starfsmanninn eru fjarlægð.
 
 ## <a name="extending-extended-logon"></a>Útvíkkun aukinnar innskráningar
+
+Aukin innskráning leyfir aðeins fimm mikilvæga stafi til að vera tilbúið einkvæmt kennimerki. Ef til dæmis tvö spjöld eru skilgreind með auðkennin „1234567“ og „1234578“ verður litið á þau bæði sem „12345“. Þú gætir búið til viðbót til að styðja við fleiri stafi. Nákvæmar leiðbeiningar er að finna í [Útvíkka aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 Hægt er að auka innskráningarþjónustu til að styðja til viðbótar aukin innskráningartæki, eins og lófaskanna. Nánari upplýsingar fást í fylgigögnum um POS.
 

@@ -1,8 +1,8 @@
 ---
 title: Uppsetning námskeiða
 description: Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
-author: andreabichsel
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1182935dbdf774b89f2c3635bdb18f45f99dc1ddadb398f226672b7b5b9e31de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5923da86459e02013b1b05e3d814e963d77925d3
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727042"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465150"
 ---
 # <a name="set-up-training-courses"></a>Uppsetning námskeiða
 
@@ -80,7 +80,7 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 - Tilgreina hámarks- og lágmarksfjölda þátttakenda.
 - Úthluta staðsetningu og kennslustofu á námskeið.
 - Mæla með hótelum fyrir þátttakendur námskeiðs.
-- Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna
+- Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á **sjálfsafgreiðslu°starfsmanna**
 
   >**Athugasemd** Aðeins er hægt að eyða námskeiði ef enginn hefur skráð sig á það. 
 

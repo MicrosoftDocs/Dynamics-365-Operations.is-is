@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736624"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474773"
 ---
 # <a name="forecast-reduction-keys"></a>Minnkunarlyklar samkvæmt spá
 
@@ -86,7 +86,18 @@ Fyrir þetta dæmi hefurðu með eftirfarandi eftirspurnarspá í aðaláætlun.
 
 ### <a name="transactions--reduction-key"></a>Færslur - minnkunarlykill
 
-Ef þú velur **Færslur – minnkunarlykill** er dregið úr spáþörfum í samræmi við færslur sem eiga sér stað á tímabilunum sem minnkunarlykillinn skilgreinir.
+Ef þú stillir reitinn **Aðferð notuð til að minnka þörf samkvæmt spá** á *Færslur - minnkunarlykill* er þörf samkvæmt spá minnkuð samkvæmt viðurkenndum eftirspurnarfærslum sem gerast á tímabilinu sem er skilgreint af minnkunarlyklinum.
+
+Viðurkennd eftirspurn er skilgreind af reitnum **Lækka spá eftir** á síðunni **Þekjuflokkar**. Ef þú stillir reitinn **Lækka spá eftir** á *Pantanir* eru aðeins færslur sölupöntunar teknar sem viðurkennd eftirspurn. Ef þú stilltir hann á *Allar færslur* eru allar birgðafærslur vegna úthreyfingar sem er ekki innan samstæðu teknar sem viðurkennd eftirspurn. Ef einnig á að líta á samstæðusölupantanir sem viðurkennd eftirspurn skal stilla valkostinn **Taka með samstæðupantanir** á *Já*.
+
+Lækkun spár hefst á fyrstu (elstu) færslu eftirspurnarspár á tímabili minnkunarlykils. Ef magn viðurkenndra birgðafærslna er meira en magnið í línum eftirspurnarspár á sama tímabili minnkunarlykils verður staða á magni birgðafærslna notað til að minnka magn eftirspurnarspár á fyrra tímabili (ef er ónotuð spá).
+
+Ef engin ónotuð spá er eftir á fyrra tímabili minnkunarlykils verður staðan á magni birgðafærslna notað til að minnka spármagnið í næsta mánuði (ef til er ónotuð spá).
+
+Gildið í reitnum **Prósenta** í línum minnkunarlykilsins er ekki notað þegar reiturinn **Aðferð notuð til að minnka þörf samkvæmt spá** er stilltur á *Færslur - minnkunarlykill*. Aðeins dagsetningarnar eru notaðar til að skilgreina tímabil minnkunarlykils.
+
+> [!NOTE]
+> Allar spár sem eru birtar á eða á undan deginum í dag verða hunsaðar og ekki notaðar til að stofna áætlaðar pantanir. Ef til dæmis eftirspurnarspáin þín fyrir mánuðinn er mynduð 1. janúar og þú keyrir aðaláætlanagerð sem inniheldur eftirspurnarspá þann 2. janúar mun útreikningurinn hunsa línu eftirspurnarspár sem er dagsett 1. janúar.
 
 #### <a name="example-transactions--reduction-key"></a>Dæmi: Færslur - minnkunarlykill
 

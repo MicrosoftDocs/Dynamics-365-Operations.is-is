@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757807"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475085"
 ---
 # <a name="inventory-forecasts"></a>Birgðaspár
 
@@ -94,7 +94,7 @@ Eftirfarandi tafla lýsir þeim skipunum sem eru tiltækar á tækjastiku flipan
 
 | Skipun | lýsing |
 |---|---|
-| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. |
+| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessu efnisatriði.) |
 | Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá hlutann [Spárfærslur magnuppfærslu](#bulk-update) síðar í þessu efnisatriði.) |
 | Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá hlutann [Birgðaspá](#inventory-forecast) síðar í þessu efnisatriði.) |
 | Stofna vöruþörf | Opnið svarglugga þar sem hægt er að búa til vöruþörf og sölupöntun eða færslubókarlínur vöru fyrir spáfærslur sem tengjast verki. Þótt þessi skipun sé tiltæk fyrir bæði framboðsspárlínur og eftirspurnarspárlínur, er ekki hægt að nota hana á síðunni **Framboðsspá**. |
@@ -201,7 +201,7 @@ Eftirfarandi tafla lýsir þeim skipunum sem eru tiltækar á tækjastiku flipan
 
 | Skipun | lýsing |
 |---|---|
-| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. |
+| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessu efnisatriði.)|
 | Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá hlutann [Spárfærslur magnuppfærslu](#bulk-update) síðar í þessu efnisatriði.) |
 | Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá hlutann [Birgðaspá](#inventory-forecast) síðar í þessu efnisatriði.) |
 | Stofna vöruþörf | Opnið svarglugga þar sem hægt er að búa til vöruþörf og sölupöntun eða færslubókarlínur vöru fyrir spáfærslur sem tengjast verki. |
@@ -296,7 +296,7 @@ Flipinn **Birgðavíddir** sýnir öll birgðavíddargildi fyrir línuna sem er 
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Úthlutunarhnitið á síðu eftirspurnarspár
 
-Ef notaður er úthlutunarlykill vöru eða ef færð hefur verið inn vöruspá fyrir eitt eða fleiri tímabil fram í tímann, er hægt að úthluta spánni með því að velja **Úthluta spá** á tækjastikunni í flipanum **Yfirlit**. Magninu er þá úthlutað samkvæmt því sem tilgreint er í línunum í hnitanetinu **Úthlutun**.
+Ef notaður er úthlutunarlykill vöru eða ef færð hefur verið inn vöruspá fyrir eitt eða fleiri tímabil fram í tímann, er hægt að úthluta spánni með því að velja **Úthluta spá** á tækjastikunni í flipanum **Yfirlit**. Magninu er þá úthlutað samkvæmt því sem tilgreint er í línunum í hnitanetinu **Úthlutun**. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessu efnisatriði.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Birgðaspá
 
@@ -328,6 +328,25 @@ Eftirfarandi tafla lýsir reitunum á síðu **Birgðaspár**.
 | **Undiruppskrift** | Uppskriftarnúmer tilgreindrar undiruppskriftar. |
 | **Undirleið** | Leiðanúmer tilgreindrar undirleiðar. |
 | (Aðrar víddir) | Hægt er að sýna viðbótarvíddir sem dálka í hnitanetinu. Til að velja viðbótarvíddir sem eru sýndar skal velja **Birgðir \> Sýna víddir** á aðgerðasvæðinu. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Úthluta spá
+
+Notaðu eftirfarandi ferli til að vinna úr völdum línum spáfærslu. Þegar þú úthlutar spá er magninu síðan dreift eins og línurnar gefa til kynna í hnitanetinu **Úthlutun**.
+
+1. Það fer eftir því hvaða gerð einingar verið er að stofna spá fyrir og hvernig spá á að búa til hvort þú opnar framboðs-, eftirspurnar- eða birgðaspársíðu eins og lýst er í [Skoða og færa handvirkt inn spárlínur](#manual-entry).
+1. Á síðunni fyrir línur framboðs- eða eftirspurnarspár skal velja spárlínu og síðan í flipanum **Yfirlit** skal velja **Úthluta spá** á tækjastikunni.
+1. Í svarglugganum **Úthluta spá** skal stilla reitina sem lýst er í eftirfarandi töflu. (Gildið sem valið er í reitnum **Aðferð** ákvarðar að aðrir reitir séu tiltækir.)
+
+    | Svæði | lýsing |
+    |---|---|
+    | Aðferð | <p>Veljið aðferðina sem er notuð til að úthluta spáfærslunni:</p><ul><li>**Ekkert** – Engin úthlutun á sér stað.</li><li>**Tímabil** – Spá sama magni fyrir hvert tímabil. Ef þetta gildi er valið skal tilgreina magn í reitnum **Hvert** og tímaeiningu í reitnum **Eining**.</li><li>**Lykill** – Úthlutið spá samkvæmt úthlutunarlykli tímabils sem var tilgreindur í reitnum **Tímabilslykill**. Hægt er að nota þessa aðferð þegar óskað er eftir að taka tillit til árstíðarbundinna frávika.</li><ul>|
+    | Eftir | <p>Færið inn fjölda tímabila fram í tímann sem spáin er framlengd um. Þessi reitur er aðeins í boði ef valið er *Tímabil* í reitnum **Aðferð**.</p><p>Til dæmis er hægt að velja *Tímabil* í reitnum **Aðferð**, slá inn *1* í reitinn **Hvern** og velja *Mánuðir* í reitnum **Eining**. Í reitnum **Lok** skal síðan tilgreina lokadagsetningu sem nær eitt ár fram í tímann. Í þessu tilviki verður búin til ein spárlína fyrir hvern mánuð komandi árs, byggt á vörunni og magninu sem er tilgreint í hauslínunni. |
+    | Eining | Veljið einingu tímabils: *Dagar*, *Mánuðir* eða *Ár*. Úthlutun er síðan í samræmi við fjölda daga, mánaða eða ára sem tilgreint er í reitnum **Hvert**.|
+    | Tímabilslykill | Tilgreinið úthlutunarlykil tímabils sem er notaður til að úthluta spánni. Frekari upplýsingar er að finna í [Gagnaúthlutun fjárhagsáætlunargerðar](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Lýkur | Tilgreindu lokadagsetningu sem á við um stillingarnar þínar í reitunum **Eftir** og **Eining**. |
+
+1. Veldu **Í lagi** til að staðfesta stillingarnar.
+1. Hægt er að fara yfir niðurstöðurnar í flipanum **Úthlutun** fyrir sömu línuna.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Spárfærslur magnuppfærslu
 

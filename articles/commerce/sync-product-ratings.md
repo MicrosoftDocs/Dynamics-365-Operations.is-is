@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2112c87912a1d130017c5804c4193b62c1e5a476be79bfd485640ec98b42f77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a50c09dc9fd8a4c18bbd01c70338279ac0ad9ae6
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730900"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473526"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Til að nota afurðaeinkunnir í alhliða rásum, svo sem á sölustað (POS) og í símaverum, verður að flytja afurðareinkunnir úr einkunna- og umsagnarþjónustunni inn í rásagagnagrunn Commerce. Þegar afurðaeinkunnir eru gerðar aðgengilegar í alhliða rásum geta þær hjálpað viðskiptavinum óbeint við samskipti sín við söluaðila.
 

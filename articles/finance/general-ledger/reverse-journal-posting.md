@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753481"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463590"
 ---
 # <a name="reverse-journal-posting"></a>Bókun í bakfærslubók
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753481"
 
 Þetta efni lýsir getu Microsoft Dynamics 365 Finance sem gerir þér kleift að bakfæra heila færslubók eða bakfæra eitt eða fleiri fylgiskjöl af færslulistum fylgiskjala án tillits til uppruna. 
 
+Áður en hægt er að nota eiginleikann sem lýst er í þessu efnisatriði þarf að vera kveikt á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+ - Eining: fjárhagur
+ - Heiti eiginleika: **Fjöldabakfærslur fyrir mörg skjöl**
+
 ## <a name="reversing-journals"></a>Bakfærsla færslubóka
 
 Hægt er að bakfæra eina færslubókarlínu í einu. Með bakfærslu á færslubók geturðu bakfært heila fjárhagsfærslubók. Til að bakfæra færslubók: 
 
-- Opnaðu fjárhagsfærslubókina og síaðu á bókaðar færslubækur.
+- Síaðu bókaðar færslur og opnaðu **Línur** í færslubókinni.
 - Veldu valmyndina **Bakfæra** efst á síðunni.
-- Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra
+- Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra.
 - Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu fyrir bakfærsluna.
 - Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 
 - Sláðu inn athugasemd sem þú vilt bæta við bakfærsluna.
@@ -52,8 +56,8 @@ Ef fylgiskjalið inniheldur 100 línur eða færri mun bakfærsluvinnslan keyra 
 
 Til að bakfæra eitt eða fleiri fylgiskjöl: 
 
-- Veldu valmyndina **Bakfæra** efst á síðunni
-- Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra.
+- Veldu valmyndina **Snúa öllum færslubókarfellilistanum** efst á síðunni.
+- Heildarfjöldi fylgiskjala og fylgiskjalalínur er birtur, sem og heildarfjárhæð línanna sem verið er að bakfæra.
 - Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu til að bakfæra hana.
 - Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 
 - Sláðu inn athugasemd til að lýsa bakfærslunni.

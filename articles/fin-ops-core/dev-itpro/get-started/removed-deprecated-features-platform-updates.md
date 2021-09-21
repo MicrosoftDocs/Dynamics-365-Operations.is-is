@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774410"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463625"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -32,7 +32,29 @@ ms.locfileid: "6774410"
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Tilkynning um úreldingu eiginleika tekur gildi í maí 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Eiginleikar felldir út frá og með ágúst 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL-skýrslur í Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Nokkrar SQL skýrslur verða teknar út í LCS. Þú þarft ekki lengur að fylgjast með skýrslunum þar sem þessari þjónustu hefur verið skipt út fyrir aðra þjónustu. |
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Afurðasvæði sem haft er áhrif á**         | SQL skýrslur: Núverandi DTU, núverandi DTU-upplýsingar, Fá upplýsingar um lás, Listi yfir núverandi áætlunarleiðbeiningar, Fá lista yfir fyrirspurnarauðkenni, Fá SQL fyrirspurnaráætlun fyrir ákveðið auðkenni áætlunar, Fá fyrirspurnaráætlanir og framkvæmdarstöðu, Fá takmörkunarstillingar, Fá biðtölfræði, Skrá yfir dýrustu fyrirspurnirnar |
+| **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-aðgerðir í LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að úrelda nokkrar SQL-aðgerðir í LCS.  |
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Afurðasvæði sem haft er áhrif á**         | SQL aðgerðir: Búa til leiðarvísi til að þvinga fram auðkenni áætlunar, Búa til leiðarvísi til að bæta við töfluvísbendingum, Fjarlægja leiðarvísi áætlunar, Kveikja/slökkva á læsingum á síðum og aukningu á læsingum, Uppfæra talnagögn á töflu, Endurbyggja vísi, Búa til vísi |
+| **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Tilkynning um úreldingu eiginleika tekur gildi í maí 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalization portal í Lifecycle Services (LCS)
 

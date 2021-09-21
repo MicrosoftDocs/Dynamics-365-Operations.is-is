@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344289"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474989"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Yfirlit viðbótar fyrir sýnileika birgða
 
@@ -31,22 +31,20 @@ Sem örþjónusta sem er smíðuð í Microsoft Dataverse, býður birgðasýnil
 
 Þú getur samþætt birgðasýnileika við mörg kerfi þriðja aðila með því að setja upp valkosti skilgreiningar fyrir staðlaðar birgðavíddir og setja upp færslugerðir. Birgðasýnileiki styður einnig sérstilla stækkunarhæfni í gegnum stillanlegt reiknað magn.
 
-## <a name="supported-features"></a>Studdir eiginleikar
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Samþætting birgðasýnileika við Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Samþætting birgðasýnileika við Dynamics 365 Supply Chain Management
+Samþætta lausnin sækir birgðagögn úr Dynamics 365 Supply Chain Management og heldur samfellt áfram að rekja birgðabreytingar. Frekari upplýsingar er að finna í [Setja upp birgðasýnileika](inventory-visibility-setup.md) og [Stilla birgðasýnileika](inventory-visibility-configuration.md).
 
-Samþætta lausnin sækir birgðagögn úr Dynamics 365 Supply Chain Management og heldur samfellt áfram að rekja birgðabreytingar. Frekari upplýsingar er að finna í [Setja upp sýnileika birgða](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Fá altækt yfirlit yfir birgðir
 
-### <a name="get-a-global-view-of-inventory"></a>Fá altækt yfirlit yfir birgðir
-
-Samþætta lausnin gerir þér kleift að skilgreina þína eigin gagnagjafa og gert birgðagögn miðlæg. Frekari upplýsingar er að finna í [Skilgreining birgðasýnileika](inventory-visibility-configuration.md).
+Samþætta lausnin gerir þér kleift að skilgreina þína eigin gagnagjafa og gert birgðagögn miðlæg. Frekari upplýsingar er að finna í [Stilla birgðasýnileika](inventory-visibility-configuration.md).
 
 Tvær aðferðir eru til við að skoða birgðirnar þínar:
 
 - Sendu inn fyrirspurn í gegnum API með miklum afköstum. Þetta API getur skilað birgðagögnum í nánast rauntíma beint úr tilviki skyndiminnis. Þú getur fundið samninga og sýnishorn í [Almennt API birgðasýnileika](inventory-visibility-api.md).
 - Skoðaðu hráan lagerlistann. Þessi listi er samstilltur reglulega úr tilviki skyndiminnis og er sýnilegur í Dataverse. Frekari upplýsingar er að finna í [Forrit birgðasýnileika](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Mjúkar frátekningar
+## <a name="soft-reservations"></a>Mjúkar frátekningar
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

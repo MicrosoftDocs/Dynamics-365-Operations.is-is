@@ -1,8 +1,8 @@
 ---
 title: Breyta heiti á sjálfsafgreiðsluvinnusvæði starfsmanns
 description: Þetta efnisatriði lýsir því hvernig á að breyta birgingarheiti vinnusvæðis sjálfsafgreiðslu starfsmanns í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/09/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25b5b1d94dc6379516fa74819499fe6792ff90230222a398bebfa427ad7ee25c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 483b870dc73a9248d5c0c1c215533162f1314419
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763011"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431367"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Breyta heiti á sjálfsafgreiðsluvinnusvæði starfsmanns
 
@@ -33,17 +33,17 @@ Ef um er að ræða sjálfboðaliða eða aðra sem ekki eru starfsmenn er hægt
 
 1. Í mannauði, veljið **Starfsmannastjórnun**, veljið **Tenglar** og veljið svo **Færibreytur mannauðs**.
 
-2. Veljið flipann **Sjálfsafgreiðsla starfsmanns**.
+2. Veldu flipann **Sjálfsafgreiðsla starfsmanns**.
 
 3. Undir **Nafn til birtingar** skal velja **Sjálfsafgreiðsla**.
 
-   ![Breyta heiti vinnusvæðis sjálfsafgreiðslustöðvar fyrir starfsmann í Sjálfsafgreiðslu.](./media/hr-employee-self-service-workspace-name.png)
+   ![Breyttu heiti á vinnusvæði sjálfsafgreiðslu starfsmanns í Sjálfsafgreiðsla.](./media/hr-employee-self-service-workspace-name.png)
 
 4. Veldu **Vista**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md)
+- [Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394510"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465078"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
@@ -49,13 +49,9 @@ Fyrir vinnsluumhverfi þarf að uppfylla eftirfarandi skilyrði:
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** ef þú settir upp umhverfi Finance eða Supply Chain Management eftir því hverjar rekstrarþarfir þínar eru:
 
-    - Skattaútreikningur
+    - Skattaútreikningsþjónusta
     - Styðja mörg VSK-skráningarnúmer
     - Skattar í flutningspöntun
-    - Flutningur ESB-sölulista út frá skattafærslum eingöngu
-    - Intrastat-skýrsla eftir mörgum skattkennum
-    - Skýrslugerð ESB-sölulista með mörgum skattkennum
-    - VSK-skýrsla eftir mörgum skattnúmerum
 
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** fyrir uppsett RCS-umhverfi.
 
@@ -65,18 +61,14 @@ Fyrir vinnsluumhverfi þarf að uppfylla eftirfarandi skilyrði:
 
 Fyrir prófunarumhverfi þarf að uppfylla eftirfarandi skilyrði:
 
-- Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.18 með KB4616360 eða nýrri.
+- Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
 - Þú hafðir samband við Microsoft með því að senda póst á <taxcalc@microsoft.com> til að virkja forútgáfuna í uppsettu umhverfi þínu af Finance eða Supply Chain Management.
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** ef þú settir upp umhverfi Finance eða Supply Chain Management eftir því hverjar rekstrarþarfir þínar eru:
 
-    - Skattaútreikningur
+    - Skattaútreikningsþjónusta
     - Styðja mörg VSK-skráningarnúmer
     - Skattar í flutningspöntun
-    - Flutningur ESB-sölulista út frá skattafærslum eingöngu
-    - Intrastat-skýrsla eftir mörgum skattkennum
-    - Skýrslugerð ESB-sölulista með mörgum skattkennum
-    - VSK-skýrsla eftir mörgum skattnúmerum
 
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** fyrir uppsett RCS-umhverfi.
 
@@ -103,12 +95,12 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 7. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
 8. Veldu rétta útgáfu skattaskilgreiningar samkvæmt útgáfu þinni af Finance og veldu svo **Flytja inn**.
 
-    | Losunarútgáfa | Skattafbrigði                       | Vörpun líkans                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Skattstillingar - Evrópa 30.12.82     |                                 |
-    | 10.0.19         | Skattaútreikningsstilling 36.38.193 |                                 |
-    | 10.0.20         | Skattaútreikningsstilling 40.43.208 |                                 |
-    | 10.0.21         | Skattaútreikningsstilling 40.46.212 | Dataverse Líkanavörpun 40.46.9 |
+    | Losunarútgáfa | Skattafbrigði                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Skattstillingar - Evrópa 30.12.82     |
+    | 10.0.19         | Skattaútreikningsstilling 36.38.193 |
+    | 10.0.20         | Skattaútreikningsstilling 40.43.208 |
+    | 10.0.21         | Skattaútreikningsstilling 40.46.212 |
 
 9. Á vinnusvæðinu **Altækir eiginleikar** skal velja **Eiginleikar**, velja reitinn **Skattaútreikningur** og veljið því næst **Bæta við**.
 10. Velja eina af eftirfarandi gerðum eiginleika:

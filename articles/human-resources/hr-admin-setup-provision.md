@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393524"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441166"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -43,6 +43,11 @@ ms.locfileid: "7393524"
 Áður en þú úthlutar fyrsta sandkassa- eða vinnsluumhverfinu þínu gæti verið ráðlegt að úthluta [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) til að staðfesta virkni Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. 
 
 Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 60 daga reynslutíma. Þegar reynslutíminn rennur út er umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta þau. Ekki er hægt að umbreyta umhverfinu í sandkassa- eða vinnsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+
+Þegar prófunarumhverfi Human Resources er búið til er Power Apps prófunarumhverfi einnig búið til í leigjandanum og tengt við umhverfi Human Resources. Power Apps umhverfið, sem nefnt er „TestDrive“, hefur sama reynslutíma og umhverfi Human Resources.
+
+> [!NOTE]
+> Úthlutun prófunarumhverfis Human Resources mun ekki takast ef auðkenndur notandi er ekki með heimild til að búa til Power Apps prófunarumhverfi. Notandinn verður að vera með í notendaflokknum sem getur búið til prófunarumhverfi í Power Platform stjórnendamiðstöðinni. Nánari upplýsingar er að finna í [Stjórna því hver getur búið til og stjórnað umhverfum í Power Platform stjórnendamiðstöðinni](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Skipuleggja umhverfi Human Resources
 
@@ -69,7 +74,7 @@ Til að nota LCS til að stjórna Human Resources umhverfi þínu, þarftu fyrst
 1. Skráðu þig inn á [LCS](https://lcs.dynamics.com/Logon/Index) með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Human Resources.
 
    > [!NOTE]
-   > Til að tryggja árangursríka úthlutun verður reikningurinn sem þú notar til að úthluta umhverfi Human Resources að vera úthlutað á annaðhvort hlutverkið **Kerfisstjóri** eða **Kerfisstillir** í Power Apps-umhverfinu sem tengist umhverfi Human Resources. Frekari upplýsingar um úthlutun öryggishlutverka til notenda í Power Platform er að finna í [Skilgreina öryggi notanda við tilföng](/power-platform/admin/database-security).
+   > Til að tryggja árangursríka úthlutun verður reikningurinn sem þú notar til að úthluta umhverfi Human Resources að vera úthlutað á annaðhvort hlutverkið **Kerfisstjóri** eða **Kerfisstillir** í Power Apps-umhverfinu sem tengist umhverfi Human Resources. Frekari upplýsingar um úthlutun öryggishlutverka til notenda í Power Platform er að finna í [Skilgreina öryggi notanda til tilfanga](/power-platform/admin/database-security).
 
 2. Velja skal plúsmerki (**+**) til að stofna verk.
 

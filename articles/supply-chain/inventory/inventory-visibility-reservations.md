@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345150"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475037"
 ---
 # <a name="inventory-visibility-reservations"></a>Frátekningar sýnilegra birgða
 
@@ -32,19 +32,20 @@ Ef þú vilt þá getur þú sett upp Microsoft Dynamics 365 Supply Chain Manage
 
 Þegar þú kveikir á eiginleika frátekningar verður Supply Chain Management sjálfkrafa tilbúið til að mótbóka frátekningar sem eru gerðar með birgðasýnileika.
 
-> [!NOTE]
-> Virkni mótbókunar krefst útgáfu 10.0.22 eða nýrri af Supply Chain Management. Ef þú vilt nota frátekningar birgðasýnileika er mælt með því að bíða þangað til þú hefur uppfært Supply Chain Management í útgáfu 10.0.22 eða nýrri.
-
-## <a name="turn-on-the-reservation-feature"></a>Kveikja á eiginleika frátekningar
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Kveikja á og setja upp eiginleika frátekningar
 
 Til að kveikja á eiginleika frátekningar skal fylgja þessum skrefum.
 
-1. Í Power Apps skal opna **Birgðasýnileika**.
+1. Skráðu þig inn í Power Apps og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
 1. Í flipanum **Eiginleikastjórnun** skal kveikja á eiginleikanum *OnHandReservation*.
 1. Skráðu þig inn í Supply Chain Management.
-1. Farðu í **Birgðastjórnun \> Uppsetning \> Færibreytur vegna samþættingar birgðasýnileika**.
-1. Undir **Mótbókun frátekningar** skal stilla valkostinn **Virkja mótbókun frátekningar** á *Já*.
+1. Farðu á **[Vinnusvæði eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og virkjaðu eiginleikann *Samþætting birgðasýnileika með mótbókun frátekningar* (krefst útgáfu 10.0.22 eða síðar).
+1. Farðu í **Birgðastjórnun \> Uppsetning \> Færibreytur vegna samþættingar birgðasýnileika**, opnaðu flipann **Mótbókun frátekningar** og gerðu eftirfarandi stillingar:
+    - **Virkja mótbókun frátekningar** – Stilltu á *Já* til að virkja þessa virkni.
+    - **Breytilykill fyrir mótbókun frátekningar** – Veldu stöðu birgðafærslu sem mun mótbóka frátekningar sem gerðar eru í birgðasýnileika. Þessi stilling ákvarðar stöðu pöntunarúrvinnslu sem setur af stað mótbókanir. Staða á birgðafærslu pöntunar sér um að rekja stigið. Veljið um eitt af eftirfarandi:
+        - *Í pöntun* – Fyrir stöðuna *Í færslu* mun pöntun senda beiðni um mótbókun þegar hún er stofnuð. Magn mótbókunar verður magn stofnaðrar pöntunar.
+        - *Taka frá* – Fyrir stöðuna *Taka frá pantaða færslu* mun pöntun senda beiðni um mótbókun þegar hún er tekin frá, tínd, fylgiseðill bókaður eða hún reikningsfærð. Beiðnin verður aðeins sett af stað í eitt skipti fyrir fyrsta skrefið þegar uppgefið ferli á sér stað. Magn mótbókunar verður magnið þar sem staða birgðafærslu breyttist úr *Í pöntun* í *Frátekið pantað* (eða síðari staða) í samsvarandi pöntunarlínu.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Nota eiginleika frátekningar í birgðasýnileika
 
@@ -56,13 +57,21 @@ Frátekningarstigveldið útskýrir röð vídda sem þarf að tilgreina þegar 
 
 Frátekningarstigveldið getið verið öðruvísi en stigveldi atriðaskráar. Þetta sjálfstæði gerir þér kleift að innleiða flokkastjórnun þar sem notendur sundurliðað víddirnar í smáatriði til að tilgreina kröfurnar við að gera nákvæmari frátekningar.
 
-Til að skilgreina mjúkt frátekningarstigveldi í Power Apps skal opna síðuna **Skilgreining** og því næst í flipanum **Vörpun mjúkrar frátekningar** skal setja upp frátekningarstigveldið með því að bæta við og/eða breyta víddum og stigveldi þeirra.
+Til að skilgreina mjúkt frátekningarstigveldi í Power Apps skal opna síðuna **Skilgreining** og því næst í flipanum **Stigveldi mjúkrar frátekningar** skal setja upp frátekningarstigveldið með því að bæta við og/eða breyta víddum og stigveldi þeirra.
+
+Mjúka frátekningastigveldið ætti að innihalda `SiteId` og `LocationId` sem þætti vegna þess að þeir setja saman skilgreiningu þáttunarinnar.
+
+Frekari upplýsingar um hvernig á skilgreina frátekningar er að finna í [Skilgreining frátekningar](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Kalla á API frátekningar
 
 Frátekningar eru gerðar í þjónustu birgðasýnileika með því að senda bókunarbeiðni á vefslóð þjónustunnar, t.d. `/api/environment/{environment-ID}/onhand/reserve`.
 
 Fyrir frátekningu verður meginmál beiðninnar að innihalda auðkenni fyrirtækis, afurðarkenni, frátekið magn og víddir. Beiðnin býr til einkvæmt frátekningarkenni fyrir hverja færslu frátekningar. Færsla frátekningar inniheldur einkvæma samsetningu afurðarkennis og vídda.
+
+Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Gildi `True` þýðir að staðfesting sé nauðsynleg og á móti merkir gildið `False` að staðfestingin er ekki nauðsynleg. Sjálfgefið gildi er `True`.
+
+Ef þú vilt hætta við frátekningu eða afturkalla frátekningu á tilgreindu birgðamagni skaltu stilla magnið á neikvætt gildi og stilla `ifCheckAvailForReserv` færibreytuna á `False` til að sleppa villuleitinni.
 
 Hér er dæmi um meginmál beiðni til viðmiðunar.
 
@@ -108,18 +117,9 @@ Fyrir stöður birgðafærslu sem fela í sér tiltekinn breytilykil fyrir mótb
 
 Mótbókað magn fylgir birgðamagninu sem er tilgreint í birgðafærslum. Mótbókunin tekur ekki gildi ef ekkert frátekið magn er áfram í þjónustu birgðasýnileika.
 
-> [!NOTE]
-> Virkni mótbókunar er í boði frá og með útgáfu 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>Setja upp breytilykil fyrir mótbókun frátekningar
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Setja upp breytilykil fyrir mótbókun frátekningar
-
-Breytilykill fyrir mótbókun frátekningar ákvarðar stig pöntunarúrvinnslu sem setur af stað mótbókanir. Staða á birgðafærslu pöntunar sér um að rekja stigið. Til að setja upp breytilykil fyrir mótbókun frátekningar skal fylgja þessum skrefum.
-
-1. Farðu í **Birgðastjórnun \> Uppsetning \> Færibreytur vegna samþættingar birgðasýnileika \> Mótbókun frátekningar**.
-1. Stilltu reitinn **Breytilykill fyrir mótbókun frátekningar** á eitt af eftirfarandi gildum:
-
-    - *Í pöntun* – Fyrir stöðuna *Í færslu* mun pöntun senda beiðni um mótbókun þegar hún er stofnuð.
-    - *Taka frá* – Fyrir stöðuna *Taka frá pantaða færslu* mun pöntun senda beiðni um mótbókun þegar hún er tekin frá, tínd, fylgiseðill bókaður eða hún reikningsfærð. Beiðnin verður aðeins sett af stað í eitt skipti fyrir fyrsta skrefið þegar uppgefið ferli á sér stað.
+Ef þú hefur ekki gert það nú þegar skaltu setja upp breytilykil frátekningar eins og lýst er í [Kveikja á og setja upp eiginleika frátekningar](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Setja upp auðkenni frátekninga
 

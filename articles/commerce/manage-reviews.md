@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35a649463b853d4ff0ef158167e5a3e0bcc4ddc5e6e9007fddda82dd14a00851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dce22b77862c41bc702f46735da8ce1100bb5e7d
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731594"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473305"
 ---
 # <a name="manage-ratings-and-reviews"></a>Stjórna einkunnum og umsögnum
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að stjórna einkunnum og umsögnum í Microsoft Dynamics 365 Commerce vefsmið.
-
-## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce notar Microsoft Azure Cognitive Services til að miðla sjálfkrafa endurskoðun texta með því að ritstýra blótsyrði. Auk þess geta stjórnendur notað Dynamics 365 Commerce-vefsmið til að innleiða eftirfarandi handvirk verk:
 

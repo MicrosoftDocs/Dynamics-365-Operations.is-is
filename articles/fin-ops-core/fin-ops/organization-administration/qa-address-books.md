@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5809d4a29c4209d8fb42bdfd441a3a4fb201ca6c6318abc0315a02ead7c551de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759162"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463624"
 ---
 # <a name="address-books-faq"></a>Algengar spurningar um aðsetursbækur
 
@@ -66,10 +66,12 @@ Hægt er að færa inn aðilafærslur annað hvort°í altæku aðsetursbókina 
 
 Hægt er að setja upp þýðingar á upplýsingum um aðsetur,°þannig að upplýsingarnar birtast á tungumáli notanda (kerfistungumál) í forritinu en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
 
-## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Eftir innflutning á aðsetrum, hvers vegna get ég ekki breytt innfluttum aðsetrum þegar ég opna færslurnar?
+## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Af hverju get ég ekki breytt færslum eftir að ég hef flutt inn aðsetur?
 
-Við innflutning á aðsetrum er reitur merktur **IsLocationOwner** sem segir til um hvort aðilinn sem tengist staðsetningunni (aðsetrinu) sé eigandi aðsetursins. Ef aðilinn er eigandi aðsetursins, er hægt að breyta því þegar það er opnað með aðilanum í altækri aðsetursbók eða úr skjámynd aðalfærslu (t.d. viðskiptavini, lánardrottni eða starfsmanni). Ef aðilinn er ekki eigandi aðsetursins er ekki hægt að breyta færslunni úr áður uppgefnum skjámyndum. Við innflutning á aðsetrum ætti að stilla **IsLocationOwner** á **Já** ef aðsetrið á að vera breytanlegt í gegnum tilheyrandi aðila. Hins vegar kemur fyrir að reiturinn er fluttur inn á rangan hátt. Til að leysa þennan vanda er hægt að uppfæra eiganda staðsetningarinnar innan altækrar aðsetursbókar úr aðilafærslunni eða á síðunni **Staðfesta eigendur staðsetningar**. Til að uppfæra eina aðilafærslu skal fara í **Altæk aðsetursbók > Aðsetur**. Veljið **Breyta** til að opna síðuna **Breyta aðsetri** til að breyta eiganda staðsetningarinnar. Veljið **Breyta eiganda staðsetningar** til að sjá fyrri eigendur hennar með núverandi valinn aðila sem nýjan eiganda staðsetningar. Ef fyrri eigandi staðsetningar er auður merkir það að ekki hafi verið settur eigandi fyrir staðsetninguna. Ef valkosturinn **Ítarlegt** er valinn opnast síðan **Stjórna aðsetrum** þar sem hægt er að setja á eiganda staðsetningarinnar. Veljið staðsetninguna sem á að uppfæra og veljið síðan **Stilla eiganda staðsetningar** úr valmyndinni. Til að uppfæra eiganda staðsetningar fyrir margar færslur skal fara í **Altæk aðsetursbók > Staðsetningar > Staðfesta eigendur staðsetningar**. Listinn inniheldur staðsetningar sem eru tengdar við einn aðila, en aðilinn er ekki eigandinn. Að velja **Staðfesta eiganda** mun stilla **Aðilakenni fyrirhugaðs eiganda** á að verða eigandi tengds aðseturs. Þegar aðilinn er stilltur sem eigandi er hægt að breyta tengda aðsetrinu úr aðilafærslunni. Til að geta breytt eiganda staðsetningar þarf að úthluta þér réttindunum **Stilla eiganda staðsetningar** á síðunni **Öryggisgrunnstilling**.  Kerfisstjóranum eru veitt þessi réttindi að sjálfgefnu.
+Þegar þú flytur inn aðsetur er reitur sem heitir **IsLocationOwner**. Þessi reitur gefur til kynna að aðilinn sem tengist staðsetningunni (aðsetrinu) sé eigandi aðsetursins. Ef aðilinn er eigandi aðsetursins, er hægt að breyta því þegar aðilinn er notaður í altækri aðsetursbók eða á aðalfærslusíðunni (t.d. viðskiptavini, lánardrottni eða starfsmanni). Ef aðilinn er ekki eigandi aðsetursins er ekki hægt að breyta færslunni. 
 
+Við innflutning á aðsetrum ætti að stilla reitinn **IsLocationOwner** á **Já** ef aðsetrið á að vera breytanlegt í gegnum tilheyrandi aðila. Ef þessi reitur er ekki rétt fluttur inn er hægt að uppfæra staðsetningu eigandans í altæku aðsetursbókinni.
+
+Frekari upplýsingar um hvernig á að breyta staðsetningu eiganda innflutts aðseturs er að finna í [Umsjón með staðsetningum eiganda](./global-address-book-location-owner.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

@@ -2,7 +2,7 @@
 title: Yfirlit yfir umsjón hönnunarbreytinga
 description: Í þessu efnisatriði er að finna yfirlit yfir umsjón hönnunarbreytinga, sem hjálpar til við að skipuleggja og vinna með afurðarútgáfum, og stjórna lífferlum og hönnunarbreytingum.
 author: t-benebo
-ms.date: 11/11/2020
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: Release 10.0.21
+ms.openlocfilehash: b4fe2d62bc8084cf8c0d10b7bcb94f08cc618900
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714957"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467399"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -43,9 +43,11 @@ Umsjón hönnunarbreytinga sem hjálpar til við að skipuleggja og vinna með a
 
 Fyrra myndskeið ([Eiginleikar breytingastjórnunar í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er tekin með í [Finance and Operations spilunarlista](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er í boði á YouTube.
 
-## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Kveikja á eiginleikum fyrir umsjón hönnunarbreytinga og útgáfuvíddir fyrir kerfið
+## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Kveikja á eiginleikum fyrir umsjón hönnunarbreytinga fyrir kerfið
 
-Áður en hægt er að nota umsjón hönnunarbreytinga þarf að virkja bæði eiginleikann *Umsjón hönnunarbreytinga* og skilgreiningarlykil hans. Ef einnig á að rekja útgáfuvídd afurðanna í færslum (valfrjálst) þarf einnig að virkja eiginleikann *Vídd afurðarútgáfu* og skilgreiningarlykil hans.
+Áður en hægt er að nota umsjón hönnunarbreytinga þarf að virkja bæði eiginleikann *Umsjón hönnunarbreytinga* og skilgreiningarlykil hans. Ef einnig á að rekja útgáfuvídd afurðanna í færslum (valfrjálst) þarf einnig að virkja bæði eiginleikann *Vídd afurðarútgáfu* og skilgreiningarlykil hans. Eftir að þessi skilyrði hafa verið sett upp eins og þörf er á verður hægt að nota aðra valfrjálsa eiginleika til stjórnun hönnunarbreytinga.
+
+### <a name="turn-on-the-basic-engineering-change-management-features"></a>Kveikja á eiginleikum fyrir umsjón grunnhönnunarbreytinga
 
 Fyrst skal kveikja á eiginleikunum með því að fylgja þessum skrefum.
 
@@ -53,6 +55,8 @@ Fyrst skal kveikja á eiginleikunum með því að fylgja þessum skrefum.
 1. Athuga með uppfærslur.
 1. Kveikið á eiginleikanum sem kallast *Umsjón hönnunarbreytinga*.
 1. Ef nota á þetta skal einnig kveikja á eiginleikanum sem kallast *Útgáfa afurðarvíddar*.
+
+### <a name="turn-on-the-required-configuration-keys"></a>Kveiktu á nauðsynlegum stillingalyklum
 
 Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skrefum.
 
@@ -70,5 +74,18 @@ Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skref
 
 > [!IMPORTANT]
 > Frá og með apríl 2022 verða leyfislyklarnir fyrir bæði **Stjórnun hönnunarbreytinga** og **Afurðarvídd - Útgáfa** virkjaðir að sjálfgefnu fyrir allar nýja uppsetningar, en þú munt enn geta slökkt á þeim ef á þarf að halda.
+
+### <a name="turn-on-additional-engineering-change-management-features"></a>Kveikja á eiginleikum fyrir umsjón frekari hönnunarbreytinga
+
+Eftir að þú kveikir á eiginleikum fyrir umsjón grunnhönnunarbreytinga og virkjar skilgreiningarlykla þeirra, er nokkrum eiginleikum fyrir umsjón frekari hönnunarbreytinga bætt við eiginleikastjórnun. Hver þessara eiginleika er sýndur undir einingunni **Umsjón hönnunarbreytinga**. Eftirfarandi tafla lýsir hverjum valfrjálsum eiginleika og veitir tengla fyrir frekari upplýsingar.
+
+| Eiginleikaheiti í eiginleikastjórnun | lýsing |
+|---|---|
+| Virkja breytingastjórnun á fyrirliggjandi afurðum | <p>Þessi eiginleiki gerir þér kleift að umbreyta núverandi afurðum í hönnunarafurðir svo að þú getir haft umsjón með þeim í gegnum stjórnun hönnunarbreytinga.</p><p>Frekari upplýsingar eru í [Virkja breytingastjórnun á fyrirliggjandi afurðum](change-management-existing-products.md).</p> |
+| Hönnunartilkynningar fyrir framleiðslu | <p>Þegar afurð er breytt í hönnun getur verið mikilvægt að tilkynna framleiðslu um þessar breytingar. Á þann hátt geta starfsmenn framleiðslu gripið til viðeigandi ráðstafana, t.d. skipta út íhlut, skipta um uppskriftir eða leið. Þessi eiginleiki gerir þér kleift að tilkynna framleiðslu um breytingar á afurðum sem verið er að framleiða.</p><p>Frekari upplýsingar eru í [Umsjón hönnunarbreytinga](engineering-change-management.md).</p> |
+| Bætt erfðaeigind fyrir umsjón hönnunarbreytinga | <p>Þessi eiginleiki einfaldar stjórnun eiginda fyrir fullunnar vörur eða millivörur. Þegar kveikt er á þessum eiginleika er auðveldara að auðkenna allar eigindirnar sem tilheyra vöru og hægt er að velja eigindirnar sem á að dreifa úr þeirri vöru til yfirvöru hennar. Þessi eiginleiki er gagnlegur þegar til dæmis einn þáttur í fullunninni vöru er viðkvæmur, eitraður eða eldfimur vegna þess að þú getur auðveldlega borið kennsl á viðkvæma, eitraða eða eldfima eigindina og dreift henni í fullunna vöru.</p><p>Frekari upplýsingar er að finna í [Hönnunareigindir og leit að hönnunareigind](engineering-attributes-and-search.md).</p> |
+| Undirbúningsathuganir afurðar | <p>Þessi eiginleiki gerir þér kleift að setja upp undirbúningsathuganir fyrir staðlaðar (ekki hannaðar) afurðir. Notaðu undirbúningsathuganir afurðar til að ganga úr skugga um að hver afurð sé skilgreind að fullu og að allar reglur séu stilltar áður en boðið verður upp á afurðina og hún notuð í færslum. Ef þessi eiginleiki er gerður óvirkur eftir að hann hefur verið notaður verða öllum fyrirliggjandi undirbúningsathugunum fyrir staðlaðar afurðir eytt.</p><p>Frekari upplýsingar er að finna í [Undirbúningur afurðar](product-readiness.md).</p> |
+| Stjórna breytingum á formúlum og innihaldsefnum þeirra | <p>Þessi eiginleiki gerir kleift að fylgjast með breytingum á innihaldsefnum formúlu, aukaafurðum og hliðarafurðum.</p><p>Frekari upplýsingar eru í [Stjórna breytingum á formúlum og innihaldsefnum þeirra](manage-formula-changes.md)</p> |
+| Afbrigði útbúið fyrir hönnunarafurðir | <p>Þessi eiginleiki gerir kleift að búa til afbrigði fyrir hönnunarafurðir sem byggja á tiltækum víddargildum.</p><p>Frekari upplýsingar er að finna í [Búa til afbrigði fyrir hönnunarafurðir](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

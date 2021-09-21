@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67240491bba5a81455bff00be22908670880803c3e08091d76e037fa0b5f49ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ef6b7c619cfce70c2f0b3f676d3cae988674c858
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760515"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474604"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.17. (apríl 2021)
 
@@ -99,10 +99,6 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfærð. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
 
-### <a name="cost-management"></a>Kostnaðarstýring
-
-- [Úrræðaleit fyrir kostnaðarstjórnun](../cost-management/troubleshoot-costmanagement.md)
-
 ### <a name="asset-management"></a>Eignastýring
 
 - [Setja upp fartækjavinnusvæði eignastýringar](../asset-management/set-up-asset-management-mobile.md)
@@ -114,8 +110,6 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 - [Hlutastaðsetning reglulegrar talningar](../warehousing/partial-location-cycle-counting.md)
 
 - [Flokkun tiltektarlínu](../warehousing/pick-line-grouping.md)
-
-- [Úrræðaleita birgðaaðgerðir](../inventory/troubleshoot-inventory-operations.md)
 
 - [Hólfaskipting vöruhúss](../warehousing/warehouse-slotting.md)
 

@@ -2,7 +2,7 @@
 title: Launafyrirkomulag fastra launa
 description: Þetta efnisatriði veitir upplýsingar og dæmi um fyrirspurn fyrir einingu launafyrirkomulags fastra launa í Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738392"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429231"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Launafyrirkomulag fastra launa
 
@@ -34,18 +34,27 @@ Efnislegt heiti: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Eiginleikar
 
-| Eiginleiki<br>**Efnislegt heiti**<br>**_Gerð_** | Nota | lýsing |
+| Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | lýsing |
 | --- | --- | --- |
-| **Kenni starfsmanns**<br>mshr_fk_employee_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Framandlykill:mshr_Employee_id of mshr_payrollemployeeentity entity  | Kenni starfsmanns |
-| **Launataxti**<br>mshr_payrate<br>*Tugabrot* | Lesa eingöngu<br>Krafa | Launataxti skilgreindur í launafyrirkomulagi fastra launa. |
-| **Kenni áætlunar**<br>mshr_planid<br>*Strengur* | Lesa eingöngu<br>Krafa |Tilgreinir launafyrirkomulagið.  |
-| **Gildir frá**<br>mshr_validfrom<br>*Mótfærð dagsetning og tími* |  Lesa eingöngu<br>Krafa |Sú dagsetning sem föst laun starfsmanns gilda frá.  |
-| **Eining launafyrirkomulags fastra launa**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Krafa<br>Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna launafyrirkomulag á einkvæman hátt. |
-| **Greiðslutíðni**<br>mshr_payfrequency<br>*Strengur* | Lesa eingöngu<br>Krafa |Tíðnin sem starfsmaðurinn fær greitt.  |
-| **Gildir til**<br>mshr_validto<br>*Mótfærð dagsetning og tími* | Lesa eingöngu <br>Krafa | Sú dagsetning sem föst laun starfsmanns gilda til. |
-| **Auðkenni stöðuheitis**<br>mshr_positionid<br>*Strengur* | Lesa eingöngu <br>Krafa | Auðkenni stöðu sem tengist skráningu starfsmanns og launafyrirkomulags fastra launa. |
-| **Gjaldmiðill**<br>mshr_currency<br>*Strengur* | Lesa eingöngu <br>Krafa |Gjaldmiðillinn sem er skilgreindur fyrir launafyrirkomulag fastra launa   |
-| **Númer starfsmanns**<br>mshr_personnelnumber<br>*Strengur* | Lesa eingöngu<br>Krafa |Einkvæmt númer starfsmanns.  |
+| **Kenni áætlunar**</br>mshr_planid</br>*Strengur* | Lesa eingöngu | Tilgreinir launafyrirkomulagið.  |
+| **Númer starfsmanns**</br>mshr_personnelnumber</br>*Strengur* | Lesa eingöngu | Einkvæmt númer starfsmanns. |
+| **Launataxti**</br>mshr_payrate</br>*Tugabrot* | Lesa eingöngu | Launataxti skilgreindur í launafyrirkomulagi fastra launa. |
+| **Auðkenni stöðuheitis**</br>mshr_positionid</br>*Strengur* | Lesa eingöngu | Auðkenni stöðu sem tengist skráningu starfsmanns og launafyrirkomulags fastra launa. |
+| **Gildir frá**</br>mshr_validfrom</br>*Mótfærð dagsetning og tími* |  Lesa eingöngu | Sú dagsetning sem föst laun starfsmanns gilda frá.  |
+| **Gildir til**</br>mshr_validto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Sú dagsetning sem föst laun starfsmanns gilda til. |
+| **Greiðslutíðni**</br>mshr_payfrequency</br>*Strengur* | Lesa eingöngu | Tíðnin sem starfsmaðurinn fær greitt.  |
+| **Gjaldmiðill**</br>mshr_currency</br>*Strengur* | Lesa eingöngu | Gjaldmiðillinn sem er skilgreindur fyrir launafyrirkomulag fastra launa. |
+| **Eining launafyrirkomulags fastra launa**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna launafyrirkomulag á einkvæman hátt. |
+
+## <a name="relations"></a>Vensl
+
+|Gildi eiginleika | Tengdur aðili | Yfirlitseiginleiki | Tegund innheimtu |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Dæmi um fyrirspurn
 

@@ -2,7 +2,7 @@
 title: Stjórnun viðskiptavina í verslunum
 description: Þetta efnisatriði útskýrir hvernig smásöluaðilar geta virkjað stjórnunarmöguleika viðskiptavinar á sölustað í Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 05/25/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ea2953510d134be0d33a6afa65027a6c9d2816f7dc16ca669859e80ee40f4278
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754417"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472226"
 ---
 # <a name="customer-management-in-stores"></a>Stjórnun viðskiptavina í verslunum
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig smásöluaðilar geta virkjað stjórnunarmöguleika viðskiptavinar á sölustað í Microsoft Dynamics 365 Commerce.
 
@@ -38,32 +39,36 @@ Söluaðilar geta einnig sótt önnur netföng og símanúmer. Þar að auki get
 Smásöluaðilar geta notað síðuna **Allar verslanir** í höfuðstöðvum Commerce (**Smásala og viðskipti \> Rásir \> Verslanir**) til að tengja sjálfgefinn viðskiptavin við hverja verslun. Commerce afritar þá eiginleikana sem eru skilgreindir fyrir sjálfgefna viðskiptavininn í allar nýjar færslur viðskiptavinar sem eru stofnaðar. Til dæmis sýnir svarglugginn **Stofna viðskiptavin** eiginleika sem eru erfðir frá sjálfgefnum viðskiptavini sem tengist versluninni. Þessir eiginleikar innihalda **viðskiptavinagerð**, **viðskiptavinaflokk**, **valkost kvittunar**, **tölvupóstur kvittunar**, **gjaldmiðil** og **tungumál**. Öll **tengsl** (flokkanir viðskiptavina) eru einnig erfð frá sjálfgefnum viðskiptavini. **Fjárhagsvíddir** eru hins vegar erfðar frá viðskiptavinaflokknum sem tengist sjálfgefnum viðskiptavini, ekki beint frá sjálfgefna viðskiptavininum.
 
 > [!NOTE]
-> Gildið fyrir **tölvupóst kvittunar** er afritað úr sjálfgefnum viðskiptavini aðeins ef kenni tölvupósts vegna kvittunar er ekki gefið upp fyrir nýlega stofnaða viðskiptavini. Þetta þýðir að ef kenni tölvupósts vegna kvittunar er til staðar í sjálfgefnum viðskiptavini, þá fá allir viðskiptavinir sem stofnaðir eru á svæði rafrænna viðskipta sama tölvupóstskenni kvittunar því ekki er neitt notandaviðmót til að ná í tölvupóstskenni kvittunar frá viðskiptavininum. Mælt er með því að halda reit **kvittunartölvupósts** auðum fyrir sjálfgefinn viðskiptavin verslunarinnar og aðeins nota hann þú ert með viðskiptaferli sem reiðir sig á að netfang fyrir kvittun sem til staðar. 
+> Gildið fyrir **tölvupóst kvittunar** er afritað úr sjálfgefnum viðskiptavini aðeins ef kenni tölvupósts vegna kvittunar er ekki gefið upp fyrir nýlega stofnaða viðskiptavini. Þetta þýðir að ef kenni tölvupósts vegna kvittunar er til staðar í sjálfgefnum viðskiptavini, þá fá allir viðskiptavinir sem stofnaðir eru á svæði rafrænna viðskipta sama tölvupóstskenni kvittunar því ekki er neitt notandaviðmót til að ná í tölvupóstskenni kvittunar frá viðskiptavininum. Mælt er með því að skilja reit **kvittunartölvupósts** eftir auðan fyrir sjálfgefinn viðskiptavin verslunarinnar og aðeins nota hann ef þú ert með viðskiptaferli sem reiðir sig á að netfang fyrir kvittun sé til staðar. 
 
 Söluaðilar geta sótt mörg heimilisföng fyrir viðskiptavin. Nafn og símanúmer viðskiptavinar eru fengin frá tengslaupplýsingum sem tengjast hverju heimilisfangi. Flýtiflipinn **Heimilisföng** fyrir viðskiptavinafærslu inniheldur reitinn **Tilgangur** sem söluaðilar geta breytt. Ef gerð viðskiptavinar er **Einstaklingur** verður sjálfgefna gildið **Heimili**. Ef gerð viðskiptavinar er **Fyrirtæki** verður sjálfgefna gildið **Vinnustaður**. Önnur gildi sem þessi reitur styður eru m.a. **Heimili**, **Skrifstofa** og **Pósthólf**. Gildi reitsins **Land** fyrir heimilisfang er fengið frá aðalheimilsfanginu sem er tilgreint á síðunni **Rekstrareining** í höfuðstöðvum Commerce í **Fyrirtækisstjórnun \> Fyrirtæki \> Rekstrareiningar**.
 
 ## <a name="sync-customers-and-async-customers"></a>Samstilltir viðskiptavinir og ósamstilltir viðskiptavinir
 
+> [MIKILVÆGT] Í hvert skipti sem sölustaðurinn er utan nets býr kerfið sjálfkrafa til viðskiptavini ósamstillt, jafnvel ef stofnhamur ósamstillts viðskiptavinar er óvirkt. Þess vegna, óháð vali þínu á milli stofnunar samstillts og ósamstillts viðskiptavinar, verða stjórnendur Commerce Headquarters að búa til og tímasetja endurtekna runuvinnslu fyrir **P-vinnslu**, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** (hét áður **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu**) og **1010** vinnslunni þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
+
 Í Commerce eru til tvær stillingar fyrir stofnun viðskiptavinar: Samstillt og ósamstillt. Viðskiptavinir eru stofnaðir samstilltir að sjálfgefnu. Þ.e.a.s. þeir eru stofnaðir í Commerce Headquarters á rauntíma. Samstillt stofnun viðskiptavinar er gagnleg vegna þess að strax verður hægt að leita að nýjum viðskiptavinum yfir allar rásir. Hins vegar er einnig galli á henni. Þar sem hún myndar köll [Commerce Data Exchange: Rauntímaþjónustu](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) til Commerce Headquarters, þá getur það haft áhrif á afköst ef mörg köll vegna stofnunar viðskiptavina eru gerð á sama tíma.
 
-Ef valkosturinn **Stofna viðskiptavin í Async-stillingu** er stilltur á **Já** í virknireglu verslunar (**Smásala og viðskipti \> Uppsetning rásar \> Uppsetning netverslunar \> Virknireglur**), þá eru köll rauntímaþjónustu ekki notuð til að stofna viðskiptavinafærslur í gagnagrunni rásarinnar. Async-stilling á stofnun viðskiptavinar hefur ekki áhrif á afköst Commerce Headquarters. Altækt einkvæmt kennimerki (GUID) er úthlutað til sérhverrar nýrrar ósamstilltrar viðskiptavinafærslu og notað sem auðkenni viðskiptavinareiknings. Notendur sölustaðar fá ekki að sjá þetta GUID. Þess í stað munu þessir notendur sjá **Bíður samstillingar** sem auðkenni viðskiptavinareikningsins. Þótt þessi skilgreining geri það að verkum að viðskiptavinir verði stofnaðir ósamstillt skal hafa í huga að breytingar á viðskiptavinafærslum eru alltaf gerðar samstillt.
+Ef valkosturinn **Stofna viðskiptavin í Async-stillingu** er stilltur á **Já** í virknireglu verslunar (**Smásala og viðskipti \> Uppsetning rásar \> Uppsetning netverslunar \> Virknireglur**), þá eru köll rauntímaþjónustu ekki notuð til að stofna viðskiptavinafærslur í gagnagrunni rásarinnar. Async-stilling á stofnun viðskiptavinar hefur ekki áhrif á afköst Commerce Headquarters. Altækt einkvæmt kennimerki (GUID) er úthlutað til sérhverrar nýrrar ósamstilltrar viðskiptavinafærslu og notað sem auðkenni viðskiptavinareiknings. Notendur sölustaðar fá ekki að sjá þetta GUID. Þess í stað munu þessir notendur sjá **Bíður samstillingar** sem auðkenni viðskiptavinareikningsins. 
 
 ### <a name="convert-async-customers-to-sync-customers"></a>Breyta ósamstilltum viðskiptavinum í samstillta viðskiptavini
 
-Til að breyta ósamstilltum viðskiptavinum í samstillta viðskiptavini þarf fyrst að keyra P-vinnslu til að senda ósamstillta viðskiptavini til Commerce Headquarters. Síðan skal keyra vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** til að stofna auðkenni viðskiptavinareikninga. Keyrið að lokum vinnsluna **1010** til að samstilla ný auðkenni viðskiptavinareikninga við rásirnar.
+Til að breyta ósamstilltum viðskiptavinum í samstillta viðskiptavini þarf fyrst að keyra **P-vinnslu** til að senda ósamstillta viðskiptavini til Commerce Headquarters. Síðan skal keyra vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** (sem hét áður **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu**) til að stofna auðkenni viðskiptavinareikninga. Keyrið að lokum vinnsluna **1010** til að samstilla ný auðkenni viðskiptavinareikninga við rásirnar.
 
 ### <a name="async-customer-limitations"></a>Takmarkanir ósamstilltra viðskiptavina
 
 Virkni ósamstilltra viðskiptavina er sem stendur með eftirfarandi takmarkanir:
 
-- Ekki er hægt að breyta ósamstilltum færslum viðskiptavina nema viðskiptavinurinn hafi verið stofnaður í Commerce Headquarters og nýtt auðkenni viðskiptavinareiknings hefur verið samstillt aftur við rásina.
+- Ekki er hægt að breyta ósamstilltum færslum viðskiptavina nema viðskiptavinurinn hafi verið stofnaður í Commerce Headquarters og nýtt auðkenni viðskiptavinareiknings hefur verið samstillt aftur við rásina. Þar af leiðandi er ekki hægt að vista aðsetrið fyrir async-viðskiptavin fyrr en sá viðskiptavinur er samstilltur við Commerce Headquarters vegna þess að viðbót aðseturs viðskiptavinar er innleitt sem breytingaraðgerð á notandasíðu viðskiptavinar. Ef eiginleikinn **Virkja ósamstillta stofnun fyrir aðsetur viðskiptavina** er hins vegar virkjaður verður einnig hægt að vista aðsetur viðskiptavina fyrir async-viðskiptavini.
 - Tengsl geta ekki verið tengd við ósamstillta viðskiptavini. Þar af leiðandi erfa nýir ósamstilltir viðskiptavinir ekki tengsl frá sjálfgefnum viðskiptavini.
 - Ekki er hægt að gefa út vildarkort til ósamstilltra viðskiptavina nema nýtt auðkenni viðskiptavinareiknings hafi verið samstillt aftur við rásina.
 - Ekki er hægt að sækja önnur netföng og símanúmer fyrir ósamstillta viðskiptavini.
 
+Þrátt fyrir að nokkrar af áðurnefndum takmörkunum gætu fengið þig til að velja valkostinn Samstilla viðskiptavin fyrir reksturinn þinn, er Commerce-teymið að vinna að því að færa möguleika ósamstilltra viðskiptavina nær því sem möguleikar samstilltra viðskiptavina eru. Frá og með Commerce-útgáfu 10.0.22 getur til dæmis nýr eiginleiki fyrir **Virkja ósamstillta stofnun fyrir aðsetur viðskiptavina** sem þú getur virkjað á vinnusvæðinu **Eiginleikastjórnun** vistað ósamstillt nýlega stofnuð aðsetur viðskiptavina fyrir bæði samstillta og ósamstillta viðskiptavini. Til að vista þessi aðsetur á notandasíðu viðskiptavinar í Commerce Headquarters þarftu að tímasetja endurtekna runuvinnslu fyrir **P-vinnsluna**, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** og vinnslunni **1010** þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
+
 ### <a name="customer-creation-in-pos-offline-mode"></a>Stofnun viðskiptavinar á sölustað án nettengingar
 
-Ef sölustaðurinn missir netsamband á meðan stilling fyrir stofnun ósamstillts viðskiptavinar er virkjuð, verða nýjar viðskiptavinafærslur stofnaðar ósamstillt. Ef sölustaður missir netsamband á meðan verið er að slökkva á stillingu fyrir stofnun ósamstillts viðskiptavinar, skiptir kerfið sjálfkrafa í stillingu fyrir stofnun ósamstillts viðskiptavinar. Þ.e.a.s. færslur viðskiptavina gætu verið stofnaða ósamstillt jafnvel þótt slökkt sé á stillingu fyrir stofnun ósamstillts viðskiptavinar. Þess vegna verða stjórnendur Commerce Headquarters að búa til og tímasetja endurtekna runuvinnslu fyrir P-vinnslu, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** og **1010** vinnslunni þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
+Í hvert skipti sem sölustaðurinn er utan nets býr kerfið sjálfkrafa til viðskiptavini ósamstillt, jafnvel ef stofnhamur ósamstillts viðskiptavinar er óvirkt. Þess vegna, eins og búið var að minnast á, verða stjórnendur Commerce Headquarters að búa til og tímasetja endurtekna runuvinnslu fyrir **P-vinnslu**, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** og **1010** vinnslunni þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
 
 > [!NOTE]
 > Ef valkosturinn **Afmarka samnýttar gagnatöflur viðskiptavinar** er stilltur á **Já** á síðunni **Skema fyrir viðskiptarás** (**Smásala og viðskipti \> Uppsetning höfuðstöðva \> Viðskiptaverkraðari \> Gagnagrunnsflokkur rásar**), verða færslur viðskiptavina ekki stofnaðar á sölustað sem er án tengingar. Frekari upplýsingar er að finna í [Útilokun gagna án nettengingar](dev-itpro/implementation-considerations-cdx.md#offline-data-exclusion).

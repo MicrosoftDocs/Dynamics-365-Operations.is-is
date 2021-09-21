@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416181"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481316"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Samstilla eftirspurn við verðlagningarkerfi Supply Chain Management
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Supply Chain Management felur í sér verðlagningarvél 
     + Heildarskattur
     + Heildarupphæð
     
-5. Gerðu eftirfarandi til að tryggja að kerfið taki mið af viðskipta- og sölusamningum til að reikna verðið:
+5. Gerðu eftirfarandi til að tryggja að kerfið taki mið af viðskiptasamningum til að reikna verðið:
     1. Flettu að umhverfi Supply Chain Management.
     2. Farðu í **Viðskiptakröfur \> Uppsetning \> Færibreytur viðskiptakröfu**.
     3. Veldu flipann **Verð** á yfirlitsstikunni sem er til hliðar.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management felur í sér verðlagningarvél 
 
 Þegar þú velur **Verðpöntun** í Sales er virknin **Samtölur** á flipanum **Sölupöntun \> Skoðun** í Supply Chain Management kölluð á tengdri sölupöntun. Gildin í samtölu pöntunar í Sales eru notuð til að fylla út samsvarandi dálka í Supply Chain Management.
 
-Þegar samtala sölupöntunar er reiknuð út í Supply Chain Management metur útreikningurinn fyrirliggjandi viðskiptasamninga og sölusamninga viðskiptavinarins og vörurnar sem eru skráðar í sölupöntuninni. Þessar upplýsingar eru notaðar til að reikna út samtölurnar. Þegar **Verðpöntun** er valin endurspeglar Sales sjálfkrafa alla uppstillingu sem hefur verið gerð í Supply Chain Management.
+Þegar samtala sölupöntunar er reiknuð út í Supply Chain Management metur útreikningurinn fyrirliggjandi viðskiptasamninga viðskiptavinarins og vörurnar sem eru skráðar í sölupöntuninni. Þessar upplýsingar eru notaðar til að reikna út samtölurnar. Þegar **Verðpöntun** er valin endurspeglar Sales sjálfkrafa alla uppstillingu sem hefur verið gerð í Supply Chain Management.
 
 ## <a name="limitations"></a>Takmarkanir
 

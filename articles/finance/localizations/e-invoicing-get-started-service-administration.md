@@ -2,7 +2,7 @@
 title: Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 description: Þetta efnisatriði útskýrir hvernig á að hefjast handa með rafrænni reikningsfærslu.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765645"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463810"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu
 
@@ -33,7 +33,7 @@ ms.locfileid: "6765645"
 Áður en ferlið í þessu efnisatriði er klárað þurfa eftirfarandi skilyrði að vera til staðar:
 
 - Þú verður að hafa aðgang að reikningi á Microsoft Dynamics Lifecycle Services (LCS).
-- Þú verður að vera með LCS-verk sem inniheldur útgáfu 10.0.17 eða nýrri af Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Þar að auki verða þessi forrit að vera sett upp á einni af eftirfarandi Azure-staðsetningum:
+- Þú verður að vera með LCS-verk sem inniheldur útgáfu 10.0.17 eða nýrri af Microsoft Dynamics 365 Finance eða Dynamics 365 Supply Chain Management. Þar að auki verða þessi forrit að vera sett upp á einni af eftirfarandi Azure-staðsetningum:
 
     - Bandaríkin
     - Evrópa
@@ -47,20 +47,20 @@ ms.locfileid: "6765645"
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Setja upp innbótina fyrir microservices í Lifecycle Services
 
 1. Skráðu þig inn á LCS-reikninginn þinn og veldu LCS-verkefni á stjórnborði LCS-verkefnisins.
-2. Í verkefninu, á stjórnborði umhverfisins, skaltu velja uppsetningarverkefni LCS. Verkefnið sem þú velur verður að vera í gangi.
+2. Í verkinu á stjórnborðinu **Umhverfi** skal velja uppsett umhverfi. Umhverfið sem er valið verður að vera í gangi.
 3. Í flipanum **Power Platform Samþætting** í **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 4. Velja **Rafræn reikningsfærsla**.
 5. Í reitinn **AAD-forritskenni** skal færa inn **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Þetta er fast gildi.
-6. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings.
+6. Í reitinn **AAD-leigjandakenni** skal færa inn leigjandakenni Azure-áskriftareiknings. Leigjandi Azure Active Directory (Azure AD) sem þú tilgreinir á að vera sami leigjandinn og er notaður fyrir RCS.
 7. Farið yfir skilmálana og veljið því næst gátreitinn.
-8. Velja **Setja upp**.
+8. Velja **Setja upp**. Uppsetning getur tekið allt að nokkrar mínútur.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Setja upp færibreytur fyrir RCS-samþættingu við rafræna reikningsfærslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Í vinnusvæðinu **Rafræn skýrslugerð** í kaflanum **Skyldir tenglar**, velurðu **Færibreytur rafrænnar skýrslugerðar**.
-3. Í flipanum **Þjónusta rafrænnar reikningsfærslu**, í reitinn **URI fyrir endastöð þjónustu** skal slá inn viðeigandi endastöð þjónustu fyrir Azure-staðfestninguna þína eins og sýnt er í eftirfarandi töflu.
+2. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Viðeigandi stillingar**, skal velja **Færibreytur rafrænnar skýrslugerðar**.
+3. Í flipanum **Rafræn reikningsfærsla**, í reitinn **URI fyrir endastöð þjónustu** skal slá inn viðeigandi endastöð þjónustu fyrir Azure-staðfestninguna þína eins og sýnt er í eftirfarandi töflu.
 
     | Gagnamiðstöð Azure-staðsetningar | URI fyrir endastöð þjónustu                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -113,17 +113,19 @@ ms.locfileid: "6765645"
 8. Í reitinn **Notandakenni** skal færa inn samnefni notandans. Í reitinn **Tölvupóstur** skal færa inn netfang notandans.
 9. Veljið **Vista**.
 10. Ef reikningar fyrir tiltekið land/svæði þurfa vottorðakeðju til að nota stafræna undirskrift, þá skal á aðgerðasvæðinu velja **Færibreytur lyklageymslu** og síðan velja **Vottorðakeðja** og fara í gegnum þessi skref:
+
     1. Veljið **Ný** til að búa til nýja vottorðakeðju.
     2. Í reitinn **Heiti** skal færa inn heiti vottorðakeðjunnar. Í reitnum **Lýsing** skal færa inn lýsingu.
     3. Í hlutanum **Vottorð** skal velja **Bæta við** til að bæta vottorði við keðjuna.
     4. Notið hnappinn **Upp** eða **Niður** til að breyta stöðu vottorðs í keðjunni.
     5. Veljið **Vista** og lokið síðan skjámyndinni.
     6. Lokið síðunni.
+
 11. Á síðunni **Þjónustuumhverfi**, á aðgerðasvæðinu, skal velja **Birta** til að birta umhverfið í skýinu. Gildi reitsins **Staða** er breytt í **Birt**.
 
 ## <a name="create-a-connected-application"></a>Búa til tengt forrit
 
-1. Á síðunni **Uppsetningar umhverfis**, á aðgerðasvæðinu, skal velja **Tengd forrit**.
+1. Á síðunni **Uppsetning umhverfis**, á aðgerðasvæðinu, skal velja **Tengd forrit**.
 2. Veljið **Nýtt** til að stofna tengt forrit.
 3. Í reitinn **Heiti** skal færa inn heiti forritsins sem á að tengja.
 4. Í reitinn **Forrit** skal færa inn vefslóð fyrir umhverfi Finance and Supply Chain Management sem tengjast á við.
@@ -133,7 +135,7 @@ ms.locfileid: "6765645"
 
 ## <a name="link-connected-applications-to-environments"></a>Tengja tengd forrit við umhverfi
 
-1. Á síðunni **Uppsetningar umhverfis** skal velja **Nýtt** til að úthluta tengdu forriti á umhverfi.
+1. Á síðunni **Uppsetning umhverfis** skal velja **Nýtt** til að úthluta tengdu forriti á umhverfi.
 2. Í reitnum **Tengt forrit** skal velja tengt forrit.
 3. Í reitnum **Þjónustuumhverfi** skal velja þjónustuumhverfi.
 4. Veljið **Vista** og lokið síðan skjámyndinni.
@@ -149,7 +151,7 @@ ms.locfileid: "6765645"
 ### <a name="set-up-the-service-endpoint-url"></a>Setja upp vefslóð fyrir endastöð þjónustu
 
 1. Farið í **Fyrirtækisstjórnun \> Uppsetning \> Færibreytur rafrænna skjala**.
-2. Í flipanum **Innsendingarþjónusta**, í reitinn **Vefslóð fyrir endastöð þjónustu** skal slá inn viðeigandi endastöð þjónustu fyrir Azure-staðfestinguna þína eins og sýnt er í eftirfarandi töflu.
+2. Í flipanum **Rafræn reikningsfærsla**, í reitinn **Vefslóð fyrir endastöð** skal slá inn viðeigandi endastöð þjónustu fyrir Azure-staðfestinguna þína eins og sýnt er í eftirfarandi töflu.
 
     | Gagnamiðstöð Azure-staðsetningar | URI fyrir endastöð þjónustu                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,9 +163,8 @@ ms.locfileid: "6765645"
 3. Í reitinn **Umhverfi** skal færa inn heiti á þjónustuumhverfi sem er birt í rafrænni reikningsfærslu.
 4. Veljið **Vista** og lokið síðan skjámyndinni.
 
-### <a name="enable-flighting-keys"></a>Virkja fluglykla
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Virkja lykla tilraunaútgáfu fyrir Finance eða Supply Chain Management útgáfu 10.0.17
 
-Virkjaðu fluglykla fyrir Microsoft Dynamics 365 Finance eða Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.17 eða eldri. 
 1. Framkvæmið eftirfarandi SQL-skipun:
 
     SETJA INN Í SYSFLIGHTING (ÚTGÁFUHEITI, VIRKJAÐ) GILDI ('BusinessDocumentSubmissionServiceEnabled', 1)

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 32beabd40aa62cce832505edd56d92a8a8f12192b821f075e9b1f058d52bf8d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733445"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474941"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -856,9 +856,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 
 - [Rununúmer í Vöruhúsakerfi](/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
 - [Frátekning sömu runu fyrir sölupöntun](../sales-marketing/reserve-same-batch-sales-order.md)
-- [Tína elstu runu í fartæki](pick-oldest-batch.md)
+- [Taka til elstu runu í fartæki](pick-oldest-batch.md)
 - [Staðfesting lotu og númeraplötu](batch-and-license-plate-confirmation.md)
-- [Úrræðaleit fyrir frátekningar í vöruhúsakerfi](troubleshoot-warehouse-reservations.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

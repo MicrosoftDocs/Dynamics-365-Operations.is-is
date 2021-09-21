@@ -1,5 +1,5 @@
 ---
-title: Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
+title: Einingarkvarðar í dreifðri blandaðri grannfræði
 description: Þetta efnisatriði veitir upplýsingar um einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780675"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471741"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Einingarkvarðar í dreifðri blandaðri grannfræði
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780675"
 >
 > Þegar einingarkvarðar fyrir ský og edge eru virkjaðir verður þú beðin(n) að staðfesta að þú skiljir að sum gögn sem tengjast skilgreiningu og úrvinnslu einingarkvarða í skýi og edge kunni að vera geymd í gagnamiðstöðvum sem eru staðsettar í Bandaríkjunum. Frekari upplýsingar um úrvinnslu gagna fyrir einingarkvarða skýs og jaðars er að finna í hlutanum [Gagnavinnsla við stjórnun einingarkvarða](#data-processing-management) síðar í þessu efnisatriði.
 
-## <a name="core-value-proposition-for-scale-units"></a>Helsti ávinningur einingarkvarða
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Tillaga um megingildi fyrir dreifða blandaða grannfræði
 
-Fyrirtæki sem vinna með framleiðslu og dreifingu verða að geta keyrt helstu viðskiptaferla allan sólarhringinn án truflana og á eðlilegum hraða. Cloud and edge scale units gerir fyrirtækjum kleift að keyra mikilvægustu framleiðslu- og vöruhúsaferla án truflana, jafnvel þegar koma upp stöku vandamál tengd nettengingu eða biðtíma.
+Fyrirtæki sem vinna með framleiðslu og dreifingu verða að geta keyrt helstu viðskiptaferla allan sólarhringinn án truflana og á eðlilegum hraða. Dreifð blönduð grannfræði gerir fyrirtækjum kleift að keyra mikilvægustu framleiðslu- og vöruhúsaferla án truflana, jafnvel þegar koma upp stöku vandamál tengd nettengingu eða biðtíma.
 
-Einingarkvarðar fyrir ský gerir kleift að dreifa vinnuálagi í vinnusal og vöruhúsi í mismunandi umhverfum. Þessi virkni getur hjálpað til við að auka afköst, koma í veg fyrir truflun á þjónustu og hámarkað uppitíma. Boðið er upp á einingarkvarða í gegnum eftirfarandi innbætur fyrir áskriftina að Supply Chain Management:
+Dreifð blönduð grannfræði kynnir hugmyndina um *einingakvarða* sem virkjar dreifingu á vinnuálagi vinnusalar eða vöruhúsakeyrslu á meðan mismunandi umhverfa. Þessi virkni getur hjálpað til við að auka afköst, koma í veg fyrir truflun á þjónustu og hámarkað uppitíma. Boðið er upp á einingarkvarða í gegnum eftirfarandi innbætur fyrir áskriftina að Supply Chain Management:
 
 - Viðbót Cloud Scale Unit fyrir Dynamics 365 Supply Chain Management (*í boði frá apríl 2021*)
 - Viðbót Edge Scale Unit fyrir Dynamics 365 Supply Chain Management (*í boði fljótlega*)

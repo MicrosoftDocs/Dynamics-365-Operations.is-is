@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384586"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467423"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -122,6 +122,9 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
     - **Skoða feril** – Opna feril yfir aðgerðir sem gerðar hafa verið á völdu færslunni með því að nota svargluggann **Rekstraráhrif á opnar færslur**. (Ferillinn sýnir til dæmis hvort tilkynningar hafa verið sendar eða færslur hafa verið lokaðar.) 
     - **Skoða allar færslur** – Opna heildarlista yfir allar færslur, ekki bara opnar færslur.
 
+> [!IMPORTANT]
+> Hnappurinn **Tilkynna framleiðslu** er aðeins í boði ef kveikt er á eiginleikanum *Hönnunartilkynningar fyrir framleiðslu* í kerfinu. Fyrir leiðbeiningar skal sjá [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
 
 Þú getur lesið og unnið úr breytingartilkynningunum sem þú færð á eftirfarandi hátt:
@@ -131,6 +134,9 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
 - Fyrir framleiðslupantanir er hægt að velja að skoða aðeins tilkynningar um breytingar sem eiga við um framleiðslutilföngin sem þú hefur umsjón með. Á vinnusvæðinu **Stjórnun á framleiðslugólfi**, á aðgerðasvæðinu, skal velja **Skilgreina eigið vinnusvæði** til að sía síðuna þannig að hún sýni aðeins upplýsingar um framleiðslueiningar, flokka og/eða tilföng sem þú hefur umsjón með. Í hlutanum **Samantekt** sýnir reitur sem heitir **Framleiðslupantanir með breyttum afurðum** fjöldann af tilkynningum sem passa við síustillingarnar. Veldu þennan reit til að opna síðuna **Tilkynningar um hönnun** sem sýnir heildarlista yfir færslur sem uppfylla skilyrði síunnar.
 
 Þegar þú ert að fara yfir tilkynningar um framleiðslupantanir á síðunni **Tilkynningar um hönnun** geturðu notað tengla til að fara á tengdar breytingapantanir eða framleiðslupantanir með því að velja dálkagildi eða nota tengdar skipanir á aðgerðasvæðinu. Eftir að þú hefur lokið við að meta breytingu og eftir að þú hefur hætt við eða breytt framleiðslupöntunum eftir þörfum geturðu merkt tilkynningu sem leysta. Í aðgerðasvæðinu er síðan smellt á **Leysa úr**. Tilkynningin er fjarlægð úr öllum yfirlitum notenda.
+
+> [!IMPORTANT]
+> Möguleikinn á að senda tilkynningar fyrir framleiðslupantanir krefst þess að kveikt sé á eiginleikanum *Hönnunartilkynningar fyrir framleiðslu* í kerfinu þínu. Fyrir leiðbeiningar skal sjá [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Stofna breytingapöntun úr breytingabeiðni
 

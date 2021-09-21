@@ -1,5 +1,5 @@
 ---
-title: Setja upp sýnileika birgða
+title: Setja upp innbót birgðasýnileika
 description: Þetta efnisatriði lýsir því hvernig á að setja upp innbót birgðasýnileika fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343585"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474821"
 ---
-# <a name="set-up-inventory-visibility"></a>Setja upp sýnileika birgða
+# <a name="install-and-set-up-inventory-visibility"></a>Setja upp sýnileika birgða
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops
     - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
 
 > [!NOTE]
-> Löndin og svæðin sem nú eru studd eru Kanada (CCA, ECA), Bandaríkin (WUS, ESB), Evrópusambandið (NEU, WEU), Bretland (SUK, Wuk) og Ástralía (EAU, SEAU).
+> Löndin og svæðin sem nú eru studd eru Kanada (CCA, ECA), Bandaríkin (WUS, ESB), Evrópusambandið (NEU, WEU), Bretland (SUK, Wuk), Ástralía (EAU, SEAU), Japan (EJP, WJP) og Brasilía (SBR, SCUS).
 
 Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vöruteymi birgðasýnileika.
 
@@ -119,6 +119,9 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Samþykktu skilmálana með því að velja gátreitinn **Skilmálar**.
 1. Velja **Setja upp**. Staða innbótar er sýnd sem **Í uppsetningu**. Þegar uppsetningunni er lokið skaltu endurhlaða síðuna. Staðan ætti að breytast í **Uppsett**.
 
+> [!IMPORTANT]
+> Ef þú ert með fleiri en eitt LCS-umhverfi skaltu búa til annað Azure AD forrit fyrir hvert umhverfi. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Aðeins það síðasta sem var sett upp verður tekið gilt.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Fjarlægja innbót birgðasýnileika
 
 Til að fjarlægja innbót birgðasýnileika skaltu velja **Fjarlægja** á LCS-síðunni. Fjarlægingarferlið eyðir innbót birgðasýnileika, afskráir innbótina úr LCS og eyðir öllum tímabundnum gögnum sem eru geymd í skyndiminni fyrir innbót birgðasýnileika. Hins vegar er helstu birgðagögnunum sem geymd eru í Dataverse áskriftinni þinni ekki eytt.
@@ -133,7 +136,7 @@ Til að fjarlægja birgðagögnin sem geymd eru í Dataverse áskriftinni skal o
 
 Þegar þú eyðir þessum lausnum er gögnum sem geymd eru í töflum einnig eytt.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Setja upp Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Setja upp birgðasýnileika í Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Nota samþættingarpakka birgðasýnileika
 
@@ -153,8 +156,23 @@ Gangið úr skugga um að kveikt sé á eftirfarandi eiginleikum í umhverfi Sup
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Setja upp samþættingu fyrir Sýnileika birgða
 
-1. Í Supply Chain Management skal opna vinnusvæðið **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og kveikja á eiginleikanum *Samþætting sýnileika birgða*.
-1. Farið í **Birgðastjórnun \> Uppsetning \> Samþætting færibreyta sýnileika birgða** og færið inn vefslóð umhverfisins þar sem birgðasýnileiki er keyrður. Frekari upplýsingar er að finna í [Finna endastöð þjónustu](inventory-visibility-power-platform.md#get-service-endpoint).
+Þegar þú hefur sett upp innbótina skaltu undirbúa kerfi Supply Chain Management til að vinna með það með því að fara í gegnum eftirfarandi skref.
+
+1. Í Supply Chain Management skal opna vinnusvæðið **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og kveikja á eftirfarandi eiginleikum:
+    - *Samþætting sýnileika birgða* – Áskilið.
+    - *Samþætting birgðasýnileika með mótbókun frátekningar* – Ráðlagt en valfrjálst. Krefst útgáfu 10.0.22 eða nýrri. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md).
+
+1. Farðu í **Birgðastjórnun \> Uppsetning \> Færibreytur vegna samþættingar birgðasýnileika**.
+1. Opnaðu flipann **Almennt** og gerðu eftirfarandi stillingar:
+    - **Endastöð sýnileika birgða** – Færðu inn vefslóð umhverfisins þar sem þú keyrir birgðasýnileika. Frekari upplýsingar er að finna í [Finna endastöð þjónustu](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Hámarksfjöldi færslna í einni beiðni** – Stilltu á hámarksfjölda færslna sem á að hafa með í einni beiðni. Þú verður að færa inn jákvæða heiltölu sem er minna en eða jafnt og 1000. Sjálfgildið er 512. Við mælum eindregið með því að halda sjálfgefna gildinu nema þú hafir fengið ráðgjöf frá notendaþjónustu Microsoft eða sért á annan hátt viss um að þú þurfir að breyta því.
+
+1. Ef þú virkjaðir valfrjálsa eiginleikann *Samþætting birgðasýnileika með mótbókun frátekningar* skaltu opna flipann **Mótbókun frátekningar** og gera eftirfarandi stillingar:
+    - **Virkja mótbókun frátekningar** – Stilltu á *Já* til að virkja þessa virkni.
+    - **Breytilykill fyrir mótbókun frátekningar** – Veldu stöðu birgðafærslu sem mun mótbóka frátekningar sem gerðar eru í birgðasýnileika. Þessi stilling ákvarðar stöðu pöntunarúrvinnslu sem setur af stað mótbókanir. Staða á birgðafærslu pöntunar sér um að rekja stigið. Veljið um eitt af eftirfarandi:
+        - *Í pöntun* – Fyrir stöðuna *Í færslu* mun pöntun senda beiðni um mótbókun þegar hún er stofnuð. Magn mótbókunar verður magn stofnaðrar pöntunar.
+        - *Taka frá* – Fyrir stöðuna *Taka frá pantaða færslu* mun pöntun senda beiðni um mótbókun þegar hún er tekin frá, tínd, fylgiseðill bókaður eða hún reikningsfærð. Beiðnin verður aðeins sett af stað í eitt skipti fyrir fyrsta skrefið þegar uppgefið ferli á sér stað. Magn mótbókunar verður magnið þar sem staða birgðafærslu breyttist úr *Í pöntun* í *Frátekið pantað* (eða síðari staða) í samsvarandi pöntunarlínu.
+
 1. Farið í **Birgðastjórnun \> Reglubundið \> Samþætting sýnileika birgða** og virkjið verkið. Öll tilvik birgðabreytinga úr Supply Chain Management verða nú bókuð í birgðasýnileika.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
