@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (júní 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Röðun með ótakmarkaða getu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Röðun með vali á tilföngum út frá getu
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Birgðamerking með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/marking.md
                 - name: Áætlanagerð innan samstæðu
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Stofna beiðni um tilboð
                   href: procurement/tasks/create-request-quotation.md
+                - name: Lokuð tilboð fyrir tilboðsbeiðnir
+                  href: procurement/sealed-bidding.md
                 - name: Stofna beiðni sem notar tilboðsbeiðni
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Stofna aðferð við stigagjöf fyrir tilboðsbeiðnir

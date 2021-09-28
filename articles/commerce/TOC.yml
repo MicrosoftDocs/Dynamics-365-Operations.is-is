@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (júní 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Nota verðlagsreglur fyrir flokka til að búa til viðskiptasamninga
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Seinka nákvæmum útreikningi á verði og afslætti
+                  href: delayed-price-calculation.md
             - name: Ráðleggingar
               items:
                 - name: Yfirlit yfir afurðarráðleggingar
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Birta brasilísk fjárhagsskjöl í gegnum smásöluuppgjör í Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector fyrir Adyen í Commerce-sölustað fyrir Brasilíu
+                  href: localizations/latam-bra-adyen.md
             - name: Austur-Evrópa
               items:
                 - name: Algengt
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Grunngagnaaðgerðir
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: API fyrir símtöl í Retail Server
+                    - name: Kalla á Commerce Scale Unit API
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: API-viðbætur fyrir símtöl í Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Setja upp sölukeðju fyrir sjálfstæðar umbúðir SDK
                   href: dev-itpro/build-pipeline.md
-                - name: Sameina byggingarkerfin fyrir Commerce og Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Flytja Retail SDK úr Visual Studio 2015 í Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Dæmi um stækkunarhæfni Retail SDK
@@ -2626,10 +2626,8 @@
                               href: dev-itpro/pos-extension/knockout-pos-extension.md
                             - name: Nota sérstillt headless Commerce API
                               href: dev-itpro/pos-extension/consume-apis-pos.md
-            - name: Stækkunarhæfni Hardware Station
+            - name: Hardware Station vélbúnaðarstöðvar
               items:
-                - name: Hardware Station og stækkunarhæfni
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Samþætta sölustað við nýjan vélbúnað
                   href: dev-itpro/hardware-device-extension.md
             - name: Stækkunarhæfni Retail Server

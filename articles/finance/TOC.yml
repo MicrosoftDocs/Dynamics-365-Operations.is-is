@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (ágúst 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (júní 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -448,8 +446,10 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Fara yfir innheimtuupplýsingar
                   href: accounts-receivable/tasks/review-collections-information.md
-                - name: Sjálfvirkni innheimtuferlis
+                - name: Sjálfvirkni innheimtuferla
                   href: accounts-receivable/collections-process-automate.md
+                - name: Skilgreina færibreytur fyrir sjálfvirkt innheimtuferli
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Uppsetning á lánastýringu
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Upplýsingar um uppsetningu lánastýringar
@@ -1635,7 +1635,9 @@
                 - name: VSK-yfirlit
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Skýrsla um þjónustu á milli landa
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastat-skýrsla
+                  href: localizations/emea-aut-intrastat.md
                 - name: Innkaupagjöld
                   href: localizations/emea-aut-purchase-duties.md
             - name: Barein
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Setja upp og vinna með PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Árleg virðisaukaskattsskráning á sölu innanlands
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brasilía
               items:
                 - name: Yfirlit yfir Brasilíu
@@ -2974,7 +2978,9 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Rafrænir reikningar
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Rafræn bókhaldsyfirlit fjárhags
+                - name: Viðbót við farmskrá (Carta de Porte) (útgáfa 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
+                - name: Rafrænt bókhaldsyfirlit fjárhags
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Færa inn skattskráningarkenni fyrir mexíkóska lögaðila
                   href: localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Skráningarkenni lánardrottna
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Óman
-              items:
-                - name: Yfirlit fyrir Óman
-                  href: localizations/oman.md
-                - name: VSK-skýrsla fyrir Óman (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Holland
               items:
                 - name: Yfirlit yfir Holland
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: ESB-sölulisti
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Nýja-Sjáland
+              items:
+                - name: Skýrslublað GST101A fyrir vöru- og þjónustuskatt fyrir Nýja-Sjáland (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Noregur
               items:
                 - name: Yfirlit yfir Noreg
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Rafrænir reikningar viðskiptavinar í Noregi
                   href: localizations/emea-nor-e-invoices.md
+            - name: Óman
+              items:
+                - name: Yfirlit fyrir Óman
+                  href: localizations/oman.md
+                - name: VSK-skýrsla fyrir Óman (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Pólland
               items:
                 - name: Yfirlit yfir Pólland
@@ -3448,22 +3458,22 @@
                       items:
                         - name: Stafrænir skattar (MTD) – Skil VSK-endurgreiðslu á Bretlandi
                           href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Undirbúið umhverfið til að vinna með VSK-vefþjónustu stafrænna skatta hjá HMRC
+                        - name: Undirbúa umhverfið til að vinna með stafræna VSK-vefþjónustu HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Heimilaðu Finance-umhverfinu að vinna með vefþjónustu stafrænna skatta hjá HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Prófa samvirkni við VSK-sandkassa stafrænna skatta (MTD)
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Senda VSK-endurgreiðslu til vefþjónustu stafrænna skatta (MTD) hjá HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Gátlisti fyrir uppsetningu rafrænna skilaboða fyrir VSK-stafræna skatta
+                        - name: Gátlisti fyrir uppsetningu rafrænna skilaboða fyrir stafrænan VSK
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Mynda VSK-skýrslu á pappír (VSK 100 skýrsla)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: Prófa virkni með sandkassa stafræns VSK
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Heimila Finance-umhverfinu að vinna með stafrænni skattavefþjónustu HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Senda VSK-framtal til stafrænnar skattavefþjónustu HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: Sækja upplýsingar um VSK-greiðslur og skuldir frá HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                         - name: Upplýsingar um uppsetningu VSK fyrir VSK-skýrslur í Bretlandi
                           href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Sækja upplýsingar um VSK-greiðslur og -skuldir frá HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Búa til VSK-skýrslu á pappírsformi (VSK 100 skýrsla)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Skýrsla um greiðsluhætti
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Bandaríkin
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Hanna snið rafrænnar skýrslugerðar til að skipta skjölum mynduðum í Excel á síður
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að búa til skýrslur á Word-sniði
                   items:
                     - name: Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði

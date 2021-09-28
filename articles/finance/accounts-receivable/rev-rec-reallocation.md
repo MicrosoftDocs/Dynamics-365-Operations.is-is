@@ -2,7 +2,7 @@
 title: Endurúthlutun tekjuskráningar
 description: Í þessu efnisatriði er að finna upplýsingar um endurúthlutun sem gerir fyrirtækjum kleift að endurreikna tekjuupphæðir þegar skilmálum samningsbundinnar sölu er breytt. Þar er að finna tengla á önnur efnisatriði sem útskýra hvernig á að skrá tekjur í ýmsum aðstæðum.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745038"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487019"
 ---
 # <a name="revenue-recognition-reallocation"></a>Endurúthlutun tekjuskráningar
 
@@ -35,10 +35,22 @@ Fyrirtækið verður að ákveða hvort endurúthlutun sé nauðsynleg. Viðbót
 Nokkrar mikilvægar takmarkanir eru á endurúthlutunarferlinu:
 
 - Aðeins er hægt að keyra ferlið einu sinni. Því er mikilvægt að keyra það eingöngu eftir að öllum breytingum er lokið.
+
+    - Þessi takmörkun er fjarlægð í útgáfu 10.0.17 og síðari.
+
 - Ekki er hægt að keyra ferlið í sölupöntunum verks.
+
+    - Þessi takmörkun er fjarlægð í útgáfu 10.0.17 og síðari.
+
 - Ef margar sölupantanir koma við sögu, verða þær að vera fyrir sama viðskiptavinalykilinn.
 - Allar endurúthlutaðar sölupantanir verða að vera í sama færslugjaldmiðlinum.
 - Ekki er hægt að bakfæra eða afturkalla ferlið þegar búið er að keyra það.
+
+    - Þessi takmörkun er fjarlægð í útgáfu 10.0.17 og síðari.
+
+- Aðeins er hægt að framkvæma endurúthlutun fyrir annaðhvort sölupantanir eða sölupantanir verka. Ekki er hægt að framkvæma hana fyrir samsetningu á sölupöntunum og sölupöntunum verka.
+
+    - Þessi takmörkun er fjarlægð í útgáfu 10.0.17 og síðari.
 
 ## <a name="set-up-reallocation"></a>Uppsetning endurúthlutunar
 
@@ -78,7 +90,7 @@ Til að hefja endurúthlutunarferlið skal velja **Endurúthluta verði með ný
 
 [![Endurúthluta verði með nýrri síðu pöntunarlína.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Efra hnitanetið á síðunni **Endurúthluta verði með nýjum pöntunarlínum** heitir **Sala**. Þar er að finna sölupantanir fyrir viðskiptavinina. Velja skal sölupantanirnar sem þarf að endurúthluta. Ekki er hægt að velja sölupantanir verks vegna þess að ekki er hægt að endurúthluta þeim. Ekki er heldur hægt að velja sölupantanir sem eru þegar komnar með kenni endurúthlutunar þar sem aðeins má endurúthluta sölupöntunum sem tilheyra ekki verki einu sinni. Ef sölupöntun er með kenni endurúthlutunar hefur annar notandi þegar merkt hana til endurúthlutunar.
+Efra hnitanetið á síðunni **Endurúthluta verði með nýjum pöntunarlínum** heitir **Sala**. Þar er að finna sölupantanir fyrir viðskiptavinina. Velja skal sölupantanirnar sem þarf að endurúthluta. Ef sölupöntun er með kenni endurúthlutunar hefur annar notandi þegar merkt hana til endurúthlutunar. Ef einni eða fleiri sölupöntunum var áður endurúthlutað og þær verða að fylgja með í annarri endurúthlutun þarf fyrst að afturkalla endurúthlutun þessara sölupantana. Þá er hægt að hafa hana með í nýrri endurúthlutun. Nákvæmari upplýsingar er að finna í hlutunum [Afturkalla endurúthlutun](#undo-a-reallocation) og [Endurúthluta mörgum sinnum](#reallocate-multiple-times) síðar í þessu efnisatriði.
 
 Neðra hnitanetið á síðunni kallast **Línur**. Þegar búið er að velja eina eða fleiri sölupantanir í hnitanetinu **Sala** sýnir hnitanetið **Línur** sölupöntunarlínurnar. Velja skal sölupöntunarlínurnar sem á að endurúthluta. Ef aðeins ein sölupöntun er valin verður að endurúthluta línum sömu sölupöntunarinnar. Þessi staða getur komið upp þegar ein af sölupöntunarlínunum var áður reikningsfærð og síðan var nýrri línu bætt við eða fyrirliggjandi lína var fjarlægð eða hætt við hana. Ef lína var fjarlægð birtist hún ekki í hnitanetinu. Þess vegna er ekki hægt að velja hana. Hins vegar verður hún samt tekin til greina þegar endurúthlutunarferlið er keyrt.
 
@@ -104,6 +116,26 @@ Eftir að lokið er við að velja nauðsynlegar sölupöntunarlínur skal nota 
 
 - **Endurstilla gögn fyrir valinn viðskiptavin** – Ef endurúthlutunarferlið hófst en var ekki klárað skal aðeins hreinsa gögnin í endurúthlutunartöflunni fyrir valinn viðskiptavin. Til dæmis ef þú merkir margar sölupöntunarlínur til endurúthlutunar, skilur síðuna eftir opna án þess að velja **Vinna úr** og svo rennur síðan út á tíma. Þá haldast sölupöntunarlínurnar merktar og þær verða ekki aðgengilegar öðrum notanda til að ljúka endurúthlutunarferlinu. Síðan gæti jafnvel verið auð þegar hún er opnuð. Í þessum aðstæðum er hægt að nota hnappinn **Endurstilla gögn valins viðskiptavinar** til að hreinsa óunnar sölupantanir þannig að annar notandi geti lokið endurúthlutunarferlinu.
 
+## <a name="undo-a-reallocation"></a>Afturkalla endurúthlutun
+
+Endurúthlutun er afturkölluð með því að keyra aðra endurúthlutun. Endurúthlutunin er gerð aftur og notandinn velur mismunandi sölupöntunarlínur til að hafa með í öðru endurúthlutunarferlinu.
+
+Ef endurúthlutun hefur farið fram á tveimur eða fleiri aðskildum sölupöntunum er hægt að afturkalla hana með því að velja **Endurúthluta verði með nýjum pöntunarlínum** úr öllum sölupöntunum sem eru innifaldar í endurúthlutuninni. Ekki er hægt að opna **Tekjuskráning \> Reglubundin verkefni \> Endurúthluta verði með nýjum pöntunarlínum** til að afturkalla endurúthlutunina vegna þess að síðan sem er opnuð á þennan hátt sýnir eingöngu sölupantanir sem eru ekki með endurúthlutunarkenni. Endurúthlutunarkenninu er úthlutað eftir að skjalinu hefur verið endurúthlutað.
+
+Á síðunni **Endurúthluta verði með nýjum pöntunarlínum** skal afmerkja allar sölupantanir sem ætti að útiloka frá samningssambandinu. Nota verður viðeigandi hnappa á aðgerðarúðunni, svo sem **Uppfæra endurúthlutun** og **Ferli**, til að vinna úr endurúthlutuninni. Ef allar sölupantanir nema virka sölupöntunin eru ómerktar verður endurúthlutunarkennið fjarlægt þegar unnið er úr breytingunni.
+
+Ef endurúthlutun hefur verið gerð með því að bæta nýrri línu við sölupöntun sem er að fullu eða að hluta til reikningsfærð er einungis hægt að afturkalla endurúthlutunina með því að fjarlægja þá línu úr sölupöntuninni og keyra síðan endurúthlutunina aftur. Fjarlægja verður sölupöntunarlínuna vegna þess að gert er ráð fyrir að allar línur á sölupöntun séu hluti af sama samningi. Ekki er hægt að afmerkja sölupöntunarlínu á síðunni **Endurúthluta verði með nýjum pöntunarlínum**.
+
+## <a name="reallocate-multiple-times"></a>Endurúthluta mörgum sinnum
+
+Hægt er að gera margar endurúthlutanir gagnvart sömu sölupöntun ef margar breytingar hafa verið gerðar á samningnum. Við hverja endurúthlutun fer í gang úthlutun á endurúthlutunarkenni í sölupöntun eða hópi sölupantana, til að hópa breytingarnar saman. Ef margar endurúthlutanir eru gerðar notar hver viðbótarúthlutun sama endurúthlutunarkenni og fyrsta endurúthlutunin.
+
+Til dæmis er sölupöntun 00045 slegin inn og er með mörgum línum. Eftir að sölupöntunin er reikningsfærð að fullu er nýrri sölupöntunarlínu bætt við hana. Endurúthlutunin er síðan keyrð með því að opna síðuna **Endurúthluta verði með nýjum pöntunarlínum** annaðhvort úr sölupöntun 00045 eða með því að fara í **Tekjuskráning \> Reglubundin verkefni \> Endurúthluta verði með nýjum pöntunarlínum**. Endurúthlutunarkenninu **Reall000001** er úthlutað til sölupöntunarinnar.
+
+Önnur sölupöntun, 00052, er stofnuð fyrir sama samning. Hægt er að keyra endurúthlutunina aftur með því að opna síðuna **Endurúthluta verði með nýjum pöntunarlínum** úr sölupöntun 00045 en ekki úr sölupöntun 00052. Ef síðan **Endurúthluta verði með nýjum pöntunarlínum** úr sölupöntun 00052 er opnuð verður sölupöntun 00045 ekki sýnd, vegna þess að endurúthlutunarkenni hefur ekki verið úthlutað til hennar. Síðan sýnir aðeins sölupantanir sem hafa ekkert endurúthlutunarkenni.
+
+Tvær leiðir eru til að framkvæma aðra endurúthlutun. Hægt er að afturkalla endurúthlutun sölupöntunar 00045. Í þessu tilviki er endurúthlutunarkennið fjarlægt og þá er hægt að framkvæma endurúthlutun úr annaðhvort sölupöntun 00045 eða sölupöntun 00052. Einnig er hægt að opna síðuna **Endurúthluta verði með nýjum pöntunarlínum** úr sölupöntun 00045 og bæta hinni sölupöntuninni við. Þegar unnið er úr endurúthlutuninni verður endurúthlutunarkenni **Reall000001** úthlutað bæði til sölupöntunar 00045 og sölupöntunar 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Aðstæður endurúthlutunar
 
 Eftirfarandi efnisatriði fara í gegnum ýmsar aðstæður tekjuskráningar:
@@ -112,6 +144,5 @@ Eftirfarandi efnisatriði fara í gegnum ýmsar aðstæður tekjuskráningar:
 - [Endurúthlutun tekjuskráningar – Aðstæður 2](rev-rec-reallocation-scenario-2.md) – Tvær sölupantanir eru færðar inn og viðskiptavinurinn bætir atriði við samninginn eftir að fyrsta sölupöntunin er reikningsfærð.
 - [Endurúthlutun tekjuskráningar – Aðstæður 3](rev-rec-reallocation-scenario-3.md) – Nýrri línu er bætt við núverandi reikningsfærða sölupöntun.
 - [Endurúthlutun tekjuskráningar – Aðstæður 4](rev-rec-reallocation-scenario-4.md) – Lína er fjarlægð úr núverandi sölupöntun sem er reikningsfærð að hluta til.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

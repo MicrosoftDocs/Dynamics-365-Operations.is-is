@@ -1007,7 +1007,11 @@
                 - name: Algengar spurningar um tímaramma áætlaðs viðhalds
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Eftirlit og greiningar
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Eftirlits- og greiningarverkfæri
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Nota Azure Data Explorer til að gera fyrirspurnir um hráa upplýsingakladda
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Endurræsa umhverfisþjónustu
               href: lifecycle-services/restart-environment-services.md
             - name: Tilkynna framleiðslustöðvun
