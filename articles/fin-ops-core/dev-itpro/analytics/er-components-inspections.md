@@ -2,7 +2,7 @@
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 description: Þetta efnisatriði útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718624"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488115"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -229,6 +229,12 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <p>Síðuhausar/síðufætur (&lt;gerð þáttar: Síðuhaus eða síðufótur&gt;) eru í ósamræmi</p>
 <p><b>Keyrslutími:</b> Síðasti skilgreindi hlutinn er notaður við keyrslu ef útgáfa draga fyrir skilgreint snið rafrænnar skýrslugerðar er keyrt.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Ósamræmd stilling á síðuhluta</a></td>
+<td>Heilleiki gagna</td>
+<td>Villa</td>
+<td>Fleiri en tveir sviðshlutar eru til staðar án endurgerðar. Vinsamlegast fjarlægðu óþarfa íhluti.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Breytið skilgreindu sniði með því að eyða einum af ósamræmdu íhlutum *
 #### <a name="option-2"></a>Valkostur 2
 
 Breytið gildi eiginleikans **Útlit hauss/fótar** fyrir einn af ósamræmdu íhlutum **Excel\\Síðuhaus** eða **Excel\\Síðufótur**.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Ósamræmd stilling á síðuhluta
+
+Þegar íhlutur rafræns skýrslugerðarsniðs er [skilgreindur](er-fillable-excel.md) til að nota Excel-sniðmát til að búa til skjal á útleið, er hægt að bæta við íhlutnum **Excel\\Síða** til að setja myndað skjal á síður með því að nota formúlur rafrænnar skýrslugerðar. Fyrir hvern íhlut **Excel\\Síðu** sem þú bætir við getur þú bætt við mörgum földuðum íhlutum [Sviðs](er-fillable-excel.md#range-component) og samt fylgt reglum eftirfarandi [skipulags](er-fillable-excel.md#page-component-structure):
+
+- Hægt er að stilla fyrsta faldaða **Sviðið** þannig að eiginleikinn **Eftirlíkingarátt** er stillt á **Engin eftirlíking**. Þetta svið er notað til að búa til síðuhausa í mynduðum skjölum.
+- Þú getur bætt við mörgum öðrum földuðum íhlutum **Sviðs** þar sem eiginleikinn **Eftirlíkingarátt** er stillt á **Lóðrétt**. Þessi svið eru notuð til að fylla út mynduð skjöl.
+- Hægt er að stilla síðasta faldaðan íhlut **Sviðs** þannig að eiginleikinn **Eftirlíkingarátt** er stillt á **Engin eftirlíking**. Þetta svið er notað til að búa til síðufætur í mynduðum skjölum og til að bæta við nauðsynlegum síðuskilum.
+
+Ef þú fylgir ekki þessu skipulagi fyrir snið rafrænnar skýrslugerðar í hönnuði rafræns skýrslugerðarsniðs á hönnunartíma kemur upp villa við villuleit og þú færð eftirfarandi villuboð: „Til eru fleiri en tveir íhlutir sviðs án eftirlíkingar. Vinsamlegast, fjarlægja óþarfa hluti.
+
+### <a name="automatic-resolution"></a>Sjálfvirk lausn
+
+Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
+
+### <a name="manual-resolution"></a>Handvirk lausn
+
+#### <a name="option-1"></a>Valkostur 1
+
+Breyttu stilltu sniði með því að breyta eiginleikanum **Eftirlíkingarátt** fyrir alla íhluti **Excel\\Sviðs** þar sem er ósamræmi.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

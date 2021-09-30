@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729411"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500476"
 ---
 # <a name="process-review-and-post-rebates"></a>Meðhöndla, yfirfara og bóka eftirágreiddan afslátt
 
@@ -43,8 +43,6 @@ Keyra þarf reglubundna verkið **Reikna út innkaupaverð samkvæmt FIFO** til 
 Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Reikna út innkaupaverð samkvæmt FIFO**. Í svarglugganum sem birtist skal velja **Í lagi** til að keyra útreikninginn.
 
 ## <a name="create-source-transactions"></a>Stofna upprunafærslur
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Þú getur stofnað sölupantanir eða innkaupapantanir sem eru með upprunalegar færslur annaðhvort fyrir eða eftir að þú býrð til viðeigandi tilboð fyrir stjórnun á eftirágreiddum afslætti.
 
@@ -158,8 +156,6 @@ Til að stofna upprunafærslu, skal fylgja eftirfarandi skrefum.
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Tilboð afgreidd með vinnusvæði eftirágreidds afsláttar
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Í stað þess að afgreiða ákveðin tilboð eða tilboðslínur er hægt að nota *vinnusvæði eftirágreidds afsláttar* til að afgreiða mörg tilboð samtímis. Það má nota færslusíur og/eða setja upp endurtekna áætlun. Þú þarft ekki að velja neinar raðir. Kerfið mun vinna úr öllum línum sem uppfylla kröfur um dagsetningu og síur sem þú setur upp.
 
 Til að afgreiða tilboð með vinnusvæði eftirágreidds afsláttar skal fylgja þessum skrefum.
@@ -213,8 +209,6 @@ Til að skoða og breyta færslum eftirágreidds afsláttar með listasíðu eft
 > Ef kröfuferli er notað, þegar unnið er úr næsta tímabili, mun færslulistinn innihalda óinnheimtar færslur frá fyrri bókun ásamt nýjum færslum fyrir valið tímabil.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Skoða og breyta færslum fyrir stjórnun eftirágreidds afsláttar með því að nota vinnusvæði eftirágreidds afsláttar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Til að skoða og breyta færslum fyrir stjórnun eftirágreidds afsláttar með því að nota vinnusvæði eftirágreidds afsláttar skal fylgja þessum skrefum.
 
@@ -295,8 +289,6 @@ Til að setja upp kerfi til að bóka allar markfærslur um leið og þær eru m
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Bóka færslur með vinnusvæði eftirágreidds afsláttar
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Þegar búið er að vinna úr úthlutun, eftirágreiddum afslætti eða afskriftafærslum skal fylgja þessum skrefum til að nota vinnusvæði eftirágreidds afsláttar til að fara yfir og bóka myndaðar færslur fyrir eina eða fleiri tilteknar færslulínur fyrir öll tilboð.
 
 1. Farðu í **Stjórnun eftirágreidds afsláttar \> Tilboð fyrir stjórnun eftirágreidds afsláttar \> Vinnusvæði eftirágreidds afsláttar**.
@@ -332,8 +324,6 @@ Til að yfirfara færslur færslubókar sem tengjast tilboði fyrir stjórnunar 
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Yfirfara færslubækur með vinnusvæði eftirágreidds afsláttar
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Til að yfirfara færslubækur með því að nota vinnusvæði eftirágreidds afsláttar skal fylgja þessum skrefum.
 
 1. Farðu í **Stjórnun eftirágreidds afsláttar \> Tilboð fyrir stjórnun eftirágreidds afsláttar \> Vinnusvæði eftirágreidds afsláttar**.
@@ -342,8 +332,6 @@ Til að yfirfara færslubækur með því að nota vinnusvæði eftirágreidds a
 1. Listi yfir viðeigandi færslubækur, skjöl eða vörur birtist. Til að skoða frekari upplýsingar um einhverja færslubók, skjal eða vöru skal velja línu þess og síðan á aðgerðasvæðinu skal velja **Skoða upplýsingar**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Færslur eftirágreidds afsláttar á frádráttarvinnusvæðinu
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Þegar þú bókar færslu eftirágreidds afsláttar sem er með eitt af eftirfarandi gildum **Greiðslugerðar** býr kerfið til frádráttarbók viðskiptavinar eða reikning með frjálsum texta fyrir viðeigandi viðskiptavinalykil:
 
@@ -358,8 +346,6 @@ Frekari upplýsingar er að finna í [Stjórna frádráttum með frádráttarvin
 
 ## <a name="purge-unposted-transactions"></a>Hreinsa óbókaðar færslur
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Þegar búið er að afgreiða úthlutun, eftirágreiddan afslátt eða afskriftafærslur skal fylgja þessum skrefum til að hreinsa valdar óbókaðar færslur.
 
 1. Farðu í **Stjórnun eftirágreidds afsláttar \> Tilboð fyrir stjórnun eftirágreidds afsláttar \> Vinnusvæði eftirágreidds afsláttar**.
@@ -368,8 +354,6 @@ Frekari upplýsingar er að finna í [Stjórna frádráttum með frádráttarvin
 4. Veldu **Í lagi** til að eyða óbirtum færslum.
 
 ## <a name="cancel-a-posted-provision"></a>Hætta við birt ákvæði
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Þegar búið er að vinna úr og bóka úthlutun skal fylgja þessum skrefum til að hætta við bókaðar úthlutunarfærslur.
 

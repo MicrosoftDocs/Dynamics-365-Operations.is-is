@@ -1,8 +1,8 @@
 ---
 title: Bæta við gagnareitum í skattaskilgreiningum
 description: Þetta efnisatriði útskýrir hvernig á að sérsníða skattaskilgreiningar með því að bæta við gagnasvæðum.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 56b2eae37738ff6a12226671c386e2dd63c380bd4dca1554ef2d1cad0b75faaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725942"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500147"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Bæta við gagnareitum í skattaskilgreiningum
 
@@ -30,7 +30,7 @@ ms.locfileid: "6725942"
 
 ## <a name="customize-the-tax-data-model"></a>Sérstilla skattgagnalíkan
 
-1. Í Microsoft Dynamics 365 Finance skaltu fara í **Rafræn skýrslugerð** \> **Skattaskilgreiningar**.
+1. Í Microsoft Dynamics 365 Finance skaltu fara í **Rafræn skýrslugerð** > **Skattaskilgreiningar**.
 2. Í skilgreiningartrénu velurðu **Skattgaganlíkan - Evrópa**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**.
 3. Í fellilistanum velurðu **Skattskylt skjallíkan afleitt af nafni: Skattgagnalíkan -- Evrópa, Microsoft** valkostinn, slærð inn heiti fyrir nýja skattgagnalíkanið og velur **Stofna skilgreiningu**.
 4. Veljið skattgagnalíkan sem nýverið var stofnuð, og síðan, á Aðgerðarúðu, smellið á **Hönnuður**.
@@ -42,20 +42,23 @@ ms.locfileid: "6725942"
 
 ## <a name="customize-the-tax-configuration"></a>Sérstilla skattaskilgreiningu
 
-1. Í Finance er farið í **Rafræn skýrslugerð** \> **Skattaskilgreiningar**.
+1. Í Finance er farið í **Rafræn skýrslugerð** > **Skattaskilgreiningar**.
 2. Í skilgreiningartrénu velurðu **Skattaskilgreining - Evrópa**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**.
-3. Í fellilistanum velurðu **Skilgreining skattþjónustu afleidd af nafni: Skattaskilgreining -- Evrópa, Microsoft** valkostinn, slærð inn heiti fyrir nýju skattaskilgreininguna og velur **Stofna skilgreiningu**.
+3. Í fellilistanum velurðu **Skilgreining skattþjónustu afleidd af nafni: Skattaskilgreining -- Evrópa, Microsoft**, slærð inn heiti fyrir nýju skattaskilgreininguna og velur **Stofna skilgreiningu**.
 4. Veljið skattaskilgreiningu sem nýverið var stofnuð, og síðan, á Aðgerðarúðu, smellið á **Hönnuður**.
 5. Í hlutanum **Eiginleikar** í **Gagnalíkan** skal velja sérstillta skattgagnalíkanið sem var búið til áður.
 6. Í reitnum **Útgáfa gagnalíkans** er lokið við að velja útgáfu af gerð skattagagnalíkansins.
 7. Veljið **Bæta við** og bætið við nauðsynlegum skattalegum ráðstöfunum.
 8. Á aðgerðasvæðinu skal velja **Vista** og síðan **Ljúka**.
-9. Lokið síðunni og skoðið lokaútgáfu af skattgagnalíkaninu.
+9. Lokaðu síðunni og skoðaðu lokaútgáfu af skattskilgreiningunni þinni.
 
 ## <a name="implement-tax-features-in-the-customized-tax-configuration"></a>Innleiða skattaeiginleika í sérsniðinni skattaskilgreiningu
 
-1. Í Regulatory Configuration Service (RCS) skal fara í **Altækir eiginleikar** \> **Skattur**.
+1. Í Regulatory Configuration Service (RCS) skal fara í **Altækir eiginleikar** > **Skattur**.
 2. Veljið **Bæta við**, sláið inn upplýsingar um nýja eiginleikann og veljið svo **Búa til eiginleika**.
 3. Á flipanum **Útgáfur** skal velja eiginleikann og svo **Breyta**.
 4. Á flipanum **Almennt** í reitnum **Útgáfa skilgreiningar** skal velja sérstillta skattaskilgreiningu og útgáfu.
 5. Í svarglugganum **Stjórna dálkum** skal velja haus og línudálka sem á að hafa með á sérstilltri skattaráðstöfun og velja svo rétta örvatakkann til að bæta þeim á listann **Valdir dálkar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

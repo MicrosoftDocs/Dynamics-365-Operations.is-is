@@ -1,8 +1,8 @@
 ---
 title: Launafyrirkomulag
-description: Stjórnendur launa og fríðinda geta notað launastjórnun til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Í þessu efnisatriði er lýst hvernig á að nota launastjórnun til að hafa umsjón með og vinna úr launafyrirkomulagi.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732442"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483811"
 ---
 # <a name="compensation-plans"></a>Launafyrirkomulag
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Stjórnendur launa og fríðinda geta notað launastjórnun til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
+Stjórnendur launa og fríðinda geta notað **launastjórnun** til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
 
 ### <a name="introduction"></a>Inngangur
 
@@ -42,8 +42,8 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 <table>
 <thead>
 <tr class="header">
-<th>Íhlutur</th>
-<th>Meiri upplýsingar…</th>
+<th>Hlutur</th>
+<th>Meiri upplýsingar</th>
 </tr>
 </thead>
 <tbody>
@@ -89,7 +89,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Stýripunktur</td>
-<td>Stýripunkturinn skilgreinir hvað þú telur vera besta launataxta fyrir alla starfsmenn í launastigi. Fyrir áætlunarskipulag gráðu eru stýripunktar yfirleitt miðpunktur sviðsins. Brautarskipulag notast sjaldan við stýripunkta. Hægt er að tilgreina stýripunktur fyrir launafyrirkomulag fastra launa í skjámynd launafyrirkomulags Fastra launa.</td>
+<td>Stýripunkturinn skilgreinir hvað þú telur vera besta launataxta fyrir alla starfsmenn í launastigi. Fyrir áætlunarskipulag gráðu eru stýripunktar yfirleitt miðpunktur sviðsins. Brautarskipulag notast sjaldan við stýripunkta. Hægt er að tilgreina stýripunktur fyrir launafyrirkomulag fastra launa í launafyrirkomulagssíðunni **Föst laun**.</td>
 </tr>
 <tr class="odd">
 <td>Starfshlutverk</td>

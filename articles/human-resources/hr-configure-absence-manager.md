@@ -2,7 +2,7 @@
 title: Skilgreina hlutverk fjarvistastjórnanda
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp hlutverk fjarvistastjórnanda fyrir stjórnun á leyfi starfsmanns.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732346"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485755"
 ---
 # <a name="configure-the-absence-manager-role"></a>Skilgreina hlutverk fjarvistastjórnanda
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 Í sumum fyrirtækjum er ekki víst að stjórnendur hafi umsjón með leyfum fyrir teymið þeirra. Þess í stað gæti fjarvistastjórnandi séð um þetta ferli fyrir teymismeðlimi í mörgum deildum og teymum. Fjarvistastjórnendur hafa eftirfarandi möguleika fyrir leyfisstjórnun:
 
@@ -38,7 +36,7 @@ ms.locfileid: "6732346"
 
 1. Á vinnusvæðinu **Kerfisstjórnun** skal velja **Eiginleikastjórnun**.
 
-2. Í flipanum **Eiginleikastjórnun** skal virkja eiginleikann **(Forútgáfa) Fjarvistarstjóri stjórnar leyfi**.
+2. Í flipanum **Eiginleikastjórnun** skal virkja eiginleikann **Fjarvistarstjóri stjórnar leyfi**.
 
 ## <a name="define-a-custom-hierarchy"></a>Skilgreina sérstillt stigveldi
 

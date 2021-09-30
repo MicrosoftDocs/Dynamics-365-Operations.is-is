@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345267"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500591"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Ástæðukóðar fyrir birgðatalningu
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Ástæðukóðar gera þér kleift að greina niðurstöður talningarferlis og hvers kyns misræmi sem á sér stað í því ferli. Hægt er að tilgreina ástæðuna fyrir því að gera talningu, t.d. brotið bretti eða lagerleiðrétting sem byggist á sýnishornum birgða. Á sama tíma getur þú notað leiðréttingaraðgerðina til að bóka virði leiðréttingar á lagerbirgðum á viðeigandi mótlykil sem byggir á ástæðunni fyrir hverja birgðaleiðréttingu.
 
@@ -42,8 +41,6 @@ ms.locfileid: "7345267"
 - Eiga ástæðukóðar að keyra fjárhagsbókanir mótlykils?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Kveikja á eiginleika ástæðukóða í kerfinu
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ef þú sérð ekki alla eiginleikana sem lýst er í þessu efnisatriði í kerfinu þínu verður þú líklega að kveikja á eiginleikanum *Bóka breytingar á lager með stillanlegum ástæðukóðum sem eru tengdir við mótlykla*. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 

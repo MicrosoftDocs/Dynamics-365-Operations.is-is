@@ -1,8 +1,8 @@
 ---
 title: Stofna launafyrirkomulag fastra launa
-description: Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þessari grein lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ae6f31db40c792c9b65a6f21395e05528a053acbc4b9dc8b56978675c635e0f4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 141666963ca70e320f6acd02a0344f00c780dcac
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732490"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484122"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Stofna launafyrirkomulag fastra launa
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þessari grein lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
+Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
 
 Hægt er að reikna upphæðir fastra°launa fyrir starfsmenn, á grundvelli þátta eins og afköst, svæði og aukningu fjárhagsáætlunar. Dynamics 365 Human Resources styður skref, launaþrep og greiningartímabil launa.
 
@@ -41,7 +41,7 @@ Hægt er að nota **launastig** til að setja inn laun fyrir mismunandi störf, 
 
 ### <a name="compensation-grids"></a>Launanet
 
-Eftir að búið er að setja upp stig og tilvísunarpunkta er hægt að sameina°það til að búa til **launanet**. Á **launanet** síðunni, tilgreinið upplýsingar um hnitanetið. Til dæmis er hægt að tilgreina fyrir hvað hnitanetið er hannað, hvaða gerð áætlunar það verði notað við og hvaða tilvísunarpunkta eða dálka sé krafist í hnitanetinu. Eftir að lokið hefur verið við að færa inn þær upplýsingar skal smella á **launaskipulag** til að bæta stigum og upphæðum við hnitanetið. 
+Eftir að búið er að setja upp stig og tilvísunarpunkta er hægt að sameina það til að búa til **launanet**. Á **launanet** síðunni, tilgreinið upplýsingar um hnitanetið. Til dæmis er hægt að tilgreina fyrir hvað hnitanetið er hannað, hvaða gerð áætlunar það verði notað við og hvaða tilvísunarpunkta eða dálka sé krafist í hnitanetinu. Eftir að lokið hefur verið við að færa inn þær upplýsingar skal smella á **launaskipulag** til að bæta stigum og upphæðum við hnitanetið. 
 
 **Ábending:** Notið **Fjöldabreytingar** aðgerð á launaskipulagi til að setja upphaflegar upphæðir, og síðan°þrepaaukning eftir upphæðir eða prósentur milli stiga eða tilvísunarpunkta.
 
@@ -60,9 +60,9 @@ Hægt er að hanna launafyrirkomulag fastra launa til að sameina alla uppsetta 
 
 Þegar búið er að skilgreina grunnatriði fasts launafyrirkomulags, er hægt að setja upp launaskipulag fyrir fyrirkomulagið. Smellt er á **Setja upp laun**. Svargluggasleði opnast sem gefur þrjá valkosti:
 
--   Búa til nýtt launanet með því að velja uppsetningu tilvísunarpunkts og gefa hnitanetinu nafn.
--   Búa til nýtt launanet með því að búa til afrit af fyrirliggjandi hnitaneti sem hægt er að nota°sem upphafspunkt.
--   Nota fyrirliggjandi launanet sem þegar hefur verið skilgreint. Allt launafyrirkomulag sem notar sama hnitanet fær uppfærslur ef því hnitaneti er breytt.
+-   **Búa til nýtt launanet** með því að velja uppsetningu tilvísunarpunkts og gefa hnitanetinu nafn.
+-   **Búa til nýtt launanet** með því að búa til afrit af fyrirliggjandi hnitaneti sem hægt er að nota°sem upphafspunkt.
+-   **Nota fyrirliggjandi launanet** sem þegar hefur verið skilgreint. Allt launafyrirkomulag sem notar sama hnitanet fær uppfærslur ef því hnitaneti er breytt.
 
 Þegar valkostur er valinn, opnast°síðan **Launaskipulag** og hægt er að gera breytingar á nýju launaneti eða fyrirliggjandi launaneti.
 
@@ -73,7 +73,7 @@ Hægt er að hanna launafyrirkomulag fastra launa til að sameina alla uppsetta 
 
 **Ábending:** Hæfnisreglur ákvarða hæfni fyrir launafyrirkomulag fastra launa og breytilegrar uppbótar. 
 
-Hæfnisreglur meta gildi sértækra svæða í starfinu, stöðunni og starfsmannaskrám til að ákvarða hvort starfsmaðurinn er hæfur fyrir launafyrirkomulag.
+Hæfnisreglur meta gildi sértækra svæða í **starfs-**, **stöðu-** og **starfsmannaskrám** til að ákvarða hvort starfsmaðurinn er hæfur fyrir launafyrirkomulag.
 
 -   Á **Starf** síðunni tekur hæfnisreglan til eftirfarandi svæða:
     -   **Starf** svæðið
@@ -93,7 +93,7 @@ Til dæmis þegar föst laun eru sett upp fyrir starfsmann, er aðeins hægt að
 
 Nú er hægt að tengja starfsmann við launafyrirkomulag fastra launa. Opna skal síðuna **Starfsmenn** og veljið starfsmann til að skrá í launafyrirkomulaginu. Smellið á **Bætur** &gt; **Föst áætlun** á aðgerðarúðunni. Nú er hægt að stofna nýja aðgerð fastra launa fyrir þann starfsmann. 
 
-**Ábending:** Svæðið Launaáætlun sýnir aðeins°áætlanir sem starfsmaður er hæfur fyrir undir hæfnisreglum sem settar voru upp fyrir hverja áætlun. Ef engin hæfnisregla er sett upp fyrir áætlun verður engin starfsmaður hæfur fyrir þá áætlun. 
+**Ábending:** Svæðið **Launaáætlun** sýnir aðeins áætlanir sem starfsmaður er hæfur fyrir undir hæfnisreglum sem settar voru upp fyrir hverja áætlun. Ef engin hæfnisregla er sett upp fyrir áætlun verður engin starfsmaður hæfur fyrir þá áætlun. 
 
 Kerfið°staðfestir launafjárhæðina sem tilgreind er í launafyrirkomulagi af því stigi eða braut°sem er innan lágmarks- og hámarkspunkta fyrir tiltekið launastig starfs viðkomandi starfsmanns. Ef laun eru utan leyfilegra marka,°munu viðvörun°eða villuboð birtast , eftir því vikmarkastigi sem fasta launafyrirkomulagið er stillt á.
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736672"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484050"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
@@ -34,7 +34,9 @@ Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölup�
 Til að mynda grunnlínuspá er yfirlit yfir sögulegar færslur sent í Microsoft Azure Machine Learning sem er hýst á Azure. Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir. Hægt er að nota Supply Chain Management til að sjá fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (classic) er nauðsynlegt til að mynd spá með vélnámi. Frá og með janúar 2021 er hún í boði í Austur-Japan, Suður-miðhluta, Suðaustur-Asíu, vesturhluta Bandaríkjanna og Vestur-Evrópu. Uppfærðar upplýsingar um núverandi framboð má finna í [Azure-afurðir eftir svæðum.](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio)
+> Microsoft Azure Machine Learning Studio (classic) er nauðsynlegt til að mynd spá með vélnámi. Frá og með 1. desember 2021 geturðu ekki búið til tilföng Machine Learning Studio (classic). Hins vegar getur þú haldið áfram að nota núverandi tilföng Machine Learning Studio (classic) þar til 31. ágúst 2024. Fyrir nýjustu upplýsingar skal skoða [Azure Machine Learning Studio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio).
+> 
+> Dynamics 365 Supply Chain Management útgáfa 10.0.23 og nýrri styðja nýja Azure Machine Learning Studio.
 
 ## <a name="key-features-of-demand-forecasting"></a>Lykilaðgerðir eftirspurnarspár
 

@@ -1,27 +1,39 @@
 ---
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386100"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485623"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Útgáfa 2.0.10.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bætt við hreyfimynd þegar flett er í gegnum lista og síður.
+- Texti þjappast nú rétt inn á villusíðu tengingar.
+- Samsettir gluggar án sjálfgilda birtast nú á réttan hátt.
+- Upplýsingar á svæði undirhauss eru nú aðeins sýndar á upplýsingasíðunni í fullri stærð.
+- Auðir innsláttarreitir eru ekki lengur sýndir á upplýsingaspjaldinu.
+- Staðfestingargildi eru ekki lengur afrituð á upplýsingaspjaldinu.
+- Ýmis vandamál sem ollu því að kerfið fraus hafa verið löguð.
 
 ## <a name="version-2090"></a>Útgáfa 2.0.9.0
 

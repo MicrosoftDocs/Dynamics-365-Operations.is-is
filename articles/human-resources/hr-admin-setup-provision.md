@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441166"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488084"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -41,6 +41,8 @@ ms.locfileid: "7441166"
 ## <a name="provision-a-human-resources-trial-environment"></a>Úthluta prófunarumhverfi Human Resources
 
 Áður en þú úthlutar fyrsta sandkassa- eða vinnsluumhverfinu þínu gæti verið ráðlegt að úthluta [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) til að staðfesta virkni Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. 
+
+Prófunarumhverfi bjóða upp á möguleikann á að leggja mat á virkni Human Resources fyrir einstaklinga sem eru ekki þegar með aðgang að umhverfi Human Resources. Ef þú úthlutar prófunarumhverfi og sannvottaður notandi er þegar með aðgang að einu eða fleiri umhverfum Human Resources, verður notandi sendur í fyrirliggjandi umhverfi eða lista yfir umhverfi.
 
 Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 60 daga reynslutíma. Þegar reynslutíminn rennur út er umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta þau. Ekki er hægt að umbreyta umhverfinu í sandkassa- eða vinnsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
@@ -135,7 +137,12 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
    
     - **Óstudd svæði** - Umhverfið verður að vera á studdri staðsetningu. Frekari upplýsingar er að finna í [Landfræðilegar staðsetningar sem eru studdar](hr-admin-setup-provision.md#supported-geographies).
 
-6. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
+6. Möguleikar tvöfaldrar skráningar fyrir samþættingu gagna í Human Resources við Power Apps umhverfi er aðeins hægt að nota ef valkosturinn **Virkja Dynamics 365-forrit** er valinn fyrir umhverfið. Frekari upplýsingar um tvöfalda skráningu er að finna í [Heimasíða tvöfaldrar skráningar](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+
+    > [!NOTE]
+    > Velja þarf valkostinn **Virkja Dynamics 365-forrit** þegar Power Apps umhverfið er búið til. Ef valkosturinn er ekki valinn við úthlutun verður ekki hægt að nota tvöfalda skráningu til að samþætta gögn milli Dynamics 365 Human Resources og Power Apps umhverfis eða setja upp Dynamics 365-forrit á borð við Dynamics 365 Sales og Field Service í umhverfið. Þessi valkostur er ekki afturkallanlegur. Frekari upplýsingar er að finna í [Nokkur mikilvæg atriði við gerð nýs umhverfis](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) á svæði Power Platform fylgigagna.
+
+7. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
 
 ### <a name="supported-geographies"></a>Studdar staðsetningar
 

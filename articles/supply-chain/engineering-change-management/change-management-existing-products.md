@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744179"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488203"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Virkja breytingastjórnun á fyrirliggjandi afurðum
 
@@ -47,7 +47,9 @@ Ekki er hægt að umbreyta öllum vörutegundum í allar aðrar gerðir. Eftirfa
 
 Úthluta þarf *afurðaflokki hönnunar* á hverja hönnunarafurð. Þetta er gert þegar leiðsögnin **Breyta í hönnunarafurð** er keyrð. Afurðarflokkar hönnunar verða að vera til fyrir allar viðeigandi staðlaðar afurðir *áður en* hægt er að breyta þessum afurðum.
 
-Afurðarflokkur hönnunar býður upp á grunn til að stofna hönnunarafurð og gefur upp safn af sjálfgildum og reglum. Hönnunarafurðarflokkurinn verður að passa við afurðina sem henni er úthlutað á. Afurðargerðin og víddaflokkurinn verða t.d. að passa bæði við afurðina og afurðarflokk hönnunar hennar. Frekari upplýsingar eru í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
+Afurðarflokkur hönnunar býður upp á grunn til að stofna hönnunarafurð og gefur upp safn af sjálfgildum og reglum. Hönnunareigindir og sjálfgildi þeirra (eins og skilgreint er fyrir hönnunarflokkinn) eru einnig notuð í hönnunarafurðinni sem verður til. Þú getur breytt gildum eiginda og/eða bætt fleiri hönnunareigindum við afurðina eftir þörfum.
+
+Hönnunarafurðarflokkurinn verður að passa við afurðina sem henni er úthlutað á. Afurðargerðin og víddaflokkurinn verða t.d. að passa bæði við afurðina og afurðarflokk hönnunar hennar. Frekari upplýsingar eru í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > Leiðsögnin **Breyta í hönnunarafurð** getur aðeins breytt afurð í hönnunarafurðir þar sem útgáfan er ekki rakin í færslum. Þess vegna þarf að stilla valkostinn **Rekja útgáfu í færslum** á *Nei* fyrir afurðarflokka hönnunar sem eru stofnaðir til að breyta fyrirliggjandi afurðum.

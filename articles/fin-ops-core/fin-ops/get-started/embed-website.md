@@ -2,7 +2,7 @@
 title: Innfella forrit þriðja aðila
 description: Þetta efnisatriði útskýrir hvernig á að innfella forrit þriðja aðila til að auka virkni vörunnar.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345411"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488235"
 ---
 # <a name="embed-third-party-apps"></a>Innfella forrit þriðja aðila
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit frá þriðja aðila sem virka ásamt Finance and Operations forritum. Til að bjóða upp á hnökralausari notendaupplifun er hægt að nota eiginleikann **Heilsíðuforrit** til að fella þessi forrit þriðja aðila beint inn í Finance and Operations-forritin (svo lengi sem forrit þriðja aðila leyfa innfellingu). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
 

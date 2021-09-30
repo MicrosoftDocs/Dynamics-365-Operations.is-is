@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715335"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500304"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -562,7 +562,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 > Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smella á **Retail og Commerce** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
 
 ## <a name="extensibility"></a>Stækkunarhæfni
-Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).
+Sjá upplýsingar um aðstæður stækkunarhæfni fyrir vélabúnaðarstöð í [Samþætta POS við nýjan vélbúnað og mynda uppsetningarforrit viðbótar](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Öryggi
 Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi: 

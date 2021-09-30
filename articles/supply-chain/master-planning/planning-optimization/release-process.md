@@ -2,7 +2,7 @@
 title: Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 description: Í þessu efnisatriði eru gefnar upplýsingar um útgáfuferlið og útgáfusöguna fyrir fínstilling áætlanagerðar.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474701"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506784"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 
@@ -33,6 +33,7 @@ Umhverfi sem nota fínstillingu áætlanagerðar sjálfkrafa fá nýjustu útgá
 
 | Breytingar | Eiginleikastjórnunarupplýsingar | Útgáfudagar |
 |---|---|---|
+| <p>Viðbættur stuðningur fyrir aðaláætlanir með **Röðunaraðferð** stillta á *Aðgerðaröðun*.</p><p>Á síðunni **Leiðaflokkar** skal fara eftir stillingunum fyrir gátreitina **Virkjun**, **Vinnutími** og **Afkastageta** fyrir línur með **Gerð leiðar/vinnslu** sem *Uppsetning* eða *Ferli*. </p><p>Almenn afköst, gæði og betri stöðugleiki. | <p>Aðgerðaröðun er í boði í eiginleikastjórnun frá og með útgáfu 10.0.20.</p><p>Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*</p>  | 9.–17. september 2021 |
 | Almenn afköst, gæði og betri stöðugleiki. | Engin eiginleikastjórnun er nauðsynleg. | 25.-30. ágúst 2021 |
 | <p>Reitnum **Afhendingartími** var bætt við áætlaðar pantanir.</p><p>Almenn afköst, gæði og betri stöðugleiki.</p> | Engin eiginleikastjórnun er nauðsynleg. | 12.-17. ágúst 2021 |
 | <p>Bættar kröfur um tilfangagerð fyrir áætlanagerð ótakmarkaðrar afkastagetu.</p><p>Bætt skilvirkni tilfanga og skilvirkni dagatals fyrir áætlanagerð ótakmarkaðrar afkastagetu.</p><p>Frekari upplýsingar er að finna í [Röðun með ótakmarkaða getu](infinite-capacity-planning.md). | <p>Í boði í eiginleikastjórnun frá og með útgáfu 10.0.20.</p><p>Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*</p> | 6.-12. júlí 2021 |

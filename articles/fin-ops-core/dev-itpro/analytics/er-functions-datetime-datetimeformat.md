@@ -2,7 +2,7 @@
 title: DATETIMEFORMAT ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin DATETIMEFORMAT í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-ms.date: 01/04/2021
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e141c445a81f3b436d540265533836b8c775deadbf2a85e47127bb28674a3ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1add2ccb348a9b518e0121be1184fbf6a684a0df
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767169"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485547"
 ---
 # <a name="datetimeformat-er-function"></a>DATETIMEFORMAT ER-aðgerð
 
 [!include [banner](../includes/banner.md)]
 
-Aðgerðin `DATETIMEFORMAT` skilar *String*-gildi sem setur fram tiltekið dagsetningar-/tímagildi sem texta á tilteknu sniði og í valinni tiltekinni [menningu](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Fyrir upplýsingar um studd snið skal sjá [staðlað](/dotnet/standard/base-types/standard-date-and-time-format-strings) og [sérsniðna](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Aðgerðin `DATETIMEFORMAT` skilar *[String](er-formula-supported-data-types-primitive.md#string)*-gildi sem setur fram tiltekið dagsetningar-/tímagildi sem texta á tilteknu sniði og í valinni tiltekinni [menningu](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes). Fyrir upplýsingar um studd snið skal sjá [staðlað](/dotnet/standard/base-types/standard-date-and-time-format-strings) og [sérsniðna](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Málskipun 1
 
@@ -41,20 +41,20 @@ DATETIMEFORMAT (datetime, format, culture)
 
 ## <a name="arguments"></a>Frumbreytur
 
-`datetime`: *DateTime*
+`datetime`: *[DateTime](er-formula-supported-data-types-primitive.md#datetime)*
 
 Dagsetningar-/tímagildi sem táknar dagsetningu og tíma til að forsníða.
 
 `format`: *Strengur*
 
-Snið úttaksstrengsins.
+Snið úttaksstrengsins. Fyrir upplýsingar um studd snið skal sjá [staðlað](/dotnet/standard/base-types/standard-date-and-time-format-strings) og [sérsniðna](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 > [!NOTE]
 > Sniðstrengurinn tekur tillit til há- og lágstafa þegar notað er annaðhvort staðlað snið eða sérstillt snið. Til dæmis skilar [staðlaða](/dotnet/standard/base-types/standard-date-and-time-format-strings) „d“-sniðsákvörðunin dagsetningunni með því að nota stutt dagsetningarsnið á meðan staðlaða „D“-sniðsákvörðunin skilar dagsetningunni með því að nota langt dagsetningarsnið. Auk þess skilar [sérstillt](/dotnet/standard/base-types/custom-date-and-time-format-strings) „M“-sniðsákvörðun mánuðinum frá 1 til 12 á meðan sérstillt „m“-sniðsákvörðun skilar mínútu frá 0 til 59.
 
 `culture`: *Strengur*
 
-Menningin sem á að nota til að forsníða.
+Menningin sem á að nota til að forsníða. Fyrir upplýsingar um studdar menningar skal skoða [menningu](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Skilagildi
 

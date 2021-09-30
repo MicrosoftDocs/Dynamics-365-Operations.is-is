@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471717"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500428"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -157,6 +157,7 @@ Eftirfarandi virkni vöruhúsastjórnunar er ekki studd eins og er fyrir vinnuá
 
 - Vinnsla á innleið fyrir innkaupapöntunarlínur sem úthlutað er á hleðslu.
 - Vinnsla á innleið fyrir innkaupapantanir verks.
+- Að hafa umsjón með heildarkostnaði, nota ferðir og fylgjast með vörum í flutningi.
 - Ferli á innleið og útleið fyrir vörur sem eru með virkar rakningarvíddir **Eigandi** og/eða **Raðnúmer**.
 - Vinnslu á birgðum sem eru með stöðugildi útilokunar.
 - Breyting á birgðastöðu meðan á vinnuhreyfingu stendur.
@@ -187,6 +188,7 @@ Eftirfarandi tafla sýnir hvaða eiginleikar á útleið eru studdir og hvar þe
 |--------------------------------------------------------------|-----|------------------------------|
 | Úrvinnsla upprunaskjals                                   | Já | Ekkert |
 | Hleðslu- og flutningsstjórnunarvinnsla                | Já, en aðeins ferli farmáætlunar. Vinnsla flutningsstjórnunar er ekki studd  | Ekkert |
+| Heildarkostnaður og móttaka á vörum í flutningi                                         | Já | Ekkert |
 | Losa í vöruhús                                         | Já | Ekkert |
 | Áætluð dreifing frá dreifingarstöð                                        | Ekkert  | Ekkert |
 | Sendingarsamstæða                                       | Já, þegar álagsáætlun er notuð | Já |

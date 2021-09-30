@@ -1,8 +1,8 @@
 ---
 title: Stuðningur skattaeiginleika fyrir flutningspantanir
 description: Þetta efnisatriði útskýrir nýjan stuðning skattaeiginleika fyrir flutningspantanir með því að nota skattaútreikningsþjónustuna.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721690"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500077"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Stuðningur skattaeiginleika fyrir flutningspantanir
 
@@ -53,7 +53,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         4. Veljið **Bæta við** í töflunni **Taxti**.
         5. Skiptið **Er undanskilið** í **Já** í hlutanum **Almennt**.
 
-        ![Skattkóði NL-undanþágu.](../media/tax-feature-support-02.png)
+           ![Skattkóði NL-undanþágu.](../media/tax-feature-support-02.png)
 
     - Þegar flutningspöntun er móttekin í belgísku vöruhúsi er leið bakfærðs gjalds notað með því að nota skattkóðana **BE-RC-21** og **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         6. Skiptið **Er bakfært gjald** í **Já** í hlutanum **Almennt**.
         7. Veldu **Vista**.
 
-        ![BE-RC-21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-03.png)
+           ![BE-RC-21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-03.png)
         
         Búið til skattkóðann **BE-RC+21**.
         1. Veljið **Bæta við**, sláið inn **BE-RC-21** í reitinn **Skattkóði**.
@@ -76,7 +76,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         5. Sláið inn **21** í reitinn **Skatthlutfall**.
         6. Veldu **Vista**.
 
-        ![BE-RC+21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-04.png)
+           ![BE-RC+21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-04.png)
 
 3. Skilgreinið gildissvið skattkóðanna.
 
@@ -97,6 +97,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         7. Í reitinn **Skattflokkur** og **VSK-flokkur vöru** skal færa inn viðeigandi VSK-flokk og VSK-flokk vöru sem eru skilgreindir í kerfi Finance.
         
         Bætið við annarri reglu fyrir móttöku flutningspöntunar.
+        
         1. Veljið **Bæta við** í töflunni **Gildissviðsreglur**.
         2. Í reitnum **Viðskiptaferli** skal velja **Birgðir** til að reglan gildi um flutningspöntun.
         3. Í reitinn **Senda frá landi/svæði** skal færa inn **NLD**.
@@ -105,7 +106,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         6. Í reitnum **Skattkóðar** skal velja **BE-RC+21** og **BE-RC-21**.
         7. Í reitinn **Skattflokkur** og **VSK-flokkur vöru** skal færa inn viðeigandi VSK-flokk og VSK-flokk vöru sem eru skilgreindir í kerfi Finance.
 
-        ![Gildissviðsreglur.](../media/image5.png)
+           ![Gildissviðsreglur.](../media/image5.png)
 
 4. Ljúka og birta nýja útgáfu nýs skattaeiginleika.
 
@@ -115,7 +116,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
 
 Fylgið þessum skrefum til að virkja og setja upp skatta fyrir flutningspantanir.
 
-1. Í Finance skal opna **Vinnusvæði** \> **Eiginleikastjórnun**.
+1. Í Finance skal opna **Vinnusvæði** > **Eiginleikastjórnun**.
 2. Í listanum skal finna og velja eiginleikann **Skattar í flutningspöntun** og síðan velja **Virkja núna** til að kveikja á honum.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Fylgið þessum skrefum til að virkja og setja upp skatta fyrir flutningspantan
     > [!IMPORTANT]
     > Ljúka þarf þessu skrefi fyrir hvern lögaðila í Finance þar sem skattþjónustan og virknin fyrir skatt í flutningspöntunum eiga að vera tiltækar.
 
-    1. Farið í **Skattur** \> **Uppsetning** \> **Skattaskilgreining** \> **Uppsetning skattþjónustu**.
+    1. Farið í **Skattur** > **Uppsetning** > **Skattaskilgreining** > **Uppsetning skattþjónustu**.
     2. Í reitnum **Viðskiptaferli** skal velja **Birgðir**.
 
-    ![Reitur viðskiptaferlis stilltur.](../media/image8.png)
+      ![Reitur viðskiptaferlis stilltur.](../media/image8.png)
 
 4. Gangið úr skugga um að leið bakfærðs gjalds sé uppsett. Farið í **Fjárhagur** \> **Uppsetning** \> **Færibreytur** og síðan, í flipanum **Bakfært gjald**, skal staðfesta að valkosturinn **Virkja bakfært gjald** sé stilltur á **Já**.
 
@@ -140,10 +141,10 @@ Fylgið þessum skrefum til að virkja og setja upp skatta fyrir flutningspantan
 5. Gangið úr skugga um að tengdir skattkóðar, skattflokkar, skattflokkar vöru og skráningarnúmer virðisaukaskatts hafi verið sett upp í Finance samkvæmt leiðsögn skattþjónustunnar.
 6. Setja upp bráðabirgðareikning flutnings. Þetta þrep er aðeins áskilið þegar skatturinn sem er notaður í flutningspöntun á ekki við um leið skattundanþágu eða bakfærðs gjalds.
 
-    1. Opnið **Skattur** \> **Uppsetning** \> **Söluskattur** \> **Fjárhagsbókunarflokkar**.
+    1. Opnið **Skattur** > **Uppsetning** > **Söluskattur** \ **Fjárhagsbókunarflokkar**.
     2. Í reitnum **Bráðabirgðaflutningur** skal velja fjárhagslykil.
 
-    ![Bráðabirgðareikningur flutnings valinn.](../media/image10.png)
+       ![Bráðabirgðareikningur flutnings valinn.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Setja upp grunnbirgðir fyrir færslur flutningspöntunar
 
@@ -151,7 +152,7 @@ Fylgið þessum skrefum til að setja upp grunnbirgðir til að virkja færslur 
 
 1. Búið til senda-til og senda-frá svæði fyrir vöruhúsin í mismunandi löndum eða svæðum og bætið við aðalaðsetrinu fyrir hvert svæði.
 
-    1. Farðu í **Vöruhúsakerfi** \> **Setja upp** \> **Vöruhús** \> **Svæði**.
+    1. Farðu í **Warehouse management** > **Setja upp** > **Vöruhús** > **Svæði**.
     2. Veljið **Nýtt** til að búa til nýtt svæði sem verður úthlutað á vöruhúsið síðar.
     3. Endurtakið skref 2 fyrir öll önnur svæði sem þarf að búa til.
 
@@ -162,11 +163,11 @@ Fylgið þessum skrefum til að setja upp grunnbirgðir til að virkja færslur 
 
 2. Búið til vöruhús fyrir senda-til, flutning og senda-til. Allar upplýsingar um aðsetur sem er viðhaldið í vöruhúsi munu hnekkja aðsetri svæðis í skattaútreikningum.
 
-    1. Farðu í **Vöruhúsakerfi** \> **Uppsetning** \> **Vöruhús** \> **Vöruhús**.
+    1. Farðu í **Vöruhúsakerfi** > **Uppsetning** > **Vöruhús** > **Vöruhús**.
     2. Veljið **Nýtt** til að stofna vöruhús og úthluta því á samsvarandi svæði.
     3. Endurtakið skref 2 til að búa til vöruhús fyrir hvert svæði eftir þörfum.
 
-    ![Setja upp vöruhús.](../media/image12.png)
+       ![Setja upp vöruhús.](../media/image12.png)
 
     > [!NOTE]
     > Fyrir senda-til vöruhús þarf að velja flutningsvöruhús í reitnum **Flutningsvöruhús** fyrir færslur flutningspöntunar.
@@ -175,7 +176,7 @@ Fylgið þessum skrefum til að setja upp grunnbirgðir til að virkja færslur 
 
 3. Gangið úr skugga um að skilgreining birgðabókunar sé sett upp fyrir færslur flutningspöntunar.
 
-    1. Opnið **Birgðastjórnun** \> **Uppsetning** \> **Bókun** \> **Bókun**.
+    1. Opnið **Birgðastjórnun** > **Uppsetning** > **Bókun** > **Bókun**.
     2. Í flipanum **Birgðir** skal ganga úr skugga um að fjárhagslykill sé settur upp fyrri bæði bókanir á **Úthreyfingu birgða** og **Innhreyfingu birgða**.
 
         ![Uppsetning á bókun innhreyfinga og úthreyfinga birgða.](../media/image14.png)
@@ -187,3 +188,6 @@ Fylgið þessum skrefum til að setja upp grunnbirgðir til að virkja færslur 
     4. Gangið úr skugga um að fjárhagslykillinn sé settur upp fyrir bókun á **Millieining, viðskiptavinir**.
 
         ![Bókun millieiningar viðskiptavinar sett upp.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

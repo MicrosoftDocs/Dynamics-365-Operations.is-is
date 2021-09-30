@@ -1,5 +1,5 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391209"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500556"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.21. Þessi útgáfa er með byggingarnúmer 10.0.960 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.21. Þessi útgáfa er með byggingarnúmer 10.0.960 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** ágúst 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** September 2021
@@ -46,13 +45,14 @@ Uppsetningin mun virka þrátt fyrir viðvörunina. En eftirfarandi þekkt vanda
 
 Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl.
 
-Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir.
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar |
 |---|---|---|
-| Birgða-&nbsp;og&nbsp;vörustjórnun | [Innbót fjárhags altæks birgðabókhalds fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Altækt birgðabókhald –heimasíða](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Innbót fjárhags altæks birgðabókhalds fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Altækt birgðabókhald –heimasíða](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Bóka breytingar á lager með kóðum sem eru tengdir við mótlykla](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Ástæðukóðar fyrir birgðatalningu](../warehousing/reason-codes-for-counting-journals.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Regla um útflutning gagna sem sölutilboð vísar í](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Veldu hvort breytingar á gögnum sem tilboð vísa í munu valda því að þessi tilboð (eða línur) verða höfð með í næsta stigvaxandi útflutningi. Stigvaxandi útflutningur þinn mun ganga hraðar fyrir sig ef þú velur að setja ekki inn slík tilboð eða línur.<br><br>Þessi eiginleiki bætir stillingu sem heitir **Sleppa gögnum sem sölutilboð vísar í við breytingarrakningu** við síðuna **Færibreytur viðskiptakrafna**. |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | Innsiglað tilboð <!-- KFM: Add RP link when available --> | [Lokuð tilboð fyrir tilboðsbeiðnir](../procurement/sealed-bidding.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Skanna strikamerki í vöruhúsinu með GS1-sniðsstöðlum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-strikamerki og QR-kóðar](../warehousing/gs1-barcodes.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Mjúk frátekning fyrir innbót birgðasýnileika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Frátekningar sýnilegra birgða](../inventory/inventory-visibility-reservations.md) |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Betrumbætur á frádrætti og framleiðsluþyngd fyrir stjórnun eftirágreidds afsláttar](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Stjórna frádráttum með frádráttarvinnusvæðinu](../rebate-management/deduction-workbench.md )<br><br>[Meðhöndla, yfirfara og bóka eftirágreiddan afslátt](../rebate-management/process-review-post.md)<br><br>[Tilboð fyrir stjórnun eftirágreidds afsláttar](../rebate-management/rebate-management-deals.md) |

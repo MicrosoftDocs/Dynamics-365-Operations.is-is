@@ -1,8 +1,8 @@
 ---
 title: Grunnstilla gerðir leyfis og fjarvista
 description: Settu upp tegundir orlofs sem starfsmenn geta tekið í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730419"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485808"
 ---
 # <a name="configure-leave-and-absence-types"></a>Grunnstilla gerðir leyfis og fjarvista
 
@@ -65,9 +65,9 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 
 1. Setja valkosti til að námunda fyrir orlofstegundina. Valkostir fela í sér **Enginn**, **Upp**, **Niður** og **Næst**. Þú getur einnig stillt námundun námundunar fyrir orlofstegundina.
 
-2. Stilltu **Leiðrétting á fríi** til að námunda fyrir orlofstegundina. Þegar þú velur þennan valkost notar Human Resources þann fjölda frídaga sem falla á virkum degi til að ákvarða hvernig á að safna fríi fyrir orlofstegundina. Til dæmis, ef jóladagur fellur á mánudag, dregur Human Resources einn dag frá orlofstegundinni þegar unnið er með uppsafnanir.
+2. Stilltu **Leiðrétting á fríi** til að námunda fyrir orlofstegundina. Þegar þú velur þennan valkost verður fjöldi frídaga sem dettur niður á vinnudegi notaður til að ákvarða hvernig á að safna fríi fyrir leyfisgerðina. Til dæmis, ef jóladagur fellur á mánudag, dregur Human Resources einn dag frá orlofstegundinni þegar unnið er með uppsafnanir.
 
-   Frí er stillt í vinnutímadagatalinu. Fyrir frekari upplýsingar, sjá [Búðu til vinnutímadagatal](hr-leave-and-absence-working-time-calendar.md)
+   Frí er stillt í vinnutímadagatalinu. Nánari upplýsingar eru í [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md).
    
  3. Stillið **Yfirfærð leyfisgerð** fyrir leyfisgerð. Þegar þessi valkostur er valinn verða allar yfirfærðar stöður fluttar í tilgreinda gerð leyfis. Yfirfærsluleyfisgerðin þarf einnig að vera með í áætlun um leyfi og fjarveru. 
  
@@ -76,7 +76,7 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Skilgreina nauðsynlegt viðhengi fyrir hverja gerð leyfis
 
 > [!NOTE]
-> Til að nota reitinn **Viðhengi er nauðsynlegt** þarf fyrst að kveikja á eiginleikanum **(Forskoðun) Skilgreina áskilið viðhengi fyrir leyfisbeiðnir** í eiginleikastjórnun. Frekari upplýsingar um hvernig á að kveikja á forútgáfueiginleikum er að finna í [Stjórna eiginleikum](hr-admin-manage-features.md).
+> Til að nota reitinn **Viðhengi er nauðsynlegt** þarf fyrst að kveikja á eiginleikanum **Skilgreina áskilið viðhengi fyrir leyfisbeiðnir** í eiginleikastjórnun. Frekari upplýsingar um hvernig á að kveikja á eiginleikum er að finna í [Stjórna eiginleikum](hr-admin-manage-features.md).
 
 1. Á síðunni **Leyfi og fjarvistir**, í flipanum **Tenglar**, undir **Uppsetning**, skal velja **Leyfis- og fjarvistagerðir**.
 
@@ -87,7 +87,7 @@ Starfsmenn þurfa að hlaða upp viðhengi þegar þeir senda inn nýja leyfisbe
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Stilla leyfiseiningar (klukkustundir/dagar) fyrir hverja leyfisgerð
 
 > [!NOTE]
-> Til að nota leyfiseiningar á hverja virkni leyfisgerðar þarf fyrst að kveikja á eiginleikanum **(Forskoðun) Stilla leyfiseiningar fyrir hverja leyfisgerð** í eiginleikastjórnun. Frekari upplýsingar um hvernig á að kveikja á forútgáfueiginleikum er að finna í [Stjórna eiginleikum](hr-admin-manage-features.md).
+> Til að nota leyfiseiningar á hverja virkni leyfisgerðar þarf fyrst að kveikja á eiginleikanum **Stilla leyfiseiningar fyrir hverja leyfisgerð** í eiginleikastjórnun. Frekari upplýsingar um hvernig á að kveikja á eiginleikum er að finna í [Stjórna eiginleikum](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Sjálfgefið er að leyfisgerðir í lögaðila noti leyfiseiningar úr skilgreiningu leyfisfæribreytum á stigi lögaðila.

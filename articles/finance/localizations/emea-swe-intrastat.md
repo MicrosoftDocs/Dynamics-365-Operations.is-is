@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417083"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486947"
 ---
 # <a name="swedish-intrastat"></a>Swedish Intrastat
 
@@ -48,7 +48,7 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
 4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.
 5. Í reitnum **Færslukóði** skal velja færslukóðann fyrir flutning á eignum. Þú notar þennan kóða fyrir færslur sem búa til raunverulegar eða áætlaðar færslur á eignum gegn greiðslu (fjárhagslegri eða annars konar greiðslu). Þú getur líka notað það til leiðréttinga. Fyrirtæki í Svíþjóð nota eins stafs færslukóða.
-6. Í reitnum **Kreditnóta** skal velja færslukóðann fyrir vöruskil. Þú notar þennan kóða fyrir skil á vörum eftir að færslan var upprunalega skráð undir færslukóðanum. Fyrirtæki í Svíþjóð nota eins stafs færslukóða.
+6. Í reitnum **Kreditnóta** skal velja færslukóðann fyrir vöruskil.
 7. Í flipanum **Eiginleikar lands/svæðis**, í reitnum **Land/svæði**, skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Fyrir hvert land sem er hluti af ESB, í reitnum **Gerð lands/svæðis**, skal velja **ESB** þannig að landið birtist í Intrastat skýrslunni.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Setja upp færibreytur afurðar fyrir Intrastat-skattskýrsluna

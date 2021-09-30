@@ -2,7 +2,7 @@
 title: Innfelld vinnuforrit frá Power Apps
 description: Þetta efnisatriði útskýrir hvernig á að innleiða vinnusvæðisforrit úr Microsoft Power Apps og í biðlarann til að auka virkni vörunnar.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344530"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488055"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Innfelld vinnuforrit frá Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps er þjónusta sem gerir þróunaraðilum og öðrum notendum með litla tæknikunnáttu kleift að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Finance and Operations-forrit styðja samþættingu við Power Apps. Vinnusvæðaforrit sem þú, fyrirtækið þitt eða samfélagið þróar er hægt að fella inn í Finance and Operations-forrit til að auka virkni vörunnar. Til dæmis gætir þú smíðað vinnusvæðaforrit úr Power Apps til að bæta við Finance and Operations-forrit með upplýsingum sem sóttar eru úr öðru kerfi.
 

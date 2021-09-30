@@ -2,7 +2,7 @@
 title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748473"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488139"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -138,6 +138,55 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Þátturinn **PageBreak** þvingar Excel til að byrja nýja síðu. Ekki þarf að nota þennan þátt þegar nota á sjálfgefið blaðsíðutal Excel en mælt er að hann sé notaður þegar Excel á að fylgja viðkomandi sniði rafrænnar skýrslugerðar við blaðsíðutal.
 
+## <a name="page-component"></a><a name="page-component"></a>Síðuþættir
+
+### <a name="overview"></a>Yfirlit
+
+Þú getur notað **Síðuþáttinn** þegar þú vilt að Excel fylgi rafrænu skýrslugerðarsniði og skipulagi síðuskiptingar í mynduðu skjali á útleið. Þegar snið rafrænnar skýrslugerðar keyrir íhluti sem heyra undir **Síðuþáttinn** er nauðsynlegum síðuskilum sjálfkrafa bætt við. Í þessu ferli er stærð myndaðs efnis, síðuuppsetning Excel-sniðmátsins og pappírsstærð sem er valin í Excel-sniðmátinu tekið til greina.
+
+Ef þú verður að skipta mynduðu skjali í mismunandi hluta, sem hver er með mismunandi síðuskiptingu, getur þú stillt ýmsa **Síðuþætti** í hverjum [Vinnublaðsþætti](er-fillable-excel.md#sheet-component).
+
+### <a name="structure"></a><a name="page-component-structure"></a>Skipulag
+
+Ef fyrsti hlutinn undir **Síðuþættinum** er [Sviðsþáttur](er-fillable-excel.md#range-component) þar sem eiginleikinn **Eftirlíkingaráttin** er stillt á **Engin eftirlíking** er þetta svið álitið síðuhaus fyrir síðuskiptingu sem byggir á stillingunum á núverandi **Síðuþætti**. Excel-sviðið sem tengist þessum sniðsþætti er endurtekið efst á öllum síðum sem eru myndaðar með því að nota stillingarnar á núverandi **Síðuþætti**.
+
+> [!NOTE]
+> Fyrir rétta síðuskiptingu, ef sviðið [Línur til að endurtaka efst](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) er stillt í Excel-sniðmátinu þínu, verður heimilisfang þessa Excel-sviðs að jafngilda heimilisfangi Excel-sviðsins sem tengist **Sviðsþættinum** sem var útskýrður hér áður.
+
+Ef síðasti hlutinn undir **Síðuþættinum** er **Sviðsþáttur** þar sem eiginleikinn **Eftirlíkingaráttin** er stillt á **Engin eftirlíking** er þetta svið álitið síðufótur fyrir síðuskiptingu sem byggir á stillingunum á núverandi **Síðuþætti**. Excel-sviðið sem tengist þessum sniðsþætti er endurtekið neðst á öllum síðum sem eru myndaðar með því að nota stillingarnar á núverandi **Síðuþætti**.
+
+> [!NOTE]
+> Fyrir rétta síðuskiptingu ætti ekki að breyta stærð Excel-sviða, sem tengjast **Sviðsþáttum**, á keyrslutíma. Ekki er mælt með því að þú sníðir hólf af þessu sviði með því að nota **Orðskrið í hólfi** og **Aðlaga línuhæð sjálfkrafa** [valkosti](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) Excel.
+
+Þú getur bætt við mörgum öðrum **Sviðsþáttum** milli valfrjálsra **Sviðsþátta** til að tilgreina hvernig myndað skjal er fyllt út.
+
+Ef safn faldaðra **Sviðsþátta** undir **Síðuþættinum** samræmist ekki fyrra útskýrða skipulagi kemur upp [villa](er-components-inspections.md#i17) á hönnunartíma í sniðshönnuði rafrænnar skýrslugerðar. Villuboðin upplýsa þig um að vandamálið getur valdið vandræðum á keyrslutíma.
+
+> [!NOTE]
+> Til að búa til rétt úttak skal ekki tilgreina bindingu fyrir neina **Sviðsþætti** undir **Síðuþættinum** ef eiginleikinn **Eftirlíkingarátt** fyrir **Sviðsþáttinn** sé stilltur á **Engin eftirlíking** og sviðið er stillt til að mynda síðuhausa og síðufætur.
+
+Ef þú vilt að samlagning og talning sem tengist síðuskiptingu reikni út hlaupandi samtölur og samtölur á hverja síðu er mælt með að þú stilltir nauðsynlega gagnagjafann [Gagnasöfnun](er-data-collection-data-sources.md). Til að fræðast um hvernig á að nota **Síðuþáttinn** til að skipta mynduðu Excel-skjali á síður skal klára ferlin í [Hanna snið rafrænnar skýrslugerðar til að síðuskipta mynduðu skjali á Excel-sniði](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Takmarkanir
+
+Þegar þú notar **Síðuþáttinn** fyrir síðuskiptingu Excel færðu ekki að vita endanlegan blaðsíðufjölda í mynduðu skjali fyrr en síðuskiptingunni er lokið. Þú getur þar af leiðandi ekki reiknað út heildarfjölda blaðsíðna með því að nota formúlur rafrænnar skýrslugerðar og prentað út réttan fjölda af blaðsíðum af mynduðu skjali á neinni blaðsíðu á undan síðustu síðunni.
+
+> [!TIP]
+> Til að fá út þessa niðurstöðu í síðuhaus eða síðufót Excel með því að nota sérstakt [snið](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) Excel fyrir síðuhausa og síðufætur.
+
+Stilltir **Síðuþættir** eru ekki teknir til greina þegar þú uppfærir Excel-sniðmát á breytanlegu sniði í Dynamics 365 Finance útgáfu 10.0.22. Þessi virkni er tekin til greini í frekari útgáfum á Finance.
+
+Ef þú stillir Excel-sniðmátið á að nota [skilyrt snið](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting) er ekki víst að það virka sem skyldi í einhverjum tilfellum.
+
+### <a name="applicability"></a>Gildissvið
+
+**Síðuþátturinn** virkar aðeins fyrir sniðsþátt [Excel-skráar](er-fillable-excel.md#excel-file-component) þegar sá þáttur er stilltur á að nota sniðmát í Excel. Ef þú [skiptir út](tasks/er-design-configuration-word-2016-11.md) Excel-sniðmátinu fyrir Word-sniðmát og keyrir svo breytanlegt rafrænt skýrslugerðarsnið verður **Síðuþátturinn** hunsaður.
+
+**Síðuþátturinn** virkar aðeins þegar eiginleikinn **Virkja notkun á EPPlus-safni í rafrænum skýrslugerðarramma** er virkjaður. Undantekning kemur fram á keyrslutíma ef rafræn skýrslugerð reynir að vinna úr **Síðuþættinum** meðan slökkt er á þessum eiginleika.
+
+> [!NOTE]
+> Undantekning kemur fram á keyrslutíma ef snið rafrænnar skýrslugerðar vinnur úr **Síðuþættinum** fyrir Excel-sniðmát sem inniheldur a.m.k. eina formúlu sem vísar í hólf sem er ekki í gildi. Til að koma í veg fyrir keyrsluvillur skaltu laga Excel-sniðmátið eins og lýst er í [Hvernig á að leiðrétta #REF! villu](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Þáttur síðufótar
 
 Þáttur **Síðufótar** er notaður til að fylla inn síðufætur neðst á mynduðu vinnublaði í Excel-vinnubók.
@@ -197,9 +246,12 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 Þegar skjal á útleið á Microsoft Excel -vinnubókarsniði er myndað kunna tiltekin hólf þessa skjals að innihalda Excel-formúlur. Þegar eiginleikinn **Virkja notkun á EPPlus-safni í rafrænum skýrslugerðarramma** er virkur getur þú stjórna hvenær formúlurnar eru reiknaðar út með því að breyta gildi **færibreytunnar** [Valkostir útreikninga](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) í Excel-sniðmátinu sem verið er að nota:
 
 - Veljið **Automatic** til að endurreikna allar háðar formúlur í hvert sinn sem ný svið, hólf o.s.frv. er bætt við myndað skjal.
+
     >[!NOTE]
     > Þetta gæti valdið afkastavandamálum í Excel-sniðmátum sem innihalda margar tengdar formúlur.
+
 - Veljið **Handvirk** til að forðast endurreikning formúlu þegar skjal er myndað.
+
     >[!NOTE]
     > Endurútreikningur formúlu er þvingaður handvirkt þegar myndað skjal er opnað í forskoðun með Excel.
     > Ekki nota þennan valkost ef áfangastaður rafrænnar skýrslugerðar er skilgreindur sem gerir ráð fyrir notkun á mynduðu skjali án forskoðunar þess í Excel (PDF-umbreyting, sending í tölvupósti o.s.frv.) vegna þess að skjalið sem var myndað inniheldur hugsanlega ekki gildi í hólfum sem innihalda formúlur.

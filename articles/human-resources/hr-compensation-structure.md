@@ -1,8 +1,8 @@
 ---
 title: Þróa launaskipulag
-description: Þessi grein fer í gegnum ferlið við stofnun fyrirkomulags fastra launa og skráningu starfsmanna í launafyrirkomulagið með hæfnisreglum.
-author: andreabichsel
-ms.date: 02/10/2020
+description: Þetta efnisatriði útskýrir hvernig á að búa til launafyrirkomulag fastra launa og skrá starfsmenn í áætlun í gegnum hæfnireglur.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,21 @@ ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPar
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2649a392b5c8bb2482622eba22b0b2f458058314dce25a8b9032eb2ef518240c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec30d6259b755bf7c304e8796b32d373027ce7ff
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732370"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483953"
 ---
 # <a name="develop-a-compensation-structure"></a>Þróa launaskipulag
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein fer í gegnum ferlið við stofnun fyrirkomulags fastra launa og skráningu starfsmanna í launafyrirkomulagið með hæfnisreglum. Þessi grein notar USMF kynningargögn og gildir um launa- og fríðindastjórnendur.
+Þetta efnisatriði lýsir því hvernig á að búa til launafyrirkomulag fastra launa og skrá starfsmenn í áætlun í gegnum hæfnireglur. Þetta efnisatriði notar sýnigögn USMF og á við um launastjóra og fríðindastjóra.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Setja upp fasta launaáætlun
 
@@ -42,7 +42,7 @@ ms.locfileid: "6732370"
 
 7. Í reitnum **Gerð** velurðu hvort launafyrirkomulag Fastra launa er **Brautar**, **Stiga** eða **Þrepa** áætlun.
 
-8. Gátreiturinn **Ráðleggingar leyfðar** virkar sem sjálfgildi fyrir allar aðgerðir sem er bætt við þessa áætlun í vinnslutilviki. Með því að heimila ráðleggingar gerir það kleift að hnekkja reiknaðri viðmiðunarupphæð við vinnslu launa.
+8. Gátreiturinn **Ráðleggingar leyfðar** verður sjálfgildi fyrir allar aðgerðir sem er bætt við þessa áætlun í vinnslutilviki. Með því að heimila ráðleggingar gerir það kleift að hnekkja reiknaðri viðmiðunarupphæð við vinnslu launa.
 
 9. Reiturinn **Vikmörk utan marka** gerir kleift að tilgreina hvernig eigi að meðhöndla upphæðir launa sem falla utan sviðs tilgreinda launafyrirkomulagsins fyrir tiltekið stig. Ef reiturinn **Vikmörk utan marka** er stilltur á **Ekkert** gerir þér kleift að nota hvaða launaupphæð sem er. **Óbundin vikmörk** vara notendur við ef launaupphæðin er lægri en lágmarkið eða hærri en hámark tilvísunartímapunkts fyrir það stig. Notendur geta hunsað viðvörunina og haldið áfram. **Bundin vikmörk** mynda villu ef laun starfsmanns eru stillt utan lágmarks og hámarks tilvísunarpunkta fyrir það stig og leiðréttir sjálfkrafa launum starfsmanns til að falla innan sviðsins.
 

@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782588"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500024"
 ---
 # <a name="update-tracking-for-put-away"></a>Uppfæra rakningu fyrir frágang
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Reglubundna verkið *Uppfæra rakningu fyrir frágang* er hannað til að keyra sem endurtekin runa að næturlagi. Þar kemur fram hvaða ferðir hafa fengið allar birgðafærslur og hvaða ferðir hafa ekki gildi fyrir raunverulegan lokadag. Hún stillir síðan raunverulega lokadagsetningu á núgildandi dagsetningu eftir þörfum.
 

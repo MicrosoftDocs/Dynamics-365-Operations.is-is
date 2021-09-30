@@ -2,7 +2,7 @@
 title: Setja upp og hanna kvittunarsnið
 description: Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Dynamics 365 Commerce inniheldur útlitshönnuður skjámyndar sem gerir notendum kleift að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715359"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500171"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Setja upp og hanna kvittunarsnið
 
@@ -46,7 +46,12 @@ ms.locfileid: "6715359"
 
 ## <a name="print-images"></a>Prenta myndir
 
-Kvittunarhönnuður er með færibreytu **Lógó** sem hægt er að nota til að tilgreina myndir sem á að prenta á kvittunina. Myndir sem eru innifaldar í kvittunum með því að nota **Lógó** breytuna ættu að vera með einlita skráargerðir (.bmp). Ef mynd .bmp mynd er tilgreind í skýrsluhönnuði, en er ekki prentuð þegar hún er send til prentar, getur skráarstærðin verið of stór eða að dílastærð myndarinnar sé ekki samhæf prentaranum. Ef þetta kemur upp skal reyna að minnka upplausn myndskráar.   
+Kvittanahönnuðurinn inniheldur **Lógó** breytu. Þú getur notað þessa breytu til að tilgreina mynd sem á að prenta á kvittanir. Myndir sem prentaðar eru á kvittanir með því að nota **Lógó** breytuna ættu að vera með einlita skráargerðir (.bmp). Ef punktamynd er tilgreind í hönnuði kvittunar en er ekki prentuð þegar kvittun er sent til prentarans gæti orsökin verið eitt af eftirfarandi vandamálum:
+
+- Skráin er of stór eða pixlastærðir myndarinnar eru ekki samhæfðar við prentarann. Í þessu tilviki skaltu reyna að minnka upplausn eða víddir myndskrárinnar.
+- Sumt OLE (Object Linking and Embedding) fyrir prentararekla sölustaðar innleiða ekki aðferðina **PrintMemoryBitmap** sem vélbúnaðarstöðvar nota til að prenta myndir af lógóum. Í þessu tilviki skaltu reyna að bæta eftirfarandi flaggi við skrána **HardwareStation.Extension.config** í þinni eigin eða samnýttri vélbúnaðarstöð:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Hanna kvittunarsnið
 

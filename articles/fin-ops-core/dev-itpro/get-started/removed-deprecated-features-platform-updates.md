@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463625"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500110"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -38,7 +38,7 @@ ms.locfileid: "7463625"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Nokkrar SQL skýrslur verða teknar út í LCS. Þú þarft ekki lengur að fylgjast með skýrslunum þar sem þessari þjónustu hefur verið skipt út fyrir aðra þjónustu. |
+| **Ástæða úreldingar/fjarlægingar** |   Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar.|
 | **Skipt út fyrir aðra eiginleika?**   | Ekkert |
 | **Afurðasvæði sem haft er áhrif á**         | SQL skýrslur: Núverandi DTU, núverandi DTU-upplýsingar, Fá upplýsingar um lás, Listi yfir núverandi áætlunarleiðbeiningar, Fá lista yfir fyrirspurnarauðkenni, Fá SQL fyrirspurnaráætlun fyrir ákveðið auðkenni áætlunar, Fá fyrirspurnaráætlanir og framkvæmdarstöðu, Fá takmörkunarstillingar, Fá biðtölfræði, Skrá yfir dýrustu fyrirspurnirnar |
 | **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
@@ -181,7 +181,7 @@ ms.locfileid: "7463625"
 | **Skipt út fyrir aðra eiginleika?**   | [Ný hnitanetsstýring](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Í útgáfu 10.0.13 er nýja hnitanetsstýringin almennt í boði og viðskiptavinir geta kveikt á þessum eiginleika ef þeir vilja. Nýja hnitanetsstýringin verða áskilin í útgáfu í október 2021. Þegar nýja hnitanetsstýringin verður áskilin verður **forceLegacyGrid()** API ekki lengur virt. |
+| **Staða**                         | Í útgáfu 10.0.13 er nýja hnitanetsstýringin almennt í boði og viðskiptavinir geta kveikt á þessum eiginleika ef þeir vilja. Nýja netstýringin verður sjálfgefið sett á í útgáfu fyrir október 2021 og er stefnt að því að hún verði áskilin í apríl 2022. Þegar nýja hnitanetsstýringin verður áskilin verður **forceLegacyGrid()** API ekki lengur virt. |
 
 ### <a name="personalization-without-saved-views"></a>Sérstillingar án vistaðra yfirlita 
 

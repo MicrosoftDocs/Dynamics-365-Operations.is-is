@@ -2,7 +2,7 @@
 title: Röðun með ótakmarkaða getu
 description: Þetta efnisatriði veitir upplýsingar um ótakmarkaða afkastaáætlun fyrir fínstillingu skipulagningar. Það lýsir einnig núverandi takmörkunum á eiginleikum.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471669"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506808"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Röðun með ótakmarkaða getu
 
@@ -27,7 +27,12 @@ Eiginleikinn *Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar* 
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Kveikja á eiginleika ótakmarkaðrar afkastaáætlunar
 
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara á vinnusvæðið [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar*.
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Aðaláætlanagerð*
+- **Heiti eiginleika:** *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*
+
+Frekari upplýsingar um þennan eiginleika er að finna í [Röðun með vali á tilföngum út frá getu](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Virkni bætt við
 
@@ -42,7 +47,7 @@ Meðan á áætlunarferlinu stendur tekur kerfið einnig tillit til *tilfangaþ�
 - Gerð forða
 - Tilföng
 - Tilfangaflokkur
-- Geta
+- Geta (frekari upplýsingar er að finna í [Röðun með vali á tilföngum út frá getu](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Kröfur sem tengjast mannauði eins og hæfniskröfur eða vottorð eru enn ekki studdar.
@@ -55,7 +60,6 @@ Eiginleikinn styður einnig rekstrareiginleikana **Uppsetningartími** og **Keyr
 
 Eftirfarandi takmarkanir eiga við þegar þú notar áætlanagerð fyrir fínstillingu skipulagningar:
 
-- Eiginleikinn styður aðeins vinnsluröðun. Ekki er tekið tillit til stillinga sem tengjast áætlanagerð aðgerðar við áætlanagerð burtséð frá aðferð áætlanagerðar í aðaláætlunum.
 - Eiginleikinn styður aðeins ótakmarkaða getu.
 - Þessi eiginleiki styður ekki virkni tilfangahleðslu.
 - Eiginleikinn tekur ekki tillit til leiðarrýrnunar.

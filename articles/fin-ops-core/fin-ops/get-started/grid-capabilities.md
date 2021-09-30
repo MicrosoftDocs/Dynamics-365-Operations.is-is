@@ -2,7 +2,7 @@
 title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775243"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483855"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
@@ -30,7 +30,7 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 -  Reiknar samtölur
 -  Vélritun á undan kerfinu
 -  Mat á stærðfræðisegðum 
--  Flokkun töflugagna (virkjuð sérstaklega með flokkun **(forútgáfa) í hnitanetum** eiginleika)
+-  Flokkun töflugagna (virkjuð sérstaklega með **Flokkun í hnitanetum** eiginleika)
 -  Dálkar frystir
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
@@ -93,7 +93,7 @@ Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölu
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Flokkun töflugagna
-Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **Flokkun í hnitaneti** eiginleikinn, sem er almennt aðgenginlegur í útgáfu 10.0.16/verkvangsuppfærslu 40 háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
+Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **flokkun í hnitaneti** eiginleikinn, sem er háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
 
 Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir** dálki við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
 -  Gagnagildi fyrir hópinn 
@@ -108,9 +108,6 @@ Eftir að gögn hafa verið flokkuð eftir einum dálki er hægt að flokka gög
 
 Hvenær sem er er hægt að fjarlægja flokkun í hvaða dálki sem er með því að hægrismella á dálkinn og velja **Sundra hópi**. Einnig er hægt að fjarlægja flokkun úr öllum dálkum með því að velja **Valkostir hnitanets** og síðan **Sundra öllum hópi**.   
 
-Athugið, á undan útgáfu 10.0.16/verkvangsuppfærslu 40, er aðeins eitt stig af flokkun stutt. Í þessum útgáfum, ef gögnin eru flokkuð og hægt er að velja **Flokka eftir þessum dálki** fyrir annan dálk, er upprunaflokknum skipt út.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Stækka og fella saman hópa
 Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til samandregin yfirlit yfir gögnin með því að fella saman einstaka flokka eða nota hóp til að stækka og draga saman til að aðstoða við að fletta í gegnum gögn. Til að víkka út hóp eða draga hann saman skal velja tvíoddatákn (>) hnappinn í samsvarandi flokkshauslínu. Athugið að staða fyrir víkkun/samanfellingu einstakra flokka er **ekki** vistuð í sérstillingum.
 
@@ -118,10 +115,10 @@ Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til
 Á sama hátt og hægt er að velja (eða afvelja) allar línur í hnitanetinu með því að velja gátreitinn efst í fyrsta dálkinum í hnitanetinu, einnig er hægt að velja (eða afvelja) allar línur í hópi með því að velja gátreitinn í samsvarandi hauslínu hóps. Gátreiturinn í hauslínu hóps endurspeglar alltaf núverandi valstöðu lína í þeim hópi, burtséð frá því hvort allar línur séu valdar, engar línur séu valdar eða aðeins nokkrar línur séu valdar.
 
 ### <a name="hiding-column-names"></a>Fela dálkaheiti
-Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Ef byrjað er á útgáfu 10.0.14/verkvangsuppfærsla 38 er hægt að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
+Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Hægt er að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
 
 ## <a name="freezing-columns"></a>Dálkar festir
-Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað viltu að gildin í þessum dálkum séu alltaf sýnileg. Í útgáfu 10.0.17 býður eiginleikinn **Festa dálka í hnitaneti** notendum upp á þennan sveigjanleika. 
+Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. Eiginleikinn **Festa dálka í hnitaneti** býður notendum upp á þennan sveigjanleika. 
 
 Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa dálk**. Í fyrsta skipti sem þetta skref er gert verður valinn dálkur að fyrsta dálkinum og mun ekki lengur hverfa úr augsýn við flettingu. Næstu dálkum sem eru festir verður bætt hægra megin við síðasta festa dálkinn. Hægt er að nota venjulegu færsluaðgerðina til að endurraða festum dálkum eftir þörfum. Hins vegar er ekki hægt að færa festa dálka þannig að þeir birtist á meðal ófestra dálka. Að sama skapi er ekki hægt að færa ófesta dálka þannig að þeir birtist á meðal festra dálka.
 
@@ -132,32 +129,16 @@ Athugið að dálkval og línustaða dálka í nýja hnitanetinu eru alltaf fest
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
 
-**10.0.9 / Verkvangsuppfærsla 33 og nýrri**
+Eiginleikinn **Ný hnitanetsstýring** er í boði í eiginleikastjórnun í hvaða umhverfi sem er. Eftir að eiginleikinn í eiginleikastjórnun hefur verið virkjaður munu allar síðari notandalotur nýta sér nýju netstýringuna. 
 
-Eiginleikinn **Ný hnitanetsstýring** er í boði í eiginleikastjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](public-preview-terms.md).  
-
-**10.0.8 / Verkvangsuppfærsla 32 og 10.0.7 / Verkvangsuppfærsla 31**
-
-Hægt er að virkja eiginleikann **Ný hnitanetsstýring** í lagi 1 (þróun/prófun) og lagi 2 (sandkassa)umhverfum til að geta veitt frekari prófun og hönnunarbreytingar með því að fylgja skrefunum hér á eftir.
-
-1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Núllstilla IIS** til að skola fast flýtiminni. 
-
-3.  **Finndu eiginleikann**: Farðu í vinnusvæði **Stjórnun eiginleika**. Ef **Ný netstjórnun** birtist ekki á listanum yfir alla eiginleika, veldu **Athuga með uppfærslur**.   
-
-4.  **Virkja aðgerðina**: Finndu aðgerðina **Ný netstýring** á listanum yfir aðgerðir og veldu hnappinn **Virkja núna** í upplýsingaglugganum. Athugið að endurræsingar vafra er krafist. 
-
-Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
+Þessi eiginleiki er virkjaður með því að fara sjálfgefið í gang í útgáfu 10.0.21 og er miðað við að hann verði áskilinn í útgáfu 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
-Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt frá og með útgáfu 10.0.13/verkvangsuppfærslu 37 til að leyfa einstökum skjámyndum að nota eldri hnitanetstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju hnitanetstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndarinnar.
+Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndarinnar.
 
  ```this.forceLegacyGrid();```
 
-Þetta API verður notað fram að útgáfu í október 2021 þegar nýja hnitanetstýringin verður áskilin. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
+Þetta API verður notað þangað til nýja netstýringin verður áskilin, sem er stefnt á að gerist í apríl 2022. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Að þvinga síðu til að nota nýja netið eftir að hafa áður afþakkað netið
 Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu viljað virkja nýja netið aftur síðar eftir að undirliggjandi vandamál hafa verið leyst. Til að gera þetta þarftu einfaldlega að fjarlægja kallið við `forceLegacyGrid()`. Breytingin tekur ekki gildi fyrr en eitt af eftirfarandi gerist:

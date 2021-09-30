@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415322"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500599"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð. Ef til er opin undirbúningsathugun fyrir afurð verður ekki hægt að nota afurðina í færslum.
+Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð.
 
-Gátreiturinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu er aðeins í boði þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Á þeim tímapunkti er hægt að nota afurðina, útgáfuna eða afbrigðið í færslum. Hægt er að búa til undirbúningsathuganir fyrir nýjar afurðir, ný afbrigði og nýjar hönnunarútgáfur.
+Hægt er að haka í gátreitinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Ef ekki hefur verið unnið úr einni eða fleiri athugunum fyrir afurðina, útgáfuna eða afbrigðið, þá færðu tilkynningu um að ekki hafi verið lokið við allar athuganir þegar þú reynir að merkja við gátreitinn **Virkt**.
 
-Einnig er hægt að beita undirbúningsathugunum á hefðbundnar (ekki hönnunarvörur) vörur. Nánari upplýsingar er að finna í hlutanum [Undirbúningsathuganir á hefðbundnum vörum](#standard-products) síðar í þessu efnisatriði.
+Hægt er að búa til undirbúningsathuganir fyrir nýjar hönnunarafurðir, afbrigði og útgáfur. Einnig er hægt að nota undirbúningsathugunir á staðlaðar (ekki hannaðar) afurðir (sjá einnig [Undirbúningsathuganir á stöðluðum afurðum](#standard-products)). 
+
+Þú getur notað staðlaðar afurðir í viðskiptum jafnvel þótt ekki sé búið að ljúka öllum undirbúningsathugunum. Ef þú þarft að loka fyrir að afurð sé notuð í viðskiptum skaltu nota líftímastöðu hennar. Þú getur úthlutað líftímastöðu sem kemur í veg fyrir að afurð sé notuð í viðskiptum og síðan, eftir að öllum undirbúningsathugunum er lokið, úthlutað nýrri líftímastöðu sem leyfir nauðsynlegar færslur.
 
 ## <a name="types-of-readiness-checks"></a>Gerðir undirbúningsathugana
 
