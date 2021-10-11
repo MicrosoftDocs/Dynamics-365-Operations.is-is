@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 20. september 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 6. september 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23. ágúst 2021
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Endurstilla fastar runuvinnslur
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Endurstilla Dataverse samstillingu
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Greiningarskýrslur eru ekki uppfærðar
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Ekki er hægt að stofna umhverfi í stjórnendamiðstöð Power Apps
@@ -485,6 +489,12 @@
               items:
                 - name: Fríðindaáætlun starfskrafts á launaskrá
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Aðrar einingar
+              items:
+                - name: Ferill einstaklingsheitis
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Gengi gjaldmiðla
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Valkostasett
               items:
                 - name: Kyn
@@ -543,9 +553,11 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Skilgreina altæku aðsetursbókina
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uppsetning aðseturs
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Algengar spurningar um aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
-                - name: Skilgreina aðsetursbækur
+                - name: Skilgreina aðsetursbók
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Stjórna eigendum staðsetningar
                   href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-location-owner.md?toc=/dynamics365/human-resources/toc.json
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA skýrslugerð
                   href: hr-benefits-management-aca-reports.md
+                - name: Yfirlit yfir fríðindi
+                  href: hr-benefits-statement.md
             - name: Skilgreina og stjórna fríðindaáætlun
               href: hr-benefits-manage-program.md
             - name: Stefnur um hæfni til fríðinda

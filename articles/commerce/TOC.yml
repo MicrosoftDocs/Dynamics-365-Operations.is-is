@@ -1398,12 +1398,16 @@
               items:
                 - name: Staðfæring Commerce fyrir Rússland
                   href: localizations/rus-commerce-localization.md
-                - name: Einfaldað aðseturssnið fyrir viðskiptavin í Commerce POS fyrir Rússland
-                  href: localizations/rus-simplified-address.md
                 - name: Setja upp staðfæringu Commerce fyrir Rússland
                   href: localizations/rus-commerce-setup.md
                 - name: Fyrirframgreiðslur í Commerce fyrir Rússland
                   href: localizations/rus-commerce-prepayments.md
+                - name: Einfaldað aðseturssnið fyrir viðskiptavin í Commerce POS fyrir Rússland
+                  href: localizations/rus-simplified-address.md
+                - name: Dæmi um samþættingu strimlaprentara fyrir Rússland
+                  href: localizations/rus-fpi-sample.md
+                - name: Upplýsingastjórnun viðskiptavinar fyrir Rússland
+                  href: localizations/rus-customer-information.md
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina altæku aðsetursbókina
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Uppsetning aðseturs
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Algengar spurningar um aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina aðsetursbók
@@ -2328,8 +2334,12 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Stækkunarhæfni
           items:
-            - name: Þróun og stækkunarhæfni Commerce
-              href: dev-itpro/dev-retail-home-page.md
+            - name: Viðskiptaþróun og stækkunarhæfni
+              items:
+                - name: Commerce fyrir fagfólk í upplýsingatækni og þróunaraðila
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Setja upp staðbundið þróunarumhverfi
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Stækkunarhæfni netrásar
               items:
                 - name: Yfirlit stækkunarhæfni netrásar

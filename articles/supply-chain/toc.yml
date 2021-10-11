@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Framboðsáætlun
+                  href: master-planning/supply-schedule.md
                 - name: Nota síur á áætlun
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Aðaláætlanagerð með eftirspurnarspá
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Skoða áætlaða eftirspurn á útleið innan samstæðu
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Vinna með viðskiptavinum innri aðfangakeðju
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Spá
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Stofna og reikningsfæra samstæðuinnkaupapöntun fyrir innri notkun
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Villuleita verðmisræmi í samstæðupöntunum
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Skrá vörumóttöku í innkaupapöntun
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Stofnun innkaupapöntunar
               items:
                 - name: Innkaupapantanir búnar til handvirkt
@@ -2729,7 +2733,63 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Stofna og breyta sölutilboðum
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
-            - name: Skil
+            - name: Samstæðuviðskipti
+              items:
+                - name: Setja upp samstæðuviðskipti
+                  items:
+                    - name: Setja upp samstæðuviðskipti
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Færibreytur samstæðu
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Setja upp lánardrottna, viðskiptavini og vörur fyrir samstæðuviðskipti'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Setja upp gjöld í pöntunum innan samstæðu
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Setja upp færibreytur til að bóka samstæðupöntun
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Samstilla upplýsingar innan samstæðu
+                  items:
+                    - name: Samstilla verð og afslætti innan samstæðu
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Samstilla gjöld innan samstæðu
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Samstilla upplýsingar um samstæðuviðskiptavini
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Samstilla ráðstöfunarkóða innan samstæðu
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Samstæðusölupantanir og reikningar
+                  items:
+                    - name: Stofnun á kaupum innan samstæðu og sölupöntunum í nokkrum fyrirtækjum
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Pantanir og skilapantanir innan samstæðu
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Stofna samstæðusölupöntun til innri notkunar
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Samstæðufrátekningar
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Breyta eða eyða upprunalegri samstæðusölupöntun
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Breyta pöntunum innan samstæðu
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Runu- og raðnúmer innan samstæðu
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Fylgiseðlar innan samstæðu
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Skrá greiðslur sjálfkrafa fyrir samstæðureikninga viðskiptavinar
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Innkaupapöntun innan samstæðu
+                  items:
+                    - name: Stofna og reikningsfæra samstæðuinnkaupapöntun fyrir innri notkun
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Villuleita verðmisræmi í samstæðupöntunum
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Umreikningar gjaldmiðils innan samstæðu
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Samstæðuröðun
+                  href: sales-marketing/intercompany-master-scheduling.md
+            - name: Vöruskil
               items:
                 - name: Söluvöruskil
                   href: warehousing/sales-returns.md
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Setja upp og stilla einingu heildarkostnaðar
               items:
+                - name: Kveikja á einingu heildarkostnaðar fyrir kerfið þitt
+                  href: landed-cost/landed-cost-enable.md
                 - name: Vinna með færibreytur heildarkostnaðar
                   href: landed-cost/landed-cost-parameters.md
                 - name: Færibreytur heildarkostnaðar innkaupa og aðfanga
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Festing
+                      href: warehousing/anchoring.md
                     - name: Flokkun á útleið
                       href: warehousing/outbound-sorting.md
                     - name: Setja á vegg - setja í verslun
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Taka til elstu runu í fartæki
                       href: warehousing/pick-oldest-batch.md
+                - name: Altækar færibreytur fartækja
+                  href: warehousing/mobile-device-parameters.md
                 - name: Notandastillingar fartækis
                   href: warehousing/mobile-device-user-settings.md
                 - name: Vinnsla viðburða í vöruhúsaforriti

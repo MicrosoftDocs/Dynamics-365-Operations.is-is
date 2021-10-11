@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Umsjón með rétthafagreiðslusamningi
               href: accounts-payable/royalty-contract.md
+            - name: Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Greiðslur og uppgjör
               items:
                 - name: Miðstýrðar greiðslur fyrir viðskiptaskuldir
@@ -1256,7 +1258,7 @@
                       href: finance-insights/improve-model.md
                     - name: Stuðningstími fyrir stjórnun líkans
                       href: finance-insights/model-manage-lifecycle.md
-            - name: Nota Finance insights
+            - name: Nota Finance Insights
               items:
                 - name: Drög að fjárhagsáætlunum
                   href: finance-insights/budget-proposals.md
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Yfirlit yfir skyndimyndir
                   href: finance-insights/payment-snapshots.md
+            - name: Algengar spurningar um úrræðaleit í Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Verkefnastjórnun og bókhald
           items:
             - name: Yfirlit verkefnastjórnunar og bókhalds
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Skýrslugerð fyrir mörg VSK-skráningarnúmer
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Skýrslugerð fyrir Austurríki
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Skýrslugerð fyrir Frakkland
                           items:
                             - name: VSK-skýrsla
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Skýrsla um þjónustu á milli landa
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastat-skýrsla
+                - name: Austurrískt Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Innkaupagjöld
                   href: localizations/emea-aut-purchase-duties.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Barein
               items:
                 - name: Yfirlit fyrir Barein
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Ársfjórðungsskýrsla VSK-samskipta
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Svartlistaskýrsla
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Færsludagsetning og fjárhagsbók
                   href: localizations/emea-ita-competence-date.md
                 - name: Afskrift eigna
@@ -3801,6 +3809,8 @@
           items:
             - name: Yfirlit yfir rafræna skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Hlutar rafrænar skýrslugerðar
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Skilgreiningar
               items:
                 - name: Stofna skilgreiningar
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina altæku aðsetursbókina
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Uppsetning aðseturs
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Algengar spurningar um aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina aðsetursbók

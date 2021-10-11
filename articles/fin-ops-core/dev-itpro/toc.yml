@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Sérstilling á vörpun eininga og reita
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Sérsniðin leiðsögn fyrir tvöfalda skráningu
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Unnið með mörg einingakort
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
