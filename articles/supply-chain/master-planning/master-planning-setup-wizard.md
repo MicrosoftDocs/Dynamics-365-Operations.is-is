@@ -1,7 +1,7 @@
 ---
 title: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
-description: Þetta efni lýsir ýmsum mikilvægum áætlunum og breytum sem eru notaðar til að setja upp aðaláætlanagerð.
-author: t-benebo
+description: Í þessu efnisatriði er því lýst hvernig á að keyra leiðsagnarforrit fyrir uppsetningu aðaláætlanagerðar til að setja upp aðaláætlanagerð.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767461"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577505"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
@@ -125,7 +125,7 @@ Að lokum, þegar þú velur **Klára** er nýju stillingunni beitt. Ef þú vel
 
 Þessi hluti lýsir uppsetningu tveggja skáldaðra fyrirtækja til að sýna hvernig skipulagið getur breyst í samræmi við þarfir hvers fyrirtækis.
 
-### <a name="example-1-contoso-manufacturer"></a>Dæmi 1: Contoso Framleiðandi
+### <a name="example-1-contoso-manufacturer"></a>Dæmi 1: Framleiðandi Contoso
 
 Contoso Framleiðandi er framleiðslufyrirtæki sem framleiðir hátalara. Það kaupir hin ýmsu hráefni og íhluti sem eru notaðir fyrir lokahátalara frá ýmsum birgjum. Hér eru nokkur einkenni framboðs og framleiðslu þess:
 
@@ -135,14 +135,14 @@ Contoso Framleiðandi er framleiðslufyrirtæki sem framleiðir hátalara. Það
 - Framleiðslustöðin framleiðir lokahlutina. Það hefur skilgreindan fjölda malunar- og borvéla sem eru notaðar til að vinna úr íhlutunum. Þessar vélar verða að vinna úr hinum ýmsu íhlutum.
 - Það eru margir birgjar. Meðalafgreiðslutími fyrir hluti er ein vika. Hópur af vörum frá sama birgi mun hafa sjö vikna afgreiðslutíma.
 
-Í leiðsagnarforritinu eru eftirfarandi gildi slegin inn fyrir Contoso framleiðanda:
+Í leiðsagnarforritinu eru eftirfarandi gildi færð fyrir Contoso framleiðanda:
 
 - **Þekja:**
 
     - **Spurning:** "Viltu tilgreina fjölda daga áætlunarhorfsins þíns?"
     - **Svar:** "Já, eins og skilgreint er í þekjuhópunum."
 
-    Þar sem mikill munur er á afhendingartíma vara, þarf Contoso ekki að áætla allar vörurnar fyrir sama tímabilið í framtíðinni. Þekjuhópar fyrir vörurnar eru búnir til. Vörur sem hafa svipaðan líftíma er úthlutað til sama þekjuhóps. Skipulagshorfur fyrir hvern þekjuhóp (það er tímamörk þekju) er um það bil afgreiðslutími plús framlegð einnar viku. Aðalskipulag tryggir síðan að vörurnar séu fyrirhugaðir fyrirfram, byggt á afgreiðslutíma þeirra.
+    Vegna þess að afgreiðslutími fyrir hluti er mjög mismunandi þarf Contoso ekki að skipuleggja allar vörur fyrir sama tímabil í framtíðinni. Þekjuhópar fyrir vörurnar eru búnir til. Vörur sem hafa svipaðan líftíma er úthlutað til sama þekjuhóps. Skipulagshorfur fyrir hvern þekjuhóp (það er tímamörk þekju) er um það bil afgreiðslutími plús framlegð einnar viku. Aðalskipulag tryggir síðan að vörurnar séu fyrirhugaðir fyrirfram, byggt á afgreiðslutíma þeirra.
 
     Þess vegna verða tveir þekjuhópar stofnaðir fyrir þetta dæmi. Einn þekjuhópur mun hafa tveggja vikna tímamörk þekju og hinn mun hafa átta vikna tímamörk þekju.
 
@@ -153,7 +153,7 @@ Contoso Framleiðandi er framleiðslufyrirtæki sem framleiðir hátalara. Það
     - **Spurning:** "Þarftu að skipuleggja starfsemi skipt í einstök störf?"
     - **Svar:** "Já."
 
-    Contoso Framleiðsla þarf að skipuleggja og áætla einstök störf sem unnin verða í vinnusalnum. Þess vegna mun það nota vinnsluröðun.
+    Framleiðsla Contoso verður að skipuleggja og skipuleggja einstök störf sem unnin verða á verslunargólfinu. Þess vegna mun það nota vinnsluröðun.
 
 - **Afkastaveita:**
 
@@ -176,36 +176,36 @@ Contoso Framleiðandi er framleiðslufyrirtæki sem framleiðir hátalara. Það
 
     Skipuleggja verður allar vörur sem eru notaðir við framleiðsluna. Vegna þess að vörurnar hafa mjög mismunandi afgreiðslutíma mun aðalskipulagning hafa betri árangur þegar hún notar þekjuhópa. Aftur er hægt að færa inn vikuframlegð og hægt er að gera sprengingu á sama tíma og þekjan er.
 
-### <a name="example-2-contoso-retailer"></a>Dæmi 2: Contoso Smásöluaðili
+### <a name="example-2-contoso-retailer"></a>Dæmi 2: Contoso smásala
 
-Contoso Smásöluaðili er dreifingarfyrirtæki í tískugeiranum. Það notar aðalskipulagningu til að reikna út hvenær innkaupapantanir eiga að vera settar út frá spá þess sem velta hefur. Hér eru nokkur einkenni þess:
+Contoso smásala er dreifingarfyrirtæki í tískuiðnaðinum. Það notar aðalskipulagningu til að reikna út hvenær innkaupapantanir eiga að vera settar út frá spá þess sem velta hefur. Hér eru nokkur einkenni þess:
 
-- Contoso Smásöluaðili notar eftirspurnarspá til að spá fyrir um sölu. Innkaupapantanir verða skipulagðar samkvæmt spánni.
+- Smásali Contoso notar eftirspurnarspá til að spá fyrir um sölu. Innkaupapantanir verða skipulagðar samkvæmt spánni.
 - Verslanir nota beiðnir um áfyllingu.
 - Afgreiðslutími frá aðalvörugeymslu í hverja verslun er um það bil tvær vikur fyrir allar vörur.
 
-Í leiðsagnarforritinu eru eftirfarandi gildi slegin inn fyrir Contoso smásöluaðila:
+Í leiðsagnarforritinu eru eftirfarandi gildi færð fyrir Contoso smásala:
 
 - **Spáreftirspurn:**
 
     - **Spurning:** "Viltu nota spááætlun í aðalskipulagningu svo að fyrirhugaðar pantanir verði lagðar til að uppfylla spáða eftirspurn?"
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi."
 
-    Contoso hefur tekið með eftirspurnarspá til að spá fyrir um sölur þess. Þess vegna verður aðalskipulagning að mæla með fyrirhuguðum pöntunum til að uppfylla spána.
+    Contoso hefur látið fylgja eftirspurnarspá til að spá fyrir um sölu þess. Þess vegna verður aðalskipulagning að mæla með fyrirhuguðum pöntunum til að uppfylla spána.
 
 - **Staðfesting:**
 
     - **Spurning:** "Viltu að aðaláætlun festi áætlaðar pantanir sjálfkrafa í pöntunargögn, til dæmis framleiðslu- eða innkaupapantanir?"
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi." **1 dagur** er slegið inn.
 
-    Þar sem Contoso smásöluaðili mun stofna innkaupapantanir beint úr áætluðum innkaupapöntunum, er þetta gagnlegt ef áætlaðar innkaupapantanir eru sjálfkrafa staðfestar. Vegna þess að fyrirtækið rekur aðaláætlun á hverjum degi munu styrkjandi tímamörk upp á einn dag sjálfkrafa festa allar pantanir sem þarf til næsta dags.
+    Þar sem Contoso smásali mun búa til innkaupapantanir beint úr fyrirhuguðum innkaupapöntunum er það gagnlegt ef fyrirhugaðar innkaupapantanir eru sjálfkrafa styrktar. Vegna þess að fyrirtækið rekur aðaláætlun á hverjum degi munu styrkjandi tímamörk upp á einn dag sjálfkrafa festa allar pantanir sem þarf til næsta dags.
 
 - **Samþykktar beiðnir:**
 
     - **Spurning:** "Viltu láta fylgja eftirspurn frá viðurkenndum beiðnum um að bæta við verslanir?"
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi." **1 dagur** er slegið inn.
 
-    Contoso notar samþykktu beiðnirnar úr verslunum sínum til að stofna áætlaðar innkaupapantanir til að fylla á þessar verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.
+    Contoso notar samþykktar kröfur frá verslunum sínum til að búa til fyrirhugaðar innkaupapantanir til að bæta við þær verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

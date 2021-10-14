@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722632"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559584"
 ---
 # <a name="payroll-position-job"></a>Launastöðuvinnsla
 
@@ -34,16 +34,22 @@ Efnislegt heiti: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Eiginleikar
 
-| Eiginleiki<br>**Efnislegt heiti**<br>**_Gerð_** | Nota | lýsing |
+| Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | Lýsing |
 | --- | --- | --- |
-| **Starfsauðkenni**<br>mshr_jobid<br>*Strengur* | Lesa eingöngu<br>Krafa |Kenni starfs. |
-| **Gildir frá**<br>mshr_validto<br>*Mótfærð dagsetning og tími* | Lesa eingöngu <br>Krafa | Dagsetningin sem tengsl stöðu og starfs gildir frá. |
-| **Gildir til**<br>mshr_validto<br>*Mótfærð dagsetning og tími* | Lesa eingöngu <br>Krafa | Dagsetningin sem staðan og starfssambandið gildir til.  |
-| **Auðkenni stöðuheitis**<br>mshr_positionid<br>*Strengur* | Lesa eingöngu<br>Krafa | Auðkenni stöðunnar. |
-| **Aðalsvæði**<br>mshr_primaryfield<br>*Strengur* | Krafa<br>Búið til af kerfi |  |
-| **Gildi fyrir kenni vinnustöðu**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Framandlykill:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |Kenni starfsins sem tengist stöðunni.|
-| **Gildi fyrir kenni launafyrirkomulags fastra launa**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Framandlykill: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | Kenni launafyrirkomulags fastra launa sem tengist stöðunni. |
-| **Einingarkenni fyrir kenni launaeiningar**<br>mshr_payrollpositionjobentityid<br>*Guid* | Krafa<br>Búið til af kerfi. | GUID-gildi myndað af kerfinu til að auðkenna verk á einkvæman hátt.  |
+| **Auðkenni stöðuheitis**</br>mshr_positionid</br>*Strengur* | Lesa eingöngu | Auðkenni stöðunnar. |
+| **Gildir frá**</br>mshr_validto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem tengsl stöðu og starfs gildir frá. |
+| **Gildir til**</br>mshr_validto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem tengsl stöðu og starfs gildir til. |
+| **Starfsauðkenni**</br>mshr_jobid</br>*Strengur* | Lesa eingöngu | Kenni starfs. |
+| **Aðalsvæði**</br>mshr_primaryfield</br>*Strengur* | Búið til af kerfi | Aðalreiturinn. |
+| **Einingarkenni fyrir kenni launaeiningar**</br>mshr_payrollpositionjobentityid</br>*Guid* | Búið til af kerfi. | Altækt einkvæmt kennimerki (GUID-gildi) myndað af kerfinu til að auðkenna starf á einkvæman hátt. |
+
+## <a name="relations"></a>Vensl
+
+| Gildi eiginleika | Tengdur aðili | Yfirlitseiginleiki | Tegund innheimtu |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Á ekki við |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Dæmi um fyrirspurn
 

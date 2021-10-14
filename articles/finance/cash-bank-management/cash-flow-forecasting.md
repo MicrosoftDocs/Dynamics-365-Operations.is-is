@@ -1,8 +1,8 @@
 ---
 title: Sjóðstreymisspár
 description: Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779447"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547956"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -83,7 +83,10 @@ Hægt er að hnekkja sjálfgefnum stillingum fyrir svæðið **Greiðslugetulyki
 
 ### <a name="budgeting"></a>Fjárhagsáætlanir
 
-Hægt er að taka með fjárhagsáætlanir sem stofnaðar eru úr áætlunarlíkönum í sjóðstreymisspám. Á flipanum **Fjárhagsáætlun** á síðunni **Uppsetning sjóðstreymisspár** skal velja áætlunarlíkön til að taka með í spá. Það er sjálfgefið að nýjar færslur í fjárhagsáætlunarskrá séu hafðar með í spám eftir að áætlunarlíkanið hefur verið virkjað fyrir sjóðstreymisspá. Hægt er að skrifa yfir meðtalningu í sjóðstreymisspá í einstökum færslum í fjárhagsáætlunarskrá.
+Hægt er að taka með fjárhagsáætlanir sem stofnaðar eru úr áætlunarlíkönum í sjóðstreymisspám. Á síðunni **Uppsetning sjóðstreymisspár** á flipanum **Fjárhagsáætlun** skal velja áætlunarlíkön til að taka með í spá. Það er sjálfgefið að nýjar færslur í fjárhagsáætlunarskrá séu hafðar með í spám eftir að áætlunarlíkanið hefur verið virkjað fyrir sjóðstreymisspá.
+
+Hægt er að hafa færslur fjárhagsáætlunarskráar í sjóðstreymisspánni á einstaklingsgrunni í gegnum sérstillingu. Þegar þú bætir dálknum „Telja með í sjóðstreymisspám“ við síðuna **Færsla í fjárhagsáætlunarskrá** mun kerfið skrifa yfir stillingarnar á síðunni **Uppsetning sjóðsstreymisspár** til að hafa með staka færslu í fjárhagsáætlunarskrá í spánni.
+
 
 ### <a name="inventory-management"></a>Birgðir
 
@@ -144,7 +147,7 @@ Vinnusvæðið **Yfirlit yfir reiðufé – öll fyrirtæki** sýnir greiningar 
 
 Vinnusvæðið **Yfirlit yfir reiðufé – núverandi fyrirtæki** sýnir greiningar fyrir sjóðstreymisspá í skilgreindum bókhaldsgjaldmiðli fyrirtækisins. Bókhaldsgjaldmiðillinn sem er notaður fyrir greiningu er skilgreindur á síðunni **Fjárhagur**. Þetta vinnusvæði sýnir yfirlit yfir sjóðstreymisspár og stöðu bankareikninga núverandi fyrirtækis. Línurit yfir sjóðsinnstreymi og útstreymi gefur yfirlit yfir framtíðarhreyfingar lausafjár og stöðu í bókhaldsgjaldmiðli ásamt ítarlegum upplýsingum um spáðar færslur. Einnig má sjá spáðar gengisstöður.
 
-Sjá efnisatriðið [Sjóðsstreymi Power BI](./cash-overview-power-bi-content.md) fyrir frekari upplýsingar um greiningarspár fyrir sjóðsstreymi.
+Sjá [Sjóðsstreymi Power BI](Cash-Overview-Power-BI-content.md) fyrir frekari upplýsingar um greiningarspár fyrir sjóðsstreymi.
 
 Þar að auki er hægt að skoða gögn sjóðstreymisspár fyrir tiltekna lykla, pantanir og vörur á eftirfarandi síðum:
 

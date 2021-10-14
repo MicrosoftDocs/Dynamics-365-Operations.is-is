@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386742"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559560"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -36,6 +36,18 @@ ms.locfileid: "7386742"
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.21 útgáfu
 
 [!include [banner](../includes/preview-banner.md)]
+
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Stilling meðhöndlunar afslátta sem skarast í færibreytum Commerce
+
+Stillingin **Meðhöndlun afslátta sem skarast** á síðunni **Færibreytur Commerce** er gerð úreld í Commerce-útgáfu 10.0.21. Í framhaldinu mun verðlagningarkerfi Commerce nota eitt algrím til að ákvarða bestu samsetningu afslátta sem skarast.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | <p>Stillingin **Meðhöndlun afslátta sem skarast** í færibreytum Commerce stýrir því hvernig verðlagningarkerfi Commerce leitar að og ákveður bestu samsetningu afslátta sem skarast. Það býður upp á þrjá valkosti eins og er:<p><ul><li> **Bestu afköst** – Þessi valkostur notar algrím ítarlegra leiðsagnarreglna og aðferðina [Röðun jaðarvirðis](../optimal-combination-overlapping-discounts.md) til að forgangsraða, leggja mat á og skera úr um bestu samsetningu afsláttar með fljótlegum hætti.</li><li>**Jafnaður útreikningur** – Í núverandi kóðakerfi virkar þessi valkostur eins og valkosturinn **Bestu afköst**. Því er þetta í raun tvískiptur valkostur.</li><li>**Tæmandi útreikningur** – Þessi valkostur notar gamalt algrím sem fer gegnum allar mögulegar samsetningar afsláttar í verðútreikningnum. Fyrir pantanir sem eru með stórar línur og mikið magn gæti þessi valkostur valdið afkastavandamálum.</li></ul><p>Til að einfalda stillingar, bæta afköst og draga úr atvikum af völdum gamla algrímsins munum við fjarlægja að fullu stillinguna **Meðhöndlun afslátta sem skarast** og uppfæra innri reiknireglu verðlagningarkerfis Commerce þannig að það noti nú aðeins ítarlegt algrím (þ.e. algrímið að baki valmöguleikanum **Bestu afköst**).</p> |
+| **Skipt út fyrir aðra eiginleika?**   | Nr. Við mælum með því að fyrirtæki sem nota valkostinn **Jafnaður útreikningur** eða **Tæmandi útreikningur** skipti yfir í valkostinn **Bestu afköst** áður en þessi eiginleiki er fjarlægður. |
+| **Afurðasvæði sem haft er áhrif á**         | Verðlagning og afslættir |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Frá og með útgáfu 10.0.21 mun stillingin **Meðhöndlun afslátta sem skarast** verða fjarlægð úr færibreytum Commerce í október 2022. |
 
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK dreift með því að nota Lifecycle Services
 
@@ -103,7 +115,7 @@ Frekari upplýsingar má finna á
 | **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
 | **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur |
-| **Dreifingarvalkostur**              | Allir|
+| **Dreifingarvalkostur**              | Öll|
 | **Staða**                         | Úrelt. Internet Explorer 11 verður ekki stutt eftir ágúst 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.11 útgáfu

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483783"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559608"
 ---
 # <a name="ready-to-pay"></a>Tilbúið til greiðslu
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Ef merkja á að starfsmaður sé tilbúinn til greiðslu verður fyrst að virkja virknina **(Forskoðun) Samþætting launa** í eiginleikastjórnun. Frekari upplýsingar um hvernig forskoðunareiginleikar eru virkjaðir er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Ef ein þessara staðfestinga stenst ekki getur þú ekki merkt að starfsmaður
 
 Ef reiturinn **Tilbúið til greiðslu** er **Nei** er það vísbending um að þú þurfir að framkvæma aðgerð til að tryggja að lokið sé við notandasíðu starfsmanns. Þetta stöðvar ekki afhjúpun gagna í gagnaeiningum. 
 
-## <a name="known-issues"></a>Þekkt vandamál
+## <a name="process-automation"></a>Sjálfvirkni ferlis
 
-- Þú verður að slökkva á **Einfaldaðri starfsmannafærslu** í eiginleikastjórnun. Reitirnir á vinnusvæði launastjórnunar virka ekki sem skyldi ef þú notar þennan eiginleika.
-- Á síðunni **Starfskraftur** er **Launaflipinn**, flokkurinn **Tilbúið til greiðslu** tiltækt í hvaða notandahlutverki sem er. 
+Þú getur gert staðfestingu allra starfsmanna sjálfvirka með því að nota [Sjálfvirkni ferlis](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). Í vinnusvæðinu **Launastjórnun** skal fara í **Tenglar** \> **Færibreytur** \> **Sjálfvirkni ferlis**.
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -1,7 +1,7 @@
 ---
 title: Sérsníða og nota viðskiptavinagátt
 description: Þetta efnisatriði útskýrir hvernig á að sérsníða viðskiptavinagátt þegar búið er að bæta henni við kerfið.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
@@ -9,18 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: db087fdfe27a32e3368002e193fdcd4e5d5c253821cd5e00dad8fe59be4461bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 548a81d8145d6762508163f17ca7367cb5ecd849
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776825"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579017"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Sérsníða og nota viðskiptavinagátt
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði lýsir mismunandi síðum sem eru í boði í tilbúinni viðskiptavinagátt. Það útskýrir hvað síðurnar gera og hvernig hægt er að sérstilla þær.

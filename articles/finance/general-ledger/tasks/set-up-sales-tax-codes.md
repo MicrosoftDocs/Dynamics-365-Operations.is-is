@@ -2,7 +2,7 @@
 title: Setja upp VSK-kóða
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp virðisaukaskatt í Dynamics 365 Finance.
 author: twheeloc
-ms.date: 08/29/2018
+ms.date: 09/27/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5ce2c8d9a117871191dd1c2d32d822bcc72d76fabaec146d9b8c27fc85dc058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719199"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562103"
 ---
 # <a name="set-up-sales-tax-codes"></a>Setja upp VSK-kóða
 
@@ -38,11 +38,19 @@ ms.locfileid: "6719199"
 8. Á **Aðgerðarrúðan** efst í viðmótinu skaltu velja **VSK-kóði**.
 9. Veldu **Gildi**.
 10. Sláðu inn gildi fyrir þennan skattakóða í **gildi** dálki.
-    - Á Flýtiflipanum **Útreikninga**, í svæðinu Uppruna ef Upphæð á einingu er valinn er gildið margfaldað með magninu í færsluna til að reikna út vsk-upphæð.  Ef skattkóði er ekki skattur byggður á einingum er gildið sem er prósenta sem er notað í Uppruna fyrir þetta skattkóði til að reikna út upphæð virðisaukaskatts.     
-11. Veljið **Vista**.
+
+    Á Flýtiflipanum **Útreikningur**, í svæðinu **Uppruni** ef **Upphæð á einingu** er valinn er gildið margfaldað með magninu í færsluna til að reikna út vsk-upphæð.  Ef skattkóði er ekki skattur byggður á einingum er gildið sem er prósenta sem er notað í Uppruna fyrir þetta skattkóði til að reikna út upphæð virðisaukaskatts.     
+
+11. Veldu **Vista**.
 12. Lokið síðunni.
-13. Veljið **Vista**.
+13. Veldu **Vista**.
 
+Frá og með útgáfu 10.0.22 af Microsoft Dynamics 365 Finance, ef þú ert að nota [Skattþjónustu](../../localizations/global-tax-calcuation-service-overview.md), og eiginleikinn [**Styðja mörg VSK-skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) er virkjaður á vinnusvæði **Eiginleikastjórnunar**, getur þú notað reitinn **Skattagerð** til að tilgreina gerð skattkóðans. Eftirtalin gildi eru tiltæk:
 
+- Hefðbundinn VSK-skattur
+- Skertur virðisaukaskattur
+- VSK 0%
+- Vörugjald
+- Annað
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

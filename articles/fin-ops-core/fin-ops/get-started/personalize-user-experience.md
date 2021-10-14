@@ -2,7 +2,7 @@
 title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344375"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581066"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -119,7 +119,8 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 
 - Nota **Velja** verkfæri til að velja og breyta eiginleikum einingar. Til að nota þetta tól velurðu hnappinn **Velja** á verkfæraslánni og síðan viðkomandi einingu. Eiginleikagluggi einingarinnar birtist, þar sem hægt er að breyta hvaða eiginleika sem er fyrir þá einingu. Þú getur endurtekið ferlið fyrir aðrar einingar sem hægt er að sérsníða á síðunni. Athugaðu að sumir eiginleikar sérstillinga eru mögulega ekki tiltækir í sumum aðstæðum. Til dæmis getur þú ekki læst reit sem er nauðsynlegur.
 - Nota **Fela** verkfærið til að fela einingu á síðunni. Til að nota þetta tól velurðu hnappinn **Fela** á verkfæraslánni og síðan einingu sem á að fela. Þegar verkfærið **Fela** er notað, verða allar faldar einingar gerðar sýnilegar, en þær verða sýndar í skyggðu hólfi. Þú getur síðan gert þátt sýnilegan með því að velja hann. Til að sjá hvernig síðan lítur út þegar einingar eru faldar skal skipta yfir í annað sérstillingarverkfæri eða loka tækjastiku sérstillinga.
-- Notið verkfærið **Bæta við reitum** til að bæta reitum við síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Stofna og vinna með sérsniðna reiti](user-defined-fields.md). Þegar hnappurinn **Bæta við reitum** er valinn á tækjastikunni, þarf fyrst að velja hnitanetið eða hlutann þar sem ætlunin er að bæta reitnum við. Svargluggi sýnir lista yfir reiti sem tengjast völdu hnitaneti eða hluta. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Uppfæra**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+- Notið verkfærið **Bæta við reitum** til að bæta reitum við síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Stofna og vinna með sérsniðna reiti](user-defined-fields.md). Þegar hnappurinn **Bæta við reitum** er valinn á tækjastikunni, þarf fyrst að velja hnitanetið eða hlutann þar sem ætlunin er að bæta reitnum við. Svargluggi sýnir lista yfir reiti sem tengjast völdu hnitaneti eða hluta. Í svarglugganum skal velja einn eða fleiri reiti til að bæta við úr annaðhvort listanum **Ráðlagðir reitir** eða **Allir reitir**. Eftir að þú hefur valið æskilega reiti skaltu velja **Uppfæra**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+    - Listinn **Ráðlagðir reitir** sýnir reiti sem aðrir notendur í fyrirtækinu hafa þegar bætt við. Þessi listi yfir reiti er uppfærður miðað við tíðni endurtekninga á **Runuvinnslu tillögu**. Svipuð reynsla er til staðar þegar nýjum síureitum er bætt við með síusvæðinu á síðunni.
 - Nota **Færa** verkfærið til að færa einingar á annan stað í núverandi hóp eininga. Athugaðu að ekki er hægt að færa einingu utan yfirhóps hennar. Til að nota þetta tól velurðu hnappinn **Flytja** á verkfæraslánni og síðan einingu sem á að flytja. Þegar þú velur einingu ákvarðar forritið staðsetningar þar sem flytja má eininguna. Þessir staðir eru þekktir sem *sleppisvæði*. Þegar þú færir eininguna til í núverandi hóp er hvert sleppisvæði sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum í samantekt flýtiflipa.

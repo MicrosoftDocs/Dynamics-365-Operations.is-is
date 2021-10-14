@@ -1,7 +1,7 @@
 ---
 title: Afturkalla þjónustupantanir
 description: Þú getur hætt við þjónustupöntun eða þjónustupöntunarlínu frá þjónustupöntuninni sjálfri, eða þú getur hætt við margar þjónustupantanir með því að keyra reglubundna vinnslu.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0342e2ea53f404be2148fa377f1bd29fca2c295c42bcb6a6315855371c6b9fb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca6c34bb43702e2c33935a73dc24f1a630065c0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742633"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571522"
 ---
 # <a name="cancel-service-orders"></a>Afturkalla þjónustupantanir   
 
