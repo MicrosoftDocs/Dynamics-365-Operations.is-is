@@ -1,7 +1,7 @@
 ---
 title: Yfirlit þjónustusamninga
-description: Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga.
-author: ShylaThompson
+description: Í þessu efnisatriði er að finna yfirlit yfir hvernig þjónustusamningar virka.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3baaccf490af8231ca4389fa409b71f6286ff8d37bdcde78d8af95916d55cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82cb77dbeb03a2d43ec5a6f797d11984a33b6698
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734092"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578705"
 ---
 # <a name="service-agreements-overview"></a>Yfirlit þjónustusamninga
 
@@ -32,9 +32,9 @@ ms.locfileid: "6734092"
 
 ## <a name="example"></a>Dæmi
 
--  Hægt er að flokka þjónustusamningana samkvæmt stigi þeirrar þjónustu sem er boðið upp á. 
--  Samningaflokkarnir þrír sem eru settir upp í fyrirtækinu eru gull, silfur og brons.
--  Nýr þjónustulykilsstjóri hefur verið tekinn í gagnið í fyrirtækinu. Þjónustustjórinn ber ábyrgð á því að meðhöndla alla biðlara í gull-samningsflokknum. Hægt er að sía samningsfærslur í gull-samningsflokknum til að finna alla samningana sem þarf að tilgreina nýja þjónustustjóranum sem er einstaklingurinn við stjórn.
+- Hægt er að flokka þjónustusamningana samkvæmt stigi þeirrar þjónustu sem er boðið upp á.
+- Samningaflokkarnir þrír sem eru settir upp í fyrirtækinu eru gull, silfur og brons.
+- Nýr þjónustulykilsstjóri hefur verið tekinn í gagnið í fyrirtækinu. Þjónustustjórinn ber ábyrgð á því að meðhöndla alla biðlara í gull-samningsflokknum. Hægt er að sía samningsfærslur í gull-samningsflokknum til að finna alla samningana sem þarf að tilgreina nýja þjónustustjóranum sem er einstaklingurinn við stjórn.
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 

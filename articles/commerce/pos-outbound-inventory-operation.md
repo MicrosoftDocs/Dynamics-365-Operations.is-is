@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772279"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581138"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Birgðaaðgerð á útleið á sölustað
 
@@ -116,7 +116,7 @@ Hver skönnun á strikamerki uppfærir magnið í reitnum **Sendingar núna** um
 
 ### <a name="over-delivery-shipping-validations"></a>Staðfestingar á sendingum ofafhendingar
 
-Villuleitir eiga sér stað í móttökuferli skjalalínanna. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að fá meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða magnið sem er móttekið fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir innkaupapöntunarlínuna, fær notandinn villu og er ekki leyft að taka á móti umframmagni.
+Villuleitir eiga sér stað í uppfyllingarferlinu fyrir skjalalínurnar. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að senda meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða magnið sem er sent fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir flutningspöntunarlínuna, fær notandinn villu og er ekki leyft að senda umframmagni.
 
 ### <a name="underdelivery-close-lines"></a>Lokalínur vanafhendingar
 

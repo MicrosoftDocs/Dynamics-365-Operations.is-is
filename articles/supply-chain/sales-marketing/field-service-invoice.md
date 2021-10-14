@@ -1,7 +1,7 @@
 ---
 title: Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga í Dynamic 365 Field Service við reikninga með frjálsum texta í Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8fffa2bfc0bd7a1fa479c63f0f4d20b5c3ae37c93317a18a67202968b6acf405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 07664b725d19c7d262cc63dc116e4e102daa3be4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753916"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576641"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
 

@@ -1,7 +1,7 @@
 ---
 title: Yfirlit yfir þjónustuhluti
-description: Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við.
-author: ShylaThompson
+description: Þetta efnisatriði veitir yfirsýn yfir hvernig á að vinna með þjónustuhluti.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 161d17d14af6351409e2405ae104f2b87e363ce349dd9b8e26d2c14e5fb9fa14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cf5e146bb7eab4df5807c6a55f773bfb31a4c5e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770169"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571378"
 ---
 # <a name="service-objects-overview"></a>Yfirlit yfir þjónustuhluti
 
@@ -32,7 +32,7 @@ ms.locfileid: "6770169"
 
     Áþreifanlegur þjónustuhlutur getur einnig verið birgðavara sem er stofnuð í skjámyndinni Upplýsingar um losaða afurð. Eftir birgðavíddarflokkurinn sem er tengdur vörunni, hægt er að stofna þjónustuhlut upplýsingastigi sem inniheldur raðnúmer vöru. Þetta er gagnlegt ef um er að fylgjast með nákvæma vöruna sem táknar þann þjónustuhlut.
 
-    Efnislegar þjónustuhlut getur einnig verið vara sem er ekki beint tengdur framleiðsla fyrirtækis eða birgðakeðju. Til dæmis verkfæri setts sem er notað fyrir viðgerðir í þjónustupöntun getur þjónustuhlut sem er ekki í birgðum. Í þessu tilfelli skrárðu það ekki sem birgðavöru.
+    Efnislegar þjónustuhlut getur einnig verið vara sem er ekki beint tengdur framleiðsla fyrirtækis eða birgðakeðju. Til dæmis verkfæri setts sem er notað fyrir viðgerðir í þjónustupöntun getur þjónustuhlut sem er ekki í birgðum. Í þessu tilfelli er það ekki skráð sem birgðavara.
 
 -  Óáþreifanlegir hlutir eru óefnislegir hlutir, eins og reikningsflokkur eða lagalegt fylgiskjal, sem hægt er að framkvæma þjónustuverk fyrir.
 

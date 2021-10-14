@@ -1,7 +1,7 @@
 ---
 title: Setja upp endurúthlutun fyrir stutta vörutiltekt
 description: Í þessu efnisatriði er sýnt hvernig á að gera starfsmönnum vöruhúss kleift að finna aðrar staðsetningar á fljótlegan hátt ef ekki eru nægar birgðir á staðsetningunni sem þeim var vísað á.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84cefe723cff9566ed3004e49f1e829020bc0d416cd0b29258c21222fbeb05ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe17246037a35e44d12476f184af3bd4c806022
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741885"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565233"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Setja upp endurúthlutun fyrir stutta vörutiltekt
 

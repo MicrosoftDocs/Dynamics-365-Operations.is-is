@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386339"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594832"
 ---
 # <a name="model-management-lifecycle"></a>Stuðningstími fyrir stjórnun líkans
 
@@ -32,4 +32,4 @@ Við mælum með því að þú þjálfir AI-líkanið í sandkassaumhverfi og n
 
 Þar sem AI-líkanið er byggt á fyrirliggjandi reikningi og gögnum viðskiptavina er mikilvægt að sandkassaumhverfið sé með nýlegt afrit af framleiðslugögnunum. Þú getur byrjað á því að þjálfa líkanið þitt með því að fylgja skrefunum í [Nota greiðsluspár viðskiptavina](use-customer-payment-predictions.md). Eftir að líkanið hefur verið endurþjálfað skaltu meta niðurstöðurnar eins og lýst er í [Leggja mat á upprunalega greiðsluspá viðskiptavinarins](evaluate-payment-prediction.md). Notaðu upplýsingarnar í [Bæta spálíkanið](improve-model.md) til að prófa þig áfram með samsetningar eiginleika og síu sem getur hjálpað til við að bæta líkanið.
 
-Þegar niðurstöður þjálfunarinnar eru fullnægjandi skaltu fylgja þessum skrefum í [Dreifa AI-líkaninu](https://docs.microsoft.com/ai-builder/distribute-model) til að flytja líkanið í vinnsluumhverfið.
+Þegar niðurstöður þjálfunarinnar eru fullnægjandi skaltu fylgja þessum skrefum í [Dreifa AI-líkaninu](/ai-builder/distribute-model) til að flytja líkanið í vinnsluumhverfið.

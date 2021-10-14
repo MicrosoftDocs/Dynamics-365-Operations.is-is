@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761975"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559510"
 ---
 # <a name="payroll-worker-address"></a>Heimilisfang starfskrafts á launaskrá
 
@@ -34,22 +34,28 @@ Efnislegt heiti: mshr_payrollworkeraddressentity.
 
 ## <a name="properties"></a>Eiginleikar
 
-| Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | lýsing |
+| Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | Lýsing |
 | --- | --- | --- |
-| **Póststöð**</br>mshr_city</br>*Strengur* | Lesa eingöngu</br>Krafa | Borgin sem er skilgreind fyrir aðsetrið.   |
-| **Númer starfsmanns**</br>mshr_personnelnumber</br>*Strengur* | Lesa eingöngu</br>Krafa | Einkvæmt númer starfsmanns.  |
-| **Landsvæði**</br>mshr_countryregionid</br>*Strengur* | Lesa eingöngu</br>Krafa | Landsvæðið sem er skilgreint fyrir heimilisfangið.  |
-| **Gildir frá**</br>mshr_postaladdressvalidfrom</br>*Mótfærð dagsetning og tími* | Lesa eingöngu </br>Krafa | Dagsetningin sem aðsetrið gildir frá. |
-| **Starfað á aðsetri** </br> mshr_isworkedinaddressbr </br>*[Valmöguleikar mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lesa eingöngu</br>Krafa | Táknar hvort starfsmaðurinn starfi á viðkomandi heimilisfangi. |
-| **Sýsla**</br>mshr_county</br>*Strengur* | Lesa eingöngu</br>Krafa | Sýsla sem er skilgreind fyrir aðsetrið.  |
-| **Kenni heimilisfangs starfskrafts á launaskrá**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Krafa</br>Búið til af kerfi | GUID-gildi myndað af kerfinu til að auðkenna heimilisfang á einkvæman hátt.  |
-| **Aðalsvæði**</br>mshr_primaryfield</br>*Strengur* | Lesa eingöngu</br>Krafa |  |
-| **Gata**</br>mshr_street</br>*Strengur* | Lesa eingöngu</br>Krafa | Gatan sem er skilgreind fyrir aðsetrið. |
-| **Gildir til**</br>mshr_postaladdressvalidto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu </br>Krafa | Dagsetningin sem aðsetrið gildir til.  |
-| **Staðsetningarkenni**</br>mshr_locationidbr>*String* | Lesa eingöngu <br>Krafa | Auðkenni aðsetursins.  |
-| **Póstnúmer**</br>mshr_zipcode<br>*Strengur* | Lesa eingöngu <br>Krafa |Auðkennisnúmerið sem er skilgreint fyrir starfsmanninn.  |
-| **Bjó á aðsetri**</br>mshr_islivedinaddressbr </br> *[Valmöguleikar mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lesa eingöngu</br>Krafa | Táknar hvort starfsmaðurinn búi á viðkomandi heimilisfangi. |
-| **Ríki**</br>mshr_state</br>*Strengur* | Lesa eingöngu</br>Krafa | Fylkið sem er skilgreint fyrir aðsetrið.  |
+| **Númer starfsmanns**</br>mshr_personnelnumber</br>*Strengur* | Lesa eingöngu | Einkvæmt númer starfsmanns. |
+| **Staðsetningarkenni**</br>mshr_locationidbr>*String* | Lesa eingöngu | Auðkenni aðsetursins. |
+| **Bjó á aðsetri**</br>mshr_islivedinaddressbr </br> *[Valmöguleikar mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lesa eingöngu | Gild sem gefur til kynna hvort starfsmaðurinn búi á viðkomandi heimilisfangi. |
+| **Starfað á aðsetri** </br> mshr_isworkedinaddressbr </br>*[Valmöguleikar mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Lesa eingöngu | Gild sem gefur til kynna hvort starfsmaðurinn vinni á viðkomandi heimilisfangi. |
+| **Landsvæði**</br>mshr_countryregionid</br>*Strengur* | Lesa eingöngu</br>Krafa | Landið eða svæðið sem er skilgreint fyrir heimilisfangið. |
+| **Póstnúmer**</br>mshr_zipcode<br>*Strengur* | Lesa eingöngu | Auðkennisnúmerið sem er skilgreint fyrir starfsmanninn. |
+| **Gata**</br>mshr_street</br>*Strengur* | Lesa eingöngu | Gatan sem er skilgreind fyrir heimilisfangið. |
+| **Borg**</br>mshr_city</br>*Strengur* | Lesa eingöngu | Borgin sem er skilgreind fyrir heimilisfangið. |
+| **Ríki**</br>mshr_state</br>*Strengur* | Lesa eingöngu | Ríki eða hérað sem er skilgreint fyrir heimilisfangið. |
+| **Sýsla**</br>mshr_county</br>*Strengur* | Lesa eingöngu | Sýsla sem skilgreind er fyrir heimilisfangið. |
+| **Gildir frá**</br>mshr_postaladdressvalidfrom</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem heimilisfangið gildir frá. |
+| **Gildir til**</br>mshr_postaladdressvalidto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem heimilisfangið gildir til. |
+| **Aðalsvæði**</br>mshr_primaryfield</br>*Strengur* | Lesa eingöngu | Aðalreiturinn. |
+| **Kenni heimilisfangs starfskrafts á launaskrá**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Búið til af kerfi | Altækt einkvæmt kennimerki (GUID-gildi) myndað af kerfinu til að auðkenna heimilisfang á einkvæman hátt. |
+
+## <a name="relations"></a>Vensl
+
+| Gildi eiginleika | Tengdur aðili | Yfirlitseiginleiki | Tegund innheimtu |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Dæmi um fyrirspurn
 

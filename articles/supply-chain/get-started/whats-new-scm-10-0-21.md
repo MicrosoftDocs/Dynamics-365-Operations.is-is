@@ -4,18 +4,18 @@ description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttu
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500556"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579737"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 
@@ -26,20 +26,6 @@ ms.locfileid: "7500556"
 - **Forskoðun á útgáfu:** ágúst 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** September 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Október 2021
-
-## <a name="known-deployment-issue"></a>Þekkt vandamál við innleiðingu
-
-Við uppsetningu útgáfu 10.0.21 á IaaS gætir þú fengið eftirfarandi viðvörun vegna uppsetningar:
-
-**Viðvaranakóði:** 95017
-
-**Viðvörunarboð:** Ekki tókst að keyra forskrift \[SetupDiagnostics\] á móti sýndarvél
-
-Uppsetningin mun virka þrátt fyrir viðvörunina. En eftirfarandi þekkt vandamál geta hinsvegar komið upp í Lifecycle Services (LCS):
-
-- Á síðunni **Eftirlit með umhverfi** mun tengillinn **Skoða ítarlegar upplýsingar um útgáfu** ekki birtast þannig að þú getur ekki séð tilteknar útgáfur af uppsettum einingum í umhverfinu þínu. Án þessara gagna gætu næstu bráðabætur mislukkast vegna þess að ferlið sem setur á bráðabæturnar notar þessi gögn til að staðfesta að skilyrði einingaútgáfunnar séu uppfyllt. Þar sem ekki er hægt að nota PEAP/forútgáfusmíð í framleiðslu eða nota bráðabætur, ættu áhrifin að vera minniháttar.
-- Fliparnir **Afkastavísar** og **Yfirlitsgreining** á síðunni **Eftirlit með umhverfi** undir SQL-innsýn munu ekki sýna nein gögn. Allir aðrir eiginleikar **eftirlits með umhverfi** munu virka sem skyldi.
-- Ekki verður hægt að fara á síðuna **Full kerfisgreining**. Tilheyrandi gögn um stöðu innheimtukeyrslna að næturlagi og vandamál sem reglur hennar finna munu ekki heldur koma fram.
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 

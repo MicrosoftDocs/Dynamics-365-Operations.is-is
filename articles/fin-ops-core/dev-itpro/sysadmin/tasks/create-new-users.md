@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733686"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595387"
 ---
 # <a name="create-new-users"></a>Búa til nýja notendur
 
@@ -29,7 +29,7 @@ ms.locfileid: "6733686"
 Upplýsingar um hvernig á að kaupa og veita leyfi fyrir Finance and Operations-forrit er að finna í [Leyfishandbók Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Úthluta leyfi til notanda
-Kerfisstjórar geta það [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) í [stjórnunarmiðstöð Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Kerfisstjórar geta það [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) í [stjórnunarmiðstöð Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Bæta ytri notanda við Azure AD og úthluta leyfi 
 Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](/azure/active-directory/b2b/add-users-administrator).

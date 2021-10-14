@@ -1,7 +1,7 @@
 ---
 title: Birgðabækur
 description: Í þessu efnisatriði er fjallað um hvernig hægt er að nota birgðabækur til að bóka ýmsar gerðir af efnislegum birgðafærslum.
-author: perlynne
+author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a655b91af6515d856418c5e21d012c3705e25dfa5fa2d0151a6de34a9ce68170
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741310"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573970"
 ---
 # <a name="inventory-journals"></a>Birgðabækur
 

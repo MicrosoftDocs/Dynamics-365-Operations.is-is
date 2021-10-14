@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774970"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557393"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Altækt birgðabókhald – heimasíða
 
@@ -46,8 +46,11 @@ Alþjóðlegt birgðabókhald er sem stendur í boði á eftirfarandi svæðum A
 - Bretland
 - Ástralía
 - Kanada
+- Suður-Ameríka
 
 Ef reynt er að setja upp innbæturnar af öðru svæði birtir Microsoft Dynamics LCS skilaboð um að svæðið sé ekki stutt. Alþjóðlegt birgðabókhald styður ekki við uppsetningar á staðnum fyrir Supply Chain Management.
+
+Ef þú lendir í vandræðum með að virkja altækt birgðabókhald á einhverju af þeim studdu landsvæðum sem gefin eru upp hér skaltu senda tölvupóst með umhverfiskenninu þínum á [Teymi altæks birgðabókhalds](mailto:GlobalInvAccount@microsoft.com) til staðfestingar.
 
 ## <a name="licensing"></a>Leyfisveiting
 

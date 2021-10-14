@@ -1,8 +1,8 @@
 ---
 title: Vinnusvæði fríðindastjórnunar
 description: Þetta efnisatriði lýsir Fríðindastjórnun vinnusvæðinu í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719093"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512475"
 ---
 # <a name="benefits-management-workspace"></a>Vinnusvæði fríðindastjórnunar
 
@@ -60,7 +60,7 @@ Ef þú velur spjald ferðu á síðuna fyrir það svæði. Til dæmis ef einhv
 
 ![Fríðindaáætlanir starfskrafts.](./media/hr-benefits-management-workspace-plans.png)
 
-Ef reitirnir **Virkir viðburðir** eða **Viðburðir í framtíðinni** eru valdir verður farið yfir á lista yfir virka viðburði og viðburði í framtíðinni.
+Ef **Virkir viðburðir** eða **Viðburðir í framtíðinni** er valið verður farið yfir á lista yfir virka viðburði og viðburði í framtíðinni.
 
 ![Viðburðir.](./media/hr-benefits-management-workspace-life-events.png)
 
@@ -88,9 +88,42 @@ Til að skoða annað fríðindatímabil skal velja það úr fellilistanum **T�
 
 ![Breyta tímabili.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Opna skráningarflipa
+
+Hægt er að skoða aðgerðaatriðin með því að velja reit eða flipa. Ef flipi er valinn er hægt að skoða og velja starfsmenn á síðu vinnusvæðisins.
+Í flipanum **Opin skráning** eru lykilmælikvarðar fyrir opna skráningarferlið. 
+
+Upplýsingar um opna skráningu birtast 30 dögum fyrir **Upphafsdag skráningar**. Þetta er skilgreint í uppsetningu **Tímabila** í **Fríðindastjórnun** > **Tenglar** > **Tímabil** í reitnum **Upphafsdagur skráningar**.  Til að breyta þessari stillingu skal fara í **Samnýttar færibreytur fyrir mannauð** > **Fríðindastjórnun** > **Valkostir opinnar skráningar** og uppfæra reitinn **Fjöldi af**.  
+
+Eftirfarandi upplýsingar eru tiltækar í flipanum **Opin skráning**:
+ - Starfsmenn sem hafa ekki hafið opna skráningarferlið
+ - Starfsfólk sem er að kjósa
+ - Starfsfólk sem hefur lokið við að kjósa
+ - Óstaðfest val
+
+**Samantektarreitir**
+
+- **Ekki hafið** – Reiturinn **Ekki hafið** sýnir fjölda starfsmanna sem hafa ekki hafið skráningarferlið. Reiturinn **Ekki hafið** er síaður listi sem sýnir aðeins starfsmenn sem eru ekki með neinar áætlanir valdar, felldar niður eða útskráðar fyrir tímabil opinnar skráningaráætlunar. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn.  Þú getur rakið þig til baka í þennan reit til að sjá lista yfir starfsmenn sem hafa ekki hafið opið skráningarferli á síðunni **Fríðindaáætlun starfsmanns**.
+
+  > [!NOTE]
+  > Ef þú vilt ekki fylgjast með framgangi opinnar skráningar fyrir **Áætlunargerð** getur þú útilokað hana með því að fara í **Fríðindastjórnun** > **Tenglar** > **Færibreytur sjálfsafgreiðslu starfsmanns** > **Uppsetning reita fyrir fríðindaáætlanir** og uppfæra reitinn **Rekja framgang opinnar skráningar**.  Þú gætir til dæmis hafa búið til áætlanir þar sem er **Áætlunargerð** = **Önnur**. Þessar áætlanir gætu verið valfrjálsar áætlanir sem þú vilt ekki fylgjast með framgangi skráningar. Ef þú velur ekki þessa áætlunargerð verða áætlanir af þessari gerð hunsaðar þegar rakin er framvinda eða lok skráningar í flipanum **Opin skráning**. Þessi stilling á við um áætlunargerðina sem er valin fyrir öll tímabil og lögaðila.
+
+- **Í vinnslu** – Reiturinn **Í vinnslu** gefur upp fjölda starfsmanna sem eru með val í vinnslu. Reiturinn **Í vinnslu** er síaður listi sem sýnir aðeins starfsmenn sem eru með a.m.k. eina niðurfellda eða valda áætlun. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn. Þú getur rakið þig til baka úr þessum reit til að sjá valdar og niðurfelldar áætlanir á síðunni **Magnuppfærsla fríðindaáætlana starfskrafts**.
+
+- **Skráður í fríðindi** – Reiturinn **Skráður í fríðindi** gefur upp fjölda starfsmanna sem eru að fullu skráðir í fríðindi. Reiturinn **Skráður í fríðindi** er síaður listi sem sýnir starfsmenn sem hafa annaðhvort valið eða fellt niður allar áætlanir. Fyrirspurnin mun útiloka áætlanir þar sem opin skráning er ekki rakin á síðunni **Færibreytur sjálfsafgreiðslu starfsmanns**. Þú getur rakið þig til baka úr þessum reit til að sjá lista yfir starfsmenn á síðunni **Fríðindaáætlanir starfskrafts**.
+
+- **Óstaðfest val** – Reiturinn **Óstaðfest val** sýnir fjölda starfsmanna sem eru með áætlanir sem eru valdar eða niðurfelldar og þurfa staðfestingu. Þú getur rakið þig til baka úr þessum reit til að sýna síðuna **Magnuppfærsla fríðindaáætlana starfskrafts**.
+
+**Aðgerð**
+
+- **Ekki hafið** - Flipinn **Ekki hafið** sýnir lista yfir starfsmenn sem hafa ekki hafið skráningarferlið. Reiturinn **Ekki hafið** er síaður listi sem sýnir starfsmenn sem eru ekki með neinar áætlanir valdar, felldar niður eða útskráðar fyrir tímabil opinnar skráningaráætlunar. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn. Þú getur rakið þig til baka á starfsmanninn til að sýna síðuna **Upplýsingar um fríðindaáætlanir starfskrafts**.
+
+- **Val í vinnslu** - Flipinn **Val í vinnslu** sýnir lista yfir starfsmenn sem eru með val í vinnslu. Reiturinn **Val í vinnslu** er síaður listi sem sýnir starfsmenn sem eru með a.m.k. eina niðurfellda eða valda áætlun. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn. Þú getur rakið þig til baka á starfsmanninn til að sýna síðuna **Upplýsingar um fríðindaáætlanir starfskrafts**.
+
 ## <a name="view-more-options"></a>Skoða fleiri valkosti
 
-Til að skoða nánari upplýsingar og aðgerðir sem hægt er að nota skal velja **Tenglar**.
+Til að sjá frekari upplýsingar og/eða frekari aðgerðir skal velja **Tenglar**.
 
 ![Tenglar.](./media/hr-benefits-management-workspace-links.png)
 

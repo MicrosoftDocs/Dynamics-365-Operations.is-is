@@ -2,19 +2,19 @@
 title: Lýsing á þjónustu fyrir Finance and Operations-forrit
 description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472506"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581817"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
 
@@ -28,7 +28,7 @@ Finance and Operations-forritin eru bókhalds- og áætlunargerðarhugbúnaður 
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [tölvukerfi](https://azure.microsoft.com/global-infrastructure/), [reikningsgetu](/azure/service-fabric/service-fabric-overview) og [gagnagrunnsþjónustum](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) gera þessi forrit stofnunum/fyrirtækjum kleift að keyra iðnaðar- og rekstrarferli. Viðskiptavinir, með stuðningi innleiðingaraðila, ákvarða stillingar á rökum viðskiptaforritsins sem henta best einstökum viðskiptaferlum þeirra. Hægt er að auka eða lengja virkni og viðskiptaferli með einni eða fleiri af eftirfarandi lausnum:
+Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [tölvukerfi](https://azure.microsoft.com/global-infrastructure/), [reikningsgetu](/azure/service-fabric/service-fabric-overview) og [gagnagrunnsþjónustum](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/) gera þessi forrit stofnunum/fyrirtækjum kleift að keyra iðnaðar- og rekstrarferli. Viðskiptavinir, með stuðningi innleiðingaraðila, ákvarða stillingar á rökum viðskiptaforritsins sem henta best einstökum viðskiptaferlum þeirra. Hægt er að auka eða lengja virkni og viðskiptaferli með einni eða fleiri af eftirfarandi lausnum:
 
 - Innbyggð [sérsniðna upplifun](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-verkfæri
@@ -197,17 +197,17 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 | Úthluta öllum framleiðslutilvikum og tilvikum sem tengjast ekki framleiðslu. | X | |
 | Sannreyna uppsett framleiðslutilvik og tilvik sem ekki tengjast framleiðslu. | | X |
 | **Þjónustuuppfærslur** | |
-| Microsoft beitir þjónustuuppfærslum á tilgreind tilvik sem tengjast ekki framleiðslu sem og framleiðslutilvik. | X | X |
-| Sæktu uppfærsluna frá LCS, skilgreindu, þróaðu og prófaðu uppfærsluna og láttu uppfærslupakkakóðann aftur í LCS. | | X |
-| Óska eftir því að uppfærslur viðbóta verði notaðar á framleiðslutilvikið. | | X |
+| Notið þjónustuuppfærslur á tilgreind tilvik sem tengjast ekki framleiðslu sem og framleiðslutilvik. | X | |
+| Komdu á þjónustuuppfærslum handvirkt úr LCS í sandkassatilfelli. Skilgreindu, þróaðu og prófaðu uppfærsluna og færðu uppfærslupakka kóðans aftur í LCS. | | X |
+| Óska eftir og tímasettu hvenær uppfærslur viðbóta verða notaðar í framleiðslutilvikið. | | X |
 | Búa til kóða og taka öryggisafrit af gögnum fyrir framleiðslutilvikið áður en uppfærslur eru gerðar. | X | |
 | Ef um bilun er að ræða skal endurheimta framleiðslutilvikið með kóðanum og öryggisafritinu. | X | |
 | **Stjórnun gagna (taka öryggisafrit, endurheimta og uppfæra)** | | |
 | Gerið öryggisafrit af gagnagrunninum. | X | |
 | Ákveðið mikið framboð og viðbragðsáætlun vegna hamfara. | X | |
-| Fylgjast með afköstum gagnagrunns framleiðslutilvika. | X | X |
-| Stillið gagnagrunn framleiðslutilvika fyrir afköst. | X | X |
-| Hefja afritun á gagnagrunni framleiðslutilviks í tilvik sem ekki tengist framleiðslu. | | X |
+| Fylgjast með afköstum gagnagrunns framleiðslutilvika. | X | |
+| Stillið gagnagrunn framleiðslutilvika fyrir afköst. | X | |
+| Framkvæmdu uppfærslu á tímapunkti í gagnagrunni framleiðslutilviks í tilviki sem er ekki framleiðslutilvik. | | X |
 | **Uppfærsla tölvukerfa** | | |
 | Skipuleggja reglulegar uppfærslur á tölvukerfi. | X | |
 | **Stækka og minnka (notendur, geymsla og tilvik)** | | |
@@ -215,7 +215,7 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 | Uppfæra breytingar á notkun í LCS-áskriftarmatstækinu. | | X |
 | Tilkynntu um veruleg afkastavandamál sem hafa áhrif á notkun þjónustunnar. | | X |
 | Stjórnið tilföngum sem eru nauðsynleg fyrir viðeigandi þjónustu. | X | |
-| Rannsaka og bilanagreina atvik. | X | X |
+| Rannsaka og bilanagreina atvik. | X | |
 | **Öryggi (aðgangur notanda)** | | |
 | Veita notanda aðgang að þjónustunni. | | X |
 | Veita LCS-verki aðgang að stjórnun og virkni tilvika sem voru sett upp í gegnum LCS. | | X |

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767952"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592629"
 ---
 # <a name="confirm-and-transfer"></a>Staðfesta og flytja
 
@@ -45,8 +45,8 @@ Aðeins er hægt að skipta upp farmi sem uppfyllir öll eftirfarandi skilyrði:
 
 - Ein eða fleiri farmlínur eru með tínt magn.
 - Hleðslustaðan er minni en það sem hlaðið er.
-- Engin farmlínugögn eru til. (Þessi gögn eru stofnuð í gegnum sameiningu númeraplötu á geymslustaðsetningu og eiginleikinn *Staðfesta og flytja* styður ekki sameiningu númeraplötu.)
-- Engar birgðir bíða pökkunar á pökkunarstaðsetningu sem stendur. (Eiginleikinn *Staðfesta og flytja* styður ekki birgðir sem hafa verið tíndar yfir á pökkunarstöðina en hefur ekki verið pakkað ennþá.)
+- Engin farmlínugögn eru til. (Þessi gögn eru stofnuð í gegnum sameiningu númeraplötu á geymslustaðsetningu og eiginleikinn Staðfesta og flytja styður ekki sameiningu númeraplötu.)
+- Engar birgðir bíða pökkunar á pökkunarstaðsetningu sem stendur. (Eiginleikinn *Staðfesta og flytja* styður ekki birgðir sem hafa verið tíndar yfir á pökkunarstöðina en hefur ekki verið pakkað ennþá nema ef gámar sem hafa verið pakkaðir eru staðsettir á geymslustaðsetningum með hleðsluvinnu stofnaða.)
 
 > [!NOTE]
 > Þessi virkni er frábrugðin virkni farmflutnings, sem ætti að nota í vöruhúsum sem geta aldrei áætlað og búið til farm á undan tiltekt, en í staðinn hlaða tiltækt flutningspláss eftir að tiltekt lýkur.

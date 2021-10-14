@@ -1,6 +1,6 @@
 ---
 title: Skoða stöðu kostnaðarhlutar
-description: Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+description: Þetta efnisatriði lýsir því hvernig á að skoða stöðu kostnaðarhlutar
 author: AndersGirke
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f908fa9120a91d19040906c8aef7f137f78cdfc45215287db373e79295c1bad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a21588d3ab377f6e7bc2432599506c81efcdcb5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753349"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568928"
 ---
 # <a name="view-cost-object-balance"></a>Skoða stöðu kostnaðarhlutar
 
@@ -27,15 +27,15 @@ ms.locfileid: "6753349"
 
 Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir fjármálastjóra kostnaðar.
 
-1. Smellt er á kostnaðarstjórnun.
-2. Smella á Útgefnar afurðir.
-3. Nota flýtiafmörkun til að sía í reitnum vörunúmer með gildið „m0004“.
-4. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
-5. Smellt er á kostnaðarhlutur.
-6. Smellt er á Efnislegt magn
-7. Smellt er á skjámyndina Vídd.
-8. Hreinsa gátreitinn fyrir Staðsetningu.
-9. Smellið á „Í lagi“.
+1. Veljið **kostnaðarstjórnun**.
+2. Veljið **Útgefnar afurðir**.
+3. Nota flýtiafmörkun til að sía í reitnum **vörunúmer** með gildið *m0004*.
+4. Í aðgerðasvæðinu skal velja **Stjórna kostnaði**.
+5. Velja **Kostnaðarhlutir**.
+6. Veljið **Efnislegt magn**.
+7. Veljið **Víddabirting**.
+8. Hreinsa gátreitinn fyrir **Staðsetning**.
+9. Veldu **Í lagi**.
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Samþættingu við yfirlit yfir Microsoft Dynamics 365 Field Service
 description: Þetta efnisatriði veitir yfirlit yfir samþættingu við Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761759"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566456"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Samþættingu við yfirlit yfir Microsoft Dynamics 365 Field Service
 
@@ -58,7 +58,7 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 - Verkefni Supply Chain Management tengd verkbeiðnir Dynamics 365 Field Service
 - Dynamics 365 Field Service vinnupantanir með tengli við verk Supply Chain Management, nota þetta verknúmer á sölupöntun til að gera reikningsfærslu úr verkinu mögulega. 
 
-![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSv2overview.png)
+![Samstilling viðskiptaferla milli Supply Chain Management og Field Service, þ.m.t. upplýsingar um birgðir og verk.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Seinni áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu við eftirfarandi sniðmát:
 - Vöruhús (Framboðsstjórnun að sviði þjónustu) - Vöruhús frá Supply Chain Management til Field Service [Ítarleg fyrirspurn] 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343813"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594858"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
 
@@ -30,7 +30,7 @@ ms.locfileid: "7343813"
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
-Finance and Operations-forrit innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [https://docs.microsoft.com/dynamics365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
+Finance and Operations-forrit innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [Fylgiskjöl Microsoft Dynamics 365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
 
 [![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -39,7 +39,7 @@ Hjálparkerfi vörunnar sækir greinar á docs.microsoft.com og önnur tengd vef
 ## <a name="adding-task-guides"></a>Verkefnaleiðbeiningum bætt við
 
 > [!NOTE]
-> Flipinn **Verkefnaleiðbeiningar** er ekki til staðar í „Human Resources“ eða „Commerce“. <!--We are currently working to enable this functionality in a future release.--> Hins vegar eru verkefnaleiðbeiningarnar „Hafist handa“ í „Human Resources“ til staðar og þar er að finna upplýsingar um grunnvirknina. Hjálparleiðbeiningar eru í boði á vefsvæðinu [https://docs.microsoft.com/dynamics365](/dynamics365/) fyrir bæði „Human Resources“ og „Commerce“.
+> Flipinn **Verkefnaleiðbeiningar** er ekki til staðar í „Human Resources“ eða „Commerce“. <!--We are currently working to enable this functionality in a future release.--> Hins vegar eru verkefnaleiðbeiningarnar „Hafist handa“ í „Human Resources“ til staðar og þar er að finna upplýsingar um grunnvirknina. Hjálparleiðbeiningar eru í boði á vefsvæðinu [Fylgiskjöl Microsoft Dynamics 365](/dynamics365/) fyrir bæði „Human Resources“ og „Commerce“.
 
 Á síðunni **Kerfisfæribreytur** geta kerfisstjórar skilgreint aðgang að viðeigandi verkleiðbeiningasöfnum fyrir innleiðingu.
 

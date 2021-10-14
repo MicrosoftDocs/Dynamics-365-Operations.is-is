@@ -1,7 +1,7 @@
 ---
 title: Samstilla vinnupantanir við verk úr Field Service í Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vinnupantanir með verknúmeri úr Dynamics 365 Field Service við Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1b953e7649e0a88a31b40aa21de9296f4591904d7629cb12eb10f36091c33bc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0b3214aba5882a585664030d6c1aebe34de455c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779981"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572530"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Samstilla vinnupantanir við verk úr Field Service í Supply Chain Management
 
@@ -61,19 +61,19 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Verkbeiðnir við verk úr (Field Service í Supply Chain Management): WorkOrderHeader
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Sniðmátsvörpun í gagnasamþættingu, verkbeiðnir með Project (Field Service til Supply Chain Management): WorkOrderHeader.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Verkbeiðnir við verk úr (Field Service í Supply Chain Management): WorkOrderHeaderProject
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Sniðmátsvörpun í gagnasamþættingu, verkbeiðnir með Project (Field Service til Supply Chain Management): WorkOrderHeaderProject.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Verkbeiðnir við verk úr (Field Service í Supply Chain Management): WorkOrderProduct
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Sniðmátsvörpun í gagnasamþættingu, verkbeiðnir með Project (Field Service til Supply Chain Management): WorkOrderProduct.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Verkbeiðnir við verk úr (Field Service í Supply Chain Management): WorkOrderService
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Sniðmátsvörpun í gagnasamþættingu, verkbeiðnir með Project (Field Service til Supply Chain Management): WorkOrderService.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

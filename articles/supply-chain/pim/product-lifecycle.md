@@ -1,7 +1,7 @@
 ---
 title: Yfirlit yfir líftímastöðu afurðar
 description: Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.
-author: cvocph
+author: t-benebo
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 90bf5187d815945949aa93fc46a27dda7b79daeb072f7f8a678885b2f3a99fee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae9e8201caac259e9e8ddd618fe0220933e31658
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765467"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578249"
 ---
 # <a name="product-lifecycle-state-overview"></a>Yfirlit yfir líftímastöðu afurðar
 
