@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343861"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595204"
 ---
 # <a name="email-er-destination-type"></a>Tölvupóstur ER-gerð áfangastaðar
 
@@ -75,7 +75,7 @@ Hægt er að tilgreina senda og viðtakendur tölvupóstsins. Tölvupóstur er s
 >
 > Þegar boðið er upp á að breyta áfangastaði tölvupósts á [keyrslutíma](electronic-reporting-destinations.md#security-considerations) er reiturinn **Frá** aðeins sýnilegur notendum sem eru með `ERFormatDestinationSenderEmailMaintain` öryggisréttindi, **Vinna með netfang sendanda fyrir viðtökustað rafræns skýrslugerðarsniðs**.
 >
-> Þegar reiturinn **Frá** er stilltur til að nota annað netfang en núverandi notanda þarf heimildin **Senda sem** eða **Senda fyrir hönd** að vera rétt [stillt](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) fyrirfram. Annars er eftirfarandi undantekning notuð við keyrslu: „Ekki er hægt að senda tölvupóst sem \<from email account\> úr \<current user account\> reikningnum, athugið heimildir fyrir „Senda sem“ á \<from email account\>.“
+> Þegar reiturinn **Frá** er stilltur til að nota annað netfang en núverandi notanda þarf heimildin **Senda sem** eða **Senda fyrir hönd** að vera rétt [stillt](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) fyrirfram. Annars er eftirfarandi undantekning notuð við keyrslu: „Ekki er hægt að senda tölvupóst sem \<from email account\> úr \<current user account\> reikningnum, athugið heimildir fyrir „Senda sem“ á \<from email account\>.“
 
 Þú getur stillt reitinn **Frá** til að skila fleiri en einu netfangi. Í þessu tilviki er fyrsta netfangið í listanum notað sem netfang sendanda.
 

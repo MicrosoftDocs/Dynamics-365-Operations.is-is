@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500110"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595146"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -32,14 +32,26 @@ ms.locfileid: "7500110"
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum Finance and Operations
+
+### <a name="skype-for-business-online-support"></a>Stuðningur við Skype for Business Online
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skype for Business Online hefur verið tekið úr umferð. Frekari upplýsingar er að finna í [Þjónusta Skype for Business Online hefur verið tekin úr umferð](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Skipt út fyrir aðra eiginleika?**   | Ekki sem stendur. En við gætum hugsanlega bætt virkni Teams við í framtíðinni.|
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt. Slökkt hefur verið á stillingunni **Skype virkjað** frá og með útgáfu 10.0.21. Stefnt er að því að fjarlægja þessa stillingu í apríl 2022, en eiginleikinn mun hinsvegar hætta að virka þegar Skype-teymið slekkur á þjónustunni. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Eiginleikar felldir út frá og með ágúst 2021
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL-skýrslur í Lifecycle Services (LCS)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** |   Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar.|
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Ástæða úreldingar/fjarlægingar** | Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar.|
+| **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
 | **Afurðasvæði sem haft er áhrif á**         | SQL skýrslur: Núverandi DTU, núverandi DTU-upplýsingar, Fá upplýsingar um lás, Listi yfir núverandi áætlunarleiðbeiningar, Fá lista yfir fyrirspurnarauðkenni, Fá SQL fyrirspurnaráætlun fyrir ákveðið auðkenni áætlunar, Fá fyrirspurnaráætlanir og framkvæmdarstöðu, Fá takmörkunarstillingar, Fá biðtölfræði, Skrá yfir dýrustu fyrirspurnirnar |
 | **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
 | **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
@@ -48,8 +60,8 @@ ms.locfileid: "7500110"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Við erum að úrelda nokkrar SQL-aðgerðir í LCS.  |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Ástæða úreldingar/fjarlægingar** | Við erum að úrelda nokkrar SQL-aðgerðir í LCS. Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
 | **Afurðasvæði sem haft er áhrif á**         | SQL aðgerðir: Búa til leiðarvísi til að þvinga fram auðkenni áætlunar, Búa til leiðarvísi til að bæta við töfluvísbendingum, Fjarlægja leiðarvísi áætlunar, Kveikja/slökkva á læsingum á síðum og aukningu á læsingum, Uppfæra talnagögn á töflu, Endurbyggja vísi, Búa til vísi |
 | **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
 | **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
@@ -158,7 +170,7 @@ ms.locfileid: "7500110"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Almennt býður sérstilltur kóðir upp á takmarkaðan ávinning og þarf á sama tíma umtalsverða tilfangagetu og útreikning fyrir stuðning. Sérstilltur kóði er fyrst og fremst notaður af skýrsluhöfundum til að kalla á opinberar aðferðir úr samsetningu sérstilltra kóða. Skýjaþjónustan styður hinsvegar ekki tilvísanir í sérstilltar samsetningar fyrir SSR-skýrslur. |
-| **Skipt út fyrir aðra eiginleika?**   | Skýrsluhöfundar geta valið að halda áfram að vísa í almenn .NET API fyrir útreiknings-, umreiknings- og sniðsaðgerðir úr hvers kyns textareitasegð. Frekari upplýsingar eru í [Bæta kóða við skýrslu (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Skipt út fyrir aðra eiginleika?**   | Skýrsluhöfundar geta valið að halda áfram að vísa í almenn .NET API fyrir útreiknings-, umreiknings- og sniðsaðgerðir úr hvers kyns textareitasegð. Frekari upplýsingar eru í [Bæta kóða við skýrslu (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Afurðasvæði sem haft er áhrif á**         | Undirsafn af skýrsluhönnunum forrits skilgreind í RDL sem inniheldur sérstilltan kóða. |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Í útgáfu 10.0.13 byrjar þýðandinn að gefa út viðvörun vegna tilvika þar sem sérstilltur kóði greinist í SSRS-skýrsluskilgreiningu. Til að lagfæra vandamálið skal opna skilgreiningu skýrsluhönnunar og fjarlægja alla sérstillta kóðaggervinga. Þessari viðvörun verður skipt út fyrir þýðingarvillu í framtíðaruppfærslu.   |

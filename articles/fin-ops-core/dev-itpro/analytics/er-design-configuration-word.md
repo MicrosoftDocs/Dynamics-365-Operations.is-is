@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718358"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595263"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
 
@@ -46,7 +46,7 @@ Hægt er bæta við földuðum einingum **Excel\\Afmörkun** og **Excel\\Hólf**
 
 ![Földuðum einingum bætt við á síðu sniðshönnuðar.](./media/er-design-configuration-word-image4.gif)
 
-Þegar breytingar á rafrænu skýrslugerðarsniði eru vistaðar á hönnunartíma verður stigveldi sniðsskipulags vistað í viðhengdu Word-sniðmáti sem [sérstilltur XML-hluti](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) sem heitir **Skýrsla**. Ná þarf í breytta sniðmátið, sækja það úr Finance, vista það staðbundið og opna það í skjáborðsforriti Word. Eftirfarandi mynd sýnir dæmi um sniðmát, sem vistað er staðbundið, fyrir stjórnunarskýrsluna sem inniheldur sérstillta XML-hlutann **Skýrsla**.
+Þegar breytingar á rafrænu skýrslugerðarsniði eru vistaðar á hönnunartíma verður stigveldi sniðsskipulags vistað í viðhengdu Word-sniðmáti sem [sérstilltur XML-hluti](/visualstudio/vsto/custom-xml-parts-overview) sem heitir **Skýrsla**. Ná þarf í breytta sniðmátið, sækja það úr Finance, vista það staðbundið og opna það í skjáborðsforriti Word. Eftirfarandi mynd sýnir dæmi um sniðmát, sem vistað er staðbundið, fyrir stjórnunarskýrsluna sem inniheldur sérstillta XML-hlutann **Skýrsla**.
 
 ![Sýnishorn af skýrslusniðmáti forskoðað í skjáborðsforriti Word.](./media/er-design-configuration-word-image5.gif)
 
