@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472226"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563062"
 ---
 # <a name="customer-management-in-stores"></a>Stjórnun viðskiptavina í verslunum
 
@@ -45,7 +45,8 @@ Söluaðilar geta sótt mörg heimilisföng fyrir viðskiptavin. Nafn og síman�
 
 ## <a name="sync-customers-and-async-customers"></a>Samstilltir viðskiptavinir og ósamstilltir viðskiptavinir
 
-> [MIKILVÆGT] Í hvert skipti sem sölustaðurinn er utan nets býr kerfið sjálfkrafa til viðskiptavini ósamstillt, jafnvel ef stofnhamur ósamstillts viðskiptavinar er óvirkt. Þess vegna, óháð vali þínu á milli stofnunar samstillts og ósamstillts viðskiptavinar, verða stjórnendur Commerce Headquarters að búa til og tímasetja endurtekna runuvinnslu fyrir **P-vinnslu**, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** (hét áður **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu**) og **1010** vinnslunni þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
+> [!IMPORTANT]
+> Í hvert skipti sem sölustaðurinn er utan nets býr kerfið sjálfkrafa til viðskiptavini ósamstillt, jafnvel ef stofnhamur ósamstillts viðskiptavinar er óvirkt. Þess vegna, óháð vali þínu á milli stofnunar samstillts og ósamstillts viðskiptavinar, verða stjórnendur Commerce Headquarters að búa til og tímasetja endurtekna runuvinnslu fyrir **P-vinnslu**, vinnsluna **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** (hét áður **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu**) og **1010** vinnslunni þannig að öllum ósamstilltum viðskiptavinum er breytt í samstillta viðskiptavini í Commerce Headquarters.
 
 Í Commerce eru til tvær stillingar fyrir stofnun viðskiptavinar: Samstillt og ósamstillt. Viðskiptavinir eru stofnaðir samstilltir að sjálfgefnu. Þ.e.a.s. þeir eru stofnaðir í Commerce Headquarters á rauntíma. Samstillt stofnun viðskiptavinar er gagnleg vegna þess að strax verður hægt að leita að nýjum viðskiptavinum yfir allar rásir. Hins vegar er einnig galli á henni. Þar sem hún myndar köll [Commerce Data Exchange: Rauntímaþjónustu](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) til Commerce Headquarters, þá getur það haft áhrif á afköst ef mörg köll vegna stofnunar viðskiptavina eru gerð á sama tíma.
 

@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781807"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579881"
 ---
 # <a name="work-split"></a>Skipta vinnu
+
+[!include [banner](../includes/banner.md)]
 
 Virkni vinnuskiptingar gerir þér kleift að skipta stórum vinnukennum (þ.e. verkbeiðnum sem eru með margar línur) niður í nokkur smærri vinnukenni sem síðan er hægt að úthluta á marga vöruhúsastarfskrafta. Á þennan hátt er hægt að velja sama stofnnúmer vinnu samtímis af nokkrum starfskröftum í vöruhúsi.
 

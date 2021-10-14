@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 05e9d6441cf99dce3f4663b9d5ba57e2b386e8c2f3060f75550270083f3b98b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76131b6cc7ee58d4a095da4ac56cd97124e42587
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741454"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559363"
 ---
 # <a name="payroll-position"></a>Launastaða
 
@@ -32,22 +32,29 @@ Efnislegt heiti: mshr_payrollpositionentity.
 
 Þessi eining veitir upplýsingar tengdar stöðum fyrir tiltekinn starfsmann.
 
-Efnislegt heiti: 
+Efnislegt heiti: mshr_payrollpositionentity.
 
 ## <a name="properties"></a>Eiginleikar
 
-| Eiginleiki<br>**Efnislegt heiti**<br>**_Gerð_** | Nota | lýsing |
+| Eiginleiki</br>**Efnislegt heiti**</br>**_Gerð_** | Nota | Lýsing |
 | --- | --- | --- |
-| **Reglulegar árlegar vinnustundir**<br>annualregularhours<br>*Tugabrot* | Lesa eingöngu<br>Krafa | Reglulegar árlegar vinnustundir skilgreindar fyrir stöðuna.  |
-| **Einingarkenni fyrir upplýsingar um launastöðu**<br>payrollpositiondetailsentityid<br>*Guid* | Krafa<br>Búið til af kerfi. | GUID-gildi myndað af kerfinu til að auðkenna stöðu á einkvæman hátt.  |
-| **Aðalsvæði**<br>mshr_primaryfield<br>*Strengur* | Krafa<br>Búið til af kerfi |  |
-| **Gildi fyrir kenni vinnustöðu**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Framandlykill:mshr_PayrollPositionJobEntity of the mshr_payrollpositionjobentity |Kenni starfsins sem tengist stöðunni.|
-| **Gildi fyrir kenni launafyrirkomulags fastra launa**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Framandlykill: mshr_FixedCompPlan_id of mshr_payrollfixedcompensationplanentity  | Kenni launafyrirkomulags fastra launa sem tengist stöðunni. |
-| **Kenni greiðsluferlis**<br>mshr_primaryfield<br>*Strengur* | Lesa eingöngu<br>Krafa | Greiðsluferli skilgreint fyrir stöðuna. |
-| **Greitt af lögaðila**<br>paidbylegalentity<br>*Strengur* | Lesa eingöngu<br>Krafa | Lögaðilinn sem er skilgreindur fyrir stöðuna sem ber ábyrgð á launagreiðslum. |
-| **Auðkenni stöðuheitis**<br>mshr_positionid<br>*Strengur* | Lesa eingöngu<br>Krafa | Auðkenni stöðunnar. |
-| **Gildir til**<br>validto<br>*Mótfærð dagsetning og tími* | Lesa eingöngu<br>Krafa |Dagsetningin sem upplýsingar um stöðuna gilda frá.  |
-| **Gildir frá**<br>validfrom<br>*Mótfærð dagsetning og tími* | Lesa eingöngu<br>Krafa |Dagsetningin sem upplýsingar um stöðuna gilda til.  |
+| **Auðkenni stöðuheitis**</br>mshr_positionid</br>*Strengur* | Lesa eingöngu | Auðkenni stöðunnar. |
+| **Kenni greiðsluferlis**</br>mshr_paycycleid</br>*Strengur* | Lesa eingöngu | Greiðsluferli sem er skilgreint fyrir stöðuna. |
+| **Reglulegar árlegar vinnustundir**</br>annualregularhours</br>*Tugabrot* | Lesa eingöngu | Reglulegar árlegar vinnustundir sem eru skilgreindar fyrir stöðuna. |
+| **Greitt af lögaðila**</br>paidbylegalentity</br>*Strengur* | Lesa eingöngu | Lögaðilinn sem er skilgreindur fyrir stöðuna og sem ber ábyrgð á launagreiðslum. |
+| **Gildir til**</br>validto</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem upplýsingar um stöðuna gilda til. |
+| **Gildir frá**</br>validfrom</br>*Mótfærð dagsetning og tími* | Lesa eingöngu | Dagsetningin sem upplýsingar um stöðuna gilda frá. |
+| **Aðalsvæði**</br>mshr_primaryfield</br>*Strengur* | Búið til af kerfi | Aðalreiturinn. |
+| **Einingarkenni fyrir upplýsingar um launastöðu**</br>payrollpositiondetailsentityid</br>*Guid* | Krafa</br>Búið til af kerfi. | Altækt einkvæmt kennimerki (GUID-gildi) myndað af kerfinu til að auðkenna stöðu á einkvæman hátt. |
+
+## <a name="relations"></a>Vensl
+
+| Gildi eiginleika | Tengdur aðili | Yfirlitseiginleiki | Tegund innheimtu |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_PayrollPosition |
+| _mshr_fk_hcmpositionhierarchy_id_value | mshr_hcmpositionhierarchyentity | mshr_FK_HcmPositionHierarchy_id | Á ekki við |
+| _mshr_fk_job_id_value | mshr_payrollpositionjobentity | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_Payroll |
+| _mshr_fk_positionassignmentv2_id_value | mshr_hcmpositionworkerassignmentv2entity | mshr_FK_PositionAssignmentV2_id | Á ekki við |
 
 ## <a name="example-query"></a>Dæmi um fyrirspurn
 

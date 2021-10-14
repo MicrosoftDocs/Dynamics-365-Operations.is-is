@@ -1,24 +1,21 @@
 ---
 title: Kennsla í Regression Suite Automation Tool
 description: Þetta efni sýnir hvernig á að nota Regression Suite Automation Tool (RSAT). Það lýsir ýmsum eiginleikum og gefur dæmi sem nota ítarlegar forskriftir.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714550"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556766"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Kennsla í Regression Suite Automation Tool
 
@@ -82,13 +79,19 @@ RSAT gerir þér kleift að nota sömu verkefnaskráningu með mörgum prófatil
 
 Þessi eiginleiki tekur skjámyndir af þeim skrefum sem voru gerð meðan á verkskráningu stóð. Það er gagnlegt fyrir endurskoðun eða kembiforrit.
 
-- Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
+- Til að nota þennan eiginleika á meðan RSAT er keyrt með notandaviðmóti skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Þegar þú keyrir prófunartilvikið mun RSAT búa til myndatökur (myndir) af skrefunum í spilunarmöppunni á prófatilvikunum í vinnumiðstöðinni. Ef verið er að nota eldri útgáfu af RSAT eru myndirnar vistaðar í **C:\\Notendur\\\<Username\>\\AppData\\Roaming\\regressionTool\\spilun**, aðskilin mappa er búin til fyrir hvert prófunartilvik sem er keyrt.
+- Til að nota þennan eiginleika á meðan RSAT er keyrt af CLI (til dæmis Azure DevOps) skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Þegar þú keyrir prófunartilvikin mun RSAT búa til myndatökur (myndir) af skrefunum og vista þær í spilunarmöppu prófatilvikanna í vinnuskránni. Í afspilunarmöppunni er búin til sérstök undirmappa sem heitir **StepSnapshots**. Þessi mappa inniheldur skyndimyndir fyrir prófunartilvikin sem eru keyrð.
 
 ## <a name="assignment"></a>Verkefni
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Eftirfarandi dæmi notar Open Data Protocol (OData)-kall til að finna pöntunarstöðu innkaupapöntunar. Ef staðan er ekki **innheimt**, getur þú til dæmis kallað í RSAT-prófunardæmi sem bókar reikninginn.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

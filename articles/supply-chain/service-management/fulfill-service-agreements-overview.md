@@ -1,7 +1,7 @@
 ---
 title: Uppfylla þjónustusamninga yfirlit
 description: Í þessu efnisatriði má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a74bac8fb88a2d10156ff59f237fad53f8ba66803dd38d85dd8ae2d89b2afd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8919a4afda354949599361d81ebfa57b20736ba5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720205"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576497"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Uppfylla þjónustusamninga yfirlit 
+# <a name="fulfill-service-agreements-overview"></a>Uppfylla þjónustusamninga yfirlit
 
 [!include [banner](../includes/banner.md)]
-
 
 Í þessu efnisatriði má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga. Í þessu efnisatriði er einnig farið yfir skjámyndir sem tengjast hverjum hluta viðskiptaferlis og fjallað um þá verkþætti sem tengjast hverjum hluta viðskiptaferlis.
 
@@ -41,9 +40,9 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

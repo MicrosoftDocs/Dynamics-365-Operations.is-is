@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718478"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594910"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Breytið fyrirliggjandi `AssetRollForwardService`-klasa og skrifið kóða til að setja upp sérstillta verksmiðjustaðsetningu fyrir keyrslu skýrslunnar. Takið eftir því að þegar sérstillt verksmiðjustaðsetning er búin til, er forritsstýrða færibreytan sem tilgreinir möppu viðtökustaðar keyrð í gegn. Á þennan hátt er þessi mappa viðtökustaðar notuð til að geyma myndaðar skrár.
 
     > [!NOTE] 
-    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) notuð við keyrslu.
+    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) notuð við keyrslu.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

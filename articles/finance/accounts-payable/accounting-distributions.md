@@ -1,7 +1,7 @@
 ---
 title: Dreifing á fjárhagsupphæðum
 description: Þessi efni veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim.
-author: ShylaThompson
+author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3586ad009f4639d3606a935f98108b07d379852567e0faa365749f5b0bea07b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f81444e0865715925dad2483e8c789221bccb2b
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749223"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595315"
 ---
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 

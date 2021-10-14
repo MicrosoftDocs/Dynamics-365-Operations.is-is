@@ -1,7 +1,7 @@
 ---
 title: Samstilling sölupantana beint á milli Sales og Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad23190433b2843ec5063b5fa5b30351fcd86390
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753229"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566432"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Samstilling sölupantana beint á milli Sales og Supply Chain Management
 
@@ -189,19 +189,19 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderLine
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Supply Chain Management til Sales) - Beint: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Sales til Supply Chain Management) - Beint: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine
 
-[![Sniðmátsvörpun í Gagnasamþættingu.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 

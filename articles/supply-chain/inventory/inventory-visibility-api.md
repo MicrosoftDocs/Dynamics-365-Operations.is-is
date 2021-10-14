@@ -2,7 +2,7 @@
 title: Opin API fyrir sýnileika birgða
 description: Þetta efnisatriði útskýrir opin API sem birgðasýnileiki býður upp á.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474653"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592489"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -82,6 +82,8 @@ Microsoft hefur skapað notandaviðmót í Power Apps svo þú getir fengið ful
 
 Öryggistákn verkvangsins er notað til að kalla á opið API birgðasýnileika. Þess vegna þarf að búa til _Azure Active Directory (Azure AD) tákn_ með því að nota Azure AD-forritið. Þá þarf að nota Azure AD táknið til að fá _aðgangsmerkið_ úr öryggisþjónustunni.
 
+Microsoft útvegar tilbúið merkjasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Til að ná í öryggistákn skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í Azure-gáttina og notaðu hana til að finna gildin `clientId` og `clientSecret` fyrir Dynamics 365 Supply Chain Management forritið þitt.
@@ -131,7 +133,7 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
    - Gildið `context` verður að vera LCS-umhverfiskenni þar sem á að nota viðbótina.
    - Stilltu öll önnur gildi eins og sýnt er í dæminu.
 
-1. Sendu inn HTTP-beiðni sem er með eftirfarandi eiginleika:
+1. Sæktu aðgangslykil (`access_token`) með því að senda inn HTTP-beiðni sem er með eftirfarandi eiginleika:
 
    - **VEFSLÓÐ:** `https://securityservice.operations365.dynamics.com/token`
    - **Aðferð:** `POST`
@@ -148,7 +150,8 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
    }
    ```
 
-Í síðari hlutum notar þú `$access_token` til að standa fyrir táknið sem var sótt í síðasta skrefi.
+> [!IMPORTANT]
+> Þegar þú notar beiðasafnið *Postman* til að kalla á opið API birgðasýnileika þarftu að bæta við handhafalykli fyrir hverja beiðni. Til að finna handhafalykilinn skal velja flipann **Heimild** undir vefslóð beiðninnar, velja gerðina **Handhafalykill** og afrita aðgangslykilinn sem var sóttur í skrefinu á undan. Í síðari hlutum í þessum efnisatriði verður `$access_token` notað til að tákna lykilinn sem var sóttur í síðasta skrefi.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Stofna tilvik lagerbreytinga
 
@@ -508,7 +511,7 @@ Body:
 
 - `organizationId` ætti að innihalda aðeins eitt gildi en það er samt enn fylki.
 - `productId` getur innihaldið eitt eða fleiri gildi. Ef það er tómt fylki verður öllum afurðum skilað.
-- `siteId` og `locationId` eru notuð í birgðasýnileika fyrir þáttun.
+- `siteId` og `locationId` eru notuð í þáttun í birgðasýnileika. Þú getur tilgreint fleiri en eitt `siteId` og `locationId` gildi í beiðni *Lagerfyrirspurnar*. Í núverandi útgáfu verður þú að tilgreina bæði `siteId` og `locationId` gildi.
 
 Færibreytan `groupByValues` ætti að fylgja stillingu þinni fyrir atriðaskráningu. Frekari upplýsingar er að finna í [Skilgreining á stigveldi atriðaskráar](./inventory-visibility-configuration.md#index-configuration).
 

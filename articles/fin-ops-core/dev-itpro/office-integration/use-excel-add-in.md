@@ -2,7 +2,7 @@
 title: Skoða og uppfæra einingagögn með Excel
 description: Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Excel-innbót.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761355"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592666"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -60,9 +60,9 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 
 6. Veljið **Í lagi** og svo **Já** til að staðfesta breytinguna. Excel-innbót endurræsist og hleður lýsigögnum.
 
-    Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Nánari upplýsingar eru í "Hleðslu smáforrit hnappur birtist" í hlutanum [Úrræðaleit](../office-integration/use-excel-add-in.md#troubleshooting) í þessu efnisatriði.
+    Hnappurinn **Hönnun** er tiltækur. Ef Excel-innbótin er með tengilinn **Hlaða smáforritum** ertu sennilega ekki skráð/ur inn sem réttur notandi. Frekari upplýsingar um hvernig skuli bregðast við þessu vandamáli er að finna í úrræðaleitarfærslunni [Hlaða smáforritum](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane).
 
-7. Veljið **Hönnun**. Excel-innbót sækir lýsigögn einingar.
+7. Smellið á **Hönnun**. Excel-innbót sækir lýsigögn einingar.
 8. Velja **Bæta við töflu**. Listi yfir einingar birtist. Einingar eru taldar upp á sniðinu "Heiti – Merki".
 9. Veljið einingu á listanum, eins og **Viðskiptavinar - Viðskiptavinir**, og veljið svo **Næsta**.
 10. Til að bæta við svæði af listanum **Tiltæk svæði** yfir á listann **Valið svæði** skal velja svæðið og svo **Bæta við**. Einnig er hægt að tvísmella á svæðið í **Tiltækir reitir** listanum.
@@ -136,7 +136,7 @@ Gögnin sem eru lesin inn í vinnubókina úr einu umhverfi er hægt að afrita 
 ## <a name="troubleshooting"></a>Úrræðaleit
 Það eru nokkur vandamál sem hægt er að leysa með nokkrum auðveldum skrefum.
 
-- **Hnappurinn Hlaða smáforrit er sýndur** - Ef Excel-innbót er með hnappinn **Hlaða smáforrit** ertu sennilega ekki skráð/ur inn sem réttur notandi. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
+- **Tengillinn „Hlaða smáforritum“ er sýndur** – Frekari upplýsingar um þetta vandamál er að finna í úrræðaleitarfærslunni [Hlaða smáforritum](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane). 
 - **Ef þér berast „bönnuð“ skilaboð** - Ef þér berast „bönnuð“ skilaboð á meðan Excel-innbót er að hlaða lýsigögnum, er lykillinn sem er innskráður í Excel-innbót ekki með heimild til að nota markað þjónustu tilvik eða gagnagrunninum. Til að leysa þetta vandamál stað staðfesta að rétt notandanafn birtist í efra hægri horninu í Excel-innbót. Ef rangt notandaheiti birtist skal velja það, útskráningu og síðan innskráningu aftur.
 - **Auð vefsíða sýnd yfir í Excel** - Ef auð vefsíða opnast við innskráningarvinnslu, krefst lykillinn AD FS en útgáfa Excel sem keyrir á innbótinni er ekki nógu nýleg til að hlaða svarglugga innskráningar. Uppfæra útgáfu Excel sem verið er að nota til að leysa þetta vandamál. Til að uppfæra útgáfu Excel þegar þú ert í stóru fyrirtæki sem eru á frestaðri rás skal nota [Office uppsetningarverkfæri](/deployoffice/overview-office-deployment-tool) til að [fara úr frestaður rásar yfir í núverandi rás](/deployoffice/overview-update-channels).
 - **Þú færð tímalok á meðan þú ert að gefa út gagnabreytingar** – Ef upp koma skilaboð um tímalok á meðan reynt er að gefa út gagnabreytingar á einingu skal huga að því að draga úr runustærð birtingar fyrir vinnubókina sem um ræðir. Einingar sem ræsa mikið magn af rökum fyrir skráarbreytingar gætu þurft að uppfærslur verði sendar í smærri runum til að koma í veg fyrir tímalokanir.

@@ -1,22 +1,22 @@
 ---
 title: Lokuð tilboð fyrir tilboðsbeiðnir
 description: Í þessu efnisatriði er lýst hvernig setja skal upp innsiglað tilboð til að halda svörum við tilboði söluaðila leyndum þar til þau eru óinnsigluð af starfsfólki kaupanda.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500635"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578081"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Lokuð tilboð fyrir tilboðsbeiðnir
 
@@ -53,7 +53,11 @@ Innsigluð boð nota ósamhverfa dulkóðun til að dulkóða dulkóðunarlykil 
 Supply Chain Management notar dulkóðunarlykla til að vernda öll innsigluð boð og halda þeim leyndum þar til viðeigandi tími er liðinn. Það nýtir sér eiginleika Key Vault til að mynda og stjórna nauðsynlegum lyklum. Því verður að setja upp tengingu frá Supply Chain Management til lyklageymslu til að virkja kerfið.
 
 > [!IMPORTANT]
-> Lyklageymsluna þarf að búa til í Azure-áskrift sem fyrirtækið þitt á (ekki áskriftin þar sem þú keyrir Supply Chain Management).
+> Lyklageymslurnar sem þú notar fyrir innsigluð tilboð verða að uppfylla eftirfarandi kröfur:
+>
+> - Ef þú notar sandkassa til að þróa og prófa þá þarftu að vera með eina sérstaka lyklageymslu fyrir sandkassann og aðra fyrir vinnsluna.
+> - Hverja lyklageymslu þarf að búa til í Azure-áskrift sem fyrirtækið þitt á (ekki áskriftin þar sem þú keyrir Supply Chain Management).
+> - Hver lyklageymsla skal eingöngu vera notuð fyrir innsigluð tilboð. Þú mátt ekki nota lyklageymslur innsiglaðra tilboða í neinum öðrum tilgangi.
 
 Hvert boð sækir sinn eigin leynilykil. Þessi lykill er notaður í hvert sinn sem notandi skoðar, uppfærir eða opnar tilboð.
 

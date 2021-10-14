@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 241892e8f6ea04616aa9c605b4a2019d2de0ebe868ee7ebc1d5b56f5ce172bd5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723504"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571882"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
+
+[!include [banner](../includes/banner.md)]
 
 Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferla_ gerir þér kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi. Vöruhúsavinnu er hægt að gera þannig að hún færi birgðir sjálfkrafa á staðsetningu gæðastjórnunar, byggt á prósentu eða föstu magni, eða byggt á *n* hverri númeraplötu. Eftir að lokið hefur verið við gæðapöntun, er hægt að gera vinnu þannig að hún færi birgðir sjálfkrafa á næstu staðsetningu í ferlinu, háð gæðaniðurstöðum.
 

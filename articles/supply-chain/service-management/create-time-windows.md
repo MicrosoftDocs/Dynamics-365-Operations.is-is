@@ -1,7 +1,7 @@
 ---
-title: Stofna tímaskjámyndir
-description: Hægt er að nota tímaglugga til að bæta röðun á þjónustupöntunarlínum.
-author: ShylaThompson
+title: Stofna tímaglugga
+description: Í þessu efnisatriði er gefið upp ferli sem sýnir hvernig á að stofna tímaglugga.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e88277181a00479af85561f078803ec495a94a50ef1cbd4059f594709b47a7d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 93c8426fd03a849cf8c241d694507bd033fb34c5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775532"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571427"
 ---
-# <a name="create-time-windows"></a>Stofna tímaskjámyndir   
+# <a name="create-time-windows"></a>Stofna tímaglugga
 
 [!include [banner](../includes/banner.md)]
 
 Hægt er að nota tímaglugga til að bæta röðun á þjónustupöntunarlínum.
 
-1. Smellið á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustusamningar** \> **Tímagluggi**.
+1. Farðu í **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustusamningar** \> **Tímagluggi**.
 2. Ýtið á **Alt+N** til að stofna nýjan tímaglugga.
 3. Í reitnum **Tímagluggi** er fært inn heiti fyrir tímagluggann.
 4. Í reitnum **Lýsing** er færð inn lýsing á tímaglugganum.
