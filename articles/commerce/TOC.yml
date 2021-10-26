@@ -802,7 +802,9 @@
                   href: POS-serial-returns.md
                 - name: Tengdar endurgreiðslur
                   href: dev-itpro/linked-refunds.md
-                - name: Sala og skil á afurðum sem ekki eru í úrvali verslunar
+                - name: Vinna ótengdar endurgreiðslur með Dynamics 365 Commerce Payment Connector fyrir Adyen
+                  href: dev-itpro/unlinked-refunds.md
+                - name: Sala og skil á afurðum sem ekki eru í vöruúrvali verslunar
                   href: sell-return-outside-assortments.md
                 - name: Skilgreina og vinna úr skiptum á skilapöntun
                   href: orderexchanges.md

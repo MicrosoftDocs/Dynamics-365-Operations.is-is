@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Gjaldmiðilsgeta í fjárhagsskýrslugerð
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Útreikningur á óráðstöfuðu eigin fé í „Fjárhagsskýrslugerð“
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Fjárhagsskýrslur efnahagsreiknings
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Búa til fjárhagsskýrslur

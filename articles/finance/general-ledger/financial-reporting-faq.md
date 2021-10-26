@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733612"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605280"
 ---
 # <a name="financial-reporting-faq"></a>Algengar spurningar um fjárhagsskýrslugerð
 
@@ -101,5 +101,28 @@ Við sögulegan umreikning gjaldmiðils má nota forreiknaða stöðu tímabils 
 Þegar gögn í skýrslum eru uppfærð gæti orðið töf þar sem endurreikna þarf upphæðir með því að skoða færsluupplýsingar. Þessi töf kemur í hvert skipti sem gengið er uppfært eða fleiri færslur eru bókaðar. Sem dæmi má nefna að ef þúsundir af lyklum eru uppsettir til að gera sögulegan umreikning nokkrum sinnum á dag gæti orðið töf í allt að eina klukkustund áður en gögnin í skýrslunni eru uppfærð. Ef þetta eru hins vegar fáir tilteknir lyklar verður vinnslutími fyrir uppfærslu skýrslugagna aðeins nokkrar mínútur eða minna.
 
 Að sama skapi verða framkvæmdir aukaútreikningar á færslum þegar skýrslur eru búnar til með því að nota umreikning gjaldmiðils fyrir sögulega lykla. Tími við skýrslumyndun getur orðið meira en tvöfalt lengri, allt eftir fjölda lykla.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Hvert er áætlað tímabil milli samþættingar á gagnaskemmu?
+
+Financial Reporter notar 16 verk til að afrita gögn úr Dynamics 365 Finance í gagnagrunn Financial Reporter. Eftirfarandi tafla sýnir þessi 16 verk og sýnir tímabilið sem tilgreinir hversu oft hvert verk er keyrt. Ekki er hægt að breyta þessum tímabilum.
+
+| Heiti                                                       | Tímabil | Tímasetning tímabils |
+|------------------------------------------------------------|----------|-----------------|
+| Flokkar lykla í AX 2012 í „Lykilflokkur“            | 41       | Mínútur         |
+| Lyklar í AX 2012 í „Lykill“                                | 7        | Mínútur         |
+| Fyrirtæki í AX 2012 í „Fyrirtæki“                               | 300      | Sekúndur         |
+| Fyrirtæki í AX 2012 í „Stofnun/fyrirtæki“                          | 23       | Mínútur         |
+| Víddasamsetningar í AX 2012 í „Víddasamsetning“    | 1        | Mínútur         |
+| Víddargildi í AX 2012 í „Víddargildi“                | 11       | Mínútur         |
+| Víddir í AX 2012 í „Vídd“                            | 31       | Mínútur         |
+| Gengi í AX 2012 í „Gengi“                    | 17       | Mínútur         |
+| Fjárhagsár í AX 2012 í „Fjárhagsár“                        | 13       | Mínútur         |
+| Fjárhagsfærslur í AX 2012 í „Staðreynd“                | 1        | Mínútur         |
+| Stigveldi fyrirtækis í AX 2012 í „Tré“                   | 3600    | Sekúndur         |
+| Sviðsmyndir í AX 2012 í „Sviðsmynd“                              | 29       | Mínútur         |
+| Skilyrði færslugerðar í AX 2012 í „Skilyrði upplýsingagerðar“ | 19       | Mínútur         |
+| Viðhaldsverk                                           | 1        | Mínútur         |
+| MR-skýrsluskilgreiningar í AX7-fjárhagsskýrslur             | 45       | Sekúndur         |
+| Útgáfur MR-skýrslna í „Útgáfur fjárhagsskýrslna“ í AX         | 45       | Sekúndur         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
