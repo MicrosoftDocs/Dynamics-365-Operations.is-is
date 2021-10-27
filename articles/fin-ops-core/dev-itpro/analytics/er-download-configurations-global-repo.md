@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724418"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605332"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu
 
@@ -63,7 +63,7 @@ ms.locfileid: "6724418"
     > [!NOTE]
     > Hnappurinn **Flytja inn** er ekki tiltækur fyrir útgáfur skilgreininga rafrænnar skýrslugerðar sem þegar eru til staðar í núverandi fjármálatilviki.
 
-    ![Gagnageymslusíða skilgreiningar.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Gagnageymslusíða skilgreiningar, flýtiflipi grunnstillinga.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Flytja inn síaðar skilgreiningar
 
@@ -77,7 +77,7 @@ ms.locfileid: "6724418"
 4. Í flýtiflipanum **Skilgreiningar** skal velja **Flytja inn** til að sækja síaðar skilgreiningar úr altæku geymslunni í núverandi tilvik.
 5. Í flýtiflipanum **Skilgreiningar** skal velja **Endurstilla síu** til að hreinsa tilgreind skilyrði vals.
 
-    ![Gagnageymslusíða skilgreiningar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Skilgreiningageymslusíða, flýtiflipi útgáfa, Flytja inn hnappur.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Það fer eftir stillingum rafrænnar skýrslugerðar hvernig skilgreiningar eru villuleitaðar eftir að þær eru fluttar inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Áður en hægt er að nota innflutta útgáfu skilgreingar þarf að leysa úr vandamálunum. Frekari upplýsingar er að finna í lista yfir tengd tilföng í þessu efnisatriði.

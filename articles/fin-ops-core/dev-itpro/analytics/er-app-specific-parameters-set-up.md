@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749825"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605256"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
@@ -58,8 +58,6 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 1.  Velja skal lögaðilann **DEMF**.
 2.  Í stillingatrénu sniðmátið velurðu sniðmátið **Snið til að læra hvernig eigi að fletta upp LE-gögnum**.
 3.  Á Aðgerðarrúðunni, á flipanum **Stillingar** í flokkinum **Umsóknarbundnar færibreytur** veljið **Uppsetning**.
-
-    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Á síðunni **Forritsbundnar færibreytur** er hægt að stilla reglurnar fyrir gagnagjafann **Val** í sniðinu **Snið til að læra hvernig á að fletta upp LE-gögnum**.
     
@@ -75,14 +73,14 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 
     Uppflettan sýnir lista yfir skattakóða fyrir val. Þessum lista er skilað af gagnagjafanum **Model.Data.Tax** sem hefur verið stilltur á grunn ER sniði. Vegna þess að þessi gagnagjafi inniheldur reitinn **Heiti** birtist nafn sérhvers skattakóða í leitinni.
 
-    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit, uppfletting á kóðasvæði.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Veldu skattakóðann **VAT19** tax code.
 8.  Í reitnum **Niðurstöður uppflettinar** í nýju skránni velurðu fellilistaörina til að opna leitina. Leitin sýnir lista yfir gildi fyrir TaxationLevel snið upptalningar fyrir val.
 
     Athugaðu að ef þýska er valin sem æskilegt tungumál notandans sem þú ert skráður inn sem, þá verða merkimiðar gildanna í uppflettingu á þýsku, að því tilskildu að þau hafi verið þýdd á grunn ER sniði. Að auki, ef merkimiði uppflettingargagnaheimildar hefur verið þýddur mun sá merkimiði birtast á æskilegu tungumáli notandans á flipanum **Uppflettingar**.
 
-    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit, niðurstöður uppflettingar birtast á kjörtungumálinu þýska.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Veldu gildið **Regluleg skattlagning**.
 
@@ -120,7 +118,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
     
     Með því að bæta þessari skrá við skilgreinirðu eftirfarandi reglu: Alltaf þegar skattakóði sem er samþykktur sem frumbreyta uppfyllir engar af áðurnefndum reglum mun gagnagjafi uppflettingar skila **Annað** sem umbeðnu skattlagningarstigi.
 
-    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit, flýtiflipi skilyrða með síðustu færslu Annað.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Í reitnum **Staða** skal velja **Lokið**.
 
@@ -160,7 +158,7 @@ Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að Microso
 
     Núna sýnir uppflettingin lista yfir skattakóða fyrir **USMF** fyrirtækjaskatt fyrir val.
 
-    ![Síða sértækra færibreyta fyrir ER-forrit.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Síða sértækra færibreyta fyrir ER-forrit, uppfletting á kóðasvæði sem birtir lista yfir skattkóða fyrir USMF-fyrirtæki.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Veldu skattakóðann **EXEMPT**.
 9.  Í reitnum **Niðurstaða uppflettingar** í nýju skránni velurðu gildið **Engin skattlagning**.
@@ -225,13 +223,13 @@ Sambandi á milli ER sniðs og forritasértækum færibreyta þess er komið á 
 
 1.  Annaðhvort endurnýtirðu núverandi valmyndaratriðið **ERSolutionAppSpecificParametersDesigner** eða útfærir þitt eigið valmyndaratriði **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Síðan Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Síðan Visual Studio, eiginleikasvæði.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Fylgið einu af eftirfarandi skrefum:
 
     1.  Búðu til nýjan hnapp fyrir valmyndaratriðið og tengdu hann við samsvarandi skrá úr töflunni **ERSolutionTable** með því að stilla eiginleikann **Gagnagjafi** á **ERSolutionTable**.
     
-        ![Síðan Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Síðan Visual Studio, hönnunarsvæði.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Búðu til einfaldan hnapp og hnekktu eiginleikanum **Smellt** eins og sýnt er í eftirfarandi dæmi.
     

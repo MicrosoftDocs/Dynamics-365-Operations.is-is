@@ -1,8 +1,8 @@
 ---
 title: Yfirlit yfir fjárhagssamstæður og umreikning gjaldmiðla
 description: Þetta efnisatriði lýsir fjármálasamstæðum og umreikningi gjaldmiðils í Fjárhag.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748981"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615936"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
@@ -182,5 +182,17 @@ Hér eru nokkrar samstæðuaðstæður sem Financial reporting styður:
 ## <a name="generating-consolidated-financial-statements"></a>Býr til samstæðureikningsskil
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Afkastaaukning fyrir stórar sameiningar
+
+Umhverfi sem hafa margar fjárhagsfærslur gæti verið hægari en ákjósanlegt er. Til að leysa þennan vanda þarf að setja upp hliðstæða vinnslu runa sem nota dagsetningafjölda sem notandi skilgreinir. Til að tryggja að lausnin virki eins og til er ætlast skaltu bæta viðbótarstað við sameininguna til að skila hólfi með dagsetningabilum. Grunninnleiðingin ætti að innihalda eitt tímabil fyrir upphafsástand og lokadag sameiningar. Dagsetningarbil í grunninnleiðingunni verða staðfest til að tryggja að þau innihaldi ekki bil eða skörun. Dagsetningarbilin verða notuð til að búa til samhliða runubúnt fyrir hvert fyrirtæki.
+
+Þú getur sérsniðið fjölda dagsetningabila í samræmi við kröfur stofnunarinnar þinnar. Með því að sérsníða fjölda dagsetningabila getur þú hjálpað til við að einfalda prófanir og lágmarka áhrif á fyrirliggjandi kóða vegna þess að engin rök eru fyrir úthlutun. Einu nýju prófin sem þarf til að staðfesta myndun runubúnta, sannprófa dagsetningarbil og prófa undirflokk dagsetningabila til að staðfesta að hægt sé að sameina runur fyrir lokarunuverkið. 
+
+Þessi eiginleiki eykur sameiningarferlið í fjárhag þegar ferlið er keyrt í runu. Aukningin bætir afköst almenns sameiningarferlis fjárhags með því að skipta sameiningunni í mörg verk sem hægt er að vinna samhliða. Í sjálfgefinni aðferð við að keyra sameiningu vinnur hvert verk átta daga af virkni fjárhags. Hins vegar hefur viðbótarstað verið bætt við sem gerir kleift að sérstilla fjölda verka sem stofnuð eru.
+
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+
+- **Eining:** fjárhagur
+- **Heiti eiginleika:** Afkastaaukning fyrir stórar sameiningar
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

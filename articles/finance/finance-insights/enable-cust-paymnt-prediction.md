@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386588"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599376"
 ---
 # <a name="enable-customer-payment-predictions"></a>Virkja greiðsluspár viðskiptavinar
 
@@ -41,7 +41,7 @@ ms.locfileid: "7386588"
 2. Kveikja á innsýnareiginleika greiðslu viðskiptavinar:
 
     1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
-    2. Leitaðu að eiginleikanum sem heitir **Innsýn í greiðslu viðskiptavinar (forskoðun)**.
+    2. Leitaðu að eiginleikanum sem heitir **(Forskoðun) Innsýn í greiðslu viðskiptavinar**.
     3. Veldu **Virkja núna**.
 
     Kveikt er á eiginleikanum innsýn í greiðslu viðskiptavinar og hann er tilbúin til skilgreiningar.

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500428"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641161"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -171,7 +171,8 @@ Eftirfarandi virkni vöruhúsastjórnunar er ekki studd eins og er fyrir vinnuá
 - Úrvinnsla á neikvæðum lagerbirgðum.
 - Vinnsla vöruhúsavinnu með athugasemdum sendingar.
 - Vinna vinnslu í vöruhúsi með efnismeðhöndlun/sjálfvirkni vöruhúss.
-- Notkun á mynd afurðarsniðmátsgagna (til dæmis Warehouse Management-fartækjaforrit).
+- Myndir af afurðarsniðmátsgögnum (til dæmis í farsímaforriti Warehouse Management).
+- Samnýting gagna milli fyrirtækja fyrir afurðir.
 
 > [!WARNING]
 > Sumar vöruhúsaaðgerðir verða ekki í boði fyrir vöruhús sem keyra vinnuálag vöruhúsakerfisins í einingarkvarða og eru ekki heldur studdar í vinnuálagi miðstöðvar eða einingarkvarða.
@@ -188,7 +189,6 @@ Eftirfarandi tafla sýnir hvaða eiginleikar á útleið eru studdir og hvar þe
 |--------------------------------------------------------------|-----|------------------------------|
 | Úrvinnsla upprunaskjals                                   | Já | Ekkert |
 | Hleðslu- og flutningsstjórnunarvinnsla                | Já, en aðeins ferli farmáætlunar. Vinnsla flutningsstjórnunar er ekki studd  | Ekkert |
-| Heildarkostnaður og móttaka á vörum í flutningi                                         | Já | Ekkert |
 | Losa í vöruhús                                         | Já | Ekkert |
 | Áætluð dreifing frá dreifingarstöð                                        | Ekkert  | Ekkert |
 | Sendingarsamstæða                                       | Já, þegar álagsáætlun er notuð | Já |
@@ -222,9 +222,10 @@ Eftirfarandi tafla sýnir hvaða eiginleikar á útleið eru studdir og hvar þe
 
 | Vinna                                                          | Stöð | Vinnuálag vöruhúsakeyrslu í einingakvarða<BR>*(Vörur merktar „Já“ eiga aðeins við um vöruhúsapantanir)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Úrvinnsla&nbsp;upprunaskjals&nbsp;                             | Já | Ekkert |
-| Hleðslu- og flutningsstjórnunarvinnsla                    | Já | Ekkert |
-| Staðfesting sendingar á innleið                                    | Já | Ekkert |
+| Úrvinnsla&nbsp;upprunaskjals&nbsp;                             | Já | Nei |
+| Hleðslu- og flutningsstjórnunarvinnsla                    | Já | Nei |
+| Heildarkostnaður og móttaka á vörum í flutningi                       | Já | Nei |
+| Staðfesting sendingar á innleið                                    | Já | Nei |
 | Losun innkaupapöntunar til vöruhúss (vinnsla vöruhúsapöntunar) | Já | Ekkert |
 | Afpöntun vöruhúsapöntunarlína<p>Athugið að þetta er aðeins stutt þegar engin skráning er gegn línunni</p> | Já | Ekkert |
 | Móttaka og frágangur innkaupapöntunarvöru                       | <p>Já,&nbsp;þegar&nbsp;það&nbsp;er ekki vöruhúsapöntun</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | <p>Já, þegar innkaupapöntun er ekki hluti af <i>hleðslu</i></p> |

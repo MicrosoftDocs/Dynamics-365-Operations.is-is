@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488084"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644528"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -49,7 +49,7 @@ Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takma
 Þegar prófunarumhverfi Human Resources er búið til er Power Apps prófunarumhverfi einnig búið til í leigjandanum og tengt við umhverfi Human Resources. Power Apps umhverfið, sem nefnt er „TestDrive“, hefur sama reynslutíma og umhverfi Human Resources.
 
 > [!NOTE]
-> Úthlutun prófunarumhverfis Human Resources mun ekki takast ef auðkenndur notandi er ekki með heimild til að búa til Power Apps prófunarumhverfi. Notandinn verður að vera með í notendaflokknum sem getur búið til prófunarumhverfi í Power Platform stjórnendamiðstöðinni. Nánari upplýsingar er að finna í [Stjórna því hver getur búið til og stjórnað umhverfum í Power Platform stjórnendamiðstöðinni](//power-platform/admin/control-environment-creation).
+> Úthlutun prófunarumhverfis Human Resources mun ekki takast ef auðkenndur notandi er ekki með heimild til að búa til Power Apps prófunarumhverfi. Notandinn verður að vera með í notendaflokknum sem getur búið til prófunarumhverfi í Power Platform stjórnendamiðstöðinni. Nánari upplýsingar er að finna í [Stjórna því hver getur búið til og stjórnað umhverfum í Power Platform stjórnendamiðstöðinni](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Skipuleggja umhverfi Human Resources
 

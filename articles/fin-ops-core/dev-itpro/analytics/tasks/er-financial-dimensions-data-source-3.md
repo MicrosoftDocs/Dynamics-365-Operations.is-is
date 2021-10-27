@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773789"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605186"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 3 - hanna skýrslu)
 
@@ -92,7 +92,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 59. Smella á Bæta við eigind.
 60. Í svæðið Heiti, færðu inn 'lýsing'.
 61. Smellt er á Í lagi.
-![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar.](../media/er-financial-dimensions-guides-format1.png)
+![Síðutré sniðshönnuðar.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Varpa skýrslueiningum í gagnagjafa
 1. Smelltu á flipann Vörpun.
@@ -141,7 +141,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 44. Smelltu á Binda.
 45. Smelltu á Vista.
 46. Lokið síðunni.
-![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar.](../media/er-financial-dimensions-guides-format2.png)
+![Síða sniðshönnuðar, skýrsluþáttum varpað í gagnagjafa.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773346"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641112"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Virkja Power BI fyrir altækt birgðabókhald
 
@@ -49,7 +49,10 @@ Fylgið þessum skrefum til að setja upp Power BI-samþættingu.
 1. Stillið **Altækt birgðabókhald** Power BI skýrslu með því að fylgja þessum skrefum:
 
     1. Farið á **Vinnusvæðið mitt**, finnið gagnasafnið fyrir altækt birgðabókhald og síðan í valmyndinni **Valkostir** skal velja **Stillingar**.
-    1. Í **Stillingar fyrir altækt birgðabókhald** skal víkka út **Færibreytur** og uppfæra allar færibreytur eftir þörfum.
+    1. Í **Stillingar fyrir altækt birgðabókhald** skal víkka út **Færibreytur** og uppfæra allar færibreytur eftir þörfum. Einkum skal gæta þess að skoða eftirfarandi stillingar:
+        1. Skrifa yfir sjálfgefin **Dataverse vefslóð** og **umhverfisauðkenni** með því að nota gildin sem finna má á **umhverfisupplýsingasíðu** í LCS (í **Power Platform samþættingarhlutanum**).
+        1. Veldu tengilinn **Breyta skilríkjum** við hliðina á **Cds**-merkinu í hlutanum **Skilríki gagnagjafa**. Skráðu þig síðan inn á Dataverse reikninginn þinn með **OAuth2** sannvottunaraðferðinni.
+    1. Staðfestu að Power BI skýrslurnar á **vinnusvæðinu mínu \> Skýrslur \> altækt birgðabókhald** virki nú rétt og sýni efni úr kerfinu.
 
 1. Skrá forritið eins og lýst er í [Stilla PowerBI.com samþættingu](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Samþættið **Altækt birgðabókhald** Power BI skýrsluskrá við Dynamics 365 Supply Chain Management með því að fylgja þessum skrefum:

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 59b2cc1dae5774322d47f76e1213f0e8c8a0b8b244a68c113e34484c1e59b209
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 395282eb267e7e356fca6087f99c6f193741ac9d
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767219"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605158"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leyfa notendum að setja upp tilvísun á ER snið þar sem spurt er um snið frá altæku geymslunni
 
@@ -34,27 +34,27 @@ Til dæmis þegar þú stillir [færibreytur erlendra viðskipta](../../../finan
 
 Þegar núverandi fjármálatilvik inniheldur engin snið rafrænnar skýrslugerðar fyrir Intrastat-viðskiptaferli verður þessi uppflettireitur auður.
 
-[![Síðan Færibreytur erlendra viðskipta.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Síðan Færibreytur erlendra viðskipta, vörpunarsvæði fyrir tómt skýrslusnið.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Ef núverandi tilvik Finance inniheldur Intrastat-viðskiptaferli sem tengjast ER-sniðum býður þessi uppflettireitur ER-sniðmátin.
 
-[![Síðan Færibreytur erlendra viðskipta.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Síðan Færibreytur erlendra viðskipta, vörpunarsvæði fyrir skýrslusnið með valkostum.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Þessi uppfletting býður aðeins upp á ER snið sem þegar hafa verið flutt inn í núverandi tilvik Finance. Til að [flytja inn](./tasks/er-import-configuration-lifecycle-services.md) ER-lausnir í núverandi tilvik Finance þarftu að hafa heimildir til að keyra viðeigandi aðgerð ER ramma sem styður [líftíma](general-electronic-reporting-manage-configuration-lifecycle.md) ER-lausna sem innihalda ER-snið.
 
 Byrjað er á útgáfu 10.0.9 af Finance (útgáfa apríl 2020), notendaviðmót ER-sniðsins, sem er útfært með því að nota ER-ramma API, hefur verið framlengt. Þú getur samt valið núverandi ER snið, sem er á flýtiflipanum **Velja sniðstillingu**. Þar að auki býður útvíkkun uppflettingar upp á nýjan valkost til að leita í altækri geymslu (GR) til að finna tiltekin snið rafrænnar skýrslugerðar. Öll ER snið GR eru í boði á flýtiflipanum **Flytja úr altækri geymslu**.
 
-[![Síðan Færibreytur erlendra viðskipta.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Síðan Færibreytur erlendra viðskipta, flytja inn frá flýtiflipa altækrar geymslu.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Svipað flipanum **Velja sniðstillingu**, sýnir flýtiflipinn **Flytja úr altækri geymslu** aðeins ER-snið sem eiga við um viðskiptaferlið sem ER-snið er valið fyrir í þessum uppflettisreit. Í þessu dæmi, kynslóð af Intrastat skýrslunni. ER sniðið gildir fyrir fyrirtækið sem notandinn er skráður inn í, allt eftir samhengi fyrirtækislandsins.
 
 Þegar þú velur ER snið á flýtiflipanum **Flytja úr altækri geymslu** er valið ER-snið [stillingar](general-electronic-reporting.md#Configuration) flutt inn úr GR í núverandi tilvik Finance.
 
-[![Síðan Færibreytur erlendra viðskipta.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Síðan Færibreytur erlendra viðskipta, vinnsla á athugasemd aðgerðar.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Ef innflutningi lýkur síðan er tilvísunin í innflutt ER snið geymd í þessum uppflettisreit. Þegar altæk geymsla (GR) er opnuð í fyrsta sinn verður að smella á viðkomandi tengil til að skrá sig fyrir [Skilgreiningarþjónustu reglugerðar](https://aka.ms/rcs) (RCS) sem er notuð til að stjórna aðgangi að altæku geymslunni (GR).
 
-[![Síðan Færibreytur erlendra viðskipta.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Síðan Færibreytur erlendra viðskipta, tengill til að skrá þig fyrir RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Sjálfgefið er flýtiflipinn **Flytja úr altækri geymslu** kynnir lista yfir ER snið úr tímabundinni geymslu sem er sjálfkrafa búin til á grundvelli GR innihalds til að bæta árangur. Þetta gerist þegar flýtiflipinn **Flytja úr altækri geymslu** er opnaður í fyrsta skipti sem getur tekið nokkrar sekúndur.
 

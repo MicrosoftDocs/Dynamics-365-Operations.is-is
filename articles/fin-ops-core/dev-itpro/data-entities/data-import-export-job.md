@@ -2,7 +2,7 @@
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404035"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612365"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -198,16 +198,10 @@ Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytu
 > [!NOTE]
 > Ef færslur í sviðsetningatöflunum eru ekki hreinsaðar alveg upp skaltu tryggja að hreinsunarvinnslan sé áætluð til að keyra endurtekið. Eins og lýst er hér að ofan, í öllum hreinsunarframkvæmdum mun vinnslan aðeins hreinsa upp eins mörg framkvæmdakenni og hægt er innan hámarkstímanna. Til að halda áfram að hreinsa allar eftirstandandi sviðsetningarskrár verður að vinnslan að vera áætluð í reglulega keyrslu.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Hreinsun vinnsluferils og safnskráar (í boði fyrir forskoðun í verkvangsuppfærslu 39 eða útgáfu 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Hreinsun og safnvistun vinnsluferils 
 Hreinsun vinnsluferils og virkni safnskráar kemur í stað fyrri útgáfa af virkni hreinsunar. Þessi hluti útskýrir þessa nýju eiginleika.
 
-Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun runuvinnslu kerfis gerir Finance and Operations -forritum kleift að hreinsa runuvinnsluna samkvæmt sjálfkrafa áætlun og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar 12 á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir.
-
-> [!NOTE]
-> Þetta er forskoðun þessarar virkni og því um runuvinnsla kerfis ekki eyða framkvæmdarferli þar til slíkt er virkjað með forútgáfunni DMFEnableExecutionHistoryCleanupSystemJob. Þegar eiginleikinn er almennt tiltækur í síðari útgáfu verður forútgáfunnar ekki krafist og runuvinnsla kerfisins hefst á hreinsun og safnvistun um leið og kerfið er tilbúið samkvæmt skilgreindu áætluninni eins og lýst er hér á undan. 
-
-> [!NOTE]
-> Í síðari útgáfu verða fyrri útgáfur eiginleika hreinsunar fjarlægðar úr Finance and Operations -forritum.
+Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun runuvinnslu kerfis gerir Finance and Operations -forritum kleift að hreinsa runuvinnsluna samkvæmt sjálfkrafa áætlun og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir. Frá og með útgáfu 10.0.20 er þessi eiginleiki alltaf í gangi.
 
 Önnur breytingin á hreinsunarferlinu er safnvistun á hreinsuðum framkvæmdarferli. Hreinsunarvinnslan safnvistar eyddum færslum í BLOB-geymslu sem DIXF notar fyrir reglubundnar samþættingar. Safnvistaða skráin verður á DIXF-pakkasniði og verður tiltæk í 7 daga í BLOB og verður hægt að hlaða hana niður á því tímabili. Hægt er að breyta sjálfgefinni tímalengd 7 daga fyrir safnvistuðu skrána í að hámarki 90 daga í færibreytunum.
 

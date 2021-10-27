@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718552"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605372"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Stilla landssamhengisháðar varpanir ER-líkans
 
@@ -48,7 +48,7 @@ Sum skref í þessu efni þurfa að framkvæma ER snið. Í sumum tilvikum verð
 
 Fylgdu skrefunum í [Viðauki 1](#appendix1) af þessu efni til að hanna nauðsynlega ER íhluti. Núna ertu með stillingu líkanavörpunar **Vörpun (almennt)** sem inniheldur líkanavörpun fyrir skilgreininguna **Inngangsstaður 1**.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, snið til að læra vörpunarskilgreiningar.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>Keyra skilgreinint snið
 
@@ -61,7 +61,7 @@ Taktu eftir að vafrinn býður upp á að hlaða niður textaskránni sem myndu
 
 Fylgdu skrefunum í [Viðauki 2](#appendix2) af þessu efni til að hanna nauðsynlega ER íhluti. Núna ertu með stillingar líkanavörpunar **Vörpun (almennt)** og **Vörpun (almennt) sérsnið** sem inniheldur hvor fyrir sig líkanavörpun fyrir skilgreininguna **Aðgangsstaður 1**.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, kortlagning almennra og sérsniðinna stillinga.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>Keyra skilgreinint snið
 
@@ -71,7 +71,7 @@ Fylgdu skrefunum í [Viðauki 2](#appendix2) af þessu efni til að hanna nauðs
 
 Taktu eftir að framkvæmd á völdu ER sniði tókst ekki. Villuboð upplýsa þig um að fleiri en ein gerð vörpunar er til fyrir líkanið **Líkan til að læra varpanir** og skilgreininguna **Aðgangsstaður 1** á stillingum líkanavarpana **Kortlagning (almennt)** og **Kortlagning (almenn) sérsniðin**. Skilaboðin mæla einnig með að þú veljir eina af þessum stillingum sem sjálfgefna stillingu.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar með villuboðum.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Skilgreindu sjálfgefna líkanavörpun
 
@@ -82,7 +82,7 @@ Fylgdu þessum skrefum til að skilgreina stillingu líkanavörpunar **Kortlagni
 3.  Stillið valkostinn **Sjálfgefið fyrir líkanavörpun** á **Já**.
 4.  Veldu **Vista**.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, sjálfgefið fyrir sleða vörpunar líkans á Já.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Keyra skilgreinint snið
 
@@ -101,7 +101,7 @@ Fylgdu skrefunum í [Viðauki 3](#appendix3) af þessu efni til að hanna nauðs
 
 Taktu eftir að útgáfa 1 af stillingu líkanavörpunar **Vörpun (FR)** er þannig stillt að hún á aðeins við um ER-snið í líkaninu **Líkan til að læra varpanir** sem eru keyrði í fjármálafyrirtækjum sem hafa franskt lands-/svæðissamhengi.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, vörpun líkans (FR) stilling.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>Keyra skilgreinint snið
 
@@ -121,7 +121,7 @@ Fylgdu þessum skrefum til að skilgreina sérsniðna líkanavörpunarstillingu 
 3.  Stillið valkostinn **Sjálfgefið fyrir líkanavörpun** á **Já**.
 4.  Veldu **Vista**.
 
-![Skilgreiningarsíða ER.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, vörpun (FR) stilling, sjálfgefið fyrir sleða vörpunar líkans á Já.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>Keyra skilgreinint snið
 
@@ -276,7 +276,7 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 5.  Veljið **Vista**.
 6.  Lokaðu síðunni **Formúluhönnuður**.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, aðgangsstaður 1 skilgreining.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Veldu **Vista**.
 8.  Lokið síðunni **Hönnuður líkanavörpunar**.
@@ -289,12 +289,12 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 15. Veljið **Vista**.
 16. Lokaðu síðunni **Formúluhönnuður**.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, aðgangsstaður 2 skilgreining.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Veldu **Vista**.
 18. Lokið síðunni **Hönnuður líkanavörpunar**.
 
-    ![Síða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Síða ER-líkanavörpunar með skilgreiningar aðgangsstaðs.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Lokið síðunni **Líkanavarpanir**.
 
@@ -369,7 +369,7 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 6.  Veldu **Vista**.
 7.  Lokið síðunni.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, almenn virkni 1 sérstillt formúla.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Veldu **Vista**.
 9.  Lokið síðunni.
@@ -380,12 +380,12 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 14. Veldu **Vista**.
 15. Lokið síðunni.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, almenn virkni 2 sérstillt formúla.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Veldu **Vista**.
 17. Lokið síðunni.
 
-    ![Síða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![ER-líkan í vörpunarsíðu gagnagjafa fyrir vörpun (almennt) afritunarvörpun.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Lokið síðunni.
 
@@ -432,7 +432,7 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 7.  Veldu **Vista**.
 8.  Lokið síðunni.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, FR-virkni 1 formúla.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Veldu **Vista**.
 10. Lokið síðunni.
@@ -444,12 +444,12 @@ Taktu eftir að drög að útgáfu 1 af þessari ER stillingu eru tilbúin til b
 16. Veldu **Vista**.
 17. Lokið síðunni.
 
-    ![Hönnuðarsíða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Hönnuðarsíða ER-líkanavörpunar, FR-virkni 2 formúla.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Veldu **Vista**.
 19. Lokið síðunni.
 
-    ![Síða ER-líkanavörpunar.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![ER-líkan í vörpunarsíðu gagnagjafa.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Lokið síðunni.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770021"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605231"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
 
@@ -160,7 +160,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
     - **Vörpun greiðslulíkans 1611** – Þessi skilgreining inniheldur hlutann [líkanavörpun](general-electronic-reporting.md#data-model-and-model-mapping-components) fyrir rafræna skýrslugerð sem lýsir því hvernig gagnalíkanið er fyllt út með forritsgögnum við keyrslu.
     - **BACS (Bretland)** – Þessi skilgreining inniheldur hlutann [snið](general-electronic-reporting.md#FormatComponentOutbound) og sniðsvörpun í rafrænni skýrslugerð. Sniðshlutinn tilgreinir útlit skýrslunnar. Sniðsvörpunarhlutinn inniheldur gagnagjafa líkansins og tilgreinir hvernig fyllt er út í skýrsluútlitið með því að nota þennan gagnagjafa við keyrslu.
 
-![Skilgreiningasíða.](./media/er-quick-start2-imported-solution1.png)
+![Skilgreiningasíða með skilgreindum skilgreiningum rafrænnar skýrslugerðar í trénu.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Undirbúa greiðslu lánardrottins fyrir úrvinnslu
 
@@ -222,7 +222,7 @@ Skilgreina þarf rafrænan greiðslumáta þannig að hann noti innflutta skilgr
 4. Í flýtiflipanum **Skráarsnið** skal stilla valkostinn **Almennt rafrænt útflutningssnið** á **Já**.
 5. Í reitnum **Skilgreining útflutningssniðs** skal velja skilgreiningarsniðið **BACS (Bretland)**.
 
-    ![Greiðslumátar - síða lánardrottins.](./media/er-quick-start2-method-of-payment1.png)
+    ![Greiðslumátar - síða lánardrottins til að setja upp rafrænan greiðslumáta til að vinna greiðslur frá lánardrottnum með hefðbundnu sniði.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Veldu **Vista**.
 
@@ -273,7 +273,7 @@ Fyrir dæmið sem sýnt er í þessum hluta er best að nota skilgreiningar rafr
 
 Útgáfa 1.1.1 af **BACS (Bresk tollayfirvöld)** skilgreiningarsniði rafrænnar skýrslugerðar er stofnuð. Þessi útgáfa er með [stöðuna](general-electronic-reporting.md#component-versioning) **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
 
-![Skilgreiningasíða.](./media/er-quick-start2-derived-format-configuration1.png)
+![Skilgreiningasíða með útgáfu 1.1.1 af BACS (UK custom) skilgreiningarsniði rafrænnar skýrslugerðar.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Breyta sérsniðnu sniði
 
@@ -349,7 +349,7 @@ Skilgreina þarf rafrænan greiðslumáta þannig að sérstillt snið rafrænna
 4. Í flýtiflipanum **Skráarsnið** skal stilla valkostinn **Almennt rafrænt útflutningssnið** á **Já**.
 5. Í reitnum **Skilgreining útflutningssniðs** skal velja skilgreiningarsniðið **BACS (Bresk tollayfirvöld)**.
 
-    ![Greiðslumátar - síða lánardrottins.](./media/er-quick-start2-method-of-payment2.png)
+    ![Greiðslumátar - síða lánardrottins til að setja upp rafrænan greiðslumáta til að vinna greiðslur frá lánardrottnum með sérstilltu sniði.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Veldu **Vista**.
 
@@ -378,7 +378,7 @@ Skilgreina þarf rafrænan greiðslumáta þannig að sérstillt snið rafrænna
 
         Takið eftir því, í samræmi við skipulag á sérstilltu sniði rafrænnar skýrslugerðar, að greiðslulínan [hefst](#PositionSWIFTCode) nú á SWIFT-kóðanum sem var [sleginn inn](#DefineSWIFTCode) fyrir bankareikning lánardrottins sem er með greiðslu sem unnið hefur verið úr.
 
-        ![Greiðsluskrá á TXT-sniði.](./media/er-quick-start2-payment-file2.png)
+        ![Greiðsluskrá á TXT-sniði notuð til að vinna greiðslu lánardrottins.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Flytja inn nýjar útgáfur af stöðluðum skilgreiningum rafræns skýrslugerðarsniðs
 
@@ -395,7 +395,7 @@ Til að bæta nýjum útgáfum af skilgreiningum rafrænnar skýrslugerðar við
 5. Í flýtiflipanum **Útgáfur** skal velja útgáfuna **3.3** af valdri skilgreiningu rafræns skýrslugerðarsniðs.
 6. Veljið **Flytja inn** til að sækja valda útgáfu úr altækri geymslu í núverandi fjármálatilvik.
 
-![Gagnageymslusíða skilgreininga.](./media/er-quick-start2-import-solution2.png)
+![Skilgreiningageymslusíða, flýtiflipi útgáfa, Flytja inn hnappur.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Ef það reynist erfitt að opna [Altæka geymsla](er-download-configurations-global-repo.md) er hægt að [sækja skilgreiningar](download-electronic-reporting-configuration-lcs.md) hjá LCS í staðinn.
@@ -507,7 +507,7 @@ Til að byrja að nota nýja virkni fyrir útgáfu 3.3 af sniðinu **BACS (Bretl
 
         Takið eftir því að greiðslulínan í myndaðri skrá hefst á SWIFT-kóðanum sem var sleginn inn fyrir bankareikning lánardrottins sem er með greiðslu sem unnið hefur verið úr.
 
-        ![Greiðsluskrá á TXT-sniði.](./media/er-quick-start2-payment-file3.png)
+        ![Greiðsluskrá á TXT-sniði notuð til að vinna greiðslu lánardrottins með endurstilltan grunn rafræns skýrslugerðarsniðs.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Frekari upplýsingar
 

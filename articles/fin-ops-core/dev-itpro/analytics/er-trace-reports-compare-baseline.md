@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769925"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605206"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
 
@@ -76,7 +76,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 3. Í fellilistanum, í reitnum **Heiti**, slærðu inn **Líkan til að læra ER-grunnlínur**.
 4. Veldu **Stofna skilgreiningu** til að staðfesta stofnun nýrrar færslu ER-gagnalíkans.
 
-![Fellilisti í svarglugga fyrir stofnun skilgreiningar.](media/GER-BaselineSample-ModelAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
+![Stofna svarglugga skilgreiningar, bæta við nýrri skilgreiningu líkans í Rafræn skýrslugerð.](media/GER-BaselineSample-ModelAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
 
 ### <a name="design-a-data-model"></a>Setja upp gagnalíkan
 
@@ -99,7 +99,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 3. Í reitnum **Heiti** slærðu inn **Sniðmát til að læra ER-grunnlínur**.
 4. Veldu **Stofna skilgreiningu** til að staðfesta stofnun nýrrar færslu ER-sniðmáts.
 
-![Fellilisti í svarglugga fyrir stofnun skilgreiningar.](media/GER-BaselineSample-FormatAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
+![Stofna svarglugga skilgreiningar, bæta við nýrri skilgreiningu sniðs í Rafræn skýrslugerð.](media/GER-BaselineSample-FormatAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
 
 ### <a name="design-a-format"></a>Setja upp snið
 
@@ -107,41 +107,41 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 
 1. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, velurðu **Hönnuður**.
 2. Veljið **Bæta við rót**.
-2. Í fellilistanum skaltu fylgja þessum skrefum:
+3. Í fellilistanum skaltu fylgja þessum skrefum:
 
     1. Í trénu velurðu **Almennt\\Skrá**.
     2. Í reitinn **Heiti** skal færa inn **Frálag**.
     3. Veljið **Í lagi**.
 
-3. Veljið **Bæta við**.
-4. Í fellilistanum skaltu fylgja þessum skrefum:
+4. Veljið **Bæta við**.
+5. Í fellilistanum skaltu fylgja þessum skrefum:
 
     1. Í trénu velurðu **XML\\Eining**.
     2. Í reitinn **Heiti** skal færa inn **Fylgiskjal**.
     3. Veljið **Í lagi**.
 
-5. Í trénu velurðu **Úttak\\Skrá**.
-6. Veljið **Bæta við**.
-7. Í fellilistanum skaltu fylgja þessum skrefum:
+6. Í trénu velurðu **Úttak\\Skrá**.
+7. Veljið **Bæta við**.
+8. Í fellilistanum skaltu fylgja þessum skrefum:
 
     1. Í trénu skal velja **XML\\Eigind**.
     2. Í reitnum **Heiti** færirðu inn **Kenni**.
     3. Veldu **Í lagi**.
 
-    ![Síða sniðshönnuðar.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
+    ![Síða sniðshönnuðar, XML eigind valin í tré.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
 
-8. Á flipanum **Vörpun** velurðu **Eyða**.
-9. Veljið **Bæta við rót**.
-10. Í fellilistanum, í trénu, velurðu **Almennt\\Innsláttarfæribreytur notanda** og fylgja síðan þessum skrefum:
+9. Á flipanum **Vörpun** velurðu **Eyða**.
+10. Veljið **Bæta við rót**.
+11. Í fellilistanum, í trénu, velurðu **Almennt\\Innsláttarfæribreytur notanda** og fylgja síðan þessum skrefum:
 
     1. Í reitnum **Heiti** færirðu inn **Kenni**.
     2. Í reitnum **Merki** slærðu inn **Færa inn kenni**.
     3. Veljið **Í lagi**.
 
-11. Í trénu velurðu **Úttak\\Fylgiskjal\\Kenni**.
-12. Veldu **Binda** og síðan **Vista**.
+12. Í trénu velurðu **Úttak\\Fylgiskjal\\Kenni**.
+13. Veldu **Binda** og síðan **Vista**.
 
-![Síða sniðshönnuðar.](media/GER-BaselineSample-FormatMappingDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
+![Síða sniðshönnuðar, vörpunarflipi.](media/GER-BaselineSample-FormatMappingDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
 
 Skilgreint snið mun mynda XML-skrá sem byggir á uppsettri uppbyggingu. Þetta XML inniheldur þáttinn **Rót** sem hefur eiginleikann **Kenni** sem er stillt á það gildi sem notandinn slær inn í svargluggann ER-svargluggi.
 
@@ -201,7 +201,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 10. Í reitnum **Grunngildi** slærðu inn eða velur viðhengið **out.Admin**.
 11. Veldu **Vista**.
 
-![Síða grunnlína rafræns skýrslugerðarsniðs.](media/GER-BaselineSample-SetupBaselineLine.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
+![Síður grunnlína rafræns skýrslugerðarsniðs, flýtiflipi grunnlína með grunnlínu valinn.](media/GER-BaselineSample-SetupBaselineLine.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Keyrðu uppsett ER-snið og endurskoðaðu skrána til að greina niðurstöðurnar
 
@@ -212,7 +212,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 5. Veljið **Í lagi**.
 6. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Kembingarkladdar skilgreiningar**.
 
-    ![Síða keyrslukladda rafrænnar skýrslugerðar.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
+    ![Síða keyrslukladda rafrænnar skýrslugerðar, með jöfnum grunnlínum.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
 
     > [!NOTE]
     > Framkvæmdakladdinn inniheldur upplýsingar um niðurstöður samanburðar á myndaðri skrá við skilgreinda grunnlínu. Í þessu dæmi bendir kladdinn á að mynduð skrá og grunnlínan eru eins.
@@ -228,7 +228,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 5. Veljið **Í lagi**.
 6. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Kembingarkladdar skilgreiningar**.
 
-    ![Síða keyrslukladda rafrænnar skýrslugerðar.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
+    ![Síða keyrslukladda rafrænnar skýrslugerðar, með ólíkum grunnlínum.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
 
     > [!NOTE]
     > Framkvæmdakladdinn inniheldur upplýsingar um niðurstöður samanburðar á myndaðri skrá við skilgreinda grunnlínu. Í þessu dæmi bendir kladdinn á að mynduð skrá og grunnlínan eru ólíkar.
