@@ -96,12 +96,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.23
+                      href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (nóvember 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (október 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
-                    - name: Commerce 10.0.20 (ágúst 2021)
-                      href: get-started/whats-new-commerce-10-0-20.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -938,6 +938,8 @@
                   href: enable-store-detection.md
                 - name: Stafræn rafræn gjafakort
                   href: digital-gift-cards.md
+                - name: Skilgreina afurð sem á að kaupa án endurgjalds
+                  href: configure-free-product.md
                 - name: Vafrakröfur fyrir Dynamics 365 Commerce vefsvæði
                   href: browser-requirements.md
             - name: Dæmi um yfirlit svæðis
@@ -1518,6 +1520,8 @@
           items:
             - name: Yfirlit yfir rafræna skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Hlutar rafrænar skýrslugerðar
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreiningar
               items:
                 - name: Stofna skilgreiningar
@@ -1582,6 +1586,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1726,6 +1732,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1832,12 +1840,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Hanna snið rafrænnar skýrslugerðar til að mynda skjöl á útleið á mismunandi sniðum
               items:
+                - name: Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Hanna skilgreiningar til að mynda skjöl á Excel-sniði á útleið
                   items:
                     - name: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dæmi um myndun skýrslna á OPENXML-sniði
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
@@ -1846,6 +1854,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+                    - name: Hanna snið rafrænnar skýrslugerðar til að skipta skjölum mynduðum í Excel á síður
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Hanna skilgreiningar til að búa til skýrslur á Word-sniði
                   items:
                     - name: Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
@@ -1868,6 +1878,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: Hannaðu snið rafrænnar skýrslugerðar til að búa til Excel-skýrslu með innfelldum myndum í síðuhausum eða síðufótum
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Útiloka uppskriftarstafi í mynduðum skrám
@@ -2004,8 +2016,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Kemba gagnagjafa
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Nota STRIKAMERKI til að búa til strikamerkismyndir
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina vörpun líkana
                   items:
                     - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
@@ -2123,19 +2133,23 @@
                     - name: Forritsuppfærsla 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                     - name: Forritsuppfærsla 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
+                    - name: Forritsuppfærsla 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Úthluta stofnun á áfangastað rafrænnar skýrslugerðar á sérstillta verksmiðju á áfangastað
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Innleiða sérsniðinn áfangastað fyrir skjöl sem eru mynduð
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                    - name: Innleiða sérsniðinn áfangastað fyrir skjöl sem eru mynduð
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Keyra gildi gagnaveitu af gerðinni USER INPUT PARAMETER úr frumkóða
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
                 - name: Breyta kóða til að gera notendum kleift að skilgreina og nota nefnda áfangastaði rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: Innleiða sérsniðinn uppruna rafrænnar skýrslugerðar skjala á innleið
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) farsímaforrit
           items:
             - name: Heimasíða fartækjaforrits

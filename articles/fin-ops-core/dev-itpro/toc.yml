@@ -12,14 +12,14 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nýjungar eða breytingar í uppfærslum á verkvangi
               items:
-                - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
+                - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.22 (nóvember 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.21 (október 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Viðskiptatilvik
-          items:
-            - name: Yfirlit viðskiptatilvika
-              href: business-events/home-page.md
-            - name: Viðskiptatilvik forrits
-              href: business-events/app-business-events.md
-            - name: Viðskiptatilvik verkflæðis
-              href: business-events/business-events-workflow.md
-            - name: Viðskiptatilvik runu
-              href: business-events/system-business-events.md
-            - name: Viðvaranir sem viðskiptatilvik
-              href: business-events/alerts-business-events.md
-            - name: Viðskiptatilvik í Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Fylgiskjöl þróunaraðila viðskiptatilvika
-              href: business-events/business-events-dev-doc.md
-            - name: Úrræðaleit vegna viðskiptatilvika
-              href: business-events/troubleshooting.md
-            - name: Dæmi um notkun viðskiptatilvika
-              href: business-events/potential-use-cases.md
-            - name: Kennsla
-              items:
-                - name: Viðskiptatilvik og Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Viðskiptatilvik og hnitanet Azure-tilviks
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Viðskiptatilvik og þjónustutengibraut Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Viðskiptatilvik og verkflæðissamþykki
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Viðskiptatilvik og Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
-                  href: business-events/how-to/event-hub.md
-                - name: Viðskiptatilvik við lokun fjárhagstímabils
-                  href: business-events/how-to/period-close.md
         - name: Samfelld afhending
           items:
             - name: Samfelld afhending – heimasíða
@@ -586,13 +550,13 @@
                   href: dev-tools/projects.md
                 - name: Verkfærainnbætur fyrir Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
-                - name: Uppfæra Visual Studio-þróunarverkfærin
+                - name: Uppfæra Visual Studio-þróunarverkfæri
                   href: dev-tools/update-development-tools.md
             - name: X++ forritunartungumál
               items:
-                - name: X++ tungumálastuðningur
+                - name: Tungumálastuðningur við X++
                   items:
-                    - name: Visual Studio 2017 kröfur fyrir X++
+                    - name: Visual Studio kröfur fyrir X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: Kemba X++ kóða
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Eiginleikar Forritaskoðara
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute-eigind
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: Leiðbeiningar um X++ forritunarmálið
                   items:
                     - name: Yfirlit yfir leiðbeiningar um X++ forritunarmálið
@@ -1038,6 +1004,10 @@
           items:
             - name: Microsoft Power Platform samþætting við Finance and Operations
               href: power-platform/overview.md
+            - name: Kveikt á samþættingu Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: Sannvottun og heimild
+              href: power-platform/authentication-and-authorization.md
             - name: Tvöföld skrif
               items:
                 - name: Tvöföld skrif – heimasíða
@@ -1082,8 +1052,10 @@
                       href: data-entities/dual-write/custom-best-practices.md
                     - name: Unnið með mörg einingakort
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
+                    - name: Breyta lögaðila eftir uppsetningu á tvöfaldri skráningu
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Gera hlé á tvöfaldri skráningu fyrir viðhald
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Umsjón með villum og viðvörunartilkynningum
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Líftímastjórnun forrits
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: Staðfesta stillingu tvöfaldrar skráningar í Finance and Operations forritum og Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Villukóðar fyrir ástandsskoðun töflukorts
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Algengar spurningar um tvöföld skrif
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Sýndareiningar
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Líftímastjórnun forrits
                   href: power-platform/application-lifecycle-management.md
-                - name: Tilvísun stjórnanda Finance and Operations og Dataverse
+                - name: Skilgreina sýndareiningar Dataverse
                   href: power-platform/admin-reference.md
+                - name: Kveikja á sýndareiningum Dataverse
+                  href: power-platform/enable-virtual-entities.md
                 - name: Power Apps gáttir með Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Finance and Operations Algengar spurningar um sýndareiningar
                   href: power-platform/faq.md
+            - name: Viðskiptatilvik
+              items:
+                - name: Yfirlit viðskiptatilvika
+                  href: business-events/home-page.md
+                - name: Viðskiptatilvik forrits
+                  href: business-events/app-business-events.md
+                - name: Viðskiptatilvik verkflæðis
+                  href: business-events/business-events-workflow.md
+                - name: Viðskiptatilvik runu
+                  href: business-events/system-business-events.md
+                - name: Viðvaranir sem viðskiptatilvik
+                  href: business-events/alerts-business-events.md
+                - name: Gagnatilvik
+                  href: business-events/data-events.md
+                - name: Viðskiptatilvik í Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Fylgiskjöl þróunaraðila viðskiptatilvika
+                  href: business-events/business-events-dev-doc.md
+                - name: Úrræðaleit vegna viðskiptatilvika
+                  href: business-events/troubleshooting.md
+                - name: Dæmi um notkun viðskiptatilvika
+                  href: business-events/potential-use-cases.md
+                - name: Kennsla
+                  items:
+                    - name: Viðskiptatilvik og Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Viðskiptatilvik og hnitanet Azure-tilviks
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Viðskiptatilvik og þjónustutengibraut Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Viðskiptatilvik og verkflæðissamþykki
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Viðskiptatilvik og Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
+                      href: business-events/how-to/event-hub.md
+                    - name: Viðskiptatilvik við lokun fjárhagstímabils
+                      href: business-events/how-to/period-close.md
             - name: Innbætur
               items:
                 - name: Yfirlit innbóta
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Hætta við runuvinnslu í framkvæmd
                   href: sysadmin/batch-abort.md
+                - name: OData API runu
+                  href: sysadmin/batch-odata-api.md
             - name: Fínstillingarráðgjöf
               items:
                 - name: Yfirlit yfir Fínstillingarráðgjöf

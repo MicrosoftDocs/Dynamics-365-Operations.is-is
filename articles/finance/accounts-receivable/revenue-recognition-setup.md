@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759018"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675179"
 ---
 # <a name="revenue-recognition-setup"></a>Uppsetning tekjuskráningar
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759018"
 Nýrri einingu **Tekjuskráningar** hefur verið bætt við sem inniheldur valmyndaratriði fyrir alla uppsetningu sem er nauðsynleg. Þetta efnisatriði lýsir uppsetningarvalkostunum og þýðingu þeirra.
 
 > [!NOTE]
-> Ekki er hægt að kveikja á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Nota verður skilgreiningarlykil til að kveikja á honum.
-
-> Tekjuskráning, þ.á m. búntaðgerð, er ekki studd fyrir notkun í Commerce-rásum (rafrænum viðskiptum, sölustað, símaveri). Ekki skal bæta vörum, sem skilgreindar eru með tekjuskráningu, við pantanir eða færslur sem stofnaðar eru í Commerce-rásum.
+> Núna er sjálfgefið kveikt á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Ef fyrirtækið notar ekki þennan eiginleika er hægt að slökkva á honum á vinnusvæði **eiginleikastjórnunar**.
+>
+> Tekjuskráning, þ.m.t. búntaðgerð, er ekki studd í Commerce-rásum (rafrænum viðskiptum, sölustað, símaveri). Ekki skal bæta vörum sem skilgreindar eru fyrir tekjuskráningu við pantanir eða færslur sem stofnaðar eru í Commerce-rásum.
 
 Einingin **Tekjuskráning** er með eftirfarandi uppsetningarvalkosti:
 
@@ -40,12 +40,16 @@ Einingin **Tekjuskráning** er með eftirfarandi uppsetningarvalkosti:
     - Vöruflokkar og útgefnar afurðir
     - Skilgreining tekjuáætlunar
     - Skilgreining tekjuupphæðar
+    - Uppsetning birgða
 
-        - Bókunarreglur
-        - Búnt
+        - Skilgreining tekjuáætlunar
+        - Skilgreining tekjuupphæðar
 
-    - Búnthlutir
-    - Búntvara
+    - Bókunarreglur
+    - Búnt
+
+        - Búnthlutir
+        - Búntvara
 
 - Verkuppsetning
 
@@ -91,20 +95,27 @@ Sláið inn lýsandi gildi í reitina **Tekjuáætlun** og **Lýsing**. Eftirfar
 - **Sjálfvirkir samningsskilmálar** – Veljið þennan gátreit ef stilla á upphafs-og lokadagsetningar samningsins sjálfkrafa. Þessar dagsetningar eru eingöngu stilltar sjálfkrafa fyrir útgefnar afurðir af tekjugerðinni **Stuðningur á samningstíma**. Upphafsdagsetning samnings er sjálfkrafa stillt á umbeðna sendingardagsetningu sölupöntunarlínu og lokadagsetning samnings er sjálfkrafa stillt á upphafsdagsetningu að viðbættum fjölda mánaða eða tilvika sem er skilgreint í uppsetningu tekjuáætlunar. Til dæmis er afurðin á sölupöntunarlínunni fyrir eins ára ábyrgð. Sjálfgefin tekjuáætlun er **12M** (12 mánuðir) og gátreiturinn **Sjálfvirkir samningsskilmálar** er valinn fyrir þessa tekjuáætlun. Ef sölupöntunarlínan er með umbeðna sendingardagsetningu 16. desember 2019 verður sjálfgefin upphafsdagsetning samnings að 16. desember 2019 og sjálfgefin lokadagsetning samnings verður að 15. desember 2020.
 - **Skráningargrunnur** – Skráningargrunnurinn ákvarðar hvernig tekjuupphæð er úthlutað á milli tilvika.
 
-    - **Mánaðarlega eftir dagsetningum** – Upphæðinni er úthlutað samkvæmt raunverulegum dögum í hverjum mánuði.
+    - **Mánaðarlega eftir dögum** – Upphæðinni er úthlutað samkvæmt raunverulegum dögum í hverjum almanaksmánuði.
     - **Mánaðarlega** – Upphæðinni er úthlutað jafnt yfir fjölda mánaða sem er skilgreindur í tilvikunum.
     - **Tilvik** – Upphæðinni er úthlutað jafnt á milli tilvika, en það getur falið í sér aukalegt tímabil ef **Raunveruleg upphafsdagsetning** er valin sem viðtekin skráning.
+    - **Fjárhagstímabil eftir dögum** – Upphæðinni er úthlutað samkvæmt raunverulegum dögum á hverju fjárhagstímabili. 
 
-- **Viðtekin skráning** – Viðtekin skráning ákvarðar sjálfgefnu dagsetningarnar sem eru stilltar í tekjuáætluninni fyrir reikninginn.
+    Niðurstöður **Mánaðarlega eftir dögum** og **Fjárhagstímabil eftir dögum** verða þær sömu þegar fjárhagstímabilin fylgja almanaksmánuðum. Eina undantekningin er þegar skráningarvenjan er stillt á **Lok mánaðar/tímabils** og reitirnir **Upphafsdagur samnings** og **Lokadagur samnings** eru auðir á sölupöntunarlínu.
+
+- **Skráningarvenja** – Skráningarvenjan ákvarðar dagsetningarnar sem eru stilltar í tekjuáætluninni fyrir reikninginn.
 
     - **Raunveruleg upphafsdagsetning** – Áætlunin er stofnuð með því að nota annaðhvort upphafsdagsetningu samningsins (fyrir vörur með stuðning á samningstíma \[PCS\]) eða reikningsdagsetninguna (fyrir nauðsynlegar og ónauðsynlegar vörur).
-    - **Fyrsti dagur mánaðar** – Dagsetning fyrstu áætlunarlínunnar er upphafsdagsetning (eða reikningsdagsetning) samningsins. Hins vegar eru allar síðari áætlunarlínurnar stofnaðar fyrir fyrsta dag mánaðar.
+    - **Fyrsti dagur mánaðar/tímabils** – Dagsetning fyrstu áætlunarlínunnar er upphafsdagur (eða reikningsdagsetning) samningsins. Hins vegar eru allar síðari áætlunarlínurnar stofnaðar fyrir fyrsta dag mánaðar eða fjárhagstímabils.
     - **Skipting um miðbik mánaðar** – Dagsetning fyrstu áætlunarlínunnar fer eftir reikningsdagsetningunni. Ef búið er að bóka reikninginn fyrir fimmtánda dag mánaðarins er tekjuáætlunin búin til með fyrsta degi mánaðarins. Ef búið er að bóka reikninginn á sextánda degi mánaðarins eða síðar stofnast tekjuáætlunin með fyrsta degi næsta mánaðar.
-    - **Fyrsti dagur næsta mánaðar** – Dagsetning áætlunarinnar er fyrsti dagur næsta mánaðar.
 
-Velja skal hnappinn **Sundurliðun tekjuáætlunar** til að skoða almenn tímabil og prósenturnar sem eru skráðar á hverju tímabili. Sjálfgefið er að gildinu **Skrá prósentu** sé skipt jafnt á milli fjölda tímabila. Ef skráningargrunnurinn er stilltur á annaðhvort **Mánaðarlega** eða **Tilvik** er hægt að breyta skráðri prósentu. Við breytingu á skráðri prósentu koma upp viðvörunarboð um að samtalan jafngildi ekki 100 prósentum. Ef þú færð skilaboðin er hægt að halda áfram að breyta línum. Hins vegar verður heildarupphæðin að vera jöfn 100 áður en síðunni er lokað.
+        Ekki er hægt að velja **Skipti í miðjum mánuði** ef grunnur skráningar er stilltur á **Fjárhagstímabil eftir dögum**.
 
-[![Sundurliðun tekjuáætlunar.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **Fyrsti dagur næsta mánaðar/tímabils** – Dagsetningin sem áætlunin hefst á er fyrsti dagur næsta mánaðar eða fjárhagstímabils.
+    - **Lok mánaðar/tímabils** – Dagsetning fyrstu áætlunarlínunnar er upphafsdagur (eða reikningsdagsetning) samningsins. Hins vegar eru allar síðari áætlunarlínur stofnaðar fyrir síðasta dag mánaðar eða fjárhagstímabils. 
+
+Velja skal hnappinn **Sundurliðun tekjuáætlunar** til að skoða almenn tímabil og prósenturnar sem eru skráðar á hverju tímabili. Sjálfgefið er að gildinu **Skrá prósentu** sé skipt jafnt á milli fjölda tímabila. Ef grunnur skráningar er stilltur á **Mánaðarlega** er hægt að breyta skráðri prósentu. Við breytingu á skráðri prósentu koma upp viðvörunarboð um að samtalan jafngildi ekki 100 prósentum. Ef þú færð þessi skilaboð geturðu haldið áfram að breyta línum. Hins vegar verður heildarupphæðin að vera jöfn 100 áður en síðunni er lokað.
+
+[![Sundurliðun tekjuáætlunar.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Uppsetning birgða
 

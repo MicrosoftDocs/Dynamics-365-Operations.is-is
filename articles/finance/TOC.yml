@@ -74,12 +74,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (nóvember 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (október 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (ágúst 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Uppsetningarvalkostir fyrir sjálfvirkni reiknings lánardrottins
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Jafna fyrirframgreiðslur sjálfkrafa við yfirlit reikninga lánardrottna
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Búa til reikningslínur við innflutning á reikningum lánardrottna
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Skoða niðurstöður sjálfvirkni reiknings lánardrottins
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Bókunarreglur lánardrottins
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Dagsetningar reikninga lánardrottna
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Reikningssamþykktir í fartækjum
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Yfirlit yfir bókhaldslykil
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Skipuleggja staðbundna bókhaldslykla
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Gera upp færslur á milli fjárhagslykla
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Setja upp auknefni fjárhagslykla
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Stofna VSK-greiðslu
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Sléttun skattauppgjörs á grundvelli sérstilltra tugasæta gjaldmiðils
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Stofna VSK-færslur í skjölum
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Setja upp bókunarflokka virðisaukaskatts
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: Nota rafræna reikningsfærsluþjónustu til að flytja inn reikninga lánardrottins
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Setja upp rafrænar reikningsfærslur
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Rök fyrir gildissvið virðisaukaskatts og VSK-flokk
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Nota færibreytur skattalögsögu fyrir uppsetningu útreiknings staðgreiðsluafsláttar
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Útreikningur
                       items:
                         - name: Reikna skatt ofan á verð þegar „Verð eru með sköttum“ er virkt
@@ -1594,7 +1608,11 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ESB-sölulisti
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: Svíþjóð – skýrslugerð
+                        - name: Skýrslugjöf fyrir Spán
+                          items:
+                            - name: 'Tafarlaust framboð upplýsinga um VSK (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
+                        - name: Skýrslugjöf fyrir Svíþjóð
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-swe-VAT-declaration-Sweden.md
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Skýrslugerð fyrir Bretland
                           items:
-                            - name: Undirbúa samþættingu við MTD fyrir VSK
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: VSK-skýrsla
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Virkja skattaútreikning fyrir flutningspöntun
                       items:
                         - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Prenta skattaupplýsingar á fylgiskjöl flutningspantana
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Viðbót
                       items:
                         - name: Bæta við gagnareitum í skattaskilgreiningum
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Sérstilla skattaskilgreiningar fyrir uppflettingu aðalgagna
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Algengar spurningar um skattaútreikning
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
             - name: Ástralía
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Árleg virðisaukaskattsskráning á sölu innanlands
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Intrastat í Belgíu
+                  href: localizations/emea-bel-intrastat.md
             - name: Brasilía
               items:
                 - name: Yfirlit yfir Brasilíu
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Nýjungar eða breytingar á staðfæringu fyrir Indland
                   items:
+                    - name: Nýjungar eða breytingar í 10.0.20 – 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Nýjungar eða breytingar í 10.0.15 – 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Nýjungar eða breytingar í 10.0.14
@@ -2680,6 +2708,12 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Indónesía
+              items:
+                - name: Yfirlit fyrir Indónesíu
+                  href: localizations/indonesia.md
+                - name: VSK-skýrsla fyrir Indónesíu
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: VSK-skýrsla (Holland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Intrastat í Hollandi
+                  href: localizations/emea-nl-intrastat.md
                 - name: ESB-sölulisti
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Nýja-Sjáland
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Úthluta bankaskjalsgjöldum á sendingu
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Rafrænir reikningar viðskiptavinar í Sádí-Arabíu
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapúr
               items:
                 - name: Yfirlit yfir Singapúr
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: VSK innan bandalagsins
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Spænskt intrastat
+                  href: localizations/emea-esp-intrastat.md
                 - name: Einskiptisviðskiptavinir
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Prenta ávísanir með spænskri uppsetningu
@@ -3458,32 +3498,30 @@
                       href: localizations/tasks/gb-00002-sales-order.md
                     - name: Setja upp VSK-flokka vara fyrir bakfærð gjöld
                       href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                    - name: 'Setja upp vöruflokka, reglur og færibreytur bakfærðra gjalda'
+                    - name: 'Seta upp afurðaflokka, reglur og færibreytur bakfærðra gjalda'
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                    - name: Setja upp söluskattshópa fyrir bakfærðan VSK
+                    - name: Uppsetning VSK-flokka fyrir bakfærð gjöld
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Skýrslugerð fyrir Bretland
+                - name: Stafrænir skattar (MTD) fyrir VSK
                   items:
-                    - name: Stafrænir skattar (MTD) fyrir VSK
-                      items:
-                        - name: Stafrænir skattar (MTD) – Skil VSK-endurgreiðslu á Bretlandi
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Undirbúa umhverfið til að vinna með stafræna VSK-vefþjónustu HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Gátlisti fyrir uppsetningu rafrænna skilaboða fyrir stafrænan VSK
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Prófa virkni með sandkassa stafræns VSK
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Heimila Finance-umhverfinu að vinna með stafrænni skattavefþjónustu HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Senda VSK-framtal til stafrænnar skattavefþjónustu HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Sækja upplýsingar um VSK-greiðslur og skuldir frá HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Upplýsingar um uppsetningu VSK fyrir VSK-skýrslur í Bretlandi
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Búa til VSK-skýrslu á pappírsformi (VSK 100 skýrsla)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Virðisaukaskattsskýrsla fyrir stafræna skatta (MTD) í Bretlandi
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Undirbúa umhverfið til að vinna með stafræna VSK-vefþjónustu HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: Gátlisti fyrir uppsetningu rafrænna skilaboða fyrir stafrænan VSK
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Prófa virkni með sandkassa stafræns VSK
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Heimila Finance-umhverfinu að vinna með stafrænni skattavefþjónustu HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: Senda VSK-framtal til stafrænnar skattavefþjónustu HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Sækja upplýsingar um VSK-greiðslur og skuldir frá HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Upplýsingar um uppsetningu VSK fyrir VSK-skýrslur í Bretlandi
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Búa til VSK-skýrslu á pappírsformi (VSK 100 skýrsla)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Skýrsla um greiðsluhætti
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Bandaríkin
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Forritsuppfærsla 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Forritsuppfærsla 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: Breyta kóða til að gera notendum kleift að skilgreina og nota nefnda áfangastaði rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Innleiða sérsniðinn uppruna rafrænnar skýrslugerðar skjala á innleið
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Fartækjaforrit
           items:
             - name: Heimasíða fartækjaforrits
