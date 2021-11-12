@@ -72,14 +72,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nýjungar eða breytingar í Supply Chain Management
                   items:
-                    - name: Nýjungar eða breytingar á upphafssíðu Supply Chain Management
+                    - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (nóvember 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (október 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (ágúst 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Aðaláætlanagerð með innkaupaverðsamningum
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Færibreytur fyrir dagsetningu og tíma sem fínstilling skipulagningar notar
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Öryggismörk
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Vikmörk tafar (neikvæður dagafjöldi)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina altæku aðsetursbókina
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Uppsetning aðseturs
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Algengar spurningar um aðsetursbækur
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina aðsetursbók
@@ -2427,18 +2431,6 @@
                       href: production-control/release-production-orders.md
                     - name: Framleiðslupantanir tilkynntar sem loknar
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Setja upp og nota viðmót fyrir framkvæmd á framleiðslugólfi
-                      items:
-                        - name: Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
-                          href: production-control/production-floor-execution-configure.md
-                        - name: Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
-                          href: production-control/production-floor-execution-use.md
-                        - name: Hanna keyrsluviðmót framleiðslugólfsins
-                          href: production-control/production-floor-execution-styles.md
                     - name: Skilgreina verkspjald fyrir tæki
                       href: production-control/config-job-card-device.md
                     - name: Bóka sem tilbúið af verkspjaldi fyrir tæki
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Framleiðslubókun
                       href: cost-management/production-posting.md
+            - name: Setja upp og nota viðmót fyrir framkvæmd á framleiðslugólfi
+              items:
+                - name: Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-configure.md
+                - name: Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-setup.md
+                - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-use.md
+                - name: Hanna keyrsluviðmót framleiðslugólfsins
+                  href: production-control/production-floor-execution-styles.md
         - name: Stjórnun eftirágreidds afsláttar
           items:
             - name: Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Skilgreina stighækkaða reiti fyrir skref í fartækinu
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
+                      href: warehousing/warehouse-app-detours.md
                     - name: Móttaka númeraplötu með farsímaforriti Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Altækar færibreytur fartækja
                   href: warehousing/mobile-device-parameters.md
+                - name: Notendareikningar fartækis
+                  href: warehousing/mobile-device-work-users.md
                 - name: Notandastillingar fartækis
                   href: warehousing/mobile-device-user-settings.md
                 - name: Vinnsla viðburða í vöruhúsaforriti
@@ -3737,7 +3747,13 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Vöruhúsakerfi
               items:
-                - name: Kvaðning sjálfvirkrar frátekningar fyrir rununúmer er sýnd jafnvel með tiltækum birgðum
+                - name: Warehouse Mobile App
+                  items:
+                    - name: Traustsakkeri fyrir vottunarslóð fannst ekki þegar tenging forrits var sett upp
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Traustsakkeri fyrir vottunarslóð fannst ekki við uppfærslu og flutning í vöruhúsakerfi
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Kvaðning um sjálfvirka frátekningu fyrir rununúmer er sýnd jöfn tiltækum birgðum
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Ekki er hægt að opna fyrir tiltektarvinnu vegna ólokinnar áfyllingarvinnu
                   href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
@@ -3745,11 +3761,9 @@
                   href: troubleshooting/warehousing/cancel-posted-packing-slip.md
                 - name: Ekki er hægt að færa númeraplötu ef raðnúmer er með auða úthreyfingu og auða innhreyfingu heimila
                   href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: Ekki er hægt að flytja birgðir á staðsetningu sem er númeraplötustýrð
+                - name: Ekki er hægt að færa birgðir á stað sem er númeraplötustýrður
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Traustakkeri fyrir slóð vottorðs finnst ekki þegar forritstenging er sett upp
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                - name: Klasaforstilling finnst ekki
+                - name: Klasasnið finnst ekki
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Ekki er hægt að vinna úr leiðréttingu á fylgiseðli
                   href: troubleshooting/warehousing/delivery-note-correction.md
@@ -3815,12 +3829,10 @@
                   href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
                 - name: Ekki er hægt að losa farm fyrir hlutamagn með frátekningastigveldi runu fyrir ofan
                   href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Óstaðfestar innkaupapantanir eru staðfestar eftir að uppfærsla innhreyfingarskjala afurða er keyrð
+                - name: Óstaðfestar innkaupapantanir eru staðfestar eftir að hafa keyrt „Uppfæra innhreyfingarskjöl afurða“
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Ekki er hægt að afturkalla frátekt í sölupöntunarlínu
+                - name: Ekki er hægt að hætta við frátekningu á birgðum á sölupöntunarlínu
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Traustakkeri fyrir slóð vottorðs fannst ekki við uppfærslu og flutning í vöruhúsakerfi
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Ekki er hægt að staðfesta sendingu vegna þess að viðskiptavinur er í bið
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: Ekki er hægt að staðfesta sendingu vegna þess að farmlínur eru með magnið núll
