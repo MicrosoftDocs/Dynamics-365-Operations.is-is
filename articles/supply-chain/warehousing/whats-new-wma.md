@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
-ms.translationtype: HT
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485623"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655386"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20110"></a>Útgáfa 2.0.11.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Aukinn stuðningur fyrir stighækkaða reiti.
+- Aukinn stuðningur fyrir yfirlit yfir lyklaborð vélbúnaðar.
+- Bætt aðgengi.
+- Bætt upplýsingaspjöld.
+- Bættar hjáleiðir fyrir skref valmyndaratriðis.
+- Minni háttar endurbætur notandaviðmóts.
+- Lagaði vandamál sem gat valdið því að forritið hrundi þegar strikamerki voru skönnuð.
+- Ýmis vandamál löguð sem ollu því að kerfið fraus.
 
 ## <a name="version-20100"></a>Útgáfa 2.0.10.0
 

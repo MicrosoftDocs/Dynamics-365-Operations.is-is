@@ -1,8 +1,8 @@
 ---
-title: Vsk-greiðslur og sléttunarreglur
-description: Þessi grein útskýrir hvernig uppsetning sléttunarreglu á Skattyfirvöld gengur fyrir sig og hvernig á að slétta virðisaukaskatt í ferlinu Jafna og bóka virðisaukaskatt.
-author: ShylaThompson
-ms.date: 04/20/2020
+title: VSK-greiðslur og sléttunarreglur
+description: Þetta efnisatriði útskýrir hvernig uppsetning sléttunarreglu á Skattyfirvöld gengur fyrir sig og hvernig á að slétta virðisaukaskatt í ferlinu Jafna og bóka virðisaukaskatt.
+author: kailiang
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: pacheren
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1838666b57bf2ce4eb78f5d3486c03e4c2447646a121a537efd6bffa0019b96f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3a75d41195875c5ed48cbe8ce5f5e448f173e718
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760687"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726801"
 ---
-# <a name="sales-tax-payments-and-rounding-rules"></a>Vsk-greiðslur og sléttunarreglur
+# <a name="sales-tax-payments-and-rounding-rules"></a>VSK-greiðslur og sléttunarreglur
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig uppsetning sléttunarreglu á Skattyfirvöld gengur fyrir sig og hvernig á að slétta virðisaukaskatt í ferlinu Jafna og bóka virðisaukaskatt.
+Þetta efnisatriði útskýrir hvernig uppsetning sléttunarreglu á Skattyfirvöld gengur fyrir sig og hvernig á að slétta virðisaukaskatt í ferlinu Jafna og bóka virðisaukaskatt.
 
-Reglulega þarf að tilkynna vsk og greiða hann til skattayfirvalda. Þetta er gert með því að keyra í jafna og bóka vsk-ferlið á síðunni Virðisaukaskattur. Virðisaukaskattur fyrir tímabilið verða jafnaðar á móti lyklum virðisaukaskatts og staða virðisaukaskatts verður bókuð í lykilinn fyrir jöfnun vsk. Stöðu virðisaukaskatts sem er bókuð í VSK-lykilinn er hægt slétta eins og krafist er á af skattayfirvöldum með því að setja upp sléttunarreglu á síðunni Virðisaukaskattur. 
+Reglulega þarf að tilkynna vsk og greiða hann til skattayfirvalda. Hægt er að ljúka þessari aðgerð með því að keyra uppgjörs- og bókunarferli virðisaukaskatts á síðunni **Virðisaukaskattur**. Virðisaukaskattur fyrir tímabilið verða jafnaðar á móti lyklum virðisaukaskatts og staða virðisaukaskatts verður bókuð í lykilinn fyrir jöfnun vsk. Stöðu virðisaukaskatts sem er bókuð í VSK-lykilinn er hægt slétta eins og krafist er á af skattayfirvöldum með því að setja upp sléttunarreglu á síðunni **Virðisaukaskattur**. 
 
 Sléttunarmismunur er bókaður á VSK-sléttunarlykil sem er valinn í lyklum fyrir sjálfvirkar færslur í reitnum Fjárhagur.
 
@@ -63,59 +63,60 @@ Eftirfarandi tafla sýnir hvernig upphæðin 98.765,43 er sléttuð með því a
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Venjuleg sléttun og sléttunarnákvæmni er 0,01
 
-<table>
+```<table>
   <tr>
-    <td>Sléttun
+    <td>Rounding
     </td>
-    <td>Ferli útreiknings
+    <td>Calculation process
     </td>
   </tr>
     <tr>
-    <td>sléttun(1,015, 0,01) = 1,02
+    <td>round(1.015, 0.01) = 1.02
     </td>
     <td>
       <ol>
-        <li>sléttun(1,015 / 0,01, 0) = sléttun(101,5, 0) = 102
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
         </li>
-        <li>102 * 0,01 = 1,02
-        </li>
-      </ol>
-    </td>
-  </tr>
-    <tr>
-    <td>sléttun(1,014, 0,01) = 1,01
-    </td>
-    <td> <ol>
-        <li>sléttun(1,014 / 0,01, 0) = sléttun(101,4, 0) = 101
-        </li>
-        <li>101 * 0,01 = 1,01
+        <li>102 * 0.01 = 1.02
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>sléttun(1,011, 0,02) = 1,02
+    <td>round(1.014, 0.01) = 1.01
     </td>
     <td> <ol>
-        <li>sléttun(1,011 / 0,02, 0) = sléttun(50,55, 0) = 51
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
         </li>
-        <li>51 * 0,02 = 1,02
+        <li>101 * 0.01 = 1.01
         </li>
       </ol>
     </td>
   </tr>
     <tr>
-    <td>sléttun(1,009, 0,02) = 1,00
+    <td>round(1.011, 0.02) = 1.02
     </td>
     <td> <ol>
-        <li>sléttun(1,009 / 0,02, 0) = sléttun(50,45, 0) = 50
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
         </li>
-        <li>50 * 0,02 = 1,00
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
         </li>
       </ol>
     </td>
   </tr>
 </table>
+```
 
 > [!NOTE]                                                                                  
 > Ef þú velur Eigin hagur er sléttun alltaf í hag lögaðila. 

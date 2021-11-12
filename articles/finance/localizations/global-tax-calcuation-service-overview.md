@@ -2,7 +2,7 @@
 title: Yfirlit skattaútreiknings
 description: Þetta efnisatriði skýrir heildarumfang og eiginleika skattaútreikningsgetu.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
-ms.translationtype: HT
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394587"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647058"
 ---
 # <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Skattaútreikningur er þjónusta með stillanlegri þjónustu fyrir marga notendur sem gerir altæku skattkerfi kleift að einfalda skattaákvörðun og útreikning og gera það sjálfvirkt. Skattvélin er fullkomlega stillanleg. Einingarnar sem hægt er að stilla fela í sér, en takmarkast ekki við, skattalega gagnalíkansins, skattkóða, fylkisins fyrir skattskyldu og formúlu skattútreiknings. Skattkerfið keyrir á Microsoft Azure verkvangi og býður upp á nútímatækni og sveigjanleika.
 
@@ -120,6 +118,10 @@ Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.21:
     - Flutningspantanir - senda
     - Móttaka flutningspöntunar
 
+Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.23: 
+
+- Reikningur með frjálsum texta
+
 ## <a name="supported-countriesregions"></a>Studd lönd/svæði
 
 Hægt er að virkja skattaútreikning eftir lögaðila. 
@@ -145,6 +147,28 @@ Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 
 - Sviss
 - Bretland
 - Bandaríkin
+
+Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.22:
+
+- Ástralía
+- Barein
+- Kanada
+- Egyptaland
+- Hong Kong (sérstjórnarsvæði)
+- Kúveit
+- Nýja-Sjáland
+- Óman
+- Katar
+- Sádi-Arabískt
+- Suður-Afríka
+- Sameinuðu arabísku furstadæmin
+
+Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.23:
+
+- Taíland
+- Japan
+- Malasía
+- Singapúr
 
 ## <a name="related-resources"></a>Tengd tilföng
 

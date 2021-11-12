@@ -2,7 +2,7 @@
 title: Eining yfirlitsvalmyndar
 description: Þetta efnisatriði fjallar um einingar yfirlitsvalmyndar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761587"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713853"
 ---
 # <a name="navigation-menu-module"></a>Eining yfirlitsvalmyndar
 
@@ -41,8 +41,8 @@ Eftirfarandi mynd sýnir dæmi um yfirlitsvalmynd fyrir Fabrikam-svæðið með 
 |---------------------------|-----------------------|-------------|
 | Uppruni                  | **Retail**, **Handvirk höfundarvinna**, **Retail og handvirk höfundarvinna** | **Retail**-gildið leyfir birtingu yfirlitsstigveldi rásarinnar úr Commerce Headquarters í yfirlitsvalmyndinni. **Handvirk höfundarvinna**-gildi leyfir umsjón með föstum valmyndaratriðum. **Retail og handvirk höfundarvinna** leyfir blöndu af hvoru tveggja. |
 | Sýna flokkamyndir | **Satt** eða **Ósatt**    | Þegar þetta er virkt birtir þessi eiginleiki flokkamyndir á yfirlitsvalmyndinni eins og skilgreint er í höfuðstöðvum Commerce fyrir hvern flokk. Bætt við í Commerce Release 10.0.14. |
-| Sýna kynningartilboð | **Satt** eða **Ósatt** | Þegar þessi eiginleiki er virkur er hægt að grunnstilla kynningartilboð með því að nota myndir, tengla og texta. Þessum eiginleika var bætt við í Commerce útgáfu 10.0.17. |
-| Bæta við stöðuhækkunum | Texti, mynd eða tengill | Þegar **Sýna kynningartilboð** er virkur er hægt að bæta við texta, mynd eða tengli sem kynningarefni á yfirlitsvalmyndinni. |
+| Sýna kynningarmyndir | **Satt** eða **Ósatt** | Þegar þessi eiginleiki er virkur er hægt að grunnstilla kynningartilboð með því að nota myndir, tengla og texta. Þessum eiginleika var bætt við í Commerce útgáfu 10.0.17. |
+|Bæta við flokki kynningarefnis | Texti, mynd eða tengill | Þegar **Sýna kynningarmyndir** er virkur er hægt að bæta við texta, mynd eða tengli sem kynningarefni á yfirlitsvalmyndinni. |
 | Virkja stigskipta yfirlitsvalmynd | **Satt** eða **Ósatt** | Þegar þessi eiginleiki er virkur getur yfirlitsvalmynd sýnt mörg stig yfirlitsstigveldis. Þessi eiginleiki er í boði í Commerce útgáfu 10.0.15. |
 | Stigafjöldi | heiltala | Þessi eiginleiki skilgreinir fjölda stiga sem á að sýna ef **Virkja stigskipta yfirlitsvalmynd** eiginleikinn er stilltur á **Satt**. |
 | Fast valmyndaratriði| Fylki gilda| Föst valmyndaratriði sem tengja heiti valmyndaratriðis við tengil á fasta síðu vefsvæða. Hægt er að búa til valmyndaratriði fyrir neðan önnur valmyndaratriði. Fastar valmyndir birtast sjálfkrafa á rótarstigi og þeim verður bætt við yfirlitsstigveldi rásar ef það er til staðar. |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576929"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647190"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -74,6 +74,12 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 Gerir notendum kleift að bæta leitarreit við verklista. Starfskraftar geta fundið tiltekið starf með því að slá inn auðkenni starfsins eða finna öll störf fyrir tiltekna pöntun með því að slá inn kenni pöntunarinnar. Starfskraftar geta slegið inn kennið með því að nota lyklaborð eða með því að skanna strikamerki. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Verkleit fyrir keyrsluviðmót framleiðslugólfs
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Kveikja á tilkynningum um aukaafurðir og hliðarafurðir
+
+Þessi eiginleiki gerir starfsmönnum kleift að nota vinnsluviðmót framleiðslugólfs til að tilkynna um framvindu runupantana. Þessi tilkynnagjöf felur í sér tilkynningu um aukaafurðum og hliðarafurðum. Til að nota þennan eiginleika skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Skýrsla um aukaafurðir og hliðarafurðir úr keyrsluviðmóti framleiðslugólfs
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Vinna með skilgreiningar á keyrslum framleiðslugólfs
 

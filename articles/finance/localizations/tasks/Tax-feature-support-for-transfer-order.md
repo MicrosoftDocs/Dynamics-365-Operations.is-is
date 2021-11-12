@@ -2,7 +2,7 @@
 title: Stuðningur skattaeiginleika fyrir flutningspantanir
 description: Þetta efnisatriði útskýrir nýjan stuðning skattaeiginleika fyrir flutningspantanir með því að nota skattaútreikningsþjónustuna.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500077"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647714"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Stuðningur skattaeiginleika fyrir flutningspantanir
 
@@ -31,7 +31,7 @@ ms.locfileid: "7500077"
 Til að grunnstilla og nota þessa virkni þarf að ljúka þremur meginskrefum:
 
 1. **RCS-uppsetning:** í Regulatory Configuration Service skal setja upp skattaeiginleika, skattkóða og gildissvið skattkóða fyrir ákvörðun skattkóða í flutningspöntunum.
-2. **Fjárhagsuppsetning:** Í Microsoft Dynamics 365 Finance skal kveikja á eiginleikanum **Skattar í flutningspöntun**, setja upp færibreytur skattþjónustu fyrir birgðir og setja upp grunnfæribreytur skatts.
+2. **Dynamics 365 Finance uppsetning:** Í Finance skal kveikja á eiginleikanum **Skattur í flutningspöntun**, setja upp færibreytur skattaútreikningsþjónustu fyrir birgðir og setja upp grunnfæribreytur skatts.
 3. **Uppsetning birgða:** Setjið upp skilgreiningu birgða fyrir færslur flutningspöntunar.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Setja upp RCS fyrir skattfærslur og færslur flutningspöntunar
@@ -40,8 +40,6 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
 
 1. Á síðunni **Skattaeiginleikar**, í flipanum **Útgáfur**, skal velja drög að eiginleikaútgáfu og síðan velja **Breyta**.
 
-    ![Að velja Breyta.](../media/tax-feature-support-01.png)
-
 2. Á síðunni **Uppsetning skattaeiginleika**, í flipanum **Skattkóðar**, skal velja **Bæta við** til að stofna nýja skattkóða. Fyrir þetta dæmi eru þrír skattkóðar stofnaður: **NL-Exempt**, **BE-RC-21** og **BE-RC+21**.
 
     - Þegar flutningspöntun er send úr vöruhúsi í Hollandi er notaður skattkóði fyrir undanskilinn virðisaukaskatt Hollands (**NL-Exempt**).
@@ -49,11 +47,10 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         Búið til skattkóðann **NL-Exempt**.
         1. Veljið **Bæta við**, sláið inn **NL-Exempt** í reitinn **Skattkóði**.
         2. Veljið **Eftir nettóupphæð** í reitnum **Skatthlutur**.
-        3. Veljið **Vista**.
+        3. Veldu **Vista**.
         4. Veljið **Bæta við** í töflunni **Taxti**.
-        5. Skiptið **Er undanskilið** í **Já** í hlutanum **Almennt**.
-
-           ![Skattkóði NL-undanþágu.](../media/tax-feature-support-02.png)
+        5. Stillið **Er undanskilið** á **Já** í hlutanum **Almennt**.
+        6. Í reitinn **Undanþágukóði** skal slá inn **EB**.
 
     - Þegar flutningspöntun er móttekin í belgísku vöruhúsi er leið bakfærðs gjalds notað með því að nota skattkóðana **BE-RC-21** og **BE-RC+21**.
         
@@ -63,10 +60,8 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         3. Veljið **Vista**.
         4. Veljið **Bæta við** í töflunni **Taxti**.
         5. Sláið inn **-21** í reitinn **Skatthlutfall**.
-        6. Skiptið **Er bakfært gjald** í **Já** í hlutanum **Almennt**.
+        6. Stillið **Er bakfært gjald** á **Já** í hlutanum **Almennt**.
         7. Veldu **Vista**.
-
-           ![BE-RC-21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-03.png)
         
         Búið til skattkóðann **BE-RC+21**.
         1. Veljið **Bæta við**, sláið inn **BE-RC-21** í reitinn **Skattkóði**.
@@ -76,16 +71,26 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         5. Sláið inn **21** í reitinn **Skatthlutfall**.
         6. Veldu **Vista**.
 
-           ![BE-RC+21 skattkóði fyrir bakfærð gjöld.](../media/tax-feature-support-04.png)
-
-3. Skilgreinið gildissvið skattkóðanna.
+3. Skilgreindu skattflokkinn.
+    1. Veldu **Stjórna dálkum** og veldu síðan línureitinn **Skattflokkur**.
+    2. Veldu **->** og veldu síðan **Í lagi**.
+    3. Smelltu á **Bæta við** til að bæta við skattflokki.
+    4. Í dálkinn **Skattflokkur** skal færa inn **AR-EU** og síðan velja skattkóðann **NL-Exempt**.
+    5. Smelltu á **Bæta við** til að bæta við skattflokki.
+    6. Í dálkinn **Skattflokkur** skal færa inn **RC-VAT** og síðan velja skattkóðana **BE-RC-21** og **BE-RC+21**.
+4. Skilgreindu skattflokk vöru.
+    1. Veldu **Stjórna dálkum** og veldu síðan línureitinn **Skattflokkur vöru**.
+    2. Veldu **->** og veldu síðan **Í lagi**.
+    3. Veldu **Bæta við** til að bæta við skattflokki vöru.
+    4. Sláðu inn **FULL** í dálkinn **Skattflokkur vöru**. Veldu skattkóðana **BE-RC-21**, **BE-RC+21** og **NL-Exempt**.
+5. Skilgreindu gildissvið skattflokksins.
 
     1. Veljið **Stjórna dálkum** og veljið síðan dálka sem á að nota til að búa til töflu gildissviðs.
 
         > [!NOTE]
         > Gangið úr skugga um að bæta dálkunum **Viðskiptaferli** og **Skattstefnur** við töfluna. Báðir dálkarnir eru nauðsynlegir fyrir virknina fyrir skatt í flutningspöntunum.
 
-    2. Bætið við gildissviðsreglum. Ekki skilja reitina **Skattkóðar**, **Skattflokkur** og **Vöruskattflokkur** eftir auða.
+    2. Bætið við gildissviðsreglum. Ekki skilja reitinn **Skattflokkur** eftir auðan.
         
         Bæta við nýrri reglu fyrir sendingu flutningspöntunar.
         1. Veljið **Bæta við** í töflunni **Gildissviðsreglur**.
@@ -93,8 +98,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         3. Í reitinn **Senda frá landi/svæði** skal færa inn **NLD**.
         4. Í reitinn **Senda til lands/svæðis** skal færa inn **BEL**.
         5. Í reitnum **Skattstefnan** skal velja **Úttak** til að reglan gildi um sendingu flutningspöntunar.
-        6. Í reitnum **Skattkóðar** skal velja **NL-Exempt**.
-        7. Í reitinn **Skattflokkur** og **VSK-flokkur vöru** skal færa inn viðeigandi VSK-flokk og VSK-flokk vöru sem eru skilgreindir í kerfi Finance.
+        6. Í reitnum **Skattflokkur** skal velja **AR-EU**.
         
         Bætið við annarri reglu fyrir móttöku flutningspöntunar.
         
@@ -103,14 +107,19 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         3. Í reitinn **Senda frá landi/svæði** skal færa inn **NLD**.
         4. Í reitinn **Senda til lands/svæðis** skal færa inn **BEL**.
         5. Í reitnum **Skattstefnan** skal velja **Inntak** til að reglan gildi um móttöku flutningspöntunar.
-        6. Í reitnum **Skattkóðar** skal velja **BE-RC+21** og **BE-RC-21**.
-        7. Í reitinn **Skattflokkur** og **VSK-flokkur vöru** skal færa inn viðeigandi VSK-flokk og VSK-flokk vöru sem eru skilgreindir í kerfi Finance.
+        6. Í reitnum **Skattflokkur** skal velja **RC-VAT**.
 
-           ![Gildissviðsreglur.](../media/image5.png)
+6. Skilgreindu gildissvið fyrir skattflokk vöru.
 
-4. Ljúka og birta nýja útgáfu nýs skattaeiginleika.
+    1. Veljið **Stjórna dálkum** og veljið síðan dálka sem á að nota til að búa til töflu gildissviðs.
+    2. Bætið við gildissviðsreglum. Ekki skilja reitinn **Skattflokkur vöru** eftir auðan.
+        
+        Bættu nýrri reglu við fyrir sendingu og móttöku flutningspöntunar.
+        1. Á síðunni **Gildissviðsreglur** skal velja **Bæta við**.
+        2. Í reitnum **Viðskiptaferli** skal velja **Birgðir** til að reglan gildi um flutningspöntun.
+        3. Í reitnum **VSK-flokkur vöru** skal velja **FULL**.
+7. Ljúka og birta nýja útgáfu nýs skattaeiginleika.
 
-    [![Stöðu nýju útgáfunnar breytt.](../media/image6.png)](../media/image6.png)
 
 ## <a name="set-up-finance-for-transfer-order-transactions"></a>Setja upp Finance fyrir færslur flutningspöntunar
 
@@ -120,28 +129,26 @@ Fylgið þessum skrefum til að virkja og setja upp skatta fyrir flutningspantan
 2. Í listanum skal finna og velja eiginleikann **Skattar í flutningspöntun** og síðan velja **Virkja núna** til að kveikja á honum.
 
     > [!IMPORTANT]
-    > Eiginleikinn **Skattur í flutningspöntun** er algjörlega háður skattþjónustunni. Þess vegna er aðeins hægt að kveikja á honum þegar búið er að setja upp skattþjónustuna.
+    > Eiginleikinn **Skattur í flutningspöntun** er algjörlega háður skattreikningsþjónustunni. Þess vegna er aðeins hægt að kveikja á honum þegar búið er að setja upp skattreikningsþjónustuna.
 
     ![Eiginleiki skatts í flutningspöntun.](../media/image7.png)
 
-3. Virkið skattþjónustuna og veljið viðskiptaferlið **Birgðir**.
+3. Virkjaðu skattaútreikningsþjónustuna og veldu viðskiptaferlið **Birgðir**.
 
     > [!IMPORTANT]
-    > Ljúka þarf þessu skrefi fyrir hvern lögaðila í Finance þar sem skattþjónustan og virknin fyrir skatt í flutningspöntunum eiga að vera tiltækar.
+    > Ljúka þarf þessu skrefi fyrir hvern lögaðila í Finance þar sem skattreikningsþjónustan og virknin fyrir skatt í flutningspöntunum eiga að vera tiltækar.
 
-    1. Farið í **Skattur** > **Uppsetning** > **Skattaskilgreining** > **Uppsetning skattþjónustu**.
+    1. Opnið **Skattur** > **Uppsetning** > **Skattaskilgreining** > **Færibreytur skattaútreiknings**.
     2. Í reitnum **Viðskiptaferli** skal velja **Birgðir**.
-
-      ![Reitur viðskiptaferlis stilltur.](../media/image8.png)
 
 4. Gangið úr skugga um að leið bakfærðs gjalds sé uppsett. Farið í **Fjárhagur** \> **Uppsetning** \> **Færibreytur** og síðan, í flipanum **Bakfært gjald**, skal staðfesta að valkosturinn **Virkja bakfært gjald** sé stilltur á **Já**.
 
     ![Virkja valkost bakfærðra gjalda.](../media/image9.png)
 
-5. Gangið úr skugga um að tengdir skattkóðar, skattflokkar, skattflokkar vöru og skráningarnúmer virðisaukaskatts hafi verið sett upp í Finance samkvæmt leiðsögn skattþjónustunnar.
+5. Gangið úr skugga um að tengdir skattkóðar, skattflokkar, skattflokkar vöru og skráningarnúmer virðisaukaskatts hafi verið sett upp í Finance samkvæmt leiðsögn skattreikningsþjónustunnar.
 6. Setja upp bráðabirgðareikning flutnings. Þetta þrep er aðeins áskilið þegar skatturinn sem er notaður í flutningspöntun á ekki við um leið skattundanþágu eða bakfærðs gjalds.
 
-    1. Opnið **Skattur** > **Uppsetning** > **Söluskattur** \ **Fjárhagsbókunarflokkar**.
+    1. Opnið **Skattur** > **Uppsetning** > **Söluskattur** > **Fjárhagsbókunarflokkar**.
     2. Í reitnum **Bráðabirgðaflutningur** skal velja fjárhagslykil.
 
        ![Bráðabirgðareikningur flutnings valinn.](../media/image10.png)

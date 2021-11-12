@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595146"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725050"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -31,6 +31,64 @@ ms.locfileid: "7595146"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="feature-removal-effective-october-2021"></a>Fjarlæging eiginleika tekur gildi í október 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL-skýrslur í Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar.|
+| **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
+| **Afurðasvæði sem haft er áhrif á**         | SQL skýrslur: Núverandi DTU, núverandi DTU-upplýsingar, Fá upplýsingar um lás, Listi yfir núverandi áætlunarleiðbeiningar, Fá lista yfir fyrirspurnarauðkenni, Fá SQL fyrirspurnaráætlun fyrir ákveðið auðkenni áætlunar, Fá fyrirspurnaráætlanir og framkvæmdarstöðu, Fá takmörkunarstillingar, Fá biðtölfræði, Skrá yfir dýrustu fyrirspurnirnar |
+| **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
+| **Staða**                         | Fjarlægt |
+
+### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-aðgerðir í LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að úrelda nokkrar SQL-aðgerðir í LCS. Allar aðgerðir og eftirfylgni verður framkvæmd innanhúss af verkvangnum í gegnum sjálfvirkni. Þetta krefst engrar handvirkrar íhlutunar. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
+| **Afurðasvæði sem haft er áhrif á**         | SQL aðgerðir: Búa til leiðarvísi til að þvinga fram auðkenni áætlunar, Búa til leiðarvísi til að bæta við töfluvísbendingum, Fjarlægja leiðarvísi áætlunar, Kveikja/slökkva á læsingum á síðum og aukningu á læsingum, Uppfæra talnagögn á töflu, Endurbyggja vísi, Búa til vísi |
+| **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
+| **Staða**                         | Fjarlægt |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Úrelding eiginleika tekur gildi í október 2021
+
+### <a name="show-related-document-attachments-feature"></a>Eiginleikinn „Sýna tengd skjalaviðhengi“
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Eiginleikinn skilaði óvæntum niðurstöðum. |
+| **Skipt út fyrir aðra eiginleika?**   | Nr. Allar frekari áætlanir varðandi þessa virkni verða tilkynntar í gegnum hefðbundna útgáfutímabilið okkar. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari - Upplifun skjalaviðhengis |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.23 á forritum Finance and Operations
+
+### <a name="ondbsynchronize-event"></a>OnDBSynchronize-tilvik
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Engin stýring er til að framvkæma þetta tilvik. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir áskriftar af hálfu tilviksins **OnDBSynchronzie** yfir í stækkaða klasann SysSetup. |
+| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnssamstilling |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í október 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>SystemNotificationsManager.AddNotification API
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Microsoft þarf viðbótarfæribreytur þegar tilkynningum er bætt við. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, API **SystemNotificationsManager.AddSystemNotification()**. Þetta API krefst þess að þú stillir sérstaklega ExpirationDateTime og RuleID fyrir myndaðar tilkynningar. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í apríl 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum Finance and Operations
 
@@ -54,7 +112,7 @@ ms.locfileid: "7595146"
 | **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
 | **Afurðasvæði sem haft er áhrif á**         | SQL skýrslur: Núverandi DTU, núverandi DTU-upplýsingar, Fá upplýsingar um lás, Listi yfir núverandi áætlunarleiðbeiningar, Fá lista yfir fyrirspurnarauðkenni, Fá SQL fyrirspurnaráætlun fyrir ákveðið auðkenni áætlunar, Fá fyrirspurnaráætlanir og framkvæmdarstöðu, Fá takmörkunarstillingar, Fá biðtölfræði, Skrá yfir dýrustu fyrirspurnirnar |
 | **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
-| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur er í október 2021. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>Azure SQL-aðgerðir í LCS
 
@@ -64,7 +122,7 @@ ms.locfileid: "7595146"
 | **Skipt út fyrir aðra eiginleika?**   | Já, nú er til sjálfvirkt kerfi, sem gerir þessa möguleika úrelta. |
 | **Afurðasvæði sem haft er áhrif á**         | SQL aðgerðir: Búa til leiðarvísi til að þvinga fram auðkenni áætlunar, Búa til leiðarvísi til að bæta við töfluvísbendingum, Fjarlægja leiðarvísi áætlunar, Kveikja/slökkva á læsingum á síðum og aukningu á læsingum, Uppfæra talnagögn á töflu, Endurbyggja vísi, Búa til vísi |
 | **Dreifingarvalkostur**              | Uppsetning í skýinu: hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
-| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í október 2021. |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur er í október 2021. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Tilkynning um úreldingu eiginleika tekur gildi í maí 2021
 
@@ -76,7 +134,7 @@ ms.locfileid: "7595146"
 | **Skipt út fyrir aðra eiginleika?**   | Já, þessum eiginleika er skipt út fyrir LCS [Vandamálaleit](../lifecycle-services/issue-search-lcs.md) og [Innsendingarþjónustu vegna lögboðinnar viðvörunar Dynamics](../lcs-solutions/submit-localization-alerts.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Staðfæringargátt í LCS|
 | **Dreifingarvalkostur**              | Uppsetning skýs |
-| **Staða**                         | Úrelt: Fyrirhugaður lokadagur í maí 2022. |
+| **Staða**                         | Úrelt: Fyrirhugaður lokadagur er í maí 2022. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Eiginleiki fjarlægður frá og með 28. janúar 2021

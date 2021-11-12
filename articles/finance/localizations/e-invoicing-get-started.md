@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463841"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700380"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Hafist handa með rafrænar reikningsfærslur
 
@@ -84,6 +84,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
 | Norskur rafrænn reikningur (NO)    | <p>Samhengislíkan viðskiptavinareiknings</p><p>Reikningslíkan</p> |
 | Spænskur rafrænn reikningur (ES)      | <p>Samhengislíkan viðskiptavinareiknings</p><p>Reikningslíkan</p> |
 | PEPPOL rafrænn reikningur            | <p>Samhengislíkan viðskiptavinareiknings</p><p>Reikningslíkan</p> |
+| Rafrænn reikningur Sádi-Arabíu (SA)| <p>Samhengislíkan viðskiptavinareiknings</p><p>Reikningslíkan</p> |
 
 
 ## <a name="configure-the-application-setup"></a>Skilgreina uppsetningu forrits
@@ -112,6 +113,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Norskur rafrænn reikningur (NO)    | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
     | Spænskur rafrænn reikningur (ES)      | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
     | PEPPOL rafrænn reikningur            | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
+    | Rafrænn reikningur Sádi-Arabíu (SA)| <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Reikningabók viðskiptavinar</p><p>Verkreikningur</p> |
 
 6. Fyrir hvert töfluheiti sem er búið til skal velja og færa inn gildi fyrir samhengi samkvæmt eftirfarandi töflu.
 
@@ -133,6 +135,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Norskur rafrænn reikningur (NO)    | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
     | Spænskur rafrænn reikningur (ES)      | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
     | PEPPOL rafrænn reikningur            | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
+    | Rafrænn reikningur Sádi-Arabíu (SA)| <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Samhengislíkan viðskiptavinareiknings – Samhengi viðskiptavinareiknings</p><p>Samhengislíkan viðskiptavinareiknings – Samhengi verkreiknings</p> |
 
 7. Fyrir hvert töfluheiti og samhengi skal velja og færa inn gildi fyrir vörpun á viðskiptaskjali samkvæmt eftirfarandi töflu.
 
@@ -154,6 +157,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Norskur rafrænn reikningur (NO)    | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Vörpun reikningslíkans – Reikningur viðskiptavinar</p><p>Vörpun reikningslíkans – Verkreikningur</p> |
     | Spænskur rafrænn reikningur (ES)      | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Vörpun reikningslíkans – Reikningur viðskiptavinar</p><p>Vörpun reikningslíkans – Verkreikningur</p> |
     | PEPPOL rafrænn reikningur            | <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Vörpun reikningslíkans – Reikningur viðskiptavinar</p><p>Vörpun reikningslíkans – Verkreikningur</p> |
+    | Rafrænn reikningur Sádi-Arabíu (SA)| <p>Sölureikningur</p><p>Verkreikningur</p> | <p>Vörpun reikningslíkans – Reikningur viðskiptavinar</p><p>Vörpun reikningslíkans – Verkreikningur</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Landsháð grunnstilling á uppsetningu forrits
@@ -207,8 +211,10 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
     | Norskur rafrænn reikningur (NO)                     | Noregur          |
     | PEPPOL rafrænn reikningur                             | Altæk          |
     | Spænskur rafrænn reikningur (ES)                       | Spánn           |
+    | Rafrænn reikningur Sádi-Arabíu (SA)                 | Sádi-Arabía    |
+    
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
 ## <a name="issue-electronic-invoices"></a>Gefa út rafræna reikninga
 
@@ -244,6 +250,7 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
 - [Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó](e-invoicing-mex-get-started.md)
 - [Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu](e-invoicing-ita-get-started.md)
 - [Rafrænir reikningar viðskiptavinar í Egyptalandi](emea-egy-e-invoices.md)
+- [Rafrænir reikningar viðskiptavinar í Sádi-Arabíu](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

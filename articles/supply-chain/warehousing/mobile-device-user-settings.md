@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769420"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647486"
 ---
 # <a name="mobile-device-user-settings"></a>Notandastillingar fartækis
 
@@ -54,7 +54,7 @@ Einnig er hægt að skilgreina forstillingarsnið sem gildir fyrir öll tæki, g
 
 Fylgdu þessum skrefum til að búa til og stjórna notendastillingum fyrir fartæki.
 
-1. Fara á **Vöruhúsakerfi \> Fartæki \> Notandastillingar fartækis**.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Notandastillingar fartækis**.
 1. Velja skal fyrirliggjandi forstillingu notandastillinga úr listasvæðinu til að opna færslu hennar. Einnig er hægt að velja **Nýtt** á aðgerðasvæðinu til að búa til nýjar forstillingar.
 
     Hver forstilling á listasvæðinu er merkt til að gefa til kynna gerð, tegund og/eða notandakenni sem forstillingin á við um. Fleiri almennar forstillingar eru með gildið *Allt* fyrir sum þessara einkenna.
@@ -83,7 +83,7 @@ Notið **Vörumerki fartækja** síða til að skoða, stofna og stjórna vörum
 
 Fylgið eftirfarandi skrefum til að búa til og stjórna eigin tegundum og gerðum fartækja.
 
-1. Fara á **Vöruhúsakerfi \> Fartæki \> Vörumerki fartækja**.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Fartækjavörumerki**.
 1. Á listasvæðinu skal velja gerð fartækis til að opna færslu þess. Einnig er hægt að velja **Nýtt** á aðgerðasvæðinu til að búa til nýtt vörumerki.
 1. Í haushluta færslunnar fyrir nýtt eða valið vörumerki tækis skal stilla eftirfarandi reiti:
 

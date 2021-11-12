@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580985"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647315"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 
@@ -46,7 +46,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 Í eftirfarandi töflu er listi yfir eiginleikaviðbætur í þessari útgáfu. Hver þeirra býður upp á stigvaxandi viðbót á fyrirliggjandi eiginleika. Þær eru aðeins viðbætur og eru því ekki skráðar í [útgáfuáætluninni](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). En til að tryggja að þessar viðbætur stangist ekki á við núverandi sérstillingar eða kjörstillingar er sjálfgefið slökkt á þeim öllum (nema annað sé tekið fram). Ef nota á einhvern þessara eiginleika þarf að virkja þá sérstaklega í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
+| Kerfiseining | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
 | Áætlanagerð | Samhliða heimild leiðréttrar eftirspurnarspár | Þessi eiginleiki býður upp á samhliða heimild leiðréttrar eftirspurnarspár úr síðunni **Leiðrétt eftirspurnarspá**. Tilgangurinn með þessum eiginleika er að auka afköst þegar gefin er heimild fyrir miklum fjölda spáa. Þegar heimild er gefin getur notandinn tilgreint **fjölda þráða** í svarglugga heimildar. |
 | Áætlanagerð | (Forútgáfa) Runuhæf staðfesting og sameining fyrir áætlaðar runupantanir magns og pakka | Þessi eiginleiki gerir þér kleift að nota runuvinnslur til að staðfesta og sameina áætlaðar magn- og pakkapantanir. |

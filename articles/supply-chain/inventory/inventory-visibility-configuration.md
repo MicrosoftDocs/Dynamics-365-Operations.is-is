@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474677"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678472"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
@@ -366,16 +366,12 @@ Atriðaskráin gerir þér kleift að senda fyrirspurn á lagerbirgðirnar á ef
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Skilgreining frátekningar (valfrjálst)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Skilgreining bókunar er nauðsynleg ef þú vilt nota eiginleika mjúkrar frátekningar. Skilgreiningin samanstendur af tveimur grunnþáttum:
 
 - Mjúk frátekningarvörpum
 - Mjúkt frátekningarstigveldi
 
 ### <a name="soft-reservation-mapping"></a>Mjúk frátekningarvörpum
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Þegar þú gerir frátekningu gætir þú viljað vita hvort lagerbirgðir séu tiltækar núna fyrir frátekningu. Staðfestingin er tengd við reiknaða mælingu sem stendur fyrir reikniformúlu sem er samsetning efnislegra mælieininga.
 
@@ -446,8 +442,6 @@ Ef þú reynir þar af leiðandi að gera frátekningar á `iv.SoftReservOrdered
 > Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Gildi `True` þýðir að staðfesting sé nauðsynleg og á móti merkir gildið `False` að staðfestingin er ekki nauðsynleg. Sjálfgefið gildi er `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Mjúkt frátekningarstigveldi
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Frátekningarstigveldið útskýrir röð vídda sem þarf að tilgreina þegar frátekningar eru gerðar. Það virkar á sama hátt og stigveldi fyrir atriðaskrá afurðar virkar fyrir lagerfyrirspurnir.
 
@@ -747,8 +741,6 @@ Eftirfarandi tafla sýnir skilgreiningu sjálfgefinnar atriðaskráar.
 Þessi hluti lýsir sjálfgefinni skilgreiningu frátekningar.
 
 #### <a name="reservation-mapping"></a>Vörpun frátekningar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Eftirfarandi tafla sýnir sjálfgefna frátekningarvörpun.
 

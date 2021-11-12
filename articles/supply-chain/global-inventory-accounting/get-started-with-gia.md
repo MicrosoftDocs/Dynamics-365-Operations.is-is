@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773297"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678860"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Altækt birgðabókhald gerir kleift að nota meira en eitt birgðabókhald í fjárhagsbókum altæks birgðabókhalds sem búið er að setja upp. Tengja verður hvern fjárhag altæks birgðabókhalds við *viðtekna reglu*. Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:
 
@@ -60,9 +60,9 @@ Leyfisveiting altæks birgðabókhalds fer saman við hefðbundna eiginleika bir
 1. Í svarglugganum **Uppsetning á umhverfi Power Platform** er gátreiturinn valinn og síðan **Uppsetning**. Venjulega tekur uppsetningin á milli 60 og 90 mínútur.
 1. Að lokinni uppsetningu Microsoft Power Platform sýnir síðan heiti umhverfisins. Auk þess sýnir hlutinn **Power Platform samþætting** fullyrðinguna „uppsetningu Power Platform-umhverfis er lokið“. Altækt birgðabókhald krefst ekki forrits tvöfaldrar skráningar.
 
-Frekari upplýsingar er að finna í [Uppsetning að lokinni uppsetningu umhverfis](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment).
+Frekari upplýsingar er að finna í [Virkja að lokinni uppsetningu umhverfis](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Setja upp Dataverse
+### <a name="set-up-dataverse"></a>Setja Dataverse upp
 
 Áður en Dataverse er sett upp skal bæta þjónustureglum altæks birgðabókhalds við leigjandann með því að fylgja þessum skrefum.
 

@@ -1,7 +1,7 @@
 ---
 title: Afskriftaraðferðir og venjur
 description: Þessi grein veitir yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 Finance.
-author: ShylaThompson
+author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daa8f70e12a8c837a599ead5ef8b98aaf13e8cc827853de8b0332611ed2e257e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e6abf98b4c1eee3657960a1912445171acc0686a
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713235"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674527"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Afskriftaaðferðir og hefðir
 
@@ -32,7 +32,7 @@ Hægt er að velja ýmsar afskriftaaðferðir og reglur. Tilgangur aðferðanna 
 
 Ef afskriftareglur eru notaðar og síðustu dagsetningu afskriftakeyrslu eignar er breytt, sem veldur því síðan að nokkrum afskriftum er sleppt, gætu afskriftir síðasta árs verið meiri eða minni en áætlað var. Afskriftirnar eru leiðréttar eftir fjölda afskriftatímabila sem verða fyrir áhrifum af breytingunni á síðustu dagsetningu afskriftakeyrslu.
 
-Til dæmis, ef hálfsárs afskriftareglan hefur verið notuð í þrjú ár, eiga afskriftirnar sér stað yfir 3 1/2 ár. Ef síðustu dagsetningu afskriftakeyrslu þessa 3 1/2 árs var breytt, flytur síðasta afskriftaárið út fjölda tímabila sem urðu fyrir áhrifum. Ef dagsetningin er flutt um þrjá mánuði, hefur síðasta árið níu mánaða virði til afskrifta þegar alla jafna hefði verið sex mánaða virði til afskrifta.
+Ef til dæmis hálfsárs afskriftareglan hefur verið notuð í þrjú ár eiga afskriftirnar sér stað yfir þrjú og hálft ár. Ef síðustu dagsetningu afskriftakeyrslu er breytt á þessu þremur og hálfu ári flytur síðasta afskriftaárið út fjölda tímabila sem urðu fyrir áhrifum. Ef dagsetningin er flutt um þrjá mánuði, hefur síðasta árið níu mánaða virði til afskrifta þegar alla jafna hefði verið sex mánaða virði til afskrifta.
 
 Hægt er að velja úr eftirfarandi afskriftareglum.
 
@@ -46,9 +46,9 @@ Hægt er að velja úr eftirfarandi afskriftareglum.
 -   Hálft ár (næsta ár)
 
 Hægt er að velja á milli eftirfarandi afskriftaraðferða.
--   Línuleg á líftíma
+-   Línulegur líftími
 -   Bókfært virði
--   Beinskiptur
+-   Handbók
 -   Stuðull
 -   Notkun
 -   Línuleg á eftirstöðvum líftíma
@@ -65,7 +65,7 @@ Hægt er að velja á milli eftirfarandi afskriftaraðferða.
 
 [Afskriftir eigna](fixed-asset-depreciation.md)
 
-[Línuleg afskrift líftíma](Straight-line-service-life-depreciation.md)
+[Línulegar líftímaafskriftir](Straight-line-service-life-depreciation.md)
 
 [Afskrift lækkandi stöðu](reduce-balance-depreciation.md)
 
@@ -73,11 +73,11 @@ Hægt er að velja á milli eftirfarandi afskriftaraðferða.
 
 [Afskrift stuðuls](factor-depreciation.md)
 
-[Notkunarafskrift](consumption-depreciation.md)
+[Notkunarafskriftir](consumption-depreciation.md)
 
 [Línuleg afskrift eftirstandandi líftíma](straight-line-life-remaining-depreciation.md)
 
-[Afskriftir fyrir 125% bókfært virði](125-percent-reducing-balance-depreciation.md)
+[125 prósenta lækkandi afskrift](125-percent-reducing-balance-depreciation.md)
 
 [Afskriftir fyrir 150% bókfært virði](150-percent-reducing-balance-depreciation.md)
 

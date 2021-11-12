@@ -2,7 +2,7 @@
 title: Hafist handa með skattaútreikning
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp skattaútreikning.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562127"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647435"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Það leiðir þig í gegnum grunnstillingarskrefin í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Það fer síðan yfir almennu leiðina til að nota möguleika skattaútreiknings í færslum Finance og Supply Chain Management.
 
@@ -41,29 +39,10 @@ ms.locfileid: "7562127"
 
 Áður en hægt er að klára ferlin í þessu efnisatriði þurfa eftirfarandi skilyrði að vera til staðar fyrir hverja gerð umhverfis.
 
-### <a name="for-a-production-environment"></a>Fyrir vinnsluumhverfi
-
-Fyrir vinnsluumhverfi þarf að uppfylla eftirfarandi skilyrði:
+Uppfylla þarf eftirfarandi skilyrði:
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
-- Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** ef þú settir upp umhverfi Finance eða Supply Chain Management eftir því hverjar rekstrarþarfir þínar eru:
-
-    - Skattaútreikningsþjónusta
-    - Styðja mörg VSK-skráningarnúmer
-    - Skattar í flutningspöntun
-
-- Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** fyrir uppsett RCS-umhverfi.
-
-    - Altækir eiginleikar
-
-### <a name="for-a-test-environment-public-preview"></a>Fyrir prófunarumhverfi (opin forútgáfa)
-
-Fyrir prófunarumhverfi þarf að uppfylla eftirfarandi skilyrði:
-
-- Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
-- Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
-- Þú hafðir samband við Microsoft með því að senda póst á <taxcalc@microsoft.com> til að virkja forútgáfuna í uppsettu umhverfi þínu af Finance eða Supply Chain Management.
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** ef þú settir upp umhverfi Finance eða Supply Chain Management eftir því hverjar rekstrarþarfir þínar eru:
 
     - Skattaútreikningsþjónusta

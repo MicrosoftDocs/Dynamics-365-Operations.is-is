@@ -1,5 +1,5 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.22 (nóvember 2021)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.22. (nóvember 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579713"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678836"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.22 (nóvember 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.22. (nóvember 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.22. Þessi útgáfa er með byggingarnúmer 10.0.995 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.22. Þessi útgáfa er með byggingarnúmer 10.0.995 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun útgáfu:** september 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Október 2021
@@ -40,13 +39,12 @@ ms.locfileid: "7579713"
 
 Í eftirfarandi töflu er listi yfir eiginleikaviðbætur sem eru í þessari útgáfu. Hver þessara endurbóta býður upp á stigvaxandi viðbót á fyrirliggjandi eiginleika. Þær eru aðeins viðbætur og eru því ekki skráðar í [útgáfuáætluninni](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). En til að tryggja að þessar viðbætur stangist ekki á við núverandi sérstillingar eða kjörstillingar er sjálfgefið slökkt á þeim öllum (nema annað sé tekið fram). Ef nota á einhvern þessara eiginleika þarf að virkja þá sérstaklega í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Eiginleikasvæði | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
+| Kerfiseining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
 | Kostnaðarstýring | Búa til tengda afsláttarmiða fyrir endurmat á námundun staðalkostnaðar | <p>Þegar birgðafjárhagsbókun (svo sem sölupöntunarreikningur eða birgðafærsla) er gerð veldur þessi eiginleiki því að kerfið býr til sérstakt fylgiskjal fyrir alla tengda hefðbundna endurmatsreikninga vegna rúnnunar kostnaðar og tengir hann við fylgiskjal fjárhagsbókunar sem tengt fylgiskjal.</p><p>Án þessa eiginleika skráir kerfið hefðbundið endurmat á rúnnun staðalkostnaðar á sömu fylgiskjalsbókun. Sú hegðun getur stundum valdið ósamræmi í upplýsingum um dagsetningar, vegna þess að endurmatið notar lotu- eða kerfisdagsetninguna, en fjárhagsfærslur nota bókunardagsetninguna.</p> |
 | Dreifð blönduð grannfræði | *(Engin eiginleikastjórnun er nauðsynleg.)* | <p>Þessi útgáfa eykur við farmáætlunargetu fyrir útleið í vinnuálagi vöruhúsakerfis fyrir einingakvarða skýja og jaðra.</p><p>Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Umsjón hönnunarbreytinga | Afbrigði útbúið fyrir hönnunarafurðir | <p>Þessi eiginleiki gerir þér kleift að búa til ýmis afbrigði fyrir hönnunarafurð út frá lit, stærð, stíl eða skilgreiningarvíddum.</p><p>Frekari upplýsingar er að finna í [Búa til afbrigði fyrir hönnunarafurðir](../engineering-change-management/engineering-variants.md).</p> |
 | Birgða- og vöruhúsakerfi | Samþætting birgðasýnileika með mótbókun frátekningar | <p>Aðeins er hægt að virkja þennan eiginleika eftir að eiginleikinn *Samþætting sýnileika birgða* er virkjaður. Þetta býður upp á virkni til að vega upp á móti frátekningum sem eru gerðar á birgðasýnileika.</p><p>Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](../inventory/inventory-visibility-reservations.md).</p> |
-| Sala og markaðsstarf | Takmarka fjölda sölupantana sem hægt er að velja fyrir bókun | <p>Þessi eiginleiki er sjálfkrafa virkjaður. Þetta bætir **Hámarksfjöldi sölupantana fyrir bókun** reit við síðuna **Færibreytur viðskiptakrafna**. Þessi reitur gerir þér kleift að skilgreina hámarksfjölda sölupantana sem hægt er að velja þegar staðfestingar, tiltektarlistar, fylgiseðlar og reikningar á listasíðu sölupantana eru bókuð. Sjálfgildið er *100*.</p><p>Þessi eiginleiki stuðlar að bættum afköstum á listasíðu sölupantana þegar umtalsverður fjöldi sölupantana er valinn. Það hefur engin áhrif á fjölda sölupantana sem hægt er að afgreiða með reglubundnu verkefni.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -63,7 +61,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.22 í Finance and Operations-forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.22 í Finance and Operations-forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

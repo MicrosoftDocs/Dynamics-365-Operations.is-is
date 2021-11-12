@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
-ms.translationtype: HT
+ms.openlocfilehash: 2c14101099473025f88632245553da0bf50d4622
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7638471"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647216"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.19 (júní 2021)
 
@@ -48,7 +48,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 Í eftirfarandi töflu er listi yfir eiginleikaviðbætur í þessari útgáfu. Hver þeirra býður upp á stigvaxandi viðbót á fyrirliggjandi eiginleika. Þær eru aðeins viðbætur og eru því ekki skráðar í [útgáfuáætluninni](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). En til að tryggja að þessar viðbætur stangist ekki á við núverandi sérstillingar eða kjörstillingar er sjálfgefið slökkt á þeim öllum (nema annað sé tekið fram). Ef nota á einhvern þessara eiginleika þarf að virkja þá sérstaklega í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Eiginleikasvæði | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
+| Kerfiseining | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
 | Sala og markaðsstarf | Endurbætur á afköstum hreinsunar á söluferli | Hreinsun söluferils getur tekið langan tíma ef hún er sjaldan keyrð í umhverfum þar sem er mikið um söluuppfærslur. Til að stytta tímann og auka áreiðanleikann mun þessi eiginleiki skipta hreinsun niður í runur og keyra þær í stuttan tíma í einu. Ef mögulegt mun geta gagnagrunnsins vera notuð til að lágmarka læsingu og forðast að sameina færslutöflur við hreinsun. Frekari upplýsingar er að finna í [Endurbætur á afköstum hreinsunar á söluferli](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Sala og markaðsstarf | Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu fyrir pantanir innan samstæðu | Þessi eiginleiki gerir kleift að stjórna því hvað gerist fyrir reitargildi sölu- og innkaupadagsetninga þegar beinar afhendingar innan samstæðu eru notaðar. Hægt er að velja hvort kerfið uppfæri umbeðnar dagsetningar eða sleppi því að uppfæra þær. Ef uppfærslunni er sleppt munu umbeðnar dagsetningar sýna það sem viðskiptavinurinn hefur óskað eftir. Ef uppfærslur eru virkjaðar munu umbeðnar dagsetningar (þegar stjórnun afhendingardagsetningar er notuð) aðeins sýna í upphafi það sem viðskiptavinurinn hefur óskað eftir. Stjórnun afhendingardags, þegar hann er annar en *Enginn*, mun hnekkja því sem var óskað eftir í upphafi. Hægt er að stjórna þessum valkosti með nýju stillingunni **Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu** í stillingum lánardrottins eða viðskiptavinar innan samstæðu.<br><br>Ef slökkt er á eiginleikanum mun kerfið skrifa yfir umbeðna móttökudagsetningu á upprunalegum sölupöntunum samkvæmt reglu um stjórnun afhendingardagsetningar, en umbeðin flutningsdagsetning helst óbreytt. |

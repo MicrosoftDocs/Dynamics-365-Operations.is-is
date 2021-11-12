@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569338"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678690"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -93,7 +93,6 @@ Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum
 1. **Skrá niðurtíma** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að skrá niðurtíma vélar. Hægt verður að velja ástæðukóða og slá inn dagsetningu/tímalengd niðurtímans. Skráning niðurtíma vélar er notuð til að reikna út skilvirkni á eign vélar.
 1. **Skoða eða breyta** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að breyta eða skoða fyrirliggjandi færslur niðurtíma.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Hefja og ljúka framleiðsluvinnslum
 
 Starfsmenn hefja framleiðsluvinnu með því að velja vinnslu í flipanum **Allar vinnslur** og velja síðan **Hefja vinnslu** til að opna svargluggann **Hefja vinnslu**.
@@ -109,6 +108,32 @@ Starfsmenn geta hafið vinnslu sem er með einhverja stöðu. Þegar starfsmaðu
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp vörumagnið sem valin vinnsla framleiddi í flipanum **Virkar vinnslur** og síðan velja **Gefa upp framvindu**. Síðan í svarglugganum **Gefa upp framvindu** færir starfsmaðurinn inn vörumagnið með því að nota talnaborðið. Magnið er autt að sjálfgefnu. Eftir að magn er fært inn getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
 
 ![Svargluggi framvinduskýrslu.](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Tilkynna vörumagn í runupöntunum sem eru með aukaafurðir og hliðarafurðir
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Starfsmenn geta notað vinnsluviðmót framleiðslugólfs til að tilkynna um framvindu runupantana. Þessi tilkynnagjöf felur í sér tilkynningu um aukaafurðum og hliðarafurðum.
+
+Sumir framleiðendur, sérstaklega í iðnaðarframleiðslu, nota runupantanir til að stjórna framleiðsluferlunum. Runupantanir eru búnar til úr formúlum og hægt er að skilgreina þessar formúlur þannig að þær hafi aukaafurðir og hliðarafurðir sem úttak. Þegar gerð er athugasemd um þessar runupantanir þarf að skrá magn úttaks í formúluvöruna og einnig í aukaafurðirnar og hliðarafurðirnar.
+
+Þegar starfsmaður lýkur í heild eða hluta til verki í runupöntun getur hann tilkynnt vöru- eða rýrnunarmagn fyrir hverja afurð sem er skilgreind sem úttak fyrir pöntunina. Afurðir sem eru skilgreindar sem úttak fyrir runupöntun geta verið af gerðinni *Formúla*, *Aukaafurð* eða *Hliðarafurð*.
+
+Til að tilkynna vörumagn afurðanna velur starfsmaður verk á flipanum **Virkar vinnslur** og velur svo **Tilkynna framvindu**.
+
+Í svarglugganum **Tilkynna framvinda** getur starfsmaðurinn síðan valið úr afurðum sem eru skilgreindar sem úttak fyrir runupöntunina sem á að tilkynna um. Starfsmaðurinn getur valið eina eða margar afurðir úr listanum og síðan valið **Tilkynna framvindu**. Fyrir hverja afurð er magnið sjálfgefið autt og starfsmaðurinn getur notað talnaðborðið til að slá inn magnið. Starfsmaðurinn getur notað hnappana **Fyrri** og **Næsta** til að fara á milli valinna afurða. Eftir að magnið er fært inn fyrir hverja afurð getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
+
+![Skýrsla um aukaafurðir og hliðarafurðir.](media/report-co-by-products.png "Skýrsla um aukaafurðir og hliðarafurðir")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Tilkynning um runupantanir fyrir vörur áætlunar
+
+Þegar starfsmaður lýkur verki runupöntunar fyrir áætlaða vöru mun hann aðeins tilkynna magn hliðarafurðar og aukaafurða vegna þess að áætlunarvörur innihalda ekki vöru af gerðinni *Formúla*.
+
+### <a name="reporting-co-product-variation"></a>Tilkynning um frávik aukaafurðar
+
+Ef runupöntun er búin til úr formúluútgáfu þar sem valkosturinn **Frávik aukaafurðar** er stilltur á *Já* getur starfsmaðurinn tilkynnt um aukaafurðir sem eru ekki hluti af skilgreiningunni fyrir runupantanir. Þessi virkni er notuð í aðstæðum þar sem óvænt úttak afurðar getur gerst í framleiðsluferlinu.
+
+Í því tilfelli getur starfsmaðurinn tilgreint aukaafurðina og magnið sem á að tilkynna með því að velja **Frávik aukaafurða** í svarglugga framvindutilkynningar. Starfsmaðurinn getur síðan valið á milli allra útgefinna afurða sem eru skilgreindar sem aukaafurðir.
 
 ## <a name="reporting-scrap"></a>Tilkynna rýrnun
 

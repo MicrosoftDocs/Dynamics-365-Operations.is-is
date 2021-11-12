@@ -1,7 +1,7 @@
 ---
 title: Áhrif afskrifta með bakfærslum
 description: Þessi grein fjallar hugsanlega afleiðingar af því að bakfæra eignafærslu.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760663"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674551"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Áhrif afskrifta með bakfærslum
 
@@ -30,14 +30,14 @@ ms.locfileid: "6760663"
 
 Hægt er að bakfæra eignafærslur og færslur sem tengjast eign. Einnig er hægt að afturkalla bakfærða færslu. 
 
-Hægt er að bakfæra eða afturkalla færslu sem var ekki nýjasta færslan bókuð í bókina fyrir eignina. Fyrst að athuga hvort einhverjar afskriftafærslur voru bókaðar eftir færsluna sem á að bakfæra. Þetta er vegna þess að afskriftir eru ekki endurreiknaðar þegar færsla er bakfærð. Þess vegna verða afskriftir oft ýktar eða verða of litlar eftir bakfærsluna eins og sýnt er í dæmunum. 
+Hægt er að bakfæra eða afturkalla færslu sem var ekki nýjasta færslan bókuð í bókina fyrir eignina. Fyrst skal athuga hvort einhverjar afskriftafærslur voru bókaðar eftir færsluna sem á að bakfæra. Þetta skref er nauðsynlegt vegna þess að afskriftir eru ekki endurreiknaðar þegar færsla er bakfærð. Þess vegna verða afskriftir oft ýktar eða verða of litlar eftir bakfærsluna eins og sýnt er í dæmunum. 
 
 Svo að tryggja megi að afskriftir séu réttar þegar færsla er bakfærð skal ekki halda áfram með bakfærsluna ef boð berast í ferlinu sem segja að afskriftir verði ekki endurreiknaðar. Í staðinn skal fyrst bakfæra afskriftarfærsluna sem var bókuð eftir færsluna sem reynt var að bakfæra og halda svo áfram með bakfærsluna. Þú verður ekki varaður við afskriftarútreikningum, og hægt er að halda áfram að bakfæra. 
 
 Eftirfarandi dæmi sýna útreikninga sem eru gerðir ef valið er að halda áfram eftir viðvörunarboðin í stað þess að bakfæra fyrst afskriftarfærslurnar.
 
 ## <a name="example-1-depreciation-is-overstated"></a>Dæmi 1: Afskriftir eru ýktar
-Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir ýktar.
+Eign er sett upp með fimm ára nýtingartíma og línulega afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir ýktar.
 #### <a name="asset-transaction-history"></a>Færslusaga eignar
 
 | Dagsetning       | Færslugerð                                                          | Upphæð                                    |
@@ -61,7 +61,7 @@ Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímab
 Afskrift er ýkt um 16,95 (1000 - 983,.05).
 
 ## <a name="example-2-depreciation-is-understated"></a>Dæmi 2: Afskrift verður of lítil
-Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir of litlar.
+Eign er sett upp með fimm ára nýtingartíma og línulega afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir of litlar.
 #### <a name="asset-transaction-history"></a>Færslusaga eigna
 
 | Dagsetning       | Færslugerð                                                          | Upphæð                                      |

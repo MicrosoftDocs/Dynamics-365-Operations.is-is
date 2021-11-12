@@ -2,7 +2,7 @@
 title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Í þessu efnisatriði er að finna upplýsingar um stjórnun á áfangastöðum rafrænnar skýrslugerðar, gerðir studdra áfangastaða og öryggissjónarmið.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743312"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647094"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -164,12 +164,12 @@ Til að gera PDF umbreytingarvalkostinn tiltækan í núverandi tilviki Finance,
 
 ### <a name="applicability"></a>Gildissvið
 
-Aðeins er hægt að kveikja á valkosti PDF-umbreytingar fyrir skráarhluta sem eru notaðir til að mynda úttak á Office-sniði (Excel eða Word) (**Excel-skrá**). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið. Í útgáfum Finance **á undan útgáfu 10.0.18** er aðeins hægt að kveikja á þessum valkosti fyrir þætti af gerðinni **Excel\\skrá** sem eru notaðir til að mynda úttak á [Excel-sniði](er-fillable-excel.md) eða [Word-sniði](er-design-configuration-word.md). Í **útgáfu 10.0.18 og nýrri** er hins vegar einnig hægt að kveikja á þessum valkosti fyrir þætti af gerðinni **Algeng\\skrá**.
+Í útgáfum af Finance **á undan útgáfu 10.0.18** er aðeins hægt að kveikja á valkosti PDF-umbreytingar fyrir hlutana **Excel\\Skrá** sem eru notaðir til að mynda úttak á Office-sniði (Excel eða Word). Þegar kveikt er á þessum valkosti er úttak sem er myndað á Office sniði sjálfkrafa breytt í PDF snið. Í **útgáfu 10.0.18 og nýrri** er hins vegar einnig hægt að kveikja á þessum valkosti fyrir þætti af gerðinni **Algeng\\skrá**.
 
 > [!NOTE]
 > Athugið villuboðin sem koma upp þegar kveikt er á valkosti PDF-breytingar fyrir rafræna skýrslugerðarþætti af gerðinni **Algeng\\skrá**. Þessi skilaboð gefa til kynna að ekki sé hægt að tryggja, á hönnunartíma, að valinn skráarþáttur muni sýna efnið á PDF-sniði eða efni sem umbreytt er yfir í PDF á keyrslutíma. Því ætti aðeins að kveikja á valkostinum ef öruggt er að valinn skráarþáttur hafi verið skilgreindur til að sýna efni á PDF-sniði eða efni sem umbreytt er yfir í PDF á keyrslutíma.
 > 
-> Ef kveikt er á valkosti PDF-umbreytingar fyrir þátt af gerðinni **Excel\\skrá**, ef sá þáttur sýnir efni á sniði öðru en PDF, og ef ekki er hægt að umbreyta sýnt efni yfir á PDF-snið, mun undantekning eiga sér stað á keyrslutíma. Skilaboðin sem koma upp segja að ekki sé hægt að umbreyta myndað efni yfir á PDF-snið.
+> Ef kveikt er á valkosti PDF-umbreytingar fyrir sniðsþátt, ef sá þáttur sýnir efni á sniði öðru en PDF, og ef ekki er hægt að umbreyta sýnt efni yfir á PDF-snið, mun undantekning eiga sér stað á keyrslutíma. Skilaboðin sem koma upp segja að ekki sé hægt að umbreyta myndað efni yfir á PDF-snið.
 
 ### <a name="limitations"></a>Takmarkanir
 
@@ -189,16 +189,26 @@ Til að kveikja á PDF-ummyndun fyrir skráarstað, veldu gátreitinn **Umbreyta
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Veldu síðu stefnu fyrir PDF umbreytingu</a>
 
-Ef skilgreining rafrænnar skýrslugerðar er búin til á Excel-sniði og ætlunin er að breyta því í PDF-skjal, er hægt að tilgreina hvernig síðan á að snúa í PDF-skjalinu. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
+Ef skilgreining rafrænnar skýrslugerðar er búin til á Excel-sniði og ætlunin er að breyta því í PDF-skjal, er hægt að tilgreina beint hvernig síðan á að snúa í PDF-skjalinu. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
 
 [![Val á síðustefnu fyrir PDF-umbreytingu.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Til að hafa möguleikann á því að velja hvernig PDF-síða á að snúa þarf að setja upp Finance-útgáfu 10.0.10 eða nýrri.
->
-> Valin síðustefna er notuð á allar ER stillingar sem eru búnar til á Excel sniði og síðan breytt í PDF snið.
->
-> Ef skilgreining rafrænnar skýrslugerðar á Word-sniði er breytt í PDF-snið, verður snúningur PDF-skjalsins tekinn frá Word-skjalinu.
+Til að hafa möguleikann á því að velja hvernig PDF-síða á að snúa skal setja upp Finance-útgáfu 10.0.10 eða nýrri. Í útgáfum af Finance **á undan útgáfu 10.0.23** býður þessi valkostur upp á eftirfarandi valkosti fyrir því hvernig síða á að snúa:
+
+- Skammsnið
+- Langsnið
+
+Valin síðustefna er notuð á allar síður skjals á útleið sem er búin til á Excel-sniði og síðan breytt í PDF-snið.
+
+Í **útgáfu 10.0.23 og nýrri** hefur listi yfir valkosti síðustefnu hinsvegar verið útvíkkaður eins og hér segir:
+
+- Skammsnið
+- Langsnið
+- Sérstaklega fyrir vinnublað
+
+Þegar þú velur valkostinn **Sérstaklega fyrir vinnublað** er öllum vinnublöðum af myndaðri Excel-vinnubók breytt í PDF með því að nota síðustefnu sem hefur verið skilgreind fyrir þetta vinnublað í notuðu Excel-sniðmáti. Þannig að þú gætir verið með endanlegt PDF-skjal sem inniheldur skammsniðs- og langsniðssíður. 
+
+Ef skilgreining rafrænnar skýrslugerðar á Word-sniði er breytt í PDF-snið, verður snúningur PDF-skjalsins alltaf tekinn frá Word-skjalinu.
 
 ## <a name="output-unfolding"></a>Framsetning úttaks
 

@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743172"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647537"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations-forritum.
 
@@ -148,14 +149,15 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
 | Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
+| Breyta stærð núverandi dálks til að efnið passi í hann (með fókus á röð síðuhauss)                                           | A                               |
 
 ## <a name="input-control-shortcuts"></a>Flýtivísanir inntaksstýringar
 
-| Til að gera þetta                                                                   | Styðjið á                         |
+| Til að gera þetta                                                                   | Ýta á                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Opna tengilinn                                                           | Ctrl+Enter                    |
-| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | G                         |
-| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | T                         |
+| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | G                             |
+| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | T                             |
 | Opna uppflettingu, samsettan glugga, dagsetningarval, felliglugga                         | Alt+Niðurör                |
 | Loka uppflettingu, samsettum glugga, dagsetningarvali, felliglugga                        | Esc                           |
 | Færa áherslu í uppflettingu (ef uppfletting er þegar opin)                   | Alt+Niðurör                |
@@ -202,8 +204,8 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Nota færslutól (í sérstillingu)                                                                       | M                                   |
 | Velja valda stýringu til að færa (þegar færslutólið er notað og engin stýring hefur verið valin til flutnings)  | Bil eða Enter                      |
 | Hreinsa stýringu til að færa (þegar þú notar færslutólið)                                                                   | Esc                                 |
-| Fara á næsta stað fyrir valda stýringu (þegar þú notar færslutólið)                                          | Flipi eða hægriör eða niðurör    |
-| Fara á fyrri stað fyrir valda stýringu (þegar þú notar færslutólið)                                      | Shift + Tab eða vinstri ör eða uppör |
+| Færa valda stýringu á næstu staðsetningu (þegar þú notar færslutólið)                                              | Flipi eða hægriör eða niðurör    |
+| Færa valda stýringu á fyrri staðsetningu (þegar þú notar færslutólið)                                          | Shift + Tab eða vinstri ör eða uppör |
 | Nota felutólið (í sérstillingu)                                                                       | H                                   |
 | Skipta um hvort núverandi stýring sé sýnileg eða falin (þegar þú notar felutólið)                                     | Bil eða Enter                      |
 | Nota sleppitólið (í sérstillingu)                                                                       | K                                   |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
-ms.translationtype: HT
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384612"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647621"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -109,7 +109,7 @@ Frekari upplýsingar um hvernig vefþjónustuforrit eru sett upp eru í Azure AD
     - [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Hvernig á að: Nota gáttina til að stofna Azure AD-forrit og þjónustueiningu með aðgang að tilföngum](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Stofnaðu og skilgreindu notandareikning í Supply Chain Management
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Stofnaðu og skilgreindu notandareikning í Supply Chain Management
 
 Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylgja þessum skrefum.
 
@@ -117,17 +117,24 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
 
     1. Í Supply Chain Management skal fara á **Kerfisstjórnun \> notendur \> notendur**.
     1. Stofna notanda.
-    1. Úthluta fartækjanotanda í vöruhúsi.
+    1. Úthlutaðu notandanum hlutverkinu *Fartækjanotandi í vöruhúsi*.
 
     ![Úthluta fartækjanotanda í vöruhúsi.](media/app-connect-app-users.png "Úthluta fartækjanotanda í vöruhúsi")
 
 1. Tengið Azure AD-forritið við notanda farsímaforrits vöruhúsakerfis:
 
     1. Opnið **Kerfisstjórnun \> Uppsetning \> Azure Active Directory forrita**.
-    1. Stofna línu.
-    1. Færa skal inn biðlarakennið sem skráð var niður í hlutanum á undan, gefa því heiti og velja notandann sem var stofnaður. Við mælum með því að öll tækin þín séu merkt. Ef tæki týnist, þá er lítið mál að fjarlægja aðgang þess að Supply Chain Management á þessari síðu.
+    1. Veldu **Nýtt** á aðgerðasvæðinu til að búa til línu.
+    1. Í reitinn **Biðlarakenni** skal færa inn biðlarakennið sem þú skrifaðir niður í hlutanum hér á undan.
+    1. Færið inn lýsandi nafn í reitinn **Heiti**.
+    1. Í reitnum **Notandakenni** skal velja notandakennið sem var verið að búa til.
 
     ![Azure Active Directory-forrit.](media/app-connect-aad-apps.png "Forrit Azure Active Directory")
+
+> [!TIP]
+> Ein leið til að nota þessar stillingar er að búa til biðlarakenni í Azure fyrir sérhvert tæki og síðan bæta hverju biðlarakenni við síðuna **Azure Active Directory forrit**. Ef tæki týnist er lítið mál að fjarlægja aðgang þess að Supply Chain Management með því að fjarlægja biðlarakennið af síðunni. (Þessi aðferð virkar vegna þess að innskráningarupplýsingar tengingar sem eru vistaðar á hverju tæki tilgreina einnig biðlarakennið eins og lýst er síðar í þessum hluta.)
+>
+> Að auki eru stillingar fyrir sjálfgefið tungumál, númerasnið og tímabelti fyrir sérhvert biðlarakenni ákvarðaðar með þeim kjörstillingum sem eru stilltar fyrir gildi **Biðlarakennis** sem er varpað hér. Þess vegna getur þú notað þessar kjörstillingar til að setja upp sjálfgefnar stillingar fyrir hvert tæki eða safn tækja samkvæmt biðlarakenninu. Þessar sjálfgefnu stillingar verða hinsvegar hunsaðar ef þær eru einnig skilgreindar fyrir *notandareikning vöruhúsaforrit* sem starfskraftur notar til að skrá sig inn á tækið. (Frekari upplýsingar er að finna í [Notendareikningar fartækis](mobile-device-work-users.md).)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sannvotta með því að nota vottorð eða leyniorð biðlara
 

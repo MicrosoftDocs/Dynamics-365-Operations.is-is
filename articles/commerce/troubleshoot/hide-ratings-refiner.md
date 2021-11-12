@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3438d12f4ffd06b07cbef724cda8fa490a5f4eb
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 9f2f815299335a88663311caaa243f854610f885
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472629"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674804"
 ---
 # <a name="ratings-refiner-appears-on-search-results-and-category-pages-when-the-ratings-and-reviews-solution-isnt-enabled"></a>Afmörkun einkunna birtist á síðum leitarniðurstaðna og flokka þegar lausn einkunna og umsagna er ekki virkjuð
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir leiðsögn í gegnum úrræðaleit um hvernig eigi að fela afmörkun einkunna í leitarniðurstöðum og flokkasíðum þegar lausn Microsoft Dynamics 365 Commerce einkunna og umsagna er ekki virkjuð fyrir svæði rafrænna viðskipta.
 

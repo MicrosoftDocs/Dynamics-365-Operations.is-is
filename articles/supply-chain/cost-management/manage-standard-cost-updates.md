@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579761"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678666"
 ---
 # <a name="manage-standard-cost-updates"></a>Stjórnun uppfærslu staðalkostnaðar
 
@@ -43,8 +43,6 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota einnar útgáfu og tveggja-�
 Þetta dæmi notaði eina aukaútgáfu kostnaðarútgáfu við stjórnun uppfærslna í gegnum árið 2020. Fleiri en eina aukaútgáfu kostnaðarútgáfu er hægt að nota, eins og aðskilda útgáfu fyrir hverja uppfærslurunu. Þegar fleiri en ein viðbótar kostnaðarútreikningur er notað, verður varaútgáfan að vera sýnd sem virka kostnaðinn, af því virkan kostnað eru dreifast yfir margar kostnaðarútgáfur.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Fjárhagsvíddir fyrir endurmat staðalkostnaðar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Ef nýtt staðlað verð er virkjað verður birgðavirði yfirleitt endurmetið með endurmatsfærslum staðalkostnaðar. Yfirleitt eru fjárhagsvíddir vörunnar þá bókaðar í færslunum. Ef hins vegar vilji er til þess að stjórna því hvort og hvernig fjárhagsvíddir eru bókaðar skal nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum sem heitir *Valmöguleikar á að gera fjárhagsvíddir sjálfgefnar fyrir endurmat á staðalkostnaði birgða*. Þegar þessi eiginleiki hefur verið virkjaður skal opona **Kostnaðarstjórnun > Skipulag á reglum birgðabókhalds > Færibreytur** og stilla nýja fellilistann **Uppruni fjárhagsvíddar** á eitt af eftirfarandi gildum:
 

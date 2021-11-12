@@ -2,7 +2,7 @@
 title: Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
 description: Þetta efni veitir upplýsingar um aðgerðir dagsetningar og tíma sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760051"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647264"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
 
@@ -31,8 +31,9 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 
 | Aðgerð | Lýsing |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Þessi aðgerð skilar *DateTime*-gildi sem er tilgreindur fjöldi daga fyrir eða eftir tiltekinn upphafsdag. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Þessi aðgerð skilar *String*-gildi sem setur fram tiltekið dagsetningargildi sem texta á tilteknu sniði og í valinni tiltekinni menningu. |
+| [AddDays](er-functions-datetime-adddays.md) | Þessi aðgerð skilar *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* gildi sem er tilgreindur fjöldi daga fyrir eða eftir tiltekna upphafsdagsetningu. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Þessi aðgerð skilar *DateTime* gildi sem er umreiknað úr uppgefnu gildi dagsetningar/tíma í einu tímabelti í gildi dagsetningar/tíma í öðru tímabelti. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Aðgerðin skilar *[String](er-formula-supported-data-types-primitive.md#string)*-gildi sem setur fram tiltekið dagsetningargildi sem texta á tilteknu sniði og í valinni tiltekinni menningu. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Þessi aðgerð skilar *String*-gildi sem setur fram tiltekið dagsetningar-/tímagildi sem texta á tilteknu sniði og í valinni tiltekinni menningu. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni menningu í dagsetningar-/tímagildi. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu dagsetningargildi í dagsetningar-/tímagildi í samræmdan alþjóðlegan tíma (meðaltími Greenwich \[GMT\]). |

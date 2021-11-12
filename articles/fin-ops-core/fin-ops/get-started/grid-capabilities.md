@@ -2,7 +2,7 @@
 title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483855"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700138"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
@@ -32,6 +33,8 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 -  Mat á stærðfræðisegðum 
 -  Flokkun töflugagna (virkjuð sérstaklega með **Flokkun í hnitanetum** eiginleika)
 -  Dálkar frystir
+-  Aðlaga dálkbreidd sjálfkrafa
+-  Teygjanlegir dálkar
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
 Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
@@ -43,7 +46,7 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 - Stórt heildartölur neðst í samstilltu töludálkunum
 - Fjöldi raða í gagnasafninu 
 
-Þessi síðufótur er sjálfgefið falinn en hægt er að kveikja á honum. Til að sýna fót fyrir rist, hægrismellt er á dálkhaus í töflunni og valið valkosturinn **Sýna fót**. Eftir að kveikt er á síðufætinum fyrir tiltekið hnitanet verður stillingin geymd í minni þar til notandinn kýs að fela síðufótinn. Til að fela síðufót skal hægrismella á dálkhaus og velja **Fela síðufót**.  (Staðsetning aðgerðarinnar **Sýna síðufót/fela síðufót** gæti verið færð yfir á aðra staðsetningu í næstu uppfærslu. 
+Þessi síðufótur er sjálfgefið falinn en hægt er að kveikja á honum. Til að sýna síðufót fyrir hnitanet skal velja hnappinn **Valkostir hnitanets** í haus hnitanetsins og síðan velja valkostinn **Sýna síðufót**. Eftir að kveikt er á síðufætinum fyrir tiltekið hnitanet verður stillingin geymd í minni þar til notandinn kýs að fela síðufótinn. Til að fela síðufótinn skal velja **Fela síðufót** á valmyndinni **Valkostir hnitanets**.  
 
 ### <a name="specifying-columns-with-totals"></a>Tilgreina dálka með samtölum
 Sem stendur sýna engir dálkar samtölur að sjálfgefnu. Þess í stað er þetta talið einskiptisvirkni, svipað og að laga breidd dálka í ristum. Þegar þú hefur tilgreint að þú viljir sjá samtölur fyrir dálk, þá munst þessi stilling næst þegar þú heimsækir síðuna.  
@@ -82,7 +85,7 @@ Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðu
 Þegar notendur eru að slá inn gögn á undan þeim stað þar sem netþjónninn er að vinna, mega þeir búist við afkastaminnkun við gagnaskráninguna, t.d. færri uppflettingar, staðfestingar eftirlitsstigs og færslna á sjálfgefnum gildum. Notendur sem þurfa fellilista til að finna gildi eru hvattir til að bíða eftir að þjónninn vinni sig að núverandi línu. Staðfesting eftirlitsstigs og færsla sjálfgefinna gilda gerast einnig netþjónninn vinnur úr þeirri línu.   
 
 ### <a name="pasting-from-excel"></a>Líma úr Excel
-Notendur hafa alltaf getað flutt gögn úr hnitanetum í Finance and Operations forritum í Excel með því að nota aðferðina **Flytja inn í Excel**. Getan til að slá inn gögn á undan kerfinu gerir hinsvegar nýja hnitanetinu kleift að styðja afritun á töflum úr Excel og líma þær beint í hnitanet í Finance and Operations forritum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
+Notendur hafa alltaf getað flutt gögn úr hnitanetum í Finance and Operations forritum í Microsoft Excel með því að nota aðferðina **Flytja inn í Excel**. Getan til að slá inn gögn á undan kerfinu gerir hinsvegar nýja hnitanetinu kleift að styðja afritun á töflum úr Excel og líma þær beint í hnitanet í Finance and Operations forritum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
 
 - Ef fjöldi dálka í afrituðu töflunni er meiri en fjöldi dálka sem eru eftir í hnitanetinu, þar sem staðsetning límingar hefst, er notandanum tilkynnt að aukadálkarnir hafi verið hunsaðir. 
 - Ef fjöldi lína í afrituðu töflunni er meiri en fjöldi lína í hnitanetinu, þar sem staðsetning límingar hefst, skrifar límda efnið yfir núverandi hólf, og allar aukalínur í afrituðu töflunni eru settar inn sem nýjar línur neðst í hnitanetinu. 
@@ -125,6 +128,9 @@ Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa
 Til að losa dálk skal hægrismella í haus fests dálks og síðan velja **Losa dálk**. 
 
 Athugið að dálkval og línustaða dálka í nýja hnitanetinu eru alltaf fest sem fyrstu tveir dálkarnir. Þess vegna, þegar þessir dálkar eru teknir með í hnitaneti, verða þeir alltaf sýnilegir notanda, óháð láréttri flettistöðu í hnitanetinu. Ekki er hægt að endurraða þessum tveimur dálkum.
+
+## <a name="autofit-column-width"></a>Aðlaga dálkbreidd sjálfkrafa
+Líkt og Excel geta notendur sjálfkrafa þvingað dálk til að breyta stærð miðað við það efni sem er sýnt í þeim dálki. Til að gera þetta skal tvísmella á gripsvæði í dálkinum eða með því að setja fókus á dálkhausinn og ýta á **A** (fyrir sjálfvirka aðlögun). Þessi möguleiki verður í boði frá og með útgáfu 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 

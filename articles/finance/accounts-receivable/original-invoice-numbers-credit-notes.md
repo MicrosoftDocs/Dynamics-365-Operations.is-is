@@ -2,7 +2,7 @@
 title: Tilvísanir í upprunalega reikninga í kreditnótum
 description: Þetta efnisatriði útskýrir hvernig á að setja upp og prenta upprunaleg reikningsnúmer í tengdum kreditnótum.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723848"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700356"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Tilvísanir í upprunalega reikninga í kreditnótum
 
@@ -95,5 +95,10 @@ Notið eftirfarandi ferli til að skilgreina tilvísanir í upprunalega reikning
 > [!NOTE]
 > Gangið úr skugga um að prentvæn snið skjalanna séu rétt skilgreind með það í huga að tilvísanir í upprunalega reikninga verði prentaðar.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Tilvísanir í upprunalega reikninga í debetnótum
+
+Að sjálfgefnu er hægt að færa inn tilvísanir í upprunalega reikninga fyrir kreditnótur. Til dæmis er hægt að færa inn tilvísanir þegar þú gerir neikvæðar (minnkandi) leiðréttingar á upprunalegum reikningum.
+
+Til að færa inn tilvísanir þegar þú gerir jákvæðar (auknar) leiðréttingar á upprunalegum reikningum verður þú að virkja eiginleikann **Tilvísanir í upprunalega reikninga í debetnótum** á vinnusvæðinu **Eiginleikastjórnun**.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

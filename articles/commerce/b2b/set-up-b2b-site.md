@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721008"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713749"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Setja upp B2B svæði fyrir rafræn viðskipti
 
@@ -37,7 +37,7 @@ B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstil
 
 Hægt er að fá aðgang að stillingum á svæðisstigi í svæðissmiðnum á **Stillingar svæðis \> Viðbætur**. Eftirfarandi tvær stillingar á svæðisstigi eiga við um B2B-aðstæður:
 
-- **Virkja greiðslur viðskiptavinareiknings** – Þessi eiginleiki gerir notendum kleift að greiða fyrir pantanir með viðskiptavinareikningum. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**. Ef B2B-svæðið styður viðskiptavinareikninga ætti að velja **Virkjað fyrir B2C-viðskiptavini**.
+- **Virkja greiðslur viðskiptavinareiknings** – Þessi eiginleiki gerir notendum kleift að greiða fyrir pantanir með viðskiptavinareikningum. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**. Ef B2B-svæðið styður viðskiptavinareikninga ætti að velja **Virkjað fyrir B2B-viðskiptavini**.
 - **Virkja takmörk pöntunarmagns** – Þessi eiginleiki gerir þér kleift að stilla takmörk á fjölda vara sem hægt er að panta fyrir hverja afurð eða flokk. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**.
 
 > [!NOTE]

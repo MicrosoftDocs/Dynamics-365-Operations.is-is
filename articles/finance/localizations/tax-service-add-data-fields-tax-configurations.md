@@ -2,7 +2,7 @@
 title: Bæta við gagnareitum í skattaskilgreiningum
 description: Þetta efnisatriði útskýrir hvernig á að sérsníða skattaskilgreiningar með því að bæta við gagnasvæðum.
 author: Kai-Cloud
-ms.date: 09/15/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb10fb5feb317dca5253eea6e5694a3960a58a7d
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500147"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674901"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Bæta við gagnareitum í skattaskilgreiningum
 
@@ -31,8 +31,12 @@ ms.locfileid: "7500147"
 ## <a name="customize-the-tax-data-model"></a>Sérstilla skattgagnalíkan
 
 1. Í Microsoft Dynamics 365 Finance skaltu fara í **Rafræn skýrslugerð** > **Skattaskilgreiningar**.
-2. Í skilgreiningartrénu velurðu **Skattgaganlíkan - Evrópa**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**.
-3. Í fellilistanum velurðu **Skattskylt skjallíkan afleitt af nafni: Skattgagnalíkan -- Evrópa, Microsoft** valkostinn, slærð inn heiti fyrir nýja skattgagnalíkanið og velur **Stofna skilgreiningu**.
+2. Í skilgreiningartrénu skal velja **Gagnalíkan skattaútreiknings**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**. 
+
+  > [!NOTE] 
+  > Ef engin skilgreiningarveita er tiltæk skal búa til eina og virkja hana fyrir skattaskilgreininguna. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+  
+3. Í fellilistanum velurðu **Skattskylt skjallíkan afleitt af nafni: Skattútreikningsgagnalíkan, Microsoft** valkostinn, slærð inn heiti fyrir nýja skattgagnalíkanið og velur **Stofna skilgreiningu**.
 4. Veljið skattgagnalíkan sem nýverið var stofnuð, og síðan, á Aðgerðarúðu, smellið á **Hönnuður**.
 5. Víkkið tré gagnalíkans, veljið **Línur** og svo **Ný**.
 6. Í svarglugganum **Stofna hnút** skaltu slá inn nafn, tilgreina gerð atriðis og velja svo **Bæta við**.
@@ -43,8 +47,8 @@ ms.locfileid: "7500147"
 ## <a name="customize-the-tax-configuration"></a>Sérstilla skattaskilgreiningu
 
 1. Í Finance er farið í **Rafræn skýrslugerð** > **Skattaskilgreiningar**.
-2. Í skilgreiningartrénu velurðu **Skattaskilgreining - Evrópa**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**.
-3. Í fellilistanum velurðu **Skilgreining skattþjónustu afleidd af nafni: Skattaskilgreining -- Evrópa, Microsoft**, slærð inn heiti fyrir nýju skattaskilgreininguna og velur **Stofna skilgreiningu**.
+2. Í skilgreiningartrénu skal velja **Skilgreining skattaútreiknings**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**.
+3. Í fellilistanum velurðu **Skilgreining skattþjónustu afleidd af nafni: Skattareikningsskilgreining, Microsoft**, slærð inn heiti fyrir nýju skattaskilgreininguna og velur **Stofna skilgreiningu**.
 4. Veljið skattaskilgreiningu sem nýverið var stofnuð, og síðan, á Aðgerðarúðu, smellið á **Hönnuður**.
 5. Í hlutanum **Eiginleikar** í **Gagnalíkan** skal velja sérstillta skattgagnalíkanið sem var búið til áður.
 6. Í reitnum **Útgáfa gagnalíkans** er lokið við að velja útgáfu af gerð skattagagnalíkansins.

@@ -2,7 +2,7 @@
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
-ms.translationtype: HT
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612365"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675370"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -68,6 +68,9 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML-eining XML-eigind |
 | Afmarkað, föst breidd | Komma, semíkomma, flipi, lóðrétt strik, tvípunktur | \-NA-                     |
+
+> [!NOTE]
+> Mikilvægt er að velja rétt gildi fyrir **Línuskiltákn**, **Dálkaskiltákn** og **Textaskilyrði** ef valkosturinn **Skráarsnið** er stilltur á **Afmarkað**. Gakktu úr skugga um að gögnin þín innihaldi ekki stafinn sem er notaður sem skiltákn eða skilyrði, þar sem það getur valdið villum við innflutning og útflutning.
 
 ### <a name="sequence-the-entities"></a>Einingunum raðað
 Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning.

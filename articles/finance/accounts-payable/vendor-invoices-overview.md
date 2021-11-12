@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722792"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647141"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
@@ -72,12 +72,9 @@ Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir
 Eftirfarandi eru nokkrar leiðir til að koma í veg fyrir að reikningi sé sent inn í verkflæði.
 
 - **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Sá sem sendi inn reikninginn fær viðvörun um að samtölurnar séu ekki jafnar. Viðvörunin býður upp á tækifæri til að leiðrétta stöður áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar heildarupphæð reiknings og skráð heildarupphæð reiknings stemma ekki** á síðunni **Eiginleikastjórnun**. 
-
 - **Reikningur inniheldur óúthlutuð gjöld.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningurinn sé með óúthlutuð gjöld svo viðkomandi geti leiðrétt reikninginn áður en hann er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar það eru óúthlutuð gjöld á reikningi lánardrottins** á síðunni **Eiginleikastjórnun**.
-
 - **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá sem sendi inn reikninginn mun fá skilaboð um að reikningur með tvítekið númer hafi fundist. Hægt er að leiðrétta tvítekna númerið áður en reikningurinn er endursendur í vinnuflæðið. Þessi viðvörun verður birt þegar færibreytan **Athuga notað reikningsnúmer** í viðskiptaskuldum er stillt á **Hafna afriti**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.
-
-- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Sá sem sendir inn reikninginn eða reynir að birta hann fær skilaboð um að magnið sé ekki jafnt. Skilaboðin bjóða upp á tækifæri til að leiðrétta gildi áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Loka fyrir bókun og innsendingu á reikningum lánardrottna í verkflæði** á síðu **Eiginleikastjórnar** og kveikt er á breytu **Loka fyrir bókun og innsendingu í verkflæði** á síðunni **Færibreytur viðskiptaskulda**.  
+- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Sá sem sendir inn reikninginn eða reynir að birta hann fær skilaboð um að magnið sé ekki jafnt. Skilaboðin bjóða upp á tækifæri til að leiðrétta gildi áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Loka fyrir bókun og innsendingu á reikningum lánardrottna í verkflæði** á síðu **Eiginleikastjórnar** og kveikt er á breytu **Loka fyrir bókun og innsendingu í verkflæði** á síðunni **Færibreytur viðskiptaskulda**.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Jafna lánardrottnareikninga við innhreyfingarskjöl afurða
 
@@ -122,9 +119,32 @@ Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með
 Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu úr **Reikningur lánardrottins** eða úr **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Skoðun heildarupphæðar reiknings á síðunni „Reikningar frá lánardrottni í bið“
+
 Hægt er að skoða heildarupphæð reiknings á síðunni **Reikningar frá lánardrottni í bið** með því að virkja færibreytuna **Birta heildarupphæð reiknings á reikningslista lánardrottins í bið** á síðunni **Færibreytur viðskiptaskulda**. 
 
+## <a name="vendor-open-transactions-report"></a>Skýrsla um opnar færslur lánardrottins
 
+Í skýrslunni **Opnar færslur lánardrottins** eru nákvæmar upplýsingar um opnar færslur fyrir hvern lánardrottin frá og með dagsetningunni sem þú gefur upp. Þessi skýrsla er oft notuð í úttektarferlinu þar sem stöður eru staðfestar milli færslna í lánardrottnabók og færslna fjárhagslykils.
+
+Fyrir hverja færslu inniheldur skýrslan eftirfarandi reiti:
+
+- Númer reiknings
+- Færsludagsetning
+- Fylgiskjalsnúmer
+- Færsluupphæð í færslugjaldmiðli og bókhaldsgjaldmiðli
+- Kreditstaða í færslugjaldmiðli og bókhaldsgjaldmiðli
+- Debetstaða í færslugjaldmiðli og bókhaldsgjaldmiðli
+- Upphæð millisamtölu í bókhaldsgjaldmiðli
+- Gjalddagi
+
+### <a name="filter-the-data-on-the-report"></a>Sía á gögnum í skýrslunni
+
+Þegar skýrslan **Opnar færslur lánardrottins** er mynduð eru eftirfarandi sjálfgefnar færibreytur tiltækar. Hægt er að nota þær til að sía gögnin sem verða í skýrslunni.
+
+- **Útiloka síðari jafnanir** – Veldu þennan gátreit til að útiloka færslur sem eru jafnaðar eftir dagsetninguna sem er færð inn í reitinn **Opnar færslur eftir**.
+- **Opnar færslur eftir** – Færðu inn dagsetningu til að hafa með færslur sem eru opnar frá og með þeirri dagsetningu. Ef dagsetning er ekki færð inn er reiturinn stilltur á hámarksdagsetningu. (Hámarksdagsetning er síðasta dagsetningin sem kerfið samþykkir: 31. desember 2154.) Næst þegar skýrslan er keyrð verður þessi reitur sjálfgefið stilltur á síðustu dagsetninguna sem var færð inn.
+
+Hægt er að nota síurnar undir reitnum **Hafa með færslu** til að takmarka enn frekar færslugögnin sem eru í skýrslunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

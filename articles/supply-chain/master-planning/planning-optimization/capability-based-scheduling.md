@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1fcea155f330fa1eced8035f11f7cf204d3b2de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 382814eb3d4322ed52bd39fcb22740201335614e
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575704"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679006"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Röðun með vali á tilföngum út frá getu
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Með því að tilgreina tilfangaþarfir fyrir aðgerð framleiðsluleiðar skilgreinir þú það sem þarf til að framkvæma aðgerðina. Til dæmis gæti aðgerð þurft tiltekið tilfang eða tilfangaflokk eða samsetningu af hæfni eða getu. Þetta efnisatriði lýsir val á tilfangi í áætlanagerð ótakmarkaðrar afkastagetu þegar möguleikar eru tilgreindir sem tilfangaþarfir fyrir aðgerð.
 

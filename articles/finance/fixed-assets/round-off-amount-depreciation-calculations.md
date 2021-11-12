@@ -1,7 +1,7 @@
 ---
-title: Sléttun upphæða fyrir afskriftaútreikninga.
-description: Þessi grein fer yfir svæðið Sléttun afskriftar sem má finna á uppsetningarsíðunum bók.
-author: ShylaThompson
+title: Sléttuð upphæð fyrir útreikning afskrifta
+description: Í þessu efnisatriði er farið yfir reitinn Sléttun afskriftar sem má finna á uppsetningarsíðum bókar.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a99a55e58294f765b606aaabb373cc3f72415ef4ed94c213ebc8cd58af6157ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d3df48fc7bb092b0257c4652a8c67d1d740dbcfe
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719757"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674334"
 ---
-# <a name="round-off-amount-for-depreciation-calculations"></a>Sléttun upphæða fyrir afskriftaútreikninga.
+# <a name="round-off-amount-for-depreciation-calculations"></a>Sléttuð upphæð fyrir útreikning afskrifta
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fer yfir svæðið Sléttun afskriftar sem má finna á uppsetningarsíðunum bók.
+Í þessu efnisatriði er farið yfir reitinn **Sléttun afskriftar** sem má finna á síðunum **Uppsetning bókar**.
 
 Slétta afskriftarupphæðir eru sett fyrir hverja bók. Sléttun afskriftarupphæða er notuð í afskriftareglu eigna sem sýnir afskriftina í framtíðinni og gildi fyrir eignina og einnig í afskriftartillögum. Færið inn lægstu leyfilegu upphæðina til afskriftar fyrir þetta bók. 
 

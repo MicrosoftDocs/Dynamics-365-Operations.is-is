@@ -1,7 +1,7 @@
 ---
 title: Úthlutunarreglur fjárhags
 description: Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.
-author: ShylaThompson
+author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15402
 ms.assetid: 8147e148-7c11-45ef-95c6-f9889a875b54
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd91f9343e3d3a77d2cc32bc8b6c2d6469430477eed0c3b62e1e699cd6816e9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 718640390cd1d4c6c2e9fb1d6bdeba21b515be4a
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780411"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726872"
 ---
 # <a name="ledger-allocation-rules"></a>Úthlutunarreglur fjárhags
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.
+Þetta efnisatriði gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.
 
 Úthlutunarreglur fjárhags eru notaðar til að reikna sjálfkrafa og búa til úthlutunarbækur og færslur í lykil fyrir úthlutun á fjárhagsstöðum eða föstum upphæðum Úthlutunaraðferðir geta verið breytilegar eða fastar. Hægt er að nota eftirfarandi úthlutunaraðferðir fyrir úthlutunarreglur fjárhags:
 

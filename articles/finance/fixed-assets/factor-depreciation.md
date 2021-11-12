@@ -1,7 +1,7 @@
 ---
 title: Stuðulafskrift
 description: Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb35f7b0efaf2f1a5f63eb0dbdf14363f63a389c5449b7fe145a46fd5c14cc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: aab5ab518f2806e1b27f352e354dc9280fd27def
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746465"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674456"
 ---
 # <a name="factor-depreciation"></a>Stuðulafskrift
 
@@ -28,7 +28,7 @@ ms.locfileid: "6746465"
 
 Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.
 
-Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:
+Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift.
 
 -   Í stighækkandi afskrift hækkar afskriftarupphæðin með hverju afskriftartímabili.
 -   Í stiglækkandi afskrift lækkar afskriftarupphæðin á tímabili með tímanum.

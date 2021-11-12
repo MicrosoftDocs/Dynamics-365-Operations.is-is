@@ -2,7 +2,7 @@
 title: Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 description: Þetta efnisatriði lýsir því hvernig stjórnendur geta bætt við, breytt og eytt notendum samstarfsaðila á rafrænum B2B-vefsvæðum.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734944"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713694"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
@@ -68,6 +68,18 @@ Til að samþykkja og setja upp stjórnendanotanda samstarfsaðila í Commerce H
 1. Farið í **Upplýsingatækni smásölu og viðskipta \> Dreifingaráætlun** og keyrið vinnsluna **1010** (**Viðskiptavinir**) til að færa nýlega stofnaða viðskiptavinafærslu og stigveldisfærslu viðskiptavinar í gagnagrunn rásarinnar.
 
 Þegar beiðnin er samþykkt og viðskiptavinafærslan og stigveldisfærsla viðskiptavinar eru samstilltar við gagnagrunnsrásina, getur beiðandinn skráð sig inn á rafræna B2B-vefsvæðið með netfanginu sem hann gaf upp þegar hann sendin inn beiðnina. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Til að gera kleift að tengja færslu auðkennisveitu (Azure AD B2C) við B2B-viðskiptavinafærslu sem var stofnuð við nýskráningu eða innskráningu skal fylgja leiðbeiningunum í [Gera kleift að tengja sjálfvirkt auðkennisfærslur við viðskiptavinalykla](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Tilkynna B2B-viðföngum þegar þau eru samþykkt eða þeim hafnað
+
+Þegar þú samþykkir eða hafnar beiðni um innleiðingu B2B-viðfangs getur þú sent sjálfkrafa tilkynningu í tölvupósti til viðfangsins. 
+
+Til að setja upp tilkynningar í tölvupósti í Commerce Headquarters fyrir tilvik af tilkynningagerðinni B2B-viðfang samþykkt eða B2B-viðfangi hafnað skal fylgja þessum skrefum.
+
+1. Búðu til sniðmát fyrir tölvupóst sem verður sendur til viðfanga þegar tilkynningagerðirnar B2B-viðfang samþykkt eða B2B-viðfangi hafnað eru ræstar.
+
+    Fyrir upplýsingar um staðgengla sem tilkynningagerðirnar B2B-viðfang samþykkt og B2B-viðfangi hafnað styðja skal skoða [Tilkynningagerðir](../email-templates-transactions.md#notification-types). Frekari upplýsingar um hvernig á að búa til sniðmát fyrir tölvupóst skal skoða [Stofna sniðmát fyrir tölvupóst](../email-templates-transactions.md#create-an-email-template). 
+
+1. Bættu tilkynningagerðunum B2B-viðfang samþykkt og B2B-viðfangi hafnað við forstillingu tölvupóststilkynningar og varpaðu þeim í tölvupóstssniðmátin sem þú stofnaðir. Frekari upplýsingar um forstillingar tilkynninga er að finna í [Setja upp forstillingu tilkynningar í tölvupósti](../email-notification-profiles.md). 
 
 ## <a name="onboard-additional-business-partner-users"></a>Fleiri notendur samstarfsaðila teknir inn
 
