@@ -2538,6 +2538,8 @@
                       href: e-commerce-extensibility/debugging-best-practices.md
             - name: Retail SDK
               items:
+                - name: Flytja í Commerce SDK
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
                 - name: Skipulag Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Setja upp sölukeðju fyrir sjálfstæðar umbúðir SDK

@@ -713,11 +713,13 @@
                   href: cost-management/inventory-close.md
                 - name: Leiðrétting kostnaðarvirðis lagerbirgða
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Skýrsla um birgðavirði í geymslu
+                - name: Birgðavirðisskýrslur
                   href: cost-management/inventory-value-report-storage.md
+                - name: Dæmi og rök fyrir birgðavirðisskýrslu
+                  href: cost-management/inventory-value-report-examples.md
                 - name: Skýrsla um aldursgreiningu birgða
                   href: cost-management/inventory-aging-report-storage.md
-                - name: Dæmi og rök fyrir aldursgreiningarskýrslu birgða
+                - name: Dæmi og rök fyrir skýrslu um aldursgreiningu birgða
                   href: cost-management/inventory-aging-report.md
             - name: Bókhald framleiðslu
               items:
@@ -1673,7 +1675,9 @@
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Röðun með vali á tilföngum út frá getu
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Birgðamerking með fínstillingu áætlanagerðar
+                - name: Forgangsröðuð áætlun
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Birgðamerking með fínstillingu áætlunargerðar
                   href: master-planning/planning-optimization/marking.md
                 - name: Áætlanagerð innan samstæðu
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1719,9 +1723,11 @@
                   href: master-planning/maintain-planned-orders.md
                 - name: Uppfylling öryggisbirgða fyrir vörur
                   href: master-planning/safety-stock-replenishment.md
+                - name: Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
+                  href: master-planning/safety-stock-journal.md
                 - name: Seinkanir
                   href: master-planning/delays.md
-                - name: Hætta við aðaláætlunarverk
+                - name: Hætta við vinnslu aðaláætlunargerðar
                   href: master-planning/cancel-master-planning-job.md
                 - name: Nota rakningu fyrir niðurbrot
                   href: master-planning/trace-explosion.md
@@ -2349,8 +2355,10 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Samræmd númeraröð fyrir vinnslukenni
               href: production-control/unified-job-ids.md
-            - name: Kalla fram sjálfvirkni ferilflæðis til að stofna gæðapantanir
+            - name: Kalla fram sjálfvirkniflæði ferlis til að stofna gæðapantanir
               href: production-control/process-automation-quality-orders.md
+            - name: Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
+              href: production-control/mes-integration.md
             - name: Afmörkuð framleiðsla
               items:
                 - name: Vinna með aðalgögn framleiðslu
@@ -2647,8 +2655,10 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
                   href: production-control/production-floor-execution-use.md
-                - name: Hanna keyrsluviðmót framleiðslugólfsins
+                - name: Hanna viðmót fyrir framkvæmd á framleiðslugólfi
                   href: production-control/production-floor-execution-styles.md
+                - name: Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-customize.md
         - name: Stjórnun eftirágreidds afsláttar
           items:
             - name: Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar

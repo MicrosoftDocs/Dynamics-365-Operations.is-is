@@ -708,51 +708,9 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Biðja um einfalt útflutningssnið rafrænnar skýrslugerðar til að búa til Excel-skýrslu
               href: general-ledger/electronic-messaging-example.md
-        - name: Útgjaldastýring
-          items:
-            - name: Yfirlit útgjaldastýringar
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Kostnaðarskýrslur endurhugsaðar
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Áætla útgjaldastýringu
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Færibreytur útgjaldastýringar
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Fartækjavinnusvæði útgjaldastýringar
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Setja upp verkflæði fyrir kostnaðarstýringu
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Verkflæði kostnaðarstýringar
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Vinna með úthlutun kostnaðar
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Úrvinnsla kostnaðarkvittunar
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Flytja inn og vinna með kreditkortafærslur
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Dreifingar á kostnaðarskýrslu
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Kostnaður innan samstæðu
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Skilgreina kostnaðarreglur
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Skoða kostnaðarskýrslu
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Bóka kostnaðarskýrslu
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Kostnaðarskýrslur og margir samþykkjendur
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: Endurgreiðsla virðisaukaskatts í útgjaldastýringu
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Reglur um dagpeninga
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Ferðabeiðnir
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Persónulegur kostnaður á kostnaðarskýrslu
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Eignir
           items:
-            - name: Eignir – heimasíða
+            - name: Heimasíða eigna
               href: fixed-assets/fixed-assets.md
             - name: Stofna eign
               href: fixed-assets/tasks/create-fixed-asset.md
@@ -1244,13 +1202,11 @@
               href: general-ledger/financial-reporting-faq.md
         - name: Fjármálainnsýn
           items:
-            - name: Heimasíða Fjármálainnsýnar
+            - name: Heimasíða Finance insights
               href: finance-insights/finance-insights-home-page.md
             - name: Uppsetning og stjórnun
               items:
-                - name: Stilla Fjármálainnsýn fyrir opna útgáfu
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Skilgreina Fjármálainnsýn fyrir einkaforskoðun
+                - name: Grunnstilla Finance insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Virkja greiðsluspár viðskiptavinar
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1286,93 +1242,11 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Yfirlit yfir skyndimyndir
                   href: finance-insights/payment-snapshots.md
-            - name: Algengar spurningar um úrræðaleit í Finance Insights
+            - name: Algengar spurningar um úrræðaleit í Finance insights
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Verkefnastjórnun og bókhald
-          items:
-            - name: Yfirlit verkefnastjórnunar og bókhalds
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Reikningsfærsla innan samstæðu
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Skilgreina reikningagerð fyrir verk innan samstæðu
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: Skilgreina staðalkostnað fyrir útgjöld og laun
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Stofna og nota varðveisluskilmála greiðslu lánardrottins
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: Setja upp og nota „greiðist-þegar-greitt“ greiðslur lánardrottins
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Uppsöfnun kostnaðar verks á innkaupakvittunum
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Reikningsfærsla verks
-              href: accounts-payable/project-invoicing.md
-            - name: Verksamningar
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: Stofna ítarlega samninga fyrir greiðslur sem miðast við framvindu
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Verkspár og fjárhagsáætlanir
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Stofna spárlíkön fyrir fjárhagsáætlanir verks
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Flytja fjárhagsáætlanir verks við lok fjárhagsárs
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Sölupantanir verks
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Innkaupapantanir fyrir verk
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Verktilboð
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Staðfesta, uppfæra og senda verktilboð'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Flytja tilboð á verk
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Verktilföng
-              items:
-                - name: Yfirlit verktilfanga
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Setja upp verktilföng
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Stjórna hæfni tilfanga
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Stofna nýtt verk
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Setja upp hlutverkamiðað verð
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Stofna verkhóp
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Samstilla tilfangagetu
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Frammistaða tilfangaáætlunar verks
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: Setja upp hlutverk á sniðmátum fyrir sundurliðun verkþátta
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Uppfylling tilfanga fyrir áætluð tilföng
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Taka við atriðum í innkaupapöntun fyrir vöruþörf
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: Sundurliðanir verkþátta
-              items:
-                - name: Yfirlit yfir sundurliðanir verkþátta
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Client samþætting
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Yfirlit yfir fartækjaforrit Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Vinnustundafærsla verks á fartækjavinnusvæði
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Fartækjaforrit fyrir Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Vinnukort verka í fartæki
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Innleiða sérstillta reiti fyrir fartækjaforrit fyrir vinnukort verka
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Verkefnisstyrkir
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Útiloka verkmat
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Hið opinbera
           items:
-            - name: Hið opinbera – heimasíða
+            - name: Heimasíða hins opinbera
               href: public-sector/public-sector-functionality.md
             - name: Áætlun fyrir virkni hins opinbera
               href: public-sector/plan-public-sector-functionality.md
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Setja upp NF-e-færibreytur fyrir fjárhagsstofnun
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: Færa NF-e XML-skrár sem viðhengi
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 – Útlit og staðfesting uppfærslna í rafræna fjárhagsskjalinu (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – Stafrænn verkvangur sölu frá þriðja aðila fyrir NF-e
@@ -2188,8 +2064,10 @@
                       href: localizations/emea-vat-reporting.md
                     - name: Stofna og senda inn VSK-skýrslu
                       href: localizations/tasks/create-submit-vat-report.md
-                - name: Skoðun færslna á uppgjöri
+                - name: Skoða færslur á uppgjöri
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Fjárhagsleg ástæða
+                  href: localizations/emea-financial-reason.md
             - name: Finnland
               items:
                 - name: Yfirlit yfir Finnland
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Endurbætur á notagildi bankagagna
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Ítalskt Intrastat
-                  href: localizations/emea-ita-intrastat.md
-                - name: Bóka komur og sendingar fyrir Intrastat
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: Intrastat
+                  items:
+                    - name: Ítalskt Intrastat
+                      href: localizations/emea-ita-intrastat.md
+                    - name: Bóka komur og sendingar fyrir Intrastat
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: Intrastat (IT) skráarsnið
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Ýmis gjöld á hvert kílógramm í Intrastat-skattskýrslu
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Viljayfirlýsingar - reikningsfæra venjulega útflutningsaðila
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: VSK-skýrslur
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Pólskt Intrastat
+                  href: localizations/emea-pol-intrastat.md
                 - name: Setja upp númeraraðir eftir vöruhúsi
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Stöðluð endurskoðunarskrá
@@ -4375,7 +4259,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Afstæð slóð í gagnatengslum
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
-            - name: Nota rafræn skýrslugerðarlausnir í Finance
+                - name: Aðferðir við að hanna segðir til að hringja í forritaklasa
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
+            - name: Nota rafrænar skýrslugerðarlausnir í Finance
               items:
                 - name: Skilgreina ramma
                   items:
