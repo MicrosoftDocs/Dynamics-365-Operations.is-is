@@ -2,7 +2,7 @@
 title: Mannauður – heimasíða
 description: Dynamics 365 Human Resources veitir vinnuafls innsýn sem þú þarft til að byggja upp upplifun starfsmanna á mörgum sviðum.
 author: twheeloc
-ms.date: 08/03/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 11c4bfa41dda8e143e1e14061f1d6657e3ed30cc
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
-ms.translationtype: HT
+ms.openlocfilehash: a86995691cab3050d0ec44c1f4d1c3bed6c18fdb
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441240"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771248"
 ---
 # <a name="human-resources-home-page"></a>Mannauður – heimasíða
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: a795f88aed78582ad4a2faa90ab1c2529017850f
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678836"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778158"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.22. (nóvember 2021)
 
@@ -41,7 +41,6 @@ ms.locfileid: "7678836"
 
 | Kerfiseining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
-| Kostnaðarstýring | Búa til tengda afsláttarmiða fyrir endurmat á námundun staðalkostnaðar | <p>Þegar birgðafjárhagsbókun (svo sem sölupöntunarreikningur eða birgðafærsla) er gerð veldur þessi eiginleiki því að kerfið býr til sérstakt fylgiskjal fyrir alla tengda hefðbundna endurmatsreikninga vegna rúnnunar kostnaðar og tengir hann við fylgiskjal fjárhagsbókunar sem tengt fylgiskjal.</p><p>Án þessa eiginleika skráir kerfið hefðbundið endurmat á rúnnun staðalkostnaðar á sömu fylgiskjalsbókun. Sú hegðun getur stundum valdið ósamræmi í upplýsingum um dagsetningar, vegna þess að endurmatið notar lotu- eða kerfisdagsetninguna, en fjárhagsfærslur nota bókunardagsetninguna.</p> |
 | Dreifð blönduð grannfræði | *(Engin eiginleikastjórnun er nauðsynleg.)* | <p>Þessi útgáfa eykur við farmáætlunargetu fyrir útleið í vinnuálagi vöruhúsakerfis fyrir einingakvarða skýja og jaðra.</p><p>Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Umsjón hönnunarbreytinga | Afbrigði útbúið fyrir hönnunarafurðir | <p>Þessi eiginleiki gerir þér kleift að búa til ýmis afbrigði fyrir hönnunarafurð út frá lit, stærð, stíl eða skilgreiningarvíddum.</p><p>Frekari upplýsingar er að finna í [Búa til afbrigði fyrir hönnunarafurðir](../engineering-change-management/engineering-variants.md).</p> |
 | Birgða- og vöruhúsakerfi | Samþætting birgðasýnileika með mótbókun frátekningar | <p>Aðeins er hægt að virkja þennan eiginleika eftir að eiginleikinn *Samþætting sýnileika birgða* er virkjaður. Þetta býður upp á virkni til að vega upp á móti frátekningum sem eru gerðar á birgðasýnileika.</p><p>Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](../inventory/inventory-visibility-reservations.md).</p> |

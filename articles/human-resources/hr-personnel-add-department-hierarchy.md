@@ -1,8 +1,8 @@
 ---
 title: Stofna deildir og setja þær inn í deildastigveldið
-description: Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði. Hægt er að nota deildir til að gefa skýrslur um virk svið. Deildir gætu haft ábyrgðarsvið fyrir hagnað og tap.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1fa6d2b18a1b92236a153e453560430cc0d4c1c6e2cde0431c1e1cc68128bd0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2caa4f1e7be4be54766921a9e38c97d22b8200c7
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727018"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731613"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Stofna deildir og setja þær inn í deildastigveldið
 
@@ -32,15 +32,15 @@ deild gæti innifalið hóp af kostnaðarstöðum. Hægt er að úthluta stöðu
 
 | Reitur               | Lýsing                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Heiti                | Færið inn heiti fyrir deildina.                                                                                                                                                                                  |
-| Deildarnúmer   | Sjálfgefið gildi kann að vera myndað sjálfkrafa ef kóði númeraraðar er úthlutað á **tilvísunarnúmer fyrirtækis** á síðunni **númeraröð**.                                                 |
-| Leita að nafni         | Færið inn nafn eða skammstöfun sem hægt er að nota til að leita að deildinni.                                                                                                                                            |
-| Athugasemd                | Færðu inn viðbótarupplýsingar hér.                                                                                                                                                                            |
-| Í stigveldi        | Valinn gátreitur getur til kynna að deildin er innifalin í stigveldi deildar. Upplýsingar um það hvernig skal bæta við deild við stigveldi deildar, Sjá upplýsingar síðar í þessari grein. |
-| DUNS-númer         | DUNS stendur fyrir Data Universal Number System. Þetta er níu-stafa númer sem er gefið út af Dun & Bradstreet.                                                                                                     |
-| Yfirmaður             | Velja einstaklinginn sem hefur umsjón með deildinni                                                                                                                                                                    |
-| Aðsetur           | Bæta við upplýsingar um aðsetur fyrir deildina. Til dæmis, bæta við póstfangi byggingar sem deild er í.                                                                          |
-| Tengslaupplýsingar | Bæta við tengslaupplýsingum fyrir deild. Til dæmis er bætt við símanúmer fyrir þjónustuborð í deild.                                                                                           |
+| **Heiti**                | Færið inn heiti fyrir deildina.                                                                                                                                                                                  |
+| **Deildarnúmer**   | Sjálfgefið gildi kann að vera myndað sjálfkrafa ef kóði númeraraðar er úthlutað á **tilvísunarnúmer fyrirtækis** á síðunni **númeraröð**.                                                 |
+| **Leita að nafni**         | Færið inn nafn eða skammstöfun sem hægt er að nota til að leita að deildinni.                                                                                                                                            |
+| **Athugasemd**                | Færðu inn viðbótarupplýsingar hér.                                                                                                                                                                            |
+| **Í stigveldi**        | Valinn gátreitur getur til kynna að deildin er innifalin í stigveldi deildar. Upplýsingar um það hvernig skal bæta við deild við stigveldi deildar, Sjá upplýsingar síðar í þessari grein. |
+| **DUNS-númer**         | DUNS stendur fyrir Data Universal Number System. Þetta er níu-stafa númer sem er gefið út af Dun & Bradstreet.                                                                                                     |
+| **Yfirmaður**             | Velja einstaklinginn sem hefur umsjón með deildinni                                                                                                                                                                    |
+| **Aðsetur**           | Bæta við upplýsingar um aðsetur fyrir deildina. Til dæmis, bæta við póstfangi byggingar sem deild er í.                                                                          |
+| **Tengslaupplýsingar** | Bæta við tengslaupplýsingum fyrir deild. Til dæmis er bætt við símanúmer fyrir þjónustuborð í deild.                                                                                           |
 
 Til að bæta deild við stigveldi deildar, skal fylgja þessum skrefum:
 

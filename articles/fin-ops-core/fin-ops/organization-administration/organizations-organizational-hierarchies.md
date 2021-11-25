@@ -2,7 +2,7 @@
 title: Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
 description: Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri.
 author: sericks007
-ms.date: 07/25/2019
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74aa2736b4cfb11039ea1cee3f62e74cf4928a1b27cea16e7e0e86f66bdddd59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6f0388b6e7c22c339d26b82c35f1bbb1ef54cdb5
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715990"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798347"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
 
@@ -64,9 +64,19 @@ Teymi er fyrirtæki þar sem meðlimir deila sameiginlegri ábyrgð, hagsmunum e
 
 Setja upp stigveldi fyrirtækis til að skoða og gefa skýrslu um reksturinn frá ólíkum sjónarhornum. Til dæmis er hægt að setja upp stigveldi lögaðila fyrir skatt, lagalega eða lögbundna skýrslugerð. Setja upp stigveldi sem byggir á aðgerðaeiningum til að gefa skýrslu um fjárhagslegar upplýsingar sem ekki er krafist samkvæmt lögum, en sem er notuð við innri stjórnun. Til dæmis er hægt að stofna innkaupa stigveldi til að stýra innkaup reglur reglur og viðskiptaferli.
 
+> [!NOTE]
+> Eftir að rekstrareiningu hefur verið bætt við stigveldi er ekki hægt að eyða rekstrareiningunni. 
+
 Hverju stigveldi er úthlutað tilgangi. Tilgangur stigveldis ákvarðar gerðir fyrirtæki sem má hafa með í stigveldi. Tilgangur skilgreinir einnig hvaða forrit aðstæður sem hægt er að nota í stigveldinu.
 
 Fyrirtæki í stigveldi geta samnýtt færibreytur reglur og færslur. Fyrirtæki getur erft eða hunsað færibreytur móðurfélags þess. Hins vegar samnýtt aðalgögn, eins og afurðir og aðsetursbækur, gildir fyrir allt fyrirtækið og ekki er hægt að hnekkja verði fyrir einstök fyrirtæki. Stofnun fyrirtæki og stigveldi krefst vandlegrar áætlanagerðar. Sjá frekari upplýsingar í [Skipuleggja stigveldi fyrirtækis](plan-organizational-hierarchy.md).
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+- [Skipuleggja fyrirtækjastigveldi](plan-organizational-hierarchy.md)
+- [Stofna fyrirtækjastigveldi](tasks/create-organization-hierarchy.md)
+- [Stofna lögaðila](tasks/create-legal-entity.md)
+- [Stofna rekstrareiningu](tasks/create-operating-unit.md)
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

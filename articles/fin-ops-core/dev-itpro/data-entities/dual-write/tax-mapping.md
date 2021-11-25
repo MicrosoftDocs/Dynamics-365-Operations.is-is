@@ -1,20 +1,20 @@
 ---
 title: Samþættur skattur
 description: Þetta efni lýsir samþættingu skattaupplýsinga milli Finance and Operations og Dataverse.
-author: robinarh
+author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: c7e76294944196670ed4b02ebf785c1bed7b5106f73d4b66a15a19c9a4235cbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d1e74bbbeba019ca48dd823b58251643e96edd0c
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738553"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782211"
 ---
 # <a name="integrated-tax"></a>Samþættur skattur
 

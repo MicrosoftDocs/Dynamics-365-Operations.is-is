@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: intro-internal
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 859bb270a0c1e37b6673413b1e8444a6e4b00e2d
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 131c002000ee6ebed81a23f45ce17b7a7fff0b95
+ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417032"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "7817362"
 ---
 # <a name="dual-write-overview"></a>Tvöföld skrif – yfirlit
 
@@ -68,11 +68,7 @@ Tvöföld skrif stofnar vörpun milli hugtaka í Finance and Operations-forritum
 + Geta til að leita að tiltækum birgðum og smáatriðum
 + Verk til reiðfjár-upplifun
 + Geta til að takast á við mörg heimilisföng og hlutverk í gegnum aðilahugtakið
-+ Stjórnun á einum stað fyrir notendur
-+ Innbyggðar rásir fyrir smásölu og markaðssetningu
-+ Sýnileiki í kynningum og afslætti
-+ Biðja um þjónustu aðgerðir
-+ Staumlínulagaðar þjónustuaðgerðir
+
 
 ## <a name="top-reasons-to-use-dual-write"></a>Helstu ástæður til að nota tvískipt skrif
 
@@ -83,7 +79,7 @@ Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics
 + Tvöfaldur-skrifa innviði fylgir meginreglunni um enga kóða/lágkóða. Lágmarks verkfræðiátak er krafist til að framlengja venjulegar varpanir frá töflu til töflu og fela í sér sérsniðnar varpanir.
 + Tvöföld skriftarverk styðja bæði netstillingu og ótengda stillingu. Microsoft er eina fyrirtækið sem býður upp á stuðning við net- og ótengdar stillingar.
 
-## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Hvað þýða tvöföld skrif fyrir þróunaraðila og hönnuði forrita viðskiptavina?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a> Hvað þýða tvöföld skrif fyrir þróunaraðila og hönnuði forrita viðskiptavina?
 
 Tvöföld skrif gerir gagnaflæði á milli Finance and Operations forrita og forrit fyrir viðskiptavini sjálfvirk. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út töfluskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Fyrir árangursríka innleiðingu verða þróunaraðilar og hönnuðir forrita viðskiptavina að hafa skilning á þessum breytingum og vinna með viðkomandi í Finance and Operations-forritum.
 

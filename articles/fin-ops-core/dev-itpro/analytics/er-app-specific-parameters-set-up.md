@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: 9b57c6165e5de4a115818a135ed1455e3b05e3f0
+ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675394"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7733464"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
@@ -118,7 +118,7 @@ Til að flytja inn stillingar rafrænnar skýrslugerðar skal fylgja þessum skr
 
 15. Veldu **Bæta við** og fylgdu síðan þessum skrefum:
 
-    1. Í reitinn **Kóði** velurðu valkostinn **\*Ekki autt\***.
+    1. Í reitinn **Kóði** velurðu valkostinn **\* Ekki autt\***.
     2. Í reitnum **Niðurstaða uppflettingar** velurðu gildið **Annað**.
 
     Með því að bæta þessari síðustu færslu við skilgreinir þú eftirfarandi reglu: Þegar skattkóðinn sem er sendur sem breyta fullnægir ekki neinum af fyrri reglum mun gagnagjafi uppflettingar skila **Annað** sem umbeðnu skattlagningarstigi.
@@ -170,7 +170,7 @@ Til að setja upp færibreytur fyrir USMF-fyrirtækið skal ljúka eftirfarandi 
 8. Veldu skattakóðann **EXEMPT**.
 9. Í reitnum **Niðurstaða uppflettingar** í nýju skránni velurðu gildið **Engin skattlagning**.
 10. Veljið **Bæta við**.
-11. Í reitnum **Kóði** í nýju skránni velurðu valkostinn **\*Ekki autt\***.
+11. Í reitnum **Kóði** í nýju skránni velurðu valkostinn **\* Ekki autt\***.
 12. Í reitnum **Niðurstaða uppflettingar** í nýju skránni velurðu gildið **Regluleg skattlagning**.
 13. Í reitnum **Staða** skal velja **Lokið**.
 14. Veldu **Vista**.
@@ -226,15 +226,6 @@ Einnig er hægt að nota þessa útflutnings-innflutningsaðferð til að flytja
 Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði og flytur síðan inn nýrri útgáfu af sama sniðinu í núverandi Finance-tilvik verða fyrirliggjandi færibreytur tiltekins forrits ekki notaður í innfluttu útgáfunni nema þú notir eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum sniða rafrænnar skýrslugerðar**. Nánari upplýsingar er að finna í hlutanum [Endurnota fyrirliggjandi færibreytur](#reuse-existing-parameters) síðar í þessu efnisatriði.
 
 Þegar þú velur skrá til að flytja inn er skipulag færibreyta tiltekins forrits í þeirri skrá borið saman við skipulag samsvarandi gagnagjafa af gerðinni **Uppfletting** í ER-sniðinu sem er valið fyrir innflutning. Innflutningi er sjálfgefið aðeins lokið ef skipulag allra færibreyta tiltekins forrits passar við skipulag samsvarandi gagnagjafa í ER-sniðinu sem er valið fyrir innflutning. Ef skipulagið passar ekki saman koma upp viðvörunarboð sem gefa til kynna að ekki sé hægt að ljúka innflutningi. Ef þú þvingar innflutninginn hreinsast upp fyrirliggjandi færibreytur tiltekins forrits fyrir valið ER-snið og þú verður að setja þær upp frá grunni.
-
-Frá og með Dynamics 365 Finance útgáfu 10.0.23 er hægt að breyta sjálfgefinni hegðun og koma í veg fyrir að fá viðvörunarboð með því að virkja eiginleikann **Stilla sértækar færibreytur fyrir forrit fyrir rafræna skýrslugerð við innflutning** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þessi eiginleiki er virkjaður, ef skipulag færibreyta tiltekins forrits sem þú ert að flytja inn eru öðruvísi en skipulag samsvarandi gagnagjafa í ER-sniði markmiðs sem er valið fyrir innflutning mun innflutningurinn takast í eftirfarandi tilfellum:
-
-- Búið er að breyta skipulagi á ER-sniði markmiðs með því að bæta nýjum skilyrðisdálkum við fyrirliggjandi gagnagjafa af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits eru gildin í öllum viðbættum skilyrðisdálkum frumstillt með sjálfgefnu gildi fyrir [gagnagerð](er-formula-supported-data-types-primitive.md) þess dálks.
-- Búið er að breyta skipulagi á ER-sniði markmiðs með því að fjarlægja nokkra skilyrðisdálka úr fyrirliggjandi gagnagjöfum af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits er gildunum í öllum fjarlægðum skilyrðisdálkum eytt.
-- Búið er að breyta skipulagi á ER-sniði markmiðs með því að bæta við nýjum gagnagjöfum af gerðinni **Uppfletting**. Þegar innflutningi er lokið er viðbættum uppflettingum bætt við færibreytur tiltekins forrits.
-- Búið er að breyta skipulagi á ER-sniði markmiðs með því að fjarlægja nokkra fyrirliggjandi gagnagjafa af gerðinni **Uppfletting**. Þegar innflutningnum er lokið er öllum gervingum, sem tengjast gagnagjöfunum af gerðinni **Uppfletting** sem voru fjarlægðir úr ER-sniði markmiðs, eytt úr innfluttum færibreytum tiltekins forrits.
-
-Þegar innflutningi er lokið, auk þeirra breytinga sem var verið að lýsa, er stöðu innfluttra færibreyta tiltekins forrits breytt í **Í vinnslu**. Viðvörunarboð gefa til kynna að breyta verður handvirkt sjálfkrafa leiðréttum færibreytum tiltekins forrits.
 
 ### <a name="reuse-existing-parameters"></a>Endurnýta fyrirliggjandi færibreytur
 

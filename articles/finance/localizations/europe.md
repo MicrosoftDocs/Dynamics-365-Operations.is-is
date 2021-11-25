@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e3c5e57bb115e27880c2fee888be4ab02c51462a
+ms.sourcegitcommit: 4946b7f250f8b5cd3d09098b08e74bc5763d1c86
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750280"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7792610"
 ---
 # <a name="europe-overview"></a>Yfirlit yfir Evrópu
 
@@ -94,6 +94,7 @@ ms.locfileid: "6750280"
   - [Stofna og senda inn VSK-skýrslu](tasks/create-submit-vat-report.md)
   - [Skoða færslur vegna uppgjörs fyrir Austur-Evrópu](emea-transactions-settlement-form.md)
   - [Dagsetning skattfærslu (dagsetning VSK-skráar)](emea-tax-point-date.md)
+- [Fjárhagsleg ástæða eiginleikaframlenging](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

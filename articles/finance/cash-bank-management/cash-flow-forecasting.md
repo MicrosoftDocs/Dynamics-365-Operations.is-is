@@ -2,7 +2,7 @@
 title: Sjóðstreymisspár
 description: Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu.
 author: panolte
-ms.date: 09/23/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: 5ad3b2444f194f8324a309df32612a5377851995
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547956"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752905"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Hægt er að nota verkfæri fyrir sjóðstreymisspár til að greina væntanlegt sjóðstreymi og gjaldeyrisþörf þannig að hægt sé að meta framtíðarþörf fyrirtækis fyrir lausafé. Til að gera spá um sjóðstreymi þarf fyrst að gera eftirfarandi:
 
@@ -93,9 +94,12 @@ Hægt er að hafa færslur fjárhagsáætlunarskráar í sjóðstreymisspánni �
 Hægt er að taka spár fyrir birgðaframboð og eftirspurn með í sjóðstreymisspám. Á flipanum **Birgðastjórnun** á síðunni **Uppsetning sjóðstreymisspár** skal velja spálíkön til að taka með í sjóðstreymisspá. Hægt er að skrifa yfir meðtalningu í sjóðstreymisspá í einstökum línum í spá um framboð og eftirspurn.
 
 ### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Setja upp vídd fyrir sjóðsstreymisspá
-Nýr flipi á síðunni **Uppsetning sjóðstreymisspár** gerir notendum kleift að hafa stjórn á því hvaða fjárhagsvíddir eru notaðar fyrir síun í vinnusvæðinu **Sjóðsstreymisspá**. Þessi flipi mun aðeins birtast þegar eiginleiki sjóðstreymisspár er virkur. 
+Nýr flipi á **Uppsetning sjóðstreymisspár** síða gerir þér kleift að stjórna hvaða fjárhagsvíddir eru notaðar til að sía í **Sjóðstreymisspá** vinnurými. Þessi flipi birtist aðeins þegar sjóðstreymisspár eiginleikinn í Finance Insights er virkur. 
 
 Á flipanum **Víddir** skal velja víddir af listanum sem á að nota fyrir síun og nota örvalyklana til að fara þá í dálkinn til hægri. Aðeins er hægt að velja tvær víddir til að sía spárgögn sjóðstreymisspár. 
+
+### <a name="setting-up-external-source"></a>Setja upp ytri uppsprettu
+Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið annað hvort **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og tilheyrandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
 
 ### <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 

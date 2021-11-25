@@ -2,7 +2,7 @@
 title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
-ms.date: 09/14/2021
+ms.date: 10/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488139"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731639"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -85,6 +85,8 @@ Hægt er að velja **Flytja inn úr Excel** á flipanum **Innflutningur** á að
 
 Þátturinn **Svið** gefur til kynna Excel-svið sem þessi þáttur rafrænnar skýrslugerðar þarf að stýra. Heiti sviðsins er skilgreint í eiginleikanum **Excel-svið** fyrir þennan þátt.
 
+### <a name="replication"></a>Gagnaspeglun
+
 Eiginleikinn **Eftirlíkingarátt** tilgreinir hvort og hvernig svið verður endurtekið í mynduðu skjali:
 
 - Ef eiginleikinn **Eftirlíkingarátt** er stilltur á **Engin eftirlíking** verður viðeigandi Excel-svið ekki endurtekið í myndaða skjalinu.
@@ -92,6 +94,8 @@ Eiginleikinn **Eftirlíkingarátt** tilgreinir hvort og hvernig svið verður en
 - Ef eiginleikinn **Eftirlíkingarátt** er stilltur á **Lárétt** verður viðeigandi Excel-svið endurtekið í myndaða skjalinu. Hvert endurtekið svið er sett til hægri við upprunalega sviðið í Excel-sniðmáti. Fjöldi endurtekninga er skilgreindur af fjölda færslna í gagnagjafa af gerðinni **Færslulisti** sem er bundin þessum þætti rafrænnar skýrslugerðar.
 
 Frekari upplýsingar um lárétta eftirlíkingu er að hægt að nálgast með því að fylgja skrefunum í [Nota svið sem má stækka lárétt til að bæta við dálkum gagnvirkt við í Excel skýrslum](tasks/er-horizontal-1.md).
+
+### <a name="nested-components"></a>Hreiður íhlutir
 
 Þátturinn **Svið** getur verið með aðra faldaða þætti rafrænnar skýrslugerðar sem eru notaðir til að færa inn gildi í viðeigandi Excel-svið.
 
@@ -105,11 +109,40 @@ Frekari upplýsingar um lárétta eftirlíkingu er að hægt að nálgast með �
     > [!NOTE]
     > Notið þetta mynstur til að virkja Excel-forritið til að sníða innfærð gildi út frá landsstaðli tölvunnar sem opnar skjal á útleið.
 
+### <a name="enabling"></a>Virkjar
+
 Á flipanum **Vörpun** í aðgerðarhönnuði rafrænnar skýrslugerðar er hægt að skilgreina eiginleikann **Virkt** fyrir þátt af gerðinni **Svið** til að tilgreina hvort setja þurfi þátt í myndað skjal:
 
 - Ef segð eiginleikans **Virkt** er skilgreind til að skila **Rétt** í keyrslu eða ef engin segð er skilgreind, verður viðeigandi svið sett í myndaða skjalið.
 - Ef segð eiginleikans **Virkt** er skilgreind til að skila **Rangt** við keyrslu, og ef þetta svið stendur ekki fyrir allar línur eða dálka, verður viðeigandi svið ekki fyllt út í mynduðu skjalið.
 - Ef segð eiginleikans **Virkt** er skilgreind til að skila **Rangt** við keyrslu, og ef þetta svið stendur fyrir allar línur eða dálka, mun myndaða skjalið innihalda þessar línur og dálka sem faldar línur og falda dálka.
+
+### <a name="resizing"></a>Breyta stærð
+
+Þú getur stillt Excel sniðmátið þitt til að nota frumur til að kynna textagögn. Til að tryggja að allur textinn í reit sé sýnilegur í mynduðu skjali, getur þú stillt þann reit þannig að textinn vefji sjálfkrafa inn í það. Þú getur líka stillt línuna sem inniheldur þann reit þannig að hún stilli sjálfkrafa hæð hans ef vafinn texti er ekki að fullu sýnilegur. Nánari upplýsingar er að finna í hlutanum „Vefja texta í reit“ í [Lagaðu gögn sem eru skorin af í frumum](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+
+> [!NOTE]
+> Vegna þekkts [Excel takmörkun](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), jafnvel þótt þú stillir hólf til að vefja texta og þú stillir línurnar sem innihalda þær hólf þannig að þær stilli sjálfkrafa hæð þeirra þannig að þær passi umvafinn textann, gætirðu ekki notað **AutoFit** og **Vefja texta** Excel eiginleikar fyrir sameinaðar frumur og línurnar sem innihalda þær. 
+
+Frá Dynamics 365 Finance útgáfu 10.0.23, getur þú þvingað ER til að reikna út, í mynduðu skjali, hæð hverrar línu sem var stillt þannig að hún passi sjálfkrafa við innihald hreiðraðra frumna þegar sú röð inniheldur að minnsta kosti einn sameinaðan reit sem var stilltur til að vefja textinn inni í því. Reiknuð hæð er síðan notuð til að breyta stærð línunnar til að tryggja að allar frumur í röðinni séu sýnilegar í mynduðu skjalinu. Til að byrja að nota þessa virkni þegar þú keyrir einhver ER snið sem voru stillt til að nota Excel sniðmát til að búa til skjöl á útleið skaltu fylgja þessum skrefum.
+
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Færibreytur rafrænnar skýrslugerðar**.
+3. Á **Rafrænar skýrslubreytur** síðu, á **Runtime** flipann, stilltu **Sjálfvirk raðhæð** valmöguleika til **Já**.
+
+Þegar þú vilt breyta þessari reglu fyrir eitt ER-snið skaltu uppfæra drög að útgáfu þess sniðs með því að fylgja þessum skrefum.
+
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja **Skilgreiningar skýrslugerðar**.
+3. Á **Stillingar** síðu, í stillingartrénu í vinstri glugganum, veldu ER stillingu sem er hannað til að nota Excel sniðmát til að búa til skjöl á útleið.
+4. Í flýtiflipanum **Útgáfur** skal velja skilgreiningarútgáfuna sem er með stöðuna **Drög**.
+5. Í aðgerðarúðunni skal velja **Hönnuður**.
+6. Á **Sniðhönnuður** síðu, í sniðtrénu í vinstri glugganum, veldu Excel íhlutinn sem er tengdur við Excel sniðmát.
+7. Á **Snið** flipa, í **Stilltu línuhæð** reit, veldu gildi til að tilgreina hvort ER ætti að neyða, á keyrslutíma, til að breyta hæð lína í skjali á útleið sem er búið til með breyttu ER sniði:
+
+    - **Sjálfgefið** – Notaðu almennu stillinguna sem er stillt í **Sjálfvirk raðhæð** sviði á **Rafrænar skýrslubreytur** síðu.
+    - **Já** – Hneka almennu stillingu og breyta línuhæð á keyrslutíma.
+    - **Nei** – Hnekkja almennu stillingunni og ekki breyta línuhæðinni á keyrslutíma.
 
 ## <a name="cell-component"></a>Þáttur hólfs
 
@@ -138,7 +171,7 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Þátturinn **PageBreak** þvingar Excel til að byrja nýja síðu. Ekki þarf að nota þennan þátt þegar nota á sjálfgefið blaðsíðutal Excel en mælt er að hann sé notaður þegar Excel á að fylgja viðkomandi sniði rafrænnar skýrslugerðar við blaðsíðutal.
 
-## <a name="page-component"></a><a name="page-component"></a>Síðuþættir
+## <a name="page-component"></a><a name="page-component"></a> Síðuþættir
 
 ### <a name="overview"></a>Yfirlit
 
@@ -146,7 +179,7 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Ef þú verður að skipta mynduðu skjali í mismunandi hluta, sem hver er með mismunandi síðuskiptingu, getur þú stillt ýmsa **Síðuþætti** í hverjum [Vinnublaðsþætti](er-fillable-excel.md#sheet-component).
 
-### <a name="structure"></a><a name="page-component-structure"></a>Skipulag
+### <a name="structure"></a><a name="page-component-structure"></a> Skipulag
 
 Ef fyrsti hlutinn undir **Síðuþættinum** er [Sviðsþáttur](er-fillable-excel.md#range-component) þar sem eiginleikinn **Eftirlíkingaráttin** er stillt á **Engin eftirlíking** er þetta svið álitið síðuhaus fyrir síðuskiptingu sem byggir á stillingunum á núverandi **Síðuþætti**. Excel-sviðið sem tengist þessum sniðsþætti er endurtekið efst á öllum síðum sem eru myndaðar með því að nota stillingarnar á núverandi **Síðuþætti**.
 
@@ -167,7 +200,7 @@ Ef safn faldaðra **Sviðsþátta** undir **Síðuþættinum** samræmist ekki f
 
 Ef þú vilt að samlagning og talning sem tengist síðuskiptingu reikni út hlaupandi samtölur og samtölur á hverja síðu er mælt með að þú stilltir nauðsynlega gagnagjafann [Gagnasöfnun](er-data-collection-data-sources.md). Til að fræðast um hvernig á að nota **Síðuþáttinn** til að skipta mynduðu Excel-skjali á síður skal klára ferlin í [Hanna snið rafrænnar skýrslugerðar til að síðuskipta mynduðu skjali á Excel-sniði](er-paginate-excel-reports.md).
 
-### <a name="limitations"></a><a name="page-component-limitations"></a>Takmarkanir
+### <a name="limitations"></a><a name="page-component-limitations"></a> Takmarkanir
 
 Þegar þú notar **Síðuþáttinn** fyrir síðuskiptingu Excel færðu ekki að vita endanlegan blaðsíðufjölda í mynduðu skjali fyrr en síðuskiptingunni er lokið. Þú getur þar af leiðandi ekki reiknað út heildarfjölda blaðsíðna með því að nota formúlur rafrænnar skýrslugerðar og prentað út réttan fjölda af blaðsíðum af mynduðu skjali á neinni blaðsíðu á undan síðustu síðunni.
 
@@ -206,7 +239,7 @@ Fyrir einn þátt **Vinnublaðs** er hægt að bæta við ýmsum þáttum **Sí�
 > [!NOTE]
 > Gangið úr skugga um að hver þáttur **Síðufótar** sem bætt er við stakan þátt **Vinnublaðs** sem með mismunandi gildi fyrir eiginleikann **Útlit hauss/fótar**. Annars kemur upp [staðfestingarvilla](er-components-inspections.md#i16). Villuboðin sem birtast láta vita af ósamræminu.
 
-Undir viðbættum þætti **Síðufótar** skal bæta við nauðsynlegum földuðum þáttum **Text\\String**, **Text\\DateTime** eða annarri gerð. Skilgreinið bindingarnar fyrir þessa þæti til að tilgreina hvernig fyllt er í síðufótinn.
+Undir viðbættum þætti **Síðufótar** skal bæta við nauðsynlegum földuðum þáttum **Text\\ String**, **Text\\ DateTime** eða annarri gerð. Skilgreinið bindingarnar fyrir þessa þæti til að tilgreina hvernig fyllt er í síðufótinn.
 
 Einnig er hægt að nota sérstaka [sniðskóða](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) til að sníða efni myndaðs síðufótar á réttan hátt. Til að fá frekari upplýsingar um þessa nálgun skal fylgja skrefunum í [Dæmi 1](#example-1) síðar í þessu efnisatriði.
 
@@ -221,7 +254,7 @@ Einnig er hægt að nota sérstaka [sniðskóða](/office/vba/excel/concepts/wor
 
 ### <a name="update-a-template"></a>Uppfæra sniðmát
 
-Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðgerðasvæðinu til að flytja uppfært sniðmát inn í breytanlegt snið rafrænnar skýrslugerðar. Á meðan á þessu stendur er sniðmáti af valinni einingu **Excel\\skrá** skipt út fyrir nýtt sniðmát. Efni breytanlegs sniðs rafrænnar skýrslugerðar verður samstillt við efni með uppfærðs sniðmáts rafrænnar skýrslugerðar.
+Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðgerðasvæðinu til að flytja uppfært sniðmát inn í breytanlegt snið rafrænnar skýrslugerðar. Á meðan á þessu stendur er sniðmáti af valinni einingu **Excel\\ skrá** skipt út fyrir nýtt sniðmát. Efni breytanlegs sniðs rafrænnar skýrslugerðar verður samstillt við efni með uppfærðs sniðmáts rafrænnar skýrslugerðar.
 
 - Nýr sniðsþáttur rafrænnar skýrslugerðar verður sjálfkrafa stofnaður fyrir hvert Excel-heiti ef sniðsþáttur rafrænnar skýrslugerðar finnst ekki í breytanlega sniðinu.
 - Öllum sniðsþáttum rafrænnar skýrslugerðar verður eytt úr breytanlegu sniði rafrænnar skýrslugerðar ef viðeigandi Excel-heiti finnst ekki fyrir það.
@@ -256,7 +289,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
     > Endurútreikningur formúlu er þvingaður handvirkt þegar myndað skjal er opnað í forskoðun með Excel.
     > Ekki nota þennan valkost ef áfangastaður rafrænnar skýrslugerðar er skilgreindur sem gerir ráð fyrir notkun á mynduðu skjali án forskoðunar þess í Excel (PDF-umbreyting, sending í tölvupósti o.s.frv.) vegna þess að skjalið sem var myndað inniheldur hugsanlega ekki gildi í hólfum sem innihalda formúlur.
 
-## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Dæmi 1: Sníða efni síðufótar
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a> Dæmi 1: Sníða efni síðufótar
 
 1. Notið uppgefnar skilgreiningar rafrænnar skýrslugerðar til að [mynda](er-generate-printable-fti-forms.md) prentvænt reikningsskjal með frjálsum texta.
 2. Farið yfir síðufót myndaðs skjals. Takið eftir að hann inniheldur upplýsingar um núverandi blaðsíðutal og fjölda blaðsíðna í skjalinu.

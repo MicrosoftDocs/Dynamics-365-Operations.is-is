@@ -1,8 +1,8 @@
 ---
 title: Algengar spurningar um aðgerðir starfsfólks
-description: Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks.
-author: andreabichsel
-ms.date: 06/23/2021
+description: Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,23 +11,33 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c005c08c7ceafffc63650b64c3602aa65ae94e2788a5c70b5fd372a4f54a0301
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cfaa67e051529dac8f29a5b289d7025aee681178
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748836"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731682"
 ---
 # <a name="personnel-actions-faq"></a>Algengar spurningar um aðgerðir starfsfólks
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. Dæmi um verk sem gætu krafist aðgerða starfsfólks eru þegar að stofna nýjar stöður, breyta fyrirliggjandi gildi stöðu, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni eða segja upp starfsmönnum.
+Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. 
 
-**Ath:** Aðgerðir starfskrafts eru aðeins í boði ef reitirnir **Kveikja á aðgerðum starfskrafts** og **Kveikja á stöðuaðgerðum** eru stilltir á **Já**, í fliplanum **Aðgerðir starfskrafts** á síðunni **Samnýttar færibreytur fyrir mannauð**. 
+Dæmi um verkefni sem gætu krafist aðgerða starfsmanna eru:
+ - Þegar þú býrð til nýjar stöður. 
+ - Breyttu núverandi stöðugildum. 
+ - Ráða nýja starfsmenn. 
+ - Flytja starfsmenn. 
+ - Breyta launakjörum. 
+ - Breyta stöðuúthlutunum. 
+ - Segðu starfsmönnum upp.
+
+> [!NOTE]
+> Starfsmannaaðgerðir eru aðeins í boði ef **Virkjaðu aðgerðir starfsmanna** og **Virkja staðsetningaraðgerðir** reiti hefur verið stillt á **Já**, í **Starfsmannaaðgerðir** flipann á **Mannauður sameiginlegar breytur** síðu. 
 
 ## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>Hvernig get ég séð ef fyrirtækið krefst aðgerðir starfsfólks?
 Aðgerðir starfsfólks er krafist af fyrirtækinu ef þú ert beðinn um að velja aðgerð starfsfólks þegar stofna á nýjar stöður, breyta stöðum, ráða nýja starfsmenn, flytja starfsmenn, breyta launum starfsmanns, breyta stöðuverkefni, segja starfsmönnum upp eða setja starfsmenn í leyfi. 
@@ -35,26 +45,26 @@ Aðgerðir starfsfólks er krafist af fyrirtækinu ef þú ert beðinn um að ve
 ## <a name="what-is-the-difference-between-a-position-action-and-a-worker-action"></a>Það er mismunur stöðuaðgerð starfsmannaaðgerð?
 Til eru tvær gerðir aðgerða starfsfólks:
 
-- Stöðuaðgerð - Stöðuaðgerð er framkvæmd á núverandi stöðum eða nýjum stöðum. Til dæmis stöðuaðgerð gæti verið nauðsynleg ef gildinu á fyrirliggjandi stöðu er breytt eða ef stofnað er ný árstíðarbundinna stöðu. Nákvæmar upplýsingar um hvernig á að nota stöðuaðgerðir má fá í Lykilverk: Núverandi stöður starfskrafts eða Lykilverk: Nýjar stöður starfskrafts.
+- **Staða** aðgerð – Stöðuaðgerð er framkvæmd á núverandi stöður eða nýjar stöður. Til dæmis stöðuaðgerð gæti verið nauðsynleg ef gildinu á fyrirliggjandi stöðu er breytt eða ef stofnað er ný árstíðarbundinna stöðu. 
 
-- Starfsmannaaðgerð - Starfsmannaaðgerð er framkvæmd fyrir núverandi starfsmenn eða nýja starfsmenn. Til dæmis starfsmannaaðgerð gæti verið nauðsynlegt þegar nýr starfsmaður er ráðinn eða fyrirliggjandi starfsmanns fær stöðuhækkun. Nákvæmar upplýsingar um hvernig á að nota starfsmannaaðgerðir má sjá í Úthluta starfsfólksaðgerðum á starfsmenn.
+- **Vinnumaður** aðgerð – Starfsmannaaðgerð er framkvæmd á núverandi starfsmenn eða nýja starfsmenn. Til dæmis starfsmannaaðgerð gæti verið nauðsynlegt þegar nýr starfsmaður er ráðinn eða fyrirliggjandi starfsmanns fær stöðuhækkun. 
 
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>Hvað á stöðu aðgerða starfsfólks sannvottunarskemanu þau?
 Starfsfólksaðgerðir geta haft eftirfarandi stöður:
 
 - **Drög** - Ef verkflæði er notað hefur aðgerð ekki verið send inn. Ef verkflæði er ekki notað er aðgerðinni ekki lokið.
 - **Í yfirferð** – Starfsfólksaðgerðin hefur verið send í verkflæði en verkflæði er ekki lokið.
-- **Samþykkt, bíður** – Verkflæðinu er lokið en breytingarnar eru enn í vinnslu. Hætt við - Hætt var við verkflæðið eða starfsfólksaðgerðin afturkölluð. Hafnað - Beiðni um aðgerð var hafnað af samþykkjanda.
+- **Samþykkt, bíður** – Verkflæðinu er lokið en breytingarnar eru enn í vinnslu. **Hætt við** – Verkflæðið var hætt eða starfsmannaaðgerðin afturkölluð. **Hafnað** – Aðgerðarbeiðninni var hafnað af samþykkjandi.
 - **Aðgerð í vinnslu** – Aðgerðarbeiðnin hefur verið samþykkt og breytingarnar eru í vinnslu.
-- **Verkflæði lokið**  – Verkflæðinu er lokið og breytingarnar hafa verið gerðar. Mistókst - Verkflæðið mistókst vegna þess að upplýsingar eru úreltar. Smelltu á Endurvirkja til að birta nýjustu upplýsingar og halda áfram.
-- **Lokið** – Það tókst að stofna eða breyta stöðunni eða starfsmaður var ráðinn, fluttur eða hann hættur störfum, eða það varð breyting á launum. Villa - Vandamál kom upp annað en að upplýsingar séu úreltar. Opnaðu Skilaboðakladda starfsfólksaðgerða til að komast að ástæðu villunnar.
+- **Verkflæði lokið**  – Verkflæðinu er lokið og breytingarnar hafa verið gerðar. **Mistókst** – Verkflæðið mistókst vegna þess að upplýsingarnar eru úreltar. Smellur **Virkjaðu aftur** til að birta nýjustu upplýsingarnar og halda áfram.
+- **Lokið** – Það tókst að stofna eða breyta stöðunni eða starfsmaður var ráðinn, fluttur eða hann hættur störfum, eða það varð breyting á launum. **Villa** – Vandamál kom upp annað en að upplýsingar væru úreltar. Opnaðu **Skilaboðaskrá starfsmannaaðgerða** til að ákvarða orsök villunnar.
 - **Hafnað** – Aðgerðarbeiðni var hafnað af samþykkjanda.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Get ég eytt aðgerðar starfsfólks?
 Já, þú getur eytt aðgerðum starfsfólks sem hafa stöðuna **Drög**, **Villa**, **Mistókst**, or **Hætt við**. Þú getur eytt starfsmannaaðgerðum sem eru með stöðuna **Lokið** aðeins ef búið er að stilla valkostinn **Leyfa eyðingu lokinna aðgerða starfskrafts** á **Já** á síðunni **Samnýttar færibreytur fyrir mannauð**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Hvað er hraðasta leið til að athuga stöðu beiðni um aðgerð starfsfólks?
-Opnaðu einhverja listasíðu starfsfólksaðgerða og veldu starfsfólksaðgerð.
+Opnaðu eitthvað af **Starfsmannaaðgerðir** listasíður og veldu starfsmannaaðgerð.
 
 ## <a name="what-should-i-do-if-a-personnel-action-request-fails"></a>Hvað skuli I? ef mistekst beiðni um aðgerð starfsfólks
 Ef beiðni um aðgerð starfsfólks mistekst, skal fylgja þessum skrefum til að leysa þessa villu og endursenda beiðnina:
@@ -66,23 +76,23 @@ Ef beiðni um aðgerð starfsfólks mistekst, skal fylgja þessum skrefum til a�
 > 3. Leystu villuna og smelltu svo á **Ljúka** eða **Senda**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Hvað gerist aðgerð starfsfólks sem notar verkflæði þegar lokalínu samþykktarferlisins er lokið?
-Ef engar villur eru á aðgerð starfsfólks verður aðeins til lestrar. (Hægt er að skoða ferilinn á listasíðunni **Allar aðgerðir starfsmanna** en ekki er hægt að breyta starfsmannaaðgerðum.) Þegar staða starfsmannaaðgerðar er **Lokið** hefur staðan eða skrá starfsmanns þegar verið uppfærð. Til að skoða breytingar sem voru gerðar skaltu opna listasíðuna **Stöður** eða **Starfskraftar**.
+Ef engar villur eru á aðgerð starfsfólks verður aðeins til lestrar. (Þú getur skoðað ferilinn á **Allar aðgerðir starfsmanna** listasíðu, en þú getur ekki breytt starfsmannaaðgerðinni.) Þegar staða starfsmannaaðgerðar er **Lokið**, staðan eða starfsmannsskráin hefur þegar verið uppfærð. Til að skoða breytingar sem voru gerðar skaltu opna listasíðuna **Stöður** eða **Starfskraftar**.
 
 ## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Hvers vegna fæ ég eftirfarandi villu þegar ég færi inn núllgildi inn í svæðið Laun? „Gildið er utan gildra marka - það verður að vera á milli 0,00 og 0,00“
-Þessi boð berast þér vegna þess að reiturinn Stig í skjámyndinni Starf er auður fyrir starfið sem tengist valdri stöðu.
+Þú færð þessi skilaboð vegna þess að **Stig** sviði á **Job** síða er auð fyrir starfið sem er tengt við valda stöðu.
 
 Til að lagfæra þessa villu, skal fylgja þessum skrefum:
 
-> 1. Í skjámyndinni Stöðuverkefni starfskrafts skaltu smella á reitinn Staða.  
-> 2. Smelltu á gildið í reitnum Starf til að opna starfssíðuna.
-> 3. Smelltu á Breyta í Aðgerðarúðunni.
-> 4. Smelltu á flipann Laun.
-> 5. Veldu stig í reitnum Stig.
-> 6. Lokaðu síðunni Starf.
-> 7. Lokaðu síðunni Staða.
-> 8. Farðu aftur í flipann Laun á síðunni Starfskraftur og veldu Föst laun.  Veldu Nýtt og færðu inn stöðu starfsmanns í stöðureitinn.  Færðu inn gildi í áætlunarreitinn og færðu síðan inn laun starfsmanns í reit launataxta.
+> 1. Á **Starfsmannastörf** síðu, smelltu á **Staða** sviði.  
+> 2. Smelltu á **Job** reit gildi til að opna **Job** síðu.
+> 3. Smelltu á aðgerðarrúðuna **Breyta**.
+> 4. Smelltu á **Bætur** flipa.
+> 5. Í **Stig** reit, veldu stig.
+> 6. Lokaðu **Job** síðu.
+> 7. Lokaðu **Staða** síðu.
+> 8. Fara aftur í **Bætur** flipann á **Vinnumaður** síðu, veldu **Fastar bætur**.  Veldu **Nýtt** og sláðu inn stöðu starfsmanns í **Staða** sviði.  Sláðu inn gildi í **Áætlun** reitnum og færðu síðan laun starfsmannsins inn í **Borgunarhlutfall** sviði.
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Af hverju get ég ekki breytt gildisdagsetningu í haus skjámyndar fyrir starfsmannaaðgerðina?
+## <a name="why-cant-i-change-the-effective-date-on-the-header-of-the-worker-action-page"></a>Af hverju get ég ekki breytt gildistökudegi í hausnum á aðgerðasíðu starfsmanns?
 Ekki er hægt að breyta gildisdagsetningu þar sem reiturinn er fylltur út með rökréttustu dagsetninguna fyrir gerð aðgerðar.
 
 Dæmi:

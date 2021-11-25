@@ -1,8 +1,8 @@
 ---
-title: Stofna verk til að setja upp samþættingu gagna
-description: Þetta efnisatriði útskýrir hvernig á að stofna erk til að setja upp samþættingu gagna.
+title: Búðu til gagnasamþættingarverkefni
+description: Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,25 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 7841f8b31e0ac1a40dce9acaac747f5f378236e0
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386363"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752665"
 ---
-# <a name="create-a-data-integrator-project"></a>Stofna verk til að setja upp samþættingu gagna
+# <a name="create-a-data-integration-project"></a>Búðu til gagnasamþættingarverkefni
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stofna erk til að setja upp samþættingu gagna.
+Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 
 1. Skrá inn á Microsoft Dynamics 365 Finance.
-2. Farið á **Vinnusvæði\> Gagnastjórnun** og veljið **Gagnaeiningar**. Bíða skal þar til allir gagnaeiningarnar hafa verið uppfærðar áður en farið er í næsta skref.
+2. Farið á **Vinnusvæði \> Gagnastjórnun** og veljið **Gagnaeiningar**. Bíða skal þar til allir gagnaeiningarnar hafa verið uppfærðar áður en farið er í næsta skref.
 3. Opnaðu [Power Apps gáttina](https://make.powerapps.com/) og fylgdu eftirfarandi skrefum:
 
     1. Veljið viðeigandi umhverfi.
-    2. Á vinstra yfirlitssvæðinu skal velja **Gagna \> Tengingar**.
+    2. Í vinstri yfirlitsrúðunni, veldu **Dataverse\> Tengingar**.
     3. Tengjast við viðeigandi tilvik eftirfarandi atriða:
 
         - Dynamics 365
@@ -41,7 +42,7 @@ ms.locfileid: "7386363"
 
 4. Opnið [Power Apps umhverfi](https://admin.powerapps.com/environments) og fylgið eftirfarandi skrefum:
 
-    1. Veljið **Data Integrator**.
+    1. Veldu **Samþætting gagna**.
     2. Veljið **Tengingasett**.
     3. Veljið **Nýtt tengingasett**.
     4. Færa skal inn heiti fyrir tenginguna.
@@ -57,8 +58,7 @@ ms.locfileid: "7386363"
 
     1. Stofna gagnasamþættingarverk fyrir eftirfarandi sniðmát með því að nota tengingarsett sem var verið að stofna:
 
-        - Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)
-            - Ef útgáfa 10.0.17 eð‘a nýrri er notuð þarf að nota sniðmát sem kallast Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops 10.0.17+).
+        - Greiðsla innsýn viðskiptavinar (CDS to Fin and Ops 10.0.17+)
         - Niðurstöður úr tímaröð sjóðsstreymis (CDS til Fin og Ops)
         - Niðurstöður tímaraðar fjárhagsáætlunar (CDS til Fin og Ops)
 

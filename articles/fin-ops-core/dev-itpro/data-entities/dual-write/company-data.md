@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 24cd936fd330ce2bdfc6aa7cac75ab5bacbbf3d0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 25bd2cc0df4940f02313b3a61f69b2273e835639
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416780"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782086"
 ---
 # <a name="company-concept-in-dataverse"></a>Fyrirtækishugtak í Dataverse
 
@@ -27,10 +27,10 @@ ms.locfileid: "7416780"
 
 Dataverse er ekki með sambærilegt hugtak. Næsta hugtakið er *rekstrareining*, sem er fyrst og fremst öryggis- og sýnileikamörk fyrir notendagögn. Þetta hugtak hefur ekki sömu lagalegu eða viðskiptalegu afleiðingar og hugtakið fyrirtæki.
 
-Vegna þess að rekstrareining og fyrirtæki eru ekki sambærileg hugtök er ekki mögulegt að þvinga kortlagningu á milli þeirra (1: 1) í þeim tilgangi að samþætta Dataverse. Hins vegar, vegna þess að notendur verða að sjá sömu línur í forritinu og Dataverse, hefur Microsoft kynnt til leiks nýja töflu í Dataverse sem nefnist cdm\_Fyrirtæki. Þessi tafla jafngildir fyrirtækjatöflunni í forritinu. Til að tryggja að sömu línur sjáist í forriti og nýju Dataverse er mælt með eftirfarandi uppsetningu gagna í Dataverse:
+Vegna þess að rekstrareining og fyrirtæki eru ekki sambærileg hugtök er ekki mögulegt að þvinga kortlagningu á milli þeirra (1: 1) í þeim tilgangi að samþætta Dataverse. Hins vegar, vegna þess að notendur verða að sjá sömu línur í forritinu og Dataverse, hefur Microsoft kynnt til leiks nýja töflu í Dataverse sem nefnist cdm\_ Fyrirtæki. Þessi tafla jafngildir fyrirtækjatöflunni í forritinu. Til að tryggja að sömu línur sjáist í forriti og nýju Dataverse er mælt með eftirfarandi uppsetningu gagna í Dataverse:
 
-+ Fyrir hverja Finance and Operations -fyrirtækislínu sem er virk fyrir tvöfalda skráningu er tengd cdm\_fyrirtækjalína búin til.
-+ Þegar cdm\_fyrirtækislína er búin til og virkjuð fyrir tvöfalda skráningu er sjálfgefin viðskiptaeining stofnuð með sama heiti. Þó að sjálfgefið teymi sé sjálfkrafa búið til fyrir þá rekstrareiningu er rekstrareiningin ekki notuð.
++ Fyrir hverja Finance and Operations -fyrirtækislínu sem er virk fyrir tvöfalda skráningu er tengd cdm\_ fyrirtækjalína búin til.
++ Þegar cdm\_ fyrirtækislína er búin til og virkjuð fyrir tvöfalda skráningu er sjálfgefin viðskiptaeining stofnuð með sama heiti. Þó að sjálfgefið teymi sé sjálfkrafa búið til fyrir þá rekstrareiningu er rekstrareiningin ekki notuð.
 + Sérstakt eigendateymi er búið til sem hefur sama nafn. Það er líka tengt rekstrareiningunni.
 + Sjálfgefið er að eigandi allra lína sem eru búnar til og tvöfalt skráðar á Dataverse sé stilltur á hópinn „DW-eigandi“ sem er tengdur við tengda viðskiptaeiningu.
 
@@ -49,17 +49,17 @@ Eftirfarandi skýringarmynd sýnir dæmi um þessa gagnauppsetningu í Dataverse
 
 Eins og myndin hér að ofan sýnir er þessi 1:1 kortlagning milli rekstrareiningar, fyrirtækis og teymis aðeins upphafspunktur. Í þessu dæmi er ný „eining“ í Evrópu búin til handvirkt í Dataverse sem yfireining bæði fyrir DEMF og ESMF. Þessi nýja rótarviðskiptaeining er ekki skyld tvöföldum skrifum. Hins vegar er hægt að nota hana til að veita meðlimum „EUR Sales“ teymisins aðgang að reikningsgögnum bæði í DEMF og ESMF með því að stilla sýnileika gagna á **Yfir-/undir-BU** í tilheyrandi öryggishlutverki.
 
-Lokaumfjöllunarefnið er hvernig tvöföld skráning ákvarðar hvaða eigendahóp hún á að úthluta línum á. Hegðuninni er stjórnað af töflunni **Sjálfgefið eigendateymi** í cdm\_Fyrirtæki línunni. Þegar cdm\_fyrirtækjalína er virkjuð fyrir tvískrif býr viðbót sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum dálkinn **Sjálfgefið eigendateymi**. Stjórnandi getur breytt þessum dálki í annað gildi. Stjórnandi getur þó ekki hreinsað dálkinn svo framarlega sem taflan er virk fyrir tvöfalda skráningu.
+Lokaumfjöllunarefnið er hvernig tvöföld skráning ákvarðar hvaða eigendahóp hún á að úthluta línum á. Hegðuninni er stjórnað af töflunni **Sjálfgefið eigendateymi** í cdm\_ Fyrirtæki línunni. Þegar cdm\_ fyrirtækjalína er virkjuð fyrir tvískrif býr viðbót sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum dálkinn **Sjálfgefið eigendateymi**. Stjórnandi getur breytt þessum dálki í annað gildi. Stjórnandi getur þó ekki hreinsað dálkinn svo framarlega sem taflan er virk fyrir tvöfalda skráningu.
 
 > [!div class="mx-imgBorder"]
-![Sjálfgefinn dálkur eigendahóps.](media/dual-write-default-owning-team.jpg)
+![ Sjálfgefinn dálkur eigendahóps.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fyrirtækjaskrár og ræsibönd
 
-Dataverse-samþætting færir fyrirtækjajöfnun með því að nota auðkenni fyrirtækisins til að randa gögn. Eins og eftirfarandi mynd sýnir eru allar fyrirtækistöflur útvíkkaðar þannig til að þær séu með margt-í-eitt (N:1) vensl við töfluna cdm\_Fyrirtæki.
+Dataverse-samþætting færir fyrirtækjajöfnun með því að nota auðkenni fyrirtækisins til að randa gögn. Eins og eftirfarandi mynd sýnir eru allar fyrirtækistöflur útvíkkaðar þannig til að þær séu með margt-í-eitt (N:1) vensl við töfluna cdm\_ Fyrirtæki.
 
 > [!div class="mx-imgBorder"]
-![N:1 vensl milli fyrirtækjasértakrar töflunnar og töflunnar cdm_Company.](media/dual-write-bootstrapping.png)
+![ N:1 vensl milli fyrirtækjasértakrar töflunnar og töflunnar cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Gildi lína verður skrifvarið eftir að fyrirtæki hefur verið bætt við og það vistað. Þess vegna ættu notendur að gæta þess að þeir velja rétt fyrirtæki.
 + Aðeins línur sem eru með fyrirtækisgögn eru hæfar fyrir tvöfalda skráningu milli forrits og Dataverse.

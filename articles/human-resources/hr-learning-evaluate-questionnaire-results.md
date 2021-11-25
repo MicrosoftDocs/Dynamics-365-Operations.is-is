@@ -1,8 +1,8 @@
 ---
 title: Yfirferð og mat á niðurstöðum spurningalista
-description: Þessi skrá er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara.
-author: andreabichsel
-ms.date: 06/20/2017
+description: Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,26 +12,26 @@ ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e2241c2ade361631228cf721b18adabcb1fbc091c8949d47727bb89f0f67bdb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8265b6b2269822bcae6d573091d2994e25826d1a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755492"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7729124"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Yfirferð og mat á niðurstöðum spurningalista
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi skrá er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
+Þetta efni er útskýrt hvernig á að skoða og meta niðurstöður spurningalista sem svarendur að svara. 
 
 Eftir að svarendur hafa lokið við spurningarlista eru margar leiðir til að meta niðurstöðurnar, meðal annars eftirfarandi:
 
 -   **Loknar svarsetur** – Skoða upplýsingar um spurningalista sem svarendur hafa lokið og mynda skýrslur til að taka saman svör og öll stig sem voru áunnin.
--   **Niðurstöðuflokkar** - Skoða upplýsingar niðurstöðuflokka og tölfræði fyrir spurningalista. Hægt er að mynda niðurstöðuflokk talnagagna fyrir allar svarsetur eða eina svarsetu fyrir spurningalista eða allar svarsetur.
+-   **Niðurstöðuflokkar** - Skoða upplýsingar niðurstöðuflokka og tölfræði fyrir spurningalista. Hægt er að búa til tölfræði niðurstöðuhóps fyrir annað hvort eina svarlotu spurningalista eða allar svarlotur.
 -   **Talnagögn spurningalista** – Tilgreina skilyrði til að reikna talnagögn fyrir tiltekinn flokk svarenda.
 
 Einnig er hægt að mynda ýmsar skýrslur til að skoða niðurstöðurnar sem eru flokkaðar eftir einstaklingi, svarsetu eða niðurstöðuflokk. Eftirfarandi skýrslur sem tengjast svaraða spurningalista eru tiltækar:

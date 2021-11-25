@@ -1,8 +1,8 @@
 ---
 title: Breyta skýrslugjafarvenslum fyrir stöðu
 description: Þessi verklýsing sýnir hvernig á að breyta í skýrslugerðarsambandi fyrir starfsmann.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmP
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0083614a6e52b2450d17a0e78f5bc7d9b5717872359ffc77dab160e6b9caeab0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: db15394bf4bcd1b56781d269ad81aa1ad20b5e69
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722536"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728810"
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Breyta skýrslugjafarvenslum fyrir stöðu
 
@@ -28,20 +28,19 @@ ms.locfileid: "6722536"
 
 Þessi verklýsing sýnir hvernig á að breyta í skýrslugerðarsambandi fyrir starfsmann. Hægt er að nota í skýrslugerðarsambandi fyrir leiðaraðgerð skjöl gegnum verkflæði. Ferlið einnig sýnir hvernig á að úthluta starfsmanns til viðbótar stigveldi. Til dæmis er starfsmaður gæti verið hluti af verkhópur með óformleg skýrslugerðarsambandi við yfirmaður verks. Hægt er að skilgreina viðbótar skýrslugerðarsamband á stöðu til að nota fyrir mismunandi verk- eða fylkisaðstæður. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Farið í Mannauður > Stöður > Stöður.
-2. Nota flýtiafmörkun til að finna færslur Til dæmis að sía eftir Stöðu svæði með gildið '000091'.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Útvíkka Skýrslurnar í hlutanum stöðu.
-5. Smellt er á Nýtt til að opna felligluggann.
-6. Sláið inn eða veldu gildi í reitnum veita skýrslu til.
-7. Smellið á „Stofna“.
-8. Stækka Vensl hluti.
-9. Smelltu á Bæta við.
-10. Veldu gátreitinn vinstra megin í hnitinu.
-11. Sláið inn eða veldu gildi í reitnum heiti stigveldis.
-    * Dæmi: Verks  
-12. Færa inn eða velja gildi í svæðis veitir Skýrslum til stöðu .  Til dæmis 000437.
-13. Smellið á „Vista“.
+1. Fara til **Mannauður** \> **Stöður** \> **Stöður**.
+2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía á gildi á **000091** fyrir **Staða** sviði.
+3. Í listanum skal velja tengilinn í valinni línu.
+4. Stækkaðu **Tilkynnir um stöðu** kafla.
+5. Veldu **Nýtt** til að opna fellivalmyndina.
+6. Í **Skýrslur til** reit, sláðu inn eða veldu gildi.
+7. Velja **Stofna**.
+8. Stækkaðu **Sambönd** kafla.
+9. Veljið **Bæta við**.
+10. Veldu gátreitinn vinstra megin á ristinni.
+11. Í **Nafn stigveldis** reit, sláðu inn eða veldu gildi (td, **Verkefni**).
+12. Í **Tilkynnir um stöðu** reit, sláðu inn eða veldu gildi (td, **000437**).
+13. Veldu **Vista**.
 
 
 

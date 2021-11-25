@@ -5,16 +5,16 @@ author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 81f49cf08dcd1b4b1c3d71ff286a1f070e65e914
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423448"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782333"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -46,37 +46,37 @@ Finance and Operations-smáforrit | Önnur Dynamics 365 forrit | lýsing
 -----------------------|--------------------------------|---
 [Allar afurðir](mapping-reference.md#138) | msdyn_globalproducts | Taflan fyrir allar afurðir inniheldur allar afurðir sem eru í boði í forritum Finance and Operations, bæði útgefnar afurðir og afurðir sem ekki eru gefnar út.
 [CDS-útgefnar einkvæmar afurðir](mapping-reference.md#213) | Afurð | Taflan **Afurð** inniheldur dálkana sem skilgreina afurðina. Hún felur í sér einstakar afurðir (afurðir með undirgerðaafurð) og afurðarafbrigðin. Eftirfarandi tafla sýnir vörpun.
-[Litir](mapping-reference.md#170) | msdyn\_productcolors
-[Afbrigði](mapping-reference.md#171) | msdyn\_productconfigurations
+[Litir](mapping-reference.md#170) | msdyn\_ productcolors
+[Afbrigði](mapping-reference.md#171) | msdyn\_ productconfigurations
 [Sjálfgefnar pöntunarstillingar](mapping-reference.md#172) | msdyn_productdefaultordersettings |
 [Afurðartegundir](mapping-reference.md#166) | msdyn_productcategories | Hver vöruflokkur og upplýsingar um uppbyggingu hans og einkenni eru að finna í vöruflokkstöflunni.
 [Úthlutanir afurðategundar](mapping-reference.md#167) | msdyn_productcategoryassignments | Til að úthluta vöru í flokk er hægt að nota töfluna fyrir vöruflokkaúthlutanir.
 [Tegundastigveldi afurðar](mapping-reference.md#168) | msdyn_productcategoryhierarchies | Stigveldi afurðar eru notuð til að flokka eða flokka afurðir. Flokkastigveldin eru fáanleg í Dataverse með því að nota töflu tegundastigveldi afurðar.
 [Hlutverk tegundastigveldis afurðar](mapping-reference.md#169) | msdyn_productcategoryhierarchyroles | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Þau tilgreina hvaða flokkur er notaður í hverju hlutverki hlutverkatöflu afurðaflokks er notaður.
 [Sjálfgefnar vörupöntunarstillingar V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
-[Afurðavíddaflokkar](mapping-reference.md#173) | msdyn\_productdimensiongroups | Afurðavíddarhópurinn skilgreindi hvaða afurðavíddir skilgreina vöruna.
+[Afurðavíddaflokkar](mapping-reference.md#173) | msdyn\_ productdimensiongroups | Afurðavíddarhópurinn skilgreindi hvaða afurðavíddir skilgreina vöruna.
 [Litir afurðarsniðmáts.](mapping-reference.md#187) | msdyn_sharedproductcolors | Taflan **Sameiginlegur afurðalitur** gefur til kynna liti sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
 [Skilgreiningar afurðarsniðmáts](mapping-reference.md#188) | msdyn_sharedproductconfigurations | Taflan **Sameiginleg skilgreining afurða** gefur til kynna skilgreiningar sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
 [Stærðir afurðarsniðmáts](mapping-reference.md#190) | msdyn_sharedproductsizes | Taflan **Sameiginleg afurðastærð** gefur til kynna stærðir sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
 [Stílar afurðarsniðmáts](mapping-reference.md#191) | msdyn_sharedproductstyles | Taflan **Sameiginlegur afurðastíll** gefur til kynna stíla sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
-[Afurðarnúmer sem eru auðkennd með strikamerki](mapping-reference.md#164) | msdyn\_productbarcodes | Strikamerki afurða eru notuð til að bera kennsl á afurðir á einkvæman hátt.
+[Afurðarnúmer sem eru auðkennd með strikamerki](mapping-reference.md#164) | msdyn\_ productbarcodes | Strikamerki afurða eru notuð til að bera kennsl á afurðir á einkvæman hátt.
 [Afurðartengdur umreikningur eininga](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
-[Útgefnar afurðir V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | Taflan **msdyn\_sharedproductdetails** inniheldur dálka úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar.
-[Stærðir](mapping-reference.md#174) | msdyn\_productsizes
+[Útgefnar afurðir V2](mapping-reference.md#189) | msdyn\_ sharedproductdetails | Taflan **msdyn\_ sharedproductdetails** inniheldur dálka úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar.
+[Stærðir](mapping-reference.md#174) | msdyn\_ productsizes
 [Geymsluvíddarflokkar](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Víddarhópur afurðageymslu táknar aðferðina sem notuð er til að skilgreina staðsetningu afurðarinnar í vöruhúsinu.
-[Stílar](mapping-reference.md#178) | msdyn\_productsytles
+[Stílar](mapping-reference.md#178) | msdyn\_ productsytles
 [Rakningarvíddarflokkar](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | Víddarflokkur afurðarakningar táknar aðferðina sem notuð er til að rekja afurðina í birgðum.
 [Einingar](mapping-reference.md#219) | uoms
 [Umreikningur eininga](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
 ## <a name="integration-of-products"></a>Samþætting á afurðum
 
-Í þessu líkani er afurðin táknuð með samsetningu á tveimur töflum í Dataverse: **Afurð** og **msdyn\_samnýttar afurðarupplýsingar**. Fyrri taflan hefur að geyma skilgreininguna á vöru (einstaka auðkenni fyrir vöruna, vöruheitið og lýsinguna), en önnur taflan inniheldur dálkana sem eru geymdir á afurðastigi. Samsetning þessara tveggja taflna er notuð til að skilgreina afurðina í samræmi við hugtakið birgðahaldseining (BHE). Hver útgefin afurð er með upplýsingar í framangreindum töflum (afurð og samnýttar afurðaupplýsingar). Til að fylgjast með öllum afurðum (gefnar út og ekki gefnar út) er taflan **Altækar afurðir** notuð.
+Í þessu líkani er afurðin táknuð með samsetningu á tveimur töflum í Dataverse: **Afurð** og **msdyn\_ samnýttar afurðarupplýsingar**. Fyrri taflan hefur að geyma skilgreininguna á vöru (einstaka auðkenni fyrir vöruna, vöruheitið og lýsinguna), en önnur taflan inniheldur dálkana sem eru geymdir á afurðastigi. Samsetning þessara tveggja taflna er notuð til að skilgreina afurðina í samræmi við hugtakið birgðahaldseining (BHE). Hver útgefin afurð er með upplýsingar í framangreindum töflum (afurð og samnýttar afurðaupplýsingar). Til að fylgjast með öllum afurðum (gefnar út og ekki gefnar út) er taflan **Altækar afurðir** notuð.
 
 Þar sem varan er táknuð sem SKU er hægt að fanga hugtökin aðgreindar vörur, vörumeistarar og afbrigði afurða í Dataverse á eftirfarandi hátt:
 
-- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein lína búin til í töflunni **Afurð** og ein lína er búin til í töflunni **msdyn\_sharedproductdetails**. Engin lína afurðafjölskyldu er búin til.
-- **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein lína á hvert afbrigði búin til í afurðatöflunni. Þessi lína inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í töflunni **msdyn\_sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Dataverse um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
+- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein lína búin til í töflunni **Afurð** og ein lína er búin til í töflunni **msdyn\_ sharedproductdetails**. Engin lína afurðafjölskyldu er búin til.
+- **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein lína á hvert afbrigði búin til í afurðatöflunni. Þessi lína inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í töflunni **msdyn\_ sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Dataverse um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
 - **Einkvæmar afurðir** vísa til allra undirgerðaafurða afurðanna og allra afurðaafbrigðanna.
 
 ![Gagnamódel fyrir afurðir.](media/dual-write-product.png)
@@ -107,10 +107,10 @@ Afurðavíddir eru einkenni sem auðkenna afurðarafbrigði. Fjórar vöruvíddi
 
 Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 ---|---
-[Litir](mapping-reference.md#170) | msdyn\_productcolors
-[Stærðir](mapping-reference.md#174) | msdyn\_productsizes
-[Stílar](mapping-reference.md#178) | msdyn\_productsytles
-[Afbrigði](mapping-reference.md#171) | msdyn\_productconfigurations
+[Litir](mapping-reference.md#170) | msdyn\_ productcolors
+[Stærðir](mapping-reference.md#174) | msdyn\_ productsizes
+[Stílar](mapping-reference.md#178) | msdyn\_ productsytles
+[Afbrigði](mapping-reference.md#171) | msdyn\_ productconfigurations
 
 Þegar afurð hefur mismunandi afurðavíddir (til dæmis hefur afurðarsniðmát stærð og lit sem afurðavíddir) er hver einkvæm afurð (það er hvert afurðarafbrigði) skilgreind sem samsetning þessara afurðavíddar. Til dæmis er afurðanúmer B0001 extra-lítill svartur bolur og afurðanúmer B0002 er lítill svartur bolur. Í þessu tilfelli eru núverandi samsetningar afurðavíddar skilgreindar. Bolurinn úr dæminu á undan getur til dæmis verið extra-lítill og svartur, lítill og svartur, meðalstór og svartur, eða stór og svartur, en hann getur ekki verið extra-stór og svartur. Með öðrum orðum eru afurðavíddir sem afurðarsniðmát getur notað tilgreindar og hægt er að gefa afbrigði út frá þessum gildum.
 
@@ -122,7 +122,7 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 [Skilgreiningar afurðarsniðmáts](mapping-reference.md#188) | msdyn_sharedproductconfigurations |
 [Stærðir afurðarsniðmáts](mapping-reference.md#190) | msdyn_sharedproductsizes |
 [Stílar afurðarsniðmáts](mapping-reference.md#191) | msdyn_sharedproductstyles |
-[Afurðarnúmer sem eru auðkennd með strikamerki](mapping-reference.md#164) | msdyn\_productbarcodes |
+[Afurðarnúmer sem eru auðkennd með strikamerki](mapping-reference.md#164) | msdyn\_ productbarcodes |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Sjálfgefnar pöntunarstillingar og afurðatengdar sjálfgefnar pöntunarstillingar
 
@@ -176,7 +176,7 @@ Afurðareglurnar eru reglur sem notaðar eru til að skilgreina afurðir og eigi
 
 Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 ---|---
-[Afurðavíddaflokkar](mapping-reference.md#173) | msdyn\_productdimensiongroups |
+[Afurðavíddaflokkar](mapping-reference.md#173) | msdyn\_ productdimensiongroups |
 [Geymsluvíddarflokkar](mapping-reference.md#177) | msdyn_productstoragedimensiongroups |
 [Rakningarvíddarflokkar](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups |
 

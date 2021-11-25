@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 259ed49b9bdfb70ea357a7d20ea7ae8b141978cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 0382e34664f20389c43e8dec4437f0078fa1f60a
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576953"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777741"
 ---
 # <a name="configure-job-card-for-devices"></a>Skilgreina verkspjald fyrir tæki
 
@@ -34,19 +34,19 @@ Nokkrar af stillingunum sem lýst er í þessu efnisatriði verða að vera virk
 
 Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í röð):
 
-1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Skráningarnúmer til að tilkynna að lokið sé bætt við vinnukortatækið (Frá og með útgáfu 10.0.21 fyrir birgðakeðjustjórnun er sjálfgefið kveikt á þessum eiginleika.)
 1. Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.
 
 ### <a name="print-label"></a>Prenta merki
 
 Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í röð):
 
-1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Skráningarnúmer til að tilkynna að lokið sé bætt við vinnukortatækið (Frá og með útgáfu 10.0.21 fyrir birgðakeðjustjórnun er sjálfgefið kveikt á þessum eiginleika.)
 1. Prenta merki úr verkspjaldstæki
 
 ### <a name="allow-locking-of-touch-screen"></a>Leyfa læsingu á snertiskjá
 
-Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Ef þú vilt nota það skaltu ganga úr skugga um að kveikt sé á eftirfarandi eiginleika [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Eiginleikinn til að læsa vinnsluspjaldstæki og afgreiðslustöð svo hægt sé að hreinsa tækin
 

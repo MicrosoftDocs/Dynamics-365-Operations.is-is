@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
-ms.translationtype: HT
+ms.openlocfilehash: f852779d43beb3a43c6921a25d393ee00dff96d1
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647190"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777962"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -39,7 +39,7 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 
 ### <a name="the-production-floor-execution-interface"></a>Viðmót fyrir framkvæmd á framleiðslugólfi
 
-Þetta er aðaleiginleikinn sem lýst er í þessu efnisatriði. Það bætir viðmóti framkvæmdar framleiðslugólfsins í kerfið. Til að virkja þennan eiginleika skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Þetta er aðaleiginleikinn sem lýst er í þessu efnisatriði. Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á henni. Það bætir viðmóti framkvæmdar framleiðslugólfsins í kerfið. Til að virkja þennan eiginleika skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Framkvæmd á framleiðslugólfi
 
@@ -47,19 +47,19 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 
 Þessir eiginleikar gera prentun númeraplötu tiltæka við keyrsluviðmót framleiðslugólfsins. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð):
 
-1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Skráningarnúmer til að tilkynna að lokið sé bætt við vinnukortatækið (Frá og með útgáfu 10.0.21 fyrir birgðakeðjustjórnun er sjálfgefið kveikt á þessum eiginleika.)
 1. Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.
 
 ### <a name="print-labels"></a>Prenta merkimiða
 
 Þessir eiginleikar gera prentun merkimiða tiltæka við keyrsluviðmót framleiðslugólfsins. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð):
 
-1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Skráningarnúmer til að tilkynna að lokið sé bætt við vinnukortatækið (Frá og með útgáfu 10.0.21 fyrir birgðakeðjustjórnun er sjálfgefið kveikt á þessum eiginleika.)
 1. Prenta merki úr verkspjaldstæki
 
 ### <a name="allow-locking-the-touch-screen"></a>Leyfa læsingu á snertiskjá
 
-Þessi eiginleiki bætir við hnappi í keyrsluviðmótinu fyrir framleiðslugólf sem gerir starfskröftum kleift að hreinsa snertiskjáinn. Ef þú vilt nota þetta skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Það bætir við hnappi við framkvæmdarviðmót framleiðslugólfsins sem gerir starfsmönnum kleift að hreinsa snertiskjáinn. Ef þú vilt nota það skaltu ganga úr skugga um að kveikt sé á eftirfarandi eiginleika [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Eiginleikinn til að læsa vinnsluspjaldstæki og afgreiðslustöð svo hægt sé að hreinsa tækin
 

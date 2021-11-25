@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 358f5a87cdb42f0ff646948da8d38475cf49e3f2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577913"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778378"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Áætla stofnun vinnu í bylgju
 
@@ -33,7 +33,7 @@ Notið eiginleikann *Áætla stofnun vinnu* sem hluta af bylgjuferlinu til að a
 
 Til að nota eiginleikana sem lýst er í þessu efnisatriði verður að kveikja á þeim fyrir kerfið. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið til að kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
 
-1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun.
+1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
 1. **Áætla stofnun vinnu** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun.
 1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. Ekki þarf að nota þennan eiginleika aðeins er notuð handvirk grunnstilling.
 

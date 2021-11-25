@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579425"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778108"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -188,7 +188,7 @@ Hægt er að velja hversu ítarlegt kerfið á að vera þegar það staðfestir
 
 ### <a name="enable-the-strict-validation-option"></a>Kveikja á valkosti ítarlegrar staðfestingar
 
-Áður en hægt er að nota þennan ítarlega valkost, þarf að virkja hann í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining** - *Afurðaupplýsingastjórnun*
 - **Heiti eiginleika** - *Ítarleg staðfesting á sjálfgefnu pöntunarmagni*

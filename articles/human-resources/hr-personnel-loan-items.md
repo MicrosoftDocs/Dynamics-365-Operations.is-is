@@ -1,8 +1,8 @@
 ---
 title: Stjórna atriðum sem eru lánaðar til starfskrafta
 description: Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna.
-author: andreabichsel
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2399cd1c00f2c1f301b2d514c20cca00017465c90436cd01d44eb584f1b66ce6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff9f9404ebbcbc7359ee9927d7a92e31808a478a
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760587"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728760"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Stjórna atriðum sem eru lánaðar til starfskrafta
 
@@ -28,7 +28,8 @@ ms.locfileid: "6760587"
 
 Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna. 
 
-Eftirfarandi atriði eru dæmi um vörur sem fyrirtæki gæti verið að lána starfsmönnum:
+Hér eru nokkur dæmi um hluti sem fyrirtæki gæti lánað starfsmönnum:
+
 -   Farsímar
 -   Bifreiðar
 -   Tölvubúnaður
@@ -37,7 +38,7 @@ Hver efnislegt vara verður að hafa samsvarandi lánshlut. Hvert skrá yfir lá
 
 Þegar hlutur er lánaður, skráið útlánsdagsetningu ásamt áætluðum skiladegi. Þegar hlut er skilað skal skrá raunverulegan skiladag.
 
-Starfsmenn geta skoðað°færslur fyrir vörur sem þeir hafa fengið lánaðar með°sjálfsafgreiðsla vinnusvæði starfsmanna. Þeir geta einnig breytt fyrirliggjandi færslum°eða fært inn°nýja lánshluti°ef þeir hafa fengið efnislegar viðbótarvörur.  Hægt er að setja upp verkflæði til að rekja breytingar á nýjum eða fyrirliggjandi lánshlutum gegnum samþykktarferli. 
+Starfsmenn geta notað **Sjálfsafgreiðsla starfsmanna** vinnusvæði til að skoða skrár yfir hlutina sem þeim hafa verið lánaðir. Þeir geta einnig breytt núverandi færslum eða slegið inn nýjar lánsvörur ef þeir hafa fengið fleiri efnislega hluti. Hægt er að setja upp verkflæði til að leiða breytingar á nýjum eða núverandi lánahlutum í gegnum samþykktarferli. 
 
 Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra. Þeir geta einnig fengið heimild til að bæta við nýjum lánshlutum fyrir hönd starfsmanna sinna.
 

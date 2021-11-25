@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b53e07f69992a567d5b300ae1f2b24b74541d176
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: ec5afd92a71c8b12c913de78a513abb0959df88a
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416353"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782062"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Úrræðaleita vandamál sem tengjast meðvitund um lausn
 
@@ -33,7 +33,7 @@ ms.locfileid: "7416353"
 
 Á síðunni **Tvöfalt skrif** gætirðu fengið villuboð sem líkjast eftirfarandi dæmi:
 
-*Einingin sem heitir 'msdyn\_dualwriteentitymap' með namemapping='Logical' fannst ekki í MetadataCache.*
+*Einingin sem heitir 'msdyn\_ dualwriteentitymap' með namemapping='Logical' fannst ekki í MetadataCache.*
 
 Til að laga málið skaltu ganga úr skugga um að tvískipt kjarnalausnin sé sett upp í Dataverse. Tvískipt kjarnalausnin er forsenda fyrir vitund um lausn.
 

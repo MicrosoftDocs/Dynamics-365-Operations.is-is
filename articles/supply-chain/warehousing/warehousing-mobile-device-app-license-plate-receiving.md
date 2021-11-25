@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0df6aee6a5ec1ecc751713c19c659c5471cc4146
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 872a08241f3d0156d0ccf1f89443e3a894656404
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576041"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777603"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis
 
@@ -77,7 +77,7 @@ Hægt er að nota eiginleikann *Stjórna því hvort á að birta yfirlitssíðu
 - **Birta ítarlegt yfirlit** - Við móttöku númeraplötu munu starfsmenn sjá auka síðu sem sýnir allar ASN upplýsingar.
 - **Sleppa yfirlitinu** - Starfsmenn sjá ekki allar ASN upplýsingar. Starfsmenn vörugeymsluhússins ekki heldur sett upp ráðstöfunarkóða eða bætt við undantekningum meðan á móttökuferlinu stendur.
 
-Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleikanum *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Til að gera þessa virkni aðgengilega á kerfinu þínu, *Stjórnaðu því hvort birta eigi yfirlitssíðu fyrir móttöku í fartækjum* kveikt verður á eiginleikanum í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Komdu í veg fyrir að númeraplötur með flutningspöntunum–sent séu notaðar í vöruhúsum öðrum en ákvörðunarvöruhúsinu
 

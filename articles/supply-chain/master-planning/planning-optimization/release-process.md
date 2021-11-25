@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: b2e0145c28b40f4fbfb54ad7e7ed32fbc130c569
+ms.sourcegitcommit: 8afd0cdb39ec443fb7631c39401967cce0fac34e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567344"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7727433"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 
@@ -33,6 +33,9 @@ Umhverfi sem nota fínstillingu áætlanagerðar sjálfkrafa fá nýjustu útgá
 
 | Breytingar | Eiginleikastjórnunarupplýsingar | Útgáfudagar |
 |---|---|---|
+| <p>Bætt við stuðningi við útreikningsformúlur fyrir vinnslutíma, framleiðsluleið með skörun og framleiðsluaðgerðanúmer á kröfufærslum.</p><p>Aukin villuboð fyrir framleiðsluáætlanir sem tengjast tímamörkum, afkastagetu fannst ekki og hjólaleið.</p><p>Bætt samræmi við útreikning á móttökudagsetningum og útgáfudagsetningum bæði á áætlunarpöntunum og staðfestum pöntunum.</p><p>Almenn afköst, gæði og betri stöðugleiki. | Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar* | 22.-27. október 2021 |
+| <p>Bætt við stuðningi við að taka tillit til ruslprósentu við útreikning á vinnslutíma.</p><p>Bætti við stuðningi við aðgerðanúmer og efnisnotkun við tímaáætlun. | Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar* | 5.-7. október 2021 |
+| <p>Bætt við stuðningi við gerðir framleiðsluleiða: **Biðröð áður**, **á eftir**, og **Flutningstími**.</p><p>Almenn afköst, gæði og betri stöðugleiki. | Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar* | 25.-30. september 2021 |
 | <p>Viðbættur stuðningur fyrir aðaláætlanir með **Röðunaraðferð** stillta á *Aðgerðaröðun*.</p><p>Á síðunni **Leiðaflokkar** skal fara eftir stillingunum fyrir gátreitina **Virkjun**, **Vinnutími** og **Afkastageta** fyrir línur með **Gerð leiðar/vinnslu** sem *Uppsetning* eða *Ferli*. </p><p>Almenn afköst, gæði og betri stöðugleiki. | <p>Aðgerðaröðun er í boði í eiginleikastjórnun frá og með útgáfu 10.0.20.</p><p>Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar*</p>  | 9.–17. september 2021 |
 | Almenn afköst, gæði og betri stöðugleiki. | Engin eiginleikastjórnun er nauðsynleg. | 25.-30. ágúst 2021 |
 | <p>Reitnum **Afhendingartími** var bætt við áætlaðar pantanir.</p><p>Almenn afköst, gæði og betri stöðugleiki.</p> | Engin eiginleikastjórnun er nauðsynleg. | 12.-17. ágúst 2021 |

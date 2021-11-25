@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 943eee819c08704212ceb5e02921c36e7f1032dc
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728628"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777840"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
 
@@ -47,15 +47,15 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu Birg
 
 | Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
 |---|---|---|---|
-| Listi á lager | Fjármál | Þetta einfalda yfirlit gerir kleift að einblína á fjárhagsupplýsingar þegar lagerbirgðum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Listi á lager | Gæðaeftirlit | Þetta einfalda yfirlit gerir kleift að einblína á gæðastjórnun þegar lagerbirgðum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Listi á lager | Móttaka | Þetta einfalda yfirlit gerir kleift að einblína á móttökuaðgerðir þegar lagerbirgðum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Listi á lager | Sending | Þetta einfalda yfirlit gerir kleift að einblína á sendingaraðgerðir þegar lagerbirgðum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Færslur | Einföldun | Þetta einfalda yfirlit gerir kleift að fara yfir birgðastöðu án þess að láta fjárhagsupplýsingar og aðra reiti sem eru minna notaðir þvælast fyrir. | Vistuð yfirlit fyrir birgðastjórnun |
-| Flutningspantanir | Sending | Þetta einfalda yfirlit gerir kleift að einblína á sendingaraðgerðir þegar flutningspöntunum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Flutningspantanir | Móttaka | Þetta einfalda yfirlit gerir kleift að einblína á móttökuaðgerðir þegar flutningspöntunum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Flutningspantanir | Gæðaeftirlit | Þetta einfalda yfirlit gerir kleift að einblína á gæðastjórnun þegar flutningspöntunum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
-| Flutningspantanir | Fjármál | Þetta einfalda yfirlit gerir kleift að einblína á fjárhagsupplýsingar þegar flutningspöntunum er stjórnað. | Vistuð yfirlit fyrir birgðastjórnun |
+| Listi á lager | Fjármál | Þetta einfalda yfirlit gerir kleift að einblína á fjárhagsupplýsingar þegar lagerbirgðum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Listi á lager | Gæðaeftirlit | Þetta einfalda yfirlit gerir kleift að einblína á gæðastjórnun þegar lagerbirgðum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Listi á lager | Móttöku | Þetta einfalda yfirlit gerir kleift að einblína á móttökuaðgerðir þegar lagerbirgðum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Listi á lager | Sending | Þetta einfalda yfirlit gerir kleift að einblína á sendingaraðgerðir þegar lagerbirgðum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Færslur | Einfaldað | Þetta einfalda yfirlit gerir kleift að fara yfir birgðastöðu án þess að láta fjárhagsupplýsingar og aðra reiti sem eru minna notaðir þvælast fyrir. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Flutningspantanir | Sending | Þetta einfalda yfirlit gerir kleift að einblína á sendingaraðgerðir þegar flutningspöntunum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Flutningspantanir | Móttöku | Þetta einfalda yfirlit gerir kleift að einblína á móttökuaðgerðir þegar flutningspöntunum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Flutningspantanir | Gæðaeftirlit | Þetta einfalda yfirlit gerir kleift að einblína á gæðastjórnun þegar flutningspöntunum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Flutningspantanir | Fjármál | Þetta einfalda yfirlit gerir kleift að einblína á fjárhagsupplýsingar þegar flutningspöntunum er stjórnað. | Vistaðar skoðanir fyrir birgðastjórnun (Kveikt sjálfgefið á útgáfu 10.0.21.) |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Vistuð yfirlit fyrir einingu aðaláætlunargerðar
 
@@ -83,11 +83,11 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu Afur
 
 | Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
 |---|---|---|---|
-| Listi losaðra afurða | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistuð yfirlit fyrir útgefnar afurðir |
-| Upplýsingar um losaðar afurðir | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistuð yfirlit fyrir útgefnar afurðir |
-| Upplýsingar um losaðar afurðir | Stjórnun upplýsinga um afurðastjórnun | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun upplýsinga um afurðastjórnun. | Vistuð yfirlit fyrir útgefnar afurðir |
-| Upplýsingar um losaðar afurðir | Stjórnun kaupupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun kauptengdra upplýsinga um afurðir. | Vistuð yfirlit fyrir útgefnar afurðir |
-| Upplýsingar um losaðar afurðir | Stjórnun söluupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun sölutengdra upplýsinga um afurðir. | Vistuð yfirlit fyrir útgefnar afurðir |
+| Listi losaðra afurða | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistaðar skoðanir fyrir útgefnar vörur (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Upplýsingar um losaðar afurðir | Stofnun afurðar | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð þegar afurðir eru stofnaðar. | Vistaðar skoðanir fyrir útgefnar vörur (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Upplýsingar um losaðar afurðir | Stjórnun upplýsinga um afurðastjórnun | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun upplýsinga um afurðastjórnun. | Vistaðar skoðanir fyrir útgefnar vörur (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Upplýsingar um losaðar afurðir | Stjórnun kaupupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun kauptengdra upplýsinga um afurðir. | Vistaðar skoðanir fyrir útgefnar vörur (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Upplýsingar um losaðar afurðir | Stjórnun söluupplýsinga | Einfaldað síðuyfirlit sem inniheldur aðeins svæðin sem oftast eru notuð við stjórnun sölutengdra upplýsinga um afurðir. | Vistaðar skoðanir fyrir útgefnar vörur (Kveikt sjálfgefið á útgáfu 10.0.21.) |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vistuð yfirlit fyrir einingu framleiðslustýringar
 
@@ -95,10 +95,10 @@ Eftirfarandi tafla lýsir vistuðum yfirlitum sem eru tiltæk fyrir einingu fram
 
 | Síða | Skjáheiti | Skoða lýsingu | Heiti eiginleika |
 |---|---|---|---|
-| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Upplýsingasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Tiltektarlistasíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
-| Listasíða framleiðslupantana | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistuð yfirlit fyrir framleiðslustýringu |
+| Uppskriftarsíða framleiðslupöntunar | Einföldun | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistaðar skoðanir fyrir framleiðslustýringu (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Upplýsingasíða framleiðslupöntunar | Einfaldað | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistaðar skoðanir fyrir framleiðslustýringu (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Tiltektarlistasíða framleiðslupöntunar | Einfaldað | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistaðar skoðanir fyrir framleiðslustýringu (Kveikt sjálfgefið á útgáfu 10.0.21.) |
+| Listasíða framleiðslupantana | Einfaldað | Þetta einfalda yfirlit inniheldur aðeins reitina sem eru oftast notaðir. Á þennan hátt býður það upp á hraðari yfirsýn og einfaldara vinnuferli. | Vistaðar skoðanir fyrir framleiðslustýringu (Kveikt sjálfgefið á útgáfu 10.0.21.) |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vistuð yfirlit fyrir sölu- og markaðseininguna
 

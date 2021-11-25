@@ -1,7 +1,7 @@
 ---
 title: Uppsetning á lánastýringu
 description: Þetta efni lýsir uppsetningunni sem krafist er fyrir lánamálastjórnun.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfb747c9a510474d0ca27a595158cd6e6d24359a37f665f64b4c640536874aa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723944"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753669"
 ---
 # <a name="credit-management-setup"></a>Uppsetning á lánastýringu 
 
@@ -39,7 +39,7 @@ Fara til **Skuldir og innheimta \> Uppsetning \> Verkflæði lánaumsýslu** til
 
 Ef röðun greiðsluskilmála er virk og ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Raða greiðsluskilmálum**  
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \> Raða greiðsluskilmálum**  
 
 ### <a name="ranking-settlement-discounts"></a>Röðun uppgjörsafsláttar
 
@@ -47,7 +47,7 @@ Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Upp
 
 Ef röðun uppgjörsafsláttar er virk og ef staðgreiðsluafsláttur pöntunarinnar er hærri en sjálfgefnir staðgreiðsluafsláttur viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Flokka uppgjörsafslætti**  
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \> Flokka uppgjörsafslætti**  
 
 ## <a name="reasons"></a>Ástæður
 

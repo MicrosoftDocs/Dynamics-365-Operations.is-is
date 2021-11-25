@@ -1,8 +1,8 @@
 ---
 title: Stofna dagatöl og mynda vinnutíma
-description: Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.
-author: andreabichsel
-ms.date: 07/09/2019
+description: Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þetta efni útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalend
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e25acf541fe607d1b28ba8a0492186f2a8eaad949c84d8d61ba492a2072e38e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4c1d299a77c5a02c531838aae0750dea87e89e34
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726994"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731672"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Stofna dagatöl og mynda vinnutíma
 
@@ -26,15 +26,15 @@ ms.locfileid: "6726994"
 
 
 
-Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þetta efni útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
 1. Á heimasíðunni velurðu **Líftímastjórnun tilfanga**.
 2. Veldu **Dagatöl**.
 3. Veljið **Nýtt**.
 4. Í reitnum **Dagatal** flokkaðru dagatalið þitt. Þetta er Kenni fyrir dagatal sem er notað sem tilvísun við úthlutun dagatöl, eins og rekstrartilföng eða tilfangahóp.  
-5. Í reitinum **Heiti** skal færa dagatalið inn.
+5. Í **Nafn** reit, sláðu inn nafn fyrir dagatalið þitt.
 6. Í reitnum **Staðlaðir vinnudagar í klukkustundum** slærðu inn tölu.
-7. Gakktu úr skugga um að röðin sé valin og veldu síðan **Vinnutímar** úr aðgerðarglugganum.
+7. Gakktu úr skugga um að línan sé valin og veldu síðan **Vinnutímar** frá **Aðgerðasvæði**.
 8. Veldu **Byggja upp vinnutíma**. Mynda vinnustundir fyrir hvern dag tímabilsins þar sem þú vilt að hægt sé að raða vinnu. Þegar tíminn líður, er hægt að mynda vinnutíma fyrir fleiri tímabil.  
 9. Í reitnum **Frá dags.** færirði inn dagsetningu. Þetta er fyrsta daginn sem þetta dagatal verður að vera opin.  
 10. Í reitnum **Til dags.** færirðu inn dagsetningu. Þetta er síðasta daginn sem þetta dagatal er opin.  

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d47b88fcc5e25fc85377b52fa9832916a4bb2217
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 4af84383fe1d214849d5d05463bd0cbfad7d0536
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572386"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778474"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Staðfesta sendingar á útleið úr runuvinnslum
 
@@ -27,7 +27,7 @@ ms.locfileid: "7572386"
 
 ## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Virkja eiginleikann Staðfesta sendingar á útleið úr runuvinnslum
 
-Áður en hægt er að nota þennan eiginleika þarf að virkja hann í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Eiginleikinn er skráður sem:
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining** - *Vöruhúsakerfi*
 - **Heiti eiginleika** - *Staðfesta sendingar á útleið úr runuvinnslum*

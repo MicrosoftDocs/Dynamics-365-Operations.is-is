@@ -1,8 +1,8 @@
 ---
 title: Biðja um frí
 description: Biðja um frí í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8fead1105412e5fe967a19632e1875058f4026c722140eaed056c5412c6558f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 6e12ac21e80c46f5cb5f231aadab7272fc279194
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756101"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771413"
 ---
 # <a name="request-time-off"></a>Biðja um frí
 
@@ -42,11 +42,11 @@ ms.locfileid: "6756101"
 
 6. Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína. Annars skaltu velja **Vista uppkast**.
 
-Starfsmenn sem senda inn nýja leyfisbeiðni geta valið úr mismunandi leyfisgerðum til að setja saman leyfsbeiðnina. Allar leyfisgerðir sem eru valdar sem hluti af einni leyfisbeiðni eiga að vera með sömu leyfiseininguna. Starfsmenn geta skoðað leyfiseininguna fyrir hverja leyfisgerð í skjámyndinni **Beiðni um frí**.
+Starfsmenn sem senda inn nýja leyfisbeiðni geta valið úr mismunandi leyfisgerðum til að setja saman leyfsbeiðnina. Allar leyfisgerðir sem eru valdar sem hluti af einni leyfisbeiðni eiga að vera með sömu leyfiseininguna. Starfsmenn geta skoðað orlofseininguna fyrir hverja orlofstegund á **Óska eftir fríi** síðu.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Bæta viðhengi við fyrirliggjandi beiðni
 
-Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðhengi. Einnig er hægt að sjá allar tengdar beiðnir fyrir tiltekna dagsetningu.
+Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðhengi. Þú getur líka séð allar tengdar beiðnir fyrir ákveðna dagsetningu.
 
 ## <a name="view-leave-balances"></a>Skoða leyfisstöður
 
@@ -58,13 +58,13 @@ Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðheng
 
 1. Í **Sjálfsafgreiðsla starfsmanna** vinnusvæði, veldu **Meira** (...) í reitnum **Frítímastöður**.
 
-2. Veldu til að skoða samþykktar frestbeiðnir þínar **Samþykkt frí**. Veldu til að skoða bíðandi fríbeiðnir þínar **Beiðnir um frí**.
+2. Til að skoða samþykktar fríbeiðnir þínar skaltu velja **Samþykkt frí**. Til að skoða biðtímabeiðnir þínar velurðu **Beiðnir um frí**.
 
 ## <a name="cancel-time-off-requests"></a>Hætta við beiðnir um frí
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Skoða frí** í reitnum **Staða frítíma**.
 
-2. Í skjámyndinni **Frí** skal velja eina eða fleiri beiðnir um frí sem hætta á við.
+2. Á **Frí** síðu, veldu eina eða fleiri fríbeiðnir til að hætta við.
 
 3. Veljið hnappinn **Hætta við**.
 

@@ -1,7 +1,7 @@
 ---
 title: Skipuleggja staðbundna bókhaldslykla
 description: Þetta efnisatriði veitir upplýsingar sem hjálpa til við að skipuleggja bókhaldslykla þegar til staðar eru lagalegar/staðbundnar kröfur fyrir fyrirtækið þitt.
-author: veneva
+author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a99e4ef3355188f574930c1d885e53fcb3134ad1
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
-ms.translationtype: HT
+ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
+ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725176"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798297"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Skipuleggja staðbundna bókhaldslykla
 
@@ -54,7 +54,7 @@ Ef fyrirtækið krefst þess að lögaðili noti staðbundinn bókhaldslykil eru
 
 Skipulag fyrirtækis og skýrslugerðar ákvarða valkostinn sem er notaður.
 
-[![Skýringarmynd sem sýnir hvernig skipulag fyrirtækisins ákvarðar hvort nota á altækan eða staðbundinn bókhaldslykil](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![ Skýringarmynd sem sýnir hvernig skipulag fyrirtækisins ákvarðar hvort nota á altækan eða staðbundinn bókhaldslykil](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Ef lögaðila er úthlutað altækum bókhaldslykli eru eftirfarandi valkostir í boði til að uppfylla staðbundnar skýrslukröfur:
 

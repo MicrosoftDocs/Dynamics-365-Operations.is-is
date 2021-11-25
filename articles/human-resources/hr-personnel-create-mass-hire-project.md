@@ -1,8 +1,8 @@
 ---
 title: Stofna fjöldaráðningarverk
 description: Þetta ferli fer í gegnum ferlið fyrir uppsetningu fjöldaráðningarverk.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup, HcmPer
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7412cd874d3dd5a816ff4681dcda7da37f90b8b8b55b545392d24e8ccce93c21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 93de4f9736c58448f181c14bc5456ad72d6fc519
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774994"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731761"
 ---
 # <a name="create-a-mass-hire-project"></a>Stofna fjöldaráðningarverk
 
@@ -26,26 +26,26 @@ ms.locfileid: "6774994"
 
 
 
-Þetta ferli fer í gegnum ferlið fyrir uppsetningu fjöldaráðningarverk. Ráðningaraðila er getur notað fjöldaráðningarverk til að stofna margar stöður auðveldlega og ráða fjöldi starfsmanna í þær stöður. Til að hefja þetta ferli, farið í Mannauður > Ráðning > Fjöldaráðningarverk. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þetta ferli fer í gegnum ferlið fyrir uppsetningu fjöldaráðningarverk. Ráðningaraðila er getur notað fjöldaráðningarverk til að stofna margar stöður auðveldlega og ráða fjöldi starfsmanna í þær stöður. Til að hefja þessa aðferð skaltu fara á **Mannauður** > **Ráðningar** > **Fjöldaráðningarverkefni**. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Smellið á „Nýtt“.
-2. í svæðinu fjöldaráðningarverk, færið inn gildi.
-3. Sláið inn gildi í reitnum „Lýsing“.
-4. Í reitinn upphaf verk skal færa inn dagsetningu.
-5. Í reitinn endir verk skal færa inn dagsetningu.
-6. Smella á Opna verk.
-7. Smella á Já.
-8. Smellt er á Stofna staða.
-9. Í reitinn Magn er fært inn hve fjöldi staða sem á að stofna
-    * Upphafsdagsetning verða ráðningardagsetning fyrir nýja starfsmenn.  
-    * Lokadagur verður starfslokadagur fyrir nýja starfsmenn.  
-    * Tilgreina hvort nýja starfsmenn verða Starfsmenn eða Verktaka.  
-10. Í svæðinu Starf, Smellið á hnappinn fellilistanum til að velja starf til að stofna stöður fyrir.
+1. Smellt er á **Nýtt**.
+2. Í **Fjöldaráðningarverkefni** reit, sláðu inn gildi.
+3. Í reitinn **Lýsing** skal slá inn gildi.
+4. Í **Verkefni hefjast** reit, sláðu inn dagsetningu.
+5. Í **Verkefnalok** reit, sláðu inn dagsetningu.
+6. Smellur **Opið verkefni**.
+7. Smellið á **Já**.
+8. Smellur **Búðu til stöður**.
+9. Í **Magn** reit, sláðu inn fjölda staða sem þú vilt búa til
+    * Upphafsdagsetningin verður **Leigudagur** fyrir nýja starfsmenn.  
+    * Lokadagsetningin verður kl **Uppsagnardagur** fyrir nýja starfsmenn.  
+    * Tilgreindu hvort nýju starfsmennirnir verði **Starfsmenn** eða **Verktakar**.  
+10. Í **Job** reit, smelltu á fellilistann til að velja starfið til að búa til stöðurnar fyrir.
 11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 12. Í listanum skal smella á tengilinn í valinni línu.
     * Sjálfgefið gildi fulls starfs koma úr völdu vinnsluna. Þessu gildi má breyta ef þarf.  
     * Einnig er hægt að velja Deild fyrir nýjar stöður.  
-13. Smellið á „Í lagi“.
+13. Smellt er á **OK**.
 
 
 

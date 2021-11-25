@@ -1,26 +1,26 @@
 ---
 title: Setja upp íhluti verks
-description: Þessi grein lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu.
-author: andreabichsel
-ms.date: 06/24/2021
+description: Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 55f3edb53236734045e94ddd71461c739d3b5a8e0a2ac07a804dc2dfafabda57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754777"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731541"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Setja upp íhluti verks
 
@@ -60,7 +60,7 @@ Starfshlutverk lýsa hástigs virkt flokkar og tengdum hástigs skyldur. Starfsh
 Starfstegundum er viðhaldið með því að nota síðuna **Starfshlutverk**. Á síðunni **Starfshlutverk** skal færa inn staðfestingarkóða og stutta lýsingu á starfshlutverk.
 
 ## <a name="compensation"></a>Laun
-Til að úthluta launafyrirkomulagi fastra launa á starfsmann sem er með stöðu í starfi þarf að stilla launastig starfsins. Launastigið er notað þegar lágmarks-, miðlungs- og hámarksupphæð eru stilltar í launaskipulagi (launahniti). Þegar fyrirkomulag fastra launa er stofnað er launaskipulagið valið. Launaskipulagið inniheldur einnig launastigið. Þegar þú velur launafyrirkomulag fastra launa fyrir starfsmann, á eru launastigin sem eru í boði háð starfinu sem staða starfsmanns tengist. Frekari upplýsingar um hvernig á að setja upp laun er að finna í [Launafyrirkomulag](hr-compensation-overview.md).
+Til að úthluta launafyrirkomulagi fastra launa á starfsmann sem er með stöðu í starfi þarf að stilla launastig starfsins. The **Bótastig** er notað þegar lágmarks-, miðpunkts- og hámarksupphæðir eru settar í uppbótaruppbyggingu (bótanet). Þegar fyrirkomulag fastra launa er stofnað er launaskipulagið valið. Launaskipulagið inniheldur einnig launastigið. Þegar þú velur launafyrirkomulag fastra launa fyrir starfsmann, á eru launastigin sem eru í boði háð starfinu sem staða starfsmanns tengist. Frekari upplýsingar um hvernig á að setja upp laun er að finna í [Launafyrirkomulag](hr-compensation-overview.md).
 
 ## <a name="job-skills"></a>Hæfni fyrir starf
 Starfshæfni lýsir þeirri hæfni sem er nauðsynleg til að gegna starfi. Hæfnistig verður að tengjast hverri starfshæfni. Hæfnistigin eru skilgreind af notendum. Þau gefa til kynna stig þekkingar eða reynslu sem þarf fyrir hæfnina. Til dæmis gætu fyrirtæki sett upp tölugildi, til dæmis 1 til 5, þar sem **1** gefur til kynna byrjanda og **5** gefur til kynna sérfræðing. Einnig gætu fyrirtæki sett upp stig sem eru merkt **Byrjandi**, **Miðlungs** eða **Sérfræðingur**. Eftir að hæfnisstigið er stillt er einnig hægt að stilla mikilvægi hæfninnar. Ef t.d. er gerð krafa um að endurskoðandi hafi góða þekkingu á Microsoft Excel er hægt að búa til hæfni sem kallast **Þekking á Excel**. Hæfnisstigið er svo hægt að stilla á **Miðlungs** og mikilvægið er hægt að stilla á **Mest**.

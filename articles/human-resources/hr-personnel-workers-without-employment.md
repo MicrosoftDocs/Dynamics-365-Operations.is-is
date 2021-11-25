@@ -1,8 +1,8 @@
 ---
 title: Starfskraftar án starfs
-description: Starfsmenn með enga framtíðarráðningu, virka ráðningu eða eldri ráðningu hjá fyrirtækinu birtast í skjámyndinni Starfskraftar án ráðningar.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Starfsmenn með enga framtíð, virka eða sögulega vinnu hjá fyrirtækinu þínu birtast á síðunni Starfsmenn án atvinnu.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,23 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45841c35780960f524cc232dad16f94dbc8ec1c2df75fa2a5c2520e5522d4e3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724965"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771291"
 ---
 # <a name="workers-without-employment"></a>Starfskraftar án starfs
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Starfsmenn með enga framtíðarráðningu, virka ráðningu eða eldri ráðningu hjá fyrirtækinu birtast í skjámyndinni **Starfskraftar án ráðningar**. Starfsmenn með þessa stöðu geta komið fram þegar þú flytur inn starfskrafta án ráðningarfærslu eða þegar þú eyðir ráðningu starfsmanns í gegnum **Starfskraftar > Ráðningarsaga**.
+Starfsmenn sem hafa enga framtíð, virka eða sögulega vinnu hjá fyrirtækinu þínu birtast á síðunni **Starfsmenn án atvinnu** síðu. Starfsmenn af þessari gerð geta birst þegar þú flytur inn starfsmenn sem ekki eru með starfsskrá eða þegar þú eyðir ráðningu starfsmanns í gegnum **Verkamenn \> Atvinnusaga**.
 
-Skjámyndin **Starfskraftar án ráðningar** er sjálfkrafa í boði fyrir eftirfarandi hlutverk:
+Sjálfgefið er **Starfsmenn án atvinnu** síða er í boði fyrir eftirfarandi hlutverk:
 
 - Aðstoðarmanneskja mannauðsstjóra
 - Mannauðsstjóri
@@ -42,13 +42,13 @@ Skjámyndin **Starfskraftar án ráðningar** er sjálfkrafa í boði fyrir efti
 
 2. Á flipanum **Réttindi** síaðu listann **Réttindi** á **Viðhalda starfsmönnum**.
 
-   [![Afmarka lista yfir réttindi.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![ Afmarka lista yfir réttindi.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. Í dálkinum **Tilvísanir** veldu **Birta valmyndaratriðin**.
 
 4. Í **Birta valmyndaratriði** skal velja **HcmWorkersWithoutEmployment**.
 
-   [![Velja skjámynd.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![ Velja skjámynd.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Stillið heimildina **Eyða** á **Útdeila**.
 
@@ -56,6 +56,6 @@ Skjámyndin **Starfskraftar án ráðningar** er sjálfkrafa í boði fyrir efti
 
 7. Velja **Birta allt**.
 
-   [![Birta breytingar.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![ Birta breytingar.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

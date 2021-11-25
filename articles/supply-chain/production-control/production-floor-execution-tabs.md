@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6752d79a71a673fedb0caff7b6ad1023093269c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
+ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570178"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7790867"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Hanna viðmótið fyrir framkvæmd á framleiðslugólfi
 
@@ -53,13 +53,13 @@ Til að stofna og skilgreina nýjan flipa skal fylgja þessum skrefum:
 
 1. Gerið eftirfarandi stillingar í haus síðunnar:
 
-    - **Heiti flipa** - Tilgreindu heiti fyrir flipann
-    - **Aðalyfirlit** -Veljið á milli tveggja fyrirfram skilgreindra verklista (*Virk verk*, *Öll verk* eða *Vélin mín*).
-    - **Upplýsingayfirlit** -Veldu milli auðra gilda eða **Upplýsingar um starf**. Ef valið er autt gildi verður engin nákvæm skoðun á flipanum. Ef valið er **Upplýsingar um starf** mun Ítarlegt yfirlit innihalda nákvæma lýsingu á vinnslunni sem er valin í verklistanum í aðalyfirlitinu.
+    - **Nafn flipa** – Tilgreindu nafn fyrir flipann.
+    - **Aðalsýn** – Veldu meðal forskilgreindra verkefnalista (*Virk störf*, *störf*, og *Vélin mín*).
+    - **Upplýsingar skoða** – Veldu á milli auðs gildis eða **Upplýsingar um starf**. Ef valið er autt gildi verður engin nákvæm skoðun á flipanum. Ef valið er **Upplýsingar um starf** mun Ítarlegt yfirlit innihalda nákvæma lýsingu á vinnslunni sem er valin í verklistanum í aðalyfirlitinu.
 
 1. Í **aðaltækjastikunni** skal velja hvaða hnappar eiga að vera tiltækir í aðaltækjastikunni. Dálkurinn **Tiltækar aðgerðir** sýnir lista yfir alla hnappa sem hægt er að bæta við. Dálkurinn **Valdar aðgerðir** sýnir lista yfir alla hnappa sem eru teknir með í núgildandi skilgreiningu. Notaðu hnappana á milli dálka til að fara valdar vörur á milli dálka eftir þörfum. Notaðu upp- og niðurhnappana við hliðina á **Valdar aðgerðir** til að hafa stjórnina á pöntuninni þar sem hnapparnir eru sýndir í notandaviðmótinu.
 
-1. Í **Auka** **tækjastiku** er hægt að velja hvaða hnappar eiga að vera tiltækir í aukatækjastikunni. Dálkurinn **Tiltækar aðgerðir** sýnir lista yfir alla hnappa sem hægt er að bæta við. Dálkurinn **Valdar aðgerðir** sýnir lista yfir alla hnappa sem eru teknir með í núgildandi skilgreiningu. Notaðu hnappana á milli dálka til að fara valdar vörur á milli dálka eftir þörfum. Notaðu upp- og niðurhnappana við hliðina á **Valdar aðgerðir** til að hafa stjórnina á pöntuninni þar sem hnapparnir eru sýndir í notandaviðmótinu.
+1. Í **Auka tækjastika** hluta, veldu hvaða hnappar ættu að vera tiltækir á aukatækjastikunni. Dálkurinn **Tiltækar aðgerðir** sýnir lista yfir alla hnappa sem hægt er að bæta við. Dálkurinn **Valdar aðgerðir** sýnir lista yfir alla hnappa sem eru teknir með í núgildandi skilgreiningu. Notaðu hnappana á milli dálka til að fara valdar vörur á milli dálka eftir þörfum. Notaðu upp- og niðurhnappana við hliðina á **Valdar aðgerðir** til að hafa stjórnina á pöntuninni þar sem hnapparnir eru sýndir í notandaviðmótinu.
 
 ## <a name="associate-a-tab-with-a-configuration"></a>Tengja flipa við skilgreiningu
 

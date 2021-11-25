@@ -1,8 +1,8 @@
 ---
-title: Skipuleggja vinnuafl með notkun deilda, starfa og staða
-description: Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þessi grein gefur upplýsingar um merkingu þessara hugtaka.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Skipuleggja starfsfólk með því að nota deildir, störf og stöður
+description: Þetta efnisatriði lýsir hugmyndafræðilegum upplýsingum um deildir, störf og stöður, sem eru skipulagsþættir sem viðhaldið er innan mannauðs.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cd50bf7e8e03d72d6d0e1e2b0b065a5d9c7a3ef44e96f92a5fc342a0d820d8e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778797"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731809"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þessi grein gefur upplýsingar um merkingu þessara hugtaka. 
+Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
 
 Eftirfarandi dæmi er notuð til að sýna hugtök sem lýst er í þessari grein.
 
@@ -49,7 +49,6 @@ Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis sem
 ## <a name="jobs-and-positions"></a>Störf og stöður
 Verk er safn verkefni og ábyrgðarsviða sem eru ætlast til af einstaklings sem framkvæmir verk. Staða er sérstakt tilvik starfs. Ábyrgðarsvið, verkhlutar, starfshlutverk, hæfni, menntunarupplýsingar og skírteini sem eru nauðsynleg fyrir verk eru einnig nauðsynleg fyrir stöður sem eru tengdar við verk.
 ### <a name="job-tasks"></a>Verkefni starfs
-
 Þú getur stofna verkefni starfs sem lýsa grunnatriði verkefnis sem starfskraftur í staða fyrir þá vinnsla verður að ljúka. Sama verkefni starfs er hægt að bæta við mörgum störf og stöður fyrir þær vinnslur munu erfa þau verkefni. Nokkur dæmi um verkefni starfs talin upp í eftirfarandi töflu.
 
 <table>
@@ -106,24 +105,21 @@ Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða e
 -   Hægt er að setja upp verkflæði svo sem viðbætur við stöðu og breytingar er hægt að krefja um samþykkis.
 
 ### <a name="position-duration"></a>Tímalengd stöðu
-
 Hvert stöðu hefur lengd tímans sem staðan er virk. Þessi tímalengd kallast tímalengd. Til dæmis gæti sumarstöður hafa tímalengd Maí 1, 2015 til 31 Ágúst 2015.
 
 ### <a name="worker-assignments"></a>Úthlutanir starfskrafts
-
 Þegar starfsmanni er úthlutað á stöðu er fyllt í þá stöðu. Hægt er að úthluta starfsmönnum á mörgum stöðum, en hægt er að úthluta aðeins einn starfsmann í einu stöðu.
 
 ### <a name="reporting-relationships"></a>Skýrslugerð um vensl
+Stöður eru mikilvægar einingar í lægri stig í stigveldi fyrirtækis. Á síðunni **Staða** er hægt að tilgreina stöðuna sem staða heyrir undir. Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður. Til dæmis stöðu "Bókari-A" veitir skýrslur til "Yfirmaður bókhalds" Ana Bowman er skipað í stöðu „bókhaldsstjóra“ og Felix Henderson er skipað í stöðu „bókhaldara-A“. Þetta þýðir að Felix Henderson heyrir undir Ana Bowman. 
 
-Stöður eru mikilvægar einingar í lægri stig í stigveldi fyrirtækis. Í skjámyndinni Stöðu er hægt að tilgreina staða sem sú staða veitir skýrslur til. Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður. Til dæmis stöðu "Bókari-A" veitir skýrslur til "Yfirmaður bókhalds" Kim Akers er úthlutað á stöðu "Yfirmaður bóhalds" og Sanjay Patel er úthlutað á stöðu "Bókari-A". Þetta þýðir að Sanjay Patel sendir skýrslur til Kim Akers. 
+Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Olivia Wilson framkvæmdastjóri hjá Adventure Works og er skipað í stöðuna „General Manager“. Olivia stýrir þróun vöru sem er notuð til að þrífa græjur. Olivia krefst endurskoðanda til að aðstoða við fjármál við þróun vörunnar. Þess vegna hefur hún ráðið Felix Henderson sem endurskoðanda. Felix heyrir beint undir Ana Bowman, en vinnur einnig með Olivia Wilson í starfi hans sem tengist fjármálum við þróun græjuhreinsiefnisins. 
 
-Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Lori Penor framkvæmdarstjóri hjá Adventure Works og er úthlutað á stöðu "framkvæmdarstjóri". Lori stjórnar þróun afurðar sem er notuð til að hreinsa búnað. Lori þarf bókara hjálpa með fjármál til að þróa afurðar. Því hefur hún ráðið Sanjay Patel til að vera bókarinn. Sanjay sendir skýrslur beint til Kim Akers, en vinnur einnig með Lori Penor á hans vinnu tengdri fjármálum til að vöru til að hreinsa búnað. 
-
-Fyrir fyrra dæmi, myndir þú ljúka eftirfarandi verkefnum til að stilla upp vinnutengslum milli Sanjay Patel og Lori Penor:
+Fyrir fyrra dæmið myndirðu klára eftirfarandi verkefni til að setja upp vinnusamband milli Felix Henderson og Ana Bowman:
 1.  Búa til sérsniðnar stöðu fyrir gerð stigveldis sem heitir "Widget" til að búa til stigveldi sem felur í sér stöðu sem bera ábyrgð fyrir að vinna á vöru til að hreinsa búnað..
 2.  Úthluta framkvæmdarstjórastöðu á staðan sem Bókari-A stöðu veitir skýrslur til í heinsibúnaðarstigveldi.
 
-Stigveldi stöðu er notuð til að skoða skýrsluskipan fyrur stöður. Ef þú ert með margar stigveldi stöðu, hægt er að skoða stigveldi fyrir hvert gerð stigveldi í stigveldi stöðunnar. Einnig er hægt að leita að stöðu eftir Kenni stöðu eða nafn þess starfsmanns sem er úthlutað á stöðu. Stigveldi stöðunnar er stigveldi fyrirtækis.
+Nota **Stöðustigveldi** síðu til að skoða skýrslugerð staða. Ef þú ert með mörg stöðustigveldi geturðu skoðað stigveldið fyrir hvert stigveldi gerð **Stöðustigveldi**. Einnig er hægt að leita að stöðu eftir Kenni stöðu eða nafn þess starfsmanns sem er úthlutað á stöðu. The **Stöðustigveldi** er stigveldi skipulagsheilda.
 
 ## <a name="date-effective-records"></a>Upphafsdagsetningarfærslur
 Fyrir sumar færslur er hægt að tilgreina framvirkar breytingar í færslu. Eftirfarandi upplýsingar eru gildar eftir dagsetningum.
@@ -155,13 +151,5 @@ Fyrir sumar færslur er hægt að tilgreina framvirkar breytingar í færslu. Ef
 </tr>
 </tbody>
 </table>
-
-Hægt er að breyta þeim upplýsingum sem nefnd eru í fyrri töflu fyrir starf eða stöðu og tilgreina dagsetningu þegar breytingar á stöðu eða vinnslu ætti að taka gildi. Til dæmis er aðeins hægt að úthluta stöðu á einn starfsmann en Sanjay Patel sem er úthlutað á stöðu Bókari-A, er að fara eftir tvær vikur. Joe Healy kemur í stað Sanjay Patel þegar hann fer. Jafnvel þótt Sanjay er enn úthlutað stöðu hans, geturðu tengja Joe Healy í sömu stöðu þannig að úthlutunin er gild aðeins eftir síðasta dag Sanjay .
-
-
-
-
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Iframe-eining
 description: Þetta efnisatriði fjallar um iframe-eininguna og útskýrir hvernig á að bæta henni við síður á vefsvæði Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 11/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 570901e3afca82abd21172df4c0b6fc575b57262f2b5d1decad11cabc00db31d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767291"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7754015"
 ---
 # <a name="iframe-module"></a>Iframe-eining
 
@@ -66,7 +66,10 @@ Til að bæta iframe-einingu við síðu til að sýna ytra myndband skal fylgja
 1. Stillið aðra eiginleika, t.d. **Fyrirsögn** og **Hæð**, eftir því sem þörf krefur.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
 1. Opnaðu markaðssíðuna á vefsvæðinu þinni. Þú ættir að sjá að myndbandið er sýnt í iframe-einingunni.
- 
+
+> [!NOTE]
+> Vegna þess að iframe-einingin hýsir ytra efni verða síðuhöfundar að tryggja að efni sem hýst er innan iframe-einingarinnar brjóti ekki í bága við reglur um takmarkanir á efni á viðkomandi markaði. Ef það er efnisbrot á síðu sem notar iframe-eininguna getur höfundur vefsvæðisins fjarlægt iframe-eininguna með því að opna síðuna í Site builder, velja **Fjarlægðu einingu** í iframe mát rauf, og síðan vista og endurútgefa síðuna.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit einingasafns](starter-kit-overview.md)

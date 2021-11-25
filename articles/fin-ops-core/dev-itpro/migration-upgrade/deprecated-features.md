@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753027"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -84,7 +84,7 @@ ms.locfileid: "6745177"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Fyrir 1. október 2020, stefnum við að því að styðja ekki lengur við aðferðina **setUtcString()**. Verktaki ætti að nota aðferðina **setUtcDateTime()** í staðinn. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bannskýrsla (IT) - Tilvísun eiginleika IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blocklist skýrsla (IT) – Eiginleikatilvísun IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1100,7 +1100,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Finance and Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.  |
-| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnur rásarRetail Modern POS   |
+| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnur rásar Retail Modern POS   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Hollenska SWIFT MT940

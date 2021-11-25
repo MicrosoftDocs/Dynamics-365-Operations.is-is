@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
-ms.date: 10/12/2021
+ms.date: 11/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
+ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647537"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "7800194"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -73,7 +73,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Alt+M,B eða Ctrl+F2                        |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |
-| Flytja í &lt;n&gt;th upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Flytja í &lt; n&gt; th upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt; n&gt; (&lt; n&gt; = 1-9)           |
 | Útvíkka upplýsingareit (með áherslu á haus upplýsingareitar)                             | Bil eða Enter                            |
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
@@ -114,11 +114,11 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 |-----------------------------------------------------|----------------------------------------------|
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Flytja í &lt;n&gt;th flipa                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Flytja í &lt; n&gt; th flipa                         | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1-9)        |
 | Flytja í næsta/fyrri flýtiflipa                   | Alt+Shift+Niðurör / Alt+Shift+Uppör    |
-| Flytja í &lt;n&gt;th flýtiflipa                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Flytja í &lt; n&gt; th flýtiflipa                     | Alt+&lt; n&gt; (&lt; n&gt; = 1-9)              |
 | Fara í næsta/fyrra blað (lóðréttur flipi)      | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Fara í &lt;n&gt;th blað (lóðréttur flipi)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Fara í &lt; n&gt; th blað (lóðréttur flipi)        | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1-9)        |
 | Útvíkka flýtiflipa (með áherslu á haus flýtiflipa) | Bil eða Enter                               |
 | Draga saman gildandi flýtilipa                        | Alt+0                                        |
 | Skipta í hnitalínuyfirlit                                 | Ctrl+Shift+G                                 |
@@ -128,8 +128,10 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 
 ## <a name="grid-shortcuts"></a>Flýtileiðir hnitanets
 
-| Til að gera þetta                                                                                                             | Styðjið á                           |
+| Til að gera þetta                                                                                                             | Ýta á                            |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Lóðrétt skrunun                                                                                                     | Músarhjól                     |
+| Lárétt skrunun                                                                                                   | Shift + Músarhjól             |
 | Flytja í næsta/fyrri dálk                                                                                       | Tab / Shift+Tab                 |
 | Flytja í næstu/fyrri línu                                                                                          | Niður ör / upp ör           |
 | Fara á næstu/fyrri línu án vals<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote> | Ctrl+Uppör / Ctrl+Niðurör |
@@ -141,15 +143,15 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara í fyrstu færslu                                                                                               | Ctrl+Home                       |
 | Fara í síðustu færslu                                                                                                | Ctrl+End                        |
 | Velja eða hreinsa allar línur                                                                                               | Ctrl+Shift+M                    |
-| Fara í fyrstu merktu línu                                                                                           | Alt+Shift+M, F                    |
-| Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                    |
-| Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                    |
-| Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                    |
+| Fara í fyrstu merktu línu                                                                                           | Alt+Shift+M, F                  |
+| Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                  |
+| Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                  |
+| Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                  |
 | Framkvæma sjálfgefna aðgerð í rúðu<blockquote>[!NOTE] Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.</blockquote> | Færa inn                           |
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
 | Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
-| Breyta stærð núverandi dálks til að efnið passi í hann (með fókus á röð síðuhauss)                                           | A                               |
+| Breyta stærð núverandi dálks til að efnið passi í hann (með fókus á röð síðuhauss)                                           | A (eða tvísmelltu á dálkstærðarhandfangið) |
 
 ## <a name="input-control-shortcuts"></a>Flýtivísanir inntaksstýringar
 

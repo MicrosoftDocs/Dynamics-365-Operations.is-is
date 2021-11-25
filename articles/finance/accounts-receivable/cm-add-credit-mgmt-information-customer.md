@@ -1,7 +1,7 @@
 ---
 title: Bæta við upplýsingum kreditstjórnunar fyrir viðskiptavini
 description: Þetta efni útskýrir hvernig á að bæta við upplýsingum um kreditstjórnun fyrir viðskiptavin.
-author: mikefalkner
+author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 080b1c4a3887aa5f354743315dc11ffd9f089e73350429d5e08710927f6b2454
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724064"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753971"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Bæta við upplýsingum kreditstjórnunar fyrir viðskiptavini
 
@@ -86,7 +86,7 @@ Tímabundin lánamörk fara yfir lánamörk viðskiptavina um skilgreindan tíma
     - Vátryggingarvirðið (B) er 50.000.
     - Hlutfall **Uppfæra lánamörk** (C) er 50,00.
     
-    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[B × C\]).
+    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[ B × C\]).
 
 11. Veldu gátreitinn **Innifalið í útsetningu** til að draga úr lánamörkum sem notuð eru við útreikninga á lánamörkum að fullu gildi stefnunnar. Ef þessi gátreitur er valinn verður gildi sem reiknað er þegar hlutfallið **Uppfæra lánamörk** er tilgreint ekki notað í útreikningum á lánamörkum.
 
@@ -96,9 +96,9 @@ Tímabundin lánamörk fara yfir lánamörk viðskiptavina um skilgreindan tíma
     - Vátryggingarvirðið (B) er 50.000.
     - Hlutfall **Uppfæra lánamörk** (C) er 50,00.
 
-    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[B × C\]).
+    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[ B × C\]).
     
-    Hins vegar, ef þú velur gátreitinn **Innifalið í útsetningu** er virðið **Uppfæra lánamörk** upp á 50.000 (= 50,00 prósent af 100.000) fjarlægt og útsetningargildið er 75.000 (= A + \[B × C\] - B).
+    Hins vegar, ef þú velur gátreitinn **Innifalið í útsetningu** er virðið **Uppfæra lánamörk** upp á 50.000 (= 50,00 prósent af 100.000) fjarlægt og útsetningargildið er 75.000 (= A + \[ B × C\] - B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

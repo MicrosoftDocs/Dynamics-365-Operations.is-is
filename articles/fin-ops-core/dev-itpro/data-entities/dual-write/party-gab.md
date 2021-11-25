@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386686"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781345"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -26,18 +26,18 @@ ms.locfileid: "7386686"
 
 ## <a name="party"></a>Aðili
 
-Aðili er einstaklingur eða fyrirtæki sem stundar viðskipti. Þegar aðilahugtakið er notað getur einstaklingur eða fyrirtæki spilað fleiri en eitt hlutverk í viðskiptum (t.d. starfsmaður, viðskiptavinur, lánardrottinn eða tengiliður). Hlutverkið byggir á samhenginu og tilgangi. Hér eru nokkur dæmi um hlutverk frá tveimur upphugsuðum fyrirtækjum, Contoso og Fabrikam:
+Aðili er einstaklingur eða fyrirtæki sem stundar viðskipti. Þegar aðilahugtakið er notað getur einstaklingur eða fyrirtæki spilað fleiri en eitt hlutverk í viðskiptum (t.d. starfsmaður, viðskiptavinur, lánardrottinn eða tengiliður). Hlutverkið byggir á samhenginu og tilgangi. Hér eru nokkur dæmi um hlutverk frá tveimur gervifyrirtækjum, Contoso og Fabrikam:
 
 + **Starfskraftur** – Starfsmaður. Sem dæmi má nefna starfsmann Contoso.
-+ **Lánardrottinn** – Fyrirtæki birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Ef Fabrikam selur til dæmis birgðir til Contoso er Fabrikam lánardrottinn Contoso.
-+ **Tengiliður** – Einstaklingur til að hafa samband við. Ef til dæmis Contoso kaupir varning af Fabrikam myndi starfsmaður Contoso hafa samband við tengilið hjá Fabrikam.
-+ **Viðskiptavinur** – Einstaklingur eða fyrirtæki sem kaupir hluti frá fyrirtæki. Til dæmis ef Contoso kaupir varning af Fabrikam þá er Contoso viðskiptavinur Fabrikam.
++ **Lánardrottinn** – Fyrirtæki birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Til dæmis, ef Fabrikam selur birgðir til Contoso, er Fabrikam söluaðili Contoso.
++ **Tengiliður** – Einstaklingur til að hafa samband við. Til dæmis, ef Contoso kaupir vistir frá Fabrikam, munu starfsmenn hjá Contoso hafa samband við tengiliðinn hjá Fabrikam.
++ **Viðskiptavinur** – Einstaklingur eða fyrirtæki sem kaupir hluti frá fyrirtæki. Til dæmis, ef Contoso kaupir vörur frá Fabrikam, er Contoso viðskiptavinur Fabrikam.
 
 Aðilalíkanið er oft notað til að tákna miðlungsflókin eða flókin tengsl milli fyrirtækja og fólks, sérstaklega þegar aðili spilar fleiri en eitt hlutverk. Hér eru nokkur algeng dæmi:
 
-+ Aðili getur bæði verið viðskiptavinur og lánardrottinn. Til dæmis gæti Fabrikam í Norður-Ameríku selt Contoso rafmagnsvíra og keypt samsetta hátalara af Contoso. Í Evrópu selur Fabrikam hluti til Contoso en kaupir ekkert af Contoso.
++ Aðili getur bæði verið viðskiptavinur og lánardrottinn. Til dæmis, í Norður-Ameríku, selur Fabrikam rafmagnsvíra til Contoso og kaupir samsetta hátalara frá Contoso. Í Evrópu selur Fabrikam varahluti til Contoso en kaupir ekkert frá Contoso.
 + Aðili getur verið bæði starfsmaður og viðskiptavinur. Til dæmis kaupir starfsmaður Contoso raftæki af Contoso til persónulegra nota.
-+ Það geta verið margs konar tengsl milli einstaklings og fyrirtækis. Til dæmis getur Fabrikam útvegað sérfræðiþjónustu og ræður samræmingaraðila staðsetningar. Samræmingaraðilinn tengir sérfræðingana við verkbeiðnir frá nokkrum viðskiptavinum Fabrikam. Contoso er einn af viðskiptavinum Fabrikam. Þegar Contoso krefst sérfræðiþjónustu hefur það samband við samræmingaraðilann sem greiðir þá úr beiðninni. Vegna þess að samræmingaraðilinn sér um beiðnir fyrir alla viðskiptavini þá er um margs konar tengsl að ræða.
++ Það geta verið margs konar tengsl milli einstaklings og fyrirtækis. Til dæmis getur Fabrikam útvegað sérfræðiþjónustu og ræður samræmingaraðila staðsetningar. Samræmingaraðilinn tengir sérfræðingana við verkbeiðnir frá nokkrum viðskiptavinum Fabrikam. Contoso er einn af viðskiptavinum Fabrikam. Þegar Contoso þarfnast þjónustusérfræðings hefur það samband við staðsetningarstjóra, sem síðan auðveldar beiðnina. Vegna þess að samræmingaraðilinn sér um beiðnir fyrir alla viðskiptavini þá er um margs konar tengsl að ræða.
 
 Eftirfarandi skýringarmynd sýnir gagnalíkan fyrir aðila.
 
@@ -271,25 +271,25 @@ Safn af töflukortum vinna saman fyrir samskipti aðila og altækrar aðsetursb�
 
 | Finance and Operations-forritið | Forrit viðskiptavinatengsla | lýsing |
 |----------------------------|-------------------------|-------------|
-| [Titlar tengiliðar](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Titlar tengiliðar](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
 | [Viðskiptavinir V3](mapping-reference.md#101) | lyklar |
 | [Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir |
-| [CDS-aðilar](mapping-reference.md#220) | msdyn\_parties |
-| [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn\_partypostaladdresses |
-| [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn\_postaladdresses |
-| [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [CDS-aðilar](mapping-reference.md#220) | msdyn\_ parties |
+| [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
+| [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
+| [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
 | [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð |
 | [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders |
-| [Kveðjuorð](mapping-reference.md#222) | msdyn\_complimentaryclosings |
-| [Tengiliðir V2](mapping-reference.md#221) | msdyn\_contactforparties |
-| [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn\_decisionmakingroles |
-| [Starfshlutverk](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
-| [Stig viðskiptavildar](mapping-reference.md#226) | msdyn\_loyaltylevels |
-| [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
-| [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Kveðjuorð](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
+| [Tengiliðir V2](mapping-reference.md#221) | msdyn\_ contactforparties |
+| [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
+| [Starfshlutverk](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
+| [Stig viðskiptavildar](mapping-reference.md#226) | msdyn\_ loyaltylevels |
+| [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
+| [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
 | [Sölureikningshausar V2](mapping-reference.md#118) | reikningar |
-| [Ávörp](mapping-reference.md#228) | msdyn\_salutations |
-| [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Ávörp](mapping-reference.md#228) | msdyn\_ salutations |
+| [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_ vendors |
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).
 

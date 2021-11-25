@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 966a878a7e5b0a92d6d53e67bea19c50274087a4416980859175b12c6fdfbcdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764837"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778522"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -31,7 +31,7 @@ ms.locfileid: "6764837"
 
 Í þessu efnisatriði er hverri aðferð lýst nákvæmlega.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Virkja eiginleikana sem er lýst í þessu efnisatriði
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Virkja eiginleikana sem er lýst í þessu efnisatriði
 
 Flestir eiginleikar áætlaðra pantana eru í boði í öllum hefðbundnum uppsetningum Microsoft Dynamics 365 Supply Chain Management sem notar fínstillingu áætlanagerðar. Hins vegar þarf að kveikja á nokkrum af þeim eiginleikum sem lýst er í þessu efnisatriði í eiginleikastjórnun áður en hægt er að nota þá.
 
@@ -39,7 +39,7 @@ Flestir eiginleikar áætlaðra pantana eru í boði í öllum hefðbundnum upps
 
 Samhliða staðfesting stuðlar að hraðara staðfestingarferli með því að gera hana samhliða í mörgum þráðum. Þessi nálgun getur verið gagnleg þegar margar pantanir eru staðfestar.
 
-Til að gera þessa virkni aðgengilega í kerfinu skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Samhliða staðfesting á áætluðum pöntunum*.
+Til að gera þessa virkni aðgengilega í kerfinu skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Samhliða staðfesting á áætluðum pöntunum*. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 
 ### <a name="enable-planned-order-firming-with-filtering"></a>Virkja staðfestingu áætlaðrar pöntunar með síu
 
@@ -51,7 +51,7 @@ Til að gera þessa virkni aðgengilega í kerfinu skal fara í [Eiginleikastjó
 
 Sjálfvirk staðfesting gerir kleift að staðfesta áætlaðar pantanir sem hluti af ferli aðaláætlanagerðar innan tímamarka staðfestingar. Sjálfvirk staðfesting er alltaf studd fyrir áætlunarvélina sem er innbyggð í Supply Chain Management. Hins vegar þarf að kveikja á eiginleikanum til að nota hana með fínstillingu áætlanagerðar.
 
-Til að gera þessa virkni aðgengilega í kerfinu skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar*.
+Til að gera þessa virkni aðgengilega í kerfinu skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar*. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 
 ## <a name="manually-firm-planned-orders"></a>Staðfesta áætlaðar pantanir handvirkt
 

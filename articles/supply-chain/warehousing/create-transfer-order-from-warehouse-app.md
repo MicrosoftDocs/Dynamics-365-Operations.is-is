@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 4ceedd8b42383dc1334f472ba754ac3e18261b9d
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746820"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777816"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Stofna flutningspantanir úr vöruhúsaforriti
 
@@ -26,7 +26,7 @@ ms.locfileid: "6746820"
 
 Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti Warehouse Management. Starfskrafturinn byrjar á því að velja vöruhús áfangastaðar og síðan geta þeir skannað eina eða fleiri númeraplötur með því að nota forritið til að bæta númeraplötum við flutningspöntunina. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur.
 
-## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Gera notendum kleift að stofna flutningspantanir úr eiginleika vöruhúsaforrits
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Gera notendum kleift að stofna flutningspantanir úr eiginleika vöruhúsaforrits
 
 Áður en hægt er að nota þennan eiginleika, þarf að virkja hann og skilyrði hans í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur.
 
@@ -36,11 +36,11 @@ ms.locfileid: "6746820"
 1. Síðan skal virkja eiginleikann *Stofna flutningspantanir úr vöruhúsaforriti* sem er gefinn upp sem:
     - **Eining** - Vöruhúsakerfi
     - **Heiti eiginleika** - Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti
-1. Til að gera vinnslu sendinga á útleið sjálfvirka þarf einnig að virkja eiginleikann [Staðfesta sendingar á útleið úr runuvinnslum](confirm-outbound-shipments-from-batch-jobs.md). Þessi eiginleiki er skráður sem:
+1. Til að gera vinnslu sendinga á útleið sjálfvirka þarf einnig að virkja eiginleikann [Staðfesta sendingar á útleið úr runuvinnslum](confirm-outbound-shipments-from-batch-jobs.md). Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
     - **Eining** - Vöruhúsakerfi
     - **Heiti eiginleika** - Staðfesta sendingar á útleið úr runuvinnslum
 
-## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Setja upp valmyndaratriði fartækis til að stofna flutningspantanir
+## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a> Setja upp valmyndaratriði fartækis til að stofna flutningspantanir
 
 Hér eru almennar leiðbeiningar til að setja upp valmyndaratriði fartækis til að stofna flutningspöntun. Skilgreiningarnar sem verða virkjaðar, fara eftir viðskiptaþörfum fyrir stig sjálfvirkni sem er sett á þegar notendur stofna flutningspantanir á gólfinu. Aðstæður í þessu skjali munu lýsa einni slíkri skilgreiningu.
 
@@ -254,7 +254,7 @@ Bætið efnislegum lagerbirgðum við magn með því að nota eftirfarandi gild
 
 Fyrir uppgefið dæmi eru tvö **Tilvik vöruhúss** (*Stofna flutningspöntun* og *Ljúka flutningspöntun*) notuð.
 
-### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Spyrjast fyrir um tilvik vöruhúsaforrits
+### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a> Spyrjast fyrir um tilvik vöruhúsaforrits
 
 Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem farsímaforrit Warehouse Management býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
 

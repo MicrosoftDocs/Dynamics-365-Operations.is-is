@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 19c4e3c6ad682f3814d334f88c0653c4e7a51d23
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 2fa82c721316fb21442e1cfc00ba00ff8cb2b750
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569288"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778232"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Bóka sem tilbúið úr verkspjaldstæki
 
@@ -218,7 +218,7 @@ Ef úthluta á raðnúmeri sjálfkrafa, án innsláttar starfsmanns, skal fylgja
 
 Til að nota eiginleikana sem lýst er í þessum hluta þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
 
-1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Skráningarnúmer til að tilkynna að lokið sé bætt við vinnukortatækið (Frá og með útgáfu 10.0.21 fyrir birgðakeðjustjórnun er sjálfgefið kveikt á þessum eiginleika.)
 1. Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.
 1. Prenta merki úr verkspjaldstæki
 

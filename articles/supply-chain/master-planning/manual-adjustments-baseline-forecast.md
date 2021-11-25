@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37d78e97a6c7f9152ab0b893a35a3ae70d5adabc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: d8a29e93b252c5d4ec68dfcd9ffe2f63ac1b6af2
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579641"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778034"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínuspánni
 
@@ -34,7 +34,7 @@ ms.locfileid: "7579641"
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Hnitanetið á leiðréttri eftirspurnarspársíðu
 **Leiðrétt eftirspurnarspá** síða inniheldur hnitanet sem hefur eftirfarandi skipulag:
 
--   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykill Vöru**, og ein hausalínan í hnitanetinu er **USMF / 1 / D\_Alloc** sýnir sú lína spána fyrir USMF fyrirtækis , svæði 1, og **D\_Alloc** úthlutunarlykil vöru.
+-   Fyrsti dálkurinn sýnir vörur, úthlutunarlykla vöru, fyrirtæki og svo framvegis sem spáin hefur verið myndaður fyrir. Undirfyrirsögn síðu gefur lýsingu á gildandi spávíddir sem birtast í hnitanetinu. Til dæmis, ef undirfyrirsögn síðu er **Fyrirtæki / Svæði / úthlutunarlykill Vöru**, og ein hausalínan í hnitanetinu er **USMF / 1 / D\_ Alloc** sýnir sú lína spána fyrir USMF fyrirtækis , svæði 1, og **D\_ Alloc** úthlutunarlykil vöru.
 -   Síðari dálkar tákna spárammana sem spáin hefur verið myndaður fyrir. Hver dálkhaus er fyrsta dagsetning spáramma sem dálkurinn sýnir.
 -   Gildin í reitirnir standa fyrir spá fyrir eina vöru, úthlutunarlykill vöru og svo framvegis fyrir tiltekna spáramma.
 
@@ -67,7 +67,7 @@ Hægt er að opna **upplýsingar eftirspurnarspár** síðu til að skoða freka
 
 **Athugasemdir :**
 
--   Ef þú virkjar **Spá fyrir um líkanaval í Upplýsingum um eftirspurnarspá** úr Stjórnun eiginleika muntu geta valið spárlíkönin til að hafa með í sögulegri spá á síðunni **Upplýsingar um eftirspurnarspá**.
+-   Ef þú virkjar **Spá fyrir um líkanaval í Upplýsingum um eftirspurnarspá** úr Stjórnun eiginleika muntu geta valið spárlíkönin til að hafa með í sögulegri spá á síðunni **Upplýsingar um eftirspurnarspá**. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 -   Áreiðanleikabil sem birtist í á **Spá** hluta síðan sýnir mismuninn á milli efri mörk áreiðanleikabils og neðri mörk áreiðanleikabils. Til að sjá gildi fyrir efri og neðri mörk , settu músabendil yfir línurit í á **söguleg eftirspurn og spá myndrænt** hluta.
 -   Ef notuð er eftirspurnarspá í Microsoft Azure Machine Learning er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6450ef7b0a59df3a8da2c8bed3aa9c0b14a9cc97
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 434d1a432cc4b8cfd31198f8f668aef6e04a51fa
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417058"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782604"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Leiðbeinigar fyrir uppsetningu tvöfaldra skrifa
 
@@ -50,7 +50,7 @@ Eftirfarandi uppsetningaraðstæður eru studdar:
 + [Fyrirliggjandi Finance and Operations -forritstilvik og nýtt tilvik fyrir forrit viðskiptavinar](#existing-new)
 + [Fyrirliggjandi Finance and Operations -hugbúnaðartilvik og fyrirliggjandi tilvik fyrir forrit viðskiptavinar](#existing-existing)
 
-## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a>Nýtt Finance and Operations forritstilvik og nýtt tilvik fyrir forrit viðskiptavinar
+## <a name="a-new-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="new-new"></a> Nýtt Finance and Operations forritstilvik og nýtt tilvik fyrir forrit viðskiptavinar
 
 Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operations -forriti sem inniheldur engin gögn og nýs tilviks um þjónsforrit skal fylgja skrefunum í [Uppsetning tvöfaldra skrifa úr Lifecycle Services](lcs-setup.md). Þegar uppsetningu tengingar er lokið eiga eftirfarandi aðgerðir sér stað sjálfkrafa:
 
@@ -61,7 +61,7 @@ Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operat
 
 Bæði umhverfin eru síðan tilbúin fyrir samstillingu á gögnum í rauntíma.
 
-## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a>Nýtt Finance and Operations -hugbúnaðartilvik og fyrirliggjandi tilvik fyrir forrit viðskiptavinar
+## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Nýtt Finance and Operations -hugbúnaðartilvik og fyrirliggjandi tilvik fyrir forrit viðskiptavinar
 
 Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operations -forriti sem inniheldur engin gögn og fyrirliggjandi tilvik um þjónsforrit skal fylgja skrefunum í [Uppsetning tvöfaldra skrifa úr Lifecycle Services](lcs-setup.md). Þegar uppsetningu tengingar er lokið eiga eftirfarandi aðgerðir sér stað sjálfkrafa:
 
@@ -80,7 +80,7 @@ Til að samstilla fyrirliggjandi gögn Dataverse við forrit Finance and Operati
 
 Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example) síðar í þessu efnisatriði.
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Nýtt Finance and Operations forritstilvik sem inniheldur gögn og nýtt tilvik fyrir forrit viðskiptavinar
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Nýtt Finance and Operations forritstilvik sem inniheldur gögn og nýtt tilvik fyrir forrit viðskiptavinar
 
 Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operations forriti sem inniheldur gögn og nýtt tilvik fyrir þátt viðskiptaþjónsforrits skal fylgja skrefunum í [Nýtt Finance and Operations forritstilviks og nýtt tilvik fyrir forrit viðskiptavinar](#new-new) í fyrri hluta þessa efnisatriðis. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
 
@@ -89,7 +89,7 @@ Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operat
 
 Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 
-## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Nýtt Finance and Operations hugbúnaðartilvik þar sem gögn og fyrirliggjandi forrit fyrir forrit viðskiptavinar
+## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Nýtt Finance and Operations hugbúnaðartilvik þar sem gögn og fyrirliggjandi forrit fyrir forrit viðskiptavinar
 
 Til að setja upp tvískrifstengingu á milli nýs tilviks af Finance and Operations forriti sem inniheldur gögn og fyrirliggjandi tilvik um þátt viðskiptaþjónsforrits skal fylgja skrefunum í [Nýtt Finance and Operations forritstilvik og núverandi tilvik viðskiptaforritstilviks](#new-existing) kaflanum fyrr í þessu efnisatriði. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
 
@@ -105,7 +105,7 @@ Til að samstilla fyrirliggjandi gögn Dataverse við forrit Finance and Operati
 
 Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Fyrirliggjandi Finance and Operations forritstilviks og nýtt tilvik fyrir forrit viðskiptavinar
+## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a> Fyrirliggjandi Finance and Operations forritstilviks og nýtt tilvik fyrir forrit viðskiptavinar
 
 Uppsetning á tvískrifstengingu á milli nýs tilviks Finance and Operations forritsins og fyrirliggjandi tilviks fyrir Customer Engagement forrit Finance and Operation-umhverfi.
 
@@ -114,7 +114,7 @@ Uppsetning á tvískrifstengingu á milli nýs tilviks Finance and Operations fo
 
 Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 
-## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Fyrirliggjandi Finance and Operations -hugbúnaðartilvik og fyrirliggjandi tilvik fyrir forrit viðskiptavinar
+## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Fyrirliggjandi Finance and Operations -hugbúnaðartilvik og fyrirliggjandi tilvik fyrir forrit viðskiptavinar
 
 Uppsetning á tvískrifstengingu á milli núverandi tilviks Finance and Operations forritsins og fyrirliggjandi tilviks fyrir Customer Engagement forrit Finance and Operation-umhverfi.
 

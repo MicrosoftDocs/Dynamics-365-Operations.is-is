@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 503ba8ae95119f3ce9533f81cdd16c34cf3a9223
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574546"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752833"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -28,9 +28,9 @@ Keyrsluviðmót framleiðslugólfsins er sett upp fyrir sérhvert tæki á framl
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Stilla skilgreiningu og síur fyrir tiltekið tæki
 
-Til að stilla skilgreiningu og vinnusíur fyrir tæki þarf að skrá sig inn á síðuna **Keyrsla framleiðslugólfs** með því að nota reikning sem er með öryggishlutverk sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
+Til að stilla stillingar og vinnusíur fyrir tæki skaltu skrá þig inn á **Framleiðslugólf framkvæmd** síðu með því að nota reikning sem hefur öryggishlutverk sem inniheldur *Halda tímaeftirliti* skylda. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
 
-1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. (Notið reikning sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*.)
+1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. (Notaðu reikning sem inniheldur *Halda tímaeftirliti* skylda.)
 1. Ganga skal úr skugga um að skilgreining sé tiltæk fyrir tækið sem verið er að setja upp. Ef engin skilgreining er þegar til er sjálfgefin skilgreining gefin upp. Frekari upplýsingar um hvernig setja á upp skilgreiningu er að finna í [Skilgreina keyrsluviðmót framleiðslugólfs](production-floor-execution-configure.md).
 1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Framkvæmd á framleiðslugólfi**.
 

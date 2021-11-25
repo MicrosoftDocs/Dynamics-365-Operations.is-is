@@ -2,7 +2,7 @@
 title: Heimasíða Fjármálainnsýnar
 description: Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,24 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
+ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386387"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "7813748"
 ---
 # <a name="finance-insights-home-page"></a>Heimasíða Fjármálainnsýnar
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum. Þegar þessir nýju eiginleikar eru sameinaðir sjálfvirkni í greiðslum lánardrottna og innheimtu, veita þeir fjölbreytt og snjallt fjármálakerfi sem styður við ákvörðunartöku og hjálpar til við að grípa til aðgerða til að bregðast við núverandi og væntanlegum viðskiptaáskorunum á skilvirkan hátt.
-
-> [!NOTE]
-> Forskoðun fjármálainnsýnar er í boði til uppsetningar í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Asíu og Kyrrahafseyjum, Ástralíu og Nýja-Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði. Til að virkja fjármálainnsýn í vinnsluumhverfum ætti að virkja möguleikann [Flytja út í Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) fyrst í vinnsluumhverfinu.
+Fjármálainnsýn veitir stillanlegar og stækkanlegar lausnir til að hjálpa þér að spá fyrir um sjóðstreymi fyrirtækis þíns á skynsamlegan hátt, spá fyrir um hvenær þú gætir fengið greiðslu fyrir útistandandi kröfur og búa til fjárhagsáætlunartillögu sem getur hjálpað þér að flýta fyrir fjárhagsáætlunargerð. Þessir eiginleikar nota snjöll vélnámssniðmát til að búa til líkön með því að nota gögn sem þú gefur upp (þar á meðal gögn frá þriðja aðila eins og neytendaskýrsluupplýsingar frá skrifstofu). Þessi greindur hæfileiki upplýsir ákvarðanatöku og hjálpar þér að grípa til aðgerða til að bregðast skilvirkt við núverandi og væntanlegum viðskiptaáskorunum. Þú berð ábyrgð á hvers kyns gögnum sem notuð eru með, eða framleiðsla úr, innsýn í fjármálum.
 
 > [!NOTE]
-> Boðið er upp á þessa virkni sem safn af forútgáfum eiginleika. Sem forútgáfa eiginleika ættirðu ekki að nota vélnámslíkönin til að keyra eða hafa áhrif á viðskiptaákvarðanir eða tillögur um fjárhagsáætlun. Notkun þín á þessum eiginleika fer eftir [Viðbótarskilmálum um notkun](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Forskoðun fjármálainnsýnar er fáanleg til dreifingar í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Kyrrahafsasíu, Japan, Ástralíu og Nýja Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -50,28 +48,15 @@ Tveggja laga umhverfi (margir kassar) er áskilið við forskoðun Fjármálainn
 
 ### <a name="version-requirements"></a>Skilyrði samkvæmt útgáfu
 
-Þetta skjal á við útgáfu 10.0.11 af Finance and Operations-forritum (verkvangsuppfærsla 35) og nýrri útgáfur.
+Þetta efni á við um Microsoft Dynamics 365 Finance útgáfu 10.0.21 og síðar.
 
 ### <a name="historical-data-requirements"></a>Skilyrði um eldri gögn
 
-Að minnsta kosti eitt ár af reikningum viðskiptavina er nauðsynlegt til að þjálfa vélnámslíkanið sem er notað fyrir eiginleikann greiðsluspá viðskiptavinar.
+Að minnsta kosti eitt ár af reikningum viðskiptavina er nauðsynlegt til að þjálfa vélnámslíkanið sem er notað fyrir eiginleikann greiðsluspá viðskiptavinar. Mælt er með þriggja ára sögulegum gögnum fyrir sjóðstreymisspár. Mælt er með þriggja ára sögulegri fjárhagsáætlun og/eða raungildi fyrir greindar fjárlagatillögur.
 
-### <a name="role-and-permission-requirements"></a>Skilyrði um hlutverk og heimildir
+## <a name="configure-finance-insights"></a>Grunnstilla Finance insights
 
-Breytingar verða gerðar á Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Power Apps, og Azure. Réttar heimildir eru áskildar fyrir öll þessi umhverfi. Hér eru nokkur dæmi um breytingarnar sem verða gerðar:
-
-- Nýtt umhverfi verður búið til í Microsoft Power Platform.
-- Geymslureikningur, lyklageymsla og forrit verða stofnuð í Azure.
-- Handhafastjóri Active Directory verður að heimila aðgang AI Builder-forritsins að Data Lake.
-- Kveikt verður á eiginleikann í Dynamics 365.
-
-Þekking á ferlinu við að búa til og vinna með tilföng í Azure, Microsoft Dataverse og LCS er gagnleg til að ljúka við ferlið.
-
-## <a name="configure-finance-insights"></a>Grunnstilla fjármálainnsýn
-
-Þú verður að ljúka við tiltekin skilgreiningarskref áður en þú getur notað Fjármálainnsýn. Frekari upplýsingar um hvernig á að skilgreina Fjármálainnsýn er að finna í:
-  - Fyrir útgáfur 10.0.19 og eldri: [Skilgreining fyrir Fjármálainnsýn- útgáfur 10.0.19 og eldri](configure-for-fin-insites.md).
-  - Fyrir útgáfur 10.0.20 og nýrri: [Skilgreining fyrir Fjármálainnsýn (forútgáfa) - útgáfur 10.0.20 og nýrri](configure-for-fin-insites-PubPrvw.md).
+Þú verður að ljúka stillingarskrefum áður en þú getur notað Finance Insights. Frekari upplýsingar um hvernig skilgreina skal Fjármálainnsýn er að finna í [Stillingar fyrir Fjármálainnsýn](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Stofna verk til að setja upp samþættingu gagna
 
@@ -84,7 +69,7 @@ Breytingar verða gerðar á Microsoft Dynamics 365 Finance, Microsoft Dynamics 
 ### <a name="enable-customer-payment-predictions"></a>Virkja greiðsluspár viðskiptavinar
 Ef verið er að nota sýnigögn til að prófa greiðsluspá viðskiptavinar gæti þurft að flytja inn fleiri sýnigögn til að búa til vélnámslíkanið á fullnægjandi hátt. 
 
-Til að virkja greiðsluspár viðskiptavinar verður þú að ljúka nokkrum skrefum til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að búa til spár um það hvenær viðskiptavinir eru líklegir til að greiða útistandandi reikninga, og hvenær líklegt er að tilteknir reikningar verði greiddir. Frekari upplýsingar og sértæk skref sem verður að ljúka er að finna í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md). 
+Til að virkja greiðsluspá viðskiptavina, verður þú að ljúka nokkrum skrefum til að byggja upp vélrænt líkan sem notar gögn fyrirtækisins til að búa til spár um hvenær viðskiptavinir eru líklegir til að greiða útistandandi reikninga og hvenær líklegt er að tilteknir reikningar verði greiddir. Frekari upplýsingar og sértæk skref sem verður að ljúka er að finna í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Virkja sjóðstreymisspá
 Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að mynda sjóðsstreymisspár. Frekari upplýsingar og sértæk skref sem verður að ljúka við er að finna í [Virkja sjóðsstreymisspá](enable-cash-flow-forecasting.md).
@@ -97,17 +82,14 @@ Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gög
 
 ### <a name="using-customer-payment-predictions"></a>Notkun greiðsluspár viðskiptavinar
 
-Snjöll sjóðsstreymisspá er byggð ofan á núverandi virkni sjóðstreymisspár í Dynamics 365 Finance. Opnaðu [Sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting.md) til að skoða núverandi getu.
-
-- Til að fá upplýsingar um hvernig greiðsluspár viðskiptavinar geta veitt upplýsingarnar sem þarf til að hægt sé að framkvæma forvirkar innheimtuaðgerðir er að finna á [Nota greiðsluspár viðskiptavinar](use-customer-payment-predictions.md).
+- Til að læra hvernig greiðsluspár viðskiptavina geta veitt þær upplýsingar sem eru nauðsynlegar til að hefja innheimtuaðgerðir með fyrirbyggjandi hætti, sjá [Notaðu greiðsluspá viðskiptavina](use-customer-payment-predictions.md).
 - Til að fá upplýsingar sem geta hjálpað til við að meta virkni spálíkansins eftir að þú hefur byrjað að nota eiginleikann er að finna í [Meta upprunalega greiðsluspá viðskiptavinar](evaluate-payment-prediction.md).
 - Til að fá upplýsingar sem geta hjálpað þér að breyta gögnunum sem eru notuð til að gera spá og bæta þannig virkni hennar er að finna á [Bæta spálíkanið](improve-model.md).
-
-Frekari upplýsingar um niðurstöður vélnámslíkansins er að finna í [Niðurstöður vélnámslíkana](confusion-matrix.md).
+- Frekari upplýsingar um niðurstöður vélnámslíkansins er að finna í [Niðurstöður vélnámslíkana](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Nota sjóðstreymisspár
 
-Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat reiðufjárstöðu. 
+Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat reiðufjárstöðu. Snjöll sjóðstreymisspáin er byggð ofan á núverandi virkni sjóðstreymisspár í Dynamics 365 Finance. Opnaðu [Sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting.md) til að skoða núverandi getu.
 
 - Frekari upplýsingar um nýja eiginleika sjóðsstreymisspár er að finna í [Sjóðstreymisspá](cash-flow-forecast-intro.md).
 - Upplýsingar um innflutning ytri gagna sem skal taka með í sjóðsstreymisspá er að finna í [Nota ytri gögn við sjóðsstreymisspár](external-data-in-cash-flow.md). 
@@ -120,6 +102,6 @@ Frekari upplýsingar um hvernig stofnun fjárhagsáætlunar er flýtt er að fin
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 
-Sendið tölvupóst á [Innsýn í greiðslur viðskiptavinar (forskoðun)](mailto:fiap@microsoft.com) ef áhugi er á að senda inn ábendingar eða aðstoð vantar.
+Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Innsýn í fjármálum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

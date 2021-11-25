@@ -1,8 +1,8 @@
 ---
-title: Virkja drög að fjárhagsáætlun
+title: Virkja fjárlagafrumvarp
 description: Þetta efnisatriði útskýrir hvernig á að virkja eiginleikann Drög að fjárhagsáætlun í Fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ab65d1b0e366bfe6bdb07688f89d440662165063
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: 3ad610feccf88ac88475a463fd1f10f4336b9407
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386487"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752713"
 ---
-# <a name="enable-budget-proposals"></a>Virkja drög að fjárhagsáætlun
+# <a name="enable-budget-proposal"></a>Virkja fjárlagafrumvarp
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að virkja eiginleikann Drög að fjárhagsáætlun í Fjármálainnsýn.
 
-1. Notaðu upplýsingar úr umhverfissíðunni í Microsoft Dynamics Lifecycle Services (LCS) til að tengjast aðaltilviki Azure SQL fyrir þetta umhverfi. Keyrið eftirfarandi Transact-SQL (T-SQL) skipun til að kveikja á flugi fyrir sandkassaumhverfa. (Hugsanlega þarf að kveikja á aðgangi að IP-tölu notanda í LCS áður en hægt er að fjartengjast við AOS \[Application Object Server\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
-
-    > [!NOTE]
-    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>.
-
-2. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
+1. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
 
     1. Veldu **Leita að uppfærslum**.
-    2. Leitið að **Drög að fjárhagsáætlun** og kveikið á þessum eiginleika.
+    2. Á **Allt** flipi, leitaðu að **Fjárlagafrumvarp**. Ef þú finnur ekki þann eiginleika skaltu leita að **(Forskoðun) Fjárlagafrumvarp**. 
+    3. Kveiktu á eiginleikanum.
 
-3. Farið í **Fjárhagsáætlanir \> Uppsetning \> grunnáætlanagerð \> Drög að fjárhagsáætlun (forskoðun)** og veljið **Virkja eiginleika**.
+2. Fara til **Fjárhagsáætlun \> Uppsetning \> Grunn fjárhagsáætlunargerð \> Fjárlagafrumvarp**, og veldu **Virkja eiginleika**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

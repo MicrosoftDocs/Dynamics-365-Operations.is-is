@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 024bbaad45f320b8c82b20a52ced05322371e337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575388"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777622"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
@@ -102,7 +102,7 @@ Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeið
 
     Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið.
 
-    Aukið aðgengi **Opna útgefnar tilboðsbeiðnir** tengilsins með því að kveikja á eiginleikanum **Sýna tengilinn „Opna birtar tilboðsbeiðnir“ sem reit**. Þessi eiginleiki breytir tengli í reit og flytur hann á áberandi stað, þannig að auðvelt sé að finna hann.
+    Aukið aðgengi **Opna útgefnar tilboðsbeiðnir** tengilsins með því að kveikja á eiginleikanum **Sýna tengilinn „Opna birtar tilboðsbeiðnir“ sem reit**. Þessi eiginleiki breytir tengli í reit og flytur hann á áberandi stað, þannig að auðvelt sé að finna hann. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 
 - Velja **Lokaðar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir lokaðar beiðnir um tilboð sem eru opinberar. Lokuð tilboðsbeiðni er útrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 

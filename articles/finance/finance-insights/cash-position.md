@@ -2,7 +2,7 @@
 title: Staða reiðufjár
 description: Þetta efnisatriði lýsir því hvernig eiginleikinn fyrir sjóðstreymisspá spáir fyrir um reiðufjárstöðu fyrirtækis á tilteknum tímum. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: e54caee1e7d703bb134593412bdad77b3af5ab38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386315"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752881"
 ---
 # <a name="cash-position"></a>Staða reiðufjár
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Staða reiðufjár er vörpun reiðufjárs sem er spá fyrir komandi tíma. Það byggir á vörpun inngreiðslna viðskiptavina sem greiða útistandandi reikninga og pantanir og einnig á vörpuðum útborgunum sem eru greiddar lánardrottnum fyrir innkaupareikninga og pantanir.
 
@@ -44,8 +45,5 @@ Neðri hluti á flipanum **Staða reiðufjár** sýnir upplýsingar um stöðu, 
 - **Bankareikningur** hnitanetið sýnir áhrif áætlaðs sjóðsinnstreymis og ráðstöfun handbærs fjár á stöðu í banka.
 
 Til að vista og breyta sjóðsstöðu skal búa til skyndimynd. Frekari upplýsingar um hvernig á að vinna með skyndimyndir eru í [Yfirlit yfir skyndimyndir](payment-snapshots.md).
-
-#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
-Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

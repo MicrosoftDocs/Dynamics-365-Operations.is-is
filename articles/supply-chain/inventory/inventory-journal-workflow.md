@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7d1bd846dae767b47280310fc8d9ca5ee82337ad
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568856"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778306"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
@@ -31,7 +31,7 @@ ms.locfileid: "7568856"
 
 ## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Kveikið á eiginleika samþykktarverkflæði birgðabókar
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining:** *Birgða- og vöruhúsakerfi*
 - **Heiti eiginleika:** *Samþykktarverkflæði birgðabókar*
@@ -44,7 +44,7 @@ Verkflæði styðja útgáfustýringu og hvert þeirra er með auðkenni verkfl�
 
 Til að stofna samþykktarverkflæði birgðabókar:
 
-1. Opnið **Birgðastjórnun \> Uppsetning\> Verkflæði birgðastjórnunar**.
+1. Opnið **Birgðastjórnun \> Uppsetning \> Verkflæði birgðastjórnunar**.
 1. Veljið **Nýtt** á aðgerðasvæðinu.
 1. Veljið gerð birgðabókar þar sem setja á upp verkflæði:
     - **Birgðatalningarbók**

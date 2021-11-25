@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 73a226d10c951179fd9f3bc2aed4a70efcc7f020
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
-ms.translationtype: HT
+ms.openlocfilehash: 69667f8b64c048f5957168d1af21a6c858bc0bad
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466245"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782580"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
@@ -224,7 +224,7 @@ Við samstillingu í rauntíma gæti komið upp vandamál þar sem aðeins hluti
 
 Svipaðar aðstæður geta komið upp í sumum óhefðbundnum mynstrum á borð við mál þar sem taflan sem verið er að breyta í Finance and Operations forritum er ekki augljóslega tengd við eininguna sem geymir hana. Til dæmis er aðalaðsetrið reiknað í einingunni **smmContactPersonCDSV2Entity**. Rammi tvöfaldra skrifa reynir að ákvarða hvernig breyting í undirliggjandi töflu er varpað aftur í einingar. Oftast nægir þessi aðferð. Í sumum tilvikum er tengillinn svo flókinn að maður þarf að vera nákvæmur. Ganga verður úr skugga um að **RecId** tengdrar töflu sé í boði beint úr einingunni. Síðan skal bæta við ákveðinni aðferð til að fylgjast með breytingum á töflunni.
 
-Sem dæmi skal fara yfir aðferðina **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** og **VendVendorV2Entity** hefur verið breytt til að meðhöndla þessar aðstæður.
+Sem dæmi skal fara yfir aðferðina **smmContactPersonCDSV2Entity:: getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** og **VendVendorV2Entity** hefur verið breytt til að meðhöndla þessar aðstæður.
 
 Til að laga úr vandamálið skal fylgja þessum skrefum.
 

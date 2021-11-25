@@ -1,8 +1,8 @@
 ---
 title: Greiðsluhættir
 description: Það þarf að skilgreina hverja greiðslugerð sem smásali samþykkir þegar kerfið er uppsett. Þetta grein lýsir þær gerðir greiðslna sem hægt er að setja upp og lýsir ferlinu við uppsetninguna.
-author: rubencdelgado
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c174dd136cecedc9b23bdaa778885f75e51c9aa556a9e2709bc7da171faa8617
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713967"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779571"
 ---
 # <a name="payment-methods"></a>Greiðsluhættir
 
@@ -47,5 +47,10 @@ Til að setja upp greiðslumáta verður að ljúka eftirtöldu.
 3. Setja upp greiðsluhætti verslunar. Tengið greiðslumáta við hverja verslun og færið síðan inn stillingar fyrir einstakar verslanir fyrir hvern greiðslumáta verslunar.
 4. Setja upp kortagreiðsluhætti fyrir verslanir. Ljúkið kortauppsetningu fyrir alla greiðsluhætti korts sem verslunin tekur á móti.
 
+## <a name="handle-change-tendering-for-payment-methods"></a>Annast breytingaútboð á greiðslumáta
+
+Sumar greiðslumátar styðja ekki bein breytingaútboð ef fé á að skila viðskiptavinum við viðskipti á sölustöðum. Aðeins **Reiðufé** og **Gjaldmiðill** greiðslumáta er hægt að nota til að breyta útboðum. 
+
+Til að meðhöndla mál þar sem þörf er á breytingatilboði meðan á viðskiptum stendur, en greiðslumáti styður það ekki, getur þú skilgreint **Breyta útboði** greiðslumáta. Þegar þú setur upp greiðslumáta verslunar fyrir verslunina skaltu velja greiðslumáta sem á að nota. Þá, í **Breyta** kafla, í **Breyta útboði** reit, sláðu inn breytingartilboðsgreiðslumöguleika. Til dæmis geturðu slegið inn **1** til að gefa til kynna að hægt sé að nota reiðufé sem greiðslumöguleika til að breyta útboði.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

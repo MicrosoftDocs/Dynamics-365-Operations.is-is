@@ -2,7 +2,7 @@
 title: Virkja sjóðstreymisspá
 description: Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum „Sjóðstreymisspár“ í fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,45 +15,37 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b5e54772b132b4098df8259e954a484a0838ee38
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
-ms.translationtype: HT
+ms.openlocfilehash: d968f28126cf205a487d84301aa28f1251713386
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386712"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752689"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Virkja sjóðstreymisspá
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum „Sjóðstreymisspár“ í fjármálainnsýn.
+Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum Sjóðstreymisspár í Finance Insights.
 
 > [!NOTE]
 > Til að nota greiðsluspár í sjóðstreymi þarf að setja upp greiðsluspár viðskiptavinar eins og lýst er í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md).
-
-1. Notaðu upplýsingar úr umhverfissíðunni í Microsoft Dynamics Lifecycle Services (LCS) til að tengjast aðaltilviki Azure SQL fyrir þetta umhverfi. Keyrið eftirfarandi Transact-SQL (T-SQL) skipun til að kveikja á flugi fyrir sandkassaumhverfa. (Hugsanlega þarf að kveikja á aðgangi að IP-tölu notanda í LCS áður en hægt er að fjartengjast við AOS \[Application Object Server\].)
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
-
-    > [!NOTE]
-    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>.
   
-2. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
+1. Opnið vinnusvæðið **Eiginleikastjórnun** og fylgið eftirfarandi skrefum:
 
     1. Veldu **Leita að uppfærslum**.
-    2. Kveikja skal á eftirfarandi eiginleikum:
+    2. Á **Allt** flipi, leitaðu að **Sjóðstreymisspár**. Ef þú finnur ekki þann eiginleika skaltu leita að **(Preview) Sjóðstreymisspár**. 
+    3. Kveiktu á eiginleikanum.
 
-        - Ný hnitanetsstýring
-        - Flokkun í hnitanetum (forskoðun) 
-        - Greiðsluspár viðskiptavinar (forskoðun)
-        - Sjóðstreymispár (forskoðun)
-
-3. Opnið **Reiðufjár- og bankastjórnun \> Uppsetning sjóðsstreymisspár** og bætið við greiðslugetulyklum sem eiga að vera með í spánum.
+2. Opnið **Reiðufjár- og bankastjórnun \> Uppsetning sjóðsstreymisspár** og bætið við greiðslugetulyklum sem eiga að vera með í spánum. Settu einnig upp lausafjárreikning fyrir greiðslur á **Reikningur fáanlegur** og **Viðskiptaskuldir** flipa. Vertu viss um að endurreikna sjóðstreymisspána.
 
     > [!NOTE]
     > Ef greiðslugetureikningar eru ekki settir upp er ekki hægt að mynda sjóðstreymið.
+    >
+    > Fyrir frekari upplýsingar um hvernig á að setja upp sjóðstreymisspár, sjá [Sjóðstreymisspá](../cash-bank-management/cash-flow-forecasting.md).
 
-4. Opnaðu **Reiðufjár- og bankastjórnun \> Uppsetning \> Fjármálainnsýn (forskoða) \> Sjóðsstreymisspár (forskoða)** og fylgdu eftirfarandi skrefum:
+3. Opnaðu **Reiðufjár- og bankastjórnun \> Uppsetning \> Fjármálainnsýn (forskoða) \> Sjóðsstreymisspár (forskoða)** og fylgdu eftirfarandi skrefum:
 
     1. Á flipanum **Sjóðsstreymisspá** skal velja **Virkja eiginleika**.
     2. Veljið **Stofna spálíkan**.

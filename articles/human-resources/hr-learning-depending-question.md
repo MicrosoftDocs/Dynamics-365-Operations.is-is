@@ -1,8 +1,8 @@
 ---
 title: Búa til spurningu sem er háð svari við fyrri spurningu
 description: Skilyrtar spurningar gera kleift að tilgreina hvaða eftirfylgni spurninguar eru boðnar svarendum, byggt á svarinu í fyrri spurningu.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, Hc
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9397b3dfa353398a5d326ae68ec8269369ebf85b7b2e61c73013db76c5dd475
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 11787aa0b32c0d7493e4528b00304e51f01a655f
+ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745695"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "7728907"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Búa til spurningu sem er háð svari við fyrri spurningu
 
@@ -30,28 +30,28 @@ Skilyrtar spurningar gera kleift að tilgreina hvaða eftirfylgni spurninguar er
 
 
 ## <a name="find-the-existing-questionnaire"></a>Finna fyrirliggjandi spurningalista
-1. Fara í Spurningalisti > Hönnun > Spurningalistar.
+1. Fara til **Spurningalisti** > **Hönnun** > **Spurningalistar**.
 2. Velja spurningalistann WorkFH á listanum.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Bæta við spurningum og undirspurningar við Spurningalista
-1. Smellt er á Spurningar.
-2. Smellið á „Nýtt“.
-3. Veljið númer spurningu 00016 í svæðinu Spurningu.
+1. Smellur **Spurningar**.
+2. Smellt er á **Nýtt**.
+3. Í **Spurning** reit, veldu spurningu númer 00016.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smellið á „Vista“.
+6. Smelltu á **Vista**.
 7. Lokið síðunni.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Stilla Röð Spurningalista á Skilyrt og gera spurninguna háða viðeigandi spurningu
-1. Smellið á „Breyta“.
-2. Víkka út hlutann Uppsetning.
-3. Veljið 'Skilyrt' í svæðinu röðun Spurninga.
-4. Smellt er á Skilyrðisbundin spurning
+1. Smellið á **Breyta**.
+2. Útvíkkaðu kaflann **Uppsetning**.
+3. Í **Spurninga röð** reit, veldu 'skilyrt'.
+4. Smellur **Skilyrt** spurningu.
 5. Veljið ‚Spurningar\útskýra hvers vegna þú svaraðir fyrri spurningu eins og þú gerðir?', í trénu.
-6. Velja spurninguna 00009 í svæðinu aðalspurning
+6. Í **Aðalspurning** reit, veldu spurningu 00009.
 7. Í listanum skal smella á tengilinn í valinni línu.
-8. Í svarreitnum, Færa inn Kenni svarraðar fyrir svarvalkost sem gera á spurningu háða. Settu Til dæmis inn 1 fyrir fyrsta svarvalkost.
-9. Smelltu á Vista.
+8. Í **Svaraðu** reit, sláðu inn auðkenni svarraðar svarmöguleikans sem þú vilt gera spurninguna háða. Settu Til dæmis inn 1 fyrir fyrsta svarvalkost.
+9. Smelltu á **Vista**.
 10. Í trénu, velja ‚Spurningar\ Ég fæ sanngjörn laun fyrir mína vinnu.'.
     * Athugið að spurningatréð var uppfært til að sýna háðar kringumstæður.  
 

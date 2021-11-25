@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577841"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778060"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -54,7 +54,7 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
     Þegar álagsmagnið hefur verið skráð sem komið verður það magn að vera innhreyfingarskjal afurða–bókað í birgðabók fyrirtækisins til að skrá efnislega hlutafjáraukningu. Fyrir frekari upplýsingar, sjá [Innhreyfingaskjal afurða gegn innkaupapöntunum - innhreyfingarskjal afurða](../procurement/product-receipt-against-purchase-orders.md#product-receipt) og [Bóka skráða afurðamagn gegn innkaupapöntunum](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Skráðu vörumagn sem berst í farmi á innleið
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Skráðu vörumagn sem berst í farmi á innleið
 
 Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Þessi hluti lýsir því hvernig á að skrá vörumagn á innleið með því að nota fartæki þegar kveikt er á ítarlegri vöruhússtjórnun í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Nánari upplýsingar um það flæði er að finna í [Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók vöru](tasks/register-items-advanced-warehousing.md).
 
@@ -113,7 +113,7 @@ Starfsmenn vöruhúsa geta gert hlutfallslega skráningu á móttöku farms. Hve
 
 Þegar farmur berst, ef vörumagn er minna en það magn sem fram kemur á farmskránni, geta starfsmenn vöruhúsa unnið beint á biðlaranum til að viðurkenna þetta misræmi með því að minnka magnið á farmlínunni þannig að það passi við raunverulegt magn sem barst og var skráð.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Ofmóttaka farms
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Ofmóttaka farms
 
 Ofmóttaka á sér stað þegar farmur berst og vörumagn fer yfir áætlað magn farmlína. Þú getur stjórnað því hvort og að hve miklu leyti ofmóttaka er leyfð við skráningu álags.
 
@@ -147,7 +147,7 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir reitinn **Ofmótt
 | Birgðafærslur á vinnu sem gengið hefur verið frá tengdu magni fyrir | Reitirnir **Móttaka** og **Staðsetning** og aðrir viðeigandi reitir eru uppfærðir til að endurspegla flutning frá móttökustað til geymslustaðar. | Gildið **Móttökustaða** í birgðafærslu innkaupapöntunar er áfram _Skráð_. |
 | Vöruhúsafrágangur | Gildið **Vinnustaða** hefur breyst í _Lokað_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Bóka skráð afurðamagn gegn innkaupapöntunum
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Bóka skráð afurðamagn gegn innkaupapöntunum
 
 Eftir að afurðamagn á innleið er skráð í kerfið verða þau tiltæk fyrir frátekningu í tengslum við sölu og aðrar innri aðgerðir og á útleið. Hins vegar uppfærir kerfið ekki enn birgðareikninga (tímabundna). Þessi uppfærsla getur aðeins átt sér stað þegar aðgerðateymið birtir skráð innhreyfingarskjöl afurða.
 
@@ -267,7 +267,7 @@ Til að vinna í gegnum dæmi um aðstæður sem lýst er í þessum hluta verð
 
 1. Opnaðu vinnusvæðið **Eiginleikastjórnun**. (Nánari upplýsingar um hvernig á að finna og nota þetta vinnusvæði er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
 
-1. Kveiktu á eiginleikanum _Tengja birgðafærslu innkaupapöntunar við farm_, sem er skráður á eftirfarandi hátt:
+1. Gakktu úr skugga um að _Tengja innkaupapöntun birgðafærslur við hleðslu_ kveikt er á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
     - **Eining:** _Vöruhúsakerfi_
     - **Heiti eiginleika:** _Tengja birgðafærslu innkaupapöntunar við farm_

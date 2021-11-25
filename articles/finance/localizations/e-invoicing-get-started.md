@@ -2,7 +2,7 @@
 title: Hafist handa með rafrænar reikningsfærslur
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 08/17/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
-ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
-ms.translationtype: HT
+ms.openlocfilehash: ebef9cf97f7a91e0a2fd45f5e0e0fc620070b42a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7700380"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779695"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Hafist handa með rafrænar reikningsfærslur
 
@@ -57,7 +57,12 @@ ms.locfileid: "7700380"
 
 Það fer eftir landi eða svæði hvort eiginleiki rafrænnar reikningsfærslu þurfi tiltekna skilgreiningu. 
 
-Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem er í boði fyrir tilheyrandi land eða svæði.
+> [!NOTE]
+> Þegar þú virkjar eiginleikann Rafræna reikningagerð fyrir Finnland eru forritssértækar færibreytur í uppflettingum ekki studdar. Til að vinna í kringum þetta mál, í **Rafræn skýrslugerð** mát, skoðaðu stillingar fyrir sölureikninga og verkreikningasnið. Settu upp reiknaða reitinn handvirkt fyrir **$PaymentMethodSubstitution** kortlagning, og binda síðan þann reit við **EpiPaymentMeansCode** reit úr sniðum sölureiknings og verkreiknings.
+>
+> Þegar þú virkjar eiginleikann Rafræn reikningagerð fyrir Ítalíu eru forritssértækar færibreytur í uppflettingum ekki studdar. Til að vinna í kringum þetta mál, í **Rafræn skýrslugerð** mát, settu handvirkt upp reiknaða reitinn fyrir **$NaturaReverseCharge** kortlagningu.
+>
+> Fyrir tiltekin skref sem tengjast öðrum staðsetningum, sjá „Byrjaðu“ skjölin sem eru fáanleg fyrir þitt land eða svæði.
 
 ## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Flytja inn grunnstillingar líkanavarpana úr rafrænni skýrslugerð
 
@@ -241,6 +246,14 @@ Fyrir nákvæmar leiðbeiningar skal skoða fylgiskjalið „Hafist handa“ sem
 
 3. Veljið reikning í hnitanetinu og veljið síðan **Spyrjast fyrir** \> **Upplýsingar um sendingu**.
 
+## <a name="download-an-electronic-document-file"></a>Sækja rafræn skjal
+
+1. Farið í **Fyrirtækisstjórnun** \> **Reglubundið** \> **Rafræn skjöl** \> **Innsendingarkladdi rafræns skjals**.
+2. Í reitnum **Gerð skjals** skal velja töfluna sem inniheldur reikningana.
+3. Veldu skjal í hnitanetinu og veldu síðan **Rafræn skjal** \> **Hlaða niður skrá**. Stungið verður upp á skjalasafni sem inniheldur rafrænu skjalaskrána til niðurhals.
+
+> [!NOTE]
+> Áður en þú getur hlaðið niður skrám, **Útflutningsniðurstaða** kveikt verður á valmöguleikanum fyrir tengda aðgerð í eiginleikauppsetningu rafrænna reikninga í RCS.
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 

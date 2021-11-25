@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3f14dd25a60f8d185f0e58a0612a322c5175ab2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579881"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778258"
 ---
 # <a name="work-split"></a>Skipta vinnu
 
@@ -33,7 +33,7 @@ Virkni vinnuskiptingar gerir þér kleift að skipta stórum vinnukennum (þ.e. 
 
 Áður en hægt er að nota virkni vinnuskiptingar þarf að kveikja á eiginleikanum og eiginleika forsendanna í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur.
 
-Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. Í vinnusvæðinu **Stjórnun eiginleika** er þessi eiginleiki skráður á eftirfarandi hátt:
+Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Vinnulokun fyrir allt fyrirtækið*
