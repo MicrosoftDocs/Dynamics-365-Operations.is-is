@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 8681ef80166f7d5f108c9424b53fa5c6f5324467
 ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2021
 ms.locfileid: "7645783"
@@ -98,10 +98,10 @@ Staða tengingarinnar gefur til kynna núverandi stöðu tengingarinnar milli Su
 | Staða tengingar | Lýsing | Er hægt að nota fínstillingu skipulagningar? |
 |---|---|---|
 | Tengt | Tengingu hafa verið komið á milli þjónustunnar fínstilling skipulagningar og Supply Chain Management. | Já |
-| Tengir | Nú stendur yfir beiðni um að kveikja á tengingunni við þjónustuna fínstilling skipulagningar. | Nr |
-| Aftengt | Engin tenging er við þjónustuna fínstilling skipulagningar. Hægt er að kveikja á tengingunni úr LCS, eins og lýst er fyrr í þessu efni. | Nr |
-| Aftengir | Nú stendur yfir beiðni um að slökkva á tengingunni við þjónustuna fínstilling skipulagningar. | Nr |
-| Sækir stöðu | Kerfið bíður eftir stöðuupplýsingum úr þjónustunni fínstilling skipulagningar. | Nr |
+| Tengir | Nú stendur yfir beiðni um að kveikja á tengingunni við þjónustuna fínstilling skipulagningar. | Nei |
+| Aftengt | Engin tenging er við þjónustuna fínstilling skipulagningar. Hægt er að kveikja á tengingunni úr LCS, eins og lýst er fyrr í þessu efni. | Nei |
+| Aftengir | Nú stendur yfir beiðni um að slökkva á tengingunni við þjónustuna fínstilling skipulagningar. | Nei |
+| Sækir stöðu | Kerfið bíður eftir stöðuupplýsingum úr þjónustunni fínstilling skipulagningar. | Nei |
 
 ### <a name="the-use-planning-optimization-option"></a>Valkosturinn Nota fínstillingu skipulagningar
 

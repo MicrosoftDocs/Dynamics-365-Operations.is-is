@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6757759"
@@ -75,14 +75,14 @@ Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir ú
 
 | Útgefin afurð: Lánardrottinn | Sjálfgefnar pöntunarstillingar: Afhendingartími | Vöruþekja: Hnekking lánardrottins | Vöruþekja: Hnekking afhendingartíma | Verðsamningur: Lánardrottinn | Verðsamningur: Afhendingartími | Verðsamningur: Hunsa afhendingartíma | Lánardrottinn sem verður til | Afhendingartíma sem verður til |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | Ekkert | Ekkert | US003 | 3 | Ekkert | _ *US001** | **1** |
-| US001 | 1 | ***Já: US002** _ | _*_Já: 2_*_ | US003 | 3 | Ekkert | _ *US002** | **2** |
-| *(Autt)* | 1 | Ekkert | Ekkert | ***US003** _ | _*_3_*_ | Ekkert | _ *US003** | **3** |
-| *(Autt)* | ***1** _ | Ekkert | Ekkert | _*_US003_*_ | 3 | Já | _ *US003** | **1** |
-| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Ekkert | US003 | 3 | Ekkert | _ *US002** | **1** |
-| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Ekkert | US003 | 3 | Ekkert | _ *US002** | **1** |
-| *(Autt)* | 1 | Ekkert | Já: 2 | ***US003** _ | _*_3_*_ | Ekkert | _ *US003** | **3** |
-| *(Autt)* | 1 | Ekkert | ***Já: 2** _ | _*_US003_*_ | 3 | Já | _ *US003** | **2** |
+| ***US001** _ | _*_1_*_ | Nei | Nei | US003 | 3 | Nei | _ *US001** | **1** |
+| US001 | 1 | ***Já: US002** _ | _*_Já: 2_*_ | US003 | 3 | Nei | _ *US002** | **2** |
+| *(Autt)* | 1 | Nei | Nei | ***US003** _ | _*_3_*_ | Nei | _ *US003** | **3** |
+| *(Autt)* | ***1** _ | Nei | Nei | _*_US003_*_ | 3 | Já | _ *US003** | **1** |
+| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Nei | US003 | 3 | Nei | _ *US002** | **1** |
+| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Nei | US003 | 3 | Nei | _ *US002** | **1** |
+| *(Autt)* | 1 | Nei | Já: 2 | ***US003** _ | _*_3_*_ | Nei | _ *US003** | **3** |
+| *(Autt)* | 1 | Nei | ***Já: 2** _ | _*_US003_*_ | 3 | Já | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

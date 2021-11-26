@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
 ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
 ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/28/2021
 ms.locfileid: "7559560"
@@ -101,7 +101,7 @@ Frekari upplýsingar má finna á
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Frá og með þessari útgáfu, í **Færibreytur viðskiptaverkraðara** í Dynamics 365 Headquarters, er reiturinn **Tímabil myndunar fullbúins gagnasafns í dögum** ekki notaður. Í þessari útgáfu verður reiturinn fjarlægður þannig að ekki er hægt að breyta gildinu. Þetta mun halda áfram sem gildið **0**. |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Dynamics 365 Commerce |
 | **Dreifingarvalkostur**              | Allir|
 | **Staða**                         | Úrelt. Ekki skal nota þennan reit eða breyta gildinu í honum.|

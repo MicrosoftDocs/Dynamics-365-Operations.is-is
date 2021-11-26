@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
 ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/07/2021
 ms.locfileid: "7474941"
@@ -421,7 +421,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Ekki tiltækt</td>
 </tr>
 <tr>
-<td>Ekkert</td>
+<td>Nei</td>
 <td>
 <ol>
 <li>Veljið valmyndaratriðið <strong>Yfirskrifa staðsetningu</strong> í farsímaforriti vöruhúsakerfis þegar tiltektarverk er hafið.</li>
@@ -498,7 +498,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Magnið er aftur frátekið fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Sjá fyrri línuna.</td>
 <td>Magnið er aftur frátekið fyrir sömu framleiðslulotu og fyrir sama stað og skírteini (ef staðsetningin er stjórnað með skiltum) sem var slegið inn við upptöku.</td>
@@ -539,7 +539,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Allir núverandi fyrirvarar sem hafa áhrif á magnhreyfingu frá tilteknum stað eru aftur áskilnir fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Sjá fyrri línuna.</td>
 <td>Allur fyrirliggjandi fyrirvari sem hefur áhrif á magnhreyfingu frá tilteknum stað er aftur áskilinn fyrir sömu framleiðslulotu og fyrir nýja „til“ staðsetningar og kennitala (ef staðsetningin er stjórnað með skiltum).</td>
@@ -573,7 +573,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Magnið er aftur frátekið fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Sjá fyrri línuna.</td>
 <td>Magnið er frátekið fyrir sömu framleiðslulotu og fyrir staðsetningu og kennitala þar sem magnið var eftir við afturköllun.</td>
@@ -595,7 +595,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Magnið er aftur frátekið fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Sjá fyrri línuna.</td>
 <td>Magnið er frátekið fyrir sömu framleiðslulotu og fyrir staðsetningu og kennitala þar sem magnið var úthlutað á við bakfærslu.</td>
@@ -657,7 +657,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Magnið er aftur frátekið fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>
 <ul>
@@ -686,7 +686,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Allar núverandi frátektir sem hafa áhrif á magnleiðréttingu á staðsetningu þar sem tiltekt er of lítil eru endurfráteknar fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Sjá fyrri línuna.</td>
 <td>Allar núverandi frátektir sem hafa áhrif á magnleiðréttingu á staðsetningu þar sem tiltekt er of lítil eru fjarlægðar.</td>
@@ -719,7 +719,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </tr>
 <tr>
 <td>Vinnuundantekning frá <strong>Stutt val</strong> gerð er sett upp, hvar <strong>Endurúthlutun hlutar</strong> = <strong>Handvirkt</strong>, <strong>Stilla lager</strong> = <strong>Já</strong> og <strong>Fjarlægðu fyrirvara</strong> = <strong>Nei</strong>. Að auki, er <strong>Leyfa endurúthlutun handvirkra atriða</strong> valkostur virkur á starfsmanninum.</td>
-<td>Ekkert</td>
+<td>Nei</td>
 <td>
 <ol>
 <li>Veljið valmyndaratriðið <strong>Of lítil tiltekt</strong> í farsímaforriti vöruhúsakerfis þegar tiltekt er keyrð.</li>
@@ -732,7 +732,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </tr>
 <tr>
 <td>Vinnuundantekning frá <strong>Stutt val</strong> gerð er sett upp, hvar <strong>Endurúthlutun hlutar</strong> = <strong>Handvirkt</strong>, <strong>Stilla lager</strong> = <strong>Já</strong> og <strong>Fjarlægðu fyrirvara</strong> = <strong>Já</strong>. Að auki, er <strong>Leyfa endurúthlutun handvirkra atriða</strong> valkostur virkur á starfsmanninum.</td>
-<td>Ekkert</td>
+<td>Nei</td>
 <td>
 <ol>
 <li>Veljið valmyndaratriðið <strong>Of lítil tiltekt</strong> í farsímaforriti vöruhúsakerfis þegar tiltekt er keyrð.</li>
@@ -807,7 +807,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Breytingar á birgðastöðu eru ekki leyfðar fyrir magn sem er frátekið fyrir vinnu.</td>
 <td>
@@ -833,7 +833,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Magnið er aftur frátekið fyrir sömu lotu. Kerfið úthlutar af handahófi staðsetningu og kennitala (ef staðsetningin er stjórnað með skiltum) þar sem magnið er fáanlegt.</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Nei</td>
 <td>Sjá fyrri línuna.</td>
 <td>Breytingar á birgðastöðu eru ekki leyfðar fyrir magn sem er frátekið fyrir vinnu.</td>
 <td>Breytingar á birgðastöðu eru ekki leyfðar.</td>

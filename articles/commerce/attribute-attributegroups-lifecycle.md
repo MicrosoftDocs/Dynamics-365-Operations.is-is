@@ -18,7 +18,7 @@ ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6727655"
@@ -43,7 +43,7 @@ Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 |            | Samsettur inntök         | 0–10                        | 2             |
 |            | Inntök íhluta         | 0–10                        | 1             |
 | LCD        | 3D Ready                 | Já eða Nei                   | Já           |
-|            | 3D virkjað               | Já eða Nei                   | Númer            |
+|            | 3D virkjað               | Já eða Nei                   | Nei            |
 | Plasma     | Rekstrarhitastig frá      | 32–110 gráður              | 32            |
 |            | Rekstrarhitastig til        | 32–110 gráður              | 10.000           |
 | Projection | Ábyrgð á túbuskjá | 6, 12 eða 18 mánuðir         | 12            |

@@ -333,9 +333,9 @@ Microsoft býður Finance and Operations-viðskiptavinum upp á þrjár þjónus
 | Ótakmörkuð innsending bilana/lagfæringa | Já | Já | Já |
 | Sólarhringsaðgangur í gegnum LCS | Já | Já | Já |
 | Svartími tilviks | Styttri en klukkustund | Styttri en klukkustund | Næsti virki dagur |
-| Afgreiðslutími ráðgjafar | Hópar eru í boði skv. samkomulagi. | Ekkert | Ekkert |
-| Sérstakur reikningsstjóri hjá notendaþjónustu | Já | Ekkert | Ekkert |
-| Sérstakur tæknimaður hjá notendaþjónustu | Tekið þátt samkvæmt sérstökum samningi | Ekkert | Ekkert |
+| Afgreiðslutími ráðgjafar | Hópar eru í boði skv. samkomulagi. | Nei | Nei |
+| Sérstakur reikningsstjóri hjá notendaþjónustu | Já | Nei | Nei |
+| Sérstakur tæknimaður hjá notendaþjónustu | Tekið þátt samkvæmt sérstökum samningi | Nei | Nei |
 
 Frekari upplýsingar eru í [Stuðningsyfirlit](/power-platform/admin/support-overview).
 

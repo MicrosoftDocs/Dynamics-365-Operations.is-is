@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7570538"
@@ -40,12 +40,12 @@ Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** u
 
 | Staða samþykkis | Lýsing                                                                      | beiðni um breytingu er virkjuð |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
-| Drög           | Innkaupapöntunin er drög og hefur ekki verið send til samþykkis í verkflæði Innkaupapöntunar.     | Nr                        |
+| Drög           | Innkaupapöntunin er drög og hefur ekki verið send til samþykkis í verkflæði Innkaupapöntunar.     | Nei                        |
 | Í skoðun       | Innkaupapöntunin var send til samþykkis í verkflæði Innkaupapöntunar. Bíður samþykkis       | Nei                        |
 | Hafnað        | Innkaupapöntunin var hafnað meðan á samþykktarferlinu stendur.                                 | Nei                        |
 | Samþykkt        | Innkaupapöntunin var samþykkt.                                                             | Já                       |
 | Staðfest       | Innkaupapöntunin var samþykkt. Ekki er hægt að staðfesta Innkaupapöntun fyrr en hún hefur verið samþykkt.        | Já                       |
-| Lokið       | Innkaupapöntunin var gerð endanleg. Hún er nú fjárhagslega lokuð og ekki lengur hægt að breyta. | Nr                        |
+| Lokið       | Innkaupapöntunin var gerð endanleg. Hún er nú fjárhagslega lokuð og ekki lengur hægt að breyta. | Nei                        |
 
 ## <a name="confirming-purchase-orders"></a>Staðfesta innkaupapantanir
 Innkaupapantanir með stöðu samþykkis **Samþykkt** geta fara gegnum viðbótarskref áður en þær eru staðfestar. Til dæmis gæti þurft að senda fyrirspurn um innkaup til lánardrottins til að spyrjast fyrir um verð, afslættir eða afhendingardagsetningar. Í þessu tilfelli er hægt að stilla Innkaupapöntun á **í ytri yfirferð** stöðu með því að nota í **Innkaupafyrirspurn** aðgerð.

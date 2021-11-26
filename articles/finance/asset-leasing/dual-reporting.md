@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 406fbb53fc4cd17a7c257b5f5463227118c9051f44d81db000fbe87dca142efe
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6767057"
@@ -47,7 +47,7 @@ IFRS 16 bókin er sett upp þannig að hún samræmist IFRS 16 bókhaldsstaðli.
 | Uppsetning á núvirði / Gangvirði eignar | 0,00           |
 | Skammtímaþröskuldur                    | 12             |
 | Mörk verðlítillar eignar                     | 5,000.00       |
-| Greiða lánardrottni                           | Ekkert             |
+| Greiða lánardrottni                           | Nei             |
 
 **Lögboðin bók**
 
@@ -64,7 +64,7 @@ Lögboðna bókin er reiðufjársbók þar sem fyrirtækið bókar leigukostnað
 | Uppsetning á núvirði / Gangvirði eignar | 0,00        |
 | Skammtímaþröskuldur                    | 0           |
 | Mörk verðlítillar eignar                     | 0           |
-| Greiða lánardrottni                           | Ekkert          |
+| Greiða lánardrottni                           | Nei          |
 
 **Lögboðin bakfærslubók**
 
@@ -81,7 +81,7 @@ Lögboðin bakfærslubók er sett upp á sama hátt og lögboðna bókin.
 | Uppsetning á núvirði / Gangvirði eignar | 0,00                           |
 | Skammtímaþröskuldur                    | 0                              |
 | Mörk verðlítillar eignar                     | 0                              |
-| Greiða lánardrottni                           | Ekkert                             |
+| Greiða lánardrottni                           | Nei                             |
 
 Í þessu dæmi er búið að stofna leigusamning með eftirfarandi stillingar á flipunum **Almennt** og **Greiðsluáætlunarlínur**.
 

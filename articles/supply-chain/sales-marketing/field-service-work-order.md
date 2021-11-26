@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7568376"
@@ -88,21 +88,21 @@ Eftirfarandi tafla veitir yfirlit yfir mismunandi samsetningar fyrir afurðalín
 | Kerfisstaða <br>(Þjónusta á staðnum) | Línustaða <br>(Þjónusta á staðnum) | Úthlutað <br>(Þjónusta á staðnum) |Samstillt gildi <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | Opið - Tímasett   | Áætlað   | Já       | Áætlað                       |
-| Opið - Tímasett   | Metið   | Númer        | Notað                            |
+| Opið - Tímasett   | Metið   | Nei        | Notað                            |
 | Opið - Tímasett   | Notað        | Já       | Notað                            |
-| Opið - Tímasett   | Notað        | Númer        | Notað                            |
+| Opið - Tímasett   | Notað        | Nei        | Notað                            |
 | Opið - Í vinnslu | Metið   | Já       | Metið                       |
-| Opið - Í vinnslu | Metið   | Númer        | Notað                            |
+| Opið - Í vinnslu | Metið   | Nei        | Notað                            |
 | Opið - Í vinnslu | Notað        | Já       | Notað                            |
-| Opið - Í vinnslu | Notað        | Númer        | Notað                            |
+| Opið - Í vinnslu | Notað        | Nei        | Notað                            |
 | Opið - Lokið   | Metið   | Já       | Metið                       |
-| Opið - Lokið   | Metið   | Númer        | Notað                            |
+| Opið - Lokið   | Metið   | Nei        | Notað                            |
 | Opið - Lokið   | Notað        | Já       | Notað                            |
-| Opið - Lokið   | Notað        | Númer        | Notað                            |
+| Opið - Lokið   | Notað        | Nei        | Notað                            |
 | Lokað - Bókað    | Metið   | Já       | Notað                            |
-| Lokað - Bókað    | Metið   | Númer        | Notað                            |
+| Lokað - Bókað    | Metið   | Nei        | Notað                            |
 | Lokað - Bókað    | Notað        | Já       | Notað                            |
-| Lokað - Bókað    | Notað        | Númer        | Notað                            |
+| Lokað - Bókað    | Notað        | Nei        | Notað                            |
 
 Eftirfarandi tafla veitir yfirlit yfir mismunandi samsetningar á þjónustulínum.
 

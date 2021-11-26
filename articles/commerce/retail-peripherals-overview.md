@@ -1,7 +1,7 @@
 ---
 title: Jaðarbúnaður
 description: Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki Commerce.
-author: BrianShook
+author: rubencdelgado
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779847"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500304"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -121,7 +121,7 @@ Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja 
 -   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). CCOs eru notaðir til að prófa POS-íhluti Commerce. Þess vegna hjálpar prófun til við að tryggja að ef Commerce styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
 -   **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
 
-[![ Stýringarhlutur og þjónustuhlutur.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman. 
+[![Stýringarhlutur og þjónustuhlutur.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman. 
 
 > [!NOTE]
 > OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum. Commerce verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
@@ -207,8 +207,8 @@ Nánari upplýsingar er að finna í [Setja upp POS Hybrid-forrit í Android og 
 
 Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals. Venjulega eru OPOS-reklar veittir af framleiðanda tækis. Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:
 
--   **32 bita kerfi:** HKEY\_ LOCAL\_ MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bita kerfi:** HKEY\_ LOCAL\_ MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa. Margir tækjareklar eru vistaðir.
 
@@ -578,7 +578,7 @@ Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvir
     1.  Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.
     2.  Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.
     3.  Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.
-    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_ STAÐBUNDNA\_ MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
+    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
         -   TLS 1.2Client:Enabled=1
@@ -793,7 +793,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 **Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:
 
 -   Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
-    -   Til að sannreyna þessa uppsetningu í vafra skaltu fara á eftirfarandi slóð: https://&lt; Computer Name&gt;:&lt; Port Number&gt;/HardwareStation/ping.
+    -   Til að sannreyna þessa uppsetningu í vafra skaltu fara á eftirfarandi slóð: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.
     -   Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis birtist lástáknið í Internet Explorer á veffangastikunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
 -   Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
 -   Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.

@@ -178,7 +178,7 @@ ms.locfileid: "7725050"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Gervingar lýsigagna sem tengjast Dynamics AX 2012 Enterprise Portal hafa verið gerðir úreldir þar sem Enterprise Portal var aldrei stutt í Finance and Operations-forritum. |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Áætlað er að allur EP-kóði verði fjarlægður í október 2021 útgáfu. |
@@ -325,7 +325,7 @@ ms.locfileid: "7725050"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þetta var öryggisatriði vegna þess að beiðni um breytingar var hægt að senda í ógáti til notanda. Þetta var einnig nothæfismál vegna þess að það neyddi notandann til að ákvarða hver upphafsmaður verkflæðisins var og velja þá handvirkt.  |
-| **Skipt út fyrir aðra eiginleika?**   | Nr |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Verkflæði |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Listi notendavalsins var fjarlægður úr valmyndinni um breytingu á beiðni í uppfærslu á verkvangi 32. Beiðnir um breytingu verða sjálfkrafa sendar til höfundar eins og til er ætlast. Fyrir frekari upplýsingar um þessa virkni, sjá [Verkþættir í samþykktarferli verkflæðis](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
@@ -335,7 +335,7 @@ ms.locfileid: "7725050"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vefslóðir sem eru felldar inn í skjöl sem þjónustan veitir geta innihaldið viðkvæm viðskiptagögn. Við erum að fjarlægja stuðning við innbyggða boratengla í skjölum sem öryggisráðstöfun til að vernda gögn viðskiptavinarins frekar. Notendur munu einnig njóta góðs af bættum árangri meðan þeir framleiða skjöl gagnvirkt vegna þessarar breytinga.  |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Skýrslugerð |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Þessi aðgerð er virkur tekinn úr þjónustunni.<br><br>Nútíma viðskiptavinurinn býður upp á fjölmarga möguleika til að framleiða áhorf sem innihalda tengla sem myndast sjálfkrafa til að aðstoða við siglingar forritsins. Mælt er með pagineruðum gögnum sem þjónustan veitir vegna utanaðkomandi samskipta sem eru send, geymd og geymd og prentuð fyrir viðtakendur. Við höfum bætt reynsluna af því að forskoða skjöl beint í vafranum, sem býður upp á beinan aðgang að prenturum á staðnum. Fyrir frekari upplýsingar, sjá [Forskoða PDF skjöl með innbyggðri skoðun](../analytics/preview-pdf-documents.md). |

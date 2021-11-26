@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ab90c8e57d831fbbfe0b4a6f6814ca0ab5182a7ccc0436ca5a11526b72f9da30
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6781586"
@@ -38,9 +38,9 @@ Eftirfarandi tafla sýnir hvenær kerfið bókar birgðafærslur með því að 
 
 | Skilyrði                                               | Kerfið notar áætlað meðalkostnaðarverð | Kerfið notar kostnaðarverð sem er skilgreint í aðalfærslunni |
 |---------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------|
-| Bæði teljari\* og nefnari\*\* eru jákvæðir.  | Já                                                      | Ekkert                                                                |
-| Teljarinn\*, nefnarinn\*\* eða hvorir tveggja eru neikvæðir. | Ekkert                                                       | Já                                                               |
-| Nefnarinn\*\* er 0 (núll).                        | Ekkert                                                       | Já                                                               |
+| Bæði teljari\* og nefnari\*\* eru jákvæðir.  | Já                                                      | Nei                                                                |
+| Teljarinn\*, nefnarinn\*\* eða hvorir tveggja eru neikvæðir. | Nei                                                       | Já                                                               |
+| Nefnarinn\*\* er 0 (núll).                        | Nei                                                       | Já                                                               |
 
 \* Teljari = (efnisleg upphæð + fjárhagslegt magn) \*\* Nefnari = (efnislegt magn + fjárhagslegt magn) 
 

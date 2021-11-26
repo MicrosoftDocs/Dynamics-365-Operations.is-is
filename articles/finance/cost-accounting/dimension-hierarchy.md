@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6766977"
@@ -118,7 +118,7 @@ Víddastigveldi sem uppfyllir skipulags tilkynningarskyldu hægt er að setja ei
 
 | Heiti víddarstigveldis | Vídd    | Heiti gerðar víddarstigveldis      | Stigveldi aðgangslista |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Fyrirtæki             | Kostnaðarstaðir | Stigveldi víddaflokkunar | Númer                    |
+| Fyrirtæki             | Kostnaðarstaðir | Stigveldi víddaflokkunar | Nei                    |
 
 Hægt er að setja upp víddastigveldi fyrir skýrslugerð eins og sýnt er hér.
 

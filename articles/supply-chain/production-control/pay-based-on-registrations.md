@@ -17,7 +17,7 @@ ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6715723"
@@ -170,7 +170,7 @@ Til að grunnstilla kerfið til að greina almennilega á milli staðaltíma og 
 
 | Skráð lýsing | Gerð lýsingar fyrir forstillingu | Útreikningur   | Stilling | Greiddur         | Stilling |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Vinnutími       | Yfirvinna                   | Staðaltími | Já | Launatími     | Ekkert  |
+| Vinnutími       | Yfirvinna                   | Staðaltími | Já | Launatími     | Nei  |
 |                    |                            | Launatími      | Já | Yfirvinnutími | Já |
 
 Eftir að þú hefur stillt færibreytur útreiknings myndast eftirfarandi launaliðir.

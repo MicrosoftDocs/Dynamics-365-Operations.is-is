@@ -201,7 +201,7 @@ Lögaðili sér um uppsetningu í þessum hluta. Þú verður að skilgreina han
 3. Í flipanum **Útreikningar** skal skilgreina fyrirhugaða sléttunarreglu fyrir lögaðilann. Frekari upplýsingar um sléttunarregluna er að finna í [Sléttunarreglur skattaútreiknings](https://go.microsoft.com/fwlink/?linkid=2166988).
 4. Í flipanum **Viðbrögð við villum** skal skilgreina fyrirhugaða aðferð við meðhöndlun á villu fyrir lögaðilann. Þrír valkostir eru í boði:
 
-    - Ekkert
+    - Nei
     - Viðvörun
     - Villa
 

@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
 ms.openlocfilehash: 7ce7353de5795fd82e53bb1b7919c95dae4fe0ab6b8f536361613a7bcae19101
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6781202"
@@ -40,7 +40,7 @@ ms.locfileid: "6781202"
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki tekið með í meðhöndlun rafrænna skilaboða samaðgerðar með Ungverskt reikningskerfi á netinu |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: frá 15. apríl 2022 hyggjumst við ekki lengur styðja „RTIR Query Invoice Data Request (HU)“ sniðsstillingu. |

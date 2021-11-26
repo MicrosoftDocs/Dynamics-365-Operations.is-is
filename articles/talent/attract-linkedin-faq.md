@@ -99,9 +99,9 @@ Eftirfarandi tafla lýsir mismunandi valkostum við að auglýsa störf á Linke
 |---|---|---|---|
 | **Lýsing** | Attract birtir störf á LinkedIn sem XML-streymi. | Fyrirtækið gerir samning við LinkedIn og veitir XML straum fyrir auglýsingu á störfum. | Viðskiptavinurinn notar API til að samstilla upplýsingar á milli Attract og LinkedIn Recruiter. |
 | **Hvers konar starf get ég sent inn?** | Takmörkuð skráning | Úrvalsstörf á lausu eða takmörkuð skráning | Takmörkuð skráning |
-| **Get ég kynnt starfið á LinkedIn?** | Nr | Úrvalsstörf á lausu: Já<br>Takmörkuð skráning: Nei | Nr |
+| **Get ég kynnt starfið á LinkedIn?** | Nei | Úrvalsstörf á lausu: Já<br>Takmörkuð skráning: Nei | Nei |
 | **Hversu oft birtir LinkedIn störf?** | Einu sinni á dag | Einu sinni á dag | Mörgum sinnum á dag eins og skilgreint er af API |
-| **Mælt með af LinkedIn?** | Nr | Já | Nr |
+| **Mælt með af LinkedIn?** | Nei | Já | Nei |
 | **Hvað þarf ég?** | Kaup á Attract | Starfspakkasamningur við LinkedIn og kaup á Úrvalsstörf á lausu | API samningur við LinkedIn | 
 | **Hvar finn ég frekari upplýsingar?** | [Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md) | [Starfspakki í gegnum LinkedIn Recruiter - Yfirlit](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
 
@@ -117,6 +117,3 @@ Eftirfarandi tafla lýsir mismunandi valkostum við að auglýsa störf á Linke
 [Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

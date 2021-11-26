@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
 ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/24/2021
 ms.locfileid: "7416306"
@@ -89,16 +89,16 @@ Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
 
 | Eiginleiki                                                   | Financial Reporting                                               | Fjárhagsgreining |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Breyta sjálfgefnum skýrslum**                                 | Já                                                               | Ekkert |
-| **Búa til nýjar skýrslur**                                   | Já                                                               | Ekkert |
-| **Prenta skýrslur**                                        | Já                                                               | Númer |
+| **Breyta sjálfgefnum skýrslum**                                 | Já                                                               | Nei |
+| **Búa til nýjar skýrslur**                                   | Já                                                               | Nei |
+| **Prenta skýrslur**                                        | Já                                                               | Nei |
 | **Flytja út í Excel**                                      | Já                                                               | Takmarkaður útflutningur hrágagna til Excel, ekki forsniðin skýrsla |
-| **Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis**   | Já                                                               | Númer |
+| **Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis**   | Já                                                               | Nei |
 | **Skýrsla um gögn undirbókar**                             | Já Takmarkast aðeins við lánardrottin, viðskiptavin                              | Já Lánardrottinn, viðskiptavinur, flokkur lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv. |
 | **Skýrslugjaldmiðill**                                   | Já Bókhaldsgjaldmiðill og þýða yfir í skýrslugjaldmiðil       | Nei Bókhaldsgjaldmiðill eingöngu |
 | **Öryggi**                                             | Já Fylgir Finance öryggi skipurits | Takmarkað Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi Finance and Operations) eða aðeins virkt fyrirtæki |
-| **Stuðningur við mismunandi bókhaldslykla og fjárhagsár** | Já                                                               | Númer |
-| **skýrsla um ytri gögn**                              | Númer                                                                | Númer |
+| **Stuðningur við mismunandi bókhaldslykla og fjárhagsár** | Já                                                               | Nei |
+| **skýrsla um ytri gögn**                              | Nei                                                                | Nei |
 | **Stuðningur við samsteypur**                               | Já                                                               | Takmarkað Getur greint frá mörgum fyrirtækjum en aðeins notað bókhaldsgjaldmiðil |
 
 Eftirfarandi fjárhagsskýrslur eru í boði:

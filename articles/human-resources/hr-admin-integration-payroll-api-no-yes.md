@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 7759e952a5da37b6241fc2d29e84c7f515846a75113a4b6455d1f31aaeaf851e
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6764183"
@@ -34,7 +34,7 @@ Raunlægt heiti: mshr_noyes
 
 | Virði | Merkimiði | lýsing |
 | --- | --- | --- |
-| 200000000 | Ekkert | Nr. |
+| 200000000 | Nei | Nei. |
 | 200000001 | Já | Já. |
 
 ## <a name="see-also"></a>Sjá einnig

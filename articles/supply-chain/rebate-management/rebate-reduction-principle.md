@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: e6b178704fde18036d526e7a645cb9b4f8bd66c7
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7579065"
@@ -47,11 +47,11 @@ Eftirfarandi tafla sýnir nokkur dæmigerð dæmi um uppsetningar á minnkunarre
 
 | Minnkunarregla eftirágreidds afsláttar | lýsing | Nota lækkun | Lækkunargrunnur | Útiloka frá lækkun |
 |---|---|---|---|---|
-| Frestað | Lækka eftirágreiddan afslátt | Já | Hvort tveggja | Ekkert |
+| Frestað | Lækka eftirágreiddan afslátt | Já | Hvort tveggja | Nei |
 | Exclreb | Sleppa eftirágreiddum afslætti | Já | Eftirágreiddur afsláttur | Já |
 | Margfeldi | Margir eftirágreiddir afslættir | Já | Hvort tveggja | Já |
-| Engum | Úthlutun og eftirágreiddur afsláttur eingöngu | Ekkert | Hvort tveggja | Já |
-| Úthlutun | Eingöngu úthlutun | Já | Úthlutun | Ekkert |
+| Engum | Úthlutun og eftirágreiddur afsláttur eingöngu | Nei | Hvort tveggja | Já |
+| Úthlutun | Eingöngu úthlutun | Já | Úthlutun | Nei |
 | Eftirágreiddur afsláttur | Aðeins eftirágreiddur afsláttur | Já | Eftirágreiddur afsláttur | Já |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Dæmi um útreikning á minnkunarreglu eftirágreidds afsláttar

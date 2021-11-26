@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e03becf2572aeaf213e8c3a0e874405ed0d5613
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: MT
+ms.openlocfilehash: 76ac50ba2606ffff5a5a90d29ca99c8d67e5f14cce2127f5de6225d1cd8224ef
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753027"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745177"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -84,12 +84,12 @@ ms.locfileid: "7753027"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Fyrir 1. október 2020, stefnum við að því að styðja ekki lengur við aðferðina **setUtcString()**. Verktaki ætti að nota aðferðina **setUtcDateTime()** í staðinn. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blocklist skýrsla (IT) – Eiginleikatilvísun IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bannskýrsla (IT) - Tilvísun eiginleika IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki krafist lagalega. |
-| **Skipt út fyrir aðra eiginleika?**   | Nr |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Ítölsk staðsetning |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Fyrir 1. október 2020 munum við ekki lengur að styðja þessa skýrslu. |
@@ -99,7 +99,7 @@ ms.locfileid: "7753027"
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Ekki krafist lagalega. |
-| **Skipt út fyrir aðra eiginleika?**   | Nr |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Ítölsk staðsetning |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Þann 1. október 2020, stefnum við að því að styðja ekki lengur við **Innlenda skattaskýrslu - Tilvísun eiginleika IT-00003**. |
@@ -116,7 +116,7 @@ ms.locfileid: "7753027"
 </tr>
 <tr>
 <td><strong>Skipt út fyrir aðra eiginleika?</strong></td>
-<td>Nr</td>
+<td>Nei</td>
 </tr>
 <tr>
 <td><strong>Svæði sem verða fyrir áhrifum</strong></td>
@@ -360,7 +360,7 @@ Eiginleiki til að búa til sniðmát fyrir nýjar skattskrár hagnaðar. Þessi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eiginleiki er ekki samhæfur við stækkunarhæfnislíkan Finance and Operations. |
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
+| **Skipt út fyrir aðra eiginleika?**   | Nei |
 | **Afurðasvæði sem haft er áhrif á**         | Skattur |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Fjarlægt frá og með Finance and Operations 8.1. með verkvangsuppfærslu 20. |
@@ -371,7 +371,7 @@ Rússnesk eining til að halda utan um upplýsingar starfsmannastjórnunar, uppl
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Launaskrá er ekki með í alþjóðlegri stefnu Dynamics 365-safnsins. Samstarfsaðilar og óháðir hugbúnaðarsalar eru í kjörstöðu til að bjóða upp launatengdar aðgerðir sem falla undir staðbundnar reglugerðir og skattauppfærslur.|
-| **Skipt út fyrir aðra eiginleika?**   | Ekkert|
+| **Skipt út fyrir aðra eiginleika?**   | Nei|
 | **Afurðasvæði sem haft er áhrif á**         | Stjórnun launa og mannauðs í Rússlandi |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er ein af komandi uppfærslum á 10.0 útgáfunni. |
@@ -455,7 +455,7 @@ Staðlað notendaviðmót í gagnastjórnun er Legacy-UI, sem er sjálfgefna not
 |              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
-| **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
+| **Skipt út fyrir aðra eiginleika?**            | Nei                                                                      |
 | **Afurðasvæði sem haft er áhrif á**                  | Staðgreiðsluskattur á Indlandi                                                  |
 | **Dreifingarvalkostur**                       | Allar einingar                                                                    |
 | **Staða**                                  | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.   |        
@@ -467,7 +467,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 |             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
-| **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
+| **Skipt út fyrir aðra eiginleika?**            | Nei                                                                      |
 | **Afurðasvæði sem haft er áhrif á**                  | Staðgreiðsluskattur á Indlandi                                                  |
 | **Dreifingarvalkostur**                       | Allar einingar                                                                   |
 | **Staða**                                  | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.     |    
@@ -478,7 +478,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 |              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Ástæða úreldingar eða fjarlægingar**       | Of lítil notkun viðskiptavina.                                                  |
-| **Skipt út fyrir aðra eiginleika?**            | Númer                                                                      |
+| **Skipt út fyrir aðra eiginleika?**            | Nei                                                                      |
 | **Afurðasvæði sem haft er áhrif á**                  | Flytja inn og flytja út                                                       |
 | **Dreifingarvalkostur**                       | Allar einingar                                                                    |
 | **Staða**                                  | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.  |    
@@ -578,7 +578,7 @@ Greiðslusnið BBS Direkte Remittering innihalda útflutning innheimtu fyrir gre
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun                                                  |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                             |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur                                                 |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
@@ -622,7 +622,7 @@ EDIVAT er úreltum Belgískar staðal fyrir rafræna skattskýrslu sent með ör
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau eiginleiki eru ekki lengur notaður.                           |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                             |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur                                                 |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
@@ -699,7 +699,7 @@ Isabel er ramma fyrir rafræn bankaviðskipti í Evrópu og de-facto staðall í
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Takmörkuð notkun                                                  |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                             |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                             |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur                                                 |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
@@ -787,7 +787,7 @@ Rafmerki (RFID) er gagnasöfnunartækni sem notar Rafræn tög til að geyma au�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum.   |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                              |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                              |
 | **Afurðasvæði sem haft er áhrif á**         | Birgðir                            |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations 1611. |
 
@@ -798,7 +798,7 @@ Lettneskt löggjöf veitir tilteknar reglur um hvernig sölureikninga skulu núm
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Í opinber tölusetning reikninga þarf ekki lengur að halda við. Skýrslu um notuð reikningsnúmer er ekki lengur þörf. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer       |
+| **Skipt út fyrir aðra eiginleika?**   | Nei       |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur    |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.  |
 
@@ -860,7 +860,7 @@ Mannauður, launaupplýsingar
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun                                                           |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                                  |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                                  |
 | **Afurðasvæði sem haft er áhrif á**         | Mannauður                                                     |
 | **Staða**                         | Fjarlægð frá og með Dynamics 365 for Operations útgáfu 1611 |
 
@@ -883,7 +883,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bætt frammistaða.        |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                             |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                             |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptaskuldir               |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0. |
 
@@ -916,7 +916,7 @@ Innheimtuforskriftir voru notaðar til að reikna út innheimtuverð fyrir innhe
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Notkun skilgreiningarlykils til að stjórna uppskriftaútgáfur lagast ekki að skýjaumhverfi. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                                                      |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                                                      |
 | **Afurðasvæði sem haft er áhrif á**         | Upplýsingar um afurðarstjórnun, Birgðastjórnun                                    |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                          |
 
@@ -927,7 +927,7 @@ Tiltekin greiðsluhátt fyrir Brasilískt fyrirtæki
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stuðning fyrir greiðsluaðferð Brasilískt Bordero Hefur verið lagðar af úr Brasilískt staðfærslu |
-| **Skipt út fyrir aðra eiginleika?**   | Númer   |
+| **Skipt út fyrir aðra eiginleika?**   | Nei   |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptaskuldir   |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
@@ -949,7 +949,7 @@ Alríkisskattframtal fyrir ICMS-skatt
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Viðbúnaðarháttur er á ekki lengur við í öllum brasilískum fylkjum |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                                          |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                                          |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur                                                         |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.              |
 
@@ -1000,7 +1000,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Of lítil notkun viðskiptavina. Microsoft SharePoint inniheldur sömu getu sem voru tiltæk í Samræmismiðstöð. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer   |
+| **Skipt út fyrir aðra eiginleika?**   | Nei   |
 | **Afurðasvæði sem haft er áhrif á**         | Samræmi og innra eftirlit  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.    |
 
@@ -1029,7 +1029,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bunkaflokkar voru notaðar til að birta eina eða fleiri bunka í svæði Upplýsingakassa . Takmörkuð geta til að meðtaka hlutina einnig komu upp vandamál hvað varðar afköst, vegna þess að breyting á skrá í yfirskjámyndar orsökuðu að ein fyrirspurnin varð til fyrir bunka í bunkaflokknum. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer      |
+| **Skipt út fyrir aðra eiginleika?**   | Nei      |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar    |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.  |
 
@@ -1047,7 +1047,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Stuðningur við danskt snið ávísana hefur verið lagður af og skýrslan hefur verið fjarlægð úr DK staðfærslu. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer    |
+| **Skipt út fyrir aðra eiginleika?**   | Nei    |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar    |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.  |
 
@@ -1079,7 +1079,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin Notkun á þessari virkni fannst. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                     |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                     |
 | **Afurðasvæði sem haft er áhrif á**         | Tími og viðvera                    |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.         |
 
@@ -1100,7 +1100,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Finance and Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.  |
-| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnur rásar Retail Modern POS   |
+| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnur rásarRetail Modern POS   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Hollenska SWIFT MT940
@@ -1137,7 +1137,7 @@ Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum.  |
-| **Skipt út fyrir aðra eiginleika?**   | Númer              |
+| **Skipt út fyrir aðra eiginleika?**   | Nei              |
 | **Afurðasvæði sem haft er áhrif á**         | Samræmi og innra eftirlit, viðskiptaskuldir  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0. |
 
@@ -1193,7 +1193,7 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Xml-snið fyrir þýska skýrslugerð esb-Sölulista er ekki studd lengur. Hægt er að nota aðeins ELMA5 Snið textaskrár til að senda skýrslu esb-Sölulista til þýska skattstjórans. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer         |
+| **Skipt út fyrir aðra eiginleika?**   | Nei         |
 | **Afurðasvæði sem haft er áhrif á**         | Skattur        |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.   |
 
@@ -1246,7 +1246,7 @@ Listi yfir lykla fyrir lögaðilann og tengdar stöðuupplýsingar
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðferð er ekki lengur gild. Myndun rafrænna reikninga með því að nota aðferðina CFD var afskrifuð af skattyfirvöldum og skipt út fyrir Comprobante Fiscal Digital a través de Internet (CFDI) -aðferð, þar sem undirritun er framvísað til þriðja aðila þjónustuaðila (PAC). Mánaðarleg skýrsla hefur verið fjarlægt og fyrirspurnarvalkostur gerir notendum kleift að spyrjast fyrir um sögulegar færslur. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer    |
+| **Skipt út fyrir aðra eiginleika?**   | Nei    |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur, verk   |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
@@ -1278,7 +1278,7 @@ Færslubók birgða og vöruhúss hafa ekki lengur möguleikann á að merkja f�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin Notkun á þessari virkni fannst. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                     |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                     |
 | **Afurðasvæði sem haft er áhrif á**         | Birgðir                   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.         |
 
@@ -1311,7 +1311,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi útgáfu af Dynamics AX styður ekki merkingabreytingar á keyrslutíma. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                                                            |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                                            |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruupplýsingastjórnun                                                |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                |
 
@@ -1340,7 +1340,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun viðskiptavina og takmörkuðum eiginleikum. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer                                           |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                           |
 | **Afurðasvæði sem haft er áhrif á**         | Bandarískur virðisaukaskattur                                 |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.               |
 
@@ -1351,7 +1351,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Grunngerð Microsoft Azure sem notað er í Dynamics AX hefur nýja getu sem hægt er að nota í staðinn (til dæmis Azure setur). |
-| **Skipt út fyrir aðra eiginleika?**   | Númer   |
+| **Skipt út fyrir aðra eiginleika?**   | Nei   |
 | **Afurðasvæði sem haft er áhrif á**         | Ráðningaferli tengd mannauði, Málastjórnun, Tilboðsbeiðnir, Skráning lánardrottins, Sameiginleg vinnusvæði fyrir tækifæri og herferðir  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.    |
 

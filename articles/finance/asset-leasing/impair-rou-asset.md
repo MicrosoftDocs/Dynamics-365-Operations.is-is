@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6723824"
@@ -92,8 +92,8 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
     | Færsludagsetning       | 1/1/2022 |
     | Eftirstandandi tímabil      | 84       |
     | Bóka                   | Já      |
-    | Forskoða fyrir bókun | Ekkert       |
-    | Loka bók             | Ekkert       |
+    | Forskoða fyrir bókun | Nei       |
+    | Loka bók             | Nei       |
 
 6. Bókarfærsla virðisrýrnunar hefur verið stofnuð og bókuð. Til að skoða hana skal opna leigubók eignarinnar í leigubókinni. Athugaðu að upphæð virðisrýrnunarinnar var debetfærð á bókunarlykil fyrir virðisrýrnun kostnaðar og kreditfærð á bókunarlykil afnotaréttar af eign.
 7. Hægt er að skoða heildaráhrif virðisrýrnunarinnar í töflum skulda og eignafærslna. Taktu eftir að kostnaður virðisrýrnunar hefur lækkað fyrir afnotaréttinn af eign en bókfært virði leiguskuldbindingarinnar hefur ekki breyst.

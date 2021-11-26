@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
 ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "6774378"
@@ -128,7 +128,7 @@ Flest upprunakerfi geta veitt gögn sem samsvara einum eða fleiri gagnaveitum �
 |---|---|---|---|
 | Víddarstök kostnaðareiningar  |  Já | Já  | Já  |
 |  Víddarstök kostnaðarhluta |  Já | Já  | Já  |
-|  Tölfræðileg víddarstök | Já  | Númer  | Númer  |
+|  Tölfræðileg víddarstök | Já  | Nei  | Nei  |
 |  Fjárhagur | Já  | Já  | Já  |
 |  Færslur fjárhagsáætlunar  | Já  | Já  | Já  |
 |  Tölfræðiaðgerðir | Já  | Já  | Já  |

@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
 ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/24/2021
 ms.locfileid: "7414715"
@@ -142,8 +142,8 @@ Með svo mörgum mismunandi aðlögunartækni sem til eru, getur það verið yf
 | DMF pakki REST API   | Já, tímaáætlun í gegnum millitæki        | Async, runa                                | Já                                       | Hátt (hundruð þúsund skráa)                    | API styður alla DMF einingar       |
 | BYOD                   | Já, áætlað af stjórnanda í Human Resources        | Async, runa                                | Nr.<sup>3</sup>                                    | Hátt (hundruð þúsund skráa)                    | Styður alla DMF einingar           |
 | Aðilar sem gera OData kleift | Já, nota millitæki                    | Samstilla                                        | Já, í gegnum Human Resources gagnaþjónustu (OData)  | Mismunandi eftir notkunartilfelli (styður síðuskip fyrir gagnvirka notkun) | Mikill                                |
-| Innbótin Excel           | Nr                                       | Samstilla                                        | Nr                                        | Miðlungs (tugþúsundir skráa)                      | Styður alla aðila sem gera OData kleift |
-| Gagnasamþætting        | Já, tímaáætlun í Gagnasamþættinum        | Async, runa                                | Ekkert                                        | Misjafnt hvað varðar notkun                                       | Styður allar Dataverse töflur           |
+| Innbótin Excel           | Nei                                       | Samstilla                                        | Nei                                        | Miðlungs (tugþúsundir skráa)                      | Styður alla aðila sem gera OData kleift |
+| Gagnasamþætting        | Já, tímaáætlun í Gagnasamþættinum        | Async, runa                                | Nei                                        | Misjafnt hvað varðar notkun                                       | Styður allar Dataverse töflur           |
 
 <sup>2</sup>Microsoft fjárfestir mikið í því að auka gagnaþekju fyrir Dataverse töflur. Við mælum með að nota Dataverse þegar umfjöllun er fyrir hendi. Sem stendur Dataverse gagnaþekja er lítil samanborið við DMF og OData-virkar einingar.
 

@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 448f315b888b63eba74dcb8b47a9b238e371bb2b
 ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/29/2021
 ms.locfileid: "7573490"
@@ -88,9 +88,9 @@ Eftirfarandi tafla sýnir hvaða sölupantanir notendur í hverju vefhlutverki f
 
 | Sölupöntun | Kerfisstjóri | Fulltrúi viðskiptavinar fyrir viðskiptavin&nbsp;X | Heimilaður notandi: Jane | Heimilaður notandi: Sam | Ekki heimilaður notandi: May |
 |---|---|---|---|---|---|
-| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Jane | Já | Já | Já | Ekkert | Ekkert |
-| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Sam | Já | Já | Ekkert | Já | Ekkert |
-| Viðskiptavinur&nbsp;Y Pöntunaraðili:&nbsp;May | Já | Ekkert | Ekkert | Ekkert | Ekkert |
+| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Jane | Já | Já | Já | Nei | Nei |
+| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Sam | Já | Já | Nei | Já | Nei |
+| Viðskiptavinur&nbsp;Y Pöntunaraðili:&nbsp;May | Já | Nei | Nei | Nei | Nei |
 
 > [!NOTE]
 > Þótt bæði Sam og Jane séu tengiliðir sem vinna fyrir viðskiptavin X geta þau aðeins séð þær pantanir sem þau hafa gert og ekkert annað. Þótt May sé með pöntun í kerfinu, getur hún ekki séð pöntunina í viðskiptavinagáttinni því að hún er ekki með heimild. (Auk þess hlýtur hún að hafa verið lagt pöntunina inn í gegnum aðra rás en viðskiptavinagáttina.)
