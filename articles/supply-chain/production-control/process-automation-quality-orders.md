@@ -10,17 +10,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e0840944b7619f870194f6c16e15672bb888546
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: ae0aebc73fc9b5d31409131d78ad1bff7f3771cd
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678544"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860639"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Kalla fram sjálfvirkni ferilflæðis til að stofna gæðapantanir
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 12/1/2021 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 12/1/2021 -->
 
 Aukin krafa er á fyrirtækjum að gera viðskiptaferla sjálfvirka, bjóða upp á þægilegri samskipti við starfsfólkið og nýta sér ýmsar vísbendingar frá gögnum og kerfum til að keyra viðskiptaferla með sjálfvirkum hætti. Með tölvustýrðri sjálfvirknivæðingu ferla (RPA) og Microsoft Power Automate geta fyrirtæki notað viðmót án kóða til að gera endurtekna ferla sjálfvirka og auka þar af leiðandi skilvirkni og nákvæmni.
 

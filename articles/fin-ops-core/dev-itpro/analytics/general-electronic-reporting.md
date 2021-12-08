@@ -2,7 +2,7 @@
 title: Yfirlit yfir rafræna skýrslugerð (ER)
 description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
 author: NickSelin
-ms.date: 09/20/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
-ms.translationtype: HT
+ms.openlocfilehash: 0b772acd4a8d0849803cefa8fc14ae3dd6e18831
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562177"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867281"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -30,11 +30,37 @@ ms.locfileid: "7562177"
 
 Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 
-Rafræn skýrslugerð (ER) er verkfæri sem hægt er að nota til að skilgreina sniðið á rafrænum skjölum á innleið og útleið í samræmi við ákvæði laga mismunandi landa/svæða. ER (rafræn skýrslugerð) gerir þér kleift að stjórna þessum sniðum í lífsferli þeirra. Til dæmis er hægt að taka upp nýjar lagalegar kröfur, og búa til viðskiptaskjöl á tilskildu sniði til að skiptast rafrænt á upplýsingum við stjórnvöld, banka og fleiri aðila.
+ER er stillanlegt tól sem hjálpar þér að búa til og viðhalda rafrænum skýrslum og greiðslum. Það er byggt á eftirfarandi þremur hugtökum:
+
+- Stillingar í stað kóða:
+
+    - Viðskiptanotandi getur gert stillingar og þarf ekki forritara.
+    - Gagnalíkanið er skilgreint í viðskiptaskilmálum.
+    - Sjónrænir ritstjórar eru notaðir til að búa til alla íhluti ER uppsetningar.
+    - Tungumálið sem er notað fyrir umbreytingu gagna líkist tungumálinu sem er notað í Microsoft Excel.
+
+- Ein stilling fyrir marga Dynamics 365 Finance gefur út:
+
+    - Hafa umsjón með einu lénssértæku gagnalíkani sem er skilgreint í viðskiptaskilmálum.
+    - Einangraðu upplýsingar um útgáfu forrits í útgáfuháðum gagnalíkönskortum.
+    - Halda einni sniðstillingu fyrir margar útgáfur af núverandi útgáfu, byggt á gagnalíkaninu.
+
+- Auðveld eða sjálfvirk uppfærsla:
+
+    - Útgáfa ER stillinga er studd.
+    - The Microsoft Dynamics Lifecycle Services (LCS) Eignasafn er hægt að nota sem geymslu fyrir ER stillingar, fyrir útgáfuskipti.
+    - Hægt er að kynna staðsetningar sem byggjast á upprunalegum ER stillingum sem undirútgáfur.
+    - ER stillingartré er til staðar sem tæki sem hjálpar til við að stjórna ósjálfstæði fyrir útgáfur.
+    - Mismunur á staðsetningu, eða delta stillingu, er skráður til að virkja sjálfvirka uppfærslu í nýja útgáfu af upprunalegu ER stillingunni.
+    - Það er auðvelt að leysa handvirkt árekstra sem uppgötvast við sjálfvirka uppfærslu á staðsetningarútgáfum.
+
+ER gerir þér kleift að skilgreina rafræn sniðbyggingu og lýsa síðan hvernig mannvirkin ættu að vera fyllt með því að nota gögn og reiknirit. Þú getur notað formúlumál sem líkist Excel tungumálinu fyrir gagnaumbreytingu. Til að gera kortlagningu gagnagrunns til sniðs viðráðanlegri, endurnýtanlegri og óháð sniðsbreytingum, er hugmyndafræði milli gagnalíkana kynnt. Þetta hugtak gerir kleift að fela útfærsluupplýsingar fyrir sniðkortlagningunni og gerir kleift að endurnýta eitt gagnalíkan fyrir margar sniðvörpingar.
+
+Þú getur notað ER til að stilla snið fyrir bæði komandi og send rafræn skjöl í samræmi við lagaskilyrði ýmissa landa og svæða. Með rafrænni skýrslugerð er hægt að stjórna þessum sniðum á meðan þau eru í notkun. Til dæmis er hægt taka í gagn nýja kröfu samkvæmt reglum og mynda viðskiptaskjöl í nauðsynlegu sniði til að skiptast rafrænt á upplýsingum við stjórnvöld, banka og aðrar aðilum.
 
 Vélar fyrir rafræna skýrslugerð eru ætlaðar fyrir viðskiptanotendur í stað þróara. Þar sem þú skilgreinir snið en ekki kóða eru ferlin við að stofna og stilla snið fyrir rafræn skjöl hraðvirkari og auðveldari.
 
-Á þessum tíma styður ER TEXT, XML Microsoft Word skjöl, og OPENXML snið vinnublaða. Hins vegar veitir viðbótarviðmót stuðning við fleiri snið.
+ER styður nú TEXT, XML, JSON, PDF,Microsoft Word,Microsoft Excel, og OPENXML vinnublaðssnið.
 
 ## <a name="capabilities"></a>Geta
 
@@ -48,6 +74,10 @@ ER-vélin hefur eftirfarandi getu:
 
 ## <a name="key-concepts"></a>Lykilhugtök
 
+### <a name="main-data-flow"></a>Helstu gagnaflæði
+
+[![Aðalgagnaflæði ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
+
 ### <a name="components"></a>Íhlutir
 
 Rafræn skýrslugerð styður eftirfarandi gerðir íhluta:
@@ -59,74 +89,6 @@ Rafræn skýrslugerð styður eftirfarandi gerðir íhluta:
 
 Frekari upplýsingar eru í [Hlutar rafrænar skýrslugerðar](er-overview-components.md).
 
-#### <a name="data-model-and-model-mapping-components"></a>Gagnalíkan og íhlutir líkanavörpunar
-
-Þáttur gagnalíkans er óhlutbundin framsetning á gagnaskipulagi. Hann er notaður til að lýsa tilteknu viðskiptasviði með nægilegum upplýsingum til að tilkynningaskylda fyrir það svið sé uppfyllt. Íhlutir gagnalíkans samanstendur af eftirfarandi hluta:
-
-- <a name="DataModelComponent"></a>Gagnalíkan sem hópur af viðskiptaeiningum fyrir tiltekin svið auk stigskiptra tengslaskilgreininga á milli þessara eininga.
-- <a name="ModelMappingComponent"></a>líkanavörpun sem tengir völdum gagnagjöfum forrits við einstakar einingar gagnalíkans sem tilgreinir, við keyrslutíma, gagnaflæði og reglur viðskiptagagna við þætti gagnalíkans.
-
-Viðskiptaeining gagnalíkans er birt sem geymir (skýrsla). Eiginleikar viðskiptaeininga eru sýndir sem gagnaatriði (svæði). Hvert gagnaatriði hefur einstakt heiti, merki, lýsingu og gildi. Hægt er að hanna virði hvers atriðis svo það sé viðurkennt sem strengur, heiltala, raunverulegt, dagsetning, tölusett, Boole-gildi o.s.frv. Þar að auki getur það verið önnur færsla eða færslulisti.
-
-Einstakur þáttur gagnalíkans getur innihaldið mörg stigveldi sviða sem eru tilgreind eftir viðskiptaeiningum. Einnig getur hann innihaldið líkanavarpanir sem styðja skýrslutengt gagnaflæði á keyrslutíma. Stigveldin verða aðgreind eftir einni færslu sem hefur verið valin sem rót líkanavörpunar. Til dæmis, Gagnalíkan fyrir greiðslusvið gæti stutt eftirfarandi varpanir:
-
-- Fyrirtæki \> Lánardrottinn \> Greiðslufærslur AP-sviðs
-- Viðskiptavinur \> Fyrirtæki \> Greiðslufærslur AR-sviðs
-
-Athugið að viðskiptaeiningar, eins og fyrirtæki og greiðslufærslur, eru búnar til einu sinni. Mismunandi varpanir endurnota þær svo.
-
-Líkanavörpun sem styður rafræn skjöl á útleið hefur eftirfarandi getu:
-
-- Hægt er að nota mismunandi gagnagerðir sem gagnagjafa fyrir gagnalíkan. Til dæmis getur það notað töflur, gagnaeiningar, aðferðir eða upptalningar.
-- Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
-- Stuðningur er fyrir umbreytingu gagna í tilskilda hópa. Það leyfir þér einnig að sía, raða og leggja saman gögn og skeyta við rökrétta útreiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel-formúlum. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)).
-
-Líkanavörpun sem styður rafræn skjöl á innleið hefur eftirfarandi getu:
-
-- Hægt er að nota mismunandi uppfæranlegar gagnaeiningar sem mörk. Á meðal þessara gagnaþátta eru töflur, gagnaeiningar og yfirlit. Hægt er að uppfæra gögnin með því að nota gögnin úr rafrænum skjölum á innleið. Hægt er að nota mörg mörk í einni líkanavörpun.
-- Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
-
-Þáttur gagnalíkans er hannaður fyrir hvert viðskiptasvið sem nota á sem sameinaðan gagnagjafa fyrir skýrslugerð sem einangrar skýrslugerð frá efnislegri innleiðingu gagnagjafa. Hann sýnir viðskiptahugtök fyrir tiltekin svið og virkni í skjámynd sem gerir frumhönnun og frekara viðhald á skýrslugerðarsniði skilvirkara.
-
-#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Sniðsþáttur fyrir rafræn skjöl á útleið
-
-Snið er skema skýrsluúttaks sem myndast á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
-
-- Snið sem skilgreinir skipulag og innihald í rafrænu skjali á útleið sem er myndað á keyrslutíma.
-- Gagnagjafar, sem ílagsfæribreytur notanda og gagnalíkön fyrir tiltekin svið sem nota valda líkanavörpun.
-- Sniðsvörpun, sem safn bindingar fyrir gagnagjafa sniða sem eru með einstakar sniðseiningar sem tilgreina, á keyrslutíma, gagnaflæði og reglur um myndun úttakssniðs.
-- Villuleitarsnið, sem hópur af samskipanlegum reglum sem stýra skýrslugerð á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla sem stöðvar úttaksmyndun fyrir greiðslur lánardrottins og beitir undantekningu þegar tilteknar eigindir valins lánardrottins vantar, eins og númer bankareiknings.
-
-Þáttur sniðs styður eftirfarandi aðgerðir:
-
-- Stofnun skýrslugerðarúttaks sem einstakar skrár í mismunandi sniði, t.d. texti, XML, Microsoft Word-skjal eða vinnublað.
-- Stofnun margra aðgreindra skráa og einnig að steypa þessum skrám saman í ZIP-skrár.
-
-Sniðsþáttur gerir þér kleift að hengja við tilteknar skrár sem hægt er að nota í skýrslugerðarúttaki:
-
-- Excel-vinnubækur Sem inniheldur vinnublað sem sem má nota sem sniðmát fyrir úttak á OPENXML vinnublaðssniði;
-- Word-skrár sem innihalda skjal sem hægt er að nota sem sniðmát fyrir úttak í sniði Microsoft Word-skjals.
-- Aðrar skrár sem geta verið felldar inn í úttakssnið sem fyrirfram skilgreindar skrár.
-
-Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
-
-[![Gagnaflæði fyrir sniðsþætti á útleið.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
-
-Til að keyra eina sniðsskilgreiningu fyrir rafræna skýrslugerð og búa til rafrænt skjal til að senda út verður þú að auðkenna vörpun skilgreiningarsniðsins.
-
-#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Sniðsþættir fyrir rafræn skjöl á innleið
-
-Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
-
-- Snið sem skilgreinir skipulag og innihald rafræns skjals á innleið sem inniheldur gögn sem eru flutt inn á keyrslutíma. Sniðsþáttur er notaður til að þátta skjal á innleið á ýmis snið, eins og texta og XML.
-- Sniðsvörpun sem bindur einstakar sniðseiningar í einingar í gagnalíkani fyrir tiltekin svið. Einingarnar í gagnalíkani tilgreina, á keyrslutíma, gagnaflæði og reglur fyrir innflutning gagna úr skjali á innleið og geyma svo gögnin í gagnalíkani.
-- Villuleitarsnið, sem hópur af samskiptanlegum reglum sem stýra gagnainnflutningi á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla sem stöðvar innflutning á gögnum bankayfirlits sem er með greiðslur lánardrottins og beitir undantekningu þegar tilteknar eigindir lánardrottins vantar, eins og auðkenniskóði lánardrottins.
-
-Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
-
-[![Gagnaflæði fyrir sniðsþætti á innleið.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
-
-Til að keyra eina sniðsskilgreiningu til að flytja gögn úr rafrænu skjali á innleið, verður að auðkenna tilætlaða vörpun skilgreiningarsniðsins og einnig samþættingarstað vörpunar líkans. Hægt er að nota sömu vörpun líkans og áfangastaði með mismunandi sniðum fyrir mismunandi gerðir skjala á innleið.
 
 #### <a name="component-versioning"></a>Sögugeymni íhlutar
 

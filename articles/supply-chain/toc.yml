@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations forrit í Frakklandi
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nýjungar eða breytingar
               items:
                 - name: Nýjungar eða breytingar í Finance and Operations-forritum
@@ -2147,7 +2143,7 @@
               items:
                 - name: Setja upp upplýsingar um tilföng verks
                   href: procurement/tasks/set-up-project-resource-information.md
-                - name: Senda inn og samþykkja fjárhagsáætlanir verka
+                - name: Stofna og senda inn verkflæði fjárhagsáætlunar verks
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka
                   href: procurement/tasks/submit-approve-project-budget-revision.md

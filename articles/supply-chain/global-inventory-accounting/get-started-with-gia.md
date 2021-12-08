@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: f5b3c013996253de75cd85c4bcfc52ed159e8f9d
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678860"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860510"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Altækt birgðabókhald gerir kleift að nota meira en eitt birgðabókhald í fjárhagsbókum altæks birgðabókhalds sem búið er að setja upp. Tengja verður hvern fjárhag altæks birgðabókhalds við *viðtekna reglu*. Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:
 

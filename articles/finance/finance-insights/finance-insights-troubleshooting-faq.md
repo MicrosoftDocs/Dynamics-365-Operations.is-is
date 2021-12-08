@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f3cac30a66ff3a74a7f67c11dd9fa14af79d10af
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752618"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827054"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
@@ -35,7 +35,7 @@ ms.locfileid: "7752618"
 
 ### <a name="resolution"></a>Upplausn
 
-Þú gætir verið að nota sniðmát fyrir eldri útgáfu. Áður en útgáfa 10.0.17 er gefin út, hafa viðskiptavinir forskoðað og stillt sniðmát gagnasamþættingar (DI) **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)** með því að nota eininguna **Niðurstaða greiðsluspár (forskoðun)**. Eftir uppfærslu í 10.0.17 og síðar ættir þú að nota DI-sniðmátið fyrir **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops útgáfu 10.0.17 og síðar)** til að ljúka vörpuninni. Ekki er víst að þú getir varpað viðtökudálki DI-sniðmáts fyrr en einingalisti gagnastjórnunar er uppfærður og einingin **Niðurstaða greiðsluspár** birtist þar. Til að uppfæra einingalistann og sýna niðurstöðu greiðsluspár lýkurðu við skref í bæði Microsoft Dynamics 365 Finance og Dataverse (áður þekkt sem Common Data Service \[ CDS\] stjórnendagátt).
+Þú gætir verið að nota sniðmát fyrir eldri útgáfu. Áður en útgáfa 10.0.17 er gefin út, hafa viðskiptavinir forskoðað og stillt sniðmát gagnasamþættingar (DI) **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)** með því að nota eininguna **Niðurstaða greiðsluspár (forskoðun)**. Eftir uppfærslu í 10.0.17 og síðar ættir þú að nota DI-sniðmátið fyrir **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops útgáfu 10.0.17 og síðar)** til að ljúka vörpuninni. Ekki er víst að þú getir varpað viðtökudálki DI-sniðmáts fyrr en einingalisti gagnastjórnunar er uppfærður og einingin **Niðurstaða greiðsluspár** birtist þar. Til að uppfæra einingalistann og sýna niðurstöðu greiðsluspár lýkurðu við skref í bæði Microsoft Dynamics 365 Finance og Dataverse (áður þekkt sem Common Data Service \[CDS\] stjórnendagátt).
 
 ### <a name="in-finance"></a>Í Finance
 
@@ -70,3 +70,26 @@ Virkni sjóðsstreymisspár í reiðufjár- og bankastjórnun og eiginleika sjó
 Fyrst skal setja upp og virkja sjóðsstreymisspá og greiðslugetulykla. Frekari upplýsingar er að finna í [Sjóðstreymisspá](../cash-bank-management/cash-flow-forecasting.md). Ef þessari uppsetningu er lokið en þú sérð ekki niðurstöðurnar sem þú býst við skaltu skoða [Úrræðaleit vegna uppsetningar sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting-tsg.md) til að fá frekari upplýsingar.
 
 Næst skal staðfesta að eiginleiki sjóðsstreymisspár í fjármálainnsýn (**Reiðufjár- og bankastjórnun \> Uppsetning \> Fjármálainnsýn \> Sjóðstreymisspár**) hafi verið virkjaður og að þjálfun gervigreindarlíkansins sé lokið. Ef þjálfuninni er ekki lokið skaltu velja **Spá núna** til að hefja þjálfunarferli líkansins.
+
+## <a name="symptom-why-isnt-the-install-a-new-add-in-button-visible-in-microsoft-dynamics-lifecycle-services"></a>Einkenni: Af hverju er hnappurinn Setja upp nýja viðbót ekki sýnilegur í Microsoft Dynamics Lífsferilsþjónusta?
+
+### <a name="resolution"></a>Upplausn
+
+Fyrst skaltu ganga úr skugga um að **Umhverfisstjóri** eða **Verkeigandi** hlutverki er úthlutað innskráðum notanda í **Öryggishlutverk verkefnisins** sviði inn Microsoft Dynamics Lífsferilsþjónusta (LCS). Uppsetning á nýju viðbótunum krefst eitt af þessum öryggishlutverkum verkefnisins.
+
+Ef réttu öryggishlutverki verkefnisins er úthlutað þér gætirðu þurft að endurnýja vafragluggann til að sjá **Settu upp nýja viðbót** takki.
+
+## <a name="symptom-the-finance-insights-add-in-doesnt-seem-to-be-installing-why-is-that"></a>Einkenni: Finance Insights viðbótin virðist ekki vera að setja upp. Afhverju er það?
+
+### <a name="resolution"></a>Upplausn
+
+Eftirfarandi skref ætti að hafa verið lokið.
+
+- Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
+- Staðfestu að a Dynamics 365 Finance eða samsvarandi leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
+- Staðfestu að eftirfarandi Azure AD app er skráð í Azure AD: 
+
+  | Forrit                  | Auðkenni forrits           |
+  | ---------------------------- | ---------------- |
+  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+  

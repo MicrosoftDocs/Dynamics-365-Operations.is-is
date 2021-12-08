@@ -2,7 +2,7 @@
 title: Stillingar fyrir innsýn í fjármálum
 description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 1/03/2021
+ms.date: 11/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5668d3ddff777645b4f1c6608f025d0c5a63208a
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 6183e8a7500e9deff0ebf6b5dec8842ad4ca94cb
+ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752979"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "7827029"
 ---
 # <a name="configuration-for-finance-insights"></a>Stillingar fyrir innsýn í fjármálum
 
@@ -43,14 +43,34 @@ Fylgja skal eftirfarandi skrefum til að setja upp umhverfin.
 
 2. Ef þú ert að stilla Finance Insights í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn yfir í það umhverfi áður en spár virka. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso kynningargögnin innihalda ekki nógu mörg söguleg gögn til að þjálfa spálíkanið á fullnægjandi hátt. 
 
+## <a name="configure-your-azure-ad-tenant"></a>Stilltu þína Azure AD leigjanda
+
+Azure Active Directory(Azure AD) verður að stilla þannig að hægt sé að nota það með Dataverse og Microsoft Power Platform umsóknir. Þessi uppsetning krefst þess að annað hvort **Verkeigandi** hlutverk eða **Umhverfisstjóri** hlutverki að vera úthlutað til notanda í **Öryggishlutverk verkefnisins** sviði í LCS.
+
+Staðfestu að eftirfarandi uppsetningu sé lokið:
+
+- Þú hefur **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
+- A Dynamics 365 Finance eða samsvarandi leyfi er beitt fyrir notandann sem er að setja upp Finance Insights viðbótina.
+
+Eftirfarandi Azure AD öpp eru skráð í Azure AD.
+
+|  Forrit                             | Auðkenni forrits                               |
+|------------------------------------------|--------------------------------------|
+| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
+    
 ## <a name="configure-dataverse"></a>Skilgreina Dataverse
 
 Fylgdu eftirfarandi skrefum til að stilla Dataverse fyrir fjármálainnsýn.
 
 - Í LCS skal opna síðu umhverfis og staðfesta að hlutinn **Power Platform samþætting** sé þegar uppsettur.
 
-    - Ef hann er þegar uppsettur ætti heiti Dataverse umhverfisins sem tengt er við Finance-umhverfið að vera sýnt.
-    - Ef það er ekki ennþá sett upp skaltu velja **Uppsetning**. Uppsetning á Dataverse umhverfið gæti tekið allt að klukkutíma. Þegar uppsetningunni er lokið, er Dataverse nafn umhverfis sem er tengt við fjármálaumhverfið ætti að vera skráð.
+    - Ef Dataverse hefur þegar verið sett upp, sem Dataverse nafn umhverfis sem er tengt við fjármálaumhverfið ætti að vera skráð.
+    - Ef Dataverse hefur ekki enn verið sett upp, veldu **Uppsetning**. Uppsetning á Dataverse umhverfi getur tekið allt að klukkutíma. Þegar uppsetningunni hefur verið lokið mun Dataverse nafn umhverfis sem er tengt við í fjármálaumhverfinu ætti að vera skráð.
+    - Ef þessi samþætting var sett upp með núverandi Microsoft Power Platform umhverfi skaltu hafa samband við kerfisstjóra til að ganga úr skugga um að tengt umhverfi sé ekki í óvirku ástandi.
+
+        Fyrir frekari upplýsingar, sjá [Að virkja Power Platform sameining](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+
+        Til að fá aðgang að Microsoft Power Platform admin síða, farðu á <https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Stilla innbót fjármálainnsýnar
 
@@ -82,6 +102,6 @@ Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutí
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 
-Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Fjármálainnsýn (Forskoðun)](mailto:fiap@microsoft.com).
+Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Fjármálainnsýn (Preview)](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

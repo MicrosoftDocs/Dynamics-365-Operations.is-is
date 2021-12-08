@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 792245e7821fe2ecb147e2b4756f3178fcdb17d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 1a311b4a304984044a1c3bd3924c129821afbbb9
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569674"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825376"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni
 
@@ -39,7 +39,7 @@ ms.locfileid: "7569674"
 
 Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Dynamics 365 Supply Chain Management. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Supply Chain Management notar síðan tölurnar í öllum aðgerðum.
 
-Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
+Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott vöruauðkenni ætti venjulega að hafa 20 stafi eða færri, en við mælum almennt með því að nota færri en 10 stafi og innihalda ekki fleiri en 5 flokkunarstafi. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
 Þegar Microsoft Dataverse er notað, er afurðarnúmerið í Supply Chain Management einnig afurðarnúmerið í Microsoft Dataverse. Afurðarafbrigði eru samstillt við Dataverse sem einkvæmar afurðir.
 

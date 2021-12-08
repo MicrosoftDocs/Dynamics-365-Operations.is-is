@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: cbac68b79b2a10f05e0e442d4f0aa716e5a04634
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474845"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867248"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Aðaláætlanagerð með eftirspurnarspám
 
@@ -86,9 +86,9 @@ Til að skilgreina þekjuhóp þannig að hann feli í sér eftirspurnarspá ska
 
 Til að hafa spá með í aðaláætlun og velja aðferðina sem er notuð til að draga úr þörfum samkvæmt spá, skal fara í **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Aðaláætlanir**. Í reitnum **Spárlíkan** skal velja spárlíkan. Í reitnum **Aðferð notuð til að minnka þörf samkvæmt spá** skal velja aðferð. Eftirtaldir valkostir eru í boði:
 
-- Engum
+- Enginn
 - Prósenta - minnkunarlykill
-- Færslur – minnkunarlykill (ekki enn studdur með fínstillingu skipulagningar)
+- Færslur - minnkunarlykill
 - Færslur - breytilegt tímabil
 
 Eftirfarandi hlutar veita frekari upplýsingar um hvern valmöguleika.

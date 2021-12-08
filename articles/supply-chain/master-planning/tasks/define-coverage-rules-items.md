@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15b0ad9faf2bcac25dec01a7ab44f804ad2345cd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
+ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567224"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "7860614"
 ---
 # <a name="define-coverage-rules-for-items"></a>Skilgreina þekjureglur fyrir vörur
 
@@ -113,6 +113,7 @@ Stofnaðu þekjureglur vöru með því að gera eftirfarandi:
 1. Í reitnum **Innkaupatími** skal slá inn ‚5‘.
 1. Veldu **Vista**.
 
-
+> [!NOTE]
+> Fyrir framleidda hluti, **Framleiðslutími** er notað ef engin leið er fyrir hlutinn. Ef virk leið hefur verið tengd vörunni mun aðalskipulag tímasetja pöntunina og reikna út dagsetningar hennar í samræmi við leiðartíma og getu tilfönganna (ef við á).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

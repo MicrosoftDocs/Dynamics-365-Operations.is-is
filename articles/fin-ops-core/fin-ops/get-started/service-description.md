@@ -2,19 +2,19 @@
 title: Lýsing á þjónustu fyrir Finance and Operations-forrit
 description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
 author: tomhig
-ms.date: 09/29/2021
+ms.date: 11/17/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
+ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
+ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581817"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "7825401"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
 
@@ -50,7 +50,7 @@ Rekstrarlíkan Finance and Operations-forrita skilgreinir tiltekin hlutverk og �
 
 ### <a name="customer-activities"></a>Verkþættir viðskiptavinar
 
-Viðskiptavinir vinna með samstarfsaðila sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) með því að fylgja [Success by Design](/dynamics365/fasttrack/success-by-design-overview)-rammanum og nota verkfæri og sniðmát fyrir bestu starfsvenjur sem veitt eru í [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) til að innleiða lausn sína. Almennar aðgerðir eru m.a.:
+Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) eftir [Dynamics 365 Innleiðingarhandbók](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), hinn [Success by Design](/dynamics365/fasttrack/success-by-design-overview) ramma, og verkfærin og sniðmát fyrir bestu starfsvenjur sem er að finna í [Lífsferilsþjónusta](../../dev-itpro/lifecycle-services/lcs.md) að innleiða lausn þeirra. Almennar aðgerðir eru m.a.:
 
 - Notandaauðkenni og öryggisstjórnun
 - Skilgreina, þróa og reka viðskiptaferla
@@ -66,7 +66,7 @@ Microsoft hefur umsjón með Finance and Operations-þjónustunni með því að
 **Stjórnun tölvukerfa**
 - Öryggi og einangrun
 - Stýrikerfi og sýndartækni
-- Þjónar, geymsla og nettenging
+- Netþjónar, geymsla og netkerfi
 - Gagnamiðstöðvarafl, nettenging, kæling
 
 **Stjórnun forritsverkvangs**

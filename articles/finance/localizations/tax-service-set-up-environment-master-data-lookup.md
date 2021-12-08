@@ -2,7 +2,7 @@
 title: Virkja aðalgagnauppflettingu fyrir skattaútreikningsstillingar
 description: Þetta efnisatriði útskýrir hvernig á að setja upp og virkja uppflettivirkni skattaútreiknings aðalgagna.
 author: kai-cloud
-ms.date: 11/03/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dafeac01aaff62cbbd5ce6ecb0af0ef111f513b2
-ms.sourcegitcommit: 76fe020f9c5f4e5cc2e93f5ccb3b040f12b0363e
+ms.openlocfilehash: 455e8becfdfa910a3733719653e1a91557b2f59a
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749511"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867353"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Virkja aðalgagnauppflettingu fyrir skattaútreikningsstillingar 
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp og virkja uppflettivirkni skattaútreiknings aðalgagna. Fellilisti er tiltækur til að velja gildi í skattreikningsskilgreiningu fyrir reiti eins og **Reikningur söluaðila**, **·**, og **Afhendingartími**. Þessi gildi koma frá tengdu Microsoft Dynamics 365 Finance umhverfi með því að nota Microsoft Dataverse gagnaheimild.
+Þetta efnisatriði útskýrir hvernig á að setja upp og virkja uppflettivirkni skattaútreiknings aðalgagna. Fellilisti er tiltækur til að velja gildi í skattreikningsskilgreiningu fyrir reiti eins og **Lögaðili**, **söluaðila**, **·**, og **Afhendingartími**. Þessi gildi koma frá tengdu Microsoft Dynamics 365 Finance umhverfi með því að nota Microsoft Dataverse gagnaheimild.
+
+> [!NOTE] 
+> Uppflettivirkni skattaútreiknings aðalgagna er valfrjáls virkni. Þú getur sleppt eftirfarandi skrefum ef þú slekkur á **Skattþjónusta Dataverse stuðningur við gagnasafn** eiginleiki í Regulatory Configuration Service (RCS). Hins vegar, í því tilviki, verður fellilistinn ekki tiltækur í skattaútreikningsstillingunum.
 
 1. Settu upp Microsoft Power Platform samþættingu í Microsoft Dynamics Lifecycle Services (LCS). Frekari upplýsingar er að finna í [Microsoft Power Platform samþætting - Yfirlit innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Eftir að þessu skrefi er lokið birtist heitið á Microsoft Power Platform umhverfi í hlutanum **Power Platform Samþætting**.
 2. Farðu í [Microsoft Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com/environments) og veldu heiti umhverfisins. Vefslóð umhverfis er gefin upp.
@@ -66,16 +69,16 @@ ms.locfileid: "7749511"
 
 9. Veldu **Athuga tengingu** og ljúktu við tengingarferlið. 
 
-    [![ Hnappurinn Athuga tengingu.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
+    [![Hnappurinn Athuga tengingu.](./media/tax-service-setup-environment-for-mater-date-pic1.png)](./media/tax-service-setup-environment-for-mater-date-pic1.png)
 
 10. Farðu í **Rafræn skýrslugerð** > **Skattaskilgreiningar** og flyttu inn skattaskilgreiningar úr [Skattaskilgreiningar](https://go.microsoft.com/fwlink/?linkid=2158352).
 
-    [![ Síða skattaskilgreiningar, tré skattgagnalíkans.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
+    [![Síða skattaskilgreiningar, tré skattgagnalíkans.](./media/tax-service-setup-environment-for-mater-date-pic2.png)](./media/tax-service-setup-environment-for-mater-date-pic2.png)
 
 11. Farður í **Vörpun skattskylds skjallíkans** eða **Dataverse líkanavörpun** ef þú ert að nota skilgreiningu Microsoft og í reitnum **Tengt forrit** skal velja færsluna sem var búin til í skrefi 7.
 12. Stilltu **Sjálfgefið fyrir líkanavörpun** á **Já**.
 
-    [![ Síða líkanavörpunar.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
+    [![Síða líkanavörpunar.](./media/tax-service-setup-environment-for-mater-date-pic3.png)](./media/tax-service-setup-environment-for-mater-date-pic3.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

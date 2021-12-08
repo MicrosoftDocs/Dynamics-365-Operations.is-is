@@ -62,10 +62,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations forrit í Frakklandi
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nýjungar eða breytingar
               items:
                 - name: Nýjungar eða breytingar í Finance and Operations-forritum
@@ -500,6 +496,8 @@
               href: accounts-receivable/customer-aging-snapshot.md
             - name: Aldursgreiningarskýrsla viðskiptavinar
               href: accounts-receivable/customer-aging.md
+            - name: Geymsla aldursgreiningargagna viðskiptavinar
+              href: accounts-receivable/customer-aging-data-storage.md
             - name: Stofna afskriftabók fyrir viðskiptavin
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Umsjón með ítarlegum minnismiðum
@@ -1246,7 +1244,7 @@
               href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Hið opinbera
           items:
-            - name: Heimasíða hins opinbera
+            - name: Hið opinbera – heimasíða
               href: public-sector/public-sector-functionality.md
             - name: Áætlun fyrir virkni hins opinbera
               href: public-sector/plan-public-sector-functionality.md
@@ -1476,6 +1474,10 @@
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Skýrslugerð fyrir Þýskaland
+                          items:
+                            - name: VSK-skýrsla
+                              href: /localizations/emea-deu-vat-declaration-germany.md
                         - name: Skýrslugerð fyrir Holland
                           items:
                             - name: VSK-skýrsla
@@ -2160,11 +2162,13 @@
                       href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Leiðréttingar á afskrift fyrir viðbótarkaup á öðru ári
                   href: localizations/tasks/de-00002-depreciation.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-deu-vat-declaration-germany.md
                 - name: Rafræn innsending VSK-skýrslu (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat í Þýskalandi
                   href: localizations/emea-deu-intrastat.md
-                - name: VSK-skýrsla fyrir Þýskaland
+                - name: VSK-yfirlit
                   href: localizations/emea-de-vat-declaration.md
                 - name: Skýrsla um rafræna reikninga viðskiptavinar
                   href: localizations/emea-deu-e-invoices.md

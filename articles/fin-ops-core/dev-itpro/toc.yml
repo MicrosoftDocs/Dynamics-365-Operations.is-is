@@ -458,6 +458,16 @@
                   href: help/language-locale.md
                 - name: 'Stækka, sérstilla og vinna saman með hjálpinni'
                   href: help/contributor-guide.md
+            - name: Hvað skal hafa í huga við uppsetningu
+              items:
+                - name: Innleiðingarvalkostir skýs fyrir opinbera geirann og staðbundna notendur fyrir Dynamics 365 Finance og Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance og Supply Chain Management í Government Community Cloud (GCC) fyrir Bandaríkin
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance og Supply Chain Management rekið af 21Vianet í Kína
+                  href: deployment/china-local-deployment.md
+                - name: Finance and Operations-forrit í Frakklandi
+                  href: deployment/france-local-deployment.md
         - name: Þróa og sérstilla
           items:
             - name: Þróa og sérstilla heimasíðu
@@ -1118,6 +1128,8 @@
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Skoða gögn aðila
+                      href: data-entities/dual-write/view-party.md
                     - name: Samþætting athugasemdar
                       href: data-entities/dual-write/notes-integration.md
                     - name: Vörpunartilvísun
@@ -1584,7 +1596,7 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Búa til runuvinnslur
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Virkja sjálfvirkar tilraunir á runuvinnslum
+                - name: Gera runutilraunir virkar
                   href: sysadmin/retryable-batch.md
                 - name: Afrita runuvinnslu
                   href: sysadmin/copy-batch-job.md

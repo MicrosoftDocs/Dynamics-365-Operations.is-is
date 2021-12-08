@@ -74,10 +74,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar fyrir innleiðingu Commerce Data Exchange
                   href: dev-itpro/implementation-considerations-cdx.md
-                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
-                  href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations-forrit í Frakklandi
-                  href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Fá aðstoð
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Uppfærsla og N-1 stuðningur
@@ -1274,6 +1270,8 @@
               href: set-up-rfm-analysis.md
             - name: Setja upp Microsoft Clarity í Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Commerce-greining (forútgáfa)
+              href: commerce-analytics.md
         - name: Staðfæring
           items:
             - name: Yfirlit fjárhagssamþættingar fyrir Commerce-rás
@@ -1412,6 +1410,10 @@
                   href: localizations/rus-fpi-sample.md
                 - name: Upplýsingastjórnun viðskiptavinar fyrir Rússland
                   href: localizations/rus-customer-information.md
+            - name: Sádi-Arabía
+              items:
+                - name: Búa til QR-kóða og prenta þá á kvittanir fyrir Sádi-Arabíu
+                  href: localizations/emea-sau-qr-code.md
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
@@ -2536,6 +2538,8 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Bestu starfsvenjur kembingar fyrir þróun Dynamics 365 Commerce
                       href: e-commerce-extensibility/debugging-best-practices.md
+                    - name: Prófa síður á svæðum fyrir rafræn viðskipti fyrir minnisleka
+                      href: e-commerce-extensibility/memory-leak-detection.md
             - name: Retail SDK
               items:
                 - name: Flytja í Commerce SDK
