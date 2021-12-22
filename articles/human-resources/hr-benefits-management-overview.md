@@ -2,7 +2,7 @@
 title: Yfirlit fríðindastjórnunar
 description: Í þessu efnisatriði er að finna yfirlit yfir fríðindastjórnun í Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
-ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
-ms.translationtype: HT
+ms.openlocfilehash: dc06fd2ef4992b4ef2e20ace4f5c6bcc0bffb9d2
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7417410"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892503"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
@@ -109,21 +109,29 @@ Frekari upplýsingar um hvernig á að setja upp fríðindaáætlanir er að fin
 
 ## <a name="configure-required-employee-information"></a>Skilgreina nauðsynlegar upplýsingar um starfsmann
 
-Áður en hægt er að skrá starfsmenn í fríðindi þarf að leggja fram tilskildar upplýsingar fyrir þá. Allir starfsmenn verða að vera með stöðu. Þú verður að skrá starfsmenn í launafyrirkomulag fastra launa á upphafsdegi þeirra, eða þeir verða að vera með árleg launatengd fríðindi. Auk þess þarf í hlutanum **Atvinnuupplýsingar** á síðunni **Starfskraftur** að velja gildi í reitnum **Greiðslutíðni fríðinda**.
+Áður en hægt er að skrá starfsmenn í fríðindi þarf að leggja fram tilskildar upplýsingar fyrir þá. 
 
-Ef um er að ræða starfsmann sem fær viðbótarlaun líkt og þóknanir er hægt að bæta við **Árleg launatengd fríðindi** upphæð úr starfsmannafærslu. Human Resources notar **Árleg launatengd fríðindi** upphæð við ákvörðun tryggingaupphæðar, í stað árlega upphæð fastra launa. **Árleg launatengd fríðindi** verða að gilda frá upphafsdagsetningu starfsmanns eða frá upphafi fríðindatímabilsins, hvort sem kemur á eftir. Ef bæði föst laun og upphæð árlegra launatengdra fríðinda eru skráð fyrir starfsmann verða árleg launatengd fríðindi notuð við ákvörðun á tryggingaupphæðum.
+Starfsmaður skal hafa a **Staða** þeim úthlutað. A **Staða** er hægt að úthluta starfsmanni á **Vinnumaður** eða the **Staða** síður með því að uppfæra **Starfsmannaverkefni**. 
+
+Næst verða starfsmenn að vera skráðir í fasta launaáætlun á upphafsdegi eða hafa **Árleg hlunnindi laun** magn. Áður en úthlutað er **Fastar bætur** til starfsmanns, a **Staða** verður að úthluta. 
+
+> [!NOTE] 
+> The **Fastur upphafsdagur bóta** getur ekki verið fyrir **Úthlutunardagur stöðu**.
+
+Að öðrum kosti, ef þú ert með starfsmann sem fær viðbótarlaun eins og þóknun, geturðu bætt við a **Hagur árslaun** upphæð úr starfsmannaskrá. Mannauður mun nota **Hagur árslaun** fjárhæð við ákvörðun tryggingafjárhæða, í stað þess **Fastar bætur árlegar** magn. **Árleg launatengd fríðindi** verða að gilda frá upphafsdagsetningu starfsmanns eða frá upphafi fríðindatímabilsins, hvort sem kemur á eftir. Hins vegar er ekki krafist stöðu til að úthluta **Hagur árslaun**. Til að virkja **Hagur árslaun** lögun, farðu í **Mannauður sameiginlegar breytur** síðu, á **Stjórnun fríðinda** flipa. Sjálfgefið er slökkt á þessum eiginleika.
+
+> [!IMPORTANT]
+> Ef bæði a **Fastar bætur** og a **Hagur árslaun** upphæð er færð fyrir starfsmann, sem **Hagur árslaun** verður notað við ákvörðun tryggingafjárhæða. Í **Upplýsingar um ráðningu** kafla í **Vinnumaður** síðu, þú verður að velja gildi í **Launatíðni bóta** sviði.
 
 ## <a name="configure-optional-employee-information"></a>Skilgreina valfrjálsar upplýsingar um starfsmann
-
 Þegar þú býrð til bótaáætlun þar sem notast er við tíðni sem byggist á kyni eða aldri, verður þú að færa inn fæðingardag og kyn starfsmanns til að reikna út fríðindakostnaðinn.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Vinna úr starfsmönnum til að ákvarða hæfi
+Áður en hægt er að skrá starfsmenn í áætlanir er úrvinnsla á hæfi keyrð til að skera úr um hvaða áætlanir eru gjaldgengar fyrir þá. Þú getur skoðað niðurstöður hæfisferlisins í **Skoðari vinnsluniðurstöðu**. Frekari upplýsingar er að finna í [Vinna úr fríðindahæfni](hr-benefits-process-enrollment-eligibility.md).
 
-Áður en hægt er að skrá starfsmenn í áætlanir er úrvinnsla á hæfi keyrð til að skera úr um hvaða áætlanir eru gjaldgengar fyrir þá. Hægt er að skoða niðurstöður hæfisferlisins í niðurstöðuskoðun vinnslunnar. Frekari upplýsingar er að finna í [Vinna úr fríðindahæfni](hr-benefits-process-enrollment-eligibility.md).
+## <a name="employees-select-plans-using-employee-self-service-optional"></a>Starfsmenn velja áætlanir með því að nota **Sjálfsafgreiðsla starfsmanna** (valfrjálst)
 
-## <a name="employees-select-plans-via-employee-self-service-optional"></a>Starfsmenn velja áætlanir í gegnum sjálfsafgreiðslu starfsmanna (valfrjálst)
-
-Þegar opin skráning á sér stað, starfsmenn eru nýráðnir eða viðburður á sér stað geta starfsmenn valið eða uppfært fríðindin sín í gegnum sjálfsafgreiðslu starfsmanna. Frekari upplýsingar er að finna í [Skilgreina sjálfsafgreiðslu starfsmanna](hr-benefits-setup-employee-self-service.md).
+Þegar opin skráning á sér stað, starfsmenn eru nýráðnir eða lífsatburður á sér stað, geta starfsmenn valið eða uppfært kjör sín með því að nota **Sjálfsafgreiðsla starfsmanna**. Frekari upplýsingar er að finna í [Skilgreina sjálfsafgreiðslu starfsmanna](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Staðfesta val starfsmannaáætlunar
 

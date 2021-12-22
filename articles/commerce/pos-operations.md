@@ -2,7 +2,7 @@
 title: Aðgerðir sölustaðar (POS) með og án nettengingar
 description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Dynamics 365 Commerce. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
-ms.date: 02/21/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc4835258c7a1968c51e4d1a3a4d0eb33aaf2cddf31efd965adff0ac80aa4ec1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88daca466e0e01bf3870b6eeee0628e0c159fea3
+ms.sourcegitcommit: 971456c197820421f108ad7345001cc1b6c99949
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745285"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "7875478"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
 [!include [banner](includes/banner.md)]
 
-Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Dynamics 365 Commerce. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
+Flestar aðgerðir sem notendur grípa til á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Dynamics 365 Commerce. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
 
 Eftirfarandi tafla veitir upplýsingar um aðgerðir sem eru í boði í Modern POS og Cloud POS. Taflan tilgreinir einnig hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltækar þegar POS er í ótengdum ham.
 
@@ -72,18 +72,17 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 121 | Hreinsa sölumann | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Nei |
 | 1055 | Loka vakt | Loka núverandi vakt, prenta Z skýrslu og skrá notandann út úr kerfinu. | Já | Já | Já | Nei | Nei |
 | 139 | Ljúka við færslu | Biður notanda um að velja greiðslumáta | Já | Já | Nei | Já | Nei |
-| 620 | Stofna pöntun viðskiptavinar | Umbreyta POS viðskiptum í pöntun viðskiptavinar. | Já | Já | Nei | Já\* | Nei |
 | 925 | Afritið bankaávísunina | Þessi aðgerð er ekki studd. | Á ekki við | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Já |
 | 620 | Stofna pöntun viðskiptavinar | Umbreyta POS viðskiptum í pöntun viðskiptavinar. | Já | Já | Nei | Já\* | Nei |
 | 621 | Stofna tilboð | Umbreyta POS viðskiptum í sölutilboð. | Já | Já | Nei | Já\* | Nei |
-| 636 | Stofna smásölufærslu | Þessi aðgerð gerir notandanum kleift að búa til staðlaða söluviðskipti þegar sjálfgefið POS hegðunin felst í því að búa til pantanir viðskiptavina. | Já | Já | Nei | Já | Nei |
+| 636 | Stofna smásölufærslu | Stofna staðlaða sölufærslu þegar sjálfgefna POS hegðun er að búa til pantanir viðskiptavina. | Já | Já | Nei | Já | Nei |
 | 600 | Viðskiptavinur | Bæta tilgreindum viðskiptavini við færsluna. | Nei | Nei | Nei | Já | Nei |
 | 1100 | Innborgun á viðskiptavinalykil | Greiða inn á lykil viðskiptamanns. | Já | Já | Já | Já | Já |
-| 612 | Nýr viðskiptavinur | Þessi aðgerð gerir notandanum kleift að stofna nýja skráningu viðskiptavinar. | Já | Já | Já | Já† | Nei |
+| 612 | Nýr viðskiptavinur | Búðu til nýja viðskiptaskrá. | Já | Já | Já | Já† | Nei |
 | 603 | Viðskiptavinarhreinsun | Fjarlægja viðskiptavin af núgildandi færslu. | Já | Já | Nei | Já | Nei |
-| 602 | Viðskiptavinaleit | Þessi aðgerð gerir notandanum kleift að leita að skráningu viðskiptavinar með því að fara á leitarsíðu viðskiptavina í POS. | Já | Já | Já | Já | Nei |
-| 609 | Færslur viðskiptavinar | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Nei |
-| 917 | Staða gagnagrunnstengingar | Þessi aðgerð gerir notandanum kleift að skoða núverandi tengistillingar og skipta á milli þess að vera með og án nettengingar. | Já | Já | Já | Já | Nei |
+| 602 | Viðskiptavinaleit | Leitaðu að viðskiptavinaskrá með því að fara á leitarsíðu viðskiptavina í POS. | Já | Já | Já | Já | Nei |
+| 609 | Færslur viðskiptavinar | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Á ekki við | Á ekki við | Nei |
+| 917 | Staða gagnagrunnstengingar | Skoðaðu núverandi tengistillingar og skiptu á milli nettengingar og ótengdra stillinga. | Já | Já | Já | Já | Nei |
 | 1200 | Skilgreina upphafsupphæð | Tilgreina upphæð í peningaskúffu við upphaf dags eða vaktar. | Já | Já | Já | Já | Nei |
 | 132 | Hnekking innborgunar | Hnekkja sjálfgefinn innborgun fyrir pantanir viðskiptavina. | Já | Já | Nei | Já\* | Nei |
 | 913 | Slökkva á hönnunarstillingu | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Nei |
@@ -96,14 +95,14 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 615 | Breyta tilboði | Muna valið tilboð þannig að hægt sé að breyta því í POS. | Nei | Nei | Nei | Nei | Nei |
 | 518 | Kostnaðarlyklar | Skrá fé sem fjarlægt er úr peningaskúffu vegna tilfallandi kostnaðar. | Já | Já | Já | Já | Nei |
 | 919 | Löng innskráning | Úthluta eða fjarlægja heimild til að skrá sig inn með því að skanna strikamerki eða nota kort. | Já | Já | Já | Já | Nei |
-| 1201 | Skiptimyntarfærsla | Þessi aðgerð gerir notandanum kleift að bæta við aukapeningum í núverandi skúffu eða vakt. | Já | Já | Já | Já | Nei |
+| 1201 | Skiptimyntarfærsla | Bættu viðbótarfé í núverandi skúffu eða vakt. | Já | Já | Já | Já | Nei |
 | 1218 | Þvinga aflæsingu jaðarbúnaðar | Kerfið notar þessa aðgerð í innri vinnslu til að aflæsa POS-jaðarbúnað. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Nei |
 | 520 | Staða gjafakorts | Birta innistæðu gjafakorts. | Já | Já | Nei | Nei | Nei |
 | 708 | Gera tæki óvirkt | Slökktu á núverandi tæki þannig að það sé ekki hægt að nota sem POS skrá. | Nei | Nei | Nei | Nei | Nei |
 | 804 | Aðgerð á innleið | Fáðu aðgang að eiginleikum birgðastjórnunar á innleið. | Já | Nei | Já | Nei| Nei |
 | 517 | Tekjulyklar | Skrá peninga sem settir eru í peningaskúffuna af öðrum ástæðum en sölu. | Já | Já | Já | Já | Nei |
 | 801 | Birgðauppfletting | Fletta upp magn tiltækt, í pöntun, og tiltækt að lofa (ATP) fyrir núgildandi verslun og aðrar tiltækar staðsetninga. | Já | Já | Já | Nei | Nei |
-| 122 | Athugasemd við reikning | Þessi aðgerð gerir notandanum kleift að færa inn athugasemd varðandi núgildandi færslu. | Já | Já | Nei | Já | Nei |
+| 122 | Athugasemd við reikning | Sláðu inn athugasemd um núverandi færslu. | Já | Já | Nei | Já | Nei |
 | 511 | Gefa út kreditreikning | Gefðu út kreditreikning til leggja fram úttektarmiða í stað endurgreiðslu. | Já | Já | Nei | Nei | Nei |
 | 512 | Gefa út gjafakort | Gefa út nýtt gjafakort fyrir tilgreint magn. | Já | Já | Nei | Nei | Nei |
 | 625 | Gefa út vildarkort | Gefa út vildarkort til viðskiptavinar svo að viðskiptavinurinn getur tekið þátt í vildarkerfi verslunar. | Já | Já | Já | Nei | Nei |
@@ -147,42 +146,42 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 1056 | Prenta X | Prenta og X skýrslu fyrir núverandi vakt. | Já | Já | Já | Nei | Nei |
 | 103 | Afurðarathugasemd | Bæta athugasemd við valið línuatriði í færslunni. | Já | Já | Nei | Já | Nei |
 | 100 | Afurðarsala | Bæta tilgreindri afurð við færsluna. | Já | Já | Já | Já | Nei |
-| 108 | Afurðaleit | Þessi aðgerð leyfir notandanum að leita að vöru með því að fara á vöruleitarsíðuna í POS. | Já | Já | Já | Já | Nei |
-| 633 | Lokadagur tilboðs | Þessi aðgerð leyfir notandanum að skoða eða breyta lokadagsetningu á sölutilboði. | Já | Já | Nei | Já\* | Nei |
+| 108 | Afurðaleit | Leitaðu að vöru með því að fara á vöruleitarsíðuna í POS. | Já | Já | Já | Já | Nei |
+| 633 | Lokadagur tilboðs | Skoðaðu eða breyttu fyrningardagsetningu á sölutilboði. | Já | Já | Nei | Já\* | Nei |
 | 627 | Endurreikna | Endurreikna alla pöntunarlínur viðskiptavinar og skatta, byggt á núverandi grunnstillingu. | Já | Já | Nei | Já\* | Nei |
 | 143 | Endurreikna gjöld | Reiknaðu aftur sjálfvirkt gjald fyrir pöntunina. | Já | Já | Nei | Nei| Nei |
-| 515 | Afturkalla pöntun | Þessi aðgerð leyfir notandanum að leita að og muna pantanir viðskiptavinar og sölutilboð. | Já | Já | Já | Nei | Nei |
-| 504 | Afturkalla færslu | Þessi aðgerð leyfir notandanum að kalla aftur upp færslu sem hafði verið frestað áður í núverandi verslun. | Já | Já | Nei | Já‡ | Nei |
-| 305 | Innleysa vildarpunkta | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Já |
-| 635 | Endurgreiða sendingargjöld | Þessi aðgerð gerir notendum kleift að endurgreiða flutningskostnað á pöntun sem hætt var við. | Nei | Nei | Nei | Nei | Nei |
+| 515 | Afturkalla pöntun | Leitaðu að og endurkallaðu pantanir viðskiptavina og sölutilboð. | Já | Já | Já | Nei | Nei |
+| 504 | Afturkalla færslu | Muna áður stöðvuð viðskipti frá núverandi verslun. | Já | Já | Nei | Já‡ | Nei |
+| 305 | Innleysa vildarpunkta | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Á ekki við | Á ekki við | Já |
+| 635 | Endurgreiða sendingargjöld | Endurgreiðsla sendingarkostnaðar á hætt við pöntun. | Nei | Nei | Nei | Nei | Nei |
 | 644 | Fjarlægja afsláttarmiðakóða | Hvetja notandann til að fjarlægja afsláttarmiða með því að velja þau á lista yfir afsláttarmiða sem tengjast viðskiptunum. | Já | Já | Nei | Já | Nei |
 | 1057 | Endurprenta Z | Endurprenta Z-skýrsluna fyrir fyrri vakt eða valda vakt. | Já | Já | Já | Nei | Nei |
 | 1216 | Færið inn nýtt aðgangsorð | Þessi aðgerð gerir notanda sem hefur heimild fyrir endurstillingu aðgangsorðs kleift að endurstilla aðgangsorð annars starfsmanns með því að nota tímabundið aðgangsorð. | Já | Já | Já | Nei | Nei |
-| 1219 | Opna vefslóð í POS | Þessi aðgerð gerir notanda kleift að opna vefslóð, sem stjórnandi hefur stillt, í POS. | Já | Já | Já | Já | Nei | 
+| 1219 | Opna vefslóð í sölustað | Opnaðu stjórnanda stillta vefslóð í POS. | Já | Já | Já | Já | Nei |
 | 109 | Skila afurð | Framkvæma skil á einstaka afurðum. Næsta skannaða afurð er birt sem skiluð vara sem hefur neikvætt magn og verð. | Já | Já | Nei | Já | Nei |
 | 114 | Skilafærsla | Muna fyrri viðskipti út frá kvittunarnúmeri til að skila einhverjum eða öllum vörum. | Já | Já | Já | Já§ | Nei |
 | 1211 | Peningaflutningur í öryggisskáp | Flytja peninga úr afgreiðslukassa í öryggisskáp. | Já | Já | Já | Já | Nei |
 | 516 | Sölureikningur | Þessi aðgerð gerir viðskiptamanni kleift senda greiðslur á valda sölureikninginn. | Já | Já | Nei | Nei | Nei |
-| 502 | Sölumaður | Þessi aðgerð leyfir notandanum að stilla **Sölutaki** gildið á sölupöntun fyrir pantanir viðskiptavina í POS. | Já | Já | Nei | Já\* | Nei |
+| 502 | Sölumaður | Stilltu **Sölumaður** gildi á sölupöntun fyrir pantanir viðskiptavina í POS. | Já | Já | Nei | Já\* | Nei |
 | 2000 | Áætla stjórnun | Þessi aðgerð er ekki enn studd. | Já | Já | Já | Nei | Nei |
 | 2001 | Áætla beiðnir | Þessi aðgerð er ekki enn studd. | Já | Já | Já | Nei | Nei |
 | 622 | Leit | Þessi aðgerð gerir notendum kleift að forsamskipa POS hnappa til að framkvæma leitir út frá hlut, viðskiptavini eða flokki. | Já | Já | Já | Já | Nei |
-| 1213 | Finna sendingaraðsetur | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Nei |
-| 709 | Velja vélbúnaðarstöð | Þessi aðgerð gerir notandanum kleift að velja vélbúnaðarstöð á lista yfir tiltæka vélbúnaðarstöðvar. | Já | Já | Já | Já | Nei |
-| 637 | Stilla sjálfgefinn sölufulltrúa í færslu | Þessi aðgerð gerir notandanum kleift að velja einn af viðurkenndum söluflokkum þóknunar (sölumenn) sem sjálfgefin sölumann fyrir línur sem eru bætt við seinna. | Já | Já | Nei | Já | Nei |
+| 1213 | Finna sendingaraðsetur | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Á ekki við | Á ekki við | Nei |
+| 709 | Velja hardware station | Veldu vélbúnaðarstöð af lista yfir tiltækar vélbúnaðarstöðvar. | Já | Já | Já | Já | Nei |
+| 637 | Stilla sjálfgefinn sölufulltrúa í færslu | Veldu einn af gjaldgengum þóknunarsöluhópum (sölufulltrúar) sem sjálfgefna sölufulltrúa fyrir línur sem bætast við síðar. | Já | Já | Nei | Já | Nei |
 | 105 | Stilla magn | Breyta magni fyrir línuvöru í færslunni. | Já | Já | Nei | Já | Nei |
-| 638 | Stilla sölufulltrúa í línu | Þessi aðgerð gerir notandanum kleift að velja einn af viðurkenndum söluflokkum þóknunar (sölumenn) fyrir línuna sem er valin nú. | Já | Já | Nei | Já | Nei |
+| 638 | Stilla sölufulltrúa í línu | Veldu einn af gjaldgengum þóknunarsöluhópum (sölufulltrúar) fyrir þá línu sem er valin. | Já | Já | Nei | Já | Nei |
 | 630 | Senda allar afurðir | Stilla uppfyllingarhaminn í **Senda** fyrir alla línuatriði. | Já | Já | Nei | Já\* | Nei |
 | 629 | Senda valdar afurðir | Stilltu uppfyllingarhaminn í **Sending** fyrir valdar línur. | Já | Já | Nei | Já\* | Nei |
 | 115 | Sýna færslubók | Sýna færslubók verslunar. Þú getur skoðað viðskipti, endurprentað kvittanir og gjafakvittanir og afturköllun fyrir skil. | Já | Já | Já | Já\*\* | Nei |
-| 802 | Birgðatalning | Þessi aðgerð gerir notandanum kleift að búa til eða breyta brigðatalningabókum fyrir efnislegar birgðir eða endurteknar talningar. | Já | Já | Já | Nei | Nei |
+| 802 | Birgðatalning | Stofna eða breyta birgðatalningarbókum fyrir efnislegar birgðir eða lotutalningar. | Já | Já | Já | Nei | Nei |
 | 401 | Undirvalmynd | Þessi aðgerð tekur notandann í annað tengt hnappahnit. | Já | Já | Já | Já | Nei |
 | 1054 | Ljúka vakt | Ljúka núverandi vakt, þannig að hægt sé að virkja nýja eða aðra vakt á núverandi afgreiðslukassa. | Já | Já | Já | Nei | Nei |
 | 503 | Fresta færslu | Fresta núverandi sölufærslu, svo að hægt sé að afturkalla hana síðar í versluninni. | Já | Já | Nei | Já‡ | Nei |
 | 1004 | Verkskráning | Opna verkskráning til að skrá tæknileg skref í POS | Nei | Nei | Nei | Já | Nei |
-| 1052 | Talning skiptimyntar | Þessi aðgerð gerir notandanum kleift að tilgreina peningaupphæð í skúffunni fyrir hvern talinn greiðslumáta. | Já | Já | Já | Já | Nei |
-| 1210 | Skiptimynt fjarlægð | Með þessari aðgerð er notandanum gert kleift að fjarlægja peninga úr núverandi skúffu eða vakt. | Já | Já | Já | Já | Nei |
-| 920 | Stimpilklukka | Þessi aðgerð gerir notendum kleift að stimpla sig inn og út úr vöktum og hléum. | Já | Já | Já | Nei | Nei |
+| 1052 | Talning skiptimyntar | Tilgreindu peningaupphæðina í skúffunni fyrir hvern talinn greiðslumáta. | Já | Já | Já | Já | Nei |
+| 1210 | Skiptimynt fjarlægð | Fjarlægðu peninga úr núverandi skúffu eða vakt. | Já | Já | Já | Já | Nei |
+| 920 | Stimpilklukka | Kýla inn og kýla úr vinnuvöktum og pásum. | Já | Já | Já | Nei | Nei |
 | 302 | Heildarafsláttarupphæð | Færa skal inn afsláttarupphæð fyrir færsluna. Þessi aðgerð er aðeins notuð fyrir afsláttarvörur og aðeins innan tilgreindra afsláttarmarka. | Já | Já | Nei | Já | Nei |
 | 303 | Heildarafsláttarprósenta | Færa inn afsláttarprósentu fyrir færsluna. Þessi aðgerð er aðeins notuð fyrir afsláttarvörur og aðeins innan tilgreindra afsláttarmarka. | Já | Já | Nei | Já | Nei |
 | 501 | Athugasemd við færslu | Bæta athugasemd við núverandi færslu. | Já | Já | Nei | Já | Nei |

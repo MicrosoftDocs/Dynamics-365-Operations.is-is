@@ -1,5 +1,5 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.23
+title: Forskoðun Dynamics 365 Supply Chain Management 10.0.23 (Janúar 2022)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 7950d225bd528c05c14df108f4d44cef3e348ebb
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: fd6483c86b34d355e3727a95794b7876dc54ec32
+ms.sourcegitcommit: 96515ddbe2f65905140b16088ba62e9b258863fa
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777792"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "7891794"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10023"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.23
+# <a name="preview-of-dynamics-365-supply-chain-management-10023-january-2022"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.23 (Janúar 2022)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,6 +26,7 @@ ms.locfileid: "7777792"
 
 - **Forskoðun forútgáfu:** Október 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Desember 2021
+- **Almennt framboð losunar (sjálfvirk uppfærsla):** Janúar 2022
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
@@ -34,8 +35,8 @@ ms.locfileid: "7777792"
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
 | Altæk aðsetursbók | Skilgreina sjálfgefið ríki/hérað fyrir hvert land/svæði í uppsetningu aðseturs | Nú getur þú skilgreint sjálfgefið ríki/hérað fyrir hvert land/svæði í uppsetningu aðseturs fyrir altæka aðsetursbók. Þegar sjálfgefið ríki/hérað er valið verður það sjálfgefið gildi sem slegið er inn í reitina ríki/hérað þegar þú stofnar nýja færslu sýslu eða borgar fyrir það land/svæði. Sjá einnig [Uppsetning aðseturs](../../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json) | Virkja að sjálfgefnu. |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Gera hlé á verkum í farsímaforriti Warehouse Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis](../warehousing/warehouse-app-detours.md) | Eiginleikastjórnun (*Hjáleiðir forrits vöruhúsakerfis*) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Stighækkaðir reitir vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Skilgreina stighækkaða reiti fyrir skref í fartækinu](../warehousing/warehouse-app-promoted-fields.md)| Eiginleikastjórnun (*Stighækkaðir reitir vöruhúsaforrits*) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Gera hlé á verkum í farsímaforriti Warehouse Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/park-tasks-warehouse-management-mobile-app) | [Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis](../warehousing/warehouse-app-detours.md) | Eiginleikastjórnun (*Hjáleiðir forrits vöruhúsakerfis*) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Stighækkaðir reitir vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Skilgreina stighækkaða reiti fyrir skref í fartækinu](../warehousing/warehouse-app-promoted-fields.md)| Eiginleikastjórnun (*Stighækkaðir reitir vöruhúsaforrits*) |
 | Framleiðsla | [Samþætting framkvæmdarkerfa í framleiðslu](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu](../production-control/mes-integration.md) | Eiginleikastjórnun (*Samþætting framleiðslukerfis*) |
 | Framleiðsla | [Skýrsla um aukaafurðir og hliðarafurðir úr keyrsluviðmóti framleiðslugólfs](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun (*Skýrsla um aukaafurðir og hliðarafurðir úr keyrsluviðmóti framleiðslugólfs*) |
 | Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir forgangsmiðaða áætlanagerð](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Forgangsröðuð áætlun](../master-planning/planning-optimization/priority-based-planning.md) | Eiginleikastjórnun (*Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*) |
@@ -50,9 +51,10 @@ Ef á að kveikja eða slökkva á einhverjum af þessum eiginleikum þarf að g
 |---|---|---|
 | Eignastýring | Mótlyklar fyrir kostnað í færslubókum verkbeiðna | Þessi eiginleiki gerir þér kleift að tilgreina mótlykil fyrir allan kostnað í færslubók verkbeiðni. Hugsanlega tengir þú lánardrottnalykil yfirleitt við hvern kostnað fyrir sig, en aðrar gerðir lykla eru einnig studdar. Hann bætir tveimur nýjum dálkum (**Gerð mótlykils** og **Mótlykill**) við flýtiflipann **Kostnaður** á síðunni **Færslubók verkbeiðni**.|
 | Kostnaðarstýring | Búa til tengd fylgiskjöl fyrir endurmat á sléttun staðalkostnaðar | <p>Þegar birgðafjárhagsbókun (svo sem sölupöntunarreikningur eða birgðafærsla) er gerð veldur þessi eiginleiki því að kerfið býr til sérstakt fylgiskjal fyrir alla tengda hefðbundna endurmatsreikninga vegna rúnnunar kostnaðar og tengir hann við fylgiskjal fjárhagsbókunar sem tengt fylgiskjal.</p><p>Án þessa eiginleika skráir kerfið hefðbundið endurmat á rúnnun staðalkostnaðar á sömu fylgiskjalsbókun. Sú hegðun getur stundum valdið ósamræmi í upplýsingum um dagsetningar, vegna þess að endurmatið notar lotu- eða kerfisdagsetninguna, en fjárhagsfærslur nota bókunardagsetninguna.</p> |
-| Birgða- og vöruhúsakerfi | \[ Rússland\] Bóka fjárhagslegar Storno-birgðafærslur samkvæmt leiðréttingarflaggi í fjárhagsfylgiskjali fyrir sölupantanir | Þessi eiginleiki hefur áhrif á leiðréttingaraðgerð kreditnótu fyrir Rússland. Hann gerir kleift að bóka birgðafærslur fyrir sölureikninga í samræmi við valkost leiðréttingar í fjárhagnum. Þegar þessi eiginleiki er virkjaður er ekki lengur neitt misræmi milli flaggsins **Leiðrétting** í fjárhagsfylgiskjali birgðafærslu og flaggsins **Storno** í birgðafærslum. |
+| Birgða- og vöruhúsakerfi | \[Rússland\] Bóka fjárhagslegar Storno-birgðafærslur samkvæmt leiðréttingarflaggi í fjárhagsfylgiskjali fyrir sölupantanir | Þessi eiginleiki hefur áhrif á leiðréttingaraðgerð kreditnótu fyrir Rússland. Hann gerir kleift að bóka birgðafærslur fyrir sölureikninga í samræmi við valkost leiðréttingar í fjárhagnum. Þegar þessi eiginleiki er virkjaður er ekki lengur neitt misræmi milli flaggsins **Leiðrétting** í fjárhagsfylgiskjali birgðafærslu og flaggsins **Storno** í birgðafærslum. |
 | Birgða- og vöruhúsakerfi | (Rússland) Keyra útreikninga veltuskýrslu birgðastöðu í runu | Fyrir rússneskar staðfæringar á Supply Chain Management býður þessi eiginleiki upp á möguleika á að keyra skýrsluna *Velta birgðastöðu* í runu, geyma hana og skoða skýrslur sem gerðar voru áður. |
 | Birgða- og vöruhúsakerfi | (Rússland) Nota þýðingar á staðartungumál í lands- eða svæðisbundnum aðalskjámyndum í birgðastjórnun | Fyrir rússneskar staðfæringar á Supply Chain Management gerir þessi eiginleiki kleift að nota rússneskar þýðingar fyrir afurðir/vöruheiti og mælieiningar í eftirfarandi útprentunum rússneskra birgða: talningarlista (INV-3), talningarlista (INV-5) og talningarlista (INV-6). |
+| Áætlanagerð | Azure Machine Learning Service fyrir eftirspurnarspá | Þessi eiginleiki gerir Azure Machine Learning Service kleift að búa til eftirspurnarspár byggðar á sögulegum gögnum. Fyrir frekari upplýsingar, sjá [Uppsetning eftirspurnarspár](../master-planning/demand-forecasting-setup.md). |
 | Innkaup og aðföng | Hreinsa uppfærsluferil innkaupapöntunar | Þessi eiginleiki gerir þér kleift að hreinsa upp tímabundnar eldri færslur sem tengjast uppfærslum innkaupapöntunar. Hann bætir nýjum hnappi sem kallast **Hreinsa uppfærsluferil innkaupa** við aðgerðasvæðið á síðunni **Allar innkaupapantanir**. Þessi eiginleiki er sjálfgefið virkur. |
 | Framleiðslustýring | (Forskoðun) Sjálfvirk tiltekt á efni sem virkjað er af vöruhúsi fyrir tiltektarlista sem bókaðir eru sjálfvirkt | Þessi eiginleiki býður upp á sjálfvirka tiltekt og leysa úr birgðavíddum fyrir sjálfvirka bókun á afleiddum og bakfærðum færslubókum tiltektarlista. |
 | Framleiðslustýring | Sannprófa fyrningu hráefna á móti áætluðum notkunardegi | Þessi eiginleiki breytir því hvernig lokadagsetningar eru sannprófaðar þegar tekin er frá runa af hráefni til að nota við framleiðslu. Þegar þessi eiginleiki er virkjaður er lokadagsetning runu sannprófuð gagnvart áætluðum notkunardegi (dagsetningu hráefnis) eins og kemur fram í línu framleiðsluuppskriftar eða formúlulínu runupöntunar. Þegar slökkt er á þessum eiginleika er lokadagsetning runu sannprófuð gagnvart áætluðum afhendingardegi framleiðslu- eða runupöntunar (eins og áður). |

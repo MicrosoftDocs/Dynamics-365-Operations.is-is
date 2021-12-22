@@ -2,7 +2,7 @@
 title: Draga úr afnotarétti af eignum
 description: Þetta efnisatriði lýsir virkninni sem skráir vi og leiðréttir afskriftaráætlun eigna fyrir efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) rekstrarleigusamninga.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 816f65cff77339ef8684c0449ed2e5f0762b17a2e22174412d5ea9f2a1a62069
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723824"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890831"
 ---
 # <a name="impair-right-of-use-assets"></a>Draga úr afnotarétti af eignum
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þegar bókfært verð afnotaréttar af eign er ekki endurheimtanlegt verður hugsanlega að prófa hvort virðisrýrnun verði á eigninni. Þegar ákvarðað er að virðisrýrnun verði á eigninni getur eignarleiga skráð virðisrýrnun og leiðrétt afskriftaráætlunina samkvæmt því. Þetta efnisatriði lýsir virkninni sem skráir virðisrýrnun og leiðréttir afskriftaráætlun fyrir efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) rekstrarleigusamninga. Sama aðferð gildir einnig fyrir leigusamning samkvæmt alþjóðlegum reikningsskilastaðli 16 (IFRS 16).
 
@@ -37,13 +38,16 @@ Eftirstöðvar afnotaréttar af eign verða afskrifaðar á samkvæmt línulegri
 3. Í svarglugganum sem birtist, í reitnum **Upphæð virðisrýrnunar** skal færa inn upphæð virðisrýrnunar eignarinnar. Sláðu inn jákvætt gildi ef draga á úr afnotarétti af eign.
 4. Færið inn dagsetninguna þegar bóka á virðisrýrnunarfærsluna í reitnum **Færsludagsetning**.
 5. Í svæðið **Tímabil sem eftir eru** skal færa inn eftirstandandi fjölda mánaða til afskrifta.
-6. Kveikja skal á færibreytunni **Bóka** ef óskað er eftir því að kerfið bóki sjálfkrafa bókarfærslu kostnaðar virðisrýrnunar. Ef slökkt er á þessari færibreytu stofnar kerfið færsluna en bókar hana ekki. Síðan er hægt að bóka færsluna á síðunni **Færslubækur leigueigna**.
-7. Stillið valkostinn **Forskoðun fyrir bókun** á **Já** til að skoða fyrirhugaða færslu áður en hún er stofnuð eða bókuð.
-8. Stillið valkostinn **Loka bók** á **Já** til að loka leigubókinni. Ekki er hægt að afturkalla þessa aðgerð. Ekki er hægt að bóka færslur á lokaða leigusamninga og ekki er unnt að breyta lokuðum leigusamningum.
-9. Veljið **Í lagi** til að stofna eða bóka virðisrýrnunarfærsluna.
-10. Til að skoða virðisrýrnun afskriftaráætlunar eignar skal opna afskriftaráætlun eigna fyrir viðkomandi leigubók. Eignin verður nú afskrifuð samkvæmt línulegri aðferð á mánaðarfjöld sem þú slóst inn í svæðið **Tímabil sem eru eftir**.
-11. Til að skoða bókarfærslu kostnaðar virðisrýrnunar skal velja **Færslubók eignarleigu** á aðgerðasvæðinu í leigubók virðisrýrnunarinnar. Kerfið stofnar bókarfærslu sem debetfærir bókunarlykil virðisrýrnunarkostnaðar og kreditfærir bókunarlykil leigueignarinnar.
-12. Til að skoða nýtt bókfært virði afnotaréttar af eign skal velja **Eignarfærslur** á aðgerðarsvæði leigubókarinnar.
+6. Stilltu **Forskoðun** möguleika á að skoða fyrirhugaða eignastöðu og fjárhagsfærslu áður en þær eru stofnaðar eða bókaðar.
+7. Stillið valkostinn **Loka bók** á **Já** til að loka leigubókinni. Þú getur afturkallað þessa aðgerð með því að nota **Opinn leigusamningur að nýju** stöðu. Ekki er hægt að bóka færslur á lokaða leigusamninga og ekki er unnt að breyta lokuðum leigusamningum. 
+8. Veldu **Post** til að stofna eða bóka virðisrýrnunarfærsluna.
+
+    > [!NOTE]
+    > Eftir að virðisrýrnunarfærslan er bókuð er ný bókaútgáfa búin til.
+
+9. Til að skoða afskriftaáætlun um virðisrýrnun eigna, opnaðu afskriftaáætlun eigna fyrir leigubókina. Eignin verður nú afskrifuð samkvæmt línulegri aðferð á mánaðarfjöld sem þú slóst inn í svæðið **Tímabil sem eru eftir**.
+10. Til að skoða bókarfærslu kostnaðar virðisrýrnunar skal velja **Færslubók eignarleigu** á aðgerðasvæðinu í leigubók virðisrýrnunarinnar. Kerfið stofnar bókarfærslu sem debetfærir bókunarlykil virðisrýrnunarkostnaðar og kreditfærir bókunarlykil leigueignarinnar. 
+11. Til að skoða nýtt bókfært virði afnotaréttar af eign skal velja **Eignarfærslur** á aðgerðarsvæði leigubókarinnar.
 
 ## <a name="example-of-rou-asset-impairment"></a>Dæmi um virðisrýrnun afnotaréttar af eign
 

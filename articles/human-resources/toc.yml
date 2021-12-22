@@ -4,6 +4,8 @@
     - name: Nýjungar
       items:
         - name: Nýjungar eða breytingar í Human Resources
+          href: hr-whats-new-2021-11-29.md
+        - name: 29. nóvember 2021
           href: hr-admin-whats-new.md
         - name: 5. október 2021
           href: hr-whats-new-2021-10-04.md
@@ -793,6 +795,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Vinna úr breytingum á hlutfalli
                       href: hr-benefits-process-rate-changes.md
+                - name: Val á fríðindum starfsmanns
+                  href: employee-select-benefits-ess.md
                 - name: ACA skýrslugerð
                   href: hr-benefits-management-aca-reports.md
                 - name: Yfirlit yfir fríðindi

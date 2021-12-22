@@ -1,7 +1,7 @@
 ---
 title: Flokkar samstæðulykla og viðbótar samstæðulyklar
-description: Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 Finance.
-author: aprilolson
+description: Þetta efnisatriði veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
+author: panolte
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
@@ -12,25 +12,25 @@ ms.reviewer: roschlom
 ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
-ms.author: aolson
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3e6671e5f3ceff671210011913a3a91194613c7c0e4e1d8e8063e4e27e5f3cf5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 489f5417b6044e02d4711a03a17d6c19031cc2ee
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727421"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883388"
 ---
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Flokkar samstæðulykla og viðbótar samstæðulyklar
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Hópar samstæðulykla og samstæðulyklar til viðbótar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir í Microsoft Dynamics 365 Finance.
+Þetta efnisatriði veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
 
 ## <a name="consolidation-account-groups"></a>Flokkar samstæðulykla
 
-Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Oftast stendur flokkur samstæðulykla fyrir stjórnvaldatilskipaðan bókhaldslykil eða varpar lyklum á flokka sem eru skilgreindir eftir höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn og heiti.
+Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Venjulega táknar samstæðureikningahópur ríkisreikningaskrá. Samstæðureikningahópur getur einnig varpað reikningum við hóp sem er skilgreindur af höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar þú bætir við nýjum hópi slærðu inn einstakt auðkenni fyrir reikningshópinn, auk nafns.
 
 ## <a name="additional-consolidation-accounts"></a>Fleiri samstæðulyklar
 Fleiri samstæðulyklar gera þér kleift að úthluta lykli úr fyrirliggjandi bókhaldslykill til samstæðulykill flokkur. Síðan er hægt að tilgreina samstæðulykill gildi og heiti. 

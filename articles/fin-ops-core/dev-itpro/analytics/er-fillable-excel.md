@@ -2,7 +2,7 @@
 title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
-ms.date: 10/29/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfacc2232201b85a49068ee724b55e71b60eb2be
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
-ms.translationtype: MT
+ms.openlocfilehash: ebe2647bb382421921aa6ffc733953f379a8af10
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731639"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890866"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
 [!include[banner](../includes/banner.md)]
 
-Hægt er að hanna skilgreiningu [rafræns skýrslugerðarsniðs (ER)](general-electronic-reporting.md) sem er með [sniðsþátt](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar sem hægt er að skilgreina til að mynda skjal á útleið á Microsoft Excel-vinnubókarsniði. Nota verður tiltekna sniðsþætti rafrænnar skýrslugerðar í þessum tilgangi.
+Þú getur hannað an [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniðstillingar sem hefur ER sniðshluta sem þú getur stillt til að búa til skjal á útleið í a Microsoft Excel vinnubókarsniði. Nota verður tiltekna sniðsþætti rafrænnar skýrslugerðar í þessum tilgangi.
 
 Til að læra meira um þennan eiginleika skal fylgja skrefunum í efnisatriði [Hanna skilgreiningu fyrir myndun skýrslna í OPENXML-sniði](tasks/er-design-reports-openxml-2016-11.md).
 
@@ -141,8 +141,8 @@ Frá Dynamics 365 Finance útgáfu 10.0.23, getur þú þvingað ER til að reik
 7. Á **Snið** flipa, í **Stilltu línuhæð** reit, veldu gildi til að tilgreina hvort ER ætti að neyða, á keyrslutíma, til að breyta hæð lína í skjali á útleið sem er búið til með breyttu ER sniði:
 
     - **Sjálfgefið** – Notaðu almennu stillinguna sem er stillt í **Sjálfvirk raðhæð** sviði á **Rafrænar skýrslubreytur** síðu.
-    - **Já** – Hneka almennu stillingu og breyta línuhæð á keyrslutíma.
-    - **Nei** – Hnekkja almennu stillingunni og ekki breyta línuhæðinni á keyrslutíma.
+    - **Já** – Hnekkja almennu stillingu og breyta línuhæð á keyrslutíma.
+    - **Nei** – Hneka almennu stillingu og ekki breyta línuhæð á keyrslutíma.
 
 ## <a name="cell-component"></a>Þáttur hólfs
 
@@ -171,7 +171,7 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Þátturinn **PageBreak** þvingar Excel til að byrja nýja síðu. Ekki þarf að nota þennan þátt þegar nota á sjálfgefið blaðsíðutal Excel en mælt er að hann sé notaður þegar Excel á að fylgja viðkomandi sniði rafrænnar skýrslugerðar við blaðsíðutal.
 
-## <a name="page-component"></a><a name="page-component"></a> Síðuþættir
+## <a name="page-component"></a><a name="page-component"></a>Síðuþættir
 
 ### <a name="overview"></a>Yfirlit
 
@@ -179,7 +179,7 @@ Frekari upplýsingar um hvernig á að fella inn myndir og form eru í [Fella in
 
 Ef þú verður að skipta mynduðu skjali í mismunandi hluta, sem hver er með mismunandi síðuskiptingu, getur þú stillt ýmsa **Síðuþætti** í hverjum [Vinnublaðsþætti](er-fillable-excel.md#sheet-component).
 
-### <a name="structure"></a><a name="page-component-structure"></a> Skipulag
+### <a name="structure"></a><a name="page-component-structure"></a>Skipulag
 
 Ef fyrsti hlutinn undir **Síðuþættinum** er [Sviðsþáttur](er-fillable-excel.md#range-component) þar sem eiginleikinn **Eftirlíkingaráttin** er stillt á **Engin eftirlíking** er þetta svið álitið síðuhaus fyrir síðuskiptingu sem byggir á stillingunum á núverandi **Síðuþætti**. Excel-sviðið sem tengist þessum sniðsþætti er endurtekið efst á öllum síðum sem eru myndaðar með því að nota stillingarnar á núverandi **Síðuþætti**.
 
@@ -200,7 +200,7 @@ Ef safn faldaðra **Sviðsþátta** undir **Síðuþættinum** samræmist ekki f
 
 Ef þú vilt að samlagning og talning sem tengist síðuskiptingu reikni út hlaupandi samtölur og samtölur á hverja síðu er mælt með að þú stilltir nauðsynlega gagnagjafann [Gagnasöfnun](er-data-collection-data-sources.md). Til að fræðast um hvernig á að nota **Síðuþáttinn** til að skipta mynduðu Excel-skjali á síður skal klára ferlin í [Hanna snið rafrænnar skýrslugerðar til að síðuskipta mynduðu skjali á Excel-sniði](er-paginate-excel-reports.md).
 
-### <a name="limitations"></a><a name="page-component-limitations"></a> Takmarkanir
+### <a name="limitations"></a><a name="page-component-limitations"></a>Takmarkanir
 
 Þegar þú notar **Síðuþáttinn** fyrir síðuskiptingu Excel færðu ekki að vita endanlegan blaðsíðufjölda í mynduðu skjali fyrr en síðuskiptingunni er lokið. Þú getur þar af leiðandi ekki reiknað út heildarfjölda blaðsíðna með því að nota formúlur rafrænnar skýrslugerðar og prentað út réttan fjölda af blaðsíðum af mynduðu skjali á neinni blaðsíðu á undan síðustu síðunni.
 
@@ -239,7 +239,7 @@ Fyrir einn þátt **Vinnublaðs** er hægt að bæta við ýmsum þáttum **Sí�
 > [!NOTE]
 > Gangið úr skugga um að hver þáttur **Síðufótar** sem bætt er við stakan þátt **Vinnublaðs** sem með mismunandi gildi fyrir eiginleikann **Útlit hauss/fótar**. Annars kemur upp [staðfestingarvilla](er-components-inspections.md#i16). Villuboðin sem birtast láta vita af ósamræminu.
 
-Undir viðbættum þætti **Síðufótar** skal bæta við nauðsynlegum földuðum þáttum **Text\\ String**, **Text\\ DateTime** eða annarri gerð. Skilgreinið bindingarnar fyrir þessa þæti til að tilgreina hvernig fyllt er í síðufótinn.
+Undir viðbættum þætti **Síðufótar** skal bæta við nauðsynlegum földuðum þáttum **Text\\String**, **Text\\DateTime** eða annarri gerð. Skilgreinið bindingarnar fyrir þessa þæti til að tilgreina hvernig fyllt er í síðufótinn.
 
 Einnig er hægt að nota sérstaka [sniðskóða](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) til að sníða efni myndaðs síðufótar á réttan hátt. Til að fá frekari upplýsingar um þessa nálgun skal fylgja skrefunum í [Dæmi 1](#example-1) síðar í þessu efnisatriði.
 
@@ -254,7 +254,7 @@ Einnig er hægt að nota sérstaka [sniðskóða](/office/vba/excel/concepts/wor
 
 ### <a name="update-a-template"></a>Uppfæra sniðmát
 
-Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðgerðasvæðinu til að flytja uppfært sniðmát inn í breytanlegt snið rafrænnar skýrslugerðar. Á meðan á þessu stendur er sniðmáti af valinni einingu **Excel\\ skrá** skipt út fyrir nýtt sniðmát. Efni breytanlegs sniðs rafrænnar skýrslugerðar verður samstillt við efni með uppfærðs sniðmáts rafrænnar skýrslugerðar.
+Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðgerðasvæðinu til að flytja uppfært sniðmát inn í breytanlegt snið rafrænnar skýrslugerðar. Á meðan á þessu stendur er sniðmáti af valinni einingu **Excel\\skrá** skipt út fyrir nýtt sniðmát. Efni breytanlegs sniðs rafrænnar skýrslugerðar verður samstillt við efni með uppfærðs sniðmáts rafrænnar skýrslugerðar.
 
 - Nýr sniðsþáttur rafrænnar skýrslugerðar verður sjálfkrafa stofnaður fyrir hvert Excel-heiti ef sniðsþáttur rafrænnar skýrslugerðar finnst ekki í breytanlega sniðinu.
 - Öllum sniðsþáttum rafrænnar skýrslugerðar verður eytt úr breytanlegu sniði rafrænnar skýrslugerðar ef viðeigandi Excel-heiti finnst ekki fyrir það.
@@ -289,7 +289,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
     > Endurútreikningur formúlu er þvingaður handvirkt þegar myndað skjal er opnað í forskoðun með Excel.
     > Ekki nota þennan valkost ef áfangastaður rafrænnar skýrslugerðar er skilgreindur sem gerir ráð fyrir notkun á mynduðu skjali án forskoðunar þess í Excel (PDF-umbreyting, sending í tölvupósti o.s.frv.) vegna þess að skjalið sem var myndað inniheldur hugsanlega ekki gildi í hólfum sem innihalda formúlur.
 
-## <a name="example-1-format-footer-content"></a><a name="example-1"></a> Dæmi 1: Sníða efni síðufótar
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Dæmi 1: Sníða efni síðufótar
 
 1. Notið uppgefnar skilgreiningar rafrænnar skýrslugerðar til að [mynda](er-generate-printable-fti-forms.md) prentvænt reikningsskjal með frjálsum texta.
 2. Farið yfir síðufót myndaðs skjals. Takið eftir að hann inniheldur upplýsingar um núverandi blaðsíðutal og fjölda blaðsíðna í skjalinu.
@@ -330,6 +330,40 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 6. Búið til prentvænt reikningsskjal með frjálsum texta og skoðið síðufótinn á myndaða skjalinu.
 
     ![Síðufótur á mynduðu skjali skoðaður á Excel-sniði.](./media/er-fillable-excel-footer-4.gif)
+
+## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> Dæmi 2: Lagað EPPlus vandamálið með sameinuðum frumum
+
+Þú getur keyrt ER-snið til að búa til skjal á útleið á Excel vinnubókarsniði. Þegar **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkur í **Eiginleikastjórnun** vinnurými, the [EPPlus bókasafn](https://www.nuget.org/packages/epplus/4.5.2.1) er notað til að búa til Excel úttak. Hins vegar vegna þekktra [Excel hegðun](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) og takmörkun á EPPlus bókasafninu, gætirðu lent í eftirfarandi undantekningu: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“ Til að læra hvers konar Excel sniðmát gætu valdið þessari undantekningu og hvernig þú getur lagað vandamálið skaltu klára eftirfarandi dæmi.
+
+1. Í Excel skjáborðsforritinu skaltu búa til nýja Excel vinnubók.
+2. Á vinnublaði **Blað 1**, bætið við **Titill skýrslu** heiti á frumu **A2**.
+3. Sameina frumur **A1** og **A2**.
+
+    ![Skoðaðu niðurstöður sameiningar reita A1 og A2 í hönnuðu Excel vinnubókinni í Excel skjáborðsforritinu.](./media/er-fillable-excel-example2-1.png)
+
+3. Á **Stillingar** síða, [bæta við nýju ER sniði](er-fillable-excel.md#add-a-new-er-format) til að búa til útleið skjal á Excel vinnubókarsniði.
+4. Á **Sniðhönnuður** síða, [flytja inn](er-fillable-excel.md#template-import) hönnuð Excel vinnubók í bætt ER sniði sem nýtt sniðmát fyrir skjöl á útleið.
+5. Á **Kortlagning** flipann, stilltu bindinguna fyrir **Titill skýrslu** hluti af [Cell](er-fillable-excel.md#cell-component) tegund.
+6. Keyrðu uppsett ER snið. Taktu eftir að eftirfarandi undantekning er hent: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“
+
+    ![Skoðaðu niðurstöðurnar af því að keyra uppsett ER sniðið á síðunni Format designer.](./media/er-fillable-excel-example2-2.png)
+
+Þú getur lagað vandamálið á annan hvorn af eftirfarandi leiðum:
+
+- **Auðveldara en ekki mælt með:** Í **Eiginleikastjórnun** vinnusvæði, slökktu á **Virkjaðu notkun á EPPlus bókasafni í rafrænum skýrslugerð** eiginleiki. Þó að þessi aðferð sé auðveldari gætirðu lent í öðrum vandamálum ef þú notar hana, vegna þess að sum ER-virkni er aðeins studd þegar **Virkjaðu notkun á EPPlus bókasafni í rafrænum skýrslugerð** eiginleiki er virkur.
+- **Mælt með:** Fylgdu þessum skrefum:
+
+    1. Í Excel skjáborðsforritinu skaltu breyta Excel vinnubókinni á einn af eftirfarandi leiðum:
+
+        - Á vinnublaði **Blað 1**, taka frumur úr sameiningu **A1** og **A2**.
+        - Breyttu tilvísuninni fyrir **Titill skýrslu** nafn frá **=Blað1!$A$2** til **=Blað1!$A$1**.
+
+        ![Skoðaðu niðurstöður þess að breyta tilvísuninni í hönnuðu Excel vinnubókinni í Excel skjáborðsforritinu.](./media/er-fillable-excel-example2-3.png)
+
+    2. Á **Sniðhönnuður** síða, [flytja inn](er-fillable-excel.md#template-import) breyttu Excel vinnubókinni í breytanlegt ER snið til að uppfæra núverandi sniðmát.
+    3. Keyrðu breytta ER sniðið.
+
+        ![Skoðaðu skjalið sem búið var til í Excel skjáborðsforritinu.](./media/er-fillable-excel-example2-4.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

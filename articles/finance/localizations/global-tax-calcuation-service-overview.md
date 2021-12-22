@@ -2,7 +2,7 @@
 title: Yfirlit skattaútreiknings
 description: Þetta efnisatriði skýrir heildarumfang og eiginleika skattaútreikningsgetu.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 28b14eba7dd870e80a83f8d31671525b593a09c9
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647058"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892425"
 ---
 # <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
@@ -65,9 +65,23 @@ Skattaútreikningur er í boði á eftirfarandi staðsetningum Azure. Fleiri Azu
 > [!NOTE]
 > Skattaútreikningur styður ekki eldri útgáfu af Dynamics 365, svo sem Dynamics AX 2012 eða uppsetningu á staðnum af Dynamics 365.
 
+## <a name="versions"></a>Útgáfur
+Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn þinn með útgáfunni sem passar við útgáfuna þína fyrir fjármála- eða framboðskeðjustjórnun.
+
+| Útgáfa fjármála eða birgðakeðjustjórnunar | Skattstillingarútgáfa               |
+| --------------- | --------------------------------------- |
+| 10.0.18         | Skattstillingar - Evrópa 30.12.82     |
+| 10.0.19         | Skattaútreikningsstilling 36.38.193 |
+| 10.0.20         | Skattaútreikningsstilling 40.43.208 |
+| 10.0.21         | Skattaútreikningsstilling 40.48.215 |
+| 10.0.22         | Skattaútreikningsstilling 40.48.215 |
+| 10.0.23         | Skattaútreikningsstilling 40.50.221 |
+| 10.0.24         | Skattaútreikningsstilling 40.50.225 |
+
+
 ## <a name="data-flow"></a>Gagnaflæði
 
-Hér er útlistun á gagnaflæðisferlinu fyrir tTax-útreikning. 
+Hér er yfirlit yfir gagnaflæðisferlið fyrir skattútreikning. 
 
 1. Í RCS skaltu skoða og flytja inn skilgreiningar á líkönum skattskyldra skjala og skilgreiningar líkanavörpunar. Ef þú verður að stækka skilgreiningar fyrir ítarlegri aðstæður skaltu skoða [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
 2. Í RCS skaltu búa til eða vinna með skattaeiginleika. Þú getur notað skattaeiginleika til að vinna með skatthlutföll og gildissviðsreglur skatts.
@@ -169,6 +183,10 @@ Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 
 - Japan
 - Malasía
 - Singapúr
+
+Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.24:
+
+- Mexíkó
 
 ## <a name="related-resources"></a>Tengd tilföng
 

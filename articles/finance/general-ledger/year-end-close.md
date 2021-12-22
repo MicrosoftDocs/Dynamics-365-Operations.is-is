@@ -2,7 +2,7 @@
 title: Árslokalokun
 description: Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags.
 author: kweekley
-ms.date: 07/10/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5677ebeee6b8260280d4c9c7c8a7a0e18e7bd78f68a42d23967948a2e75120cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 04eeb8886d74fa8c633d2ac4e9e47aa28a12ee30
+ms.sourcegitcommit: e06b7d4de6d5ee7ae491d437d6c0365608a5380b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778267"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892478"
 ---
 # <a name="year-end-close"></a>Árslokalokun
 
@@ -44,7 +44,7 @@ Við árslokaferlið er hægt að stofna tvær gerðir færslna. Opnunarfærsla 
 Á síðunni **fjárhagsfæribreytur** undir **Lok fjárhagsárs**:
 
 - Valkosturinn **Eyða fyrirliggjandi árslokafærslum þegar ári er lokað aftur** er notaður til að tilgreina hvort eyða eigi kerfismyndaðri opnunarfærslu úr fyrri árslokalokun þegar árslokalokun er keyrð á ný. Ef þessi valkostur er stilltur á **Já** er fyrri opnunarfærslu og valfrjálsri lokunarfærslu eytt og ný opnunar- eða lokunarfærsla er stofnuð á grundvelli gildandi staða. Ef þessi valkostur er stilltur á **Nei** helst fyrri opnunarfærsla og valfrjáls lokunarfærsla, og viðbótar opnunar- eða lokunarfærsla er stofnuð til að flytja stöðurnar áfram úr leiðréttingarfærslum sem bókaðar eru eftir fyrri árslokalokun.
-- Valkosturinn **Stofna lokunarfærslur við flutning** er notaður til að stofna lokunarfærslur á fjárhagsárinu sem verið er að loka til að færa stöður í rekstrarlyklum niður í 0 (núll). Ef þessi valkostur er stilltur á **Já** eru bæði opnunarfærsla og lokunarfærsla stofnaðar. Ef þessi valkostur er stilltur á **Nei** er aðeins opnunarfærsla stofnuð á næsta fjárhagsári til að flytja stöðurnar. Rekstrarstöður verða eftir við lok fjárhagsársins.
+- The **Búðu til lokafærslur meðan á flutningi stendur** valkostur er notaður til að búa til lokafærslur á því reikningsári sem verið er að loka, til að færa innstæður allra aðalreikninga í 0 (núll). Ef þessi valkostur er stilltur á **Já** eru bæði opnunarfærsla og lokunarfærsla stofnaðar. Ef þessi valkostur er stilltur á **Nei** er aðeins opnunarfærsla stofnuð á næsta fjárhagsári til að flytja stöðurnar. Innstæður aðalreikninga standa eftir í lok reikningsárs.
 - Valkosturinn **Stilla stöðu fjárhagsárs lokað varanlega** er notaður til að stilla fjárhagsár á varanlega lokaða stöðu. Notaðu þennan valkost vandlega vegna þess að ekki er hægt að enduropna tímabil sem eru með varanlega lokaða stöðu. Þar af leiðandi er ekki hægt að bóka leiðréttingar á fjárhagsárið. Best er að stilla þennan valkost á **Nei**.
 - Valkosturinn **Fylla verður út fylgiskjalsnúmer** hefur verið fjarlægður. Nú er krafist fylgiskjals þegar ferli árslokalokunar er keyrt. Þá er fylgiskjalsnúmerið slegið inn handvirkt.
 

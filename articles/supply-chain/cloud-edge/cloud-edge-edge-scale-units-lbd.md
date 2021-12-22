@@ -2,7 +2,7 @@
 title: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 description: Þetta efnisatriði útskýrir hvernig hægt er að úthluta kvörðunareiningu jaðars á staðnum með því að nota sérsniðinn vélbúnað og uppsetningu sem byggir á staðbundnum viðskiptagögnum (LBD).
 author: cabeln
-ms.date: 04/22/2021
+ms.date: 11/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f1ab0a2c289f48dd8bfb7529f0dcc694a97f18ea
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
-ms.translationtype: MT
+ms.openlocfilehash: 8913debd614827ef66ded88e0da61663ca9c6b3d
+ms.sourcegitcommit: 29d34f2fd509e2bb27d8572cd57c397d014a8e38
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729076"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7894719"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -51,7 +51,7 @@ Hér er yfirlit uppsetningarferlisins.
 
 Í eftirstandandi hlutum þessa efnisatriðis er að finna frekari upplýsingar um hvernig á að ljúka þessum skrefum.
 
-## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a> Setja upp og nota LBD-umhverfi með tómum gagnagrunni
+## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Setja upp og nota LBD-umhverfi með tómum gagnagrunni
 
 Þetta skref býr til virkt LBD-umhverfi. Hins vegar hefur umhverfið ekki endilega sömu forrits- og verkvangsútgáfur og umhverfi miðstöðvarinnar. Að auki vantar enn sérstillingarnar og þær hafa ekki enn verið virkjaðar sem kvörðunareining.
 
@@ -60,7 +60,7 @@ Hér er yfirlit uppsetningarferlisins.
     > [!IMPORTANT]
     > Lestu afganginn af þessum hluta **áður en** þú lýkur við skrefin í því efnisatriði.
 
-1. Keyrðu eftirfarandi forskrift áður en þú lýsir grunnstillingu þinni í tölvukerfinu\\ ConfigTemplate.xml-skránni:
+1. Keyrðu eftirfarandi forskrift áður en þú lýsir grunnstillingu þinni í tölvukerfinu\\ConfigTemplate.xml-skránni:
 
     ```powershell
     .\Configure-ScriptsForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml
@@ -95,7 +95,7 @@ Hér er yfirlit uppsetningarferlisins.
 
         ```powershell
         # Host URL is your DNS record\host name for accessing the AOS
-        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
+        .\Create-ADFSServerApplicationForEdgeScaleUnits.ps1 -ConfigurationFilePath .\ConfigTemplate.xml -HostUrl 'https://ax.d365ffo.onprem.contoso.com'
         ```
 
     1. Búðu til nýtt Azure Active Directory (Azure AD) forrit sem gerir Alm Orchestration þjónustunni kleift að eiga samskipti við Scale Unit Management þjónustuna.
@@ -107,14 +107,14 @@ Hér er yfirlit uppsetningarferlisins.
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
+1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingar fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
 
-    ![Virkja eiginleika Edge Scale Unit.](media/EnableEdgeScaleUnitFeatures.png "Virkja eiginleika Edge Scale Unit.")
+    ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja Edge Scale Unit eiginleika.")
 
 1. Áður en þú setur upp umhverfið þitt frá LCS skaltu setja upp fordreifingarforskriftina. Frekari upplýsingar er að finna í [Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
-    1. Afritaðu Configure-CloudAndEdge.ps1 forskriftina úr **ScaleUnit** mappa inn **Innviðaforskriftir** til **Handrit** möppu í umboðsskjalageymsluhlutdeild sem var sett upp í umhverfinu. Dæmigerð slóð er \\\\ lbdiscsi01\\ agent\\ Scripts.
-    2. Búðu til **PreDeployment.ps1** forskrift sem mun kalla fram forskriftirnar með því að nota nauðsynlegar færibreytur. Forskrift fyrir uppsetningu verður að vera sett í möppuna **Forskriftir** í samnýttri skráageymslu umboðsmanns. Annars er ekki hægt að keyra hana. Dæmigerð slóð er \\\\ lbdiscsi01\\ agent\\ Scripts\\ PreDeployment.ps1.
+    1. Afritaðu Configure-CloudAndEdge.ps1 forskriftina úr **ScaleUnit** mappa inn **Innviðaforskriftir** til **Handrit** möppu í umboðsskjalageymsluhlutdeild sem var sett upp í umhverfinu. Dæmigerð slóð er \\\\lbdiscsi01\\agent\\Scripts.
+    2. Búðu til **PreDeployment.ps1** forskrift sem mun kalla fram forskriftirnar með því að nota nauðsynlegar færibreytur. Forskrift fyrir uppsetningu verður að vera sett í möppuna **Forskriftir** í samnýttri skráageymslu umboðsmanns. Annars er ekki hægt að keyra hana. Dæmigerð slóð er \\\\lbdiscsi01\\agent\\Scripts\\PreDeployment.ps1.
 
         Innihald forskriftarinnar PreDeployment.ps1 mun líkjast eftirfarandi dæmi.
 
@@ -182,7 +182,7 @@ Hér er yfirlit uppsetningarferlisins.
 
 ## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Settu upp Azure lykilhólf og Azure AD forrit til að gera samskipti milli mælieininga kleift
 
-1. Eftir að umhverfið þitt hefur verið notað skaltu búa til viðbótar Azure AD forrit til að virkja traust samskipti milli miðstöðvarinnar og mælieiningarinnar.
+1. Eftir að umhverfi þitt hefur verið notað skaltu búa til viðbótar Azure AD forrit til að virkja traust samskipti milli miðstöðvarinnar og mælieiningarinnar.
 
     ```powershell
     .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `
@@ -207,14 +207,14 @@ Hér er yfirlit uppsetningarferlisins.
 
 1. Bætið við Azure AD auðkenni forrits sem þú varst að búa til (þegar þú notar Create-SpokeToHubAADApplication.ps1 forskriftina) í Azure AD forritatöflu í miðstöðinni þinni. Þú getur lokið þessu skrefi handvirkt í gegnum notendaviðmótið.
 
-## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a> Hlaða markpökkum upp í eignir LBD-verks í LCS
+## <a name="upload-target-packages-into-lbd-project-assets-in-lcs"></a><a name="upload-packages"></a>Hlaða markpökkum upp í eignir LBD-verks í LCS
 
 Þetta skref undirbýr forritsútgáfu, verkvangsútgáfu og sérstillingar sem verða færðar yfir í kvörðunareiningarumhverfi LBD.
 
 1. Hlaða skal upp sama sameinaða forrits-/verkvangspakkanum og var notaður í umhverfi miðstöðvarinnar í eignasafn LCS-verks á staðnum.
 1. Fáðu afrit af sérsniðna virkjanlega pakkanum sem var notaður í umhverfi miðstöðvarinnar og hladdu honum upp í eignasafn LCS-verks á staðnum.
 
-## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a> Þjónusta LBD-umhverfið með markpökkum
+## <a name="service-the-lbd-environment-with-target-packages"></a><a name="service-target-packages"></a>Þjónusta LBD-umhverfið með markpökkum
 
 Þetta skref samræmir útgáfu forrits, útgáfu verkvangs og sérstillingar í umhverfi LBD-kvörðunareiningar við miðstöðina.
 
@@ -225,7 +225,7 @@ Hér er yfirlit uppsetningarferlisins.
 
     ![Sérstillingarpakkinn valinn.](media/cloud_edge-LBD-LCS-ServiceLBDEnv2.png "Sérstillingarpakkinn þinn valinn")
 
-## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a> Úthluta LBD-kvörðunareiningu jaðars á miðstöð
+## <a name="assign-your-lbd-edge-scale-unit-to-a-hub"></a><a name="assign-edge-to-hub"></a>Úthluta LBD-kvörðunareiningu jaðars á miðstöð
 
 Þú stillir og stjórnar brúnkvarðaeiningunni þinni í gegnum mælikvarðastjórnunargáttina. Fyrir frekari upplýsingar, sjá [Hafa umsjón með mælieiningum og vinnuálagi með því að nota gáttina Scale Unit Manager](./cloud-edge-landing-page.md#scale-unit-manager-portal).
 

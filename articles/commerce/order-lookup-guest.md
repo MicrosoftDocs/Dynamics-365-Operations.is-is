@@ -2,7 +2,7 @@
 title: Virkja uppflettingu pöntunar fyrir gestakaup
 description: Í þessu efnisatriði er lýst hvernig á að virkja uppflettingu pöntunar fyrir greiðsluferli gesta í Microsoft Dynamics 365 Commerce.
 author: stuharg
-ms.date: 09/01/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 639ee670b83198423425d03dad308306c9eed25c
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674977"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891501"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Virkja uppflettingu pöntunar fyrir gestakaup
 
@@ -58,11 +58,21 @@ Flýtiflipinn **Leita að pöntun** á síðunni **Pantanir viðskiptavina** í 
 > [!NOTE]
 > Þessir valkostir skera úr um hvenær persónuupplýsingar á borð við heimilisfang viðskiptavinar og síðustu fjórir tölustafirnir í kreditkortanúmeri viðskiptavinar eru sýndar nafnlausum gestanotendum. Til að vernda friðhelgi skráðra viðskiptavina mælum við með því að þú veljir valkostinn **Aðeins pantanir gesta**. Öruggasti valkosturinn er þó **Aldrei**.
 
-Eftir að þú hefur breytt gildinu í reitnum **Hafa með persónuupplýsingar í uppflettingu gesta á pöntun** þarftu að keyra verk 1070 (**Skilgreining rásar**) í Commerce Headquarters með því að fara í **Smásala og viðskipti \> Upplýsingatækni smásölu og viðskipta \> Dreifingaráætlun**.
+Eftir að þú hefur breytt gildi á **Láttu persónuupplýsingar fylgja með gestapöntun** reit, þú verður að keyra starf 1070 (**Rásarstillingar**) í höfuðstöðvum viðskipta með því að fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**.
 
 ## <a name="configure-the-order-lookup-module"></a>Skilgreina uppflettieiningu pöntunar
 
 Uppflettieining pantana í einingasafni Commerce er notuð fyrir myndræna framsetningu skjámyndar sem gestanotendur nota til að fletta upp á pöntunum. Hægt er að hafa uppflettieiningu pantana með í hólfi meginmáls á hvaða síðu sem er sem krefst ekki innskráningar viðskiptavinar. Frekari upplýsingar um hvernig á að skilgreina eininguna er að finna í [Uppflettieining pantana](order-lookup-module.md).
+
+## <a name="configure-the-order-details-page"></a>Stilltu síðuna með pöntunarupplýsingum
+
+Áður en gestanotendur geta skoðað pöntunarupplýsingar sínar verður að stilla pöntunarupplýsingasíðuna á netverslunarsíðunni þinni þannig að hún krefjist ekki innskráningar. Til að slökkva á innskráningarkröfunni fyrir pöntunarupplýsingasíðuna þína skaltu opna síðuna í Commerce site builder, velja **Sjálfgefin síða (áskilið)** rauf í tré útsýni, og hreinsa **Þarfnast innskráningar?** gátreitinn neðst á eiginleikaglugganum hægra megin.
+
+## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Bættu við tengli til að panta upplýsingar í viðskiptatölvupósti
+
+Í pöntunartengdum tölvupóstum geturðu gefið upp tengil eða hnapp sem fer með viðskiptavini á pöntunarupplýsingasíðuna fyrir pöntunina. Til að bæta við þessum hlekk eða hnappi, búðu til HTML tengil sem vísar á pöntunarupplýsingasíðuna á netverslunarsíðunni þinni og sendu pöntunarstaðfestingarauðkenni og netfang viðskiptavinar sem vefslóðarfæribreytur, eins og sýnt er í eftirfarandi dæmi.
+
+`<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

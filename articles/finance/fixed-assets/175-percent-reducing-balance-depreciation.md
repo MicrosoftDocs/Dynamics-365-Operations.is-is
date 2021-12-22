@@ -1,7 +1,7 @@
 ---
 title: 175 prósenta lækkandi afskrift
-description: Þetta efnisatriði gefur yfirlit yfir 175 prósent afskriftaraðferðina bókfært virði.
-author: saraschi2
+description: Þetta efni sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ae334d05db69b205e1574623afb0bbc59394cbe4091315d1cc2a76cfdcd7cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 99bd47192d389c373b29a98f5344e1e0c1ab04e6
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747132"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883264"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175 prósenta lækkandi afskrift
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur yfirlit yfir 175 prósent afskriftaraðferðina bókfært virði.
+Þetta efni sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
 
 Þegar afskriftaregla fyrir eignir er sett upp og gildið **175% bókfært virði** í reitnum **Aðferð** reitnum á **Afskriftarreglur** síðunni eru eignir sem er úthlutað á þessa afskriftareglu afskrifaðar með sömu prósentu á hverju afskriftatímabili. 
 

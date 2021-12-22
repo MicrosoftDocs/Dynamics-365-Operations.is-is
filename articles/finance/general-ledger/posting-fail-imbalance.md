@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc413f8230849653aef8c2951f1749823edded6e
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 0f1f49a7da2f015d90987587fc251a36cfe82d49
+ms.sourcegitcommit: cd7f1c63f48542a8ebcace7b3d512eb810d4b56e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605430"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "7903251"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Bókun færslubókar mistekst vegna misræmis
 
@@ -52,13 +52,13 @@ Ef fylgiskjal er með aðeins einn færslugjaldmiðil verður samtala debetfærs
 
 Ef allar línur fylgiskjalsins eru með sömu færslugjaldmiðilinn og ef upphæðir færslugjaldmiðilsins eru jafnaðar, staðfestir kerfið að upphæðir bókhaldsgjaldmiðilsins séu jafnaðar. Ef fylgiskjalið er fært inn í erlendum gjaldmiðli er gengið í fylgiskjalslínunum notað til að umreikna upphæðir færslugjaldmiðilsins í bókhaldsgjaldmiðilinn. Fyrst er hver lína fylgiskjalsins umreiknuð og sléttuð í tvo aukastafi. Því næst eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Þar sem hver lína er umreiknuð er ekki víst að samtala debetfærslna og samtala kreditfærslna séu jafnaðar. Engu að síður, ef algildi munarins er innan gildis fyrir **Hámarks auramismunur** sem er skilgreint á síðunni **Færibreytur fjárhags** verður fylgiskjalið bókað og munurinn verður sjálfkrafa bókaður á lykil auramismunar.
 
-Ef fylgiskjalið er með fleiri en einn færslugjaldmiðil er hver lína fylgiskjalsins umreiknuð í bókhaldsgjaldmiðilinn og sléttuð í tvo aukastafi og síðan eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Til að teljast í jafnaðar verða debetfærslur og kreditfærslur að vera jafnaðar, annaðhvort sem umreiknaðar eða þegar sléttunarmunur aura í bókhaldsgjaldmiðli er innifalinn.
+Ef fylgiskjalið er með fleiri en einn færslugjaldmiðil er hver lína fylgiskjalsins umreiknuð í bókhaldsgjaldmiðilinn og sléttuð í tvo aukastafi og síðan eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Til að teljast jafnvægi verða skuldir og inneignir að vera í jafnvægi í bókhaldsgjaldmiðlinum.  Peningamunareikningi er aldrei bætt við skírteinið í bókhaldsgjaldmiðlinum til að koma debet- og inneignunum í jafnvægi. 
 
 ### <a name="reporting-currency"></a>Skýrslugjaldmiðill
 
 Ef allar línur fylgiskjalsins eru með sömu færslugjaldmiðilinn og ef upphæðir færslugjaldmiðilsins eru jafnaðar, staðfestir kerfið að upphæðir skýrslugjaldmiðilsins séu jafnaðar. Ef fylgiskjalið er fært inn í erlendum gjaldmiðli er gengið í fylgiskjalslínunum notað til að umreikna upphæðir færslugjaldmiðilsins í skýrslugjaldmiðilinn. Fyrst er hver lína fylgiskjalsins umreiknuð og sléttuð í tvo aukastafi. Því næst eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Þar sem hver lína er umreiknuð er ekki víst að samtala debetfærslna og samtala kreditfærslna séu jafnaðar. Engu að síður, ef munurinn er innan gildis fyrir **Hámarksaurasléttun í skýrslugjaldmiðlinum** sem er skilgreint á síðunni **Færibreytur fjárhags** verður fylgiskjalið bókað og munurinn verður sjálfkrafa bókaður á lykil auramismunar.
 
-Ef fylgiskjalið er með fleiri en einn færslugjaldmiðil er hver lína fylgiskjalsins umreiknuð í skýrslugjaldmiðilinn og síðan eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Til að teljast í jafnaðar verða debetfærslur og kreditfærslur að vera jafnaðar, annaðhvort sem umreiknaðar eða þegar sléttunarmunur aura í skýrslugjaldmiðli er innifalinn.
+Ef fylgiskjalið er með fleiri en einn færslugjaldmiðil er hver lína fylgiskjalsins umreiknuð í skýrslugjaldmiðilinn og síðan eru línurnar lagðar saman til að finna út samtölu debetfærslna og samtölu kreditfærslna. Til að teljast jafnvægi verða skuldir og inneignir að vera í jafnvægi í skýrslugjaldmiðlinum.  Peningamunareikningi er aldrei bætt við skírteinið í skýrslugjaldmiðlinum til að koma skuldfærslunum og inneignunum í jafnvægi.
 
 ### <a name="example-for-an-accounting-currency-imbalance"></a>Dæmi um ójafnvægi í bókhaldsgjaldmiðli
 

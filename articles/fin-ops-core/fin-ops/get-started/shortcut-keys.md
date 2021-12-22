@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
-ms.date: 11/12/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 969cd6aaf2d7c4cee7bb95029f19741372f915eb
-ms.sourcegitcommit: ab32fc90ea498ce3b629384f78cbe1aee747f157
+ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "7800194"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913519"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations-forritum.
 
@@ -73,7 +72,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Opnaðu rúðu upplýsingakassans (eða færðu bendilinn í rúðu upplýsingakassa ef hún er þegar opin) | Alt+M,B eða Ctrl+F2                        |
 | Loka staðreyndaglugga (með áherslu í rúðu Upplýsingakassa)                         | Esc                                       |
 | Flytja í næsta/fyrri upplýsingareitinn (með áherslu á rúðu upplýsingareits)              | Alt+Shift+Niðurör / Alt+Shift+Uppör |
-| Flytja í &lt; n&gt; th upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt; n&gt; (&lt; n&gt; = 1-9)           |
+| Flytja í &lt;n&gt;th upplýsingareitinn (með áherslu á rúðu upplýsingareits)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Útvíkka upplýsingareit (með áherslu á haus upplýsingareitar)                             | Bil eða Enter                            |
 | Draga saman gildandi upplýsingareit                                                    | Alt+0                                     |
 
@@ -114,11 +113,11 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 |-----------------------------------------------------|----------------------------------------------|
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Flytja í &lt; n&gt; th flipa                         | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1-9)        |
+| Flytja í &lt;n&gt;th flipa                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Flytja í næsta/fyrri flýtiflipa                   | Alt+Shift+Niðurör / Alt+Shift+Uppör    |
-| Flytja í &lt; n&gt; th flýtiflipa                     | Alt+&lt; n&gt; (&lt; n&gt; = 1-9)              |
+| Flytja í &lt;n&gt;th flýtiflipa                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Fara í næsta/fyrra blað (lóðréttur flipi)      | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
-| Fara í &lt; n&gt; th blað (lóðréttur flipi)        | Alt+Shift+&lt; n&gt; (&lt; n&gt; = 1-9)        |
+| Fara í &lt;n&gt;th blað (lóðréttur flipi)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Útvíkka flýtiflipa (með áherslu á haus flýtiflipa) | Bil eða Enter                               |
 | Draga saman gildandi flýtilipa                        | Alt+0                                        |
 | Skipta í hnitalínuyfirlit                                 | Ctrl+Shift+G                                 |
@@ -150,6 +149,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Framkvæma sjálfgefna aðgerð í rúðu<blockquote>[!NOTE] Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.</blockquote> | Færa inn                           |
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
+| Færa núverandi dálk í næstu/fyrri stöðu (með fókus í hauslínunni)                                   | Ctrl+Shift+Hægri ör / Ctrl+Shift+Vinstri ör |
 | Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
 | Breyta stærð núverandi dálks til að efnið passi í hann (með fókus á röð síðuhauss)                                           | A (eða tvísmelltu á dálkstærðarhandfangið) |
 

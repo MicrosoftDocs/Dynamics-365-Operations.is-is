@@ -2,19 +2,19 @@
 title: Lýsing á þjónustu fyrir Finance and Operations-forrit
 description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
 author: tomhig
-ms.date: 11/17/2021
+ms.date: 12/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 262cf00bdca63876c284be40954ca5de559b993a
-ms.sourcegitcommit: f11ad8d7ee8a4d2ee1a1bb601622b50e14955c4a
-ms.translationtype: HT
+ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "7825401"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898390"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
 
@@ -50,7 +50,7 @@ Rekstrarlíkan Finance and Operations-forrita skilgreinir tiltekin hlutverk og �
 
 ### <a name="customer-activities"></a>Verkþættir viðskiptavinar
 
-Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) eftir [Dynamics 365 Innleiðingarhandbók](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), hinn [Success by Design](/dynamics365/fasttrack/success-by-design-overview) ramma, og verkfærin og sniðmát fyrir bestu starfsvenjur sem er að finna í [Lífsferilsþjónusta](../../dev-itpro/lifecycle-services/lcs.md) að innleiða lausn þeirra. Almennar aðgerðir eru m.a.:
+Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) eftir [Dynamics 365 Innleiðingarhandbók](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), hinn [Success by Design](/dynamics365/fasttrack/success-by-design-overview) ramma og verkfærin og sniðmát fyrir bestu starfsvenjur sem er að finna í [Lífsferilsþjónusta](../../dev-itpro/lifecycle-services/lcs.md) að innleiða lausn þeirra. Almennar aðgerðir eru m.a.:
 
 - Notandaauðkenni og öryggisstjórnun
 - Skilgreina, þróa og reka viðskiptaferla
@@ -314,9 +314,9 @@ Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar r
 | Microsoft býður upp á aukaumhverfi í Azure-pöruðu gagnasmiðjunni þegar frumframleiðslutilvikið er tekið í notkun. Frekari upplýsingar eru í [Rekstrarsamfella og endurheimt eftir áföll: Azure-pöruð svæði](/azure/best-practices-availability-paired-regions). | Engum |
 | Microsoft gerir Azure SQL og Azure Blob Storage landfræðilega óháð þegar frumframleiðslutilvikið er tekið í notkun. | Engum |
 | Microsoft býður upp á sjálfvirka öryggisafritun á Azure SQL-gagnagrunnunum. | Engum |
-| <p>Þegar stöðvun á sér stað ákveður Microsoft hvort nota þurfi varakerfi fyrir viðskiptavininn og hvort um gagnatap er að ræða. Gagnatap getur verið allt að fimm sekúndur. Frekari upplýsingar er að finna í [Landfræðileg endurheimt Azure SQL-gagnagrunns](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Ef um gagnatap er að ræða mun Microsoft óska eftir útskráningu viðskiptavinar fyrir varakerfi.</p> | Ef um gagnatap er að ræða gæti viðskiptavinur þurft að framvísa skriflegri útskráningu til að koma varakerfinu af stað. |
+| <p>Þegar stöðvun á sér stað ákveður Microsoft hvort nota þurfi varakerfi fyrir viðskiptavininn og hvort um gagnatap er að ræða. Viðskiptavinir gætu orðið fyrir gagnatapi í allt að 15 mínútur, allt eftir eðli og tímasetningu bilunarinnar. | Ef gagnatap er, gæti viðskiptavinurinn þurft að gefa upp skriflega afskráningu til að koma af stað bilun. |
 | Þegar varakerfi tekur við virkar viðeigandi þjónusta í takmarkaðri stillingu. Ekki er hægt að ræsa uppfærsluviðhald í varakerfisstillingu. | Viðskiptavinurinn getur ekki óskað eftir pakkauppsetningum eða öðrum reglulegum viðhaldsbeiðnum í varakerfisstillingu. |
-| Þegar gagnamiðstöðin kemst aftur í gang stillir Microsoft aftur á framleiðslutilvikið á Azure-svæðinu. Venjulega notkun heldur áfram. | Viðskiptavinurinn gæti þurft að útskrá fyrir skipti til baka til framleiðslutilviksins á Azure-aðalsvæðinu. |
+| Þegar gagnamiðstöðin kemst aftur í gang stillir Microsoft aftur á framleiðslutilvikið á Azure-svæðinu. Venjulega notkun heldur áfram. | Viðskiptavinurinn gæti þurft að skrá sig af við bilun í framleiðslutilvikinu á aðal Azure svæðinu. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations stuðningstilboð
 

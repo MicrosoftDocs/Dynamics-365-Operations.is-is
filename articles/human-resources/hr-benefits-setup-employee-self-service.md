@@ -1,8 +1,8 @@
 ---
-title: Grunnstilla sjálfsafgreiðslu starfsmanns
+title: Stilla sjálfsafgreiðslu starfsmanna
 description: Í Microsoft Dynamics 365 Human Resources, þú getur stillt flísar fyrir toppstig siglingar í sjálfsafgreiðslu starfsmanna.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: 1e0c59eb8db5a97405e87922cc65f3eb74bee48e
+ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423319"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7898441"
 ---
 # <a name="configure-employee-self-service"></a>Grunnstilla sjálfsafgreiðslu starfsmanns
 
@@ -34,21 +34,18 @@ ms.locfileid: "7423319"
 
 2. Veldu **Uppsetning reits fríðindaáætlunar** flipanum og veldu síðan **Nýtt**.
 
-3. Tilgreina gildi fyrir eftirfarandi reiti:
+3. Tilgreinið gildi fyrir eftirfarandi reiti.
 
    | Svæði | Lýsing |
    | --- | --- |
+   | **Gerð kóða áætlunargerðar** | Áætlunargerðin sem birtist þegar þessi flís er valin í **Hagur sjálfsafgreiðslu**. |
    | **Auðkenni reits** | Einkvæmt auðkenni fyrir reitinn. |
-   | **Texti merkis reits** | Textinn sem birtist fyrir reitinn í **Sjálfsafgreiðsla starfsmanna**. |
+   | **Texti merkis reits** | Textinn sem mun birtast fyrir flísina í **Hagur sjálfsafgreiðslu**. |
    | **Lýsing** | Lýsing á rietnum. |
-   | **Internet-fang** | Sláðu inn vefslóðina á síðunni **Sjálfsafgreiðsla starfsmanna**. |
-   | **Stærð reits** | Stærð flísanna: Lítil, meðalstór eða stór. |
-   | **Mark** | Tilgreinir hvort síðan eigi að opna í nýjum glugga eða núverandi glugga. |
    | **Bakgrunnsmynd reits** | Slóðin á myndina sem á að nota fyrir reitinn (valfrjálst). |
-   | **Hefst** | Upphafsdagsetning og tími sem reiturinn ætti að vera tiltækur. |
-   | **Lýkur** | Lokasetning og tími sem reiturinn ætti að vera tiltækur. |
+   | **Fylgstu með opinni skráningu** | Veldu þennan valkost til að fylgjast með framvindu opinnar skráningar fyrir þessa áætlunargerð. Til dæmis gætirðu búið til áætlanir hvar **Áætlunargerð = Annað**. Þessar áætlanir gætu verið valfrjálsar áætlanir sem þú vilt ekki fylgjast með framgangi skráningar. Ef þú velur ekki þessa áætlunargerð verður þessi tegund áætlunar hunsuð þegar fylgst er með framvindu skráningar eða skráningu lokið á **Opin skráning** flipa. Þessi stilling á við áætlunargerðina sem er valin fyrir öll tímabil og lögaðila. |
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
 ## <a name="set-up-a-flex-credit-plan-tile"></a>Settu upp sveigjanlegt lánsféplan
 
@@ -56,21 +53,18 @@ ms.locfileid: "7423319"
 
 2. Veldu **Uppsetning reits sveigjanlegrar útgjaldaáætlunar** flipanum og veldu síðan **Nýtt**.
 
-3. Tilgreina gildi fyrir eftirfarandi reiti:
+3. Tilgreinið gildi fyrir eftirfarandi reiti.
 
    | Svæði | Lýsing |
    | --- | --- |
+   | **Auðkenni fríðindaútgjalda** | Sveigjanleg lánaáætlunin sem mun birtast þegar þessi flís er valin í **Hagur sjálfsafgreiðslu**. |
    | **Auðkenni reits** | Einkvæmt auðkenni fyrir reitinn. |
-   | **Texti merkis reits** | Textinn sem birtist fyrir reitinn í **Sjálfsafgreiðsla starfsmanna**. |
+   | **Texti merkis reits** | Textinn sem mun birtast fyrir flísina í **Hagur sjálfsafgreiðslu**. |
    | **Lýsing** | Lýsing á rietnum. |
-   | **Internet-fang** | Sláðu inn vefslóðina á síðunni **Sjálfsafgreiðsla starfsmanna**. |
-   | **Stærð reits** | Stærð flísanna: Lítil, meðalstór eða stór. |
-   | **Mark** | Tilgreinir hvort síðan eigi að opna í nýjum glugga eða núverandi glugga. |
    | **Bakgrunnsmynd reits** | Slóðin á myndina sem á að nota fyrir reitinn (valfrjálst). |
-   | **Hefst** | Upphafsdagsetning og tími sem reiturinn ætti að vera tiltækur. |
-   | **Lýkur** | Lokasetning og tími sem reiturinn ætti að vera tiltækur. |
+   | **Fylgstu með opinni skráningu** | Veldu þennan valkost til að fylgjast með framvindu opinnar skráningar fyrir þessa áætlunargerð. Til dæmis gætirðu búið til áætlanir hvar **Áætlunargerð = Annað**. Þessar áætlanir gætu verið valfrjálsar áætlanir sem þú vilt ekki fylgjast með framgangi skráningar. Ef þú velur ekki þessa áætlunargerð verður þessi tegund áætlunar hunsuð þegar fylgst er með framvindu skráningar eða skráningu lokið á **Opin skráning** flipa. Þessi stilling á við áætlunargerðina sem er valin fyrir öll tímabil og lögaðila. |
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

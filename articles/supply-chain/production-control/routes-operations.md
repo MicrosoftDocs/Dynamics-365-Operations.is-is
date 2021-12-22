@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b31f949304dfc9cf8723c29c1354c35ff41dbe17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566696"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891954"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -223,7 +223,7 @@ Ef þú tilgreinir einnig tilfangaþarfir hvað varðar hæfni og getu og gerir 
 Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfangaþörfum fyrir aðgerð, gætu viðeigandi tilföng unnið á mismunandi kerfishraða. Þess vegna er tíminn sem þarf til að vinna úr aðgerð mismunandi. Til að leysa þetta vandamál er hægt að nota svæðið **Formúlu** í aðgerðavenslum til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
 
 - **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
-- **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**.
+- **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**. Getugildið er ekki sérstakt fyrir tiltekna mælieiningu og er því ekki umreiknað út frá **Stærðareining** reit, sem er bara lýsandi reitur sem er ekki notaður í útreikningum.
 - **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
 - **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
 

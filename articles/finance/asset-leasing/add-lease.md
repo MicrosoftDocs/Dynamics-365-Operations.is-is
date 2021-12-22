@@ -2,7 +2,7 @@
 title: Bæta við eða afrita leigusamninga (forskoðun)
 description: Þetta efnisatriði lýsir því hvernig á að stofna nýjan leigu með því að færa inn upplýsingar um hana í Eignarleiga eða afrita upplýsingar úr fyrirliggjandi leigu.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2f2e6837819158688f3fd6bc28909a106a05a098ca917cab9032a2d0044042fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee4803c4653b8c2df2cb731652456b1ce2796cd0
+ms.sourcegitcommit: e77d72fde17a43bd1780c265702254011af7407c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761327"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "7893646"
 ---
 # <a name="add-or-copy-leases-preview"></a>Bæta við eða afrita leigusamninga (forskoðun)
 
@@ -35,6 +35,8 @@ Fylgdu þessum skrefum til að búa til leigu á Eignleiga.
 1. Á síðunni **Samantekt leigu**, á aðgerðasvæðinu, skal velja **Nýr**.
 2. Færið inn leiguupplýsingar. Reitir sem eru nauðsynlegir eru með rauðan ramma.
 
+> Upphafsdagur leigugreiðslunnar má ekki vera fyrr en upphafsdagur leigusamnings. Ef þú slærð inn upphafsdagsetningu leigugreiðslunnar sem er fyrr en upphafsdagsetning leigusamningsins færðu villuboð.
+  
 ## <a name="create-a-lease-schedule"></a>Búa til leiguáætlun
 
 Þegar búið er að færa inn upplýsingar fyrir leiguna, skal fylgja þessum skrefum til að stofna leiguáætlun.

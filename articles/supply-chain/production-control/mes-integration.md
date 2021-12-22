@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 14e86a49777eefefae711bfe0d756361b09d69c2
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778450"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891927"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -191,7 +191,7 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`RouteCardLines` kafla í`ProdP
 
 | Heiti reits | Staða | Gerð |
 |---|---|---|
-| `OperationNumber` | Skylda | Skylt, heiltala |
+| `OperationNumber` | Skylda | Heiltala |
 | `OperationPriority` | Valfrjálst | Enum (Aðal\| Annað 1\| Annað 2\| ...\| Secondary20) |
 | `OperationId` | Valfrjálst | Strengur |
 | `OperationsResourceId` | Valfrjálst | Strengur |

@@ -1,7 +1,7 @@
 ---
 title: Skipta eign
 description: Þetta efni útskýrir hvernig skal skipta hlutfalli einnar eignabókar á nýtt eignabók.
-author: saraschi2
+author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJourna
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ac7bc9ae9040f9668c36c570be795ebeb7c6970049ff911b1caeadd06f31d0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a2fbca50342196dd9f5acb53027fb9c0052a81de
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778991"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883544"
 ---
 # <a name="split-a-fixed-asset"></a>Skipta eign
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig skal skipta hlutfalli einnar eignabókar á nýtt eignabók. Það notar hlutverk Bókhaldara og sýnigögn USMF.
+Þetta efni útskýrir hvernig skal skipta hlutfalli einnar eignabókar á nýtt eignabók. 
 
 ## <a name="create-a-new-fixed-asset"></a>Búa til nýja eign
 

@@ -14,12 +14,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.24 (febrúar 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23 (janúar 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.22 (nóvember 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.21 (október 2021)
-                  href: get-started/whats-new-platform-updates-10-0-21.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -232,8 +232,8 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Yfirlit fyrir Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
+            - name: Flytja út í yfirlit fyrir Azure Data Lake
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Grunnstilla útflutning í Azure Data Lake
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-forrit í Azure Data Lake
@@ -406,6 +406,8 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
+                    - name: Uppfæra tilvik SQL Server í Microsoft Dynamics 365 Finance + Operations (on-premises)
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Umboðsmaður á staðnum
                   items:
                     - name: AD FS Microsoft 365 samhæfi
@@ -1012,7 +1014,7 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Samþætting Microsoft Power Platform
           items:
-            - name: Microsoft Power Platform samþætting við Finance and Operations
+            - name: Yfirlit
               href: power-platform/overview.md
             - name: Kveikt á samþættingu Power Platform
               href: power-platform/enable-power-platform-integration.md

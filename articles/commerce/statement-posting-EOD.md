@@ -1,8 +1,8 @@
 ---
 title: Endurbætur á virkni yfirlitsbókunar
 description: Þetta efnisatriði lýsir endurbótum sem hafa verið gerðar á bókun uppgjörs eiginleikanum.
-author: josaw1
-ms.date: 05/14/2019
+author: analpert
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -10,19 +10,20 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: anpurush
+ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49fc9003eae562a155fd8e30345ba4590d36e15b61f9f6a3f0b5896cb720f414
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
+ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772205"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7891444"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
 [!include [banner](includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir fyrsta safni endurbóta sem hafa verið gerðar á bókun uppgjörs eiginleikanum. Þessar endurbætur eru í boði í Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -57,7 +58,7 @@ Auk þess hafa eftirfarandi færibreytur verið kynntar til sögunnar í flýtif
 
 - **Hámarksfjöldi samhliða uppgjörsbókana** - Þessi reitur skilgreinir fjölda runuverka sem verða notuð til að bóka mörg uppgjör. 
 - **Hámarksfjöldi þráða fyrir úrvinnslu pöntunar á hvert yfirlit** - Þessi reitur sýnir hámarksfjölda þráða sem runuvinnsla uppgjörsbókunar notar til að stofna og reikningsfæra sölupantanir fyrir eitt uppgjör. Hámarksfjöldi þráða sem bókunarferli uppgjörs notar verður reiknaður út samkvæmt gildinu í þessari færibreytu margfaldað með gildinu í færibreytunni **Hámarksfjöldi samhliða uppgjörsbókana**. Ef gildið á þessari færibreytu er stillt of hátt getur það haft neikvæð áhrif á afköst bókunarferlis uppgjörs.
-- **Hámarksfjöldi færslulína í uppsöfnun** - Þessi reitur skilgreinir fjölda færslulína sem verða með í einni uppsafnaðri færslu áður en ný er búin til. Uppsafnaðar færslur eru stofnaðar á grunni ólíkra skilyrða uppsöfnunar, t.d. viðskiptavinur, viðskiptadagur eða fjárhagsvídd. Mikilvægt er að hafa í huga að línunum í stakri færslu verður ekki skipt niður milli mismunandi uppsafnaðra færsla. Þetta þýðir að möguleiki er á því að fjöldi lína í uppsafnaðri færslu er örlítið meiri eða minni vegna þátta á borð við fjölda einkvæmra afurða.
+- **Hámarksfjöldi færslulína í uppsöfnun** - Þessi reitur skilgreinir fjölda færslulína sem verða með í einni uppsafnaðri færslu áður en ný er búin til. Uppsafnaðar færslur eru stofnaðar á grunni ólíkra skilyrða uppsöfnunar, t.d. viðskiptavinur, viðskiptadagur eða fjárhagsvídd. Mikilvægt er að hafa í huga að línunum í stakri færslu verður ekki skipt niður milli mismunandi uppsafnaðra færsla. Þetta þýðir að það er möguleiki á því að fjöldi lína í samanlagðri færslu sé aðeins hærri eða lægri miðað við þætti eins og fjölda aðskildra vara.
 - **Hámarksfjöldi þráða til að villuleita í færslum verslunar** - Þessi reitur skilgreinir fjölda þráða sem verður notaður til að villuleita færslur. Villuleit á færslum er nauðsynlegt skref sem þarf að gerast áður en hægt er að færa færslurnar inn í uppgjörin. Einnig þarf að skilgreina **Gjafakortsvöru** í flýtiflipanum **Gjafakort** í flipanum **Bókun** á síðunni **Færibreytur Commerce**. Þetta þarf að skilgreina, jafnvel þótt fyrirtækið noti ekki gjafakort.
 
 > [!NOTE]
@@ -116,9 +117,17 @@ Uppgjör fer í gegnum ýmsar aðgerðir (til dæmis, stofna, reikna út, hreins
 
 ### <a name="aggregated-transactions"></a>Uppsafnaðar færslur
 
-Í bókunarferlinu er sölufærslunum safnað saman á grundvelli skilgreiningarinnar. Þessar uppsöfnuðu færslur eru geymdar í kerfinu og notaðar til að stofna sölupantanir. Sérhver uppsöfnuð færsla stofnar eina samsvarandi sölupöntun í kerfinu. Þú getur skoðað uppsafnaðar færslur með hnappnum **Uppsafnaðar færslur** í **Upplýsingar um framkvæmd** flokki uppgjörsins.
+Meðan á bókunarferlinu stendur eru staðgreiðslufærslur teknar saman eftir viðskiptavinum og vöru. Þess vegna er fjöldi sölupantana og lína sem eru búnar til minnkaðar. Safnaðar færslur eru geymdar í kerfinu og notaðar til að búa til sölupantanir. Sérhver uppsöfnuð færsla stofnar eina samsvarandi sölupöntun í kerfinu. 
 
-Flipinn **Upplýsingar um sölupöntun** á uppsafnaðri færslu sýnir eftirfarandi upplýsingar:
+Ef yfirlit er ekki að fullu bókað er hægt að skoða samanlagðar færslur í yfirlitinu. Á aðgerðarrúðunni, á **Yfirlýsing** flipa, í **Upplýsingar um framkvæmd** hópur, veldu **Samanlögð viðskipti**.
+
+![Hnappur fyrir samansafnaðar færslur fyrir yfirlit sem er ekki að fullu bókað.](media/aggregated-transactions.png)
+
+Fyrir bókaðar yfirlit er hægt að skoða samanlagðar færslur á **Settar yfirlýsingar** síðu. Á aðgerðarrúðunni velurðu **Fyrirspurnir**, og veldu síðan **Samanlögð viðskipti**.
+
+![Skipun um samansafnaðar færslur fyrir bókaðar yfirlit.](media/aggregated-transactions-posted-statements.png)
+
+The **Upplýsingar um sölupöntun** Flýtiflipi uppsafnaðrar færslu sýnir eftirfarandi upplýsingar:
 
 - **Færslukenni** - Kenni uppsöfnuðu færslunnar.
 - **Uppgjörsnúmer** - Uppgjörið sem uppsafnaða færslan tilheyrir.
@@ -127,12 +136,28 @@ Flipinn **Upplýsingar um sölupöntun** á uppsafnaðri færslu sýnir eftirfar
 - **Fjöldi uppsafnaðra lína** - Heildarfjöldi lína fyrir uppsafnaða færslu og sölupöntun.
 - **Staða** - Síðasti staða uppsöfnuðu færslunnar.
 - **Reikningskenni** - Kenni sölureiknings þegar sölupöntun fyrir uppsafnaða færslu er stofnuð. Ef þessi reitur er auður hefur reikningurinn fyrir sölupöntunina ekki verið bókaður.
+- **Villumelding** – Þessi reitur er stilltur ef samsöfnunin er í villuástandi.
+- **Villu skilaboð** – Þessi reitur er stilltur ef samsöfnunin er í villuástandi. Það sýnir upplýsingar um hvað olli því að ferlið mistókst. Þú getur notað upplýsingarnar í villukóðanum til að laga málið og síðan endurræsa ferlið handvirkt. Það fer eftir tegund upplausnar, gæti þurft að eyða uppsöfnuðum sölu og vinna í nýrri yfirlýsingu.
 
-Flipinn **Færsluupplýsingar** á uppsafnaðri færslu sýnir allar færslur sem hafa verið dregnar inn í uppsafnaða færslu. Uppsafnaðar línur í uppsafnaðri færslu sýna allar uppsafnaðar skrár frá færslum. Uppsafnaðar línur sýna einnig upplýsingar eins og vöru, afbrigði, magn, verð, nettóupphæð, einingu og vöruhús. Í grundvallaratriðum samsvarar hver uppsöfnuð lína einni sölupöntunarlínu.
+![Reitir á flýtiflipanum Sölupöntunarupplýsingar fyrir uppsafnaða færslu.](media/aggregated-transactions-error-message-view.png)
 
-Frá síðunni **Uppsafnaðar færslur** er hægt að hlaða niður XML-skrá fyrir tiltekna uppsafnaða færslu með því að nota hnappinn **Flytja út XML-skrá sölupantana**. Þú getur notað XML-skrá til að kemba vandamál sem hafa með stofnun sölupantana og bókanir að gera. Sæktu einfaldlega XML-skrána, svo skaltu hlaða hana upp í prófunarumhverfi og kemba vandamálið í prófunarumhverfinu. Virknin til að hlaða niður XML-skránni fyrir uppsafnaða færslu er ekki í boði fyrir uppgjör sem hafa verið bókuð.
+The **Upplýsingar um viðskipti** Flýtiflipi uppsafnaðrar færslu sýnir allar færslur sem hafa verið dregnar inn í samansafnaða færslu. Uppsafnaðar línur í uppsafnaðri færslu sýna allar uppsafnaðar skrár frá færslum. Uppsafnaðar línur sýna einnig upplýsingar eins og vöru, afbrigði, magn, verð, nettóupphæð, einingu og vöruhús. Í grundvallaratriðum samsvarar hver uppsöfnuð lína einni sölupöntunarlínu.
 
-Yfirlit uppsafnaðrar færslu veitir eftirfarandi kosti:
+![Færsluupplýsingar flýtiflipi uppsafnaðrar færslu.](media/aggregated-transactions-sales-details.png)
+
+Í sumum tilfellum gætu uppsafnaðar færslur mistekst að bóka samantekna sölupöntun þeirra. Í þessum aðstæðum verður villukóði tengdur yfirlýsingastöðunni. Til að skoða aðeins samanlagðar færslur sem innihalda villur geturðu virkjað **Sýna aðeins mistök** sía í uppsafnaðar færsluskjánum með því að velja gátreitinn. Með því að virkja þessa síu takmarkarðu niðurstöðurnar við samanlagðar færslur sem hafa villur sem krefjast úrlausnar. Fyrir upplýsingar um hvernig á að laga þessar villur, sjá [Breyta og endurskoða netpöntun og ósamstilltar pöntunarfærslur viðskiptavina](edit-order-trans.md).
+
+![Gátreitur fyrir síuna Sýna aðeins bilanir í uppsafnaðar færsluskjánum.](media/aggregated-transactions-failure-view.png)
+
+Á **Samanlögð viðskipti** síðu geturðu hlaðið niður XML fyrir tiltekna uppsafnaða færslu með því að velja **Flytja út safngögn**. Þú getur skoðað XML í hvaða XML sniði sem er til að sjá raunverulegar upplýsingar um gögn sem fela í sér stofnun og bókun sölupöntunar. Virknin til að hlaða niður XML-skránni fyrir uppsafnaða færslu er ekki í boði fyrir uppgjör sem hafa verið bókuð.
+
+![Hnappurinn Flytja út samansafn gagna á síðunni Samanlögð færslur.](media/aggregated-transactions-export.png)
+
+Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntuninni eða gögnum sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
+
+![Eyða pöntun viðskiptavinar hnappur í uppsafnaðar færsluskjánum.](media/aggregated-transactions-delete-cust-order.png)
+
+Uppsöfnuð færsluyfirlit veitir eftirfarandi kosti:
 
 - Notandinn hefur sýnileika í uppsafnaðar færslur sem mistókust við stofnun sölupöntunar og sölupantanir sem mistókust við reikningsfærslu.
 - Notandinn hefur sýnileika í hvernig færslum er safnað saman.

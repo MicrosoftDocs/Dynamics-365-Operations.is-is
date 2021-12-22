@@ -2,7 +2,7 @@
 title: Uppsetning tekjuskráningar
 description: Þetta efnisatriði lýsir uppsetningarkostum fyrir tekjuskráningu og þýðingu þeirra.
 author: kweekley
-ms.date: 08/24/2018
+ms.date: 11/24/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
+ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675179"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "7867221"
 ---
 # <a name="revenue-recognition-setup"></a>Uppsetning tekjuskráningar
 [!include [banner](../includes/banner.md)]
@@ -61,7 +61,7 @@ Fyrri atburðarásin gerist eftir að allar samningsbundnar skyldur eru uppfyllt
 
 Seinni atburðarásin gerist þegar færslubók er stofnuð eftir að endurúthlutun á sér stað. Endurúthlutun á sér stað þegar sölupöntunarlínu er bætt við áður reikningsfærða sölupöntun eða þegar ný sölupöntun er stofnuð sem inniheldur línu sem er hluti upprunalega samningsins. Ef reikningur var bókaður áður en nýrri sölupöntunarlínu var bætt við verður að stofna leiðrétta bókhaldsfærslu fyrir bókaðan reikning viðskiptavinar.
 
-Færslubókin er sett upp á síðunni **Færslubókarheiti** (**Tekjuskráning \> Uppsetning \> Færslubókarheiti**). Gerð færslubókar verður að vera stillt á **Tekjuskráning**. Í færslubók tekjuskráningar er hægt að velja bókunarlagið sem á að bóka á.
+Færslubókin er sett upp á síðunni **Færslubókarheiti** (**Tekjuskráning \> Uppsetning \> Færslubókarheiti**). Gerð færslubókar verður að vera stillt á **Tekjuskráning**. 
 
 ## <a name="parameters-for-revenue-recognition"></a>Færibreytur fyrir tekjuskráningu
 

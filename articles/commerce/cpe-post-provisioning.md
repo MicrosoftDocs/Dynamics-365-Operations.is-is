@@ -2,7 +2,7 @@
 title: Skilgreina Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
 author: psimolin
-ms.date: 08/24/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
+ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416480"
+ms.lasthandoff: 12/11/2021
+ms.locfileid: "7913728"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
 
@@ -39,6 +39,7 @@ Eftir að Commerce-umhverfismatinu hefur verið úthlutað í heild sinni, þarf
 1. Veldu umhverfið á listanum.
 1. Í upplýsingum um umhverfið hægra megin skal velja **Skrá inn í umhverfi**. Þér verður beint á Commerce Headquarters.
 1. Gakktu úr skugga um að lögaðilinn **USRT** sé valinn efst í hægra horninu.
+2. Fara til **Viðskiptafæribreytur > Stillingarfæribreytur** og vertu viss um að það sé færsla fyrir **ProductSearch.UseAzureSearch** stillt á **satt**. Ef þessa færslu vantar geturðu bætt þessari færslu við og keyrt **Rásargagnagrunnur > Full samstilling** fyrir Commerce Scale eininguna sem tengist eCommerce vefsíðunni þinni.
 
 Við úthlutun verkþátta eftir á í Commerce Headquarters skal ganga úr skugga um að **USRT** lögaðilinn sé alltaf valinn.
 
@@ -105,6 +106,12 @@ Til að virkja vinnslur í Commerce skal fylgja þessum skrefum.
     1. Veldu skrána.
     1. Í aðgerðaglugganum á flipanum **Runuvinnsla** velurðu **Breyta stöðu**.
     1. Velja skal **Hætta við** og svo **Í lagi**.
+
+1. Ef staða starfsins er **Haldið eftir**, fylgdu þessum skrefum:
+
+    1. Veldu skrána.
+    1. Í aðgerðaglugganum á flipanum **Runuvinnsla** velurðu **Breyta stöðu**.
+    1. Veldu **Bíður** og síðan **Í lagi**.
 
 Einnig er hægt að stilla endurtekningartímabil á eina (1) mínútu fyrir eftirfarandi störf:
 

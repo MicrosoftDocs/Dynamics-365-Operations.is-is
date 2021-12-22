@@ -2,7 +2,7 @@
 title: Yfirlit fjárhagsáætlunarstýringar
 description: Í þessu efnisatriði er kynntur eiginleiki fjárhagsáætlunarstýringar og veittar upplýsingar sem hjálpa til við að stilla fjárhagsáætlunarstýringu til að ná sem mest út úr stjórnun á fjárhagslegum tilföngum fyrirtækisins.
 author: panolte
-ms.date: 06/25/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0c8e7a08796a7f1c537978e406f53531e0f0682e6b5a769ced9d771063c30d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 21277361a3d05c57be7aeaa05348723e23873ef6
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772880"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890726"
 ---
 # <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar
 
@@ -78,9 +78,7 @@ Næsta á **heimildir Yfir fjárhagsáætlun** flipanum, geturðu tilgreint note
 Næst, á **fjármagn fjárhagsáætlunar sem er tiltækt** síðu er hægt að skilgreina formúlu til að nota við útreikning á tiltækt fjármagn fjárhagsáætlunar. Byggt á því hve íhaldssamur stofnun stjórnar sínu fjármagn , eða í umfjöllun um reglugerðir eða iðnaður kröfur, geta útreikningur innihaldið drög eða óbókað skjal. 
 
 > [!NOTE]
-> Ef þessum útreikningi er breytt við ferli fjárhagsáætlunar, munu breytingarnar ekki hafa áhrif á nein skjöl sem áður hafa staðist athuganir fjárhagsáætlunarstýringar og sem hafa verið bókaðar eða lokið. Í forritsútgáfu 10.0.17 var byrjað að bjóða upp á nýjan eiginleika, **Aðeins rekja upphæðir í útreikningi á tiltæku fjármagni fjárhagsáætlunar**, fyrir útvalda viðskiptavini. Þessi eiginleiki gerir þér kleift að breyta því hvaða gögn eru rakin í töflunni BudgetSourceTracking. Þegar kveikt er á þessum eiginleika eru upphæðir aðeins geymdar ef þær eru valdar til að nota við útreikning á tiltæku fjármagn fjárhagsáætlunar. Til að biðja um að eiginleikinn **Aðeins rekja upphæðir í útreikningi á tiltæku fjármagni fjárhagsáætlunar** verði virkjaður skal hafa samband við notendaþjónustu. 
-
-### <a name="documents-and-journals"></a>Skjöl og færslubækur
+> Ef útreikningnum er breytt í fjárhagsáætlunarlotu munu breytingarnar ekki hafa áhrif á skjöl sem áður stóðust eftirlitseftirlit fjárhagsáætlunar og voru bókuð eða lokið. Eiginleiki sem er nefndur **Fylgstu aðeins með upphæðum í tiltækum útreikningi fjárlaga** gerir þér kleift að breyta hvaða gögnum er rakið í BudgetSourceTracking töflunum. Þegar kveikt er á þessum eiginleika eru upphæðir aðeins geymdar ef þær eru valdar til að nota við útreikning á tiltæku fjármagn fjárhagsáætlunar. Fyrir frekari upplýsingar, sjá [Fjármagn til ráðstöfunar](budget-funds-available.md).
 
 Næst, í **Skjöl og færslubækur** síðu er hægt að velja hvaða upprunaskjöl og færslubækur verður háð athuganir fjárhagsáætlunarstýringar og hvort athugun mun eiga sér stað á stigi innfærslu lína eða fyrir skjalið í heild. 
 

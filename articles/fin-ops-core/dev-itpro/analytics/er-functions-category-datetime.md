@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647264"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890778"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
 
@@ -37,8 +37,8 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Þessi aðgerð skilar *String*-gildi sem setur fram tiltekið dagsetningar-/tímagildi sem texta á tilteknu sniði og í valinni tiltekinni menningu. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni menningu í dagsetningar-/tímagildi. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu dagsetningargildi í dagsetningar-/tímagildi í samræmdan alþjóðlegan tíma (meðaltími Greenwich \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Þessi aðgerð skilar *Date*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni menningu í dagsetningargildi. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Þessi aðgerð skilar *heiltölu*-gildi sem sýnir fjölda daga milli 1. janúar og tilgreindrar dagsetningar. |
+| [DateValue](er-functions-datetime-datevalue.md) | Þessi aðgerð skilar a *[Dagsetning](er-formula-supported-data-types-primitive.md#date)* gildi sem er breytt úr tilteknu textagildi á tilgreindu sniði og í valkvætt tilgreindri menningu í dagsetningargildi. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Þessi aðgerð skilar an *[Heiltala](er-formula-supported-data-types-primitive.md#integer)* gildi sem táknar fjölda daga milli 1. janúar og tilgreindrar dagsetningar. |
 | [Dagar](er-functions-datetime-days.md) | Þessi aðgerð skilar *heiltölu*-gildi sem sýnir fjölda daga milli einnar tilgreindrar dagsetningar og annarrar tilgreindrar dagsetningar. |
 | [Now](er-functions-datetime-now.md) | Þessi aðgerð skilar *DateTime*-gildi sem táknar dagsetningu og tíma núverandi netþjóns hugbúnaðar. |
 | [NullDate](er-functions-datetime-nulldate.md) | Þessi aðgerð skilar *Dagsetningar*-gildi sem táknar **núll** dagsetningu (1. janúar, 1900). |
@@ -46,6 +46,7 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 | [SessionNow](er-functions-datetime-sessionnow.md) | Þessi aðgerð skilar *DateTime*-gildi sem táknar setudagsetningu og -tíma núverandi hugbúnaðar. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Þessi aðgerð skilar *Date*-gildi sem táknar setudagsetningu núverandi hugbúnaðar. |
 | [Í dag](er-functions-datetime-today.md) | Þessi aðgerð skilar *Date*-gildi sem táknar netþjónsdagsetningu núverandi hugbúnaðar. |
+| [VikuNum](er-functions-datetime-weeknum.md) | Þessi aðgerð skilar an *Heiltala* gildi sem táknar viku ársins. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

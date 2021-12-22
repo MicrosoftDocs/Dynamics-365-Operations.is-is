@@ -70,12 +70,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.23
+                    - name: Finance 10.0.24 (febrúar)
+                      href: get-started/whats-new-changed-10-0-24.md
+                    - name: Finance 10.0.23 (janúar)
                       href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (nóvember 2021)
                       href: get-started/whats-new-changed-10-0-22.md
-                    - name: Finance 10.0.21 (október 2021)
-                      href: get-started/whats-new-changed-10-0-21.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -518,6 +518,8 @@
               href: budgeting/budget-control-overview-configuration.md
             - name: Yfirlit fjárhagsáætlunar
               href: budgeting/basic-budgeting-overview-configuration.md
+            - name: Tiltækt fjármagn úr fjárhagsáætlun
+              href: budgeting/budget-funds-available.md
             - name: Stöðuspá
               href: budgeting/position-forecasting.md
             - name: Rökstuðningsskjöl fjárhagsáætlunargerðar
@@ -1434,6 +1436,8 @@
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Setja upp rafrænar reikningsfærslur
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
+                        - name: Power Platform-tilvísun stjórnanda fyrir viðbót
+                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Algengar spurningar um rafrænar reikningsfærslur
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Skattaútreikningur
@@ -1444,6 +1448,14 @@
                       items:
                         - name: Hafist handa með skattaútreikning
                           href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Setja upp skattakóða
+                          href: localizations/set-up-tax-codes.md
+                        - name: Setja upp skattflokka
+                          href: localizations/set-up-tax-groups.md
+                        - name: Setja upp vöruskattsflokka
+                          href: localizations/set-up-item-tax-groups.md
+                        - name: Útreikningar á inn- og útflutningsgjaldi
+                          href: localizations/tax-calculation-import-export-feature.md
                         - name: Setja upp umhverfi fyrir uppflettingar aðalgagna
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Ákvörðun
@@ -2594,6 +2606,8 @@
               items:
                 - name: Yfirlit fyrir Indónesíu
                   href: localizations/indonesia.md
+                - name: Númer skattreikninga og reikningagerð
+                  href: localizations/apac-idn-invoicing.md
                 - name: VSK-skýrsla fyrir Indónesíu
                   href: localizations/apac-idn-ppn-declaration.md
             - name: Ítalía
@@ -2662,6 +2676,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Rafrænir reikningar viðskiptavinar
                   href: localizations/emea-ita-e-invoices.md
+                - name: Rafrænir reikningar frá lánardrottni
+                  href: localizations/emea-ita-vend-e-invoices.md
                 - name: Árleg skattsamskipti
                   href: localizations/emea-ita-yearly-tax-communication.md
                 - name: Rekjanleiki greiðslu
@@ -2964,6 +2980,20 @@
                   href: localizations/emea-nor-nets-import-format.md
                 - name: VSK-yfirlit
                   href: localizations/emea-nor-sales-tax-payment-report.md
+                - name: VSK-skilagrein með beinni innsendingu til Altinn
+                  items:
+                    - name: Yfirlit yfir VSK-framtal með beinni innsendingu til Altinn
+                      href: localizations/emea-nor-vat-return.md
+                    - name: Skráðu samþættingarstað í ID-porten vefgáttinni
+                      href: localizations/emea-nor-vat-return-integration-point.md
+                    - name: Undirbúðu umhverfið þitt fyrir samvirkni við ID-porten og vefþjónustu Altinn
+                      href: localizations/emea-nor-vat-return-setup.md
+                    - name: Gátlisti fyrir uppsetningu rafrænna skilaboða fyrir VSK-framtal
+                      href: localizations/emea-nor-vat-return-checklist.md
+                    - name: Heimila Finance-umhverfi þínu að vinna með ID-porten og vefþjónustu Altinn
+                      href: localizations/emea-nor-vat-return-authorization.md
+                    - name: Senda VSK-skilagrein til vefþjónustu Altinn
+                      href: localizations/emea-nor-vat-return-submission.md
                 - name: Stöðluð endurskoðunarskrá fyrir skattaupplýsingar (SAF-T) í Noregi
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Rafrænir reikningar viðskiptavinar í Noregi
@@ -3831,6 +3861,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
+                        - name: WeekNum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-weeknum.md?toc=/dynamics365/finance/toc.json
                     - name: List
                       items:
                         - name: Listaaðgerðir
